@@ -6,14 +6,15 @@ state: BY
 city: Oberasbach
 street: ''
 postcode: ''
-phone: '+49 911 384 330 00'
-email: info@mm-kat.de
+phone: ''
+email: ''
 opening_hours: ''
 website: https://mm-kat.de/
 website_status: aktiv
-status: aktiv
-description: 'Ankauf und Recycling von Auto-, LKW-, Bus- und Industriekatalysatoren, Dieselpartikelfiltern, Monolithen und metallischen Trägern; Bewertung nach Material/Analyse, Angebot auf Anfrage.'
-dropoff_json: '{"allowed": true, "conditions": "Betreiberwebsite nennt Anlieferung nach Vereinbarung in Mathildenstraße 20, 90489 Nürnberg. Nur nach Termin; die Adresse ist nicht als regulär geöffneter Hof oder rechtlicher Hauptsitz bestätigt. Hauptanschrift im Impressum: Flurstr. 24, 90522 Oberasbach."}'
+status: pruefung
+description: ''
+clear_fields: 'description,dropoff_json,email,geo,phone'
+dropoff_json: ''
 pickup_json: ''
 provenance_section: Betriebe mit geprüfter Website
 provenance_ankauf_raw: ja
@@ -24,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle Betreiberwebsite und das Impressum nennen **MM-Kat GbR**, Flurstr. 24, 90522 Oberasbach, mit den Gesellschaftern Sascha und Jochen Müller. Der Betrieb bewirbt Ankauf/Recycling von Auto-, LKW-, Bus- und Industriekatalysatoren, DPF, Monolithen sowie metallischen Trägern. Das Impressum und der allgemeine Seitenfuß führen +49 911 384 330 00 und info@mm-kat.de; eine Stadt-Landingpage nennt zusätzlich +49 176 466 25 709. Die Telefonnummern daher nicht als einheitlichen Kontakt missverstehen.
+Die Betreiberwebsite und ihr Impressum führen **MM-Kat GbR**, Flurstr. 24, 90522 Oberasbach, mit den Gesellschaftern Sascha und Jochen Müller; sie bewerben Katalysator-/DPF-Ankauf und nennen außerdem Anlieferung nach Vereinbarung in Nürnberg. Da die GbR-Identität und konkreten Stammdaten nicht unabhängig zweitbelegt sind, wird `status: pruefung` beibehalten und Beschreibung, Kontakte sowie Annahme nicht als bestätigte Händlerdaten ausgespielt. Der in Produktion gespeicherte Punkt liegt an der Albrecht-Dürer-Straße 104 und ist weder die Impressumsadresse noch der genannte Terminstandort. Auch das zuvor gespeicherte `allowed:true` wird mangels verifizierter Zuordnung der Lieferzusage zu dieser Seed-Zeile mit `clear_fields` zurückgenommen. Die Website bleibt als Betreiber-Lead erreichbar.
 
 **Ankauf:** Bewertung/Angebot nach Material, Sortierung und Analyse; die Betreiberseite verlinkt einen Katalysator-Preiskatalog mit produktspezifischer OEM-Code-Abfrage, aber keine statisch lesbare, allgemeingültige Stückpreisliste. Ein Suchindex zeigte zudem Referenzwerte für Platin, Palladium und Rhodium mit unklar formatierter Zeitmarke; sie sind keine belegte MM-Kat-Auszahlung. **Verkauf:** keine Verkaufspreisliste. **Gebühren:** kein bestätigter Annahmetarif; ein indexierter €5-Versandhinweis ist hinsichtlich Zahler/Transaktion nicht eindeutig. **GEO:** Flurstr. 24 ist die Impressumsanschrift, nicht ausdrücklich als Kundenannahme belegt; die Website nennt Anlieferung nach Vereinbarung an Mathildenstraße 20, 90489 Nürnberg. Diesen Terminstandort nicht als Filiale oder dauerhaft geöffneten Hof ausgeben.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält `dropoff_json={"allowed":true}` und GEO 49.4228/10.9577. Die Website nennt Anlieferung nur nach Vereinbarung an Mathildenstraße 20, Nürnberg; ihr Impressum bezeichnet dagegen Flurstraße 24 als Geschäftsanschrift. Die Gesellschafter-/GbR-Zuordnung und der Bezug beider Angaben zur bestehenden Seed-Zeile sind nicht unabhängig zweitbelegt; die Website erfüllt die README-Ausnahme für eine registerkongruente Betreiberquelle nicht. Der Produktionspunkt löst an Albrecht-Dürer-Straße 104 auf und passt zu keiner der beiden Betreiberangaben. `status` bleibt `pruefung`; `clear_fields: 'description,dropoff_json,email,geo,phone'` entfernt das unbestätigte Profil, die Annahme, Kontakte und den falschen Punkt, ohne `allowed:false` abzuleiten. Website und operatorseitige Aussagen bleiben als Leads/Timeline dokumentiert. Quellen: https://mm-kat.de/ ; https://mm-kat.de/impressum/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.4228&lon=10.9577&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 25.10.2026
 

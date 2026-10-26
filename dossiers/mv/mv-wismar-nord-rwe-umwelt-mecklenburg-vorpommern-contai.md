@@ -13,6 +13,7 @@ website: 'https://nord.alba.info/unternehmen/standorte/detail/location/betriebss
 website_status: aktiv
 status: aktiv
 description: 'Betriebsstätte Wismar: Abfallannahme für Privat- und Gewerbekunden, Containerdienst (Behälter 80 l bis 34 m³), Komplettentsorgung. Kein veröffentlichter Metallankaufskurs.'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Betriebe, nur Verzeichnisbeleg
@@ -31,6 +32,10 @@ ALBA Metall Nord am selben Standort bleibt ein separat dokumentierter historisch
 **Ankauf:** keine ausdrückliche Metallvergütung oder Ankaufskurse belegt. **Verkauf:** keine Materialverkaufspreise. **Gebühren:** ALBA Nord bietet Abfallannahme und Containerdienst mit individuellem Angebot; keine bezifferten Abfall-/Containergebühren. Nicht mit Metallankauf gleichsetzen. **GEO:** bestätigter Betriebsstandort Tonnenhofstraße 12, 23970 Wismar; keine Koordinate ergänzt.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Die zusätzliche direkt gelesene NorthData-Seite zu ALBA Nord GmbH, AG Schwerin HRB 558, führt in der Namenshistorie ALBA Mecklenburg-Vorpommern GmbH und RWE Umwelt Mecklenburg-Vorpommern GmbH. Das stützt die im offiziellen Registerspiegel dokumentierte Namensfolge unabhängig an den Rechtsträgerendpunkten; die aktuelle ALBA-Standortdetailseite bestätigt weiterhin die Betriebsstätte Wismar, Tonnenhofstraße 12. Kein Merge mit ALBA Metall Nord. Read-only Produktion enthält GEO 53.88925/11.44455, das auf eine Mennekes-Ladestation an der Bürgermeister-Haupt-Straße auflöst, nicht auf Tonnenhofstraße 12. `clear_fields: 'geo'` zieht den falschen Punkt zurück; kein Ersatz-GEO für den weiterhin nicht punktgenau bestimmten Eingang. Quellen: https://www.northdata.de/ALBA%20Nord%20GmbH,%20Schwerin/HRB%20558 ; https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.88925&lon=11.44455&zoom=18&addressdetails=1 ; README.md, Betreiberkettenregel.]
 
 ### Owner-Prüfung 25.10.2026
 

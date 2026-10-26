@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: 'Historischer Unternehmensgegenstand: An- und Verkauf von Eisen- und Stahlschrott; GmbH i.L., gelöscht 24.10.2022.'
+description: 'NorthData-Registerspiegel meldet für die Berni Pfleging GmbH (HRB 6222 AG Gütersloh) die Löschung am 24.10.2022; unabhängige Bestätigung fehlt. Aktuelle Fortführung ungeklärt.'
 clear_fields: 'geo,phone'
 dropoff_json: ''
 pickup_json: ''

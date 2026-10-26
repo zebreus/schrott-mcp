@@ -1,19 +1,20 @@
 ---
 slug: rp-borrstadt-ayan-borrstadt
-name: Resul Ayan Schrotthandel
-trader_type: schrotthaendler
+name: Ayan Börrstadt
+trader_type: sonstige
 state: RP
 city: Börrstadt
-street: Kaiserstraße 5
-postcode: '67725'
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: https://www.schrotthandel-ayan.de/
-website_status: aktiv
-status: aktiv
-description: Schrott-/Metallhandel, Containerdienst, Demontage und Autorecycling.
-dropoff_json: '{"allowed":true,"conditions":"Betreiberseite lädt zum direkten Besuch am Standort Kaiserstraße 5 ein und nennt Annahme kleiner und großer Mengen; aktuelle Ankaufspreise vorab erfragen. Betreiberseite und SMU-Zertifikate vom 26.10.2026."}'
+website: ''
+website_status: unbekannt
+status: pruefung
+clear_fields: 'geo'
+description: ''
+dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net PROSE-Cluster (27.09.2026)
 provenance_ankauf_raw: unklar
@@ -24,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt **schrotthandel-ayan.de** nennt Resul Ayan und Kaiserstraße 5, 67725 Börrstadt. Zwei 2026 ausgestellte, aktuell gültige Zertifikate der SMU GmbH führen den Betrieb als „R. Ayan Schrotthandel, Autorecycling, Containerdienst“ an derselben Anschrift; die Zertifikate sind als Betreiber-Uploads erreichbar und wurden nicht in einem Ausstellerregister gegengeprüft. Damit sind Firmen-/Tätigkeitszuordnung und Geschäftsanschrift gegenüber dem Seed deutlich besser gestützt. Die Materialankaufseite lädt ausdrücklich zum direkten Besuch ein und nennt Annahme kleiner und großer Mengen; das wird als Anlieferung dokumentiert, aber nicht in Koordinaten umgerechnet. Telefonnummer, E-Mail und Öffnungszeiten bleiben mangels unabhängiger Bestätigung im Frontmatter leer.
+Die Betreiberwebsite und zwei dort hochgeladene SMU-Zertifikate nennen **R. Ayan Autorecycling/Schrotthandel** an der Kaiserstraße 5 in Börrstadt. Die Zertifikate wurden nicht bei der ausstellenden Stelle verifiziert; weder sie noch die Betreiberwebsite sind eine unabhängige zweite Quelle zur Zuordnung des bestehenden Seed-Datensatzes `Ayan Börrstadt`. Deshalb bleiben Name, Typ, Anschrift, Aktivstatus und Kundenannahme ungeändert bzw. ungefüllt. `status: pruefung`; keine aktive Annahme oder Auszahlung behauptet. Die genannten Preis- und Serviceaussagen bleiben Recherche-Leads.
 
 **Ankauf:** Betreiber wirbt mit Tagespreisen auf Anfrage für u. a. Kupfer, Kabel, Messing, Zink, Aluminium, Mischschrott, Eisen, V2A, Batterien und Elektromotoren; keine Zahlenkurse. **Verkauf:** allgemeiner An-/Verkauf von Schrott genannt, aber keine Materialpreisliste; die Website sagt ausdrücklich, dass keine gebrauchten Kfz-Teile verkauft werden. **Gebühren:** Containerdienst und Abholung werden beworben, jedoch ohne konkrete Tarife; keine pauschal kostenlose Abholung behaupten.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Seed-Diff-Review bestätigt, dass die aktuellen Betreiberangaben und beide SMU-Zertifikate auf der Betreiberwebsite selbst gehostet werden; ein unabhängiger zulässiger Zweitbeleg für die Verbindung zur bisherigen Zeile `Ayan Börrstadt` fehlt. Die vorgeschlagenen Änderungen an Name, Typ, Anschrift, Website, Status und Drop-off werden daher zurückgestellt; die unvollständige importierte Straßenzeichenfolge wird nicht als Adresse übernommen. Read-only Produktionspunkt 49.5777/7.9425 löst auf Gebäude Gartenweg 1, nicht auf Kaiserstraße 5; `clear_fields: 'geo'` entfernt den falschen Punkt ohne Ersatzkoordinate. Quellen: https://www.schrotthandel-ayan.de/ ; https://www.schrotthandel-ayan.de/impressum ; https://www.schrotthandel-ayan.de/materialankauf ; https://www.schrotthandel-ayan.de/uploads/2ULsB1WR/Entsorgungsfachbetrieb.pdf ; https://www.schrotthandel-ayan.de/uploads/PPUnQXUS/anerkannter-Demontagebetrieb.pdf ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.5777&lon=7.9425&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 26.10.2026
 

@@ -1,0 +1,15 @@
+# Collecta identity chain — owner check-in, 26.10.2026
+
+## Finding
+
+**Yes: legal continuity is directly established by the Wiesbaden Handelsregister, not merely inferred from shared COLLECTA branding.** On 14.06.1999, the former `COLLECTA Rohstoff Gesellschaft mit beschränkter Haftung` (HRB 4980) was merged by absorption into the already-existing `Claar & Meinl GmbH & Co. Dienstleistungs- und Beteiligungs KG` (HRA 4165). The receiving KG changed its name to `COLLECTA Rohstoff GmbH & Co. KG`; the GmbH was extinguished. The present operator remains HRA 4165, now registered at Senefelderstraße 3 a, 65205 Wiesbaden.
+
+This was **a merger into an existing KG**, not a direct conversion of the GmbH into a KG. The records also support operational continuity: the GmbH’s stated wholesale purpose included raw materials, especially wastepaper; the current operator describes B2B wastepaper trading. The historical HRB record says only **Wiesbaden**—it does not substantiate the seed’s specific `65183` postcode or a street address.
+
+## Evidence and source boundary
+
+- **Primary—official Handelsregister:** queried the [Joint Register Portal](https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml), Amtsgericht Wiesbaden. Historical printout (HD), **HRB 4980**, sheet 1 and reverse, entry 12 (14.06.1999), names the absorbed GmbH, receiving KG/HRA 4165, new firm, and extinction. Historical printout (HD), **HRA 4165**, sheet 1, entries 1–2 (20.10.1995; 14.06.1999), independently records the KG’s formation and the same merger/name change. Current printout (AD), **HRA 4165**, retrieved 26.10.2026, gives the current firm/address and records the KG’s beginning as 20.10.1995. Portal filenames at retrieval: `HE-Wiesbaden_HRB_4980+HD-20261026231116.pdf`, `HE-Wiesbaden_HRA_4165+HD-20261026231401.pdf`, `HE-Wiesbaden_HRA_4165+AD-20261026231550.pdf`.
+- **Independent accepted cross-check—NorthData:** [HRB 4980](https://www.northdata.com/COLLECTA%20Rohstoff%20GmbH,%20Wiesbaden/HRB%204980) identifies the former GmbH; [HRA 4165](https://www.northdata.com/COLLECTA%20Rohstoff%20GmbH%20%26%20Co.%20KG,%20Wiesbaden/HRA%204165) identifies the current KG and Senefelderstraße 3 a/65205. Its public pages corroborate the two endpoints but do **not** themselves display the 1999 merger.
+- **Operational cross-check:** the [current operator page](https://www.collecta-rohstoff.de/collecta-rohstoff/) describes B2B wastepaper trading; its [imprint](https://www.collecta-rohstoff.de/impressum/) names HRA 4165 and Senefelderstraße 3A/65205.
+
+**Gate:** the legal link is conclusive in the primary register and appears on both register sheets. NorthData is the independent accepted source for the entity endpoints, but I did not find an independent accepted source that repeats the merger itself. If applying README’s strict second-source rule to the *transaction*, record that corroboration gap rather than treating endpoint matching as a second account of the merger. See [README: operator rename/merge chains](../README.md#operator-renamemerge-chains-betreiber-ketten).

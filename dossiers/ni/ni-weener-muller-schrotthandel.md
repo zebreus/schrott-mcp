@@ -12,8 +12,8 @@ opening_hours: 'Mo-Fr 08:00-12:30, 13:00-17:00; 2 Samstage/Monat 08:00-12:00 (Te
 website: https://www.schrotthandelmueller.com/
 website_status: aktiv
 status: aktiv
-description: 'Schrott- und Metallhandel in Weener; Betreiberangaben nennen An- und Verkauf von Alteisen, Buntmetallen und elektrischen Komponenten, direkte Verwiegung und Auszahlung.'
-dropoff_json: '{"allowed":true,"customer_types":["privat","gewerbe"],"conditions":"Betreiber lädt zur direkten Anlieferung an Industriestraße 10 ein; Öffnungszeiten laut Betreiberseite Mo-Fr 08:00-12:30 und 13:00-17:00, Sa 08:00-12:00. Material vorzusortieren. Die Seite listet Alteisen/Stahlschrott, NE-Metalle und elektrische Bauteile; zugleich steht dort \"KEINE ANNAHME VON ELEKTROGERÄTEN\" – genaue Abgrenzung vorab klären."}'
+description: 'Schrott- und Metallhandel in Weener; Betreiberangaben nennen An- und Verkauf von Alteisen, Buntmetallen und elektrischen Bauteilen, schließen Elektrogeräte jedoch aus; genaue Abgrenzung offen. Direkte Verwiegung und Auszahlung werden beworben.'
+dropoff_json: '{"allowed":true,"conditions":"Betreiber lädt zur direkten Anlieferung an Industriestraße 10 ein; Öffnungszeiten laut Betreiberseite Mo-Fr 08:00-12:30 und 13:00-17:00, an zwei Samstagen pro Monat 08:00-12:00 (konkrete Termine laut Betreiberseite). Material vorzusortieren. Die Seite listet Alteisen/Stahlschrott, NE-Metalle und elektrische Bauteile; zugleich steht dort \"KEINE ANNAHME VON ELEKTROGERÄTEN\"; genaue Abgrenzung vorab klären."}'
 pickup_json: ''
 provenance_section: Neue Funde (Gelbe Seiten, je Stadt abgefragt)
 provenance_ankauf_raw: unklar (schließt Weener-Lücke)
@@ -34,6 +34,10 @@ Der gleichnamige Facebook-Auftritt nennt ebenfalls Weener und beschreibt den Sch
 - **GEO:** keine Koordinaten gesetzt; die Betreiberadresse ist belegt, ein konkreter Koordinatenpunkt bzw. Zugang nicht.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Die strukturierte Annahmebedingung behauptete bisher eine wöchentliche Samstagsöffnung und Privat-/Gewerbekunden, obwohl die Betreiberbelege nur zwei konkrete Samstage pro Monat und keine Kundengruppen nennen. Samstagsregel auf zwei Samstage pro Monat präzisiert und `customer_types` entfernt. Die Beschreibung präzisiert außerdem, dass elektrische Bauteile genannt, Elektrogeräte aber ausdrücklich ausgeschlossen werden; die genaue Abgrenzung bleibt offen. Direkte Anlieferung, Verwiegung und Auszahlung bleiben durch den Betreiberauftritt belegt. Quellen: https://www.schrotthandelmueller.com/kontakt ; https://www.schrotthandelmueller.com/leistungen ; https://www.facebook.com/SchrottundMetallhandelMueller/ .]
 
 ### Recherche 24.10.2026: Betreiberauftritt und Annahmebedingungen
 

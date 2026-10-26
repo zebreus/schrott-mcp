@@ -4,15 +4,16 @@ name: Wertstoffaufbereitungszentrum Freidorf GmbH
 trader_type: wertstoffhaendler
 state: MV
 city: Möllenhagen
-street: Industriegelände 1
-postcode: 17219
-phone: 039928 70090
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
 description: 'Wertstoffaufbereitung/Entsorgung (HRB 4382 AG Neubrandenburg); heutige Betreiber- und Standortzuordnung ungeklärt.'
+clear_fields: 'geo,phone'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -29,6 +30,10 @@ NorthData nennt im Review am 18.10.2026 HRB 4382 als übertragenden und REMONDIS
 Die überlieferten Standortangaben Industriegelände 1/039928 70090 und Chaussee 4/039928 87820 weichen voneinander ab. Das private Profil online-handelsregister.de nennt Chaussee 4 bereits für die Altgesellschaft; die Adresse ist daher nicht ausschließlich ein neuer Gegenstandort. SPITZKE weist sich aktuell selbst an Industriegelände 1 aus und beschreibt dort Produktion sowie Bahnschwellenrecycling; dies belegt SPITZKE am Standort, aber weder eine WAZ-Rechtsnachfolge noch, dass die historische Aggregatoradresse sicher falsch ist. Grundstücks- und Betreiberzuordnung bleiben offen. REMONDIS-Seiten liefern aktuell keine lesbaren Betreiberinhalte; bisher notierte Kontakte, Betriebszeiten und Leistungen sind nicht bestätigt. Betriebszeiten wären ohnehin kein Beleg für Privatkundenannahme oder Ankauf. Kein aktueller Preis-/Gebührenbefund für den historischen WAZ-Rechtsträger, keine Adressübertragung oder GEO-Bearbeitung freigegeben.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält die historische Verzeichnisadresse Industriegelände 1/17219, Telefon 039928 70090 und GEO 53.5239/12.9287. Der Punkt löst bei Am Burgwall 3 auf und belegt weder Industriegelände 1 noch den konkurrierenden REMONDIS-Hinweis Chaussee 4. Das alte Unternehmen HRB 4382 wurde laut Registerspiegel 2017 verschmolzen; eine heutige Betriebsstätte oder Annahme durch einen Nachfolger ist nicht nachgewiesen. Deshalb werden Straße, PLZ und Telefon nicht länger als gegenwärtige Händlerdaten geführt; `clear_fields: 'geo,phone'` entfernt zusätzlich Telefonnummer und Fehlpunkt. Historische Leads und die offene Rechts-/Standortfrage bleiben in der Timeline, `status: pruefung`, keine Schließungs- oder Nachfolgerbehauptung und kein Ersatzpunkt. Quellen: https://www.northdata.de/Wertstoffaufbereitungszentrum+Freidorf+GmbH,+M%C3%B6llenhagen/Amtsgericht+Neubrandenburg+HRB+4382 ; https://www.spitzke.com/ueber-uns/standorte/ ; https://www.remondis-seenplatte.de/dienstleistungen ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.5239&lon=12.9287&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 21.10.2026
 

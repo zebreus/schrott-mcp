@@ -3,17 +3,18 @@ slug: nw-koln-wkr
 name: WKR GmbH
 trader_type: schrotthaendler
 state: NW
-city: Köln
-street: 'Hugo-Junkers-Str. 10a (Zweitstandort Rodenkirchen: Kirschbaumweg 8, 50996)'
-postcode: '50739'
-phone: 0221 97997814
+city: Köln-Rodenkirchen
+street: Kirschbaumweg 8
+postcode: '50996'
+clear_fields: 'geo'
+phone: 0221 97060622
 email: ''
-opening_hours: ''
+opening_hours: 'Annahme: Mo-Fr 08:00-16:00; Sa geschlossen'
 website: https://www.wkr-schrott.de/
-website_status: ''
+website_status: aktiv
 status: aktiv
-description: ''
-dropoff_json: ''
+description: 'Schrottplatz mit Metall-Schrotthandel und Abfallrecycling; Betreiber nennt Annahme für Unternehmen und Privatpersonen.'
+dropoff_json: '{"allowed":true,"customer_types":["privat","gewerbe"],"conditions":"Betreiberseite nennt für die WKR-Niederlassung Köln-Rodenkirchen Schrottannahme Mo-Fr 08:00-16:00; Samstag geschlossen. Die Website öffnet beide WKR-Schrottplätze ausdrücklich für Unternehmen und Privatpersonen."}'
 pickup_json: ''
 provenance_section: Köln / Bonn / Leverkusen / Dormagen
 provenance_ankauf_raw: ja
@@ -24,9 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dieses Dossier bildet die WKR-Niederlassung **Köln-Rodenkirchen** ab: Die Betreiber-Kontaktseite nennt Kirschbaumweg 8, 50996 Köln und 0221 97060622; dieselbe Telefonnummer steht bereits im read-only Produktionsbestand. Longerich (Hugo-Junkers-Str. 10a) ist eine getrennte WKR-Niederlassung und wird nicht in dasselbe Adressfeld gemischt. Die ebenfalls auf der Kontaktseite genannte Niederlassung Niehl gehört zur separaten MKR Rothenbücher GmbH. Der bisherige Produktionspunkt löst an der Longericher Straße 193 auf, nicht in Rodenkirchen; `clear_fields: 'geo'` entfernt ihn beim nächsten regulären Seed. Für den bestätigten Zweig ist keine präzise Ersatzkoordinate freigegeben.
 
 ## Timeline
+
+### Owner-Nachkorrektur 26.10.2026
+
+- [Owner-Nachkorrektur 26.10.2026: Die vorherige Owner-Auswahl Longerich wird anhand der vorhandenen Produktions-Telefonnummer 0221 97060622 korrigiert: Die Betreiber-Kontaktseite ordnet genau diese Nummer dem WKR-Standort Rodenkirchen (Kirschbaumweg 8, 50996) zu, während Longerich die andere Nummer 0221 97997814 hat. Die Frontmatter-Adresse bildet daher Rodenkirchen ab; die nachfolgende ältere Owner-Timeline bleibt als Recherchehistorie stehen, wird durch diese Nachkorrektur aber ausdrücklich supersediert. Die direkt gelesene WKR-Start- und Kontaktseite belegt an beiden Standorten Schrottannahme, nennt für Rodenkirchen Montag bis Freitag 08:00-16:00, Samstag geschlossen, und sagt ausdrücklich, dass beide WKR-Schrottplätze Unternehmen und Privatpersonen offenstehen. Niehl bleibt separate MKR. GEO 50.9807/6.9212 löst an Longericher Straße 193 auf und wird gelöscht; kein Ersatzpunkt. Quellen: https://www.wkr-schrott.de/kontakt/kontaktdaten/ ; https://www.wkr-schrott.de/ ; Read-only public.db-Abgleich vom 26.10.2026.]
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Die Betreiber-Kontaktseite direkt gelesen. Sie führt WKR in Longerich mit Hugo-Junkers-Str. 10a, 50739 Köln und 0221 97997814 sowie Rodenkirchen separat mit Kirschbaumweg 8, 50996 und 0221 97060622. Niehl wird als MKR Rothenbücher GmbH, Geestemünder Straße 34, separat ausgewiesen. Deshalb ist das kombinierte `street`-Feld auf Longerich begrenzt; keine WKR/MKR- oder Filialzusammenführung. NorthData HRB 63135 und das Impressum bestätigen den Rechtsträgerbezug. Read-only Produktionspunkt 50.9807/6.9212 löst zu Gebäude 193, Longericher Straße auf, nicht zur Niederlassung Hugo-Junkers-Str. 10a; `clear_fields: 'geo'`, kein Ersatzpunkt geraten. Quellen: https://www.wkr-schrott.de/kontakt/kontaktdaten/ ; https://www.wkr-schrott.de/kontakt/impressum/ ; https://www.northdata.de/WKR%20Wertstoff-%20und%20Kreislaufwirtschaft%20Rodenkirchen%20GmbH,%20K%C3%B6ln/HRB%2063135 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.9807&lon=6.9212&zoom=18&addressdetails=1 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

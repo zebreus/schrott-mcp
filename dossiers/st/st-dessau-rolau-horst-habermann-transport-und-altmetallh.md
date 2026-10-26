@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Dessau-Roßlau / Wittenberg / Bitterfeld / Köthen / Bernburg /
@@ -32,6 +33,10 @@ Horst Habermann ist als früherer Betrieb am Standort Taubenstraße 37, 06847 De
 **Geokodierung:** MHG bestätigt aktuell die Adresse Taubenstraße 37, 06847 Dessau; die ergänzte PLZ macht eine Neugeokodierung erforderlich. Das ist die heutige MHG-Standortadresse, keine nachträgliche unabhängige Bestätigung, dass Habermanns alter Rechtsträger fortbesteht.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält für den Legacy-Datensatz den Punkt 51.8333/12.25. Die Reverse-Abfrage löst ihn an der Ludwigshafener Straße, 06842 Dessau, nicht am von MHG Recycling aktuell genannten Standort Taubenstraße 37, 06847. Die Betreiberseite stützt die aktuelle MHG-Betriebsstätte und den behaupteten Betriebsübergang, aber keine punktgenaue Zufahrt oder rechtliche Identität mit Habermann. `clear_fields: 'geo'` entfernt daher den falschen Punkt ohne Ersatz; das Frontmatter bleibt ein historischer Habermann-Datensatz mit `status: pruefung`, keine Koordinate übertragen. Quellen: https://www.mhg-recycling.de/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.8333&lon=12.25&zoom=18&addressdetails=1 ; README.md, Betreiberkettenregel.]
 
 ### Recherche 23.10.2026: Preislisten-Nachprüfung
 

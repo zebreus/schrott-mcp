@@ -4,9 +4,10 @@ name: Leonhardt Andreas
 trader_type: sonstige
 state: BE
 city: Reinickendorf
-street: Pankower Allee 13
-postcode: '13409'
-phone: 030 4923060
+street: ''
+postcode: ''
+phone: ''
+clear_fields: 'geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -29,6 +30,10 @@ Der Seed-Treffer „Leonhardt Andreas“ bleibt mangels Betreiber-, Register- od
 **Preise:** **Ankauf:** keine verifizierten Ankaufskurse. **Verkauf:** keine Teile- oder Materialpreisliste. **Gebühren:** keine Abhol-, Annahme- oder Entsorgungstarife.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Für Pankower Allee 13, PLZ 13409 und 030 4923060 liegt weiterhin nur ein Branchen-/Schrottplatzverzeichnis-Lead vor; keine Betreiber-, Register- oder Behördenquelle bestätigt die Identität oder aktuelle Adresse. Die drei Werte werden deshalb aus strukturierten Feldern zurückgenommen; `clear_fields: 'geo,phone'` entfernt zusätzlich den ungeprüften Produktionspunkt 52.5679/13.3714, der zu Hausotterstraße 28 auflöst, nicht zu Pankower Allee 13. Status `unbekannt` bleibt, keine Schließung behauptet. Historische Leads und frühere Korrekturen bleiben in der Timeline. Quellen: https://berlin.branchen-info.net/leonhardt-andreas-schrott-und-metallhandel/2843804/ ; https://lokaleschrottplatz.de/leonhardt-andreas/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.5679&lon=13.3714&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Korrektur 23.10.2026
 

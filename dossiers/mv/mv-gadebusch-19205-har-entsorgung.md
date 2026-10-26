@@ -7,12 +7,13 @@ city: Gadebusch 19205
 street: Reinhardtsdorf 2a
 postcode: 19205
 phone: 03886 712651
-email: info@kieswerk-harder.de
+email: ''
 opening_hours: ''
 website: https://kieswerk-harder.de/
 website_status: aktiv
 status: pruefung
 description: Kies- und Sandgewinnung, Handel mit Schüttgütern sowie Verwertung von Beton- und Ziegelrecyclingmaterial.
+clear_fields: 'email,geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -27,6 +28,10 @@ provenance_origin: table
 Registerhistorie und aktueller Betreiberauftritt klären die Rechtsnachfolge besser als der alte Seed-Name: HAR Entsorgung Harder-Abbruch Recycling GmbH (HRB 5110) wurde 2016 auf Kieswerk Harder GmbH verschmolzen; diese Gesellschaft wurde 2021 formwechselnd zur Kieswerk Harder GmbH & Co. KG. Der aktuelle Betreiberauftritt nennt die KG und Reinhardtsdorf 2a, 19205 Gadebusch; der Registerdatensatz zur HRA 4373 bestätigt Name, Ort und Bauabfallverwertung/Handel mit Baustoffen. Das Website-Impressum führt allerdings weiterhin HRB 6858 statt HRA 4373, daher ist die Betreiberseite nicht als registerkongruente Ein-Quellen-Ausnahme behandelt. Die geprüften Produktseiten belegen mineralische Baustoffe und Beton-/Ziegelrecycling, aber keinen öffentlichen Metall- oder Schrottankauf. Deshalb aktualisiert sich der Betreibername/die Website, nicht der Status `pruefung`, die Annahmebedingungen oder die Preisfelder. ANKAUF: keine belegten Metall-Ankaufskurse; VERKAUF: mineralische Produkte beschrieben, keine numerischen Preise auf der gelesenen Produktseite; GEBÜHREN: kein Tarif belegt.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält E-Mail `info@kieswerk-harder.de` und GEO 53.7014/11.1168. Die E-Mail erscheint nur auf dem Betreiberauftritt, dessen Impressum fälschlich HRB 6858 statt der aktuellen KG-Registernummer HRA 4373 führt; damit liegt weder die zulässige Ein-Quellen-Ausnahme noch ein unabhängiger Zweitbeleg für das Feld vor. Sie wird aus den strukturierten Kontakten entfernt. Der Produktionspunkt löst an Färberstraße 1 in Güstow auf, nicht am als Reinhardtsdorf 2a dokumentierten Betreiberstandort. `clear_fields: 'email,geo'` löscht beides beim regulären Seed; kein Ersatzpunkt. Firmen-/Standortbezug der aktuellen KG bleibt separat durch Register und Betreiberquelle dokumentiert; Status `pruefung`. Quellen: https://kieswerk-harder.de/impressum ; https://www.northdata.de/Kieswerk%20Harder%20GmbH%20%26%20Co%C2%B7%20KG,%20Gadebusch/Amtsgericht%20Schwerin%20HRA%204373 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.7014&lon=11.1168&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 21.10.2026 (Betreiberkette)
 

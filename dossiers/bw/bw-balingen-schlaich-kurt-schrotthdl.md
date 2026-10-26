@@ -13,6 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
+clear_fields: 'dropoff_json,geo,phone'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2
@@ -27,6 +28,10 @@ provenance_origin: table
 Kurt Schlaich in Balingen-Erzingen ist derzeit nur durch Branchenverzeichnisse greifbar. Erlenstraße 58, 72336 und 07433 35407 bleiben historische Verzeichnisangaben und wurden aus den strukturierten Feldern entfernt; kein Betreiber- oder Registerbeleg bestätigt die aktuelle Annahme. Der frühere Ausnahme-Fill bleibt in der Historie erhalten, rechtfertigt aber keine heutige Aktivität. `pruefung` statt `aktiv`, keine geprüften Zeiten oder Annahmebedingungen. **Ankauf:** keine belegten Kurse. **Verkauf:** keine Preisliste. **Gebühren:** keine Container-/Abholungstarife.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält weiter die nur über ein Branchenverzeichnis geführte Telefonnummer 07433 35407, `dropoff_json={"allowed":true}` und GEO 48.2753/8.8546. Der Punkt löst an Hirschbergstraße 2 auf, nicht an der nur als Verzeichnis-Lead bekannten Erlenstraße 58; weder Adresse ist als aktuelle Annahmestelle des Händlers belegt. `clear_fields: 'dropoff_json,geo,phone'` zieht Annahmeclaim, Telefonnummer und Fehlpunkt aus dem nächsten Seed zurück. Status `pruefung`, keine Schließung und kein Ersatzpunkt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.2753&lon=8.8546&zoom=18&addressdetails=1 ; https://www.openstreetmap.org/way/169826526 ; https://www.11880.com/branchenbuch/balingen/130733657B27323519/kurt-schlaich-schrotthdl.html (Lead) ; README.md, Quellenhierarchie.]
 
 ### Recherche 26.10.2026
 

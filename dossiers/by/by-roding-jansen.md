@@ -7,7 +7,7 @@ city: Roding
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'phone'
+clear_fields: 'geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -28,6 +28,10 @@ provenance_origin: prose
 Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding und 0171 1884077 wurden als unzureichend belegte aktuelle Fakten aus dem Frontmatter zurückgenommen. Ein am 26.10.2026 direkt gelesener Eintrag auf dem Branchenportal LokaleSchrottplatz führt nun „Metallrecycling Inh. Romano Janßen“ mit genau dieser Adresse und Mobilnummer, Schrottsorten und Annahmeschwellen; das erklärt den älteren Lead, ist laut README aber weiterhin nur Aggregatorbeleg. Ein Telefonbuch-Lead nennt Romano Jansen an derselben Adresse mit abweichender Nummer 09461 401336. Kein Betreiber-/Registerbeleg löst Identität oder Telefonnummernkonflikt. **Ankauf:** Portal listet Materialien, aber keine Ankaufskurse; Mindestgewichte sind Annahmebedingungen, keine Preise. **Verkauf/Gebühren:** keine Listen/Tarife. `status: pruefung`, keine Schließung. **GEO:** Flurweg 8 ist jetzt ein konkreter Portal-Kandidat für einen Schrottplatz, aber unbestätigt; alte Koordinaten bleiben ungeprüfte Bestandswerte und sind kein GEO-Nachweis.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält weiterhin den Punkt 49.1943/12.5196. Reverse-Abfrage löst ihn an der Rodinger Rund-Sporthalle, Adolph-Kolping-Straße 17, auf, nicht am nur über Verzeichnisse genannten Flurweg 8. Betreiberidentität und Kundenannahme sind weiterhin ungeklärt; der Punkt ist deshalb kein vertretbarer Händlerstandort. Die bereits zurückgenommene Telefonnummer bleibt geleert; `clear_fields: 'geo,phone'` entfernt zusätzlich beide Produktionskoordinaten beim regulären Seed. Kein Ersatzpunkt und keine Betreiber-/Standortbehauptung. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.1943&lon=12.5196&zoom=18&addressdetails=1 ; https://lokaleschrottplatz.de/metallrecycling-inh-romano-jansen/ (Lead) ; https://telefonbuchsuche.de/romano-jansen-flurweg-93426-roding (Lead) ; README.md, Quellenhierarchie.]
 
 ### Recherche 26.10.2026
 

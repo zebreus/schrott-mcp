@@ -9,10 +9,11 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: http://gepard-recycling.de
-website_status: aktiv
+website: ''
+website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo,website,website_status'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neueinträge ohne Website (Register/Verzeichnis, Handeln-Flag)
@@ -24,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ein direkt erreichbarer Betreiberauftritt identifiziert **GEPARD Industrieverwertungen & Consulting**, geführt laut Website von Angelos Tzimos, und nennt Schrott-/Industriemetalle als Geschäftsfeld. Das Impressum/Kontakt nennt Daimlerstraße 16, 71696 Möglingen; der Website-Footer trägt Copyright 2012, also keinen belastbaren aktuellen Betriebsnachweis. Ein aktueller Wertstoffhof-Verzeichniseintrag führt dagegen „Angelos Gepard Recycling Inh. A Tzimos“ in Zeppelinstraße 10, 71679 Asperg, mit derselben Telefonnummer, aber nur als Lead ohne geprüfte Abfallannahme. Ob das ein neuer Standort, eine Verlagerung oder ein veralteter/fehlzugeordneter Eintrag ist, bleibt offen. Die früher zugeschriebene Kruppstraße 12 ließ sich auf den geprüften Betreiberseiten nicht belegen; eine aktuelle Suche ordnet diese Adresse vielmehr Märker Transportbeton zu. Kein passender aktueller Registerbeleg oder unabhängiger zweiter zulässiger Identitätsbeleg gefunden; daher bleiben Adresse, Kontakt, Ankaufbedingungen und Status `pruefung`. Die frühere Seed-Angabe „nur B2B“ widerspricht der Website-Eigenwerbung für Privatkunden und ist nicht bestätigt.
+Ein erreichbarer, aber mit ©2012 versehener Website-Kandidat identifiziert sich als **GEPARD Industrieverwertungen & Consulting**, geführt laut Seite von Angelos Tzimos, und nennt Schrott-/Industriemetalle. Eine unabhängige zulässige Quelle verknüpft diesen alten Auftritt nicht sicher mit der Möglinger Seed-Zeile. Ein aktueller Wertstoffhof-Verzeichniseintrag führt dagegen „Angelos Gepard Recycling Inh. A Tzimos“ in Zeppelinstraße 10, 71679 Asperg, mit derselben Telefonnummer, bleibt aber nur ein Lead ohne geprüfte Abfallannahme. Ob Unternehmens- oder Standortkontinuität besteht, bleibt offen. Die früher zugeschriebene Kruppstraße 12 ließ sich auf den geprüften Seiten nicht belegen; eine aktuelle Suche ordnet sie vielmehr Märker Transportbeton zu. Kein passender aktueller Registerbeleg oder unabhängiger zweiter zulässiger Identitätsbeleg gefunden; daher bleiben Adresse, Kontakt, Ankaufbedingungen und Status `pruefung`. Die frühere Seed-Angabe „nur B2B“ widerspricht der Website-Eigenwerbung für Privatkunden und ist nicht bestätigt.
 
 **Ankauf:** Die veraltete Betreiberseite wirbt mit Ankauf von Schrott- und Industriemetallen, ohne numerische Kurse oder Annahmebedingungen. **Verkauf:** Sie bewirbt auch Verkauf/Vermittlung dieser Materialien, aber keine Metallverkaufspreise. **Gebühren:** Containerdienst 5–10 m³ wird genannt; die Seite wirbt ausdrücklich mit unentgeltlicher Containerstellung zur Übernahme von Schrott/Altmetallen. Daraus folgt keine kostenfreie Abholung, Entsorgung oder Containerstellung für beliebige Abfälle; weitere Tarife fehlen. **GEO:** Daimlerstraße 16 ist eine alte Betreiber-Kontaktadresse, kein bestätigter Annahmeort; Zeppelinstraße 10 ist ein nicht verifizierter Asperger Verzeichnislead. Keinen der Punkte ohne aktuelle Zuordnung geokodieren.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält für `GEPARD` in Möglingen den Punkt 48.8874/9.1269; Nominatim ordnet ihn einem Defibrillator bei Ludwigsburger Straße 1 zu, nicht dem Seed-Händler. Der Betreiberauftritt `gepard-recycling.de` ist erreichbar und nennt GEPARD/Angelos Tzimos, aber sein Footer trägt ©2012 und eine unabhängige zulässige Verknüpfung zur Möglinger Seed-Zeile fehlt; der zusätzliche Asperger Treffer bleibt ein Verzeichnis-Lead. Deshalb Website und Website-Status nicht als Identitätsbeleg im strukturierten Datensatz führen; `clear_fields: 'geo,website,website_status'` nimmt Website-Fill und Fehlpunkt zurück. URL, Kandidaten und Konflikt bleiben als Recherchehistorie erhalten, Status `pruefung`; keine Ersatzadresse/Koordinate. Quellen: http://gepard-recycling.de/ ; https://www.northdata.de/suggest.json?query=GEPARD+M%C3%B6glingen&countries=DE ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.8874&lon=9.1269&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 21.10.2026
 

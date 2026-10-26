@@ -181,15 +181,24 @@ the website alone left a phantom entity behind):
 5. Every triage decision lands in the dossier Timeline with
    `[Korrektur DD.MM.YYYY: …; Quelle: …]` including its
    counter-evidence.
-6. **Source hierarchy (30.09.2026):** aggregators (Das Örtliche, Gelbe
+6. **Source hierarchy (updated 26.10.2026):** aggregators (Das Örtliche, Gelbe
    Seiten, 11880, GoLocal, Cylex, city-map, schrottplatz-/schrottradar
    portals and the like) are LEADS, never evidence — routinely outdated
-   or wrong. Evidence is only: operator website (Impressum/Kontakt),
-   Handelsregister/Northdata/Creditreform, municipal trade register,
-   operator-run social profile. Beleg-Standard = 2 independent sources
-   from this list; aggregator + evidence still counts as a single
-   source (`Einzelbeleg`). When triage touches a dossier, re-verify any
-   legacy aggregator-backed fields instead of trusting them.
+   or wrong. Evidence includes operator websites (Impressum/Kontakt),
+   Handelsregister/NorthData/Creditreform, municipal trade registers,
+   operator-run social profiles, and official publications or records from
+   public authorities and regulators. An official authority source supports
+   only facts it explicitly records and within its stated scope and date:
+   for example, a waste-site listing may establish its listed location and
+   accepted categories, while an inspection report may establish the named
+   operator, regulated facility and inspection findings. Neither alone implies
+   public customer access, payment, free service, or current operation beyond
+   the record's scope. The normal standard is 2 independent evidence sources;
+   an authoritative operator primary source or official authority record may
+   suffice alone only for its explicitly maintained facts. An aggregator plus
+   evidence still counts as a single source (`Einzelbeleg`). When triage
+   touches a dossier, re-verify any legacy aggregator-backed fields instead of
+   trusting them.
 7. **Authoritative operator primary source (01.10.2026):** a verified
    operator site (impressum with name + HRB + Ort, HR-congruent per
    Northdata, current branch pages, audit certificates) suffices ALONE

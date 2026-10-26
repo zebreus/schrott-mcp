@@ -4,16 +4,16 @@ name: Ausmister
 trader_type: sonstige
 state: NW
 city: Hagen
-street: Wehringhauser Str. 60
-postcode: '58089'
-phone: 02331 9109428
-email: info@dieausmister.de
-opening_hours: 'Mo-So 08:00-22:00 (Beratung/Besichtigung laut Betreiberseite)'
+street: ''
+postcode: ''
+phone: ''
+email: ''
+opening_hours: ''
 website: https://dieausmister.de/hagen
 website_status: aktiv
 status: pruefung
-clear_fields: 'geo'
-description: 'Entrümpelung und Haushaltsauflösung einschließlich Entsorgung zum Festpreis nach Besichtigung; keine allgemeine Schrottannahme belegt.'
+clear_fields: 'email,geo,opening_hours,phone'
+description: 'Die Betreiberwebsite bewirbt Entrümpelung und Haushaltsauflösung einschließlich Entsorgung zum Festpreis nach Besichtigung; rechtliche Betreiberidentität und genaue Kontakt-/Standortangaben sind nicht unabhängig bestätigt. Keine allgemeine Schrottannahme belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -33,6 +33,10 @@ Die Betreiberseite `dieausmister.de/hagen` nennt „Die Ausmister“, Wehringhau
 - **GEO:** keine Koordinaten ergänzt; die Kontaktadresse allein belegt keinen öffentlichen Annahmehof.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Die Betreiberwebsite nennt Wehringhauser Str. 60, 58089 Hagen, Telefon, E-Mail und Beratungs-/Besichtigungszeiten Mo-So 08:00-22:00. Das Facebook-Profil bestätigt nur Name, Hagen und Entrümpelungsangebot, nicht diese konkreten Felder; die Seite erfüllt auch nicht die README-Ausnahme für eine registerkongruente Betreiberquelle. Straße, PLZ, Telefon, E-Mail und Beratungszeit werden daher nicht als verifizierte Händler-Stammdaten ausgespielt; Telefon, E-Mail und Zeiten explizit zurückgenommen. Die Website bleibt als Recherche-Lead erreichbar, `status: pruefung` bleibt. Der alte Punkt ist separat als falsch belegt und wird mit `clear_fields: 'geo'` entfernt; kein Ersatzpunkt. Quellen: https://dieausmister.de/hagen ; https://www.facebook.com/DieAusmister/ ; https://nominatim.openstreetmap.org/reverse?lat=51.90933&lon=7.88825&format=jsonv2&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 24.10.2026: Betreiberseite direkt geprüft
 

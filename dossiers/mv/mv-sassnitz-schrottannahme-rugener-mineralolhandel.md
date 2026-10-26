@@ -1,22 +1,23 @@
 ---
 slug: mv-sassnitz-schrottannahme-rugener-mineralolhandel
 name: Rügener Mineralölhandel
-trader_type: schrotthaendler
+trader_type: sonstige
 state: MV
 city: Sassnitz
 street: Gewerbepark 16
 postcode: '18546'
 phone: 038392 50955
-email: info@ruegenoel.de
-opening_hours: 'Mo–Fr 08:00–15:00'
+email: ''
+opening_hours: ''
 website: https://www.ruegenoel.de/
 website_status: aktiv
-status: aktiv
-description: 'Kostenlose Schrottannahme; Umfang und Voraussetzungen laut Website nicht näher präzisiert.'
-dropoff_json: '{"allowed": true, "conditions": "Betreiberseite wirbt mit kostenloser Schrottannahme; Materialumfang und Voraussetzungen sind nicht vollständig beschrieben."}'
+status: pruefung
+description: 'Die Website des Rügener Mineralölhandels bewirbt kostenlose Schrottannahme; wegen eines abweichenden Verantwortlichen im Datenschutzhinweis ist die Zuordnung zum Betrieb nicht unabhängig geklärt. Keine bestätigte Annahme oder Auszahlung.'
+clear_fields: 'dropoff_json,email,geo,opening_hours'
+dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Betriebe, Betreiberwebsite und unabhängige Partnerquelle;
-  kostenlose Annahme, Auszahlung unklar
+  Schrott-Leistungszuordnung unklar
 provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
@@ -25,11 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite identifiziert **Rügener Mineralölhandel**, Inh. Jana Töpper, am Gewerbepark 16, 18546 Sassnitz; die Tyczka-Partnerseite bestätigt Betrieb, Adresse und Kontakt unabhängig. Der Betreiberauftritt wirbt ausdrücklich mit „Kostenlose Schrottannahme“. Das belegt kostenlose Annahme im beworbenen, nicht näher abgegrenzten Umfang, aber **keine Auszahlung** an Anlieferer. Auffällig: Der Datenschutzabschnitt derselben Website nennt abweichend Wagner Vermietung Sassnitz, Inh. Marko Wagner, an derselben Adresse als verantwortliche Stelle. Diese Angabe wird nicht auf den Schrottbetrieb übertragen; die Abweichung sollte vor weiterem Betreiber-/Geodatenabgleich geklärt werden.
+Die Betreiberwebsite und eine Tyczka-Partnerseite identifizieren einen Rügener Mineralölhandel am Gewerbepark 16, 18546 Sassnitz; die Partnerseite stützt den Mineralöl-/Flaschengasbetrieb, nicht jedoch Schrottannahme. Die Website wirbt zwar mit „Kostenlose Schrottannahme“, nennt in ihrem Datenschutzabschnitt aber abweichend Wagner Vermietung Sassnitz, Inh. Marko Wagner, an derselben Adresse als Verantwortlichen. Die rechtliche Zuordnung der Schrottleistung ist damit offen. `trader_type: sonstige` und `status: pruefung`; keine bestätigte Annahme oder Auszahlung und keine Koordinate.
 
-**ANKAUF:** keine Ankaufskurse oder Zusage einer Auszahlung veröffentlicht. **VERKAUF:** keine Schrott-Verkaufspreise. **GEBÜHREN:** kostenlose Schrottannahme ausdrücklich beworben; Materialumfang und Annahmebedingungen offen. Die ebenfalls genannte Anhängervermietung (15 €/Tag) ist kein Schrotttarif. Adresse bestätigt, aber Zufahrt/Annahme-Einfahrt im Gewerbepark noch nicht exakt geokodiert.
+**ANKAUF:** keine Ankaufskurse oder Zusage einer Auszahlung veröffentlicht. **VERKAUF:** keine Schrott-Verkaufspreise. **GEBÜHREN:** die Betreiberwebsite bewirbt kostenlose Schrottannahme, deren Zuordnung wegen des Identitätswiderspruchs aber nicht bestätigt ist; die Anhängervermietung (15 €/Tag) ist kein Schrotttarif.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält `status=pruefung`, Telefonnummer 038392 649804 und GEO 54.5127/13.62. Der Punkt löst an Stralsunder Straße 5b auf, nicht am Gewerbepark 16. Die direkte Betreiberwebsite und Tyczka-Partnerseite stimmen für Rügener Mineralölhandel, Adresse und Telefon 038392 50955 überein; Tyczka belegt Mineralöl/Flaschengas, aber keine Schrottannahme. Die Website wirbt mit kostenloser Schrottannahme, nennt im Datenschutzabschnitt jedoch Wagner Vermietung Sassnitz/Marko Wagner als Verantwortlichen an derselben Adresse. Deshalb kein identitätsgesicherter Schrottleistungsbeleg: Typ auf `sonstige`, Status `pruefung`; alte Samstags-/Öffnungszeit und E-Mail nicht zweitbestätigt, und `clear_fields: 'dropoff_json,email,geo,opening_hours'` zieht diese Felder samt Fehlpunkt zurück. Die Website-Aussage bleibt als nicht zugeordneter Lead dokumentiert, nicht als bestätigte Annahme; kein Ersatzpunkt. Quellen: https://www.ruegenoel.de/ ; https://tyczka-energy.de/haendlersuche/ruegener-mineraloelhandel-4000082 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.5127&lon=13.62&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 25.10.2026
 

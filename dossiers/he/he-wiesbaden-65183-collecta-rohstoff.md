@@ -1,11 +1,11 @@
 ---
 slug: he-wiesbaden-65183-collecta-rohstoff
-name: COLLECTA Rohstoff GmbH & Co. KG
-trader_type: wertstoffhaendler
+name: Collecta Rohstoff GmbH
+trader_type: metallhaendler
 state: HE
-city: Wiesbaden
-street: Senefelderstraße 3A
-postcode: '65205'
+city: Wiesbaden 65183
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -24,13 +25,17 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt belegt **COLLECTA Rohstoff GmbH & Co. KG**, Senefelderstraße 3A, 65205 Wiesbaden-Nordenstadt, Telefon 06122 5337-0, `info@collecta-rohstoff.de`, HRA 4165 und die Komplementärin COLLECTA Verwaltungs GmbH, HRB 9660 (AG Wiesbaden). NorthData führt die Rechtsträgerdaten kongruent. Tätigkeit ist B2B-Altpapierhandel: Ankauf bei Altpapier-Entsorgern und Versorgung von Papierfabriken; daher `wertstoffhaendler`, nicht Metallankauf.
+Der aktuelle Betreiberauftritt und die offiziellen Wiesbadener Registereinträge belegen die **COLLECTA Rohstoff GmbH & Co. KG**, HRA 4165, an Senefelderstraße 3A, 65205 Wiesbaden-Nordenstadt sowie die B2B-Altpapiertätigkeit. Der offizielle Registerauszug zeigt auch, dass die frühere COLLECTA Rohstoff GmbH (HRB 4980) 1999 durch Verschmelzung in die bereits bestehende KG aufgenommen wurde. Die zweite Quelle NorthData bestätigt beide Rechtsträgerendpunkte, gibt die Verschmelzung selbst aber nicht wieder. Da die README für eine Namens-/Verschmelzungskette eine zweite unabhängige Kettenquelle verlangt, bleibt die Zuordnung dieser aktuellen KG zur bestehenden Seed-Zeile `Collecta Rohstoff GmbH` noch nicht für den Seed freigegeben. Name, Metalltyp, Ort, Anschrift und Annahme aus der aktuellen KG werden daher bis zur unabhängigen Kettenbestätigung nicht in die Altzeile übernommen.
 
-**Feldgrenze 17.10.2026 nach Endabnahme:** KG/Adresse durch Betreiber, NorthData und historisches bvse-Zertifikat Nr. 10515 gestützt; Zertifikat am 31.05.2026 abgelaufen, keine aktuelle EFB-Freigabe. Telefon/Domain zusätzlich nur im Creditreform-Suchindex kongruent, kein vollständig gelesener unabhängiger Feldabgleich. Deshalb bleiben phone, website und website_status ebenso wie Mail/Description auf dem bisherigen leeren Seedstand, Händlerstatus `pruefung`. Die Tätigkeitsbeschreibung oben bleibt Betreiberangabe; keine vollständige Betreiber-Ausnahme beansprucht. Korrektur eines Seedfehlers, keine nachgewiesene rechtliche Umwandlung einer früheren GmbH in die KG. COLLECTA Europe GmbH (Kunststoff/andere Mail) nicht beimischen.
+**Feldgrenze:** Kontakt, Site, Beschreibung und Services bleiben leer. Die bisherigen Seedfelder (Name „Collecta Rohstoff GmbH“, Typ `metallhaendler`, Stadt „Wiesbaden 65183“) bleiben bis zur Identitätsfreigabe bestehen; `status: pruefung`. `COLLECTA Europe GmbH` (Kunststoff/andere Mail) ist ein anderer Rechtsträger und wird nicht beigemischt.
 
 **Preise/GEO:** keine numerischen Ankaufskurse, öffentlichen Verkaufspreise oder Gebühren. Büro-/Geschäftssitz, keine belegte öffentliche Anlieferung oder lokale Abholleistung. Keine GEO-Freigabe; leere Servicefelder bedeuten unbekannt/Keep, nicht `allowed:false`.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält für diese Zeile weiterhin `Collecta Rohstoff GmbH`, `metallhaendler`, Stadt `Wiesbaden 65183` und GEO 50.0778462/8.2453077. Der Punkt löst auf Friedrich-Ebert-Allee, 65185, nicht am aktuellen KG-Geschäftssitz Senefelderstraße 3A, 65205; zudem ist dort keine öffentliche Annahmestelle belegt. `clear_fields: 'geo'` entfernt den falschen Punkt, ohne Geschäftssitzkoordinate zu raten. Der frisch recherchierte amtliche Registerauszug (HRB 4980 und HRA 4165) belegt die Verschmelzung 1999; NorthData bestätigt die Endpunkte, aber nicht unabhängig den Verschmelzungsvorgang. Nach README fehlt damit weiterhin die unabhängige zweite Quelle für die Namens-/Rechtsträgerkette. Deshalb werden die zwischenzeitlich auf die Altzeile übertragenen KG-Firma, Typ `wertstoffhaendler` und Adresse/PLZ zurückgenommen und die bisherigen Seedwerte wiederhergestellt; `status: pruefung` bleibt. Keine Annahme-, Preis- oder Schließungsbehauptung. Quellen: https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml (AG Wiesbaden, HRB 4980/HRA 4165; amtliche Auszüge, 26.10.2026) ; https://www.northdata.de/COLLECTA%20Rohstoff%20GmbH,%20Wiesbaden/HRB%204980 ; https://www.northdata.de/COLLECTA%20Rohstoff%20GmbH%20%26%20Co.%20KG,%20Wiesbaden/HRA%204165 ; https://www.collecta-rohstoff.de/impressum/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0778461538462&lon=8.24530769230769&zoom=18&addressdetails=1 ; README.md, Betreiberkettenregel.]
 
 ### Recherche 26.10.2026
 

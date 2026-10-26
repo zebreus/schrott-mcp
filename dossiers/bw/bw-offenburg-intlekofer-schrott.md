@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'dropoff_json,geo,phone'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2
@@ -29,6 +30,10 @@ Die Verzeichnisse nennen für „Intlekofer (Schrott)“ widersprüchlich Griesh
 **Preise:** Ankauf — keine verifizierte Preisliste; Verkauf — keine Preise belegt; Gebühren — keine Gebührenliste belegt. Die widersprüchliche Hausnummer muss vor jeder Geokodierung geklärt werden.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält weiterhin 0781 9708589, `dropoff_json={"allowed":true}` und GEO 48.4685/7.9436667. Der Punkt löst auf Spitalstraße 5 in der Offenburger Altstadt auf; die zwei widersprüchlichen Griesheimer Verzeichnis-Leads (Hausnummer 27 bzw. 66) belegen weder diese Position noch einen aktuellen Annahmeort. `clear_fields: 'dropoff_json,geo,phone'` nimmt die nicht belegte Annahme, Telefonnummer und den Fehlpunkt zurück. Widersprüchliche Leads bleiben historisch dokumentiert, Status `pruefung`; keine Ersatzadresse oder -koordinate geraten. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.4685&lon=7.94366666666667&zoom=18&addressdetails=1 ; https://www.openstreetmap.org/node/9793352852 ; https://www.gelbeseiten.de/gsbiz/a6ce9769-8a71-43f0-b21d-bca4b96bfd50 (Lead) ; https://www.schrottplatz-info.de/schrottplatz/Offenburg/Intlekofer (Lead) ; README.md, Quellenhierarchie.]
 
 ### Owner-GEO-Prüfung 21.10.2026
 

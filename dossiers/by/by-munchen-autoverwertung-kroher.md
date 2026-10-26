@@ -4,15 +4,16 @@ name: Autoverwertung Kroher
 trader_type: autoverwertung
 state: BY
 city: München
-street: Rupert-Bodner-Str. 19
-postcode: '81245'
-phone: 089 8633975
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
 website: 'https://www.autoverwertung-kroher.de'
 website_status: aktiv
 status: pruefung
 description: ''
+clear_fields: 'geo,phone'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne
@@ -25,14 +26,18 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite/impressum nennt Christian Kroher, Rupert-Bodner-Straße 19, 81245 München-Aubing, und Telefon 089 8633975. Das widerspricht der älteren Seed-/Verzeichnis-Hausnummer 23; die direkte Betreiberangabe wird im Frontmatter geführt, der Konflikt bleibt dokumentiert. Website und Leistungen sind mit ©2018 gekennzeichnet; ein aktueller Betreiber-/Annahmebeleg fehlt, daher `status: pruefung` statt ungeprüft `aktiv`. Die Leistungsseite veröffentlicht konkrete **Entsorgungs-/Abholgebühren**, keine Ankaufskurse. Die Beträge müssen vor operativer Verwendung bestätigt werden.
+Die Betreiberwebsite nennt Christian Kroher und Rupert-Bodner-Straße 19, während die ältere Produktions-/Verzeichnisangabe Hausnummer 23 lautet. Die Website trägt ©2018; eine aktuelle unabhängige Identitäts- oder Standortbestätigung fehlt. Deshalb bleiben beide Hausnummern Leads und sind nicht als aktuelle Adresse im Frontmatter gesetzt. Der Produktionspunkt löst in der Dachauer Straße auf und gehört nicht nachweislich zu Kroher. `status: pruefung`; keine aktuelle Annahmestelle behauptet. Die Website veröffentlichte 2018 historische **Entsorgungs-/Abholgebühren** und Gebrauchtteile, keine Ankaufskurse; Beträge vor operativer Verwendung bestätigen.
 
 - **Ankauf:** kein Fahrzeug- oder Schrottankaufpreis veröffentlicht.
 - **Verkauf:** Gebrauchtteile werden angeboten, aber keine Teilepreisliste gefunden.
-- **Gebühren:** PKW-Entsorgung älter als 12 Jahre ohne wiederverwendbare Teile „ab 80 Euro“ inkl. Formalitäten; Abholung im Münchner Stadtgebiet 30 Euro, Umland auf Anfrage. Das sind Dienstleistungsgebühren, keine Ankaufpreise.
-- **Offen/GEO:** Gültigkeit der älteren Beträge und Hausnummernkonflikt 19/23 bestätigen; geokodierten Kundenstandort nach Adresskorrektur neu prüfen. Keine Koordinaten geraten.
+- **Historischer Gebühren-Lead (Website ©2018, Zuordnung/Aktualität offen):** PKW-Entsorgung älter als 12 Jahre ohne wiederverwendbare Teile „ab 80 Euro“ inkl. Formalitäten; Abholung im Münchner Stadtgebiet 30 Euro, Umland auf Anfrage. Das wären Dienstleistungsgebühren, keine Ankaufpreise.
+- **Offen/GEO:** Gültigkeit der älteren Beträge und Hausnummernkonflikt 19/23 bestätigen; keine Koordinaten geraten.
 
 ## Timeline
+
+### Owner-Korrektur 26.10.2026
+
+- [Korrektur 26.10.2026: Read-only Produktion enthält Adresse Rupert-Bodner-Str. 23, 81245, Telefon 089 8633975 und GEO 48.1436973/11.559808. Der Punkt löst an einer Spielhalle an der Dachauer Straße auf, nicht an den beiden konkurrierenden Rupert-Bodner-Adressen. Die Betreiberwebsite nennt Hausnummer 19, ist aber mit ©2018 gekennzeichnet; die unabhängigen Verzeichnisse nennen 23, die README wertet sie nur als Leads. Weder Aktualität noch Standortzuordnung sind ausreichend belegt. Straße/PLZ und Telefon werden daher aus den aktuellen Feldern zurückgenommen; `clear_fields: 'geo,phone'` löscht zusätzlich Telefon und falschen Kartenpunkt. Historische Gebühren und beide Adress-Leads bleiben in der Timeline, `status: pruefung`, kein Ersatzpunkt. Quellen: https://www.autoverwertung-kroher.de/impressum.html ; https://www.autoverwertung-kroher.de/leistungen.html ; https://www.gelbeseiten.de/gsbiz/87e48ae2-9131-4510-88c0-3d3ced472133 (Lead) ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.1436973333333&lon=11.559808&zoom=18&addressdetails=1 ; README.md, Quellenhierarchie.]
 
 ### Recherche 20.10.2026
 

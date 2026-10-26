@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: 'Dorozala GmbH (HRB 5379 AG Paderborn) laut Registerspiegel nach Liquidation am 25.01.2024 gelöscht; Schrottannahme nicht belegt.'
+description: 'NorthData-Registerspiegel meldet für die Dorozala GmbH (HRB 5379 AG Paderborn) eine Löschung am 25.01.2024; amtliche Bestätigung steht aus. Aktuelle Schrottannahme nicht belegt.'
 clear_fields: 'geo,phone'
 dropoff_json: ''
 pickup_json: ''
