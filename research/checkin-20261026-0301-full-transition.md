@@ -386,3 +386,21 @@ Produktions- und Seedstand und ihre Zahlen sind nicht auf diese Probe
   ist keine Freigabe für Produktionsänderung oder Rollout. Der aggregierte
   Zähler von 294 offenen strukturellen Zeilen wird bis zur erneuten vollständigen
   privaten Übergangsprobe nicht neu berechnet; die Gesamtfreigabe bleibt offen.
+
+## Owner-Nachprüfung: Jäger Schmalkalden GEO-Rücknahme, 26.10.2026 20:01 UTC
+
+- Read-only Produktion enthält für `th-schmalkalden-jager-jurgen` weiter
+  `50.7214/10.4439`. Eine frische Nominatim-Rückwärtssuche löst den Punkt auf
+  das Gebäude Eichelbach 2 in Schmalkalden auf; die OSM-Daten klassifizieren es
+  als Servicegebäude mit `operator=Deutsche Telekom AG`. Es ist nicht Burgweg
+  1a, die im Dossier als möglicher Betreiberstandort dokumentiert ist.
+- Das [Dossier](../dossiers/th/th-schmalkalden-jager-jurgen.md) hat weiterhin
+  leere Adress-/Kontaktfelder und `clear_fields: 'email,geo,phone'`. Es gibt
+  keinen belegten öffentlichen Kundeneingang; daher trägt die Geo-Rücknahme,
+  aber ein Ersatzpunkt wird nicht gesetzt. Die klare Differenz zwischen
+  falschem Produktionspunkt und unbestätigtem Zielstandort bleibt erhalten.
+- Owner-Disposition: Den Produktionspunkt zurücknehmen, keinen neuen Pin
+  behaupten. Dies bestätigt weder allgemeinen Schrottankauf noch öffentliche
+  Anlieferung und ist keine Produktions- oder Rollout-Freigabe. Der aggregierte
+  Zähler bleibt bis zur erneuten vollständigen privaten Übergangsprobe
+  unverändert; das Pre-Deploy-Gate ist offen.
