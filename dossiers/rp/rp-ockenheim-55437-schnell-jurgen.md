@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Betreiberauftritt der Schnell Gruppe nennt Jürgen Schnell, Gaulsheimerstraße 18, 55437 Ockenheim, und weist dort einen Wertstoffhof mit Selbstanlieferung aus. Die Leistungsseite nennt Eisen/Schrott und Nichteisenmetalle zum Ankauf für private und gewerbliche Kunden sowie Container von 5–40 m³. Das ist ein aktueller Betreiber-Einzelbeleg; das Impressum enthält keine HR-Nummer und ein unabhängiger Identitäts-/Annahmebeleg fehlt. Deshalb bleiben die strukturierten Felder und `status: pruefung` bis zum Zwei-Quellen-Gate unverändert.
+
+**Preise:** **ANKAUF** – keine numerischen Schrottankaufkurse; **VERKAUF** – die PDF-Preisliste enthält Verkaufsartikel, aber ist mit Gültigkeit ab 16.05.2025 datiert; daraus keinen aktuellen Verkaufspreis ableiten. **GEBÜHREN** – die PDF enthält Miet-/Kautionspositionen, ebenfalls nicht ungeprüft als 2026-Tarif übernehmen; Metallannahme ist nicht automatisch kostenlos. **GEO:** Gaulsheimerstraße 18 ist ein Betreiber-seitig ausgewiesener Selbstanlieferungs-/Wertstoffhof-Kandidat; Adresse noch nicht in Frontmatter oder Koordinate übernommen.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Impressum, Standort- und Leistungsseiten des Betreibers direkt erneut geprüft. Das Impressum nennt Jürgen Schnell Transport- & Baggerbetrieb, Inhaber Jürgen Schnell, Gaulsheimerstraße 18, 55437 Ockenheim; die Standort-/Leistungsseiten führen den Ockenheimer Wertstoffhof und Selbstanlieferung sowie Ankauf von Eisen/Schrott und Nichteisenmetallen durch private und gewerbliche Kunden. Containerangebot 5–40 m³. Der Betreiberauftritt bleibt ein einzelner Primärbeleg; die im Impressum sichtbare USt-ID ersetzt keinen unabhängigen Register-/Identitätsabgleich, daher keine Frontmatter-Füllung. **ANKAUF:** keine numerischen Ankaufkurse. **VERKAUF:** Preisliste-PDF enthält Verkaufsartikel und ist „gültig ab 16. Mai 2025“; daraus keinen aktuellen 2026-Verkaufspreis ableiten. **GEBÜHREN:** PDF listet Miet-/Kautionspositionen, ebenfalls kein Beleg für 2026-Tarife; keine pauschal kostenlose Metallannahme belegt. Ockenheim ist ein GEO-Kandidat für tatsächliche Selbstanlieferung; keine Koordinate gesetzt. Quellen: https://schnell-gruppe.de/impressum/ ; https://schnell-gruppe.de/standorte/ ; https://schnell-gruppe.de/leistungen/containerdienst-entsorgung/ ; https://schnell-gruppe.de/preisliste/ ; https://schnell-gruppe.de/wp-content/uploads/2025/05/Preisliste_2025.05.pdf .]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

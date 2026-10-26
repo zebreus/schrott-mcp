@@ -28,6 +28,10 @@ Die offizielle BEG-Kontaktseite führt Richard Bauer Rohstoff-Großhandel GmbH &
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Die offizielle BEG-Kontaktseite erneut direkt gelesen. Sie führt Richard Bauer Rohstoff-Großhandel GmbH & Co. KG am Weißenstein 2, 27574 Bremerhaven, 0471 186-700 und info@bauer-bhv.de; für die Stelle nennt sie Selbstanlieferung von Gartenabfall und Reifenabgabe gegen Entgelt, dazu Mo 07:00–18:30 und Di–Fr 07:00–15:30. Das bestätigt weder Metallschrottannahme noch Ankauf durch die Niederlassung. Reifenabgabe gegen Entgelt ist eine Gebühr ohne bezifferten Tarif; kein Ankaufkurs, Verkaufspreis oder Schrottgebühr ergänzt. Website bleibt leer, da dies die BEG-Partnerseite und kein eigener Bauer-Auftritt ist. Quelle: https://beg-bhv.de/kontakt .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: BEG re-verifiziert (starke kommunalnahe Primärquelle, Einzelbeleg): Richard Bauer Rohstoff-Großhandel GmbH und Co. KG, Weißenstein 2, 27574 Bremerhaven, Tel. 0471 186-700, info@bauer-bhv.de, Mo 7-18:30 Di-Fr 7-15:30; Filialen Bremen Woltmershauser Str. 174 + Emden Eichstr. 2b. 11880 Bremerhaven ohne Bauer-Treffer (nur Schröder — Negativbefund Zweitbeleg). HR HRA 4371 BHV (Northdata/Creditreform 01.10.2026) bleibt Beleg für Register-Identität. Seed-Felder street/postcode/phone bereits BEG-kongruent → keine Änderung; email/opening_hours nur BEG-Einzelbeleg → Frontmatter leer (kein Doppelbeleg). status pruefung bleibt. Quelle(n): https://beg-bhv.de/kontakt, https://www.11880.com/suche/schrott/bremerhaven.]

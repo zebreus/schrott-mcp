@@ -31,6 +31,10 @@ Privater Recyclinghof-Kandidat Zur alten Mühle in Niepars; historische Anschrif
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die Landkreis-Seite zu Wertstoffhöfen direkt erneut geprüft; ihre Liste öffentlicher Kreiseinrichtungen enthält weiterhin keinen Standort Niepars. Das ist weder ein Privatbetriebsregister noch ein Schließungsbeleg. Die dortigen Regeln zur gebührenfreien Annahme von Haushaltsschrott gelten nur für die bezeichneten öffentlichen Sammelstellen und werden nicht auf den privaten/ungeklärten Kandidaten übertragen. Creditreform-Suchlead Schulstraße 10c, 18442 Niepars (Clemens Hövemann/Recycling Hof) bleibt ohne Identitätskette zur Seed-Spur Zur alten Mühle; keine Adresse/Telefon übernommen und keine GEO. **ANKAUF:** nicht belegt; **VERKAUF:** keine Liste; **GEBÜHREN:** keine für diesen Kandidaten verifiziert. Quelle: https://www.lk-vr.de/Kreisverwaltung/Abfallwirtschaft/Entsorgung/Wertstoffh%C3%B6fe ; Creditreform-Suchlead/403 wie am 21.10. dokumentiert.]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Landkreis Vorpommern-Rügen-Wertstoffhofseite direkt geprüft; Niepars wird in der aktuellen Liste kommunaler Höfe nicht geführt. Die Seite gilt für kommunale Entsorgungsangebote und schließt einen privaten Hof nicht aus. Separater Creditreform-Suchindex führt Clemens Hövemann/„Recycling Hof“ an Schulstraße 10c, 18442 Niepars, Tel. 038321 60068; Detailabruf 403 und keinerlei Beleg für Identität mit dem Seed-Kandidaten Zur alten Mühle/0172 3958174. Neue Adresse daher nicht auf diesen Datensatz übertragen oder geokodieren. ANKAUF/VERKAUF/GEBÜHREN des gesuchten Hofs weiter ungeklärt; kommunale Gebührenregeln nicht übertragen. Quellen: https://www.lk-vr.de/Kreisverwaltung/Abfallwirtschaft/Entsorgung/Wertstoffh%C3%B6fe ; https://firmeneintrag.creditreform.de/18442/3190275847/CLEMENS_HOEVEMANN (Suchindex; Detail 403, Abruf 21.10.2026).]

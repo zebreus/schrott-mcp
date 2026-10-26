@@ -28,6 +28,10 @@ Ein aktuell abrufbarer Schrottplatz.org-Eintrag führt „Tas Recycling GmbH“ 
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Der aktuelle Schrottplatz.org-/Firmenweb-Eintrag wurde direkt gelesen: „Tas Recycling GmbH“, Bierbachstraße 31, 98544 Zella-Mehlis; die Seite nennt nur Rechtsform und Adresse, keine Registernummer, Betreiberkontakt, Tätigkeitsbeschreibung, Öffnungszeiten oder konkrete Annahme. Es bleibt ein Branchenportal-Lead, keine Bestätigung der lokalen GmbH oder einer Verbindung zum gleichnamigen US-Unternehmen. Keine Frontmatter-Übernahme oder GEO. **Ankauf/Verkauf/Gebühren:** keine lokalen Leistungen, Zahlen oder Tarife verifiziert. Quelle: https://www.schrottplatz.org/zella-mehlis/tas-recycling-gmbh-2792440.html .]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Namenssuche nach „TAS Recycling“ brachte auch tasrecycling.com hervor. Die Betreiberseite bezeichnet „TAS Recycling, Inc.“ als US-Mehrstandortbetrieb mit Standorten in Tennessee, Florida und North Carolina; sie nennt für Teile und Recycling Knoxville, Tennessee. Dieser eigenständige US-Betrieb ist kein Identitäts- oder Adressbeleg für den Portal-Lead „Tas Recycling GmbH“ in Zella-Mehlis. Die lokale GmbH-Zuordnung, Tätigkeit und Bierbachstraße-31-Adresse bleiben ungeklärt; kein Statuswechsel oder Frontmatter-Fill. **Ankauf/Verkauf/Gebühren:** die US-Seite veröffentlicht keine für Zella-Mehlis geltenden Preise oder Tarife; für den lokalen Kandidaten weiterhin nichts belegt. Quelle: https://tasrecycling.com/about-us/ (Abruf 23.10.2026); lokaler Lead: https://www.schrottplatz.org/zella-mehlis/tas-recycling-gmbh-2792440.html.]

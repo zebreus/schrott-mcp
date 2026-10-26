@@ -32,6 +32,10 @@ Der Betreiberauftritt belegt **COLLECTA Rohstoff GmbH & Co. KG**, Senefelderstra
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Betreiber-Impressum und Unternehmensseite erneut direkt gelesen. Das Impressum nennt COLLECTA Rohstoff GmbH & Co. KG, Senefelderstraße 3A, 65205 Wiesbaden, HRA 4165, Komplementärin COLLECTA Verwaltungs GmbH (HRB 9660), Telefon 06122 5337-0 und info@collecta-rohstoff.de; die Tätigkeitsseite beschreibt B2B-Altpapierhandel und Versorgung von Papierfabriken. Das bestätigt die dortige Selbstdarstellung, aber keine öffentliche Metallannahme oder lokale Abholung. Das Endabnahme-Gate vom 17.10. zu Telefon/Website/Status/Description bleibt maßgeblich; keine Felder oder Services ergänzt. ANKAUF: Altpapier-B2B beschrieben, keine Zahlenkurse; VERKAUF: keine Papier-Verkaufspreise; GEBÜHREN: keine Tarife. Senefelderstraße ist Geschäftssitz, nicht belegte öffentliche Annahmestelle; keine GEO. Quellen: https://www.collecta-rohstoff.de/impressum/ ; https://www.collecta-rohstoff.de/collecta-rohstoff/ ; https://www.northdata.de/COLLECTA%20Rohstoff%20GmbH%20&%20Co%C2%B7%20KG,%20Wiesbaden/HRA%204165 .]
+
 ### Endabnahme 17.10.2026 (Kontaktfills zurückgestellt)
 
 - [Korrektur 17.10.2026: Die folgende frühere Teilfreigabe wird eingeschränkt: neue Telefon-/Website-/Website-Status-Fills bis zum nachvollziehbaren unabhängigen Feldabgleich zurückgestellt, im Seed weiterhin leer. KG/Name/H1, Wertstoffhandel und Büroanschrift bleiben im durch Betreiber/NorthData/historisches Zertifikat belegten Umfang korrigiert; keine öffentliche Annahme und keine heutige EFB-Zertifizierung. Creditreform-Suchindex ist eine weitere Spur, kein vollständig gelesener Auszug. Keine neuen Liveabrufe oder Clears in dieser Disposition; alte Timeline bleibt erhalten. Quelle: research/checkin-20261017-2130-wave13-b-owner-final.md; https://www.collecta-rohstoff.de/impressum/; https://firmeneintrag.creditreform.de/65205/6250080496/COLLECTA_ROHSTOFF_GMBH_CO_KG]

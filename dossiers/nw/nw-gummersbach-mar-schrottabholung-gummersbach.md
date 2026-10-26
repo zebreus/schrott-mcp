@@ -30,6 +30,10 @@ Ein Portal führt **MAR Schrottabholung Gummersbach** an Peter-Heuser-Straße 9,
 
 ## Timeline
 
+### Recherche 26.10.2026 — Portal-Lead erneut gelesen
+
+- [Recherche 26.10.2026: Das MAR-Profil wurde direkt erneut geöffnet. Es führt Peter-Heuser-Straße 9, 51643 Gummersbach und 02261 5079155, aber keinen verifizierbaren Betreiber oder Impressumsbeleg. Die Statusanzeige „geschlossen/öffnet morgen 11“ widerspricht den aufgeführten Wochenzeiten; die identische Portalvorlage mit Standardmaterialien und Mindestmengen ist keine MAR-spezifische Annahmebedingung. Adresse bleibt Suchlead, keine Frontmatter-/GEO-Übernahme. **Ankauf:** keine verifizierte Kondition oder Zahl; **Verkauf:** keine Liste; **Gebühren:** nicht belegt. Quelle: https://lokaleschrottplatz.de/mar-schrottabholung-gummersbach/ .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: LokaleSchrottplatz-Eintrag direkt geprüft: Peter-Heuser-Straße 9, 51643 Gummersbach, 02261 5079155; standardisierte Liste behauptet u.a. Mindestmengen 100 kg Eisen/1 kg NE und Mo–Sa 07–21 Uhr. Identische Templateformulierungen auf anderen Portalhändlerseiten sprechen gegen betreiberspezifische Bedingungen; keine Primärquelle/kein Registerbeleg. Ankauf: nur Portalbeschreibung, keine Preiszahl; Verkauf: keine Liste; Gebühren: unbekannt. Adresse und Mindestmengen nicht übernehmen und vor GEO unabhängig bestätigen. Quelle: https://lokaleschrottplatz.de/mar-schrottabholung-gummersbach/ ; Abruf 13.10.2026.]

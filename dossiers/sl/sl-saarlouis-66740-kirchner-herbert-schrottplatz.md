@@ -28,6 +28,10 @@ Ein aktuelles Schrottplatz-Info-Profil führt Kirchner Herbert, Ostring 106, 667
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Schrottplatz-Info-Profil direkt erneut gelesen. Es führt Kirchner Herbert, Ostring 106, 66740 Saarlouis und Tel. 06831 86198, enthält aber weiter keine vollständige Beschreibung, Öffnungszeiten oder Leistungsangaben; der Homepage-Link führt nicht zu einer Betreiberwebsite. Das ist nur ein Portal-Lead, kein Primär-/Registerbeleg für aktuellen Betrieb. Keine Werte übernommen und kein GEO. **Ankauf/Verkauf/Gebühren:** keine bestätigten Konditionen oder Preise. Quelle: https://www.schrottplatz-info.de/schrottplatz/Saarlouis/Kirchner-Herbert .]
+
 ### Recherche 21.10.2026 — aktueller Lead und Preisprüfung
 
 - [Recherche 21.10.2026: Das Schrottplatz-Info-Profil bestätigt als Verzeichnislead weiterhin Kirchner Herbert, Ostring 106, 66740 Saarlouis, Telefon 06831 86198, enthält aber keine Angebotsbeschreibung/Öffnungszeiten; der „Homepage“-Verweis führt nicht auf eine Händlerdomain. Die direkte North-Data-Namenssuche ergab keinen passenden, zuordenbaren Unternehmensdatensatz; Suchergebnis ist kein amtlicher Negativbescheid und belegt keine Schließung. Kein Betreiber-/Gewerbebeleg, keine aktuelle Annahmebestätigung. ANKAUF: keine Kursliste; VERKAUF: keine Liste; GEBÜHREN: kein Tarif. Quellen (Lead/Suchroute): https://www.schrottplatz-info.de/schrottplatz/Saarlouis/Kirchner-Herbert ; https://www.northdata.de/Kirchner%20Herbert,%20Saarlouis]

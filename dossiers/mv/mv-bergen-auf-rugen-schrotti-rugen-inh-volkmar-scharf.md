@@ -26,11 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Schrotti Rügen Inh. Volkmar Scharf“ in Silvitz bei Bergen auf Rügen liegen weiterhin Presse- und Verzeichnis-Leads, aber kein aktueller Betreiberauftritt oder belastbarer Register-/Kommunalbeleg vor; die Seed-Anschrift und Telefonnummer sind nicht neu unabhängig bestätigt. Eine ähnlich benannte Firma „Schrott & Metalle Torsten Rüge“ in Ludwigslust ist ein anderer Betrieb und wird nicht zusammengeführt.
+Für „Schrotti Rügen Inh. Volkmar Scharf“ in Silvitz bei Bergen auf Rügen liegen weiterhin Presse- und Verzeichnis-Leads, aber kein erreichbarer aktueller Betreiberauftritt oder belastbarer Register-/Kommunalbeleg vor; die Seed-Anschrift und Telefonnummer sind nicht neu unabhängig bestätigt. Lokaleschrottplatz zeigt am Profil die Portalmarkierung „Geschlossen“ und nennt schrotti.de.rs als Website; die Domain war beim Direktabruf nicht erreichbar. Diese Drittanbieter-Markierung ist kein belastbarer Schließungsnachweis. Eine ähnlich benannte Firma „Schrott & Metalle Torsten Rüge“ in Ludwigslust ist ein anderer Betrieb und wird nicht zusammengeführt.
 
 **Preise:** **Ankauf:** kein händlerspezifischer Kurs belegt. Die aktuelle Stadtseite eines Branchenportals zeigt für Deutschland einen Kupfer-Millberry-Richtwert von 10,25–11,70 €/kg; das ist weder ein Preis für Bergen noch ein Angebot von Schrotti Rügen. Der früher notierte Bergen-Seitenwert 9,70–11,40 €/kg ist damit kein aktueller Abrufstand. **Verkauf:** keine Verkaufspreisliste. **Gebühren:** keine Abhol- oder Annahmetarife. Status `pruefung` bedeutet fehlende aktuelle Bestätigung, nicht Schließung.
 
 ## Timeline
+
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Lokaleschrottplatz-Profil direkt geprüft. Es zeigt „Geschlossen“, führt aber weiterhin Silvitz 8, 18528 Bergen auf Rügen und 0171 7246081 sowie als vermeintliche offizielle Website schrotti.de.rs. Die Domain war beim Direktabruf nicht erreichbar. Die Portalanzeige, Materialkategorien und Mindestmengen sind keine aktuelle Betreiberbestätigung; daraus weder Schließung noch konkrete Annahmebedingungen ableiten. Keine Status-/Adress-/Telefonänderung; das vorhandene `clear_fields: 'geo'` bleibt bestehen und es wird keine Ersatzkoordinate gesetzt. ANKAUF: kein händlerspezifischer Preis; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://lokaleschrottplatz.de/schrotti-rugen-inh-volkmar-scharf/ ; https://schrotti.de.rs (Direktabruf mit Transportfehler).]
 
 ### Owner-GEO-Korrektur 25.10.2026
 

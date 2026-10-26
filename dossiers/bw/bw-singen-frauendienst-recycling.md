@@ -28,6 +28,10 @@ Der Betreiberauftritt nennt Josef Frauendienst und beschreibt Schrott-/Altmetall
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Betreiber-Leistungsseite und Impressum erneut direkt gelesen. Der Auftritt nennt Josef Frauendienst, Von-Reischachstr. 5, 78224 Singen, Telefon 0171 8033206 und info@frauendienst-recycling.de; das Impressum enthält keine Registergericht-/Registernummer. Leistungen: Schrott-/Altmetallannahme sowie An- und Verkauf, Containerbereitstellung und Entrümpelungen; Preise ausschließlich individuell auf Anfrage, keine Ankaufskurse/Verkaufsliste. Kein veröffentlichter Container-/Entsorgungstarif und keine Bestätigung, dass die Impressumsadresse eine öffentliche Annahmestelle ist. Ohne unabhängigen zweiten Identitäts-/Standortbeleg bleiben Frontmatter-Kontakt und GEO unverändert. Quellen: https://www.frauendienst-recycling.de/Impressum/ ; https://www.frauendienst-recycling.de/Leistungen/ .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Ein Cylex-Suchergebnis für Frauendienst Recycling führt Josef Frauendienst, Von Reischachstr. 5/78224 Singen, 0171 8033206, info@frauendienst-recycling.de und die Betreiberwebsite; der Direktabruf des Cylex-Profils scheitert aktuell mit HTTP 403. Da die angezeigten Daten der Betreiberwebsite entsprechen können und kein eigenständiger Firmen-/Registerbeleg sichtbar ist, ist dies nur eine zusätzliche Verzeichnis-Kreuzprüfung, kein unabhängiger Rechtsidentitätsnachweis. Keine Frontmatter-Fills oder GEO-Freigabe; erst klären, ob die Impressumsadresse eine öffentliche Annahmestelle ist. ANKAUF/VERKAUF: Betreiber bietet beides an, Preise nur auf individuelle Anfrage; keine Zahlenliste. GEBÜHREN: Container/Entrümpelung ohne veröffentlichte Tarife. Quelle: https://web2.cylex.de/firma-home/frauendienst-recycling-14110205.html (Suchtreffer gelesen, Direktabruf 403); Betreiberquellen: https://www.frauendienst-recycling.de/Impressum/ ; https://www.frauendienst-recycling.de/Leistungen/ .]

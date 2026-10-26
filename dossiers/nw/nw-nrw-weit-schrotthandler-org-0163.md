@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrotthaendler.org/
-website_status: ''
+website_status: aktiv
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -27,6 +27,10 @@ provenance_origin: table
 Die bestehende Website bewirbt mobile Schrottabholung in NRW und nennt im Impressum Diab Allawi, Berlinerstr. 7, 44866 Bochum. Das ist ein Betreiber-Einzelbeleg, kein bestätigter stationärer Annahmehof und keine unabhängige Identitätsprüfung. Der bestehende Aktivstatus wird nicht zur neuen Zweiquellen-Freigabe aufgewertet; Kontakt-/Adressfelder bleiben offen. Ankauf größerer Mengen wird nach Art, Menge und Qualität individuell angeboten, kostenlose Abholung/Demontage daneben beworben. Keine numerische Ankauf- oder Verkaufspreisliste und keine Gebührenordnung nachgewiesen.
 
 ## Timeline
+
+### Recherche 26.10.2026 — aktueller mobiler Betreiberauftritt
+
+- [Recherche 26.10.2026: Startseite, Impressum und Schrottankaufseite direkt erneut gelesen; Domain live. Der Betreiber bewirbt NRW-weite mobile Abholung und nennt Diab Allawi, Berlinerstr. 7, 44866 Bochum. Das Impressum belegt keinen Hof für öffentliche Anlieferung; Bochum bleibt daher Impressumsanschrift, nicht lokaler Annahmepunkt. Die Website beschreibt individuelles Angebot für Schrott nach Material/Menge/Qualität und Auszahlung; keine numerischen €/kg-Kurse. Kostenlos beworbene Abholung/Demontage ist eine Serviceaussage, kein Ankaufspreis oder Beleg für Gebührenfreiheit sämtlicher Abfälle. Keine Verkaufspreisliste. `website_status: aktiv` nach Direktprüfung gesetzt; Kontakt-/Adressfelder bleiben gemäß Einzelbelegstandard leer. Quellen: https://schrotthaendler.org/ ; https://schrotthaendler.org/impressum/ ; https://schrotthaendler.org/schrottankauf/ .]
 
 ### Recherche 14.10.2026 — Betreiberseiten gelesen, Zweitbeleg fehlt
 

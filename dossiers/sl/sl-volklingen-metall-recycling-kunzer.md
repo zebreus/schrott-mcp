@@ -28,6 +28,10 @@ Registeridentität Metall-Recycling Künzer GmbH (AG Saarbrücken HRB 104554), A
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: NorthData-Profil zu HRB 104554 erneut als Registerspur geprüft; es führt Metall-Recycling Künzer GmbH, AG Saarbrücken, Am Holzplatz 5, 66333 Völklingen. Der aktuelle Direktabruf des Instagram-Profils liefert nur eine Login-/Zugriffshülle, keinen auswertbaren aktuellen Beitrag; frühere Ankaufwerbung bleibt daher historischer Betreiber-Social-Beleg, keine Aktualitätsbestätigung. 11880-Angaben zu E-Mail/Zeiten bleiben Aggregatorleads. Kein neuer Feld-/GEO-Fill. **Ankauf:** früher belegte Werbung ohne Zahlenkurs; **Verkauf/Gebühren:** keine verifizierten Listen. Quellen: https://www.northdata.de/Metall-Recycling%20K%C3%BCnzer%20GmbH,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20104554 ; https://www.instagram.com/metall.recycling_kuenzer/ .]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Direkter Abruf des Instagram-Auftritts lieferte nur die Login-/Zugriffshülle, keinen aktuellen Profiltext oder Beitrag. Die früher dokumentierte Ankaufsaussage (Schrott/Metall, Barauszahlung gegen gültigen Ausweis; kein Zahlenkurs) ist deshalb nicht als heutige Aktualitätsprüfung zu behandeln. HRB-/Adressdaten bleiben durch die früher geprüften NorthData-/Creditreform-Belege gestützt; keine neue E-Mail-/Öffnungszeitenübernahme. Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden; status aktiv unverändert, keine GEO-Ergänzung. Quellen: https://www.instagram.com/metall.recycling_kuenzer/ ; https://www.northdata.de/Metall-Recycling%20K%C3%BCnzer%20GmbH,%20V%C3%B6lklingen/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20104554 .]

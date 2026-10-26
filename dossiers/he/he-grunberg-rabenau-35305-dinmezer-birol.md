@@ -28,6 +28,10 @@ Zwei unterschiedliche Adress-Leads für Birol Dinmezer Autoverwertung/Abholdiens
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Beide widersprüchlichen Verzeichnis-Leads direkt erneut geprüft. Gelbe Seiten führt Dinmezer Birol Autoverwertung/Abholdienst, Mittelstr. 2, 35305 Grünberg, Tel. 06634 669; 11880 führt Birol Dinmezer, Außerhalb 13, 35466 Rabenau, Tel. 06407 1055. Der Rabenauer Datensatz zeigt Aktualisierung 02.10.2026, aber Eintragsdaten vom 29.06.2021. Das sind keine Betreiber-/Registerbelege und keine belegte Umzugskette. Keine Adress-/Kontaktübernahme oder GEO. ANKAUF: keine bestätigte Vergütung; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/702009e1-216a-46f7-8295-29f8cbf5922a ; https://www.11880.com/branchenbuch/rabenau-hessen/060440459B26808210/birol-dinmezer-autoverwertung-u-abholdienst.html .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Adressgegenprobe erweitert den früheren Rabenauer Lead um Grünberg: Gelbe Seiten nennt Dinmezer Birol Autoverwertung Abholdienst, Mittelstr. 2, 35305 Grünberg; Schrottplatz-Info nennt zusätzlich 06634 669. 11880 führt Birol Dinmezer Autoverwertung u. Abholdienst hingegen Außerhalb 13, 35466 Rabenau. Das sind Aggregator-Leads ohne Betreiber-/Registerbestätigung, keine belegte Umzugskette und keine gemeinsame Annahmestelle. Telefonnummer/PLZ nicht zwischen Orten kopieren, Frontmatter unverändert. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Zahlenliste. GEO beider Kandidaten erst nach Identitäts-/Adressklärung. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/702009e1-216a-46f7-8295-29f8cbf5922a ; https://www.schrottplatz-info.de/schrottplatz/Gruenberg/Dinmezer-Birol ; https://www.11880.com/branchenbuch/rabenau-hessen/060440459B26808210/birol-dinmezer-autoverwertung-u-abholdienst.html .]

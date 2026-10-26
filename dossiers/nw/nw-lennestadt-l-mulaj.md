@@ -30,6 +30,10 @@ Die im alten Vermerk unterschiedlich gruppierten Mobilnummern sind zifferngleich
 
 ## Timeline
 
+### Recherche 26.10.2026 — Betreiberzugang weiterhin blockiert
+
+- [Recherche 26.10.2026: Jimdo-Start-/Impressumsseiten und Cylex-Suchseite erneut als nicht direkt lesbar (HTTP 403) geprüft; kein Inhalt aus Sperrseiten oder Suchsnippets als Betreiberbeleg behandelt. Leonard Mulaj/Baro 2/01512 8822038 bleibt ein unbestätigter Lead; die bereits dokumentierte Zifferngleichheit der unterschiedlich formatierten Nummern beweist keine Identität. Entrümpelungswerbung belegt keinen Metallankauf. Keine Adresse, Kontakte, Verkaufspreise oder Gebühren verifiziert; kein GEO-Fill und kein Schluss auf Schließung. Quellen/Abrufgrenzen: https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/ ; https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ ; https://www.cylex.de/suche/lennestadt/mulaj .]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: Jimdo-Impressum direkt erneut HTTP 403/Cloudflare-Sperrseite, keine Betreiberangaben gelesen. Kein Schließungsschluss und kein Domainstatus tot aus Sperre. Frühere zifferngleiche Telefonnummern und Leonard/L.-Alias bleiben unverändert als ungeklärte Leads; Entrümpelung ist nicht schon Metallankauf. Ankauf: keine zurechenbare Liste; Verkauf: keine Liste; Gebühren: keine verifizierten Entrümpelungs-/Abholtarife. Frontmatter unverändert; GEO benötigt zuerst Gewerbe-/Betreiberbeleg und Annahmefunktion für Baro 2. Quelle: https://l-mulaj-haushaltsaufloesung-entruempelung.jimdosite.com/impressum/ .]

@@ -9,8 +9,8 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.rewimet.de/
+website_status: aktiv
 status: unbekannt
 description: Recycling- und Rohstoffnetzwerk REWIMET e.V.; kein belegter Schrottankauf oder öffentlicher Annahmeplatz.
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 REWIMET e.V. ist ein Rohstoff-/Recyclingnetzwerk, kein als Schrotthändler belegter Betreiber. Die aktuelle eigene Seite nennt die Geschäftsstelle Leibnizstraße 23, 38678 Clausthal-Zellerfeld und Nicole Schröder als Geschäftsleitung. Mitglied pro Goslar bestätigt die Netzwerkfunktion, führt aber noch einen anderen Ansprechpartner. Geschäftsstelle und Verarbeitungszahlen der Mitgliedsunternehmen dürfen nicht als eigener Annahmeplatz oder eigene Recyclingkapazität interpretiert werden. Der stabile Datensatz bleibt zur Historienwahrung bestehen; keine Löschung oder fiktive Betriebsschließung. Ankauf, Verkauf und Entsorgungsgebühren: keine Händlerpreise.
 
 ## Timeline
+
+### Recherche 26.10.2026 — aktueller Betreiberauftritt
+
+- [Recherche 26.10.2026: Die aktuelle REWIMET-Website wurde direkt erneut geprüft; sie beschreibt REWIMET e.V. als Netzwerk von Unternehmen, Wissenschaft und öffentlicher Hand und nennt aktuelle Vereinsnachrichten aus 2026. Die Website ist damit als aktiver Organisationsauftritt belegt, nicht als Schrottankäufer oder öffentlicher Annahmeplatz. Kein Ankauf, Materialverkauf oder Entsorgungstarif für REWIMET selbst veröffentlicht; daraus weder Schließung noch Händlerstatus ableiten. Offizielle Website in Frontmatter ergänzt, `status: unbekannt` und Geschäftsstelle unverändert. Quelle: https://www.rewimet.de/ .]
 
 ### Recherche 18.10.2026 (Welle 0200 B)
 

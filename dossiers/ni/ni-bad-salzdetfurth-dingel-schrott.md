@@ -33,6 +33,10 @@ Die Aktenprüfung vom 18.10. stellt keinen neuen Betreiber-/Registerbeleg fest; 
 
 ## Timeline
 
+### Recherche 26.10.2026 — Portal-Lead erneut geprüft
+
+- [Recherche 26.10.2026: Den 11880-Eintrag direkt erneut gelesen. Er führt weiterhin Dingel Schrott, Hinter dem Dorfe 25, 31162 Bad Salzdetfurth/Listringen und 0173 5664616; die Seite kennzeichnet den Datensatz mit Eintragsdaten vom 11.11.2025 und Aktualisierung 04.10.2026. Das bleibt ein Branchenportal ohne Betreiber-/Registerbestätigung. Adresse, Telefon, Annahmebedingungen und generische Mindestmengen daher nicht als verifizierte Betriebsdaten übernommen; kein Schließungsschluss. Keine belastbaren Ankaufskurse, Verkaufspreise oder Gebühren. GEO erst nach Identitäts- und Standortbestätigung. Quelle: https://www.11880.com/branchenbuch/bad-salzdetfurth/060440092B112739424/dingel-schrott.html .]
+
 ### Aktenprüfung 18.10.2026
 
 - [Recherche 18.10.2026: Heutige Aktenprüfung, kein protokollierter erneuter Suchlauf. Hinter dem Dorfe 25, 0173 5664616 und Mindestmengen 100 kg Eisen/1 kg NE bleiben unbestätigte Verzeichnisleads; frühere Abrufe nicht neu beglaubigt. Kein Betreiber-/Registerbeleg in vorliegenden Unterlagen, keine Zuordnung zu ZAH oder Schließungsnachweis. Frontmatter unverändert, status pruefung; keine Standort-/Preisfreigabe. Quellenbasis: Timeline insbesondere 06.10.; dortige Leads heute nicht neu verifiziert: https://lokaleschrottplatz.de/dingel-schrott/ ; https://www.11880.com/branchenbuch/bad-salzdetfurth/060440092B112739424/dingel-schrott.html .]

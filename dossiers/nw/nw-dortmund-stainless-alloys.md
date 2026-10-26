@@ -30,6 +30,10 @@ North Data führt die exakt benannte Stainless Alloys GmbH & Co. KG unter AG Dor
 
 ## Timeline
 
+### Recherche 26.10.2026 — Registerspur, kein aktueller Annahmenachweis
+
+- [Recherche 26.10.2026: Die öffentlich erreichbare Einstiegsseite des Unternehmensregisters wurde geprüft, aber kein aktueller Einzelregisterauszug zu HRA 16835 abgerufen. NorthData führt weiterhin Stainless Alloys GmbH & Co. KG, AG Dortmund HRA 16835, Lüttge-Heide-Straße 116, 44147 Dortmund und den Gegenstand Metall-/Schrotthandel; dies bleibt ein Registerspiegel und belegt weder aktuellen Betrieb noch Kundenzugang/Schrottannahme. Keine aktuelle Betreiberwebsite oder belastbare Preisquelle festgestellt. **Ankauf/Verkauf:** keine aktuellen Angebote oder Preise; **Gebühren:** keine Tarife. Vor GEO bleibt die Funktion der eingetragenen Adresse als Kundenstandort offen. Quellen: https://www.unternehmensregister.de/ureg/ ; https://www.northdata.de/Stainless%20Alloys%20GmbH%20&%20Co%C2%B7%20KG,%20Dortmund/HRA%2016835 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - B2B-Legierungen (GS)

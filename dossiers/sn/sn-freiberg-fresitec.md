@@ -28,6 +28,10 @@ FReSiTec (HRB 31259 Chemnitz) ist kein aktuell nachgewiesener Schrottannahmebetr
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: FReSiTec-HRB 31259 und das aktuelle LuxChemtech-Impressum erneut geprüft. Das Registerprofil führt FReSiTec als am 22.03.2019 durch Verschmelzung erloschen; LuxChemtech GmbH (eigenständige HRB 32907 Chemnitz) nennt heute Alfred-Lange-Straße 18, 09599 Freiberg und 03731 41937-44. Die aktuelle Betreiberquelle belegt LuxChemtech, nicht eine rechtliche oder betriebliche Fortführung des Dossier-Betriebs als Schrotthändler; Nummer/Adresse werden nicht übertragen. Keine zuordenbaren FReSiTec-Ankaufspreise, Verkaufspreise oder Entsorgungsgebühren. Status `pruefung`, GEO bleibt aus. Quellen: https://www.northdata.de/FReSiTec%20Freiberger%20Recycling%20und%20Silicium%20Technologie%20GmbH,%20Freiberg/Amtsgericht%20Chemnitz%20HRB%2031259 ; https://lc-freiberg.de/impressum/ .]
+
 ### Recherche 14.10.2026
 
 - [Recherche 14.10.2026: Individueller NorthData-Datensatz HRB 31259 Chemnitz direkt gelesen: FReSiTec Freiberger Recycling und Silicium Technologie GmbH, Löschung/Verschmelzung Loser Chemie GmbH am 22.03.2019, Gegenstand Silicium/Indium/Metallgewinnung/Labor/Legierungen. LuxChemtech-Impressum und Über-uns erneut gelesen: eigenständige HRB 32907 Chemnitz, Freiberg Alfred-Lange-Str. 18 sowie Tangermünde Querstr. 2, Halbleiter-/PV-Werkstoffrückgewinnung. Die aktuelle Website liefert damit Standort-/Spezialrecyclingfakten für LuxChemtech, aber keinen unabhängigen Nachweis der kompletten FReSiTec→Loser→LuxChemtech-Rechtsnachfolgekette. Frühere pauschale Formulierung „kein Schrotthändler“ nicht als Ausschluss jeglichen Metallrecyclings lesen; öffentliches Schrottannahme-/Ankaufgeschäft nicht belegt. Historische Nummer 03731 41937-4 unverändert als Lead, weder -44 noch neue Adresse/GEO übertragen; status pruefung. Kein numerischer FReSiTec-Ankauf/Verkauf/Gebührentarif; Quelle: https://www.northdata.de/FReSiTec%20Freiberger%20Recycling%20und%20Silicium%20Technologie%20GmbH,%20Freiberg/Amtsgericht%20Chemnitz%20HRB%2031259 ; https://lc-freiberg.de/impressum/ ; https://lc-freiberg.de/ueber-uns/.]

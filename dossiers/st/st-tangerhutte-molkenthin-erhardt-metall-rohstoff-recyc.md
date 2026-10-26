@@ -8,12 +8,12 @@ street: Tangermünder Chaussee 12
 postcode: '39517'
 phone: 03935 2795
 email: ''
-opening_hours: ''
+opening_hours: 'Annahme Mo-Do 07:00-16:00, Fr 07:00-13:00; Büro/Kasse Mo-Do 08:00-16:00, Fr 08:00-13:00'
 website: https://www.mrr-fauter.de
 website_status: aktiv
 status: aktiv
-description: Ankauf gängiger Eisen- und Nichteisenmetalle am Standort; Container- und Entsorgungsservice. Preise und Containerkosten auf Anfrage.
-dropoff_json: ''
+description: Ankauf gängiger Eisen- und Nichteisenmetalle am Standort; kostenloser Containerdienst nur für Großmengen und Firmen, separate Container-/Entsorgungsleistungen nach Aufwand. Preise und Gebühren auf Anfrage.
+dropoff_json: '{"allowed":true,"conditions":"Betreiber nennt Anlieferung während der Geschäftszeiten und führt separate Annahmezeiten auf. Schrottannahme/Ankauf laut Betreiber; Kundenkreis und weitere Materialeinschränkungen nicht angegeben (Betreiber-Website, 26.10.2026)."}'
 pickup_json: ''
 provenance_section: Altmark (Stendal, Osterburg, Salzwedel, Gardelegen, Tangerhütte)
 provenance_ankauf_raw: ja (lt. Verzeichnis, unbestätigt)
@@ -26,9 +26,17 @@ provenance_origin: table
 
 Die Betreiberwebsite und ein separater Creditreform-Firmeneintrag verbinden den Metall-Rohstoff-Recycling-Betrieb in Tangerhütte mit Inhaber Günther Fauter; die Betreiberseite nennt Tangermünder Chaussee 12, 39517 und 03935 2795. Der Seed-Vorname „Erhardt“ ist nicht bestätigt und wurde aus dem Namen entfernt; „Molkenthin“ bleibt als Betriebsname erhalten. Website und Geschäftsangebot sind direkt erreichbar.
 
-**Preise:** **Ankauf:** Betreiber wirbt mit Ankauf gängiger Eisen- und NE-Metalle und aktueller Preisabfrage per Telefon; kein Zahlenkurs veröffentlicht. **Verkauf:** keine Material-Verkaufspreise gefunden. **Gebühren:** kostenloser Containerdienst wird nur für Großmengen und Firmen genannt; der separate Container-/Entsorgungsdienst berechnet Transport pauschal und Entsorgung nach Abfallart und Gewicht, aber ohne Beträge. Die Kontakt-Unterseite führt abweichende Telefon-/E-Mail-Angaben; diese bleiben ungefüllt. GEO-Koordinate noch nicht gesetzt.
+**Preise:** **Ankauf:** Betreiber wirbt mit Ankauf gängiger Eisen- und NE-Metalle und aktueller Preisabfrage per Telefon; kein Zahlenkurs veröffentlicht. **Verkauf:** keine Material-Verkaufspreise gefunden. **Gebühren:** kostenloser Containerdienst wird nur für Großmengen und Firmen genannt. Davon getrennt berechnet der allgemeine Container-/Entsorgungsservice Transport pauschal und Entsorgung nach Abfallart und Gewicht; Beträge sind nicht veröffentlicht. Die Kontakt-Unterseite führt abweichende Telefon-/E-Mail-Angaben; diese bleiben ungefüllt. GEO-Koordinate noch nicht gesetzt.
 
 ## Timeline
+
+### Recherche 26.10.2026 — Ankauf und Containerkonditionen präzisiert
+
+- [Recherche 26.10.2026: Betreiberseiten für Metallhandel sowie Container-/Entsorgungsservice direkt erneut geprüft. **Ankauf:** gängige Eisen- und NE-Metalle am Standort, Preisabfrage telefonisch; keine numerischen Kurse. **Verkauf:** keine Material-Verkaufsliste. **Gebühren:** nur für Großmengen und Firmen wird ein kostenloser Containerdienst beworben. Dies ist nicht mit dem separat beschriebenen Container-/Entsorgungsservice gleichzusetzen: dort Transportpauschale plus Entsorgung nach Abfallart/Gewicht, ohne veröffentlichte Beträge. Keine pauschale Gratisleistung für Privatkunden oder jede Abfallart abgeleitet. Hauptadresse und Telefon bleiben wie belegt; abweichende Kontakt-Unterseitenangaben nicht übernommen, kein GEO ergänzt. Quellen: https://www.mrr-fauter.de/leistungen/schrott-und-metallhandel ; https://www.mrr-fauter.de/leistungen/containerdienst-abfallentsorgung ; https://www.mrr-fauter.de/kontakt/öffnungszeiten/ .]
+
+### Owner-Nachprüfung 26.10.2026 — Selbstanlieferung und Annahmezeiten
+
+- [Owner-Prüfung 26.10.2026: Die Betreiberseite zum Schrott- und Metallhandel sagt ausdrücklich „Wir kaufen Schrott“ und „Anlieferung während unseren Geschäftszeiten“; die separate Öffnungszeiten-Seite führt dafür Annahmezeiten Mo–Do 07:00–16:00 und Fr 07:00–13:00 auf (Büro/Kasse getrennt). Deshalb sind `dropoff_json.allowed: true` und die differenzierten Öffnungszeiten jetzt im Frontmatter dokumentiert. Ein Kundenkreis oder weitere Materialeinschränkungen sind auf diesen Seiten nicht genannt und wurden nicht ergänzt. Die widersprüchlichen weiteren Kontaktangaben der Unterseite werden weiterhin nicht als Telefon-/E-Mail-Fill übernommen. Quellen: https://www.mrr-fauter.de/leistungen/schrott-und-metallhandel ; https://www.mrr-fauter.de/kontakt/öffnungszeiten/ .]
 
 ### Recherche 23.10.2026
 

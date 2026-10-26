@@ -29,6 +29,10 @@ Die rechtliche Namensspur „Gold Inn AG“ führt laut NorthData zur DORMERO Ho
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Der Gelbe-Seiten-Einzeldatensatz führt weiterhin „Gold Inn AG“, Friedrichstr. 30, 10117 Berlin, als Edelmetalleintrag und nennt 0176 12021370. Es bleibt ein nicht vom Betreiber bestätigter Portal-Lead; die Namensgleichheit mit der früheren Hotelgesellschaft Gold Inn AG/DORMERO (HRB 80018 B) stellt keine Identitätsbrücke her. Keine Übernahme der Mobilnummer oder Adresse in ein verifiziertes Betreiberprofil. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbare Preis- oder Gebührenliste; status `pruefung` und `clear_fields: 'phone'` bleiben. Quelle: https://www.gelbeseiten.de/gsbiz/7fd79069-176c-4e48-8a56-794e3e1d8839 .]
+
 ### Recherche 12.10.2026
 
 - [Recherche 12.10.2026: Der aktuelle NorthData-Abruf führt Gold Inn AG als früheren Namen der DORMERO Hotel AG, HRB 80018 B, Registeranschrift Schloßstraße 67, 14059 Berlin; der ausgewiesene Gegenstand betrifft Hotelbetrieb/Beteiligungen. Das bestätigt die Namenshistorie, nicht den Zusammenhang mit der Verzeichnisangabe Gold-/Silber-/Zahngoldankauf Friedrichstraße 30, 10117 Berlin. Keine Hoteladresse oder Hotelkontakt auf die behauptete Ankaufstelle übertragen. Weil Händleridentität und Filiale nicht belegt sind, `status: aktiv` → `pruefung`. Das Seed-Telefon war ausschließlich der ungültige Platzhalter `—`; der Betreiber-/Ankaufsstelle zurechenbare Rufnummer bleibt unbelegt. Der Owner-Gate entfernte den Platzhalter und setzte nach read-only Vergleich mit dem Produktionsbestand `clear_fields: 'phone'`, damit genau dieser ungültige gespeicherte Wert beim nächsten Seed entfernt wird. ANKAUF: keine diesem Dossier zuordenbare Edelmetallpreisliste. VERKAUF: keine Händler-Verkaufspreise. GEBÜHREN: keine Tarife. Quellen (Abruf 12.10.2026): https://www.northdata.de/Gold+Inn+AG,+Berlin ; https://www.gelbeseiten.de/gsbiz/7fd79069-176c-4e48-8a56-794e3e1d8839.]

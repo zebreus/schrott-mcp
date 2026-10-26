@@ -28,6 +28,10 @@ Ein einzelner Gelbe-Seiten-Quellenverbund führt „Binder Ramona Schrottentsorg
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Suchergebnis und Detailprofil direkt geprüft. Das Portal führt weiterhin „Binder Ramona Schrottentsorgung“, Branchweilerhofstr. 61, 67433 Neustadt an der Weinstraße, Mobil 0176 88035753. Es bleibt eine Quelle/Verzeichnisfamilie, nicht Betreiber- oder Registerbestätigung. Der abweichende Scherr-Lead an Nr. 43 mit anderer Rufnummer bleibt getrennt; keine Identitäts- oder Umzugskette. Keine Füllung oder GEO. ANKAUF: keine bestätigte Vergütung; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/4660cb07-01d3-49e2-91df-6f2d9474640f ; https://www.gelbeseiten.de/suche/schrottentsorgung/neustadt-an-der-weinstrasse .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott vermutet

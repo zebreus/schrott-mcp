@@ -31,6 +31,10 @@ Das Portal nennt jetzt die konkrete Lead-Adresse **Burgunderstraße 19, 42285 Wu
 
 ## Timeline
 
+### Recherche 26.10.2026 — Portalstatus erneut geprüft
+
+- [Recherche 26.10.2026: Halan-Profil auf LokaleSchrottplatz direkt erneut gelesen. Die Seite nennt weiterhin Burgunderstraße 19, 42285 Wuppertal und 0202 76713022, behauptet aber keine Betreiberidentität. Der Status „geschlossen/öffnet morgen 12“ widerspricht der Wochenliste Mo–Sa 08–20; Materialliste und 100-kg-/1-kg-Mindestmengen sind Portalvorlage, keine bestätigten Konditionen. Daher weder Adresse noch Service/Preise als Betreiberfakten übernommen; Ankauf, Verkauf und Gebühren nicht verifiziert. `clear_fields: 'geo'` bleibt bestehen; keine Ersatzkoordinate aus dem Portal-Lead. Quelle: https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ .]
+
 ### Owner-GEO-Korrektur 25.10.2026
 
 - [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 51.259513, 7.1649087. Nominatim-Reverse löst den Punkt an den Gewerblichen Schulen I am Hardtufer auf, nicht an der als Portal-Lead geführten Burgunderstraße 19. Der Portalstatus und die Annahmefunktion sind widersprüchlich; `clear_fields: 'geo'` entzieht den nicht adressgenauen Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.259513043478265&lon=7.164908695652174&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]

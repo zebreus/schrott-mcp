@@ -31,6 +31,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 26.10.2026 — Ortszuordnung erneut gegengeprüft
+
+- [Recherche 26.10.2026: Das Portalprofil „Hildesheimer Schrotthändler“ wurde direkt erneut gelesen. Es ordnet den Namen weiterhin Wennigsen (Deister) zu, nennt 0176 23574787, aber keine Straße und kein Betreiberimpressum. Ortsname, Telefonnummer und Portal-Materialangaben belegen weder einen Betrieb in Hildesheim-Holtensen noch die Identität des Seeds; die dortige Öffnungszeitenanzeige bleibt widersprüchlich. Kein Frontmatter-Fill und keine Koordinate. Ankauf/Verkauf/Gebühren bleiben mangels zurechenbarer Betreiberquelle offen. Quelle: https://lokaleschrottplatz.de/hildesheimer-schrotthandler/ .]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: Exaktsuche und Portal-Detail direkt gelesen: „Hildesheimer Schrotthändler“, Ortszuordnung Wennigsen (Deister), 0176 23574787, ohne Straßenanschrift/Betreiberimpressum. Portal zeigt zugleich „öffnet Montag um 11:00“ und Wochenliste ab 07:00: keine verlässliche Zeitenquelle. Suchtreffer zur gleichen Nummer nennt Miro Metall Schrott Handel; Facebook-Gruppenbeitrag nicht direkt verifiziert, deshalb nur neuer Namenslead, kein Betreiberbeleg. Kein qualifizierter Zweitbeleg und kein Frontmatter-Fill; Ankauf/Verkauf/Gebühren offen, keine GEO-Freigabe. Quellen: https://lokaleschrottplatz.de/hildesheimer-schrotthandler/ ; https://www.facebook.com/groups/Hildesheim.Gruppe/posts/10161482689951247 (nur Suchlead).]

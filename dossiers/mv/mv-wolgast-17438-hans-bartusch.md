@@ -28,6 +28,10 @@ Die Stadt Wolgast führt „Fahrzeugentsorgung und -verwertung Bartusch“ als A
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die amtliche Stadtseite „Umwelt und Abfall“ erneut direkt geprüft. Sie führt Fahrzeugentsorgung/-verwertung Bartusch, Straße der Freundschaft 47, 17438 Wolgast, Tel. 03836 202920 als örtliche Verwertungsanlage für Autowracks/Kfz-Teile. Die Seite enthält zugleich ältere, gemischte Abfallinformationen und belegt weder heutige Öffnungszeiten noch aktuelle Annahme-/Ankaufbedingungen. Adresse und Telefon sind kommunale Kontaktangabe, kein aktueller Betreiberauftritt. Keine Status- oder Serviceänderung. ANKAUF: keine Vergütung oder allgemeiner Schrottankauf belegt; VERKAUF: keine Teilepreise; GEBÜHREN: keine Anbieter-Tarife. Quelle: https://www.wolgast.de/buergerservice/umwelt-und-abfall/ .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Amtliche Stadtseite „Umwelt/Abfall“ direkt erneut gelesen. Sie führt weiterhin Fahrzeugentsorgung/-verwertung Bartusch, Straße der Freundschaft 47, 17438 Wolgast, 03836 202920 und grenzt Autowracks/Kfz-Teile von kommunalem Sperr- bzw. Sondermüll ab. Der Seitentext enthält auch ältere Abfallinformationen; er bestätigt keine heutigen Öffnungszeiten und keine aktuelle Betreiberannahme. `city` wurde syntaktisch zu „Wolgast“ bereinigt, weil PLZ separat geführt wird; Straße/PLZ/Telefon waren bereits dokumentiert. Ankauf, Teileverkauf und Händlergebühren bleiben unbelegt. Keine neue Adresse und kein Geocodinglauf. Quelle: https://www.wolgast.de/buergerservice/umwelt-und-abfall/ (Abruf 21.10.2026).]

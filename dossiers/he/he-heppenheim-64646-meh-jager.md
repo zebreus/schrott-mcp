@@ -31,6 +31,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: 11880- und Gelbe-Seiten-Profile erneut direkt geprüft; beide führen MEH Jäger, Willbacherweg 6, 64646 Heppenheim, Tel. 06252 670657. 11880 weist weiterhin Eintragsdaten vom 19.05.2026 aus (Portalaktualisierung 02.10.2026). Die Übereinstimmung bleibt ein Verzeichnis-/Datenverbund, keine Betreiber- oder Registerbestätigung. `clear_fields: 'phone'` und die geleerten Adressfelder bleiben bestehen; keine aktuellen Bedingungen für Annahme oder Container unabhängig bestätigt. ANKAUF: keine Kurse; VERKAUF: keine Materialpreise; GEBÜHREN: keine Containertarife. GEO erst nach Bestätigung von Betrieb und Kundenstelle. Quellen: https://www.11880.com/branchenbuch/heppenheim-bergstrasse/060371058B38320255/meh-jaeger-altmetall-und-containerdienst.html ; https://www.gelbeseiten.de/gsbiz/b6b4f584-35aa-4094-a5a5-d4926ffddfb4 .]
+
 ### Korrektur/Recherche 20.10.2026
 
 - [Korrektur/Recherche 20.10.2026: Die direkt geprüften 11880- und Gelbe-Seiten-Einträge wiederholen „MEH Jäger Altmetall und Containerdienst“, Willbacherweg 6, 64646 Heppenheim, 06252 670657; 11880 nennt Eintragsdaten 19.05.2026 und Aktualisierung 02.10.2026. Beide sind Aggregatorprofile, nicht zwei qualifizierte Betreiber-/Registerquellen. Die frühere Timeline-Formulierung „2 unabhängige Verzeichnisse“ wird als Quellenqualitätskorrektur eingeordnet; Straße, PLZ und Telefon im Frontmatter geleert, ohne die historischen Werte zu löschen oder als falsch zu behaupten. ANKAUF/VERKAUF/GEBÜHREN: keine Preis-/Tarifliste gefunden. GEO: lokale/Betreiberbestätigung von Betrieb und Kundenstelle erforderlich. Quellen: https://www.11880.com/branchenbuch/heppenheim-bergstrasse/060371058B38320255/meh-jaeger-altmetall-und-containerdienst.html ; https://www.gelbeseiten.de/gsbiz/b6b4f584-35aa-4094-a5a5-d4926ffddfb4 (beide Verzeichnisleads).]

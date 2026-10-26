@@ -30,6 +30,10 @@ Die Frontmatter-Anschrift Luitpoldstr. 9, 66879 Niedermohr und 06383 1322 stamme
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die NorthData-Namenssuche „Gisela Kuß, Niedermohr“ direkt erneut abgerufen; sie liefert keine passenden Ergebnisse. Das ist nur eine Suchlücke eines Registerspiegels, keine amtliche Gewerbe-/Registerauskunft und kein Beleg für Nichtexistenz, Inaktivität oder Schließung. Die bestehenden Anschrift-/Telefonleads und der frühere Status `aktiv` bleiben gemäß dokumentiertem Owner-Gate unberührt, sind dadurch aber nicht neu bestätigt. Kein Betreiber-/Primärbeleg und keine zuordenbaren Ankaufkurse, Verkaufspreise oder Entrümpelungs-/Entsorgungsgebühren. Keine Füllung, keine GEO. Quelle: https://www.northdata.de/Gisela+Ku%C3%9F,+Niedermohr (Suchabruf ohne passenden Treffer).]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Keine neue qualifizierte Quelle zur Identität/aktuellen Tätigkeit gefunden. Die bestehenden zwei Verzeichnisleads für Luitpoldstr. 9, 66879 und 06383 1322 bleiben Hinweise, nicht Betreiberbelege; der frühere NorthData-Namensaufruf ohne passenden Treffer ist keine amtliche Negativauskunft. Status-/Feldentscheidungen aus dem dokumentierten Owner-Gate nicht eigenmächtig verändert, kein Schließungsurteil. Kein bestätigter Metallankauf, Teileverkauf oder Gebührentarif. Für GEO ist eine aktuelle Gewerberegister-/Betreiberbestätigung nötig. Quellen-/Leads: https://www.northdata.de/Gisela+Ku%C3%9F,+Niedermohr ; https://www.gelbeseiten.de/ ; https://www.11880.com/]

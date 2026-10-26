@@ -29,6 +29,10 @@ Konkreter, aber unbestätigter Verzeichnislead zu Peter beziehungsweise Peter un
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Das Örtliche-Schrotthändlerliste direkt erneut gelesen; sie führt „Firma Peter Höschele“ an Kolpingstr. 37, 66849 Landstuhl, Tel. 06371 946878 und separat „Höschele Peter Schrotthändler“ an derselben Straße mit Mobil 0172 6652996. Das sind getrennte Einträge desselben Verzeichnisanbieters, kein Betreiber-/Registerbeleg und kein sicherer Nachweis gemeinsamer Identität. Das Telefonbuch führt ebenfalls den Festnetz-Lead. Keine Felder, kein GEO; `clear_fields: 'geo'` bleibt bestehen. ANKAUF: nicht belegt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Landstuhl.html ; https://www.dastelefonbuch.de/Details/Landstuhl/Schrott-Firma-Peter-H%C3%B6schele-Landstuhl-Kolpingstr.html .]
+
 ### Recherche 25.10.2026
 
 - [Recherche 25.10.2026: Das Telefonbuch führt „Firma Peter Höschele“, Kolpingstr. 37, 66849 Landstuhl, 06371 946878, Branche Schrott; das ist eine weitere Branchenverzeichnisangabe, kein Betreiber-/Registerbeleg und keine Bestätigung einer Annahmestelle. Sie bestätigt nicht, dass der separate Mobilnummer-Eintrag derselben Person/Firma gehört. Keine Felder und keine Produktionsdatenbank geändert. ANKAUF/VERKAUF/GEBÜHREN: keine Betreiberbedingungen oder Preise belegt. `clear_fields: 'geo'` bleibt bestehen; keine Ersatzkoordinate, keine neue Geokodierung. Quelle: https://www.dastelefonbuch.de/Details/Landstuhl/Schrott-Firma-Peter-H%C3%B6schele-Landstuhl-Kolpingstr.html (Verzeichnislead, Abruf 25.10.2026); frühere GEO-Prüfung siehe Eintrag 23.10.2026.]

@@ -28,6 +28,10 @@ Ein einzelner Gelbe-Seiten-Eintrag ist die einzige dokumentierte Quelle für Bet
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Der Gelbe-Seiten-Detaildatensatz ist weiterhin erreichbar und führt Alexander Buntmetall Ankauf Abholung, Burgherrenstraße 1, 12101 Berlin, Tel. 01578 1227011. Seine Aussagen zu „24h Service“, Mindestmengen (500 kg Buntmetall/1 t Abholung), Barauszahlung und Einsatzgebiet bleiben ausschließlich Aggregator-Werbung, ohne Betreiber-Impressum oder zweiten unabhängigen Identitätsbeleg. Deshalb keine Übernahme als Öffnungszeiten, Annahmebedingung, bestätigter Ankauf oder Frontmatter-Kontakt. Keine verifizierten Ankaufkurse, Verkaufspreise oder Gebühren; Adresse nicht geocodiert. Quelle: https://www.gelbeseiten.de/gsbiz/a1273b6f-66a2-44cb-9109-a12a70566dc7 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Buntmetall-Ankauf, mobil

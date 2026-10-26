@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: 11880-Einzelprofil direkt abgerufen (Portalstand: Eintrag zuletzt 03.10.2026 aktualisiert). Es nennt Hackfahrel 28, 27572 Bremerhaven/Wulsdorf, Tel. 0151 43651620, Mo–Sa 08:00–19:00, Besichtigung nach telefonischer Terminvereinbarung und bewirbt Schrottankauf privat/gewerblich sowie Hausmeisterservice/Entrümpelung. Das bleibt Aggregatorinhalt ohne Betreiber-Impressum oder Register-/Identitätsbrücke; daher weder Zeiten noch Kontakt/Annahme als bestätigt übernommen. „Faire Konditionen“ enthält keine Zahlen. **Ankauf:** allgemeine Werbeaussage, kein Kurs; **Verkauf/Gebühren:** keine Tarife. City-Feld, Adresse und GEO weiterhin Owner-Klärfall. Quelle: https://www.11880.com/branchenbuch/bremerhaven/060692243B108404918/schrotthandel-petermann-gbr.html .]
+
 ### Recherche 16.10.2026 — Welle 13:00 B
 
 - [Recherche 16.10.2026: Korrekte 11880-URL mit Branchenkennung 060692243B108404918 direkt gelesen. Sie nennt Mo-Sa 08-19 Uhr und Besichtigung nach telefonischer Terminvereinbarung, Hausmeisterservice/Entrümpelungen sowie Schrottankauf privat/geschäftlich. Eintragsdaten 16.03.2025, Portalaktualisierung 03.10.2026 sind keine Betreiber-Verifikation; keine Zeiten/Leistungen übernommen. Gleichnamige Mario-Petermann-Autoverwertungsleads in Loxstedt nicht ohne Personen-/Adressbrücke zuordnen. ANKAUF: faire Konditionen ohne Sorten-/Zahlenliste; VERKAUF/GEBÜHREN: keine Tarife. GEO: city-Feldfehler und heutige Annahme bleiben Owner-Klärfall, keine Koordinaten aus Portal-Karte. Quelle: https://www.11880.com/branchenbuch/bremerhaven/060692243B108404918/schrotthandel-petermann-gbr.html .]

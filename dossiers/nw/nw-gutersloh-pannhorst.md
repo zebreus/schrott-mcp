@@ -4,8 +4,8 @@ name: Pannhorst
 trader_type: schrotthaendler
 state: NW
 city: Gütersloh
-street: ''
-postcode: ''
+street: Henry-Ford-Straße 14
+postcode: '33335'
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,9 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Pannhorst ist ein Gütersloher Entsorgungsfachbetrieb; die Betreiberseite beschreibt Altmetall-Entsorgung, Abholung/Transport und Recycling. Sie belegt keinen Ankauf: „Altmetall entsorgen“ darf nicht als Auszahlung an Anliefernde interpretiert werden. Zwei offizielle Adressangaben unterscheiden Betriebs-/Anlieferstandort Henry-Ford-Str. 14 und Impressumsanschrift Langer Weg 33; daher keine Straße übernommen. ANKAUF: nicht bestätigt, keine Preisliste; VERKAUF: keine Liste; GEBÜHREN: projektbezogenes Angebot statt veröffentlichtem Tarif.
+Pannhorst GmbH ist ein Gütersloher Entsorgungsfachbetrieb. Die aktuelle Betreiber-Standortseite und das unabhängige bvse-Entsorgerzertifikat bestätigen Henry-Ford-Straße 14, 33335 Gütersloh als Hauptstandort; der Zertifikatskopf nennt HRB 1573 und die abweichende Anschrift Langer Weg 33 als Hauptsitz. Das Zertifikat ist bis 31.05.2027 gültig. Der Standortbeleg bestätigt weder öffentliche Kundenannahme noch Auszahlung. „Altmetall entsorgen“ darf nicht als Ankauf interpretiert werden. **Ankauf:** nicht bestätigt, keine Preisliste. **Verkauf:** keine Materialpreisliste. **Gebühren:** projektbezogene Angebote, kein veröffentlichter Tarif. GEO bleibt ungefüllt.
 
 ## Timeline
+
+### Recherche 26.10.2026 — Standortfunktion geklärt
+
+- [Recherche 26.10.2026: Betreiber-Standortseite direkt erneut gelesen. Sie unterscheidet den „Standort Entsorgungsfachbetrieb“, Henry-Ford-Straße 14, 33335 Gütersloh, vom Verwaltungssitz Langer Weg 33, 33332 Gütersloh (Impressum). Die erste Adresse wird jetzt als Betriebsstandort in Frontmatter geführt; die Betreiberseite belegt damit weder öffentlichen Kunden-Drop-off noch bezahlten Altmetallankauf. Die Altmetallseite beschreibt Entsorgung, Transport und Verwertung nach individueller Abstimmung. **Ankauf:** kein Kauf-/Auszahlungsbeleg, keine Kurse; **Verkauf:** keine Materialpreisliste; **Gebühren:** individuelle Leistungsklärung, keine Zahlenliste. Status pruefung bleibt; GEO nicht geraten, die neue Straße muss adressgenau geocodiert werden, sobald die Kunden-/Annahmefunktion geklärt ist. Quellen: https://pannhorst.de/ueber-uns/standorte/ ; https://pannhorst.de/wertstoffe/altmetall/ ; https://pannhorst.de/impressum/ .]
+
+### Owner-Nachprüfung 26.10.2026 — Betriebsstandort unabhängig bestätigt
+
+- [Owner-Prüfung 26.10.2026: Das aktuell auf der Betreiberseite verlinkte bvse-Entsorgerzertifikat wurde vollständig textuell gelesen. Zertifikat **10290 / ZZEE001002580008**, ausgestellt 04.12.2025, Prüfungsdatum 14.11.2025, gültig bis 31.05.2027; Zertifizierungsorganisation bvse-Entsorgergemeinschaft e.V. Der Zertifikatskopf nennt Pannhorst GmbH, HRB 1573 (Amtsgericht Gütersloh) und Langer Weg 33 als Hauptsitz. Anlage 1 weist Henry-Ford-Straße 14, 33335 Gütersloh als Hauptstandort aus; Anlagen nennen u.a. Metallabfälle und die zertifizierten Tätigkeiten. Zusammen mit der aktuellen Betreiber-Standortseite ist die neue Straßen-/PLZ-Angabe unabhängig gestützt. Das Zertifikat bestätigt keinen bezahlten Ankauf und für sich allein keine Annahme durch Privatkunden; `status: pruefung`, leere Servicefelder und fehlende GEO-Koordinaten bleiben daher unverändert. Quelle: https://pannhorst.de/wp-content/uploads/2026/07/ZZEE001002588.pdf .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

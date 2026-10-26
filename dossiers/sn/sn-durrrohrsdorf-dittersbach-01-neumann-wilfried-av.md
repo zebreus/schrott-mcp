@@ -32,6 +32,10 @@ Aktueller Betreiber, zertifizierte Altautoannahme, Abholung und Preise sind noch
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Das GADSYS-Fachbetrieberegister zur Altfahrzeugverwertung direkt aufgerufen; es liefert weiterhin nur eine JavaScript-Anwendung ohne auslesbaren Einzeldatensatz zu Wilfried Neumann. Daraus folgt weder eine fehlende Anerkennung noch Schließung. Die Radeberger-Str.-17-/Wünschendorf-Spur und Telefonnummer bleiben Verzeichnis-/Legacy-Leads; keine neue Betreiber- oder Registerbrücke und keine Frontmatter-Änderung. Erst exakte Gewerbe-/GESA-Bestätigung, dann Hof-GEO. **Ankauf:** kein verifizierter Altautobetrag; **Verkauf/Gebühren:** keine Preis-/Tarifliste. Quelle: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
+
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 
 - [Recherche 18.10.2026: GADSYS-Altfahrzeugregister heute direkt HTTP 200, auswertbarer Text jedoch leer/JS-Anwendung; kein Neumann-Einzelbetrieb und keine Zertifikatslaufzeit ausgelesen. Deshalb weder Anerkennung bestätigen noch aus fehlendem Text Aberkennung oder Schließung ableiten. Bestehende Wünschendorfer Radeberger-Str.-17-Spur, Telefon und Beschreibung weiterhin nur Legacy-/Verzeichnisleads; kein Orts-/Kontaktfill, status pruefung erhalten. Ankauf ohne geprüften Betrag, Verkauf ohne Teilepreise, Gebühren ohne Abhol-/Entsorgungstarif. Nächster Gate-Schritt konkrete GESA-/Gewerbeauskunft Wilfried Neumann/Radeberger Straße 17 statt weiterer Verzeichniszählung; erst danach Hof-GEO. Quelle: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]

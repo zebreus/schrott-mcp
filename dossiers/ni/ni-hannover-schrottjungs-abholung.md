@@ -28,6 +28,10 @@ Schrottjungs UG (Hamburg, HRB 196586) bietet laut eigener Website Schrottabholun
 
 ## Timeline
 
+### Recherche 26.10.2026 — Hannover-Leistung und Konditionen
+
+- [Recherche 26.10.2026: Hannover-Leistungsseite und Impressum des Betreibers direkt erneut gelesen. Schrottjungs UG nennt Hannover samt Umland als Abholgebiet, aber keinen dortigen Hof. Die Website unterscheidet vergütete wertige Metalle (ohne veröffentlichte €/kg-Ankaufskurse) von möglichen Abholgebühren: für Eisenschrott unter 300 kg und einzelne Haushaltsgeräte werden etwa 40–80 € genannt; das ist eine Kundengebühr, kein negativer Ankaufspreis. Kostenlosigkeit ist mengen-/materialabhängig und kein pauschales Versprechen. Keine Verkaufspreisliste. Adresse/Koordinaten für Hannover weiterhin unbelegt. Quellen: https://schrottjungs.de/schrottabholung-hannover/ ; https://schrottjungs.de/impressum-datenschutz/ .]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Betreiber-Impressum und Hannover-spezifische Leistungsseite erneut direkt abgerufen: Schrottjungs UG, Billwerder Steindamm 15a, 20537 Hamburg, HRB 196586, nennt Hannover samt Stadtteilen und Umland ausdrücklich als Einsatzgebiet; das belegt keinen lokalen Annahme-/Betriebsstandort, daher bleiben lokale Adressfelder leer. Für Kupfer, Messing, Kabel, Zinn, VHM und Wolfram verspricht der Betreiber Auszahlung des jeweils tagesaktuellen Schrottpreises vor Ort, aber veröffentlicht keine konkreten €/kg-Ankaufspreise. Laut Seite werden kleine Mengen wertiger Buntmetalle kostenlos abgeholt; für Eisenschrott unter 300 kg und Einzelgeräte (z. B. Waschmaschinen/Herde) können dagegen 40–80 € Abholgebühr anfallen. Die 40–80 € sind eine Kundengebühr, kein negativer Ankaufpreis. Eine Auszahlung wird für größere Mengen bzw. hochwertige Metalle genannt, ohne Materialtarife; keine Verkaufs-Preisliste für Materialien. Konkreter Umfang/Angebot bleibt mengen- und materialabhängig. Quelle(n): https://schrottjungs.de/impressum-datenschutz/ ; https://schrottjungs.de/schrottabholung-hannover/ ; https://schrottjungs.de/]

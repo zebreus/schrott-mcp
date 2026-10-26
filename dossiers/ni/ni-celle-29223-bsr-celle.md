@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+„BSR Celle“ bleibt ein ungeklärter Verzeichnisdatensatz, nicht die Berliner Stadtreinigung. Gelbe Seiten führt den Namen mit Haydnstraße 11, 29223 Celle und einer Mobilnummer; ein Betreiberauftritt, Registerbeleg oder bestätigter Annahmebetrieb fehlt. **Ankauf:** nicht verifiziert, keine Preise. **Verkauf:** keine Liste. **Gebühren:** keine Konditionen. Die Seed-Adresse bleibt als historischer Lead erhalten, ist aber kein bestätigter Kunden-/Annahmestandort; keine GEO-Freigabe.
 
 ## Timeline
+
+### Recherche 26.10.2026 — Identität weiterhin offen
+
+- [Recherche 26.10.2026: Gelbe-Seiten-Profil erneut direkt geprüft: „BSR Celle“, Schrott, Haydnstraße 11, 29223 Celle, Tel. 0177 3 23 50 53. Kein verlinkter Betreiberauftritt oder sichtbarer Nachweis, dass „BSR“ für eine bestimmte Gesellschaft steht. Weitere Portaltreffer wiederholen die Adresse, sind kein Primärbeleg. Die vorhandene Straßenangabe bleibt Seed-/Verzeichnislead; keine Telefonnummer/PLZ/Leistung in Frontmatter ergänzt. Ankauf, Verkauf, Gebühren und öffentliche Annahme unbestätigt; keine Geokodierung. Quelle: https://www.gelbeseiten.de/gsbiz/b8a47421-fc6a-4dc0-addc-b7ca21960ad9 .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

@@ -31,6 +31,10 @@ Der Identitätslead ist weiterhin ein wlw-Profil „SMI Metallrecycling“ an Am
 
 ## Timeline
 
+### Recherche 26.10.2026 — Domain und Identität erneut geprüft
+
+- [Recherche 26.10.2026: Die zugeordnete Domain smi-metallrecycling.de direkt erneut geöffnet; sie zeigt weiterhin nur „BALD VERFÜGBAR“, ohne Impressum, aktuellen Betreiberkontakt, Leistungen oder Preise. Das wlw-Profil nennt SMI Metallrecycling/Can Ikram, Am Schild 11, 48159 Münster; es bleibt ein Branchenprofil ohne unabhängige Betreiber-/Registerbestätigung. Die abweichende Sprakeler-Straße-Spur bleibt ungelöst. Keine Straße/Kontakte übertragen; **Ankauf:** ältere Marktplatzwerbung ohne aktuelle Kurse, nicht bestätigt; **Verkauf:** keine Liste; **Gebühren:** keine verifizierten Tarife. `clear_fields: 'geo'` bleibt, keine Koordinate oder Betriebsfortdauer aus dem Platzhalter abgeleitet. Quellen: https://smi-metallrecycling.de/ ; https://www.wlw.de/de/firma/smi-metallrecycling-1786787 .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 51.6992941, 8.0388824. Das Dossier dokumentiert bereits, dass der Altpunkt rund 40 km von Münster entfernt liegt und keinen Adressbezug hat. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

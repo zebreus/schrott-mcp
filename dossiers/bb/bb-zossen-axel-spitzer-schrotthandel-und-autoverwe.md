@@ -33,6 +33,10 @@ Unter An den Wulzen 10 führt 11880 „Metallaufbereitung Spitzer“ mit der See
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Der direkt geöffnete 11880-Eintrag führt weiterhin „Metallaufbereitung Spitzer“ an An den Wulzen 10, 15806 Zossen, Tel. 03377 332630. Er bleibt ein einzelner Branchenportalbeleg und bestätigt weder den Zusatz „Axel“ noch Autoverwertung, Betreiberidentität oder aktuellen Kundenbetrieb. Der städtische Bebauungsplan „Park-and-Ride An den Wulzen“ belegt weiterhin nur Planungskontext, keine Zuordnung zu Hausnummer 10 und keine Schließung/Verlagerung. Name, Kontaktdaten und Status daher nicht geändert; Ankauf/Verkauf/Gebühren ohne verifizierte Konditionen, GEO nicht freigegeben. Quellen: https://www.11880.com/branchenbuch/zossen-bei-berlin/060441364B26682097/metallaufbereitung-spitzer.html ; https://www.zossen.de/fileadmin/user_upload/Sitzungsdienst/Beschlussvorlagen_2025/BV-Nr.103-25.pdf .]
+
 ### Recherche 23.10.2026: Standortkontext
 
 - [Recherche 23.10.2026: Die Stadt Zossen führt 2025 eine öffentliche Beschlussvorlage zum Bebauungsplan „Park-and-Ride An den Wulzen“. Der Titel belegt einen planerischen Standortkontext, aber nicht, dass der Geltungsbereich das Grundstück An den Wulzen 10 umfasst, noch eine Betreiberverbindung, Verlagerung oder Schließung der „Metallaufbereitung Spitzer“. Seed-Name, Adresse und Telefonnummer deshalb nicht geändert. Ankauf/Verkauf/Gebühren bleiben ohne belastbare Händlerpreisliste; GEO nicht freigegeben. Quelle: https://www.zossen.de/fileadmin/user_upload/Sitzungsdienst/Beschlussvorlagen_2025/BV-Nr.103-25.pdf .]

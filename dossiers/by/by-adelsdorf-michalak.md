@@ -28,6 +28,10 @@ AME MICHALAK Metallrecycling ist durch die kommunal publizierte Ortsplan-Anzeige
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die kommunale Nachricht „Ortsplan Gemeinde Adelsdorf 2026“ vom 16.01.2026 direkt erneut geöffnet; sie verlinkt weiterhin die 12,17-MB-PDF. Das PDF wurde in dieser Welle nicht erneut abgerufen oder ausgelesen; die konkreten Michalak-Angaben bleiben daher die dokumentierte PDF-Lektüre vom 04.10.2026, keine neue Bestätigung. Die Portalabweichung 27/27a sowie die fehlende unabhängige Betreiber-/Identitätsquelle bleiben offen. Keine Frontmatter-Füllung. ANKAUF: keine bestätigten Vergütungskurse/Annahmebedingungen; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. GEO erst nach Identitäts- und Hausnummerabgleich. Quellen: https://www.adelsdorf.de/nachrichten/artikel/ortsplan-gemeinde-adelsdorf-2026 (Nachricht und PDF-Link erneut geprüft); https://www.adelsdorf.de/fileadmin/Gemeinde_Adelsdorf/documents/6_News/Ortsplan_2026/Ortsplan_Gemeinde_Adelsdorf_2026.pdf (in dieser Welle nicht neu gelesen); https://web2.cylex.de/firma-home/ame-michalak-16877856.html (Portal-Lead).]
+
 ### Recherche 15.10.2026 Welle18B
 
 - [Recherche 15.10.2026: Kommunale Nachricht vom 16.01.2026 direkt erneut geöffnet: Ortsplan 2026 bleibt als Original-PDF (12,17 MB) verlinkt. In dieser Welle nur Nachricht und Link geprüft, Anzeige/PDF nicht neu extrahiert; deren genaue Angaben stammen ausdrücklich aus der dokumentierten PDF-Lektüre 04.10. Neue Suche liefert weiterhin nur Portale, Cylex mit Industriestr. 27 gegenüber bisherigen 27a-Leads; keine qualifizierte zweite Betreiberquelle. Kommunales Hosting macht eine Anzeige nicht zu einem Gewerberegisterauszug. Keine Fills/kein Aktiv-Upgrade. ANKAUF/VERKAUF/GEBÜHREN ohne neu verifizierte Zahlenliste; GEO nach Identitäts- und Hausnummerabgleich. Quellen: https://www.adelsdorf.de/nachrichten/artikel/ortsplan-gemeinde-adelsdorf-2026 (live); https://www.adelsdorf.de/fileadmin/Gemeinde_Adelsdorf/documents/6_News/Ortsplan_2026/Ortsplan_Gemeinde_Adelsdorf_2026.pdf (verlinkt, nicht neu gelesen); https://web2.cylex.de/firma-home/ame-michalak-16877856.html (Suchlead).]

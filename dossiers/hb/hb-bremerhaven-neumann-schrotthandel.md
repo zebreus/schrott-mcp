@@ -28,6 +28,10 @@ Der Portal-Eintrag nennt Neumann Schrotthandel an Blumenstr. 2, 27580 Bremerhave
 
 ## Timeline
 
+### Nachprüfung 26.10.2026
+
+- [Nachprüfung 26.10.2026: Schrottplatz-Info-Detailseite direkt erneut abgerufen: Neumann Schrotthandel, Blumenstr. 2, 27580 Bremerhaven, 0471 4818360. Die Seite weist weiterhin ausdrücklich auf fehlende vollständige Beschreibung, nicht erfasste Öffnungszeiten und fehlendes Leistungsangebot hin; ihr Homepage-Link führt nicht zu einer Betreiber-Domain. Damit nur aktueller Verzeichnislead, keine Bestätigung des Rechtsträgers, eines öffentlichen Hofs oder von Metallannahme/Ankauf. Keine Frontmatter-Übernahme, kein GEO. **Ankauf/Verkauf/Gebühren:** keine verifizierten Leistungen, Preise oder Tarife. Quelle: https://www.schrottplatz-info.de/schrottplatz/Bremerhaven/Neumann-Schrotthandel .]
+
 ### Recherche 21.10.2026 — aktueller Portalstand und Preise
 
 - [Recherche 21.10.2026: Der direkt gelesene Schrottplatz-Info-Eintrag führt Neumann Schrotthandel, Blumenstr. 2, 27580 Bremerhaven, Tel. 0471 4818360; Beschreibung, Öffnungszeiten und Leistungs-/Annahmebedingungen fehlen. Der „Homepage“-Verweis endet an der Portalwurzel, nicht bei einer Händlerwebsite. Kein Betreiber-/Registerbeleg oder bestätigter öffentlicher Annahmebetrieb; Namensträger Bruno Neumann in Niedersachsen nicht zuordnen. ANKAUF: keine Kursliste; VERKAUF: keine Liste; GEBÜHREN: keine Tarifangabe. Quelle (Verzeichnislead): https://www.schrottplatz-info.de/schrottplatz/Bremerhaven/Neumann-Schrotthandel]

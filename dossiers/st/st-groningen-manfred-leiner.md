@@ -28,6 +28,10 @@ Klärfall. Der Creditreform-Suchindex führt „Manfred Leißner Abfallentsorgun
 
 ## Timeline
 
+### Recherche 26.10.2026 — Verzeichnisadressen bleiben Leads
+
+- [Recherche 26.10.2026: Gelbe-Seiten- und Das-Örtliche-Treffer erneut gegen die Dossieridentität geprüft. Beide führen „Leißner/Leiner Manfred Containerdienst“, Schöneckstraße 2, 39397 Gröningen und die Seed-Rufnummer 039403/929237; weiterhin keine Betreiberquelle oder amtliche aktuelle Einzelbestätigung. Schreibweise, Identität und Tätigkeit als Schrotthändler bleiben offen; Containerdienst ist kein automatischer Metallankauf. Keine Frontmatter-Übernahme und keine Geokodierung. **Ankauf:** keine Konditionen/Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife belegt. Der kommunale STRABAG-Recyclingplatz bleibt ein separater Anbieter. Quellen: https://www.gelbeseiten.de/gsbiz/8d8b7922-68e8-43f4-9d3b-610da7bca1da ; https://www.dasoertliche.de/Themen/Lei%C3%9Fner-Manfred-Containerdienst-Gr%C3%B6ningen-Sch%C3%B6neckstr .]
+
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 
 - [Recherche 24.10.2026: Gelbe Seiten und Das Örtliche liefern aktuelle Suchtreffer „Leißner/Leiner Manfred Containerdienst“ für Schöneckstr. 2, 39397 Gröningen und dieselbe Seed-Telefonnummer 039403/929237. Das sind zwei Branchenverzeichnisse, keine Betreiberquelle oder amtliche Bestätigung; Schreibvarianten Leißner/Leiner und Identität bleiben zu prüfen. Der STRABAG-Recyclingplatz an der Nienhagener Straße ist ein getrennter Anbieter. ANKAUF: keine Leißner-Kurse/Annahmebedingungen bestätigt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Adresse/Telefon nicht übernommen, keine GEO. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/8d8b7922-68e8-43f4-9d3b-610da7bca1da ; https://www.dasoertliche.de/Themen/Lei%C3%9Fner-Manfred-Containerdienst-Gr%C3%B6ningen-Sch%C3%B6neckstr ; https://www.westliche-boerde.de/de/recyclingplatz-groeningen.html .]

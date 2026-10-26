@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Datensatz „Ernst-Holger Meves Schrotthandel“ beruht weiter auf Branchenportal-Leads; kein aktueller Betreiberauftritt oder belastbarer Register-/Identitätsbeleg wurde gefunden. Portale führen Helsunger Straße 2A, 38889 Blankenburg, 03944 63834 und einen möglichen Namen „AM Recycling Meves“ am selben Ort. Das beweist weder aktuellen Betrieb noch Betreiberidentität/Umfirmierung; nicht mit der unabhängigen Hoffmann & Ernst GmbH an anderer Adresse zusammenführen. **Ankauf:** nicht aktuell verifiziert, keine Preise. **Verkauf:** keine Liste. **Gebühren:** keine belegten Tarife. Adresse/Kontakt und GEO bleiben ungefüllt; aus fehlenden Primärquellen keine Schließung ableiten.
 
 ## Timeline
+
+### Recherche 26.10.2026 — Identität und Adresse weiterhin ungeklärt
+
+- [Recherche 26.10.2026: Aktuelle Suche und Portalprofile erneut geprüft. Der 11880-/Branchenportal-Lead für Ernst-Holger Meves nennt Helsunger Straße 2A, 38889 Blankenburg, 03944 63834; ein weiteres Verzeichnis führt „AM Recycling Meves“ unter nahezu gleicher Adresse/Rufnummer. Keine Betreiberwebsite, aktuelle amtliche Quelle oder belastbare Rechtsnachfolge/Identitätsbrücke gefunden. Die ebenfalls in Blankenburg gefundene Hoffmann & Ernst Schrotthandel u. Recycling GmbH ist ein anderer Rechtsträger an Neue Halberstädter Straße 67d; keine Zuordnung. Daher keine Adresse oder Telefonnummer in Frontmatter und keine GEO. **Ankauf:** Verzeichnisbehauptung ohne aktuelle Betreiberbestätigung/Preis; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quellen/Leads: https://lokaleschrottplatz.de/ernst-holger-meves-schrotthandel/ ; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/ernst-holger-meves-schrott-buntmetallhandel-blankenburg-72813717.html ; https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/am-recycling-meves-schrottmetalle-und-transporte-blankenburg-harz-100726718.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

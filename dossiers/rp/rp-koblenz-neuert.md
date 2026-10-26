@@ -31,6 +31,10 @@ Die Firmenregister-Spiegel North Data und online-handelsregister führen überei
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: NorthData und online-handelsregister direkt erneut geöffnet; beide Spiegel führen Raimund Neuert Rohstoffverwertungsgesellschaft mbH, HRB 3481 AG Koblenz, Marienfelder Str. 5, 56070 Koblenz und den Gegenstand Handel/Verwertung von Rohstoffen. Online-handelsregister weist keine Registerbekanntmachungen seit August 2022 aus; die geprüften Seiten sind keine aktuellen Originalregisterauszüge. Das stützt die Registerspur, nicht eine heutige Kundenannahme oder einen öffentlichen Schrottplatz. Keine Frontmatter-Änderung; `clear_fields: 'geo'` bleibt bestehen. ANKAUF: aus dem Unternehmensgegenstand nicht ableitbar, keine Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://www.northdata.de/Raimund+Neuert+Rohstoffverwertungsgesellschaft+mbH,+Koblenz/HRB+3481 ; https://www.online-handelsregister.de/handelsregisterauszug/rp/Koblenz/HRB/3481/Raimund-Neuert-Rohstoffverwertungsgesellschaft-mbH .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.3540143, 7.5774000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

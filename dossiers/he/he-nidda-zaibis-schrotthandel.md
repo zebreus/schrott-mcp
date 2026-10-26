@@ -28,6 +28,10 @@ Ungeklärter Verzeichnis-Lead: weder Betreiberidentität noch genaue Adresse ode
 
 ## Timeline
 
+### Recherche 26.10.2026
+
+- [Recherche 26.10.2026: Die konkrete 11880-Suche „Zaibis/Nidda“ direkt abgerufen und ohne Treffer; Gelbe Seiten lieferte für dieselbe Suche HTTP 404. Das sind Portal-Suchlücken, keine Gewerbe-/Registerauskunft und kein Nachweis von Nichtexistenz oder Schließung. Die Gersfeld-Spur wird nicht übertragen; keine Betreiber-Primärquelle, Identität oder genaue Nidda-Betriebsstätte neu belegt. ANKAUF: keine zurechenbare Vergütung; VERKAUF: keine Liste; GEBÜHREN: kein Tarif. Keine Frontmatter-Füllung oder GEO. Quellen: https://www.11880.com/suche/zaibis/nidda ; https://www.gelbeseiten.de/suche/zaibis/nidda (HTTP 404).]
+
 ### Recherche 18.10.2026 (Welle 1202 West)
 
 - [Recherche 18.10.2026: Direkt geprüfte Namens-/Ortssuchen: Gelbe Seiten meldet null passende Einträge (HTTP 404 mit Suchinhalt), 11880 keine Ergebnisse (HTTP 200). Das sind nur Portal-Suchlücken, keine Registerauskunft und kein Nichtexistenzbeweis. Google liefert Consent, DuckDuckGo HTTP 202/Bot-Challenge, daher kein neuer Betreiberinhalt aus diesen Abrufen. Gersfeld-Spur nicht nach Nidda übertragen; Betreibername, Nidda-Betriebsstätte und tatsächliche Ankauftätigkeit bleiben offen. Ankauf: keine zuordenbare Zahlenliste; Verkauf: keine verifizierte Liste; Gebühren: kein verifizierter Tarif. Keine Stammdaten- oder GEO-Ergänzung; Quelle(n): https://www.gelbeseiten.de/suche/zaibis/nidda ; https://www.11880.com/suche/zaibis/nidda ; https://html.duckduckgo.com/html/?q=%22Zaibis%22%20Schrotthandel%20Nidda .]

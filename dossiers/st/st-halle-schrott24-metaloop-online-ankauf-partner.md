@@ -30,6 +30,10 @@ Die aktuelle Standortseite bewirbt Online-Ankauf in Halle über einen passenden 
 
 ## Timeline
 
+### Recherche 26.10.2026 — lokale Partneradresse und Preisstand
+
+- [Recherche 26.10.2026: Halle-Standort-, Support-, Preis- und FAQ-Seiten direkt erneut geprüft. Der passende Partner sowie dessen konkrete Anschrift und Öffnungszeiten werden weiterhin erst nach erfolgreichem Onlineverkauf mitgeteilt; es gibt keinen öffentlich geocodierbaren Hallenser Standort und keine lokale Preiszusage. Die deutsche Preisseite trägt weiterhin den sichtbaren Stand 14.11.2025; die angegebenen „bis zu“-Werte sind damit keine aktuellen Tageskurse. **Ankauf:** nur allgemeine plattformweite Höchstwerte, material-/standort-/logistikabhängig; keine Halle-Kurse. **Verkauf:** keine Materialverkaufsliste. **Gebühren:** FAQ nennt u.a. 5 € je verwendetes deutsches Paketlabel (ungenutzte kostenfrei), Big Bag 5 € zzgl. Versand, PayPal-Abzug 2 %; Abholung individuell. AGB-Stornoangabe bleibt 5 % nach 12 Stunden, mindestens 20 € bei angegebenem Wert unter 400 €. Das sind Plattformbedingungen, keine Halle-Konditionen. Keine GEO- oder Adressänderung. Quellen: https://www.schrott24.de/standorte/schrottplatz-halle/ ; https://www.schrott24.de/faq/support/ ; https://www.schrott24.de/schrottpreise/ ; https://www.schrott24.de/faq/agb/ .]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Deutsche Schrottpreise-Seite erneut direkt abgerufen; Datumszeile bleibt 14.11.2025 und die dort genannten Werte sind weiterhin als „bis zu“ ausgewiesen. Sie sind damit weder aktuelle Tageskurse noch Halle-spezifische Ankaufzusagen. Die Standortseite gibt weiter keine konkrete Partneradresse frei. Keine neue Verkaufspreisliste oder lokale Gebührenordnung; getrennte Plattformgebühren und die Sprachseitenabweichung bleiben wie unten dokumentiert. Keine GEO-Änderung. Quellen: https://www.schrott24.de/schrottpreise/ ; https://www.schrott24.de/standorte/schrottplatz-halle/ (Abruf 23.10.2026).]
