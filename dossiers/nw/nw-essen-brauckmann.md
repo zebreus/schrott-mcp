@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-brauckmann
+clear_fields: 'geo'
 name: Brauckmann
 trader_type: mobil
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Die read-only-Abfrage von `public.db` bestätigt für diesen Slug den Produktionspunkt 51.450284375, 7.015053125. Nominatim-Reverse ordnet ihn der Straße Freiheit im Essener Südviertel zu. Das Betreiber-Impressum identifiziert Brauckmann Service GmbH mit HRB 30120 und Anschrift Krablerstr. 14b, 45326 Essen; die Betreiberseite beschreibt dort Metallannahme mit Anlieferung. Der gespeicherte Punkt liegt damit nicht am belegten Betrieb/Annahmeort. `clear_fields: 'geo'` zieht nur das nicht passende Koordinatenpaar beim nächsten regulären Seed zurück. Keine Ersatzkoordinate und keine Schließungs- oder Ablehnungsbehauptung. Quellen: [Nominatim-Reverse](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1), [OSM-Straße Freiheit](https://www.openstreetmap.org/way/46961889), [Betreiber-Impressum](https://www.brauckmann-service.de/impressum), [Betreiber-Metallhandel](https://www.brauckmann-service.de/container-und-metall/metallhandel), [NorthData HRB 30120](https://www.northdata.de/Brauckmann%20Service%20GmbH,%20Essen/HRB%2030120), read-only `public.db` (27.10.2026), `docs/trader-seed.md`.]
 
 ### Recherche 02.10.2026
 

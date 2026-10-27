@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: (1) Behaltene Neueinträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: GEO-Rücknahme
+
+- [Owner-Korrektur 27.10.2026: Der read-only Produktionspunkt 51.450284375, 7.015053125 wird von Nominatim als Freiheit, Essen 45128 aufgelöst. Die Betreiberseite nennt Schrotthandel Ingrid Sackenreuther und die Postanschrift Brüninghofer Weg 17, 45307 Essen; sie erklärt ausdrücklich, dass dort keine Schrottannahmestelle betrieben wird und keine Anlieferungen am Standort möglich sind. 11880 listet denselben Betrieb mit derselben Anschrift (der dortige Verzeichnisstatus „geschlossen“ wird hier nicht als Schließungsbeleg gewertet). Der Produktionspunkt ist weder die angegebene Geschäftsanschrift noch eine belegte Annahmestelle; er wird ohne Ersatzpunkt zurückgenommen. `clear_fields: 'geo'` greift beim nächsten regulären Seed, sonstige Frontmatter-Felder und alte Historie bleiben unverändert. Quellen/Abruf 27.10.2026: http://www.schrotthandel-sackenreuther.de/ ; http://www.schrotthandel-sackenreuther.de/kontakt.htm ; https://www.11880.com/branchenbuch/essen-ruhr/060440092B100217397/ingrid-ruth-sackenreuther-schrotthandel.html ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; read-only `public.db`; `docs/trader-seed.md`.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

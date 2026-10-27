@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-carl-herholz
+clear_fields: 'geo'
 name: Carl Herholz GmbH & Co. KG
 trader_type: sonstige
 state: NW
@@ -29,6 +30,10 @@ Die Bezirksregierung Düsseldorf listet **Carl Herholz GmbH & Co. KG**, Wilhelm-
 Ankauf: keine aktuelle Preis- oder Annahmeliste. Verkauf: keine Material-/Teilepreise. Gebühren: kein Tarifschema. Die behördlich präzisierte Adresse ist ein belastbarer Geocoding-Kandidat; Koordinaten bleiben offen.
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Die read-only-Abfrage von `public.db` bestätigt für diesen Slug den Produktionspunkt 51.450284375, 7.015053125. Nominatim-Reverse ordnet ihn der Straße Freiheit im Essener Südviertel zu. Die Bezirksregierung Düsseldorf führt dagegen Carl Herholz GmbH & Co. KG mit einer Umweltinspektion vom 25.02.2026 als Schrottplatz/Anlage für Lagerung und Behandlung von Fe- und NE-Schrotten an Wilhelm-Beckmann-Straße 14, 45307 Essen. Damit liegt der gespeicherte Punkt nicht am behördlich dokumentierten Anlagenstandort. Der Behördeneintrag beweist für sich keine öffentliche Kundenannahme; eine solche wird hier nicht behauptet. `clear_fields: 'geo'` entzieht ausschließlich den abweichenden Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate und keine Schließungsbehauptung. Quellen: [Nominatim-Reverse](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1), [OSM-Straße Freiheit](https://www.openstreetmap.org/way/46961889), [Bezirksregierung Düsseldorf: Inspektion Carl Herholz](https://www.brd.nrw.de/umweltinspektionsberichte/Stadt-Essen/E-046-Lagerung-und-Behandlung-von-Fe-und-NE-Schrotte), [Standortliste Stadt Essen](https://www.brd.nrw.de/umweltinspektionsberichte/stadt-essen), read-only `public.db` (27.10.2026), `docs/trader-seed.md`.]
 
 ### Recherche 25.10.2026: Registerprofil und Anlagenbeleg abgeglichen
 

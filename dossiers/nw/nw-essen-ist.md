@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-ist
+clear_fields: 'geo'
 name: IST GmbH
 trader_type: autoverwertung
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Die read-only-Abfrage von `public.db` bestätigt für diesen Slug den Produktionspunkt 51.450284375, 7.015053125. Nominatim-Reverse ordnet ihn der Straße Freiheit im Essener Südviertel zu. Betreiber-Impressum und Kontakt nennen die IST GmbH (HRB 25453) an Stauderstraße 83–85, 45326 Essen und weisen dort Annahmezeiten aus; die Bezirksregierung Düsseldorf führt an derselben Anschrift die Altfahrzeugbehandlungsanlage der IST GmbH. Der gespeicherte Punkt liegt nicht am bestätigten Standort. `clear_fields: 'geo'` entzieht das abweichende Paar beim nächsten regulären Seed; keine Ersatzkoordinate, keine Schließungsbehauptung. Quellen: [Nominatim-Reverse](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1), [OSM-Straße Freiheit](https://www.openstreetmap.org/way/46961889), [IST-Impressum](https://www.i-s-t-gmbh.com/impressum/), [IST-Kontakt/Annahmezeiten](https://www.i-s-t-gmbh.com/kontakt/), [Bezirksregierung Düsseldorf: IST-Anlage](https://www.brd.nrw.de/umweltinspektionsberichte/Stadt-Essen/E-012-Altfahrzeugbehandlungsanlage), read-only `public.db` (27.10.2026), `docs/trader-seed.md`.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

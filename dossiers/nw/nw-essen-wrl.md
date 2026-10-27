@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-wrl
+clear_fields: 'geo'
 name: WRL GmbH
 trader_type: schrotthaendler
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Die ausschließlich lesend abgefragte Produktionszeile enthält `51.450284375, 7.015053125`; Nominatim-Reverse ordnet den Punkt der Freiheit im Essener Südviertel zu. Die Betreiber-Startseite und das Impressum identifizieren die WRL GmbH an Emscherstr. 27, 45327 Essen; die Startseite verortet die Betriebe in Katernberg und lädt ausdrücklich zur Materialabgabe an den veröffentlichten Öffnungszeiten ein. Das widerspricht dem Südviertel-Pin; eine genaue Zufahrt/Einfahrt ist damit nicht festgelegt. `clear_fields: 'geo'` entzieht den Altpunkt beim nächsten regulären Seed. Keine Ersatzkoordinate. Quellen: https://www.wrl-essen.de/ ; https://www.wrl-essen.de/impressum/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?format=jsonv2&street=Emscherstrasse%2027&city=Essen&postalcode=45327&country=Germany&addressdetails=1 ; read-only `/var/lib/schrott-mcp/public.db` (27.10.2026); `docs/trader-seed.md`.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

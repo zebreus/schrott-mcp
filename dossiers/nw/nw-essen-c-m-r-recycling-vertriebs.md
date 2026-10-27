@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-c-m-r-recycling-vertriebs
+clear_fields: 'geo'
 name: C.M.R Recycling Vertriebs GmbH
 trader_type: sonstige
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Die read-only-Abfrage von `public.db` bestätigt für diesen Slug den Produktionspunkt 51.450284375, 7.015053125. Nominatim-Reverse ordnet ihn der Straße Freiheit im Essener Südviertel zu. Die aktuelle Betreiberseite führt die C.M.R. Recycling Vertriebs GmbH, HRB 20522, als Schrottplatz/An- und Verkauf an der Ripshorster Str. 386, 45357 Essen; Impressum und Kontakt bestätigen dieselbe Anschrift. Der Produktionspunkt liegt nicht an diesem Betreiberstandort. `clear_fields: 'geo'` zieht das nicht passende Paar beim nächsten regulären Seed zurück; keine Ersatzkoordinate, keine Schließungsbehauptung. Quellen: [Nominatim-Reverse](https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1), [OSM-Straße Freiheit](https://www.openstreetmap.org/way/46961889), [CMR-Impressum](https://cmr-recycling.de/impressum/), [CMR-Kontakt/Standort](https://cmr-recycling.de/kontakt/), [NorthData HRB 20522](https://www.northdata.de/CMR%20Recycling%20Vertriebs%20GmbH,%20Essen/HRB%2020522), read-only `public.db` (27.10.2026), `docs/trader-seed.md`.]
 
 ### Recherche 01.10.2026
 

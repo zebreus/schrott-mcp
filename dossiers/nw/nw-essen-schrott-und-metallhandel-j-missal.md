@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
@@ -29,6 +30,10 @@ Der Betreiberauftritt von **Schrotthandel Missal** nennt Jürgen Missal, Kalthof
 **Preise:** Ankauf — Tagespreise/faires Angebot, keine Zahlenliste. Verkauf — keine eigene Verkaufspreisliste. Gebühren — bei Abbruch-/Demontageschrott kann Materialwert laut Betreiber mit Schneid-/Brennarbeiten verrechnet werden; weder Tarif noch konkrete Gebührenhöhe veröffentlicht.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: GEO-Rücknahme
+
+- [Owner-Korrektur 27.10.2026: Der read-only Produktionspunkt 51.450284375, 7.015053125 wird von Nominatim als Freiheit, Essen 45128 aufgelöst. Die Betreiberseite „Schrotthandel Missal“ nennt Jürgen Missal, Kalthofweg 4, 45277 Essen und „Hier finden Sie uns“ mit Bürozeiten; das unabhängige 11880-Profil „Schrotthandel Jürgen Missal“ führt dieselbe Adresse und Telefonnummer. Diese Belege lokalisieren die Geschäftsanschrift, belegen aber keine öffentliche Hofannahme; die Leistungsseite ist mit 2018 datiert und beschreibt vor allem mobile Abholung. Der Freiheit-Punkt ist nicht die dokumentierte Missal-Anschrift und wird zurückgenommen, ohne eine Kundenannahme oder einen aktuellen Hof zu behaupten. `clear_fields: 'geo'` zieht das alte Paar beim nächsten regulären Seed ein; keine Ersatzkoordinate gesetzt, Historie und ungeklärte Servicefrage bleiben erhalten. Quellen/Abruf 27.10.2026: https://www.schrotthandel-missal-essen.de/impressum/ ; https://www.schrotthandel-missal-essen.de/schrott-metallabholung/ ; https://www.11880.com/branchenbuch/essen-ruhr/060440090B101936723/schrotthandel-juergen-missal.html ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; read-only `public.db`; `docs/trader-seed.md`.]
 
 ### Recherche 26.10.2026
 

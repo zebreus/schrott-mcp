@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-trimet-aluminium-se
+clear_fields: 'geo'
 name: TRIMET Aluminium SE
 trader_type: schrotthaendler
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Die ausschließlich lesend abgefragte Produktionszeile enthält `51.450284375, 7.015053125`; Nominatim-Reverse ordnet den Punkt der Freiheit im Sternviertel/Südviertel (45128 Essen) zu. TRIMETs Betreiber-Kontaktseite nennt Sitz der Werke und Werk Essen an Aluminiumallee 1, 45356 Essen; die Standortseite beschreibt dort das Essener Werk, die Recyclingseite eine B2B-Rücknahme von Aluminiumschrott. Nominatim findet Aluminiumallee 1 separat in Bergeborbeck. Der gespeicherte Punkt liegt daher nicht am belegten TRIMET-Werk. `clear_fields: 'geo'` entzieht ihn beim nächsten regulären Seed. Keine Ersatzkoordinate; die Quelle belegt keinen öffentlichen Privatkunden-Eingang. Quellen: https://www.trimet.eu/de/trimet/kontakt ; https://www.trimet.eu/de/trimet/standorte/standort-essen ; https://www.trimet.eu/de/service/recycling ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Aluminiumallee%201%2C%2045356%20Essen%2C%20Germany ; read-only `/var/lib/schrott-mcp/public.db` (27.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 01.10.2026
 

@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: GEO-Rücknahme
+
+- [Owner-Korrektur 27.10.2026: Der read-only Produktionspunkt 51.450284375, 7.015053125 wird von Nominatim als Freiheit, Essen 45128 aufgelöst. Die Betreiber-Startseite für den Schrott- und Metallhandel Häuser nennt dagegen ausdrücklich das „Betriebsgelände“ Ripshorsterstr. 370, 45357 Essen, lädt zum Besuch ein und belegt Schrott-/Metallankauf während der Öffnungszeiten; das Impressum nennt Peter Häuser als Betreiber. Die abweichende Einbleckstr. 3, Oberhausen, ist auf derselben Website als Impressums-/Rechtsanschrift und nicht als Betriebsgelände bezeichnet. Der zentrale Produktionspunkt ist daher nicht der für genau diesen Händler benannte Ankaufstandort. `clear_fields: 'geo'` zieht das alte Paar beim nächsten regulären Seed ein; keine Ersatzkoordinate gesetzt. Die abweichende Rechtsanschrift bleibt dokumentiert und wird nicht in die Frontmatter übertragen. Quellen/Abruf 27.10.2026: http://altmetall-haeuser.de/startseite.html ; http://altmetall-haeuser.de/impressum.html ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; read-only `public.db`; `docs/trader-seed.md`.]
 
 ### Recherche 01.10.2026
 
