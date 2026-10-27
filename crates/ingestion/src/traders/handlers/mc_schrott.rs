@@ -182,45 +182,8 @@ async fn scrape(client: &reqwest::Client, site_key: &str) -> Result<HandlerOutco
             detail: format!("unbekannter Standortschlüssel {site_key}"),
         });
     };
-    let mut prices = Vec::with_capacity(rows.len());
-    for row in rows {
-        // `data-only` beschränkt die Sorte auf genannte Standorte; an den
-        // anderen wird die Zeile laut übersprungen statt still übernommen.
-        if let Some(only) = &row.only {
-            if !only.iter().any(|key| key == site_key) {
-                skipped_labels.push(row.label);
-                continue;
-            }
-        }
-        // Rostock hat einen eigenen Satz im Attribut `data-price-ros`; ohne
-        // dieses Attribut ist für Rostock kein eigener Preis belegt.
-        let price = if *rostock {
-            match row.rostock_price {
-                Some(price) => price,
-                None => {
-                    skipped_labels.push(row.label);
-                    continue;
-                }
-            }
-        } else {
-            row.price
-        };
-        match grade_for(&row.label) {
-            Some((material, variant)) => prices.push(ScrapedPrice {
-                material,
-                variant: variant.into(),
-                price,
-                currency: "EUR",
-                unit: row.unit,
-                price_kind: "exact",
-                price_min: None,
-                price_max: None,
-                confidence: Some(1.0),
-                label: row.label,
-            }),
-            None => skipped_labels.push(row.label),
-        }
-    }
+    let (prices, mut site_skips) = select_prices(&rows, site_key, *rostock);
+    skipped_labels.append(&mut site_skips);
     // Ein Standort ohne verwertbaren Preis ist ein Seitenumbruch, kein
     // leerer Erfolg.
     if prices.is_empty() {
@@ -246,6 +209,60 @@ async fn scrape(client: &reqwest::Client, site_key: &str) -> Result<HandlerOutco
         byte_len: html.len(),
         published_at,
     })
+}
+
+/// Preise und Skips eines Standorts aus den Seitenzeilen. Reine Funktion,
+/// damit die Standort-Preiswahl ohne Netzabruf testbar ist.
+/// * `data-only` beschränkt die Sorte auf genannte Standorte.
+/// * Rostock nutzt den eigenen Satz aus `data-price-ros`; ohne dieses
+///   Attribut ist für Rostock kein eigener Preis belegt.
+/// * „auf Anfrage“ beendet die Preisaussage.
+fn select_prices(
+    rows: &[PriceRow],
+    site_key: &str,
+    rostock: bool,
+) -> (Vec<ScrapedPrice>, Vec<String>) {
+    let mut prices = Vec::with_capacity(rows.len());
+    let mut skips = Vec::new();
+    for row in rows {
+        if row.label.to_lowercase().contains("auf anfrage") {
+            skips.push(format!("{} (auf Anfrage)", row.label));
+            continue;
+        }
+        if let Some(only) = &row.only {
+            if !only.iter().any(|key| key == site_key) {
+                skips.push(format!("{} (nur an {})", row.label, only.join(", ")));
+                continue;
+            }
+        }
+        let price = if rostock {
+            match row.rostock_price {
+                Some(price) => price,
+                None => {
+                    skips.push(format!("{} (kein eigener Rostock-Preis)", row.label));
+                    continue;
+                }
+            }
+        } else {
+            row.price
+        };
+        match grade_for(&row.label) {
+            Some((material, variant)) => prices.push(ScrapedPrice {
+                material,
+                variant: variant.into(),
+                price,
+                currency: "EUR",
+                unit: row.unit,
+                price_kind: "exact",
+                price_min: None,
+                price_max: None,
+                confidence: Some(1.0),
+                label: row.label.clone(),
+            }),
+            None => skips.push(row.label.clone()),
+        }
+    }
+    (prices, skips)
 }
 
 /// Explicit label → (material, variant) mapping. Anything unlisted is
@@ -596,7 +613,7 @@ fn date_in(html: &str) -> Option<String> {
 
 /// One price row of the price tables.
 #[derive(Debug)]
-struct Row {
+struct PriceRow {
     /// Sort label without the description span.
     label: String,
     /// Price of the visible cell (the set shared by the five Brandenburg sites).
@@ -609,7 +626,7 @@ struct Row {
     only: Option<Vec<String>>,
 }
 
-fn parse(html: &str) -> Result<(Option<String>, Vec<Row>, Vec<String>), IngestError> {
+fn parse(html: &str) -> Result<(Option<String>, Vec<PriceRow>, Vec<String>), IngestError> {
     let published_at = date_in(html);
     let doc = Html::parse_document(html);
     let table_sel = Selector::parse("table.price-table").expect("valid selector");
@@ -684,7 +701,7 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<Row>, Vec<String>), IngestEr
                     .map(|part| part.to_lowercase())
                     .collect::<Vec<_>>()
             });
-            rows.push(Row {
+            rows.push(PriceRow {
                 label,
                 price,
                 unit: PAGE_UNIT,
@@ -705,8 +722,8 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<Row>, Vec<String>), IngestEr
 #[cfg(test)]
 mod tests {
     use super::{
-        date_in, extract_site_info, grade_for, parse, SITES, SLUG, SLUG_NAUEN, SLUG_PLOTZIN,
-        SLUG_RATHENOW, SLUG_RECKAHN, SLUG_ROSTOCK,
+        date_in, extract_site_info, grade_for, parse, select_prices, PriceRow, SITES, SLUG,
+        SLUG_NAUEN, SLUG_PLOTZIN, SLUG_RATHENOW, SLUG_RECKAHN, SLUG_ROSTOCK,
     };
 
     // Real shape (live 27.09.2026): <table class="price-table"> with
@@ -766,34 +783,55 @@ mod tests {
         assert!(parse(&html).is_err());
     }
 
-    /// Live shape of the site rows (27.10.2026): the visible cell carries the
-    /// price of the five Brandenburg sites, `data-price-ros` the Rostock set and
-    /// `data-only` restricts a sort to named locations.
-    const FIXTURE_SITES: &str = "<h1>Ankaufspreise</h1>\
-        <p class=\"lede\">Stand: 23.10.2026.</p>\
-        <table class=\"price-table\">\
-        <caption class=\"visually-hidden\">Ankaufspreise Kupfer, Angaben in Euro pro Kilogramm</caption>\
-        <thead><tr><th scope=\"col\">Bezeichnung</th>\
-        <th scope=\"col\" class=\"col-price\">Preis €/kg</th></tr></thead><tbody>\
-        <tr data-price-ros=\"10.5\"><th scope=\"row\">Kupfer Millberry\
-        <span class=\"item-desc\">99,9 %</span></th>\
-        <td class=\"col-price\">10,50 €</td></tr>\
-        <tr data-price-ros=\"0.14\"><th scope=\"row\">Altschrott Sorte 3</th>\
-        <td class=\"col-price\">0,17 €</td></tr>\
-        <tr data-only=\"brandenburg rathenow nauen\" data-price-ros=\"0.1\">\
-        <th scope=\"row\">Papier</th><td class=\"col-price\">0,10 €</td></tr>\
-        </tbody></table>";
+    /// Verbatim excerpt of the live price table (27.10.2026, HTTP 200): the
+    /// visible cell carries the price of the five Brandenburg sites, the
+    /// `data-price-ros` attribute the Rostock set, and the "Papier" row has
+    /// **no** `data-price-ros` at all (only a `data-only` restriction).
+    /// "Chromstahl" carries the class `col-price is-request` with "auf Anfrage".
+    const FIXTURE_SITES: &str = r#"<table class="price-table">
+            <caption class="visually-hidden">Ankaufspreise Kupfer, Angaben in Euro pro Kilogramm</caption>
+            <thead>
+              <tr>
+<th scope="col">Bezeichnung</th>
+<th scope="col" class="col-price">Preis €/kg</th>
+</tr>
+            </thead>
+            <tbody>
+            <tr data-search="kupfer millberry kupfer 99,9 %, drähte aus kabeln stärker als 1 mm, glänzend, unlegiert, sauber ohne anhaftungen" data-price-ros="10.5">
+              <th scope="row">Kupfer Millberry<span class="item-desc">99,9 %, Drähte aus Kabeln stärker als 1 mm, glänzend, unlegiert, sauber ohne Anhaftungen</span>
+</th>
+              <td class="col-price">10,50 €</td>
+            </tr>
+            <tr data-search="altschrott sorte 3 eisen &amp; mischschrott stahl mindestens 6 mm stark, maximal 1,5 × 0,5 × 0,5 m" data-price-ros="0.14">
+              <th scope="row">Altschrott Sorte 3<span class="item-desc">Stahl mindestens 6 mm stark, maximal 1,5 × 0,5 × 0,5 m</span></th>
+              <td class="col-price">0,17 €</td>
+            </tr>
+            <tr data-search="papier sonstiges zeitungen, zeitschriften, kataloge, druckerpapier" data-only="brandenburg rathenow nauen">
+              <th scope="row">Papier<span class="item-desc">Zeitungen, Zeitschriften, Kataloge, Druckerpapier</span></th>
+              <td class="col-price">0,10 €</td>
+            </tr>
+            <tr data-search="chromstahl edelstahl &amp; sonderstähle stahl mit über 10 % chromanteil">
+              <th scope="row">Chromstahl<span class="item-desc">Stahl mit über 10 % Chromanteil</span></th>
+              <td class="col-price is-request">auf Anfrage</td>
+            </tr>
+            </tbody>
+            </table>"#;
 
     #[test]
     fn site_rows_carry_rostock_price_and_only_restriction() {
         let (_, rows, _) = parse(FIXTURE_SITES).expect("parses");
+        // "Chromstahl" steht auf "auf Anfrage" und hat keinen Preis.
         assert_eq!(rows.len(), 3);
+        assert_eq!(rows[0].label, "Kupfer Millberry");
+        assert_eq!(rows[0].price, 10.50);
         assert_eq!(rows[0].rostock_price, Some(10.5));
         assert_eq!(rows[0].only, None);
-        // Rostock prices its own set: 0,14 instead of the visible 0,17.
+        // Rostock preist seinen eigenen Satz: 0,14 statt der sichtbaren 0,17.
+        assert_eq!(rows[1].label, "Altschrott Sorte 3");
         assert_eq!(rows[1].price, 0.17);
         assert_eq!(rows[1].rostock_price, Some(0.14));
-        // "Papier" is restricted to three locations.
+        // "Papier" ist auf drei Standorte beschränkt und hat KEINEN
+        // eigenen Rostock-Preis.
         let only = rows[2].only.as_ref().expect("data-only present");
         assert_eq!(
             only,
@@ -803,6 +841,83 @@ mod tests {
                 "nauen".to_owned()
             ]
         );
+        assert_eq!(rows[2].rostock_price, None);
+    }
+
+    #[test]
+    fn brandenburg_prices_use_the_visible_cell() {
+        let (_, rows, parse_skips) = parse(FIXTURE_SITES).expect("parses");
+        let (prices, skips) = select_prices(&rows, "brandenburg", false);
+        let alt = prices
+            .iter()
+            .find(|price| price.label == "Altschrott Sorte 3")
+            .expect("Altschrott gebucht");
+        assert_eq!(alt.price, 0.17);
+        // "Papier" ist an den Brandenburger Standorten angeboten, hat aber
+        // kein Katalogmaterial und wird deshalb ohne Material gebucht.
+        assert!(skips.iter().any(|skip| skip.starts_with("Papier")));
+        // "Chromstahl" (auf Anfrage) hat schon beim Parsen keinen Preis
+        // und wird dort laut übersprungen.
+        assert!(parse_skips
+            .iter()
+            .any(|skip| skip.contains("Chromstahl") && skip.contains("auf Anfrage")));
+        assert!(!prices.iter().any(|price| price.label == "Chromstahl"));
+    }
+
+    #[test]
+    fn rostock_prices_use_the_own_set() {
+        let (_, rows, _) = parse(FIXTURE_SITES).expect("parses");
+        let (prices, skips) = select_prices(&rows, "rostock", true);
+        let alt = prices
+            .iter()
+            .find(|price| price.label == "Altschrott Sorte 3")
+            .expect("Altschrott gebucht");
+        assert_eq!(alt.price, 0.14, "Rostock nutzt den eigenen Satz");
+        // "Papier" ist auf drei Standorte beschränkt und entfällt in
+        // Rostock; der Skip nennt den Grund.
+        assert!(!prices.iter().any(|price| price.label == "Papier"));
+        assert!(skips.iter().any(|skip| skip.contains("nur an")));
+    }
+
+    #[test]
+    fn row_without_own_rostock_price_is_skipped_loudly() {
+        // Eine Sorte, die Rostock ausdrücklich angeboten wird, aber keinen
+        // eigenen Preissatz trägt: sie darf nicht den Brandenburger Wert
+        // erben.
+        let rows = vec![PriceRow {
+            label: "Kupfer Millberry".to_owned(),
+            price: 0.17,
+            unit: "EUR/kg",
+            rostock_price: None,
+            only: Some(vec!["rostock".to_owned()]),
+        }];
+        let (prices, skips) = select_prices(&rows, "rostock", true);
+        assert!(prices.is_empty());
+        assert!(skips
+            .iter()
+            .any(|skip| skip.contains("kein eigener Rostock-Preis")));
+        // Am Brandenburger Standort wird derselbe Datensatz gebucht, wenn
+        // er dort angeboten wird (ohne `data-only`-Beschränkung).
+        let rows_open = vec![PriceRow {
+            label: "Kupfer Millberry".to_owned(),
+            price: 0.17,
+            unit: "EUR/kg",
+            rostock_price: None,
+            only: None,
+        }];
+        let (prices, _) = select_prices(&rows_open, "brandenburg", false);
+        assert_eq!(prices.len(), 1);
+        assert_eq!(prices[0].price, 0.17);
+    }
+
+    #[test]
+    fn data_only_row_is_skipped_at_other_sites() {
+        let (_, rows, _) = parse(FIXTURE_SITES).expect("parses");
+        for site in ["reckahn", "plotzin"] {
+            let (prices, skips) = select_prices(&rows, site, false);
+            assert!(!prices.iter().any(|price| price.label == "Papier"));
+            assert!(skips.iter().any(|skip| skip.contains("nur an")));
+        }
     }
 
     #[test]

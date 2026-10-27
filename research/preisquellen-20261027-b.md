@@ -141,10 +141,17 @@ ohne Anmeldung, ohne Challenge, ohne Wechsel der Quelle pro Material.
 
 Zu beachten für den Datenvertrag:
 
-- Der Preis ist ein **Richtpreis**, keine Zusage. Nach der Konvention aus
-  [`docs/adding-a-trader-handler.md`](../docs/adding-a-trader-handler.md) ist das
-  `price_kind: "approx"` mit reduzierter `confidence`, nicht `exact`. Ein „exact"-Handler
-  würde die Betreiberaussage überdehnen.
+- Der Preis ist ein **Richtpreis**, keine Zusage. Der Katalog kennt dafür `price_kind:
+  "approx"` („rounded/guide price“) neben `exact` („Listenpreis“); die Doku
+  [`docs/adding-a-trader-handler.md`](../docs/adding-a-trader-handler.md) regelt den
+  „exact"-Fall nur als `confidence: Some(1.0)` und sagt **nicht** ausdrücklich, dass
+  „unverbindlich“ immer `approx` bedeutet. Der Repo-Schwester-Handler `kernschrott` bucht
+  bei wortgleichem „unverbindlich“ als `exact`/1.0, neun weitere Handler nutzen `approx`.
+  Für `mc_schrott` (Werte je Sorte, Standort und Stand-Datum veröffentlicht) wurde
+  deshalb `exact`/1.0 **einheitlich für alle sechs Zeilen** gewählt, mit der
+  Betreiberformulierung im Modul-Doc; eine Umstellung aller sechs Zeilen auf `approx`
+  würde die Preise aus dem direkten Vergleich (`PREISVERGLEICHE` wertet nur
+  `price_kind='exact'`) nehmen und bleibt eine bewusst offene Entscheidung.
 - `published_at` = 23.10.2026 (`page_stated`). Das **Aktualisierungsintervall** ist
   unbekannt: die Liste trägt ein Stand-Datum, aber keinen Änderungsindikator. Ob sie
   wöchentlich, täglich oder nur bei Bedarf neu datiert wird, muss beobachtet werden.
