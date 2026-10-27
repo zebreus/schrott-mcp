@@ -248,3 +248,23 @@ unterbleiben.
   Recycling (verdächtige Preisleiter verworfen), AMR (HTTP 502), MKM (ungültiger
   Source Contract) und VHM (Requestfehler); keine App-WARN nach dem Rollout.
 - Keine neuere Geocoding-Logdatei unter `/tmp/opencode/*.log` gefunden.
+
+## Read-only-Nachlauf 27.10.2026 03:00 UTC
+
+- Der nächste normale Scheduler-Lauf #2870 endete um 02:58:39 UTC mit `ok`,
+  88 Preisen und 0 Händlerfehlern. Service weiter aktiv, `/health` HTTP 200;
+  Produktionsbestand unverändert bei v9, 3.936 Händlern, 83 Materialien und
+  2.659 Current-Preiszeigern. Feedback bleibt bei ID 7390.
+- Die drei Post-Rollout-Verifier wurden nach #2870 erneut read-only ausgeführt
+  und sind unverändert rot. Seit Rolloutstart gibt es weiterhin keinen MKM-,
+  MSG- oder Gutzmann-Step. Es gab keine direkte DB-Änderung und keinen
+  Force-Ingest.
+- Laut stabilem 6h-Phasenplan des laufenden Binaries liegen die nächsten
+  erwarteten Due-Phasen nach dem ersten Scheduler-Poll bei MSG ca. 04:06:50,
+  MKM ca. 05:16:59 und Gutzmann ca. 07:57:46 UTC; tatsächliche Ausführung erst
+  beim jeweils nächsten normalen Scheduler-Poll. Danach die read-only Gates
+  erneut prüfen, ohne einen Handler manuell auszulösen.
+- Beide zuletzt bestätigten Fehlpunkte (Wismar-Sibling und Bochum Plus) sind
+  weiterhin in Produktion vorhanden; ihre Seed-Clears sind noch nicht
+  ausgerollt. Der rote Post-Rollout-Status bleibt Grund, keine weiteren
+  Produktionsänderungen vorzunehmen.
