@@ -28,6 +28,10 @@ Neuer qualifizierter Quellenlead: Creditreform-Suchtreffer nennt „Ute Harzem-M
 
 ## Timeline
 
+### Recherche 27.10.2026: Register- und Verzeichnisgegenprüfung ohne Treffer
+
+- [Recherche 27.10.2026: Die Creditreform-Firmeneintragseite zu „UTE_HARZEM_MONTADA_SCHROTTHANDEL“ (56626 Andernach, Nikolausstr. 1, 02632 490150) wurde erneut versucht; der Direktabruf bleibt HTTP 403, der Volltext also weiterhin nicht lesbar. Die North-Data-Suggest-Suche „Harzem-Montada“ liefert kein Ergebnis (kein Registertreffer; Einzelunternehmer werden dort ohnehin oft nicht erfasst). Die 11880-Suche nach „Harzem“ in Andernach zeigt keinen Schrotthandel, sondern nur sachfremde Treffer (Harzem Asphaltbau in Nettersheim und Hürth, Sabine Harzem Rechtsanwältin in Rheinbreitbach) — diese Namensvetter sind nicht zu übernehmen. Damit bleibt „Ute Harzem-Montada Schrotthandel“ ein einzelner, nicht direkt lesbarer Verzeichnis- und Firmeneintrags-Lead ohne Betreiber- oder Behördenbestätigung; keine Frontmatter-Füllung, Status „pruefung“, kein GEO, keine Schließung abgeleitet. **ANKAUF/VERKAUF/GEBÜHREN:** keine zugeordneten Kurse, Listen oder Tarife. Quellen: https://firmeneintrag.creditreform.de/56626/5290158656/UTE_HARZEM_MONTADA_SCHROTTHANDEL (Direktabruf 403) ; https://www.northdata.de/suggest.json?query=Harzem-Montada&countries=DE ; https://www.11880.com/suche/harzem/andernach .]
+
 ### Recherche 24.10.2026
 
 - [Recherche 24.10.2026: Creditreform-Suchdarstellung erneut geprüft; sie nennt „Ute Harzem-Montada Schrotthandel“, Nikolausstr. 1, 56626 Andernach und 02632 490150. Der Direktabruf des Firmenprofils antwortet weiterhin HTTP 403, sodass weder Volltext noch aktueller Status überprüfbar waren. Weitere Verzeichnisresultate wiederholen den Lead, belegen aber keine Betreiber-/Behördenbestätigung. Toni Montada/Birkenring bleibt eine getrennte Spur. Keine Frontmatter-Füllung, kein GEO, keine Schließung abgeleitet. ANKAUF/VERKAUF/GEBÜHREN: keine zugeordneten Kurse, Preislisten oder Tarife. Quelle: https://firmeneintrag.creditreform.de/56626/5290158656/UTE_HARZEM_MONTADA_SCHROTTHANDEL (Suchtreffer; Direktabruf 403).]

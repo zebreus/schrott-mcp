@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 27.10.2026: Schrott-Namensvetter in Nürnberg-Mögeldorf abgegrenzt
+
+- [Recherche 27.10.2026: Die 11880-Suche „Schrott in Nürnberg Mögeldorf“ wurde vollständig gelesen. Sie enthält im Ortsteil Mögeldorf nur „Autotechnik Klaus Assmann & Werner Schrott GmbH“, Gleißhammerstr. 92, 90480 Nürnberg, (0911) 542535 (Autowerkstatt) sowie einen im Suchergebnis lediglich als Personeneintrag angedeuteten, nicht offengelegten Eintrag mit „Schrott“ im Namen. Weitere Schrott-Namensvetter in Nürnberg sind „Dr. med. dent. Alexander Schrott“ und „Dr. med. dent. Rüdiger Schrott“ (Zahnarztpraxis, Euckenweg 31, 90471 Nürnberg, 0911 868262 beziehungsweise 0911 8148500) sowie „Schrott Karl Autorecycling GmbH & Co. KG“ (Schulstr. 4, 91790 Burgsalach). Der Dossier-Lead „Schrott B.“, Thäterstr. 43, 90480 Nürnberg-Mögeldorf, 0911 5460688, bleibt damit weiterhin ein Kurzname ohne ausgeschriebene Person oder Firma; eine Gleichsetzung mit einem der Namensvetter ist nicht belegt und erfolgt nicht. Keine Frontmatter-Füllung, Status „pruefung“, kein GEO. **ANKAUF:** keine verifizierten Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Quellen: https://www.11880.com/suche/schrott/nuernberg-mogeldorf ; https://www.11880.com/branchenbuch/nuernberg-mittelfranken/012080446B26908174/autotechnik-klaus-assmann-werner-schrott-gmbh.html .]
+
 ### Recherche 25.10.2026
 
 - [Recherche 25.10.2026: Erneute Suche nach „Schrott B.“/Thäterstraße ergab weiterhin nur den bereits dokumentierten Gelbe-Seiten-Kurzeintrag; keine ausgeschriebene Person/Firma, Betreiberquelle oder zweite unabhängige Adressbestätigung. Keine Frontmatter-Änderung. **ANKAUF:** keine verifizierten Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Hausnummer und tatsächliche Betriebsstätte bleiben unbestätigte Leads; vor Geokodierung Betreiberidentität und Kundenstandort belegen. Quelle (Lead): https://www.gelbeseiten.de/gsbiz/d45cc9c0-85dc-4f8e-96f2-a02aff3f89c9 .]

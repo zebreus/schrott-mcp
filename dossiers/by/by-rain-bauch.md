@@ -9,7 +9,7 @@ postcode: '86641'
 phone: 08432 1680
 email: ''
 opening_hours: Mo-Fr 8-17
-website: ''
+website: https://www.autoverwertung-bauch.de/
 website_status: unbekannt
 status: pruefung
 description: Autoverwertung in Rain-Überacker mit Schrott-/Metallannahme (Stahl, NE-Metalle, Kabel, E-Motoren, Altfahrzeuge)
@@ -32,6 +32,10 @@ Verzeichnisse nennen Franz u. Renate Bauch Autoverwertung, Brunntalweg 10, 86641
 - **Geokodierung:** Adresse bleibt ein Verzeichnis-Lead; Kundenstandort erst nach Betreiber-/Annahmebestätigung geokodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026: Domain lebt, leitet aber auf eine Baustellenseite um
+
+- [Recherche 27.10.2026: Die Betreiberdomain autoverwertung-bauch.de antwortet heute nicht mehr mit HTTP 503, sondern mit HTTP 301 auf https://www.bauch.life/ (Jimdo/Cloudflare, x-jimdo-wid s5c460863d5c42af3); die Zielseite zeigt nur „Hallo! Diese Webseite befindet sich gerade im Aufbau und ist bald online.“ Der frühere 503-Befund war damit eine vorübergehende Störung und kein Schließungsindiz — aktuell existiert jedoch kein nutzbarer Betreiberinhalt mehr. Die Wayback-Maschine dokumentiert für die Domain Snapshots von 2009 bis 2021 (403er ab 2019, 301er ab 2021); der letzte inhaltliche Stand liegt vor 2021. Das Frontmatter erhält deshalb website „https://www.autoverwertung-bauch.de/“ (die Domain gehört dem Betreiber und ist technisch erreichbar), website_status bleibt „unbekannt“, da die Zielseite nur eine Platzhalter-Baustelle ist. Die bereits im Dossier belegten Kontaktdaten (Brunntalweg 10, 86641 Rain/Überacker, 08432 1680, Mo–Fr 8–17) bleiben Verzeichnis-Leads aus 11880 und lokaleschrottplatz.de; die historische Škoda-Rücknahmestellenliste vom 05.08.2020 (Firma Franz Bauch Altautoverwertung, gleiche Anschrift und Rufnummer, autoverwertung-bauch.de, franz.bauch@t-online.de) wurde nicht als aktuelle Quelle übernommen. Eine heutige Betriebs- oder Annahmetätigkeit ist damit nicht bestätigt; keine Preise, keine Gebühren, Status bleibt „pruefung“, kein GEO. Quellen: https://www.autoverwertung-bauch.de/ (HTTP 301 auf https://www.bauch.life/) ; https://www.bauch.life/ ; http://web.archive.org/cdx/search/cdx?url=autoverwertung-bauch.de* .]
 
 ### Recherche 24.10.2026
 

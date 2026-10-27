@@ -6,13 +6,16 @@ state: SL
 city: Völklingen
 street: 'Am Holzplatz 5'
 postcode: '66333'
+lat: '49.2455117'
+lon: '6.8782401'
 phone: '06898 935046'
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
 status: aktiv
-description: ''
+description: 'Entsorgungsfachbetrieb für Schrott- und Metallaufbereitung in Völklingen-Fenne. Das amtliche Fachbetrieberegister führt 62 Abfallschlüssel rund um Metall und Fahrzeuge, darunter 170401 Kupfer/Bronze/Messing, 170402 Aluminium, 170403 Blei, 170404 Zink, 170405 Eisen und Stahl, 170406 Zinn, 170407 gemischte Metalle und 170411 Kabel. Keine öffentliche Ankaufspreisliste.'
+certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikat ZZKT00300026 (Registerstand 11.08.2026); zertifizierte Tätigkeiten Sammeln, Befördern, Lagern, Behandeln, Verwerten"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
@@ -24,9 +27,15 @@ provenance_origin: table
 
 ## Überblick
 
-Registeridentität Metall-Recycling Künzer GmbH (AG Saarbrücken HRB 104554), Am Holzplatz 5, 66333 Völklingen, ist belegt. Der namensgleiche Instagram-Auftritt wirbt mit Schrott-/Metallankauf und Barauszahlung gegen gültigen Ausweis; sein Suchindex schließt Elektrogeräte aus. Aktuelle Öffnungszeiten/E-Mail aus 11880 bleiben Aggregator-Leads. Ältere Adam-Künzer-Gesellschaft nicht ohne Registerkette gleichsetzen. **Ankauf:** Schrott/Metall, keine veröffentlichten Zahlenkurse. **Verkauf:** keine Preisliste gefunden. **Gebühren:** keine Angaben. **GEO:** bestätigte Firmenadresse ist grundsätzlich lokalisierbar, aber hier keine Koordinaten erhoben; Hofannahme/Einlass klären.
+Registeridentität Metall-Recycling Künzer GmbH (AG Saarbrücken HRB 104554), Am Holzplatz 5, 66333 Völklingen, ist belegt. Der amtliche Fachbetrieberegister (Stand 11.08.2026) führt die Betriebsstätte „Metall-Recycling Künzer GmbH Schrottaufbereitung" mit Hauptsitz „Metall-Recycling Künzer GmbH" — deckungsgleich mit dem Handelsregisternamen — und bestätigt den zertifizierten Annahmeumfang für Metall. Der namensgleiche Instagram-Auftritt wirbt mit Schrott-/Metallankauf und Barauszahlung gegen gültigen Ausweis; sein Suchindex schließt Elektrogeräte aus. Aktuelle Öffnungszeiten/E-Mail aus 11880 bleiben Aggregator-Leads. Ältere Adam-Künzer-Gesellschaft nicht ohne Registerkette gleichsetzen. **Ankauf:** Schrott/Metall, keine veröffentlichten Zahlenkurse. **Verkauf:** keine Preisliste gefunden. **Gebühren:** keine Angaben. **GEO:** adressgenauer OSM-Punkt „Künzer" am Holzplatz 5 gesetzt; der bisherige Produktionspunkt war der Völklinger Stadtmittenpunkt.
 
 ## Timeline
+
+### Recherche 27.10.2026: amtlicher Entsorgungsfachbetriebs-Nachweis und GEO-Korrektur
+
+- [Recherche 27.10.2026: Amtlicher Fachbetrieberegister neu herangezogen (GESA/eEFBV-Auszug, Stand 11.08.2026): „Metall-Recycling Künzer GmbH Schrottaufbereitung, Am Holzplatz 5, 66333 Völklingen" mit Hauptsitz „Metall-Recycling Künzer GmbH" — damit deckungsgleich mit dem Handelsregisternamen zu HRB 104554. Zertifikatsnummer ZZKT00300026, zertifizierte Tätigkeiten Sammeln, Befördern, Lagern, Behandeln, Verwerten; 62 ausgewertete Abfallschlüssel rund um Metall und Fahrzeuge, darunter 170401 Kupfer/Bronze/Messing, 170402 Aluminium, 170403 Blei, 170404 Zink, 170405 Eisen und Stahl, 170406 Zinn, 170407 gemischte Metalle, 170411 Kabel, 150104 Verpackungen aus Metall, 020110 Metallabfälle, 191202/191203 sowie 120101–120104 Feil-, Dreh- und Staubspäne. Das bestätigt den importierten Materialsatz (Eisen, Alu, Kupfer, Messing, Blei, Zink) als zertifizierten Annahmeumfang. Das Register nennt weder Telefon noch E-Mail und keine Preise; Quelle(n): https://schrottregister.pages.dev/ort-volklingen ; https://schrottregister.pages.dev/betrieb-metall-recycling-kunzer-gmbh-schrottaufbereitung-volklingen]
+- [Recherche 27.10.2026: Preistrennung: **Ankauf** — keine numerischen Kurse; das amtliche Register führt ausdrücklich keine Ankaufspreise, die öffentliche Ankaufwerbung (Schrott/Metall, Barauszahlung gegen gültigen Ausweis, keine Elektrogeräte) stammt weiterhin aus dem Betreiber-Social-Profil und ist historisch. **Verkauf** — keine Produkt-/Preisliste. **Gebühren** — keine Tarife. Offen bleibt die öffentliche Abholbedingung: Die Registertätigkeit „Befördern" belegt Beförderung, aber keine Preis- oder Gratiszusage; Quelle(n): https://www.instagram.com/metall.recycling_kuenzer/ ; https://www.11880.com/branchenbuch/voelklingen/060444309B27818417/metall-recycling-kuenzer-gmbh.html]
+- [Recherche 27.10.2026: GEO-Korrektur. Die read-only Produktionszeile enthielt den identischen Völklinger Stadtmitten-Punkt 49.2516/6.8587, der auch beim AVS-Dossier hinterlegt war. Ersetzt durch das adressgenaue OSM-Way 303708241, das selbst „Künzer" heißt und auf „5, Am Holzplatz, Fenne, 66333 Völklingen" liegt: 49.2455117/6.8782401. Das ist ein Gebäude-/Adresspunkt, keine bestätigte Zufahrt; Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&q=Am%20Holzplatz%205%2C%2066333%20V%C3%B6lklingen&addressdetails=1&extratags=1 ; https://www.openstreetmap.org/way/303708241 ; read-only `public.db` (27.10.2026).]
 
 ### Nachprüfung 26.10.2026
 

@@ -9,10 +9,10 @@ postcode: '93086'
 phone: '0174 2187361'
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: http://www.alteisen-express.de/
+website_status: aktiv
 status: pruefung
-description: 'Schrott- und Altmetallservice mit Abholung (Martin Stierstorfer)'
+description: 'Mobiler Schrott- und Altmetallservice von Martin Stierstorfer, Hafnerhof 1 Wörth/Donau; kostenlose Abholung von Eisen-Schrott und Metallen im 25-km-Umkreis nach Termin, Container bis 40 m³, Ladekran; keine stationäre Annahme und keine Preise ausgewiesen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -24,9 +24,13 @@ provenance_origin: prose
 
 ## Überblick
 
-Der Betreiber-Unterpfad bestätigt Martin Stierstorfer, Hafnerhof 1 und einen mobilen Schrott-/Altmetallservice mit Abholung. Die Service-Seite belegt selbst kostenlose Abholung von Eisen/Metallen im 25-km-Umkreis Wörth/Donau nach Termin, Container bis 40 m³ und Ladekran. Die bisherige Beschränkung dieser Kostenlos-Angabe auf einen Verzeichnis-Lead war falsch. Keine stationäre Annahmestelle oder Ankaufvergütung nachgewiesen; Zeiten und separate Tarife fehlen. Website-/Kontaktzuordnung bleibt mangels unabhängigen Zweitbelegs konservativ im Text.
+Der Betreiber-Unterpfad bestätigt Martin Stierstorfer, Hafnerhof 1 und einen mobilen Schrott-/Altmetallservice mit Abholung. Die Service-Seite belegt selbst kostenlose Abholung von Eisen/Metallen im 25-km-Umkreis Wörth/Donau nach Termin, Container bis 40 m³ und Ladekran. Die bisherige Beschränkung dieser Kostenlos-Angabe auf einen Verzeichnis-Lead war falsch. Keine stationäre Annahmestelle oder Ankaufvergütung nachgewiesen; Zeiten und separate Tarife fehlen. Die Domain `alteisen-express.de` liefert inzwischen wieder lauffähigen Inhalt mit dem Titel „Schrott- und Altmetallservice“, und die Datenschutzerklärung benennt Martin Stierstorfer als Verantwortlichen; die Website-Zuordnung ist damit belegt, ein Impressum mit eigener E-Mail fehlt jedoch weiterhin, weshalb keine E-Mail eingetragen ist.
 
 ## Timeline
+
+### Recherche 27.10.2026: Betreiberdomain antwortet wieder, Impressum fehlt weiterhin
+
+- [Recherche 27.10.2026: Die Betreiberdomain https://www.alteisen-express.de liefert heute nicht mehr den am 02.10.2026 dokumentierten Redirect-Stummel, sondern einen lauffähigen Frameset mit Titel „Alteisen-Express“, Description „Schrott- und Altmetallservice“ und Weiterleitung auf die Service-Seite des Betreibers. Das Impressum fehlt auf der Domain und auf der Zielseite weiterhin (nur Service/Kontakt/DSGVO); die DSGVO-Seite benennt Martin Stierstorfer als Verantwortlichen und bestätigt damit die Betreiberzuordnung. Die Kontaktseite nennt unverändert Martin Stierstorfer, Hafnerhof 1, 93086 Wörth/Donau, Mobil 0174-2187 361, Festnetz 0 94 82/671 (laut Betreiber nur bis ca. 8:00 Uhr morgens) und verweist selbst auf https://www.alteisen-express.de. Frontmatter: website „http://www.alteisen-express.de/“ mit website_status „aktiv“ gesetzt (die Domain gehört dem Betreiber und ist erreichbar, der Inhalt liegt auf der Designerseite andersstein.de); die description wurde um die belegten Leistungsangaben ergänzt (kostenlose Abholung von Eisen-Schrott und Metallen aller Art im 25-km-Umkreis um Wörth/Donau nach Termin, Container bis max. 40 m³, Ladekran, Zusammenarbeit mit örtlichen Entsorgern). Eine E-Mail-Adresse ist auf keiner der drei Seiten angegeben, daher bleibt das Feld leer. **ANKAUF:** keine €/kg-Kurse und keine Vergütungszusage an Lieferanten; **VERKAUF:** keine Preisliste; **GEBÜHREN:** „kostenlose Abholung“ gilt für Eisen-Schrott und Metalle im genannten Umkreis nach Termin und ist keine Zusage zur kostenlosen Containerüberlassung oder zu kostenloser Entrümpelung; weitere Tarife fehlen. Eine stationäre Annahme ist nicht belegt, daher kein GEO. Quellen: http://www.alteisen-express.de/ ; http://www.andersstein.de/alteisen-express/index.html ; http://www.andersstein.de/alteisen-express/html/kontakt.html ; http://www.andersstein.de/alteisen-express/html/dsgvo.html .]
 
 ### Recherche 26.10.2026: Betreiber-Service erneut gelesen
 

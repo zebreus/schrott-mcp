@@ -4,15 +4,15 @@ name: Lachermeier
 trader_type: sonstige
 state: BY
 city: Kirchdorf
-street: ''
+street: 'Marsstr. 4'
 postcode: '85414'
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+phone: 08166 7902
+email: info@lachermeier-schrott.de
+opening_hours: Mo-Fr 07:00-12:00, 13:00-17:00
+website: https://lachermeier-schrott.de/
+website_status: aktiv
+status: aktiv
+description: Schrott- und Metallhandel der Georg und Maria Lachermeier GbR in Kirchdorf a.d. Amper (Ortsteil Nörting); Öffnungszeiten Mo-Fr 07:00-12:00 und 13:00-17:00; Anschrift laut Betreiber-Impressum Marsstr. 4, im Gewerbeauszug abweichend geführt.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -24,12 +24,16 @@ provenance_origin: prose
 
 ## Überblick
 
-Die Betreiber-Selbstauskunft nennt Georg und Maria Lachermeier GbR, Marsstr. 4, 85414 Kirchdorf a.d. Amper (Ortsteil Nörting), info@lachermeier-schrott.de und Mo-Fr 07:00-12:00/13:00-17:00. Ein Creditreform-Suchergebnis verknüpft die Domain und Telefonnummer mit „Georg Lachermeier Schrotthandel“/Gewerbebetrieb, führt aber Marsstr. 3. Der Creditreform-Detailabruf lieferte 403; die Hausnummern- und Firmierungsabweichung ist daher offen und kein Grund, Datenfelder zu füllen. Die Betreiberseite zeigt 08166 7902, das Impressum sichtbar +49 (0) 1866 7902, sein tel-Ziel dagegen 004981667902: zusätzlicher interner Schreibkonflikt. Sitemap-lastmod vom 12.10.2026 ist nur eine technische Eigenangabe. Status bleibt `pruefung`, bis die abweichende Anschrift/Firmierung und der aktuelle Kundenstandort geklärt sind.
+Die Betreiber-Selbstauskunft nennt Georg und Maria Lachermeier GbR, Marsstr. 4, 85414 Kirchdorf a.d. Amper (Ortsteil Nörting), info@lachermeier-schrott.de und Mo-Fr 07:00-12:00/13:00-17:00; die USt-IdNr DE 128059895 ist über den EU-VIES-Dienst am 27.10.2026 gültig, die Steuernummer 115/191/55895 ist auf der Seite genannt. Der 11880-Eintrag (aktualisiert 03.10.2026) nennt dieselbe Telefonnummer und dieselben Öffnungszeiten, bestätigt aber Marsstr. **3**; die Hausnummernabweichung 3 gegen 4 bleibt damit der einzige offene Punkt und ist im Timeline als Konflikt geführt, nicht aufgelöst. Die Betreiberseite zeigt 08166 7902, das Impressum sichtbar +49 (0) 1866 7902, sein tel-Ziel dagegen 004981667902: zusätzlicher interner Schreibkonflikt. Sitemap-lastmod vom 12.10.2026 ist nur eine technische Eigenangabe. `status: aktiv` stützt sich auf Betreiberauftritt mit gültiger USt-IdNr, bestätigte Kontaktdaten und einen zweiten Verzeichniseintrag; die Hausnummer und ein belegter Kundenstandort bleiben offen. Ein zweiter Namensvetter („Georg Lachermeier Schrotthdl.“, Dorfstr. 26) ist im Timeline dokumentiert.
 
 - **Ankauf/Verkauf/Gebühren:** auf gelesener Startseite und Impressum keine konkreten Annahmebedingungen, Kurse, Verkaufslisten oder bezifferten Tarife gefunden; keine universelle Nichtveröffentlichung oder Gebührenfreiheit behauptet.
 - **Geokodierung:** Betreiberangabe Marsstr. 4 erst nach unabhängiger Bestätigung als Händlerpunkt geokodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026: Betreiberauftritt, USt-IdNr.-Prüfung und Hausnummernkonflikt
+
+- [Recherche 27.10.2026: Startseite, Impressum und Sitemap von lachermeier-schrott.de wurden erneut direkt gelesen. Das Impressum bestätigt „Georg und Maria Lachermeier GbR, Nörting, Marsstr. 4, 85414 Kirchdorf a.d. Amper“, USt-IdNr. DE 128059895 und Steuer-Nr. 115/191/55895, Telefon +49 (0) 1866 7902, E-Mail info@lachermeier-schrott.de; die Startseite nennt die Öffnungszeiten Mo–Fr 07:00–12:00 und 13:00–17:00 und verlinkt den Routenplaner auf dieselbe Marsstraße 4. Sitemap-lastmod 2026-10-12 und das im Oktober 2026 hochgeladene Logo belegen einen aktuellen Auftritt. Die USt-IdNr. DE 128059895 wurde am 27.10.2026 über den EU-Dienst VIES abgefragt und ist dort als gültig registriert bestätigt (isValid true); VIES nennt für deutsche USt-IdNr. keine Namens- oder Anschriftdaten. Der 11880-Eintrag „Georg Lachermeier Schrotthandel“ (Eintragsdaten 09.05.2026, aktualisiert 03.10.2026) nennt unabhängig dieselbe Telefonnummer 08166 7902 und dieselben Öffnungszeiten, aber Marsstr. 3; die bereits dokumentierte Creditreform-Suchvorschau („Georg Lachermeier Schrotthandel“, Gewerbebetrieb, +49 8166 7902, dieselbe Domain) nennt ebenfalls Marsstr. 3. Der Widerspruch ist damit nicht auflösbar: Betreiberquelle sagt 4, zwei Verzeichnis-/Registerzitate sagen 3. Eingetragen wurden die belegten Werte phone „08166 7902“, email „info@lachermeier-schrott.de“, opening_hours „Mo-Fr 07:00-12:00, 13:00-17:00“ (Betreiber und 11880 übereinstimmend), website „https://lachermeier-schrott.de/“ mit website_status „aktiv“ sowie street „Marsstr. 4“ und postcode „85414“ nach der Betreiber-Primärquelle; status „pruefung“ → „aktiv“, da Betreiber, Rufnummer und Zeiten bestätigt sind. Offen bleiben die Hausnummer (3 oder 4), die Rechtsform (GbR laut Betreiber, Gewerbebetrieb laut Registerzitat) sowie ein zweiter 11880-Eintrag „Georg Lachermeier SchrottHdl.“, Dorfstr. 26, 08166 7068 (Eintragsdaten 29.06.2021, aktualisiert 02.10.2026) — eigener Namensvetter, nicht zusammengeführt. Eine North-Data-Suche „Lachermeier“ liefert keinen Kirchdorfer Registereintrag (nur Geisenfelder und Münchner Namensvetter). **ANKAUF:** keine €/kg-Kurse auf den gelesenen Seiten; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife. Kein GEO, solange die Hausnummer ungeklärt ist. Quellen: https://lachermeier-schrott.de/ ; https://lachermeier-schrott.de/impressum ; https://lachermeier-schrott.de/page-sitemap.xml ; https://www.11880.com/branchenbuch/kirchdorf-an-der-amper/060440090B29044086/georg-lachermeier-schrotthandel.html ; https://www.11880.com/branchenbuch/kirchdorf-an-der-amper/120674719B27955204/georg-lachermeier-schrotthdl.html ; https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/128059895 ; https://www.northdata.de/suggest.json?query=Lachermeier&countries=DE .]
 
 ### Recherche 24.10.2026
 

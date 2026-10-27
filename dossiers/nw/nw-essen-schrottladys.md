@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-schrottladys
+clear_fields: geo
 name: Schrottladys
 trader_type: schrotthaendler
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 Neue Betreiber-Social-Spuren: Facebook dieschrottladys und Instagram schrottladys; Suchindex nennt Essen und wirbt mit bezahlter Buntmetall-/Stahlanlieferung sowie 0178 1565192. Direktabruf liefert jedoch keine lesbaren Profilfakten (Instagram Login, Facebook leer); deshalb nur Leads, kein Frontmatter-Fill/Kaufnachweis aus tatsächlichem Seiteninhalt. Die dort verlinkte Domain dieschrottladys.de ist im Abruf nicht DNS-auflösbar. Joachimstr. 60a, 45309 Essen bleibt ebenfalls nur Verzeichnislead, kein bestätigter Schrottplatz. Ankauf/Verkauf/Gebühren: keine verifizierten Listen. Offen: öffentliche Profil-/Impressumsbestätigung, aktuelle Betreiberinnen/Adresse und Anlieferungsbedingungen.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`. Der Punkt liegt laut OSM auf der Straße „Freiheit“, 45128 Essen (way 46961889, `highway=service`, `bus=designated`, `vehicle=no`), also auf der Fernbus-Spur des Essener Hauptbahnhofs und nicht auf einem Betriebsort. Die bisher widersprüchlichen Verzeichnisangaben lassen sich über die Betreiberquelle auflösen: Das archivierte Impressum von `monikaschrottabholung.de` vom 11.05.2021 und 23.05.2022 nennt Inhaberin Monika Kosiol, **Am Luftschacht 17, 45307 Essen**, Telefon 0178 1565192 und Steuernummer 111/5158/2306; die Fassung vom 18.07.2012 nennt dieselbe Person, Telefonnummer und Steuernummer noch an Joachimstr. 60a, 45309 Essen. Damit ist Joachimstr. 60a die historische und Am Luftschacht 17 die spätere Adresse derselben Betriebs; heute steht Joachimstr. 60a laut Essener Branchenbuch bei einer anderen Firma. Die Nominatim-Vorwärtssuche zu Am Luftschacht 17 findet ein Gebäude (way 106321185, 51.4602398/7.0661811), rund 3,71 km vom gespeicherten Punkt entfernt, der 11880-Eintrag wurde am 15.10.2026 aktualisiert. Die eigene Zeile widerspricht damit dem gespeicherten Punkt, und der Punkt trägt für sie keine Aussage. `clear_fields: geo` nimmt ihn beim regulären Seed zurück, **ohne** Ersatzkoordinate: Es ist keine Annahme- oder Einfahrtskoordinate belegt, und der aktuelle Betriebsstatus bleibt unbekannt, weil `dieschrottladys.de` keinen A-Record hat und `monikaschrottabholung.de` mit HTTP 404 antwortet. Der Clear behauptet deshalb weder Fortbestand noch Annahme; `status: pruefung` bleibt, und die Adressentscheidung (Frontmatter weiterhin ohne Straße und PLZ) bleibt offen. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/46961889/full.json ; http://web.archive.org/web/20210511203008/https://monikaschrottabholung.de/impressum ; http://web.archive.org/web/20220523210655/https://www.monikaschrottabholung.de/impressum ; http://web.archive.org/web/20120718014652/http://www.monikaschrottabholung.de/Impressum.html ; https://www.11880.com/branchenbuch/essen-ruhr/062393133B101892935/die-schrottladys-schrotthandel-schrottentsorgung.html ; https://nominatim.openstreetmap.org/search?q=Am+Luftschacht+17%2C+45307+Essen&format=jsonv2&addressdetails=1 ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt als offenen Korrekturauftrag dokumentieren
 

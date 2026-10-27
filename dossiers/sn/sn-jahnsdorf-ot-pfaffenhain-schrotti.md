@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Für „Schrotti“ existiert ein 11880-Verzeichnislead an der Wilhermsdorfer Straße 11, 09387 Jahnsdorf (Tel. 0162 8770984). Öffnungszeiten weichen zwischen Verzeichnissen ab; kein Betreiberauftritt, Register- oder kommunaler Gewerbenachweis verbindet den Eintrag bisher mit einem aktuellen Schrottannahmepunkt in Pfaffenhain. Nicht mit Pellmann Olaf an Stollberger Straße 11 zusammenführen. Der Seed-Status `aktiv` ist nicht neu bestätigt. **Ankauf:** keine händlerspezifischen Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Adresse bleibt GEO-offen.
+Für „Schrotti" existiert ein 11880-Verzeichnislead an der Wilhermsdorfer Straße 11, 09387 Jahnsdorf (Tel. 0162 8770984). Öffnungszeiten weichen zwischen Verzeichnissen ab; kein Betreiberauftritt, Register- oder kommunaler Gewerbenachweis verbindet den Eintrag bisher mit einem aktuellen Schrottannahmepunkt in Pfaffenhain. Der amtliche Fachbetrieberegister führt für Jahnsdorf keinen Betrieb und im gesamten Bestand keinen Eintrag „Schrotti". Nicht mit Pellmann Olaf an Stollberger Straße 11 zusammenführen. Der Seed-Status `aktiv` ist nicht neu bestätigt und wurde deshalb auf `pruefung` gesetzt — das ist keine Schließungsaussage. **Ankauf:** keine händlerspezifischen Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Adresse bleibt GEO-offen.
 
 ## Timeline
+
+### Recherche 27.10.2026: amtlicher Registerabgleich und Statuskorrektur
+
+- [Recherche 27.10.2026: Amtlicher Fachbetrieberegister als neue Gegenquelle (GESA/eEFBV-Auszug, Stand 11.08.2026): Für Jahnsdorf ist keine Ortsseite vorhanden, im gesamten Register (4.507 zertifizierte Betriebe) existiert kein Eintrieb mit dem Namen „Schrotti" und keine zertifizierte Betriebsstätte in Jahnsdorf. Das Register enthält nur zertifizierte Metall- und Fahrzeugbetriebe; das Fehlen belegt weder Nichtexistenz noch Geschäftsaufgabe, es existiert aber kein EFB-/Demontage-Nachweis für den Lead; Quelle(n): https://schrottregister.pages.dev/llms.txt ; https://schrottregister.pages.dev/was-fehlt]
+- [Recherche 27.10.2026: Statuskorrektur aktiv → pruefung: Der einzige Beleg bleibt der 11880-Verzeichniseintrag (Wilhermsdorfer Str. 11, 09387 Jahnsdorf, Tel. 0162 8770984, Datenstand 20.11.2025) mit widersprüchlichen Öffnungszeiten gegenüber Mapcarta; eine Betreiber-Website, ein Registereintrag, ein kommunaler Gewerbenachweis oder eine Ankaufspreisliste existieren nicht. Analog zur Behandlung der rein verzeichnisgestützten Kandidaten in diesem Shard (bw-balingen-schlaich-kurt-schrotthdl, hh-barmbek-sud-hamburg-schrott) ist `aktiv` nicht haltbar und wurde auf `pruefung` gesetzt; das ist ausdrücklich keine Schließungsbehauptung. Adresse, Telefon und Öffnungszeiten bleiben unverändert im Frontmatter, da es nur eine Belegklasse gibt; Quelle(n): https://www.11880.com/branchenbuch/jahnsdorf-erzgebirge/060440092B112753071/schrotti.html ; https://mapcarta.com/de/W207064499]
+- [Recherche 27.10.2026: GEO-Abgleich: Die read-only Produktionskoordinate 50.75/12.85 löst nach OSM/Nominatim auf „Pfaffenhain, Leukersdorf, Jahnsdorf/Erzgebirge, Erzgebirgskreis, Sachsen, 09387" auf, also genau den im Dossier genannten Ortsteil Pfaffenhain; sie ist damit kein Fehlpunkt wie in anderen Dossiers dieser Welle. Sie bleibt jedoch ein Orts-/Ortsteilpunkt ohne Hausnummer, da die Adresse Wilhermsdorfer Straße 11 nur als Verzeichnislead vorliegt; eine Koordinate wurde deshalb nicht geändert; Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.75&lon=12.85&zoom=14&addressdetails=1 ; read-only `public.db` (27.10.2026).]
 
 ### Recherche 13.10.2026
 

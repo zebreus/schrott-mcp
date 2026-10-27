@@ -30,6 +30,10 @@ Steppan Leon ist ein nur teilweise identifizierter Seedkandidat in Mehlingen. Ge
 
 ## Timeline
 
+### Recherche 27.10.2026: 11880-Gegenprüfung ohne Mehlinger Treffer
+
+- [Recherche 27.10.2026: Die 11880-Suche „Schrotthandel in Mehlingen“ wurde vollständig gelesen (15 Treffer im Umkreis); kein Eintrag betrifft Steppan in Mehlingen — der nächstgelegene Schrotthandels-Eintrag liegt 15,9 km entfernt in Kaiserslautern. Auch die North-Data-Suggest-Suche „Steppan“ enthält keinen passenden Authoreintrag (die Treffer betreffen Immobilien, Zahntechnik und Steuerberufe in anderen Orten). Das stützt den Negativbefund vom 18.10.2026, beweist aber keine Nichtexistenz eines Kleinstbetriebs. Die Verzeichnisleads „Leon Steppan Kfz-Verwertungsunternehmen, Spelzenhofstraße 42, 06303 2123“ bleiben ohne Betreiber- oder Registerbestätigung; Frontmatter unverändert, Status „pruefung“, kein GEO. **ANKAUF:** keine bestätigte Altautoannahme und keine Kurse; **VERKAUF:** keine Teilepreisliste; **GEBÜHREN:** keine Entsorgungs- oder Abholtarife. Quellen: https://www.11880.com/suche/schrotthandel/mehlingen ; https://www.northdata.de/suggest.json?query=Steppan&countries=DE .]
+
 ### Recherche 26.10.2026
 
 - [Recherche 26.10.2026: Neue Verzeichnis-Leads entdeckt: Gelbe Seiten und Cylex führen „Leon Steppan Kfz-Verwertungsunternehmen“, Spelzenhofstraße 42, 67678 Mehlingen, Tel. 06303 2123. Das verbessert die Suchspur gegenüber dem 18.10.-Negativbefund, belegt aber weder aktuellen Betrieb noch Altautoannahme; die Portale sind keine Primärquellen und können voneinander abschreiben. Kein Frontmatter-Fill, keine Übernahme der Seed-Kategorie `autoverwertung` als bestätigte Leistung und kein GEO. ANKAUF: keine verifizierten Bedingungen/Kurse. VERKAUF: keine Teilepreise. GEBÜHREN: keine Tarife. Quellen: https://www.gelbeseiten.de/gsbiz/ce18da43-882e-4d63-a68c-091a5bb22ae9 ; https://web2.cylex.de/firma-home/leon-steppan-kfz-verwertungsuntern--16714686.html .]

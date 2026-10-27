@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Recherche 27.10.2026: Kein aktueller Register- oder Verzeichniseintrag, Domain weiterhin nicht auflösbar
+
+- [Recherche 27.10.2026: Die Dead-Domain silber-frei-haus.de wurde erneut geprüft; die Auflösung schlägt weiterhin fehl (Root und www), der historische Betreiberauftritt ist damit nicht abrufbar und website_status „tot“ bleibt zutreffend. Die 11880-Suche „Edelmetallhandel in Koblenz“ (19 sichtbare Treffer) enthält keinen Hellwegner-Eintrag; die North-Data-Suggest-Suche „Hellwegner“ liefert keinen Registereintrag. Die bereits dokumentierten Adresskonflikte (Firmungstr. 20 mit 0261 45093171 und …172 gegen Löhrstr. 103 mit …173 und …174) sowie die negative Bewertungshistorie 2015–2017 bleiben unverändert aufgelöst. Damit gibt es weiterhin keinen belastbaren Beleg für eine heutige Tätigkeit der HELLWEGNER e.K. Edelmetallhandel; keine Frontmatter-Füllung, Status „pruefung“, keine Koordinate. **ANKAUF/VERKAUF:** keine Ankauf- oder Verkaufspreise belegt; **GEBÜHREN:** keine Angaben. Quellen: https://www.northdata.de/suggest.json?query=Hellwegner&countries=DE ; https://www.11880.com/suche/edelmetallhandel/koblenz ; https://silber-frei-haus.de/ .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Branche nicht überliefert

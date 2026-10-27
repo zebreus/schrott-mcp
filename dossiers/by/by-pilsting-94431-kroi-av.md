@@ -6,8 +6,8 @@ state: BY
 city: Pilsting
 street: ''
 postcode: '94431'
-phone: ''
-email: ''
+phone: '09953 521'
+email: autokroiss@t-online.de
 opening_hours: ''
 website: ''
 website_status: unbekannt
@@ -29,6 +29,10 @@ Der Markt Pilsting führt in seinem offiziellen Gewerbeverzeichnis Horst Kroiß 
 **Preise:** Ankauf — keine Altmetallkurse oder Fahrzeugankaufbeträge gefunden; Verkauf — keine Fahrzeug-/Teilepreise; Gebühren — keine Abschlepp-, Abhol- oder Verwertungsgebühr belegt. **Geocoding:** Kandidaten Landauer Weg 103 (Gemeinde) vs. 106 (Verzeichnis) zunächst auflösen; beide nicht als Dossieradresse geokodieren. Offen: Horst Kroiß direkt kontaktieren und aktuelle Anschrift bestätigen.
 
 ## Timeline
+
+### Recherche 27.10.2026: Hausnummernkonflikt 103/106 amtlich und verzeichnisgetrennt beschrieben
+
+- [Recherche 27.10.2026: Das offizielle Gewerbeverzeichnis des Marktes Pilsting wurde erneut direkt gelesen: Der Eintrag wird jetzt nur noch über die Tätigkeitsbezeichnung „KFZ-Werkstätte, Autoverwertung, Abschleppdienst, Auto- und Schrotthandel“ mit Telefon 09953 521, E-Mail autokroiss@t-online.de und „Landauer Weg 103, 94431 Pilsting“ geführt (Adressdatensatz 139); die im Vermerk vom 09.10.2026 genannte Ansprechperson „Horst Kroiß“ steht im aktuellen Seiteninhalt nicht mehr. 11880 führt zwei getrennte Einträge mit derselben Rufnummer (09953) 521: „Horst Kroiß Autoverwertung Abschleppdienst Werkstatt“, Landauer Weg 106, 94431 Pilsting (Eintragsdaten 02.12.2022, aktualisiert 15.10.2026, Portalöffnungszeiten Mo–Fr 08:00–17:00, Verweis auf golocal.de) und „Horst Kroiss Kfz.-Mechanikermeister“, Landauer Weg 103, 94431 Pilsting (Eintragsdaten 03.02.2026). Der Hausnummernkonflikt 103 (Gemeinde und Werkstatt-Eintrag) gegen 106 (Autoverwertungs-Eintrag) ist damit als zwei Standorte bzw. zwei Einträge desselben Telefonkontakts beschrieben, aber nicht amtlich aufgelöst — deshalb bleibt street leer und es wird nicht geokodiert. Eingetragen wurden phone „09953 521“ (amtlich und 11880) und email „autokroiss@t-online.de“ (amtlich); eine North-Data-Suggest-Suche „Kroiss Horst“ liefert keinen Registereintrag (Einzelunternehmer). Nicht zusammengeführt wurden „Agrarservice Kroiß“ (Pflegau 23, Daniel Kroiß, Landwirtschaft und Gülle), „Kroiß Heizungsbau“ (Landauer Weg 92) sowie der 11880-Eintrag „Alexander Kroiß“ (Landauer Weg 92, 09953 665) — eigener Namensvetter. **ANKAUF:** keine Altmetallkurse; **VERKAUF:** keine Fahrzeug- oder Teilepreise; **GEBÜHREN:** keine Abschlepp-, Abhol- oder Verwertungsgebühr belegt. Quellen: https://www.markt-pilsting.de/in-pilsting-zuhause/wirtschaft-und-gewerbe/gewerbe-am-ort ; https://www.11880.com/branchenbuch/pilsting/012070452B27538704/horst-kroiss-autoverwertung-abschleppdienst-werkstatt.html ; https://www.11880.com/branchenbuch/pilsting/B113757310/horst-kroiss-kfz-mechanikermeister.html ; https://www.northdata.de/suggest.json?query=Kroiss%20Horst&countries=DE .]
 
 ### Recherche 23.10.2026
 

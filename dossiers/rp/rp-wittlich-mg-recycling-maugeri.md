@@ -8,11 +8,11 @@ street: ''
 postcode: ''
 phone: +49 1521 3631130
 email: altmetall.ankauf.maugeri@gmail.com
-opening_hours: ''
+opening_hours: Mo-Fr 08:00-17:30
 website: https://schrottankauf-wittlich.de
 website_status: aktiv
 status: pruefung
-description: Mobiler Schrott- und Altmetallankauf von Giuseppe Maugeri im Raum Wittlich, Trier, Koblenz und Luxemburg; Anlieferung nur nach Absprache, Geschäftsanschrift widersprüchlich.
+description: Mobiler Schrott- und Altmetallankauf von Giuseppe Maugeri im Raum Wittlich, Trier, Koblenz und Luxemburg; Abholung ist Hauptservice, Anlieferung nur nach Absprache; Geschäftsanschrift widersprüchlich (Impressum Triererstr. 5, 54538 Bengel; Kontaktblock Friedrichstr. 56, 54616 Wittlich); Demontage, Entrümpelung, Brennarbeiten.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Rheinland-Pfalz (RP) — Recherche
@@ -29,6 +29,10 @@ Der direkt erreichbare Betreiberauftritt wirbt mit mobiler Abholung von Eisen-/S
 **Preise:** keine numerische Ankaufsliste; „faire/transparente Preise“ sind nur Werbeaussagen. **Verkauf:** keine Preisliste. **Gebühren:** keine Abhol-, Demontage- oder Entsorgungstarife veröffentlicht; aus der angebotenen Abholung folgt keine Kostenfreiheit. Status `pruefung` bis Identität/Anschrift unabhängig geklärt sind.
 
 ## Timeline
+
+### Recherche 27.10.2026: Öffnungszeiten und Leistungsumfang am Betreiberauftritt erneut geprüft
+
+- [Recherche 27.10.2026: Startseite und Impressum von schrottankauf-wittlich.de wurden erneut direkt gelesen. Der Kontaktblock der Startseite weist jetzt geschlossen die Betriebsanschrift Friedrichstraße 56, 54616 Wittlich, die Telefonnummer 0152 13631 130, altmetall.ankauf.maugeri@gmail.com und „Mo–Fr: 08:00 – 17:30 Uhr“ aus; das Impressum nennt weiterhin Giuseppe Maugeri, Triererstraße 5, 54538 Bengel, mit derselben Telefonnummer. Der Adresswiderspruch (Bengel im Impressum, Wittlich in Kontaktblock und Fußzeile) bleibt damit unverändert offen — beide Angaben stammen aus derselben Betreiberquelle, deshalb bleibt das street-Feld leer und es wird nicht geokodiert. Neu belegt und eingetragen: opening_hours „Mo-Fr 08:00-17:30“ (Betreiberangabe im Kontaktblock) sowie die im Leistungsabschnitt genannten zusätzlichen Leistungen Brennarbeiten und Entrümpelung/Entsorgung; der Header-CTA „Direkt anrufen“ verlinkt weiterhin die zweite, ebenfalls betreiberveröffentlichte Nummer 01575 7025957, die nicht als verifizierter Zweitkontakt übernommen wird. **ANKAUF:** keine veröffentlichten €/kg-Kurse, nur Werbeaussagen („faire/transparente Preise“); **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Abhol-, Demontage- oder Entrümpelungstarife — die Abholung ist Werbung, keine belegte Kostenfreiheit. Keine Hofzeiten, da der Standort nicht feststeht. Quellen: https://schrottankauf-wittlich.de/ ; https://schrottankauf-wittlich.de/impressum/ .]
 
 ### Recherche 25.10.2026
 

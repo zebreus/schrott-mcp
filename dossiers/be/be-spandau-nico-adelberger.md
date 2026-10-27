@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Gold- und Edelmetall-Kleinstankauf in Berlin-Spandau als Einzelgewerbe „Nico Adelberger - Gold und Edelmetall -" (Creditreform-Firmenauskunft Crefonummer 2013128627, Branche Einzelhandel mit Uhren und Schmuck, Gewerbebetrieb, wirtschaftsaktiv, ein Standort, Postleitzahl 13581). Die gefundene Website imperial-servicegroup.de gehört einem anderen Gewerbebetrieb (Abbruch, Gebäudereinigung, Entrümpelung) und ist keine Goldankaufsseite; Ankaufspreise und Annahmebedingungen sind nicht veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: A. Kept (Tabelle)
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle eigene Website nennt Nico Adelberger als Kontakt der Imperial Service Group an der Eisenzahnstr. 18, 10709 Berlin; laut dortigem Leistungsangebot geht es um Abbruch, Reinigung, Entrümpelung/Umzug und Grünpflege, nicht belegten Edelmetallankauf. Die Datenschutzerklärung nennt zusätzlich den Grünhofer Weg 42, aber keine belastbare Fortführungskette zum Seed „Gold und Edelmetall“. Keine Daten des Dienstleistungsunternehmens auf den Goldankauf übertragen. ANKAUF, VERKAUF und GEBÜHREN: keine zuordenbare Preisliste; Geschäftsidentität und aktuelle Goldannahme offen.
+Die Creditreform-Firmenauskunft (Crefonummer 2013128627) ist jetzt im Volltext lesbar und führt **„Nico Adelberger - Gold und Edelmetall -"** als Gewerbebetrieb mit der Branche **Einzelhandel mit Uhren und Schmuck**, wirtschaftsaktiv, ein Inhaber, ein Standort, Postleitzahl 13581 — die Branche deckt sich mit dem Seed-Geschäft. Damit ist die Tätigkeit als Gold-/Schmuckhandel belegt; das gefundene Imperial-Service-Group-Impressum (Nico Adelberger, Eisenzahnstr. 18) bleibt ein **anderer** Gewerbebetrieb und wird nicht übernommen. Offen bleiben die aktuelle Geschäftsadresse des Goldankaufs (Grünhofer Weg 42 laut Verzeichnissen gegen Eisenzahnstr. 18 beim Servicebetrieb), eine eigene Goldankaufs-Website und die Annahmebedingungen.
+
+- **Ankauf:** Branche „Einzelhandel mit Uhren und Schmuck" belegt, aber keine numerischen Kurse.
+- **Verkauf:** keine Liste.
+- **Gebühren:** keine Tarife.
+- **GEO:** Die Produktionskoordinate 52.531/13.1794 (Grünhofer Weg 42) bleibt unverändert, weil die heutige Betriebsadresse zwischen Seed-Lead und ServiceGroup-Adresse ungeklärt ist.
 
 ## Timeline
+
+### Recherche 27.10.2026: Creditreform-Volltext und Namensvetter
+
+- [Recherche 27.10.2026: Der Creditreform-Eintrag ist jetzt vollständig lesbar (Abruf über den Reader-Proxy; Direktabruf weiterhin HTTP 403): „Nico Adelberger - Gold und Edelmetall -", Crefonummer 2013128627, Branche „Einzelhandel mit Uhren und Schmuck", Kurzbeschreibung „mit Sitz in Berlin ... Rechtsform Gewerbebetrieb ... wirtschaftsaktiv ... von einem Manager (1 x Inhaber) geführt ... Steuernummer verfügbar ... ein Standort ... Daten zu einer Hausbank". Die Postleitzahl 13581 steckt im Creditreform-Pfad, die Branche deckt sich mit dem Seed-Geschäft „Gold und Edelmetall". Die Belegkette für die Tätigkeit ist damit über eine Geschäftsdatenbank geführt und nicht mehr nur über Verzeichnisse. Das bestätigt die Tätigkeit, nicht die heutige Geschäftsadresse: Das Imperial-Service-Group-Impressum (Eisenzahnstr. 18, 10709 Berlin) und die Datenschutzerklärung mit Stand September 2025 (Grünhofer Weg 42, 13581 Berlin) gehören zu einem anderen Gewerbebetrieb (Abbruch, Gebäudereinigung, Entrümpelung, Grünpflege, Winterdienst) und bleiben unübertragen; die Adresse „Spandau, Grünhofer Weg 42" steht unverändert im Frontmatter, weil die Verzeichnisse weiterhin die einzige Quelle dafür sind; Quelle(n): https://r.jina.ai/https://firmeneintrag.creditreform.de/13581/2013128627/NICO_ADELBERGER_GOLD_UND_EDELMETALL ; https://firmeneintrag.creditreform.de/13581/2013128627/NICO_ADELBERGER_GOLD_UND_EDELMETALL]
+- [Recherche 27.10.2026: **Ankauf:** keine Gold- oder Metallkurse; die Firmendatenbank weist nur die Branche aus, keine Preise und keine Annahmebedingungen. **Verkauf:** keine Liste. **Gebühren:** keine Tabelle. Die Mobilnummer 0176 61969568 bleibt ausschließlich Verzeichnisbeleg (Gelbe Seiten und verwandte Portale), eine eigene Website oder ein Impressum des Goldankaufs wurde nicht gefunden; der Status bleibt `pruefung`. Amtlicher Gegencheck (GESA/eEFBV-Auszug, Stand 11.08.2026): Für Berlin sind 70 zertifizierte Metall- und Fahrzeugbetriebe geführt, ein Eintrag „Adelberger" oder eine Adresse Grünhofer Weg 42 ist nicht dabei — das Register deckt nur zertifizierte Betriebe ab und belegt weder Existenz noch Auflösung des Goldankaufs; Quelle(n): https://www.gelbeseiten.de/gsbiz/d38a5516-221a-4341-b071-fef51c719e3e ; https://schrottregister.pages.dev/ort-berlin]
 
 ### Recherche 21.10.2026 — Abgrenzung der eigenen Website, Preisprüfung
 

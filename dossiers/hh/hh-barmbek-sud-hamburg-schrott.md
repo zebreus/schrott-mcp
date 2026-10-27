@@ -32,6 +32,11 @@ Die offizielle Immobilienseite der **AlsterCity** beschreibt Osterbekstraße **9
 
 ## Timeline
 
+### Recherche 27.10.2026: amtlicher Registerabgleich Hamburg
+
+- [Recherche 27.10.2026: Amtlicher Fachbetrieberegister als neue Gegenquelle herangezogen (GESA/eEFBV-Auszug, Stand 11.08.2026): Für Hamburg sind 64 zertifizierte Betriebe geführt (u.a. ALBA Metall Nord, B. u. F. Metallhandels, Buhck, Hoffmann Metallhandel, HRH Transport & Metallhandel, REMEX Nord, REMONDIS, Schrottbär, Sho Oesterreich, TSR, Veolia) — kein anerkannter Demontagebetrieb in Hamburg und weder ein Eintrag „Hamburg schrott" noch die Adresse Osterbekstraße 90B. Das Register enthält nur zertifizierte Metall- und Fahrzeugbetriebe; das Fehlen belegt weder Nichtexistenz noch Geschäftsaufgabe, es existiert aber kein EFB-/Demontage-Nachweis für den Seed-Namen; Quelle(n): https://schrottregister.pages.dev/ort-hamburg]
+- [Recherche 27.10.2026: Der Adressumfeld-Befund bleibt unverändert: Die offizielle AlsterCity-Immobilienseite beschreibt Osterbekstraße 90 a–c als Büro- und Geschäftshauskomplex und belegt damit nur das Umfeld der Seedadresse, nicht die Händleridentität; der Firmenzone-Lead zum Seednamen nennt nur generische Kfz-Werkstattleistungen und bleibt ein Aggregator-Lead. **Ankauf:** keine verifizierten Schrottkurse; **Verkauf:** keine Produktliste; **Gebühren:** keine Abhol- oder Entsorgungstarife, kein Gratisversprechen. Name, Straße und `status: pruefung` bleiben unverändert; es wurde keine Koordinate gesetzt, da weder ein Betreiber noch ein Annahmeplatz belegt ist und das Dossier keine Koordinaten-Felder führt; Quelle(n): https://diealstercity.de/ ; https://firmenzone.com/business/hamburg-schrott]
+
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Offizielle AlsterCity-Immobilienseite direkt geprüft: Osterbekstraße 90 a-c / Weidestraße 122 a-d, Büro- und Geschäftshaus, ca. 90.000 m² Bürofläche. Belegt nur das Immobilienumfeld der Seedadresse 90B, nicht die Händleridentität oder das Fehlen eines Mieters. Firmenzone-Profil nennt generische Kfz-Werkstattleistungen zum Seednamen; weiterer widersprüchlicher Portal-Lead, kein qualifizierter Betreiberbeleg. Keine Übernahme von Telefon/PLZ/Leistungen und keine ungeprüfte Anlieferempfehlung; Quelle(n): https://diealstercity.de/; https://firmenzone.com/business/hamburg-schrott (Suchtreffer-Lead)]

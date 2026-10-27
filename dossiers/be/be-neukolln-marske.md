@@ -1,6 +1,6 @@
 ---
 slug: be-neukolln-marske
-name: Marske GmbH & Co. KG
+name: Marske Schrotthandel und Metallverwertung GmbH & Co. KG
 trader_type: sonstige
 state: BE
 city: Neukölln
@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Schrotthandel und Metallverwertung (Großhandel mit Altmaterialien und Reststoffen) in Berlin-Neukölln-Britz, HRA 22188 B AG Charlottenburg. Creditreform nennt als Unternehmensgegenstand Großhandel mit Schrott und Metallen sowie deren Verwertung, insbesondere Kabelverwertung, Verschrottung von Elektromotoren und Industrieanlagenverwertung. Die frühere Domain marske-gmbh.de ist heute mit Fremdinhalten belegt; aktuelle Kundenannahme und Ankaufspreise sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: A. Neu mit Ankaufbeleg (nicht in Hauptliste)
@@ -24,14 +24,21 @@ provenance_origin: table
 
 ## Überblick
 
-Das Handelsregister führt die Marske Schrotthandel und Metallverwertung GmbH & Co. KG (HRA 22188 B) mit Berliner Sitz; die historische amtliche Anlagenliste nennt Marske an Lahnstraße 3–5. Das belegt die Gesellschaft und historische Standortzuordnung, aber nicht die aktuelle Privatkundenannahme. Die historische Domain `marske-gmbh.de` liefert derzeit Glücksspielinhalte statt eines Händlerauftritts; aktuelle Verzeichnisse nennen zudem unterschiedliche Telefonnummern. Status deshalb `pruefung`, nicht geschlossen.
+Das Handelsregister führt die **Marske Schrotthandel und Metallverwertung GmbH & Co. KG** (HRA 22188 B) mit Berliner Sitz; die historische amtliche Anlagenliste nennt Marske an Lahnstraße 3–5. Die jetzt vollständig lesbare Creditreform-Firmenauskunft (Crefonummer 2010312111) bestätigt denselben Rechtsträger, dieselbe Anschrift (Lahnstr. 3–5, 12055 Berlin), die im Dossier bisher geführte Telefonnummer 030 6841513 und den Unternehmensgegenstand „Großhandel mit Schrott und Metallen sowie deren Verwertung". Creditreform weist ausdrücklich aus, dass unter der **nicht eingetragenen** Bezeichnung „Marske GmbH & Co.KG" gearbeitet wird — der Frontmatter-Name wurde deshalb auf den eingetragenen Namen präzisiert (Slug bleibt unverändert). Das belegt die Gesellschaft, aber nicht die aktuelle Privatkundenannahme; die historische Domain `marske-gmbh.de` liefert weiterhin Glücksspielinhalte statt eines Händlerauftritts. Status bleibt `pruefung`, nicht geschlossen.
 
-- **Ankauf:** historischer Verzeichnis-Seed nennt Metalle/Ankauf, aber keine aktuelle Betreiberbestätigung und keine numerischen Kurse.
+- **Ankauf:** Unternehmensgegenstand „Handel mit Schrott und Metallen" belegt, aber keine aktuellen Betreiberbestätigungen und keine numerischen Kurse.
 - **Verkauf:** keine aktuelle Produkt-/Preisliste.
 - **Gebühren:** keine aktuelle Tarifliste oder Gratisregel.
 - **GEO:** Lahnstraße 3–5 bleibt register-/historisch gestützter Standort, aber heutige Annahmefunktion nicht bestätigt; vor Pinning Standortbetrieb klären.
 
 ## Timeline
+
+### Recherche 27.10.2026: Creditreform-Volltext, Namenspräzisierung, amtlicher Registerabgleich
+
+- [Recherche 27.10.2026: Die Creditreform-Firmenauskunft ist jetzt im Volltext lesbar (Abruf über den Reader-Proxy): „Marske Schrotthandel und Metallverwertung GmbH & Co. KG", Crefonummer 2010312111, Lahnstr. 3 - 5, 12055 Berlin, Telefon +49 30 6841513, https://www.marske-gmbh.de; Gegenstand „Großhandel mit Schrott und Metallen sowie deren Verwertung. Insbesondere Kabelverwertung, Verschrottung von Elektromotoren, Industrieanlagenverwertung und Schrott- und Metallgroßhandel. Es wird auch unter der nicht eingetragenen Bezeichnung 'Marske GmbH & Co.KG' gearbeitet"; Kurzbeschreibung „im Handelsregister ... GmbH & Co. KG ... Amtsgericht 14057 Berlin ... HRA 22188 B ... wirtschaftsaktiv ... letzte Änderung im Handelsregister 11.08.2010 ... 3 Gesellschafter (2 x Kommanditist, 1 x Komplementär) ... ein Standort", Branche 46.87.0 Großhandel mit Altmaterialien und Reststoffen mit 3 Nebenbranchen. Das bestätigt die bisherige Telefonnummer 030 6841513 (der abweichende Cylex-Lead 030 6841582 bleibt der Ausreißer) und belegt die Namensvariante; Quelle(n): https://r.jina.ai/https://firmeneintrag.creditreform.de/12055/2010312111/MARSKE_SCHROTTHANDEL_UND_METALLVERWERTUNG_GMBH_CO_KG ; https://firmeneintrag.creditreform.de/12055/2010312111/MARSKE_SCHROTTHANDEL_UND_METALLVERWERTUNG_GMBH_CO_KG]
+- [Recherche 27.10.2026: Namenspräzisierung mit dreifacher Registerbasis: Northdata, Online-Handelsregister und jetzt Creditreform führen übereinstimmend die eingetragene Bezeichnung „Marske Schrotthandel und Metallverwertung GmbH & Co. KG" zu HRA 22188 B; die bisherige Dossier-Bezeichnung „Marske GmbH & Co. KG" ist laut Creditreform ausdrücklich die nicht eingetragene Arbeitsbezeichnung und bleibt im Timeline-Vermerk erhalten. Der Slug `be-neukolln-marske` bleibt unverändert; es gibt keinen Beleg für eine Umbenennung der Gesellschaft und keinen für eine Übernahme; Quelle(n): https://www.northdata.de/Marske%20Schrotthandel%20und%20Metallverwertung%20GmbH%20&%20Co%C2%B7%20KG,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRA%2022188%20B ; https://www.online-handelsregister.de/handelsregisterauszug/be/Berlin-Charlottenburg/HRA/22188/Marske-Schrotthandel-und-Metallverwertung-GmbH-Co-KG]
+- [Recherche 27.10.2026: Amtlicher Fachbetrieberegister als Gegencheck (GESA/eEFBV-Auszug, Stand 11.08.2026): Für Berlin sind 70 zertifizierte Betriebe geführt, darunter sechs anerkannte Demontagebetriebe (u.a. ALBA Berlin, Auto Brasch, BRH Berliner Rohstoffhandel, BUFF CONNECTION, Beller Demontagen Altmetall Schrott) und TSR Deutschland GmbH & Co. KG an der Lahnstraße 1-9. Ein Eintrag „Marske" ist nicht enthalten; an der Lahnstraße stehen stattdessen IB Wüllner GmbH (Lahnstr. 13), REMONDIS Industrie Service (31), Rhenus Data Office (31), Rückbauzentrum Berlin (31) und TSR (1-9). Das Register enthält nur zertifizierte Betriebe; das Fehlen belegt weder Stillstand noch Auflösung, es existiert aber kein EFB-Nachweis für Marske und die Nachbarschaftseinträge sind keine Namens- oder Übernahmebelege; Quelle(n): https://schrottregister.pages.dev/ort-berlin]
+- [Recherche 27.10.2026: **Ankauf:** keine aktuellen Kurse — die Firmendatenbank nennt den Unternehmensgegenstand, keine Preise; der Creditreform-Meldungsbereich weist Jahresabschlüsse bis 2024 und eine Registerbekanntmachung vom 23.07.2024 (Gesellschafterwechsel) aus, was die Gesellschaft als aktiv belegt, aber keine heutige Kundenannahme. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. **GEO:** keine Änderung — die Produktionskoordinate 52.4679374/13.4440356 liegt rund 150 m vom adressgenauen OSM-Straßenobjekt „Lahnstraße, Neu-Britz, 12055 Berlin" entfernt; für die Hausnummer 3–5 existiert kein genaueres OSM-Flächenobjekt; Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&street=Lahnstra%C3%9Fe%203-5&postalcode=12055&city=Berlin&addressdetails=1 ; https://www.openstreetmap.org/way/28961462]
 
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 

@@ -4,15 +4,18 @@ name: Autoverwertung Krause
 trader_type: autoverwertung
 state: NI
 city: Lüchow
-street: ''
+street: 'Albrecht-Thaer-Str. 16'
 postcode: ''
+lat: '52.9838646'
+lon: '11.1672339'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
-description: ''
+status: aktiv
+description: 'Anerkannter Demontagebetrieb für Altfahrzeuge nach AltfahrzeugV am Registerstandort Albrecht-Thaer-Str. 16 in Lüchow (Zertifikat ZAFS00100011). Eine Betreiber-Website oder ein lesbares Impressum existiert nicht; Fahrzeugvergütung, Annahmebedingungen und Gebühren sind nicht veröffentlicht.'
+certifications: '["Demontagebetrieb nach AltfahrzeugV (Fachbetrieberegister GESA, Zertifikat ZAFS00100011, Registerstand 11.08.2026)"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Weitere Verzeichnis-Funde (Nienburg/Diepholz/Verden, Osnabrück-Nord,
@@ -25,14 +28,21 @@ provenance_origin: table
 
 ## Überblick
 
-Der Feuerwehrbericht zur Übung am 11.04.2026 erwähnt Autoverwertung Krause als Bereitsteller eines Betriebsgeländes, nennt aber weder Inhaber noch Adresse. Die Portaladresse Albrecht-Thaer-Str. 16/29439 und Mobil 0162 8340276 ist nicht exklusiv: Suchtreffer führen dieselbe Straße auch für Autoverwertung Bleck bzw. Boick mit anderer Rufnummer. Das beweist weder eine Betreiberkette noch eine gemeinsame Annahmestelle. Aktuelle Fahrzeugannahme, Demontagezulassung und Rechtsidentität bleiben offen.
+Der Betrieb ist im amtlichen Fachbetrieberegister (GESA-Auszug, Stand 11.08.2026) als **anerkannter Demontagebetrieb** „Autoverwertung Krause, Albrecht-Thaer-Str. 16" geführt (Zertifikat ZAFS00100011). Damit ist die zuvor als „nicht exklusiv zuordenbar" notierte Hausnummer jetzt amtlich dem Betrieb Krause zugeordnet; die gleichlautenden Adress-Leads für Autoverwertung Bleck und Boick bleiben unberührt. Offen bleiben die Postleitzahl (Register 29432 gegen Verzeichnis und Adressdaten 29439), die Betreiberidentität ohne Impressum sowie die öffentliche Fahrzeugannahme.
 
-- **Ankauf:** keine bestätigten Fahrzeugvergütungen oder Schrottkurse.
+- **Ankauf:** keine bestätigten Fahrzeugvergütungen oder Schrottkurse; das Register führt ausdrücklich keine Preise.
 - **Verkauf:** Kleinanzeigen-Ersatzteilangebot nicht als Betreiberseite verifiziert; keine belegte Preisliste.
 - **Gebühren:** keine belegten Verwertungs-/Abholtarife.
-- **GEO:** Albrecht-Thaer-Str. 16 nicht geokodieren, bis der Krause-Bezug und der öffentliche Annahmepunkt gegen die konkurrierenden Adress-Leads geklärt sind.
+- **GEO:** adressgenauer OSM-Gebäudepunkt für „16, Albrecht-Thaer-Straße" gesetzt; der bisherige Produktionspunkt lag rund 150 km entfernt in Mecklenburg-Vorpommern.
 
 ## Timeline
+
+### Recherche 27.10.2026: amtlicher Demontagebetriebs-Nachweis und GEO-Korrektur
+
+- [Recherche 27.10.2026: Amtlicher Fachbetrieberegister neu herangezogen (GESA-Auszug, Stand 11.08.2026): „Autoverwertung Krause, Albrecht-Thaer-Str. 16, 29432 Lüchow" ist dort als anerkannter Demontagebetrieb nach AltfahrzeugV geführt (darf Altfahrzeuge trockenlegen und zerlegen), Zertifikatsnummer ZAFS00100011. Damit ist die bisher nur als Verzeichnislead geführte Anschrift amtlich dem Betrieb Krause zugeordnet und die Demontagezulassung belegt; die gleichlautenden Adress-Leads für Autoverwertung Bleck (05841 709300) und Boick werden nicht übertragen und bleiben getrennte Identitäten. Das Register nennt weder Telefon noch E-Mail und keine Preise. Status daher von `pruefung` auf `aktiv` entsprechend dem Registerbefund korrigiert; das ist keine Aussage über Fahrzeugvergütung oder Annahmezusagen; Quelle(n): https://schrottregister.pages.dev/ort-luchow ; https://schrottregister.pages.dev/betrieb-autoverwertung-krause-luchow]
+- [Recherche 27.10.2026: PLZ-Widerspruch bleibt offen und ist deshalb nicht ins Frontmatter übernommen: Das Register nennt 29432, die 11880-Verzeichnisangabe und die adressgenaue OSM-/Nominatim-Adresseingabe zu „16, Albrecht-Thaer-Straße" nennen 29439 — beide Werte liegen in Lüchow. Die Straße gilt als Registerstandort, die Postleitzahl bleibt bis zur Klärung leer. Ferner ist die Mobilnummer 0162 8340276 weiterhin nur ein Verzeichnislead; das Register führt keine Telefonnummer, das Telefonfeld bleibt daher leer; Quelle(n): https://www.11880.com/branchenbuch/luechow-wendland/060440092B113982255/autoverwertung-krause.html ; https://nominatim.openstreetmap.org/search?format=jsonv2&street=Albrecht-Thaer-Stra%C3%9Fe%2016&city=L%C3%BCchow&addressdetails=1]
+- [Recherche 27.10.2026: GEO-Korrektur. Die read-only Produktionszeile enthielt 53.3257/10.84365; dieser Punkt löst nach OSM/Nominatim auf „Grabenau, Teldau, Boizenburg-Land, Mecklenburg-Vorpommern (19273)" auf, rund 150 km vom belegten Lüchower Standort entfernt. Ersetzt durch das adressgenaue OSM-Gebäude-Way 213905139 zu „16, Albrecht-Thaer-Straße, 29439 Lüchow": 52.9838646/11.1672339. Es ist ein Gebäude-/Adresspunkt, keine bestätigte Annahmezufahrt; die PLZ-Divergenz zum Register (29432) bleibt dokumentiert; Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&street=Albrecht-Thaer-Stra%C3%9Fe%2016&city=L%C3%BCchow&addressdetails=1 ; https://www.openstreetmap.org/way/213905139 ; read-only `public.db` (27.10.2026).]
+- [Recherche 27.10.2026: **Ankauf:** keine Fahrzeugvergütung und keine Schrottkurse belegt. **Verkauf:** keine verifizierte Ersatzteilpreisliste; das Kleinanzeigen-Angebot „VW-T5-Schlachtfest" bleibt ein Verzeichnislead ohne gelesenes Anbieter-Impressum. **Gebühren:** keine Verwertungs-/Abholtarife. Der Feuerwehr-Eigenbericht vom 11.04.2026 nennt Krause weiterhin als Mitgeber eines Übungsgeländes (gemeinsam mit Firma Piskorski, die im Register als „Piskorski GmbH & Co. KG, Albrecht-Thaer-Straße 13" geführt ist) — das ist ein lokaler Existenzhinweis ohne Inhaber- oder Adressbezug und kein Preisfund; Quelle(n): https://www.ffluechow.de/2026/04/11/verkehrsunfall-mit-eingeklemmter-person-nach-kleinbrand/ ; https://schrottregister.pages.dev/betrieb-piskorski-gmbh-co-kg-luchow]
 
 ### Recherche 27.10.2026: Verzeichnisangabe gegen Übungsbericht abgeglichen
 
