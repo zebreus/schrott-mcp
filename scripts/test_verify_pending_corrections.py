@@ -98,7 +98,14 @@ class PendingCorrectionTests(unittest.TestCase):
         self.internal.execute("UPDATE ingestion_steps SET started_at='2020-01-01'")
         self.public.commit()
         self.internal.commit()
-        self.assertEqual(self.verify()[0], 1)
+        code, result = self.verify()
+        self.assertEqual(code, 1)
+        self.assertIn("Gutzmann: post-rollout seed evidence missing", result["failures"])
+        self.assertNotIn("Gutzmann: branch address incorrect", result["failures"])
+        self.assertIn(
+            "hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg: post-rollout seed evidence missing",
+            result["failures"],
+        )
 
     def test_fetch_error_wrong_provenance_and_latest_failed_step_fail(self):
         for update in ("UPDATE raw_fetches SET status_code=500", "UPDATE raw_fetches SET status_code=200,url='wrong'", "UPDATE ingestion_steps SET status='error'"):

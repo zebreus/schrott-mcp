@@ -218,17 +218,26 @@ unterbleiben.
   fehlen. Im Fenster seit dem Rollout gibt es keinen MKM-Step; #2869 war kein
   MKM-Lauf. Kein Handler wurde manuell ausgelöst.
 - `verify-pending-corrections.py`: **rot**, 124 MSG-verwaltete Quotes. Findings:
-  Gutzmann-Adresse falsch; MSG-Quelle/Freshness; fehlender Clearwert- oder
-  Post-Rollout-Seednachweis für Hamburger Schrotthandel Prüffall, Reinhard
-  Peters und F. Weber; erfolgreicher Post-Rollout-Step fehlt für MSG und
-  Gutzmann. Im Fenster nach dem Rollout liegt kein Step dieser beiden Handler.
+  Die Produktionsfelder von Gutzmann stimmen aktuell mit `An der Ostbahn 4`,
+  `99867`, Gotha überein; `updated_at` ist jedoch vom 26.10.2026 und damit vor
+  dem Rollout. Der bisherige kombinierte Verifiertext meldete dafür irreführend
+  „branch address incorrect“. Die drei Clear-Fälle sind in Produktion ebenfalls
+  leer, haben aber `updated_at` vom 17.10.2026 und daher keinen frischen
+  Seednachweis. Der Verifier trennt jetzt Wertfehler und fehlenden
+  Post-Rollout-Nachweis; Regressionstests 8/8. Übrig bleiben MSG-Quelle/Freshness,
+  die vier fehlenden Zeitnachweise und erfolgreiche Post-Rollout-Steps für MSG
+  sowie Gutzmann. Im Fenster nach dem Rollout liegt kein Step dieser Handler.
 - `verify-wave-e-postrollout.py`: **rot**, 60/60 Slugs geprüft, 75 Findings:
   50 Timeline-Hash-Abweichungen, 20 fehlende `updated_at`-Zeitstempel nach dem
   Rollout, vier Straßen-/PLZ-Zielabweichungen sowie eine
-  Beschreibungsabweichung. Die Zielabweichungen betreffen Bochum Plus,
-  Autoverwertung Volz, Containerdienst Kaminski & Sohn und Entsorgung Bernd
-  Zauritz. Sie bleiben zu prüfen; es wird kein korrektes Ergebnis aus dem roten
-  Gate abgeleitet. Der Verifier validiert selbst weder GEO noch Quellen.
+  Beschreibungsabweichung. Read-only-Vergleich mit den aktuellen Dossiers ergibt,
+  dass alle fünf skalaren Abweichungen zum älteren 11.10.-Manifest passen:
+  Bochum Plus hat leere Straße, Volz die vorsichtigere aktuelle Beschreibung,
+  Kaminski & Sohn Auerbacher Straße 70A/08107 und Zauritz nur die gestützte PLZ
+  07557. Produktion stimmt in diesen Feldern mit dem derzeitigen Seed überein;
+  die alte Manifest-Erwartung ist dafür überholt. Die Timeline- und
+  Zeitstempelfindings bleiben Gate-Ergebnisse und sind kein GEO- oder Quellen-
+  Nachweis. Der Verifier validiert selbst weder GEO noch Quellen.
 
 ### Check-in-Health und Feedback
 

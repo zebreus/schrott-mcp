@@ -46,8 +46,11 @@ def verify(public, internal, since):
         row = public.execute("SELECT * FROM traders WHERE slug=?", (slug,)).fetchone()
         if row is None:
             failures.append(f"{slug}: missing trader")
-        elif any(row[field] != "" for field in fields) or not fresh(row["updated_at"]):
-            failures.append(f"{slug}: clear values or post-rollout seed evidence missing")
+        else:
+            if any(row[field] != "" for field in fields):
+                failures.append(f"{slug}: clear values not cleared")
+            if not fresh(row["updated_at"]):
+                failures.append(f"{slug}: post-rollout seed evidence missing")
     portal = public.execute("SELECT * FROM traders WHERE slug=?", (PORTAL,)).fetchone()
     if portal is None or not fresh(portal["updated_at"]):
         failures.append("Schrott24: missing post-rollout trader")
@@ -60,8 +63,13 @@ def verify(public, internal, since):
             if not empty:
                 failures.append(f"Schrott24: {field} is not an explicit empty object")
     gotha = public.execute("SELECT * FROM traders WHERE slug=?", (GOTHA,)).fetchone()
-    if gotha is None or not fresh(gotha["updated_at"]) or (gotha["street"], gotha["postcode"], gotha["city"]) != ("An der Ostbahn 4", "99867", "Gotha"):
-        failures.append("Gutzmann: branch address incorrect")
+    if gotha is None:
+        failures.append("Gutzmann: missing trader")
+    else:
+        if (gotha["street"], gotha["postcode"], gotha["city"]) != ("An der Ostbahn 4", "99867", "Gotha"):
+            failures.append("Gutzmann: branch address incorrect")
+        if not fresh(gotha["updated_at"]):
+            failures.append("Gutzmann: post-rollout seed evidence missing")
 
     for slug, count in ((GOTHA, 19), (MSG, 124)):
         step = internal.execute(
