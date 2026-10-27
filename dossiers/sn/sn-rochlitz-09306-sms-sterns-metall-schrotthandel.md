@@ -1,5 +1,6 @@
 ---
 slug: sn-rochlitz-09306-sms-sterns-metall-schrotthandel
+clear_fields: geo
 name: SMS Sterns Metall & Schrotthandel
 trader_type: schrotthaendler
 state: SN
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Der read-only Produktionspunkt `51.0501/12.7975` reverse-geokodiert per Nominatim auf das Pflegeheim Rochlitz, Mathesiusstraße 3, nicht auf die im Datensatz genannte Schützenstraße 6; der Punkt liegt rund 814 m von der Adresssuche für Schützenstraße 6 entfernt. Diese Suche findet ein Gebäude bei `51.0476634/12.8084764`, aber keinen bestätigten SMS-Eingang. Die DB-Recycling-Seite enthält außerdem `51.0500000/12.8000000` im Stadt-Infoblock, nicht als präzisen Standortpunkt; auch dieser Wert wird nicht übernommen. SMS Sterns und DB Recycling von Denis Blum führen dieselbe Anschrift/Telefonnummern und Steuerkennungen; die zwei Websites sind keine unabhängigen Belege für zwei getrennte Annahmestellen. Das SMS-Impressum ist ein direkter Einzelbeleg für die Betreiberanschrift, aber kein unabhängiger zweiter Standortnachweis nach README-Quellenhierarchie; Firmen-/Standortstatus bleibt davon unberührt. `clear_fields: geo` entfernt den nachweislich abweichenden Produktionspunkt beim regulären Seed. Kein Ersatzpunkt, kein Merge und keine Produktionsänderung. Quellen: read-only `public.db` (27.10.2026); https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.0501&lon=12.7975&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Sch%C3%BCtzenstra%C3%9Fe%206%2C%2009306%20Rochlitz&format=jsonv2&addressdetails=1 ; https://www.sms-rochlitz.de/pages/kontakt/impressum.php ; https://www.dein-schrottplatz.de/pages/db-recycling/schrottplatz-in-rochlitz.php ; README.md, Quellenhierarchie; `docs/trader-seed.md`.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

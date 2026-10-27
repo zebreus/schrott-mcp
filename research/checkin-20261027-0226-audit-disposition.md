@@ -322,3 +322,94 @@ unterbleiben.
   Fenster liegen vor dem Rollout; danach keine. Keine neuere
   `/tmp/opencode/*.log`-Geocoding-Datei, kein direkter Produktions-DB-Write und
   kein Force-Ingest.
+
+## Read-only-Nachlauf 27.10.2026 04:19 UTC
+
+- `main` stand bei `71d561aac044bd5794b47954c5d34cdb9556e7fd`, identisch mit
+  `origin/main`; der geschützte GitHub-Credential-Helper-Dry-Run war erfolgreich.
+  Der Dienst ist aktiv, `/health` liefert HTTP 200. Read-only: Schema v9,
+  3.936 Händler, 83 Materialien, 2.659 aktuelle Preiszeiger. Feedback endet bei
+  ID 7390 vom 13.10.; kein neuerer Eintrag.
+- Der letzte Scheduler-Lauf #2875 (04:14:05–04:14:13 UTC) war `partial` mit
+  202 Preisen und zwei erwarteten Handlerfehlern: A-Z Münster verwarf die
+  verdächtige Preisleiter ohne Veröffentlichung; AMR antwortete HTTP 502. Der
+  normale MSG-Schritt #14281 lief innerhalb von #2875 erfolgreich (124 Preise).
+  `journalctl -p warning` ist leer; im App-JSON gibt es sieben WARNs im
+  Sechs-Stunden-Fenster, darunter die beiden Fehler aus #2875. Seit 25.10. liegt
+  keine neuere Geocoding-Logdatei unter `/tmp/opencode/*.log`.
+- Die drei read-only Post-Rollout-Verifier bleiben rot, jeweils mit Grenze
+  `2026-10-27T02:43:15Z`: MKM hat 60 Artikel (55 numerische/5 Anfragen) und
+  keinen geprüften 56-Preis-Step; Pending Corrections hat 124 verwaltete
+  MSG-Quotes, aber vier fehlende Post-Rollout-Seed-Zeitnachweise (Gutzmann und
+  drei Clear-Zeilen) sowie keinen erfolgreichen Gutzmann-Step; Wave E prüft
+  60/60 mit 75 Findings (50 Timeline-Hashes, 20 Zeitstempel, fünf skalare
+  Abweichungen zum explizit auf den Seed-Stand vom 11.10. bezogenen Manifest).
+  Der MSG-Schritt ist nun natürlich erfolgt, beseitigt aber nicht die übrigen
+  Gates. Kein Handler wurde manuell gestartet.
+- Produktion enthält weiterhin Wismars Punkt `53.8895333/11.4386667` trotz
+  Dossieradresse Tonnenhofstr. 12/23970 sowie Bochum Plus’ Punkt
+  `51.4740889/7.2192389` ohne belegten festen Standort. Beide `clear_fields:
+  geo`-Korrekturen sind im gepushten Seed, aber nicht ausgerollt. Rochlitz führt
+  in Produktion nach normalem Lauf #2873 erneut Straße/PLZ Schützenstr. 6/09306
+  und Punkt `51.0476634/12.8084764`; der Punkt identifiziert das Gebäude, nicht
+  unabhängig DB Recycling als dortige Annahmestelle. Commit `71d561aa` zieht
+  auch diesen ungestützten Geo-Punkt per regulärem Seed zurück; der Handler
+  veröffentlicht aus seinem alleinigen Impressum keine Anschrift mehr. Keine
+  direkte Produktionsänderung.
+- Der private WAL-sichere Upgrade-/Seed-Rehearsal für exakt `71d561aa` bestand;
+  die Binaries hatten SHA-256 `0f06c4dd53fde9bca4cceb82a12806232606676c8087e4af4029ca2562c68dc4`
+  (Server) und
+  `8fc6429aeb55c4f83b2616d2fd3eb226118abcd8833d231658bd0289110ac67e`
+  (Query-Worker). Workspace: 779 bestanden, 11 ignoriert; `cargo fmt --all --
+  --check` und Build-Seed-Tests 10/10 bestanden. Das ist private Kandidaten-
+  Evidenz, kein Produktionsnachweis. Die unabhängigen GEO-Reviews laufen noch;
+  außerdem bleiben die Post-Rollout-Verifier rot. Daher kein Deployment und
+  keine weiteren Produktionsänderungen.
+
+## Owner-Disposition unabhängiger GEO-Reviews 27.10.2026 04:30 UTC
+
+- Das unabhängige Review zu Wismar und Bochum Plus bestätigt die zwei klar
+  falschen Punkte. Für beide bleibt `clear_fields: geo` ohne Ersatzpunkt richtig;
+  weder Schließung noch Merge wird abgeleitet. Das Wismar-Review fand zugleich
+  ein direkt geprüftes ALBA-CCF-Zertifikat vom 29.11.2024, das für 2023 ALBA
+  Metall Nord und ALBA Nord getrennt an Tonnenhofstraße 12 listet. Das widerlegt
+  eine zu einfache Namenszuordnung, beweist aber keine aktuelle separate
+  Annahmestelle. Die beiden Wismar-Dossiers bleiben getrennt; die Dossier-
+  Timeline hält diese Gegen-Evidenz nun fest.
+- Für DB Recycling ist die Betreiber-Website stärker als zuvor formuliert:
+  sie nennt Schützenstraße 6 ausdrücklich „Schrottplatz 09306 Rochlitz“ und
+  unterstützt somit die Betreiberbehauptung, nicht aber eine unabhängige
+  Bestätigung der konkreten Annahmestelle. Die Koordinate `51.0476634/12.8084764`
+  reverse-geokodiert tatsächlich auf das Gebäude Schützenstraße 6; sie ist
+  daher nicht als Gebäude-Punkt falsch, aber ihre Zuordnung zu diesem
+  Einzelunternehmen bleibt nach README-Quellenhierarchie ein Einzelbeleg.
+  SMS Sterns und DB Recycling teilen Denis Blum, Anschrift, Telefon/Fax/Mobil
+  und Steuerkennungen; die Websites zählen nicht als unabhängige zweite Quelle.
+  Keine Koordinate wird zwischen den Dossiers übertragen.
+- Zusätzlich ist SMS Sterns’ gespeicherter Punkt `51.0501/12.7975` eindeutig
+  fehlplatziert: Nominatim reverse-geokodiert auf Pflegeheim Rochlitz,
+  Mathesiusstraße 3; die Suche nach Schützenstraße 6 findet ein anderes
+  Gebäude bei `51.0476634/12.8084764` (rund 814 m entfernt). Dieser Geocoder-
+  Punkt belegt keine SMS-Annahmestelle; auch die Betreiberseite von DB Recycling
+  publiziert `51.0500000/12.8000000` nur im Stadt-Infoblock, nicht als Eingang.
+  `dossiers/sn/sn-rochlitz-09306-sms-sterns-metall-schrotthandel.md` enthält
+  jetzt `clear_fields: geo`, ohne geratenen Ersatz, Merge oder Statusänderung.
+- Der reguläre Lauf #2876 endete um 04:29:15 UTC `ok` mit 85 Preisen und null
+  Händlerfehlern. Feedback endet weiterhin bei ID 7390; Dienst aktiv,
+  `/health` HTTP 200, Schema v9 und Bestand 3.936/83/2.659. Die drei
+  Post-Rollout-Verifier bleiben nach erneuter read-only Prüfung rot: MKM 60
+  Artikel/55 numerische/5 Anfragen; Pending Corrections 124 MSG-Quotes, vier
+  fehlende Seed-Zeitnachweise und kein Gutzmann-Step; Wave E 75 Findings.
+  Der natürliche MSG-Step #14281 aus #2875 bleibt `ok` mit 124 Preisen.
+  `journalctl -p warning` ist leer; sieben App-WARNs im Sechs-Stunden-Fenster,
+  darunter A-Zs verworfene Preisleiter und AMRs HTTP 502 aus #2875.
+- Die geänderten Dossiers und die neue SMS-GEO-Rücknahme sind Arbeitskopie,
+  nicht Produktion. Auf diesem exakten Seedstand bestanden
+  `cargo test --workspace --locked` mit 779 Tests (11 ignoriert), die
+  fokussierten Seed-Tests 11/11, die Build-Seed-Tests 10/10,
+  `cargo fmt --all -- --check` und der Release-Build. Server-Binary SHA-256:
+  `11094416cd2df35791c1c3f2c6cb68825a1d5ad3654171940905170b2390b06d`;
+  Query-Worker unverändert `8fc6429aeb55c4f83b2616d2fd3eb226118abcd8833d231658bd0289110ac67e`.
+  Die private Upgrade-/Datenübergangsprobe für diesen erweiterten Stand und der
+  frische Push stehen noch aus. Keine direkte Produktionsänderung, kein
+  Force-Ingest und kein Deployment.

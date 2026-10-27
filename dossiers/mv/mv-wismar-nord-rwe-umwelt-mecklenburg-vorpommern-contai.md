@@ -29,9 +29,15 @@ HRB 558 und der aktuelle Betreiberauftritt belegen, dass dieser historische RWE-
 
 ALBA Metall Nord am selben Standort bleibt ein separat dokumentierter historischer Lead: Ein ALBA-Zertifikat für GJ2023 nennt laut Suchindex beide Gesellschaften getrennt an der Tonnenhofstraße 12; das PDF wurde nicht vollständig direkt geprüft. Die Schwesterakte [`mv-wismar-alba-metall-nord`](mv-wismar-alba-metall-nord.md) bleibt separat und wird nicht zusammengeführt. Daraus folgt weder eine aktuelle Koexistenz noch ein Schließungsurteil für ALBA Metall Nord. Kein vergüteter Metallankauf, Verkaufs- oder Gebührentarif ist für diese Betriebsstätte belegt. Keine GEO-Koordinate ergänzt.
 
+Owner-Nachtrag 27.10.2026: Das Zertifikat wurde inzwischen direkt gelesen. Es listet für den Erhebungszeitraum 2023 beide Gesellschaften getrennt an der Tonnenhofstraße 12; diese historische Adressnennung klärt weder eine aktuelle separate Annahmestelle noch eine Betreiberkette und wird nicht als Merge-Anweisung verwendet. Die aktuellen Dossiers bleiben getrennt.
+
 **Ankauf:** keine ausdrückliche Metallvergütung oder Ankaufskurse belegt. **Verkauf:** keine Materialverkaufspreise. **Gebühren:** ALBA Nord bietet Abfallannahme und Containerdienst mit individuellem Angebot; keine bezifferten Abfall-/Containergebühren. Nicht mit Metallankauf gleichsetzen. **GEO:** bestätigter Betriebsstandort Tonnenhofstraße 12, 23970 Wismar; keine Koordinate ergänzt.
 
 ## Timeline
+
+### Owner-Quellenkorrektur 27.10.2026: ALBA Metall Nord Gegen-Evidenz
+
+- [Owner-Quellenkorrektur 27.10.2026: Das ALBA-CCF-Zertifikat wurde direkt geprüft; es weist die Datenerhebung 01.01.–31.12.2023 und Ausstellung 29.11.2024 aus und führt im Anhang ALBA Metall Nord GmbH (Nr. 50) sowie ALBA Nord GmbH (Nr. 79) getrennt an Tonnenhofstraße 12. Das ist historische gemeinsame Adressnennung, kein Nachweis für aktuelle Koexistenz, Annahme oder Vergütung. Die aktuelle Nord-Seite bestätigt weiterhin die ALBA-Nord-Betriebsstätte; die Metall-Nord-Übersicht listet aktuell keinen Wismarer Standort. Beide Dossiers bleiben getrennt; weder Schließung noch Merge abgeleitet. Quelle: https://metall.alba.info/fileadmin/user_upload/ALBA_Metall_Nord/PDF/2024/Urkunde_Ver_CCF_ALBA_plc_und_Co._KG_GJ2023_final.pdf ; https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ ; https://metall.alba.info/unternehmen/standorte/.]
 
 ### Owner-Korrektur 26.10.2026
 
