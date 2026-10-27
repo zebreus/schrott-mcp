@@ -413,3 +413,30 @@ unterbleiben.
   Die private Upgrade-/Datenübergangsprobe für diesen erweiterten Stand und der
   frische Push stehen noch aus. Keine direkte Produktionsänderung, kein
   Force-Ingest und kein Deployment.
+
+## Private Release-Rehearsal für Commit 0b2d551e, 27.10.2026 04:35 UTC
+
+- `0b2d551e4b948a84040e002ff09eaa5558510be6` wurde nach erfolgreichem
+  Credential-Helper-Dry-Run regulär nach `origin/main` gepusht. Der exakte
+  Release-Build dieses Commits ist erfolgreich; SHA-256 Server:
+  `2d346daacf01fedcd0bde0161e46d5babe4566c6ff53ce57a7362c728a1060ff`,
+  Query-Worker:
+  `8fc6429aeb55c4f83b2616d2fd3eb226118abcd8833d231658bd0289110ac67e`.
+- Die Probe nutzte WAL-sichere SQLite-Backups über `mode=ro`-Produktionsquellen
+  und ausschließlich private Kopien unter
+  `/tmp/opencode/release-rehearsal-0b2d551e-20261027T043503Z/`. Vorher/nachher
+  blieben Schema v9, 3.936 Händler, 83 Materialien, 31.190 Preise, 2.659
+  aktuelle Preiszeiger und 1.402 Händler-Material-Zuordnungen gleich.
+  `integrity_check=ok`, 24 bereits vorhandene FK-Verletzungen unverändert,
+  kein Current-Zeiger ohne Preiszeile. Keine Händler eingefügt/gelöscht;
+  fünf bestehende Zeilen mit 20 strukturellen Änderungen; 15 gezielte
+  Korrektur-Assertions einschließlich SMS-Sterns-GEO-Clear; Query-Worker las
+  14 Zielzeilen.
+- Zwei private Serverstarts lieferten HTTP 200. Der erste Seed schrieb fünf
+  Zeilen, der zweite null; beide Prozesse endeten vor Schedulerstart. Keine
+  Produktionsdatenbank wurde beschrieben, kein Dienst neu gestartet und kein
+  Handler manuell ausgeführt.
+- Die Probe schließt die private technische Upgrade-/Seed-Prüfung für exakt
+  `0b2d551e` ab, ist aber kein Produktionsnachweis. Die nach dem vorherigen
+  Rollout weiterhin roten Post-Rollout-Verifier bleiben unverändert offen;
+  gemäß Check-in-Anleitung daher kein neuer Deployment-/Produktionsschritt.
