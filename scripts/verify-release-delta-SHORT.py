@@ -48,7 +48,7 @@ def load_manifest(path=None):
 def validate_manifest(manifest):
     required = {
         "version", "release_commit", "release_tree", "rehearsal_manifest_sha256",
-        "fields", "scope", "expectation_basis", "traders",
+        "fields", "scope", "scope_slugs", "expectation_basis", "traders",
     }
     if not isinstance(manifest, dict) or set(manifest) != required:
         raise ValueError("release delta expectation manifest has an invalid shape")
@@ -84,6 +84,10 @@ def validate_manifest(manifest):
         slugs.append(row["slug"])
     if len(set(slugs)) != len(slugs):
         raise ValueError("release expectation has duplicate trader slugs")
+    scope = manifest["scope_slugs"]
+    if (not isinstance(scope, list) or len(scope) != len(slugs)
+            or set(scope) != set(slugs)):
+        raise ValueError("release expectation scope does not match its trader rows")
     return rows
 
 

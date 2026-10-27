@@ -49,6 +49,7 @@ class ReleaseDeltaManifestTests(unittest.TestCase):
             lambda m: m["traders"].pop(),
             lambda m: m["traders"].append(copy.deepcopy(m["traders"][0])),
             lambda m: m["traders"][0].update(slug="unrelated"),
+            lambda m: m.update(scope_slugs=m["scope_slugs"][:-1]),
             lambda m: m["traders"][0]["values"].pop("street"),
             lambda m: m["traders"][0].update(notes_sha256="invalid"),
             lambda m: m["traders"][0].update(seed_hash="invalid"),
@@ -75,7 +76,11 @@ class ReleaseDeltaStateTests(unittest.TestCase):
         self.fixture_notes = {}
         columns = ["slug", *VERIFIER.FIELDS, "notes", "extra_json", "lat", "lon",
                    "dropoff_json", "pickup_json", "certifications"]
-        self.db.execute("CREATE TABLE traders (" + ",".join(f"{c} TEXT" for c in columns) + ")")
+        types = ["TEXT" for _ in columns]
+        types[columns.index("lat")] = "REAL"
+        types[columns.index("lon")] = "REAL"
+        self.db.execute("CREATE TABLE traders (" + ",".join(
+            f"{c} {t}" for c, t in zip(columns, types)) + ")")
         for expected in self.expected:
             notes = "fixture Timeline for " + expected["slug"]
             self.fixture_notes[expected["slug"]] = notes

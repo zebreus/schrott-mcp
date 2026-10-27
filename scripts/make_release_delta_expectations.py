@@ -64,6 +64,7 @@ def main() -> int:
         "release_tree": args.tree,
         "rehearsal_manifest_sha256": hashlib.sha256(args.probe_manifest.read_bytes()).hexdigest(),
         "fields": list(FIELDS),
+        "scope_slugs": sorted(changed),
         "scope": (
             f"exactly the {len(rows)} trader rows this release changes, taken from the "
             "effective delta of the private post-seed rehearsal"),
