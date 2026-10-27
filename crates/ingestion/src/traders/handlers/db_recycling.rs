@@ -57,7 +57,7 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
     // page means the site changed and needs eyeballs before we trust
     // anything from it again.
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
-    let trader_info = extract_info(&imp_html)?;
+    let trader_info = curated_contact_info(&imp_html)?;
     Ok(HandlerOutcome {
         skip_price_acceptances: false,
         prices,
@@ -286,6 +286,17 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     })
 }
 
+/// The current address is a single-source sole-proprietor lead, not a
+/// sufficiently verified trader location. Keep parsing it to validate the
+/// Impressum shape, but only publish its contact channels from this handler.
+fn curated_contact_info(imp: &str) -> Result<TraderInfo, IngestError> {
+    let mut info = extract_info(imp)?;
+    info.street.clear();
+    info.postcode.clear();
+    info.city.clear();
+    Ok(info)
+}
+
 fn after_marker<'a>(text: &'a str, marker: &str) -> &'a str {
     text.find(marker)
         .map(|i| &text[i + marker.len()..])
@@ -457,7 +468,7 @@ fn unit_of(cell: &str) -> Option<&'static str> {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info, grade_for, parse};
+    use super::{curated_contact_info, extract_info, grade_for, parse};
 
     // Real table shape, condensed: BOM in the header cell, section
     // subheads, the combined Hartmetall cell, Annahmestopp/Netto rows,
@@ -604,5 +615,20 @@ mod tests {
         assert_eq!(info.phone, "(0 37 37) 7 86 43 15");
         assert_eq!(info.email, "info@dein-schrottplatz.de");
         assert!(extract_info("<html><body><p>Neu hier</p></body></html>").is_err());
+    }
+
+    #[test]
+    fn impressum_projection_withholds_single_source_location() {
+        let imp = "<h3>DB Recycling</h3><address><strong>Inhaber:</strong> Denis Blum<br />\
+            Schützenstr. 6<br />09306 Rochlitz</address>\
+            <p><strong>Telefon:</strong> (0 37 37) 7 86 43 15<br />\
+            <strong>Mobil: </strong>(0162) 8938850</p>\
+            <p><strong>E-Mail: </strong>  info@dein-schrottplatz.de</p>";
+        let info = curated_contact_info(imp).expect("valid contact page");
+        assert!(info.street.is_empty());
+        assert!(info.postcode.is_empty());
+        assert!(info.city.is_empty());
+        assert_eq!(info.phone, "(0 37 37) 7 86 43 15");
+        assert_eq!(info.email, "info@dein-schrottplatz.de");
     }
 }
