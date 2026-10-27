@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only Wave E state check pinned to the deployed 8411e5e release.
+"""Read-only Wave E state check pinned to the released 68316ca release.
 
 This supplements, but does not alter, the historical 2026-10-11 verifier and
 manifest. It checks 60 rows' 11 explicit scalar values, full Timeline hashes,
