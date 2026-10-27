@@ -25,7 +25,7 @@ Preis, Einheit und Datum.
 | scholz-recycling.com | 33 | `/de/preise/`, `/de/metallpreise/`, `/de/preisliste/` liefern **HTTP 500**; die Sitemap (`/sitemap.xml`, 20 URLs) enthält **keine Preisseite** |
 | metall.alba.info | 21 | `/ankauf/sorten/` listet nur „Diese Schrotte können Sie bei uns abgeben“, **kein** €, kein EUR, keine Preistabelle |
 | tsr-recycling.de | 16 | jede URL liefert eine 1.873-Byte-„Challenge Validation“-Seite (JavaScript-Bot-Challenge) |
-| proaurum.de, schrott24.de, steil.de, isr-recycling.de, ziems-recycling.de, jakob-becker.de, kunze-group.de, riwald.de, goetz-neu-ulm.de, rmr-recycling.de | 5–10 je Gruppe | an den üblichen Pfaden (`/preise/`, `/metallpreise/`, `/tagespreise/`, `/ankauf/preise/`, `/preise/metall/`, `/schrottpreise/`, `/aktuelle-preise/`, `/de/preise/`) **keine erreichbare Preisseite mit Preisangaben**; `schrott24.de/preise/` ist ein Blog über LME-Kursbewegungen, keine Preisliste |
+| proaurum.de, schrott24.de, steil.de, isr-recycling.de, ziems-recycling.de, jakob-becker.de, kunze-group.de, riwald.de, goetz-neu-ulm.de, rmr-recycling.de | 5-10 je Gruppe | an den üblichen Pfaden (`/preise/`, `/metallpreise/`, `/tagespreise/`, `/ankauf/preise/`, `/preise/metall/`, `/schrottpreise/`, `/aktuelle-preise/`, `/de/preise/`) **keine erreichbare Preisseite mit Preisangaben**; `schrott24.de/preise/` ist ein Blog über LME-Kursbewegungen, keine Preisliste |
 | mcschrott.de | 1 | Homepage nennt neunmal €/kg, **einziger** Treffer der Stichprobe |
 
 Von 22 geprüften Domains zeigte **eine** erkennbare €/kg-Angaben. Das Verhältnis ist damit
@@ -49,7 +49,7 @@ oder telefonische Abfragen, nicht über öffentliche Seiten.
 
 ## Empfohlene Reihenfolge
 
-1. Screening der Domains mit 2–4 Händlern (der 1.365er-Gruppe) auf eine erreichbare
+1. Screening der Domains mit 2-4 Händlern (der 1.365er-Gruppe) auf eine erreichbare
    Preisseite; Ergebnis als Liste der **eligible** Domains dokumentieren.
 2. Für die ersten Treffer je Handler: Fixture-Test, Live-Prüfung mit
    `cargo run -p schrott-mcp-ingestion --example live_handlers <slug>`, dann Registrierung.
