@@ -10,7 +10,7 @@ hat **eine** dieser 60 Zeilen verbessert:
 `he-nidderau-ab-recycling-bjoern-asal` (Shard A der 18:00-Welle)
 
 Der Wave-E-Pin (Basis `scripts/wave-e-6b3da663-seed-expectations.json`, Werte-Stand
-11.10.2026)expects für diese Zeile `street: ""` und `postcode: ""` — der Owner-Review vom
+11.10.2026)expects für diese Zeile `street: ""` und `postcode: ""` - der Owner-Review vom
 11.10.2026 hatte die Anschrift damals **nicht** als belegt bewertet und die Felder deshalb
 leer gelassen.
 
@@ -25,7 +25,7 @@ leer gelassen.
 | `opening_hours` | Mo-Fr 08:00-18:00 | Betreiber-Kontaktseite („Mo-FR von 8.00-18.00 uhr“) |
 | `description` | erweitert | Betreiber-Leistungsseite (Ankauf Schrott/NE-Metall/Kabel, Verwertung von Altfahrzeugen mit Nachweis, keine Gebrauchtteile, Container 3–40 m³, Entsorgung/Containerstellung/Transporte ohne bezifferte Tarife) |
 
-**Unverändert bleiben:** `name` („A-B-Recycling (Björn Asal)“), `status` (`pruefung` — das
+**Unverändert bleiben:** `name` („A-B-Recycling (Björn Asal)“), `status` (`pruefung` - das
 Impressum nennt keine Rechtsform und keine Registernummer, ein amtlicher Betriebsbeleg fehlt),
 `trader_type` (`schrotthaendler`), `website` und `website_status`. Der Wave-E-Pin hatte den
 Status bereits auf `pruefung`; die Status-Rücknahme ist **nicht** Teil dieser Revision.
@@ -39,10 +39,23 @@ Die neuen Werte sind **besser belegt** als der Pin-Stand vom 11.10.2026 (Betreib
 plus unabhängiger Verzeichnisbeleg gegen einen Beleg aus einer früheren Recherche ohne
 Betreiber-Primärquelle). Der Pin wird deshalb **revidiert**, nicht umgangen: Die Revision ist
 als neue Basisdatei `scripts/wave-e-20261027-expectations.json` abgelegt (Kopie der
-6b3da663-Basis mit genau **einer** geänderten Zeile), der `dossier_revision` zeigt auf den
-Welle-Commit `e6934c81`, und die Datei trägt einen `revision`-Block mit diesem Nachweis. Der
-release-pinned Verifier des Releases `e6934c8` wird aus dieser revidierten Basis erzeugt; alle
-übrigen 59 Wave-E-Zeilen bleiben **byte-identisch** zur bisherigen Basis.
+6b3da663-Basis), der `dossier_revision` zeigt auf den Welle-Commit `e6934c81`, und die Datei
+trägt einen `revision`-Block mit diesem Nachweis. Der release-pinned Verifier des Releases
+`e6934c8` wird aus dieser revidierten Basis erzeugt.
+
+Der Byte-Vergleich der Basis mit `scripts/wave-e-6b3da663-seed-expectations.json` ergibt:
+
+- **52** Zeilen sind **byte-identisch**.
+- **7** Zeilen unterscheiden sich **nur** in `notes_sha256` und `seed_hash`
+  (`he-eschborn-65760-pfaff-alexander`, `he-wetzlar-jori-recycling-schrott-wetzlar`,
+  `nw-bochum-wattenscheid-schrotthandler-plus`, `nw-essen-cbr-bracke`, `nw-essen-kollner`,
+  `nw-essen-schuttler`, `nw-gummersbach-mar-schrottabholung`): Diese Hashes werden je Release
+  neu gepinnt, weil die Welle den Timeline dieser Zeilen ergänzt hat. Sie sind auf den
+  Post-Seed-Stand des Releases `e6934c8` gehoben, damit die Basis **für sich allein** ein
+  gültiges Manifest ist (die erste Fassung der Revisionsbasis trug hier noch die alten
+  Hashes und war damit als Nachweis unbrauchbar; das ist korrigiert).
+- **1** Zeile (`he-nidderau-ab-recycling-bjoern-asal`) unterscheidet sich zusätzlich in den
+  sechs oben genannten Werten.
 
 Die Revision ist **kein** Freibrief: Jede weitere Änderung an den Wave-E-Zeilen bleibt rot und
 verlangt wiederum eine ausdrückliche Owner-Revision mit Belegnachweis.

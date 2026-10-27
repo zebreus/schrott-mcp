@@ -1,7 +1,7 @@
 {
   "captured_utc": "2026-10-27T19:40:00+00:00",
-  "scope": "Shard-B-Dossiers (NW, BY, ST, SH) — GEO-Nachweise und Rücknahmen",
-  "source": "Nominatim (OpenStreetMap) und Photon/Komoot — öffentliche Geokodierdienste, nur Les-Abfragen",
+  "scope": "Shard-B-Dossiers (NW, BY, ST, SH) - GEO-Nachweise und Rücknahmen",
+  "source": "Nominatim (OpenStreetMap) und Photon/Komoot - öffentliche Geokodierdienste, nur Les-Abfragen",
   "license": "© OpenStreetMap contributors, ODbL 1.0",
   "notes": [
     "Gesetzt wurden nur Punkte, deren belegte Adresse durch mindestens zwei unabhängige Quellen getragen wird.",
@@ -22,7 +22,7 @@
       "osm_object": "building 303120014",
       "geocoders_agree": "0 m Abweichung (Nominatim und Photon identisch)",
       "old_production_point": "51.6992941176471 / 8.03888235294118",
-      "old_point_resolves_to": "Frölichweg, Lippetal, 59510 (Kreis Soest) — rund 38 km Luftlinie entfernt, anderer Kreis",
+      "old_point_resolves_to": "Frölichweg, Lippetal, 59510 (Kreis Soest) - rund 38 km Luftlinie entfernt, anderer Kreis",
       "reverse_url_old": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=51.6992941176471&lon=8.03888235294118&addressdetails=1"
     },
     "nw-paderborn-peitzmann": {
@@ -39,7 +39,7 @@
       "osm_object": "building 261914393 (name=PreZero Metall)",
       "geocoders_agree": "0 m Abweichung (Nominatim und Photon identisch)",
       "old_production_point": "51.72956 / 8.73724",
-      "old_point_resolves_to": "b.i.b.-Wohnheim, 3-5, Fürstenallee, 33102 Paderborn-Schloß Neuhaus — rund 3,3 km Luftlinie entfernt",
+      "old_point_resolves_to": "b.i.b.-Wohnheim, 3-5, Fürstenallee, 33102 Paderborn-Schloß Neuhaus - rund 3,3 km Luftlinie entfernt",
       "reverse_url_old": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=51.72956&lon=8.73724&addressdetails=1"
     },
     "sh-gettorf-auto-center-nemitz": {
@@ -52,18 +52,18 @@
       "lon": 9.9769499,
       "nominatim_url": "https://nominatim.openstreetmap.org/search?format=jsonv2&q=Auto+Center+Nemitz%2C+Gettorf&addressdetails=1",
       "osm_object": "54.4158958 / 9.9769499, Objekt „Auto Center Nemitz, 21, Ravensberg, Gettorf“ (OSM-Name des Betriebs)",
-      "geocoders_agree": "Verzeichnis-Geokoordinate 54.415896 / 9.97695 — Abweichung unter 1 m",
+      "geocoders_agree": "Verzeichnis-Geokoordinate 54.415896 / 9.97695 - Abweichung unter 1 m",
       "old_production_point": "54.4 / 9.9833",
-      "old_point_resolves_to": "8, Erlengrund, 24214 Gettorf — rund 1,8 km Luftlinie entfernt",
+      "old_point_resolves_to": "8, Erlengrund, 24214 Gettorf - rund 1,8 km Luftlinie entfernt",
       "reverse_url_old": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=54.4&lon=9.9833&addressdetails=1"
     }
   },
   "coordinates_documented_not_set": {
     "by-knetzgau-kempf": {
-      "note": "Zwei Quellen für den Ankaufplatz (nicht der Bürositz) — Übernahme in die Zeile nur nach Owner-Entscheidung, welche Adresse die Zeile abbildet.",
+      "note": "Zwei Quellen für den Ankaufplatz (nicht der Bürositz) - Übernahme in die Zeile nur nach Owner-Entscheidung, welche Adresse die Zeile abbildet.",
       "operator_map_pin": "50.092976 / 10.474560 (Google-Maps-Link der Betreiberseite „Metallankauf“, Mühlweg 3, 97519 Riedbach/Mechenried)",
       "nominatim_address_point": "50.0930591 / 10.4742410",
-      "deviation": "rund 25 m — beide bezeichnen denselben Adresspunkt des Ankaufplatzes"
+      "deviation": "rund 25 m - beide bezeichnen denselben Adresspunkt des Ankaufplatzes"
     }
   },
   "coordinates_cleared": {
@@ -72,25 +72,25 @@
       "old_point_resolves_to": "Hauptparkplatz BBG, Am Fuchsberg, 39175 Königsborn (Biederitz)",
       "row_address": "Gartenstr. 1, 39175 Gerwisch",
       "deviation": "rund 4,2 km Luftlinie, anderer Ortsteil",
-      "reason": "clear_fields: 'geo' — die Zeile trägt eine eigene Ortsangabe, die dem gespeicherten Punkt widerspricht; Ersatzpunkt nicht gesetzt, da die Hausnummer nur durch einen Aggregator-Lead belegt ist"
+      "reason": "clear_fields: 'geo' - die Zeile trägt eine eigene Ortsangabe, die dem gespeicherten Punkt widerspricht; Ersatzpunkt nicht gesetzt, da die Hausnummer nur durch einen Aggregator-Lead belegt ist"
     },
     "st-kothen-ot-elsdorf-schwind-marko-schrotthandel": {
       "old_production_point": "51.7519 / 11.9709",
       "old_point_resolves_to": "Wallstraße 58/59, 06366 Köthen (Anhalt)",
       "row_address": "Ringstr. 4, Köthen OT Elsdorf (06369)",
       "deviation": "rund 3,4 km Luftlinie, anderer Ortsteil",
-      "reason": "clear_fields: 'geo' — die Zeile trägt eine eigene Ortsangabe, die dem gespeicherten Punkt widerspricht; Ersatzpunkt nicht gesetzt, da die Hausnummer nur über Aggregator-Leads belegt ist",
+      "reason": "clear_fields: 'geo' - die Zeile trägt eine eigene Ortsangabe, die dem gespeicherten Punkt widerspricht; Ersatzpunkt nicht gesetzt, da die Hausnummer nur über Aggregator-Leads belegt ist",
       "reference_address_point": "51.7824130 / 11.9778684 (OSM-Hauspunkt Ringstraße 4, 06369 Elsdorf)"
     }
   },
   "open_coordinate_items": [
-    "nw-nettetal-alteisen-hoss: gespeicherter Punkt 51.3246/6.2329 löst auf „Am Wittsee 21, Leuth“; der einzige Adresslead (Kindt 126, Schaag) liegt rund 5,9 km entfernt — Punkteingrenzung offen.",
-    "nw-bottrop-d-c: gespeicherter Punkt 51.53954/6.92652 löst auf „Mozartstraße 24, Bottrop-Eigen“; der Verzeichnis-Lead (Wilhelm-Tenhagen-Str. 2) liegt rund 3,6 km entfernt — Punkteingrenzung offen.",
+    "nw-nettetal-alteisen-hoss: gespeicherter Punkt 51.3246/6.2329 löst auf „Am Wittsee 21, Leuth“; der einzige Adresslead (Kindt 126, Schaag) liegt rund 5,9 km entfernt - Punkteingrenzung offen.",
+    "nw-bottrop-d-c: gespeicherter Punkt 51.53954/6.92652 löst auf „Mozartstraße 24, Bottrop-Eigen“; der Verzeichnis-Lead (Wilhelm-Tenhagen-Str. 2) liegt rund 3,6 km entfernt - Punkteingrenzung offen.",
     "nw-paderborn-peitzmann: GEO auf den belegten PreZero-Standort gesetzt; Umbenennung der Zeile in „PreZero Metall GmbH“ bleibt Owner-Entscheidung.",
     "st-dessau-rolau-horst-habermann-transport-und-altmetallh: Straße/PLZ aus dem amtlichen Register gefüllt; für die Hausnummer Taubenstraße 37 liefert OSM keinen Adresspunkt, daher bleibt `clear_fields: 'geo'` bestehen.",
     "st-landsberg-b-b-brandt: gespeicherter Punkt 51.5275/12.1014 löst auf „B 100, Hohenthurm“; die Kandidatenadressen Gützer Str. 15 und Piltitzer Str. 5 liegen rund 3,2 km entfernt.",
     "st-sulzetal-werner: gespeicherter Punkt 52.0167/11.55 löst auf „Steinbruch, Sülldorf“; der Verzeichnis-Lead (Unseburger Chaussee 20, Altenweddingen) liegt rund 3,3 km entfernt.",
     "sh-hanerau-hademarschen-andreas-stormann: gespeicherter Punkt 54.1333/9.4167 löst auf „Tanneck 24, Heisern“; der Verzeichnis-Lead (Olden-Hop 12) liegt rund 1,8 km entfernt.",
-    "by-peienberg-schrotthandel-geiger: gespeicherter Punkt 47.8047/11.0699 löst auf „Leitenweg, Thalacker“ und liegt rund 0,2 km von „Bachstraße 9“ (11880-Schrotthandel-Leads), rund 2,7 km vom Forster-Str.-Lead — Identität vor Geokodierung klären."
+    "by-peienberg-schrotthandel-geiger: gespeicherter Punkt 47.8047/11.0699 löst auf „Leitenweg, Thalacker“ und liegt rund 0,2 km von „Bachstraße 9“ (11880-Schrotthandel-Leads), rund 2,7 km vom Forster-Str.-Lead - Identität vor Geokodierung klären."
   ]
 }

@@ -80,146 +80,184 @@ pub const SLUG_RECKAHN: &str = "bb-kloster-lehnin-ot-reckahn-mc-schrott-annahmes
 pub const SLUG_PLOTZIN: &str = "bb-werder-ot-plotzin-mc-schrott-annahmestelle";
 pub const SLUG_ROSTOCK: &str = "mv-rostock-mc-schrott-rostock";
 
-/// Standortschlüssel (wie im `data-only`-Attribut und in den URLs der Seite),
-/// Slug, eigene Kontaktseite und ob der eigene Rostock-Preissatz gilt.
-type Site = (&'static str, &'static str, &'static str, bool);
+/// Standortschlüssel der Betreiberseite. Die Schlüssel stehen so in den URLs
+/// (`/standorte/<key>/`), im `data-only`-Attribut und in `data-location` der
+/// Preisseite; „plotzin“ oder „reckahn“ sind **keine** gültigen Schlüssel
+/// (HTTP 404). Der Typ verhindert, dass ein Aufrufstelle einen freien String
+/// mit einem falschen Schlüssel versieht — genau dieser Fehler ist am
+/// 27.10.2026 im Produktivbetrieb mit „unbekannter Standortschlüssel plotzin“
+/// aufgefallen (Handler `scrape_plotzin`).
+#[derive(Clone, Copy, PartialEq, Eq, Debug)]
+enum SiteKey {
+    Brandenburg,
+    Rathenow,
+    Nauen,
+    Reckahn,
+    WerderPloetzin,
+    Rostock,
+}
+
+impl SiteKey {
+    /// Der Schlüssel genau so, wie er in der URL der Seite steht.
+    const fn key(self) -> &'static str {
+        match self {
+            Self::Brandenburg => "brandenburg",
+            Self::Rathenow => "rathenow",
+            Self::Nauen => "nauen",
+            Self::Reckahn => "kloster-lehnin-reckahn",
+            Self::WerderPloetzin => "werder-ploetzin",
+            Self::Rostock => "rostock",
+        }
+    }
+}
+
+/// Standortschlüssel, Slug, eigene Kontaktseite und ob der eigene
+/// Rostock-Preissatz gilt.
+struct Site {
+    key: SiteKey,
+    slug: &'static str,
+    url: &'static str,
+    rostock: bool,
+}
+
+const fn site(key: SiteKey, slug: &'static str, url: &'static str, rostock: bool) -> Site {
+    Site {
+        key,
+        slug,
+        url,
+        rostock,
+    }
+}
 
 const SITES: &[Site] = &[
-    (
-        "brandenburg",
+    site(
+        SiteKey::Brandenburg,
         SLUG,
         "https://www.mcschrott.de/standorte/brandenburg/",
         false,
     ),
-    (
-        "rathenow",
+    site(
+        SiteKey::Rathenow,
         SLUG_RATHENOW,
         "https://www.mcschrott.de/standorte/rathenow/",
         false,
     ),
-    (
-        "nauen",
+    site(
+        SiteKey::Nauen,
         SLUG_NAUEN,
         "https://www.mcschrott.de/standorte/nauen/",
         false,
     ),
-    (
-        "kloster-lehnin-reckahn",
+    site(
+        SiteKey::Reckahn,
         SLUG_RECKAHN,
         "https://www.mcschrott.de/standorte/kloster-lehnin-reckahn/",
         false,
     ),
-    (
-        "werder-ploetzin",
+    site(
+        SiteKey::WerderPloetzin,
         SLUG_PLOTZIN,
         "https://www.mcschrott.de/standorte/werder-ploetzin/",
         false,
     ),
-    (
-        "rostock",
+    site(
+        SiteKey::Rostock,
         SLUG_ROSTOCK,
         "https://www.mcschrott.de/standorte/rostock/",
         true,
     ),
 ];
+
+/// Der Standorteintrag zu einem Schlüssel.
+fn site_of(key: SiteKey) -> Option<&'static Site> {
+    SITES.iter().find(|site| site.key == key)
+}
 pub const URL: &str = "https://www.mcschrott.de/preise/";
 
-pub fn handler() -> Handler {
-    Handler {
-        slug: SLUG,
-        url: URL,
-        schedule: Schedule::every_6h(),
-        scrape: |c| Box::pin(scrape_brandenburg(c)),
-    }
+/// Ein Handler je Annahmestelle. **Schlüssel und Slug stehen in einem
+/// Aufruf** — sie können deshalb nicht auseinanderlaufen. Das ist genau der
+/// Fehler, der am 27.10.2026 im Produktivbetrieb auffiel: `scrape_plotzin`
+/// übergab „plotzin“, während die Seite nur „werder-ploetzin“ kennt
+/// (HTTP 404) — der Handler scheiterte mit „unbekannter Standortschlüssel
+/// plotzin“.
+macro_rules! mc_site {
+    ($handler:ident, $scrape:ident, $key:expr, $slug:expr) => {
+        pub fn $handler() -> Handler {
+            Handler {
+                slug: $slug,
+                url: URL,
+                schedule: Schedule::every_6h(),
+                scrape: |c| Box::pin($scrape(c)),
+            }
+        }
+
+        async fn $scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+            scrape(client, $slug, $key).await
+        }
+    };
 }
 
-pub fn handler_rathenow() -> Handler {
-    Handler {
-        slug: SLUG_RATHENOW,
-        url: URL,
-        schedule: Schedule::every_6h(),
-        scrape: |c| Box::pin(scrape_rathenow(c)),
-    }
-}
+mc_site!(handler, scrape_brandenburg, SiteKey::Brandenburg, SLUG);
+mc_site!(
+    handler_rathenow,
+    scrape_rathenow,
+    SiteKey::Rathenow,
+    SLUG_RATHENOW
+);
+mc_site!(handler_nauen, scrape_nauen, SiteKey::Nauen, SLUG_NAUEN);
+mc_site!(
+    handler_reckahn,
+    scrape_reckahn,
+    SiteKey::Reckahn,
+    SLUG_RECKAHN
+);
+mc_site!(
+    handler_plotzin,
+    scrape_plotzin,
+    SiteKey::WerderPloetzin,
+    SLUG_PLOTZIN
+);
+mc_site!(
+    handler_rostock,
+    scrape_rostock,
+    SiteKey::Rostock,
+    SLUG_ROSTOCK
+);
 
-pub fn handler_nauen() -> Handler {
-    Handler {
-        slug: SLUG_NAUEN,
-        url: URL,
-        schedule: Schedule::every_6h(),
-        scrape: |c| Box::pin(scrape_nauen(c)),
-    }
-}
-
-pub fn handler_reckahn() -> Handler {
-    Handler {
-        slug: SLUG_RECKAHN,
-        url: URL,
-        schedule: Schedule::every_6h(),
-        scrape: |c| Box::pin(scrape_reckahn(c)),
-    }
-}
-
-pub fn handler_plotzin() -> Handler {
-    Handler {
-        slug: SLUG_PLOTZIN,
-        url: URL,
-        schedule: Schedule::every_6h(),
-        scrape: |c| Box::pin(scrape_plotzin(c)),
-    }
-}
-
-pub fn handler_rostock() -> Handler {
-    Handler {
-        slug: SLUG_ROSTOCK,
-        url: URL,
-        schedule: Schedule::every_6h(),
-        scrape: |c| Box::pin(scrape_rostock(c)),
-    }
-}
-
-async fn scrape_brandenburg(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    scrape(client, "brandenburg").await
-}
-
-async fn scrape_rathenow(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    scrape(client, "rathenow").await
-}
-
-async fn scrape_nauen(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    scrape(client, "nauen").await
-}
-
-async fn scrape_reckahn(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    scrape(client, "reckahn").await
-}
-
-async fn scrape_plotzin(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    scrape(client, "plotzin").await
-}
-
-async fn scrape_rostock(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-    scrape(client, "rostock").await
-}
-
-async fn scrape(client: &reqwest::Client, site_key: &str) -> Result<HandlerOutcome, IngestError> {
+async fn scrape(
+    client: &reqwest::Client,
+    slug: &'static str,
+    site_key: SiteKey,
+) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
     let (published_at, rows, mut skipped_labels) = parse(&html)?;
-    let Some((_, _, site_url, rostock)) = SITES.iter().find(|(key, _, _, _)| *key == site_key)
-    else {
+    let Some(site) = site_of(site_key) else {
         return Err(IngestError::Parse {
             url: URL.to_owned(),
-            detail: format!("unbekannter Standortschlüssel {site_key}"),
+            detail: format!("unbekannter Standortschlüssel {}", site_key.key()),
         });
     };
-    let (prices, mut site_skips) = select_prices(&rows, site_key, *rostock);
+    // Schlüssel und Slug müssen zusammenpassen: sonst schriebe ein Handler
+    // die Preise eines anderen Standorts in die falsche Zeile.
+    if site.slug != slug {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: format!(
+                "Standortschlüssel {} und Slug {slug} gehören nicht zusammen",
+                site_key.key()
+            ),
+        });
+    }
+    let site_url = site.url;
+    let rostock = site.rostock;
+    let (prices, mut site_skips) = select_prices(&rows, site_key.key(), rostock);
     skipped_labels.append(&mut site_skips);
     // Ein Standort ohne verwertbaren Preis ist ein Seitenumbruch, kein
     // leerer Erfolg.
     if prices.is_empty() {
         return Err(IngestError::Parse {
             url: URL.to_owned(),
-            detail: format!("keine verwertbaren Preise für Standort {site_key}"),
+            detail: format!("keine verwertbaren Preise für Standort {}", site_key.key()),
         });
     }
     // Standortseiten-Fehler lässt den ganzen Schritt scheitern: eine
@@ -750,8 +788,10 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<PriceRow>, Vec<String>), Ing
 #[cfg(test)]
 mod tests {
     use super::{
-        date_in, extract_site_info, grade_for, parse, select_prices, PriceRow, SITES, SLUG,
-        SLUG_NAUEN, SLUG_PLOTZIN, SLUG_RATHENOW, SLUG_RECKAHN, SLUG_ROSTOCK,
+        date_in, extract_site_info, grade_for, handler, handler_nauen, handler_plotzin,
+        handler_rathenow, handler_reckahn, handler_rostock, parse, select_prices, site_of,
+        PriceRow, SiteKey, SITES, SLUG, SLUG_NAUEN, SLUG_PLOTZIN, SLUG_RATHENOW, SLUG_RECKAHN,
+        SLUG_ROSTOCK,
     };
 
     // Real shape (live 27.09.2026): <table class="price-table"> with
@@ -951,9 +991,73 @@ mod tests {
     }
 
     #[test]
+    fn every_handler_binds_its_own_site() {
+        // Die Zuordnung Handler → Standortschlüssel → Slug ist der Fehler,
+        // der am 27.10.2026 im Produktivbetrieb auffiel („unbekannter
+        // Standortschlüssel plotzin“): Der Test verlangt für **jede** der
+        // sechs Annahmestellen, dass Schlüssel und Slug zusammenpassen und
+        // dass der registrierte Handler genau diesen Slug trägt.
+        let expected = [
+            (SLUG, SiteKey::Brandenburg, handler().slug),
+            (SLUG_RATHENOW, SiteKey::Rathenow, handler_rathenow().slug),
+            (SLUG_NAUEN, SiteKey::Nauen, handler_nauen().slug),
+            (SLUG_RECKAHN, SiteKey::Reckahn, handler_reckahn().slug),
+            (
+                SLUG_PLOTZIN,
+                SiteKey::WerderPloetzin,
+                handler_plotzin().slug,
+            ),
+            (SLUG_ROSTOCK, SiteKey::Rostock, handler_rostock().slug),
+        ];
+        for (slug, key, handler_slug) in expected {
+            let site = site_of(key).expect("Standort in der Tabelle");
+            assert_eq!(site.slug, slug, "Schlüssel {} gehört zu {slug}", key.key());
+            assert_eq!(
+                handler_slug,
+                slug,
+                "Handler für {} trägt den Slug",
+                key.key()
+            );
+            // Der Schlüssel muss genau das URL-Segment der Seite sein.
+            assert!(
+                site.url.ends_with(&format!("/{}/", key.key())),
+                "URL {} passt nicht zum Schlüssel {}",
+                site.url,
+                key.key()
+            );
+        }
+        // Jeder Standortschlüssel kommt genau einmal vor.
+        let keys: Vec<&str> = SITES.iter().map(|site| site.key.key()).collect();
+        let mut unique = keys.clone();
+        unique.sort_unstable();
+        unique.dedup();
+        assert_eq!(keys.len(), unique.len());
+        assert_eq!(keys.len(), 6);
+    }
+
+    #[test]
+    fn site_keys_are_the_live_url_segments() {
+        // Die Seite kennt genau diese sechs Schlüssel; „plotzin“ und
+        // „reckahn“ liefern HTTP 404 (am 27.10.2026 live geprüft).
+        let mut keys: Vec<&str> = SITES.iter().map(|site| site.key.key()).collect();
+        keys.sort_unstable();
+        assert_eq!(
+            keys,
+            vec![
+                "brandenburg",
+                "kloster-lehnin-reckahn",
+                "nauen",
+                "rathenow",
+                "rostock",
+                "werder-ploetzin"
+            ]
+        );
+    }
+
+    #[test]
     fn every_site_has_its_own_slug_and_price_set() {
         assert_eq!(SITES.len(), 6);
-        let slugs: Vec<&str> = SITES.iter().map(|(_, slug, _, _)| *slug).collect();
+        let slugs: Vec<&str> = SITES.iter().map(|site| site.slug).collect();
         assert!(slugs.contains(&SLUG));
         assert!(slugs.contains(&SLUG_RATHENOW));
         assert!(slugs.contains(&SLUG_NAUEN));
@@ -961,10 +1065,7 @@ mod tests {
         assert!(slugs.contains(&SLUG_PLOTZIN));
         assert!(slugs.contains(&SLUG_ROSTOCK));
         // Only Rostock has its own price set.
-        assert_eq!(
-            SITES.iter().filter(|(_, _, _, rostock)| *rostock).count(),
-            1
-        );
+        assert_eq!(SITES.iter().filter(|site| site.rostock).count(), 1);
     }
 
     /// Live shape of a location page (27.10.2026): the definition list

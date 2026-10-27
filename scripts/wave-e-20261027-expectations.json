@@ -19,6 +19,28 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
+  "dossier_revision": "e6934c81",
+  "owner_review": "research/wave-e-20261027-owner.md",
+  "revision": {
+  "revised_on": "2026-10-27",
+  "revised_by": "Owner (Welle 18:00, Shard A)",
+  "scope": "genau eine Zeile der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases e6934c8 gehoben",
+  "rows": [
+    {
+      "slug": "he-nidderau-ab-recycling-bjoern-asal",
+      "fields": [
+        "description",
+        "email",
+        "opening_hours",
+        "phone",
+        "postcode",
+        "street"
+      ],
+      "reason": "Der Pin-Stand 11.10.2026 ließ street/postcode leer, weil die Anschrift damals nicht belegt war. Die Recherche vom 27.10.2026 belegt die Anschrift durch das Betreiber-Impressum (ab-recycling.de/impressum/) plus einen unabhängigen WLW-Eintrag; Telefon, E-Mail, Kontaktzeit und Leistungsbeschreibung stammen aus den Betreiberseiten. Status, Name, trader_type, website und website_status bleiben unverändert. Beleg und Owner-Entscheidung: research/wave-e-20261027-owner.md"
+    }
+  ],
+  "unchanged_rows": 59
+},
   "traders": [
     {
       "slug": "be-marzahn-hellersdorf-schrotthandel-achtert",
@@ -305,8 +327,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "beecc5ef7028ec2617f43777fb43800b3c27dd4f33044c7efd0d483dc51da799",
-      "seed_hash": "ef8b057726cf57dc"
+      "notes_sha256": "72f91cc60744ca606acbb1d9b7bf0fbe536d67e4e47499c22a97889a0082712a",
+      "seed_hash": "dc5701ce31097656"
     },
     {
       "slug": "he-fulda-dietershan-schrotthandel-stephan-goldbach",
@@ -395,8 +417,8 @@
         "website": "https://www.ab-recycling.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "66c395a18d934559a336470ad013d60850ba29145dce7af93ee1d897f725e70f",
-      "seed_hash": "838948268e083ce8"
+      "notes_sha256": "064f126f9d9a9cdf82e5bf6b25b90d6cc1e235c3185d8cda4e3fe988322994a4",
+      "seed_hash": "517a00cb72ac5c3b"
     },
     {
       "slug": "he-spangenberg-34286-heinrich-kleinschmidt-rohprod",
@@ -431,8 +453,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "bb60cde4afc159d4759b11bb78bb8c5bd21d54f0fa61f2de7910d0e4ce7ccd2d",
-      "seed_hash": "bb381db472ed66f6"
+      "notes_sha256": "d86b3c1a1a57855f8b58bc440f55822846df25b00ba7a703e080cb3cb5c264f2",
+      "seed_hash": "d0d7fca6ec7a8388"
     },
     {
       "slug": "hh-allermohe-van-der-meulen-edelmetaal-b-v",
@@ -593,8 +615,8 @@
         "website": "https://www.schrotthaendler-plus.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "b62f56e1ccf7704ab14419849a7d5267052759aec78750cb2fdb71567b95a997",
-      "seed_hash": "e64adf4bb1041ca4"
+      "notes_sha256": "50ae092bfdef2812a4e1874a538f8d11339d4efea7084548ff3338d692611a6c",
+      "seed_hash": "b9801849ba45448a"
     },
     {
       "slug": "nw-essen-cbr-bracke",
@@ -611,8 +633,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "3bed8c7e8a92a9734da1923a67ca45ccc7b71252221d6356056dc74fd24ab297",
-      "seed_hash": "1e6d8137c8492c49"
+      "notes_sha256": "9df2aa38ab7891ce0d7f4999ddd83a9c0d5864732783c39a97b55969c440cb4c",
+      "seed_hash": "f3a12f19b5a18199"
     },
     {
       "slug": "nw-essen-kollner",
@@ -629,8 +651,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "a39d73a31a5af8ed9118d119d2612afad1642ba2e561bff97ef652c0d51e8978",
-      "seed_hash": "3d467400253ffb2e"
+      "notes_sha256": "80f6acebd352f9fef68f5b379c7b5f1f5166767582f12719b2ccf4a87bb161a5",
+      "seed_hash": "8a6b6dfac55580f6"
     },
     {
       "slug": "nw-essen-schuttler",
@@ -647,8 +669,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "7d58fb5e8eba537ac193c8488ac0bec24b367ccc2ea2d28be3c3e1e57567e03a",
-      "seed_hash": "dd45ac0c410de2cc"
+      "notes_sha256": "3a233db62a5a1d2b17dd0790d4d0fa93338b2382ee0711871eb7766afd3dd6df",
+      "seed_hash": "a1952f7dd1337f2e"
     },
     {
       "slug": "nw-gummersbach-mar-schrottabholung",
@@ -665,8 +687,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "e3b5c186156cf993ba4fd94d0c047e4c05e416023299c18b6035c38b6e54b13a",
-      "seed_hash": "8c35708e9c75b5d9"
+      "notes_sha256": "957d6093a1fbf1329d42ec394e6d4a187841068802cd98b2e546510d37190e87",
+      "seed_hash": "6a9ee34861d257a4"
     },
     {
       "slug": "nw-gutersloh-bartsch",
@@ -1000,7 +1022,7 @@
         "postcode": "06268",
         "phone": "+49 34771 44118",
         "email": "querfurt@tsr.eu",
-        "opening_hours": "Mo–Do 07:00–16:00; Fr 07:00–15:00",
+        "opening_hours": "Mo\u2013Do 07:00\u201316:00; Fr 07:00\u201315:00",
         "description": "Schrott- und Altmetallankauf am TSR-Standort Querfurt; Preise auf Anfrage.",
         "status": "aktiv",
         "trader_type": "schrotthaendler",
@@ -1100,27 +1122,5 @@
       "notes_sha256": "fe2ee728518e0aff691a4e847c77e607683ebd17f4b79fb7852307c805f44d20",
       "seed_hash": "0fc85a100b6d128f"
     }
-  ],
-  "dossier_revision": "e6934c81",
-  "owner_review": "research/wave-e-20261027-owner.md",
-  "revision": {
-    "revised_on": "2026-10-27",
-    "revised_by": "Owner (Welle 18:00, Shard A)",
-    "scope": "genau eine Zeile der Wave-E-Scope geändert",
-    "rows": [
-      {
-        "slug": "he-nidderau-ab-recycling-bjoern-asal",
-        "fields": [
-          "description",
-          "email",
-          "opening_hours",
-          "phone",
-          "postcode",
-          "street"
-        ],
-        "reason": "Der Pin-Stand 11.10.2026 ließ street/postcode leer, weil die Anschrift damals nicht belegt war. Die Recherche vom 27.10.2026 belegt die Anschrift durch das Betreiber-Impressum (ab-recycling.de/impressum/) plus einen unabhängigen WLW-Eintrag; Telefon, E-Mail, Kontaktzeit und Leistungsbeschreibung stammen aus den Betreiberseiten. Status, Name, trader_type, website und website_status bleiben unverändert. Beleg und Owner-Entscheidung: research/wave-e-20261027-owner.md"
-      }
-    ],
-    "unchanged_rows": 59
-  }
+  ]
 }
