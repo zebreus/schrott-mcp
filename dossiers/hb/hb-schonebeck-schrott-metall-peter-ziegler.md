@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Bremer Visitenkartenprofil direkt erneut angefragt; aktueller Seitenabruf scheitert mit HTTP 403, daher kein heutiger Inhalt neu gelesen. Der historische kommunale Besucherprofil-Eintrag ist weder Gewerberegister noch Betreiberbestätigung; Verzeichnis-Öffnungszeiten bleiben widersprüchlich. Keine Änderung von Adresse/Kontakt oder Öffnungszeiten. Ankauf: keine Preisliste; Verkauf: keine Preisliste; Gebühren: keine Tarife. Im Knie 1 erst nach aktueller Betriebszuordnung/Kundenannahme geokodieren. Quelle/Abrufgrenze: https://www.bremen.de/visitenkarte/schrott-metall-sammler-peter-ziegler .]
+
 ### Recherche 15.10.2026 Welle18A
 
 - [Recherche 15.10.2026 Welle18A: Bremer Visitenkarte direkt nun HTTP 403, anders als historisch gelesener Profiltext vom 13.10.; kein heutiger Inhalt hinter Sperre gelesen. Kommunale Hostingdomain würde den Branchenprofileintrag ohnehin nicht zum Gewerberegister machen. Vorhandene Im-Knie-/Telefonwerte erhalten, aber nicht als frisch bestätigt ausgeben; widersprüchliche Portalzeiten und Maillead weiter außerhalb des Frontmatters. Ankauf/Verkauf/Gebühren keine neuen qualifizierten Tarifdaten. GeoBedarf: aktuelle Betriebszuordnung Im Knie 1 und öffentliche Annahme prüfen, nicht nur Gebäude lokalisieren. Quelle/Abrufgrenze: https://www.bremen.de/visitenkarte/schrott-metall-sammler-peter-ziegler .]

@@ -29,6 +29,10 @@ Der Hannover-Seed führt „Wieland Dental + Technik GmbH & Co. KG“, Königstr
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die Ivoclar-Gruppengesellschaftenliste wurde erneut direkt geprüft; sie nennt deutsche Gesellschaften in Ellwangen und Pforzheim, aber keinen Hannoveraner Standort. Das ist keine vollständige historische Filialliste und beweist weder Aufgabe noch Rechtsnachfolge. Das Impressum von Koke Consulting nennt als heutigen Betreiber an Königstraße 9 einen Versicherungs-/Finanzvermittler; gleiche Anschrift beweist weder Nachfolge noch ausschließliche Gebäudenutzung. Keine Identitätsübertragung, keine Ersatzkoordinate. ANKAUF: kein Hannoveraner Schrottkurs belegt; VERKAUF: keine zuordenbare Liste; GEBÜHREN: keine. `clear_fields: 'geo'` bleibt die dokumentierte Korrektur des nicht passenden Altpunktes. Quellen: https://www.ivoclar.com/en_li/tools/group-companies ; https://koke-consulting.de/impressum .]
+
 ### Owner-GEO-Korrektur 25.10.2026
 
 - [Owner-GEO-Korrektur 25.10.2026: Read-only `public.db` enthält 52.376469, 9.746341. Nominatim-Reverse löst den Punkt am Fachgerichtszentrum Hannover, Leonhardtstraße 15, auf, nicht an Königstr. 9. Der Dossiername weist zudem auf Wieland Dental-Technik statt auf einen bestätigten Schrotthändler. `clear_fields: 'geo'` entzieht das nicht passende Paar beim nächsten regulären Seed. Keine Ersatzkoordinate. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.37646896551724&lon=9.746341379310344&zoom=18&addressdetails=1 ; read-only `public.db` (25.10.2026); `docs/trader-seed.md`.]

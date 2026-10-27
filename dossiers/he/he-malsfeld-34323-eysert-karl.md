@@ -32,6 +32,10 @@ Die Gemeinde Malsfeld veröffentlicht ein Gewerbeverzeichnis; beim Live-Abruf am
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: 11880-Profil direkt geprüft: Karl Eysert, Strauchgraben 7, 34323 Malsfeld, 05661 6776; Eintragsdaten 29.06.2021, aktualisiert 02.10.2026. Das Aktualisierungsdatum ist kein Betreiber- oder Aktivitätsbeleg. Das kommunale Gewerbeverzeichnis wurde erneut auf den Namen geprüft und führt ihn nicht; seine Vollständigkeit und Aktualität sind nicht ausgewiesen, daher kein Abmelde- oder Schließungsschluss. Keine Daten/Koordinate übernommen. **ANKAUF:** keine Kurse; **VERKAUF:** keine Teilepreisliste; **GEBÜHREN:** keine Tarife. Quellen: https://www.11880.com/branchenbuch/malsfeld/060440459B27069254/karl-eysert.html ; https://www.malsfeld.net/tourismus-wirtschaft/gewerbeverzeichnis/ .]
+
 ### Recherche 26.10.2026
 
 - [Recherche 26.10.2026: Das auf der Gemeindeseite veröffentlichte Gewerbeverzeichnis Malsfeld erneut direkt gelesen; Karl Eysert fehlt weiterhin. Die Liste enthält zahlreiche lokale Gewerbe, nennt aber weder einen Veröffentlichungs-/Vollständigkeitsstand noch eine Registerfunktion. Das ist nur ein begrenzter Negativbefund, keine Gewerbeabmeldung und kein Gegenbeweis zum einzelnen 11880-Lead Strauchgraben 7/05661 6776. Keine Frontmatter-Änderung oder GEO. ANKAUF: keine Fahrzeug-/Metallkurse; VERKAUF: keine Teileliste; GEBÜHREN: keine Tarife. Quellen: https://www.malsfeld.net/tourismus-wirtschaft/gewerbeverzeichnis (kommunale Übersicht, direkt geprüft); https://www.11880.com/branchenbuch/malsfeld/060440459B27069254/karl-eysert.html (Verzeichnislead).]

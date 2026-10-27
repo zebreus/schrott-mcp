@@ -30,6 +30,10 @@ Der Betreiberblog ist aktuell erreichbar und enthält datierte Posts bis Januar 
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Betreiberblog direkt gelesen: Januar-2026-Beitrag „Visitenkarte“ nennt Rech Volker, Hausen 49, Völklingen und Kontaktdaten; ein weiterer Beitrag, ursprünglich 2022 und 01.01.2026 erneut eingestellt, beschreibt Materialannahme ab 300 kg Schrott bzw. 5 kg Metalle. Das sind Mindestmengenschwellen aus Betreibertext, keine €/kg-Ankaufskurse und keine Gewähr für heutige Gültigkeit. Ein eigener Jimdo-Kontaktauftritt wiederholt den Namen/die Adresse, ist keine unabhängige Quelle und führt uneinheitliche/unvollständige Kontaktdaten. „Kostenlose Abholung“ ist Logistikwerbung, kein Kaufpreis; Auto-/Entsorgungshinweise „VB“ sind kein Gebührenbetrag. Ankauf: keine Zahlenkurse; Verkauf: keine Teilepreisliste; Gebühren: keine bezifferten Tarife. Keine Kontaktdaten/GEO übertragen. Quellen: https://schrott-entsorgung.blogspot.com/ ; https://schrott-abholung-saar.jimdofree.com/kontakt/ .]
+
 ### Recherche 26.10.2026
 
 - [Recherche 26.10.2026: Der Betreiberblog war direkt lesbar. Der Beitrag vom 23.01.2026 ist eine „Visitenkarte“; ein am 01.01.2026 erneut eingestellter älterer Beitrag verweist auf Schrott-/Metallannahme ab 300 kg bzw. 5 kg, aber ohne €/kg-Kurse. Das Veröffentlichungs-/Wiederveröffentlichungsdatum macht die Schwellen nicht zu aktuellen Ankaufspreisen oder gesicherten Mindestmengen. Die separate Jimdo-Kontaktseite nennt dieselbe Geschäftsbezeichnung/Adresse, bleibt ein weiterer eigener Betreiberauftritt mit unvollständigen bzw. wechselnden Kontakt-/Impressumsangaben und somit kein unabhängiger Zweitbeleg. „Kostenlose Abholung“ ist Logistikwerbung, nicht Ankaufvergütung; Fahrzeug-/Entsorgungshinweise „VB“ bezeichnen keinen Tarif. Keine Stammdatenänderung. ANKAUF: keine numerischen Kurse; VERKAUF: keine Ersatzteilpreisliste; GEBÜHREN: keine bezifferten Sätze. Quellen: https://schrott-entsorgung.blogspot.com/ ; https://schrott-abholung-saar.jimdofree.com/kontakt .]

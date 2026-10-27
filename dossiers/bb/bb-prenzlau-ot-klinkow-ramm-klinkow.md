@@ -30,6 +30,10 @@ Die Metallhandel & Containerdienst Ramm GmbH an Stettiner Straße 79 ist nicht a
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die Stadt Prenzlau führt „Autoverwertung Klinkow GbR“, Cornell Ramm, Am Quillow 38, 17291 Prenzlau/Klinkow, Tel. 03984 5701 und Mo–Fr 07–12/12:30–16; genannt werden Annahme von Altfahrzeugen und Verkauf gebrauchter Teile. Kommunaler Unternehmensverzeichniseintrag, kein aktueller Gewerbe-/Zulassungsauszug oder unabhängiger README-konformer Zweitbeleg; deshalb weiterhin keine Frontmatter-Kontakt-/Zeit-Fills und Status `pruefung`. Die getrennte Metallhandel & Containerdienst Ramm GmbH, Stettiner Straße 79, zeigt auf ihrer Zertifikatsseite nur Überschriften „Aktuelle Preisliste für Abfälle“ und „Aktuelle Preisliste für MS + Buntmetall“, ohne abrufbare Preisdateien/Zahlen; kein Rechtsträger-/Nachfolgerbeleg zur GbR, daher keine Preisübertragung. Ankauf: keine Zieltarife; Verkauf: gebrauchte Teile laut Kommune, keine Zahlenliste; Gebühren: keine Tarife. GEO erst nach aktueller Tätigkeit/Kundenannahme bestätigen. Quellen: https://www.prenzlau.eu/cms/detail.php/brandenburg_06.c.835762.de ; https://mcr-ramm.de/unsere-zertifikate ; https://www.gelbeseiten.de/gsbiz/73c75e7b-41bb-4170-8c71-d9e20b15db08 (abweichende Verzeichnis-Öffnungszeiten, kein Gegenbeleg) .]
+
 ### Gegenprüfung und Ownerkorrektur 10.10.2026
 
 - [Korrektur 10.10.2026: Ownerentscheidung status aktiv→pruefung wegen fehlender aktueller README-konformer Betreiber-/Annahmebestätigung; keine Schließung und kein Nichtexistenzurteil. Kommunales Unternehmensverzeichnis am 10.10. live bestätigt GbR, Cornell Ramm, Am Quillow 38, 03984 5701, Mo–Fr 07–12/12:30–16 sowie Annahme Altfahrzeuge/Teileverkauf, ist aber kein ausgewiesener Gewerberegisterauszug. Kein qualifizierter unabhängiger Zweitbeleg und kein individuell gelesener aktueller GESA-Anerkennungsdatensatz. Andere Frontmatter-Felder und Slug unverändert; keine Legacyfreigabe. Quelle: https://www.prenzlau.eu/cms/detail.php/brandenburg_06.c.835762.de]

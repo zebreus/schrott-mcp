@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed enthält nur den Namen „Khelf-Galvez Ali“ und den Tätigkeitsvermerk „Schrott“ für Ludwigshafen. Zwei Branchenverzeichnisse führen inzwischen denselben Namen mit **Frigenstr. 6, 67065 Ludwigshafen-Maudach, Tel. 01590 1 02 77 91**. Das ist ein konkreter, aber ausschließlich aggregierter Adress-/Kontaktlead; Betreiberseite, Register- oder Behördenbeleg fehlt. Anschrift nicht in Frontmatter übernehmen und bis zur Identitäts-/Standortbestätigung nicht geokodieren; Status `pruefung`.
+Der Seed enthält nur den Namen „Khelf-Galvez Ali“ und den Tätigkeitsvermerk „Schrott“ für Ludwigshafen. Zwei Branchenverzeichnisse führen denselben Namen mit **Frigenstr. 6, 67065 Ludwigshafen-Maudach, Tel. 01590 1 02 77 91**. Eine unabhängig verifizierte DAF/TNS-Betriebsseite nennt ebenfalls Frigenstraße 6, aber als TNS Transport- und Nutzfahrzeugservice GmbH; es gibt keinen Beleg für eine Verbindung zu Khelf und auch keinen Beleg, dass die Adresse ausschließlich von TNS genutzt wird. Damit bleibt die Branchenportal-Angabe ein ungelöster Identitäts-/Standortkonflikt, keine gesicherte Widerlegung. Keine Übernahme der TNS-Daten, keine Frontmatter-Füllung und kein GEO; Status `pruefung`.
 
 **Preise:** ANKAUF: keine Preise/Annahmebedingungen belegt. VERKAUF: keine Preisliste. GEBÜHREN: keine Angaben.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die Betreiber-Impressumsseite von DAF Ludwigshafen und die offizielle DAF-Händlersuche führen TNS Transport- und Nutzfahrzeugservice GmbH als Servicepartner an Frigenstraße 6, 67065 Ludwigshafen (HRB 3754). Das ist ein aktueller Betreiberbeleg für TNS an der von zwei Branchenportalen für „Khelf-Galvez Ali“ genannten Anschrift, aber kein Beleg für Identität, Ausschließlichkeit oder Unmöglichkeit eines weiteren Mieters. Khelf bleibt unbestätigt; keine TNS-Kontakte/Koordinaten auf den Seed übertragen. ANKAUF: keine belegten Schrottkurse von Khelf; VERKAUF: keine Liste; GEBÜHREN: keine Händlergebühren. GEO weiter offen. Quellen: https://dealers.daf.com/de-de/dealers/de/25200-tns-transport-und-nutzfahrzeugservice-gmbh ; https://www.daf-ludwigshafen.de/impressum/ ; Portal-Leads: https://www.gelbeseiten.de/gsbiz/973b5778-2685-411c-9da3-d0802273f966 .]
 
 ### Recherche 24.10.2026
 

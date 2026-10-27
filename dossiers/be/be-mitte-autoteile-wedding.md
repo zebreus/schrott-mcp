@@ -28,6 +28,10 @@ Koloniestr. 114 und Holzstr. 4 werden mit derselben Telefonnummer, aber ohne una
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die Betreiber-Domainkandidaten wurden erneut direkt abgerufen: `autoteile-wedding.de` lieferte über HTTPS keinen verwertbaren Seiteninhalt und über HTTP einen Serverfehler; `autotechnik-wedding.de` war ebenfalls nicht lesbar. Abruffehler sind weder Schließungs- noch Betreiberidentitätsnachweis. Der Adresskonflikt Koloniestr. 114/Holzstr. 4 und die Zuordnung der gemeinsamen Telefonnummer bleiben offen; kein Frontmatter-Fill. ANKAUF: keine zuordenbare Fahrzeug-/Metallpreisliste. VERKAUF: keine lesbare Teilepreisliste. GEBÜHREN: keine Annahme-/Abholtarife. GEO erst nach Identitäts- und Adressklärung. Quellen: https://autoteile-wedding.de/ ; http://www.autoteile-wedding.de/ ; https://autotechnik-wedding.de/ (Abruf 27.10.2026).]
+
 ### Recherche 17.10.2026 — Welle 2100 C
 
 - [Recherche 17.10.2026: HTTPS-Direktabruf der bisherigen Domainspur autotechnik-wedding.de scheitert erneut mit Transportfehler, kein lesbares Impressum oder aktueller Schließungsbeleg. Das bestätigt weder eine tote Domain noch den historischen Suchindex-Titel als heutige Betriebsaufgabe. Die bereits dokumentierten Adressen Koloniestr. 114/Holzstr. 4 bleiben ungelöst; kein Status-/Website-Fill aus Abruffehler. ANKAUF: kein zuordenbarer Fahrzeug-/Metallkurs; VERKAUF: keine gelesene Teilepreisliste; GEBÜHREN: keine Annahme-/Abholtarife. Offen: Betreiberidentität und zeitlicher Adressverlauf, danach Betriebsbestätigung und erst anschließend GEO-Bedarf. Quelle: https://www.autotechnik-wedding.de/ (Transportfehler am 17.10.2026); Adresskonflikt weiterhin Vorrecherche 05.10.2026, heute nicht neu bestätigt.]

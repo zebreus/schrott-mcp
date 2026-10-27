@@ -30,6 +30,10 @@ Der historische Verzeichnisfund ist jetzt konkret nachvollziehbar: Das Örtliche
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Ein erneuter Direktaufruf der bisher zitierten Das-Örtliche-Detailseite zu Siegfried Grundler konnte technisch nicht erfolgreich geladen werden. Das ist kein Beleg für Löschung, Geschäftsaufgabe oder einen fehlenden Eintrag. Es entstand kein neuer Betreiber-, Register- oder Behördenbeleg; Oldenburger Landstr. 50 und 04221 452156 bleiben lediglich der frühere Portal-Lead und werden nicht als aktuelle Annahmestelle oder GEO-Punkt bestätigt. ANKAUF: keine Fahrzeugvergütung/Metallkurse; VERKAUF: keine Ersatzteilpreisliste; GEBÜHREN: keine Verwertungs-/Abholkosten oder kostenlose Rücknahme belegt. Kein Frontmatter-Fill. Quelle: https://www.dasoertliche.de/Themen/Grundler-Siegfried-Autoverwertung-Delmenhorst-Deichhorst-Oldenburger-Landstr (Abruf fehlgeschlagen am 27.10.2026; kein Negativbeweis).]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: Neue Namenssuche findet konkreten Verzeichniscluster; Das-Örtliche-Detail direkt gelesen: Grundler Siegfried Autoverwertung, Oldenburger Landstr. 50/27753/04221 452156. Kein Betreiber-Impressum, Öffnungszeiten oder zugänglicher qualifizierter Zweitbeleg in dieser Recherche. Die daneben eingeblendete Adelheider Str. 75 gehört zur lokalen Empfehlung Autohaus W. Müller, nicht zu Grundler; keine Zweigstelle daraus bilden. Seedstraße bleibt historisch, PLZ/Telefon nur Timeline. Ankauf/Verkauf/Gebühren offen, keine GEO-Freigabe. Quelle: https://www.dasoertliche.de/Themen/Grundler-Siegfried-Autoverwertung-Delmenhorst-Deichhorst-Oldenburger-Landstr .]

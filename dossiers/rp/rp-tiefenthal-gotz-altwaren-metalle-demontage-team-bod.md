@@ -30,6 +30,10 @@ Die Betreiberwebsite **demontage-team.de** identifiziert Bodo Götz (Einzelunter
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Start-, Leistungs- und Impressumsseiten von demontage-team.de wurden erneut direkt gelesen. Sie nennen Bodo Götz als Einzelunternehmen in Kirchweg 9A, 55546 Tiefenthal und bewerben Metallankauf zu Tagespreisen, Abholung, Demontage und Container 5–40 m³. Es gibt keine numerischen Tageskurse oder Gebühren. Ein davon getrennter Verzeichnislead „Götz Altwaren Metalle“ an Hauptstraße 1 ist weiterhin nicht mit Bodo Götz verknüpft; keine Merge-/Adresskorrektur oder GEO. ANKAUF: Tagespreise ohne Zahlen. VERKAUF: keine Produktpreisliste. GEBÜHREN: keine bezifferten Abhol-, Container- oder Demontagetarife. Quellen: https://www.demontage-team.de/ ; https://www.demontage-team.de/leistungen.htm ; https://www.demontage-team.de/impressum.htm .]
+
 ### Recherche 26.10.2026
 
 - [Recherche 26.10.2026: Betreiberseiten zu Leistungen und Impressum direkt gelesen: Bodo Götz, Einzelunternehmen, Kirchweg 9A, 55546 Tiefenthal; Schrott-/Metallankauf zu Tagespreisen, Abholung, Industriedemontage und Container 5–40 m³. Gegenrecherche fand „Götz Altwaren Metalle“ an Hauptstr. 1, 55546 Tiefenthal auf einem Verzeichnisportal (zusätzlich bereits dokumentierter Lead „Götz Altwaren Metalle“ in Hackenheim). Kein Beleg, dass der Eintrag an Hauptstr. 1 derselbe Betrieb, eine frühere Anschrift oder eine unabhängige Firma ist; nicht mit Bodo Götz verschmolzen und keine Straße/Kontaktfelder gefüllt. ANKAUF: Tagespreise ohne EUR-Kurse. VERKAUF: keine Liste. GEBÜHREN: keine numerischen Tarife gefunden. Quellen: https://www.demontage-team.de/ ; https://www.demontage-team.de/leistungen.htm ; https://www.demontage-team.de/impressum.htm ; https://www.schrottplatz.org/biebelsheim/schrott-goetz-altwaren-metalle-aYEPV1.html ; https://www.schrottplatz-info.de/schrottplatz/Hackenheim/-Goetz-Altwaren-Metalle .]

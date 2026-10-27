@@ -31,6 +31,10 @@ Importierter Mehrfirmen-Cluster, keine einzelne nachgewiesene Firma oder Filiale
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Das aktuelle Gelbe-Seiten-Profil „Knepflas Recycling“ wurde direkt erneut gelesen: nur „., 67433 Neustadt“, Rufnummer 0157 51 12 99 94 und Portalzeiten; keine präzise Betriebsadresse, Betreiber-Impressum oder eigenständige Identitätsbestätigung. Portaltext „faire Preise“ enthält keine Beträge und beweist keinen Ankauf. Knepflas bleibt ein unzugeordneter Aggregator-Lead; keine Fusion mit Broll, Schäfer, Ohlinger oder Meyer und kein GEO. ANKAUF: keine Kurse/Annahmebedingungen; VERKAUF: keine Produkt-/Preisliste; GEBÜHREN: keine Tarife. Quelle: https://www.gelbeseiten.de/gsbiz/7b41cd5f-ee34-4b20-8d06-0466eb504957 .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Gelbe Seiten führt im Profil „Knepflas Recycling“ (genau diese Schreibweise), Adresse nur „., 67433 Neustadt an der Weinstraße“, Tel. 0157 51 12 99 94, tägliche Zeiten 07:00–20:00 und Portal-Leistungsangaben zu Räumung, Schrott-/Metallabholung, Entsorgung und Abbruch. Das Profil ist ein Aggregator-Lead, kein Betreiber-/Registerbeleg; die city-only Adresse ist kein Annahmestellen- oder GEO-Nachweis. Insbesondere behauptete Abholung belegt keine Auszahlung/Ankaufskurse. **Ankauf:** keine bestätigten Sorten/Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Nicht mit anderen Clusterfirmen zusammengeführt; Schreibweise/Identität bleiben zu prüfen. Quelle: https://www.gelbeseiten.de/gsbiz/7b41cd5f-ee34-4b20-8d06-0466eb504957 .]

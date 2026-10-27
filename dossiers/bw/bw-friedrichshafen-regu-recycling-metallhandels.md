@@ -32,6 +32,10 @@ Privat-/Gewerbeankauf mit Ausweis, Container 0,5–12 m³ und gewerbliche Großm
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Betreiberseite „Dienstleistungen“ direkt geprüft: REGU nennt Teuringer Straße 57, 88045 Friedrichshafen, +49 7541 55504, info@regu-recycling.de und Mo–Fr 08–12/13–18, Sa 08–12. Beworben werden Metallankauf auch für Privatkunden/kleinere Mengen, sofortige Auszahlung gegen Ausweis sowie Container 0,5–12 m³; Preise seien tagesaktuell/börsenabhängig, konkrete Zahlenkurse sind nicht veröffentlicht. Die Überschrift „An- und Verkauf“ liefert keine Verkaufspreisliste; Container-/Entsorgungsgebühren ebenfalls nicht beziffert. Betreiberseite bleibt Einzelquelle; die Registeranschrift Kapitän-Wagner-Str. 28 ist kein unabhängiger Beleg für den Kundenhof Teuringer Str. 57. Kein GEO-Fill bis zur unabhängigen Kundenstandortbestätigung. Quelle: https://www.regu-recycling.de/dienstleistungen/ .]
+
 ### Recherche 19.10.2026: Welle 03:30 / Shard a
 
 - [Recherche 19.10.2026: Leistungsseite direkt neu gelesen; zusätzlich wichtig für spätere Servicekodierung: Containerstellung ausdrücklich für Gewerbe UND Privathaushalte,0,5–12m³, auch Transportgenehmigung für andere Abfallarten wie Altholz behauptet. Dies ist keine Aussage, dass Altholz angekauft wird, und kein kostenloser Containerdienst. Ankauf privater Kleinmengen mit sofortiger Vergütung/Ausweis, gewerbliche Großmengenabholung bleiben Betreiberangaben; Zahlenliste fehlt, nur Tages-/Börsenabhängigkeit. Verkauf nur Überschrift An- und Verkauf, keine Verkaufspreise; Gebühren unbeziffert. Identische Zinn-/Zink-Stofflisten weiterhin nicht normalisieren. Keine neue unabhängige Hof-/Registerprüfung in dieser Teilnachprüfung; Frontmatter unverändert. GEO TeuringerStraße57 erst nach unabhängigem Hofbeleg, Registeranschrift Kapitän-Wagner-Straße28 nicht als Ersatzpunkt verwenden. Quelle: https://www.regu-recycling.de/dienstleistungen/ .]

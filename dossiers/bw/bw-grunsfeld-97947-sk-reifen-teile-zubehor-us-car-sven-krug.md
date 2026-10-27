@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: US-Car-Schwerpunkt, Demontagebetrieb nach AltfahrzeugV — Betreiber-Beleg fehlt, Klärfall
+description: 'Verzeichnis-Lead zu US-Car/Demontagebetrieb; Betreiber- und Registerbeleg fehlt, Leistungen ungeklärt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 Der einzige konkrete Betriebslead bleibt Schrottpreis.org: SK Reifen-Teile-Zubehör US-Car, Sven Krug, Bischofsheimer Str. 7, 97947 Grünsfeld, 09346 928579, als Demontagebetrieb beschrieben. Das ist ein Aggregator, kein Betreiber-/Registerbeleg; das GESA-Fachbetrieberegister lieferte keinen auswertbaren Einzelbefund zu Krug. **ANKAUF:** das Seitenwidget ist ausdrücklich „powered by schrott24“ und kein Preisangebot von Krug. **VERKAUF:** keine Krug-Teilepreisliste. **GEBÜHREN:** keine verifizierte Annahme-/Abholtarife. Status `pruefung`; Adresse und Telefon nicht als unabhängig bestätigt behandeln. Schrottpreis.org zeigt die Kartenkoordinate 49.640330, 9.751940, aber sie ist ein Portalpin und kein akzeptierter Geocode. Adresse/Pin daher erst nach Betreiber-/Standortklärung geokodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Schrottpreis.org-Direktseite erneut geprüft: führt SK Reifen-Teile-Zubehör/Sven Krug, Bischofsheimer Str. 7, 97947 Grünsfeld, 09346 928579 und „Demontagebetrieb“; Karte zeigt Portalpin 49.640330, 9.751940. Das bleibt ein Aggregatorlead; kein individueller GESA-Eintrag für Krug auswertbar, daher keine Betreiber-/Registerbestätigung und Pin nicht als Geocode übernommen. Das Seitenwidget listet ausdrücklich Schrott24-Kurse (u. a. Fe/Steel 0,21 €/kg, Al 2,48, Pb 1,43, Edelstahl 1,90, Hartmetall 49,00, Cu 6,00, Messing 7,31, Zinn 29,64, Zn 2,28); diese Werte sind Drittanbieter-/Marktwidget, keine Krug-Ankaufspreise. Verkauf: keine Krug-Teilepreisliste. Gebühren: keine Annahme-/Abholtarife. GEO-Bedarf: erst Betreiber/Standort verifizieren, dann Adresse statt Portalpin prüfen. Quelle: https://www.schrottpreis.org/autoverwertung-in-main-tauber-kreis/ .]
 
 ### Recherche 22.10.2026
 

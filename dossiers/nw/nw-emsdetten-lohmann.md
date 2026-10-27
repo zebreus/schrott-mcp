@@ -24,15 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite identifiziert die Metallrecycling Lohmann GmbH (HRB 4029, AG Steinfurt), nennt Gutenbergstraße 7 als Geschäftsanschrift und beschreibt den Emsdettener Wertstoffhof für Privat- und Gewerbeanlieferungen. NorthData bestätigt unabhängig dieselbe Rechtseinheit, Anschrift und den Metall-/Schrotthandelsgegenstand; damit ist die Zuordnung des knappen Seednamens zum aktuellen Metallrecycling-Auftritt auf Gesellschafts-/Adressniveau gestützt. Die Entsorgungsgesellschaft Steinfurt führt dort separat „Fa. Lohmann Containerdienst GmbH“ als beauftragten Wertstoffhof; daraus wird keine Identität oder Rechtsnachfolge zwischen den GmbHs behauptet. Die Koordinate wurde nicht recherchiert oder gesetzt.
+NorthData bestätigt die Rechtseinheit **Metallrecycling Lohmann GmbH**, HRB 4029, AG Steinfurt, Gutenbergstraße 7 und Metall-/Schrotthandel. Das aktuelle gemeinsame Impressum nennt daneben ausdrücklich eine zweite Gesellschaft am selben Ort: **Lohmann Containerdienst GmbH**, HRB 4028. Die Metallrecycling-Unterseite bewirbt Schrottvergütung; die allgemeine Wertstoffhof-Seite spricht für die „Lohmann Unternehmensgruppe“ und weist den Hof nicht eindeutig einer der beiden GmbHs zu. Auch die EGST nennt dort separat „Fa. Lohmann Containerdienst GmbH“. Daher bleibt die Firmenidentität des Dossiers belegt, aber die genaue juristische Betreiberzuordnung sämtlicher Hofleistungen offen; die beiden Firmen werden nicht vermischt. Keine Koordinate gesetzt.
 
 - **Ankauf:** Die Betreiberseite wirbt für eine Vergütung von werthaltigem Schrott und nennt Eisen, Buntmetalle und sortenreinen Schrott; keine numerische Preisliste oder sortenbezogenen Ankaufskurse veröffentlicht.
 - **Verkauf:** keine öffentliche Produkt- oder Verkaufspreisliste für Metalle gefunden.
 - **Gebühren:** haushaltsübliche Mengen Elektro-/Elektronikaltgeräte werden laut Betreiber kostenfrei angenommen. Das ist keine Aussage über Metallankauf, andere Abfälle oder Containerpreise; hierfür ist kein allgemeiner Tarif veröffentlicht.
 - **Anlieferung/Zeiten:** Betreiberangabe Mo–Fr 07:00–17:00, Sa 07:00–12:00, samstags Annahme bis 11:30. Die EGST-Liste nennt Mo–Fr bis 17:30; die Differenz ist in der Timeline festgehalten.
-- **GEO:** Gutenbergstraße 7 ist neu als Anschrift belegt und in die Frontmatter übernommen; Koordinaten bei Bedarf adressgenau geocodieren.
+- **GEO:** Gutenbergstraße 7 ist als Geschäftsanschrift und Gruppen-Wertstoffhof belegt; vor Geokodierung für das Dossier die konkrete Annahmestellen-/Rechtsträgerzuordnung beachten.
 
 ## Timeline
+
+### Recherche 27.10.2026 — Rechtsträgerabgrenzung
+
+- [Recherche 27.10.2026: Aktuelles Impressum direkt geprüft. Es führt am Standort Gutenbergstraße 7, 48282 Emsdetten zwei Rechtsträger: Lohmann Containerdienst GmbH (HRB 4028) und Metallrecycling Lohmann GmbH (HRB 4029), beide AG Steinfurt. Die Metallrecycling-Seite bewirbt Vergütung für werthaltigen Schrott; die Wertstoffhofseite nennt Privat- und Gewerbeanlieferung, Metallschrott und Öffnungszeiten, bezeichnet den Anbieter aber als „Lohmann Unternehmensgruppe“ und weist die Leistung nicht eindeutig einer der beiden GmbHs zu. Die Website nennt haushaltsübliche Elektro-/Elektronikaltgeräte für bestimmte umliegende Kommunen als kostenlos; diese Aussage ist weder ein Metallkurs noch eine allgemeine Annahme-/Containergebühr. **ANKAUF:** nur qualitative Vergütungswerbung, keine Zahlenkurse; **VERKAUF:** keine Metallverkaufspreise; **GEBÜHREN:** kostenfreie Haushalts-Elektroaltgeräteannahme begrenzt auf genannten Umfang, keine allgemeinen Tarife. Stammdaten der HRB-4029-Gesellschaft bleiben; dropoff/Leistungszuordnung und GEO nicht zusätzlich abgeleitet. Quellen: https://www.lohmann-entsorgung.de/impressum/ ; https://www.lohmann-entsorgung.de/wertstoffhof/ ; https://www.lohmann-entsorgung.de/metallrecycling/ ; https://www.egst.de/de/abfallannahme/annahmestellen--gebuehren .]
 
 ### Recherche 26.10.2026: Register-Gegenprüfung
 

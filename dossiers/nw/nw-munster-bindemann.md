@@ -1,11 +1,11 @@
 ---
 slug: nw-munster-bindemann
-name: Bindemann
+name: Peter Bindemann
 trader_type: mobil
 state: NW
 city: Münster
-street: ''
-postcode: ''
+street: Timmerscheidtstraße 6
+postcode: '48153'
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Eine Website mit Copyright 2020 beansprucht, Peter Bindemann betreibe mobilen Schrotthandel/Altmetall-Abholung und Abbruch-, Demontage- und Entkernungsarbeiten. **Adresskonflikt:** Das Betreiber-Impressum nennt Timmerscheidtstraße 6, 48153 Münster; Verzeichnis-Leads nennen Dahlweg 38, ebenfalls 48153 Münster. Betreiberidentität und aktuelle Kontaktfelder sind nicht unabhängig qualifiziert bestätigt, daher bleiben Straße, PLZ, Telefon, E-Mail und Website im Frontmatter leer; keine Koordinaten. Keine numerische Ankaufspreisliste; „Bezahlung vor Ort“ ist eine Zahlungsbedingung, kein Preis.
+Die Betreiberwebsite benennt Peter Bindemann als mobilen Schrotthändler und nennt Timmerscheidtstraße 6, 48153 Münster. Creditreform führt Peter Michael Bindemann unter derselben Anschrift; zusammen stützen die unterschiedlichen Quellentypen Name und Adresse. Das ältere 11880-Profil nennt dagegen Dahlweg 38, 48153 Münster, und dieselbe Mobilnummer wie die Betreiberseite; eine Umzugskette ist nicht belegt. Daher wurden nur Name, Straße und PLZ präzisiert. Telefon und übrige Kontaktdaten bleiben leer, da Creditreform eine abweichende Telefonnummer aufführt und der Webauftritt Copyright 2020 trägt. Die Website beschreibt mobile Abholung, nicht eine öffentliche Annahmestelle; keine Koordinate.
+
+**ANKAUF:** „Bezahlung vor Ort“ ist Zahlungsablauf, kein Preis; keine numerische Ankaufsliste. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife.
 
 ## Timeline
+
+### Recherche 27.10.2026 — Identitäts- und Adresskorrektur
+
+- [Recherche 27.10.2026: Betreiber-Impressum direkt abgerufen: Peter Bindemann, Timmerscheidtstraße 6, 48153 Münster, Mobil 0160 1682887, pebischrotthandel@hotmail.de; Website-Copyright weiterhin 2020. Creditreform-Firmeneintrag zu Peter Michael Bindemann nennt dieselbe Timmerscheidtstraße 6 und PLZ, führt aber 0251 6251370 sowie die Domain abbruch-bindemann.de. Diese unabhängige Übereinstimmung von Name und Anschrift stützt die Stammdatenkorrektur auf „Peter Bindemann“, Timmerscheidtstraße 6, 48153; der zweite Webauftritt und die Nummer werden mangels bestätigter Verbindung nicht übernommen. 11880 führt als ältere Portalspur Dahlweg 38 mit 0160 1682887; keine gesicherte Umzugskette. Keine Aussage zu aktueller Tätigkeit aus Copyrightdatum; Status bleibt `pruefung`. Mobiler Dienst, kein öffentlicher Anlieferhof belegt. **ANKAUF:** keine Zahlenkurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Keine GEO. Quellen: https://www.schrotthandel-ms.de/ ; https://www.schrotthandel-ms.de/impressum ; https://firmeneintrag.creditreform.de/48153/4250627817/PETER_MICHAEL_BINDEMANN ; https://www.11880.com/branchenbuch/muenster-westfalen/060440090B100094040/schrotthandel-peter-bindemann.html .]
 
 ### Recherche 15.10.2026 Welle18A
 

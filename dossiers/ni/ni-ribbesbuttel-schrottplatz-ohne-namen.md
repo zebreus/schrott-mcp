@@ -29,10 +29,14 @@ Für einen privaten Schrottplatz ohne Namen in Ribbesbüttel ist weiterhin keine
 
 - **Ankauf:** keine Zahlung/Ankauf durch das AWZ belegt; keine Preise.
 - **Verkauf:** keine Material-/Produktliste.
-- **Gebühren:** keine dem anonymen Seed zurechenbaren Gebühren. Kreisgebühren für das AWZ werden nicht auf einen ungeklärten privaten Händler übertragen.
+- **Gebühren:** Der AWZ-Gebührentarif (Restmüll über 200 kg: 185 €/t; Sperrmüll über 200 kg: 172 €/t) gilt für die öffentliche Anlage, nicht nachweislich für den anonymen Seed; keine dem Seed zurechenbaren Gebühren.
 - **GEO:** Gifhorner Straße 33 ist nur der Standort des öffentlichen AWZ-Kandidaten, nicht bestätigte Adresse des anonymen Seeds; nicht als Händler pinnen.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die Landkreis-Detailseite und ihre verlinkte Gebührensatzung wurden direkt geprüft. Der öffentliche AWZ-Tarif (Satzung mit Stand 01.01.2025, Tabellenänderung ab 01.06.2025) nennt beispielhaft Restmüll über 200 kg zu 185 €/t und Sperrmüll über 200 kg zu 172 €/t. Das sind Gebühren für kommunale Abfallannahme, keine Ankaufspreise und kein Beleg für den anonymen privaten Händler-Seed oder dessen Standort. ANKAUF: durch das AWZ kein Ankauf belegt; VERKAUF: keine Liste; GEBÜHREN: nur die genannten AWZ-Entsorgungsgebühren, nicht dem Seed zurechenbar. Keine Frontmatter-Änderung und kein GEO-Pin. Quellen: https://www.landkreis-gifhorn.de/Service/index.php?object=tx%2C4083.1.1&ModID=9&FID=4083.1137.1 ; https://www.landkreis-gifhorn.de/loadDocument.phtml?FID=4083.5960.1&Ext=PDF .]
 
 ### Recherche 24.10.2026
 

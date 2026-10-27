@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite von Fred De Snoo Rohstoffe e.K. beschreibt Schrott-/Metallhandel (Eisen/Stahl und NE-Metalle), Container/Mulden von 5–40 m³ und nennt im Impressum Nicole Macaluso. Die Website nennt Öffnungszeiten Mo–Do 07:00–12:00 und 13:00–16:15, Fr 07:00–12:00 und 13:00–14:00, Sa 08:00–13:00. Die vorhandene HRA-Recherche steht in der Timeline; die eingeschränkten Frontmatter-Felder bleiben gemäß bisherigem Quellenstandard unverändert.
+Der aktuelle Betreiberauftritt nennt Fred De Snoo Rohstoffe e.K., Inhaberin Nicole Macaluso, und beschreibt ausdrücklich einen Schrottplatz mit Anlieferung, Verwiegung und Vergütung vor Ort; das Impressum nennt Lämmerspieler Weg 158, 63075 Offenbach. NorthData bestätigt unabhängig HRA 42548, Inhaberin und Sitz Offenbach, nicht aber die genaue Straße. Öffnungszeiten laut Betreiberseite: Mo–Do 07:00–12:00 und 13:00–16:15, Fr 07:00–12:00 und 13:00–14:00, Sa 08:00–13:00. Die Kundenannahme am Standort ist damit deutlich besser belegt als in früheren Prüfungen; die präzise Straßenadresse bleibt Betreiberangabe, daher keine zusätzliche Frontmatter-Füllung. Sie ist ein konkreter Geo-Recherchekandidat, aber Koordinaten sind nicht gesetzt.
 
 **ANKAUF:** Schrott-/Metallankauf zu aktuellen Tagespreisen beworben, aber keine numerischen Kurse. **VERKAUF:** Metallhandel genannt, keine konkrete Verkaufspreisliste. **GEBÜHREN:** Container-/Muldenservice beschrieben, keine bezifferten Tarife. **GEO:** Betreiber nennt Lämmerspieler Weg 158, 63075 Offenbach als Kontaktadresse; vor Karten-Pin prüfen, ob dies die öffentlich zugängliche Annahmestelle ist.
 
 Die erneut gelesene Leistungsseite beschreibt zusätzlich den Ablauf der Anlieferung: Anmeldung mit Ausweisdokument, Wägung über Fahrzeug- bzw. Handelswaage und Vergütung nach Rückwiegung und Ausladen. Genannte Containergrößen sind 11–40 m³ (Abrollcontainer) bzw. 5–15 m³ (Absetzmulden); das sind Kapazitäten, keine Miet- oder Entsorgungspreise.
 
 ## Timeline
+
+### Recherche 27.10.2026 — öffentliche Annahme und Preisabgrenzung
+
+- [Recherche 27.10.2026: Betreiberseiten für Start, Impressum, Leistungen und Schrott-/Metallhandel direkt geprüft; NorthData HRA 42548 gegengeprüft. Die Website beschreibt einen Schrottplatz und einen konkreten Kundenprozess: Anmeldung mit Ausweis, Fahrzeug-/Handelswaage, Entladen, Rückwiegung und anschließende Vergütung. Sie bewirbt An-/Verkauf von Eisen/Stahl und NE-Metallen zu aktuellen Tagespreisen; Containergrößen 11–40 m³ (Abroll) bzw. 5–15 m³ (Absetz). NorthData bestätigt Fred de Snoo Rohstoffe e.K., AG Offenbach HRA 42548, Inhaberin Nicole Macaluso und Sitz Offenbach; die exakte Straße Lämmerspieler Weg 158 und Annahmeablauf stammen vom Betreiberauftritt. Das macht die Straße zu einem belastbaren Geo-Kandidaten, ohne Koordinaten zu setzen. **ANKAUF:** Tagespreise beworben, keine numerischen Kurse; **VERKAUF:** keine bezifferte Artikelliste; **GEBÜHREN:** keine Container-/Entsorgungstarife, Volumen sind keine Preise; kostenloses Wiegen ist kein Ankaufspreis. Frontmatter gemäß Quellenstandard unverändert. Quellen: https://www.freddesnoo.de/ ; https://www.freddesnoo.de/impressum/ ; https://www.freddesnoo.de/leistungen/ ; https://www.freddesnoo.de/schrott-und-metallhandel/ ; https://www.northdata.de/Fred%20de%20Snoo%20Rohstoffe%20e.K.,%20Offenbach/Amtsgericht%20Offenbach%20am%20Main%20HRA%2042548 .]
 
 ### Recherche 23.10.2026
 

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: geschlossen
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Firmierung „Rainer Ludwig GmbH & Co. KG“ ist bislang nicht register- oder betreiberseitig identifiziert. Neuere Verzeichnissuchergebnisse führen den exakten Namen als Essener Recyclingunternehmen; ScrapMonster nennt eine Familiengründung 1959, ein weiteres lokales Branchenverzeichnis listet Eisenbahnstraße 1. Das sind Verzeichnis-Leads ohne unabhängige Register-/Betreiberbestätigung und lösen weder die historische Eisenbahnstraßen-Spur noch die Seed-Identität. Keine Kontakte anderer Ludwig-Betriebe übernehmen.
+Die Firmierung ist dem Registerrechtsträger **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, zugeordnet. NorthData führt Liquidation (31.01.2023), Frank Ludwig als Liquidator (17.02.2023) und Löschung (22.10.2024); ein WAZ-Bericht bestätigt unabhängig, dass der Schrottplatz der Firma Ludwig an der Eisenbahnstraße den Standort Ende Juni 2023 verließ. `status: geschlossen` bezieht sich auf diesen Rechtsträger und den dokumentierten damaligen Betrieb, nicht auf eine mögliche Nachnutzung oder andere Ludwig-Unternehmen. Die genaue Hausnummer sowie ein Nachfolger/heutiger Betrieb sind nicht belegt; daher keine Adresse, Kontakte oder Koordinate übernommen.
 
-**Offen:** vollständige Firmierung, HRA und heutiger Betreiber sowie genaue Essener Adresse. **ANKAUF:** trotz Branchenbeschreibung kein seed-spezifischer Ankauf oder Preis belegt. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Öffentliche Annahme nicht belegt. **GEO:** Eisenbahnstraße 1 nicht geokodieren, bevor Betreiber und Annahmestelle bestätigt sind.
+**ANKAUF:** keine historischen oder aktuellen Ankaufskurse belegt. **VERKAUF:** keine Teile-/Materialpreisliste. **GEBÜHREN:** keine Tarife. Der damalige Standort ist historisch an der Eisenbahnstraße belegt, aber Hausnummer und aktuelle öffentliche Annahmestelle nicht; keine Geokodierung.
 
 ## Timeline
+
+### Recherche 27.10.2026 — Identitäts- und Statuskorrektur
+
+- [Recherche 27.10.2026: NorthData-Unternehmensseite direkt gelesen: Rainer Ludwig GmbH & Co. KG, AG Essen HRA 4117; Veröffentlichungen nennen Liquidation zum 31.01.2023, Frank Ludwig als Liquidator am 17.02.2023 und Löschung am 22.10.2024. Der WAZ-Bericht vom 28.04.2023 berichtet, die Firma Ludwig verlasse den Schrottplatz an der Eisenbahnstraße Ende Juni 2023. Die beiden voneinander verschiedenen Quellentypen schließen die zuvor offene Identifizierung der historischen Essener KG und ihres Standorts; das Frontmatter wird deshalb von `pruefung` auf `geschlossen` korrigiert, ausschließlich für diesen Rechtsträger. Die Hausnummer 1 stammt weiterhin nur aus einem Branchenverzeichnis; weder aktuelle Nutzung noch Nachfolger bestätigt. Keine Adresse/Kontakte/GEO übertragen. **ANKAUF:** keine belegten Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Quellen: https://www.northdata.de/Rainer%20Ludwig%20GmbH%20%26%20Co%C2%B7%20KG,%20Essen/HRA%204117 ; https://www.waz.de/staedte/essen/article238239161/Laermgeplagte-Essener-erleichtert-Schrottplatz-verschwindet.html .]
 
 ### Recherche 24.10.2026
 

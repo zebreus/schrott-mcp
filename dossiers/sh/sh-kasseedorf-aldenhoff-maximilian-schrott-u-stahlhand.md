@@ -33,6 +33,10 @@ Verzeichniseinträge führen Maximilian Aldenhoff, Schrott- und Stahlhandel, Kr�
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Das Örtliche-Profil wurde direkt erneut gelesen und führt Aldenhoff Maximilian SchrottHdl u. StahlHdl weiterhin an Krückberg 21 A, 23717 Kasseedorf-Sagau, Tel. 04528 303; angezeigte Öffnungszeit ist eine dynamische Portalangabe. Der abweichende Infobel-Lead „Stendorfer Weg“ bleibt ohne Hausnummer und ohne Umzugsbeleg. Beide bleiben Aggregatorhinweise, keine aktuelle Betreiber-/Gewerbebestätigung. Kein Feld-/GEO-Fill. ANKAUF: keine Zahlen; VERKAUF: keine Liste; GEBÜHREN: keine Tarife; „Gratis anrufen“ bleibt nur Telefonvermittlung. Quelle: https://www.dasoertliche.de/Themen/Aldenhoff-Maximilian-SchrottHdl-u-StahlHdl-Kasseedorf-Sagau-Kr%C3%BCckberg ; Gegenlead: https://www.infobel.com/de/germany/schrotthandel_maximilian_aldenhoff/kasseedorf/DE101716193-04528303/businessdetails.aspx .]
+
 ### Recherche 23.10.2026: Adresskonflikt und Preisgrenze
 
 - [Recherche 23.10.2026: Die Suche bestätigt mehrere Verzeichniswiederholungen zu Krückberg 21A/23717 Sagau/04528 303, findet aber auch einen Infobel-Treffer „Stendorfer Weg“ ohne Hausnummer. Keine Quelle belegt einen Umzug oder eine aktuelle Annahmestelle; die Wiederholungen sind keine unabhängigen Betreiberbelege. „Gratis anrufen“ ist der Vermittlungsdienst des Portals, kein Konditionsbeleg. Ankauf: keine Zahlenkurse; Verkauf: keine Liste; Gebühren: kein Tarif. Keine Frontmatter- oder GEO-Änderung. Quellen/Leads: https://www.gelbeseiten.de/gsbiz/002c2171-f50b-4ee1-bd95-224ab020df88 ; https://www.infobel.com/de/germany/schrotthandel_maximilian_aldenhoff/kasseedorf/DE101716193-04528303/businessdetails.aspx .]

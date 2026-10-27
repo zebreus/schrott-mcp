@@ -12,7 +12,7 @@ opening_hours: 'Mo-Fr 09:00-17:00, Sa 10:00-14:00'
 website: ''
 website_status: unbekannt
 status: pruefung
-description: 'Schrotthandel Erlangen-Kriegenbrunn: Stahl-/Eisenschrott (ab 100 kg), NE-Metalle (ab 1 kg), Alu, Elektromotoren; HRA 6851 AG Fuerth'
+description: 'HRA 6851 AG Fürth belegt; Sortiment und Mindestmengen stammen aus Verzeichnissen und sind aktuell nicht bestätigt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -27,6 +27,10 @@ provenance_origin: prose
 Für Walter Königs Schrott und Metalle Inh. Manfred Königs e. K. ist HRA 6851 beim Amtsgericht Fürth belegt. NorthData führt als Geschäftsanschrift Neuenweiherstr. 6, 91056 Erlangen jedoch nur ein Registerereignis von 2010; eine aktuelle Betreiberseite bzw. aktuelle Bestätigung der Annahme fehlt. Die Öffnungszeiten, Telefon- und Annahmeangaben im Seed stammen aus Verzeichnissen und sind keine aktuellen Betreiberangaben. Status `pruefung` bedeutet hier fehlende Bestätigung des aktuellen Betriebs/Annahmeorts, nicht belegte Schließung. **Ankauf:** keine numerischen Kurse gefunden; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Offen bleiben aktuelle Betriebsstelle, Öffnungszeiten und Material-/Mindestmengen.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: NorthData-Profil HRA 6851 erneut gelesen. Der Rechtsträger Walter Königs Schrott und Metalle Inh. Manfred Königs e. K. ist registriert; Neuenweiherstr. 6, 91056 Erlangen erscheint dort nur als historische Anschrift in einer Veröffentlichung vom 22.09.2010. Keine aktuelle Betreiberseite/Kundenannahme gefunden. Präzisierung der Beschreibung: Verzeichnisangaben zu Stahl/Eisen, NE-Metallen, Mindestmengen und Sortiment sind keine aktuell bestätigten Leistungen. Vorhandene Telefon-/Zeitfelder bleiben historische Verzeichniswerte und werden nicht als aktuell bestätigt ausgegeben. Ankauf: keine Kurse; Verkauf: keine Preisliste; Gebühren: keine Tarife. GEO erst nach aktueller Betriebsstellenbestätigung. Quelle: https://www.northdata.de/Walter%20K%C3%B6nigs%20Schrott%20und%20Metalle%20Inh.%20Manfred%20K%C3%B6nigs%20e.%20K.,%20Erlangen/Amtsgericht%20F%C3%BCrth%20HRA%206851 .]
 
 ### Recherche 14.10.2026
 

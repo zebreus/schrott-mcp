@@ -30,6 +30,10 @@ Die früher aus zwei Verzeichnissen abgeleitete Aktivsetzung erfüllt den README
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Das Gelbe-Seiten-Profil wurde direkt erneut gelesen und führt Sattler Schrotthandel & Containerdienst, Ebertstraße 31, 67063 Ludwigshafen, 0621 16650078. Die Portaloberfläche erklärt „Gratis anrufen“ als Telefonvermittlung; daraus folgen weder Gratisabholung noch kostenfreie Annahme. Kein Betreiberimpressum oder Registerbeleg, Mobilnummer/E-Mail des Facebook-Suchauszugs weiter nicht direkt verifiziert. Keine Feldänderung und kein GEO-Upgrade. ANKAUF: keine Kurse/Annahmebedingungen. VERKAUF: keine Liste. GEBÜHREN: keine Container-, Abhol- oder Entsorgungstarife. Quelle: https://www.gelbeseiten.de/gsbiz/08773b28-957c-4f90-b088-996752851b38 .]
+
 ### Recherche 08.10.2026 (neuer Social-Kandidat)
 
 - [Recherche 08.10.2026: Eigenständige Suche findet einen Betreiber-Social-Kandidaten „S.Sattler Schrotthandel & Containerdienst“, Facebook-Seite mit Ebertstraße / Ludwigshafen / 67063, Mobil +49 176 31231155 und sattler-schrott@gmx.de im Suchauszug. Einzelabruf liefert keinen lesbaren Seiteninhalt; Hausnummer 31 und Zuordnung zum Frontmatter-Festnetz dadurch nicht primärbestätigt. Damit ist ein möglicher Zusammenhang zur bislang abweichenden Cylex-Mobilnummer dokumentiert, nicht abschließend geklärt. Keine Mail/Website/Mobilnummer ins Frontmatter übernommen, vorhandene Adresse/Festnetz als Legacy erhalten, status pruefung. ANKAUF/VERKAUF/GEBÜHREN: keine bestätigte numerische Liste. Offen: Seiteninhaber, heutige Geschäftsadresse, Festnetz versus Mobilnummer, Container-/Annahmebedingungen. Quelle(n): https://www.facebook.com/p/SSattler-Schrotthandel-Containerdienst-100035059966357 (Suchauszug, Direktabruf ohne lesbaren Inhalt) ; https://www.gelbeseiten.de/gsbiz/08773b28-957c-4f90-b088-996752851b38 ; https://web2.cylex.de/firma-home/sattler-schrotthandel-_-containerdienst-13388938.html.]

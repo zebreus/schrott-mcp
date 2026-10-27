@@ -31,6 +31,10 @@ Historischer Händler-Lead „Altstoffe Joachim Ducoffre“ in Bedburg, aber akt
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: NorthData-Registerspiegel HRA 32232 direkt erneut geprüft. Die Veröffentlichungsübersicht führt 2016 Inhaber-/Sitzänderungs- und Löschungsereignisse zu „Altstoffe Joachim Ducoffre“/Britta Ducoffre e.K.; der Spiegel zeigt Überschriften, aber nicht den amtlichen Originaltext. Daraus lässt sich weder sichere Betriebseinstellung noch Fortführung/Übertragung an einen Nachfolger ableiten. 11880 führt weiterhin Graf-Salm-Str. 33, während ein anderer Portalhinweis 33a nennt; beides bleibt unbestätigte historische Spur. RRK bleibt separat. Keine Felder, Preise oder GEO geändert. **ANKAUF/VERKAUF/GEBÜHREN:** keine zuordenbaren Listen oder Tarife. Quellen: https://www.northdata.de/Altstoffe%20Joachim%20Ducoffre,%20Inh%C2%B7:%20Britta%20Ducoffre%20e%C2%B7%20K%C2%B7,%20Bedburg/Amtsgericht%20K%C3%B6ln%20HRA%2032232 ; https://www.11880.com/branchenbuch/bedburg-erft/060440090B102609685/altstoffe-joachim-ducoffre.html .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.9926000, 6.5713000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

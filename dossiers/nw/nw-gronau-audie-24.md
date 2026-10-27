@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Erheblicher Identitäts-/Branchenklärfall, nicht einfach ein Händler ohne Website. NorthData führt eine ehemalige AuDie 24 GmbH (HRB 16360 Coesfeld/HRB 15250 Aachen) unter Feuerbestattung Nottuln GmbH, gelöscht 2025; Unternehmensgegenstand Krematorium. Die auffindbare AuDie-Website gehört dagegen laut Impressum einer AuDie GmbH, HRB 5932 Coesfeld, und beschreibt automatisierte Dienstleistungen/Arztterminsoftware. Ein aktueller 11880-Suchlead zu AuDie 24 GmbH/Altmaterialhandel an Esteresch 6 löst die widersprüchlichen Rechtsträger nicht auf. Keine Schrotttätigkeit primär belegt, keine Kontakte/Website ins Frontmatter übernommen, keine Schließung des unidentifizierten Seed-Händlers behauptet. **Ankauf:** keine zuordenbaren Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Angaben.
+Erheblicher Identitäts-/Branchenklärfall, nicht einfach ein Händler ohne Website. NorthData führt zwei verschiedene historische Rechtsträger: AuDie 24 GmbH (HRB 16360), später Feuerbestattung Nottuln GmbH, Gegenstand Krematorium, gelöscht 2025; sowie AUDie Sekundär-Rohstoff-Management GmbH (HRB 5932), Gegenstand Sekundärrohstoffvermittlung und Software, liquidiert/gelöscht 2010. Die auffindbare, copyrightmäßig 2007–2008 datierte AuDie-Website nennt HRB 5932 und beschreibt Arztterminsoftware; sie ist kein aktueller Betriebsbeleg. Ein 11880-Lead zu AuDie 24 GmbH/Altmaterialhandel an Esteresch 6 löst weder die Rechtsträgerkonflikte auf noch beweist er einen Schrottbetrieb. Keine Kontakte/Website ins Frontmatter übernommen und keine Schließung des unidentifizierten Seed-Händlers behauptet.
+
+**ANKAUF:** keine zuordenbaren Kurse. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Angaben.
 
 ## Timeline
+
+### Recherche 27.10.2026 — zweiter historischer Rechtsträger
+
+- [Recherche 27.10.2026: NorthData-Seite zu Amtsgericht Coesfeld HRB 5932 direkt geprüft. Der Rechtsträger wird als AUDie Sekundär-Rohstoff-Management GmbH geführt; Gegenstand war Sekundärrohstoffverwertung/-vermittlung sowie Software für Landwirtschaft/Umwelt. Die Registerübersicht nennt Liquidation 03.09.2010 und Löschung 16.12.2010. Damit ist die bisherige Verknüpfung des veralteten audie24.com-Impressums („AuDie GmbH“, HRB 5932) mit einem aktuellen Schrotthändler nicht haltbar. Separat bleibt AuDie 24 GmbH/HRB 16360, später Feuerbestattung Nottuln GmbH, im Krematoriumszusammenhang und 2025 gelöscht. Der 11880-Schrotthandelslead an Esteresch 6 stellt keine Verbindung zu einem der Rechtsträger her. Keine Identitäts-, Status-, Adress- oder GEO-Übernahme für den Seed. **ANKAUF/VERKAUF/GEBÜHREN:** keine zurechenbaren Schrottpreise/Tarife. Quellen: https://www.northdata.de/AuDie%20GmbH,%20Gronau/Amtsgericht%20Coesfeld%20HRB%205932 ; https://www.northdata.de/Feuerbestattung%20Nottuln%20GmbH,%20Gronau/Amtsgericht%20Coesfeld%20HRB%2016360 ; http://www.audie24.com/CompanyDetails.html ; https://www.11880.com/branchenbuch/gronau-westfalen/060440090B73359953/audie-24-gmbh.html .]
 
 ### Recherche 16.10.2026 — Welle 13:00 B
 

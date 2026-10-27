@@ -92,7 +92,8 @@ CREATE TABLE IF NOT EXISTS article_acceptance_owners (
 
 /// View + variant-index DDL, applied AFTER migrations (SQLite validates
 /// indexes and view bodies at CREATE time, so they must come after the
-/// columns exist).
+/// columns exist). Wahl & Co.'s operator-labeled daily-dependent prices are
+/// visible only while their own source timestamp is no more than 24 hours old.
 pub(super) const VIEW: &str = "
 CREATE INDEX IF NOT EXISTS idx_prices_trader_material_variant
     ON prices(trader_id, material_id, variant);
@@ -106,7 +107,14 @@ SELECT t.slug AS trader_slug, t.name AS trader, t.city, t.postcode, t.state,
 FROM current_prices c
 JOIN prices p ON p.id = c.price_id
 JOIN traders t ON t.id = c.trader_id
-JOIN materials m ON m.id = c.material_id;
+JOIN materials m ON m.id = c.material_id
+WHERE t.slug <> 'th-zella-mehlis-wahl-co-inh-thomas-madeiski'
+   OR p.source_url <> 'https://wahlundco.de/'
+   OR (
+       p.published_at IS NOT NULL
+       AND julianday(p.published_at) >= julianday('now', '-24 hours')
+       AND julianday(p.published_at) <= julianday('now')
+   );
 ";
 
 /// Price kinds: `exact` (list price), `upto` (upper bound, "bis zu"),
@@ -2238,6 +2246,68 @@ mod tests {
         // The convenience view exposes the same row pre-joined.
         let view = db.test_query("SELECT trader, material, price, published FROM v_current_prices");
         assert_eq!(view.len(), 1);
+    }
+
+    #[test]
+    fn current_view_hides_wahl_quotes_outside_the_daily_source_window() {
+        const WAHL_SLUG: &str = "th-zella-mehlis-wahl-co-inh-thomas-madeiski";
+        const WAHL_URL: &str = "https://wahlundco.de/";
+        let (_dir, db, trader, material) = setup("wahl-view-expiry");
+        let (fresh, stale, future): (String, String, String) = db
+            .lock()
+            .expect("lock")
+            .query_row(
+                "SELECT strftime('%Y-%m-%dT%H:%M:%SZ', 'now', '-23 hours'),
+                        strftime('%Y-%m-%dT%H:%M:%SZ', 'now', '-25 hours'),
+                        strftime('%Y-%m-%dT%H:%M:%SZ', 'now', '+25 hours')",
+                [],
+                |row| Ok((row.get(0)?, row.get(1)?, row.get(2)?)),
+            )
+            .expect("SQLite clock values");
+
+        db.lock()
+            .expect("lock")
+            .execute(
+                "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                rusqlite::params![WAHL_SLUG, trader],
+            )
+            .expect("set Wahl slug");
+
+        for (variant, published_at, source_url) in [
+            ("fresh", fresh.as_str(), WAHL_URL),
+            ("stale", stale.as_str(), WAHL_URL),
+            ("future", future.as_str(), WAHL_URL),
+            (
+                "other-source-stale",
+                stale.as_str(),
+                "https://other.example/prices",
+            ),
+        ] {
+            db.record_price(&NewPrice {
+                variant,
+                source_url,
+                published_at: Some(published_at),
+                observed_at: published_at,
+                ingested_at: published_at,
+                ..price(trader, material, 5.0, published_at, published_at)
+            })
+            .expect("record source observation");
+        }
+
+        let visible = db.test_query(&format!(
+            "SELECT variant FROM v_current_prices WHERE trader_slug = '{WAHL_SLUG}' ORDER BY variant"
+        ));
+        assert_eq!(
+            visible,
+            vec![
+                vec!["fresh".to_owned()],
+                vec!["other-source-stale".to_owned()]
+            ]
+        );
+        assert_eq!(
+            db.test_query("SELECT COUNT(*) FROM current_prices"),
+            vec![vec![serde_json::json!(4)]]
+        );
     }
 
     #[test]

@@ -29,6 +29,10 @@ Die Betreiber-Domain ist per HTTP direkt erreichbar und zeigt die Aussage "Seit 
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Offizielle Domain meldet weiterhin „Seit 01.07.2026 geschlossen“ und nennt kontakt@goldankauf-am-markt.de, ohne Impressum/Person/Registernummer. 11880 (zuletzt aktualisiert 03.10.2026) und GOLD.DE führen weiterhin einen alten Eintrag mit Marktstr. 2a/Telefon, aber beide sind Verzeichnisse und kein aktueller Betriebsgegenbeleg; die Zuordnung zu Susanne Kluesener-Taube bleibt unbewiesen. GOLD.DE-Seitenkurse/Spotwerte sind allgemeine Portalwerte, keine Händlerpreisliste. Ankauf: keine aktuellen, zurechenbaren Kurse; Verkauf: keine Preisliste; Gebühren: keine Angaben. Nicht geokodieren, solange die Domain Schließung behauptet und die Identität offen ist. Quellen: http://goldankauf-am-markt.de/ ; https://www.11880.com/branchenbuch/voelklingen/181726177B102131419/goldankauf-am-markt-susanne-kluesener-taube.html ; https://www.gold.de/goldankauf/saarbruecken/ .]
+
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Betreiber-Domain direkt abgerufen: weiterhin Einseiter mit dem Titel „Seit 01.07.2026 geschlossen“ und kontakt@goldankauf-am-markt.de; kein Impressum, keine Registerangabe und kein Personenname auf der Seite. Damit bleibt die Schließung eine nicht unabhängig zugeordnete Selbstaussage der Domain und reicht nicht für `geschlossen` beim auf Susanne Kluesener-Taube bezogenen Datensatz. Keine Daten-/Statusänderung. Keine aktuelle Ankaufspreisliste, Verkaufspreise oder Gebühren gefunden. Quelle: http://goldankauf-am-markt.de/ .]

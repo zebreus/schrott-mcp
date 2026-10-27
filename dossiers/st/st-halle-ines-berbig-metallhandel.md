@@ -32,6 +32,10 @@ Die historische Verbindung zwischen Ines Berbig, dem früheren Standort Freiimfe
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Betreiberseiten zu Historie, Impressum und Produkten sowie NorthData HRB 14537 erneut geprüft. Metall-Blitz GmbH nennt Ines Berbig als Gründerin/Geschäftsführerin und Fiete-Schulze-Str. 5 als aktuelle Adresse; Produktangebot sind neue Dachentwässerung, Bleche, Coils, NE-Metalle und Lohnarbeiten. Das belegt weder rechtliche Nachfolge des importierten „Ines Berbig Metallhandel“ noch aktuellen Schrott-/Altmetallankauf. Ankauf: keine Schrottkurse; Verkauf: Neuwaren ohne öffentliche Preisliste; Gebühren: keine Lohnarbeits-/Entgelttarife. Keine Stammdatenübertragung oder GEO. Quellen: https://www.metall-blitz.de/ueber-uns.html ; https://www.metall-blitz.de/impressum.php ; https://www.metall-blitz.de/produkte.php ; https://www.northdata.de/Metall-Blitz+GmbH,+Halle/Amtsgericht+Stendal+HRB+14537 .]
+
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 
 - [Recherche 24.10.2026: Betreiberchronik, Impressum und Produktseite erneut gegengeprüft. Metall-Blitz GmbH nennt Ines Berbig als Gründerin/Geschäftsführerin und HRB 14537; die Produktseiten bewerben neue Dachentwässerung, Bleche, Coils, NE-Metalle und Lohnarbeiten. Das ist weiter eine plausible historische Verbindung, aber kein unabhängiger Beleg einer Rechtsnachfolge aus dem als „Ines Berbig Metallhandel“ importierten Datensatz und kein aktueller Schrottankaufbeleg. ANKAUF: keine Altmetallkurse; VERKAUF: Neuwarenangebot ohne Preisliste; GEBÜHREN: keine Lohnarbeits-/Entgelttarife. Keine Adress-/Kontaktdatenübertragung oder GEO. Quellen: https://www.metall-blitz.de/ueber-uns.html ; https://www.metall-blitz.de/impressum.php ; https://www.metall-blitz.de/produkte.php ; https://www.northdata.de/Metall-Blitz+GmbH,+Halle/Amtsgericht+Stendal+HRB+14537 .]

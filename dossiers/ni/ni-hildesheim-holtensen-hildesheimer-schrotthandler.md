@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-**Orts-/Identitätsklärfall:** Der exakte Name erscheint im direkt gelesenen Portal lokaleschrottplatz.de unter Wennigsen (Deister), nicht als bestätigter Betrieb in Hildesheim-Holtensen. Dort genannte 0176 23574787 ist nur ein Recherchekontakt; ein Suchtreffer verbindet dieselbe Nummer mit „Miro Metall Schrott Handel“ in einer Facebook-Gruppe, aber kein gelesenes Betreiberprofil/Impressum bestätigt diese Brücke. Keine Umbenennung oder Ortskorrektur allein aus Portalen.
+**Orts-/Identitätsklärfall:** Der exakte Name war auf lokaleschrottplatz.de unter Wennigsen (Deister) geführt; der direkte Abruf dieser Seite liefert nun 404. Ein anderes, nicht beanspruchtes Branchenportal führt „Miro Metall Schrott Handel“ an An der Innerste-Au 2, Hildesheim-West, mit derselben Rufnummer 0176 23574787. Das kann eine Hildesheimer Spur sein, verbindet aber weder Miro mit dem Seed noch löst es die frühere Wennigsen-Zuordnung. Keine Umbenennung oder Ortskorrektur allein aus Portalen.
 
 **Ankauf:** kein zurechenbarer Betreiber-/Preisbeleg. **Verkauf:** keine verifizierte Liste. **Gebühren:** keine verifizierte Liste; die Portal-Mindestmengen und generischen Materiallisten sind keine Annahmebedingungen dieses Seeds. **GEO:** zuerst tatsächlichen Betreiber und Ort klären; weder Hildesheim-Holtensen noch Wennigsen pauschal punktieren. `pruefung` und leere Kontaktfelder bleiben.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Das Portal Werkenntdenbesten führt „Miro Metall Schrott Handel“ an An der Innerste-Au 2, 31139 Hildesheim-West, Tel. 0176 23574787; der Datensatz ist mit 23.10.2026 aktualisiert und enthält den Hinweis „Ihre Firma? Jetzt übernehmen!“, also keinen beanspruchten Betreiberauftritt. Dieselbe Telefonnummer war bereits mit dem Portalprofil „Hildesheimer Schrotthändler“ unter Wennigsen verknüpft; die genaue frühere Portal-URL liefert heute 404. Gemeinsame Nummer und Portaltexte sind keine ausreichende Identitätskette und kein Beleg für Holtensen. Kein Feld-/GEO-Fill. ANKAUF: keine zurechenbaren Preise; VERKAUF: keine verifizierte Liste; GEBÜHREN: keine verifizierte Liste. Quelle: https://www.werkenntdenbesten.de/e/113457192/schrotthandel/hildesheim/miro-metall-schrott-handel-bewertungen.html ; https://lokaleschrottplatz.de/hildesheimer-schrotthaendler/ (404 am 27.10.2026, kein Schließungsbeleg).]
 
 ### Recherche 26.10.2026 — Ortszuordnung erneut gegengeprüft
 

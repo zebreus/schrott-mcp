@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der bestehende Lead Soby GmbH passt zu einem Verzeichniseintrag „Soby – GmbH Autoverwertung und Abschleppdienst“ für Dorfstraße 17a, 39326 Zielitz/Schricke, Telefon 039208 2278. Zwei direkt gelesene Recycling-/Schrottplatz-Portale führen weitgehend gleiche Angaben; beide bleiben jedoch Verzeichnisse und ersetzen keine Betreiber- oder Registerquelle. Öffnungszeiten und Angebotsangaben sind daher nicht als bestätigt übernommen.
+Der Zielitz/Schricke-Lead „Soby – GmbH Autoverwertung und Abschleppdienst“, Dorfstraße 17a, 39326, bleibt ein Verzeichnisstandort ohne aktuellen Kundenannahmebeleg. Ein Registerprofil für **Soby - GmbH - Autoverwertung und Abschleppdienst**, HRB 105155 AG Stendal, nennt als Sitz Dorfstr. 5, 39326 Loitsche und führt die Gesellschaft seit Mai 2026 in Liquidation; ein Liquidator wurde bestellt. Name und Unternehmensgegenstand passen zum Branchenlead, stützen also eine mögliche Identitätsverknüpfung, belegen aber weder die Zielitz-Filiale noch deren Schließung oder Publikumsbetrieb. Loitsche ist der Register-/Sitzort, nicht ungeprüft die Kundenannahmestelle.
 
-**Preise:** ANKAUF: kein numerischer Kurs; ein Portal behauptet Annahme verschiedener Eisen-/NE-Metalle und Mindestmengen von 100 kg Eisen bzw. 1 kg NE, aber keine Vergütung. VERKAUF: keine Ersatzteil-/Materialpreisliste gefunden. GEBÜHREN: keine Tarife für Abschleppen, Fahrzeugentsorgung oder Annahme. Die PLZ 39326 ist ein Kandidat; Anschrift/GEO erst nach Betreiberbeleg übernehmen.
+**Preise:** ANKAUF: kein numerischer Kurs; Portalangaben zu Metallannahme/Mindestmengen sind unbestätigt. VERKAUF: keine Ersatzteil-/Materialpreisliste gefunden. GEBÜHREN: keine Tarife für Abschleppen, Fahrzeugentsorgung oder Annahme. Status bleibt `pruefung`; die Registerliquidation rechtfertigt nicht, die Zielitz-Adresse als geschlossen einzustufen. Dorfstr. 17a erst nach Verifikation der Filiale/Kundenannahme geokodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Registerprofil HRB 105155 AG Stendal direkt geprüft: Rechtsträger „Soby - GmbH - Autoverwertung und Abschleppdienst“, Sitz Dorfstr. 5, 39326 Loitsche, Status i.L.; Liquidationsveröffentlichung vom 04.05.2026 und Bestellung des Liquidators Rainer D. Sobitzkat am 18.05.2026. Unternehmensgegenstand umfasst u. a. Abschleppen, Ankauf beschädigter Fahrzeuge, gebrauchte Teile, Autoverwertung und Schrotthandel. Das passt zum Namen/Gegenstand des Zielitz-Verzeichnisleads und ist ein Identitätsindiz, aber kein Beleg, dass Dorfstr. 17a in Zielitz eine Filiale/Kundenannahmestelle ist oder dass diese vor Ort geschlossen wurde. Keine Änderung des Zielitz-Status/-Orts; Loitsche nicht als Kundenpunkt übernehmen. Ankauf: keine Tarife; Verkauf: keine Teilepreise; Gebühren: keine Abschlepp-/Entsorgungssätze. GEO erst nach Filialklärung. Quelle: https://www.northdata.de/Soby%20-%20GmbH%20-%20Autoverwertung%20und%20Abschleppdienst,%20Loitsche/Amtsgericht%20Stendal%20HRB%20105155 .]
 
 ### Recherche 23.10.2026
 

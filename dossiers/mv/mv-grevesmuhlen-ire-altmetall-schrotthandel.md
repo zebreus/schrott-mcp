@@ -31,6 +31,10 @@ Abgrenzung jetzt anhand einer Primärquelle: **GVM Schrott- & Altmetallhandel / 
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Betreiberseite/Impressum des örtlichen Händlers GVM direkt geprüft: Björn Makarewicz, GVM Schrott- & Altmetallhandel, Grüner Weg 11, 23936 Grevesmühlen, eigene Telefonnummer. Dies bestätigt einen getrennten lokalen Betrieb und ist keine Identitäts-, Nachfolge- oder Standortbestätigung für IRE GbR, Jahnstr. 7. IRE bleibt ein Verzeichnislead; „Annahme ab 1 kg/aktuelle Preise“ ist nicht als Betreiberangabe bestätigt und enthält keinen Kurs. Ankauf: keine IRE-Preisliste; Verkauf: keine Liste; Gebühren: keine Tarife. Jahnstr. 7 nicht mit GVM verknüpfen/geokodieren, bis IRE-Betreiber und Kundenannahme geklärt sind. Quelle zur Abgrenzung: https://www.gvm-schrott.de/kontakt-impressum .]
+
 ### Recherche 21.10.2026 — Abgrenzung zum örtlichen Wettbewerber, Preise
 
 - [Recherche 21.10.2026: Die aktuelle eigene Kontakt-/Impressumsseite von GVM weist Björn Makarewicz, GVM Schrott- & Altmetallhandel, Grüner Weg 11, 23936 Grevesmühlen, unter eigener Telefonnummer aus. Diese Primärquelle belegt einen anderen örtlichen Händler, aber keine Identität, Nachfolge oder Annahme am Seed-Standort Jahnstr. 7 für IRE GbR; keine GVM-Kontakte/Materialangaben auf IRE übertragen. Die aus dem Portal überlieferte IRE-Aussage „Annahme ab 1 kg/aktuelle Preise“ ist nicht unabhängig als Betreiberbedingung bestätigt und nennt keinen konkreten Preis. ANKAUF: keine verifizierte IRE-Preisliste; VERKAUF: keine Liste; GEBÜHREN: keine Tarifangabe. Quelle (Primärquelle für den getrennten GVM-Betrieb): https://gvm-schrott.de/kontakt-impressum]

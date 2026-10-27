@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Die mögliche Betreiberseite nennt **ALIBABA Schrottabholung / Akif Kaplan**, Henriette-Ackermann-Str. 5, 50827 Köln. Sie beschreibt mobile Schrottabholung, Demontage, Haushaltsauflösung, Transporte und Kfz-Ankauf. Mangels unabhängigem Identitätsbeleg bleibt dies eine **Betreiber-Einzelquelle**; Adresse und Website werden nicht zu einer bestätigten Anlieferstelle in Köln-Ehrenfeld erklärt.
+Die mögliche Betreiberseite nennt **ALIBABA Schrottabholung / Akif Kaplan**, Henriette-Ackermann-Str. 5, 50827 Köln. Sie beschreibt mobile Schrottabholung, Demontage, Haushaltsauflösung, Transporte und Kfz-Ankauf. Mangels unabhängigem Identitätsbeleg bleibt dies eine **Betreiber-Einzelquelle**; Adresse und Website werden nicht zu einer bestätigten Anlieferstelle in Köln-Ehrenfeld erklärt. Auf den erneut geprüften Seiten stehen zudem generische Vorlagentexte („Nature’s Symphony“, „Faces of Humanity“) und Platzhalterelemente, was die Aussagekraft des Auftritts zur aktuellen Geschäftstätigkeit weiter einschränkt.
 
 Präzisierung der Kontaktlage: Hauptnummer **01577 4606440** ist auf der geprüften Seite mit ihrem tel-Link konsistent. Der Widerspruch betrifft die zusätzliche Nummer: Text 07164 7667363, Link 01764 7667363. Die frühere pauschale Aussage zu widersprüchlichen Nummern ist damit enger zu verstehen; ein qualifizierter zweiter Kontakt-/Identitätsbeleg fehlt trotzdem.
 
 Schrottabholung bedeutet nicht automatisch vergüteten Metallankauf; **Kfz-Ankauf ist ein anderes Angebot**. Die geprüfte Leistungsseite nennt keine numerische Metallankaufliste oder verbindliche Gebühren. Kontaktzeiten Mo–Sa 07–22 Uhr sind keine belegten Öffnungszeiten eines Annahmehofs.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Impressum und Leistungsseite direkt erneut geprüft. ALIBABA Schrottabholung/Akif Kaplan nennt Henriette-Ackermann-Str. 5, 50827 Köln, +49 1577 4606440 und akifkaplan@hotmail.de. Die Hauptnummer ist intern konsistent; am Footer bleibt die zusätzliche Nummer widersprüchlich (sichtbarer Text 0716 4766 7363, tel-Link 0176 4766 7363). Die Seiten enthalten außerdem generische Platzhaltertexte („Nature’s Symphony“, „Faces of Humanity“) und belegen weder den aktuellen Geschäftsbetrieb noch eine öffentliche Anlieferstelle. Keine zweite Identitätsquelle oder Registerangabe gefunden; keine Frontmatter-Fills/GEO. **ANKAUF:** Abholung/Autokauf beworben, keine bezifferte Schrottvergütung; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Preis-/Gebührenordnung, kostenlose Abholung nicht als allgemeine Bedingung unterstellt. Quellen: https://www.schrottabholung-alibaba.de/impressum ; https://www.schrottabholung-alibaba.de/schrottabholung ; https://www.schrottabholung-alibaba.de/ .]
 
 ### Recherche 05.10.2026
 

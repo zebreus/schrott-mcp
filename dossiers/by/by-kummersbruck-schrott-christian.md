@@ -28,6 +28,10 @@ Telefonbuch-Lead „Schrott Christian“, Wölsenbergstr. 15A, Kümmersbruck-The
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Frische Suche nach „Schrott Christian“/Wölsenbergstr. 15A findet weiter nur Gelbe Seiten und Das Örtliche; kein Betreiberauftritt, Register-/Gewerbebeleg oder individuelle Leistungsbeschreibung. NorthData-Suche nach Christian Schrott führt kein eindeutig zuordenbares Metallhandelsunternehmen; Namensgleichheit/Familienname bleibt unaufgelöst. Adresse/Telefon bleiben ausnahmsweise übernommene Verzeichniswerte, keine aktuelle Kundenannahmebestätigung. Ankauf: keine Kurse; Verkauf: keine Liste; Gebühren: keine Tarife. Keine GEO, bevor Gewerbe und Kundenstandort geklärt sind. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/93ff8de8-da75-47c2-910f-fd80985830d2 ; https://adresse.dastelefonbuch.de/K%C3%BCmmersbruck/1-Schrott-Christian-Schrott-K%C3%BCmmersbruck-W%C3%B6lsenbergstr.html ; https://www.northdata.de/Schrott,%20Christian,%20K%C3%BCmmersbruck/qce .]
+
 ### Recherche 26.10.2026
 
 - [Recherche 26.10.2026: Frische Suche bestätigt nur die bestehenden Gelbe-Seiten-/Telefonbuch-Spuren „Schrott Christian“, Wölsenbergstr. 15A, 92245 Kümmersbruck-Theuern, 09624 931455. Kein Betreiberauftritt, Gewerbe-/Registerbeleg oder individuelle Annahmebeschreibung gefunden; ein namensgleiches Personenprofil mit Vereinsfunktionen löst die Identität weiterhin nicht. Keine Änderung an den ausnahmsweise übernommenen Altwerten, keine Aktivierung oder Schließung. Ankauf/Verkauf/Gebühren: keine Händlerpreise belegt. Wölsenbergstr. 15A nicht geokodieren, bis Gewerbe und Kundenannahme bestätigt sind. Quellen (Leads): https://www.gelbeseiten.de/gsbiz/93ff8de8-da75-47c2-910f-fd80985830d2 ; https://adresse.dastelefonbuch.de/K%C3%BCmmersbruck/1-Schrott-Christian-Schrott-K%C3%BCmmersbruck-W%C3%B6lsenbergstr.html .]

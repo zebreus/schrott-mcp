@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Importnotiz beschreibt einen mobilen Sammler von E-Motoren/Hartmetall, der „firmiert Hamburg“ und in Schleswig-Holstein tätig sei; dafür sind im Dossier weder Beleg noch genaue Adresse dokumentiert. Die Recherchen vom 01./02.10. fanden keinen verifizierbaren Betreiber-, Register- oder Gewerberegisterbeleg. Eine erneute namens-/ortsbezogene Websuche am 24.10. lieferte keinen eindeutig zuordenbaren Betrieb. Das ist kein Negativbefund zu einem amtlichen Register und kein Schließungsnachweis; `status: pruefung` bleibt.
+Die Importnotiz beschreibt einen mobilen Sammler von E-Motoren/Hartmetall, der „firmiert Hamburg“ und in Schleswig-Holstein tätig sei; dafür sind im Dossier weder Beleg noch genaue Adresse dokumentiert. Ein aktueller Erstauftritt namens Timo Müller Altmetall weist dagegen einen Betreiber in Reinbek mit Einsatzgebiet Hamburg aus, ohne Herzhorn oder die importierten Materialien zu nennen. Das ist ein möglicher Namensvetter, keine belegte Verbindung. Die Recherchen fanden keinen verifizierbaren Link zum Seed; `status: pruefung` bleibt.
 
 **Ankauf:** nicht bestätigt, keine Material- oder Ankaufspreise. **Verkauf:** keine zuordenbare Verkaufsliste. **Gebühren:** keine belegten Abhol-, Transport- oder Entsorgungstarife. **Geokodierung:** keine Adresse oder Annahmestelle belegt; als mutmaßlich mobiler Sammler derzeit nicht geokodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Der direkt gelesene Betreiberauftritt Timo Altmetall nennt im Impressum Timo Müller, Heckenweg 6, 21465 Reinbek, Tel. 0151 20132666, und als Tätigkeitsgebiet „in und um Hamburg“. Die Website bewirbt Altmetall-An- und -Verkauf (u. a. Eisen, Kupfer, Aluminium), veröffentlicht aber keine numerischen Kurse; für Eisenschrott-Abholung wird eine Anfahrtsgebühr erwähnt, ohne Betrag. Weder Herzhorn noch E-Motoren/Hartmetall oder eine Verbindung zur Seed-Angabe werden genannt. Wegen Namens-/Ortsabweichung keine Kontaktdaten oder Website übertragen und die Reinbeker Adresse nicht als Herzhorn-Standort geokodieren. ANKAUF: Sortiment allgemein beworben, keine Zahlen; VERKAUF: allgemeiner Altmetallverkauf, keine Preisliste; GEBÜHREN: Anfahrtsgebühr bei Eisenschrottabholung, Betrag offen und nur für diesen Kandidaten. Quellen: https://timo-altmetall.de/ ; https://timo-altmetall.de/impressum/ ; https://timo-altmetall.de/altmetall-an-und-verkauf/ ; https://timo-altmetall.de/abholung-altmetall-eisen-gegen-aufpreis/ .]
 
 ### Recherche 24.10.2026
 

@@ -29,6 +29,10 @@ REWIMET e.V. ist ein Rohstoff-/Recyclingnetzwerk, kein als Schrotthändler beleg
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die aktuelle REWIMET-Website und Mitgliederseite wurden direkt gelesen. Sie führen das Netzwerk aus Unternehmen, Wissenschaft und öffentlicher Hand mit Geschäftsstelle Leibnizstraße 23, 38678 Clausthal-Zellerfeld, Tel. 05323 722298 und info@rewimet.de; Mitgliedsunternehmen stellen laut Verein die Recyclingkapazitäten bereit. Das bestätigt den Organisationssitz/Kontakt, aber nicht einen eigenen Schrottplatz, Kundenannahme, Ankauf oder Verkauf durch REWIMET. Keine Kapazitäten der Mitglieder als eigene Leistungen ausweisen. ANKAUF: kein eigener Kurs; VERKAUF: keine Liste; GEBÜHREN: keine Händlergebühren. Kein GEO-Pin als Annahmestelle. Quellen: https://www.rewimet.de/ ; https://www.rewimet.de/mitglieder/ .]
+
 ### Recherche 26.10.2026 — aktueller Betreiberauftritt
 
 - [Recherche 26.10.2026: Die aktuelle REWIMET-Website wurde direkt erneut geprüft; sie beschreibt REWIMET e.V. als Netzwerk von Unternehmen, Wissenschaft und öffentlicher Hand und nennt aktuelle Vereinsnachrichten aus 2026. Die Website ist damit als aktiver Organisationsauftritt belegt, nicht als Schrottankäufer oder öffentlicher Annahmeplatz. Kein Ankauf, Materialverkauf oder Entsorgungstarif für REWIMET selbst veröffentlicht; daraus weder Schließung noch Händlerstatus ableiten. Offizielle Website in Frontmatter ergänzt, `status: unbekannt` und Geschäftsstelle unverändert. Quelle: https://www.rewimet.de/ .]

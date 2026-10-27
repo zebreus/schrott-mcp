@@ -28,6 +28,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Das Portal Schrottplatz-Info führt „Schrott-Metall GmbH“ in zwei inhaltlich duplizierten Einträgen an Gauern 66; genannt werden 036608 2 07 39 bzw. 036608 23 23. Kein verifizierter Betreiberlink, keine Öffnungszeiten und keine konkrete Leistungsbeschreibung; die Wiederholung ist kein unabhängiger Zweitbeleg. Kein Register-/Betreiberbeleg, keine Verknüpfung mit SMG Gera. Ankauf: keine Preise; Verkauf: keine Preisliste; Gebühren: keine Tarife. Adresse erst nach Identitäts- und Betriebsnachweis geokodieren. Quelle (Portal-Lead): https://www.schrottplatz-info.de/schrottplatz/Ronneburg/Schrott-Metall-GmbH .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Schrottplatz-Info listet Schrott-Metall GmbH in Gauern 66, 07580 Gauern, Tel. 036608 2 07 39; derselbe Portalabruf enthält einen zweiten Datensatz am Ort mit Tel. 036608 23 23 und unvollständigen Öffnungszeiten. Der Homepage-Link ist nicht verwertbar. Fa-24-Unternehmensportal-Suchhinweis führt zwar dieselbe Straße, aber eine sachfremd abweichende Rufnummer; keine Betreiber- oder Registerquelle bestätigt die Zuordnung. Nicht mit SMG Gera oder anderen Metallbetrieben zusammengeführt. ANKAUF/VERKAUF/GEBÜHREN: keine Zahlenlisten. GEO bleibt zurückgestellt, weil Hausnummer/Betreiber/öffentlicher Zugang ungeklärt sind. Quellen: https://www.schrottplatz-info.de/schrottplatz/Ronneburg/Schrott-Metall-GmbH (Aggregator); https://fa-24.com/unternehmen/schrott-metall-gmbh1 (Branchenportal-Lead).]

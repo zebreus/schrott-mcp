@@ -30,6 +30,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Beide 11880-Detailprofile erneut direkt geprüft. Karl-Wilhelm Birker: Friedrich-Ebert-Str. 198, 41236 Mönchengladbach, 02166 23385; das Profil zeigt weiterhin „geschlossen“, Datensatz 13.05.2026, aktualisiert 01.10.2026. Veronika Birker: gleiche Portaladresse, aber 02166 23341; Eintragsdaten 26.09.2023, aktualisiert 04.10.2026. Das sind zwei Profile desselben Aggregators, keine unabhängige Betreiberbestätigung und keine belastbare Nachfolge-/Aliasbrücke. Der Schließungshinweis bleibt ein Portalstatus, kein Nachweis für den Seedbetrieb. Keine Felder, Preise oder GEO übernommen. **ANKAUF/VERKAUF/GEBÜHREN:** keine belegten Preislisten/Tarife. Quellen: https://www.11880.com/branchenbuch/moenchengladbach/060440090B26098462/karl-wilhelm-birker-schrott-und-metallhandel.html ; https://www.11880.com/branchenbuch/moenchengladbach/130733657B112834756/veronika-birker.html .]
+
 ### Recherche 17.10.2026 — Welle 21:00 B
 
 - [Recherche 17.10.2026: Neue Namenssuche, 11880 Karl-Wilhelm und schrottplatz-info Veronika direkt gelesen. Beide nennen Friedrich-Ebert-Str. 198/41236, aber 02166 23385 versus 23341; keine Primärquelle bestätigt Alias oder Nachfolge. Karl-Wilhelm-Profil ausdrücklich „geschlossen“, Portalstand 01.10.2026/Eintragsdaten 13.05.2026; daraus keine amtliche Schließung, kein Datum erfunden. Veronika-Link „zur Homepage“ führt nur zur Portalwurzel, nicht zu einer Betreiberwebsite. Kein Fill allein aus wiederholten Verzeichnissen. Ankauf/Verkauf/Gebühren ohne numerische belegte Listen; GEO gesperrt bis Identitäts-/Annahmeprüfung. Quellen: https://www.11880.com/branchenbuch/moenchengladbach/060440090B26098462/karl-wilhelm-birker-schrott-und-metallhandel.html ; https://www.schrottplatz-info.de/schrottplatz/Moenchengladbach/Birker-Veronika-Schrott .]

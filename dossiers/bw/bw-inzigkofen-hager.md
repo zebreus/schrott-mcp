@@ -30,6 +30,10 @@ Für den Hager-Datensatz selbst bleiben Identität, aktuelle Tätigkeit und Anka
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: KORN-Recycling-Kontaktseite direkt erneut geprüft: KORN führt Buwiesen 1, 72514 Inzigkofen als eigenen Standort und nennt +49 7571 72473-0 sowie Mo–Fr 08–12/13–17:30, Sa 08–12. Das bestätigt KORN, nicht Alexander Hager; die parallele meinestadt-Angabe „Alexander Hager Transporte u. Verwertungen“ bleibt ein Aggregatorlead. Keine Nachfolge, gemeinsame Nutzung oder Schließung Hagers belegt. KORN-Preishinweis „auf Anfrage“ und kontaktloses Bezahlen sind keine Hager-Ankaufspreise oder Gebührenfreiheit. Für Hager: Ankauf/Verkauf/Gebühren ohne belastbare Tarife. Buwiesen 1 nicht als Hager-GEO übernehmen, bis Betriebs-/Nachfolgebezug geklärt ist. Quellen: https://korn-recycling.de/kontakt.html ; https://branchenbuch.meinestadt.de/inzigkofen/brazl/100-19055-19059-72481-54200 .]
+
 ### Recherche 17.10.2026 (Welle 21:00 A)
 
 - [Recherche 17.10.2026: KORN-Kontaktseite erneut direkt gelesen: Buwiesen1, 72514 Inzigkofen, 07571/72473-0, Mo–Fr08–12/13–17:30, Sa08–12. Keine Erklärung eines Hager-Übergangs im gelesenen Standortabschnitt. Aktuelle KORN-Anwesenheit beseitigt weder die Identitätslücke noch belegt sie Hagers Schließung; keine KORN-Daten für Hager gefüllt. Ankauf: keine Hager-Zahlenliste; Verkauf: keine Hager-Preise; Gebühren: kontaktloses Bezahlen ist nur KORN-Zahlungsmöglichkeit, keine Hager-Gebührenfreiheit. GEO-Bedarf zuerst Hager als Vorgänger/Mitnutzer/eigenständiger Betrieb und dessen aktuelle Annahmestelle klären; kein KORN-Punkt für Hager. Quelle: https://korn-recycling.de/kontakt.html .]

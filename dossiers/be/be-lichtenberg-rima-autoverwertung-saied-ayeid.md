@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die frühere Berliner Senatsliste stützte RIMA an Josef-Orlopp-Str. 79–83. Ihr PDF ist jetzt nicht mehr abrufbar; die aktuelle Senatsseite verweist auf das GADSYS-Fachbetrieberegister. Ein aktueller Eintrag/Zertifikatszeitraum konnte im JavaScript-Register nicht ausgelesen werden. Verzeichnis-Leads sind kein zweiter zulässiger Adressbeleg; die frühere Bewertung „2-Beleg-Standard erfüllt“ ist daher korrigiert. Altadresse bleibt als Historie erhalten, Status wird Prüfung statt ungesichert aktiv.
+Die frühere Berliner Senatsliste stützte RIMA an Josef-Orlopp-Str. 79–83. Die aktuelle Senatsseite verweist auf das GADSYS-Fachbetrieberegister; dessen browserbasierte Anwendung lieferte keinen auswertbaren RIMA-Einzeldatensatz. Das ist kein Negativnachweis. Gelbe Seiten führt weiterhin Saied Ayeid/RIMA an der Altadresse, aber nur als Aggregator-Lead. Die frühere Bewertung „2-Beleg-Standard erfüllt“ ist korrigiert; aktuelle Anerkennung, Betreiberidentität und Betriebsstatus bleiben offen. Altadresse bleibt als Historie erhalten, Status `pruefung`.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die aktuelle Berliner Senatsseite zu Altfahrzeugen verweist für anerkannte Demontagebetriebe auf das GADSYS-Fachbetrieberegister; dessen Web-App lieferte beim Direktabruf keinen auswertbaren RIMA-Einzeldatensatz. Daraus folgt weder aktuelle Anerkennung noch ein Register-Negativbefund; GESA weist zudem darauf hin, dass gemeldete Annahmestellen nicht vollständig sind. Das Gelbe-Seiten-Profil nennt Saied Ayeid/RIMA weiterhin an Josef-Orlopp-Str. 79–83, ist aber ein einzelner Branchenportal-Lead. Keine neue Identitäts-/Anerkennungsbestätigung, keine Telefon- oder Preisübernahme und kein GEO. ANKAUF: keine belegten Fahrzeug-/Metallkurse. VERKAUF: keine gelesene Teilepreisliste. GEBÜHREN: keine Tarife. Quellen: https://www.berlin.de/sen/uvk/umwelt/kreislaufwirtschaft/service/privathaushalte/altfahrzeuge/ ; https://hilfe.gadsys.de/fbrwiki/gesa-info ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung ; https://www.gelbeseiten.de/gsbiz/bb9e9650-1580-4ba9-9ca8-83857a66d9ca .]
 
 ### Recherche 05.10.2026
 

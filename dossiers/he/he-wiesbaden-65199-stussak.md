@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Zeile „Stussak“ in Wiesbaden 65199 ist weiterhin keinem dortigen Betrieb zugeordnet. Die direkt geprüfte Kontaktseite eines Schrottverwertungsbetriebs unter diesem Namen nennt ausschließlich Thüringer Straße 27, 36284 Hohenroda, sowie Am Höhenweg 5, 36404 Vacha-Oberzella; Rhein-Main erscheint als Einsatzgebiet, nicht als Wiesbadener Betriebsstätte. Ein Umzug, eine Niederlassung oder Identität mit dem Wiesbadener Seed ist nicht belegt. Keine Übernahme auswärtiger Kontakte, keine Schließungsannahme und kein GEO.
+
+**ANKAUF:** keine Wiesbaden zugeordneten Kurse. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Wiesbaden-Tarife belegt.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Kontaktseite der Betreiberwebsite erneut direkt geprüft. Sie führt Fa. Stussak an Thüringer Straße 27, 36284 Hohenroda (06676 918065) und Am Höhenweg 5, 36404 Vacha-Oberzella (036962 178828); eine Wiesbadener Adresse oder Annahmestelle wird nicht genannt. Die Angaben belegen allenfalls diese auswärtigen Kandidaten und keine Identität mit dem Seed in Wiesbaden. Frontmatter unverändert; keine Kontaktdaten, Preise oder GEO übertragen. **ANKAUF/VERKAUF/GEBÜHREN:** für Wiesbaden unbelegt. Quelle: http://schrottverwertung-fa-stussak.de/kontakt.html .]
 
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 

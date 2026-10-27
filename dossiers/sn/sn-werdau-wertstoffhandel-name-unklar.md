@@ -30,6 +30,10 @@ Der anonyme Seed ist keinem Betrieb sicher zuzuordnen. **RECOM Entsorgung** nenn
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Drei konkrete Betriebe als getrennte Kandidaten geprüft, aber keiner dem anonymen Seed zugeordnet: RECOM nennt im Impressum Chris Ruderisch, Freistraße 5F, 08412 Werdau-Steinpleis, Tel. 03761 5440; HMS Weißgerber nennt Karin Winkler, Leubnitzer Hauptstraße 47, 08412 Werdau, Tel. 03761 881980; Wertstoffhof Fraureuth bewirbt Annahme/Ankauf u. a. von Papier, Schrott, Messing, Edelstahl, Kupfer und Aluminium sowie teils kostenlose Elektrogeräteannahme mit Ausschlüssen. Das sind Betreiberangaben der jeweiligen Anbieter, kein Identitäts- oder Nachfolgebeleg zum unbekannten Datensatz. Fraureuth veröffentlicht auf der geprüften Seite keine Zahlenkurse; für den anonymen Seed gibt es keine Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Keine Zuordnung/GEO. Quellen: https://www.recomentsorgung.de/Impressum ; https://hms-weissgerber.de/ ; https://wertstoffhof-fraureuth.de/ .]
+
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: RECOM-Impressum direkt geprüft: Chris Ruderisch, RECOM Entsorgung, Freistraße 5F, 08412 Werdau (Steinpleis), Tel. 03761 5440, E-Mail recom-entsorgung@web.de. Das belegt RECOM als eigenen Entsorgungs-/Containeranbieter, nicht die Verbindung mit dem anonymen Seed „Wertstoffhandel“. HMS Weißgerber und Wertstoffhof Fraureuth bleiben weitere unabhängige Kandidaten. Für den anonymen Datensatz keine bestätigten Metall-Ankaufspreise, Material-Verkaufspreise oder Entsorgungsgebühren gefunden. Freistraße 5F und die übrigen Kandidaten nicht in Frontmatter oder Geocoding übernehmen, solange die Zuordnung fehlt. Quelle(n): https://www.recomentsorgung.de/Impressum ; https://hms-weissgerber.de/ ; https://wertstoffhof-fraureuth.de/]

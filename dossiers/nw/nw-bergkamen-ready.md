@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seedname „Ready“ ist in Bergkamen nicht sicher einem Schrotthändler zugeordnet. Der konkret auffindbare Kandidat ist „Gebäudeservice Ready“ an Hubert-Biernat-Straße 14: 11880 führt „Schrotthändler“ nur als Schlagwort, während die verlinkte Wix-Seite Haushaltsauflösungen, Umzug, Reinigung, Garten- und Transportleistungen beschreibt, aber keine Schrottannahme. Eine rechtliche oder Betreiberverbindung zum Seed fehlt. Auf der Wix-Seite werden 25–35-Euro-Beträge für andere Dienstleistungen genannt; sie sind weder Schrott-Ankaufspreise noch Gebühren des Seedbetriebs und wegen der Vorlagen-/Platzhalterqualität nicht als belastbare Preisliste gewertet.
+
+**ANKAUF:** keine Schrottkurse. **VERKAUF:** keine Materialpreisliste. **GEBÜHREN:** keine Schrott-/Annahmetarife. Keine Stammdaten oder GEO übernommen.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: 11880-Profil „Gebäudeservice Ready“ direkt geprüft; Hubert-Biernat-Str. 14, 59192 Bergkamen, Telefon 01575 1153497, Profil als „Vom Inhaber bestätigt“ markiert, Eintrags-/Aktualisierungsdatum 07.10.2026. Das bleibt ein Aggregatorbeleg. Die verlinkte Wix-Seite bewirbt Haushaltsauflösung, Umzugshilfe, Reinigung, Gartenpflege und Transport, aber keine Schrottannahme oder -abholung. Sichtbare 25–35-Euro-Angaben beziehen sich auf diese anderen Dienste; generische Vorlagen-/Platzhaltertexte lassen sie nicht als belastbare Tarifliste gelten. Keine Verknüpfung zum Schrott-Seed, keine Felder/Status/GEO geändert. **ANKAUF:** keine Schrottpreise; **VERKAUF:** keine Liste; **GEBÜHREN:** keine einschlägigen Tarife. Quellen: https://www.11880.com/branchenbuch/bergkamen/060442230B113992077/gebaeudeservice-ready.html ; https://readygebaudeservic.wixsite.com/udeservice-ready/ .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

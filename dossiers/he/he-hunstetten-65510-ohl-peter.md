@@ -28,6 +28,10 @@ Mehrere Branchenverzeichnisse führen Peter Ohl unter Waldstr. 1 in Hünstetten-
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: 11880-Detailseite direkt geprüft: Peter Ohl Schrotthandel, Waldstr. 1, 65510 Hünstetten-Ketternschwalbach, 06438 923073; Eintragsdaten 08.05.2026, aktualisiert 26.10.2026. Das ist weiterhin ein Branchenportalbeleg ohne Betreiber-/Registerbestätigung oder Nachweis öffentlicher Annahme. Die separate Peter-/Helga-Ohl-Spur mit Nummer 06438 6225 bleibt unaufgelöst; kein Familien-/Unternehmenszusammenhang abgeleitet. Keine Felder oder GEO geändert. **ANKAUF/VERKAUF/GEBÜHREN:** keine zurechenbaren Preise/Tarife. Quelle: https://www.11880.com/branchenbuch/huenstetten/060440090B109917598/peter-ohl-schrotthandel.html .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Adresse Waldstr. 1, 65510 Hünstetten (OT Ketternschwalbach) + Tel. 06438 923073 konkordant in VIER Aggregatoren (11880, schrottplatz-info, schrottplatz.org, rm-kurier Branchenbuch). Ausnahme-Fill (nur Aggregator-Belege, offen dokumentiert): street, postcode, phone; website_status unbekannt (kein Betreiber-Webauftritt, kein HR-Beleg). Hinweis: rm-kurier und stadtbranchenbuch listen am selben Standort zusätzlich Peter Ohl/Helga Ohl Getränkedienst u. Schrotthandel, Tel. 06438 6225 (Fax 06438 923371), vermutlich Familienverbund, keine getrennte Identität belegt. Status bleibt pruefung; Quelle(n): 11880.com + schrottplatz-info.de + schrottplatz.org + rm-kurier.de (alle nur Leads)]

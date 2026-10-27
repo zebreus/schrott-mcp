@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiber-Website „Schrotthandel Gießen“ nennt ausdrücklich Michael Schulz, Mittelmark 18, 35435 Wettenberg — nicht den unvollständigen Seed-Namen „Schulz L.“ in Gießen. Die Website deckt Gießen als Einsatzgebiet ab, belegt aber keine Gießener Niederlassung dieses generischen Eintrags. Sie bewirbt Altmetallankauf auch in kleinen Mengen und mobile Abholung; numerische Kurse oder Gebühren sind nicht veröffentlicht. Daten nicht zwischen diesem Kandidaten und dem Seed übertragen.
+Die Betreiber-Website „Schrotthandel Gießen“ nennt Michael Schulz, Mittelmark 18, 35435 Wettenberg und wirbt mit Altmetallankauf sowie mobiler Abholung. Ein 11880-Profil „Schrotthandel Gießen“ nennt dagegen eine Gießener Adresse (Carlo-Mierendorff-Str. 10), verlinkt dieselbe Betreiberwebsite und führt exakt dieselben Festnetz- und Mobilnummern. Das ist eine plausible Verbindung, aber das Portal beweist weder eine zusätzliche öffentliche Niederlassung noch, dass der unvollständige Seedname „Schulz L.“ denselben Betreiber meint. Keine Daten oder GEO übertragen.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die Betreiberwebsite/impressum führen Michael Schulz, Mittelmark 18, 35435 Wettenberg, 0641 8778567 und 0172 1596177. Das 11880-Profil „Schrotthandel Gießen“ nennt Carlo-Mierendorff-Str. 10, 35398 Gießen, dieselben beiden Nummern und verlinkt direkt auf diese Domain; Eintragsdaten 12.09.2026, aktualisiert 03.10.2026. Der Kontaktabgleich macht eine Verbindung wahrscheinlich, aber der Gießener Straßenstandort ist nur ein Aggregatorbeleg und kein Nachweis einer öffentlichen Annahmestelle oder Niederlassung. Ebenso fehlt eine Zuordnung zum Seedkürzel „Schulz L.“. Keine Frontmatter-Fills, kein Statuswechsel, kein GEO. **ANKAUF:** „faire Konditionen“ ohne €/kg-Kurse; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine ausgewiesenen Abhol-/Containerbeträge. Quellen: https://schrotthandel-giessen.de/ ; https://schrotthandel-giessen.de/impressum/ ; https://www.11880.com/branchenbuch/giessen-lahn/120674719B100955669/schrotthandel-giessen.html .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

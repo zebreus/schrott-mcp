@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle PR-Recycling-Betreiberseite identifiziert Sandro Roggendorf und nennt Am Siegborn 336, 35396 Gießen, erwähnt jedoch **nicht** „Stolzenmorgen 62“. Ein zweiter PR-Eintrag in Gießen-Wieseck führt denselben Namen; siehe `he-gieen-wieseck-pr-recycling-sandro-roggendorf`. Ob Stolzenmorgen ein früherer/weiterer Standort, ein Fehladressat oder eine getrennte Einheit ist, bleibt offen. Keine Daten des Schwester-Dossiers übertragen, kein Merge und keine Geokodierung. Preisangaben der möglichen PR-Einheit sind nicht sicher diesem Standort zuzuordnen.
+Die aktuelle PR-Recycling-Seite nennt Sandro Roggendorf und Am Siegborn 336, 35396 Gießen, erwähnt jedoch **nicht** „Stolzenmorgen 62“. Zusätzlich widerspricht sich die Seite bei einer Telefonnummer: Impressum 0177 5545410/0177 2367069, Footer-Anruflink +49 641 32051379. Ein zweiter PR-Eintrag in Gießen-Wieseck führt denselben Namen; siehe `he-gieen-wieseck-pr-recycling-sandro-roggendorf`. Ob Stolzenmorgen ein früherer/weiterer Standort, ein Fehladressat oder eine getrennte Einheit ist, bleibt offen. Keine Daten des Schwester-Dossiers übertragen, kein Merge und keine Geokodierung. Preise/Leistungsbedingungen der möglichen PR-Einheit sind nicht sicher diesem Standort zuzuordnen.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Betreiberseite/Impressum und Schrotthandels-Leistungsseite direkt geprüft. PR-Recycling/Sandro Roggendorf bewirbt Schrottplatz, Direktanlieferung und Abholung von Altmetall/Schrott/Buntmetallen, Tagespreise, kostenlose Verwiegung und sofortige Auszahlung; für Gewerbekunden wird kostenlose Containerstellung beworben. Es gibt keine numerische Ankaufsliste; das sind Aussagen der möglichen PR-Einheit und kein Beleg für den Seedstandort Stolzenmorgen 62. Kontaktwiderspruch auf derselben Domain: Impressum nennt 0177 5545410 oder 0177 2367069, der Footer-Anruflink zeigt +49 641 32051379. Kein Standort-/Telefontransfer, kein GEO. **ANKAUF:** Tagespreise ohne Zahlen; **VERKAUF:** keine Liste; **GEBÜHREN:** kostenlose Verwiegung und gewerbliche Containerstellung laut Seite, aber keine allgemeine Tarifliste und keine Zuordnung zu Stolzenmorgen. Quellen: https://pr-recycling.de/leistungen/schrotthandel ; https://pr-recycling.de/impressum .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
