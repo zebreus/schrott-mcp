@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -29,6 +30,10 @@ NorthData führt die **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, mit Liq
 **ANKAUF:** keine historischen oder aktuellen Ankaufskurse belegt. **VERKAUF:** keine Teile-/Materialpreisliste. **GEBÜHREN:** keine Tarife. Der damalige Standort ist historisch an der Eisenbahnstraße belegt, aber Hausnummer und aktuelle öffentliche Annahmestelle nicht; keine Geokodierung.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: GEO-Rücknahme
+
+- [Korrektur 27.10.2026: Die Umweltinspektion der Stadt Essen, Umweltamt/Untere Immissionsschutzbehörde, vom 03.03.2021 nennt exakt die Rainer Ludwig GmbH & Co. KG am Standort Eisenbahnstr. 1, 45134 Essen, mit der Anlage „Lagerung und Behandlung von Metallen“ (4. BImSchV 8.12.2.3). Damit ist die historische Betreiber-/Standortzuordnung für diese Händlerzeile amtlich belegt. Der hier geprüfte gemeinsame GEO-Punkt 51.450284375, 7.015053125 löst dagegen auf Freiheit, 45128 Essen, und ist nicht der dokumentierte Metallbetrieb. Das alte Paar wird daher zurückgenommen. Der WAZ-Bericht von 2023 meldet den Wegzug einer „Firma Ludwig“ von der Eisenbahnstraße, identifiziert aber nicht selbst die KG; ein heutiger Standort oder Nachfolger wird nicht abgeleitet. `clear_fields: 'geo'` zieht das alte Paar beim nächsten regulären Seed ein; keine Ersatzkoordinate und keine Statusänderung; Quelle, direkt geprüft am 27.10.2026: https://media.essen.de/media/wwwessende/aemter/59/umweltinspektionen/2021-04-06_InspBericht.pdf ; https://www.waz.de/staedte/essen/article238239161/Laermgeplagte-Essener-erleichtert-Schrottplatz-verschwindet.html ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 .]
 
 ### Owner-Korrektur 27.10.2026 — Statusumfang
 

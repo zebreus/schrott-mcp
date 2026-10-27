@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-schwarzaugen
+clear_fields: 'geo'
 name: Schwarzaugen
 trader_type: mobil
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Korrektur 27.10.2026: Die ausschließlich lesend abgefragte Produktionszeile enthält `51.450284375, 7.015053125`; Nominatim löst den Punkt als Freiheit, Sternviertel/Südviertel, 45128 Essen auf. Der Identitätskandidat im Dossier ist „Schwarzauger Metallhandel e.K.“; seine bisherige Website-Angabe ist `schwarzauger.eu`. Der Betreiberauftritt `schwarzauger.com` ordnet seine Geschichte dem in Essen gegründeten Fritz Collong Metallhandel zu, berichtet Michael Schwarzaugers Übernahme 1996 und den Umzug des Unternehmens von Essen nach Voerde Anfang 2015. Die aktuelle Kontaktseite nennt Am Industriepark 14, 46562 Voerde ausdrücklich als Zentrale, lädt dort zum Besuch ein und wirbt mit Schrottankauf; das Impressum identifiziert die Schwarzauger Metallrecycling GmbH (AG Duisburg, HRB 32208). Die dortige Kontaktadresse `info@schwarzauger.eu` verbindet den Betreiberauftritt mit der bisherigen Website-Angabe. Der gespeicherte Essener Punkt liegt damit nicht am vom Betreiber als aktuelle Zentrale/Besuchsadresse bezeichneten Geschäftsstandort. `clear_fields: 'geo'` zieht das alte Paar beim nächsten regulären Seed zurück. Keine Ersatzkoordinate; keine Aussage zu Privatanlieferung oder einem konkreten Eingang; Quelle, geprüft am 27.10.2026: https://schwarzauger.com/ueber-uns ; https://schwarzauger.com/kontakt ; https://schwarzauger.com/impressum ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; read-only `/var/lib/schrott-mcp/public.db`; `docs/trader-seed.md`.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
