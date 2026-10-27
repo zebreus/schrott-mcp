@@ -4,7 +4,7 @@ name: MC Schrott (Annahmestelle)
 trader_type: metallhaendler
 state: BB
 city: Rathenow
-street: Milower Landstr. 7
+street: Milower Landstraße 7
 postcode: '14712'
 phone: 03385 5202851
 email: rathenow@mcschrott.de
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Standortseite des Betreibers als Beleg
+
+- [Owner-Korrektur 27.10.2026: Die Standortseite des Betreibers nennt für Rathenow **Milower Landstraße 7, 14712 Rathenow**, Telefon 03385 5202851 und rathenow@mcschrott.de; die Schreibweise der Straße wird angeglichen. Quelle: https://www.mcschrott.de/standorte/rathenow/ (Abruf 27.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

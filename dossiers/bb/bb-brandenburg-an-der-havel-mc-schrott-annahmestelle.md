@@ -4,7 +4,7 @@ name: MC Schrott (Annahmestelle)
 trader_type: metallhaendler
 state: BB
 city: Brandenburg an der Havel
-street: Kummerlestr. 1A
+street: Kummerlestraße 1A
 postcode: '14770'
 phone: 03381 8903049
 email: kummerle@mcschrott.de
@@ -29,6 +29,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Standortseite des Betreibers als Beleg
+
+- [Owner-Korrektur 27.10.2026: Die Standortseite des Betreibers nennt für Brandenburg an der Havel **Kummerlestraße 1A, 14770 Brandenburg an der Havel**, Telefon 03381 8903049 und kummerle@mcschrott.de. Bis hierher trug die Produktionszeile dieser Zeile dagegen die Adresse des Betreiber-Sitzes Rathenow (Milower Landstraße 7, 14712, 03381 8900044, info@mcschrott.de) — das Impressum nennt den Diensteanbieter, nicht den Standort. Die Straße wird zugleich auf die Schreibweise der Betreiberseite gebracht, damit Seed und Handler nicht um dieselbe Zeile streiten. Quelle: https://www.mcschrott.de/standorte/brandenburg/ (Abruf 27.10.2026); https://www.mcschrott.de/impressum/.]
 
 ### Recherche 03.10.2026 (Gesamtaudit A)
 

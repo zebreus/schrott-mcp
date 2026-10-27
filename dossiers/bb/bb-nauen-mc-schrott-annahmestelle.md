@@ -28,6 +28,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
 
+### Owner-Korrektur 27.10.2026: Standortseite des Betreibers als Beleg
+
+- [Owner-Korrektur 27.10.2026: Die Standortseite des Betreibers nennt für Nauen **Zuckerfabrik 8, 14641 Nauen**, Telefon 0152 59689044 (dort als Mobilnummer gekennzeichnet) und nauen@mcschrott.de; die Dossierwerte stimmen bereits überein. Quelle: https://www.mcschrott.de/standorte/nauen/ (Abruf 27.10.2026).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Eisen-/Buntmetallankauf mit Preisliste

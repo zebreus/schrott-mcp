@@ -4,7 +4,7 @@ name: MC Schrott (Annahmestelle)
 trader_type: metallhaendler
 state: BB
 city: Kloster Lehnin OT Reckahn
-street: Meßdunker Str. 2
+street: Meßdunker Straße 2
 postcode: '14797'
 phone: 033835 606235
 email: reckahn@mcschrott.de
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Standortseite des Betreibers als Beleg
+
+- [Owner-Korrektur 27.10.2026: Die Standortseite des Betreibers nennt für Kloster Lehnin/OT Reckahn **Meßdunker Straße 2, 14797**, Telefon 033835 606235 und reckahn@mcschrott.de; die Schreibweise der Straße wird angeglichen. Quelle: https://www.mcschrott.de/standorte/kloster-lehnin-reckahn/ (Abruf 27.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

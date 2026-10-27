@@ -4,7 +4,7 @@ name: MC Schrott (Annahmestelle)
 trader_type: metallhaendler
 state: BB
 city: Werder OT Plötzin
-street: Alte Dorfstr. 28
+street: Alte Dorfstraße 28
 postcode: '14542'
 phone: 033207 304280
 email: ploetzin@mcschrott.de
@@ -27,6 +27,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Standortseite des Betreibers als Beleg
+
+- [Owner-Korrektur 27.10.2026: Die Standortseite des Betreibers nennt für Werder (Havel)/OT Plötzin **Alte Dorfstraße 28, 14542**, Telefon 033207 304280 und ploetzin@mcschrott.de; die Schreibweise der Straße wird angeglichen. Quelle: https://www.mcschrott.de/standorte/werder-ploetzin/ (Abruf 27.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
