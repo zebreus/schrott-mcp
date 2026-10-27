@@ -6,13 +6,15 @@ state: MV
 city: Gützkow 17506
 street: Am Kleinbahnhof 2
 postcode: 17506
+lat: 53.9442181
+lon: 13.3982675
 phone: 038353/6020
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: Recyclingunternehmen am Kleinbahnhof 2 in Gützkow.
+description: Recyclingunternehmen der Görs Recycling GmbH (HRB 7114 AG Stralsund) am Kleinbahnhof 2, 17506 Gützkow; im amtlichen Branchenbuch der Stadt Gützkow mit derselben Anschrift und Telefonnummer geführt. Der öffentlich beworbene Schrottankauf gehört laut Impressum der rechtlich getrennten Speditions- u. Handelsgesellschaft mbH Armin Görs (HRB 5624) und wird hier nicht zugerechnet. Keine zurechenbare Preisliste und keine Gebühren.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -26,9 +28,14 @@ provenance_origin: table
 
 Görs Recycling GmbH, HRB 7114 Stralsund, ist durch Registerprofil und kommunales Branchenbuch am Kleinbahnhof 2 identifiziert. Der öffentliche Schrottankauf auf spedition-goers.de wird dagegen von der rechtlich getrennten Speditions- u. Handelsgesellschaft mbH Armin Görs, HRB 5624, beworben. Gemeinsame Anschrift und Telefon lösen die Betreiberfrage nicht. Die Kandidatendomain goers-recycling.de bleibt eine Baustellenseite. Der vorhandene Aktivstatus ist keine neue Bestätigung einer öffentlichen Annahme durch HRB 7114.
 
-**Ankauf / Verkauf / Gebühren:** keine der Recycling-GmbH zurechenbare Zahlenliste. **Offen:** tatsächlicher Vertragspartner bei Anlieferung, Kundenzugang, Materialien und Zeiten. **GEO:** Anschrift ist belegt, aber kein neuer genauer Hof-/Zufahrtspunkt geprüft; Alt-GEO nicht freigegeben.
+**Ankauf / Verkauf / Gebühren:** keine der Recycling-GmbH zurechenbare Zahlenliste. Der auf spedition-goers.de/leistungen beworbene Punkt „Recycling › Ankauf Schrott“ gehört nach dem dortigen Impressum ausdrücklich zur Speditions- u. Handelsgesellschaft mbH Armin Görs (HRB 5624, Am Kleinbahnhof 2, +49 38353-6020, info@spedition-goers.de, GF Armin Görs) und wird der Recycling-GmbH (HRB 7114) nicht zugerechnet. **Offen:** tatsächlicher Vertragspartner bei Anlieferung, Kundenzugang, Materialien und Zeiten. **GEO:** Die Anschrift ist durch Handelsregisterprofil und kommunales Branchenbuch doppelt belegt und jetzt adressgenau aufgelöst (OSM-Node 4697459969, place=house, „2, Am Kleinbahnhof, Wieck, 17506 Gützkow“); der Punkt ist ein Adresspunkt ohne Betreiber-Tagging, keine bestätigte Hofeinfahrt oder Waage.
 
 ## Timeline
+
+### Recherche 27.10.2026: Betreibergrenze gegen die Spedition geschärft, GEO adressgenau gesetzt
+
+- [Recherche 27.10.2026: Die Abgrenzung der beiden Rechtsträger ist durch das eigene Impressum der Spedition belegt: spedition-goers.de/impressum nennt „Speditions- u. Handelsgesellschaft mbH Armin Görs, Am Kleinbahnhof 2, 17506 Gützkow, Telefon +49 (0)38353 – 60 20, E-Mail info@spedition-goers.de, Geschäftsführer Armin Görs, Handelsregister Stralsund HRB 5624, USt-Nr. DE 226096179 B“; die Leistungsseite bewirbt unter „Recycling“ den Punkt „Ankauf Schrott“ und ist damit dem Impressums-Rechtsträger zuzuordnen, nicht der Görs Recycling GmbH (HRB 7114 AG Stralsund, Am Kleinbahnhof 2, Geschäftsanschrift identisch, Registerprofil aktiv, Ersteintragung 20.12.2006). Das amtliche Branchenbuch der Stadt Gützkow führt beide Gesellschaften getrennt und bestätigt für die Recycling-GmbH die Anschrift Am Kleinbahnhof 2 mit Tel. 038353-6020. Die Kandidatendomain goers-recycling.de zeigt weiterhin ausschließlich „Hier entsteht eine neue Internetseite.“ (impressum-Pfad 404, robots.txt nicht abrufbar) und ist damit keine Betreiberquelle. Nichts davon ändert die Frontmatter-Stammdaten; die Website bleibt leer und website_status wurde auf `unbekannt` normalisiert. ANKAUF/VERKAUF/GEBÜHREN: keine der Recycling-GmbH zurechenbare Zahlenliste; die Schrottankauf-Werbung der Schwestergesellschaft wird nicht übernommen. Quellen: https://www.spedition-goers.de/impressum ; https://www.spedition-goers.de/leistungen ; https://www.online-handelsregister.de/handelsregisterauszug/mv/Stralsund/HRB/7114/Goers-Recycling-GmbH ; https://guetzkow.de/cms/index.php/5863-2/ ; https://www.goers-recycling.de/ .]
+- [Recherche 27.10.2026: GEO-Paar 53.9442181/13.3982675 aus der Nominatim-Vorwärtssuche nach „Am Kleinbahnhof 2, 17506 Gützkow“ übernommen (OSM-Node 4697459969, place=house, Ortsteil Wieck, 17506 Gützkow, house_number 2); die Adresse ist durch Handelsregisterprofil und kommunales Branchenbuch doppelt belegt, die Auflösung trifft exakt die dokumentierte Hausnummer. Punktart: Adresspunkt ohne Betreiber-Tagging — keine bestätigte Anlieferzufahrt, Waage oder Hofeinfahrt; kein Genauigkeitsradius belegt. Der bisherige Produktionspunkt 53.9392/13.409 löste auf die Pommersche Straße 60 im selben Ortsteil Wieck auf und lag rund 900 m vom belegten Standort entfernt; er wird durch dieses Paar ersetzt. Quellen: https://nominatim.openstreetmap.org/search?q=Am+Kleinbahnhof+2%2C+17506+G%C3%BCtzkow&format=jsonv2&limit=3&addressdetails=1&extratags=1 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=53.9392&lon=13.409&addressdetails=1 .]
 
 ### Recherche 21.10.2026
 

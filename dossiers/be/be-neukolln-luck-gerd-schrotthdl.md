@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Nur Verzeichnis-Lead (Fritz-Erler-Allee 148, 12351 Berlin, 030 6032481), aus fünf Portalen derselben Quellenklasse wiederholt; im amtlichen Register nicht verzeichnet, kein Betreiberauftritt, Annahme und Hofzugang ungeklärt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: A. Neu (nicht in Hauptliste / Runde 2)
@@ -27,6 +27,10 @@ provenance_origin: table
 Fritz-Erler-Allee 148 und 030 6032481 werden von fünf Verzeichnissen wiederholt, bleiben aber Leads ohne Betreiber-, Register- oder Behördenbeleg. Daher ist die geerbte Aktiv-Markierung auf `pruefung` zurückgenommen; die tatsächliche Identität und aktuelle Annahmestelle sind offen. **GEO-Prüfbedarf:** klären, ob die Adresse überhaupt ein betrieblicher Standort mit Kundenannahme ist; bei Bestätigung Haus-/Hofzugang, nicht Portal-Pin oder bloße Straßenadresse verwenden. Keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
+
+### Recherche 27.10.2026 (Welle Shard C, BE)
+
+- [Recherche 27.10.2026: Amtlicher Registerabgleich neu (Stand des Registerabrufs 11.08.2026): Berlin führt im Register 70 anerkannte Betriebe (u. a. ALBA, TSR, REMONDIS, BRAL, Beller Demontagen, Peglow Schrott und Metallhandel) — **keinen** Eintrag an der Fritz-Erler-Allee 148 und keinen „Lück“; das Register nennt den Betrieb also nicht (kein Nichtexistenz- und kein Schließungsbeleg). NorthData live am 27.10.2026: „Gerd Lück“ ist im Register nur als Person in **Köln** geführt, die Abfrage „Lück, Berlin“ bleibt leer; Namensvetter (Gerd Lückel Bocholt, Gerd Lückenotte Bottrop, Gerd Lücker Aachen) werden nicht übernommen. Verzeichnis-Gegenprobe zur Rufnummer: Die 11880-Rückwärtssuche zu 030 6032481 liefert am 27.10.2026 weiterhin denselben Eintrag „Gerd Lück SchrottHdl.“, Fritz-Erler-Allee 148, 12351 Berlin — ohne E-Mail, Website oder Öffnungszeiten; das ist derselbe Verzeichniseintrag wie in den zuvor dokumentierten Lead-Quellen und damit **keine** zweite unabhängige Quelle (die Rufnummern-Rückwärtssuche von Das Örtliche zu 030 6032481 findet am 27.10.2026 keinen Treffer; bei unvollständiger Verzeichnisreichweite kein Nichtexistenzbeleg). Adresslage: OSM führt „148, Fritz-Erler-Allee, Gropiusstadt, 12351 Berlin“ als Hausadresse (52.4256511/13.4717590); der gespeicherte Datenbankpunkt 52.4328/13.4555 löst auf Otto-Wels-Ring 11, Buckow, 12351 auf — gleicher Bezirk und gleiche PLZ, rund 1,3 km Abstand. Der Punkt widerspricht der Zeilenortsangabe damit **nicht** (`clear_fields: geo` nicht angezeigt), ist aber nur ein Quartierspunkt; da Identität, aktuelle Annahme und Hofzugang ungeklärt sind, wird keine Koordinate gesetzt (nur eine Quelle). Ergebnis: keine Fills, status pruefung bleibt, kein Namensvetter-Übernahme. ANKAUF/VERKAUF/GEBÜHREN: weiterhin keine belegten Ankaufkurse, keine Verkaufsliste, keine Tarife. Quellen: https://schrottregister.pages.dev/ort-berlin ; https://www.northdata.de/suggest.json?query=Gerd%20L%C3%BCck&countries=DE ; https://www.11880.com/rueckwaertssuche/0306032481 ; OSM/Nominatim-Abfragen „Fritz-Erler-Allee 148, 12351 Berlin“ und Rückwärtssuche zum Datenbankpunkt (Abruf 27.10.2026)]
 
 ### Nachprüfung 26.10.2026
 

@@ -4,15 +4,17 @@ name: Peitzmann GmbH
 trader_type: schrotthaendler
 state: NW
 city: Paderborn
-street: ''
-postcode: ''
+street: 'Am Atlaswerk 22'
+postcode: '33106'
+lat: '51.7008083'
+lon: '8.7487607'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Historische Firmierung Peitzmann GmbH (Handelsregister HRB 13128, AG Paderborn); der Registerstand vom 07.03.2019 führt dieselbe Gesellschaft seit dem 11.02.2019 als PreZero Metall GmbH. Amtlich anerkannter Standort ist Am Atlaswerk 22, 33106 Paderborn (Entsorgungsfachbetrieb nach § 56 KrWG, Zertifikat ZZEE00200186, Registerstand 11.08.2026). Fahrzeugvergütung, Annahmebedingungen und Gebühren sind nicht veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2
@@ -24,11 +26,18 @@ provenance_origin: table
 
 ## Überblick
 
-Registerseitige Betreiberkette: Peitzmann GmbH & Co. KG (HRA 7080) → Formwechsel2017 Peitzmann GmbH (HRB13128) → Umfirmierung2019 PreZero Metall GmbH. **Neue Präzisierung:** Auch die ältere GmbH/HRB1586 ist nicht einfach ein geschlossener Namensvetter: Bekanntmachung25.11.2004 dokumentiert ausdrücklich Formwechsel in Peitzmann GmbH & Co. KG/HRA4797. Die Registerkennungen müssen auseinandergehalten werden, die Formwechselkette darf aber nicht abgeschnitten werden. Unabhängiger historischer Kettenbeleg weiterhin offen; Name/Adresse nicht ohne Owner-Freigabe ersetzt.
+Registerseitige Betreiberkette: Peitzmann GmbH & Co. KG (HRA 7080) → Formwechsel2017 Peitzmann GmbH (HRB13128) → Umfirmierung2019 PreZero Metall GmbH. **Neue Präzisierung:** Auch die ältere GmbH/HRB1586 ist nicht einfach ein geschlossener Namensvetter: Bekanntmachung25.11.2004 dokumentiert ausdrücklich Formwechsel in Peitzmann GmbH & Co. KG/HRA4797. Die Registerkennungen müssen auseinandergehalten werden, die Formwechselkette darf aber nicht abgeschnitten werden. Der amtliche Standort **Am Atlaswerk 22, 33106 Paderborn** ist nun durch zwei voneinander unabhängige amtliche Quellen belegt (Handelsregisterpublikation zum HRB 13128 und Register der Entsorgungsfachbetriebe, Zertifikat ZZEE00200186, Stand 11.08.2026); Adresse und Koordinate sind deshalb im Frontmatter übernommen. Die **Umbenennung** der Zeile in „PreZero Metall GmbH“ bleibt eine Owner-Entscheidung, Name und Slug bleiben unverändert.
 
 Am Atlaswerk22/33106Paderborn ist aktueller PreZero-Standort in Register und Zertifikatsübersicht. **Ankauf:** marktgerechte Vergütung beworben, keine Zahlenliste. **Verkauf:** industrielle Sekundärrohstoffe, keine verifizierte Liste. **Gebühren:** keine Liste. Keine private Annahme aus allgemeiner Metallseite ableiten. Lokale Annahme/Telefon/Zeiten, unabhängige Betreiberkette und Efb-Dokumentinhalt vor GEO/Umbenennung klären.
 
 ## Timeline
+
+### Recherche 27.10.2026: amtliches Fachbetrieberegister und GEO-Korrektur Paderborn
+
+- [Recherche 27.10.2026: Amtliches Fachbetrieberegister neu ausgewertet (Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge der Länder nach § 7 Abs. 2a AltfahrzeugV und Register der Entsorgungsfachbetriebe nach § 56 KrWG, Auszug mit Stand 11.08.2026, gespiegelt über SchrottRegister): Für **Paderborn (33100/33102/33106)** sind sechs anerkannte Betriebe geführt, darunter **„PreZero Metall GmbH“, Am Atlaswerk 22, 33106 Paderborn**, Zertifikat **ZZEE00200186**, zertifizierte Tätigkeiten *Lagern* und *Behandeln*, 31 Abfallschlüssel (u. a. 020110 Metallabfälle, 160106 Altfahrzeuge, 170401 Kupfer/Bronze/Messing, 170402 Aluminium, 170403 Blei, 170404 Zink, 170405 Eisen und Stahl, 170407 gemischte Metalle, 170411 Kabel, 170409* mit gefährlichen Stoffen verunreinigte Metallabfälle, 200136 gebrauchte EEE). Das ist ein **eigenständiger amtlicher Beleg** (anderes Register als die Handelsregisterpublikation) dafür, dass der Standort Am Atlaswerk 22 am 11.08.2026 unter dem Namen PreZero Metall GmbH als Entsorgungsfachbetrieb geführt wird; das Register nennt keine Preise, Kontaktdaten oder Öffnungszeiten. Zusammen mit der Registerpublikation (Peitzmann GmbH, HRB 13128, Am Atlaswerk 22 → Firmierung PreZero Metall GmbH, Beschluss 11.02.2019, Bekanntmachung 07.03.2019) und der Betreiber-Zertifikatsübersicht liegen damit zwei unabhängige amtliche Quellen für Standort und Rechtsträgerkette vor.]
+- [Recherche 27.10.2026: Adressfelder deshalb belegt gefüllt: `street: Am Atlaswerk 22`, `postcode: 33106` (übereinstimmend in Handelsregister-Auszug online-handelsregister.de, amtlichem Efb-Register und PreZero-Zertifikatsübersicht). **`name` bleibt unverändert „Peitzmann GmbH“**, der Slug bleibt unverändert; die Umbenennung auf „PreZero Metall GmbH“ ist eine Owner-Entscheidung und wird hier nur dokumentiert. `status` bleibt `pruefung`, weil die amtlichen Register den Namen „Peitzmann GmbH“ selbst nicht mehr führen und die Kundenannahme/Preise unbelegt sind. `website`/`website_status` bleiben unverändert (kein standortspezifisches Betreiberportal, die Betreiber-Zentrale nennt PreZero Deutschland KG, HRA 3317).]
+- [Recherche 27.10.2026: GEO-Korrektur. Die read-only-Produktionszeile enthielt den Punkt **51.72956/8.73724**; die Rückabfrage löst ihn auf **„b.i.b.-Wohnheim, 3-5, Fürstenallee, Paderborn-Schloß Neuhaus, 33102“** auf — rund **3,3 km Luftlinie** vom belegten Standort entfernt und in einem anderen Stadtteil. Ersetzt durch den adressgenauen OSM-Gebäudepunkt zu „Am Atlaswerk 22, 33106 Paderborn“ (OSM-Way 261914393, `name=PreZero Metall`): **51.7008083 / 8.7487607**. Der Punkt wurde unabhängig über zwei Geokodierdienste bestimmt (Nominatim-Vorwärtssuche und Photon/Komoot) und liegt **0 m aequivalent** auseinander. Punktart: **Gebäude-/Adresspunkt**, keine bestätigte Anlieferzufahrt und keine Eingangspräzision; das bleibt als offene Restlücke dokumentiert. Quellen: https://schrottregister.pages.dev/betrieb-prezero-metall-gmbh-paderborn ; https://schrottregister.pages.dev/ort-paderborn ; https://www.online-handelsregister.de/handelsregisterauszug/nw/Paderborn/HRB/13128/PreZero-Metall-GmbH ; https://prezero.com/de/zertifikate ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Am+Atlaswerk+22%2C+33106+Paderborn&addressdetails=1 ; https://photon.komoot.io/api/?q=Am+Atlaswerk+22%2C+33106+Paderborn ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=51.72956&lon=8.73724&addressdetails=1 ; read-only `public.db` (27.10.2026).]
+- [Preise/Ankauf/Verkauf/Gebühren 27.10.2026: **Ankauf:** die Betreiberseite beschreibt weiterhin vergüteten Schrott-/Metallankauf zu marktgerechten Preisen und industrielle Lieferung von Sekundärrohstoffen, aber **ohne numerische Sortenliste**; das amtliche Register enthält keine Preise. **Verkauf:** keine verifizierte Waren-/Sekundärrohstoffpreisliste. **Gebühren:** keine Gebühren-, Container- oder Transportpreisliste; eine centrale Hotline wird nicht als Händlertelefon übernommen. Quellen: https://prezero.com/de/rohstoffe/schrotte-und-metalle ; https://schrottregister.pages.dev/betrieb-prezero-metall-gmbh-paderborn .]
 
 ### Recherche 18.10.2026 — Welle 18:00 Shard 2
 

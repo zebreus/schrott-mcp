@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: Verzeichnisfall für Rohstoffrückgewinnung in Kreischa/Lungkwitz (Grundstr. 1). Das amtliche Firmenverzeichnis der Gemeinde Kreischa führt keinen Betrieb „Jürgen Unger" und keine Rohstoff-/Schrott-Sparte; die Identität ist damit nicht amtlich belegt und der Fall bleibt zur Prüfung offen.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Ungeklärter Verzeichnisfall für Rohstoffrückgewinnung in Kreischa/Lungkwitz. Die importierte Adresse und Materialannahme sind bisher nur Aggregator-Leads, keine unabhängig verifizierten Betriebsdaten. Die kommunale Firmensuche ist als neue Prüfroute gefunden, liefert im bisherigen Abruf aber keine auswertbare Trefferliste; aktueller Betrieb und Ankauf bleiben offen.
+Ungeklärter Verzeichnisfall für Rohstoffrückgewinnung in Kreischa/Lungkwitz. Die kommunale Firmensuche der Gemeinde Kreischa ist am 27.10.2026 erstmals **auswertbar** durchgeführt worden: Sie listet insgesamt **58 eingetragene Betriebe** auf (alphabetisch, mit Branchen- und Ortsteil-Filtern sowie A–Z- und Volltextsuche). Ein Betrieb namens **Jürgen Unger** ist darin **nicht** enthalten; die beiden „Unger"-Treffer sind *Dirk's Gulaschkanone* (Catering, Kirchweg 63a, Kontaktperson Dirk Unger) und *Reisebüro Unger* (Am Mühlgraben 5, Kontaktperson Dorit Zscheile) — beides andere Branchen, keine Rohstoffrückgewinnung. Auch die Schlagwörter **Schrott, Altmetall, Recycling, Entsorgung, Abfall, Rohstoff** kommen im gesamten Verzeichnis **kein einziges Mal** vor; die einzigen „Metall"-Treffer sind *Medizin- und Elektrotechnik* (Thomas Schwartz) und *Metallbau & Gartentechnik Kühne*. Die importierte Adresse Grundstr. 1 und die Materialannahme bleiben damit Aggregator-Leads ohne amtliche Entsprechung.
+
+**Ankauf:** keine belegten Bedingungen oder Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Angaben. Keine Koordinate gesetzt.
 
 ## Timeline
+
+### Recherche 27.10.2026: Amtliche Firmensuche der Gemeinde Kreischa erstmals auswertbar abgefragt
+
+- [Recherche 27.10.2026: Die kommunale Firmensuche der Gemeinde Kreischa (https://www.kreischa.de/inhalte/kreischa/_inhalt/wirtschaft/firmen-neu/gewerbesuche) wurde mit Cookie-Sitzung und den vom Formular verlangten Feldern mode/v/next ausgewertet: Die Volltextsuche (mode=0, v=0) liefert **58 eingetragene Betriebe** mit Namen, Kontaktperson, Anschrift, Branchen, Ortsteil, Telefon, E-Mail und Web. Die Buchstabensuche U (mode=1, v=U) liefert genau **einen** Treffer: *Unser Laden*, Kontaktperson Verbraucher- und Erzeugergemeinschaft Kreischa eG, Haußmannplatz 4 — kein Personen- oder Rohstoffbetrieb. Ein „Jürgen Unger" existiert im amtlichen Verzeichnis nicht; die zwei „Unger"-Nennungen im Gesamtverzeichnis sind *Dirk's Gulaschkanone* (Catering/Partyservice/Lebensmittel, Kirchweg 63a 01731 Kreischa, Kontaktperson Dirk Unger, Mobil 0160 97812951, jadi-eventcatering.de) und *Reisebüro Unger* (Reisebüro, Am Mühlgraben 5 01731 Kreischa, Kontaktperson Dorit Zscheile, info@reisebuero-unger.de). Die Schlagwörter Schrott, Altmetall, Recycling, Entsorgung, Abfall und Rohstoff kommen im gesamten Verzeichnis kein einziges Mal vor; „Metall" nur bei *Medizin- und Elektrotechnik* (Talstraße 17, Quohren) und *Metallbau & Gartentechnik Kühne* (Hauptstraße 13, Kreischa). Auch die Branchenliste des Verzeichnisses (37 Kategorien) enthält keine Rohstoff-/Schrott-Sparte. Einziger Ebert-Eintrag ist *Montageservice Ebert* (Jan Ebert, Kirchweg 52, Montageservice). Damit ist die amtliche Grundlage für den Import-Lead „Jürgen Unger, Grundstr. 1, Lungkwitz, Rohstoffrückgewinnung" nicht vorhanden; das ist ein Negativbefund zum freiwilligen Gemeindeverzeichnis und kein Nachweis der Nichtexistenz, da das Verzeichnis nur eingetragene Betriebe abbildet. Frontmatter unverändert bis auf die Beschreibung; `status: pruefung` bleibt, keine Koordinate. ANKAUF: keine bestätigten Bedingungen/Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quellen: https://www.kreischa.de/inhalte/kreischa/_inhalt/wirtschaft/firmen-neu/gewerbesuche/index.html (Abfrage mode=0/v=0 und mode=1/v=U, 58 bzw. 1 Treffer, Abruf 27.10.2026).]
 
 ### Recherche 21.10.2026
 

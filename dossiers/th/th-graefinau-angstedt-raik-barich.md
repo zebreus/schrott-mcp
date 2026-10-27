@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Verzeichnis-Lead (schrottplatz.org): Raik Barich, Wiesenweg 28, 98704 Gräfinau-Angstedt, 036785/50463. Im amtlichen Fachbetriebs- und Entsorgungsfachbetriebsregister nicht verzeichnet; amtliche Gewerbeauskunft Ilmenau am 27.10.2026 nicht erreichbar; aktueller Metallankauf nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 Ein einzelner Schrottplatz.org-Verzeichniseintrag nennt Raik Barich, Wiesenweg 28, 98704 Gräfinau-Angstedt und 036785/50463. Die aktuelle Suche und die frühere kommunale Gegenprüfung haben keinen passenden Betreiber-, Register- oder Gewerberegisterbeleg ergeben; die kommunale Gewerberegisterauskunft war beim Abruf nicht verfügbar. **Ankauf:** keine Annahme oder Kurse bestätigt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Weder Adresse noch Telefon sind in die Stammdaten übernommen; keine GEO, kein Schließungsurteil.
 
 ## Timeline
+
+### Recherche 27.10.2026 (Welle Shard C, TH)
+
+- [Recherche 27.10.2026: Amtlicher Registerabgleich neu (Stand des Registerabrufs 11.08.2026): Das Verzeichnis führt für Ilmenau (dem seit 201.8 zusammengefassten Ort Gräfinau-Angstedt) genau einen Betrieb — „Scholz Recycling GmbH“, Oberweg 9, Tätigkeiten Lagern/Behandeln/Verwerten. „Raik Barich“ und die Anschrift Wiesenweg 28 sind dort **nicht** verzeichnet; eine eigene Ortsseite Gräfinau-Angstedt existiert nicht. Das Register nennt den Betrieb also nicht — das ist wegen der Registerreichweite (Fachbetrieberegister Altfahrzeuge und Register der Entsorgungsfachbetriebe) **kein** Nichtexistenz- und **kein** Schließungsbeleg. Ergänzend live abgefragt: NorthData-Suggest „Barich“ (27.10.2026) führt keinen Treffer „Raik Barich“ und keinen Barich-Betrieb in Thüringen (nur „Barich eGbR“, Hamburg, sowie Personen in Hamburg, Berlin, Münster, Kiel, Wilnsdorf, Hörnum, Wermelskirchen und Saarburg — Namensvetter, keine Übernahme). Der amtliche Gewerbeauskunftsweg der Stadt Ilmenau („eAuskunft über Gewerbedaten“, navigaweb.de/ilmenau) war am 27.10.2026 erneut nicht erreichbar (Timeout nach 80 s) — damit liegt weiterhin kein amtlicher Gewerbenachweis und keine Widerlegung vor. Der Portal-Lead (schrottplatz.org: Wiesenweg 28, 98704, 036785/50463) ist unverändert live, bleibt aber Aggregator-Lead ohne Betreiber-/Registerbeleg; die Rufnummern-Rückwärtssuche von Das Örtliche liefert für 036785/50463 am 27.10.2026 keinen Treffer — bei unvollständiger Verzeichnisreichweite kein Nichtexistenzbeleg, aber der Lead ruht damit weiterhin auf einer einzigen Portalquelle. Keine Kontakt- oder Adressübernahme, keine GEO. ANKAUF/VERKAUF/GEBÜHREN: keine bestätigte Annahme, keine Kurse, keine Liste, keine Tarife; status pruefung bleibt angemessen. Quellen: https://schrottregister.pages.dev/ort-ilmenau ; https://www.northdata.de/suggest.json?query=Barich&countries=DE ; https://www.ilmenau.de/de/wirtschaft/gewerbeangelegenheiten/ ; https://www.schrottplatz.org/ilmenau/raik-barich-5402744.html (Lead)]
 
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 

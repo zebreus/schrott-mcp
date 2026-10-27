@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: geschlossen
-description: ''
+description: 'Historischer, am 13.02.2019 gelöschter Rechtsträger (HRB 108834 Jena, Sitz Sömmerda); keine heutige Annahmestelle. Laut Register (Stand 11.08.2026) steht an der historischen Anschrift Erhardtstraße 8 ein anderer Betrieb.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -29,6 +29,10 @@ Historischer, gelöschter Rechtsträger RGT Reststoffverwertungsgesellschaft Th�
 **Ankauf / Verkauf / Gebühren:** keine aktuellen Händlerpreislisten belegt. Die im Registerportal beworbenen Dokumentpreise sind keine Entsorgungs- oder Materialpreise. Offen bleibt ein möglicher Betriebs-/Vermögensübergang, nicht die Wiederbelebung des gelöschten Firmennamens.
 
 ## Timeline
+
+### Recherche 27.10.2026 (Welle Shard C, TH)
+
+- [Recherche 27.10.2026: Amtlicher Registerabgleich (Stand des Registerabrufs 11.08.2026) für Sömmerda neu durchgeführt: Das Verzeichnis führt dort zwei Einträge — „Dr. Joachim Schilling Recycling und Entsorgungstechnik e.K.“, Erhardtstraße 8, 99610 Sömmerda, Tätigkeiten Lagern/Behandeln, Abfallschlüssel 160209* (Transformatoren und Kondensatoren mit PCB), Zertifikatsnummer ZZRT00300019, sowie „Umweltdienst Sömmerda GmbH E-Schrottrecyclinganlage (zzgl. Sammel- und Übergabestelle)“, Am Oberwege 29, Tätigkeiten Sammeln/Befördern/Lagern/Behandeln. Kein Registereintrag trägt den Namen RGT; an der historischen Anschrift steht nachweislich heute ein anderer Betrieb. Damit liefert das Register **keinen** Beleg für eine Nachfolge oder eine Betriebs-/Vermögensübernahme durch RGT — der offene Übergangspunkt bleibt offen, aber ohne Registerstützung. Northdata live am 27.10.2026 führt weiterhin nur das historische Registerblatt DEY1206.HRB108834 (GmbH, Sitz Sömmerda, Liquidationsvermerk), keinen laufenden Betrieb. Status „geschlossen“ bleibt unverändert für genau diesen gelöschten Rechtsträger; die historische Anschrift wird nicht in die Standortfelder übernommen, kein GEO. ANKAUF/VERKAUF/GEBÜHREN: keine belegten Preise oder Tarife — amtliche Register führen ausdrücklich keine Preise. Offen bleibt die Namens-/Adressvariante: Das Register schreibt „Erhardtstraße“, das Dossier „Ehrhardtstraße“ (OSM kennt in Sömmerda nur „Ehrhardtstraße“); die Straßenzuordnung ist damit nur als Schreibvariante, nicht als eigener belegter Betriebsort behandelt. Quellen: https://schrottregister.pages.dev/ort-sommerda ; https://schrottregister.pages.dev/betrieb-dr-joachim-schilling-recycling-und-entsorgungstechnik-e-k-sommerda ; https://www.northdata.de/RGT+Reststoffverwertungsgesellschaft+Th%C3%BCringen+mbH,+S%C3%B6mmerda/Amtsgericht+Jena+HRB+108834]
 
 ### Unabhängige Nachprüfung 21.10.2026
 

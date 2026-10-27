@@ -1,18 +1,19 @@
 ---
 slug: he-gieen-wieseck-pr-recycling-sandro-roggendorf
+clear_fields: 'geo'
 name: PR Recycling (Sandro Roggendorf)
 trader_type: schrotthaendler
 state: HE
 city: Gießen-Wieseck
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Am Siegborn 336
+postcode: '35396'
+phone: 0177-5545410
+email: info@pr-recycling.de
+opening_hours: Mo-Sa 06:00-21:00, So geschlossen
 website: https://pr-recycling.de/
 website_status: 'aktiv'
 status: pruefung
-description: ''
+description: 'Schrotthandel und Metallankauf in Gießen-Wieseck: Ankauf von Altmetall und Schrott zu tagesaktuellen Preisen, Abholung mit LKW oder Anhänger, Containerdienst, Entrümpelung, Demontage, Brennarbeiten und Autoverwertung; Vermarktung in ganz Hessen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Die derzeit erreichbare Betreiberseite nennt Sandro Roggendorf / PR-Recycling, Am Siegborn 336, 35396 Gießen, und bewirbt Schrott-/Altmetallankauf, Abholung, Container, Entrümpelung und Demontage. Sie verspricht tagesaktuelle Ankaufpreise, kostenlose Verwiegung und sofortige Auszahlung, veröffentlicht aber keine €/kg-Kurse. Die gesonderte Containerdienst-Seite bewirbt teils kostenlose Schrottcontainer für Gewerbekunden; die AGB derselben Domain nennen dagegen gesondert berechnete An-/Abfahrt, eine Fehlwurf-Sortiergebühr und mögliche Vollberechnung bei kurzfristiger Stornierung. Die AGB nennen als Anbieter nur „Containerdienst Gießen“, nicht Sandro Roggendorf; Zuordnung und konkrete Tarife bleiben offen. Kein Material-Verkaufspreiskatalog gefunden. Ein Betreiber-Domainkomplex ohne HRB reicht hier nicht für Frontmatter-Fills; Wieseck-Adresse, Annahmebedingungen und Verknüpfung zur zweiten PR-Adresse bleiben ungeklärt.
+Betreiber-PRIMARY-QUELLE bestätigt: PR RECYCLING, Sandro Roggendorf, Am Siegborn 336, 35396 Gießen-Wieseck. Die Betreiberseite pr-recycling.de (Impressum) und die zum selben Betrieb gehörende Schrottplatz-Seite schrottplatzgiessen.de nennen dieselbe Anschrift, dieselben Kontaktdaten und dieselben Leistungen; die Containerdienst-Marke containerdienst-giessen.de ist ebenfalls PR RECYCLING. Der bisher offene Punkt ist damit erledigt: die AGB dieser Domain benennen „PR RECYCLING, Am Siegborn 336, 35396 Gießen" ausdrücklich als Anbieter, nicht mehr nur „Containerdienst Gießen". Die angegebene USt-IdNr 02086163209 wird vom EU-VIES am 27.10.2026 als nicht gültig gemeldet; sie ist damit nicht positiv bestätigt und wird nicht als Registerbeleg geführt. Der Status bleibt `pruefung`, weil ein amtliches Gewerbe-/Registerbeleg für die Identität fehlt und die AGB bei Container-An-/Abfahrt, Sortiergebühr und Stornierung Kostenpositionen ohne Beträge nennen.
+
+**ANKAUF:** Altmetall und Schrott aller Art zu tagesaktuellen Preisen; Abholung von Anhänger- oder LKW-Ladungen; kostenlose Verwiegung und Sofortauszahlung beworben; keine numerische EUR/kg-Tabelle veröffentlicht. **VERKAUF:** keine Material- oder Teilepreisliste gefunden. **GEBÜHREN:** AGB nennen An- und Abfahrt gesondert abgerechnet, eine Sortiergebühr bei Fehlwurf und eine mögliche Vollberechnung bei Storno unter 24 Stunden, jeweils ohne Betrag; Containerseite wirbt mit kostenlosen Schrottcontainern für Gewerbekunden und 14 Tagen Stellzeit; die Seite wirbt mit einer Spende von 10 EUR je Neukunde an einen wohltätigen Zweck. **GEO:** der gespeicherte Punkt lag auf der „Ostanlage" in Gießen 35390 und widersprach der belegten Anschrift; `clear_fields: 'geo'` zieht ihn zurück, eine Ersatzkoordinate wurde nicht geraten.
 
 ## Timeline
+
+### Recherche 27.10.2026: AGB-Anbieter geklärt, Anschrift und Kontakte belegt
+
+- [Recherche 27.10.2026: Der amtliche Standort- und AGB-Befund des Betreibers löst den offenen Zuordnungspunkt: Die Seite schrottplatzgiessen.de (eigener Auftritt desselben Betriebs, Impressum und AGB eingebettet) benennt in den AGB ausdrücklich „PR RECYCLING, Am Siegborn 336, 35396 Gießen (nachfolgend Anbieter)". Die Containerdienst-Marke containerdienst-giessen.de verweist mit „PR Recycling Zertifikat" auf denselben Betrieb und ist keine eigenständige Gesellschaft. Damit ist die bisherige Vermutung ausgeschlossen, die AGB gehörten einem Dritten („Containerdienst Gießen"). Quellen: https://schrottplatzgiessen.de/ (Impressum und AGB eingebettet, Abruf 27.10.2026) ; https://containerdienst-giessen.de/ ; https://pr-recycling.de/impressum .]
+- [Recherche 27.10.2026: Frontmatter gefüllt: street „Am Siegborn 336", postcode „35396" (Impressum pr-recycling.de, Impressum schrottplatzgiessen.de und Betreiber-Adresse in der AGB nennen dieselbe Anschrift; der Gelbe-Seiten-Lead „Am Siegborn 336, 35396 Gießen-Wieseck" stimmt überein), phone „0177-5545410" (Impressum; weitere betreiberveröffentlichte Nummern: 0177-2367069 und 0641 320 51 379 im Seitenkopf), email „info@pr-recycling.de" (Impressum), opening_hours „Mo-Sa 06:00-21:00, So geschlossen" (Fußzeile schrottplatzgiessen.de; ergänzend „Wir sind nach Vereinbarung auch an Feiertagen geöffnet"), website https://pr-recycling.de/ mit website_status „aktiv" (unverändert), description ergänzt. Der Dossier-Ortsname „Gießen-Wieseck" ist bestätigt: die exakte Nominatim-Adressabfrage löst Am Siegborn 336 nach Wieseck, Stadtteil von Gießen, 35396 auf. Quellen: https://pr-recycling.de/impressum ; https://schrottplatzgiessen.de/ ; https://nominatim.openstreetmap.org/search?q=Am%20Siegborn%20336%2C%2035396%20Gie%C3%9Fen&format=jsonv2&addressdetails=1&limit=5 .]
+- [Recherche 27.10.2026: GEO-Korrektur: Der in der Produktionszeile gespeicherte Punkt 50.58524, 8.67918 löst per Nominatim-Reverse auf die „Ostanlage", Gießen 35390, also ein städtisches Ver- und Entsorgungsareal und nicht die belegte Anschrift in Wieseck (35396). `clear_fields: 'geo'` entzieht das falsche Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate", keine Schließung und keine Annahmeverweigerung. Eine Ersatzkoordinate wurde nicht geraten, weil die Nominatim-Abfrage nur die Straße „Am Siegborn" (track, way 4937038 bzw. way 1031978819), nicht die Hausnummer 336 auflöst. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.58524&lon=8.67918&zoom=18&addressdetails=1 ; read-only-Abgleich `public.db` (27.10.2026) ; `docs/trader-seed.md`.]
+- [Recherche 27.10.2026: USt-IdNr-Prüfung: Die im Impressum genannte Umsatzsteuer-Identifikationsnummer 02086163209 wird vom EU-VIES-Dienst am 27.10.2026 als nicht gültig gemeldet („INVALID"). Das ist kein Nachweis einer falschen Nummer (nicht für innergemeinschaftliche Lieferungen registrierte Nummern werden so gemeldet), die USt-IdNr ist damit aber nicht positiv bestätigt und wird nicht als Identitätsbeleg geführt. Status bleibt `pruefung`; für die Identität fehlt weiterhin ein amtliches Gewerbe- oder Registerbeleg. Quelle: https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/02086163209 (Abruf 27.10.2026).]
+- [Recherche 27.10.2026: **ANKAUF:** „Einfacher und unbürokratischer Ankauf mit tagesaktuellen Preisen", „wir zahlen Ihnen den tagesaktuellen Preis für Ihren Metallschrott aller Arten", Abholung von Anhänger- oder LKW-Ladung, kostenlose Verwiegung und Sofortauszahlung; die Schrotthandelsseite nennt keine EUR/kg-Werte und kein Materialpreistable. **VERKAUF:** kein Material- oder Teilepreiskatalog gefunden. **GEBÜHREN:** AGB: „Die Lieferung und Abholung des Containers (An- und Abfahrt) wird jeweils gesondert ausgewiesen und abgerechnet", Sortiergebühr bei Fehlwurf, mögliche volle Abrechnung bei Storno unter 24 Stunden, Vorauszahlung oder Sicherheitsleistung möglich, alle Preise netto zzgl. USt; Aufstellung und Abholung an Werktagen zwischen 6:00 und 19:00 Uhr. Containerseite: kostenlose Schrottcontainer für Gewerbekunden, 14 Tage Stellzeit inklusive, Abrechnung nach tatsächlichem Inhalt. Schrottplatzseite: „Für jeden neuen Kunden spenden wir 10€ an einen wohltätigen Zweck!" (Spende, keine Entsorgungsgebühr). Die AGB nennen keine Beträge; die Aussage „kostenlose Schrottcontainer" wird nicht auf alle Leistungen verallgemeinert. Quellen: https://schrottplatzgiessen.de/ (AGB, Fußzeile, Kontaktformular) ; https://pr-recycling.de/leistungen/schrotthandel ; https://pr-recycling.de/leistungen/containerdienst ; https://pr-recycling.de/agb ; https://containerdienst-giessen.de/ .]
+- [Recherche 27.10.2026: Korrektur der Belegbewertung vom 24.10. und 13.10.: Die Aussage, die AGB nannten als Anbieter nur „Containerdienst Gießen", ist überholt; der aktuelle AGB-Stand nennt PR RECYCLING mit vollständiger Anschrift. Der „DOWNLOAD ZERTIFIKAT"-Button der Schrottplatzseite verweist auf keinen abrufbaren Zertifikats-PDF (kein href im Seitenbündel); das auf containerdienst-giessen.de verlinkte „Zertifikat-krwg.pdf" liefert unter der neuen Adresse nur die Startseite aus, ein KrWG-Entsorgungsfachbetriebs-Nachweis für diesen Betrieb liegt damit nicht vor. Quelle: https://schrottplatzgiessen.de/ ; https://containerdienst-giessen.de/ ; https://schrottplatzgiessen.de/wp-content/uploads/2024/02/Zertifikat-krwg.pdf (Abruf 27.10.2026, liefert SPA-Startseite).]
 
 ### Recherche 24.10.2026
 

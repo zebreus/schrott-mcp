@@ -1,5 +1,6 @@
 ---
 slug: ni-bad-grund-schmidt-schmidt-rohprodukte-altmetalle
+clear_fields: 'geo'
 name: Schmidt + Schmidt Rohprodukte Altmetalle
 trader_type: schrotthaendler
 state: NI
@@ -12,7 +13,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Verzeichnis-Kandidat mit zwei widersprüchlichen Anschriften (Sägemühlenstr. 1, Teichhütte und Am Steinbühl 2, jeweils 37539 Bad Grund); keine Betreiber- oder Registeridentität, kein belegter Metallankauf. Der Seed-Doppelname ist vermutlich ein Verzeichnisartefakt (Das Örtliche führt an Am Steinbühl 2 den Personeneintrag Schmidt Kerstin u. Egon). Laut Register (Stand 11.08.2026) ist in Bad Grund nur MPM Environment Intelligence GmbH, Bahnhofstraße 3a, geführt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Funde (Gelbe Seiten, je Stadt abgefragt)
@@ -32,6 +33,12 @@ Der direkt gelesene Gelbe-Seiten-Eintrag heißt „Schmidt Rohprodukte Altmetall
 - **GEO:** weder Sägemühlenstr. 1 noch Am Steinbühl 2 ohne Identitäts-/Adressklärung als Annahmepunkt geokodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026 (Welle Shard C, NI)
+
+- [Recherche 27.10.2026: Amtlicher Registerabgleich neu (Stand des Registerabrufs 11.08.2026): Für Bad Grund (37539) führt das Verzeichnis genau einen Betrieb — „MPM Environment Intelligence GmbH“, Bahnhofstraße 3a, 37539 Bad Grund Gittelde, Tätigkeiten Lagern/Behandeln/Verwerten/Handeln/Makeln, 62 Abfallschlüssel im Zertifikat (u. a. 020110 Metallabfälle, 160104* Altfahrzeuge). „Schmidt Rohprodukte Altmetalle“ wird weder für Sägemühlenstr. 1 noch für Am Steinbühl 2 verzeichnet: Das Register nennt den Betrieb nicht — bei der Reichweite dieser Register (Fachbetrieberegister Altfahrzeuge, Register der Entsorgungsfachbetriebe) ist das **weder** ein Nichtexistenz- **noch** ein Schließungsbeleg; der in Bad Grund registrierte Metall-/Fahrzeugbetrieb trägt einen anderen Namen und wird nicht mit diesem Dossier zusammengeführt. NorthData live am 27.10.2026: weder „Schmidt + Schmidt“ noch „Schmidt Rohprodukte“ in Bad Grund auffindbar; die Namensvetter-Liste führt „Schmidt & Schmidt GmbH“, Olsberg, „Schmidt & Schmidt eGbR“ in Geestland/Hamburg/Itzehoe/Hamminkeln/Schwerte sowie weitere Schmidt-Gesellschaften — keine Übernahme. Beide Verzeichnis-Leads sind unverändert live und widersprechen einander weiterhin: Gelbe Seiten nennen Sägemühlenstr. 1, 37539 Bad Grund (Harz)-Teichhütte, 05327 8698701; 11880 nennt Am Steinbühl 2, 37539 Bad Grund, 05327 4425 und 05327 5606 (Eintragsdaten 15.06.2023, Portaländerung 01.10.2026). Beide stammen aus derselben Quellenklasse (Telefonbuch-/Verzeichnisdaten), sind also **keine** zwei unabhängigen Belege; der Namenszusatz „+ Schmidt“ bleibt ungeklärt. Ein amtlicher Gewerberegister-Zugriff für Bad Grund war nicht erreichbar (Stadtseite badgrund.de leitet auf kurmittelhaus-harz.de um, keine öffentliche eAuskunft gefunden) — Identität bleibt offen. street-Feld unverändert (Altwert). GEO: Die read-only Produktionszeile enthält den Punkt 52.180721875/9.673703125; die Nominatim-Rückwärtsauflösung ordnet ihn „L 422, Eldagsen, Holtensen, Springe, 31832“ zu — rund 32 km vom Zeilenort Bad Grund (Harz) entfernt und in einer anderen Gemeinde (Region Hannover). Der Punkt kann also kein Bad-Grunder Standort sein und wird mit `clear_fields: 'geo'` zurückgenommen; das behauptet weder, dass eine der beiden Verzeichnisanschriften stimmt, noch dass der Betrieb geschlossen ist, und es wird **keine** Ersatzkoordinate gesetzt (Identität ungeklärt, nur eine Quelle). ANKAUF/VERKAUF/GEBÜHREN: keine Kurse, keine Verkaufsliste, keine Tarife. Quellen: https://schrottregister.pages.dev/ort-bad-grund ; https://schrottregister.pages.dev/betrieb-mpm-environment-intelligence-gmbh-bad-grund ; https://www.northdata.de/suggest.json?query=Schmidt+Schmidt&countries=DE ; https://www.gelbeseiten.de/gsbiz/05d791dc-41da-43a5-86ff-a676f51beabd ; https://www.11880.com/branchenbuch/bad-grund-harz/120674719B377410/schmidt-rohprodukte-altmetalle.html ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.180721875&lon=9.673703125&zoom=14&addressdetails=1 ; read-only `public.db` (27.10.2026)]
+
+- [Recherche 27.10.2026: Namensvetter mit Hausnummernbezug neu: Das Örtliche führt an **derselben Hausnummer** Am Steinbühl 2, 37539 Bad Grund (Harz)-Windhausen den Personeneintrag „Schmidt Kerstin u. Egon“ und daneben (Rückwärtssuche zur Nummer 05327 4425) den Brancheneintrag „Schmidt Rohprodukte Altmetalle, Recycling“ ohne weitere Anschrift. Damit gibt es eine belegte Erklärungshypothese für den Seed-Namen „Schmidt + Schmidt“ (zwei Personen namens Schmidt an einer Adresse), ohne dass daraus folgt, dass ein Betrieb mit diesem Namen besteht oder dass die beiden Adressvarianten (Sägemühlenstr. 1/05327 8698701 gegen Am Steinbühl 2/05327 4425) denselben Betrieb beschreiben. Für 05327 8698701 und 05327 5606 liefert die Rückwärtssuche von Das Örtliche keinen Treffer (nur den Ortsbezug Bad Grund (Harz)/Seesen). Beide Verzeichnisse bleiben Aggregator-Leads derselben Quellenklasse; der Widerspruch zwischen den beiden Anschriften ist damit **nicht** aufgelöst, der Seed-Doppelname „+ Schmidt“ ist als Verzeichnisartefakt sehr wahrscheinlich, aber nicht bewiesen. Kein Fill, kein Merge, keine Preise, keine Tarife. Quellen: https://www.dasoertliche.de/Themen/Schmidt-Kerstin-u-Egon-Bad-Grund-Harz-Windhausen-Am-Steinb%C3%BChl ; https://www.dasoertliche.de/?form_name=search_inv&ph=053274425 ; https://www.dasoertliche.de/?form_name=search_inv&ph=053278698701 ; https://www.dasoertliche.de/?form_name=search_inv&ph=053275606]
 
 ### Recherche 20.10.2026 — Eigenrecherche
 

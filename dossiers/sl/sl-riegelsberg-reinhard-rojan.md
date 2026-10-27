@@ -5,8 +5,8 @@ trader_type: schrotthaendler
 state: SL
 city: Riegelsberg
 street: Überhofer Str. 111A
-postcode: 66292
-phone: ''
+postcode: '66292'
+phone: 06806 480361
 email: ''
 opening_hours: ''
 website: ''
@@ -29,6 +29,12 @@ Branchenverzeichnisse nennen Reinhard Rojan in Riegelsberg, darunter die bereits
 **Preise:** ANKAUF — keine verifizierten Bedingungen oder Preise. VERKAUF — keine Liste gefunden. GEBÜHREN — keine Tarife gefunden.
 
 ## Timeline
+
+### Recherche 27.10.2026: Fünf Verzeichnisse bestätigen Anschrift und Festnetznummer
+
+- [Recherche 27.10.2026: Die Anschrift ist jetzt durch fünf Verzeichniseinträge gedeckt: 11880 „Rojan, Reinhard" (Überhofer Str. 111 A, 66292 Riegelsberg, (06806) 480361, Eintragsdaten 29.12.2022, Aktualisierung 01.10.2026), Gelbe Seiten „Reinhard Rojan Schrott" (Überhofer Str. 111A, 66292 Riegelsberg, 0172 6857888), Stadtbranchenbuch „Schrotthandel Autorecycling - Rojan, Reinhard" (Überhofer Str. 111A, 06806 480361), schrottplatz-info.de „Rojan, Reinhard" und schrottplatz.org „Schrott Rojan, Reinhard" (Überhofer Str. 111A, 66292 Riegelsberg, (06806) 48 03 61). Die Festnetznummer 06806 480361 wird von drei unabhängigen Verzeichnissen identisch genannt und ist ins Frontmatter übernommen; die abweichende Mobilnummer 0172 6857888 stammt allein aus Gelbe Seiten und wurde dokumentiert, nicht übernommen. Es gibt weiterhin keine Betreiber-Website, kein Impressum und keinen Register- oder Behördenbeleg; der Status bleibt `pruefung`. Quellen: https://www.11880.com/branchenbuch/riegelsberg-saar/120674719B26033967/rojan-reinhard.html ; https://www.gelbeseiten.de/gsbiz/cff2e64f-48bd-44af-a1d0-a4dd9cdcf3f8 ; https://riegelsberg.stadtbranchenbuch.com/1216777.html ; https://www.schrottplatz-info.de/schrottplatz/Riegelsberg/Rojan-Reinhard ; https://www.schrottplatz.org/riegelsberg/schrott-rojan-reinhard-aYEPG5.html .]
+- [Recherche 27.10.2026: GEO-Prüfung ohne Widerspruch: Der gespeicherte Punkt 49.3, 6.9333 löst per Nominatim-Reverse auf „117a, Überhofer Straße, Überhofen, Riegelsberg, 66292" auf, also auf dieselbe Straße im selben Ort und Postleitzahl wie die belegte Anschrift (exakte Adressabfrage: 49.3002248, 6.9315257 für Überhofer Straße 111a). Der Punkt liegt rund 140 Meter neben der Hausnummer und wurde nicht angetastet; eine Koordinate wurde nicht neu gesetzt, weil die Anschrift nur verzeichnisgestützt ist. Klärfall: die gerundeten Werte deuten auf einen manuellen Mittelpunkt hin, kein exakter Hausadresspunkt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.3&lon=6.9333&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=%C3%9Cberhofer%20Stra%C3%9Fe%20111A%2C%2066292%20Riegelsberg&format=jsonv2&addressdetails=1&limit=3 ; read-only-Abgleich `public.db` (27.10.2026).]
+- [Recherche 27.10.2026: Abgrenzung zu den übrigen Riegelsberger Schrottbetrieben: Die Nachbareinträge „Schrott Groß Dirk" (Walpershofer Str. 7a, 06806 3092833), „Schrotthandel Saar" (Pfaffenkopfstr. 55, Saarbrücken), „Gebr. Naim GmbH & Co. KG" (Saarbrücken) sowie „Schmitt H. & Co GmbH Schrottgroß" sind eigenständige Betriebe; nichts davon wurde übernommen und nichts zusammengeführt. **ANKAUF:** keine Preise und keine Materialangaben; die Portaleinträge nennen keine Leistungen. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Offen bleibt die Gewerbeauskunft der Gemeinde Riegelsberg (Gewerbeamt, Saarbrücker Straße 31) zu Inhaber und aktueller Tätigkeit. Quellen: https://www.gelbeseiten.de/branchen/schrotth%C3%A4ndler/riegelsberg ; https://www.riegelsberg.eu/fragen-antworten/gebrauchtwaren-guddes .]
 
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 

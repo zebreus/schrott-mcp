@@ -1,18 +1,20 @@
 ---
 slug: th-weimar-fernkorn-albert-metallhandel-u-container
-name: Fernkorn Albert e.K. Metallhandel u. Containerdienst
+name: Thüringen Recycling GmbH, Niederlassung Weimar (vorm. Fernkorn Albert e.K.)
 trader_type: containerdienst
 state: TH
 city: Weimar
-street: Rießnerstr. 1
-postcode: ''
-phone: ''
+street: Dürrenbacher Hütte 1c
+postcode: '99427'
+lat: 51.0008758
+lon: 11.3501375
+phone: 03643 420205
 email: ''
 opening_hours: ''
-website: ''
-website_status: tot
-status: pruefung
-description: ''
+website: https://www.thueringen-recycling.de
+website_status: aktiv
+status: aktiv
+description: 'Containerdienst und Schrottplatz der Thüringen Recycling GmbH (HRB 401332 AG Jena) in der Niederlassung Weimar, Dürrenbacher Hütte 1c, 99427 Weimar; der Betrieb geht auf die im Januar 2020 übernommene Firma Fernkorn Weimar zurück. Ankauf von Produktionsabfällen, Wertstoffen und Schrott wird beworben, ohne öffentliche Ankaufkurse; keine öffentliche Material-Verkaufspreisliste und keine bezifferten Container-/Entsorgungstarife.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
@@ -24,9 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-Thüringen Recycling bestätigt in der eigenen Historie die Übernahme der Firma Fernkorn in Weimar im Januar 2020; die unabhängige Thüringer Allgemeine berichtete am 03.01.2020 ebenfalls über die Übernahme. Die aktuelle Betreiber-Niederlassungsseite führt Weimar ausdrücklich als Niederlassung / Containerdienst / Schrottplatz an Dürrenbacher Hütte 1c, 99427 Weimar, Telefon 03643 420205. Das stärkt die Betreiberketten-Zuordnung erheblich, die Seed-Adresse Rießnerstr. 1 bleibt aber historisch und wird nicht automatisch ersetzt. Frontmatter bleibt bis zur Owner-Entscheidung unverändert. **Ankauf:** Thüringen Recycling wirbt bei Wertstoffen mit Ankauf von Produktionsabfällen und Schrott, ohne Zahlenkurs oder klare private Annahmebedingungen. **Verkauf:** keine öffentliche Materialpreisliste. **Gebühren:** keine bezifferten Container-/Entsorgungstarife. Mögliche aktuelle Adresse Dürrenbacher Hütte 1c muss bei Zuordnung neu geokodiert werden.
+Die Betreiberkette ist geschlossen: Die **Thüringen Recycling GmbH** (Impressum: HRB 401332 AG Jena) hat laut ihrer eigenen Historie im **Januar 2020 die Firma Fernkorn in Weimar** mit Schwerpunkten Containerdienst und Schrottrecycling übernommen; die unabhängige *Thüringer Allgemeine* berichtete am 02.01.2020 vom Abschluss der Übernahme nach 118 Jahren Familienbesitz und am 13.05.2021 vom 80. Geburtstag von Albert Fernkorn, der seinen Metallhandel und Containerdienst an der Rießnerstraße betrieb. Die heutige Weimarer Niederlassung wird von Thüringen Recycling als **Containerdienst / Schrottplatz, Dürrenbacher Hütte 1c, 99427 Weimar, Telefon 03643 420205** geführt; der OSM-Datensatz des Gebäudes trägt den Namen „Thüringen Recycling" und die Anschrift 1c, 99427 Weimar. Die bisherige Seed-Adresse Rießnerstr. 1 (die Betreiberhistorie nennt für den Altbetrieb Rießnerstraße 13–19) ist damit historisch und wurde durch die aktuelle Niederlassungsanschrift ersetzt; der alte Name und die alte Adresse bleiben in der Historie dokumentiert.
+
+**Ankauf:** Thüringen Recycling bewirbt den Ankauf von Produktionsabfällen, Wertstoffen und Schrott — ohne Zahlenkurs und ohne öffentlich ausgewiesene private Annahmebedingungen am Weimarer Standort. **Verkauf:** keine öffentliche Materialpreisliste. **Gebühren:** keine bezifferten Container-, Abhol- oder Entsorgungstarife; die beworbenen Datenflatrate- und Aktenvernichtungsangebote sind bezifferte Dienstleistungspreise, aber keine Schrott-/Containergebührenliste. **GEO:** Dürrenbacher Hütte 1c ist über die Nominatim-Adresssuche als Betriebsgebäude mit Betreibernamen auflösbar (OSM-Way 100803321) — Standortpunkt, keine bestätigte Anlieferzufahrt.
 
 ## Timeline
+
+### Recherche 27.10.2026: Betreiberkette geschlossen, aktuelle Niederlassungsanschrift übernommen
+
+- [Recherche 27.10.2026: Die amtliche Kette ist jetzt vollständig belegt und die offene Zuordnungsfrage vom 04.10.2026 beantwortet. Betreiber-Primärquelle: Die Niederlassungsseite von Thüringen Recycling führt Weimar als Standort „Dürrenbacher Hütte 1c, 99427 Weimar, Telefon 03643 420205" mit Containerdienst und Schrottplatz; die eigene Historienseite nennt „Januar 2020 Übernahme der Firma Fernkorn in Weimar mit Schwerpunkten im Containerdienst sowie Schrottrecycling"; das Impressum führt Thüringen Recycling GmbH, HRB 401332, AG Jena. Zweite unabhängige Quelle: die Thüringer Allgemeine berichtet am 02.01.2020 über die besiegelte Übernahme der Firma Fernkorn durch die Thüringen Recycling Unternehmensgruppe nach 118 Jahren Familienbesitz und am 13.05.2021 über Albert Fernkorn, der seinen Metallhandel und Containerdienst an der Rießnerstraße in Weimar betrieb. Dritte, kartographisch unabhängige Bestätigung: Der OSM-Way 100803321 trägt name=Thüringen Recycling mit addr:housenumber=1c, addr:street=Dürrenbacher Hütte, addr:postcode=99427, addr:city=Weimar, building=yes; die Nominatim-Vorwärtssuche nach Dürrenbacher Hütte 1c, 99427 Weimar löst genau diesen benannten Betriebspunkt auf. Konsequenz: Name auf Thüringen Recycling GmbH, Niederlassung Weimar (vorm. Fernkorn Albert e.K.) korrigiert, street/postcode auf Dürrenbacher Hütte 1c / 99427 gesetzt, phone 03643 420205 und website https://www.thueringen-recycling.de mit website_status aktiv übernommen, status von pruefung auf aktiv gesetzt (Betreiber-Filialseite mit Adresse und Telefon plus unabhängige Presse- und Kartenbelege). Die bisherige Seed-Adresse Rießnerstr. 1 und die historische Angabe Rießnerstraße 13-19 bleiben in der Historie dokumentiert und werden nicht als aktuelle Anschrift geführt. ANKAUF: Ankauf von Produktionsabfällen, Wertstoffen und Schrott wird beworben, aber ohne Zahlenkurse und ohne ausgewiesene private Annahmebedingungen; VERKAUF: keine öffentliche Materialpreisliste; GEBÜHREN: keine bezifferten Container-, Abhol- oder Entsorgungstarife. Quellen: https://www.thueringen-recycling.de/containerdienst-erfurt-weimar-bad-langensalza-niederlassungen ; https://www.thueringen-recycling.de/historie-thueringen-recycling-sekundaerrohstoffe ; https://www.thueringen-recycling.de/impressum ; https://www.thueringer-allgemeine.de/regionen/weimar/article228045373/Thueringen-Recycling-Erfurt-uebernimmt-Fernkorn-Weimar.html ; https://www.thueringer-allgemeine.de/lokales/weimar-und-weimarer-land/article401921084/ein-staendchen-fuer-weimars-iron-man.html ; https://api.openstreetmap.org/api/0.6/way/100803321/full .]
+- [Recherche 27.10.2026: GEO-Paar 51.0008758/11.3501375 aus dem benannten OSM-Betriebsobjekt way 100803321 (name=Thüringen Recycling, addr:housenumber=1c, addr:street=Dürrenbacher Hütte, addr:postcode=99427, addr:city=Weimar, building=yes) übernommen; die unabhängig durchgeführte Nominatim-Vorwärtssuche nach „Dürrenbacher Hütte 1c, 99427 Weimar" liefert denselben Trefferpunkt mit 0 m Abweichung. Punktart: Betriebsgebäude- bzw. Adresspunkt mit Betreibernamen, keine bestätigte Anlieferzufahrt und keine Eingangspräzision belegt. Der bisherige Produktionspunkt 50.92615/10.6636 löste auf die L 1027 bei Sundhausen (Gotha) auf und lag rund 25 km vom belegten Standort entfernt; er wird durch dieses Paar ersetzt. Quellen: https://api.openstreetmap.org/api/0.6/way/100803321/full ; https://nominatim.openstreetmap.org/search?q=D%C3%BCrrenbacher+H%C3%BCtte+1c%2C+99427+Weimar&format=jsonv2&limit=3&addressdetails=1&extratags=1 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=50.92615&lon=10.6636&addressdetails=1 .]
 
 ### Recherche 23.10.2026: Betreiberkette, unabhängige Bestätigung und Preise
 

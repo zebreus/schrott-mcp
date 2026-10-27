@@ -5,14 +5,14 @@ trader_type: sonstige
 state: SN
 city: Zwickau
 street: Jacobstr. 4
-postcode: ''
+postcode: '08060'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: Verzeichnis-Lead eines Schrotthandels „Gottfried Wunderlich" in Zwickau-Marienthal, Jacobstraße 4. Das amtliche Gewerberegister der Stadt Zwickau führt weder einen Betrieb dieses Namens noch einen Gewerbebetrieb an der Jacobstraße 4; die Identität und der aktuelle Betrieb sind damit nicht amtlich belegt. Keine Preise und keine Gebühren.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -24,11 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Die Seed-Angaben nennen einen Schrott-/Metallbetrieb Gottfried Wunderlich in Zwickau, Jacobstr. 4; Grundlage bleibt ein älterer Verzeichniseintrag. Ein aktueller Betreiberauftritt, Register-/Kommunalbeleg oder unabhängiger Nachweis für die konkrete Annahmestelle wurde nicht ermittelt. Neue Suchtreffer wiederholen als Portalcluster „Wunderlich SchrottHdl.“, Jacobstr. 4 und eine Telefonnummer; sie sind keine voneinander unabhängigen Belege. `status: pruefung` ist kein Schließungsnachweis.
+Die Seed-Bezeichnung „Gottfried Wunderlich" (Schrott-/Metallbetrieb, Jacobstr. 4, 08060 Zwickau-Marienthal) beruht ausschließlich auf einem Aggregator-Cluster (lokaleschrottplatz, Maptons, firmania, business-branchenbuch, dastelefonbuch, oeffnungszeitenbuch) mit derselben Telefonnummer 0375 524290; es liegt kein Betreiberauftritt, kein Registereintrag und keine Kommunalquelle vor. Das **amtliche Gewerberegister der Stadt Zwickau** (gewerbe.zwickau.de, Online-Auskunft GEVE) wurde am 27.10.2026 gezielt abgefragt und liefert **keinen Treffer**: weder eine Gewerbeanmeldung auf den Namen Gottfried Wunderlich (Suchen nach Nachname „Wunderlich" liefert nur Christian, Dajana und Daniel; die Kombination Nachname Wunderlich / Vorname Gottfried liefert nichts) noch einen Betrieb an der **Jacobstraße 4** (Straßenabfrage „Jacobstraße" listet die Hausnummern 8, 15, 19, 25, 26, 35, 36, 70 u. a. in 08060 Zwickau-Marienthal, aber **nicht** die Nummer 4). Auch die Volltextsuche nach „Schrott" und „%chrott" im Firmennamen ergibt keinen Treffer.
 
-**Preise:** **Ankauf** — Seed nennt Fe/Alu/Cu/Edelmetalle/Blei/Messing, aber Annahme und Preise sind nicht aktuell verifiziert. **Verkauf** — keine Preisliste. **Gebühren** — keine belastbaren Gebührenangaben. **Geokodierung:** Jacobstr. 4 nicht als Schrottplatz pinnen, bis die konkrete Betriebsstätte bestätigt ist.
+Das ist ein **amtlicher Negativbefund zur Gewerbeanmeldung** und damit ein deutlich stärkeres Signal als die bisherigen Suchleeren; er belegt keine endgültige Schließung (kein Abmeldungshinweis, keine Nachfolge- oder Verlagsmeldung) und rechtfertigt keinen Statuswechsel über `pruefung` hinaus. `status: pruefung` bleibt, eine Schließung wird nicht behauptet. Die Postleitzahl 08060 ergänzt die Seed-Adresse: Sie ist durch das amtliche Gewerberegister (alle Jacobstraße-Einträge lauten „Jacobstraße x, 08060 Zwickau (Marienthal West)") und die Adressauflösung (OSM-Way 123555713, „4, Jacobstraße, Marienthal West, 08060 Zwickau") unabhängig bestätigt — die Hausnummer selbst bleibt ein Verzeichnislead ohne Gewerbeeintrag.
+
+**Ankauf:** nicht belegt. **Verkauf:** keine Preisliste. **Gebühren:** keine belastbaren Gebührenangaben. **GEO:** keine Koordinate gesetzt, weil die Existenz eines Betriebes an der Adresse nicht belegt ist; der Seed-Standort ist zudem nicht adressgenau geokodierbar, solange kein Betrieb die Hausnummer 4 trägt.
 
 ## Timeline
+
+### Recherche 27.10.2026: Amtliches Gewerberegister Zwickau gezielt abgefragt — kein Gewerbebetrieb
+
+- [Recherche 27.10.2026: Die Online-Gewerbeauskunft der Stadt Zwickau (gewerbe.zwickau.de/webauskunft, Anbieter EDV Ermtraud, „Sie sind nicht angemeldet. Sie sehen nur begrenzte Daten.") wurde gezielt per Formular-POST abgefragt. Ergebnis: Die Suche nach Nachname „Wunderlich" liefert genau drei Personen — Christian (Lothar-Streit-Straße 27, 08056), Dajana (Gert-Fröbe-Straße 40, 08064) und Daniel (Otto-Lilienthal-Weg 3, 08066) — **keinen** Gottfried Wunderlich; die Suche nach Nachname Wunderlich mit Vorname Gottfried sowie die Volltextsuche nach „Gottfried" liefern jeweils „Es wurde kein Gewerbe gefunden, das den angegebenen Kriterien entspricht". Die Straßenabfrage „Jacobstraße" listet die in 08060 Zwickau (Marienthal West) angemeldeten Betriebe an den Hausnummern 8, 15, 19, 25, 26, 35, 36, 70 u. a.; die Abfrage „Jacobstraße" mit Hausnummer „4" liefert **keinen** Gewerbebetrieb. Auch die Firmennamensuche „Schrott" bzw. „%chrott" bleibt leer. Damit ist der Verzeichnislead „Gottfried Wunderlich SchrottHdl., Jacobstr. 4, 08060 Zwickau, 0375 524290" amtlich nicht gedeckt: Die Telefonnummer stammt nur aus dem Aggregator-Cluster (lokaleschrottplatz, Maptons, firmania, business-branchenbuch, dastelefonbuch, oeffnungszeitenbuch, branchen-info.net), zählt also nicht als Quelle und wurde deshalb **nicht** ins Frontmatter übernommen. Die Postleitzahl 08060 wurde ergänzt, weil sie unabhängig durch das amtliche Register (alle Jacobstraße-Einträge „…, 08060 Zwickau (Marienthal West)") und die OSM-Adressauflösung (Way 123555713, „4, Jacobstraße, Marienthal West, 08060 Zwickau") gedeckt ist; Straße, Hausnummer und Postleitzahl als Anschrift eines realen Betriebes sind damit nicht belegt. Keine Koordinate gesetzt und kein Statuswechsel über `pruefung` hinaus: Ein Negativbefund im Gewerberegister ist kein Abmeldungs- oder Schließungsnachweis, und eine Nachfolge- oder Verlagsmeldung liegt nicht vor. ANKAUF: keine bestätigte Annahme, keine Sorten oder Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Quellen: https://gewerbe.zwickau.de/webauskunft/gewerbe/suche (Abfragen Nachname Wunderlich, Nachname+Vorname Gottfried, Straße Jacobstraße mit und ohne Hausnummer 4, Firmenname Schrott und %chrott, Abruf 27.10.2026) ; https://www.zwickau.de/de/politik/verwaltung/aemter/dezernat1/ordnungsamt/sg_polizei/dienstleistungen/gew_aus.php ; https://nominatim.openstreetmap.org/search?q=4%2C+Jacobstra%C3%9Fe%2C+08060+Zwickau&format=jsonv2&limit=3&addressdetails=1 .]
 
 ### Recherche 22.10.2026
 

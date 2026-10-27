@@ -13,7 +13,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Schrotthandel in Eckernförde, in Branchenverzeichnissen unter Tietjen Stefan mit Siemensstr. 12, 24340 Eckernförde geführt. Der Eintrag wird von Das Örtliche ausdrücklich unter „Private Einträge“ geführt; es gibt weder eine Betreiber-Website noch einen Registereintrag, und das amtliche Register der Entsorgungsfachbetriebe (Stand 11.08.2026) kennt für Eckernförde keinen anerkannten Betrieb. Die gleichnamige Domain stefan-tietjen.de gehört laut Impressum zu einer Person in Lilienthal und ist nicht zuzuordnen. Ankauf, Verkaufspreise und Gebühren sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)
@@ -33,6 +33,13 @@ Verzeichnis-Seed mit unbestätigten Kontakt-/Adresswerten Siemensstr. 12, 24340 
 - **GEO:** Siemensstraße 12 erst nach Betriebsbestätigung geocodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Amtliches Fachbetrieberegister neu ausgewertet (Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge der Länder nach § 7 Abs. 2a AltfahrzeugV und Register der Entsorgungsfachbetriebe nach § 56 KrWG, Auszug mit Stand 11.08.2026, gespiegelt über SchrottRegister): Für **Eckernförde existiert keine Ortsseite** und damit **kein anerkannter Betrieb**; ein „Tietjen“-Treffer existiert dort nicht (Efb-Anerkennung ist freiwillig, also kein Nichtexistenzbeweis). Die Branchenbuchsuche „Schrotthandel in Eckernförde“ (11880, 27.10.2026) führt **keinen** Tietjen-Betrieb im Ort; gelistet werden u. a. Autoverwertung Gettorf Inh. R. Jess, Walter Steffen Schrotthandel (Twedt), Nickels Elly GmbH & Co. KG (Rendsburg), Schrotthandel Reiner Mohr (Rendsburg), Welp Schrotthandel (Kappeln).]
+- [Recherche 27.10.2026: Namensvetter geprüft und abgegrenzt: Der 11880-Eintrag **„Ursula Tietjen“, Austr. 22, 25355 Barmstedt, Tel. (04123) 4778** (Verzeichniskategorie RecyclingCenter) ist ein **anderer Betrieb an anderem Ort** und wird **nicht** übernommen bzw. verschmolzen. Die Domain **stefan-tietjen.de** wurde erneut direkt gelesen: Ihr Impressum nennt weiterhin **Stefan Tietjen, Westerweder Straße 38, 28865 Lilienthal, stefan.tietjen@worphausen.de, Tel. 0174-9458612** und verweist auf ein Partnerprogramm (schrottpreise-info.de) — sie ist damit **kein** Eckernförder Betrieb, kein Umzugs- oder Fortführungsnachweis und keine Preisquelle für diesen Seed.]
+- [Recherche 27.10.2026: Die Seed-Adresse **Siemensstr. 12, 24340 Eckernförde** (Ortsteil Borby) ist in OSM als Adresspunkt **54.4819930/9.8460876** geführt; das Gebäude ist dort **nicht** nach „Tietjen“ benannt. Die Identität bleibt damit auf Verzeichnisangaben (Das Örtliche unter „Private Einträge“ + Gelbe Seiten, also **ein** Beleg) beschränkt; Anschrift, Telefon und Annahme werden **nicht** gefüllt. `clear_fields: 'dropoff_json,geo,phone'` bleibt bestehen — die Produktionszeile trägt für diesen Slug **keine** Koordinate und **keine** Annahmezusage, die zurückzunehmen wären.]
+- [Preise/Ankauf/Verkauf/Gebühren 27.10.2026: **Ankauf:** keine Eckernförder Kurse; das Partnerprogramm-Preisportal schrottpreise-info.de ist regions- und händlerabhängig und **keine** Tietjen-Preisliste. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Status bleibt `pruefung`. Quellen: https://schrottregister.pages.dev/ort-eckernfoerde (keine Ortsseite) ; https://www.11880.com/suche/schrotthandel/eckernfoerde ; https://www.11880.com/branchenbuch/barmstedt/060440092B28156896/ursula-tietjen.html ; https://www.stefan-tietjen.de/impressum.htm ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Siemensstra%C3%9Fe+12%2C+24340+Eckernf%C3%B6rde&addressdetails=1 ; read-only `public.db` (27.10.2026).]
 
 ### Recherche 26.10.2026: Eintrag als privater Verzeichnistreffer markiert
 

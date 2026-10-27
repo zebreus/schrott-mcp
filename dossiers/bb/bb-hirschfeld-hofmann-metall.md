@@ -1,18 +1,20 @@
 ---
 slug: bb-hirschfeld-hofmann-metall
-name: Hofmann Metall GmbH
+name: Hofmann Metall GmbH, Betriebsteil Hirschfeld
 trader_type: schrotthaendler
 state: BB
 city: Hirschfeld
-street: Bahnhofstr. 5
-postcode: ''
-phone: ''
-email: ''
+street: Bahnhofstraße 5
+postcode: '08144'
+lat: 50.6320984
+lon: 12.4259907
+phone: 037607 5531
+email: hirschfeld@hofmann-metall.de
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+website: https://www.hofmann-metall.de
+website_status: aktiv
+status: aktiv
+description: 'Betriebsteil Hirschfeld der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) in der Bahnhofstraße 5, 08144 Hirschfeld (Sachsen, Landkreis Zwickau): Annahme von Buntmetallen und Legierungsschrotten, Containerdienst mit kostenfreier Containerstellung (6–10 m³ Absetz-, 18–36 m³ Abrollcontainer), Aufbereitung und Demontage. Die im Frontmatter geführte Zuordnung zum Bundesland Brandenburg ist falsch und bleibt unverändert, bis der Owner die Bundesland-Zuordnung entscheidet; Anschrift und Kontakte sind die des sächsischen Betriebsteils. Öffnungszeiten wegen widersprüchlicher Betreiberangaben nicht übernommen, keine öffentlichen Ankauf- oder Verkaufspreise.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Nachtrag Audit-Runde 3 (Stand: 2026-09-27)'
@@ -24,11 +26,22 @@ provenance_origin: table
 
 ## Überblick
 
-Hofmann Metall GmbH bestätigt die Kleinannahmestelle Bahnhofstraße 5, **08144 Hirschfeld in Sachsen**, nicht Brandenburg. Hauptsitz Zwickau widerlegt diese Niederlassung nicht. Vorrecherche vom 04.10. belegt Betreiber/Filiale ausführlich; geografische BB-Zuordnung bleibt explizites Owner-Gate, Slug stabil halten. Keine sächsischen Kontakte stillschweigend in den widersprüchlichen BB-Datensatz importieren.
+Hofmann Metall GmbH, **Betriebsteil Hirschfeld**, Bahnhofstraße 5, **08144 Hirschfeld in Sachsen (Landkreis Zwickau)** — nicht Brandenburg. Die Betreiber-Standortseite und die kommunale Gemeindeseite (Gemeinde Hirschfeld, 08144 Hirschfeld, Landkreis Zwickau) bestätigen die sächsische Zuordnung; ein Hofmann-Metall-Betrieb in Brandenburg ist nicht auffindbar, die Namensgleichheit mit dem Ortsteil Hirschfeld (Gemeinde Nennhausen, Havelland) ist reine Namensvetter- coincidence ohne Betreiberbezug. Hauptsitz Zwickau (HRB 5475 AG Chemnitz) widerlegt die sächsische Betriebsstätte nicht.
 
-Detailseite am 09.10.: Mo–Fr 07–16, länger/Samstag nach Absprache, Pausen 09–09:30 und 12–12:30. Der Zeitenkonflikt bleibt bestehen: Impressum-/Privatkunden-Footer am 10.10. nennt Mo–Do 07–16:30, Fr 07–16. Keine Öffnungszeitenübernahme. BB→SN sowie Adress-/Kontaktdatenkorrektur bleiben ein konkretes separates Identitätsgate; diesmal keine Stammdatenkorrektur. **ANKAUF:** Die Startseite zeigt für 10/2026 bundesweite BDSV-Stahl-Referenzwerte (246,60–301,10 €/t je Sorte), aber keine standortspezifischen Hofmann-Ankaufangebote. **VERKAUF:** keine Preisliste. **GEBÜHREN/Container:** Privat-/Kleingewerbeseite bewirbt kostenfreie Containerstellung; daraus folgen weder kostenlose Abholung/Entsorgung noch ein vollständig kostenloser Containerdienst. Keine standortbezogene Gebührentabelle.
+Der Dossier-**Slug bleibt unverändert** (`bb-hirschfeld-hofmann-metall`), weil Slugs nie geändert werden; das Frontmatter-Feld `state: BB` bleibt deshalb ebenfalls unverändert und ist damit **als falsch markiert** — die Zuordnung zum Bundesland ist eine separate Owner-Entscheidung. Die belegten Stammdaten (Anschrift, PLZ, Telefon, E-Mail, Website) sind jetzt gefüllt, weil sie ausschließlich den sächsischen Betriebsteil beschreiben und die Betriebsstätte selbst durch Betreiber-Primärquelle plus amtlich/kommunal belegt ist.
+
+**Öffnungszeiten bleiben leer:** Der Standortdetailbereich nennt Mo–Fr 07:00–16:00 (länger/Samstag nach Absprache), der Hirschfeld-Footer der Privat-/Kleingewerbekundenseite nennt Mo–Do 07:00–16:30, Fr 07:00–16:00, Sa. nach Absprache, mit abweichenden Pausenzeiten. Dieser Widerspruch besteht unverändert fort und wird nicht durch Mehrheitszählung entschieden.
+
+**Ankauf:** Die Startseite zeigt bundesweite BDSV-Referenzwerte für Stahl 10/2026 (Sorte 1 253,60 €/t, Sorte 2/8 293,70 €/t, Sorte 3 287,50 €/t, Sorte 4 301,10 €/t, Sorte 5 246,60 €/t) — **Referenz-/Durchschnittswerte, keine Hofmann-Hirschfelder Ankaufspreise**. Keine standortspezifische Ankaufspreisliste. **Verkauf:** keine Preisliste. **Gebühren/Container:** Die Privat-/Kleingewerbeseite nennt Containerdienst mit „kostenfreier Stellung" und Containergrößen 6–10 m³ sowie 18–36 m³; das belegt weder kostenlose Abholung/Entsorgung noch einen kostenlosen Komplettdienst, eine Gebührentabelle existiert nicht.
+
+**GEO:** Der adressgenaue OSM-Betriebspunkt zum Betreiberobjekt 50.6320984/12.4259907 trägt den Namen „Hofmann Metall Hirschfeld" mit Operator-Tagging `Hofmann Metall` und exakt Bahnhofstraße 5, 08144 Hirschfeld sowie den Betreiberkontakten — Betriebsgebäude-/Adresspunkt, keine bestätigte Anlieferzufahrt.
 
 ## Timeline
+
+### Recherche 27.10.2026: Standort, Kontakte und GEO belegt; BB/SN bleibt Owner-Gate
+
+- [Recherche 27.10.2026: Der sächsische Betriebsteil ist jetzt über drei voneinander unabhängige Quellen belegt, und die BB-Zuordnung ist damit zugleich widerlegt. Betreiber-Primärquelle: die Standortseite führt „Betriebsteil Hirschfeld, Bahnhofstraße 5, 08144 Hirschfeld" mit Büro 037607 5531, Fax 037607 5412, Mobil 0172 3761211 und hirschfeld@hofmann-metall.de; das Impressum bestätigt Hofmann Metall GmbH, Äußere Dresdner Straße 80, 08066 Zwickau, HRB 5475 AG Chemnitz. Unabhängige kommunale Quelle: die offizielle Gemeindeseite der Gemeinde Hirschfeld nennt 08144 Hirschfeld, Hauptstraße 41, Landkreis Zwickau (Sachsen). Unabhängige kartographische Quelle mit Betreiberkontaktdaten: der OSM-Way 217371309 trägt name=„Hofmann Metall Hirschfeld", operator=Hofmann Metall, addr:housenumber=5, addr:street=Bahnhofstraße, addr:postcode=08144, addr:city=Hirschfeld, building=yes, man_made=works, contact:phone=+49 37607 5531, email=hirschfeld@hofmann-metall.de, website=https://www.hofmann-metall.de/ — Betreiberobjekt mit exakt denselben Kontaktdaten wie die Betreiber-Primärquelle. Namensvetter-Gegenprüfung: Für „Hofmann Metall" in Brandenburg ist kein Betrieb auffindbar; der gleichnamige Ortsteil Hirschfeld (Gemeinde Nennhausen, Landkreis Havelland, BB) trägt keinen Hofmann-Metall-Betrieb, die Bahnhofstraße 5 dort ist ein unbewohnter Gebäudepunkt in Buschow. Ergebnis: Anschrift, PLZ, Telefon, E-Mail, Website und Name nach der Beleglage korrigiert, status pruefung → aktiv. `state` bleibt bewusst BB und der Slug unverändert: die Bundesland-Zuordnung selbst ist laut README-Betreiberketten-Protokoll eine Owner-Entscheidung, und ein Slug-Wechsel ist ausgeschlossen; das Dossier benennt die Fehlzuordnung ausdrücklich im Überblick und in der Beschreibung. **Öffnungszeiten bewusst nicht übernommen:** Der Standortdetailbereich nennt Mo–Fr 07:00–16:00 (länger geöffnet/Samstag nach Absprache), der Hirschfeld-Block der Privat-/Kleingewerbeseite nennt Mo–Do 07:00–16:30, Fr 07:00–16:00, Sa. nach Absprache mit abweichenden Pausenzeiten; der Widerspruch besteht unverändert und wird nicht durch Mehrheitszählung entschieden. **ANKAUF:** Die Startseite zeigt bundesweite BDSV-Referenzwerte für Stahl 10/2026 (Sorte 1 253,60 €/t, Sorte 2/8 293,70 €/t, Sorte 3 287,50 €/t, Sorte 4 301,10 €/t, Sorte 5 246,60 €/t); das sind Referenz-/Durchschnittswerte, keine standortspezifischen Hirschfelder Ankaufspreise, und werden nicht als Händlerkurse geführt. **VERKAUF:** keine Preisliste. **GEBÜHREN:** Containerdienst mit kostenfreier Stellung, Absetzcontainer 6–10 m³ und Abrollcontainer 18–36 m³; daraus folgen weder kostenlose Abholung/Entsorgung noch ein kostenloser Komplettdienst, eine Gebührentabelle existiert nicht. Quellen: https://hofmann-metall.de/standort/hirschfeld/ ; https://hofmann-metall.de/impressum/ ; https://hofmann-metall.de/ ; https://hofmann-metall.de/privat-kleingewerbekunden/ ; https://www.hirschfeld-sachsen.de/inhalt/gemeinde_hirschfeld/_inhalt/startseite ; https://api.openstreetmap.org/api/0.6/way/217371309/full .]
+- [Recherche 27.10.2026: GEO-Paar 50.6320984/12.4259907 aus dem benannten OSM-Betriebsobjekt way 217371309 übernommen (name=Hofmann Metall Hirschfeld, operator=Hofmann Metall, addr:housenumber=5, addr:street=Bahnhofstraße, addr:postcode=08144, addr:city=Hirschfeld); die unabhängig durchgeführte Nominatim-Vorwärtssuche nach „Bahnhofstraße 5, 08144 Hirschfeld" liefert exakt denselben Treffer bei 0 m Abweichung. Punktart: Betriebsgebäude (man_made=works) mit Betreibernamen, keine bestätigte Anlieferzufahrt und keine Eingangspräzision belegt. Der bisherige Produktionspunkt 50.6995/11.59506 löste auf die Heinrich-Heine-Straße 1 in Jüdewein (Thüringen) auf und lag rund 59 km Luftlinie vom belegten Standort entfernt und in einem anderen Bundesland; er wird durch dieses Paar ersetzt. Quellen: https://api.openstreetmap.org/api/0.6/way/217371309/full ; https://nominatim.openstreetmap.org/search?q=Bahnhofstra%C3%9Fe+5%2C+08144+Hirschfeld&format=jsonv2&limit=3&addressdetails=1&extratags=1 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=50.6995&lon=11.59506&addressdetails=1 .]
 
 ### Recherche 26.10.2026: Referenzkurse und Containerleistung abgegrenzt
 

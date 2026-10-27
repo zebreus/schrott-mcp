@@ -12,7 +12,8 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Schrotthandel bzw. Entrümpelung in Köthen OT Elsdorf, Ringstr. 4. Die frühere Marko Schwind UG (AG Stendal HRB 8480) wurde liquidiert und am 14.12.2017 im Handelsregister gelöscht; im amtlichen Register der Entsorgungsfachbetriebe (Stand 11.08.2026) ist für Köthen (06366/06369) kein Betrieb Schwind geführt. Eine Fortführung durch eine Einzelperson ist nicht belegt; Annahme, Preise und Gebühren sind nicht belegt.'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Dessau-Roßlau / Wittenberg / Bitterfeld / Köthen / Bernburg /
@@ -25,9 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-Die frühere Marko Schwind UG (AG Stendal HRB 8480) war laut Registerprofil Gegenstand eines Schrotthandels, wurde liquidiert und am 14.12.2017 gelöscht. Ein aktueller 11880-Verzeichniseintrag „Marko Schwind Schrotthandel“ führt Ringstr. 4 und 03496 303294; er beweist weder eine fortgeführte Einzelfirma noch eine Wiederaufnahme nach Löschung der UG. Ein zweiter Eintrag „Schwind Entrümpelungen“ mit abweichender Nummer ist nicht ohne Weiteres derselbe Betrieb. `pruefung` bleibt; keine Schließung des möglichen Einzelbetriebs behauptet. **Ankauf:** keine bestätigte Annahme/Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Keine GEO.
+Die frühere Marko Schwind UG (AG Stendal HRB 8480) war laut Registerprofil Gegenstand eines Schrotthandels, wurde liquidiert und am 14.12.2017 gelöscht. Ein aktueller 11880-Verzeichniseintrag „Marko Schwind Schrotthandel“ führt Ringstr. 4 und 03496 303294; er beweist weder eine fortgeführte Einzelfirma noch eine Wiederaufnahme nach Löschung der UG. Ein zweiter Eintrag „Schwind Entrümpelungen“ mit abweichender Nummer ist nicht ohne Weiteres derselbe Betrieb. `pruefung` bleibt; keine Schließung des möglichen Einzelbetriebs behauptet. **Ankauf:** keine bestätigte Annahme/Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Der bisherige Produktionspunkt lag rund 3,4 km entfernt in Köthen statt in Elsdorf und wurde mit `clear_fields: 'geo'` zurückgezogen, ohne Ersatz.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Amtliches Fachbetrieberegister neu ausgewertet (Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge der Länder nach § 7 Abs. 2a AltfahrzeugV und Register der Entsorgungsfachbetriebe nach § 56 KrWG, Auszug mit Stand 11.08.2026, gespiegelt über SchrottRegister): Für **Köthen (06366)** ist **„KER Kaiser Entsorgung & Recycling GmbH“, Am Güterbahnhof 3** geführt, für **Köthen (Anhalt) (06366/06369)** die drei Einträge **„Kremer GmbH“, Ringstraße 1**, **„PreZero Service Köthen GmbH, Betriebshof Logistik“, Pfriemsdorfer Weg 10** und **„PreZero Service Köthen GmbH, Umschlaganlage und Sonderabfallzwischenlager“, Maxdorfer Straße 40**. Ein **„Marko Schwind“/„Schwind“-Eintrag fehlt**; die PLZ der Seed-Adresse Ringstr. 4 (06369) liegt innerhalb der abgedeckten PLZ. Zusammen mit der bereits dokumentierten Löschung der Marko Schwind UG (HRB 8480) am 14.12.2017 und der Tatsache, dass die Register-Suchfunktion kein „Marko Schwind“ mehr kennt, ist damit **kein fortführender Betrieb im amtlichen Register belegt** — das ist kein Nachweis, dass der mögliche Einzelbetrieb nicht mehr arbeitet.]
+- [Recherche 27.10.2026: Verzeichnis-Leads bleiben widersprüchlich und sind keine Belege: der 11880-Eintrag „Marko Schwind Schrotthandel“ (Ringstr. 4, 03496 303294, zusätzlich 0177 4036272) und der Örtliche-Eintrag „Schwind Entrümpelungen“ (Ringstr. 4, 0177 3361329) sind Aggregatoren; die unterschiedlichen Mobilnummern bleiben ungeklärt. Firmensuche (firmenschau.com, 27.10.2026) nach „Marko Schwind Köthen“ ohne Treffer.]
+- [Recherche 27.10.2026: GEO-Korrektur. Die read-only-Produktionszeile enthielt den Punkt **51.7519/11.9709**; die OSM/Nominatim-Rückabfrage löst ihn auf **„Wallstraße 58/59, 06366 Köthen (Anhalt)“** auf — also **Köthen proper**, während die Zeile ausdrücklich **„Köthen OT Elsdorf“, Ringstr. 4 (06369 Elsdorf)** führt; der Adresspunkt „Ringstraße 4, 06369 Elsdorf“ liegt bei **51.7824130/11.9778684**, rund **3,4 km Luftlinie** entfernt. Da die Zeile eine eigene Ortsangabe trägt, die dem gespeicherten Punkt widerspricht, wird der Punkt mit `clear_fields: 'geo'` **zurückgezogen**; eine Ersatzkoordinate wird **nicht** gesetzt, weil die Hausnummer nur über Aggregator-Leads belegt ist (die Registerpublikation zur UG nennt „06369 Köthen-Elsdorf“, redigiert die Straße jedoch) und die Zwei-Quellen-Regel für die Anschrift damit nicht erfüllt ist.]
+- [Preise/Ankauf/Verkauf/Gebühren 27.10.2026: **ANKAUF:** keine bestätigte Annahme und keine Kurse. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. Status bleibt `pruefung`; das ist **kein** festgestellter Schließungsstatus des möglichen Nachfolgebetriebs. Quellen: https://schrottregister.pages.dev/ort-kothen ; https://schrottregister.pages.dev/ort-kothen-anhalt ; https://www.firmenschau.com/suche?q=Marko+Schwind+K%C3%B6then ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=51.7519&lon=11.9709&addressdetails=1 ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Ringstra%C3%9Fe+4%2C+06369+Elsdorf&addressdetails=1 ; read-only `public.db` (27.10.2026).]
 
 ### Recherche 24.10.2026 - Welle 06:00 / Shard C
 
