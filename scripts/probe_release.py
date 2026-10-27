@@ -447,28 +447,29 @@ def main() -> int:
     manifest["source_counts"] = counts(PRISTINE / "public.db")
     manifest["source_digests"] = digest_sidecars(PRISTINE / "public.db")
 
-    data_first = PROBE / "data-first-boot"
-    data_second = PROBE / "data-second-boot"
-    copy_to_data_dir(data_first)
+    # Beide Boots laufen auf DERSELBEN privaten Kopie: nur so beweist der
+    # zweite Boot die Idempotenz (0 Zeilen). Der Zustand nach dem ersten Boot
+    # wird vor dem zweiten Boot komplett (inklusive WAL) archiviert, damit
+    # dessen Digest aus dem Bundle nachrechenbar bleibt.
+    copy_to_data_dir(DATA)
+    first_snapshot = PROBE / "data-first-boot"
     manifest["phase_timestamps"] = {"probe_started_utc": now()}
-    manifest["first_boot"] = boot("first", 46971, data_first)
-    manifest["first_boot"]["data_dir"] = str(data_first.relative_to(ROOT))
-    manifest["after_first_boot_counts"] = counts(data_first / "public.db")
-    manifest["after_first_boot_digests"] = digest_sidecars(data_first / "public.db")
+    manifest["first_boot"] = boot("first", 46971, DATA)
+    manifest["first_boot"]["data_dir"] = str(DATA.relative_to(ROOT))
+    manifest["after_first_boot_counts"] = counts(DATA / "public.db")
+    manifest["after_first_boot_digests"] = digest_sidecars(DATA / "public.db")
+    if first_snapshot.exists():
+        shutil.rmtree(first_snapshot)
+    shutil.copytree(DATA, first_snapshot)
+    manifest["first_boot"]["state_snapshot"] = str(first_snapshot.relative_to(ROOT))
+    manifest["first_boot"]["state_snapshot_digests"] = digest_sidecars(first_snapshot / "public.db")
     manifest["phase_timestamps"]["after_first_boot_utc"] = now()
 
-    copy_to_data_dir(data_second)
-    manifest["second_boot"] = boot("second", 46972, data_second)
-    manifest["second_boot"]["data_dir"] = str(data_second.relative_to(ROOT))
-    manifest["after_second_boot_counts"] = counts(data_second / "public.db")
-    manifest["after_second_boot_digests"] = digest_sidecars(data_second / "public.db")
+    manifest["second_boot"] = boot("second", 46972, DATA)
+    manifest["second_boot"]["data_dir"] = str(DATA.relative_to(ROOT))
+    manifest["after_second_boot_counts"] = counts(DATA / "public.db")
+    manifest["after_second_boot_digests"] = digest_sidecars(DATA / "public.db")
     manifest["phase_timestamps"]["after_second_boot_utc"] = now()
-    # der zweite Boot ist der Endzustand des Kandidaten
-    if DATA.exists():
-        shutil.rmtree(DATA)
-    DATA.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(data_second, DATA)
-    manifest["phase_timestamps"]["final_state_copied_utc"] = now()
 
     # --- effective delta --------------------------------------------------------
     before = rows_of(PRISTINE / "public.db")
