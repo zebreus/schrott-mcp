@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: https://kuehl-entsorgung.de/standorte/karlsruhe-rheinhafen/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: 'Kühn Entsorgung GmbH im Karlsruher Rheinhafen, Teil der Kühl Unternehmensgruppe; Standort und Entsorgungsbetrieb durch Betreiberseite und EFB-Zertifikat 2026 bestätigt. Metallannahme nach Anmeldung beworben; eine Ankaufvergütung ist nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
@@ -31,6 +31,10 @@ Die Detailseite nennt die bereits gespeicherte Nummer 0721 1831103-0, info@kuehn
 **Preise:** Ankauf — keine standortbezogenen Zahlenkurse oder Vergütungsgarantie; Verkauf — keine Materialverkaufspreise; Gebühren — kein bezifferter Standorttarif. Gruppenangebote der „Wertstoffbar“ nicht ohne lokale Bestätigung übertragen. Keine GEO-Bearbeitung in dieser Welle.
 
 ## Timeline
+
+### Owner-Statuskorrektur 27.10.2026
+
+- [Korrektur 27.10.2026: Die aktuelle Kühl-Standortseite wurde direkt geprüft. Sie belegt den aktiven Entsorgungsbetrieb und eine nach Anmeldung mögliche Warenannahme, darunter Metalle; sie nennt aber keine Ankaufvergütung und belegt damit nicht, dass der Standort Schrott von Kunden ankauft. Nach der README-Definition bleibt der Ankaufstatus daher `pruefung`. Status von `aktiv` auf `pruefung` korrigiert; `website_status: aktiv` bleibt unverändert. Der Entsorgungsbetrieb und die beworbene Annahme werden dadurch nicht bestritten; keine Preise oder Annahmebedingungen ergänzt. Quelle: https://kuehl-entsorgung.de/standorte/karlsruhe-rheinhafen/ ; README.md, Statusdefinition und Quellenhierarchie (direkt geprüft 27.10.2026).]
 
 ### Owner-Nachprüfung 18.10.2026 — Welle 02:00
 

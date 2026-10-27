@@ -13,7 +13,7 @@ opening_hours: ''
 website: https://ak-containerdienst.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Containerlieferung im Servicegebiet Aschaffenburg; kein Betriebssitz oder Metall-Anlieferplatz dort. Firmensitz und Metall-Anlieferplatz in Rödermark (Hessen).'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
@@ -30,6 +30,10 @@ Die Betreiberwebsite und NorthData identifizieren AK Containerdienst GmbH, HRB 5
 **Ankauf:** Schrottabholung laut Homepage zum jeweiligen Tagespreis; Werkstätten und Metallbetriebe können kostenlos einen Container für Metall/Eisenschrott erhalten, der Inhalt werde vergütet. Die AGB nennen börsenabhängige Tagespreise auf Anfrage, einen Abschlag bei mehr als 1 % Fremdmaterial und keinen Vergütungsanspruch für Container-Schrott unter 1.000 kg. Keine numerischen Ankaufskurse. **Verkauf:** keine eigene Verkaufspreisliste belegt. **Gebühren:** Das Onlineformular zeigte beim Abruf am 22.10.2026 folgende Entsorgungspreise je Tonne (zzgl. 19 % MwSt.): Baumischabfall/Mischmüll 220 €, reiner Bauschutt ab 55 €, Holz A1–A3 75 €, Holz A4 149 €, Erdaushub ohne Wurzeln/Steine/Grasnarbe 55 €, mit diesen Beimengungen ab 85 €, Rigips/Gipsputz 150 €, Grünschnitt ohne Wurzeln/Stammholz 85 €, mit Wurzeln/Stammholz 149 €, Leichtbaustoffe/Ytong 150 €, Porenbeton 150 € und Glas 89 €. Auf demselben Homepageabruf warb ein Banner zugleich mit „Frühjahrsputzpreise Mischmüll“ von 189 €/t; der Widerspruch und die nicht ausgewiesene Gültigkeitsdauer lassen offen, welcher Preis anwendbar ist. Die AGB (15.01.2022) setzen bei Entsorgungscontainern mindestens 1 t an; Anlagen-/Genehmigungskosten können zusätzlich berechnet werden. Die Mietdauer ist im Text widersprüchlich (max. 30 Tage im Geschäftsgegenstand, an anderer Stelle 5 Tage; 5 €/netto/Tag erst jenseits von 30 Tagen). Diese alten Bedingungen sind keine pauschale aktuelle Gebührenzusage; Konditionen vor Auftrag erfragen.
 
 ## Timeline
+
+### Owner-Entscheidung 27.10.2026 — Servicegebiet statt Betriebssitz
+
+- [Owner-Entscheidung 27.10.2026: Die Betreiberhomepage nennt Aschaffenburg als Container-Lieferort im erweiterten Rhein-Main-Servicegebiet und bewirbt Schrottabholung mit Vergütung; die AGB nennen Rödermark als Firmensitz und Metall-Anlieferplatz. `city: Aschaffenburg` bleibt daher ausdrücklich als Servicegebietsort dieser regionalen Containerdienst-Zeile erhalten, nicht als Behauptung eines bayerischen Betriebs- oder Annahmestandorts. Die Beschreibung macht diese Bedeutung im strukturierten Datensatz sichtbar; `state: BY` folgt der Servicegebietszuordnung. Kein Ersatz-GEO, keine Alzenau-Zuordnung. Quellen: https://ak-containerdienst.de/ ; https://ak-containerdienst.de/agb/ ; README.md, Standort-/Identitätsregeln (direkt geprüft 27.10.2026).]
 
 ### Owner-Abgleich 26.10.2026
 

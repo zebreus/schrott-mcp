@@ -11,7 +11,7 @@ email: m.schollmeyer@wagner-kies.de
 opening_hours: ''
 website: http://wagner-kies.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 clear_fields: 'geo'
 description: 'Abfallaufbereitung in Lohnarbeit, Verwertung und Entsorgung; mobile Prallbrecheranlage. Keine veröffentlichten Annahme- oder Preistarife.'
 dropoff_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 Die Betreiberseite wagner-kies.de nennt die **Wagner Recycling GmbH**, Salinenstraße 91, 99085 Erfurt, HRB 113325 AG Jena, mit Ansprechpartner Mario Schollmeyer und Leistungen in Abfallaufbereitung, Verwertung und Entsorgung. Der exakte Firmenname/Ort/HRB-Abgleich löst den ursprünglichen Identitätszweifel; der nicht auflösbare Domainkandidat wagner-recycling.de bleibt unzugeordnet und ist nicht die eingetragene Website. Status `aktiv` bezieht sich auf die aktuell erreichbare Betreiberseite und das dort beschriebene Unternehmen, nicht auf eine bestätigte öffentliche Selbstanlieferung. Ankaufspreise, Verkaufspreise und Gebühren sind nicht veröffentlicht; konkrete Konditionen müssen direkt erfragt werden. Neue Geschäftsadresse zur Geokodierung: Salinenstraße 91, 99085 Erfurt.
 
 ## Timeline
+
+### Owner-Statuskorrektur 27.10.2026
+
+- [Korrektur 27.10.2026: Die aktuelle Betreiber-Leistungsseite wurde direkt erneut geprüft. Sie nennt Lohnarbeit in der Abfallaufbereitung, Verwertung, Entsorgung und eine mobile Brecheranlage; direkter Schrottankauf oder öffentliche Anlieferung sind nicht ausgewiesen. Der aktive Recyclingbetrieb und `website_status: aktiv` belegen den Ankaufstatus nicht. Gemäß README wird `status` von `aktiv` auf `pruefung` korrigiert. Keine Änderung an GEO-Clear, Kontakten oder der beschriebenen Lohn-/Entsorgungsleistung. Quelle: http://wagner-kies.de/leistungen-recycling.html ; README.md, Statusdefinition und Quellenhierarchie (direkt geprüft 27.10.2026).]
 
 ### Owner-GEO-Korrektur 26.10.2026
 

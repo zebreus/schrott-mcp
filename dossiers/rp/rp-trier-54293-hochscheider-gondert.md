@@ -11,7 +11,7 @@ email: info@hochscheider.de
 opening_hours: Mo-Fr 08:00-12:00 und 12:45-17:00; Sa geschlossen; Sommerabweichungen möglich
 website: https://www.hochscheider.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: Schrott- und Metallhandel am Trierer Hafen mit Containerdienst und aktuell belegter Altfahrzeug-Annahmestelle. Privatanlieferung wegen widersprüchlicher Websitehinweise vorab klären; keine öffentlichen Ankaufkurse.
 dropoff_json: ''
 pickup_json: ''
@@ -31,6 +31,10 @@ Der bislang bloße Kurzname lässt sich jetzt eindeutig zu **Hochscheider Eisen-
 **Ankauf:** Schrott-/Metallankauf beschrieben, keine Zahlenkurse. **Verkauf:** aufbereiteter Schrott für Stahlindustrie, keine Zahlenliste. **Gebühren:** kein Tarifblatt; Annahmestellenzertifikat begründet keine kostenlose Hersteller-Rücknahme. **GEO:** Hafenstraße 14 jetzt belastbare Standortadresse, aber kein neuer Punkt geokodiert und keine Altkoordinaten bestätigt.
 
 ## Timeline
+
+### Owner-Statuskorrektur 27.10.2026
+
+- [Korrektur 27.10.2026: Die aktuelle Betreiberseite wurde direkt erneut abgerufen und zeigt weiterhin den seitenweiten Hinweis „AKTUELL KEINE ANLIEFERUNGEN VON PRIVAT MÖGLICH“. Sie belegt den aktiven Betrieb und Fahrzeugannahme, aber weder eine aktuelle allgemeine Annahme von Schrott durch Kunden noch dessen Ankauf. Die frühere Beschreibung als Schrotthandelsgesellschaft allein klärt den aktuellen Ankaufstatus nicht. Gemäß README wird `status` deshalb von `aktiv` auf `pruefung` korrigiert; `website_status: aktiv` bleibt unverändert. Die bestehende Aussage zu widersprüchlichen Privatannahmehinweisen und leeren Servicefeldern bleibt bestehen. Quelle: https://www.hochscheider.de/ ; README.md, Statusdefinition und Quellenhierarchie (direkt geprüft 27.10.2026).]
 
 ### Recherche 24.10.2026
 

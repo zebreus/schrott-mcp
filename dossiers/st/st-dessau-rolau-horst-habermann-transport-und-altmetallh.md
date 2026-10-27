@@ -4,8 +4,8 @@ name: Horst Habermann Transport und Altmetallhandel
 trader_type: metallhaendler
 state: ST
 city: Dessau-Roßlau
-street: Taubenstr. 37
-postcode: '06847'
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -26,13 +26,17 @@ provenance_origin: table
 
 ## Überblick
 
-Horst Habermann ist als früherer Betrieb am Standort Taubenstraße 37, 06847 Dessau-Roßlau geführt. Die aktuelle Website der MHG Recycling GmbH erklärt, sie habe den Entsorgungsfachbetrieb von Horst Habermann nach dessen Ruhestand zum 01.08.2026 übernommen und betreibe den Standort dort weiter. Das belegt einen Standort-/Betriebsübergang laut Betreiber, aber keine rechtliche Identität der Firmen. Der stabile Datensatzname bleibt deshalb historisch; `status: pruefung` und die Trennung von Habermann und MHG bleiben erhalten. Die frühere Domain ist inzwischen auf einer Domain-Verkaufsseite statt mit Betreiberinformationen erreichbar.
+Die aktuelle Website der MHG Recycling GmbH erklärt, sie habe den Entsorgungsfachbetrieb von Horst Habermann nach dessen Ruhestand zum 01.08.2026 übernommen und betreibe ihren Standort in der Taubenstraße 37, 06847 Dessau. Das ist bislang eine einzelne Betreiberangabe; eine unabhängige Bestätigung der Nachfolge bzw. der Zuordnung zur Legacy-Händlerzeile fehlt. Daher bleiben `street` und `postcode` im Frontmatter leer, der historische Datensatzname und `status: pruefung` erhalten. Die frühere Domain ist inzwischen auf einer Domain-Verkaufsseite statt mit Betreiberinformationen erreichbar. Das aktuelle MHG-Geschäft und dessen Preise werden nicht als Habermann-Stammdaten behandelt.
 
 **Preise am Standort (jetziger Betreiber MHG, nicht alte Habermann-Preise):** **Ankauf** – MHGs direkt abgerufene, als tagesaktuell bezeichnete Liste vom 20.10.2026 nennt (€/kg): Schredder-Schrott 0,08; Mischschrott leicht 0,14 / schwer 0,19; Kupferkabel 3,00; Kupfer-Raffinade (max. 5 %) 8,30; Kupfer Millberry 9,60; reines Altzink 1,40; reines Altblei 1,00; reines Messing 5,00; Aluminium mit Anhaftungen (max. 5 %) 0,90; reines Alt-/Neualuminium 1,30; reiner V2A 0,70; Altpapier 0,09 (ab 100 kg 0,10). Die Liste gilt laut MHG für übliche Klein-/Standardmengen bei Anlieferung; größere Mengen erhalten individuelle Konditionen. **Verkauf** – keine Verkaufspreisliste gefunden. **Gebühren** – Containerdienst wird angeboten, aber kein Tarif veröffentlicht; MHG nennt Barzahlung oder Sofortüberweisung, nicht als Preiszuschlag verstehen.
 
-**Geokodierung:** MHG bestätigt aktuell die Adresse Taubenstraße 37, 06847 Dessau; die ergänzte PLZ macht eine Neugeokodierung erforderlich. Das ist die heutige MHG-Standortadresse, keine nachträgliche unabhängige Bestätigung, dass Habermanns alter Rechtsträger fortbesteht.
+**Geokodierung:** MHG bestätigt die eigene aktuelle Adresse Taubenstraße 37, 06847 Dessau, nicht aber unabhängig die Nachfolge oder Zuordnung zur Legacy-Zeile. Daher bleiben Straße, PLZ und GEO für diesen Datensatz leer bzw. zurückgezogen, bis die Betreiberkette unabhängig geklärt ist.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026 — Adresse nicht auf Legacy-Zeile übertragen
+
+- [Korrektur 27.10.2026: Die MHG-Seite wurde direkt erneut gelesen. MHG erklärt selbst, den Entsorgungsfachbetrieb von Horst Habermann übernommen zu haben, und nennt Taubenstraße 37, 06847 Dessau als eigenen aktuellen Standort. Eine unabhängige zweite Quelle für die Betreiber-/Standortkette zur Legacy-Zeile ist weiterhin nicht vorhanden. Um MHG nicht ungeprüft mit Habermann gleichzusetzen, werden `street` und `postcode` im Habermann-Frontmatter zurückgenommen; die bereits bestehende GEO-Rücknahme bleibt. Stadt, historischer Name und `status: pruefung` bleiben erhalten; keine MHG-Kontakte oder Preise in Seedfelder übertragen. MHG-Adresse und Preisangaben bleiben als nicht unabhängig bestätigter Recherchehinweis gekennzeichnet. Quelle: https://www.mhg-recycling.de/ ; README.md, Quellenhierarchie und Betreiberkettenregeln (direkt geprüft 27.10.2026).]
 
 ### Owner-Korrektur 26.10.2026
 

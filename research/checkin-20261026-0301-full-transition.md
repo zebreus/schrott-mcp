@@ -452,3 +452,43 @@ Produktions- und Seedstand und ihre Zahlen sind nicht auf diese Probe
   unabhängiges Review und Bindung an exakt geprüfte Release-Binaries bleiben
   offen. Die Livekorrekturen werden nach Abschluss dieser Gates über den
   regulären Rollout weiterverfolgt.
+
+## Owner-Reconciliation: 324-Zeilen-Review und korrigierter Seed, 27.10.2026 01:43 UTC
+
+- Drei disjunkte Shard-Reviews deckten alle **324** strukturell geänderten
+  Händlerzeilen und **1.035** Feldänderungen gegen Dossiers und README-Quellen-
+  standards ab. Aggregiert: **535 unterstützt**, **492 begründete Rücknahmen**,
+  **8 beanstandete Felder**. Die Reviewer verwendeten den archivierten
+  Produktionssnapshot; nicht jede historische Quell-URL wurde erneut live
+  abgerufen. Ihre direkten Spotchecks und Grenzen sind im Owner-Follow-up
+  dokumentiert.
+- Owner-Disposition der acht Flags: sechs `status`-Werte wurden auf
+  `pruefung` gesetzt (Rainer Ludwig, Altfeld, Kühn, Bellersheim, Hochscheider,
+  Wagner), weil abgeschlossene Gesellschaften bzw. aktive Entsorgungs-/Recycling-
+  betriebe ohne belegten Händler-Ankauf nicht `aktiv`/`geschlossen` für die
+  Händlerzeile behaupten. `website_status: aktiv` blieb, wo passend, davon
+  getrennt. Bei AK Containerdienst bleibt `city: Aschaffenburg` ausdrücklich
+  ein Servicegebietsort und die Beschreibung schließt einen dortigen Sitz oder
+  Metall-Anlieferplatz aus. Bei Habermann wurden `street` und `postcode`
+  zurückgenommen: MHGs eigene Übernahme-/Adressangabe hat keine unabhängige
+  zweite Bestätigung der Betreiberkette zur Legacy-Zeile. Die Einzelfall-
+  Begründungen und Recherchehistorie stehen in den acht aktualisierten Dossiers.
+- Neue SQLite-`.backup`-Kopie der nur lesend geöffneten Produktion um
+  **01:43:44 UTC**, SHA-256
+  `f6801b537fdff9b45cd078138f40733abe7eb5d654c8c2c85189f326cad52671`, Schema
+  v6, 3.893 Händler, 83 Materialien, 31.043 Preise, 2.715 Current-Zeiger und
+  1.402 `trader_materials`. Die aktuelle Worktree-Fassung wurde ausschließlich
+  auf einer zweiten privaten Kopie mit `PublicDb::open` (Migration v6→v9) und
+  `seed_metadata` ausgeführt; zweite Trader-Seedanwendung: **0** Writes.
+  Ergebnis: 3.936 Händler, 83 Materialien, 31.043 Preise, 2.659 Current-Zeiger,
+  1.402 `trader_materials`; **323** bestehende strukturelle Zeilen mit
+  **1.030** geänderten Feldwerten. `integrity_check=ok`, die 24 Baseline-FK-
+  Verletzungen blieben 24, kein Current-Zeiger ohne Preiszeile. Alle acht
+  Owner-Dispositionen sowie die privaten Fritsch-/Elma-/RoVa-/RVE-Korrekturen
+  wurden in der Probe bestätigt. Temporärer Rust-Harness entfernt; Evidenz:
+  `/tmp/opencode/checkin-20261027-audit-afterfix/`.
+- Dieser korrigierte Seed ist nicht ausgerollt. Die 324er-Reviews stützten sich
+  für nicht direkt erneut abgerufene Quellen auf die dokumentierten Dossiers;
+  das aktuelle Probe-Commit, Source-/Seed-Bestand und beide Release-Binaries
+  sind noch nicht gemeinsam als Pre-Deploy-Freigabe gebunden. Keine
+  Produktionsänderung oder Deployment-Autorisierung.

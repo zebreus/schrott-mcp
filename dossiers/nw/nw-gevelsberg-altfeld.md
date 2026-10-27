@@ -13,7 +13,7 @@ email: info@altfeld.de
 opening_hours: ''
 website: https://altfeld.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: Stahl- und Metallschrottaufbereitung und -handel; Abfall- und Containerdienst.
 dropoff_json: ''
 pickup_json: ''
@@ -31,6 +31,10 @@ Die offiziellen Altfeld-Seiten führen am Standort Mühlenstraße 38, 58285 Geve
 **Preise:** Ankauf: Metallhandel/Schrottverwertung sind belegt, konkrete Ankaufskurse oder Sortenpreisliste nicht gefunden. Verkauf: keine Preisliste. Gebühren: Containerdienst bietet 3 m³, 5–7 m³ und 10–20 m³ Behälter; Kosten werden individuell angefragt, kein numerischer Tarif veröffentlicht. **GEO:** 51.3262186, 7.3502388 ist der OSM-Gebäudepunkt für Mühlenstraße 38, 58285 Gevelsberg, kein vermessener Eingangspunkt. Er ersetzt den gespeicherten, rund 1 km entfernten Punkt an Mittelstraße 28.
 
 ## Timeline
+
+### Owner-Statuskorrektur 27.10.2026
+
+- [Korrektur 27.10.2026: Die Betreiberseiten „Produktion“ und „Entsorgung & Containerdienst“ wurden direkt erneut gelesen. Sie belegen den aktiven Aufbereitungs-, Handels- und Entsorgungsbetrieb der Altfeld GmbH, aber keinen direkten Schrottankauf oder eine Vergütung von Kundenmaterial. Laut README bezeichnet `status: pruefung` Händler, deren Ankaufstatus noch zu verifizieren ist; Website-Erreichbarkeit und laufender Anlagenbetrieb sind davon getrennt. `status` daher von `aktiv` auf `pruefung` korrigiert; `website_status: aktiv` bleibt bestehen. Keine Aussage über Betriebsschließung, keine Änderung an Adresse oder Leistungsbeschreibung. Quellen: https://altfeld.de/produktion/ ; https://altfeld.de/entsorgung-containerdienst/ ; README.md, Statusdefinition und Quellenhierarchie (abgerufen/geprüft 27.10.2026).]
 
 ### Owner-GEO-Nachprüfung 26.10.2026
 

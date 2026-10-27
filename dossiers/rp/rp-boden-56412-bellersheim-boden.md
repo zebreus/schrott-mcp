@@ -11,7 +11,7 @@ email: metall@bellersheim.de
 opening_hours: ''
 website: https://www.bellersheim.de/abfallwirtschaft/leistungen/altmetall/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -29,6 +29,10 @@ provenance_origin: table
 **ANKAUF:** Die Seite nennt keinen ausdrücklichen Direktankauf mit Ankaufkursen; sie beschreibt stattdessen einen Vermarktungs-/Logistikservice für Kunden, die Altmetall verkaufen. **VERMARKTUNG / ERLÖS:** Wertstoffe werden laut Betreiber auf öffentlichen bzw. staatlich geeichten Waagen gewogen und im Auftrag nach Tages-/Marktpreis oder indexgebundenen Kriterien vermarktet; zeitnahe Zahlung wird zugesagt. Das ist kein numerischer Kaufkurs oder Nachweis einer direkten Ankauftransaktion. **VERKAUF:** keine eigene Material-Preisliste veröffentlicht. **GEBÜHREN:** keine explizite Altmetallannahme-/Abholgebühr ausgewiesen; separate Container-/Entsorgungsleistungen nicht als Schrottankaufgebühr behandeln. **GEO:** Niederahrer Straße 2, Boden ist eine aktuelle, primär belegte Adresskandidatin; Koordinaten/Betriebszufahrt nicht in diesem Dossier gesetzt.
 
 ## Timeline
+
+### Owner-Statuskorrektur 27.10.2026
+
+- [Korrektur 27.10.2026: Die aktuelle Altmetall-Leistungsseite wurde direkt geprüft. Bellersheim beschreibt, Kundenmaterial zu transportieren, aufzubereiten und im Auftrag nach Tages-/Marktpreis zu vermarkten; die zugesagte Zahlung an den Kunden belegt keinen direkten Ankauf durch Bellersheim. Direkte Annahme oder Ankauf am Standort Boden ist damit nicht bestätigt. Gemäß README bleibt der Ankaufstatus `pruefung`; `status` von `aktiv` auf `pruefung` korrigiert, `website_status: aktiv` bleibt bestehen. Die belegte Metallhandels-/Logistikleistung wird nicht bestritten und nicht als eigene Ankaufspreisliste ausgegeben. Quelle: https://www.bellersheim.de/abfallwirtschaft/leistungen/altmetall/ ; README.md, Statusdefinition und Quellenhierarchie (direkt geprüft 27.10.2026).]
 
 ### Recherche 24.10.2026: Wave 20261024-0000-C
 
