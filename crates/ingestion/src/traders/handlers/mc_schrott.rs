@@ -172,16 +172,44 @@ const SITES: &[Site] = &[
 fn site_of(key: SiteKey) -> Option<&'static Site> {
     SITES.iter().find(|site| site.key == key)
 }
+
+/// Der Standorteintrag zu einem Slug.
+fn site_for_slug(slug: &str) -> Option<&'static Site> {
+    SITES.iter().find(|site| site.slug == slug)
+}
+
+/// Der Standorteintrag zu einem Schlüssel **mit** Prüfung, dass Schlüssel und
+/// Slug zusammengehören. Wird von jedem Lauf benutzt: Ein Schlüssel, der zu
+/// einem anderen Slug gehört, wird abgelehnt, statt die Preise des einen
+/// Standorts in die Zeile des anderen zu schreiben.
+fn site_for(key: SiteKey, slug: &str) -> Result<&'static Site, IngestError> {
+    let Some(site) = site_of(key) else {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: format!("unbekannter Standortschlüssel {}", key.key()),
+        });
+    };
+    if site.slug != slug {
+        return Err(IngestError::Parse {
+            url: URL.to_owned(),
+            detail: format!(
+                "Standortschlüssel {} und Slug {slug} gehören nicht zusammen",
+                key.key()
+            ),
+        });
+    }
+    Ok(site)
+}
 pub const URL: &str = "https://www.mcschrott.de/preise/";
 
-/// Ein Handler je Annahmestelle. **Schlüssel und Slug stehen in einem
-/// Aufruf** — sie können deshalb nicht auseinanderlaufen. Das ist genau der
-/// Fehler, der am 27.10.2026 im Produktivbetrieb auffiel: `scrape_plotzin`
-/// übergab „plotzin“, während die Seite nur „werder-ploetzin“ kennt
-/// (HTTP 404) — der Handler scheiterte mit „unbekannter Standortschlüssel
-/// plotzin“.
+/// Ein Handler je Annahmestelle. **Schlüssel, Slug, Kontaktseite und
+/// Preissatz stammen aus derselben Zeile der Standorttabelle** - sie können
+/// deshalb nicht auseinanderlaufen. Das ist genau der Fehler, der am
+/// 27.10.2026 im Produktivbetrieb auffiel: `scrape_plotzin` uebergab
+/// „plotzin“, waehrend die Seite nur „werder-ploetzin“ kennt (HTTP 404) - der
+/// Handler scheiterte mit „unbekannter Standortschluessel plotzin“.
 macro_rules! mc_site {
-    ($handler:ident, $scrape:ident, $key:expr, $slug:expr) => {
+    ($handler:ident, $scrape:ident, $slug:expr) => {
         pub fn $handler() -> Handler {
             Handler {
                 slug: $slug,
@@ -192,72 +220,45 @@ macro_rules! mc_site {
         }
 
         async fn $scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
-            scrape(client, $slug, $key).await
+            scrape(client, $slug).await
         }
     };
 }
 
-mc_site!(handler, scrape_brandenburg, SiteKey::Brandenburg, SLUG);
-mc_site!(
-    handler_rathenow,
-    scrape_rathenow,
-    SiteKey::Rathenow,
-    SLUG_RATHENOW
-);
-mc_site!(handler_nauen, scrape_nauen, SiteKey::Nauen, SLUG_NAUEN);
-mc_site!(
-    handler_reckahn,
-    scrape_reckahn,
-    SiteKey::Reckahn,
-    SLUG_RECKAHN
-);
-mc_site!(
-    handler_plotzin,
-    scrape_plotzin,
-    SiteKey::WerderPloetzin,
-    SLUG_PLOTZIN
-);
-mc_site!(
-    handler_rostock,
-    scrape_rostock,
-    SiteKey::Rostock,
-    SLUG_ROSTOCK
-);
+mc_site!(handler, scrape_brandenburg, SLUG);
+mc_site!(handler_rathenow, scrape_rathenow, SLUG_RATHENOW);
+mc_site!(handler_nauen, scrape_nauen, SLUG_NAUEN);
+mc_site!(handler_reckahn, scrape_reckahn, SLUG_RECKAHN);
+mc_site!(handler_plotzin, scrape_plotzin, SLUG_PLOTZIN);
+mc_site!(handler_rostock, scrape_rostock, SLUG_ROSTOCK);
 
 async fn scrape(
     client: &reqwest::Client,
     slug: &'static str,
-    site_key: SiteKey,
 ) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
     let (published_at, rows, mut skipped_labels) = parse(&html)?;
-    let Some(site) = site_of(site_key) else {
+    // Der Standort kommt aus der Tabelle: Schlüssel, Slug, Kontaktseite und
+    // Preissatz stehen in derselben Zeile. `site_for` prueft zusaetzlich, dass
+    // Schluessel und Slug zusammengehoeren - sonst schriebe ein Handler die
+    // Preise eines anderen Standorts in die falsche Zeile.
+    let Some(found) = site_for_slug(slug) else {
         return Err(IngestError::Parse {
             url: URL.to_owned(),
-            detail: format!("unbekannter Standortschlüssel {}", site_key.key()),
+            detail: format!("unbekannter Annahmestellen-Slug {slug}"),
         });
     };
-    // Schlüssel und Slug müssen zusammenpassen: sonst schriebe ein Handler
-    // die Preise eines anderen Standorts in die falsche Zeile.
-    if site.slug != slug {
-        return Err(IngestError::Parse {
-            url: URL.to_owned(),
-            detail: format!(
-                "Standortschlüssel {} und Slug {slug} gehören nicht zusammen",
-                site_key.key()
-            ),
-        });
-    }
+    let site = site_for(found.key, slug)?;
     let site_url = site.url;
     let rostock = site.rostock;
-    let (prices, mut site_skips) = select_prices(&rows, site_key.key(), rostock);
+    let (prices, mut site_skips) = select_prices(&rows, site.key.key(), rostock);
     skipped_labels.append(&mut site_skips);
     // Ein Standort ohne verwertbaren Preis ist ein Seitenumbruch, kein
     // leerer Erfolg.
     if prices.is_empty() {
         return Err(IngestError::Parse {
             url: URL.to_owned(),
-            detail: format!("keine verwertbaren Preise für Standort {}", site_key.key()),
+            detail: format!("keine verwertbaren Preise für Standort {slug}"),
         });
     }
     // Standortseiten-Fehler lässt den ganzen Schritt scheitern: eine
@@ -789,9 +790,9 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<PriceRow>, Vec<String>), Ing
 mod tests {
     use super::{
         date_in, extract_site_info, grade_for, handler, handler_nauen, handler_plotzin,
-        handler_rathenow, handler_reckahn, handler_rostock, parse, select_prices, site_of,
-        PriceRow, SiteKey, SITES, SLUG, SLUG_NAUEN, SLUG_PLOTZIN, SLUG_RATHENOW, SLUG_RECKAHN,
-        SLUG_ROSTOCK,
+        handler_rathenow, handler_reckahn, handler_rostock, parse, select_prices, site_for,
+        site_for_slug, site_of, PriceRow, SiteKey, SITES, SLUG, SLUG_NAUEN, SLUG_PLOTZIN,
+        SLUG_RATHENOW, SLUG_RECKAHN, SLUG_ROSTOCK,
     };
 
     // Real shape (live 27.09.2026): <table class="price-table"> with
@@ -992,47 +993,67 @@ mod tests {
 
     #[test]
     fn every_handler_binds_its_own_site() {
-        // Die Zuordnung Handler → Standortschlüssel → Slug ist der Fehler,
-        // der am 27.10.2026 im Produktivbetrieb auffiel („unbekannter
-        // Standortschlüssel plotzin“): Der Test verlangt für **jede** der
-        // sechs Annahmestellen, dass Schlüssel und Slug zusammenpassen und
-        // dass der registrierte Handler genau diesen Slug trägt.
+        // Die Zuordnung Slug → Standortschluessel ist **Daten** (die
+        // Standorttabelle) und wird hier fuer alle sechs Annahmestellen
+        // festgeschrieben. Der Test ist der Ersatz fuer den Produktionsfehler
+        // vom 27.10.2026: Eine falsche Zuordnung (etwa "plotzin" statt
+        // "werder-ploetzin") faellt hier auf, nicht erst im Betrieb.
         let expected = [
-            (SLUG, SiteKey::Brandenburg, handler().slug),
-            (SLUG_RATHENOW, SiteKey::Rathenow, handler_rathenow().slug),
-            (SLUG_NAUEN, SiteKey::Nauen, handler_nauen().slug),
-            (SLUG_RECKAHN, SiteKey::Reckahn, handler_reckahn().slug),
-            (
-                SLUG_PLOTZIN,
-                SiteKey::WerderPloetzin,
-                handler_plotzin().slug,
-            ),
-            (SLUG_ROSTOCK, SiteKey::Rostock, handler_rostock().slug),
+            (SLUG, SiteKey::Brandenburg),
+            (SLUG_RATHENOW, SiteKey::Rathenow),
+            (SLUG_NAUEN, SiteKey::Nauen),
+            (SLUG_RECKAHN, SiteKey::Reckahn),
+            (SLUG_PLOTZIN, SiteKey::WerderPloetzin),
+            (SLUG_ROSTOCK, SiteKey::Rostock),
         ];
-        for (slug, key, handler_slug) in expected {
-            let site = site_of(key).expect("Standort in der Tabelle");
-            assert_eq!(site.slug, slug, "Schlüssel {} gehört zu {slug}", key.key());
+        for (slug, key) in expected {
+            let site = site_for_slug(slug).expect("Standort in der Tabelle");
+            assert_eq!(site.key, key, "Slug {slug} gehoert zu {}", key.key());
             assert_eq!(
-                handler_slug,
+                site_of(key).expect("Schluessel in der Tabelle").slug,
                 slug,
-                "Handler für {} trägt den Slug",
+                "Schluessel {} gehoert zu {slug}",
                 key.key()
             );
-            // Der Schlüssel muss genau das URL-Segment der Seite sein.
+            // Der Schluessel muss genau das URL-Segment der Seite sein.
             assert!(
                 site.url.ends_with(&format!("/{}/", key.key())),
-                "URL {} passt nicht zum Schlüssel {}",
+                "URL {} passt nicht zum Schluessel {}",
                 site.url,
                 key.key()
             );
+            // Der gepruefte Zugriff muss genau diese Kombination zulassen.
+            assert!(site_for(key, slug).is_ok());
         }
-        // Jeder Standortschlüssel kommt genau einmal vor.
+        // Jeder Handler traegt seinen eigenen Slug.
+        assert_eq!(handler().slug, SLUG);
+        assert_eq!(handler_rathenow().slug, SLUG_RATHENOW);
+        assert_eq!(handler_nauen().slug, SLUG_NAUEN);
+        assert_eq!(handler_reckahn().slug, SLUG_RECKAHN);
+        assert_eq!(handler_plotzin().slug, SLUG_PLOTZIN);
+        assert_eq!(handler_rostock().slug, SLUG_ROSTOCK);
+        // Jeder Standortschluessel und jeder Slug kommt genau einmal vor.
         let keys: Vec<&str> = SITES.iter().map(|site| site.key.key()).collect();
-        let mut unique = keys.clone();
-        unique.sort_unstable();
-        unique.dedup();
-        assert_eq!(keys.len(), unique.len());
+        let slugs: Vec<&str> = SITES.iter().map(|site| site.slug).collect();
+        let mut unique_keys = keys.clone();
+        unique_keys.sort_unstable();
+        unique_keys.dedup();
+        let mut unique_slugs = slugs.clone();
+        unique_slugs.sort_unstable();
+        unique_slugs.dedup();
+        assert_eq!(keys.len(), unique_keys.len());
+        assert_eq!(slugs.len(), unique_slugs.len());
         assert_eq!(keys.len(), 6);
+    }
+
+    #[test]
+    fn a_wrong_key_and_slug_pair_is_rejected() {
+        // Der Waechter muss eine falsche Zuordnung **laut** ablehnen, statt die
+        // Preise eines Standorts in die Zeile eines anderen zu schreiben.
+        assert!(site_for(SiteKey::Brandenburg, SLUG_PLOTZIN).is_err());
+        assert!(site_for(SiteKey::WerderPloetzin, SLUG).is_err());
+        assert!(site_for(SiteKey::WerderPloetzin, SLUG_PLOTZIN).is_ok());
+        assert!(site_for(SiteKey::Reckahn, SLUG_RECKAHN).is_ok());
     }
 
     #[test]
