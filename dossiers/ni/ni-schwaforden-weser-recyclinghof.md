@@ -29,6 +29,10 @@ Ein Lokalbericht vom 22.10.2025 bestätigt, dass ein Recyclinghof unter dem Name
 
 ## Timeline
 
+### Owner-Nachprüfung 27.10.2026, 00:39 UTC
+
+- [Owner-Nachprüfung 27.10.2026: Die frühere Rechercheformulierung wird präzisiert: geprüft wurden die direkt gelesenen Einstiegsseiten von Samtgemeinde Schwaförden und Landkreis Diepholz; kein Registerauszug, individueller Bescheid oder amtlicher Negativbescheid wurde abgerufen. Daher ist nur dokumentiert, dass in diesen Einstiegsseiten kein konkreter Bescheid gefunden wurde — nicht, dass kein Bescheid existiert. Der Kreiszeitungsbericht vom 22.10.2025 bleibt konkrete Quelle zum Betrieb, ohne Rechtsträger, Hausnummer oder aktuellen Genehmigungsstand. Hauptstr. 74/74b bleibt ungeprüfter Lead; kein GEO. Quellen: https://www.schwafoerden.de/ ; https://www.diepholz.de/ ; https://www.kreiszeitung.de/lokales/diepholz/schwafoerden-ort59235/ein-lastwagen-vor-dem-fenster-gegen-die-lebensfreude-94000215.html .]
+
 ### Recherche 27.10.2026
 
 - [Recherche 27.10.2026: Erneute Suche auf den Onlineangeboten von Samtgemeinde Schwaförden und Landkreis Diepholz fand keinen spezifischen aktuellen Betreiber-, Genehmigungs- oder Grundstücksbescheid, der den Recyclinghof, Bellamy Wimmert und eine genaue Betriebsadresse zusammenführt. Allgemeine Behördeninformationen zum BImSchG belegen keine Genehmigung dieses Standorts. Der Kreiszeitungsbericht vom 22.10.2025 bleibt die konkrete Betreiber-/Betriebsquelle, jedoch ohne Rechtsträger, Hausnummer oder aktuellen Genehmigungsstand. ANKAUF: keine Kurse oder bestätigten Vergütungsbedingungen. VERKAUF: keine Liste. GEBÜHREN: keine hofbezogenen Tarife. Hauptstr. 74/74b bleibt ungeprüfter Lead; noch kein GEO. Quellen: https://www.schwafoerden.de/ ; https://www.diepholz.de/ ; https://www.kreiszeitung.de/lokales/diepholz/schwafoerden-ort59235/ein-lastwagen-vor-dem-fenster-gegen-die-lebensfreude-94000215.html .]

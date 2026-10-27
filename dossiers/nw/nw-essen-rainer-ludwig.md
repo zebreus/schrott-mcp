@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Firmierung ist dem Registerrechtsträger **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, zugeordnet. NorthData führt Liquidation (31.01.2023), Frank Ludwig als Liquidator (17.02.2023) und Löschung (22.10.2024); ein WAZ-Bericht bestätigt unabhängig, dass der Schrottplatz der Firma Ludwig an der Eisenbahnstraße den Standort Ende Juni 2023 verließ. `status: geschlossen` bezieht sich auf diesen Rechtsträger und den dokumentierten damaligen Betrieb, nicht auf eine mögliche Nachnutzung oder andere Ludwig-Unternehmen. Die genaue Hausnummer sowie ein Nachfolger/heutiger Betrieb sind nicht belegt; daher keine Adresse, Kontakte oder Koordinate übernommen.
+Die Firmierung ist dem Registerrechtsträger **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, zugeordnet. NorthData führt Liquidation (31.01.2023), Frank Ludwig als Liquidator (17.02.2023) und Löschung (22.10.2024). Ein WAZ-Bericht vom 28.04.2023 meldet separat, eine „Firma Ludwig“ habe den Schrottplatz an der Eisenbahnstraße Ende Juni 2023 verlassen; der Artikel nennt weder die KG noch HRA 4117. Die Verbindung dieses Rechtsträgers zum dortigen Schrottplatz bleibt ungeklärt. `status: geschlossen` bezieht sich ausschließlich auf den gelöschten Rechtsträger, nicht auf den Eisenbahnstraßen-Standort, eine mögliche Nachnutzung oder andere Ludwig-Unternehmen. Daher keine Adresse, Kontakte oder Koordinate übernommen.
 
 **ANKAUF:** keine historischen oder aktuellen Ankaufskurse belegt. **VERKAUF:** keine Teile-/Materialpreisliste. **GEBÜHREN:** keine Tarife. Der damalige Standort ist historisch an der Eisenbahnstraße belegt, aber Hausnummer und aktuelle öffentliche Annahmestelle nicht; keine Geokodierung.
 
 ## Timeline
+
+### Owner-Nachprüfung 27.10.2026, 00:35 UTC
+
+- [Owner-Nachprüfung 27.10.2026: Die Quellen wurden erneut direkt abgeglichen. NorthData ist ein Registerspiegel und zeigt die Liquidation/Löschung der Rainer Ludwig GmbH & Co. KG (AG Essen HRA 4117). Der WAZ-Bericht vom 28.04.2023 zum Schrottplatz an der Eisenbahnstraße nennt weder diese Firmierung noch HRA 4117; die Zuordnung der KG zu diesem Standort ist daher nicht belegt. Die vorige Timeline-Aussage, beide Quellen schlössen die Standortidentität, wird ausdrücklich zurückgenommen. `status: geschlossen` gilt ausschließlich für den gelöschten Rechtsträger; daraus folgt keine Standortschließung oder Nachfolge. Keine Adresse/Kontakte/GEO übernommen. Quellen: https://www.northdata.de/Rainer%20Ludwig%20GmbH%20%26%20Co%C2%B7%20KG,%20Essen/HRA%204117 ; https://www.waz.de/staedte/essen/article238239161/Laermgeplagte-Essener-erleichtert-Schrottplatz-verschwindet.html .]
 
 ### Recherche 27.10.2026 — Identitäts- und Statuskorrektur
 

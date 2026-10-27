@@ -2274,22 +2274,24 @@ mod tests {
             .expect("set Wahl slug");
 
         for (variant, published_at, source_url) in [
-            ("fresh", fresh.as_str(), WAHL_URL),
-            ("stale", stale.as_str(), WAHL_URL),
-            ("future", future.as_str(), WAHL_URL),
+            ("fresh", Some(fresh.as_str()), WAHL_URL),
+            ("stale", Some(stale.as_str()), WAHL_URL),
+            ("future", Some(future.as_str()), WAHL_URL),
             (
                 "other-source-stale",
-                stale.as_str(),
+                Some(stale.as_str()),
                 "https://other.example/prices",
             ),
+            ("missing-date", None, WAHL_URL),
+            ("malformed-date", Some("not-a-date"), WAHL_URL),
         ] {
             db.record_price(&NewPrice {
                 variant,
                 source_url,
-                published_at: Some(published_at),
-                observed_at: published_at,
-                ingested_at: published_at,
-                ..price(trader, material, 5.0, published_at, published_at)
+                published_at,
+                observed_at: &fresh,
+                ingested_at: &fresh,
+                ..price(trader, material, 5.0, &fresh, &fresh)
             })
             .expect("record source observation");
         }
@@ -2306,7 +2308,7 @@ mod tests {
         );
         assert_eq!(
             db.test_query("SELECT COUNT(*) FROM current_prices"),
-            vec![vec![serde_json::json!(4)]]
+            vec![vec![serde_json::json!(6)]]
         );
     }
 

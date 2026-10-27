@@ -11,10 +11,11 @@ email: ''
 opening_hours: ''
 website: http://schrott-saar.de/
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'dropoff_json,geo'
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
 provenance_ankauf_raw: 'ja (ab Mindestmenge: Schrott 300 kg / Metalle 5 kg)'
 provenance_origin: table
@@ -24,11 +25,23 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberblog ist aktuell erreichbar und enthält datierte Posts bis Januar 2026; eine zusätzliche Jimdo-Seite nennt dieselbe Bezeichnung RVE Rech Volker und Hausen 49. Beide Betreiberauftritte behaupten kostenlose Schrott-/Metallabholung und nennen Mobil-/Festnetznummern, die Kontakt- und Impressumsseiten sind aber uneinheitlich bzw. unvollständig (u.a. leere Register-/Vertreterangaben und wechselnde Webadressen). Mangels unabhängiger Bestätigung bleiben Kontaktfelder leer; `status: aktiv` bleibt ein nicht unabhängig neu bestätigter Bestand.
+Der Blog ist aktuell erreichbar, enthält datierte Posts bis Januar 2026 und identifiziert sich selbst als RVE/Rech Volker; eine zusätzliche Jimdo-Seite wiederholt den Namen und Hausen 49. Das sind keine voneinander unabhängigen Betreiberbelege. Kontakt- und Impressumsangaben sind uneinheitlich bzw. unvollständig (u. a. leere Register-/Vertreterangaben und wechselnde Webadressen). Der Produktionspunkt **49.2516/6.8587** löste rückwärts auf den Rathausplatz-Parkplatz statt auf den selbst angegebenen Ort Hausen 49 auf; außerdem stand in Produktion ein nicht unabhängig belegtes `dropoff_json={"allowed":true}`. `clear_fields: 'dropoff_json,geo'` nimmt sowohl die unbelegte Annahmezusage als auch den falschen Bestands-Pin zurück. Aktueller Betrieb und Identität zum Seed sind nicht unabhängig bestätigt; `status` wird daher auf `pruefung` gesetzt. `website_status: aktiv` bezeichnet nur den erfolgreichen Abruf der Website, nicht einen bestätigten Geschäftsbetrieb.
 
 **Preise:** ANKAUF — ein älterer Blogtext nennt eine Mindestmenge (Schrott ab 300 kg, Metalle ab 5 kg) und listet Metalle, aber keine konkreten Ankaufkurse; die fortdauernde Gültigkeit der Mindestmenge ist nicht belegt. KOSTENLOSE ABHOLUNG ist eine Logistikleistung, kein Ankaufpreis. VERKAUF — keine Ersatzteilpreisliste. GEBÜHREN — Blogtexte nennen bei Fahrzeug-/Elektrogeräteentsorgung „VB“ bzw. mögliche Kosten; kein bezifferter Tarif.
 
 ## Timeline
+
+### Owner-GEO-Nachprüfung 27.10.2026, 00:43 UTC
+
+- [Owner-GEO-Nachprüfung 27.10.2026: Read-only `public.db` führte für `sl-volklingen-rve-rech-volker-schrott-entsorgung` weiterhin **49.2516/6.8587**. Die Nominatim-Rückwärtssuche ordnet den Punkt dem OSM-Way 119909961, Parkplatz Rathausplatz, Völklingen, zu — nicht dem in einem selbstidentifizierenden Blog genannten Hausen 49. Eine separate Suche nach „Hausen 49, 66333 Völklingen“ findet OSM-Way 303711514 bei 49.2449763/6.8870897 (Hausenstraße 49, Fenne/Fürstenhausen); dieser Punkt ist wegen der ungeklärten Betreiber-/Standortidentität und fehlender unabhängiger Annahmebestätigung kein Ersatz. `clear_fields: 'geo'` nimmt nur die falsche Bestandskoordinate zurück. Keine Produktionsdaten geändert. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.2516&lon=6.8587&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Hausen%2049%2C%2066333%20V%C3%B6lklingen&format=jsonv2&addressdetails=1 ; https://www.openstreetmap.org/way/119909961 ; https://www.openstreetmap.org/way/303711514 ; https://schrott-entsorgung.blogspot.com/ ; read-only `public.db` (27.10.2026).]
+
+### Owner-Seed-Nachprüfung 27.10.2026, 00:48 UTC
+
+- [Owner-Seed-Nachprüfung 27.10.2026: Ergänzender read-only Abgleich fand zusätzlich in der Produktionszeile `dropoff_json={"allowed":true}`. Diese positive Annahmezusage ist durch die aktuelle Quellenlage/ungeklärte Seed-Identität nicht ausreichend belegt und würde ohne expliziten Clear trotz leerem Dossier-Servicefeld erhalten bleiben. `clear_fields` wurde deshalb auf die kanonisch sortierte Liste `'dropoff_json,geo'` erweitert; beide nicht mehr gestützten Produktionsclaims werden erst beim regulären Seed zurückgenommen. Keine Produktionsänderung und keine Ersatzkoordinate. Quelle: read-only `public.db` (27.10.2026); Seed-Löschsemantik: https://github.com/zebreus/schrott-mcp/blob/main/docs/trader-seed.md .]
+
+### Owner-Disposition 27.10.2026, 00:35 UTC
+
+- [Owner-Disposition 27.10.2026: Der Blogbeitrag identifiziert sich selbst als RVE/Rech Volker; eine zweite Jimdo-Seite desselben Betreibers ist keine unabhängige Quelle. Es fehlt weiterhin ein unabhängiger aktueller Betreiber-/Registerbeleg für die Zuordnung des Seeds und den Geschäftsbetrieb. `status: aktiv` wurde deshalb auf `pruefung` zurückgesetzt, ohne Schließung zu behaupten. `website_status: aktiv` bleibt ausschließlich als Erreichbarkeitsbefund des URLs stehen. Keine Adresse, Telefonnummer oder GEO übernommen. Quellen: https://schrott-entsorgung.blogspot.com/ ; https://schrott-abholung-saar.jimdofree.com/kontakt/ .]
 
 ### Recherche 27.10.2026
 

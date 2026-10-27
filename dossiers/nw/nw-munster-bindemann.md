@@ -1,11 +1,11 @@
 ---
 slug: nw-munster-bindemann
-name: Peter Bindemann
+name: Bindemann
 trader_type: mobil
 state: NW
 city: Münster
-street: Timmerscheidtstraße 6
-postcode: '48153'
+street: ''
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite benennt Peter Bindemann als mobilen Schrotthändler und nennt Timmerscheidtstraße 6, 48153 Münster. Creditreform führt Peter Michael Bindemann unter derselben Anschrift; zusammen stützen die unterschiedlichen Quellentypen Name und Adresse. Das ältere 11880-Profil nennt dagegen Dahlweg 38, 48153 Münster, und dieselbe Mobilnummer wie die Betreiberseite; eine Umzugskette ist nicht belegt. Daher wurden nur Name, Straße und PLZ präzisiert. Telefon und übrige Kontaktdaten bleiben leer, da Creditreform eine abweichende Telefonnummer aufführt und der Webauftritt Copyright 2020 trägt. Die Website beschreibt mobile Abholung, nicht eine öffentliche Annahmestelle; keine Koordinate.
+Die Betreiberwebsite identifiziert sich als Peter Bindemann und behauptet einen mobilen Schrotthandel an der Timmerscheidtstraße 6, 48153 Münster. Der Creditreform-Link ist beim aktuellen Owner-Abruf nicht zugänglich (403), und die behauptete unabhängige Namens-/Adressübereinstimmung ließ sich über die verfügbare Suche nicht erneut abrufen. Ein älteres 11880-Profil nennt stattdessen Dahlweg 38; das ist kein unabhängiger Zweitbeleg. Deshalb bleiben Name, Straße und PLZ im Frontmatter beim generischen Seedstand bzw. leer; `status: pruefung`, keine Telefonnummer, keine Adresse und keine Koordinate. Die Betreiberangaben bleiben als unbestätigter Lead in der Timeline. Mobiler Dienst ist kein Beleg für eine öffentliche Annahmestelle.
 
 **ANKAUF:** „Bezahlung vor Ort“ ist Zahlungsablauf, kein Preis; keine numerische Ankaufsliste. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife.
 
 ## Timeline
+
+### Owner-Disposition 27.10.2026, 00:35 UTC
+
+- [Owner-Disposition 27.10.2026: Das Betreiber-Impressum wurde direkt unter https://www.schrotthandel-ms.de/impressum erneut abgerufen und nennt Peter Bindemann sowie Timmerscheidtstraße 6, 48153 Münster. Der angeführte Creditreform-Eintrag zu Peter Michael Bindemann war beim direkten Owner-Abruf nicht zugänglich (403); eine unabhängige Suchtrefferansicht mit dem behaupteten Adressabgleich konnte aktuell nicht reproduziert werden. Das ältere 11880-Profil nennt Dahlweg 38 und ist ein Aggregator-Lead, kein unabhängiger Zweitbeleg. Nach README-Quellenhierarchie wird daher die vorherige Frontmatter-Präzisierung zurückgenommen: Name wieder generisch „Bindemann“, Straße/PLZ leer, Status `pruefung`; keine Telefon-/E-Mail-/Website-Füllung und keine GEO. Die Websiteaussage bleibt als Betreiber-Einzelbeleg erhalten; keine Schließung oder Annahmestelle abgeleitet.]
 
 ### Recherche 27.10.2026 — Identitäts- und Adresskorrektur
 
