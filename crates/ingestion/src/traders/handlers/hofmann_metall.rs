@@ -22,6 +22,9 @@ use crate::IngestError;
 
 pub const SLUG_CHEMNITZ: &str = "sn-chemnitz-hofmann-metall-betriebsteil-chemnitz";
 pub const SLUG_ZWICKAU: &str = "sn-zwickau-hofmann-metall-hauptsitz";
+/// Betriebsteil Elstertrebnitz (eröffnet 13.08.2026, eigene Standortseite mit
+/// abweichender Kontaktform: Adress-<p> + Kontakttabelle statt zweier <p>).
+pub const SLUG_ELSTERTREBNITZ: &str = "sn-elstertrebnitz-schrott-wetzel-depot-elstertrebnitz";
 /// Bespoke, live-verified acceptance page (shared by both sites — the
 /// single source; the homepage short list repeats the same categories,
 /// fetching it too would double-record every row).
@@ -33,6 +36,8 @@ pub const URL: &str = "https://hofmann-metall.de/privat-kleingewerbekunden/";
 pub const IMPRESSUM_URL: &str = "https://hofmann-metall.de/impressum/";
 /// Bespoke, live-verified Chemnitz contact page (KONTAKT-Block).
 pub const CHEMNITZ_URL: &str = "https://hofmann-metall.de/standorte/chemnitz/";
+/// Bespoke, live-verified Elstertrebnitz contact page (KONTAKT-Tabelle).
+pub const ELSTERTREBNITZ_URL: &str = "https://hofmann-metall.de/standorte/elstertrebnitz/";
 
 pub fn handler_chemnitz() -> Handler {
     Handler {
@@ -52,6 +57,21 @@ pub fn handler_zwickau() -> Handler {
     }
 }
 
+pub fn handler_elstertrebnitz() -> Handler {
+    Handler {
+        slug: SLUG_ELSTERTREBNITZ,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape_elstertrebnitz(c)),
+    }
+}
+
+async fn scrape_elstertrebnitz(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+    let (status, html) = fetch_text(client, URL).await?;
+    let outcome = build_outcome(status, &html, fetch_contact_elstertrebnitz(client).await?)?;
+    Ok(outcome)
+}
+
 async fn scrape_chemnitz(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
     let outcome = build_outcome(status, &html, fetch_contact_chemnitz(client).await?)?;
@@ -66,6 +86,13 @@ async fn scrape_zwickau(client: &reqwest::Client) -> Result<HandlerOutcome, Inge
     let (_, imp_html) = fetch_text(client, IMPRESSUM_URL).await?;
     let trader_info = extract_info_zwickau(&imp_html)?;
     Ok(build_outcome(status, &html, trader_info)?)
+}
+
+async fn fetch_contact_elstertrebnitz(client: &reqwest::Client) -> Result<TraderInfo, IngestError> {
+    // Same loud rule as the other site pages: a moved Betriebsteil page means
+    // the site changed shape and needs eyeballs.
+    let (_, html) = fetch_text(client, ELSTERTREBNITZ_URL).await?;
+    extract_info_elstertrebnitz(&html)
 }
 
 async fn fetch_contact_chemnitz(client: &reqwest::Client) -> Result<TraderInfo, IngestError> {
@@ -465,6 +492,85 @@ fn extract_info_chemnitz(html: &str) -> Result<TraderInfo, IngestError> {
     })
 }
 
+/// Elstertrebnitz liefert den Kontakt als Tabelle (Telefon/Dispo/E-Mail) neben
+/// dem Adress-<p> — anders als Chemnitz (zwei <p>). Adresszeile, Telefon und
+/// E-Mail kommen daher aus getrennten Blöcken; die Dispo-Nummer ist die
+/// Disposition und keine öffentliche Anschlussnummer, deshalb wird nur „Telefon:“
+/// übernommen.
+fn extract_info_elstertrebnitz(html: &str) -> Result<TraderInfo, IngestError> {
+    let doc = Html::parse_document(html);
+    let h3 = Selector::parse("h3").expect("valid selector");
+    let anchor = doc.select(&h3).find(|h| {
+        h.text()
+            .collect::<String>()
+            .to_lowercase()
+            .contains("kontakt")
+    });
+    let Some(anchor) = anchor else {
+        return Err(IngestError::Parse {
+            url: ELSTERTREBNITZ_URL.to_owned(),
+            detail: "Kontakt-Block fehlt".to_owned(),
+        });
+    };
+    let siblings: Vec<ElementRef> = anchor
+        .next_siblings()
+        .filter_map(ElementRef::wrap)
+        .collect();
+    let addr_p = siblings.iter().find(|e| e.value().name() == "p");
+    let Some(addr_p) = addr_p else {
+        return Err(IngestError::Parse {
+            url: ELSTERTREBNITZ_URL.to_owned(),
+            detail: "Adress-Block fehlt".to_owned(),
+        });
+    };
+    let lines: Vec<String> = addr_p
+        .inner_html()
+        .split("<br")
+        .map(strip_fragment)
+        .filter(|s| !s.is_empty())
+        .collect();
+    let (street, postcode, city) = firm_block(&lines).unwrap_or_default();
+    let table = siblings.iter().find(|e| e.value().name() == "table");
+    let Some(table) = table else {
+        return Err(IngestError::Parse {
+            url: ELSTERTREBNITZ_URL.to_owned(),
+            detail: "Kontakttabelle fehlt".to_owned(),
+        });
+    };
+    let row = Selector::parse("tr").expect("valid selector");
+    let cell = Selector::parse("td").expect("valid selector");
+    let mut phone = String::new();
+    let mut email = String::new();
+    for tr in table.select(&row) {
+        let cells: Vec<String> = tr
+            .select(&cell)
+            .map(|c| c.text().collect::<Vec<_>>().join(" ").trim().to_owned())
+            .collect();
+        if cells.len() < 2 {
+            continue;
+        }
+        let key = cells[0].to_lowercase();
+        if key.starts_with("telefon") && phone.is_empty() {
+            phone = phone_tokens(&cells[1]);
+        } else if key.starts_with("e-mail") && email.is_empty() {
+            email = cells[1].clone();
+        }
+    }
+    if street.is_empty() && phone.is_empty() && email.is_empty() {
+        return Err(IngestError::Parse {
+            url: ELSTERTREBNITZ_URL.to_owned(),
+            detail: "keine Kontaktdaten gefunden".to_owned(),
+        });
+    }
+    Ok(TraderInfo {
+        street,
+        postcode,
+        city,
+        phone,
+        email,
+    })
+}
+
 /// ["Hofmann Metall GmbH", "Äußere Dresdner Straße 80", "08066 Zwickau"]
 /// → (street, postcode, city). The firm line itself never wins.
 fn firm_block(lines: &[String]) -> Option<(String, String, String)> {
@@ -523,7 +629,10 @@ fn strip_fragment(s: &str) -> String {
 
 #[cfg(test)]
 mod tests {
-    use super::{extract_info_chemnitz, extract_info_zwickau, grade_for, negative_label, parse};
+    use super::{
+        extract_info_chemnitz, extract_info_elstertrebnitz, extract_info_zwickau, grade_for,
+        negative_label, parse,
+    };
 
     // Real excerpt shapes of the live page (28.09.2026): `<br />`
     // inside rubrics, `toggler` sort labels, `<strong>`-wrapped
@@ -538,6 +647,39 @@ mod tests {
         <div class=\"toggler\"> Cu-Draht neu, blank, Millberry </div>\
         <div class=\"toggler\"> Cu-Ms Kühler </div>\
         <h2>Sie haben Fragen oder wollen<br>einen Termin vereinbaren?</h2>";
+
+    /// Live shape of the Elstertrebnitz site page (27.10.2026): the contact
+    /// block is a table (Telefon/Dispo/E-Mail) next to the address <p>, not the
+    /// two <p> of Chemnitz.
+    const FIXTURE_ELSTERTREBNITZ: &str = "<h3>KONTAKT & ÖFFNUNGSZEITEN</h3>\
+        <p>B 10<br>04523 Elstertrebnitz</p>\
+        <table border=\"1\"><tbody>\
+        <tr><td>Telefon:</td><td>034296 / 49 59 0</td></tr>\
+        <tr><td>Dispo:</td><td>034296 / 49 59 11</td></tr>\
+        <tr><td>E-Mail:</td><td>&#101;&#x6C;&#115;&#x74;&#101;&#x72;&#116;&#x72;&#101;&#x62;&#110;&#x69;&#116;&#x7A;&#64;&#x68;&#111;&#x66;&#109;&#x61;&#110;&#x6E;&#45;&#x6D;&#101;&#x74;&#97;&#x6C;&#108;&#x2E;&#100;&#x65;</td></tr>\
+        </tbody></table>\
+        <p><span class=\"tab\">Mo. - Fr.:</span> 07.00 - 16.00 Uhr<br>\
+        <span class=\"tab\">Sa.:</span> geschlossen</p>";
+
+    #[test]
+    fn elstertrebnitz_contact_table_parses() {
+        let info =
+            extract_info_elstertrebnitz(FIXTURE_ELSTERTREBNITZ).expect("Kontakt-Tabelle parses");
+        assert_eq!(info.street, "B 10");
+        assert_eq!(info.postcode, "04523");
+        assert_eq!(info.city, "Elstertrebnitz");
+        assert_eq!(info.phone, "034296 / 49 59 0");
+        assert_eq!(info.email, "elstertrebnitz@hofmann-metall.de");
+    }
+
+    #[test]
+    fn elstertrebnitz_missing_block_fails_loudly() {
+        assert!(extract_info_elstertrebnitz("<h3>OEFFNUNGSZEITEN</h3>").is_err());
+        assert!(extract_info_elstertrebnitz(
+            "<h3>KONTAKT & ÖFFNUNGSZEITEN</h3><p>B 10<br>04523 Elstertrebnitz</p>"
+        )
+        .is_err());
+    }
 
     #[test]
     fn rubrics_togglers_and_negatives_parse() {
