@@ -1,5 +1,6 @@
 ---
 slug: th-erfurt-altstadt-99084-an-und-verkauf-computer-und-haushaltsger
+clear_fields: geo
 name: An- und Verkauf Computer und Haushaltsgeräte
 trader_type: schrotthaendler
 state: TH
@@ -27,6 +28,10 @@ provenance_origin: table
 Gelbe Seiten führt den Namen als „An- und Verkauf“ an Trommsdorffstr. 11, 99084 Erfurt, Tel. 0361 6604623, ohne Website oder E-Mail. Das stützt allenfalls einen Gebrauchtwaren-/Reuse-Lead, nicht Schrottankauf, Recycling oder einen heute aktiven Betreiber. Ein zusätzliches LiberSave-Profil bezeichnet **Transfurt(ria)** dort als Geldtransferdienst; Fresha listet **Loco Artista Tattoo** an derselben Adresse und erklärt, nicht mit dem Veranstaltungsort verbunden zu sein. Das sind zwei Verzeichnis-/Plattform-Leads zu anderen Kategorien, keine Widerlegung des älteren Reuse-Leads und kein Schließungsbeleg. Der mögliche Händler „Heimelektronik Schleising“ in derselben Straße ist nicht als Nachfolger belegt. Keine Altmetall-Preisliste oder Entsorgungsgebühr gefunden; aktuelle Ladenidentität und heutige Nutzung bleiben offen, daher kein Geocoding.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: nicht zum Adress-Lead passendes GEO zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `50.988125, 11.0274583`; Reverse-Lookup ordnet den Punkt Magdeburger Allee 16, 99086 Erfurt zu. Die einzige dokumentierte Händler-Adressspur ist ein nicht bestätigter Verzeichnis-Lead für Trommsdorffstraße 11, 99084; die Vorwärtssuche auf diese Hausnummer liegt etwa 1,8 km entfernt. Da weder die Identität des heutigen Betreibers noch die alte Adresse unabhängig bestätigt ist, wird ausschließlich das mit dem Lead unvereinbare GEO-Paar durch `clear_fields: geo` zurückgenommen. Keine Ersatzkoordinate, kein Umzugs-/Schließungsurteil und keine Gleichsetzung mit anderen Betrieben an beiden Straßen. Quellen/Leads: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.988125&lon=11.0274583333&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Trommsdorffstra%C3%9Fe+11%2C+99084+Erfurt&format=jsonv2&addressdetails=1 ; https://www.gelbeseiten.de/gsbiz/0b232c3f-a463-4daa-8ddb-929d9dfeff7d ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Recherche 13.10.2026
 

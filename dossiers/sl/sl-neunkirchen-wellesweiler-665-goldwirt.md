@@ -1,5 +1,6 @@
 ---
 slug: sl-neunkirchen-wellesweiler-665-goldwirt
+clear_fields: geo
 name: Goldwirt
 trader_type: sonstige
 state: SL
@@ -30,6 +31,10 @@ Die Seed-Anschrift Rosenstr. 15, 66539 Neunkirchen-Wellesweiler ist weiterhin nu
 **Preise:** ANKAUF — keine Gold-/Silberkurse verifiziert. VERKAUF — keine Produktpreisliste. GEBÜHREN — keine Angaben; fremde Goldpreisrechner oder allgemeine Metallkurse sind keine Goldwirt-Ankaufspreise.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: nicht passende Produktions-GEO zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `49.3494667, 7.1943667`; Reverse-Lookup ordnet diesen Punkt Flotowstraße 2, 66538 Neunkirchen zu. Die nur verzeichnisgestützte Seed-Adresse Rosenstraße 15, 66539 Wellesweiler liegt laut Vorwärtssuche etwa 1,43 km entfernt. Betreiberidentität und Annahmestelle bleiben ungeklärt; deshalb wird ausschließlich das nicht zur einzigen dokumentierten Adressspur passende GEO-Paar mit `clear_fields: geo` zurückgenommen. Keine Ersatzkoordinate und kein Schließungsurteil; `status: pruefung` bleibt. Quellen/Leads: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.3494667&lon=7.1943667&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Rosenstra%C3%9Fe+15%2C+66539+Neunkirchen-Wellesweiler&format=jsonv2&addressdetails=1 ; read-only `public.db` (27.10.2026); bestehende Timeline-Quellen Gold.de/11880/Gavabiz; docs/trader-seed.md.]
 
 ### Recherche 27.10.2026: Website und Preisunterseite erneut geprüft
 

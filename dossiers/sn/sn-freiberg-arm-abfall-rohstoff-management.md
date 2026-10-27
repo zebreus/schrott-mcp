@@ -1,5 +1,6 @@
 ---
 slug: sn-freiberg-arm-abfall-rohstoff-management
+clear_fields: geo
 name: ARM Abfall-Rohstoff-Management GmbH & Co. KG
 trader_type: sonstige
 state: SN
@@ -29,6 +30,10 @@ ARM ist ein inhabergeführtes **Ingenieurbüro für Ressourcenwirtschaft**, nich
 **Ankauf:** keine eigene öffentliche Schrottannahme oder Ankaufspreise belegt. **Verkauf:** keine Ware-/Preisliste. **Gebühren:** keine Tarifliste für Beratung, Logistik oder Entsorgung gefunden. **GEO:** Firmensitz ist belegt, aber kein öffentlicher Kunden-/Annahmepunkt; vor Geocoding Zweck des Datensatzes klären.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: vom Bürostandort abweichendes GEO zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `50.9109, 13.3388`; Reverse-Lookup ordnet den Punkt Hirtenplatz zu. Die direkt geprüfte Betreiber-/Registeranschrift des Büros lautet Halsbrücker Straße 31 A / Haus 4, 09599 Freiberg; die unabhängige Vorwärtssuche zu 31a liegt etwa 1,7 km entfernt. Der alte Punkt gehört damit nicht zur verifizierten Büroanschrift. Das Büro ist außerdem keine belegte öffentliche Schrottannahme. `clear_fields: geo` nimmt das falsche, nicht als Kundenstandort geeignete Paar zurück; kein Ersatzpunkt und keine Schließungsbehauptung. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.9109&lon=13.3388&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Halsbr%C3%BCcker+Stra%C3%9Fe+31+A%2C+09599+Freiberg&format=jsonv2&addressdetails=1 ; https://www.arm-kg.com/ ; https://www.northdata.de/ARM+Abfall-Rohstoff-Management+GmbH+%26+Co.+KG,+Freiberg/Amtsgericht+Chemnitz+HRA+5964 ; read-only `public.db` (27.10.2026).]
 
 ### Recherche 27.10.2026
 

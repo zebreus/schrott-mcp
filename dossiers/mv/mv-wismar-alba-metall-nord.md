@@ -1,18 +1,18 @@
 ---
 slug: mv-wismar-alba-metall-nord
-clear_fields: geo
-name: ALBA Nord GmbH
+clear_fields: 'dropoff_json,geo,phone,website,website_status'
+name: ALBA Metall Nord GmbH
 trader_type: schrotthaendler
 state: MV
 city: Wismar
-street: Tonnenhofstr. 12
-postcode: '23970'
-phone: +49 3841 704678
+street: ''
+postcode: ''
+phone: ''
 email: ''
 opening_hours: ''
-website: https://nord.alba.info/
-website_status: aktiv
-status: aktiv
+website: ''
+website_status: ''
+status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: ALBA-Identität und aktuelle Annahme offen
+
+- [Korrektur 27.10.2026: Die aktuelle read-only Produktionszeile führt diesen Slug als `ALBA Nord GmbH`, mit Status `aktiv`, Tonnenhofstraße 12, Telefon, ALBA-Nord-Website und `dropoff_json={"allowed":true}`. Das war eine zu weit gehende Zuordnung: Die live gelesene ALBA-Nord-Seite belegt die gegenwärtige Betriebsstätte Wismar und Abfallannahme/Containerdienst für ALBA Nord; die aktuelle Metall-Nord-Standortliste enthält Wismar nicht. Das separat direkt geprüfte Zertifikat für den Erhebungszeitraum 2023 führt ALBA Metall Nord GmbH und ALBA Nord GmbH getrennt an derselben Anschrift, belegt aber weder eine aktuelle eigenständige Metall-Nord-Betriebsstätte noch heutige Kundenannahme. Deshalb wird die historische Identität `ALBA Metall Nord GmbH` wieder als Name geführt, die ALBA-Nord-Kontakt-/Websitezuordnung und die unbestätigte aktuelle Straße/PLZ werden zurückgenommen, die gespeicherte Drop-off-Zusage und das falsche GEO-Paar explizit gelöscht. `status` wechselt auf `pruefung`; kein Schließungsurteil und kein Merge. Die Adresse und Kontakt-/Annahmedaten des aktuellen ALBA-Nord-Standorts bleiben ausschließlich im separaten ALBA-Nord-Dossier. Quellen: https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ ; https://metall.alba.info/unternehmen/standorte/ ; https://metall.alba.info/fileadmin/user_upload/ALBA_Metall_Nord/PDF/2024/Urkunde_Ver_CCF_ALBA_plc_und_Co._KG_GJ2023_final.pdf ; read-only `public.db` (27.10.2026); README.md, Quellenhierarchie/Betreiberkettenregel; docs/trader-seed.md.]
 
 ### Owner-Quellenkorrektur 27.10.2026: ALBA-Identität offenhalten
 

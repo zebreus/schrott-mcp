@@ -1,5 +1,6 @@
 ---
 slug: st-kalbe-rilei
+clear_fields: geo
 name: Rilei Automobile GmbH
 trader_type: autoverwertung
 state: ST
@@ -29,6 +30,10 @@ Der bisherige Negativbefund ist überholt: **Rilei Automobile GmbH**, Amtsgerich
 Registerzweck umfasst Abschleppen/Bergung, Autoverwertung/Entsorgung, Fahrzeug- und Ersatzteilhandel sowie Reparatur. Das beweist keine aktuelle anerkannte Altfahrzeugannahme. Die frühere Domain rilei.de steht zum Verkauf. GLEIF nennt zwar entity.status ACTIVE, aber LEI-Registrierung LAPSED, letztes Update 2021; beides nicht mit nachgewiesenem aktuellen Hofbetrieb verwechseln. Zum Rundling 44 bzw. Cheinitzer Rundling 44, Cheinitz/Kalbe, bleibt bis zur aktuellen Standortbestätigung Timeline-only.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: falsche Produktions-GEO zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die aktuelle read-only Produktionszeile enthält weiterhin `53.2934, 9.5506`. Der bereits dokumentierte Reverse-Lookup ordnet diesen Punkt Kalbe in Niedersachsen (Samtgemeinde Sittensen) zu, nicht Kalbe (Milde), Sachsen-Anhalt; auch die bekannte Betreiber-/Adressspur Cheinitzer Rundling 44 ist nur ein ungeprüfter Verzeichnis-Lead. Deshalb wird ausschließlich das nicht zum belegten Ort passende GEO-Paar mit `clear_fields: geo` beim nächsten regulären Seed zurückgenommen. Keine Ersatzkoordinate geraten, keine Adresse aus dem Lead übernommen und `status: pruefung` unverändert gelassen. Das ist weder eine Betriebsaufgabe noch ein Urteil über die aktuelle Annahme. Quelle: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.2934&lon=9.5506&zoom=10 ; https://www.auto-werkstatt.de/kalbe/rilei-automobile-gmbh-aULLNy ; read-only `public.db` (27.10.2026); README.md, Quellenhierarchie.]
 
 ### Recherche 27.10.2026
 

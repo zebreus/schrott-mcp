@@ -1,5 +1,6 @@
 ---
 slug: sl-saarlouis-66740-hahn-schrott-metalle
+clear_fields: geo
 name: Hahn GmbH Schrott Metalle
 trader_type: schrotthaendler
 state: SL
@@ -29,6 +30,10 @@ Plausibler Rechtsträgerkandidat ist **HAHN GmbH**, HRB 24161 beim AG Saarbrück
 **Preise:** keine zurechenbare Ankaufspreisliste, Materialverkaufspreisliste oder Gebührenordnung. Kohlbrunnenstr. 19 bleibt Rechtssitz-/Adresskandidat, nicht bestätigter öffentlicher Annahmepunkt/GEO.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: nicht passende Produktions-GEO zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `49.3137, 6.7515`; Reverse-Lookup ordnet den Punkt Weißkreuzstraße 10, Saarlouis zu. Die einzige dokumentierte Register-Adressspur für die plausible HAHN-GmbH-Identität ist Kohlbrunnenstraße 19; die Nominatim-Suche findet die Straße in Fraulautern rund 2 km entfernt, aber keinen exakten Hausnummern-/Betriebsnachweis. Die Händleridentität und der Seed-Mobilkontakt bleiben ungeklärt. Daher wird nur das nicht zur bekannten Adressspur passende GEO-Paar durch `clear_fields: geo` zurückgenommen. Keine Ersatzkoordinate, keine Adressübernahme, keine Verknüpfung zu Hahn & Ecker und kein Schließungsurteil; `status: pruefung` bleibt. Quellen/Leads: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.3137&lon=6.7515&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Kohlbrunnenstra%C3%9Fe+19%2C+66740+Saarlouis&format=jsonv2&addressdetails=1 ; https://www.northdata.de/HAHN%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2024161 ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Recherche 27.10.2026: Rechtsträgerlead erneut geprüft
 

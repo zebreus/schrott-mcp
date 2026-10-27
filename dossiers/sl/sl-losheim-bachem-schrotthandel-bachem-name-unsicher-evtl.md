@@ -1,5 +1,6 @@
 ---
 slug: sl-losheim-bachem-schrotthandel-bachem-name-unsicher-evtl
+clear_fields: 'dropoff_json,geo'
 name: Schrotthandel Bachem (Name unsicher, evtl. Kolbe)
 trader_type: schrotthaendler
 state: SL
@@ -27,6 +28,10 @@ provenance_origin: table
 Seedname ausdrücklich unsicher („evtl. Kolbe“), Ankauf bisher nur Verzeichnisbehauptung. Neuer Lead: namenloser Schrotthandel, Bachemer Str. 53, Losheim-Bachem, 06872 9221121. Keine qualifizierte Verbindung zu Kolbe, kein Betreiber-/Registerbeleg oder Aktivitätsnachweis; aktiven Händlerstatus auf pruefung zurückgenommen. Ankauf-/Verkaufs-/Gebührenkonditionen offen.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: falsches GEO und unbelegte Anlieferung zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `49.5181, 6.735` und `dropoff_json={"allowed":true}`. Der Punkt liegt laut Reverse-Lookup an der B 268; die einzige dokumentierte Adressspur ist dagegen ein anonymer Verzeichnis-Lead zu Bachemer Straße 53, dessen Nominatim-Vorwärtssuche ein Gebäude rund fünf Kilometer entfernt findet. Weder diese Verzeichnisangabe noch die alten, nicht zuordenbaren Annahmeclaims verifizieren Betreiberidentität, aktuellen Betrieb oder Kundenzugang. Deshalb zieht `clear_fields: 'dropoff_json,geo'` sowohl die nicht passende Koordinate als auch die allgemeine gespeicherte Anlieferungszusage beim regulären Seed zurück. Keine Ersatzkoordinate, keine Behauptung eines Umzugs oder einer Schließung; `status: pruefung` bleibt. Quellen/Leads: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.5181&lon=6.735&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Bachemer%20Strasse%2053%2C%2066679%20Losheim%20am%20See%2C%20Germany&format=jsonv2&limit=5&addressdetails=1 ; https://www.gelbeseiten.de/gsbiz/d57b9c59-6a9b-44e0-81b0-3ede451d858e ; read-only `public.db` (27.10.2026); README.md, Quellenhierarchie; docs/trader-seed.md.]
 
 ### Recherche 27.10.2026: namenlosen Portal-Lead erneut geprüft
 

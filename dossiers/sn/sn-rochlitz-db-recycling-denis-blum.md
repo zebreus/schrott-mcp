@@ -1,6 +1,6 @@
 ---
 slug: sn-rochlitz-db-recycling-denis-blum
-clear_fields: geo
+clear_fields: 'dropoff_json,geo'
 name: DB Recycling (Denis Blum)
 trader_type: schrotthaendler
 state: SN
@@ -28,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: unbelegte Anlieferungsbedingung zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält noch `dropoff_json={"allowed":true}`. Die Betreiber-Unterseite zum Hartmetallankauf sagt ausdrücklich, dass man Hartmetall direkt anliefern oder einen Termin vereinbaren kann; das ist ein konkreter, aber einzelner und materialbezogener Betreiberbeleg, keine unabhängige Bestätigung einer allgemeinen Anlieferungszusage für diesen Händlerdatensatz. Die Betreiberseite und Preisliste belegen weiterhin den Schrottplatz-Auftritt und aktuellen Metallankauf; die weitere Website mit derselben Inhaber-/Adressspur ist keine unabhängige Quelle. Da die Frontmatter nur eine allgemeine Händlerbedingung abbildet und die dokumentierte Zwei-Quellen-Regel bzw. Betreiber-Ausnahme für diese Einzelunternehmung nicht erfüllt ist, wird diese pauschale gespeicherte Zusage zusätzlich zur bereits dokumentierten GEO-Zuordnung mit `clear_fields: 'dropoff_json,geo'` zurückgenommen. Das bedeutet „nicht als allgemeine Bedingung unabhängig kuratiert“, nicht „Anlieferung verboten“; die Hartmetall-Aussage bleibt als Einzelbeleg dokumentiert. Keine Leistungseinstellung und keine Schließung. Der aktuelle Preislistenbeleg für Metallankauf bleibt bestehen; `status: aktiv` wird nicht geändert. Quellen: https://www.dein-schrottplatz.de/pages/ankauf/hartmetall-ankauf.php ; https://www.dein-schrottplatz.de/pages/db-recycling/schrottplatz-in-rochlitz.php ; https://www.dein-schrottplatz.de/pages/preise.php (gültig ab 03.10.2026); https://www.sms-rochlitz.de/pages/kontakt/impressum.php ; read-only `public.db` (27.10.2026); README.md, Quellenhierarchie; docs/trader-seed.md.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
