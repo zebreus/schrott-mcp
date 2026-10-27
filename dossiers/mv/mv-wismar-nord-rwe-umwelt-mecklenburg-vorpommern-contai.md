@@ -11,7 +11,7 @@ email: nord@alba.info
 opening_hours: 'Mo-Do 07:00-16:00, Fr 07:00-14:45'
 website: 'https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/'
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: 'Betriebsstätte Wismar: Abfallannahme für Privat- und Gewerbekunden, Containerdienst (Behälter 80 l bis 34 m³), Komplettentsorgung. Kein veröffentlichter Metallankaufskurs.'
 clear_fields: 'geo'
 dropoff_json: ''
@@ -36,6 +36,10 @@ ALBA Metall Nord am selben Standort bleibt ein separat dokumentierter historisch
 ### Owner-Korrektur 26.10.2026
 
 - [Korrektur 26.10.2026: Die zusätzliche direkt gelesene NorthData-Seite zu ALBA Nord GmbH, AG Schwerin HRB 558, führt in der Namenshistorie ALBA Mecklenburg-Vorpommern GmbH und RWE Umwelt Mecklenburg-Vorpommern GmbH. Das stützt die im offiziellen Registerspiegel dokumentierte Namensfolge unabhängig an den Rechtsträgerendpunkten; die aktuelle ALBA-Standortdetailseite bestätigt weiterhin die Betriebsstätte Wismar, Tonnenhofstraße 12. Kein Merge mit ALBA Metall Nord. Read-only Produktion enthält GEO 53.88925/11.44455, das auf eine Mennekes-Ladestation an der Bürgermeister-Haupt-Straße auflöst, nicht auf Tonnenhofstraße 12. `clear_fields: 'geo'` zieht den falschen Punkt zurück; kein Ersatz-GEO für den weiterhin nicht punktgenau bestimmten Eingang. Quellen: https://www.northdata.de/ALBA%20Nord%20GmbH,%20Schwerin/HRB%20558 ; https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.88925&lon=11.44455&zoom=18&addressdetails=1 ; README.md, Betreiberkettenregel.]
+
+### Owner-Korrektur 27.10.2026: Ankaufstatus offen
+
+- [Korrektur 27.10.2026: Die aktuelle ALBA-Seite bestätigt weiter die Betriebsstätte, Abfallannahme für Privat- und Gewerbekunden sowie Containerdienst. Weder diese Betreiberseite noch das Register belegen vergüteten Schrott-/Metallankauf; Abfallannahme ist keine Auszahlungszusage. `status` daher von `aktiv` auf `pruefung` zurückgesetzt, `website_status: aktiv` und die belegten Standort-/Servicedaten bleiben. Kein Schließungsurteil und kein Merge mit ALBA Metall Nord. Quelle(n): https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ ; https://www.online-handelsregister.de/handelsregisterauszug/mv/Schwerin/HRB/558/ALBA-Nord-GmbH ; README.md, Statusdefinition.]
 
 ### Owner-Prüfung 25.10.2026
 

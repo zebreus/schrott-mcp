@@ -11,12 +11,12 @@ email: info@tamm-gmbh.com
 opening_hours: 'Anlieferung Mo–Fr 07:30–16:30'
 website: https://www.tamm-gmbh.com
 website_status: aktiv
-status: aktiv
+status: pruefung
 description: 'Containerdienst sowie Schrott- und Abfallentsorgung; Anlieferung, Containerabholung und Materialtrennung vor Ort. Vergüteter Schrottankauf und öffentliche Ankaufspreise auf den am 18.10.2026 geprüften Seiten nicht belegt.'
 lat: 51.2247867
 lon: 7.2141755
-dropoff_json: '{"allowed":true,"customer_types":["privat","gewerbe"],"days":["Mo","Di","Mi","Do","Fr"],"time_windows":[{"start":"07:30","end":"16:30"}],"conditions":"Anlieferung von Schrott und Abfällen zur Entsorgung/Verwertung; Abfallarten sauber trennen, nicht vermischen. Lager- und Sortierboxen sowie Separation vor Ort. Zahlung bar oder mit EC-/Girokarte betrifft Entsorgungsleistungen, keine Auszahlungszusage. Privat- und Firmenkunden nennt die heutige Betreiberhistorie; materialbezogene Annahmebedingungen und Kosten vorab klären. Vergüteter Ankauf nicht ausdrücklich bestätigt; keine pauschale Annahme aller Abfälle oder kostenlose Entsorgung behauptet."}'
-pickup_json: '{"allowed":true,"customer_types":["privat","gewerbe"],"conditions":"Abfallabholung mit Containern ausdrücklich angeboten; beispielhaft Absetzmulden 5, 7.5 oder 10 m³ und Abrollmulden 20 oder 40 m³. Privat- und Firmenkunden nennt die heutige Betreiberhistorie. Konkreten Einsatzort, Materialbedingungen und Kosten beim Betreiber klären; keine veröffentlichten Abholzeiten oder Preisbeträge auf den geprüften Seiten, keine kostenlose Schrottabholung oder Vergütung belegt. Anlieferzeiten sind keine Abholfenster."}'
+dropoff_json: '{"allowed":true,"days":["Mo","Di","Mi","Do","Fr"],"time_windows":[{"start":"07:30","end":"16:30"}],"conditions":"Anlieferung von Schrott und Abfällen zur Entsorgung/Verwertung; Abfallarten sauber trennen, nicht vermischen. Lager- und Sortierboxen sowie Separation vor Ort. Zahlung bar oder mit EC-/Girokarte betrifft Entsorgungsleistungen, keine Auszahlungszusage. Aktuelle materialbezogene Annahmebedingungen und Kosten vorab klären. Vergüteter Ankauf nicht ausdrücklich bestätigt; keine pauschale Annahme aller Abfälle oder kostenlose Entsorgung behauptet."}'
+pickup_json: '{"allowed":true,"conditions":"Abfallabholung mit Containern ausdrücklich angeboten; beispielhaft Absetzmulden 5, 7.5 oder 10 m³ und Abrollmulden 20 oder 40 m³. Konkreten Einsatzort, Materialbedingungen und Kosten beim Betreiber klären; keine veröffentlichten Abholzeiten oder Preisbeträge auf den geprüften Seiten, keine kostenlose Schrottabholung oder Vergütung belegt. Anlieferzeiten sind keine Abholfenster."}'
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -36,6 +36,10 @@ Das verlinkte EFB-Zertifikat wurde vom Owner am 18.10.2026 visuell gelesen: G.BZ
 - **GEO:** Frontmatter enthält den am 18.10.2026 bestätigten OSM-Gebäudepunkt 51.2247867/7.2141755, keine verifizierte Einfahrt oder Annahmetheke. OSM/Nominatim sind dieselbe Datenbasis, keine unabhängigen Vermessungsquellen. Ein künftiger Seed ersetzt damit den alten gespeicherten Punkt; keine Produktionsänderung bereits erfolgt.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Ankaufstatus und Kundenarten
+
+- [Korrektur 27.10.2026: Aktuelle Betreiberseiten beschreiben Anlieferung und Abholung von Abfällen/Containern; Zahlung steht im Kontext der Entsorgung, nicht einer Auszahlung für Schrott. Kein vergüteter Metallankauf belegt, daher `status: pruefung` statt `aktiv`; `website_status: aktiv` bleibt. Die Angabe `customer_types: privat/gewerbe` beruhte nur auf einer historischen Betreiberpassage von 1982 und belegt keine heutigen Zulassungsbedingungen. Beide JSON-Felder behalten nur die aktuell beschriebenen Anliefer-/Containerleistungen, ohne Kundenarten, Kaufpreis, Gratisleistung oder pauschale Annahme zu behaupten. Kein Schließungsurteil. Quellen: https://www.tamm-gmbh.com/ ; https://www.tamm-gmbh.com/de/impressum ; https://www.tamm-gmbh.com/s/Zertifikat-EfbV-2026-Tamm.pdf ; README.md, Statusdefinition und Quellenhierarchie.]
 
 ### Owner-GEO-Check-in 26.10.2026
 

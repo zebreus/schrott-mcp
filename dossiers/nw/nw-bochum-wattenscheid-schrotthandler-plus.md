@@ -11,10 +11,11 @@ email: info@schrotthaendler-plus.de
 opening_hours: ''
 website: https://www.schrotthaendler-plus.de/
 website_status: aktiv
-status: aktiv
-description: 'Mobiler Schrottankauf und Schrottabholung in Bochum einschließlich Wattenscheid; Termine am Wunschort. Keine öffentliche stationäre Annahmeadresse belegt.'
+status: pruefung
+description: ''
 dropoff_json: ''
-pickup_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Mobile Schrottabholung/Ankauf in Bochum einschließlich Wattenscheid nach Terminvereinbarung. Betreiberseite bewirbt Abholung, Verladen und Demontage als kostenlos, nennt aber keine Mindestmenge; das undatierte XING-Profil nennt kostenlose Entsorgung ab 500 kg. Kostenfreiheit/Mindestmenge daher im konkreten Angebot bestätigen; kein stationärer Annahmepunkt veröffentlicht."}'
+pickup_json: ''
+clear_fields: 'description,pickup_json'
 provenance_section: Neu, mobile Ankauf-/Abholwerbung auf Betreiberseite; Mindestmenge/Kosten im Einzelfall prüfen
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
@@ -29,6 +30,10 @@ Der aktuelle Betreiberauftritt ist direkt erreichbar und nennt im Impressum Issa
 **Preise und Leistungen:** Ankauf erfolgt laut Betreiber mobil, zu tagesaktuellen und nach Art, Menge und Qualität variierenden Preisen; ein unverbindliches Angebot wird auf Anfrage erstellt, Bar- oder Überweisungszahlung genannt. Keine Zahlenliste. Verkauf: keine öffentliche Materialpreisliste. Gebühren: aktuelle Bochum-Seite bewirbt Abholung/Verladen und Demontage als kostenlos; das ältere, undatierte XING-Profil nennt kostenlose Entsorgung erst ab 500 kg. Keine einheitliche Mindestmenge/Tarifordnung veröffentlicht; Gratisumfang vor Termin bestätigen. **GEO-Bedarf:** Vorstadtstraße 65, 44866 ist keine bestätigte Kundenannahme; Hochstr. 28 und Hochstr. 25 bleiben Portal-Leads. Keine dieser Anschriften als Schrottplatz geokodieren, bis ein tatsächlicher Kunden-/Hofstandort belegt ist. Quellen: https://www.schrotthaendler-plus.de/impressum/ ; https://www.schrotthaendler-plus.de/schrottabholung-bochum/ ; https://www.schrotthaendler-plus.de/schrottankauf-nrw/ ; https://www.xing.com/profile/issam_ellahib ; https://www.golocal.de/bochum/schrotthandel/schrottabholung-bochum-umgebung-M371X/ (Lead).
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: mobile Ankauf-/Abholclaims zurückgestellt
+
+- [Korrektur 27.10.2026: Die aktuelle Betreiberseite bewirbt mobilen Schrottankauf und Abholung in Bochum einschließlich Wattenscheid; die Seiten sind erreichbar, daher bleibt `website_status: aktiv`. Die Zuordnung des unregistrierten Angebots zu einer unabhängig bestätigten aktuellen Rechtsträger-/Betreiberidentität ist trotz undatiertem, selbstgeführtem XING-Profil nicht ausreichend belegt. Deshalb `status: pruefung`, Beschreibung und strukturiertes `pickup_json` zurückgenommen; dies behauptet weder Geschäftsaufgabe noch, dass das Betreiberangebot falsch ist. Kontaktangaben und Website bleiben als Angaben des erreichbaren Betreiberauftritts dokumentiert. Keine stationäre Annahmeadresse oder GEO ergänzt. Quellen: https://www.schrotthaendler-plus.de/impressum/ ; https://www.schrotthaendler-plus.de/schrottabholung-bochum/ ; https://www.schrotthaendler-plus.de/schrottankauf-bochum/ ; https://www.xing.com/profile/issam_ellahib ; README.md, Quellenhierarchie.]
 
 ### Recherche 26.10.2026: Ankauf und Mitnahme
 
