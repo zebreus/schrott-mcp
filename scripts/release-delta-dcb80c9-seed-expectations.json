@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "release_commit": "dcb80c91be486f8225f9d117b7bf238d94badd18",
+  "release_tree": "a47427373cdaa3dee3895909db54642175c463d2",
+  "rehearsal_manifest_sha256": "66fb39bb381d19c7036a9c8298f6783a0cb3491b31bbe16a252ad7084af086ed",
+  "fields": [
+    "name",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bb-brandenburg-an-der-havel-mc-schrott-annahmestelle",
+    "bb-kloster-lehnin-ot-reckahn-mc-schrott-annahmestelle",
+    "bb-nauen-mc-schrott-annahmestelle",
+    "bb-rathenow-mc-schrott-annahmestelle",
+    "bb-werder-ot-plotzin-mc-schrott-annahmestelle",
+    "mv-rostock-mc-schrott-rostock"
+  ],
+  "scope": "exactly the 6 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, target/predeploy-dcb80c9. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bb-brandenburg-an-der-havel-mc-schrott-annahmestelle",
+      "values": {
+        "name": "MC Schrott (Annahmestelle)",
+        "street": "Kummerlestraße 1A",
+        "postcode": "14770",
+        "phone": "03381 8903049",
+        "email": "kummerle@mcschrott.de",
+        "opening_hours": "Mo-Fr 9:00-17:30, Sa 9:00-12:30",
+        "description": "Schrott- und Buntmetallankauf für Privat- und Gewerbekunden, zusätzlich Papierankauf; kostenlose Abholung in Brandenburg und bis 30 km ohne Materialvergütung, Containerdienst nur für Gewerbe.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.mcschrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ee15a18cf7f250d81f440f7c8b9ca922aa052469795f841b2c59b3176596e716",
+      "seed_hash": "fe0d5247e70f834b",
+      "geo": [
+        52.4150318,
+        12.519421
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-kloster-lehnin-ot-reckahn-mc-schrott-annahmestelle",
+      "values": {
+        "name": "MC Schrott (Annahmestelle)",
+        "street": "Meßdunker Straße 2",
+        "postcode": "14797",
+        "phone": "033835 606235",
+        "email": "reckahn@mcschrott.de",
+        "opening_hours": "Mo-Fr 8:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.mcschrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a5f45d056d6cb54ca8c7b165029a720e2d0a7ef25599155742ea35463538331f",
+      "seed_hash": "3885471a4357c193",
+      "geo": [
+        52.3340819,
+        12.5454537
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-nauen-mc-schrott-annahmestelle",
+      "values": {
+        "name": "MC Schrott (Annahmestelle)",
+        "street": "Zuckerfabrik 8",
+        "postcode": "14641",
+        "phone": "0152 59689044",
+        "email": "nauen@mcschrott.de",
+        "opening_hours": "Mo-Fr 9:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.mcschrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "48a5a969264caa5c7474527761515197de793e80524671dd2a276f25cd35d090",
+      "seed_hash": "5105d0bdbf0f92e2",
+      "geo": [
+        52.6052159,
+        12.8870092
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-rathenow-mc-schrott-annahmestelle",
+      "values": {
+        "name": "MC Schrott (Annahmestelle)",
+        "street": "Milower Landstraße 7",
+        "postcode": "14712",
+        "phone": "03385 5202851",
+        "email": "rathenow@mcschrott.de",
+        "opening_hours": "Mo-Fr 9:00-17:30, Sa 9:00-12:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.mcschrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e1922389f327c5623469a50934a01eab1ab660a8cf2245c07582189d1961aa1c",
+      "seed_hash": "d09621d5f8af9312",
+      "geo": [
+        52.5882285,
+        12.3366452
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-werder-ot-plotzin-mc-schrott-annahmestelle",
+      "values": {
+        "name": "MC Schrott (Annahmestelle)",
+        "street": "Alte Dorfstraße 28",
+        "postcode": "14542",
+        "phone": "033207 304280",
+        "email": "ploetzin@mcschrott.de",
+        "opening_hours": "Mo-Fr 9:00-17:30, Sa 9:00-12:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.mcschrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e639f5053be7437e458f18dac9e30e198e523340649e09cef901849449035991",
+      "seed_hash": "5d0628accbf0c5cd",
+      "geo": [
+        52.3635424,
+        12.8223948
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-rostock-mc-schrott-rostock",
+      "values": {
+        "name": "MC Schrott Rostock GmbH",
+        "street": "Werftstraße 20",
+        "postcode": "18057",
+        "phone": "0381 80876177",
+        "email": "rostock@mcschrott.de",
+        "opening_hours": "Mo-Fr 9:00-17:30, Sa 9:00-12:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.mcschrott.de/standorte/rostock/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "9a603642096f31dd119173ef63438c151ff12c764e05140ed2864b8b4fca85d2",
+      "seed_hash": "cf4268fc4f8590df",
+      "geo": [
+        54.10598,
+        12.11163
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
