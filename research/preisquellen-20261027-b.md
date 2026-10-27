@@ -113,8 +113,8 @@ Ja, vollständig. Es gibt drei maskenlesbare Ebenen auf derselben Seite:
   |---|---|---|
   | Altschrott Sorte 3 | 0,17 | 0,14 |
   | Mischschrott | 0,15 | 0,11 |
-  | Gussschrott | 0,145 | 0,11 |
-  | Bremsscheiben | 0,145 | 0,11 |
+  | Gussschrott | 0,15 | 0,11 |
+  | Bremsscheiben | 0,15 | 0,11 |
   | Vorbrennermaterial | 0,15 | 0,12 |
   | Moniereisen fertig | 0,15 | 0,13 |
   | Moniereisen | 0,13 | 0,11 |
@@ -146,12 +146,16 @@ Zu beachten für den Datenvertrag:
   [`docs/adding-a-trader-handler.md`](../docs/adding-a-trader-handler.md) regelt den
   „exact"-Fall nur als `confidence: Some(1.0)` und sagt **nicht** ausdrücklich, dass
   „unverbindlich“ immer `approx` bedeutet. Der Repo-Schwester-Handler `kernschrott` bucht
-  bei wortgleichem „unverbindlich“ als `exact`/1.0, neun weitere Handler nutzen `approx`.
+  bei wortgleichem „unverbindlich“ als `exact`/1.0, zehn weitere Handler nutzen `approx`.
   Für `mc_schrott` (Werte je Sorte, Standort und Stand-Datum veröffentlicht) wurde
-  deshalb `exact`/1.0 **einheitlich für alle sechs Zeilen** gewählt, mit der
-  Betreiberformulierung im Modul-Doc; eine Umstellung aller sechs Zeilen auf `approx`
+  deshalb `exact`/1.0 **einheitlich für alle sechs Zeilen** gewählt; die Betreiberformulierung
+  und die Begründung stehen im Modul-Doc von `crates/ingestion/src/traders/handlers/mc_schrott.rs`.
+  Eine Umstellung aller sechs Zeilen auf `approx`
   würde die Preise aus dem direkten Vergleich (`PREISVERGLEICHE` wertet nur
-  `price_kind='exact'`) nehmen und bleibt eine bewusst offene Entscheidung.
+  `price_kind='exact'`) nehmen und bleibt eine bewusst offene Entscheidung. Gegenpräzedenzen
+  im Repo, die solche Richtwerte als `approx`/0.5 buchen, sind `gerwischer` (Modul-Doc:
+  „unverbindlich/Richtwerte ⇒ approx/0.5“) und der Limekon-Review (R3); die Begründung ist
+  damit einseitig, aber nicht falsch.
 - `published_at` = 23.10.2026 (`page_stated`). Das **Aktualisierungsintervall** ist
   unbekannt: die Liste trägt ein Stand-Datum, aber keinen Änderungsindikator. Ob sie
   wöchentlich, täglich oder nur bei Bedarf neu datiert wird, muss beobachtet werden.

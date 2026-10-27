@@ -1,3 +1,33 @@
+//! MC Schrott (sechs Annahmestellen in Brandenburg und Rostock):
+//!
+//! Preissemantik: Die Seite nennt die Werte selbst „unverbindliche Richtpreise auf
+//! Basis unserer Annahmepreisliste“ (FAQ: „Nein. Die Preisliste ist eine
+//! unverbindliche Richtpreisliste … Verbindlich ist immer die Bewertung und Verwiegung
+//! an der Annahmestelle“). Gebucht wird dennoch `price_kind: "exact"` mit
+//! `confidence: 1.0`, **einheitlich für alle sechs Standorte**: Die Werte sind ein
+//! veröffentlichter Listenpreis je Sorte, Standort und Stand-Datum (Katalog-Definition
+//! „exact (Listenpreis)“), nicht ein gerundeter Leitpreis („approx“). Der
+//! Repo-Schwester-Handler `kernschrott` bucht bei wortgleichem „unverbindlich“ genauso;
+//! die Gegenpräzedenzen `gerwischer` und `limekon` buchen solche Richtwerte als
+//! `approx`/0.5. Die Wahl ist damit **bewusst** und einheitlich: Eine Umstellung aller
+//! sechs Zeilen auf `approx` würde die Preise aus dem direkten Vergleich
+//! (`PREISVERGLEICHE` wertet nur `price_kind='exact'`) nehmen und erzeugt neue
+//! History-Zeilen statt nur ein Update; sie bleibt eine bewusst offene Entscheidung.
+//!
+//! Standortabdeckung: Die Liste gilt für alle fünf Brandenburger Annahmestellen
+//! (Brandenburg, Rathenow, Nauen, Kloster Lehnin/OT Reckahn, Werder/OT Plötzin);
+//! der sichtbare Zellwert ist dieser gemeinsame Satz. Rostock hat einen eigenen
+//! Satz, der im Attribut `data-price-ros` steht (7 Sorten weichen ab) — die sichtbare
+//! Zelle zeigt dort immer den Brandenburger Wert. Ein `data-only`-Attribut
+//! beschränkt einzelne Sorten auf genannte Standorte; an den anderen wird die Zeile
+//! laut übersprungen. Die Standortwahl der Seite ist rein clientseitig: Der Server
+//! liefert für `?standort=<key>` byte-identisches HTML.
+//!
+//! Kontakt: Jeder Annahmestellen-Slug holt Kontakt und Adresse von seiner eigenen
+//! Standortseite (`/standorte/<key>/`). Das Impressum nennt den Sitz des
+//! Diensteanbieters (Rathenow) und ist **kein** Standort — die frühere Fassung, die
+//! diesen Sitz in die Brandenburg-Zeile schrieb, war eine Fehlzuordnung.
+//!
 //! MC Schrott (Brandenburg a.d. Havel; the same list serves all MC
 //! Annahmestellen): exact prices in seven `table.price-table` lists
 //! ("Bezeichnung" / "Preis €/kg" — every table quotes EUR/kg per its
@@ -225,10 +255,8 @@ fn select_prices(
     let mut prices = Vec::with_capacity(rows.len());
     let mut skips = Vec::new();
     for row in rows {
-        if row.label.to_lowercase().contains("auf anfrage") {
-            skips.push(format!("{} (auf Anfrage)", row.label));
-            continue;
-        }
+        // "auf Anfrage" ist bereits im Parse-Schritt ohne Preis gelandet
+        // (die Zelle trägt keinen Zahlenwert) und kommt hier nicht mehr vor.
         if let Some(only) = &row.only {
             if !only.iter().any(|key| key == site_key) {
                 skips.push(format!("{} (nur an {})", row.label, only.join(", ")));
@@ -259,7 +287,7 @@ fn select_prices(
                 confidence: Some(1.0),
                 label: row.label.clone(),
             }),
-            None => skips.push(row.label.clone()),
+            None => skips.push(format!("{} (kein Katalogmaterial)", row.label)),
         }
     }
     (prices, skips)
@@ -783,7 +811,9 @@ mod tests {
         assert!(parse(&html).is_err());
     }
 
-    /// Verbatim excerpt of the live price table (27.10.2026, HTTP 200): the
+    /// Live-Auszug der Preistabelle (27.10.2026, HTTP 200); alle vom Handler
+    /// gelesenen Werte sind live-identisch (die `data-search`-Attribute und
+    /// Zeilenumbruch-Details der Live-Seite sind nicht abgebildet): the
     /// visible cell carries the price of the five Brandenburg sites, the
     /// `data-price-ros` attribute the Rostock set, and the "Papier" row has
     /// **no** `data-price-ros` at all (only a `data-only` restriction).
@@ -913,7 +943,7 @@ mod tests {
     #[test]
     fn data_only_row_is_skipped_at_other_sites() {
         let (_, rows, _) = parse(FIXTURE_SITES).expect("parses");
-        for site in ["reckahn", "plotzin"] {
+        for site in ["kloster-lehnin-reckahn", "werder-ploetzin"] {
             let (prices, skips) = select_prices(&rows, site, false);
             assert!(!prices.iter().any(|price| price.label == "Papier"));
             assert!(skips.iter().any(|skip| skip.contains("nur an")));
