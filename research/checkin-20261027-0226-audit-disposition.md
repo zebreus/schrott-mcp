@@ -467,3 +467,31 @@ unterbleiben.
   04:35 blieb rot. Die Gate-Befunde werden getrennt auditiert; bis zur Klärung
   weder weiterer Rollout noch Produktionsänderung. Kein Handler wurde manuell
   gestartet.
+
+## Audit der Wave-E-Post-Rollout-Findings, 27.10.2026 04:41 UTC
+
+- Das Audit hat weder den Produktionsverifier ausgeführt noch eine Datenbank
+  geöffnet. Es belegt nicht, dass Wave E grün ist: Die 75 Findings sind eine
+  Mischung aus voraussichtlich veralteten Erwartungen und offenen Nachweisen.
+- Die fünf skalaren Abweichungen (Bochum-Straße, Volz-Beschreibung, Kaminski-
+  Straße/PLZ und Zauritz-PLZ) entsprechen den alten Zielwerten im Manifest vom
+  11.10.; die bisherigen read-only-Vergleiche melden dafür Übereinstimmung von
+  Produktion und aktuellem Seed. Das historische Manifest bleibt unverändert.
+  Die aktuelle Zielbasis muss trotzdem an den exakt ausgerollten Commit gebunden
+  werden, nicht pauschal an den heutigen Repository-HEAD.
+- Die 50 Timeline-Hash-Abweichungen sind nicht gegen die Notes des exakt
+  ausgerollten Commits `6b3da663` abgeglichen. Das Manifest und die Test-Fixture
+  binden ihre SHA-256-Werte an den historischen Dossierstand `db6c81e0` vom
+  11.10.; spätere Timeline-Ergänzungen ändern den kompilierten Notes-Text. Das
+  beweist weder fehlerhafte aktuelle Notizen noch korrekte aktuelle Notizen.
+- Die 20 fehlenden `updated_at`-Zeitnachweise bleiben ungeklärt. Der Verifier
+  verlangt einen Zeitstempel ab Rolloutgrenze; unveränderte Seed-Zeilen werden
+  dagegen absichtlich übersprungen und behalten ihren Zeitstempel. Ohne
+  per-Zeile-Anwendungsnachweis lässt sich daraus nicht schließen, ob der Seed
+  fehlgeschlagen ist oder nichts zu schreiben hatte.
+- Sichere Fortsetzung: das 11.-Oktober-Manifest und sein rotes Ergebnis
+  bewahren; getrennt davon eine Erwartungs-/Nachweis-Reconciliation exakt für
+  den ausgerollten Commit und dessen private Seed-Probe erstellen. Für die 20
+  Zeitstempel je Händler die tatsächliche Seed-Anwendung belegen. Bis dahin
+  Wave E weder grün nennen noch aus den 75 Findings 75 bestätigte Fehler in
+  Produktionsdaten ableiten. Keine Produktionsänderung.
