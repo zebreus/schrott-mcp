@@ -440,3 +440,30 @@ unterbleiben.
   `0b2d551e` ab, ist aber kein Produktionsnachweis. Die nach dem vorherigen
   Rollout weiterhin roten Post-Rollout-Verifier bleiben unverändert offen;
   gemäß Check-in-Anleitung daher kein neuer Deployment-/Produktionsschritt.
+
+## Read-only-Nachlauf 27.10.2026 04:38 UTC
+
+- `main` steht auf `35962142ed1d8cadd538749396cd9fe48f630ee7`, identisch mit
+  `origin/main`; der geschützte GitHub-Credential-Helper-Dry-Run war erfolgreich.
+  `schrott-mcp.service` ist aktiv und `/health` liefert HTTP 200. Read-only:
+  Schema v9, 3.936 Händler, 83 Materialien und 2.659 aktuelle Preiszeiger.
+- Feedback endet weiterhin bei ID 7390 vom 13.10.2026; kein neueres Feedback.
+  Der letzte natürliche Scheduler-Lauf #2876 endete 04:29:15 UTC mit `ok`, 85
+  Preisen und null Händlerfehlern. Seitdem kein weiterer Lauf. Lauf #2875 hatte
+  A-Zs verdächtige Preisleiter sicher verworfen und AMR-HTTP-502; beide Punkte
+  sind als App-WARN protokolliert, nicht als systemd-Warnungen.
+- Der read-only Produktionsabgleich bestätigt weiter drei bekannte falsche GEO-
+  Punkte, die in Produktion noch nicht korrigiert sind: ALBA Metall Nord in
+  Wismar `53.8895333/11.4386667`, Bochum Plus `51.4740889/7.2192389` und SMS
+  Sterns in Rochlitz `51.0501/12.7975`. Die belegten Seed-Korrekturen ziehen
+  jeweils nur den Punkt zurück und setzen keinen geratenen Ersatz. DB Recycling
+  bleibt ein separater Datensatz; seine Schützenstraßen-Koordinate ist laut
+  bisheriger Prüfung ein Gebäude-Punkt, aber kein unabhängiger Nachweis der
+  konkreten Annahmestelle. Es gab keinen direkten Produktions-DB-Schreibzugriff.
+- `journalctl -p warning` bleibt leer; sieben App-JSON-WARNs im Sechs-Stunden-
+  Fenster, zuletzt A-Z und AMR aus Lauf #2875. Unter `/tmp/opencode/` liegt
+  keine neuere Geocoding-Logdatei als vom 25.10.2026.
+- Die letzte explizite read-only-Ausführung der drei Post-Rollout-Verifier um
+  04:35 blieb rot. Die Gate-Befunde werden getrennt auditiert; bis zur Klärung
+  weder weiterer Rollout noch Produktionsänderung. Kein Handler wurde manuell
+  gestartet.
