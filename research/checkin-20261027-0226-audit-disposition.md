@@ -268,3 +268,31 @@ unterbleiben.
   weiterhin in Produktion vorhanden; ihre Seed-Clears sind noch nicht
   ausgerollt. Der rote Post-Rollout-Status bleibt Grund, keine weiteren
   Produktionsänderungen vorzunehmen.
+
+## Read-only-Nachlauf 27.10.2026 03:32 UTC
+
+- Die normalen Scheduler-Läufe #2871 (03:13:39–03:13:46 UTC, 204 Preise) und
+  #2872 (03:28:46–03:28:54 UTC, 54 Preise) endeten jeweils `ok` mit null
+  Händlerfehlern. Dienst aktiv, `/health` auf `127.0.0.1:4001` HTTP 200,
+  Schema v9 und Bestand unverändert bei 3.936 Händlern, 83 Materialien und
+  2.659 aktuellen Preiszeigern. Feedback bleibt bei ID 7390 vom 13.10.
+- Nach #2872 bleiben die drei read-only Post-Rollout-Verifier rot. MKM hat
+  weiterhin 60 Artikel (55 numerisch/5 Anfragen) statt der geprüften
+  61-Artikel-/56-Preis-Partition; ein erfolgreicher Post-Rollout-Lauf fehlt.
+  Beim Pending-Corrections-Gate bleiben 124 MSG-Quotes vorhanden, aber
+  Quellen-/Freshness-Befund, vier fehlende Seed-Zeitnachweise und die
+  erfolgreichen Post-Rollout-Läufe für MSG/Gutzmann fehlen. Wave E prüft 60/60
+  Händler und hat 75 Findings: 50 Timeline-Hashes, 20 fehlende
+  Post-Rollout-Zeitstempel und fünf skalare Abweichungen zur älteren
+  11.10.-Erwartungsdatei (zwei Straße-, zwei PLZ- und eine
+  Beschreibungsabweichung). Keine manuelle Handler-Ausführung.
+- Read-only bestätigt weiterhin die zwei falschen GEO-Punkte: der Wismar-Sibling
+  hat Tonnenhofstr. 12/23970, aber 53.8895333/11.4386667; Bochum Plus hat
+  keinen belegten Straßenstandort, aber 51.4740889/7.2192389. Beide geprüften
+  `clear_fields: geo`-Korrekturen sind in der gepushten Seed-Historie, nicht in
+  Produktion. Wegen der roten Post-Rollout-Gates keine weitere
+  Produktionsänderung und kein Deployment.
+- `journalctl -p warning` bleibt leer; fünf App-JSON-WARNs im Sechs-Stunden-
+  Fenster liegen sämtlich vor dem Rollout, keine danach. Unter
+  `/tmp/opencode/*.log` gibt es keine neuere Geocoding-Logdatei. Kein direkter
+  Produktions-DB-Schreibzugriff und kein Force-Ingest.
