@@ -567,3 +567,33 @@ unterbleiben.
 - Die drei Post-Rollout-Prüfungen autorisieren weiterhin kein neues Deployment.
   Kein Force-Ingest, keine manuelle Handler-Ausführung, kein direkter
   Produktions-DB-Write und kein Dienstneustart.
+
+## Read-only-Nachlauf, 27.10.2026 05:30 UTC
+
+- `main` und `origin/main` standen auf `67a07fec`; der GitHub-Dry-Run war
+  erfolgreich. Dienst aktiv, `/health` HTTP 200. Read-only: Schema v9,
+  3.936 Händler, 83 Materialien, 2.660 aktuelle Preiszeiger. Feedback maximal
+  ID 7390 vom 13.10.; kein neues Feedback.
+- Die natürlichen Läufe #2879 (05:14, 232 Preise) und #2880 (05:29, 69 Preise)
+  endeten `ok` ohne Händlerfehler. Der MKM-Schritt #14311 innerhalb von #2880
+  endete `ok` mit 56 Preisen und fünf Annahmen. `verify-mkm-release.py` ist mit
+  Rolloutgrenze `2026-10-27T02:43:15Z` jetzt **grün**: 61 Artikel, 56 numerische
+  Preise, fünf Anfragen und 56 Current-Preise, keine Findings.
+- Das Pending-Corrections-Gate bleibt **rot**, ausschließlich weil nach dem
+  Rollout noch kein erfolgreicher Gutzmann-Schritt mit 19 Preisen und
+  HTTP-200-Quellenabruf vorliegt. Der adressierte Gotha-Datensatz und sein
+  gepinnter Release-Seed-Zustand sind korrekt; die natürliche Gutzmann-Phase ist
+  erst ungefähr ab 07:57:46 UTC fällig. Kein manueller Handler-Aufruf.
+- Der historische Wave-E-Verifier bleibt **rot** mit den dokumentierten
+  Abweichungen zum Manifest vom 11.10. Die separate Reconciliation bestätigt
+  unverändert 60/60 Übereinstimmung mit dem exakten ausgerollten Seed-Zustand;
+  sie ist kein Ersatz für Source Review und macht das historische Skript nicht
+  grün.
+- Produktion enthält weiter die falschen Punkte Wismar
+  `53.8895333/11.4386667`, Bochum Plus `51.4740889/7.2192389` und SMS Sterns
+  `51.0501/12.7975`. Der private geprüfte Korrekturstand entfernt sie ohne
+  Ersatzpunkte; sie sind nicht live korrigiert. Kein Deployment oder direkter
+  Produktions-DB-Write.
+- `journalctl -p warning` ist leer. Sechs App-JSON-WARNs im Sechs-Stunden-
+  Fenster liegen spätestens bei #2875; die Läufe #2879/#2880 waren fehlerfrei.
+  Keine neuere Geocoding-Logdatei als vom 25.10.2026.
