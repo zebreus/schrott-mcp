@@ -35,10 +35,16 @@ def main() -> int:
     manifest = json.loads(args.probe_manifest.read_text())
     changed = [row["slug"] for row in manifest["effective_delta"]["changed_rows"]]
 
-    # eigene Kopie: so bleibt das Bundle (inklusive -shm) byte-stabil
-    import shutil, tempfile
+    # eigene Kopie über die SQLite-Backup-API: so bleibt das Bundle byte-stabil
+    # und der WAL-Inhalt der Quelle geht nicht verloren
+    import tempfile
     copy = Path(tempfile.mkdtemp(dir="/tmp/opencode")) / "rehearsal.db"
-    shutil.copy2(args.rehearsal, copy)
+    source = sqlite3.connect(f"file:{args.rehearsal}?mode=ro", uri=True)
+    source.execute("PRAGMA query_only=ON")
+    target = sqlite3.connect(copy)
+    source.backup(target)
+    target.close()
+    source.close()
     conn = sqlite3.connect(f"file:{copy}?mode=ro", uri=True)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA query_only=ON")
