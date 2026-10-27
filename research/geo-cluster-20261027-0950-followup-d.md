@@ -17,7 +17,7 @@ Gewerbestandort. Für alle vier Dossierzeilen ist der gespeicherte Punkt damit n
 „nicht zuordenbar“, sondern **affirmativ falsch**. Keine Quelle nennt „Freiheit" als
 Betreiber- oder Annahmeort.
 
-Die 86 Umweltinspektionsberichte der Bezirksregierung Düsseldorf für die Stadt Essen
+Die Umweltinspektionsberichte der Bezirksregierung Düsseldorf für die Stadt Essen
 (alle am 27.10.2026 einzeln abgerufen) enthalten keinen Eintrag auf der Straße „Freiheit"
 und keinen zu Bonifaciusring 5, Fischweiher 26, Bonnekampstraße 14, Marktstraße 14,
 Kalthofweg 4 oder Zum Oberhof 32.
