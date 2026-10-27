@@ -80,21 +80,56 @@ Arbeitskopie.
   gelten nicht als gelöst. Sie sind kein Beleg, dass die aktuelle
   Betreiber-Ankaufsseite geschlossen oder falsch ist.
 
-## Validierung und Freigabegrenze
+## Validierung und Pre-Deploy-Freigabe
 
-- Der vollständige Workspace-Test auf dem korrigierten Seed bestand: 778
-  bestanden, 11 ignoriert, 0 fehlgeschlagen. Der fokussierte Seed-Test bestand
-  mit 14/14; `cargo fmt --all -- --check` und `git diff --check` waren sauber.
-- Release-Build aus dem korrigierten Kandidatenbaum war erfolgreich. Vorläufige
-  SHA-256 Server `a47b0e461817cee86b01f9bebf9a87d7f52a86161e3306e0fd379722c4ac4eaf`,
-  Query-Worker `8fc6429aeb55c4f83b2616d2fd3eb226118abcd8833d231658bd0289110ac67e`.
-  Der Server wird nach dem Commit noch einmal gebaut, damit Probe und Binärdatei
-  an genau den veröffentlichten Commit gebunden sind. Die private
-  Upgrade-/Datenübergangsprobe mit diesem Seed steht noch aus; das vorherige
-  Probe-Manifest gehört zum älteren Seedstand `7a431dcb` und ersetzt sie nicht.
-- Bis dieser neue Probe-Lauf erfolgreich und an den veröffentlichten Commit
-  gebunden ist, bleibt das Pre-Deploy-Gate offen. Kein Produktions-Write,
-  Force-Ingest, Service-Neustart oder Deployment wurde ausgeführt.
+- Vier unabhängige Quellenreviews deckten die 323 strukturell geänderten
+  Bestandszeilen und die 43 Seed-only-Slugs ab. Die acht beanstandeten
+  Bestandsfelder wurden ownerseitig dispositioniert. Die drei Findings zu den
+  neuen Filialen/Betrieben wurden geklärt: Augsburg/Aachen behalten den
+  aktiven Filialstatus, ihre falschen Samstagszeiten sind entfernt; AVB Becks
+  unabhängiges Zertifikat stützt den aktuellen Fahrzeugverwertungsbetrieb.
+  Neun Fälle mit unzureichender Beleglage bleiben konservativ, ohne daraus
+  Falschheit oder Schließung abzuleiten.
+- Der vollständige Workspace-Test auf dem korrigierten Code-/Seedstand bestand:
+  778 bestanden, 11 ignoriert, 0 fehlgeschlagen. Der fokussierte Seed-Test auf
+  dem veröffentlichten Commit bestand mit 14/14. `cargo fmt --all -- --check`
+  und `git diff --check` waren sauber.
+- Code-/Seed-Commit `6b3da663f845d7527e284b8b075f3467935e5cd9` wurde regulär nach
+  `origin/main` gepusht. Der exakte Release-Build dieses Commits bestand.
+  SHA-256 Server:
+  `a47b0e461817cee86b01f9bebf9a87d7f52a86161e3306e0fd379722c4ac4eaf`;
+  Query-Worker:
+  `8fc6429aeb55c4f83b2616d2fd3eb226118abcd8833d231658bd0289110ac67e`.
+- Die private Release-Probe verwendete WAL-sichere SQLite-Backups aus
+  `mode=ro`-Quellen, ausschließlich private Kopien und exakt diese Binaries.
+  Sie migrierte Schema v6→v9: 3.893→3.936 Händler (43 Inserts, keine Deletes).
+  Alle 83 Material- und 31.080 Preiszeilen blieben inhaltlich unverändert;
+  `trader_materials` blieb bei 1.402 Zeilen. `integrity_check=ok`, die 24 bereits
+  vorhandenen FK-Verletzungen blieben 24, kein Current-Zeiger ohne Preiszeile.
+  Die 56 entfernten
+  Current-Zeiger sind vollständig zugeordnet: 24 eingestellte Heraeus-Kurse und
+  32 veraltete Wahl-&-Co.-Kurse; Preis-Historienzeilen blieben unverändert.
+  Fünf Heraeus-Annahmen wurden auf `accepts=0` gesetzt.
+- Der fachliche Vergleich zählte 323 geänderte Bestandszeilen mit 1.025
+  Änderungen in strukturierten Feldern (ohne `notes`, `extra_json` und
+  Zeitstempel). Zusätzlich änderten sich `notes` und `extra_json` jeweils bei
+  1.280 Bestandszeilen. Alle 1.280 alten Notizen blieben vollständig und
+  geordnet erhalten: 1.266 als Teilstrings, 14 als reine Einfügungs-
+  Teilsequenzen; kein alter Text wurde gelöscht oder ersetzt. Alle
+  `extra_json`-Änderungen betrafen ausschließlich Seed-Metadaten.
+- Private Assertions bestätigten die Korrekturen für Fritsch, Elma, RoVa, RVE,
+  Wismar, Tamm, Bochum/Wattenscheid, Rochlitz, Schopsdorf, Gerhardshofen,
+  Augsburg und Aachen. Der Query-Worker las 12 Zielzeilen. Zwei private
+  Serverstarts lieferten `/health` HTTP 200; Seed meldete 1.323 Writes und beim
+  zweiten Start 0. Beide Prozesse endeten deutlich vor dem 15-Sekunden-
+  Schedulerstart; es lief kein Scrape. Das vollständige Manifest liegt unter
+  `/tmp/opencode/release-rehearsal-6b3da663-20261027T023523Z/manifest.json`.
+- Damit ist die **Pre-Deploy-Freigabe für exakt den Code-/Seed-Commit
+  `6b3da663f845d7527e284b8b075f3467935e5cd9` und die oben gehashten
+  Release-Binaries grün**. Das ist keine Produktionskorrektur: ein regulärer
+  Rollout, normaler Schedulerlauf und anschließender read-only Produktions-
+  sowie Post-Rollout-Nachweis stehen noch aus. Bis zu diesem Bericht gab es
+  keinen Produktions-Write, Force-Ingest, Service-Neustart oder Deployment.
 
 ## Frischer read-only Check-in, 27.10.2026 02:32 UTC
 
@@ -118,9 +153,8 @@ Arbeitskopie.
   alten Punkt 50.86395/12.08895 und die alte Telefonnummer; RVE den alten Punkt
   49.2516/6.8587 sowie `dropoff_json={"allowed":true}`. Wismar enthält weiter
   den falschen Punkt 53.88925/11.44455, und Tamm den alten, mehrere Kilometer
-  entfernten Punkt 51.259513/7.164909. Die Seedkorrekturen bleiben bis zur
-  abgeschlossenen Gate-Prüfung private Arbeitsdaten. Es gab keinen direkten
+  entfernten Punkt 51.259513/7.164909. Die Seedkorrekturen bleiben bis zum
+  regulären Rollout private Arbeitsdaten. Es gab keinen direkten
   Produktions-DB-Schreibzugriff.
-- Freier Speicher: 46 GiB auf `/`, 1.0 GiB auf `/tmp`; ausreichend für die
-  privaten Backups/Probe. Nach Commit werden exakte Release-Binaries gebaut und
-  der Upgrade-Lauf ausschließlich auf WAL-sicheren privaten Kopien ausgeführt.
+- Freier Speicher vor der Probe: 46 GiB auf `/`, 1.0 GiB auf `/tmp`; ausreichend
+  für die privaten Backups/Probe.
