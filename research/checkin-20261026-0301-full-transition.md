@@ -404,3 +404,51 @@ Produktions- und Seedstand und ihre Zahlen sind nicht auf diese Probe
   Anlieferung und ist keine Produktions- oder Rollout-Freigabe. Der aggregierte
   Zähler bleibt bis zur erneuten vollständigen privaten Übergangsprobe
   unverändert; das Pre-Deploy-Gate ist offen.
+
+## Owner-Follow-up: erneute private Übergangsprobe für Commit 8157c8c3, 27.10.2026 01:02 UTC
+
+- Die vorherige Zählung **294 offene strukturelle Zeilen** bezog sich auf den
+  damaligen Seedstand. Für den jetzt gepushten Stand `8157c8c3c861af50533a7099978ae1e41b9d2af9`
+  wurde um 01:02:29 UTC eine neue SQLite-Backupkopie von `public.db` mit
+  `sqlite3 -readonly` und `.backup` erstellt. Backup-SHA-256:
+  `b49c8dc048dc9390a87889d8d3ff8d3c7bfc5c710adfe5fb999edb8f3b890068`.
+  Ausgangsschema v6, 3.893 Händler, 83 Materialien, 31.034 Preise, 2.715
+  Current-Zeiger und 1.402 `trader_materials`.
+- Ein temporärer Seed-Harness rief ausschließlich auf der privaten Arbeitskopie
+  `PublicDb::open` (Migration v6→v9) und `seed_metadata` auf. Eine zweite
+  `seed_traders`-Anwendung schrieb **0** Zeilen. Ergebnis: 3.936 Händler
+  (**43 Inserts, 0 entfernte Slugs**), 83 Materialien, 31.034 Preiszeilen,
+  2.659 Current-Zeiger und 1.402 `trader_materials`. **1.280** bestehende
+  Händlerzeilen änderten sich insgesamt; **324** davon änderten mindestens ein
+  strukturelles Feld außerhalb von `notes`, `extra_json` und `updated_at`.
+  Feldzählung: `status` 90, `name` 26, `street` 97, `postcode` 77, `phone` 68,
+  `email` 33, `website` 47, `description` 75, `website_status` 58,
+  `lat`/`lon` je 184, `dropoff_json` 34, `opening_hours` 28, `pickup_json` 4,
+  `city` 19 und `trader_type` 11. Die alte Zahl 294 ist damit überholt. Die
+  fachliche Einzelfalldisposition der aktuellen 324er-Menge und ihre Abgrenzung
+  zu früher disponierten Fällen ist noch offen; es wird kein verbleibender
+  Restzähler durch blindes Subtrahieren behauptet.
+- Der private Stand bestand `PRAGMA integrity_check=ok`; die 24 bereits in der
+  Baseline vorhandenen `foreign_key_check`-Verletzungen blieben 24, und es gab
+  keine aktuellen Preiszeiger ohne Preiszeile. Der temporäre Harness wurde nach
+  dem Lauf aus dem Worktree entfernt. Probe-Artefakte/Hashes liegen außerhalb
+  des Repos unter `/tmp/opencode/checkin-20261027-0100-transition-8157c8c3/`.
+- Die konkrete Seedwirkung wurde gegen die Produktions-Ausgangszeilen separat
+  geprüft: Fritsch wird in der privaten Kopie zu Oeger Str. 63 / 58119 Hagen,
+  `aktiv`, **51.34597/7.5837325**. Elmas falscher Bank-Pin und alte
+  Telefonnummer werden gelöscht; RoVa PaX’ Pin zur falschen Straße/PLZ und
+  Telefon werden gelöscht; bei RVE werden Rathausplatz-Pin und unbelegte
+  `dropoff_json={"allowed":true}`-Zusage entfernt. Alle drei bleiben `pruefung`,
+  ohne Ersatzkoordinate. Diese Probe bestätigt die Seedwirkung, nicht die
+  Produktionsübernahme.
+- Eine anschließende read-only Produktionsabfrage bestätigte, dass die alten
+  Werte unverändert sind: Fritsch **51.90933/7.88825**, Elma **50.0167/10.4667**,
+  RoVa PaX **50.86395/12.08895**, RVE **49.2516/6.8587** samt
+  `dropoff_json={"allowed":true}`. Es gab keinen Produktionswrite, Deploy,
+  Force-Ingest oder Dienstneustart.
+- Das aktualisierte Übergangsmodell ist ein konkreter technischer Fortschritt,
+  aber keine Pre-Deploy-Freigabe: Die aktuelle strukturelle 324er-Menge ist
+  nicht vollständig quellengeprüft/disponiert; Source-/Seed-Audit, nötiges
+  unabhängiges Review und Bindung an exakt geprüfte Release-Binaries bleiben
+  offen. Die Livekorrekturen werden nach Abschluss dieser Gates über den
+  regulären Rollout weiterverfolgt.
