@@ -158,3 +158,84 @@ Arbeitskopie.
   Produktions-DB-Schreibzugriff.
 - Freier Speicher vor der Probe: 46 GiB auf `/`, 1.0 GiB auf `/tmp`; ausreichend
   für die privaten Backups/Probe.
+
+## Regulärer Rollout und Post-Rollout-Abgleich, 27.10.2026
+
+### Rollout nach grüner Pre-Deploy-Freigabe
+
+- Der freigegebene Seed-/Code-Commit `6b3da663f845d7527e284b8b075f3467935e5cd9`
+  wurde am 27.10.2026 um **02:43:15 UTC** regulär installiert; `66bb43ff`
+  enthielt danach nur den Freigabebericht, keine Seed-/Codeänderung. Die
+  Produktionsdateien entsprechen den geprüften SHA-256-Werten aus dem
+  Freigabeabschnitt. Das Backup bleibt unter
+  `/root/Documents/schrott-mcp-rollout-backups/rollout-6b3da663-20261027T024237Z/`
+  erhalten; `manifest.json` enthält Backup- und Installationsnachweise.
+- `schrott-mcp.service` ist aktiv (PID 2195036, Start 02:43:15 UTC),
+  `/health` liefert HTTP 200. Das Schema ist v9; read-only gezählt wurden
+  3.936 Händler, 83 Materialien und 2.659 aktuelle Preiszeiger.
+- Der Boot-Seed meldete 1.323 Writes. Der natürliche Scheduler-Lauf #2869
+  endete um 02:43:32 UTC mit `ok`, 0 Preisen und 0 Händlerfehlern. Es gab
+  keinen Force-Ingest und keinen direkten Produktions-DB-Schreibzugriff.
+- Read-only bestätigt: Fritschs Adresse/Telefon/Punkt sind korrigiert; Elma,
+  RoVa und RVE haben keine falschen Koordinaten mehr; RVE hat außerdem leere
+  Annahmebedingungen. Der RWE/ALBA-Nord-Slug in Wismar hat keinen Punkt mehr,
+  Tamm den geprüften Punkt 51.2247867/7.2141755, Bochum Plus leere
+  Beschreibung/Abholung und `pruefung`, Rochlitz leere Straße/PLZ und Brameier
+  `pruefung`. Augsburg/Aachen sind aktiv und haben werktägliche Zeiten ohne
+  falsche Samstagsöffnung. Diese Einzelwerte sind keine Aussage, dass alle
+  Post-Rollout-Gates bestanden sind.
+
+### Weitere bestätigte falsche GEO-Punkte, Kandidatenkorrektur noch nicht ausgerollt
+
+- Der separate Wismar-Datensatz `mv-wismar-alba-metall-nord` enthält weiterhin
+  53.8895333/11.4386667. Nominatim löst den Punkt als Gebäude Am Schwedenstein
+  13, Wismar 23966 auf, nicht als Tonnenhofstraße 12, 23970. Die Dossierhistorie
+  belegt keine aktuell eigenständige ALBA-Metall-Nord-Annahmestelle und keinen
+  exakten Ersatzpunkt. `clear_fields: geo` wurde ergänzt; Name, Status und
+  Sibling-Zuordnung bleiben unangetastet. Kein Merge und keine Schließung
+  behauptet.
+- `nw-bochum-wattenscheid-schrotthandler-plus` enthält 51.4740889/7.2192389;
+  Nominatim löst das als Wohngebäude Taubenstraße 5, Bochum 44789 auf. Für den
+  mobilen Anbieter ist dort kein Hof belegt. `geo` ist zusammen mit den bereits
+  zurückgenommenen Claims in `clear_fields` aufgenommen; kein Ersatzpunkt.
+- Beide Korrekturen stehen nur in den aktuellen Dossiers/Seeds. Sie sind nicht
+  im ausgerollten Commit enthalten und wurden nicht in Produktion geschrieben.
+  Gezielte Tests: Seed-Trader 11/11, Build-Codegen 10/10; generierte Seeds
+  enthalten die erwarteten Clear-Direktiven. Vor einem späteren Rollout braucht
+  der geänderte exakte Stand erneut die vollständige Pre-Deploy-Freigabe.
+
+### Post-Rollout-Verifier: rot, daher kein Erfolgsabschluss
+
+Alle drei Skripte wurden read-only mit tatsächlicher Rollout-Grenze
+`2026-10-27T02:43:15Z` ausgeführt. Wegen der roten Resultate wird der Rollout
+nicht als vollständig erfolgreich gemeldet; weitere Produktionsänderungen
+unterbleiben.
+
+- `verify-mkm-release.py`: **rot**, 60 Artikel, 55 numerische Preise, 5
+  Anfragen, 55 aktuelle Preise. Findings: Quote/Request-Partition 55/5 statt
+  56/5, Manifest-Scope/Freshness, Quote-Provenienz/Datum/Freshness,
+  geprüfte 61-Artikel-Partition und erfolgreicher 56-Preis-Post-Rollout-Step
+  fehlen. Im Fenster seit dem Rollout gibt es keinen MKM-Step; #2869 war kein
+  MKM-Lauf. Kein Handler wurde manuell ausgelöst.
+- `verify-pending-corrections.py`: **rot**, 124 MSG-verwaltete Quotes. Findings:
+  Gutzmann-Adresse falsch; MSG-Quelle/Freshness; fehlender Clearwert- oder
+  Post-Rollout-Seednachweis für Hamburger Schrotthandel Prüffall, Reinhard
+  Peters und F. Weber; erfolgreicher Post-Rollout-Step fehlt für MSG und
+  Gutzmann. Im Fenster nach dem Rollout liegt kein Step dieser beiden Handler.
+- `verify-wave-e-postrollout.py`: **rot**, 60/60 Slugs geprüft, 75 Findings:
+  50 Timeline-Hash-Abweichungen, 20 fehlende `updated_at`-Zeitstempel nach dem
+  Rollout, vier Straßen-/PLZ-Zielabweichungen sowie eine
+  Beschreibungsabweichung. Die Zielabweichungen betreffen Bochum Plus,
+  Autoverwertung Volz, Containerdienst Kaminski & Sohn und Entsorgung Bernd
+  Zauritz. Sie bleiben zu prüfen; es wird kein korrektes Ergebnis aus dem roten
+  Gate abgeleitet. Der Verifier validiert selbst weder GEO noch Quellen.
+
+### Check-in-Health und Feedback
+
+- Feedback endet bei ID 7390 vom 13.10.2026; kein neueres Feedback. Die Tabelle
+  hat kein Triage-Statusfeld. `journalctl -p warning` blieb in den letzten sechs
+  Stunden leer. Sechs ältere App-JSON-WARNs in diesem Fenster betreffen
+  Wirkaufendeingold (Tageskursreferenzen), Wahl & Co (Sortenpreisliste), A-Z
+  Recycling (verdächtige Preisleiter verworfen), AMR (HTTP 502), MKM (ungültiger
+  Source Contract) und VHM (Requestfehler); keine App-WARN nach dem Rollout.
+- Keine neuere Geocoding-Logdatei unter `/tmp/opencode/*.log` gefunden.

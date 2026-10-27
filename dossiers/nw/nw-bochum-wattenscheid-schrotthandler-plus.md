@@ -15,7 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'description,pickup_json'
+clear_fields: 'description,geo,pickup_json'
 provenance_section: Neu, mobile Ankauf-/Abholwerbung auf Betreiberseite; Mindestmenge/Kosten im Einzelfall prüfen
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
@@ -34,6 +34,10 @@ Der aktuelle Betreiberauftritt ist direkt erreichbar und nennt im Impressum Issa
 ### Owner-Korrektur 27.10.2026: mobile Ankauf-/Abholclaims zurückgestellt
 
 - [Korrektur 27.10.2026: Die aktuelle Betreiberseite bewirbt mobilen Schrottankauf und Abholung in Bochum einschließlich Wattenscheid; die Seiten sind erreichbar, daher bleibt `website_status: aktiv`. Die Zuordnung des unregistrierten Angebots zu einer unabhängig bestätigten aktuellen Rechtsträger-/Betreiberidentität ist trotz undatiertem, selbstgeführtem XING-Profil nicht ausreichend belegt. Deshalb `status: pruefung`, Beschreibung und strukturiertes `pickup_json` zurückgenommen; dies behauptet weder Geschäftsaufgabe noch, dass das Betreiberangebot falsch ist. Kontaktangaben und Website bleiben als Angaben des erreichbaren Betreiberauftritts dokumentiert. Keine stationäre Annahmeadresse oder GEO ergänzt. Quellen: https://www.schrotthaendler-plus.de/impressum/ ; https://www.schrotthaendler-plus.de/schrottabholung-bochum/ ; https://www.schrotthaendler-plus.de/schrottankauf-bochum/ ; https://www.xing.com/profile/issam_ellahib ; README.md, Quellenhierarchie.]
+
+### Owner-GEO-Korrektur 27.10.2026
+
+- [Owner-GEO-Korrektur 27.10.2026: Der read-only Produktionsdatensatz enthielt 51.4740889/7.2192389. Nominatim-Reverse löst den Punkt als Wohngebäude Taubenstraße 5, Bochum-Ehrenfeld, PLZ 44789 auf. Keine der dokumentierten Adressspuren für Schrotthändler Plus belegt diesen Standort; der aktuelle Betreiberauftritt belegt mobile Abholung, aber keinen Hof. `clear_fields: 'description,geo,pickup_json'` zieht den falschen Standortpunkt zusätzlich zu den zuvor zurückgenommenen Claims beim regulären Seed zurück. Keine Ersatzkoordinate, keine Annahmeadresse geraten, kein Schließungsurteil und keine Produktionsänderung. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.4740888888889&lon=7.21923888888889&zoom=18&addressdetails=1 ; read-only `public.db` (27.10.2026); `docs/trader-seed.md`.]
 
 ### Recherche 26.10.2026: Ankauf und Mitnahme
 
