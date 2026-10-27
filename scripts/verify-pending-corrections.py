@@ -5,8 +5,12 @@ Run AFTER coordinated rollout and regular scheduler phases. This is not proof
 of trigger type, all handler coverage, all dossier facts, or source-to-material
 mapping. Pair with reviewed source inventory and deployment journal. No ingestion
 runs. The databases are sampled independently, not a cross-database snapshot.
+Seed rows are checked against fingerprints from the exact deployed release's
+private rehearsal; updated_at alone is not seed evidence because unchanged rows
+are deliberately skipped and retain their earlier timestamps.
 """
 import argparse
+import hashlib
 import json
 import math
 import re
@@ -25,6 +29,12 @@ CLEARS = {
     "nw-leichlingen-muller": ("phone",),
 }
 PORTAL = "nw-nrw-weit-schrott24-metaloop-online-portal"
+SEED_EXPECTATIONS = Path(__file__).with_name(
+    "pending-corrections-6b3da663-seed-expectations.json"
+)
+SEED_RELEASE_COMMIT = "6b3da663f845d7527e284b8b075f3467935e5cd9"
+SEED_RELEASE_TREE = "324d206f1391ad9e18e4c126896414de1f59d097"
+SEED_REHEARSAL_MANIFEST_SHA256 = "6ad33e7983a19f7fd480c965decdc99a9be30442c4998827fc4f89e30cf1f8d2"
 
 
 def connect(path):
@@ -34,10 +44,53 @@ def connect(path):
     return db
 
 
-def verify(public, internal, since):
+def load_seed_expectations():
+    expectations = json.loads(SEED_EXPECTATIONS.read_text())
+    expected_slugs = set(CLEARS) | {GOTHA}
+    if not isinstance(expectations, dict):
+        raise ValueError("seed expectation manifest must be an object")
+    rows = expectations.get("traders")
+    if (not isinstance(rows, dict)
+            or expectations.get("release_commit") != SEED_RELEASE_COMMIT
+            or expectations.get("release_tree") != SEED_RELEASE_TREE
+            or expectations.get("rehearsal_manifest_sha256") != SEED_REHEARSAL_MANIFEST_SHA256
+            or set(rows) != expected_slugs):
+        raise ValueError("seed expectation manifest does not match reviewed release")
+    for slug, row in rows.items():
+        if not isinstance(row, dict):
+            raise ValueError("invalid seed expectation for " + slug)
+        seed_hash = row.get("seed_hash")
+        notes_hash = row.get("notes_sha256")
+        if (not isinstance(seed_hash, str)
+                or not re.fullmatch(r"[0-9a-f]{16}", seed_hash)
+                or not isinstance(notes_hash, str)
+                or not re.fullmatch(r"[0-9a-f]{64}", notes_hash)):
+            raise ValueError("invalid seed expectation for " + slug)
+    return rows
+
+
+def has_release_seed_state(row, expected):
+    try:
+        extra = json.loads(row["extra_json"])
+    except (TypeError, ValueError):
+        return False, False
+    if not isinstance(extra, dict):
+        return False, False
+    seed_hash_matches = extra.get("seed_hash") == expected["seed_hash"]
+    notes = row["notes"]
+    notes_hash_matches = (
+        isinstance(notes, str)
+        and hashlib.sha256(notes.encode()).hexdigest() == expected["notes_sha256"]
+    )
+    return seed_hash_matches, notes_hash_matches
+
+
+def verify(public, internal, since, seed_expectations=None):
     if public.execute("SELECT julianday(?)", (since,)).fetchone()[0] is None:
         raise ValueError("invalid rollout timestamp")
     failures = []
+    if seed_expectations is None:
+        seed_expectations = load_seed_expectations()
 
     def fresh(timestamp):
         return public.execute("SELECT julianday(?)>=julianday(?)", (timestamp, since)).fetchone()[0] == 1
@@ -49,8 +102,11 @@ def verify(public, internal, since):
         else:
             if any(row[field] != "" for field in fields):
                 failures.append(f"{slug}: clear values not cleared")
-            if not fresh(row["updated_at"]):
-                failures.append(f"{slug}: post-rollout seed evidence missing")
+            seed_hash_matches, notes_hash_matches = has_release_seed_state(row, seed_expectations[slug])
+            if not seed_hash_matches:
+                failures.append(f"{slug}: reviewed release seed hash mismatch")
+            if not notes_hash_matches:
+                failures.append(f"{slug}: reviewed release seed notes mismatch")
     portal = public.execute("SELECT * FROM traders WHERE slug=?", (PORTAL,)).fetchone()
     if portal is None or not fresh(portal["updated_at"]):
         failures.append("Schrott24: missing post-rollout trader")
@@ -68,8 +124,11 @@ def verify(public, internal, since):
     else:
         if (gotha["street"], gotha["postcode"], gotha["city"]) != ("An der Ostbahn 4", "99867", "Gotha"):
             failures.append("Gutzmann: branch address incorrect")
-        if not fresh(gotha["updated_at"]):
-            failures.append("Gutzmann: post-rollout seed evidence missing")
+        seed_hash_matches, notes_hash_matches = has_release_seed_state(gotha, seed_expectations[GOTHA])
+        if not seed_hash_matches:
+            failures.append("Gutzmann: reviewed release seed hash mismatch")
+        if not notes_hash_matches:
+            failures.append("Gutzmann: reviewed release seed notes mismatch")
 
     for slug, count in ((GOTHA, 19), (MSG, 124)):
         step = internal.execute(
@@ -122,7 +181,9 @@ def verify(public, internal, since):
             failures.append("MSG: unsupported publication date")
     if managed != 124:
         failures.append(f"MSG: {managed} managed quotes instead of reviewed 124")
-    return {"ok": not failures, "msg_managed_count": managed, "failures": sorted(set(failures))}
+    return {"ok": not failures, "msg_managed_count": managed,
+            "seed_expectations_commit": SEED_RELEASE_COMMIT,
+            "failures": sorted(set(failures))}
 
 
 def main():

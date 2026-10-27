@@ -495,3 +495,75 @@ unterbleiben.
   Zeitstempel je Händler die tatsächliche Seed-Anwendung belegen. Bis dahin
   Wave E weder grün nennen noch aus den 75 Findings 75 bestätigte Fehler in
   Produktionsdaten ableiten. Keine Produktionsänderung.
+
+## Read-only-Nachlauf und Gate-Reconciliation, 27.10.2026 05:00 UTC
+
+- `main` und `origin/main` standen auf `6f5db279`; der Credential-Helper-Dry-Run
+  war erfolgreich. Dienst aktiv, `/health` HTTP 200. Read-only: Schema v9,
+  3.936 Händler, 83 Materialien, 2.659 aktuelle Preiszeiger. Feedback endet bei
+  ID 7390 vom 13.10.; kein neueres Feedback.
+- Die natürlichen Läufe #2877 (04:44, 109 Preise) und #2878 (04:59, 284 Preise)
+  endeten `ok` ohne Händlerfehler. Seit dem Rollout gab es weiterhin keinen
+  MKM- oder Gutzmann-Step; MSG #14281 (04:14) bleibt `ok` mit 124 Preisen. Der
+  nächste MKM-Phasenzeitpunkt liegt ungefähr bei 05:16:59 UTC, tatsächliche
+  Ausführung erst beim folgenden regulären Scheduler-Poll. Gutzmann ist ungefähr
+  ab 07:57:46 UTC fällig. Keine Handler manuell gestartet.
+- `journalctl -p warning` bleibt leer; sechs App-JSON-WARNs im Sechs-Stunden-
+  Fenster, zuletzt A-Zs verworfene Preisleiter und AMRs HTTP 502 aus #2875.
+  Keine neuere Geocoding-Logdatei als vom 25.10.2026.
+- Produktion enthält weiterhin die drei bestätigten falschen GEO-Punkte:
+  Wismar `53.8895333/11.4386667`, Bochum Plus `51.4740889/7.2192389` und SMS
+  Sterns `51.0501/12.7975`. Die private Seed-Probe des Korrekturstands
+  `0b2d551e` enthält bei allen drei Zeilen leere Koordinaten und die belegten
+  übrigen Felder. Das ist kein Produktionsnachweis; keine direkte DB-Änderung
+  und kein Deployment.
+
+### Wave E: exakter Seed-Zustand des ausgerollten Commits
+
+- Drei disjunkte read-only-Reconciliations verglichen je 20 Wave-E-Zeilen in
+  Produktion mit der privaten Seed-Probe für Commit
+  `6b3da663f845d7527e284b8b075f3467935e5cd9`, Tree
+  `324d206f1391ad9e18e4c126896414de1f59d097`. Alle 60 Händler sind eindeutig
+  vorhanden; 660/660 skalare Vergleiche, 60/60 vollständige Timeline-Texte samt
+  SHA-256 und 60/60 `extra_json.seed_hash`-Werte stimmen überein.
+- 40 Zeilen haben `updated_at` nach Rollout, 20 davor. Bei allen 20 älteren
+  Zeitstempeln stimmen Produktion und exakte Seed-Probe dennoch auf Skalarwerten,
+  vollständigen Notizen und Seed-Fingerprint überein. Der Seed überspringt
+  unveränderte Zeilen; der alte Zeitstempel allein beweist keinen Seed-Drift.
+  Die Prüfung bestätigt Zustand, nicht Quellenrichtigkeit oder Betreiberfakten.
+- Der historische Verifier bleibt unverändert rot: seine 5 skalaren Ziele und
+  50 Notiz-Hashes stammen aus dem 11.-Oktober-Manifest; hinzu kommen 20 reine
+  Zeitstempelbefunde. Das Manifest wurde nicht überschrieben und der historische
+  Verifier nicht als grün gewertet. Es gab keine Produktionsänderung.
+
+### Pending-Corrections: falsche Freshness-Annahme korrigiert
+
+- Die sechs vom Pending-Corrections-Gate geprüften Seed-Zeilen (fünf Clear-Fälle
+  und Gutzmann) stimmen in den relevanten Werten, vollständigen Notizen und
+  `seed_hash` mit der exakten privaten `6b3da663`-Seed-Probe überein. Für die
+  vier Zeilen mit altem `updated_at` ist der Inhalt in Produktion und Probe
+  identisch. Das Produktionsjournal belegt den regulären Boot-Seed um 02:43:17
+  mit 1.323 geschriebenen Zeilen; der nächste Seed-Poll um 02:43:32 schrieb 0.
+- `scripts/verify-pending-corrections.py` verwendet für diese Zeilen nun
+  versionsgebundene Seed-Fingerprints plus SHA-256 der vollständigen Notizen
+  statt `updated_at` als alleinigen Seed-Nachweis. Die Erwartungsdatei ist an
+  Commit, Tree und SHA-256 des privaten Rehearsal-Manifests gebunden. Falsche
+  Fingerprints und veränderte Notizen bleiben rot; MSG-/Gutzmann-Handler- und
+  Preis-Freshness-Prüfungen bleiben bestehen.
+- Nach dieser read-only-Verifierkorrektur ist das Pending-Gate weiterhin rot,
+  jetzt nur wegen des fehlenden erfolgreichen Gutzmann-Schritts nach dem
+  Rollout. Der adressierte Wert ist korrekt; auf die natürliche Phase warten,
+  nicht manuell auslösen. Kein Produktionsdatenbankzugriff zum Schreiben.
+- Tests: alle 43 Python-Verifier-Tests, davon 9 Pending-Corrections-Tests,
+  bestanden; `cargo test -p schrott-mcp-ingestion seed` bestand 14/14;
+  `cargo fmt --all -- --check`, JSON- und Diff-Prüfung bestanden.
+
+### Verbleibendes Rollout-Gate
+
+- `verify-mkm-release.py` bleibt rot: 60 Artikel, 55 numerische Preise, fünf
+  Anfragen und 55 Current statt des geprüften 61/56/5/56-Vertrags; kein MKM-Step
+  nach dem Rollout. Die neue Runde #2878 enthielt ebenfalls keinen MKM-Lauf.
+  Den regulären fälligen Lauf abwarten und danach erneut read-only prüfen.
+- Die drei Post-Rollout-Prüfungen autorisieren weiterhin kein neues Deployment.
+  Kein Force-Ingest, keine manuelle Handler-Ausführung, kein direkter
+  Produktions-DB-Write und kein Dienstneustart.

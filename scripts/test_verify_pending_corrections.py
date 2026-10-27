@@ -1,8 +1,8 @@
 """Offline SQLite contract tests; these fixtures are not rollout evidence."""
+import hashlib
 import importlib.util
 import json
 import sqlite3
-import subprocess
 import sys
 import tempfile
 import unittest
@@ -28,7 +28,8 @@ class PendingCorrectionTests(unittest.TestCase):
         self.public.executescript("""
             CREATE TABLE traders (id INTEGER PRIMARY KEY, slug TEXT, phone TEXT DEFAULT '',
                 website TEXT DEFAULT '', updated_at TEXT, dropoff_json TEXT DEFAULT '{}',
-                pickup_json TEXT DEFAULT '{}', street TEXT, postcode TEXT, city TEXT);
+                pickup_json TEXT DEFAULT '{}', street TEXT, postcode TEXT, city TEXT,
+                notes TEXT DEFAULT '', extra_json TEXT DEFAULT '{}');
             CREATE TABLE materials (id INTEGER PRIMARY KEY, slug TEXT, unit TEXT);
             CREATE TABLE prices (id INTEGER PRIMARY KEY, material_id INTEGER, variant TEXT,
                 extra_json TEXT, price_kind TEXT, confidence REAL, price REAL, unit TEXT,
@@ -44,9 +45,25 @@ class PendingCorrectionTests(unittest.TestCase):
             CREATE TABLE raw_fetches (run_id INTEGER, scraper TEXT, url TEXT,
                 status_code INTEGER, byte_len INTEGER);
         """)
+        release_expectations = VERIFIER.load_seed_expectations()
+        self.seed_expectations = {}
         for slug in (*VERIFIER.CLEARS, VERIFIER.PORTAL, VERIFIER.GOTHA, VERIFIER.MSG):
-            self.public.execute("INSERT INTO traders(slug,updated_at) VALUES (?,?)", (slug, SINCE))
-        self.public.execute("UPDATE traders SET street='An der Ostbahn 4',postcode='99867',city='Gotha' WHERE slug=?", (VERIFIER.GOTHA,))
+            expected = release_expectations.get(slug)
+            extra = {} if expected is None else {"seed_hash": expected["seed_hash"]}
+            notes = "" if expected is None else "release seed notes"
+            if expected is not None:
+                self.seed_expectations[slug] = {
+                    "seed_hash": expected["seed_hash"],
+                    "notes_sha256": hashlib.sha256(notes.encode()).hexdigest(),
+                }
+            self.public.execute(
+                "INSERT INTO traders(slug,updated_at,notes,extra_json) VALUES (?,?,?,?)",
+                (slug, SINCE, notes, json.dumps(extra)),
+            )
+        self.public.execute(
+            "UPDATE traders SET street='An der Ostbahn 4',postcode='99867',city='Gotha' WHERE slug=?",
+            (VERIFIER.GOTHA,),
+        )
         trader_id = self.public.execute("SELECT id FROM traders WHERE slug=?", (VERIFIER.MSG,)).fetchone()[0]
         for ident in range(1, 125):
             extra = {"snapshot_owner": "msg-visible-tiers-v1", "source_title": f"Grade {ident}",
@@ -65,10 +82,14 @@ class PendingCorrectionTests(unittest.TestCase):
         self.internal.commit()
 
     def verify(self):
-        result = subprocess.run([sys.executable, str(SCRIPT), "--since", SINCE,
-                                 "--data-dir", str(self.directory)], capture_output=True, text=True)
-        self.assertTrue(result.stdout, result.stderr)
-        return result.returncode, json.loads(result.stdout)
+        public = VERIFIER.connect(self.directory / "public.db")
+        internal = VERIFIER.connect(self.directory / "internal.db")
+        try:
+            result = VERIFIER.verify(public, internal, SINCE, self.seed_expectations)
+        finally:
+            public.close()
+            internal.close()
+        return (0 if result["ok"] else 1), result
 
     def test_green_fixture_preserves_database_bytes_and_readonly_enforced(self):
         paths = [self.directory / name for name in ("public.db", "internal.db")]
@@ -93,19 +114,31 @@ class PendingCorrectionTests(unittest.TestCase):
         self.assertIn("Schrott24: pickup_json is not an explicit empty object", result["failures"])
 
     def test_stale_seed_quotes_and_step_fail(self):
-        self.public.execute("UPDATE traders SET updated_at='2020-01-01'")
+        for slug in (*VERIFIER.CLEARS, VERIFIER.GOTHA):
+            self.public.execute("UPDATE traders SET updated_at='2020-01-01' WHERE slug=?", (slug,))
         self.public.execute("UPDATE prices SET observed_at='2020-01-01'")
         self.internal.execute("UPDATE ingestion_steps SET started_at='2020-01-01'")
         self.public.commit()
         self.internal.commit()
         code, result = self.verify()
         self.assertEqual(code, 1)
-        self.assertIn("Gutzmann: post-rollout seed evidence missing", result["failures"])
+        self.assertFalse(any("reviewed release seed" in failure for failure in result["failures"]))
         self.assertNotIn("Gutzmann: branch address incorrect", result["failures"])
+
+    def test_release_seed_fingerprint_and_notes_are_required(self):
+        self.public.execute(
+            "UPDATE traders SET extra_json=? WHERE slug=?",
+            (json.dumps({"seed_hash": "0000000000000000"}), "hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg"),
+        )
+        self.public.execute("UPDATE traders SET notes='tampered' WHERE slug=?", (VERIFIER.GOTHA,))
+        self.public.commit()
+        code, result = self.verify()
+        self.assertEqual(code, 1)
         self.assertIn(
-            "hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg: post-rollout seed evidence missing",
+            "hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg: reviewed release seed hash mismatch",
             result["failures"],
         )
+        self.assertIn("Gutzmann: reviewed release seed notes mismatch", result["failures"])
 
     def test_fetch_error_wrong_provenance_and_latest_failed_step_fail(self):
         for update in ("UPDATE raw_fetches SET status_code=500", "UPDATE raw_fetches SET status_code=200,url='wrong'", "UPDATE ingestion_steps SET status='error'"):
