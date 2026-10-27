@@ -2,7 +2,7 @@
   "version": 1,
   "release_commit": "551c1103d1edd711a26967f34d20bb18d3fc20f9",
   "release_tree": "5608e1653d9d9eea1b017289bd651d5d9374087e",
-  "rehearsal_manifest_sha256": "866e6ff503d103b6fe887e4aebeab545bbacc50a7e186fd6253bb98fc0fd8b91",
+  "rehearsal_manifest_sha256": "9a1e4b9f41a796111f312d6a1c2a8cf5039fdcead7bb158455c7bbebfd25cf19",
   "historical_selection_sha256": "c1260bbc4c4ba1cc7c7f7e3e6fb09227a9a7ce9e935bbe75bb26dff533646f03",
   "fields": [
     "name",
@@ -18,7 +18,7 @@
     "website_status"
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
-  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for release 551c110 (/root/Documents/schrott-mcp/target/predeploy-551c1103), 2026-10-27. Values: the 11 explicit scalars of the preserved Wave E scope, the complete seeded Timeline notes hash and the stored seed_hash of each row. No production read, no GEO, source or deployment claim.",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for release 551c110 (target/predeploy-551c1103), 2026-10-27. Values: the 11 explicit scalars of the preserved Wave E scope, the complete seeded Timeline notes hash and the stored seed_hash of each row. No production read, no GEO, source or deployment claim.",
   "traders": [
     {
       "slug": "be-marzahn-hellersdorf-schrotthandel-achtert",
