@@ -1,4 +1,5 @@
-//! Hofmann Metall GmbH (Zwickau Hauptsitz + Chemnitz Betriebsteil):
+//! Hofmann Metall GmbH (Zwickau Hauptsitz + Chemnitz und Elstertrebnitz als
+//! Betriebsteile):
 //! KEINE eigenen Ankaufspreise auf der Site (verifiziert 28.09.2026).
 //! Die Homepage-Box "Marktpreise" zeigt AUSSCHLIESSLICH Fremddaten:
 //! Stahl Sorten 1-5 in EUR/t als "BDSV bundesweit" (mit Link auf die
@@ -7,8 +8,10 @@
 //! daher füllt dieser Handler wie `esh`/`quell` nur `trader_materials`
 //! aus der belegten Sorten-Übersicht (`/privat-kleingewerbekunden/`:
 //! 11 H2-Rubriken mit `toggler`-Sortenlabels) plus Kontakt.
-//! Eine Datei für beide Slugs: gleiche Seitenform (eine Annahmenseite,
-//! Kontaktblöcke gleicher Bauart). Kein Datum auf der Seite →
+//! Eine Datei für alle drei Slugs: gleiche Annahmeseite, aber die Kontaktblöcke
+//! der Standorte unterscheiden sich in der Bauart — Chemnitz liefert zwei `<p>`,
+//! Elstertrebnitz eine Adress-`<p>` plus Kontakttabelle; deshalb je Standort ein
+//! eigener Extraktor mit eigenem URL-Anker. Kein Datum auf der Seite →
 //! `published_at: None`. Belegte Nicht-Annahmen ("... wird von uns
 //! nicht angenommen!": Elektronikschrott, Weiße Ware, Autokarossen,
 //! Katalysatoren) werden als laut geskippte Labels dokumentiert —
@@ -25,7 +28,7 @@ pub const SLUG_ZWICKAU: &str = "sn-zwickau-hofmann-metall-hauptsitz";
 /// Betriebsteil Elstertrebnitz (eröffnet 13.08.2026, eigene Standortseite mit
 /// abweichender Kontaktform: Adress-<p> + Kontakttabelle statt zweier <p>).
 pub const SLUG_ELSTERTREBNITZ: &str = "sn-elstertrebnitz-schrott-wetzel-depot-elstertrebnitz";
-/// Bespoke, live-verified acceptance page (shared by both sites — the
+/// Bespoke, live-verified acceptance page (shared by all three sites — the
 /// single source; the homepage short list repeats the same categories,
 /// fetching it too would double-record every row).
 pub const URL: &str = "https://hofmann-metall.de/privat-kleingewerbekunden/";
@@ -529,7 +532,12 @@ fn extract_info_elstertrebnitz(html: &str) -> Result<TraderInfo, IngestError> {
         .map(strip_fragment)
         .filter(|s| !s.is_empty())
         .collect();
-    let (street, postcode, city) = firm_block(&lines).unwrap_or_default();
+    let Some((street, postcode, city)) = firm_block(&lines) else {
+        return Err(IngestError::Parse {
+            url: ELSTERTREBNITZ_URL.to_owned(),
+            detail: "Adresszeile unlesbar".to_owned(),
+        });
+    };
     let table = siblings.iter().find(|e| e.value().name() == "table");
     let Some(table) = table else {
         return Err(IngestError::Parse {
@@ -556,7 +564,10 @@ fn extract_info_elstertrebnitz(html: &str) -> Result<TraderInfo, IngestError> {
             email = cells[1].clone();
         }
     }
-    if street.is_empty() && phone.is_empty() && email.is_empty() {
+    // Fail-closed je Feld: eine fehlende Adresse, Telefonnummer oder E-Mail
+    // bedeutet, dass sich die Seite geändert hat. Der Lauf muss dann laut
+    // scheitern statt still leere Felder zu schreiben.
+    if street.is_empty() || phone.is_empty() || email.is_empty() {
         return Err(IngestError::Parse {
             url: ELSTERTREBNITZ_URL.to_owned(),
             detail: "keine Kontaktdaten gefunden".to_owned(),
@@ -648,18 +659,36 @@ mod tests {
         <div class=\"toggler\"> Cu-Ms Kühler </div>\
         <h2>Sie haben Fragen oder wollen<br>einen Termin vereinbaren?</h2>";
 
-    /// Live shape of the Elstertrebnitz site page (27.10.2026): the contact
-    /// block is a table (Telefon/Dispo/E-Mail) next to the address <p>, not the
-    /// two <p> of Chemnitz.
-    const FIXTURE_ELSTERTREBNITZ: &str = "<h3>KONTAKT & ÖFFNUNGSZEITEN</h3>\
-        <p>B 10<br>04523 Elstertrebnitz</p>\
-        <table border=\"1\"><tbody>\
-        <tr><td>Telefon:</td><td>034296 / 49 59 0</td></tr>\
-        <tr><td>Dispo:</td><td>034296 / 49 59 11</td></tr>\
-        <tr><td>E-Mail:</td><td>&#101;&#x6C;&#115;&#x74;&#101;&#x72;&#116;&#x72;&#101;&#x62;&#110;&#x69;&#116;&#x7A;&#64;&#x68;&#111;&#x66;&#109;&#x61;&#110;&#x6E;&#45;&#x6D;&#101;&#x74;&#97;&#x6C;&#108;&#x2E;&#100;&#x65;</td></tr>\
-        </tbody></table>\
-        <p><span class=\"tab\">Mo. - Fr.:</span> 07.00 - 16.00 Uhr<br>\
-        <span class=\"tab\">Sa.:</span> geschlossen</p>";
+    /// Verbatim excerpt of the live Elstertrebnitz site page (27.10.2026,
+    /// 17.445 B, HTTP 200): the contact block is a table (Telefon/Dispo/E-Mail)
+    /// next to the address <p>, not the two <p> of Chemnitz. The excerpt keeps
+    /// the table attributes, the empty paragraph after the table and the
+    /// opening-hours paragraphs, so the "first <p> is the address" assumption is
+    /// actually pinned.
+    const FIXTURE_ELSTERTREBNITZ: &str = "<div class=\"ce_text block\">\
+            <h3>KONTAKT & ÖFFNUNGSZEITEN</h3>\
+      <p>B 10<br>04523 Elstertrebnitz</p>\
+<table style=\"border-collapse: collapse; width: 69.6492%; height: 69px;\" border=\"1\">\
+<tbody>\
+<tr style=\"height: 16.7917px;\">\
+<td style=\"width: 30.244%; height: 16.7917px;\">Telefon:</td>\
+<td style=\"width: 69.7146%; height: 16.7917px;\">034296 / 49 59 0</td>\
+</tr>\
+<tr style=\"height: 16.7917px;\">\
+<td style=\"width: 30.244%; height: 16.7917px;\">Dispo:</td>\
+<td style=\"width: 69.7146%; height: 16.7917px;\">034296 / 49 59 11</td>\
+</tr>\
+<tr style=\"height: 16.7917px;\">\
+<td style=\"width: 30.244%; height: 16.7917px;\">E-Mail:</td>\
+<td style=\"width: 69.7146%; height: 16.7917px;\">&#101;&#x6C;&#115;&#x74;&#101;&#x72;&#116;&#x72;&#101;&#x62;&#110;&#x69;&#116;&#x7A;&#64;&#x68;&#111;&#x66;&#109;&#x61;&#110;&#x6E;&#45;&#x6D;&#101;&#x74;&#97;&#x6C;&#108;&#x2E;&#100;&#x65;</td>\
+</tr>\
+</tbody>\
+</table>\
+<p>&nbsp;</p>\
+<p><span class=\"tab\">Mo. - Fr.:</span> 07.00 - 16.00 Uhr<br><span class=\"tab\">Sa.:</span> geschlossen&nbsp;</p>\
+<p>Bitte beachten Sie die Pausenzeiten:</p>\
+<p><span class=\"tab\">Früh:</span> 09.00 - 09.30 Uhr<br><span class=\"tab\">Mittag:</span> 12.00 - 12.30 Uhr</p>\
+</div>";
 
     #[test]
     fn elstertrebnitz_contact_table_parses() {
@@ -674,11 +703,51 @@ mod tests {
 
     #[test]
     fn elstertrebnitz_missing_block_fails_loudly() {
+        // kein Anker
         assert!(extract_info_elstertrebnitz("<h3>OEFFNUNGSZEITEN</h3>").is_err());
+        // Anker da, aber keine Adresszeile und keine Tabelle
+        assert!(
+            extract_info_elstertrebnitz("<h3>KONTAKT & ÖFFNUNGSZEITEN</h3><p>&nbsp;</p>").is_err()
+        );
+        // Adresse da, Tabelle fehlt
         assert!(extract_info_elstertrebnitz(
             "<h3>KONTAKT & ÖFFNUNGSZEITEN</h3><p>B 10<br>04523 Elstertrebnitz</p>"
         )
         .is_err());
+    }
+
+    #[test]
+    fn elstertrebnitz_broken_fields_fail_loudly() {
+        // Adresszeile nicht lesbar (keine PLZ-Zeile)
+        let no_address =
+            FIXTURE_ELSTERTREBNITZ.replace("<p>B 10<br>04523 Elstertrebnitz</p>", "<p>&nbsp;</p>");
+        assert!(extract_info_elstertrebnitz(&no_address).is_err());
+        // Tabellen-Labels umbenannt -> Telefon und E-Mail fehlen
+        let renamed = FIXTURE_ELSTERTREBNITZ
+            .replace("Telefon:", "Tel.:")
+            .replace("E-Mail:", "Kontakt:");
+        assert!(extract_info_elstertrebnitz(&renamed).is_err());
+        // Telefonzelle leer
+        let empty_phone = FIXTURE_ELSTERTREBNITZ.replace("034296 / 49 59 0", "");
+        assert!(extract_info_elstertrebnitz(&empty_phone).is_err());
+        // Tabelle ohne Zeilen
+        let empty_table = FIXTURE_ELSTERTREBNITZ.replace(
+            "<tr style=\"height: 16.7917px;\">\
+<td style=\"width: 30.244%; height: 16.7917px;\">Telefon:</td>\
+<td style=\"width: 69.7146%; height: 16.7917px;\">034296 / 49 59 0</td>\
+</tr>\
+<tr style=\"height: 16.7917px;\">\
+<td style=\"width: 30.244%; height: 16.7917px;\">Dispo:</td>\
+<td style=\"width: 69.7146%; height: 16.7917px;\">034296 / 49 59 11</td>\
+</tr>\
+<tr style=\"height: 16.7917px;\">\
+<td style=\"width: 30.244%; height: 16.7917px;\">E-Mail:</td>\
+<td style=\"width: 69.7146%; height: 16.7917px;\">&#101;&#x6C;&#115;&#x74;&#101;&#x72;&#116;&#x72;&#101;&#x62;&#110;&#x69;&#116;&#x7A;&#64;&#x68;&#111;&#x66;&#109;&#x61;&#110;&#x6E;&#45;&#x6D;&#101;&#x74;&#97;&#x6C;&#108;&#x2E;&#100;&#x65;</td>\
+</tr>\
+",
+            "",
+        );
+        assert!(extract_info_elstertrebnitz(&empty_table).is_err());
     }
 
     #[test]
