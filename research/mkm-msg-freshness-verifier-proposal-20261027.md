@@ -13,7 +13,7 @@ letzten **Preisänderung** liegt, obwohl die Handler post-rollout erfolgreich ge
 - MKM: Handler-Schritt 11:17:42 UTC (HTTP 200, 56 Preise, `ok`), Ledger-Snapshot
   `source_article_snapshots` auf 11:17:43 fortgeschrieben, aber die Preiszeilen tragen
   weiterhin `observed_at` 05:29:47 (vor der Rollout-Untergrenze 09:47 bzw. 16:04).
-- MSG: Handler-Schritt 16:19:47 UTC (124 Preise, `ok`), Preiszeilen vom 15:05 — dieselbe
+- MSG: Handler-Schritt 16:19:47 UTC (124 Preise, `ok`), Preiszeilen vom 15:05 - dieselbe
   Situation.
 
 Befund des Verifiers:
