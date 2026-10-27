@@ -35,7 +35,11 @@ def main() -> int:
     manifest = json.loads(args.probe_manifest.read_text())
     changed = [row["slug"] for row in manifest["effective_delta"]["changed_rows"]]
 
-    conn = sqlite3.connect(f"file:{args.rehearsal}?mode=ro", uri=True)
+    # eigene Kopie: so bleibt das Bundle (inklusive -shm) byte-stabil
+    import shutil, tempfile
+    copy = Path(tempfile.mkdtemp(dir="/tmp/opencode")) / "rehearsal.db"
+    shutil.copy2(args.rehearsal, copy)
+    conn = sqlite3.connect(f"file:{copy}?mode=ro", uri=True)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA query_only=ON")
     rows = []

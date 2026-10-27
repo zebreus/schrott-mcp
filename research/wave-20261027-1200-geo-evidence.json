@@ -1,5 +1,5 @@
 {
- "captured_utc": "2026-10-27T14:45:32.529233+00:00",
+ "captured_utc": "2026-10-27T15:40:00+00:00",
  "source": "Nominatim (OpenStreetMap) — public geocoding service, read-only queries",
  "license": "© OpenStreetMap contributors, ODbL 1.0",
  "forward_lookups": {
@@ -80,8 +80,8 @@
    ]
   },
   "sn-chemnitz-becke-jens-buntmetallhandel": {
-   "query": "Borssenanger 16, 09126 Chemnitz",
-   "url": "https://nominatim.openstreetmap.org/search?q=Borssenanger+16%2C+09126+Chemnitz&format=jsonv2&limit=3&addressdetails=1&extratags=1",
+   "query": "Borssenanger 16, 09113 Chemnitz",
+   "url": "https://nominatim.openstreetmap.org/search?q=Borssenanger+16%2C+09113+Chemnitz&format=jsonv2&limit=3&addressdetails=1&extratags=1",
    "result_count": 1,
    "results": [
     {

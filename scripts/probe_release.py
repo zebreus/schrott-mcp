@@ -203,6 +203,17 @@ def boot(label: str, port: int, data_dir: Path) -> dict:
             time.sleep(0.2)
         # Terminate before the 15s scheduler delay: the probe only needs the
         # seed path, never a live scrape.
+        health = None
+        for _ in range(50):
+            try:
+                import urllib.request
+                with urllib.request.urlopen(
+                        f"http://127.0.0.1:{port}/health", timeout=2) as response:
+                    health = response.read().decode()[:120]
+                    if health:
+                        break
+            except Exception:
+                time.sleep(0.1)
         terminated = False
         if proc.poll() is None:
             proc.send_signal(signal.SIGTERM)
@@ -216,6 +227,8 @@ def boot(label: str, port: int, data_dir: Path) -> dict:
         "label": label,
         "log": str(log.relative_to(ROOT)),
         "seed_rows_written": written,
+        "health_response": health,
+        "health_ok": bool(health and '"ok"' in health),
         "terminated_by_probe_sigterm": terminated,
         "exit_code": proc.returncode,
         "exit_meaning": "SIGTERM (-15) sent by the probe right after the seed log line; "
@@ -398,6 +411,11 @@ def main() -> int:
     seed_files = sorted(glob.glob(SEED_GLOB))
     fmt_check = run_format_check()
     manifest["target_rows_scope"] = target_slug_file_block()
+    manifest["target_rows_scope"]["note"] = (
+        "Die Scope-Datei benennt die Zeilen, die im Vorzustand schon falsch oder "
+        "unvollständig waren; das effektive Delta des Kandidaten kann weitere Zeilen "
+        "enthalten (etwa durch die Wiederherstellung einer verwaisten Zeile). Beide "
+        "Mengen stehen deshalb getrennt im Manifest.")
     probe_script = Path(__file__).resolve()
     manifest["probe_script"] = {
         "path": str(probe_script.relative_to(ROOT)) if probe_script.is_relative_to(ROOT) else str(probe_script),
@@ -432,6 +450,10 @@ def main() -> int:
             "server": datetime.fromtimestamp(SERVER.stat().st_mtime, timezone.utc).isoformat(),
             "query_worker": datetime.fromtimestamp(WORKER.stat().st_mtime, timezone.utc).isoformat(),
         },
+        "combined_digest_definition": (
+            "combined_db_wal_sha256 = sha256(b'public.db' + sha256(public.db) + "
+            "b'public.db-wal' + sha256(public.db-wal)); die -shm-Datei ist bewusst "
+            "nicht Teil des Digests, weil sie der flüchtige WAL-Index ist."),
         "seed_codegen_files": [
             {"path": str(Path(f).relative_to(ROOT)), "sha256": sha256(Path(f))}
             for f in seed_files
@@ -617,6 +639,7 @@ def main() -> int:
         "deployment": False,
         "service_restart": False,
     }
+    manifest["phase_timestamps"]["manifest_written_utc"] = now()
     out.write_text(json.dumps(manifest, indent=2, sort_keys=False))
     print(json.dumps({
         "manifest": str(out),
