@@ -1,0 +1,126 @@
+{
+ "captured_utc": "2026-10-27T14:45:32.529233+00:00",
+ "source": "Nominatim (OpenStreetMap) — public geocoding service, read-only queries",
+ "license": "© OpenStreetMap contributors, ODbL 1.0",
+ "forward_lookups": {
+  "ni-luchow-autoverwertung-krause": {
+   "query": "Albrecht-Thaer-Straße 16, 29432 Lüchow",
+   "url": "https://nominatim.openstreetmap.org/search?q=Albrecht-Thaer-Stra%C3%9Fe+16%2C+29432+L%C3%BCchow&format=jsonv2&limit=3&addressdetails=1&extratags=1",
+   "result_count": 1,
+   "results": [
+    {
+     "lat": "52.9838646",
+     "lon": "11.1672339",
+     "display_name": "16, Albrecht-Thaer-Straße, Lüchow, Samtgemeinde Lüchow (Wendland), Landkreis Lüchow-Dannenberg, Niedersachsen, 29439, Deutschland",
+     "osm_type": "way",
+     "osm_id": 213905139,
+     "category": "building",
+     "type": "yes",
+     "extratags": {
+      "roof:shape": "gabled"
+     }
+    }
+   ]
+  },
+  "sn-hainichen-uhlmann-finke": {
+   "query": "Am Gewerbegebiet 2b, 09661 Hainichen",
+   "url": "https://nominatim.openstreetmap.org/search?q=Am+Gewerbegebiet+2b%2C+09661+Hainichen&format=jsonv2&limit=3&addressdetails=1&extratags=1",
+   "result_count": 1,
+   "results": [
+    {
+     "lat": "51.0008670",
+     "lon": "13.1223773",
+     "display_name": "Uhlmann & Finke, 2b, Am Gewerbegebiet, Juchhöh, Schlegel, Hainichen, Lichtenau, Mittelsachsen, Sachsen, 09661, Deutschland",
+     "osm_type": "node",
+     "osm_id": 420235013,
+     "category": "amenity",
+     "type": "waste_transfer_station",
+     "extratags": {
+      "website": "https://uhlmann-finke.de/"
+     }
+    }
+   ]
+  },
+  "sl-volklingen-avs-autoverwertung": {
+   "query": "Straße des 13. Januar 380, 66333 Völklingen",
+   "url": "https://nominatim.openstreetmap.org/search?q=Stra%C3%9Fe+des+13.+Januar+380%2C+66333+V%C3%B6lklingen&format=jsonv2&limit=3&addressdetails=1&extratags=1",
+   "result_count": 1,
+   "results": [
+    {
+     "lat": "49.2471748",
+     "lon": "6.9083107",
+     "display_name": "380, Straße des 13. Januar, Luisenthal, Völklingen, Regionalverband Saarbrücken, Saarland, 66333, Deutschland",
+     "osm_type": "way",
+     "osm_id": 304141364,
+     "category": "building",
+     "type": "commercial",
+     "extratags": {
+      "roof:shape": "gabled",
+      "building:levels": "1",
+      "roof:orientation": "across"
+     }
+    }
+   ]
+  },
+  "sl-volklingen-metall-recycling-kunzer": {
+   "query": "Am Holzplatz 5, 66333 Völklingen",
+   "url": "https://nominatim.openstreetmap.org/search?q=Am+Holzplatz+5%2C+66333+V%C3%B6lklingen&format=jsonv2&limit=3&addressdetails=1&extratags=1",
+   "result_count": 1,
+   "results": [
+    {
+     "lat": "49.2455117",
+     "lon": "6.8782401",
+     "display_name": "Künzer, 5, Am Holzplatz, Fenne, Fürstenhausen, Völklingen, Regionalverband Saarbrücken, Saarland, 66333, Deutschland",
+     "osm_type": "way",
+     "osm_id": 303708241,
+     "category": "building",
+     "type": "yes",
+     "extratags": null
+    }
+   ]
+  },
+  "sn-chemnitz-becke-jens-buntmetallhandel": {
+   "query": "Borssenanger 16, 09126 Chemnitz",
+   "url": "https://nominatim.openstreetmap.org/search?q=Borssenanger+16%2C+09126+Chemnitz&format=jsonv2&limit=3&addressdetails=1&extratags=1",
+   "result_count": 1,
+   "results": [
+    {
+     "lat": "50.8375191",
+     "lon": "12.8922412",
+     "display_name": "16, Borssenanger, Kaßberg, Chemnitz, Lichtenau, Sachsen, 09113, Deutschland",
+     "osm_type": "way",
+     "osm_id": 100857866,
+     "category": "building",
+     "type": "warehouse",
+     "extratags": null
+    }
+   ]
+  }
+ },
+ "reverse_lookups_old_points": {
+  "ni-luchow-autoverwertung-krause": {
+   "query": {
+    "lat": 53.3257,
+    "lon": 10.84365
+   },
+   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&addressdetails=1&lat=53.3257&lon=10.84365",
+   "display_name": "11, Butterberg, Sprengelshof, Teldau, Boizenburg-Land, Ludwigslust-Parchim, Mecklenburg-Vorpommern, 19273, Deutschland",
+   "osm_type": "way",
+   "osm_id": 722534333,
+   "category": "building",
+   "type": "yes"
+  },
+  "sn-hainichen-uhlmann-finke": {
+   "query": {
+    "lat": 50.9852,
+    "lon": 12.3698
+   },
+   "url": "https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&addressdetails=1&lat=50.9852&lon=12.3698",
+   "display_name": "Göderner Straße, Wieseberg, Wilhelm-Pieck-Siedlung, Lödla, Rositz, Altenburger Land, Thüringen, 04617, Deutschland",
+   "osm_type": "way",
+   "osm_id": 36843207,
+   "category": "highway",
+   "type": "residential"
+  }
+ }
+}

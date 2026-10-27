@@ -4,15 +4,15 @@ name: DKE Edelmetallhandel (Denis Kunz)
 trader_type: sonstige
 state: HE
 city: Limeshain
-street: ''
+street: Ronneburgstraße 33
 postcode: '63694'
-phone: ''
-email: ''
-opening_hours: ''
+phone: 0160 1870367
+email: kunz@dk-edelmetalle.de
+opening_hours: 'Termine ausschließlich nach Vereinbarung; Hausbesuch nach Absprache'
 website: https://www.dk-edelmetalle.de/
 website_status: aktiv
 status: pruefung
-description: 'Ankauf von Edelmetallen und Wertsachen laut Betreiberwebsite; aktuell Termine nach Vereinbarung, Rechnerkurse ausdrücklich nur Platzhalter.'
+description: 'Ankauf von Gold, Silber, Platin, Palladium sowie Schmuck, Uhren und Edelsteinen laut Betreiberwebsite; Termine ausschließlich nach Vereinbarung, Hausbesuch nach Absprache, Einkaufsrechner-Werte ausdrücklich nur Platzhalter (keine verbindlichen Kurse).'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Hanau +30-km Recherchewelle 05.10.2026'
@@ -29,6 +29,10 @@ Die neu gestaltete Betreiberwebsite nennt nun selbst Ronneburgstraße 33, 63694 
 **Wichtig:** Der alte Pfad `/i/ankaufspreise` liefert jetzt die neue Startseite. Die historischen Ankaufbedingungen vom 06.10. sind nicht mehr als aktuelle Liste verwendbar. Neue Rechnerwerte sind ausdrücklich „Platzhalter-Kurse, Stand 30. Aug. 2026“, keine Tages-Ankaufskurse. Bewertung kostenfrei und keine Abzüge für Prüfung/Schmelze beworben; keine allgemeine Gebührentafel oder Verkaufspreisliste.
 
 ## Timeline
+
+### Recherche 27.10.2026: Impressum liefert Kontaktdaten; Hausnummer 33 durch Betreiber und Verzeichnis bestätigt
+
+- [Recherche 27.10.2026: Die Betreiberseite wurde neu gestaltet und ist jetzt vollständig auslesbar. Das Impressum nennt „Herr Kunz, handelnd unter Denis Kunz Edelmetallhandel“, Ronneburgstraße 33, 63694 Hessen-Limeshain, Telefon 0160 1870367, E-Mail kunz@dk-edelmetalle.de, USt-IdNr DE 352 875 901, Stand 01.10.2026; die Kontaktseite nennt dieselbe Anschrift und denselben Telefon. Damit ist der bisher offene Hausnummer-Konflikt (45 A laut Dossierspitze vs. 33 laut 11880) zugunsten von 33 aufgelöst: Betreiber-Impressum und Betreiber-Kontaktseite sagen 33, und der unabhängige 11880-Eintrag „DKE Edelmetallhandel Goldankauf“ führt ebenfalls Ronneburgstr. 33, 63694 Limeshain (Himbach), Telefon (0160) 1870367 mit Mo–Fr 12:00–17:30 und Sa 12:00–14:00 „Außerhalb der Öffnungszeiten nach Vereinbarung“. Die ältere Angabe 45 A ist damit überholt. **Ankauf:** Der Einkaufsrechner der Betreiberseite zeigt Gold 999 95,40 €/g fein, Silber 999 1,05 €/g fein, Platin 999 33,10 €/g fein, Palladium 999 30,20 €/g fein, mit dem ausdrücklichen Zusatz „Die Berechnung dient nur der unverbindlichen Orientierung und stellt kein Angebot dar. Alle Angaben ohne Gewähr, Irrtümer und Kursänderungen vorbehalten. Der verbindliche Preis ergibt sich nach Prüfung von Feingehalt und Gewicht vor Ort“ — das sind Platzhalter-Rechnerwerte und damit **keine** belastbaren Ankaufspreise; sie werden nicht als Kurse übernommen. **Verkauf:** Die AGB regeln den Verkauf von Waren und Geschenkgutscheinen über einen Online-Shop des Verkäufers (Abschnitt 1.1, Abschnitt 6 „Einlösung von Geschenkgutscheinen“); eine öffentliche Verkaufspreisliste wurde nicht gefunden. **Gebühren:** Die Betreiberseite wirbt „ohne Abzüge für Prüfung oder Schmelze“ und mit kostenloser Bewertung; eine allgemeine Gebührentafel existiert nicht. Die Wertung „Platzhalter“ im Beschreibungstext bleibt damit korrekt. Die Telefonnummer und die E-Mail-Adresse stammen aus dem Betreiber-Impressum; die Schließung des Adresskonflikts stützt auf Betreiber-Primärquelle plus 11880-Eintrag. Quellen: https://www.dk-edelmetalle.de/impressum/ ; https://www.dk-edelmetalle.de/kontakt/ ; https://www.dk-edelmetalle.de/ ; https://www.dk-edelmetalle.de/agb/ ; https://www.11880.com/branchenbuch/limeshain/181726177B113005551/dke-edelmetallhandel-goldankauf.html (Abruf 27.10.2026).]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

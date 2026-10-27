@@ -33,6 +33,10 @@ NorthData/Online-Handelsregister führen AVS GmbH, HRB 107901, an der bereits ei
 
 ## Timeline
 
+### Owner-GEO-Nachprüfung 27.10.2026: Kartendatum und Abweichung gemessen
+
+- [Owner-GEO-Nachprüfung 27.10.2026: Der eingetragene Punkt 49.2471748/6.9083107 (OSM-Way 304141364) wurde am 27.10.2026 mit einer Nominatim-Vorwärtssuche der belegten Adresse „Straße des 13. Januar 380, 66333 Völklingen“ unabhängig nachgemessen: Der Treffer liegt auf 49.2471748/6.9083107, also **0 m Abweichung** zum Dossierwert; der Treffer trägt dieselbe Hausnummer und dieselbe Ortsangabe. Die Abfrage, das Abrufdatum (27.10.2026) und die vollständige Antwort sind in `research/wave-20261027-1200-geo-evidence.json` im Repo abgelegt, damit die Nachmessung aus dem Bestand reproduzierbar ist. Punktart: Gebäude- bzw. Adresspunkt, **keine bestätigte Anlieferzufahrt** und keine Eingangspräzision; das bleibt als offene Restlücke dokumentiert. Der Punkt ersetzt einen nachweislich falsch gesetzten Produktionswert; er ist damit kein kuratierter Standort im Sinne einer Annahmestelle. Quellen: https://nominatim.openstreetmap.org/search (Abfrage in der Evidenzdatei dokumentiert) ; https://www.openstreetmap.org/ ; research/wave-20261027-1200-geo-evidence.json.]
+
 ### Recherche 27.10.2026: amtliche Demontagebetriebs-Anerkennung und GEO-Korrektur
 
 - [Recherche 27.10.2026: Amtlicher Fachbetrieberegister neu herangezogen (GESA-Auszug, Stand 11.08.2026): „AVS Autoverwertung Saar GmbH, Straße des 13. Januar 380, 66333 Völklingen" ist dort als anerkannter Demontagebetrieb nach AltfahrzeugV geführt (darf Altfahrzeuge trockenlegen und zerlegen), Zertifikatsnummer ZAGS00300042. Damit ist die bereits eingetragene Hausnummer für den anerkannten Demontagebetrieb am Ort amtlich bestätigt. Das Register nennt weder Telefon noch E-Mail und keine Preise; die Telefonnummer 06898 8853 bleibt allein durch den Suchindex des Betreiber-Social-Profils belegt und daher weiterhin nicht im Frontmatter; Quelle(n): https://schrottregister.pages.dev/ort-volklingen ; https://schrottregister.pages.dev/betrieb-avs-autoverwertung-saar-gmbh-volklingen ; https://www.instagram.com/avs_autoverwertungsaar/]
