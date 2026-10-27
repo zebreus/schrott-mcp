@@ -296,3 +296,29 @@ unterbleiben.
   Fenster liegen sämtlich vor dem Rollout, keine danach. Unter
   `/tmp/opencode/*.log` gibt es keine neuere Geocoding-Logdatei. Kein direkter
   Produktions-DB-Schreibzugriff und kein Force-Ingest.
+
+## Read-only-Nachlauf 27.10.2026 04:03 UTC
+
+- Normale Scheduler-Läufe #2873 (03:43:54–03:44:02 UTC, 46 Preise) und #2874
+  (03:59:02–03:59:05 UTC, 30 Preise) endeten `ok`, jeweils ohne
+  Händlerfehler. Feedback weiterhin maximal ID 7390. Dienst aktiv,
+  `/health` HTTP 200; Schema v9 und Produktionsbestand unverändert.
+- Seit dem Rollout um 02:43:15 UTC gibt es weiterhin keinen MKM-, MSG- oder
+  Gutzmann-Handler-Step. Die drei read-only Post-Rollout-Gates liefern
+  unverändert rot: MKM 60/61 Artikel und kein 56-Preis-Step; Pending Corrections
+  mit 124 MSG-Quotes, aber ohne erforderliche frische Quell-/Seed-Nachweise und
+  Handler-Steps; Wave E weiterhin 75 Findings (50 Timeline-Hashes, 20
+  Zeitstempel, fünf skalare Abweichungen zum alten Manifest). Die nächste
+  natürliche MSG-Phase wird ungefähr ab 04:06:50 UTC erwartet, tatsächliche
+  Ausführung erst mit regulärem Poll; keine Handler manuell gestartet.
+- Die zwei falschen GEO-Werte sind in Produktion weiterhin unverändert. Für
+  den Korrekturstand sind jetzt `cargo test --workspace --locked` (778 bestanden,
+  11 ignoriert), `cargo fmt --all -- --check`, Seed-Generator-Tests 10/10 sowie
+  die drei Offline-Verifier-Testsuiten 8/8, 11/11 und 11/11 grün. Das ersetzt
+  nicht die noch offene private Upgrade-/Datenübergangsprobe für den exakten
+  Korrekturstand und ist keine Pre-Deploy-Freigabe. Kein Deployment und keine
+  Produktionsänderung, solange die Post-Rollout-Gates rot sind.
+- `journalctl -p warning` bleibt leer. Die fünf App-JSON-WARNs im Sechs-Stunden-
+  Fenster liegen vor dem Rollout; danach keine. Keine neuere
+  `/tmp/opencode/*.log`-Geocoding-Datei, kein direkter Produktions-DB-Write und
+  kein Force-Ingest.
