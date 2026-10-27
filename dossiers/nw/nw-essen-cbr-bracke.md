@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-cbr-bracke
+clear_fields: geo
 name: CBR Bracke GmbH
 trader_type: schrotthaendler
 state: NW
@@ -29,6 +30,10 @@ provenance_origin: table
 Status bleibt `pruefung`: die genaue Zuordnung der Seed-Adresse und ein eventueller Nachfolger müssen anhand Originalregister/Gewerbe-/Betreiberbeleg geklärt werden. Keine gefundene aktive Betreiberwebsite oder verifizierte Ankauf-, Verkaufs- oder Gebührenliste. Kein Geocoding des Altstandorts ohne Bestätigung. Quellen: https://www.northdata.de/CBR%20Bracke%20GmbH,%20Bochum/Amtsgericht%20Essen%20HRB%2013634 ; https://www.northdata.de/?id=5346167336992768 ; Leads: https://essen.city-map.de/de/cbr-bracke-gmbh ; https://www.essener-branchenbuch.de/container/essen/
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen
+
+- [### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`. Dieser Punkt liegt laut OSM auf der Straße „Freiheit“, 45128 Essen (way 46961889, `highway=service`, `bus=designated`, `vehicle=no`), genauer auf dem Fernbusbahnhof am Essener Hauptbahnhof (Haltestellenknoten 599294635, „Essen, Fernbusbahnhof“). Das ist eine Busspur und kein Gewerbestandort; in den Umweltinspektionsberichten der Bezirksregierung Düsseldorf für die Stadt Essen gibt es keinen Eintrag auf dieser Straße. Das Dossier nennt Manderscheidtstr. 91; die Nominatim-Vorwärtssuche findet „91, Manderscheidtstraße, Gewerbegebiet Ernestine, Stoppenberg“ (51.473316/7.050966), rund 3,57 km vom gespeicherten Punkt entfernt. Der gespeicherte Punkt widerspricht damit der eigenen Adressangabe dieser Zeile, und für ihn liegt weder eine Annahme- noch eine Betriebsbestätigung vor. Offen bleibt die Identität: Der Registereintrag der CBR Bracke GmbH wurde 2024 gelöscht, die Adresse stammt aus einem Verzeichnisprofil. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Manderscheidtstra%C3%9Fe+91%2C+Essen&format=jsonv2&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/46961889/full.json ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Recherche 17.10.2026 — Welle 21:00 B
 

@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-seliger
+clear_fields: geo
 name: Timo Seliger Schrottabholung
 trader_type: schrotthaendler
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 11880 listet Timo Seliger Schrottabholung, Vöcklinghauser Str. 1, 45130 Essen, Telefon 0163 2474456 und Altmaterialhandel/Schrotthandel/Altmetallrecycling. Ein zweites Branchenverzeichnis wiederholt die Kontaktdaten; Betreiberwebsite, Impressum/Register und verifizierte aktuelle Aktivität fehlen. Der 11880-Eintrag datiert vom 04.01.2023; der aktuelle Portalstand 03.10.2026 ist keine Betreiberbestätigung. Status deshalb `pruefung`, nicht geschlossen. **Ankauf:** keine verifizierten Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Tarife. Adresse ist Verzeichnis-only; vor Koordinatenverwendung Betreiberstandort bestätigen.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen
+
+- [### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`. Dieser Punkt liegt laut OSM auf der Straße „Freiheit“, 45128 Essen (way 46961889, `highway=service`, `bus=designated`, `vehicle=no`), genauer auf dem Fernbusbahnhof am Essener Hauptbahnhof (Haltestellenknoten 599294635, „Essen, Fernbusbahnhof“). Das ist eine Busspur und kein Gewerbestandort; in den Umweltinspektionsberichten der Bezirksregierung Düsseldorf für die Stadt Essen gibt es keinen Eintrag auf dieser Straße. Das Dossier nennt Vöcklinghauser Str. 1, 45130; die Nominatim-Vorwärtssuche findet „1, Vöcklinghauser Straße, Witteringsfeld, Rüttenscheid“ (51.439587/7.013506), rund 1,19 km vom gespeicherten Punkt entfernt. Der gespeicherte Punkt ist damit auch hier nicht die Adresslage der Zeile, sondern eine Busspur am Hauptbahnhof. Offen bleiben Betreiber- und Registerbeleg sowie ein Nachweis, dass dort ein stationärer Betrieb liegt; „Schrottabholung“ allein belegt das nicht. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=V%C3%B6cklinghauser+Str.+1%2C+45130+Essen&format=jsonv2&addressdetails=1 ; https://www.11880.com/branchenbuch/essen-ruhr/060440090B102237809/timo-seliger-schrottabholung.html ; https://api.openstreetmap.org/api/0.6/way/46961889/full.json ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Recherche 22.10.2026
 

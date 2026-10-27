@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-thp-metall-schrott-handel
+clear_fields: geo
 name: THP Metall + Schrott Handel
 trader_type: schrotthaendler
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen
+
+- [### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`. Dieser Punkt liegt laut OSM auf der Straße „Freiheit“, 45128 Essen (way 46961889, `highway=service`, `bus=designated`, `vehicle=no`), genauer auf dem Fernbusbahnhof am Essener Hauptbahnhof (Haltestellenknoten 599294635, „Essen, Fernbusbahnhof“). Das ist eine Busspur und kein Gewerbestandort; in den Umweltinspektionsberichten der Bezirksregierung Düsseldorf für die Stadt Essen gibt es keinen Eintrag auf dieser Straße. Das Dossier nennt Schlenhofstr. 10; die Nominatim-Vorwärtssuche findet „10, Schlenhofstraße, Segeroth, Nordviertel“ (51.465889/7.008460), rund 1,79 km vom gespeicherten Punkt entfernt. Der gespeicherte Punkt ist damit auch hier nicht die Adresslage der Zeile, sondern eine Busspur am Hauptbahnhof. Offen bleiben Betreiberidentität und tatsächlicher Geschäfts- oder Annahmestandort; der einzige Treffer ist ein city-map-Verzeichniseintrag ohne verknüpfte Betreiber-Homepage. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Schlenhofstra%C3%9Fe+10%2C+Essen&format=jsonv2&addressdetails=1 ; https://essen.city-map.de/de/thp-metall-schrott-handel ; https://api.openstreetmap.org/api/0.6/way/46961889/full.json ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Recherche 03.10.2026
 

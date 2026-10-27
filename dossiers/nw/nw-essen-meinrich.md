@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-meinrich
+clear_fields: geo
 name: Josef Meinrich GmbH
 trader_type: schrotthaendler
 state: NW
@@ -27,6 +28,10 @@ provenance_origin: table
 Die rechtliche Identität lässt sich als **Josef Meinrich GmbH**, AG Essen HRB 12559, plausibel zuordnen; Creditreform und NorthData nennen Keunefeld 9, 45355 Essen, und Creditreform führt die Gesellschaft als wirtschaftsaktiv. NorthData führt im Unternehmensgegenstand Schrott- und Baustoffhandel, während Creditreform aktuell nur Transport/Umzug und Baustoffhandel nennt; tatsächlicher Schrottbetrieb und öffentliche Annahme bleiben daher ungeklärt. Firmenverzeichnisdaten nennen übereinstimmend Telefon 0201 8655545. Die verlinkte Domain meinrich.de gehört nach aktuellem Impressum zu „Umzüge Meinrich“, Inhaber Sven Borg, Wolfsbankring 40, HRB-/Rechtsformangabe HRA 5769, also nicht nachweislich zur GmbH HRB 12559; Website und E-Mail werden deshalb nicht übernommen. Keine verifizierte Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung. Keunefeld 9 ist ein Register-/Firmenprofil-Kandidat und muss für einen Kartenpunkt bzw. aktuelle Annahmestelle bestätigt/geocodiert werden.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen
+
+- [### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`. Dieser Punkt liegt laut OSM auf der Straße „Freiheit“, 45128 Essen (way 46961889, `highway=service`, `bus=designated`, `vehicle=no`), genauer auf dem Fernbusbahnhof am Essener Hauptbahnhof (Haltestellenknoten 599294635, „Essen, Fernbusbahnhof“). Das ist eine Busspur und kein Gewerbestandort; in den Umweltinspektionsberichten der Bezirksregierung Düsseldorf für die Stadt Essen gibt es keinen Eintrag auf dieser Straße. Das Dossier nennt Keunefeld 9, 45355; die Nominatim-Vorwärtssuche findet „9, Keunefeld, Bochold“ (51.473418/6.963300), rund 4,41 km vom gespeicherten Punkt entfernt. Der gespeicherte Punkt widerspricht damit der eigenen Adressangabe dieser Zeile. Offen bleiben der Annahmean Ort und die Betreiberbrücke: NorthData und Creditreform führen die Josef Meinrich GmbH, HRB 12559, an Keunefeld 9, während die als Website verlinkte Seite zu „Umzüge Meinrich“, Inhaber Sven Borg, gehört und keine Schrottannahme belegt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Keunefeld+9%2C+45355+Essen&format=jsonv2&addressdetails=1 ; https://www.northdata.de/Josef+Meinrich+GmbH%2C+Essen/HRB+12559 ; https://api.openstreetmap.org/api/0.6/way/46961889/full.json ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

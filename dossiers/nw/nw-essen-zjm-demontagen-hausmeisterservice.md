@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-zjm-demontagen-hausmeisterservice
+clear_fields: geo
 name: ZJM Demontagen + Hausmeisterservice
 trader_type: sonstige
 state: NW
@@ -32,6 +33,10 @@ Der Seed bleibt ein ungeklärter Essener ZJM-Lead: Verzeichnisse ordnen „ZJM D
 - **Offen:** 59 oder 61, Betreiberidentität, Nummer 0201 9467448 und Beziehung zu `schrottundmetallabholung.de`. Vorhandene Website-Statusangabe bezieht sich auf die zuvor geprüfte Domain `zjm-demontagen.de`; `status: pruefung` bleibt.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen
+
+- [### Owner-Korrektur 27.10.2026: Essener Fernbusbahnhof-Punkt zurücknehmen: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`. Dieser Punkt liegt laut OSM auf der Straße „Freiheit“, 45128 Essen (way 46961889, `highway=service`, `bus=designated`, `vehicle=no`), genauer auf dem Fernbusbahnhof am Essener Hauptbahnhof (Haltestellenknoten 599294635, „Essen, Fernbusbahnhof“). Das ist eine Busspur und kein Gewerbestandort; in den Umweltinspektionsberichten der Bezirksregierung Düsseldorf für die Stadt Essen gibt es keinen Eintrag auf dieser Straße. Das Dossier nennt Von-Ossietzky-Ring 59, 45279; die Nominatim-Vorwärtssuche findet „59, Von-Ossietzky-Ring, Horst“ (51.436422/7.116223), rund 7,18 km vom gespeicherten Punkt entfernt. Der gespeicherte Punkt widerspricht damit der eigenen Adressangabe dieser Zeile. Offen bleiben die Betreiberbrücke und der Hausnummernkonflikt: Der direkt gelesene Betreiberkandidat nennt ZJM an Von-Ossietzky-Ring 61, ohne vertretungsberechtigte Person oder Registerdaten, während die Verbindung zu Seed-Adresse 59 und zur Telefonnummer unbestätigt bleibt; ein öffentlicher Annahmepunkt ist nicht belegt. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Von-Ossietzky-Ring+59%2C+45279+Essen&format=jsonv2&addressdetails=1 ; https://www.schrottundmetallabholung.de/ ; https://api.openstreetmap.org/api/0.6/way/46961889/full.json ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Recherche 22.10.2026: möglicher neuer ZJM-Auftritt, Identität nicht verknüpft
 

@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-mre-metall-recycling-essen
+clear_fields: geo
 name: MRE Metall Recycling Essen
 trader_type: metallhaendler
 state: NW
@@ -29,6 +30,10 @@ Die live Betreiberseite beansprucht den Namen „MRE Metall Recycling Essen“ u
 **Preise:** Ankauf: aktuelle Tagespreise laut Betreiber nur telefonisch; keine numerische Liste. Verkauf: keine separate Verkaufspreisliste gefunden. Gebühren: Containergrößen 5-40 m³ sind publiziert, Container-/Transportgebühren nicht. **Geocoding:** Bonifaciusring 5 bleibt ein Betreiberseiten-Kandidat und ist erst nach Klärung der Identitätswidersprüche als Pin zu übernehmen.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: falsches GEO zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`. Der Reverse-Lookup löst diesen Punkt auf die Straße „Freiheit", 45128 Essen auf, genauer auf die Fernbus-Spur am Essener Hauptbahnhof (OSM way 46961889, `highway=service`, `vehicle=no`); das ist kein Gewerbestandort und keine Quelle nennt diese Straße als Betreiber- oder Annahmeort. Die aktuelle Betreiberseite belegt MRE Metall Recycling Essen (Geschäftsführer Zakaria El Osman) am Bonifaciusring 5, 45309 Essen mit Waagen und Anlieferung; das unabhängige Verlagsverzeichnis Das Örtliche nennt dieselbe Adresse und Telefonnummer, während „Häde“ zur anderen Firma Häde Recycling GmbH, Alte Bottroper Straße 120, 45356 Essen gehört. Bonifaciusring 5 liegt rund 5,8 km vom gespeicherten Punkt entfernt, ist aber nur ein Gebäudezentroid und kein belegter Kundenstandort. Deshalb wird ausschließlich das falsche GEO-Paar mit `clear_fields: geo` zurückgenommen: keine Ersatzkoordinate, keine Adressübernahme in die Frontmatter, keine Annahme- oder Schließungsbehauptung, `status: pruefung` bleibt. Offen bleiben Register- und Behördenbeleg (Einzelunternehmer ohne HRB), das Verhältnis MRE zu Häde und eine belegte Annahmestelle. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://mre-essen.de.tl/ ; https://mre-essen.de.tl/Impressum.htm ; https://mre-essen.de.tl/Unsere-Leistungen.htm ; https://www.dasoertliche.de/Themen/Metall-Recycling-Essen-Essen-Kray-Bonifaciusring ; https://www.haede-recycling.de/impressum ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Recherche 26.10.2026
 

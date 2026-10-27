@@ -1,5 +1,6 @@
 ---
 slug: nw-essen-schrotthandel-missal-metzler
+clear_fields: geo
 name: Schrotthandel Missal / Metzler
 trader_type: schrotthaendler
 state: NW
@@ -29,6 +30,10 @@ Mobile Betreiber-Sphäre Metzler/Jürgen Missal mit belegter kostenloser Altmeta
 **GEO:** Kalthofweg 4 ist Impressums-/Kontaktadresse, Zum Oberhof 32 ein widersprüchlicher Portal-Lead; weder ist als Annahmestelle oder Abholstützpunkt bestätigt. Kein Betriebs-Pin bis Betreiberrollen, Adresse und Kundenannahme geklärt sind.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: falsches GEO zurücknehmen
+
+- [Owner-Korrektur 27.10.2026: Die read-only Produktionszeile enthält `51.450284375, 7.015053125`; der Reverse-Lookup führt auf die Fernbus-Spur „Freiheit“ am Essener Hauptbahnhof und damit auf keinen Betriebsort. Betreiber-Impressum und 11880 belegen zwei Adressen derselben Betreiber-Sphäre: Kalthofweg 4, 45277 Essen (Jürgen Missal, Vertretungsberechtigt Markus Metzler) und Zum Oberhof 32, 45307 Essen (11880-Eintrag mit der im Dossier gespeicherten Domain, während die Betreiberseiten „Zum Oberhof“ nicht erwähnen). Beide liegen 4,07 bis 5,17 km vom gespeicherten Punkt entfernt und sind Wohnobjekte ohne belegten Annahmehof; Rollen- und Standortkonflikt zwischen Missal und Metzler bleiben offen, ebenso Registerstatus und Preislisten. Das gespeicherte Paar ist damit für genau diese Zeile falsch und wird mit `clear_fields: geo` zurückgenommen, ohne Ersatzkoordinate und ohne Annahmestellen-Behauptung; `status: aktiv` bleibt unverändert. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.450284375&lon=7.015053125&zoom=18&addressdetails=1 ; https://schrotthandel-metzler-essen.de/impressum/ ; https://www.11880.com/branchenbuch/essen-ruhr/060440090B101936723/schrotthandel-juergen-missal.html ; https://www.11880.com/branchenbuch/essen-ruhr/120672194B37573047/markus-metzler-schrotthandel.html ; read-only `public.db` (27.10.2026); docs/trader-seed.md.]
 
 ### Vertiefung Nordwest 08.10.2026
 
