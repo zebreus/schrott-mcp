@@ -31,6 +31,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 27.10.2026: Jüterbog-Portalspur erneut geprüft
+
+- [Recherche 27.10.2026: Schrottplatz.org-Ortsseite führt weiterhin „Schrott Weiss Rolf Schrotthandel u Transporte“ an Neuheim 8, 14913 Jüterbog. Cylex-Direktabruf war HTTP 403; daraus kein neuer Profilinhalt. Die Portalangabe ist kein aktueller Betreiber-/Register- oder Annahmenachweis. Keine Kontaktdaten oder GEO übernommen. **Ankauf:** keine Kurse; **Verkauf:** keine Preisliste; **Gebühren:** keine Transport-/Entsorgungstarife. Quelle (Portal-Lead): https://www.schrottplatz.org/jueterbog ; Abrufgrenze: https://www.cylex.de/firma-home/weiss-rolf-schrotthandel-u--transporte-12402394.html .]
+
 ### Owner-GEO-/Annahme-Korrektur 24.10.2026
 
 - [Owner-GEO-Korrektur 24.10.2026: Read-only-Abgleich der Produktionszeile ergab den gespeicherten Punkt 52.0228947, 13.0581857 und `dropoff_json={"allowed":true}`. Das Dossier belegt für Neuheim 8 und 03372 402183 nur Branchen-/Schrottplatz-Verzeichnisse; Betreiberidentität, aktuelle Anschrift und öffentliche Annahme bleiben ausdrücklich ungeklärt. Adresse, Telefon, Altpunkt und Annahmezusage deshalb aus den strukturierten Seed-Feldern zurückgenommen; die Verzeichnis-Leads und Koordinate bleiben als historische Prüfspur dokumentiert, nicht als bestätigte Widerlegung oder Schließung. `clear_fields: 'dropoff_json,geo,phone'` entfernt die angereicherten Annahme-/GEO-/Telefonwerte beim regulären Seed. Keine Produktionsdaten geändert. Quellen: read-only `public.db` (24.10.2026); die im Rechercheeintrag 20.10.2026 verlinkten Verzeichnis-Leads; `docs/trader-seed.md`.]

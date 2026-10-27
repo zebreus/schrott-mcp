@@ -30,6 +30,10 @@ Betreiberwebsite zu Robert Hammerschmidt, Recycling-/Container-Service in Langwe
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Betreiber-Homepage, Leistungsübersicht und Maschinenverkaufsseite erneut direkt geprüft. **Ankauf:** die Seiten werben mit Maschinenankauf, aber ohne Zahlenkurse; kein numerischer Materialankaufskurs gefunden. **Verkauf:** Maschinen-/Werkzeugbestand wird auf Anfrage genannt, abgebildete Fotos sind Beispiele und keine aktuelle Angebots-/Preisliste. **Gebühren:** Container, Entrümpelung, Entkernung und Demontage ohne veröffentlichte Tarife. Die Betreiberwebsite nennt Gartenstraße 14a, 86462 Langweid als Impressums-/Kontaktanschrift und zusätzlich Ebnerstrasse 25 auf der Maschinenverkaufsseite; die jeweilige Funktion der zweiten Adresse bleibt offen. Keine davon ist als öffentlicher Schrottannahmepunkt bestätigt, daher keine Koordinate. Quellen: https://hammerschmidt-schrott.de/ ; https://hammerschmidt-schrott.de/unsere-leistungen/ ; https://hammerschmidt-schrott.de/maschinenverkauf/ ; https://hammerschmidt-schrott.de/impressum/ .]
+
 ### Recherche 25.10.2026
 
 - [Recherche 25.10.2026: Direkte Betreiberseiten für Leistungen, Impressum und Maschinenverkauf erneut gelesen. Die Website setzt Gartenstraße 14a, 86462 Langweid als Impressums-/Kontaktadresse; die Maschinenverkaufsseite nennt weiterhin zusätzlich Ebnerstrasse 25. Die Seiten liefern keine eindeutige Funktion der zweiten Adresse. Maschinenankauf (u. a. Produktions-/Werkzeugmaschinen, Stapler, LKW, Elektromotoren, Altlagerbestände) und Maschinenverkauf sind belegt, aber ohne numerische An-/Verkaufspreise; die angezeigten Fotos sind ausdrücklich Beispielfotos, Bestand nur auf Anfrage. Schrottentsorgung/Container, Entrümpelung und Demontagen sind Leistungen, jedoch ohne konkrete Gebührenliste. Kein Material-Ankaufskurs. Beide Adressen bleiben GEO-Kandidaten, keine Koordinaten ergänzt; Impressum, Leistungen und Maschinenverkauf sind derselbe Betreiberquellenkomplex. Quellen: https://hammerschmidt-schrott.de/impressum/ ; https://hammerschmidt-schrott.de/unsere-leistungen/ ; https://hammerschmidt-schrott.de/maschinenverkauf/ .]

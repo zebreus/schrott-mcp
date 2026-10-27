@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Schrott24/Metaloop ist online erreichbar und vermittelt Verkäufe über Partnerannahmestellen; Niedersachsen-Seite listet u.a. Braunschweig, Hannover, Kettenkamp und Osnabrück, genaue Adressen/Zeiten kommen erst nach Onlineabschluss. Die Betreiberseite zeigt Ankaufpreise je kg, aber die abrufbare Preisseite ist mit „Tagesaktuelle Schrottpreise vom 14.11.2025“ datiert; deshalb sind Kartenwerte zum Recherchetag 06.10.2026 veraltet bzw. nicht als tagesaktuell belegbar. Insolvenz-/Abwicklungsstatus bleibt Prüfpunkt.
+Schrott24/Metaloop ist online erreichbar und vermittelt Verkäufe über Partnerannahmestellen; Niedersachsen-Seite listet u.a. Braunschweig, Hannover, Kettenkamp und Osnabrück, genaue Adressen/Zeiten kommen erst nach Onlineabschluss. Die Preisseite bleibt mit „Tagesaktuelle Schrottpreise vom 14.11.2025“ datiert; daneben zeigt die Supportseite undatierte „bis zu“-Beträge nach Materialkategorie, die weder konkretes Angebot noch garantierte Auszahlung darstellen. Insolvenz-/Abwicklungsstatus bleibt Prüfpunkt.
 
 ## Timeline
+
+### Recherche 27.10.2026: Preis- und Gebührenhinweise aktuell gegengeprüft
+
+- [Recherche 27.10.2026: Die Preisseite zeigt weiterhin „Tagesaktuelle Schrottpreise vom 14.11.2025“; ihre Karten sind Ankaufwerte in €/kg, also angebotene Auszahlung an Verkäufer, keine Wiederverkaufspreise, und wegen des Datums keine aktuellen NI-Kurse. Die FAQ-Supportseite zeigt zusätzlich undatierte Kategorien als „bis zu“: Aluminium 2,48 €/kg, Blei 1,43, Edelstahl 1,90, Eisen/Stahl 0,21, Elektronik 11,50, Hartmetall/HSS 49,00, Kabel 2,86, Kupfer 6,00, Messing 7,31, Rotguss/Legierungen 9,25, Zink 2,28, Zinn 29,64. Ohne Materialgüte, Partnerort und Transportart sind dies Obergrenzen/Marketingangaben, kein konkret erzielbarer Preis. **Verkauf:** keine Altmetall-Wiederverkaufspreisliste; Big Bag 5 €/Stück zzgl. Versand ist Verpackungsverkauf, kein Metallerlös. **Gebühren:** Support nennt 5 €/genutzte Versandmarke, Ablauf 6 €/Paket bis 31,5 kg; ungelöster Betreiber-Widerspruch. Eigenanlieferung erst ab 100 € Materialwert ist eine Teilnahmegrenze, keine Gebühr; genaue Partneradresse bleibt transaktionsabhängig. Auszahlung 48 Stunden vs. fünf Werktage bleibt ebenfalls widersprüchlich. EVI am 27.10. erneut: Metaloop Europe GmbH FN 638630m „Eingetragen“, Masseverwalter seit 18.06.2026 und Insolvenzveröffentlichungen 19.06./01.09.; dies beweist weder Schließung noch Zahlungsfähigkeit. Keine Frontmatter-Änderung, kein NI-GEO. Quellen: https://www.schrott24.de/schrottpreise/ ; https://www.schrott24.de/faq/support/ ; https://www.schrott24.de/ablauf/ ; https://www.evi.gv.at/f/638630m .]
 
 ### Recherche 22.10.2026: amtlicher Insolvenzstatus erneut geprüft
 

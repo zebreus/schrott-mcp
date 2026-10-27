@@ -24,13 +24,17 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten führt den Namen als „An- und Verkauf“ an Trommsdorffstr. 11, 99084 Erfurt, Tel. 0361 6604623, ohne Website oder E-Mail. Das stützt allenfalls einen Gebrauchtwaren-/Reuse-Lead, nicht Schrottankauf, Recycling oder einen heute aktiven Betreiber. Der mögliche Händler „Heimelektronik Schleising“ in derselben Straße ist nicht als Nachfolger belegt. Keine Altmetall-Preisliste oder Entsorgungsgebühr gefunden; aktuelle Ladenidentität und heutige Nutzung der Adresse bleiben offen, daher kein Geocoding.
+Gelbe Seiten führt den Namen als „An- und Verkauf“ an Trommsdorffstr. 11, 99084 Erfurt, Tel. 0361 6604623, ohne Website oder E-Mail. Das stützt allenfalls einen Gebrauchtwaren-/Reuse-Lead, nicht Schrottankauf, Recycling oder einen heute aktiven Betreiber. Ein zusätzliches LiberSave-Profil bezeichnet **Transfurt(ria)** dort als Geldtransferdienst; Fresha listet **Loco Artista Tattoo** an derselben Adresse und erklärt, nicht mit dem Veranstaltungsort verbunden zu sein. Das sind zwei Verzeichnis-/Plattform-Leads zu anderen Kategorien, keine Widerlegung des älteren Reuse-Leads und kein Schließungsbeleg. Der mögliche Händler „Heimelektronik Schleising“ in derselben Straße ist nicht als Nachfolger belegt. Keine Altmetall-Preisliste oder Entsorgungsgebühr gefunden; aktuelle Ladenidentität und heutige Nutzung bleiben offen, daher kein Geocoding.
 
 ## Timeline
 
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Exakte Namens-/Adresssuche ergab zusätzlich einen MapQuest-Eintrag, der gebrauchte Computer, Laptops und Küchengeräte beschreibt. MapQuest ist ein Aggregator und kein Betreiberbeleg; daraus weder eine aktuelle Nutzung noch Annahme von Schrott/Metall ableiten. Die bestehenden Gelbe-Seiten-/Telefonbuch-Leads bleiben ohne Betreiberwebsite, Register- oder kommunalen Identitätsbeleg. Reuse-Grenzfall, Kontaktdaten, Aktivität und Adresse deshalb unverändert ungeklärt; keine Ankauf-, Verkaufskurse für Metall oder Entsorgungsgebühren belegt. Quelle/Lead: https://www.mapquest.com/de/thuringen/an-und-verkauf-computer-und-haushaltsgerate-805471792 ; bestehender Verzeichnisbeleg: https://www.gelbeseiten.de/gsbiz/0b232c3f-a463-4daa-8ddb-929d9dfeff7d .]
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Adressbezogene Nachsuche brachte zwei zusätzliche, aber nicht zum Schrott-/Reuse-Dossier gehörende Plattform-Leads: LiberSave beschreibt „Transfurt(ria)“ als Geldtransferdienst an Trommsdorffstraße 11, 99084 Erfurt; Fresha führt „Loco Artista Tattoo“ an derselben Adresse und weist ausdrücklich darauf hin, dass der Veranstaltungsort nicht mit Fresha verbunden ist. Beide Angaben sind Verzeichnis-/Plattformdaten und belegen weder aktuelle Vollbelegung noch Falschheit des älteren An-/Verkauf-Treffers. Keine Zusammenführung, Umzugs-/Schließungsbehauptung, Frontmatter-Änderung oder Geokodierung. **ANKAUF:** kein Schrott-/Metallankauf belegt. **VERKAUF:** keine Metall-/Warenpreisliste. **GEBÜHREN:** keine Entsorgungstarife. Quellen/Leads: https://erfurt-libersave.de/merchants/transfurtria-8c5a966d464e7743 ; https://www.fresha.com/lvp/loco-artista-tattoo-erfurt-trommsdorffstrasse-erfurt-jwAo1a .]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

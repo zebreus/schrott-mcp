@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der frühere vollständige Such-Miss ist durch einen konkreten **Verzeichnislead** ersetzt: Mar. Schrottabholung Gummersbach, Peter-Heuser-Str. 9, 51643 Gummersbach, 02261 5079155. Die direkt gelesene 11880-Seite nennt nur Altmetallrecycling, keine eigene Website, E-Mail oder Zeiten. Weder rechtlicher Betreiber noch mobiler/stationärer Betrieb und tatsächlicher Ankauf sind primär belegt. Nicht mit ähnlich benannten NRW-Abholdiensten oder den auf derselben Seite vorgeschlagenen Händlern zusammenführen. Adresse/Kontakt bleiben außerhalb des Frontmatters; vor GEO Gewerbe-/Betreiberbeleg und Annahmefunktion klären. Keine Ankauf-, Verkaufs- oder Gebührenliste gefunden. Quelle (nur Lead): https://www.11880.com/branchenbuch/gummersbach/060440092B113511650/mar-schrottabholung-gummersbach.html
+Der frühere vollständige Such-Miss ist durch einen konkreten **Verzeichnislead** ersetzt: Mar. Schrottabholung Gummersbach, Peter-Heuser-Str. 9, 51643 Gummersbach, 02261 5079155. 11880 nennt nur Altmetallrecycling; LokaleSchrottplatz wiederholt dieselbe Anschrift/Telefonnummer, aber führt widersprüchliche Öffnungszeiten und pauschale Mindestmengen. Rechtlicher Betreiber, Annahme-/Abholmodus und tatsächlicher Ankauf sind nicht primär belegt. Ein ähnlich benanntes Geschwisterdossier enthält denselben Kandidaten; dies begründet Dopplungsprüfung, nicht automatische Zusammenführung. Keine Kontaktfüllung. Vor GEO Betreiber- und Kundenannahmefunktion klären. Keine belastbare Preis- oder Gebührenliste gefunden.
 
 ## Timeline
+
+### Recherche 27.10.2026: Portalangaben und Dopplungsrisiko
+
+- [Recherche 27.10.2026: 11880-Detail weiterhin mit Mar. Schrottabholung Gummersbach, Peter-Heuser-Str. 9, 51643 und 02261 5079155; die Seite zeigt Eintragsdatum 06.02.2025 und Aktualisierung 04.10.2026. LokaleSchrottplatz nennt dieselbe Adresse/Telefonnummer, aber Status „geschlossen, öffnet morgen um 11“ neben Wochenzeiten Mo–Sa 07–21 und standardisierte Mindestmengen 100 kg Fe/1 kg NE. Das sind widersprüchliche Portalangaben, keine Händlerbestätigung oder Preisbedingungen. Ähnlicher Kandidat im Geschwisterdossier ist kein Merge-Nachweis. Kein Fill/GEO. **Ankauf:** keine verifizierten Ankaufkurse oder Mindestmengen; **Verkauf:** keine Liste; **Gebühren:** keine Abholtarife/Gratisregel. Quellen: https://www.11880.com/branchenbuch/gummersbach/060440092B113511650/mar-schrottabholung-gummersbach.html ; https://lokaleschrottplatz.de/mar-schrottabholung-gummersbach/ .]
 
 ### Recherche 18.10.2026 (Welle 1202 West)
 

@@ -28,6 +28,10 @@ Ein Das-Telefonbuch-Eintrag ordnet den Betrieb am Wiesendamm 15 in Spandau der A
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die aktuelle Branchen-Suche von Das Telefonbuch führt im Bezirk zwei Autoverwertungs-Treffer. Der Eintrag „An- und Verkauf von KFZ Schrotthandel“ steht weiter separat mit Wiesendamm 15, 13597 Berlin und 030 77906961; der zweite Treffer ist die anders benannte GS Verwertung GmbH an Neuendorfer Str. 64-69. Keine Quelle verbindet beide Betriebe. Das bleibt ein Verzeichnisbeleg, keine Bestätigung einer öffentlichen Annahmestelle. ANKAUF: keine Fahrzeug- oder Teilekurse; VERKAUF: keine Liste; GEBÜHREN: keine Abhol- oder Entsorgungstarife. „Gratis anrufen“ bezeichnet die Telefonbuch-Funktion, nicht kostenlosen Betrieb. Keine Felder ergänzt; Wiesendamm 15 bleibt GEO-Kandidat, Annahmefunktion ungeprüft. Quelle: https://www.dastelefonbuch.de/Suche/Autoverwertung/Spandau .]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Brancheneintrag live verifiziert - Das Telefonbuch ("An- und Verkauf von KFZ Schrotthandel", Wiesendamm 15, 13597 Berlin-Spandau, Tel. 030 77906961, Branche Autoverwertung, "Oeffnet um 8:00 Uhr") bestaetigt Seed-Eintrag exakt; street-Feld entruempelt (war "Wiesendamm 15, ; Tel. ..."); Oeffnungszeiten nur Fragment ("Oeffnet um 8:00") - NICHT gefuellt; website_status unbekannt (keine Website gefunden); Status bleibt aktiv (2 Belege: Seed-Telefonbuch + Live-Verzeichnis); Quelle(n): dastelefonbuch.de/Suche/Autoverwertung/Spandau 02.10.2026.]

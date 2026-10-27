@@ -34,6 +34,10 @@ Der Feuerwehrbericht zur Übung am 11.04.2026 erwähnt Autoverwertung Krause als
 
 ## Timeline
 
+### Recherche 27.10.2026: Verzeichnisangabe gegen Übungsbericht abgeglichen
+
+- [Recherche 27.10.2026: Der 11880-Eintrag nennt weiterhin Albrecht-Thaer-Str. 16, 29439 Lüchow und 0162 8340276 (Eintragsdatum 16.04.2026, Portalaktualisierung 04.10.2026); diese Metadaten sind kein heutiger Betreiberbeleg. Der Feuerwehrbericht vom 11.04.2026 erwähnt Krause ausdrücklich als Mitgeber eines Betriebsgeländes für eine Übung, jedoch ohne Adresse oder Inhaber. Die Portalanschrift bleibt wegen gleichlautender Adress-Leads für Bleck/Boick nicht exklusiv zuordenbar. Kein Fill oder GEO. **Ankauf:** keine Fahrzeugvergütung/Schrottkurse; **Verkauf:** keine verifizierte Ersatzteilpreisliste; **Gebühren:** keine Verwertungs-/Abholtarife. Quellen: https://www.11880.com/branchenbuch/luechow-wendland/060440092B113982255/autoverwertung-krause.html ; https://www.ffluechow.de/2026/04/11/verkehrsunfall-mit-eingeklemmter-person-nach-kleinbrand/ .]
+
 ### Recherche 20.10.2026 — Eigenrecherche
 
 - [Recherche 20.10.2026: Neue Suchtreffer zu „Autoverwertung Krause“ wiederholen Albrecht-Thaer-Str. 16/29439 und 0162 8340276 als Verzeichnisangaben. Dieselbe Hausnummer erscheint in Suchtreffern zugleich für „Autoverwertung Bleck“ (05841 709300) und „Boick Autoverwertung“; keine der gefundenen Seiten belegt eine gemeinsame Rechtsperson, Umbenennung oder Nachfolge. Dies ist ein konkreter Adress-/Identitätskonflikt, kein Beweis gegen die Feuerwehrnennung der Krause bei der Übung. Keine Telefon-/Adressübernahme, kein GEO. Ankauf/Verkauf/Gebühren ohne bestätigte Tarife. Quelle(n): https://www.werkenntdenbesten.de/e/113982255/altmetallrecycling/luechow-wendland/autoverwertung-krause-bewertungen.html ; https://autoverwerter.de/autoverwertungen/Niedersachsen/L%C3%BCchow-Dannenberg-3354.html ; https://www.yelp.com/biz/boick-autoverwertung-u-recycling-abschlepp-u-bergungsdienst-l%C3%BCchow.]

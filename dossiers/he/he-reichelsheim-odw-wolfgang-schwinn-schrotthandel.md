@@ -24,9 +24,18 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Seed-Identität ist nicht unabhängig bestätigt. Ein aktueller Portalprofil-Lead nennt Wolfgang Schwinn Schrotthandel an Helene-Göttmann-Straße 14A, 64385 Reichelsheim, Tel. 0171 1806999; ältere Das-Örtliche-Einträge nennen Helene-Göttmann-Straße 14 und 06164 5662. Die Abweichungen bei Hausnummer und Telefon sind ungelöst und die Verzeichnisse keine Betreiberbelege. Das Portal zeigt außerdem ein „Geschlossen“-Badge und Mindestannahmemengen; beides belegt weder tatsächliche Schließung noch Ankaufspreise. `status: pruefung` bleibt.
+
+- **Ankauf:** Portal nennt Eisen ab 100 kg und NE-Metalle ab 1 kg als Mindestmengen; keine bestätigten oder numerischen Ankaufskurse.
+- **Verkauf:** keine Verkaufspreise.
+- **Gebühren:** keine Gebühren-/Containerpreise.
+- **Geokodierung:** Helene-Göttmann-Straße 14/14A bleibt wegen Quellen-/Telefonkonflikt und fehlendem Annahmenachweis ungepinnt.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Das Portalprofil `lokaleschrottplatz.de` direkt geprüft: es nennt Helene-Göttmann-Straße 14A, 64385 Reichelsheim, Tel. +49 171 1806999, eine Materialliste, Mindestmengen 100 kg Eisen/1 kg NE und ein „Geschlossen“-Badge. Das ist ein Aggregator-Lead, kein Betreiber-/Schließungsnachweis; die frühere Das-Örtliche-Spur lautet Helene-Göttmann-Str. 14, Tel. 06164 5662, also ungelöster Hausnummern-/Telefonkonflikt. Mindestmengen sind Annahmeschwellen, keine Preise. **ANKAUF:** keine numerischen Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Keine Felder ergänzt und keine Adresse geokodiert. Quelle(n): https://lokaleschrottplatz.de/wolfgang-schwinn-schrotthandel (Portal-Lead); https://www.dasoertliche.de/?kw=Wolfgang+Schwinn&ci=64385+Reichelsheim&form_name=search_nat (ältere Verzeichnisspur).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

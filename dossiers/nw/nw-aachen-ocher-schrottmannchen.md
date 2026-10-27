@@ -29,6 +29,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 27.10.2026: Verzeichnis erneut direkt geprüft
+
+- [Recherche 27.10.2026: Gelbe-Seiten-Detail nennt weiterhin Kroitzheider Weg 8, 52076 Aachen, 0176 24453838 und Mo–Fr 09–17/Sa 09–14, aber bleibt ein Portal-Lead ohne bestätigten Betreiber/Annahmestelle. Findix-Direktabruf endete mit Zeitüberschreitung; ältere Anzeige zu kostenloser Altmetallabholung/Ankauf NE-Metall ist dadurch nicht neu bestätigt. Keine Frontmatter-Änderung, insbesondere kein GEO; Öffnungszeiten und Adresse nicht als heutige Betriebsbestätigung lesen. **Ankauf:** keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine bestätigte Gratisregel oder Tarife. Quellen/Abrufgrenze: https://www.gelbeseiten.de/gsbiz/afe626ca-d7f5-4fa4-9b4e-9a2ba12e7054 ; https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen .]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.7677500, 6.1029000. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

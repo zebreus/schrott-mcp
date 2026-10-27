@@ -30,6 +30,10 @@ Die Verzeichnisse nennen Simone Lenhardt Schrotthandel an Gewerbegebiet Haidt 12
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die bestehenden Verzeichnisprofile erneut abgegrenzt: 11880 nennt Simone Lenhardt, Gewerbegebiet Haidt ohne Hausnummer, 97355 Kleinlangheim und 09325 980304; die Portalspur lokaleschrottplatz.de führt zusätzlich Haidt 12 sowie Mindestmengen Eisen ab 100 kg/NE ab 1 kg und ein „Geschlossen“-Badge. Das sind Aggregatorangaben, keine aktuelle Betreiberbestätigung; ein Badge ist kein Schließungsnachweis. Mindestmengen sind keine Euro-/kg-Preise. **ANKAUF:** keine bestätigten numerischen Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Keine neue Frontmatter-Änderung; Haidt 12 erst nach Betreiber-/Annahmebestätigung geokodieren. Quellen: https://www.11880.com/branchenbuch/kleinlangheim/060440092B113196064/simone-lenhardt-schrotthandel.html ; https://lokaleschrottplatz.de/simone-lenhardt-schrotthandel/ .]
+
 ### Recherche 15.10.2026 (12:00-Welle B)
 
 - [Recherche 15.10.2026: Quellenpräzision nachgebessert: direkt gelesener 11880-Eintrag nennt Simone Lenhardt, Gewerbegebiet Haidt OHNE Hausnummer, 97355 Kleinlangheim und 09325 980304; die frühere Zusammenfassung einer vollständigen gemeinsamen Nr.-12-Adresse wird durch diesen Eintrag nicht getragen. Keine Zeiten, E-Mail oder Website; Eintragsdaten 01.08.2024/Aktualisierung 04.10.2026 sind keine Betriebsprüfung. Lokaleschrottplatz-Direktabruf heute 403/Challenge: frühere Mindestmengen und „Geschlossen“-Badge nicht neu gelesen. Bestehende Adresse/Telefon/Beschreibung deshalb ausdrücklich weiter nur ungeprüfter Aggregatorbestand, keine primärbestätigte Annahmeempfehlung. ANKAUF: 100 kg Eisen/1 kg NE aus Vorrecherche sind Mengen, keine Preise; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Offen: Hausnummer 12, aktuelle Betreiberidentität und Gültigkeit der Mindestmengen durch Gewerbe-/Betreiberquelle bestätigen. Quellen: https://www.11880.com/branchenbuch/kleinlangheim/060440092B113196064/simone-lenhardt-schrotthandel.html ; https://lokaleschrottplatz.de/simone-lenhardt-schrotthandel/ (403).]

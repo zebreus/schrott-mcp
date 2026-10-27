@@ -34,6 +34,10 @@ Das direkt gelesene lokale Branchen-/Tourismusverzeichnis Grasberg24 führt „D
 
 ## Timeline
 
+### Recherche 27.10.2026: Grasberg24-Lead erneut direkt gelesen
+
+- [Recherche 27.10.2026: Das Grasberg24-Profil führt weiterhin Holger Albers, Eickedorfer Straße 14, 28879 Grasberg, 04208 916542, 0170 5703651 und schrottkiste@t-online.de sowie „Schrottankauf“/Abholung. Das Portal kennzeichnet den Eintrag weiterhin als nicht betriebs-eigene Seite und warnt vor möglicherweise veralteten Angaben. Kein unabhängiger Betreiber-, Register- oder Annahmestellennachweis; keine Kontaktübernahme oder GEO. **Ankauf:** nur qualitative Portalwerbung, keine Kurse; **Verkauf:** keine Liste; **Gebühren:** kein Abholpreis/Gratisversprechen. Quelle (Lead): https://www.grasberg24.de/neu/Detail.html?aid=4093 .]
+
 ### Recherche 24.10.2026: Verzeichnishinweis erneut direkt geprüft
 
 - [Recherche 24.10.2026: Grasberg24-Profil direkt erneut gelesen. Es wiederholt Holger Albers, Eickedorfer Straße 14, 28879 Grasberg, zwei Telefonnummern und die Aussage „Schrottankauf – Abholung von Schrott und Altmetall“, erklärt aber ausdrücklich, dass es ein vom Portal zusammengestellter Eintrag und keine Betriebswebsite ist und Angaben veraltet sein können. Daher keine unabhängige Betreiber-/Registerbestätigung, keine bestätigte Annahmestelle und kein Anlass, Kontaktfelder zu befüllen. **Ankauf:** nur qualitative Portalwerbung, keine Kurse; **Verkauf:** keine Liste; **Gebühren:** Abholpreis/Gratisbedingung offen. Keine GEO-Koordinaten ergänzt. Quelle (Verzeichnislead): https://www.grasberg24.de/neu/Detail.html?aid=4093]

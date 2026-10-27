@@ -28,6 +28,10 @@ Die aktuelle Betreiberwebsite bewirbt Schrotthandel und -ankauf, Abholung, Conta
 
 ## Timeline
 
+### Recherche 27.10.2026: Kontaktdarstellung und Preisversprechen revalidiert
+
+- [Recherche 27.10.2026: Homepage, Kontakt, Impressum und Metallankaufseite direkt gelesen. Impressum nennt Tarek Idrisse, Zeisigweg 3, 49088, Telefon 0152 12499036 und Tippfehler-Mail `info@schotthandeltariko.de`; Homepage/Kontakt zeigen dieselbe Ziffernfolge anders gruppiert (01521 2499036) und `info@schrotthandeltariko.de`. Gelbe-Seiten-Lead Poststraße/49086 bleibt als Adresskonflikt bestehen. Da keine unabhängige Bestätigung der Einzelunternehmeridentität/Standortzuordnung vorliegt, keine strukturierte Adresse/Kontaktänderung. Website bewirbt Ankauf von Kupfer, Messing, Aluminium, Kabel, Edelstahl und Eisen zu Tageskursen, ohne Zahlen; nennt Hofanlieferung, aber keine Hofadresse. **Verkauf:** keine Warenpreisliste; **Gebühren:** Container/Abholung nicht beziffert, kostenloses unverbindliches Angebot ist kein kostenloser Dienst. Keine GEO. Quellen: https://www.schrotthandeltariko.de/ ; https://www.schrotthandeltariko.de/kontakt/ ; https://www.schrotthandeltariko.de/impressum/ ; https://www.schrotthandeltariko.de/leistungen/metallankauf/ ; https://www.gelbeseiten.de/gsbiz/64a1ab59-a02b-4634-b2d5-6c98b1944332 .]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Entsorgung/Container

@@ -30,6 +30,10 @@ Ein neuer, zum Ort passender Lead ist **Blum GmbH Schrott Metallhandel**, Auf de
 
 ## Timeline
 
+### Recherche 27.10.2026: Domaininhalt erneut geprüft
+
+- [Recherche 27.10.2026: `http://www.blum-metallhandel.de/` liefert weiterhin eine generische Template-Seite „Metallhandel für Industrie und Handwerk“ mit allgemeinen Stahl-/Aluminium-/Lieferbehauptungen und Fußzeile „business directory“, jedoch ohne identifizierbaren Betreiber, Adresse, Impressum oder konkrete Schrottankauf-/Verkaufsleistungen. Die Seite ist kein Betreiberbeleg für den Bergisch-Gladbacher Verzeichnislead; auch die konkurrierenden Adressen Auf der Kaule vs. Scharrenbroichweg 10a bleiben ungelöst. **Ankauf:** keine zurechenbaren Preise; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Keine Feldfüllung oder GEO. Quelle: http://www.blum-metallhandel.de/ .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Frühere Aussage „kein Schrottbetrieb Blum in Bergisch Gladbach auffindbar“ präzisiert: Das Örtliche und Gelbe Seiten führen lokal „Blum GmbH Schrott Metallhandel“, Auf der Kaule, 51427, Telefon 02204 62640; nur Aggregatoren. Drittportal nennt Hausnr. 40, eine weitere Suche Scharrenbroichweg 10a. Die verlinkte HTTP-Domain zeigt eine generische Geo.io-Template-Landingpage ohne identifizierbare Firma/Impressum, HTTPS ist nicht nutzbar; sie belegt keinen Betreiber. Abgrenzung: Gebrüder Blum GbR in Niederzier bleibt fremd. Ankauf/Verkauf/Gebühren: keine verifizierte Preisliste oder Konditionen. Keine Frontmatter-Fills; Hausnummer und genaue Betreiber-/Annahmestelle vor GEO klären. Quellen: https://www.dasoertliche.de/Themen/Blum-GmbH-Schrott-Metallhandel-Bergisch-Gladbach-Alt-Refrath-Auf-der-Kaule ; https://www.gelbeseiten.de/gsbiz/6e63a345-38df-42d0-92f7-60a8242d20fd ; https://schrottplatz-info.de/ ; http://www.blum-metallhandel.de/ ; Abruf 13.10.2026.]

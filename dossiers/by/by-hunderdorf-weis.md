@@ -33,6 +33,10 @@ Das Dossier enthält nur den Namen Weis, Hunderdorf und PLZ 94336; eine genaue A
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Das offizielle Branchenverzeichnis der Gemeinde Hunderdorf erneut direkt geprüft; die sichtbare Liste enthält keinen passenden Weis-/Schrott-Eintrag. Es handelt sich um eine freiwillige Gemeindeliste, nicht um ein vollständiges Gewerberegister; der fehlende Treffer beweist weder Nichtexistenz noch Schließung. Name Weis und PLZ 94336 bleiben ohne genaue Anschrift/Betreiberzuordnung. **ANKAUF:** keine bestätigten Bedingungen oder Preise; **VERKAUF:** keine Preise; **GEBÜHREN:** keine Angaben. Keine Geokodierung ohne belastbare Adresse. Quelle: https://www.hunderdorf.de/Branchenverzeichnis.n49.html .]
+
 ### Recherche 18.10.2026 — Welle 12:02 Süd
 
 - [Recherche 18.10.2026: Gemeinde-Branchenverzeichnis heute direkt HTTP 200 gelesen; die sichtbare Unternehmensliste enthält keinen passenden Weis-/Schrott-Eintrag. Das ist eine freiwillige Wirtschaftsliste, kein vollständiges Gewerberegister und kein Negativnachweis. Ergänzende Namenssuche Weis/Hunderdorf/Schrott ohne zuordenbaren Betreiberfund. Nicht mit ähnlich geschriebenen Händlern anderer Orte verknüpfen. Frontmatter unverändert; Ankauf: keine belegten Kurse/Annahme; Verkauf: keine Preise; Gebühren: keine Tarife. GEO mangels Straße und ausgeschriebenem Betreiber zurückstellen; nächster belastbarer Schritt kommunale Gewerbeauskunft zum ursprünglichen Fund. Quelle: https://www.hunderdorf.de/Branchenverzeichnis.n49.html .]

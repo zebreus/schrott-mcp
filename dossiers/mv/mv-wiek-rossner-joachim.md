@@ -31,6 +31,10 @@ Mehrere Branchenverzeichnisse führen „Rossner Joachim“ bzw. „Schrott Ross
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die beiden bisherigen Profile auf Schrottplatz.org und Schrottplatz-Info erneut verglichen: beide nennen Müllerweg 8, 18556 Wiek und Tel. 038391 757. Es bleibt ein konsistenter Verzeichnis-Lead, kein unabhängiger Betreiber-/Registerbeleg. Schrottplatz-Info weist darauf hin, dass Angebot und Öffnungszeiten nicht vollständig erfasst sind; der dortige fehlerhafte Homepage-Link (PHP-Warntext statt Betreiberauftritt) liefert keinen Websitebeleg. **ANKAUF:** keine bestätigten Bedingungen oder Preise; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife. Keine Frontmatter-Füllung oder Geokodierung; tatsächliche Kundenannahme ist offen. Quellen: https://www.schrottplatz.org/altenkirchen-ruegen/schrott-rossner-joachim-aYEPVY.html ; https://www.schrottplatz-info.de/schrottplatz/Dranske/Rossner-Joachim .]
+
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Zwei Verzeichnisprofile direkt geprüft: Schrottplatz.org und Schrottplatz-Info stimmen bei Müllerweg 8, 18556 Wiek und Tel. 038391 757 überein. Beide sind Verzeichnisse, kein Betreiber-/Registerbeleg; Schrottplatz-Info sagt, Beschreibung, Zeiten und Leistungsangebot seien nicht vollständig erfasst. Der Link „zur Homepage“ in diesem Datensatz ist fehlerhaft/kein Betreiberauftritt. Damit bleibt die Adresse Lead, nicht bestätigte Anlieferstelle oder GEO. **Ankauf/Verkauf/Gebühren:** keine Betreiber-Preislisten. Keine Frontmatter-Kontakte als primär verifiziert hochgestuft. Quellen: https://www.schrottplatz.org/altenkirchen-ruegen/schrott-rossner-joachim-aYEPVY.html ; https://www.schrottplatz-info.de/schrottplatz/Dranske/Rossner-Joachim .]

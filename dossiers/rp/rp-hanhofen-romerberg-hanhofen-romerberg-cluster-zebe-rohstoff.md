@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Cluster bleibt ein Sammel-Klärfall und darf nicht als eine gemeinsame Firma behandelt werden. NorthData führt **ZEBE Rohstoffhandel GmbH Schrott-Metalle Gießerei- und Hüttenbedarf**, HRB 51621 AG Ludwigshafen, Martin-Greif-Str. 31, 67354 Römerberg; der angezeigte Gesellschaftszweck umfasst Handel mit Schrott, Metallen und Nichteisenmetallen sowie Gießerei-/Hüttenbedarf. Sichtbare Jahresabschlüsse reichen bis 2023 (veröffentlicht 24.01.2025); das ist kein Nachweis heutigen Betriebs oder einer öffentlichen Annahmestelle. ZEBE-Adresse und Rechtsträger bleiben nur dieser Cluster-Komponente zugeordnet, nicht in gemeinsame Frontmatter-Felder übertragen. Die übrigen Wagner-, Kreischer- und Lehr-Namen bleiben separate Verzeichnisleads.
+
+**Ankauf:** Registerzweck nennt Handel, aber keine heutigen Annahmebedingungen oder Preise. **Verkauf:** keine Preisliste. **Gebühren:** keine Tarife. **GEO:** Martin-Greif-Str. 31 ist ein Registermirror-Adressbeleg, kein bestätigter öffentlicher Hof; nicht geokodieren, bis Betrieb/Annahmestelle bestätigt sind.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: NorthData-Unternehmensseite zu ZEBE direkt gelesen: **ZEBE Rohstoffhandel GmbH Schrott-Metalle Gießerei- und Hüttenbedarf**, AG Ludwigshafen HRB 51621, Martin-Greif-Str. 31, 67354 Römerberg; Gegenstand nennt Handel mit Schrott, Metallen und Nichteisenmetallen sowie Gießerei-/Hüttenbedarf. Sichtbarster Jahresabschluss 2023 am 24.01.2025 veröffentlicht. Dies ist ein Registermirror-Identitäts-/Adressbefund, aber weder aktuelle Betriebsbestätigung noch öffentliche Annahme-/Anlieferbestätigung. Keine ZEBE-Felder auf den Sammelcluster übertragen; die übrigen Namen bleiben getrennte Leads. **ANKAUF:** Geschäftszweck belegt keinen tatsächlichen aktuellen Ankauf/Kurs. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Kein GEO. Quelle: https://www.northdata.de/ZEBE+Rohstoffhandel+GmbH+Schrott-Metalle+Gie%C3%9Ferei-+und+H%C3%BCttenbedarf,+R%C3%B6merberg/Amtsgericht+Ludwigshafen+a.Rhein+HRB+51621 .]
 
 ### Recherche 02.10.2026
 

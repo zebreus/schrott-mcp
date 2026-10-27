@@ -30,6 +30,10 @@ Plausibler Rechtsträgerkandidat ist **HAHN GmbH**, HRB 24161 beim AG Saarbrück
 
 ## Timeline
 
+### Recherche 27.10.2026: Rechtsträgerlead erneut geprüft
+
+- [Recherche 27.10.2026: NorthData-Seite zur HAHN GmbH erneut direkt gelesen: HRB 24161, Kohlbrunnenstr. 19, 66740 Saarlouis; Unternehmenszweck umfasst Schrotthandel und Güternahverkehr, jüngste dort sichtbare Veröffentlichung 23.06.2023. Das ist ein Registerdatenbank-/Rechtsträgerlead, keine aktuelle Betreiberbestätigung eines geöffneten Annahmeplatzes und keine Zuordnung zur Seed-Mobilnummer 0170 2020322. Hahn & Ecker GmbH bleibt separate Registereinheit; keine Verbindung unterstellt. **Ankauf:** keine Preisangaben; **Verkauf:** keine Liste; **Gebühren:** keine Liste. Kohlbrunnenstr. 19 nicht als GEO-Annahmepunkt übernehmen, bevor Kundenbetrieb bestätigt ist. Quelle: https://www.northdata.de/HAHN%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2024161 .]
+
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Kein neuer Betreiberauftritt, aktueller Originalregisterauszug oder Zuordnungsbeleg für die Seed-Mobilnummer 0170 2020322 gefunden. Frühere Registerdatenbankspur HRB 24161 / Kohlbrunnenstr. 19 und Gesellschaftszweck Schrotthandel/Transport bleibt rechtsträgerbezogen, belegt aber keinen aktuell geöffneten Annahmeplatz. Domainversuche `hahn-saarlouis.de` bleiben nicht auswertbar; Ausfall nicht als Schließung gewertet. HRB 23595 Hahn & Ecker bleibt getrennte Rechtseinheit. Kein Ankaufskurs, Materialverkaufspreis oder Gebührentarif. Keine Felder geändert; Kohlbrunnenstr. 19 nur nach Prüfung der Punktart/Publikumszufahrt für GEO. Quellen: https://www.northdata.de/HAHN%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2024161 ; https://www.northdata.de/Hahn%20%26%20Ecker%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2023595 ; https://hahn-saarlouis.de/ ; https://saarlouis.stadtbranchenbuch.com/120832.html]

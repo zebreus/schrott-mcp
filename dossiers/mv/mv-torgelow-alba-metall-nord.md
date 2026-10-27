@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Die aktuelle ALBA-Metall-Standortübersicht nennt 13 Treffer, keinen in Torgelow. Eine ALBA-Group-ISO-50001-Urkunde enthält als historische Anlage (gültig 24.06.2018–23.06.2021) jedoch die Adresse Waldsiedlung 7, 17358 Torgelow unter den gelisteten Standorten der ALBA Metall Nord. Das belegt einen historischen Standortbezug, nicht einen heutigen Publikumsannahmehof. Ein Branchenbuch nennt zusätzlich die frühere Bezeichnung „ALBA Metall Ost GmbH“; eine Umfirmierungs-/Nachfolgekette oder heutiger Betrieb in Torgelow ist nicht belegt. `status: pruefung` bleibt angemessen. ALBA wirbt gruppenweit mit Stahl-/Metallankauf, aber die geprüften Seiten veröffentlichen keine numerischen Preise.
+Die aktuelle ALBA-Metall-Standortübersicht nennt 13 Treffer, keinen in Torgelow. Eine ALBA-Group-ISO-50001-Urkunde enthält als historische Anlage (gültig 24.06.2018–23.06.2021) jedoch die Adresse Waldsiedlung 7, 17358 Torgelow unter den gelisteten Standorten der ALBA Metall Nord. Das belegt einen historischen Standortbezug, nicht einen heutigen Publikumsannahmehof. Ein Branchenbuch nennt zusätzlich die frühere Bezeichnung „ALBA Metall Ost GmbH“; eine Umfirmierungs-/Nachfolgekette oder heutiger Betrieb in Torgelow ist nicht belegt. `status: pruefung` bleibt angemessen. Die zentrale ALBA-Ankaufseite wirbt mit Annahme von Stahl- und Metallschrott zu „Bestpreisen“ auf allen eigenen Plätzen; die Verkaufsseite beschreibt sortierte Recyclingrohstoffe für Schrotthandel und Industrie, ohne öffentlich ausgewiesene Preiszahlen. Diese Gruppenangaben belegen weder einen heutigen Torgelower Betrieb noch dessen Konditionen.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Aktuelle ALBA-Metall-Standortseite sowie zentrale Privatkunden-Ankauf- und Verkaufsseiten erneut direkt geprüft. Die Standortliste führt 13 Standorte, weiterhin ohne Torgelow; das sagt für sich allein nichts über Schließung aus und ändert nicht den historischen Beleg Waldsiedlung 7 aus dem bis 23.06.2021 gültigen Zertifikatsanhang. **ANKAUF:** ALBA bewirbt an aktuellen Standorten Annahme zu „Bestpreis“/individuellen Konditionen, aber ohne numerische Kurse; keine Zuordnung zu Torgelow. **VERKAUF:** die zentrale Seite beschreibt sortierte Recyclingrohstoffe für Schrotthandel/Industrie, ohne öffentliche Preisliste und ohne Torgelow-Standortbezug. **GEBÜHREN:** keine lokalen Tarife. Kein Fill, keine Schließungsaussage, keine Geokodierung. Quellen: https://metall.alba.info/unternehmen/standorte/ ; https://metall.alba.info/ankauf/privathaushalte ; https://metall.alba.info/verkauf .]
 
 ### Recherche 26.10.2026
 

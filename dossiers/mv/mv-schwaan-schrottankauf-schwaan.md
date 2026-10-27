@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Der Import führt „Cu, Blei, Zinn, Zink, Alu, Messing, Edelstahl, Kabel“ als Ankaufkategorien; das ist eine historische Seed-Angabe, keine aktuelle Betreiberbestätigung. Neue Branchenportal-Treffer nennen „Schrottankauf Schwaan“ und als mögliche Domain schrottankauf-schwaan.de, aber die Adresse/Telefonnummern widersprechen sich und die Website war beim Direktabruf technisch nicht erreichbar. Es fehlt ein lesbares Impressum bzw. eine verifizierte Betreiberidentität. Kontakt, Standort und Annahmebedingungen bleiben offen; `pruefung` bedeutet nicht geschlossen.
+Der Import führt „Cu, Blei, Zinn, Zink, Alu, Messing, Edelstahl, Kabel“ als Ankaufkategorien; das ist eine historische Seed-Angabe, keine aktuelle Betreiberbestätigung. Neue Branchenportal-Treffer nennen „Schrottankauf Schwaan“ und als mögliche Domain schrottankauf-schwaan.de, aber die Adresse/Telefonnummern widersprechen sich und die Website war beim Direktabruf technisch nicht erreichbar. Es fehlt ein lesbares Impressum bzw. eine verifizierte Betreiberidentität. Die Stadt und der Landkreis führen separat einen öffentlichen Wertstoffhof in Schwaan; kommunale Entsorgungsbedingungen/gebühren sind ausdrücklich keine Preise oder Tarife dieses Händler-Seeds. Kontakt, Standort und Annahmebedingungen für den Händler bleiben offen; `pruefung` bedeutet nicht geschlossen.
 
 **Ankauf:** keine händlerspezifische Preisliste oder bestätigte Vergütung. **Verkauf:** keine Liste. **Gebühren:** keine Angaben. **GEO:** weder Verlängerte Güstrower Straße noch eine konkrete Hausnummer ist als aktueller Annahmepunkt verifiziert.
 
 ## Timeline
+
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Die offiziellen Seiten der Stadt Schwaan und des Landkreises Rostock direkt geprüft. Die Stadt nennt einen kommunalen Wertstoffhof im Gewerbegebiet Ost; der Landkreis weist Altmetallannahme dort kostenfrei aus und führt für andere Fraktionen Gebühren (Seitenstand 24.04.2026): Baustellenabfall/Dispersionsfarbe 82,97 €/m³, Bauschutt 65,08 €/m³, Grüngut 16,37 €/m³, Restabfall 70,05 €/m³. Das sind kommunale Entsorgungsbedingungen/-gebühren des öffentlichen Wertstoffhofs, keine Schrott-Ankaufspreise, nicht dem privaten/ungeklärten Händler „Schrottankauf Schwaan“ zugeordnet. Dessen Portaladresse Verlängerte Güstrower Str. 4 und die abweichenden Telefonnummern bleiben unbestätigt; die Händlerdomain war beim Direktabruf nicht verwertbar. **Händler ANKAUF/VERKAUF/GEBÜHREN:** keine zuordenbaren Preislisten. Kein Frontmatter-Fill und keine GEO-Übertragung auf den Wertstoffhof. Quellen: https://www.schwaan.de/buergerinfo/wertstoffhof ; https://www.abfall-lro.de/de/wertstoffhof-wertstoffe/wertstoffhoefe.php ; https://schrottankauf-schwaan.de/ (technischer Abruffehler, kein Schließungsbeleg).]
 
 ### Recherche 22.10.2026
 

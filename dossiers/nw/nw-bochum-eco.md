@@ -33,6 +33,10 @@ provenance_origin: table
 
 ## Timeline
 
+### Recherche 27.10.2026: Betreiberseiten erneut geprüft
+
+- [Recherche 27.10.2026: Root, About- und Kontaktseite von `eco-schrottabholung.de` direkt gelesen. Der Auftritt nennt 0152 11485966, info@eco-schrottabholung.de und generische Schrottabholung/Schrottankauf- sowie „gerechte Vergütung“-Werbung; keine Bochum-Adresse, identifizierbare Rechtsperson oder konkrete Sammelstellenadresse. „Sammelstelle“ ohne Ort ist kein GEO-Ziel; Footer verweist auf Partner „Schrottabholung DE“. Der Impressum-Pfad lieferte 404, was weder fehlendes Impressum an anderer Stelle noch Schließung belegt. Keine Zuordnung zum Seed, keine Frontmatter-Änderung. **Ankauf:** qualitative Werbung, keine Zahlenkurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife/Gratisregel. Quelle(n): https://eco-schrottabholung.de/ ; https://eco-schrottabholung.de/about/ ; https://eco-schrottabholung.de/kontakt/ ; Abruf 27.10.2026.]
+
 ### Recherche 23.10.2026: Marken-/Standortabgleich
 
 - [Recherche 23.10.2026: Der aktuelle Suchlauf findet neben den bereits geprüften generischen Webseiten einen LinkedIn-Auftritt „Eco Schrottabholung“ mit allgemeiner Ruhrgebietsangabe und Verweis auf eco-schrottabholung.de. Er liefert weder Bochum-Adresse noch Impressum/Rechtsträger und beweist nicht, dass dieser Anbieter der Seed „Eco“ ist. Keine Zuordnung oder Frontmatter-Fills. Ankauf ohne verifizierbare Konditionen/Preisliste; Verkauf und Gebühren ohne zuordenbare Tarife. Kein GEO. Quellen/Leads: https://de.linkedin.com/in/eco-schrottabholung-a379a9294 ; https://eco-schrottabholung.de/ ; https://eco-schrottabholung.de/kontakt .]

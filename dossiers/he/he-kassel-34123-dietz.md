@@ -30,6 +30,10 @@ Autoverwertung Dietz bleibt ein ungeklärter Kasseler Betrieb. Lossestraße 105 
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Der direkte Abruf von http://www.altauto.net/ scheitert weiterhin an einem Transportfehler; die Betreiber-Facebook-Seite ist ohne Anmeldung nicht inhaltlich einsehbar. Damit gibt es keinen neuen Beleg für Inhaber, aktuelle Adresse, Betrieb, Annahme oder Zertifizierung. Der alte Lossestraße-105-Hinweis und die kostenlose Abholung samt Verwertungsnachweis bleiben Portal-Leads, keine Gebührenfreiheit oder Ankaufvergütung. ANKAUF: keine bestätigten Kurse; VERKAUF: keine Fahrzeug-/Teilepreise; GEBÜHREN: kostenlose Abholung nicht verifiziert, keine belastbaren Tarife. Kein Schließungsnachweis und keine GEO-Freigabe. Quellen: http://www.altauto.net/ (Transportfehler); https://www.facebook.com/Autoverwertung.Dietz/ (Login, kein lesbarer Betriebsinhalt).]
+
 ### Recherche 18.10.2026 — Welle 18:00 / Shard 3
 
 - [Recherche 18.10.2026: Eigene Primärgegenprobe altauto.net wieder mit Transportfehler, Facebook leitet auf Logintext ohne Betriebsinhalt. Daher kein aktueller Betreiber-/Adressnachweis; insbesondere keine erneute Bestätigung des früheren 404- oder DNS-Befunds aus einem bloßen Transportfehler. description trennt technischen Zugriff von Betriebsstatus. Website-Status tot bleibt historischer Altwert ohne eingetragene URL, nicht Beweis der Schließung; Owner technische Statusbereinigung separat entscheiden. ANKAUF ohne Vergütungsbeleg, VERKAUF ohne Liste, GEBÜHREN inklusive angeblicher Gratisabholung/Verwertungsnachweis unbelegt. Lossestraße 105 nicht geokodiert/Alt-GEO nicht bestätigt. Quellen: http://www.altauto.net/ (Transportfehler); https://www.facebook.com/Autoverwertung.Dietz/ (Loginseite).]

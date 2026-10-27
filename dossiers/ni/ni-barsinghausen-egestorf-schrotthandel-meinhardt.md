@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: https://schrotthandel-meinhardt.de
-website_status: tot
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -25,9 +25,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiber-Domain war beim Direktabruf nicht erreichbar; das beweist weder dauerhafte Nichterreichbarkeit noch Schließung. Ein aktueller LokaleSchrottplatz-Lead nennt Am Schützenpl. 2A, 30890 Barsinghausen und +49 178 8777868, aber keine unabhängige Zuordnung zu „Egestorf“ oder zum rechtlichen Betreiber. Seine Öffnungszeiten und Statusanzeige widersprechen einander; auch Mindestmengen sind nicht als Händlerbedingungen bestätigt. `website_status` steht daher auf `unbekannt`; Betreiber, Egestorf-Zuordnung und tatsächliche Kundenannahme bleiben offen.
+
+**Ankauf:** keine belastbare Preisliste; Portal-Mindestmengen 100 kg Fe/1 kg NE sind unbestätigt. **Verkauf:** keine Liste. **Gebühren:** keine verifizierten Abhol-/Containerkosten. **GEO:** Adresse erst nach Betreiber-, Ortsteil- und Kundenannahmebestätigung geokodieren.
 
 ## Timeline
+
+### Owner-Korrektur 27.10.2026: unbelegten Website-Status zurücknehmen
+
+- [Korrektur 27.10.2026: Der frühere Frontmatter-Wert `website_status: tot` beruhte laut Eintrag vom 02.10. auf einem Verbindungsfehler beim Websiteabruf. Die dokumentierten Nachprüfungen vom 04.10. und 27.10. ergaben ebenfalls nur Transport-/Verbindungsfehler, keinen unabhängigen Beleg für eine dauerhaft tote Domain. Deshalb `website_status` auf `unbekannt` korrigiert; das behauptet weder Erreichbarkeit noch Nichterreichbarkeit oder Geschäftsschließung. Die ältere Recherchehistorie bleibt erhalten. Quelle für die aktuelle Abrufgrenze: https://schrotthandel-meinhardt.de/ ; frühere Befunde: Timeline 02.10. und 04.10.2026.]
+
+### Recherche 27.10.2026: Website-Abrufgrenze und widersprüchlicher Portal-Lead
+
+- [Recherche 27.10.2026: Direktabruf von https://schrotthandel-meinhardt.de/ lief in einen Transportfehler; daraus folgt weder dauerhaft tote Domain noch Schließung. LokaleSchrottplatz nennt weiterhin Am Schützenpl. 2A, 30890 Barsinghausen und +49 178 8777868, listet Mo–Do 07–18/Fr 07–17, zugleich aber „geschlossen, öffnet morgen um 11“. Dort genannte 100 kg Fe/1 kg NE Mindestmengen sind nicht vom Händler bestätigt. Keine Primärquelle zur Egestorf-Zuordnung, Betreiberidentität oder öffentlichen Annahme; keine Feldänderung/GEO. **Ankauf:** keine verifizierten Kurse; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quellen/Lead: https://schrotthandel-meinhardt.de/ ; https://lokaleschrottplatz.de/schrotthandel-meinhardt/ .]
 
 ### Recherche 04.10.2026
 

@@ -28,6 +28,10 @@ Lesbarer Betreiber-Einzelbeleg D. Sattler, Beethovenweg 1, Seligenstadt. Startse
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Startseite und Kontakt/Impressum des Betreiberauftritts direkt erneut gelesen. D. Sattler nennt Beethovenweg 1, 63500 Seligenstadt, Telefon 0163 6997236 und Mo-Fr 07:00-17:00, Samstag nach Vereinbarung. Die Startseite bewirbt kostenlose Abholung von Schrott und Metallresten sowie Ankauf von Bunt- und Edelmetallen, nennt aber keine Euro-Kurse. Entrümpelung und Demontage erfolgen auf Anfrage; kostenlose Besichtigung/Angebot ist keine kostenlose Durchführung. VERKAUF: keine Preisliste; GEBÜHREN: keine bezifferten Tarife für Entrümpelung, Demontage oder Transporte. Weiterhin Betreiber-Einzelbeleg, daher keine Frontmatter-Ergänzung oder GEO-Freigabe. Quellen: https://sattler-schrott-metallentsorgung.de/ ; https://sattler-schrott-metallentsorgung.de/kontaktimpressum .]
+
 ### Recherche 26.10.2026
 
 - [Recherche 26.10.2026: Betreiberstartseite und Kontakt/Impressum direkt erneut gelesen. Die Seite wirbt weiter mit kostenloser Schrott-/Metallabholung und Ankauf von Bunt- und Edelmetallen; Entrümpelung und Demontage nur auf Anfrage, Transporte nach Vereinbarung. Besichtigung/Angebot kostenlos bedeutet nicht, dass Entrümpelung oder Demontage selbst kostenlos wären. Kontaktseite nennt weiterhin D. Sattler, Beethovenweg 1, 63500 Seligenstadt, 0163 6997236 und Mo–Fr 07:00–17:00/Sa nach Vereinbarung; kein Registerbeleg oder Zahlenkurs gefunden. ANKAUF: keine €/kg-Kurse; VERKAUF: keine Liste; GEBÜHREN: beworbene kostenlose Abholung/Besichtigung, sonst keine bezifferten Tarife. Website bleibt Einzelquelle. Quellen: https://sattler-schrott-metallentsorgung.de/ ; https://sattler-schrott-metallentsorgung.de/kontaktimpressum .]

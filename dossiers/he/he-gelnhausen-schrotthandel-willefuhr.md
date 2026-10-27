@@ -28,6 +28,10 @@ Der Eintrag ist trotz wiederholter Suche weiterhin nicht mit einer Betreiberseit
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Der aktuelle Betreiberauftritt schrotthandel-willefuehr.de nennt im Impressum weiterhin Alexander Willeführ, Odenwaldstraße 63, 63785 Obernburg und 06022 70 99680; die Startseite beschreibt das Einzugsgebiet, schafft aber keine eindeutige Betreiber- oder Niederlassungsbrücke nach Gelnhausen. Die Seite „Börsen Preise“ grenzt ausdrücklich ab, dass dort gezeigte Recyclingmetall-Börsenpreise nicht die Ankaufspreise des Unternehmens sind und tatsächliche Ankaufspreise separat angefragt werden müssen. Diese Angaben sind nicht auf den Gelnhauser Seed übertragbar. ANKAUF für Gelnhausen: keine Liste; VERKAUF: keine Liste; GEBÜHREN: keine Gelnhausen-Tarife. Status, Felder und fehlende GEO bleiben unverändert. Quellen: https://schrotthandel-willefuehr.de/impressum.php ; https://schrotthandel-willefuehr.de/ ; https://schrotthandel-willefuehr.de/shop.php .]
+
 ### Recherche 15.10.2026, Welle 12:00 A
 
 - [Recherche 15.10.2026: Konkrete Gegenquelle erstmals in dieser Welle direkt gelesen: Impressum schrotthandel-willefuehr.de nennt Alexander Willeführ, Odenwaldstraße 63/63785 Obernburg und 06022 70 99680, keinen Gelnhauser Standort. Root wirbt für Aschaffenburg, nicht als Gelnhauser Zweigstellenbeleg. Keine Übertragung von Kontakten/Zeiten oder dem Link Börsen Preise: fremde Börsenpreise sind keine Ankaufsliste dieses Gelnhauser Leads. Northdata-Suche Willeführ Gelnhausen liefert in den ersten 15 unscharfen Treffern keinen zuordenbaren Einzelbeleg, kein amtlicher Negativbescheid. Betreiber/Standort in Gelnhausen bzw. Altenhaßlau weiterhin offen; keine Frontmatter-Fills, keine zugeordnete Ankauf-/Verkaufs-/Gebührenliste; Quelle(n): https://schrotthandel-willefuehr.de/impressum/ ; https://schrotthandel-willefuehr.de/ (Suchindex); https://www.northdata.de/?query=Willef%C3%BChr%20Gelnhausen]

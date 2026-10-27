@@ -28,6 +28,10 @@ Ungeklärter Dietzenbacher Portal-Lead „Miky Schrotthändler“. Lohrer Weg, 6
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: Den bisherigen Portal-Lead erneut gegen die angegebene Domain abgegrenzt. Das Portal nennt Lohrer Weg, 63128 Dietzenbach, 01575 1529589 und mikyschrotthandler.com; die Domain ließ sich im Direktabruf nicht verwertbar öffnen. Das bleibt ein ungeklärter Verzeichnis-Lead, kein Beleg für Betreiberidentität, aktuelle Annahme oder Geschäftsaufgabe. **ANKAUF:** keine bestätigten Bedingungen/Kurse; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Keine Kontaktdaten übernommen und keine Adresse geokodiert. Quelle: https://mikyschrotthandler.com/ (Direktabruf nicht verwertbar; technischer Fehler ist kein Schließungsbeleg); Portalangaben laut Recherche 02.10.2026, die damalige Portal-URL ist im vorhandenen Dossier nicht überliefert.]
+
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Klärfall — einziger Hinweis ist lokaleschrottplatz.de (Lohrer Weg, 63128 Dietzenbach, +49 1575 1529589, Domain mikyschrotthandler.com genannt); keine Betreiber-Website live verifiziert (website_status tot bleibt), kein HRB, kein Zweitbeleg → keine Frontmatter-Fills. Quelle(n): lokaleschrottplatz.de Dietzenbach-Eintrag]

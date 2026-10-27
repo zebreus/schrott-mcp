@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-Die Frontmatter-Daten Karl-Ernst u. Doris Reininghaus, Am Langen Acker 12, 58515 Lüdenscheid, Tel. 02351 71028 und „Recyclinghof“ beruhen auf übereinstimmenden Branchenverzeichnissen; ein aktueller Betreiberauftritt oder unabhängiger Register-/Behördenbeleg wurde nicht ermittelt. Deshalb ist die bisherige Einstufung `aktiv` auf `pruefung` zurückgenommen. Die Felder bleiben als Verzeichnis-Leads sichtbar, nicht als bestätigte Annahmestelle.
+Die Frontmatter-Daten Karl-Ernst u. Doris Reininghaus, Am Langen Acker 12, 58515 Lüdenscheid, Tel. 02351 71028 und „Recyclinghof“ beruhen auf übereinstimmenden Branchenverzeichnissen. Eine Registerspiegelseite führt zudem den historischen, inzwischen gelöschten **Ernst Reininghaus** HRA 2934 an derselben Anschrift; sie verbindet ihn aber nicht mit den im Seed genannten Karl-Ernst und Doris oder mit einem heutigen Betrieb. Deshalb ist `pruefung` weiterhin ein Identitäts-/Aktivitätsklärfall; die Frontmatter-Leads sind keine bestätigte aktuelle Annahmestelle.
 
 **Ankauf:** keine Betreiberbestätigung oder Preisangaben. **Verkauf:** keine Liste. **Gebühren:** keine Liste. Adresse/Telefon erst nach Betreiberbestätigung geocodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026: historische Handelsregisterspur mit exakter Adresse
+
+- [Recherche 27.10.2026: Eine direkt gelesene Handelsregister-Spiegelseite führt „Ernst Reininghaus“, HRA 2934, als gelöscht und nennt Am Langen Acker 12, Lüdenscheid; sie zeigt Eintragung 26.07.1923. Das ist ein historischer Rechtsträger-/Adresshinweis aus einem Registermirror, kein aktueller Originalauszug und kein Nachweis, dass der historische Betrieb mit „Karl-Ernst u. Doris Reininghaus“ aus den Branchenverzeichnissen identisch ist, fortgeführt wurde oder heute Schrott annimmt. NorthData-Exaktsuche lieferte keine Treffer, aber keine autoritative Negativauskunft. Keine Frontmatter-/Statusänderung. **Ankauf:** keine Betreiberpreise; **Verkauf:** keine Liste; **Gebühren:** keine Liste. Adresse bleibt ungeprüfter Lead; vor GEO aktuelle Betreiber-/Annahmefunktion bestätigen. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/nw/Iserlohn/HRA/2934/Ernst-Reininghaus .]
 
 ### Recherche 13.10.2026
 

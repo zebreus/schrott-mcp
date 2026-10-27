@@ -30,6 +30,10 @@ Registerzweck umfasst Abschleppen/Bergung, Autoverwertung/Entsorgung, Fahrzeug- 
 
 ## Timeline
 
+### Recherche 27.10.2026
+
+- [Recherche 27.10.2026: GLEIF-API erneut direkt abgerufen. Das Golden-Copy-Publishdatum ist 27.10.2026, aber der Datensatz selbst nennt weiterhin `entity.status: ACTIVE`, `registration.status: LAPSED` und `lastUpdateDate: 19.07.2021`. Rechtlicher Name/Registerkennung und Anschrift unverändert: Rilei Automobile GmbH, HRB 737, Zum Rundling 44, Cheinitz, 39624; Hauptsitzfeld „Cheinitzer Rundling 44“, Kalbe (Milde). Das neue technische Publishdatum ist keine frische Unternehmens-/Betriebsbestätigung und `ACTIVE` kein Hof-/Annahmebeleg. Keine Frontmatter-Änderung, keine GEO und keine aktuellen Ankauf-/Verkaufs-/Gebührenpreise. Quelle: https://api.gleif.org/api/v1/lei-records/529900TGM8IAAPLG8W46 .]
+
 ### Recherche 21.10.2026
 
 - [Recherche 21.10.2026: Auto-Werkstatt.de listet RILEI Automobile GmbH, Ansprechpartnerin Nicole Wernecke, Cheinitzer Rundling 44, 39624 Kalbe, Festnetz 039001 90922/90924 und rilei.de; das Profil ist ein Branchenverzeichnis (mit „Unternehmen verifizieren“-Aufforderung) und nennt als Spezialisierung nur Autoreparatur. Die Angaben sind ein neuer Identitäts-/Adresslead, aber keine Primärquelle und kein aktueller Nachweis für Autoverwertung, Schrottankauf oder Nachfolge des früheren Unternehmens. Rilei-Domain bei Direktabruf weiter Domain-Verkaufsseite. Keine Frontmatter-Fills oder GEO. **Ankauf:** keine Autoverwertungs-/Schrottpreise; **Verkauf:** keine Ersatzteilpreise; **Gebühren:** keine Tarife. Quelle(n): https://www.auto-werkstatt.de/kalbe/rilei-automobile-gmbh-aULLNy ; https://www.rilei.de/ (Abruf 21.10.2026).]

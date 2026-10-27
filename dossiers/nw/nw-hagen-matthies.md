@@ -25,9 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ein aktueller 11880-Verzeichniseintrag nennt **Rosalie Matthies Metall- u. Schrottankauf**, Zur-Nieden-Str. 20, 58095 Hagen, 02331 16452; er ist ein Suchlead, kein Betreiber-/Registerbeleg und keine bewiesene Verbindung zum Seednamen „Matthies“. Daher bleiben Adresse, Telefon und Betrieb ungefüllt; der frühere gemeinsame GEO-Punkt ist ausdrücklich zurückgezogen und wird nicht durch diesen unverbundenen Lead ersetzt.
+
+**Ankauf:** nur qualitative Verzeichnis-Kategorie, keine Kurse. **Verkauf:** keine Liste. **Gebühren:** keine Abhol-/Annahmetarife. **GEO:** Zur-Nieden-Str. 20 erst nach Betreiber-/Seed-Zuordnung und Bestätigung einer Kundenannahmestelle neu geokodieren.
 
 ## Timeline
+
+### Recherche 27.10.2026: neuer Hagen-Verzeichnislead, Identität offen
+
+- [Recherche 27.10.2026: 11880 führt „Rosalie Matthies Metall- u. Schrottankauf“, Zur-Nieden-Str. 20, 58095 Hagen, 02331 16452; Metadaten nennen Eintrag vom 29.06.2021 und Aktualisierung 01.10.2026. Das bleibt ein einzelner Verzeichnislead und belegt weder die Verbindung zur Seedzeile „Matthies“ noch aktuelle Annahme. Keine Stammdatenübernahme und kein GEO; `clear_fields: 'geo'` bleibt wichtig, weil der alte gemeinsame Punkt nach Mehringen aufgelöst wurde. **Ankauf:** keine Preise; **Verkauf:** keine Liste; **Gebühren:** keine Tarife. Quelle (Lead): https://www.11880.com/branchenbuch/hagen-westfalen/120674719B1730010/rosalie-matthies-metall-u-schrottankauf.html .]
 
 ### Korrektur 24.10.2026: Gemeinsamen falschen Hagen-Punkt zurückziehen
 

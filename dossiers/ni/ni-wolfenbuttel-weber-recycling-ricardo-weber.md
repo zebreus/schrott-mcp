@@ -31,6 +31,10 @@ Der live geprüfte Betreiberauftritt gehört laut Impressum zu Ricardo Weber / W
 
 ## Timeline
 
+### Recherche 27.10.2026: Betreiberangaben erneut gelesen
+
+- [Recherche 27.10.2026: Homepage und Impressum erneut direkt geprüft; Betreiberseite nennt weiterhin Ricardo Weber, Weber Recycling, Im Kleinen Feld 62, 38304 Wolfenbüttel (Impressumsfuß 29.06.2026). Die Leistungsdarstellung bewirbt Abholung kleiner und großer Privat-/Gewerbemengen nach Termin, Tagespreisabrechnung sowie „meistens“/„in der Regel“ kostenlose Abholung; Containergrößen 5/7/10 m³ ohne Eurotarif. Bestimmte Abfälle (u.a. Elektroschrott, ölhaltige Karosserien, Gasflaschen) werden ausgeschlossen. Das bleibt eine Betreiber-Selbstauskunft aus einer einzigen Quelle; Einzelunternehmen ohne Registerbeleg, daher keine Feldfreigabe, kein bestätigter öffentlicher Hof. **Ankauf:** keine numerische Liste; **Verkauf:** keine Liste; **Gebühren:** keine Containerpreise und keine universelle kostenlose Abholung. Keine GEO. Quellen: https://www.weber-recycling.de/ ; https://www.weber-recycling.de/impressum/ ; https://www.weber-recycling.de/schrott-und-metallhandel/ ; https://www.weber-recycling.de/faq/ ; https://www.weber-recycling.de/containerdienst/ .]
+
 ### Owner-Gate 08.10.2026
 
 - [Korrektur 08.10.2026: Der Owner liest das Impressum separat und bestätigt die Selbstauskunft Ricardo Weber/Wolfenbüttel. Dies ist weiterhin dieselbe einzige Betreiberquelle, keine zweite unabhängige Identitätsbestätigung und keine registerkongruente HRB-Ausnahme. Die während der Recherche vorgeschlagene Websitefüllung daher noch nicht freigegeben; URL bleibt als Kandidat in der Historie, website leer und website_status unbekannt. status pruefung erhält den konkreten Verifikationsbedarf, keine Schließungsbehauptung. Quelle: https://www.weber-recycling.de/impressum/ .]
