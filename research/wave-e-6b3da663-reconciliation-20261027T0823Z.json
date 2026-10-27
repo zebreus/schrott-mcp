@@ -1,0 +1,493 @@
+{
+  "ok": true,
+  "release_commit": "6b3da663f845d7527e284b8b075f3467935e5cd9",
+  "release_tree": "324d206f1391ad9e18e4c126896414de1f59d097",
+  "checked_count": 60,
+  "scalar_checks": 660,
+  "notes_hash_checks": 60,
+  "seed_hash_checks": 60,
+  "scope": "60 pinned Wave E traders; 11 scalars, complete Timeline hashes, and stored seed_hash only; no GEO/source/deployment validation",
+  "rows": [
+    {
+      "slug": "be-marzahn-hellersdorf-schrotthandel-achtert",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "be-steglitz-zehlendorf-rich-herbig-metallhandel-berlin",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "by-ichenhausen-michael-hammerschmidt",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "by-konigsberg-anger",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "by-munchen-r-muller",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "by-neustadt-a-d-aisch-stirling-industrie-metallhandel",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "by-peienberg-seiler",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "by-sennfeld-97526-mertel-autoverwertung",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "by-wurzburg-versbach-97078-pfeifer-rainer-schrotthandel",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "hb-stuhr-thomas-seidel-schrotthandel",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-alsfeld-schrotthandel-entsorgung-delis",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-bad-emstal-34308-pohl-anita",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-darmstadt-nord-hartmann-recycling",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-darmstadt-wixhausen-der-zerseeger-schrotthandel",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-dietzenbach-stalcant-schrotthandler",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-eschborn-65760-pfaff-alexander",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-fulda-dietershan-schrotthandel-stephan-goldbach",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-hanau-63456-pfragner-georg",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-langenselbold-63505-levy-schrott-metall",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-limburg-65549-scheuer",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-nidderau-ab-recycling-bjoern-asal",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-spangenberg-34286-heinrich-kleinschmidt-rohprod",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "he-wetzlar-jori-recycling-schrott-wetzlar",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "hh-allermohe-van-der-meulen-edelmetaal-b-v",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "hh-billbrook-alt-und-buntmetallhandel-dejan",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "hh-stellingen-georg-lensch-sohne",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "mv-demmin-oetjen-rohstoffhandel",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "mv-neubrandenburg-karsten-bobzien-schrotthandel-abbruch-ba",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "ni-hildesheim-autoverschrottung-hildesheim",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "ni-langwedel-auto-recycling-pankowski",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "ni-st-andreasberg-wilfried-joachim-thiermann",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-essen-cbr-bracke",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-essen-kollner",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-essen-schuttler",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-gummersbach-mar-schrottabholung",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-gutersloh-bartsch",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-koln-chorweiler-altmetalle-reinhard",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-koln-mulheim-a-f-altleben",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-koln-reimann",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-lennestadt-l-mulaj",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-unna-mairitsch",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "nw-wesel-jack-schrotersk",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "rp-kaiserslautern-67655-kratz-pfandkredit",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "rp-mayen-sk-schrotthandel-serviceleistungen",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "rp-oberzissen-56651-reinhardt",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "rp-worms-67549-kampfer",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "sh-lubeck-topschrott",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "sl-lebach-autoverwertung-volz-renate-volz",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "sn-grorohrsdorf-ot-bretnig-schrottaufbereitung-rosler",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "sn-kirchberg-08107-containerdienst-kaminski-sohn",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "sn-weiwasser-uwe-bellmann-schrott-buntmetall",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "st-gardelegen-ot-jeseritz-herms-recycling-schrott-abbruch-entrumpe",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "st-kothen-06366-mrr-schrottplatz-kothen",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "st-querfurt-tsr-recycling-standort-querfurt",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "st-sandau-schrotthandel-r-thieke",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "th-bad-tennstedt-schrottabholdienst-scheffler-mario",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "th-gera-stublach-07552-ostthuringer-recycling-und-handels",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "th-weira-reinisch-u-reinisch",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    },
+    {
+      "slug": "th-zedlitz-07557-entsorgung-und-recycling-bernd-zauritz",
+      "ok": true,
+      "scalar_checks": 11,
+      "notes_hash_match": true,
+      "seed_hash_match": true,
+      "failures": []
+    }
+  ],
+  "failures": []
+}
