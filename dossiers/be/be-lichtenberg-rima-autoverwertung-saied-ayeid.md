@@ -15,6 +15,7 @@ status: pruefung
 description: Historisch kommunal gelistete Autoverwertung in Lichtenberg; aktuelle Anerkennung und Kontaktdaten müssen im heutigen Fachbetrieberegister geprüft werden.
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja — Autoverwertung
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Die frühere Berliner Senatsliste stützte RIMA an Josef-Orlopp-Str. 79–83. Die aktuelle Senatsseite verweist auf das GADSYS-Fachbetrieberegister; dessen browserbasierte Anwendung lieferte keinen auswertbaren RIMA-Einzeldatensatz. Das ist kein Negativnachweis. Gelbe Seiten führt weiterhin Saied Ayeid/RIMA an der Altadresse, aber nur als Aggregator-Lead. Die frühere Bewertung „2-Beleg-Standard erfüllt“ ist korrigiert; aktuelle Anerkennung, Betreiberidentität und Betriebsstatus bleiben offen. Altadresse bleibt als Historie erhalten, Status `pruefung`.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 27.10.2026
 

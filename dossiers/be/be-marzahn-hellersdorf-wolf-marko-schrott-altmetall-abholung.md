@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja (Abholung)
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Nur ein Gelbe-Seiten-Eintrag nennt Altmetall-Abholung an der Boschpoler Straße 120 und Mo–So 07–17 Uhr. Der vollständige Betreibername und die fortbestehende Tätigkeit sind nicht unabhängig bestätigt; das frühere „Wolf Marko“ in Cottbus betrifft eine andere Branche und ist kein Identitätsbeleg. Status `pruefung`, keine Geokodierung bis zur Bestätigung. Keine zuordenbaren ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 15.10.2026 (Welle 1200 C)
 

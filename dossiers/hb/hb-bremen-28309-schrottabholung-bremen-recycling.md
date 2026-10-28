@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: (1) Behaltene Kandidaten
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Historischer Verzeichnis-Kandidat mit ungeklärtem Betreiber; mobile Tätigkeit, öffentliche Annahmestelle, Ankauf und kostenlose Abholung nicht verifiziert. Die am 18.10.2026 gelesene 11880-Detailseite nennt Auf den Roden 2, 28307 Bremen und 0176 22544746, bleibt aber ein Aggregator-Lead. 28309 bei Cylex ist eine historische Dossierangabe; heutige Abrufe liefern 403, der PLZ-Konflikt ist nicht postalisch aufgelöst. Straße und PLZ im Dossier zurückgenommen, ohne Ersatzadresse oder Nichtexistenz zu behaupten; produktive Anwendung erst nach geprüftem Rebuild/Rollout. Andere Bremer Betreiberquellen belegen keine Identitätskette zum Kandidaten. Status `pruefung`, kein Kontakt-/Service-Fill; keine belastbar zuordenbare Preis-/Tarifquelle verifiziert.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 05.10.2026
 

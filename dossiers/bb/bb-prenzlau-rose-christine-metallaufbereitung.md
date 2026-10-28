@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: 'Nachtrag Audit-Runde 2 (Stand: 2026-09-27)'
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 „Rose Christine Metallaufbereitung“ ist mit Neustädter Damm 59 bislang nur über Schrottplatz-Verzeichnisse auffindbar; ein Betreiber-, Register- oder amtlicher Beleg für die heutige Annahme wurde nicht gefunden. Adresse und Ankauf bleiben Leads, nicht als bestätigt zu verstehen. Status pruefung, nicht geschlossen; keine veröffentlichten Ankauf-/Verkaufspreise oder Gebühren belegt.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 25.10.2026
 

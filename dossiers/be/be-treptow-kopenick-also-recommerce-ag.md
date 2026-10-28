@@ -15,6 +15,7 @@ status: unbekannt
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: kein Ankauf (nur Bestand)
 provenance_origin: table
@@ -29,6 +30,7 @@ Die Existenz der **ALSO Recommerce AG** ist in NorthData als AG Charlottenburg H
 **Preise:** Ankauf: kein Schrottankauf belegt; Verkauf: keine schrottbezogene Liste; Gebühren: keine Angaben.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

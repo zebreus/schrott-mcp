@@ -15,6 +15,7 @@ status: pruefung
 description: Autoverwertungs-Kandidat mit widersprüchlichen Verzeichnisadressen und unbestätigtem Schließungshinweis; aktueller Betrieb ungeklärt.
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja — Autoverwertung
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Koloniestr. 114 und Holzstr. 4 werden mit derselben Telefonnummer, aber ohne unabhängigen Betreiberbeleg geführt. Ein Verzeichnis verlinkt mögliche Betreiberdomains; deren Liveabruf scheitert. Der Suchindex zeigt bei autotechnik-wedding.de „Dauerhaft Geschlossen!“, die Identität und Aktualität dieser Aussage sind jedoch nicht live bestätigt. Weder aktive Annahme noch dauerhafte Schließung behaupten; Altadresse bleibt, Status jetzt Prüfung.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 27.10.2026
 

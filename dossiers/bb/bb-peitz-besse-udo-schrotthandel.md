@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Brandenburg (BB) – Recherche
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Der Seed-Eintrag „Udo Besse“ an Ottendorfer Str. 1a ist nicht als derselbe Betrieb verifiziert wie die Landkreis-Seite zur „Schrotthandlung und Containerdienst“ von Lutz Besse: Diese weist den Betreiber an Ottendorfer Straße 1a, den Standort aber an Gewerbeparkstraße 12 aus. Namen, Nummern und Annahmestelle daher nicht vermischen. Für den Udo-Eintrag bleiben Identität und Ankauf offen; keine veröffentlichte Preisangabe in den geprüften Quellen.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 18.10.2026 (18:00-Welle, Shard 1)
 

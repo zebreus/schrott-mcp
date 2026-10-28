@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja — Autoverwertung
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Neue Rechtsträgerspur: Creditreform indexiert Ralf Sperber „Autoverwertung Otto Sperber“, Berlin. Das kann die Handelsbezeichnung Otto vom heutigen Inhaber unterscheiden, ist aber nur ein Suchauszug (Vollzugriff 403). Gotenstraße 26–28/10829 bleibt Verzeichnis-/Seedlead, keine nachgewiesene aktuelle Annahmestelle. Kein Namenswechsel oder Adress-Fill ohne unabhängige Identitätsbestätigung; keine verifizierten Ankauf-, Verkaufs- oder Gebührentarife. GEO zurückgestellt.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 24.10.2026
 

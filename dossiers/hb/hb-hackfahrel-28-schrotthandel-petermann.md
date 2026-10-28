@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Bremerhaven
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 „Schrotthandel Petermann GbR“, Hackfahrel 28, 27572 Bremerhaven bleibt ohne Betreiber- oder Registerbeleg. Cylex und 11880 führen als zusätzliche Verzeichnis-Leads übereinstimmend die Mobilnummer 0151 43651620; sie wurde nicht ins Frontmatter übernommen. Weitere Branchenportal-Treffer nennen am selben Hausnummernlead auch andere Gewerbe. Das beweist weder Mitnutzung noch Verwechslung, macht aber Grundstück/Einheit/Zufahrt vor einer Geokodierung besonders prüfbedürftig. Adresse, Name und Annahmebedingungen müssen weiterhin vom Betreiber bestätigt werden. **ANKAUF:** Portal-Werbeaussage ohne Sorten-/Zahlenliste. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife; Status `pruefung`.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Nachprüfung 26.10.2026
 

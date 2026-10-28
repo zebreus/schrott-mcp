@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: unsicher
 provenance_origin: table
@@ -29,6 +30,7 @@ Direkt gelesener Portal-Lead „Biberovic Schrotthandel“, Klosterstr. 15, 1358
 **Ankauf / Verkauf / Gebühren:** keine Zahlenlisten oder verifizierten Bedingungen. Kontakt-Fill unterbleibt mangels Betreiber-/Gewerbebeleg; status pruefung. Nächster Schritt: Gewerbeidentität an der Klosterstraße klären, keine bloße Nachbarschaft zu anderen Spandauer Händlern zurechnen.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 21.10.2026 — aktueller Portalstand und Preise
 

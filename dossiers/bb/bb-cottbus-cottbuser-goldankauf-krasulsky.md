@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -29,6 +30,7 @@ Das Örtliche führt „Krasulsky Stefan Cottbuser Goldankauf“ als Schmuckware
 **Preise:** ANKAUF — kein Krasulsky zuordenbarer Gold-/Silberkurs. Die Goldkontor-Website beschreibt für ihre eigene Adresse ein individuelles Angebot nach Analyse, aber keinen festen Zahlenkurs; nicht übertragbar. VERKAUF — keine Krasulsky-Verkaufspreise. GEBÜHREN — keine Angaben. **Offen:** Betreiberzuordnung, aktuelle Tätigkeit und Annahme.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 20.10.2026
 

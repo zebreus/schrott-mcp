@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Schrottankauf Berlin (BE) — Recherche
 provenance_ankauf_raw: ja — Autoverwertung
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Das Dossier nennt Auto-Dienst Süd Krämer GmbH an der Kiefholzstraße 397 als Autoverwertung, doch die neu auffindbaren Profile sind Branchenverzeichnisse und ordnen das Unternehmen teils allgemein Kfz/Autohäusern zu. Es fehlt ein aktueller Betreiber-, Register- oder Behördenbeleg speziell für die Autoverwertung; Status deshalb `pruefung`. Der sichtbare Telefonnummer-Platzhalter wurde nicht als Kontakt übernommen. **GEO-Prüfbedarf:** Ein Portal nennt direkt nebenan Kiefholzstr. 394 als „Acit Auto Center in Treptow GmbH“; bei möglicher Adressverifizierung auf Hausnummer 397 und konkreten Hof-/Einfahrtspunkt achten, nicht auf die Nachbarfirma oder einen blockweiten Pin snappen. Keine zuordenbaren ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Nachprüfung 26.10.2026
 

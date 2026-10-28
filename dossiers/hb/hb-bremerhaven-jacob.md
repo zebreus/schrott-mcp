@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Ein amtlicher Bremer Amtsblatt-Eintrag vom 09.12.2014 nennt ausdrücklich die **Kurt Jacob GmbH & Co. KG am Am Wischacker 2, 27576 Bremerhaven** (geplante Lagerung auf dem Grundstück). Damit ist die historische Betreiber-/Adresszuordnung belegt; die Gesellschaft wurde 2019 als erloschen bekanntgemacht. Die kommunale Anlagenübersicht von 2024 nennt dort REDUX Recycling GmbH, aber keine belegte Jacob→REDUX-Nachfolgekette. Heutiger Betreiber und Kundenannahme bleiben offen; nicht geocodieren, bis die aktuelle Zuordnung geklärt ist. Keine Jacob zurechenbare numerische Ankaufspreisliste, Verkaufspreisliste oder Gebührenordnung; fremde Container-Entsorgungskosten sind keine Schrottankaufspreise.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Nachprüfung 26.10.2026
 

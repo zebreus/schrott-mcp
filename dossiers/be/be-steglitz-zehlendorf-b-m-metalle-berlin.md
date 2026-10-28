@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: B. Neu, aber "unsicher" (nur 1 Verzeichnisquelle, keine Website)
 provenance_ankauf_raw: ''
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Die B + M Metalle Berlin GmbH (HRB 132091 B) wurde laut dem dokumentierten Registerbefund 2025 von Amts wegen gelöscht. Kaiser-Wilhelm-Straße 88 ist die letzte bekannte Registeranschrift, kein bestätigter heutiger Schrottplatz. Eine Fortführung durch einen anderen Betreiber ist nicht ausgeschlossen, aber bislang nicht belegt; daher `pruefung` statt `aktiv` oder einer Schließungsbehauptung. Keine zuordenbaren Ankaufspreise, Verkaufspreise oder Gebühren belegt.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 13.10.2026
 

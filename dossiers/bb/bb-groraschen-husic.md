@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 „Schrotthandel Husic“ an Karl-Marx-Str. 18 erscheint in 11880, bislang ohne unabhängige Betreiber- oder Registerquelle. Das städtische Verzeichnis nennt separat „Dienstleistung Transporte und Schrotthandel Hedt“ an Neu Bückgen 28; kein Beleg für eine Verbindung. Seed-Adresse bleibt ein Lead, nicht geokodierungs- oder kontaktreif. Keine veröffentlichten Ankaufspreise, Verkaufspreise oder Gebühren belegt.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 14.10.2026 (18:00-Welle C)
 

@@ -15,6 +15,7 @@ status: pruefung
 description: Schrottabholung und Demontagen laut Verzeichnis-Lead in Stahnsdorf; verlinkte frühere Domain steht zum Verkauf, aktuelle Betreiberkontakte ungeklärt.
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'phone'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Ruhlsdorfer Str. 95 ist weiterhin eine übernommene Verzeichnisadresse, kein neuer Betreiberbeleg. Ein Verzeichnis nennt Telefon, E-Mail und schrott-kaden.de; die Domain zeigt inzwischen nur eine Verkaufsanzeige. Deshalb weder diese Website noch ihre alte Domain-E-Mail als aktiven Betreiberkontakt übernehmen. Domainverkauf beweist keine Betriebsschließung; Status bleibt Prüfung.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 21.10.2026
 
