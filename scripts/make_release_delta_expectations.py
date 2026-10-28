@@ -18,7 +18,7 @@ import sqlite3
 from pathlib import Path
 
 FIELDS = (
-    "name", "street", "postcode", "phone", "email", "opening_hours",
+    "name", "city", "street", "postcode", "phone", "email", "opening_hours",
     "description", "status", "trader_type", "website", "website_status",
 )
 

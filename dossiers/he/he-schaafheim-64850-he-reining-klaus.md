@@ -1,10 +1,11 @@
 ---
 slug: he-schaafheim-64850-he-reining-klaus
+clear_fields: 'geo'
 name: Reining Klaus
 trader_type: containerdienst
 state: HE
-city: Schaafheim 64850 HE
-street: Schaafheim , Karlstr. 1
+city: Schaafheim
+street: Karlstr. 1
 postcode: '64850'
 phone: ''
 email: ''

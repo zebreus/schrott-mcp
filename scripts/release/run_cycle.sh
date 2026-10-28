@@ -99,6 +99,13 @@ python3 "$ROOT/scripts/install_release_delta_verifier.py" \
   --rehearsal "$PROBE_DIR/predeploy-probe-manifest.json"
 fi
 
+echo "== pin pending corrections gate =="
+python3 "$ROOT/scripts/release/pin_pending_corrections.py" \
+  --release "$COMMIT" --tree "$TREE" \
+  --rehearsal "$PROBE_DIR/data/public.db" \
+  --manifest "$PROBE_DIR/predeploy-probe-manifest.json" \
+  --short "$SHORT"
+
 echo "== contract tests =="
 python3 "$ROOT/scripts/test_verify_wave_e_postrollout_$SHORT.py" | tail -3
 if [ "$DELTA_ROWS" != "0" ]; then

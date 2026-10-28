@@ -23,7 +23,7 @@ RELEASE_COMMIT = "RELEASE_COMMIT_PLACEHOLDER"
 RELEASE_TREE = "RELEASE_TREE_PLACEHOLDER"
 REHEARSAL_MANIFEST_SHA256 = "REHEARSAL_SHA256_PLACEHOLDER"
 FIELDS = (
-    "name", "street", "postcode", "phone", "email", "opening_hours",
+    "name", "city", "street", "postcode", "phone", "email", "opening_hours",
     "description", "status", "trader_type", "website", "website_status",
 )
 
