@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: geschlossen
-description: 'Die Seed-Zeile "DIAS GmbH" an Am Vulkanhafen 6, 20457 Hamburg ist **kein heutiger Schrottbetrieb**. Das amtliche Handelsregister (online-handelsregister.de, Abruf 28.10.2026) führt die **DIAS GmbH, AG Hamburg, HRB 90741** mit der Firmenadresse **Sachsenbrücke 5, 20457 Hamburg**, Status **aktiv**, eingetragen am 04.06.2004; die letzte Registeränderung datiert vom **10.03.2014**. Die in der früheren Recherche dokumentierten Insolvenz- und Auflösungsinträge (Eröffnung des Insolvenzverfahrens 67a IN 17/14 und Auflösung der Gesellschaft am 10.03.2014) stammen aus derselben Registerakte - das amtliche Register-Portal weist den Status weiterhin "aktiv" aus, weil der Index die Auflösung nicht nachführt. Die Seed-Anschrift **Am Vulkanhafen 6** ist eine **andere** als die registrierte (Sachsenbrücke 5) und wurde durch die Registerhistorie nie belegt; am Vulkanhafen 6 weist OSM heute "PTS Logistics" aus. Im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist **kein** Eintrag an Am Vulkanhafen 6 verzeichnet. ANKAUF: keine DIAS zuordenbaren Kurse; die historischen oder namensgleichen DIAS-Angebote dürfen nicht als aktuelle Preise übernommen werden. VERKAUF: keine Liste. GEBUEHREN: keine Tarife. Eine Nachfolge am Standort ist nicht belegt.'
+description: 'Die Seed-Zeile "DIAS GmbH" an Am Vulkanhafen 6, 20457 Hamburg ist **kein heutiger Schrottbetrieb**. Das amtliche Handelsregister (online-handelsregister.de, Abruf 28.10.2026) führt die **DIAS GmbH, AG Hamburg, HRB 90741** mit der Firmenadresse **Sachsenbrücke 5, 20457 Hamburg**, Status **aktiv**, eingetragen am 04.06.2004; die letzte Registeränderung datiert vom **10.03.2014**. Die in der früheren Recherche dokumentierten Insolvenz- und Auflösungsinträge (Eröffnung des Insolvenzverfahrens 67a IN 17/14 und Auflösung der Gesellschaft am 10.03.2014) stammen aus derselben Registerakte - das amtliche Register-Portal weist den Status weiterhin "aktiv" aus, weil der Index die Auflösung nicht nachführt. Die Seed-Anschrift **Am Vulkanhafen 6** war die **eingetragene Geschäftsanschrift** der DIAS GmbH (Registerhistorie 2006: „DIAS GmbH, Hamburg (Am Vulkanhafen 6, 20457 Hamburg)“ bei Geschäftsführerwechseln); die Anschrift wurde später auf Sachsenbrücke 5 gewechselt; am Vulkanhafen 6 weist OSM heute "PTS Logistics" aus. Im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist **kein** Eintrag an Am Vulkanhafen 6 verzeichnet. ANKAUF: keine DIAS zuordenbaren Kurse; die historischen oder namensgleichen DIAS-Angebote dürfen nicht als aktuelle Preise übernommen werden. VERKAUF: keine Liste. GEBUEHREN: keine Tarife. Eine Nachfolge am Standort ist nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -73,9 +73,14 @@ Adresspunkt "6, Am Vulkanhafen" (53.5264649/9.9462641) entfernt. Das ist ein
   Insolvenz- und Aufloesungseintraege (67a IN 17/14, Aufloesung am 10.03.2014) stammen aus derselben
   Registerakte; der amtliche Index fuehrt die Gesellschaft trotzdem als "aktiv", weil er die
   Aufloesung nicht nachfuehrt - der Index-Header "aktiv" ist damit **kein** Aktivitaetsbeleg.
-  **Adressabgleich:** Die registrierte Anschrift ist **Sachsenbruecke 5** (2013 dorthin geaendert);
-  die **Seed-Anschrift Am Vulkanhafen 6 ist eine andere** und wurde durch die Registerhistorie
-  **nie** belegt. OSM weist an Am Vulkanhafen 6 heute "**PTS Logistics**" aus. Das **amtliche
+  **Adressabgleich:** Die **Seed-Anschrift Am Vulkanhafen 6 war die eingetragene
+  Geschäftsanschrift** der Gesellschaft: Der chronologische Registerauszug fuehrt sie in den
+  Veraenderungen vom 18.04.2006 und 12.05.2006 jeweils als „DIAS GmbH, Hamburg (Am Vulkanhafen 6,
+  20457 Hamburg)“ bei Geschäftsfuehrerwechseln. Die Anschrift wurde erst spaeter auf
+  **Sachsenbruecke 5** gewechselt (Registerveraenderung vom 10.03.2014). Die Seed-Zeile
+  benennt also die fruehere, tatsaechlich registrierte Anschrift der DIAS GmbH - sie ist damit
+  **nicht** frei erfunden. Die Aussage, die Anschrift sei „durch die Registerhistorie nie belegt“,
+  war ein **Fehler dieser Notiz** und wird hiermit berichtigt. OSM weist an Am Vulkanhafen 6 heute "**PTS Logistics**" aus. Das **amtliche
   Fachbetrieberegister** (Auszug 11.08.2026) verzeichnet **keinen** Eintrag an Am Vulkanhafen 6;
   in Hamburg sind dort u.a. Green Ports (Kattwykstr. 20), Fuchslocher (Mueggenburger Str. 20-24),
   Silo-Zentrale Hamburg Recycling Solutions (Sandgrube 22), Veolia Umweltservice Nord

@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: geschlossen
+status: pruefung
 description: 'FALSCHZUORDNUNG KORRIGIERT: Der Seed-Eintrag "Schrott Josef" war kein Schrotthandel, sondern ein Verzeichnis-Eintrag der Branche IMMOBILIEN. "Schrott" ist der Nachname des Inhabers Josef Schrott; der Betrieb ist eine Immobilienagentur/Bauträgergesellschaft an Kleinreichertshofen 4, 85276 Pfaffenhofen a.d. Ilm (JS Wohnbau GmbH, HRB 190628, Bauträger; Josef Schrott ist laut Personeneintrag Geschäftsführer). Belegt durch die Branchenangabe "Immobilien" in Gelbe Seiten, Das Örtliche ("Schrott Josef", Tel. 08441 7 29 75) und GoLocal ("Schrott Josef Immobilien Kapitalanlagen", Tel. 08441 729 75, Fax 08441 49 83 35) sowie den Registereintrag der JS Wohnbau GmbH an derselben Anschrift. Kein Ankauf von Schrott oder Metall belegt; die Zeile wird daher als nicht zur Schrottbranche gehörig geführt und nicht mehr als Schrotthändler geführt. ANKAUF: keine. VERKAUF: keine. GEBÜHREN: keine. Ein etwaiger gleichnamiger Schrottbetrieb in Pfaffenhofen ist damit nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
@@ -61,6 +61,8 @@ Adresspunkt** (Kleinreichertshofen 4, 85276). Die adresskonformen OSM-Punkte sin
 Geocodierungsbedarf wird im Bericht benannt.
 
 ## Timeline
+
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Der Status ist `pruefung`, nicht `geschlossen`.** "Schrott" ist hier der **Nachname** (Josef Schrott); die JS Wohnbau GmbH HRB 190628, AG Ingolstadt, ist eine Immobilienagentur/Bautraeger und **nie** ein Schrottbetrieb - eine Schliessung zu behaupten waere eine falsche Aussage ueber den Betrieb. Nach der README gilt `geschlossen` nur fuer eine belegte Schliessung; die Zeile bleibt deshalb `pruefung` mit dokumentiertem Klaerfall. Quellen: `README.md` (Status-Semantik) ; `online-handelsregister.de` HRB 190628 (Abruf 28.10.2026).]
 
 ### Recherche 28.10.2026: Falschzuordnung "Schrott Josef" = Immobilienagentur Josef Schrott aufgelöst
 

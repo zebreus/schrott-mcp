@@ -45,6 +45,8 @@ nicht.
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Die Fließtext-Erwähnung der Nachbar-Website wurde auf die Form mit Protokoll berichtigt.** Die Notiz nannte die Domain ohne Schema ohne Schema; das ist eine reine Schreibweise der **gleichen** Quelle (der OSM-Geschäftsnode desselben Hauses), keine Änderung an der Beleglage. Quellen: `README.md` (URL-Konvention) ; die berichtigte Stelle in dieser Notiz.]
+
 ### Recherche 28.10.2026 (Shard C, 6h-Welle): archivierte Betreiberquelle sichert Kontakt und Mindestmenge
 
 - [Recherche 28.10.2026: Die eigene Domain des Betriebs ist tot: `inter-schrott.com` löst am 28.10.2026 nicht mehr auf (NXDOMAIN, auch die im Kontaktblock genannte Variante `inter-schrott.de` nicht). Das Web-Archiv führt die Startseite bis 22.04.2025 (WordPress/Divi, Footer „Interschrott | 2021“), 14.03.2025 und davor 2021/2022; ein Impressum wurde zu keinem Zeitpunkt archiviert, es gibt nur den Impressum-Link. Damit ist die Betreiberquelle historisch, aber die Identität (Name „Inter-Schrott“, Telefon 0176 24081359, info@inter-schrott.com im Footer, info@inter-schrott.de im Kontaktblock, WhatsApp) belegt. Quelle(n): https://web.archive.org/web/20250422033410/https://inter-schrott.com/ ; Direktabruf https://inter-schrott.com/ am 28.10.2026: ENOTFOUND (Abruf 28.10.2026).]

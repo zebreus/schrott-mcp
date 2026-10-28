@@ -11,8 +11,8 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: geschlossen
-description: 'Die Seed-Zeile "SNA GmbH" an Liebigstr. 72, 22113 Hamburg ist **kein Schrotthandel und keine SNA GmbH im Registersinn**. (1) Die im Handelsregister geführte **SNA GmbH, HRB 123337** (AG Hamburg) hat die Firmenadresse **Walddörferstraße 43, 22041 Hamburg**, ist **aktiv** und beschreibt laut Registerhistorie eine Sitzverlegung von Frankfurt am Main (früher HRB 86445) - die Registerhistorie nennt weder Liebigstraße noch Neuer Wall/Paul-Sorge-Straße als frühere Hamburger Anschrift. Ihre Betreiberseite (sna-grp.de) ist ein Safran-/Lebensmittelverarbeitungsunternehmen, kein Metallhandel. (2) Die **Adresse** Liebigstr. 72-80, 22113 Hamburg gehört laut amtlichem Handelsregister zur eigenständigen **Slotosch Natursteinaufbereitung GmbH, HRB 93120**, Status **aktiv** (Eingetragen 07.03.2005), Gegenstand Naturstein-/Bodenstoffrecycling und Entsorgungsleistungen - nicht zu einem Schrottbetrieb. (3) Im **amtlichen Fachbetrieberegister** (Auszug 11.08.2026) ist die Liebigstraße 72-80 **nicht** verzeichnet; im benachbarten Liebigstraße 64 sitzt **Bestsort Hamburg GmbH & Co. KG** (39 Abfallschlüssel, Lagern/Behandeln/Handeln/Makeln, u.a. 160117 Eisenmetalle, 160118 Nichteisenmetalle, 170401-170407 und 191001-191206) - ein anderer Betrieb, der hier nicht übernommen wird. ANKAUF: keine SNA zuordenbaren Kurse; die Bestsort-Leistungen gehören einem anderen Rechtsträger. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Die Seed-Telefonnummer 040 59458337 stammt nur aus Verzeichnissen und ist keiner der beiden Registerfirmen zuzuordnen.'
+status: pruefung
+description: 'Die Seed-Zeile "SNA GmbH" an Liebigstr. 72, 22113 Hamburg ist **kein Schrotthandel und keine SNA GmbH im Registersinn**. (1) Die im Handelsregister geführte **SNA GmbH, HRB 123337** (AG Hamburg) hat die Firmenadresse **Walddörferstraße 43, 22041 Hamburg**, ist **aktiv** und beschreibt laut Registerhistorie eine Sitzverlegung von Frankfurt am Main (früher HRB 86445) - die Registerhistorie nennt als frühere Hamburger Anschriften **Neuer Wall 50** (13.06.2012) und **Paul-Sorge-Straße 22** (16.04.2013), **nicht** die Liebigstraße. Ihre Betreiberseite (sna-grp.de) ist ein Safran-/Lebensmittelverarbeitungsunternehmen, kein Metallhandel. (2) Die **Adresse** Liebigstr. 72-80, 22113 Hamburg gehört laut amtlichem Handelsregister zur eigenständigen **Slotosch Natursteinaufbereitung GmbH, HRB 93120**, Status **aktiv** (Eingetragen 07.03.2005), Gegenstand Naturstein-/Bodenstoffrecycling und Entsorgungsleistungen - nicht zu einem Schrottbetrieb. (3) Im **amtlichen Fachbetrieberegister** (Auszug 11.08.2026) ist die Liebigstraße 72-80 **nicht** verzeichnet; im benachbarten Liebigstraße 64 sitzt **Bestsort Hamburg GmbH & Co. KG** (39 Abfallschlüssel, Lagern/Behandeln/Handeln/Makeln, u.a. 160117 Eisenmetalle, 160118 Nichteisenmetalle, 170401-170407 und 191001-191206) - ein anderer Betrieb, der hier nicht übernommen wird. ANKAUF: keine SNA zuordenbaren Kurse; die Bestsort-Leistungen gehören einem anderen Rechtsträger. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Die Seed-Telefonnummer 040 59458337 stammt nur aus Verzeichnissen und ist keiner der beiden Registerfirmen zuzuordnen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -33,11 +33,11 @@ Das **amtliche Handelsregister** (`online-handelsregister.de`, Abruf 28.10.2026)
 **SNA GmbH, AG Hamburg, HRB 123337**, Firmenadresse **Walddörferstraße 43, 22041 Hamburg**,
 Status **aktiv**, eingetragen am 12.06.2012 infolge einer **Sitzverlegung**; zuvor war die
 Gesellschaft beim Amtsgericht Frankfurt am Main unter **HRB 86445** eingetragen. Die
-Registerhistorie nennt **weder** die Liebigstraße **noch** Neuer Wall oder Paul-Sorge-Straße als
-frühere Hamburger Anschrift. Die Betreiberseite `sna-grp.de` (Impressum/Kontakt) beschreibt
+Registerhistorie nennt als frühere Hamburger Anschriften **Neuer Wall 50** (13.06.2012) und
+**Paul-Sorge-Straße 22** (16.04.2013), **nicht** die Liebigstraße. Die Betreiberseite `sna-grp.de` (Impressum/Kontakt) beschreibt
 **Safran- und Lebensmittelverarbeitung**, keinen Metallhandel. Der Abgleich der
-Registerhistorie mit der Seed-Adresse schlägt damit **fehl**: Die frühere Notiz vom 04.10.2026
-vermutete eine Kette über Neuer Wall/Paul-Sorge-Straße - das ist durch das Register **nicht**
+Registerhistorie mit der Seed-Adresse **bestätigt die Kette**: Die frühere Notiz vom 04.10.2026
+vermutete eine Kette über Neuer Wall/Paul-Sorge-Straße - das ist durch das Register **belegt**
 gedeckt.
 
 **2. Die Adresse Liebigstr. 72-80 gehört zu einem anderen Branchenbetrieb.** Das **amtliche
@@ -59,7 +59,7 @@ Abfallschlüssel werden **nicht** auf die SNA-Zeile übertragen.
 **Ergebnis:** Es gibt **keine belegte SNA GmbH**, die an Liebigstr. 72 Schrott ankauft. Die
 Zeile wird deshalb als **nicht mehr existente Schrottzeile** geführt (`status: geschlossen` im
 Sinne von "kein Schrottbetrieb an dieser Adresse unter diesem Namen"); es wird **nicht** behauptet,
-dass die **SNA GmbH HRB 12337** (Hamburg, aktiv) oder die **Slotosch Natursteinaufbereitung GmbH
+dass die **SNA GmbH HRB 123337** (Hamburg, aktiv) oder die **Slotosch Natursteinaufbereitung GmbH
 HRB 93120** (Hamburg, aktiv) aufgelöst seien - beide sind im Register **aktiv**, sie sind nur
 **andere Rechtsträger**. Straße, PLZ und die Seed-Telefonnummer bleiben als historische
 Seed-Angaben stehen; die Telefonnummer 040 59458337 stammt nur aus Verzeichnissen und ist **keiner**
@@ -80,6 +80,8 @@ ist 53.5315698/10.0988270 (way, "72, Liebigstraße, Billbrook, 22113 Hamburg"). 
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Der Status ist `pruefung`, nicht `geschlossen`.** Die SNA GmbH ist im Register **aktiv** (Walddoerferstrasse 43, Lebensmittelverarbeitung) und wurde **nicht** aufgeloest; die Seed-Zeile verband nur den Firmennamen mit der Branchenanschrift Liebigstr. 72, die der Slotosch Natursteinaufbereitung GmbH HRB 93120 gehoert. Eine Schliessung zu behaupten waere falsch - nach der README gilt `geschlossen` nur fuer eine **belegte Schliessung** des Eintrags, nicht fuer "kein Schrottbetrieb an diesem Eintrag". Der Status bleibt deshalb `pruefung`, die Fehlzuordnung und der Klärfall sind in der Notiz vom 28.10.2026 dokumentiert. Quellen: `README.md` (Status-Semantik) ; `online-handelsregister.de` HRB 123337 (Abruf 28.10.2026).]
+
 ### Recherche 28.10.2026: Fehlzuordnung aufgelöst - Firmenname und Adresse gehören verschiedenen Rechtsträgern
 
 - [Recherche 28.10.2026: **FEHLZUORDNUNG AUFGELÖST.** Die Seed-Zeile "SNA GmbH", Liebigstr. 72,
@@ -87,9 +89,13 @@ ist 53.5315698/10.0988270 (way, "72, Liebigstraße, Billbrook, 22113 Hamburg"). 
   **Amtliches Handelsregister** (`online-handelsregister.de`, Abruf 28.10.2026): die **SNA GmbH,
   AG Hamburg, HRB 123337**, hat die Firmenadresse **Walddörferstraße 43, 22041 Hamburg**, Status
   **aktiv**, Eintragung 12.06.2012 infolge **Sitzverlegung** von Frankfurt am Main (zuvor HRB 86445);
-  die Registerhistorie nennt **weder** Liebigstraße **noch** Neuer Wall oder Paul-Sorge-Straße als
-  frühere Hamburger Anschrift - die in der Notiz vom 04.10.2026 vermutete Anschriftkette ist damit
-  **nicht gedeckt** und wird hiermit korrigiert. Die Betreiberseite `sna-grp.de` (Impressum/
+  die **Registerhistorie bestätigt die in der Notiz vom 04.10.2026 vermutete Anschriftkette**:
+  Neuerintragung vom 13.06.2012 „SNA GmbH, Hamburg, **Neuer Wall 50**, 20354 Hamburg“ (Sitzverlegung
+  von Frankfurt am Main, zuvor HRB 86445), Veränderung vom 16.04.2013 auf **Paul-Sorge-Straße 22**,
+  22459 Hamburg, und Veränderung vom 12.03.2018 auf die heutige **Walddörferstraße 43**,
+  22041 Hamburg. Die **Liebigstraße** nennt die Registerhistorie dagegen **nicht**. Die Notiz vom
+  04.10.2026 ist damit richtig; die Aussage dieser Notiz, die Historie nenne Neuer Wall und
+  Paul-Sorge-Straße nicht, war ein **Fehler** und wird hiermit berichtigt. Die Betreiberseite `sna-grp.de` (Impressum/
   Kontakt) beschreibt **Safran-/Lebensmittelverarbeitung**, keinen Metallhandel. (2) Die **Adresse**
   Liebigstr. 72-80, 22113 Hamburg gehört laut amtlichem Handelsregister zur eigenständigen
   **Slotosch Natursteinaufbereitung GmbH, AG Hamburg, HRB 93120**, Status **aktiv** (Eintragung

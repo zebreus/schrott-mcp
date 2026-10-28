@@ -239,6 +239,16 @@ search, register, news) and never deleted — `geschlossen` only with
 evidence, otherwise `pruefung` + Klärfall; (6) cross-reference sibling
 dossiers (same operator, same city) instead of merging.
 
+**`geschlossen` means one thing only:** the *trader entry* is documented
+closed by evidence (register dissolution/insolvency, operator statement,
+permanent site closure). It is **not** a synonym for "this is not a scrap
+business", "the name is a surname", or "the address belongs to somebody
+else" — a mis-assigned seed row that never was a scrap trader stays
+`pruefung` with the Klärfall documented, so the catalog does not claim a
+closure that never happened. Rows whose entry is closed but whose scrap
+relation was never established use `pruefung` with a clear
+`kein Schrottbetrieb an diesem Eintrag` note.
+
 Research delegation: use the short, outcome-oriented assignment in
 `prompts/tiefenrecherche-welle.md`. Agents choose their research methods,
 tools and depth; the source and operator-chain standards above remain
