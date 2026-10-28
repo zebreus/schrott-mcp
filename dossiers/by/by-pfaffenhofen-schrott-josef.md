@@ -56,8 +56,9 @@ Schrottankauf, keinen Verkauf von Metall und keine Entsorgungsgebühren. Eine
 Annahmegebühr der Immobilienagentur ist nicht Teil dieses Katalogs.
 
 **Geocodierung:** Die DB-Koordinate 49.0644/8.9764 löst auf "6, Pfarrgasse, Weiler an der Zaber,
-74497 Pfaffenhofen" auf - das liegt in einem **anderen Ortsteil und etwa 4 km vom echten
-Adresspunkt** (Kleinreichertshofen 4, 85276). Die adresskonformen OSM-Punkte sind
+74397 Pfaffenhofen" auf (Landkreis Heilbronn, **Baden-Württemberg**) - das liegt rund **195 km** vom
+belegten Adresspunkt (Kleinreichertshofen 4, 85276 Pfaffenhofen an der Ilm, **Bayern**) entfernt,
+also in einer **anderen Gemeinde in einem anderen Bundesland**. Die adresskonformen OSM-Punkte sind
 "Kleinreichertshofen 4" und die Straße selbst; es wird kein Ersatzpunkt geraten, der
 Geocodierungsbedarf wird im Bericht benannt.
 
@@ -92,7 +93,7 @@ Geocodierungsbedarf wird im Bericht benannt.
   `pruefung` mit dokumentiertem Klaerfall. **Ankauf: keine. Verkauf: keine.
   Gebühren: keine** (eine Immobilienprovision ist nicht Teil dieses Katalogs). Keine Koordinate
   gesetzt: die DB-Koordinate 49.0644/8.9764 löst auf "6, Pfarrgasse, Weiler an der Zaber,
-  74497 Pfaffenhofen" auf, rund 195 km vom adresskonformen Punkt "Kleinreichertshofen 4,
+  74397 Pfaffenhofen" auf, rund 195 km vom adresskonformen Punkt "Kleinreichertshofen 4,
   85276 Pfaffenhofen a.d. Ilm" entfernt - Geocodierungsbedarf, kein Ersatzpunkt geraten.
   **Offen:** ob Josef Schrott daneben einen weiteren, nicht im Netz auffindbaren Schrottbetrieb
   an derselben Adresse betreibt, ist nicht belegt und nicht behauptet; der Seed-Eintrag bleibt

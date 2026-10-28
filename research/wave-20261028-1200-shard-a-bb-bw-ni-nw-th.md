@@ -30,7 +30,7 @@ angefasst, Slugs blieben unverändert. `scripts/release/wave_gate.py HEAD` und
 5. **GEO-Qualitätsprüfung**: der in der Produktion gespeicherte Punkt wurde für alle
    20 Slugs read-only per Nominatim-Rückwärtssuche aufgelöst und mit einem
    OSM-Hausnummernpunkt abgeglichen. Ergebnis: **17 falsche oder unbrauchbare
-   Punkte** (einer rund 150 km daneben), **8 durch einen belegten Hausnummernpunkt
+   Punkte** (einer rund 150 km daneben), **7 durch einen belegten Hausnummernpunkt
    ersetzt**, **10 zurückgezogen** ohne Ersatz, **1 war bereits korrekt** (Potsdam, jetzt
    zusätzlich im Dossier verankert).
 

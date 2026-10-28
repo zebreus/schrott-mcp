@@ -54,7 +54,7 @@ Treffer - ein **Negativbefund ohne Beweiswert**, weil die Efb-Anerkennung freiwi
 
 **GEO:** Die DB-Koordinate 50.2833/8.8333 löst auf "**14, Zwentendorfer Straße, Bönstadt,
 61194 Niddatal**" auf - also auf einen **anderen Ortsteil** (Bönstadt statt Ilbenstadt), rund
-**3,3 km** vom adresskonformen Punkt entfernt. Der adresskonforme OSM-Punkt ist
+**2,7 km** vom adresskonformen Punkt entfernt. Der adresskonforme OSM-Punkt ist
 "Köpperner Straße 1, Ilbenstadt, Niddatal" (way 289880654, 50.2825837/8.7956758). Das ist ein
 **Geocodierungsbedarf**; die Koordinate wird nicht selbst gesetzt.
 
@@ -82,7 +82,7 @@ Treffer - ein **Negativbefund ohne Beweiswert**, weil die Efb-Anerkennung freiwi
   Schrotthandel/Altmetallrecycling/Altmaterialhandel. **Verkauf: keine Liste. Gebühren: keine
   Tarife**, kostenlose Abholung nicht belegt. **GEO: Geocodierungsbedarf** - die DB-Koordinate
   50.2833/8.8333 löst auf "14, Zwentendorfer Straße, Bönstadt, 61194 Niddatal" auf, also auf einen
-  anderen Ortsteil rund 3,3 km vom adresskonformen Punkt "Köpperner Straße 1, Ilbenstadt,
+  anderen Ortsteil rund 2,7 km vom adresskonformen Punkt "Köpperner Straße 1, Ilbenstadt,
   Niddatal" (way 289880654, 50.2825837/8.7956758) entfernt; die Koordinate wird nicht selbst
   gesetzt. Quelle(n): https://www.11880.com/suche/schrotthandel/niddatal ;
   https://www.gelbeseiten.de/branchen/schrotthaendler/niddatal ;

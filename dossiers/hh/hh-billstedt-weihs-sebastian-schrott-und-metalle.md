@@ -54,7 +54,7 @@ bleibt leer, `website_status` wird auf `unbekannt` normalisiert.
 
 **GEO:** Die DB-Koordinate 53.54/10.1261 löst auf "**11, Cottaweg, Öjendorf, Billstedt**" auf und
 liegt damit **rund 140 m** vom Adresspunkt entfernt. OSM kennt in der Möllner Landstraße die
-Hausnummern **141a, 141b und 141c** (way 289880654-Bereich, 53.5389/10.1251) - die Seed-Angabe
+Hausnummern **141a, 141b und 141c** (way 397360566-Bereich, 53.5389/10.1251) - die Seed-Angabe
 "**141K**" ist in OSM **nicht** als eigener Hausknoten vorhanden. Das ist ein
 **Geocodierungsbedarf** (Hausnummer 141K gegen 141a-c klären); es wird kein Punkt geraten.
 
