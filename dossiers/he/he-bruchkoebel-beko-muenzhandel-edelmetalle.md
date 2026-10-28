@@ -4,10 +4,10 @@ name: BeKo-Münzhandel & Edelmetalle (Benjamin Kollosche)
 trader_type: sonstige
 state: HE
 city: Bruchköbel
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Waimerstr. 42
+postcode: '63486'
+phone: 06181-6109168
+email: info@bekomuenzen.de
 opening_hours: ''
 website: https://www.bekomuenzen.de/
 website_status: aktiv
@@ -27,6 +27,8 @@ provenance_origin: prose
 Münz- und Bullionankauf per Versand; persönliche Abholung nur nach vorheriger Terminvereinbarung. Kein belegter allgemeiner Altmetall- oder Schmuckankauf.
 
 ## Timeline
+
+- [Owner-Entscheidung 28.10.2026: **Die Kontaktfelder werden gefüllt - die Zwei-Quellen-Regel ist erfüllt.** Die Betreiber-Primärquelle (Impressum und AGB von bekomuenzen.de, live gelesen am 28.10.2026) nennt BeKo-Münzhandel & Edelmetalle, Inh. Benjamin Kollosche, Waimerstr. 42, 63486 Bruchköbel, Tel. 06181-6109168, E-Mail info@bekomuenzen.de; der 11880-Eintrag (JSON-LD, live gelesen am 28.10.2026) nennt **dieselbe** Anschrift, **dieselbe** Telefonnummer und **dieselbe** E-Mail. Die README-Ausnahme für Einzelunternehmer (Impressum allein) greift zwar nicht - es gibt keinen Registereintrag -, aber Impressum und Verzeichniseintrag sind zwei voneinander unabhängige Quellen für diese Zweig-Fakten. **Öffnungszeiten bleiben leer:** Das Impressum nennt eine „Service-Hotline Mo–Sa 09:00–19:00 Uhr“ (keine Ladenzeiten, es gibt kein Ladengeschäft), die 11880-JSON-LD-Zeiten sind Platzhalter („So 00:00–24:00“). `status` bleibt `pruefung` (kein Registereintrag, Fortbestand nicht amtlich datiert), `trader_type` bleibt `sonstige` (Münz- und Edelmetallhandel, kein Schrottbetrieb). Die Preisdiagramme der Seite sind Kitco-Spotmarktdaten und bleiben **keine** BeKo-Ankaufspreisliste. Quellen: https://www.bekomuenzen.de/impressum ; https://www.11880.com/branchenbuch/bruchkoebel/181843952B107208620/beko-muenzhandel-goldankauf-muenzankauf.html ; `README.md` (Regel 7, Zwei-Quellen-Standard) ; Abruf 28.10.2026.]
 
 ### Recherche 28.10.2026
 
