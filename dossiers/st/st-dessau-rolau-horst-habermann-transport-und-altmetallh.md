@@ -33,6 +33,7 @@ Die aktuelle Website der MHG Recycling GmbH erklärt, sie habe den Entsorgungsfa
 **Geokodierung:** Für die Hausnummer Taubenstraße 37 liefert OSM/Nominatim keinen adressgenauen Punkt (nur Straßenpunkte an der Taubenstraße in Dessau-West); der gespeicherte Punkt bleibt daher zurückgezogen (`clear_fields: 'geo'`), ohne Ersatz.
 
 ## Timeline
+- [Owner-Hinweis 28.10.2026: **Der Standort wird heute von der MHG Recycling GmbH betrieben.** Die Gesellschaft (Impressum HRB 37461 Amtsgericht Stendal, USt-IdNr. DE462718707, am 28.10.2026 über den EU-VIES-Dienst gültig) hat den Entsorgungsfachbetrieb „Transporte und Altmetallhandel Horst Habermann“ nach dessen Ruhestand zum 01.08.2026 übernommen und veröffentlicht am Standort Taubenstraße 37 eine tagesaktuelle Ankaufspreisliste (letzte Preisänderung 27.10.2026). Der historische Datensatz bleibt **unverändert** bestehen (kein Löschen, keine Zusammenführung ohne Beleg); der aktuelle Betrieb hat das eigene Dossier `st-dessau-rolau-mhg-recycling`. Das Zertifikat ZZPT00700034 im amtlichen Fachbetrieberegister (Stand 11.08.2026) gehört weiterhin **„Transporte und Altmetallhandel Horst Habermann“** und wird nicht auf die MHG übertragen - die MHG hat keine eigene Zertifikatsnummer. Quellen: https://www.mhg-recycling.de/impressum ; https://www.mhg-recycling.de/preise ; https://ec.europa.eu/taxation_customs/vies/ ; https://schrottregister.pages.dev/ ; Abruf 28.10.2026.]
 
 ### Recherche 27.10.2026: amtliches Register stützt die Anschrift, Preise der Nachfolge aktualisiert
 
