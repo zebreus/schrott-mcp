@@ -1,5 +1,5 @@
-//! Hofmann Metall GmbH (Zwickau Hauptsitz + Chemnitz und Elstertrebnitz als
-//! Betriebsteile):
+//! Hofmann Metall GmbH (Zwickau Hauptsitz + Chemnitz, Elstertrebnitz und
+//! Hirschfeld als Betriebsteile):
 //! KEINE eigenen Ankaufspreise auf der Site (verifiziert 28.09.2026).
 //! Die Homepage-Box "Marktpreise" zeigt AUSSCHLIESSLICH Fremddaten:
 //! Stahl Sorten 1-5 in EUR/t als "BDSV bundesweit" (mit Link auf die
@@ -8,10 +8,13 @@
 //! daher füllt dieser Handler wie `esh`/`quell` nur `trader_materials`
 //! aus der belegten Sorten-Übersicht (`/privat-kleingewerbekunden/`:
 //! 11 H2-Rubriken mit `toggler`-Sortenlabels) plus Kontakt.
-//! Eine Datei für alle drei Slugs: gleiche Annahmeseite, aber die Kontaktblöcke
-//! der Standorte unterscheiden sich in der Bauart — Chemnitz liefert zwei `<p>`,
-//! Elstertrebnitz eine Adress-`<p>` plus Kontakttabelle; deshalb je Standort ein
-//! eigener Extraktor mit eigenem URL-Anker. Kein Datum auf der Seite →
+//! Eine Datei für alle vier Slugs: gleiche Annahmeseite, aber die Kontaktblöcke
+//! der Standorte unterscheiden sich in der Bauart — Chemnitz und Hirschfeld
+//! liefern zwei `<p>`, Elstertrebnitz eine Adress-`<p>` plus Kontakttabelle;
+//! deshalb je Standort ein eigener Extraktor mit eigenem URL-Anker. Die
+//! Standort-URLs sind **nicht** einheitlich: die drei sächsischen Seiten liegen
+//! unter `/standorte/<ort>/`, die Hirschfelder unter `/standort/hirschfeld/`
+//! (singular). Kein Datum auf der Seite →
 //! `published_at: None`. Belegte Nicht-Annahmen ("... wird von uns
 //! nicht angenommen!": Elektronikschrott, Weiße Ware, Autokarossen,
 //! Katalysatoren) werden als laut geskippte Labels dokumentiert —
@@ -39,6 +42,12 @@ pub const URL: &str = "https://hofmann-metall.de/privat-kleingewerbekunden/";
 pub const IMPRESSUM_URL: &str = "https://hofmann-metall.de/impressum/";
 /// Bespoke, live-verified Chemnitz contact page (KONTAKT-Block).
 pub const CHEMNITZ_URL: &str = "https://hofmann-metall.de/standorte/chemnitz/";
+/// Betriebsteil Hirschfeld (Brandenburg/Sachsen, Bahnhofstraße 5). Achtung: die
+/// Seite liegt unter `/standort/hirschfeld/` (**singular**), nicht unter
+/// `/standorte/hirschfeld/` — die Pluralform liefert HTTP 404. Kontaktblock wie
+/// Chemnitz: Adress-`<p>` plus Kontakt-`<p>`.
+pub const SLUG_HIRSCHFELD: &str = "bb-hirschfeld-hofmann-metall";
+pub const HIRSCHFELD_URL: &str = "https://hofmann-metall.de/standort/hirschfeld/";
 /// Bespoke, live-verified Elstertrebnitz contact page (KONTAKT-Tabelle).
 pub const ELSTERTREBNITZ_URL: &str = "https://hofmann-metall.de/standorte/elstertrebnitz/";
 
@@ -48,6 +57,15 @@ pub fn handler_chemnitz() -> Handler {
         url: URL,
         schedule: Schedule::every_6h(),
         scrape: |c| Box::pin(scrape_chemnitz(c)),
+    }
+}
+
+pub fn handler_hirschfeld() -> Handler {
+    Handler {
+        slug: SLUG_HIRSCHFELD,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape_hirschfeld(c)),
     }
 }
 
@@ -81,6 +99,12 @@ async fn scrape_chemnitz(client: &reqwest::Client) -> Result<HandlerOutcome, Ing
     Ok(outcome)
 }
 
+async fn scrape_hirschfeld(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+    let (status, html) = fetch_text(client, URL).await?;
+    let outcome = build_outcome(status, &html, fetch_contact_hirschfeld(client).await?)?;
+    Ok(outcome)
+}
+
 async fn scrape_zwickau(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
     // Impressum failure fails the whole step on purpose: a moved contact
@@ -102,7 +126,14 @@ async fn fetch_contact_chemnitz(client: &reqwest::Client) -> Result<TraderInfo, 
     // Same loud rule as the impressum: a moved Betriebsteil page means
     // the site changed shape and needs eyeballs.
     let (_, html) = fetch_text(client, CHEMNITZ_URL).await?;
-    extract_info_chemnitz(&html)
+    extract_info_contact_paragraphs(CHEMNITZ_URL, &html)
+}
+
+async fn fetch_contact_hirschfeld(client: &reqwest::Client) -> Result<TraderInfo, IngestError> {
+    // Same loud rule as the impressum: a moved Betriebsteil page means
+    // the site changed shape and needs eyeballs.
+    let (_, html) = fetch_text(client, HIRSCHFELD_URL).await?;
+    extract_info_contact_paragraphs(HIRSCHFELD_URL, &html)
 }
 
 fn build_outcome(
@@ -426,7 +457,10 @@ fn extract_info_zwickau(imp: &str) -> Result<TraderInfo, IngestError> {
 /// `<h3>KONTAKT & ÖFFNUNGSZEITEN</h3>` on the Betriebsteil page
 /// (address lines, then the Büro/E-Mail row with entity-encoded mail).
 /// Missing anchors mean the page changed shape → loud error.
-fn extract_info_chemnitz(html: &str) -> Result<TraderInfo, IngestError> {
+/// Kontaktblock in der Bauart „Adress-`<p>` plus Kontakt-`<p>`“ (Chemnitz und
+/// Hirschfeld). Die Seite nennt Büro/Fax/Mobil/E-Mail in einem `<p>` mit
+/// `class="tab"`-Labels; übernommen werden Büro-Telefon und E-Mail.
+fn extract_info_contact_paragraphs(url: &str, html: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(html);
     let h3 = Selector::parse("h3").expect("valid selector");
     let anchor = doc.select(&h3).find(|h| {
@@ -437,7 +471,7 @@ fn extract_info_chemnitz(html: &str) -> Result<TraderInfo, IngestError> {
     });
     let Some(anchor) = anchor else {
         return Err(IngestError::Parse {
-            url: CHEMNITZ_URL.to_owned(),
+            url: url.to_owned(),
             detail: "Kontakt-Block fehlt".to_owned(),
         });
     };
@@ -449,7 +483,7 @@ fn extract_info_chemnitz(html: &str) -> Result<TraderInfo, IngestError> {
         .collect();
     let Some(addr_p) = paras.first() else {
         return Err(IngestError::Parse {
-            url: CHEMNITZ_URL.to_owned(),
+            url: url.to_owned(),
             detail: "Adress-Block fehlt".to_owned(),
         });
     };
@@ -482,7 +516,7 @@ fn extract_info_chemnitz(html: &str) -> Result<TraderInfo, IngestError> {
     }
     if street.is_empty() && phone.is_empty() && email.is_empty() {
         return Err(IngestError::Parse {
-            url: CHEMNITZ_URL.to_owned(),
+            url: url.to_owned(),
             detail: "keine Kontaktdaten gefunden".to_owned(),
         });
     }
@@ -641,8 +675,8 @@ fn strip_fragment(s: &str) -> String {
 #[cfg(test)]
 mod tests {
     use super::{
-        extract_info_chemnitz, extract_info_elstertrebnitz, extract_info_zwickau, grade_for,
-        negative_label, parse,
+        extract_info_contact_paragraphs, extract_info_elstertrebnitz, extract_info_zwickau,
+        grade_for, negative_label, parse, CHEMNITZ_URL, HIRSCHFELD_URL,
     };
 
     // Real excerpt shapes of the live page (28.09.2026): `<br />`
@@ -978,12 +1012,38 @@ mod tests {
             <p>Blankenburgstraße 104<br>09114 Chemnitz</p>\
             <p><span class=\"tab\">Büro:</span> 0371 / 33 49 79 1<br>\
             <span class=\"tab\">E-Mail: </span> &#99;&#x68;&#101;&#x6D;&#110;&#x69;&#116;&#x7A;&#64;&#x68;&#111;&#x66;&#109;&#x61;&#110;&#x6E;&#45;&#x6D;&#101;&#x74;&#97;&#x6C;&#108;&#x2E;&#100;&#x65;</p>";
-        let info = extract_info_chemnitz(html).expect("parses");
+        let info = extract_info_contact_paragraphs(CHEMNITZ_URL, html).expect("parses");
         assert_eq!(info.street, "Blankenburgstraße 104");
         assert_eq!(info.postcode, "09114");
         assert_eq!(info.city, "Chemnitz");
         assert_eq!(info.phone, "0371 / 33 49 79 1");
         assert_eq!(info.email, "chemnitz@hofmann-metall.de");
-        assert!(extract_info_chemnitz("<h3>Anders</h3>").is_err());
+        assert!(extract_info_contact_paragraphs(CHEMNITZ_URL, "<h3>Anders</h3>").is_err());
+    }
+
+    #[test]
+    fn standort_extracts_hirschfeld_with_entity_mail() {
+        // Real fragment shape of the live Hirschfeld page (28.10.2026),
+        // entity-encoded mail kept verbatim. Die Seite liegt unter
+        // /standort/hirschfeld/ (singular).
+        let html = "<h3>Kontakt & Öffnungszeiten</h3>\
+            <p>Bahnhofstraße 5<br>08144 Hirschfeld</p>\
+            <p><span class=\"tab\">Büro:</span> 037607 / 55 31<br>\
+            <span class=\"tab\">Fax:</span> 037607 / 54 12<br>\
+            <span class=\"tab\">Mobil:</span> 0172 37 / 61 21 1<br>\
+            <span class=\"tab\">E-Mail:</span> &#104;&#x69;&#114;&#x73;&#99;&#x68;&#102;&#x65;&#108;&#x64;&#64;&#x68;&#111;&#x66;&#109;&#x61;&#110;&#x6E;&#45;&#x6D;&#101;&#x74;&#97;&#x6C;&#108;&#x2E;&#100;&#x65;</p>\
+            <p><span class=\"tab\">Mo. - Fr.:</span> 07.00 - 16.00 Uhr - (länger geöffnet nach Absprache)<br>\
+            <span class=\"tab\">Sa.:</span> nach Absprache</p>";
+        let info = extract_info_contact_paragraphs(HIRSCHFELD_URL, html).expect("parses");
+        assert_eq!(info.street, "Bahnhofstraße 5");
+        assert_eq!(info.postcode, "08144");
+        assert_eq!(info.city, "Hirschfeld");
+        assert_eq!(info.phone, "037607 / 55 31");
+        assert_eq!(info.email, "hirschfeld@hofmann-metall.de");
+        // Die Plural-URL liefert 404: der Schlüssel darf nicht variieren.
+        assert!(HIRSCHFELD_URL.ends_with("/standort/hirschfeld/"));
+        assert!(!HIRSCHFELD_URL.ends_with("/standorte/hirschfeld/"));
+        // Ohne Kontaktblock laut scheitern, nicht still leer bleiben.
+        assert!(extract_info_contact_paragraphs(HIRSCHFELD_URL, "<h3>Anders</h3>").is_err());
     }
 }

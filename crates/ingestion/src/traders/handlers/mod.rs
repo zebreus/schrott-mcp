@@ -204,6 +204,7 @@ pub fn all() -> Vec<Handler> {
         hofmann_metall::handler_chemnitz(),
         hofmann_metall::handler_zwickau(),
         hofmann_metall::handler_elstertrebnitz(),
+        hofmann_metall::handler_hirschfeld(),
         hofmann_rastatt::handler(),
         huth_aschaffenburg::handler(),
         kalkmann::handler(),
