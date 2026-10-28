@@ -1,0 +1,493 @@
+{
+  "version": 1,
+  "release_commit": "d61e593fc42cf9f0709cb34d39c2b557a9ee7b5a",
+  "release_tree": "c0b52713b8bb9caf6a2fc06602b453b0986e42e3",
+  "rehearsal_manifest_sha256": "e5901f7e68cd9ef9cb3bfea656b832fdd9456736a7c73150599f26326975c86f",
+  "fields": [
+    "name",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bb-hirschfeld-hofmann-metall",
+    "he-dietzenbach-63128-a-w-metallhandel",
+    "he-dietzenbach-63128-lorenzo",
+    "he-dietzenbach-63128-manuel",
+    "he-dietzenbach-b-mugurel-schrotthandler",
+    "he-dietzenbach-b-samuel-schrottabholung",
+    "he-dietzenbach-cristofor-schrotthandel",
+    "he-dietzenbach-leonard-schrotthandel",
+    "he-dietzenbach-miky-schrotthandler",
+    "he-dietzenbach-schrotthandler-dietzenbach-s-o",
+    "he-dietzenbach-schrotthandler-sabri",
+    "he-dietzenbach-stalcant-schrotthandler",
+    "he-wiesbaden-65203-pagel-jurgen",
+    "rp-andernach-autodemontage-mittelrhein-nettersheim",
+    "rp-kaiserslautern-67655-peter-marco",
+    "sn-brandis-hofmann-metall-betriebsteil",
+    "st-salzwedel-recycling-riwa-richter",
+    "th-schmoelln-hofmann-metall-betriebsteil"
+  ],
+  "scope": "exactly the 18 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-d61e593. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bb-hirschfeld-hofmann-metall",
+      "values": {
+        "name": "Hofmann Metall GmbH, Betriebsteil Hirschfeld",
+        "street": "Bahnhofstraße 5",
+        "postcode": "08144",
+        "phone": "037607 5531",
+        "email": "hirschfeld@hofmann-metall.de",
+        "opening_hours": "",
+        "description": "Betriebsteil Hirschfeld der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) in der Bahnhofstraße 5, 08144 Hirschfeld (Sachsen, Landkreis Zwickau): Annahme von Buntmetallen und Legierungsschrotten, Containerdienst mit kostenfreier Containerstellung (6–10 m³ Absetz-, 18–36 m³ Abrollcontainer), Aufbereitung und Demontage. Die Zuordnung zum Bundesland ist nach Owner-Entscheidung **Sachsen** (der Betriebsteil liegt in Hirschfeld, Landkreis Zwickau; Anschrift, PLZ, Telefon und die amtliche Ortsangabe der Gemeinde stimmen überein); der Slug und sein Präfix „bb-“ bleiben unverändert, weil Slugs nie handgepflegt werden - dasselbe Muster tragen 20 weitere Dossiers im Korpus. Öffnungszeiten wegen widersprüchlicher Betreiberangaben nicht übernommen, keine öffentlichen Ankauf- oder Verkaufspreise.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hofmann-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e559ccda25136375b982af0b52d1fca88162d9ab4dd40333c52aabe4414dc9dd",
+      "seed_hash": "29ca667f4d066c3f",
+      "geo": [
+        50.6320984,
+        12.4259907
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-63128-a-w-metallhandel",
+      "values": {
+        "name": "A w Metallhandel",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "5e5d63c565a0b0aa79a0b06bc6c75524957e461ea8ecb95fea364209a28ddbc5",
+      "seed_hash": "17f8aecff3d5ea49",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-63128-lorenzo",
+      "values": {
+        "name": "Lorenzo",
+        "street": "Rohrbrunner Weg 2-4",
+        "postcode": "63128",
+        "phone": "(0163) 0393134",
+        "email": "",
+        "opening_hours": "",
+        "description": "Lorenzo Schrotthandel in Dietzenbach, Rohrbrunner Weg 2-4, 63128 Dietzenbach, Inhaber Sebastian Mihai Caldarar, kein HRB-Eintrag. Leistungen: Schrottankauf mit Anlieferung sowie Sortierung, Verwiegung und sofortiger Barauszahlung, Abholung nur bei Mengen über 500 kg, Containerdienst und Demontage. Keine €/kg-Kurse und keine Abhol- oder Containertarife veröffentlicht. Dieselbe Anschrift trägt laut 11880 und Gelben Seiten zusätzlich die Marke \"Manuel.&.Schrotthändler\" (Dossier he-dietzenbach-63128-manuel); ob es sich um einen Betrieb mit zwei Marken oder um zwei Betriebe handelt, ist offen.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "06c8b95886776be758c1ffd6ec4ff4b01c17d3b5754f3c3fea22643e9bc8c993",
+      "seed_hash": "64311856e61edc67",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-63128-manuel",
+      "values": {
+        "name": "Manuel",
+        "street": "Rohrbrunner Weg 2-4",
+        "postcode": "63128",
+        "phone": "015213319683",
+        "email": "",
+        "opening_hours": "",
+        "description": "Verzeichnislead \"Manuel.&.Schrotthändler\" in Dietzenbach, Rohrbrunner Weg 2-4, 63128 Dietzenbach, Telefon 0152 13319683; 11880 führt den Eintrag mit dem Vermerk \"Vom Inhaber bestätigt\", die Gelben Seiten nennen dieselbe Anschrift und dieselbe Nummer. Keine Betreiber-Website, kein Impressum, keine Registereinträge, keine Preisliste und kein belegter Annahmehof. Dieselbe Anschrift trägt laut Betreiber-Website \"Lorenzo Schrotthandel\" (Sebastian Mihai Caldarar, Dossier he-dietzenbach-63128-lorenzo); ob es sich um einen Betrieb mit zwei Marken oder um zwei Betriebe handelt, ist offen.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "95f89e22221b1e8d0249e9bb49c630679fc912b21f53465d70525a5d59827552",
+      "seed_hash": "f8fc106416b1b505",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-b-mugurel-schrotthandler",
+      "values": {
+        "name": "B. Mugurel Schrotthändler",
+        "street": "Robert-Koch-Str. 11",
+        "postcode": "63128",
+        "phone": "0171 6146732",
+        "email": "",
+        "opening_hours": "",
+        "description": "B. Mugurel Schrotthändler in Dietzenbach, Robert-Koch-Str. 11, 63128 Dietzenbach, Inhaber Mugurel Braica, Wirtschafts-Identifikationsnummer DE425479280, kein HRB-Eintrag. Leistungen: Abholung von Altmetall und anderen Materialien, kostenlose Abholung beworben. Keine Materialpreise und keine Tarife veröffentlicht. Die E-Mail-Adresse und die Öffnungszeiten bleiben außen vor, weil sie nur auf der Betreiberseite stehen und die Verzeichnisangabe zu den Zeiten abweicht (Betreiberseite Mo–Sa 08:00–22:00, Verzeichnis Mo–Sa 07:00–21:00).",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://xn--schrotthndler-mugurel-d2b.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3632f352461a36b9ebd9266bc9a8e6591716d21b8046af84973e57aff68e6fdd",
+      "seed_hash": "4dd71e63423e190e",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-b-samuel-schrottabholung",
+      "values": {
+        "name": "B. Samuel Schrottabholung",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Die eingetragene Samuel-Domain zeigt eine Baustellenseite mit R. Samuel statt B. Samuel und der ungeklärten Orts-/PLZ-Angabe 63128 Dietzenbach. Technische Erreichbarkeit ist kein Nachweis der Betreiberidentität oder aktueller Leistungen.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrottabholung-samuel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4eb86f3df04466c731d675cae4adc46c93755a9ac1821f550c507e6ef60c167e",
+      "seed_hash": "1098fd3bad004e7b",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-cristofor-schrotthandel",
+      "values": {
+        "name": "Cristofor Schrotthandel",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://cristofor-schrotthandel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f6fa7f0975b3a346529aa8db8a3564c866f7bf64eb793dbf263e0787bbd10704",
+      "seed_hash": "d11b2ea2c42c16c1",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-leonard-schrotthandel",
+      "values": {
+        "name": "Leonard Schrotthandel",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://leonard-schrotthandel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "47ba03ce3a8b87b7b47b98eeacb7fb452620f805587adc476ad46226d1651b24",
+      "seed_hash": "6d0dda89f9425b2c",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-miky-schrotthandler",
+      "values": {
+        "name": "Miky Schrotthändler",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ea383e3869618e41827c2938bfa836b2d7f729679c4b9dea550bfab19d985d5a",
+      "seed_hash": "4c7ed1edb0477471",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-schrotthandler-dietzenbach-s-o",
+      "values": {
+        "name": "Schrotthändler Dietzenbach S.O.",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "0800766389dc3d32cfe0e514440725e83aa960c3c8a01aab5967fbe3d308dceb",
+      "seed_hash": "e07321a1aecf1148",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-schrotthandler-sabri",
+      "values": {
+        "name": "Schrotthändler Sabri",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "dc8ee489022c55e59480513a143fbf0578e24de80b3da3a927874ee61af5352c",
+      "seed_hash": "21c12aa3e664eb1d",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dietzenbach-stalcant-schrotthandler",
+      "values": {
+        "name": "STALCANT Schrotthändler",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Einzelunternehmen Sebastian Traian Caldarar in Dietzenbach (Robert-Koch-Str. 9, 63128 Dietzenbach, Wirtschafts-Identifikationsnummer DE452409549, Reisegewerbe-Aufsicht Magistrat Dietzenbach). Leistungen: Ankauf von Kupfer, Messing, Aluminium, Gold, Stahl- und Baueisenschrott zum Tagespreis, Abholung oder Anlieferung nach Terminabsprache, kostenlose Abholung ab 350 kg, Containerdienst in verschiedenen Größen, Demontage, Entrümpelung, Haushaltsauflösung im Rhein-Main-Gebiet. Keine numerischen Ankauf- oder Verkaufspreise und keine Container- oder Demontagetarife veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://stalcant-schrotthaendler.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5a95e116a4b7f5b088ec222df099f05cc292e8d4140a4f7b559dd16c64424d8a",
+      "seed_hash": "a36e178f7a9ba52b",
+      "geo": [
+        50.0098,
+        8.7778
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-wiesbaden-65203-pagel-jurgen",
+      "values": {
+        "name": "Pagel Jürgen",
+        "street": "",
+        "postcode": "65203",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Verzeichnis-Lead „Pagel Jürgen Autohandel\" bzw. „Auto Pagel\", Wiesbadener Landstraße 16 (ein Verzeichnis nennt 18), 65203 Wiesbaden-Amöneburg. Die archivierte Betreiber-Website auto-pagel-wiesbaden.de (Aufnahme 2021) belegt neben Gebrauchtwagen- und Unfallfahrzeughandel ausdrücklich „Auto Verwertung\", „Katalysator Ankauf\", den Ankauf von „Auto Schrott\" sowie die Verschrottung und Entsorgung von Kfz mit kostenloser Abmeldung und Entsorgungsnachweis; die Demontage erfolgte in Kooperation mit der RAV Recycling GmbH, Runkel. Ein eigener anerkannter Demontagebetrieb ist nicht belegt, die Domain löst heute nicht mehr auf, und die Anschrift wird inzwischen von einem anderen Betrieb (Hanna GmbH, HRB 33135) genutzt. Aktueller Betriebsfortbestand und Gewerberegisterauskunft bleiben offen; die Zugehörigkeit zum Schrottkatalog ist eine offene Owner-Frage.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ec6330e3001d98abc967772c8e785cf706d0df67c0cc3b8c6dbb8f7e9910be00",
+      "seed_hash": "c6396e45dfb28cb9",
+      "geo": [
+        50.07784615384615,
+        8.245307692307692
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-andernach-autodemontage-mittelrhein-nettersheim",
+      "values": {
+        "name": "Autodemontage Mittelrhein Gebr. Nettersheim OHG",
+        "street": "Bahnweg 2",
+        "postcode": "56626",
+        "phone": "02632 71144",
+        "email": "info@auto-mittelrhein.de",
+        "opening_hours": "Mo–Fr 08:00–17:00; Sa 08:00–13:00",
+        "description": "Autodemontage und Altfahrzeug-Recycling in Andernach-Miesenheim. Betreiber bietet kostenlose Annahme von Alt- und Unfallfahrzeugen sowie Gebraucht- und Unfallfahrzeugverkauf; keine veröffentlichten Ankaufkurse.",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.auto-mittelrhein.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9c01e614b4642eed3a7b6488c16b4040b8e349166bedf1a267b933dfec90bff8",
+      "seed_hash": "8c22ded8a5b10357",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true,\"conditions\":\"Kostenlose Annahme von Alt- und Unfallfahrzeugen laut Betreiber. Keine allgemeine Altmetallannahme daraus ableiten; Vollständigkeits-, Dokumenten- und Sonderfallbedingungen vorab klären.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-kaiserslautern-67655-peter-marco",
+      "values": {
+        "name": "Peter Marco",
+        "street": "Pirmasenser Straße 14",
+        "postcode": "67655",
+        "phone": "0631 5349928",
+        "email": "info@goldankauf-reinhold.de",
+        "opening_hours": "Mo–Sa 10:00–16:00; So geschlossen",
+        "description": "Gold-, Pelz- und Antiquitätenankauf in Kaiserslautern-Innenstadt. Betreiber-Primärquelle (Impressum § 5 DDG) nennt „Marco Reinhold Peter\", Handelsname „Goldankauf Reinhold\", Pirmasenser Straße 14, 67655 Kaiserslautern, Tel. 0631 5349928, info@goldankauf-reinhold.de; Kontaktseite: Mo–Sa 10:00–16:00, So geschlossen. Leistungen: Ankauf von Gold/Schmuck/Zahngold/Münzen/Barren/Silber, Pelzen, Uhren, Antiquitäten und Nachlässen, Bewertung kostenlos und unverbindlich, Auszahlung sofort bar oder per Überweisung. Kein Ankauf von Metallschrott oder Altmetall, keine Abfallannahme, keine veröffentlichten Metallkurse. Die Seed-Kategorie „Schrott\" war eine Fehlklassifikation aus der Verzeichniskategorie „Metalle und Metallwaren\".",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://goldankauf-reinhold.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "cf1a650c19c1082d148289eda4b3e950e4b06ca4e2c8868c1f523c8195d90a64",
+      "seed_hash": "adfe01458269d534",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-brandis-hofmann-metall-betriebsteil",
+      "values": {
+        "name": "Hofmann Metall GmbH, Betriebsteil Brandis-Leipzig",
+        "street": "Gebrüder-Helfmann-Straße 1a",
+        "postcode": "04824",
+        "phone": "034292 / 28 60 06",
+        "email": "brandis@hofmann-metall.de",
+        "opening_hours": "",
+        "description": "Betriebsteil Brandis-Leipzig der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) in der Gebrüder-Helfmann-Straße 1a, 04824 Brandis: Annahme von Buntmetallen und Legierungsschrotten, Containerdienst, Aufbereitung und Demontage. Die Sorten-Übersicht des Betriebs ist die gemeinsame Privat-/Kleingewerbe-Seite des Betriebs; eigene Ankaufs- oder Verkaufspreise und bezifferte Gebühren werden nicht veröffentlicht. Die Standortseite beginnt mit einer Titelzeile \"Betriebsteil Brandis-Leipzig\" vor der Anschrift.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hofmann-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b3957495b3a6c00e96fcf9c0ddf318502baca1e5a85fa52f8e41c6a17e09fd0b",
+      "seed_hash": "40744240ab93e884",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-salzwedel-recycling-riwa-richter",
+      "values": {
+        "name": "Recycling RiWa (Richter)",
+        "street": "An der Ritzer Brücke 3",
+        "postcode": "29410",
+        "phone": "03901 308868",
+        "email": "",
+        "opening_hours": "",
+        "description": "Metallrecyclinghof und Schrottplatz in Salzwedel. Das amtliche Abfallwirtschaftskonzept des Landkreises Altmarkkreis Salzwedel (Fortschreibung 2022, Kap. 14.1.6 „Schrotthändler\") führt die Anlage An der Ritzer Brücke 3 unter dem Betreibernamen „Metall Recycling SAW\"; die Creditreform-Firmenauskunft nennt den Gewerbebetrieb „Michael Richter Metallrecycling SAW\" mit Unternehmensgegenstand „Recycling und Handel mit metallischen Altmaterialien, Autorecycling\" und Hauptbranche Großhandel mit Altmaterialien und Reststoffen (46.87.0). Verzeichnisnamen: „Recycling RiWa Richter Michael\", „MR Metall Recycling SAW\". Eine Betreiberwebsite ist nicht auffindbar; die Telefonnummer stammt aus der Firmenauskunft und mehreren voneinander unabhängigen Verzeichnissen. Preise, Annahmebedingungen und Gebühren sind nicht veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ee09330f790e701ebda7f81a94e9a3395201414615bc6d5268790b863e00a1ab",
+      "seed_hash": "d445bf864c42ea8a",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-schmoelln-hofmann-metall-betriebsteil",
+      "values": {
+        "name": "Hofmann Metall GmbH, Betriebsteil Schmölln",
+        "street": "Am Kemnitzgrund 16",
+        "postcode": "04626",
+        "phone": "034491 / 57 55 50",
+        "email": "schmoelln@hofmann-metall.de",
+        "opening_hours": "",
+        "description": "Betriebsteil Schmölln der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) am Kemnitzgrund 16, 04626 Schmölln: Annahme von Buntmetallen und Legierungsschrotten, Containerdienst, Aufbereitung und Demontage. Die Sorten-Übersicht des Betriebs ist die gemeinsame Privat-/Kleingewerbe-Seite; eigene Ankaufs- oder Verkaufspreise und bezifferte Gebühren werden nicht veröffentlicht. Die Koordinate ist das namentlich auf \"Hofmann Metall\" getaggte Betriebsobjekt in OSM.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hofmann-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bfd77388f852c84551f087a820d2642d8e6b912ce1d840f239bf01692d68a0b5",
+      "seed_hash": "5498ba1c498ec89e",
+      "geo": [
+        50.8827957,
+        12.3471999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
