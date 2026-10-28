@@ -78,12 +78,20 @@ def main() -> int:
         and rows["st-kalbe-rilei"]["lat"] is None
         and rows["st-kalbe-rilei"]["status"] == "pruefung")
 
+    # Das Pending-Korrektur-Gate wird **release-gepinnt** mitgeführt: ein
+    # generischer Aufruf prueft den Seed-Stand eines alten Releases und ist
+    # nach jedem Dossier-Wechsel rot. Ist fuer dieses Release keine
+    # gepinnte Variante vorhanden, bleibt das generische Gate als Hinweis.
+    pinned_pending = ROOT / f"scripts/verify-pending-corrections-{SHORT}.py"
+    pending_cmd = ([sys.executable, str(pinned_pending), "--since", "2026-10-27T02:43:15Z"]
+                   if pinned_pending.exists()
+                   else [sys.executable, str(ROOT / "scripts/verify-pending-corrections.py"),
+                         "--since", "2026-10-27T02:43:15Z"])
     gates = {}
     for label, cmd in (
         (f"wave_e_{SHORT}", [sys.executable, str(ROOT / f"scripts/verify-wave-e-postrollout-{SHORT}.py")]),
         ("wave_e_6b3da663", [sys.executable, str(ROOT / "scripts/verify-wave-e-postrollout-6b3da663.py")]),
-        ("pending_corrections", [sys.executable, str(ROOT / "scripts/verify-pending-corrections.py"),
-                                 "--since", "2026-10-27T02:43:15Z"]),
+        ("pending_corrections", pending_cmd),
     ):
         proc = subprocess.run(cmd, capture_output=True, text=True, cwd=str(ROOT))
         try:
