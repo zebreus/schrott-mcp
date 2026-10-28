@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Generische Leistungsbezeichnung ohne Betreiber: Die Zeile "Mobiler Hartmetall-Ankauf" nennt weder Betreiber noch Kontakt; der Standort Boizenburg/Elbe ist aus dem Seed abgeleitet, der Mengenhinweis "ab ca. 140 kg" stammt aus einem Kleinanzeigen-Suchtreffer und ist **nicht** bestätigt. Im amtlichen Fachbetrieberegister ist für Boizenburg genau ein Betrieb verzeichnet (Metal Union & Logistics GmbH, Galliner Straße 54, Handeln und Makeln); er ist weder ein Hartmetall-Ankäufer noch der Seed-Betrieb und wird nicht übernommen. ANKAUF: keine dieser Zeile zurechenbare Preisliste; die im Markt öffentlich bezifferten Hartmetall-Kurse anderer Betriebe werden ausdrücklich nicht übernommen. VERKAUF: nicht belegt. GEBÜHREN: nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -24,9 +24,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+
+
+**Stand 28.10.2026:** Die Identitätslücke bleibt bestehen; das Fachbetrieberegister kennt für Boizenburg nur
+„Metal Union & Logistics GmbH, Galliner Straße 54“ (Handeln, Makeln), weder die Seed-Zeile noch einen
+Hartmetall-Ankäufer. Die im Markt öffentlich bezifferten Hartmetall-Kurse (vhm-hartmetall.de 65,00 EUR/kg
+Wendeschneidplatten und 63,00 EUR/kg Hartmetall gemischt, DB-Recycling Rochlitz 45,00 EUR/kg) sind **Preise
+fremder Betriebe** und werden ausdrücklich nicht übernommen.
+
+**Preise (Ankauf / Verkauf / Gebühren):** Ankauf nicht belegt, Verkauf nicht belegt, Gebühren nicht belegt.
 
 ## Timeline
+- [Recherche 28.10.2026: **IDENTITÄTSLÜCKE BLEIBT; MARKT-PREISE ANDERER BETRIEBE AUSDRÜCKLICH ABGEGRENZT.** Das **amtliche Fachbetrieberegister** (Auszug 11.08.2026) führt für Boizenburg genau **einen** Betrieb: "**Metal Union & Logistics GmbH**, Galliner Straße 54" mit den Tätigkeiten Handeln und Makeln. Das ist **nicht** der Seed-Betrieb und **kein** Hartmetall-Ankäufer; die bereits dokumentierte Abgrenzung zur **LSM Schrotthandel** (Enrico Josef Schardin, Galliner Straße 40a, 19258 Boizenburg) bleibt bestehen, beide Firmen liegen in derselben Straße und werden nicht gleichgesetzt. Die Zeile selbst bleibt damit eine **generische Leistungsbezeichnung ohne Betreiberidentität**. **Preisabgrenzung (wichtig für die Auswertung):** im Markt existieren öffentlich bezifferte Hartmetall-Ankaufskurse **anderer** Betriebe, die **nicht** als Preise dieser Zeile übernommen werden dürfen: die Domain **vhm-hartmetall.de** (VHM Hartmetall Ankauf, 0151/0176 70524959, info@vhm-hartmetall.de) nennt Wendeschneidplatten 65,00 EUR/kg, Hartmetall gemischt 63,00 EUR/kg, VHM-Fräser und Bohrer 65,00 EUR/kg sowie Widia 65,00 EUR/kg (alle pro kg), und die **DB-Recycling** (Metall & Schrotthandel, Denis Blum, Schützenstr. 6, 09306 Rochlitz, 0162 8938850) nennt Hardmetall zu 45,00 EUR/kg; Kleinanzeigen-Gesuche zeigen Anbieter mit 50 EUR/kg und 60 EUR/kg. Diese Werte sind **Ankaufskurse fremder Betriebe** und dienen nur der Markt-Einordnung; **Ankauf:** für diese Zeile nicht belegt, **Verkauf:** nicht belegt, **Gebühren:** nicht belegt. Der Seed-Hinweis "ab ca. 140 kg" bleibt unbestätigte Historie und wird nicht in ein Mindestmenginfeld übernommen. `status` bleibt **pruefung**, `trader_type: mobil` bleibt unverändert. Quelle(n): https://schrottregister.pages.dev/ort-boizenburg ; https://lsm-schrotthandel.de/impressum/ ; https://www.vhm-hartmetall.de/aktueller-hartmetall-preis ; https://www.dein-schrottplatz.de/pages/ankauf/hartmetall-ankauf.php ; https://www.kleinanzeigen.de/s-hartmetall-ankauf/k0 (Abruf 28.10.2026).]
 
 ### Recherche 04.10.2026
 

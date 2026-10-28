@@ -4,15 +4,16 @@ name: Uwe Krüger Demontagen GmbH
 trader_type: sonstige
 state: MV
 city: Rostock 18069
-street: ''
-postcode: ''
+street: Fischerweg 408
+postcode: '18069'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Demontage-, Abbruch- und Containerdienstunternehmen mit Geschäftsanschrift Fischerweg 408, 18069 Rostock. Registerstand: Uwe Krüger Demontagen GmbH, Amtsgericht Rostock HRB 8710, gegründet 30.03.2001, im Registerauszug vom 28.10.2026 als aktiv geführt; der Auszug weist ausdrücklich darauf hin, dass aktuell keine Registerbekanntmachung vorliegt und offizielle Bekanntmachungen nur bis August 2022 bereitgestellt wurden. NorthData nennt als Unternehmensgegenstand Demontagen, Brenn- und Stemmarbeiten, Gebäudeentkernung und Containerdienst. Creditreform weist die Gesellschaft mit 94 Prozent Firmenkunden aus, die Beleglage bestätigt eine reine B2B-Ausrichtung. ANKAUF: kein öffentlich bezifferter Ankaufkurs und keine belegte Annahmestelle; das Registerzertifikat deckt keine Metall- oder Schrottannahme ab. VERKAUF: keine Verkaufs- oder Materialpreisliste. GEBÜHREN: keine öffentliche Tarifliste für Containerdienst oder Abbruch; die Containerdienst-Leistung ist nur als Unternehmensgegenstand belegt.'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -24,9 +25,24 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+
+
+**Stand 28.10.2026:** Das Handelsregister (HRB 8710, Amtsgericht Rostock) führt die Gesellschaft als **aktiv**
+mit Geschäftsanschrift **Fischerweg 408, 18069 Rostock**; Creditsafe nennt dieselbe Anschrift unabhängig. Die
+Anschrift steht damit im Frontmatter. Das **GEO-Paar der Produktion lag an der Pressentinstraße in Gehlsdorf**
+(18147) und wird zurückgenommen, weil OSM keinen Hausnummernpunkt für den Fischerweg 408 kennt.
+**Telefon bleibt leer:** zwei Quellen nennen zwei verschiedene Nummern (Creditreform +49 381 66096271,
+schrottplatz.org +49 381 8113071).
+
+**Preise (Ankauf / Verkauf / Gebühren):**
+
+- **Ankauf:** kein öffentlich bezifferter Ankaufkurs, keine belegte Annahmestelle.
+- **Verkauf:** keine Verkaufs- oder Materialpreisliste.
+- **Gebühren:** keine Tarifliste für Containerdienst oder Abbruch.
 
 ## Timeline
+- [Recherche 28.10.2026: **REGISTER AUSGLEICH UND ZWEITE UNABHÄNGIGE ANSCHRIFTQUELLE GEFUNDEN, GEO-PUNKT ZURÜCKGENOMMEN.** Der Registerauszug (online-handelsregister.de, live abgerufen 28.10.2026) nennt die **Uwe Krüger Demontagen GmbH, Amtsgericht Rostock HRB 8710, Geschäftsanschrift Fischerweg 408, 18069 Rostock, Status aktiv**, gegründet 30.03.2001, und weist ausdrücklich aus: "Zu der Firma Uwe Krüger Demontagen GmbH liegt aktuell keine Registerbekanntmachung vor. Offizielle Bekanntmachungen wurden nur bis August 2022 zur Verfügung gestellt." Damit weicht die frühere Notiz (Bekanntmachung vom 13.03.2018, Jahresabschluss 2023 vom 14.01.2025) von der aktuellen Registerlage ab; die Historie bleibt erhalten. Als **zweite unabhängige Anschriftquelle** tritt die Unternehmensdatenbank **Creditsafe** hinzu ("Das Unternehmen wurde am 2001 eingetragen. Der Hauptsitz befindet sich hier: Fischerweg 408 in 18069 Rostock"); dazu nennen implisense, mapquest, europages und schrottplatz.org dieselbe Anschrift. Die Anschrift wird deshalb jetzt ins Frontmatter übernommen (`street` Fischerweg 408, `postcode` 18069); die frühere Notiz, nach der NorthData und online-handelsregister.de als **eine** Quelle gezählt wurden, bleibt in Kraft, weil beide dieselbe Registerwiedergabe liefern - Creditsafe ist jedoch eine eigenständige Unternehmensdatenbank. **Telefon bleibt leer**, weil die Quellen zwei verschiedene Nummern nennen: Creditreform **+49 381 66096271** (Direktabruf HTTP 403, nur Suchtreffer) gegenüber schrottplatz.org **+49 381 8113071**; eine Auswahl wäre geraten. Das Verzeichnis meinestadt führt den Betrieb als "Geschlossen" mit Öffnungszeiten Mo/Di 08:00-14:30 - ein Aggregator-Label ohne Beweiswert, das im Widerspruch zur als "Geschlossen" beschrifteten Zeile steht, aber **keine** belegte Schließung darstellt; `status` bleibt **pruefung**. **GEO: `clear_fields: 'geo'`** - die gespeicherten 54.10598/12.11163 lösen auf "8, Pressentinstraße, Eulenflucht, Gehlsdorf, 18147 Rostock" auf und damit weder auf den Fischerweg 408 noch in die Postleitzahl 18069; OSM kennt für den Fischerweg 408 keinen Hausnummernpunkt, deshalb wird kein Punkt geraten. Das amtliche Fachbetrieberegister führt für Rostock sieben Betriebe, darunter keinen Uwe Krüger (Negativbefund ohne Beweiswert, die Efb-Anerkennung ist freiwillig). **ANKAUF:** kein belegter Kurs, keine belegte Annahmestelle. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine öffentliche Tarifliste. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/mv/Rostock/HRB/8710/Uwe-Krueger-Demontagen-GmbH ; https://www.northdata.de/Uwe%20Kr%C3%BCger%20Demontagen%20GmbH,%20Rostock/HRB%208710 ; https://www.creditsafe.com/business-index/de-de/company/uwe-krueger-demontagen-gmbh-de01680474 ; https://firmeneintrag.creditreform.de/18069/3190214358/UWE_KRUEGER_DEMONTAGEN_GMBH ; https://branchenbuch.meinestadt.de/rostock/company/1366108 ; https://www.schrottplatz.org/rostock/uwe-krueger-demontagen-gmbh-1935567.html ; https://schrottregister.pages.dev/ort-rostock ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.10598&lon=12.11163&zoom=18&addressdetails=1 ; read-only public.db (28.10.2026).]
 
 ### Recherche 04.10.2026
 

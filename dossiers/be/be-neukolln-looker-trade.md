@@ -12,7 +12,9 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+lat: '52.4839868'
+lon: '13.4244425'
+description: 'Registeridentität bestätigt: LOOKER TRADE UG (haftungsbeschränkt), Amtsgericht Charlottenburg (Berlin) HRB 136189 B, Geschäftsanschrift Hermannstraße 16, 12049 Berlin, im Registerauszug vom 28.10.2026 als aktiv geführt, gegründet 19.08.2011, drei Registerbekanntmachungen, letzte Änderung 13.07.2016. Der Registergegenstand laut NorthData ist "Internethandel zum An- und Verkauf"; ein Schrott- oder Metallankauf ist daraus nicht ableitbar. Das Branchenlabel "Schrott" stammt allein aus Verzeichnissen (Das Örtliche). ANKAUF: nicht belegt. VERKAUF: nicht belegt, der Registergegenstand ist allgemeiner Handel. GEBÜHREN: nicht belegt. Die Domain looker.de ist nicht abrufbar, es gibt weder eine belegte Telefonnummer noch eine belegte E-Mail-Adresse.'
 dropoff_json: ''
 pickup_json: ''
 clear_fields: 'phone'
@@ -25,9 +27,19 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+
+
+**Stand 28.10.2026:** Die Rechtsträgerin ist jetzt amtlich belegt (LOOKER TRADE UG (haftungsbeschränkt),
+HRB 136189 B, Charlottenburg, Hermannstraße 16, 12049 Berlin, aktiv). Der Registergegenstand lautet
+„Internethandel zum An- und Verkauf“; ein Schrottankauf ist damit **nicht** belegt, das Branchenlabel
+„Schrott“ bleibt ein Verzeichnislead. `status` bleibt `pruefung`. Die Koordinate ist als OSM-Hausnummernpunkt
+zur Hermannstraße 16 bestätigt.
+
+**Preise (Ankauf / Verkauf / Gebühren):** für alle drei Kategorien nicht belegt.
 
 ## Timeline
+- [Recherche 28.10.2026: **REGISTERIDENTITÄT BESTÄTIGT, SCHROTT-TÄTIGKEIT WEITER NUR VERZEICHNISLEAD.** Der Registerauszug (online-handelsregister.de, live abgerufen 28.10.2026) führt die **LOOKER TRADE UG (haftungsbeschränkt), Amtsgericht Charlottenburg (Berlin) HRB 136189 B, Hermannstraße 16, 12049 Berlin**, Status **aktiv**, gegründet 19.08.2011, mit drei Registerbekanntmachungen und letzter Änderung vom 13.07.2016; der Firmenname und die Anschrift des Seed-Eintrags sind damit amtlich bestätigt. NorthData nennt als Unternehmensgegenstand "**Internethandel zum An- und Verkauf**" - das ist ein allgemeiner Handelsgegenstand und **kein** Schrott- oder Metallankauf. Das Branchenlabel "Schrott" stammt weiterhin nur aus dem Verzeichnis Das Örtliche (Branche: Schrott in Berlin, Hermannstr. 16, 12049 Neukölln), also einem Lead. Frontmatter: `description` neu, `lat`/`lon` **52.4839868/13.4244425** gesetzt und live geprüft (OSM-Node 10539008056, `addr:housenumber=16`, `addr:street=Hermannstraße`, `addr:postcode=12049`; der Wert ist mit dem Produktionspunkt identisch). `status` bleibt **pruefung**, `website` bleibt leer (looker.de ist nicht abrufbar, Transportfehler, tot und blockiert nicht unterscheidbar), die `clear_fields: 'phone'`-Direktive bleibt bestehen, da keine belegte Rufnummer vorliegt. **ANKAUF:** nicht belegt. **VERKAUF:** nicht belegt, der Registergegenstand lautet "Internethandel zum An- und Verkauf". **GEBÜHREN:** nicht belegt. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/be/Charlottenburg-Berlin/HRB/136189B/LOOKER-TRADE-UG-haftungsbeschraenkt ; https://www.northdata.de/LOOKER%20TRADE%20UG,%20Berlin/Amtsgericht%20Charlottenburg%20(Berlin)%20HRB%20136189%20B ; https://www.dasoertliche.de/Themen/LOOKER-TRADE-UG-Berlin-Neuk%C3%B6lln-Hermannstr ; https://nominatim.openstreetmap.org/search?q=Hermannstra%C3%9Fe+16%2C+12049+Berlin&format=jsonv2 ; https://api.openstreetmap.org/api/0.6/node/10539008056.json (Abruf 28.10.2026).]
 - [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle)

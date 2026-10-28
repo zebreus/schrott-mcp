@@ -4,7 +4,7 @@ name: Andreas Kendzierski
 trader_type: sonstige
 state: BE
 city: Mitte
-street: Drontheimer Str. 26, ; Tel. 030 4926784
+street: Drontheimer Str. 26
 postcode: '13359'
 phone: 030 4926784
 email: ''
@@ -12,7 +12,8 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: unbekannt
-description: ''
+description: 'Klärfall: Die Adresse Drontheimer Str. 26, 13359 Berlin und die Telefonnummer 030 4926784 stammen aus Verzeichnissen. Das Portal lokaleschrottplatz.de führt „Andreas Kendzierski“ mit generischen Material- und Mindestmengenangaben, Das Örtliche führt denselben Namen und dieselbe Nummer ausdrücklich unter Private Einträgen. Eine amtliche Firmen- oder Gewerberegistrierung existiert nicht (Namenssuche im Handelsregister ohne Treffer; die Namenssuche online-handelsregister.de nach "Kendzierski" liefert nur "DEKA-Roll Förderelemente Dieter Kendzierski" in Wuppertal und eine Personenzeile "Yu-Ching Kendzierski" in Düsseldorf). Andere Unternehmen an derselben Anschrift werden nicht transplantiert. ANKAUF: keine belegte Ankaufspreisliste und keine belegte Mindestmenge. VERKAUF: keine Preisliste. GEBÜHREN: nicht belegt.'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: B. Neu, aber "unsicher" (nur 1 Verzeichnisquelle, keine Website)
@@ -24,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+
+
+**Stand 28.10.2026:** Das `street`-Feld ist auf die reine Anschrift bereinigt (die Telefonnummer war dort
+mit eingetragen), der unpassende GEO-Punkt der Produktion wird zurückgenommen, und die amtliche Namenssuche
+bleibt ohne Treffer für einen Schrotthändler. `status` bleibt `unbekannt` - es liegt weder ein belegter
+Händlerauftritt noch eine belegte Schließung vor.
 
 ## Timeline
+- [Recherche 28.10.2026: **STREET-FELD BEREINIGT, GEO-PUNKT ZURÜCKGENOMMEN, REGISTER-NEGATIVBEFUND ERWEITERT.** Das `street`-Feld enthielt bisher zusätzlich die Telefonnummer ("Drontheimer Str. 26, ; Tel. 030 4926784"); es wurde auf die reine Anschrift **Drontheimer Str. 26** bereinigt, die Telefonnummer steht unverändert im eigenen Feld `phone` (das so bereits in der Notiz vom 04.10.2026 als bereinigungsbedürftig vermerkt war). **GEO: `clear_fields: 'geo'`** - die gespeicherten 52.5599/13.3851 lösen auf "Soldiner Straße, Soldiner Kiez, Gesundbrunnen, Mitte, 13359 Berlin" auf, also auf eine Straße und **nicht** auf die Hausnummer 26 der Drontheimer Straße; eine adressgenaue OSM-Suche nach "Drontheimer Straße 26, 13359 Berlin" liefert **keinen** Hausnummernpunkt, deshalb wird kein Punkt geraten. Die **amtlliche Namenssuche** online-handelsregister.de nach "Kendzierski" (live am 28.10.2026) bleibt ohne Treffer für einen Schrotthandel: gefunden werden nur "DEKA-Roll Förderelemente Dieter Kendzierski" (Wuppertal, HRA 7998) und die Personenzeile "Yu-Ching Kendzierski" (Düsseldorf) - das bestätigt die bereits dokumentierte Registerprüfung und ist **kein** Nichtexistenzbeweis. Die Notizen vom 04.10.2026 (Portal-Lead, Das Örtliche unter Private Einträge, Registerprüfung, Template-Materialliste, offener Owner-Klärfall) bleiben unverändert erhalten. `status` bleibt **unbekannt**, weil weder ein gewerblicher Händlerbeleg noch eine belegte Schließung vorliegt. **ANKAUF:** keine Ankaufspreisliste, keine belegte Mindestmenge (die 100 kg Eisen/Stahl und 1 kg Nichteisenmetalle sind Portal-Fließtext derselben Vorlage wie im Schott-Rainer-Eintrag). **VERKAUF:** keine Preisliste. **GEBÜHREN:** nicht belegt. Quelle(n): https://lokaleschrottplatz.de/andreas-kendzierski/ ; https://www.dasoertliche.de/Themen/Kendzierski-Andreas-Mankiewicz-Stefan-Berlin-Gesundbrunnen-Drontheimer-Str ; https://www.online-handelsregister.de/suche/Kendzierski ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.5599&lon=13.3851&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Drontheimer+Stra%C3%9Fe+26%2C+13359+Berlin&format=jsonv2 ; read-only public.db (28.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

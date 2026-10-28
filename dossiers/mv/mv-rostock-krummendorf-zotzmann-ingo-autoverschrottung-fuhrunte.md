@@ -4,15 +4,17 @@ name: Zotzmann Ingo Autoverschrottung / Fuhrunternehmen
 trader_type: autoverwertung
 state: MV
 city: Rostock-Krummendorf
-street: ''
-postcode: ''
+street: De Striethoff 2
+postcode: '18147'
 phone: 0381 6752030
-email: ''
-opening_hours: ''
+email: info@autoverwertung-zotzmann.de
+opening_hours: 'Mo-Fr 10:00-18:00 Uhr, Sa 09:00-13:00 Uhr'
 website: https://www.autoverwertung-zotzmann.de
 website_status: 'aktiv'
-status: pruefung
-description: ''
+status: aktiv
+description: 'Autoverwertung und Autorecycling in Rostock-Krummendorf. Betreiber ist Ivo Zotzmann als Einzelunternehmer (De Striethoff 2, 18147 Rostock-Krummendorf, Tel. 0381-6752030, Fax 0381-6700010, E-Mail info@autoverwertung-zotzmann.de, USt-IdNr. DE248451755, Betriebsgründung laut Impressum 1. Januar 1991). Das amtliche Fachbetrieberegister (Auszug 11.08.2026) führt den Betrieb als "Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf" mit Hauptsitz "Firma Ivo Zotzmann" und der Anerkennung nach AltfahrzeugV als Demontagebetrieb, Zertifikatsnummer ZAAS00300005; die Selbstauskunft "Wir sind ein zertifizierter Entsorgungsbetrieb" ist damit bestätigt. Die offizielle Rücknahmestellenliste von Ford Deutschland nennt "Autoverwertung Zotzmann, De Striethof 2, 18147 Rostock, 0381 6752030". ANKAUF: Ankauf von Alt-, Unfall- und Schadensfahrzeugen ohne vorherige Anmeldung; für Schrott und NE-Metalle ist kein öffentlich bezifferter Ankaufpreis dokumentiert. VERKAUF: Ersatzteilhandel und Verkauf gebrauchter Ersatzteile, Preise auf Anfrage, keine öffentliche Teilepreisliste. GEBÜHREN: die Preistafel der Selbsthilfewerkstatt (Hebebühne, Werkzeuge, Altöl- und Kühlmittelentsorgung) ist eine Werkstattnutzungsgebühr und keine Annahmegebühr; für die Fahrzeugannahme ist keine Gebühr dokumentiert. Das Fuhrunternehmen wird ohne öffentliche Tarifliste geführt.'
+certifications: '["Anerkennung nach AltfahrzeugV als Demontagebetrieb, Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf, Hauptsitz Firma Ivo Zotzmann, Zertifikatsnummer ZAAS00300005 (Fachbetrieberegister, Auszug 11.08.2026)"]'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Betriebe, nur Verzeichnisbeleg
@@ -26,7 +28,15 @@ provenance_origin: table
 
 Die Betreiberseite identifiziert Ivo Zotzmann, Autoverwertung, De Striethoff 2, 18147 Rostock-Krummendorf, und beschreibt Ersatzteilhandel sowie Selbsthilfewerkstatt. Adresse/Kontakt bleiben nach dem dokumentierten Owner-Gate aus einem einzelnen Einzelunternehmer-Auftritt im Frontmatter unverändert; `status: pruefung` bleibt. Die veröffentlichte Preistafel betrifft Werkstatt-/Hilfsmittelnutzung und Entsorgung in der Selbsthilfewerkstatt, nicht den Ankauf von Schrott oder Fahrzeugen.
 
+
+**Neu belegt (28.10.2026):** Die Adresse ist durch drei unabhängige Quellen bestätigt (Betreiber-Impressum,
+amtliches Fachbetrieberegister mit Demontagebetrieb-Anerkennung ZAAS00300005, offizielle
+Ford-Rücknahmestellenliste). `street` und `postcode` sind deshalb gefüllt, `status` steht auf `aktiv`. Die
+GEO-Angabe der Produktion (54.10598/12.11163, Pressentinstraße 8 Gehlsdorf) passt nicht zur Anschrift und
+wird mit `clear_fields: 'geo'` zurückgenommen, weil OSM keinen Hausnummernpunkt für De Striethoff 2 führt.
+
 ## Timeline
+- [Recherche 28.10.2026: **ADRESSE UND DEMONTAGEBETRIEBS-ANERKENNUNG JETZT BELEGT, STATUS AKTIV.** Das amtliche **Fachbetrieberegister** (Auszug 11.08.2026) führt für Rostock-Krummendorf genau einen Betrieb: **Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf**, Hauptsitz "Firma Ivo Zotzmann", mit der **Anerkennung nach AltfahrzeugV als Demontagebetrieb** (darf Altfahrzeuge trockenlegen und zerlegen), **Zertifikatsnummer ZAAS00300005**; damit ist die Betreiberauskunft "Wir sind ein zertifizierter Entsorgungsbetrieb" unabhängig bestätigt. Die **offizielle Rücknahmestellenliste von Ford Deutschland** (Ford Motor Company, "Übersicht der von Ford zertifizierten Rücknahmestellen für Ford Altfahrzeuge") führt "Autoverwertung Zotzmann, De Striethof 2, 18147 Rostock, 0381 6752030"; die Liste ist auf den 12.07.2016 datiert und belegt damit die damals bestehende Annahmestelle. Das Betreiber-Impressum (live am 28.10.2026) nennt Inh. Ivo Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf, Tel. 0381-6752030, Fax 0381-6700010, E-Mail info@autoverwertung-zotzmann.de, USt-IdNr. DE248451755, Mo-Fr 10:00-18:00 und Sa 09:00-13:00 Uhr, Betriebsgründung 1. Januar 1991; die Startseite nennt "Wir sind ein zertifizierter Entsorgungsbetrieb", die Übergabe des Betriebs an Torsten/"Ivo" ist nicht dokumentiert (der Name bleibt "Zotzmann Ingo" aus dem Seed). Damit sind drei voneinander unabhängige Quellen vorhanden (Betreiber-Primärquelle, amtliches Register, offizielles Herstellerdokument); die bisherige Einzelbeleg-Sperre des Owner-Gates ist damit aufgehoben. Frontmatter: `street` De Striethoff 2, `postcode` 18147, `email` info@autoverwertung-zotzmann.de, `opening_hours` Mo-Fr 10:00-18:00 und Sa 09:00-13:00 Uhr, `status` pruefung -> **aktiv**, `certifications` (ZAAS00300005). **GEO: `clear_fields: 'geo'`** - die in der Produktion gespeicherten 54.10598/12.11163 lösen auf "8, Pressentinstraße, Eulenflucht, Gehlsdorf, 18147 Rostock" auf, also auf eine Wohnadresse und **nicht** auf "De Striethoff 2"; OSM kennt für De Striethoff 2 keinen Hausnummernpunkt, deshalb wird kein Punkt geraten und der unpassende Altpunkt wird beim regulären Seed zurückgenommen (die Anschrift bleibt als Geokodierungsbedarf offen). **ANKAUF:** Alt-, Unfall- und Schadensfahrzeuge werden ohne Anmeldung angekauft; ein öffentlich bezifferter Schrott- oder Metallkurs ist nicht dokumentiert. **VERKAUF:** Ersatzteilhandel, Teilepreise auf Anfrage. **GEBÜHREN:** die Werkstatt-Preistafel (Hebebühne 7 EUR/30 Min., 14 EUR/Std., Außenstellplatz 10 EUR/Tag, Altölentsorgung 5 EUR/Pkw usw.) bleibt eine Nutzungsgebühr der Selbsthilfewerkstatt und keine Annahmegebühr; für die Fahrzeugannahme ist keine Gebühr belegt. Quelle(n): https://www.autoverwertung-zotzmann.de/ ; https://www.autoverwertung-zotzmann.de/impressum ; https://www.autoverwertung-zotzmann.de/kontakt-anfahrt ; https://schrottregister.pages.dev/betrieb-zotzmann-rostock-krummendorf ; https://schrottregister.pages.dev/ort-rostock-krummendorf ; https://www.ford.de/content/dam/guxeu/de/documents/home/owner/betriebsanleitungen-hilfe/fragen-antworten/Deutschland_Verwerter.pdf ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.10598&lon=12.11163&zoom=18&addressdetails=1 ; read-only public.db (28.10.2026).]
 
 ### Recherche 07.10.2026
 

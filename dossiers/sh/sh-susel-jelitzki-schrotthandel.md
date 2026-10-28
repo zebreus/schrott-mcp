@@ -12,7 +12,8 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+clear_fields: 'geo'
+description: 'Schrotthandel und Altmaterialhandel in Süsel-Barkau, ausschließlich über Branchenverzeichnisse als "Jelitzki Schrotthandel", Eutiner Str. 19, 23701 Süsel, geführt. ANKAUF: keine Preise und keine Sortenliste veröffentlicht. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife. Eine eigene Betreiberseite und ein Registerbeleg wurden nicht gefunden; die unter gleichem Namen geführte Firma EUTINER ENTRÜMPELUNGEN (Marcel Jelitzki) ist ein Entrümpelungsbetrieb ohne Schrottbezug und ein anderer Betrieb.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)
@@ -25,6 +26,10 @@ provenance_origin: table
 ## Überblick
 
 Eutiner Str. 19, 23701 Süsel, Tel. 04524 8591 sind weiterhin nur über Verzeichnisse belegt; es fehlt Betreiberwebsite, Register-/Kommunalquelle oder Betreiber-Social. Die drei Branchenportale aus der Vorrecherche sind keine unabhängigen Betreiberbelege. Deshalb Status `pruefung` statt `aktiv`; bestehende Kontaktdaten bleiben historische Leads, nicht bestätigte aktuelle Tatsachen. Keine Preis-/Gebührenliste.
+
+**Namensvetter:** Die unter demselben Namen geführte Firma EUTINER ENTRÜMPELUNGEN (Marcel Jelitzki) bietet ausschließlich Entrümpelung, Wohnungs- und Haushaltsauflösungen an und hat keinen Schrottbezug; sie ist ein anderer Betrieb und wird nicht mit diesem Dossier zusammengeführt.
+
+**GEO:** Die Eutiner Straße ist in OSM für Süsel nicht erfasst, der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und passt nicht zur Seed-Adresse, daher mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Eutiner Str. 19 steht aus.
 
 ## Timeline
 
@@ -43,3 +48,9 @@ Eutiner Str. 19, 23701 Süsel, Tel. 04524 8591 sind weiterhin nur über Verzeich
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Verzeichniseintrag erneut gelesen, Statusangabe richtig gelesen: 11880 führt "Jelitzki Schrotthandel", Kategorien "Schrotthandel & Altmaterialhandel", Eutiner Str. 19, 23701 Süsel (Barkau), (04524) 8591, mit Öffnungszeiten Samstag 08:00 bis 14:00 und Eintragsdaten vom 28.09.2026. Die in der Trefferliste sichtbare Angabe "Geschlossen bis Sa., 08:00 Uhr" ist die Statusanzeige außerhalb der Öffnungszeit und keine Schließung, es wird daher ausdrücklich kein Schließungsstatus abgeleitet. Es gibt weiterhin weder Betreiberseite noch Register- oder Kommunalbeleg, street, postcode und phone bleiben als historische Leads im Feld, die Öffnungszeiten wurden nicht übernommen, status bleibt pruefung. Quelle(n): https://www.11880.com/suche/jelitzki/suesel ; https://www.11880.com/branchenbuch/suesel/120674719B33029606/jelitzki-schrotthandel.html]
+- [Recherche 28.10.2026: Namensvetter geprüft und abgegrenzt: Die live erreichbare Seite firma-jelitzki.jimdofree.com gehört zur "Firma EUTINER ENTRÜMPELUNGEN" mit Inhaber Marcel Jelitzki, Mobil 0160 99863577, Öffnungszeiten Montag bis Samstag 6:30 bis 20:00 Uhr und ausschließlich Entrümpelungsleistungen (Wohnungs-, Keller-, Garagen- und Dachbodenentrümpelung, Haushaltsauflösungen, Messie-Wohnungen, Gartenpflege, fachgerechte Entsorgung). Ein Schrottankauf, ein Schrottplatz oder eine Metallhandel-Angabe fehlt dort vollständig; das ist ein anderer Betrieb als der Seed-Eintrag und wird nicht mit diesem Dossier zusammengeführt. Quelle(n): https://firma-jelitzki.jimdofree.com/]
+- [Recherche 28.10.2026: ANKAUF, VERKAUF und GEBÜHREN bleiben unbelegt, GEO zurückgezogen: Die Verzeichnisangabe nennt weder Sorten noch Preise, kein Verkaufsangebot und keine Tarife, deshalb bleiben description und die Servicefelder ohne Preisaussage. Für die Seed-Adresse existiert in OSM keine Eutiner Straße in Süsel; der gespeicherte Punkt 54.0814/10.7017 löst auf An der Bäderstraße 5 im Ortsteil Süseler Baum auf und passt nicht zur Seed-Adresse, er wird daher mit clear_fields geo zurückgezogen, bis die Adresse geocodiert ist. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.0814&lon=10.7017&zoom=18 ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Eutiner%20Stra%C3%9Fe%2C%2023701%20S%C3%BCsel]

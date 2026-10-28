@@ -1,20 +1,20 @@
 ---
 slug: hb-rotenburg-oetjen-rohstoffhandel
-name: Oetjen Rohstoffhandel GmbH
+name: REMONDIS Niedersachsen GmbH
 trader_type: schrotthaendler
-state: HB
-city: Rotenburg
+state: NI
+city: Rotenburg (Wümme)
 street: Otto-von-Guericke-Str. 4
 postcode: '27356'
 phone: 04261 2025
 email: ''
-opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
-dropoff_json: ''
-pickup_json: ''
+opening_hours: 'Mo-Fr 07:00-16:30, Sa 08:00-11:30'
+website: https://www.remondis-rotenburg.de/
+website_status: aktiv
+status: aktiv
+description: 'Betriebsstätte Rotenburg der REMONDIS Niedersachsen GmbH (Sitz Schlosserstraße 21, 49757 Werlte) auf dem Gelände der ehemaligen Oetjen Rohstoffhandel GmbH, Otto-von-Guericke-Str. 4, 27356 Rotenburg (Wümme). ANKAUF: Handel mit Eisenschrott, NE-Metallen und Altfahrzeugen zu aktuellen Tagespreisen, keine bezifferten Preise veröffentlicht. VERKAUF: Verkauf neuer und gebrauchter Handelserzeugnisse aus Stahl und Metall, keine Preisliste. GEBÜHREN: keine Tarifordnung, Entsorgungspreise sind laut Landkreis direkt bei der Firma zu erfragen.'
+dropoff_json: '{"allowed": true, "conditions": "Anlieferung, Abholung und Verwertung inklusive laut Betreiber-Startseite; Rohstoffhandel mit Eisenschrott, NE-Metallen und Altfahrzeugen am Standort Otto-von-Guericke-Str. 4, 27356 Rotenburg (Betreiber-Website remondis-rotenburg.de, Abruf 28.10.2026). Mindestmengen, Waage und Annahmezeiten beim Betreiber erfragen."}'
+pickup_json: '{"allowed": true, "conditions": "Abholung und Entsorgung inklusive laut Betreiber-Startseite, dazu Abriss- und Abbrucharbeiten am Standort; Preise und etwaige Zuschläge sind nicht veröffentlicht (Betreiber-Website remondis-rotenburg.de, Abruf 28.10.2026)."}'
 provenance_section: Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-**Zwei getrennte Registerketten:** Die konkrete Bekanntmachung von 2012 verbindet die frühere Oetjen Rohstoffhandel GmbH, Rotenburg (Wümme), HRB 70444 Walsrode ausdrücklich mit der umbenannten Oetjen GmbH, Zeven, HRB 203379 Tostedt. Die andere Oetjen Rohstoffhandel GmbH, HRB 13052 KI Kiel, wurde dagegen 2011 mit Sitz Melsdorf gegründet und erlosch 2022 durch Verschmelzung. Diese Gesellschaften nicht allein wegen des gleichen Namens zusammenführen. Die konkrete Seed-Annahmestelle Otto-von-Guericke-Str. 4 und deren heutige Fortführung sind damit weiterhin nicht bewiesen. `oetjen.de` gehört nach der Vorrecherche zur getrennten Oetjen Logistik GmbH. Rotenburg (27356) liegt in Niedersachsen, nicht im bisherigen Seed-Bundesland HB; ohne geklärte Standortidentität kein automatischer Umzug, Namenswechsel oder Bundesland-Fill.
+Die Seed-Zeile "Oetjen Rohstoffhandel GmbH" mit Otto-von-Guericke-Str. 4, 27356 Rotenburg (Wümme) und 04261 2025 beschreibt den Standort, der heute als **Betriebsstätte Rotenburg der REMONDIS Niedersachsen GmbH** geführt wird: Betreiber-Impressum und Standortliste von remondis-entsorgung.de nennen genau diese Anschrift, diese Nummer und zusätzlich die Öffnungszeiten Mo-Fr 07:00-16:30 und Sa 08:00-11:30. Der frühere Seedname bleibt als Betriebs- und Rechtsträgerhistorie in der Timeline dokumentiert.
 
-**Preise:** für den mutmaßlichen Rotenburger Betrieb keine verifizierte Ankaufpreisliste, Verkaufspreisliste oder Gebührenordnung. **Geocoding:** Otto-von-Guericke-Str. 4, 27356 ist nur Verzeichnis-/Seed-Kandidat; vor Geocoding zuerst Firmenidentität und Bundesland korrigieren/verifizieren.
+**Zwei amtliche Listen führen weiterhin den alten Namen an derselben Adresse:** die Verwertungsstellen-Liste des Landkreises Rotenburg (Wümme) und die GewAbfV-Liste des Niedersächsischen Ministeriums für Umwelt (Aktualisierung 19.01.2026) nennen die "Oetjen Rohstoffhandel GmbH" in Rotenburg und in Zeven. Die Zeitungs- und Registerbelege erklären die Namensfolge: 2011 kündigte REMONDIS die Übernahme des Oetjen-Produktionsbetriebs an und legte dafür eine neue, in Kiel eingetragene Gesellschaft an, um den im Landkreis bekannten Namen zu behalten; diese ging 2022 in der REMONDIS Niedersachsen GmbH auf. Die Listen ziehen offenbar nach.
 
-Ein zusätzliches Drittverzeichnis nennt für exakt diese Adresse und Telefonnummer `info@oetjen-rohstoffhandel.de` sowie die gleichnamige Domain. Das ist kein aktueller Betreiberbeleg; die Domain war in der Vorrecherche nicht erreichbar. Diese Angaben bleiben ungeprüfte Kontakt-Leads und sind nicht in Frontmatter übernommen.
+**ANKAUF:** Eisenschrott, NE-Metalle, Altfahrzeuge und andere Materialien zu aktuellen Tagespreisen, keine bezifferten Preise. **VERKAUF:** neue und gebrauchte Handelserzeugnisse aus Stahl und Metall, keine Preisliste. **GEBÜHREN:** keine Tarifordnung; Öffnungszeiten, Annahmebedingungen und Entsorgungspreise sind laut Landkreis direkt bei der Firma zu erfragen.
+
+**GEO:** der gespeicherte Punkt liegt auf der Otto-von-Guericke-Straße in Rotenburg, aber ohne Hausnummer; eine Hausnummer 4 ist in OSM nicht erfasst, Geocoding steht aus.
+
+**Abgrenzung:** 11880 führt mehrere Oetjen-Gesellschaften nebeneinander (Rotenburg, Tannenkamp 6-8 in Zeven, Herrenbrümmer 18 in Zeven) sowie die Oetjen Logistik GmbH in der Hermann-Schlüter-Str. 1; die Oetjen Logistik GmbH ist Logistik und kein Rohstoffhandel. Diese Gesellschaften werden nicht zusammengeführt.
 
 ## Timeline
 
@@ -60,3 +64,11 @@ Ein zusätzliches Drittverzeichnis nennt für exakt diese Adresse und Telefonnum
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Ein zusätzliches Drittverzeichnis führt unter Otto-von-Guericke-Str. 4, 27356 Rotenburg, Tel. 04261 2025, die E-Mail info@oetjen-rohstoffhandel.de und Website www.oetjen-rohstoffhandel.de. Quelle ist ein generischer Business-Directory-Eintrag, nicht Betreiber-/Registerbeleg; die Domain war in der Vorrecherche nicht erreichbar und der Sitz-/Identitätskonflikt (Zeven vs. Rotenburg) bleibt ungelöst. E-Mail/Website nicht übernommen. Keine numerische Ankaufspreisliste, Verkaufspreise oder Gebühren belegt. Quelle(n): http://www.business-directory.cc/mobile/index.php?moduleid=4&username=recyclingoetjen&action=contact ; https://www.gelbeseiten.de/gsbiz/ddda2543-f087-4516-90e3-3a15268a2856]
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Betreiberkette am Seed-Standort belegt und Name korrigiert: Die Standortliste von remondis-entsorgung.de führt für Rotenburg "REMONDIS Niedersachsen GmbH, Betriebsstätte Rotenburg, Otto-von-Guericke-Straße 4, 27356 Rotenburg, T +49 4261 2025, F 4261 2735"; Impressum und Startseite von remondis-rotenburg.de nennen dieselbe Anschrift und Nummer, Sitz Schlosserstraße 21, 49757 Werlte, und die Öffnungszeiten Mo-Fr 07:00-16:30 und Sa 08:00-11:30. Die Startseite beschreibt den Rohstoffhandel mit Eisenschrott, NE-Metallen und Altfahrzeugen "zu aktuellen Tagespreisen" sowie den Verkauf neuer und gebrauchter Handelserzeugnisse aus Stahl und Metall und nennt Anlieferung, Abholung und Verwertung inklusive. Die BMW-Liste der Rücknahmestellen für Altfahrzeuge führt REMONDIS Niedersachsen GmbH, Otto-von-Guericke-Str. 4, 27356 Rotenburg, Telefon (04261) 2025, Fax (04261) 2735. Damit ist die Seed-Adresse und Seed-Nummer dem heutigen Betreiber zugeordnet: name Oetjen Rohstoffhandel GmbH zu REMONDIS Niedersachsen GmbH geändert, Website und Öffnungszeiten gefüllt, status pruefung zu aktiv. Der frühere Name bleibt in dieser Notiz und in der Dossierhistorie erhalten. Quelle(n): https://www.remondis-entsorgung.de/wir-in-ihrer-naehe/remondis-im-norden ; https://www.remondis-rotenburg.de/impressum ; https://www.remondis-rotenburg.de/ ; https://www.bmw.de/content/dam/bmw/marketDE/bmw_de/RecyclingPages_250613.pdf.asset.1750165636803.pdf]
+- [Recherche 28.10.2026: Zwei amtliche Quellen führen den alten Namen weiterhin an exakt dieser Adresse, was die Namensfolge erklärt: Die Abfallberatung des Landkreises Rotenburg (Wümme) listet unter den Verwertungsstellen für Holzabfälle "Firma Oetjen Rohstoffhandel GmbH, Otto-von-Guericke-Straße 4, 27356 Rotenburg (Wümme), 04261 - 20 25" sowie "Firma Oetjen Rohstoffhandel GmbH, Tannenkamp 6-8, 27404 Zeven, 04281 - 23 45" und hält fest, dass Öffnungszeiten, Annahmebedingungen und Entsorgungspreise bei den Firmen direkt zu erfragen sind. Die GewAbfV-Liste des Niedersächsischen Ministeriums für Umwelt, Energie und Klimaschutz (Aktualisierung 19.01.2026, Tabelle B Erste Anlage einer Kaskade nach § 6 Absatz 4 Satz 4 GewAbfV) nennt "Oetjen Rohstoffhandel GmbH, Otto-von-Guericke-Str. 4, 27356 Rotenburg" und "Oetjen Rohstoffhandel GmbH, Tannenkamp 6-8, 27404 Zeven", die IED-Liste Anhang 3 der ÜP-RdErl führt denselben Recyclinghof mit dem Code 8.12.1.1. Die amtlichen Listen stehen damit im Widerspruch zur aktuellen Betreiberfirma; die Listen wirken nachgezogen, der Seedname bleibt als Rechtsträgerhistorie dokumentiert. Quelle(n): https://www.lk-awr.de/holzabfaelle ; https://www.umwelt.niedersachsen.de/download/208339]
+- [Recherche 28.10.2026: Die Übernahme durch REMONDIS ist zeitlich und registerlich belegt: Die Kreiszeitung berichtet am 30.07.2011 unter dem Titel "Entsorger Remondis will Oetjen Rohstoffhandel übernehmen", dass die Oetjen Rohstoffhandel GmbH ihre Betriebsstätten in Zeven, Seedorf und Rotenburg hält und zum Erhalt des im Landkreis bekannten Namens eine neue Firma im Handelsregister Kiel eingetragen wurde. Genau diese 2011 in Kiel neu eingetragene Gesellschaft ist die zuvor im Dossier dokumentierte HRB 13052 KI (Sitz Melsdorf, Geschäftsanschrift Zeven), die nach der NorthData-Bekanntmachung am 08.07.2022 auf die REMONDIS Niedersachsen GmbH (HRB 120486 Osnabrück) verschmolzen wurde. Damit ist die bisher offene Frage beantwortet, warum die Seed-Zeile Oetjen und die heutige Betreiberfirma REMONDIS an derselben Anschrift erscheinen. Abgrenzung: 11880 führt daneben weitere Oetjen-Einträge (Otto-von-Guericke-Str. 4 mit 04261 2025, Tannenkamp 6-8 Zeven, Herrenbrümmer 18 Zeven) sowie die Oetjen Logistik GmbH, Hermann-Schlüter-Str. 1, Rotenburg, 04261 677-0, die Logistik betreibt und kein Rohstoffhandel ist; keine Zusammenführung dieser Gesellschaften. Quelle(n): https://www.kreiszeitung.de/lokales/rotenburg/rotenburg-ort120515/entsorger-remondis-will-oetjen-rohstoffhandel-uebernehmen-1341614.html ; https://www.northdata.de/?id=16936767 ; https://www.northdata.de/?id=6697757222371328]
+- [Recherche 28.10.2026: ANKAUF, VERKAUF und GEBÜHREN getrennt dokumentiert: ANKAUF beschränkt sich auf die Aussage des Betreibers, Eisenschrott, NE-Metalle, Altfahrzeuge und andere Materialien zu aktuellen Tagespreisen zu handeln, bezifferte Preise sind nicht veröffentlicht. VERKAUF: Verkauf neuer und gebrauchter Handelserzeugnisse aus Stahl und Metall, ohne Preisliste. GEBÜHREN: keine Tarifordnung und keine Entsorgungspreise veröffentlicht, der Landkreis verweist ausdrücklich auf direkte Nachfrage bei der Firma. GEO: der gespeicherte Punkt 53.1150756/9.3841002 liegt auf der Otto-von-Guericke-Straße (Imkersfeld, Rotenburg, 27356), aber ohne Hausnummer; OSM kennt dort nur den Straßenverlauf (Way 31134283), eine Hausnummer 4 ist nicht erfasst, daher keine Ersatzkoordinate geraten und Geocoding für Otto-von-Guericke-Str. 4 weiterhin offen. Quelle(n): https://www.remondis-rotenburg.de/ ; https://www.lk-awr.de/holzabfaelle ; https://api.openstreetmap.org/api/0.6/way/31134283/full.json]
+- [Korrektur 28.10.2026: state HB zu NI geändert, weil Rotenburg (Wümme) im Landkreis Rotenburg (Wümme) in Niedersachsen liegt; der Seedwert HB stammt aus der Bremer Tabellenherkunft und war falsch. Slug hb-rotenburg-oetjen-rohstoffhandel und Ablagepfad dossiers/hb/ bleiben unverändert, ebenso der frühere Name Oetjen Rohstoffhandel GmbH, der in den Notizen vom 15.10.2026, 06.10.2026, 01.10.2026 und 07.10.2026 erhalten bleibt. Präzedenz im Bestand: das Schwesterdossier hb-rotenburg-stermer-schrotthandel-rotenburg führt ebenfalls state NI bei Legacy-Pfad unter hb/. Quelle(n): dossiers/hb/hb-rotenburg-stermer-schrotthandel-rotenburg.md ; https://www.lk-awr.de/holzabfaelle]

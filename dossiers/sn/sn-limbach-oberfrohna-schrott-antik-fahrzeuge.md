@@ -12,7 +12,9 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+lat: '50.8393516'
+lon: '12.7662558'
+description: 'Klärfall: Der Betrieb "Schrott Antik Fahrzeuge" ist nur über Branchenverzeichnisse auffindbar. Drei Verzeichnisse (Cylex, Infobel, lokaleschrottplatz.de) nennen deckungsgleich Hohensteiner Str. 154, 09212 Limbach-Oberfrohna und +49 163 3718231; ein Betreiberauftritt und ein Registereintrag fehlen, die amtliche Namenssuche online-handelsregister.de nach "Schrott Antik Fahrzeuge Limbach-Oberfrohna" bleibt ohne Treffer. Das amtliche Fachbetrieberegister kennt für Limbach-Oberfrohna genau einen Betrieb (Dienstleistungen Fees, Waldenburger Straße 129, Sammeln/Befördern/Handeln) und nicht die Hohensteiner Straße 154 (Negativbefund ohne Beweiswert, die Efb-Anerkennung ist freiwillig). Das Verzeichnis lokaleschrottplatz.de labelt den Eintrag "Geschlossen", ohne dabei eine Öffnungszeit oder einen Beleg zu nennen - das ist kein Schließungsnachweis. ANKAUF: keine belegten Preise. VERKAUF: keine Preisliste. GEBÜHREN: nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -24,9 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+
+
+
+**GEO (Stand 28.10.2026):** Der Produktionspunkt lag auf der Bachstraße im Ortsteil Limbach und rund 2,2 km
+vom gesuchten Objekt entfernt; er wurde auf den adresskonformen OSM-Way 135687622 („154, Hohensteiner Straße,
+09212 Limbach-Oberfrohna“) korrigiert. Das Fachbetrieberegister kennt für den Ort nur einen anderen Betrieb,
+das Portal-Label „Geschlossen“ bleibt ohne Beweiswert. `status` bleibt `pruefung`.
 
 ## Timeline
+- [Recherche 28.10.2026: **GEO-PUNKT KORRIGIERT (rund 2,2 km daneben), NEGATIVBEFUND IM FACHBETRIEBEREGISTER, "GESCHLOSSEN"-LABEL ALS NICHTBELEG FESTGEHALTEN.** Die in der Produktion gespeicherten 50.8588/12.7616 lösen auf "2, Bachstraße, Limbach, 09212 Limbach-Oberfrohna" auf, also **nicht** auf die Hohensteiner Straße; der adresskonforme OSM-Punkt ist der **Way 135687622** mit `addr:housenumber=154`, `addr:street=Hohensteiner Straße`, `addr:postcode=09212`, Ortsteil Pleißa, bei **50.8393516/12.7662558** (live geprüft). Die Differenz zum Altpunkt beträgt rund **2,2 km** (Haversine, Erdradius 6371 km); `lat`/`lon` wurden entsprechend gesetzt. Das **amtliche Fachbetrieberegister** (Auszug 11.08.2026) führt für Limbach-Oberfrohna genau **einen** Betrieb: "Dienstleistungen Fees, Waldenburger Straße 129" mit den Tätigkeiten Sammeln, Befördern und Handeln - einen Eintrag "Schrott Antik Fahrzeuge" oder eine Annahmestelle an der Hohensteiner Straße 154 gibt es dort **nicht** (Negativbefund **ohne** Beweiswert, die Efb-Anerkennung ist freiwillig). Die **amtliche Namenssuche** online-handelsregister.de nach "Schrott Antik Fahrzeuge Limbach-Oberfrohna" (live am 28.10.2026) bleibt ohne Treffer. Das Verzeichnislabel "Geschlossen" von lokaleschrottplatz.de wird ausdrücklich **nicht** als Schließungsnachweis gewertet (Aggregator-Label); das im selben Portal genannte Gegenstück "öffnet morgen um 11:00" zeigt, dass es sich um einen Textbaustein handelt. `status` bleibt **pruefung**, `name`, `street`, `postcode` und `phone` bleiben unverändert. Die Notizen vom 02.10., 03.10. und 04.10.2026 (Ausnahmefall-Fill aus drei Portalquellen, Negativbefund im städtischen Firmenverzeichnis) bleiben unverändert erhalten. **ANKAUF:** keine belegten Preise. **VERKAUF:** keine Preisliste. **GEBÜHREN:** nicht belegt. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.8588&lon=12.7616&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=Hohensteiner+Stra%C3%9Fe+154%2C+09212+Limbach-Oberfrohna&format=jsonv2 ; https://api.openstreetmap.org/api/0.6/way/135687622.json ; https://schrottregister.pages.dev/ort-limbach-oberfrohna ; https://www.online-handelsregister.de/suche/Schrott+Antik+Fahrzeuge+Limbach-Oberfrohna ; https://lokaleschrottplatz.de/schrott-antik-fahrzeuge ; read-only public.db (28.10.2026).]
 
 ### Recherche 03.10.2026
 

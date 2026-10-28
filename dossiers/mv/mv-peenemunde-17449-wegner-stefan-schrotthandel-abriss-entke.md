@@ -12,6 +12,8 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
+lat: '54.1483775'
+lon: '13.7973791'
 description: Als Schrotthandel mit Abriss und Entkernung in Peenemünde verzeichnet; bestehende Adresse, Telefon und Terminhinweis sind bisher nur verzeichnisgestützt, aktuelle Betreiberbestätigung fehlt.
 dropoff_json: ''
 pickup_json: ''
@@ -26,7 +28,13 @@ provenance_origin: table
 
 Vorhandene Seed-Adresse Müggenhof 1 und 038371 20757 sind konsistente **Verzeichnis-Leads**, aber keine aktuelle Betreiber-/Registerbestätigung. Die regionale Mikroseite hat keinen Stefan Wegner zugeordneten Impressumsnachweis, sondern nur Kontakt/Urheberhinweis des Portalbetreibers. Ein Suchergebnis oder mehrfach abgeschriebene Daten rechtfertigen deshalb keinen bestätigten Aktiv-Status. Alte Angaben bleiben mit offener Beleglage erhalten; kein Schließungsbeleg. ANKAUF: keine numerische Vergütung; VERKAUF: keine Teile-/Materialpreisliste; GEBÜHREN: keine verifizierten Gebühren. Die alte Notiz vom 02.10. vermerkt automatische Neugeokodierung nach Adressfüllung; deren Abschluss wurde hier nicht überprüft.
 
+
+**GEO (Stand 28.10.2026):** Der Produktionspunkt 54.1365/13.7718 lag auf der Hauptstraße in Peenemünde und
+nicht auf Müggenhof 1; er wurde auf den adresskonformen OSM-Node 1882100937 (54.1483775/13.7973791)
+korrigiert, rund 2,1 km Abweichung. Die Anschrift ist eine alte Hofstelle, kein erkennbarer Gewerbebetrieb.
+
 ## Timeline
+- [Recherche 28.10.2026: **GEO-PUNKT KORRIGIERT (rund 2,1 km daneben), IDENTITÄT WEITER UNBELEGT.** Die in der Produktion gespeicherten 54.1365/13.7718 lösen auf "22, Hauptstraße, Peenemünde, 17449" auf, also nicht auf Müggenhof 1; der adresskonforme OSM-Punkt ist der **Node 1882100937** mit `addr:housenumber=1`, `addr:road=Müggenhof`, `addr:postcode=17449` bei **54.1483775/13.7973791** (live geprüft). Die Differenz zwischen Altpunkt und adresskonformem Punkt beträgt rund **2,1 km** (Haversine, Erdradius 6371 km). OSM ordnet Müggenhof 1 dabei als **Hofstelle** ein (`addr:farmyard=Müggenhof`); das historische Gut Müggehof bei Peenemünde ist als Kulturdenkmal-Umfeld beschrieben, die Anschrift ist also ein alter Hof, kein gewerbliches Grundstück. Frontmatter: `lat`/`lon` auf den adresskonformen Punkt gesetzt, `status` **pruefung** bleibt, `street`, `postcode` und `phone` bleiben die bisherigen, nur verzeichnisgestützten Altwerte. Registerprüfung: die Namenssuche online-handelsregister.de nach "Wegner Peenemünde" bleibt ohne Treffer (Einzelgewerbe ohne HRB, kein Negativbeweis), im amtlichen Fachbetrieberegister existiert für Peenemünde keine Ortsseite, eine Anerkennung als Autoverwertung ist damit nicht belegbar. **ANKAUF:** keine numerische Vergütung. **VERKAUF:** keine Material- oder Teilepreisliste. **GEBÜHREN:** keine verifizierten Gebühren; die Portalleiste nennt nur Termine und Abholung. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=54.1365&lon=13.7718&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?q=M%C3%BCggenhof+1%2C+17449+Peenem%C3%BCnde&format=jsonv2 ; https://api.openstreetmap.org/api/0.6/node/1882100937.json ; https://usedom.de/die-insel/geschichte-und-traditionen/historische-rundfahrten-peenemuende ; https://www.online-handelsregister.de/suche/Wegner+Peenem%C3%BCnde ; read-only public.db (28.10.2026).]
 
 ### Recherche 18.10.2026
 

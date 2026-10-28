@@ -68,7 +68,14 @@ rund **3,6 km** vom adresskonformen Punkt "166, Hofer Straße, Oberlungwitz, 093
 (50.7901701/12.7579855, OSM-Weg mit `addr:housenumber=166`, `addr:street=Hofer Straße`,
 `addr:postcode=09353`) entfernt. Das ist ein **Geocodierungsbedarf**; es wird kein Punkt geraten.
 
+
+**Nachtrag 28.10.2026 (Preisabgrenzung):** Der Namensvetter Hofmann Metall GmbH (Zwickau) veröffentlicht auf
+seiner Website eine eigene Marktpreisliste (Stahl nach BDSV, Stand 05/2026: Sorte 1 273,90 €/t, Sorte 2/8
+319,00 €/t, Sorte 3 305,20 €/t, Sorte 4 316,20 €/t, Sorte 5 269,00 €/t, dazu Börsenpreise). Diese Preise
+gehören **nicht** zum Eintrag Hofer Str. 166 und werden ausdrücklich nicht übernommen.
+
 ## Timeline
+- [Recherche 28.10.2026: **PREISABGRENZUNG ZUM NAMENSVETTER ERGÄNZT - KEINE ÜBERNAHME.** Die Namensabgrenzung zur **Hofmann Metall GmbH** (Hauptsitz Äußere Dresdner Straße 80, 08066 Zwickau, HRB 5475) wurde live bestätigt: Die Website weist den Hauptsitz Zwickau, fünf Standorte (Zwickau, Chemnitz Blankenburgstraße 104, Hirschfeld Bahnhofstraße 5, Schmölln Am Kemnitzgrund 16 sowie weitere Annahmestellen), die Geschäftsführung Robert Eckhold und eine eigene Marken- und Börsenpreis-Seite aus. Diese Seite veröffentlicht **Zahlenpreise**: Stahl nach BDSV bundesweit mit Stand 05/2026 (Sorte 1 273,90 EUR/t, Sorte 2/8 319,00 EUR/t, Sorte 3 305,20 EUR/t, Sorte 4 316,20 EUR/t, Sorte 5 269,00 EUR/t) sowie Börsenpreise für Aluminium, Kupfer, Nickel, Zink und Zinn. **Diese Preise gehören der Hofmann Metall GmbH in Zwickau und werden ausdrücklich NICHT als Preise der Zeile Hofer Str. 166, 09353 Oberlungwitz übernommen**; sie sind auch keine Ankaufskurse dieses Eintrags, sondern eine Marktübersicht des Namensvetters. Für die gesuchte Zeile bleibt es bei: **Ankauf:** keine zurechenbare Preisliste. **Verkauf:** keine Preisliste. **Gebühren:** keine Tarife. Eine Suche nach "Bunt-Edelmetall", "Buntmetall Recycling", "Hofer Straße 166" sowie den Namen Hofmann und Dukart liefert am 28.10.2026 weiterhin **keinen** Betreiberauftritt und **keinen** Registereintrag für Oberlungwitz; der Namenskonflikt Hofmann/Dukart bleibt damit offen und wird nicht aufgelöst. Die Notizen vom 01.10., 02.10., 27.10. und 28.10.2026 (amtliches Fachbetrieberegister, Branchensuche, Verzeichnislabel) bleiben unverändert erhalten. Quelle(n): https://www.hofmann-metall.de/impressum/ ; https://hofmann-metall.de/ ; https://www.presseportal.de/pm/172422/6010468 ; https://www.braunschweiger-zeitung.de/wirtschaft/Presseportal/article408760014/nachhaltigkeit-in-der-metallverarbeitung-wie-hofmann-metall-durch-recycling-ressourcen-schont.html (Abruf 28.10.2026).]
 
 ### Recherche 28.10.2026: amtliches Fachbetrieberegister und Branchensuche geprüft
 
