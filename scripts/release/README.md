@@ -15,7 +15,10 @@ bash scripts/release/run_cycle.sh <commit> <short> /tmp/opencode/release-targets
 python3 scripts/release/wave_gate.py HEAD
 
 # 3) Rollout (Backup, Binärtausch, Neustart, Health-Check, Post-Rollout-Lauf)
+#    RELEASE_SHORT ist Pflicht: ohne sie greifen Rollout und Nachprüfung in
+#    fremde Verifier-Pins.
 RELEASE_SHORT=<short> RELEASE_COMMIT=<commit> RELEASE_TREE=<tree> \
+  RELEASE_TARGET_SLUGS=/tmp/opencode/release-targets-next.json \
   python3 scripts/release/rollout.py
 
 # 4) Nachprüfung read-only

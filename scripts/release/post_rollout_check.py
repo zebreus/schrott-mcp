@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]  # Repo-Wurzel
 PROD = Path("/var/lib/schrott-mcp")
 
-SHORT = os.environ.get("RELEASE_SHORT", "f40d1dbb")
+SHORT = os.environ["RELEASE_SHORT"]  # Pflicht: sonst greift ein fremder Pin
 GEO_CLEARED_EXPECTED = json.loads(
     Path(os.environ.get("RELEASE_TARGET_SLUGS", "{}")).read_text() or "[]")
 ESSEN_GEO_SLUGS = json.loads(

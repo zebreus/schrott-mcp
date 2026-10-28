@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]  # Repo-Wurzel
-SHORT = os.environ.get("RELEASE_SHORT", "0770ad70")
+SHORT = os.environ["RELEASE_SHORT"]  # Pflicht: sonst greift ein fremder Pin
 PROBE = ROOT / f"target/predeploy-{SHORT}"
 BUILD = PROBE / "build/release"
 PROD = Path("/var/lib/schrott-mcp")
