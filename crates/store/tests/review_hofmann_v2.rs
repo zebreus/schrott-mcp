@@ -186,7 +186,7 @@ fn review_boot_from_v6_without_ledger_is_additive_and_preserves_prices() {
         db.query_sql("SELECT user_version FROM pragma_user_version")
             .unwrap()
             .rows[0][0],
-        9
+        10
     );
 }
 
