@@ -240,14 +240,17 @@ evidence, otherwise `pruefung` + Klärfall; (6) cross-reference sibling
 dossiers (same operator, same city) instead of merging.
 
 **`geschlossen` means one thing only:** the *trader entry* is documented
-closed by evidence (register dissolution/insolvency, operator statement,
-permanent site closure). It is **not** a synonym for "this is not a scrap
+closed by evidence — the legal entity the row names is dissolved or in
+insolvency (register), the operator states the closure, or the site is
+permanently gone. It is **not** a synonym for "this is not a scrap
 business", "the name is a surname", or "the address belongs to somebody
-else" — a mis-assigned seed row that never was a scrap trader stays
+else": a mis-assigned seed row that never was a scrap trader stays
 `pruefung` with the Klärfall documented, so the catalog does not claim a
-closure that never happened. Rows whose entry is closed but whose scrap
-relation was never established use `pruefung` with a clear
-`kein Schrottbetrieb an diesem Eintrag` note.
+closure that never happened. The two findings are independent and each
+needs its own evidence — a dissolved company that was never a scrap
+business is `geschlossen` (the register proves the closure) *and* carries
+the note `kein Schrottbetrieb an diesem Eintrag`; a living company that is
+not a scrap business is `pruefung`.
 
 Research delegation: use the short, outcome-oriented assignment in
 `prompts/tiefenrecherche-welle.md`. Agents choose their research methods,

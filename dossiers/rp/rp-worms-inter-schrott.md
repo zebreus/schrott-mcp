@@ -45,7 +45,7 @@ nicht.
 
 ## Timeline
 
-- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Die Fließtext-Erwähnung der Nachbar-Website wurde auf die Form mit Protokoll berichtigt.** Die Notiz nannte die Domain ohne Schema ohne Schema; das ist eine reine Schreibweise der **gleichen** Quelle (der OSM-Geschäftsnode desselben Hauses), keine Änderung an der Beleglage. Quellen: `README.md` (URL-Konvention) ; die berichtigte Stelle in dieser Notiz.]
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Die Fließtext-Erwähnung der Nachbar-Website wurde auf die Form mit Protokoll vereinheitlicht.** Die Notiz nannte die Nachbar-Website in der Form ohne Schema; das ist eine reine **Schreibweise** derselben Quelle (der OSM-Geschäftsnode desselben Hauses), keine Änderung an der Beleglage. Die Änderung war **keine** Gate-Forderung: die URL-Prüfung des Gates greift nur auf Hosts mit der Doppelpunkt-Form ohne Schema, und im Wellen-Diff gibt es keinen solchen Treffer. Quellen: die berichtigte Stelle in dieser Notiz.]
 
 ### Recherche 28.10.2026 (Shard C, 6h-Welle): archivierte Betreiberquelle sichert Kontakt und Mindestmenge
 

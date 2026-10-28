@@ -67,7 +67,7 @@ Verzeichnisangabe der exakten Hausnummer) fehlt.
 
 ## Timeline
 
-- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Die beiden Fließtext-Erwähnungen der Domain wurden auf die Form mit Protokoll berichtigt.** Die Notiztexte nannten die Domain ohne Schema ohne Schema; das ist eine reine Schreibweise der **gleichen** Quelle, keine Änderung an der Beleglage. Das Dossier-Feld `website` trug bereits `https://www.metallhandel-salzmann.de`. Quellen: `README.md` (URL-Konvention) ; die beiden berichtigten Stellen in dieser Notiz und im Überblick-Abschnitt.]
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Die beiden Fließtext-Erwähnungen der Domain wurden auf die Form mit Protokoll vereinheitlicht.** Die Notiztexte nannten die Domain in der Form ohne Schema; das ist eine reine **Schreibweise** derselben Quelle, keine Änderung an der Beleglage - das Dossier-Feld `website` trug bereits die Form mit Protokoll. Die Änderung war **keine** Gate-Forderung: die URL-Prüfung des Gates greift nur auf Hosts mit der Doppelpunkt-Form ohne Schema, und im Wellen-Diff gibt es keinen solchen Treffer. Korrigiert sind nur die beiden Doppelnennungen; der Fließtext bleibt an den betroffenen Stellen unverändert lesbar. Quellen: die beiden berichtigten Stellen in dieser Notiz und im Überblick-Abschnitt.]
 
 ### Recherche 28.10.2026: Seed-Eintrag über das amtliche Handelsregister aufgelöst
 

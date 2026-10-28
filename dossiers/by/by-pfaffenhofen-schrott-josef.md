@@ -46,7 +46,8 @@ Verzeichnisse und das amtliche Handelsregister konsistent:
 Keine dieser Quellen nennt Schrott, Metall, Altmetall, Recycling, Container oder Entsorgung.
 Der Seed-Eintrag ist damit **kein Schrotthändler**, sondern ein Namensvetter aus der
 Nachnamen-/Vornamen-Umkehr. Die bisherige Einstufung `schrotthaendler` wird auf `sonstige`
-korrigiert; `status: geschlossen` bedeutet in diesem Katalog **"kein Schrottbetrieb an diesem
+korrigiert; der Status ist `pruefung` mit dokumentiertem Klaerfall - `geschlossen` bedeutet in
+diesem Katalog ausschliesslich eine **belegte Schliessung** des Eintrags, **nicht** "kein Schrottbetrieb an diesem
 Eintrag"** und **nicht** die Behauptung, die Immobilienagentur oder die JS Wohnbau GmbH seien
 aufgelöst - beide sind im Register **aktiv**.
 

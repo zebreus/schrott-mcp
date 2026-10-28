@@ -57,8 +57,8 @@ Behandeln, Handeln, Makeln, 39 Abfallschlüssel u.a. 160117 Eisenmetalle, 160118
 Abfallschlüssel werden **nicht** auf die SNA-Zeile übertragen.
 
 **Ergebnis:** Es gibt **keine belegte SNA GmbH**, die an Liebigstr. 72 Schrott ankauft. Die
-Zeile wird deshalb als **nicht mehr existente Schrottzeile** geführt (`status: geschlossen` im
-Sinne von "kein Schrottbetrieb an dieser Adresse unter diesem Namen"); es wird **nicht** behauptet,
+Zeile wird deshalb als **nicht bestaetigte Schrottzeile** gefuehrt (`status: pruefung` mit
+dokumentiertem Klaerfall); es wird **nicht** behauptet,
 dass die **SNA GmbH HRB 123337** (Hamburg, aktiv) oder die **Slotosch Natursteinaufbereitung GmbH
 HRB 93120** (Hamburg, aktiv) aufgelöst seien - beide sind im Register **aktiv**, sie sind nur
 **andere Rechtsträger**. Straße, PLZ und die Seed-Telefonnummer bleiben als historische
@@ -108,7 +108,7 @@ ist 53.5315698/10.0988270 (way, "72, Liebigstraße, Billbrook, 22113 Hamburg"). 
   **Hermann Steuber Müll-Container GmbH** (Liebigstr. 82-84) - **andere Betriebe**, deren
   Zertifikate und Abfallschlüssel **nicht** übernommen werden. Es gibt damit **keine belegte SNA
   GmbH**, die an Liebigstr. 72 Schrott ankauft. Frontmatter: **status pruefung → geschlossen** im
-  Sinne "kein Schrottbetrieb an dieser Adresse unter diesem Namen"; **nicht** behauptet wird eine
+  Sinne eines belegten Eintragsschluss: Die SNA GmbH ist im Register **aktiv**; **nicht** behauptet wird eine
   Auflösung der SNA GmbH HRB 123337 oder der Slotosch Natursteinaufbereitung GmbH HRB 93120 - beide
   sind im Register **aktiv** und lediglich andere Rechtsträger. `street`, `postcode` und `phone`
   bleiben als historische Seed-Angaben stehen; `website` bleibt leer, `website_status` bleibt

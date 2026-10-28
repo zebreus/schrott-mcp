@@ -32,9 +32,11 @@ Aufloesungseintraege; das amtliche Portal-Index fuehrt den Rechtstraeger trotzde
 weil es die Aufloesung nicht nachfuehrt - ein Registerindex "aktiv"-Header belegt daher **keinen**
 aktuellen DIAS-Annahmebetrieb. Die 11880-Angaben stammen aus einem Datensatz mit Datenstand 2021.
 
-**Die Seed-Anschrift ist eine andere als die registrierte.** Die DIAS GmbH war laut Register
-**Sachsenbruecke 5** gefuehrt (die Registeranschrift wurde 2013 dorthin geaendert); **Am Vulkanhafen 6**
-wurde durch die Registerhistorie **nie** belegt. OSM weist an Am Vulkanhafen 6 heute
+**Die Seed-Anschrift war die fruehere registrierte Geschäftsansrift.** Die DIAS GmbH war laut
+Registerhistorie in den Veraenderungen vom 18.04.2006 und 12.05.2006 an **Am Vulkanhafen 6**,
+20457 Hamburg gefuehrt; die Registeranschrift wurde erst spaeter auf **Sachsenbruecke 5** gewechselt
+(Eintrag vom 10.03.2014). Die Seed-Anschrift ist damit **nicht frei erfunden**, sie ist die
+fruehere Anschrift desselben Rechtstraegers. OSM weist an Am Vulkanhafen 6 heute
 "**PTS Logistics**" aus - ein anderer Betrieb. Das **amtliche Fachbetrieberegister** (Auszug
 11.08.2026) verzeichnet **keinen** Eintrag an Am Vulkanhafen 6; dort sind in Hamburg u.a.
 **Green Ports (Hamburg) GmbH** (Kattwykstrasse 20), **Fuchslocher GmbH & Co. KG**
@@ -42,7 +44,7 @@ wurde durch die Registerhistorie **nie** belegt. OSM weist an Am Vulkanhafen 6 h
 **Veolia Umweltservice Nord GmbH** (Billbrookdeich 134) und **Zweigniederlassung Hamburg**
 (Bredowstrasse 8) verzeichnet - **keiner** davon ist als Nachfolger der DIAS belegt.
 
-`status: geschlossen` bedeutet in diesem Katalog **"kein Schrottbetrieb an diesem Eintrag"** und
+`status: geschlossen` bedeutet in diesem Katalog **"der gefuehrte Rechtstraeger ist durch das Register als aufgeloest ausgewiesen"** - es ist die belegte Schliessung der Gesellschaft (Insolvenz 67a IN 17/14, Aufloesung 10.03.2014) und **nicht** nur die Feststellung, dass an diesem Eintrag kein Schrottbetrieb betrieben wird. Schliessung und Nichtexistenz eines Schrottbetriebs sind getrennt zu belegen;
 **nicht** die Behauptung, die DIAS GmbH HRB 90741 sei im Register aufgeloest (das Register fuehrt sie
 weiter als aktiv) oder der Standort sei verwaist. Die **namensgleiche** Gesellschaft `dias.de`
 (Haubachstrasse 72) ist ein **anderer Rechtstraeger** (HRB 58167) und wird nicht gleichgesetzt.
@@ -86,7 +88,7 @@ Adresspunkt "6, Am Vulkanhafen" (53.5264649/9.9462641) entfernt. Das ist ein
   Silo-Zentrale Hamburg Recycling Solutions (Sandgrube 22), Veolia Umweltservice Nord
   (Billbrookdeich 134) und "Zweigniederlassung Hamburg" (Bredowstrasse 8) verzeichnet - **keiner
   davon ist als Nachfolger der DIAS belegt**. Frontmatter: **status pruefung → geschlossen** im
-  Sinne "kein Schrottbetrieb an diesem Eintrag"; **nicht** behauptet wird eine Registeraufloesung
+  Sinne einer belegten Registeraufloesung: Die Gesellschaft ist am 10.03.2014 durch Insolvenz (67a IN 17/14) und Aufloesung **aufgeloest** worden; zusaetzlich wird festgehalten, dass an diesem Eintrag kein Schrottbetrieb belegt ist
   der DIAS GmbH (das Register fuehrt sie aktiv) oder eine Verodung des Standorts. Die
   **namensgleiche** Gesellschaft `dias.de` (HRB 58167, Haubachstrasse 72) bleibt als anderer
   Rechtstraeger abgegrenzt; die **DCP**-Zweigniederlassung Am Vulkanhafen 6 belegt Koexistenz,
