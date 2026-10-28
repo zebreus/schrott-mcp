@@ -58,7 +58,7 @@ pub const SLUG_BRANDIS: &str = "sn-brandis-hofmann-metall-betriebsteil";
 pub const BRANDIS_URL: &str = "https://hofmann-metall.de/standorte/brandis-leipzig/";
 /// Betriebsteil Schmölln (Am Kemnitzgrund 16, 04626 Schmölln). Die Kontaktzeile
 /// nennt "Telefon:" statt "Büro:" - der Extraktor akzeptiert beide Labels.
-pub const SLUG_SCHMOELLN: &str = "sn-schmoelln-hofmann-metall-betriebsteil";
+pub const SLUG_SCHMOELLN: &str = "th-schmoelln-hofmann-metall-betriebsteil";
 pub const SCHMOELLN_URL: &str = "https://hofmann-metall.de/standorte/schmoelln/";
 /// Bespoke, live-verified Elstertrebnitz contact page (KONTAKT-Tabelle).
 pub const ELSTERTREBNITZ_URL: &str = "https://hofmann-metall.de/standorte/elstertrebnitz/";

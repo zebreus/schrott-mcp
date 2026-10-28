@@ -1,8 +1,8 @@
 ---
-slug: sn-schmoelln-hofmann-metall-betriebsteil
+slug: th-schmoelln-hofmann-metall-betriebsteil
 name: Hofmann Metall GmbH, Betriebsteil Schmölln
 trader_type: schrotthaendler
-state: SN
+state: TH
 city: Schmölln
 street: Am Kemnitzgrund 16
 postcode: '04626'
@@ -47,6 +47,7 @@ Händlerpreis).
 industrial) - Betriebsadresse und Kartierung decken sich.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Bundesland und Slug korrigiert** - Schmölln liegt im **Altenburger Land in Thüringen**, nicht in Sachsen. Die Nominatim-Rückwärtsauflösung der Koordinate 50.8827957/12.3471999 weist sie als „Hofmann Metall, 16, Am Kemnitzgrund, Sommeritz, Schmölln, Altenburger Land, Thüringen, 04626“ aus (ISO 3166-2 DE-TH); das amtliche Gemeindeschlüssel (AGS 16077043) und der Landkreis bestätigen Thüringen. Weil der Datensatz **neu** ist, wird der Slug jetzt von Anfang an richtig gewählt (`th-schmoelln-hofmann-metall-betriebsteil`, Verzeichnis `dossiers/th/`) - es wird kein bestehender Slug umbenannt. Der Betreiber (Hofmann Metall GmbH, HRB 5475 AG Chemnitz, Hauptsitz Zwickau) sitzt in Sachsen, **der Standort** in Thüringen; das Dossier führt deshalb `state: TH`. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.8827957&lon=12.3471999&zoom=18&addressdetails=1 ; https://hofmann-metall.de/standorte/schmoelln/ ; Statistisches Bundesamt (Gemeindeschlüssel 16077043) ; Landkreis Altenburger Land ; Abruf 28.10.2026.]
 
 ### Recherche 28.10.2026
 
