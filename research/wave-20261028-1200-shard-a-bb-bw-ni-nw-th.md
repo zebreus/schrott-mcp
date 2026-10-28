@@ -170,8 +170,13 @@ Friedrich-Engels-Straße 2, 99974 Mühlhausen (nur Straßenkörper way 260082591
 8. **Spiegeldefekt** `nw-gutersloh-gmg`: Für Gütersloh existiert keine Ortsseite
    (defekter Mirror-Link); die Identität „GMG" bleibt offen.
 9. **Zertifikatsnummer** `th-muhlhausen-scholz-recycling-standort-muhlhausen`: Der
-   namenlose Registereintrag Friedrich-Engels-Straße 2 hat eine 404er-Detailseite, die
-   Gleichsetzung mit dem Scholz-Standort ist eine begründete, nicht amtliche Zuordnung.
+   Registereintrag Friedrich-Engels-Straße 2, Mühlhausen, hat eine **erreichbare** Detailseite
+   (`https://schrottregister.pages.dev/betrieb-muhlhausen-muhlhausen`, live abgerufen am
+   28.10.2026); sie nennt den **Hauptsitz Scholz Recycling GmbH** und die **Zertifikatsnummer
+   ZZEE00300269** (Tätigkeiten Lagern und Behandeln, Abfallschlüssel 160112, 160116, 160801,
+   160803). Die Gleichsetzung mit dem Scholz-Standort ist damit **amtlich belegt** und das
+   Zertifikat wird gesetzt. **Nachtrag des Owners:** Die Aussage dieser Welle, die Detailseite
+   liefere HTTP 404, war ein **Fehler** und ist hiermit berichtigt.
 10. **Merge-Kandidaten** (nicht bearbeitet): `bb-potsdam-vhz-...` teilt das
     Industriegebiet Zum Heizwerk mit `bb-potsdam-kulisch-co-...` und
     `bb-potsdam-richter-recycling`; `th-muhlhausen-scholz-...` und

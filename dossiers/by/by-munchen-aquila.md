@@ -11,6 +11,7 @@ email: info@fritz-aquila.de
 opening_hours: Mo-Do 7-16, Fr 7-12 Uhr
 website: https://www.fritz-aquila.de
 website_status: aktiv
+certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZEE00300259 (Fachbetrieberegister, Auszug 11.08.2026); zertifizierte Tätigkeit Behandeln; Abfallschlüssel 160213* und 200135*"]'
 status: aktiv
 description: 'Fünfte Generation eines Münchner Metall-Recyclings (gegründet 1900), seit 2021 unter Werner Ch. Aquila; Entsorgungsfachbetrieb nach §§ 56/57 KrWG. Betreiber-Primärquelle (Impressum mit HRA 11004 AG München) und amtliches Fachbetrieberegister (ZZEE00300259, Tätigkeit Behandeln, 2 Abfallschlüssel 160213/200135) nennen dieselbe Anschrift Dachauer Straße 537-539, 80993 München. ANKAUF: Eisen/Blechschrott/Träger/Schienen, Nichteisenmetalle (Aluminium, Bronze, Blei, Edelstahl, Messing, Kupfer, Rotguss, Zinn, Zink) ab 20 kg Mindestmenge, Kabel, Alu-Felgen (ohne Reifen), ausschließlich Bleibatterien; An- und Verkauf zu tagesaktuellen Preisen mit direkter Abrechnung vor Ort. VERKAUF: An- und Verkauf von Altmetall und Metallaufbereitung, Preise werden telefonisch nach Sorte und Menge genannt. GEBÜHREN: keine Tarife veröffentlicht. DIESE ZEILE IST EINE DUPLIKATZEILE zur vollständigeren Dossier-Zeile by-munchen-fritz-aquila-metall-recycling (identische Anschrift, Betreiber und Registerbeleg); sie bleibt als Querverweis bestehen, es wird nichts gelöscht oder zusammengeführt.'
 dropoff_json: ''
