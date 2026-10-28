@@ -29,9 +29,11 @@ Eutiner Str. 19, 23701 Süsel, Tel. 04524 8591 sind weiterhin nur über Verzeich
 
 **Namensvetter:** Die unter demselben Namen geführte Firma EUTINER ENTRÜMPELUNGEN (Marcel Jelitzki) bietet ausschließlich Entrümpelung, Wohnungs- und Haushaltsauflösungen an und hat keinen Schrottbezug; sie ist ein anderer Betrieb und wird nicht mit diesem Dossier zusammengeführt.
 
-**GEO:** Die Eutiner Straße ist in OSM für Süsel erfasst (node 3448002536 „Eutiner Straße 19, Barkau“ sowie way 33076332), aber der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und Der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und passt nicht zur Seed-Adresse, daher mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Eutiner Str. 19 steht aus.
+**GEO:** Die Eutiner Straße ist in OSM für Süsel erfasst (node 3448002536 „Eutiner Straße 19, Barkau“ sowie way 33076332), aber der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und passt nicht zur Seed-Adresse, daher mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Eutiner Str. 19 steht aus.
 
 ## Timeline
+
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine zitierte Quellen-URL ist nicht mehr abrufbar und wird als tot gekennzeichnet.** die zitierte Themenseite von Das Örtliche (`dasoertliche.de/Themen/Schrotthandel/Süsel`) liefert HTTP 404; die übrigen Quellen der Notiz bleiben davon unberührt. Die inhaltlichen Aussagen des Dossiers bleiben erhalten. Quellen: der genannte Abruf am 28.10.2026 (HTTP 404).]
 
 - [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine Tatsachenbehauptung im Dossiertext war falsch und ist berichtigt.** die Aussage, die Eutiner Straße sei für Süsel in OSM nicht erfasst, war falsch — **node 3448002536** („Eutiner Straße 19, Barkau“) und **way 33076332** existieren; richtig ist, dass dort kein Betriebsstandort belegt ist. Die betroffene Notiz ist inhaltlich erhalten; die Korrekturvermerke in den übrigen Dossiers derselben Welle sind analog. Quellen: die oben genannten Objekte live abgerufen am 28.10.2026.]
 

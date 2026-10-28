@@ -29,7 +29,7 @@ Der Eintrag ist weiterhin nur verzeichnisgestützt. schrottplatz-info.de führt 
 
 **ANKAUF:** keine Preise und keine Sortenliste veröffentlicht. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife.
 
-Die Hausnummer 5 ist in OSM nicht erfasst (in der Straße sind nur die Nummern 13, 23, 25, 27, 27a, 29a–29f, 31a–31c, 33, 34, 36, 38, 48 und 50 getaggt), deshalb wurde keine Koordinate ergänzt und der bisher gespeicherte Punkt, der auf die Langener Landstraße in Bremerhaven-Nord zeigt, mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Schierholzweg 5 steht aus.
+Die Hausnummer 5 ist in OSM nicht erfasst (die Straße ist in OSM mit 161 Hausnummern erfasst — darunter 13, 23, 25, 27, 27a, 29a–29f, 31a–31c, 33, 34, 36, 38, 48 und 50 —, **die Nummer 5 fehlt jedoch**), deshalb wurde keine Koordinate ergänzt und der bisher gespeicherte Punkt, der auf die Langener Landstraße in Bremerhaven-Nord zeigt, mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Schierholzweg 5 steht aus.
 
 ## Timeline
 

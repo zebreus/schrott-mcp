@@ -31,6 +31,8 @@ Gelbe Seiten und GoLocal führen Seebohm Schrotthandlung und Abholung mit Mobiln
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine zitierte Quellen-URL ist nicht mehr abrufbar und wird als tot gekennzeichnet.** die zitierte PDF-Datei der Stadt Gießen (`giessen.de/media/custom/2874_451_1.PDF`) liefert HTTP 404; der dortige Hinweis ist damit nicht mehr reproduzierbar. Die inhaltlichen Aussagen des Dossiers bleiben erhalten. Quellen: der genannte Abruf am 28.10.2026 (HTTP 404).]
+
 ### Owner-GEO-Prüfung 23.10.2026
 
 - [Owner-GEO-Prüfung 23.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Altpunkt 50.5852400, 8.6791800. Die aktuelle Recherche belegt für diesen Seed keinen adressgenauen, dem Betreiber und einer öffentlichen Annahmestelle zugeordneten Punkt; ein Ersatz wäre geraten. `clear_fields: 'geo'` entzieht das Alt-Paar beim regulären Seed; das bedeutet nur „keine kuratierte aktuelle Koordinate“, nicht Schließung oder Annahmeverweigerung. Keine Ersatzkoordinate geraten, Produktionsdatenbank nicht geschrieben. Quellen: read-only-Abgleich `public.db` vom 23.10.2026; Rechercheeintrag 23.10.2026 mit den dort verlinkten Quellen; `docs/trader-seed.md`.]

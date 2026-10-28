@@ -30,6 +30,8 @@ Der Seedname „Kaiser“ ist keinem aktuellen Schrottbetrieb in Adelsdorf zugeo
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine zitierte Quellen-URL existiert nicht und wird als tot gekennzeichnet.** die zitierte SchrottRegister-Ortsseite `schrottregister.pages.dev/ort-adelsdorf` existiert nicht (HTTP 404); es gibt für Adelsdorf keine Spiegel-Ortsseite, der Negativbefund zur fehlenden Efb-Registrierung bleibt davon unberührt. Die inhaltlichen Aussagen des Dossiers bleiben erhalten. Quellen: der genannte Abruf am 28.10.2026 (HTTP 404).]
+
 ### Recherche 27.10.2026
 
 - [Recherche 27.10.2026: Amtlicher Digitaler Ortsplan der Gemeinde Adelsdorf erneut vollständig ausgewertet (die Kartenmarken werden serverseitig gerendert und sind mit Adresse, Telefon, Kontakt und Website je Eintrag lesbar): Der Plan enthält **„Kaiser Erdarbeiten“, Uttstadt 4, 91325 Adelsdorf, Ansprechpartner Georg, Tel. 0 91 95 / 72 60, info@kaiser-erdarbeiten.de, http://www.kaiser-erdarbeiten.de** sowie **„AME Cavalera Wertstoffhof“, Industriestraße 27a, 91325 Adelsdorf, Maurizio Cavalera, Tel. 0 15 20 / 65 22 14 2, info@ame-cavalera.de**. Ein Eintrag mit der Tätigkeit Schrott/Recycling oder ein **„Kaiser“-Schrottbetrieb fehlt im gesamten Ortsplan** (eigene Kategorien-Gruppe „Ver- & Entsorgung“ vorhanden, aber ohne Kaiser). „Kaiser Erdarbeiten“ ist damit der **amtlich belegte Namensvetter** mit anderer Tätigkeit und wird nicht auf den Seed „Kaiser“ übertragen; „AME Cavalera“ ist ein anderer Betreiber an anderer Anschrift. Das ist kein Beleg, dass es in Adelsdorf keinen Schrotthandel „Kaiser“ gibt.]
