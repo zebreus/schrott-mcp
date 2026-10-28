@@ -577,6 +577,84 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
         )?;
         tx.commit()?;
     }
+    // Migration 10: the MC Schrott handler was extended to all six
+    // Annahmestellen on 27.10.2026. The previous handler version for the
+    // Brandenburg site had mapped three label variants ("Kupfer-Eisen" on
+    // mischschrott, "Blei" and "mit Stecker" on kabel-kupfer) that the current
+    // price list no longer distinguishes. Their observations from 29.09.2026
+    // stay as history, but they must not be presented as current buy prices:
+    // the current set holds exactly one pointer per trader, material AND
+    // variant, so a variant the handler no longer produces would otherwise
+    // stay visible forever.
+    if version < 10 {
+        let tx = conn.unchecked_transaction()?;
+        tx.execute_batch(
+            "DROP TABLE IF EXISTS temp.migration_10_mc_legacy_variants;
+             CREATE TEMP TABLE migration_10_mc_legacy_variants (
+                 trader_id INTEGER NOT NULL,
+                 material_id INTEGER NOT NULL,
+                 variant TEXT NOT NULL,
+                 price_id INTEGER NOT NULL,
+                 PRIMARY KEY (trader_id, material_id, variant)
+             );
+             INSERT INTO migration_10_mc_legacy_variants (trader_id, material_id, variant, price_id)
+             SELECT c.trader_id, c.material_id, c.variant, c.price_id
+             FROM current_prices c
+             JOIN prices p ON p.id = c.price_id
+             JOIN traders t ON t.id = p.trader_id
+             JOIN materials m ON m.id = p.material_id
+             WHERE t.slug = 'bb-brandenburg-an-der-havel-mc-schrott-annahmestelle'
+               AND p.source_url = 'https://www.mcschrott.de/preise/'
+               AND p.observed_at = '2026-09-29T19:15:37.151251084+00:00'
+               AND p.source_type = 'haendler_angabe'
+               AND p.published = 1
+               AND (
+                   (m.slug = 'mischschrott' AND p.variant = 'Kupfer-Eisen'
+                    AND ABS(p.price - 200.0) < 0.000001 AND p.unit = 'EUR/t')
+                OR (m.slug = 'kabel-kupfer' AND p.variant = 'Blei'
+                    AND ABS(p.price - 0.6) < 0.000001 AND p.unit = 'EUR/kg')
+                OR (m.slug = 'kabel-kupfer' AND p.variant = 'mit Stecker'
+                    AND ABS(p.price - 1.2) < 0.000001 AND p.unit = 'EUR/kg')
+               );",
+        )?;
+        let counts: (i64, i64) = tx.query_row(
+            "SELECT COUNT(*),
+                    COALESCE(SUM(c.price_id = s.price_id
+                                 AND c.trader_id = s.trader_id
+                                 AND c.material_id = s.material_id
+                                 AND c.variant = s.variant), 0)
+             FROM migration_10_mc_legacy_variants s
+             JOIN current_prices c
+               ON c.trader_id = s.trader_id
+              AND c.material_id = s.material_id
+              AND c.variant = s.variant
+              AND c.price_id = s.price_id",
+            [],
+            |row| Ok((row.get(0)?, row.get(1)?)),
+        )?;
+        if counts == (3, 3) {
+            tx.execute(
+                "DELETE FROM current_prices AS c
+                 WHERE EXISTS (
+                     SELECT 1 FROM migration_10_mc_legacy_variants s
+                     WHERE s.trader_id = c.trader_id
+                       AND s.material_id = c.material_id
+                       AND s.variant = c.variant
+                       AND s.price_id = c.price_id
+                 )",
+                [],
+            )?;
+        } else if counts != (0, 0) {
+            return Err(StoreError::Rejected(
+                "unexpected MC Schrott legacy-variant population for migration 10",
+            ));
+        }
+        tx.execute_batch(
+            "DROP TABLE migration_10_mc_legacy_variants;
+             PRAGMA user_version = 10;",
+        )?;
+        tx.commit()?;
+    }
     Ok(())
 }
 
@@ -2607,7 +2685,116 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 9);
+        assert_eq!(version, 10);
+    }
+
+    #[test]
+    fn migration_10_retires_only_the_mc_schrott_legacy_variants() {
+        const MC_URL: &str = "https://www.mcschrott.de/preise/";
+        const OLD_OBSERVED_AT: &str = "2026-09-29T19:15:37.151251084+00:00";
+        const MC_SLUG: &str = "bb-brandenburg-an-der-havel-mc-schrott-annahmestelle";
+        let (_dir, db, trader, material) = setup("mc-legacy-variants");
+        let now = "2026-10-27T00:00:00Z";
+        let mischschrott = db
+            .upsert_material(&NewMaterial {
+                slug: "mischschrott",
+                name_de: "Mischschrott",
+                category: "stahl",
+                unit: "EUR/t",
+                description: "",
+                updated_at: now,
+            })
+            .expect("mischschrott material");
+        let kabel = db
+            .upsert_material(&NewMaterial {
+                slug: "kabel-kupfer",
+                name_de: "Kupferkabel",
+                category: "nichteisen",
+                unit: "EUR/kg",
+                description: "",
+                updated_at: now,
+            })
+            .expect("kabel material");
+
+        // Die drei Altvarianten des früheren Handlers.
+        for (mat, variant, eur, unit) in [
+            (mischschrott, "Kupfer-Eisen", 200.0, "EUR/t"),
+            (kabel, "Blei", 0.6, "EUR/kg"),
+            (kabel, "mit Stecker", 1.2, "EUR/kg"),
+        ] {
+            db.record_price(&NewPrice {
+                variant,
+                unit,
+                source_url: MC_URL,
+                observed_at: OLD_OBSERVED_AT,
+                ingested_at: OLD_OBSERVED_AT,
+                notes: "Beobachtung des früheren Handlerstands",
+                extra_json: "{}",
+                ..price(trader, mat, eur, OLD_OBSERVED_AT, OLD_OBSERVED_AT)
+            })
+            .expect("legacy MC row");
+        }
+        // Die aktuelle Beobachtung ohne Variante muss current bleiben.
+        let current = db
+            .record_price(&NewPrice {
+                source_url: MC_URL,
+                observed_at: "2026-10-27T22:40:46Z",
+                ingested_at: "2026-10-27T22:40:46Z",
+                notes: "aktueller Handlerstand",
+                extra_json: "{}",
+                ..price(
+                    trader,
+                    mischschrott,
+                    150.0,
+                    "2026-10-27T22:40:46Z",
+                    "2026-10-27T22:40:46Z",
+                )
+            })
+            .expect("current MC row");
+
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute(
+                "UPDATE traders SET slug = ?1 WHERE id = ?2",
+                rusqlite::params![MC_SLUG, trader],
+            )
+            .expect("set MC slug");
+            conn.execute_batch("PRAGMA user_version = 9;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("retire the reviewed legacy variants");
+        }
+
+        for (mat, variant) in [
+            (mischschrott, "Kupfer-Eisen"),
+            (kabel, "Blei"),
+            (kabel, "mit Stecker"),
+        ] {
+            assert!(
+                db.current_price_for(trader, mat, variant)
+                    .expect("current pointer query")
+                    .is_none(),
+                "Altvariante {variant} darf nicht current sein"
+            );
+            let history = db
+                .price_history(trader, mat, variant, 10)
+                .expect("historical observation");
+            assert_eq!(history.len(), 1, "Historie bleibt erhalten");
+            assert_eq!(history[0].notes, "Beobachtung des früheren Handlerstands");
+        }
+        assert_eq!(
+            db.current_price_for(trader, mischschrott, "")
+                .expect("current pointer query")
+                .expect("aktueller Preis bleibt current")
+                .id,
+            current
+        );
+        let version: i64 = db
+            .conn
+            .lock()
+            .expect("lock")
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("version");
+        assert_eq!(version, 10);
     }
 
     #[test]
@@ -2697,7 +2884,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 9);
+        assert_eq!(version, 10);
     }
 
     #[test]
@@ -2934,7 +3121,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 9);
+        assert_eq!(version, 10);
     }
 
     #[test]
@@ -3275,7 +3462,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 9);
+        assert_eq!(version, 10);
     }
 
     #[test]
@@ -3731,7 +3918,7 @@ mod tests {
                     .expect("version lock")
                     .query_row("PRAGMA user_version", [], |r| r.get(0))
                     .expect("version");
-                assert_eq!(version, 9);
+                assert_eq!(version, 10);
                 assert_eq!(
                     db.test_query("SELECT * FROM prices ORDER BY id"),
                     history,
@@ -3855,7 +4042,7 @@ mod tests {
             let version: i64 = conn
                 .query_row("PRAGMA user_version", [], |r| r.get(0))
                 .expect("successful retry version");
-            assert_eq!(version, 9);
+            assert_eq!(version, 10);
         }
         assert_eq!(db.test_query("SELECT * FROM prices ORDER BY id"), history);
         assert!(db.test_query("SELECT * FROM current_prices").is_empty());
