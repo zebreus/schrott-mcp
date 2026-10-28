@@ -1,6 +1,6 @@
 ---
 slug: by-alzenau-jr-recycling
-name: JR-Recycling
+name: AC Containerdienst UG (haftungsbeschränkt)
 trader_type: schrotthaendler
 state: BY
 city: Freigericht
@@ -31,6 +31,10 @@ Die Seed-Zeile „JR-Recycling“ (Import: „nur Facebook“, Ort Alzenau) lie�
 **Ankauf:** Schrottankauf zu „tagesaktuellen Börsenpreisen auf das Kilogramm genau“, Ankauf von Altkabeln, Kupfer und Aluminium, kostenloser Schrottcontainer für Unternehmen und öffentliche Einrichtungen bei regelmäßig größeren Mengen — **keine Zahlenkurse** veröffentlicht. **Verkauf:** keine Produktpreisliste; angeboten werden Schüttgüter (Schotter, Kies, Erde, Sand) ohne Preisliste. **Gebühren:** eine veröffentlichte Entsorgungspreisliste (Erde/Bodenaushub ab 35 €/t, Holz A1–A3 ab 85 €/t, Holz A4 ab 145 €/t, Grünschnitt ab 79 €/t, Grünabfälle mit Wurzeln ab 89 €/t, Bauschutt sortenrein ab 30 €/t, Bauschutt ab 45 €/t, Bauschutt mit Bimsstein ab 55 €/t, Gipsbaustoffe ab 99 €/t, Sperrmüll ab 200 €/t, Leichtbaustoffe/Rigips ab 120 €/t, Baumischabfall/Mischmüll im Angebot ab 225 €/t statt 250 €/t), Containermiete inkl. 7 Tagen: Absetzcontainer/Mulden 40–140 €*, Abrollcontainer 10–40 m³ 100–180 €* (je nach Liefergebiet 10/20/30/40 km), Leerfahrt 200 €*/Fahrt, Fehlbeladung 199 €*/t; alle Preise zzgl. 19 % USt. Das sind Gebühren, keine Schrottankaufskurse. **GEO:** 50.1363492, 9.123835 ist der OSM-Hauspunkt „Im Schwalbengrund 14“ (Way 157748660); er ersetzt den gespeicherten Alzenauer Punkt (Poststraße 11).
 
 ## Timeline
+
+### Owner-Entscheidung 28.10.2026: Namenskorrektur
+
+- [Owner-Entscheidung 28.10.2026: **Der Name wird auf „AC Containerdienst UG (haftungsbeschränkt)“ korrigiert** (Slug unveraendert, Handhabung wie beim Hofmann-Betriebsteil Schmoelln: Slugs werden nie handgepflegt). Belege: Betreiber-Impressum (live am 28.10.2026) und NorthData: AC Containerdienst UG, Amtsgericht Hanau HRB 101188, Im Schwalbengrund 14, 63579 Freigericht, GF Merle Federau. Der Seed-Name „JR-Recycling“ stammt aus der Wayback-Kette (Impressum 13.05.2025 noch „Juliano Jaehrig“). Die uebrigen Felder der Zeile bleiben unveraendert. Quellen: read-only `public.db` und Dossier (28.10.2026) ; `research/merge-split-20261028.md` ; `docs/trader-seed.md`.]
 
 ### Recherche 28.10.2026: Betreiberkette JR-Recycling → AC Containerdienst UG geschlossen
 

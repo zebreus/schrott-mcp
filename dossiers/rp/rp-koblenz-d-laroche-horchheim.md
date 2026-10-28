@@ -1,6 +1,6 @@
 ---
 slug: rp-koblenz-d-laroche-horchheim
-name: D. Laroche Horchheim
+name: D. Laroche Schrotthandel
 trader_type: schrotthaendler
 state: RP
 city: Koblenz
@@ -33,6 +33,35 @@ Die Betreiber-Primärquelle laroche-recycling.com („D. Laroche Schrotthandel�
 **Ankauf:** Ausdrücklich zugesagt („Wir kaufen Schrott & Altmetalle an – Abholung inklusive“, Zahlung nach Tageshöchstpreisen, sofortige Auszahlung bar oder per Überweisung, Annahme am Betriebshof), aber ohne veröffentlichte Zahlenpreise — die Betreiberseite verzichtet bewusst auf Preislisten und nennt Tageshöchstpreise auf Anfrage. **Verkauf:** keine Preisliste. **Gebühren:** Abholung kostenfrei ab 500 kg, Containerlösungen 7–20 m³ ohne veröffentlichte Tarife; die Bedingungen des „kostenlosen“ Containers sind nicht spezifiziert. **GEO:** 50.3316337, 7.5996342 ist der OSM-Hauspunkt (Way 302783347, `building=house`, addr:housenumber 11, Mendelssohnstraße) und deckt sich mit der Kartennadel von 11880; er ersetzt den gespeicherten, rund 3 km entfernten Punkt Devorastraße 2, 56073 Koblenz-Goldgrube.
 
 ## Timeline
+
+### Recherche 28.10.2026: Namen korrigiert, Schreibweise geklaert
+
+- [Recherche 28.10.2026: NAMENSKORREKTUR, vom Owner am 28.10.2026 zur belegten Umsetzung
+  offengelassen. Der Seed-Name „D. Laroche Horchheim" wird auf „D. Laroche Schrotthandel"
+  gesetzt. Belege aus der Betreiber-Primärquelle laroche-recycling.com, am 28.10.2026
+  vollständig gelesen: Seitentitel der Startseite "D. Laroche Schrotthandel Koblenz |
+  Recycling & Container", Ueberschrift "D. Laroche Schrotthandel aus Koblenz",
+  Ueber-uns-Titel "D. Laroche - Schrotthandel & Demontage seit 2008", Kontaktseite
+  "Kontaktieren Sie D. Laroche - Schrott & Recycling", Fusszeile "© 2025 Dominic Laroche -
+  Recyling" und Chat-Widget "D. Laroche / Inhaber / Dominic". Das Impressum schreibt
+  dagegen "Dominic Larohe" (ein "c" fehlt) und ist damit der Tippfehler; vier von fuenf
+  Eigenaussagen der Betreiberseite schreiben Laroche. Der vom Owner vorgeschlagene
+  Firmierungsname „D. Laroche Recycling" ist belegt, aber nur als Praefix des laengeren
+  11880-Eintrags "D. Laroche Recycling und Demontagen aller Art sowie Abbruch und
+  Rückbau von Industriemaschinen" und nicht als Eigenbezeichnung der Betreiberseite.
+  Ein Handelsregistereintrag existiert nicht (Einzelunternehmer ohne HRB), die
+  Namensform ist also betreiberseitig belegt, nicht amtlich. Das Namensfragment
+  "Horchheim" ist ein Quartier (OSM fuehrt die Mendelssohnstraße 11 dem Stadtteil
+  Horchheim in 56076 Koblenz zu) und entfaellt, da Stadt und PLZ die Zeile bereits
+  tragen. Die Namensvetter im Raum (R&S Laroche GbR Muelheim-Kaerlich, Nutzfahrzeughandel
+  Laroche Kaltenengers, Roxana Laroche, Gianna Laroche, Denise/Macel Laroche) bleiben
+  eigenstaendige Betriebe. ANKAUF, VERKAUF und GEBUEHREN unveraendert: keine
+  Ankaufspreise, keine Verkaufsliste, Abholung kostenfrei ab 500 kg, Container 7-20 m3
+  ohne Tarif. Quelle(n): https://laroche-recycling.com/ ; https://laroche-recycling.com/ueber-uns/ ;
+  https://laroche-recycling.com/impressum/ ; https://laroche-recycling.com/kontakt/ ;
+  https://www.11880.com/branchenbuch/koblenz-am-rhein/060440092B113564383/d-laroche-recycling-und-demontagen-aller-art-sowie-abbruch-und-rueckbau-von-industriemaschinen.html ;
+  https://nominatim.openstreetmap.org/search?q=Mendelssohnstra%C3%9Fe+11%2C+56076+Koblenz&format=jsonv2&limit=5 ;
+  read-only `public.db` (28.10.2026).]
 
 ### Recherche 28.10.2026: Identität und Anschrift zweifach belegt, Ankauf zugesagt
 

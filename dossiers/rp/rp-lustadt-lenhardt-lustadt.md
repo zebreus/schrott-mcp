@@ -1,6 +1,6 @@
 ---
 slug: rp-lustadt-lenhardt-lustadt
-name: Lenhardt Lustadt
+name: Lenhardt Heiko Rohstoffentsorgung
 trader_type: sonstige
 state: RP
 city: Lustadt
@@ -29,6 +29,10 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Owner-Entscheidung 28.10.2026: Namenskorrektur
+
+- [Owner-Entscheidung 28.10.2026: **Der Name wird auf „Lenhardt Heiko Rohstoffentsorgung“ korrigiert** (Slug unveraendert, Handhabung wie beim Hofmann-Betriebsteil Schmoelln: Slugs werden nie handgepflegt). Belege: zwei unabhaengige Verzeichnisse (11880 „Lenhardt Heiko Rohstoffentsorgung“, Gelbe Seiten „Lenhardt Heiko Rohstoffentsorgung“, Roederstr. 12, 67363 Lustadt, 06347 1240); Einzelunternehmer ohne HRB. Die uebrigen Felder der Zeile bleiben unveraendert. Quellen: read-only `public.db` und Dossier (28.10.2026) ; `research/merge-split-20261028.md` ; `docs/trader-seed.md`.]
 
 ### Recherche 28.10.2026: Betrieb identifiziert, Namensvetter-Cluster im Umfeld
 

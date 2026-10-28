@@ -1,20 +1,22 @@
 ---
 slug: he-schaafheim-64850-he-reining-klaus-containerdienst
-name: Reining Klaus Containerdienst
+name: Containerdienst Schaafheim
 trader_type: containerdienst
 state: HE
 city: Schaafheim
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+street: Ringstraße 7
+postcode: '64850'
+phone: 0170 8648439 / 06073 7447301
+email: info@containerdienst-schaafheim.de
+opening_hours: Mo-Fr 08:00-18:00
+website: https://www.containerdienst-schaafheim.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: 'Containerdienst Schaafheim, gefuehrt von Salih Gencsoy, am Standort Ringstraße 7, 64850 Schaafheim (Stadtteil Radheim): regionaler Container-, Schuettgut- und Maschinenservice fuer Privat- und Gewerbekunden aus Bauherren, Handwerk, Gewerbe und Landwirtschaft, laut Betreiberangabe seit Mai 2020 in Betrieb. Leistungen laut Betreiberauftritt: Containerdienst, Schuettgueter, Baumaschinenvermietung, Abfallarten, Entruempelung, Abriss und Demontage; eine Abholung von Schrott und Metall wird beworben, aber ohne Zahlenpreise. ANKAUF: keine Ankaufspreise, kein Materialstaffel, kein Tageskurs. VERKAUF: keine Preisliste. GEBUEHREN: keine Container- oder Entsorgungstarife veroeffentlicht, Angebote werden individuell angefragt. Das Impressum der Betreiberseite fuehrt Rechtsform und Umsatzsteuer-Identifikationsnummer noch als Platzhalter ("vom Kunden ergaenzen"), ein Registereintrag der Gesellschaft liegt nicht vor; der Nachfolgerauftritt nennt die Uebernahme des Containerdienstes Reining (Klaus Reining) selbst nur abgeschwaecht ("laut bisheriger Website"), weshalb die Nachfolgekette nicht als Registertatsache behandelt wird. Die beiden Schwesterzeilen he-schaafheim-64850-he-reining-klaus und he-schaafheim-64850-reining-klaus-containerdienst fuehren den historischen Klaus-Reining-Bestand an der Karlstraße 1 und verweisen hierher; die Anschrift Ringstraße 7 wurde nicht auf sie uebertragen.'
 dropoff_json: ''
 pickup_json: ''
+lat: 49.8877659
+lon: 9.0191569
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -24,9 +26,30 @@ provenance_origin: table
 
 ## Überblick
 
-Gelbe Seiten und Inteka führen „Reining Klaus Containerdienst“, Karlstraße 1, 64850 Schaafheim, 06073 9009 bzw. `k.reining@gmx.de`: historische Verzeichnisleads. Es gibt eine konkrete Nachfolgespur: Der Suchindex von containerdienst-schaafheim.de nennt Salih Gencsoy, Tätigkeit seit Mai 2020 und Klaus Reining als Gründer des übernommenen Containerdienstes, mit Ringstraße 7. Der Direktabruf ist eine JavaScript-App; das öffentlich verlinkte Über-uns-Modul bestätigt Gencsoy/Leistungen, nicht die gesamte Übernahmekette. Daher keine abschließende Nachfolge-/Umzugsbehauptung und kein Ringstraßen-/Kontaktfill. `city: Schaafheim` und die Rücknahme der unqualifiziert kuratierten alten Kernadresse sind ownerfreigegeben, nicht als Beweis einer falschen Anschrift. Zweite unabhängige Gewerbe-/Übernahmequelle fehlt.
+Die Zeile fuehrt den heutigen Betrieb **Containerdienst Schaafheim** (Salih Gencsoy) an
+der Ringstraße 7, 64850 Schaafheim (Stadtteil Radheim). Der Betreiberauftritt liefert
+Anschrift, beide Rufnummern, die E-Mail, die Oeffnungszeiten und das Leistungsspektrum
+(Container-, Schuettgut- und Maschinenservice, Abfallarten, Abriss, Demontage,
+Entruempelung, Baumaschinenvermietung) sowie den Betriebsbeginn "Mai 2020" und einen
+Einzugsradius von 50 km um Schaafheim. Das Impressum fuehrt Rechtsform und
+Umsatzsteuer-Identifikationsnummer noch als Platzhalter, ein Registereintrag liegt nicht
+vor; `status` bleibt deshalb `pruefung`.
 
-**Preise/GEO:** keine zuordenbare Metallankaufsliste, Materialverkaufspreise oder Containergebühren; keine Koordinate ohne Betreiber-/Betriebsstättenbestätigung. Status `pruefung`.
+**Ankauf:** eine Abholung von Schrott und Metall wird beworben, aber **ohne
+Zahlenpreise**, ohne Materialstaffel und ohne Tageskurs. **Verkauf:** keine
+Preisliste. **Gebuehren:** keine Container- oder Entsorgungstarife, Angebote werden
+individuell angefragt.
+
+**GEO:** 49.8877659 / 9.0191569 ist der OSM-Hauspunkt (Way 961378576,
+addr:housenumber 7, addr:street Ringstraße, addr:postcode 64850, addr:city Schaafheim,
+building=yes) und deckt sich auf rund 1 m mit der Kartennadel des 11880-Eintrags
+(49.887766 / 9.019157). Es ist ein Adresspunkt, kein belegter Eingangspunkt; der
+vorher gespeicherte Punkt (Im Herrngarten 6a) wird dadurch ersetzt.
+
+**Cluster:** Die beiden Schwesterzeilen `he-schaafheim-64850-he-reining-klaus` und
+`he-schaafheim-64850-reining-klaus-containerdienst` fuehren den historischen
+Klaus-Reining-Bestand an der Karlstraße 1 und verweisen hierher. Sie werden nicht
+geloescht und nicht zusammengefuehrt.
 
 ## Timeline
 

@@ -1,10 +1,10 @@
 ---
 slug: hh-billbrook-billbrook-oberwerder-damm-1-veddel
-name: Billbrook + Oberwerder Damm 1 Veddel
-trader_type: sonstige
+name: HEG Hamburger Entsorgungsgesellschaft mbH
+trader_type: containerdienst
 state: HH
 city: Billbrook
-street: Bredowstr. 13
+street: Bredowstraße 13
 postcode: '22113'
 phone: 040 257 620 70
 email: heg@srhh.de
@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://www.heg.hamburg/
 website_status: blockiert
 status: pruefung
-description: 'Die Zeile fasst zwei verschiedene Betriebe zusammen. Teil 1 ist die Geschäftsanschrift der HEG Hamburger Entsorgungsgesellschaft mbH (HRB 53960 AG Hamburg, 100 Prozent Tochter der Stadtreinigung Hamburg, 2021 aus HEG und WERT Wertstoff-Einsammlung verschmolzen) an der Bredowstraße 13, 22113 Hamburg; der Recyclinghof Billbrook der Stadtreinigung liegt nach der offiziellen Hamburg-Liste an der Liebigstraße 66. Teil 2, Oberwerder Damm 1 in Hamburg-Veddel, ist nach dem amtlichen Fachbetrieberegister Standort der REMEX Nord GmbH (Zertifikatsnummer ZZBE00100010, Lagern und Behandeln). Für die HEG nennt die Stadtreinigung die gebührenfreie Annahme von Schrott, Kabel und Buntmetallen aus Hamburger Privathaushalten und Abfallcontainer von 10 bis 35 Kubik.'
+description: 'Geschäftsanschrift der HEG Hamburger Entsorgungsgesellschaft mbH (HRB 53960 AG Hamburg, 100 Prozent Tochter der Stadtreinigung Hamburg, 2021 aus HEG und WERT Wertstoff-Einsammlung verschmolzen) an der Bredowstraße 13, 22113 Hamburg-Billbrook: Containerdienst mit Großcontainern von 10 bis 35 Kubik (Servicetelefon 040/2576-2011), Gewerbeabfälle und Sperrmüllservice für Industrie, Handwerk, Gastronomie und Handel. Die gebührenfreie Annahme von Schrott (keine Kfz-Teile), Kabel und Buntmetallen aus Hamburger Privathaushalten ist eine amtliche Aussage der Stadtreinigung für ihre zwölf Recyclinghöfe; der Recyclinghof Billbrook liegt an der Liebigstraße 66 und damit an einer anderen Anschrift als diese Geschäftsanschrift. Die Annahme erfolgt ohne Gegenleistung, es sind keine Ankaufspreise, keine Verkaufspreise und keine Gebührentarife belegt. Der zuvor mitgeführte zweite Betrieb, die REMEX Nord GmbH mit Betriebsstätte Oberwerder Damm (Efb-Zertifikat ZZBE00100010), ist in das eigene Dossier hh-veddel-remex-nord-gmbh ausgelagert.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3
@@ -24,10 +24,37 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zeile fuehrt nach dem Split vom 28.10.2026 nur noch die HEG Hamburger
+Entsorgungsgesellschaft mbH an der Bredowstraße 13, 22113 Hamburg-Billbrook. Belege:
+amtliches Branchenbuch der Stadt Hamburg (Eintragsnummer 10220456, zuletzt aktualisiert
+13.03.2026) mit Anschrift, Telefon 040 / 257 620 70, Telefax 040 / 257 620 75, E-Mail
+heg@srhh.de und Website heg.hamburg; Handelsregister HRB 53960 AG Hamburg. Die HEG ist
+eine 100 Prozent Tochter der Stadtreinigung Hamburg und aus HEG und WERT
+Wertstoff-Einsammlung hervorgegangen (Verschmelzung 17.08.2021). Die eigene Domain
+heg.hamburg antwortet weiterhin mit HTTP 403, deshalb bleibt website_status blockiert
+und es wurde kein Impressum als gelesen behandelt.
+
+Die gebuehrenfreie Annahme von Schrott, Kabel und Buntmetallen aus Hamburger
+Privathaushalten ist eine amtliche Aussage der Stadtreinigung fuer ihre Recyclinghoefe
+(Broschuere INFO 2026, Seite 12). Der Recyclinghof Billbrook liegt nach der offiziellen
+Liste der Stadtreinigung an der Liebigstraße 66 (Mo bis Fr 8 bis 17 Uhr, Sa 8 bis 17
+Uhr), also an einer anderen Anschrift als die Geschaeftsanschrift. Die Offnungszeiten
+bleiben deshalb leer.
+
+ANKAUF: nicht belegt. Die Annahme ist eine gebuehrenfreie Entsorgung ohne
+Gegenleistung, kein Ankauf. VERKAUF: keine Liste. GEBUEHREN: keine Tarife fuer
+Container, Abfall oder Entsorgung veroeffentlicht; die Broschuere nennt Container von
+10 bis 35 Kubik und die Servicetelefonnummer 040/2576-2011, aber keine Preise.
+
+Der zweite zuvor mitgefuehrte Betrieb, die REMEX Nord GmbH mit Betriebsstaette
+Oberwerder Damm (Efb-Zertifikat ZZBE00100010), ist in das eigene Dossier
+hh-veddel-remex-nord-gmbh ausgelagert. Der Slug dieser Zeile bleibt unveraendert.
 
 ## Timeline
 
+### Recherche 28.10.2026: Split der Zeile, Teil 1 bleibt die HEG
+
+- [Recherche 28.10.2026: SPLIT entschieden: Die Zeile enthielt zwei Rechtstraeger an zwei Orten. Teil 1 ist die HEG Hamburger Entsorgungsgesellschaft mbH (HRB 53960 AG Hamburg, 100 Prozent Tochter der Stadtreinigung Hamburg, 2021 aus HEG und WERT Wertstoff-Einsammlung verschmolzen); amtlicher Beleg ist das Branchenbuch der Stadt Hamburg mit Eintragsnummer 10220456 und "Letzte Aktualisierung: 13.03.2026": "HEG Hamburger Entsorgungsgesellschaft mbH", "Adresse: Bredowstraße 13, 22113 Hamburg (Billbrook)", "Telefon: 040 / 257 620 70", "Telefax: 040 / 257 620 75", "E-Mail: heg@srhh.de", "Website: heg.hamburg", Kategorie "Container und Entsorgung". Die Betreiberdomain heg.hamburg liefert am 28.10.2026 weiterhin HTTP 403, deshalb bleibt website_status blockiert und es wurde kein Impressum als gelesen behandelt. Teil 2, Oberwerder Damm, ist die REMEX Nord GmbH und wurde in das neue Dossier hh-veddel-remex-nord-gmbh ausgelagert; der Slug dieser Zeile bleibt unveraendert, kein Slug wurde geaendert und keine bestehende Notiz entfernt. ANNAHME UND GEBUEHREN: Die Broschuere INFO 2026 der Stadtreinigung (Seite 12, "12 X IN HAMBURG: RECYCLINGHOFE") legt fest "ANLIEFERUNGEN IN HAUSHALTSUEBLICHER MENGE UND ART SIND GEBUEHRENFREI FUER: ... Schrott (keine Kfz-Teile), Kabel, Buntmetalle", mit der Fussnote "Nur aus Hamburger Privathaushalten" und der Auflage "Abgabe nur in haushaltsueblicher Menge und nach vorhandener Annahme-Kapazitaet vor Ort". Das ist eine gebuehrenfreie Entsorgung ohne Gegenleistung und damit KEIN Ankauf; Ankaufspreise, Verkaufspreise und Gebuehrentarife sind fuer die HEG nicht belegt. Die offizielle Liste der Recyclinghoefe weist den Recyclinghof Billbrook an der Liebigstraße 66 aus (Mo bis Fr 8 bis 17 Uhr, Sa 8 bis 17 Uhr), nicht an der Bredowstraße 13; die Offnungszeiten bleiben deshalb leer. NEGATIVBEFUND: Im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist fuer die HEG kein Eintrag verzeichnet; da die Efb-Anerkennung freiwillig ist, beweist das keine Nichtexistenz. Die HEG tritt in diesem Dossier als Entsorgungs- und Containerdienstleister auf, nicht als Schrotthaendler. Quelle(n): https://www.hamburg.de/branchenbuch/hamburg/eintrag/10220456/ ; https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf ; https://www.hamburg.de/leben-in-hamburg/wohnen/stadtreinigung/recyclinghoefe-hamburg-379168 ; https://www.northdata.de/HEG+Hamburger+Entsorgungsgesellschaft+mbH,+Hamburg/HRB+53960 ; https://schrottregister.pages.dev/ort-hamburg ; https://www.heg.hamburg/ (403, Abruf 28.10.2026).]
 ### Recherche 28.10.2026
 
 - [Recherche 28.10.2026: ZWEI VERSCHIEDENE BETRIEBE in einer Zeile: Der Teil "Oberwerder Damm 1 Veddel" ist im amtlichen Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev) die REMEX Nord GmbH mit der Anschrift Oberwerder Damm 1 bis 5, 20539 Hamburg, Zertifikatsnummer ZZBE00100010, zertifizierten Tätigkeiten Lagern und Behandeln und 32 Abfallschlüsseln; dieselbe Gesellschaft unterhält am Einsiedeldeich 15, 20539 Hamburg die Tätigkeiten Handeln und Makeln. Der Teil "Billbrook" mit der Seed-Adresse Bredowstr. 13 gehört zur HEG Hamburger Entsorgungsgesellschaft mbH (HRB 53960 AG Hamburg, 2021 aus HEG und WERT Wertstoff-Einsammlung verschmolzen, 100 Prozent Tochter der Stadtreinigung Hamburg). Beides sind verschiedene Rechtsträger an verschiedenen Orten, deshalb ist die Zeile ein Split-Kandidat für den Owner; der Slug und die belegte Bredowstraße 13 bleiben unverändert, es wurde keine Adresse eines anderen Betriebs übernommen. Quelle(n): https://schrottregister.pages.dev/betrieb-remex-nord-gmbh-hamburg-2 ; https://schrottregister.pages.dev/betrieb-remex-nord-gmbh-hamburg ; https://www.northdata.de/HEG+Hamburger+Entsorgungsgesellschaft+mbH,+Hamburg/HRB+53960 (Abruf 28.10.2026).]

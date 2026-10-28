@@ -1,20 +1,21 @@
 ---
 slug: nw-essen-schrotthandler-traut
-name: Schrotthändler Traut
+name: Schrotthändler Traut (Essen)
 trader_type: schrotthaendler
 state: NW
 city: Essen
 street: ''
 postcode: ''
-phone: ''
+phone: 0162 9135397
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Zweiter Verzeichniseintrag desselben mobilen Schrotthaendlers Traut fuer die Stadt Essen: Das Schrottfinder-Profil nennt dieselbe Mobilnummer +49 162 9135397, dieselbe Leistung "Abtransport von Schrott" und dieselben Metallarten (Kupfer, Aluminium, Edelstahl, Messing, Zink, Blei), laesst die Anschrift aber leer und setzt den Kartenmarker auf 92, Witteringstraße, 45130 Essen (Wohnobjekt). Es gibt keine belegte eigene Betriebsanschrift in Essen. Die Zeile ist deshalb die Dublette zur Leitzeile nw-gelsenkirchen-mitte-schrotthandler-traut-ge-ableger (Anschrift Kurt-Schumacher-Straße 80, 45881 Gelsenkirchen) und bleibt als Querverweis bestehen; nichts wird geloescht oder zusammengefuehrt. ANKAUF: keine Traut zuordenbaren Kurse. VERKAUF: keine Liste. GEBUEHREN: keine Tarife.'
 dropoff_json: ''
 pickup_json: ''
+clear_fields: geo
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
@@ -24,9 +25,20 @@ provenance_origin: table
 
 ## Überblick
 
-Konkreter neuer Lead statt früherem „kein Treffer“: Schrottfinder listet Schrotthändler Traut, Essen ohne Straße, Telefon **+49 162 9135397** und Abholung vor Ort. Dies ist ein Aggregator, kein Betreiberprofil-/Gewerbenachweis. Weder Kontakte noch Materialien oder Annahmestelle sind dadurch verifiziert. Keine Gleichsetzung mit Metzler/Missal oder anderen Essener Schrotthändlern.
+Dublette. Das Essen-Profil des Schrottfinder ist eine Stadtvariante desselben
+Portal-Eintrags wie die Gelsenkirchen-Zeile: gleiche Mobilnummer +49 162 9135397, gleiche
+Leistung, gleiche Metallarten, aber **keine Anschrift** und ein Marker auf einem
+Wohnobjekt in der Witteringstraße. Es gibt keine belegte eigene Betriebsanschrift in
+Essen.
 
-Ankauf: keine Traut zuordenbare Preisliste; allgemeine Portalpreise und die auf derselben Übersichtsseite direkt bei WRL stehende Tabelle sind keine Traut-Kurse. Verkauf: keine Liste. Gebühren: keine belegten Abholtarife. GEO gesperrt bis Identität und ggf. öffentlich zugänglicher Standort bestätigt sind; das Mobiltelefon ersetzt keine Adresse.
+Die Zeile bleibt als sichtbarer Verzeichniseintrag bestehen (keine Loeschung, kein
+Merge) und verweist auf die Leitzeile
+`nw-gelsenkirchen-mitte-schrotthandler-traut-ge-ableger`. Der Produktionspunkt
+51.450284375/7.015053125 lag auf der Busspur des Essener Fernbusbahnhofs und wird mit
+`clear_fields: geo` zurueckgenommen; ein Ersatzpunkt wird nicht geraten.
+
+**Ankauf:** keine Traut zuordenbaren Kurse. **Verkauf:** keine Liste.
+**Gebuehren:** keine Tarife.
 
 ## Timeline
 

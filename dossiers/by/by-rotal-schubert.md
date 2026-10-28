@@ -1,6 +1,6 @@
 ---
 slug: by-rotal-schubert
-name: Schubert
+name: Schrott & Recycling Ingo Schubert
 trader_type: schrotthaendler
 state: BY
 city: Roßtal
@@ -33,6 +33,10 @@ Der bislang als Namesake abgegrenzte **Otto Schubert GmbH** (Gehäuse-/Mechanikh
 **Ankauf:** keine Ankaufspreise, keine Materialstaffel, kein Tageskurs; die Verzeichnis-Branche „Altmetallrecycling“ belegt die Tätigkeit, keinen Preis. **Verkauf:** keine Preisliste. **Gebühren:** keine Tarife, keine Abhol-/Containerkonditionen. **GEO:** 49.3914983, 10.89586 ist der OSM-Hauspunkt der Gewerbestraße 8 (Way 122869014) und deckt sich mit der Kartennadel des Örtlichen (49.3914925, 10.8957831); er ersetzt den previously zurückgenommenen, auf ein Wohnhaus (Nürnberger Straße 31, Trettendorf) fallenden Punkt. Der Seed-Name „Schubert“ bleibt unverändert; die vollständige Betreiberbezeichnung „Schrott & Recycling Ingo Schubert“ ist als Namensänderung für den Owner vorgemerkt.
 
 ## Timeline
+
+### Owner-Entscheidung 28.10.2026: Namenskorrektur
+
+- [Owner-Entscheidung 28.10.2026: **Der Name wird auf „Schrott & Recycling Ingo Schubert“ korrigiert** (Slug unveraendert, Handhabung wie beim Hofmann-Betriebsteil Schmoelln: Slugs werden nie handgepflegt). Belege: zwei unabhaengige Verzeichnisse (11880 „Schrott & Recycling Ingo Schubert“, Das Oertliche „Schubert Ingo Schrott“, Gewerbestr. 8, 90574 Rosstal, 0160 92926505); kein Registereintrag (Einzelunternehmer). Der Seed-Name „Schubert“ trug die Taetigkeit nicht; die Abgrenzung zur Otto Schubert GmbH (HRB 3993 Fuerth, Gebaeudehersteller) am selben Gewerbestr. 8 bleibt bestehen. Die uebrigen Felder der Zeile bleiben unveraendert. Quellen: read-only `public.db` und Dossier (28.10.2026) ; `research/merge-split-20261028.md` ; `docs/trader-seed.md`.]
 
 ### Recherche 28.10.2026: Identität als „Schrott & Recycling Ingo Schubert“ gefunden
 

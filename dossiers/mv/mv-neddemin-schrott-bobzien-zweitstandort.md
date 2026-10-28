@@ -1,6 +1,6 @@
 ---
 slug: mv-neddemin-schrott-bobzien-zweitstandort
-name: Schrott Bobzien (Zweitstandort?)
+name: Schrott Bobzien
 trader_type: schrottplatz
 state: MV
 city: Neddemin
@@ -37,6 +37,10 @@ Der bisherige „Zweitstandort?“-Vermerk ist mit den neuen Befunden **nicht be
 **Ankauf:** Im aktuellen Betreiberprofil wird **kein Schrottankauf** mehr beworben; die Schrottkauf-Zusage stammt allein aus dem undatierten Verzeichniseintrag. **Verkauf:** Lavaschlacke 33,00 EUR/cbm (ca. 10 cbm, Anzeige vom 25.10.2026), Granit-/Natursteinpflaster 55,00 EUR/t ab 10 t / 65,00 EUR/t ab 3 t / 85,00 EUR/t ab 1 t (19.10.2026) bzw. 44,00/55,00/77,00 EUR/t (19.10.2026), Abwassersammelanlage 3.000 l ab 999,00 EUR, 1.000 l 555,00 EUR, 700 l 444,00 EUR (14.10.2026), BESS-Grundstück 3.000 m² in 17087 Altentreptow auf Anfrage — **Verkaufspreise, keine Ankaufskurse**. **Gebühren:** Transport gegen Aufpreis (Bereich „Neubrandenburg bis 50 km bzw. 75 km“), keine veröffentlichten Tarife; die Abriss-/Baggerarbeiten werden „VB“ (Verhandlungsbasis) angeboten. **GEO:** 53.6389349, 13.2995309 ist der OSM-Adressknoten zur Dorfstraße 19 (Node 6840117796) und identisch mit der 11880-Kartennadel (53.638935/13.299531); er ersetzt den gespeicherten, rund 2 km entfernten Punkt Hauptstraße 27, Hohenmin.
 
 ## Timeline
+
+### Owner-Entscheidung 28.10.2026: Namenskorrektur
+
+- [Owner-Entscheidung 28.10.2026: **Der Name wird auf „Schrott Bobzien“ korrigiert** (Slug unveraendert, Handhabung wie beim Hofmann-Betriebsteil Schmoelln: Slugs werden nie handgepflegt). Belege: Das Kleinanzeigen-Profil belegt **einen** Betrieb (Karsten Bobzien, Gewerbetrieb seit 01.01.2014, Dorfstrasse 19, 17039 Neddemin OT Hohenmin) - das Kennzeichen „(Zweitstandort?)“ im Seed-Namen war ein Verzeichnisartefakt und entfaellt. Es besteht **keine** Dublette zum Verzeichniseintrag Otto-Lilienthal-Str. 48, Neubrandenburg. Die uebrigen Felder der Zeile bleiben unveraendert. Quellen: read-only `public.db` und Dossier (28.10.2026) ; `research/merge-split-20261028.md` ; `docs/trader-seed.md`.]
 
 ### Recherche 28.10.2026: Betreiberprofil lesbar — ein Standort, kein Zweitstandort
 

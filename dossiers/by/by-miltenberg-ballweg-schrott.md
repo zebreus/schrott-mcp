@@ -1,6 +1,6 @@
 ---
 slug: by-miltenberg-ballweg-schrott
-name: Ballweg Schrott
+name: Schrotthandel Ballweg
 trader_type: schrotthaendler
 state: BY
 city: Amorbach
@@ -30,6 +30,10 @@ Ein aktueller Gelbe-Seiten-Eintrag „Schrotthandel Ballweg“ führt Berliner S
 **Ankauf:** keine bestätigten Materialien oder Preise. **Verkauf:** keine Preisliste. **Gebühren:** keine Angaben. Offen: Betreiberidentität (vollständiger Name), aktuelle Kundenannahme und die Bestätigung der Ortsangabe Amorbach.
 
 ## Timeline
+
+### Owner-Entscheidung 28.10.2026: Namenskorrektur
+
+- [Owner-Entscheidung 28.10.2026: **Der Name wird auf „Schrotthandel Ballweg“ korrigiert** (Slug unveraendert, Handhabung wie beim Hofmann-Betriebsteil Schmoelln: Slugs werden nie handgepflegt). Belege: zwei unabhaengige Verzeichnisse nennen „Schrotthandel Ballweg“ (Miltenberg/Amorbach); der Seed-Name war eine Kurzform. Die Anschrift wurde auf Amorbach praezisiert (PLZ 63916). Die uebrigen Felder der Zeile bleiben unveraendert. Quellen: read-only `public.db` und Dossier (28.10.2026) ; `research/merge-split-20261028.md` ; `docs/trader-seed.md`.]
 
 ### Recherche 28.10.2026: Identität als „Schrotthandel Ballweg“ in Amorbach belegt
 

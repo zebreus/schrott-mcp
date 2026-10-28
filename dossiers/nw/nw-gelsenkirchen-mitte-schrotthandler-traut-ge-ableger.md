@@ -1,20 +1,21 @@
 ---
 slug: nw-gelsenkirchen-mitte-schrotthandler-traut-ge-ableger
-name: Schrotthändler Traut (GE-Ableger)
+name: Schrotthändler Traut (Gelsenkirchen)
 trader_type: schrotthaendler
 state: NW
 city: Gelsenkirchen-Mitte
 street: ''
 postcode: ''
-phone: 0162 9135397)
+phone: 0162 9135397
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Mobiler Schrotthaendler "Schrotthändler Traut", gefuehrt im Schrottfinder-Portal unter der Anschrift Kurt-Schumacher-Straße 80, 45881 Gelsenkirchen mit der Mobilnummer +49 162 9135397 und den angenommenen Metallarten Kupfer, Aluminium, Edelstahl, Messing, Zink und Blei sowie der Leistung "Abtransport von Schrott". Die Adresse ist ein Aggregator-Lead ohne zweite Belegquelle: 11880 fuehrt die Nummer nicht, Gelbe Seiten und Das Oertliche kennen keinen Traut-Eintrag in Gelsenkirchen oder Essen, und es existiert keine eigene Betreiberseite. Die Schwesterzeile nw-essen-schrotthandler-traut ist ein zweites Verzeichnisprofil desselben Aggregators fuer dieselbe Mobilnummer ohne Anschrift und wird als Dublette hierher verwiesen. ANKAUF: keine Traut zuordenbaren Kurse, die auf der Portalseite gezeigten Schrottmetallpreise sind ausdruecklich Portal-Durchschnitte und kein oeffentliches Angebot. VERKAUF: keine Liste. GEBUEHREN: keine Tarife.'
 dropoff_json: ''
 pickup_json: ''
+clear_fields: geo
 provenance_section: R4c Gelsenkirchen-Multi-sites (7 Profile aufgelöst)
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
@@ -24,7 +25,25 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Zeile fuehrt den mobilen Schrotthaendler Traut ueber das Schrottfinder-Portal mit
+der Anschrift Kurt-Schumacher-Straße 80, 45881 Gelsenkirchen. Sie ist damit die
+**Leitzeile** des Clusters: das zweite Verzeichnisprofil desselben Aggregators
+(`nw-essen-schrotthandler-traut`) nennt dieselbe Mobilnummer +49 162 9135397,
+dieselbe Leistung ("Abtransport von Schrott") und dieselben Metallarten, laesst die
+Anschrift aber leer und wird hierher verwiesen. Beide Zeilen bleiben bestehen, es wird
+nichts geloescht und nichts zusammengefuehrt.
+
+Die Anschrift ist ein Aggregator-Lead mit nur einer Quelle. OSM fuehrt zur Hausnummer 80
+den Way 263862026 (addr:housenumber 80, addr:street Kurt-Schumacher-Straße,
+addr:city Gelsenkirchen, addr:postcode 45881, building=yes; Nominatim 51.5217366 /
+7.0902337), die Kartennadel des Portals liegt bei 51.5217378 / 7.090119, rund 9 m
+daneben. Weil die Adresse selbst nur einfach belegt ist, bleiben `street` und
+`postcode` leer. Der bis dahin gespeicherte, unbelegte Produktionspunkt
+(51.539169/7.080031, Alfred-Zingler-Straße 9, rund 2,06 km entfernt) wird mit
+`clear_fields: geo` zurueckgenommen.
+
+**Ankauf:** keine Traut zuordenbaren Kurse. **Verkauf:** keine Liste.
+**Gebuehren:** keine Tarife.
 
 ## Timeline
 
