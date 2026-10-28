@@ -107,8 +107,10 @@ ist 53.5315698/10.0988270 (way, "72, Liebigstraße, Billbrook, 22113 Hamburg"). 
   Kabel, 191001/191002/191004, 191202/191203) sowie **Absetzcontainer-Gestellung STEUBER GmbH** und
   **Hermann Steuber Müll-Container GmbH** (Liebigstr. 82-84) - **andere Betriebe**, deren
   Zertifikate und Abfallschlüssel **nicht** übernommen werden. Es gibt damit **keine belegte SNA
-  GmbH**, die an Liebigstr. 72 Schrott ankauft. Frontmatter: **status pruefung → geschlossen** im
-  Sinne eines belegten Eintragsschluss: Die SNA GmbH ist im Register **aktiv**; **nicht** behauptet wird eine
+  GmbH**, die an Liebigstr. 72 Schrott ankauft. Frontmatter: **status pruefung → geschlossen** -
+  dieser Zwischenstand wurde am selben Tag auf **pruefung** zurueckgenommen (siehe den
+  Korrekturvermerk weiter oben): nach der verankerten Regel ist `geschlossen` ausschliesslich
+  fuer eine **belegte Schliessung** zulaessig. Die SNA GmbH ist im Register **aktiv**; **nicht** behauptet wird eine
   Auflösung der SNA GmbH HRB 123337 oder der Slotosch Natursteinaufbereitung GmbH HRB 93120 - beide
   sind im Register **aktiv** und lediglich andere Rechtsträger. `street`, `postcode` und `phone`
   bleiben als historische Seed-Angaben stehen; `website` bleibt leer, `website_status` bleibt

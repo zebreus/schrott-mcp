@@ -84,9 +84,12 @@ Geocodierungsbedarf wird im Bericht benannt.
   schrotthaendler → **sonstige**, street "Kleinreichertshofen 4", postcode "85276" (bisher leer;
   die PLZ 85276 ist durch Register und Verzeichnisse belegt), phone "08441 72975" (die in zwei
   Verzeichnissen übereinstimmend genannte Nummer), website bleibt leer, website_status
-  unbekannt, **status pruefung → geschlossen** mit der ausdrücklichen Bedeutung "kein
-  Schrottbetrieb an diesem Eintrag" (die Immobilienagentur und die JS Wohnbau GmbH sind laut
-  Register aktiv; es wird keine Auflösung behauptet). **Ankauf: keine. Verkauf: keine.
+  unbekannt, **status pruefung → geschlossen** - dieser Zwischenstand wurde am selben Tag
+  auf **pruefung** zurueckgenommen (siehe den Korrekturvermerk weiter oben): nach der
+  verankerten Regel ist `geschlossen` ausschliesslich fuer eine **belegte Schliessung** des
+  Eintrags zulaessig, und die JS Wohnbau GmbH ist laut Register **aktiv** (ebenso die
+  Immobilienagentur); es wird keine Aufloesung behauptet. Der Eintrag bleibt deshalb
+  `pruefung` mit dokumentiertem Klaerfall. **Ankauf: keine. Verkauf: keine.
   Gebühren: keine** (eine Immobilienprovision ist nicht Teil dieses Katalogs). Keine Koordinate
   gesetzt: die DB-Koordinate 49.0644/8.9764 löst auf "6, Pfarrgasse, Weiler an der Zaber,
   74497 Pfaffenhofen" auf, rund 4 km vom adresskonformen Punkt "Kleinreichertshofen 4,

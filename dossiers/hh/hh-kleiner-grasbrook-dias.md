@@ -58,7 +58,7 @@ Am Vulkanhafen 6 - das belegt eine **gleichzeitige Nutzung/Koexistenz**, nicht d
 DIAS.
 
 **GEO:** Die DB-Koordinate 53.5402333/9.9864167 loest auf "Dalmannkai-Treppen, Quartier Am
-Sandtorkai, HafenCity, 20457 Hamburg" auf - das liegt am **Dalmannkai**, rund 500 m vom
+Sandtorkai, HafenCity, 20457 Hamburg" auf - das liegt am **Dalmannkai**, rund 3,1 km vom
 Adresspunkt "6, Am Vulkanhafen" (53.5264649/9.9462641) entfernt. Das ist ein
 **Geocodierungsbedarf**; es wird kein Punkt geraten.
 
@@ -66,7 +66,7 @@ Adresspunkt "6, Am Vulkanhafen" (53.5264649/9.9462641) entfernt. Das ist ein
 
 ## Timeline
 
-### Recherche 28.10.2026: amtliche Registerakte gelesen; Seed-Anschrift ist nicht die registrierte
+### Recherche 28.10.2026: amtliche Registerakte gelesen; Seed-Anschrift war die frühere registrierte
 
 - [Recherche 28.10.2026: **AMTLICHE REGISTERAKTE GELESEN.** Das **amtliche Handelsregister**
   (`online-handelsregister.de`, Abruf 28.10.2026) fuehrt die **DIAS GmbH, AG Hamburg, HRB 90741**
@@ -95,7 +95,7 @@ Adresspunkt "6, Am Vulkanhafen" (53.5264649/9.9462641) entfernt. Das ist ein
   nicht Fortbestand. **Ankauf/Verkauf/Gebuehren:** keine Kurse, keine Listen, keine Tarife;
   historische oder namensgleiche DIAS-Angebote werden nicht als aktuelle Preise uebernommen.
   **GEO: Geocodierungsbedarf** - die DB-Koordinate 53.5402333/9.9864167 loest auf "Dalmannkai-
-  Treppen, Quartier Am Sandtorkai, HafenCity, 20457" auf, rund 500 m vom Adresspunkt "6, Am
+  Treppen, Quartier Am Sandtorkai, HafenCity, 20457" auf, rund 3,1 km vom Adresspunkt "6, Am
   Vulkanhafen" (53.5264649/9.9462641) entfernt; kein Punkt geraten. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/hh/Hamburg/HRB/90741/DIAS-GmbH ;
   https://schrottregister.pages.dev/ort-hamburg ;
   https://www.dcp-bremen.de/english_ports_hamburg_kontakt.php ;
