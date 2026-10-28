@@ -12,7 +12,7 @@ opening_hours: Mo–Fr 8–16 Uhr, Sa 8–12 Uhr
 website: https://www.hlr-rohstoffhandel.de/
 website_status: aktiv
 status: aktiv
-description: Rohstoffhandel in Mainz und Wiesbaden-Dotzheim (H.L.R. Herbert Lagerin Rohstoffhandel GmbH, HRB 26864 AG Wiesbaden): Ankauf von Buntmetallen, Eisen-/Stahlschrott, Kabeln und Katalysatoren; Containerdienst, Demontage und Abbruch; zertifizierter Entsorgungsfachbetrieb
+description: 'Rohstoffhandel in Mainz und Wiesbaden-Dotzheim (H.L.R. Herbert Lagerin Rohstoffhandel GmbH, HRB 26864 AG Wiesbaden): Ankauf von Buntmetallen, Eisen-/Stahlschrott, Kabeln und Katalysatoren; Containerdienst, Demontage und Abbruch; zertifizierter Entsorgungsfachbetrieb'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge

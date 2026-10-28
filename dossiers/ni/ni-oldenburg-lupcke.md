@@ -3,16 +3,18 @@ slug: ni-oldenburg-lupcke
 name: Lüpcke GmbH
 trader_type: schrotthaendler
 state: NI
-city: Oldenburg
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: unbekannt
-status: pruefung
-description: ''
+city: Wardenburg
+street: Diedrich-Dannemann-Straße 35
+postcode: '26203'
+phone: 0441 2336570
+email: info@container-luepcke.de
+opening_hours: Mo-Fr 08:00-16:30, Sa 08:00-12:30
+website: https://container-luepcke.de/
+website_status: aktiv
+status: aktiv
+description: Michael Lüpcke GmbH (HRB 203176 AG Oldenburg), Familienbetrieb in Wardenburg-Hundsmühlen, GF Meike Haferkamp seit 10.02.2026 - Entsorgungsfachbetrieb nach §56 KrWG (Zertifikat bregau zert BREG2000-06/25, Vorgang ZZDT001000418009, gültig bis 30.04.2027), zertifiziert für Eisen-/Nichteisenmetalle, Kupfer, Aluminium, Blei, Zink, Eisen und Stahl, gemischte Metalle und Kabel. Allgemeine Entsorgung umfasst Schrott und Metalle; die Annahmeliste auf dem Betriebshof nennt Metalle und E-Schrott ausdrücklich nicht.
+certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikat bregau zert BREG2000-06/25 (Vorgang ZZDT001000418009), ausgestellt 19.01.2026, gültig bis 30.04.2027"]'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Oldenburg / Wilhelmshaven / Weser-Ems
@@ -27,6 +29,10 @@ provenance_origin: table
 Der aktuelle, belegte Betrieb Michael Lüpcke GmbH sitzt in Wardenburg (HRB 203176), nicht in Oldenburg; die Betreiberseite meldet seit 10.02.2026 Meike Haferkamp als Geschäftsführerin nach dem Tod Michael Lüpckes am 01.01.2026. Eine aktuelle Das-Örtliche-Regionalsuche kennzeichnet Lüpcke ausdrücklich als außerhalb Oldenburgs ansässig und führt die Gesellschaft an Diedrich-Dannemann-Str. 35 in Wardenburg; die Fuldastr. 34 in Oldenburg wird dort unter A.V.B./Autoverwertung Blankenburg geführt, nicht als Lüpcke. Das bleibt ein Verzeichnisabgleich, keine Negativbestätigung für jede denkbare Oldenburger Zweigstelle. Die Betreiberseite führt Schrott/Metalle im Entsorgungsangebot, belegt aber keine Verbindung zu diesem separaten Oldenburg-Datensatz. Keine veröffentlichten Ankaufpreise; Konditionen bzw. Containerleistungen auf Anfrage.
 
 ## Timeline
+
+### Recherche 28.10.2026: EFB-Zertifikat und Namenskette belegen den Standort Wardenburg
+
+- [Recherche 28.10.2026: Der bis 30.04.2027 gültige EFB-Nachweis wurde jetzt im Volltext ausgewertet. Das auf der Betreiberseite veröffentlichte Zertifikat der bregau zert GmbH Umweltgutachterorganisation trägt die Nummer BREG2000-06/25 (Vorgangsnummer ZZDT001000418009), Ausstellungsdatum 19.01.2026, Prüfungsdatum 17.11.2025, und benennt als Entsorgungsfachbetrieb „Michael Lüpcke GmbH, Diedrich-Dannemann-Straße 35, 26203 Wardenburg-Hundsmühlen, HRB 203176 Amtsgericht Oldenburg“; alle drei Anlagen tragen dieselbe Anschrift. Zertifiziert sind Sammeln, Befördern, Lagern, Behandeln und Verwerten/Beseitigen für 160117 Eisenmetalle, 160118 Nichteisenmetalle, 170401 Kupfer/Bronze/Messing, 170402 Aluminium, 170403 Blei, 170404 Zink, 170405 Eisen und Stahl, 170406 Zinn, 170407 gemischte Metalle und 170411 Kabel. Damit ist die Familie LÜPcke am Wardenburger Standort amtlich zertifiziert und der Seed-Name „Lüpcke GmbH“ lässt sich über die von NorthData belegte Namenshistorie (frühere Gesellschaft „Lüpcke GmbH“, HRB 2498 AG Oldenburg, Hans-Joachim Lüpcke; Betriebsübernahme 2009 durch Michael Lüpcke laut Betreiberseite) an den heutigen Rechtsträger „Michael Lüpcke GmbH“ (HRB 203176) binden. Die Seed-Stadt „Oldenburg“ ist damit als Ableitung aus dem Registergericht Oldenburg bzw. dem Regionsnamen des Seed-Abschnitts („Oldenburg / Wilhelmshaven / Weser-Ems“) erklärt und wird auf den belegten Betriebsort Wardenburg korrigiert; Straße, PLZ, Telefon 0441 2336570, E-Mail info@container-luepcke.de, Öffnungszeiten (Mo–Fr 08:00–16:30, Sa 08:00–12:30) und Website werden aus dem Betreiberauftritt gefüllt, der die Anerkennungskriterien erfüllt (Impressum mit Rechtsträger und HRB 203176, Register kongruent, standortbezogene Kontaktseite, aktuelles Zertifikat 2026). Gegenprobe: Das amtliche Register führt für Oldenburg sieben Betriebe, darunter AVB Autoverwertung Blankenburg GmbH an der Fuldastraße 34 - der wiederholt geprüfte Fuldastraßen-Nähetreffer ist damit kein Lüpcke-Beleg und bleibt als solcher dokumentiert; eine Oldenburger Lüpcke-Zweigstelle ist weder im Register noch in den Verzeichnissen belegt. `status` von `pruefung` auf `aktiv` korrigiert, da Zertifikat (gültig bis 30.04.2027) und Betreiberauftritt (aktuelle Zertifikatsverweise, Todesfall- und Nachfolgehinweise 2026) eine laufende Tätigkeit am belegten Standort tragen. Die beiden Telefonnummern bleiben Konflikt: sichtbarer Kontaktblock auf Startseite und Impressum nennt 0441 2336570, der verlinkte tel:-Vermerk (+49 441 504294) eine andere Nummer; eingetragen wurde die durchgängig sichtbare. GEO: der gespeicherte Produktionspunkt lag im Oldenburger Stadtzentrum (53.1471/8.2110) und widerspricht der belegten Anschrift, daher `clear_fields: geo` gesetzt - eine neue Koordinate wird nicht geraten; Nominatim liefert für Diedrich-Dannemann-Straße 35 nur einen straßenobjektbezogenen Treffer ohne Hausnummer (way 1174999689, 53.1093016/8.1840819), der als Kandidat im Bericht, nicht als Dossier-Koordinate geführt wird. ANKAUF: keine veröffentlichten Ankaufspreise; VERKAUF: keine Preisliste, die Website belegt nur die Lieferung von Mutterboden/Kies/Sand als Verkaufssortiment; GEBÜHREN: keine öffentlichen Tarife, Container und Entsorgung werden individuell angeboten, eine kostenlose Abholung ist nicht belegt. Quelle(n): https://container-luepcke.de/wp-content/uploads/2026/01/EFB-Zertifikat-2026.pdf (im Volltext gelesen 28.10.2026) ; https://container-luepcke.de/impressum/ ; https://container-luepcke.de/ ; https://www.northdata.de/L%C3%BCpcke+GmbH,+Wardenburg/Amtsgericht+Oldenburg+HRB+2498 (Namenshistorie, aus Vorrecherche 10.10.2026) ; https://schrottregister.pages.dev/ort-oldenburg ; https://schrottregister.pages.dev/betrieb-avb-autoverwertung-blankenburg-gmbh-oldenburg ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Diedrich-Dannemann-Stra%C3%9Fe+35%2C+26203+Wardenburg (Abruf 28.10.2026).]
 
 ### Recherche 22.10.2026
 

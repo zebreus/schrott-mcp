@@ -11,8 +11,8 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: pruefung
-description: ''
+status: geschlossen
+description: 'Historischer, 2011 gelöschter Rechtsträger: Optima Computer & Elektronicrecycling GmbH, HRB 105823 Jena, Erfurt - Liquidation 05.01.2009, Löschung 27.09.2011 ("Die Liquidation ist beendet. Die Firma ist erloschen."). Die Seed-Adresse Blumenstraße 70 ist im Registerauszug vom 11.08.2026 nicht mit diesem Namen verknüpft und wird heute von der THüSUN PV-Montagen GmbH (HRB 521685 Jena) genutzt; kein E-Schrott-Annahmeangebot dieses Rechtsträgers belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -27,6 +27,10 @@ provenance_origin: table
 Frühere Such-MISS sind überholt: NorthData führt **Optima Computer & Elektronicrecycling GmbH**, HRB 105823 Jena, Erfurt, mit historischen Veröffentlichungen auch unter der Schreibweise Elektronikrecycling. Liquidation 2009 und Löschung 2011 sind im gelesenen Bekanntmachungstext dokumentiert. Das ist eine registerbasierte Herkunftsfamilie, keine unabhängige Doppelbestätigung des Seeds Blumenstraße 70. Status `pruefung` bis zur eindeutigen Dossierzuordnung; keine aktuelle E-Schrottannahme oder Ankaufbehauptung. THüSUN am gleichen Seed-Standort ist ein anderer Betreiber. Keine aktuellen Ankauf-, Verkaufs- oder Gebührentarife.
 
 ## Timeline
+
+### Recherche 28.10.2026: Register-Negativbefund stützt den Löschungsbeleg
+
+- [Recherche 28.10.2026: Das amtliche Register (Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge und Register der Entsorgungsfachbetriebe, Auszug 11.08.2026, gespiegelt über https://schrottregister.pages.dev) führt für Erfurt dreizehn anerkannte Betriebe, darunter GHS Recycling GmbH (Heinrich-Credner-Straße 12 c), SMH Schrott- und Metallhandels GmbH (Ladestraße 14), LRP Autorecycling GmbH (Bei den Froschäckern 3), Thüringen Recycling GmbH (August-Röbling-Straße 24) und VETON GmbH Niederlassung Erfurt (Zur Alten Ziegelei 1) - kein Eintrag namens Optima, kein Eintrag an der Blumenstraße 70 und kein Eintrag mit E-Schrott-Tätigkeit an diesem Standort. Das ist ein Negativbefund und für sich genommen kein Nichtexistenzbeweis (die Efb-Anerkennung ist freiwillig), stützt hier aber den bereits am 14.10.2026 direkt gelesenen Registerbeleg: NorthData-Übersicht mit der Bekanntmachung „Liquidation veröffentlicht 07.01.2009, Ereignis 05.01.2009“ und „Löschung veröffentlicht 28.09.2011, Ereignis 27.09.2011, Text: Die Liquidation ist beendet. Die Firma ist erloschen.“ (Optima Computer & Elektronicrecycling GmbH, HRB 105823 Jena, Erfurt). Ein erneuter NorthData-Direktabruf am 28.10.2026 war wegen Rate-Limit nicht lesbar (nur die Suchseite), der Registerinhalt wird daher nicht als heute neu bestätigt ausgegeben. Zusammen mit der bestätigten Fremdnutzung der Seed-Adresse durch die THüSUN PV-Montagen GmbH (HRB 521685 Jena, Blumenstraße 70/Haus 1) und der Tatsache, dass im Erfurter Registerauszug kein E-Schrott-Betrieb an dieser Adresse existiert, ist die Dossierzeile als erloschener Rechtsträger belegt: `status` von `pruefung` auf `geschlossen` korrigiert. Das ist keine Aussage über eine frühere E-Schrott-Annahme - eine solche ist für die Blümnerstraße 70 zu keinem Zeitpunkt belegt; der Namensvetter VEB Optima Büromaschinenwerk (Mainzerhofplatz 13) bleibt getrennt und wird nicht gleichgesetzt. ANKAUF/VERKAUF/GEBÜHREN: keine zielbezogenen Zahlen, kein Preisbeleg; kommunale Elektroaltgeräte-Annahmestellen der Stadt Erfurt sind keine Optima-Leistung und kein Gebührentarif. Straße/PLZ bleiben als historische Seed-Angabe stehen (die Registertexte redigieren die Straße, eine belegte Anschrift gibt es nicht), keine Koordinate geändert. Quelle(n): https://schrottregister.pages.dev/ort-erfurt ; https://schrottregister.pages.dev/betrieb-thuringen-recycling-gmbh-erfurt ; https://www.thuesun.de/impressum ; https://www.northdata.de/Optima%20Computer%20&%20Elektronicrecycling%20GmbH,%20Erfurt/Amtsgericht%20Jena%20HRB%20105823 (Abruf 28.10.2026: Rate-Limit/„Zu viele Anfrage“, Inhalt daher nicht neu gelesen) ; Register-Löschungsvermerk vom 14.10.2026 in diesem Dossier.]
 
 ### Recherche 15.10.2026 (12:00-Welle B)
 

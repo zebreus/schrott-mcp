@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 08:00-17:00, Sa 08:00-13:00
 website: http://schrotti.com
 website_status: aktiv
 status: aktiv
-description: Autoverwertung + Schrott (Oldenburg-Neuenwege): Fahrzeugannahme, Teile, Entsorgung. HRB 2770 AG Oldenburg.
+description: 'Autoverwertung + Schrott (Oldenburg-Neuenwege): Fahrzeugannahme, Teile, Entsorgung. HRB 2770 AG Oldenburg.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Oldenburg / Wilhelmshaven / Weser-Ems

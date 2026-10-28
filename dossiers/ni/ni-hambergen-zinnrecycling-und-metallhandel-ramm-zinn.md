@@ -14,7 +14,7 @@ opening_hours: 'Mo-Fr 08:00-12:00, 13:00-17:00; Warenannahme 08:00-11:30, 13:00-
 website: https://www.zinn-metall.de
 website_status: aktiv
 status: aktiv
-description: Zinnrecycling und Metallhandel Ramm (Inh. Felix Ramm): Zinn-Spezialist — Ankauf/Verarbeitung/Wiederverkauf Schrott, Metalle, Legierungen (Zinn, Silber, Blei, Zink, Hartmetall), Paketversand mit Preislisten, Containerdienst
+description: 'Zinnrecycling und Metallhandel Ramm (Inh. Felix Ramm): Zinn-Spezialist — Ankauf/Verarbeitung/Wiederverkauf Schrott, Metalle, Legierungen (Zinn, Silber, Blei, Zink, Hartmetall), Paketversand mit Preislisten, Containerdienst'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Cuxhaven / Stade / Osterholz / Rotenburg

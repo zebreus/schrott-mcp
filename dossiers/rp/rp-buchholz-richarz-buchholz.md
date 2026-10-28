@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 08:00-12:00, 13:00-16:00
 website: https://schrott-richarz.de
 website_status: aktiv
 status: aktiv
-description: Schrottgrosshandel seit 1930 (Familienunternehmen, e.K., HRA 22044 AG Montabaur), zertifizierter Entsorgungsfachbetrieb: Ankauf Eisen, Stahl, Alu, Messing, Kupfer, Blei, Zinn, V2A, Zink, Kabel, Mischschrott zu Tagespreisen mit Barauszahlung, Containerdienst
+description: 'Schrottgrosshandel seit 1930 (Familienunternehmen, e.K., HRA 22044 AG Montabaur), zertifizierter Entsorgungsfachbetrieb: Ankauf Eisen, Stahl, Alu, Messing, Kupfer, Blei, Zinn, V2A, Zink, Kabel, Mischschrott zu Tagespreisen mit Barauszahlung, Containerdienst'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net PROSE-Cluster (27.09.2026)

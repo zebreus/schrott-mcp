@@ -13,7 +13,7 @@ opening_hours: Mo-Fr 08:00-17:00
 website: https://www.brauckmann-service.de
 website_status: aktiv
 status: aktiv
-description: Brauckmann Service GmbH: Metallhandel (Ankauf Kupfer, Aluminium, Edelstahl, Eisen zu Tagespreisen, Abholung bei größeren Mengen), Containerdienst, Hausmeisterservice
+description: 'Brauckmann Service GmbH: Metallhandel (Ankauf Kupfer, Aluminium, Edelstahl, Eisen zu Tagespreisen, Abholung bei größeren Mengen), Containerdienst, Hausmeisterservice'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge

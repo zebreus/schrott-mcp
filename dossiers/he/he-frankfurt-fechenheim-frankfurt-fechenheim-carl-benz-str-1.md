@@ -12,7 +12,7 @@ opening_hours: 'Warenannahme Mo-Do 07:30-16:00, Fr 07:30-14:30'
 website: https://www.riwald.de
 website_status: aktiv
 status: aktiv
-description: Riwald Recycling Rhein-Main: Standort Frankfurt-Fechenheim.
+description: 'Riwald Recycling Rhein-Main: Standort Frankfurt-Fechenheim.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge

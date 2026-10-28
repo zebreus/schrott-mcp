@@ -10,9 +10,9 @@ phone: 030 7124003
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Verzeichnis-Lead „Kujat Artur Schrotthandel" bzw. „Artur Kujat Schrott", Reaumurstr. 27F, 12207 Berlin-Lichterfelde, Telefon 030 7124003. Ausschließlich Aggregator-Einträge (schrottplatz-info.de, schrottplatz.org, berlin.stadtbranchenbuch, MapQuest); kein Betreiberauftritt, kein Registereintrag und keine belegte Annahme- oder Preisfakten. Der Betrieb liegt im selben Ortsteil wie der Schrottplatz der Reinhardt Rohstoffe GmbH (Lichterfelder Weg 1-3, 14167 Berlin), dessen Leistungen und Zertifizierung nicht übernommen werden dürfen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: A. Neu (nicht in Hauptliste / Runde 2)
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Reaumurstraße 27F und 030 7124003 sind bisher Seed-/Verzeichnisangaben; eine aktuelle Betreiber-, Register- oder Behördenquelle ist nicht dokumentiert. Status `aktiv` wird deshalb zu `pruefung` korrigiert; die Anschrift und Telefonnummer bleiben Leads und belegen keine Annahmestelle. Keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
+Reaumurstraße 27F und 030 7124003 sind bisher Seed-/Verzeichnisangaben; eine aktuelle Betreiber-, Register- oder Behördenquelle ist nicht dokumentiert. Status `aktiv` wird deshalb zu `pruefung` korrigiert; die Anschrift und Telefonnummer bleiben Leads und belegen keine Annahmestelle. Das amtliche Fachbetriebs-/Entsorgungsfachbetriebsregister (Auszug 11.08.2026) führt für Berlin 70 anerkannte Betriebe, darunter die generischen Einträge „Schrottplatz“ (Lichterfelder Weg 1-3, 14167, Hauptsitz Reinhardt Rohstoffe GmbH) und „Schrottlagerplatz“ (Wiesendamm 24, 13597, Hauptsitz RWG I) — beide gehören zu anderen Betreibern und dürfen nicht mit dem Kujat-Lead vermischt werden. Keine verifizierten ANKAUF-Sätze, VERKAUF-Preise oder Gebühren.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Negativbefund im amtlichen Register, zusätzlich eine Namensvetter-Abgrenzung. Das Fachbetriebs-/Entsorgungsfachbetriebsregister (Auszug 11.08.2026) führt für Berlin 70 anerkannte Betriebe — darunter ALBA Berlin, ALBA Metall Nord, ALSO Recommerce, Avista Oil, Air Abfall ist Rohstoff, Andreas Berg Entsorgung, Anlage zur Lagerung von Eisen- und Nichteisenschrotten, Auto Brasch, Berliner Stadtreinigungsbetriebe (mehrere AOR-Einheiten), BRH Berliner Rohstoffhandel, Beller Demontagen, Bral, Buff Connection, Kath Hasenfuß, Karl Meyer Rohstoffverwertung, Peglow Schrott und Metallhandel, Remondis, Rima Autoverwertung, Riwald-/RWG-Einträge, TSR Deutschland, Veolia, VfJ Werkstätten u.a. — aber keinen Artur Kujat und keine Adresse Reaumurstraße. Die beiden generischen Registereinträge „Schrottplatz" (Lichterfelder Weg 1-3, 14167 Berlin, Hauptsitz Reinhardt Rohstoffe GmbH, 17 Abfallschlüssel von Metallabfällen bis Kupfer/Bronze/Messing, Tätigkeiten Lagern und Beseitigen) und „Schrottlagerplatz" (Wiesendamm 24, 13597 Berlin, Hauptsitz RWG I) wurden einzeln geprüft und gehören zu anderen Betreibern — der Kujat-Lead liegt in Lichterfelde in unmittelbarer Nähe des Reinhardt-Schrottplatzes, dessen Zertifizierung und Annahmeleistungen ausdrücklich nicht für dieses Dossier übernommen werden dürfen. Die sichtbaren Kujat-Einträge stammen unverändert aus Aggregatoren (schrottplatz-info.de, schrottplatz.org, berlin.stadtbranchenbuch, MapQuest) und nennen konsistent Reaumurstr. 27F, 12207 Berlin-Lichterfelde, 030 7124003; eine Suche nach „Artur Kujat" führt ausschließlich auf diese Verzeichnisprofile und auf eine Namensähnlichkeit Kujawa/Kujawski im Ausland, nicht auf einen Berliner Register- oder Gewerbeeintrag. ANKAUF: keine Kurse; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife. Keine Frontmatter-Füllung von Adresse, Telefon oder Website (die vorhandenen Werte bleiben unbestätigte Altangaben), status bleibt pruefung; nur die description wurde um die Beleg- und Abgrenzungslage ergänzt. Offen und für den Owner: Gewerbeauskunft des Bezirksamts Steglitz-Zehlendorf zu „Artur Kujat" an der Reaumurstraße 27F sowie die Frage, ob diese Zeile im Schrottkatalog bleiben soll, solange weder Schrotttätigkeit noch Annahme belegt sind. Quelle(n): https://schrottregister.pages.dev/ort-berlin ; https://schrottregister.pages.dev/betrieb-schrottplatz-berlin ; https://schrottregister.pages.dev/betrieb-schrottlagerplatz-berlin ; https://www.schrottplatz-info.de/schrottplatz/Berlin/Kujat-Artur-Schrotthandel ; https://berlin.stadtbranchenbuch.com/1334927.html ; https://www.mapquest.com/de/berlin/kujat-artur-schrotthandel-831667659]
 
 ### Recherche 18.10.2026 (Welle 1202 Nordost)
 

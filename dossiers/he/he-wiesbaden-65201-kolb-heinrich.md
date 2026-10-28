@@ -10,9 +10,9 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: aktiv
-description: ''
+description: 'Autoverwertung Heinrich Kolb GmbH, Handelsregister Wiesbaden HRB 9634, Eisenmännchenstr. 7, 65201 Wiesbaden-Schierstein; eingetragen am 12.06.1995, Status aktiv, letzte Registeränderung 28.03.2013. Unternehmensgegenstand Autoverwertung bzw. Autorecycling, Handel mit Fahrzeugen und Fahrzeugteilen sowie Abschleppdienst. Im amtlichen Fachbetriebs-/Entsorgungsfachbetriebsregister ist der Betrieb für Wiesbaden nicht geführt; Annahmebedingungen, Ankaufskurse und Gebühren sind nicht veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -24,11 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-NorthData führt die Autoverwertung Heinrich Kolb GmbH (AG Wiesbaden, HRB 9634) an der Eisenmännchenstr. 7, 65201 Wiesbaden. Das Unternehmensprofil nennt als Gegenstand u. a. Autoverwertung, Handel mit Fahrzeugen und Fahrzeugteilen/-zubehör sowie Abschleppdienst. Dies stützt Unternehmensidentität und Registeranschrift, beweist aber nicht, dass dort aktuell Kundenverkehr oder An-/Verkauf stattfindet; die jüngsten dort sichtbaren Registermeldungen sind älter. Keine aktuelle Betreiberseite oder Annahmebedingungen festgestellt.
+NorthData und der Registerhandelsregister-Spiegel führen die Autoverwertung Heinrich Kolb GmbH (AG Wiesbaden, HRB 9634) an der Eisenmännchenstr. 7, 65201 Wiesbaden; Status aktiv, Eintragung 12.06.1995, letzte Registeränderung 28.03.2013. Das Unternehmensprofil nennt als Gegenstand u. a. Autoverwertung, Handel mit Fahrzeugen und Fahrzeugteilen/-zubehör sowie Abschleppdienst. Das stützt Unternehmensidentität und Registeranschrift, beweist aber nicht, dass dort aktuell Kundenverkehr oder An-/Verkauf stattfindet; die jüngsten dort sichtbaren Registermeldungen sind von 2013. Keine Betreiberseite; der Website-Verweis der Verzeichnisse zeigt auf die reine AV-Plattform top-autoverwertung.de, nicht auf eine Betreiberwebsite. Das amtliche Fachbetriebs-/Entsorgungsfachbetriebsregister führt für Wiesbaden keinen Kolb.
 
-**Preise:** Ankauf von Fahrzeugen/Teilen: keine aktuellen Kurse; Verkauf von Teilen/Zubehör: keine Preisliste; Gebühren (z. B. Abschleppen/Entsorgung): keine Tarife belegt. Die bestehende Statusangabe `aktiv` ist nicht mit eigenständig bestätigter aktueller Betriebsaufnahme gleichzusetzen. **GEO:** Eisenmännchenstr. 7 ist Registeranschrift; aktuelle Kunden-/Annahmestelle vor GEO-Abgleich bestätigen.
+**Preise:** Ankauf von Fahrzeugen/Teilen: keine aktuellen Kurse; Verkauf von Teilen/Zubehör: keine Preisliste; Gebühren (z. B. Abschleppen/Entsorgung): keine Tarife belegt. Die Statusangabe `aktiv` ist nicht mit eigenständig bestätigter aktueller Betriebsaufnahme gleichzusetzen. **GEO:** Eisenmännchenstr. 7 ist Registeranschrift; aktuelle Kunden-/Annahmestelle vor GEO-Abgleich bestätigen. Offen: die widersprüchlichen Rufnummern 0611 98810065 und 0611 21490.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Dritter, registergestützter Beleg zur Identität: Der Handelsregister-Spiegel zu HRB 9634 Amtsgericht Wiesbaden nennt „Autoverwertung Heinrich Kolb GmbH", Firmenadresse Eisenmännchenstr. 7, 65201 Wiesbaden, Status aktiv, Gründung bzw. Eintragung 12.06.1995, eine Registerbekanntmachung, letzte Änderung 28.03.2013. Damit sind Rechtsträger, Registerstatus und Anschrift durch NorthData (26.10.2026) und diesen zweiten Registerbeleg unabhängig bestätigt; Straße und PLZ im Frontmatter bleiben unverändert. Telefon: die drei Portale 11880 („Heinrich Kolb Autoverwertung", Eisenmännchenstr. 7, Kategorie Autoverschrottung), Cylex und die AV-Plattform top-autoverwertung.de („Autoverwertung Heinrich Kolb GmbH", Eisenmännchenstraße 7, 65201 Wiesbaden) nennen 0611 98810065, das Branchenbuch Wiesbaden dagegen 0611 21490 — die Abweichung bleibt aufgelöst/unbestätigt, deshalb weiter kein Telefon im Frontmatter. Die 11880-Eintragung verweist als Website auf die Plattform-Seite https://www.top-autoverwertung.de/autoverwertung-wiesbaden, die drei Wiesbadener Autoverwerter auflistet (Hübinger, Heinrich Kolb, Udo Mielke) — das ist ein Verzeichnisportal, keine Betreiberwebsite des Dossierbetriebs und daher kein Website-Fill. Öffnungszeiten (Mo–Fr 09:00–17:00 bzw. 09:00–18:00, Sa 09:00–14:00 je nach Portal) sind Portalangaben und bleiben leer. Amtliches Register (Auszug 11.08.2026): die Register-Ortsseite Wiesbaden führt 11 anerkannte Betriebe (Collecta Europe, Collecta Rohstoff, Deponie Dyckerhoffbruch, Gauer Daten- und Aktenvernichtung, sechs Knettenbrech-Gurdulic-Einträge, Lagerhallen- und Siloanlage) und keinen Kolb — die Kolb GmbH ist also nicht als Fachbetrieb nach AltfahrzeugV oder Entsorgungsfachbetrieb geführt; das ist ein Negativbefund mit begrenzter Beweiskraft (kleinere AV-Betriebe müssen nicht im Register stehen). ANKAUF: keine Kurse für Fahrzeuge, Teile oder Schrott belegt; VERKAUF: keine Teilpreisliste; GEBÜHREN: keine Abschlepp- oder Entsorgungstarife. Nur die description wurde ergänzt; keine Kontakt-, Preis- oder GEO-Füllung. Offen: heutige Kundenannahme bzw. Aufschaltung, Zustand des Betriebs (letzte Registeränderung 2013), und Gewerbeauskunft der Stadt Wiesbaden als zweiter Weg zu einer Betreiberquelle. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/he/Wiesbaden/HRB/9634/Autoverwertung-Heinrich-Kolb-GmbH ; https://www.11880.com/branchenbuch/wiesbaden/060440459B26560549/heinrich-kolb-autoverwertung.html ; https://www.top-autoverwertung.de/autoverwertung-wiesbaden ; https://wiesbaden.branchen-info.net/autoverwertung-heinrich-kolb-gmbh/2633020 ; https://schrottregister.pages.dev/ort-wiesbaden]
 
 ### Recherche 26.10.2026
 

@@ -12,7 +12,7 @@ opening_hours: Mo-Do 07:00-12:00, 12:30-15:15; Fr 07:00-12:00, 12:30-15:00
 website: https://www.tsr-recycling.de
 website_status: aktiv
 status: aktiv
-description: TSR-Niederlassung (REMONDIS-Gruppe): Fe-/NE-Metall-Ankauf, Container, Demontage.
+description: 'TSR-Niederlassung (REMONDIS-Gruppe): Fe-/NE-Metall-Ankauf, Container, Demontage.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Innerer Harz / Harzrand (neu)

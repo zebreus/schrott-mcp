@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://gantzkow-rohstoff.com
 website_status: aktiv
 status: pruefung
-description: Gantzkow Rohstoff GmbH, Büro West (Herten): B2B-Handel/Vermittlung Sekundärrohstoffe, Entsorgungsfachbetrieb (EfB), AEO-C; Zentrale Baden-Baden
+description: 'Gantzkow Rohstoff GmbH, Büro West (Herten): B2B-Handel/Vermittlung Sekundärrohstoffe, Entsorgungsfachbetrieb (EfB), AEO-C; Zentrale Baden-Baden'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge

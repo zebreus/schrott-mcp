@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 07:00-12:30 und 13:15-16:00
 website: https://goerlich-schrott.de
 website_status: aktiv
 status: aktiv
-description: Friedrich Görlich Schrott + Metalle GmbH (GF Axel Görlich, Dirk Görlich; HRB 3084 AG Fulda), Entsorgungsfachbetrieb: Aufbereitung und Handel mit Schrott und NE-Metallen; Vor der Harth, 36119 Neuhof.
+description: 'Friedrich Görlich Schrott + Metalle GmbH (GF Axel Görlich, Dirk Görlich; HRB 3084 AG Fulda), Entsorgungsfachbetrieb: Aufbereitung und Handel mit Schrott und NE-Metallen; Vor der Harth, 36119 Neuhof.'
 dropoff_json: '{"allowed": true, "conditions": "Be- und Entladung zu Oeffnungszeiten (Betreiber-Website, 01.10.2026)"}'
 pickup_json: ''
 provenance_section: Einträge

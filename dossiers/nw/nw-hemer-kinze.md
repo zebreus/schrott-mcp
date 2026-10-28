@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://kinze-gmbh.de
 website_status: aktiv
 status: pruefung
-description: Hans Kinze GmbH: lt. Betreiber-Website Forst- und Rodungsbau (kein Schrottankauf); Verzeichnisse führen Schrotthandel-Eintrag — Klärfall
+description: 'Hans Kinze GmbH: lt. Betreiber-Website Forst- und Rodungsbau (kein Schrottankauf); Verzeichnisse führen Schrotthandel-Eintrag — Klärfall'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge

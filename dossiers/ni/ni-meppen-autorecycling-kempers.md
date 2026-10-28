@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 07:30-12:00, 12:30-16:30
 website: https://www.kempers.de
 website_status: aktiv
 status: aktiv
-description: Anerkannte Altfahrzeugverwertung (Meppen-Versen, Euro-Industriepark): Autoankauf, Gebrauchtteile-Shop, E-Recycling.
+description: 'Anerkannte Altfahrzeugverwertung (Meppen-Versen, Euro-Industriepark): Autoankauf, Gebrauchtteile-Shop, E-Recycling.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Osnabrück / Emsland / Grafschaft Bentheim

@@ -13,6 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
@@ -29,6 +30,10 @@ Der Seedname „A. Stöber Schrott- und Metallgroßhandel“ passt zu Verzeichni
 **GEO:** Am Kuhlenkamp 34 ist bereits im Frontmatter, aber bleibt ein Verzeichnisstandort ohne aktuelle Betreiberbestätigung; vor Neu-Geokodierung Kundenannahme und Standortidentität verifizieren.
 
 ## Timeline
+
+### Recherche 28.10.2026 — Registerabzug, Domainstatus, GEO-Rücknahme
+
+- [Recherche 28.10.2026: Amtlicher Registerabzug (Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge und Register der Entsorgungsfachbetriebe, Abrufstand 11.08.2026, Spiegel schrottregister.pages.dev, "Unabhängiges Verzeichnis · kein amtliches Angebot") geprüft: Von 20 in Bochum verzeichneten Betrieben ist keiner dem Seed "A. Stöber" zuzuordnen, und keine Registeranschrift lautet "Am Kuhlenkamp 34" (die Bochumer Einträge liegen u.a. in Altenbochumer Straße 15, In der Provitze 20, Jung-Stilling-Str. 64, Rombacher Hütte 12, Ottostraße 29, Essener Straße 244 u.a.). Ein Negativbefund beweist keine Nichtexistenz, liefert aber keinen amtlichen Beleg. Betreiberdomain heute erneut abgerufen: https://schrotthandel-stoeber.de/ liefert zwar HTTP 200, aber nur eine Anti-Bot-JS-Challenge-Seite (Anubis) einer Beteiligungs-/Hosting-Plattform — kein lesbarer Impressums- oder Angebotsinhalt; die Domain bleibt daher kein Betreiberauftritt, website bleibt leer und website_status bleibt "unbekannt". Verzeichnisstand heute erneut direkt gelesen: Gelbe Seiten führt "Stöber Albert", Am Kuhlenkamp 34, 44795 Bochum-Weitmar, Öffnungszeiten Mo–Fr 09:00–16:00; SchrottFinder führt Kupfer, Aluminium, Messing, Zink und Blei und beschreibt die Adresse als Direktanlieferstelle mit dem Hinweis, aktuelle Preise und Bedingungen telefonisch zu erfragen. Beides bleibt Verzeichnis-, kein Betreiberbeleg; die Portalanzeigen zu Schrottpreisen sind generische Orientierungswerte und keine Stöber-Kurse. ANKAUF: kein numerischer Stöber-Kurs, keine belegte Material- oder Mindestmengenliste. VERKAUF: keine Preisliste. GEBÜHREN: keine Abhol-/Container-/Entsorgungstarife belegt. GEO: der bisher gespeicherte Punkt 51.474088888888886/7.219238888888889 löst auf Taubenstraße 5, 44789 Bochum-Wiemelhausen auf; die Zeilen-Adresse Am Kuhlenkamp 34, 44795 Bochum-Weitmar liegt laut Adressabfrage rund 3,3 km entfernt in einem anderen Ortsteil und mit anderer Postleitzahl. Die Zeile trägt damit eine eigene belegte Ortsangabe, die dem gespeicherten Punkt widerspricht; `clear_fields: 'geo'` zieht das falsche Paar zurück, eine Ersatzkoordinate wird NICHT gesetzt, weil die Hausnummer nur durch Aggregator-Leads belegt ist und der Punkt zusätzlich keinen Eingangsanspruch beansprucht. Adresse/PLZ selbst bleiben unverändert (Verzeichnisstand), phone/email bleiben leer, status pruefung bleibt. Offen: Betreiberidentität von "Albert Stöber" bzw. "A. Stöber", tatsächliche Annahme am Kuhlenkamp und jede Preisliste. Quellen: https://schrottregister.pages.dev/ort-bochum ; https://schrotthandel-stoeber.de/ (nur JS-Challenge) ; https://www.gelbeseiten.de/gsbiz/2b6fa38a-0efb-47e4-8cc2-c126f9d14327 ; https://schrottfinder.de/a-stober-schrott-und-metallgroshandel-bochum/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=51.474088888888886&lon=7.219238888888889&addressdetails=1 ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&addressdetails=1&q=Am+Kuhlenkamp+34%2C+44795+Bochum]
 
 ### Recherche 25.10.2026
 

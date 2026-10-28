@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 08:00-17:00
 website: https://www.fischersoehne.de
 website_status: aktiv
 status: aktiv
-description: Entsorgungsfachbetrieb (seit 1875): Schrott-/NE-Metall-Ankauf mit Preisliste, Container, Altpapier, Aktenvernichtung. Standorte Altenbochum + Gerthe.
+description: 'Entsorgungsfachbetrieb (seit 1875): Schrott-/NE-Metall-Ankauf mit Preisliste, Container, Altpapier, Aktenvernichtung. Standorte Altenbochum + Gerthe.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Bochum / Herne

@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 07:00-17:00
 website: https://www.ernenputsch-transporte.de
 website_status: aktiv
 status: pruefung
-description: Rudolf Ernenputsch GmbH & Co. KG (HRA 15813 AG Wuppertal): zertifizierter Entsorgungsfachbetrieb (An-/Verkauf Schrott/Metalle, Containerdienst, Baustoffe, Transporte); Zentrale Remscheid, Annahmestelle Wuppertal-Ronsdorf Otto-Hahn-Str. 65 lt. Verzeichnis
+description: 'Rudolf Ernenputsch GmbH & Co. KG (HRA 15813 AG Wuppertal): zertifizierter Entsorgungsfachbetrieb (An-/Verkauf Schrott/Metalle, Containerdienst, Baustoffe, Transporte); Zentrale Remscheid, Annahmestelle Wuppertal-Ronsdorf Otto-Hahn-Str. 65 lt. Verzeichnis'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)

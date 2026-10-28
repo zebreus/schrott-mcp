@@ -12,7 +12,7 @@ opening_hours: ''
 website: http://sr-stainless.de
 website_status: aktiv
 status: aktiv
-description: Edelstahlschrott-Aufbereitung (Ni/Cr/Mo-legierte Schrotte) fuer Schmelzwerke, Thommen Group; GSA: Lagern, Behandeln, Verwerten
+description: 'Edelstahlschrott-Aufbereitung (Ni/Cr/Mo-legierte Schrotte) fuer Schmelzwerke, Thommen Group; GSA: Lagern, Behandeln, Verwerten'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)

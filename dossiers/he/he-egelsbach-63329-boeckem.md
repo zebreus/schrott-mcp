@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 07:30-16:30, Sa 08:00-12:00 (jeden 2. Sa geschlossen)
 website: https://schrotthandel-rhein-main.de
 website_status: aktiv
 status: aktiv
-description: SRM Schrotthandel Rhein-Main e.K. (Inh. Dennis Böckem, HRA 85319 AG Darmstadt; ehem. Schrotthandel Boeckem Egelsbach): Schrottankauf und Entsorgung im Rhein-Main-Gebiet (Schrottabholung, Containerdienst, Selbstanlieferung Schrottplatz Messel, Demontagen); Annahmestelle Zimmerner Str. 11, 64409 Messel.
+description: 'SRM Schrotthandel Rhein-Main e.K. (Inh. Dennis Böckem, HRA 85319 AG Darmstadt; ehem. Schrotthandel Boeckem Egelsbach): Schrottankauf und Entsorgung im Rhein-Main-Gebiet (Schrottabholung, Containerdienst, Selbstanlieferung Schrottplatz Messel, Demontagen); Annahmestelle Zimmerner Str. 11, 64409 Messel.'
 dropoff_json: '{"allowed": true, "conditions": "Selbstanlieferung Schrottplatz Messel ohne Termin moeglich, Verguetung zu Tagespreisen (Betreiber-Website, 01.10.2026)"}'
 pickup_json: '{"allowed": true, "conditions": "Schrottabholung im Rhein-Main-Gebiet, Container-/Gitterboxen-Stellung, Demontagen mit kostenloser Besichtigung (Betreiber-Website, 01.10.2026)"}'
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)

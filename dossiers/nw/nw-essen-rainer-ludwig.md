@@ -4,15 +4,15 @@ name: Rainer Ludwig GmbH & Co. KG
 trader_type: schrotthaendler
 state: NW
 city: Essen
-street: ''
-postcode: ''
+street: 'Eisenbahnstraße'
+postcode: '45134'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Historischer Standort der gelöschten Rainer Ludwig GmbH & Co. KG (AG Essen HRA 4117) an der Eisenbahnstraße, 45134 Essen; laut Umweltinspektion 2021 dort Anlage „Lagerung und Behandlung von Metallen“. Eine heutige öffentliche Schrottannahme ist nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 clear_fields: 'geo'
@@ -25,11 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-NorthData führt die **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, mit Liquidation (31.01.2023), Frank Ludwig als Liquidator (17.02.2023) und Löschung (22.10.2024). Ein WAZ-Bericht vom 28.04.2023 meldet separat, eine „Firma Ludwig“ habe den Schrottplatz an der Eisenbahnstraße Ende Juni 2023 verlassen; der Artikel nennt weder die KG noch HRA 4117. Die Zuordnung des importierten Händlerdatensatzes und des Schrottplatzes zu diesem Registerrechtsträger ist nicht unabhängig bestätigt. Deshalb bleibt `status: pruefung`; die Timeline dokumentiert die Löschung der KG, behauptet aber weder eine Standortschließung noch eine bestätigte Betreiberidentität. Keine Adresse, Kontakte oder Koordinate übernommen.
+NorthData führt die **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, mit Liquidation (31.01.2023), Frank Ludwig als Liquidator (17.02.2023) und Löschung (22.10.2024); der amtliche Handelsregisterauszug bestätigt den Status „gelöscht“ und nennt als letzten registrierten Sitz „Eisenbahnstraße, 45134 Essen“. Ein WAZ-Bericht vom 28.04.2023 meldet separat, eine „Firma Ludwig“ habe den Schrottplatz an der Eisenbahnstraße Ende Juni 2023 verlassen; der Artikel nennt weder die KG noch HRA 4117. Die Zuordnung des importierten Händlerdatensatzes und des Schrottplatzes zu diesem Registerrechtsträger ist weiterhin nicht unabhängig bestätigt. Deshalb bleibt `status: pruefung`; die Timeline dokumentiert die Löschung der KG, behauptet aber weder eine Standortschließung noch eine bestätigte Betreiberidentität. Straße/PLZ sind jetzt als amtlich belegte historische Registeranschrift der KG eingetragen, Kontakte und Koordinate bleiben leer.
 
 **ANKAUF:** keine historischen oder aktuellen Ankaufskurse belegt. **VERKAUF:** keine Teile-/Materialpreisliste. **GEBÜHREN:** keine Tarife. Der damalige Standort ist historisch an der Eisenbahnstraße belegt, aber Hausnummer und aktuelle öffentliche Annahmestelle nicht; keine Geokodierung.
 
 ## Timeline
+
+### Recherche 28.10.2026 — amtlicher Registerstatus und heutige Belegung der Eisenbahnstraße
+
+- [Recherche 28.10.2026: Der amtliche Handelsregisterauszug (online-handelsregister.de, OH-Nummer C-25977384) wurde heute direkt gelesen: Rainer Ludwig GmbH & Co. KG, Amtsgericht Essen HRA 4117, Gründung 03.02.1971, **Status "gelöscht"** ("bei gelöschten Unternehmen — letzter registrierter Stand inkl. Löschungsvermerk"), letzter registrierter Sitz laut Registerauszug "Eisenbahnstraße, 45134 Essen". Damit sind Löschung und historische Anschrift amtlich belegt; die Zeile trägt jetzt street/postcode der historischen Registeranschrift (ohne Hausnummer, die nur aus dem Umweltinspektionsbericht der Stadt Essen vom 03.03.2021 stammt: "Rainer Ludwig GmbH & Co. KG, Eisenbahnstr. 1, 45134 Essen", Anlage "Lagerung und Behandlung von Metallen", 4. BImSchV 8.12.2.3). Der Registerabzug der beiden amtlichen Register (Stand 11.08.2026, gespiegelt über schrottregister.pages.dev, "Unabhängiges Verzeichnis · kein amtliches Angebot") führt in Essen 24 Betriebe — darunter Entsorgungsbetriebe Essen GmbH (Wertstoffhof Lierfeldstraße 49, BS Entsorgungsanlage Stauderstraße 219), Tappe Rohstoffhandel GmbH (Am Stadthafen 18), Coban Metallhandel GmbH, IST GmbH, WRL GmbH, elorec GmbH, Franz Maag Autoverwertung, Autoverwertung Chruscz — aber kein "Ludwig" und keine "Eisenbahnstraße"; ein Negativbefund belegt keine Nichtexistenz, liefert aber keinen amtlichen Beleg für einen heutigen Schrottbetrieb an der Eisenbahnstraße. Was heute öffentlich an dieser Straße angekündigt ist, hat die Betreiberseite der kommunalen Entsorgungsbetriebe Essen GmbH (EBE) geprüft: "Grünannahmestelle Süd, Eisenbahnstraße 18, 45134 Essen (Sackgasse zwischen Aldi und Lidl)", Öffnungszeiten Montag/Dienstag/Mittwoch/Freitag 7:30–15:00 Uhr, Donnerstag länger, Samstag 8:00–13:00 Uhr, "Keine Anhängerlieferung möglich!" — das ist eine kommunale Grün-/Wertstoffannahme, kein Schrottankauf. ANKAUF: keine Kurse belegt. VERKAUF: keine Teile-/Materialpreisliste. GEBÜHREN: keine Tarife; die EBE-Grünannahme ist keine Entgelt- oder Schrottgebühr. status bleibt pruefung, weil die Verknüpfung des importierten Händlerdatensatzes mit genau dieser KG weiterhin nur über die Adresse läuft und weil die Registerlöschung keine Standortschließung beweist; `clear_fields: 'geo'` bleibt bestehen, eine Ersatzkoordinate wird nicht gesetzt. Offen: ob es einen Nachfolger an der Eisenbahnstraße gibt (der WAZ-Bericht nennt nur eine „Firma Ludwig" und weder Firmierung noch HRA). Quellen: https://www.online-handelsregister.de/handelsregisterauszug/nw/Essen/HRA/4117/Rainer-Ludwig-GmbH-Co-KG ; https://schrottregister.pages.dev/ort-essen ; https://www.ebe-essen.de/recyclingstandorte/ ; https://media.essen.de/media/wwwessende/aemter/59/umweltinspektionen/2021-04-06_InspBericht.pdf ; https://www.northdata.de/Rainer%20Ludwig%20GmbH%20%26%20Co%C2%B7%20KG,%20Essen/HRA%204117]
 
 ### Owner-Korrektur 27.10.2026: GEO-Rücknahme
 

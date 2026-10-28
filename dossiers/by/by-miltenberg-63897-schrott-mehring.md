@@ -10,10 +10,10 @@ phone: ''
 clear_fields: 'phone'
 email: ''
 opening_hours: ''
-website: ''
-website_status: 'unbekannt'
+website: https://www.mehring-container.de/
+website_status: 'aktiv'
 status: pruefung
-description: ''
+description: Mehring GmbH Schrott, Recycling, Containerdienst (HRB 8536 Aschaffenburg), Inhaber Heinz Will - Betreiberhistorie nennt den Umzug 2010 vom historischen Standort Nikolaus-Fasel-Str. 2, 63897 Miltenberg zum heutigen Schrottplatz Industriestraße 18, 97904 Dorfprozelten. Im amtlichen Register (Auszug 11.08.2026) ist nur Dorfprozelten als Betriebsstätte geführt (Mehring GmbH, ZZFT01300072), Miltenberg nicht mehr. Der heutige Standort mit Kontaktdaten steht im Schwesterdossier by-dorfprozelten-mehring.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
@@ -28,6 +28,10 @@ provenance_origin: table
 Die heute gelesene Mehring-Betreiberhistorie nennt ausdrücklich einen Umzug 2010 nach Dorfprozelten; damit ist die frühere Deutung einer aktuellen Miltenberger Zweigstelle nicht bestätigt. Impressum und Kontakt nennen ausschließlich Industriestraße 18, Dorfprozelten. Keine Umadressierung dieses Dossiers ohne unabhängig belegte Betreiber-/Standortkette. Historische Miltenberger Telefonnummer aus Frontmatter zurückgenommen; Ankauf in Dorfprozelten nicht als Miltenberger Preisquelle verwenden.
 
 ## Timeline
+
+### Recherche 28.10.2026: Registerbefund, Merge-Prüfung Car Transplant und Geschwisterdossier
+
+- [Recherche 28.10.2026: Amtliches Register (Fachbetrieberegister/Gemeinsame Stelle Altfahrzeuge und Register der Entsorgungsfachbetriebe, Auszug 11.08.2026, gespiegelt über https://schrottregister.pages.dev) neu ausgewertet: Für Miltenberg existiert KEINE Ortsseite (kein Betrieb dieses Namens), für Dorfprozelten genau ein Eintrag „Mehring GmbH, Industriestraße 18, 97904 Dorfprozelten“, Zertifikatsnummer ZZFT01300072, zertifizierte Tätigkeiten Lagern und Behandeln, Hauptsitz laut Register „Mehring GmbH Schrott-Recycling-Container“. Diese amtliche Bestätigung des Standorts Dorfprozelten stützt die Betreiberhistorie vom 14.10.2026 (Umzug 2010) unabhängig und bestätigt, dass der historische Miltenberger Standort Nikolaus-Fasel-Str. 2 heute nicht als anerkannte Betriebsstätte geführt wird. Ein Negativbefund im Register beweist keine Nichtexistenz, er beweist nur das Fehlen eines Registereintrags. **Merge-Prüfung Miltenberg (Auftragspunkt):** Die beiden im selben Ort geführten Slugs `by-miltenberg-63897-schrott-mehring` (Mehring GmbH) und `by-miltenberg-63897-car-transplant` (Car Transplant GmbH, spätere GT Mobile GmbH/Tribune GmbH, Sitzverlegung nach Hannover) sind zwei verschiedene Rechtsträger mit getrennten Namens- und Standortketten - kein Merge, keine gemeinsame Adresse, keine gemeinsame Registeridentität; die Car-Transplant-Kette wird im dortigen Dossier geführt. **Geschwisterdossier statt Doppelung:** Der heutige, in der Produktion mit vollständigen Kontaktdaten geführte Standort Dorfprozelten liegt im Schwesterdossier `by-dorfprozelten-mehring` (Industriestraße 18, 97904 Dorfprozelten, HRB 8536). Deshalb wird hier bewusst KEINE Dorfprozeltener Straße/PLZ/Telefonnummer eingetragen (das würde denselben Betrieb doppeln); dieses Dossier bleibt als historischer Miltenberger Standort der importierten Seedzeile dokumentiert und verweist auf das Schwesterdossier. Website und website_status wurden auf den Betreiberauftritt gesetzt (Impressum: Mehring GmbH Schrott, Recycling, Containerdienst, HRB 8536 Aschaffenburg, Industriestraße 18, 97904 Dorfprozelten; Register nennt denselben Rechtsträger unter demselben Namen), Telefon bleibt bewusst geleert (`clear_fields: phone`) und keine Koordinate wird gesetzt. ANKAUF: für Miltenberg keine belastbaren Kurse (die Dorfprozeltener „Vergütung nach Gewicht, geeichte Waagen ab 500 g bis 50.000 kg“-Angaben sind Containerplatz-Angaben des Schwesterbetriebs und keine Miltenberger Preise); VERKAUF: keine Preisliste; GEBÜHREN: keine Tarife für einen Miltenberger Standort. Offen: belastbarer Nachweis, ob und wann die historische Miltenberger Annahmestelle (Nikolaus-Fasel-Str. 2) endgültig aufgegeben wurde, und ob die Seedzeile überhaupt je eine eigene Rechtsträgerin in Miltenberg war; ein `geschlossen`-Status wird daraus nicht abgeleitet. Quelle(n): https://schrottregister.pages.dev/ort-dorfprozelten ; https://schrottregister.pages.dev/betrieb-mehring-gmbh-dorfprozelten ; https://schrottregister.pages.dev/ort-miltenberg (404 - keine Ortsseite, Abruf 28.10.2026) ; https://www.mehring-container.de/impressum/ ; https://www.mehring-container.de/ueber-uns/ ; dossiers/by/by-dorfprozelten-mehring.md ; dossiers/by/by-miltenberg-63897-car-transplant.md.]
 
 ### Recherche 14.10.2026
 

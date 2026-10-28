@@ -12,7 +12,7 @@ opening_hours: Mo-Fr 10:00-16:00
 website: http://der-autoverwerter.de
 website_status: aktiv
 status: aktiv
-description: Autoverwertung Oerter (Inh. Susanne Domuradt, Einzelunternehmen ohne HRB): Altauto-Entsorgung/Verwertung, Ersatzteile; Am Schimberg 8, 35708 Haiger (Flammersbach).
+description: 'Autoverwertung Oerter (Inh. Susanne Domuradt, Einzelunternehmen ohne HRB): Altauto-Entsorgung/Verwertung, Ersatzteile; Am Schimberg 8, 35708 Haiger (Flammersbach).'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)

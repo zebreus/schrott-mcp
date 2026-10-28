@@ -4,15 +4,18 @@ name: Schrottaufbereitung Rösler
 trader_type: schrotthaendler
 state: SN
 city: Großröhrsdorf OT Bretnig
-street: ''
-postcode: ''
+street: Gewerbering Nord 18
+postcode: '01900'
+lat: 51.1615045
+lon: 14.0464781
 phone: ''
 email: ''
 opening_hours: ''
 website: https://schrott-roesler.de
 website_status: aktiv
 status: aktiv
-description: Schrott- und Metallankauf in Bretnig laut Betreiber; Containerdienst und Industriedemontage. Kontaktdaten weiterhin nur Betreiber-Einzelbeleg.
+description: Schrott- und Metallankauf in Bretnig laut Betreiber; Containerdienst und Industriedemontage. Anschrift amtlich bestätigt (Gewerbering Nord 18, 01900 Großröhrsdorf OT Bretnig) - Zertifikatsnummer ZZPT00400159 im Register der Entsorgungsfachbetriebe, Auszug 11.08.2026. Telefon, E-Mail und Öffnungszeiten weiterhin nur Betreiber-Einzelbeleg.
+certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZPT00400159 (Registerstand 11.08.2026); zertifizierte Tätigkeiten Lagern und Behandeln"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -33,6 +36,10 @@ Adresse und Kontakt bleiben mangels unabhängiger Bestätigung Timeline-only. Di
 **Preise:** **Ankauf** — Tagespreise, bar oder Überweisung; keine numerischen Raten veröffentlicht. **Verkauf** — sortierte Schrotte/Vormaterial und NE-Metalle für Verarbeiter werden angeboten, aber ohne öffentliche Verkaufspreise. **Gebühren** — Containergrößen 1–34 m³; kostenfreie Container laut Betreiber nur für Daueranfallstellen, sonstige Tarife auf Anfrage/nicht veröffentlicht. **Geokodierung:** Gewerbering Nord 18, 01900 Großröhrsdorf OT Bretnig ist ein Adresskandidat aus der Betreiberquelle; Koordinate noch nicht geschrieben und vor Freigabe unabhängig gegen Standort/Anfahrt prüfen.
 
 ## Timeline
+
+### Recherche 28.10.2026: amtliches Register bestätigt Anschrift und Zertifikatsnummer
+
+- [Recherche 28.10.2026: Amtliche Registerquelle neu ausgewertet (Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge und Register der Entsorgungsfachbetriebe, Auszug 11.08.2026, gespiegelt je Ort-/Betriebsseite über https://schrottregister.pages.dev). Für Großröhrsdorf führt das Register „Schrottaufbereitung Rösler, Gewerbering Nord 18, 01900 Großröhrsdorf“ mit Zertifikatsnummer ZZPT00400159, zertifizierte Tätigkeiten „Lagern, Behandeln“ und 27 Abfallschlüsseln (u. a. 160117 Eisenmetalle, 160118 Nichteisenmetalle, 170401 Kupfer/Bronze/Messing, 170402 Aluminium, 170403 Blei, 170407 gemischte Metalle, 170411 Kabel). Damit ist die bisher nur als Adresskandidat geführte Anschrift „Gewerbering Nord 18, 01900 Großröhrsdorf OT Bretnig“ erstmals durch eine zweite, vom Betreiber unabhängige amtliche Quelle bestätigt und in street/postcode eingetragen (zur Koordinate siehe GEO unten). Wichtige Nuance zur Zertifikatswarnung vom 11.10.2026: die Nummer ZZPT00400159 stimmt mit dem vom Betreiber veröffentlichten IWA-Zertifikat 124/2010/25 (Vorgang ZZPT004001590008) überein, dessen dort genannte Gültigkeit am 20.07.2026 endete - der Registerauszug vom 11.08.2026 führt denselben Betrieb und dieselbe Zertifikatsnummer dennoch weiter. Das belegt die registrierte Anlage an dieser Anschrift, aber keine heute gültige Zertifizierung; die Gültigkeitsfrage bleibt ausdrücklich offen (Nachfolgezertifikat beim Betreiber/IWA anfordern). ANKAUF: unverändert „Tagespreise, bar oder Überweisung“ ohne numerische Kurse (keine Preisliste). VERKAUF: sortierte Schrotte/NE-Metalle für Verarbeiter, keine Verkaufspreise. GEBÜHREN: Container 1-34 m³, kostenfreie Container nur für Daueranfallstellen, keine veröffentlichten Tarife. Telefon 035955 70110, Fax und kontakt@schrott-roesler.de sowie die Öffnungszeiten bleiben Betreiber-Einzelbeleg und daher leer (Verzeichnis-Echos wie Gelbe Seiten/Stadtbranchenbuch sind Aggregator-Leads, kein zweiter Beleg). **GEO:** Der bisherige Produktionspunkt (51.1453/14.0192) lag rund 2,5 km vom Betriebs entfernt im Ortsbereich und wurde durch einen adressgenauen, namentlich zum Betrieb passenden OSM-Eintrag ersetzt: das OSM-Way 65233991 trägt selbst den Namen „Schrott Rösler“ und liegt an „18, Gewerbering Nord, Gewerbegebiet Bretnig-Ohorn, 01900 Großröhrsdorf“ (Nominatim-Suche vom 28.10.2026, 51.1615045/14.0464781). Damit sind die Koordinate durch zwei unabhängige Quellen gedeckt: das amtliche Register für die Anschrift und der OSM-Namensobjektpunkt für die Position; die Genauigkeit ist auf Gebäude-/Objektebene (kein Hoftor). Quelle(n): https://schrottregister.pages.dev/ort-grossrohrsdorf ; https://schrottregister.pages.dev/betrieb-schrottaufbereitung-rosler-grossrohrsdorf ; https://schrott-roesler.de/impressum/ ; https://schrott-roesler.de/schrott-und-metallankauf/ ; https://schrott-roesler.de/ueber-uns/ ; https://schrott-roesler.de/zertifikat/ ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Gewerbering+Nord+18%2C+01900+Gro%C3%9Fr%C3%B6hrsdorf (Abruf 28.10.2026, OSM way 65233991, ODbL).]
 
 ### Recherche 21.10.2026
 

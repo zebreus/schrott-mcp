@@ -4,15 +4,15 @@ name: Autoverschrottung + Schrotthändler (Berkersheimer Weg)
 trader_type: schrotthaendler
 state: HE
 city: Frankfurt am Main
-street: ''
-postcode: ''
+street: Berkersheimer Weg 165
+postcode: '60433'
 phone: (069) 516778
-email: ''
+email: auto.gaertner@web.de
 opening_hours: ''
-website: ''
-website_status: unbekannt
+website: http://www.xn--auto-grtner-q8a.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: 'Auto-Gärtner, Inhaber Horst Gärtner, Berkersheimer Weg 165, 60433 Frankfurt am Main, Tel. 069 516778 und 069 540566, Fax 069 69541083, E-Mail auto.gaertner@web.de; Website https://www.auto-gärtner.de (ASCII-Form https://www.xn--auto-grtner-q8a.de). Autoverwertung mit Fahrzeugankauf und Verschrottung per Angebotsformular, Verkauf von Ersatzteilen. Keine numerischen Ankauf- oder Verkaufspreise, keine Gebührenliste; die Website ist eine Template-Seite mit Stand 2014 ohne Registereintrag.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der generische Seed passt als Kandidat zu Auto-Gärtner/Horst Gärtner am Berkersheimer Weg 165, 60433 Frankfurt: die Betreiberseite nennt weiterhin die Dossiernummer 069 516778 und zusätzlich 069 540566. Rechtliche Zuordnung des generischen Seeds und heutiger Betrieb sind nicht unabhängig bestätigt; die Website trägt weiterhin ©2014. Keine Umbenennung oder Adress-/Domainübernahme auf dieser Basis. Ankauf-, Verkaufs- und Gebührenpreise nicht gesichert; `pruefung` bleibt.
+Der generische Seed ist Auto-Gärtner/Horst Gärtner am Berkersheimer Weg 165, 60433 Frankfurt: das Betreiber-Impressum nennt die Dossiernummer 069 516778 (plus 069 540566, Fax 069 69541083) und die E-Mail auto.gaertner@web.de, und das Verzeichnis führt denselben Betrieb unter der Seed-Bezeichnung „Gärtner Autoverschrottung und Schrotthändler“ — Seed-Rufnummer, Straßenhinweis und PLZ stimmen überein, deshalb wurden Adresse, Telefon, E-Mail und Website übernommen. Der heutige Betrieb bleibt aber unbestätigt: die Website trägt weiterhin ©2014, läuft auf einem 1&1-Template mit fest eingebautem Kontaktformular-Text und ohne Impressum/Registereintrag; das amtliche Register führt für Frankfurt keinen Gärtner. Keine Umbenennung des Seed-Namens ohne Owner-Entscheidung. Ankauf-, Verkaufs- und Gebührenpreise nicht gesichert; `pruefung` bleibt. Die Domain auto-gaertner.de gehört zu einem anderen Betrieb (Auto Gärtner, Reinsdorf/Waldheim) und ist auszuschließen.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Die Identität des generischen Seeds ist jetzt über vier übereinstimmende Merkmale belegt, die Adresse und der Kontakt wurden deshalb ins Frontmatter übernommen, der Status bleibt `pruefung`. Betreiber-Impressum (http://www.xn--auto-grtner-q8a.de/impressum/, Domain https://www.auto-gärtner.de) erneut direkt gelesen: Auto-Gärtner, Horst Gärtner, Berkersheimer Weg 165, 60433 Frankfurt am Main, Telefon +49 69 516778 und +49 69 540566, Fax +49 69 69541083, E-Mail auto.gaertner@web.de — identisch mit der bereits im Dossier dokumentierten Seed-Rufnummer (069) 516778 und mit dem Seed-Straßenhinweis „Berkersheimer Weg" sowie der Seed-Postleitzahl 60433. Im Verzeichnis ist der Betrieb unter der Seed-Branchenbezeichnung geführt: die bereits am 03.10.2026 dokumentierte Profiladresse „Frankfurt-Gärtner Autoverschrottung und Schrotthändler" (oeffnungszeitenbuch.de, Abruf 403, nur Pfadname belegt) verbindet den Namen des Betreibers mit der generischen Seed-Bezeichnung. Das amtliche Fachbetriebs-/Entsorgungsfachbetriebsregister (Auszug 11.08.2026) führt für Frankfurt am Main 21 und für Frankfurt 14 anerkannte Betriebe — darunter Becker Armbrust, First Solar Recycling, Frankfurter Dienstleistungsholding, Hau Holding, Helmut Haug, Premium Recycling Service, Rhein-Main Rohstoffe, Riwald Recycling Rhein-Main, Stenzel, TSR Deutschland Region Südwest II, WISA, von Gries Recycling — aber keinen Gärtner; das ist ein Negativbefund ohne Beweiswert für kleine Autoverwerter. Reichweite des Angebots: die Seite „Auto - Ankauf - Verschrottung" formuliert „Auf dieser Seite können Sie uns kostenlos Ihr Fahrzeug zum Ankauf oder kostenlose Verschrottung anbieten" und verlangt im Formular eine eigene „Preisvorstelung" — das belegt ein unverbindliches Angebot, keine pauschale kostenlose Abholung oder Entsorgung jedes Fahrzeugs. ANKAUF: kein numerischer Kurs, Preise nur auf Anfrage; VERKAUF: Ersatzteile werden angeboten, eine bezifferte Artikelliste ist auf den geprüften Seiten nicht vorhanden; GEBÜHREN: keine Tarifliste für Verschrottung, Abschleppen oder Teile. Aktualitätsvorbehalt bleibt: der Footer nennt weiterhin „© 2014 by Webmaster Cowboy / Claus", die Seite läuft auf einem 1&1-Website-Editor-Template mit fest eingebautem Kontaktformular-Text, und ein Impressum/HRB-Eintrag fehlt; das Register führt keine „Gärtner", daher ist der Status `pruefung` beibehalten. Neu geprüft und abgrenzt: die Domain auto-gaertner.de gehört zu einem anderen Betrieb („Auto Gärtner", Karl-Heinz Gärtner, Reinsdorf Nr. 17, 04736 Waldheim) und ist nicht als Website dieses Dossiers zu verwenden; die belegte Domain ist die Punycode-Form https://www.xn--auto-grtner-q8a.de. Keine GEO, da keine belegte Annahme-Öffnung vorliegt. Offen und für den Owner: Namensführung („Auto-Gärtner"/Horst Gärtner gegenüber dem generischen Seed-Namen) und die Frage, ob der Betrieb heute noch an der Anschrift tätig ist. Quelle(n): http://www.xn--auto-grtner-q8a.de/impressum/ ; http://www.xn--auto-grtner-q8a.de/autoankauf-pkw-lkw/ ; http://www.xn--auto-grtner-q8a.de/teile-pkw-lkw/ ; http://www.xn--auto-grtner-q8a.de/anfahrt/ ; http://www.auto-gaertner.de/ (Namensvetter, anderer Betrieb) ; https://schrottregister.pages.dev/ort-frankfurt-am-main ; https://schrottregister.pages.dev/ort-frankfurt]
 
 ### Recherche 21.10.2026
 

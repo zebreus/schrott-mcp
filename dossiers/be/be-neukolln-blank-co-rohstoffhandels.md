@@ -12,7 +12,7 @@ opening_hours: Mo-Do 7:30-16:30, Fr 7:30-14:00
 website: https://blank-metalle.de
 website_status: aktiv
 status: aktiv
-description: Berliner Rohstoffhandel (GmbH, HRB 24283 B AG Charlottenburg): An- und Verkauf von FE- und NE-Metallen, Schrott, Ferrolegierungen und Metallhalbzeugen; Abholung ab 1000 kg FE bzw. 500 kg Buntmetalle zu Tagespreisen; über 40 Jahre Erfahrung
+description: 'Berliner Rohstoffhandel (GmbH, HRB 24283 B AG Charlottenburg): An- und Verkauf von FE- und NE-Metallen, Schrott, Ferrolegierungen und Metallhalbzeugen; Abholung ab 1000 kg FE bzw. 500 kg Buntmetalle zu Tagespreisen; über 40 Jahre Erfahrung'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Berlin (BE) — Recherche

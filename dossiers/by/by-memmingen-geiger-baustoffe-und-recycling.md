@@ -12,7 +12,7 @@ opening_hours: Mo-Do 7-12 und 13-17, Fr 7-13
 website: https://geigergruppe.com
 website_status: aktiv
 status: aktiv
-description: Kreislaufstandort Memmingen der Geiger Gruppe (11 ha, eröffnet im Juli 2024): Annahme von Altholz, Bauschutt, Bodenaushub u.a. für Bau-/Abbruchfirmen, Entsorger, Kommunen und Privatkunden
+description: 'Kreislaufstandort Memmingen der Geiger Gruppe (11 ha, eröffnet im Juli 2024): Annahme von Altholz, Bauschutt, Bodenaushub u.a. für Bau-/Abbruchfirmen, Entsorger, Kommunen und Privatkunden'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne

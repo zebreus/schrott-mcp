@@ -12,7 +12,7 @@ opening_hours: Mo–Fr 7–18 Uhr, Sa nach Vereinbarung
 website: https://heitec-riocycling.de/
 website_status: aktiv
 status: pruefung
-description: Entsorgungs- und Verwertungsbetrieb in Wallhausen-Riethnordhausen (HeiTec RIOcycling GmbH, HRB 12259 AG Stendal, Nachf. RIO Recycling): Wertstoffannahme (Schrott, Sperrmüll, E-Schrott, Grünschnitt), NE-Aufbereitung, Containerdienst 3–30 m³ im 50-km-Umkreis
+description: 'Entsorgungs- und Verwertungsbetrieb in Wallhausen-Riethnordhausen (HeiTec RIOcycling GmbH, HRB 12259 AG Stendal, Nachf. RIO Recycling): Wertstoffannahme (Schrott, Sperrmüll, E-Schrott, Grünschnitt), NE-Aufbereitung, Containerdienst 3–30 m³ im 50-km-Umkreis'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Nachtrag Audit-Runde 3 (Stand: 2026-09-27)'

@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://www.spaeter.de
 website_status: unbekannt
 status: aktiv
-description: F. Hackländer GmbH: Stahl/Metallhandel; Holländische Str. 120, 34127 Kassel (Nord-Holland). Zweite Niederlassung: Im Schwabenfeld 7, 34260 Kaufungen.
+description: 'F. Hackländer GmbH: Stahl/Metallhandel; Holländische Str. 120, 34127 Kassel (Nord-Holland). Zweite Niederlassung: Im Schwabenfeld 7, 34260 Kaufungen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)

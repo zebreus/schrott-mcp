@@ -7,12 +7,12 @@ city: Minden
 street: ''
 postcode: '32423'
 phone: 0176 69754346
-email: ''
+email: schrotthaendler-chow@gmx.de
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Einzelbetrieb Schrotthandel S. Chow (Impressum: Sven Chow), Telefon 0176 69754346, E-Mail schrotthaendler-chow@gmx.de, 32423 Minden-Meißen. Die eigene Website schrotthandel-minden.npage.de war nur 2015 bis 2016 online und bot dort kostenlose Schrottabholung auf Baustellen, bei Firmen und Privatpersonen, den Ankauf von Buntmetallen (Aluminium, Blei, Messing, Kupfer, Kabel, Zink) sowie Demontagen von Stahlkonstruktionen und die Entsorgung von Elektrogeräten nach KrWG nach Absprache. Die betreiberseitigen Angaben stammen aus dem Archivstand 06.10.2015; Anschrift, Preise und Gebühren sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -24,9 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-„Chow“ ist über Telefon-/Verzeichnis-Leads auffindbar, aber die Geschäftsadresse ist widersprüchlich: Grille 75a, Grille 75b und ein weiterer Eintrag Meißener Weg 222. Nur Minden/PLZ und Telefonnummer sind mehrfach gelistet; die Treffer sind alles Branchenverzeichnisse. Ohne Betreiberquelle bleiben Straße, Annahmeort und Ankauf ungeklärt.
+„Chow“ ist über Telefon-/Verzeichnis-Leads auffindbar; die eigene Website des Betriebs (schrotthandel-minden.npage.de) ist im Direktabruf 404, existiert aber auf der Wayback-Maschine mit einem Snapshot vom 06.10.2015. Daraus ist das Betreiber-Impressum („Sven Chow, 32423 Minden-Meißen, Mobil 017669754346, E-Mail schrotthaendler-chow@gmx.de“) und das Leistungsangebot belegt: kostenlose Schrottabholung auf Baustalten sowie bei Firmen und Privatpersonen, Ankauf von Buntmetallen (Aluminium, Blei, Messing, Kupfer, Kabel, Zink), Demontagen von Stahlkonstruktionen und Entsorgung von Elektrogeräten nach KrWG nach Absprache. Die Geschäftsadresse bleibt widersprüchlich (Grille 75a, Grille 75b, Meißener Weg 222) und wird nicht übernommen; nur die Variante Meißener Weg 222 passt zum im Impressum genannten Ortsteil Minden-Meißen. Das amtliche Register führt für Minden acht Betriebe und keinen Chow. ANKAUF/VERKAUF/GEBÜHREN: keine Preise, keine Verkaufsliste, keine Tarife — die Angaben zum Leistungsangebot stammen aus dem Archivstand 2015.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Die betreiberseitige Quelle ist im Archiv gefunden, damit sind Inhabername, E-Mail und Leistungsangaben belegt; die Anschrift bleibt offen. Die eigene npage-Website schrotthandel-minden.npage.de ist im Direktabruf weiterhin 404, auf der Wayback-Maschine existiert jedoch ein Snapshot vom 06.10.2015, der live gelesen wurde. Startseite: „Schrotthandel S.Chow — Abholung von Schrott und Metalle in Minden und Umgebung nach Sach-Fachkunde des KrWG", „Wir bieten an: Kostenlose und zuverlässiges abholen von Schrott auf Baustellen, bei Firmen und Privatpersonen. Ankauf von Buntmetallen. Wir kaufen an: Aluminium, Blei, Messing; Kupfer, Kabel, Va, Zink, usw.", „außerdem bieten wir an: Demontagen von Stahlkonstruktionen, Stahlträger, Kesselanlagen, Maschinen abbau, usw. Entsorgung von Elektrogeräten im Sinne des KrWG nach Absprache möglich." Impressum (Snapshot 06.10.2015): „Sven Chow, 32423 Minden-Meißen, Tel. Mobil: 017669754346, E-Mail: schrotthaendler-chow@gmx.de". Damit ist die im Frontmatter geführte Telefonnummer 0176 69754346 erstmals durch die Betreiberquelle selbst bestätigt und die E-Mail schrotthaendler-chow@gmx.de wurde ins Frontmatter übernommen (sie wird 2026 unverändert auch im Verzeichnis-Eintrag branchen-info.net geführt). Die Anschrift bleibt weiterhin ungeklärt, weil das Impressum nur den Ortsteil nennt: Gelbe Seiten führen Grille 75b, 11880 Grille 75a, branchen-info.net Meißener Weg 222 (mit derselben Nummer und der nicht mehr erreichbaren npage-Adresse), das Telefonbuch-Objekt nennt Grille 75a zusätzlich als Standort der „AS-Export GmbH" — die drei Hausnummer-/Straßenvarianten bleiben ungeklärt, und die Straße wird nicht ins Frontmatter übernommen. Bemerkenswert ist, dass nur die Variante Meißener Weg 222 zum im Impressum genannten Ortsteil Minden-Meißen passt. Das amtliche Fachbetriebs-/Entsorgungsfachbetriebsregister (Auszug 11.08.2026) führt für Minden acht Betriebe (Aperam Recycling Stainless Germany, Drinkuth Rohstoffhandel und Recycling, Emil Entsorgungswirtschaft, ERS Elektro-Recycling-Service, Julius Lax, Paul Jost, Schwartze, Wesermetall Pirrung) und keinen Chow — Negativbefund ohne Beweiswert für einen mobilen Einzelbetrieb. ANKAUF: keine Kursangabe, nur die 2015er Materialliste (Aluminium, Blei, Messing, Kupfer, Kabel, Zink); VERKAUF: keine Liste; GEBÜHREN: keine Tarife, die kostenlose Abholung ist eine Aussage von 2015 und wird deshalb nur in der description, nicht in pickup_json übernommen. Status bleibt pruefung, weil die Website seit 2016 tot ist und es keinen datierten aktuellen Aktivitätsbeleg gibt. Offen und für den Owner: Gewerberegisterauskunft der Stadt Minden zu „S. Chow"/„Sven Chow" zur Klärung der Anschrift und des heutigen Fortbestands, sowie die Namensführung (Seed „Chow S." gegenüber Impressum „Sven Chow") und die Frage, ob die alte npage-Adresse weiterhin bedient wird. Quelle(n): https://web.archive.org/web/20151006093414/http://schrotthandel-minden.npage.de/ ; https://web.archive.org/web/20151006093414/http://schrotthandel-minden.npage.de/impressum.html ; https://minden-mi.branchen-info.net/schrotthandel-s-chow/4707996 ; https://www.gelbeseiten.de/gsbiz/2cc60a07-b0ef-48cc-9c30-2e56c626562d ; https://www.11880.com/branchenbuch/minden-westfalen/060440090B102295179/schrotthandel-s-chow.html ; https://www.mapquest.com/de/nordrhein-westfalen/as-export-gmbh-832281958 ; https://schrottregister.pages.dev/ort-minden]
 
 ### Recherche 06.10.2026
 

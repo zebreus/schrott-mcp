@@ -4,15 +4,17 @@ name: Alexander Neigert Schrott- und Metallhandel GmbH
 trader_type: schrotthaendler
 state: BY
 city: Langenzenn
-street: ''
+street: 'Mecklenburger Str. 47'
 postcode: '90579'
+lat: '49.4857107'
+lon: '10.7936712'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: 'Handel mit Schrott- und Metallwaren aller Art.'
+description: 'Handel mit Schrott- und Metallwaren aller Art. Alexander Neigert Schrott- und Metallhandel GmbH, AG Fürth HRB 9379, im Register aktiv, Sitz Mecklenburger Str. 47, 90579 Langenzenn; eine laufende Kundenannahme ist nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
@@ -24,9 +26,13 @@ provenance_origin: prose
 
 ## Überblick
 
-NorthData führt die Alexander Neigert Schrott- und Metallhandel GmbH, HRB 9379 AG Fürth, Sitz Langenzenn und den Unternehmensgegenstand Handel mit Schrott- und Metallwaren. Die konkrete Adresse Mecklenburger Str. 47 erscheint in einem älteren Registerereignis und Verzeichnis-Leads, ist aber nicht als heutige Kundenannahme bestätigt; ein aktueller Betreiberauftritt oder aktuelle Öffnungszeiten wurden nicht gefunden. Status `pruefung`. **Ankauf:** keine numerischen Kurse oder bestätigten Annahmebedingungen; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Adresse, Betriebsaktivität und GEO bleiben offen.
+NorthData führt die Alexander Neigert Schrott- und Metallhandel GmbH, HRB 9379 AG Fürth, Sitz Langenzenn und den Unternehmensgegenstand Handel mit Schrott- und Metallwaren; der amtliche Handelsregisterauszug bestätigt Rechtsträger, Aktivität und die Anschrift **Mecklenburger Str. 47, 90579 Langenzenn** (Ersteintragung 02.06.2003), die Adresse ist damit jetzt amtlich belegt. Ein aktueller Betreiberauftritt, aktuelle Öffnungszeiten und eine Kundenannahme wurden nicht gefunden. Status `pruefung`. **Ankauf:** keine numerischen Kurse oder bestätigten Annahmebedingungen; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Adresse, Betriebsaktivität und GEO bleiben offen.
 
 ## Timeline
+
+### Recherche 28.10.2026 — amtlicher Registerauszug, Anschrift und Koordinate belegt
+
+- [Recherche 28.10.2026: Der amtliche Handelsregisterauszug (online-handelsregister.de) wurde heute direkt gelesen und schließt die bisher offene Adressfrage: **Alexander Neigert Schrott- und Metallhandel GmbH**, OH-Nummer C-23275148, Amtsgericht Fürth **HRB 9379**, Rechtsform GmbH, Ersteintragung 02.06.2003, Stammkapital 25.000 EUR, **Status "aktiv"**, eingetragener Geschäftssitz **Mecklenburger Str. 47, 90579 Langenzenn** ("Das Unternehmen ist damit seit 23 Jahren aktiv"). Die Adresse ist damit nicht mehr nur ein älteres Registerereignis und Verzeichnis-Lead, sondern amtlich belegt (unabhängig bestätigt durch Creditreform-Firmenauskunft 90579/8190564312, companyhouse und Fusionbase) und wurde ins Frontmatter übernommen; die bisherige Formulierung "Mecklenburger Str. 47 nur von einem Registerereignis gestützt" ist damit überholt. Ein Betreiberauftritt (Website/Impressum) existiert weiterhin nicht: Die verbliebenen Funde sind ausschließlich Aggregator-Leads mit abweichenden Telefonnummern (schrottplatz.org: +49 91017706; mme-firmenbuch: 0170 5859299) und Öffnungszeiten (meinestadt: Mo/Di 7:00–16:00, dort zugleich mit dem Portalstatus "Geschlossen") — daraus wird kein Fill abgeleitet, weder Telefon noch Öffnungszeiten noch Website. Amtlicher Registerabzug (Fachbetrieberegister + Register der Entsorgungsfachbetriebe, Stand 11.08.2026, Spiegel schrottregister.pages.dev, "Unabhängiges Verzeichnis · kein amtliches Angebot"): Für Langenzenn existiert keine Ortsseite, es ist also keine Altfahrzeug- oder Entsorgungsfachbetriebs-Anerkennung für diese Adresse dokumentiert — ein Negativbefund beweist keine Nichtexistenz. ANKAUF: keine numerischen Kurse und keine bestätigten Annahmebedingungen; der Registergegenstand "Handel mit Schrott- und Metallwaren" ist keine Preisliste. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife. status bleibt pruefung, weil die laufende Kundenannahme weiterhin nicht belegt ist. GEO: der zuvor gespeicherte Punkt 49.4946/10.7923 löste auf "Alte Zennstraße, 90579 Langenzenn" auf, rund 1,0 km vom belegten Adresspunkt entfernt; gesetzt wurde der belegte Adresspunkt Mecklenburger Straße 47 (Nominatim und Photon liefern identisch 49.4857107/10.7936712, OSM-Hauspunkt, Übereinstimmung 0 m). Offen: Telefonnummer, Öffnungszeiten, Annahmebedingungen und jede Preisliste des Betriebs. Quellen: https://www.online-handelsregister.de/handelsregisterauszug/by/Fuerth/HRB/9379/Alexander-Neigert-Schrott-und-Metallhandel-GmbH ; https://www.northdata.de/Alexander%20Neigert%20Schrott-%20und%20Metallhandel%20GmbH,%20Langenzenn/Amtsgericht%20F%C3%BCrth%20HRB%209379 ; https://schrottregister.pages.dev/ort-langenzenn (404, keine Ortsseite) ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&addressdetails=1&q=Mecklenburger+Stra%C3%9Fe+47%2C+90579+Langenzenn ; https://photon.komoot.io/api/?q=Mecklenburger+Stra%C3%9Fe+47%2C+90579+Langenzenn ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=49.4946&lon=10.7923&addressdetails=1]
 
 ### Recherche 26.10.2026
 
