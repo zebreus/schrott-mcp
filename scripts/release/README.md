@@ -31,6 +31,7 @@ python3 scripts/release/post_rollout_check.py
 | `run_cycle.sh` | Export → Build → Tests → private Probe → Erwartungs-Manifeste → Verifier-Pins |
 | `make_wave_e_expectations.py` | release-gepinntes Wave-E-Erwartungs-Manifest aus der privaten Probe |
 | `pin_digests.py` | verankert Manifest-/Digest-/Commit-Konstanten im Verifier und liest sie zurück |
+| `install_wave_e_verifier.py` | erzeugt den release-gepinnten Wave-E-Verifier und seinen Vertragstest aus den Vorlagen (`scripts/*-SHORT.py`) |
 | `rollout.py` | Backup, Binärtausch, Neustart, Health-Check, Post-Rollout-Lauf |
 | `post_rollout_check.py` | read-only Nachprüfung nach dem Rollout |
 | `wave_gate.py` | Owner-Gate der Recherche-Wellen (Dossier-Form) |

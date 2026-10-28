@@ -75,6 +75,9 @@ python3 "$ROOT/scripts/release/make_wave_e_expectations.py" \
   --base "$ROOT/scripts/wave-e-20261028-0600-expectations.json" \
   --out "$ROOT/scripts/wave-e-$SHORT-seed-expectations.json"
 
+echo "== install wave E verifier =="
+python3 "$ROOT/scripts/release/install_wave_e_verifier.py" --short "$SHORT"
+
 echo "== pin wave E verifier =="
 python3 "$ROOT/scripts/release/pin_digests.py" \
   --release "$COMMIT" --tree "$TREE" \
