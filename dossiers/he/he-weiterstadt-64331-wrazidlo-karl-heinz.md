@@ -80,7 +80,7 @@ und nicht geraten.
   Tarife**, kostenlose Abholung nicht belegt. **GEO: Geocodierungsbedarf** - die DB-Koordinate
   49.9039/8.5887 löst auf "19, Liebfrauenstraße, Riedbahn, 64331 Weiterstadt" auf und liegt damit
   auf der Grabenstraße weiter nördlich statt auf Grabenstr. 13 (adresskonformer OSM-Punkt
-  49.9257665/8.5813713, way 289880654, "13, Grabenstraße, Schneppenhausen, Weiterstadt"); die
+  49.9257665/8.5813713, node 10028297692, "13, Grabenstraße, Schneppenhausen, Weiterstadt"); die
   Koordinate wird nicht selbst gesetzt. Quelle(n): https://www.11880.com/branchenbuch/weiterstadt/120674719B28001687/karl-heinz-wrazidlo-schrotthdl.html ;
   https://weiterstadt.branchen-info.net/wrazidlo-karl-heinz-schrotthdl/1891691/ ;
   https://web2.cylex.de/firma-home/wrazidlo-karl-heinz-schrotthdl--12404326.html ;

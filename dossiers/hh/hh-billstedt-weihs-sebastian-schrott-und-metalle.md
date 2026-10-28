@@ -54,9 +54,14 @@ bleibt leer, `website_status` wird auf `unbekannt` normalisiert.
 
 **GEO:** Die DB-Koordinate 53.54/10.1261 löst auf "**11, Cottaweg, Öjendorf, Billstedt**" auf und
 liegt damit **rund 140 m** vom Adresspunkt entfernt. OSM kennt in der Möllner Landstraße die
-Hausnummern **141a, 141b und 141c** (way 397360566-Bereich, 53.5389/10.1251) - die Seed-Angabe
-"**141K**" ist in OSM **nicht** als eigener Hausknoten vorhanden. Das ist ein
-**Geocodierungsbedarf** (Hausnummer 141K gegen 141a-c klären); es wird kein Punkt geraten.
+Hausnummern **141a, 141b und 141c** (way 397360566-Bereich, 53.5389/10.1251) **und** die
+Hausnummer "**141k**" als eigenen Hausknoten (way 397364030, `addr:housenumber=141k`,
+`addr:street=Möllner Landstraße`, `addr:postcode=22117`, Fassung 4 vom 18.10.2023). Die Aussage
+der Vorwelle, "141K" existiere in OSM nicht, war ein **Fehler** und ist hiermit berichtigt.
+Die Seed-Angabe "141K" und der OSM-Eintrag "141k" bezeichnen sehr wahrscheinlich dieselbe
+Hausnummer; welcher der OSM-Hausnummernknoten (141a-c oder 141k) zum Betrieb gehört, ist ohne
+Betreiberbestätigung nicht eindeutig - deshalb wird **kein** Punkt gesetzt und kein
+Geokodierungsbedarf behauptet, der über die Hausnummernfrage hinausgeht.
 
 ## Timeline
 
@@ -80,8 +85,9 @@ Hausnummern **141a, 141b und 141c** (way 397360566-Bereich, 53.5389/10.1251) - d
   **Verkauf: keine Liste. Gebühren: keine Tarife**, kostenlose Abholung nicht belegt.
   **GEO: Geocodierungsbedarf** - die DB-Koordinate 53.54/10.1261 löst auf "11, Cottaweg,
   Öjendorf, Billstedt" auf und liegt rund 140 m vom Adresspunkt entfernt; OSM kennt in der Möllner
-  Landstraße die Hausnummern **141a, 141b, 141c** (53.5388714/10.1251619 u.a.), die Seed-Angabe
-  "**141K**" ist dort **kein** eigener Hausknoten - die Hausnummer ist vor einer Geokodierung zu
+  Landstraße die Hausnummern **141a, 141b, 141c** (53.5388714/10.1251619 u.a.) **und** "**141k**"
+  als eigenen Hausknoten (way 397364030) - die Aussage, "141K" fehle in OSM, war ein **Fehler**
+  und ist berichtigt. Ob der Betrieb an 141a-c oder an 141k sitzt, ist vor einer Geokodierung zu
   klären. Quelle(n): https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/sebastian-weihs-schrott-und-metalle-hamburg-70238112.html ;
   https://hamburg.stadtbranchenbuch.com/1914179.html ;
   https://www.oeffnungszeitenbuch.de/filiale/Hamburg-Sebastian%20Weihs%20Schrott%20und%20Metalle-2318247X.html ;
