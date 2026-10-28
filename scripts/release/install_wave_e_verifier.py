@@ -11,7 +11,7 @@ Dieses Werkzeug erzeugt beide Dateien aus den versionierten Vorlagen
 ``scripts/test_verify_wave_e_postrollout-SHORT.py``:
 
 1. ``scripts/verify-wave-e-postrollout-<short>.py``
-2. ``scripts/test_verify_wave_e_postrollout-<short>.py``
+2. ``scripts/test_verify_wave_e_postrollout_<short>.py``
 
 Die Digest- und Release-Konstanten setzt anschliessend
 ``scripts/release/pin_digests.py`` (siehe ``run_cycle.sh``); dieses Werkzeug
@@ -60,7 +60,7 @@ def main() -> int:
     })
     verifier.write_text(text, encoding="utf-8")
 
-    test = ROOT / f"scripts/test_verify_wave_e_postrollout-{short}.py"
+    test = ROOT / f"scripts/test_verify_wave_e_postrollout_{short}.py"
     text = instantiate(TEST_TEMPLATE, short, {
         "verify-wave-e-postrollout-SHORT.py": f"verify-wave-e-postrollout-{short}.py",
         "wave_e_SHORT_verifier": f"wave_e_{short}_verifier",
