@@ -28,6 +28,10 @@ Klärfall auf Basis von Branchenbuch-Leads: 11880 führt „Heinrich Kuhn Alt- u
 
 ## Timeline
 
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Amtliches Fachbetrieberegister geprüft (Auszug 11.08.2026): Die Ortsseite Eschborn (65760) führt genau einen Betrieb, Green Construction GmbH, Frankfurter Str. 80-82, Tätigkeiten Handeln und Makeln; ein anerkannter Demontagebetrieb ist nicht verzeichnet. Ein Eintrag zu Heinrich Kuhn, Niddastr. 11, fehlt. Negativbefund ohne Beweiswert, weil die Efb-Anerkennung freiwillig ist und der Betrieb als Einzelunternehmer ohne Registereintrag laufen kann. Amtliches Handelsregister (online-handelsregister.de, Suche "Kuhn Eschborn", Abruf 28.10.2026): einziger Treffer Heribert Kuhn Marketing Service GmbH, Frankfurt am Main, HRB 44877, also ein Namensvetter ohne Ortsbezug; die im Dossier offene Frage, ob an der Niddastraße 11 heute noch Alt- und Abfallstoffhandel betrieben wird, ist damit weder belegt noch widerlegt. Die amtliche Gewerberegister-Auskunftsroute des Landes Hessen bleibt der offene Schritt für eine Existenzauskunft, die nicht nur eine Portalzeile stützt. ANKAUF: keine Preise, keine Materialliste. VERKAUF: keine Liste. GEBÜHREN: keine Angaben, keine Annahme- oder Abholbedingungen. Keine Frontmatter-Änderung, Status pruefung bleibt, keine Geocodierung; Quelle(n): https://schrottregister.pages.dev/ort-eschborn ; https://www.online-handelsregister.de/suche/Kuhn+Eschborn ; https://www.11880.com/branchenbuch/eschborn-taunus/060440090B100226494/heinrich-kuhn-alt-und-abfallstoffe.html]
+
 ### Recherche 14.10.2026 — Welle 4 / Shard B
 
 - [Recherche 14.10.2026: [11880-Einzelprofil](https://www.11880.com/branchenbuch/eschborn-taunus/060440090B100226494/heinrich-kuhn-alt-und-abfallstoffe.html) tatsächlich frisch gelesen: Heinrich Kuhn Alt- und Abfallstoffe, Niddastraße 11, 65760 Eschborn, 06196 42561. Dort keine Betreiberwebsite/E-Mail. Kategorien Altmaterial-/Schrotthandel bleiben Portalspuren; Datum 03.10.2026/Eintragsdaten 29.06.2021 ist kein aktueller Betreiberbeleg.; Quelle: https://www.11880.com/branchenbuch/eschborn-taunus/060440090B100226494/heinrich-kuhn-alt-und-abfallstoffe.html]

@@ -12,7 +12,7 @@ opening_hours: ''
 website: https://milon-recycling.de
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Zweitstandort (Filiale) des eingetragenen Kaufmanns Schrott- und Autorecyclinghof Sönke Milon e.K. (HRA 2053 OL, AG Lübeck, Sitz Lensahn): Mühlenkamp 8, 23569 Lübeck-Kücknitz. Das amtliche Landesportal für Abfallentsorgungsanlagen führt beide Standorte unter derselben e.K., und der Verkäufer ALBA Metall Nord bestätigte 2016 den Übergang des Lübecker Standorts an Milon. Der Standort ist keine Registeranschrift. Keine belegten Telefonnummern, Öffnungszeiten, Ankaufspreise oder Gebühren.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Schleswig-Holstein — Recherche (Stand 27.09.2026)
@@ -27,6 +27,12 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: BETREIBERKETTE belegt: Der Verkäufer selbst bestätigt die Übernahme: Die ALBA Metall Nord GmbH hat ihren Lübecker Standort Mühlenkamp 8 zum 01.09.2016 an die Schrott- und Autorecyclinghof Sönke Milon e.K. mit Sitz in Lensahn veräußert, alle Mitarbeiter wurden übernommen (ALBA-Mitteilung vom 09.08.2016, wiedergegeben bei 320grad.de). Zusammen mit dem amtlichen Landesportal Schleswig-Holstein, das Lensahn und Lübeck unter derselben e.K. führt, sind es zwei unabhängige Belegquellen für die Filiale Mühlenkamp 8, 23569 Lübeck; street und postcode deshalb jetzt gefüllt. Der Registerauszug (online-handelsregister.de, HRA 2053 OL AG Lübeck, aktiv, Ersteintragung 22.10.2002, Geschäftsanschrift Ottostraße 11, 23738 Lensahn) weist Lübeck ausdrücklich nicht als Registeranschrift aus: Es handelt sich um eine Filiale, nicht um einen zweiten Rechtsträger, und um keine Dublette zum Schwester-Dossier sh-lensahn-milon-sonke-schrott-u-autorecyclinghof. Quelle(n): https://320grad.de/2016/08/09/recyclinghof-soenke-milon-kauft-alba-standort/ ; https://umweltanwendungen.schleswig-holstein.de/Abfallentsorgungsanlagen/ap_login.php?sbuchst=S ; https://www.online-handelsregister.de/handelsregisterauszug/sh/Luebeck/HRA/2053OL/Schrott-und-Autorecyclinghof-Soenke-Milon-eK (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: Betreiberdomain milon-recycling.de antwortet heute auf allen geprüften Pfaden (Root, Impressum, Kontakt, Standorte, Leistungen, robots.txt, auch über www und http) mit HTTP 500 und der WordPress-Fehlerseite "Es gab einen kritischen Fehler auf deiner Website". Damit ist die Domain technisch vorhanden, der Inhalt aber derzeit nicht abrufbar; website_status bleibt deshalb unbekannt und es folgt daraus weder eine Schließung noch eine Verlagerung nach Lensahn. ANKAUF: keine numerische Kursliste belegt; die Verzeichnisangabe "Annahme gegen sofortige Barauszahlung", "Abholung per LKW oder Kranwagen", "kostenlose Bereitstellung von Abrollcontainern oder Absetzmulden", "Abrechnung innerhalb von 5 Werktagen per Überweisung oder sofort BAR" sowie "durchgehend 07:00 bis 18:00 Uhr, Samstags 08:00 bis 13:00 Uhr" stammt aus einem Branchenbuch-Eintrag und bleibt Aggregator-Lead, deshalb Telefon, E-Mail und Öffnungszeiten weiterhin leer. VERKAUF: keine belegte Teilepreisliste. GEBÜHREN: keine belegten Tarife; "kostenlose Containerbereitstellung" ist eine Verzeichnisangabe und wird nicht ins Frontmatter übernommen. Quelle(n): https://milon-recycling.de/ ; https://milon-recycling.de/impressum/ ; https://luebeck.stadtbranchenbuch.com/8379628.html (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: NEGATIVBEFUND im amtlichen Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev): Die Ortsseite Lübeck führt 14 Betriebe, darunter LSH Lübecker Schrotthandel GmbH, Hartweg Rohstoff-Recycling, UTM Umwelt-Technik-Metallrecycling und die Wertstoffhöfe Mitte und Niemark, aber keinen Betrieb der e.K. Milon. Für eine Autoverwertung mit Efb-Anerkennung wäre das ein Hinweis auf eine Lücke, kein Existenzbeweis; die Efb-Anerkennung ist freiwillig. Für den Standort Kücknitz existiert keine eigene Ortsseite, es gibt dort nur einen Lübecker Registereintrag. Quelle(n): https://schrottregister.pages.dev/ort-lubeck ; https://schrottregister.pages.dev/sitemap.xml (Abruf 28.10.2026).]
 
 ### Recherche 04.10.2026
 

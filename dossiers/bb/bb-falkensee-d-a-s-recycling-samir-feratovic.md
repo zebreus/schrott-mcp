@@ -7,12 +7,12 @@ city: Falkensee
 street: Nauener Str. 113 A
 postcode: '14612'
 phone: 0152 31759638
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+email: sfsamir@yahoo.de
+opening_hours: Mo-Sa 10:00-16:00, So geschlossen
+website: https://das-recycling.com/
+website_status: aktiv
+status: aktiv
+description: 'D.A.S. Recycling, Inh. Samir Feratovic, Nauener Str. 113 A, 14612 Falkensee (gegenüber der TOTAL Tankstelle): Schrott- und Metallankauf mit eigener Website. Angenommene Materialien sind Eisenschrott, Kupfer, Kabel, Zinn, Aluminium, Blei, V2A, Alu-Felgen, Messing und Zink, kleine und größere Mengen. Größere Mengen werden abgeholt, auf Wunsch werden Container von 5 bis 40 Kubik bereitgestellt, bezahlt wird bar oder per Überweisung. Die Preise sind nicht veröffentlicht, sie werden je nach Menge und Material angefragt. Der Schrottplatz ist am selben Standort angesiedelt wie der Autohandel D.A.S. Automobile des gleichen Inhabers.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Brandenburg (BB) – Recherche
@@ -29,6 +29,11 @@ Der Havelland-Beitrag aus 03/2023 ist ein älterer Hinweis auf D.A.S. Recycling/
 Die genaue Artikelseite ist jetzt wiedergefunden und gelesen: ausdrücklich **ANZEIGE**, mit Betreiberzitaten über Januar 2023 eröffneten Schrottplatz als Erweiterung des Autohandels, vergütete Metallannahme, Abholung und Ausschluss von Elektrogeräten. Das verbessert die historische Provenienz, ist aber keine unabhängige Aktualitätsbestätigung für 2026. Keine historischen Serviceversprechen in aktuelle Annahme-JSON übernommen.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: BETREIBERWEBSITE gefunden und gelesen: Für D.A.S. Recycling existiert eine eigene, heute erreichbare Betreiberseite. Sie nennt die Anschrift Nauener Str. 113 A, 14612 Falkensee gegenüber der TOTAL Tankstelle, das Telefon 01523 175 96 38 mit WhatsApp, die E-Mail-Adresse sfsamir@yahoo.de, die Öffnungszeiten Montag bis Samstag 10:00 bis 16:00 Uhr und Sonntag geschlossen sowie die Instagram- und Facebook-Verweise. Als Impressumsangabe erscheint "D.A.S. Recycling Inh. Samir Feratovic". Damit sind street, postcode, phone, email, opening_hours und website erstmals durch eine Betreiber-Primärquelle belegt und wurden gefüllt; website_status aktiv. Das Dossier bleibt als Betreiber-Einzelbeleg gekennzeichnet, ein Handelsregistereintrag ist für einen Einzelunternehmer nicht zu erwarten. Quelle(n): https://das-recycling.com/ (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: ANKAUF, VERKAUF und GEBÜHREN: Die Betreiberseite listet als angekauft Eisenschrott, Kupfer, Kabel, Zinn, Aluminium, Blei, V2A, Alu-Felgen, Messing und Zink für kleine und größere Mengen und schreibt ausdrücklich, die Preise variierten je nach Menge und Material und man solle anfragen. Damit ist die Annahme- und Konditionslage belegt, aber es gibt keine Zahlenpreise; die Anzeige aus 03/2023 mit "einen guten Preis" und Barzahlung oder Sofortüberweisung bleibt historisch. VERKAUF: kein Materialverkauf und keine Teilepreisliste. GEBÜHREN: die Abholung beschränkt der Betreiber auf größere Mengen, Container von 5 bis 40 Kubik werden auf Wunsch bereitgestellt, eine Entgelt- oder Pauschale ist nicht genannt und eine kostenlose Containerstellung wird nicht mehr zugesagt. Der Schrottplatz teilt sich Standort und Inhaber mit dem Autohandel D.A.S. Automobile (USt-IdNr DE303810403, das-automobile.de); der frühere Hinweis auf einen Betriebsanschluss an die TOTAL Tankstelle ist damit erklärt. Quelle(n): https://das-recycling.com/ ; https://unserhavelland.de/2023/03/04/d-a-s-recycling-samir-feratovic-hat-einen-schrotthandel-in-falkensee-eroeffnet/ ; https://www.pkw.de/autohaus/falkensee/d-a-s-automobile (Abruf 28.10.2026).]
 
 ### Recherche 16.10.2026 (13:00-Welle C)
 

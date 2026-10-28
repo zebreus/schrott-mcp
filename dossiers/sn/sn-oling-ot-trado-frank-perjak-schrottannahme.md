@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Verzeichnis-Lead: Frank Perjak Schrottankauf, Am Damm 2, 01920 Oßling (Ortsteil Trado). An derselben Anschrift wird dieselbe Person zugleich als Grünanlagenservice und Anlagenservice (Gartenbau, Gartengestaltung, Zaunbau) geführt, und für die Schrottannahme kursieren zwei Telefonnummern. Im amtlichen Handelsregister ist unter demselben Nachnamen die e.K. Heiko Perjak mit Sitz Schulstr. 7c, 01920 Schönteichen eingetragen, das ist aber nach Vorname und Anschrift ein anderer Betrieb. Kein Eintrag im amtlichen Fachbetrieberegister und keine belegten Preise oder Gebühren.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3 (27.09.2026)
@@ -29,6 +29,11 @@ Ein Portal-Detail nennt Frank Perjak Schrottannahme, Am Damm 2, 01920 Oßling, T
 **Preise:** **Ankauf** — keine verifizierten Ankaufskonditionen oder Zahlenpreise. **Verkauf** — keine Preisliste. **Gebühren** — keine belastbaren Gebührenangaben. **Geokodierung:** Am Damm 2, 01920 Oßling bleibt Portal-Kandidat; erst Betreiber und Zuordnung zu Trado bestätigen, dann geokodieren.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: NAMENSVETTER Perjak: Der Auszug aus dem amtlichen Handelsregister (online-handelsregister.de) führt unter HRA 4906, Amtsgericht Dresden, die Heiko Perjak e.K., aktiv, Gründung 19.07.2002, Geschäftsanschrift Schulstr. 7c, 01920 Schönteichen. Nachname, PLZ-Bereich 01920 und Region Erzgebirge stimmen mit der Dossierzeile überein, Vorname und Anschrift dagegen nicht (Frank gegen Heiko, Am Damm 2 in Oßling-Trado gegen Schulstr. 7c in Schönteichen). Die Beleglage erlaubt keine Gleichsetzung der beiden Betriebe; die e.K. wird als eigenständiger Namensvetter geführt und nicht in dieses Dossier übernommen. Ein Handelsregistereintrag auf "Frank Perjak" existiert nicht, was bei einem Einzelunternehmen ohne HRB kein Negativbeweis ist. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/sn/Dresden/HRA/4906/Heiko-Perjak-eK ; https://www.online-handelsregister.de/suche/Perjak (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: DOPPELTÄTIGKEIT am selben Platz: Die Anschrift Am Damm 2, 01920 Oßling (Trado) wird in den Verzeichnissen zugleich für den Schrottankauf (11880 mit der Ortsangabe Trado) und für den Garten- und Landschaftsbau geführt, etwa als Frank Perjak Anlagenservice mit den Leistungen Gartengestaltung und Zaunbau sowie als Grünanlagenservice OT Trado mit Bewertungen, die von Gartenkursen handeln. Die Schrottverzeichnis-Profilseiten nennen für den Schrottankauf die Telefonnummer 035792 50350, das Seedtelefon 0171 6160124 steht dagegen im Ortsverzeichnis für den allgemeinen Eintrag Frank Perjak; 035792 50350 ist zugleich die Nummer des Gartenbaubetriebs mit Fax 035792 50710. Das phone-Feld bleibt deshalb unverändert, und die Frage des trader_type (Schrotthandel oder Gartenbau mit Nebenaktivität) ist zu klären. ANKAUF: keine Kurse, die Verzeichnisse nennen nur die Branche Altmetallrecycling. VERKAUF: keine Teile- oder Materialpreisliste. GEBÜHREN: keine Tarife. Im amtlichen Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev) gibt es keine Ortsseite für Oßling und keinen Eintrag; ein Negativbefund ohne Beweiswert. Quelle(n): https://www.11880.com/branchenbuch/ossling/060440092B102030395/frank-perjak-schrottankauf.html ; https://www.gartenbau.org/ossling/frank-perjak-anlagenservice-aULjG5 ; https://ossling.stadtbranchenbuch.com/ ; https://schrottregister.pages.dev/sitemap.xml (Abruf 28.10.2026).]
 
 ### Recherche 14.10.2026 (18:00-Welle B)
 

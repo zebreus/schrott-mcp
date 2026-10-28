@@ -4,8 +4,8 @@ name: Alteisensammlung Korkmaz
 trader_type: sonstige
 state: HE
 city: Reinheim
-street: ''
-postcode: ''
+street: Darmstädter Straße 21
+postcode: '64354'
 phone: ''
 email: ''
 opening_hours: ''
@@ -29,6 +29,10 @@ provenance_origin: table
 **Preise:** Ankauf durch den Betrieb nicht unabhängig bestätigt; keine numerische Ankaufpreisliste gefunden. Verkaufspreise und Annahme-/Entsorgungsgebühren sind in den ausgewerteten Quellen nicht angegeben. Öffentliche Selbstanlieferung und Abholung ebenfalls ungeklärt.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Neue Belegqualität durch einen Web-Archiv-Fund der Betreiber-Primärquelle: Der Snapshot vom 10.12.2021 der Betreiberseite korkmaz-gmbh.com zeigt im Kontaktblock "Korkmaz - Entsorgungsfachbetrieb - zertifiziert", "Korkmaz Entsorgungsfachbetrieb, Darmstädter Straße 21, 64354 Reinheim, T: 0 151 - 142 122 59, E: info@korkmaz-entsorgung.de"; der Seiteninhalt war eine Baustelle ("Hier entsteht unsere neue Webseite!"). Damit stammt die Anschrift nicht mehr nur aus Verzeichnissen, sondern aus einer Betreiberquelle, und deckt sich mit den Verzeichnisleads schrottplatz.org, schrottplatz-info.de, Das Örtliche und Cylex. Deshalb street und postcode im Frontmatter gefüllt; Telefon und E-Mail bleiben leer, weil die Betreiberquelle eine vierte Nummer nennt und die Verzeichnisse zwei weitere (06162 50179 und 06162 9186197), der Konflikt also unaufgelöst bleibt und die Quelle zudem seit 2021 auf einer Baustellenseite steht. Die Domain korkmaz-gmbh.com ist am 28.10.2026 nicht mehr im DNS, das belegt keine Schließung, nur einen nicht mehr lauffähigen Auftritt. Amtliches Fachbetrieberegister (Auszug 11.08.2026): für Reinheim existiert keine Ortsseite, kein Registertreffer; Negativbefund ohne Beweiswert. Amtliches Handelsregister (online-handelsregister.de, Suche "Korkmaz Reinheim", Abruf 28.10.2026): keine Unternehmen, keine Personen. ANKAUF: keine Preise, keine Materialliste, keine Mindestmengen. VERKAUF: keine Liste. GEBÜHREN: keine Tarife, keine Angaben zu Selbstanlieferung oder Abholung. Die Betreiberquelle firmiert als "Korkmaz Entsorgungsfachbetrieb", das Dossier führt "Alteisensammlung Korkmaz"; eine Namensangleichung ist vom Owner zu entscheiden. Quelle(n): http://web.archive.org/web/20211210012017/http://korkmaz-gmbh.com/ ; http://korkmaz-gmbh.com/ (DNS am 28.10.2026 fehlgeschlagen); https://schrottregister.pages.dev/ort-reinheim (keine Ortsseite im Abzug 11.08.2026); https://www.online-handelsregister.de/suche/Korkmaz+Reinheim ; https://www.schrottplatz.org/reinheim/alt-und-abfallstoffe-korkmaz-aYEPGg.html]
 
 ### Recherche 08.10.2026
 

@@ -3,16 +3,16 @@ slug: sn-heidenau-tsr-deutschland-nl-dresden-heidenau
 name: TSR Deutschland GmbH & Co. KG, NL Dresden-Heidenau
 trader_type: sonstige
 state: SN
-city: Heidenau
-street: ''
-postcode: ''
+city: Dresden
+street: Am Lugaer Graben 20
+postcode: '01259'
 phone: ''
 email: ''
 opening_hours: ''
 website: https://www.tsr-recycling.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Niederlassung Dresden-Heidenau der TSR Deutschland GmbH & Co. KG (HRA 19743 AG Dortmund) am Lugaer Graben 20, 01259 Dresden. Sowohl die EfB-Bescheinigung 801.0237/25 als auch der Eintrag im amtlichen Fachbetrieberegister nennen diese Anschrift; der Registereintrag umfasst die Zertifikatsnummer ZZST00200021 mit den Tätigkeiten Lagern und Behandeln und den Abfallschlüsseln 160104* und 160106 Altfahrzeuge sowie 160801 gebrauchte Katalysatoren. Eine Demontage-Anerkennung nach AltfahrzeugV ist damit nicht belegt. Die Zweigstellenbezeichnung Dresden-Heidenau ist ein historischer Filialname, die Postanschrift liegt in Dresden. Am selben Adresskomplex betreibt die Veolia Umweltservice Ost GmbH eine eigene Anlage. Kundenzeiten, Preise und Gebühren sind nicht veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 1) Dresden, Freital, Heidenau, Pirna
@@ -27,6 +27,11 @@ provenance_origin: table
 Das aktuelle Betreiberzertifikat 801.0237/25 belegt die Niederlassung Dresden-Heidenau an Am Lugaer Graben 20, 01259 Dresden, getrennt von Dresden-Hafen/Magdeburger Straße 58. Die am 10.10.2026 direkt auswertbare Dresden-Detailseite beschreibt ausschließlich den Hafenstandort; dessen Kontakte, Öffnungszeiten und Annahmebedingungen nicht auf Heidenau übertragen. Veolia Umweltservice Ost GmbH bestätigt einen eigenen Wertstoffhof sowie Sortier-/Aufbereitungsanlagen ebenfalls an Am Lugaer Graben 20; die gleiche Adresse beweist weder eine TSR→Veolia-Nachfolge noch widerlegt sie das aktuelle TSR-Zertifikat. Veolia-Kontakte, Zeiten und Zahlungsregeln bleiben getrennt. Kundenzeiten und Annahmebedingungen der TSR-Anlage am Lugaer Graben sind weiterhin unbestätigt; keine HMV- oder Nachfolgekette belegt. Der Seed-Ort Heidenau und die Verzeichnis-PLZ 01809 bleiben ungeklärte Legacyangaben gegenüber dem zertifizierten Standort Dresden/01259; Frontmatteradresse und Geodaten werden nicht ohne Owner-Identitäts-/Standortabgleich gefüllt oder geändert.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: ZWEITE UNABHÄNGIGE QUELLE zur Anschrift: Der Eintrag im amtlichen Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev) führt die "TSR Deutschland GmbH & Co. KG Niederlassung Dresden-Heidenau" mit der Anschrift Am Lugaer Graben 20, 01259 Dresden, Hauptsitz TSR Deutschland GmbH & Co. KG, Zertifikatsnummer ZZST00200021, zertifizierten Tätigkeiten Lagern und Behandeln und den Abfallschlüsseln 120101 Eisenfeil- und Drehspäne, 120103 NE-Metallfeil- und Drehspäne, 160104* Altfahrzeuge, 160106 Altfahrzeuge ohne gefährliche Bestandteile und 160801 gebrauchte Katalysatoren. Damit deckt sich die Registeranschrift exakt mit der bereits zitierten EfB-Bescheinigung 801.0237/25, und die Anschrift ist fillbar; street und postcode wurden gefüllt. Eine Demontage-Anerkennung nach AltfahrzeugV ist für diesen Eintrag nicht ausgewiesen, die Abfallschlüssel Altfahrzeuge ersetzen sie nicht. Quelle(n): https://schrottregister.pages.dev/betrieb-tsr-deutschland-gmbh-co-kg-niederlassung-dresden-heidenau-dresden ; https://www.tsr-recycling.de/uploads/tx_3slocations/EfB_Dresden%20%28Hafen%2CHeidenau%2920270422.pdf (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: ORTSKOREKTUR Heidenau nach Dresden: Beide amtlichen Quellen nennen als Postanschrift 01259 Dresden, nicht 01809 Heidenau; die Verzeichnisangabe 01809 Heidenau ist damit überholt. Die Bezeichnung "Dresden-Heidenau" ist die Filialbezeichnung der TSR und keine Anschrift. Die Postleitzahl 01259 gehört zur Stadt Dresden, die Straße Am Lugaer Graben 20 weist die Stadt Dresden dem Stadtteil Leuben zu (OSM/Nominatim-Abfrage vom 28.10.2026). city wurde deshalb von Heidenau auf Dresden korrigiert; der Filialname bleibt im Namensfeld erhalten. Die zweite Betreiberseite am selben Adresskomplex ist die Veolia Umweltservice Ost GmbH (Zertifikatsnummer ZZBE00200008, Abfallschlüssel 160109* Bauteile mit PCB); das ist ein anderer Betreiber am selben Standort und kein Beleg für eine Nachfolge oder für die Aufhebung des TSR-Zertifikats. Die Betreiberseiten selbst liefern weiterhin nur "Challenge Validation", deshalb bleiben Telefon, E-Mail und Öffnungszeiten leer. ANKAUF: keine öffentlichen örtlichen Kurse. VERKAUF: kein Preisblatt. GEBÜHREN: keine Filial- oder Containergebühren belegt. Quelle(n): https://schrottregister.pages.dev/betrieb-veolia-umweltservice-ost-gmbh-dresden-2 ; https://nominatim.openstreetmap.org/search?street=Am%20Lugaer%20Graben%2020&city=Dresden&format=jsonv2&addressdetails=1 ; https://www.tsr-recycling.de/standorte/ (Abruf 28.10.2026).]
 
 ### Korrektur 10.10.2026
 

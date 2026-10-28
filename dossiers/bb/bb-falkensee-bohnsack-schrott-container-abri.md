@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Bohnsack GmbH Schrott-Container-Abriß, HRB 17388 AG Potsdam, aktiv, seit 21.01.2004 im Register, Stammkapital 25.000 EUR, Geschäftsanschrift Nauener Straße 118, 14612 Falkensee. Die Adresse ist durch den Registerauszug bestätigt; ein eigener Eintrag im amtlichen Fachbetrieberegister existiert für Falkensee nicht. Von der gleichnamig ähnlichen Dahm & Bohnsack Handels- und Recycling GmbH (HRB 11108 AG Neuruppin, Sitz Gewerbegebiet Ost 8, 16845 Neustadt (Dosse)) ist die Gesellschaft zu trennen. Keine belegten Preise oder Gebühren.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Nachtrag Audit-Runde 4 (Stand: 2026-09-27)'
@@ -27,6 +27,11 @@ provenance_origin: table
 NorthData führt die exakt benannte Bohnsack GmbH Schrott-Container-Abriß unter HRB 17388 beim Amtsgericht Potsdam; die bisherige Recherche ordnet ihr die Nauener Str. 118 zu. Ein ähnlich benanntes, separates Unternehmen „Dahm & Bohnsack Handels- und Recycling GmbH“ ist unter HRB 11108 in Neuruppin geführt. Das Örtliche bezeichnet den Eintrag an der Nauener Str. 118 als „Dahm & Bohnsack … c/o“, belegt damit aber keine Umfirmierung, Niederlassung oder Rechtsnachfolge. Da keine aktuellen, qualifizierenden Quellen die laufende Geschäftstätigkeit oder Annahme am Standort bestätigen, bleibt `status: pruefung`; das ist kein Schließungsnachweis. Keine konkrete Preis-/Annahmebedingung verifiziert.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: REGISTER bestätigt die Anschrift als zweite unabhängige Quelle: Der Auszug aus dem amtlichen Handelsregister (online-handelsregister.de) führt die Bohnsack GmbH Schrott-Container-Abriß unter HRB 17388, Amtsgericht Potsdam, als aktiv, Gründung 21.01.2004, Rechtsform GmbH, Stammkapital 25.000 EUR, Geschäftsanschrift Nauener Straße 118, 14612 Falkensee, OH-Nummer C-22774224, mit einer Abschlussveröffentlichung zum Geschäftsjahr 2024 vom 23.02.2026 im Profil. Die bis 01.10.2026 im Dossier nur über NorthData belegte Anschrift ist damit amtlich bestätigt. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/br/Potsdam/HRB/17388/Bohnsack-GmbH-Schrott-Container-Abriss (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: NAMENSVETTER zur Dahm & Bohnsack: Die Dahm & Bohnsack Handels- und Recycling GmbH (HRB 11108 AG Neuruppin, aktiv, Gründung 09.09.2013) hat laut Registerauszug ihre Geschäftsanschrift am Gewerbegebiet Ost 8, 16845 Neustadt (Dosse); das amtliche Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev) führt sie unter demselben Ort mit der Zertifikatsnummer ZZHT00300793 und den Tätigkeiten Lagern und Behandeln. Die Falkenseer Zeile ist damit die andere Gesellschaft, HRB 17388 Potsdam, und der "c/o"-Hinweis des Verzeichnisses ist kein Beleg für eine Niederlassung, eine Umfirmierung oder eine Rechtsnachfolge. Für Falkensee existiert keine Ortsseite im Fachbetrieberegister, das ist ein Negativbefund ohne Beweiswert für das Nichtbestehen einer Annahme. ANKAUF: keine Zahlen, der Registergegenstand Schrotthandel ist keine Annahmebedingung. VERKAUF: keine Liste. GEBÜHREN: keine Container- oder Abriss-Tarife belegt. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/br/Neuruppin/HRB/11108/Dahm-Bohnsack-Handels-und-Recycling-GmbH ; https://schrottregister.pages.dev/betrieb-dahm-bohnsack-handels-und-recycling-gmbh-hauptsitz-neustadt-dosse-neus ; https://schrottregister.pages.dev/sitemap.xml (Abruf 28.10.2026).]
 
 ### Recherche 14.10.2026 (Welle 4 — Shard C)
 

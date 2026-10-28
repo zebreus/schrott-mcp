@@ -28,6 +28,10 @@ Frontmattername ist Wiese. Die Historie führt den 11880-Lead Gerhard Wiese Alt-
 
 ## Timeline
 
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Amtliches Fachbetrieberegister geprüft (Auszug 11.08.2026): Die Ortsseite Porta Westfalica (32457) führt genau einen Betrieb, PreZero Recycling Deutschland GmbH & Co. KG, An der Pforte 2, Tätigkeiten Lagern und Behandeln; ein anerkannter Demontagebetrieb ist nicht verzeichnet und ein Eintrag zu Gerhard Wiese oder zur Zur Porta 19 fehlt. Negativbefund ohne Beweiswert, da die Efb-Anerkennung freiwillig ist und Alt- und Abfallstoffhandel ohne Registereintrag betrieben werden kann. Amtliches Handelsregister (online-handelsregister.de, Suche "Wiese Porta Westfalica", Abruf 28.10.2026): einziger Treffer Groß & Wiese Sanierungen GmbH & Co. KG, Bad Oeynhausen, HRA 8525, also ein Namensvetter mit Bau-, nicht Schrottbezug. Der 11880-Eintrag "Gerhard Wiese Alt- und Abfallstoffe" ist am 28.10.2026 erneut gelesen: Zur Porta 19, 32457 Porta Westfalica (Lerbeck), (0571) 74313, Kategorien Altmaterialhandel und Schrotthandel, keine Öffnungszeiten, keine E-Mail, keine Website. Die im Dossier dokumentierte Zuordnung beruht damit weiterhin auf einer Verzeichnisnotiz und ist keine bestätigte heutige Betreiberidentität. ANKAUF: keine Preise, keine Materialliste. VERKAUF: keine Liste. GEBÜHREN: keine Angaben. Keine Frontmatter-Änderung, Status pruefung bleibt, keine Geocodierung; Quelle(n): https://schrottregister.pages.dev/ort-porta-westfalica ; https://www.online-handelsregister.de/suche/Wiese+Porta+Westfalica ; https://www.11880.com/branchenbuch/porta-westfalica/060440090B100461574/gerhard-wiese-alt-und-abfallstoffe.html]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (GS)

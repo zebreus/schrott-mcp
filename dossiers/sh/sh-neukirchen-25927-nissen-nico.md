@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Verzeichnis-Lead ohne Betreiber- oder Registerbeleg: Nico Nissen, Hochhörn 23, 25927 Neukirchen bei Niebüll (Ortsteil Südbevertoft), Telefon 04664 983848. Die Verzeichnisse nennen daneben eine zweite Mobilnummer und die Hausnummer 29, beide ohne Beleg. Kein Eintrag im amtlichen Fachbetrieberegister und kein Handelsregistereintrag. Keine belegten Ankaufs-, Verkaufs- oder Gebührenangaben.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -27,6 +27,11 @@ provenance_origin: table
 Die aktuelle kommunale Unternehmensübersicht enthält keinen passenden Eintrag; die frühere kommunale Detail-URL ist nicht mehr erreichbar. Verzeichnis-Leads widersprechen sich bei Telefonnummern und nennen teils Hochhörn 23, teils 29. Weder Inhaberidentität noch Ankauf/Autoverwertung sind unabhängig bestätigt; Seed-Adresse und Status `pruefung` bleiben offen. Keine verifizierten Ankaufs-/Verkaufspreise oder Gebühren gefunden (Recherche 04.10.2026).
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: NEGATIVBEFUNDE: Im amtlichen Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev) gibt es für Neukirchen bei Niebüll keine Ortsseite und keinen Treffer zu Hochhörn oder zu einem Betrieb Nissen; die Suche über alle 4.507 Registereinträge nach Hochhörn, Neukirchen und dem Namen Nissen bleibt ohne Treffer. Eine Suche im amtlichen Handelsregister (online-handelsregister.de) nach Nissen und nach Nico Nissen Neukirchen liefert keinen einschlägigen Registereintrag. Für einen Einzelbetrieb ohne HRB ist das ein Negativbefund ohne Beweiswert; eine Schließung wird nicht abgeleitet. Quelle(n): https://schrottregister.pages.dev/sitemap.xml ; https://www.online-handelsregister.de/suche/Nissen (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: ORTSTEIL und TELEFONKONFLIKT präzisiert: Die Kartendatensätze der Portale ordnen Hochhörn 23 dem Ortsteil Südbevertoft zuzu, das Verzeichnis online-branchen-auskunft nennt dagegen Hochhörn 29 mit 04664 9839750. Für 04664 983848 sprechen Das Örtliche, das Telefonbuch und das Branchenbuch, für 0174 9205560 nur das Gelbe-Seiten-Profil. Weil drei Nummern und zwei Hausnummern konkurrieren und alle Belege Aggregatoren sind, bleibt phone leer. Die kommunale Unternehmensübersicht der Gemeinde Neukirchen führt weiterhin keinen Nissen-Eintrag; die zuständige Gewerbeauskunft (Amt Südtondern) ist der offene Weg. ANKAUF: keine Kursangaben, eine Bewertung eines Kunden vom 28.11.2024 nennt kostenlose Abholung, ist aber keine Betreiberquelle. VERKAUF: die Verzeichnisse nennen gebrauchte Ersatzteile sowie PKW-Ankauf und PKW-Verkauf, ohne Preise. GEBÜHREN: keine belegten Tarife. Quelle(n): https://www.dasoertliche.de/Themen/Schrotthandel-Nissen-Nico-Neukirchen-Hochh%C3%B6rn ; https://www.gelbeseiten.de/gsbiz/dffc9360-a994-415f-a784-30f15b0c8602 ; https://www.online-branchen-auskunft.de/autoverschrottung-autorecycling/autoverwertung-und-schrotthandel-nico-nissen ; https://neukirchen-nordfriesland.de/index.php/unternehmen (Abruf 28.10.2026).]
 
 ### Recherche 23.10.2026
 

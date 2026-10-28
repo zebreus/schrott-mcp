@@ -4,20 +4,21 @@ name: Autoverwertung Demand-Recycling
 trader_type: autoverwertung
 state: RP
 city: Landau
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Im Wolfangel 7
+postcode: '76829'
+phone: 06341 968510
+email: info@autoverwertung-demand.de
+opening_hours: Mo-Fr 09:00-12:00 und 13:00-16:00, im Sommer 01.04.-31.10. bis 17:00, Sa 09:00-12:00
 website: 'https://www.autoverwertung-demand.de/'
 website_status: 'aktiv'
-status: pruefung
-description: ''
+status: aktiv
+description: 'Autoverwertung und Autohandel in Landau: zertifizierter Demontagebetrieb und Entsorgungsfachbetrieb, Ankauf von Unfall- und Gebrauchtfahrzeugen, Abmeldeservice und Ersatzteilverkauf; Familienbetrieb seit 1975, Inhaberin Roswitha Wisniewski.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Rheinland-Pfalz (RP) — Recherche
 provenance_ankauf_raw: Nur Altauto
 provenance_origin: table
+certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZGT00200091 (Registerstand 11.08.2026); zertifizierte Tätigkeiten Lagern und Behandeln", "Demontagebetrieb nach AltfahrzeugV (Fachbetrieberegister, Zertifikatsnummer ZAGS00300012, Registerstand 11.08.2026)"]'
 ---
 
 # Autoverwertung Demand-Recycling
@@ -29,6 +30,10 @@ Das im Review vom 17.10.2026 direkt gelesene Betreiberimpressum nennt Autoverwer
 **Preise/Annahme:** Die im Review vom 17.10.2026 erneut gelesene Fahrzeugabgabe bestätigt die bereits am 08.10. dokumentierte Prämie **50–2.000 € je nach Typ, Alter und Zustand**: keine garantierte Mindestprämie für jedes Fahrzeug und kein €/kg-Kurs. Abholung nach Termin im Umkreis 50 km; für Landau/SÜW ausdrücklich kostenlos, außerhalb dieses Gebiets auf der geprüften Seite kein bezifferter Tarif. Abmeldung gegen nicht bezifferte Gebühr; benötigte Müllsäcke **5 €/Stück**, größere Fremdmüllmengen können Ablehnung oder tatsächliche zusätzliche Entsorgungskosten auslösen. Betreiber nennt keine Annahme von Erdgas-, Elektro- oder Hybridfahrzeugen und nur EU-Fahrzeuge. Ersatzteilverkauf ohne numerische Preisliste auf den gelesenen Seiten; keine Aussage über jeden Vertriebskanal.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Die Belegkette ist jetzt vollständig und unabhängig. Amtliches Fachbetrieberegister (Auszug 11.08.2026) führt den Betrieb zweimal an derselben Anschrift: als Entsorgungsfachbetrieb "Autoverwertung Demand-Recycling e.K" mit Zertifikatsnummer ZZGT00200091, Tätigkeiten Lagern und Behandeln, acht Abfallschlüssel einschließlich 160104* Altfahrzeuge und 160801 gebrauchte Katalysatoren mit Edelmetallanteil, und als Demontagebetrieb "Autoverwertung Demand-Recycling e.K." mit Zertifikatsnummer ZAGS00300012; beide mit Im Wolfangel 7, 76829 Landau. Amtliches Handelsregister (online-handelsregister.de, Suche "Demand-Recycling", Abruf 28.10.2026): Autoverwertung Demand - Recycling e.K., Landau, HRA 2369, amtliche Schreibweise mit Leerzeichen um den Bindestrich. Betreiber-Primärquelle am 28.10.2026 erneut gelesen: Das Impressum nennt Inhaberin Roswitha Wisniewski, Im Wolfangel 7, 76829 Landau, Tel. 06341/968510, Fax 06341/968513, info@autoverwertung-demand.de, Registergericht Landau HRA 2369, USt-IdNr. DE 336 375 025, Überwachungsbehörde Stadtverwaltung Landau, Abteilung Umweltschutz. Die Anschrift ist damit unabhängig bestätigt und wurde im Frontmatter gefüllt, dazu Telefon, E-Mail und Öffnungszeiten. Die Öffnungszeiten haben saisonale Form: Sommer 01.04. bis 31.10. Montag bis Freitag 09:00-12:00 und 13:00-17:00, Winter 01.11. bis 31.03. 09:00-12:00 und 13:00-16:00, Samstag 09:00-12:00, Mittagspause 12:00-13:00 ohne Annahme von Anrufen. Der Ersatzteilverkauf findet laut Betriebsanweisung nur Montag bis Freitag 13:00-16:00 und Samstag 09:00-12:00 statt, nur Barzahlung, eigenes Werkzeug ist mitzubringen. ANKAUF: Prämie je Altfahrzeug je nach Typ, Alter und Zustand zwischen 50 EUR und 2.000 EUR, kein Mindestanspruch je Fahrzeug und kein Euro-pro-Kilo-Metallkurs; Ankauf und Annahme von Unfallfahrzeugen, Gebrauchtwagen und Kleintransportern. VERKAUF: gebrauchte Ersatzteile und Gebrauchtwagen über die Zweitfirma Auto & Reifen-Zentrum Im Wolfangel e.K., keine veröffentlichte Preisliste. GEBÜHREN: Abholung im 50-km-Umkreis nach Termin, für den Raum Landau und Südwestpfalz ausdrücklich kostenlos, außerhalb dieses Gebiets kein bezifferter Tarif; Abmeldung gegen eine geringe, nicht bezifferte Gebühr; benötigte Müllsäcke 5 EUR je Stück, größere Fremdmüllmengen können mit tatsächlichen Entsorgungskosten belastet oder abgelehnt werden. ANNAHME: vollständige Fahrzeugpapiere nötig, bei fehlenden Papieren vorher Kontakt; keine Erdgas-, Elektro- oder Hybridfahrzeuge; nur EU-Fahrzeuge, nichtdeutsche Papiere vorher anmelden. Quelle(n): https://schrottregister.pages.dev/betrieb-autoverwertung-demand-recycling-e-k-landau ; https://schrottregister.pages.dev/betrieb-autoverwertung-demand-recycling-e-k-landau-2 ; https://schrottregister.pages.dev/ort-landau ; https://www.online-handelsregister.de/suche/Demand-Recycling ; https://www.autoverwertung-demand.de/impressum ; https://www.autoverwertung-demand.de/kontakt ; https://www.autoverwertung-demand.de/fahrzeugabgabe ; https://www.autoverwertung-demand.de/betriebsanwei%C3%9Fung]
 
 ### Recherche 21.10.2026 (Primärquellen-Recheck)
 

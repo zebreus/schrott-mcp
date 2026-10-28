@@ -4,15 +4,15 @@ name: PMS Schrotthandel
 trader_type: metallhaendler
 state: RP
 city: Koblenz
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Hintermark 35-37
+postcode: '56070'
+phone: 0179 3201519
+email: info@pms-schrotthandel.de
 opening_hours: ''
 website: https://www.pms-schrotthandel.de/
 website_status: aktiv
 status: aktiv
-description: ''
+description: Schrott- und Buntmetallankauf, Containerdienst und Demontage für Gewerbe, Industrie und Privat in Koblenz; Inhaber Pascal Schneider, Entsorgungsfachbetrieb nach § 56 KrWG.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf Rheinland-Pfalz (RP) — Recherche
@@ -29,6 +29,10 @@ Betreiberseite nennt Pascal Schneider in Koblenz, Hintermark 35–37; die Kontak
 **Ankauf:** individuelle Vergütung nach Metall, Qualität, Sortierung, Menge und Markt; Transport/Demontage können berücksichtigt werden, keine Zahlenliste. **Verkauf:** Kfz-Teilehandel ausdrücklich ausgeschlossen. **Gebühren:** Containerstellung 7–40 m³ nur abhängig von Material/Menge/Einsatzort kostenfrei; Fehlbefüllung und Vermischung können Zusatzkosten verursachen. Standzeit individuell, kein Eurotarif. Impressum nennt info@pms-schrotthandel.de, Seitenkopf pms.schrotthandel@gmail.com; nicht stillschweigend eine Mail bevorzugen.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Der Belegklärfall aus dem 05.10.2026 ist geschlossen. Zweite unabhängige Quelle ist das EFB-Zertifikat selbst, erneut live als PDF gelesen: EGRW10509-2026, Vorgangsnummer ZZFE001004907002, ausgegeben am 07.09.2026, Prüfdatum 22.08.2026, gültig bis 23.02.2028, mit "PMS Schrotthandel Inh. Pascal Schneider, Hintermark 35-37, 56070 Koblenz" und dem Registervermerk "Nicht zutreffend"; der Vorgänger EGRW10509-2025 mit Vorgang ZZFE001004907001 (ausgestellt 15.09.2025, gültig bis 23.02.2027) nennt dieselben Daten. Der unabhängige Aussteller führt PMS Schrotthandel zudem im eigenen Partnerverzeichnis mit "Hintermark 35-37, Koblenz, Telefon 0179/3201519, info@pms-schrotthandel.de"; damit stehen Anschrift, Telefon und E-Mail auf zwei unabhängigen Quellen, dem Betreiberimpressum und dem Zertifizierer, und wurden im Frontmatter gefüllt. Die zweite, nur auf der Startseite genannte Adresse pms.schrotthandel@gmail.com bleibt als Konflikt dokumentiert und wurde nicht stillschweigend gewählt. Amtliches Fachbetrieberegister (Auszug 11.08.2026): die Ortsseite Koblenz führt nur sechs Betriebe (Lux & Co. GmbH Verwaltung; MCR Metallgroßhandel & Containerdienst Riebe GmbH mit Behandlungsanlage; Metlux Recycling GmbH; REMONDIS Mittelrhein GmbH; TSR Deutschland GmbH & Co. KG Region Südwest I); PMS fehlt, obwohl der Vorgang ZZFE001004907001 bereits am 15.09.2025 gültig war. Das zeigt, dass die Spiegelabdeckung des Registers der Entsorgungsfachbetriebe unvollständig ist, und macht den Negativbefund für PMS ohne Beweiswert. Amtliches Handelsregister (online-handelsregister.de, Suche "Schneider Pascal Koblenz", Abruf 28.10.2026): keine Unternehmen, keine Personen, was für einen Einzelunternehmer ohne Registereintrag erwartbar ist und keine Nichtexistenz belegt. ANKAUF: individuelle Vergütung nach Metall, Qualität, Sortierung, Menge und Markt, keine Zahlenliste; Transport und Demontage können einbezogen werden. VERKAUF: Kfz-Teilehandel ausdrücklich ausgeschlossen, kein Materialverkaufspreis veröffentlicht. GEBÜHREN: Container 7 bis 40 m³ nur abhängig von Material, Menge und Einsatzort kostenfrei, Fehlbefüllung und Vermischung können Zusatzkosten auslösen, Standzeit individuell, kein Eurotarif. Quelle(n): https://www.pms-schrotthandel.de/wp-content/uploads/2026/09/2026-entsorgungsfachbetrieb-efb-pms-schrotthandel.pdf ; https://www.pms-schrotthandel.de/wp-content/uploads/2025/09/entsorgungsfachbetrieb-efb-pms-schrotthandel.pdf ; https://www.egrw.de/partner/ ; https://www.pms-schrotthandel.de/impressum/ ; https://schrottregister.pages.dev/ort-koblenz ; https://www.online-handelsregister.de/suche/Schneider+Pascal+Koblenz]
 
 ### Recherche 15.10.2026, Welle 12:00 A
 

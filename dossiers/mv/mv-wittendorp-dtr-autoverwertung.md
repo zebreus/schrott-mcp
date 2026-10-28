@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Verzeichnis-Lead ohne Betreiber- oder Registerbeleg: DTR Autoverwertung, Dorfrunde 5, 19243, Telefon 0174 4558806. Die Postanschrift ist zwischen den Verzeichnissen widersprüchlich (Wittendörp gegen Boddin bei Hagenow); beide Ortsteile teilen die PLZ 19243. Kein Eintrag im amtlichen Fachbetrieberegister und kein Handelsregistereintrag unter dem Namen. Keine belegten Ankauf-, Verkaufs- oder Gebührenangaben.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Betriebe, nur Portal-/Verzeichnisbeleg (Ankauf ja lt. Portal
@@ -30,6 +30,11 @@ Für „DTR Autoverwertung“ in Wittendörp ist am 15.10.2026 die bisher nicht 
 **Preise:** Ankauf: kein verifizierter veröffentlichter Fahrzeug-/Materialpreis. Verkauf: keine verifizierte Ersatzteilpreisliste. Gebühren: keine verifizierten Entsorgungs-, Abhol-, Abschlepp- oder Abmeldekosten. Generische Metallkategorien und Mindestgewichte des Portals sind keine Betreiberbestätigung.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: NEGATIVBEFUND: Das amtliche Fachbetrieberegister (Auszug 11.08.2026, gespiegelt über schrottregister.pages.dev) führt weder einen Betrieb in Wittendörp oder Boddin noch einen Eintrag mit der Anschrift Dorfrunde 5; für beide Orte existiert keine Ortsseite. Eine Suche im amtlichen Handelsregister (online-handelsregister.de) nach "DTR Autoverwertung" sowie "Autoverwertung Wittendörp" liefert keinen Registereintrag. Für einen Einzelbetrieb ohne HRB ist das ein Negativbefund ohne Beweiswert; eine Betriebsschließung wird nicht abgeleitet. Quelle(n): https://schrottregister.pages.dev/ ; https://www.online-handelsregister.de/suche/DTR%20Autoverwertung ; https://www.online-handelsregister.de/suche/Autoverwertung%20Wittend%C3%B6rp (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: ORTSKONFLIKT bleibt offen: Die Detailseite von lokaleschrottplatz.de nennt Dorfrunde 5, 19243 Wittendörp, 11880 dagegen Dorfrunde 5, 19243 Boddin bei Hagenow; die Öffnungszeiten der beiden Portale widersprechen sich zusätzlich (Fr 09:00-18:00 und Sa 11:00-16:00 gegen Fr 07:00-16:00 und Sa 09:00-14:00). Beide Ortsteile liegen in der PLZ 19243, deshalb bleiben street und postcode leer und city unverändert. Der einzige Koordinatenkandidat aus einem Verzeichnis (53.575443, 11.10501, Ort Boddin) hat keinen zweiten Beleg und wird nicht gesetzt. ANKAUF: keine verifizierten Fahrzeug- oder Metallkurse. VERKAUF: keine Teilepreisliste. GEBÜHREN: keine belegten Tarife, keine kostenlose Annahme bestätigt. Quelle(n): https://lokaleschrottplatz.de/dtr-autoverwertung/ ; https://www.11880.com/branchenbuch/boddin-bei-hagenow/060440459B113502063/dtr-autoverwertung.html ; https://lokaleschrottplatz.de/search/nickel-legierungen-haendler-mecklenburg-vorpommern/ (Abruf 28.10.2026).]
 
 ### Recherche 15.10.2026
 

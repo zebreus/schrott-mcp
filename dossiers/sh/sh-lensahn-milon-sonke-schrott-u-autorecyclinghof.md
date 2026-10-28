@@ -6,13 +6,13 @@ state: SH
 city: Lensahn
 street: Ottostr. 11
 postcode: '23738'
-phone: ''
+phone: 04363 1822
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://milon-recycling.de
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Familienbetrieb und Register-Sitz der Schrott- und Autorecyclinghof Sönke Milon e.K. (HRA 2053 OL, AG Lübeck, aktiv, Ersteintragung 22.10.2002, Inhaber Sönke Milon, Prokura Finn und Nina Milon seit 02.05.2024). Eine Betreiberanzeige von September 2024 nennt die Annahme von Bauschutt, Grünschnitt, Holz, Altreifen, gemischten Abfällen und Elektroschrott, den Schrott- und Metallgroßhandel mit Annahme zu Tagesspitzenpreisen und Abholung, gebrauchte Kfz-Teile (über 500 Autos auf Lager) sowie einen Container-Service von 5 bis 40 m3. Ein zweiter Standort besteht in Lübeck-Kücknitz (Mühlenkamp 8), seit 01.09.2016 von ALBA Metall Nord übernommen. Die Betreiberdomain milon-recycling.de ist derzeit nicht abrufbar (HTTP 500). Keine numerischen Preise und keine Gebühren belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -33,6 +33,12 @@ Die Domain-Kandidatin milon-recycling.de liefert HTTP 503 mit lesbarer Wartungss
 - **Gebühren:** keine aktuelle Betreiber-Gebührenliste verifiziert. Presseaktion 25 Prozent Containertransport-Rabatt 15.09.-31.10.2023 und damalige kostenlose Komposterde sind abgelaufene Service-/Abgabeaktionen, keine heutigen Schrottkurse.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: REGISTER bestätigt den Sitz: Der Auszug aus dem amtlichen Handelsregister (online-handelsregister.de) führt die Schrott- und Autorecyclinghof Sönke Milon e.K. unter HRA 2053 OL, Amtsgericht Lübeck, als aktiv, Ersteintragung 22.10.2002, Geschäftsanschrift Ottostraße 11, 23738 Lensahn, mit einer Registerbekanntmachung vom 02.08.2019. Die Dossiers sh-lubeck-kucknitz-schrott-und-autorecyclinghof-sonke-milon und sh-lensahn-milon-sonke-schrott-u-autorecyclinghof sind damit zwei Standorte eines einzigen Rechtsträgers, keine Dublette; Lensahn ist der Register-Sitz, Lübeck-Kücknitz (Mühlenkamp 8) die 2016 von ALBA Metall Nord übernommene Filiale. Keine Verschmelzung der beiden Dossiers, nur Querverweis. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/sh/Luebeck/HRA/2053OL/Schrott-und-Autorecyclinghof-Soenke-Milon-eK (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: TELEFON aus der Betreiberanzeige belegt: Eine Anzeige des Betriebs im lokalen Wochenblatt (Reporter-Archiv, Ausgabe vom 04.09.2024) wirbt für den Lensahner Standort mit "Ottostraße 11, 23738 Lensahn, 04363-1822", mit "Schrott- und Metallgroßhandel, Annahme zu Tagesspitzenpreisen, auch Abholung möglich", mit "gebrauchte Kfz-Teile, über 500 Autos auf Lager" und mit einem "Container-Service 5 m3 bis 40 m3"; die Anzeige nennt außerdem die Abfallannahme von Bauschutt, Grünschnitt, Holz, Altreifen, gemischten Abfällen und Elektroschrott. Telefon 04363 1822 ist damit durch eine Betreiberquelle belegt und wurde gefüllt. ANKAUF: nur die qualitative Aussage "Tagesspitzenpreise", keine Zahlenliste. VERKAUF: gebrauchte Kfz-Teile werden beworben, aber ohne Preisliste. GEBÜHREN: keine Tarife; Containerbereitstellung ohne bezifferte Kosten. Die E-Mail bleibt leer, weil info@milon-recycling.de, s.milon@gmx.de und S.Milon@t-online.de sich widersprechen. Quelle(n): https://www.archiv.der-reporter.de/neustadt/2024/09_04_September_2024.pdf ; https://www.der-reporter.de/ratgeber/thema/bauen-sonderseiten-66/artikel/milon-kommt (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: BETREIBERDOMAIN nicht abrufbar: milon-recycling.de antwortet heute auf Root, Impressum, Kontakt, Standorte, Leistungen und robots.txt (auch über www und http) mit HTTP 500 und der WordPress-Fehlerseite "Es gab einen kritischen Fehler auf deiner Website". Die Domain ist damit als Betreiberdomain belegt (Registerprofil, Pressereferenzen und Branchenbuch nennen sie), der Inhalt aber derzeit nicht lesbar; website_status bleibt unbekannt, weil daraus weder eine Schließung noch eine Betriebsruhe abzuleiten ist. NEGATIVBEFUND im amtlichen Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev): weder für Lensahn noch für Lübeck existiert eine Ortsseite oder ein Eintrag der e.K.; für eine Autoverwertung ist das ein Hinweis auf eine Lücke, kein Existenzbeweis. Öffnungszeiten bleiben leer, weil die Portale Mo bis Fr 07:00-18:00, 08:00-17:00 und 08:00-18:00 sowie Sa 08:00-13:00, 09:00-13:00 nennen und eine Kundenrezension vom 26.07.2025 berichtet, samstags sei seit über fünf Jahren geschlossen. Quelle(n): https://milon-recycling.de/ ; https://milon-recycling.de/impressum/ ; https://schrottregister.pages.dev/sitemap.xml ; https://www.recyclinghof-wertstoffhof.de/recyclinghof/schleswig-holstein/lensahn/schrott-und-autorecyclinghof-soenke-milon-e-k-ottostrasse-11/ (Abruf 28.10.2026).]
 
 ### Recherche 22.10.2026
 

@@ -4,20 +4,21 @@ name: Autoverwertung Peter Huber
 trader_type: autoverwertung
 state: BY
 city: Geretsried
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Breslauer Weg 119
+postcode: '82538'
+phone: 08171 52368
+email: info@autoverwertung-huber.de
+opening_hours: Mo-Fr 08:00-12:00 und 13:00-17:00
 website: https://autoverwertung-huber.de/
 website_status: aktiv
-status: pruefung
-description: ''
+status: aktiv
+description: 'Autoverwertung und zertifizierter Demontagebetrieb nach § 5 Abs. 3 AltfahrzeugV (Inhaber Peter Huber, USt-IdNr. DE182230887): Abholung, Verwertung und Entsorgung von Alt- und Unfallfahrzeugen, Ankauf von Unfallfahrzeugen auf Anfrage, Verkauf von Gebrauchtteilen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Audit 7 Feedback #6578'
 provenance_ankauf_raw: unklar
 provenance_origin: feedback
+certifications: '["Demontagebetrieb nach AltfahrzeugV (Fachbetrieberegister, Zertifikatsnummer ZAHS01800066, Registerstand 11.08.2026)"]'
 ---
 
 # Autoverwertung Peter Huber
@@ -29,6 +30,10 @@ Der Betreiberauftritt **Autoverwertung Huber** nennt Peter Huber als Inhaber und
 Der vorhandene Dossier-Eintrag `by-moosburg-huber-recycling.md` betrifft die Huber Recycling GmbH in Moosburg (Reiteraustr. 41, HRB 147248, eigene Domain) und ist eine andere, räumlich getrennte Firma. Keine Betreiber- oder Registerquelle verbindet sie mit Peter Huber in Geretsried; keine Daten wurden übertragen. Für Fahrzeugankauf oder Teile nennt der Betreiber keine festen Preise; Selbstanlieferungsbedingungen und ein konkreter Annahmeablauf sind nicht belegt.
 
 ## Timeline
+
+### Recherche 28.10.2026
+
+- [Recherche 28.10.2026: Die zweite Quelle ist gefunden. Amtliches Fachbetrieberegister (Auszug 11.08.2026): "Autoverwertung Peter Huber Inhaber Peter Huber" mit der Anschrift Breslauer Weg 119, 82538 Geretsried und der Anerkennung nach AltfahrzeugV als Demontagebetrieb, Zertifikatsnummer ZAHS01800066; die Ortsseite Geretsried führt diesen Betrieb als einzigen und weist ihn als den einzigen anerkannten Demontagebetrieb vor Ort aus. Damit ist die Anschrift unabhängig bestätigt und der GESA-Verweis des Verzeichnisses "AutoverwerterFinder" vom 12.10.2026 indirekt erledigt; die Kennungen ZAHS01800066 und I173E4940 aus dem Aggregator werden nicht übernommen, der Registereintrag selbst nennt weder Telefon noch E-Mail. Betreiber-Primärquelle am 28.10.2026 live gelesen: Impressum mit Verantwortlichem Peter Huber, Inhaber, Postanschrift Breslauer Weg 119, 82538 Geretsried, E-Mail info@autoverwertung-huber.de, Telefon 0049 (0) 8171/52368, USt-IdNr. DE182230887, und der Angabe "Zertifizierter Demontagebetrieb nach §5 Abs. 3 der Altfahrzeugverordnung"; Öffnungszeiten Montag bis Freitag 08:00 bis 12:00 und 13:00 bis 17:00 Uhr; Leistungen Abholung, Verwertung und Entsorgung von Altfahrzeugen, Ankauf von Unfallfahrzeugen auf Anfrage je nach Zustand und Alter, Verkauf von Gebraucht- und Neuteilen. Anschrift, Telefon, E-Mail, Öffnungszeiten und Zertifizierung sind damit belegt und gefüllt, der Status auf aktiv gesetzt. Das Dossier by-moosburg-huber-recycling (Huber Recycling GmbH, Reiteraustr. 41, 85368 Moosburg, HRB 147248) bleibt eine andere, räumlich getrennte Firma; es wurden keine Werte übernommen. ANKAUF: keine Zahlen, "Ankauf von Unfallfahrzeugen auf Anfrage je nach Zustand und Alter der Fahrzeuge". VERKAUF: keine Zahlen, "Preise und Vorrat von Ersatzteilen auf Anfrage". GEBÜHREN: keine Tarife, keine Angaben zu Abholkosten. Quelle(n): https://schrottregister.pages.dev/betrieb-autoverwertung-peter-huber-inhaber-peter-huber-geretsried ; https://schrottregister.pages.dev/ort-geretsried ; https://autoverwertung-huber.de/impressum/ ; https://autoverwertung-huber.de/dienstleistungen/ ; https://autoverwertung-huber.de/oeffnungszeiten-anfahrt/ ; https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/DE182230887]
 
 ### Recherche 12.10.2026
 
