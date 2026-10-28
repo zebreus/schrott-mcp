@@ -7,7 +7,7 @@ city: Dietzenbach
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'phone'
+clear_fields: 'geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -30,6 +30,7 @@ Eine Website unter „Schrotthändler Sabri“ beschreibt Metall-/Schrottabholun
 **ANKAUF:** kostenlose Abholung wird beworben, laut FAQ im Allgemeinen nur bei ausreichender verwertbarer Metallmenge; keine Zahlenkurse. **VERKAUF:** keine Liste. **GEBÜHREN:** Haushaltsauflösung nach Besichtigung mit individuellem Festpreis, kein Tarif veröffentlicht. **GEO:** Kontaktadresse nicht als öffentlich zugänglicher Schrottplatz bestätigen; erst Betreiberidentität und Annahmestelle verifizieren.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der gespeicherte GEO-Punkt wird zurückgenommen.** Der gespeicherte Punkt 50.0098/8.7778 löst auf „6, Hammannsgasse, Altstadt“ auf - rund **780 m** vom belegten Standort Robert-Koch-Straße 3 entfernt und in einer anderen Straße desselben Gewerbegebiets. `clear_fields: 'geo'` nimmt ihn beim nächsten regulären Seed zurück; **keine** Ersatzkoordinate wird gesetzt, solange für diese Zeile kein adressgenaues, belegtes Objekt vorliegt. Belegte Anschrift: Robert-Koch-Straße 3, 63128 Dietzenbach (Kontaktblock der Betreiberseite, gestützt durch vier weitere Quellen). Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0098&lon=8.7778&zoom=18&addressdetails=1 ; Nominatim-Vorwärtssuche zur belegten Anschrift ; read-only `public.db` (28.10.2026).]
 
 ### Recherche 28.10.2026
 

@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -29,6 +30,7 @@ Die Website von Cristofor Schrotthandel ist erreichbar und nennt Cristofor Ciura
 **Ankauf:** Kupfer, Aluminium, Edelstahl und Mischschrott werden laut Website nach aktuellem Tagespreis bewertet; keine Zahlenkurse. **Verkauf:** keine Teile-/Materialpreisliste. **Gebühren:** Schrottabholung wird als kostenlos beworben; Containerlieferung zu „fairen Konditionen“ nur auf individuelles Angebot, ohne Tarif. **GEO:** Marktheidenfelder Weg 2 ist eine neue Website-Kandidatenadresse, aber nicht unabhängig als Kundenannahme-/Hofstandort bestätigt; keine Koordinate.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der gespeicherte GEO-Punkt wird zurückgenommen.** Der gespeicherte Punkt 50.0098/8.7778 löst auf „6, Hammannsgasse, Altstadt“ auf - rund **800 m** vom belegten Standort Marktheidenfelder Weg 2 entfernt und in einer anderen Straße desselben Gewerbegebiets. `clear_fields: 'geo'` nimmt ihn beim nächsten regulären Seed zurück; **keine** Ersatzkoordinate wird gesetzt, solange für diese Zeile kein adressgenaues, belegtes Objekt vorliegt. Belegte Anschrift: Marktheidenfelder Weg 2, 63128 Dietzenbach (Betreiberseite „Cristofor Ciurar“). Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0098&lon=8.7778&zoom=18&addressdetails=1 ; Nominatim-Vorwärtssuche zur belegten Anschrift ; read-only `public.db` (28.10.2026).]
 
 ### Recherche 28.10.2026
 

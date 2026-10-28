@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -27,6 +28,7 @@ provenance_origin: table
 Die Betreiberwebsite nennt Leonard Dorel Caldarar als Inhaber und auf Impressum, Kontakt- und Schrotteinkaufsseite einheitlich Robert-Koch-Str. 9, 63128 Dietzenbach. Ein früher dokumentierter JSON-LD-Eintrag derselben Website nennt dagegen Dieselstr. 22; der interne Quellenwiderspruch ist nicht aufgelöst. Da kein passender Register-/Zweitbeleg vorliegt, bleiben Straße, PLZ und Kontaktdaten trotz der Betreiberangabe aus dem Frontmatter heraus. **Ankauf:** Die Website wirbt mit Schrott-/Altmetallankauf für Privat und Gewerbe, marktwertabhängiger Bewertung und sofortiger Barauszahlung, ohne numerische Kurse. **Verkauf:** keine Teile- oder Materialpreisliste gefunden. **Gebühren:** Containerdienst wird beworben, aber ohne Tarif und ohne pauschale Gratiszusage. Keine GEO-Koordinate.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der gespeicherte GEO-Punkt wird zurückgenommen.** Der gespeicherte Punkt 50.0098/8.7778 löst auf „6, Hammannsgasse, Altstadt“ auf - rund **890 m** vom belegten Standort Robert-Koch-Straße 9 entfernt und in einer anderen Straße desselben Gewerbegebiets. `clear_fields: 'geo'` nimmt ihn beim nächsten regulären Seed zurück; **keine** Ersatzkoordinate wird gesetzt, solange für diese Zeile kein adressgenaues, belegtes Objekt vorliegt. Belegte Anschrift: Robert-Koch-Straße 9, 63128 Dietzenbach (Betreiber-Impressum „Leonard Dorel Caldarar“). Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0098&lon=8.7778&zoom=18&addressdetails=1 ; Nominatim-Vorwärtssuche zur belegten Anschrift ; read-only `public.db` (28.10.2026).]
 
 ### Recherche 28.10.2026
 

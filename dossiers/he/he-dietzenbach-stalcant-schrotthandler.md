@@ -15,6 +15,7 @@ status: pruefung
 description: 'Einzelunternehmen Sebastian Traian Caldarar in Dietzenbach (Robert-Koch-Str. 9, 63128 Dietzenbach, Wirtschafts-Identifikationsnummer DE452409549, Reisegewerbe-Aufsicht Magistrat Dietzenbach). Leistungen: Ankauf von Kupfer, Messing, Aluminium, Gold, Stahl- und Baueisenschrott zum Tagespreis, Abholung oder Anlieferung nach Terminabsprache, kostenlose Abholung ab 350 kg, Containerdienst in verschiedenen Größen, Demontage, Entrümpelung, Haushaltsauflösung im Rhein-Main-Gebiet. Keine numerischen Ankauf- oder Verkaufspreise und keine Container- oder Demontagetarife veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Einträge
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -29,6 +30,7 @@ Die direkt gelesene Betreiberwebsite bewirbt Kupfer/Kabel/Millberry, Messing, Al
 Ankauf: Tagespreise und telefonische Auskunft, kein numerisches Preisblatt. „Kupfer verkaufen“ richtet sich an den Materialverkäufer und ist keine Händler-Verkaufspreisliste. Verkauf: keine Liste. Gebühren: Schrott-/Altmetallabholung ab 350 kg ausdrücklich kostenlos; Container/Demontage nicht pauschal kostenlos belegt. Identität/Zweitbeleg und Anlieferungsadresse vor GEO/Veröffentlichung klären, Status Prüfung statt unbegründetem Aktivstatus.
 
 ## Timeline
+- [Owner-Korrektur 28.10.2026: **Der gespeicherte GEO-Punkt wird zurückgenommen.** Der gespeicherte Punkt 50.0098/8.7778 löst auf „6, Hammannsgasse, Altstadt“ auf - rund **890 m** vom belegten Standort Robert-Koch-Straße 9 entfernt und in einer anderen Straße desselben Gewerbegebiets. `clear_fields: 'geo'` nimmt ihn beim nächsten regulären Seed zurück; **keine** Ersatzkoordinate wird gesetzt, solange für diese Zeile kein adressgenaues, belegtes Objekt vorliegt. Belegte Anschrift: Robert-Koch-Straße 9, 63128 Dietzenbach (Betreiber-Impressum der Hofmann-Marke „Sebastian Schrotthändler“/STALCANT mit identischer W-IdNr DE452409549). Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.0098&lon=8.7778&zoom=18&addressdetails=1 ; Nominatim-Vorwärtssuche zur belegten Anschrift ; read-only `public.db` (28.10.2026).]
 
 ### Recherche 28.10.2026
 
