@@ -2,7 +2,7 @@
 slug: bb-hirschfeld-hofmann-metall
 name: Hofmann Metall GmbH, Betriebsteil Hirschfeld
 trader_type: schrotthaendler
-state: BB
+state: SN
 city: Hirschfeld
 street: Bahnhofstraße 5
 postcode: '08144'
@@ -14,7 +14,7 @@ opening_hours: ''
 website: https://www.hofmann-metall.de
 website_status: aktiv
 status: aktiv
-description: 'Betriebsteil Hirschfeld der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) in der Bahnhofstraße 5, 08144 Hirschfeld (Sachsen, Landkreis Zwickau): Annahme von Buntmetallen und Legierungsschrotten, Containerdienst mit kostenfreier Containerstellung (6–10 m³ Absetz-, 18–36 m³ Abrollcontainer), Aufbereitung und Demontage. Die im Frontmatter geführte Zuordnung zum Bundesland Brandenburg ist falsch und bleibt unverändert, bis der Owner die Bundesland-Zuordnung entscheidet; Anschrift und Kontakte sind die des sächsischen Betriebsteils. Öffnungszeiten wegen widersprüchlicher Betreiberangaben nicht übernommen, keine öffentlichen Ankauf- oder Verkaufspreise.'
+description: 'Betriebsteil Hirschfeld der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) in der Bahnhofstraße 5, 08144 Hirschfeld (Sachsen, Landkreis Zwickau): Annahme von Buntmetallen und Legierungsschrotten, Containerdienst mit kostenfreier Containerstellung (6–10 m³ Absetz-, 18–36 m³ Abrollcontainer), Aufbereitung und Demontage. Die Zuordnung zum Bundesland ist nach Owner-Entscheidung **Sachsen** (der Betriebsteil liegt in Hirschfeld, Landkreis Zwickau; Anschrift, PLZ, Telefon und die amtliche Ortsangabe der Gemeinde stimmen überein); der Slug und sein Präfix „bb-“ bleiben unverändert, weil Slugs nie handgepflegt werden - dasselbe Muster tragen 20 weitere Dossiers im Korpus. Öffnungszeiten wegen widersprüchlicher Betreiberangaben nicht übernommen, keine öffentlichen Ankauf- oder Verkaufspreise.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Nachtrag Audit-Runde 3 (Stand: 2026-09-27)'
@@ -37,6 +37,7 @@ Der Dossier-**Slug bleibt unverändert** (`bb-hirschfeld-hofmann-metall`), weil 
 **GEO:** Der adressgenaue OSM-Betriebspunkt zum Betreiberobjekt 50.6320984/12.4259907 trägt den Namen „Hofmann Metall Hirschfeld" mit Operator-Tagging `Hofmann Metall` und exakt Bahnhofstraße 5, 08144 Hirschfeld sowie den Betreiberkontakten — Betriebsgebäude-/Adresspunkt, keine bestätigte Anlieferzufahrt.
 
 ## Timeline
+- [Owner-Entscheidung 28.10.2026: Die Bundesland-Zuordnung ist entschieden: `state` wird von `BB` auf `SN` gesetzt. Der Betriebsteil liegt in **Hirschfeld, Landkreis Zwickau, Sachsen** (08144) - die Betreiber-Standortseite, das Impressum (HRB 5475 AG Chemnitz, Hauptsitz Zwickau), die amtliche Ortsangabe der Gemeinde und die bereits geprüfte Koordinate (50.6320984/12.4259907, OSM-Way „Hofmann Metall Hirschfeld“) stimmen überein; im Brandenburg gibt es **kein** Hirschfeld mit diesem Betrieb (die Namensvetter-Prüfung der Welle fand dort weder ein Werk noch eine belastbare Adresse). Slug (`bb-hirschfeld-hofmann-metall`) und Verzeichnis (`dossiers/bb/`) bleiben **unverändert**, weil Slugs einmal vergeben und nie handgepflegt werden; im Korpus tragen 20 weitere Dossiers dieselbe Differenz zwischen Slug-Präfix und State-Feld. Quellen: https://hofmann-metall.de/standort/hirschfeld/ ; https://www.hofmann-metall.de/impressum/ ; https://www.nennhausen.de/ ; OSM/Nominatim-Abfrage „Hirschfeld, Landkreis Zwickau, Sachsen“ (08144); Recherche 28.10.2026 in diesem Dossier.]
 
 ### Recherche 27.10.2026: Standort, Kontakte und GEO belegt; BB/SN bleibt Owner-Gate
 

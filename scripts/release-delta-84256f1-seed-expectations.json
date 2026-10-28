@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "release_commit": "84256f19a1e44f29aac56fb05c09bb6eb18573f3",
+  "release_tree": "3f08f66fb9305d2930b86f1449f227358349416f",
+  "rehearsal_manifest_sha256": "562d66c05bdf88f88d67805b35ba4b180139b659f8800dbb1c5b6f3e3f5d7d6b",
+  "fields": [
+    "name",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "he-babenhausen-64832-sell-harry-schrotthandler",
+    "rp-koblenz-s-alten-st-maternus-str"
+  ],
+  "scope": "exactly the 2 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-84256f1. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "he-babenhausen-64832-sell-harry-schrotthandler",
+      "values": {
+        "name": "Sell Harry Schrotthändler",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Dublette: Der Seed-Import führt denselben GS-Eintrag zweimal (\"Sell Harry Schrotthändler\", Ostring 15, 64832 Babenhausen). Die belegten Kontaktdaten stehen im Dossier he-babenhausen-64832-he-sell-harry-schrotthandler; hier werden keine eigenen Kontaktdaten eingetragen. Offen bleibt die Gewerberegisterauskunft der Stadt Babenhausen zu \"Harry Sell\" und die Abgrenzung zu den benachbarten Familien- und Nachbarbetrieben (Sell) ohne Rechts- oder Betreiberbrücke.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e043432d81e4df4da7270aa0ba170e3acb4d5f45b4013b3a353a6bcb6c98021d",
+      "seed_hash": "a38a4deeb8a8b374",
+      "geo": [
+        49.0551,
+        9.6023
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-koblenz-s-alten-st-maternus-str",
+      "values": {
+        "name": "S. Alten St.-Maternus-Str.",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Dublette/Importfragment: Der Seed-Name \"S. Alten St.-Maternus-Str.\" beschreibt mit hoher Wahrscheinlichkeit denselben Betrieb, der im Dossier rp-koblenz-56070-schrotthandel-s-alten geführt wird (St.-Maternus-Straße, 56070 Koblenz-Bubenheim, Telefon 01516 1010338). Hier werden deshalb bewusst keine Kontaktdaten und keine Koordinate eingetragen, um keine zweite, belegte Zeile zu erzeugen. Der Lead selbst bleibt ein Verzeichnis-/Prosa-Import ohne Betreiber-Primärquelle; die Namensvetter Angelo Alten (56075 Koblenz) und Michael Schneider bleiben getrennt.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3b06d42e71ad3e2c8b64c3e045480bb3d68b67a05307f57f5c334d5a1069b152",
+      "seed_hash": "10060649c048e034",
+      "geo": [
+        50.354014285714285,
+        7.5774
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
