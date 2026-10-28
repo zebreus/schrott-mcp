@@ -6,13 +6,15 @@ state: SN
 city: Altmittweida
 street: Hauptstr. 79
 postcode: '09648'
+lat: 50.9634358
+lon: 12.9433358
 phone: ''
 email: ''
 opening_hours: 'Mo-Do 9:00-17:00, Fr 9:00-16:00'
 website: https://buntmetallhandel-altmittweida.de
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Kleinannahmestelle (KAS) Altmittweida im Annahmenetz der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau): Die Hofmann-Betreiberseite fuehrt die Annahmestelle in der Hauptstraße 79, 09648 Altmittweida mit der Mobilnummer 0176 / 411 925 44 - identisch mit der in dieser Zeile gespeicherten Nummer, womit die Zeile der Hofmann-Kleinannahmestelle entspricht. Die Hofmann-Firmenhistorie nennt fuer 2024 die Eröffnung der KAS Altmittweida; eine Hofmann-Ankuendigung vom 25.07.2024 nennt fuer die Stelle Stahlschrott und Buntmetall. Keine Ankaufs- oder Verkaufspreise und keine Gebuehrentarife veroeffentlicht. GEO: Die Koordinate ist der adresskongruente OSM-Punkt zu Hauptstraße 79; der zuvor gespeicherte Punkt lag auf "78c" in derselben Straße, rund 1.070 m daneben.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -27,6 +29,7 @@ provenance_origin: table
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
+- [Recherche 28.10.2026: Die Zeile ist die **Kleinannahmestelle (KAS) Altmittweida** der Hofmann Metall GmbH: Die Betreiber-Kleinannahmestellenseite (hofmann-metall.de) nennt Hauptstraße 79, 09648 Altmittweida und die Mobilnummer 0176 / 411 925 44 - **identisch** mit der in dieser Zeile gespeicherten Nummer; die Hofmann-Firmenhistorie nennt für 2024 die Eröffnung der KAS Altmittweida, eine Hofmann-Ankündigung vom 25.07.2024 nennt für die Stelle Stahlschrott und Buntmetall. **GEO korrigiert:** Der gespeicherte Punkt 50.9677492/12.9570254 löst auf „78c, Hauptstraße“ auf - rund **1.073 m** daneben; neu ist der adresskongruente OSM-Punkt zu Hauptstraße 79 (way 201731552, 50.9634358/12.9433358), also die in dieser Zeile selbst geführte Hausnummer. Keine Preise und keine Gebühren belegt. Quellen: https://hofmann-metall.de/standorte/kleinannahme-altmittweida/ ; https://hofmann-metall.de/firmenhistorie/ ; https://nominatim.openstreetmap.org/search?q=Hauptstra%C3%9Fe+79%2C+09648+Altmittweida&format=jsonv2 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.9677492&lon=12.9570254&zoom=18&addressdetails=1 ; read-only `public.db` (28.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
