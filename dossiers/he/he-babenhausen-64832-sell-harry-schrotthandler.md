@@ -13,7 +13,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Dublette: Der Seed-Import führt denselben GS-Eintrag zweimal ("Sell Harry Schrotthändler", Ostring 15, 64832 Babenhausen). Die belegten Kontaktdaten stehen im Dossier he-babenhausen-64832-he-sell-harry-schrotthandler; hier werden keine eigenen Kontaktdaten eingetragen. Offen bleibt die Gewerberegisterauskunft der Stadt Babenhausen zu "Harry Sell" und die Abgrenzung zu den benachbarten Familien- und Nachbarbetrieben (Sell) ohne Rechts- oder Betreiberbrücke.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
@@ -30,6 +30,7 @@ Harry Sell in Babenhausen bleibt ein ungeklärter Verzeichnis-Lead; Gelbe Seiten
 **Preise:** **ANKAUF** – keine Kurse; **VERKAUF** – keine Liste; **GEBÜHREN** – keine Tarife. **GEO:** Identität und Annahmestelle vor Geocodierung unabhängig klären.
 
 ## Timeline
+- [Owner-Entscheidung 28.10.2026: Der aus der Welle dokumentierte Zwillings-Slug wird als **Dublette** kenntlich gemacht: Die Zeile bleibt erhalten (keine Slug-Änderung, keine Löschung), beschreibt aber nun ausdrücklich denselben GS-Eintrag wie `he-babenhausen-64832-he-sell-harry-schrotthandler` und trägt deshalb **keine** eigenen Kontaktdaten. Die Straßengleichheit (Ostring 15, 64832) und der identische Eintragsname belegen die Dublette; die Abgrenzung zu den benachbarten Familien- und Nachbarbetrieben „Sell“ ohne Rechts- oder Betreiberbrücke bleibt ein offener Klärfall (Gewerberegisterauskunft der Stadt Babenhausen). Quellen: `dossiers/he/he-babenhausen-64832-he-sell-harry-schrotthandler.md` ; Recherche 28.10.2026 in diesem Dossier; `docs/trader-seed.md`.]
 
 ### Korrektur/Recherche 20.10.2026
 

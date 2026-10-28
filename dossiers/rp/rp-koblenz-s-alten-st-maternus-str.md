@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Dublette/Importfragment: Der Seed-Name "S. Alten St.-Maternus-Str." beschreibt mit hoher Wahrscheinlichkeit denselben Betrieb, der im Dossier rp-koblenz-56070-schrotthandel-s-alten geführt wird (St.-Maternus-Straße, 56070 Koblenz-Bubenheim, Telefon 01516 1010338). Hier werden deshalb bewusst keine Kontaktdaten und keine Koordinate eingetragen, um keine zweite, belegte Zeile zu erzeugen. Der Lead selbst bleibt ein Verzeichnis-/Prosa-Import ohne Betreiber-Primärquelle; die Namensvetter Angelo Alten (56075 Koblenz) und Michael Schneider bleiben getrennt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net PROSE-Cluster (27.09.2026)
@@ -27,6 +27,7 @@ provenance_origin: table
 Der Seed „S. Alten St.-Maternus-Str.“ ist nicht eindeutig identifiziert. Ein Betreiber-Impressum für Angelo Alten nennt Naumburgerstraße 14, 56075 Koblenz; die separate Betreiberseite von 1A Schrotthandel nennt Michael Winfried Schneider und Peter-Klöckner-Straße 2A. Keine der Quellen belegt S. Alten, die St.-Maternus-Straße oder eine Verbindung zu diesen Personen/Betrieben. Keine strukturierte Anschrift, Website oder Kontakte. ANKAUF: für diesen Kandidaten nicht belegt; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben. Identität und Anschrift offen.
 
 ## Timeline
+- [Owner-Entscheidung 28.10.2026: Die aus der Welle belegte Dublette wird im Katalog sichtbar gemacht: Diese Zeile bleibt als **Fragmentzeile** erhalten (die Slugs werden nicht geändert und es wird nichts gelöscht), trägt aber ab jetzt eine Beschreibung, die auf das Schwesterdossier `rp-koblenz-56070-schrotthandel-s-alten` verweist und die Lage als „mit hoher Wahrscheinlichkeit derselbe Betrieb“ kennzeichnet. Bewusst **keine** Kontaktdaten und **keine** Koordinate in dieser Zeile: eine zweite belegte Adresse würde die Dublette erst recht sichtbar machen. Die eigentliche Prüfung (Gewerbe- oder Namensbeleg für „S. Alten“) bleibt offen; die Zusammenführung ist eine Entscheidung für einen späteren Datenbankschritt, nicht für das Dossier. Quellen: `dossiers/rp/rp-koblenz-56070-schrotthandel-s-alten.md` ; Recherche 28.10.2026 in diesem Dossier; `docs/trader-seed.md`.]
 
 ### Recherche 28.10.2026 — Straße geortet, Dublette zum Schwesterdossier belegt
 
