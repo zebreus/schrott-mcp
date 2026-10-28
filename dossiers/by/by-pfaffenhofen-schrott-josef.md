@@ -65,7 +65,7 @@ Geocodierungsbedarf wird im Bericht benannt.
 
 - [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Der Status ist `pruefung`, nicht `geschlossen`.** "Schrott" ist hier der **Nachname** (Josef Schrott); die JS Wohnbau GmbH HRB 190628, AG Ingolstadt, ist eine Immobilienagentur/Bautraeger und **nie** ein Schrottbetrieb - eine Schliessung zu behaupten waere eine falsche Aussage ueber den Betrieb. Nach der README gilt `geschlossen` nur fuer eine belegte Schliessung; die Zeile bleibt deshalb `pruefung` mit dokumentiertem Klaerfall. Quellen: `README.md` (Status-Semantik) ; `online-handelsregister.de` HRB 190628 (Abruf 28.10.2026).]
 
-### Recherche 28.10.2026: Falschzuordnung "Schrott Josef" = Immobilienagentur Josef Schrott aufgelöst
+### Recherche 28.10.2026: Falschzuordnung "Schrott Josef" aufgelöst — es ist eine Immobilienagentur
 
 - [Recherche 28.10.2026: **FALSCHZUORDNUNG KORRIGIERT.** Der Seed-Eintrag "Schrott Josef"
   (Pfaffenhofen, Kleinreichertshofen 4) stammt aus einem Verzeichnis-Prosa-Parse und ist **kein
@@ -92,7 +92,7 @@ Geocodierungsbedarf wird im Bericht benannt.
   `pruefung` mit dokumentiertem Klaerfall. **Ankauf: keine. Verkauf: keine.
   Gebühren: keine** (eine Immobilienprovision ist nicht Teil dieses Katalogs). Keine Koordinate
   gesetzt: die DB-Koordinate 49.0644/8.9764 löst auf "6, Pfarrgasse, Weiler an der Zaber,
-  74497 Pfaffenhofen" auf, rund 4 km vom adresskonformen Punkt "Kleinreichertshofen 4,
+  74497 Pfaffenhofen" auf, rund 195 km vom adresskonformen Punkt "Kleinreichertshofen 4,
   85276 Pfaffenhofen a.d. Ilm" entfernt - Geocodierungsbedarf, kein Ersatzpunkt geraten.
   **Offen:** ob Josef Schrott daneben einen weiteren, nicht im Netz auffindbaren Schrottbetrieb
   an derselben Adresse betreibt, ist nicht belegt und nicht behauptet; der Seed-Eintrag bleibt

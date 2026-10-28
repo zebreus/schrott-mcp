@@ -40,7 +40,7 @@ angefasst, Slugs blieben unverändert. `scripts/release/wave_gate.py HEAD` und
 |---|---|
 | Bearbeitete Dossiers | 20 (alle mit Notiz vom 28.10.2026) |
 | Frontmatter geändert | 19 (nur `th-muehlhausen-mrg-rueckbau-und-recycling` bleibt reine Timeline-Notiz) |
-| `status` → `aktiv` | 2 (`bb-drebkau-ot-schorbus-...`, `bb-velten-kraatz-...`) |
+| `status` → `aktiv` | 1 (`bb-velten-kraatz-...`) — **Nachtrag des Owners:** `bb-drebkau-ot-schorbus-...` war am selben Tag auf `aktiv` gesetzt, wurde nach der Prüfung wegen des fehlenden Registernachweises (Einzelunternehmer) aber auf `pruefung` zurückgenommen |
 | `status` → `pruefung` | 1 (`bw-freiburg-leonardo-reinhardt-schrotthandel`) |
 | `name` korrigiert | 3 (Velten, Potsdam, Dortmund) |
 | `certifications` gesetzt | 3 (ZAPS00100020, ZZEE00300224, ZZHT00300696) |

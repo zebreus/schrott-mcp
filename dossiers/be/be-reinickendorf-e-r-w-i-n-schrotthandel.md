@@ -54,7 +54,7 @@ bzw. Standortschließung vergeben.
 - **Gebühren:** keine Tarife.
 
 **GEO:** Die DB-Koordinate 52.602/13.3456 löst auf "**92, Maarer Straße, Wittenau**" auf - das
-liegt rund **420 m** vom adresskonformen Punkt "88, Wittenauer Straße, 13435 Berlin"
+liegt rund **540 m** vom adresskonformen Punkt "88, Wittenauer Straße, 13435 Berlin"
 (52.6051255/13.3394898) entfernt, also in einer **anderen Straße**. Das ist ein
 **Geocodierungsbedarf**; es wird kein Punkt geraten.
 
@@ -76,7 +76,7 @@ liegt rund **420 m** vom adresskonformen Punkt "88, Wittenauer Straße, 13435 Be
   `be-reinickendorf-inge-altermann` (Wittenauer Str. 100) bleibt eine getrennte Zeile - andere
   Hausnummer, andere Nummer, keine belegte Verbindung. **Ankauf/Verkauf/Gebühren:** keine
   Kurse, keine Listen, keine Tarife. **GEO: Geocodierungsbedarf** - die DB-Koordinate
-  52.602/13.3456 löst auf "92, Maarer Straße, Wittenau" auf, rund 420 m vom adresskonformen Punkt
+  52.602/13.3456 löst auf "92, Maarer Straße, Wittenau" auf, rund 540 m vom adresskonformen Punkt
   "88, Wittenauer Straße, 13435 Berlin" (52.6051255/13.3394898) entfernt und damit in einer
   anderen Straße; kein Punkt geraten. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/be/Charlottenburg-Berlin/HRB/118014/ERWIN-Schrotthandel-GmbH ;
   https://schrottregister.pages.dev/ort-berlin ;

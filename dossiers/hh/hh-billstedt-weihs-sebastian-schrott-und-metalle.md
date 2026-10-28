@@ -53,7 +53,7 @@ bleibt leer, `website_status` wird auf `unbekannt` normalisiert.
 - **Gebühren:** keine Tarife; **eine kostenlose Abholung ist nicht belegt**.
 
 **GEO:** Die DB-Koordinate 53.54/10.1261 löst auf "**11, Cottaweg, Öjendorf, Billstedt**" auf und
-liegt damit **rund 700 m** vom Adresspunkt entfernt. OSM kennt in der Möllner Landstraße die
+liegt damit **rund 140 m** vom Adresspunkt entfernt. OSM kennt in der Möllner Landstraße die
 Hausnummern **141a, 141b und 141c** (way 289880654-Bereich, 53.5389/10.1251) - die Seed-Angabe
 "**141K**" ist in OSM **nicht** als eigener Hausknoten vorhanden. Das ist ein
 **Geocodierungsbedarf** (Hausnummer 141K gegen 141a-c klären); es wird kein Punkt geraten.
@@ -79,7 +79,7 @@ Hausnummern **141a, 141b und 141c** (way 289880654-Bereich, 53.5389/10.1251) - d
   **Ankauf: keine Zahlenkurse**; belegt ist nur die Branchenzuordnung Schrott und Metalle.
   **Verkauf: keine Liste. Gebühren: keine Tarife**, kostenlose Abholung nicht belegt.
   **GEO: Geocodierungsbedarf** - die DB-Koordinate 53.54/10.1261 löst auf "11, Cottaweg,
-  Öjendorf, Billstedt" auf und liegt rund 700 m vom Adresspunkt entfernt; OSM kennt in der Möllner
+  Öjendorf, Billstedt" auf und liegt rund 140 m vom Adresspunkt entfernt; OSM kennt in der Möllner
   Landstraße die Hausnummern **141a, 141b, 141c** (53.5388714/10.1251619 u.a.), die Seed-Angabe
   "**141K**" ist dort **kein** eigener Hausknoten - die Hausnummer ist vor einer Geokodierung zu
   klären. Quelle(n): https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/sebastian-weihs-schrott-und-metalle-hamburg-70238112.html ;

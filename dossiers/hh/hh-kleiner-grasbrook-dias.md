@@ -88,8 +88,10 @@ Adresspunkt "6, Am Vulkanhafen" (53.5264649/9.9462641) entfernt. Das ist ein
   Silo-Zentrale Hamburg Recycling Solutions (Sandgrube 22), Veolia Umweltservice Nord
   (Billbrookdeich 134) und "Zweigniederlassung Hamburg" (Bredowstrasse 8) verzeichnet - **keiner
   davon ist als Nachfolger der DIAS belegt**. Frontmatter: **status pruefung → geschlossen** im
-  Sinne einer belegten Registeraufloesung: Die Gesellschaft ist am 10.03.2014 durch Insolvenz (67a IN 17/14) und Aufloesung **aufgeloest** worden; zusaetzlich wird festgehalten, dass an diesem Eintrag kein Schrottbetrieb belegt ist
-  der DIAS GmbH (das Register fuehrt sie aktiv) oder eine Verodung des Standorts. Die
+  Sinne einer belegten Registeraufloesung: Die Gesellschaft ist am 10.03.2014 durch Insolvenz (67a IN 17/14) und Aufloesung **aufgeloest** worden; zusaetzlich wird festgehalten, dass an diesem Eintrag kein
+  Schrottbetrieb belegt ist. **Nicht** behauptet wird eine Aufloesung des amtlichen Index-Eintrags
+  (das Registerportal fuehrt die Gesellschaft weiter als „aktiv“, weil es die Aufloesung nicht
+  nachfuehrt) und **nicht** eine Verodung des Standorts. Die
   **namensgleiche** Gesellschaft `dias.de` (HRB 58167, Haubachstrasse 72) bleibt als anderer
   Rechtstraeger abgegrenzt; die **DCP**-Zweigniederlassung Am Vulkanhafen 6 belegt Koexistenz,
   nicht Fortbestand. **Ankauf/Verkauf/Gebuehren:** keine Kurse, keine Listen, keine Tarife;

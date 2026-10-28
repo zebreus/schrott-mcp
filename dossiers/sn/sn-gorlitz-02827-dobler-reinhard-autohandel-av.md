@@ -70,7 +70,7 @@ belegt und wird weder behauptet noch bestritten; ebenso wenig eine dauerhafte Sc
 Abrufgrenzen abgeleitet.
 
 **GEO:** Die DB-Koordinate 51.156/14.9685333 löst auf "**24, Christoph-Lüders-Straße, Görlitz
-Innenstadt, 02826**" auf - das liegt in der **Innenstadt** und rund 1,5 km vom Adresspunkt
+Innenstadt, 02826**" auf - das liegt in der **Innenstadt** und rund 1,2 km vom Adresspunkt
 "1, Stadtgraben, Rauschwalde, 02827 Görlitz" (51.1526508/14.9518251) entfernt, also in einem
 **anderen Stadtteil und mit anderer PLZ**. Das ist ein **Geocodierungsbedarf**; es wird kein Punkt
 geraten.
@@ -104,7 +104,7 @@ geraten.
   belegt. Verkauf: keine aktuelle Preisliste** (zwei undatierte Fremdangebote ohne Preise).
   **Gebühren: keine Tarife.** **GEO: Geocodierungsbedarf** - die DB-Koordinate 51.156/14.9685333
   löst auf "24, Christoph-Lüders-Straße, Görlitz Innenstadt, 02826" auf, also in einen anderen
-  Stadtteil mit anderer PLZ und rund 1,5 km vom Adresspunkt "1, Stadtgraben, Rauschwalde, 02827
+  Stadtteil mit anderer PLZ und rund 1,2 km vom Adresspunkt "1, Stadtgraben, Rauschwalde, 02827
   Görlitz" (51.1526508/14.9518251) entfernt; kein Punkt geraten. Quelle(n): https://www.gelbeseiten.de/gsbiz/84bc4fa9-6ca5-403b-b483-14c251270f03 ;
   https://schrottregister.pages.dev/ort-gorlitz ;
   http://www.murmelregister.de/html/fahrzeug_borse.html ;

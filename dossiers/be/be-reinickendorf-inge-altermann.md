@@ -77,7 +77,7 @@ Kleinst-Eintrag an der **Wittenauer Straße 100, 13435 Berlin-Wittenau**. Die Re
   deshalb unverändert, es werden keine Frontmatter-Fills vorgenommen. **Ankauf: keine Preise und
   kein Sortiment belegt. Verkauf: keine Liste. Gebühren: keine Tarife. Kundenannahme nicht
   belegt. GEO: Geocodierungsbedarf** - die DB-Koordinate 52.602/13.3456 löst auf "92, Maarer
-  Straße, Wittenau" auf, rund 420 m vom adresskonformen Punkt "100, Wittenauer Straße, 13435
+  Straße, Wittenau" auf, rund 580 m vom adresskonformen Punkt "100, Wittenauer Straße, 13435
   Berlin" (52.6056393/13.3394712) entfernt und damit in einer anderen Straße; kein Punkt geraten.
   Quelle(n): https://www.gelbeseiten.de/branchen/schrotthaendler/berlin-reinickendorf ;
   https://www.berlinerbranchen.com/ ;
