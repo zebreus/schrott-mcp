@@ -1,5 +1,5 @@
-//! Hofmann Metall GmbH (Zwickau Hauptsitz + Chemnitz, Elstertrebnitz und
-//! Hirschfeld als Betriebsteile):
+//! Hofmann Metall GmbH (Zwickau Hauptsitz + Chemnitz, Elstertrebnitz, Hirschfeld,
+//! Brandis-Leipzig und Schmölln als Betriebsteile):
 //! KEINE eigenen Ankaufspreise auf der Site (verifiziert 28.09.2026).
 //! Die Homepage-Box "Marktpreise" zeigt AUSSCHLIESSLICH Fremddaten:
 //! Stahl Sorten 1-5 in EUR/t als "BDSV bundesweit" (mit Link auf die
@@ -8,10 +8,13 @@
 //! daher füllt dieser Handler wie `esh`/`quell` nur `trader_materials`
 //! aus der belegten Sorten-Übersicht (`/privat-kleingewerbekunden/`:
 //! 11 H2-Rubriken mit `toggler`-Sortenlabels) plus Kontakt.
-//! Eine Datei für alle vier Slugs: gleiche Annahmeseite, aber die Kontaktblöcke
-//! der Standorte unterscheiden sich in der Bauart — Chemnitz und Hirschfeld
-//! liefern zwei `<p>`, Elstertrebnitz eine Adress-`<p>` plus Kontakttabelle;
-//! deshalb je Standort ein eigener Extraktor mit eigenem URL-Anker. Die
+//! Eine Datei für alle sechs Slugs: gleiche Annahmeseite, aber die Kontaktblöcke
+//! der Standorte unterscheiden sich in der Bauart — Chemnitz, Hirschfeld,
+//! Brandis-Leipzig und Schmölln liefern `<p>`-Blöcke (Adressblock und
+//! Kontaktblock, teils mit einer vorangestellten Titelzeile und teils mit dem
+//! Label "Telefon:" statt "Büro:"), Elstertrebnitz eine Adress-`<p>` plus
+//! Kontakttabelle; deshalb je Standort ein eigener Extraktor mit eigenem
+//! URL-Anker. Die
 //! Standort-URLs sind **nicht** einheitlich: die drei sächsischen Seiten liegen
 //! unter `/standorte/<ort>/`, die Hirschfelder unter `/standort/hirschfeld/`
 //! (singular). Kein Datum auf der Seite →
@@ -48,6 +51,15 @@ pub const CHEMNITZ_URL: &str = "https://hofmann-metall.de/standorte/chemnitz/";
 /// Chemnitz: Adress-`<p>` plus Kontakt-`<p>`.
 pub const SLUG_HIRSCHFELD: &str = "bb-hirschfeld-hofmann-metall";
 pub const HIRSCHFELD_URL: &str = "https://hofmann-metall.de/standort/hirschfeld/";
+/// Betriebsteil Brandis-Leipzig (Gebrüder-Helfmann-Straße 1a, 04824 Brandis).
+/// Die Seite beginnt mit einer Titelzeile "Betriebsteil Brandis-Leipzig" vor der
+/// Adresse - der Extraktor sucht den Adressblock deshalb über die PLZ-Zeile.
+pub const SLUG_BRANDIS: &str = "sn-brandis-hofmann-metall-betriebsteil";
+pub const BRANDIS_URL: &str = "https://hofmann-metall.de/standorte/brandis-leipzig/";
+/// Betriebsteil Schmölln (Am Kemnitzgrund 16, 04626 Schmölln). Die Kontaktzeile
+/// nennt "Telefon:" statt "Büro:" - der Extraktor akzeptiert beide Labels.
+pub const SLUG_SCHMOELLN: &str = "sn-schmoelln-hofmann-metall-betriebsteil";
+pub const SCHMOELLN_URL: &str = "https://hofmann-metall.de/standorte/schmoelln/";
 /// Bespoke, live-verified Elstertrebnitz contact page (KONTAKT-Tabelle).
 pub const ELSTERTREBNITZ_URL: &str = "https://hofmann-metall.de/standorte/elstertrebnitz/";
 
@@ -66,6 +78,24 @@ pub fn handler_hirschfeld() -> Handler {
         url: URL,
         schedule: Schedule::every_6h(),
         scrape: |c| Box::pin(scrape_hirschfeld(c)),
+    }
+}
+
+pub fn handler_brandis() -> Handler {
+    Handler {
+        slug: SLUG_BRANDIS,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape_brandis(c)),
+    }
+}
+
+pub fn handler_schmoelln() -> Handler {
+    Handler {
+        slug: SLUG_SCHMOELLN,
+        url: URL,
+        schedule: Schedule::every_6h(),
+        scrape: |c| Box::pin(scrape_schmoelln(c)),
     }
 }
 
@@ -105,6 +135,18 @@ async fn scrape_hirschfeld(client: &reqwest::Client) -> Result<HandlerOutcome, I
     Ok(outcome)
 }
 
+async fn scrape_brandis(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+    let (status, html) = fetch_text(client, URL).await?;
+    let outcome = build_outcome(status, &html, fetch_contact_brandis(client).await?)?;
+    Ok(outcome)
+}
+
+async fn scrape_schmoelln(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
+    let (status, html) = fetch_text(client, URL).await?;
+    let outcome = build_outcome(status, &html, fetch_contact_schmoelln(client).await?)?;
+    Ok(outcome)
+}
+
 async fn scrape_zwickau(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError> {
     let (status, html) = fetch_text(client, URL).await?;
     // Impressum failure fails the whole step on purpose: a moved contact
@@ -134,6 +176,20 @@ async fn fetch_contact_hirschfeld(client: &reqwest::Client) -> Result<TraderInfo
     // the site changed shape and needs eyeballs.
     let (_, html) = fetch_text(client, HIRSCHFELD_URL).await?;
     extract_info_contact_paragraphs(HIRSCHFELD_URL, &html)
+}
+
+async fn fetch_contact_brandis(client: &reqwest::Client) -> Result<TraderInfo, IngestError> {
+    // Same loud rule as the impressum: a moved Betriebsteil page means
+    // the site changed shape and needs eyeballs.
+    let (_, html) = fetch_text(client, BRANDIS_URL).await?;
+    extract_info_contact_paragraphs(BRANDIS_URL, &html)
+}
+
+async fn fetch_contact_schmoelln(client: &reqwest::Client) -> Result<TraderInfo, IngestError> {
+    // Same loud rule as the impressum: a moved Betriebsteil page means
+    // the site changed shape and needs eyeballs.
+    let (_, html) = fetch_text(client, SCHMOELLN_URL).await?;
+    extract_info_contact_paragraphs(SCHMOELLN_URL, &html)
 }
 
 fn build_outcome(
@@ -479,15 +535,27 @@ fn extract_info_contact_paragraphs(url: &str, html: &str) -> Result<TraderInfo, 
         .next_siblings()
         .filter_map(ElementRef::wrap)
         .filter(|e| e.value().name() == "p")
-        .take(2)
+        .take(6)
         .collect();
-    let Some(addr_p) = paras.first() else {
+    // Der Adressblock ist der erste `<p>` mit einer PLZ-Zeile; die Standorte
+    // setzen ihn unterschiedlich (Chemnitz/Hirschfeld/Schmölln beginnen mit
+    // der Adresse, Brandis-Leipzig mit einer Titelzeile "Betriebsteil ...").
+    let addr_index = paras.iter().position(|p| {
+        let lines: Vec<String> = p
+            .inner_html()
+            .split("<br")
+            .map(strip_fragment)
+            .filter(|s| !s.is_empty())
+            .collect();
+        firm_block(&lines).is_some()
+    });
+    let Some(addr_index) = addr_index else {
         return Err(IngestError::Parse {
             url: url.to_owned(),
             detail: "Adress-Block fehlt".to_owned(),
         });
     };
-    let lines: Vec<String> = addr_p
+    let lines: Vec<String> = paras[addr_index]
         .inner_html()
         .split("<br")
         .map(strip_fragment)
@@ -499,14 +567,28 @@ fn extract_info_contact_paragraphs(url: &str, html: &str) -> Result<TraderInfo, 
         postcode = addr.1;
         city = addr.2;
     }
+    // Der Kontaktblock ist der erste `<p>` **nach** der Adresse mit einer
+    // Telefon- oder E-Mail-Angabe.
     let (mut phone, mut email) = (String::new(), String::new());
-    if let Some(contact_p) = paras.get(1) {
+    let contact_p = paras.iter().skip(addr_index + 1).find(|p| {
+        let joined: String = p.text().collect::<Vec<_>>().join(" ");
+        joined.contains("Büro:") || joined.contains("Telefon:") || joined.contains('@')
+    });
+    if let Some(contact_p) = contact_p {
         // Entities (&#99;…) are already decoded by html5ever here; join
         // with spaces so "1" and "E-Mail:" don't glue into one token.
         let joined: String = contact_p.text().collect::<Vec<_>>().join(" ");
         let flat = joined.split_whitespace().collect::<Vec<_>>().join(" ");
-        if let Some(i) = flat.find("Büro:") {
-            phone = phone_tokens(&flat[i + "Büro:".len()..]);
+        // Das Label variiert: Chemnitz/Hirschfeld/Brandis nennen "Büro:",
+        // Schmölln "Telefon:". Die erste passende Angabe gewinnt.
+        for label in ["Büro:", "Telefon:"] {
+            if let Some(i) = flat.find(label) {
+                let candidate = phone_tokens(&flat[i + label.len()..]);
+                if !candidate.is_empty() {
+                    phone = candidate;
+                    break;
+                }
+            }
         }
         email = flat
             .split_whitespace()
@@ -676,7 +758,7 @@ fn strip_fragment(s: &str) -> String {
 mod tests {
     use super::{
         extract_info_contact_paragraphs, extract_info_elstertrebnitz, extract_info_zwickau,
-        grade_for, negative_label, parse, CHEMNITZ_URL, HIRSCHFELD_URL,
+        grade_for, negative_label, parse, BRANDIS_URL, CHEMNITZ_URL, HIRSCHFELD_URL, SCHMOELLN_URL,
     };
 
     // Real excerpt shapes of the live page (28.09.2026): `<br />`
@@ -1019,6 +1101,41 @@ mod tests {
         assert_eq!(info.phone, "0371 / 33 49 79 1");
         assert_eq!(info.email, "chemnitz@hofmann-metall.de");
         assert!(extract_info_contact_paragraphs(CHEMNITZ_URL, "<h3>Anders</h3>").is_err());
+    }
+
+    #[test]
+    fn standort_extracts_brandis_with_title_line_before_the_address() {
+        // Real fragment shape of the live Brandis-Leipzig page (28.10.2026):
+        // a title paragraph before the address, entity-encoded mail.
+        let html = "<h3>KONTAKT & ÖFFNUNGSZEITEN</h3>\
+            <p>Betriebsteil Brandis-Leipzig</p>\
+            <p>Gebrüder-Helfmann-Straße 1a<br>04824 Brandis</p>\
+            <p>&nbsp;</p>\
+            <p><span class=\"tab\">Büro:</span> 034292 / 28 60 06<br>\
+            <span class=\"tab\">E-Mail: </span> &#98;&#x72;&#97;&#x6E;&#x64;&#x69;&#x73;&#x40;&#x68;&#x6F;&#x66;&#x6D;&#x61;&#x6E;&#x6E;&#x2D;&#x6D;&#x65;&#x74;&#x61;&#x6C;&#x6C;&#x2E;&#x64;&#x65;</p>";
+        let info = extract_info_contact_paragraphs(BRANDIS_URL, html).expect("parses");
+        assert_eq!(info.street, "Gebrüder-Helfmann-Straße 1a");
+        assert_eq!(info.postcode, "04824");
+        assert_eq!(info.city, "Brandis");
+        assert_eq!(info.phone, "034292 / 28 60 06");
+        assert_eq!(info.email, "brandis@hofmann-metall.de");
+    }
+
+    #[test]
+    fn standort_extracts_schmoelln_with_telefon_label() {
+        // Real fragment shape of the live Schmölln page (28.10.2026): the
+        // contact line says "Telefon:" instead of "Büro:".
+        let html = "<h3>KONTAKT & ÖFFNUNGSZEITEN</h3>\
+            <p>Am Kemnitzgrund 16<br>04626 Schmölln</p>\
+            <p><span class=\"tab\">Telefon:</span> 034491 / 57 55 50<br>\
+            <span class=\"tab\">Mobil:</span> 0151 / 50 42 79 04<br>\
+            <span class=\"tab\">E-Mail:</span> &#115;&#x63;&#x68;&#x6D;&#111;&#x65;&#x6C;&#x6C;&#x6E;&#x40;&#x68;&#x6F;&#x66;&#x6D;&#x61;&#x6E;&#x6E;&#x2D;&#x6D;&#x65;&#x74;&#x61;&#x6C;&#x6C;&#x2E;&#x64;&#x65;</p>";
+        let info = extract_info_contact_paragraphs(SCHMOELLN_URL, html).expect("parses");
+        assert_eq!(info.street, "Am Kemnitzgrund 16");
+        assert_eq!(info.postcode, "04626");
+        assert_eq!(info.city, "Schmölln");
+        assert_eq!(info.phone, "034491 / 57 55 50");
+        assert_eq!(info.email, "schmoelln@hofmann-metall.de");
     }
 
     #[test]
