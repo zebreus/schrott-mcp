@@ -53,7 +53,7 @@ Kleinst-Eintrag an der **Wittenauer Straße 100, 13435 Berlin-Wittenau**. Die Re
 - **Gebühren:** keine Tarife.
 
 **GEO:** Die DB-Koordinate 52.602/13.3456 löst auf "**92, Maarer Straße, Wittenau**" auf - rund
-**420 m** vom adresskonformen Punkt "100, Wittenauer Straße, 13435 Berlin"
+**580 m** vom adresskonformen Punkt "100, Wittenauer Straße, 13435 Berlin"
 (52.6056393/13.3394712) entfernt, also in einer **anderen Straße**. Das ist ein
 **Geocodierungsbedarf**; es wird kein Punkt geraten.
 

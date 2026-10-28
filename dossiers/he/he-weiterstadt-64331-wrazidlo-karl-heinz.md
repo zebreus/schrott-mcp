@@ -52,7 +52,7 @@ Einzelunternehmer ohnehin selten erfasst werden. `status: pruefung` bleibt desha
 
 **GEO:** Die DB-Koordinate 49.9039/8.5887 löst auf "19, Liebfrauenstraße, Riedbahn, 64331
 Weiterstadt" auf, also auf die **Straße Grabenstraße weiter nördlich**, nicht auf Grabenstr. 13
-(addresskonformer OSM-Punkt: 49.9257665/8.5813713, way 289880654 = "13, Grabenstraße,
+(addresskonformer OSM-Punkt: 49.9257665/8.5813713, node 10028297692 = "13, Grabenstraße,
 Schneppenhausen"). Das ist ein **Geocodierungsbedarf**; die Koordinate wird nicht selbst gesetzt
 und nicht geraten.
 
