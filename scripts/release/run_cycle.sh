@@ -72,7 +72,7 @@ python3 "$ROOT/scripts/release/make_wave_e_expectations.py" \
   --rehearsal "$PROBE_DIR/data/public.db" \
   --probe-manifest "$PROBE_DIR/predeploy-probe-manifest.json" \
   --release "$COMMIT" --tree "$TREE" \
-  --base "$ROOT/scripts/wave-e-20261028-expectations.json" \
+  --base "$ROOT/scripts/wave-e-20261028-0600-expectations.json" \
   --out "$ROOT/scripts/wave-e-$SHORT-seed-expectations.json"
 
 echo "== pin wave E verifier =="

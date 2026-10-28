@@ -31,7 +31,7 @@ def main() -> int:
     # Dossier der Scope wurde nach belegter Recherche verbessert; Begründung
     # in research/wave-e-20261027-owner.md).
     parser.add_argument("--base", type=Path,
-                        default=Path("scripts/wave-e-20261028-expectations.json"))
+                        default=Path("scripts/wave-e-20261028-0600-expectations.json"))
     args = parser.parse_args()
 
     base = json.loads(args.base.read_text())
