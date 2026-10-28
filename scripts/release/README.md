@@ -34,6 +34,8 @@ python3 scripts/release/post_rollout_check.py
 | `rollout.py` | Backup, Binärtausch, Neustart, Health-Check, Post-Rollout-Lauf |
 | `post_rollout_check.py` | read-only Nachprüfung nach dem Rollout |
 | `wave_gate.py` | Owner-Gate der Recherche-Wellen (Dossier-Form) |
+| `revise_wave_e_pin.py` | revidiert die Wave-E-Pin-Basis nach einer Welle, die Scope-Zeilen verbessert hat (mit Selbstprüfung gegen die private Probe) |
+| `pin_pending_corrections.py` | pinnt das Gate `verify-pending-corrections.py` auf einen Release (eigene Erwartungsdatei + Gate-Kopie) |
 
 ## Grundsätze
 
