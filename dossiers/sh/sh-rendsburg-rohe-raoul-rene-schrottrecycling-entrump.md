@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betrieb wird in den Branchenverzeichnissen als "Rohe Raoul-Rene Schrottrecycling - Entrümpelung", Alte Kieler Landstr. 135, 24768 Rendsburg, 0174 1 76 97 62 geführt, mit der Leistungsangabe "Wir holen vor Ort Altmetalle und Schrott ab" und einer Bewertung "R. Rohe aus Rendsburg"; city-map führt denselben Namen und Ort. Eine eigene Betreiberseite und ein Registerbeleg wurden nicht gefunden, 11880 führt in Rendsburg nur andere Schrottbetriebe (Ehrich Gruppe, Nickels, Paulsen, Reiner Mohr).
+Der Betrieb wird in den Branchenverzeichnissen als "Rohe Raoul-Rene Schrottrecycling - Entrümpelung", Alte Kieler Landstr. 135, 24768 Rendsburg, 0174 1 76 97 62 geführt, mit der Leistungsangabe "Wir holen vor Ort Altmetalle und Schrott ab" und einer Bewertung "R. Rohe aus Rendsburg"; city-map führt denselben Namen und Ort; der frühere Direktlink (city-map.de/rendsburg/rohe-raoul-rene) ist inzwischen nicht mehr abrufbar (Weiterleitung auf city-map.com), die city-map-Evidenz ist damit nicht reproduzierbar - der tragende Primärbeleg sind Gelbe Seiten und 11880. Eine eigene Betreiberseite und ein Registerbeleg wurden nicht gefunden, 11880 führt in Rendsburg nur andere Schrottbetriebe (Ehrich Gruppe, Nickels, Paulsen, Reiner Mohr).
 
 **ANKAUF:** keine Preise und keine Sortenliste veröffentlicht. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife.
 

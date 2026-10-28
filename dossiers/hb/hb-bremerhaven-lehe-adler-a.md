@@ -33,9 +33,11 @@ Die Hausnummer 5 ist in OSM nicht erfasst (nur der Straßenverlauf sowie die Hau
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine Tatsachenbehauptung im Dossiertext war falsch und ist berichtigt.** der Deep-Link auf den Portal-Lead liefert HTTP 404; der Eintrag „Adolf Adler“ lebt weiterhin unter der Portal-Übersicht für Bremerhaven, die inhaltliche Aussage bleibt. Die betroffene Notiz ist inhaltlich erhalten; die Korrekturvermerke in den übrigen Dossiers derselben Welle sind analog. Quellen: die oben genannten Objekte live abgerufen am 28.10.2026.]
+
 ### Nachprüfung 06.10.2026
 
-- [Nachprüfung 06.10.2026: Der direkte Abruf des bestehenden Schrottplatz-Info-Leads bezeichnet den Eintrag als „Autoverwertung Adler A.“ und führt Schierholzweg 5, 27578 Bremerhaven und 0471 86763; Beschreibung, Öffnungszeiten und Leistungsangebot sind laut Portal nicht vollständig erfasst. Das bestätigt lediglich den bisherigen Aggregatorstand, nicht unabhängig Betreiber oder aktuelle Annahme. Der ältere Portalname „Adolf Adler“ bleibt eine ungeklärte Namensvariante; dessen frühere URL lieferte beim aktuellen Abruf 404 und zählt nicht als aktuelle Bestätigung. Keine belegten Ankaufspreise, Verkaufspreise oder Gebühren; Adresse vor Geocoding bestätigen. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bremerhaven/Adler-A- ; https://www.schrottplatz.org/bremerhaven/adolf-adler-296505 (älterer Portal-Lead, aktueller Abruf 404)]
+- [Nachprüfung 06.10.2026: Der direkte Abruf des bestehenden Schrottplatz-Info-Leads bezeichnet den Eintrag als „Autoverwertung Adler A.“ und führt Schierholzweg 5, 27578 Bremerhaven und 0471 86763; Beschreibung, Öffnungszeiten und Leistungsangebot sind laut Portal nicht vollständig erfasst. Das bestätigt lediglich den bisherigen Aggregatorstand, nicht unabhängig Betreiber oder aktuelle Annahme. Der ältere Portalname „Adolf Adler“ bleibt eine ungeklärte Namensvariante; dessen frühere URL lieferte beim aktuellen Abruf 404 und zählt nicht als aktuelle Bestätigung. Keine belegten Ankaufspreise, Verkaufspreise oder Gebühren; Adresse vor Geocoding bestätigen. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bremerhaven/Adler-A- ; https://www.schrottplatz.org/bremerhaven/adolf-adler-296505 (älterer Portal-Lead, aktueller Abruf 404 - der Eintrag „Adolf Adler“ lebt weiterhin unter schrottplatz.org/bremerhaven)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
