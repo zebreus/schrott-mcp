@@ -4,15 +4,15 @@ name: Autoverwertung Burlafinger GbR
 trader_type: autoverwertung
 state: BY
 city: Schrobenhausen
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Grimolzhausener Straße 12
+postcode: '86529'
+phone: 08252 83895
+email: autoverwertung-burlafinger@t-online.de
+opening_hours: Mo-Fr 08:00-12:00, 13:00-18:00, Sa 09:00-13:00
 website: https://www.autoverwertung-burlafinger.de/
 website_status: aktiv
-status: pruefung
-description: ''
+status: aktiv
+description: 'Familienbetrieb (gegründet 01.09.1988), Inhaber Helmut Burlafinger sen., Helmut Burlafinger jun. und Anton Burlafinger. Zertifiziert nach § 5 Abs. 3 AltfahrzeugV (GESA-Fachbetrieberegister, Kennung ZAIS01500007 / 1, Bescheinigungsanlagennr. 1, Kennnummer I185E1224), Meisterbrief Kraftfahrzeugtechniker. ANKAUF: Ankauf von Altfahrzeugen und Abholung; Metalle/Schrott sind nicht als Annahme-Art genannt. VERKAUF: Groß- und Einzelhandel mit Kraftfahrzeugen und Autozubehör, Neu- und Gebrauchtteilehandel, Handel mit Reifen und Felgen, eigener Autowerkstatt; keine öffentliche Preisliste. GEBÜHREN: keine Tarife veröffentlicht; eine kostenlose Abholung ist nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Audit 7 Feedback #6580'
@@ -24,11 +24,98 @@ provenance_origin: feedback
 
 ## Überblick
 
-Der Betreiberauftritt unter autoverwertung-burlafinger.de ist erreichbar. Sein Impressum identifiziert die Autoverwertung Burlafinger GbR und nennt Anschrift, Inhaber, USt-ID und Kontakt; die Kontaktseite veröffentlicht Adresse, Telefon, E-Mail und Öffnungszeiten. Das sind Betreiber-Eigenaussagen aus einer Quelle, kein unabhängiger Zweitbeleg. AutoverwerterFinder führt denselben Betrieb mit GESA-Verweis; das Verzeichnis ist nach der Repo-Quellenhierarchie nur ein Lead, kein direkt eingesehener Registerdatensatz. Daher bleiben Adresse, Kontakt, Zeiten und Annahmebedingungen im Frontmatter leer, `status: pruefung`; `website_status: aktiv` bezeichnet nur die erreichbare Website.
+Der **Autoverwertung Burlafinger GbR**-Eintrag ist jetzt vollständig belegt. Die Belegkette
+besteht aus der **Betreiber-Primärquelle** und dem **amtlichen Fachbetrieberegister**:
 
-Im lokalen Dossierbestand gibt es in Schrobenhausen außerdem `by-schrobenhausen-bichler.md` (Johanna Bichler Entsorgung, Rettenbacher Str. 21) und `by-schrobenhausen-steingriff-gigler.md` (Gigler, Gollingkreuter Weg 13). Das sind andere Namen und getrennte Anschriften, kein Beleg für eine Burlafinger-Zweigstelle oder Zusammengehörigkeit; die Dossiers blieben unverändert. Die Suchtreffer beschreiben Werkstatt und Autoverwertung gemeinsam am Burlafinger-Lead, belegen aber keine zweite Burlafinger-Adresse.
+- **Betreiber-Primärquelle** (`autoverwertung-burlafinger.de`, am 28.10.2026 einzeln abgerufen):
+  - **Impressum**: "Autoverwertung Burlafinger GbR, **Grimolzhausenerstraße 12, 86529
+    Schrobenhausen**", Festnetz **08252 83895**, Fax 08252 83897, Mail
+    **autoverwertung-burlafinger@t-online.de**, Rechtsform GbR, Geschäftsführer/Inhaber
+    **Helmut Burlafinger sen., Helmut Burlafinger jun., Anton Burlafinger**,
+    Unternehmensgründung **01.09.1988**, **USt-IdNr. DE131285701**, Aufsichtsbehörde
+    LRA Neuburg-Schrobenhausen.
+  - **Kontaktseite**: gleiche Anschrift, 08252 83895, autoverwertung-burlafinger@t-online.de.
+  - **Leistungsseite**: "Unser Familienbetrieb wurde bereits 1988 gegründet ... Wir sind nach
+    **§ 5 Abs. 3 der Altfahrzeugverordnung zertifiziert** und besitzen zudem den Meisterbrief als
+    Kraftfahrzeugtechniker." Schwerpunkte: **Autoverwertung (Recycling)**, **Abholung von
+    Altfahrzeugen**, Groß- und Einzelhandel mit Kraftfahrzeugen und Autozubehör,
+    **Neu- und Gebrauchtteilehandel**, **Handel mit Reifen und Felgen**, eigener Autowerkstatt.
+  - **Öffnungszeiten**: Montag bis Freitag 08:00-12:00 Uhr und 13:00-18:00 Uhr, Samstag
+    09:00-13:00 Uhr.
+- **Amtliches Fachbetrieberegister** (GESA-Fachbetrieberegister nach § 7 Abs. 2a AltfahrzeugV,
+  über `autoverwerterfinder.de`, "Angaben aus dem Fachbetrieberegister", Datenstand 19.08.2026):
+  "Der Standort ist im GESA-Fachbetrieberegister als **Demontagebetrieb** geführt",
+  **ZAIS01500007 / 1**, Bescheinigungsanlagennr. **1**, Kennnummer **I185E1224**, Anschrift
+  **Grimolzhausener Straße 12, 86529 Schrobenhausen-Sandizell**, Tel. 08252 83895.
+
+Die frühere Notiz vom 12.10.2026, die Kontakt-/Adressfelder blieben leer, weil "nur eine
+Betreiberquelle" vorlag, ist damit überholt: Es liegt eine **Betreiber-Primärquelle** vor **und**
+ein **amtlicher Registereintrag** als zweite, unabhängige Quelle. Nach den README-Kriterien für
+den Einzelbeleg (Impressum nennt Rechtsträger und USt-IdNr., Inhalt ist aktuell mit
+Zertifizierungsangabe) trägt die Betreiberquelle die Stammdaten allein; das Register bestätigt
+Zertifizierung und Anschrift zusätzlich.
+
+**Preise (Ankauf / Verkauf / Gebühren) getrennt:**
+
+- **Ankauf:** **Altfahrzeuge** werden angekauft und abgeholt ("Autoverwertung (Recycling)",
+  "Abholung von Altfahrzeugen"). Ein **Ankauf von Schrott oder Metall** wird auf der
+  Betreiberseite **nicht** genannt - für diesen Aspekt gibt es keine Belege, weder eine
+  Preise- noch eine Annahmeliste. Zahlenkurse werden nicht veröffentlicht.
+- **Verkauf:** Groß- und Einzelhandel mit Kraftfahrzeugen und Autozubehör, Neu- und
+  Gebrauchtteilehandel, Handel mit Reifen und Felgen - **keine öffentliche Preisliste**.
+- **Gebühren:** **keine Tarife** veröffentlicht; eine kostenlose Abholung ist **nicht belegt**.
+
+**GEO:** Die Anschrift "Grimolzhausener Straße 12, 86529 Schrobenhausen-Sandizell" ist belegt;
+Nominatim liefert dafür bislang nur den Straßenpunkt (48.5792083/11.1742267, "Grimolzhausener
+Straße, Sandizell, Schrobenhausen"), **keinen adresskonformen Hausknoten**. Das ist ein
+**Geocodierungsbedarf**; es wird kein Punkt geraten.
+
+**Abgrenzung:** Die beiden anderen Schrobenhausener Einträge (`by-schrobenhausen-bichler.md`,
+`by-schrobenhausen-steingriff-gigler.md`) bleiben unverändert. `by-schrobenhausen-steingriff-gigler.md`
+ist durch das amtliche Register sogar bestätigt: "**Gigler GmbH Verwaltung und Betrieb
+Schrobenhausen**, Gollingkreuter Weg 13, 86529 Schrobenhausen", Tätigkeiten Lagern, Behandeln,
+**anerkannter Demontagebetrieb** - ein anderer Betrieb als Burlafinger.
 
 ## Timeline
+
+### Recherche 28.10.2026: Betreiber-Primärquelle und GESA-Registereintrag belegen die Stammdaten
+
+- [Recherche 28.10.2026: **VOLLSTÄNDIG BELEGT - Adress-, Kontakt- und Zertifizierungsdaten gefüllt.**
+  (1) **Betreiber-Primärquelle** `autoverwertung-burlafinger.de`, am 28.10.2026 einzeln abgerufen:
+  das **Impressum** nennt "Autoverwertung Burlafinger GbR, **Grimolzhausenerstraße 12, 86529
+  Schrobenhausen**", Festnetz **08252 83895**, Fax 08252 83897, Mail
+  **autoverwertung-burlafinger@t-online.de**, Rechtsform GbR, Geschäftsführer/Inhaber **Helmut
+  Burlafinger sen., Helmut Burlafinger jun., Anton Burlafinger**, Gründung **01.09.1988**,
+  **USt-IdNr. DE131285701**, Aufsichtsbehörde LRA Neuburg-Schrobenhausen; die **Kontaktseite**
+  bestätigt Anschrift und Kontakt; die **Leistungsseite** nennt die Zertifizierung "nach
+  **§ 5 Abs. 3 der Altfahrzeugverordnung**" und den Meisterbrief Kraftfahrzeugtechniker sowie die
+  Schwerpunkte Autoverwertung (Recycling), Abholung von Altfahrzeugen, Groß-/Einzelhandel mit
+  Kraftfahrzeugen und Autozubehör, Neu- und Gebrauchtteilehandel, Handel mit Reifen und Felgen
+  und eine eigene Autowerkstatt; die **Öffnungszeiten** sind Mo-Fr 08:00-12:00 und 13:00-18:00,
+  Sa 09:00-13:00. (2) **Amtliches Fachbetrieberegister** (GESA-Fachbetrieberegister nach
+  § 7 Abs. 2a AltfahrzeugV, über autoverwerterfinder.de, "Angaben aus dem Fachbetrieberegister",
+  Datenstand 19.08.2026): Standort als **Demontagebetrieb** geführt, **ZAIS01500007 / 1**,
+  Bescheinigungsanlagennr. 1, Kennnummer **I185E1224**, Anschrift Grimolzhausener Straße 12,
+  86529 Schrobenhausen-Sandizell. Damit sind Betreiber-Primärquelle **und** amtliches Register
+  vorhanden; die frühere Notiz vom 12.10.2026 ("kein zulässiger unabhängiger Zweitbeleg") ist
+  überholt. Frontmatter gefüllt: street, postcode, phone, email, opening_hours,
+  **status pruefung → aktiv** (Betrieb ist zertifiziert und betreibt die eigene Werkstatt;
+  `website_status: aktiv` bleibt), `description` um die belegten Leistungen und die
+  getrennten Ankauf-/Verkauf-/Gebühren-Angaben ergänzt. **Ankauf:** Altfahrzeuge inkl. Abholung
+  belegt; ein Ankauf von **Schrott/Metall** wird auf der Betreiberseite **nicht** genannt und ist
+  daher **nicht** belegt; keine Zahlenkurse. **Verkauf:** Kfz-/Teile-/Reifenhandel belegt, keine
+  öffentliche Preisliste. **Gebühren:** keine Tarife, kostenlose Abholung nicht belegt.
+  **GEO: Geocodierungsbedarf** - Nominatim liefert für "Grimolzhausener Straße 12, 86529
+  Schrobenhausen-Sandizell" nur den Straßenpunkt 48.5792083/11.1742267, keinen adresskonformen
+  Hausknoten; kein Punkt geraten. **Abgrenzung:** "Gigler GmbH Verwaltung und Betrieb
+  Schrobenhausen", Gollingkreuter Weg 13 (im amtlichen Fachbetrieberegister als anerkannter
+  Demontagebetrieb geführt) ist ein anderer Betrieb; die Dossiers `by-schrobenhausen-bichler.md`
+  und `by-schrobenhausen-steingriff-gigler.md` bleiben unverändert. Quelle(n): https://www.autoverwertung-burlafinger.de/impressum ;
+  https://www.autoverwertung-burlafinger.de/kontakt ; https://www.autoverwertung-burlafinger.de/leistungen ;
+  https://autoverwerterfinder.de/autoverwerter/autoverwertung-burlafinger-gbr/ ;
+  https://schrottregister.pages.dev/ort-schrobenhausen ;
+  https://nominatim.openstreetmap.org/search?q=Grimolzhausener+Stra%C3%9Fe+12%2C+86529+Schrobenhausen&format=jsonv2 ;
+  read-only `public.db` (28.10.2026).]
 
 ### Recherche 12.10.2026
 

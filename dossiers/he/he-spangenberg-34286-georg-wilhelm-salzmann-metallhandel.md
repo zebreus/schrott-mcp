@@ -39,7 +39,7 @@ auflösen:
 - **Branchenverzeichnisse** (Stadtbranchenbuch Spangenberg, meinestadt-Branchenbuch,
   Yelp, Creditreform-Firmeneintrag, companyhouse) nennen übereinstimmend "G. W. Salzmann & Sohn KG,
   Metall- und Schrotthandel", Louis-Salzmann-Str. 4, 34286 Spangenberg, Tel. 05663 1296,
-  E-Mail info@metallhandel-salzmann.de, Domain www.metallhandel-salzmann.de. Das Creditreform-Firmenprofil
+  E-Mail info@metallhandel-salzmann.de, Domain https://www.metallhandel-salzmann.de. Das Creditreform-Firmenprofil
   nennt als Tätigkeit "Großhandelsvermittlung von Brennstoffen, Erzen, Metallen und technischen
   Chemikalien".
 
@@ -79,7 +79,7 @@ Verzeichnisangabe der exakten Hausnummer) fehlt.
   Branchenverzeichnisse (Stadtbranchenbuch Spangenberg, meinestadt-Branchenbuch, Yelp,
   Creditreform-Firmeneintrag, companyhouse) nennen übereinstimmend "G. W. Salzmann & Sohn KG,
   Metall- und Schrotthandel", Louis-Salzmann-Str. 4, 34286 Spangenberg, Tel. 05663 1296, Mail
-  info@metallhandel-salzmann.de, www.metallhandel-salzmann.de; Creditreform nennt als Tätigkeit die
+  info@metallhandel-salzmann.de, https://www.metallhandel-salzmann.de; Creditreform nennt als Tätigkeit die
   "Großhandelsvermittlung von Brennstoffen, Erzen, Metallen und technischen Chemikalien". Frontmatter
   entsprechend korrigiert: name auf die Registerfirmierung, **city "Spangenberg 34286" → "Spangenberg"**
   (die PLZ stand fälschlich im city-Feld), street/postcode/phone/email gefüllt, website

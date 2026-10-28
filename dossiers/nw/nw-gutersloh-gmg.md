@@ -10,9 +10,10 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: Der Seedname "GMG" lässt sich keinem konkreten Betreiber zuordnen. Der einzige belegte Lead ist der Verzeichniseintrag "GMG-Metallgesellschaft", Hermann-Nohl-Str. 12, 33330 Gütersloh, Telefon 05241 220997, ohne Website, E-Mail, Öffnungszeiten oder Registerkennung; eine zweite unabhängige Quelle ist nicht gefunden. Das amtliche Fachbetrieberegister hat für Gütersloh keine Ortsseite, eine Handelsregister- oder NorthData-Suche nach einer GMG in Gütersloh blieb negativ. Zu unterscheiden ist die Metallmanufaktur Gütersloh GmbH & Co. KG (AG Gütersloh HRA 8113, Bartholomäusweg 37, 33334 Gütersloh) als Namensvetter mit anderer Anschrift. Ankauf, Verkauf und Gebühren sind nicht belegt; die Gebühren des Portal-Euro-FAQ und die empfohlenen Nachbaranbieter sind keine Tarife dieses Betriebs.
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -24,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seedname „GMG“ lässt sich im dokumentierten Rechercheumfang nicht belastbar einem konkreten Betreiber zuordnen. Der direkt gelesene 11880-Lead nennt „GMG-Metallgesellschaft“, Hermann-Nohl-Str. 12, 33330 Gütersloh, Telefon 05241 220997. Keine zugeordnete Betreiber-/Registerquelle in den dokumentierten Suchläufen, amtliche Identitätsprüfung offen; kein Register-Negativbescheid. Anschrift, Telefon und Branchenlabel bleiben unverifizierte Hinweise, nicht als Stammdaten übernommen. Im abgerufenen Portalinhalt keine zuordenbaren numerischen Ankaufspreise, Verkaufspreise oder Gebühren; keine Kostenfreiheit oder Nichtangebot daraus ableiten. Nicht geocodieren, bis Betreiberidentität und aktuelle Anschrift bestätigt sind.
+Der Seedname „GMG" lässt sich im dokumentierten Rechercheumfang nicht belastbar einem konkreten Betreiber zuordnen. Der direkt gelesene 11880-Lead nennt „GMG-Metallgesellschaft", Hermann-Nohl-Str. 12, 33330 Gütersloh, Telefon 05241 220997. Keine zugeordnete Betreiber-/Registerquelle in den dokumentierten Suchläufen, amtliche Identitätsprüfung offen; kein Register-Negativbescheid. Anschrift, Telefon und Branchenlabel bleiben unverifizierte Hinweise, nicht als Stammdaten übernommen. Im abgerufenen Portalinhalt keine zuordenbaren numerischen Ankaufspreise, Verkaufspreise oder Gebühren; keine Kostenfreiheit oder Nichtangebot daraus ableiten. Nicht geocodieren, bis Betreiberidentität und aktuelle Anschrift bestätigt sind.
+
+Die Recherche dieser Welle bestätigt den Negativbefund, klärt den Spiegeldefekt für Gütersloh auf und grenzt die Metallmanufaktur Gütersloh als Namensvetter ab.
 
 ## Timeline
+
+### Recherche 28.10.2026: Negativbefund bestätigt, Spiegeldefekt Gütersloh dokumentiert, GEO zurückgezogen
+
+- [Recherche 28.10.2026: Der Einzel-Lead wurde erneut geprüft. Die Branchenverzeichnisse führen den Eintrag weiterhin inhaltsgleich als "GMG-Metallgesellschaft", Hermann-Nohl-Str. 12, 33330 Gütersloh, 05241 220997, ohne Website, E-Mail oder Öffnungszeiten; eine zweite unabhängige Quelle existiert nicht, die Darstellung im Öffnungszeitenbuch ist dieselbe Datenplattform ohne Zusatzangaben. Eine Suche im amtlichen Fachbetrieberegister ist für Gütersloh nicht möglich: die NRW-Übersichtsseite des Spiegels verlinkt die Ortsseite ort-guetersloh, diese liefert jedoch HTTP 404, der Spiegel hat also für diesen Ort keine Seite; das ist ein Spiegeldefekt und kein Negativbefund zum Register, zumal die EFB-Anerkennung freiwillig ist. Eine Handelsregister- und NorthData-Suche nach einer GMG beziehungsweise GMG-Metallgesellschaft in Gütersloh blieb negativ. Als abzugrenzender Namensvetter ist die Metallmanufaktur Gütersloh GmbH & Co. KG (AG Gütersloh HRA 8113, Bartholomäusweg 37, 33334 Gütersloh, MMG) zu nennen, ferner die bereits am 15.10.2026 geprüften Namensvetter G.M.G. Spa (Kontaktseite betrifft Cartura in Italien) und die GEA-Historie zur Metallgesellschaft AG in Frankfurt, die keine Gütersloher GMG belegen. Frontmatter: description um den Spiegeldefekt und die Namensvetter ergänzt, clear_fields geo gesetzt (siehe eigene Notiz), street, postcode, phone, email und website bleiben leer, status pruefung bleibt unverändert und es wird keine Schließung behauptet. ANKAUF: keine Kursliste und keine Zahlen; die im Portal enthaltene allgemeine Euro-FAQ zu Schrottpreisen sowie die dort empfohlenen Nachbaranbieter sind allgemeine Portalinhalte und keine Tarife dieses Betriebs. VERKAUF: kein Material-Verkaufsangebot und keine Preisliste. GEBÜHREN: keine Tarife belegt, keine Kostenfreiheit ableitbar. Offen: Gewerberegisterauskunft oder Betreiberkontakt zu Hermann-Nohl-Straße 12, um den Seednamen "GMG" einer Rechtsträger zuzuordnen, danach Adress- und Geokodierprüfung. Quelle(n): https://www.11880.com/branchenbuch/guetersloh/120674719B100897086/gmg-metallgesellschaft.html ; https://www.oeffnungszeitenbuch.de/filiale/Guetersloh-GMG-Metallgesellschaft-3046709X.html ; https://schrottregister.pages.dev/land-nordrhein-westfalen/ort-guetersloh (Direktabruf 28.10.2026: HTTP 404, Spiegeldefekt) ; https://www.online-handelsregister.de/ ; https://www.northdata.de/ (Abruf 28.10.2026).]
+- [Recherche 28.10.2026: GEO. Der bisher gespeicherte Standortpunkt 51.91662/8.40652 löst sich in einer rein lesenden Reverse-Abfrage zu Stadtring Nordhorn, 33332 Gütersloh auf und damit nicht zu Hermann-Nohl-Straße 12. clear_fields geo zieht den Punkt zurück, weil die Betreiberidentität und damit die Gültigkeit der Lead-Adresse nicht bestätigt sind und die Anlage laut Dossier nicht geocodiert werden soll, bevor Identität und Aktualität vom Betreiber geklärt sind. Für Hermann-Nohl-Straße 12, 33330 Gütersloh existiert in OpenStreetMap ein Hausnummernpunkt (way 276237572), der aber erst nach der Identitätsklärung als Koordinate verwendet werden kann. Quelle(n): https://nominatim.openstreetmap.org/search?q=Hermann-Nohl-Stra%C3%9Fe+12%2C+33330+G%C3%BCtersloh&format=jsonv2 ; https://www.11880.com/branchenbuch/guetersloh/120674719B100897086/gmg-metallgesellschaft.html (Abruf 28.10.2026).]
 
 ### Owner-Nachprüfung 15.10.2026
 
