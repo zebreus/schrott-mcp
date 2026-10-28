@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "release_commit": "122c60e2026c9ec12788251670bc8462f67f9e1a",
+  "release_tree": "97f07a5e0ea3710d0e98dff00bd7e18808cc1f82",
+  "rehearsal_manifest_sha256": "20f1accb7377ab882143c1391b61fcc949682650fc9b0d78022b3954f357913c",
+  "fields": [
+    "name",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bb-hirschfeld-hofmann-metall",
+    "sn-brandis-hofmann-metall-betriebsteil",
+    "sn-schmoelln-hofmann-metall-betriebsteil"
+  ],
+  "scope": "exactly the 3 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-122c60e. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bb-hirschfeld-hofmann-metall",
+      "values": {
+        "name": "Hofmann Metall GmbH, Betriebsteil Hirschfeld",
+        "street": "Bahnhofstraße 5",
+        "postcode": "08144",
+        "phone": "037607 5531",
+        "email": "hirschfeld@hofmann-metall.de",
+        "opening_hours": "",
+        "description": "Betriebsteil Hirschfeld der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) in der Bahnhofstraße 5, 08144 Hirschfeld (Sachsen, Landkreis Zwickau): Annahme von Buntmetallen und Legierungsschrotten, Containerdienst mit kostenfreier Containerstellung (6–10 m³ Absetz-, 18–36 m³ Abrollcontainer), Aufbereitung und Demontage. Die Zuordnung zum Bundesland ist nach Owner-Entscheidung **Sachsen** (der Betriebsteil liegt in Hirschfeld, Landkreis Zwickau; Anschrift, PLZ, Telefon und die amtliche Ortsangabe der Gemeinde stimmen überein); der Slug und sein Präfix „bb-“ bleiben unverändert, weil Slugs nie handgepflegt werden - dasselbe Muster tragen 20 weitere Dossiers im Korpus. Öffnungszeiten wegen widersprüchlicher Betreiberangaben nicht übernommen, keine öffentlichen Ankauf- oder Verkaufspreise.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hofmann-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e559ccda25136375b982af0b52d1fca88162d9ab4dd40333c52aabe4414dc9dd",
+      "seed_hash": "29ca667f4d066c3f",
+      "geo": [
+        50.6320984,
+        12.4259907
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-brandis-hofmann-metall-betriebsteil",
+      "values": {
+        "name": "Hofmann Metall GmbH, Betriebsteil Brandis-Leipzig",
+        "street": "Gebrüder-Helfmann-Straße 1a",
+        "postcode": "04824",
+        "phone": "034292 / 28 60 06",
+        "email": "brandis@hofmann-metall.de",
+        "opening_hours": "",
+        "description": "Betriebsteil Brandis-Leipzig der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) in der Gebrüder-Helfmann-Straße 1a, 04824 Brandis: Annahme von Buntmetallen und Legierungsschrotten, Containerdienst, Aufbereitung und Demontage. Die Sorten-Übersicht des Betriebs ist die gemeinsame Privat-/Kleingewerbe-Seite des Betriebs; eigene Ankaufs- oder Verkaufspreise und bezifferte Gebühren werden nicht veröffentlicht. Die Standortseite beginnt mit einer Titelzeile \"Betriebsteil Brandis-Leipzig\" vor der Anschrift.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hofmann-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b3957495b3a6c00e96fcf9c0ddf318502baca1e5a85fa52f8e41c6a17e09fd0b",
+      "seed_hash": "40744240ab93e884",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-schmoelln-hofmann-metall-betriebsteil",
+      "values": {
+        "name": "Hofmann Metall GmbH, Betriebsteil Schmölln",
+        "street": "Am Kemnitzgrund 16",
+        "postcode": "04626",
+        "phone": "034491 / 57 55 50",
+        "email": "schmoelln@hofmann-metall.de",
+        "opening_hours": "",
+        "description": "Betriebsteil Schmölln der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) am Kemnitzgrund 16, 04626 Schmölln: Annahme von Buntmetallen und Legierungsschrotten, Containerdienst, Aufbereitung und Demontage. Die Sorten-Übersicht des Betriebs ist die gemeinsame Privat-/Kleingewerbe-Seite; eigene Ankaufs- oder Verkaufspreise und bezifferte Gebühren werden nicht veröffentlicht. Die Koordinate ist das namentlich auf \"Hofmann Metall\" getaggte Betriebsobjekt in OSM.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hofmann-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2617ce984eaf0ca47b94e666bc575691aee628c1c5c8b538e9bcad3b4465b9d7",
+      "seed_hash": "9c64b3d0b9898a71",
+      "geo": [
+        50.8827957,
+        12.3471999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
