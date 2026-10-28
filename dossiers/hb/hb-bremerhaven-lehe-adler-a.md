@@ -13,7 +13,7 @@ website: ''
 website_status: tot
 status: pruefung
 clear_fields: 'geo'
-description: 'Autoverwertung und Schrottplatz in Bremerhaven-Lehe, über die Schrottplatz-Verzeichnisse als "Autoverwertung Adler A." und "Adolf Adler" an der Schierholzweg 5 geführt. ANKAUF: keine Preise und keine Sortenliste veröffentlicht, die Verzeichnisse vermerken "das Angebot dieses Schrottplatzes wurde noch nicht erfasst". VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife. Eine eigene Betreiberseite existiert nicht, die Domain adler-kfz-recycling.de löst nicht mehr auf; die Hausnummer 5 ist in OSM nicht erfasst.'
+description: 'Autoverwertung und Schrottplatz in Bremerhaven-Lehe, über die Schrottplatz-Verzeichnisse als "Autoverwertung Adler A." und "Adolf Adler" an der Schierholzweg 5 geführt. ANKAUF: keine Preise und keine Sortenliste veröffentlicht, die Verzeichnisse vermerken "das Angebot dieses Schrottplatzes wurde noch nicht erfasst". VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife. Eine eigene Betreiberseite existiert nicht, die Domain adler-kfz-recycling.de löst nicht mehr auf; die Hausnummer 5 ist in OSM nicht erfasst (die Straße schon).'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)
@@ -29,15 +29,17 @@ Der Eintrag ist weiterhin nur verzeichnisgestützt. schrottplatz-info.de führt 
 
 **ANKAUF:** keine Preise und keine Sortenliste veröffentlicht. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife.
 
-Die Hausnummer 5 ist in OSM nicht erfasst (nur der Straßenverlauf sowie die Hausnummer 13), deshalb wurde keine Koordinate ergänzt und der bisher gespeicherte Punkt, der auf die Langener Landstraße in Bremerhaven-Nord zeigt, mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Schierholzweg 5 steht aus.
+Die Hausnummer 5 ist in OSM nicht erfasst (in der Straße sind nur die Nummern 13, 23, 25, 27, 27a, 29a–29f, 31a–31c, 33, 34, 36, 38, 48 und 50 getaggt), deshalb wurde keine Koordinate ergänzt und der bisher gespeicherte Punkt, der auf die Langener Landstraße in Bremerhaven-Nord zeigt, mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Schierholzweg 5 steht aus.
 
 ## Timeline
+
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine Tatsachenbehauptung im Dossiertext war falsch und ist berichtigt.** Der Portal-Lead ist unter `schrottplatz.org/bremerhaven/adolf-adler-296505.html` weiterhin abrufbar (HTTP 200, „Adolf Adler“, Schierholzweg 5, 27578, „Autoverwertung“); nur die Variante **ohne** Dateiendung liefert 404. Ebenso ist die Angabe zum Hausnummernbestand der Straße präzisiert: in der Straße sind die Nummern 13, 23, 25, 27, 27a, 29a–29f, 31a–31c, 33, 34, 36, 38, 48 und 50 getaggt. Die inhaltliche Aussage des Dossiers bleibt erhalten. Quellen: die genannten Objekte und Routen live abgerufen am 28.10.2026.]
 
 - [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine Tatsachenbehauptung im Dossiertext war falsch und ist berichtigt.** der Deep-Link auf den Portal-Lead liefert HTTP 404; der Eintrag „Adolf Adler“ lebt weiterhin unter der Portal-Übersicht für Bremerhaven, die inhaltliche Aussage bleibt. Die betroffene Notiz ist inhaltlich erhalten; die Korrekturvermerke in den übrigen Dossiers derselben Welle sind analog. Quellen: die oben genannten Objekte live abgerufen am 28.10.2026.]
 
 ### Nachprüfung 06.10.2026
 
-- [Nachprüfung 06.10.2026: Der direkte Abruf des bestehenden Schrottplatz-Info-Leads bezeichnet den Eintrag als „Autoverwertung Adler A.“ und führt Schierholzweg 5, 27578 Bremerhaven und 0471 86763; Beschreibung, Öffnungszeiten und Leistungsangebot sind laut Portal nicht vollständig erfasst. Das bestätigt lediglich den bisherigen Aggregatorstand, nicht unabhängig Betreiber oder aktuelle Annahme. Der ältere Portalname „Adolf Adler“ bleibt eine ungeklärte Namensvariante; dessen frühere URL lieferte beim aktuellen Abruf 404 und zählt nicht als aktuelle Bestätigung. Keine belegten Ankaufspreise, Verkaufspreise oder Gebühren; Adresse vor Geocoding bestätigen. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bremerhaven/Adler-A- ; https://www.schrottplatz.org/bremerhaven/adolf-adler-296505 (älterer Portal-Lead, aktueller Abruf 404 - der Eintrag „Adolf Adler“ lebt weiterhin unter schrottplatz.org/bremerhaven)]
+- [Nachprüfung 06.10.2026: Der direkte Abruf des bestehenden Schrottplatz-Info-Leads bezeichnet den Eintrag als „Autoverwertung Adler A.“ und führt Schierholzweg 5, 27578 Bremerhaven und 0471 86763; Beschreibung, Öffnungszeiten und Leistungsangebot sind laut Portal nicht vollständig erfasst. Das bestätigt lediglich den bisherigen Aggregatorstand, nicht unabhängig Betreiber oder aktuelle Annahme. Der ältere Portalname „Adolf Adler“ bleibt eine ungeklärte Namensvariante; dessen frühere URL lieferte beim aktuellen Abruf 404 und zählt nicht als aktuelle Bestätigung. Keine belegten Ankaufspreise, Verkaufspreise oder Gebühren; Adresse vor Geocoding bestätigen. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Bremerhaven/Adler-A- ; https://www.schrottplatz.org/bremerhaven/adolf-adler-296505 (Abruf 404 ohne Dateiendung, mit .html live: HTTP 200)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

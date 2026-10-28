@@ -30,6 +30,8 @@ Historischer Entrümpelungs-/Schrottlead an Valckenburghstr.13; konkurrierende V
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine Quellen-URL ist nicht mehr abrufbar und wird als tot gekennzeichnet.** die Betriebsseite hanse-entruempelungen.de ist nicht mehr abrufbar (HTTP 404); die Wellen-Recherche stuetzt sich deshalb auf die Web-Archiv-Snapshots vom 16.09. und 18.10.2025. Die inhaltlichen Aussagen des Dossiers bleiben erhalten; die Wellen-Recherche hat den Stand am 28.10.2026 live gelesen. Quellen: der genannte Abruf am 28.10.2026 (HTTP 404).]
+
 ### Recherche 15.10.2026 Welle18A
 
 - [Recherche 15.10.2026 Welle18A: Zugeordneter Domainroot erneut direkt HTTP 404; kein Impressumsinhalt, kein Beleg für Geschäftsschließung. Historischer Dreierkonflikt Valckenburghstraße 13/Im Arster Felde 2c/Pfalzburger Straße 71 bleibt offen; keine neue Koluman-/Umzugs-/Übernahmekette ermittelt und keinen fremden Hanse-Anbieter verknüpft. Altstraße erhalten, weder PLZ noch Kontakte auf Grundlage der defekten Domain ergänzt. Ankauf: Entrümpelungswertanrechnung weiterhin kein eigenständiger vergüteter Metallankauf; Verkauf/Gebühren kein neues zugeordnetes Tarifblatt. GeoBedarf: aktuelle Betreiberzuordnung klären, vorhandener historischer Gebäudepunkt darf nicht zum heutigen Annahmehof werden. Quelle/Abrufgrenze: https://www.hanse-entruempelungen.de/ ; historische Konfliktquellen siehe 03.10. und 08.10.2026.]

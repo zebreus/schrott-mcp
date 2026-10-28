@@ -34,6 +34,8 @@ Der bisher gespeicherte Punkt lag rund 209,0 km entfernt in Thüringen; ersetzt 
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine Quellen-URL ist nicht mehr abrufbar und wird als tot gekennzeichnet.** die Betriebsseite hanse-entruempelungen.de ist nicht mehr abrufbar (HTTP 404); die Wellen-Recherche stuetzt sich deshalb auf die Web-Archiv-Snapshots vom 16.09. und 18.10.2025. Die inhaltlichen Aussagen des Dossiers bleiben erhalten; die Wellen-Recherche hat den Stand am 28.10.2026 live gelesen. Quellen: der genannte Abruf am 28.10.2026 (HTTP 404).]
+
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (klein)

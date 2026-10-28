@@ -14,7 +14,7 @@ website_status: unbekannt
 status: pruefung
 lat: '52.4839868'
 lon: '13.4244425'
-description: 'Registeridentität bestätigt: LOOKER TRADE UG (haftungsbeschränkt), Amtsgericht Charlottenburg (Berlin) HRB 136189 B, Geschäftsanschrift Hermannstraße 16, 12049 Berlin, im Registerauszug vom 28.10.2026 als aktiv geführt, gegründet 19.08.2011, drei Registerbekanntmachungen, letzte Änderung 13.07.2016. Der Registergegenstand laut NorthData ist "Internethandel zum An- und Verkauf"; ein Schrott- oder Metallankauf ist daraus nicht ableitbar. Das Branchenlabel "Schrott" stammt allein aus Verzeichnissen (Das Örtliche). ANKAUF: nicht belegt. VERKAUF: nicht belegt, der Registergegenstand ist allgemeiner Handel. GEBÜHREN: nicht belegt. Die Domain looker.de ist nicht abrufbar, es gibt weder eine belegte Telefonnummer noch eine belegte E-Mail-Adresse.'
+description: 'Registeridentität bestätigt: LOOKER TRADE UG (haftungsbeschränkt), Amtsgericht Charlottenburg (Berlin) HRB 136189 B, Geschäftsanschrift Hermannstraße 16, 12049 Berlin, im Registerauszug vom 28.10.2026 als aktiv geführt, gegründet 19.08.2011, drei Registerbekanntmachungen, letzte Änderung 13.07.2016. Der Registergegenstand laut NorthData ist "Internethandel zum An- und Verkauf"; ein Schrott- oder Metallankauf ist daraus nicht ableitbar. Das Branchenlabel "Schrott" stammt allein aus Verzeichnissen (Das Örtliche). ANKAUF: nicht belegt. VERKAUF: nicht belegt, der Registergegenstand ist allgemeiner Handel. GEBÜHREN: nicht belegt. Die Domain looker.de ist erreichbar, führt aber einen **fremden** Metall-/Hartmetall-Online-Shop ohne die Berliner Anschrift; eine belegte Telefonnummer oder E-Mail-Adresse für den Seed-Betrieb gibt es daher nicht.'
 dropoff_json: ''
 pickup_json: ''
 clear_fields: 'phone'

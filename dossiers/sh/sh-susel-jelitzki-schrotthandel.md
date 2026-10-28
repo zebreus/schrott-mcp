@@ -29,7 +29,7 @@ Eutiner Str. 19, 23701 Süsel, Tel. 04524 8591 sind weiterhin nur über Verzeich
 
 **Namensvetter:** Die unter demselben Namen geführte Firma EUTINER ENTRÜMPELUNGEN (Marcel Jelitzki) bietet ausschließlich Entrümpelung, Wohnungs- und Haushaltsauflösungen an und hat keinen Schrottbezug; sie ist ein anderer Betrieb und wird nicht mit diesem Dossier zusammengeführt.
 
-**GEO:** Die Eutiner Straße ist in OSM für Süsel erfasst (node 3448002536 „Eutiner Straße 19, Barkau“ sowie way 33076332), aber der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und passt nicht zur Seed- der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und passt nicht zur Seed-Adresse, daher mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Eutiner Str. 19 steht aus.
+**GEO:** Die Eutiner Straße ist in OSM für Süsel erfasst (node 3448002536 „Eutiner Straße 19, Barkau“ sowie way 33076332), aber der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und Der bisher gespeicherte Punkt löst auf die An der Bäderstraße im Ortsteil Süseler Baum auf und passt nicht zur Seed-Adresse, daher mit `clear_fields: 'geo'` zurückgezogen. Geocoding für Eutiner Str. 19 steht aus.
 
 ## Timeline
 

@@ -30,7 +30,7 @@ Die Seed-Zeile "Oetjen Rohstoffhandel GmbH" mit Otto-von-Guericke-Str. 4, 27356 
 
 **ANKAUF:** Eisenschrott, NE-Metalle, Altfahrzeuge und andere Materialien zu aktuellen Tagespreisen, keine bezifferten Preise. **VERKAUF:** neue und gebrauchte Handelserzeugnisse aus Stahl und Metall, keine Preisliste. **GEBÜHREN:** keine Tarifordnung; Öffnungszeiten, Annahmebedingungen und Entsorgungspreise sind laut Landkreis direkt bei der Firma zu erfragen.
 
-**GEO:** der gespeicherte Punkt liegt auf der Otto-von-Guericke-Straße in Rotenburg, aber ohne Hausnummer; eine Hausnummer 4 ist in OSM nicht erfasst, Geocoding steht aus.
+**GEO:** der gespeicherte Punkt liegt auf der Otto-von-Guericke-Straße in Rotenburg, aber ohne Hausnummer; eine Hausnummer 4 ist in OSM nicht erfasst (die Straße schon), Geocoding steht aus.
 
 **Abgrenzung:** 11880 führt mehrere Oetjen-Gesellschaften nebeneinander (Rotenburg, Tannenkamp 6-8 in Zeven, Herrenbrümmer 18 in Zeven) sowie die Oetjen Logistik GmbH in der Hermann-Schlüter-Str. 1; die Oetjen Logistik GmbH ist Logistik und kein Rohstoffhandel. Diese Gesellschaften werden nicht zusammengeführt.
 

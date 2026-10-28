@@ -34,6 +34,8 @@ Der bisher gespeicherte Punkt lag rund 58,6 km entfernt im Raum Bad Kreuznach; e
 
 ## Timeline
 
+- [Owner-Korrektur 28.10.2026 (Korrekturvermerk): **Eine Tatsachenbehauptung im Dossiertext war falsch und ist berichtigt.** Die Betreiberseite hat **keine** Impressums-Route (HTTP 404; die Sitemap kennt nur `/`, `/about`, `/contact`, `/services`, `/solutions`). Zitiert wird daher die Kontakt-Route (Adresse, Telefon, Fax, E-Mail) — die Angabe „das Impressum der Betreiberseite nennt …“ war unzutreffend; **Geschäftsführer Ferhat Sanduvac** nennt das Register. Die inhaltliche Aussage des Dossiers bleibt erhalten. Quellen: die genannten Objekte und Routen live abgerufen am 28.10.2026.]
+
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 2593 berechtigt als Klärfall (Einzelbeleg). lat/lon-Fehler bestätigt: DB Bad Kreuznach-Raum statt 67433 Neustadt (Koordinaten neu zu geocodieren). Betreiber-Seiten nennen Speyerdorfer Str. 3, 67433 Neustadt, Tel. 06321/80063, info@fs-schrott.de (zus. info-fsmetallhandel@web.de), Sommer Mo-Fr 08:00-17:00/Sa 08:00-13:00, Winter Mo-Fr 08:00-16:00/Sa 08:00-13:00. Kein Register-Zweitbeleg (GmbH-HRB nicht verifiziert) → Werte NUR hier, Frontmatter leer; website_status aktiv (HTTP 200); Quelle(n): https://www.fs-schrott.com/ + https://www.fs-schrott.com/contact (eine Quelle)]
