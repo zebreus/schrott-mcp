@@ -1,20 +1,21 @@
 ---
 slug: nw-dortmund-huckarde-heinrich-gestring
-name: Heinrich Gestring GmbH & Co KG
+name: 'Heinrich Gestring GmbH & Co. KG'
 trader_type: schrottplatz
 state: NW
 city: Dortmund-Huckarde
 street: Franz-Schlüter-Str. 30
 postcode: '44147'
-phone: 0231 31978)
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+phone: '0231 31978'
+email: info@gestring.com
+opening_hours: 'Mo-Fr 07:00-16:30; Sa 08:00-12:00'
+website: https://www.gestring.de/
+website_status: aktiv
 status: pruefung
-description: ''
-dropoff_json: ''
-pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach ESN (Angabe der Betreiberseite: „Heute sind wir ESN zertifizierter Entsorgungsfachbetrieb und verfuegen ueber BImSchG zugelassene Lager- und Umschlaganlagen“; Zertifikatsnummer, Pruefdatum und Gueltigkeitsdauer sind auf der Website nicht angegeben und daher nicht belegt)"]'
+description: 'Familienbetrieb (laut Website 1920 gegruendet) in Dortmund-Huckarde: Schrott- und Metallhandel, Ankauf und Verkauf von Altschrott, Neuschrott und legierten Schrotten sowie Leicht-, Buntmetallen und Legierungen, ESN-zertifizierter Entsorgungsfachbetrieb mit BImSchG-zugelassener Lager- und Umschlaganlage; zusaetzlich Abbruch, Demontage, Containerbereitstellung und Lohnarbeiten.'
+dropoff_json: '{"allowed": true, "conditions": "Auch kleinere Mengen Metall werden wirtschaftlich der Wiederverwertung zugefuehrt (Betreiberseite, 29.10.2026)"}'
+pickup_json: '{"allowed": true, "conditions": "Containerfahrzeuge und Kranwagen; Abholung des Schrottentfalls aus Produktion oder Baustellen (Betreiberseite, 29.10.2026)"}'
 provenance_section: R4a Dortmund-Multi-sites (9 Profile, 5 neu — Rest bereits gelistet)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -24,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Familienbetrieb Heinrich Gestring GmbH & Co. KG in Dortmund-Huckarde (Franz-Schlüter-Str. 30, 44147 Dortmund), laut Betreiber-Website 1920 gegründet. Schrott- und Metallhandel mit Ankauf und Verkauf von Altschrott, Neuschrott, legierten Schrotten, Leicht- und Buntmetallen; ESN-zertifizierter Entsorgungsfachbetrieb, BImSchG-zugelassene Lager- und Umschlaganlage für FE-Schrotte, NE-Metalle und Nutzeisen. Leistungen: Abbruch, Verschrottung, Demontage, Containerbereitstellung (7-25 m³), Lohnarbeiten, Abfallentsorgung, Asbest- und Brandschadensanierung. Öffnungszeiten laut Betreiber-Kontaktseite Mo-Fr 07:00-16:30, Sa 08:00-12:00.
 
 ## Timeline
 
@@ -32,3 +33,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrottplatz-Profil
 - urspr. Website-Angabe: keine (Franz-Schlüter-Str. 30, 44147, 0231 31978) [Recherche 30.09.2026: HR-Fund via Northdata, Adresse/PLZ bestätigt (Ortsteil Huckarde beibehalten); Quelle: northdata.de/Heinrich Gestring]
+
+### Recherche 29.10.2026
+
+- [Recherche 29.10.2026: **Eigene Betreiber-Website gefunden und live gelesen** - das Dossier hatte bisher keine Website (`website: ''`). `https://www.gestring.de/` und `https://www.gestring.com/` liefern beide HTTP 200 (der .com-Host leitet auf .de um, `https://www.gestring.com/` selbst laeuft ins TLS-Fehler-Timeout), Site-Stand der Fusszeile „Copyright © 2003 - 2021". **Impressum woertlich**: „Heinrich Gestring GmbH & Co. KG, Franz-Schlüter-Str. 30, D - 44147 Dortmund, Telefon +49 (0) 231 / 31978, Telefax +49 (0) 231 / 316361, Internet https://www.gestring.com/, e-mail info@gestring.com, Kommanditgesellschaft, Sitz der Gesellschaft: Dortmund, Registergericht Dortmund, HRA 6913, Persoenlich haftende Gesellschafterin Gestring-Verwaltungs GmbH (Sitz Dortmund, Registergericht Dortmund, HRB 4439), Gerichtsstand Dortmund, USt.-Id.-Nr. DE 124 645 394, Geschaeftsfuehrer Dipl.-Ing. Henning Gestring, Betriebswirtin BA Meike Gestring" (die Internet-Adresse steht in der Quelle ohne Protokoll, hier mit `https://` ergänzt). **Kontaktseite woertlich**: „Telefon +49 (0) 231 / 31978, Telefax +49 (0) 231 / 316361, Mail info@gestring.com, Oeffnungszeiten Mo.-Fr. 07:00-16:30, Sa. 08:00-12:00". Frontmatter damit gefuellt: Website, `website_status: aktiv`, Telefon (**der bisherige Wert „0231 31978)" enthielt einen Tippfehler-Klammer und ist bereinigt**), E-Mail, Oeffnungszeiten, Beschreibung. **Firmen-Seite woertlich**: „Wir sind ein 1920 gegründetes Familienunternehmen, das sich von Anfang an mit dem Handel von FE-Schrotten und NE-Metallen, sowie mit Abbruch und Montagen befasst hat. Heute sind wir ESN zertifizierter Entsorgungsfachbetrieb und verfuegen ueber BImSchG zugelassene Lager- und Umschlaganlagen ... Wir kaufen und verkaufen Altschrotte, Neuschrotte und legierte Schrotte genauso, wie Leichtmetalle, Buntmetalle oder Metalllegierungen." **Ablehnung der Aggregator-Zeiten**: die Verzeichnisangabe „gegruendet 1952" (wlw) widerspricht der Betreiber-Angabe „1920"; das Dossier nennt jetzt die Betreiber-Version, die Aggregator-Version bleibt als offene Abweichung dokumentiert. **ANKAUF**: „Wir kaufen und verkaufen Altschrotte, Neuschrotte und legierte Schrotte genauso, wie Leichtmetalle, Buntmetalle oder Metalllegierungen"; Nutzeisen: „Wir kaufen und verkaufen Traeger, Bleche, Rohre, Spundwandbohlen und Betonstaehle aus Lageraufloesungen, Konkursen, Abbruechen und Rueckbau" sowie „Werkzeugmaschinen, Krananlagen, E-Motoren, Pumpen und Anlagenteile" (Staerke Profilstaebe HEA/HEB/HEM 100-200). **VERKAUF**: ausdruecklich mitbelegt (An- und Verkauf), Verkauf von Nutzeisen und Maschinen; **keine Verkaufspreisliste**. **GEBUEHREN**: Containerbereitstellung „in Groessen von 7 - 25 m3", Transportleistungen, Lohnarbeiten, Entsorgungsleistungen - **alle ohne Preisangabe**; kein Tarif, keine Mindestmenge, keine Entsorgungsgebuehrenliste auffindbar. **Offen**: Register-Nummer HRA 6913 ist nur durch das Betreiber-Impressum belegt (ein amtlicher Registerabdruck wurde nicht erneut gezogen); es gibt keine Online-Preisliste und keinen BImSchG-/EfB-Nummernbeleg auf der Seite. Quelle(n): https://www.gestring.de/impressum ; https://www.gestring.de/page/page_kontakt.htm ; https://www.gestring.de/page/page_firma.htm ; https://www.gestring.de/page/page_metalle.htm ; https://www.gestring.de/page/page_schrott.htm ; https://www.gestring.de/page/page_nutzeisen.htm ; https://www.gestring.de/page/page_container.htm (Abruf 29.10.2026).]
+
+- [Recherche 29.10.2026 (Register-Nachtrag): **Zweiter Beleg fuer die Registerangaben** — Northdata fuehrt „Heinrich Gestring GmbH & Co. KG, Amtsgericht Dortmund **HRA 6913**, EUID DER2402.HRA6913, Adresse Franz-Schlüter-Str. 30, D-44147 Dortmund" sowie die persoenlich haftende Gesellschafterin „Gestring Verwaltungs-GmbH, Amtsgericht Dortmund **HRB 4439**, EUID DER2402.HRB4439, Franz-Schlüter-Str. 30, 44147 Dortmund" mit Geschaeftszweck „... ihre Aufgabe ist es, als alleinige persoenlich haftende Gesellschafterin in die Heinrich Gestring Kommanditgesellschaft einzutreten und die Geschaeftsfuehrung dieser Kommanditgesellschaft zu uebernehmen". Registerhistorie: Eintragung als Kommanditgesellschaft am **16.03.2004** mit der Gestring Verwaltungs-GmbH als phG.; GF-Wechsel: 30.08.2013 Benennung Henning Gestring und Horst Gestring, 06.02.2018 Ausscheiden Horst Gestring und Berufung Meike Gestring — das deckt sich mit dem aktuellen Betreiber-Impressum („Geschaeftsfuehrer Dipl.-Ing. Henning Gestring, Betriebswirtin BA Meike Gestring"). **Zertifizierung**: die Betreiberseite nennt woertlich „Heute sind wir **ESN zertifizierter Entsorgungsfachbetrieb** und verfuegen ueber **BImSchG zugelassene Lager- und Umschlaganlagen**" — das ist die **Zertifikatsbekanntgabe des Betreibers**; Zertifikatsnummer, Pruefdatum und Gueltigkeitsdauer werden auf der Website **nicht** angegeben und sind daher **nicht belegt** (in `certifications` entsprechend gekennzeichnet). **Kundenkreis**: Implisense (Register-Auswertung) beschreibt die Zielgruppe als „Unternehmen im Industrie- und Bauwesen sowie **private Kunden** in der Region Dortmund" — das ist eine Register-Auswertung und **kein** Betreiber-Statement; die Betreiberseite adressiert „Schrottentfall aus Ihrer Produktion oder von Ihren Baustellen" und „auch kleinere Mengen Metall". **Offen** (aktualisiert): Zertifikatsnummern/Gueltigkeit der ESN- und BImSchG-Zertifikate, Preisliste, Gebuehren und Mindestmengen. Quelle(n): https://www.northdata.de/Heinrich%20Gestring%20GmbH%20%26%20Co%C2%B7%20KG,%20Dortmund/HRA%206913 ; https://www.northdata.de/Gestring%20Verwaltungs-GmbH,%20Dortmund/HRB%204439 (Abruf 29.10.2026).]
+
+- [Recherche 29.10.2026 (GEO-Abgleich): **Der in der Produktionsdatenbank gespeicherte Punkt stimmt nicht mit der belegten Adresse ueberein** — gespeichert `51.5076222 / 7.4725815`; Rueckwaertsgeokodierung dieses Punktes (Photon-Reverse ueber OSM) ergibt `Ernst-Mehlich-Straße 6b, 44141 Dortmund (Innenstadt Ost), OSM way 492646292`. Das in OSM gefuehrte Adressobjekt der belegten Anschrift liegt `4.876 m` vom gespeicherten Punkt entfernt: OSM way 1064471389 (`addr:housenumber=30`, `addr:street=Franz-Schlüter-Straße`, `addr:city=Dortmund`, `addr:postcode=44147`, `industrial=scrap_yard`, `operator=Heinrich Gestring GmbH & Co. KG`). **Konsequenz**: der gespeicherte Punkt wird hier **nicht** automatisch zurueckgezogen — die Auswahl der `clear_fields`-Direktive bzw. einer Ersatzkoordinate ist eine Owner-Entscheidung, und fuer eine **neue** Koordinate liegen in diesem Dossier nur **eine** Positionsquelle (OSM) vor, waehrend die Regel eine zweite unabhaengige Quelle verlangt. **Keine Koordinate gesetzt.** Fuer diese Adresse liegen **zwei** unabhaengige Quellen vor (Betreiber-Impressum und OSM-Objekt mit `operator`-Tag) — der Kandidat fuer eine Ersatzkoordinate ist damit benannt, die Setzung bleibt aber der Owner-Entscheidung vorbehalten. Quelle(n): Photon-Reverse (https://photon.komoot.io/reverse, Abruf 29.10.2026); OSM-API-Abfrage `api.openstreetmap.org/api/0.6/way/<id>` bzw. `/node/<id>` (Abruf 29.10.2026); Haversine-Berechnung (R = 6371 km).]
