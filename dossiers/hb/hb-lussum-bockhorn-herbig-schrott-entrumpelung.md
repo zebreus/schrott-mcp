@@ -29,7 +29,7 @@ Für den Betrieb gibt es bis heute nur Verzeichnisbelege. 11880 führt "Herbig S
 
 **ANKAUF:** keine Preise und keine Sortenliste veröffentlicht. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife.
 
-Das Telefonfeld bleibt auf Anweisung des Owners leer; die 11880-Nummer gilt nur als Lead. Die Hausnummer 44 a ist in OSM nicht erfasst (nur 44 b); die Straße Schwaneweder Straße ist erfasst, ein Adresspunkt zur Hausnummer 44 a existiert nicht, deshalb bleibt die Geokodierung offen. Der gespeicherte Punkt liegt auf der Schwaneweder Straße selbst und bleibt unangetastet.
+Das Telefonfeld bleibt auf Anweisung des Owners leer; die 11880-Nummer gilt nur als Lead. Die Hausnummer 44 a ist in OSM nicht erfasst (in der Straße sind 83 Hausnummern erfasst, darunter 44 b); die Straße Schwaneweder Straße ist erfasst, ein Adresspunkt zur Hausnummer 44 a existiert nicht, deshalb bleibt die Geokodierung offen. Der gespeicherte Punkt liegt auf der Schwaneweder Straße selbst und bleibt unangetastet.
 
 ## Timeline
 - [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]
