@@ -26,7 +26,9 @@ provenance_origin: table
 
 Die Recherche vom 02.10.2026 dokumentiert einen einzelnen Branchenverzeichnis-Lead für Barbe Alfred, Osterkanal 32, 26871 Papenburg, Telefon 04961 76255. Bei der erneuten Prüfung am 24.10.2026 ließ sich dieser konkrete Eintrag nicht reproduzieren; die abrufbare Papenburger Branchenbuch-Startseite zeigt keine Barbe-Auflistung. Es gibt damit keine aktuelle Bestätigung für Betreiberidentität, Tätigkeit oder öffentliche Annahmestelle; die vorhandenen Orts-/Adressfelder bleiben ungeprüfte historische Leads.
 
-**ANKAUF:** keine Annahmebedingungen oder Kurse belegt. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. **GEO:** nicht geokodieren, bis Anschrift und Betriebs-/Annahmestelle unabhängig bestätigt sind.
+**ANKAUF:** keine Annahmebedingungen oder Kurse belegt. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. **GEO:** nicht geokodieren, bis Anschrift und Betriebs-/Annahmestelle unabhängig bestätigt sind; der gespeicherte Punkt liegt zudem rund 1 km vom adressierten Haus entfernt.
+
+**Recherche 29.10.2026:** Die Anschrift ist als Objekt in OpenStreetMap adressiert (Osterkanal 32, 26871 Papenburg, building=yes), trägt aber selbst keinen Namens- oder Betreiber-Tag; der Verzeichniseintrag vom 02.10.2026 bleibt weiterhin nicht reproduzierbar. Es bleibt ein Klärfall ohne Betreiber- und ohne Preisbelege.
 
 ## Timeline
 
@@ -42,3 +44,7 @@ Die Recherche vom 02.10.2026 dokumentiert einen einzelnen Branchenverzeichnis-Le
 
 - Schrotthandel, kein Ort – Existenz zählt
 - Adresse: Ort ?
+
+### Recherche 29.10.2026
+
+- [Recherche 29.10.2026: Der am 02.10.2026 dokumentierte Einzel-Lead (branchen-info: „Barbe Alfred“, Metallhandel, Tags Blech/Blei/Eisen, Osterkanal 32, 26871 Papenburg, 04961 76255) ist weiterhin nicht reproduzierbar: papenburg.branchen-info.net war am 29.10.2026 live erreichbar (HTTP 200, Startseite mit „1.259 Unternehmen aus 28 Branchen“), die Startseite enthaelt im extrahierten Text NULL Treffer fuer „Barbe“, ein direkter Pfad /barbe liefert HTTP 404. Da die Startseite die Unternehmen nicht vollstaendig auflistet, ist das KEIN Vollkorb-Negativbefund. OSM-Praesenzpruefung (api.openstreetmap.org, 29.10.2026): die Strasse „Osterkanal“ in Papenburg-Kapitaensviertel traegt 71 Objekte mit addr:street=„Osterkanal“ und 70 verschiedene Hausnummern-Tagwerte; drei davon sind kombinierte Schreibweisen („14a,14b“, „24b,24c“, „36a,36b“) und bezeichnen einzeln aufgeloest je zwei Nummern. Die Hausnummer 32 EXISTIERT als way/295195477 (addr:city=Papenburg, addr:country=DE, addr:housenumber=32, addr:postcode=26871, addr:street=Osterkanal, building=yes) — das Objekt traegt jedoch KEINEN Namens-, Betreiber- oder Branchen-Tag, es gibt in OSM also keine Abbildung eines Schrott-/Metallbetriebs an dieser Stelle; die Adresse ist damit als Bebaunung belegt, der Betrieb nicht. Abgrenzung: das Gelbe-Seiten-Branchenbuch fuer Papenburg listet ein ANDERES Schrott- und Metallhandelsunternehmen („Wittrock & Diehl GmbH“); es handelt sich nicht um diesen Eintrag und wurde nicht zugeordnet. GEO: read-only-Abgleich public.db 29.10.2026 — gespeicherter Punkt 53.0774/7.4044 liegt rund 1 km vom adressierten Objekt (53.0854598/7.4092663) entfernt; das Dossier traegt kein Koordinatenpaer, eine Neu-Geokodierung ist bis zur Bestaetigung der Betriebsstätte offen. ANKAUF: keine Materialien, Kurse, Mindestmengen oder Annahmebedingungen belegt; VERKAUF: keine Liste; GEBUEHREN: keine Tarife. Frontmatter unveraendert. Quelle(n): https://papenburg.branchen-info.net/ (Abruf 29.10.2026) ; OpenStreetMap via api.openstreetmap.org (way/295195477, Stand 29.10.2026) ; read-only-Abgleich public.db vom 29.10.2026]

@@ -25,7 +25,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der einzige verbleibende Treffer ist weiterhin der Branchenbucheintrag city-map: "THP Metall+Schrott Handel", Schlenhofstraße 10, 45141 Essen, Tel. 0201 8325192, Fax 0201 8325904, Kategorie Schrotthandel, ohne verlinktes Homepage-Ziel und ohne Betreiberkennzeichnung. Das bleibt nach der dokumentierten Quellenhierarchie ein Lead, kein Beleg.
+
+**Ankauf:** nicht belegt. **Verkauf:** keine Liste. **Gebuehren:** keine Angaben. **Geokodierung:** Die Hausnummer existiert in OSM, das Objekt ist aber ein Wohngebaeude ohne Gewerbe-Tag; der von der Owner-Welle am 27.10.2026 zurueckgenommene Punkt am Essener Fernbusbahnhof bleibt zu Recht zurueckgenommen.
 
 ## Timeline
 
@@ -42,3 +44,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (Schlenhofstr. 10)
+- [Recherche 29.10.2026: Wiederholung der Namens-, Orts- und Registerpruefung fuer "THP Metall+Schrott Handel", Schlenhofstrasse 10, 45141 Essen, Tel. 0201 8325192 / Fax 0201 8325904. Ergebnis unveraendert: der einzige exakte Treffer ist weiterhin der city-map-Eintrag mit Adresse, Telefon und Fax, aber ohne Homepage-Ziel und ohne Betreiberkennzeichnung; eine Betreiber-Website, ein Impressum, ein Registertreffer, ein kommunaler Beleg oder ein operator-run Social-Profil existieren nicht. OSM live geprueft: way/279103048 traegt addr:housenumber=10, addr:street=Schlenhofstrasse, addr:city=Essen, addr:postcode=45141, building=apartments; das Strassenraster ueber den gesamten Verlauf der Schlenhofstrasse enthaelt 29 Objekte mit addr:street und 29 verschiedene Hausnummern, die Nummer 10 existiert, das Objekt traegt aber keinen Name-, operator-, industrial- oder Gewerbe-Tag und ist als Wohngebaeude kartiert, also kein Beleg fuer einen Schrottbetrieb an dieser Adresse. Die Ortsseite Essen des Registerabzugs aus Fachbetrieberegister und Register der Entsorgungsfachbetriebe (Stand 11.08.2026) fuehrt 24 Betriebe, darunter CBR Bracke GmbH (Manderscheidtstrasse 91), Coban Metallhandel GmbH (Zur Halbinsel 9), DREKOPF Recyclingzentrum Essen GmbH (Schürmannstraße 19b), Sieloff Rohstoffverwertung (Breloher Steig 5) und Tappe Rohstoffhandel GmbH (Am Stadthafen 18), aber kein THP; das Register erfasst Entsorgungsbetriebe und ist kein Schrotthaendlerverzeichnis, der Negativbefund ist daher nur fuer dieses Register belastbar. Im Umfeld existieren echte Essener Schrotthaendler (u.a. Schrottplatz und Metallgrosshandel NRW, Inh. Claudia Prison-Kramer, Hoevelstr. 254, Tappe Rohstoffhandel mit oeffentlicher Preistabelle), die aber nicht mit THP gleichgesetzt werden duerfen. ANKAUF: nicht belegt, keine Preise; VERKAUF: keine Liste; GEBUEHREN: keine Angaben. Quellen: https://essen.city-map.de/de/thp-metall-schrott-handel ; https://api.openstreetmap.org/api/0.6/way/279103048.json ; https://schrottregister.pages.dev/ort-essen ; https://schrottregister.pages.dev/land-nordrhein-westfalen]

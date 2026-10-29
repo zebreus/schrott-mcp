@@ -4,15 +4,18 @@ name: Auto Rebig GmbH
 trader_type: autoverwertung
 state: NW
 city: Mönchengladbach
-street: ''
-postcode: ''
+street: 'Aachener Straße 232'
+postcode: '41061'
+lat: '51.1887914'
+lon: '6.4186815'
 phone: ''
 email: ''
 opening_hours: ''
 website: https://www.autorebig.de/
 website_status: aktiv
+certifications: '["Demontagebetrieb nach AltfahrzeugV (Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge der Laender, Zertifikatsnummer ZAAS00300028, Registerstand 11.08.2026)"]'
 status: pruefung
-description: ''
+description: 'Auto Rebig GmbH (HRB 3275, Amtsgericht Moenchengladbach; Namenshistorie Sophie Rebig GmbH): amtlich anerkannter Demontagebetrieb nach AltfahrzeugV (ZAAS00300028). Register- und Postanschrift Aachener Straße 232, 41061 Moenchengladbach, Geschaeftsfuehrer Bassam Hamdouch und Ceyda Kuebra Koeskertepesi. Website https://www.autorebig.de, Inhalte mit Stand 2018. Keine Ankaufspreise veroeffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Audit 7 Feedback #6594'
@@ -38,3 +41,4 @@ Die Website und der Registereintrag nennen Aachener Straße 232, 41061 Möncheng
 ### Importiert (Audit 7 Feedback #6594)
 
 - Übergebener Lead: „Auto Rebig GmbH / Autoverwertung Rebig“, Mönchengladbach. Ein passendes älteres Dossier und das Feedback-Rohprotokoll waren im lokalen Checkout nicht vorhanden; keine frühere Dossierhistorie oder ungeprüften Seed-Werte rekonstruiert.
+- [Recherche 29.10.2026: Neue unabhaengige Quelle fuer die Anschrift und eine bestaetigte Zertifikatsnummer. Der Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge der Laender fuehrt "Auto Rebig GmbH, Aachener Straße 232, 41061 Moenchengladbach" als anerkannten Demontagebetrieb mit der Zertifikatsnummer ZAAS00300028 (Abzug 11.08.2026). Das deckt sich mit dem Impressum der Betreiberseite (Auto Rebig GmbH, HR 3275 AG Moenchengladbach, Aachener Straße 232, 41061 Moenchengladbach, Geschaeftsfuehrer Bassam Hamdouch und Ceyda Kuebra Koeskertepesi) und mit dem NorthData-Profil HRB 3275, das die Namenshistorie Sophie Rebig GmbH zu Auto Rebig GmbH und Veroeffentlichungen vom 04.09.2026 und 19.08.2026 fuehrt. Street und postcode wurden daher aus Register plus Betreiber-Primärquelle uebernommen, die Zertifikatsnummer ZAAS00300028 ergaenzt. OSM live: node/3035357040 traegt addr:housenumber=232, addr:street=Aachener Straße, addr:city=Moenchengladbach, addr:postcode=41061 (nur Adress-Tags, kein Name-, Betreiber- oder Gewerbe-Tag); das Strassenraster ueber den gesamten Verlauf der Aachener Straße enthaelt 343 Objekte mit addr:street und 332 verschiedene Hausnummern, die Nummer 232 existiert. lat/lon 51.1887914/6.4186815 gesetzt (Adresspunkt der Registeranschrift, Punktgenauigkeit Adresslage). Der Status bleibt pruefung, weil die Vorwellen-Einwände weiter gelten: die Inhalte der Betreiberseite sind sichtbar veraltet (Fusszeile 2018, Zertifikatsbild von 2018) und die Registeranschrift teilen laut NorthData-Adresssuche die Jansen Haustechnik GmbH (HRB 5059) und die als erloschen markierte JADo Waermetechnik GmbH (HRB 5404), sodass ein ausschliesslich zugeordneter Annahmehof aus der Anschrift allein nicht folgt. ANKAUF: Fahrzeugankauf, Fahrzeugabholung und zertifizierte Autoverwertung werden beworben, keine Betraege und keine Materialkurse; VERKAUF: keine Preisliste im Dossier belegt; GEBUEHREN: keine Gebuehrenordnung. Quellen: https://schrottregister.pages.dev/betrieb-auto-rebig-gmbh-monchengladbach ; https://www.autorebig.de/impressum ; https://www.northdata.de/Auto%20Rebig%20GmbH,%20M%C3%B6nchengladbach/Amtsgericht%20Moenchengladbach%20HRB%203275 ; https://api.openstreetmap.org/api/0.6/node/3035357040.json]

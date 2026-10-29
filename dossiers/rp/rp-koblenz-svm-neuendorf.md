@@ -29,6 +29,8 @@ Die Website svmdienstleistungen.de präsentiert „SVM Dienstleistungen“ in Ko
 
 **ANKAUF:** keine bestätigte Metallannahme oder Ankaufpreise. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine veröffentlichten Entrümpelungs-/Demontagetarife. Website und Verzeichnislead reichen nicht zur Identifikation; Adresse und GEO offen.
 
+**Recherche 29.10.2026:** Der Betreiberauftritt besteht am 29.10.2026 unverändert, ohne Impressum (HTTP 404) und ohne Schrott-/Metallangebot; die Identität zwischen „SVM Neuendorf“/Gleisanschluss und dem Webauftritt bleibt offen. Es wurde in dieser Welle **keine** Aussage zur Lage eines Gleisanschlusses in Koblenz-Neuendorf getroffen — die Frontmatter bleibt deshalb ohne Adresse, und `clear_fields: 'geo'` bleibt in Kraft.
+
 ## Timeline
 
 ### Owner-GEO-Prüfung 23.10.2026
@@ -39,6 +41,10 @@ Die Website svmdienstleistungen.de präsentiert „SVM Dienstleistungen“ in Ko
 ### Recherche 23.10.2026
 
 - [Recherche 23.10.2026: Betreiberkandidaten-Website Start, Dienstleistungen, Kontakt und Referenzen direkt gelesen. Sie beschreibt Haushaltsauflösungen, Demontagen und Transporte in Koblenz, aber kein Schrott-/Metallangebot. Standortangabe bleibt nur „Koblenz am Rhein“, Kontakt nur Formular; Betreiberimpressum, Rechtsträger, genaue Geschäftsadresse, Telefon und E-Mail fehlen. Die Referenzseite verwendet den Platzhalter „John Doe“. Das trennt den sichtbaren Dienstleistungsauftritt nicht zuverlässig vom Seed „SVM Neuendorf“ und belegt keine öffentliche Annahmestelle. Keine Website-/Kontakt-/Leistungsfelder ergänzt. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Kurse, Preisliste oder Tarife. GEO nicht möglich. Quellen: https://www.svmdienstleistungen.de/ ; https://www.svmdienstleistungen.de/dienstleistungen ; https://www.svmdienstleistungen.de/kontakt ; https://www.svmdienstleistungen.de/referenzen .]
+
+### Recherche 29.10.2026
+
+- [Recherche 29.10.2026: Live-Nachpruefung des Betreiberauftritts, Befund unveraendert. svmdienstleistungen.de antwortet am 29.10.2026 mit HTTP 200 (Startseite erreichbar), der Pfad /impressum mit HTTP 404 — es gibt also weiterhin KEIN Impressum und damit weiterhin weder Rechtstraeger noch Registerangabe, Anschrift, oeffentliche Telefonnummer oder E-Mail. Das Angebot der Seite bleibt Haushaltsaufloesung/Demontage/Transport; ein Schrott- oder Metallangebot, eine Annahmestelle, eine Preisanzeige oder ein Abhol-/Entsorgungstarif ist nicht vorhanden. Der im September 2024 von der Recherche 02.10.2026 erwaehnte Testimonial-Platzhalter „John Doe“ wird nicht erneut behauptet, da der Seiteninhalt am 29.10.2026 nur als „Testimonials mit Platzhaltern“ zitiert wurde. In dieser Welle wurde bewusst KEINE OSM-Aussage zu einem „Gleisanschluss“ in Koblenz-Neuendorf getroffen: der gepruefte Kartenausschnitt lag im Stadtzentrum und enthielt keinen Gleisanschluss und kein Industrieobjekt mit Schrottbezug und ist damit fuer die Seed-Angabe „Gleisanschluss“ NICHT aussagekraeftig — eine belastbare Aussage bleibt offen. Frontmatter unveraendert (keine Adresse, kein Telefon, website leer, website_status unbekannt), `clear_fields: 'geo'` bleibt in Kraft, kein Koordinatenpaer gesetzt, status pruefung bleibt; die Zwei-Quellen-Regel fuer eine Identitaetszuschreibung des Webauftritts zum Seed „SVM Neuendorf“ ist weiterhin nicht erfuellt. ANKAUF: keine Metallannahme, keine Kurse; VERKAUF: keine Preisliste; GEBUEHREN: keine Tarife fuer Entruempelung, Demontage oder Transport. Quelle(n): https://www.svmdienstleistungen.de/ (HTTP 200, Abruf 29.10.2026) ; https://www.svmdienstleistungen.de/impressum (HTTP 404, Abruf 29.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
