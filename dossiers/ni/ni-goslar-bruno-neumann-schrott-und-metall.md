@@ -4,17 +4,20 @@ name: Bruno Neumann Schrott- und Metall-GmbH
 trader_type: schrotthaendler
 state: NI
 city: Goslar
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+street: Glückauf-Str. 15-17
+postcode: '38690'
+lat: '51.9454134'
+lon: '10.5365397'
+phone: '05324 1827'
+email: info@bruno-neumann.de
+opening_hours: 'Büro Mo-Fr 07:00-17:00; Be- und Entladezeiten Mo-Do 07:00-16:00, Fr 07:00-13:00'
+website: https://www.bruno-neumann.de/
+website_status: aktiv
 status: aktiv
-description: ''
+description: 'Schrott- und Metallhandel der Bruno Neumann Schrott- und Metall GmbH, Glückauf-Str. 15-17, 38690 Goslar OT Vienenburg (HRB 110211, Amtsgericht Braunschweig; GF Alexander Neumann, Telefon 05324 1827, info@bruno-neumann.de). Das Familienunternehmen besteht seit über 60 Jahren und ist Entsorgungsfachbetrieb nach § 56 KrWG (TÜV NORD, Zertifikat 44 714 051094, Vorgangsnummer ZZET015001582008, gültig bis 08.08.2027, Prüfdatum 08.04.2026). ANKAUF: Schrott und Metalle werden aufgekauft, bearbeitet und anschließend an Stahlwerke und Metallgießereien zum Einschmelzen veräußert; mit der Lindemann-Schrottpresse werden Dosen aus der DSD-Sammlung, Blechgebinde für KBS, MBA-Schrotte und Fe-Deckel zu stahlwerksgerechten Paketen verpresst. Eine aktuelle Betreiber-Mitteilung weist darauf hin, dass zur Zeit keine Buntmetalle angenommen werden. VERKAUF: Abverkauf des aufbereiteten Materials an Stahlwerke und Metallgießereien; keine öffentliche Preisliste. GEBÜHREN: keine Gebühren- oder Tarifliste veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
+certifications: '["“Entsorgungsfachbetrieb nach § 56 KrWG (TÜV NORD CERT GmbH, Zertifikat 44 714 051094, Vorgangsnummer ZZET015001582008, Prüfdatum 08.04.2026, gültig bis 08.08.2027, Standort Glückauf Straße 15-17, 38690 Goslar OT Vienenburg)“"]'
 provenance_section: Göttingen / Northeim / Goslar-Harz / Hildesheim / Weserbergland
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -24,9 +27,27 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der bislang leere Seed-Eintrag ist über die Betreiber-Website als **Bruno Neumann Schrott- und Metall GmbH** identifiziert und über drei voneinander unabhängige Belege abgesichert:
+
+1. **Betreiber-Website** (`bruno-neumann.de`): Impressum nennt Rechtsträger, Register (HR B 110211, Amtsgericht Braunschweig), Anschrift Glückauf-Str. 15-17, 38690 Goslar OT Vienenburg, Geschäftsführer Alexander Neumann, Telefon 05324 1827 und E-Mail `info@bruno-neumann.de`.
+2. **Handelsregister-Nachweis** (Northdata): Bruno Neumann Schrott- und Metall-GmbH, HR B 110211, Amtsgericht Braunschweig, Anschrift „Glückauf-Str. 15-17, D-38690 Goslar Vienenburg", EUID DEP1103.HRB110211; Geschäftszweck: Groß- und Einzelhandel mit Schrott und Metallen einschließlich Containerdienst, Handel und Aufbereitung von Schrott und unedlen Metallen. Jahresabschlüsse bis zum 31.12.2024 eingetragen (26.05.2026).
+3. **Zertifizierungs-Nachweis** (TÜV NORD, `Zertifikat 2026.pdf` der Betreiber-Website): Entsorgungsfachbetrieb nach § 56 KrWG, Zertifikat 44 714 051094, Vorgangsnummer ZZET015001582008, Folgezertifizierung, gültig bis 08.08.2027, Prüfdatum 08.04.2026, ausgestellt 29.07.2026; Anlage 1 nennt den Standort „Bruno Neumann Schrott- und Metall GmbH, Glückauf Straße 15-17, 38690 Goslar OT Vienenburg" mit Registernummer HRB 110211 / Registergericht Braunschweig. Zertifizierte Tätigkeiten (Anlage 1, 2.1/2.2): **Sammeln** und **Befördern**, jeweils „nur deutschlandweit", Kennnummer nach § 28 NachwV C000001108; **Lagern, Behandeln, Verwerten, Beseitigen, Handeln und Makeln sind im Zertifikat NICHT angekreuzt**. Abschnitt 3 der Anlage beschreibt „Fuhrpark und Containerndienst. Keine Gefahrgut-Transporte." — das steht in Spannung zur Website-Aussage zur Gefahrgutbeförderung und bleibt als offene Frage markiert.
+
+**GEO:** Der bisherige Produktionspunkt (51.9191/10.4167) löst nach OSM/Nominatim auf „Kuhlenkamp, Kramerswinkel, Georgenberg, Goslar" auf und liegt rund **8,72 km** vom belegten Standort entfernt. Ersetzt durch den OSM-Way **823149647** (`industrial=scrap_yard`, `landuse=industrial`, `name=Bruno Neumann`, `website=https://www.bruno-neumann.de`, `addr:housenumber=15-17`, `addr:street=Glückauf-Straße`), dessen Geometrie-S centroid bei 51.9454134/10.5365397 liegt. Der Weg ist ein Flächenobjekt (Schrottplatz-Fläche), kein Gebäudepunkt; die Punktgenauigkeit ist begrenzt und eine Anlieferzufahrt ist nicht bestätigt.
+
+**Preise (Ankauf / Verkauf / Gebühren getrennt):**
+
+- **Ankauf:** Schrott und Metalle werden aufgekauft; die Website nennt Buntmetall-Aufnahme, aktuell mit der Betreiber-Mitteilung „zur Zeit ist leider keine Buntmetallannahme möglich" (Word-Datei auf der Aktuellen-Seite). **Keine Zahlenkurse und keine Preisliste veröffentlicht.**
+- **Verkauf:** Aufbereitetes Material (Presspakete) wird „an Stahlwerke und Metallgießereien zum Einschmelzen veräußert"; die Website führt „Nutzeisen" als Leistung. **Keine öffentliche Verkaufspreisliste.**
+- **Gebühren:** **Keine Gebühren- oder Tarifliste veröffentlicht.** Die Zertifizierung nach § 56 KrWG ist eine Qualifikations-, keine Preisangabe.
+
+**Offen:** Zwei Lesarten der Zertifikatslage (nur Sammeln/Befördern vs. die auf der Website beschriebene Press- und Aufbereitungsleistung) und die Frage, ob die seit 2025 gültige Transportgenehmigung für Gefahrgut-Transporte gilt (das EFB-Zertifikat schließt Gefahrgut-Transporte ausdrücklich aus) — beides betreiber- bzw. behördenseitig zu klären. Ebenfalls offen: die Buntmetall-Sperre ist undatiert, ein Abrufdatum der DOCX-Datei ist nicht belegbar.
 
 ## Timeline
+
+### Recherche 29.10.2026: Betreiber-Website, Handelsregister und TÜV-NORD-EFB-Zertifikat — drei unabhängige Belege für Standort und Rechtsträger
+
+- [Recherche 29.10.2026: Der Seed-Eintrag ohne jede Kontaktangabe ist jetzt über **drei unabhängige Quellen** belegt. (1) **Betreiber-Website** `bruno-neumann.de`: Impressum — „Bruno Neumann Schrott- und Metall- GmbH, Geschäftsführer Alexander Neumann, Glückauf-Str. 15-17, 38690 Goslar OT Vienenburg, Telefon 05324 1827, Fax 05324 2628, info@bruno-neumann.de, Registereintrag Amtsgericht Braunschweig HR B 110211, USt-IdNr DE811389597, Finanzamt Goslar"; Seiten „Die Firma", „Leistungen und Services", „Bürozeiten" (Büro Mo-Fr 07:00-17:00, Be- und Entladezeiten Mo-Do 07:00-16:00 und Fr 07:00-13:00, „oder nach Vereinbarung"), „Ansprechpartner" (Frederic Neumann, Phillip Schrader — Einkauf, Mobil 0157/34859890) und „Kontakt" (E-Mail `info@bruno-neumann.de`, Haupt-Telefon 05324 1827). (2) **Handelsregister** über Northdata: „Bruno Neumann Schrott- und Metall-GmbH", Ut Amtsgericht Braunschweig HRB 110211, EUID DEP1103.HRB110211, Adresse „Glückauf-Str. 15-17, D-38690 Goslar Vienenburg", Gegenstand „In teilweiser Fortführung des Geschäfts der Einzelfirma Bruno Neumann der Groß- und Einzelhandel mit Schrott und Metallen einschließlich Containerdienst für Industrie und Privat, ferner Handel und Aufbereitung von Schrott und unedlen Metallen…"; Publizierte Jahresabschlüsse bis 31.12.2024 (26.05.2026). (3) **Zertifizierungsnachweis** — das auf der Betreiber-Website unter `app/download/5815773185/Zertifikat+2026.pdf` bereitgestellte PDF der TÜV NORD CERT GmbH (An der 10V 1, 45307 Essen): „Zertifikat", Nummer **44 714 051094**, Vorgangsnummer **ZZET015001582008**, Folgezertifizierung, 3 Anlagen, gültig **bis 08.08.2027**, Prüfdatum **08.04.2026**, Ausstellungsdatum 29.07.2026; Zertifikatsinhaber „Bruno Neumann Schrott- und Metall GmbH", Glückauf Straße 15-17, 38690 Goslar OT Vienenburg, Registernummer HRB 110211, Registergericht Braunschweig. **Anlage 1 (live gelesen, Ankreuzfelder bei 600 dpi verifiziert):** Standort „Bruno Neumann Schrott- und Metall GmbH, Glückauf Straße 15-17, 38690 Goslar OT Vienenburg"; zertifizierte Tätigkeiten **2.1 Sammeln** (2.1.1 nur deutschlandweit ☒, 2.1.2 weltweit ☐) und **2.2 Befördern** (2.2.1 nur deutschlandweit ☒, 2.2.2 weltweit ☐), je mit Kennnummer nach § 28 NachwV C000001108; **2.3 Lagern, 2.4 Behandeln, 2.5 Verwerten, 2.6 Beseitigen, 2.7 Handeln und 2.8 Makeln sind nicht angekreuzt**; Abschnitt 3: „Fuhrpark und Containerndienst. Keine Gefahrgut-Transporte." Frontmatter entsprechend gefüllt (Straße, PLZ, Telefon, E-Mail, Öffnungszeiten, Website, `website_status: aktiv`, Zertifikat in `certifications`, `status: aktiv`); `certifications` als JSON-Array gemäß Schema. **Widerspruch, nicht aufgelöst:** die Website beschreibt eine Lindemann-Schrottpresse, DSD-Dosen- und KBS-Gebindeaufbereitung und RADOS-Radioaktivitätsmessung und behauptet „Im Rahmen unserer Transportgenehmigung befördern wir gefährliche- und nicht gefährliche Abfälle" sowie Gefahrguttransporte nach ADR — das EFB-Zertifikat deckt dagegen nur Sammeln und Befördern ab und schließt Gefahrgut-Transporte ausdrücklich aus; welche Erlaubnis die Gefahrgutbeförderung trägt, ist aus den geprüften Belegen nicht ableitbar (die verlinkte `Transportgenehmigung`-Seite enthält nur nicht maschinell lesbare Scan-PDFs). **ANKAUF:** Ankauf von Schrott und Metallen belegt; eine als Word-Datei auf der „Aktuelles"-Seite veröffentlichte Betreiber-Mitteilung „Metallannahme — Aus personellen Gründen werden in unserer Firma zur Zeit keine Buntmetalle angenommen" belegt eine **aktuelle Buntmetall-Sperre** (Dateidatum nicht belegbar, kein Abrufdatum im Dokument); **keine Zahlenkurse, keine Preisliste**. **VERKAUF:** Verkauf aufbereiteter Presspakete „an Stahlwerke und Metallgießereien zum Einschmelzen" sowie „Nutzeisen" als Leistung; **keine öffentliche Verkaufspreisliste**. **GEBÜHREN:** **keine Gebühren- oder Tarifliste**; die EFB-Zertifizierung ist eine Qualifikations-, keine Preisangabe. **GEO:** der Produktionspunkt 51.9191/10.4167 („Kuhlenkamp, Kramerswinkel, Georgenberg, Goslar", 8,72 km entfernt, Haversine R=6371 km) wird durch den OSM-Way **823149647** ersetzt (`industrial=scrap_yard`, `landuse=industrial`, `name=Bruno Neumann`, `website=https://www.bruno-neumann.de`, `addr:housenumber=15-17`, `addr:street=Glückauf-Straße`; Centroid 51.9454134/10.5365397) — Flächenobjekt der Schrottplatz-Fläche, keine bestätigte Anlieferzufahrt, begrenzte Punktgenauigkeit. **Offen:** (a) Auflösung der Zertifikats-/Website-Diskrepanz und der Gefahrgutbeförderung, (b) Ende oder Fortbestand der Buntmetall-Sperre, (c) Bestätigung einer Anlieferzufahrt. Quellen: https://www.bruno-neumann.de/impressum/ ; https://www.bruno-neumann.de/die-firma/ ; https://www.bruno-neumann.de/leistungen-und-services/ ; https://www.bruno-neumann.de/b%C3%BCrozeiten/ ; https://www.bruno-neumann.de/ansprechpartner/ ; https://www.bruno-neumann.de/zertifikat/ ; https://www.bruno-neumann.de/app/download/5815773185/Zertifikat+2026.pdf ; https://www.bruno-neumann.de/aktuelles/ ; https://www.bruno-neumann.de/app/download/5812629009/zur+Zeit+ist+leider+keine+Buntmetallannahme+m%C3%B6glich.docx ; https://www.northdata.de/Bruno+Neumann+Schrott-+und+Metall-GmbH,+Goslar/Amtsgericht+Braunschweig+HRB+110211 ; https://api.openstreetmap.org/api/0.6/way/823149647/full ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.9191&lon=10.4167&zoom=18&addressdetails=1 ; read-only `public.db` (29.10.2026).]
 
 ### Importiert (Seed-Stand 2026-09-30)
 

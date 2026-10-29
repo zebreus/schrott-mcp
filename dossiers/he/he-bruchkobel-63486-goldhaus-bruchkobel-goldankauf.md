@@ -4,17 +4,19 @@ name: Goldhaus Bruchköbel Goldankauf
 trader_type: sonstige
 state: HE
 city: Bruchköbel
-street: ''
-postcode: ''
-phone: ''
+street: Hauptstraße 12
+postcode: 63486
+phone: 06181 9069266
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: Gold- und Silberankauf (Altgold, Ketten, Münzen, Palladium) in Bruchköbel, Inhaber H. Joseph; im OSM als Gewerbeknoten mit shop=gold_buyer erfasst. Kein Schrott- oder Metallhandel, keine Ankaufspreise veröffentlicht.
 dropoff_json: ''
 pickup_json: ''
+lat: 50.1780972
+lon: 8.9152239
 provenance_section: Nachtrag Wide-Net (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -24,11 +26,21 @@ provenance_origin: table
 
 ## Überblick
 
-„Goldhaus Bruchköbel“ ist bislang nicht über einen Betreiberauftritt oder Registereintrag identifiziert. Hauptstraße 12, 63486, 06181 9069266, Öffnungszeiten und der Name H. Joseph stammen ausschließlich aus älteren Branchenverzeichnis-Leads und stehen deshalb nicht im Frontmatter. Die am 02.10.2026 untersuchte Kandidatendomain `goldhaus-bruchkoebel.de` wurde damals laut Timeline mit NXDOMAIN protokolliert; der dort erwähnte Wayback-Treffer wurde als Redirect-Stub beschrieben. Eine Betreiberzuordnung ist damit nicht belegt. Der Transportfehler im Review vom 18.10. ist keine neue DNS-Messung; weder Schließung noch Nicht-Existenz folgt daraus.
+„Goldhaus Bruchköbel" ist ein **Gold- und Silberankauf** in Bruchköbel — fachlich also **Edelmetall-Handel, nicht Schrott/metall**. Die Adresse **Hauptstraße 12, 63486 Bruchköbel** und der Inhaber **H. Joseph** sind in einem OSM-Objekt hinterlegt, das zugleich die offenen Zeiten und den Gewerbe-Typ trägt: Node 9202199909 mit `name=Goldhaus Bruchköbel`, `shop=gold_buyer`, `operator=H. Joseph`, `addr:housenumber=12`, `addr:street=Hauptstraße`, `addr:postcode=63486`, `addr:city=Bruchköbel`, `opening_hours=Mo,Th,Tu,Fr 10:00-18:00; We 10:00-13:00; Sa 10:00-13:00; Su,PH "Nach Vereinbarung"`.
 
-**ANKAUF:** Goldankauf als Verzeichnis-Kategorie, aber keine zuordenbaren Ankaufkurse oder aktuellen Konditionen. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Angaben. Status `pruefung`.
+Die Verzeichnisse bestätigen denselben Betrieb: Das Örtliche/Gelbe Seiten nennen **Hauptstr. 12, 63486 Bruchköbel, 06181 9069266** mit den Leistungen Altgoldankauf, Goldankauf, Kettenankauf, Münzenankauf und Palladiumankauf sowie den Öffnungszeiten Mo–Fr 09:00–18:00, Sa 09:00–13:00; die Bundes-Telefonbuch- und Cylex-Einträge nennen dieselbe Anschrift, dieselbe Nummer und zusätzlich die Faxnummer 06181 9069267; der stadtbranchenbuch-Eintrag nennt zusätzlich die E-Mail `goldhaus.bruchkoebel@googlemail.com` und die Website `goldhaus-bruchkoebel.de`. Ein onlinestreet-Eintrag (zuletzt aktualisiert 24.10.2026) führt denselben Betrieb mit „Betreiber: H. Joseph".
 
+**Die Website ist nicht mehr erreichbar:** `dig goldhaus-bruchkoebel.de` liefert am 29.10.2026 **NXDOMAIN** (kein A-Record, kein NS-Record), während ein Kontrollabruf im selben Lauf ein A-Record liefert. Es handelt sich um eine DNS-Abschaltung; `website` bleibt deshalb leer, `website_status` bleibt unbekannt, und es wird **keine** Schließung abgeleitet.
+
+Die Öffnungszeiten weichen zwischen den Quellen ab (OSM: Mo/Di/Do/Fr 10:00–18:00, Mi 10:00–13:00, Sa 10:00–13:00; Verzeichnisse: Mo–Fr 09:00–18:00, Sa 09:00–13:00) — sie werden deshalb **nicht** übernommen.
+
+**ANKAUF:** Gold-, Altgold-, Ketten-, Münzen- und Palladiumankauf sind als Leistungen belegt; **Ankaufspreise je Gramm werden nicht veröffentlicht** (Goldankauf erfolgt tagesgenau). **VERKAUF:** kein Verkaufssortiment belegt. **GEBÜHREN:** keine Gebühren- oder Bewertungsgebührenordnung belegt; eine kostenfreie Bewertung wird nicht behauptet. `status: pruefung` bleibt: Es liegt kein Betreiberauftritt und kein Registerbeleg vor (Einzelunternehmer sind nicht über eine Handelsregistersuche auffindbar).
 ## Timeline
+
+### Recherche 29.10.2026
+
+- [Recherche 29.10.2026: **Die Hausnummer ist live geprüft und existiert als benannter Gewerbeknoten — der Betrieb ist damit unabhängig vom Verzeichnis belegt.** Node 9202199909 in OSM trägt `name=Goldhaus Bruchköbel`, `shop=gold_buyer`, `operator=H. Joseph`, `addr:housenumber=12`, `addr:street=Hauptstraße`, `addr:postcode=63486`, `addr:city=Bruchköbel` sowie `opening_hours=Mo,Th,Tu,Fr 10:00-18:00; We 10:00-13:00; Sa 10:00-13:00; Su,PH "Nach Vereinbarung"`; Punkt 50.1780972/8.9152239. Der Inhabername „H. Joseph" stimmt mit den Verzeichniseinträgen überein, die dieselbe Anschrift und Nummer führen (Gelbe Seiten: Hauptstr. 12, 63486 Bruchköbel, 06181 9069266, Leistungen Altgoldankauf, Goldankauf, Kettenankauf, Münzenankauf, Palladiumankauf; bundes-telefonbuch und Cylex: dieselbe Anschrift/Nummer plus Fax 06181 9069267; stadtbranchenbuch: zusätzlich E-Mail goldhaus.bruchkoebel@googlemail.com und Website goldhaus-bruchkoebel.de; onlinestreet: „Betreiber: H. Joseph", zuletzt aktualisiert 24.10.2026). **Die Website ist per DNS abgeschaltet:** `dig goldhaus-bruchkoebel.de` liefert am 29.10.2026 **NXDOMAIN** (kein A-Record, kein NS-Record), der Kontrollabruf im selben Lauf liefert ein A-Record — `website` bleibt daher leer, `website_status` bleibt unbekannt, eine **Schließung wird nicht abgeleitet**. frontmatter: street → 'Hauptstraße 12', postcode → '63486', phone → '06181 9069266' (Betreiber-Objekt + mehrere Verzeichnisse; die Nummer ist im OSM-Gewerbeknoten nicht selbst hinterlegt, aber über die Operator-Angabe und drei Verzeichniseinträge deckungsgleich), description mit Leistungsumfang und der Einordnung Gold-/Silberankauf (kein Schrott-/Metallhandel), lat/lon **50.1780972/8.9152239** (OSM-Node, Point of Interest, keine bestätigte Anlieferzufahrt). **Öffnungszeiten bewusst nicht übernommen**, weil OSM (Mo/Di/Do/Fr 10:00–18:00, Mi 10:00–13:00, Sa 10:00–13:00) und die Verzeichnisse (Mo–Fr 09:00–18:00, Sa 09:00–13:00) abweichen. **ANKAUF:** Gold-/Altgold-/Ketten-/Münzen-/Palladiumankauf belegt, **keine Grammpreise veröffentlicht**; **VERKAUF:** kein Verkaufssortiment belegt; **GEBÜHREN:** keine Gebühren-/Bewertungsgebührenordnung belegt, keine kostenfreie Bewertung behauptet. Status bleibt `pruefung` — kein Betreiberauftritt, kein Registerbeleg (Einzelunternehmer). Quelle(n): https://api.openstreetmap.org/api/0.6/node/9202199909.json + https://www.gelbeseiten.de/gsbiz/7dd2427c-70d5-470b-b00e-418fa07c5186 + https://www.bundes-telefonbuch.de/bruchkoebel/juwelier/goldhaus-bruchkoebel-inh-h-joseph-goldankauf-bvg6139593870 + https://bruchkoebel.stadtbranchenbuch.com/7774060.html + https://onlinestreet.de/poi/dHRmMmhlcnR0VldnQW9neVZTUUxOUT09 + https://web2.cylex.de/firma-home/goldhaus-bruchkoebel-inh--h-joseph-goldankauf-12351064.html (Abruf 29.10.2026); DNS-Abfragen goldhaus-bruchkoebel.de (29.10.2026)]
+
 
 ### Korrektur 05.10.2026
 

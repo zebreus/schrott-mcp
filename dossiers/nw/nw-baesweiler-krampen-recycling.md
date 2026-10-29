@@ -4,19 +4,20 @@ name: Krampen Recycling
 trader_type: schrotthaendler
 state: NW
 city: Baesweiler
-street: ''
-postcode: ''
-lat: ''
-lon: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: Hermann-Hollerith-Str. 8
+postcode: '52499'
+lat: '50.9176813'
+lon: '6.1776503'
+phone: 02401 4654
+email: info@krampen-recycling.de
+opening_hours: 'Materialannahme Sommer (März-Oktober) Mo-Fr 07:00-17:00, Sa 07:00-13:00; Winter (November-Februar) Mo-Fr 08:00-17:00, Sa 08:00-13:00; Pause 12:00-12:30; Verwaltung Mo-Fr 08:00-17:00'
 website: https://krampen-recycling.de/
 website_status: aktiv
 status: aktiv
-description: ''
+description: 'Metall- und Schrotthandel mit Demontage und Containerdienst: Krampen Recycling, Einzelunternehmen Thomas Krampen (USt-IdNr. DE277219296), 52499 Baesweiler. Drei Standorte: Hauptverwaltung Werner-von-Siemens-Str. 4, Materialannahme Hermann-Hollerith-Str. 8 (Großfahrzeugwaage, Annahme aller gängigen Schrott-, Abfall- und NE-Metall-Arten) und Johannes-Gutenberg-Str. 1 (Großfahrzeugwaage, Abfallannahme, Anlieferung Kleinmengen, Containerdienst; samstags bis auf Weiteres geschlossen). Das amtliche Fachbetrieberegister führt den Betrieb unter der Hauptverwaltung Werner-von-Siemens-Straße 4 mit Zertifikatsnummer ZZET02000048, zertifizierten Tätigkeiten Sammeln, Befördern, Lagern und Behandeln sowie 19 Abfallschlüsseln (Stand 11.08.2026). Ankauf von Schrott und NE-Metallen für private und gewerbliche Kleinanlieferer mit geeichten Waagen und sortengerechter Vergütung ist ausdrücklich belegt, eine öffentliche Preisliste gibt es nicht.'
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZET02000048 (Fachbetrieberegister, Auszug 11.08.2026), Krampen Recycling, Werner-von-Siemens-Straße 4, 52499 Baesweiler; zertifizierte Tätigkeiten Sammeln, Befördern, Lagern und Behandeln; Abfallschlüssel 120101, 120102, 120103, 120104, 160108*, 160109*, 160110*, 160111*, 160119, 160120, 160801, 160802*, 170401, 170402, 191001, 191002*, 191003*, 191005*, 200136"]'
 provenance_section: Neu, Ankauf verifiziert (ja)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -26,9 +27,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**Krampen Recycling** (Einzelunternehmen Thomas Krampen, USt-IdNr. DE277219296) betreibt in Baesweiler drei Standorte: Hauptverwaltung **Werner-von-Siemens-Str. 4**, **Materialannahme Hermann-Hollerith-Str. 8** (Großfahrzeugwaage, Annahme aller gängigen Schrott-, Abfall- und NE-Metall-Arten) und **Johannes-Gutenberg-Str. 1** (Abfallannahme, Anlieferung Kleinmengen, Containerdienst; samstags bis auf Weiteres geschlossen). Das amtliche Fachbetrieberegister (Auszug 11.08.2026) führt den Betrieb mit Zertifikatsnummer **ZZET02000048**, den Tätigkeiten Sammeln/Befördern/Lagern/Behandeln und 19 Abfallschlüsseln unter der Hauptverwaltung — ein zweiter, unabhängiger Beleg neben der Betreiberseite. Die Dossieradresse ist die **Materialannahme** (Hermann-Hollerith-Str. 8), weil das die belegte Schrott-/NE-Metall-Annahmestelle für private und gewerbliche Kleinanlieferer ist; das OSM-Objekt way/344527087 trägt entsprechend den Betreibernamen „Materialannahme Krampen Recycling“.
+
+**ANKAUF:** Schrott und NE-Metalle von Aluminium bis Zink werden gekauft; die Vergütung erfolgt „sortengerecht nach Tageshöchstpreisen“ — **eine offengelegte Zahlenliste gibt es nicht**, der Preismechanismus ist aber dokumentiert. Ein Sortenkatalog des Annahmesortiments ist veröffentlicht (Blei/Altblei/Auswuchtblei/Bleibatterien, Messing schwer/leicht/Späne, Rotguß, Zink/Altzink, Zinn/Zingeschirr 60 %/Reinzinn 99,5 %, Stahlschrott, Mischschrott, Shreddervormaterial, Blech, Karossen, Industrie- und Abbruchschrott, Bremsscheiben, Stahlfelgen, Stahlspäne, Kupfer Cu-Raff, Millberry, Cu-Kabel 38-40 %, Kupfer- und Messingspäne, Kühler, E-Motoren, legierter Schrott, V2A/V4A-Späne, Titan, Nickel, Chromstahl, Widia/Stahl HSS, Aluminium Geschirr/Felgen/Profile blank, Aluminium Kabel, Aluminium-Kühler KFZ). **VERKAUF:** kein eigenes Verkaufssortiment mit Preisen; Container werden kurz- oder langfristig bereitgestellt. **GEBÜHREN:** keine Tarife veröffentlicht — Container nach individuellem Angebot.
 
 ## Timeline
+
+### Recherche 29.10.2026 (Tiefenrecherche-Welle, Shard B)
+
+- [Recherche 29.10.2026: Der in der Vorwellen-Notiz vom 03.10.2026 geforderte zweite Beleg ist nachgeholt: Das amtliche Fachbetrieberegister (Spiegel schrottregister.pages.dev, Auszug 11.08.2026) führt „Krampen Recycling“ als anerkannten Entsorgungsfachbetrieb mit **Zertifikatsnummer ZZET02000048**, zertifizierten Tätigkeiten Sammeln, Befördern, Lagern und Behandeln sowie 19 Abfallschlüsseln (120101, 120102, 120103, 120104, 160108*, 160109*, 160110*, 160111*, 160119, 160120, 160801, 160802*, 170401, 170402, 191001, 191002*, 191003*, 191005*, 200136); die Registeradresse ist die **Hauptverwaltung Werner-von-Siemens-Straße 4, 52499 Baesweiler**. Die Ortsseite Baesweiler führt genau zwei anerkannte Betriebe (Krampen Recycling und Volker Heinen Entsorgungsfachbetrieb OHG, Hermann-Hollerith-Straße 16-18 — eine andere Einheit, andere Hausnummer, keine Verwechslung). Damit sind Betreiberidentität und Stadt belegt. Die Materialannahme selbst ist doppelt belegt: Betreiber-Standortseite („Standort 2: Hermann-Hollerith-Straße 8, Großfahrzeugwaage, Annahme aller gängigen Schrott-, Abfall- und NE-Metall-Arten“) und OSM-Objekt **way/344527087** mit name „Materialannahme Krampen Recycling“ und den Tags addr:street=Hermann-Hollerith-Straße, addr:housenumber=8, addr:postcode=52499, addr:city=Baesweiler, building=yes (Zentrum 50.9176813/6.1776503). street/postcode/lat/lon wurden deshalb auf die Materialannahme gesetzt, nicht auf die Verwaltung — die Verwaltungsadresse Werner-von-Siemens-Str. 4 steht in der description und ist durch Impressum (Stand 01.10.2025) und amtliches Register belegt. phone 02401 4654, email info@krampen-recycling.de und die Saisonzeiten (Materialannahme Winter November-Februar Mo–Fr 08:00-17:00, Sa 08:00-13:00; Sommer März-Oktober Mo–Fr 07:00-17:00, Sa 07:00-13:00; Pause 12:00-12:30; Verwaltung Mo–Fr 08:00-17:00) stammen weiterhin aus der Betreiber-Website; das amtliche Register nennt weder Telefon noch E-Mail, trägt also nur Identität, Anschrift und Zertifizierung. status pruefung → aktiv, certifications gefüllt. ANKAUF: „sortengerechte Vergütung der angelieferten Metalle nach Tageshöchstpreisen“ — Preismechanismus belegt, **keine Zahlenliste**; ein öffentlicher Sortenkatalog des Annahmesortiments ist auf der Leistungsseite veröffentlicht und in der description zusammengefasst. VERKAUF: kein Verkaufssortiment mit Preisen. GEBÜHREN: keine Tarife; Container „kurz oder langfristig zur Verfügung gestellt“ ohne Preis. Nebenbefund: Die Betreiberseite nennt zwei verschiedene Faxnummern (Impressum +49 (0) 2401 895309, Standortseite +49 (0) 2401 93422-30) — im Frontmatter wird kein Fax geführt, die Abweichung ist hier nur vermerkt.; Quelle(n): https://schrottregister.pages.dev/betrieb-krampen-recycling-baesweiler ; https://schrottregister.pages.dev/ort-baesweiler ; https://krampen-recycling.de/impressum/ ; https://krampen-recycling.de/ueber-uns/standorte/ ; https://krampen-recycling.de/leistungen/leistungen-metall-und-schrotthandel/ ; https://www.openstreetmap.org/way/344527087]
 
 ### Recherche 01.10.2026
 

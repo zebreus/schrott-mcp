@@ -6,6 +6,8 @@ state: HH
 city: Billstedt
 street: Möllner Landstr. 141K
 postcode: '22117'
+lat: '53.5393685'
+lon: '10.1249890'
 phone: 040 7124521
 email: ''
 opening_hours: ''
@@ -28,8 +30,9 @@ Der Seed-Eintrag "Weihs Sebastian Schrott und Metalle" (Möllner Landstr. 141K, 
 **kein Phantom**: mehrere voneinander unabhängige Branchenverzeichnisse führen denselben
 Eintrag deckungsgleich:
 
-- **branchenbuchdeutschland.de**: "Sebastian Weihs, Schrott und Metalle - Möllner Landstr. 141k,
-  22117 Hamburg, Telefon: 0407124521".
+- **branchenbuchdeutschland.de** (live gelesen): "Sebastian Weihs, Schrott und Metalle - Möllner Landstr. 141k,
+  22117 Hamburg, Telefon: 0407124521"; der Eintrag nennt zusätzlich die **Geokoordinaten 53°32′19.448771 10°07′30.216251**
+  (Dezimalgrad 53.5387358 / 10.1250701) sowie die Branche „Schrott".
 - **hamburg.stadtbranchenbuch.com**: "Sebastian Weihs ist in der Möllner Landstr. 141K im Stadtteil
   Billstedt zu finden."
 - **oeffnungszeitenbuch.de**: Filiale "Sebastian Weihs Schrott und Metalle", Möllner Landstr. 141K.
@@ -38,34 +41,50 @@ Eintrag deckungsgleich:
 
 Damit sind **Anschrift und Telefonnummer** belegt (mehrere unabhängige Verzeichnisse, deckungsgleich).
 
-**Was weiterhin fehlt:** Es gibt **keine Betreiber-Website, kein Impressum und keinen
-Handelsregister-Eintrag** (Einzelunternehmer ohne HRB). Im **amtlichen Fachbetrieberegister**
-(Auszug 11.08.2026) ist für Hamburg **kein Eintrag an der Möllner Landstraße** verzeichnet - das ist
-ein **Negativbefund ohne Beweiswert**, weil die Efb-Anerkennung freiwillig ist und
-Einzelunternehmer selten erfasst werden. `status: pruefung` bleibt deshalb bestehen; `website`
-bleibt leer, `website_status` wird auf `unbekannt` normalisiert.
+**Zur OSM-Hausnummer (live nachgeprüft, Präzisierung gegenüber der Vorwelle):** Die in der Vorwelle
+als Alternativen genannten Hausnummern-Knoten **141a/b/c** und **141k** sind inzwischen **live am
+Objekt verifiziert** — sie sind keine unbestätigte Vermutung, sondern tragen die Tags:
 
-**Preise (Ankauf / Verkauf / Gebühren) getrennt:**
+| Objekt | Tags (live) | Lage |
+|---|---|---|
+| way **397364030** | `addr:housenumber=141k`, `addr:street=Möllner Landstraße`, `addr:postcode=22117`, `addr:city=Hamburg`, `building=house`, `building:levels=2` | Centroid **53.5393685 / 10.1249890** |
+| way 397360566 | `addr:housenumber=141a`, `addr:street=Möllner Landstraße`, `addr:postcode=22117`, `addr:city=Hamburg`, `building=house` | Centroid 53.5388714 / 10.1251619 |
+| way 397360567 / 397360568 | `addr:housenumber=141b` bzw. `141c`, `addr:street=Möllner Landstraße`, `addr:postcode=22117`, `addr:city=Hamburg`, `building=house` | 141b / 141c |
 
-- **Ankauf:** **keine Zahlenkurse** veröffentlicht. Belegt ist nur die Branchenzuordnung
-  "Schrott und Metalle".
-- **Verkauf:** keine Liste.
-- **Gebühren:** keine Tarife; **eine kostenlose Abholung ist nicht belegt**.
+Die Zeile „141a–141c" ist damit korrekt, aber **unvollständig**: OSM führt in der Möllner Landstraße
+eine **lückenlose Buchstabenreihe 141a, 141b, 141c, 141d, 141e, 141f, 141g, 141h, 141i, 141k, 141l, 141m**
+(zwölf Gebäude, `building=house`, `building:levels=2`, alle mit `addr:postcode=22117`,
+`addr:city=Hamburg`), daneben 139a–139h, 143a–143m und 145a–145m. Die Suffix-Buchstaben sind also eine
+**Adressierungs-Systematik der ganzen Hauszeile**, nicht eine Besonderheit der drei in der Vorwelle
+genannten Objekte. **Die Aussage der Vorwelle, 141K sei „nicht in OSM erfasst", bleibt damit berichtigt** —
+die Hausnummer 141k existiert als eigenes Objekt mit vollständigem Adresssatz.
 
-**GEO:** Die DB-Koordinate 53.54/10.1261 löst auf "**11, Cottaweg, Öjendorf, Billstedt**" auf und
-liegt damit **rund 140 m** vom Adresspunkt entfernt. OSM kennt in der Möllner Landstraße die
-Hausnummern **141a, 141b und 141c** (way 397360566-Bereich, 53.5389/10.1251) **und** die
-Hausnummer "**141k**" als eigenen Hausknoten (way 397364030, `addr:housenumber=141k`,
-`addr:street=Möllner Landstraße`, `addr:postcode=22117`, Fassung 4 vom 18.10.2023). Die Aussage
-der Vorwelle, "141K" existiere in OSM nicht, war ein **Fehler** und ist hiermit berichtigt.
-Die Seed-Angabe "141K" und der OSM-Eintrag "141k" bezeichnen sehr wahrscheinlich dieselbe
-Hausnummer; welcher der OSM-Hausnummernknoten (141a-c oder 141k) zum Betrieb gehört, ist ohne
-Betreiberbestätigung nicht eindeutig - deshalb wird **kein** Punkt gesetzt und kein
-Geokodierungsbedarf behauptet, der über die Hausnummernfrage hinausgeht.
+**GEO:** Der bisherige Produktionspunkt (53.54/10.1261) löst nach OSM/Nominatim auf „**11, Cottaweg**,
+Öjendorf, Billstedt" auf und liegt rund **102 m** vom Objekt way 397364030 (141k) entfernt — er liegt also
+am Ende der **Cottaweg**-Reihe, nicht an der Möllner Landstraße, und damit auf dem falschen
+Straßenzug. Ersetzt durch den Centroid des Objekts **way 397364030** (53.5393685 / 10.1249890). Der
+Punkt ist ein **Adresspunkt eines Wohnhauses** (`building=house`): Er belegt die Hausnummer, **nicht**
+eine Annahme- oder Zufahrt; die Lage der tatsächlichen Annahme ist unbekannt.
+
+**Preise (Ankauf / Verkauf / Gebühren getrennt):**
+
+- **Ankauf:** **Keine Zahlenkurse veröffentlicht**; belegt ist allein die Branchenzuordnung „Schrott und Metalle" (bzw. „Schrott" im Branchenbuchdeutschland-Eintrag).
+- **Verkauf:** **Keine Liste.**
+- **Gebühren:** **Keine Tarife**; eine kostenlose Abholung ist **nicht** belegt.
+
+**Offen:** Ob eine Annahmestelle existiert und wo genau sie sich befindet (die OSM-Objekte sind Wohnhäuser, keine Betriebsobjekte); ob die beiden in den Verzeichnissen genannten Geokoordinaten (52.300674/7.979144 beim Gelbe-Seiten-Eintrag in Osnabrück — anderer Vorgang) bzw. der branchenbuchdeutschland-Eintragspunkt 53.5387358/10.1250701 auf dieselbe Hausnummer zielen; und ob der Vorname „Sebastian" den Inhaber bezeichnet. `status: pruefung` bleibt, weil es weiterhin **keinen** Betreiberauftritt, **kein** Impressum und **keinen** Registereintrag gibt.
 
 ## Timeline
 
+
+
+### Recherche 29.10.2026: OSM-Hausnummer 141k am Objekt verifiziert, Adressreihe 141a–141m vollständig, GEO vom falschen Straßenzug korrigiert
+
+- [Recherche 29.10.2026: Die OSM-Aussage der Vorwelle wurde **live am Objekt nachgeprüft** und präzisiert. (1) **branchenbuchdeutschland.de** (live gelesen, HTTP 200): Eintrag „Sebastian Weihs, Schrott und Metalle", Branche „Schrott", Hamburg Billstedt, **Möllner Landstr. 141k, 22117 Hamburg**, Telefon **0407124521**, mit den **Geokoordinaten 53°32′19.448771 10°07′30.216251** (≈ 53.5387358 / 10.1250701). (2) **OSM live am Objekt verifiziert** (`api.openstreetmap.org`): Way **397364030** trägt `addr:housenumber=141k`, `addr:street=Möllner Landstraße`, `addr:postcode=22117`, `addr:city=Hamburg`, `building=house`, `building:levels=2` (Centroid **53.5393685 / 10.1249890**); Way 397360566 trägt `addr:housenumber=141a`, way 397360567 `141b`, way 397360568 `141c` — jeweils `addr:street=Möllner Landstraße`, `addr:postcode=22117`, `addr:city=Hamburg`, `building=house`. **Präzisierung:** die Buchstabenreihe in der Möllner Landstraße ist **lückenlos 141a, 141b, 141c, 141d, 141e, 141f, 141g, 141h, 141i, 141k, 141l, 141m** (zwölf Objekte `building=house`, `building:levels=2`, alle mit `addr:postcode=22117`, `addr:city=Hamburg`), daneben 139a–139h, 143a–143m, 145a–145m — die Suffixe sind die Adressierungs-Systematik der ganzen Hauszeile, keine Besonderheit der drei zuvor genannten Objekte. Die Aussage der Vorwelle, die Hausnummer 141K fehle in OSM, bleibt damit **berichtigt**; sie existiert als eigenes Objekt mit vollständigem Adresssatz. **GEO:** der Produktionspunkt 53.54/10.1261 löst nach OSM/Nominatim auf „**11, Cottaweg**, Öjendorf, Billstedt" auf und liegt **102 m** von way 397364030 entfernt — er liegt am Ende der **Cottaweg**-Reihe statt an der Möllner Landstraße, also auf dem falschen Straßenzug; ersetzt durch den Centroid des Objekts **way 397364030** (53.5393685/10.1249890) — ein **Adresspunkt eines Wohnhauses** (`building=house`), der die Hausnummer belegt, **nicht** eine Annahme- oder Zufahrt; die tatsächliche Annahmelage bleibt unbekannt. Frontmatter entsprechend gefüllt (`lat`/`lon` ergänzt, `description` präzisiert); Straße, PLZ und Telefon bleiben unverändert. **ANKAUF:** **keine Zahlenkurse**, belegt ist allein die Branchenzuordnung „Schrott und Metalle" („Schrott" im Branchenbuchdeutschland-Eintrag). **VERKAUF:** **keine Liste**. **GEBÜHREN:** **keine Tarife**, eine kostenlose Abholung ist **nicht** belegt. **Offen:** ob eine Annahmestelle existiert und wo (die OSM-Objekte sind Wohnhäuser, keine Betriebsobjekte); ob die Verzeichnis-Geokoordinate 53.5387358/10.1250701 auf dieselbe Hausnummer zielt; ob „Sebastian" den Inhaber bezeichnet; `status: pruefung` bleibt mangels Betreiberauftritt, Impressum und Registereintrag. Quellen: https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/sebastian-weihs-schrott-und-metalle-hamburg-70238112.html ; https://api.openstreetmap.org/api/0.6/way/397364030/full ; https://api.openstreetmap.org/api/0.6/way/397360566/full ; https://api.openstreetmap.org/api/0.6/map?bbox=10.1240,53.5385,10.1265,53.5400 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.54&lon=10.1261&zoom=18&addressdetails=1 ; read-only `public.db` (29.10.2026).]
+
 ### Recherche 28.10.2026: Anschrift und Telefon durch vier unabhängige Verzeichnisse belegt
+
+- [Recherche 28.10.2026: **ANSCHRIFT UND TELEFON BELGT.** Der Seed-Eintrag "Weihs Sebastian Schrott und Metalle" (Möllner Landstr. 141K, 22117 Hamburg) ist durch mehrere unabhängige Branchenverzeichnisse deckungsgleich bestätigt: **branchenbuchdeutschland.de** ("Sebastian Weihs, Schrott und Metalle - Möllner Landstr. 141k, 22117 Hamburg, Telefon: 0407124521"), **hamburg.stadtbranchenbuch.com** ("Sebastian Weihs ist in der Möllner Landstr. 141K im Stadtteil Billstedt zu finden"), **oeffnungszeitenbuch.de** (Filiale "Sebastian Weihs Schrott und Metalle", Möllner Landstr. 141K) sowie ein weiterer Spiegel mit derselben Nummer 0407124521 und einer Bewertung ("prozentual das fünft beste Erststimmenergebnis"). Frontmatter entsprechend gefüllt: name auf die Verzeichnisschreibweise "Sebastian Weihs Schrott und Metalle", phone "040 7124521", `website_status` '' → `unbekannt`; `website` bleibt leer. **Weiterhin kein Betreiberauftritt:** keine eigene Website, kein Impressum, kein Handelsregister-Eintrag (Einzelunternehmer ohne HRB). **Amtliches Fachbetrieberegister** (Auszug 11.08.2026): für Hamburg **kein Eintrag an der Möllner Landstraße** - ein Negativbefund **ohne Beweiswert**, da die Efb-Anerkennung freiwillig ist; `status: pruefung` bleibt. **Ankauf: keine Zahlenkurse**; belegt ist nur die Branchenzuordnung Schrott und Metalle. **Verkauf: keine Liste. Gebühren: keine Tarife**, kostenlose Abholung nicht belegt. **GEO: Geocodierungsbedarf** - die DB-Koordinate 53.54/10.1261 löst auf "11, Cottaweg, Öjendorf, Billstedt" auf und liegt rund 140 m vom Adresspunkt entfernt; OSM kennt in der Möllner Landstraße die Hausnummern **141a, 141b, 141c** (way 397360566-Bereich, 53.5389/10.1251) **und** die Hausnummer "**141k**" als eigenen Hausknoten (way 397364030, `addr:housenumber=141k`, `addr:street=Möllner Landstraße`, `addr:postcode=22117`, Fassung 4 vom 18.10.2023). Die Aussage der Vorwelle, "141K" fehle in OSM, war ein **Fehler** und ist hiermit berichtigt. Ob der Betrieb an 141a-c oder an 141k sitzt, ist vor einer Geokodierung zu klären. Quelle(n): https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/sebastian-weihs-schrott-und-metalle-hamburg-70238112.html ; https://hamburg.stadtbranchenbuch.com/1914179.html ; https://www.oeffnungszeitenbuch.de/filiale/Hamburg-Sebastian%20Weihs%20Schrott%20und%20Metalle-2318247X.html ; https://nominatim.openstreetmap.org/search?q=M%C3%B6llner+Landstra%C3%9Fe+141%2C+22117+Hamburg&format=jsonv2 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.54&lon=10.1261&zoom=18&addressdetails=1 ; read-only `public.db` (28.10.2026).]
 
 - [Recherche 28.10.2026: **ANSCHRIFT UND TELEFON BELGT.** Der Seed-Eintrag "Weihs Sebastian
   Schrott und Metalle" (Möllner Landstr. 141K, 22117 Hamburg) ist durch mehrere voneinander
@@ -94,12 +113,9 @@ Geokodierungsbedarf behauptet, der über die Hausnummernfrage hinausgeht.
   https://nominatim.openstreetmap.org/search?q=M%C3%B6llner+Landstra%C3%9Fe+141%2C+22117+Hamburg&format=jsonv2 ;
   https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=53.54&lon=10.1261&zoom=18&addressdetails=1 ;
   read-only `public.db` (28.10.2026).]
-
-### Nachprüfung 06.10.2026
-
-- [Nachprüfung 06.10.2026: Für den Seed-Eintrag „Weihs Sebastian Schrott und Metalle“, Möllner Landstr. 141K, 22117 Hamburg, ließ sich in dieser Runde keine zuordenbare Betreiberseite, Handelsregister-/Gewerberegisterquelle oder zweite zulässige Bestätigung sichern. Die Seed-Angaben bleiben ungeprüft; das ist kein Nachweis der Nichtexistenz. Keine belastbaren Öffnungszeiten, Leistungen, Ankaufspreise, Verkaufspreise oder Gebühren; ohne verifizierten Betrieb ist eine Preisprüfung nicht möglich. Offen: Namensschreibweise/Betreiberidentität und ob die Adresse eine Annahmestelle ist. Adresse nicht geocodieren, bevor sie bestätigt ist. Quelle(n): Seed-Angabe; unabhängiger Beleg in dieser Recherche nicht gefunden]
-
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, Metalle
 - Adresse: Billstedt, Möllner Landstr. 141K, 22117
+### Nachprüfung 06.10.2026
+- [Nachprüfung 06.10.2026: Für den Seed-Eintrag „Weihs Sebastian Schrott und Metalle“, Möllner Landstr. 141K, 22117 Hamburg, ließ sich in dieser Runde keine zuordenbare Betreiberseite, Handelsregister-/Gewerberegisterquelle oder zweite zulässige Bestätigung sichern. Die Seed-Angaben bleiben ungeprüft; das ist kein Nachweis der Nichtexistenz. Keine belastbaren Öffnungszeiten, Leistungen, Ankaufspreise, Verkaufspreise oder Gebühren; ohne verifizierten Betrieb ist eine Preisprüfung nicht möglich. Offen: Namensschreibweise/Betreiberidentität und ob die Adresse eine Annahmestelle ist. Adresse nicht geocodieren, bevor sie bestätigt ist. Quelle(n): Seed-Angabe; unabhängiger Beleg in dieser Recherche nicht gefunden]

@@ -24,9 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der generische Seed-Eintrag „Sumo“ in Herne bleibt ohne Betreiberbeleg. Das amtliche Fachbetrieberegister (Auszug 11.08.2026) kennt in Herne acht anerkannte Betriebe, aber keinen namensgleichen; die Efb-Anerkennung ist freiwillig, das Fehlen ist ein Hinweis ohne Beweiswert. Der einzige belegte Ortsbezug ist der Verzeichnislead „Schrotthandel Sumo, Bielefelder Str. 106, 44625 Herne, 01578 8135010“ (11880), und die Suche nach einem Betreiberauftritt bleibt ohne Treffer.
+
+**ANKAUF / VERKAUF / GEBÜHREN:** keine belegten Werte; „Sumo“ ist als Name zu generisch (Sport, Gastronomie, Ringer-Verein), und aus der Namensgleichheit wird keine Zuordnung abgeleitet.
 
 ## Timeline
+
+### Recherche 29.10.2026 (Tiefenrecherche-Welle, Shard B)
+
+- [Recherche 29.10.2026: Negativbefund im amtlichen Fachbetrieberegister (Spiegel schrottregister.pages.dev, Auszug 11.08.2026): Die Ortsseite Herne (Postleitzahlen 44649 und 44653) führt acht anerkannte Betriebe — Heinrich Müntefering Industrie- und Städtereinigungs-GmbH (Op der Heide 16), Kösling Metalle GmbH (Hafen Str. 1b), Paul Jost GmbH (Heerstraße 20), REMONDIS Industrie Service GmbH & Co. KG NL Herne (Heerstr. 29-43), REMONDIS Ruhr GmbH (Hafenstr. 4a-b), „Stammsitz Wilhelmstraße (Haus 12)“ (Behandeln, Verwerten) sowie Wilhelm Bötzel GmbH & Co. KG (Hafenstraße 2a und 5-15) — **keinen Betrieb namens „Sumo“** und keinen mobilen Sammelbetrieb. Die Efb-Anerkennung ist freiwillig, das Fehlen ist ein Hinweis ohne Beweiswert und widerlegt den Verzeichnislead nicht. OSM live geprüft: Für die Verzeichnisadresse Bielefelder Straße 106 existiert ein Adressknoten way/330553053 (51.5312849/7.1880885) mit den Tags addr:street=Bielefelder Straße, addr:housenumber=106, addr:postcode=44625, addr:city=Herne, building=yes — der Punkt trägt **keinen Namens-, Betreiber- oder Branchentag**, es gibt also keinen OSM-Hinweis auf einen Schrotthandel an dieser Stelle. Nebenbefund: die Postleitzahl 44625 gehört tatsächlich zu Bönen, das OSM-Tag weist sie „Herne“ zu; die Verzeichnisangabe „44625 Herne“ ist damit in sich uneinheitlich und die Zuordnung „Herne“ nicht verifiziert. Frontmatter unverändert: Straße, PLZ, Telefon und Typ bleiben leer, status pruefung; die generische Namensgleichheit wird nicht zur Identitäts- oder Merge-Zuordnung genutzt, und es wurde nicht geokodiert. ANKAUF/VERKAUF/GEBÜHREN: keine belegten Werte, keine Preislisten, keine Tarife.; Quelle(n): https://schrottregister.pages.dev/ort-herne ; https://www.openstreetmap.org/way/330553053 ; https://www.11880.com/branchenbuch/herne-westfalen/120674719B108314157/schrotthandel-sumo.html (Abruf 29.10.2026)]
 
 ### Importiert (Seed-Stand 2026-09-30)
 
