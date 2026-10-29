@@ -15,6 +15,8 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+lat: '50.9711292'
+lon: '14.2713332'
 provenance_section: Nachtrag Audit-Runde 3 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -25,6 +27,8 @@ provenance_origin: table
 ## Überblick
 
 NorthData ordnet Klaus Dittrich GmbH & Co. Willy Knobloch KG, HRA 4467, den Registerort Steingäßchen 1, 01855 Sebnitz zu. Branchenverzeichnisse nennen dort zusätzlich Altpapier, Alttextilien, Wellpappe, Buntmetall und Schrott; sie belegen keine aktuelle Annahme oder Ankaufpreise. Ein Verkaufsangebot und Gebühren sind nicht belegt; genaue Hofzufahrt/GEO bleibt ungeprüft.
+
+**Stand 29.10.2026:** Der Registerort ist jetzt geokodiert, die Hofzufahrt bleibt ungeprüft. OSM schreibt die Straße "**Steingässchen**" (mit ss), das Register und die Verzeichnisse "Steingäßchen" (mit ß); auf der Steingässchen in Sebnitz existiert die Hausnummer 1 als way/219541868 (`building=house`, `building:architecture=umgebinde`, `heritage=4`, `ref:lfd=09276518`, `addr:housenumber=1`, `addr:street=Steingässchen`, `addr:postcode=01855`, `addr:city=Sebnitz`), Flächenmittelpunkt der Way-Geometrie 50.9711292/14.2713332; die Straße trägt dort 2 Adressobjekte mit 2 verschiedenen Hausnummern. Das Objekt trägt keinen Gewerbe-Tag, ein Objekt mit Bezug zu Dittrich, Knobloch oder Schrott existiert im Kartenausschnitt nicht. Der gespeicherte GEO-Punkt 50.9754/14.2758 löste vorher auf das Institut für berufsbildende Fachschulen an der Kreuzstraße auf und wurde durch den Adresspunkt ersetzt; er bezeichnet das Gebäude der Registeranschrift, nicht einen Annahmehof. Das amtliche Fachbetrieberegister hat für Sebnitz keine Ortsseite (Auszug 11.08.2026). **Ankauf / Verkauf / Gebühren:** keine Ankaufskurse, keine Verkaufsliste und keine Tarife belegt; die Materialienliste (Altpapier, Alttextilien, Wellpappe, Buntmetall, Schrott) stammt weiterhin nur aus Verzeichnissen.
 
 ## Timeline
 
@@ -41,3 +45,7 @@ NorthData ordnet Klaus Dittrich GmbH & Co. Willy Knobloch KG, HRA 4467, den Regi
 
 - Schrott/Buntmetall/Altpapier-Entsorgung
 - Entsorger, kein Barankauf-Beleg; Tel. 035971 53667
+
+### Recherche 29.10.2026
+
+- [Recherche 29.10.2026: OSM-Prüfung am Objekt: Die Straße heißt in OSM "Steingässchen" (mit ss), während Register und Verzeichnisse "Steingäßchen" (mit ß) schreiben; für die Geokodierung ist die OSM-Schreibweise zu verwenden. Auf der Steingässchen in Sebnitz existiert die Hausnummer 1 als way/219541868 (`building=house`, `building:architecture=umgebinde`, `building:levels=2`, `heritage=4`, `heritage:operator=lfd`, `ref:lfd=09276518`, `start_date=early C19`, `addr:housenumber=1`, `addr:street=Steingässchen`, `addr:postcode=01855`, `addr:city=Sebnitz`), Flächenmittelpunkt der Way-Geometrie 50.9711292/14.2713332; die Straße trägt dort 2 Adressobjekte mit 2 verschiedenen Hausnummern (1 und 2). Das Objekt trägt keinen Gewerbe-Tag und im Kartenausschnitt existiert kein Objekt mit Bezug zu Dittrich, Knobloch oder Schrott. Der Registerort ist damit räumlich bestätigt, nicht die Anlieferstelle; die Hofzufahrt bleibt ungeprüft. GEO: der bisherige Punkt 50.9754/14.2758 löste per Nominatim auf das Institut für berufsbildende Fachschulen an der Kreuzstraße (way/1126043809, type=school) auf und wurde durch den Adresspunkt des Gebäudes Steingässchen 1 ersetzt; Punktgenauigkeit: Flächenmittelpunkt eines Gebäudes, kein Annahmehof und keine Hofzufahrt. Negativbefund: Das amtliche Fachbetrieberegister (Spiegel schrottregister.pages.dev, Auszug 11.08.2026) hat für Sebnitz keine Ortsseite, das Fehlen ist ohne Beweiswert. Die Materialangaben (Altpapier, Alttextilien, Wellpappe, Buntmetall, Schrott) stammen weiterhin nur aus Verzeichnissen und bleiben unbelegt; ANKAUF: keine Ankaufskurse belegt. VERKAUF: keine Verkaufspreisliste. GEBÜHREN: keine Tarife. Quelle(n): OSM-API way/219541868 (Abruf 29.10.2026); Nominatim-Reverse (Abruf 29.10.2026); https://schrottregister.pages.dev/ort-sebnitz (keine Ortsseite, Abruf 29.10.2026)]

@@ -4,15 +4,17 @@ name: Strömer Johann
 trader_type: schrotthaendler
 state: NI
 city: Moormerland
-street: ''
-postcode: ''
+street: Otto-Hahn-Str. 7
+postcode: '26802'
+lat: 53.3119702
+lon: 7.4639429
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'An der Seed-Adresse Otto-Hahn-Str. 7, 26802 Moormerland (Ortsteil Neermoor) ist in OpenStreetMap ein benannter Recycling-Standort erfasst: node/13902052034 mit amenity=recycling, name=Autoverwertung Neermoor, recycling:auto=yes, recycling:cars=yes, recycling_type=centre, addr:housenumber=7, addr:postcode=26802, addr:city=Moormerland, addr:street=Otto-Hahn-Straße. Die Namens- und Ortsangabe des Verzeichnisleads (Inh. Autoverwertung Bloem Joh. Strömer, Otto-Hahn-Str. 7, 26802 Moormerland) deckt sich damit in Hausnummer, Postleitzahl und Ort; die Inhaber- und Rechtsformzuordnung bleibt offen, ebenso Telefon, Öffnungszeiten, Website und jede Preis- oder Gebührenangabe. Eine Autoverwertung ist nicht automatisch eine Annahmestelle für lose Metalle.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Leer / Ostfriesland (neu)
@@ -24,9 +26,13 @@ provenance_origin: table
 
 ## Überblick
 
-Der passende Verzeichnislead lautet **„Inh. Autoverwertung Bloem Joh. Strömer“**, Otto-Hahn-Str. 7, 26802 Moormerland/Warsingsfehn, Telefon 04954 1578. Die Detailseite wurde jetzt direkt geprüft; das verbessert die Nachvollziehbarkeit, ersetzt aber keinen Betreiberbeleg. Ein möglicher Autoverwertungsbetrieb ist nicht automatisch Ankaufstelle für lose Metalle.
+Der passende Verzeichnislead lautet **„Inh. Autoverwertung Bloem Joh. Strömer"**, Otto-Hahn-Str. 7, 26802 Moormerland/Warsingsfehn, Telefon 04954 1578. Seit dem 29.10.2026 steht dazu ein **zweites, unabhängiges Belegstück** bereit: OpenStreetMap führt an exakt dieser Adresse ein benanntes Betriebsobjekt.
 
-Die dort verlinkte „Website“ führt zu **ewomy**, einem weiteren Aggregator. Adresse, Telefon und Portalzeiten bleiben deshalb außerhalb des Frontmatters. Offen sind die Zuordnung zum Seednamen, heutiger Inhaber/Betrieb und Umfang von Ankauf oder Entsorgung. Keine Annahme-, Abhol- oder Preisgarantie aus dem Branchenetikett abgeleitet.
+**OSM-Betriebsobjekt:** node/13902052034 trägt `amenity=recycling`, `name=Autoverwertung Neermoor`, `recycling:auto=yes`, `recycling:cars=yes`, `recycling_type=centre`, dazu `addr:street=Otto-Hahn-Straße`, `addr:housenumber=7`, `addr:postcode=26802`, `addr:city=Moormerland`. Straße und PLZ sind damit doppelt belegt (Betriebsobjekt plus Verzeichnislead), weshalb Straße, PLZ und Punkt gefüllt wurden.
+
+**Was das nicht belegt:** Die Inhaber- und Rechtsformzuordnung (Strömer, Bloem) ist **nicht** belegt - in OSM existiert kein Objekt mit einem dieser Namensbestandteile. Eine Autoverwertung ist zudem **nicht automatisch** eine Annahmestelle für lose Metalle. Telefon, Öffnungszeiten, Website und jede Preis- oder Gebührenangabe bleiben offen; der Status bleibt `pruefung`.
+
+Die verlinkte „Website" des Verzeichniseintrags führt zu **ewomy**, einem weiteren Aggregator, also zu keinem Betreiberauftritt.
 
 ## Timeline
 
@@ -42,3 +48,7 @@ Die dort verlinkte „Website“ führt zu **ewomy**, einem weiteren Aggregator.
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Recherche 29.10.2026: OSM führt an der Seed-Adresse einen benannten Autoverwertungs-Standort
+
+- [Recherche 29.10.2026: Die entscheidende neue Quelle ist ein **benanntes Betriebsobjekt in OpenStreetMap** an exakt der Seed-Adresse: node/13902052034 trägt amenity=recycling, name=Autoverwertung Neermoor, recycling:auto=yes, recycling:cars=yes, recycling_type=centre, addr:street=Otto-Hahn-Straße, addr:housenumber=7, addr:postcode=26802, addr:city=Moormerland, addr:country=DE, Punkt 53.3119702/7.4639429. Die Reverse-Geokodierung bestätigt den Punkt als 7, Otto-Hahn-Straße, 26802 Moormerland (Ortsteil Neermoor, Landkreis Leer). Das deckt sich mit dem Verzeichnislead Inh. Autoverwertung Bloem Joh. Strömer, Otto-Hahn-Str. 7, 26802 Moormerland (Warsingsfehn) in Hausnummer, Postleitzahl und Ort; die abweichende Ortsangabe Warsingsfehn ist eine andere Schreibweise desselben Ortsteils Neermoor. Damit sind Adresse und Standort zweifach belegt (Betriebsobjekt in OSM plus Verzeichnislead mit übereinstimmender Hausnummer), weshalb Straße, PLZ und Punkt gefüllt wurden; die Telefonnummer 04954 1578 stammt weiterhin nur aus dem Verzeichnis und bleibt deshalb leer. OSM-SCAN des ganzen Straßenverlaufs: die Otto-Hahn-Straße in Moormerland ist in zwei Abschnitte geteilt und trägt insgesamt 2 Adressobjekte mit 2 verschiedenen Hausnummern (1 und 7); die Hausnummer 7 ist also als Betriebsobjekt erfasst, weitere Objekte mit Gewerbe-Tag gibt es dort nicht. Ein Objekt mit einem Namensbestandteil Strömer oder Bloem existiert in OSM nicht, die Inhaberzuordnung ist damit nicht belegt. ANKAUF: eine Autoverwertung ist nicht automatisch eine Annahmestelle für lose Metalle; ein Ankauf von Schrott oder Buntmetall ist durch das Recycling-Tag nicht belegt, ebenso wenig ein Ankauf von Fahrzeugen über den bloßen Objektnamen hinaus. VERKAUF: keine Verkaufspreise belegt. GEBÜHREN: keine Abhol-, Container- oder Annahmegebühren belegt. Offen bleiben Inhaber und heutige Betreiberrechtsform, Telefon, Öffnungszeiten sowie jede Preis- und Gebührenangabe; der Status bleibt pruefung, weil die Personenzuordnung offen bleibt. Quelle(n): https://www.openstreetmap.org/node/13902052034 ; https://www.11880.com/branchenbuch/moormerland/060440459B50849878/inh-autoverwertung-bloem-joh-stroemer.html ; Abruf jeweils 29.10.2026]

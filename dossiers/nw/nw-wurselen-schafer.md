@@ -29,6 +29,10 @@ Würselen-Verzeichnisse führen mehrere offenbar verwandte, aber nicht aufgelös
 
 **Preise:** **Ankauf:** keine bestätigten Kurse; **Verkauf:** keine Liste; **Gebühren:** der Verzeichnisbegriff „Containerdienst“ belegt weder Gratisstellung noch Preise. Südstr. 99/99–103 erst nach Betreiberabgleich geokodieren.
 
+Der Seed-Name "Schaefer" lässt sich in Wurselen keinem anerkannten Betrieb zuordnen: Das amtliche Fachbetrieberegister kennt in 52146 nur die BHR Baumaschinenbetrieb Recycling GmbH (Am Weiweg). Die Südstraße trägt in OSM 102 Einzelnummern einschließlich der Seed-Nummer 99 (node/4718095954), aber ohne jeden Betriebstag; die beiden Verzeichnisnummern 02405 84441 und 02405 82414 sowie die Adressspanne 99-103 bleiben ungeklärt.
+
+**Preise:** **Ankauf:** keine Kurse belegt. **Verkauf:** keine Liste. **Gebühren:** keine Tarife trotz Containerdienst-Lead. **Offen:** Identität, Nummer und Adressspanne des Seed-Betriebs. **Geokodierung:** Südstr. 99, 52146 Wurselen ist ein Lead und nicht geokodiert.
+
 ## Timeline
 
 ### Owner-GEO-Prüfung 23.10.2026
@@ -48,3 +52,5 @@ Würselen-Verzeichnisse führen mehrere offenbar verwandte, aber nicht aufgelös
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — nur Verzeichnis-Leads: Schrotthandel A. Schäfer, Südstr. 99, 52146 Würselen, Tel. 02405 82414, Großhandel mit Schrott + Containerdienst; kein Betreiber, kein Register; kein Frontmatter-Fill; Quelle(n): nur Leads — cylex.de, 11880.com, firmencheck.eu]
+- [Recherche 29.10.2026: Amtliches Fachbetrieberegister (Spiegel schrottregister.pages.dev, Abrufstand 11.08.2026): In 52146 Wurselen ist genau ein Betrieb anerkannt, die BHR Baumaschinenbetrieb Handel mit Baustoffen und Maschinen Recycling GmbH, Am Weiweg, Taetigkeiten Lagern, Handeln und Makeln; ein anerkannter Demontagebetrieb fuer Altfahrzeuge ist nicht verzeichnet. Ein Betrieb mit dem Namen "Schäfer" existiert im gesamten Registerspiegel (4.507 Betriebe) nicht, die Suedstrasse gehoert zu keiner Registeradresse. Umfang: die Efb- und Anlagenerkennung ist freiwillig, ihr Fehlen ist ein Hinweis ohne Beweiswert und belegt keine Schliessung. Quelle(n): https://schrottregister.pages.dev/ort-wurselen ; https://schrottregister.pages.dev/sitemap.xml]
+- [Recherche 29.10.2026: OSM live geprueft (api.openstreetmap.org, 29.10.2026): Die Suedstrasse in 52146 Wurselen-Scherberg traegt auf ihrem Verlauf 102 Adressobjekte mit 102 verschiedenen Hausnummern (2 bis 120 in Einzelschritten sowie 2a, 2b, 4a, 5a, 6a, 6b, 8a, 8b, 43a, 44a) auf zwei Strassen-Ways (way/25413408, way/834944966). Die Hausnummer 99 existiert als node/4718095954 (addr:housenumber="99", addr:street="Suedstrasse", addr:city="Würselen", addr:postcode="52146") ohne name-, operator- oder Branchen-Tag. Die Seed-Adresse ist damit als Strassenadresse real, die beiden widerspruechlichen Verzeichnisnummern 02405 84441 und 02405 82414 sowie die Adressspanne Suedstr. 99-103 bleiben ungeklaert. Quelle(n): https://api.openstreetmap.org/api/0.6/node/4718095954 ; https://www.openstreetmap.org/node/4718095954]
