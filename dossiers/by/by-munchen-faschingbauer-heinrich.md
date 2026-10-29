@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
+clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -32,6 +33,8 @@ Der gespeicherte GEO-Punkt 48.1436973333333/11.559808 löst rückwärts auf **Da
 
 **ANKAUF:** Altmetallrecycling ist als Branche benannt, **Vergütung, Sortenliste und Mindestmengen werden nicht veröffentlicht**. **VERKAUF:** keine Verkaufsliste belegt. **GEBÜHREN:** keine Gebühren- oder Containerordnung; eine kostenfreie Annahme wird nicht behauptet. `status: pruefung` bleibt: Es liegen ausschließlich Verzeichnisangaben vor (per Hierarchie ein Beleg, auch bei mehreren Aggregatoren); eine Betreiberseite, ein Registereintrag oder ein amtlicher Nachweis wurde nicht gefunden. Das Branchenbuch Bayern vermerkt beim Eintrag „Änderungshinweis an Sachbearbeiter" und bei vergleichbaren Münchner Schrotteinträgen „Kein Anschluss unter dieser Nummer" — ein Hinweis, dass die Verzeichnisdaten gepflegt, aber nicht zertifiziert sind.
 ## Timeline
+
+- [Owner-Korrektur 29.10.2026 (Korrekturvermerk): **Der gespeicherte GEO-Punkt bezeichnet nachweislich nicht den Betrieb und wird zurückgenommen.** Die belegte Anschrift ist **Josef-Lang-Str. 15, 81245 München (Pasing)**; der gespeicherte GEO-Punkt 48.1436973333333/11.559808 löst dagegen auf **Spielhalle, Dachauer Straße, 80335 München (Maxvorstadt)** auf, rund 2,5 km entfernt. Der Punkt bezeichnet also **nicht** den Betrieb; er wird mit `clear_fields: 'geo'` zurückgenommen, ohne einen Ersatzpunkt zu raten. Quellen: Nominatim-Reverse auf den Seed-Punkt live am 29.10.2026.]
 
 ### Recherche 29.10.2026
 

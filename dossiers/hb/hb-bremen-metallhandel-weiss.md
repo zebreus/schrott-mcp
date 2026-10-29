@@ -15,7 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'phone'
+clear_fields: 'geo,phone'
 provenance_section: (1) Behaltene Kandidaten
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -35,6 +35,8 @@ Der amtliche Fachbetrieberegister (Abzug 11.08.2026) führt für Bremen 38 Betri
 
 **ANKAUF:** die angenommene Sortenliste und die Mindestgewichte sind belegt, **Vergütungspreise je Material werden nicht veröffentlicht**. **VERKAUF:** kein Verkaufssortiment belegt. **GEBÜHREN:** keine Gebühren- oder Containerordnung belegt; eine kostenfreie Annahme wird nicht behauptet. `status: pruefung` bleibt: Es liegt kein Betreiberauftritt und kein Registereintrag vor, und die Straße ist unbekannt.
 ## Timeline
+
+- [Owner-Korrektur 29.10.2026 (Korrekturvermerk): **Der gespeicherte GEO-Punkt bezeichnet nachweislich nicht den Betrieb und wird zurückgenommen.** Der Sitz ist nur als **„Bremen“ ohne Straße** belegt; der gespeicherte GEO-Punkt 53.0929235294118/8.80957647058823 löst auf **19, Borgfelder Straße, 28215 Bremen (Findorff)** auf — way 223353635 mit `building=apartments`, also ein Mehrfamilienhaus, nicht der Betrieb. Der Punkt wird deshalb mit `clear_fields: 'geo'` (zusammen mit `phone`) zurückgenommen, ohne einen Ersatzpunkt zu raten. Quellen: Nominatim-Reverse auf den Seed-Punkt live am 29.10.2026.]
 
 ### Recherche 29.10.2026
 

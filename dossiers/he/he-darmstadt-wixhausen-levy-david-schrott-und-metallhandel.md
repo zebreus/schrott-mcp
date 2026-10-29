@@ -12,6 +12,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
+clear_fields: 'geo'
 description: 'Schrott- und Metallhandel in Darmstadt-Wixhausen (Am Sportplatz 11) mit Alteisenverwertung, Alu-, Buntmetall-, Kabel- und Kupferankauf sowie Containerdienst und Entsorgung; nur über Branchenverzeichnisse belegt, die früher genannte Website-Domain ist nicht mehr erreichbar. Keine Preise veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
@@ -32,6 +33,8 @@ Der Betrieb „Levy David Schrott und Metallhandel" sitzt laut Branchenverzeichn
 
 **ANKAUF:** Buntmetall-, Kupfer-, Kabel- und Alteisenankauf sind als Leistungen benannt, **Vergütungspreise werden nicht veröffentlicht**. **VERKAUF:** keine Verkaufsliste belegt. **GEBÜHREN:** Containerdienst ist als Leistung benannt, **keine Tarife**; eine kostenfreie Annahme wird nicht behauptet. `status: pruefung` bleibt, weil ausschließlich Verzeichnisangaben vorliegen (per Hierarchie ein Beleg) und weder eine Betreiberseite noch ein Registereintrag existiert.
 ## Timeline
+
+- [Owner-Korrektur 29.10.2026 (Korrekturvermerk): **Der gespeicherte GEO-Punkt bezeichnet nachweislich nicht den Betrieb und wird zurückgenommen.** Die belegte Anschrift ist **Am Sportplatz 11, 64291 Darmstadt-Wixhausen**; der gespeicherte GEO-Punkt 49.8718375/8.6533 löst dagegen auf **3, Schuchardstraße, 64283 Darmstadt-Mitte** auf — eine andere Straße und eine andere Postleitzahl, rund 3,3 km entfernt. Der Punkt bezeichnet also **nicht** den Betrieb; er wird mit `clear_fields: 'geo'` zurückgenommen, ohne einen Ersatzpunkt zu raten. Das OSM-Objekt zum belegten Sitz (`name=Schrotthandel Meyer`, `industrial=scrap_yard`, `addr:postcode=64291`) trägt keine Geokoordinate, die der Seed-Adresse zugeordnet werden könnte. Quellen: Nominatim-Reverse auf den Seed-Punkt live am 29.10.2026.]
 
 ### Recherche 29.10.2026
 
