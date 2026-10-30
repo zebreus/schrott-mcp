@@ -6,15 +6,15 @@ state: NI
 city: Schwanewede
 street: Reiterschanze 25
 postcode: '28790'
-phone: ''
-email: ''
+phone: '0421 688 75 10'
+email: 'info@metallhandel-schwanewede.de'
 opening_hours: ''
 website: https://www.metallhandel-schwanewede.de
 website_status: aktiv
 status: pruefung
-description: 'Autoverwertung und Metallhandel; die Betreiberseite meldet derzeit bis auf Weiteres keinen Metallankauf.'
-dropoff_json: ''
-pickup_json: ''
+description: 'Autoverwertung und Metallhandel Schwanewede GmbH, Reiterschanze 25, 28790 Schwanewede. Betreiber-Primärquelle: Impressum und Anfahrt nennen Telefon (0421) 688 75 10 sowie info@metallhandel-schwanewede.de und info@autoverwertung-schwanewede.de; die Startseite meldet bis auf Weiteres keinen Metallankauf. ANKAUF: Katalysatoren werden mit einer Katalog-Preisliste (PDF) angekauft; Metalle sind bis auf Weiteres vom Ankauf ausgenommen. VERKAUF: gebrauchte Kfz, Reifen, Ersatzteile und Reststoffe, Anzeige unter NEWS und Presse. GEBÜHREN: bei Postversand trägt der Kunde die Versandkosten; Anlieferung wird bar vergütet.'
+dropoff_json: '{"allowed": true, "conditions": "Katalysatoren-Ankauf mit Katalogbezeichnung und Preisliste (PDF, Stand der Seite nicht ausgewiesen); Annahme nur nach Abfallschlüsselnr. 160801 ausser 160807; Anlieferung gegen Barzahlung. Metallankauf laut Startseite bis auf Weiteres ausgesetzt (Betreiber-Website, Recherche 30.10.2026)"}'
+pickup_json: '{"allowed": false, "conditions": "Kein Abholservice publiziert; bei Postversand trägt der Kunde die Versandkosten (Betreiber-Website, Recherche 30.10.2026)"}'
 provenance_section: Weitere Verzeichnis-Funde (Nienburg/Diepholz/Verden, Osnabrück-Nord,
   Vechta/Cloppenburg, Peine, Stade, Gifhorn, Lüneburg
 provenance_ankauf_raw: Ankauf unklar
@@ -25,7 +25,7 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Betreiberseite ist live und war am 30.10.2026 vollständig abrufbar. Sie unterscheidet zwei Angebote: **Katalysatoren werden weiterhin angekauft** (eigene Preisseite, Produktsuche mit Sortierung nach Preis, Download einer Ankaufspreisliste als PDF), **Metalle dagegen nicht** ("Achtung Ab Sofort kein Ankauf von Metall - Bis auf weiteres"). Verkauft werden gebrauchte Kfz, Reifen und Reststoffe. Das Impressum nennt "Autoverwertung- und Metallhandel GmbH, Reiterschanze 25, 28790 Schwanewede, Fon (0421) 688 75 10"; eine Registernummer nennt es nicht, das Registerprofil HRB 207245 bleibt die Identitätsgrundlage. Die Homepage nennt als Unternehmensprofil ein "junges, eigenständiges Familienunternehmen" mit 6000 qm Grundstück.
 
 ## Timeline
 
@@ -36,3 +36,11 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung (Flag), Alu/Kühler/Blei/Zinn
+
+### Recherche 30.10.2026
+
+- [Recherche 30.10.2026: **Ankaufspreisliste als echte Zahlenliste gefunden** (bisher nur als Platzhalter beschrieben). Die Seite "Downloads/Links" der Betreiberseite verlinkt "Ankaufspreisliste Katalysatoren / Katalysator Preisliste .pdf / PDF-Dokument [675.4 KB]" unter https://www.metallhandel-schwanewede.de/app/download/5799085623/Katalysator+Preisliste+.pdf; das PDF wurde am 30.10.2026 heruntergeladen und vollständig (7 Seiten) gelesen. Der Kopf der Seite 1 lautet wörtlich: "ALTMETALL-BUNKER BREMEN", "altmetall-bunker.de", "ANKAUFS PREISLISTE KATALYSATOREN", "Die Bezeichnung, z.B. Alfa Romeo 0001, ist lediglich unsere Katalogbezeichnung", "Heidlerchenstr. 15, 28777 Bremen", "Fon: (0421) 897 827 07", "Fax: (0421) 897 827 09", "Mail: info@altmetall-bunker.de". Ausgewiesene Einzelpreise je Stück (Auszug): Alfa Romeo 0001 40 €, BMW 0001 (4 Zylinder) 65 €, BMW 0002 (Stück) 35 €, BMW 0003 40 €, BMW 0004 (6 Zylinder) 85 €, BMW 0005 30 €, BMW 0006 (4 Zylinder) 30 €, BMW 0007 (6 Zylinder) 80 €, BMW 0008 (4 Zylinder) 65 €, BMW 0009 (Eisenkat, pro kg) 5 €, BMW 0010 50 €, BMW 0011 50 €, Fiat & Lancia 0001 10 €, VW & Audi 0017 Tdi 50 €, VW & Audi 0018 (Eisenkat, pro kg) 5 €, VW & Audi 0019 Tdi 60 €, VW & Audi 0020 30 €, VW & Audi 0021 45 €, Nachrüster 0001 5 €, Nachrüster 0002 (Eisenkat, pro kg) 5 €, Sonstige 0001 Tdi 60 €, Sonstige 0002 10 €, Sonstige 0003 5 €, Sonstige 0004 50 €. **In allen sieben Seiten ist kein Stand und kein Gültigkeitsdatum ausgewiesen.** Quelle(n): https://www.metallhandel-schwanewede.de/home/downloads-links/ ; https://www.metallhandel-schwanewede.de/app/download/5799085623/Katalysator+Preisliste+.pdf (Abruf 30.10.2026)]
+- [Recherche 30.10.2026: **Abgrenzung der Preisliste zur Bremer Vorgängerstätte.** Die Kopfzeile der Preisliste nennt die frühere Adresse Heidlerchenstr. 15, 28777 Bremen und die frühere Marke "ALTMETALL-BUNKER BREMEN". Das eigene News-Archiv des Betriebs dokumentiert diese Stätte: "Das Familienunternehmen eröffnete am 10. November 2011 in der Heidlerchenstraße seinen Betrieb in 'ganz klein', mit Stephan Schmitz als Inhaber, seinem Bruder Michael." und nennt für die Metallpreise "Die Preise für die Metalle orientieren sich an den Börsenpreisen". Die Preisliste ist damit ein Dokument der Marke Altmetall Bunker aus der Bremer Zeit und **kein Beleg für eine heutige Betriebsstätte in Bremen**; die heutige Anschrift bleibt Reiterschanze 25, 28790 Schwanewede. Ob beide Stätten von derselben Gesellschaft betrieben werden, ist durch die Preisliste allein nicht bewiesen. Quelle(n): https://www.metallhandel-schwanewede.de/home/news-presse/news-pr-archiv/ ; https://www.metallhandel-schwanewede.de/app/download/5799085623/Katalysator+Preisliste+.pdf (Abruf 30.10.2026)]
+- [Recherche 30.10.2026: Preise getrennt nach Ankauf, Verkauf und Gebühren. ANKAUF: Katalysatoren mit Katalognummer und Stückpreis (siehe Preisliste oben); Metalle sind ausgesetzt ("Ab Sofort kein Ankauf von Metall - Bis auf weiteres"), die Seite "Metallpreise" zeigt für jede Position nur "0,00 €" und "Tagespreise auf Anfrage" und ist damit **keine Preisliste**. VERKAUF: "Ankauf / Verkauf von Katalysatoren & Rohstoffen gebrauchten KFZ und Reifen", "Ständig gebrauchte KfZ / Kleinwagen im Angebot", KFZ-Teilespender und Ersatzteile mit Gewährleistung - eine Verkaufspreisliste wird nicht veröffentlicht. GEBÜHREN: "Versandkosten übernimmt der Kunde"; "Bei Anlieferung erfolgt Barzahlung"; bei Postversand "wird am selben Tag noch online überwiesen"; "Nur nach Abfallschlüsselnr. 160801 (außer 160807) Abfallbeschreibung gemäß Anlage zur Abfallverzeichnisverordnung (AVV) vom 10.12.2001(BGBl I S. 3379) zuletzt geändert am 24.07.2002 (BGBl I S. 2847)". Quelle(n): https://www.metallhandel-schwanewede.de/preise/ ; https://www.metallhandel-schwanewede.de/metallpreise/ (Abruf 30.10.2026)]
+- [Recherche 30.10.2026: Telefon und E-Mail aus der Betreiber-Primärquelle übernommen. Impressum und Anfahrt nennen übereinstimmend "Bürokontakt, Reiterschanze 25, 28790 Schwanewede, Fon (0421) 688 75 10, Email info@autoverwertung-schwanewede.de, info@metallhandel-schwanewede.de"; das Impressum selbst nennt keine Registernummer, die Identität bleibt deshalb über das Registerprofil (HRB 207245) belegt und die Kontaktdaten sind ein Betreiber-Einzelbeleg. Die Öffnungszeiten bleiben wegen des in der Vorwelle dokumentierten Widerspruchs (Startseite gegenüber Impressum und Anfahrt) leer. Quelle(n): https://www.metallhandel-schwanewede.de/home/impressum/ ; https://www.metallhandel-schwanewede.de/anfahrt/ (Abruf 30.10.2026)]
+- [Recherche 30.10.2026: OSM-Adressprüfung live am Objekt. Raster bbox=8.5302514,53.2263566,8.5414305,53.2330700 über den gesamten Verlauf der Straße "Reiterschanze" in Schwanewede (Ortsteil Vorbruch, Gemeinde Neuenkirchen), Filter addr:street=Reiterschanze: **1 Objekt | 1 verschiedene Hausnummer** (roh 5a). Die Betriebsadresse ist damit **nicht** als Adressobjekt erfasst: way/364651801 trägt addr:housenumber=5a, addr:street=Reiterschanze, addr:postcode=28790, addr:city=Schwanewede, building=house. Präzise: in der Reiterschanze ist nur die Hausnummer 5a kartiert, die im Dossier geführte Hausnummer 25 fehlt; deshalb wurde keine Koordinate geraten, Geokodierung für Reiterschanze 25 steht aus. Quelle(n): https://api.openstreetmap.org/api/0.6/way/364651801/full.json ; https://api.openstreetmap.org/api/0.6/map.json?bbox=8.5302514,53.2263566,8.5414305,53.2330700 (Abruf 30.10.2026)]

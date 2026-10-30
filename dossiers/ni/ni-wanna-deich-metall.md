@@ -31,6 +31,7 @@ Der bisherige Domain-Kandidat deich-metall.de zeigt nur STRATO-Parking; das ist 
 - **Verkauf:** keine Kauf-/Verkaufspreisliste.
 - **Gebühren:** keine verifizierte Gebührenliste.
 - **Geokodierung:** keine belastbare Anschrift, daher keine Geokodierung.
+- **Register (Stand 11.08.2026):** für Wanna führt das amtliche Fachbetrieberegister keine Ortsseite; das ist kein Negativbefund, weil das Verzeichnis nur Orte mit Registereinträgen führt.
 
 ## Timeline
 
@@ -49,3 +50,8 @@ Der bisherige Domain-Kandidat deich-metall.de zeigt nur STRATO-Parking; das ist 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Tot-Bestätigung — deich-metall.de löst auf STRATO-Parking-IP auf, Inhalt „STRATO - Domain not available" (HTTP 200 Platzhalter); website_status tot bestätigt, keine Änderung; Quelle(n): DNS + https://deich-metall.de (curl 01.10.2026)]
+
+### Recherche 30.10.2026
+
+- [Recherche 30.10.2026: Amtliches Fachbetrieberegister (Spiegel schrottregister.pages.dev, Registerabruf 11.08.2026): für Wanna existiert **keine Ortsseite** (HTTP 404, Seite nicht gefunden). Das ist **kein Negativbefund**, weil das Verzeichnis nur Orte mit Registereinträgen führt und die Efb-Anerkennung freiwillig ist. In den Nachbarorten des Registers sind dagegen Einträge vorhanden (unter anderem Buxtehude, Hechthausen, Burweg, Dahlenburg, Oldendorf, Bad Bederkesa). Quelle(n): https://schrottregister.pages.dev/ort-wanna (Abruf 30.10.2026)]
+- [Recherche 30.10.2026: Namens- und Tätigkeitsrecherche ohne Ergebnis. Eine Websuche nach dem Namen "Deich Metall" mit den im Seed genannten Materialien (Alu, Kabel, E-Motoren, Zinn) und dem Ort Wanna lieferte am 30.10.2026 **keinen** Treffer zu einem Betrieb dieses Namens und keine belastbare Anschrift; die Treffer betrafen andere Betriebe mit ähnlichem Tätigkeitsprofil (zum Beispiel MD-Metall Dederichs GmbH und MS Entsorgung) an anderen Orten, die nicht zusammengeführt werden. Eine Zuordnung dieser Betriebe zu Wanna oder zu diesem Dossier wird nicht behauptet. Offen bleiben: die Identität des Seed-Eintrags, eine belastbare Anschrift und jede Preis- oder Gebührenangabe. Quelle(n): https://schrottregister.pages.dev/ort-wanna ; Websuche "Deich Metall" Wanna Schrott Alu Kabel am 30.10.2026 (kein zurechenbarer Betreiberbeleg)]
