@@ -11,7 +11,7 @@ email: schrott-abfallhandel-baum@web.de
 opening_hours: ''
 website: ''
 website_status: ''
-certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZNT00600053 (Fachbetrieberegister, Auszug 11.08.2026); zertifizierte Tätigkeiten Lagern, Behandeln, Verwerten und Beseitigen; Abfallschlüssel 160120, 160216, 170410, 170411"]'
+certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZNT00600053 (Fachbetrieberegister, Auszug 11.08.2026); zertifizierte Tätigkeiten Lagern, Behandeln, Verwerten und Beseitigen; Abfallschlüssel 160120, 160216, 170410*, 170411"]'
 status: aktiv
 description: Schrott- und Altstoffhandel (Containerdienst, Abriss/Entsorgung)
 dropoff_json: ''
@@ -66,3 +66,5 @@ Das amtliche Fachbetrieberegister führt "Schrott- und Altstoffhandel Michael Ba
 
 - [Recherche 29.10.2026: Amtliches Fachbetrieberegister (Spiegel schrottregister.pages.dev, Abrufstand 11.08.2026): Das Register fuehrt "Schrott- und Altstoffhandel Michael Baum" mit der Anschrift "Sophienstrasse 2 e", 06542 Allstedt, Zertifikatsnummer ZZNT00600053, zertifizierte Taetigkeiten Lagern, Behandeln, Verwerten und Beseitigen, Abfallschluessel 160120 Glas, 160216 aus gebrauchten Geraeten entfernte Bauteile, 170410 Kabel mit Oel, Kohlenteer oder anderen gefaehrlichen Stoffen und 170411 Kabel mit Ausnahme der 17 04 10 faelligen Abfaelle. Damit sind Name und Anschrift der Seedzeile durch ein amtliches Register bestaetigt; das Register nennt weder Telefon noch E-Mail und keine Preise, es belegt keine Annahmezeiten fuer Privatanlieferer. Quelle(n): https://schrottregister.pages.dev/betrieb-schrott-und-altstoffhandel-michael-baum-allstedt ; https://schrottregister.pages.dev/ort-allstedt]
 - [Recherche 29.10.2026: Betreiber-Website am 29.10.2026 erneut live geprueft: http://www.schrotthandel-baum.de/ liefert weiterhin nur den Platzhalter "Hier entsteht in Kuerze die Internetpraesenz der Firma Baum" mit dem Zusatz "Ihr Partner in Sachen Schrott- und Altstoffhandel, Containerdienst und Entsorgung im Raum Allstedt" (HTTP 200, 426 Byte). Der Platzhalter bestaetigt Branche und Ort, aber keine Kontaktdaten, keine Registerangabe und keinen laufenden Betrieb; die bisherige Seed-E-Mail und die bisherige Seed-Telefonnummer bleiben Verzeichnisangaben. website und website_status bleiben unveraendert. Quelle(n): http://www.schrotthandel-baum.de/]
+
+- [30.10.2026 (Korrekturvermerk): **Prioritätskennzeichnung ergänzt**: das amtliche Fachbetrieberegister führt den Schlüssel als `170410*` (mit Prioritätskennzeichnung). Quelle(n): https://schrottregister.pages.dev/ort-allstedt (Abruf 30.10.2026)]
