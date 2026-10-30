@@ -42,9 +42,8 @@ provenance_origin: table
 
 - [30.10.2026 (Korrekturvermerk): **Zählung berichtigt**: die Nachmessung am 30.10.2026 (PLZ 63071, Kartenausschnitt 128/107) ergibt **95** Adressobjekte mit `addr:street=Waldstraße` (bisher 78) und **85** verschiedene Hausnummern (bisher 77). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<PLZ 63071> (Nachmessung 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): **Negativaussage berichtigt**: die Hausnummer 87 **existiert** auf der Waldstraße — way/58560537 trägt `addr:housenumber=87`, `addr:street=Waldstraße`, `addr:postcode=63071`, `addr:city=Offenbach am Main`, `building=apartments`, `building:levels=4`. Quelle(n): https://api.openstreetmap.org/api/0.6/way/58560537/full (Abruf 30.10.2026)]
+- [30.10.2026 (Korrekturvermerk): **Negativaussage berichtigt**: die Hausnummer 87 **existiert** auf der Waldstraße — way/58560537 trägt `addr:housenumber=87`, `addr:street=Waldstraße`, `addr:postcode=63071`, `addr:city=Offenbach am Main`, `building=apartments`, `building:levels=4`. Quelle(n): https://api.openstreetmap.org/api/0.6/way/58560537/full (Abruf 30.10.2026) |  **Negativaussage berichtigt**: way/58560537 trägt live `addr:housenumber=87` auf der Waldstraße. Quelle(n): https://api.openstreetmap.org/api/0.6/way/58560537/full (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): **Negativaussage berichtigt**: way/58560537 trägt live `addr:housenumber=87` auf der Waldstraße. Quelle(n): https://api.openstreetmap.org/api/0.6/way/58560537/full (Abruf 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk): **Distanzangabe berichtigt**: die Haversine-Distanz (R = 6371 km) zum Registeranschriftspunkt beträgt **0,72 km** (nicht 1,7 km). Quelle(n): Haversine R = 6371 km, Abruf 30.10.2026)]
 
