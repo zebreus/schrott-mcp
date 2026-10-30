@@ -5,16 +5,14 @@ trader_type: autoverwertung
 state: BW
 city: Rastatt 76437
 street: Zollersbühnstr. 7
-postcode: ''
+postcode: '76437'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
-dropoff_json: ''
-pickup_json: ''
+description: "Klärfall: Die im Dossier geführte Rastatt-Adresse Zollersbühnstr. 7 gehört nach OSM und der Betreiber-Website der Grünbacher Autoverwertung GmbH (Rastatt), einem zertifizierten Verwertungsbetrieb mit anerkanntem Demontagebetrieb. Die Autoverwertung Christ GmbH sitzt dagegen in Reilingen (Daimlerstr. 8, 68799, HRB 421344); für einen Christ-Standort in Rastatt gibt es keinen Beleg. Reilinger Kontaktdaten wurden bewusst nicht übernommen."
 provenance_section: Nachtrag Wide-Net (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -24,7 +22,12 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dieser Eintrag trägt einen offenen Klärfall. Die Dossier-Adresse Zollersbühnstr. 7 in Rastatt gehört
+nach OSM-Objekt und Betreiber-Website zur Grünbacher Autoverwertung GmbH, einem zertifizierten
+Verwertungsbetrieb mit anerkanntem Demontagebetrieb. Die Autoverwertung Christ GmbH betreibt ihren
+Standort in Reilingen im Rhein-Neckar-Kreis und ist an der Rastatt-Adresse nicht belegt. Die
+Reilinger Kontaktdaten und Leistungsangaben wurden bewusst nicht in diesen Eintrag übernommen, weil
+das eine Vermischung zweier Betriebe wäre.
 
 ## Timeline
 
@@ -45,3 +48,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altauto/Teile — "Schrottpreis" + Shop (NEU)
 - urspr. Website-Angabe: keine (falsche Website autoverwertung-christ.de entfernt, 29.09.2026 — gehört Autoverwertung Christ GmbH, Daimlerstr. 8, 68799 Reilingen; kein Standort Rastatt)
 - Adresse: Rastatt 76437, Zollersbühnstr. 7
+
+### Recherche 30.10.2026
+
+- [Recherche 30.10.2026: Der Klärfall vom 03.10.2026 ist jetzt durch einen objektiven Adressnachweis zugespitzt, ohne dass eine Schließung behauptet werden kann. OSM-Abgleich (Rasterfenster 8.2307592/48.8570043 bis 8.2338017/48.8608521, Zollersbühnstraße Rastatt): 19 Adressobjekte mit addr:housenumber, daraus 12 verschiedene Hausnummern (1, 2, 2/2, 2a, 3, 3/1, 3/3, 5, 5a, 6, 7, 8; die Schreibweisen mit Schrägstrich und Buchstaben wurden einzeln aufgelöst). Die Hausnummer 7 existiert, sie gehört aber nach dem OSM-Objekt nicht zu Christ: way/90556104 trägt `addr:housenumber=7`, `addr:street=Zollersbühnstraße`, `addr:city=Rastatt`, `addr:postcode=76437`, `addr:country=DE`, `building=yes`, `name=Grünbacher Autoverwertung`, `shop=car_parts`, `opening_hours=Mo-Fr 08:00-17:00; Sa 08:00-12:00`, `phone=+49 7222 81416`, `website=https://www.gruenbacher-gmbh.de/`. Die Betreiber-Website der Grünbacher Autoverwertung GmbH bestätigt dieselbe Anschrift und dieselben Werte wörtlich: "Grünbacher Autoverwertung GmbH, Zollersbühnstr. 7, 76437 Rastatt, Telefon: (0 72 22) 8 14 16, Fax: (0 72 22) 54 90, E-Mail: gruenbacher-autoverwertung@t-online.de, Öffnungszeiten Montag - Freitag: 8:00 - 17:00 Uhr, Samstag: 8:00 - 12:00 Uhr" mit den Leistungen "Zertifizierter Verwertungsbetrieb", "Anerkannter Demontagebetrieb", "ca. 1.000.000 Teile auf Lager" und dem Ablauf "Ankauf von Gebraucht- und Unfallwagen nach Absprache". Telefonnummer, Öffnungszeiten und Website im OSM-Objekt stimmen damit exakt mit der Betreiber-Website überein; die Zuordnung der Rastatt-Adresse zur Grünbacher Autoverwertung GmbH ist damit unabhängig belegt. Die Adresse selbst ist real und der Postleitzahl-Eintrag 76437 wurde entsprechend gefüllt; Telefon, E-Mail und Öffnungszeiten bleiben leer, weil sie zur Grünbacher Autoverwertung und nicht zum Dossier-Eintrag gehören. Die Reilinger Angaben der Autoverwertung Christ GmbH wurden am 30.10.2026 erneut live geprüft und nicht übernommen: Startseite "Daimlerstraße 8, 68799 Reilingen, 06205 18588, info@autoverwertung-christ.de, Mo - Fr: 9 Uhr - 17 Uhr, Sa: 10 Uhr - 13 Uhr", Impressum "Autoverwertung Christ GmbH, Daimlerstraße 8, 68799 Reilingen, HRB 421344" (nach dem Recherche-Feedback aus dem März 2026), Angebotseite "Für Ihre Altfahrzeuge können Sie bei der Autoverwertung Christ noch immer einen guten Preis erzielen. Wenn Sie bei uns Ihr Altfahrzeug komplett anliefern, kümmern wir uns um die Weiterverarbeitung und zahlen Ihnen den aktuell gültigen Schrottpreis" sowie die Kennzahlen "+350K Teile verkauft, +250K Autos aufgenommen, +200K Autoverwertungen durchgeführt, +10K Zufriedene Kunden" auf "insgesamt über 5.000 Quadratmetern". Zu Ankauf, Verkauf und Gebühren getrennt: ANKAUF - für die Autoverwertung Christ GmbH wird der "aktuell gültige Schrottpreis" gezahlt, ohne öffentliche Zahlen; die Grünbacher Autoverwertung GmbH als tatsächliche Besitzerin der Rastatt-Adresse kauft Gebraucht- und Unfallwagen "nach Absprache". VERKAUF - beide Betriebe verkaufen gebrauchte KFZ-Teile; Christ betreibt zusätzlich einen Onlineshop, die veröffentlichten Preise gehören jedoch zum Reilinger Betrieb und sind hier nicht zu übertragen. GEBÜHREN - keine Gebührentafel veröffentlicht. Status und website bleiben unverändert auf pruefung bzw. leer/unbekannt: der Eintrag ist weder eine geschlossene Firma (der Rechtsträger Christ ist in Reilingen aktiv) noch ein belegter Rastatt-Betrieb; die Auflösung des Klärfalls (Zusammenführung mit einem Reilinger-Eintrag oder Korrektur des Standorts) erfordert einen DB-Schreibvorgang und bleibt der Owner-Entscheidung vorbehalten. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2307592,48.8570043,8.2338017,48.8608521 (Abruf 30.10.2026) ; https://www.openstreetmap.org/way/90556104 ; https://www.gruenbacher-gmbh.de/ ; https://autoverwertung-christ.de/ ; https://autoverwertung-christ.de/impressum/ ; https://autoverwertung-christ.de/angebot/]
