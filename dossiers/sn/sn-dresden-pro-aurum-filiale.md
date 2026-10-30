@@ -90,5 +90,5 @@ und EC-Karte.**
 
 - [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/344886620 trägt live `contact:website=https://www.moebius-baeckerei.de/` (und `url=`); `website=` wurde in OSM-Version 15 entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/344886620.json (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026 |  **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/.json` (mit Schrägstrich vor der Endung) liefert live HTTP 404; abrufbar ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
+- [30.10.2026 (Korrekturvermerk): die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026 die Form `/api/0.6/node/<id>/.json` (mit Schrägstrich vor der Endung) liefert live HTTP 404; abrufbar ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
 

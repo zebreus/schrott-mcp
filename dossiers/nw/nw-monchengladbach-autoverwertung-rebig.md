@@ -48,5 +48,5 @@ Die Website und der Registereintrag nennen Aachener Straße 232, 41061 Möncheng
 
 - [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/3035357040 trägt live den Wert mit Umlaut; die im Dossier verwendete Schreibweise war eine Transliteration (Umschrift ohne Umlaut). Quelle(n): https://api.openstreetmap.org/api/0.6/node/3035357040.json (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026 |  **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/.json` (mit Schrägstrich vor der Endung) liefert live HTTP 404; abrufbar ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
+- [30.10.2026 (Korrekturvermerk): die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026 die Form `/api/0.6/node/<id>/.json` (mit Schrägstrich vor der Endung) liefert live HTTP 404; abrufbar ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
 
