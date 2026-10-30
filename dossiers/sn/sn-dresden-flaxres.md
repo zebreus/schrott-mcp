@@ -97,4 +97,3 @@ Hausnummer; ein eigenes FLAXRES-Objekt ist dort nicht erfasst.)
 
 - [30.10.2026 (Korrekturvermerk): **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
 
-- [30.10.2026 (Korrekturvermerk): **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
