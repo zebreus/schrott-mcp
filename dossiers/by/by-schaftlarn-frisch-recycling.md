@@ -9,7 +9,7 @@ postcode: '82067'
 phone: 08178/9550-03
 email: frisch-recycling@t-online.de
 opening_hours: Büro Mo-Do 8-12 und 13-17, Fr 8-12 und 13-16.30; Anlieferung Mo-Do 8-12 und 13-16.30, Fr 8-12 und 13-16
-website: https://frisch-recycling.de
+website: http://frisch-recycling.de
 website_status: aktiv
 status: aktiv
 description: ''
@@ -38,3 +38,5 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - E-Schrott (Leiterplatten, CPUs), Metalle, Kabel
+
+- [30.10.2026 (Korrekturvermerk): **URL berichtigt**: die gespeicherte `https://`-Adresse ist **nicht abrufbar** — das TLS-Zertifikat der Domain deckt den Hostnamen nicht ab (`CERTIFICATE_VERIFY_FAILED: Hostname mismatch`, geprüft am 30.10.2026); auch `https://www.frisch-recycling.de/` scheitert daran. Über **http** liefert die Seite HTTP 200 (Startseite 94 376 Bytes, `/impressum/` 67 037 Bytes). Die Domain ist damit erreichbar, aber nur unverschlüsselt — die Website-Feld wurde auf die funktionsfähige Form gesetzt, der `website_status` bleibt `aktiv`. Quelle(n): http://frisch-recycling.de/ ; http://frisch-recycling.de/impressum/ (Abruf 30.10.2026)]
