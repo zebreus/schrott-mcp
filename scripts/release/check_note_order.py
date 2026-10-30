@@ -9,14 +9,18 @@ unveraenderter Reihenfolge, neue Notizen am Tail".
 
 Dieses Werkzeug prueft deshalb strenger:
 
-* die **Timeline**-Bullets des Basis-Standes bilden im Kandidaten einen
-  **exakten Praefix** (Reihenfolge *und* Position) - keine Vorwellen-Notiz
-  wurde verschoben, umsortiert oder entfernt;
-* je Dossier gibt es **genau eine** neue Sektion `### Recherche <datum>`, und
-  sie ist die **letzte** Sektion;
-* die neuen Notizen stehen ausschliesslich **am Tail**;
+* die **Timeline**-Notizen des Basis-Standes bilden im Kandidaten einen
+  **exakten Praefix** - jede Notiz wird als *Block* erfasst (Bullet-Zeile plus
+  alle eingerueckten Fortsetzungszeilen), damit kann auch eine veraenderte
+  Fortsetzungszeile nicht unbemerkt durchrutschen;
+* eine Notiz, die in eine neue Wellen-Sektion verschoben wurde, faellt dabei
+  auf, weil der Block dann nicht mehr an derselben Stelle steht;
+* je Dossier mit neuen Notizen gibt es **genau eine** neue Sektion, und sie
+  ist die **letzte** Sektion; eine neue Sektion **ohne** Datum im Titel wird
+  ebenfalls beanstandet;
 * es gibt **keine** doppelten Bullets und keine inhaltsgleichen
-  Korrekturvermerke (Satzebene, URLs/Boilerplate normalisiert).
+  Korrekturvermerke - sowohl **innerhalb** eines Dossiers als auch
+  **dossieruebergreifend** (Satzebene, URLs/Boilerplate normalisiert).
 
 Aufruf:  python3 scripts/release/check_note_order.py <basis-commit> [scope-dir]
 Exitcode 0 = bestanden, 1 = Beanstandungen.
@@ -27,25 +31,37 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-DUP_THRESHOLD = 0.75
+DATE_IN_TITLE = re.compile(r"\d{2}\.\d{2}\.\d{4}")
 
 
-def timeline_bullets(text: str):
-    """Alle Bullets der Timeline in Reihenfolge (Fortsetzungszeilen zaehlen mit)."""
-    out = []
+def timeline_notes(text: str):
+    """Die Timeline-Notizen als Bloecke (Bullet-Zeile + Fortsetzungszeilen)."""
+    blocks = []
+    current = None
     in_timeline = False
     for line in text.split("\n"):
         if line.strip() == "## Timeline":
             in_timeline = True
             continue
-        if in_timeline and line.startswith("- "):
-            out.append(line)
-    return out
+        if not in_timeline:
+            continue
+        if line.startswith("- "):
+            if current is not None:
+                blocks.append(current)
+            current = [line]
+        elif current is not None and line.strip() and line[:1] in (" ", "\t"):
+            current.append(line)          # eingerueckte Fortsetzungszeile
+        elif current is not None:
+            blocks.append(current)
+            current = None
+    if current is not None:
+        blocks.append(current)
+    return ["\n".join(b) for b in blocks]
 
 
 def normalise(note: str):
     note = re.sub(r"https?://\S+", "", note)
-    note = re.sub(r"\(Quelle\(n\).*", "", note)
+    note = re.sub(r"\(Quelle\(n\).*", "", note, flags=re.S)
     note = re.sub(r"\*\*|\*|`|„|“|\"", "", note)
     return re.sub(r"\s+", " ", note).strip().lower()
 
@@ -69,33 +85,44 @@ def main() -> int:
         old = subprocess.run(["git", "show", f"{base}:{rel}"],
                              capture_output=True, text=True, check=True).stdout
         new = path.read_text(encoding="utf-8")
-        old_b = timeline_bullets(old)
-        new_b = timeline_bullets(new)
-        if new_b[:len(old_b)] != old_b:
+        old_notes = timeline_notes(old)
+        new_notes = timeline_notes(new)
+        if new_notes[:len(old_notes)] != old_notes:
             problems.append(f"{rel}: Vorwellen-Notizen sind kein exakter Praefix "
                             f"(Reihenfolge/Position veraendert)")
-        new_notes_total += len(new_b) - len(old_b)
+        new_notes_total += len(new_notes) - len(old_notes)
 
         old_heads = re.findall(r"^### (.+)$", old, re.M)
         heads = re.findall(r"^### (.+)$", new, re.M)
-        # **neue** Sektionen: Ueberschriften, die es in der Basis noch nicht gab
         new_sections = [h for h in heads if h not in old_heads]
-        wave_sections = [h for h in new_sections if re.search(r"\d{2}\.\d{2}\.\d{4}", h)]
-        if len(wave_sections) > 1:
-            problems.append(f"{rel}: {len(wave_sections)} neue Wellen-Sektionen (erwartet: hoechstens 1)")
-        if wave_sections and heads and heads[-1] != wave_sections[-1]:
+        dated = [h for h in new_sections if DATE_IN_TITLE.search(h)]
+        undated = [h for h in new_sections if not DATE_IN_TITLE.search(h)]
+        if undated:
+            problems.append(f"{rel}: neue Sektion ohne Datum im Titel: {undated}")
+        has_new_notes = len(new_notes) > len(old_notes)
+        if has_new_notes and len(dated) != 1:
+            problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
+                            f"(erwartet: genau 1)")
+        if dated and heads and heads[-1] != dated[-1]:
             problems.append(f"{rel}: die Wellen-Sektion ist nicht die letzte Sektion")
 
         counts = defaultdict(int)
-        for bullet in new_b:
-            counts[bullet] += 1
-        dups = [b for b, c in counts.items() if c > 1]
+        for note in new_notes:
+            counts[note] += 1
+        dups = [n for n, c in counts.items() if c > 1]
         if dups:
-            problems.append(f"{rel}: {len(dups)} doppelte Bullets")
+            problems.append(f"{rel}: {len(dups)} doppelte Notizen")
 
-        for bullet in new_b:
-            if "Korrekturvermerk" in bullet:
-                groups[normalise(bullet)].append(rel)
+        # Korrekturvermerke: inhaltsgleich innerhalb eines Dossiers und ueber Dossiers hinweg
+        local = defaultdict(list)
+        for note in new_notes:
+            if "Korrekturvermerk" in note:
+                key = normalise(note)
+                local[key].append(note)
+                groups[key].append(rel)
+        for key, notes in local.items():
+            if len(notes) > 1:
+                problems.append(f"{rel}: {len(notes)} inhaltsgleiche Korrekturvermerke innerhalb des Dossiers")
 
     for text, files in groups.items():
         if len(files) > 1:
@@ -108,8 +135,8 @@ def main() -> int:
         for p in problems:
             print("  -", p)
         return 1
-    print("Notiz-Reihenfolge bestanden: Praefix, Sektionslage, Tail-Position, keine Dubletten, "
-          "keine inhaltsgleichen Korrekturvermerke")
+    print("Notiz-Reihenfolge bestanden: Praefix (mit Fortsetzungszeilen), Sektionslage, Tail-Position, "
+          "keine Dubletten, keine inhaltsgleichen Korrekturvermerke")
     return 0
 
 
