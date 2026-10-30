@@ -69,7 +69,7 @@ auffällig: Der zertifizierte Schrottbetrieb liegt in derselben Gemeinde, aber a
 `addr:street=Wadbergstraße`, `addr:city=Hofbieber`, `addr:housenumber=7`, `addr:postcode=36145`,
 `addr:suburb=Langenbieber`, `building=yes` - **ohne** name- oder operator-Tag. Ein Raster über den
 gesamten Straßenverlauf (2 benannte Ways, bbox 9.8299239,50.5660907,9.8386063,50.5711294) ergab
-**39 Adressobjekte** und **32 verschiedene Hausnummern** (1, 1a, 2, 2a, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+**39 Adressobjekte** im Raster (davon **32** auf der Straße) und **32 verschiedene Hausnummern** (1, 1a, 2, 2a, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 32); das einzige benannte Objekt der
 Straße ist das **Sportlerheim TSV Langenbieber 1922 e. V.** (Am Sportplatz 10) - **kein** Goldbach-Objekt.
 
