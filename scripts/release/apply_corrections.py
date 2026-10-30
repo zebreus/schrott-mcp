@@ -28,7 +28,9 @@ def apply(rel, entry, dry=False):
     if n != want:
         print(f"  !! {rel}: 'old' kommt {n}x vor (erwartet {want}) -> uebersprungen")
         return False
-    text = text.replace(old, new, 1)
+    # alle Vorkommen ersetzen (nur das erste zu ersetzen war ein Werkzeug-Bug:
+    # der angehaengte Korrekturvermerk zitiert die alte Form erneut)
+    text = text.replace(old, new)
     note = entry.get("note")
     if note:
         bullet = f"- [{DATE} (Korrekturvermerk): {note}]\n"
