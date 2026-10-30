@@ -6,6 +6,8 @@ state: SN
 city: Oschatz
 street: 'Am Blauen Berg 1'
 postcode: '04758'
+lat: 51.2796507
+lon: 13.1559961
 phone: '+49 3435 921-359'
 email: ''
 opening_hours: ''
@@ -18,7 +20,6 @@ pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
-clear_fields: 'geo'
 ---
 
 # ATO Abfallwirtschaft Torgau-Oschatz GmbH, Betriebshof Rechau-Zöschau
@@ -83,3 +84,5 @@ ist: **Am Blauen Berg 1, 04758 Oschatz (Betriebshof Rechau-Zoeschau)**.
 - [Recherche 29.10.2026: **GEO - Produktionspunkt zurueckgenommen.** Der DB-Punkt 51.3/13.1098 loest per Nominatim-Reverse auf „14e, Promenade, Altoschatz, 04758 Oschatz" auf, also auf eine **andere Strasse rund 3,8 km suedwestlich** der belegten Anschrift Am Blauen Berg 1. `clear_fields: 'geo'` wird gesetzt, **kein** Punkt geraten. Zu geokodieren: **Am Blauen Berg 1, 04758 Oschatz (Betriebshof Rechau-Zoeschau)**. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.3&lon=13.1098 ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Am Blauen Berg, Oschatz).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 13.1549/51.2785 bis 13.1653/51.2845, **6 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **1 Adressobjekte / 1 verschiedene Hausnummern** auf der Am Blauen Berg (1), im gesamten Rastergebiet **1 Adressobjekte mit Hausnummer / 1 verschiedene Hausnummern**. **Hausnummer 1 existiert**: node/4463438767 mit `addr:housenumber=1`, `addr:street=Am Blauen Berg` - **kein** `name`-Tag - **kein** `operator`-Tag Ein Objekt mit einem `name`- oder `operator`-Bezug zum Betreiber ist im abgetasteten Raster **nicht** vorhanden; das ist eine Aussage zum OSM-Bestand, kein Negativbeleg ueber den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **51.2796507, 13.1559961** (Mittelpunkt des OSM-Objekts **node/4463438767** mit `addr:street=Am Blauen Berg`, `addr:housenumber=1` (ohne PLZ- und Orts-Tag)). Quelle 1 (Betreiber): das offizielle Konzernverzeichnis **alba.info/standorte** fuehrt den **Betriebshof Rechau-Zoeschau** der ATO Abfallwirtschaft Torgau-Oschatz GmbH mit der Anschrift **Am Blauen Berg 1, 04758 Oschatz**. Quelle 2 (OSM): das Adressobjekt **node/4463438767** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `51.3 / 13.1098` (Promenade, Altoschatz, rund 3,8 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/node/4463438767.json ; https://www.alba.info/standorte/ (Abruf 30.10.2026)]

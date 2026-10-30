@@ -6,6 +6,8 @@ state: SN
 city: Riesa
 street: Lommatzscher Straße 8
 postcode: '01587'
+lat: 51.2971357
+lon: 13.2847886
 phone: 03525 5131820
 email: ''
 opening_hours: 'Mo-Fr 07:00-12:00, 12:30-15:30'
@@ -18,7 +20,6 @@ pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
-clear_fields: 'geo'
 ---
 
 # TSR Deutschland GmbH & Co. KG, NL Riesa
@@ -93,3 +94,5 @@ wird **kein** Punkt geraten. Zu geokodieren ist: **Lommatzscher Straße 8, 01587
 - [Recherche 29.10.2026: **GEO - Produktionspunkt zurueckgenommen.** Der DB-Punkt 51.3005667/13.2981667 loest per Nominatim-Reverse auf „Sportzentrum Pausitzer Straße, Pausitzer Straße, 01589 Riesa" auf, also auf einen **anderen Strassennamen rund 1 km noerdlich** der belegten Anschrift Lommatzscher Straße 8. `clear_fields: 'geo'` wird gesetzt, **kein** Punkt geraten. Zu geokodieren: **Lommatzscher Straße 8, 01587 Riesa**. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.3005667&lon=13.2981667 ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Lommatzscher Straße, Riesa).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 13.2817/51.2925 bis 13.2914/51.3051, **12 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **35 Adressobjekte / 32 verschiedene Hausnummern** auf der Lommatzscher Straße (1, 11, 11a, 11b, 11c, 11d, 13, 15, 16, 17, 19, 19f, 2, 21, 21a, 23, 23 a, 24, 25, 26, 27, 29, 3, 4, 6, 6a, 8, 9, 9a, 9b, 9c, 9d), im gesamten Rastergebiet **102 Adressobjekte mit Hausnummer / 66 verschiedene Hausnummern**. **Hausnummer 8 existiert**: way/174629277 mit `addr:housenumber=8`, `addr:street=Lommatzscher Straße`, `addr:postcode=01587`, `amenity=recycling`, `landuse=commercial`, `name=Remondis Elbe-Röder GmbH NL Riesa`, `operator=REMONDIS`, `phone=+49 3525 72020`, `website=https://www.remondis.de/index.php?id=16368&L=0&locationID=1158` Ein Objekt mit einem `name`- oder `operator`-Bezug zum Betreiber ist im abgetasteten Raster **nicht** vorhanden; das ist eine Aussage zum OSM-Bestand, kein Negativbeleg ueber den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **51.2971357, 13.2847886** (Mittelpunkt des OSM-Objekts **way/174629277** mit `addr:street=Lommatzscher Straße`, `addr:housenumber=8`, `addr:postcode=01587`, `name=Remondis Elbe-Röder GmbH NL Riesa`, `operator=REMONDIS`). Quelle 1 (Betreiber): der Internet-Archiv-Snapshot vom 14.11.2025 der TSR-Standortseite belegt **TSR Deutschland GmbH & Co. KG, Lommatzscher Straße 8, 01587 Riesa** (T +49 3525 5131-820). Quelle 2 (OSM): das Adressobjekt **way/174629277** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `51.3005667 / 13.2981667` (Pausitzer Strasse, rund 1 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/way/174629277/full ; https://www.tsr-recycling.de/standorte/schrotthaendler-riesa/ (Archiv-Snapshot 14.11.2025) (Abruf 30.10.2026)]

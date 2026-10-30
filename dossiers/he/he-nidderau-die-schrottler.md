@@ -6,6 +6,8 @@ state: HE
 city: Nidderau
 street: Hauptstraße 35
 postcode: '61130'
+lat: 50.2680854
+lon: 8.8647563
 phone: 06187 902701
 email: ''
 opening_hours: Termine nach Vereinbarung
@@ -89,3 +91,5 @@ neben der Abholung überhaupt gewollt ist, bleibt offen.
 - [30.10.2026 (Korrekturvermerk): **Objektzahl der Hauptstraße Nidderau berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.8633637,50.2647161,8.8686511,50.2692329) ergibt **46** Adressobjekte mit `addr:street=Hauptstraße` (bisher 53); die 46 verschiedenen Hausnummern sind unveraendert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.2680854, 8.8647563** (Mittelpunkt des OSM-Objekts **way/593448964** mit `addr:street=Hauptstraße`, `addr:housenumber=35`, `addr:postcode=61130`, `addr:city=Nidderau`, `addr:suburb=Erbstadt`, `building=house`). Quelle 1 (Betreiber): das Impressum der Betreiberseite nennt „Inhaber Daniel Breternitz, **Hauptstraße 35, 61130 Nidderau**" (USt-IdNr. DE 244901558). Quelle 2 (OSM): das Adressobjekt **way/593448964** traegt dieselbe Strasse und Hausnummer. Der bisherige Produktionspunkt `50.2381 / 8.867` lag rund **3,3 km** daneben und ist durch diesen Punkt ersetzt; Quelle(n): https://api.openstreetmap.org/api/0.6/way/593448964/full ; https://www.dieschrottler.de/about/ (Impressum) (Abruf 30.10.2026)]

@@ -6,6 +6,8 @@ state: SN
 city: Hartmannsdorf 09232
 street: Hainweg 24
 postcode: '09232'
+lat: 50.8823374
+lon: 12.823418
 phone: '03722 7980041'
 email: 'info@kck-containerdienst.de'
 opening_hours: ''
@@ -18,7 +20,6 @@ pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) – Kandidaten-Audit (Schlussfilter)
 provenance_ankauf_raw: unklar
 provenance_origin: table
-clear_fields: 'geo'
 ---
 
 # KcK Containerdienst Kupfer (Jeannine Döge)
@@ -85,3 +86,5 @@ ist: **Hainweg 24, 09232 Hartmannsdorf**.
 - [Recherche 29.10.2026: **GEO - Produktionspunkt zurueckgenommen.** Der DB-Punkt 50.9202667/12.2585667 loest per Nominatim-Reverse auf „Wildenboerten, 04626 Schmoelln, Altenburger Land, Thueringen" auf - rund **38 km oestlich und in einem anderen Bundesland** als die belegte Betriebsadresse Hainweg 24, 09232 Hartmannsdorf. `clear_fields: 'geo'` wird gesetzt, **kein** Punkt geraten. Zu geokodieren: **Hainweg 24, 09232 Hartmannsdorf**. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.9202667&lon=12.2585667 ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Hainweg, Hartmannsdorf).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 12.8198/50.8804 bis 12.8259/50.8850, **4 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **32 Adressobjekte / 32 verschiedene Hausnummern** auf der Hainweg (1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 3, 30, 31, 32, 4, 5, 6, 7, 8, 9), im gesamten Rastergebiet **133 Adressobjekte mit Hausnummer / 39 verschiedene Hausnummern**. **Hausnummer 24 existiert**: way/791822290 mit `addr:housenumber=24`, `addr:street=Hainweg`, `addr:city=Hartmannsdorf`, `addr:postcode=09232`, `addr:country=DE`, `building=yes` - **kein** `name`-Tag - **kein** `operator`-Tag Ein Objekt mit einem `name`- oder `operator`-Bezug zum Betreiber ist im abgetasteten Raster **nicht** vorhanden; das ist eine Aussage zum OSM-Bestand, kein Negativbeleg ueber den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.8823374, 12.823418** (Mittelpunkt des OSM-Objekts **way/791822290** mit `addr:street=Hainweg`, `addr:housenumber=24`, `addr:postcode=09232`, `addr:city=Hartmannsdorf`, `building=yes`). Quelle 1 (Betreiber): das Betreiber-Impressum bestaetigt **KcK Kleincontainerdienst Kupfer, Hainweg 24, 09232 Hartmannsdorf**, Inhaberin Jeannine Doege (USt-IdNr. DE 280672452). Quelle 2 (OSM): das Adressobjekt **way/791822290** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `50.9202667 / 12.2585667` (Wildenboerten, Thueringen, rund 38 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/way/791822290/full ; https://www.containerdienst-kck.de/ (Impressum) (Abruf 30.10.2026)]

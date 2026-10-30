@@ -6,6 +6,8 @@ state: HE
 city: Hanau
 street: Leipziger Straße 2
 postcode: '63450'
+lat: 50.1297439
+lon: 8.9246623
 phone: 0800 4372522
 email: ''
 opening_hours: ''
@@ -103,3 +105,5 @@ ausdrücklich bestätigt und bleibt offen.
 - [30.10.2026 (Korrekturvermerk): **Objektzahl der Leipziger Straße berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.9230257,50.1241620,8.9460847,50.1315571) ergibt **28** Adressobjekte mit `addr:street=Leipziger Straße` (bisher 31); die 25 verschiedenen Hausnummern sind unveraendert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.1297439, 8.9246623** (Position des OSM-Objekts **node/4874455690** mit `addr:street=Leipziger Straße`, `addr:housenumber=2`, `addr:postcode=63450`, `addr:city=Hanau`, `name=Kulzer`, `office=company`; das Gebaeude derselben Anschrift ist **way/221106760**). Quelle 1 (Betreiber): das Impressum der Betreiberseite bestaetigt „Kulzer GmbH, Leipziger Straße 2, 63450 Hanau" (AG Hanau HRB 91228, im Register bestaetigt). Quelle 2 (OSM): das Adressobjekt **node/4874455690** traegt dieselbe Strasse und Hausnummer und nennt die Firma im `name`-Tag. Der bisherige Produktionspunkt `50.1280667 / 8.9168333` lag rund **590 m** daneben und ist durch diesen Punkt ersetzt; Quelle(n): https://api.openstreetmap.org/api/0.6/node/4874455690.json ; https://www.kulzer.de/ (Impressum) (Abruf 30.10.2026)]

@@ -6,6 +6,8 @@ state: HE
 city: Offenbach am Main
 street: Kurfürstenstraße 19
 postcode: '63075'
+lat: 50.1158391
+lon: 8.7835535
 phone: 069 813302
 email: ''
 opening_hours: Mo 10:30-14:30, Di 14:00-18:00, Mi 10:30-13:30, Do 10:30-14:30, Fr 10:30-14:30, Sa 10:30-13:30
@@ -107,3 +109,5 @@ Website nennt nur die Ladengeschäftsannahme); die E-Mail-Adresse.
 - [30.10.2026 (Korrekturvermerk): **Zählung der Kurfürstenstraße berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.7810000,50.1110000,8.7920000,50.1200000) ergibt **49** Adressobjekte mit `addr:street=Kurfürstenstraße` (bisher 58) und **48** verschiedene Hausnummern (bisher 50). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.1158391, 8.7835535** (Mittelpunkt des OSM-Objekts **way/189411416** mit `addr:street=Kurfürstenstraße`, `addr:housenumber=19`, `addr:postcode=63075`, `addr:city=Offenbach am Main`, `building=yes`). Quelle 1 (Betreiber/Register): das Impressum der Betreiberseite nennt die **Uhren & Juwelen Heß GmbH** (HRB 41710 AG Offenbach, GF Hubert Heß); der unabhaengige Registerauszug weist die **Kurfürstenstraße 19, 63075 Offenbach am Main** aus. Quelle 2 (OSM): das Adressobjekt **way/189411416** traegt dieselbe Strasse und Hausnummer. Der bisherige Produktionspunkt `50.123 / 8.7921` lag rund **1,0 km** daneben und ist durch diesen Punkt ersetzt; Quelle(n): https://api.openstreetmap.org/api/0.6/way/189411416/full ; https://www.hess-juwelier-uhrmacher.de (Impressum) (Abruf 30.10.2026)]

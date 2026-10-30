@@ -6,6 +6,8 @@ state: SN
 city: Chemnitz
 street: Am Siegmarer Bahnhof 3
 postcode: '09117'
+lat: 50.8154163
+lon: 12.8424254
 phone: 0371 853084
 email: 'info@schrott-friedrich.de'
 opening_hours: Mo–Fr 06:00–16:00
@@ -19,7 +21,6 @@ provenance_section: 4) Chemnitz und Mittelsachsen
 provenance_ankauf_raw: ja
 provenance_origin: table
 certifications: '["Entsorgungsfachbetrieb §56 KrWG, Ingenieurbüro Ulbricht GmbH (Albert-Schweitzer-Straße 22, 09648 Mittweida), Überwachungsvertrag Nr. 801.0241/12/EfB, Zertifikat vom 17.02.2020, Überwachungsbericht Nr. 801.0241/26 vom 19.01.2026 (Überwachung am 16.01.2026), gültig bis 21.12.2027; Standort Am Siegmarer Bahnhof 3, 09117 Chemnitz; Tätigkeiten Sammeln (Containerdienst) und Befördern ohne Abfallartenbeschränkung für alle AVV-Abfallarten; Beförderer-Nr. SC 6110284; weitere Zertifizierungen DIN EN ISO 9001, DIN EN ISO 14001, EMAS, DIN EN ISO 50001, OHSAS 18001; laut amtlichem Fachbetrieberegister (Auszug 11.08.2026) zusätzlich Lagern und Behandeln, kein AltfahrzeugV-Vermerk"]'
-clear_fields: 'geo'
 ---
 
 # Schrott Friedrich GmbH
@@ -103,3 +104,5 @@ zurueckgenommen; es wird **kein** Punkt geraten. Zu geokodieren ist:
 - [Recherche 29.10.2026: **GEO - Produktionspunkt zurueckgenommen.** Der DB-Punkt 50.8006/12.7129 loest per Nominatim-Reverse auf „JYSK, 27, Schubertstraße, 09337 Hohenstein-Ernstthal" auf, also auf einen **anderen Ort und eine andere PLZ rund 2 km noerdlich** der belegten Anschrift Am Siegmarer Bahnhof 3, 09117 Chemnitz. `clear_fields: 'geo'` wird gesetzt, **kein** Punkt geraten. Zu geokodieren: **Am Siegmarer Bahnhof 3, 09117 Chemnitz**. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.8006&lon=12.7129 ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Am Siegmarer Bahnhof, Chemnitz).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 12.8397/50.8133 bis 12.8448/50.8175, **4 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **4 Adressobjekte / 3 verschiedene Hausnummern** auf der Am Siegmarer Bahnhof (2, 3, 4), im gesamten Rastergebiet **81 Adressobjekte mit Hausnummer / 52 verschiedene Hausnummern**. **Hausnummer 3 existiert**: node/1501943250 mit `addr:housenumber=3`, `addr:street=Am Siegmarer Bahnhof`, `addr:city=Chemnitz`, `addr:postcode=09117`, `addr:country=DE` - **kein** `name`-Tag - **kein** `operator`-Tag Ein Objekt mit einem `name`- oder `operator`-Bezug zum Betreiber ist im abgetasteten Raster **nicht** vorhanden; das ist eine Aussage zum OSM-Bestand, kein Negativbeleg ueber den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.8154163, 12.8424254** (Mittelpunkt des OSM-Objekts **node/1501943250** mit `addr:street=Am Siegmarer Bahnhof`, `addr:housenumber=3`, `addr:postcode=09117`, `addr:city=Chemnitz`). Quelle 1 (Betreiber): das Betreiber-Impressum bestaetigt **Schrott Friedrich GmbH, Am Siegmarer Bahnhof 3, 09117 Chemnitz** (AG Chemnitz HRB 12942); der Ueberwachungsbericht 801.0241/26 und das amtliche Fachbetrieberegister nennen dieselbe Anschrift. Der Slug nennt Wuestenbrand, alle Belege liegen in Chemnitz; ein Umzug ist nicht belegt, der Slug bleibt unveraendert. Quelle 2 (OSM): das Adressobjekt **node/1501943250** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `50.8006 / 12.7129` (Schubertstrasse, Hohenstein-Ernstthal, rund 2 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/node/1501943250.json ; https://www.schrott-friedrich.de/ (Impressum) (Abruf 30.10.2026)]

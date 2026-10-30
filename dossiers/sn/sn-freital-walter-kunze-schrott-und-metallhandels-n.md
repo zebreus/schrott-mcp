@@ -6,6 +6,8 @@ state: SN
 city: Freital
 street: Schachtstr. 8b
 postcode: '01705'
+lat: 51.0034662
+lon: 13.6494073
 phone: '0351 / 482999-0'
 email: ''
 opening_hours: 'Mo-Fr 7.00-9.00, 9.30-12.00, 12.30-16.45; Sa 8.00-11.45'
@@ -18,7 +20,6 @@ pickup_json: ''
 provenance_section: 1) Dresden, Freital, Heidenau, Pirna
 provenance_ankauf_raw: ja
 provenance_origin: table
-clear_fields: 'geo'
 ---
 
 # Walter Kunze Schrott- und Metallhandels GmbH, NL Freital
@@ -87,3 +88,5 @@ südöstlich** der belegten Anschrift Schachtstraße 8b. Der Punkt wird zurückg
 - [Recherche 29.10.2026: **OSM live geprueft (Schachtstraße, Freital).** Das Adressobjekt **node/4041951209** traegt `addr:housenumber=8b`, `addr:street=Schachtstraße`, `addr:city=Freital`, `addr:country=DE`, `addr:postcode=01705`, **`addr:suburb=Döhlen`**, **`name=Walter Kunze GmbH`**, **`phone=+49 351 4829990`** (stimmt mit der Betreiber-Seite ueberein), `email=info@kunze-schrott.de`, `website=http://www.kunze-group.com`, `entrance=main`, `check_date=2017-12-17` und `opening_hours=Mo-Fr 07:00-09:00,09:30-12:00,12:30-17:00; Sa 07:00-12:00; PH,Su off`. → Die Telefonnummer und die Anschrift sind damit unabhaengig bestaetigt. **Drei Abweichungen** sind transparent zu machen: (1) der OSM-Objektname „Walter Kunze **GmbH**" weicht vom Dossier-Namen „Walter Kunze **Schrott- und Metallhandels GmbH**" ab; (2) die OSM-Adresse liegt im Stadtteil **Döhlen**, das Dossier nennt nur Freital; (3) die OSM-Zeiten sind **aelter** (`check_date=2017-12-17`, Fr bis 17:00 statt 16:45, Sa ab 07:00 statt 08:00, Ende 11:45 statt 12:00) und die OSM-E-Mail nennt eine **andere Domaene** (`kunze-schrott.de` statt `kunze-group.de`) - massgeblich bleiben daher die **aktuellen Angaben der Betreiber-Filialseite**. Quelle(n): https://api.openstreetmap.org/api/0.6/node/4041951209.json ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Schachtstraße, Freital).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 13.6347/51.0006 bis 13.6541/51.0078, **10 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **77 Adressobjekte / 69 verschiedene Hausnummern** auf der Schachtstraße (1, 101, 103, 107, 10F, 10a, 10b, 10c, 10d, 10e, 10g, 12, 14, 15, 16, 18, 1a, 1b, 2, 23, 23b, 23g, 25, 27, 29, 3, 31, 33, 35, 37, 39, 4, 41, 43, 45, 47, 49, 5, 51, 53, 55, 57, 59, 6, 61, 63, 65, 67, 69, 7, 71, 73, 75, 77, 79, 8, 81, 83, 85, 87, 89, 8b, 8c, 9, 91, 93, 93a, 93b, 95), im gesamten Rastergebiet **356 Adressobjekte mit Hausnummer / 149 verschiedene Hausnummern**. **Hausnummer 8b existiert**: node/4041951209 mit `addr:housenumber=8b`, `addr:street=Schachtstraße`, `addr:city=Freital`, `addr:postcode=01705`, `addr:country=DE`, `name=Walter Kunze GmbH` - **kein** `operator`-Tag, `phone=+49 351 4829990`, `website=http://www.kunze-group.com`, `opening_hours=Mo-Fr 07:00-09:00,09:30-12:00,12:30-17:00; Sa 07:00-12:00; PH,Su off` Weitere Objekte mit Bezug zum Betreiber im Raster: node/4041951209 mit `name=Walter Kunze GmbH`, `addr:housenumber=8b`, `addr:street=Schachtstraße`, `phone=+49 351 4829990`, `opening_hours=Mo-Fr 07:00-09:00,09:30-12:00,12:30-17:00; Sa 07:00-12:00; PH,Su off`; way/451422699 mit `name=Walter Kunze GmbH` - **ohne** `addr:housenumber`, `landuse=industrial` Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **51.0034662, 13.6494073** (Mittelpunkt des OSM-Objekts **node/4041951209** mit `addr:street=Schachtstraße`, `addr:housenumber=8b`, `addr:postcode=01705`, `addr:city=Freital`, `addr:suburb=Döhlen`, `name=Walter Kunze GmbH`). Quelle 1 (Betreiber): die Filialseite der Kunze-Gruppe bestaetigt **Walter Kunze Schrott- und Metallhandels GmbH, Schachtstraße 8b, 01705 Freital** (T 0351/482999-0); die OSM-Telefonnummer `+49 351 4829990` deckt sich damit. Quelle 2 (OSM): das Adressobjekt **node/4041951209** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `51.0017 / 13.6488` (Dresdner Strasse, rund 0,5 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/node/4041951209.json ; https://www.kunze-group.de/index.php/kontakt/walter-kunze-schrott-und-metallhandels-gmbh-freital (Abruf 30.10.2026)]

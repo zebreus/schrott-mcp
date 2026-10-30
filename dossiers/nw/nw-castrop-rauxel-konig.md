@@ -6,6 +6,8 @@ state: NW
 city: Castrop-Rauxel
 street: Westrandweg 16
 postcode: '44579'
+lat: 51.5775514
+lon: 7.2670719
 phone: 0179-5382182
 email: ''
 opening_hours: ''
@@ -48,3 +50,5 @@ Metallhandel in Castrop-Rauxel-Pöppinghausen (Westrandweg 16, 44579), laut Betr
 - [Recherche 29.10.2026 (GEO-Abgleich): **Der in der Produktionsdatenbank gespeicherte Punkt stimmt nicht mit der belegten Adresse ueberein** — gespeichert `51.55 / 7.3167`; Rueckwaertsgeokodierung dieses Punktes (Photon-Reverse ueber OSM) ergibt `Hochstraße, 44575 Castrop-Rauxel (Rauxel-Süd), OSM way 25101584`. Das in OSM gefuehrte Adressobjekt der belegten Anschrift liegt `4.598 m` vom gespeicherten Punkt entfernt: OSM way 511656346 (`addr:housenumber=16`, `addr:street=Westrandweg`, `addr:city=Castrop-Rauxel`, `addr:postcode=44579`, `building=yes`). **Konsequenz**: der gespeicherte Punkt wird hier **nicht** automatisch zurueckgezogen — die Auswahl der `clear_fields`-Direktive bzw. einer Ersatzkoordinate ist eine Owner-Entscheidung, und fuer eine **neue** Koordinate liegen in diesem Dossier nur **eine** Positionsquelle (OSM) vor, waehrend die Regel eine zweite unabhaengige Quelle verlangt. **Keine Koordinate gesetzt.** Quelle(n): Photon-Reverse (https://photon.komoot.io/reverse, Abruf 29.10.2026); OSM-API-Abfrage `api.openstreetmap.org/api/0.6/way/<id>` bzw. `/node/<id>` (Abruf 29.10.2026); Haversine-Berechnung (R = 6371 km).]
 
 - [30.10.2026 (Korrekturvermerk): **Zahl der verschiedenen Hausnummern berichtigt**: die Nachmessung am 30.10.2026 mit dem im Dossier genannten Rasterfenster (7.264267/51.577060/7.270494/51.579271) ergibt **54** verschiedene Hausnummern auf dem Westrandweg (bisher 53); die Zahl der Adressobjekte (54) ist unveraendert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **51.5775514, 7.2670719** (Mittelpunkt des OSM-Objekts **way/511656346** mit `addr:street=Westrandweg`, `addr:housenumber=16`, `addr:postcode=44579`, `addr:city=Castrop-Rauxel`, `building=yes`). Quelle 1 (Betreiber): das Impressum der echten Betreiberseite nennt woertlich „A. Koenig Metallhandel und Gruenflaechenpflege e. Kfr., Westrandweg 16, 44579 Castrop-Rauxel" (Handelsregistereintrag HRA 19345 AG Dortmund). Quelle 2 (OSM): das Adressobjekt **way/511656346** traegt dieselbe Strasse und Hausnummer. Der bisherige Produktionspunkt `51.55 / 7.3167` lag rund **4,6 km** daneben (Hochstrasse, 44575) und ist durch diesen Punkt ersetzt; Quelle(n): https://api.openstreetmap.org/api/0.6/way/511656346/full ; https://www.xn--knig-schrotthandel-d3b.de/ (Impressum) (Abruf 30.10.2026)]

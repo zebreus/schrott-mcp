@@ -6,6 +6,8 @@ state: SN
 city: Laußnitz
 street: Grenzstr. 16
 postcode: '01936'
+lat: 51.2423402
+lon: 13.8733836
 phone: ''
 email: ''
 opening_hours: ''
@@ -19,7 +21,6 @@ provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
 certifications: '["Entsorgungsfachbetrieb §56 KrWG laut amtlichem Fachbetrieberegister (Auszug 11.08.2026): Udo Pesteritz Schrott- und Metallabfall Recycling, Grenzstr. 16, 01936 Laußnitz, Tätigkeiten Lagern, Behandeln, Verwerten"]'
-clear_fields: 'geo'
 ---
 
 # Udo Pesteritz Schrott- und Metallabfall Recycling GmbH
@@ -77,3 +78,5 @@ ist: **Grenzstraße 16, 01936 Laußnitz**.
 - [Recherche 29.10.2026: **GEO - Produktionspunkt zurueckgenommen.** Der DB-Punkt 51.25/13.8833 loest per Nominatim-Reverse auf „Dresdner Straße, 01936 Laußnitz" auf, also auf einen **anderen Strassennamen rund 1,1 km suedwestlich** der belegten Anschrift Grenzstraße 16 (die Ortsgemeinde ist richtig, die Adresse nicht). `clear_fields: 'geo'` wird gesetzt, **kein** Punkt geraten. Zu geokodieren: **Grenzstraße 16, 01936 Laußnitz**. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.25&lon=13.8833 ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Grenzstraße, Laußnitz).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 13.8703/51.2400 bis 13.8769/51.2468, **4 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **11 Adressobjekte / 11 verschiedene Hausnummern** auf der Grenzstraße (1, 11, 11a, 12, 13, 14, 16, 3, 5, 7, 9), im gesamten Rastergebiet **102 Adressobjekte mit Hausnummer / 48 verschiedene Hausnummern**. **Hausnummer 16 existiert**: way/256111740 mit `addr:housenumber=16`, `addr:street=Grenzstraße`, `addr:city=Laußnitz`, `addr:postcode=01936`, `building=yes` - **kein** `name`-Tag - **kein** `operator`-Tag Ein Objekt mit einem `name`- oder `operator`-Bezug zum Betreiber ist im abgetasteten Raster **nicht** vorhanden; das ist eine Aussage zum OSM-Bestand, kein Negativbeleg ueber den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **51.2423402, 13.8733836** (Mittelpunkt des OSM-Objekts **way/256111740** mit `addr:street=Grenzstraße`, `addr:housenumber=16`, `addr:postcode=01936`, `addr:city=Laußnitz`, `building=yes`). Quelle 1 (Betreiber): der Registereintrag **Udo Pesteritz Schrott und Metallabfall Recycling GmbH, Amtsgericht Dresden HRB 4235** fuehrt die Adresse **Grenzstr. 16, D-01936 Laußnitz**; das amtliche Fachbetrieberegister fuehrt den Betrieb unter derselben Anschrift. Quelle 2 (OSM): das Adressobjekt **way/256111740** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `51.25 / 13.8833` (Dresdner Strasse, rund 1,1 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/way/256111740/full ; https://www.northdata.de/Udo%20Pesteritz%20Schrott%20und%20Metallabfall%20Recycling%20GmbH,Lau%C3%9Fnitz/Amtsgericht%20Dresden%20HRB%204235 (Abruf 30.10.2026)]

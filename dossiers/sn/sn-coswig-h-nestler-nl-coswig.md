@@ -6,6 +6,8 @@ state: SN
 city: Coswig
 street: Industriestr. 34
 postcode: '01640'
+lat: 51.135332
+lon: 13.5663007
 phone: '03523 74245'
 email: ''
 opening_hours: 'Annahme von Abfällen: Mo-Fr 07:00-16:00; Sa geschlossen'
@@ -16,7 +18,6 @@ description: 'NESTLER-Standort Coswig der H. NESTLER GmbH & Co. KG (AG Dresden H
 dropoff_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Annahme von Abfällen am Standort Coswig laut Betreiber-Standortseite Mo-Fr 07:00-16:00 Uhr, Samstag geschlossen. Direkte Bargeldauszahlung fuer Schrott/Altmetalle nennt der Betreiber nur fuer die Anlaufstelle Dresden-Ost 1."}'
 pickup_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Abholung und Containerbereitstellung (1 bis 40 m3) fuer Altpapier und Metallabfaelle auf Anfrage laut Betreiber-Website; kein oeffentlicher Tarif."}'
 certifications: '["Entsorgungsfachbetrieb (EFB) laut Betreiber-Standortseite; Anlage zur Behandlung und Lagerung von Abfaellen, Entsorgernummer S27A00983, Erzeugernummer S27E00983"]'
-clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -93,3 +94,5 @@ Zu geokodieren ist: **Industriestraße 34, 01640 Coswig**.
 - [Recherche 29.10.2026: **OSM live geprueft (Industriestraße, Coswig) - Nestler-Objekt bestaetigt.** Zur Hausnummer 34 gehoeren **zwei OSM-Objekte**: **way/217691860** mit `addr:housenumber=34`, `addr:street=Industriestraße`, `addr:city=Coswig`, `addr:country=DE`, `addr:postcode=01640`, `building=commercial` (ohne `name`) und **way/217691863** mit denselben Adress-Tags, `building=yes` und **`name=H. Nestler GmbH & Co. KG`**. → Die belegte Anschrift ist in OSM **betreiberbezogen erfasst**; `operator`, `phone` und `opening_hours` sind an diesen Objekten **nicht** gesetzt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/217691860.json ; https://api.openstreetmap.org/api/0.6/way/217691863.json ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Industriestraße, Coswig).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 13.5638/51.1254 bis 13.5723/51.1369, **9 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **14 Adressobjekte / 13 verschiedene Hausnummern** auf der Industriestraße (20, 23, 24, 25, 26, 27, 28, 30, 31, 32a, 33, 34, 9), im gesamten Rastergebiet **58 Adressobjekte mit Hausnummer / 46 verschiedene Hausnummern**. **Hausnummer 34 existiert**: way/217691860 mit `addr:housenumber=34`, `addr:street=Industriestraße`, `addr:city=Coswig`, `addr:postcode=01640`, `addr:country=DE`, `building=commercial` - **kein** `name`-Tag - **kein** `operator`-Tag; way/217691863 mit `addr:housenumber=34`, `addr:street=Industriestraße`, `addr:city=Coswig`, `addr:postcode=01640`, `addr:country=DE`, `building=yes`, `name=H. Nestler GmbH & Co. KG` - **kein** `operator`-Tag Weitere Objekte mit Bezug zum Betreiber im Raster: way/217691863 mit `name=H. Nestler GmbH & Co. KG`, `addr:housenumber=34`, `addr:street=Industriestraße` Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **51.135332, 13.5663007** (Mittelpunkt des OSM-Objekts **way/217691863** mit `addr:street=Industriestraße`, `addr:housenumber=34`, `addr:postcode=01640`, `addr:city=Coswig`, `name=H. Nestler GmbH & Co. KG` (zweiteres Objekt derselben Anschrift: **way/217691860**, `building=commercial`, ohne `name`)). Quelle 1 (Betreiber): die Betreiber-Standortseite und das Impressum bestaetigen **H. NESTLER GmbH & Co. KG, Industriestraße 34, 01640 Coswig** (HRA 3819 AG Dresden) und den Mehrbetreiber A&E Meissen in derselben Hausnummer. Quelle 2 (OSM): das Adressobjekt **way/217691863** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `51.5091 / 13.0166` (K 8916, Bennewitz, rund 55 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/way/217691863/full ; https://www.nestleronline.de/unternehmen/standorte/coswig (Abruf 30.10.2026)]

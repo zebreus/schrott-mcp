@@ -6,6 +6,8 @@ state: HE
 city: Wiesbaden-Dotzheim
 street: Hollermorgenstr. 3
 postcode: '65199'
+lat: 50.0653336
+lon: 8.2090688
 phone: +49 157 54648788
 email: ''
 opening_hours: 'Mo-Fr 08:00-18:00; Sa 08:00-13:00'
@@ -82,3 +84,5 @@ in welcher Höhe, ist offen.
 - [30.10.2026 (Korrekturvermerk): **Objektzahl der Hollermorgenstraße berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.2076207,50.0634491,8.2116351,50.0670800) ergibt **10** Adressobjekte mit `addr:street=Hollermorgenstraße` (bisher 12); die 10 verschiedenen Hausnummern sind unveraendert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.0653336, 8.2090688** (Mittelpunkt des OSM-Objekts **way/234214952** mit `addr:street=Hollermorgenstraße`, `addr:housenumber=3`, `addr:postcode=65199`, `addr:city=Wiesbaden`, `building=apartments`). Quelle 1 (Betreiber): das Impressum der Betreiberseite nennt **Hollermorgenstrasse 3, 65199 Wiesbaden** und vermerkt dort ausdruecklich „Nur Verwaltungssitz - Keine Annahme von Schrott vor Ort!"; der Punkt bezeichnet daher die Verwalteradresse des mobilen Betriebs und keinen Annahmeplatz. Quelle 2 (OSM): das Adressobjekt **way/234214952** traegt dieselbe Strasse und Hausnummer. Der bisherige Produktionspunkt `50.0778462 / 8.2453077` lag rund **2,9 km** daneben und ist durch diesen Punkt ersetzt; Quelle(n): https://api.openstreetmap.org/api/0.6/way/234214952/full ; https://schrotthandelundsteinreinigung-marcelwagner-wiesbaden.com (Impressum) (Abruf 30.10.2026)]

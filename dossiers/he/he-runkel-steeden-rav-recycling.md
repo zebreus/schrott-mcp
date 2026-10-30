@@ -6,6 +6,8 @@ state: HE
 city: Runkel-Steeden
 street: Industriestr. 19
 postcode: '65594'
+lat: 50.403158
+lon: 8.1294152
 phone: '06482 4770'
 email: ''
 opening_hours: 'Mo-Fr 08:00-17:00; Sa 08:00-13:00'
@@ -98,3 +100,5 @@ gilt; ob ein Zertifikat (EFB, AltfahrzeugV) vorliegt.
 - [30.10.2026 (Korrekturvermerk): **Objektzahl der Industriestraße Runkel berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.1275162,50.4009223,8.1390513,50.4054106) ergibt **15** Adressobjekte mit `addr:street=Industriestraße` (bisher 24); die 15 verschiedenen Hausnummern sind unveraendert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.403158, 8.1294152** (Mittelpunkt des OSM-Objekts **way/138788012** mit `addr:street=Industriestraße`, `addr:housenumber=19`, `addr:postcode=65594`, `addr:city=Runkel`, `building=yes`; unmittelbar daneben **way/76761678** mit `name=RAV Runkeler Autoverwertung`). Quelle 1 (Betreiber): das Impressum bestaetigt **RAV Recycling GmbH, Industriestraße 19, 65594 Runkel**, Registergericht Limburg HRB 3759. Quelle 2 (OSM): das Adressobjekt **way/138788012** traegt dieselbe Strasse und Hausnummer. Der bisherige Produktionspunkt `50.4057 / 8.1546` lag rund **1,8 km** daneben und ist durch diesen Punkt ersetzt; Quelle(n): https://api.openstreetmap.org/api/0.6/way/138788012/full ; https://rav-recycling.de/ (Impressum) (Abruf 30.10.2026)]

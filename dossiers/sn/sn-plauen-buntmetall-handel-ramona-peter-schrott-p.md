@@ -6,6 +6,8 @@ state: SN
 city: Plauen
 street: 'Oelsnitzer Landstraße 147'
 postcode: '08527'
+lat: 50.4398612
+lon: 12.1641807
 phone: '0160 967 163 93'
 email: 'onlymetal@t-online.de'
 opening_hours: 'Di-Fr 08:00-16:00'
@@ -19,7 +21,6 @@ provenance_section: 5) Zwickau, Glauchau, Stollberg, Erzgebirge, Vogtland
 provenance_ankauf_raw: ja
 provenance_origin: table
 certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikat ZZST002000933008 (Zertifikatsnummer 801.0956/25) der Ingenieurbüro Ulbricht GmbH, Mittweida, gültig bis 07.06.2027; Standort Oelsnitzer Landstr. 147, 08527 Plauen OT Oberlosa; Tätigkeiten Sammeln, Befördern, Handeln und Makeln sowie Schrottplatz (Kennnummern S23T000902, S23M000314, S23A000097); zusätzlich laut amtlichem Fachbetrieberegister (Auszug 11.08.2026) Lagern und Behandeln"]'
-clear_fields: 'geo'
 ---
 
 # Buntmetall-Handel Ramona Peter (Schrott-Peter)
@@ -93,3 +94,5 @@ Anschrift. Der Punkt wird zurueckgenommen; es wird **kein** Punkt geraten. Zu ge
 - [Recherche 29.10.2026: **OSM live geprueft (Oelsnitzer Landstraße, Plauen).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 12.1424/50.4565 bis 12.1608/50.4798, **30 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **22 Adressobjekte / 22 verschiedene Hausnummern** auf der Oelsnitzer Landstraße (10, 12, 13, 14, 15, 16, 16a, 17, 18, 19, 1a, 1b, 1c, 2, 3, 33, 4, 5, 5a, 6, 8, 9), im gesamten Rastergebiet **368 Adressobjekte mit Hausnummer / 144 verschiedene Hausnummern**. **Die Hausnummer 147 existiert auf dieser Strasse in OSM nicht.** Auf der Oelsnitzer Landstraße sind nur die oben genannten Nummern erfasst; ein Objekt mit `addr:street=Oelsnitzer Landstraße` und `addr:housenumber=147` ist im vollstaendig abgetasteten Strassenraster **nicht** vorhanden. Ein Objekt mit einem `name`- oder `operator`-Bezug zum Betreiber ist im abgetasteten Raster **nicht** vorhanden; das ist eine Aussage zum OSM-Bestand, kein Negativbeleg ueber den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **Praezisierung zum OSM-Raster - die Hausnummer 147 wurde nicht geprueft, und zwar ausdruecklich nicht als „fehlt".** Das Kachelraster dieser Welle (30 Kacheln, 0 Kachel-Fehler) hat die Strassen-BBox **12.14243/50.45651 bis 12.16083/50.47984** abgedeckt, also den **Abschnitt der Oelsnitzer Landstrasse mit den Hausnummern 1a, 1b, 1c, 2, 3, 4, 5, 5a, 6, 8, 9, 10, 12, 13, 14, 15, 16, 16a, 17, 18, 19 und 33** (**22 Adressobjekte / 22 verschiedene Hausnummern**). Die gesuchte **Hausnummer 147 liegt in einem Abschnitt, der von dieser BBox nicht abgedeckt wird** (die Nummerierung der Strasse laeuft nach aussen weiter). → **Zu „Nr. 147 existiert in OSM nicht" wird ausdruecklich keine Aussage getroffen**; das Fehlen der Nummer 147 im eingetasteten Abschnitt ist **kein** Negativbefund. Die Anschrift Oelsnitzer Landstrasse 147 selbst ist ueber Betreiber-Website, Das Oertliche, wlw.de und das EFB-Zertifikat ZZST002000933008 belegt; die Geokodierung dieser Adresse steht weiterhin aus. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster 30 Kacheln, 0 Fehler, BBox 12.14243/50.45651 bis 12.16083/50.47984) ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.4398612, 12.1641807** (Mittelpunkt des OSM-Objekts **way/753436184** mit `addr:street=Oelsnitzer Landstraße`, `addr:housenumber=147`, `addr:postcode=08527`, `addr:city=Plauen`). Quelle 1 (Betreiber): die Betreiber-Website bestaetigt **Buntmetall-Handel Ramona Peter, Oelsnitzer Landstraße 147, 08527 Plauen OT Oberlosa**; das EFB-Zertifikat ZZST002000933008 (801.0956/25) fuehrt dieselbe Anschrift. Quelle 2 (OSM): das Adressobjekt **way/753436184** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `50.4976 / 12.1425` (Schlossstrasse, 08523 Plauen, rund 3 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/way/753436184/full ; https://www.schrott-peter.de/ (Abruf 30.10.2026) (Abruf 30.10.2026)]

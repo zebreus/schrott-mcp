@@ -6,6 +6,8 @@ state: SN
 city: Bobritzsch-Hilbersdorf
 street: Ahornstr. 5
 postcode: '09627'
+lat: 50.9219576
+lon: 13.3921637
 phone: '+49 3731 3087-0'
 email: freiberg@becker-umweltdienste.de
 opening_hours: 'Mo-Fr 07:00-17:00; an Sonn- und Feiertagen geschlossen'
@@ -16,7 +18,6 @@ description: 'Niederlassung Freiberg der Becker Umweltdienste GmbH (100%ige Toch
 dropoff_json: ''
 pickup_json: ''
 certifications: '["Entsorgungsfachbetrieb (EFB) laut Betreiber-Standortseite; Zertifikat laut Anbieterangabe gültig bis 17.01.2027 - das PDF ist ein Scan ohne Textebene, die Zertifikatsnummer wurde daher nicht ausgelesen und nicht übernommen", "Arbeitsschutzmanagement (Anbieterangabe gültig bis 25.03.2029)", "Energiemanagement und Umweltmanagement laut Betreiber-Standortseite"]'
-clear_fields: 'geo'
 provenance_section: 4) Chemnitz und Mittelsachsen
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -103,3 +104,5 @@ zurückgenommen; es wird **kein** Punkt geraten. Zu geokodieren ist:
 - [Recherche 29.10.2026: **GEO - Produktionspunkt zurückgenommen.** Der DB-Punkt 50.9/13.4444 löst per Nominatim-Reverse auf „An der Wiesenmühle, Niederbobritzsch, 09627 Bobritzsch-Hilbersdorf" auf, also auf einen Straßenpunkt **ohne Hausnummer**, rund 4 km westlich der belegten Betriebsadresse Ahornstr. 5; das ist ein falscher Punkt. `clear_fields: 'geo'` wird gesetzt, **kein** Punkt geraten. Zu geokodieren: **Ahornstr. 5, 09627 Bobritzsch-Hilbersdorf**. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.9&lon=13.4444 ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Ahornstraße, Bobritzsch-Hilbersdorf).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 13.3887/50.9185 bis 13.3995/50.9240, **6 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **12 Adressobjekte / 8 verschiedene Hausnummern** auf der Ahornstraße (1, 2, 5, 7, 8, 9, 11, 13), im gesamten Rastergebiet **20 Adressobjekte mit Hausnummer / 10 verschiedene Hausnummern**; Bereichsnotationen waren nicht zuaufloesen. **Ahornstraße 5 existiert**: **node/12787008356** mit `addr:housenumber=5`, `addr:street=Ahornstraße`, `addr:city=Bobritzsch-Hilbersdorf`, `addr:postcode=09627` - **ohne** `building`- und **ohne** `name`-/`operator`-Tag. Daneben existiert ein **eigenes Betriebsobjekt**: **node/12249797998** mit `office=yes`, **`name=Becker Umweltdienste`**, **`phone=+49373130870`** (entspricht +49 3731 3087-0 der Betreiber-Seite), **`website=https://www.jakob-becker.de/`** und **`opening_hours=Mo-Fr 07:00-17:00`** (deckt sich mit den Betreiber-Zeiten); dieses Objekt traegt **keine** Adress-Tags, also **keine** `addr:housenumber`. → Telefonnummer und Oeffnungszeiten sind damit **zusaetzlich in OSM bestaetigt**. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster 6 Kacheln, 0 Fehler) ; https://api.openstreetmap.org/api/0.6/node/12787008356.json ; https://api.openstreetmap.org/api/0.6/node/12249797998.json ; read-only `public.db` (29.10.2026).]
+
+- [Recherche 30.10.2026 (GEO-Nachtrag): **Punkt gesetzt**: `lat`/`lon` = **50.9219576, 13.3921637** (Mittelpunkt des OSM-Objekts **node/12787008356** mit `addr:street=Ahornstraße`, `addr:housenumber=5`, `addr:postcode=09627`, `addr:city=Bobritzsch-Hilbersdorf`). Quelle 1 (Betreiber): die Standortseite der Jakob Becker Gruppe nennt **Ahornstr. 5, 09627 Bobritzsch-Hilbersdorf**; die amtliche Liste der beauftragten Entsorgungsunternehmen des Landkreises Mittelsachsen fuehrt dieselbe Anschrift. Das eigene Betriebsobjekt **node/12249797998** (`name=Becker Umweltdienste`) traegt keine Adress-Tags, die Hausnummer 5 traegt **node/12787008356**. Quelle 2 (OSM): das Adressobjekt **node/12787008356** traegt dieselbe Strasse und Hausnummer. Die Direktive `clear_fields: 'geo'` wurde **entfernt**: mit gesetzten Koordinaten ist sie nicht seedfaehig (`clear_fields conflicts with populated geo`). Der von der Welle zurueckgenommene Produktionspunkt ist damit durch den belegten Punkt ersetzt. Vorheriger Produktionspunkt: `50.9 / 13.4444` (An der Wiesenmühle, Niederbobritzsch, rund 4 km daneben); Quelle(n): https://api.openstreetmap.org/api/0.6/node/12787008356.json ; https://jakob-becker.de/standort/becker-umweltdienste-gmbh-niederlassung-freiberg (Abruf 30.10.2026)]
