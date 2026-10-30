@@ -91,6 +91,10 @@ Hausnummer; ein eigenes FLAXRES-Objekt ist dort nicht erfasst.)
 
 - [30.10.2026 (Korrekturvermerk): **Tag-Zitat berichtigt**: node/7717696923 traegt live durchgaengig `contact:phone=+49 351 1609217` und `contact:website=https://fiedz.de/` (nicht `phone=`/`website=`). Quelle(n): https://api.openstreetmap.org/api/0.6/node/7717696923.json (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/7717696923 trägt live `contact:phone=+49 351 1609217` und `contact:website=https://fiedz.de/` — die unquotierten `phone=`/`website=`-Varianten existieren nicht. Quelle(n): https://api.openstreetmap.org/api/0.6/node/7717696923/full (Abruf 30.10.2026)]
+- [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/7717696923 trägt live `contact:phone=+49 351 1609217` und `contact:website=https://fiedz.de/` — die unquotierten `phone=`/`website=`-Varianten existieren nicht. Quelle(n): https://api.openstreetmap.org/api/0.6/node/7717696923/.json (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/5287843129 trägt live `contact:website=https://www.triebwerkstatt.de/` (die Umstellung von `website=` auf `contact:website=` erfolgte in OSM-Version 4). Quelle(n): https://api.openstreetmap.org/api/0.6/node/5287843129/full (Abruf 30.10.2026)]
+- [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/5287843129 trägt live `contact:website=https://www.triebwerkstatt.de/` (die Umstellung von `website=` auf `contact:website=` erfolgte in OSM-Version 4). Quelle(n): https://api.openstreetmap.org/api/0.6/node/5287843129/.json (Abruf 30.10.2026)]
+
+- [30.10.2026 (Korrekturvermerk): **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
+
+- [30.10.2026 (Korrekturvermerk): **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
