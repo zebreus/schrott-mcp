@@ -88,4 +88,6 @@ und EC-Karte.**
 
 - [30.10.2026 (Korrekturvermerk): **Tag-Zitat berichtigt**: node/344886620 traegt live `operator=Bäckerei **Möbius** OHG` (mit Umlaut), `contact:website=https://www.moebius-baeckerei.de/` (nicht `website=`; `website=` wurde in OSM-Version 15 entfernt) und `opening_hours=Mo-Sa 06:00-19:00; PH,Su 07:00-18:00`. Quelle(n): https://api.openstreetmap.org/api/0.6/node/344886620.json (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/344886620 trägt live `contact:website=https://www.moebius-baeckerei.de/` (und `url=`); `website=` wurde in OSM-Version 15 entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/344886620/full (Abruf 30.10.2026)]
+- [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: node/344886620 trägt live `contact:website=https://www.moebius-baeckerei.de/` (und `url=`); `website=` wurde in OSM-Version 15 entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/344886620/.json (Abruf 30.10.2026)]
+
+- [30.10.2026 (Korrekturvermerk): **Quellen-URL korrigiert**: die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026]
