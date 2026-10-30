@@ -86,9 +86,8 @@ und EC-Karte.**
 
 - [30.10.2026 (Korrekturvermerk):  **Tag-Zitat berichtigt**: node/3512103703 traegt live **kein** `addr:*`-Tag (reiner Bushaltestellen-Node mit `highway=bus_stop`, `operator=DVB`, `ref=37002`).]
 
-- [30.10.2026 (Korrekturvermerk):  **Tag-Zitat berichtigt**: node/344886620 traegt live `operator=Bäckerei **Möbius** OHG` (mit Umlaut), `contact:website=https://www.moebius-baeckerei.de/` (nicht `website=`; `website=` wurde in OSM-Version 15 entfernt) und `opening_hours=Mo-Sa 06:00-19:00; PH,Su 07:00-18:00`.]
+- [30.10.2026 (Korrekturvermerk):  **Tag-Zitat berichtigt**: node/344886620 traegt live `operator=Bäckerei **Möbius** OHG` (mit Umlaut), `contact:website=https://www.moebius-baeckerei.de/` (nicht `website=`; `website=` wurde in OSM-Version 15 entfernt) und `opening_hours=Mo-Sa 06:00-19:00; PH,Su 07:00-18:00`. node/344886620 traegt zusaetzlich live `url=https://www.moebius-baeckerei.de/Filialen/Dresden-158.html`. Quelle(n): https://api.openstreetmap.org/api/0.6/node/344886620.json (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk):]
 
 - [30.10.2026 (Korrekturvermerk):  die Form `/api/0.6/node/<id>/full` liefert für Nodes live HTTP 404 (nur für way/relation gibt es die `/full`-Variante); die abrufbare Form ist `/api/0.6/node/<id>.json`. Quelle(n): Abruf 30.10.2026 die Form `/api/0.6/node/<id>/.json` (mit Schrägstrich vor der Endung) liefert live HTTP 404; Quelle(n): Abruf 30.10.2026]
 
