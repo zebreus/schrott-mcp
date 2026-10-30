@@ -1,0 +1,1727 @@
+{
+  "version": 1,
+  "release_commit": "0185dda5908b66bdb7b8fcf5de4902dc208c99d7",
+  "release_tree": "4c8a6539e877745f6f75b36893debf9d6cdac4e2",
+  "rehearsal_manifest_sha256": "bef3fc790f4b75885785f3a657263c6b4b23804b0cc99af7ad23b7f241b9ba63",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bw-abstatt-herfel",
+    "bw-boblingen-karle-recycling",
+    "bw-deilingen-schuler-simon-autoverwertung-schrott-met",
+    "bw-efringen-kuhl-entsorgung-recycling-sudwest",
+    "bw-ellwangen-green-it-solution",
+    "bw-heilbronn-frank-schrott-u-metallhandelsges-mbh",
+    "bw-karlsruhe-kuhl-entsorgung-recycling-sudwest",
+    "bw-lauchringen-smv-wiederkehr-recycling",
+    "bw-lauda-kuhl-entsorgung-recycling-sudwest",
+    "bw-leimen-mk-recycling-metin-kandogmus",
+    "bw-mannheim-fr-von-gries",
+    "bw-mannheim-kampf-schrott-metallgrohandel-mayr-verbu",
+    "bw-merklingen-r-metall",
+    "bw-offenburg-leber-a-rohstoffe-schrotthandel",
+    "bw-pforzheim-doduco-contacts-and-refining-saxonia-gru",
+    "bw-rastatt-76437-autoverwertung-christ",
+    "bw-schwabisch-hall-74523-secondbuy-second-it-store",
+    "bw-stuttgart-degenkolbe",
+    "bw-ulm-89075-schrott-metallhandel-ulm-rivaldo-venezia",
+    "bw-waldbronn-eisele",
+    "by-aichach-auduna",
+    "by-aschaffenburg-63739-gold-silber-ankauf-deg",
+    "by-barbing-avas-recycling",
+    "by-donauworth-loacker-recycling",
+    "by-furstenfeldbruck-eisen-rudi-recycling",
+    "by-gunzburg-baur-sohne",
+    "by-hauzenberg-schumpa",
+    "by-hirschaid-hermann-korn",
+    "by-kaufbeuren-schieler-schrott-und-metallhandel",
+    "by-mettenheim-baumert",
+    "by-miltenberg-63897-schmuck-filbert",
+    "by-muenchen-riem-pro-aurum-goldhaus",
+    "by-muhldorf-84453-mitsching-av",
+    "by-munchen-eiber-kunz-schrott-metall-recycling",
+    "by-nurnberg-kornburg-franz-pesteritz",
+    "by-nurnberg-scholz-recycling-derichebourg-gruppe",
+    "by-plattling-avas-filiale",
+    "by-roth-blank",
+    "by-schaftlarn-frisch-recycling",
+    "by-schweinfurt-97424-econocom-remarketing-bb-net",
+    "by-wurzburg-zellerau-gramet",
+    "he-wolfhagen-tobias-meyer",
+    "rp-altenglan-joa-altenglan",
+    "rp-andernach-dwr-weiblech",
+    "rp-annweiler-dubovic-annweiler",
+    "rp-billigheim-ingenheim-s-ohlinger-steel-men",
+    "rp-florsheim-ulman-laukert-ober-florsheim",
+    "rp-ingelheim-kornely",
+    "rp-kettig-56220-fogolin",
+    "rp-koblenz-tsr-recycling-nl-koblenz",
+    "rp-ludwigshafen-daud",
+    "rp-ludwigshafen-entsorgungsbetrieb-muller",
+    "rp-ludwigshafen-theo-steil-nl-ludwigshafen",
+    "rp-mainz-mombach-h-l-r-rohstoffhandel",
+    "rp-neuwied-block-keusch-schrott-metallhandel",
+    "rp-rivenich-hutmacher-rivenich",
+    "rp-simmern-schneider-recycling",
+    "rp-speyer-superbauer",
+    "rp-trier-54290-kratz-pfandkredithaus",
+    "rp-trier-h-block",
+    "rp-trier-theo-steil-stammhaus",
+    "rp-worms-velte-rohstoffhandel",
+    "sn-dresden-pro-aurum-filiale"
+  ],
+  "scope": "exactly the 63 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-0185dda. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bw-abstatt-herfel",
+      "values": {
+        "name": "Herfel",
+        "city": "Abstatt",
+        "street": "Rauheckstraße 2",
+        "postcode": "74232",
+        "phone": "07062 978371",
+        "email": "info@herfel-autoverwertung.de",
+        "opening_hours": "Mo-Fr 08:00-12:00 und 13:00-17:00, Sa 08:00-13:00",
+        "description": "Herfel Autoverwertung e.K. (Mario Herfel, HRA 729160 Amtsgericht Stuttgart) mit Standort Abstatt an der Rauheckstraße 2: Altautoannahme und -entsorgung, Demontage sowie Verkauf gebrauchter Ersatzteile. Die Betreiberseite nennt für den Standort Abstatt eine eigene Rufnummer (07062 978371) neben der Kirchardter Zentrale; das einzige öffentlich verlinkte EfB-Zertifikat ist auf den Standort Kirchardt und auf den 07.08.2021 befristet.",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://www.herfel-autoverwertung.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5198895993a2d7dcc5c71a8b7ac10fd849037ea85111f03ac0da6fb9211e3949",
+      "seed_hash": "a5254c8f6d4686f4",
+      "geo": [
+        49.0682,
+        9.2907
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-boblingen-karle-recycling",
+      "values": {
+        "name": "Karle Recycling GmbH",
+        "city": "Böblingen",
+        "street": "Hanns-Klemm-Str. 11",
+        "postcode": "71034",
+        "phone": "07031 20 943-20",
+        "email": "",
+        "opening_hours": "Mo-Fr 7-16, Sa geschlossen",
+        "description": "Wertstoffhof der Karle Recycling GmbH (HRB 18064 AG Stuttgart) in Böblingen: Ankauf und Aufbereitung von Eisen- und Nichteisenschrott, Entsorgung, Containerdienst und Aktenvernichtung; zertifiziert als Entsorgungsfachbetrieb, Altfahrzeugdemontagebetrieb, ElektroG-Erstbehandlungsanlage und Vorbehandlungsanlage GewAbfV. Vergütung nach Marktpreis, Mindestauszahlungsbetrag 20 EUR je Anlieferung.",
+        "status": "aktiv",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://karle-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "8d6575dd73f84f094d562ce11318143bfee7e166fcbdb02f472779221733fa92",
+      "seed_hash": "304716c1ad01a998",
+      "geo": [
+        48.6902,
+        8.9705
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:00-16:00\"], \"conditions\": \"Anlieferung Fe-/NE-Metall am Standort Böblingen, Hanns-Klemm-Str. 11, Mo-Fr 07:00-16:00, Samstag geschlossen; Bewertung über Sortenbefund, Fremdstoffe und Verunreinigungen mindern die Vergütung, Fehlwürfe werden mit Weigerungskosten belegt; Mindestauszahlungsbetrag 20 EUR (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Gruppenweit bietet Karle Recycling die Abholung mit dem eigenen Fuhrpark an, laut Betreiberangabe bei Material, das für eine Anlieferung am Platz in Feuerbach zu sperrig ist, sowie Containerdienst und Mulden; eine standortspezifische Abholregel für Böblingen ist nicht veröffentlicht (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb\", \"Altfahrzeugdemontagebetrieb\", \"ElektroG Erstbehandlungsanlage\", \"Vorbehandlungsanlage GewAbfV\"]"
+    },
+    {
+      "slug": "bw-deilingen-schuler-simon-autoverwertung-schrott-met",
+      "values": {
+        "name": "Schuler Simon Autoverwertung Schrott- Metall- und Containerdienst",
+        "city": "Deißlingen",
+        "street": "Hagelenweg 9",
+        "postcode": "78652",
+        "phone": "07420/1205",
+        "email": "",
+        "opening_hours": "",
+        "description": "Autoverwertung Schuler Simon in Deißlingen am Hagelenweg 9: Autoverwertung mit Schrott-, Metall- und Containerdienst. Die Hausnummer 9 ist in OSM als Autoverwerter-Objekt erfasst; eine eigene Website ist nicht erreichbar, die angegebene Domain schrott-schrott.de besteht nicht mehr.",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://schrott-schrott.de",
+        "website_status": "tot"
+      },
+      "notes_sha256": "4ceea8deea85e160b6731fde242ac3176320af47784b394c347f805c8c5ef1ab",
+      "seed_hash": "72fb559783da54e2",
+      "geo": [
+        48.1432,
+        8.696349999999999
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-efringen-kuhl-entsorgung-recycling-sudwest",
+      "values": {
+        "name": "Kühl Entsorgung & Recycling Südwest",
+        "city": "Efringen-Kirchen",
+        "street": "Beim Breitenstein 26",
+        "postcode": "79588",
+        "phone": "+49 7628 803890",
+        "email": "kuehl.efringen-kirchen@kuehl-gruppe.de",
+        "opening_hours": "Verwaltung Mo-Fr 08:00-17:00; Hof/Warenannahme Mo-Fr 08:00-16:00",
+        "description": "Entsorgungsfachbetrieb der Kühl Entsorgung & Recycling Südwest GmbH (Gruppe Kühl Unternehmensgruppe, Zentrale Diedorf) am Standort Beim Breitenstein 26 in Efringen-Kirchen: Warenannahme von Papier, Pappe, Kartonagen, Glas, Kunststoffen, Holz, Sperrmüll, Bioabfällen, E-Schrott und Baumischabfall (die letzten drei nur nach Absprache), Containerdienst und Aktenvernichtung. Anlieferung nach Terminabsprache mit Anmeldung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://kuehl-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6fe03e43cca860882e93352cf1f26cf0a86030ba46abafd136c74b6376041d8e",
+      "seed_hash": "74ad715d1a3d9f81",
+      "geo": [
+        47.65,
+        7.5667
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"08:00-16:00\"], \"conditions\": \"Hof/Warenannahme Mo-Fr 08:00-16:00, Verwaltung Mo-Fr 08:00-17:00; Anlieferung nach Terminabsprache, Anmeldung nötig; angenommen werden Papier, Pappe und Kartonagen, Glas, Kunststoffe, Holz, Sperrmüll, Bioabfälle, E-Schrott und Baumischabfall, die letzten drei jeweils nur nach Absprache (Betreiber-Standortseite, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerdienst und Abholung: Behälter von 120 l bis 40 m3 nach Plan oder auf Abruf, Abholung nach Absprache (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (Angabe der Betreiber-Standortseite)\"]"
+    },
+    {
+      "slug": "bw-ellwangen-green-it-solution",
+      "values": {
+        "name": "Green IT Solution",
+        "city": "Ellwangen",
+        "street": "Dr.-Adolf-Schneider-Straße 23/1+2",
+        "postcode": "73479",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Green IT Solution GmbH (HRB 281538 AG München, Sitz Inning) mit operativem Zentrum und Verarbeitungsstandort in Ellwangen an der Dr.-Adolf-Schneider-Straße 23/1+2: Ankauf und Wiederaufbereitung gebrauchter Unternehmens-IT mit revisionssicherer Datenlöschung, Datenträgervernichtung und Recycling nicht weiterverwendbarer Geräte. Ausschließlich Gewerbekunden, keine Privatgeräte; öffentliche Ankaufpreise werden nicht veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.greenit-solution.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f14aa5bdec4b3593e4fb65f2a9c210120a25a58dadac998fb66fba6af08736d4",
+      "seed_hash": "c77e6c70ecd3cb50",
+      "geo": [
+        48.9623,
+        10.1545
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Abholung gebrauchter Unternehmens-IT nach individueller Anfrage; für größere Projekte mit eigener Sicherheitslogistik. Keine Privatkunden.\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-heilbronn-frank-schrott-u-metallhandelsges-mbh",
+      "values": {
+        "name": "Frank Metallhandelsgesellschaft mbH",
+        "city": "Heilbronn",
+        "street": "Hafenstr. 67",
+        "postcode": "74076",
+        "phone": "+49 7131 177350",
+        "email": "info@schrott-frank.de",
+        "opening_hours": "",
+        "description": "Frank Metallhandelsgesellschaft mbH (HRB 100612 Amtsgericht Stuttgart, Geschäftsführer Marco Frank) am Standort Hafenstraße 67 in 74076 Heilbronn: seit 1971 im Schrott- und Metallgroßhandel, Annahme von Eisenschrott und NE-Metallen, Container und Abholung, Fahrzeugservices. Vergütung für Eisenschrott ab 100 kg Mindestmenge, Preise ausschließlich auf Anfrage.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "http://www.schrott-frank.de",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "b50f4d3c215a9b14b31f4d8b6cd17435144f18727d6b3d4210d98cbc7fc4cd14",
+      "seed_hash": "284a5a6c5350c060",
+      "geo": [
+        49.14191666666667,
+        9.205183333333332
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung von Altmetallen direkt auf dem Lager an der Hafenstraße 67; das Abwiegen und die Abrechnung von Eisenschrott erfolgt ab einer Mindestmenge von 100 kg; die Anlieferung sollte laut Betreiber immer vorsortiert erfolgen; NE-Metalle werden ebenfalls angenommen (Betreiber-Website, Abruf 30.10.2026 über Suchindex, Direktabruf HTTP 403)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Container werden in bedarfsgerechter Größe bereitgestellt, Material wird direkt beim Kunden abgeholt; Mindestmengen für Abholungen: 1 Tonne im Stadtgebiet Heilbronn, im Landkreis Heilbronn größere Mengen abhängig von der Entfernung; nach Absprache auch außerhalb der Geschäftszeiten (Betreiber-Website, Abruf 30.10.2026 über Suchindex, Direktabruf HTTP 403)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-karlsruhe-kuhl-entsorgung-recycling-sudwest",
+      "values": {
+        "name": "Kühl Entsorgung & Recycling Südwest",
+        "city": "Karlsruhe",
+        "street": "Zeppelinstraße 6",
+        "postcode": "76185",
+        "phone": "+49 721 952490",
+        "email": "kuehl.suedwest@kuehl-gruppe.de",
+        "opening_hours": "Verwaltung Mo-Fr 08:00-17:00; Hof/Warenannahme Mo-Fr 07:00-16:00",
+        "description": "Entsorgungsfachbetrieb der Kühl Entsorgung & Recycling Südwest GmbH (Gruppe Kühl Unternehmensgruppe, Zentrale Diedorf) am Standort Zeppelinstraße 6 in Karlsruhe: Warenannahme von Papier, Pappe, Kartonagen, Glas, Kunststoffen, Holz und Metallen (Metalle nur nach Absprache), Containerdienst von 120 l bis 40 m3, Akten- und Datenträgervernichtung mit Nachweis. Anlieferung nur nach Terminabsprache mit Anmeldung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://kuehl-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6112e559dcb236a96109aa5a86a9f512a466ffdb58de239bcaceea90a56ef8e5",
+      "seed_hash": "626264f3effcd652",
+      "geo": [
+        49.00611428571428,
+        8.396978571428571
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:00-16:00\"], \"conditions\": \"Hof/Warenannahme Mo-Fr 07:00-16:00, Verwaltung Mo-Fr 08:00-17:00; Anlieferung nach Terminabsprache, Anmeldung nötig; angenommen werden Papier, Pappe und Kartonagen, Glas, Kunststoffe, Holz und Metalle, Metalle nur nach Absprache (Betreiber-Standortseite, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerdienst und Abholung: Behälter von 120 l bis 40 m3 nach Plan oder auf Abruf, Abholung nach Absprache (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (Angabe der Betreiber-Standortseite)\"]"
+    },
+    {
+      "slug": "bw-lauchringen-smv-wiederkehr-recycling",
+      "values": {
+        "name": "SMV Wiederkehr Recycling GmbH",
+        "city": "Lauchringen",
+        "street": "Detzelnerstrasse 1",
+        "postcode": "79787",
+        "phone": "+49 7741 5081",
+        "email": "smv@wierec.com",
+        "opening_hours": "Mo-Fr 7:30-11:30 / 13:15-16:30",
+        "description": "SMV Wiederkehr Recycling GmbH (HRB 620981 Registergericht Freiburg, Geschäftsführer Michael Hämmerle) am Standort Detzelner Straße 1 in 79787 Lauchringen: einer der ältesten Schrotthändler am Hochrhein, 1993 in die Wiederkehr-Gruppe (Thommen Group) übernommen und saniert, mit der größten Schrottschere Süddeutschlands. Zertifizierter Entsorgungsfachbetrieb (PÜG, Vorgangsnummer ZZHT004003366008, gültig bis 22.08.2027), Altfahrzeug-Demontagebetrieb (Betriebsnummer H35009510) und Rücknahmestelle nach §17a ElektroG; BDSV-Mitglied.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.wierec.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "cbd2ea4c07a0c8dd135f58fa68d176bbb3f1ef7fb51fafb107538506ee9f2ea7",
+      "seed_hash": "8e6888544055003e",
+      "geo": [
+        47.627,
+        8.3144
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:30-11:30\", \"13:15-16:30\"], \"conditions\": \"Öffnungszeiten laut Betreiber-Standortseite Montag bis Freitag 7.30-11.30 und 13.15-16.30 Uhr, Samstag geschlossen; angenommen werden laut Betreiber-Infoblatt Eisen- und Nichteisenschrott (Sorten E1, E3, E5, E8, E8k, Mischschrott, Cu-Granulat I und II, Cu Millberry, Cu Berry, Messing MS63 und MS58, Kabel, Blei und Bleibatterien, Zinn, Titan, Elektromotoren); Vergütungen werden erst ab einer sortenabhängigen Mindestmenge entrichtet, Anhaftungen und Vermischungen mindern die Vergütung (Betreiber-Infoblatt vom 05.11.2020, Betreiber-Standortseite, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Flexible Dienstleistungen mit modernem Fuhrpark sowie Abholservice, Muldenservice und Abbruchservice im Leistungsangebot der Wiederkehr-Gruppe (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb (PÜG Prüf- und Überwachungsgesellschaft mbH, Zertifikat K12488-20260512-Efb-de, Vorgangsnummer ZZHT004003366008, gültig bis 22.08.2027)\", \"Altfahrzeug-Demontagebetrieb (PZERT GmbH, Betriebsnummer H35009510, zuständige Behörde Landratsamt Waldshut, gültig 31.03.2026 bis 30.09.2027)\", \"Rücknahmestelle nach § 17a ElektroG (PZERT-Bestätigung vom 06.02.2024, gültig bis 05.08.2025)\", \"BDSV-Mitglied\"]"
+    },
+    {
+      "slug": "bw-lauda-kuhl-entsorgung-recycling-sudwest",
+      "values": {
+        "name": "Kühl Entsorgung & Recycling Südwest",
+        "city": "Lauda-Königshofen",
+        "street": "Tauberstraße 28",
+        "postcode": "97922",
+        "phone": "+49 9343 61490",
+        "email": "kuehl.lauda@kuehl-gruppe.de",
+        "opening_hours": "Verwaltung Mo-Fr 08:00-12:00 und 13:00-17:00; Hof/Warenannahme Mo-Fr 07:30-16:30",
+        "description": "Entsorgungsfachbetrieb der Kühl Entsorgung & Recycling Südwest GmbH (Gruppe Kühl Unternehmensgruppe, Zentrale Diedorf) am Standort Tauberstraße 28 in Lauda-Königshofen: Warenannahme von Papier, Pappe, Kartonagen, Kunststoffen, Metallen und Holz, Containerdienst und Aktenvernichtung. Anlieferung nach Terminabsprache mit Anmeldung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://kuehl-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "8448e344ef5b2a5a54de8f169fbb1d6589eb9d0b3821fd5af4f9603015cd9146",
+      "seed_hash": "73c1a5b544a2b81c",
+      "geo": [
+        49.5653,
+        9.7082
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:30-16:30\"], \"conditions\": \"Hof/Warenannahme Mo-Fr 07:30-16:30, Verwaltung Mo-Fr 08:00-12:00 und 13:00-17:00; Anlieferung nach Terminabsprache, Anmeldung nötig; angenommen werden Papier, Pappe und Kartonagen, Kunststoffe, Metalle und Holz (Betreiber-Standortseite, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerdienst und Abholung: Behälter von 120 l bis 40 m3 nach Plan oder auf Abruf, Abholung nach Absprache (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (Angabe der Betreiber-Standortseite)\"]"
+    },
+    {
+      "slug": "bw-leimen-mk-recycling-metin-kandogmus",
+      "values": {
+        "name": "MK Recycling (Metin Kandogmus)",
+        "city": "Leimen",
+        "street": "Bremerstraße 11",
+        "postcode": "69181",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "MK Recycling (Metin Kandogmus) in Leimen: Annahme von Altmetall, Kabeln und Maschinen auf dem Recyclinghof an der Bremerstraße 11, Containerdienst für Bau, Gewerbe und Privathaushalte sowie Demontage von Metall- und Industrieanlagen mit anschließendem Abtransport und Recycling. Die Vergütung wird nach dem Tageshöchstpreis für Metalle berechnet; Zahlenpreise werden nicht veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://recycling-mk.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "002a38713e4aad523ee19596f6ccf0004e55f9f69243efcd7aa926b4a6dda61a",
+      "seed_hash": "b1f79d740dc5969d",
+      "geo": [
+        49.31055,
+        8.22795
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung auf dem Recyclinghof, Bremerstraße 11, 69181 Leimen: Altmetalle, Kabel, Maschinen und vieles mehr; Material wird vor Ort geprüft und mit dem aktuellen Tagespreis bewertet, Anlieferzeiten werden auf der Website mit Montag bis Freitag 08:00 bis 17:00 Uhr und Samstag 08:30 bis 16:00 Uhr angegeben (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Containerdienst: Bereitstellung von Containern in verschiedenen Größen am Kundenstandort mit Abtransport und fachgerechter Verwertung; Abholung vor Ort nach Absprache, ebenso Abtransport und Recycling nach Demontage (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-mannheim-fr-von-gries",
+      "values": {
+        "name": "Fr. von Gries",
+        "city": "Mannheim",
+        "street": "Pfingstweidstr. 24",
+        "postcode": "68199",
+        "phone": "+49 621 84231-0",
+        "email": "info@gries-rohstoffe.de",
+        "opening_hours": "Mo-Do 07:30-09:00, 09:20-12:00, 12:40-16:00; Fr 07:30-09:00, 09:20-12:00, 12:40-15:00; Sa geschlossen",
+        "description": "Fr. von Gries Rohstoffe GmbH (HRB 5497 Amtsgericht Mannheim, Geschäftsführer Alessandro Capra) am Standort Pfingstweidstr. 24 in 68199 Mannheim: Sortieren und Aufbereiten von Nichteisenmetallen (Aluminium, Blei, Kupfer, Zink, Zinn, Edelstahl) und Eisenschrott, Materialannahme mit eigenem Fuhrpark, Containerservice mit Hausabholung, Verkauf von Sekundärrohstoffen; Preise werden nicht öffentlich ausgewiesen.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://gries-rohstoffe.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5435550cea7a05d8bdf53c668e37fa6797d29c5431e5b44741b2f1218f2498a7",
+      "seed_hash": "3181ba989575e2ca",
+      "geo": [
+        49.49626428571429,
+        8.48125
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:30-09:00\", \"09:20-12:00\", \"12:40-16:00\"], \"conditions\": \"Anlieferung laut Betreiber-Öffnungszeiten Mo-Do 07:30-09:00, 09:20-12:00 und 12:40-16:00 Uhr, Fr 07:30-09:00, 09:20-12:00 und 12:40-15:00 Uhr, Samstag geschlossen; Material kommt aus dem eigenen Fuhrpark oder in Direktanlieferung durch Zwischenhändler, Handwerk und Endverbraucher (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerservice mit Hausabholung, Abholung der Materialien über den eigenen Fuhrpark aus Entsfallstellen (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-mannheim-kampf-schrott-metallgrohandel-mayr-verbu",
+      "values": {
+        "name": "Kämpf Schrott- & Metallgroßhandel GmbH (Mayr-Verbund)",
+        "city": "Stuttgart",
+        "street": "Wernerstraße 120",
+        "postcode": "70469",
+        "phone": "+49 711 323008",
+        "email": "info@kaempf-recycling.de",
+        "opening_hours": "Mo-Do 07:00-16:30, Fr 07:00-16:00",
+        "description": "Kämpf Schrott- & Metallgroßhandel GmbH (Sitz und Handelsregister Stuttgart HRB 720861, Geschäftsführung Susanne Mayr-Kohn und Annette Beling) am Standort Wernerstraße 120 in 70469 Stuttgart: zertifizierter Entsorgungsfachbetrieb im Verbund der Eberhard Mayr GmbH & Co KG, Transport, Lagerung, Sammlung und Sortierung von Stahlschrott, legiertem Schrott und Buntmetallen, Container, Demontage, Schrottpresse; Preise werden nicht öffentlich ausgewiesen.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://eberhard-mayr.de/kaempf-recycling/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d6cc66c10d1757e454c6aac6003a8fd536b85117ff841f5b3f37a7cbb16f2b70",
+      "seed_hash": "0d86bee39acb84c6",
+      "geo": [
+        49.49626428571429,
+        8.48125
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-merklingen-r-metall",
+      "values": {
+        "name": "R. Metall",
+        "city": "Merklingen",
+        "street": "Industriestr. 6",
+        "postcode": "89188",
+        "phone": "+49 7337 924617",
+        "email": "info@r-mtt.de",
+        "opening_hours": "Altmetall-Anlieferung Mo-Fr 08:30-11:30 und 13:00-16:30, Sa 08:30-13:00; Verkauf Mo-Fr 07:30-12:00 und 13:00-17:00, Sa 08:00-12:00",
+        "description": "R. Metall & Truck Trading GmbH (Industriestraße 6, 89188 Merklingen) mit eigener Schrottannahme: Ankauf von Alteisen, Aluminium, Kupfer, Messing, Edelstahl, Altkabel und Autobatterien, Containerdienst, Schrottabholung und Entsorgung; laut Betreiberangabe mehr als 9.000 Tonnen Umsatz pro Jahr, über 80 Jahre Erfahrung, mehr als 450 Container im Umlauf und über 10.000 Quadratmeter Betriebsfläche. Ankaufkurse werden nicht öffentlich veröffentlicht, sie sind tagesaktuell und telefonisch oder per Anfrage zu erfragen.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://rmetall.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d8609b6181654a82fdfb0dcee4010adb23eaf661ec43ebf5ef4a285353e3605c",
+      "seed_hash": "4b91aec50fd85b4d",
+      "geo": [
+        48.5113,
+        9.755
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\", \"Sa\"], \"time_windows\": [\"08:30-11:30\", \"13:00-16:30\"], \"min_quantity_kg\": 1, \"conditions\": \"Selbstanlieferung von Schrott und Abfällen am Standort Industriestraße 6, 89188 Merklingen; Altmetall-Anlieferung Mo-Fr 08:30-11:30 und 13:00-16:30 Uhr, Sa 08:30-13:00 Uhr, Anmeldung zuerst im Anmeldebüro; angenommen werden Eisenschrott, Aluminium, Kupfer, Messing, Edelstahl, Altkabel und Autobatterien mit Vergütung teilweise ab dem 1. Kilo, Abfälle wie Altholz, Papier/Pappe, Gewerbe- und Haushaltsabfälle, Sperrmüll, Grüngut, Erdaushub, Bauschutt und Baumischabfall erst ab 200 kg; Wiegebereich 2 bis 50.000 kg (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Schrottabholung für Betriebe und größere private Schrottmengen mit Verladung nach Absprache, Containerdienst für Baustelle, Entrümpelung und Betrieb (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-offenburg-leber-a-rohstoffe-schrotthandel",
+      "values": {
+        "name": "August Leber Rohstoffe Handelsgesellschaft mbH",
+        "city": "Offenburg",
+        "street": "Am Güterbahnhof 22",
+        "postcode": "77652",
+        "phone": "+49 781 9260-0",
+        "email": "info@leberrohstoffe.com",
+        "opening_hours": "Büro Mo-Fr 07:30-12:00 und 13:00-17:00; Lager Mo-Fr 07:30-12:00 und 13:00-16:30",
+        "description": "August Leber Rohstoffe Handelsgesellschaft mbH (Registergericht Freiburg HRB 470283, Geschäftsführer Raimund Leber und Manfred Leber) am Stammsitz Am Güterbahnhof 22 in 77652 Offenburg: traditionsreicher Schrott- und NE-Metall-Recycler mit rund 150 Mitarbeitern, über 165.000 Quadratmetern Betriebsfläche und rund 500.000 Tonnen erfasster Schrott- und Metallmenge pro Jahr; Standort Offenburg mit 50.000 Quadratmetern, zweiter Standort im Kehler Rheinhafen. Zertifiziert als Entsorgungsfachbetrieb, Altfahrzeug-Demontagebetrieb, ElektroG-Erstbehandlungsanlage sowie ISO 9001 und ISO 14001.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.leberrohstoffe.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0f97ae679503e921c6909a75f97c8e7ac1d8154ccfa164a0fbe33fb0df434c91",
+      "seed_hash": "7a74126786b3d751",
+      "geo": [
+        48.468500000000006,
+        7.943666666666666
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:30-16:30\"], \"conditions\": \"Privat- und Kleinlieferanten können laut Betreiberangabe zwischen 7:30 und 16:30 Uhr anliefern: Alteisen von der alten Waschmaschine bis zu Produktionsabfällen aus dem Maschinenbau, Altauto, Buntmetalle wie Kupfer, Kabel, Messing, Bronze, Alu, Zink, Zinn, Blei, Autobatterien und Edelstahl (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerservice mit Absetzmulden 7, 10 und 15 m3 sowie Abrollcontainern 15 bis 40 m3, Abhol- und Lieferservice mit eigenem Fuhrpark und Speditionspartnern, zusätzlich Bahn- und Schiffstransport (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb\", \"Altfahrzeug-Demontagebetrieb\", \"Erstbehandlungsanlage nach ElektroG\", \"ISO 9001\", \"ISO 14001\"]"
+    },
+    {
+      "slug": "bw-pforzheim-doduco-contacts-and-refining-saxonia-gru",
+      "values": {
+        "name": "DODUCO Contacts and Refining GmbH (Saxonia-Gruppe)",
+        "city": "Pforzheim",
+        "street": "Im Altgefäll 12",
+        "postcode": "75181",
+        "phone": "+49 7231 602-0",
+        "email": "",
+        "opening_hours": "",
+        "description": "DODUCO Contacts and Refining GmbH (HRB 504069 AG Mannheim, Vorstand Dr. Timo Mützel) am Standort Im Altgefäll 12 in 75181 Pforzheim: international zertifizierte Scheideanstalt der Saxonia-Gruppe, Aufarbeitung von edelmetallhaltigen Abfällen (Silber, Gold, Platin, Palladium, Rhodium) über Schmelz-Elektrolyse, chemische Aufarbeitung, Veraschung und Präparation; rund 1.400 Tonnen edelmetallhaltige Produktionsrückstände pro Jahr. Ankauf edelmetallhaltiger Reststoffe nur im B2B-Geschäft, öffentliche Preise werden nicht veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://doduco-contacts.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b50751523e31a549a3b270f3fe1e309ac0e42618be6708948dae9adc20de9b77",
+      "seed_hash": "ccc0ca63208f057c",
+      "geo": [
+        48.886471428571426,
+        8.697842857142858
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-rastatt-76437-autoverwertung-christ",
+      "values": {
+        "name": "Autoverwertung Christ GmbH",
+        "city": "Rastatt 76437",
+        "street": "Zollersbühnstr. 7",
+        "postcode": "76437",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Klärfall: Die im Dossier geführte Rastatt-Adresse Zollersbühnstr. 7 gehört nach OSM und der Betreiber-Website der Grünbacher Autoverwertung GmbH (Rastatt), einem zertifizierten Verwertungsbetrieb mit anerkanntem Demontagebetrieb. Die Autoverwertung Christ GmbH sitzt dagegen in Reilingen (Daimlerstr. 8, 68799, HRB 421344); für einen Christ-Standort in Rastatt gibt es keinen Beleg. Reilinger Kontaktdaten wurden bewusst nicht übernommen.",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://autoverwertung-christ.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "14a11c53631b459b6c2318c50ce7c0e73c67f565134497299d7b77b8a004de00",
+      "seed_hash": "d12fc4e83a42228b",
+      "geo": [
+        48.8585,
+        8.2096
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-schwabisch-hall-74523-secondbuy-second-it-store",
+      "values": {
+        "name": "SecondBuy / Second IT Store GmbH",
+        "city": "Schwäbisch Hall",
+        "street": "Steinbeisweg 1",
+        "postcode": "74523",
+        "phone": "0791 954000-0",
+        "email": "",
+        "opening_hours": "",
+        "description": "Second IT Store GmbH (HRB 738167 Amtsgericht Stuttgart, Geschäftsführung Ramona Rössler) am Standort Steinbeisweg 1 in 74523 Schwäbisch Hall: Onlineshop \"SecondBuy\" für refurbished und geprüfte Gebraucht-Technik (Notebooks, Tablets, PCs, Smartphones, Monitore, Peripherie) mit Gewährleistung, kostenlosem Versand innerhalb Deutschlands und 30 Tagen Rückgaberecht; dazu ein Ankauf von gebrauchter Business-IT ausschließlich von Unternehmen zu Einzelangebot.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://second-it-store.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "76bb7d80b547b2f0365b86dcf4e5bfb64d5537cc23140144170e1894040262b4",
+      "seed_hash": "41f17d42ced434de",
+      "geo": [
+        49.1113,
+        9.7391
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Ankauf gebrauchter Business-Hardware ausschließlich von Unternehmen (Second IT kauft nur Hardware von Unternehmen an); Abbau, sicherer Transport, DSGVO-konforme Datenlöschung und Wiedervermarktung bzw. Recycling aus einer Hand; eine öffentliche Anlieferadresse oder Annahmezeit für Privatpersonen ist nicht veröffentlicht (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Abholung und Abtransport der Hardware beim Kunden werden im Rahmen des Ankauf- und Rückführungsprozesses angeboten, konkrete Konditionen werden nicht veröffentlicht (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-stuttgart-degenkolbe",
+      "values": {
+        "name": "Degenkolbe",
+        "city": "Stuttgart",
+        "street": "Neckartalstraße 225",
+        "postcode": "70376",
+        "phone": "0711 954530",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-16:30, Sa 07:00-13:00",
+        "description": "Degenkolbe Recycling GmbH (HRB 757816 AG Stuttgart, GF Wolfgang Müller und Stephan Karle) im Recyclingpark Neckartal in Stuttgart-Bad Cannstatt: Wertstoffhof und umfangreich genehmigter Entsorgungsfachbetrieb mit Schwerpunkt Papier-, Kartonagen- und Kunststoffrecycling, seit 1919 aktiv; nimmt Wertstoffe von Privatpersonen, Industrie, Gewerbe, Handel und anderen Entsorgungsbetrieben als Abnehmer an und betreibt eine Hochleistungsballenpresse und einen Shredder.",
+        "status": "aktiv",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://www.degenkolbe-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "49bf2a84499137c7d6dacba4e963255cdb809ee1deb995144b55a5d8834e0576",
+      "seed_hash": "b2e1b178fd070d22",
+      "geo": [
+        48.76828,
+        9.186139999999998
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\", \"Sa\"], \"time_windows\": [\"07:00-16:30\"], \"conditions\": \"Generelle Anlieferzeiten laut Betreiber-Startseite Mo-Fr 07:00-16:30 Uhr, Sa 07:00-13:00 Uhr; Anlieferung am Wertstoffhof Neckartalstraße 225; Schrott und Fe-/NE-Metall nach den Annahmebedingungen der Karle-Gruppe (Bewertung nach Sortenbefund, Weigerungskosten bei Fehlwürfen), Details im EfB-Zertifikat (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Entsorgungskonzepte, innerbetriebliche Entsorgungslogistik, Stoffstrommanagement und Fremdverwiegung werden als Dienstleistungen angeboten; eine öffentliche Abholregel für Privatpersonen ist nicht veröffentlicht (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb (Anzeige nach § 53 KrWG, Zertifikat auf der Betreiber-Seite abrufbar)\"]"
+    },
+    {
+      "slug": "bw-ulm-89075-schrott-metallhandel-ulm-rivaldo-venezia",
+      "values": {
+        "name": "Schrott- & Metallhandel Ulm (Rivaldo Venezia)",
+        "city": "Ulm 89075",
+        "street": "Weinbergweg 90",
+        "postcode": "89075",
+        "phone": "+49 731 95087028",
+        "email": "schromet-ulm@web.de",
+        "opening_hours": "",
+        "description": "Containerdienste, Schrott, Metallhandel Ulm UG (Geschäftsführer Rivaldo Venezia, Amtsgericht Ulm) am Standort Weinbergweg 90 in Ulm: An- und Verkauf von Metall- und Schrottabfällen, Annahme von NE-Metallschrott, Eisen- und legiertem Schrott sowie neuen Produktionsabfällen auch in Späneform, Containerdienst von 1 bis 40 Kubikmetern, Demontage und Entkernung; Preise werden ausschließlich auf Anfrage genannt.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.containerdienste-schrott-metallhandel.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4066f8cb8e78e8e246b993318e3122673e7c0eee4aa3407457723a048087a662",
+      "seed_hash": "40968bcffa2c2480",
+      "geo": [
+        48.40493333333333,
+        9.9721
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Annahme aller Schrotte auch in Späneform am Standort Weinbergweg 90, 89075 Ulm; NE-Metallschrott, Eisen- und legierter Schrott sowie neue Produktionsabfälle werden angenommen, die Zusammenarbeit erfolgt mit zertifizierten Fachbetrieben; öffentliche Annahmezeiten werden nicht veröffentlicht (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Container-Wechselsystem mit Abtransport und Entsorgung sowie Abholung von Metallschrott mit dem eigenen Fuhrpark; Container von 1 bis 40 Kubikmetern (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-waldbronn-eisele",
+      "values": {
+        "name": "Eisele",
+        "city": "Waldbronn",
+        "street": "Hohbergstr. 23",
+        "postcode": "76337",
+        "phone": "07243 532986",
+        "email": "",
+        "opening_hours": "",
+        "description": "Eisele Entsorgung & Recycling Entsorgungsfachbetrieb e.K. (Andreas Eisele, HRA 704828 Amtsgericht Mannheim) am Standort Hohbergstraße 23 in 76337 Waldbronn: zertifizierter Entsorgungsfachbetrieb für Erfassung und Entsorgung von Altpapier, Folien, Altholz, Metallen und vertraulichen Dokumenten, Container und Spezialbehälter, Lkw mit Spezialaufbauten; Kunden sind Verlage, Druckereien, Banken, Versicherungen, Discounter, Gemeinden und Vereine.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.eisele-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a08240888d399b86f3a980b7c2d88752e2a6e23ac75d62103e300d8efd70830a",
+      "seed_hash": "2d2c1c55b3dfeb2b",
+      "geo": [
+        48.9183,
+        8.4923
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb (TÜV Rheinland Cert GmbH, Zertifikat 01 400 2300883, Vorgangsnummer ZZET016003892002, ausgestellt 15.01.2025, gültig bis 28.02.2026; Tätigkeit laut Anlage: Sammeln, Befördern, Handeln und Makeln von Druckereiabfällen, NachwV H164000343)\"]"
+    },
+    {
+      "slug": "by-aichach-auduna",
+      "values": {
+        "name": "AUDUNA",
+        "city": "Aichach",
+        "street": "Oberbernbacher Weg 12",
+        "postcode": "86551",
+        "phone": "08251 9382225",
+        "email": "info@auduna.de",
+        "opening_hours": "Fr. 10:00-15:00, Sa. 10:00-15:00, nach Vereinbarung",
+        "description": "Gold- und Altmetallankauf in Aichach (Gold, Silber, Platin, Palladium, Kupfer, Messing, V2A, Alteisen). ANKAUF: Der Betreiber veröffentlicht eine live über eine eigene JSON-Schnittstelle aktualisierte Auszahlungsliste je Feingehalt, Legierung und Materialgruppe. VERKAUF: kein Verkauf von Metallen belegt. GEBÜHREN: keine Gebührenordnung veröffentlicht; Abholung nur nach telefonischer Vereinbarung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://auduna.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c00af31e968face111b7b1f3f175082f94cf769e0be2f356970e1c64f6bc01f7",
+      "seed_hash": "2704826f82e49467",
+      "geo": [
+        48.4576,
+        11.1341
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-aschaffenburg-63739-gold-silber-ankauf-deg",
+      "values": {
+        "name": "Gold & Silber Ankauf Aschaffenburg (DEG e.K.)",
+        "city": "Aschaffenburg",
+        "street": "Steingasse 4",
+        "postcode": "63739",
+        "phone": "06021 37 30 31 0",
+        "email": "",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00; oder nach telefonischer Vereinbarung",
+        "description": "Ankauf von Gold, Silber, Platin, Diamanten, Schmuck, Münzen, Tafelsilber, Zahngold, Barren, Bruchgold und Markenuhren; kein allgemeiner Schrottplatzbetrieb belegt. ANKAUF: mindestens tagesaktueller Ankaufpreis, Barzahlung in der Filiale, bei Postsendung Zahlung per Blitzüberweisung oder Barscheck innerhalb 48 Stunden. VERKAUF: individuelle Trauringe nach Kundenwunsch, ohne Preisliste. GEBÜHREN: Wertanalyse, Abholservice per Werttransport und Rücksendung kostenlos für den Kunden.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.goldankauf-silber.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "21753ddaebb72be56f6dded90cdb1aea52528f205856f1e05e121c1cfd8a3cd0",
+      "seed_hash": "a959f4a4ebeaf907",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Ankauf in der Aschaffenburger Filiale während der veröffentlichten Servicezeiten oder nach telefonischer Vereinbarung.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-barbing-avas-recycling",
+      "values": {
+        "name": "AVAS Recycling GmbH",
+        "city": "Barbing",
+        "street": "Gerstenweg 2",
+        "postcode": "93092",
+        "phone": "09401 539770",
+        "email": "",
+        "opening_hours": "Mo-Do 07.00-12.00 und 13.00-17.00, Fr 08.00-12.00",
+        "description": "Zertifizierter Entsorgungsfachbetrieb für Schrott- und Metallrecycling in Barbing bei Regensburg: Eisen- und Stahlschrott, NE-Metalle, Containerdienst, Abbruch und Entsorgung. ANKAUF: Schrottankauf privat und gewerblich gegen bares Geld, ohne veröffentlichte Preise oder Mindestmengen. VERKAUF: kein Verkauf von Metallen belegt. GEBÜHREN: Containerpreise werden nicht veröffentlicht, die Anfrage erfolgt über das Anfrageformular.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.avas-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3f5a7e86b189a98cf19dcc37b0707a1d6c7e804b46a8e4f52c414f53037b06a9",
+      "seed_hash": "e6f74479b76602c3",
+      "geo": [
+        49.0,
+        12.2
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-donauworth-loacker-recycling",
+      "values": {
+        "name": "Loacker Recycling GmbH",
+        "city": "Donauwörth",
+        "street": "Dillinger Straße 67",
+        "postcode": "86609",
+        "phone": "0906 70696-0",
+        "email": "",
+        "opening_hours": "",
+        "description": "Loacker Recycling GmbH, Standort Donauwörth, Dillinger Straße 67: Warenannahme und Verwertung von Schrott und Metallen, Containersysteme und Barauszahlung. ANKAUF: keine numerischen Ankaufskurse veröffentlicht, die Barauszahlung ist an ein Zeitfenster gebunden. VERKAUF: keine Verkaufspreisliste. GEBÜHREN: keine Tarifbeträge veröffentlicht, für einzelne Abfallarten verlangt die Landkreis-Liste einen Reinigungsbericht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://loacker-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5d4a85f565e103a4d99ff48c0c9a35f37f3d95d03e5e091f59acd9c9b5b9f464",
+      "seed_hash": "7a4edfba7622f6e4",
+      "geo": [
+        48.718,
+        10.7793
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-furstenfeldbruck-eisen-rudi-recycling",
+      "values": {
+        "name": "Eisen Rudi Recycling GmbH",
+        "city": "Fürstenfeldbruck",
+        "street": "Am Fohlenhof 1",
+        "postcode": "82256",
+        "phone": "08141 888 999 0",
+        "email": "",
+        "opening_hours": "Mo–Do 07:30–12:00/12:30–16:00, Fr 07:30–13:00",
+        "description": "Autoverwertung, Schrott- und Metallhandel, Holz- und Gewerbeabfallverwertung sowie Containerdienst in Fürstenfeldbruck. ANKAUF: Buntmetalle ab 10 kg und Eisenschrott ab 200 kg werden zu tagesaktuellen Börsenpreisen angekauft; für ein vollständiges Fahrzeug werden 50,00 EUR vergütet, die Abholung erfolgt gegen Aufpreis. VERKAUF: kein Verkauf von Metallen belegt. GEBÜHREN: Containerpreise richten sich nach Abfallart und Gewicht und werden nur auf Anfrage angeboten.",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.eisen-rudi.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "78548c52c879afd751755ecbb8cafa56db89b2a0f476bdceb2a112502645cabe",
+      "seed_hash": "3f641705b6639831",
+      "geo": [
+        48.179,
+        11.2547
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-gunzburg-baur-sohne",
+      "values": {
+        "name": "Baur & Söhne GmbH",
+        "city": "Günzburg",
+        "street": "Im Grubenfeld 1",
+        "postcode": "89312",
+        "phone": "08221 5009",
+        "email": "info@guenz-kompost.de",
+        "opening_hours": "Mo-Fr 08:00-12:00 & 13:00-17:00, Sa 09:00-13:00",
+        "description": "Baur & Söhne GmbH, Zweigstelle Günz-Kompost Wertstoffe in Günzburg-Deffingen: Wertstoffhof mit Kompostierung, Abfallentsorgung und Verkauf recycelter Baustoffe. ANKAUF: kein Ankauf von Schrott oder Metallen belegt. VERKAUF: Baustoffgemische aus recyceltem Bauschutt, Humus, Rindenmulch und mineralische Baustoffe ohne €/t-Angabe. GEBÜHREN: kein Tarif; bei Abkippen vor Ort und Mitnahme des Containers reduziert sich der Lieferpreis um 25 Euro.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://baur-und-soehne.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3ef3500e66d43ab68490f19f95ef5eed57b67031eb12b69f11e7579b0562712e",
+      "seed_hash": "d52194730a035395",
+      "geo": [
+        48.456,
+        10.277
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-hauzenberg-schumpa",
+      "values": {
+        "name": "SCHUMPA Schrott u. Metalle GmbH",
+        "city": "Hauzenberg",
+        "street": "Glotzing 1",
+        "postcode": "94051",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrott- und Metallhandel mit Containerangebot in Hauzenberg-Glotzing (SCHUMPA GmbH, HRB 6623 Passau). Öffnungszeiten, öffentliche Annahmebedingungen und Vergütung sind noch zu erfragen.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrott-schumpa.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "dd27ab333aa585bda3c4db3d911d8c3da5903b9eacedef7386189d4901aa7b33",
+      "seed_hash": "7c994e82f4801435",
+      "geo": [
+        48.6496,
+        13.6265
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-hirschaid-hermann-korn",
+      "values": {
+        "name": "Hermann Korn e.K.",
+        "city": "Hirschaid",
+        "street": "Jägerstraße 2",
+        "postcode": "96114",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Laut Betreiber Ankauf und Recycling von Schrott und Metallen, Recyclinghof und Abholung großer Mengen; Aktualität der Betriebsbedingungen in Prüfung.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.h-korn.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "47bc1c0218b8cb930327a8ba0517a058b732e8f4b77976cfa275ec3b43ce2f52",
+      "seed_hash": "a5817149c51cbcc9",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-kaufbeuren-schieler-schrott-und-metallhandel",
+      "values": {
+        "name": "Schießler Schrott- und Metallhandel",
+        "city": "Kaufbeuren",
+        "street": "Buronstraße 66",
+        "postcode": "87600",
+        "phone": "08341 81163",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrott- und Metallhandel (Einzelunternehmen Thomas Schießler) in Kaufbeuren mit Annahme privat und gewerblich, Containerservice und Abholung mit Greiferfahrzeug. ANKAUF: Tagespreis je Material, Vergütung ab 100 kg Schrottsorten bzw. ab 5 kg Buntmetallen, Bleibatterien ab 42 kg. VERKAUF: Verkauf von Nutzeisen, Nutzeisen V2A Rohren, Moniereisen/Baustahl und Trägermaterial, ohne Preisliste. GEBÜHREN: keine Tarife veröffentlicht.",
+        "status": "unbekannt",
+        "trader_type": "metallhaendler",
+        "website": "https://www.schiessler-schrott-metalle.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "672ada30c784c3a87a11f65b8f890e2d735a337e3d4ddcf9f21f8dac42fea0d2",
+      "seed_hash": "408dc27c0a527b18",
+      "geo": [
+        47.8824,
+        10.6219
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-mettenheim-baumert",
+      "values": {
+        "name": "Baumert",
+        "city": "Mettenheim",
+        "street": "Harthausen 13",
+        "postcode": "84562",
+        "phone": "08631 1668520",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrottplatz und Entsorgung in Mettenheim mit Altmetallangeboten und Altautoverwertung; DEKRA führt den Betrieb als Demontagebetrieb für Altfahrzeuge. ANKAUF: Altmetall aller Art wird angenommen, die Betreiberseite nennt \"transparente Preise\" ohne Beträge und ohne Mindestmengen. VERKAUF: kein Verkauf belegt. GEBÜHREN: keine Tarife veröffentlicht, der Containerdienst wird ohne Preisangabe geführt.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://entsorgung-baumert.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "541a15fa9ab752cce7846bb6cbfd09de0fff4e9967416b700423759375e3ebf4",
+      "seed_hash": "4fd070370e27d164",
+      "geo": [
+        48.2667,
+        12.4667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-miltenberg-63897-schmuck-filbert",
+      "values": {
+        "name": "Schmuck Filbert (Markus Filbert e.K., Filiale Miltenberg)",
+        "city": "Miltenberg 63897",
+        "street": "Hauptstr. 138",
+        "postcode": "63897",
+        "phone": "09371 7875",
+        "email": "",
+        "opening_hours": "",
+        "description": "Juwelier und Goldankauf, Filiale Miltenberg in der Fußgängerzone. ANKAUF: Altgold, Schmuck, Medaillen, Zahngold (auch mit Zähnen) sowie alles, was Gold, Silber oder Platin enthält, Auszahlung bar, in Zahlung genommen oder als Gutschein. VERKAUF: Schmuck, Uhren und Trauringe, Preise nur im Shop, keine öffentliche Preisliste. GEBÜHREN: keine Gebührenordnung veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.schmuck-filbert.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "77efe7f32606ca9a57ee897791bb5b4d0efb3c153dc92904f2d90b51c2aaf453",
+      "seed_hash": "5d23ebb8b80a11c8",
+      "geo": [
+        49.7045,
+        9.2673
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-muenchen-riem-pro-aurum-goldhaus",
+      "values": {
+        "name": "pro aurum GmbH Hauptsitz (Goldhaus)",
+        "city": "München",
+        "street": "Joseph-Wild-Straße 12",
+        "postcode": "81829",
+        "phone": "+49 89 444 584-0",
+        "email": "",
+        "opening_hours": "Mo 09:00-12:30/14:00-17:30, Di 09:00-12:30/14:00-17:30, Mi 09:00-12:30, Do 09:00-12:30/14:00-19:00, Fr 09:00-17:30; verkaufsoffene Samstage 09:00-14:00",
+        "description": "Hauptsitz und öffentliches Goldhaus mit An- und Verkauf von Anlageedelmetallen sowie Altgoldservice. ANKAUF: Altgold, Schmuck, Zahngold, Barren, Münzen und Medaillen werden angekauft, in Kleinmengen mit Sofortauszahlung montags bis freitags, bei größeren Mengen über die Scheideanstalt mit Schmelzzertifikat in rund zwei Wochen. VERKAUF: die Onlineshop-Preisliste für Gold, Silber, Platin und Palladium nennt je Produkt An- und Verkaufspreis, zuletzt aktualisiert am 30.10.2026 um 16:00:42. GEBÜHREN: Abholservice zusätzlich 29 Euro bis zu einem Einlieferungswert von 25.000 Euro.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.proaurum.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b4068c94716a13a2af0c1892a835e2421231cf4d0b72d10f332fba8bad74325c",
+      "seed_hash": "b1aab5adb79596b8",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-muhldorf-84453-mitsching-av",
+      "values": {
+        "name": "Mitsching AV",
+        "city": "Mühldorf 84453",
+        "street": "Bischof-von-Ketteler-Str. 6",
+        "postcode": "84453",
+        "phone": "08631 2944",
+        "email": "",
+        "opening_hours": "Mo-Fr 7:30-12 & 13-17:30, Sa 8-12",
+        "description": "Autoverwertung Lars Mitsching in Mühldorf am Bischof-von-Ketteler-Straße 6. ANKAUF: keine Preise und keine Materialangaben öffentlich, die Domain mitsching.net ist nur ein Hosting-Platzhalter ohne Geschäftsangaben. VERKAUF: kein Verkauf belegt. GEBÜHREN: keine Tarife veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://mitsching.net",
+        "website_status": "tot"
+      },
+      "notes_sha256": "2c2ad33b1236dc807e625a44adc4b16433fcebf0504009b1cfe1e6641234bc04",
+      "seed_hash": "7b9be6002d574792",
+      "geo": [
+        48.2503,
+        12.5215
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-munchen-eiber-kunz-schrott-metall-recycling",
+      "values": {
+        "name": "Eiber & Kunz Schrott Metall Recycling GmbH",
+        "city": "München",
+        "street": "Am Neubruch 9",
+        "postcode": "80997",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrott- und Metallrecycling (eiber & kunz Schrott Metall Recycling GmbH, HRB 94709 AG München) am Am Neubruch 9 in München. ANKAUF: Ankauf von Stahl- und NE-Metallen, Preise werden nicht veröffentlicht. VERKAUF: kein Verkauf belegt. GEBÜHREN: keine Tarife veröffentlicht; das auf der Website gezeigte Entsorgungsfachbetrieb-Zertifikat ist am 21.11.2025 abgelaufen.",
+        "status": "unbekannt",
+        "trader_type": "metallhaendler",
+        "website": "https://eiber-kunz.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2ec7e3c59d6927a31d8e1111e9bca80b9c161c4bd78704c4eb1739886557c444",
+      "seed_hash": "71cbe3f13085798a",
+      "geo": [
+        48.143697333333336,
+        11.559808
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-nurnberg-kornburg-franz-pesteritz",
+      "values": {
+        "name": "Franz Pesteritz",
+        "city": "Nürnberg-Kornburg",
+        "street": "Spielhagenstr. 11",
+        "postcode": "90455",
+        "phone": "09129/2868-0",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-09:00, 09:30-12:00, 12:30-15:30",
+        "description": "Franz Pesteritz GmbH & Co. KG, Filiale Kornburg, Schrottankauf und Abholung für Privat und Gewerbe. ANKAUF: Schrott und Metalle werden angekauft, Preise werden nicht veröffentlicht; laut AGB erfolgt die Preisberechnung in Euro, nachrangig in USD, mit Verzugszinsen von 8 Prozent. VERKAUF: kein Verkauf belegt. GEBÜHREN: keine Tarife veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.schrott-pesteritz.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5e0dc21ffc83b95404bb06ff6e01e8fa021fc91be3f288fa7b7ebd9fd3f2a3e7",
+      "seed_hash": "e0a06de44bc26cc1",
+      "geo": [
+        49.44398214285714,
+        11.078528571428572
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-nurnberg-scholz-recycling-derichebourg-gruppe",
+      "values": {
+        "name": "Scholz Recycling GmbH (Derichebourg-Gruppe)",
+        "city": "Nürnberg",
+        "street": "Horneckerweg 25",
+        "postcode": "90408",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Scholz Recycling GmbH (Derichebourg-Gruppe), Standort Nürnberg am Horneckerweg 25: Industrierecycling für Stahl- und NE-Metalle, zertifizierter Entsorgungsfachbetrieb. ANKAUF: kein öffentlicher Preis, kein Ankaufsportal und keine Preisliste; die Anlieferung läuft über die Selbstanlieferer-Strecke des Konzerns. VERKAUF: kein Verkauf belegt. GEBÜHREN: keine Tarife veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e29723aed0ac8aeb0e6b5064e4668fd90efed0483c744872af5d567c56261502",
+      "seed_hash": "87ac2e94cd211014",
+      "geo": [
+        49.44398214285714,
+        11.078528571428572
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-plattling-avas-filiale",
+      "values": {
+        "name": "AVAS-Filiale",
+        "city": "Plattling",
+        "street": "Lagerhausstr. 21",
+        "postcode": "94447",
+        "phone": "09931-89 00 40",
+        "email": "",
+        "opening_hours": "Mo-Do 07.00-12.00 und 13.00-17.00, Fr 08.00-12.00",
+        "description": "AVAS Metallrecycling GmbH, Standort Plattling, Lagerhausstr. 21: Schrottankauf und Metallrecycling, Containerdienst, Abbruch und zertifizierte Altautoannahme. ANKAUF: Altmetalle und Schrott werden angenommen, Preise werden nicht veröffentlicht. VERKAUF: kein Verkauf von Metallen belegt. GEBÜHREN: Containerpreise werden nicht veröffentlicht, die Bestellung läuft über das Anfrageformular.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://avas-metallrecycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "81d13f5a50da31405ce9710b87e6ad5b42050000e4e527d53d704d271be90010",
+      "seed_hash": "fa2df4632262a1e3",
+      "geo": [
+        48.7787,
+        12.8751
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-roth-blank",
+      "values": {
+        "name": "Blank",
+        "city": "Roth",
+        "street": "Welserstr. 9",
+        "postcode": "91154",
+        "phone": "09171 4316",
+        "email": "",
+        "opening_hours": "Di-Fr 07:00-12:00, 13:00-17:00; Sa 07:00-12:00; Mo geschlossen",
+        "description": "Altmetallhandel, Familienunternehmen (Michael Blank, 5. Generation), in Roth; NE-Metalle, Eisenschrott, Containerdienst und Recycling. ANKAUF: NE-Metalle werden ab 5 kg, Eisenschrott ab 100 kg vergütet, kleinere Mengen werden kostenlos abgegeben. VERKAUF: kein Verkauf von Metallen belegt. GEBÜHREN: keine Gebührenordnung veröffentlicht, der Containerdienst wird ohne Preisangabe geführt.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.schrott-blank.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "17bd27d7d548f3273d1b7a674f06d95535402039d94833e08d9b541b57958601",
+      "seed_hash": "0bd32c00dd923089",
+      "geo": [
+        49.2597,
+        11.1457
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-schaftlarn-frisch-recycling",
+      "values": {
+        "name": "Frisch Recycling GmbH",
+        "city": "Schäftlarn",
+        "street": "Kloster Schäftlarn 3 a",
+        "postcode": "82067",
+        "phone": "08178/9550-03",
+        "email": "frisch-recycling@t-online.de",
+        "opening_hours": "Büro Mo-Do 8-12 und 13-17, Fr 8-12 und 13-16.30; Anlieferung Mo-Do 8-12 und 13-16.30, Fr 8-12 und 13-16",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://frisch-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ed14bfa1cfef6a3785767530e6269d486a3dc0b6327557dbb0a7dee52efe9ab0",
+      "seed_hash": "b606e70fcd4d19cb",
+      "geo": [
+        47.977364,
+        11.4674728
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-schweinfurt-97424-econocom-remarketing-bb-net",
+      "values": {
+        "name": "Econocom Remarketing (bb-net)",
+        "city": "Schweinfurt",
+        "street": "Lissabonstr. 4",
+        "postcode": "97424",
+        "phone": "+49 (0) 9721 646940",
+        "email": "info.ere@econocom.com",
+        "opening_hours": "",
+        "description": "Econocom Remarketing GmbH (ehem. bb-net media GmbH, HRB 3873 AG Schweinfurt) in der Lissabonstraße 4: Ankauf gebrauchter Business-IT, professionelle Aufbereitung und Wiederverkauf von Refurbished-Hardware. ANKAUF: Ankaufspreise werden marktgerecht und transparent je Gerätezustand festgelegt, ohne veröffentlichte Preisliste. VERKAUF: Premium-Refurbished-IT bis zu 80 Prozent unter der ehemaligen UVP, Margen von bis zu 30 Prozent. GEBÜHREN: keine Tarife veröffentlicht. WEEE-Reg.-Nr. DE 44966278.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.econocom-remarketing.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e39d8e965e993ef4d1905f93ff353965a8eae4ef169e6692a96ffffae70b0dab",
+      "seed_hash": "5df6cdfdf34fc220",
+      "geo": [
+        50.045874999999995,
+        10.227625
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-wurzburg-zellerau-gramet",
+      "values": {
+        "name": "GRAMET GmbH & Co. KG",
+        "city": "Würzburg-Zellerau",
+        "street": "Daimlerstr. 9",
+        "postcode": "97082",
+        "phone": "0931 207 815 80",
+        "email": "",
+        "opening_hours": "",
+        "description": "GRAMET GmbH & Co. KG, Würzburg-Zellerau: B2B-Spezialist für den Einkauf und die Aufbereitung von NE-Metallen, Superlegierungen, Spänen, Schlämmen und Festmaterial, mit Rohstoffbehandlungsanlage nach BImSchG und Entsorgungsfachbetrieb nach KrWG. ANKAUF: Einkauf in Klein- und mittelgroßen Chargen, Preisauskünfte in der Regel sofort, Barankauf nur nach Termin und Ausweiskontrolle, Analysen kostenfrei. VERKAUF: Rohstoffverkauf an Industrie, Forschung und Handel. GEBÜHREN: keine Tarife veröffentlicht, die Preisberechnung erfolgt laut AGB in Euro, nachrangig in USD, mit Verzugszinsen von 8 Prozent.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.gramet.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "da316a1aac5371bfd8959cb558519a00fc8ad7febe3ec433de3bf896c141fb8a",
+      "seed_hash": "d03dbb12130797d8",
+      "geo": [
+        49.7920625,
+        9.939625
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-wolfhagen-tobias-meyer",
+      "values": {
+        "name": "Tobias Meyer",
+        "city": "Wolfhagen",
+        "street": "Siemensstr. 3",
+        "postcode": "34466",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "311387396394c6c654a03180b5cb1532849ee3b92ba7216c684d48921857c12d",
+      "seed_hash": "f1c1eb75a3d82760",
+      "geo": [
+        51.3261,
+        9.1702
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-altenglan-joa-altenglan",
+      "values": {
+        "name": "Joa Altenglan",
+        "city": "Altenglan",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "c8acef5b4edf740486a684c759e37c903584cb3bcdd4ed483454f9c9aac01127",
+      "seed_hash": "bf04d4af0cb7f8b4",
+      "geo": [
+        49.55,
+        7.4667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-andernach-dwr-weiblech",
+      "values": {
+        "name": "DWR Weißblech",
+        "city": "Andernach",
+        "street": "Koblenzer Str. 141",
+        "postcode": "56626",
+        "phone": "+49 211 3106290",
+        "email": "",
+        "opening_hours": "",
+        "description": "DWR - Deutsche Gesellschaft für Weißblechrecycling mbH (HRB 15337 AG Koblenz, GF Dr. Johannes Emundts, USt-Id DE811832439), Tochterunternehmen der thyssenkrupp Rasselstein GmbH; Verwerter von Weißblech-Verpackungsschrotten aus der Entsorgung privater Haushalte seit 2003, Bündelung der über Rücknahmesysteme wie \"Grüner Punkt\" erfassten und sortierten Weißblechverpackungen. Sitz Andernach, betreiberveröffentlichte Kontaktanschrift Graf-Adolf-Str. 20, 40212 Düsseldorf; keine öffentliche Privatannehme von Schrott beworben, keine Preise veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://rdwr.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bc4d1194295bd1880f293c2972e79bff8c2bd0b606e7c4e00808149e16e146d3",
+      "seed_hash": "78b55b933e72d809",
+      "geo": [
+        50.4311,
+        7.4042
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-annweiler-dubovic-annweiler",
+      "values": {
+        "name": "Dubovic Annweiler",
+        "city": "Annweiler",
+        "street": "",
+        "postcode": "76855",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "a286133ee8aa6e3cd4ae93c89959ae51f2e505a9841a59362ebb11ac6582e5b0",
+      "seed_hash": "ed1529b969211ec5",
+      "geo": [
+        49.2061,
+        7.9753
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-billigheim-ingenheim-s-ohlinger-steel-men",
+      "values": {
+        "name": "S. Ohlinger / Steel-Men GmbH",
+        "city": "Billigheim-Ingenheim",
+        "street": "Europahof 1",
+        "postcode": "76831",
+        "phone": "0800-1003838",
+        "email": "ohlinger@steel-men.de",
+        "opening_hours": "",
+        "description": "Steel-Men GmbH (GF S. Ohlinger, HRB 30952 AG Landau, USt-Id DE276868959), Familienbetrieb seit 1948 mit Sitz der Geschäftsanschrift in Europahof 1, 76831 Billigheim-Ingenheim und Registereintrag Marienring 13, 76829 Landau in der Pfalz. Leistungen: Entrümpelung, Tatortreinigung, Asbest-Entsorgung als zertifizierter Fachbetrieb nach TRGS 519 und 521, Industrie-Demontage, Immobilien; Standorte Neustadt an der Weinstraße, Bad Dürkheim, Haßloch, Landau, Speyer, Kaiserslautern. Ein Ankauf von Alteisen oder Altmetallen ist auf der Betreiberseite nicht beworben.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.ohlinger-neustadt.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b27d6998dd09d318ff2f54db37e1fcbaff91b474449f1725ca2ab82ed5994967",
+      "seed_hash": "a16b9cf6504284b7",
+      "geo": [
+        49.1367,
+        8.0906
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-florsheim-ulman-laukert-ober-florsheim",
+      "values": {
+        "name": "Ulman/Laukert Ober-Flörsheim",
+        "city": "Ober-Flörsheim",
+        "street": "Stetter Str. 4",
+        "postcode": "55234",
+        "phone": "0176 24571800",
+        "email": "laukert86@gmail.com",
+        "opening_hours": "Mo-So 08:00-22:00",
+        "description": "GLL Garten- und Landschaftbau Laukert, Stetter Str. 4, 55234 Ober-Flörsheim, Hausmeisterservice mit Garten- und Landschaftsbau, Haushaltsauflösung und Entrümpelung, Abriss und Entkernung. Schrotthandlung als Nebenleistung: Altmetall wird von Haushaltsgeräten bis Metallresten entgegengenommen, Preise werden nicht veröffentlicht; das Heraustragen von Kühlschränken erfolgt nur gegen eine Gebühr. Einzelunternehmen ohne Registereintrag, Tel. 0176 24571800, Mo bis So 08:00-22:00 Uhr.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://gll-floersheim.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "df402bab7f68456582a0a94c91e51b477dbed3a25608581029a75aba16842eaf",
+      "seed_hash": "c8eeaef793f5257e",
+      "geo": [
+        50.0131,
+        8.4278
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-ingelheim-kornely",
+      "values": {
+        "name": "Kornely",
+        "city": "Ingelheim",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "501f6655ebb85d100255280afb128c75471e4ee4d247c0d87595a6710a67f77d",
+      "seed_hash": "552ca1faedb9d9e0",
+      "geo": [
+        49.9708,
+        8.0588
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-kettig-56220-fogolin",
+      "values": {
+        "name": "FOGOLIN",
+        "city": "Kettig",
+        "street": "In den Villen 95",
+        "postcode": "56220",
+        "phone": "02637 600255",
+        "email": "info@fogolin-gmbh.de",
+        "opening_hours": "",
+        "description": "FOGOLIN GmbH mit Sitz/Kontakt in Kettig; laut Betreiber Ankauf von FE-Schrott und NE-Metallen sowie Containerdienst. Konkrete Annahmestelle noch zu klären; auf den am 18.10.2026 geprüften Seiten keine bezifferten Ankaufskurse.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://fogolin-gmbh.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1fe705108af480ebfb5a3fec7d608cda1b5158ee80187abe4d22dea7423f4934",
+      "seed_hash": "cf25da54fcdd7ef5",
+      "geo": [
+        50.4,
+        7.4667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-koblenz-tsr-recycling-nl-koblenz",
+      "values": {
+        "name": "TSR Recycling (NL Koblenz)",
+        "city": "Koblenz",
+        "street": "Hans-Böckler-Straße 16",
+        "postcode": "56070",
+        "phone": "+49 261 988980",
+        "email": "administration.koblenz@tsr.eu",
+        "opening_hours": "Mo–Do 07:00–12:00 und 12:30–15:30; Fr 07:00–12:30",
+        "description": "Koblenzer Standort der TSR Deutschland GmbH & Co. KG mit Schrott-, Altmetall- und Kabelankauf für Privat- und Gewerbekunden, Abholung, Containerdienst und Demontage.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "85b6e486cb2b1f88dfa4771e2bf3ebd40fbab43f09165b07db6dee6926b9e61c",
+      "seed_hash": "94a7a421a7d696ef",
+      "geo": [
+        50.354014285714285,
+        7.5774
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:00-12:00\", \"12:30-15:30\"], \"conditions\": \"Anlieferung ohne Voranmeldung am Standort Hans-Böckler-Straße 16, 56070 Koblenz; zuerst Eingangsbereich mit der Fahrzeugwaage, Ausweisdokument zur Adressverifikation erforderlich; Begutachtung, Sortierung und separate Verwiegung aller Metallarten; für kleinteiliges, durchmischtes Material wird ein Mischpreis definiert; Abrechnung mit dem tagesaktuellen Preis bzw. dem ermittelten Mischpreis, Auszahlung in bar oder per Überweisung. Quelle: Betreiber-Website Privatkunden und Standortseite, Abruf 30.10.2026.\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Abholung von Schrott, Altmetall und Kabelresten nach Bedarf sowie Containerdienst für größere Mengen, Demontagen; die Efb-Anlage 1 bescheinigt für den Standort Koblenz Sammeln und Befördern (Containerdienst und Stückguttransporte) weltweit. Quelle: Betreiber-Standortseite und Efb-Zertifikat ZZEE002002304009, Abruf 30.10.2026.\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, Zertifikat Nr. 0690 der EdDE Entsorgergemeinschaft der Deutschen Entsorgungswirtschaft e.V., Vorgangsnummer ZZEE002002304009, Prüfungsdatum 27.11.2025, Ausstellungsdatum 17.02.2026, gültig bis 26.05.2027; Anlage 1: TSR Deutschland GmbH & Co. KG, Region Südwest I, Niederlassung Koblenz, Hans-Böckler-Straße 16, 56070 Koblenz; zertifizierte Tätigkeiten Sammeln (2.1.2 weltweit) und Befördern (2.2.2 weltweit), Kennnummer nach § 28 NachWV E978T03206, Lagern, Behandeln, Verwerten, Handeln und Makeln im Anlagenteil nicht angekreuzt; laut amtlichem Fachbetrieberegister (Auszug 11.08.2026) am Standort Hans-Böckler-Straße 16 dagegen Lagern und Behandeln\", \"Qualitätsmanagement gemäß DIN EN ISO 9001:2015, autorisierter Sammelpartner im AIUIF e.V. und Energiemanagementsystem gemäß DIN EN ISO 50001:2018 (Zertifikats-Downloads auf der Betreiber-Standortseite, Abruf 30.10.2026)\"]"
+    },
+    {
+      "slug": "rp-ludwigshafen-daud",
+      "values": {
+        "name": "Auto-Daud Autorecycling e.K.",
+        "city": "Ludwigshafen",
+        "street": "Rampenweg 18",
+        "postcode": "67065",
+        "phone": "0621 543662",
+        "email": "info@auto-daud.de",
+        "opening_hours": "Mo-Fr 09:00-12:00 und 13:00-17:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.auto-daud.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1bf6cde0bcaa4f952a9ed5e8ce3b1bcb796a02211a7c5290dffc4c50bdbd7027",
+      "seed_hash": "8b0f1306b6deaf94",
+      "geo": [
+        49.4866,
+        8.418099999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-ludwigshafen-entsorgungsbetrieb-muller",
+      "values": {
+        "name": "Entsorgungsbetrieb Müller",
+        "city": "Ludwigshafen",
+        "street": "Friedrich-Profit-Str. 24",
+        "postcode": "67063",
+        "phone": "0179 8477171",
+        "email": "info@ebm-ludwigshafen.de",
+        "opening_hours": "Mo-Fr 08:00-17:00, Sa 09:00-17:00",
+        "description": "Entsorgungsbetrieb Müller Ludwigshafen (Inhaber Andreas Müller, Steuernummer 27/118/85894, Finanzamt Ludwigshafen), Friedrich-Profitstr. 24, 67063 Ludwigshafen. Leistungen: Anlagenrückbau und Metallverwertung, Industrie-Demontage, Abbruch und Abriss, Schneidbrenner- und Öltankarbeiten, Asbest- und KMF-Demontage nach TRGS 519, Haushaltsauflösung und Entrümpelung. Die Schrottabholung ist kostenlos, Metall ohne übermäßige Anhaftung wird kostenlos mitgenommen; Elektrogeräte, Sperrmüll, Altreifen und isolierte Sandwichplatten werden nicht mitgenommen. Gebührenpflichtige Dienstleistungen werden nach schriftlicher Auftragsbestätigung berechnet, Tarife sind nicht veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "mobil",
+        "website": "https://ebm-ludwigshafen.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "125929ad93b4cecfe1a5ddcd466fbbd7fa5372607b7bf62d5e752e11c54817a9",
+      "seed_hash": "eeb1d6b5f7ce13ed",
+      "geo": [
+        49.4866,
+        8.418099999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-ludwigshafen-theo-steil-nl-ludwigshafen",
+      "values": {
+        "name": "Theo Steil GmbH (NL Ludwigshafen)",
+        "city": "Ludwigshafen",
+        "street": "Inselstraße 17",
+        "postcode": "67065",
+        "phone": "+49 621 685607-0",
+        "email": "info@steil.de",
+        "opening_hours": "Annahme Mo–Fr 07:00–16:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.steil.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "134deddd9b1c0b4a4eeaa0bc9761dbd14e52e3239ca98d6cc9a007eee92e87c5",
+      "seed_hash": "43876d2ec01e5be5",
+      "geo": [
+        49.4866,
+        8.418099999999999
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:00-16:00\"], \"conditions\": \"Annahme am Standort Inselstraße 17, 67065 Ludwigshafen werktags 07:00-16:00 Uhr, Ladezeiten 07:00-15:00 Uhr, Pause 12:00-13:00 Uhr; spaetere Ladetermine sind abzustimmen. Der Efb-Status des Standorts Inselstraße 19 beschränkt sich laut Zertifikat 2026-0200S auf Lagern und Behandeln. Quelle: Betreiber-Standortseite und Efb-Schmuckzertifikat, Abruf 30.10.2026.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG laut Efb-Schmuckzertifikat der ZN ZertifizierungsNetzwerk GmbH (Zertifikatsnummer 2026-0200S, Originalzertifikat Nr. 2026-0200, Vorgangsnummer ZZHT010001532016 des eEFBV-Zertifiziererportals, letzter Tag der Prüfung 29.04.2026, gültig vom 10.07.2026 bis 28.10.2027); zertifizierter Standort: Theo Steil GmbH Schrott- und Metallgroßhandel, Inselstraße 19, 67065 Ludwigshafen, Tätigkeit Lagern und Behandeln\", \"Weitere Zertifikate laut Betreiber-Standortseite: Energiemanagementsystem ISO 50001:2018, Arbeitsschutzmanagement ISO 45001, Qualitätsmanagement ISO 9001; im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist die Theo Steil GmbH für Ludwigshafen am Rhein nicht geführt\"]"
+    },
+    {
+      "slug": "rp-mainz-mombach-h-l-r-rohstoffhandel",
+      "values": {
+        "name": "H.L.R. Rohstoffhandel GmbH",
+        "city": "Mainz-Mombach",
+        "street": "Industriestraße 1-3",
+        "postcode": "55120",
+        "phone": "06131 215857",
+        "email": "info@hlr-rohstoffhandel.de",
+        "opening_hours": "Mo-Fr 08:00-16:00, Sa 08:00-12:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.hlr-rohstoffhandel.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "38505bb7797a955391453376672d9365a7822d599c2af10d8b52232e5c1222dc",
+      "seed_hash": "525b7dc8ea1a839b",
+      "geo": [
+        49.992563636363634,
+        8.248863636363636
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\", \"Sa\"], \"time_windows\": [\"08:00-16:00\", \"08:00-12:00\"], \"conditions\": \"Anlieferung ohne Termin auf dem Lager der Filiale Industriestraße 1-3, 55120 Mainz, werktags 08:00-16:00 Uhr und samstags 08:00-12:00 Uhr; Begleitung durch das Personal, Sortierung und Bewertung, Auszahlung gegen Aufstellung. Angekauft werden Stahlschrott, Mischschrott, Industrie- und Abbruchschrott, Buntmetalle wie Kupfer, Messing, Aluminium, Kabel und Edelstahl sowie Bleibatterien, Erdkabel und Katalysatoren; Ankaufspreise werden nicht veröffentlicht, die Vergütung erfolgt zum Tageshöchstpreis auf Anfrage. Quelle: Betreiber-Website Standort Mainz, Eisenschrott und Buntmetalle, Abruf 30.10.2026.\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Schrottabholung bei Kunden vor Ort, Containerdienst mit Mulden und Containern sowie Demontage, Rückbau, Abbruch und Entkernung. Quelle: Betreiber-Website Standort Mainz und Leistungsübersicht, Abruf 30.10.2026.\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-neuwied-block-keusch-schrott-metallhandel",
+      "values": {
+        "name": "Keusch Schrott- & Metallhandel",
+        "city": "Neuwied-Block",
+        "street": "Meerheck 8",
+        "postcode": "56566",
+        "phone": "02631 34309-38",
+        "email": "mail@schrotthandel-keusch.de",
+        "opening_hours": "Mo-Sa 08:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://keusch-schrotthandel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "61ea0350a8f565b1182c93aa3d39fc573bbf0922fecc4bf3cd1081b12b3434a4",
+      "seed_hash": "b3883689cfc0118a",
+      "geo": [
+        50.442,
+        7.4925
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-rivenich-hutmacher-rivenich",
+      "values": {
+        "name": "Hutmacher Rivenich",
+        "city": "Rivenich",
+        "street": "Hutmacher Rivenich Rivenich Weinstr. 3",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2391b5e3316c71acab18ba817b5435701125dfc96d1f36483d3b88e9427a4903",
+      "seed_hash": "b3ede9fc050ecbc2",
+      "geo": [
+        49.8758,
+        6.8452
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-simmern-schneider-recycling",
+      "values": {
+        "name": "Schneider Recycling GmbH & Co. KG",
+        "city": "Simmern",
+        "street": "Fuhrweg 1-3",
+        "postcode": "56337",
+        "phone": "0 26 20 / 95 69-0",
+        "email": "info@schneider-recycling.com",
+        "opening_hours": "Mo-Fr 07:30-12:30 und 13:30-16:30",
+        "description": "Schneider Recycling GmbH & Co. KG, Fuhrweg 1-3, 56337 Simmern/Ww., Familienunternehmen: 1975 von Winfried Schneider mit der Entsorgung von Papier und Folie gegründet, 1986 kam Thomas Schneider hinzu. Schwerpunkt seit über 20 Jahren auf Erfassung, Sortierung und Vermarktung von Altpapier; Leistungen Altpapierentsorgung (Verpackungspapiere, Karton, Prospekte), Kunststoffentsorgung (Folien, Hartkunststoffe, PET) und Containerdienst für gemischte Wertstoffe, Baustellenmischabfälle und Grünabfälle mit Containern von 10 bis 32 cbm im Behälter-Mietservice. Eine zweite Gesellschaft am Standort Kreuzwiese 6 betreibt die Akten- und Datenträgervernichtung. Laut amtlichem Fachbetrieberegister (Auszug 11.08.2026) Tätigkeit Lagern und Behandeln. Ein Ankauf von Schrott, Altmetall oder Eisenmetallen ist nicht belegt.",
+        "status": "pruefung",
+        "trader_type": "containerdienst",
+        "website": "https://www.schneider-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "85c85b583355b0a15fc629db6b50f24dca104638a5d6ff67ac119965002392b2",
+      "seed_hash": "05f9effac62d938d",
+      "geo": [
+        50.3918766,
+        7.6743467
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-speyer-superbauer",
+      "values": {
+        "name": "Superbauer",
+        "city": "Speyer",
+        "street": "Kiefernweg 9",
+        "postcode": "67346",
+        "phone": "06232 6911319",
+        "email": "",
+        "opening_hours": "Mo-Do 08:00-16:00, Fr 08:00-15:30",
+        "description": "Superbauer Entsorgungen Speyer, Inhaber Michael Bauer, Kiefernweg 9, 67346 Speyer, USt-Id DE243416280, seit 2005 tätig. Leistungen: Ankauf von Eisen und Metall in breiter Sortenpalette (Eisengeländer, Heizkörper, Kesselanlage, Töpfe, Pfannen, Waschmaschinen, Trockner, Spülmaschinen, Bremsscheiben, Auspuffanlagen, Bleche, Kanalschächte, Öltanks, Rasenmäher, Mofas, Roller und Alt-Pkw), Entrümpelung und Hausauflösung, Küchen- und Wohnungsdemontage, Zwangsräumungen, Entkernung, Altholz, Grünabfälle, Bauschutt und Abholung von Elektrogeräten mit entsprechender Genehmigung. Ankaufpreise und Gebühren werden nicht veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.bauer-entsorgungen.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7a1571946eba103c94bddfdce5b0df044db8873ae206481a3e3e7d3f35aa719d",
+      "seed_hash": "d8719050555bda81",
+      "geo": [
+        49.3208,
+        8.4311
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-trier-54290-kratz-pfandkredithaus",
+      "values": {
+        "name": "Kratz Pfandkredithaus",
+        "city": "Trier 54290",
+        "street": "Bruchhausenstraße 1",
+        "postcode": "54290",
+        "phone": "0651-99487755",
+        "email": "info@pfandkredit-kratz.de",
+        "opening_hours": "Mo-Do 09:30-18:00",
+        "description": "Christian Kratz Pfandkredit, Filiale Trier, Bruchhausenstraße 1, 54290 Trier, Tel. 0651-99487755, Öffnungszeiten Mo bis Do 09:30-18:00 Uhr. Pfandkreditgeschäft mit Beleihung und Erstversteigerung von Schmuck, Uhren, Edelsteinen, Gold- und Silberwaren, technischen Geräten, PKWs, LKWs und Zweirädern sowie Goldankauf mit sofortiger Barauszahlung; Sitz laut Impressum Cecilienstraße 1, 66111 Saarbrücken, USt-Id DE 261722826, Aufsichtsbehörde Ordnungsamt Saarbrücken, Mitglied im Zentralverband des Deutschen Pfandkreditgewerbes e.V. Pfandkreditkosten: 1 Prozent Zins pro Monat, Unkostenvergütung nach § 10 Pfandleiher VO von 1,00 bis 6,50 Euro monatlich je nach Darlehenshöhe, darüber frei vereinbart; Einlagerungskosten LKW 8,00 Euro, PKW 3,00 Euro, Motorräder 2,00 Euro je Tag, zuzüglich Schätzkosten.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://pfandkredit-kratz.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "20a5b20a2feb2ed2e367498c8428b1c2fb3ced2e57be7ec328981f9cd64337f2",
+      "seed_hash": "6ebf99ccc8a78e9c",
+      "geo": [
+        49.75341666666666,
+        6.637083333333334
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-trier-h-block",
+      "values": {
+        "name": "H. Block",
+        "city": "Trier",
+        "street": "Granastraße 8",
+        "postcode": "54294",
+        "phone": "",
+        "email": "blockhans@hotmail.de",
+        "opening_hours": "Mo-Sa 06:00-18:00 (ausser Sonn- und Feiertagen)",
+        "description": "Ankauf von Schrott und Metallen; außerdem Entsorgung, Demontage, Abriss und Räumungen.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.h-block-schrotthandel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4e2d79559d860212fe04812c8d7ad1ad6711579652e51c2e7829584c4b782f24",
+      "seed_hash": "5980a2141371b2bd",
+      "geo": [
+        49.75341666666666,
+        6.637083333333334
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-trier-theo-steil-stammhaus",
+      "values": {
+        "name": "Theo Steil GmbH (Stammhaus)",
+        "city": "Trier",
+        "street": "Ostkai 6",
+        "postcode": "54293",
+        "phone": "+49 651 689-0",
+        "email": "info@steil.de",
+        "opening_hours": "Annahme Mo-Do 07:00-16:30, Fr 07:00-16:00",
+        "description": "Stammhaus des Schrott- und Metallgroßhändlers (23 Standorte): Schrott-/Metallhandel, Export, Shredder und Kondirator; Ankauf nicht von Privatpersonen, kein Verkauf von Kfz-Ersatzteilen.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.steil.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ac385fd066192290d27b5d4dfd46b1f2ee633b8a92313743fd0536428fb10a84",
+      "seed_hash": "553ff48b9bce6ce2",
+      "geo": [
+        49.75341666666666,
+        6.637083333333334
+      ],
+      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"gewerbe\"],\"days\":[\"Mo\",\"Di\",\"Mi\",\"Do\",\"Fr\"],\"time_windows\":[\"07:00-16:30\",\"07:00-16:00\"],\"conditions\": \"Annahme am Stammhaus Ostkai 6, 54293 Trier durchgängig offen montags bis donnerstags 07:00-16:30 Uhr und freitags 07:00-16:00 Uhr, Ladezeiten 07:00-15:30 Uhr bzw. 07:00-15:00 Uhr, Pause 12:00-13:00 Uhr; Ankauf von Privatpersonen ist ausgeschlossen. Quelle: Betreiber-Standortseite, Abruf 30.10.2026.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"End-of-Waste-Zertifikat Z-000703-1 der GZQ GmbH (Saarbrücken) nach Art. 6 der Verordnung (EU) Nr. 333/2011 und Art. 5 der Verordnung (EU) Nr. 715/2013, Erstausstellung 2022, gültig vom 09.02.2025 bis 08.02.2028; Standorte Ostkai 6, 54293 Trier und Angemünder Straße 77, 16227 Eberswalde; zertifizierte Schrottarten Aluminiumschrott, Eisen- und Stahlschrott, Kupferschrott\", \"Altfahrzeug-Demontagebetrieb und Altfahrzeug-Shredderanlage, Anzeige § 53 KrWG, Erstbehandlungsanlage nach ElektroG, VerpackV, Schmuckzertifikat Efb Trier (intern), ISO 9001, ISO 45001 und ISO 50001:2018 (Zertifikatsliste der Betreiber-Standortseite, Abruf 30.10.2026)\", \"Laut amtlichem Fachbetrieberegister (Auszug 11.08.2026): Theo Steil GmbH Schrott- und Metallgroßhandel, Ostkai 6, 54293 Trier, Tätigkeiten Lagern, Behandeln, Verwerten, Beseitigen, Vermerk Altfahrzeuge Schredder\"]"
+    },
+    {
+      "slug": "rp-worms-velte-rohstoffhandel",
+      "values": {
+        "name": "Velte Rohstoffhandel GmbH",
+        "city": "Worms",
+        "street": "Vangionenstraße 9a",
+        "postcode": "67547",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://velte-gmbh.com/",
+        "website_status": "tot"
+      },
+      "notes_sha256": "245c61bf3e55bd895734f8fe2f1492596ae8fcbacef84685766b351da755fe4c",
+      "seed_hash": "efd1e375be0bfb26",
+      "geo": [
+        49.630024999999996,
+        8.332675
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-dresden-pro-aurum-filiale",
+      "values": {
+        "name": "pro aurum GmbH Filiale Dresden",
+        "city": "Dresden",
+        "street": "Postplatz 1",
+        "postcode": "01067",
+        "phone": "+49 351 210 455-0",
+        "email": "",
+        "opening_hours": "Mo 09:30-13:00, 14:00-18:00; Di 09:30-13:00, 14:00-18:00; Mi 09:30-14:00; Do 09:30-13:00, 14:00-18:00; Fr 09:30-13:00, 14:00-18:00; verkaufsoffene Samstage 2026 je 9:30-14:00",
+        "description": "Filiale der pro aurum GmbH (HRB 178875 AG Muenchen) am Postplatz 1, 01067 Dresden, T +49 351 210 455-0, F +49 351 210 455-15, E-Mail auf der Betreiberseite Cloudflare-geschuetzt und daher nicht uebernommen. Filiale besteht seit 2010; Leistungen sind Altgold-Service (Annahme und Wertfeststellung von Schmuck, Zahn- und Bruchgold, Medaillen, Bandgold, Tafelsilber und Granulate, Auszahlung sofort bar oder per Ueberweisung, Analyse kostenlos, Edelsteine und Diamanten werden nicht angekauft) sowie Numismatik (An- und Verkauf von Muenzen, Medaillen, Orden und Ehrenabzeichen) und bankenunabhaengige Schliessfaecher. ANKAUF: keine numerischen Ankaufspreise veroeffentlicht. VERKAUF: Onlineshop mit oeffentlicher Preisliste fuer Gold, Silber, Platin und Palladium; keine filialspezifische Preisliste fuer die Numismatik. GEBUEHREN: beim Abholservice eingesandter Edelmetalle koennen laut Betreiberseite Rueckversandkosten entstehen; ein Tarif wird nicht genannt. Zahlungsarten in der Filiale: Bar und EC-Karte.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.proaurum.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3dfb260713d0d4297f9fe83b9ca4ea130407407e5b6c0bce58e0af87bbed4dad",
+      "seed_hash": "ac4bb2395e2ae240",
+      "geo": [
+        51.0513799,
+        13.7341753
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
