@@ -48,4 +48,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [30.10.2026 (Korrekturvermerk): **Tag-Zitat berichtigt**: way/1479141783 traegt live `building=service`, `power=substation`, `operator=Hanau Netz GmbH`, `ref=UA 32254` und `name=An der Mainbrücke` — **kein** `building=An der Mainbrücke`. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1479141783/full (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: way/1271771491 und way/1197140143 sind **Strassen-Ways** und tragen live **keinerlei** `addr:*`-Tag (nur highway/lit/name/sidewalk/smoothness/surface) — auch nicht an einem Knoten. Die Adress-Angaben zu Steinheim/Hanau sind Registerangaben, keine Tags dieser Objekte.
+- [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: way/1271771491 und way/1197140143 sind **Strassen-Ways** und tragen live **keinerlei** `addr:*`-Tag (nur highway/lit/name/sidewalk/smoothness/surface) — auch nicht an einem Knoten. Die Adress-Angaben zu Steinheim/Hanau sind Registerangaben, keine Tags dieser Objekte.]

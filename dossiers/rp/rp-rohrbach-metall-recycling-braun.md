@@ -58,4 +58,4 @@ Metall Recycling Braun wirbt für Ankauf von Eisen/Stahl, Kupfer, Aluminium, Ede
 
 - [30.10.2026 (Korrekturvermerk): **Zählung der Straße Am Bellensee berichtigt**: die Nachmessung am 30.10.2026 in 76865 Rohrbach ergibt **5** statt 3 Adressobjekte und **5** statt 3 verschiedene Hausnummern (3, 4, 5, 6, 10); die Objekte sind way/373032802, way/373032572, way/535711900, way/373032573 und node/4760043522. Raster: bbox 8.1343606,49.1321796,8.1416988,49.1386479 (Ausdehnung der Straße Am Bellensee in 76865 Rohrbach), Strasse „Am Bellensee“. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1343606,49.1321796,8.1416988,49.1386479 (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk): Raster: bbox 8.0688841,49.1785023,8.0845760,49.1810673 (Ausdehnung der Wollmesheimer Hauptstraße in 76829 Landau in der Pfalz), Strasse „Wollmesheimer Hauptstraße“.
+- [30.10.2026 (Korrekturvermerk): Raster: bbox 8.0688841,49.1785023,8.0845760,49.1810673 (Ausdehnung der Wollmesheimer Hauptstraße in 76829 Landau in der Pfalz), Strasse „Wollmesheimer Hauptstraße“.]

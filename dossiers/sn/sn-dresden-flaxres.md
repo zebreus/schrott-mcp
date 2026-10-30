@@ -89,7 +89,7 @@ Hausnummer; ein eigenes FLAXRES-Objekt ist dort nicht erfasst.)
 
 - [30.10.2026 (Korrekturvermerk):  node/5287843129 traegt live `contact:website=` (die Umstellung von `website=` auf `contact:website=` erfolgte bereits in OSM-Version 4 vom 01.08.2020). Quelle(n): https://api.openstreetmap.org/api/0.6/node/5287843129.json (Abruf 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk):  node/7717696923 traegt live durchgaengig `contact:phone=+49 351 1609217` und `contact:website=https://fiedz.de/` (nicht `phone=`/`website=`). Quelle(n): https://api.openstreetmap.org/api/0.6/node/7717696923.json (Abruf 30.10.2026) node/7717696923 trägt live `contact:phone=+49 351 1609217` und `contact:website=https://fiedz.de/` — die unquotierten `phone=`/`website=`-Varianten existieren nicht.
+- [30.10.2026 (Korrekturvermerk):  node/7717696923 traegt live durchgaengig `contact:phone=+49 351 1609217` und `contact:website=https://fiedz.de/` (nicht `phone=`/`website=`). Quelle(n): https://api.openstreetmap.org/api/0.6/node/7717696923.json (Abruf 30.10.2026) node/7717696923 trägt live `contact:phone=+49 351 1609217` und `contact:website=https://fiedz.de/` — die unquotierten `phone=`/`website=`-Varianten existieren nicht.]
 
 
 
@@ -97,4 +97,4 @@ Hausnummer; ein eigenes FLAXRES-Objekt ist dort nicht erfasst.)
 
 
 
-- [30.10.2026 (Korrekturvermerk): 
+- [30.10.2026 (Korrekturvermerk):]

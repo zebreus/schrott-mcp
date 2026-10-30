@@ -106,4 +106,4 @@ Website nennt nur die Ladengeschäftsannahme); die E-Mail-Adresse.
 
 - [30.10.2026 (Korrekturvermerk): **Zählung der Kurfürstenstraße berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.7810000,50.1110000,8.7920000,50.1200000) ergibt **49** Adressobjekte mit `addr:street=Kurfürstenstraße` (bisher 58) und **48** verschiedene Hausnummern (bisher 50). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.
+- [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.]

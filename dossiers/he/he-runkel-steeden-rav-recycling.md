@@ -97,4 +97,4 @@ gilt; ob ein Zertifikat (EFB, AltfahrzeugV) vorliegt.
 
 - [30.10.2026 (Korrekturvermerk): **Objektzahl der Industriestraße Runkel berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.1275162,50.4009223,8.1390513,50.4054106) ergibt **15** Adressobjekte mit `addr:street=Industriestraße` (bisher 24); die 15 verschiedenen Hausnummern sind unveraendert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
 
-- [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.
+- [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: der zitierte Adressobjekt-Filter war `addr:housenumber=<Straßenname>`; das ist kein OSM-Tag, sondern ein Fehlzitat — gefiltert wurde nach `addr:street=<Straßenname>` (mit `addr:housenumber` als Hausnummer). Die Objekt- und Hausnummernzahlen selbst sind live bestätigt.]
