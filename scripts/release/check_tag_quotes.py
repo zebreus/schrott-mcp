@@ -53,12 +53,35 @@ def main():
         pairs = re.findall(r"`([a-z_:]+)=\"?([^\"`]+)\"?`", wave)
         if not pairs:
             continue
-        # Objekte in der Reihenfolge des Auftretens -> Wert-Zuordnung
-        ids = [(m.group(1), m.group(2)) for m in re.finditer(r"(node|way)/(\d+)", wave)]
-        for idx, (mkey, mval) in enumerate(pairs):
-            if idx >= len(ids):
+        # Objektreferenzen und Zitate mit Position einsammeln. Die Zuordnung eines
+        # Zitats zu einem Objekt ist in Fliesstext nicht eindeutig ("`way/123`
+        # (..., `key=value`, ...)" ebenso wie "`key=value` (way/123)"). Deshalb
+        # gilt ein Zitat **erst dann als Abweichung, wenn weder das naechste
+        # vorausgehende noch das naechste folgende Objekt den zitierten Wert
+        # traegt**. Zitate ohne Objektbezug in unmittelbarer Naehe (allgemeine
+        # Aussagen ueber einen Strassenabschnitt) werden uebersprungen.
+        id_refs = [(m.start(), m.start() + len(m.group(0)), m.group(1), m.group(2))
+                   for m in re.finditer(r"(node|way)/(\d+)", wave)]
+        pair_refs = [(m.start(), m.group(1), m.group(2))
+                     for m in re.finditer(r"`([a-z_:]+)=\"?([^\"`]+)\"?`", wave)]
+        for pos, mkey, mval in pair_refs:
+            if not id_refs:
                 break
-            typ, oid = ids[idx]
+            before = [r for r in id_refs if r[1] <= pos]
+            after = [r for r in id_refs if r[0] >= pos]
+            cand = []
+            if before:
+                cand.append(max(before, key=lambda r: r[1]))
+            if after:
+                cand.append(min(after, key=lambda r: r[0]))
+            cand = [r for r in cand if min(abs(r[0] - pos), abs(r[1] - pos)) <= 160]
+            if not cand:
+                continue
+            # Abweichung nur, wenn **kein** Kandidat den Wert traegt
+            if any(mkey in live_tags(r[2], r[3]) and live_tags(r[2], r[3])[mkey] == mval
+                   for r in cand):
+                continue
+            _, _, typ, oid = min(cand, key=lambda r: min(abs(r[0] - pos), abs(r[1] - pos)))
             tags = live_tags(typ, oid)
             if mkey not in tags:
                 continue
