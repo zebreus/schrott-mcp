@@ -73,4 +73,6 @@ geokodieren bleibt **Burgwall 2, 39218 Schönebeck**.
 
 - [30.10.2026 (Korrekturvermerk): **Quellen-URL berichtigt**: die zitierte Angabe `https://api.openstreetmap.org/api/0.6/map.json` liefert live HTTP 400 ("The parameter bbox is required"). Die Quelle nennt jetzt das Raster dieses Dossiers (11.6975129/52.0335666/11.7136377/52.0435978). **Dieses Dossier führt den zweiten Slug desselben Standorts (ESM neben Fegert/Scholz-Gruppe).** Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6975129,52.0335666,11.7136377,52.0435978 (Abruf 31.10.2026)]
 
+### Korrektur 31.10.2026
+
 - [31.10.2026 (Korrekturvermerk): **Dublette zum Schwester-Dossier** festgestellt: dieses Dossier und `st-groperstr-3-schonebeck-fegert-recycling-scholz-gruppe` beschreiben **denselben Standort** (Burgwall, 39218 Schönebeck). Das **Fegert-Dossier bleibt der Primäreintrag** (dort ist der Efb ZZHT00301510 der Schulze-Gruppe hinterlegt, und die Kontaktdaten sind dort vollständig geführt); dieses Dossier bleibt als historischer Datensatz mit der älteren Dossierschreibweise bestehen und wird nicht gelöscht. Die Dubletten-Kennzeichnung folgt der Eindeutigkeitsregel aus `README.md` (Betreiberkette). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6975129,52.0335666,11.7136377,52.0435978 (Abruf 31.10.2026)]
