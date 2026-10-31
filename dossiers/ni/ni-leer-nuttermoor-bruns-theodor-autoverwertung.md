@@ -6,6 +6,8 @@ state: NI
 city: Leer-Nüttermoor
 street: Zinnstr. 20
 postcode: '26789'
+lat: 53.2657301
+lon: 7.4239678
 phone: ''
 email: ''
 opening_hours: ''
@@ -54,3 +56,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **53.2348000/7.4752000** liegt **4839 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse und ist zu ersetzen (Geokodierungsbedarf). Quelle 1 (OSM): way/113554060 traegt `addr:street`=Zinnstraße, `addr:housenumber`=20, `addr:city`=Leer, `addr:postcode`=26789, `name`=Autoverwertung Bruns, `operator`=Theodor Bruns; die Objekt-BBox liegt bei **53.2654548/7.4237295 bis 53.2659313/7.4241970** (Mitte 53.2656930/7.4239632). Die Dossier-Hausnummer **20** ist belegt; das Objekt nennt den Betrieb und den Inhaber. Die Dossier-Schreibweise „Leer-Nüttermoor“ weicht vom Live-Tag `addr:city=Leer` ab - das ist die Schreibweise des Betreibers. Quelle 2 (Betreiber): https://www.autoverwertung-bruns.de/kontakt.php nennt die Adresse **Zinnstr. 20, 26789 Leer-Nüttermoor**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/113554060.json ; https://www.autoverwertung-bruns.de/kontakt.php (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **53.2657301/7.4239678** (Mittel der **6 eindeutigen Knoten** der Way-Definition von way/113554060 — der erste Knoten ist als Abschlussknoten doppelt referenziert und zählt einfach; der Punkt liegt **innerhalb der Objekt-BBox** 53.2654548/7.4237295 bis 53.2659313/7.4241970). Der bisher gespeicherte Produktionspunkt **53.2348000/7.4752000** liegt **4842 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): way/113554060 trägt `addr:housenumber`=20, `addr:street`=Zinnstraße, `addr:city`=Leer, `addr:postcode`=26789, `name`=Autoverwertung Bruns, `operator`=Theodor Bruns, `building`=warehouse, `shop`=car_parts — das Objekt nennt Betrieb und Inhaber. Die Dossier-Schreibweise „Leer-Nüttermoor“ weicht vom Live-Tag `addr:city`=Leer ab (Ortssteil-Angabe des Betreibers); `addr:postcode`=26789 stimmt. Quelle 2 (Betreiber): https://www.autoverwertung-bruns.de/kontakt.php nennt die Adresse **Zinnstr. 20, 26789 Leer-Nüttermoor**. Quelle(n): https://api.openstreetmap.org/api/0.6/way/113554060.json ; https://www.autoverwertung-bruns.de/kontakt.php (Abruf 31.10.2026).]

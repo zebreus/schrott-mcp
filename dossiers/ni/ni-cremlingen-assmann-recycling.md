@@ -6,6 +6,8 @@ state: NI
 city: Cremlingen
 street: 'An der Bundesstraße 1'
 postcode: '38162'
+lat: 52.2525216
+lon: 10.6345677
 phone: ''
 email: ''
 opening_hours: ''
@@ -51,3 +53,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **52.2500000/10.6500000** liegt **1086 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse und ist zu ersetzen (Geokodierungsbedarf). Quelle 1 (OSM): way/216938950 traegt `addr:street`=An der Bundesstraße, `addr:housenumber`=1, `building`=commercial; die Objekt-BBox liegt bei **52.2524394/10.6344646 bis 52.2525833/10.6347157** (Mitte 52.2525113/10.6345901). Die Dossier-Hausnummer **1** ist belegt; das Objekt traegt **keinen** `addr:city`- und **keinen** `addr:postcode`-Tag. Quelle 2 (Betreiber): https://assmann-recycling.de/impressum nennt die Adresse **An der Bundesstraße 1, 38162 Cremlingen**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/216938950.json ; https://assmann-recycling.de/impressum (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **52.2525216/10.6345677** (Mittel der **8 eindeutigen Knoten** der Way-Definition von way/216938950 — der erste Knoten ist als Abschlussknoten doppelt referenziert und zählt einfach; der Punkt liegt **innerhalb der Objekt-BBox** 52.2524394/10.6344646 bis 52.2525833/10.6347157). Der bisher gespeicherte Produktionspunkt **52.2500000/10.6500000** liegt **1087 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): way/216938950 trägt `addr:housenumber`=1, `addr:street`=An der Bundesstraße, `building`=commercial; das Objekt trägt **keinen** `addr:city`- und **keinen** `addr:postcode`-Tag, ist aber im live geprüften Raum Cremlingen (10.6000/52.2200 bis 10.6800/52.2900) das **einzige** Objekt mit `addr:street`=An der Bundesstraße und dort zugleich das einzige mit `addr:housenumber`=1. Quelle 2 (Betreiber): https://assmann-recycling.de/impressum nennt die Adresse **An der Bundesstraße 1, 38162 Cremlingen**. Beide Quellen nennen dieselbe Straße und dieselbe Hausnummer. Quelle(n): https://api.openstreetmap.org/api/0.6/way/216938950.json ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.6000,52.2200,10.6800,52.2900 ; https://assmann-recycling.de/impressum (Abruf 31.10.2026).]

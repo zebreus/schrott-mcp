@@ -6,6 +6,8 @@ state: NI
 city: Esche
 street: 'Zur Eiche 3'
 postcode: '49828'
+lat: 52.5408651
+lon: 6.9606596
 phone: ''
 email: ''
 opening_hours: ''
@@ -43,3 +45,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **52.5333000/6.9667000** liegt **936 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse (die Adresse war im Frontmatter zuvor **leer**) und ist zu ersetzen. Quelle 1 (OSM): **way/183006774** traegt `addr:street=Zur Eiche`, `addr:housenumber=3`, `addr:city=Esche`, `addr:postcode=49828`, `building=yes`; die Objekt-BBox liegt bei **52.5407588/6.9605518 bis 52.5409898/6.9607806** (Mitte 52.5408743/6.9606662). Quelle 2 (Betreiber): die Kontaktseite nennt „Carsten Zwafink Schrotthandel, Zur Eiche 3, 49828 Esche“ mit Tel. 05941-989394, Funk 0173-8818395 und E-Mail info@zwafink-schrotthandel.de. Beide Quellen nennen **dieselbe** Hausnummer und Strasse, die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/183006774.json ; https://zwafink-schrotthandel.de/index.php?page=kontakt (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **52.5408651/6.9606596** (Mittel der **8 eindeutigen Knoten** der Way-Definition von way/183006774 — der erste Knoten ist als Abschlussknoten doppelt referenziert und zählt einfach; der Punkt liegt **innerhalb der Objekt-BBox** 52.5407588/6.9605518 bis 52.5409898/6.9607806). Der bisher gespeicherte Produktionspunkt **52.5333000/6.9667000** liegt **935 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): way/183006774 trägt `addr:housenumber`=3, `addr:street`=Zur Eiche, `addr:city`=Esche, `addr:postcode`=49828, `building`=yes. Quelle 2 (Betreiber): die Kontaktseite https://zwafink-schrotthandel.de/index.php?page=kontakt nennt „Carsten Zwafink Schrotthandel, Zur Eiche 3, 49828 Esche“ (Tel. 05941-989394, Funk 0173-8818395, E-Mail info@zwafink-schrotthandel.de). Beide Quellen nennen **dieselbe** Straße und Hausnummer, die Anschrift ist damit belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/183006774.json ; https://zwafink-schrotthandel.de/index.php?page=kontakt (Abruf 31.10.2026).]

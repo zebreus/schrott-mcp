@@ -6,6 +6,8 @@ state: NI
 city: Melle
 street: Sundernstr. 6
 postcode: '49328'
+lat: 52.2682633
+lon: 8.3945097
 phone: '05427-922816'
 email: ''
 opening_hours: 'Mo-Fr 08:00-16:00, Sa 09:00-14:00'
@@ -47,3 +49,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **52.1992333/8.3463000** liegt **8348 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse und ist zu ersetzen (Geokodierungsbedarf). Quelle 1 (OSM): node/12965009841 traegt `addr:street`=Sundernstraße, `addr:housenumber`=6, `addr:city`=Melle, `addr:postcode`=49328, `name`=Schrott & Metallhandel Baumgärtner, `contact:website`=http://www.schrott-melle.de; die Objekt-BBox liegt bei **52.2682633/8.3945097 bis 52.2682633/8.3945097** (Mitte 52.2682633/8.3945097). Die Dossier-Hausnummer **6** ist belegt; das Objekt ist ein **Knoten** (Punkt = Objekt-BBox) und nennt den Betrieb sowie dessen Website. Quelle 2 (Betreiber): https://www.schrott-melle.de/kontakt/ nennt die Adresse **Sundernstr. 6, 49328 Melle**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/node/12965009841.json ; https://www.schrott-melle.de/kontakt/ (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **52.2682633/8.3945097** (Mittel der **1** Knoten-Koordinate von node/12965009841; der Punkt liegt **innerhalb der Objekt-BBox** — bei einem Knoten ist die Objekt-BBox mit dem Punkt identisch: 52.2682633/8.3945097). Der bisher gespeicherte Produktionspunkt **52.1992333/8.3463000** liegt **8348 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): node/12965009841 trägt `addr:housenumber`=6, `addr:street`=Sundernstraße, `addr:city`=Melle, `addr:postcode`=49328, `name`=Schrott & Metallhandel Baumgärtner, `industrial`=scrap_yard, `contact:website`=http://www.schrott-melle.de; die Hausnummer 6 ist auf der Sundernstraße live **eindeutig** (übrige Nummern dort: 1, 2, 4, 7, 9, 10, 11, 15, 16, 17, 20, 21, 25, 27). Quelle 2 (Betreiber): https://www.schrott-melle.de/kontakt/ nennt die Adresse **Sundernstr. 6, 49328 Melle**; das OSM-Objekt nennt denselben Betrieb samt Domain. Quelle(n): https://api.openstreetmap.org/api/0.6/node/12965009841.json ; https://www.schrott-melle.de/kontakt/ (Abruf 31.10.2026).]
