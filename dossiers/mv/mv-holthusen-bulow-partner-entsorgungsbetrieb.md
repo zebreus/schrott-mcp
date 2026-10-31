@@ -46,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [31.10.2026 (Korrekturvermerk): **Objekt-ID und Tag-Zitate berichtigt**: node/13891643824 trägt **keine Tags**; das gemeinte Objekt ist **node/13891655824** (`name=Holthusen`, `public_transport=stop_position`, `bus=yes`). Quelle(n): https://api.openstreetmap.org/api/0.6/node/13891655824.json (Abruf 31.10.2026)]
 
 - [31.10.2026 (Korrekturvermerk): **Tag-Zitat berichtigt**: way/331397925 trägt live **keinen** `ref`-Tag — `ref=K 62` steht an **way/318107946**. Quelle(n): https://api.openstreetmap.org/api/0.6/way/331397925.json ; https://api.openstreetmap.org/api/0.6/way/318107946.json (Abruf 31.10.2026)]
+
+### Geokodierung 31.10.2026
+
+- [31.10.2026 (Geokodierung): **Koordinate korrigiert**: `lat`/`lon` = **53.5537469/11.3621739** (Mittel der 4 eindeutigen Way-Knoten von way/98334537; Punkt liegt innerhalb der Objekt-BBox). Alter Punkt 53.5413000/11.3537000 lag **1493 m** entfernt. Quelle 1 (OSM): way/98334537 trägt `addr:housenumber`=3, `addr:street`=Pampower Straße, `addr:city`=Holthusen, `addr:postcode`=19075. Das Adressobjekt trägt `addr:suburb`=Bahnhof Holthusen und keinen `name`/`operator`-Tag - die Adresse ist nur über die Betreiberquellen belegt, der Objektpunkt selbst ist eindeutig. Quelle 2 (Betreiber): eine zweite unabhängige Betreiberseite bestätigt „Pampower Strasse 3, 19075 Holthusen“. Quelle(n): https://api.openstreetmap.org/api/0.6/way/98334537.json ; https://www.buelowundpartner.de/index.php/impressum-datenschutz (Abruf 31.10.2026)]

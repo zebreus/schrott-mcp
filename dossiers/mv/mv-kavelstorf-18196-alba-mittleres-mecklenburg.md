@@ -50,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [31.10.2026 (Korrekturvermerk): **Tag-Zitat berichtigt**: way/41646691 trägt live `name=Johannes J. Matthies GmbH & Co KG`. Quelle(n): https://api.openstreetmap.org/api/0.6/way/41646691.json (Abruf 31.10.2026)]
 
 - [31.10.2026 (Korrekturvermerk): **Tag-Zitat berichtigt**: way/98989990 trägt live `name=Meesenburg Großhandel KG`. Quelle(n): https://api.openstreetmap.org/api/0.6/way/98989990.json (Abruf 31.10.2026)]
+
+### Geokodierung 31.10.2026
+
+- [31.10.2026 (Geokodierung): **keine Koordinate geändert**: die Dossier-Hausnummer 10 existiert auf dem Silder Moor in OSM **nicht** - live adressiert sind dort nur die Nummern 2, 3, 4, 5, 6, 7 und 9. Quelle 1 (OSM): kein Objekt trägt die Dossier-Hausnummer 10; die benannten Objekte der Straße sind Fremdbetriebe (way/41646690 Hermann Stitz & Co ROSTOCK KG an 9, way/41646691 Matthies GmbH an 5, way/98989990 Meesenburg Großhandel an 7). Quelle 2 (Betreiber): die Corporate-Standortliste alba.info/standorte führt „Betriebsstätte Kavelstorf / Silder Moor 10 / 18196 Kavelstorf / +49 38208-8390“; sie belegt den Standort unter der Firmierung ALBA Nord GmbH, nicht „ALBA Mittleres Mecklenburg“ - die Anschrift ist betreiberseitig belegt, ein Objektpunkt existiert nicht. Quelle(n): https://api.openstreetmap.org/api/0.6/way/41646690.json ; https://nord.alba.info/standorte/ (Abruf 31.10.2026)]
