@@ -113,10 +113,12 @@ def main() -> int:
         if dups:
             problems.append(f"{rel}: {len(dups)} doppelte Notizen")
 
-        # Korrekturvermerke: inhaltsgleich innerhalb eines Dossiers und ueber Dossiers hinweg
+        # Korrekturvermerke: inhaltsgleich innerhalb eines Dossiers und ueber Dossiers hinweg.
+        # Nur **neue** Vermerke zaehlen - bereits im Basis-Stand vorhandene Vermerke sind
+        # unveraenderlich und duerfen nicht als Duplikat des neuen Stands gewertet werden.
         local = defaultdict(list)
         for note in new_notes:
-            if "Korrekturvermerk" in note:
+            if "Korrekturvermerk" in note and note not in old_notes:
                 key = normalise(note)
                 local[key].append(note)
                 groups[key].append(rel)
