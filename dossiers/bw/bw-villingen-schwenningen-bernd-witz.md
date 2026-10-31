@@ -1,5 +1,7 @@
 ---
 slug: bw-villingen-schwenningen-bernd-witz
+lat: 48.0636023
+lon: 8.4619167
 name: Bernd Witz GmbH
 trader_type: schrotthaendler
 state: BW

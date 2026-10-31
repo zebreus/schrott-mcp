@@ -1,5 +1,7 @@
 ---
 slug: hh-altstadt-trauringschmiede-hamburg
+lat: 53.5523222
+lon: 10.0017135
 name: Trauringschmiede Hamburg
 trader_type: sonstige
 state: HH

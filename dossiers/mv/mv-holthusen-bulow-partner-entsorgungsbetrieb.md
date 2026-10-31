@@ -1,5 +1,7 @@
 ---
 slug: mv-holthusen-bulow-partner-entsorgungsbetrieb
+lat: 53.5537469
+lon: 11.3621739
 name: Bülow & Partner GmbH (Entsorgungsbetrieb)
 trader_type: sonstige
 state: MV

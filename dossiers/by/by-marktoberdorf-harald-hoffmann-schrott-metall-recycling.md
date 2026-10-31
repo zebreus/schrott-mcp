@@ -1,5 +1,7 @@
 ---
 slug: by-marktoberdorf-harald-hoffmann-schrott-metall-recycling
+lat: 47.7961520
+lon: 10.6159809
 name: Harald Hoffmann Schrott & Metall Recycling eK
 trader_type: metallhaendler
 state: BY

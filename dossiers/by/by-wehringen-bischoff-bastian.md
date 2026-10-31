@@ -1,5 +1,7 @@
 ---
 slug: by-wehringen-bischoff-bastian
+lat: 48.2532908
+lon: 10.8087014
 name: Bischoff Bastian
 trader_type: schrotthaendler
 state: BY

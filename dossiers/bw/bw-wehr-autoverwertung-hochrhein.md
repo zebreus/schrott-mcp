@@ -1,5 +1,7 @@
 ---
 slug: bw-wehr-autoverwertung-hochrhein
+lat: 47.6101864
+lon: 7.9088337
 name: Autoverwertung Hochrhein
 trader_type: autoverwertung
 state: BW

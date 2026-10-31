@@ -1,5 +1,7 @@
 ---
 slug: hh-altstadt-pro-aurum-vertrieb-filiale-hamburg
+lat: 53.5461208
+lon: 9.9853411
 name: pro aurum Vertrieb GmbH Filiale Hamburg
 trader_type: sonstige
 state: HH

@@ -1,5 +1,7 @@
 ---
 slug: bw-wangen-88239-foll-rohstoffhandel
+lat: 47.6894444
+lon: 9.8295368
 name: Föll Rohstoffhandel GmbH
 trader_type: schrotthaendler
 state: BW

@@ -1,5 +1,7 @@
 ---
 slug: bw-stuttgart-ost-mattusch-schrotthandel
+lat: 48.7837065
+lon: 9.2263949
 name: Mattusch GmbH Schrotthandel
 trader_type: schrotthaendler
 state: BW

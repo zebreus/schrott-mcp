@@ -1,5 +1,7 @@
 ---
 slug: bw-winnenden-bimbes-und-rudi
+lat: 48.8800554
+lon: 9.4017636
 name: Bimbes und Rudi
 trader_type: sonstige
 state: BW

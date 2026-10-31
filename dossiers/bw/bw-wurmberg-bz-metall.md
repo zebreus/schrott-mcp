@@ -1,5 +1,7 @@
 ---
 slug: bw-wurmberg-bz-metall
+lat: 48.8752719
+lon: 8.8061262
 name: BZ Metall GmbH
 trader_type: metallhaendler
 state: BW
