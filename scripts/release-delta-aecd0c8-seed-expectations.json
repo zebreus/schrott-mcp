@@ -1,0 +1,1700 @@
+{
+  "version": 1,
+  "release_commit": "aecd0c84c8d557946d692342777f6f323350889a",
+  "release_tree": "e7949f52305375b6390966cf53cc790caf78a4dd",
+  "rehearsal_manifest_sha256": "1969fa8d9627792ca9390be14e8f4d0a134aaab336ea23875b5df180dff46565",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bw-brigachtal-carl-heinz-scholz",
+    "bw-eislingen-igler-schrott-metallhandel",
+    "bw-mannheim-r-mayer",
+    "bw-reutlingen-rvr-rohstoffverwertung-reutlingen",
+    "bw-stuttgart-feuerbach-70469-karle-recycling",
+    "bw-stuttgart-ost-mattusch-schrotthandel",
+    "bw-ulm-wieland-werke-ag",
+    "bw-villingen-schwenningen-bernd-witz",
+    "bw-wangen-88239-foll-rohstoffhandel",
+    "bw-wehr-autoverwertung-hochrhein",
+    "bw-winnenden-bimbes-und-rudi",
+    "bw-wurmberg-bz-metall",
+    "bw-zweigstelle-kehl-leber-a-rohstoffe-schrotthandel",
+    "by-hausen-k-w",
+    "by-lindau-aeschach-loacker-recycling-lindau-ehem-fischer-re",
+    "by-marktheidenfeld-mrm",
+    "by-marktoberdorf-harald-hoffmann-schrott-metall-recycling",
+    "by-memmingen-gotz-memmingen",
+    "by-nurnberg-herbig-bayerischer-metallhandel",
+    "by-wehringen-bischoff-bastian",
+    "hh-altstadt-pro-aurum-vertrieb-filiale-hamburg",
+    "hh-altstadt-trauringschmiede-hamburg",
+    "hh-billbrook-kiesow-autorecycling-autoteile",
+    "hh-hafencity-stena-recycling",
+    "hh-veddel-peter-stolz-edelstahlhandelsges-mbh-isr",
+    "hh-wandsbek-b-u-f-metallhandels",
+    "mv-bobzin-b-u-g-schrotthandel-zweitstandort",
+    "mv-boizenburg-elbe-asn-recycling",
+    "mv-dassow-23942-milhan-recycling",
+    "mv-greifswald-alba-metall-nord",
+    "mv-grevesmuhlen-enosys-recycling",
+    "mv-holthusen-bulow-partner-entsorgungsbetrieb",
+    "mv-kavelstorf-18196-alba-mittleres-mecklenburg",
+    "mv-kuhlungsborn-18225-schrotthandel-roggelin-siegfried-roggeli",
+    "mv-neubrandenburg-17036-alba-metall-nord-nl-neubrandenburg",
+    "mv-rostock-18146-srr-recycling",
+    "mv-stralsund-alba-metall-nord",
+    "mv-stralsund-ziems-recycling",
+    "mv-waren-17192-smurfit-kappa-nl-waren",
+    "mv-wolgast-alba-metall-nord",
+    "rp-koblenz-56068-autoankauf-koblenz",
+    "rp-koblenz-56068-golden-gate",
+    "rp-koblenz-56068-kms-munzen-studio-frank-maurer",
+    "rp-koblenz-56068-koblenzer-goldankauf",
+    "rp-mulheim-karlich-golz-mulheim-karlich",
+    "rp-niederwerth-luxem-niederwerth",
+    "sl-bexbach-molter-hollinger-entsorgungs",
+    "sl-bexbach-oberbexbach-ludwig-feix-sohn-prazisiert-nr-33",
+    "sl-bexbach-oberbexbach-rte-ruhmkorff-textilrecycling-entsorgung",
+    "sl-bous-66359-gmh-recycling-saar-ex-alba-metall-saar",
+    "sl-freisen-konig-containerdienst-albano-wei",
+    "sl-merchweiler-schrotthandel-weiler-barbel",
+    "sl-merzig-66663-auto-bohr",
+    "sl-merzig-harlingen-66663-abschleppdienst-autoverwertung-1000-serv",
+    "sl-riegelsberg-schrott-metallhandel-dirk-gro",
+    "sl-saarbruecken-pro-aurum-filiale",
+    "sl-saarlouis-66740-city-gold-ankauf-annette-berchem",
+    "sl-saarlouis-roden-autoverwertung-both",
+    "sl-st-ingbert-66386-rohstoffhandel-neckartilda-nl-st-ingbert",
+    "sl-tholey-solo-recycling-compani-mobiler-schrottse",
+    "sl-uberherrn-hn-schrott-metallrecycling",
+    "st-schonebeck-39218-esm-schrott-und-metallhandel"
+  ],
+  "scope": "exactly the 62 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-aecd0c8. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bw-brigachtal-carl-heinz-scholz",
+      "values": {
+        "name": "Carl-Heinz Scholz",
+        "city": "Brigachtal",
+        "street": "Überaucher Str. 6-8",
+        "postcode": "78086",
+        "phone": "+49 7721 98700",
+        "email": "",
+        "opening_hours": "Mo-Do 7-12/13-16:30, Fr 7-12/13-15",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://scholz-metall.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "16e813ce1e542c462a4111a4adb65d48aa48fa379a05d9901a7de48a77392732",
+      "seed_hash": "5c35465164eb415e",
+      "geo": [
+        48.0167,
+        8.4667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-eislingen-igler-schrott-metallhandel",
+      "values": {
+        "name": "Igler Schrott & Metallhandel",
+        "city": "Eislingen",
+        "street": "Ulmerstr. 131/1",
+        "postcode": "73054",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.igler-schrott-metall.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "25846978fd26c6996c026a1b92072fce9f9189ec1892ffc8398bd0b0f219f608",
+      "seed_hash": "7834708fb13b9c61",
+      "geo": [
+        48.6944,
+        9.7009
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-mannheim-r-mayer",
+      "values": {
+        "name": "R. Mayer",
+        "city": "Mannheim",
+        "street": "Martinistr. 70",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://entrümpelung-mayer.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "c6b2231402c81917db9c7c4c2a27a3eecd74913762a2660f463b0ef6b1338018",
+      "seed_hash": "1687b32dd813dc08",
+      "geo": [
+        49.49626428571429,
+        8.48125
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-reutlingen-rvr-rohstoffverwertung-reutlingen",
+      "values": {
+        "name": "RVR Rohstoffverwertung Reutlingen GmbH & Co. KG",
+        "city": "Reutlingen",
+        "street": "Sondelfinger Straße 8",
+        "postcode": "72760",
+        "phone": "+49 7121 34538-0",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://rv-reutlingen.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4df4a249e7e4897a57250429ba32937bccd2534a9c864fbce89dc8180499f9f5",
+      "seed_hash": "dbda33c79f8e4925",
+      "geo": [
+        48.5020395,
+        9.2119688
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-stuttgart-feuerbach-70469-karle-recycling",
+      "values": {
+        "name": "Karle Recycling GmbH",
+        "city": "Stuttgart-Feuerbach",
+        "street": "Friedrich-Scholer-Str. 5",
+        "postcode": "70469",
+        "phone": "0711 25 94 67-0",
+        "email": "",
+        "opening_hours": "Mo-Fr 7-18, Sa 7-13",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://karle-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "54a32e24f30d9c0795004e1f64c45e9640804f2f869d2fcbf0d81fb2174b8125",
+      "seed_hash": "9b28277e5d561543",
+      "geo": [
+        48.796866666666666,
+        9.170666666666667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-stuttgart-ost-mattusch-schrotthandel",
+      "values": {
+        "name": "Mattusch GmbH Schrotthandel",
+        "city": "Stuttgart-Ost",
+        "street": "Ulmer Str. 145",
+        "postcode": "70188",
+        "phone": "0711 2858002",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.mattusch-gmbh.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "9131940eda8de7eed1dca6619e68e7aebebe85cc5e67a7d7e586100cdc8d3863",
+      "seed_hash": "039e8ec28db9ca55",
+      "geo": [
+        48.7719584,
+        9.1821312
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-ulm-wieland-werke-ag",
+      "values": {
+        "name": "Wieland-Werke AG",
+        "city": "Ulm",
+        "street": "Graf-Arco-Str. 36",
+        "postcode": "89079",
+        "phone": "+49 731 944 0",
+        "email": "",
+        "opening_hours": "",
+        "description": "Kupfer-/Messing-Halbzeughersteller; Recycling im Rohstoffkreislauf (B2B)",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.wieland.com/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "49626061117c185e9e4fe3435dbd30ef725c898f32448034abf694df961de474",
+      "seed_hash": "c8579cdb729eeeba",
+      "geo": [
+        48.40493333333333,
+        9.9721
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-villingen-schwenningen-bernd-witz",
+      "values": {
+        "name": "Bernd Witz GmbH",
+        "city": "Villingen-Schwenningen",
+        "street": "Roßwette 2",
+        "postcode": "78048",
+        "phone": "07721/844810",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://witz-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "52630f13f9693554d34552842061c52e0c8216d2ff70dfe84bd9a7fb10437502",
+      "seed_hash": "6f802894bbe5487a",
+      "geo": [
+        48.0667,
+        8.45
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-wangen-88239-foll-rohstoffhandel",
+      "values": {
+        "name": "Föll Rohstoffhandel GmbH",
+        "city": "Wangen im Allgäu",
+        "street": "Zeppelinstr. 77",
+        "postcode": "88239",
+        "phone": "07522 91318-0",
+        "email": "",
+        "opening_hours": "Mo-Do 7:30-12:00 & 12:45-17:00, Fr 7:30-12:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://foell-rohstoffhandel.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "18c81d66e00b4092489922e687a461fb5509b8fa29eb3392c6d63504b8c5784c",
+      "seed_hash": "15f545d29bbb09be",
+      "geo": [
+        49.9994,
+        10.578800000000001
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Anlieferung mit Personalausweis, Wohnsitz DE (Privathaushalte als Zielgruppe, Betreiber-Standortseite, Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-wehr-autoverwertung-hochrhein",
+      "values": {
+        "name": "Autoverwertung Hochrhein",
+        "city": "Wehr",
+        "street": "Finsterbachstraße 10",
+        "postcode": "79664",
+        "phone": "07762 709483",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://avhochrhein.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "301da310ced035bdaef6cdd0b458b1d932ed54ce771f60e2aa8cf8f28383f4c7",
+      "seed_hash": "9ceeee86943a8c2b",
+      "geo": [
+        49.023250000000004,
+        7.56045
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-winnenden-bimbes-und-rudi",
+      "values": {
+        "name": "Bimbes und Rudi",
+        "city": "Winnenden",
+        "street": "Christallerstr. 21",
+        "postcode": "71364",
+        "phone": "07195 415286",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://bimbes-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "fe04bcf80a56a54771376014255bcec9619077521182f35d84d69f09bf3c2f81",
+      "seed_hash": "18669d073903b618",
+      "geo": [
+        48.8756,
+        9.3982
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-wurmberg-bz-metall",
+      "values": {
+        "name": "BZ Metall GmbH",
+        "city": "Wurmberg",
+        "street": "Im Steinernen Kreuz 25",
+        "postcode": "75449",
+        "phone": "+49 7044 30635-10",
+        "email": "",
+        "opening_hours": "Mo-Fr 7.30-12.00 und 13.00-17.00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.bz-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "de0f9c8080e883ac4c7bbb0df37d4ba23144de08a63770d3e4b441463c5d3623",
+      "seed_hash": "603c02590c46e15c",
+      "geo": [
+        48.8667,
+        8.8167
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-zweigstelle-kehl-leber-a-rohstoffe-schrotthandel",
+      "values": {
+        "name": "Leber A. Rohstoffe GmbH Schrotthandel",
+        "city": "Zweigstelle Kehl",
+        "street": "Hafenstr. 46",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.leberrohstoffe.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "78ad0b7e82983297820537b5be4e4395c758a21afe994feb1cef30b37d56ed2e",
+      "seed_hash": "702937720b33ca70",
+      "geo": [
+        48.573,
+        7.8152
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-hausen-k-w",
+      "values": {
+        "name": "K&W",
+        "city": "Hausen",
+        "street": "Gewerbering 9",
+        "postcode": "93345",
+        "phone": "09448 9018480",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrott- und Metallhandel (Entsorgungsfachbetrieb): An-/Verkauf von Schrott und NE-Metallen",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://kw-metallhandel.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "36fe369ca2ffa342e77488dad2b98cff95d56c97da8332e4d41f945366274d43",
+      "seed_hash": "44e4cad253199686",
+      "geo": [
+        48.8595,
+        12.0063
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-lindau-aeschach-loacker-recycling-lindau-ehem-fischer-re",
+      "values": {
+        "name": "Loacker Recycling Lindau (ehem. Fischer Recycling Lindau GmbH)",
+        "city": "Lindau-Aeschach",
+        "street": "Spitalmühlweg 16",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "unbekannt",
+        "trader_type": "sonstige",
+        "website": "https://fischer-recycling.com",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "fd729efe94f0d844ae547df8bfe78fb5d0c977e65a2117dd7470025a1a65dc90",
+      "seed_hash": "b86792a758d12275",
+      "geo": [
+        47.5501,
+        9.7085
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-marktheidenfeld-mrm",
+      "values": {
+        "name": "MRM",
+        "city": "Marktheidenfeld",
+        "street": "Bahnhofstr. 19",
+        "postcode": "97828",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://mrm-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b5c3aff9ee45dd76f35abb464e4b4a2320b50cb6b62536e0dbf428091e669548",
+      "seed_hash": "c81d667e4f4f6322",
+      "geo": [
+        49.8454,
+        9.6036
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-marktoberdorf-harald-hoffmann-schrott-metall-recycling",
+      "values": {
+        "name": "Harald Hoffmann Schrott & Metall Recycling eK",
+        "city": "Marktoberdorf",
+        "street": "Wertachstr. 25",
+        "postcode": "87616",
+        "phone": "08342 918949",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "unbekannt",
+        "trader_type": "metallhaendler",
+        "website": "https://www.hoffmann-mod.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "149f22502ba07f2560c03efbe6715f9fbfe9e2586f96278519a80d499898f589",
+      "seed_hash": "36f19ab1b464367c",
+      "geo": [
+        47.7796,
+        10.6171
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-memmingen-gotz-memmingen",
+      "values": {
+        "name": "Götz GmbH Schrott und Metalle (Standort Memmingen)",
+        "city": "Memmingen",
+        "street": "Kiryat-Shmona-Str. 5",
+        "postcode": "87700",
+        "phone": "08331 12240",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:30-12:00, 13:00-16:30",
+        "description": "Götz GmbH Schrott und Metalle (HRB 7047), Entsorger/Versorger mit Wertstoffhof Memmingen, Schrott/Metalle-Annahme, Containerdienst, Altautoverwertung",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://goetz-neu-ulm.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5c7a619c25679c445d4636bcfbac22709bb4f5d91dbc775e92f72a733ad8854c",
+      "seed_hash": "aa3ea4f97a2416dc",
+      "geo": [
+        47.9837,
+        10.1853
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-nurnberg-herbig-bayerischer-metallhandel",
+      "values": {
+        "name": "Rich. Herbig Bayerischer Metallhandel GmbH",
+        "city": "Nürnberg",
+        "street": "Rothenburger Straße 11",
+        "postcode": "90443",
+        "phone": "0911 270840",
+        "email": "",
+        "opening_hours": "",
+        "description": "NE-Metallhandel innerhalb der Niemann-Gruppe; Kontaktstandort Rothenburger Straße 11 laut Gruppenseite und Register HRB 17690 Nürnberg. Gruppenangebot Metallhalbzeuge für Gewerbe; öffentlicher Schrottankauf und numerische Schrottpreise nicht belegt.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.niemet.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "27697767192cb7092d5fb2f51b29cf9663a756ffd64c6439753e923c306770ca",
+      "seed_hash": "9f58a4e4944e1209",
+      "geo": [
+        49.44398214285714,
+        11.078528571428572
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-wehringen-bischoff-bastian",
+      "values": {
+        "name": "Bischoff Bastian",
+        "city": "Wehringen",
+        "street": "Alemannenstr. 7",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.haushaltsaufloesung-bischoff.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ba9b0de1bac7ef24f247ff725d843fb4827a372d6b2dcf6f67b61d1691ed3e6d",
+      "seed_hash": "3841d00265eca12a",
+      "geo": [
+        48.25,
+        10.8
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-altstadt-pro-aurum-vertrieb-filiale-hamburg",
+      "values": {
+        "name": "pro aurum Vertrieb GmbH Filiale Hamburg",
+        "city": "Altstadt",
+        "street": "Rödingsmarkt 39",
+        "postcode": "20459",
+        "phone": "+49 40 548 03 80-0",
+        "email": "",
+        "opening_hours": "Mo,Di,Do,Fr 09:30-13:00/14:00-18:00, Mi 09:30-14:00, Sa 1x/Monat 09:30-14:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.proaurum.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3aa572bc56ea256dea2cc44f95e7bf7dcc6b0a1697568b61dc413da176f0a489",
+      "seed_hash": "7966cce81317d7ae",
+      "geo": [
+        53.549075,
+        9.9822
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-altstadt-trauringschmiede-hamburg",
+      "values": {
+        "name": "Trauringschmiede Hamburg",
+        "city": "Altstadt",
+        "street": "Lilienstr. 15",
+        "postcode": "20095",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.trauringschmiede.de/goldankauf",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2180f9f7052b422321a688613e935c6b4a747512f6b1429905b200d6c1192e5c",
+      "seed_hash": "715cb3dceb561b45",
+      "geo": [
+        53.549425,
+        10.00585
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-billbrook-kiesow-autorecycling-autoteile",
+      "values": {
+        "name": "Kiesow Autorecycling + Autoteile GmbH",
+        "city": "Billbrook",
+        "street": "Halskestr. 28",
+        "postcode": "22113",
+        "phone": "040-7892134",
+        "email": "",
+        "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-13:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "http://www.kiesow-auto.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f5132c3553698b264ccb2efef1fd3d52467fe0c6b0aa73f420857213dd733b30",
+      "seed_hash": "f9fbabfb032ee793",
+      "geo": [
+        53.522866666666665,
+        10.126955555555556
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-hafencity-stena-recycling",
+      "values": {
+        "name": "Stena Recycling GmbH",
+        "city": "Hamburg-Altstadt",
+        "street": "Hermannstrasse 22",
+        "postcode": "20095",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://stenarecycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "39980ff255ebd8f3c376fd83eb425f3a24fb9646257b011706abee29ba2a58c9",
+      "seed_hash": "7cec6d1ec549d3af",
+      "geo": [
+        53.5514865,
+        9.9955021
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-veddel-peter-stolz-edelstahlhandelsges-mbh-isr",
+      "values": {
+        "name": "Peter Stolz Edelstahlhandelsges. mbH (ISR-Gruppe)",
+        "city": "Veddel",
+        "street": "Hovestr. 32",
+        "postcode": "20539",
+        "phone": "040 - 70 29 35 76",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.isr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d7d4d00f98779f084a56c43dfa66ea3f94214b0834db30fd8c944ad78b7d6f5e",
+      "seed_hash": "2762e666d542f31c",
+      "geo": [
+        53.526019999999995,
+        10.020019999999999
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-wandsbek-b-u-f-metallhandels",
+      "values": {
+        "name": "B. u. F. Metallhandels GmbH",
+        "city": "Wandsbek",
+        "street": "Angerburger Str. 21",
+        "postcode": "22047",
+        "phone": "+49 (0) 40 / 67 59 98 - 0",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "http://www.buf-metallhandel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "8393fc6e47224ebe67a3d7d29ea9f3afab1074eea0b7edb9914e0f7f0299299b",
+      "seed_hash": "e39a9b4c091940a4",
+      "geo": [
+        53.5917,
+        10.09555
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-bobzin-b-u-g-schrotthandel-zweitstandort",
+      "values": {
+        "name": "B.U.G. Schrotthandel GmbH (Zweitstandort)",
+        "city": "Bobzin",
+        "street": "Am Hunnenkamp 4",
+        "postcode": "19230",
+        "phone": "038852/239888",
+        "email": "",
+        "opening_hours": "Mo-Fr 7:30-16:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.bug-schrotthandel.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "4a66d268a61478398df2c80d4f7d8d5882ec11ea0cbafea04bf71449bd3043af",
+      "seed_hash": "3c1be8ece168940f",
+      "geo": [
+        53.4750143,
+        11.1398618
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-boizenburg-elbe-asn-recycling",
+      "values": {
+        "name": "ASN Recycling GmbH",
+        "city": "Boizenburg/Elbe",
+        "street": "Galliner Straße 54",
+        "postcode": "19258",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://asn.gmbh",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3a3770475c53f575ca7944e657b1a09d94b0f63e31b2b2f5990fd31b9ff08d92",
+      "seed_hash": "9a414de6682515a2",
+      "geo": [
+        53.3815,
+        10.7238
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-dassow-23942-milhan-recycling",
+      "values": {
+        "name": "Milhan Recycling",
+        "city": "Dassow 23942",
+        "street": "Dassower Str. 5",
+        "postcode": "23942",
+        "phone": "038826 88360",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "8fcd6455a9411393745b23340dddaf914f49c0f7f11c054e3b43d7e36eee8e68",
+      "seed_hash": "8d3f125e8fa07ad7",
+      "geo": [
+        53.911,
+        10.9755
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-greifswald-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Greifswald",
+        "street": "Gützkower Landstr. 18",
+        "postcode": "",
+        "phone": "03834 841059",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "48cbe381c5dfc0133b465db76eb8bbdbb4afc2ef25501627b861ba9f4e14c93f",
+      "seed_hash": "bf196a942a1a6e52",
+      "geo": [
+        54.0871,
+        13.413266666666667
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-grevesmuhlen-enosys-recycling",
+      "values": {
+        "name": "enosys Recycling",
+        "city": "Grevesmühlen",
+        "street": "Am Baarssee 3",
+        "postcode": "23936",
+        "phone": "03881-7590600",
+        "email": "",
+        "opening_hours": "Mo-Fr 8:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://enosys-recycling.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2005ca7311f7aee462017304549752dc9af1f3957ed94e8b914577f5a3b2b86b",
+      "seed_hash": "e6ce3170b7158be9",
+      "geo": [
+        53.8634,
+        11.1916
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-holthusen-bulow-partner-entsorgungsbetrieb",
+      "values": {
+        "name": "Bülow & Partner GmbH (Entsorgungsbetrieb)",
+        "city": "Holthusen",
+        "street": "Pampower Str. 3",
+        "postcode": "19075",
+        "phone": "03865 78040",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.buelowundpartner.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b9eaa66fde3371f94aa91129f4eae7d378a51d40390aff8c6b9550393b5d4dea",
+      "seed_hash": "eb0f492f9884355b",
+      "geo": [
+        53.5413,
+        11.3537
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-kavelstorf-18196-alba-mittleres-mecklenburg",
+      "values": {
+        "name": "ALBA Nord GmbH",
+        "city": "Kavelstorf",
+        "street": "Silder Moor 10",
+        "postcode": "18196",
+        "phone": "+49 38208-8390",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://nord.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4421e67a20a607f5b719a0faad67078a3ff9e6babb42960d7ebe81a11a42e27f",
+      "seed_hash": "75e07b03c0a9fcd6",
+      "geo": [
+        54.006,
+        12.1908
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-kuhlungsborn-18225-schrotthandel-roggelin-siegfried-roggeli",
+      "values": {
+        "name": "Schrotthandel Roggelin (Siegfried Roggelin)",
+        "city": "Kühlungsborn",
+        "street": "Zur Asbeck 4",
+        "postcode": "18225",
+        "phone": "01736001434",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrotthandel-roggelin.webnode.page/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7bdcf7c8ed1d332eae2d8c2249590811ee986683a62a510cea9e7e81518ffdb5",
+      "seed_hash": "dbd9ef3f6d838400",
+      "geo": [
+        54.1436399,
+        11.7345271
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-neubrandenburg-17036-alba-metall-nord-nl-neubrandenburg",
+      "values": {
+        "name": "ALBA Metall Nord NL Neubrandenburg",
+        "city": "Neubrandenburg",
+        "street": "Kruseshofer Str. 21",
+        "postcode": "17036",
+        "phone": "0395 3698315",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "05d0833dc623542b684a6fa46e7f282fc1474f10bf8a849543eaee1e373c92dc",
+      "seed_hash": "f2349acbae013f04",
+      "geo": [
+        53.559133333333335,
+        13.277366666666666
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-rostock-18146-srr-recycling",
+      "values": {
+        "name": "Veolia Umweltservice Nord GmbH (Rostock GSA)",
+        "city": "Rostock 18146",
+        "street": "Up de Schnur 2",
+        "postcode": "18146",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Gewerbeabfallsortieranlage; zertifizierte Sortierung und Behandlung nicht gefährlicher gemischter Leichtverpackungen.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.veolia.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "837e13ef126063d8fd50b4828e9b510c8f68a544ad59f2f79784d58330c69ea5",
+      "seed_hash": "066fbb42382a0915",
+      "geo": [
+        54.1284225,
+        12.1683083
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-stralsund-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Stralsund",
+        "street": "Dähnholmstr. 13",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0c2a9de6b7f0a84723f3c5cc9bd1ef653bd8dd88d58faf4ec106d5d6eded76a8",
+      "seed_hash": "d7268a28255b0105",
+      "geo": [
+        54.31123333333333,
+        13.067666666666668
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-stralsund-ziems-recycling",
+      "values": {
+        "name": "Ziems Recycling",
+        "city": "Stralsund",
+        "street": "Zum Seglerhafen 1",
+        "postcode": "18439",
+        "phone": "+49 3831 666234",
+        "email": "",
+        "opening_hours": "Mo–Fr 07:00–16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.ziems-recycling.de/stralsund.html",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ae12e3c7c1323676a1550588e841d1d2bdca64c107cfb916c04b53452b95d87c",
+      "seed_hash": "84b1e008ac34c032",
+      "geo": [
+        54.303277,
+        13.1069669
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-waren-17192-smurfit-kappa-nl-waren",
+      "values": {
+        "name": "Smurfit Kappa NL Waren",
+        "city": "Waren 17192",
+        "street": "Warendorfer Str. 7",
+        "postcode": "17192",
+        "phone": "+49 3991 7440",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.smurfitkappa.com/de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f3a3f75435f1c4f81e724c63127ccf956af9824dab3d741a2eefa8bd26b19c6b",
+      "seed_hash": "72e2cc686c13e65c",
+      "geo": [
+        53.546918181818185,
+        12.7743
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-wolgast-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Wolgast",
+        "street": "Kröslinerstr. 5",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "8f964a654f903f35e3facbd519296456e2d97ec4c96747a9369fcf4c5cb40566",
+      "seed_hash": "768c1dfa5d83a70b",
+      "geo": [
+        54.0528,
+        13.772
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-koblenz-56068-autoankauf-koblenz",
+      "values": {
+        "name": "Autoankauf Koblenz",
+        "city": "Koblenz 56068",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "d12ef4e2a3e843c05fe6064588333c2540846bae45dd15cc54988e770fc45cb4",
+      "seed_hash": "1344cd69360a4fed",
+      "geo": [
+        50.354014285714285,
+        7.5774
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-koblenz-56068-golden-gate",
+      "values": {
+        "name": "Golden Gate",
+        "city": "Koblenz",
+        "street": "Entenpfuhl 12",
+        "postcode": "56068",
+        "phone": "0261 5501139",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.goldengate-koblenz.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "57d5ba5115d9cc3d0e927bf5932ffcf4dfae363194cb948fa531c24dce6d1111",
+      "seed_hash": "4128927f2572ed46",
+      "geo": [
+        50.3602216,
+        7.5967808
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-koblenz-56068-kms-munzen-studio-frank-maurer",
+      "values": {
+        "name": "KMS Münzen Studio (Frank Maurer)",
+        "city": "Koblenz",
+        "street": "Rathauspassage 20",
+        "postcode": "56068",
+        "phone": "0176 29576381",
+        "email": "",
+        "opening_hours": "Mo-Fr 10:00-13:00 und 14:00-18:00, Sa 10:00-16:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.koblenzer-muenzen-studio.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b3976ebe66fbcd54f1b959b55d50f04a7ee7fed421bdb03f51de7425fa17fae7",
+      "seed_hash": "bb87beec1ef6221d",
+      "geo": [
+        50.3601177,
+        7.5971797
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-koblenz-56068-koblenzer-goldankauf",
+      "values": {
+        "name": "Koblenzer Goldankauf",
+        "city": "Koblenz",
+        "street": "Schloßstraße 38",
+        "postcode": "56068",
+        "phone": "0261 9824139, 0160 4010125",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://koblenzer-goldhandel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c0182253c723d9b026a85615ed3e47f1eb43a7ad06a86d039aeaddcff7c1f3dc",
+      "seed_hash": "94f919e695587c7f",
+      "geo": [
+        50.357037,
+        7.5939027
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-mulheim-karlich-golz-mulheim-karlich",
+      "values": {
+        "name": "Golz Mülheim-Kärlich",
+        "city": "Mülheim-Kärlich",
+        "street": "Golz Mülheim-Kärlich Mülheim-Kärlich Goethestr. 29A",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3755e25742df242ea7545972370b62924c81b11865c3f4e993164f1b233f19d7",
+      "seed_hash": "8060343ad3128cf5",
+      "geo": [
+        50.3851,
+        7.4989
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-niederwerth-luxem-niederwerth",
+      "values": {
+        "name": "Luxem Niederwerth",
+        "city": "Niederwerth",
+        "street": "Schützenstr. 1a",
+        "postcode": "56179",
+        "phone": "0176 90743974",
+        "email": "info@containerdienst-luxem.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.containerdienst-luxem.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6f0c277dd89216e604023604f1ad3a846aa41e12a887142452109944f87acbfc",
+      "seed_hash": "484e6fd32ececb96",
+      "geo": [
+        50.4,
+        7.6167
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-bexbach-molter-hollinger-entsorgungs",
+      "values": {
+        "name": "Molter-Hollinger Entsorgungs GmbH",
+        "city": "Bexbach",
+        "street": "Kleinottweilerstr. 86",
+        "postcode": "66450",
+        "phone": "06826 524333",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://molter-hollinger-gmbh.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0956f64700ae0574864a4524fe66416adffb7e2ccac2e5db9acaa9cb08969fe3",
+      "seed_hash": "697619db21fb9eba",
+      "geo": [
+        49.3462,
+        7.2553
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-bexbach-oberbexbach-ludwig-feix-sohn-prazisiert-nr-33",
+      "values": {
+        "name": "Ludwig Feix & Sohn GmbH (präzisiert Nr. 33)",
+        "city": "Bexbach-Oberbexbach",
+        "street": "Obere Hochstr. 161",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.schrottentsorgung-feix.de/",
+        "website_status": "tot"
+      },
+      "notes_sha256": "89fd5318ff8a10405039c66cccbdfdb959ff2be358f98b1fbc9f91845cfedbde",
+      "seed_hash": "6a24a422f7622bdc",
+      "geo": [
+        49.3462,
+        7.2553
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-bexbach-oberbexbach-rte-ruhmkorff-textilrecycling-entsorgung",
+      "values": {
+        "name": "RTE Rühmkorff Textilrecycling Entsorgung (bvse-Mitglied)",
+        "city": "Bexbach-Oberbexbach",
+        "street": "Siemensstr. 10",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.rte-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1a523e5ee8e7c379746ff22e014ac683fe424cb83a17176026a122842ca78a63",
+      "seed_hash": "f36b2e5f863f8923",
+      "geo": [
+        49.3462,
+        7.2553
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-bous-66359-gmh-recycling-saar-ex-alba-metall-saar",
+      "values": {
+        "name": "GMH Recycling Saar GmbH (ex-ALBA Metall Saar)",
+        "city": "Bous 66359",
+        "street": "Saarstr. 1",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.gmh-gruppe.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ff78b77fc42572d919a86f7e05cc76f8d67d923e4b3cb074d493beebb264f402",
+      "seed_hash": "59883e682952d8f1",
+      "geo": [
+        49.2773,
+        6.8013
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-freisen-konig-containerdienst-albano-wei",
+      "values": {
+        "name": "König Containerdienst (Albano Weiß)",
+        "city": "Freisen",
+        "street": "Pfalzstr. 1",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "containerdienst",
+        "website": "https://koenig-containerdienst.de/schrott-metallhandel",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "976895f5408303538b193ce75a6a866983ae518ddf2a46970a24bced7d094f43",
+      "seed_hash": "757371735e3ffd49",
+      "geo": [
+        49.5517849,
+        7.1894612
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-merchweiler-schrotthandel-weiler-barbel",
+      "values": {
+        "name": "Schrotthandel Weiler Bärbel",
+        "city": "Merchweiler",
+        "street": "Eisenbahnstr. 1",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://schrott-wb.de/",
+        "website_status": "tot"
+      },
+      "notes_sha256": "176ec6c05fc3de90bd55730273c85e5cb1019eeb2b6470a3a28dbadb9ae138b1",
+      "seed_hash": "c3a2d9dccd3b0798",
+      "geo": [
+        49.35,
+        7.05
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-merzig-66663-auto-bohr",
+      "values": {
+        "name": "Auto Bohr GmbH",
+        "city": "Merzig",
+        "street": "In der Pfingstweide 18",
+        "postcode": "66663",
+        "phone": "06861 4999",
+        "email": "info@auto-bohr.de",
+        "opening_hours": "Mo-Fr 8-12 und 13-17 Uhr, Sa 10-12 Uhr",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://auto-bohr.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f01047a5b40ea77ff0a69306b96daa3d5bfeb0d8901886bf33dea99e9f3f47b3",
+      "seed_hash": "6e87025ebc89af3e",
+      "geo": [
+        49.4512629,
+        6.6325569
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-merzig-harlingen-66663-abschleppdienst-autoverwertung-1000-serv",
+      "values": {
+        "name": "Abschleppdienst-Autoverwertung 1000 Service GmbH",
+        "city": "Merzig",
+        "street": "Im Wäldchen 13-17",
+        "postcode": "66663",
+        "phone": "06861-93 97 040",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "http://www.1000-service.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "8ffb13afb684bd629be1ba3e032b08aeab5077550b85a71c7cd469231ccd35c4",
+      "seed_hash": "b6f034cb00a873c1",
+      "geo": [
+        49.4233155,
+        6.636498
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-riegelsberg-schrott-metallhandel-dirk-gro",
+      "values": {
+        "name": "Schrott & Metallhandel Dirk Groß",
+        "city": "Riegelsberg",
+        "street": "Walpershoferstr. 7a",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://schrott-24.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "26c2d044c2f852a51b33843850ea1331f7c8d88f439d77c8c528778ffbdb3a72",
+      "seed_hash": "0df691def1774051",
+      "geo": [
+        49.3179225,
+        6.9387789
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-saarbruecken-pro-aurum-filiale",
+      "values": {
+        "name": "pro aurum GmbH Filiale Saarbrücken",
+        "city": "Saarbrücken",
+        "street": "Ursulinenstraße 2",
+        "postcode": "66111",
+        "phone": "+49 681 588 268-0",
+        "email": "",
+        "opening_hours": "",
+        "description": "Filiale im Gebäude der SaarLB für An- und Verkauf von Anlageedelmetallen; Altgoldannahme über den Betreiber-Altgoldservice.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.proaurum.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "63b83680f43df3d28e1b8104307e81c3ab67893c667f270dcac64b408f3dd615",
+      "seed_hash": "546d9e5fa9b48633",
+      "geo": [
+        49.2392726,
+        6.992932
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-saarlouis-66740-city-gold-ankauf-annette-berchem",
+      "values": {
+        "name": "City Gold Ankauf (Annette Berchem)",
+        "city": "Saarlouis",
+        "street": "Bibelstr. 3",
+        "postcode": "66740",
+        "phone": "06831 - 90 21 351",
+        "email": "",
+        "opening_hours": "Montag bis Freitag 10.00-13.00 und 14.00-18.00 Uhr, Samstags nach Vereinbarung",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://goldankaufsaarlouis.com/index.html",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "519895c5bc518e102e5d765532247e265787628e1dd5588806f902d9c5424037",
+      "seed_hash": "d8d975606da509bb",
+      "geo": [
+        49.3153921,
+        6.7522298
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-saarlouis-roden-autoverwertung-both",
+      "values": {
+        "name": "Autoverwertung Both GmbH",
+        "city": "Saarlouis-Roden",
+        "street": "Güterbahnhofstraße 18",
+        "postcode": "66740",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://www.autoverwertung-both.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "83c4acc65f0966f4586182bdc31007e2eedc2fc7667e31b9a443074cc4b25f18",
+      "seed_hash": "ce9deae985012c59",
+      "geo": [
+        49.3274374,
+        6.7565838
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-st-ingbert-66386-rohstoffhandel-neckartilda-nl-st-ingbert",
+      "values": {
+        "name": "Rohstoffhandel Neckartilda GmbH, NL St. Ingbert",
+        "city": "St. Ingbert 66386",
+        "street": "Schlackenbergstr. 23",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "http://www.neckartilda-rohstoffhandel.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "96d41843c6b5416698ce586502ce14bc82a7815fd579ab4eb77ce56c2e242bc7",
+      "seed_hash": "24b4f5f8d067cb54",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-tholey-solo-recycling-compani-mobiler-schrottse",
+      "values": {
+        "name": "SOLO Recycling compani (mobiler Schrottservice/Startup)",
+        "city": "Tholey",
+        "street": "Keltenweg 4",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://sites.google.com/view/solo-recycling-compani/inicio",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bd52286623d7e1c76ee3b82dd18f4828c4bfccc91599a58101fe8cdbbbc933fb",
+      "seed_hash": "60f943f953c0f429",
+      "geo": [
+        49.4837,
+        7.0369
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-uberherrn-hn-schrott-metallrecycling",
+      "values": {
+        "name": "HN Schrott- & Metallrecycling GmbH",
+        "city": "Überherrn",
+        "street": "Nauwies 9",
+        "postcode": "66802",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "An- und Verkauf von Eisen- und Metallschrott, Elektroschrott, Edelmetallen (u. a. Kupfer, Messing, Kabel) und Altbatterien zur Weitergabe an Großhändler für Recycling.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://hn-schrott.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "237bc29bab810cf0e58ea9939249347d04a020e8c2adbc4e3bb8904993714e95",
+      "seed_hash": "6536cb4c0303ab9d",
+      "geo": [
+        49.247206,
+        6.7011821
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-schonebeck-39218-esm-schrott-und-metallhandel",
+      "values": {
+        "name": "Fegert Recycling GmbH, Standort Schönebeck",
+        "city": "Schönebeck",
+        "street": "Burgwall 2",
+        "postcode": "39218",
+        "phone": "03928 400056",
+        "email": "schoenebeck@fegert-recycling.de",
+        "opening_hours": "Mo-Fr 07:00-16:00; Kassenzeiten Mo-Fr 07:00-15:30",
+        "description": "Standort für Schrott- und Metallhandel, Recycling sowie Container- und Entsorgungsleistungen.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.fegert-recycling.de/standorte/standort-schoenebeck-elbe.html",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "aef3eef59a3a5b3750e008d13536488fbc7ecd6f4590983c03378d8472f73311",
+      "seed_hash": "afce7c62421868a6",
+      "geo": [
+        53.0595,
+        12.2331
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
