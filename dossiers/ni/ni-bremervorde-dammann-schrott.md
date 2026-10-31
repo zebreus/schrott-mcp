@@ -6,6 +6,8 @@ state: NI
 city: Bremervörde
 street: Lloydstr. 13
 postcode: '27432'
+lat: 53.4913851
+lon: 9.1148041
 phone: 04761 1289
 email: ''
 opening_hours: ''
@@ -46,3 +48,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **53.4846000/9.1431000** liegt **2020 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse und ist zu ersetzen (Geokodierungsbedarf). Quelle 1 (OSM): way/161416717 traegt `addr:street`=Lloydstraße, `addr:housenumber`=13, `addr:city`=Bremervörde, `addr:postcode`=27432, `name`=Dammann, `note`=Schrottplatz; die Objekt-BBox liegt bei **53.4911917/9.1144781 bis 53.4915402/9.1150450** (Mitte 53.4913660/9.1147616). Die Dossier-Hausnummer **13** ist belegt; das Objekt nennt den Betrieb **und** den Betriebszweck. Quelle 2 (Betreiber): https://dammann-gmbh.de/impressum nennt die Adresse **Lloydstr. 13, 27432 Bremervörde**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/161416717.json ; https://dammann-gmbh.de/impressum (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **53.4913851/9.1148041** (Mittel der **7 eindeutigen Knoten** der Way-Definition von way/161416717 — der erste Knoten ist als Abschlussknoten doppelt referenziert und zählt einfach; der Punkt liegt **innerhalb der Objekt-BBox** 53.4911917/9.1144781 bis 53.4915402/9.1150450). Der bisher gespeicherte Produktionspunkt **53.4846000/9.1431000** liegt **2018 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): way/161416717 trägt `addr:housenumber`=13, `addr:street`=Lloydstraße, `addr:city`=Bremervörde, `addr:postcode`=27432, `name`=Dammann, `note`=Schrottplatz, `building`=yes — das Objekt nennt Betrieb **und** Betriebszweck. Quelle 2 (Betreiber): https://dammann-gmbh.de/impressum nennt die Adresse **Lloydstr. 13, 27432 Bremervörde**. Quelle(n): https://api.openstreetmap.org/api/0.6/way/161416717.json ; https://dammann-gmbh.de/impressum (Abruf 31.10.2026).]

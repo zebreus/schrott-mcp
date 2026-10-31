@@ -6,6 +6,8 @@ state: NI
 city: Salzgitter
 street: 'Wilhelm-Leuschner-Straße 21'
 postcode: '38228'
+lat: 52.1415393
+lon: 10.2952569
 phone: '05344 9039975'
 email: ''
 opening_hours: ''
@@ -45,3 +47,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **52.1221000/10.3761000** liegt **5926 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse und ist zu ersetzen (Geokodierungsbedarf). Quelle 1 (OSM): way/604164188 traegt `addr:street`=Wilhelm-Leuschner-Straße, `addr:housenumber`=21, `addr:city`=Salzgitter, `addr:postcode`=38228, `addr:suburb`=Lebenstedt; die Objekt-BBox liegt bei **52.1415062/10.2951713 bis 52.1415723/10.2953425** (Mitte 52.1415393/10.2952569). Die Dossier-Hausnummer **21** ist belegt - **ohne** `name=`/`operator=`-Bezug zum Betrieb. Quelle 2 (Betreiber): https://www.jennebach-schrotthandel.de/kontakt/ nennt die Adresse **Wilhelm-Leuschner-Straße 21, 38228 Salzgitter**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/604164188.json ; https://www.jennebach-schrotthandel.de/kontakt/ (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **52.1415393/10.2952569** (Mittel der **4 eindeutigen Knoten** der Way-Definition von way/604164188 — der erste Knoten ist als Abschlussknoten doppelt referenziert und zählt einfach; der Punkt liegt **innerhalb der Objekt-BBox** 52.1415062/10.2951713 bis 52.1415723/10.2953425). Der bisher gespeicherte Produktionspunkt **52.1221000/10.3761000** liegt **5926 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): way/604164188 trägt `addr:housenumber`=21, `addr:street`=Wilhelm-Leuschner-Straße, `addr:city`=Salzgitter, `addr:postcode`=38228, `addr:suburb`=Lebenstedt, `building`=house; das Objekt trägt **keinen** `name=`-/`operator=`-Bezug zum Betrieb. Quelle 2 (Betreiber): https://www.jennebach-schrotthandel.de/kontakt/ nennt die Adresse **Wilhelm-Leuschner-Straße 21, 38228 Salzgitter**. Beide Quellen nennen dieselbe Straße und dieselbe Hausnummer. Quelle(n): https://api.openstreetmap.org/api/0.6/way/604164188.json ; https://www.jennebach-schrotthandel.de/kontakt/ (Abruf 31.10.2026).]

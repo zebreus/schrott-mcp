@@ -6,6 +6,8 @@ state: NI
 city: Hannover
 street: Fössestraße 114
 postcode: '30453'
+lat: 52.3660241
+lon: 9.6905891
 phone: 0511 21429980
 email: ''
 opening_hours: ''
@@ -61,3 +63,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **52.3764690/9.7463414** liegt **3959 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse und ist zu ersetzen (Geokodierungsbedarf). Quelle 1 (OSM): way/1528874110 traegt `addr:street`=Fössestraße, `addr:housenumber`=114, `addr:city`=Hannover, `addr:postcode`=30453, `name`=Norddeutsche Rohstoffhandelsgesellschaft mbH; die Objekt-BBox liegt bei **52.3659965/9.6905210 bis 52.3660516/9.6906572** (Mitte 52.3660241/9.6905891). Die Dossier-Hausnummer **114** ist belegt; das Objekt nennt den Betrieb selbst. Quelle 2 (Betreiber): https://www.stender-hohenaspe.de/?page_id=204 nennt die Adresse **Fössestraße 114, 30453 Hannover**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1528874110.json ; https://www.stender-hohenaspe.de/?page_id=204 (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **52.3660241/9.6905891** (Mittel der **4 eindeutigen Knoten** der Way-Definition von way/1528874110 — der erste Knoten ist als Abschlussknoten doppelt referenziert und zählt einfach; der Punkt liegt **innerhalb der Objekt-BBox** 52.3659965/9.6905210 bis 52.3660516/9.6906572). Der bisher gespeicherte Produktionspunkt **52.3764690/9.7463414** liegt **3959 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): way/1528874110 trägt `addr:housenumber`=114, `addr:street`=Fössestraße, `addr:city`=Hannover, `addr:postcode`=30453, `name`=Norddeutsche Rohstoffhandelsgesellschaft mbH, `short_name`=NRH GmbH, `building`=office, `website`=https://www.stender-hohenaspe.de/?page_id=204 — das Objekt nennt den Betrieb selbst und führt dessen Website. Quelle 2 (Betreiber): https://www.stender-hohenaspe.de/?page_id=204 nennt die Adresse **Fössestraße 114, 30453 Hannover**. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1528874110.json ; https://www.stender-hohenaspe.de/?page_id=204 (Abruf 31.10.2026).]
