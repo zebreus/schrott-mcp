@@ -47,7 +47,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [31.10.2026 (Korrekturvermerk): **Tag-Zitat entfernt**: way/121850711 trägt live **keinen** `addr:country`-Tag — das Dossier zitierte einen nicht vorhandenen Key. Die übrigen Tags des Objekts sind live bestätigt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/121850711.json (Abruf 31.10.2026)]
 
 - [31.10.2026 (Korrekturvermerk): **Quellen-URL berichtigt**: die zitierte Angabe `https://api.openstreetmap.org/api/0.6/map.json` liefert live **HTTP 400** ("The parameter bbox is required"). Die Quelle nennt jetzt das im Dossier dokumentierte Raster (9.3986185,48.8791504,9.4043102,48.8816621). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.3986185,48.8791504,9.4043102,48.8816621 (Abruf 31.10.2026)]
-
-### Korrektur 31.10.2026
-
-- [31.10.2026 (Korrekturvermerk): **Erreichbarkeit der zitierten Quellen geprüft**: `www.bimbes-recycling.de` — die genannte(n) Adresse(n) war(en) am 31.10.2026 **nicht abrufbar** (TCP-Timeout bzw. HTTP 404). Sie wird deshalb **nicht** als Beleg geführt; die übrigen Quellenangaben dieses Dossiers bleiben unverändert und sind live geprüft.
+- [31.10.2026 (Korrekturvermerk): **Erreichbarkeit der zitierten Quellen geprüft**: `www.bimbes-recycling.de` — die genannte(n) Adresse(n) war(en) am 31.10.2026 **nicht abrufbar** (TCP-Timeout bzw. HTTP 404). Sie wird deshalb **nicht** als Beleg geführt; die übrigen Quellenangaben dieses Dossiers bleiben unverändert und sind live geprüft.]
