@@ -10,7 +10,8 @@ import re
 import sys
 from pathlib import Path
 
-DATE = "30.10.2026"
+import datetime
+DATE = datetime.date.today().strftime("%d.%m.%Y")
 
 
 def sections(text):
