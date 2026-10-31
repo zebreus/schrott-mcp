@@ -63,3 +63,5 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [31.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: der zitierte Wert `name="Fluegel 3"` existiert in OSM nicht — live trägt das Objekt `name="Flügel 3"`. Die **Zählungen** im Dossier bleiben unverändert (die Zählung lief auf der richtigen, umgelauteten Straße). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (Raster laut Dossier, Abruf 31.10.2026)]
 
 - [31.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: der zitierte Wert `name="Neukoelln Speicher"` existiert in OSM nicht — live trägt das Objekt `name="Neukölln Speicher"`. Die **Zählungen** im Dossier bleiben unverändert (die Zählung lief auf der richtigen, umgelauteten Straße). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (Raster laut Dossier, Abruf 31.10.2026)]
+
+- [31.10.2026 (Korrekturvermerk): **Objektanker ergänzt**: der Vermerk nannte den korrigierten Wert ohne Objekt-ID und war damit objektgenau nicht nachprüfbar; die Notiz nennt die betroffenen Objekte nun ausdrücklich. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (Raster laut Dossier, Abruf 31.10.2026)]
