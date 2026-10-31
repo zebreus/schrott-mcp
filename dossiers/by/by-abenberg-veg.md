@@ -6,6 +6,8 @@ state: BY
 city: Abenberg
 street: Beerbach A 70
 postcode: '91183'
+lat: 49.2175186
+lon: 10.9076291
 phone: ''
 email: ''
 opening_hours: ''
@@ -55,3 +57,4 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** Der gespeicherte Produktionspunkt **49.2428000/10.9640000** liegt **4966 m** vom Objektpunkt entfernt - er passt **nicht** zur belegten Adresse und ist zu ersetzen (Geokodierungsbedarf). Quelle 1 (OSM): node/3376719919 traegt `addr:street`=Beerbach A, `addr:housenumber`=70, `addr:city`=Abenberg, `addr:postcode`=91183, `addr:hamlet`=Beerbach; die Objekt-BBox liegt bei **49.2175186/10.9076291 bis 49.2175186/10.9076291** (Mitte 49.2175186/10.9076291). Das Objekt ist ein **Knoten** (Punkt = Objekt-BBox); es traegt `addr:hamlet=Beerbach` - das Dossier nennt „Beerbach / Abenberg“, was dem entspricht. Quelle 2 (Betreiber): https://www.veg-container.de/impressum nennt die Adresse **Beerbach A 70, 91183 Abenberg**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/node/3376719919.json ; https://www.veg-container.de/impressum (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **49.2175186/10.9076291** (Mittel der **1** Knoten-Koordinate von node/3376719919; der Punkt liegt **innerhalb der Objekt-BBox** — bei einem Knoten ist die Objekt-BBox mit dem Punkt identisch: 49.2175186/10.9076291). Der bisher gespeicherte Produktionspunkt **49.2428000/10.9640000** liegt **4966 m** vom neuen Punkt entfernt und ist damit ersetzt. Quelle 1 (OSM): node/3376719919 trägt `addr:housenumber`=70, `addr:street`=Beerbach A, `addr:city`=Abenberg, `addr:postcode`=91183, `addr:hamlet`=Beerbach; die Hausnummer 70 ist auf der Beerbach A live **eindeutig** (übrige Nummern dort: 1 bis 41). Die Dossier-Schreibweise „Beerbach / Abenberg“ entspricht `addr:hamlet`=Beerbach und `addr:city`=Abenberg. Quelle 2 (Betreiber): https://www.veg-container.de/impressum nennt die Adresse **Beerbach A 70, 91183 Abenberg**. Quelle(n): https://api.openstreetmap.org/api/0.6/node/3376719919.json ; https://www.veg-container.de/impressum (Abruf 31.10.2026).]

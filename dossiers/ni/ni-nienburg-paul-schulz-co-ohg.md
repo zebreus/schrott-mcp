@@ -6,8 +6,8 @@ state: NI
 city: Nienburg
 street: Immenweg 39
 postcode: '31582'
-lat: ''
-lon: ''
+lat: 52.6193153
+lon: 9.2259451
 phone: '05021 13013'
 email: ''
 opening_hours: ''
@@ -53,3 +53,4 @@ Die aktuelle Betreiberwebsite führt Schulz Recycling am Immenweg 39 als P. Schu
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate gesetzt - Geokodierungsbedarf gemeldet.** **Der gespeicherte Produktionspunkt ist leer** (`lat`/`lon` = NULL) - es wird also **nichts** ersetzt, sondern der Punkt ist neu zu setzen. Quelle 1 (OSM): way/409582021 traegt `addr:street`=Immenweg, `addr:housenumber`=39, `addr:city`=Nienburg/Weser, `addr:postcode`=31582; die Objekt-BBox liegt bei **52.6192454/9.2258642 bis 52.6193761/9.2260630** (Mitte 52.6193107/9.2259636). Die Dossier-Hausnummer **39** ist belegt; das Objekt traegt **keinen** `name=`/`operator=`-Bezug zum Betrieb. Quelle 2 (Betreiber): https://schulz-recycling.de/impressum.html nennt die Adresse **Immenweg 39, 31582 Nienburg**. Die Anschrift ist damit belegt; die Koordinate wird **hier bewusst nicht gesetzt** (Auftrag dieser Welle: Adressen benennen, nicht selbst geokodieren) und ist ueber den adressbasierten Cache nachzuziehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/409582021.json ; https://schulz-recycling.de/impressum.html (Abruf 31.10.2026).]
+- [31.10.2026 (Geokodierung): **Koordinate gesetzt** — die Meldung „keine Koordinate gesetzt / Geokodierungsbedarf“ vom selben Tag ist damit überholt: `lat`/`lon` = **52.6193153/9.2259451** (Mittel der **5 eindeutigen Knoten** der Way-Definition von way/409582021 — der erste Knoten ist als Abschlussknoten doppelt referenziert und zählt einfach; der Punkt liegt **innerhalb der Objekt-BBox** 52.6192454/9.2258642 bis 52.6193761/9.2260630). **Der gespeicherte Produktionspunkt war leer** (`lat`/`lon` = NULL) — es wird also **nichts** ersetzt, sondern der Punkt ist **neu gesetzt**. Quelle 1 (OSM): way/409582021 trägt `addr:housenumber`=39, `addr:street`=Immenweg, `addr:city`=Nienburg/Weser, `addr:postcode`=31582, `building`=yes; `addr:city`=Nienburg/Weser entspricht der Dossier-Angabe Nienburg, das Objekt trägt **keinen** `name=`-/`operator=`-Bezug zum Betrieb. Quelle 2 (Betreiber): https://schulz-recycling.de/impressum.html nennt die Adresse **Immenweg 39, 31582 Nienburg**. Quelle(n): https://api.openstreetmap.org/api/0.6/way/409582021.json ; https://schulz-recycling.de/impressum.html (Abruf 31.10.2026).]
