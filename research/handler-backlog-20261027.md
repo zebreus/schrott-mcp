@@ -64,3 +64,36 @@ oder telefonische Abfragen, nicht über öffentliche Seiten.
   `Schedule::every_6h()`; die Skip-Regeln müssen lauten, nicht raten.
 - `website_status: aktiv` belegt nur, dass die Domain erreichbar war, nicht dass eine
   scrape-fähige Preisseite existiert.
+
+---
+
+## Nachtrag 31.10.2026 — Nachprüfung der größten Backlog-Gruppe (Scholz-Gruppe, 33 Händler)
+
+Der Screening vom 27.10.2026 hatte für `scholz-recycling.com` vermerkt: Die Preisseiten liefern
+**HTTP 500**. Das ist am **31.10.2026, 12:30 UTC** erneut geprüft und **unverändert** bestätigt —
+und um eine entscheidende Beobachtung erweitert:
+
+| Prüfung | Ergebnis |
+|---|---|
+| `https://www.scholz-recycling.com/de/preise/` | **HTTP 500** (37 B Antwort) |
+| `https://www.scholz-recycling.com/de/metallpreise/` | **HTTP 500** (37 B Antwort) |
+| Startseite `/de/` — €-Werte | **0** Treffer auf `€` bzw. „preis“/„price“ |
+| Startseite — JSON-Referenzen | **2**: `/manifest.json` (Web-App-Manifest) und `…/borlabs-cookie-config-de.json` (Cookie-Konfiguration) — **beide ohne jeden Preisindikator** |
+
+**Folgerung:** Für die mit Abstand größte Handler-Gruppe (33 Händler) existiert **keine**
+maschinenlesbare Preisquelle. Die Standortkontakte sind über
+`scholz-recycling.com/standorte-json-nicht-loeschen/` abrufbar (PLZ, Telefon, E-Mail, Zertifikat-
+Links) — **Preise** nicht. Ein Handler für diese Gruppe wäre damit fachlich nicht sinnvoll, weil die
+Voraussetzung (maschinenlesbare Preisliste mit Preis, Einheit und Datum) fehlt.
+
+**Konsequenz für die Backlog-Planung (unverändert bestätigt, aber mit prüfbarer Begründung):**
+Der Hebel bei dieser Gruppe ist **nicht** der Handler, sondern eine **Preisquelle** — oder die
+Entscheidung, die Gruppe bewusst ohne Handler zu führen. Alle drei Preis-Pfade der Scholz-Gruppe
+(`/preise/`, `/metallpreise/`, `/de/preisliste/`) antworten mit HTTP 500; die Sitemap enthält keine
+Preisseite. Bis sich das ändert, ist für diese 33 Händler **kein** Handler-Aufwand gerechtfertigt.
+
+**Nebenbefund derselben Prüfung:** Der Cookie-Config-Endpunkt
+`…/borlabs-cookie-config-de.json` ist öffentlich abrufbar (HTTP 200, 21.930 B) und enthält
+Einwilligungs- und Tracking-Konfiguration. Das ist **keine** Preisquelle, aber ein Hinweis, dass die
+Seite serverseitig konfigurierbar ist — die 500er-Antwort der Preisseiten ist damit kein CDN- oder
+Bot-Schutz-Symptom, sondern ein Serverfehler der Preis-Auslieferung.
