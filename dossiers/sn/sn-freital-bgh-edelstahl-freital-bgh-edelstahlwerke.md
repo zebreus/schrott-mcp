@@ -6,8 +6,6 @@ state: SN
 city: Freital
 street: Am Stahlwerk 1
 postcode: 01705
-lat: 50.9939711
-lon: 13.6405257
 phone: +49 351 646 - 0
 email: ''
 opening_hours: ''

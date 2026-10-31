@@ -6,8 +6,6 @@ state: HE
 city: Schöneck-Oberdorfelden
 street: Falltorstr. 35
 postcode: '61137'
-lat: 50.1951246
-lon: 8.8170915
 phone: ''
 email: ''
 opening_hours: ''

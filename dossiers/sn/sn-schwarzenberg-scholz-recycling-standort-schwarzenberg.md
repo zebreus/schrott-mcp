@@ -6,8 +6,6 @@ state: SN
 city: Schwarzenberg
 street: 'Am Bahnhof 03'
 postcode: '08340'
-lat: 50.5316202
-lon: 12.8178424
 phone: ''
 email: ''
 opening_hours: ''

@@ -6,8 +6,6 @@ state: SN
 city: Leipzig
 street: Riesaer Str. 245/247
 postcode: '04319'
-lat: 51.3497305
-lon: 12.501512
 phone: 0341 26488134
 email: ''
 opening_hours: ''

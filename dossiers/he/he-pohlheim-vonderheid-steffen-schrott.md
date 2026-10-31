@@ -6,8 +6,6 @@ state: HE
 city: Pohlheim
 street: Grenzweg 4
 postcode: '35415'
-lat: 50.5421124
-lon: 8.7459721
 phone: '0641 45127'
 email: ''
 opening_hours: ''

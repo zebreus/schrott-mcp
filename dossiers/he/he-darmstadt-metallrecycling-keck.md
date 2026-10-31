@@ -6,8 +6,6 @@ state: HE
 city: Darmstadt
 street: Haasstr. 3
 postcode: '64293'
-lat: 49.8862426
-lon: 8.620506
 phone: ''
 email: ''
 opening_hours: ''
