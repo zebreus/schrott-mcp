@@ -6,3 +6,6 @@
 .env
 
 __pycache__/
+
+# Scraper-Logs des laufenden Scheduler-Betriebs (nicht Teil des Repos)
+fs_*.log
