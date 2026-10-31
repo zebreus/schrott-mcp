@@ -6,8 +6,6 @@ state: BW
 city: Stuttgart-Feuerbach
 street: Friedrich-Scholer-Str. 5
 postcode: '70469'
-lat: 48.8187473
-lon: 9.1681103
 phone: 0711 25 94 67-0
 email: ''
 opening_hours: Mo-Fr 7-18, Sa 7-13
@@ -47,10 +45,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Die im Seed genannte PREISLISTE ist live erreichbar, aber nicht ohne Anmeldung abrufbar - der Preisinhalt bleibt unbelegt.** Die Seed-Seite https://www.karlerecycling.de/preise-eisenschrotte-und-nichteisenmetalle-feuerbach/ antwortet am 31.10.2026 mit **HTTP 200**, verweist den Nutzer aber ueber einen **SharePoint-Download-Button** (https://karlerecycling.sharepoint.com/:b:/s/Vertriebsteam/IQAfioTEccEZT6HZOvMvwFlSAVPISt34is4a4ohgOQ9-Iv0?e=s3PXJK) auf eine **Microsoft-Login-Seite** (HTTP 200 auf https://login.microsoftonline.com/...) - die Preistabelle selbst ist ohne Konto **nicht** einsehbar. Die Seed-URL bleibt deshalb als Quelle erhalten; der **numerische Ankaufkurs fuer Eisenschrott und NE-Metalle** ist damit **weiterhin nicht belegt** und wird **nicht** erfunden. Die Seitenfusszeile bestaetigt die Dossier-Adresse **Friedrich-Scholer-Str. 5, 70469 Stuttgart**, **Fon 0711 25 94 67-0**, **Fax 0711 25 94 67-98 / 99** sowie „Wertstoffhof Öffnungszeiten: Mo – Fr: 7:30 – 16:00 Uhr“ und „Großwaage am Hauptgebäude: Mo – Fr: 7:00 – 18:00 Uhr / Sa: 7:00 – 13:00 Uhr“. Quelle(n): https://www.karlerecycling.de/preise-eisenschrotte-und-nichteisenmetalle-feuerbach/ ; https://karlerecycling.sharepoint.com/:b:/s/Vertriebsteam/IQAfioTEccEZT6HZOvMvwFlSAVPISt34is4a4ohgOQ9-Iv0?e=s3PXJK (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Offene Punkte.** (a) Die **Preisliste fuer Eisenschrott und NE-Metalle** bleibt hinter einer Anmeldung - die **Ankaufkurse** sind der wichtigste offene Preispunkt des Dossiers. (b) Der **OSM-Way way/468843594** (mit `name=Friedrich-Scholer-Straße`) und das Adressobjekt **way/468843619** (mit `name=Karle Recycling`) sind **verschiedene** Objekte - die Strasse und der Betrieb sind getrennt erfasst. (c) `email` bleibt **leer**: die Ansprechpartner-Mails sind personenbezogen, eine allgemeine Firmenadresse wird auf den geprueften Seiten **nicht** genannt. (d) Die **Geokodierung** ist bereits gesetzt; ein **neuer** Geokodierungsbedarf entsteht **nicht**. Quelle(n): https://api.openstreetmap.org/api/0.6/way/468843619.json ; https://api.openstreetmap.org/api/0.6/way/468843594.json (Abruf 31.10.2026).]
 
-<<<<<<< HEAD
 - [31.10.2026 (Korrekturvermerk): **Quellen-URL berichtigt**: die zitierte Angabe `https://api.openstreetmap.org/api/0.6/map.json` liefert live **HTTP 400** ("The parameter bbox is required"). Die Quelle nennt jetzt das im Dossier dokumentierte Raster (9.1657364,48.8163603,9.1695801,48.8196287). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1657364,48.8163603,9.1695801,48.8196287 (Abruf 31.10.2026)]
-=======
+
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **Koordinate korrigiert**: `lat`/`lon` = **48.8187473/9.1681103** (Mittel der 4 eindeutigen Way-Knoten von way/468843619; Punkt liegt innerhalb der Objekt-BBox). Alter Punkt 48.7968667/9.1706667 lag **2440 m** entfernt. Quelle 1 (OSM): way/468843619 trägt `addr:housenumber`=5, `addr:street`=Friedrich-Scholer-Straße, `addr:city`=Stuttgart, `addr:postcode`=70469, `name`=Karle Recycling. Das Objekt trägt selbst `name`=Karle Recycling und `contact:website`=http://www.jks-karle.com (weiterleitend auf die Betreiberdomain); die drei namensgleichen `landuse=industrial`-Flächen way/218921972, way/218921973 und way/218921974 tragen keine Hausnummer. Quelle 2 (Betreiber): die Seitenfußzeile der Karle-Recycling-Website nennt „Friedrich-Scholer-Str. 5, 70469 Stuttgart“ und die Kontaktseite weist den An- und Verkauf Fe/NE dort zu. Quelle(n): https://api.openstreetmap.org/api/0.6/way/468843619.json ; https://www.karlerecycling.de/kontakt-und-ansprechpartner/ (Abruf 31.10.2026)]
->>>>>>> wave1200c-geo

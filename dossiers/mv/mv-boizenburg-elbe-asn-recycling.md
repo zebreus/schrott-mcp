@@ -6,8 +6,6 @@ state: MV
 city: Boizenburg/Elbe
 street: 'Galliner Straße 54'
 postcode: '19258'
-lat: 53.3823827
-lon: 10.7487576
 phone: ''
 email: ''
 opening_hours: ''
@@ -50,10 +48,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Ankauf, Verkauf und Gebühren getrennt — keine Zahlenpreise, aber konkrete Leistungs- und Gebührenangaben.** **ANKAUF:** die Startseite nennt **„Schrottankauf: Bringen Sie uns Ihren verwertbaren Schrott (z.B. Alu, Kupfer, Mischschrott etc.) und machen Sie Geld daraus! Kommen Sie einfach vorbei.“** — die **Sorten** (Alu, Kupfer, Mischschrott) sind damit betreiberseitig belegt, ein **Zahlenpreis** wird **nicht** genannt; ebenso **„Autoverwertung: Einfach anrufen, Preis und Termin vereinbaren – und wir holen Ihr KFZ/LKW direkt ab!“** — auch beim Fahrzeugankauf kein Zahlenpreis. **VERKAUF:** die Website bietet **keinen Verkauf** von Nutzmaterial oder Ersatzteilen an; die Leistungsübersicht umfasst **ausschließlich Ankauf/Entsorgung**. **GEBÜHREN:** **„Reifenentsorgung: Entsorgen Sie Ihre Altreifen jeglicher Art bei uns für wenig Geld!“** — eine Gebührenangabe **ohne Betrag**; die Formulierung „für wenig Geld“ ist **keine** bezifferte Gebühr. Die **KFZ-Abholung** ist „kostenlos“ **nicht** zugesagt (es heißt „Preis und Termin vereinbaren – und wir holen Ihr KFZ/LKW direkt ab“), die **Abholung** ist damit **nicht** als kostenfrei belegt. Quelle(n): https://asn.gmbh/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Offene Fragen und Geokodierung.** (a) Die **Rechtsform-Kette** (früher Autoverwertung Nord GmbH → ASN Recycling GmbH, GF-Wechsel 05.03.2025) ist durch Impressum (HRB 13169 AG Schwerin, GF Arez Rashid) und die Vorwellen-Registerquellen **bestätigt**; das Dossier **behält** den Namen ASN Recycling GmbH. (b) Der **Wettbewerber LSM Schrott- und Metallhandel** (Galliner Straße 40a, `industrial=scrap_yard`) ist ein **eigenständiger Schrottplatz derselben Straße** — für den Schrott-MCP ist das ein **wichtiger Konkurrent mit eigener Adresse**; ein Dossier dazu existiert im Repo **nicht** (kein Treffer in `dossiers/`), das ist eine **Lücke**, die hier nur benannt und **nicht** eigenständig angelegt wird. (c) **Geokodierungsbedarf:** die Dossier-Adresse **Galliner Straße 54, 19258 Boizenburg/Elbe** ist in OSM belegt (way/145349260, Objekt-BBox 10.7485895/53.3822335 bis 10.7489257/53.3825319, Mitte 10.7487503/53.3824125); der gespeicherte Produktionspunkt **53.3815000/10.7238000** liegt rund **1,7 km** daneben und ist zu ersetzen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/145349260.json ; https://api.openstreetmap.org/api/0.6/node/6918858630.json ; https://asn.gmbh/KONTAKT/ (Abruf 31.10.2026).]
 
-<<<<<<< HEAD
 - [31.10.2026 (Korrekturvermerk): **Phantom-Hausnummer entfernt**: auf der Galliner Straße existiert **kein** `addr:housenumber=18` (live nur 18a–18d, node/1491207876–1491207879). Die Aufzählung nennt jetzt exakt die **71** live vorhandenen Hausnummern; die Objektzahl (77) und die Gesamtzahl (71) sind unverändert korrekt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.7441887,53.3759347,10.7607874,53.3888383 (Abruf 31.10.2026)]
-=======
+
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **Koordinate korrigiert**: `lat`/`lon` = **53.3823827/10.7487576** (Mittel der 4 eindeutigen Way-Knoten von way/145349260; Punkt liegt innerhalb der Objekt-BBox). Alter Punkt 53.3815000/10.7238000 lag **1658 m** entfernt. Quelle 1 (OSM): way/145349260 trägt `addr:housenumber`=54, `addr:street`=Galliner Straße, `addr:city`=Boizenburg/Elbe, `addr:postcode`=19258. Der Wettbewerber node/6918858630 (`name`=LSM Schrott- und Metallhandel, `industrial`=scrap_yard) sitzt mit eigener Hausnummer 40a an derselben Straße. Quelle 2 (Betreiber): das Impressum nennt „ASN Recycling GmbH, Galliner Straße 54, 19258 Boizenburg/Elbe, HRB 13169 AG Schwerin, GF Arez Rashid“; die Register-Kongruenz (Northdata HRB 13169) stützt die Adresse. Quelle(n): https://api.openstreetmap.org/api/0.6/way/145349260.json ; https://asn.gmbh/ (Abruf 31.10.2026)]
->>>>>>> wave1200c-geo
