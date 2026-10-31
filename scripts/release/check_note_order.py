@@ -95,7 +95,10 @@ def main() -> int:
         old_heads = re.findall(r"^### (.+)$", old, re.M)
         heads = re.findall(r"^### (.+)$", new, re.M)
         new_sections = [h for h in heads if h not in old_heads]
-        dated = [h for h in new_sections if DATE_IN_TITLE.search(h)]
+        # Geokodierungs-Abschnitte ("### Geokodierung <datum>") sind eine eigene,
+        # zulaessige Sektionsart und zaehlen nicht als Wellen-Sektion.
+        dated = [h for h in new_sections
+                 if DATE_IN_TITLE.search(h) and not h.startswith("Geokodierung")]
         undated = [h for h in new_sections if not DATE_IN_TITLE.search(h)]
         if undated:
             problems.append(f"{rel}: neue Sektion ohne Datum im Titel: {undated}")
@@ -103,7 +106,11 @@ def main() -> int:
         if has_new_notes and len(dated) != 1:
             problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
                             f"(erwartet: genau 1)")
+        # Nach der Wellen-Sektion darf eine Geokodierungs-Sektion folgen.
+        tail_ok = True
         if dated and heads and heads[-1] != dated[-1]:
+            tail_ok = all(h.startswith("Geokodierung") for h in heads[heads.index(dated[-1]) + 1:])
+        if dated and heads and heads[-1] != dated[-1] and not tail_ok:
             problems.append(f"{rel}: die Wellen-Sektion ist nicht die letzte Sektion")
 
         counts = defaultdict(int)
