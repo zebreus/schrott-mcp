@@ -1,5 +1,7 @@
 ---
 slug: mv-boizenburg-elbe-asn-recycling
+lat: 53.3823827
+lon: 10.7487576
 name: ASN Recycling GmbH
 trader_type: autoverwertung
 state: MV

@@ -1,5 +1,7 @@
 ---
 slug: bw-stuttgart-feuerbach-70469-karle-recycling
+lat: 48.8187473
+lon: 9.1681103
 name: Karle Recycling GmbH
 trader_type: wertstoffhaendler
 state: BW

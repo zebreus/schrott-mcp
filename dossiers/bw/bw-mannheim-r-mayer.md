@@ -1,5 +1,7 @@
 ---
 slug: bw-mannheim-r-mayer
+lat: 49.4435162
+lon: 8.5263549
 name: R. Mayer
 trader_type: schrotthaendler
 state: BW

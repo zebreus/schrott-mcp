@@ -1,5 +1,7 @@
 ---
 slug: by-hausen-k-w
+lat: 48.8525798
+lon: 12.0092950
 name: K&W
 trader_type: sonstige
 state: BY

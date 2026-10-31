@@ -1,5 +1,7 @@
 ---
 slug: by-lindau-aeschach-loacker-recycling-lindau-ehem-fischer-re
+lat: 47.5653167
+lon: 9.6948798
 name: Loacker Recycling Lindau (ehem. Fischer Recycling Lindau GmbH)
 trader_type: sonstige
 state: BY

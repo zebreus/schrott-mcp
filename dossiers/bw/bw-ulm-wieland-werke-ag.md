@@ -1,5 +1,7 @@
 ---
 slug: bw-ulm-wieland-werke-ag
+lat: 48.3554420
+lon: 9.9457561
 name: Wieland-Werke AG
 trader_type: sonstige
 state: BW

@@ -1,5 +1,7 @@
 ---
 slug: hh-billbrook-kiesow-autorecycling-autoteile
+lat: 53.5249029
+lon: 10.0758216
 name: Kiesow Autorecycling + Autoteile GmbH
 trader_type: autoverwertung
 state: HH
