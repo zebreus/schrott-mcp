@@ -64,3 +64,79 @@ Betriebsbeleg.
 - [Recherche 31.10.2026: **Ankauf, Verkauf und Gebühren — betreiberweit, ohne Standort-Preisliste.** ANKAUF: Die Services-Seite der Konzernmutter gilt für „**alle unsere Standorte**": „Sowohl **Kleinstlieferanten und Sammler als auch Gewerbetreibende können an allen unseren Standorten während der Öffnungszeiten ihren Schrott entsorgen**"; abgerechnet wird „**nach Qualität bzw. Klassifizierung und Gewicht … auf Basis der tagesaktuellen Marktpreise**". Private Anlieferer benötigen einen **Personalausweis**, gewerbliche eine **Selbstauskunft**, Fremdmaterial eine **Vollmacht des Material-Eigentümers**. Ausgeschlossen sind **Quecksilber bzw. Quecksilberanhaftungen, Sprengkörper, explosionsverdächtige Gegenstände, geschlossene Hohlkörper** und ionisierende Strahlung über dem Grundstrahlungsniveau. VERKAUF: Die Geschäftsbereiche-Seite beschreibt den Verkauf von **Stahl- und Gussschrotten, NE-Metallschrotten, legierten Stahlschrotten, deklassierten Stahlprodukten**; **Sonderlegierungen** sind dem Standort **Mülheim an der Ruhr** zugeordnet, die Annahme von **Elektronikschrott** ist „**standortabhängig**" und für Gotha **nicht belegt**. Eine **Preisliste je Sorte** existiert nicht. GEBÜHREN: **keine** Gebührentafel, keine Mindestmenge. Die **Allgemeinen Einkaufsbedingungen** (Stand 09/2026) nennen als Zahlungsbedingung **30 Kalendertage netto**, als **Vertragsstrafe** „**0,2 % des Preises (Netto-Rechnungswert) … pro vollendetem Werktag**", „**höchstens jedoch 5 %**"; maßgebend ist nach § 5 das „**Empfangsgewicht und -befund**". Quelle(n): https://www.scholz-recycling.com/services/ ; https://www.scholz-recycling.com/geschaeftsbereiche/ ; https://www.scholz-recycling.com/wp-content/uploads/AGB_EK_SRG_final_01.09.2026_DE.pdf (Abruf 31.10.2026)]
 - [Korrektur 31.10.2026: `phone` auf **+49 3621 453412** gesetzt (offizieller Standort-Datensatz des Betreibers; das Dossier-Feld war leer). `email` auf **gotha@scholz-recycling.de** gesetzt (offizieller Standort-Datensatz). `opening_hours` auf **„Mo-Do 07:30-12:00, 12:45-16:00, Fr 07:30-12:00, 12:45-14:00, Sa geschlossen; 1. Samstag im Monat 08:00-11:30"** gesetzt (offizieller Standort-Datensatz; die monatliche Samstags-Sonderöffnung wird **ausdrücklich** als solche geführt und nicht zu einem Regel-Samstag verallgemeinert). `description` gefüllt: zertifizierter Entsorgungsfachbetrieb (ESN 98-040112 (26), gültig bis 30.09.2027) mit vier Anlagen; Anlieferung durch Kleinstlieferanten, Sammler und Gewerbetreibende während der Öffnungszeiten, Abrechnung nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. `street`, `postcode`, `website` und `website_status` bleiben unverändert — sie stimmen mit Zertifikat und Betreiber-Datensatz überein. Quelle(n): https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ; https://www.scholz-recycling.com/wp-content/uploads/260423_UeZEFB_GTH.pdf (Abruf 31.10.2026)]
 - [Recherche 31.10.2026: **OSM live geprüft (Passauer Straße, Gotha) — der Betrieb ist an der Dossier-Hausnummer kartiert, mit Öffnungszeiten, die den Betreiberangaben entsprechen.** Raster über den **gesamten** Straßenverlauf: **10.7116853/50.9475835 bis 10.7258836/50.9636001**, **4 Kacheln (Schritt 0,01 Grad), 0 Kachel-Fehler**. Zählung getrennt für die Straße „Passauer Straße": **3 Adressobjekte / 2 verschiedene Hausnummern** (1, 5), im gesamten Rastergebiet **509 Adressobjekte mit Hausnummer**; im Raster tragen **336 Objekte `name=`** und **98 Objekte `operator=`**. **Hausnummer 5 existiert** und trägt den Betrieb: **way/222142337** mit `addr:housenumber=5`, `addr:street=Passauer Straße`, `addr:city=Gotha`, `addr:postcode=99867`, `name=Scholz Recycling`, `amenity=recycling`, `recycling_type=centre`, `recycling:scrap_metal=yes`, `opening_hours=Mo-Th 07:30-12:00,12:45-16:00; Fr 07:30-12:00,12:45-15:00`. Weitere Objekte mit Bezug zum Betrieb im Raster: **1 Objekt** — way/222142337 (s.o.). Das ist ein **positiver Betriebsbeleg**. **Zeitabgleich:** Die OSM-Öffnungszeiten (**Mo–Do 07:30–12:00, 12:45–16:00; Fr 07:30–12:00, 12:45–15:00**) stimmen mit dem Betreiber-Standortdatensatz überein; beim **Freitag** weicht das OSM-Objekt allerdings um **15 Minuten** ab (**12:45–15:00** in OSM gegenüber **12:45–14:00** im Betreiber-Datensatz). Das ist als **beobachtete Abweichung** festgehalten; der **Betreiber-Datensatz** wird als maßgeblich geführt, das OSM-Objekt ist **nicht datiert**. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.7116853,50.9475835,10.7258836,50.9636001 (ausfuehrbare URL; Rasterfenster 10.7116853/50.9475835 bis 10.7258836/50.9636001, Kacheln live abgerufen 31.10.2026) ; https://api.openstreetmap.org/api/0.6/way/222142337.json]
+
+### Recherche 01.11.2026
+
+- [Recherche 01.11.2026: **Preisquelle fuer Gotha: keine.** Die Standortseite des Betreibers]
+  (https://www.scholz-recycling.com/standort/gotha/) wurde am 01.11.2026 mit vollstaendigen Browser-Headern
+  abgerufen (HTTP/2, User-Agent Chrome 131, `Accept`, `Accept-Language`, `Sec-Fetch-Dest/Mode/Site/User`,
+  `Upgrade-Insecure-Requests`, `--compressed`, Cookie-Zustimmung `cookie_consent=yes; borlabs-cookie-consent=all`)
+  und liefert HTTP 200 mit dem Titel "Gotha &#8211; Scholz Recycling"; im gerenderten Text und im Roh-HTML stehen
+  **keine** Zahlenwerte mit Einheit, kein Eurozeichen, kein "Ankaufspreis" und keine "Preisliste". Der
+  Standort-JSON-Feed des Betreibers (live https://www.scholz-recycling.com/standorte-json-nicht-loeschen/) weist
+  fuer diesen Betrieb "Scholz Recycling GmbH", "Passauer Str. 5", 99867 Gotha, Telefon "+49 3621 453412" und
+  E-Mail "gotha@scholz-recycling.de" aus und fuehrt 3 Nachweise (241228_ISO-50001_SRG_de_en_2024.pdf,
+  260423_UeZEFB_GTH.pdf, 260423_Bescheinigung-AltautoV-GTH.pdf) - **kein** Preisfeld. Der Sorten- und
+  Annahmeumfang ist im Konzern-Bereich "Geschaeftsbereiche" (Stahlschrotte, NE-Metalle, Legierte Stahlschrotte,
+  Deklassierte Stahlprodukte, Sonderlegierungen, Wertstoffe) und in "Services" beschrieben, aber **ohne**
+  Zahlenwerte. Dort steht woertlich "Die Abrechnung erfolgt nach Qualitaet bzw. Klassifizierung und Gewicht,
+  transparent und fair auf Basis der tagesaktuellen Marktpreise" und "Die Abrechnung erfolgt transparent und fair
+  auf Basis der tagesaktuellen Marktpreise, die mithilfe der branchenueblichen Preisindizes wie z.B. BDSV oder LME
+  ermittelt werden" - das ist die Preismethodik, kein Ankaufspreis. **Preisarten getrennt:** ANKAUF - **kein
+  belegbarer Ankaufspreis** fuer diesen Standort, weder eine Preisliste mit Wert und Einheit noch eine Sortenliste
+  mit Preisspalte; VERKAUF - keine Verkaufspreisliste, keine Vormaterialangebote; GEBUEHREN - keine Tarif- oder
+  Gebuehrentafel fuer Containerdienst, Waage oder Annahme; MARKT- UND BOERSENKURS - die BDSV-Durchschnittspreise
+  (live https://www.bdsv.org/unser-service/markt-preise/, Stand 09/2026: Sorte 1 = 254,6 EUR/t, Sorte 2/8 = 294,6
+  EUR/t, Sorte 3 = 289,0 EUR/t, Sorte 4 = 302,9 EUR/t, Sorte 5 = 246,5 EUR/t) sind **Lagerverkaufspreise** der
+  BDSV-Mitgliedsunternehmen und damit **kein** Haendler-Ankaufspreis; KOMMUNALE GEBUEHR - fuer diesen Standort
+  nicht einschlaegig, es wird keine kommunale Gebuehr ausgewiesen. **Negativbefunde je Weg:** (1) die Startseite
+  https://www.scholz-recycling.com/ antwortet auch mit vollstaendigen Browser-Headern mit **HTTP 503** (Edge-Block
+  "The page is temporarily unavailable"); das ist **keine** Bot-Challenge wie bei TSR, denn die Inhalte sind ueber
+  https://r.jina.ai/https://www.scholz-recycling.com/ vollstaendig abrufbar (HTTP 200, 18.726 Bytes) und alle
+  Unterseiten liefern HTTP 200; (2) `robots.txt` (HTTP 200) verweist auf `wp-sitemap.xml`, dessen Index
+  (posts-post, posts-page, posts-standort, taxonomies-category, users) **keine** Preis-URL enthaelt; (3) alle
+  **185** Standortseiten des Betreibers wurden einzeln abgerufen, **null** davon traegt einen Preis-Marker; (4)
+  die REST-API (294 Routen, `x-wp-total` posts 39 / pages 20 / media 408) fuehrt **keinen** Post-Type `preise`,
+  und die Pfade /preise/, /ankaufpreise/, /schrottpreise/, /sorten/, /sortenprogramm/, /metallpreise/,
+  /downloads/, /medien/, /leistungen/, /lieferanten/, /einkauf/, /kunden/, /kunden/schrottlieferanten/,
+  /kunden/privatkunden/ und /einkaufsbedingungen/ liefern HTTP 500 (WordPress-404); die einzigen Pfade mit HTTP
+  200 sind /service/ (Weiterleitung auf /services/, ohne Preise), /verkauf/ (Weiterleitung auf die
+  Derichebourg-Verkaufsmeldung, ohne Preise) und /veroeffentlichungen/ (Weiterleitung auf
+  /veroeffentlichungen/cbcr-reporting/, CbCR-Transparenz, ohne Preise), waehrend die Mediathek-Suche nach
+  `preise`, `preisliste`, `ankauf`, `entgelt`, `vergütung`, `tarife` und `sorten` jeweils **null** Treffer
+  liefert; (5) die Einkaufsbedingungen (AGB_EK_SRG_final_01.09.2026_DE.pdf und
+  Allg_Vertragsbedingungen_Indirekter_Einkauf_09.10.2025_DE.pdf) nennen nur Zahlungsziele (30 Kalendertage netto)
+  und Vertragsstrafen (0,2 % des Preises je Werktag, hoechstens 5 %) - **keine** Preise. **Wayback Machine, vom
+  Screening nicht geprueft und hier erstmals geprueft:**
+  `http://archive.org/wayback/available?url=scholz-recycling.com&timestamp=20261001` liefert den Snapshot
+  20261009123137 (HTTP 200, ohne Preiszeile); die CDX-Liste
+  `http://web.archive.org/cdx/search/cdx?url=scholz-recycling.com*&output=text&limit=800&collapse=urlkey` (1.807
+  URL-Keys) und die Domain-Sicht auf scholz-recycling.de, scholz-ag.de und recy-online.scholz-group.com enthalten
+  **keine** Preislisten-URL. Der einzige Preis-Kandidat der alten TYPO3-Site,
+  `/fileadmin/PDF/europaeische_schrottsortenliste_deutsch.pdf` (Snapshot 20090509232626, live 29.982 Bytes), ist
+  eine reine **Sortenliste ohne Preise** (E1/E2/E3/E8/E40/E5 mit Abmessungen und Schuttanteil, kein Eurobetrag) -
+  also ein Sortenprogramm, kein Preis. Der Wayback-Snapshot der Standortseite ist fuer die Sichtung mitgeprueft:
+  gotha (10 Snapshots, letzter 20250209215025) - in **allen** Faellen dieselbe JS-Platzhalter-Seite ohne
+  Zahlenwert, Eurozeichen oder "Preisliste". **Schwesterbetriebe und Gruppen-Domains:** `eko-schrottrecycling.de`,
+  `studo-schrott.de`, `srt-schrott-recycling.de` und `scholz-industrie.de` sind **DNS-NXDOMAIN** und haben also
+  keine eigene Preisliste; `scholz-recycling.de` und `scholz-group.com` loesen zwar auf 89.31.143.90 auf, der
+  Verbindungsversuch laeuft aber in einen Timeout (keine Website);
+  `recy-online.scholz-group.com:4437/RecyOnline/Login/` ist das EDI-Portal **login-geschuetzt** (Benutzername /
+  Passwort) und damit fuer Dritte keine Preisquelle; die live erreichbaren Schwester `srw-recycling.de` (SRW
+  metalfloat, 24 Sitemap-URLs) und `fegert-recycling.de` (Fegert, 5 Standorte) veroeffentlichen **keine** Preise.
+  **Als Kandidat geprueft und verworfen:** der Marktplatz-Auftritt
+  `https://www.wlw.de/de/showroom/scholz-recycling-aktuelle-schrottpreise` fuehrt unter der Ueberschrift "Arten
+  von Scholz Recycling aktuelle Schrottpreise" Zahlenpaare wie "Kupferschrott ... 6,00 - 7,50 EUR",
+  "Aluminiumschrott ... 1,80 - 2,40 EUR" und "Stahlschrott ... 0,15 - 0,30 EUR" je kg. Das ist **keine**
+  Preisquelle der Scholz Recycling GmbH: die Seite ist eine SEO-Keyphrase-Seite mit automatisch erzeugten
+  Abschnitten ("How to Choose scholz recycling aktuelle schrottpreise", "Wartungsanweisungen fuer scholz recycling
+  aktuelle schrottpreise"), die angebotenen Produkte stammen von **anderen** Lieferanten (Mr.Schrott, Stuhlmann &
+  Redzic, H. Carnuth KG), Scholz Recycling GmbH selbst hat dort kein Lieferantenprofil
+  (`/de/companies/scholz-recycling-gmbh` = HTTP 404), die Werte stehen ohne Datum und mit "ca." - kein datierter,
+  standortbezogener Betreiberpreis. Quelle(n): https://www.scholz-recycling.com/services/ ;
+  https://www.scholz-recycling.com/geschaeftsbereiche/ ;
+  https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ;
+  https://www.scholz-recycling.com/wp-json/wp/v2/types ; https://www.scholz-recycling.com/wp-json/wp/v2/media ;
+  https://www.scholz-recycling.com/wp-sitemap.xml ; https://www.scholz-recycling.com/robots.txt ;
+  http://web.archive.org/cdx/search/cdx?url=scholz-recycling.com*&output=text&limit=800&collapse=urlkey ;
+  https://www.bdsv.org/unser-service/markt-preise/ (Abruf 01.11.2026, 12:00-Welle)]
