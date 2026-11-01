@@ -1,5 +1,20 @@
 # Preisquellen-Screening Ketten- und Großstandort-Domains — 01.11.2026
 
+> **Korrektur vom 01.11.2026, 07:40 UTC (Owner-Prüfung).** Die Domain-Map dieses Screenings
+> hat die Domains **systematisch falsch extrahiert** — jeweils fehlen die **führenden Zeichen**
+> des Labels: `https://www.weckwerth-schrott.de` → `eckwerth-schrott.de`,
+> `https://www.wertstoff-dealer.de` → `wertstoff-dealer.de`,
+> `https://www.wasdrack.de` → `asdrack.de`, `https://www.wegrogmbh.de` → `egrogmbh.de`,
+> `https://www.wittmann-recycling.de` → `ittmann-recycling.de`, `https://wil-ro.de` → `il-ro.de`,
+> `https://www.weli-stahl.de` → `eli-stahl.de`. Daraus folgten 13 vermeintlich „tote“ Domains.
+> **Live nachgeprüft (DNS + HTTP, beide Hostformen): alle diese Domains sind erreichbar** —
+> einzige Ausnahme ist `rm-schrotthandel.de` (wirklich NXDOMAIN). Die Abschnitte **B.4** und
+> **D.4** sind daher in diesem Punkt **überholt**: aus einer toten Domain darf kein
+> `website_status: tot` abgeleitet werden. Die Wellen-Recherche 01.11. 06:00 hat die Korrektur
+> bestätigt und die betroffenen Dossiers mit der belegten Negativaussage dokumentiert
+> (`research/wave-20261101-0600-report.md`).
+
+
 **Auftrag:** Fertigstellung des Domain-Screenings mit Challenge-Erkennung; Ergebnisbericht.
 **Bearbeitet:** 01.11.2026, 03:35–04:20 UTC (Abrufe durchgehend am 01.11.2026).
 **Methode:** Read-only HTTP-GET mit Browser-User-Agent, Timeout 25 s. Pro Domain: Startseite (https, Fallback http) → Challenge-Erkennung → robots.txt + sitemap.xml + robots-Sitemap-Hinweise → Link-Harvesting (Ankertext + URL) → generische Preispfade → Kandidatenabruf mit Marker-Sweep → PDF-Extraktion via `pdftotext -layout` → Preiszeilen-Erkennung (Wert **und** Einheit) → Datums-Token-Suche.
