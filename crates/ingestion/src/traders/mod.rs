@@ -271,14 +271,20 @@ pub fn normalize_phone(raw: &str) -> String {
     // normalized; the rest of the text (a second number, a "(mobil …)"
     // note) is kept verbatim, so no digit of it can be lost or merged.
     for sep in [", ", " ("] {
-        if let Some(pos) = body.find(sep) {
-            let head = body[..pos].trim_end();
-            let tail = &body[pos..];
-            if head.is_empty() {
-                return format!("{trimmed}{ext}");
-            }
-            return format!("{}{}{ext}", normalize_phone_one(head), tail);
+        let Some(pos) = body.find(sep) else {
+            continue;
+        };
+        // A parenthesized **area code** ("+49 (351) 2596973") is part of the
+        // number, not an annotation.
+        if sep == " (" && is_parenthesized_area_code(&body[pos..]) {
+            continue;
         }
+        let head = body[..pos].trim_end();
+        let tail = &body[pos..];
+        if head.is_empty() {
+            return format!("{trimmed}{ext}");
+        }
+        return format!("{}{}{ext}", normalize_phone_one(head), tail);
     }
     // A spaced slash either separates two complete numbers ("0331 5858558 /
     // 0179 4855580") or belongs to one number ("39 292 / 20 90").
@@ -387,6 +393,20 @@ fn area_group_count(groups: &[String]) -> usize {
         count += 1;
     }
     count
+}
+
+/// True for a parenthesized area code ("(351)", "(040)") - the German print
+/// form of the area code with the trunk zero omitted. Such a parenthesis
+/// belongs to the number, not to an annotation.
+fn is_parenthesized_area_code(tail: &str) -> bool {
+    let Some(rest) = tail.strip_prefix(" (") else {
+        return false;
+    };
+    let Some(end) = rest.find(')') else {
+        return false;
+    };
+    let content = &rest[..end];
+    !content.is_empty() && content.len() <= 6 && content.chars().all(|c| c.is_ascii_digit())
 }
 
 /// All digits of a string, in order.
@@ -1227,7 +1247,7 @@ fn normalize_unit(
 
 #[cfg(test)]
 mod tests {
-    use super::{normalize_phone, parse_de_date, parse_eur};
+    use super::{is_parenthesized_area_code, normalize_phone, parse_de_date, parse_eur};
 
     #[test]
     fn german_numbers() {
@@ -2139,23 +2159,70 @@ mod tests {
                     !phone.contains("(0)"),
                     "{slug}: ungueltige Auslands-Null in der Telefonnummer: {phone}"
                 );
-                let has_country_code = phone.contains("+49") || phone.contains("0049");
+                let paren_is_area_code = phone
+                    .find(" (")
+                    .map(|p| is_parenthesized_area_code(&phone[p..]))
+                    .unwrap_or(false);
                 let is_multi_part = phone.contains(", ")
                     || phone.contains(" / ")
-                    || phone.contains(" (")
-                    || phone.contains(',');
-                if !has_country_code && !is_multi_part {
-                    let digits =
-                        |s: &str| -> String { s.chars().filter(char::is_ascii_digit).collect() };
+                    || phone.contains(',')
+                    || (phone.contains(" (") && !paren_is_area_code);
+                if !is_multi_part {
+                    // Die Ziffernfolge muss erhalten bleiben: die Auslandsform
+                    // verliert den Laendercode, die Inlandform gewinnt die
+                    // Trunknull, wenn die gedruckte Form sie nicht mitbringt.
+                    let printed = phone
+                        .replace("(0049)", " ")
+                        .replace("(+49)", " ")
+                        .replace("(49)", " ")
+                        .replace("(0)", " ");
+                    let trimmed = printed.trim_start();
+                    let without_country =
+                        if trimmed.starts_with("+49") || trimmed.starts_with("0049") {
+                            &trimmed[3..]
+                        } else {
+                            trimmed
+                        };
+                    let mut expected: String = without_country
+                        .chars()
+                        .filter(char::is_ascii_digit)
+                        .collect();
+                    if expected.is_empty() {
+                        // Kein Ziffernwert (leer, "n. a.") - nichts zu pruefen.
+                        continue;
+                    }
+                    // Die Inlandform traegt die Trunknull immer, wenn die
+                    // gedruckte Form sie nicht mitbringt.
+                    if !expected.starts_with('0') {
+                        expected.insert(0, '0');
+                    }
+                    let actual: String = normalize_phone(&phone)
+                        .chars()
+                        .filter(char::is_ascii_digit)
+                        .collect();
                     assert_eq!(
-                        digits(&normalize_phone(&phone)),
-                        digits(&phone),
-                        "{slug}: Telefonnummer verliert Ziffern: {phone}"
+                        actual, expected,
+                        "{slug}: Telefonnummer veraendert die Ziffernfolge: {phone}"
                     );
                 }
             }
         }
         assert!(checked > 100, "keine Telefonnummern im Korpus gefunden");
+    }
+
+    #[test]
+    fn normalize_phone_handles_a_parenthesized_area_code() {
+        // Die deutsche Druckform "+49 (351) 2596973" - die Klammer gehoert
+        // zur Vorwahl, nicht zu einer Anmerkung.
+        assert_eq!(normalize_phone("+49 (351) 2596973"), "0351 2596973");
+        assert_eq!(normalize_phone("+49 (40) 24 44 03"), "040 244403");
+        assert_eq!(normalize_phone("+49 (341) 23 06 49 95"), "0341 23064995");
+        assert_eq!(normalize_phone("+49 (4255) 9797859"), "04255 9797859");
+        // Eine Anmerkung bleibt eine Anmerkung.
+        assert_eq!(
+            normalize_phone("03378 510500 (mobil 0160 99321166)"),
+            "03378 510500 (mobil 0160 99321166)"
+        );
     }
 
     #[test]
