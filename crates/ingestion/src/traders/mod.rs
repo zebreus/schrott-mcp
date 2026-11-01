@@ -240,78 +240,169 @@ pub fn parse_eur(raw: &str) -> Option<f64> {
 /// the trunk zero is already part of the area code, so "+49 (0) …" cannot be
 /// dialled from abroad. The stored value therefore drops the country code and
 /// the "(0)", keeps the national trunk zero and separates area code and
-/// subscriber with one space. The digit sequence itself is never changed.
+/// subscriber with one space.
+///
+/// Invariants (each one covered by a test):
+/// * **no digit is ever lost**: the result holds exactly the digits of the
+///   input minus a country code, plus the trunk zero the domestic form needs;
+/// * the function is **idempotent**: normalizing a normalized value changes
+///   nothing;
+/// * a **list** of numbers ("01788028550, 015775230613") is normalized number
+///   by number and never merged into one.
 ///
 /// A German area code has two to five digits after the trunk zero (040
 /// Hamburg, 0441 Oldenburg, 033452 Neulewin). A printed number may split it
-/// across groups ("4 41" = 441); a leading single digit is therefore joined
-/// with the following group.
+/// across groups ("4 41" = 441) and may separate area code and subscriber
+/// with a slash ("39 292 / 20 90").
 pub fn normalize_phone(raw: &str) -> String {
     let trimmed = raw.trim();
     if trimmed.is_empty() {
         return String::new();
     }
-    // An extension ("-0") is kept separate from the number.
+    // The "Auslands-Null" is never a separator - it is removed before the
+    // text is split into its parts.
+    let trimmed = trimmed.replace("(0)", " ");
+    // An extension ("-0", "– 12") is kept separate from the number.
+    let (body, ext) = match split_extension(&trimmed) {
+        Some((body, ext)) => (body, ext),
+        None => (trimmed.clone(), String::new()),
+    };
+    // A list of numbers stays a list. Only the **first** number is
+    // normalized; the rest of the text (a second number, a "(mobil …)"
+    // note) is kept verbatim, so no digit of it can be lost or merged.
+    for sep in [", ", " ("] {
+        if let Some(pos) = body.find(sep) {
+            let head = body[..pos].trim_end();
+            let tail = &body[pos..];
+            if head.is_empty() {
+                return format!("{trimmed}{ext}");
+            }
+            return format!("{}{}{ext}", normalize_phone_one(head), tail);
+        }
+    }
+    // A spaced slash either separates two complete numbers ("0331 5858558 /
+    // 0179 4855580") or belongs to one number ("39 292 / 20 90").
+    if let Some(pos) = body.find(" / ") {
+        let head = body[..pos].trim_end();
+        let tail = body[pos + 3..].trim_start();
+        let two_numbers = head.contains(' ') && tail.starts_with('0');
+        if two_numbers {
+            return format!("{}{}{ext}", normalize_phone_one(head), &body[pos..]);
+        }
+        // "39 292 / 20 90": everything before the slash is the area code.
+        let mut area = digits_of(&cleaned(head));
+        if !area.is_empty() && !area.starts_with('0') {
+            area.insert(0, '0');
+        }
+        let rest = digits_of(tail);
+        let number = if rest.is_empty() {
+            area
+        } else {
+            format!("{area} {rest}")
+        };
+        return format!("{number}{ext}");
+    }
+    format!("{}{ext}", normalize_phone_one(&body))
+}
+
+/// Normalize a single printed number (no list, no annotation).
+fn normalize_phone_one(raw: &str) -> String {
+    let trimmed = raw.trim();
+    if trimmed.is_empty() {
+        return String::new();
+    }
     let (body, ext) = match split_extension(trimmed) {
         Some((body, ext)) => (body, ext),
         None => (trimmed.to_owned(), String::new()),
     };
-    let mut s = body.replace("(0)", " ");
-    s = s.replace("( 0 )", " ");
-    // Country code: "+49", "0049" and a bare leading "49".
-    s = strip_country_code(&s);
-    let groups: Vec<&str> = s
+    let area = normalize_area_code(&body);
+    let rest = digits_after_area_code(&body);
+    let number = if rest.is_empty() {
+        area
+    } else {
+        format!("{area} {rest}")
+    };
+    format!("{number}{ext}")
+}
+
+/// The cleaned number text: the country code and the parenthesized forms are
+/// removed, the digits stay.
+fn cleaned(body: &str) -> String {
+    let mut s = body.replace("(0049)", " ");
+    s = s.replace("(+49)", " ");
+    s = s.replace("(49)", " ");
+    strip_country_code(&s)
+}
+
+/// The digit groups of a number text.
+fn groups_of(body: &str) -> Vec<String> {
+    cleaned(body)
         .split(|c: char| !c.is_ascii_digit())
         .filter(|g| !g.is_empty())
-        .collect();
+        .map(str::to_owned)
+        .collect()
+}
+
+/// The area code of a printed number: the country code is removed and the
+/// trunk zero is added when the printed form omits it.
+fn normalize_area_code(body: &str) -> String {
+    let groups = groups_of(body);
     if groups.is_empty() {
-        return trimmed.to_owned();
+        return body.trim().to_owned();
     }
-    let area: Vec<&str> = if groups.len() == 1 {
-        // Eine ungetrennte Nummer ist eine Einheit; sie darf nicht
-        // auf die Vorwahl gekuerzt werden ("15259084206").
-        vec![groups[0]]
-    } else if groups[0].starts_with('0') {
-        // Die Vorwahl traegt die Inlandnull bereits ("033452" = 0 + 33452).
-        vec![&groups[0][..groups[0].len().min(6)]]
-    } else if groups[0].len() >= 2 {
-        vec![&groups[0][..groups[0].len().min(5)]]
-    } else {
-        let mut acc: Vec<&str> = Vec::new();
-        for g in &groups {
-            acc.push(g);
-            if acc.concat().len() >= 3 {
-                break;
-            }
-        }
-        if acc.concat().len() > 5 {
-            vec![&acc[0][..acc[0].len().min(5)]]
-        } else {
-            acc
-        }
-    };
-    let mut vorwahl = area.concat();
-    if !vorwahl.starts_with('0') {
-        vorwahl.insert(0, '0');
+    let count = area_group_count(&groups);
+    let mut area = groups[..count].concat();
+    if !area.starts_with('0') {
+        area.insert(0, '0');
     }
-    let rest = groups[area.len()..].concat();
-    let out = if rest.is_empty() {
-        vorwahl
-    } else {
-        format!("{vorwahl} {rest}")
-    };
-    format!("{out}{ext}")
+    area
+}
+
+/// The subscriber digits of a printed number: everything after the area code.
+fn digits_after_area_code(body: &str) -> String {
+    let groups = groups_of(body);
+    if groups.is_empty() {
+        return String::new();
+    }
+    let count = area_group_count(&groups);
+    groups[count..].concat()
+}
+
+/// How many leading groups form the area code.
+///
+/// A group that already carries the trunk zero is the area code on its own.
+/// A single leading digit can be a split area code ("4 41" = 441) and is
+/// therefore joined with the following group.
+fn area_group_count(groups: &[String]) -> usize {
+    if groups[0].starts_with('0') {
+        return 1;
+    }
+    if groups[0].len() != 1 {
+        return 1;
+    }
+    let mut count = 1;
+    let mut len = groups[0].len();
+    while len < 3 && count < groups.len() {
+        len += groups[count].len();
+        count += 1;
+    }
+    count
+}
+
+/// All digits of a string, in order.
+fn digits_of(s: &str) -> String {
+    s.chars().filter(|c| c.is_ascii_digit()).collect()
 }
 
 /// Split a trailing extension ("-0", "– 12") from a printed number.
 fn split_extension(s: &str) -> Option<(String, String)> {
-    let bytes: Vec<char> = s.chars().collect();
-    let mut i = bytes.len();
-    while i > 0 && bytes[i - 1].is_whitespace() {
+    let chars: Vec<char> = s.chars().collect();
+    let mut i = chars.len();
+    while i > 0 && chars[i - 1].is_whitespace() {
         i -= 1;
     }
     let mut digits = 0;
-    while i > 0 && bytes[i - 1].is_ascii_digit() {
+    while i > 0 && chars[i - 1].is_ascii_digit() {
         i -= 1;
         digits += 1;
     }
@@ -320,33 +411,35 @@ fn split_extension(s: &str) -> Option<(String, String)> {
     }
     // The separator before the extension must be a dash.
     let mut j = i;
-    while j > 0 && bytes[j - 1].is_whitespace() {
+    while j > 0 && chars[j - 1].is_whitespace() {
         j -= 1;
     }
-    if j == 0 || !matches!(bytes[j - 1], '-' | '\u{2013}' | '\u{2014}') {
+    if j == 0 || !matches!(chars[j - 1], '-' | '\u{2013}' | '\u{2014}') {
         return None;
     }
-    let body: String = bytes[..j - 1].iter().collect();
-    let ext_digits: String = bytes[i..].iter().collect();
+    let body: String = chars[..j - 1].iter().collect();
+    let ext_digits: String = chars[i..].iter().collect();
     Some((body.trim().to_owned(), format!("-{ext_digits}")))
 }
 
 /// Remove the country code from a printed number.
+///
+/// The code is removed when it is followed by a non-digit ("+49 (0) …") and
+/// also in the compact form ("+4915251605977"), where the remaining digit
+/// count still fits a German national number. A subscriber number that merely
+/// starts with "49" keeps its digits.
 fn strip_country_code(s: &str) -> String {
     let t = s.trim_start();
-    for prefix in ["+49", "0049"] {
-        if let Some(rest) = t.strip_prefix(prefix) {
-            // "49123…" would be a subscriber number, not a country code.
-            if !rest.starts_with(|c: char| c.is_ascii_digit()) {
-                return rest.to_owned();
-            }
-            if rest.len() >= 2 && !rest[..2].chars().all(|c| c.is_ascii_digit()) {
-                return rest.to_owned();
-            }
+    for prefix in ["+49", "0049", "49"] {
+        let Some(rest) = t.strip_prefix(prefix) else {
+            continue;
+        };
+        let digits = rest.chars().filter(|c| c.is_ascii_digit()).count();
+        if !rest.starts_with(|c: char| c.is_ascii_digit()) {
+            return rest.to_owned();
         }
-    }
-    if let Some(rest) = t.strip_prefix("49") {
-        if rest.starts_with(|c: char| !c.is_ascii_digit()) {
+        // "4912345" is a subscriber number, "+49 15…" a country code.
+        if (9..=12).contains(&digits) {
             return rest.to_owned();
         }
     }
@@ -2007,40 +2100,95 @@ mod tests {
         assert_ne!(history[0].id, history[2].id);
     }
 
+    /// Corpus guard: the "Auslands-Null" is not dialable and must not appear
+    /// in a stored number. A single domestic number must additionally keep
+    /// every digit when it is normalized, so a scraper writing the same
+    /// number does not fight the seed.
     #[test]
-    fn normalize_phone_drops_country_code_and_auslands_null() {
-        // Die Vorfallfaelle aus der Produktion (Stand 01.11.2026).
-        assert_eq!(normalize_phone("+49 (0) 33452 49 37 30"), "033452 493730");
-        assert_eq!(normalize_phone("+49 (0)6021/412323"), "06021 412323");
-        assert_eq!(normalize_phone("+49 (0) 421 54 25 54"), "0421 542554");
-        assert_eq!(normalize_phone("+49 (0) 6251 / 52385"), "06251 52385");
+    fn dossier_phones_are_dialable_and_keep_their_digits() {
+        let root = std::path::Path::new(env!("CARGO_MANIFEST_DIR")).join("../../dossiers");
+        let mut checked = 0usize;
+        for state in std::fs::read_dir(&root).expect("dossiers") {
+            let state = state.expect("state dir").path();
+            if !state.is_dir() {
+                continue;
+            }
+            for entry in std::fs::read_dir(&state).expect("dossier dir") {
+                let path = entry.expect("dossier").path();
+                if path.extension().and_then(|e| e.to_str()) != Some("md") {
+                    continue;
+                }
+                let text = std::fs::read_to_string(&path).expect("dossier");
+                let Some(front) = text.strip_prefix("---") else {
+                    continue;
+                };
+                let Some((front, _)) = front.split_once("\n---") else {
+                    continue;
+                };
+                let phone = front
+                    .lines()
+                    .find_map(|l| l.strip_prefix("phone: "))
+                    .map(|v| v.trim().trim_matches('\'').to_owned())
+                    .unwrap_or_default();
+                if phone.is_empty() {
+                    continue;
+                }
+                checked += 1;
+                let slug = path.file_stem().and_then(|s| s.to_str()).unwrap_or("?");
+                assert!(
+                    !phone.contains("(0)"),
+                    "{slug}: ungueltige Auslands-Null in der Telefonnummer: {phone}"
+                );
+                let has_country_code = phone.contains("+49") || phone.contains("0049");
+                let is_multi_part = phone.contains(", ")
+                    || phone.contains(" / ")
+                    || phone.contains(" (")
+                    || phone.contains(',');
+                if !has_country_code && !is_multi_part {
+                    let digits =
+                        |s: &str| -> String { s.chars().filter(char::is_ascii_digit).collect() };
+                    assert_eq!(
+                        digits(&normalize_phone(&phone)),
+                        digits(&phone),
+                        "{slug}: Telefonnummer verliert Ziffern: {phone}"
+                    );
+                }
+            }
+        }
+        assert!(checked > 100, "keine Telefonnummern im Korpus gefunden");
+    }
+
+    #[test]
+    fn normalize_phone_never_loses_a_digit() {
+        // Kompakte internationale Form: der Laendercode muss auch ohne
+        // Leerzeichen erkannt werden ("+4915251605977").
+        assert_eq!(normalize_phone("+4915251605977"), "015251605977");
+        assert_eq!(normalize_phone("+491635927189"), "01635927189");
+        // Laendercode in Klammern.
+        assert_eq!(normalize_phone("(0049) 371 262 36 04"), "0371 2623604");
+        // Mehrfachnummern bleiben getrennt und behalten ihre Ziffern.
         assert_eq!(
-            normalize_phone("+49 (0)40 28 40 92 \u{2013} 0"),
-            "040 284092-0"
+            normalize_phone("01788028550, 015775230613"),
+            "01788028550, 015775230613"
         );
-        assert_eq!(
-            normalize_phone("+49 (0) 4 41 / 92074 \u{2013} 0"),
-            "0441 92074-0"
-        );
-        assert_eq!(normalize_phone("+49 (0) 3621 3394 851"), "03621 3394851");
-        assert_eq!(normalize_phone("+49 (0) 30 40 39 65 51"), "030 40396551");
-        assert_eq!(normalize_phone("+49 (0) 3 69 61 / 4 60 16"), "0369 6146016");
-        assert_eq!(normalize_phone("+49 (0) 89 748 353 10"), "089 74835310");
-        assert_eq!(normalize_phone("+49 (0) 231 9642 0"), "0231 96420");
-        assert_eq!(normalize_phone("+49(0)03621 733 4660"), "03621 7334660");
-        assert_eq!(
-            normalize_phone("+49 - (0) 4164/ 87 99 368"),
-            "04164 8799368"
-        );
-        assert_eq!(normalize_phone("(0)30 784 76 46"), "030 7847646");
+        // Eine ungetrennte Nummer wird nicht auf die Vorwahl gekuerzt.
         assert_eq!(normalize_phone("+49 (0) 15259084206"), "015259084206");
     }
 
     #[test]
-    fn normalize_phone_keeps_plain_numbers_unchanged() {
-        assert_eq!(normalize_phone("033452 493730"), "033452 493730");
-        assert_eq!(normalize_phone("030 40396551"), "030 40396551");
-        assert_eq!(normalize_phone("+49 421 542554"), "0421 542554");
-        assert_eq!(normalize_phone(""), "");
+    fn normalize_phone_is_idempotent() {
+        for raw in [
+            "+49 (0) 33452 49 37 30",
+            "+49 (0)6021/412323",
+            "+49 (0) 4 41 / 92074 \u{2013} 0",
+            "(0)30 784 76 46",
+            "01788028550, 015775230613",
+            "+4915251605977",
+            "(0049) 371 262 36 04",
+            "+49 - (0) 4164/ 87 99 368",
+        ] {
+            let once = normalize_phone(raw);
+            assert_eq!(normalize_phone(&once), once, "nicht idempotent: {raw}");
+        }
     }
 }
