@@ -67,3 +67,82 @@ Betriebsbeleg.
 - [Recherche 31.10.2026: **Ankauf, Verkauf und Gebühren — betreiberweit, ohne Standort-Preisliste.** ANKAUF: Die Services-Seite der Konzernmutter gilt für „**alle unsere Standorte**": „Sowohl **Kleinstlieferanten und Sammler als auch Gewerbetreibende können an allen unseren Standorten während der Öffnungszeiten ihren Schrott entsorgen**"; abgerechnet wird „**nach Qualität bzw. Klassifizierung und Gewicht … auf Basis der tagesaktuellen Marktpreise**". Private Anlieferer benötigen einen **Personalausweis**, gewerbliche eine **Selbstauskunft**, Fremdmaterial eine **Vollmacht des Material-Eigentümers**. Ausgeschlossen sind **Quecksilber bzw. Quecksilberanhaftungen, Sprengkörper, explosionsverdächtige Gegenstände, geschlossene Hohlkörper** und ionisierende Strahlung über dem Grundstrahlungsniveau. VERKAUF: Die Geschäftsbereiche-Seite beschreibt den Verkauf von **Stahl- und Gussschrotten, NE-Metallschrotten, legierten Stahlschrotten und deklassierten Stahlprodukten**; **Sonderlegierungen** sind ausdrücklich dem Standort **Mülheim an der Ruhr** zugeordnet — die Seed-Angabe „Sonderlegierungen" für Jena ist damit **nicht standortspezifisch bestätigt** (das war bereits in der Vorwelle dokumentiert) und wird **nicht** in die Beschreibung übernommen. Eine **Preisliste je Sorte** existiert nicht. GEBÜHREN: **keine** Gebührentafel, keine Mindestmenge. Die **Allgemeinen Einkaufsbedingungen** (Stand 09/2026) nennen als Zahlungsbedingung **30 Kalendertage netto**, als **Vertragsstrafe** „**0,2 % des Preises (Netto-Rechnungswert) … pro vollendetem Werktag**", „**höchstens jedoch 5 %**"; maßgebend ist nach § 5 das „**Empfangsgewicht und -befund**". Quelle(n): https://www.scholz-recycling.com/services/ ; https://www.scholz-recycling.com/geschaeftsbereiche/ ; https://www.scholz-recycling.com/wp-content/uploads/AGB_EK_SRG_final_01.09.2026_DE.pdf (Abruf 31.10.2026)]
 - [Korrektur 31.10.2026: `phone` auf **+49 3641 425635** gesetzt (offizieller Standort-Datensatz des Betreibers). `email` auf **jena@scholz-recycling.de** gesetzt (offizieller Standort-Datensatz). `opening_hours` auf **„Mo-Do 07:00-09:00, 09:30-12:00, 12:30-16:00, Fr 07:00-09:00, 09:30-12:00, 12:30-15:00, Sa geschlossen"** gesetzt (offizieller Standort-Datensatz). `description` gefüllt: zertifizierter Entsorgungsfachbetrieb (ESN 99-120187 (25), gültig bis 31.03.2027, drei Anlagen einschließlich zeitweiliger Lagerung gefährlicher Abfälle nach Nr. 8.12.1.2 Anhang 1 zur 4. BImSchV) sowie End-of-Waste-Anerkennung nach EU-Verordnung 333; Anlieferung durch Kleinstlieferanten, Sammler und Gewerbetreibende während der Öffnungszeiten, Abrechnung nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. `street`, `postcode`, `website` und `website_status` bleiben unverändert — sie stimmen mit Zertifikat und Betreiber-Datensatz überein. **Der zusammengesetzte Dossier-Name** „NL Erfurt-Betrieb Wöhlsdorf + Zella-Mehlis" bleibt **unverändert**: die Vorwellen hat die historische Bezeichnung nicht auflösen können, und der aktuelle Standort-Datensatz führt für Jena **keinen** Wöhlsdorf-Eintrag; eine Umbenennung wird hier **nicht** vorgenommen. Quelle(n): https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ; https://www.scholz-recycling.com/wp-content/uploads/251028_UeZEFB_JEN.pdf (Abruf 31.10.2026)]
 - [Recherche 31.10.2026: **OSM live geprüft (Löbstedter Straße, Jena) — der Betrieb ist an der Dossier-Hausnummer kartiert, unter der historischen Bezeichnung „Niederlassung".** Raster über den **gesamten** Straßenverlauf: **11.5869799/50.9284344 bis 11.6217647/50.9563136**, **12 Kacheln (Schritt 0,01 Grad), 0 Kachel-Fehler** — der Rasterbereich ist für einen einzelnen `map.json`-Abruf zu groß (HTTP 400) und wurde deshalb **gekachelt** gelesen: die Kacheln sind die 12 Felder des Fensters 11.5869799/50.9284344 bis 11.6217647/50.9563136 mit 0,01 Grad Kantenlänge. Zählung getrennt für die Straße „Löbstedter Straße": **103 Adressobjekte / 75 verschiedene Hausnummern** (32, 33, 1, 10, 11, 13, 15, 16, 17, 18, 19, 2, 20, 21, 23, 25, 27, 29, 2a, 3, 39, 4, 41, 5, 6, 7, 8, 9, 34, 12, 11a, 43, 50, 36, 40, 44, 42, 38, 46, 48, 67, 71, 54, 49a, 51, 85, 69, 53, 68, 66, 45, 47a, 47b, 49, 64, 70, 56, 72, 52, 65, 101, 109, 78, 80, 99, 97, 82, 111, 107, 103, 105, 93, 95, 113, 74), im gesamten Rastergebiet **4300 Adressobjekte mit Hausnummer**; im Raster tragen **2047 Objekte `name=`** und **685 Objekte `operator=`**. **Hausnummer 113 existiert** auf **zwei** Objekten: **way/254359851** mit `addr:housenumber=113`, `addr:street=Löbstedter Straße`, `addr:city=Jena`, `addr:country=DE`, `addr:postcode=07749`, `name=Scholz Recycling Niederlassung Jena`, `landuse=commercial` — und way/396521888 mit `addr:housenumber=113`, `addr:street=Löbstedter Straße`, `addr:city=Jena`, `addr:postcode=07749`, `building=commercial`, `building:levels=1`, `roof:levels=0` (ohne `name=`). Weitere Objekte mit Bezug zum Betrieb im Raster: **1 Objekt** — way/254359851 (s.o.). Das ist ein **positiver Betriebsbeleg**; die OSM-Bezeichnung „**Niederlassung**" ist die **Standortbezeichnung**, kein eigener Rechtsträger — Rechtsträger bleibt die **Scholz Recycling GmbH** (HRB 733963 AG Ulm). Die Straße trägt im Raster **11 Ways** mit `name=Löbstedter Straße` (way/1249703736, way/1249703739, way/1312435721, way/228391597, way/240877210, way/24471910, way/35069465, way/38506046, way/38506047, way/44696385, way/506997067). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.5869799,50.9284344,11.6217647,50.9563136 (ausfuehrbare URL; Rasterfenster 11.5869799/50.9284344 bis 11.6217647/50.9563136, Kacheln live abgerufen 31.10.2026) ; https://api.openstreetmap.org/api/0.6/way/254359851.json ; https://api.openstreetmap.org/api/0.6/way/396521888.json]
+
+### Recherche 01.11.2026
+
+- [Recherche 01.11.2026: **Preisquelle fuer Jena: keine.** Die Standortseite des Betreibers]
+  (https://www.scholz-recycling.com/standort/jena/) wurde am 01.11.2026 mit vollstaendigen Browser-Headern
+  abgerufen (HTTP/2, User-Agent Chrome 131, `Accept`, `Accept-Language`, `Sec-Fetch-Dest/Mode/Site/User`,
+  `Upgrade-Insecure-Requests`, `--compressed`, Cookie-Zustimmung `cookie_consent=yes; borlabs-cookie-consent=all`)
+  und liefert HTTP 200 mit dem Titel "Jena &#8211; Scholz Recycling"; im gerenderten Text und im Roh-HTML stehen
+  **keine** Zahlenwerte mit Einheit, kein Eurozeichen, kein "Ankaufspreis" und keine "Preisliste". Der
+  Standort-JSON-Feed des Betreibers (live https://www.scholz-recycling.com/standorte-json-nicht-loeschen/) weist
+  fuer diesen Betrieb "Scholz Recycling GmbH", "Löbstedter Str. 113", 07749 Jena, Telefon "+49 3641 425635" und
+  E-Mail "jena@scholz-recycling.de" aus und fuehrt 3 Nachweise (241228_ISO-50001_SRG_de_en_2024.pdf,
+  251028_UeZEFB_JEN.pdf, 251014_Zertifikat_VO-333_JEN_.pdf) - **kein** Preisfeld. Der Sorten- und Annahmeumfang
+  ist im Konzern-Bereich "Geschaeftsbereiche" (Stahlschrotte, NE-Metalle, Legierte Stahlschrotte, Deklassierte
+  Stahlprodukte, Sonderlegierungen, Wertstoffe) und in "Services" beschrieben, aber **ohne** Zahlenwerte. Dort
+  steht woertlich "Die Abrechnung erfolgt nach Qualitaet bzw. Klassifizierung und Gewicht, transparent und fair
+  auf Basis der tagesaktuellen Marktpreise" und "Die Abrechnung erfolgt transparent und fair auf Basis der
+  tagesaktuellen Marktpreise, die mithilfe der branchenueblichen Preisindizes wie z.B. BDSV oder LME ermittelt
+  werden" - das ist die Preismethodik, kein Ankaufspreis. **Preisarten getrennt:** ANKAUF - **kein belegbarer
+  Ankaufspreis** fuer diesen Standort, weder eine Preisliste mit Wert und Einheit noch eine Sortenliste mit
+  Preisspalte; VERKAUF - keine Verkaufspreisliste, keine Vormaterialangebote; GEBUEHREN - keine Tarif- oder
+  Gebuehrentafel fuer Containerdienst, Waage oder Annahme; MARKT- UND BOERSENKURS - die BDSV-Durchschnittspreise
+  (live https://www.bdsv.org/unser-service/markt-preise/, Stand 09/2026: Sorte 1 = 254,6 EUR/t, Sorte 2/8 = 294,6
+  EUR/t, Sorte 3 = 289,0 EUR/t, Sorte 4 = 302,9 EUR/t, Sorte 5 = 246,5 EUR/t) sind **Lagerverkaufspreise** der
+  BDSV-Mitgliedsunternehmen und damit **kein** Haendler-Ankaufspreis; KOMMUNALE GEBUEHR - fuer diesen Standort
+  nicht einschlaegig, es wird keine kommunale Gebuehr ausgewiesen. **Negativbefunde je Weg:** (1) die Startseite
+  https://www.scholz-recycling.com/ antwortet auch mit vollstaendigen Browser-Headern mit **HTTP 503** (Edge-Block
+  "The page is temporarily unavailable"); das ist **keine** Bot-Challenge wie bei TSR, denn die Inhalte sind ueber
+  https://r.jina.ai/https://www.scholz-recycling.com/ vollstaendig abrufbar (HTTP 200, 18.726 Bytes) und alle
+  Unterseiten liefern HTTP 200; (2) `robots.txt` (HTTP 200) verweist auf `wp-sitemap.xml`, dessen Index
+  (posts-post, posts-page, posts-standort, taxonomies-category, users) **keine** Preis-URL enthaelt; (3) alle
+  **185** Standortseiten des Betreibers wurden einzeln abgerufen, **null** davon traegt einen Preis-Marker; (4)
+  die REST-API (294 Routen, `x-wp-total` posts 39 / pages 20 / media 408) fuehrt **keinen** Post-Type `preise`,
+  und die Pfade /preise/, /ankaufpreise/, /schrottpreise/, /sorten/, /sortenprogramm/, /metallpreise/,
+  /downloads/, /medien/, /leistungen/, /lieferanten/, /einkauf/, /kunden/, /kunden/schrottlieferanten/,
+  /kunden/privatkunden/ und /einkaufsbedingungen/ liefern HTTP 500 (WordPress-404); die einzigen Pfade mit HTTP
+  200 sind /service/ (Weiterleitung auf /services/, ohne Preise), /verkauf/ (Weiterleitung auf die
+  Derichebourg-Verkaufsmeldung, ohne Preise) und /veroeffentlichungen/ (Weiterleitung auf
+  /veroeffentlichungen/cbcr-reporting/, CbCR-Transparenz, ohne Preise), waehrend die Mediathek-Suche nach
+  `preise`, `preisliste`, `ankauf`, `entgelt`, `vergütung`, `tarife` und `sorten` jeweils **null** Treffer
+  liefert; (5) die Einkaufsbedingungen (AGB_EK_SRG_final_01.09.2026_DE.pdf und
+  Allg_Vertragsbedingungen_Indirekter_Einkauf_09.10.2025_DE.pdf) nennen nur Zahlungsziele (30 Kalendertage netto)
+  und Vertragsstrafen (0,2 % des Preises je Werktag, hoechstens 5 %) - **keine** Preise. **Wayback Machine, vom
+  Screening nicht geprueft und hier erstmals geprueft:**
+  `http://archive.org/wayback/available?url=scholz-recycling.com&timestamp=20261001` liefert den Snapshot
+  20261009123137 (HTTP 200, ohne Preiszeile); die CDX-Liste
+  `http://web.archive.org/cdx/search/cdx?url=scholz-recycling.com*&output=text&limit=800&collapse=urlkey` (1.807
+  URL-Keys) und die Domain-Sicht auf scholz-recycling.de, scholz-ag.de und recy-online.scholz-group.com enthalten
+  **keine** Preislisten-URL. Der einzige Preis-Kandidat der alten TYPO3-Site,
+  `/fileadmin/PDF/europaeische_schrottsortenliste_deutsch.pdf` (Snapshot 20090509232626, live 29.982 Bytes), ist
+  eine reine **Sortenliste ohne Preise** (E1/E2/E3/E8/E40/E5 mit Abmessungen und Schuttanteil, kein Eurobetrag) -
+  also ein Sortenprogramm, kein Preis. Der Wayback-Snapshot der Standortseite ist fuer die Sichtung mitgeprueft:
+  jena (14 Snapshots, letzter 20260612085040) - in **allen** Faellen dieselbe JS-Platzhalter-Seite ohne
+  Zahlenwert, Eurozeichen oder "Preisliste". **Schwesterbetriebe und Gruppen-Domains:** `eko-schrottrecycling.de`,
+  `studo-schrott.de`, `srt-schrott-recycling.de` und `scholz-industrie.de` sind **DNS-NXDOMAIN** und haben also
+  keine eigene Preisliste; `scholz-recycling.de` und `scholz-group.com` loesen zwar auf 89.31.143.90 auf, der
+  Verbindungsversuch laeuft aber in einen Timeout (keine Website);
+  `recy-online.scholz-group.com:4437/RecyOnline/Login/` ist das EDI-Portal **login-geschuetzt** (Benutzername /
+  Passwort) und damit fuer Dritte keine Preisquelle; die live erreichbaren Schwester `srw-recycling.de` (SRW
+  metalfloat, 24 Sitemap-URLs) und `fegert-recycling.de` (Fegert, 5 Standorte) veroeffentlichen **keine** Preise.
+  **Als Kandidat geprueft und verworfen:** der Marktplatz-Auftritt
+  `https://www.wlw.de/de/showroom/scholz-recycling-aktuelle-schrottpreise` fuehrt unter der Ueberschrift "Arten
+  von Scholz Recycling aktuelle Schrottpreise" Zahlenpaare wie "Kupferschrott ... 6,00 - 7,50 EUR",
+  "Aluminiumschrott ... 1,80 - 2,40 EUR" und "Stahlschrott ... 0,15 - 0,30 EUR" je kg. Das ist **keine**
+  Preisquelle der Scholz Recycling GmbH: die Seite ist eine SEO-Keyphrase-Seite mit automatisch erzeugten
+  Abschnitten ("How to Choose scholz recycling aktuelle schrottpreise", "Wartungsanweisungen fuer scholz recycling
+  aktuelle schrottpreise"), die angebotenen Produkte stammen von **anderen** Lieferanten (Mr.Schrott, Stuhlmann &
+  Redzic, H. Carnuth KG), Scholz Recycling GmbH selbst hat dort kein Lieferantenprofil
+  (`/de/companies/scholz-recycling-gmbh` = HTTP 404), die Werte stehen ohne Datum und mit "ca." - kein datierter,
+  standortbezogener Betreiberpreis. **Doppelstandort-Datensatz:** das Betreiber-JSON fuehrt beide Betriebe
+  getrennt (Erfurt, Stotternheimer Strasse 45, 99086 = NL Erfurt-Betrieb Woehlsdorf; Zella-Mehlis, Schoene
+  Aussicht 22, 98544) mit den E-Mail-Adressen jena@ bzw. zella-mehlis@scholz-recycling.de; beide Standortseiten
+  liefern HTTP 200 ohne Preisfeld Quelle(n): https://www.scholz-recycling.com/services/ ;
+  https://www.scholz-recycling.com/geschaeftsbereiche/ ;
+  https://www.scholz-recycling.com/standorte-json-nicht-loeschen/ ;
+  https://www.scholz-recycling.com/wp-json/wp/v2/types ; https://www.scholz-recycling.com/wp-json/wp/v2/media ;
+  https://www.scholz-recycling.com/wp-sitemap.xml ; https://www.scholz-recycling.com/robots.txt ;
+  http://web.archive.org/cdx/search/cdx?url=scholz-recycling.com*&output=text&limit=800&collapse=urlkey ;
+  https://www.bdsv.org/unser-service/markt-preise/ (Abruf 01.11.2026, 12:00-Welle)]
