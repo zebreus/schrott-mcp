@@ -1,0 +1,3401 @@
+{
+  "version": 1,
+  "release_commit": "30599c920cf71930a8db93c13b43036bd9703b2c",
+  "release_tree": "78400977e38c5a6093ab685bb1443ceeb6033d0e",
+  "rehearsal_manifest_sha256": "26de758519c6b1f525de0e20035ad0f6a59c0693fd98a0d5b31e81a45b7cef8f",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bb-bahnhofstr-38-scholz-recycling-filialen",
+    "bb-brandenburg-an-der-havel-tsr-deutschland",
+    "bb-calau-ot-werchow-scholz-recycling-filiale",
+    "bb-cottbus-eko-schrottrecycling-scholz-gruppe",
+    "bb-dahlwitz-hoppegarten-alba-metall-nord",
+    "bb-eisenhuttenstadt-alba-wriezen",
+    "bb-groraschen-tsr-recycling-standort-lt-tsr-standortli",
+    "bb-hennigsdorf-tsr-recycling-standort-lt-tsr-standortli",
+    "bb-konigs-wusterhausen-alba-metall-nord",
+    "bb-lauchhammer-scholz-recycling-filialen",
+    "bb-lubbenau-alba-metall-nord",
+    "bb-luckenwalde-interseroh-mab-ost-interseroh",
+    "bb-luckenwalde-ot-kloster-zinna-alba-metall-nord",
+    "bb-neuruppin-tsr-deutschland",
+    "bb-premnitz-ot-doberitz-alba-metall-nord-betriebsstatte-doberitz",
+    "bb-ruhland-scholz-recycling-filiale",
+    "bb-schorfheide-tsr-deutschland",
+    "bb-spremberg-scholz-recycling",
+    "bb-velten-alba-metall-nord",
+    "bb-wittenberge-interseroh-metallaufbereitung-ost",
+    "be-lichtenberg-alba-metall-nord-lichtenberg",
+    "be-mitte-tsr-deutschland-westhafen",
+    "be-neukolln-alba-metall-nord-neukolln-sud",
+    "be-neukolln-tsr-deutschland-neukolln",
+    "be-reinickendorf-alba-metall-nord-reinickendorf-nord",
+    "be-reinickendorf-lichtenberg-alba-berlin-zentrale-lichtenberg",
+    "be-spandau-alba-metall-nord-spandau",
+    "be-spandau-scholz-recycling-nl-berlin",
+    "bw-essingen-scholz-recycling",
+    "bw-mannheim-heilbronn-stuttgart-tsr-deutschland",
+    "bw-stuttgart-alba-metall-sud",
+    "by-coburg-scholz-recycling-betrieb-coburg",
+    "by-nurnberg-scholz-recycling-derichebourg-gruppe",
+    "hb-industriehafen-tsr-recycling-nl-bremen",
+    "he-darmstadt-nord-tsr-deutschland-standort-darmstadt",
+    "he-dillenburg-tsr-deutschland-standort-dillenburg",
+    "he-frankfurt-am-main-tsr-deutschland-standort-frankfurt",
+    "he-freigericht-63579-tsr-deutschland",
+    "he-ginsheim-gustavsburg-tsr-deutschland-ginsheim-gustavsburg",
+    "he-lahntal-gofelden-scholz-recycling-standort-lahntal-gofeld",
+    "hh-veddel-rothenburgsort-tsr-recycling-nl-hamburg-ne-hovestr-30-h",
+    "mv-friedland-alba-metall-nord",
+    "mv-greifswald-alba-metall-nord",
+    "mv-kavelstorf-18196-alba-mittleres-mecklenburg",
+    "mv-neubrandenburg-17036-alba-metall-nord-nl-neubrandenburg",
+    "mv-rostock-alba-metall-nord-zentrale-nord",
+    "mv-schwerin-19057-alba-nord",
+    "mv-schwerin-alba-metall-nord",
+    "mv-stralsund-alba-metall-nord",
+    "mv-torgelow-alba-metall-nord",
+    "mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai",
+    "mv-wolgast-alba-metall-nord",
+    "ni-bad-essen-tsr-deutschland-bad-essen-bei-osnabruck",
+    "ni-braunschweig-alba-niedersachsen-anhalt-2-standorte",
+    "ni-einbeck-tsr-deutschland-zweigstelle-einbeck",
+    "ni-emden-tsr-deutschland-standort-emden",
+    "ni-hannover-tsr-deutschland-lindener-hafen-nordhafen",
+    "ni-uberregional-alba-gruppe-mehrere-ni-standorte",
+    "ni-uberregional-tsr-recycling-mehrere-ni-standorte",
+    "ni-wilhelmshaven-alba-metall-nord-hafen",
+    "ni-wilhelmshaven-jade-stahl",
+    "nw-dortmund-tsr-deutschland-ndl-dortmund",
+    "nw-duisburg-tsr-deutschland-ndl-duisburg",
+    "nw-gelsenkirchen-tsr-deutschland-ndl-gelsenkirchen",
+    "nw-grevenbroich-scholz-recycling",
+    "nw-lunen-tsr-group-konzernzentrale",
+    "nw-mulheim-an-der-ruhr-tsr-recycling-ndl-mulheim",
+    "nw-ratingen-mhr-metallhandel-ruhr",
+    "rp-koblenz-tsr-recycling-nl-koblenz",
+    "sh-neumunster-tsr-recycling-nl-neumunster",
+    "sn-annaberg-buchholz-scholz-recycling-betrieb-annaberg-buchho",
+    "sn-bautzen-scholz-recycling-betrieb-bautzen",
+    "sn-brand-erbisdorf-tsr-brand-erbisdorf",
+    "sn-chemnitz-scholz-recycling-betrieb-chemnitz",
+    "sn-chemnitz-tsr-deutschland-nl-chemnitz",
+    "sn-dobeln-scholz-recycling-betrieb-dobeln",
+    "sn-dresden-scholz-recycling-betrieb-dresden-hafen",
+    "sn-dresden-scholz-recycling-betrieb-dresden-ig",
+    "sn-dresden-tsr-deutschland-nl-dresden-hafen",
+    "sn-freiberg-scholz-recycling-betrieb-freiberg",
+    "sn-grimma-scholz-recycling-betrieb-grimma",
+    "sn-groditz-scholz-recycling-betrieb-groditz",
+    "sn-heidenau-tsr-deutschland-nl-dresden-heidenau",
+    "sn-leipzig-scholz-recycling-leipzig-nord-ost-sud-we",
+    "sn-marienberg-scholz-recycling-betrieb-marienberg",
+    "sn-mittweida-scholz-recycling-betrieb-mittweida",
+    "sn-oschatz-alba-sachsen-standort-oschatz",
+    "sn-plauen-scholz-recycling-standort-plauen",
+    "sn-riesa-scholz-recycling-betrieb-riesa",
+    "sn-riesa-tsr-deutschland-nl-riesa",
+    "sn-schwarzenberg-scholz-recycling-standort-schwarzenberg",
+    "sn-torgau-scholz-recycling-betrieb-torgau",
+    "sn-torgau-tsr-deutschland-nl-torgau",
+    "sn-trebsen-scholz-recycling-standort-trebsen",
+    "sn-wurzen-alba-sachsen-standort-wurzen",
+    "sn-zwickau-scholz-recycling-betrieb-zwickau",
+    "st-bitterfeld-wolfen-06749-mrr-schrottplatz-bitterfeld",
+    "st-bitterfeld-wolfen-lutherstad-scholz-recycling",
+    "st-dessau-rolau-tsr-recycling-niederlassung-dessau",
+    "st-halle-tsr-recycling-niederlassung-halle",
+    "st-lutherstadt-eisleben-scholz-recycling",
+    "st-magdeburg-tsr-recycling-niederlassung-magdeburg",
+    "st-querfurt-tsr-recycling-standort-querfurt",
+    "st-salzwedel-ot-chuden-alba-niedersachsen-anhalt",
+    "st-salzwedel-ot-pretzier-alba-metall-nord-betriebsstatte-pretzier",
+    "st-seehausen-alba-niedersachsen-anhalt",
+    "st-strobeck-tsr-recycling-standort-strobeck-halberst",
+    "st-tangerhutte-ot-demker-alba-niedersachsen-anhalt",
+    "st-vockerode-alba-sachsen",
+    "st-zeitz-scholz-recycling-standort-zeitz",
+    "th-apolda-scholz-recycling",
+    "th-arnstadt-scholz-recycling-standort-arnstadt",
+    "th-eisenach-scholz-recycling-standort-eisenach",
+    "th-eisfeld-scholz-recycling-standort-eisfeld",
+    "th-erfurt-scholz-recycling-standort-erfurt-hohenwi",
+    "th-gera-scholz-recycling-standort-gera",
+    "th-gotha-scholz-recycling-standort-gotha",
+    "th-groengottern-scholz-recycling-standort-groengottern",
+    "th-jena-scholz-recycling-nl-erfurt-betrieb-wohls",
+    "th-langewiesen-b-ilmenau-scholz-recycling-standort-langewiesen",
+    "th-muhlhausen-scholz-recycling-standort-muhlhausen",
+    "th-poessneck-srt-schrott-recycling",
+    "th-saalfeld-srt-aue-am-berg",
+    "th-unterwellenborn-b-saalfeld-srt-schrott-recycling-thuringen",
+    "th-zella-mehlis-scholz-recycling-nl-erfurt-betrieb-wohls"
+  ],
+  "scope": "exactly the 125 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-30599c9. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bb-bahnhofstr-38-scholz-recycling-filialen",
+      "values": {
+        "name": "Scholz Recycling GmbH (Filialen)",
+        "city": "Lauchhammer",
+        "street": "Bahnhofstraße 38",
+        "postcode": "01979",
+        "phone": "03574 87020",
+        "email": "lauchhammer@scholz-recycling.de",
+        "opening_hours": "Mo-Do 06:15-08:00, 08:15-12:00, 12:30-14:30; Fr 06:15-08:00, 08:15-12:00, 12:30-13:30; Sa geschlossen",
+        "description": "Standort Lauchhammer Bahnhofstraße für Fe- und NE-Schrottrecycling; getrennt vom Standort Eisenwerkstraße 8.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "649c0af28391ef9f7a1687926198e1129ae629b99de58ed5c8641c507f14e8bd",
+      "seed_hash": "f0795c1e2620dc7f",
+      "geo": [
+        51.4971149,
+        13.8084713
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-brandenburg-an-der-havel-tsr-deutschland",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG",
+        "city": "Brandenburg an der Havel",
+        "street": "Woltersdorfer Str. 40",
+        "postcode": "14770",
+        "phone": "03381 36830",
+        "email": "abwicklung.brandenburg@tsr.eu",
+        "opening_hours": "Mo-Fr 06:00-17:30",
+        "description": "Ankauf und Aufbereitung von Fe- und NE-Schrott für Privat- und Gewerbekunden am Standort Brandenburg; Containerdienst, Abholung und Rückbauleistungen.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0a5f8f48f9aa762e716180c0958d6eb1859c1fcb607fb17da158a2544ed323c0",
+      "seed_hash": "454ffa347acd0085",
+      "geo": [
+        52.4102148,
+        12.4999016
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-calau-ot-werchow-scholz-recycling-filiale",
+      "values": {
+        "name": "Scholz Recycling GmbH (Filiale)",
+        "city": "Calau",
+        "street": "Senftenberger Str. 6",
+        "postcode": "03205",
+        "phone": "03541 2897",
+        "email": "calau@scholz-recycling.de",
+        "opening_hours": "Mo, Mi 07:00-12:00, 12:30-14:30; Di 07:00-12:00, 12:30-16:30; Do 07:00-12:00, 12:30-16:00; Fr 07:00-12:00, 12:30-13:00; Sa geschlossen",
+        "description": "Scholz-Recyclingstandort Calau, Senftenberger Straße 6, für Fe- und NE-Schrott und weitere Wertstoffe.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bdf057a352b7b80127add55669d367591c19956f8b5d1ab3ba9bda9785549468",
+      "seed_hash": "95b4fe2c3baf6a01",
+      "geo": [
+        51.73518,
+        13.98405
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-cottbus-eko-schrottrecycling-scholz-gruppe",
+      "values": {
+        "name": "EKO Schrottrecycling GmbH (Scholz-Gruppe)",
+        "city": "Cottbus",
+        "street": "Am Gleis 12",
+        "postcode": "03042",
+        "phone": "+49 355 771212",
+        "email": "esr.cottbus@arcelormittal.com",
+        "opening_hours": "",
+        "description": "EKO Schrottrecycling GmbH (Scholz-Gruppe), Am Gleis 12, 03042 Cottbus: Standort der Scholz-Gruppe in Cottbus. Der Standort-JSON-Feed der Betreiber-Website weist als Kontaktdaten Telefon +49 355 771212, Fax +49 355 713174 und E-Mail esr.cottbus@arcelormittal.com aus. Das Standortverzeichnis nennt für Cottbus keine Zertifikate und keine Öffnungszeiten. Der Abfallwirtschaftsplan des Landes Brandenburg führt die EKO Schrottrecycling GmbH für Eisenhüttenstadt mit einer eigenen Anschrift; der Standort Am Gleis 12 in Cottbus ist dort nicht als Schrottplatz verzeichnet.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.scholz-recycling.com/standort/eko-schrottrecycling-gmbh-cottbus/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5ed8c885e656b4b3879679374021ce865ca415a886bf9be509e7b9421c4cef29",
+      "seed_hash": "df089688e3e7d58f",
+      "geo": [
+        51.7705249,
+        14.3785846
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-dahlwitz-hoppegarten-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Hoppegarten",
+        "street": "Industriestr. 16",
+        "postcode": "15366",
+        "phone": "+49 30 35182 422",
+        "email": "hoppegarten.metall@alba.info",
+        "opening_hours": "Mo–Fr 7:00–12:00 Uhr und 12:30–15:30 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "37b9aaee27b018620251c664a00d6f7c82d0fb1151c618705693225940f111fc",
+      "seed_hash": "d6db408da41e11af",
+      "geo": [
+        52.5088885,
+        13.6377169
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-eisenhuttenstadt-alba-wriezen",
+      "values": {
+        "name": "ALBA Wriezen GmbH",
+        "city": "Eisenhüttenstadt",
+        "street": "Seefichtenstr. 15",
+        "postcode": "15890",
+        "phone": "03364 416551",
+        "email": "",
+        "opening_hours": "",
+        "description": "ALBA Wriezen GmbH, Seefichtenstr. 15, 15890 Eisenhüttenstadt: Niederlassung einer ALBA-Gruppe, deren bisheriger Sitz in Wriezen (Schulzendorfer Straße 13, 16269 Wriezen) liegt. Die Anschrift Seefichtenstraße 15 in Eisenhüttenstadt wird im Abfallwirtschaftsplan des Landes Brandenburg (Fortschreibung 2023) als Standort \"RZB Recycling Zentrum Brandenburg\" auf dem Gelände der ehemaligen \"EKO Stahl AG\" geführt und ist zugleich der Standort der \"EKO Schrottrecycling GmbH\" (Scholz-Gruppe) in Eisenhüttenstadt. Eine Standortseite der ALBA Metall Nord für Eisenhüttenstadt existiert nicht; die Zuordnung \"ALBA Wriezen GmbH\" zu dieser Anschrift ist damit offen. Ankauf von Stahl- und NE-Metallschrott wird für diesen Standort nicht belegt.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "86cb052fe92193ba9aa9d6bd4eb147151a1859642bc7c03bf59b247ed2e3673c",
+      "seed_hash": "c7a33dcb74167da9",
+      "geo": [
+        52.1601,
+        14.555
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-groraschen-tsr-recycling-standort-lt-tsr-standortli",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, Niederlassung Großräschen",
+        "city": "Großräschen",
+        "street": "Birkenweg 20",
+        "postcode": "01983",
+        "phone": "035753 639251",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrottankauf und Aufbereitung von Stahlschrott/Altmetallen sowie Containerdienst laut Betreiber (TSR-Standortseite, Birkenweg 20, 01983 Großräschen). Der Abfallwirtschaftsplan des Landes Brandenburg (Fortschreibung 2023) führt die Anschrift Birkenweg 20 als Schrottplatz, als Lagerung von gefährlichen Abfällen, als Sortier- und Aufbereitungsanlage für Altholz und als Zwischenlager für Altholz, jeweils unter dem Betreiber \"REMONDIS Brandenburg GmbH\"; die TSR-Gruppe ist Teil der REMONDIS-Gruppe. In OSM trägt das Objekt way/1350753765 an dieser Lage `operator=REMONDIS`, `amenity=recycling` und `recycling_type=centre`.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "602045b2494ebec916964549f294492cff56b116fbc389c2b845ccfe61847ae9",
+      "seed_hash": "718fbff5f2c9aad5",
+      "geo": [
+        51.5876,
+        14.0109
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Standortseite bewirbt Schrottankauf und Annahme; konkrete Sorten, Kundenkreis und Anlieferbedingungen beim Standort erfragen.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-hennigsdorf-tsr-recycling-standort-lt-tsr-standortli",
+      "values": {
+        "name": "TSR Recycling GmbH & Co. KG, Niederlassung Hennigsdorf",
+        "city": "Hennigsdorf",
+        "street": "August-Conrad-Str. 43",
+        "postcode": "16761",
+        "phone": "03302 7912020",
+        "email": "",
+        "opening_hours": "",
+        "description": "TSR Recycling GmbH & Co. KG, Niederlassung Hennigsdorf, August-Conrad-Straße 43, 16761 Hennigsdorf, Telefon +49 3302 7912020, Fax +49 3302 7912028. Die Anschrift ist durch den Abfallwirtschaftsplan des Landes Brandenburg (Fortschreibung 2023, Teilplan Gefährliche Abfälle) amtlich belegt: dort ist die Niederlassung als Anlage zur zeitweiligen Lagerung von Eisen- und Nichteisenschrotten einschließlich Autowracks, als Autowrackanlage und als Zwischenlager für Kabel-/Batterie- und gefährliche Metallabfälle geführt; die Unternehmensanschrift lautet Brunnenstraße 138, 44536 Lünen. Der TSR-Standort bestätigt die Adresse mit Telefon und Fax. Ankauf, Verkauf und Gebühren werden für diesen Standort nicht mit Zahlen veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f6a7b16a5819e9ae445ee82d2a1094764a1aea2385d41c20360cd93535b93691",
+      "seed_hash": "42ffae714c6d410b",
+      "geo": [
+        52.6457026,
+        13.2159307
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-konigs-wusterhausen-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Königs Wusterhausen",
+        "street": "Am Nordhafen 11",
+        "postcode": "15711",
+        "phone": "03375 671210",
+        "email": "",
+        "opening_hours": "",
+        "description": "ALBA Metall Nord GmbH, Betriebsteil Königs Wusterhausen, Am Nordhafen 11, 15711 Königs Wusterhausen: Schrottlager mit eingeschränkter Behandlung (u. a. Schienenfahrzeuge) und Sortierung per Mobilbagger, Lagerung von Eisen- und Nichteisenschrotten. Der Standort ist im Abfallwirtschaftsplan des Landes Brandenburg (Fortschreibung 2023, Teilplan Gefährliche Abfälle) unter der Bezeichnung \"ALBA Metall Nord GmbH NL Königs Wusterhausen\" mit den Anlagentypen Behandlung gefährlicher Abfälle, Lagerung und Behandlung gefährlicher Abfälle und Schrottplatz geführt und ist im ISO-50001-Zertifikat B-24-13185 der ALBA plc & Co. KG als Standort 40 mit Geltungsbereich Schrottlager aufgeführt. Telefon 03375 671210.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3e2918e526618f96d78b24f991a1696776bd14a032a2cbd5ca2eb0fa522d60db",
+      "seed_hash": "f5f4786fa6830bc7",
+      "geo": [
+        52.3065059,
+        13.6332169
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-lauchhammer-scholz-recycling-filialen",
+      "values": {
+        "name": "Scholz Recycling GmbH (Filialen)",
+        "city": "Lauchhammer",
+        "street": "Eisenwerkstr. 8",
+        "postcode": "01979",
+        "phone": "+49 3574 87020",
+        "email": "lauchhammer@scholz-recycling.de",
+        "opening_hours": "Mo 06:15-08:00 Uhr, 08:15-12:00 Uhr, 12:30-14:30 Uhr; Di 06:15-08:00 Uhr, 08:15-12:00 Uhr, 12:30-14:30 Uhr; Mi 06:15-08:00 Uhr, 08:15-12:00 Uhr, 12:30-14:30 Uhr; Do 06:15-08:00 Uhr, 08:15-12:00 Uhr, 12:30-14:30 Uhr; Fr 06:15-08:00 Uhr, 08:15-12:00 Uhr, 12:30-13:30 Uhr; Sa geschlossen",
+        "description": "Scholz Recycling GmbH, Schrottplatz Eisenwerkstraße, Eisenwerkstraße 8, 01979 Lauchhammer: einer von zwei Lauchhammer-Standorten der Scholz-Gruppe (der zweite: Bahnhofstraße 38). Das Standortverzeichnis der Betreiber-Website weist Telefon +49 3574 87020, Fax +49 3574 870255, E-Mail lauchhammer@scholz-recycling.de aus und verlinkt für diesen Standort das ISO-50001-Zertifikat, das ISO-9001-Zertifikat, den Entsorgungsfachbetrieb-Nachweis (UeZEFB), den EU-Verordnung-333/715-Nachweis und die Bescheinigung zur Altfahrzeug-Verordnung. Der Abfallwirtschaftsplan des Landes Brandenburg führt den Standort als Schrottplatz und als Anlage zur Behandlung gefährlicher Abfälle. Ankauf, Verkauf und Gebühren werden für diesen Standort nicht mit Zahlen veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9278380b7f137627f7d83f50ff2917782aecc5442a3f2fc1f32cd081522447fd",
+      "seed_hash": "3f138b14a81f5c6f",
+      "geo": [
+        51.4881,
+        13.7662
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-lubbenau-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Lübbenau",
+        "street": "Nordstraße 4",
+        "postcode": "03222",
+        "phone": "+49 3542 2567",
+        "email": "luebbenau.metall@alba.info",
+        "opening_hours": "Mo–Fr 7:00–9:00 Uhr, 9:30–12:00 Uhr, 12:30–16:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b8c6b79e8382d210b0163098ad91935ea7266163fe14c2f5a389a1448e023e1e",
+      "seed_hash": "63216bcdb7f72b05",
+      "geo": [
+        51.8626,
+        13.9613
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-luckenwalde-interseroh-mab-ost-interseroh",
+      "values": {
+        "name": "ALBA Metall Nord GmbH – Betriebsstätte Luckenwalde",
+        "city": "Luckenwalde",
+        "street": "Dämmchenweg 14/16",
+        "postcode": "14943",
+        "phone": "+49 3371 689 84 50",
+        "email": "luckenwalde.metall@alba.info",
+        "opening_hours": "Mo–Fr 7:00–12:00 Uhr u. 12:30–16:00 Uhr, Sa geschlossen",
+        "description": "Schrottplatz und Metallaufbereitung der ALBA Metall Nord GmbH, Betriebsstätte Luckenwalde (Dämmchenweg 14/16, 14943 Luckenwalde). Amtlich anerkannter Entsorgungsfachbetrieb (Zertifikat ZZET01700028: Lagern, Behandeln, Verwerten). Ankauf und Aufbereitung von Schrotten und Metallen; Privatkunden-Annahme von Stahl, Eisenmetallen, Aluminium, Kupfer, Messing, auch Kleinstmengen mit sofortiger Barvergütung; Annahme von Bleibatterien, Nutzeisenverkauf; Containerdienst 7–36 m³, öffentliche Waage, Industriedemontage und -abbruch. Vormalsige Bezeichnung dieser Zeile: INTERSEROH MAB Ost GmbH / Interseroh — Doppelerfassung des Nachbardossiers bb-luckenwalde-ot-kloster-zinna-alba-metall-nord (Merge-Entscheidung beim Owner offen).",
+        "status": "pruefung",
+        "trader_type": "schrottplatz",
+        "website": "https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-luckenwalde",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c066a5e48a7b1cab62037d678d194b8a96380ff244172e8b396600f7bee0cae6",
+      "seed_hash": "01eebb1299985a74",
+      "geo": [
+        52.0903,
+        13.1677
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-luckenwalde-ot-kloster-zinna-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Luckenwalde",
+        "street": "Dämmchenweg 16",
+        "postcode": "14943",
+        "phone": "+49 3371 689 84 50",
+        "email": "luckenwalde.metall@alba.info",
+        "opening_hours": "Mo–Fr 7:00–12:00 Uhr u. 12:30–16:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a4e61e0d6b2fec2bca9cba2dc8dcfd890d88c09e14303d9ee13673bedd127ac3",
+      "seed_hash": "951372b9c28f372a",
+      "geo": [
+        52.0903,
+        13.1677
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-neuruppin-tsr-deutschland",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG",
+        "city": "Neuruppin",
+        "street": "Philipp-Oehmigke-Str. 13",
+        "postcode": "16816",
+        "phone": "03391 404839",
+        "email": "",
+        "opening_hours": "Mo-Do 07:30-12:00, 12:30-16:30, Fr 07:30-12:00, 12:30-14:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "4ceaee3890c9896e2b32ffc90581cb49e9b19104f04b4b306f9b70ff946e3d75",
+      "seed_hash": "278a2b70a46535f5",
+      "geo": [
+        52.8777983,
+        12.7937406
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-premnitz-ot-doberitz-alba-metall-nord-betriebsstatte-doberitz",
+      "values": {
+        "name": "ALBA Metall Nord GmbH (Betriebsstätte Döberitz)",
+        "city": "Premnitz OT Döberitz",
+        "street": "Am Hafen 22",
+        "postcode": "14727",
+        "phone": "+49 3386 200110",
+        "email": "doeberitz.metall@alba.info",
+        "opening_hours": "Mo–Fr 7:00–12:00 Uhr und 12:30–16:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a144e98b28981cccfedba705adc9c8d5f86e22cbb690b14a92f0b4483c999d26",
+      "seed_hash": "9d4fd43f6ebffc5d",
+      "geo": [
+        52.5187801,
+        12.3901336
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-ruhland-scholz-recycling-filiale",
+      "values": {
+        "name": "Scholz Recycling GmbH (Filiale)",
+        "city": "Ruhland",
+        "street": "Am Dreistein",
+        "postcode": "01945",
+        "phone": "035752 2106",
+        "email": "ruhland@scholz-recycling.de",
+        "opening_hours": "Mo 07:00-11:30 Uhr, 12:00-15:00 Uhr; Di 07:00-11:30 Uhr, 12:00-15:00 Uhr; Mi 07:00-11:30 Uhr, 12:00-15:00 Uhr; Do 07:00-11:30 Uhr, 12:00-15:45 Uhr; Fr 07:00-11:30 Uhr, 12:00-13:00 Uhr; Sa geschlossen",
+        "description": "Scholz Recycling GmbH, Schrottplatz Ruhland, Am Dreistein, 01945 Ruhland: Schrottplatz der Scholz-Gruppe ohne Hausnummer in der Straßenangabe. Das Standortverzeichnis der Betreiber-Website weist Telefon +49 35752 2106, Fax +49 35752 2004, E-Mail ruhland@scholz-recycling.de aus und verlinkt für diesen Standort das ISO-50001-Zertifikat und den Entsorgungsfachbetrieb-Nachweis. Der Abfallwirtschaftsplan des Landes Brandenburg führt den Standort als Schrottplatz mit der Anschrift \"Am Dreistein, 01945 Ruhland\". Ankauf, Verkauf und Gebühren werden für diesen Standort nicht mit Zahlen veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "671b870caa9d8f1845892f1e33793bc06456686b34f4adc78ec454f6ff36f062",
+      "seed_hash": "6457a546bcd5a86e",
+      "geo": [
+        51.4576,
+        13.8664
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-schorfheide-tsr-deutschland",
+      "values": {
+        "name": "TSR Recycling GmbH & Co. KG, Niederlassung Schorfheide-Finowfurt",
+        "city": "Schorfheide",
+        "street": "Spechthausener Str. 40",
+        "postcode": "16244",
+        "phone": "03335 326902",
+        "email": "",
+        "opening_hours": "",
+        "description": "TSR Recycling GmbH & Co. KG, Niederlassung Schorfheide-Finowfurt, Spechthausener Straße 40, 16244 Schorfheide, Telefon +49 3335 326902. Die Anschrift ist durch den Abfallwirtschaftsplan des Landes Brandenburg (Fortschreibung 2023, Teilplan Gefährliche Abfälle) amtlich belegt: dort ist der Standort als Schrottplatz geführt; die Unternehmensanschrift lautet Brunnenstraße 138, 44536 Lünen. Im Abfallwirtschaftsplan Teilplan Siedlungsabfälle wird dieselbe Anschrift zusätzlich mit dem Anlagentitel \"Bernauer Reifen recycling und Karkassenhandel P. Magnus\" geführt, die Betreiberzuordnung an dieser Nummer ist damit nicht eindeutig. Ankauf, Verkauf und Gebühren werden für diesen Standort nicht mit Zahlen veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "fb4878db7b2fbcb39c8b0da839e4a5bf91fd42786478823eab0ff5c650a77739",
+      "seed_hash": "9466cae309c157f4",
+      "geo": [
+        52.8380218,
+        13.6895946
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-spremberg-scholz-recycling",
+      "values": {
+        "name": "Scholz Recycling GmbH",
+        "city": "Spremberg",
+        "street": "Bregenzer Str. 13",
+        "postcode": "03130",
+        "phone": "03563 397414",
+        "email": "spremberg@scholz-recycling.de",
+        "opening_hours": "Mo 07:00-15:00 Uhr; Di 07:00-15:00 Uhr; Mi 07:00-15:00 Uhr; Do 07:00-17:00 Uhr; Fr 07:00-12:00 Uhr; Sa geschlossen",
+        "description": "Scholz Recycling GmbH, Schrottplatz Spremberg, Bregenzer Straße 13, 03130 Spremberg: Schrottplatz der Scholz-Gruppe. Das Standortverzeichnis der Betreiber-Website weist Telefon +49 3563 397414, Fax +49 3563 397418, E-Mail spremberg@scholz-recycling.de aus und verlinkt für diesen Standort das ISO-50001-Zertifikat und den Entsorgungsfachbetrieb-Nachweis. Der Abfallwirtschaftsplan des Landes Brandenburg führt den Standort als Schrottplatz mit derselben Anschrift. Ankauf, Verkauf und Gebühren werden für diesen Standort nicht mit Zahlen veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "48119b70d37631484b21fd416dc21fa76a95b1c910d61765649b7cf3c48cb152",
+      "seed_hash": "32347b975127f82f",
+      "geo": [
+        51.574972,
+        14.3986452
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-velten-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Velten",
+        "street": "Breite Str. 47b",
+        "postcode": "16727",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "ALBA Metall Nord GmbH, Breite Str. 47b, 16727 Velten: Die Anschrift ist im GHG-Verifizierungszertifikat der ALBA plc & Co. KG (Nr. C-24-25940, 29.11.2024) als Standort 89 \"ALBA plc & Co. KG, Breite Str. 47B, 16727 Velten\" geführt, im Abfallwirtschaftsplan des Landes Brandenburg (Fortschreibung 2023, Teilplan Gefährliche Abfälle) jedoch als \"AWU Abfallwirtschafts-Union Oberhavel GmbH, Breite Straße 47 a, 16727 Velten\" mit einem Elektronikschrottzwischenlager. Die Standortseite der ALBA Metall Nord (13 Treffer) enthält Velten nicht. Ob ein ALBA-Metallbetrieb an Breite Str. 47b in Velten tatsächlich besteht, ist offen; die Hausnummern 47a und 47B sind in OSM getrennt erfasst.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "5fbf538d9bd07a018ea615307f6d82019e1becfbae42ea5b1acb36c964efc98f",
+      "seed_hash": "560d27260d680877",
+      "geo": [
+        52.6834871,
+        13.1826383
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-wittenberge-interseroh-metallaufbereitung-ost",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Perleberg",
+        "street": "Buchholzer Chaussee 5",
+        "postcode": "19348",
+        "phone": "+49 3876 786602",
+        "email": "quitzow.metall@alba.info",
+        "opening_hours": "Mo-Fr 07:00-12:15, 12:45-16:00; Sa geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrottplatz",
+        "website": "https://metall.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "53737b173ac793eb37d7d3294fa1acbc5f2d636986a8b513f8fec181184215a7",
+      "seed_hash": "a8aa3b8f6a789989",
+      "geo": [
+        53.1035646,
+        11.8356233
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Annahme von Eisenschrott und Nichteisenmetallen; sofortiges Entgelt laut Betreiberseite.\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Containerdienst mit Anlieferung, Aufstellung und Abholung; Behälter 7–36 m³.\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-lichtenberg-alba-metall-nord-lichtenberg",
+      "values": {
+        "name": "ALBA Metall Nord GmbH (Lichtenberg)",
+        "city": "Lichtenberg",
+        "street": "Herzbergstr. 46-48",
+        "postcode": "10365",
+        "phone": "+49 30 35182 9150",
+        "email": "lichtenberg.metall@alba.info",
+        "opening_hours": "Mo-Fr 7:00-12:00, 12:30-16:00, Sa geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9f599d38fd7347d24c1e2b2ca75c3efda46052eb3d24d2d28cf73ba70b44801d",
+      "seed_hash": "6df0b3650a0fb6f4",
+      "geo": [
+        52.5266698,
+        13.4859072
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-mitte-tsr-deutschland-westhafen",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Westhafen)",
+        "city": "Mitte",
+        "street": "Westhafenstr. 1",
+        "postcode": "13353",
+        "phone": "030 3988199-0",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "03a8b5d2a53f060d6400165784248c647dfe7d8efcb93f017d97e6eaaec0758e",
+      "seed_hash": "1e579e59db9875f1",
+      "geo": [
+        52.5367297,
+        13.3342281
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-neukolln-alba-metall-nord-neukolln-sud",
+      "values": {
+        "name": "ALBA Metall Nord (Neukölln-Süd)",
+        "city": "Neukölln",
+        "street": "Ziegrastr. 2-46",
+        "postcode": "12057",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6f4cc644ace82e9cb99af7790ba7769107f966352039bf0004f0476caa630c36",
+      "seed_hash": "31ba60493e02c961",
+      "geo": [
+        52.4684,
+        13.4633
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-neukolln-tsr-deutschland-neukolln",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Neukölln)",
+        "city": "Neukölln",
+        "street": "Lahnstr. 1-9",
+        "postcode": "12055",
+        "phone": "030 63225780",
+        "email": "",
+        "opening_hours": "Mo–Do 07:00–11:30, 12:30–15:30, Fr 07:00–11:30, 12:30–14:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "65a2b63c2d594e96bfe527b422848a46d9e3505295f2d869ea57e8533eeafed7",
+      "seed_hash": "c6446fa73e1236a7",
+      "geo": [
+        52.4684851,
+        13.4491133
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-reinickendorf-alba-metall-nord-reinickendorf-nord",
+      "values": {
+        "name": "ALBA Metall Nord (Reinickendorf-Nord)",
+        "city": "Reinickendorf",
+        "street": "Rödernallee 184",
+        "postcode": "13407",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "dedb922b98f7b42db172485dd7c07292cedacdf4ba206c1d926b7e2758758d62",
+      "seed_hash": "2e41f28b03559eaf",
+      "geo": [
+        52.5727,
+        13.3512
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-reinickendorf-lichtenberg-alba-berlin-zentrale-lichtenberg",
+      "values": {
+        "name": "ALBA Berlin GmbH (Zentrale + Lichtenberg)",
+        "city": "Reinickendorf / Lichtenberg",
+        "street": "Flottenstr. 7-9, 13407 + Marzahner Str. 35",
+        "postcode": "13053",
+        "phone": "+49 30 35182-351",
+        "email": "kundenservice-berlin@alba.info",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://berlin.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7c4f0c6e2769f0f2be00a1e21ed1b91ec0119bf641cadafc2ffd6248627d74c5",
+      "seed_hash": "4d54438ca7b86855",
+      "geo": [
+        52.55,
+        13.5046
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-spandau-alba-metall-nord-spandau",
+      "values": {
+        "name": "ALBA Metall Nord GmbH (Spandau)",
+        "city": "Spandau",
+        "street": "Nonnendammallee 28",
+        "postcode": "13599",
+        "phone": "+49 30 351 82 843",
+        "email": "spandau.metall@alba.info",
+        "opening_hours": "Mo-Fr 7:00-12:30, 13:00-16:00, Sa geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b050de953b9a10592a5993b0a1f8d40d5f698197c116e564d2062b9a52c3e1ac",
+      "seed_hash": "4577a30b1c508e1a",
+      "geo": [
+        52.536945,
+        13.2394512
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-spandau-scholz-recycling-nl-berlin",
+      "values": {
+        "name": "Scholz Recycling NL Berlin",
+        "city": "Spandau",
+        "street": "Spandau, Tiefwerderweg 13,  (gleiche Adresse ELNO-Seed: räumliche Koinzidenz, getrennte Firmen)",
+        "postcode": "13597",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2146f4d6dcd2378f076c5bd3a53f51fbd6c68d024fc8a62123b376f17c48960b",
+      "seed_hash": "6effc718dcfa4ee7",
+      "geo": [
+        52.5272,
+        13.2195
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-essingen-scholz-recycling",
+      "values": {
+        "name": "Scholz Recycling GmbH",
+        "city": "Essingen",
+        "street": "Berndt-Ulrich-Scholz-Str. 1",
+        "postcode": "73457",
+        "phone": "+49 7365 84-0",
+        "email": "info@scholz-recycling.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "85504e34a6782fb2c007235599d20d42f426aa13ae81547945059940c6eaffcc",
+      "seed_hash": "3dfd317d0ca81b62",
+      "geo": [
+        49.0222,
+        9.101199999999999
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-mannheim-heilbronn-stuttgart-tsr-deutschland",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG",
+        "city": "Mannheim / Heilbronn / Stuttgart",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Metall- und Schrottrecycling an drei Niederlassungen: Mannheim, Lagerstraße 25, 68169 (Warenannahme Mo-Fr 06:00-16:00); Heilbronn, Benzstraße 2, 74076 (Annahme Schrott/Altmetalle Mo-Fr 07:00-15:30); Stuttgart, Am Westkai 15, 70327 (Annahme Schrott/Altmetalle Mo-Fr 07:00-15:45; keine Privatkundenannahme). Alle drei Anschriften und Tätigkeiten sind durch den Eintrag im amtlichen Fachbetrieberegister bestätigt. Die Betreiberseiten werben mit fairen und tagesaktuellen Preisen, veröffentlichen aber keine Zahlen und keine Tarife.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e9a74a25b8502e283df7b7aba2802d57c5293e6f0fd05a2330b5c86d8bccc97f",
+      "seed_hash": "f5e2948db1ba5564",
+      "geo": [
+        49.49626428571429,
+        8.48125
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, Fachbetrieberegister (Auszug 11.08.2026), TSR Recycling GmbH & Co. KG, Lagerstraße 25, 68169 Mannheim, Zertifikatsnummer ZARS00500005, Tätigkeiten Annahmestelle für Altfahrzeuge und Schredderanlage\", \"Entsorgungsfachbetrieb §56 KrWG, Fachbetrieberegister (Auszug 11.08.2026), TSR Deutschland GmbH & Co. KG Region Südwest III, Lagerstraße 25, 68169 Mannheim, Zertifikatsnummer ZZEE00200045, Tätigkeiten Sammeln, Befördern, Lagern und Behandeln\", \"Entsorgungsfachbetrieb §56 KrWG, Fachbetrieberegister (Auszug 11.08.2026), TSR Deutschland GmbH & Co. KG Region Südwest III Niederlassung Heilbronn, Benzstraße 2, 74076 Heilbronn, Zertifikatsnummer ZZEE00200045, Tätigkeiten Lagern und Behandeln\", \"Entsorgungsfachbetrieb §56 KrWG, Fachbetrieberegister (Auszug 11.08.2026), TSR Deutschland GmbH & Co. KG Region SüdWest Niederlassung Stuttgart, Am Westkai 15, 70327 Stuttgart, Zertifikatsnummer ZZEE00200392, Tätigkeiten Lagern und Behandeln\"]"
+    },
+    {
+      "slug": "bw-stuttgart-alba-metall-sud",
+      "values": {
+        "name": "ALBA Metall Süd GmbH, Standort Stuttgart (Zentrale Süd)",
+        "city": "Stuttgart",
+        "street": "Am Mittelkai 21",
+        "postcode": "70327",
+        "phone": "+49 711 918920-0",
+        "email": "info_albametallsued@alba.info",
+        "opening_hours": "Mo.–Do. 7:00–16:00, Fr. 7:00–14:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7818c66f2e6486296be66e989b6fa9c1150a92e4bb32e347e0872c02012be973",
+      "seed_hash": "5589f52965add911",
+      "geo": [
+        48.76828,
+        9.186139999999998
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-coburg-scholz-recycling-betrieb-coburg",
+      "values": {
+        "name": "Scholz Recycling GmbH Betrieb Coburg",
+        "city": "Coburg",
+        "street": "Gutenbergstr. 6",
+        "postcode": "96450",
+        "phone": "+49 9561 5519-0",
+        "email": "coburg@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:30-11:45, 12:30-16:30, Fr 07:30-11:45, 12:30-15:15",
+        "description": "Scholz-Recycling-Filiale Coburg: Stahl-/Metallschrott-Ankauf, Selbstanlieferung, Container, Entsorgungsfachbetrieb",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4b26868b12738a7f846d410a512919710cef8e0ac9cc49ad8e98f9da2d5a3ede",
+      "seed_hash": "afbf5f56fb043be1",
+      "geo": [
+        50.2594,
+        10.9638
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-nurnberg-scholz-recycling-derichebourg-gruppe",
+      "values": {
+        "name": "Scholz Recycling GmbH (Derichebourg-Gruppe)",
+        "city": "Nürnberg",
+        "street": "Horneckerweg 25",
+        "postcode": "90408",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Scholz Recycling GmbH (Derichebourg-Gruppe), Standort Nürnberg am Horneckerweg 25: Industrierecycling für Stahl- und NE-Metalle, zertifizierter Entsorgungsfachbetrieb. ANKAUF: kein öffentlicher Preis, kein Ankaufsportal und keine Preisliste; die Anlieferung läuft über die Selbstanlieferer-Strecke des Konzerns. VERKAUF: kein Verkauf belegt. GEBÜHREN: keine Tarife veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "23f2345cc95e496329156b3acc51c0fbab1f907643c7b6854a1a88b0ba5f6984",
+      "seed_hash": "6dccf4319006f496",
+      "geo": [
+        49.44398214285714,
+        11.078528571428572
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hb-industriehafen-tsr-recycling-nl-bremen",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, Niederlassung Bremen",
+        "city": "Industriehäfen",
+        "street": "Waterbergstraße 6",
+        "postcode": "28237",
+        "phone": "0421 64903-0",
+        "email": "info@tsr.eu",
+        "opening_hours": "Mo–Do 06:00–16:15, Fr 06:00–15:15",
+        "description": "TSR Deutschland GmbH & Co. KG, Niederlassung Bremen, Waterbergstraße 6, 28237 Bremen-Industriehäfen: zertifizierter Entsorgungsfachbetrieb (EdDE e.V., Zertifikat 0679, Vorgangsnummer ZZEE002000199013, gültig bis 18.08.2027) mit drei dem Standort zugeordneten Anlagen (Containerdienst, Lagerung, Schrottschere 1.250 t mit Paketpresse, Baggersortierung und Brennschneiden). ANKAUF: Fe- und NE-Metalle zu tagesaktuellen, marktgerechten Schrottpreisen von Gewerbekunden, kein Zahlenpreis je Sorte veröffentlicht, Angebot auf Anfrage. VERKAUF: der Standort tritt als Abnehmer auf, keine Verkaufspreisliste. GEBÜHREN: keine öffentliche Annahme-, Container- oder Entsorgungsgebühr belegt. ANNAHME: Mo-Do 06:00-16:15, Fr 06:00-15:15, keine Privatkundenannahme.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-bremen/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "389d933b31aeba5a36b538599b87988fc310889d9456de0787608016828239d6",
+      "seed_hash": "c0e703255e0f4c55",
+      "geo": [
+        53.1165,
+        8.7595
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"06:00-16:15\"], \"conditions\": \"Keine Privatkundenannahme; Fr Annahmeschluss 15:15 (TSR-Standortseite, 30.09.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"06:00-16:15\"], \"conditions\": \"Containerdienst: Containerstellung durch TSR, Abholung in festen Intervallen oder auf Abruf, einmalig oder turnusmäßig nutzbar; Efb-Anlage 4 des Standorts Bremen deckt Sammeln und Befördern von Abfällen (Containerdienst) ab; keine Privatkundenannahme (TSR-Standortseite + Efb-Zertifikat, 31.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (EdDE Entsorgergemeinschaft der Deutschen Entsorgungswirtschaft e.V., Köln; Zertifikat 0679, Vorgangsnummer ZZEE002000199013, gültig bis 18.08.2027, Prüfungsdatum 19.02.2026; Anlagen 4, 5 und 6 dem Standort Waterbergstraße 6, 28237 Bremen zugeordnet: Anlage 4 Sammeln und Befördern von Abfällen (Containerdienst), Kennnummer E978T03206; Anlage 5 Lagerung auf befestigten Flächen, in Boxen, in Hallen und auf überdachten Flächen, Kennnummer D333019704; Anlage 6 Schrottschere 1.250 t, Paketpresse, Baggersortierung, Brennschneiden)\"]"
+    },
+    {
+      "slug": "he-darmstadt-nord-tsr-deutschland-standort-darmstadt",
+      "values": {
+        "name": "TSR Deutschland – Standort Darmstadt",
+        "city": "Darmstadt-Nord",
+        "street": "Otto-Röhm-Straße 57",
+        "postcode": "64293",
+        "phone": "0615198040",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-12:00, 12:30-15:30",
+        "description": "Standort der TSR Deutschland GmbH & Co. KG (TSR-Gruppe, HRA 19743 AG Dortmund) in der Otto-Röhm-Straße 57, 64293 Darmstadt. Angeboten werden Metallrecycling, Kabelrecycling und Demontage; in OSM als Recycling-Betrieb mit name=TSR Recycling und operator=TSR Recycling GmbH & CO. KG erfasst. Betreiberseite vollständig durch eine Bot-Challenge geschützt.",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "75ab77430209b3796991776f85598d2f0a31e76e935d0a910d75e7a31ef48870",
+      "seed_hash": "15a9fdac19e93a1e",
+      "geo": [
+        49.8718375,
+        8.6533
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-dillenburg-tsr-deutschland-standort-dillenburg",
+      "values": {
+        "name": "TSR Deutschland – Standort Dillenburg",
+        "city": "Dillenburg",
+        "street": "Am Güterbahnhof 53",
+        "postcode": "35683",
+        "phone": "027718750",
+        "email": "",
+        "opening_hours": "Warenannahme Mo-Do 07:00-12:30 und 13:00-15:30; Fr 07:00-12:30",
+        "description": "TSR-Standort für Buntmetall, Stahlschrott und Kabelschrott; Ankauf zu tagesaktuellen Angeboten, keine öffentliche numerische Preisliste gefunden.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1b13cfe3546c5549d441376d41d5044d32ec60cca893f35541df809a82d8b068",
+      "seed_hash": "f32c99b592411b76",
+      "geo": [
+        50.73375,
+        8.283800000000001
+      ],
+      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"conditions\":\"Warenannahme Mo-Do 07:00-12:30 und 13:00-15:30; Fr 07:00-12:30. Buntmetall, Stahlschrott und Kabelschrott; konkrete Sorten und Tagesangebot vor Anlieferung abstimmen. Kasse öffnet erst um 08:00.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG (EdDE, Zertifikat 0690 / ZZEE002002304009, Region Südwest I, Standort Dillenburg, gültig bis 26.05.2027)\", \"Amtliches Register: Zertifikatsnummer ZZEE00200230, zertifizierte Tätigkeit Behandeln, Abfallschlüssel 120102 und 120104, Stand des Registerabrufs 11.08.2026\"]"
+    },
+    {
+      "slug": "he-frankfurt-am-main-tsr-deutschland-standort-frankfurt",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG – Standort Frankfurt",
+        "city": "Frankfurt am Main",
+        "street": "Uhlfelderstr. 4",
+        "postcode": "60314",
+        "phone": "06940280",
+        "email": "",
+        "opening_hours": "",
+        "description": "TSR Deutschland GmbH & Co. KG, Niederlassung Frankfurt, Uhlfelderstr. 4, 60314 Frankfurt am Main (Fechenheim): Metallrecycling, Schrottannahme für Gewerbe/Privat und Containerdienst.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "03fb41c70d9ba02e1dc7ff656ac99bf9bf19e6ffa7265a43241c110dd07aa716",
+      "seed_hash": "90ab3733dc43a4c5",
+      "geo": [
+        50.119404878048776,
+        8.653973170731708
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-freigericht-63579-tsr-deutschland",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Niederlassung Freigericht)",
+        "city": "Freigericht",
+        "street": "Gewerbepark Birkenhain 13-15",
+        "postcode": "63579",
+        "phone": "+49 6051 886103",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:30-15:00",
+        "description": "TSR-Standort Freigericht für Annahme und Ankauf von FE-/NE-Metallen für private und gewerbliche Anlieferer; Preise auf Anfrage, keine öffentliche numerische Ankaufsliste.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9bc57d87f5fdc9b622fb942f4e27825b1f3f220aa013d1c6a934b8c796b978cf",
+      "seed_hash": "78e115a0613790e5",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Annahme/Ankauf von FE- und NE-Metallen am Standort; Material- und Tagespreise beim Betreiber erfragen.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-ginsheim-gustavsburg-tsr-deutschland-ginsheim-gustavsburg",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG – Ginsheim-Gustavsburg",
+        "city": "Ginsheim-Gustavsburg",
+        "street": "Landdammstraße 15",
+        "postcode": "65462",
+        "phone": "+49 6134 750225",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-09:00, 09:30-12:00, 12:30-15:45",
+        "description": "Schrott- und Metallankauf für Privat-, Handwerks- und Industriekunden; Buntmetalle ab 1 kg, Schrotte ab 100 kg; Barvergütung bei Selbstanlieferung, Abholung größerer oder regelmäßiger Mengen und Containerservice.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-ginsheim-gustavsburg/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "98d95ba226b91a5d5a84475d01a29c319015aa35b1c0fd553d29a76e9acd8bcc",
+      "seed_hash": "9a10f4a084766d7f",
+      "geo": [
+        49.9711,
+        8.3453
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-lahntal-gofelden-scholz-recycling-standort-lahntal-gofeld",
+      "values": {
+        "name": "Scholz Recycling GmbH – Standort Lahntal-Goßfelden (Scholz-Gruppe/Derichebourg)",
+        "city": "Lahntal-Goßfelden",
+        "street": "Niederwettersche Str. 4",
+        "postcode": "35094",
+        "phone": "06423 92860",
+        "email": "",
+        "opening_hours": "",
+        "description": "Scholz Recycling GmbH, Standort Lahntal (Gemarkung Goßfelden, Flur 7) mit Schredderanlage fuer Eisen- und Nichteisenschrotte; amtlich bestaetigte Anschrift Niederwettersche Str. 4, 35094 Lahntal. Rechtsvorgangerin war die Marburger Rohstoffverwertung Johannes Voelker GmbH (HRB 1784 AG Marburg). Keine oeffentliche Preisliste.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "56e56c31863fe18633a9bb2aec320c04723b31b551672bc30b605d3421e756b7",
+      "seed_hash": "23ecaa9e2820f36d",
+      "geo": [
+        50.8619,
+        8.6976
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb, Zertifikatsnummer im amtlichen Register ZZEE00300308 (Auszug 11.08.2026)\", \"AltfahrzeugV-Anerkennung Schredder des Standorts Lahntal (Schrott Recycling GmbH, Standort Lahntal Schredderanlage)\", \"BImSchG-Genehmigungsbescheid des Regierungspräsidiums Gießen vom 20.10.2021, Az. RPGI-42.2-100g0100/20-2014/15 (Lagerung und Behandlung von Eisen- und Nichteisenschrotten, Grundstueck 35094 Lahntal, Gemarkung Goßfelden, Flur 7)\"]"
+    },
+    {
+      "slug": "hh-veddel-rothenburgsort-tsr-recycling-nl-hamburg-ne-hovestr-30-h",
+      "values": {
+        "name": "TSR Recycling GmbH (NL Hamburg NE, Hovestr. 30 + Hafenstr. 4)",
+        "city": "Veddel / Rothenburgsort",
+        "street": "Hovestr. 30",
+        "postcode": "20539",
+        "phone": "040 211 113 911",
+        "email": "info@tsr.eu",
+        "opening_hours": "Mo-Do 07:00-16:00, Fr 07:00-14:45",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "71e014079dc8f18a90c5639f5af228eb703665cfa06c94e34076954253a8b432",
+      "seed_hash": "c677ea4c9d6fbcbd",
+      "geo": [
+        53.5238262,
+        10.026061
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-friedland-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Friedland",
+        "street": "An der Kleinbahn 13a",
+        "postcode": "17098",
+        "phone": "+49 39601 2760",
+        "email": "friedland.metall@alba.info",
+        "opening_hours": "Mo-Fr 7:00-15:45, Sa geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "44967f069f1988c85814750142bffa3d84e893210ec23c28790febadb12f06e2",
+      "seed_hash": "b7c35c5c9412b3df",
+      "geo": [
+        52.319525,
+        13.0231
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-greifswald-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Greifswald",
+        "street": "Gützkower Landstr. 18",
+        "postcode": "",
+        "phone": "03834 841059",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "39754eaa49478bc7dd0d27c68ab2de7de7dcaa5683ee57dec21bb1482b2c98a2",
+      "seed_hash": "69ebbd41bf0dd7ce",
+      "geo": [
+        54.0871,
+        13.413266666666667
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-kavelstorf-18196-alba-mittleres-mecklenburg",
+      "values": {
+        "name": "ALBA Nord GmbH",
+        "city": "Kavelstorf",
+        "street": "Silder Moor 10",
+        "postcode": "18196",
+        "phone": "+49 38208-8390",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://nord.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4c259dee212c076610a68ccc9a910ab1526a8856ebbb9ab8883e07ae8555ee88",
+      "seed_hash": "48c5972fa6fecf19",
+      "geo": [
+        54.006,
+        12.1908
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-neubrandenburg-17036-alba-metall-nord-nl-neubrandenburg",
+      "values": {
+        "name": "ALBA Metall Nord NL Neubrandenburg",
+        "city": "Neubrandenburg",
+        "street": "Kruseshofer Str. 21",
+        "postcode": "17036",
+        "phone": "0395 3698315",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "22dd8368a116485efa7b01bc41154e1b0cc2a5c65b1fc4b6a86d136c854af915",
+      "seed_hash": "12b5e0bd10de0c0c",
+      "geo": [
+        53.559133333333335,
+        13.277366666666666
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-rostock-alba-metall-nord-zentrale-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH (Zentrale Nord)",
+        "city": "Rostock",
+        "street": "Werkstr. 1",
+        "postcode": "18069",
+        "phone": "+49 381 809060",
+        "email": "rostock.metall@alba.info",
+        "opening_hours": "Mo-Fr 8:00-16:30, Sa geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "081e844c2e94842722b491b9d2eb6f4892bb666422dd57c319def7c92ce00218",
+      "seed_hash": "2a68b8c699156c61",
+      "geo": [
+        54.10598,
+        12.11163
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-schwerin-19057-alba-nord",
+      "values": {
+        "name": "ALBA Nord GmbH",
+        "city": "Schwerin",
+        "street": "Ziegeleiweg 12",
+        "postcode": "19057",
+        "phone": "+49 385 4811 0",
+        "email": "nord@alba.info",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://nord.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ddc2d8270ec1c0f330de296039dcee0ecc9c5e8e0228aa4e70ed3756908b42a1",
+      "seed_hash": "7589e3e1dc0064b7",
+      "geo": [
+        53.6382,
+        11.3766
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-schwerin-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Schwerin",
+        "street": "Rogahner Str. 72",
+        "postcode": "19061",
+        "phone": "+49 385 6131-81",
+        "email": "nl_schwerin@alba.info",
+        "opening_hours": "Mo-Fr 7:00-9:00, 9:15-12:00, 12:30-16:00, Sa geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-schwerin/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7533e7e1883f53162c2238bba818ddabcb9c67aed82134126f945fda9605dea4",
+      "seed_hash": "bb5dfa90448f0f10",
+      "geo": [
+        53.41492857142857,
+        11.723885714285714
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-stralsund-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Stralsund",
+        "street": "Dähnholmstr. 13",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d9eb1c64985c0c6f813b07e4d220372188923fed4b63caf067c25d119cbe7208",
+      "seed_hash": "3e151b4bb16d1d86",
+      "geo": [
+        54.31123333333333,
+        13.067666666666668
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-torgelow-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Torgelow",
+        "street": "",
+        "postcode": "",
+        "phone": "03976 202392",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "51d3520888a70bc508cc69bc9a2c263d6ee1e3621aeb06360bc2d73bb996d0ee",
+      "seed_hash": "c9267ac08e2e3e86",
+      "geo": [
+        53.6341,
+        14.0135
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai",
+      "values": {
+        "name": "ALBA Nord GmbH",
+        "city": "Wismar",
+        "street": "Tonnenhofstraße 12",
+        "postcode": "23970",
+        "phone": "+49 3841 704678",
+        "email": "nord@alba.info",
+        "opening_hours": "Mo-Do 07:00-16:00, Fr 07:00-14:45",
+        "description": "Betriebsstätte Wismar: Abfallannahme für Privat- und Gewerbekunden, Containerdienst (Behälter 80 l bis 34 m³), Komplettentsorgung. Kein veröffentlichter Metallankaufskurs.",
+        "status": "pruefung",
+        "trader_type": "containerdienst",
+        "website": "https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "397e8b0e531e0ebdaab95e376d6c18a367ac5ff44b20fee549b023047f835514",
+      "seed_hash": "fac1b00913459a64",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-wolgast-alba-metall-nord",
+      "values": {
+        "name": "ALBA Metall Nord GmbH",
+        "city": "Wolgast",
+        "street": "Kröslinerstr. 5",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://metall.alba.info/unternehmen/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "50cd93c2261ac22775ebbcef9c200f5647d203225c1a3f2524d41ef0272f9510",
+      "seed_hash": "7e22c2d58b6c27ed",
+      "geo": [
+        54.0528,
+        13.772
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-bad-essen-tsr-deutschland-bad-essen-bei-osnabruck",
+      "values": {
+        "name": "TSR Deutschland (Bad Essen, bei Osnabrück)",
+        "city": "Bad Essen",
+        "street": "Gewerbegebiet 2",
+        "postcode": "49152",
+        "phone": "05472 8214999",
+        "email": "",
+        "opening_hours": "Öffnungszeiten Mo-Do 07:00-13:00 und 13:30-15:30, Fr 07:00-13:00 und 13:30-14:30",
+        "description": "Niederlassung Bad Essen der TSR Deutschland GmbH & Co. KG (Unternehmen der REMONDIS-Gruppe): Schrottankauf und Metallrecycling für Privat und Gewerbe, Abholung von Eisen- und Nichteisenmetallen an Entfallstellen in Ostwestfalen, Containerdienst. Laut amtlichem Register (Auszug 11.08.2026) ist der Standort Gewerbegebiet 2 nur mit der Tätigkeit Lagern zertifiziert (ZZEE00200393); an derselben Adresse ist zusätzlich REMONDIS Resource Solutions GmbH NL Bad Essen registriert (ZZET01500412, Lagern, Behandeln, Verwerten), die aktuelle Betreiberträgerschaft vor Ort ist offen.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b751b7a6ba42e290e94380c5d866edf6c49345b057af65f5ed4ace7db4ba13bf",
+      "seed_hash": "0b563fe06e338445",
+      "geo": [
+        52.3362623,
+        8.3144949
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZEE00200393 (Fachbetrieberegister, Auszug 11.08.2026); zertifizierte Tätigkeit nur Lagern, Abfallschlüssel 191006\"]"
+    },
+    {
+      "slug": "ni-braunschweig-alba-niedersachsen-anhalt-2-standorte",
+      "values": {
+        "name": "ALBA Niedersachsen-Anhalt GmbH (2 Standorte)",
+        "city": "Braunschweig",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1f87ba241a0255218d080ce1ee95258379fd4ca5038633837adee5b9c842000d",
+      "seed_hash": "c3e80fb98276acbd",
+      "geo": [
+        52.26814,
+        10.525866666666667
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-einbeck-tsr-deutschland-zweigstelle-einbeck",
+      "values": {
+        "name": "TSR Deutschland (Zweigstelle Einbeck)",
+        "city": "Einbeck",
+        "street": "Auf der Lieben Frau",
+        "postcode": "37574",
+        "phone": "+49 5561 93380",
+        "email": "",
+        "opening_hours": "Mo-Do 07:00-12:00, 12:30-15:15; Fr 07:00-12:00, 12:30-15:00",
+        "description": "TSR-Niederlassung (REMONDIS-Gruppe): Fe-/NE-Metall-Ankauf, Container, Demontage.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "95cfe2ee4709355b4374ef98878d5f0f2581f9d88c6708eefddd5894398cb032",
+      "seed_hash": "49c1f05bb0a722a0",
+      "geo": [
+        51.8202,
+        9.8696
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-emden-tsr-deutschland-standort-emden",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Standort Emden)",
+        "city": "Emden",
+        "street": "Annahmestelle Schiffbauerdamm 4",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "1807a51697e1504a19f06b04a57a24243e32824e2857dfb59725c895ec5f4c67",
+      "seed_hash": "dc063333e464dcff",
+      "geo": [
+        53.0824,
+        8.229775
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-hannover-tsr-deutschland-lindener-hafen-nordhafen",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Lindener Hafen + Nordhafen, 2 NL)",
+        "city": "Hannover",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "196ceda46f6ca01ed5c6096a9c8b380e1dd623469d1d89580fa67cbc157f1d47",
+      "seed_hash": "8728ab1bc0ca21a7",
+      "geo": [
+        52.37646896551724,
+        9.746341379310344
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-uberregional-alba-gruppe-mehrere-ni-standorte",
+      "values": {
+        "name": "ALBA-Gruppe (mehrere NI-Standorte)",
+        "city": "überregional",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2fe6bedef2475273f313d41ca7a411de25f0bbf4c86f5b0db2e1faf75f14689a",
+      "seed_hash": "de96a5a912ccbdf0",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-uberregional-tsr-recycling-mehrere-ni-standorte",
+      "values": {
+        "name": "TSR Recycling (mehrere NI-Standorte)",
+        "city": "überregional",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Deutschlandweiter Metallrecycler für FE- und NE-Metalle mit Containerlogistik und mehreren Niedersachsen-Standorten.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a8f4ae90f34f04af18c5d4c861c65dcd6b4b60c4fd032ccee2e8570a170af3ff",
+      "seed_hash": "01ed1a9dc22279a7",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-wilhelmshaven-alba-metall-nord-hafen",
+      "values": {
+        "name": "ALBA Metall Nord GmbH, Standort Wilhelmshaven",
+        "city": "Wilhelmshaven",
+        "street": "Emsstrasse 29",
+        "postcode": "26382",
+        "phone": "+49 4421 4020",
+        "email": "amn.wilhelmshaven@alba.info",
+        "opening_hours": "Mo.–Do. 7:30–16:30, Fr. 7:00–14:45 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "aabdbef86c3ce7fa8b4a54e829db4c9f3532ec285769975b5925ee3e360eb9bf",
+      "seed_hash": "85b1f92cc00a2f25",
+      "geo": [
+        53.54416,
+        8.1134
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-wilhelmshaven-jade-stahl",
+      "values": {
+        "name": "ALBA Metall Nord GmbH, Standort Wilhelmshaven",
+        "city": "Wilhelmshaven",
+        "street": "Emsstr. 29",
+        "postcode": "26382",
+        "phone": "+49 4421 4020",
+        "email": "amn.wilhelmshaven@alba.info",
+        "opening_hours": "Mo.–Do. 7:30–16:30, Fr. 7:00–14:45 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://metall.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e08e512eadfc44d0b00ba45e0012f7b013d461f03775ffd089dc4d5fdda8f3a6",
+      "seed_hash": "a82f01fe5aa1bf8e",
+      "geo": [
+        53.54416,
+        8.1134
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-dortmund-tsr-deutschland-ndl-dortmund",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Ndl. Dortmund)",
+        "city": "Dortmund",
+        "street": "Kohlenweg 10a",
+        "postcode": "44147",
+        "phone": "0231 10873-0",
+        "email": "",
+        "opening_hours": "Mo-Do 06:00-10:00, 10:30-16:00; Fr 06:00-10:00, 10:30-14:30",
+        "description": "TSR-Niederlassung Dortmund am Hafen (Kohlenweg 10a): Ankauf von Altmetall und Schrott ausschliesslich fuer Gewerbe- und Industriekunden; PKW-Ankauf nur auf Anfrage per Kontaktformular.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-dortmund/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "2502fd0c7b3672cf4c02e111f38a4d0ce076c3c050d36098a0cca455c7ac83dd",
+      "seed_hash": "31b600616c822093",
+      "geo": [
+        51.5277096,
+        7.4322989
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"conditions\": \"Keine Privatkundenannahme fuer Altmetall und Schrott; PKW-Ankauf auf Anfrage per Kontaktformular (TSR-Standortseite Dortmund, 29.10.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Vom Betreiber auf der Standortseite veroeffentlichte Zertifikatsdokumente (PDF-Links, Abruf 29.10.2026): Qualitätsmanagement DIN EN ISO 9001:2015, Autorisierter Sammelpartner im A I U I F e.V., Energiemanagementsystem DIN EN ISO 50001:2018, Managementsystem für Sicherheit und Gesundheit bei der Arbeit (ISO 45001), Umweltmanagementsystem DIN EN ISO 14001:2015. Die verlinkten PDF-Dateien lieferten am 29.10.2026 beim Direktabruf HTTP 403 (Bot-Schutz der Seite), deshalb sind Zertifikatsnummern und Gueltigkeitsdauer hier NICHT belegt - die Liste ist die Zertifikatsbekanntgabe des Betreibers fuer diesen Standort.\"]"
+    },
+    {
+      "slug": "nw-duisburg-tsr-deutschland-ndl-duisburg",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Ndl. Duisburg)",
+        "city": "Duisburg",
+        "street": "Rohstoffinsel 2-10",
+        "postcode": "47138",
+        "phone": "02034 5007-0",
+        "email": "",
+        "opening_hours": "Mo-Fr 06:00-17:30",
+        "description": "TSR-Niederlassung Duisburg auf der Rohstoffinsel: Anlaufstelle fuer Gewerbe- und Industriekunden, Shredder- und TSR40-Anlage, Containerservice fuer Duisburg und Umgebung; keine Annahme von Privatkunden.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-duisburg/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "7d27f4c0785e3b30c22b91081cca61377ab6576c0daa1e7248592bc456787952",
+      "seed_hash": "c4b94e1ef892714d",
+      "geo": [
+        51.4528799,
+        6.7665901
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"conditions\": \"Keine Annahme von Privatkunden; Anlaufstelle fuer Gewerbe-/Industriekunden (TSR-Standortseite, 30.09.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Vom Betreiber auf der Standortseite veroeffentlichte Zertifikatsdokumente (PDF-Links, Abruf 29.10.2026): Entsorgungsfachbetrieb (EfB; Zertifikatsdatei laut Dateiname ‚EfB_Zertifikat_RheinRuhrII_Duisburg_Mülheim‚), Qualitätsmanagement DIN EN ISO 9001:2015, Qualitätsmanagementsystem Verordnung (EU) Nr. 333/2011 und Nr. 715/2013, Shredderanlage gemäß Altautoverordnung, Autorisierter Sammelpartner im A I U I F e.V., Energiemanagementsystem DIN EN ISO 50001:2018, Managementsystem für Sicherheit und Gesundheit bei der Arbeit (ISO 45001), Umweltmanagementsystem DIN EN ISO 14001:2015. Die verlinkten PDF-Dateien lieferten am 29.10.2026 beim Direktabruf HTTP 403 (Bot-Schutz der Seite), deshalb sind Zertifikatsnummern und Gueltigkeitsdauer hier NICHT belegt - die Liste ist die Zertifikatsbekanntgabe des Betreibers fuer diesen Standort.\"]"
+    },
+    {
+      "slug": "nw-gelsenkirchen-tsr-deutschland-ndl-gelsenkirchen",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG (Ndl. Gelsenkirchen)",
+        "city": "Gelsenkirchen",
+        "street": "Grimbergstr. 85",
+        "postcode": "45889",
+        "phone": "02093 8420-00",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-15:30",
+        "description": "TSR-Niederlassung Gelsenkirchen (Grimbergstrasse 85): Schrottankauf und Kabelzerlegung fuer Gewerbekunden mit Containerwaren-Entladung; keine Annahme von Privatkunden.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-gelsenkirchen/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "1def74a199b7f940363ebae9e50b558d7efd28123e0fd38f67d5ffeddc3d2ee0",
+      "seed_hash": "09187e9c5de87566",
+      "geo": [
+        51.5427208,
+        7.1256538
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Keine Annahme von Privatkunden; gewerbliche Anlieferung, Entladung von Containerware (TSR-Standortseite, 30.09.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Abholung vor Ort bei groesseren Mengen mit eigenen Spezialfahrzeugen (TSR-Standortseite, 30.09.2026)\"}",
+      "certifications": "[\"Vom Betreiber auf der Standortseite veroeffentlichte Zertifikatsdokumente (PDF-Links, Abruf 29.10.2026): Qualitätsmanagement DIN EN ISO 9001:2015, Qualitätsmanagementsystem Verordnung (EU) Nr. 333/2011 und Nr. 715/2013, Autorisierter Sammelpartner im A I U I F e.V., Energiemanagementsystem DIN EN ISO 50001:2018. Die verlinkten PDF-Dateien lieferten am 29.10.2026 beim Direktabruf HTTP 403 (Bot-Schutz der Seite), deshalb sind Zertifikatsnummern und Gueltigkeitsdauer hier NICHT belegt - die Liste ist die Zertifikatsbekanntgabe des Betreibers fuer diesen Standort.\"]"
+    },
+    {
+      "slug": "nw-grevenbroich-scholz-recycling",
+      "values": {
+        "name": "Scholz Recycling GmbH",
+        "city": "Grevenbroich",
+        "street": "Otto-Hahn-Str. 11",
+        "postcode": "41515",
+        "phone": "02181 495270",
+        "email": "grevenbroich@scholz-recycling.de",
+        "opening_hours": "",
+        "description": "Niederlassung der Scholz Recycling GmbH (HRB 733963 AG Ulm) — Stahlschrotte, NE-Metalle, legierte Schrotte; Selbstanlieferer und Industriekunden.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "033acd4a59189bfddb4283a64531cedf8e9e23b73b952987b7cfee62026fc22d",
+      "seed_hash": "625f57a78fa9597d",
+      "geo": [
+        51.100966666666665,
+        6.6048333333333344
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-lunen-tsr-group-konzernzentrale",
+      "values": {
+        "name": "TSR Group GmbH & Co. KG (Konzernzentrale)",
+        "city": "Lünen",
+        "street": "Brunnenstraße 138",
+        "postcode": "44536",
+        "phone": "02306 106-3800",
+        "email": "info@tsr.eu",
+        "opening_hours": "",
+        "description": "Konzernzentrale/Holding der TSR Group GmbH & Co. KG in der Brunnenstrasse 138, Luenen. Kein oeffentlicher Annahmeplatz fuer Schrott; die Niederlassungen sind unter tsr-recycling.de/standorte gelistet.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr.eu/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "de06b1abdfa1f3668efabcbf501e7f4b7e2829e40fe65d34715ad59e1ee1e711",
+      "seed_hash": "8d65e648d2f18569",
+      "geo": [
+        51.6168033,
+        7.4634514
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-mulheim-an-der-ruhr-tsr-recycling-ndl-mulheim",
+      "values": {
+        "name": "TSR Recycling (Ndl. Mülheim)",
+        "city": "Mülheim an der Ruhr",
+        "street": "Steineshoffweg 21",
+        "postcode": "45479",
+        "phone": "0208 999540",
+        "email": "",
+        "opening_hours": "Mo-Do 06:00-14:00; Fr 06:00-13:30",
+        "description": "TSR-Niederlassung Muelheim an der Ruhr (Steineshoffweg 21): industrieller Versorgungsschwerpunkt (Stahlwerke und Giessereien), Einkauf von Giesserei- und Schwerschrotten; kein Bareinkauf, keine Privatkunden, keine NE-Metalle.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-muelheim/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "61f68fd6e0a01fbedcecaa69f91daf5edfaa1c7f375e162e8aec2c17511c7668",
+      "seed_hash": "967b39cc314603cc",
+      "geo": [
+        51.4349097,
+        6.8634685
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"conditions\": \"Keine Privatkundenannahme; kein An-/Verkauf von Autoteilen, Altfahrzeugen, NE-Metallen; kein Bareinkauf (TSR-Standortseite, 29.10.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Vom Betreiber auf der Standortseite veroeffentlichte Zertifikatsdokumente (PDF-Links, Abruf 29.10.2026): Entsorgungsfachbetrieb (EfB; gemeinsame Zertifikatsdatei laut Dateiname ‚EfB_Zertifikat_RheinRuhrII_Duisburg_Mülheim‚), Qualitätsmanagement DIN EN ISO 9001:2015, Energiemanagementsystem DIN EN ISO 50001:2018. Die verlinkten PDF-Dateien lieferten am 29.10.2026 beim Direktabruf HTTP 403 (Bot-Schutz der Seite), deshalb sind Zertifikatsnummern und Gueltigkeitsdauer hier NICHT belegt - die Liste ist die Zertifikatsbekanntgabe des Betreibers fuer diesen Standort.\"]"
+    },
+    {
+      "slug": "nw-ratingen-mhr-metallhandel-ruhr",
+      "values": {
+        "name": "MHR Metallhandel Ruhr GmbH",
+        "city": "Ratingen",
+        "street": "Heiligenhauser Str. 3",
+        "postcode": "40883",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Verwaltungsgesellschaft MHR Metallhandel Ruhr GmbH (TSR Group), B2B, kein Publikums-Ankauf",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://tsr.eu",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0ef84610f3aa33e74be02e4e574bf3affb11a268dedd87cd258275282956c38e",
+      "seed_hash": "53d7e580f8291a6f",
+      "geo": [
+        51.3304459,
+        6.9101121
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-koblenz-tsr-recycling-nl-koblenz",
+      "values": {
+        "name": "TSR Recycling (NL Koblenz)",
+        "city": "Koblenz",
+        "street": "Hans-Böckler-Straße 16",
+        "postcode": "56070",
+        "phone": "+49 261 988980",
+        "email": "administration.koblenz@tsr.eu",
+        "opening_hours": "Mo–Do 07:00–12:00 und 12:30–15:30; Fr 07:00–12:30",
+        "description": "Koblenzer Standort der TSR Deutschland GmbH & Co. KG mit Schrott-, Altmetall- und Kabelankauf für Privat- und Gewerbekunden, Abholung, Containerdienst und Demontage.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "30e8ab617162c6075d0999232cfcd929a2718778bf082bc1f79d4f3a77051fde",
+      "seed_hash": "5280882302f661a5",
+      "geo": [
+        50.354014285714285,
+        7.5774
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:00-12:00\", \"12:30-15:30\"], \"conditions\": \"Anlieferung ohne Voranmeldung am Standort Hans-Böckler-Straße 16, 56070 Koblenz; zuerst Eingangsbereich mit der Fahrzeugwaage, Ausweisdokument zur Adressverifikation erforderlich; Begutachtung, Sortierung und separate Verwiegung aller Metallarten; für kleinteiliges, durchmischtes Material wird ein Mischpreis definiert; Abrechnung mit dem tagesaktuellen Preis bzw. dem ermittelten Mischpreis, Auszahlung in bar oder per Überweisung. Quelle: Betreiber-Website Privatkunden und Standortseite, Abruf 30.10.2026.\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Abholung von Schrott, Altmetall und Kabelresten nach Bedarf sowie Containerdienst für größere Mengen, Demontagen; die Efb-Anlage 1 bescheinigt für den Standort Koblenz Sammeln und Befördern (Containerdienst und Stückguttransporte) weltweit. Quelle: Betreiber-Standortseite und Efb-Zertifikat ZZEE002002304009, Abruf 30.10.2026.\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, Zertifikat Nr. 0690 der EdDE Entsorgergemeinschaft der Deutschen Entsorgungswirtschaft e.V., Vorgangsnummer ZZEE002002304009, Prüfungsdatum 27.11.2025, Ausstellungsdatum 17.02.2026, gültig bis 26.05.2027; Anlage 1: TSR Deutschland GmbH & Co. KG, Region Südwest I, Niederlassung Koblenz, Hans-Böckler-Straße 16, 56070 Koblenz; zertifizierte Tätigkeiten Sammeln (2.1.2 weltweit) und Befördern (2.2.2 weltweit), Kennnummer nach § 28 NachWV E978T03206, Lagern, Behandeln, Verwerten, Handeln und Makeln im Anlagenteil nicht angekreuzt; laut amtlichem Fachbetrieberegister (Auszug 11.08.2026) am Standort Hans-Böckler-Straße 16 dagegen Lagern und Behandeln\", \"Qualitätsmanagement gemäß DIN EN ISO 9001:2015, autorisierter Sammelpartner im AIUIF e.V. und Energiemanagementsystem gemäß DIN EN ISO 50001:2018 (Zertifikats-Downloads auf der Betreiber-Standortseite, Abruf 30.10.2026)\"]"
+    },
+    {
+      "slug": "sh-neumunster-tsr-recycling-nl-neumunster",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, NL Neumünster",
+        "city": "Neumünster",
+        "street": "Leinestraße 4",
+        "postcode": "24539",
+        "phone": "+49 4321 6905980",
+        "email": "neumuenster@tsr.eu",
+        "opening_hours": "Mo-Fr 07:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "925bbcb3637cf02c34fb043b03bdd92809a32a3d455caae6972e53f73b6da5cd",
+      "seed_hash": "a5ef1bab980a0287",
+      "geo": [
+        54.082724999999996,
+        9.988375
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-annaberg-buchholz-scholz-recycling-betrieb-annaberg-buchho",
+      "values": {
+        "name": "Scholz Recycling, Betrieb Annaberg-Buchholz",
+        "city": "Annaberg-Buchholz",
+        "street": "Parkstraße 41",
+        "postcode": "09456",
+        "phone": "+49 3733 22216",
+        "email": "annaberg@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:00-09:00, 09:15-12:00, 12:30-15:45; Fr 07:00-09:00, 09:15-12:00, 12:30-14:45; Sa geschlossen",
+        "description": "Scholz-Standort Annaberg-Buchholz (Betreiber: Scholz Recycling GmbH, AG Ulm HRB 733963) nach dem offiziellen Scholz-Standortfinder: Parkstraße 41, 09456 Annaberg-Buchholz, T +49 3733 22216, F +49 3733 429762, annaberg@scholz-recycling.de. Das ESN-Entsorgungsfachbetriebszertifikat 98-070142/2 (26), Vorgangsnummer ZZEE003000243009 (Prüfung 23.06.2026, gültig bis 30.11.2027), nennt dieselbe Anschrift und zertifiziert Sammeln und Befördern von Eisen- und Nichteisenschrotten sowie eine Schrottplatz- und Abfalllageranlage (u. a. Abfallschlüssel 020110, 120101, 120103, 160117, 160118). Eine Anerkennung nach AltfahrzeugV ist für diesen Standort nicht belegt, daher bleibt der Typ \"autoverwertung\" ein Klärfall. ANKAUF: keine numerische Preisliste; Scholz verweist auf tagesaktuelle Marktpreise nach Foto-Klassifizierung. VERKAUF: keine öffentliche Preisliste. GEBÜHREN: keine Tarife belegt.",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e781c2027789431b86dd7245c5a6630bb02980b564ba60b5a7cc5a4822e99bf1",
+      "seed_hash": "9644d441c26ad026",
+      "geo": [
+        50.5799544,
+        13.0187027
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung laut Betreiber-Standortfinder Mo-Do 07:00-09:00, 09:15-12:00, 12:30-15:45, Fr 07:00-09:00, 09:15-12:00, 12:30-14:45; Samstag geschlossen. Vergütung nach tagesaktuellen Marktpreisen, Wertschätzung per Foto vorab.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, ESN-Zertifikat 98-070142/2 (26), Vorgangsnummer ZZEE003000243009, gültig bis 30.11.2027; Standort Parkstraße 41, 09456 Annaberg; Tätigkeiten Sammeln und Befördern von Eisen- und Nichteisenschrotten, Schrottplatz und Abfalllagerung\", \"ISO 50001 Energiemanagement (Scholz-Standortfinder, Abruf 29.10.2026)\"]"
+    },
+    {
+      "slug": "sn-bautzen-scholz-recycling-betrieb-bautzen",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Bautzen",
+        "city": "Bautzen",
+        "street": "Hoyerswerdaer Straße 32",
+        "postcode": "02625",
+        "phone": "+49 3591 310750",
+        "email": "bautzen@scholz-recycling.de",
+        "opening_hours": "Mo–Do 06:45–15:45; Fr 06:45–14:30; laut Sonderhinweis 3. Samstag im Monat 08:00–12:00, sonst Sa geschlossen; Feiertagsausnahmen beachten",
+        "description": "Schrottplatz der Scholz Recycling GmbH (HRB 733963 AG Ulm, Sitz Essingen) am Standort Hoyerswerdaer Straße 32, 02625 Bautzen; Selbstanlieferung nach Qualität, Klassifizierung und Gewicht zu tagesaktuellen Marktpreisen. Keine öffentliche numerische Ankaufs- oder Verkaufspreisliste und keine bezifferten Standorttarife.",
+        "status": "aktiv",
+        "trader_type": "schrottplatz",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "56a54cd65f0a3db01ee099315f5349ec9ab58081b8e7656e692f47916e2b40cb",
+      "seed_hash": "a1994c47a29aa37c",
+      "geo": [
+        51.19817,
+        14.41143
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-brand-erbisdorf-tsr-brand-erbisdorf",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, NL Brand-Erbisdorf",
+        "city": "Brand-Erbisdorf",
+        "street": "Berthelsdorfer Straße 15",
+        "postcode": "09618",
+        "phone": "037322 52820",
+        "email": "",
+        "opening_hours": "Private Anlieferung: Mo-Mi 07:00-16:00, Do 07:00-18:00, Fr 07:00-16:00; Gewerbliche Anlieferung: Mo-Fr 07:00-16:00",
+        "description": "Niederlassung der TSR Deutschland GmbH & Co. KG (REMONDIS-Gruppe; Unternehmenssitz Brunnenstraße 138, 44536 Lünen) in Brand-Erbisdorf: Berthelsdorfer Straße 15, 09618 Brand-Erbisdorf, T +49 37322 52820, F +49 37322 528219. Betreiber-Standortseite (Archiv-Snapshot 18.06.2026, live nicht abrufbar wegen Bot-Challenge): Annahme von Metallen (Metallrecycling) und Altpapier, flexibler Containerdienst für größere Mengen Stahlschrott und Metalle, Zertifizierungen Entsorgungsfachbetrieb, DIN EN ISO 9001:2015, Verordnung (EU) 333/2011 und 715/2013, autorisierter Sammelpartner im AIUIF e.V., ISO 50001:2018, ISO 14001:2015. Das amtliche Fachbetrieberegister (Auszug 11.08.2026) fuehrt die Niederlassung mit Taetigkeiten Sammeln, Befoerdern, Lagern und Behandeln; ein anerkannter Demontagebetrieb ist in Brand-Erbisdorf nicht verzeichnet. ANKAUF: keine numerische Preisliste; die Betreiberseite spricht von fairen und marktgerechten Preisen, nennt aber keine Werte. VERKAUF: keine oeffentliche Verkaufspreisliste. GEBUEHREN: Containerdienst wird angeboten, Tarife sind nicht veroeffentlicht.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "9fa9255112cfdcd75d097e019e7a2687ae9c1abaf95a2facdc322da9ac58d109",
+      "seed_hash": "f58ebd597ba411e4",
+      "geo": [
+        50.8681474,
+        13.3321957
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Private Anlieferung Mo-Mi 07:00-16:00, Do 07:00-18:00, Fr 07:00-16:00; Gewerbliche Anlieferung Mo-Fr 07:00-16:00 (Betreiber-Standortseite, Archiv-Snapshot 18.06.2026). Annahme von Metallen und Altpapier, Containerdienst fuer groessere Mengen Stahlschrott und Metalle.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG laut amtlichem Fachbetrieberegister (Auszug 11.08.2026): TSR Deutschland GmbH & Co. KG Niederlassung Brand-Erbisdorf, Berthelsdorfer Str. 15, Taetigkeiten Sammeln, Befoerdern, Lagern, Behandeln\", \"Zertifizierter Entsorgungsfachbetrieb, DIN EN ISO 9001:2015, Verordnung (EU) Nr. 333/2011 und Nr. 715/2013, autorisierter Sammelpartner im AIUIF e.V., ISO 50001:2018, ISO 14001:2015 (Zertifikats-Downloads laut Betreiber-Standortseite, Archiv-Snapshot 18.06.2026)\"]"
+    },
+    {
+      "slug": "sn-chemnitz-scholz-recycling-betrieb-chemnitz",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Chemnitz",
+        "city": "Chemnitz",
+        "street": "Uhlestr. 20",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e753dc1d00e81ca682159e5b6f0796efd8a7882b685b16c2f812252a5b891628",
+      "seed_hash": "896fe03749ebd8c7",
+      "geo": [
+        50.82073333333334,
+        12.910466666666668
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-chemnitz-tsr-deutschland-nl-chemnitz",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, NL Chemnitz",
+        "city": "Chemnitz",
+        "street": "Frankenberger Straße 155a",
+        "postcode": "09131",
+        "phone": "+49 371 3563998-0",
+        "email": "chemnitz@tsr.eu",
+        "opening_hours": "Mo, Mi, Fr 07:00–16:00; Di, Do 07:00–17:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "17aa4deda8d695311f5d95244aa9cf8393c2ba36beb756023a6366d8a05da8c4",
+      "seed_hash": "d4c587998246fe10",
+      "geo": [
+        50.860415,
+        12.941881
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-dobeln-scholz-recycling-betrieb-dobeln",
+      "values": {
+        "name": "Scholz Recycling, Betrieb Döbeln",
+        "city": "Döbeln",
+        "street": "Mastener Str. 1",
+        "postcode": "04720",
+        "phone": "03431 669000",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d2e88724014a2f22aeeb1724a09c334358b61594c2a30fe7ee3ed3fb1bed8961",
+      "seed_hash": "c1ec78980e67aec7",
+      "geo": [
+        51.1221,
+        13.1103
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-dresden-scholz-recycling-betrieb-dresden-hafen",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Dresden Hafen",
+        "city": "Dresden",
+        "street": "Magdeburger Str. 58",
+        "postcode": "01067",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9a06131dfac8ce3893a5d97c83b32c997c988e338b3b918e6253062da46fa6e9",
+      "seed_hash": "9e722403b88f4e9a",
+      "geo": [
+        51.05594137931035,
+        13.74316896551724
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-dresden-scholz-recycling-betrieb-dresden-ig",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Dresden IG",
+        "city": "Dresden",
+        "street": "An der Eisenbahn 4",
+        "postcode": "01099",
+        "phone": "+49 351 8282919",
+        "email": "dresden-ig@scholz-recycling.de",
+        "opening_hours": "Mo-Mi/Fr 07:00-08:30, 08:45-12:00, 12:30-16:00; Do 07:00-08:30, 08:45-12:00, 12:30-18:00; Sa geschlossen; Fr-Schlusszeit sprachabhängig widersprüchlich, vorher bestätigen",
+        "description": "Scholz-Betrieb Dresden IG für Fe-/NE-Schrott; Entsorgungsfachbetrieb sowie anerkannte Altfahrzeug-Annahmestelle und Demontagebetrieb, Zertifikate gültig bis 30.04.2027.",
+        "status": "aktiv",
+        "trader_type": "schrottplatz",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a07998df03ca604aeca0580d6715f4b7e149d9995305034808206b6a1820ea0b",
+      "seed_hash": "1c2ebb0013ff5402",
+      "geo": [
+        51.0927404,
+        13.7686159
+      ],
+      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"conditions\":\"Schrott-/Metallanlieferung während der Öffnungszeiten; Privatkunden mit Ausweis, Gewerbekunden mit Selbstauskunft, bei Vertretung zusätzlich Vollmacht. Materialannahme vorher prüfen; keine pauschale Annahmezusage für Elektroaltgeräte.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-dresden-tsr-deutschland-nl-dresden-hafen",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, NL Dresden-Hafen",
+        "city": "Dresden",
+        "street": "Magdeburger Straße 58",
+        "postcode": "01067",
+        "phone": "+49 351 2635100",
+        "email": "dresden@tsr.eu",
+        "opening_hours": "Mo-Mi 07:00-12:00 und 12:30-16:00; Do 07:00-12:00 und 12:30-18:00; Fr 07:00-12:00 und 12:30-15:00",
+        "description": "Ankauf von Eisen- und Nichteisenschrott für Privat-, Handwerks-, Gewerbe- und Industriekunden am Dresdner Hafen; Containerdienst mit Abholung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "162abae2230f1435b5ebdbfee329bdca057a787b9a3099445152430e363b3d58",
+      "seed_hash": "6230e5e9cfebf3a3",
+      "geo": [
+        51.05594137931035,
+        13.74316896551724
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-freiberg-scholz-recycling-betrieb-freiberg",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Freiberg",
+        "city": "Freiberg",
+        "street": "Knappenweg 4",
+        "postcode": "09599",
+        "phone": "+49 3731 22435",
+        "email": "freiberg@scholz-recycling.de",
+        "opening_hours": "Mo 07:15-09:00, 09:15-12:00, 12:30-16:00; Di 07:00-09:00, 09:15-12:00, 12:30-17:00; Mi-Do 07:00-09:00, 09:15-12:00, 12:30-16:00; Fr 07:00-09:00, 09:15-12:00, 12:30-15:00; Sa geschlossen",
+        "description": "Scholz-Standort Freiberg (Betreiber: Scholz Recycling GmbH, AG Ulm HRB 733963) nach dem offiziellen Scholz-Standortfinder: Knappenweg 4, 09599 Freiberg, T +49 3731 22435, F +49 3731 22436, freiberg@scholz-recycling.de. Das ESN-Entsorgungsfachbetriebszertifikat 98-070142/4 (26), Vorgangsnummer ZZEE003000258009 (Prüfung 22.06.2026, gültig bis 30.11.2027), nennt dieselbe Anschrift und zertifiziert Sammeln und Befördern von Eisen- und Nichteisenschrotten (Kfz-Technik), eine Schrottplatzanlage sowie die Lagerung und Behandlung nichtmetallischer Abfälle. Nach AltfahrzeugV ist der Standort ausdruecklich eine \"Sonstige Anlage zur weiteren Behandlung nach § 5 Abs. 3 AltfahrzeugV\" (Bescheinigung Umweltgutachter Christof Thoss, Betriebsnummer SC7730017, Ansprechpartner Felix Grunewald, Genehmigungsbehoerde Landratsamt Mittelsachsen) und damit KEIN anerkannter Demontagebetrieb; der Seed-Typ autoverwertung bleibt ein Klaerfall. ANKAUF: keine numerische Preisliste, Scholz verweist auf tagesaktuelle Marktpreise nach Foto-Klassifizierung. VERKAUF: keine oeffentliche Preisliste. GEBUEHREN: keine Tarife belegt.",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "73372f7f2eff6d9db889ecacf5057b856486251933f78271ee92a057bced5700",
+      "seed_hash": "4a4a5b196690ecf8",
+      "geo": [
+        50.9126568,
+        13.3597436
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung laut Betreiber-Standortfinder; Sa geschlossen. Verguetung nach tagesaktuellen Marktpreisen, Wertschatzung per Foto vorab.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, ESN-Zertifikat 98-070142/4 (26), Vorgangsnummer ZZEE003000258009, gültig bis 30.11.2027; Standort Knappenweg 4, 09599 Freiberg; Tätigkeiten Sammeln und Befördern von Eisen- und Nichteisenschrotten (Kfz-Technik), Schrottplatzanlage, Lagerung und Behandlung nichtmetallischer Abfälle\", \"AltfahrzeugV § 5 Abs. 3: Sonstige Anlage zur weiteren Behandlung (Bescheinigung Umweltgutachter Christof Thoss, ESN 98-070142/4 (26), Betriebsnummer SC7730017, Genehmigungsbehörde Landratsamt Mittelsachsen, Zertifikatsgültigkeit 21.12.2027) - kein anerkannter Demontagebetrieb\", \"ISO 50001 Energiemanagement (Scholz-Standortfinder, Abruf 29.10.2026)\"]"
+    },
+    {
+      "slug": "sn-grimma-scholz-recycling-betrieb-grimma",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Grimma",
+        "city": "Grimma",
+        "street": "Südstraße 80",
+        "postcode": "04668",
+        "phone": "+49 3437 941105",
+        "email": "grimma@scholz-recycling.de",
+        "opening_hours": "Mo-Do 08:00-12:00, 12:30-15:30; Fr 08:00-12:00, 12:30-14:30; Sa geschlossen",
+        "description": "Scholz-Standort Grimma (Betreiber: Scholz Recycling GmbH, AG Ulm HRB 733963) nach dem offiziellen Scholz-Standortfinder: Südstraße 80, 04668 Grimma, T +49 3437 941105, F +49 3437 941108, grimma@scholz-recycling.de. Anders als die Standorte Annaberg-Buchholz, Freiberg und Zwickau weist der Standortfinder fuer Grimma nur das Zertifikat \"ISO 50001 - Energiemanagement\" aus, keinen Entsorgungsfachbetrieb; ein ESN-Entsorgungsfachbetriebszertifikat ist auf der Betreiberseite nicht verlinkt. ANKAUF: keine numerische Preisliste, Scholz verweist auf tagesaktuelle Marktpreise nach Foto-Klassifizierung. VERKAUF: keine oeffentliche Preisliste. GEBUEHREN: keine Tarife belegt.",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "cb453717cd7a37e0cd5f13bed51e265018752fad5685987a3763c42ee6893bbb",
+      "seed_hash": "7ccf8108447772f7",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung laut Betreiber-Standortfinder Mo-Do 08:00-12:00 und 12:30-15:30, Fr 08:00-12:00 und 12:30-14:30; Samstag geschlossen. Verguetung nach tagesaktuellen Marktpreisen, Wertschatzung per Foto vorab.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"ISO 50001 Energiemanagement (Scholz-Standortfinder, Abruf 29.10.2026). Fuer den Standort Grimma weist der Standortfinder keinen Entsorgungsfachbetrieb und keine AltfahrzeugV-Anerkennung aus; ein EFB-Zertifikat ist auf der Betreiberseite nicht verlinkt.\"]"
+    },
+    {
+      "slug": "sn-groditz-scholz-recycling-betrieb-groditz",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Gröditz",
+        "city": "Gröditz",
+        "street": "Am Stahlwerk 12",
+        "postcode": "01609",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "fedc2149988873792c2b403132581c6362e093a0c240ac7b530876120cc12fa7",
+      "seed_hash": "17cb0e5577ef3ade",
+      "geo": [
+        51.3963,
+        13.401
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-heidenau-tsr-deutschland-nl-dresden-heidenau",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, NL Dresden-Heidenau",
+        "city": "Dresden",
+        "street": "Am Lugaer Graben 20",
+        "postcode": "01259",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Niederlassung Dresden-Heidenau der TSR Deutschland GmbH & Co. KG (HRA 19743 AG Dortmund) am Lugaer Graben 20, 01259 Dresden. Sowohl die EfB-Bescheinigung 801.0237/25 als auch der Eintrag im amtlichen Fachbetrieberegister nennen diese Anschrift; der Registereintrag umfasst die Zertifikatsnummer ZZST00200021 mit den Tätigkeiten Lagern und Behandeln und den Abfallschlüsseln 160104* und 160106 Altfahrzeuge sowie 160801 gebrauchte Katalysatoren. Eine Demontage-Anerkennung nach AltfahrzeugV ist damit nicht belegt. Die Zweigstellenbezeichnung Dresden-Heidenau ist ein historischer Filialname, die Postanschrift liegt in Dresden. Am selben Adresskomplex betreibt die Veolia Umweltservice Ost GmbH eine eigene Anlage. Kundenzeiten, Preise und Gebühren sind nicht veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f60a77ed378ac5e06d8eaf76a4d4943954c867afa7321d72460450a2beec3c02",
+      "seed_hash": "3c53b6c525c49f9a",
+      "geo": [
+        52.14445,
+        11.767050000000001
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-leipzig-scholz-recycling-leipzig-nord-ost-sud-we",
+      "values": {
+        "name": "Scholz Recycling Leipzig Nord-Ost / Süd-West",
+        "city": "Leipzig",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d9f0f1078321e1bc83c472f99eba01ac93395b986c98eb40837d6a25f3a17030",
+      "seed_hash": "ada3154312ec9a2f",
+      "geo": [
+        51.354503225806454,
+        12.369174193548387
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-marienberg-scholz-recycling-betrieb-marienberg",
+      "values": {
+        "name": "Scholz Recycling, Betrieb Marienberg",
+        "city": "Marienberg",
+        "street": "Reitzenhainer Straße 35 c",
+        "postcode": "09496",
+        "phone": "+49 3735 22495",
+        "email": "marienberg@scholz-recycling.de",
+        "opening_hours": "Mo–Do 07:00–09:00, 09:15–12:00, 12:30–16:00; Fr 07:00–09:00, 09:15–12:00, 12:30–13:45; laut Sonderhinweis 1. Samstag im Monat 08:00–12:00, sonst Sa geschlossen; Feiertagsausnahmen beachten",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrottplatz",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6545d2dccb5beba4c24b60e834cb07bc42efd20a9f46b0377a09017d95b487c7",
+      "seed_hash": "d33a92df202d73b5",
+      "geo": [
+        50.64031,
+        13.15493
+      ],
+      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"conditions\":\"Selbstanlieferung von Schrott, auch Kleinmengen, nach der ausdrücklichen Scholz-Regel für alle eigenen Standorte; Marienberg ist im aktuellen Betreiberfinder geführt. Nur während der örtlichen Öffnungszeiten, Feiertagsausnahmen beachten; Samstagsangaben widersprüchlich (geschlossen / 1. Samstag 08–12), vorher bestätigen. Privatkunden: Personalausweis; Gewerbekunden: Selbstauskunft; bei Lieferung für Dritte Vollmacht des Material-Eigentümers. Anmeldung an Waage/Kasse, Sicherheitsregeln und Materialbegutachtung beachten; Abrechnung nach Klassifizierung und Gewicht. Keine Annahme von Quecksilber/Anhaftungen, Sprengkörpern, explosionsverdächtigen Gegenständen, geschlossenen Hohlkörpern (z. B. Druckbehälter/Gasflaschen) oder Stoffen mit ionisierender Strahlung oberhalb der Umgebungsuntergrundstrahlung. Keine pauschale Marienberger Zusage für das gesamte beworbene Wertstoffsortiment, Altautos oder Elektroaltgeräte; konkrete Fraktion und Konditionen vorab klären. Grundlage: betreiberweite Services-Regel plus örtlicher Finder, Abruf 18.10.2026; keine separate örtliche Annahmeordnung gefunden.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-mittweida-scholz-recycling-betrieb-mittweida",
+      "values": {
+        "name": "Scholz Recycling, Betrieb Mittweida",
+        "city": "Mittweida",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "7fc0cc74bbcc569e2408697d35eb690b8a96f3d694b0dec275d82766715818c6",
+      "seed_hash": "70c368eaacdd354f",
+      "geo": [
+        50.9862,
+        12.9754
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-oschatz-alba-sachsen-standort-oschatz",
+      "values": {
+        "name": "ATO Abfallwirtschaft Torgau-Oschatz GmbH, Betriebshof Rechau-Zöschau",
+        "city": "Oschatz",
+        "street": "Am Blauen Berg 1",
+        "postcode": "04758",
+        "phone": "+49 3435 921-359",
+        "email": "",
+        "opening_hours": "",
+        "description": "Betriebshof Rechau-Zoeschau der ATO Abfallwirtschaft Torgau-Oschatz GmbH, Am Blauen Berg 1, 04758 Oschatz, T +49 3435 921-359; Konzernzentrale Gewerbering 51, 04860 Torgau, +49 3421 77300-11. Der Eintrag stammt aus dem offiziellen Konzernverzeichnis alba.info/standorte (Abruf 29.10.2026); eine Einzel-Detailseite des Standorts existiert dort nicht. Der Seed-Name ALBA Sachsen Standort Oschatz war eine Fehlzuordnung: ALBA Sachsen GmbH fuehrt keinen Standort Oschatz. ANKAUF: kein Ankauf von Schrott oder Metallen fuer diesen Standort belegt; die Seed-Notiz Lagern ist durch keine Ankaufszusage gedeckt. VERKAUF: keine Verkaufspreisliste. GEBUEHREN: keine Tarife; kommunale Abfallgebuehren sind keine Betreibergebuehren und werden hier nicht gefuehrt.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "16944c1ed1b673ce20d2d9e2fecf5716ce2bb395175b9751c2ae0cb647ec10e9",
+      "seed_hash": "8a7c7ff3979005f5",
+      "geo": [
+        51.2796507,
+        13.1559961
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-plauen-scholz-recycling-standort-plauen",
+      "values": {
+        "name": "Scholz Recycling, Standort Plauen",
+        "city": "Plauen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "74d2d55b9b8319a7cbe8ed71aabece9d9fa1e4988993fa44f84bf82a03682d0b",
+      "seed_hash": "5c2684ae80e16988",
+      "geo": [
+        50.4976,
+        12.1425
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-riesa-scholz-recycling-betrieb-riesa",
+      "values": {
+        "name": "Scholz Recycling, Betrieb Riesa",
+        "city": "Riesa",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e6f64cd53675f25709a686fe32cd42fa4809c7ac3b2000d15d20e9812d9800df",
+      "seed_hash": "00c81ec838c17999",
+      "geo": [
+        51.30056666666667,
+        13.298166666666667
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-riesa-tsr-deutschland-nl-riesa",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, NL Riesa",
+        "city": "Riesa",
+        "street": "Lommatzscher Straße 8",
+        "postcode": "01587",
+        "phone": "03525 5131820",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-12:00, 12:30-15:30",
+        "description": "Niederlassung der TSR Deutschland GmbH & Co. KG (Tochter der TSR Group GmbH & Co. KG, REMONDIS-Gruppe; Unternehmenssitz Brunnenstrasse 138, 44536 Luenen) in Riesa: Lommatzscher Straße 8, 01587 Riesa, T +49 3525 5131-820, F +49 3525 5131-821, Annahme Mo-Fr 07:00-12:00 und 12:30-15:30 (Beleg: Internet-Archiv-Snapshot der Betreiber-Standortseite vom 14.11.2025; die Live-Seite ist per Bot-Challenge nicht pruefbar). Ankauf von Altmetallen und Schrott zu marktgerechten Preisen, ohne veroeffentlichte Zahlenpreise. Das amtliche Fachbetrieberegister (Auszug 11.08.2026) fuehrt fuer Riesa nur die ESF Elbe-Stahlwerke Feralpi GmbH; fuer die TSR-Niederlassung ist kein Entsorgungsfachbetrieb nachgewiesen. In OSM traegt die Anschrift ein REMONDIS-Objekt (way/174629277, name=Remondis Elbe-Roeder GmbH NL Riesa, operator=REMONDIS); ein Zusammenschluss der Rechtstraeger wird nicht behauptet. ANKAUF: keine numerische Preisliste. VERKAUF: keine Verkaufspreisliste. GEBUEHREN: keine Tarife.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "be8d22bd8e469b13aa6477aad2b9724d365ab87d2af44204635babb6c09b6f48",
+      "seed_hash": "77547bac9498b9dd",
+      "geo": [
+        51.2971357,
+        13.2847886
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-schwarzenberg-scholz-recycling-standort-schwarzenberg",
+      "values": {
+        "name": "Scholz Recycling, Standort Schwarzenberg",
+        "city": "Schwarzenberg",
+        "street": "Am Bahnhof 03",
+        "postcode": "08340",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "227d8dce1e6717f400b25269ca4e659d32007c9d53bf9416f7cc7b4567957441",
+      "seed_hash": "a7f64fd3689fa8a9",
+      "geo": [
+        50.5384,
+        12.784
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-torgau-scholz-recycling-betrieb-torgau",
+      "values": {
+        "name": "Scholz Recycling, Betrieb Torgau",
+        "city": "Torgau",
+        "street": "Am Wasserturm 3",
+        "postcode": "04860",
+        "phone": "+49 3421 903593",
+        "email": "torgau@scholz-recycling.de",
+        "opening_hours": "Mo–Do 07:00–15:30; Fr 07:00–14:15; 3. Sa im Monat 08:00–11:00 laut Sonderzeiten, sonst Sa geschlossen; Feiertagsausnahmen beachten",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "07654ac5d28a40dc520be65310dec6e98a7f692cbf9e42e62415019b80b00f9c",
+      "seed_hash": "9e4cbb9f60571f72",
+      "geo": [
+        51.55352,
+        13.00196
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-torgau-tsr-deutschland-nl-torgau",
+      "values": {
+        "name": "TSR Deutschland, NL Torgau",
+        "city": "Torgau",
+        "street": "Welsauer Weg 14",
+        "postcode": "04860",
+        "phone": "03421 704983",
+        "email": "torgau@tsr.eu",
+        "opening_hours": "Mo-Fr 07:00-12:00, 12:30-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "501b827f953c3170ea12158aa2b59cc95aed6fbc0ed2ddc15e17f8afdf121f15",
+      "seed_hash": "c6f48090af6c627b",
+      "geo": [
+        51.5602,
+        12.9962
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-trebsen-scholz-recycling-standort-trebsen",
+      "values": {
+        "name": "Scholz Recycling GmbH, Standort Trebsen",
+        "city": "Trebsen",
+        "street": "Industriegebietsstraße 3",
+        "postcode": "04687",
+        "phone": "+49 34383 42034",
+        "email": "trebsen@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:00-12:00, 12:30-16:00; Fr 07:00-12:00, 12:30-13:45; Sa geschlossen",
+        "description": "Scholz Recycling GmbH, Standort Trebsen (Betreiber: Scholz Recycling GmbH, AG Ulm HRB 733963): Industriegebietsstraße 3, 04687 Trebsen, T +49 34383 42034, F +49 34383 42036, trebsen@scholz-recycling.de, Annahme Mo-Do 07:00-12:00 und 12:30-16:00, Fr 07:00-12:00 und 12:30-13:45, Sa geschlossen. Das ESN-Entsorgungsfachbetriebszertifikat 25-080581 (26), Vorgangsnummer ZZEE003003308003 (Pruefung 13.08.2026, gueltig bis 31.01.2028), nennt dieselbe Anschrift und beschreibt eine Anlage zur zeitweiligen Lagerung von Eisen- und Nichteisenschrotten einschliesslich Autowracks (Nr. 8.12.3.2 Anhang 1 zur 4. BImSchV) sowie eine Anlage zur sonstigen Behandlung nicht gefaehrlicher Abfaelle mit Erzeugung von Werkstoffen fuer Giessereien und Stahlwerke. Eine Anerkennung nach AltfahrzeugV ist fuer diesen Standort nicht belegt. ANKAUF: keine numerische Preisliste; der Betreiber verweist auf tagesaktuelle Marktpreise und Foto-Klassifizierung. VERKAUF: keine oeffentliche Preisliste. GEBUEHREN: keine Tarife belegt.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ab10be4da5117ff63a86a56f6abcf41f004ac99ede850a141cb157b690183303",
+      "seed_hash": "c99fc17f580ecf71",
+      "geo": [
+        51.2786902,
+        12.7550946
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung während der Standortöffnungszeiten; private Lieferanten benötigen einen Personalausweis, gewerbliche eine Selbstauskunft.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, ESN-Zertifikat 25-080581 (26), Vorgangsnummer ZZEE003003308003, gültig bis 31.01.2028; Standort Industriegebietsstraße 3, 04687 Trebsen; Anlage zur zeitweiligen Lagerung von Eisen- und Nichteisenschrotten einschließlich Autowracks sowie Anlage zur sonstigen Behandlung nicht gefährlicher Abfälle, Erzeugung von Werkstoffen für Gießereien und Stahlwerke; keine AltfahrzeugV-Anerkennung für diesen Standort belegt\"]"
+    },
+    {
+      "slug": "sn-wurzen-alba-sachsen-standort-wurzen",
+      "values": {
+        "name": "ALBA Sachsen GmbH, Standort Wurzen",
+        "city": "Wurzen",
+        "street": "Am Birkenhof 14",
+        "postcode": "04808",
+        "phone": "+49 34261 4800",
+        "email": "kundenservice-wurzen@alba.info",
+        "opening_hours": "Mo., Mi., Fr. 7:30–12:00 u. 13:00–17:30; Di., Do. 7:30–12:00 u. 13:00–14:30 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://sachsen.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "be5416d65644a092091c03594a247c3f08ace204d9a9cd709577f6c0e224f978",
+      "seed_hash": "9424e4a2716f4683",
+      "geo": [
+        51.3868,
+        12.8041
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-zwickau-scholz-recycling-betrieb-zwickau",
+      "values": {
+        "name": "Scholz Recycling GmbH, Betrieb Zwickau",
+        "city": "Zwickau",
+        "street": "Kopernikusstr. 62",
+        "postcode": "08056",
+        "phone": "+49 375 27900",
+        "email": "zwickau@scholz-recycling.de",
+        "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:30; Sa 08:00-12:00",
+        "description": "Scholz-Standort Zwickau (Betreiber: Scholz Recycling GmbH, AG Ulm HRB 733963) nach dem offiziellen Scholz-Standortfinder: Kopernikusstraße 62, 08056 Zwickau, T +49 375 27900, F +49 375 2790130, zwickau@scholz-recycling.de. Das ESN-Entsorgungsfachbetriebszertifikat 98-020056(26), Vorgangsnummer ZZEE003000164010 (Prüfung 16.06.2026, gültig bis 30.11.2027), nennt dieselbe Anschrift und beschreibt eine Schrottplatzanlage mit Schrottschere, Pakettierpresse und Anlage zur sonstigen Behandlung von Altfahrzeugen sowie die Lagerung und Behandlung gefaehrlicher und nicht gefaehrlicher Abfaelle. Nach AltfahrzeugV ist der Standort eine \"Sonstige Anlage zur weiteren Behandlung nach § 5 Abs. 3 AltfahrzeugV\" (Bescheinigung Umweltgutachter Christof Thoss, Betriebsnummer SC6730006/5, Ansprechpartner Marc Schaefer, Genehmigungsbehoerde Landratsamt Zwickau) und damit KEIN anerkannter Demontagebetrieb. ANKAUF: keine numerische Preisliste, Scholz verweist auf tagesaktuelle Marktpreise nach Foto-Klassifizierung. VERKAUF: keine oeffentliche Preisliste. GEBUEHREN: keine Tarife belegt.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f4cd7047c3ec79810ae1f368a214cc3cc404836add139df00798da3c137cd217",
+      "seed_hash": "352e5060e3e18e52",
+      "geo": [
+        50.7295174,
+        12.4736994
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung laut Betreiber-Standortfinder Mo-Fr 07:30-12:00 und 13:00-17:30, Sa 08:00-12:00. Betriebsruhe fuer Privatkunden und Kleingewerbe 17.12.2025 bis 03.01.2026 laut Sonderoeffnungszeiten. Verguetung nach tagesaktuellen Marktpreisen, Wertschatzung per Foto vorab.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, ESN-Zertifikat 98-020056(26), Vorgangsnummer ZZEE003000164010, gültig bis 30.11.2027; Standort Kopernikusstr. 62, 08056 Zwickau; Schrottplatz mit Schrottschere, Pakettierpresse und Anlage zur sonstigen Behandlung von Altfahrzeugen, Lagerung und Behandlung gefährlicher und nicht gefährlicher Abfälle\", \"AltfahrzeugV § 5 Abs. 3: Sonstige Anlage zur weiteren Behandlung (Bescheinigung Umweltgutachter Christof Thoss, ESN 98-020056 (26), Betriebsnummer SC6730006/5, Genehmigungsbehörde Landratsamt Zwickau, Zertifikatsgültigkeit 15.12.2027) - kein anerkannter Demontagebetrieb\", \"Erstbehandlungsanlage nach ElektroG, Verordnung (EU) 333 End of waste, ISO 9001, ISO 14001, ISO 50001 (Zertifikatsblock des Betreiber-Standortfinders, Abruf 29.10.2026)\"]"
+    },
+    {
+      "slug": "st-bitterfeld-wolfen-06749-mrr-schrottplatz-bitterfeld",
+      "values": {
+        "name": "MRR GmbH Schrottplatz Bitterfeld",
+        "city": "Bitterfeld-Wolfen",
+        "street": "Antonienstr. 23",
+        "postcode": "06749",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Offener Identitäts- und Standortklärfall. Die Seed-Anschrift Antonienstr. 23, 06749 Bitterfeld-Wolfen ist im amtlichen AltfahrzeugV-Fachbetrieberegister (Auszug 11.08.2026) NICHT einer MRR-Gesellschaft, sondern der Autoverwertung BAREC GmbH zugeordnet (Demontagebetrieb, Zertifikatsnummer ZAES02200018; eigenes Dossier st-bitterfeld-wolfen-barec). Der Seed-Vermerk \"Antonienstr. 23 = Scholz-Standort!\" ist ebenfalls nicht haltbar: Scholz Recycling GmbH Betrieb Bitterfeld liegt laut offiziellem Scholz-Standortfinder und ESN-EFB-Zertifikat ESN 03-120372 (25) / Vorgangsnummer ZZEE003001155008 (Prüfung 19.08.2025, Ausstellung 10.09.2025, gültig bis 31.01.2027) an Antonienstraße 7, 06749 Bitterfeld-Wolfen OT Bitterfeld, T +49 3493 9296980, F +49 3493 92969819, bitterfeld@scholz-recycling.de. ANKAUF: für \"MRR\" keine belastbare Preisliste; die Preise des Scholz-Standorts werden nicht auf diesen Datensatz übertragen. VERKAUF: keine. GEBUEHREN: keine. Der Name MRR ist im amtlichen Register nicht auffindbar; das Geschäftsfeld bleibt ungeklärt, status bleibt pruefung.",
+        "status": "pruefung",
+        "trader_type": "schrottplatz",
+        "website": "https://www.alba.info/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e1013a38d9af485a0e7bf3e9f5ee089507f11dd3b979d09e741a2cd3a4340930",
+      "seed_hash": "dd1b44eabb7437a6",
+      "geo": [
+        51.6229,
+        12.2677
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-bitterfeld-wolfen-lutherstad-scholz-recycling",
+      "values": {
+        "name": "Scholz Recycling GmbH",
+        "city": "Bitterfeld-Wolfen; Lutherstadt Wittenberg; Merseburg",
+        "street": "Mittelfeldstr. 1",
+        "postcode": "06217",
+        "phone": "03461 525121",
+        "email": "merseburg@scholz-recycling.de",
+        "opening_hours": "Mo–Fr 07:00–15:00 Uhr (Fr bis 13:00 Uhr); Sa geschlossen",
+        "description": "Mehrstandort-Datensatz der Scholz Recycling GmbH (AG Ulm HRB 733963, Hauptsitz Berndt-Ulrich-Scholz-Straße 1, 73457 Essingen) über drei ST-Standorte. Die im Frontmatter geführte Anschrift Mittelfeldstraße 1, 06217 Merseburg ist der Standort Merseburg (offizieller Scholz-Standortfinder und ESN-EFB-Zertifikat ESN 12-040317 (26), Vorgangsnummer ZZEE003002785009, gültig bis 30.09.2027; amtliches Fachbetrieberegister: Lagern, Behandeln). Weitere Standorte desselben Datensatzes: Bitterfeld-Wolfen OT Bitterfeld, Antonienstraße 7, 06749 (ESN 03-120372 (25), ZZEE003001155008, gültig bis 31.01.2027) und Lutherstadt Wittenberg, Brauereiweg 5, 06886 (ESN-Zertifikat, Zertifikatsnummer ZZEE00300116 im amtlichen Register). ANKAUF: keine numerische Preisliste; der Standortfinder verweist auf tagesaktuelle Marktpreise nach Foto-Klassifizierung. VERKAUF: keine öffentliche Verkaufspreisliste. GEBUEHREN: keine Tarife veröffentlicht. Für die Datenqualität empfiehlt der Owner eine Aufteilung des Sammel-Datensatzes in drei Einzeldossiers, da je Standort eigene Kontaktdaten, Zeiten und Zertifikate gelten.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.scholz-recycling.com/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "35600f8ed00ddda042a700863a405ef10789a5daa41c9dc800cc15147d6b0fd6",
+      "seed_hash": "1faf4fede858c8c6",
+      "geo": [
+        51.62035,
+        12.2873
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung laut Betreiber-Standortfinder; Sa geschlossen. Verguetung nach tagesaktuellen Marktpreisen, Wertschatzung per Foto vorab.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, ESN-Zertifikat ESN 12-040317 (26), Vorgangsnummer ZZEE003002785009, gueltig bis 30.09.2027, Standort Merseburg, Mittelfeldstrasse 1, 06217 Merseburg; Hauptsitz Scholz Recycling GmbH, Berndt-Ulrich-Scholz-Straße 1, 73457 Essingen, HRB 733963 AG Ulm\", \"Entsorgungsfachbetrieb §56 KrWG, ESN-Zertifikat ESN 03-120372 (25), Vorgangsnummer ZZEE003001155008, gueltig bis 31.01.2027, Standort Bitterfeld, Antonienstraße 7, 06749 Bitterfeld-Wolfen\", \"Entsorgungsfachbetrieb §56 KrWG laut amtlichem Fachbetrieberegister (Auszug 11.08.2026): Scholz Recycling GmbH Betrieb Wittenberg, Brauereiweg 5, 06886 Lutherstadt Wittenberg, Zertifikatsnummer ZZEE00300116, Taetigkeiten Lagern, Behandeln\"]"
+    },
+    {
+      "slug": "st-dessau-rolau-tsr-recycling-niederlassung-dessau",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, Niederlassung Dessau-Roßlau",
+        "city": "Dessau-Roßlau",
+        "street": "Hünefeldstr. 3c",
+        "postcode": "06847",
+        "phone": "0340 517488",
+        "email": "",
+        "opening_hours": "Kasse Mo–Fr 07:00–13:00 Uhr und 13:30–15:30 Uhr; Waage Mo–Fr 07:00–13:00 Uhr und 13:30–16:00 Uhr",
+        "description": "Niederlassung der TSR Deutschland GmbH & Co. KG (REMONDIS-Gruppe; Unternehmenssitz Brunnenstraße 138, 44536 Lünen) in Dessau-Roßlau: Hünefeldstraße 3c, 06847 Dessau, T +49 340 517488, F +49 340 5710440. Betreiber-Standortseite (Abruf 30.10.2026): \"TSR-Standort in Dessau. Ihr Partner für Schrott & Papier\" — Annahme von Altmetall und Schrott aller Art sowie Papier, \"Egal ob Privatperson oder Gewerbebetrieb\"; getrennte Öffnungszeiten für Kasse (Mo–Fr 07:00–13:00 Uhr, 13:30–15:30 Uhr) und Waage (Mo–Fr 07:00–13:00 Uhr, 13:30–16:00 Uhr). Das amtliche Fachbetrieberegister (Auszug 11.08.2026) führt \"TSR Deutschland GmbH & Co. KG, Region Nordost, Regionalbereich Südost II, Niederlassung Dessau-Roßlau, Hünefeldstraße 3c\" mit Tätigkeiten Lagern und Behandeln (Zertifikatsnummer ZZEE00200035). Zertifikate laut Betreiber-Seite: Entsorgungsfachbetrieb, Qualitätsmanagementsystem gemäß Verordnung (EU) Nr. 333/2011 und Nr. 715/2013, autorisierter Sammelpartner im AIUIF e.V., Energiemanagementsystem DIN EN ISO 50001:2018. ANKAUF: keine numerische Preisliste; \"transparente Preise\" werden beworben, ohne dass Werte genannt werden. VERKAUF: keine öffentliche Verkaufspreisliste. GEBUEHREN: keine Tarife belegt.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-dessau/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "93f24494e8b2e4afdd44dbc3a90791b1d66e20964d155aafbee9be5bf6aeedfd",
+      "seed_hash": "592712dbd0258171",
+      "geo": [
+        51.8333,
+        12.25
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Annahme von Altmetall, Schrott aller Art und Papier am Standort Hünefeldstraße 3c, 06847 Dessau; Kasse Mo–Fr 07:00–13:00 Uhr und 13:30–15:30 Uhr, Waage Mo–Fr 07:00–13:00 Uhr und 13:30–16:00 Uhr (Betreiber-Standortseite, Abruf 30.10.2026).\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG laut amtlichem Fachbetrieberegister (Auszug 11.08.2026): TSR Deutschland GmbH & Co. KG, Region Nordost, Regionalbereich Südost II, Niederlassung Dessau-Roßlau, Hünefeldstraße 3c, 06847 Dessau-Roßlau, Taetigkeiten Lagern, Behandeln, Zertifikatsnummer ZZEE00200035\", \"Entsorgungsfachbetrieb, Qualitätsmanagementsystem gemäß Verordnung (EU) Nr. 333/2011 und Nr. 715/2013, autorisierter Sammelpartner im AIUIF e.V., Energiemanagementsystem DIN EN ISO 50001:2018 (Zertifikats-Downloads laut Betreiber-Standortseite, Abruf 30.10.2026)\"]"
+    },
+    {
+      "slug": "st-halle-tsr-recycling-niederlassung-halle",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, Niederlassung Halle",
+        "city": "Halle",
+        "street": "Äußere Radeweller Straße 2",
+        "postcode": "06132",
+        "phone": "0345 7728790",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-halle/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "e40b9309235f8cc8994ce0cffc411bd9e4474076af387a0b96d1b1a169ffa99f",
+      "seed_hash": "3644146853b5eaef",
+      "geo": [
+        51.60848125,
+        11.27634375
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Annahme fuer Privatkunden, Gewerbe und Industrie; THE METAL BOX fuer Kleinmengen; Containerdienst (TSR-Standortseite, 30.09.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-lutherstadt-eisleben-scholz-recycling",
+      "values": {
+        "name": "Scholz Recycling GmbH, Standort Lutherstadt Eisleben",
+        "city": "Lutherstadt Eisleben",
+        "street": "Unterrißdorfer Str. 57",
+        "postcode": "06295",
+        "phone": "03475 714925",
+        "email": "eisleben@scholz-recycling.de",
+        "opening_hours": "Mo–Fr 08:00–12:30 Uhr und 13:00–16:00 Uhr (Di/Do bis 17:00 Uhr); Sa geschlossen",
+        "description": "Scholz-Standort Lutherstadt Eisleben laut offiziellem Standortfinder: Unterrißdorfer Str. 57, 06295 Lutherstadt Eisleben, T +49 3475 714925, F +49 3475 714926, E-Mail eisleben@scholz-recycling.de, Öffnungszeiten Mo–Fr 08:00–12:30 Uhr und 13:00–16:00 Uhr (Di/Do bis 17:00 Uhr), Sa geschlossen. Als Zertifikat ist für diesen Standort nur \"ISO 50001 - Energiemanagement\" ausgewiesen; ein Entsorgungsfachbetrieb-Zertifikat ist für Eisleben NICHT hinterlegt, und im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist für 06295 nur die Eurecum GmbH & Co. KG (Kasseler Straße 46, Lagern/Behandeln) verzeichnet — Scholz Eisleben erscheint dort nicht. ANKAUF: keine numerische Preisliste; der Standortfinder verweist auf tagesaktuelle Marktpreise nach Foto-Klassifizierung. VERKAUF: keine oeffentliche Verkaufspreisliste. GEBUEHREN: keine Tarife.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.scholz-recycling.com/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "11a68cff005a25a305311a4f4c015ae9552200e1cd77425f08dedb04b6dd0c93",
+      "seed_hash": "b3241a514eb73a9b",
+      "geo": [
+        51.5130029,
+        11.584802
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung laut Betreiber-Standortfinder; Sa geschlossen. Verguetung nach tagesaktuellen Marktpreisen, Wertschatzung per Foto vorab.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"ISO 50001 - Energiemanagement (Scholz-Standortfinder, Abruf 30.10.2026)\"]"
+    },
+    {
+      "slug": "st-magdeburg-tsr-recycling-niederlassung-magdeburg",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, Niederlassung Magdeburg",
+        "city": "Magdeburg",
+        "street": "Am Zweigkanal 17c",
+        "postcode": "39126",
+        "phone": "0391 50907-0",
+        "email": "",
+        "opening_hours": "Mo–Fr 07:30–15:30 Uhr; Kasse Mo–Fr 09:30–14:00 Uhr",
+        "description": "Niederlassung der TSR Deutschland GmbH & Co. KG (REMONDIS-Gruppe; Unternehmenssitz Brunnenstraße 138, 44536 Lünen) in Magdeburg: Am Zweigkanal 17c, 39126 Magdeburg, T +49 3915 0907-0. Betreiber-Standortseite (Abruf 30.10.2026): \"Schrotthändler in Magdeburg – Altmetall schnell & sicher verkaufen\", Öffnungszeiten Mo–Fr 07:30–15:30 Uhr, Kasse Mo–Fr 09:30–14:00 Uhr, Anmerkung \"Eine Überweisung für Privatpersonen ist jederzeit möglich. Wir betreiben eine öffentliche LKW Waage\"; Verkauf von Kupfer, Aluminium und Mischschrott an Privat- und Gewerbekunden. Das amtliche Fachbetrieberegister (Auszug 11.08.2026) führt \"TSR Deutschland GmbH & Co. KG, Region Nordost, Regionalbereich Nordost I, NL Magdeburg, Am Zweigkanal 17c\" mit Tätigkeiten Lagern und Behandeln (Zertifikatsnummer ZZEE00200092, 8 Abfallschlüssel u. a. 160104* und 160106 Altfahrzeuge). Zertifikate laut Betreiber-Seite: Entsorgungsfachbetrieb, Qualitätsmanagement DIN EN ISO 9001:2015, autorisierter Sammelpartner im AIUIF e.V., Energiemanagement DIN EN ISO 50001:2018, Managementsystem für Sicherheit und Gesundheit bei der Arbeit, Umweltmanagement DIN EN ISO 14001:2015. ANKAUF: keine numerische Preisliste; \"faire Preise\" werden beworben, ohne dass Werte genannt werden. VERKAUF: keine öffentliche Verkaufspreisliste. GEBUEHREN: keine Tarife belegt.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "18dc8a64b3b4f509308acdd2caf1662ec3220615843b72dad82aa1cb09edf515",
+      "seed_hash": "03a15f326fee0e8a",
+      "geo": [
+        52.12701333333334,
+        11.617686666666666
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Annahme von Altmetall und Schrott am Standort Am Zweigkanal 17c, 39126 Magdeburg; Oeffnungszeiten Mo-Fr 07:30-15:30 Uhr, Kasse Mo-Fr 09:30-14:00 Uhr, oeffentliche LKW-Waage, Ueberweisung fuer Privatpersonen jederzeit moeglich (Betreiber-Standortseite, Abruf 30.10.2026).\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-querfurt-tsr-recycling-standort-querfurt",
+      "values": {
+        "name": "TSR Deutschland GmbH & Co. KG, Standort Querfurt",
+        "city": "Querfurt",
+        "street": "Johannes-Schlaf-Str. 17",
+        "postcode": "06268",
+        "phone": "+49 34771 44118",
+        "email": "querfurt@tsr.eu",
+        "opening_hours": "Mo–Do 07:00–16:00; Fr 07:00–15:00",
+        "description": "Schrott- und Altmetallankauf am TSR-Standort Querfurt; Preise auf Anfrage.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-querfurt/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "15ea8f353bd1b60fe00854b4574b648266ec2159156b1ea523ae2d0ff0662b3d",
+      "seed_hash": "a73590f89666d1da",
+      "geo": [
+        51.3812,
+        11.6005
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-salzwedel-ot-chuden-alba-niedersachsen-anhalt",
+      "values": {
+        "name": "ALBA Niedersachsen-Anhalt GmbH, Standort Salzwedel",
+        "city": "Salzwedel",
+        "street": "Salzwiesen 4",
+        "postcode": "29410",
+        "phone": "+49 3901 4231-68",
+        "email": "salzwedel@alba.info",
+        "opening_hours": "Mo.–Fr. 07:00–16:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://nisa.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ea5f02d9ccf9bae912066c1e6bf04662b80062f61e621a317efc281462b3ea8d",
+      "seed_hash": "fe02178b4a1e640f",
+      "geo": [
+        52.83555,
+        11.1929
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-salzwedel-ot-pretzier-alba-metall-nord-betriebsstatte-pretzier",
+      "values": {
+        "name": "ALBA Metall Nord GmbH, Betriebsstätte Pretzier",
+        "city": "Salzwedel OT Pretzier",
+        "street": "Ritzlebener Str. 29",
+        "postcode": "29410",
+        "phone": "+49 39037 222",
+        "email": "pretzier.metall@alba.info",
+        "opening_hours": "Mo.–Fr. 7:00–15:45 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://metall.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b999f607511d70257a392e8b541d395178084028be5d4a228cfddd89858d4f41",
+      "seed_hash": "d0f2a92c48a6332f",
+      "geo": [
+        52.83555,
+        11.1929
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Annahme Stahl-/NE-Schrott auch Kleinstmengen gegen Bargeld, Bauschutt/Gruenschutt/Holz; Privatkunden willkommen (Betreiber-Standortseite, Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Containerdienst Behaelter 7-36 m3, Industriedemontage (Betreiber-Standortseite, Feedback-Triage 01.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-seehausen-alba-niedersachsen-anhalt",
+      "values": {
+        "name": "ALBA Niedersachsen-Anhalt GmbH, Standort Seehausen",
+        "city": "Seehausen",
+        "street": "Der Talergalgen 1",
+        "postcode": "39615",
+        "phone": "+49 39386 975-0",
+        "email": "seehausen@alba.info",
+        "opening_hours": "Mo.–Fr. 07:00–17:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://nisa.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0301ace13fb3c6d6fb2db06b985ed770442ffb97de369a74872b4ffb81692428",
+      "seed_hash": "2871fcf761196694",
+      "geo": [
+        52.4958,
+        11.52195
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-strobeck-tsr-recycling-standort-strobeck-halberst",
+      "values": {
+        "name": "TSR Recycling GmbH & Co. KG, Standort Ströbeck / Halberstadt",
+        "city": "Ströbeck",
+        "street": "Im hohen Weg 1",
+        "postcode": "38822",
+        "phone": "03942 7314",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-13:00, 13:30-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-stroebeck/",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "6d6d27b6c46a9dff8c45608f6bfc79e2ed08de19a926e8ca3ce6317e81e6e054",
+      "seed_hash": "3cecaef949a329c7",
+      "geo": [
+        51.9051449,
+        10.9728386
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-tangerhutte-ot-demker-alba-niedersachsen-anhalt",
+      "values": {
+        "name": "ALBA Niedersachsen-Anhalt GmbH, Standort Demker",
+        "city": "Tangerhütte OT Demker",
+        "street": "Am Bahnhof",
+        "postcode": "39517",
+        "phone": "+49 39365 9419 0",
+        "email": "altmark@alba.info",
+        "opening_hours": "Mo.–Fr. 07:00–16:30 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://nisa.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3549c5fd6e2caa89323af15a3574ec844425da5936f09dc9ed10c66f976bfee8",
+      "seed_hash": "0c68f42fe5fc0fe5",
+      "geo": [
+        52.4353,
+        11.8072
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-vockerode-alba-sachsen",
+      "values": {
+        "name": "ALBA Sachsen GmbH, Standort Vockerode",
+        "city": "Oranienbaum-Wörlitz OT Vockerode",
+        "street": "Walderseeer Str. 40",
+        "postcode": "06785",
+        "phone": "+49 34905 21181",
+        "email": "kompostplatz_vockerode@alba.info",
+        "opening_hours": "Apr.–Okt.: Mo.–Fr. 6:30–17:00, Sa. 8:00–11:00; Nov.–Mär.: Mo.–Fr. 6:30–16:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://sachsen.alba.info",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7f7b6e298ed98df30d6b66086c538ae146ab03ef303a6c183b5caee7a49563e9",
+      "seed_hash": "2c2af35910cfa6bd",
+      "geo": [
+        51.847,
+        12.3521
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-zeitz-scholz-recycling-standort-zeitz",
+      "values": {
+        "name": "Scholz Recycling GmbH, Standort Zeitz",
+        "city": "Zeitz",
+        "street": "Donaliesstr. 17",
+        "postcode": "06712",
+        "phone": "03441 219803",
+        "email": "zeitz@scholz-recycling.de",
+        "opening_hours": "Mo–Do 07:00–09:00 Uhr, 09:15–12:30 Uhr, 13:00–15:30 Uhr; Fr 07:00–09:00 Uhr, 09:15–12:30 Uhr, 13:00–14:30 Uhr; Sa geschlossen",
+        "description": "Scholz Recycling GmbH, Standort Zeitz (Hauptsitz Berndt-Ulrich-Scholz-Straße 1, 73457 Essingen, AG Ulm HRB 733963). Betreiber-Standortfinder (Abruf 30.10.2026): Donaliesstraße 17, 06712 Zeitz, T +49 3441 219803, F +49 3441 219805, E-Mail zeitz@scholz-recycling.de; Öffnungszeiten Mo–Do 07:00–09:00 Uhr, 09:15–12:30 Uhr, 13:00–15:30 Uhr, Fr 07:00–09:00 Uhr, 09:15–12:30 Uhr, 13:00–14:30 Uhr, Sa geschlossen; Zertifikate: ISO 50001 - Energiemanagement, Entsorgungsfachbetrieb, Bescheinigung Altfahrzeug-Verordnung. Das ESN-EFB-Zertifikat ESN 00-120313 (26), Vorgangsnummer ZZEE003002899011 (Prüfung 29.04.2026, Ausstellung 27.05.2026, gültig bis 30.09.2027) nennt für alle vier Anlagen die Anschrift \"Am Güterbahnhof, 06712 Zeitz\": Anlagen 1 und 2 \"Containerdienst zum Sammeln und Befördern von Abfällen\", Anlagen 3 und 4 \"Anlage zum Lagern, Behandeln und Umschlagen von Schrotten\". Die AltfahrzeugV-Bescheinigung weist den Standort als \"Sonstige Anlage zur weiteren Behandlung\" nach § 5 Abs. 3 AltfahrzeugV aus (Betriebsnummer NA8400054, Ansprechpartner Herr Reinsch, 03441 219803, Genehmigungsbehörde Burgenlandkreis, Umweltamt, Am Stadtpark 6, 06668 Weißenfels, Prüfung 29.04.2026, nächste Prüfung April 2027). ANKAUF: keine numerische Preisliste. VERKAUF: keine oeffentliche Verkaufspreisliste. GEBUEHREN: keine Tarife.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.scholz-recycling.com/standorte/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "236a61092a8c670c284ceed56cc9681d8edb19b2bf838eb1a738f31820710078",
+      "seed_hash": "7493421ad9dc4c2e",
+      "geo": [
+        51.0592174,
+        12.1331311
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Selbstanlieferung laut Betreiber-Standortfinder; Sa geschlossen. Oeffnungszeiten: Mo–Do 07:00–09:00 Uhr, 09:15–12:30 Uhr, 13:00–15:30 Uhr; Fr 07:00–09:00 Uhr, 09:15–12:30 Uhr, 13:00–14:30 Uhr. Verguetung nach tagesaktuellen Marktpreisen, Wertschatzung per Foto vorab.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, ESN-Zertifikat ESN 00-120313 (26), Vorgangsnummer ZZEE003002899011, gueltig bis 30.09.2027, Standort Scholz Recycling GmbH Standort Zeitz, Anschrift laut Zertifikat Am Gueterbahnhof, 06712 Zeitz; Anlagen 1-2 Containerdienst zum Sammeln und Befoerdern von Abfaellen, Anlagen 3-4 Anlage zum Lagern, Behandeln und Umschlagen von Schrotten\", \"AltfahrzeugV § 5 Abs. 3: Sonstige Anlage zur weiteren Behandlung (Bescheinigung Umweltgutachter Dipl.-Ing. Jürgen Stecklum, ESN 00-120313 (26), Betriebsnummer NA8400054, Genehmigungsbehoerde Burgenlandkreis Umweltamt, Am Stadtpark 6, 06668 Weissenfels; Pruefdatum 29.04.2026, Zertifikatsgueltigkeit 30.09.2026)\", \"ISO 50001 - Energiemanagement (Scholz-Standortfinder, Abruf 30.10.2026)\"]"
+    },
+    {
+      "slug": "th-apolda-scholz-recycling",
+      "values": {
+        "name": "Scholz Recycling GmbH - Betrieb Apolda",
+        "city": "Apolda",
+        "street": "Flurstedter Marktweg 9",
+        "postcode": "99510",
+        "phone": "+49 3644 841910",
+        "email": "apolda@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:00-12:00, 12:30-15:30; Fr 07:00-12:00, 12:30-14:30; Sa geschlossen",
+        "description": "Scholz-Schrottplatz in Apolda: Selbstanlieferung auch kleiner Mengen von Privat und Gewerbe, Abrechnung nach Qualität und Gewicht zu Tagesmarktpreisen. FE-/NE-Schrotte; Material- und Fahrzeugbedingungen vorab klären. Standortbezogenes Efb-Zertifikat gültig bis 28.02.2027; keine öffentliche numerische Ankaufpreisliste.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "12290542fa2e310d955399f28fc59075d2ae9301702f7024a6469a964aa07db7",
+      "seed_hash": "3abe13a892c3bbb0",
+      "geo": [
+        51.0324081,
+        11.5251902
+      ],
+      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"conditions\":\"Selbstanlieferung auch kleiner Mengen während der Öffnungszeiten; Anmeldung Waage/Kasse, Erstverwiegung, Materialprüfung, Ausladen/Zweitverwiegung und Abrechnung nach Qualität und Gewicht. Privat mit Personalausweis, Gewerbe mit Selbstauskunft; im Auftrag Dritter zusätzlich Vollmacht. Quecksilberanhaftungen, Sprengkörper, explosionsverdächtige Gegenstände, geschlossene Druckbehälter und radioaktive Belastung oberhalb der Umgebungsstrahlung ausgeschlossen. Konkrete Material-/Fahrzeugbedingungen vorab klären.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-arnstadt-scholz-recycling-standort-arnstadt",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Arnstadt)",
+        "city": "Arnstadt",
+        "street": "Ichtershäuser Str. 57",
+        "postcode": "99310",
+        "phone": "03628/93010",
+        "email": "arnstadt@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:00-12:00, 12:30-15:30, Fr 07:00-12:00, 12:30-14:30, Sa 1. und 3. Samstag im Monat 08:00-12:00",
+        "description": "Standort Arnstadt der Scholz Recycling GmbH (HRB 733963 AG Ulm), Ichtershäuser Straße 57, 99310 Arnstadt. Zertifizierter Entsorgungsfachbetrieb (ESN 98-040108(25), gültig bis 28.02.2027) mit drei Anlagen. Kleinstlieferanten, Sammler und Gewerbetreibende können während der Öffnungszeiten Schrott anliefern; die Abrechnung erfolgt nach Gewicht und Klassifizierung auf Basis tagesaktueller Marktpreise. Keine standortbezogene Preisliste und keine Gebührentafel veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "containerdienst",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b268606c8a98297da8feaa4308dc11b9c2c3312ed0a5a008b19c705cab9bd261",
+      "seed_hash": "9d72b6411a7b38db",
+      "geo": [
+        50.8405,
+        10.952
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-eisenach-scholz-recycling-standort-eisenach",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Eisenach)",
+        "city": "Eisenach",
+        "street": "Eichrodter Weg 47a",
+        "postcode": "99817",
+        "phone": "+49 3691 291410",
+        "email": "eisenach@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:30-09:00, 09:15-12:00, 12:30-15:30, Fr 07:30-09:00, 09:15-12:00, 12:30-13:30, Sa geschlossen",
+        "description": "Standort Eisenach der Scholz Recycling GmbH (HRB 733963 AG Ulm), Eichrodter Weg 47a, 99817 Eisenach. Zertifizierter Entsorgungsfachbetrieb (ESN 98-040111 (26), gültig bis 30.09.2027) mit fünf Anlagen. Kleinstlieferanten, Sammler und Gewerbetreibende können während der Öffnungszeiten Schrott anliefern; die Abrechnung erfolgt nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. Keine standortbezogene Preisliste und keine Gebührentafel veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "42e7c759d012ce05fc5f7e43de0826a7f76a4485aaf3de54f3df60a7d06971cd",
+      "seed_hash": "8f9ebcfbd03f0d08",
+      "geo": [
+        50.415350000000004,
+        8.41595
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-eisfeld-scholz-recycling-standort-eisfeld",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Eisfeld)",
+        "city": "Eisfeld",
+        "street": "Zur Sandgrube 5",
+        "postcode": "98673",
+        "phone": "+49 3686 322419",
+        "email": "eisfeld@scholz-recyling.de",
+        "opening_hours": "Mo-Do 07:00-09:00, 09:15-12:00, 12:30-15:30, Fr 07:00-09:00, 09:15-12:00, 12:30-14:30, Sa geschlossen",
+        "description": "Standort Eisfeld der Scholz Recycling GmbH (HRB 733963 AG Ulm), Zur Sandgrube 5, 98673 Eisfeld. Zertifizierter Entsorgungsfachbetrieb (ESN 98-040115/2 (26), gültig bis 30.09.2027) mit vier Anlagen. Kleinstlieferanten, Sammler und Gewerbetreibende können während der Öffnungszeiten Schrott anliefern; die Abrechnung erfolgt nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. Keine standortbezogene Preisliste und keine Gebührentafel veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b2b7b7bcf01b32e6bde117faf31642acf26db8af11a51755cfb1b48b736b1667",
+      "seed_hash": "71948e0f385b430d",
+      "geo": [
+        50.4265,
+        10.907
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-erfurt-scholz-recycling-standort-erfurt-hohenwi",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Erfurt-Hohenwinden)",
+        "city": "Erfurt",
+        "street": "Stotternheimer Str. 45",
+        "postcode": "99086",
+        "phone": "+49 361 73953",
+        "email": "erfurt@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:00-12:00, 12:30-16:45, Fr 07:00-12:00, 12:30-15:45 (Kasse abweichend 07:30-12:00, 12:30-16:00)",
+        "description": "Standort Erfurt-Hohenwinden der Scholz Recycling GmbH (HRB 733963 AG Ulm), Stotternheimer Straße 45, 99086 Erfurt. Zertifizierter Entsorgungsfachbetrieb mit ElektroG-Erstbehandlung und End-of-Waste-Anerkennung nach VO 333/715. Kleinstlieferanten, Sammler und Gewerbetreibende können während der Öffnungszeiten Schrott anliefern; die Abrechnung erfolgt nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. Keine standortbezogene Preisliste und keine Gebührentafel veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "01469ad70163000985d6e7a779b30929477eff7627babcc014b6a9411af621a4",
+      "seed_hash": "6fbb9b8f77c9bafb",
+      "geo": [
+        50.988125,
+        11.027458333333334
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-gera-scholz-recycling-standort-gera",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Gera)",
+        "city": "Gera",
+        "street": "Gessentalstr. 5a",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e7e96fd9f378cc782514aefd5f998c01cdd48d252bc3b7f96e76c10880281a7e",
+      "seed_hash": "1e9b99aaf5ff9091",
+      "geo": [
+        50.863949999999996,
+        12.088949999999999
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-gotha-scholz-recycling-standort-gotha",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Gotha)",
+        "city": "Gotha",
+        "street": "Passauer Str. 5",
+        "postcode": "99867",
+        "phone": "+49 3621 453412",
+        "email": "gotha@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:30-12:00, 12:45-16:00, Fr 07:30-12:00, 12:45-14:00, Sa geschlossen (1. Samstag im Monat 08:00-11:30)",
+        "description": "Standort Gotha der Scholz Recycling GmbH (HRB 733963 AG Ulm), Passauer Straße 5, 99867 Gotha. Zertifizierter Entsorgungsfachbetrieb (ESN 98-040112 (26), gültig bis 30.09.2027) mit vier Anlagen. Kleinstlieferanten, Sammler und Gewerbetreibende können während der Öffnungszeiten Schrott anliefern; die Abrechnung erfolgt nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. Keine standortbezogene Preisliste und keine Gebührentafel veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "273b02db92a920c1866971305cebd242ff2646954388e7a455be75df5ddef404",
+      "seed_hash": "ca6b8d6d16091461",
+      "geo": [
+        50.9482,
+        10.7019
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-groengottern-scholz-recycling-standort-groengottern",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Großengottern)",
+        "city": "Großengottern",
+        "street": "Mülverstedter Landstraße 2",
+        "postcode": "99991",
+        "phone": "036022 96330",
+        "email": "",
+        "opening_hours": "",
+        "description": "Scholz-Standort für Sekundärrohstoffe; Selbstanlieferung und Vorab-Wertschätzung nach Tagesmarkt werden konzernweit angeboten.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "25268e806c49b70fac0d9a59b38edcc9061624892092bf6353f785f770405851",
+      "seed_hash": "6afe11c09467c0ac",
+      "geo": [
+        51.1426713,
+        10.5574896
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-jena-scholz-recycling-nl-erfurt-betrieb-wohls",
+      "values": {
+        "name": "Scholz Recycling GmbH (NL Erfurt-Betrieb Wöhlsdorf + Zella-Mehlis)",
+        "city": "Jena",
+        "street": "Löbstedter Str. 113",
+        "postcode": "07749",
+        "phone": "+49 3641 425635",
+        "email": "jena@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:00-09:00, 09:30-12:00, 12:30-16:00, Fr 07:00-09:00, 09:30-12:00, 12:30-15:00, Sa geschlossen",
+        "description": "Standort Jena der Scholz Recycling GmbH (HRB 733963 AG Ulm), Löbstedter Straße 113, 07749 Jena. Zertifizierter Entsorgungsfachbetrieb (ESN 99-120187 (25), gültig bis 31.03.2027) mit drei Anlagen einschließlich zeitweiliger Lagerung gefährlicher Abfälle, dazu End-of-Waste-Anerkennung nach EU-Verordnung 333. Kleinstlieferanten, Sammler und Gewerbetreibende können während der Öffnungszeiten Schrott anliefern; die Abrechnung erfolgt nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. Keine standortbezogene Preisliste und keine Gebührentafel veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "69bda0441f9c66062fa6f7a0b3e2ca6060999ac12a3b1ed5ac3ca9e087a26812",
+      "seed_hash": "45d03ccafe4b896b",
+      "geo": [
+        50.914699999999996,
+        11.595875
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-langewiesen-b-ilmenau-scholz-recycling-standort-langewiesen",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Langewiesen)",
+        "city": "Langewiesen b. Ilmenau",
+        "street": "Oberweg 9",
+        "postcode": "98693",
+        "phone": "+49 3677 812451",
+        "email": "ilmenau@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:00-12:00, 12:30-15:30, Fr 07:00-12:00, Sa geschlossen",
+        "description": "Standort Ilmenau OT Langewiesen der Scholz Recycling GmbH (HRB 733963 AG Ulm), Oberweg 9, 98693. Zertifizierter Entsorgungsfachbetrieb (ESN 98-040115/1(25), gültig bis 28.02.2027) mit drei Anlagen. Kleinstlieferanten, Sammler und Gewerbetreibende können während der Öffnungszeiten Schrott anliefern; die Abrechnung erfolgt nach Gewicht und Klassifizierung zu tagesaktuellen Marktpreisen. Keine standortbezogene Preisliste und keine Gebührentafel veröffentlicht.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "acac0e50ed8d149ede2c9ecc626802bd6b32dafad2c5307ad98f5bb98a18f9e1",
+      "seed_hash": "7c4bede47817c02d",
+      "geo": [
+        50.6725,
+        10.971
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-muhlhausen-scholz-recycling-standort-muhlhausen",
+      "values": {
+        "name": "Scholz Recycling GmbH (Standort Mühlhausen)",
+        "city": "Mühlhausen",
+        "street": "Friedrich-Engels-Straße 2",
+        "postcode": "99974",
+        "phone": "03601 813102",
+        "email": "muehlhausen@scholz-recycling.de",
+        "opening_hours": "",
+        "description": "Standort Mühlhausen der Scholz Recycling GmbH (Impressum: Scholz Recycling GmbH, Berndt-Ulrich-Scholz-Str. 1, 73457 Essingen, HRB 733963 AG Ulm), Friedrich-Engels-Straße 2, 99974 Mühlhausen. Die Betreiber-Standortseite existiert, nennt im statischen Seitenquelltext aber weiterhin keine Adresse, Telefonnummer oder Öffnungszeiten, weil die Kontaktdaten nur per JavaScript-Karte nachgeladen werden. Im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist für Mühlhausen ein Betrieb an Friedrich-Engels-Straße 2 mit zertifizierten Tätigkeiten Lagern und Behandeln geführt; dessen Detailseite nennt den Hauptsitz Scholz Recycling GmbH und die Zertifikatsnummer **ZZEE00300269** (Abfallschlüssel 160112, 160116, 160801, 160803) — die Gleichsetzung mit dem Scholz-Standort und die Zertifikatsnummer sind damit belegt. Kontaktdaten des Standorts stammen aus Branchenverzeichnissen; die Öffnungszeitenangaben der Portale widersprechen einander und bleiben offen.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f11fbbdce6838fe9cfdb50b46d9a4ef4ab12223b19eed1ae0aead3bd5ef223a8",
+      "seed_hash": "661f9839da5cd2d8",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZEE00300269 (Fachbetrieberegister, Auszug 11.08.2026); zertifizierte Tätigkeiten Lagern und Behandeln; Abfallschlüssel 160112, 160116, 160801, 160803\"]"
+    },
+    {
+      "slug": "th-poessneck-srt-schrott-recycling",
+      "values": {
+        "name": "SRT Schrott Recycling Thüringen GmbH - Betrieb Pößneck",
+        "city": "Pößneck",
+        "street": "Am Oberen Bahnhof",
+        "postcode": "07381",
+        "phone": "+49 3647 412834",
+        "email": "",
+        "opening_hours": "",
+        "description": "SRT-Schrottrecycling und Altfahrzeugdemontage am Oberen Bahnhof in Pößneck. Standort, Rechtsträger und Telefon durch Betreiberdatensatz, Register und ESN-Urkunden bestätigt. Efb-/Altfahrzeugbescheinigung gültig bis 31.03.2027; konkrete Privatannahme, Vergütung, Gebühren und Abholung vorab klären.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "70cf1549811e46a94c0b979251288e865f9a68957d590b75abca65c3b8254390",
+      "seed_hash": "6a5120d50778e3ca",
+      "geo": [
+        50.690337,
+        11.58344
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-saalfeld-srt-aue-am-berg",
+      "values": {
+        "name": "SRT Schrott Recycling Thüringen GmbH - Saalfeld/Aue am Berg",
+        "city": "Saalfeld/Saale",
+        "street": "Ortsstraße 33",
+        "postcode": "07318",
+        "phone": "+49 3671 573110",
+        "email": "",
+        "opening_hours": "",
+        "description": "SRT-Standort im Saalfelder Ortsteil Aue am Berg: Schrottlagerung/-behandlung, Altfahrzeugdemontage und Schredderanlage. Adresse und Standorttelefon durch Betreiber und ESN-Urkunden bestätigt. Konkrete Kunden-/Vergütungs-/Abholbedingungen und aktuelle Tageskurse vorab klären; ElektroG-Behandlung nicht für jede Geräteklasse zertifiziert.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "40d3a12c845c9e4cf72afc26e70ca4d122ec7e87b4f93d701e0a9b1b57624c46",
+      "seed_hash": "6b0f0a69ef63970b",
+      "geo": [
+        50.673711,
+        11.322541
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-unterwellenborn-b-saalfeld-srt-schrott-recycling-thuringen",
+      "values": {
+        "name": "SRT Schrott Recycling Thüringen GmbH",
+        "city": "Unterwellenborn",
+        "street": "Am Silberberg 2",
+        "postcode": "07333",
+        "phone": "+49 3671 670250",
+        "email": "unterwellenborn@srt-rohstoffe.de",
+        "opening_hours": "Mo-Do 08:00-11:00, 12:00-15:45; Fr 08:00-11:45; Samstag nicht angegeben; Feiertagsausnahmen beachten",
+        "description": "SRT Schrott Recycling Thüringen GmbH, Betrieb Unterwellenborn; Schrottlagerung, Behandlung und manuelle Sortierung, EFB-Zertifikat gültig bis 31.03.2027. Separater Rechtsträger und Standort gegenüber Scholz bzw. SRT Saalfeld.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6166d352a55a76a76f74c840fe6b5c2d500bc281631cb0bbd11677f1ecec825c",
+      "seed_hash": "1aad7c8679e8449e",
+      "geo": [
+        50.65044,
+        11.434876
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-zella-mehlis-scholz-recycling-nl-erfurt-betrieb-wohls",
+      "values": {
+        "name": "Scholz Recycling GmbH (NL Erfurt-Betrieb Wöhlsdorf + Zella-Mehlis)",
+        "city": "Zella-Mehlis",
+        "street": "Schöne Aussicht 22",
+        "postcode": "98544",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Standort Zella-Mehlis der Scholz Recycling GmbH; zertifizierter Entsorgungsfachbetrieb für Schrottbehandlung und -lagerung.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.scholz-recycling.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "57f4844caf02dc7810c10aa50ab80193c532244c62fa7e01b3b72782962707a3",
+      "seed_hash": "622f03a2a47b9c29",
+      "geo": [
+        50.6564,
+        10.6605
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
