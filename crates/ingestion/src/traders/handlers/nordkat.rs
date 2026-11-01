@@ -9,7 +9,9 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
+use super::super::{
+    fetch_text, normalize_phone, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
+};
 use crate::IngestError;
 
 pub const SLUG: &str = "ni-harsefeld-21698-nordkat";
@@ -247,7 +249,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -379,7 +381,7 @@ mod tests {
         assert_eq!(info.street, "Am Bauhof 5");
         assert_eq!(info.postcode, "21698");
         assert_eq!(info.city, "Harsefeld");
-        assert_eq!(info.phone, "+49 - (0) 4164/ 87 99 368");
+        assert_eq!(info.phone, "04164 8799368");
         assert_eq!(info.email, "kontakt@nordkat.de");
     }
 }

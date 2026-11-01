@@ -6,7 +6,7 @@ state: SL
 city: Saarbrücken
 street: Bahnhofstr. 93
 postcode: '66111'
-phone: '+49 (0)681 387050'
+phone: '0681 387050'
 email: 'info@juwelier-kraemer.de'
 opening_hours: 'Montags geschlossen, Di-Fr 10:00-13:00 und 14:00-18:00, Sa 10:00-17:30'
 website: http://www.juwelier-kraemer.de
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Goldankauf Schmuck (GS-Leistung lt. Vorlage; Website ohne Ankauf-Rubrik, Site-Search 0 Treffer, Konditionen nur vor Ort)
 - Adresse: Saarbrücken 66111, Bahnhofstr. 93
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0)681 387050`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0681 387050` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

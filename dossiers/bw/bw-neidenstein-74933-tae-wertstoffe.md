@@ -6,7 +6,7 @@ state: BW
 city: Neidenstein
 street: Fuchslochweg 2
 postcode: '74933'
-phone: +49 (0) 7260 912 0 930
+phone: '07260 9120930'
 email: info@tae-wertstoffe.de
 opening_hours: Mo-Fr 8:15-17:00, Anlieferung bis 16:30, Sa/So/Feiertage geschlossen
 website: https://tae-wertstoffe.de
@@ -44,3 +44,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - NE/Kabel/Hartmetall/Aufbereitung — Lohnaufbereitung oder Ankauf (NEU)
 - Adresse: Neidenstein 74933, Fuchslochweg 2
 - Adressbeleg: https://tae-wertstoffe.de
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 7260 912 0 930`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `07260 9120930` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

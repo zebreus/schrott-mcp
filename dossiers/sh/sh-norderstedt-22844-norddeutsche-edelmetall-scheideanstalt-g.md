@@ -6,7 +6,7 @@ state: SH
 city: Norderstedt
 street: Oststr. 128
 postcode: '22844'
-phone: +49 (0)40 609 26 89-0
+phone: '040 6092689-0'
 email: kontakt@norddeutsche-es.de
 opening_hours: Mo 9:00-17:30, Di 9:00-17:30, Mi 9:00-18:30, Do 9:00-17:30, Fr 9:00-16:30
 website: https://goldankauf.de
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 3131 berechtigt, eingearbeitet — city 'Norderstedt 22844' → 'Norderstedt'; opening_hours präzisiert (Beginn 9:00 belegt: Mo/Di/Do 9:00-17:30, Mi 9:00-18:30, Fr 9:00-16:30); Oststr. 128, Tel./E-Mail (Impressum) bestätigt; Hinweis: Kontaktseite nennt abweichend info@goldankauf.de / +49 (0)40 609 26 890 (Dossier behält Impressum-Werte); website_status aktiv, status pruefung → aktiv. Beleglage: verifizierte Betreiber-Primärquelle (Impressum: Norddeutsche Edelmetall Scheideanstalt GmbH, Oststrasse 128, 22844 Norderstedt, HRB 6761 KI AG Kiel, GF Torbeck/Kruse) genügt ALLEIN. Quelle(n): https://goldankauf.de/impressum/, https://goldankauf.de/kontakt/ (Abruf 01.10.2026)]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0)40 609 26 89-0`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `040 6092689-0` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

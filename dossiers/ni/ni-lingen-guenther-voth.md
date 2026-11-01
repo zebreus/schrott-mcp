@@ -6,7 +6,7 @@ state: NI
 city: Lingen
 street: Niederdarmer Straße
 postcode: '49811'
-phone: '+49 (0) 591 5041'
+phone: '0591 5041'
 email: lingen@g-voth.de
 opening_hours: ''
 website: https://www.g-voth.de/
@@ -35,3 +35,7 @@ Die Gruppe beschreibt Sammlung, Aufbereitung und Vermarktung von Stahlschrotten 
 ### Recherche 23.10.2026 (Audit 7, Feedback 7382)
 
 - [Recherche 23.10.2026: Lingen-Standortseite direkt gelesen: Rohstoff-Handelsgesellschaft Günther Voth GmbH, Niederdarmer Straße, 49811 Lingen, +49 (0) 591 5041, lingen@g-voth.de; Hausnummer fehlt. Das Impressum bestätigt die GmbH und HRB 181 AG Paderborn. Der aktuelle Registerauszug bestätigt die Gesellschaft, führt als Zweigniederlassung Schwartze & Co. in Minden, aber keine Lingen-Zweigniederlassung; daher Lingen nur als betreiberseitig genannten Standort dokumentiert. Die Website beschreibt gruppenweit Sammeln, Aufbereiten und Vermarkten von Stahlschrotten/Metallen, belegt aber keine konkrete heutige Publikumsannahme in Lingen. Das verlinkte EfB-Zertifikat (Nr. 125ZEB166) nannte Lingen für Lagern/Behandeln und war bis 01.08.2026 gültig; Anlagen mit Abfallarten waren im veröffentlichten PDF nicht enthalten. Das Lingen-ISO-Zertifikat war bis 16.05.2026 gültig. Keine aktuelle Zertifizierung, Annahmeliste, Öffnungszeiten oder Preise belegt. **Ankauf:** Standortannahme und Vergütung offen; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Kein GEO-Punkt ergänzt, da die Anschrift keine Hausnummer enthält und keine Kundenannahme belegt ist. Quellen: https://www.g-voth.de/impressum.html ; https://www.g-voth.de/unternehmen_li.html ; https://www.g-voth.de/ ; https://www.g-voth.de/zertifikate.html ; https://www.g-voth.de/Zertifikat%20EfB.pdf ; https://www.g-voth.de/QM%20Lingen.pdf ; https://www.handelsregister.de/rp_web/welcome.xhtml (Suche AG Paderborn, HRB 181; Registerabdruck 23.10.2026).]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 591 5041`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0591 5041` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

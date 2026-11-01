@@ -6,7 +6,7 @@ state: BY
 city: Schweinfurt
 street: Lissabonstr. 4
 postcode: '97424'
-phone: '+49 (0) 9721 646940'
+phone: '09721 646940'
 email: info.ere@econocom.com
 opening_hours: ''
 website: https://www.econocom-remarketing.de/
@@ -47,3 +47,7 @@ Es handelt sich nicht um Schrotthandel im engeren Sinn: Ankauf und Verkauf betre
 - [Recherche 30.10.2026: ElektroG-Registrierung als Beleg ergänzt. Das Impressum führt "Altgeräte Entsorgungsregister" mit "WEEE-Reg.-Nr. DE 44966278"; die Seitenstruktur (JSON-LD Organization) nennt zusätzlich "alternateName": "bb-net media GmbH", "foundingDate": "1997" und die Anschrift "Lissabonstraße 4, 97424 Schweinfurt, Bayern, DE". Quelle(n): https://www.econocom-remarketing.de/impressum]
 - [Recherche 30.10.2026: ANKAUF, VERKAUF und GEBÜHREN getrennt. ANKAUF: die Seite https://www.econocom-remarketing.de/remarketing-services/gebrauchte-hardware-verkaufen nennt "Unsere Top-Ankaufsprodukte", "Wir kontrollieren Zustand, Funktion und Vollständigkeit. Jedes Gerät wird nach optischem und technischem Zustand bewertet. Wir legen den Preis marktgerecht und transparent fest" und beantwortet im FAQ "Den Wert deiner IT ermitteln wir anhand ihres Zustands, ihrer Ausstattung und des aktuellen Marktwerts"; eine Preisliste wird nicht veröffentlicht. VERKAUF: die Startseite nennt "Wir verkaufen Premium-Refurbished-IT. bis zu 80 % unter der ehemaligen UVP, Margen von bis zu 30 %" mit Quellenangabe Fraunhofer UMSICHT / Interzero Product Cycle GmbH vom 04. Juni 2025; konkrete Stückpreise sind nicht öffentlich. GEBÜHREN: keine Tarife für Ankauf, Aufbereitung oder Entsorgung veröffentlicht. Quelle(n): https://www.econocom-remarketing.de/remarketing-services/gebrauchte-hardware-verkaufen; https://www.econocom-remarketing.de/]
 - [Recherche 30.10.2026: OSM-Straßenscan. Rasterfenster bbox=10.1990149,50.0080751,10.2180165,50.0182759, Straße "Lissabonstraße" in 97424 Schweinfurt (way 233809582), Filter addr:street mit addr:housenumber. Ergebnis live: 6 Adressobjekte mit 6 verschiedenen Hausnummern (2, 3, 4, 7, 13, 15). Die Seed-Hausnummer 4 ist damit live als Adressobjekt erfasst. Geokodierung: Punkt für Lissabonstr. 4, 97424 Schweinfurt ist noch zu setzen. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1990149,50.0080751,10.2180165,50.0182759]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 9721 646940`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `09721 646940` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

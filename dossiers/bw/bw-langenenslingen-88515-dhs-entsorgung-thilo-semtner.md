@@ -6,7 +6,7 @@ state: BW
 city: Langenenslingen
 street: Stuckenstr. 17-19
 postcode: '88515'
-phone: +49 (0) 174 242 73 19
+phone: '0174 2427319'
 email: dhs-entsorgung@t-online.de
 opening_hours: 'Montag - Samstag nach Vereinbarung'
 website: https://dhs-entsorgung.de
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Schrott/Metall/Kat/DPF/AV/Container — "Tageshöchstpreise" (NEU)
 - Adresse: Langenenslingen 88515, Stuckenstr. 17-19
 - Adressbeleg: https://dhs-entsorgung.de
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 174 242 73 19`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0174 2427319` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

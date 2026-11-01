@@ -9,7 +9,9 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
+use super::super::{
+    fetch_text, normalize_phone, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
+};
 use crate::IngestError;
 
 pub const SLUG: &str = "nw-wegberg-willi-plum-u-sohn";
@@ -281,7 +283,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -384,7 +386,7 @@ mod tests {
         assert_eq!(info.street, "Friedrich List Allee 19");
         assert_eq!(info.postcode, "41844");
         assert_eq!(info.city, "Wegberg");
-        assert_eq!(info.phone, "+49 (0)2432 933 81 88");
+        assert_eq!(info.phone, "02432 9338188");
         assert_eq!(info.email, "info@plum-baesweiler.de");
         assert!(super::extract_info("<html><body><p>Neu hier</p></body></html>").is_err());
     }

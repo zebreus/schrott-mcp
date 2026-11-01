@@ -6,7 +6,7 @@ state: TH
 city: Foeritztal OT Foeritz
 street: Steinräum 3
 postcode: '96524'
-phone: +49 (0) 3675 7579-48
+phone: '03675 7579-48'
 email: info@magrec.de
 opening_hours: ''
 website: https://magrec.de
@@ -33,3 +33,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Recycling/Metallwaren, GF Thomas Ehrhardt; gleiche Adresse wie Ehrhardt (Familien-/Firmenverbund, KEIN Dup)
 - Adresse: Foeritztal OT Foeritz (Steinraeum 3)
 - Adressbeleg: https://magrec.de
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 3675 7579-48`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `03675 7579-48` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

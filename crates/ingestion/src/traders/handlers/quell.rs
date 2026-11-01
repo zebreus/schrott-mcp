@@ -5,7 +5,9 @@
 
 use scraper::{Html, Selector};
 
-use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo};
+use super::super::{
+    fetch_text, normalize_phone, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, TraderInfo,
+};
 use crate::IngestError;
 
 pub const SLUG: &str = "he-lorsch-quell-recycling";
@@ -267,7 +269,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -312,7 +314,7 @@ mod tests {
         assert_eq!(info.street, "Ludwig-Erhard-Strasse 30");
         assert_eq!(info.postcode, "64653");
         assert_eq!(info.city, "Lorsch");
-        assert_eq!(info.phone, "+49 (0) 6251 / 52385");
+        assert_eq!(info.phone, "06251 52385");
         assert_eq!(info.email, "info@quellrecycling.de");
         assert!(super::extract_info("<h1>Anderes</h1>").is_err());
     }

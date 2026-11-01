@@ -31,8 +31,8 @@ use std::collections::HashSet;
 use scraper::{Html, Selector};
 
 use super::super::{
-    fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
-    TraderInfo,
+    fetch_text, normalize_phone, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule,
+    ScrapedPrice, TraderInfo,
 };
 use crate::IngestError;
 
@@ -922,7 +922,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -1262,7 +1262,7 @@ mod tests {
         assert_eq!(info.street, "Hafenkopfstraße 7");
         assert_eq!(info.postcode, "63741");
         assert_eq!(info.city, "Aschaffenburg");
-        assert_eq!(info.phone, "+49 (0)6021/412323");
+        assert_eq!(info.phone, "06021 412323");
         assert_eq!(info.email, "info@huth-recycling.de");
         // Redesign without anchors fails loudly.
         assert!(extract_info("<h1>Neu</h1><p>x</p>").is_err());

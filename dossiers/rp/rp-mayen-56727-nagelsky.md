@@ -6,7 +6,7 @@ state: RP
 city: Mayen
 street: Am Layerhof 7
 postcode: '56727'
-phone: +49 (0) 2651 - 418 29
+phone: '02651 41829'
 email: info@nagelsky.de
 opening_hours: Mo-Do 8-16 (Pause 12:30-13:15), Fr 8-15:30, Sa 8-11 Uhr
 website: https://www.nagelsky.de
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Feedback-Triage ID 2987)
 
 - [Recherche 01.10.2026 (Feedback-Triage ID 2987): Feedback berechtigt, eingearbeitet — city 'Mayen 56727' → 'Mayen' (Format), trader_type sonstige → schrotthaendler (Kernleistung Ankauf Stahlschrott/NE-Metalle zu Marktpreisen + Containerdienst), website auf Domain-Root normalisiert, website_status aktiv (live verifiziert). Owner-Primärquelle qualifiziert: Impressum Entsorgungsfachunternehmen Nagelsky GmbH, Am Layerhof 7, 56727 Mayen, HRB 23005 AG Koblenz; HR-kongruent per Northdata (HRB 23005, Am Layerhof 7a, Gegenstand u.a. Annahme Altmaterial Metall/Eisen/Stahl + Altautos + Containerdienst). Öffnungszeiten im Dossier (Mo-Do 8-16 Pause 12:30-13:15, Fr 8-15:30, Sa 8-11) gegen Betreiberseite rückbestätigt. Straßen-Variante 7 vs 7a (Northdata) nur hier dokumentiert. Quelle(n): nagelsky.de (Ankauf-Seite + Impressum, abgerufen 01.10.2026), northdata.de HRB 23005 (HR-Kongruenz).]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 2651 - 418 29`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `02651 41829` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

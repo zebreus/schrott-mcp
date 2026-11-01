@@ -6,7 +6,7 @@ state: HH
 city: Wandsbek
 street: Angerburger Str. 21
 postcode: '22047'
-phone: +49 (0) 40 / 67 59 98 - 0
+phone: '040 675998-0'
 email: ''
 opening_hours: ''
 website: http://www.buf-metallhandel.de/
@@ -49,3 +49,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate geändert**: die Dossier-Hausnummer 21 ist auf der Angerburger Straße in OSM **nicht** adressiert - live existieren dort nur die Nummern 1, 18, 20, 24, 25 und 27. Quelle 1 (OSM): kein Adressobjekt der Nummer 21; der einzige Treffer der Betriebssuche im Raster ist der Fremdbetrieb node/2668588811 (`name`=Telekom Shop, `addr:street`=Friedrich-Ebert-Damm, `addr:housenumber`=111) auf einer anderen Straße. Quelle 2 (Betreiber): das Impressum nennt „Angerburger Straße 21, 22047 Hamburg“ - die Adresse ist ausschließlich betreiberseitig belegt und bleibt geokodierungsbedürftig. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0868137,53.5859076,10.0943267,53.5936301 ; http://www.buf-metallhandel.de/ (Abruf 31.10.2026)]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 40 / 67 59 98 - 0`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `040 675998-0` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

@@ -232,6 +232,127 @@ pub fn parse_eur(raw: &str) -> Option<f64> {
     norm.parse().ok()
 }
 
+/// Normalize a printed phone number to the dialable domestic form the repo
+/// stores ("+49 (0) 33452 49 37 30" → "033452 493730").
+///
+/// The printed international form carries the country code plus the
+/// "Auslands-Null" in parentheses ("(0)"). That notation is **not dialable**:
+/// the trunk zero is already part of the area code, so "+49 (0) …" cannot be
+/// dialled from abroad. The stored value therefore drops the country code and
+/// the "(0)", keeps the national trunk zero and separates area code and
+/// subscriber with one space. The digit sequence itself is never changed.
+///
+/// A German area code has two to five digits after the trunk zero (040
+/// Hamburg, 0441 Oldenburg, 033452 Neulewin). A printed number may split it
+/// across groups ("4 41" = 441); a leading single digit is therefore joined
+/// with the following group.
+pub fn normalize_phone(raw: &str) -> String {
+    let trimmed = raw.trim();
+    if trimmed.is_empty() {
+        return String::new();
+    }
+    // An extension ("-0") is kept separate from the number.
+    let (body, ext) = match split_extension(trimmed) {
+        Some((body, ext)) => (body, ext),
+        None => (trimmed.to_owned(), String::new()),
+    };
+    let mut s = body.replace("(0)", " ");
+    s = s.replace("( 0 )", " ");
+    // Country code: "+49", "0049" and a bare leading "49".
+    s = strip_country_code(&s);
+    let groups: Vec<&str> = s
+        .split(|c: char| !c.is_ascii_digit())
+        .filter(|g| !g.is_empty())
+        .collect();
+    if groups.is_empty() {
+        return trimmed.to_owned();
+    }
+    let area: Vec<&str> = if groups.len() == 1 {
+        // Eine ungetrennte Nummer ist eine Einheit; sie darf nicht
+        // auf die Vorwahl gekuerzt werden ("15259084206").
+        vec![groups[0]]
+    } else if groups[0].starts_with('0') {
+        // Die Vorwahl traegt die Inlandnull bereits ("033452" = 0 + 33452).
+        vec![&groups[0][..groups[0].len().min(6)]]
+    } else if groups[0].len() >= 2 {
+        vec![&groups[0][..groups[0].len().min(5)]]
+    } else {
+        let mut acc: Vec<&str> = Vec::new();
+        for g in &groups {
+            acc.push(g);
+            if acc.concat().len() >= 3 {
+                break;
+            }
+        }
+        if acc.concat().len() > 5 {
+            vec![&acc[0][..acc[0].len().min(5)]]
+        } else {
+            acc
+        }
+    };
+    let mut vorwahl = area.concat();
+    if !vorwahl.starts_with('0') {
+        vorwahl.insert(0, '0');
+    }
+    let rest = groups[area.len()..].concat();
+    let out = if rest.is_empty() {
+        vorwahl
+    } else {
+        format!("{vorwahl} {rest}")
+    };
+    format!("{out}{ext}")
+}
+
+/// Split a trailing extension ("-0", "– 12") from a printed number.
+fn split_extension(s: &str) -> Option<(String, String)> {
+    let bytes: Vec<char> = s.chars().collect();
+    let mut i = bytes.len();
+    while i > 0 && bytes[i - 1].is_whitespace() {
+        i -= 1;
+    }
+    let mut digits = 0;
+    while i > 0 && bytes[i - 1].is_ascii_digit() {
+        i -= 1;
+        digits += 1;
+    }
+    if digits == 0 || digits > 4 {
+        return None;
+    }
+    // The separator before the extension must be a dash.
+    let mut j = i;
+    while j > 0 && bytes[j - 1].is_whitespace() {
+        j -= 1;
+    }
+    if j == 0 || !matches!(bytes[j - 1], '-' | '\u{2013}' | '\u{2014}') {
+        return None;
+    }
+    let body: String = bytes[..j - 1].iter().collect();
+    let ext_digits: String = bytes[i..].iter().collect();
+    Some((body.trim().to_owned(), format!("-{ext_digits}")))
+}
+
+/// Remove the country code from a printed number.
+fn strip_country_code(s: &str) -> String {
+    let t = s.trim_start();
+    for prefix in ["+49", "0049"] {
+        if let Some(rest) = t.strip_prefix(prefix) {
+            // "49123…" would be a subscriber number, not a country code.
+            if !rest.starts_with(|c: char| c.is_ascii_digit()) {
+                return rest.to_owned();
+            }
+            if rest.len() >= 2 && !rest[..2].chars().all(|c| c.is_ascii_digit()) {
+                return rest.to_owned();
+            }
+        }
+    }
+    if let Some(rest) = t.strip_prefix("49") {
+        if rest.starts_with(|c: char| !c.is_ascii_digit()) {
+            return rest.to_owned();
+        }
+    }
+    s.to_owned()
+}
+
 /// True for "1.100" / "12.345.678" (dot groups of exactly three digits).
 /// "11.20" is a decimal point, not a thousands separator.
 fn is_thousands_grouped(tok: &str) -> bool {
@@ -1013,7 +1134,7 @@ fn normalize_unit(
 
 #[cfg(test)]
 mod tests {
-    use super::{parse_de_date, parse_eur};
+    use super::{normalize_phone, parse_de_date, parse_eur};
 
     #[test]
     fn german_numbers() {
@@ -1884,5 +2005,42 @@ mod tests {
             "reverted prices retain their own event row"
         );
         assert_ne!(history[0].id, history[2].id);
+    }
+
+    #[test]
+    fn normalize_phone_drops_country_code_and_auslands_null() {
+        // Die Vorfallfaelle aus der Produktion (Stand 01.11.2026).
+        assert_eq!(normalize_phone("+49 (0) 33452 49 37 30"), "033452 493730");
+        assert_eq!(normalize_phone("+49 (0)6021/412323"), "06021 412323");
+        assert_eq!(normalize_phone("+49 (0) 421 54 25 54"), "0421 542554");
+        assert_eq!(normalize_phone("+49 (0) 6251 / 52385"), "06251 52385");
+        assert_eq!(
+            normalize_phone("+49 (0)40 28 40 92 \u{2013} 0"),
+            "040 284092-0"
+        );
+        assert_eq!(
+            normalize_phone("+49 (0) 4 41 / 92074 \u{2013} 0"),
+            "0441 92074-0"
+        );
+        assert_eq!(normalize_phone("+49 (0) 3621 3394 851"), "03621 3394851");
+        assert_eq!(normalize_phone("+49 (0) 30 40 39 65 51"), "030 40396551");
+        assert_eq!(normalize_phone("+49 (0) 3 69 61 / 4 60 16"), "0369 6146016");
+        assert_eq!(normalize_phone("+49 (0) 89 748 353 10"), "089 74835310");
+        assert_eq!(normalize_phone("+49 (0) 231 9642 0"), "0231 96420");
+        assert_eq!(normalize_phone("+49(0)03621 733 4660"), "03621 7334660");
+        assert_eq!(
+            normalize_phone("+49 - (0) 4164/ 87 99 368"),
+            "04164 8799368"
+        );
+        assert_eq!(normalize_phone("(0)30 784 76 46"), "030 7847646");
+        assert_eq!(normalize_phone("+49 (0) 15259084206"), "015259084206");
+    }
+
+    #[test]
+    fn normalize_phone_keeps_plain_numbers_unchanged() {
+        assert_eq!(normalize_phone("033452 493730"), "033452 493730");
+        assert_eq!(normalize_phone("030 40396551"), "030 40396551");
+        assert_eq!(normalize_phone("+49 421 542554"), "0421 542554");
+        assert_eq!(normalize_phone(""), "");
     }
 }

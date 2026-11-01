@@ -6,7 +6,7 @@ state: BY
 city: Freilassing
 street: Breslauer Strasse 61
 postcode: 83395
-phone: +49(0)8654 57 67 50
+phone: '08654 576750'
 email: info@pletschacher-recycling.de
 opening_hours: 'Apr-Nov: Mo,Mi 08:00-12:00/13:00-18:00, Di,Do 08:00-12:00/13:00-16:30, Fr 08:00-15:00, Sa 08:00-12:00; Dez-Mär: Mo-Do 08:00-12:00/13:00-16:30, Fr 08:00-14:00, Sa 08:00-12:00'
 website: https://pletschacher-recycling.de
@@ -39,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Nachgang)
 
 - [Recherche 01.10.2026: VOLLTREFFER Betreiber-Website https://pletschacher-recycling.de/ (im Seed als „pletschacher.at nicht erreichbar“ verworfen — richtige Domain .de): Impressum Pletschacher Recycling GmbH, Breslauer Strasse 61, 83395 Freilassing, Registergericht Laufen HRB 7986, GF Mario Weilch/Anton Pletschacher — HR-kongruent zum Northdata-Beleg (Owner-Gate erfüllt); Kontaktseite: Tel. +49(0)8654 57 67 50, info@pletschacher-recycling.de; Leistung /metallhandel: An-/Verkauf NE-Metalle + Eisen-Schrott (Kupfer/-Kabel, Messing, Edelstahl, Alu, Blei, Zink, Zinn, Rotguss, Eisen-/Blechschrott), Tagespreise nur telefonisch (keine Preis-Fills), Bar-Auszahlung nur mit Ausweis; Öffnungszeiten saisonal zweigeteilt (Apr-Nov vs. Dez-Mär, s. Frontmatter); Schreibt „Breslauer Strasse“ (ohne ß — 1:1 übernommen); alle Felder gefüllt, Status aktiv; Quelle(n): pletschacher-recycling.de/ + /kontakt + /metallhandel + /impressum, northdata.de HRB 7986]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49(0)8654 57 67 50`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `08654 576750` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

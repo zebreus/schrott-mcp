@@ -8,7 +8,7 @@ state: HH
 city: Altstadt
 street: Neuer Wall 80
 postcode: '20354'
-phone: +49(0)40 60926890
+phone: '040 60926890'
 email: ''
 opening_hours: Mo-Fr 10:00-17:30, nur mit Termin
 website: https://scheideanstalt-hamburg.de
@@ -67,3 +67,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   der in OSM belegte **Adressstandort der Dossier-Adresse Neuer Wall 80** — die Wahl zwischen 80 und 13 ist aus den
   Quellen **nicht** entscheidbar und bleibt dokumentiert; das Dossier-Feld `street` bleibt unverändert „Neuer Wall 80",
   `status` **aktiv** bleibt unverändert.]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49(0)40 60926890`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `040 60926890` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]
