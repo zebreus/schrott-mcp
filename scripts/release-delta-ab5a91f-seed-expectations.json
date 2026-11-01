@@ -1,0 +1,1241 @@
+{
+  "version": 1,
+  "release_commit": "ab5a91fe5b5ebeb0fee01666d9362a9f9afe3531",
+  "release_tree": "8c5cbcfa87675d6b3beaad520bc1fe282e5cac82",
+  "rehearsal_manifest_sha256": "b5d7b91b1a8cd44546832ad0cbe59e03125086bd84517394d4cfd4d148e63658",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bb-angermunde-weckwerth-filiale",
+    "bb-furstenwalde-spree-brandenburger-schrott-verwertung-bsv-wer",
+    "bb-letschin-bsv-wertstoffrecycling-wertstoffankauf",
+    "bb-schwedt-oder-weckwerth-metalle-autoverwertung-abschle",
+    "be-mitte-altmetalle-hans-wasdrack-moabit",
+    "be-pankow-kiro-schrotthandel-kafedzhiev",
+    "be-pankow-schrottmeister-altmetallhandel",
+    "be-treptow-kopenick-altmetalle-hans-wasdrack-kopenick",
+    "by-ergolding-lorenz-wittmann",
+    "by-geisenhausen-lorenz-wittmann",
+    "by-schweinfurt-alba-metall-sud-franken-4-standorte-1-un",
+    "by-wiedergeltingen-alba-electronics-recycling",
+    "hb-bremen-28203-ophirum-bremen-by-goldfuxx",
+    "hb-bremen-schrottjungs-bremen",
+    "he-frankfurt-60311-ophirum",
+    "he-frankfurt-60313-philoro-edelmetalle",
+    "he-frankfurt-fechenheim-frankfurt-fechenheim-carl-benz-str-1",
+    "he-hanau-63450-goldfuxx-hanau-ophirum",
+    "he-hanau-alba-metall-sud-rhein-main",
+    "he-kelkheim-e-o-entsorgung-betriebe-kelkheim-maintal",
+    "he-linsengericht-63589-riwald-recycling-rhein-main",
+    "he-maintal-e-o-entsorgung-betriebe-kelkheim-maintal",
+    "hh-bahrenfeld-wegro-bahrenfeld-filiale",
+    "hh-hamburgweit-mobile-abholdienste-schrottjungs-schrott",
+    "hh-umland-wegro-lager-rellingen-hh-tel",
+    "mv-annahmestellen-greifswald-an-altpapierankauf-schulz",
+    "mv-pasewalk-altpapierankauf-schulz",
+    "ni-hannover-p-u-richter-umweltdienste-rheinland",
+    "ni-hannover-schrottjungs-abholung",
+    "ni-hellwege-brandenburger-schrott-verwertung",
+    "ni-hellwege-bsv-wertstoffrecycling-wertstoffankauf",
+    "ni-meppen-emsschrott",
+    "ni-nordhorn-emsschrott-zweigstelle-nordhorn",
+    "ni-werlte-emsschrott-zweigstelle-werlte",
+    "ni-wildeshausen-wil-ro",
+    "ni-wildeshausen-wil-ro-bdsv-mitglied",
+    "ni-wildeshausen-wildeshauser-rohstoffhandel-und-recyclin",
+    "nw-bonn-pur-umwelt-p-u-richter",
+    "nw-oberhausen-weli-stahl-standort-oberhausen",
+    "rp-bingen-e-o-entsorgung",
+    "sh-rellingen-wegro",
+    "sl-saarbrucken-umland-schrottjungs-mobil",
+    "sn-chemnitz-ankauf-von-buntmetallen-stahlschrott",
+    "sn-klipphausen-sand-und-kiesgruben-soenitz-kleinannahme",
+    "sn-lugau-emh-eisen-metall-handels-aufbereitungsge"
+  ],
+  "scope": "exactly the 45 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-ab5a91f. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bb-angermunde-weckwerth-filiale",
+      "values": {
+        "name": "Weckwerth GmbH (Filiale)",
+        "city": "Angermünde",
+        "street": "Schmargendorfer Weg 30",
+        "postcode": "16278",
+        "phone": "03331 297815",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "https://weckwerth-schrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b4717920db78b695aec07b2707d6c08324b3e7d05d647122a95a90bfda71c5d0",
+      "seed_hash": "0205e59398998032",
+      "geo": [
+        53.0003445,
+        13.9836874
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-furstenwalde-spree-brandenburger-schrott-verwertung-bsv-wer",
+      "values": {
+        "name": "Brandenburger Schrott-Verwertung GmbH (BSV Wertstoff-Dealer)",
+        "city": "Fürstenwalde/Spree",
+        "street": "Juri-Gagarin-Str. 33",
+        "postcode": "15517",
+        "phone": "03361 375560",
+        "email": "info@wertstoff-dealer.de",
+        "opening_hours": "Mo-Fr 07:00-09:00, 09:30-12:00, 12:30-17:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "wertstoffhaendler",
+        "website": "http://www.wertstoff-dealer.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "d982c20fd5f0eecc96316b1e288962efd11784c4d86330c7f09011e5b4538b5f",
+      "seed_hash": "2df42f2bf92413f9",
+      "geo": [
+        52.3793422,
+        14.0816002
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-letschin-bsv-wertstoffrecycling-wertstoffankauf",
+      "values": {
+        "name": "BSV Wertstoffrecycling & Wertstoffankauf",
+        "city": "Letschin",
+        "street": "Voßberger Chaussee 7",
+        "postcode": "15324",
+        "phone": "033475 57872",
+        "email": "info@wertstoff-dealer.de",
+        "opening_hours": "Mo-Fr 07:00-09:00, 09:30-12:00, 12:30-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrottplatz",
+        "website": "http://www.wertstoff-dealer.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2f7365d356919025a9b815d8fa90d1595dda689e8646e72bec0ee17378a01d52",
+      "seed_hash": "03c8116cc8416ec7",
+      "geo": [
+        52.6318251,
+        14.3946489
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-schwedt-oder-weckwerth-metalle-autoverwertung-abschle",
+      "values": {
+        "name": "Weckwerth-Metalle & Autoverwertung & Abschleppdienst GmbH",
+        "city": "Schwedt/Oder",
+        "street": "Gewerbepark 18a",
+        "postcode": "16303",
+        "phone": "03332 524385",
+        "email": "info@weckwerth-schrott.de",
+        "opening_hours": "Mo-Fr 7:30-16:30, jeden letzten Sa im Monat 8:00-12:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://weckwerth-schrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "4db7c3371b0b317d6819b37d156f460af930737e2644f3d766f8c4a783cce2e7",
+      "seed_hash": "8b40e8799e3c4383",
+      "geo": [
+        53.0445126,
+        14.2468056
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-mitte-altmetalle-hans-wasdrack-moabit",
+      "values": {
+        "name": "Altmetalle Hans Wasdrack GmbH & Co. KG (Moabit)",
+        "city": "Mitte",
+        "street": "Quitzowstr. 40",
+        "postcode": "10559",
+        "phone": "030 3955847",
+        "email": "info@wasdrack.de",
+        "opening_hours": "Mo–Do 07:30–16:30, Fr 07:30–16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.wasdrack.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "562a2cc9c8d854ccb04c5a8b14e7412a24f15ac89dede7a11ebb69bb36eea4dd",
+      "seed_hash": "e41dd325c4c2e5c9",
+      "geo": [
+        52.5351521,
+        13.3489159
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-pankow-kiro-schrotthandel-kafedzhiev",
+      "values": {
+        "name": "Kiro Schrotthandel (Kafedzhiev)",
+        "city": "Pankow",
+        "street": "Blankenburger Str. 18-20",
+        "postcode": "13089",
+        "phone": "030 92403153",
+        "email": "info@schrotthandel-berlin.com",
+        "opening_hours": "Mo-Fr 8:00-17:00, Sa 8:30-14:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrotthandel-berlin.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "97e2ca777f0326beb0928dd83e9304223e66a6a77f068684d547ce75e861cff4",
+      "seed_hash": "294c41af85c0c32b",
+      "geo": [
+        52.5725347,
+        13.4459775
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-pankow-schrottmeister-altmetallhandel",
+      "values": {
+        "name": "Schrottmeister Altmetallhandel GmbH",
+        "city": "Pankow",
+        "street": "Blankenburger Str. 18-20",
+        "postcode": "13089",
+        "phone": "030 92403153",
+        "email": "info@schrotthandel-berlin.com",
+        "opening_hours": "Mo-Fr 08:00-17:00, Sa 08:30-14:00, So geschlossen",
+        "description": "Schrottmeister altmetallhandel GmbH (HRB 283516 B AG Charlottenburg, seit 02.02.2026 im Register, Stammkapital 25.000 EUR, Geschäftsführer Kiro Ivanov Kafedzhiev) mit der Anschrift Blankenburger Straße 18-20, 13089 Berlin. Der Betreiberauftritt schrotthandel-berlin.com nennt denselben Inhaber und dieselbe Anschrift, das Impressum lautet auf Kiro Kafedzhiev, die Vorgängerin Schrottmeister Altmetallhandel GmbH HRB 164196 ist gelöscht. Der Betrieb veröffentlicht eine vollständige Ankaufspreisliste in Euro pro kg mit einer Mengenstaffel ab 750 kg, zum Beispiel Kupfer Millberry 10,10, Kupfer Raff 9,45, Kupfer Kerze 9,70, Kupferkabel 3,15, Messing 5,65, Messing Rotguss 8,10, Kabel 80 Prozent 6,40, Alu sauber 1,35, Zink 1,50, Mischschrott 0,12 und Scherenschrott 0,14. Autoteile werden ausdrücklich nicht verkauft. Für den Containerdienst wird keine Standzeitmiete berechnet, die Anfahrtskosten werden mit dem Schrottwert verrechnet.",
+        "status": "aktiv",
+        "trader_type": "schrottplatz",
+        "website": "https://schrotthandel-berlin.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "172d3469317ee640fc87435507a7ca1929bdd867c970b28e1f9339eccf162b7d",
+      "seed_hash": "d214378ceb222367",
+      "geo": [
+        52.5725347,
+        13.4459775
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-treptow-kopenick-altmetalle-hans-wasdrack-kopenick",
+      "values": {
+        "name": "Altmetalle Hans Wasdrack GmbH & Co. KG (Köpenick)",
+        "city": "Treptow-Köpenick",
+        "street": "Besenbinderstr. 26-28",
+        "postcode": "12524",
+        "phone": "030 6721411",
+        "email": "info@schrottpreis.berlin",
+        "opening_hours": "Mo-Do 8:00-16:30, Fr 8:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.wasdrack.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3c57c1b025f8d5503b329cf9113fa860d848a272b1b8d3e862c4f7f585990159",
+      "seed_hash": "cd6e93eaecab3123",
+      "geo": [
+        52.4204537,
+        13.5421622
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-ergolding-lorenz-wittmann",
+      "values": {
+        "name": "Lorenz Wittmann GmbH",
+        "city": "Ergolding",
+        "street": "Albert-Einstein-Str. 10",
+        "postcode": "84030",
+        "phone": "0871 430 94 30",
+        "email": "entsorgung@wittmann-recycling.de",
+        "opening_hours": "Büro Mo–Do 07:00–16:45, Fr 07:00–16:00; Wertstoffhof + Sa 10:00–14:00",
+        "description": "",
+        "status": "unbekannt",
+        "trader_type": "wertstoffhaendler",
+        "website": "http://www.wittmann-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ccdd788d134422f2f05758ddb4535454888db4f5be1823f4be65759cce8a014b",
+      "seed_hash": "a03f4df0b18c34ee",
+      "geo": [
+        48.5765,
+        12.171
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-geisenhausen-lorenz-wittmann",
+      "values": {
+        "name": "Lorenz Wittmann GmbH",
+        "city": "Geisenhausen",
+        "street": "Vilsbiburger Straße 70-74",
+        "postcode": "84144",
+        "phone": "08743 9608 0",
+        "email": "info@altkleider.de",
+        "opening_hours": "Zentrale: Mo-Do 07:30-12:00, 13:00-17:00; Fr 07:30-13:00; keine belegten Warenannahmezeiten",
+        "description": "",
+        "status": "unbekannt",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://www.wittmann-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "328c9928ca1ee3f5f5e327396f7d2ae00542b1db65404ff351e0cec236d4e658",
+      "seed_hash": "388e0734fc7b14eb",
+      "geo": [
+        48.4761,
+        12.2582
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-schweinfurt-alba-metall-sud-franken-4-standorte-1-un",
+      "values": {
+        "name": "Riwald Recycling Franken GmbH, Betrieb Schweinfurt",
+        "city": "Schweinfurt",
+        "street": "Hafenstr. 38",
+        "postcode": "97424",
+        "phone": "+49 9721 60715",
+        "email": "info.rrf@riwald.de",
+        "opening_hours": "Warenannahme Mo.–Do. 7:00–12:00 u. 12:30–15:00, Fr. 7:00–12:00 u. 12:30–14:00 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.riwald.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b7d2f35aed5fe69056e5c8fdcbc002365d4eef19666da1d759a927b236cdcc39",
+      "seed_hash": "5ba4f41bc1896cba",
+      "geo": [
+        50.045874999999995,
+        10.227625
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-wiedergeltingen-alba-electronics-recycling",
+      "values": {
+        "name": "Riwald Electronics Recycling GmbH, Standort Wiedergeltingen",
+        "city": "Wiedergeltingen",
+        "street": "Mühle 1",
+        "postcode": "86879",
+        "phone": "+49 7262 612 0",
+        "email": "info.rer@riwald.de",
+        "opening_hours": "Wareneingang Mo.–Do. 7:30–17:00, Fr. 7:30–14:30 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.riwald.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "092cdad8d1434c33ba9f12b179cebb47bed79782f9380ca3559403c6d42cf90b",
+      "seed_hash": "12e10b012294d5a0",
+      "geo": [
+        48.0395,
+        10.6741
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hb-bremen-28203-ophirum-bremen-by-goldfuxx",
+      "values": {
+        "name": "OPHIRUM Bremen by GOLDFUXX",
+        "city": "Bremen",
+        "street": "Fedelhören 12",
+        "postcode": "28203",
+        "phone": "0421 41650555",
+        "email": "service@goldfuxx.de",
+        "opening_hours": "Mo-Fr 10-13 u. 14-18, Sa 10-13:30, So geschlossen",
+        "description": "Bremer Edelmetallfiliale mit Alt-/Bruchgold-, Silber-, Platin- und Palladiumankauf, auch Versandankauf.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.ophirum.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "49ac00977758fd2d56524ece700fbf03534301a8d355468e9725eaf5736e56d6",
+      "seed_hash": "5378bd24a0eeb93c",
+      "geo": [
+        53.0774066,
+        8.8171493
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hb-bremen-schrottjungs-bremen",
+      "values": {
+        "name": "Schrottjungs Bremen",
+        "city": "Bremen",
+        "street": "mobil (Sitz Hamburg, Billwerder Steindamm 15a)",
+        "postcode": "",
+        "phone": "0173 8705566",
+        "email": "info@schrottjungs.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrottjungs.de/schrottabholung-bremen",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1f222fb9730ed8b1692b54e54e2bc19f2c87ffadd45db0626b7b96b0ea61e4ff",
+      "seed_hash": "3c3194ea069b99bc",
+      "geo": [
+        53.09292352941176,
+        8.809576470588235
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Kostenlose Abholung in Bremen (Betreiber-Landingpage, Feedback-Triage 01.10.2026); Ausnahmen: Einzelgeräte/kleine Eisenmengen 40-80 EUR Gebühr, Eisenschrott mind. 300 kg; Barauszahlung Cu/Messing/Kabel/Zinn/VHM/Wolfram; Container für Gewerbe/Großmengen\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-frankfurt-60311-ophirum",
+      "values": {
+        "name": "OPHIRUM GmbH",
+        "city": "Frankfurt 60311",
+        "street": "Friedensstraße 6-10",
+        "postcode": "60311",
+        "phone": "(069) 210 295 821",
+        "email": "frankfurt@ophirum.de",
+        "opening_hours": "Mo-Fr 10:00-13:00, 14:00-18:00, Sa 10:00-13:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.ophirum.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "91b7da4cd80f13482c66bbc57cb0175d3568b32e2de566248f4a0e2920c07951",
+      "seed_hash": "73d4a421e6811167",
+      "geo": [
+        50.1106444,
+        8.6820917
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-frankfurt-60313-philoro-edelmetalle",
+      "values": {
+        "name": "philoro EDELMETALLE GmbH",
+        "city": "Frankfurt 60313",
+        "street": "Schillerstraße 15-17",
+        "postcode": "60313",
+        "phone": "+49 69 153257182",
+        "email": "frankfurt@philoro.de",
+        "opening_hours": "Mo-Fr 10:00-18:00, Sa 10:00-15:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.philoro.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2b0c0f9bfe5f53f26315f3f03bf341bdfaa61321a8e4473bf1b7951192dfea58",
+      "seed_hash": "c02ba4e50099dfc4",
+      "geo": [
+        50.1153,
+        8.6823
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-frankfurt-fechenheim-frankfurt-fechenheim-carl-benz-str-1",
+      "values": {
+        "name": "Riwald Recycling Rhein-Main (Frankfurt-Fechenheim)",
+        "city": "Frankfurt-Fechenheim",
+        "street": "Carl-Benz-Str. 1",
+        "postcode": "60314",
+        "phone": "+49 69 416 745-0",
+        "email": "info.rrrm@riwald.de",
+        "opening_hours": "Warenannahme Mo-Do 07:30-16:00, Fr 07:30-14:30",
+        "description": "Riwald Recycling Rhein-Main: Standort Frankfurt-Fechenheim.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.riwald.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b708a7fa03f9dd80bd833f12aaf284a8e2e714fbf91aa9b7d1fd9a902b3c7ee6",
+      "seed_hash": "03fe2b64668d4046",
+      "geo": [
+        50.119404878048776,
+        8.653973170731708
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-hanau-63450-goldfuxx-hanau-ophirum",
+      "values": {
+        "name": "GOLDFUXX Hanau (OPHIRUM)",
+        "city": "Hanau",
+        "street": "Hirschstr. 11",
+        "postcode": "63450",
+        "phone": "(069) 21 999 744",
+        "email": "service@goldfuxx.de",
+        "opening_hours": "Mo–Fr 10:00–13:00, 14:00–18:00; Sa 10:00–13:30",
+        "description": "Gold- und Silberankauf für Schmuck, Barren und Münzen; außerdem Platin- und Palladiumankauf sowie Edelmetallverkauf in der Filiale.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.ophirum.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "22a593df0c73ca6cafccfeb9fa56ad410edb81f61f235bc559242dfc30e6e663",
+      "seed_hash": "0107244a54d4123d",
+      "geo": [
+        50.132881,
+        8.9169797
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-hanau-alba-metall-sud-rhein-main",
+      "values": {
+        "name": "Riwald Recycling Rhein-Main GmbH, Betrieb Hanau",
+        "city": "Hanau",
+        "street": "Auheimer Str.",
+        "postcode": "63450",
+        "phone": "+49 6181 54291",
+        "email": "info.rrrm@riwald.de",
+        "opening_hours": "Mo-Do 06:30-15:30 (Warenannahme); Fr 06:30-13:30 (Warenannahme)",
+        "description": "Riwald Recycling Rhein-Main GmbH, Hanauer Betriebsstätte für FE-/NE-Metallrecycling und Schrottannahme; Betreiber veröffentlicht keine numerischen Ankaufspreise.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.riwald.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "90c8d73f8352103a346563c231a212045d23583b332f245b0c9bdcd6563880ea",
+      "seed_hash": "93558d5942563875",
+      "geo": [
+        50.12806666666666,
+        8.916833333333335
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-kelkheim-e-o-entsorgung-betriebe-kelkheim-maintal",
+      "values": {
+        "name": "E&O Entsorgung GmbH (Betrieb Kelkheim)",
+        "city": "Kelkheim",
+        "street": "Zeilsheimer Weg 4",
+        "postcode": "65779",
+        "phone": "06195/7005-46",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-16:00; Annahme bis 15 Minuten vor Schließung; Sa geschlossen",
+        "description": "Gewerbliche Annahme von Kleinmengen am Standort Kelkheim; konkrete Schrottarten und Vergütungsbedingungen sind standortspezifisch nicht hinreichend belegt. Keine private Anlieferung bestätigt.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://eo-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3b7f5d0e54c3c32cb396171476fef7e59422b6f01bcb0deacce5fd544474f57b",
+      "seed_hash": "03baa64c68c0bf59",
+      "geo": [
+        50.137,
+        8.4502
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Gewerbliche Kleinmengen-Selbstanlieferung; konkrete Schrottarten und Vergütung vorab beim Standort erfragen. Mo-Fr 07:00-16:00, Annahme bis 15 Minuten vor Schließung; Sa geschlossen.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-linsengericht-63589-riwald-recycling-rhein-main",
+      "values": {
+        "name": "Riwald Recycling Rhein-Main GmbH (Betrieb Gelnhausen)",
+        "city": "Linsengericht",
+        "street": "Lagerhausstr. 8",
+        "postcode": "63589",
+        "phone": "+49 6051 9734-0",
+        "email": "info.rrrm@riwald.de",
+        "opening_hours": "Warenannahme Mo-Do 07:30-15:30; Fr 07:30-15:00",
+        "description": "Separater Riwald-Warenannahmestandort, vom Betreiber als Gelnhausen geführt, postalisch in Linsengericht; FE-/NE-Metallrecycling.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.riwald.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "feb9797a2bfde6688425d1816549d3527aa93b4c637c0ffe10f8b80f355335af",
+      "seed_hash": "4d02249060ad79cc",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Warenannahme am Standort Lagerhausstr. 8; branchenspezifische Annahmezeiten Mo-Do 07:30-15:30 und Fr 07:30-15:00. Materialannahme vorab mit dem Betreiber abstimmen.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-maintal-e-o-entsorgung-betriebe-kelkheim-maintal",
+      "values": {
+        "name": "E&O Entsorgung GmbH (Betriebsstätte Maintal)",
+        "city": "Maintal",
+        "street": "Gutenbergstr. 8",
+        "postcode": "63477",
+        "phone": "06109/379814",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-16:00; Annahme bis 15 Minuten vor Schließung; Sa geschlossen",
+        "description": "Wertstoffhof mit Schwerpunkt Schrott und Elektroschrott; private und gewerbliche Selbstanlieferung; Schrott und Altmetall werden vergütet, weitere Abfallarten gegen Entgelt. Betreiber veröffentlicht eine numerische Altmetall-Ankauf-Preisliste (PDF, Preis je Tonne) für alle drei Betriebsstätten (Bingen, Kelkheim, Maintal).",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://eo-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c4bab2f8fe6f6fcd574e5d49f79ad4a4c27d09069be876f964dec294fd054f1f",
+      "seed_hash": "3a6d497332d72f30",
+      "geo": [
+        50.1425545,
+        8.8015135
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Privat- und Gewerbekunden können Kleinmengen selbst anliefern; Schrott/Altmetall mit Vergütung, Elektroschrott und weitere Abfälle teils gegen Gebühr; Mo-Fr 07:00-16:00, Annahme bis 15 Minuten vor Schließung.\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Containerdienst (Absetzcontainer 5-10 cbm, Abrollcontainer 10-40 cbm, Umleersysteme, Paloxen, Gitterboxen, Datenträgertonne) für Gewerbe und Haushalte im gesamten Rhein-Main-Gebiet; Vermarktung der Abfälle über die eigene Recyclinganlage; optional 24h-Service; keine Preisliste fuer Container online (eo-entsorgung.de/containerdienst, Abruf 29.10.2026).\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG, Zertifikatsnummer ZZHT00400013 im amtlichen Fachbetrieberegister; Standort Gutenbergstraße 8, 63477 Maintal; zertifizierte Tätigkeit Lagern; Abfallschlüssel 160121* (gefährliche Bauteile mit Ausnahme der unter 16 01 07 bis 16 01 14 fallenden) und 160801 (gebrauchte Katalysatoren mit Gold, Silber, Rhenium, Rhodium, Palladium, Iridium oder Platin, außer 16 08 07); Registerstand 11.08.2026\"]"
+    },
+    {
+      "slug": "hh-bahrenfeld-wegro-bahrenfeld-filiale",
+      "values": {
+        "name": "WEGRO Bahrenfeld (Filiale)",
+        "city": "Bahrenfeld",
+        "street": "Ruhrstr. 16",
+        "postcode": "22761",
+        "phone": "040 / 850 46 61",
+        "email": "info@wegrogmbh.de",
+        "opening_hours": "Mo-Do 7:00-17:15, Fr 7:00-15:30",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.wegrogmbh.de/ankauf-altmetall",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "70027bc168ba6e1e6174c489cbaf30126cbdfc1edcee5913617de5eef4503e2d",
+      "seed_hash": "52f9fe5d102f1661",
+      "geo": [
+        53.56785,
+        9.9104
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-hamburgweit-mobile-abholdienste-schrottjungs-schrott",
+      "values": {
+        "name": "Mobile Abholdienste (Schrottjungs, Schrottbienen, Hamburger Schrottverwertung u. a.)",
+        "city": "hamburgweit",
+        "street": "Billwerder Steindamm 15a",
+        "postcode": "20537",
+        "phone": "0173-8705566",
+        "email": "info@schrottjungs.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://schrottjungs.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a6c833d4ae319c9a92cc28b934c0ee32a7b86785a6e267306931d48e4bcc4832",
+      "seed_hash": "67666ce2888a7575",
+      "geo": [
+        53.5508,
+        10.04476
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-umland-wegro-lager-rellingen-hh-tel",
+      "values": {
+        "name": "WEGRO GmbH (Lager Rellingen; HH-Tel.)",
+        "city": "Rellingen",
+        "street": "Adlerstr. 67",
+        "postcode": "25462",
+        "phone": "040/8504661",
+        "email": "info@wegrogmbh.de",
+        "opening_hours": "Mo-Do 07:00-16:30, Fr 07:00-14:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.wegrogmbh.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "957d2d5e00d7de0e5f2201c79ae4f059358df00b80b2d32786df15a3537c088f",
+      "seed_hash": "a54a053c496b6099",
+      "geo": [
+        53.6413,
+        9.8647
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-annahmestellen-greifswald-an-altpapierankauf-schulz",
+      "values": {
+        "name": "Altpapierankauf Schulz",
+        "city": "Annahmestellen Greifswald/Anklam/Torgelow",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://altpapierankauf-schulz.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "933ee40bbdb185ea652bf5b36fe009eed8b26655b555181642a61a83a9f63d52",
+      "seed_hash": "737dde86b3e936ad",
+      "geo": [
+        54.0871,
+        13.413266666666667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-pasewalk-altpapierankauf-schulz",
+      "values": {
+        "name": "Altpapierankauf Schulz",
+        "city": "Pasewalk",
+        "street": "Am Schlachthof 12",
+        "postcode": "17309",
+        "phone": "0174 8484233",
+        "email": "fs@altpapierankauf-schulz.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://altpapierankauf-schulz.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "b1b53b574f14106430bae7fc8b6b844ff955f6c2ffb9e2b116f0e8fa89680905",
+      "seed_hash": "0c25ebb8741da03f",
+      "geo": [
+        53.50285882352941,
+        14.00935294117647
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-hannover-p-u-richter-umweltdienste-rheinland",
+      "values": {
+        "name": "P. U. Richter Umweltdienste Rheinland GmbH",
+        "city": "Hannover",
+        "street": "Entenfangweg 7-9",
+        "postcode": "30419",
+        "phone": "0511 27929-800",
+        "email": "hannover@pur-umwelt.com",
+        "opening_hours": "Mo-Fr 07:00-17:00",
+        "description": "Hannoverer Außenstelle mit reinem Fokus auf Containerdienst; laut Betreiber keine Schrottannahme in Hannover.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.pur-umwelt.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e526db50805ac244edef1b33cea35eae27f63991e81ab3e024060e9fba92339a",
+      "seed_hash": "03338bd5fe85bf9e",
+      "geo": [
+        52.37646896551724,
+        9.746341379310344
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-hannover-schrottjungs-abholung",
+      "values": {
+        "name": "Schrottjungs (Abholung)",
+        "city": "Hannover",
+        "street": "",
+        "postcode": "",
+        "phone": "0173-8705566",
+        "email": "info@schrottjungs.de",
+        "opening_hours": "",
+        "description": "Bundesweiter Schrott-Abholservice für Privat und Gewerbe, auch in Hannover; auf /gewerbe/ veröffentlicht der Betreiber eine unverbindliche Ankauf-Richtpreisliste als „bis zu\"-Obergrenzen (7 Fe-Sorten in €/Tonne, 12 NE-Sorten in €/kg, ohne Preisdatum und ohne Gültigkeitszeitraum); Vergütung wertvoller Metalle nach tagesaktuellem Schrottpreis, Kleinmengen teils gebührenpflichtig (Abholgebühr ca. 40–80 €).",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrottjungs.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "32d71d57803f2dcc746e59cb8aa708874775a419af53cdfad9b043445eff6115",
+      "seed_hash": "4c98d8fd767aa3b4",
+      "geo": [
+        52.37646896551724,
+        9.746341379310344
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-hellwege-brandenburger-schrott-verwertung",
+      "values": {
+        "name": "Brandenburger Schrott-Verwertung",
+        "city": "Hellwege",
+        "street": "Ahauser Straße 32",
+        "postcode": "27367",
+        "phone": "04264 836300",
+        "email": "info@wertstoff-dealer.de",
+        "opening_hours": "Mo–Fr 08:00–15:00",
+        "description": "Brandenburger Schrott-Verwertung GmbH (HRB 9313 FF, Amtsgericht Frankfurt/Oder, GF Thorsten Bartsch), Hellwege — Schrott- und Metallankauf sowie Wertstoffrecycling am Standort Ahauser Straße 32 (Dort im Betreiberportal als „BSV Wertstoffrecycling & Wertstoffankauf\" geführt); Preislage: der Betreiber veröffentlicht eine Preistabelle ohne jeden Zahlenwert („Tagespreis! Bitte erfragen.\", Altpapier und Bücher „kostenlose Annahme\") — auf der gesamten Domain wertstoff-dealer.de steht kein einziger Euro-Wert.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.wertstoff-dealer.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7e308e36db1b7dcac7d0512d3734729afa8a88705f145f90b3a8398ff907ac9a",
+      "seed_hash": "84848af5b802282a",
+      "geo": [
+        53.0735,
+        9.2357
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-hellwege-bsv-wertstoffrecycling-wertstoffankauf",
+      "values": {
+        "name": "BSV Wertstoffrecycling & Wertstoffankauf",
+        "city": "Hellwege",
+        "street": "Ahauser Str. 32",
+        "postcode": "27367",
+        "phone": "04264-836300",
+        "email": "info@wertstoff-dealer.de",
+        "opening_hours": "Mo-Fr 08:00-15:00",
+        "description": "BSV Wertstoffrecycling & Wertstoffankauf, Hellwege (Ahauser Straße 32, 27367) — Standort der Brandenburger Schrott-Verwertung GmbH (HRB 9313 FF, Amtsgericht Frankfurt/Oder, GF Thorsten Bartsch) im Betreiberportal wertstoff-dealer.de; Ankauf von Buntmetallen, Eisenschrott, Batterien, Altpapier und Büchern, Barzahlung nach Verwiegung; Preislage: Preistabelle ohne jeden Zahlenwert („Tagespreis! Bitte erfragen.\", Altpapier und Bücher „kostenlose Annahme\") — auf der gesamten Domain kein einziger Euro-Wert.",
+        "status": "pruefung",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://wertstoff-dealer.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bace7685656bb15b5a926d6d5b9b286e954e67b980dcfa82311eb8e799796fc9",
+      "seed_hash": "7ff638afba50bc7c",
+      "geo": [
+        53.0735,
+        9.2357
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-meppen-emsschrott",
+      "values": {
+        "name": "Emsschrott GmbH & Co. KG",
+        "city": "Meppen",
+        "street": "Essener Str. 15",
+        "postcode": "49716",
+        "phone": "(05932) 7333-0",
+        "email": "info@emsschrott.de",
+        "opening_hours": "Mo-Fr 07:30-17:00, Sa 09:00-12:00",
+        "description": "Altmetall- und Schrottspezialist in Meppen-Hüntel (Augustin-Gruppe): Ankauf und Erfassung sowie Sortierung, Aufbereitung und Vermarktung von Schrotten und Metallen.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://emsschrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "21b4fb861fe88337cd8e7397ca9d8343a4c02143cad20f6efed8802d3347784d",
+      "seed_hash": "4e9d4762ef19000d",
+      "geo": [
+        52.6906,
+        7.291
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-nordhorn-emsschrott-zweigstelle-nordhorn",
+      "values": {
+        "name": "Emsschrott (Zweigstelle Nordhorn)",
+        "city": "Nordhorn",
+        "street": "Alfred-Mozer-Str. 57-59",
+        "postcode": "48527",
+        "phone": "(05932) 7333-0",
+        "email": "info@emsschrott.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://emsschrott.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f1453cc3dbf6ca5072bd7764045da7e51ccc9f8fcf6e46a53d01546081ffd675",
+      "seed_hash": "ae27dea54e8d6352",
+      "geo": [
+        52.43856666666667,
+        7.0783
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-werlte-emsschrott-zweigstelle-werlte",
+      "values": {
+        "name": "Emsschrott (Zweigstelle Werlte)",
+        "city": "Werlte",
+        "street": "Am Zirkel 10",
+        "postcode": "49757",
+        "phone": "(05932) 7333-0",
+        "email": "info@emsschrott.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://emsschrott.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ae68da94c9768fe17acf0645e1efb38d144474bb85eea04e75b24f928ce1e3df",
+      "seed_hash": "d4cc15d1a4760e4a",
+      "geo": [
+        52.85,
+        7.6833
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-wildeshausen-wil-ro",
+      "values": {
+        "name": "Wil-Ro GmbH",
+        "city": "Wildeshausen",
+        "street": "Düngstruper Str. 77",
+        "postcode": "27793",
+        "phone": "04431 4161",
+        "email": "info@wil-ro.de",
+        "opening_hours": "Mo-Do 07:00-16:00, Fr 07:00-14:00, 1. Sa/Monat 08:00-12:00 (Annahme bis 30 Min vor Schluss)",
+        "description": "Wil-Ro Wildeshauser Rohstoffhandel und Recycling GmbH, Wildeshausen (Düngstruper Str. 77, 27793) — Entsorgungsfachbetrieb; Ankauf von Eisenschrott, Kupfer, Messing, Zink, Blei, Aluminium, Altkatalysatoren, V2A/V4A, Altbatterien sowie Kupfer- und Alukabel, Containerservice, Logistik, anerkannte Autoannahmestelle; Preislage: keine öffentliche Preisliste — die gesamte Domain wil-ro.de enthält keinen einzigen Euro-Wert, vergütet wird unbeziffert zu „Tageshöchstpreisen\".",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://wil-ro.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1097fb9c0bcaa2a50b294fb0957752587f72cde9c85082813461e63d0d343f94",
+      "seed_hash": "7194d7ac250d3962",
+      "geo": [
+        52.8945,
+        8.4338
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-wildeshausen-wil-ro-bdsv-mitglied",
+      "values": {
+        "name": "Wil-Ro GmbH (BDSV-Mitglied)",
+        "city": "Wildeshausen",
+        "street": "Düngstruper Str. 77",
+        "postcode": "27793",
+        "phone": "04431 4161",
+        "email": "info@wil-ro.de",
+        "opening_hours": "Mo-Do 07:00-16:00, Fr 07:00-14:00; jeden 1. Sa im Monat 08:00-12:00",
+        "description": "WIL-RO Wildeshauser Rohstoffhandel und Recycling GmbH, Entsorgungsfachbetrieb in Wildeshausen. Ankauf von Eisenschrott, Kupfer, Messing, Zink, Blei, Aluminium, Kabel, V2A/V4A, Katalysatoren und Batterien, dazu Containerdienst und Logistik. Preislage: keine öffentliche Preisliste — die gesamte Domain wil-ro.de enthält keinen einzigen Euro-Wert, vergütet wird unbeziffert zu „Tageshöchstpreisen\".",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.wil-ro.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d88b1759847a41669da684fa9f25f431b9d5c26dc36ce8e35ed8ea15bdcfa7b5",
+      "seed_hash": "cc6662cd2f91171a",
+      "geo": [
+        52.8945,
+        8.4338
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Ankauf aus Gewerbebetrieben, Landwirtschaft und Privathaushalten; Annahme bis 30 Min. vor Schluss (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-wildeshausen-wildeshauser-rohstoffhandel-und-recyclin",
+      "values": {
+        "name": "Wildeshauser Rohstoffhandel und Recycling GmbH",
+        "city": "Wildeshausen",
+        "street": "Düngstruper Str. 77",
+        "postcode": "27793",
+        "phone": "04431 4161",
+        "email": "info@wil-ro.de",
+        "opening_hours": "Mo-Do 07:00-16:00, Fr 07:00-14:00",
+        "description": "Wil-Ro Wildeshauser Rohstoffhandel und Recycling GmbH — Entsorgungsfachbetrieb und BDSV-Mitglied; Ankauf von Eisenschrott, Kupfer, Messing, Zink, Blei, Aluminium, Katalysatoren, V2A/V4A, Batterien, Kabeln; Containerdienst und Logistik; anerkannte Autoannahmestelle; Preislage: keine öffentliche Preisliste — die gesamte Domain enthält keinen einzigen Euro-Wert, vergütet wird unbeziffert zu „Tageshöchstpreisen\".",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.wil-ro.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "fb460d0f2afc4e964258616581b2bb68adeecd16ea5ab2e0f8b38409cf61b719",
+      "seed_hash": "bb962f3a502a5d1b",
+      "geo": [
+        52.8945,
+        8.4338
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bonn-pur-umwelt-p-u-richter",
+      "values": {
+        "name": "PUR Umwelt (P.U. Richter)",
+        "city": "Bonn",
+        "street": "Friesdorfer Str. 176",
+        "postcode": "53175",
+        "phone": "0228 9512918",
+        "email": "entsorgung@pur-umwelt.com",
+        "opening_hours": "Mo-Fr 07:00-17:00, Sa 08:00-12:00",
+        "description": "Betreiber P. U. Richter Umweltdienste Rheinland GmbH (Region Rheinland, Süd), Bonn-Bad Godesberg: Schrottannahme am Schrottplatz Friesdorfer Straße 176 mit 50-t-Fahrzeugwaage, Containerabholung sowie veröffentlichte Ankaufspreisliste für Schrott und Metalle (gültig ab 26.10.2026, 14:30 Uhr; 19 bepreiste Sorten in €/t, Mindermengenabzug 10 % bei Metallen unter 200 kg, Blech- und Mischschrott-Vergütung erst ab 100 kg, ab 500 kg je Sorte Preis vorher anfragen).",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.pur-umwelt.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "27b999af458d0116b3bcf31831e796586c771b7a4ae26193577ba101e5915c66",
+      "seed_hash": "4819d90e81a1c1fe",
+      "geo": [
+        50.6904621,
+        7.1437919
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Abholung per Container-Fahrzeug, Schrottplatz Bad Godesberg mit 50-t-Waage (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-oberhausen-weli-stahl-standort-oberhausen",
+      "values": {
+        "name": "WELI-Stahl (Standort Oberhausen)",
+        "city": "Oberhausen",
+        "street": "Fernewaldstr. 64",
+        "postcode": "46145",
+        "phone": "0208 6090323",
+        "email": "info@weli-stahl.de",
+        "opening_hours": "Mo-Do 07:00-16:00, Fr 07:00-14:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.weli-stahl.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "49b9cdfa6e4378e68af35eb6e8b56f78979b897ab289d37f516ce2d78863581a",
+      "seed_hash": "3d2c16540f00c6c9",
+      "geo": [
+        50.615675,
+        7.713608333333333
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-bingen-e-o-entsorgung",
+      "values": {
+        "name": "E&O Entsorgung GmbH",
+        "city": "Bingen",
+        "street": "Am Ockenheimer Graben 24",
+        "postcode": "55411",
+        "phone": "06721 984050",
+        "email": "info@eo-entsorgung.de",
+        "opening_hours": "Mo-Fr 07:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://eo-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9d8798ff19d1b53739feaeb0c67731cb1de6fb50f3aa882615b6aad3218c4ddb",
+      "seed_hash": "1b27b4eaa7ad4137",
+      "geo": [
+        48.1113,
+        9.2724
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sh-rellingen-wegro",
+      "values": {
+        "name": "WEGRO GmbH",
+        "city": "Rellingen",
+        "street": "Adlerstraße 67",
+        "postcode": "25462",
+        "phone": "04101 / 69 66 9 0",
+        "email": "info@wegrogmbh.de",
+        "opening_hours": "Mo-Do 7:00-16:30, Fr 7:00-14:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "containerdienst",
+        "website": "https://www.wegrogmbh.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "a7584e36b3a0463d530176f0147902ff58cb2bb1916917e4b694a632fd4bfe7c",
+      "seed_hash": "cdb26fada964a6a6",
+      "geo": [
+        53.6413,
+        9.8647
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-saarbrucken-umland-schrottjungs-mobil",
+      "values": {
+        "name": "Schrottjungs (mobil)",
+        "city": "Saarbrücken / Umland",
+        "street": "",
+        "postcode": "",
+        "phone": "0173 8705566",
+        "email": "info@schrottjungs.de",
+        "opening_hours": "",
+        "description": "Mobiler Schrottabholer mit Saarbrücken als beworbenem Einsatzgebiet, kein belegter saarländischer Annahmehof; Abholung nicht generell kostenlos, Gebühren und Mengenbedingungen vorab klären",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrottjungs.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c7e970e1d9a5d656ec1d86b20fd2cbd16e0c928d017310395a6d52256332d247",
+      "seed_hash": "8d8285d23a794cff",
+      "geo": [
+        49.2354125,
+        6.99320625
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-chemnitz-ankauf-von-buntmetallen-stahlschrott",
+      "values": {
+        "name": "Hofmann Metall GmbH, Kleinannahmestelle Chemnitz",
+        "city": "Chemnitz",
+        "street": "Wartburgstr. 2e",
+        "postcode": "",
+        "phone": "0176 55564352",
+        "email": "",
+        "opening_hours": "Mo-Mi 09:00-18:00, Do geschlossen, Fr 09:00-16:00, Sa 09:00-12:00",
+        "description": "Kleinannahmestelle (KAS) Chemnitz-Wartburgstraße im Annahmenetz der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau): Die Betreiberseite nennt Wartburgstraße 2e, 09123 Chemnitz mit Büro 0371 / 54 0 46 und der Mobilnummer 0176 / 55 56 43 52 - die in dieser Zeile gespeicherte Nummer ist damit die KAS-Nummer. Die Hofmann-Firmenhistorie fuehrt die KAS Chemnitz-Lutherviertel seit 2021; der Betreiber bezeichnet die Stelle selbst als Lutherviertel. Die Standortseite der KAS nennt zudem die Oeffnungszeiten: Mo-Mi 09:00-18:00 Uhr, Do geschlossen, Fr 09:00-16:00 Uhr, Sa 09:00-12:00 Uhr. **Offen:** die PLZ ist im Konflikt (Betreiber 09123, OSM und Verzeichnis 09126), deshalb bleibt das Feld leer; eine Verzeichnis-Eintragung \"Ankauf von Buntmetall M. Reichel\" nennt dieselbe Adresse und ist ein Namensvetter, kein Beleg fuer einen anderen Betrieb. ANKAUF: keine Zahlenpreise und keine angenannten Materialien auf der KAS-Seite veroeffentlicht. VERKAUF: keine Liste. GEBUEHREN: keine Tarife veroeffentlicht.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://hofmann-metall.de/standorte/kleinannahme-chemnitz/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "554ee9a02812ffa3d2284f4073282ca6a5efd1c1478e0aea8a384933c41f117d",
+      "seed_hash": "9eed288bb763f903",
+      "geo": [
+        50.8197217,
+        12.9408697
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-klipphausen-sand-und-kiesgruben-soenitz-kleinannahme",
+      "values": {
+        "name": "Sand- und Kiesgruben Sönitz GmbH, Kleinannahmestelle Klipphausen",
+        "city": "Klipphausen",
+        "street": "Triebischtalstraße 19",
+        "postcode": "01665",
+        "phone": "",
+        "email": "",
+        "opening_hours": "Mo geschlossen, Di-Fr 08:30-17:30, Sa 08:00-12:00, So geschlossen",
+        "description": "Kleinannahmestelle Klipphausen im Annahmenetz der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau). Die Standortseite der Hofmann Metall GmbH nennt als Betreiber ausdrücklich die Sand- und Kiesgruben Sönitz GmbH (HRB 29510 AG Chemnitz, Geschäftsanschrift Paracelsusstraße 10, 09114 Chemnitz). Betriebsgegenstand der GmbH: Sand- und Kiesgewinnung sowie Abfalloptimierung, Umweltdienstleistungen, Rekultivierung und die Aufsuche von Verwertungsmöglichkeiten für Wertstoffe und Abfälle. Der Kiesgrubenbetrieb Sönitz ist seit 2021 ausgekiest und wird rekultiviert. Annahmematerialien, Ankauf gegen Vergütung, Preise und Gebühren werden an dieser Stelle nicht veröffentlicht und sind unbelegt; die Seite nennt keine Telefonnummer. Die Hofmann-Adresse Triebischtalstraße 19 liegt rund 490 m vom vom Gemeindeverzeichnis und OSM geführten Betriebsansitz An der Kiesgrube 1a (Weitzschen) entfernt, welcher als Sandgrube Sönitz kartiert ist.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://hofmann-metall.de/standorte/kas-klipphausen/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "912745427685a4475b669792b97a54342ca8bc981bb3f8004f4eeee732d4009c",
+      "seed_hash": "89c532e0edf770ad",
+      "geo": [
+        51.1045768,
+        13.4170816
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-lugau-emh-eisen-metall-handels-aufbereitungsge",
+      "values": {
+        "name": "EMH Eisen-Metall-Handels-Aufbereitungsges. mbH",
+        "city": "Lugau",
+        "street": "Chemnitzer Str. 3",
+        "postcode": "09385",
+        "phone": "037295 549280",
+        "email": "info@emh-metall.de",
+        "opening_hours": "Mo–Mi 06:30–15:45, Do 06:30–16:45, Fr 06:30–15:45",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.emh-metall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3e7f1d6abfb1f3a1624cb3d43a880b2347b89bd9f29652a898cdda57d64e2c37",
+      "seed_hash": "1360efadc4b57f90",
+      "geo": [
+        51.6109,
+        13.5979
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
