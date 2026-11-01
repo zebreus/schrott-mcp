@@ -6,7 +6,7 @@ state: NW
 city: Dortmund-Lütgendortmund
 street: Alter Hellweg 33
 postcode: '44379'
-phone: +49 (0)231 9642 0
+phone: '0231 96420'
 email: dortmund@metallum.com
 opening_hours: Mo-Do 06:45-16:00, Fr 06:45-14:15
 website: https://metallum.com
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Triage Feedback 2573)
 
 - [Recherche 01.10.2026: Feedback 2573 in allen 3 Punkten berechtigt — Betreiber-Branchenseite (Thommen Group, Abruf 01.10.2026): Historie 1919 Wilhelm Raven → 1995 Dietiker → 2015 Metallum/Thommen → 2021 Umbenennung in Metallum Metal Trading GmbH (HRB 13486 AG Dortmund, Sitz Dortmund) → name-Fix per Betreiber-Ketten-Protokoll (Altname in Timeline erhalten); phone-Fix (Formatfehler „0231 96420)" → „+49 (0)231 9642 0" per Detailseite); abweichende Lageradresse dokumentiert (Lagerbetrieb Overhoffstrasse 33, 44149 Dortmund; Annahmezeiten Mo-Do 07:00-15:00, Fr 07:00-12:00); HR-Spiegel (aktiv, HRB 13486, Alter Hellweg 33, 44379 Dortmund) → Owner-Ausnahme; Quelle(n): https://metallum.com/de/deutschland/metallum-metal-trading-gmbh, online-handelsregister.de HRB 13486]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0)231 9642 0`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0231 96420` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

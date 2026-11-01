@@ -15,7 +15,8 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, normalize_phone, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -249,7 +250,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -436,7 +437,7 @@ mod tests {
         assert_eq!(info.street, "Neuer Wall 80");
         assert_eq!(info.postcode, "20354");
         assert_eq!(info.city, "Hamburg");
-        assert_eq!(info.phone, "+49(0)40 60926890");
+        assert_eq!(info.phone, "040 60926890");
         assert_eq!(info.email, "kontakt@norddeutsche-es.de");
         // HQ-only page (no Hamburg widget) fails loudly — no HQ fallback.
         assert!(extract_info("<h1 class=\"entry-title\">Impressum</h1><p>HQ only</p>").is_err());

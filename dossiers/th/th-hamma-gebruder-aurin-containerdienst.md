@@ -6,7 +6,7 @@ state: TH
 city: Hamma
 street: Siebenackerweg 1
 postcode: '99765'
-phone: +49 (0)3 63 33 / 60 727
+phone: '0363 3360727'
 email: info@gebrueder-aurin.de
 opening_hours: Mo-Fr 7:00-17:00, Sa 8:00-11:00 (nur Schrottannahme)
 website: https://gebrueder-aurin.de/
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Container, Entsorgungsfachbetrieb
 - Adressbeleg: https://gebrueder-aurin.de/
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0)3 63 33 / 60 727`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0363 3360727` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

@@ -11,7 +11,8 @@
 use scraper::{ElementRef, Html, Selector};
 
 use super::super::{
-    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, normalize_phone, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -191,7 +192,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street: String::new(),
         postcode: String::new(),
         city: String::new(),
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -361,7 +362,7 @@ mod tests {
         assert!(info.street.is_empty());
         assert!(info.postcode.is_empty());
         assert!(info.city.is_empty());
-        assert_eq!(info.phone, "+49(0)03621 733 4660");
+        assert_eq!(info.phone, "03621 7334660");
         assert_eq!(info.email, "info@sdm-gutzmann.de");
         assert!(extract_info("<h3>Anderes</h3>").is_err());
         assert!(extract_info("<h3>Angaben gemäß § 5 TMG:</h3><p>x</p>").is_err());

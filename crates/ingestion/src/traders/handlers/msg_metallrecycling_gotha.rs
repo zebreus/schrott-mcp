@@ -10,7 +10,9 @@
 
 use scraper::{ElementRef, Html, Selector};
 
-use super::super::{fetch_text, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo};
+use super::super::{
+    fetch_text, normalize_phone, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+};
 use crate::IngestError;
 
 pub const SLUG: &str = "th-gotha-msg-metallrecycling-msg-schrott-und-meta";
@@ -512,7 +514,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -1885,7 +1887,7 @@ mod tests {
         assert_eq!(info.street, "Gleichenstraße 36");
         assert_eq!(info.postcode, "99867");
         assert_eq!(info.city, "Gotha");
-        assert_eq!(info.phone, "+49 (0) 3621 3394 851");
+        assert_eq!(info.phone, "03621 3394851");
         assert_eq!(info.email, "info@msg-metallrecycling.de");
         // Redesign without anchors fails loudly.
         assert!(extract_info("<html><body><p>Neu hier</p></body></html>").is_err());

@@ -6,7 +6,7 @@ state: SH
 city: Neumünster
 street: Leinestraße 31 - 33
 postcode: '24539'
-phone: +49 (0)4321 - 93260
+phone: '04321 93260'
 email: info@behrendt.com
 opening_hours: Mo-Fr 6:00-15:45
 website: https://behrendt.com/
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Familienbetrieb, Schrottplatz, Metall, E-Schrott, Autoverwertung, Container
 - Adressbeleg: behrendt.com/impressum
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0)4321 - 93260`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `04321 93260` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

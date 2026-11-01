@@ -14,7 +14,8 @@
 use scraper::{Html, Selector};
 
 use super::super::{
-    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice, TraderInfo,
+    fetch_text, normalize_phone, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -231,7 +232,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email: String::new(),
     })
 }
@@ -424,7 +425,7 @@ mod tests {
         assert_eq!(info.street, "Neulewin 47a");
         assert_eq!(info.postcode, "16259");
         assert_eq!(info.city, "Neulewin");
-        assert_eq!(info.phone, "+49 (0) 33452 49 37 30");
+        assert_eq!(info.phone, "033452 493730");
         assert_eq!(info.email, "", "email is an image — no text address exists");
         assert!(extract_info("<p>Neu hier</p>").is_err());
     }

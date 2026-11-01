@@ -6,7 +6,7 @@ state: SN
 city: Dresden
 street: Borsbergstr. 19b
 postcode: 01309
-phone: +49 (0)351 312 47 37
+phone: '0351 3124737'
 email: info@goldankauf-dresden.com
 opening_hours: Mo, Mi-Fr 10-14 und 16-18 Uhr; Di geschlossen
 website: https://goldankauf-dresden.com
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 3148 berechtigt, eingearbeitet — email info@goldankauf-dresden.com aus Impressum übernommen; city 'Dresden 01309' → 'Dresden'; Adresse/Telefon/Zeiten bestätigt; website_status aktiv, status pruefung → aktiv (HR-belegte GmbH). Beleglage: Betreiber-Primärquelle (Impressum Name+HRB+Ort: Girod GmbH, Borsbergstrasse 19b, 01309 Dresden, HRB 31232 AG Dresden; Owner-Ausnahme greift). Quelle(n): https://goldankauf-dresden.com/impressum/ (Abruf 01.10.2026)]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0)351 312 47 37`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0351 3124737` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

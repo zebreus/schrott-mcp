@@ -18,7 +18,8 @@
 use scraper::{ElementRef, Html, Selector};
 
 use super::super::{
-    fetch_text, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule, TraderInfo,
+    fetch_text, normalize_phone, parse_de_date, parse_eur, Handler, HandlerOutcome, Schedule,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -339,7 +340,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         street,
         postcode,
         city,
-        phone,
+        phone: normalize_phone(&phone),
         email,
     })
 }
@@ -474,7 +475,7 @@ mod tests {
         assert_eq!(info.street, "Bahnhofstr. 38");
         assert_eq!(info.postcode, "99084");
         assert_eq!(info.city, "Erfurt");
-        assert_eq!(info.phone, "+49 (0)361 / 65 78 24 70");
+        assert_eq!(info.phone, "0361 65782470");
         assert_eq!(info.email, "info@goldankauf-boerse.de");
         assert!(super::extract_info("<p>Neu hier</p>").is_err());
     }

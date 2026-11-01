@@ -6,7 +6,7 @@ state: NW
 city: Bottrop
 street: Polderstr. 107
 postcode: '46238'
-phone: '+49 (0) 2041 64666'
+phone: '02041 64666'
 email: 'info@linke-bottrop.de'
 opening_hours: 'Mo-Fr 08:00-12:00, 13:00-16:00'
 website: https://linke-bottrop.de/
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 2548 berechtigt — Betreiber-Impressum (Linke GmbH & Co. KG, Polderstr. 107, 46238 Bottrop, HRA 2465 AG Gelsenkirchen, Tel. +49 (0)2041 64666, info@linke-bottrop.de, Zeiten Mo-Fr 08:00-12:00/13:00-16:00) + HR-Spiegel (aktiv, HRA 2465, Polderstraße 107, 46238 Bottrop) adressgleich → Owner-Ausnahme erfüllt → postcode/phone/email/hours/website_status gefüllt; street (Polderstr. 107) bereits korrekt; kein Namensvetter-Hinweis; Koordinaten neu zu geocodieren; Quelle(n): https://linke-bottrop.de/impressum/, online-handelsregister.de HRA 2465]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 2041 64666`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `02041 64666` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]
