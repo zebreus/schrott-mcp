@@ -144,7 +144,13 @@ def main() -> int:
                 dashes += 1
             if re.search(r"\]\(https?://", line):
                 problems.append(f"{rel}: Markdown-Deep-Link in neuer Zeile")
-            for url in re.findall(r"(?<![\w/])www\.[^\s\)\]]+", line):
+            # Code-Spans (``...``) sind woertliche Fremdzitate (z. B. ein
+            # Betreiber-JSON-Feld oder eine Impressumszeile). Sie werden nicht
+            # zu Links gerendert und sind deshalb keine Zitat-URL - ein
+            # woertliches Zitat darf nicht "repariert" werden, sonst waere es
+            # keine Wiedergabe mehr.
+            prose = re.sub(r"`[^`]*`", " ", line)
+            for url in re.findall(r"(?<![\w/])www\.[^\s\)\]]+", prose):
                 problems.append(f"{rel}: URL ohne Protokoll: {url[:50]}")
         print(f"  {rel}: neu {len(added)} Bullet(s), Status '{fm_new.get('status')}', "
               f"clear '{clear or '-'}'")
