@@ -6,7 +6,7 @@ state: BW
 city: Singen
 street: Zum Umschlagbahnhof 10
 postcode: '78224'
-phone: +49 (0) 7731 - 6 31 21
+phone: '07731 63121'
 email: info@dilse-rohstoffhandel.de
 opening_hours: ''
 website: https://dilse-rohstoffhandel.de
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Entsorgung/Recycling, Altfahrzeuge-Flag lt. Register
 - Adresse: Singen 78224
 - Adressbeleg: https://dilse-rohstoffhandel.de, https://dilse-rohstoffhandel.de/impressum
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 7731 - 6 31 21`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `07731 63121` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

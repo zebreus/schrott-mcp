@@ -8,7 +8,7 @@ street: Loher Höhe 12
 postcode: 42283
 lat: 51.2703840
 lon: 7.1770058
-phone: '+49 (0)202 84810'
+phone: '0202 84810'
 email: info@schrott-cremer.de
 opening_hours: 'Mo-Do 07:00-15:30; Fr 07:00-14:30'
 website: https://www.schrott-cremer.de
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Loher Höhe 12, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0)202 84810`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0202 84810` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

@@ -6,7 +6,7 @@ state: NW
 city: Brilon
 street: 'Bontkirchener Str. 1'
 postcode: '59929'
-phone: '+49 (0) 2963 61-0'
+phone: '02963 61-0'
 email: 'info@hoppecke.com'
 opening_hours: ''
 website: https://www.hoppecke.com/de/
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Industriebatterien (Blei/Li-Ion), größter europ. Hersteller in Privathand
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 2963 61-0`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `02963 61-0` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

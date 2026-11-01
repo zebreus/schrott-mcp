@@ -6,7 +6,7 @@ state: BW
 city: Reutlingen
 street: Ernst-Abbe-Straße 7
 postcode: '72770'
-phone: +49 (0) 7121 / 9 568 0
+phone: '07121 95680'
 email: info@herter-recycling.de
 opening_hours: 'Mo-Do 7:30-16:30, Fr 7:30-13:30'
 website: https://herterrecycling.com
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Röntgenfilm/Silber — Klinik-Entsorger mit Vergütung (NEU)
 - Adresse: Reutlingen 72770, Ernst-Abbe-Str. 7
 - Adressbeleg: https://herterrecycling.com, https://herterrecycling.com/impressum
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 7121 / 9 568 0`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `07121 95680` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

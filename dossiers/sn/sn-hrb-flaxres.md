@@ -6,7 +6,7 @@ state: SN
 city: Dresden
 street: Blumenstraße 80
 postcode: 01307
-phone: +49 (0) 351 211 681-0
+phone: '0351 211681-0'
 email: info@flaxres.com
 opening_hours: ''
 website: https://www.flaxres.com
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 03.10.2026 (Feedback 4519)
 
 - [Korrektur 03.10.2026 (Feedback 4519): Description auf die belegte PV-Modulzerlegungstechnologie begrenzt; die interne Aussage „kein allgemeiner Schrottankauf belegt“ entfernt. NorthData führt als Unternehmensgegenstand Entwicklung, Herstellung, Betrieb und Vertrieb von Recyclingvorrichtungen für Verbundmaterialien; die Betreiberseiten beschreiben die Zerlegung von Photovoltaikmodulen. Gegenbeleg zur konkreten Annahme: Die Modulseite nennt Annahmebedingungen für gewerbliche Kunden (komplette monokristalline Module mit Rückseitenfolie, mindestens eine Palette), während die Kontakt-FAQ zugleich sagt, FLAXRES habe keine Erstannahmelizenz und werde die Grobzerlegung zukünftig als Dienstleistung anbieten. Wegen dieses Widerspruchs nennt die Description ausschließlich die belegte Technologie und suggeriert weder aktuelle Annahme noch verfügbare Annahmebedingungen. Quelle(n): https://www.northdata.de/FLAXRES%20GmbH,%20Dresden/HRB%2036460 ; https://www.flaxres.com/de/unternehmen/ ; https://www.flaxres.com/de/technologie/ ; https://www.flaxres.com/de/module/ ; https://www.flaxres.com/de/kontakt/ .]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 351 211 681-0`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0351 211681-0` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

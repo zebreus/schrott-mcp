@@ -6,7 +6,7 @@ state: ST
 city: Gerwisch
 street: Lostauer Straße 5
 postcode: '39175'
-phone: +49 (0) 39292 / 20 90
+phone: '039292 2090'
 email: info@gerwischer-recycling.de
 opening_hours: ''
 website: https://gerwischer-recycling.de/
@@ -35,3 +35,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel, Gussaufbereitung, Barankauf Stahl/Buntmetall [Website-Recherche 30.09.2026: Impressum-Fund, Adresse/Tel/Mail bestätigt, HRB 1316 Stendal; Impressum-Ort: Biederitz OT Gerwisch (Seed-Stadt beibehalten); Öffnungszeiten widersprüchlich auf der Seite (Header 07–16/07–15 vs. Preisseite 08–15/08–14) – nicht übernommen; Quelle: gerwischer-recycling.de/impressum/]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 39292 / 20 90`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `039292 2090` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

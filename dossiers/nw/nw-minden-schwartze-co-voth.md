@@ -6,7 +6,7 @@ state: NW
 city: Minden
 street: Karlstraße 49
 postcode: '32423'
-phone: '+49 (0) 571 387 08-0'
+phone: '0571 38708-0'
 email: schwartze@g-voth.de
 opening_hours: ''
 website: https://www.g-voth.de/
@@ -33,3 +33,7 @@ Die aktuelle Unternehmensseite führt Schwartze & Co. als Minden-Zweigniederlass
 ### Recherche 23.10.2026 (Audit 7, Feedback 7383)
 
 - [Recherche 23.10.2026: Betreiber-Impressum und Minden-Standortseite direkt gelesen: Rohstoff-Handelsgesellschaft Günther Voth GmbH, HRB 181 AG Paderborn; Schwartze & Co. wird als Minden-Zweigniederlassung mit Karlstraße 49, 32423 Minden, +49 (0) 571 387 08-0 und schwartze@g-voth.de geführt. Das Registerportal führt die GmbH und die Zweigniederlassung unter HRB 181 als aktuell; damit ist die Beziehung nicht bloß aus dem Namensgleichlauf abgeleitet. Die Standortseite nennt Ausstattung an Karlstraße und Windmühlenstraße, letztere ohne Hausnummer. Das verlinkte EfB-Zertifikat nennt Karlstraße 49 und Windmühlenstraße 26, ist aber bis 01.08.2026 befristet; das Minden-ISO-Zertifikat war bis 16.05.2026 gültig. Keine aktuelle Zertifikatsgültigkeit, Publikumsannahme, Öffnungszeiten oder Preise belegt. **Ankauf:** betrieblicher Handel mit Stahlschrott/Metallen beschrieben, konkrete Annahme und Vergütung offen; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Kein GEO-Punkt ergänzt, da weder Kundenzufahrt noch genaue aktuelle Annahmestelle belegt. Quellen: https://www.g-voth.de/impressum.html ; https://www.g-voth.de/unternehmen_mi.html ; https://www.g-voth.de/ ; https://www.g-voth.de/Zertifikat%20EfB.pdf ; https://www.g-voth.de/QM%20Minden.pdf ; https://www.handelsregister.de/rp_web/normalesuche.xhtml (Suche Amtsgericht Paderborn, HRB 181; Zweigniederlassung Schwartze & Co., Minden).]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 571 387 08-0`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `0571 38708-0` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]
