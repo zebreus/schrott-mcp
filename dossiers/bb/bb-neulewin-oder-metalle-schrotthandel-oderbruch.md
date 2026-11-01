@@ -1,5 +1,7 @@
 ---
 slug: bb-neulewin-oder-metalle-schrotthandel-oderbruch
+lat: 52.7236345
+lon: 14.2820436
 name: Oder-Metalle Schrotthandel Oderbruch
 trader_type: schrotthaendler
 state: BB
@@ -43,3 +45,20 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Negativbeleg mit Bezug: in OSM trägt kein Objekt auf der Straße einen Bezug zum Betrieb.** Von den 149 Adressobjekten der Straße tragen **5 Objekte `name=`** (node/1366227444 mit `name=Landmarkt`, node/4357184495 mit `name=Paketshop 103`, node/4360376391 mit `name=Heimatstube Neulewin`, way/383042798 mit `name=Kita Sonnenschein`, way/461955666 mit `name=Kleinmarkt Getränke Neulewin`) und **1 Objekt `operator=`** (node/4357184495 mit `operator=DHL`); **keines** davon nennt Oder-Metalle. **Mit Bezug zu Oder-Metalle** trifft es auf der Straße **0 Objekte** und im gesamten Raster **0 Objekte** (Suchbegriff „oder-metalle" über alle Tag-Werte). Ein OSM-Beleg für den Schrottplatz in Neulewin 47a existiert damit **nicht**; das ist kein Schließungsbeweis, aber auch kein Bestätigungssignal, weil der Betrieb nach dem Betreiber-Impressum auf einem **Platz** (Freifläche) liegt und in OSM bislang nicht als Fläche erfasst ist. Quelle(n): https://api.openstreetmap.org/api/0.6/map?bbox=14.2585507,52.7090186,14.2958200,52.7428662 (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Impressum live nachgelesen - die Betreiberangaben sind um einen Geschäftsführer ergänzt, ein Register fehlt weiterhin.** Das Impressum nennt **O.M.N. Oder-Metalle GmbH**, Geschäftsführer **Sascha Lesner**, Neulewin 47a, 16259 Neulewin, Telefon +49 (0) 33452 49 37 30, Mobil +49 (0) 1523 696 3758, Telefax **+49 (0) 33452 49 37 31**; die E-Mail-Adresse ist weiterhin **nur als Bild** eingebettet und damit nicht maschinell lesbar (kein Fill, das Feld bleibt leer). Ein **HRB und ein Registergericht werden auf der Betreiber-Seite weiterhin nicht genannt**; der HR-Kongruenzpunkt aus der Vorwelle bleibt damit offen. Die Startseite bestätigt erneut die Ankaufzeiten **Mo-Fr 09:00-17:00 und jeden 1. und 3. Sa 09:00-12:00 Uhr** sowie die Privatablehnung für Fahrzeuge und Elektrogeräte („Die Annahme von Fahrzeugen und Elektrogeräten ist von Privat aufgrund gesetzlicher Regelungen ausgeschlossen"); das Frontmatter-Feld `opening_hours` bleibt unverändert, weil die Angabe nur den Ankauf, nicht den übrigen Betrieb abbildet. Quelle(n): http://oder-metalle.de/impressum/ ; http://oder-metalle.de/ ; http://oder-metalle.de/schrott/schrott-ankauf/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise und Gebühren getrennt - der Betrieb veröffentlicht eine bezifferte Ankaufspreisliste.** ANKAUF: die Seite „Schrott Preise" (Überschrift „Berlin & Brandenburg") nennt Tagespreise: Mischschrott **110,00 EUR/t**, Guss **110,00 EUR/t**, schwerer Langschrott **150,00 EUR/t**, Sorte 3 **170,00 EUR/t**, Altpapier **0,07 EUR/kg**, Kupferdraht blank (milberry) **10,00 EUR/kg**, Kupfer Raff b95 **9,40 EUR/kg**, Kupfer Kabel 40 % **3,00 EUR/kg**, Alu Misch ohne Guss **1,10 EUR/kg**, Alufelgen **1,30 EUR/kg**, Alu Guß bis 2 % anh. **1,10 EUR/kg**, Edelstahl V2A **0,50 EUR/kg**, Edelstahl V4A **1,20 EUR/kg**, Messing **5,50 EUR/kg**, Zink **1,40 EUR/kg**, Blei **0,80 EUR/kg**, Elektromotore **0,50 EUR/kg**; dazu die Bedingungen: Preise gelten bei Anlieferung als **Tagespreis**, bei Abholung sind abweichende Preise möglich, größere Mengen oder gewerbliche Kunden erhalten individuelle Preise, und bei Anlieferung von Mengen **ab 500 kg je Sorte bei Buntmetall gibt es einen Preisaufschlag** (ohne Zahlenwert). VERKAUF: **keine** Verkaufspreisliste, der Betrieb ist Einkäufer. GEBÜHREN: **kein** bezifferter Betreiber-Tarif; auf der Entsorgungsseite ist geregelt, dass der Schrottpreis **um die Containerkosten gekürzt** wird und die Kosten einer Beräumung (Personal, Container) **nach vorherigem Angebot in Rechnung gestellt** und vom Kunden getragen werden; gewogen wird auf **geeichten Waagen bis 15.000 kg** auf dem Platz, bis **50 t** bei einem Partnerbetrieb im Dorf. Quelle(n): http://oder-metalle.de/schrott-preise/ ; http://oder-metalle.de/schrott/schrott-entsorgung/ ; http://oder-metalle.de/schrott/schrott-ankauf/ (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **52.7236345/14.2820436** (Mittel der eindeutigen
+  Knoten von way/462081044, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Das Impressum der Betreiber-Website
+  nennt **O.M.N. Oder-Metalle GmbH**, Geschäftsführer Sascha Lesner, **Neulewin 47a, 16259 Neulewin**, Telefon
+  +49 (0) 33452 49 37 30 (live abgerufen 01.11.2026, http://oder-metalle.de/impressum/ ; http://oder-metalle.de/) —
+  die Dossier-Adresse und -Telefonnummer sind damit über die Betreiberquelle belegt; offen bleiben der fehlende
+  HRB-Nachweis und die nicht maschinell lesbare E-Mail (nur als Bild eingebettet, `email` bleibt leer). Quelle 2
+  (OSM): way/462081044 (live abgerufen 01.11.2026, https://api.openstreetmap.org/api/0.6/way/462081044/full.json)
+  trägt `addr:housenumber`=47A, `addr:street`=Neulewin, `addr:city`=Neulewin, `addr:postcode`=16259 und
+  `building`=yes — die Dossier-Hausnummer **47a** liegt in OSM in der Großbuchstaben-Notation **47A** auf dieser
+  Straße; Objekt-BBox 52.7235259/14.2818340 bis 52.7237431/14.2822532, der Punkt liegt innerhalb. Qualifizierung:
+  das Objekt trägt **keinen** `name=`/`operator=`-Betriebsbezug (Straßenraster vom 31.10.2026: 0 Objekte mit Bezug
+  zu „oder-metalle"), der Betrieb liegt laut Betreiber-Impressum auf einem Platz und ist in OSM nicht als Fläche
+  erfasst; die Koordinate bezeichnet den in OSM objektgenau belegten Adressstandort, `status` **aktiv** bleibt
+  unverändert.]

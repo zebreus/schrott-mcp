@@ -1,5 +1,7 @@
 ---
 slug: by-feldkirchen-m-m-buntmetall
+lat: 48.1501108
+lon: 11.7385874
 name: M&M Buntmetall GmbH
 trader_type: metallhaendler
 state: BY
@@ -48,3 +50,26 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Ankauf-Sorten vollständig veröffentlicht, Preise nicht.** Die Betreiberseite listet die angekauften Sorten je Gruppe: **Aluminium** (AlMg blank/foliert, Alu neu blank/foliert, Alu Si 0,5 Profile blank, lackiert, ISO, Alu Geschirr, Alu lackiert, PKW-Felgen, Alu Kabel isoliert, Alu Späne, Alu-Kupferkühler, Alu Guss/Stückschrott), **Kupfer** (Draht Millberry/Berry, Elektrolyt blank/lackiert, Kupfer neu, Kupfer alt, Kupfer Späne, Kabel isoliert mit/ohne Stecker, E-Motoren, Kupfer-Messingkühler), **Messing** (MS 63 Abfälle, MS 58 Abfälle, Messing schwer, Messing Späne, Patronenhülsen, Erodierdraht, Rotguss, Bronze), **Edelstahl** (V4A Abfälle, V4A Späne, V2A Abfälle, V2A Späne), **Zink** (Zink alt, Zink neu), **Blei** (Weichblei, Wuchtblei), **Zinn** (Zinngeschirr), **Hartmetall** (Hartmetall-Wendeplatten, Hartmetall-Bohrer, HSS-Bohrer) sowie "Weitere Sorten auf Anfrage". Quelle(n): https://www.mm-buntmetall.de/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise: keine Zahlen; Ankauf, Verkauf und Gebühren getrennt.** **Ankauf:** Die Betreiberseite nennt durchgehend "zu fairen Konditionen" bzw. "faire Preise", aber **keinen einzigen Euro-Betrag und keine Preisliste**; der Ablauf ist "01 Kontakt aufnehmen / 02 Ankauf abstimmen / 03 Abwicklung & Verwertung", die Konditionen werden **individuell vereinbart**. **Verkauf:** kein Verkauf von Metallen oder Sekundärrohstoffen belegt; beschrieben sind nur "fachgerechte Verwertung" und Rückführung in den Wirtschaftskreislauf. **Gebühren:** die einzige Gebührenaussage ist eine **Gebührenfreiheitszusage** - "**Containerbereitstellung kostenlos** - unkompliziert, zuverlässig und ohne unnötigen Aufwand für Sie"; eine Abholgebühr, Waagegebühr oder Mindestmenge wird **nicht** genannt, ebenso wenig eine Preiszusage für die Abholung. Quelle(n): https://www.mm-buntmetall.de/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Geokodierungsbedarf (nicht ausgeführt, nur benannt).** Das Dossier führt **keine Koordinate**; OSM kartiert an der Hausnummer 2 den node/9214981193 bei 48.1501108/11.7385874 und an der Hausnummer 6 den node/9214981182 bei 48.149057/11.7398288. Für "Xaver-Münch-Straße 2-4, 85622 Feldkirchen-Heimstetten" ist eine adressbasierte Geokodierung zu prüfen; der Hausnummernbereich der Dossier-Adresse ist in OSM **nur teilweise** belegt (2 und 6 vorhanden, 4 nicht). Quelle(n): https://api.openstreetmap.org/api/0.6/node/9214981193.json ; https://api.openstreetmap.org/api/0.6/node/9214981182.json (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **48.1501108/11.7385874** (Mittel der eindeutigen
+  Knoten von node/9214981193, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Das Impressum der Betreiber-Website
+  nennt **M&M Buntmetall GmbH**, vertreten durch Geschäftsführer **Murad Azeez**, **Xaver-Münch-Straße 2-4, 85622
+  Feldkirchen-Heimstetten**, Telefon **+49 176 278 600 62** (live abgerufen 01.11.2026, https://www.mm-buntmetall.de/ ;
+  https://www.mm-buntmetall.de/sitemap.xml) - die Dossier-Adresse, -PLZ und -Telefonnummer sind damit über die
+  Betreiberquelle belegt; das **Register-Nebenbeleg** Northdata nennt dieselbe Firma mit **HRB 303469** (EUID
+  DED2601V.HRB303469), Sitz Feldkirchen, Geschäftsführer **GF Murad K. I. Azeez** und Gegenstand "**Handel mit
+  Buntmetallen**", also die Standortadresse **"Xaver-Münch-Str. 2-4, D-85622 Feldkirchen"**. Quelle 2 (OSM):
+  node/9214981193 (live abgerufen 01.11.2026, https://api.openstreetmap.org/api/0.6/node/9214981193.json) trägt
+  `addr:housenumber`=2, `addr:street`=Xaver-Münch-Straße, `addr:postcode`=85622, `addr:city`=Feldkirchen und
+  `addr:country`=DE. Qualifizierung: die Dossier-Adresse ist eine **Bereichsangabe "2-4"**; die Repo-Referenzregel
+  `osm_street_scan.expand` löst sie zu den Einzelnummern **2, 3, 4** auf - in OSM existiert auf dieser Straße die
+  Nummer **2** (node/9214981193), die Nummer **3** und **4** jedoch **nicht** (frisches Kachelraster über
+  **bbox=11.7250,48.1350,11.7550,48.1650** am 01.11.2026, live abgerufen: auf der Xaver-Münch-Straße genau **2**
+  Adressobjekte, die Hausnummern **2** und **6**); die Koordinate bezeichnet daher den **an der unteren Grenze des
+  Dossier-Bereichs belegten Adresspunkt 2**. Das Objekt trägt **weder `name=` noch `operator=`** (im Raster 0 Objekte
+  mit Bezug zu "M&M Buntmetall" bzw. "buntmetall"), der Betrieb ist in OSM nicht benannt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.7250,48.1350,11.7550,48.1650 (Kachelraster, live abgerufen
+  01.11.2026) ; https://www.mm-buntmetall.de/ ; https://www.northdata.de/M&M%20Buntmetall%20GmbH,%20Feldkirchen/Amtsgericht%20M%C3%BCnchen%20HRB%20303469
+  (live abgerufen 01.11.2026).]

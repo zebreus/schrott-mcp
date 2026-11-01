@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-meinrich
-clear_fields: geo
+lat: 51.4734328
+lon: 6.9632443
 name: Josef Meinrich GmbH
 trader_type: schrotthaendler
 state: NW
@@ -50,3 +51,26 @@ Die rechtliche Identität lässt sich als **Josef Meinrich GmbH**, AG Essen HRB 
 - [Recherche 31.10.2026: **Registerstand live nachgeführt - Schrott bleibt im Unternehmensgegenstand.** North Data (Registerspiegel, live abgerufen am 31.10.2026, HTTP 200) führt „Josef Meinrich GmbH“, **Amtsgericht Essen HRB 12559**, **EUID DER2503.HRB12559**, Adresse **Keunefeld 9, D-45355 Essen**, Unternehmensgegenstand **„Die Durchführung von Transporten im Güternahverkehr und der Handel mit Schrott und Baustoffen aller Art.“** und einen offengelegten Jahresabschluss zum 31.12.2024 (Publikation 10.09.2025) sowie einen Abschluss zum 31.12.2023 (Publikation 13.12.2024). Die Rechtsträgeridentität ist damit über einen Registerspiegel belegt; die **amtliche** Verifikation im gemeinsamen Registerportal steht weiterhin aus. **Abrufhinweis (31.10.2026):** die North-Data-Seiten wurden im Verlauf dieser Recherche live mit **HTTP 200** gelesen; eine erneute Kontrolle am selben Nachmittag lieferte **HTTP 429** (Drosselung durch die eigene Abrufdichte) - die Quelle ist damit **nicht** tot, aber derzeit nicht abrufbar. Das Impressum von `meinrich.de` (live, HTTP 200) bestätigt den Fremdbetrieb: „Umzüge Meinrich, Inhaber Sven Borg, Wolfsbankring 40, DE-45355 Essen-Borbeck“, Telefon (0201) 67 73 73 und (0201) 67 49 80, Fax (0201) 68 31 85, `meinrich@meinrich.de`, USt-IdNr DE 324 635 250, Amtsgericht Essen **HRA 5769** - eine andere Person, eine andere Rechtsform-ID und eine andere Anschrift als die Dossier-Gesellschaft. **Gesperrte Quelle:** der Creditreform-Firmeneintrag liefert am 31.10.2026 **HTTP 403** (Bot-Sperre) und wird nicht als geprüfter Beleg gewertet. Quelle(n): https://www.northdata.de/Josef%20Meinrich%20GmbH,%20Essen/HRB%2012559 ; https://www.meinrich.de/impressum/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise und Gebühren getrennt - weiterhin keine Zahlenwerte.** **ANKAUF:** **keine** Ankaufspreisliste, **keine** Sortenliste und **kein** Preisrechner auffindbar; die verfügbaren Quellen nennen den Unternehmensgegenstand, aber **keinen** Zahlenwert. **VERKAUF:** **keine** Verkaufspreise, **keine** Verkaufsliste. **GEBÜHREN:** **keine** Annahmegebühr, **keine** Abholpauschale und **keine** Entsorgungsgebührenordnung; die genannte Güterkraftverkehr-Erlaubnisbehörde der Umzugsfirma ist **kein** Gebührentarif. Kommunale Tarife, Markt- und Börsenpreise sind **nicht** belegt und werden nicht behauptet. Quelle(n): https://www.northdata.de/Josef%20Meinrich%20GmbH,%20Essen/HRB%2012559 ; https://www.meinrich.de/impressum/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Offene Punkte und Geokodierungsbedarf.** Die Rechtsträgeridentität ist über den Registerspiegel belegt, **nicht** aber der gegenwärtige Betrieb mit öffentlicher Schrottannahme: `status: pruefung` bleibt unverändert, `website` und `website_status` bleiben **leer** (die Dossier-Domain gehört nach Impressum und OSM-Objekt way/27616648 zur Umzugsfirma), `email` und `opening_hours` bleiben **leer**. **Geokodierungsbedarf:** der read-only Produktionsabruf am 31.10.2026 zeigt für diesen Händler `lat`/`lon` = **NULL** (`clear_fields: geo` greift), die Dossier-Adresse Keunefeld 9 ist in OSM als way/278551013 erfasst (Punktlage 51.4734362/6.9632490) - die Koordinate ist neu zu setzen; eine Geokodierung erfolgt **nicht** in dieser Welle. Offen bleibt die Frage, ob an der Keunefeld-Adresse heute noch Schrott angeliefert wird. Quelle(n): https://api.openstreetmap.org/api/0.6/way/278551013.json ; read-only `public.db` (31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4734328/6.9632443** (Mittel der eindeutigen
+  Knoten von way/278551013, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=9, `addr:street`=Keunefeld,
+  `addr:city`=Essen, `addr:postcode`=45355 und `building`=yes; es hat 11 Knotenreferenzen, davon 10 eindeutige
+  (ein doppelter Knoten), die BBox der eindeutigen Knoten reicht von 51.4733128/6.9631163 bis 51.4735205/6.9634465 und
+  umschließt den Mittelwert. Das Objekt trägt weder `name` noch `operator`; der Punkt bezeichnet daher die belegte
+  Anschrift und keine verifizierte Zufahrt oder Waage. Quelle 1 (Betreiber/Register): North Data (Registerspiegel,
+  live abgerufen am 01.11.2026, HTTP 200) führt die „Josef Meinrich GmbH“, **Amtsgericht Essen HRB 12559**,
+  **EUID DER2503.HRB12559**, mit der Anschrift **Keunefeld 9, D-45355 Essen** und dem Unternehmensgegenstand „Die
+  Durchführung von Transporten im Güternahverkehr und der Handel mit Schrott und Baustoffen aller Art“ - die im
+  Frontmatter bereits zitierte Registerquelle bestätigt damit genau die in OSM gefundene Anschrift. Quelle 2 (OSM):
+  way/278551013 (live geladen am 01.11.2026, HTTP 200). **Abgrenzung:** das im selben Raster geführte Objekt
+  way/27616648 (`name`=Umzüge Meinrich, `office`=moving_company, `addr:street`=Wolfsbankring, `addr:housenumber`=40)
+  liegt rund **313 m** vom gesetzten Punkt entfernt und ist die **Umzugsfirma** (Sven Borg, HRA 5769), nicht die
+  Josef Meinrich GmbH HRB 12559 - die Namens- und Domainverwechslung bleibt objektgenau getrennt. Der
+  `clear_fields: geo`-Eintrag wurde mit dem Setzen der Koordinate **entfernt** (ein gleichzeitiges `clear_fields: geo`
+  neben belegtem `lat`/`lon` wäre vom Seed ohnehin ungültig); der read-only Produktionsabruf am 01.11.2026 zeigte für
+  diesen Händler ohnehin `lat`/`lon` = **NULL**, es wird also kein falscher Altpunkt ersetzt. Quelle(n):
+  https://www.northdata.de/Josef%20Meinrich%20GmbH,%20Essen/HRB%2012559 ;
+  https://api.openstreetmap.org/api/0.6/way/278551013/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/27616648/full.json ; read-only `public.db` (01.11.2026).]

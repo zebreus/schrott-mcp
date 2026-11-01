@@ -1,5 +1,7 @@
 ---
 slug: hh-veddel-rothenburgsort-tsr-recycling-nl-hamburg-ne-hovestr-30-h
+lat: 53.5238262
+lon: 10.0260610
 name: TSR Recycling GmbH (NL Hamburg NE, Hovestr. 30 + Hafenstr. 4)
 trader_type: schrotthaendler
 state: HH
@@ -44,3 +46,29 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 31.10.2026: `postcode` (**20539**), `phone` (**040 211 113 911**), `email` (**info@tsr.eu**), `opening_hours` (**Mo-Do 07:00-16:00, Fr 07:00-14:45**) und `website_status` (**aktiv**) erstmals gefüllt; `street` (**Hovestr. 30**) bestätigt. Belege: **Betreiberseite** (Standortseite „Hovestraße 30“ und Übersicht „Schrotthändler in Hamburg“) nennt Anschrift **Hovestraße 30, 20539 Hamburg**, **T +49 40 211113911**, **F +49 40 21111399** und **Öffnungszeiten Mo-Do: 07:00 - 16:00, Fr: 07:00 - 14:45**; das **Impressum** nennt **info@tsr.eu** und die Firmierung **TSR Deutschland GmbH & Co. KG** (AG Dortmund, HRA 19743, Sitz Brunnenstraße 138, 44536 Lünen); **Branchenbuch Stadt Hamburg** (Eintragsnummer 10463746, Letzte Aktualisierung 13.11.2025) nennt **Hovestraße 30, 20539 Hamburg (Veddel)**, **040 / 211 113 911**, **040 / 211 113 99** und dieselben Zeiten. **Abweichungen, die bewusst nicht überschrieben werden**: (1) der Dossier-Name „TSR Recycling GmbH“ entspricht **nicht** der aktuellen Firmierung (TSR Deutschland GmbH & Co. KG) — der Name bleibt, die Abweichung ist in der Recherche-Notiz dokumentiert; (2) der Dossier-Name nennt „**Hafenstr. 4**“, die Betreiberseite schreibt „**2. Hafenstraße 4, 21079 Hamburg**“ — auch diese Schreibweise bleibt als Dossier-Name stehen. **Annahmebedingung**: Die Standortseite Hovestraße nennt „**Schrottankauf von privat**“, die Standortseite 2. Hafenstraße ausdrücklich „**Keine Annahme von Privatkunden**“ — die Bedingung gilt **nicht** für beide Hamburger Standorte gleich. Quelle(n): https://www.tsr-recycling.de/standorte/schrotthaendler-hamburg/hovestrasse/ ; https://www.tsr-recycling.de/standorte/schrotthaendler-hamburg/uebersicht/ ; https://www.tsr-recycling.de/impressum/ ; https://www.hamburg.de/branchenbuch/hamburg/eintrag/10463746/ (Abruf 31.10.2026)]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Hovestraße` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=10.0133255,53.5063255,10.0600878,53.5350171**, 15/15 Teilfenster vollständig verfügbar): **37 Adressobjekte / 37 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 30** ist dabei durch way/282471488 (`addr:housenumber=30`, `addr:postcode=20539`, `addr:city=Hamburg`, **weder `name=` noch `operator=`**) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0133255,53.5063255,10.0600878,53.5350171 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **53.5238262/10.0260610** (Mittel der eindeutigen
+  Knoten von way/282471488, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Die Standortseite der Betreiber-Website
+  nennt **„TSR Deutschland GmbH & Co. KG, Niederlassung Hamburg NE, Hovestraße 30, 20539 Hamburg“**, **T +49 40
+  211113911**, F +49 40 21111399, Öffnungszeiten Mo-Do 07:00 - 16:00 und Fr 07:00 - 14:45, „Direkt an den Elbbrücken“,
+  „Spezialist für NE-Metalle“ und „Schrottankauf von privat“ (live abgerufen 01.11.2026 über den Text-Pass
+  https://r.jina.ai/https://www.tsr-recycling.de/standorte/schrotthaendler-hamburg/hovestrasse/ — der Direktabruf
+  liefert weiterhin die 1938-Byte-Bot-Challenge); das **Branchenbuch der Stadt Hamburg** (Eintragsnummer 10463746,
+  Letzte Aktualisierung 13.11.2025) bestätigt unabhängig **Hovestraße 30, 20539 Hamburg (Veddel)**,
+  **040 / 211 113 911** und dieselben Öffnungszeiten (live abgerufen 01.11.2026,
+  https://www.hamburg.de/branchenbuch/hamburg/eintrag/10463746/) — die Dossier-Adresse, -Telefonnummer und -Zeiten sind
+  damit doppelt belegt. Quelle 2 (OSM): way/282471488 (live geladen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/282471488/full.json) trägt `addr:housenumber`=30,
+  `addr:street`=Hovestraße, `addr:city`=Hamburg, `addr:country`=DE, `addr:postcode`=20539, `building`=office,
+  `building:levels`=2, `roof:shape`=flat — die Dossier-Hausnummer **30** ist objektgenau belegt; es hat 20
+  Knotenreferenzen, davon 19 eindeutige (ein doppelter Knoten), die BBox der eindeutigen Knoten reicht von
+  53.5236395/10.0258930 bis 53.5239587/10.0262061 und umschließt den Mittelwert. Qualifizierung: das Objekt trägt
+  **weder `name` noch `operator`** — die vier benannten Objekte der Hovestraße sind **andere** Betriebe (way/282471499
+  „Peter Stolz Edelstahlhandelsgesellschaft“ Hausnummer 32, way/230359635 „NT Logistic GmbH“ 20, way/110413625 „Wiwa
+  WILKO WAGNER“ 21, way/310627446 „Abwasserpumpwerk P20“ mit `operator`=Hamburg Wasser 16); die Koordinate bezeichnet
+  die belegte Anschrift der Niederlassung, nicht eine verifizierte Waagen- oder Annahmestelle. Die zweite
+  Dossier-Adresse („2. Hafenstraße 4, 21079 Hamburg“) ist in OSM **nicht** belegt (dort nur way/23495935 mit
+  `addr:housenumber`=15) und ist **nicht** Teil dieser Koordinate. Die Firmierungsabweichung zum Dossier-Namen
+  („TSR Recycling GmbH“) und die unveränderten Feldwerte bleiben dokumentiert.]

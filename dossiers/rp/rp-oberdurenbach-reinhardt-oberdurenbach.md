@@ -1,5 +1,7 @@
 ---
 slug: rp-oberdurenbach-reinhardt-oberdurenbach
+lat: 50.4695618
+lon: 7.1573398
 name: Reinhardt Oberdürenbach
 trader_type: sonstige
 state: RP
@@ -47,3 +49,28 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 31.10.2026: Koordinaten-Hinweis. Die in der Produktionsdatenbank gespeicherte Position (lat 50,4486833 / lon 7,1919) liegt **nicht** am Betriebsstandort, sondern im Ortsteil **Galenberg/Oberzissen** (dortige OSM-Adressobjekte tragen `addr:city=Galenberg` bzw. `addr:city=Oberzissen`). Das **Karten-Widget der Betreiberseite** setzt den Standort auf **lat 50.4700891 / lon 7.156843** — das ist der Ort **Oberdürenbach** und deckt sich mit der OSM-Adresse `addr:street=Königsseeweg`, `addr:city=Oberdürenbach`, `addr:postcode=56651`. Die Dossier-Adresse (Straße/Hausnummer/PLZ) ist damit **adresslich belegt**; der **GEO-Punkt des Datensatzes ist falsch und neu zu setzen**. `street` bleibt unverändert. Quelle(n): https://www.schrottmetallhandelreinhardt.com/kontakt (data-location-lat/-lng im Karten-Widget) ; https://api.openstreetmap.org/api/0.6/way/659781993.json ; read-only `public.db` (Abruf 31.10.2026)]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Königsseeweg` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=7.1455209,50.4590970,7.1828872,50.4924351**, 16/16 Teilfenster vollständig verfügbar): **16 Adressobjekte / 16 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 2** ist dabei durch way/659781993 (`addr:housenumber=2`, `addr:postcode=56651`, `addr:city=Oberdürenbach`, **weder `name=` noch `operator=`**) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1455209,50.4590970,7.1828872,50.4924351 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **50.4695618/7.1573398** (Mittel der eindeutigen
+  Knoten von way/659781993, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Der **Standortblock der Kontaktseite**
+  der Betreiber-Website (https://www.schrottmetallhandelreinhardt.com/kontakt, live abgerufen 01.11.2026) nennt
+  „Schrott&metalhandel Reinhardt, **Königsseeweg 2, 56651 Oberdürenbach**"; die **Startseite** nennt im Fließtext
+  ebenfalls **„Königsseeweg 2“** (live abgerufen 01.11.2026,
+  https://www.schrottmetallhandelreinhardt.com/) - die Dossier-Adresse, -PLZ und -Ort sind damit über die
+  Betreiberquelle belegt; der **Karten-Widget** derselben Seite schreibt abweichend „**Königseeweg** 2“ (ohne „s“) und
+  setzt `data-location-lat=50.4700891`, `data-location-lng=7.156843` - diese Variante ist als Uneinheitlichkeit der
+  Betreiberseite dokumentiert (in OSM existiert **keine** Straße dieses Namens); das Widget liegt zudem **rund 70 m**
+  vom adressgenau belegten Punkt entfernt. Quelle 2 (OSM): way/659781993 (live abgerufen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/659781993/full.json) trägt `addr:housenumber`=2,
+  `addr:street`=**Königsseeweg**, `addr:city`=Oberdürenbach, `addr:postcode`=56651, `addr:country`=DE und
+  `building`=yes - die Dossier-Adresse ist **adresslich vollständig belegt** (Straße, Hausnummer, PLZ und Ort stimmen
+  überein, die OSM-Schreibweise `addr:street=Königsseeweg` ist exakt die Dossier-Schreibweise); Objekt-BBox
+  50.4694986/7.1572857 bis 50.4696250/7.1573940, der Punkt liegt innerhalb. Qualifizierung: das Objekt trägt **weder
+  `name=` noch `operator=`** (Raster vom 31.10.2026: 0 Objekte mit Bezug zu „Reinhardt“, „Schrott“ oder
+  „Metallrecycling“ auf der Straße), der Betrieb ist in OSM also nicht namentlich kartiert; **alle 16** Adressobjekte
+  der Königsseeweg tragen dieselben Adress-Tags ohne Betriebsbezug. Die bis 31.10.2026 in der Produktionsdatenbank
+  gespeicherte Koordinate (lat 50,4486833 / lon 7,1919) lag rund 3 km südöstlich im Bereich Galenberg/Oberzissen und
+  ist mit dieser adressgenauen OSM-Koordinate **ersetzt**. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/659781993/full.json ;
+  https://www.schrottmetallhandelreinhardt.com/kontakt (live abgerufen 01.11.2026).]

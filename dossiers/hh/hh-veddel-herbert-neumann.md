@@ -1,13 +1,13 @@
 ---
 slug: hh-veddel-herbert-neumann
+lat: 53.5229920
+lon: 10.0457070
 name: Herbert Neumann GmbH
 trader_type: schrotthaendler
 state: HH
 city: Veddel
 street: Peuter Elbdeich 51
 postcode: '20539'
-lat: 53.5229920
-lon: 10.0457070
 phone: ''
 email: ''
 opening_hours: ''
@@ -45,3 +45,25 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Register- und Betreiberstand am 31.10.2026 erneut geprüft — Löschungsankündigung steht weiterhin, aber mit neuem Datum.** Northdata führt die „Herbert Neumann GmbH“ weiterhin mit **EUID DEK1101R.HRB24052**, Anschrift **Peuter Elbdeich 51, 20539 Hamburg**, Gesellschaftszweck „The wholesale trade in goods of all kinds … The recycling of scrap and industrial waste, the operation of a recreational boat storage“; die Firmenhistorie nennt die Fortführung des Einzelunternehmens „Herbert Neumann“ durch die Gesellschaft **mit Wirkung vom 1. Januar 1979**. Unter „Publications“ ist als **jüngster** Eintrag weiterhin der **13. Aug 2026 „Termination announcement“** aufgeführt (davor der letzte **Bilanzabzug für das Geschäftsjahr 31.12.2013 vom 24. Juli 2014**). Damit ist die in der Vorwelle dokumentierte Löschungsankündigung nach § 394 FamFG **nicht als erledigt** belegt; sie wird **nicht** als vollzogene Löschung gewertet und `status` bleibt **pruefung**. Ein **zweiter, unabhängiger Beleg für die Identität** ist nicht gefunden: die Betreiberdomain `schrotthandel-hamburg.de` liefert weiterhin **HTTP 403** (Bot-Sperre) auf Startseite, Impressum und Kontakt; der im Dossier geführte Telefon **040 7804370** (Creditreform) und die E-Mail bleiben daher **unverifiziert** und die Frontmatter-Felder `phone`/`email`/`opening_hours` bleiben **leer**. Quelle(n): https://www.northdata.com/Herbert%20Neumann%20G.m.b.H.,%20Hamburg/Amtsgericht%20Hamburg%20HRB%2024052 (Abruf 31.10.2026) ; https://www.schrotthandel-hamburg.de/ (HTTP 403, Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise: für diesen Betrieb sind weder Ankauf- noch Verkaufspreise noch Gebühren belegt.** ANKAUF: **keine** öffentliche Preisangabe — der Betrieb ist über die Betreiberseite (403) nicht lesbar, und im **amtlichen Register** (Fachbetrieberegister/Register der Entsorgungsfachbetriebe) stehen **keine** Preise; das Register vermerkt ausdrücklich, dass Ankaufspreise für Metall dem Weltmarkt folgen und **in keinem amtlichen Register** stehen. VERKAUF: **keine** öffentliche Verkaufspreisliste. GEBÜHREN: **keine** öffentlichen Annahme-, Container- oder Entsorgungsgebühren belegt. **Nicht** belegt ist damit auch, dass eine Anlieferung an der Anschrift aktuell angenommen wird — der einzige sachbezogene Adressbeleg ist das adresslose OSM-Gebäude way/218366078. Quelle(n): https://www.northdata.com/Herbert%20Neumann%20G.m.b.H.,%20Hamburg/Amtsgericht%20Hamburg%20HRB%2024052 ; https://schrottregister.pages.dev/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Peuter Elbdeich` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=10.0249027,53.5118452,10.0547131,53.5371863**, 9/9 Teilfenster vollständig verfügbar): **20 Adressobjekte / 22 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 51** ist dabei durch way/218366078 (`addr:housenumber=51`, `addr:postcode=20539`, `addr:city=Hamburg`, **weder `name=` noch `operator=`**) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0249027,53.5118452,10.0547131,53.5371863 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate bestätigt (unverändert)**: `lat`/`lon` = **53.5229920/10.0457070** (Mittel der
+  eindeutigen Knoten von way/218366078, innerhalb der Objekt-BBox). Das Objekt wurde am 01.11.2026 **live** geladen
+  (https://api.openstreetmap.org/api/0.6/way/218366078/full.json, HTTP 200) und trägt `addr:housenumber`=51,
+  `addr:street`=Peuter Elbdeich, `addr:city`=Hamburg, `addr:country`=DE, `addr:postcode`=20539, `building`=yes; es hat
+  4 Knotenreferenzen, davon 4 eindeutige, die BBox der eindeutigen Knoten reicht von 53.5229228/10.0455895 bis
+  53.5230611/10.0458245 und umschließt den Mittelwert. Der **bereits im Frontmatter gespeicherte** Wert
+  53.5229920/10.0457070 **stimmt damit exakt** mit dem live geprüften Objekt überein und bleibt unverändert (die
+  Positionsangabe im Frontmatter wurde lediglich direkt hinter `slug:` gezogen). Das Objekt trägt **weder `name` noch
+  `operator`** — der Punkt bezeichnet die belegte Anschrift und keine verifizierte Zufahrt oder Waage; das einzige
+  Objekt der Straße mit `name`/`operator` ist way/674040596 („Euro Logistics“, `addr:housenumber`=53-57), ein **anderer**
+  Betrieb. Quelle 1 (Betreiber/Register): der Registerspiegel Northdata (live abgerufen 01.11.2026, HTTP 200) führt
+  **Herbert Neumann GmbH, Amtsgericht Hamburg HRB 24052, EUID DEK1101R.HRB24052** mit der Anschrift
+  **Peuter Elbdeich 51, 20539 Hamburg** und dem Unternehmensgegenstand „The wholesale trade in goods of all kinds …
+  The recycling of scrap and industrial waste, the operation of a recreational boat storage“ — die im Dossier bereits
+  zitierte Registerquelle bestätigt damit genau die in OSM gefundene Anschrift. Quelle 2 (OSM): way/218366078 (live
+  geladen am 01.11.2026). **Offen und unverändert:** die am 13.08.2026 im Register angekündigte Löschung von Amts wegen
+  nach § 394 FamFG ist **nicht** als erledigt belegt, die Betreiberdomain `schrotthandel-hamburg.de` liefert weiterhin
+  HTTP 403, `phone`/`email`/`opening_hours` bleiben **leer** und `status` bleibt **pruefung** — die Koordinate
+  bezeichnet die registerbestätigte Anschrift, nicht eine belegte aktuelle Annahme.]

@@ -1,5 +1,7 @@
 ---
 slug: st-halberstadt-sms-recycling
+lat: 51.8992175
+lon: 11.0827359
 name: SMS Recycling GmbH & Co.
 trader_type: schrottplatz
 state: ST
@@ -44,3 +46,22 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Betreiber-Primärquelle und Verzeichnis live - Öffnungszeiten weichen ab.** Das Standortverzeichnis des Betreibers (live, HTTP 200) führt **„Schrottplatz Halberstadt, In den langen Stücken 18a, 38820 Halberstadt“**, die Telefonnummern **0 39 41 - 57 01 50** und **0 39 41 - 57 01 51** sowie **Öffnungszeiten Mo. - Fr. 7.00Uhr - 16.00Uhr** und den Text „Als Schrottplatz in Halberstadt sind wir Ihr Partner für den **Ankauf** von Schrott- und Metallabfällen in Halberstadt, den gesamten Kreis Harz und darüber hinaus. **Sie können anliefern oder wir können abholen** – sprechen Sie uns gerne an! Ob alte Waschmaschine oder andere Elektroartikel, Altmetalle, Bauschutt oder Gartenabfälle - wir nehmen Ihren Schrott und recyceln diesen fachgerecht.“ Die Startseite des Betreibers (live, HTTP 200) führt **ISR Recycling GmbH & Co. KG, Hafenstraße 35, 25524 Itzehoe** und in der Standortliste **ISR Halberstadt**. Der 11880-Eintrag (live, HTTP 200, „Oktober 2026 aktualisiert“) führt **„SMS Recycling GmbH & Co.“, In den Langen Stücken 18 A, 38820 Halberstadt**, Telefon **(03941) 570150** - also **dieselbe** Nummer wie beim Betreiber - und nennt als Öffnungszeiten **Montag bis Freitag 07:00–17:00 Uhr**; die **abweichende Verzeichniszeit 17:00 Uhr** wird **nicht** übernommen, maßgeblich bleibt die **Betreiberangabe 07:00–16:00 Uhr**. Quelle(n): http://www.isr-itzehoe.de/index.php/standorte-isr ; https://www.isr-recycling.de/ ; https://www.11880.com/branchenbuch/halberstadt/060441364B54418165/sms-recycling-gmbh-co.html (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **ANKAUF, VERKAUF und GEBÜHREN getrennt.** **ANKAUF:** **keine** bezifferte Ankaufspreisliste; die Download-Seite des Betreibers (live, HTTP 200) führt ausschließlich **AGB, Stammdatenerklärungen und Zertifikate**, **keine** Preisliste. Die Allgemeinen An- und Verkaufsbedingungen der ISR Recycling GmbH & Co. KG (PDF, live abgerufen am 31.10.2026) belegen nur den Mechanismus: „Anderenfalls erfolgt die Berechnung des Kaufpreises nach den **aktuellen und dem Verkäufer bei Vertragsschluss mitzuteilenden Preisen nach Gewicht oder Volumen**“ (Ziffer 3 b), Erfüllungsort ist „der Sitz des Käufers oder dessen das Geschäft abwickelnde **Niederlassung**“ (Ziffer 3 d), und für NE-Metalle gelten die „**Geschäftsbedingungen des Deutschen Metallhandels** in der jeweils gültigen Fassung (Anlage 3)“ (Ziffer 2 d). **VERKAUF:** **keine** Verkaufspreisliste und **keine** bezifferte Rückvergütung. **GEBÜHREN:** **keine** bezifferte Gebühr; die AGB nennen für die Annahme von Entsorgungsgütern lediglich die Berechnung eines „**Entsorgungsentgeltes**“ (Ziffer 3 h) **ohne** jeden Zahlenwert. Kommunale Tarife, Markt- und Börsenpreise sind **nicht** belegt. Quelle(n): https://www.isr-recycling.de/index.php/downloads-isr ; https://www.isr-recycling.de/images/pdf/agb-isr.pdf ; http://www.isr-itzehoe.de/index.php/standorte-isr (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Offene Punkte und Geokodierungsbedarf.** Die Anschrift ist jetzt **objektgenau** in OSM belegt (way/659237012, `addr:housenumber=18A`, `addr:street=In den Langen Stücken`, `addr:postcode=38820`); `street`, `postcode`, `phone` und `opening_hours` bleiben unverändert, `website` und `website_status: aktiv` bleiben unverändert, `email` bleibt **leer** (der Betreiber nennt `info[at]isr-recycling.de`, die Freigabe in das Händler-Frontmatter ist eine Owner-Entscheidung und der Eintrag ist im Verzeichnis unter der Firmierung **SMS Recycling GmbH & Co.** geführt). `status: pruefung` bleibt unverändert, weil die **juristische Kontinuität** der beiden Firmierungen und die Frage eines Doppeleintrags mit dem Schwester-Dossier offen sind. **Geokodierungsbedarf:** der read-only Produktionspunkt 51.8956/11.0562 (Abruf 31.10.2026) liegt rund **1,87 km** vom OSM-Objekt way/659237012 entfernt und ist damit **nicht** die Dossier-Anschrift; als geprüfter Ersatzpunkt kommt der Objektmittelpunkt 51.8992157/11.0827614 in Frage (die rund 5 m entfernte Position des Schwester-Dossiers bestätigt ihn) - die Geokodierung erfolgt **nicht** in dieser Welle. Quelle(n): https://api.openstreetmap.org/api/0.6/way/659237012.json ; read-only `public.db` (31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.8992175/11.0827359** (Mittel der eindeutigen
+  Knoten von way/659237012, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=18A,
+  `addr:street`=In den Langen Stücken, `addr:city`=Halberstadt, `addr:postcode`=38820 und `building`=yes; es hat
+  9 Knotenreferenzen, davon 8 eindeutige (ein doppelter Knoten), die BBox der eindeutigen Knoten reicht von
+  51.8990853/11.0823081 bis 51.8993462/11.0832146 und umschließt den Mittelwert. Das Objekt trägt weder `name` noch
+  `operator`; der Punkt bezeichnet die belegte Anschrift und keine verifizierte Zufahrt oder Waage. Quelle 1
+  (Betreiber): die Standortseite der ISR (live abgerufen am 01.11.2026, HTTP 200) führt **„Schrottplatz Halberstadt,
+  In den langen Stücken 18a, 38820 Halberstadt“** mit der Telefonnummer 0 39 41 - 57 01 50; der 11880-Eintrag zum
+  Standort Halberstadt bestätigt denselben Anschrift-Datensatz **In den Langen Stücken 18 A, 38820 Halberstadt** -
+  beide bestätigen genau die in OSM gefundene Anschrift. Quelle 2 (OSM): way/659237012 (live geladen am
+  01.11.2026, HTTP 200) sowie das Kachelraster um 51.8992175/11.0827359. Der bisher gespeicherte
+  Produktionspunkt 51.8956/11.0562 liegt rund **1,87 km** vom neuen Punkt entfernt und wird durch diesen ersetzt;
+  er war **nicht** die Dossier-Anschrift. Quelle(n):
+  https://www.isr-itzehoe.de/index.php/standorte-isr ;
+  https://www.11880.com/branchenbuch/halberstadt/sms-recycling ;
+  https://api.openstreetmap.org/api/0.6/way/659237012/full.json ; read-only `public.db` (01.11.2026).]

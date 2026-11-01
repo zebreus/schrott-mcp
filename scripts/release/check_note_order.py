@@ -99,11 +99,22 @@ def main() -> int:
         # zulaessige Sektionsart und zaehlen nicht als Wellen-Sektion.
         dated = [h for h in new_sections
                  if DATE_IN_TITLE.search(h) and not h.startswith("Geokodierung")]
+        geo = [h for h in new_sections if h.startswith("Geokodierung")]
         undated = [h for h in new_sections if not DATE_IN_TITLE.search(h)]
         if undated:
             problems.append(f"{rel}: neue Sektion ohne Datum im Titel: {undated}")
         has_new_notes = len(new_notes) > len(old_notes)
-        if has_new_notes and len(dated) != 1:
+        if has_new_notes and not dated:
+            # Reine Geokodierungs-Welle: die neuen Notizen liegen in genau einem
+            # neuen Geokodierungs-Abschnitt, der die letzte Sektion sein muss.
+            # Steckt eine neue Notiz in einer bereits bestehenden Sektion, gibt
+            # es weiterhin keine neue Wellen-Sektion - das bleibt ein Fehler.
+            if len(geo) != 1:
+                problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
+                                f"(erwartet: genau 1)")
+            elif heads and heads[-1] != geo[-1]:
+                problems.append(f"{rel}: die Geokodierungs-Sektion ist nicht die letzte Sektion")
+        elif has_new_notes and len(dated) != 1:
             problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
                             f"(erwartet: genau 1)")
         # Nach der Wellen-Sektion darf eine Geokodierungs-Sektion folgen.

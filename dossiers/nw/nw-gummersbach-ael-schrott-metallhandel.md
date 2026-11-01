@@ -1,5 +1,7 @@
 ---
 slug: nw-gummersbach-ael-schrott-metallhandel
+lat: 50.9896440
+lon: 7.5561812
 name: AEL Schrott & Metallhandel GmbH
 trader_type: metallhaendler
 state: NW
@@ -43,3 +45,23 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Registerbefund neu - die Dossier-Angabe „kein HRB verifizierbar“ ist überholt.** North Data (Registerspiegel, live abgerufen am 31.10.2026, HTTP 200) führt **„AEL Schrott & Metallhandel GmbH“ (zuvor „AEL Schrott & Metallhandel UG“)**, **Amtsgericht Köln HRB 87502**, **EUID DER3306.HRB87502**, Adresse **Vollmerhauser Str. 45 b, D-51645 Gummersbach**, Unternehmensgegenstand **„Der Handel mit Schrott und Metall.“** Damit ist die Rechtsträgeridentität über einen Registerspiegel belegt; die **amtliche** Verifikation im gemeinsamen Registerportal steht weiterhin aus. **Abrufhinweis (31.10.2026):** die North-Data-Seiten wurden im Verlauf dieser Recherche live mit **HTTP 200** gelesen; eine erneute Kontrolle am selben Nachmittag lieferte **HTTP 429** (Drosselung durch die eigene Abrufdichte) - die Quelle ist damit **nicht** tot, aber derzeit nicht abrufbar. Das Verzeichnis (Das Örtliche, live HTTP 200) führt unverändert **„AEL Schrott & Metallhandel GmbH, Vollmerhauser Str. 45 b, 51645 Gummersbach - Vollmerhausen“, Telefon 02261 9 12 34 85**, Branchenangabe „Metallwaren“ und die Website **http://ael-schrotthandel.de/** - die **Domain ist tot**: für `ael-schrotthandel.de` existiert am 31.10.2026 **kein A-Record** (DNS ohne Treffer, Direktabruf nicht möglich), `website` bleibt deshalb **leer**. **Gesperrte Quelle:** der Creditreform-Firmeneintrag liefert **HTTP 403** (Bot-Sperre) und wird nicht als geprüfter Beleg gewertet. Quelle(n): https://www.northdata.de/AEL+Schrott+%26+Metallhandel+GmbH,+Gummersbach/Amtsgericht+K%C3%B6ln+HRB+87502 ; https://www.dasoertliche.de/Themen/AEL-Schrott-Metallhandel-GmbH-Gummersbach-Vollmerhausen-Vollmerhauser-Str (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise und Gebühren getrennt - keine Zahlenwerte belegt.** **ANKAUF:** **keine** Ankaufspreisliste, **keine** Sortenliste und **kein** Preisrechner auffindbar; die verfügbaren Quellen belegen den Handelsgegenstand „Schrott und Metall“, aber **keinen** Zahlenwert. **VERKAUF:** **keine** Verkaufspreise und **keine** Verkaufsliste. **GEBÜHREN:** **keine** Abholpauschale, **keine** Annahmegebühr, **keine** Entsorgungsgebührenordnung. Kommunale Tarife, Markt- und Börsenpreise sind **nicht** belegt und werden nicht behauptet. Quelle(n): https://www.northdata.de/AEL+Schrott+%26+Metallhandel+GmbH,+Gummersbach/Amtsgericht+K%C3%B6ln+HRB+87502 ; https://www.dasoertliche.de/Themen/AEL-Schrott-Metallhandel-GmbH-Gummersbach-Vollmerhausen-Vollmerhauser-Str (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Offene Punkte und Geokodierungsbedarf.** Die Anschrift ist jetzt dreifach belegt (Registerspiegel, Verzeichnis, OSM-Adressobjekt way/316811763 mit `addr:housenumber=45b`); `street`, `postcode` und `phone` bleiben unverändert, `website` bleibt **leer** (Domain ohne A-Record), `email` und `opening_hours` bleiben **leer** - die im Verzeichnis genannten Öffnungszeiten Montag bis Freitag 08:00–17:00 Uhr und Samstag 08:00–12:00 Uhr sind **Verzeichnisangaben** ohne Betreiberbestätigung. `status: pruefung` bleibt unverändert, weil die **amtliche** Registerverifikation und ein Betreiber- oder Impressumbeleg fehlen. **Geokodierungsbedarf:** der read-only Produktionspunkt 51.0160667/7.5639 (Abruf 31.10.2026) liegt rund **2,99 km** vom OSM-Objekt way/316811763 (Punktlage 50.9896359/7.5562055) entfernt und ist damit **nicht** die Hausnummer 45 b; die Geokodierung erfolgt **nicht** in dieser Welle. Quelle(n): https://api.openstreetmap.org/api/0.6/way/316811763.json ; read-only `public.db` (31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.9896440/7.5561812** (Mittel der eindeutigen
+  Knoten von way/316811763, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=45b,
+  `addr:street`=Vollmerhauser Straße, `addr:city`=Gummersbach, `addr:postcode`=51645 und `building`=yes; es hat
+  9 Knotenreferenzen, davon 8 eindeutige (ein doppelter Knoten), die BBox der eindeutigen Knoten reicht von
+  50.9895164/7.5559181 bis 50.9898324/7.5563997 und umschließt den Mittelwert. Das Objekt trägt weder `name` noch
+  `operator`; der Punkt bezeichnet die belegte Anschrift und keine verifizierte Zufahrt oder Waage. Quelle 1
+  (Betreiber/Register): North Data (Registerspiegel, live abgerufen am 01.11.2026, HTTP 200) führt die
+  „AEL Schrott & Metallhandel GmbH“, **Amtsgericht Köln HRB 87502**, mit der Anschrift **Vollmerhauser Str. 45 b,
+  D-51645 Gummersbach** und dem im Frontmatter bereits zitierten Gegenstand „Der Handel mit Schrott und Metall“;
+  das Verzeichnis „Das Örtliche“ (live abgerufen am 01.11.2026, HTTP 200) führt denselben Betrieb unter derselben
+  Anschrift **Vollmerhauser Str. 45 b, 51645 Gummersbach** mit der Telefonnummer 02261 9123485 - beide bestätigen
+  genau die in OSM gefundene Anschrift. Quelle 2 (OSM): way/316811763 (live geladen am 01.11.2026, HTTP 200) sowie
+  das Kachelraster 7.5400/50.9850 bis 7.5700/50.9950. Der bisher gespeicherte Produktionspunkt 51.0160667/7.5639
+  liegt rund **2,99 km** vom neuen Punkt entfernt und wird durch diesen ersetzt; er war **nicht** die Hausnummer 45 b.
+  Quelle(n): https://www.northdata.de/AEL%20Schrott%20%26%20Metallhandel%20GmbH,%20Gummersbach/Amtsgericht%20K%C3%B6ln%20HRB%2087502 ;
+  https://www.dasoertliche.de/Themen/AEL-Schrott-Metallhandel-GmbH-Gummersbach-Vollmerhausen-Vollmerhauser-Str ;
+  https://api.openstreetmap.org/api/0.6/way/316811763/full.json ; read-only `public.db` (01.11.2026).]

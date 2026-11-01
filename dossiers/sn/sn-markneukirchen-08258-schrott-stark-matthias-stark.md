@@ -1,5 +1,7 @@
 ---
 slug: sn-markneukirchen-08258-schrott-stark-matthias-stark
+lat: 50.3086237
+lon: 12.3009366
 name: Schrott-Stark e.K. (Matthias Stark)
 trader_type: schrotthaendler
 state: SN
@@ -46,3 +48,28 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Betriebliche Eckdaten aus dem Portal-Payload belegt.** Die Startseite nennt: „Das Unternehmen **Schrott - Stark** wurde zum **01.08.1990** mit der Genehmigung des **RP Chemnitz** zum **Transportieren, Lagern und Verwerten von Abfällen** gegründet“; „über **34.000 qm Betriebsgelände**“, „Über **800 Container von 1,5 cbm bis 40 cbm**“, „Es werden im Jahr ca. **35.000 t Abfälle** umgeschlagen“, „Im Unternehmen sind fast **30 fachkundige Mitarbeiter** tätig“ und „In unserer eigenen **Kompostieranlage** werden Grüngut, Grünschnitt und Gartenabfällen zu hochwertiger **Komposterde** verarbeitet“. Der **Standortbereich** nennt „**Öffnungszeiten April - Oktober**“ und „**Öffnungszeiten November - März**“ mit den Zeitangaben „**7:00 - 12:15 Uhr / 9:00 - 12:00 Uhr / 12:45-17:00 Uhr / 12:45-18:00 Uhr**“ und den Hinweisen „**Tägliche Annahme bis 15 Minuten vor der Schließung!**“ sowie „**Abholung von Schrott**“ mit „**Aufträge sind ausschließlich über unser Büro und nicht bei unseren Fahrern zu erteilen**“ und der Vorlauf-Regel „**mindestens 1 bis 2 Arbeitstage** vor dem gewünschten Termin“. `opening_hours` bleibt dennoch **leer**, weil die Zuordnung der **vier** Zeitangaben zu den **vier Wochentagsgruppen** (Montag bis Freitag) im Payload **nicht eindeutig** auflösbar ist — das ist die dokumentierte **Rest-Unklarheit**. Quelle(n): https://schrott-stark.de (Payload der Startseite, live abgerufen) (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Zum Schrottplatz` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=12.2941458,50.2987172,12.3146311,50.3194743**, 9/9 Teilfenster vollständig verfügbar): **1 Adressobjekte / 1 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 1** ist dabei durch way/457657893 (`addr:housenumber=1`, `addr:postcode=08258`, `addr:city=Markneukirchen`, **weder `name=` noch `operator=`**) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.2941458,50.2987172,12.3146311,50.3194743 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
 - [Korrektur 31.10.2026: **Frontmatter ergänzt — `city` präzisiert und `email` erstmals gesetzt.** `city` stand als „Markneukirchen 08258“ und ist jetzt **„Markneukirchen OT Siebenbrunn“** — die Schreibweise ist durch die AGB des Betreiberportals und durch OSM belegt: way/457657893 mit `addr:housenumber=1`, `addr:street=Zum Schrottplatz`, `addr:city=Markneukirchen`, `addr:postcode=08258` und `addr:suburb=Siebenbrunn`. `email` ist von leer auf **info@schrott-stark.de** gesetzt; `postcode` (08258) und `phone` (037422 40390, um die Fax 037422 403929 ergänzt) waren bereits belegt und bleiben unverändert. Quelle(n): https://www.schrott-stark.de/ ; https://api.openstreetmap.org/api/0.6/way/457657893.json (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **50.3086237/12.3009366** (Mittel der eindeutigen
+  Knoten von way/457657893, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Die **AGB und Annahmebedingungen** des
+  Betreiberportals (https://schrott-stark.de, live abgerufen 01.11.2026) sind mit dem Titel „**Allgemeine
+  Geschäftsbedingungen Einkauf/Verkauf der Firma Schrott-Stark e.K., Zum Schrottplatz 1 in 08258 Markneukirchen OT
+  Siebenbrunn**“ enthalten und nennen als Anbieter „**Schrott-Stark e.K., Inhaber Matthias Stark, Zum Schrottplatz 1,
+  08258 Markneukirchen OT Siebenbrunn, Tel. +4937422 40390, Fax. +4937422 403929 und E-Mail: info@schrott-stark.de**“;
+  das **Telefonbuch/Firmania** ist kongruent - Dossier-Adresse, -PLZ, -Ortsteil und -Telefonnummer sind damit über die
+  Betreiberquelle belegt. Quelle 2 (OSM): way/457657893 (live abgerufen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/457657893/full.json) trägt `addr:housenumber`=1,
+  `addr:street`=**Zum Schrottplatz**, `addr:city`=Markneukirchen, `addr:country`=DE, `addr:postcode`=08258,
+  `addr:suburb`=**Siebenbrunn** und `building`=yes - die Dossier-Adresse ist damit **adresslich vollständig belegt**,
+  einschließlich des im Dossier geführten Ortsteils **Siebenbrunn**; Objekt-BBox 50.3085452/12.3004365 bis
+  50.3087108/12.3011529, der Punkt liegt innerhalb. **Positiver Betriebsbeleg:** way/796926981 mit `name`=**Schrott
+  Stark** und `landuse`=commercial (live abgerufen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/796926981/full.json) ist die Flächenkennung des Betriebsgeländes; **alle 8
+  Knoten des Adressgebäudes way/457657893 liegen innerhalb dieses Polygons** (Punkt-in-Polygon-Prüfung), das
+  Betriebsgelände umschließt die Dossier-Adresse also räumlich - der Betrieb ist in OSM also namentlich kartiert.
+  Qualifizierung: das Adressobjekt selbst trägt **weder `name=` noch `operator=`**; der einzige weitere thematische
+  Treffer im Raster, node/7071971434 mit `amenity`=recycling und `operator`=Kreisentsorgungs GmbH Vogtland (KEV), ist
+  ein **Textilsammelcontainer der Kreisentsorgung** und **kein** Konkurrent des Betriebs. `status` bleibt unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/457657893/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/796926981/full.json ; https://schrott-stark.de (live abgerufen 01.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: nw-koln-ehrenfeld-altraucher
+lat: 50.9485228
+lon: 6.9211991
 name: Alträucher GmbH
 trader_type: schrotthaendler
 state: NW
@@ -49,3 +51,24 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **ANKAUF, VERKAUF und GEBÜHREN getrennt.** **ANKAUF:** **keine** bezifferte Ankauf- oder Sortenpreisliste; die Metallankauf-Seite der Zielseite nennt nur den Preismechanismus („zu **Tageshöchstpreisen**“, „Wir wiegen vor Ort in Ihrem Beisein aus und nehmen eine Materialbewertung vor. Den errechneten Betrag zahlen wir sofort aus. Das Ganze geht schon ab einem **Kilogramm** angeliefertem Material“) und **keinen** Zahlenwert. **VERKAUF:** **keine** Verkaufspreise und **keine** bezifferte Rückvergütung; die im 11880-Eintrag genannte **Wertanrechnung** ist eine **Zahlungsart** (Abrechnung in Wertguthaben), **kein** Preis und **keine** Gebühr. **GEBÜHREN:** **keine** bezifferte Betreibergebühr, **kein** Kassenentgelt, **keine** Annahmegebühr; Containerdienst und Kleinbehälter werden **ohne** Preisangabe genannt. Kommunale Tarife, Markt- und Börsenpreise sind **nicht** Gegenstand dieser Quelle. Quelle(n): https://www.hoelzer-abbruch.de/metallankauf/ ; https://www.11880.com/branchenbuch/koeln/060441364B1171011/altraeucher-gmbh.html (Abruf 31.10.2026).]
 - [Korrektur 31.10.2026: **`website_status` von `aktiv` auf `tot` korrigiert.** Die Dossier-Website `https://www.containerdienst-koeln.de/` antwortet am 31.10.2026 mit **HTTP 301** auf `https://www.hoelzer-abbruch.de/entruempelung-und-wohnungsraeumung/`; die **originäre** Seite der Alträucher GmbH existiert dort **nicht mehr** und der Name „Alträucher“ kommt auf der Zielseite **nicht** vor - das ist **kein** Bot-Block (der Abruf liefert HTTP 200), sondern eine **Firmen- bzw. Domainnachfolge**. `website` bleibt als dokumentierte Dossier-URL unverändert (`https://containerdienst-koeln.de`), `status: aktiv` bleibt unverändert, weil der Verzeichniseintrag die Alträucher GmbH weiterhin mit Adresse, Telefon und Öffnungszeiten führt und der Standort **nicht** als geschlossen belegt ist. Die Vorwellen-Notiz vom 02.10.2026 (Kompass-Beleg, Website-Bot-Schutz) bleibt **wortgleich** stehen. Quelle(n): https://containerdienst-koeln.de/ (HTTP 301, Abruf 31.10.2026) ; https://www.hoelzer-abbruch.de/entruempelung-und-wohnungsraeumung/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Offene Punkte und Geokodierungsbedarf.** Die Anschrift Wahlenstr. 10 ist jetzt **objektgenau** belegt (OSM way/122247051, `addr:postcode=50823`, `addr:city=Köln`, `building:use=residential;industrial`) und durch 11880 und wlw gedeckt; ob die **Alträucher GmbH** selbst noch dort tätig ist, ist **nicht** belegt - der Domainbetreiber ist die Hölzer GmbH, und die Abfallannahmestelle der REMONDIS-Gruppe liegt an anderer Anschrift. Offen bleiben: die Identität der Alträucher GmbH (kein Registerbeleg in dieser Welle), die Fortführung des Betriebs an der Wahlenstraße und die Zuordnung von `email` (im 11880-Eintrag maskiert). **Geokodierungsbedarf:** der read-only Produktionspunkt 50.94036444444445/6.960577777777778 (Abruf 31.10.2026) liegt rund **2,91 km** vom OSM-Objekt way/122247051 (Punktlage 50.9485307/6.9211859) entfernt und damit **nicht** an der Dossier-Adresse - er ist zu ersetzen; eine Geokodierung erfolgt **nicht** in dieser Welle. Quelle(n): https://api.openstreetmap.org/api/0.6/way/122247051.json ; read-only `public.db` (31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.9485228/6.9211991** (Mittel der eindeutigen
+  Knoten von way/122247051, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=10,
+  `addr:street`=Wahlenstraße, `addr:city`=Köln, `addr:postcode`=50823 sowie `building`=apartments und
+  `building:use`=residential;industrial; es hat 8 Knotenreferenzen, davon 7 eindeutige (ein doppelter Knoten), die
+  BBox der eindeutigen Knoten reicht von 50.9484712/6.9210508 bis 50.9485864/6.9213593 und umschließt den
+  Mittelwert. Das Objekt trägt weder `name` noch `operator`; der Punkt bezeichnet die belegte Anschrift und keine
+  verifizierte Zufahrt oder Waage. Quelle 1 (Betreiber): der 11880-Eintrag zur „Alträucher GmbH“ (live abgerufen am
+  01.11.2026, HTTP 200) nennt „Entsorgung & Haushaltsauflösung“, die Anschrift **Wahlenstr. 10, 50823 Köln (Ehrenfeld)**
+  und die Telefonnummer **0221 512246**; die im Frontmatter zitierte wlw-Belegkette führt denselben Registerstand
+  (ALTRÄUCHER Gebrauchtwaren GmbH, AG Köln HRB 23916, Wahlenstr. 10) - beide bestätigen die in OSM gefundene
+  Anschrift. **Zusätzliche Bestätigung:** das im 11880-Eintrag als strukturierte Daten mitgeführte Geo-Objekt des
+  Verzeichnisses (`GeoCoordinates` longitude 6.921162, latitude 50.948531) liegt nur **3 m** vom Mittelwert des
+  OSM-Objekts entfernt - Verzeichnis- und OSM-Objekt bezeichnen dieselbe Liegenschaft. Quelle 2 (OSM):
+  way/122247051 (live geladen am 01.11.2026, HTTP 200). Der bisher gespeicherte Produktionspunkt
+  50.94036444444445/6.960577777777778 liegt rund **2,90 km** vom neuen Punkt entfernt und wird durch diesen ersetzt;
+  er war **nicht** die Dossier-Adresse. Quelle(n):
+  https://www.11880.com/branchenbuch/koeln/060441364B1171011/altraeucher-gmbh.html ;
+  https://api.openstreetmap.org/api/0.6/way/122247051/full.json ; read-only `public.db` (01.11.2026).]

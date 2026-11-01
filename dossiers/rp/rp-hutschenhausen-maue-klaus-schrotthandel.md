@@ -1,5 +1,7 @@
 ---
 slug: rp-hutschenhausen-maue-klaus-schrotthandel
+lat: 49.4179055
+lon: 7.4687040
 name: Maue Klaus Schrotthandel
 trader_type: schrotthaendler
 state: RP
@@ -40,3 +42,27 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 31.10.2026: `postcode` (**66882**) und `phone` (**0172 6842580**) erstmals gefüllt, `street` auf **„Hauptstr. 153A“** bestätigt. Beide Felder sind **dreifach** belegt: Schrottplatz-Info („Hauptstr. 153A, 66882 Hütschenhausen“, Tel. 0172 6 84 25 80), schrottplatz.org („Hauptstr. 153A, 66882 Hütschenhausen“, „0172 6 84 25 80“) und Das Örtliche („Maue Klaus Schrotthandel, Schrott, Hauptstr. 153 A, 66882 Hütschenhausen, Tel. 0172 6 84 25 80“). **Abgrenzung**: Das Örtliche führt daneben „**Maue Jürgen**“ an **Hauptstr. 153** mit eigener Nummer — zwei verschiedene Personen an benachbarten Nummern, in OSM entsprechend zwei getrennte Adressobjekte `153` (way/1100935820) und `153a` (way/417629751). `status` bleibt **pruefung**: es gibt keine Betreiberseite, keinen Registereintrag und kein Zertifikat; das Dossier ist nur über drei Verzeichnisse belegt. Quelle(n): https://www.schrottplatz-info.de/schrottplatz/Huetschenhausen/Maue-Klaus-Schrotthandel ; https://www.schrottplatz.org/huetschenhausen/schrott-maue-klaus-schrotthandel-aYEPNe.html ; https://www.dasoertliche.de/?form_name=search_nat&kw=Maue&ci=H%C3%BCtschenhausen ; https://api.openstreetmap.org/api/0.6/way/417629751.json (Abruf 31.10.2026)]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Hauptstraße` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=7.4507466,49.4068700,7.5012282,49.4320693**, 18/18 Teilfenster vollständig verfügbar): **246 Adressobjekte / 245 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 153A** ist dabei durch way/417629751 (`addr:housenumber=153a`, `addr:postcode=66882`, `addr:city=Hütschenhausen`, **weder `name=` noch `operator=`**) belegt. (Schreibweise in OSM: „153a“ — im Dossier abweichend geschrieben.) Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4507466,49.4068700,7.5012282,49.4320693 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **49.4179055/7.4687040** (Mittel der eindeutigen
+  Knoten von way/417629751, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Die **Verzeichnisquelle Schrottplatz-Info**
+  (https://www.schrottplatz-info.de/schrottplatz/Huetschenhausen/Maue-Klaus-Schrotthandel, live abgerufen 01.11.2026)
+  nennt **„Schrott Maue Klaus Schrotthandel“** mit „Adresse: **Hauptstr. 153A, 66882 Hütschenhausen**“ und „Telefon:
+  **0172 6 84 25 80**“; der **Zweitbeleg schrottplatz.org**
+  (https://www.schrottplatz.org/huetschenhausen/schrott-maue-klaus-schrotthandel-aYEPNe.html, live abgerufen 01.11.2026)
+  nennt dieselbe Anschrift **Hauptstr. 153A, 66882 Hütschenhausen**, dieselbe Rufnummer **0172 6 84 25 80** und die
+  Branchenangabe **„Schrotthandel“/„Schrottplatz“** - Dossier-Adresse, -PLZ und -Telefonnummer sind damit belegt;
+  ein **Betriebsauftritt mit Impressum oder Registerauszug** existiert nicht (das Dossier bleibt deshalb `pruefung`,
+  `website` bleibt leer). Quelle 2 (OSM): way/417629751 (live abgerufen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/417629751/full.json) trägt `addr:housenumber`=**153a**,
+  `addr:street`=Hauptstraße, `addr:city`=Hütschenhausen, `addr:postcode`=66882, `addr:country`=DE und `building`=yes -
+  die Dossier-Hausnummer **153A** liegt in OSM in der **Kleinbuchstaben-Notation „153a“** auf dieser Straße; Objekt-BBox
+  49.4178191/7.4685756 bis 49.4179949/7.4687763, der Punkt liegt innerhalb. Qualifizierung: das Objekt trägt **weder
+  `name=` noch `operator=`** (Raster vom 31.10.2026: 0 Objekte mit Bezug zu „Maue“ oder einem Schrottbetrieb auf der
+  Straße; der einzige thematische Treffer, node/3085175533, ist eine kommunale Grünabfallsammelstelle des
+  Landkreises Kaiserslautern und **kein** Schrottplatz), der Betrieb ist in OSM also nicht namentlich kartiert; das
+  Nachbarobjekt way/1100935820 trägt die Nummer **153** ohne Buchstaben und gehört damit **nicht** zur Dossier-Adresse.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/417629751/full.json ;
+  https://www.schrottplatz-info.de/schrottplatz/Huetschenhausen/Maue-Klaus-Schrotthandel ;
+  https://www.schrottplatz.org/huetschenhausen/schrott-maue-klaus-schrotthandel-aYEPNe.html (live abgerufen 01.11.2026).]
