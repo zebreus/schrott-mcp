@@ -8,7 +8,7 @@
 > `https://www.wittmann-recycling.de` → `ittmann-recycling.de`, `https://wil-ro.de` → `il-ro.de`,
 > `https://www.weli-stahl.de` → `eli-stahl.de`. Daraus folgten 13 vermeintlich „tote“ Domains.
 > **Live nachgeprüft (DNS + HTTP, beide Hostformen): alle diese Domains sind erreichbar** —
-> einzige Ausnahme ist `rm-schrotthandel.de` (wirklich NXDOMAIN). Die Abschnitte **B.4** und
+> einzige Ausnahme ist `rm-schrotthandel.de`: der Apex ist **delegiert** (NS `hydrogen.ns.hetzner.com`, `helium.ns.hetzner.de`, `oxygen.ns.hetzner.com`), hat aber **keinen A-/AAAA-Record** (NOERROR/NODATA, „No address associated with hostname“); `www.rm-schrotthandel.de` ist echtes NXDOMAIN. Die Domain hat damit **keine erreichbare Website**. Die Abschnitte **B.4** und
 > **D.4** sind daher in diesem Punkt **überholt**: aus einer toten Domain darf kein
 > `website_status: tot` abgeleitet werden. Die Wellen-Recherche 01.11. 06:00 hat die Korrektur
 > bestätigt und die betroffenen Dossiers mit der belegten Negativaussage dokumentiert
