@@ -6,7 +6,7 @@ state: TH
 city: Gotha
 street: Gleichenstr. 36
 postcode: '99867'
-phone: +49 (0) 3621 3394851
+phone: '03621 3394851'
 email: info@msg-metallrecycling.de
 opening_hours: Mo-Fr 8:00-16:00, Sa/So geschlossen
 website: https://www.msg-metallrecycling.de/
@@ -32,3 +32,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallschrott aller Art, Sondermetalle (In, Ir, Co, Mo, Nb, Ta, W), Edelmetalle, Container
 - Adressbeleg: https://www.msg-metallrecycling.de/
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 3621 3394851`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `03621 3394851` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]

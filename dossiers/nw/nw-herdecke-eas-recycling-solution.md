@@ -6,7 +6,7 @@ state: NW
 city: Herdecke
 street: Ostender Weg 12A
 postcode: '58313'
-phone: +49 (0) 2330 / 910 7023
+phone: '02330 9107023'
 email: ''
 opening_hours: Mo-Fr 8:00-18:00
 website: https://www.eas-recycling.de/
@@ -71,3 +71,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   https://www.eas-recycling.de/impressum/ ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4150,51.4050,7.4600,51.4350 ;
   https://api.openstreetmap.org/api/0.6/way/102343879/full.json ; read-only `public.db` (01.11.2026).]
+
+### Korrektur 01.11.2026
+
+- [Korrektur 01.11.2026: **Telefonnummer in die wählbare Inlandform überführt**: Das Frontmatter führte die Nummer in der gedruckten Auslands-Notation `+49 (0) 2330 / 910 7023`; die Notation `(0)` ist international **nicht wählbar** (die Null ist bereits in der Vorwahl enthalten). Der Wert ist jetzt `02330 9107023` — Vorwahl und Teilnehmer durch ein Leerzeichen getrennt, ohne Länderpräfix, mit der inlandüblichen führenden Null. Die Ziffernfolge selbst ist **unverändert**; die Belegquelle steht im Dossier.]
