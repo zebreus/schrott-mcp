@@ -59,6 +59,25 @@ def timeline_notes(text: str):
     return ["\n".join(b) for b in blocks]
 
 
+def notes_by_section(text: str):
+    """Die Timeline-Notizen je Sektion ("### ..."), Reihenfolge wie im Dokument."""
+    result = defaultdict(list)
+    current = None
+    in_timeline = False
+    for line in text.split("\n"):
+        if line.strip() == "## Timeline":
+            in_timeline = True
+            continue
+        if not in_timeline:
+            continue
+        if line.startswith("### "):
+            current = line[4:].strip()
+            continue
+        if line.startswith("- "):
+            result[current].append(line)
+    return result
+
+
 def normalise(note: str):
     note = re.sub(r"https?://\S+", "", note)
     note = re.sub(r"\(Quelle\(n\).*", "", note, flags=re.S)
@@ -114,6 +133,17 @@ def main() -> int:
                                 f"(erwartet: genau 1)")
             elif heads and heads[-1] != geo[-1]:
                 problems.append(f"{rel}: die Geokodierungs-Sektion ist nicht die letzte Sektion")
+            else:
+                # Die neue Sektion muss die neuen Notizen auch wirklich
+                # enthalten - eine leere Sektion neben einer neuen Notiz in
+                # einer bestehenden Sektion ist keine gueltige Welle.
+                by_section = notes_by_section(new)
+                in_geo = set(by_section.get(geo[-1], []))
+                outside = [n for n in new_notes[len(old_notes):]
+                           if n.split("\n")[0] not in in_geo]
+                if outside:
+                    problems.append(f"{rel}: {len(outside)} neue Notiz(en) liegen nicht in der "
+                                    f"Geokodierungs-Sektion")
         elif has_new_notes and len(dated) != 1:
             problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
                             f"(erwartet: genau 1)")
@@ -123,6 +153,15 @@ def main() -> int:
             tail_ok = all(h.startswith("Geokodierung") for h in heads[heads.index(dated[-1]) + 1:])
         if dated and heads and heads[-1] != dated[-1] and not tail_ok:
             problems.append(f"{rel}: die Wellen-Sektion ist nicht die letzte Sektion")
+        # Eine Geokodierungs-Sektion gehoert **nach** der Wellen-Sektion: sie
+        # dokumentiert das, was die Wellen-Recherche geokoordiniert hat.
+        if dated and geo and heads:
+            wave_at = heads.index(dated[-1])
+            for g in geo:
+                if g in heads and heads.index(g) < wave_at:
+                    problems.append(f"{rel}: die Geokodierungs-Sektion steht vor der "
+                                    f"Wellen-Sektion")
+                    break
 
         counts = defaultdict(int)
         for note in new_notes:
