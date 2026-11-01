@@ -1,5 +1,7 @@
 ---
 slug: sn-gersdorf-metall-und-kabelrecycling-reichel
+lat: 50.7692095
+lon: 12.7001777
 name: Metall- und Kabelrecycling Reichel GmbH
 trader_type: sonstige
 state: SN
@@ -52,3 +54,28 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 31.10.2026: **Geokodierungsbedarf bestätigt — die Koordinate im Produktionsbestand zeigt auf den falschen Ort.** Die Produktionsdatenbank führt **lat 50,9311 / lon 12,8278**; das ist der Bereich **Taura/Markersdorf** (Postcode 09236), rund **20 km nordöstlich** der Gemeinde Gersdorf. Gersdorf (09355) liegt bei **50,7597/12,7083** (Wikipedia-Koordinaten der Gemeinde); die OSM-Adresse `addr:city=Gersdorf`, `addr:postcode=09355`, `addr:street` gleich „Hauptstraße“, `addr:housenumber=102c` (way/494205028) liegt genau dort. Die **Hausnummer 102c existiert in OSM** und ist **adresslich vollständig belegt** (Straße, Hausnummer, PLZ, Ort stimmen überein); das Objekt trägt **weder `name=` noch `operator=`** — ein Objekt, das den eigenen Betrieb nennt, gibt es dort **nicht**; der Nachbar way/494205029 mit `addr:housenumber=102a` trägt `name=Metallbau Maltitz` (anderer Betrieb). Der GEO-Punkt des Datensatzes ist damit **neu zu setzen**; die Dossier-Adresse selbst wird **nicht** geändert. `email` und `opening_hours` bleiben **leer** (Archivstand 2024/2025 bei toter Live-Domain; Gelbe Seiten und Archiv widersprechen sich beim Freitag). Quelle(n): https://de.wikipedia.org/wiki/Gersdorf ; https://api.openstreetmap.org/api/0.6/way/494205028.json ; https://api.openstreetmap.org/api/0.6/way/494205029.json ; read-only `public.db` (Abruf 31.10.2026)]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Hauptstraße` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=12.6890315,50.7312911,12.7412613,50.7886976**, 36/36 Teilfenster vollständig verfügbar): **383 Adressobjekte / 370 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 102c** ist dabei durch way/494205028 (`addr:housenumber=102c`, `addr:postcode=09355`, `addr:city=Gersdorf`, **weder `name=` noch `operator=`**) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.6890315,50.7312911,12.7412613,50.7886976 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **50.7692095/12.7001777** (Mittel der eindeutigen
+  Knoten von way/494205028, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Das **archivierte Betreiber-Impressum**
+  der Betreiber-Domain (http://www.mkr-gersdorf.de/ ; Archivstände vom 30.03.2023 und 25.08.2024, live abgerufen
+  01.11.2026, https://web.archive.org/web/20230330020112/http://www.mkr-gersdorf.de/impressum.html ;
+  https://web.archive.org/web/20240825194636/http://www.mkr-gersdorf.de/) nennt **Metall- & Kabelrecycling GmbH**,
+  **Hauptstraße 102c, 09355 Gersdorf**, **HRB 18223**; das **Branchenverzeichnis** (Gelbe Seiten, live abgerufen
+  01.11.2026, https://www.gelbeseiten.de/gsbiz/1eea90c2-ac76-407d-8f1f-6450ee1348cc) bestätigt „Schrott Metall- und
+  Kabelrecycling Reichel GmbH, **Hauptstr. 102C, 09355 Gersdorf, Tel. 037203 657-0**“ - Dossier-Adresse, -PLZ und
+  -Telefonnummer sind damit belegt (die Dossier-Hausnummer ist im Betreiber-Impressum in **Kleinbuchstaben** „102c“
+  geschrieben, im Verzeichnis in **Großbuchstaben** „102C“). Quelle 2 (OSM): way/494205028 (live abgerufen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/494205028/full.json) trägt `addr:housenumber`=**102c**,
+  `addr:street`=Hauptstraße, `addr:city`=Gersdorf, `addr:country`=DE, `addr:postcode`=09355 und `building`=yes - die
+  Dossier-Hausummer **102c** ist damit objektgenau belegt; Objekt-BBox 50.7690166/12.7000455 bis 50.7693740/12.7004339,
+  der Punkt liegt innerhalb. Qualifizierung: das Objekt trägt **weder `name=` noch `operator=`**; der unmittelbar
+  benachbarte way/494205029 mit `addr:housenumber`=102a, `building`=commercial und `name`=**Metallbau Maltitz** ist ein
+  **anderer Betrieb** (Metallbau, nicht Metall- & Kabelrecycling) und wird **nicht** als Betriebsbeleg verwendet; ein
+  Objekt, das **den eigenen Betrieb** nennt, existiert an der Dossier-Adresse **nicht**. `website_status` **blockiert**
+  (die Betreiber-Domain liefert aktuell HTTP 423 Locked) und `status` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/494205028/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/494205029/full.json ;
+  https://web.archive.org/web/20230330020112/http://www.mkr-gersdorf.de/impressum.html ;
+  https://www.gelbeseiten.de/gsbiz/1eea90c2-ac76-407d-8f1f-6450ee1348cc (live abgerufen 01.11.2026).]

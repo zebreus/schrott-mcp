@@ -1,5 +1,7 @@
 ---
 slug: rp-landau-76829-tkm-materialveredelung
+lat: 49.2066439
+lon: 8.1669102
 name: TKM Materialveredelung GmbH
 trader_type: sonstige
 state: RP
@@ -47,3 +49,26 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 31.10.2026: `email` erstmals gefüllt (**info@tkm-landau.de**) — **dreifach** belegt: (1) **englische Impressumsseite** der Betreiberseite (https://www.tkm-landau.de/en/imprint-and-privacy-policy-german) nennt „Email: info@tkm-landau.de“ neben „Registergericht: Landau/Pfalz, Registernummer: HR B 2918, USt-IdNr. DE 196 338 041“; (2) die **deutsche Kontaktseite** (https://www.tkm-landau.de/de/kontakt) verlinkt dieselbe Adresse als `mailto:info@tkm-landau.de`; (3) das **OSM-Objekt node/7368511988** mit `name=TKM Materialveredelung`, `operator=TKM Materialveredelung GmbH`, `addr:housenumber=6`, `addr:street=In den Waldstücken`, `addr:postcode=76829`, `email=info@tkm-landau.de`, `phone=+49 6341 52010`, `fax=+49 6341 520110`, `ref:vatin=DE196338041`, `website=https://www.tkm-landau.de/de/`. Die **USt-IdNr.** stimmt zwischen Impressum und OSM-Tag überein. Die **Vorwellen-Notiz**, die E-Mail sei „auf Betreiberseite nur JS-obfuskiert (Adresse unbekannt)“ ist damit **überholt** — sie bleibt wortgleich in der Historie, die Berichtigung steht hier. `street`, `postcode`, `phone`, `website` und `website_status` bleiben unverändert (bereits belegt); `status` bleibt **pruefung**. Quelle(n): https://www.tkm-landau.de/en/imprint-and-privacy-policy-german ; https://www.tkm-landau.de/de/kontakt ; https://api.openstreetmap.org/api/0.6/node/7368511988.json (Abruf 31.10.2026)]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=In den Waldstücken` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=8.1576215,49.1960059,8.1833270,49.2165811**, 9/9 Teilfenster vollständig verfügbar): **8 Adressobjekte / 7 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 6** ist dabei durch node/7368511988 (`addr:housenumber=6`, `addr:postcode=76829`, `addr:city=Landau in der Pfalz`, `name=TKM Materialveredelung`) und way/292829798 (`addr:housenumber=6`, `addr:postcode=76829`, `addr:city=Landau`, `name=TKM`) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1576215,49.1960059,8.1833270,49.2165811 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **49.2066439/8.1669102** (Mittel der eindeutigen
+  Knoten von node/7368511988, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Die Betreiber-Kontakt- und
+  Impressumsseite nennt **TKM Materialveredelung GmbH**, **In den Waldstücken 6, 76829 Landau**, Telefon
+  **06341/5201-0**, Registergericht **Landau/Pfalz, HR B 2918**, USt-IdNr. **DE 196 338 041** (live abgerufen
+  01.11.2026, https://www.tkm-landau.de/de/kontakt ;
+  https://www.tkm-landau.de/en/imprint-and-privacy-policy-german) - die Dossier-Adresse, -PLZ und -Telefonnummer sind
+  damit über die Betreiberquelle belegt; der **Northdata-Registerbeleg** (HRB 2918, Gegenstand Kunststoff-Metall-Verbund-
+  Recycling) ist HR-kongruent. Quelle 2 (OSM): node/7368511988 (live abgerufen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/node/7368511988.json) trägt `addr:housenumber`=6,
+  `addr:street`=In den Waldstücken, `addr:city`=Landau in der Pfalz, `addr:postcode`=76829, `addr:country`=DE sowie
+  `name`=**TKM Materialveredelung**, `operator`=**TKM Materialveredelung GmbH**, `craft`=metal_construction,
+  `phone`=+49 6341 52010, `fax`=+49 6341 520110, `email`=info@tkm-landau.de,
+  `website`=https://www.tkm-landau.de/de/ und `ref:vatin`=**DE196338041** - das ist ein **positiver Betriebsbeleg mit
+  vollständiger Kontaktdeckung**: Straße, Hausnummer, PLZ, Ort, Telefon, Fax, E-Mail, USt-IdNr. und Website stimmen
+  mit der Betreiberquelle überein; Objekt-BBox 49.2066439/8.1669102, der Punkt liegt innerhalb. Ergänzend tragen
+  way/292829798 (`name`=TKM, `addr:housenumber`=6, `addr:street`=In den Waldstücken, `addr:postcode`=76829, `building`=industrial)
+  und way/292829790 (`name`=TKM, `building`=yes) dieselbe Hausnummer und tragen damit die Flächen-/Gebäudekennung des
+  Betriebs an derselben Adresse. Quelle(n): https://api.openstreetmap.org/api/0.6/node/7368511988.json ;
+  https://api.openstreetmap.org/api/0.6/way/292829798/full.json ; https://www.tkm-landau.de/de/kontakt (live abgerufen
+  01.11.2026).]

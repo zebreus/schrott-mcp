@@ -1,5 +1,7 @@
 ---
 slug: by-hersbruck-loos-metallrecycling
+lat: 49.5118004
+lon: 11.4361493
 name: Loos Metallrecycling
 trader_type: metallhaendler
 state: BY
@@ -42,3 +44,23 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Positiver Beleg: ein OSM-Objekt trägt exakt die Dossier-Adresse, den Betriebsnamen und die Dossier-Telefonnummer.** node/5760058887 mit `addr:housenumber=45`, `addr:street=Amberger Straße`, `addr:city=Hersbruck`, `addr:postcode=91217`, `name=Metall-Recycling Loos`, `operator=Loos Metallrecycling`, `amenity=recycling`, `recycling:scrap_metal=yes`, `recycling_type=centre`, `contact:website=https://metall-loos.de/`, `opening_hours=Mo-Fr 07:30-12:00, Mo-Th 13:00-17:00, Fr 13:00-14:30`, `check_date:opening_hours=2025-03-26`. **Negativaussage, qualifiziert:** von den 146 Adressobjekten der Straße tragen **26 Objekte `name=`**, **8 Objekte `operator=`** (node/5760058887 `operator=Loos Metallrecycling`, node/6431179338 `operator=Einzelunternehmen Barf and More Sabrina Schäfer`, node/13149086204 `operator=Zweckverband Volkshochschule Hersbrucker Schweiz`, relation/2657880 `operator=Bayerisches Landesamt für Steuern`, way/45775005 `operator=Katholische Pfarrgemeinde \`, way/45775012 `operator=Caritas`, way/404864698 `operator=KZ-Gedenkstätte Flossenbürg`, way/789901446 `operator=Evang.-Luth. Stadtkirchengemeinde Hersbruck`) und **4 Objekte `addr:housename=`**; **mit Bezug zu Loos** trifft es auf der Straße **1 Objekt** (node/5760058887) und im gesamten Raster **1 Objekt**. Quelle(n): https://api.openstreetmap.org/api/0.6/node/5760058887.json (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Betreiber-Angaben live nachgelesen - die Öffnungszeiten der Vorwelle sind jetzt auf mehreren Betreiberseiten belegt und werden gefüllt.** Das Impressum nennt **Metall-Recycling Loos**, vertreten durch **Geschäftsführerin Karolin Loos**, Amberger Straße 45, 91217 Hersbruck, Telefon (0 91 51) 38 45, Telefax (0 91 51) 57 29, **Umsatzsteuer-Identifikationsnummer DE246260787**, Aufsichtsbehörde **Landratsamt Nürnberger Land, Waldluststraße 1, 91207 Lauf a. d. Pegnitz**; ein **HRB oder Registergericht wird weiterhin nicht genannt** (der Vorwellen-Beleg Creditreform führte „Karolin Loos Metallhandel", der Registerpunkt bleibt offen). Die E-Mail info(at)metall-loos.de steht im Impressum **und** in der Fußzeile mehrerer Seiten, ist also betreiberseitig konsistent; das Feld `email` wird deshalb **gefüllt**. Die Öffnungszeiten stehen wortgleich auf den Seiten „Infos", „Container" und „Leistungen": **Montag bis Donnerstag 7:30 - 12:00 und 13:00 - 17:00 Uhr, Freitag 7:30 - 13:00 Uhr, an Brückentagen geschlossen**; das Feld `opening_hours` wird entsprechend **gefüllt**. Leistungen laut Seite: An- und Verkauf von NE-Metallschrott, Spänen, Krätzen und Altkabel, Eisenschrott und Späne mit Container- oder Greiferfahrzeugen, **Absetzmulden in verschiedenen Größen**; zertifizierter Entsorgungsfachbetrieb, Mitglied im **Bundesverband Deutscher Stahl-Recycling- und Entsorgungsunternehmen e.V.**. Für **Barauszahlungen** verlangt der Betrieb laut PDF „Führerschein oder Personalausweis in Original oder Kopie"; eine Auszahlung ohne Ausweispapier ist nicht möglich. Quelle(n): https://metall-loos.de/impressum/ ; https://metall-loos.de/infos/ ; https://metall-loos.de/container/ ; http://metall-loos.de/wp-content/uploads/2018/03/Info_Barauszahlung_Metall-Loos.pdf (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise und Gebühren getrennt.** ANKAUF: **keine** öffentliche Ankaufspreisliste; die Leistungsseite beschreibt den „An- und Verkauf von NE-Metallschrott, Spänen, Krätzen und Altkabeln" **ohne Kurse**; Materialproben werden vor Ort entnommen und „effiziente Vorschläge für eine fachgerechte Werksentsorgung" erarbeitet. VERKAUF: **keine** öffentliche Verkaufspreisliste; die sortierten NE-Metalle werden „Handel und Endverbraucher" beliefert, ohne Preise. GEBÜHREN: **keine** bezifferte Betreibergebühr; der Containerdienst wird **ohne Mietpreis** angegeben (Absetzmulden in verschiedenen Größen, Abholung mit eigenem Fuhrpark), und für Barauszahlung gilt nur die Ausweispflicht, keine Gebühr. Quelle(n): https://metall-loos.de/leistungen/ ; https://metall-loos.de/container/ ; https://metall-loos.de/infos/ (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **49.5118004/11.4361493** (Mittel der eindeutigen
+  Knoten von node/5760058887, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Das Impressum der Betreiber-Website
+  nennt **Metall-Recycling Loos**, vertreten durch **Geschäftsführerin Karolin Loos**, **Amberger Straße 45, 91217
+  Hersbruck**, Telefon **(0 91 51) 38 45**, USt-IdNr. **DE246260787** (live abgerufen 01.11.2026,
+  https://metall-loos.de/impressum/) - die Dossier-Adresse, -PLZ und -Telefonnummer sind damit über die Betreiberquelle
+  belegt; der **Creditreform-Gegenbeleg** führt denselben Betrieb unter „**Karolin Loos Metallhandel**" mit derselben
+  Anschrift Amberger Str. 45, 91217 Hersbruck und derselben Rufnummer, ein **HRB/Registergericht** wird auf der
+  Betreiberseite weiterhin nicht genannt (Registerpunkt bleibt offen). Quelle 2 (OSM): node/5760058887 (live abgerufen
+  01.11.2026, https://api.openstreetmap.org/api/0.6/node/5760058887.json) trägt `addr:housenumber`=45,
+  `addr:street`=Amberger Straße, `addr:city`=Hersbruck, `addr:postcode`=91217, `addr:country`=DE sowie
+  `name`=**Metall-Recycling Loos**, `operator`=**Loos Metallrecycling**, `amenity`=recycling,
+  `recycling:scrap_metal`=yes, `recycling_type`=centre und `contact:website`=https://metall-loos.de/ - das ist ein
+  **positiver Betriebsbeleg an der Dossier-Adresse**: Straße, Hausnummer, PLZ, Ort, Telefonnummer und Website stimmen
+  mit der Betreiberquelle überein, der Betrieb ist in OSM also namentlich kartiert. Objekt-BBox 49.5118004/11.4361493,
+  der Punkt liegt innerhalb. `status` **unbekannt** bleibt unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/5760058887.json ; https://metall-loos.de/impressum/ (live abgerufen
+  01.11.2026).]

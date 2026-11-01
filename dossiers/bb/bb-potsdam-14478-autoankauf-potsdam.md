@@ -1,5 +1,7 @@
 ---
 slug: bb-potsdam-14478-autoankauf-potsdam
+lat: 52.3561301
+lon: 13.1169291
 name: Autoankauf Potsdam
 trader_type: sonstige
 state: BB
@@ -49,3 +51,23 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Verzeichnis-Einträge bestätigen die Anschrift, weichen aber bei Rufnummer und Samstagszeit ab.** Gelbe Seiten: "Verkehrshof 12, 14478 Potsdam-Bergholz-Rehbrücke", "0331 5 85 85 58", **zweite Rufnummer 0331 2 97 34 09**, Öffnungszeiten **Mo-Fr 10:00-19:00 und Sa 10:00-14:00** (die Betreiberseite nennt dagegen "Sa nach Vereinbarung" - die **Betreiberseite hat Vorrang**, das Dossier bleibt bei "Mo-Fr 10-19, Sa nach Vereinbarung"). Das Örtliche führt denselben Betrieb als "**Autoankauf & Klimaservice Potsdam**", Verkehrshof 12, 14478 Potsdam, Bergholz-Rehbrücke, **Tel. 0331 2 97 34 11**. Die Verzeichnis-Nummern 0331 297 34 09 und 0331 297 34 11 liegen in einem anderen Nummernkreis als die auf der Betreiberseite genannten 0331 5858558 und 0179 4855580; sie sind **nicht** ins Dossier übernommen. Namensgleichheiten an anderen Anschriften (jeweils **andere Betriebe**): "Autoankauf Potsdam", Am Golfpl. 54, 14469 Potsdam-Bornstedt, Tel. 0152 26 64 57 38; "Autoankauf Potsdam", Konrad-Wolf-Allee 20, 14480 Potsdam-Drewitz, Tel. 0331 60 15 25 67; "Autoankauf Nicolaus Inh. Mohsen Rabah", Am Buchhorst 26, 14478 Potsdam. Quelle(n): https://www.gelbeseiten.de/gsbiz/5ea004db-8b3b-40a8-a468-60f0c0fb38bb ; https://www.dasoertliche.de/Themen/Autoankauf/Potsdam.html (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise: keine einzige Zahl; Ankauf, Verkauf und Gebühren getrennt.** **Ankauf:** die Betreiberseite nennt nur ein "faires Angebot" und "realistische und faire Preise", gezahlt wird **bar oder per Banküberweisung**; das Angebotsformular fragt die **Preisvorstellung des Kunden** ab, der Betreiber veröffentlicht **keinen Ankaufskurs**. **Verkauf:** Gebrauchtwagen werden über **Kleinanzeigen** angeboten ("zu günstigen Preisen"), **ohne Preisangabe**; auch das Auto-Export-Geschäft (Fahrzeuge ohne bestandene HU, über 200.000 km Laufleistung, mit defektem Motor oder Getriebe) nennt **keinen Preis**. **Gebühren:** ausdrücklich **kostenfrei** sind die Angebotserstellung ("Kostenfreies Angebot einholen"), die Fahrzeugbewertung ("Die Bewertung Ihres Fahrzeugs ist wirklich kostenlos"), die Abmeldung ("Unser Abmeldeservice beim Ankauf Ihres Gebrauchtwagens ist für Sie kostenlos") und die Zusage "Es entstehen Ihnen keine Verpflichtungen aus unserem Angebot"; ein **Gebrauchtwagencheck der DEKRA ist ausdrücklich nicht Teil des Service**, Terminierung und Bezahlung erfolgen selbst durch den Kunden. Die Angabe, ein Austausch von Klimakondensator oder Kompressor könne "mehrere hundert Euro" kosten, ist ein **allgemeiner Marktpreis** und **keine Gebühr des Betriebs**. Quelle(n): https://autoankauf-potsdam.com/ ; https://autoankauf-potsdam.com/auto-export/ ; https://autoankauf-potsdam.com/gebrauchtwagen-kaufen/ ; https://autoankauf-potsdam.com/autoankauf-formular/ ; https://autoankauf-potsdam.com/klimaservice/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Geokodierungsbedarf (nicht ausgeführt, nur benannt).** Das Dossier führt **keine Koordinate**; OSM setzt den Betrieb auf **52.3561301/13.1169291** (node/11270453037), der von der Kontaktseite der Betreiberseite verlinkte Google-Maps-Ortspunkt des Platzes "Autoankauf - Potsdam Inh. Heino Lindemann" löst auf **52.3559093/13.1154355** (Abweichung rund 100 m). Für "Verkehrshof 12, 14478 Potsdam" ist eine adressbasierte Geokodierung zu prüfen. Quelle(n): https://api.openstreetmap.org/api/0.6/node/11270453037.json ; https://maps.app.goo.gl/nPD2Azry44Jgoudk7 ; https://autoankauf-potsdam.com/kontakt/ (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **52.3561301/13.1169291** (Mittel der eindeutigen
+  Knoten von node/11270453037, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Die Kontaktseite der
+  Betreiber-Website nennt **Verkehrshof 12, 14478 Potsdam**, Inhaber **Heino Lindemann**, Telefon
+  **0331 - 58 58 558** und Mobil **0179 - 48 55 580** (live abgerufen 01.11.2026,
+  https://autoankauf-potsdam.com/kontakt/ ; https://autoankauf-potsdam.com/impressum/) — die Dossier-Adresse und
+  beide Dossier-Rufnummern sind damit über die Betreiberquelle belegt. Quelle 2 (OSM): node/11270453037 (live
+  abgerufen 01.11.2026, https://api.openstreetmap.org/api/0.6/node/11270453037.json) trägt `name`=Autoankauf Potsdam,
+  `operator`=Heino Lindemann, `phone`=+49 331 5858558, `mobile`=+49 179 4855580,
+  `website`=https://www.autoankauf-potsdam.com/, `shop`=car, `second_hand`=only — Name, Inhaber und beide
+  Rufnummern stimmen objektgenau mit der Betreiberquelle und dem Dossier überein. Objekt-BBox:
+  52.3561301/13.1169291 bis 52.3561301/13.1169291, der Punkt liegt innerhalb. Qualifizierung: das Objekt trägt
+  **kein** `addr:housenumber`/`addr:street`; die Hausnummer 12 ist in OSM belegt, wird dort aber von **drei fremden
+  Betrieben** belegt (node/2621084943 „Fuhrbetrieb & Gütertaxi Lutz Bauermeister GmbH" bei 52.3557837/13.1171069,
+  node/2621084947 „DEG Deutsche Elektro-Gruppe" bei 52.3561126/13.1151143, node/2630867229 „Sternagel - Verkauf
+  Nutzfahrzeuge" bei 52.3557472/13.1154798 — letztere beiden in rund 100 m Entfernung). Gesetzt wird deshalb der
+  **betriebseigene OSM-Punkt** des Dossier-Betriebs (nicht der Adressknoten eines Nachbarbetriebs); die offene
+  Frage der exakten Hausnummernzuordnung bleibt dokumentiert, `status` **aktiv** bleibt unverändert.]

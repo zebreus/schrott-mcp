@@ -1,5 +1,7 @@
 ---
 slug: nw-leverkusen-steglich-recycling
+lat: 51.0335315
+lon: 7.0253640
 name: Steglich Recycling GmbH (heute REMONDIS Rhein-Berg GmbH)
 trader_type: schrottplatz
 state: NW
@@ -43,3 +45,23 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **ANKAUF, VERKAUF und GEBÜHREN getrennt.** **ANKAUF:** **keine** bezifferte Ankauf- oder Sortenpreisliste; die Zielseite bewirbt den „Metallhandel“ mit „Verwertung vor Beseitigung“ und der Rückgewinnung „so viele Rohstoffe wie möglich“, aber **ohne** Zahlenwerte. **VERKAUF:** **keine** Verkaufspreise und **keine** bezifferte Rückvergütung. **GEBÜHREN:** **keine** bezifferte Betreibergebühr, **kein** Kassenentgelt, **keine** Annahmegebühr; Containerdienst, Kleincontainer, Umleerbehälter, Wertstoffhöfe und Abfallberatung werden **ohne** Preisangabe genannt, die Beratung erfolgt „auf Wunsch“. Kommunale Tarife, Markt- und Börsenpreise sind **nicht** Gegenstand dieser Quelle. Quelle(n): https://www.remondis-rhein-berg.de/ ; https://www.remondis-rhein-berg.de/kontakt (Abruf 31.10.2026).]
 - [Korrektur 31.10.2026: **Frontmatter an den Register- und Betreiberstand angepasst** (die Vorwellen-Notiz vom 01.10.2026 bleibt **wortgleich** stehen): `name` von „Steglich Recycling“ auf **„Steglich Recycling GmbH (heute REMONDIS Rhein-Berg GmbH)“** präzisiert, `website` von `http://www.steglich-recycling.de/` auf **https://www.remondis-rhein-berg.de/** und `website_status` von `tot` auf **aktiv** gesetzt - die Domain `steglich-recycling.de` ist die Domain der **REMONDIS Rhein-Berg GmbH** und leitet dorthin weiter, es ist also **kein** verschwundener Betrieb, sondern eine **Firmenfortführung unter neuem Namen bei gleicher Registernummer und gleicher Anschrift**. `postcode` wird von leer auf **51377**, `phone` von leer auf **0214 8707300** und `opening_hours` von leer auf **Mo-Fr 07:00-16:45** gesetzt (Beleg: Betreiber-Kontaktseite und Standortverzeichnis; die Nummer 0214 8707300 wird im Gelbe-Seiten-Eintrag unverändert auch unter dem Namen „Steglich Recycling GmbH“ an derselben Anschrift geführt). `street` („Gneisenaustr. 8“) bleibt unverändert, `status: pruefung` bleibt ausdrücklich bestehen - nach dem README-Protokoll ist ein umbenannter oder verlagter Betrieb **keine** Löschung und **kein** Beweis für `geschlossen`; der Klärfall (eigener Dossier für die REMONDIS Rhein-Berg GmbH oder Fortführung unter dem historischen Namen) bleibt der Owner-Entscheidung vorbehalten. Quelle(n): https://www.northdata.de/REMONDIS+Rhein-Berg+GmbH,+Leverkusen/Amtsgericht+K%C3%B6ln+HRB+48987 ; https://www.remondis-rhein-berg.de/kontakt ; https://www.gelbeseiten.de/gsbiz/effc6274-8b12-479c-948d-8d031ece93ed (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Offene Punkte und Geokodierungsbedarf.** Offen bleibt der Umgang mit dem historischen Namen im Katalog (eigener Dossier für REMONDIS Rhein-Berg GmbH oder Fortführung unter „Steglich Recycling“) sowie die Frage, ob unter dem Namen „Steglich“ noch Geschäfte getätigt werden - die **Register- und Betreiberbelege sprechen für eine durchgehende Gesellschaft mit geänderter Firmierung**. **Geokodierungsbedarf:** der read-only Produktionspunkt 51.0492833/7.0141667 (Abruf 31.10.2026) liegt rund **1,92 km** vom OSM-Objekt way/378961135 (`addr:housenumber=8`, `addr:street=Gneisenaustraße`, `addr:postcode=51377`, Punktlage 51.0335425/7.0253392) entfernt und ist damit **nicht** die Dossier-Anschrift; die Geokodierung erfolgt **nicht** in dieser Welle. Quelle(n): https://api.openstreetmap.org/api/0.6/way/378961135.json ; read-only `public.db` (31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.0335315/7.0253640** (Mittel der eindeutigen
+  Knoten von way/378961135, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=8,
+  `addr:street`=Gneisenaustraße, `addr:city`=Leverkusen, `addr:postcode`=51377 und `building`=yes; es hat
+  5 Knotenreferenzen, davon 4 eindeutige (ein doppelter Knoten), die BBox der eindeutigen Knoten reicht von
+  51.0334538/7.0252398 bis 51.0336092/7.0254882 und umschließt den Mittelwert. Das Objekt trägt weder `name` noch
+  `operator`; der Punkt bezeichnet die belegte Anschrift und keine verifizierte Zufahrt oder Waage. Quelle 1
+  (Betreiber/Register): die Kontaktseite der REMONDIS Rhein-Berg GmbH (live abgerufen am 01.11.2026, HTTP 200) nennt
+  die Anschrift **Gneisenaustr. 8, 51377 Leverkusen**; der Registerspiegel North Data (live abgerufen am
+  01.11.2026, HTTP 200) führt die **Remondis Rhein-Berg GmbH, Amtsgericht Köln HRB 48987** mit derselben Anschrift
+  **Gneisenaustr. 8, D-51377 Leverkusen** - beide bestätigen genau die in OSM gefundene Anschrift und bestätigen
+  zugleich die im Dossier dokumentierte Rechtsträgerkette (FABA GmbH → Steglich Recycling GmbH → REMONDIS Rhein-Berg
+  GmbH, durchgehend HRB 48987). Quelle 2 (OSM): way/378961135 (live geladen am 01.11.2026, HTTP 200) sowie das
+  Kachelraster um 51.0335315/7.0253640. Der bisher gespeicherte Produktionspunkt 51.049283333333335/7.014166666666667
+  liegt rund **1,92 km** vom neuen Punkt entfernt und wird durch diesen ersetzt; er war **nicht** die
+  Dossier-Anschrift. Quelle(n): https://www.remondis-rhein-berg.de/kontakt ;
+  https://www.northdata.de/Gneisenaustr%C2%B7%208,%20D-51377%20Leverkusen ;
+  https://api.openstreetmap.org/api/0.6/way/378961135/full.json ; read-only `public.db` (01.11.2026).]

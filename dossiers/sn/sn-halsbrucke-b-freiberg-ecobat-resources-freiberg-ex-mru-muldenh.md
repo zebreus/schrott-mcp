@@ -1,13 +1,13 @@
 ---
 slug: sn-halsbrucke-b-freiberg-ecobat-resources-freiberg-ex-mru-muldenh
+lat: 50.9032249
+lon: 13.3846768
 name: Clarios Recycling Freiberg GmbH (ehem. ECOBAT Resources Freiberg GmbH)
 trader_type: sonstige
 state: SN
 city: Freiberg
 street: Muldenhütten 25
 postcode: '09599'
-lat: '50.9032296'
-lon: '13.3846921'
 phone: 03731 3670
 email: ''
 opening_hours: ''
@@ -49,3 +49,31 @@ Der sächsische Blei-Recyclingstandort ging 2026 mit den deutschen, österreichi
 - [Recherche 31.10.2026: **Amtliches Register: der Zertifikatseintrag trägt noch den ECOBAT-Namen — die Namensführung ist damit im Register nachvollziehbar.** Das **SchrottRegister** (Fachbetrieberegister/Register der Entsorgungsfachbetriebe, Abruf des Registerabrufs 2026-08-11) führt „**ECOBAT Resources Freiberg GmbH (Sekundärbleihütte)**“ mit der Anschrift **„Muldenhütten 25, 09599 Freiberg (Sachsen)“**, **Hauptsitz: ECOBAT Resources Freiberg GmbH**, **Zertifikatsnummer ZZIT00700097**, zertifizierte Tätigkeiten **Lagern, Behandeln, Verwerten, Beseitigen** und **9 Abfallschlüssel**: **120101** (Eisenfeil- und -drehspäne), **120102** (Eisenstaub und -teilchen), **120103** (NE-Metallfeil- und -drehspäne), **120104** (NE-Metallstaub und -teilchen), **150104** (Verpackungen aus Metall), **160107\*** (Ölfilter), **160109\*** (Bauteile, die PCB enthalten), **160113\*** (Bremsflüssigkeiten), **160114\*** (Frostschutzmittel, die gefährliche Stoffe enthalten). **Wichtig für die Abgrenzung**: Auf derselben Straße steht ein **zweiter** Registereintrag — „**REMONDIS Industrie Service GmbH & Co. KG, NL Freiberg-Muldenhütten**“ mit der Anschrift **„Muldenhütten 10, 09599 Freiberg**“ (Tätigkeiten Lagern, Behandeln, Verwerten, **Schredder**, 54 Abfallschlüssel) — das ist **ein anderer Betrieb** und **nicht** mit Clarios zu vermischen; die **Hausnummern 25 (Clarios) und 10 (REMONDIS)** liegen auf derselben Straße. Das Register nennt **weder Telefon noch E-Mail** und **keine Preise**. Quelle(n): https://schrottregister.pages.dev/betrieb-ecobat-resources-freiberg-gmbh-sekundarbleihutte-freiberg-sachsen ; https://schrottregister.pages.dev/betrieb-remondis-industrie-service-gmbh-co-kg-nl-freiberg-muldenhutten-freiber ; https://schrottregister.pages.dev/ort-freiberg-sachsen (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise: für diesen Standort sind weder Ankauf- noch Verkaufspreise noch Gebühren öffentlich belegt.** ANKAUF: das Sicherheitsmerkblatt beschreibt die **Beschaffung** nur qualitativ — „Beim Einbau einer neuen Batterie in eine unserer Partnerwerkstätten werden die **Altbatterien von uns eingesammelt** und wiederverwertet“ — das ist eine **Beschaffung über Partnerwerkstätten**, **keine** öffentliche Annahme durch Privatpersonen und **kein** Preis. VERKAUF: „**Wiederaufbereitung der Rohstoffe Blei und Polypropylen in Freiberg**“ ist ein industrieller Prozess; die erzeugten Produkte (**Sekundär-Blei**, **Polypropylen-Compound**) sind **Werkserzeugnisse ohne öffentliche Preisliste** — die Clarios-Produktpreise (Batterien) sind **Handelspreise, keine Standortpreise** und werden **nicht** übernommen. GEBÜHREN: **keine** öffentliche Annahme-, Anlieferungs- oder Entsorgungsgebühr für den Standort Freiberg gefunden; das Register weist ausdrücklich aus, dass Ankaufspreise für Metall **dem Weltmarkt** folgen und **in keinem amtlichen Register** stehen. Quelle(n): https://useast2prodbrandsites.blob.core.windows.net/sf-assets/docs/default-source/default-document-library/stoerfallbroschuere-freiberg-2026-final.pdf?sfvrsn=387a3cef_7 ; https://schrottregister.pages.dev/betrieb-ecobat-resources-freiberg-gmbh-sekundarbleihutte-freiberg-sachsen (Abruf 31.10.2026).]
 - [Korrektur 31.10.2026: **Objektzahl präzisiert — die Aufzählung der 24 verschiedenen Hausnummern bleibt unverändert.** Die Nachrechnung über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Muldenhütten` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=13.3696742,50.8935741,13.3938817,50.9138736**, 9/9 Teilfenster vollständig verfügbar) ergibt **31 Adressobjekte / 24 verschiedene Hausnummern** — die Angabe „30 Adressobjekte“ im Recherche-Vermerk oben ist um **1** zu niedrig: zusätzlich zählt die Referenzzählung **relation/18182161** (Multipolygon „SCHIWA PROFILE Schill & Walther GmbH“, `addr:housenumber=3`, `addr:street=Muldenhütten`, `addr:postcode=09599`, `addr:city=Freiberg`), die die geometriegefilterte Erstdifferenz nicht mitgezählt hat, weil ihre Member-Wege nicht in der Kachelantwort enthalten sind. Die **24 verschiedenen Hausnummern** (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 25, 27, 29) sind **deckungsgleich** mit der Aufzählung oben — keine Nummer zu viel, keine zu wenig. Die **Dossier-Hausnummer 25** ist dabei durch node/3887619025 (`addr:housenumber=25`, `addr:postcode=09599`, `addr:city=Freiberg`, `name=Muldenhütten Recycling und Umwelttechnik GmbH`) und way/117118085 (`addr:housenumber=25`, `addr:postcode=09599`, `addr:city=Freiberg`, **weder `name=` noch `operator=`**) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3696742,50.8935741,13.3938817,50.9138736 (Raster vollständig, live abgerufen) ; https://api.openstreetmap.org/api/0.6/relation/18182161.json (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **50.9032249/13.3846768** (Mittel der eindeutigen
+  Knoten von node/3887619025, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Das **offizielle
+  Clarios-Sicherheitsmerkblatt für den Standort Freiberg** (live abgerufen 01.11.2026,
+  https://useast2prodbrandsites.blob.core.windows.net/sf-assets/docs/default-source/default-document-library/stoerfallbroschuere-freiberg-2026-final.pdf?sfvrsn=387a3cef_7)
+  führt „**Clarios Recycling Freiberg GmbH**, **Muldenhütten 25, 09599 Freiberg**, Tel. **03731/3670**“; die offizielle
+  **Clarios-Mitteilung vom 24.06.2026** (https://www.clarios.com) bestätigt den Standort Freiberg und den
+  Betreiberwechsel von ECOBAT zu Clarios - Dossier-Adresse, -PLZ und -Telefonnummer sind damit über die
+  Betreiberquelle belegt. Quelle 2 (OSM): node/3887619025 (live abgerufen 01.11.2026,
+  https://api.openstreetmap.org/api/0.6/node/3887619025.json) trägt `addr:housenumber`=25,
+  `addr:street`=Muldenhütten, `addr:city`=Freiberg, `addr:country`=DE, `addr:postcode`=09599,
+  `name`=**Muldenhütten Recycling und Umwelttechnik GmbH**, `operator`=**BERZELIUS METALL GmbH**, `office`=company,
+  `phone`=**+49 3731 3670** (exakt die Dossier-Telefonnummer), `fax`=+49 3731 212425 und
+  `email`=freiberg.bls@berzelius.de - das ist ein **positiver Betriebsbeleg an der Dossier-Adresse**; die Dossier-Hausnummer
+  **25** ist damit objektgenau belegt; Objekt-BBox 50.9032249/13.3846768, der Punkt liegt innerhalb. Qualifizierung:
+  das Objekt nennt **nicht „Clarios“**, sondern die Konzernmutter **BERZELIUS METALL GmbH** - die Marke Clarios ist die
+  Tochtergesellschafts-/Markenebene, die in der Betreiberquelle belegt ist; das **Gebäudeobjekt** way/117118085 mit
+  `addr:housenumber`=25, `addr:street`=Muldenhütten, `addr:city`=Freiberg, `addr:postcode`=09599 und
+  `building`=industrial (Mittel der eindeutigen Knoten 50.9032582/13.3846999) trägt **weder `name=` noch `operator=`**
+  und liegt nur **rund 4 m** vom gewählten Punkt entfernt. Die bisherigen Frontmatter-Werte (`lat` '50.9032296',
+  `lon` '13.3846921') waren **positionell falsch** (hinter `postcode` statt direkt nach `slug`) und **in Gänze
+  hochgerechnet**; sie sind durch den live geprüften Wert ersetzt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/3887619025.json ;
+  https://api.openstreetmap.org/api/0.6/way/117118085/full.json ;
+  https://useast2prodbrandsites.blob.core.windows.net/sf-assets/docs/default-source/default-document-library/stoerfallbroschuere-freiberg-2026-final.pdf?sfvrsn=387a3cef_7
+  (live abgerufen 01.11.2026).]

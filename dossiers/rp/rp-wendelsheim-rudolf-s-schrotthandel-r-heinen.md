@@ -1,5 +1,7 @@
 ---
 slug: rp-wendelsheim-rudolf-s-schrotthandel-r-heinen
+lat: 49.7610773
+lon: 7.9844281
 name: Rudolf's Schrotthandel (R. Heinen)
 trader_type: schrotthaendler
 state: RP
@@ -43,3 +45,23 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Recherche 31.10.2026: **Betreiberangaben bestätigt; das Angebot des Betriebs ist auf der eigenen Seite konkret.** Das **Impressum der Betreiberseite** (https://rudolfs-schrotthandel.hpage.com/impressum.html, HTTP 200) nennt „**Rudolf Heinen, Neuer Weg 19, 55234 Wendelsheim, 0171/9858467**“ — deckungsgleich mit dem Dossier. Die Startseite (https://rudolfs-schrotthandel.hpage.com/) nennt die Leistungen **„Ankauf & Entsorgung: Altmetalle * Alteisen * Altfahrzeuge“** sowie das **Einzugsgebiet** „**Kreis: Alzey - Worms, Bad Kreuznach, Mainz - Bingen, Wiesbaden - Frankfurt, Kirchheimbolanden, Kaiserslautern, Bad Sobernheim, Kirn, Nieder-Olm**“ und nennt die **Mobilnummer 0171/9858467**. Die Dossier-Provenienz „**Altmetalle, Alteisen, Altfahrzeuge; mobil Rheinhessen/Nahe**“ ist damit **wörtlich durch die Betreiberseite gedeckt**; die Angabe zum Einzugsgebiet präzisiert sie (Rheinhessen/Nahe ist eine Teilmenge der genannten Kreise). **Weiter bestätigt**: die Seite trägt den Hinweis „Dies ist eine kostenlose Homepage erstellt mit hPage.com“ — das ist ein **Anbieterhinweis zur Website-Erstellung**, **keine** Gebühr des Schrottbetriebs, und wird nicht als Gebühr gelesen. Quelle(n): https://rudolfs-schrotthandel.hpage.com/ ; https://rudolfs-schrotthandel.hpage.com/impressum.html (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Preise: keine Zahlen belegt.** ANKAUF: die Betreiberseite nennt **keinen** Ankaufskurs und **keine** Sortenliste mit Preisen; belegt ist nur die **Ankaufserklärung** („Ankauf & Entsorgung“ von Altmetallen, Alteisen, Altfahrzeugen) — die Vergütung ist damit **nicht beziffert**. VERKAUF: **keine** Verkaufsangaben (kein Verkauf von Nutzmaterial, kein Schrottverkauf an Dritte belegt). GEBÜHREN: **keine** Abhol-, Annahme- oder Containergebühr belegt; die einzige „kostenlos“-Angabe der Seite bezieht sich auf die **kostenlose Homepage** und ist **keine** Betriebsleistung. Ein Preisvergleich oder eine Marktnotierung wird **nicht** in den Dossierbestand übernommen. Quelle(n): https://rudolfs-schrotthandel.hpage.com/ (Abruf 31.10.2026).]
 - [Recherche 31.10.2026: **Hausnummern-Gegenrechnung abgeschlossen — die Aufzählung ist bestätigt.** Nachgerechnet über die Zähllogik von `scripts/release/osm_street_scan.py` (Filter-Key `addr:street=Neuer Weg` **mit** `addr:housenumber`, Kachelraster 0,01 Grad über das **vollständige** Raster-BBox **bbox=7.9739037,49.7501969,7.9953836,49.7725630**, 9/9 Teilfenster vollständig verfügbar): **12 Adressobjekte / 12 verschiedene Hausnummern** — **deckungsgleich** mit der Angabe im Recherche-Vermerk oben: jede dort genannte Nummer existiert live, und jede live vorhandene Nummer ist dort genannt. Die **Dossier-Hausnummer 19** ist dabei durch way/314371008 (`addr:housenumber=19`, `addr:postcode=55234`, `addr:city=Wendelsheim`, **weder `name=` noch `operator=`**) belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9739037,49.7501969,7.9953836,49.7725630 (Raster vollständig, live abgerufen) (Abruf 31.10.2026).]
+
+### Geokodierung 01.11.2026
+
+- [Geokodierung 01.11.2026: **Koordinate korrigiert**: `lat`/`lon` = **49.7610773/7.9844281** (Mittel der eindeutigen
+  Knoten von way/314371008, innerhalb der Objekt-BBox). Quelle 1 (Betreiber): Das **Betreiber-Impressum** der
+  hpage-Website (https://rudolfs-schrotthandel.hpage.com/impressum.html ;
+  https://rudolfs-schrotthandel.hpage.com/, live abgerufen 01.11.2026) nennt **Neuer Weg 19, 55234 Wendelsheim**,
+  Telefon **0171/9858467** - die Dossier-Adresse, -PLZ und -Telefonnummer sind damit über die Betreiberquelle belegt;
+  ein **HR-Eintrag** existiert nicht (mutmaßlich Einzelunternehmen **R. Heinen**), ein **unabhängiger Zweitbeleg** ist
+  nicht auffindbar - die Betreiberquelle bleibt Einzelbeleg, `status` bleibt unverändert. Quelle 2 (OSM):
+  way/314371008 (live abgerufen 01.11.2026, https://api.openstreetmap.org/api/0.6/way/314371008/full.json) trägt
+  `addr:housenumber`=19, `addr:street`=Neuer Weg, `addr:city`=Wendelsheim, `addr:postcode`=55234, `addr:country`=DE
+  und `building`=yes - die Dossier-Hausnummer **19** ist damit objektgenau belegt; Objekt-BBox 49.7609936/7.9842919 bis
+  49.7611609/7.9845644, der Punkt liegt innerhalb. Qualifizierung: das Objekt trägt **weder `name=` noch `operator=`**
+  (Raster vom 31.10.2026: 0 Objekte mit Bezug zu „Rudolf Heinen“, „Rudolf's Schrotthandel“ oder einem
+  Schrott-/Metallbetrieb; die beiden einzigen `name=`-Treffer zur Straße selbst sind die Straßenobjekte way/32559606
+  und way/32559580 mit `name`=Neuer Weg), der Betrieb ist in OSM also nicht namentlich kartiert; die **übrigen 11**
+  Adressobjekte der Straße tragen ebenfalls kein `name=`/`operator=`. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/314371008/full.json ;
+  https://rudolfs-schrotthandel.hpage.com/impressum.html (live abgerufen 01.11.2026).]
