@@ -51,3 +51,25 @@ Der Seed-Namensrest "Eiles" ist weder im amtlichen Fachbetrieberegister (16 aner
 - [Recherche 29.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Punkt 52.0174473684211, 8.54365789473684 loest im OSM-Rueckweg auf "Bundesanstalt fuer Immobilienaufgaben, 117, Ravensberger Strasse" in Bielefeld-Mitte auf und liegt rund 8,5 km von Krackser Str. 180 in Sennestadt entfernt; der Punkt markiert kein Objekt des Seed-Betriebs. Der Punkt bleibt unveraendert, da keine belegte Adresse vorliegt. Quelle(n): read-only-Abgleich public.db vom 29.10.2026; https://api.openstreetmap.org/api/0.6/way/264570340]
 
 - [30.10.2026 (Korrekturvermerk): **OSM-Tag-Zitat berichtigt**: die im Dossier zitierte Tag-Schreibweise war eine Transliteration (Umschrift ohne Umlaut); das Objekt trägt live **„Krackser Straße“**. Quelle(n): https://api.openstreetmap.org/api/0.6/ (Abruf 30.10.2026)]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: Amtliches Fachbetrieberegister abgefragt, kein Zertifikatsnachweis für den Betrieb "Eiles" am Standort Bielefeld-Sennestadt 33689 gefunden. Die Route
+  "Entsorgungsfachbetriebe" des amtlichen Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge liefert am 02.11.2026 für die Namenssuche "Eiles" 0
+  Treffer; kein Treffer betrifft den Dossierbetrieb. Die Ortssuche um 33689 Bielefeld mit 3 km Umkreis (Route "Entsorgungsfachbetriebe") listet 12
+  Treffer, darunter "Medentex GmbH" (Piderits Bleiche 11, 33689 Bielefeld, ZZHT00300552 / 1, Sammeln, Befördern); "Medentex GmbH" (Piderits Bleiche 11,
+  33689 Bielefeld, ZZHT00300552 / 2, Lagern); "Medentex GmbH" (Piderits Bleiche 11, 33689 Bielefeld, ZZHT00300552 / 3, Behandeln); "Medentex GmbH"
+  (Piderits Bleiche 11, 33689 Bielefeld, ZZHT00300552 / 4, Verwerten); kein Treffer nennt Eiles oder Bielefeld-Sennestadt 33689. Die Route
+  "Altfahrzeugverwertung" liefert für die Suchbegriffe "Eiles" 0 Treffer; kein Treffer betrifft den Dossierbetrieb; die Ortssuche um 33689 Bielefeld mit
+  3 km Umkreis liefert dort 0 Treffer. Der Namensbestandteil "Eiles" ist damit im amtlichen Register nicht auffindbar; die Ortssuche um Sennestadt
+  belegt anerkannte Betriebe im Umfeld ("Medentex GmbH", Piderits Bleiche 11; "Neumann Entsorgung GmbH & Co. KG", Krackser Straße 180; "Stiftung Bethel
+  / Brockensammlung", Am Beckhof 14), aber keinen Betrieb namens Eiles. Das im Dossier genannte Adressobjekt Krackser Straße 180 gehört zu Neumann
+  Entsorgung und ist kein Eiles-Betrieb; eine Betreiberwebsite mit Zertifikatsangabe existiert nicht. Reichweite: Die Efb-Anerkennung nach § 56 KrWG und
+  die AltfahrzeugV-Anerkennung sind freiwillig; ein Register-Nichttreffer ist deshalb kein Nichtexistenzbeweis und wurde nicht als Beleg einer fehlenden
+  Zertifizierung gewertet.]
+
+- [Recherche 02.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Eiles ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=33689%20Bielefeld%2C%20Deutschland;8.5850829;51.946044;8.5850829;51.946044;8.5850829;51.946044&dst=3&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Eiles ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=33689%20Bielefeld%2C%20Deutschland;8.5850829;51.946044;8.5850829;51.946044;8.5850829;51.946044&dst=3&is=1&e=1
+  (Abruf 02.11.2026)]

@@ -42,3 +42,27 @@ TITAL GmbH ist nun zweiseitig an Kapellenstraße 44, 59909 Bestwig identifiziert
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Titan-/Alu-Feinguss (Aerospace), Sauerland-Gießerei
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: Amtliches Fachbetrieberegister abgefragt, kein Zertifikatsnachweis für den Betrieb "TITAL GmbH (Howmet Aerospace)" am Standort Kapellenstraße 44,
+  59909 Bestwig gefunden. Die Route "Entsorgungsfachbetriebe" des amtlichen Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge liefert am
+  02.11.2026 für die Namenssuche "TITAL" 0 Treffer, "Howmet" 0 Treffer; kein Treffer betrifft den Dossierbetrieb. Die Ortssuche um 59909 Bestwig mit 5
+  km Umkreis (Route "Entsorgungsfachbetriebe") listet 7 Treffer, darunter "FeRoKa Entsorgungsges. mbH" (Wiemecker Feld 2, 59909 Bestwig, ZZET01400007 /
+  1, Sammeln, Befördern); "FeRoKa Entsorgungsges. mbH" (Wiemecker Feld 2, 59909 Bestwig, ZZET01400007 / 2, Behandeln); "Gördes Recycling GmbH"
+  (Ziegelwiese 1b, 59909 Bestwig, ZZHT00300747 / 1, Sammeln); "Gördes Recycling GmbH" (Ziegelwiese 1b, 59909 Bestwig, ZZHT00300747 / 2, Befördern); kein
+  Treffer nennt TITAL GmbH (Howmet Aerospace) oder Kapellenstraße 44, 59909 Bestwig. Die Route "Altfahrzeugverwertung" liefert für die Suchbegriffe
+  "TITAL" 0 Treffer, "Howmet" 0 Treffer; kein Treffer betrifft den Dossierbetrieb; die Ortssuche um 59909 Bestwig mit 5 km Umkreis liefert dort 0
+  Treffer. Die Bestwiger Umgebung ist mit anerkannten Betrieben belegt ("FeRoKa Entsorgungsges. mbH", Wiemecker Feld 2, 3,0 km; "Gördes Recycling GmbH",
+  Ziegelwiese 1b, 4,3 km), ein Eintrag zu TITAL oder Howmet existiert jedoch nicht. Das Dossier beschreibt TITAL als Feingus-Hersteller für zivile und
+  militärische Anwendungen ohne bestätigten öffentlichen Schrottankauf; ein Zertifikatsnachweis als Entsorgungsfachbetrieb oder Demontagebetrieb liegt
+  nicht vor. Reichweite: Die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig; ein Register-Nichttreffer ist deshalb kein
+  Nichtexistenzbeweis und wurde nicht als Beleg einer fehlenden Zertifizierung gewertet.]
+
+- [Recherche 02.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=TITAL ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Howmet ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=59909%20Bestwig%2C%20Deutschland;8.3943639;51.3570343;8.3943639;51.3570343;8.3943639;51.3570343&dst=5&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=TITAL ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Howmet ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=59909%20Bestwig%2C%20Deutschland;8.3943639;51.3570343;8.3943639;51.3570343;8.3943639;51.3570343&dst=5&is=1&e=1
+  (Abruf 02.11.2026)]

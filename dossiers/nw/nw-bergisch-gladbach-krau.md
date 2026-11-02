@@ -57,3 +57,29 @@ Der Seed „Krauß“ ist weiterhin nicht mit einem konkreten Betreiber identifi
 
 - Schrott (GS)
 - Adresse: Bergisch Gladbach
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: Amtliches Fachbetrieberegister abgefragt, kein Zertifikatsnachweis für den Betrieb "Adolf Krauß Containerdienst" am Standort Im Alten Feld 27, 51429
+  Bergisch Gladbach-Bensberg gefunden. Die Route "Entsorgungsfachbetriebe" des amtlichen Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge
+  liefert am 02.11.2026 für die Namenssuche "Krauß" 2 Treffer, "Krauss" 0 Treffer; diese Treffer betreffen ausschließlich andere Rechtsträger an anderen
+  Orten, darunter "Edmund Krauß Transporte GmbH" (Industriestraße 9, 68542 Heddesheim, ZZEE00100249 / 1, Sammeln, Befördern); "Edmund Krauß Baulogistik
+  GmbH" (Hohe Straße 24, 68526 Ladenburg, ZZEE00100248 / 1, Handeln, Makeln). Die Ortssuche um 51429 Bergisch Gladbach mit 3 km Umkreis (Route
+  "Entsorgungsfachbetriebe") listet 8 Treffer, darunter "REMONDIS Rhein-Berg GmbH" (An der Zinkhütte 7, 51469 Bergisch Gladbach, ZZET00600027 / 6,
+  Lagern); "REMONDIS Rhein-Berg GmbH" (An der Zinkhütte 7, 51469 Bergisch Gladbach, ZZET00600027 / 7, Behandeln); "Gregor Industriewartung GmbH & Co.
+  KG" (Richard-Seiffert-Straße 10, 51469 Bergisch Gladbach, ZZET01500446 / 1, Handeln, Makeln); "Gharib Industrieservice" (De-Gasperi-straße 5, 51469
+  Bergisch-Gladbach, ZZPT00700085 / 1, Sammeln, Befördern); kein Treffer nennt Adolf Krauß Containerdienst oder Im Alten Feld 27, 51429 Bergisch
+  Gladbach-Bensberg. Die Route "Altfahrzeugverwertung" liefert für die Suchbegriffe "Krauß" 0 Treffer, "Krauss" 0 Treffer; kein Treffer betrifft den
+  Dossierbetrieb; die Ortssuche um 51429 Bergisch Gladbach mit 3 km Umkreis liefert dort 0 Treffer. Die beiden Namens-Treffer betreffen "Edmund Krauß
+  Transporte GmbH" (Industriestraße 9, 68542 Heddesheim) und "Edmund Krauß Baulogistik GmbH" (Hohe Straße 24, 68526 Ladenburg), also andere Rechtsträger
+  an anderen Orten. Das Dossier führt den Seed-Nachnamen "Krauß" bislang nur über einen Verzeichniskandidaten; eine Betreiberwebsite mit
+  Zertifikatsangabe existiert nicht. Reichweite: Die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig; ein
+  Register-Nichttreffer ist deshalb kein Nichtexistenzbeweis und wurde nicht als Beleg einer fehlenden Zertifizierung gewertet.]
+
+- [Recherche 02.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Krau%C3%9F ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Krauss ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=51429%20Bergisch%20Gladbach%2C%20Deutschland;7.1491313;50.9594673;7.1491313;50.9594673;7.1491313;50.9594673&dst=3&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Krau%C3%9F ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Krauss ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=51429%20Bergisch%20Gladbach%2C%20Deutschland;7.1491313;50.9594673;7.1491313;50.9594673;7.1491313;50.9594673&dst=3&is=1&e=1
+  (Abruf 02.11.2026)]

@@ -47,3 +47,8 @@ Unbestätigter Haibacher Branchenbuch-Lead „Schrott Peter“, Dalbergstraße 6
 
 - Schrott
 - Adresse: Aschaffenburg (nur GS)
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Kein amtlicher Zertifikatsnachweis im Fachbetrieberegister gefunden; das Feld `certifications` bleibt leer.** Live geprüft am 02.11.2026 im amtlichen Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge (GESA). Namenssuche Route Entsorgungsfachbetriebe mit `Schrott Peter` (2 Treffer: `Elektro Recycling & Schrotthandel Peter Kass`, Am Güterbahnhof 3, 33034 Brakel, `ZZNT00600198 / 1` und `/ 2`, Namensgleichheit, anderer Ort); Namenssuche Route Altfahrzeugverwertung mit `Schrott Peter` 0 Treffer. Die ortsbezogene Kontrollabfrage mit 3 km Radius um die Dossier-Adresse Dalbergstraße 6, 63808 Haibach liefert 1 Efb-Treffer (`Stadtwerke Aschaffenburg kommunale Dienstleistungen Entsorgung, Recyclinghof Fürther Straße`, Fürther Straße 13, 63743 Aschaffenburg, `ZZLT00400066 / 2`, 2,5 km) und in der Altfahrzeugverwertung-Route 0 Treffer; ein Eintrag zu `Schrott Peter` fehlt in beiden Routen.
+  **Reichweitenklausel:** Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig; ein Nichttreffer im Register ist **kein** Nichtexistenzbeweis für eine Zertifizierung des Betriebs. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott Peter ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrott Peter ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Dalbergstra%C3%9Fe%206%2C%2063808%20Haibach%2C%20Deutschland;9.2133822;49.9634549;9.2148822;49.9649549;9.2118822;49.9619549&dst=3&is=1&a=1&gl=1 (Abruf 02.11.2026).]
