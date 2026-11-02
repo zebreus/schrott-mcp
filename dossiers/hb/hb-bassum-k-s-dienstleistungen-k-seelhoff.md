@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 clear_fields: 'phone'
 provenance_section: Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)
 provenance_ankauf_raw: unklar
@@ -57,3 +58,9 @@ K.S. Dienstleistungen K. Seelhoff bleibt ein Verzeichnislead an Osterbinde 2, 27
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — Osterbinde 2, 27211 Bassum bleibt Seed-Einzelbeleg (schrottplatz-info); Namenskollision: Nordenham/Wildeshausen-Petko-Einträge (Siegfried Petko u. Angelika, Petko Schrott Metalle) sind fremde Betriebe, kein Beleg für Seelhoff; keine Betreiber-Website, kein Register — kein Fill, Status pruefung; Quelle(n): keine belegfähige Quelle 01.10.2026]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `K.S. Dienstleistungen K. Seelhoff` (Osterbinde 2, 27211 Bassum; Verzeichnis-Lead Tel. 04241 2939, Betriebsidentität laut Dossier nicht bestätigt) wurde im amtlichen Fachbetrieberegister weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Seelhoff` -> **0 Treffer**, ebenso `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Seelhoff` -> **0 Treffer** (Filter „Art des Betriebs“ = Demontagebetrieb); (2) Radiusabfrage mit **3 km** um die Dossier-Adresse `…/Entsorgungsfachbetriebe/adr=Osterbinde 2, 27211 Bassum, Deutschland;8.7579281;52.8453997;…&dst=3&is=1&e=1` -> **1 Treffer**, und zwar der **fremde** `Fuhse Transport-GmbH | Tanklager Bassum`, Justus-von-Liebig-Straße 10, 27211 Bassum, `ZZAT00200029 / 3`, Tätigkeit „Lagern“, **1,3 km** - **kein Treffer auf Seelhoff und keiner an der Osterbinde 2**; (3) dieselbe Radiusabfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **1 Treffer**: `Aipex Transport & Trading GmbH | Autoverwertung Bassum`, Industriestr. 31, 27211 Bassum, `ZACS00100015 / 1`, **1,6 km** - ein **anderer Rechtsträger an anderer Anschrift** (im Dossier `ni-bassum-aipex-transport-trading` geführt), der **nicht** für Seelhoff übernommen wird. Die Abfragetechnik funktioniert also (Treffer in derselben Umgebung vorhanden), für „Seelhoff“ selbst gibt es weder einen Efb- noch einen AltfahrzeugV-Treffer.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Seelhoff ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Seelhoff ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Osterbinde%202%2C%2027211%20Bassum%2C%20Deutschland%3B8.7579281%3B52.8453997%3B8.8043281%3B52.8751997%3B8.7115281%3B52.8155997&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Osterbinde%202%2C%2027211%20Bassum%2C%20Deutschland%3B8.7579281%3B52.8453997%3B8.8043281%3B52.8751997%3B8.7115281%3B52.8155997&dst=3&is=1&e=1 (Abruf 02.11.2026).]

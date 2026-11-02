@@ -18,6 +18,7 @@ pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
+certifications: ''
 ---
 
 # Gantenberg
@@ -47,3 +48,9 @@ Thorsten Gantenberg ist nur der konkrete Portal-Kandidat zur erhaltenen Ebsdorfe
 
 - Kleinst-Schrotthändler
 - Adresse: Ebsdorfergrund 35085 [Website-Recherche verzeichnis: services: Schrotthandel; notes: 11880-Verzeichnis (Thorsten Gantenberg Schrotthandel).]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Gantenberg` (Ebsdorfer Str. 11, 35085 Ebsdorfergrund) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gantenberg` -> **0 Treffer** (EfB); (2) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Gantenberg` -> **0 Treffer** (Altfahrzeug). Die Radiusabfrage mit 3 km um `Ebsdorfer Str. 11, 35085 Ebsdorfergrund` (`…/Entsorgungsfachbetriebe/adr=Ebsdorfer Str. 11, 35085 Ebsdorfergrund, Deutschland;…&dst=3&is=1&e=1`) liefert **0 Treffer**, dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&o=5&e=1` ebenfalls **0 Treffer** - **kein Treffer auf `Gantenberg` und keiner auf `Ebsdorfer Str. 11`**. Als Positivkontrolle liefert die 10-km-Efb-Abfrage um dieselbe Adresse **5 Treffer** (u. a. `REMONDIS Mittelhessen GmbH`, `Goldmühle 3, 35085 Ebsdorfergrund`, `ZZET01700078 / 7, 8`, `Marburger Entsorgungs-GmbH MEG`, `Am Krekel 55, 35039 Marburg`, `ZZCT00300056 / 1, 2, 3, 4`), die 10-km-Abfrage in der Altfahrzeugverwertung-Route **0 Treffer** - die Abfragetechnik funktioniert also. Die einzige Ebsdorfergrund-Registerzeile (`REMONDIS Mittelhessen GmbH`, `Goldmühle 3`) ist ein **anderer Rechtsträger an anderer Hausnummer** und kein Beleg für `Gantenberg`.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gantenberg ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Gantenberg ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Ebsdorfer%20Str.%2011%2C%2035085%20Ebsdorfergrund%2C%20Deutschland%3B8.8171013%3B50.7280888%3B8.829101%3B50.740089%3B8.805101%3B50.716089&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Ebsdorfer%20Str.%2011%2C%2035085%20Ebsdorfergrund%2C%20Deutschland%3B8.8171013%3B50.7280888%3B8.829101%3B50.740089%3B8.805101%3B50.716089&dst=3&is=1&o=5&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Ebsdorfer%20Str.%2011%2C%2035085%20Ebsdorfergrund%2C%20Deutschland%3B8.8171013%3B50.7280888%3B8.829101%3B50.740089%3B8.805101%3B50.716089&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Ebsdorfer%20Str.%2011%2C%2035085%20Ebsdorfergrund%2C%20Deutschland%3B8.8171013%3B50.7280888%3B8.829101%3B50.740089%3B8.805101%3B50.716089&dst=10&is=1&o=5&e=1 (Abruf 02.11.2026).]

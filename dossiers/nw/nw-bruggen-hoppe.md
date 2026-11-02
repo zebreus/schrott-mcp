@@ -16,6 +16,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: (1) Behaltene Neueinträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -50,3 +51,9 @@ Hoppe an Oebel 1A, 41379 Brüggen, bleibt ein nicht unabhängig bestätigter Ver
 
 - Schrott (GS)
 - Adresse: Brüggen [Recherche 30.09.2026: Verzeichnis-Fund, Straße bestätigt (ohne PLZ im Fund); Quelle: schrottplatz-info.de/city/brueggen]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für „Hoppe“ (Frank Hoppe Schrottentsorgung, Oebel 1A, 41379 Brüggen) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Hoppe` -> **24 Treffer**, sämtlich **Fremdbetriebe außerhalb Brüggens**: „Hoppe Schrott und Metalle, Inhaber Ingo Hoppe“ und „Hoppe Schrott- und Metallhandel, Inhaber Mierko Hoppe“ (Hinter dem Turme 22 bzw. Äckernkamp 29, 38114 bzw. 38112 Braunschweig, der im Dossier bereits als Namensvetter ausgeschlossene Braunschweiger Betrieb), „Hoppe & Ebeling Handel- und Entsorgungsgesellschaft mbH“ (Industriestraße 14, 29227 Celle), „H. Hoppe GmbH & Co. KG“ (Am Hirtenbach 10, 30952 Ronnenberg), „ALBA Metall Nord GmbH Betriebsstätte Hoppegarten“ (Industriestr. 16, 15366 Hoppegarten) sowie „Autodienst Hoppegarten GmbH“, **kein Treffer auf einen Betrieb in Brüggen**; (2) Standortsuche um Oebel 1A, 41379 Brüggen `…/Entsorgungsfachbetriebe/adr=Oebel%201a%2C%2041379%20Brüggen…&dst=3&is=1&e=1` -> **1 Treffer**: „EGN Entsorgungsgesellschaft Niederrhein mbH, Deponie Brüggen II“, Oebelerheide 15, 41379 Brüggen, ZZET01700080 / 23, Tätigkeit Verwerten und Beseitigen (0,6 km), ein **Fremdbetrieb**, kein Nachweis für Hoppe; mit 5 km Radius **6 Treffer** (u. a. Gregor Weuthen Service GmbH & Co. KG, Alst 130, 41372 Brüggen, 3,2 km; Beneschan Containerdienst GmbH und Lankes Entsorgung GmbH & Co. KG, Stiegstraße 72, 41379 Brüggen, 4,2 km; Steil Montage GmbH, Stiegstraße 60, 41379 Brüggen, 4,3 km), **kein Treffer auf Hoppe**; (3) dieselbe Standortsuche in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&o=5` (Filter „Art des Betriebs = Egal“) -> **0 Treffer**, mit 5 km Radius ebenfalls **0 Treffer**. Positivkontrolle: die 3-km-Efb-Abfrage liefert 1 Treffer, die Abfragetechnik funktioniert also.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Hoppe ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=5&n=Hoppe ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Oebel+1a%2C+41379+Br%C3%BCggen%2C+Deutschland%3B6.162216099999999%3B51.24527259999999%3B6.163720280291503%3B51.2466488097085%3B6.160711919708498%3B51.2438963902915&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Oebel+1a%2C+41379+Br%C3%BCggen%2C+Deutschland%3B6.162216099999999%3B51.24527259999999%3B6.163720280291503%3B51.2466488097085%3B6.160711919708498%3B51.2438963902915&dst=3&is=1&o=5 (Abruf 02.11.2026).]
