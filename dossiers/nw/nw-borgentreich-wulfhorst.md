@@ -15,6 +15,7 @@ status: aktiv
 description: Autoverwertung (Altfahrzeug-Ankauf, Demontage, Ersatzteile VW/Audi/Seat/Skoda) in Borgentreich
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: (1) Behaltene Neueinträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -36,3 +37,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV (GS)
 - Adresse: Borgentreich
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Wulfhorst` (Keggenriede 1, 34434 Borgentreich, Autoverwertung VW/Audi/Seat/Skoda laut Betreiberseite) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wulfhorst` -> **0 Treffer**, ebenso `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wulfhorst` -> **0 Treffer** (mit dem Filter `Art des Betriebs = Egal` erneut geprüft, ebenfalls 0); (2) Radiusabfrage mit 3 km um die Dossieradresse `…/Entsorgungsfachbetriebe/adr=Keggenriede 1, 34434 Borgentreich, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer**, dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **0 Treffer**; (3) die Kontrollabfrage mit 10 km Radius um dieselbe Adresse liefert in der Route Entsorgungsfachbetriebe **1 Treffer** (`Trömel Recycling GmbH & Co. KG`, `Bahnhofstraße 26, 34396 Liebenau`, `ZZFT00300378 / 1`, 9,0 km - **Fremdbetrieb**) und in der Route Altfahrzeugverwertung **0 Treffer**; die Abfragetechnik funktioniert also.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wulfhorst ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wulfhorst ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Keggenriede%201%2C%2034434%20Borgentreich%2C%20Deutschland;9.2427935;51.5760923;9.2442935;51.5775923;9.2412935;51.5745923&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Keggenriede%201%2C%2034434%20Borgentreich%2C%20Deutschland;9.2427935;51.5760923;9.2442935;51.5775923;9.2412935;51.5745923&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Keggenriede%201%2C%2034434%20Borgentreich%2C%20Deutschland;9.2427935;51.5760923;9.2477935;51.5810923;9.237793499999999;51.5710923&dst=10&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Keggenriede%201%2C%2034434%20Borgentreich%2C%20Deutschland;9.2427935;51.5760923;9.2477935;51.5810923;9.237793499999999;51.5710923&dst=10&is=1&e=1 (Abruf 02.11.2026).]

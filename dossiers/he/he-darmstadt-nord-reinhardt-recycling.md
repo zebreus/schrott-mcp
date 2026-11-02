@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: Einträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -45,3 +46,9 @@ Für Reinhardt-Recycling zeigen Branchenverzeichnisse weiterhin den Darmstädter
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler [Website-Recherche verzeichnis: services: Recycling, Schrotthandel; notes: Gelbe Seiten, 11880 und Seed-Adresse übereinstimmend (Akazienweg 15, Rufnummer 01575/3641914).]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Reinhardt-Recycling` (Akazienweg 15, 64293 Darmstadt) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Reinhardt` -> **7 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Reinhardt` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Akazienweg 15, 64293 Darmstadt` `…/Entsorgungsfachbetriebe/adr=Akazienweg 15, 64293 Darmstadt, Deutschland;…&dst=3&is=1&e=1` -> **27 Treffer** u. a. `uniroh GmbH` (Pallaswiesenstraße 206, 64293 Darmstadt, `ZZEE00100266 / 3`, 0,5 km), `RESO GmbH` (Fabrikstraße 2, 64293 Darmstadt, `ZZET01700391 / 4`, 0,6 km), `FFR GmbH` (Mainzer Str. 80-82, 64293 Darmstadt, `ZZCT00300059 / 4`, 0,8 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Akazienweg 15, 64293 Darmstadt, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Reinhardt-Recycling`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **19 Treffer**, die Abfragetechnik funktioniert also. Die Namenssuche `n=Reinhardt` liefert 7 Treffer, sämtlich **Fremdbetriebe** (u. a. `R+S Reinhardt & Sela GmbH u.Co.KG`, Am Bahndamm 2, 63683 Ortenberg-Bleichenbach; `Reinhardt Rohstoffe GmbH`, Lichterfelder Weg 1 - 3, 14167 Berlin) - **kein** `Reinhardt-Recycling` in Darmstadt.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Reinhardt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Reinhardt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Akazienweg+15C%2C+64293+Darmstadt-Nord%2C+Deutschland%3B8.6229171%3B49.8846217%3B8.624219580291502%3B49.8858673302915%3B8.621521619708497%3B49.8831693697085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Akazienweg%2015C%2C%2064293%20Darmstadt-Nord%2C%20Deutschland;8.6229171;49.8846217;8.624219580291502;49.8858673302915;8.621521619708497;49.8831693697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Akazienweg%2015C%2C%2064293%20Darmstadt-Nord%2C%20Deutschland;8.6229171;49.8846217;8.624219580291502;49.8858673302915;8.621521619708497;49.8831693697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]

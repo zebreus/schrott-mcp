@@ -16,6 +16,7 @@ description: ''
 dropoff_json: ''
 pickup_json: ''
 clear_fields: 'geo'
+certifications: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -45,3 +46,9 @@ Die Betreiberwebsite nennt Leonard Dorel Caldarar als Inhaber und auf Impressum,
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotteinkauf mit Sofortauszahlung, Kabelankauf, Container, Demontage; Kreis OF/DA
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Leonard Schrotthandel` (Robert-Koch-Str. 9, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Leonard` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Leonard` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Robert-Koch-Str. 9, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Robert-Koch-Str. 9, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 0,2 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 0,8 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 2,1 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Robert-Koch-Str. 9, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Leonard Schrotthandel`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **30 Treffer**, die Abfragetechnik funktioniert also.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Leonard ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Leonard ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe+9%2C+63128+Dietzenbach%2C+Deutschland%3B8.7878624%3B50.0051905%3B8.789371280291503%3B50.0063946302915%3B8.786673319708498%3B50.0036966697085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe%209%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7878624;50.0051905;8.789371280291503;50.0063946302915;8.786673319708498;50.0036966697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Robert-Koch-Stra%C3%9Fe%209%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7878624;50.0051905;8.789371280291503;50.0063946302915;8.786673319708498;50.0036966697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]

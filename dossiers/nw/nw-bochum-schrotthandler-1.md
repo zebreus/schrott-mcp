@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
@@ -36,3 +37,9 @@ Die Betreiberseite „Ihr Spezialist rund um Schrott und Metall“ nennt Paulstr
 
 - Paulstr. 9d, 0176-Nr.
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Schrotthändler #1` (Paulstraße 9d, 44803 Bochum - Betreiberangabe ohne Impressumsnamen) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) mangels rechtlich identifizierbarer Firmierung (`Schrotthändler #1` ist kein Firmierungsbestandteil) war keine belastbare Namenssuche möglich; die Radiusabfrage mit 3 km um die Dossieradresse `…/Entsorgungsfachbetriebe/adr=Paulstraße 9D, 44803 Bochum, Deutschland;…&dst=3&is=1&e=1` -> **20 Treffer**, u. a. `USB Service GmbH Verwaltung`, `Hanielstraße 1, 44801 Bochum`, `ZZEE00200292 / 1`, 1,1 km, `A. Fischer & Söhne GmbH (Fuhrpark)`, `Altenbochumer Straße 15, 44803 Bochum`, `ZZET01600035 / 1`, 1,5 km - **kein Treffer auf Paulstraße 9d**; (2) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **0 Treffer** (mit `Art des Betriebs = Egal` erneut geprüft, ebenfalls 0); (3) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> 119 Efb-Treffer und 1 Altfahrzeug-Treffer (`Rohstoffhandel Heinrichs GmbH & Co. KG`, Gelsenkirchen), die Abfragetechnik funktioniert also. Die offen gebliebene Identität des Seed-Betriebs wird durch den Registerbefund nicht verändert.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Paulstra%C3%9Fe%209D%2C%2044803%20Bochum%2C%20Deutschland;7.2420197;51.463815;7.2435197;51.465315;7.2405197;51.462315&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Paulstra%C3%9Fe%209D%2C%2044803%20Bochum%2C%20Deutschland;7.2420197;51.463815;7.2435197;51.465315;7.2405197;51.462315&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Paulstra%C3%9Fe%209D%2C%2044803%20Bochum%2C%20Deutschland;7.2420197;51.463815;7.2470197;51.468815;7.2370197;51.458814999999994&dst=10&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Paulstra%C3%9Fe%209D%2C%2044803%20Bochum%2C%20Deutschland;7.2420197;51.463815;7.2470197;51.468815;7.2370197;51.458814999999994&dst=10&is=1&e=1 (Abruf 02.11.2026).]
