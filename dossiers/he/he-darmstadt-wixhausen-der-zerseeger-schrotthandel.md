@@ -16,6 +16,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: Einträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -56,3 +57,9 @@ Ankauf/Verkauf/Gebühren: keine verifizierten Listen, nicht aus einer unlesbaren
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler [Website-Recherche verzeichnis: services: Schrotthandel; notes: Gelbe Seiten, 11880 und Seed-Adresse übereinstimmend (Wixhausen, Rufnummer 0177/9333733).]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Der Zerseeger Schrotthandel` (Am Sportplatz 12, 64291 Darmstadt-Wixhausen) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Zerseeger` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Zerseeger` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Am Sportplatz 12, 64291 Darmstadt-Wixhausen` `…/Entsorgungsfachbetriebe/adr=Am Sportplatz 12, 64291 Darmstadt-Wixhausen, Deutschland;…&dst=3&is=1&e=1` -> **3 Treffer** u. a. `Darmstädter Recycling Zentrum GmbH (DRZ GmbH)` (Röntgenstraße 12, 64291 Darmstadt, `ZZHT01000192 / 3`, 1,7 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Am Sportplatz 12, 64291 Darmstadt-Wixhausen, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Der Zerseeger Schrotthandel`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **24 Treffer**, die Abfragetechnik funktioniert also.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Zerseeger ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Zerseeger ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Am+Sportpl.+12%2C+64291+Darmstadt%2C+Deutschland%3B8.6293837%3B49.9316744%3B8.630734380291502%3B49.9329301302915%3B8.628036419708497%3B49.9302321697085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Am%20Sportpl.%2012%2C%2064291%20Darmstadt%2C%20Deutschland;8.6293837;49.9316744;8.630734380291502;49.9329301302915;8.628036419708497;49.9302321697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Am%20Sportpl.%2012%2C%2064291%20Darmstadt%2C%20Deutschland;8.6293837;49.9316744;8.630734380291502;49.9329301302915;8.628036419708497;49.9302321697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]

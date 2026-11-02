@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -40,3 +41,9 @@ Die bisherige Identität beruht auf Branchenbuch-Leads: A. Lorenz, Akazienweg 3,
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Schrotthandel A. Lorenz` (Akazienweg 3, 64293 Darmstadt) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lorenz` -> **16 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Lorenz` -> **2 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Akazienweg 3, 64293 Darmstadt` `…/Entsorgungsfachbetriebe/adr=Akazienweg 3, 64293 Darmstadt, Deutschland;…&dst=3&is=1&e=1` -> **27 Treffer** u. a. `uniroh GmbH` (Pallaswiesenstraße 206, 64293 Darmstadt, `ZZEE00100266 / 3`, 0,5 km), `RESO GmbH` (Fabrikstraße 2, 64293 Darmstadt, `ZZET01700391 / 4`, 0,6 km), `FFR GmbH` (Mainzer Str. 80-82, 64293 Darmstadt, `ZZCT00300059 / 4`, 0,7 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Akazienweg 3, 64293 Darmstadt, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Schrotthandel A. Lorenz`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **19 Treffer**, die Abfragetechnik funktioniert also. Die Namenssuche `n=Lorenz` liefert 16 Efb- und 2 Altfahrzeug-Treffer, sämtlich **Fremdbetriebe** (u. a. `Lorenz Wittmann GmbH`, Albert-Einstein-Straße 10, 84030 Ergolding; `Abschlepp-Service und Autoverwertung Lorenz e.K.`, Schachtstraße 29, 45739 Oer-Erkenschwick) - **kein** `A. Lorenz` am Akazienweg 3.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lorenz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Lorenz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Akazienweg+3%2C+64293+Darmstadt-Nord%2C+Deutschland%3B8.6235805%3B49.8849396%3B8.624902030291501%3B49.8862209802915%3B8.622204069708497%3B49.8835230197085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Akazienweg%203%2C%2064293%20Darmstadt-Nord%2C%20Deutschland;8.6235805;49.8849396;8.624902030291501;49.8862209802915;8.622204069708497;49.8835230197085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Akazienweg%203%2C%2064293%20Darmstadt-Nord%2C%20Deutschland;8.6235805;49.8849396;8.624902030291501;49.8862209802915;8.622204069708497;49.8835230197085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
