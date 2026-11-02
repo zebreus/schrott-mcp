@@ -135,6 +135,15 @@ class ReleaseDeltaStateTests(unittest.TestCase):
 
     def test_notes_seed_geo_and_service_are_enforced(self):
         slug = self.expected[0]["slug"]
+        # Die Geo-Pruefung setzt ein vorhandenes Koordinatenpaar voraus: ein
+        # Dossier ohne Koordinaten (lat/lon NULL) kann keine Abweichung
+        # erzeugen. Fuer den Geo-Teil wird deshalb ein Slug **mit** Paar
+        # gewaehlt, damit die Pruefung tatsaechlich greift.
+        geo_slug = next(
+            (e["slug"] for e in self.expected
+             if e.get("geo") and e["geo"][0] is not None and e["geo"][1] is not None),
+            slug,
+        )
         with closing(VERIFIER.connect(self.path)) as public:
             self.db.execute("UPDATE traders SET notes=notes||' changed' WHERE slug=?", (slug,))
             self.db.commit()
@@ -148,11 +157,11 @@ class ReleaseDeltaStateTests(unittest.TestCase):
                           VERIFIER.verify(public, self.manifest)["failures"])
             self.db.execute("UPDATE traders SET extra_json=? WHERE slug=?",
                             (json.dumps({"seed_hash": self.expected[0]["seed_hash"]}), slug))
-            self.db.execute("UPDATE traders SET lat=lat+0.5 WHERE slug=?", (slug,))
+            self.db.execute("UPDATE traders SET lat=lat+0.5 WHERE slug=?", (geo_slug,))
             self.db.commit()
-            self.assertIn(f"{slug}: coordinate pair mismatch",
+            self.assertIn(f"{geo_slug}: coordinate pair mismatch",
                           VERIFIER.verify(public, self.manifest)["failures"])
-            self.db.execute("UPDATE traders SET lat=NULL, lon=NULL WHERE slug=?", (slug,))
+            self.db.execute("UPDATE traders SET lat=NULL, lon=NULL WHERE slug=?", (geo_slug,))
             self.db.execute("UPDATE traders SET dropoff_json='{\"allowed\": true}' WHERE slug=?", (slug,))
             self.db.commit()
             self.assertIn(f"{slug}: service JSON mismatch",
