@@ -160,6 +160,53 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
     Ok(())
 }
 
+/// True when two values of a field denote the same thing and differ only in
+/// their spelling.
+///
+/// * **phone:** the digit sequence decides. The country code ("+49"/"0049")
+///   and the "Auslands-Null" "(0)" are removed, so
+///   "+49 (0) 33452 49 37 30" and "033452 493730" are the same number.
+/// * **street:** the German street suffix is normalized ("Straße"/"strasse"/
+///   "str." → "str") and the spacing is collapsed, so "Hafenrandstraße 5-6"
+///   and "Hafenrandstr. 5-6" are the same address.
+/// * every other field: an exact comparison.
+fn same_value(field: &str, new: &str, old: &str) -> bool {
+    match field {
+        "phone" => phone_key(new) == phone_key(old),
+        "street" => street_key(new) == street_key(old),
+        _ => false,
+    }
+}
+
+/// The comparable key of a phone number: the digits without the country code
+/// and without the "Auslands-Null".
+fn phone_key(s: &str) -> String {
+    let mut t = s.replace("(0)", " ");
+    let trimmed = t.trim_start();
+    for prefix in ["+49", "0049"] {
+        if let Some(rest) = trimmed.strip_prefix(prefix) {
+            t = rest.to_owned();
+            break;
+        }
+    }
+    let mut digits: String = t.chars().filter(|c| c.is_ascii_digit()).collect();
+    // Die Inlandform traegt die Trunknull; die gedruckte Auslandsform laesst
+    // sie weg ("(0)" oder gar nichts).
+    if !digits.starts_with('0') {
+        digits.insert(0, '0');
+    }
+    digits
+}
+
+/// The comparable key of a street: the suffix normalized, the spacing
+/// collapsed, the case folded.
+fn street_key(s: &str) -> String {
+    let mut t = s.to_lowercase();
+    t = t.replace("strasse", "str").replace("straße", "str");
+    t = t.replace('.', "");
+    t.split_whitespace().collect::<Vec<_>>().join(" ")
+}
+
 /// One trader row, as stored.
 #[derive(Debug, Clone)]
 pub struct TraderRow {
@@ -371,6 +418,15 @@ impl PublicDb {
             if new.is_empty() || new == old || (empty_only && !old.is_empty()) {
                 continue;
             }
+            // A scraper often writes the *same* value in another spelling
+            // ("Hafenrandstraße 5-6" vs. "Hafenrandstr. 5-6", "06021/8460-0"
+            // vs. "06021 84600"). Overwriting the researched seed value with
+            // such a variant would make the row flip on every cycle and would
+            // fail the release verifier without any factual change. A pure
+            // formatting difference is therefore not a change.
+            if same_value(col, new, old) {
+                continue;
+            }
             changed.push(col.to_owned());
             set.push(format!("{col} = ?"));
             args.push(rusqlite::types::Value::Text(new.to_owned()));
@@ -489,7 +545,7 @@ fn row_to_trader(r: &rusqlite::Row<'_>) -> rusqlite::Result<TraderRow> {
 
 #[cfg(test)]
 mod tests {
-    use super::{migrate, NewTrader, PublicDb, SCHEMA};
+    use super::{migrate, same_value, NewTrader, PublicDb, SCHEMA};
     use crate::test_support::TempDbDir;
 
     fn trader<'a>(slug: &'a str, name: &'a str, city: &'a str, now: &'a str) -> NewTrader<'a> {
@@ -684,5 +740,31 @@ mod tests {
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("read schema version");
         assert_eq!(version, 2);
+    }
+
+    #[test]
+    fn formatting_variants_are_not_a_change() {
+        // Der Scraper schreibt dieselbe Nummer in anderer Schreibweise - das
+        // ist kein Wertwechsel und darf den Seedwert nicht ueberschreiben.
+        assert!(same_value("phone", "06021/8460-0", "06021 84600"));
+        assert!(same_value(
+            "phone",
+            "+49 (0) 33452 49 37 30",
+            "033452 493730"
+        ));
+        assert!(same_value(
+            "street",
+            "Hafenrandstraße 5-6",
+            "Hafenrandstr. 5-6"
+        ));
+        // Verschiedene Nummern oder Adressen bleiben ein Wechsel.
+        assert!(!same_value("phone", "06021 84601", "06021 84600"));
+        assert!(!same_value(
+            "street",
+            "Hafenrandstr. 5-7",
+            "Hafenrandstr. 5-6"
+        ));
+        // Andere Felder werden nie als gleich behandelt.
+        assert!(!same_value("email", "a@b.de", "A@B.DE"));
     }
 }
