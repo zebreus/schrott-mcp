@@ -44,7 +44,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Recyclingzentrum Bünde GmbH / Drekopf Recyclingzentrum Bünde GmbH Bielefeld", "Tiesloh 1, 33739 Bielefeld", "ZZEE00100085 / 5" ("Lagern") und "Drekopf
   Recyclingzentrum Bünde GmbH / Drekopf | Bielefeld", "Tiesloh 1, 33739 Bielefeld", "ZZEE00100085 / 6" ("Behandeln"). Der Detaildialog der Anlage 6
   nennt wörtlich "Bezeichnung: Drekopf | Bielefeld", "Adresse: Tiesloh 1, 33739 Bielefeld", "Internetadresse: `www.drekopf.de`", "E-Mail:
-  tristan.preiss@drekopf.de", "Vorgangsnummer: ZZEE00100085", "Zertifikatsanlagennr.: 6", "Zertifizierte Tätigkeiten: Behandeln".]
+  tristan.preiss@drekopf.de", "Vorgangsnummer: ZZEE00100085", "Zertifikatsanlagennr.: 6", "Zertifizierte Tätigkeiten: Behandeln".
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.]
 
 - [Recherche 02.11.2026: Das über den Detaildialog herunterladbare amtliche Zertifikat (PDF, wörtlich) trägt "1.1 Name: bvse-Entsorgergemeinschaft e.V.", "3.1 Nummer des
   Zertifikats ...: 10349", "3.3 Vorgangsnummer ...: ZZEE001000855009", "3.4 Das Zertifikat beinhaltet 6 Anlage(n)", "3.7 Das Zertifikat ist gültig bis

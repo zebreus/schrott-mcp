@@ -47,7 +47,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   der Gemeinsamen Stelle Altfahrzeuge liefert am 02.11.2026 für den Suchbegriff "Drewer" genau 1 Treffer und für die Ortssuche 33719 Bielefeld mit 3 km
   Umkreis ebenfalls genau 1 Treffer mit Entfernung "0,0 km": "Drewer Autoverwertungs- und Handelsgesellschaft mbH", "Werningshof 26, 33719 Bielefeld",
   "ZAES01100009 / 1". Der Detaildialog nennt wörtlich "Bezeichnung der Firma: Drewer Autoverwertungs- und Handelsgesellschaft mbH" und "Adresse der
-  Firma: Werningshof 26, 33719 Bielefeld".]
+  Firma: Werningshof 26, 33719 Bielefeld".
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.]
 
 - [Recherche 02.11.2026: Betriebsart im Register ausgewiesen: Die Abfrage mit dem Filter "Art des Betriebs" liefert den Datensatz nur bei der Einstellung "Demontagebetrieb" (1
   Treffer) und bei "Egal" (1 Treffer), während die Einstellungen "Annahmestelle", "Rücknahmestelle", "Schredderanlage" und "Sonstige Anlage zur weiteren

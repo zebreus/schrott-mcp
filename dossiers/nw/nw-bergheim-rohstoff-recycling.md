@@ -54,7 +54,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Tätigkeiten: Befördern, Lagern, Behandeln". Das über den Detaildialog herunterladbare amtliche Zertifikat (PDF, wörtlich) trägt "3.1 Nummer des
   Zertifikats ...: 01 400 187133", "3.3 Vorgangsnummer ...: ZZET016001968008", "3.4 Das Zertifikat beinhaltet 1 Anlage(n)", "3.7 Das Zertifikat ist
   gültig bis zum 31.08.2027", "1.1 Name: TÜV Rheinland Cert GmbH", "4.1 Name: eR erft RECYCLING GmbH", "4.4 Registernummer (HRA, HRB etc.): HRB 59114
-  Registergericht: Köln", "6. Prüfungsdatum: 25.02.2026", "8. Ausstellungsdatum: 03.07.2026".]
+  Registergericht: Köln", "6. Prüfungsdatum: 25.02.2026", "8. Ausstellungsdatum: 03.07.2026".
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.]
 
 - [Recherche 02.11.2026: Identität zum Dossierbetrieb belegt, Firmierungswechsel dokumentiert. Das Dossier führt "Rohstoff Recycling" mit der Adresse Walter-Gropius-Straße 38,
   50126 Bergheim und dem Telefon 02271 497867. Das Impressum der Betreiberseite nennt wörtlich "Rohstoff Recycling Bergheim GmbH, Walter-Gropius-Straße

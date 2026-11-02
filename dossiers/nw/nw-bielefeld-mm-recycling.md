@@ -58,7 +58,8 @@ Neuer Händler, **nicht** der vorhandene MM Schrotthandel / MM Schrott & Metalle
   der Gemeinsamen Stelle Altfahrzeuge liefert am 02.11.2026 für den Suchbegriff "Bielefelder Autoverwertung" genau 1 Treffer und für die Ortssuche 33729
   Bielefeld mit 3 km Umkreis ebenfalls genau 1 Treffer mit Entfernung "0,0 km": "M + M Recycling GmbH Bielefelder Autoverwertung / M + M Recycling
   Bielefelder Autoverwertung", "Grafenheider Straße 105, 33729 Bielefeld", "ZAES01100024 / 1". Der Suchbegriff "M+M Recycling" liefert in dieser Route 8
-  Treffer, der Suchbegriff "Matuschok" 0 Treffer.]
+  Treffer, der Suchbegriff "Matuschok" 0 Treffer.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.]
 
 - [Recherche 02.11.2026: Betriebsart im Register ausgewiesen: Die Abfrage mit dem Filter "Art des Betriebs" liefert den Datensatz nur bei der Einstellung "Demontagebetrieb" (1
   Treffer) und bei "Egal" (1 Treffer); die Einstellungen "Annahmestelle", "Rücknahmestelle", "Schredderanlage" und "Sonstige Anlage zur weiteren

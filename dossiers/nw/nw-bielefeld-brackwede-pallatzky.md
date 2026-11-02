@@ -47,7 +47,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   herunterladbare amtliche Zertifikat (PDF, wörtlich) trägt "3.1 Nummer des Zertifikats ...: 120298126", "3.3 Vorgangsnummer ...: ZZHT003006318011",
   "3.4 Das Zertifikat beinhaltet 4 Anlage(n)", "3.7 Das Zertifikat ist gültig bis zum 02.08.2027", "1.1 Name: DEKRA Certification GmbH", "4.1 Name:
   Pallatzky GmbH", "4.2 Straße: Stellwerkstraße 16", "4.4 Registernummer (HRA, HRB etc.): HRB 32764 Registergericht: Bielefeld", "6. Prüfungsdatum:
-  03.02.2026", "8. Ausstellungsdatum: 24.02.2026".]
+  03.02.2026", "8. Ausstellungsdatum: 24.02.2026".
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.]
 
 - [Recherche 02.11.2026: Anlagenzuordnung wörtlich aus dem Zertifikat: "Anlage 1 zum Zertifikat mit der Nummer ZZHT003006318011 / 120298126", "1.1 Bezeichnung des Standorts:
   Pallatzky GmbH", "1.2 Straße: Stellwerkstraße 16", "2.1 Sammeln Kennnummer nach § 28 NachwV: E711804516", "2.2 Befördern Kennnummer nach § 28 NachwV:
