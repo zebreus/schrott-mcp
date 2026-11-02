@@ -16,6 +16,7 @@ description: ''
 dropoff_json: ''
 pickup_json: ''
 clear_fields: 'geo'
+certifications: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -55,3 +56,9 @@ Die Website von Cristofor Schrotthandel ist erreichbar und nennt Cristofor Ciura
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrottankauf (faire Preise), Abholung, Container, Demontage, Entrümpelung
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Cristofor Schrotthandel` (Marktheidenfelder Weg 2, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Cristofor` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Cristofor` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Marktheidenfelder Weg 2, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Marktheidenfelder Weg 2, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 1,1 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 1,2 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 1,3 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Marktheidenfelder Weg 2, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Cristofor Schrotthandel`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **36 Treffer**, die Abfragetechnik funktioniert also.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Cristofor ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Cristofor ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Marktheidenfelder+Weg+2%2C+63128+Dietzenbach%2C+Deutschland%3B8.786498%3B50.01424%3B8.787695730291501%3B50.0156111302915%3B8.784997769708498%3B50.0129131697085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Marktheidenfelder%20Weg%202%2C%2063128%20Dietzenbach%2C%20Deutschland;8.786498;50.01424;8.787695730291501;50.0156111302915;8.784997769708498;50.0129131697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Marktheidenfelder%20Weg%202%2C%2063128%20Dietzenbach%2C%20Deutschland;8.786498;50.01424;8.787695730291501;50.0156111302915;8.784997769708498;50.0129131697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
