@@ -48,7 +48,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Anlagen der Dossier-Adresse mit 0,0 km Entfernung. Das über den Detaildialog herunterladbare amtliche Zertifikat (PDF, wörtlich) trägt "1.1 Name: TÜV
   Rheinland Cert GmbH", "3.1 Nummer des Zertifikats ...: 01 400 1800134", "3.3 Vorgangsnummer ...: ZZET016000355009", "3.4 Das Zertifikat beinhaltet 7
   Anlage(n)", "3.7 Das Zertifikat ist gültig bis zum 30.11.2027", "4.1 Name: A. Fischer & Söhne GmbH", "4.2 Straße: Altenbochumer Straße 15", "4.4
-  Registernummer: HRB 113 Registergericht: Bochum", "6. Prüfungsdatum: 05.05.2026", "8. Ausstellungsdatum: 28.07.2026".]
+  Registernummer: HRB 113 Registergericht: Bochum", "6. Prüfungsdatum: 05.05.2026", "8. Ausstellungsdatum: 28.07.2026".
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.]
 
 - [Recherche 02.11.2026: Anlage für den Schrotthandel am Dossier-Standort wörtlich: "Anlage 4 zum Zertifikat mit der Nummer ZZET016000355009 / 01 400 1800134", "1.1
   Bezeichnung des Standorts: A. Fischer & Söhne GmbH (Altmetallsortierung)", "1.2 Straße: Altenbochumer Straße 15", "1.3 ... Postleitzahl: 44803 Ort:
