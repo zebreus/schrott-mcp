@@ -43,3 +43,25 @@ provenance_origin: table
 
 - Alemannenstr. 102, Festnetz-Profil
 - urspr. Website-Angabe: keine gefunden
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: Amtliches Fachbetrieberegister abgefragt, kein Zertifikatsnachweis für den Betrieb "Nam Schrottabholung Bocholt" am Standort Alemannenstr. 102, 46395
+  Bocholt gefunden. Die Route "Entsorgungsfachbetriebe" des amtlichen Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge liefert am 02.11.2026
+  für die Namenssuche "Nam Schrottabholung" 0 Treffer, "Nam" 0 Treffer; kein Treffer betrifft den Dossierbetrieb. Die Ortssuche um 46395 Bocholt mit 3
+  km Umkreis (Route "Entsorgungsfachbetriebe") listet 0 Treffer; kein Treffer nennt Nam Schrottabholung Bocholt oder Alemannenstr. 102, 46395 Bocholt.
+  Die Route "Altfahrzeugverwertung" liefert für die Suchbegriffe "Nam Schrottabholung" 0 Treffer, "Nam" 0 Treffer; kein Treffer betrifft den
+  Dossierbetrieb; die Ortssuche um 46395 Bocholt mit 3 km Umkreis liefert dort 0 Treffer. Die Ortssuche um Bocholt mit 3 km Umkreis liefert in beiden
+  Registerrouten 0 Treffer; die Nachbarschaft ist damit nicht durch Efb- oder AltfahrzeugV-Einträge belegt. Das Verzeichnis SchrottRegister führt für
+  Bocholt 3 anerkannte Betriebe ("EGB Entsorgungsgesellschaft Bocholt mbH", Bovenkerkesch 14; "GB-GmbH", Telingskamp 13; "Plastic-Partner Bralten &
+  Evers GmbH", Harderhook 22), aber keinen Betrieb namens Nam. Das Dossier führt den Betrieb bislang nur über einen Verzeichnislead ohne
+  Betreiberwebsite und ohne Zertifikatsangabe. Reichweite: Die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig; ein
+  Register-Nichttreffer ist deshalb kein Nichtexistenzbeweis und wurde nicht als Beleg einer fehlenden Zertifizierung gewertet.]
+
+- [Recherche 02.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Nam%20Schrottabholung ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Nam ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46395%20Bocholt%2C%20Deutschland;6.6044304;51.8256253;6.6044304;51.8256253;6.6044304;51.8256253&dst=3&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Nam%20Schrottabholung ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Nam ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=46395%20Bocholt%2C%20Deutschland;6.6044304;51.8256253;6.6044304;51.8256253;6.6044304;51.8256253&dst=3&is=1&e=1
+  (Abruf 02.11.2026)]
