@@ -1,0 +1,1646 @@
+{
+  "version": 1,
+  "release_commit": "f7f43f134e9d8da4d4a1cfbf071421910291483a",
+  "release_tree": "dd6ea6ac59623803eeb1544226276063a76d3c8e",
+  "rehearsal_manifest_sha256": "00c8b942a0f220ac70f607657be91dbe9a5262835809b5da3dc4d847a460b6f2",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "by-aschaffenburg-63741-kabelverwertung-aschaffenburg-kva-gmbh",
+    "by-aschaffenburg-63743-beba-autoverwertung",
+    "by-aschaffenburg-bernhard-westarp",
+    "by-aschaffenburg-obernau-63743-hensel-recycling",
+    "by-aschaffenburg-schick-walter-rohprodukte",
+    "by-aschaffenburg-schrott-peter",
+    "by-aschaffenburg-stefan-schafer",
+    "by-attenkirchen-koch",
+    "by-auerbach-ark",
+    "by-augsburg-86165-avl-autoverwertung-lechhausen",
+    "by-augsburg-brendle-j-dienstleistungen",
+    "by-augsburg-inningen-rohstoffhandel-sud-a-z",
+    "by-augsburg-lechhausen-dehner-recycling",
+    "by-augsburg-lechhausen-ortolf-recycling-erwin-ortolf",
+    "by-augsburg-reinhardt-robert",
+    "by-augsburg-rheinische-scheidestaette-filiale",
+    "by-augsburg-spoto-altmetallverwertung",
+    "by-bad-neustadt-a-d-saale-joachim-schrotthandel",
+    "by-bamberg-autoverwertung-piske",
+    "by-bamberg-paulus",
+    "he-bad-homburg-schrott-hg",
+    "he-bad-soden-salmunster-63628-seipel-michael",
+    "he-bad-vilbel-61118-nagel",
+    "he-bad-wildungen-m-albus-an-und-verkauf",
+    "he-bebra-36179-reif-marcus",
+    "he-biebergemund-63599-voigt-klaus",
+    "he-biebertal-rodheim-blum-manuel-schrotthandel",
+    "he-biebesheim-64584-fiotech-ozdemir",
+    "he-bischofsheim-mexner",
+    "he-bischofsheim-schrott-hartmann",
+    "he-bruchkobel-63486-goldhaus-bruchkobel-goldankauf",
+    "he-bruchkoebel-beko-muenzhandel-edelmetalle",
+    "he-buedingen-63654-remondis-metallannahme",
+    "he-buseck-35418-fischer-wohnwagenverwertung",
+    "he-butzbach-35510-nord-schrott",
+    "he-calden-34379-muller-reiner",
+    "he-darmstadt-64283-goldankauf-darmstadt",
+    "he-darmstadt-64283-juwelier-munzer",
+    "he-darmstadt-64291-schrotthandel-meyer",
+    "he-darmstadt-64293-autoverwertung-blechmann",
+    "nw-bergheim-rohstoff-recycling",
+    "nw-bergisch-gladbach-blum",
+    "nw-bergisch-gladbach-horst-beck",
+    "nw-bergisch-gladbach-krau",
+    "nw-bergisch-gladbach-peters",
+    "nw-bergisch-gladbach-rehbach",
+    "nw-bergkamen-ready",
+    "nw-bestwig-tital-howmet-aerospace",
+    "nw-bielefeld-brackwede-pallatzky",
+    "nw-bielefeld-bruderich",
+    "nw-bielefeld-drekopf",
+    "nw-bielefeld-drewer-autoverwertungs-u-handelsges",
+    "nw-bielefeld-kretzschmann",
+    "nw-bielefeld-mm-recycling",
+    "nw-bielefeld-pero-s",
+    "nw-bielefeld-pro-aurum-filiale",
+    "nw-bielefeld-sennestadt-eiles",
+    "nw-bocholt-nam-schrottabholung-bocholt",
+    "nw-bochum-a-fischer-sohne",
+    "nw-bochum-a-stober-schrott-und-metallgrohandel"
+  ],
+  "scope": "exactly the 60 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-f7f43f1. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "by-aschaffenburg-63741-kabelverwertung-aschaffenburg-kva-gmbh",
+      "values": {
+        "name": "Kabelverwertung Aschaffenburg KVA GmbH",
+        "city": "Aschaffenburg",
+        "street": "Pappelweg 8a",
+        "postcode": "63741",
+        "phone": "06021 4443141",
+        "email": "info@kabelverwertung-aschaffenburg.de",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "description": "Ankauf von Altkabeln und NE-Metallen zu Tagespreisen; Selbstanlieferung mit Verwiegung sowie Abholung und Lagerbehälter.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.kabelverwertung-aschaffenburg.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c9d23f01ec51abe03ef4b33926af9d946f91babb7080d684ed585351568b0d83",
+      "seed_hash": "00cb137364075ee4",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Anlieferung von Altkabeln und NE-Metallen; Begutachtung, Verwiegung und Abrechnung vor Ort. Privat- und Gewerbeanlieferung laut Betreiberangaben.\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Abholservice und auf Wunsch Lagerbehälter; Bedingungen und Tagespreise mit dem Betreiber vereinbaren.\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-aschaffenburg-63743-beba-autoverwertung",
+      "values": {
+        "name": "BeBa Autoverwertung",
+        "city": "Aschaffenburg",
+        "street": "Feldchenstr. 73",
+        "postcode": "63743",
+        "phone": "06021/15420",
+        "email": "info@beba-autoverwertung.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "http://beba-autoverwertung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1a5221a3505a52a61d135b0546fff9453cf63945d853831dce883cf42557efe7",
+      "seed_hash": "ffa00b765b746cf7",
+      "geo": [
+        49.97186666666666,
+        9.147966666666667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-aschaffenburg-bernhard-westarp",
+      "values": {
+        "name": "BERNHARD WESTARP GmbH & Co. KG",
+        "city": "Aschaffenburg",
+        "street": "Hafenrandstr. 5-6",
+        "postcode": "63741",
+        "phone": "06021 84600",
+        "email": "info@westarp-kg.de",
+        "opening_hours": "Mo-Fr 07:30-12:00+13:00-16:15, Sa 07:30-12:00 Annahme bis 11:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.westarp-kg.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b50a7b88877eb57ceffd0982891739caf3d60c581db6cdb5fd034e4afe3a2f9f",
+      "seed_hash": "1f0c533b6a1011b9",
+      "geo": [
+        49.9697504,
+        9.1148019
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden; Zertifikat K21433-20260306-Efb-de, Vorgangsnummer ZZHT004003037014; Prüfungsdatum 27.02.2026, Ausstellungsdatum 06.03.2026, gültig bis 26.08.2027; das Zertifikat beinhaltet 33 Anlagen; Betreiber Rohstoffhandel Bernhard Westarp GmbH & Co. KG, Hauptsitz und Standort Hafenrandstraße 5-6, 63741 Aschaffenburg, HRA 466 Registergericht Aschaffenburg; Anlage 1 Sammeln, Befördern, Handeln und Makeln (Kennnummer nach § 28 NachwV I661T03008 bzw. I661H00040), Anlage 2 Lagern (I661S00084), Anlage 3 Behandeln (I661S00084) am Standort Hafenrandstraße 5-6, 63741 Aschaffenburg)\", \"AltfahrzeugV: Anerkennung als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Filter Art des Betriebs = Demontagebetrieb; Vorgangsnummer ZARS00500003, Bescheinigungsanlagennr. 1, Bezeichnung Rohstoffhandel Bernhardt Westarp KG, Hafenrandstraße 5-6, 63741 Aschaffenburg, Telefon 06021/84600, Ansprechpartner Herr Andre Roth; die Felder Kennnummer und Rücknahme für folgende Hersteller sind im Register leer)\", \"Erstbehandlungsanlage nach § 21 Abs. 3 ElektroG (PÜG Prüf- und Überwachungsgesellschaft mbH, Zertifikat-Registrier-Nr. K21433, Prüfbericht-Nr. K21433, Begutachtung 27.02.2026, zertifizierter Standort Hafenrandstraße 5-6, 63741 Aschaffenburg; Gültigkeit laut Dokument: vom 04.03.2026 bis 26.08.2026, während die Parallelzertifikate für die Westarp-Standorte Römerstraße 5-7 und Germanenstraße 33 jeweils bis 26.08.2027 nennen)\"]"
+    },
+    {
+      "slug": "by-aschaffenburg-obernau-63743-hensel-recycling",
+      "values": {
+        "name": "Hensel Recycling GmbH",
+        "city": "Aschaffenburg",
+        "street": "Mühlweg 10",
+        "postcode": "63743",
+        "phone": "+49 6028 1209-0",
+        "email": "info@hensel-recycling.com",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://hensel-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ef168ee889cd1cc5964f746fa96ec24c4b4f9f20d0d2b52480ea9689a6222b20",
+      "seed_hash": "4d5ecc146ba3aaa0",
+      "geo": [
+        49.9648,
+        9.1647
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken; Zertifikat A-001179, Vorgangsnummer ZZKT001001486011; Prüfungsdatum 04.03.2026, Ausstellungsdatum 30.04.2026, gültig bis 03.09.2027; das Zertifikat beinhaltet 4 Anlagen; Betreiber Hensel Recycling GmbH, Standort Mühlweg 10, 63743 Aschaffenburg-Obernau, HRB 7526 Registergericht Aschaffenburg; Anlage 1 Sammeln, Befördern, Handeln und Makeln (Kennnummer nach § 28 NachwV I661T04301 bzw. I661M00027), Anlage 2 Lagern (I661S00274), Anlage 3 Behandeln Katalysatorenanlage (I661S00283), Anlage 4 Behandeln (I661S00292); alle vier Anlagen am Standort Mühlweg 10, 63743 Aschaffenburg-Obernau)\", \"Erstbehandlungsanlage nach § 21 ElektroG (GZQ GmbH, Zertifikat A-001179 und Vorgangsnummer ZZKT001001486011, Anlage 4: Die Einhaltung der Anforderungen des ElektroG wurde geprüft und die Anlage gilt als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG; Standort Mühlweg 10, 63743 Aschaffenburg-Obernau)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Mühlweg 10, 63743 Aschaffenburg-Obernau (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "by-aschaffenburg-schick-walter-rohprodukte",
+      "values": {
+        "name": "Schick Walter Rohprodukte",
+        "city": "Aschaffenburg",
+        "street": "Am Welzbach 17",
+        "postcode": "63741",
+        "phone": "06021/88952",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "81bb2bb226399a9a8fdecca0d7ce038061bcffb8b5bfe0d9b8d48817026bfe3e",
+      "seed_hash": "68d995c1aaf5ef6d",
+      "geo": [
+        49.97186666666666,
+        9.147966666666667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-aschaffenburg-schrott-peter",
+      "values": {
+        "name": "Schrott Peter",
+        "city": "Haibach",
+        "street": "Dalbergstr. 6",
+        "postcode": "63808",
+        "phone": "06021 69677",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "8e86c51cc9cf70197e77edb74be611d2d40d2bb35b0f93de7657542ac2ca664e",
+      "seed_hash": "1b19811897291b92",
+      "geo": [
+        49.97186666666666,
+        9.147966666666667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-aschaffenburg-stefan-schafer",
+      "values": {
+        "name": "Stefan Schäfer KG",
+        "city": "Aschaffenburg",
+        "street": "Am Floßhafen 69",
+        "postcode": "63743",
+        "phone": "06021 22309",
+        "email": "info@schrottschaefer.de",
+        "opening_hours": "Mo–Fr 07:45–16:15",
+        "description": "",
+        "status": "unbekannt",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.schrottschaefer.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bbda38e8f0bdce797915fc85f11c9124e95b2c963f822409e369c49b5bd5839f",
+      "seed_hash": "aeec2642379f0c9c",
+      "geo": [
+        49.97186666666666,
+        9.147966666666667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-attenkirchen-koch",
+      "values": {
+        "name": "Koch",
+        "city": "Attenkirchen",
+        "street": "Moosburger Str. 2",
+        "postcode": "85395",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "61c3a4ea6f68fc828647eb713334520a840e114db2bb00727bf88ab869353a88",
+      "seed_hash": "9203308653174cf3",
+      "geo": [
+        48.49235,
+        11.7348
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-auerbach-ark",
+      "values": {
+        "name": "ARK",
+        "city": "Auerbach",
+        "street": "Wellucker Str. 6",
+        "postcode": "91275",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f04093d93f5df26bae2d124f9501d9396563e2f07cf5c584cff9016f843dbdf5",
+      "seed_hash": "795bdb9778d9c5a5",
+      "geo": [
+        49.6938,
+        11.621
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-augsburg-86165-avl-autoverwertung-lechhausen",
+      "values": {
+        "name": "AVL Autoverwertung Lechhausen",
+        "city": "Augsburg 86165",
+        "street": "Stätzlinger Str. 84",
+        "postcode": "86165",
+        "phone": "0821 796 82 41",
+        "email": "info@avl-autoverwertung.de",
+        "opening_hours": "Mo-Fr 8:00-12:30 und 13:30-18:00, Sa 10:00-14:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://www.avl-autoverwertung.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "4bd5ed3e3a01fd3a6043ed632489bb9fea6a0abfd7914399d07512ac38c6ff6b",
+      "seed_hash": "121b3ce89ca3f57a",
+      "geo": [
+        48.3822,
+        10.9337
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"AltfahrzeugV: Anerkennung als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Filter Art des Betriebs = Demontagebetrieb; Vorgangsnummer ZAHS01300084, Bescheinigungsanlagennr. 1, Kennnummer I761E3830, Bezeichnung AVL Autoverwertung Lechhausen GmbH, Stätzlinger Straße 84, 86165 Augsburg, Telefon 0821 7968241, Ansprechpartner Herr Bachmann Vitali; unter derselben Anschrift zusätzlich der Eintrag Vorgangsnummer ZAHS01600060, Bescheinigungsanlagennr. 1, Kennnummer I761E3830, Bezeichnung Autoverwertung Lechhausen Inhaber Ernst Bachmann, Telefon 0821 79682-41)\", \"Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Stätzlinger Straße 84, 86165 Augsburg (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "by-augsburg-brendle-j-dienstleistungen",
+      "values": {
+        "name": "Brendle J. Dienstleistungen",
+        "city": "Augsburg",
+        "street": "Schönbachstr. 38A",
+        "postcode": "86154",
+        "phone": "0821 - 42 54 36",
+        "email": "josefbrendle@web.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.brendle-dienstleistungen.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2df829a67b40bc286ec857af47b98cbc4d025523d899ca483d7b4ddb15c556b9",
+      "seed_hash": "15b91e662e2c221b",
+      "geo": [
+        48.3932,
+        10.8814
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-augsburg-inningen-rohstoffhandel-sud-a-z",
+      "values": {
+        "name": "Rohstoffhandel Süd A-Z UG",
+        "city": "Augsburg-Inningen",
+        "street": "Hohenstaufenstr. 57",
+        "postcode": "86199",
+        "phone": "0821 9986 4477",
+        "email": "info@rohstoffhandelsued.de",
+        "opening_hours": "Mo–Fr 08:00–15:30 (Warenannahme)",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.rohstoffhandelsued.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "65d76b8b2024362e5f88410966305d610b86d83197ab1445c2fc18a62c1e796e",
+      "seed_hash": "49c444d737da5de9",
+      "geo": [
+        48.36543571428571,
+        10.897535714285713
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-augsburg-lechhausen-dehner-recycling",
+      "values": {
+        "name": "Dehner Recycling GmbH",
+        "city": "Augsburg-Lechhausen",
+        "street": "Derchingerstr. 133",
+        "postcode": "86165",
+        "phone": "0821 790999-0",
+        "email": "e-mail@dehner-recycling.de",
+        "opening_hours": "Mo–Do 07:15–16:45, Fr 07:15–15:45",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.dehner-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2b2f042df37dfccde8deac66b71d182063945e23ebc3debd8a03937c1bd19c1a",
+      "seed_hash": "107dfbdd19bd419e",
+      "geo": [
+        48.36543571428571,
+        10.897535714285713
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden; Zertifikat K11915-20260511-Efb-de, Vorgangsnummer ZZHT004003314011; Prüfungsdatum 31.01.2026, Ausstellungsdatum 11.05.2026, gültig bis 30.07.2027; das Zertifikat beinhaltet 3 Anlagen; Betreiber Dehner Recycling GmbH, Hauptsitz und Standort Derchinger Straße 133, 86165 Augsburg, HRB 19632 Registergericht Augsburg; Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV I761T00604), Anlage 2 Lagern (I761E19701), Anlage 3 Behandeln von Schrott und NE-Metallen (I761E19701) am Standort Derchinger Straße 133, 86165 Augsburg)\", \"Altfahrzeug-Annahmestelle nach § 5 Abs. 3 AltfahrzeugV (PÜG Prüf- und Überwachungsgesellschaft mbH, Zertifikat-Registrier-Nr. K11915, Prüfbericht-Nr. K11915, Betriebsnummer I761E1970, zuständige Behörde Stadt Augsburg, Begutachtung 14.01.2026, gültig vom 29.04.2026 bis 13.07.2027; zertifizierter Standort Derchinger Straße 133, 86165 Augsburg, Ansprechpartner Rainer Harnisch, Tel. 0821 790999-0) - Bescheinigung nach § 5 Abs. 3 AltfahrzeugV, keine Anerkennung als Demontagebetrieb\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Derchinger Straße 133, 86165 Augsburg (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "by-augsburg-lechhausen-ortolf-recycling-erwin-ortolf",
+      "values": {
+        "name": "Ortolf Recycling GmbH (Erwin Ortolf)",
+        "city": "Augsburg-Lechhausen",
+        "street": "Raiffeisenstr. 12",
+        "postcode": "86167",
+        "phone": "0821 713432",
+        "email": "info@ortolf-recycling.de",
+        "opening_hours": "Mo–Do 07:00–12:00/12:30–16:00, Fr 07:00–12:00/12:30–15:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.ortolf-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "eda1a2f468aa4c1e907267a1f083d1cf9f0a54e19354fc3f5066d18b115cd469",
+      "seed_hash": "4c38821a12ce7922",
+      "geo": [
+        48.36543571428571,
+        10.897535714285713
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken; Zertifikat A-000457, Vorgangsnummer ZZKT001002674006; Prüfungsdatum 23.10.2025, Ausstellungsdatum 14.01.2026, gültig bis 18.04.2027; das Zertifikat beinhaltet 4 Anlagen; Betreiber Ortolf Recycling GmbH, Standort Raiffeisenstraße 12, 86167 Augsburg, HRB 13320 Registergericht Augsburg; Anlage 1 Lagern (Kennnummer nach § 28 NachwV I761S00216), Anlage 2 Behandeln (I761S00216), Anlage 3 Sammeln und Befördern (I761T10662), Anlage 4 Handeln und Makeln (I761H00045) am Standort Raiffeisenstraße 12, 86167 Augsburg)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Raiffeisenstraße 12, 86167 Augsburg (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "by-augsburg-reinhardt-robert",
+      "values": {
+        "name": "Reinhardt Robert",
+        "city": "Augsburg",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "21be3c71c58fc536fc095fe348849f94f09e184f64075ab5d196e3edc7124a8b",
+      "seed_hash": "ea1058902ee0f55a",
+      "geo": [
+        48.36543571428571,
+        10.897535714285713
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-augsburg-rheinische-scheidestaette-filiale",
+      "values": {
+        "name": "Rheinische Scheidestätte GmbH Filiale Augsburg",
+        "city": "Augsburg",
+        "street": "Maximilianstraße 36",
+        "postcode": "86150",
+        "phone": "+49 821 218630",
+        "email": "info-augsburg@rheinische-scheidestaette.de",
+        "opening_hours": "Mo-Fr 09:30-18:00",
+        "description": "Filiale für An- und Verkauf von Edelmetallen, Schmuck, Uhren und Diamanten.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://rheinische-scheidestaette.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9801ea29fc155d045f7741a3d174a014524eb7766c023092d8a5f858598d3ba4",
+      "seed_hash": "4fcbaa25313f00f2",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-augsburg-spoto-altmetallverwertung",
+      "values": {
+        "name": "Spoto Altmetallverwertung",
+        "city": "Augsburg",
+        "street": "Bavousstr. 6",
+        "postcode": "86153",
+        "phone": "0151 1523 8228",
+        "email": "info@spoto-altmetall.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://spoto-altmetall.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "99ddac3b5b36696e4650138caa9bcae9ce33187996ea85292de1424da2905cbf",
+      "seed_hash": "bc29fc8f58430217",
+      "geo": [
+        48.36543571428571,
+        10.897535714285713
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-bad-neustadt-a-d-saale-joachim-schrotthandel",
+      "values": {
+        "name": "Joachim Schrotthandel GmbH",
+        "city": "Bad Neustadt a. d. Saale",
+        "street": "Leutersgrube 2",
+        "postcode": "97616",
+        "phone": "09771 3150",
+        "email": "info@joachim-metalle.de",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00, Sa-So geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.joachim-metalle.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "416f02a5c4f458b4defe262986d5970c71e91639d9d0a5439457a014241d0ede",
+      "seed_hash": "4cab42a49d84e8aa",
+      "geo": [
+        48.8591037037037,
+        11.369251851851853
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München; Zertifikat 12 150 8196, Vorgangsnummer ZZIT007001034009; Prüfungsdatum 18.03.2026, Ausstellungsdatum 19.05.2026, gültig bis 06.09.2027; das Zertifikat beinhaltet 4 Anlagen; Betreiber Joachim Schrotthandel GmbH, Standort Leutersgrube 2, 97616 Bad Neustadt, HRB 8833 Registergericht Schweinfurt; Anlage 1 Sammeln (Kennnummer nach § 28 NachwV I673T01407), Anlage 2 Befördern (I673T01407), Anlage 3 Lagern (I673W10056), Anlage 4 Behandeln (I673W10056) am Standort Leutersgrube 2, 97616 Bad Neustadt)\", \"AltfahrzeugV: Anerkennung als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Filter Art des Betriebs = Demontagebetrieb; Vorgangsnummer ZZIT00700103, Bescheinigungsanlagennr. 4; Beiblatt AltfahrzeugV zur Anlage 4 des Efb-Zertifikats 12 150 8196: Die Einhaltung der Anforderungen der AltfahrzeugV wurde geprüft und die Anlage gilt als 3.2.3 Demontagebetrieb, Erzeugernummer I673E01856, Entsorgernummer (Behandeln) I673W10056, Genehmigungsbehörde Landratsamt Rhön-Grabfeld, Bad Neustadt a. d. Saale, für keinen Hersteller zur unentgeltlichen Rücknahme von Altfahrzeugen bestimmt)\"]"
+    },
+    {
+      "slug": "by-bamberg-autoverwertung-piske",
+      "values": {
+        "name": "Autoverwertung Piske (Christian Piske)",
+        "city": "Bamberg",
+        "street": "Mainstraße 3",
+        "postcode": "96052",
+        "phone": "0951 67601",
+        "email": "info@ap-auto.de",
+        "opening_hours": "Mo–Fr 08:00–12:00, 13:00–17:00",
+        "description": "An- und Verkauf von Gebraucht-, Alt- und Unfallfahrzeugen; Autoverwertung, Gebraucht- und Neuteile sowie Kfz-Werkstatt.",
+        "status": "aktiv",
+        "trader_type": "autoverwertung",
+        "website": "https://www.autoverwertung-piske.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7bd7f16f4a2284300844e0834ba272040c6359c8d5f6fba2ec9d9a8acb7047d2",
+      "seed_hash": "8ea6fb275fd3bef1",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Fahrzeugbewertung/An- und Verkauf laut Betreiberseite; Annahmebedingungen bitte vorab telefonisch klären.\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Kurzfristige Abholung per Lkw laut Betreiberseite; Gebiet und Kosten nicht veröffentlicht.\"}",
+      "certifications": "[\"AltfahrzeugV: Anerkennung als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Filter Art des Betriebs = Demontagebetrieb; Vorgangsnummer ZAHS01800076, Bescheinigungsanlagennr. 1, Kennnummer I461E1140, Bezeichnung Autoverwertung Piske Inhaber Christian Piske, Mainstraße 3, 96052 Bamberg, Telefon 0951/67601, Fax 0951/601640, Ansprechpartner Herr Christian Piske, https://www.ap-auto.de)\", \"Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Mainstraße 3, 96052 Bamberg (Abfrage 02.11.2026; der am selben Ort geführte Eintrag REMONDIS GmbH & Co. KG NL Bamberg, Vorgangsnummer ZZEE00200048 / 22, betrifft einen anderen Rechtsträger und wurde nicht übernommen)\"]"
+    },
+    {
+      "slug": "by-bamberg-paulus",
+      "values": {
+        "name": "Paulus GmbH",
+        "city": "Bamberg",
+        "street": "Gundelsheimer Str. 9 A",
+        "postcode": "96052",
+        "phone": "0951 62934",
+        "email": "georg.paulus@freenet.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://schrotthandel-bamberg.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5a8f905843b9a68a15a71ea69b6fffeac76c8101fbaf53dd6a9ab120f19ed8c2",
+      "seed_hash": "4edbc099b6dc94dd",
+      "geo": [
+        49.8925,
+        10.897025
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München; Zertifikat 12 150 56402, Vorgangsnummer ZZIT007001576009; Prüfungsdatum 12.05.2026, Ausstellungsdatum 06.08.2026, gültig bis 12.11.2027; das Zertifikat beinhaltet 3 Anlagen; Betreiber Paulus GmbH, Standort Gundelsheimer Str. 9a, 96052 Bamberg, HRB 5912 Registergericht Bamberg; Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV I461T06300), Anlage 2 Lagern (I461N00027), Anlage 3 Handeln (I461H03704) am Standort Gundelsheimer Str. 9a, 96052 Bamberg)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Gundelsheimer Str. 9a, 96052 Bamberg (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "he-bad-homburg-schrott-hg",
+      "values": {
+        "name": "Schrott-HG",
+        "city": "Bad Homburg",
+        "street": "Oberste Gärten 8",
+        "postcode": "61350",
+        "phone": "0176 24491080",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrott-HG: Schrott-, Altmetall- und Solaranlagenabholung, Haushaltsauflösung und Demontage im Main-Taunus-Kreis; die Betreiberseite warb 2013 bis 2024 mit kostenloser Abholung. Die Domain schrott-hg.de wird seit November 2024 als Verkaufs-Parking-Seite geführt und liefert heute keinen Inhalt; ein aktueller Verzeichniseintrag nennt Bommersheimer Str. 49, 61440 Oberursel-Bommersheim bei gleicher Nummer (Standortwechsel offen).",
+        "status": "pruefung",
+        "trader_type": "schrottplatz",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "46de0d701170e172dda7cc4a681c8c1c1de1ac02d92fb5067d3d1f8376731688",
+      "seed_hash": "76cd42935afd175c",
+      "geo": [
+        50.599644999999995,
+        8.979595
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-bad-soden-salmunster-63628-seipel-michael",
+      "values": {
+        "name": "Seipel Michael",
+        "city": "Bad Soden-Salmünster 63628",
+        "street": "Hufeisenstr. 3",
+        "postcode": "63628",
+        "phone": "(06056) 2390",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ef6a97bd1386c7cee245c8b6c4d0422999508d216a2a6b815eda25b0fe67be10",
+      "seed_hash": "659b0fe4c90bbf0f",
+      "geo": [
+        50.2757,
+        9.367
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-bad-vilbel-61118-nagel",
+      "values": {
+        "name": "Nagel",
+        "city": "Bad Vilbel 61118",
+        "street": "",
+        "postcode": "61118",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ca36520804daa41105d394483440e76cd416b97460352db313d0564ac05ecd81",
+      "seed_hash": "775ee7f403d85a65",
+      "geo": [
+        50.1787,
+        8.7376
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-bad-wildungen-m-albus-an-und-verkauf",
+      "values": {
+        "name": "M. Albus An- und Verkauf",
+        "city": "Bad Wildungen",
+        "street": "St.-Florian-Str. 3",
+        "postcode": "34537",
+        "phone": "(05621) 71464",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2b66744c343ea47006e5eb36c402dd07bd70d535ed1e0f4f59c408d9e78725b0",
+      "seed_hash": "423e4c16ecc871e1",
+      "geo": [
+        51.1196,
+        9.1247
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-bebra-36179-reif-marcus",
+      "values": {
+        "name": "Reif Marcus",
+        "city": "Bebra 36179",
+        "street": "Ulfenmühle 1",
+        "postcode": "36179",
+        "phone": "06622919991",
+        "email": "info@autoreif.com",
+        "opening_hours": "Mo-Fr 09:00-12:00 + 13:00-18:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://autoreif.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1e331d33ae52e692139450759d0da2ecc21d23b9822c633e39f4c5e9cbf69941",
+      "seed_hash": "43ef76cb5ae37d47",
+      "geo": [
+        50.9745,
+        9.7956
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Eintrag im amtlichen Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge (Route Altfahrzeugverwertung, Abruf 02.11.2026): Auto Reif Inhaber Marcus Reif, Ulfenmühle 1, 36179 Bebra, Vorgangsnummer ZALS00800044, Bescheinigungsanlagennr. 1, Kennnummer F73E03840;F73RD0210, E-Mail autoreif@t-online.de, Telefon 06622 919991, Fax 06622 919992, Ansprechpartner Herr Marcus Reif, Bezeichnung der Firma „Auto Reif Inhaber Marcus Reif“, Adresse der Firma Ulfenmühle 1, 36179 Bebra; die Bezeichnung der Bescheinigung lautet nicht „Altfahrzeug-Demontage-Anlage“ und das Feld „Rücknahme für folgende Hersteller“ ist leer - die Anerkennung als Demontagebetrieb wird durch diesen Eintrag nicht belegt\", \"Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Ulfenmühle 1, 36179 Bebra (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "he-biebergemund-63599-voigt-klaus",
+      "values": {
+        "name": "Voigt Klaus",
+        "city": "Biebergemünd 63599",
+        "street": "Breitenborner Str. 16",
+        "postcode": "63599",
+        "phone": "(06050) 1734",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3007fb9194c0b822c0d11df9546812d3cb7e5de5ca6386d14b0093ed6b4545ff",
+      "seed_hash": "144e5f88fff3aa02",
+      "geo": [
+        50.1806,
+        9.2861
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-biebertal-rodheim-blum-manuel-schrotthandel",
+      "values": {
+        "name": "Blum Manuel Schrotthandel",
+        "city": "Biebertal-Rodheim",
+        "street": "Am Kalkbruch 7",
+        "postcode": "35444",
+        "phone": "01783284627",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "c2550fcbcfd9a67aaea99d3e789136828adfcb32bdc7017a808611741c27a0ea",
+      "seed_hash": "78f2fa5416754c2d",
+      "geo": [
+        50.6182,
+        8.6017
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-biebesheim-64584-fiotech-ozdemir",
+      "values": {
+        "name": "Fiotech (Özdemir)",
+        "city": "Biebesheim 64584",
+        "street": "Lise-Meitner-Str. 6",
+        "postcode": "64584",
+        "phone": "+49 6258/9893652",
+        "email": "info@fiotech.eu",
+        "opening_hours": "Mo–Fr 08:00–17:00 Uhr",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://fiotech.eu",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f5069e8e659fb3d3e0434e9d8d158b6fb75ce4950e0f756b12565cfd601dc98a",
+      "seed_hash": "08fd216bf82824f7",
+      "geo": [
+        49.7836,
+        8.4744
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-bischofsheim-mexner",
+      "values": {
+        "name": "Mexner GmbH",
+        "city": "Bischofsheim",
+        "street": "Industriestr. 12",
+        "postcode": "65474",
+        "phone": "+49 6144 33853-0",
+        "email": "info@mexner.de",
+        "opening_hours": "Mo–Do 07:00–17:00 Uhr, Fr 07:00–15:00 Uhr",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://mexner.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "911ba36ad61c7253994e83476941fe17b34ae316a86c800554bbe1fdb758e00b",
+      "seed_hash": "f871e46e6eefd977",
+      "geo": [
+        49.9939,
+        8.3672
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat 121100930, Vorgangsnummer ZZHT003005644010; Prüfungsdatum 30.10.2025, Ausstellungsdatum 05.11.2025, gültig bis zum 19.04.2027; Hauptsitz Mexner GmbH, Industriestraße 11-12, 65474 Bischofsheim, HRB 82670 Registergericht Darmstadt; 3 Anlagen: Anlage 1 dem Standort „Mexner GmbH Hauptsitz Bischofsheim“, Industriestraße 11-12, 65474 Bischofsheim zugeordnet, Tätigkeit Sammeln und Befördern, Kennnummer nach § 28 NachwV F08T000305, alle Abfallarten; Anlage 2 dem Standort „Mexner GmbH Bischofsheim“, Eckensee, 65474 Bischofsheim zugeordnet, Tätigkeit Lagern und Behandeln, Kennnummer F08RD00792, Abfallschlüssel 170101, 170102, 170103, 170107, 170504; Anlage 3 dem Standort „Mexner GmbH“, Industriestraße 15, 65474 Bischofsheim zugeordnet, Tätigkeit Lagern, Kennnummer F08RD00642)\", \"RAL-Gütezeichen Abbrucharbeiten (Gütegemeinschaft Abbrucharbeiten e.V., Köln; Urkunde vom 05.01.2026, Kennzeichen HA 2 · AB, Mexner GmbH, Industriestr. 11-12, 65474 Bischofsheim; gültig bis zum Ablauf des Jahres 2026)\", \"Mitgliedschaft im Deutschen Abbruchverband e.V. (Mitgliedsausweis für das Jahr 2026, Mitglieds-Nr. 133, Mexner GmbH, Industriestr. 11 - 12, 65474 Bischofsheim, Köln, 04.02.2026; gültig bis zum 31.03.2027)\", \"Bescheinigung über die Präqualifikation nach § 6a VOB/A, § 6a EU VOB/A, § 6a VS VOB/A (Verein für die Präqualifikation von Bauunternehmen e.V., Registriernummer 010.067040, Erstpräqualifikation am 16.12.2019, Leistungsbereiche 211-01 Erdarbeiten und 511-01 Rückbau-, Verwertungs- und Entsorgungsarbeiten; Zertifizierung Bau GmbH, Berlin, 18.02.2021)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Industriestraße 11-12, 65474 Bischofsheim (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "he-bischofsheim-schrott-hartmann",
+      "values": {
+        "name": "Schrott Hartmann GmbH",
+        "city": "Bischofsheim",
+        "street": "An der Steinlach 26",
+        "postcode": "65474",
+        "phone": "06144/971236",
+        "email": "info@schrott-hartmann.de",
+        "opening_hours": "Mo-Fr 07:30-15:30, Sa 2./4. 08:00-12:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.schrott-hartmann.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b87336d1c68a700f1bee0099dc533f18eaa823e919e2bcc325adc06c8ecb42fb",
+      "seed_hash": "c84993b957496c89",
+      "geo": [
+        49.9939,
+        8.3672
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (ZUUM Gesellschaft für techn. Überwachung und Zertifizierung mbH, Ringstraße 26, 36396 Steinau an der Straße; Zertifikat ZUUM-074-1200-65-25-0505, Vorgangsnummer ZZFT013001351011; Prüfungsdatum 18.12.2025, Ausstellungsdatum 18.12.2025, gültig bis zum 23.05.2027; 3 Anlagen; Hauptsitz Schrott Hartmann GmbH, An der Steinlach 26, 65474 Bischofsheim, HRB54294 Registergericht Darmstadt; alle drei Anlagen sind wörtlich dem Standort Schrott Hartmann GmbH, An der Steinlach 26, 65474 Bischofsheim zugeordnet: Anlage 1 Tätigkeit Sammeln (Kennnummer nach § 28 NachwV F08T081205, nur deutschlandweit), Befördern (F08T081205, nur deutschlandweit), Handeln (F08H000098, weltweit) und Makeln (F08M002858, weltweit), abfallwirtschaftliche Tätigkeit „Schrott- und Metallhandel, Containerdienst“; Anlage 2 Tätigkeit Lagern und Behandeln (F08RD00330); Anlage 3 Tätigkeit Lagern (F08RD00330), abfallwirtschaftliche Tätigkeit „Annahme und zeitweilige Lagerung von Bleibatterien“; Zertifikatsnummer nach § 5 KrWG 24-AZA-01A-1200-45-25-0505)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort An der Steinlach 26, 65474 Bischofsheim (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "he-bruchkobel-63486-goldhaus-bruchkobel-goldankauf",
+      "values": {
+        "name": "Goldhaus Bruchköbel Goldankauf",
+        "city": "Bruchköbel",
+        "street": "Hauptstraße 12",
+        "postcode": "63486",
+        "phone": "06181 9069266",
+        "email": "",
+        "opening_hours": "",
+        "description": "Gold- und Silberankauf (Altgold, Ketten, Münzen, Palladium) in Bruchköbel, Inhaber H. Joseph; im OSM als Gewerbeknoten mit shop=gold_buyer erfasst. Kein Schrott- oder Metallhandel, keine Ankaufspreise veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "b371a3a5afa7b738bf4070956a56a2754e718430fed21627a42ae854e6de795c",
+      "seed_hash": "982140c61826fd7d",
+      "geo": [
+        50.1780972,
+        8.9152239
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-bruchkoebel-beko-muenzhandel-edelmetalle",
+      "values": {
+        "name": "BeKo-Münzhandel & Edelmetalle (Benjamin Kollosche)",
+        "city": "Bruchköbel",
+        "street": "Waimerstr. 42",
+        "postcode": "63486",
+        "phone": "06181-6109168",
+        "email": "info@bekomuenzen.de",
+        "opening_hours": "",
+        "description": "Versandankauf größerer Münzsammlungen, Edelmetallmünzen, Barren und Silbermedaillen laut Betreiber; kein Ladengeschäft, Abholung nur nach Termin.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.bekomuenzen.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "acb1bf136d07435f5d981f99b6a5abff341d11d65d241bf47cead6d8c33ea505",
+      "seed_hash": "3c2302102750b0d6",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-buedingen-63654-remondis-metallannahme",
+      "values": {
+        "name": "REMONDIS Region Südwest (Metallannahme Büdingen)",
+        "city": "Büdingen",
+        "street": "Industriestraße 31",
+        "postcode": "63654",
+        "phone": "+49 6042 96110",
+        "email": "service.buedingen@remondis.de",
+        "opening_hours": "Mo-Fr 08:30-16:00",
+        "description": "Metallannahme für Privat- und Gewerbekunden; Ankauf zu aktuellen Tagespreisen ab 1 kg, Auszahlung nach Verwiegung. Keine numerische öffentliche Preisliste.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.remondis-buedingen.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6841d0c01549f56a684de13f631121329f4c19b035e987f96ef0b282add52539",
+      "seed_hash": "1a63d2a97ecda947",
+      "geo": [
+        50.2723667,
+        9.1099684
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Metallannahme ab 1 kg; Bewertung und Verwiegung vor Ort, sofortige Vergütung auf Basis aktueller Tagespreise. Montag bis Freitag 08:30-16:00.\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (ZER-QMS Zertifizierungsstelle GmbH, Volksgartenstraße 48, 50677 Köln; Zertifikat 600/Z2827/Efb, Vorgangsnummer ZZET017001147011; Prüfungsdatum 26.03.2026, Ausstellungsdatum 01.07.2026, gültig bis zum 25.09.2027; 11 Anlagen; Hauptsitz REMONDIS GmbH & Co. KG, Region Südwest, Antwerpener Str. 24, 68219 Mannheim, HRA 333366 Registergericht Mannheim; Anlage 1 dem Standort „NL Büdingen“, Industriestr. 31, 63654 Büdingen zugeordnet, Tätigkeit Sammeln und Befördern, Kennnummer nach § 28 NachwV H194004612, alle Abfallarten; Anlage 2 gleicher Standort, Tätigkeit Lagern, Kennnummer F42RD00109, „Ballenlager (Halle und Freifläche) sowie Umschlaganlage“; Anlage 3 gleicher Standort, Tätigkeit Behandeln, Kennnummer F42RD00109, „Sortieranlage, Verpressung von Abfällen mittels Ballenpresse, Behandeln von Altreifen. Baggersortierung. Vorbehandlungsanlage gemäß GewAbfV § 6, Abs. 1, Satz 2“; die Anlagen 4-11 betreffen die Betriebsstätten Obertshausen (4-5), Kleinwallstadt (6-8) und Langenselbold (9-11) und sind nicht der Dossierstandort)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Industriestraße 31, 63654 Büdingen (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "he-buseck-35418-fischer-wohnwagenverwertung",
+      "values": {
+        "name": "Fischer Wohnwagenverwertung",
+        "city": "Buseck",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f2246eb4ca1c43eb0bc797eb20315b05f6b770c5ee909e7651bac545c8680471",
+      "seed_hash": "584852199994954b",
+      "geo": [
+        50.6148,
+        8.783
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-butzbach-35510-nord-schrott",
+      "values": {
+        "name": "NORD-SCHROTT",
+        "city": "Butzbach 35510",
+        "street": "August-Wenzel-Straße 4",
+        "postcode": "35510",
+        "phone": "+49 6033 72021",
+        "email": "butzbach@ns-i.de",
+        "opening_hours": "Mo–Fr 07:30–09:30 und 09:50–12:30 Uhr; Mo–Do 13:10–16:30 Uhr; Fr 13:10–15:00 Uhr",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.nord-schrott-international.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "516d04c8708462ff9d1dd35f079432ffd38466df3f91920e28095e7f67eb19e8",
+      "seed_hash": "83289a3dee6051ef",
+      "geo": [
+        50.4339,
+        8.6712
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berliner Allee 57, 40212 Düsseldorf; Zertifikat ESN 15-090537(25), Vorgangsnummer ZZEE003001550008; Prüfungsdatum 22.08.2025, Ausstellungsdatum 06.10.2025, gültig bis zum 31.01.2027; 4 Anlagen; Hauptsitz Nord-Schrott International GmbH, Lilienthalstraße 30, 24941 Flensburg, HRB 4744 Registergericht Flensburg; alle vier Anlagen sind wörtlich dem Standort „Nord-Schrott International GmbH“, August-Wenzel-Straße 4, 35510 Butzbach zugeordnet: Anlage 1 Tätigkeit Sammeln, Befördern und Behandeln (Kennnummer nach § 28 NachwV A01T001144 / F42RD00144), Standortbeschreibung „Umschlag, Sortieren von Eisen & Nicht-Eisenschrotten, 8.9 Spalte 2b) des Anhang 1 der 4. BImSchV (Stand 2010), 8.12 Spalte 2 a) und b) des Anhang 1 der 4. BImSchV (Stand 2010)“; Anlage 2 Tätigkeit Lagern (F42RD00144), „Lagerung von Eisen & Nicht-Eisenschrotten“; Anlage 3 Tätigkeit Verwerten (F42RD00144), „Erzeugung von Metallfraktionen, für die im Hüttenwerk keine weitere Behandlung erforderlich ist“; Anlage 4 Tätigkeit Handeln und Makeln (AV00001483), „Handeln und Makeln von Abfällen“)\", \"Entsorgungsfachbetrieb nach § 56 KrWG, Folgezertifikat ESN 15-090537(26) der ESN (Betreiber-Standortseite nord-schrott-international.de/metall/zertifizierungen.html: Überwachungszertifikat mit „Standort: August-Wenzel-Straße 4“, „Gültig bis 31. Januar 2028“, Prüfung am 20.08.2026, ESN Düsseldorf den 14. September 2026, Tätigkeit Sammeln, Befördern, Lagern, Behandeln, Verwerten, Handeln, Makeln; im PDF vermerkt „Zertifikat nur für den internen Bereich. Nicht zur Vorlage an die Behörde.“)\", \"Qualitätsmanagement nach DIN EN ISO 9001:2015 (ESC Cert GmbH, Teichstraße 14, 34130 Kassel; Zertifikat-Nr. 35510/08-25 vom 5. September 2025; Geltungsbereich „Internationaler Handel mit Altmetallen; Umschlag, Aufbereitung und Verwertung von Eisen- und NE-Metallen und Schrotten“; Gültigkeit vom 19. September 2025 bis zum 18. September 2028; zertifiziertes Unternehmen „Nord-Schrott International GmbH, August-Wenzel-Str. 4, 35510 Butzbach“)\", \"End-of-Waste-Zertifikat Kupfer nach Verordnung (EU) 715/2013 und End-of-Waste-Zertifikat Aluminiumschrott nach Verordnung (EU) 333/2011 (BFUB CERT Umweltprüfungsgesellschaft mbH, Abendrothsweg 69, 20251 Hamburg; Umweltgutachter B. Eisfeld (DE-V-0100); jeweils „Nord-Schrott International GmbH, Lilienthalstraße 30, Flensburg, am Standort: August-Wenzel-Straße 4, 35510 Butzbach“; Abschluss der Zertifizierung 05.11.2024, Gültigkeit des Zertifikates bis 04.11.2027)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort August-Wenzel-Straße 4, 35510 Butzbach (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "he-calden-34379-muller-reiner",
+      "values": {
+        "name": "Müller Reiner",
+        "city": "Calden 34379",
+        "street": "Oberweg 19 A",
+        "postcode": "34379",
+        "phone": "(05674) 887",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3f339b4b044368b6ba75081095a2f3c772ca2e749d9c217431f72d590971a294",
+      "seed_hash": "226a857b5bf5ccc9",
+      "geo": [
+        51.4094,
+        9.4019
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-darmstadt-64283-goldankauf-darmstadt",
+      "values": {
+        "name": "Goldankauf Darmstadt",
+        "city": "Darmstadt",
+        "street": "Rheinstr. 22",
+        "postcode": "64283",
+        "phone": "06151 1010598",
+        "email": "info@goldankauf-darmstadt.com",
+        "opening_hours": "Mo–Fr 10:00–18:00, Sa 11:00–16:00, So geschlossen",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.goldankauf-darmstadt.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bf2f156236d1739f48f2cf7ce02e7a1141caf784545451573294903e6f1cee40",
+      "seed_hash": "db118945cf37ae0b",
+      "geo": [
+        49.8718375,
+        8.6533
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-darmstadt-64283-juwelier-munzer",
+      "values": {
+        "name": "Juwelier Münzer",
+        "city": "Darmstadt",
+        "street": "Luisenplatz 7",
+        "postcode": "64283",
+        "phone": "+49 6151 23244",
+        "email": "willkommen@juwelier-muenzer.de",
+        "opening_hours": "Mo–Fr 10:00–18:00, Sa 10:00–16:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.juwelier-muenzer.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c5161ca79f3175ad87d84adfc17f73cd0502dbc0c5253fda92b3484c03fd0067",
+      "seed_hash": "6874ccb5801364b8",
+      "geo": [
+        49.8718375,
+        8.6533
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-darmstadt-64291-schrotthandel-meyer",
+      "values": {
+        "name": "Schrotthandel Meyer",
+        "city": "Darmstadt 64291",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "0a1250ad7572b1cb24dbab891023f2c23b0f36962589f6ea33a5716b3468437c",
+      "seed_hash": "c16b713a07dc766c",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-darmstadt-64293-autoverwertung-blechmann",
+      "values": {
+        "name": "Autoverwertung Blechmann GmbH",
+        "city": "Darmstadt 64293",
+        "street": "Staudingerstr. 5",
+        "postcode": "64293",
+        "phone": "06151 7858806",
+        "email": "service@autoverwertung-blechmann.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "http://www.autoverwertung-blechmann.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5298fdc3772b797dfa75b50fe071d0b3ad464542df877d463d5c7287add4a847",
+      "seed_hash": "9bcc31a8aaf40e1d",
+      "geo": [
+        49.8718375,
+        8.6533
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bergheim-rohstoff-recycling",
+      "values": {
+        "name": "Rohstoff Recycling",
+        "city": "Bergheim",
+        "street": "Walter-Gropius-Straße 38",
+        "postcode": "50126",
+        "phone": "02271 497867",
+        "email": "info@rrb-recycling.de",
+        "opening_hours": "Mo-Fr 07:30-16:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://rrb-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0c68fb02df1e1f392720dd8bf1207d2bc95f7b51566f75e4d57d473f0b48f480",
+      "seed_hash": "53d1f0bdcedd171e",
+      "geo": [
+        50.408025,
+        7.8087
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert GmbH, Köln, Zertifikat 01 400 187133, Vorgangsnummer ZZET016001968008, gültig bis 31.08.2027, Prüfungsdatum 25.02.2026, Ausstellungsdatum 03.07.2026, 1 Anlage; Anlage 1: eR erft RECYCLING GmbH (Fuhrpark und Schrottplatz), Walter-Gropius-Straße 38, 50126 Bergheim, Tätigkeiten Befördern, Lagern, Behandeln; Hauptsitz eR erft RECYCLING GmbH, HRB 59114 Registergericht Köln, bis April 2025 firmiert als RRB Rohstoff Recycling Bergheim GmbH)\"]"
+    },
+    {
+      "slug": "nw-bergisch-gladbach-blum",
+      "values": {
+        "name": "Blum",
+        "city": "Bergisch Gladbach",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "820fee30fae4f7a1ee382e5fc4d4d8ebd6151435ee5d3b58167c326c553bf275",
+      "seed_hash": "758a565adeae02d9",
+      "geo": [
+        50.98018,
+        7.128399999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bergisch-gladbach-horst-beck",
+      "values": {
+        "name": "Horst Beck GmbH",
+        "city": "Bergisch Gladbach",
+        "street": "Senefelderstr. 11",
+        "postcode": "51469",
+        "phone": "02202 32670",
+        "email": "info@horstbeck.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.horstbeck.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f6588214b081538abc1dcb1b48e83af5d2c7f8e6ef9b4df6ccff15bedac328fc",
+      "seed_hash": "cebe55b772242427",
+      "geo": [
+        50.98018,
+        7.128399999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bergisch-gladbach-krau",
+      "values": {
+        "name": "Krauß",
+        "city": "Bergisch Gladbach",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "9b88b72d2fad0396c0cbae00ae160095252dfe95e6fb2f8889193b7a975b1a76",
+      "seed_hash": "f3e2006ee10c0b4f",
+      "geo": [
+        50.98018,
+        7.128399999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bergisch-gladbach-peters",
+      "values": {
+        "name": "Wilhelm Peters GmbH & Co. KG",
+        "city": "Bergisch Gladbach",
+        "street": "Vürfels 38 A",
+        "postcode": "51427",
+        "phone": "02204 3002391",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2835209633a564087d3407d16ba1d5181339c3f588cffd41fa34d1117d8abc2d",
+      "seed_hash": "36679de2df0845a8",
+      "geo": [
+        50.98018,
+        7.128399999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bergisch-gladbach-rehbach",
+      "values": {
+        "name": "Rehbach",
+        "city": "Bergisch Gladbach",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "0fc4a60783b2a129aa167c70571c2f080197f208015de5fed84c686d266a8f8e",
+      "seed_hash": "22d8b3ab80dc8ef8",
+      "geo": [
+        50.98018,
+        7.128399999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bergkamen-ready",
+      "values": {
+        "name": "Ready",
+        "city": "Bergkamen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "a47c0844efda453e8f4cfb0e4b09dce0b6e356e08b0de91c72866165338ac300",
+      "seed_hash": "6239cc0198d48bde",
+      "geo": [
+        51.6163,
+        7.6445
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bestwig-tital-howmet-aerospace",
+      "values": {
+        "name": "TITAL (Howmet Aerospace)",
+        "city": "Bestwig",
+        "street": "Kapellenstraße 44",
+        "postcode": "59909",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "TITAL GmbH in Bestwig stellt Titan- und Aluminium-Feingussteile für zivile und militärische Anwendungen her; kein bestätigter öffentlicher Schrottankauf.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.tital.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "bbe2fb453a8c7e2315a4b1f5c3e9a58950e08c24bb9c2511a9075b57440e5015",
+      "seed_hash": "0e16786a823a6a58",
+      "geo": [
+        51.3608,
+        8.4008
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bielefeld-brackwede-pallatzky",
+      "values": {
+        "name": "Pallatzky GmbH",
+        "city": "Bielefeld-Brackwede",
+        "street": "Stellwerkstr. 16",
+        "postcode": "33647",
+        "phone": "0521 4442-94",
+        "email": "info@pallatzky-gmbh.de",
+        "opening_hours": "Mo-Do 08:00-16:30, Fr 08:00-14:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://pallatzky-gmbh.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "31eb763af81c67797b176c5381a05c0a20f3dcdbd176870350ceb7491dfe656b",
+      "seed_hash": "e791496f9efb8339",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Stuttgart, Zertifikat 120298126, Vorgangsnummer ZZHT003006318011, gültig bis 02.08.2027, Prüfungsdatum 03.02.2026, Ausstellungsdatum 24.02.2026, 4 Anlagen; alle Anlagen dem Standort Pallatzky GmbH, Stellwerkstraße 16, 33647 Bielefeld zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer E711804516), Anlage 2 Metallschrottverwertungsanlage Lagern und Behandeln (E711770056), Anlage 3 Zwischenlager für gefährliche Abfälle Lagern (E711770056), Anlage 4 Bauschuttaufbereitungsanlage Lagern und Behandeln (E711770083); Hauptsitz HRB 32764 Registergericht Bielefeld)\", \"Qualitätsmanagement ISO 9001:2015 (DEKRA Certification GmbH, Zertifikats-Registrier-Nr. 120424225, gültig vom 15.04.2024 bis 14.04.2027, zertifizierter Bereich Handel mit Schrott und Metallen, Entsorgungsdienstleistungen, Speditionsdienstleistungen, Pallatzky GmbH, Stellwerkstr. 16, 33647 Bielefeld)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-bruderich",
+      "values": {
+        "name": "Brüderich",
+        "city": "Bielefeld",
+        "street": "Karl-Deppe-Platz 4",
+        "postcode": "33604",
+        "phone": "0521 66279",
+        "email": "",
+        "opening_hours": "",
+        "description": "Alfred Brüderich, e.K., HRA 10583 Amtsgericht Bielefeld, eingetragen 18.04.1966, Status aktiv: Schrott und Altmetalle, Grosshandel. Registeranschrift Karl-Deppe-Platz 4, 33604 Bielefeld (vor der Umbenennung 2024 als Niedermühlenkamp 71 gefuehrt); Telefon 0521 66279, Fax 0521 66213. Keine Betriebswebsite, keine Preise.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2f6c9071b5debecce62cad416983b715120298cf76969a07ef5287b4f9e55a7c",
+      "seed_hash": "4b9f6b8f8da0f78a",
+      "geo": [
+        52.0207073,
+        8.5499275
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bielefeld-drekopf",
+      "values": {
+        "name": "Drekopf",
+        "city": "Bielefeld",
+        "street": "Tiesloh 1",
+        "postcode": "33739",
+        "phone": "05223 1771-0",
+        "email": "buende@drekopf.de",
+        "opening_hours": "Mo-Fr 08:00-12:00 und 13:00-16:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.drekopf.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0a902002d0054864f7e350fea0885b4a6c2200bda4303d783a529d2b36b82a66",
+      "seed_hash": "c54a83aedada5c9c",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (bvse-Entsorgergemeinschaft e.V., Bonn, Zertifikat 10349, Vorgangsnummer ZZEE001000855009, gültig bis 30.04.2027, Prüfungsdatum 28.10.2025, Ausstellungsdatum 13.11.2025, 6 Anlagen; Anlage 5 und Anlage 6 dem Standort Drekopf Recyclingzentrum Bünde GmbH Bielefeld / Drekopf | Bielefeld, Tiesloh 1, 33739 Bielefeld zugeordnet: Anlage 5 Lagern und Anlage 6 Behandeln, Kennnummer nach § 28 NachwV E711740025; zertifizierender Rechtsträger Drekopf Recyclingzentrum Bünde GmbH, Hauptsitz Engerstraße 259, 32257 Bünde, HRB 7786 Registergericht Bad Oeynhausen)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-drewer-autoverwertungs-u-handelsges",
+      "values": {
+        "name": "Drewer Autoverwertungs- u. Handelsges.",
+        "city": "Bielefeld",
+        "street": "Werningshof 26",
+        "postcode": "33719",
+        "phone": "0521 332188",
+        "email": "info@drewer-autoverwertung.de",
+        "opening_hours": "Mo-Fr 08:00-17:00, Sa 10:00-13:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://drewer-autoverwertung.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9bef170f3c717bc92b74ba6fb28b44c4f41dc1dc5419a7669cc85fdf2970c346",
+      "seed_hash": "54f068f8974e8b80",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Abholung von Metallschrott aller Art im Umkreis bis 35 km, Autoverwertung/Teilehandel/Kabelrecycling (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "certifications": "[\"Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100009 / 1, Drewer Autoverwertungs- und Handelsgesellschaft mbH, Werningshof 26, 33719 Bielefeld, HRB 34768 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-kretzschmann",
+      "values": {
+        "name": "Kretzschmann",
+        "city": "Bielefeld",
+        "street": "Beckhausstr. 3-5",
+        "postcode": "33611",
+        "phone": "0521 60700",
+        "email": "info@entsorgung-kretzschmann.de",
+        "opening_hours": "Mo-Fr 08:00-17:00, Sa 08:30-13:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "http://kretzschmann-entsorgung.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "564f346c905d9a7dccf073d541dc22b80fe619af21c92f99b8ec5ddfbae88370",
+      "seed_hash": "8697f6df07bb38a3",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bielefeld-mm-recycling",
+      "values": {
+        "name": "M+M Recycling GmbH (Bielefelder Autoverwertung)",
+        "city": "Bielefeld",
+        "street": "Grafenheider Str. 105",
+        "postcode": "33729",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "M+M Recycling GmbH, HRB 43527 Bielefeld, an der Grafenheider Straße 105; nicht MM Schrott & Metalle e.K. Identität und Adresse durch Betreiber und Registerspiegel bestätigt. Aktuelle Anerkennung und Annahmebedingungen weiter zu prüfen.",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://www.bielefelder-autoverwertung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5b70fd91b6348cd100c9d7c23f241d52e7c0f33e9b775975a58d2840ecfdea90",
+      "seed_hash": "174b46682308dc41",
+      "geo": [
+        52.0667388,
+        8.5832626
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100024 / 1, M + M Recycling GmbH Bielefelder Autoverwertung, Grafenheider Straße 105, 33729 Bielefeld, HRB 43527 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-pero-s",
+      "values": {
+        "name": "Pero's",
+        "city": "Bielefeld",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f085d7f8000a3ff9e519ca428b37ed4802d552f63f68e2a5a06c906b5e92846c",
+      "seed_hash": "1118383b4a141b2c",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bielefeld-pro-aurum-filiale",
+      "values": {
+        "name": "pro aurum GmbH Filiale Bielefeld",
+        "city": "Bielefeld",
+        "street": "Am Bach 1b",
+        "postcode": "33602",
+        "phone": "+49 521 304 667-0",
+        "email": "bielefeld@proaurum.de",
+        "opening_hours": "Mo,Di,Do,Fr 09:30-13:00/14:00-18:00, Mi 09:30-14:00, Sa 09:30-14:00",
+        "description": "Filiale für An- und Verkauf von Anlageedelmetallen; größere Altgoldmengen nach Terminvereinbarung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.proaurum.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "a580205e7920a5a3b16c1934fe243e0559c939303921fcfd4f3b5966dedf4131",
+      "seed_hash": "01f912ca0526228a",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bielefeld-sennestadt-eiles",
+      "values": {
+        "name": "Eiles",
+        "city": "Bielefeld-Sennestadt",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f61a750444bb794ca5edbd00e5c47856a7a56f10ac91dc50c7cd6aaafa501889",
+      "seed_hash": "6520c6b6d34deae9",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bocholt-nam-schrottabholung-bocholt",
+      "values": {
+        "name": "Nam Schrottabholung Bocholt",
+        "city": "Bocholt",
+        "street": "Nam Schrottabholung Bocholt Bocholt Alemannenstr. 102",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "c008e1c54d0c571bc4a0eef65728d5fd8d82b24dcc011c6cd1dd06c5c40b4392",
+      "seed_hash": "0b5326deb14e018f",
+      "geo": [
+        51.8358,
+        6.6113333333333335
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bochum-a-fischer-sohne",
+      "values": {
+        "name": "A. Fischer & Söhne GmbH",
+        "city": "Bochum",
+        "street": "Altenbochumer Straße 15-21",
+        "postcode": "44803",
+        "phone": "0234 93721 0",
+        "email": "bochum@fischersoehne.de",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "description": "Entsorgungsfachbetrieb (seit 1875): Schrott-/NE-Metall-Ankauf mit Preisliste, Container, Altpapier, Aktenvernichtung. Standorte Altenbochum + Gerthe.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.fischersoehne.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "8d2c8a53fb29112c508b4b084bd3023c1ebcedec4a81f6eb600cdfff1aafa4e4",
+      "seed_hash": "1b089fe84fa6c801",
+      "geo": [
+        51.474088888888886,
+        7.219238888888889
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert GmbH, Köln, Zertifikat 01 400 1800134, Vorgangsnummer ZZET016000355009, gültig bis 30.11.2027, Prüfungsdatum 05.05.2026, Ausstellungsdatum 28.07.2026, 7 Anlagen; Anlage 1 bis 4 dem Standort A. Fischer & Söhne GmbH, Altenbochumer Straße 15, 44803 Bochum zugeordnet, darunter Anlage 4 A. Fischer & Söhne GmbH (Altmetallsortierung) Lagern und Behandeln (Kennnummer nach § 28 NachwV E911972137); Anlage 5 bis 7 betreffen das zweite Werk Daimlerstraße 11, 44805 Bochum; Hauptsitz HRB 113 Registergericht Bochum)\"]"
+    },
+    {
+      "slug": "nw-bochum-a-stober-schrott-und-metallgrohandel",
+      "values": {
+        "name": "A. Stöber Schrott- und Metallgroßhandel",
+        "city": "Bochum",
+        "street": "Am Kuhlenkamp 34",
+        "postcode": "44795",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3910c136046466b4aef78d871da9968f859f469b4b9953fe513793a0152b5e89",
+      "seed_hash": "1677f4a4b4e9c953",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
