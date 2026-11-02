@@ -16,6 +16,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: Göttingen / Northeim / Goslar-Harz / Hildesheim / Weserbergland
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -59,3 +60,9 @@ Ein aktuellerer Gelbe-Seiten-Suchtreffer nennt zusätzlich 01522 6006051 sowie M
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Fill Limmerburg 11a, 31061 Alfeld, Tel. 0152 26006000; Downgrade aktiv zu pruefung (nur Gelbe Seiten als alleiniger Beleg, offen dokumentiert); Adressänderung: Koordinaten neu zu geocodieren; Quelle(n): Gelbe Seiten als alleiniger Beleg]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Balzer Metallverwertung` (Limmerburg 11a, 31061 Alfeld; Verzeichnis-Lead Tel. 0152 26006000, der Dossier-Überblick nennt als Registerkandidaten die `Balzers Metallverwertungsgesellschaft UG`, HRB 204441 AG Hildesheim, Geschäftsführer Dirk Balzer, Limmerburg 11 A - Betriebsidentität und aktuelle Annahme laut Dossier nicht bestätigt) wurde im amtlichen Fachbetrieberegister weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzer` -> **10 Treffer**, sämtlich `Balzersen GmbH & Co. KG` (Mühlenweg 1, 24955 Harrislee, `ZZAE00100008 / 1` bis `/ 10`, darunter `Bodendeponie Harrisleehof`, Ochsenweg, 24955 Harrisleehof) - **Namensvetter: anderer Rechtsträger an anderem Ort (Schleswig-Holstein), nicht der Alfelder Betrieb**; `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Balzer` -> **0 Treffer**; (2) Radiusabfrage mit **3 km** um die Dossier-Adresse `…/Entsorgungsfachbetriebe/adr=Limmerburg 11a, 31061 Alfeld, Deutschland;…&dst=3&is=1&e=1` -> **3 Treffer**, ausschließlich `Zimmermann Recycling Alfeld, Inh. Giuliano Mario Zimmermann` (Industriestraße 11, 31061 Alfeld, `ZZBT00500354 / 1` bis `/ 3`, **1,1 km**) - **anderer Rechtsträger am selben Ort, nicht übernommen**; dieselbe Radiusabfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **0 Treffer**; (3) Kontrollsuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzers` -> ebenfalls **10 Treffer** und **kein** Alfelder Treffer. Für den Namen `Balzer`/`Balzers` und für die Anschrift Limmerburg 11a gibt es im Register **keinen** Efb- und **keinen** AltfahrzeugV-Eintrag.
+    Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+    Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Balzer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Limmerburg%2011a,%2031061%20Alfeld,%20Deutschland;9.804756;51.9918522;9.874780017557338;52.03497113639956;9.73473198244266;51.94873326360043&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Limmerburg%2011a,%2031061%20Alfeld,%20Deutschland;9.804756;51.9918522;9.874780017557338;52.03497113639956;9.73473198244266;51.94873326360043&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzers (Abruf 02.11.2026).]
