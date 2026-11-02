@@ -39,3 +39,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV/Unfall/Teile — DEKRA-zertifiziert
 - Adresse: Aschaffenburg 63743, Feldchenstr. 73
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Kein amtlicher Zertifikatsnachweis im Fachbetrieberegister gefunden; das Feld `certifications` bleibt leer.** Live geprüft am 02.11.2026 im amtlichen Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge (GESA). Namenssuche Route Entsorgungsfachbetriebe mit `BeBa` (0 Treffer), `Beba Autoverwertung` (0 Treffer) und `BeBa Autohandels` (0 Treffer; das ist der auf der Betreiberseite genannte Firmierungsname); Namenssuche Route Altfahrzeugverwertung mit denselben drei Begriffen jeweils 0 Treffer. Die ortsbezogene Kontrollabfrage mit 3 km Radius um die Dossier-Adresse Feldchenstraße 73, 63743 Aschaffenburg liefert 3 Treffer (`EVG Betriebsgesellschaft mbH` 2,0 km, `Stadtwerke Aschaffenburg kommunale Dienstleistungen Entsorgung` 2,7 km, `Mastermelt GmbH` 2,8 km) und in der Altfahrzeugverwertung-Route 0 Treffer; ein Eintrag zur BeBa Autoverwertung fehlt in beiden Routen.
+  **Reichweitenklausel:** Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig; ein Nichttreffer im Register ist **kein** Nichtexistenzbeweis für eine Zertifizierung des Betriebs. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=BeBa ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=BeBa ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Feldchenstra%C3%9Fe%2073%2C%2063743%20Aschaffenburg%2C%20Deutschland;9.1677604;49.9497842;9.1692604;49.9512842;9.1662604;49.9482842&dst=3&is=1&a=1&gl=1 (Abruf 02.11.2026).]

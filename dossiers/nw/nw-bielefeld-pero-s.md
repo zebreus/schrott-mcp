@@ -52,3 +52,26 @@ Einziger konkreter Kandidat bleibt der 11880-Eintrag „Pero´s Entrümpelung & 
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: 11880-Detailseite erneut direkt gelesen. Der Profilname enthält „Schrotthandel“, die konkrete Leistungsrubrik nennt jedoch Entrümpelung, Kleintransport und Umzug; Eintragsdaten 25.12.2024, Portalaktualisierung 04.10.2026. Weder Betreiberwebsite noch aktueller Primärbeleg sichtbar; auch kein konkreter Ankaufspreis. Keine Stammdatenänderung und kein GEO. ANKAUF: nicht bestätigt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle (Aggregator-Lead): https://www.11880.com/branchenbuch/bielefeld/060441363B112527902/pero-s-entruempelung-schrotthandel.html]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: Amtliches Fachbetrieberegister abgefragt, kein Zertifikatsnachweis für den Betrieb "Pero's Entrümpelung & Schrotthandel" am Standort Spessartstr. 10,
+  33719 Bielefeld gefunden. Die Route "Entsorgungsfachbetriebe" des amtlichen Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge liefert am
+  02.11.2026 für die Namenssuche "Pero" 0 Treffer; kein Treffer betrifft den Dossierbetrieb. Die Ortssuche um 33719 Bielefeld mit 3 km Umkreis (Route
+  "Entsorgungsfachbetriebe") listet 20 Treffer, darunter "Werner Spilker GmbH" (Kleebrink 6, 33719 Bielefeld, ZZCT00400098 / 1, Sammeln, Befördern);
+  "Lobbe Umweltservice GmbH & Co KG / Betriebsstätte Bielefeld" (Schelpmilser Weg 13, 33609 Bielefeld, ZZET01700091 / 2, Behandeln, Verwerten); "Lobbe
+  Umweltservice GmbH & Co KG / Betriebsstätte Bielefeld" (Schelpmilser Weg 13, 33609 Bielefeld, ZZET01700091 / 3, Behandeln, Verwerten); "Lobbe
+  Umweltservice GmbH & Co KG / Betriebsstätte Bielefeld" (Schelpmilser Weg 13, 33609 Bielefeld, ZZET01700091 / 1, Sammeln, Befördern); kein Treffer
+  nennt Pero's Entrümpelung & Schrotthandel oder Spessartstr. 10, 33719 Bielefeld. Die Route "Altfahrzeugverwertung" liefert für die Suchbegriffe "Pero"
+  0 Treffer; kein Treffer betrifft den Dossierbetrieb; die Ortssuche um 33719 Bielefeld mit 3 km Umkreis liefert dort 1 Treffer, darunter "Drewer
+  Autoverwertungs- und Handelsgesellschaft mbH" (1,5 km, Werningshof 26, 33719 Bielefeld, ZAES01100009 / 1). Der einzige Treffer der Afv-Ortssuche ist
+  "Drewer Autoverwertungs- und Handelsgesellschaft mbH" (Werningshof 26, 33719 Bielefeld, ZAES01100009 / 1, 1,5 km Entfernung), also ein Fremdbetrieb am
+  anderen Ort; ein AltfahrzeugV-Eintrag für Pero's besteht nicht. Das Dossier führt den Betrieb bislang nur über einen Aggregator-Eintrag ohne
+  Betreiberwebsite und ohne Zertifikatsangabe. Reichweite: Die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig; ein
+  Register-Nichttreffer ist deshalb kein Nichtexistenzbeweis und wurde nicht als Beleg einer fehlenden Zertifizierung gewertet.]
+
+- [Recherche 02.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Pero ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=33719%20Bielefeld%2C%20Deutschland;8.6008091;52.0239162;8.6008091;52.0239162;8.6008091;52.0239162&dst=3&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Pero ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=33719%20Bielefeld%2C%20Deutschland;8.6008091;52.0239162;8.6008091;52.0239162;8.6008091;52.0239162&dst=3&is=1&e=1
+  (Abruf 02.11.2026)]

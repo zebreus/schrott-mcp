@@ -20,6 +20,7 @@ pickup_json: ''
 provenance_section: 'Feedback #5390 vom 08.10.2026'
 provenance_ankauf_raw: ja; Vergütung für Schrott/Metalle und Altfahrzeuge ausdrücklich publiziert
 provenance_origin: table
+certifications: '["Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100024 / 1, M + M Recycling GmbH Bielefelder Autoverwertung, Grafenheider Straße 105, 33729 Bielefeld, HRB 43527 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)"]'
 ---
 
 # M+M Recycling GmbH (Bielefelder Autoverwertung)
@@ -50,3 +51,34 @@ Neuer Händler, **nicht** der vorhandene MM Schrotthandel / MM Schrott & Metalle
 - [Recherche 30.10.2026: Betreiberquellen erneut live gelesen (30.10.2026), alle drei Seiten unverändert erreichbar: Impressum nennt weiterhin "M+M Recycling GmbH", "Grafenheider Str. 105", "33729 Bielefeld", "Handelsregister Amtsgericht Bielefeld: HRB 43527", "Geschäftsführer: Denis Matuschok"; die Umsatzsteuer-Identifikationsnummer steht dort weiterhin als Platzhalter "Umsatzsteuer-Identifikationsnummer gem. §27 a UStG: \*folgt\*" und ist damit auch am 30.10.2026 nicht belegt. Die Autoverwertungsseite ergänzt erstmals datiert die Betriebsangabe "Unter dem Dach der 2002 gegründeten Bielefelder Autoverwertung" — das ist die Gründung des Standortbetriebs laut Betreiber, nicht der GmbH (Eintragung 11.09.2019); die offene Betreiber-/Vorgängerkette um die Footerzeile "© 2019 Roger Wiegel Recycling" bleibt damit unverändert offen. Quelle(n): https://www.bielefelder-autoverwertung.de/impressum/ ; https://www.bielefelder-autoverwertung.de/autoverwertung/ ; https://www.bielefelder-autoverwertung.de/schrott-metalle/]
 - [Recherche 30.10.2026: Live-OSM-Straßenscan Grafenheider Straße, Rasterfenster 8.565/52.058 bis 8.600/52.076 (bewusst über den Adresspunkt hinaus erweitert, um die Straße vollständig abzudecken): 56 Adressobjekte mit `addr:housenumber` und `addr:street`="Grafenheider Straße", daraus 54 verschiedene Hausnummern — 44, 46, 48, 50, 54, 56, 59, 60, 61, 63, 68, 73, 75, 79, 82, 83, 83a, 84, 85, 86, 87, 88, 88a, 90, 91, 92, 94, 96, 96a, 98, 99, 100, 100a, 100b, 100c, 101, 102, 102a, 103, 105, 107, 108, 110, 111, 117, 123, 124, 125, 129, 133, 136, 143, 145, 169; die Rohwerte enthalten keine Bereichsschreibungen. Das Objekt zur Betriebsadresse ist way/234920063 mit `addr:housenumber`='105', `addr:street`='Grafenheider Straße', `addr:city`='Bielefeld', `addr:postcode`='33729', `addr:country`='DE', `building`='yes' — es trägt selbst kein `name=`, `operator=` oder `craft=`. Im Raster tragen 5 von 56 Objekten überhaupt `name=` oder `operator=`; alle 5 gehören fremden Betrieben und keines dem M+M Recycling: way/234976178 `name`='Primelgrün e.V.' (169), node/4598670270 `name`='Carl Werthenbach Konstruktionsteile GmbH & Co. KG' mit `craft`='toolmaker' (101), node/10636625333 `name`='Sachverständiger Frank Wiegmann e.K.' (107), way/28898214 `name`='Friedhofskapelle' (117), way/322160500 `name`='Betonwerk Rova-mix' (83). Die Adresse ist damit in OSM als Adressobjekt geführt, ein eigenständiger OSM-Betriebsverweis für M+M Recycling existiert nicht; die bereits im Dossier geführte Koordinate bleibt Betreiber-Pin, kein OSM-Nachweis. Quelle(n): OSM-API-Abfrage api.openstreetmap.org/api/0.6/map.json?bbox=8.565,52.058,8.600,52.076 (Abruf 30.10.2026)]
 - [Recherche 30.10.2026: Preise unverändert ohne Zahlenangabe, daher erneut getrennt geführt: ANKAUF — Schrott und NE-Metalle werden "zu fairen Preisen vergütet", Altfahrzeuge "Vergütung nach Gewicht"; eine Euro/kg-Liste oder ein Zahlenkurs ist auf keiner der drei Seiten veröffentlicht, genannt wird als Preisbasis "Großhandelspreise/Börsenkurse". VERKAUF — der Registergegenstand nennt Ersatzteilverkauf, die aktuelle Website betont Rohstoffrückgewinnung; eine Teilepreisliste wird nicht veröffentlicht. GEBÜHREN — "Abholung zum Pauschalpreis" und "Separate Reifen gebührenpflichtig" sowie die vorbehaltenen Entsorgungskosten bei Anhaftungen und Müllbestandteilen, jeweils ohne Betrag; eine kostenlose Abholung wird nicht zugesagt. Unverändert offen: aktuelle Anerkennung (das Zertifikatsbild ist auf 13.09.2023 befristet) und die Betreiber-/Vorgängerkette. Quelle(n): https://www.bielefelder-autoverwertung.de/schrott-metalle/ ; https://www.bielefelder-autoverwertung.de/autoverwertung/ ; https://www.bielefelder-autoverwertung.de/impressum/]
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: Amtlicher Nachweis gefunden: Anerkennung als Demontagebetrieb nach AltfahrzeugV. Die Route "Altfahrzeugverwertung" des amtlichen Fachbetrieberegisters
+  der Gemeinsamen Stelle Altfahrzeuge liefert am 02.11.2026 für den Suchbegriff "Bielefelder Autoverwertung" genau 1 Treffer und für die Ortssuche 33729
+  Bielefeld mit 3 km Umkreis ebenfalls genau 1 Treffer mit Entfernung "0,0 km": "M + M Recycling GmbH Bielefelder Autoverwertung / M + M Recycling
+  Bielefelder Autoverwertung", "Grafenheider Straße 105, 33729 Bielefeld", "ZAES01100024 / 1". Der Suchbegriff "M+M Recycling" liefert in dieser Route 8
+  Treffer, der Suchbegriff "Matuschok" 0 Treffer.]
+
+- [Recherche 02.11.2026: Betriebsart im Register ausgewiesen: Die Abfrage mit dem Filter "Art des Betriebs" liefert den Datensatz nur bei der Einstellung "Demontagebetrieb" (1
+  Treffer) und bei "Egal" (1 Treffer); die Einstellungen "Annahmestelle", "Rücknahmestelle", "Schredderanlage" und "Sonstige Anlage zur weiteren
+  Behandlung" ergeben jeweils 0 Treffer. Der Betrieb ist damit ein nach AltfahrzeugV anerkannter Demontagebetrieb. Das Impressum der Betreiberseite
+  bestätigt die Identität wörtlich: "Bielefelder Autoverwertung wird betrieben von der M+M Recycling GmbH, Grafenheider Str. 105, 33729 Bielefeld",
+  "Handelsregister Amtsgericht Bielefeld: HRB 43527", "Geschäftsführer: Denis Matuschok".]
+
+- [Recherche 02.11.2026: Kein Entsorgungsfachbetrieb nach § 56 KrWG. Die Route "Entsorgungsfachbetriebe" liefert für "Matuschok" 0 Treffer und für "Bielefelder Autoverwertung"
+  0 Treffer; die Ortssuche 33729 Bielefeld mit 3 km Umkreis listet 11 Treffer, darunter "Wolfgang Dehne GmbH & Co. KG" (Uferstr. 12-16, 0,6 km),
+  "Umweltbetrieb der Stadt Bielefeld - Wertstoffhof Nord" (Engersche Straße 245), "PreZero Service Westfalen GmbH & Co. KG" (Herforder Straße 311) und
+  "PreZero Service Mitte-West GmbH & Co. KG" (Herforder Straße 311), aber keinen Eintrag für die M+M Recycling GmbH. Die Betreiberseite wirbt mit "Wir
+  entsorgen fachgerecht und zertifiziert", belegt das aber nicht mit einem amtlichen Zertifikat; der Registerbefund zum Demontagebetrieb ist der einzige
+  amtliche Nachweis.]
+
+- [Recherche 02.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=M%2BM%20Recycling ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bielefelder%20Autoverwertung ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Matuschok ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=33729%20Bieliefeld%2C%20Deutschland;8.5832626;52.0667388;8.5832626;52.0667388;8.5832626;52.0667388&dst=3&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=M%2BM%20Recycling ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Bielefelder%20Autoverwertung ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Matuschok ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=33729%20Bieliefeld%2C%20Deutschland;8.5832626;52.0667388;8.5832626;52.0667388;8.5832626;52.0667388&dst=3&is=1&e=1
+  ; https://www.bielefelder-autoverwertung.de/impressum/ ; https://www.bielefelder-autoverwertung.de/schrott-metalle/ (Abruf 02.11.2026)]
