@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -43,3 +44,9 @@ Kleiner Schrotthandel-Kandidat in Rotenburg (Wümme), Niedersachsen, nicht Breme
 - Altmetall/Altschrott, Schrottentsorgung (klein)
 - urspr. Website-Angabe: keine (GS ohne Website-Button)
 - Adresse: Rotenburg (Umland), Upaltenweg 8, 27356, Tel. 0178 7857176
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Stermer Schrotthandel Rotenburg` (Upaltenweg 8, 27356 Rotenburg (Wümme); Verzeichnis-Leads 0178 7857176 und „Assad Stermer“, im Dossier als mögliche Dublette zu `ni-rotenburg-stermer-schrotthandel` geführt - Betreiberidentität und aktuelle Annahme laut Dossier nicht bestätigt) wurde im amtlichen Fachbetrieberegister weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Stermer` -> **0 Treffer**, ebenso `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Stermer` -> **0 Treffer** (Filter „Art des Betriebs“ = Demontagebetrieb); (2) Radiusabfrage mit **3 km** um die Dossier-Adresse `…/Entsorgungsfachbetriebe/adr=Upaltenweg 8, 27356 Rotenburg (Wümme), Deutschland;…&dst=3&is=1&e=1` -> **13 Treffer**, **keiner** an der Upaltenweg 8 und **keiner** mit Namensbezug „Stermer“: `Rotenburger Werke der Inneren Mission gGmbH | Werkstatt Königskamp` (Soltauer Straße 118, 1,1 km, `ZZCT00400083 / 1` und `/ 2`), `KKB Entsorgungstechnik GmbH` (Lauenbrücker Weg 19, 1,3 km, `ZZBT00500318 / 1` bis `/ 3`), `REMONDIS Niedersachsen GmbH | Niederlassung Rotenburg` (Otto-von-Guericke-Straße 4, 2,5 km, `ZZEE00200360 / 8` bis `/ 10`), `Specht Baustoffhandel, Transport und Entsorgung GmbH & Co. KG` (Otto-von-Guericke-Straße 8-10, 2,6 km, `ZZCT00200014 / 1` bis `/ 4`) und `AVIDES MEDIA AG` (Avidesweg 1, 27386 Hemsbünde, 2,7 km, `ZZBT00300120 / 1`) - **alles Fremdbetriebe**; (3) dieselbe Radiusabfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **0 Treffer**. Die Radiusabfrage liefert in derselben Umgebung Treffer, die Abfragetechnik funktioniert also - für „Stermer“ und für die Upaltenweg 8 gibt es jedoch **keinen** Registereintrag.
+    Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+    Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Stermer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Stermer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Upaltenweg%208,%2027356%20Rotenburg%20%28W%C3%BCmme%29,%20Deutschland;9.421313;53.1115183;9.493146831759727;53.154637236399566;9.349479168240272;53.068399363600435&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Upaltenweg%208,%2027356%20Rotenburg%20%28W%C3%BCmme%29,%20Deutschland;9.421313;53.1115183;9.493146831759727;53.154637236399566;9.349479168240272;53.068399363600435&dst=3&is=1&e=1 (Abruf 02.11.2026).]

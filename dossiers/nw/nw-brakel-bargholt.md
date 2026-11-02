@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: ''
 provenance_section: (1) Behaltene Neueinträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -48,3 +49,9 @@ Eine amtliche Bekanntmachung der Stadt Brakel vom 15.07.2025 führt Detlef-Erwin
 
 - Schrott (GS)
 - Adresse: Brakel
+
+### Recherche 02.11.2026
+
+- [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für „Bargholt“ (Detlef-Erwin Bargholt, Schrott- und Metallhändler, Brakel) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bargholt` -> **0 Treffer**, dieselbe Suche in der Route `…/Altfahrzeugverwertung/dst=10&is=1&e=1&o=5&n=Bargholt` (Filter „Art des Betriebs = Egal“) -> **0 Treffer**; (2) Standortsuche um die beiden im Dossier konkurrierenden Adressen `…/Entsorgungsfachbetriebe/adr=Fulkstraße%2012%2C%2033034%20Brakel…&dst=3&is=1&e=1` -> **0 Treffer** und `…/adr=Ludowinenstraße%208%2C%2033034%20Brakel…&dst=3&is=1&e=1` -> **0 Treffer**; dieselben beiden Abfragen in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&o=5` -> je **0 Treffer**; (3) Kontrolle mit 5 km Radius um Fulkstr. 12 (`…/Entsorgungsfachbetriebe/adr=…&dst=5&is=1&e=1`) -> **0 Treffer** und um Ludowinenstr. 8 -> **0 Treffer**; der einzige positive Befund im weiteren Umfeld stammt aus einer Bottrop-Eck-Umgebung und betrifft „Neo Lox GmbH“ (Heinrich-Hertz-Str. 5A, 46244 Bottrop, 2,0 km vom Ludowinenstr. 8) sowie „BEST - Bottroper Entsorgung und Stadtreinigung AöR“ (Raiffeisenstraße 2b, 46244 Bottrop, 1,6 km), **beide Fremdbetriebe, kein Treffer auf Bargholt**. Die Abfragetechnik wurde an einer Positivkontrolle (5-km-Abfrage um Brakel, die Fremdbetriebe in Essen und Bottrop liefert) geprüft.
+  Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bargholt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=5&n=Bargholt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Fulkstra%C3%9Fe+12%2C+33034+Brakel-B%C3%B6kendorf%2C+Deutschland%3B9.221943800000001%3B51.76903849999999%3B9.223447880291503%3B51.7704147097085%3B9.220439719708498%3B51.7676622902915&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Ludowinenstra%C3%9Fe+8%2C+33034+Brakel-B%C3%B6kendorf%2C+Deutschland%3B9.221943800000001%3B51.76903849999999%3B9.223447880291503%3B51.7704147097085%3B9.220439719708498%3B51.7676622902915&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Fulkstra%C3%9Fe+12%2C+33034+Brakel-B%C3%B6kendorf%2C+Deutschland%3B9.221943800000001%3B51.76903849999999%3B9.223447880291503%3B51.7704147097085%3B9.220439719708498%3B51.7676622902915&dst=3&is=1&o=5 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Ludowinenstra%C3%9Fe+8%2C+33034+Brakel-B%C3%B6kendorf%2C+Deutschland%3B9.221943800000001%3B51.76903849999999%3B9.223447880291503%3B51.7704147097085%3B9.220439719708498%3B51.7676622902915&dst=3&is=1&o=5 (Abruf 02.11.2026).]
