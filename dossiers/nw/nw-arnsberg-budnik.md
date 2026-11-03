@@ -85,7 +85,7 @@ Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 3
   abbildbar. Quelle 2 (OSM): das Kachelraster 7.9400/51.4000 bis 7.9800/51.4400 sowie die 15 gefundenen
   Adressobjekte way/254547383 (6), way/254547578 (16), way/254547675 (13), way/254547771 (2), way/254547860 (11),
   way/254547930 (14), way/254548290 (10), way/254548314 (5), way/254548370 (1), way/254548555 (7), way/254548564 (8),
-  way/254548568 (12), way/254547421 (9) und ein weiteres Objekt mit `addr:housenumber`=3 (live geladen am
+  way/254548568 (12), way/254547421 (9), way/254548658 (3), way/254548655 (4) (live geladen am
   03.11.2026, HTTP 200). **Warum keine Koordinate:** Ein Punkt wäre nur aus einem Nachbarobjekt (etwa Sternhelle 16)
   oder aus einer Straßenmitte ableitbar und damit eine unbelegte Vermutung über die Lage des Betriebs; die
   Nachbarhausnummer 16 ist **kein** Ersatz für die Dossier-Adresse. **Zusätzlich offen** bleibt die vom Dossier
