@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-trimet-aluminium-se
-clear_fields: 'geo'
+lat: 51.4900459
+lon: 6.9682297
 name: TRIMET Aluminium SE
 trader_type: schrotthaendler
 state: NW
@@ -40,3 +41,26 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Primär-Alu + Recyclingkreisläufe, Schrottlager Essen, Drahtbarren-Recyclingnetz
+
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4900459/6.9682297** (Mittel des einzigen
+  Knotens von node/3178977473; der Punkt liegt innerhalb der Objekt-BBox **51.4900459/6.9682297 – 51.4900459/6.9682297**).
+  Quelle 1 (OSM): node/3178977473 trägt `addr:housenumber`=**1**, `addr:street`=**Aluminiumallee**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45356** sowie `entrance`=yes — Dossier-Straße, -Hausnummer und -PLZ stimmen
+  objektgenau überein. Der Adressknoten trägt selbst **kein** `name=`/`operator=`, liegt aber innerhalb des live
+  geladenen Werksgeländes way/367320501 (`landuse`=industrial, `name`=**TRIMET**, 50 Knoten, BBox
+  **51.4887070/6.9558471 – 51.4970679/6.9696786**) — der Betriebsbezug ist damit im OSM **an derselben Stelle** belegt.
+  Weitere Objekte mit `addr:housenumber`=1 auf der Aluminiumallee existieren nicht. Quelle 2 (Betreiber/Register): das
+  Impressum nennt **TRIMET Aluminium SE, Aluminiumallee 1, 45356 Essen, HRB 24574 AG Essen**; die Kontaktseite nennt
+  Sitz der Werke und Werk Essen an derselben Anschrift, die Standortseite beschreibt dort das Essener Werk. Der zuvor
+  im Produktionsbestand gespeicherte Punkt **51.450284375/7.015053125** (Straße „Freiheit“, 45128 Essen) lag
+  **5.483 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/3178977473.json ;
+  https://api.openstreetmap.org/api/0.6/way/367320501/full.json ; https://www.trimet.eu/de/impressum ;
+  https://www.trimet.eu/de/trimet/kontakt (Abruf 03.11.2026).]

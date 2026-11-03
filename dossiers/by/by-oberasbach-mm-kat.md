@@ -1,5 +1,7 @@
 ---
 slug: by-oberasbach-mm-kat
+lat: 49.4200167
+lon: 10.9821226
 name: MM-Kat GbR
 trader_type: sonstige
 state: BY
@@ -13,7 +15,7 @@ website: https://mm-kat.de/
 website_status: aktiv
 status: pruefung
 description: ''
-clear_fields: 'description,dropoff_json,email,geo,phone'
+clear_fields: 'description,dropoff_json,email,phone'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Betriebe mit geprüfter Website
@@ -52,3 +54,24 @@ Die Betreiberwebsite und ihr Impressum führen **MM-Kat GbR**, Flurstr. 24, 9052
 - Betreiber-Primärquelle Impressum: MM-Kat GbR, Flurstr. 24, 90522 Oberasbach, Tel. +49 176 46625709, Gesellschafter Sascha/Jochen Müller. Quelle: https://mm-kat.de/impressum/
 - Widerspruch: Footer nennt Öffnungszeiten Mo–Fr 08:00–16:30, Kontaktseite 08:00–17:00; Zweitstandort Mathildenstr. 20, 90489 Nürnberg (Anlieferung n. Vereinbarung).
 - Klärfall: GbR ohne HRB, kein unabhängiger Zweitbeleg → Frontmatter leer gelassen.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.4200167/10.9821226** (Mittelwert der
+  **8** eindeutigen Way-Knoten von way/1343044078; der Punkt liegt innerhalb der Objekt-BBox 49.4199679/10.9820006 bis
+  49.4201108/10.9821956). Quelle 1 (OSM): way/1343044078 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/1343044078/full.json) trägt `addr:housenumber`=**24**,
+  `addr:street`=**Flurstraße**, `addr:postcode`=**90522**, `addr:city`=**Oberasbach**, `addr:country`=DE sowie `building`=house und
+  `house`=residential - die Dossier-Hausnummer 24 ist damit objektgenau belegt. Das Objekt trägt **weder `name=`
+  noch `operator=`**; der Betrieb selbst ist in OSM nicht als Objekt kartiert, das wird hier als Aussage zum
+  OSM-Bestand festgehalten, nicht als Negativbeleg über den Betrieb. Quelle 2 (Betreiber, im Dossier bereits zitiert):
+  die Betreiberwebsite und ihr Impressum führen **MM-Kat GbR, Flurstr. 24, 90522 Oberasbach**, mit den Gesellschaftern
+  Sascha und Jochen Müller (Dossier-Überblick); sie bewerben Katalysator-/DPF-Ankauf und nennen zusätzlich Anlieferung
+  nach Vereinbarung in Nürnberg (Mathildenstraße 20, 90489). Damit stimmen OSM-Objekt und Betreiber-Impressum in
+  Straße, Hausnummer, PLZ und Ort überein. **Qualifizierung:** die Koordinate dokumentiert die **Impressumsadresse**,
+  nicht ausdrücklich eine Kundenannahme - der Betrieb nennt Anlieferung nach Vereinbarung in Nürnberg; dieser
+  Terminstandort wird **nicht** als Filiale oder dauerhaft geöffneter Hof ausgegeben und nicht als Koordinate geführt.
+  Das Dossier enthielt `clear_fields: 'description,dropoff_json,email,geo,phone'`; das Token **`geo` wird entfernt**, weil der Seed `clear_fields` neben belegtem
+  `lat`/`lon` ablehnt und die Koordinate den bisherigen, laut Dossier falschen Punkt (Albrecht-Dürer-Straße
+  104) ersetzt; die übrigen Tokens `description`, `dropoff_json`, `email`, `phone` bleiben unverändert erhalten.
+  `status` (pruefung, da die GbR-Identität nicht unabhängig zweitbelegt ist), `website` und alle übrigen Felder
+  bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1343044078/full.json ; https://mm-kat.de/ ; https://mm-kat.de/impressum/ (OSM live abgerufen 03.11.2026).]

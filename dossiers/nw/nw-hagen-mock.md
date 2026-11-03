@@ -47,3 +47,30 @@ Mehrere Branchenverzeichnisse führen **Stefan Mock / Schrotthandel- und Contain
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: `schrotthagen.de` direkt geöffnet. Die Seite bewirbt Schrottankauf/-abholung für Hagen und Umland, nennt aber weder Stefan Mock, Neue Straße 2 noch einen zuordenbaren Rechtsträger; Copyright 2023. Das ist kein Beleg für eine Verbindung oder aktuelle Leistung von Mock. Verzeichnisangaben bleiben Leads; keine strukturierten Felder oder GEO übernommen. ANKAUF: keine Mock-spezifischen Kurse; VERKAUF: keine Liste; GEBÜHREN: keine Mock-spezifischen Tarife. Quelle: https://schrotthagen.de/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Lead-Adresse **Neue Str. 2,
+  58135 Hagen-Haspe** ist im live abgerufenen OSM-Bestand **nicht** erfasst, und die Adresse stützt sich allein auf
+  **Aggregator-Einträge**. **Was live geprüft wurde (03.11.2026):** (a) Eine Suche über alle Tag-Werte nach
+  `addr:street`=**Neue Straße** im Kachelraster **7.4200/51.3400 – 7.5600/51.4200** (112 Kacheln à 0,01 Grad, live
+  abgerufen über `https://api.openstreetmap.org/api/0.6/map.json?bbox=…`, **0 Kachel-Fehler**) und in den zusätzlich
+  abgerufenen Haspe-Kacheln **7.4000/51.3400 – 7.4400/51.3600** liefert **0** Adressobjekte und
+  **0** Hausnummern; auch ein Objekt mit `name`=Neue Straße existiert im Raster nicht — in Hagen-Haspe sind statt
+  dessen u. a. die Straßen Tillmannsstraße, Hestertstraße, Kölner Straße, Berliner Straße, Voerder Straße, Haenelstraße,
+  Swolinzkystraße, Steinstraße und Am Romberg erfasst; die einzige Adressobjekt-Treffer mit „Neue“ im Raster betrifft
+  **Neuer Mühlenweg** (1, 2, 3, 4, 5, 57), also eine **andere** Straße. (b) Eine Suche über `name`, `operator`, `brand`,
+  `website`, `contact:website`, `description`, `note` und `short_name` nach **„Mock“** und **„Stefan Mock“** im
+  Kachelraster **7.4200/51.3400 – 7.5600/51.4200** (112 Kacheln, 0 Kachel-Fehler) liefert **0** Treffer mit
+  Betriebsbezug — Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. Quelle 1 (Aggregator, **keine**
+  Betreiber-/Registerquelle): die aktuellen Verzeichnistreffer zu **Stefan Mock** nennen **Schrotthandel- und
+  Containerdienst**, **Neue Str. 2, 58135 Hagen-Haspe**, **02331 3779915** — das sind Aggregator-Treffer und keine
+  Betreiberquelle; `schrotthagen.de` nennt weder Stefan Mock noch die Neue Straße 2 noch einen zuordenbaren
+  Rechtsträger (Copyright 2023) und bleibt unverknüpft. Quelle 2 (OSM): die Dossier-Straße und ihre Hausnummer
+  existieren im live abgerufenen Raster **nicht**, ein Objekt mit Betriebsbezug ebenfalls nicht. **Was fehlt:** ein
+  adressgenauer OSM-Punkt **und** eine Betreiber- oder Registerquelle, die „Mock“ an die Neue Straße 2 bindet; erst
+  damit wäre die Zeile geokodierbar. `clear_fields: 'geo'` bleibt bestehen, `status: pruefung` bleibt unverändert, es
+  wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
+  https://www.11880.com/suche/schrotthandel/hagen ; https://www.schrottplatz-info.de/schrottplatz/Hagen ;
+  https://schrotthagen.de/ (Abruf 03.11.2026).]

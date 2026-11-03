@@ -1,5 +1,7 @@
 ---
 slug: nw-essen-p-w-metall
+lat: 51.5014562
+lon: 6.9774348
 name: P&W Metall GmbH
 trader_type: schrotthaendler
 state: NW
@@ -15,7 +17,6 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'geo'
 provenance_section: (1) Behaltene Neueinträge
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -41,3 +42,24 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Korrektur 01.10.2026: Feedback #2963 berechtigt eingearbeitet — Voll-Fill per Betreiber-Impressum: street Ostuferstraße 8, postcode 45356, phone 0201/17164310, email info@pw-metall.de (Homepage-Kontaktbox), opening_hours Mo-Fr 08:00-16:00; trader_type autoverwertung zu schrotthaendler (Schwerpunkt NE-/FE-Schrott + Containerdienst, KFZ-Recycling/Reifen nur Teilleistungen); HRB 17838 Essen, GF Petek/Waligorski; Beleglage: Betreiber-Primärquelle mit HRB (Owner-Ausnahme); Quelle(n): https://pw-metall.de/index.php/impressum, https://pw-metall.de (Abruf 01.10.2026)]
+
+
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.5014562/6.9774348** (Mittel der 8 eindeutigen
+  Way-Knoten von way/456652162; der Punkt liegt innerhalb der Objekt-BBox **51.5013894/6.9773127 – 51.5015902/6.9775367**).
+  Quelle 1 (OSM): way/456652162 trägt `addr:housenumber`=**8**, `addr:street`=**Ostuferstraße**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45356**, `building`=yes — Dossier-Straße, -Hausnummer und -PLZ stimmen
+  objektgenau überein. Das Objekt trägt **kein** `name=` und **kein** `operator=`; ein Objekt mit Betriebsbezug auf der
+  Ostuferstraße ist in dem live abgerufenen Kachelraster **6.9700/51.4950 – 6.9900/51.5050** nicht vorhanden — das ist
+  eine Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. Quelle 2 (Betreiber/Register): das Impressum der
+  Betreiber-Website nennt **P & W Metall GmbH, Ostuferstraße 8, 45356 Essen**, **HRB 17838 AG Essen**; das unabhängige
+  11880-Profil führt dieselbe Firma an derselben Anschrift. Der zuvor im Produktionsbestand gespeicherte Punkt
+  **51.450284375/7.015053125** (Straße „Freiheit“, 45128 Essen) lag **6258 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/456652162/full.json ; https://pw-metall.de/index.php/impressum ;
+  https://www.11880.com/branchenbuch/essen-ruhr/120674719B50857923/p-w-metall-gmbh.html (Abruf 03.11.2026).]

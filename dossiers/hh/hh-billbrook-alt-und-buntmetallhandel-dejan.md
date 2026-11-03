@@ -52,3 +52,28 @@ Eine aktuelle Suche zeigte außerdem einen Creditreform-Suchtreffer für einen D
 
 - Buntmetalle, Schrott
 - Adresse: Billbrook, Wöhlerstr. 9, 21113
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Für „Alt- und Buntmetallhandel
+  Dejan" ist die Dossier-Adresse **Wöhlerstr. 9** selbst strittig: der Seed nennt die PLZ **21113**, der direkt gelesene
+  GoLocal-Detaillead (live 23.10.2026) dagegen **Wöhlerstr. 9, 22113 Hamburg-Billbrook**, 040 6781656 — ein ungelöster
+  PLZ-Konflikt, und der GoLocal-Eintrag ist ein **Verzeichnislead** (kein Impressum, kein rechtlicher Nachname, eine
+  nicht automatisch geprüfte Bewertung vom 05.12.2013, Nutzerfotos vom 23.07.2020, keine Öffnungszeiten), nach
+  Repo-Quellenhierarchie also **kein** Beleg. Ein zweiter Beleg fehlt ebenfalls: der Creditreform-Treffer „Dejan
+  Dzemailovic – Schrott- und Altmetallhändler" (PLZ-Angabe 22179 im Suchtreffer) war im Direktabruf **403** gesperrt und
+  belegt weder Straße noch Verbindung zur Wöhlerstraße 9. Eine OSM-Stichprobe (api.openstreetmap.org/api/0.6/map.json,
+  0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse **Wöhlerstr. 9** (Kachelraster 53.4950-53.5250 / 9.9750-10.0250)
+  ergab **kein** Objekt mit `addr:housenumber`=9 und `addr:street`=Wöhlerstraße und **kein** Objekt mit Namens-,
+  Betreiber- oder Branchenbezug zu „Dejan", „Dzemailovic" oder einem Buntmetallhandel — die Dossier-Hausnummer ist in
+  OSM **nicht nachgewiesen**; die Aussage ist als Stichprobe qualifiziert, weil die OSM-API in dieser Welle stark
+  gedrosselt war (HTTP 429 bei Kachelabrufen). **Konsequenz:** Weder OSM-Objekt noch Betreiber-/Registerquelle tragen
+  die Adresse; zusätzlich ist die PLZ strittig (21113/22113) und die Annahme-/Abholfunktion unbelegt. Eine Position
+  „irgendwo an der Wöhlerstraße" wäre geraten; das Dossier untersagt die Seed-Adresse vor der Klärung ausdrücklich zu
+  verwenden. `status: pruefung`, `street`/`postcode` und alle übrigen Frontmatter-Felder bleiben unverändert; es wird
+  **keine** Schließung behauptet. **Nächster Schritt für den Owner:** aktueller Gewerbenachweis mit amtlicher
+  PLZ-Zuordnung an der Wöhlerstraße 9 (und Auflösung 21113 vs. 22113). Quelle(n):
+  https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/ (Verzeichnislead) ;
+  https://firmeneintrag.creditreform.de/22179/2151851447/DEJAN_DZEMAILOVIC_SCHROTT_UND_ALTMETALLHAENDLER (Direktabruf
+  403, Suchtreffer allein) ; https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9750,53.4950,10.0250,53.5250 (Abruf
+  03.11.2026).]

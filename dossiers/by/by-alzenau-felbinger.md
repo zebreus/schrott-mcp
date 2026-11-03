@@ -69,3 +69,21 @@ Die aktuelle Betreiberwebsite und ihr Impressum ordnen die Felbinger GmbH dem St
 ### Recherche 01.11.2026
 
 - [Recherche 01.11.2026: **Zertifikats-Recherche ohne Treffer.** Für den Alzenauer Lead `Felbinger GmbH` wurde im amtlichen Fachbetrieberegister (GESA) kein Zertifikat gefunden, das diesem Dossierstandort zugeordnet werden kann; `certifications` bleibt leer. Suchen und Befunde (live am 01.11.2026, clientseitig gerenderte Vaadin-App, Grid vollständig durchscrollt): (1) Radiusabfrage um die Ortsmitte `…/Entsorgungsfachbetriebe/adr=Alzenau 63755, Deutschland;9.0813749;50.085868;…&dst=3&is=1&e=1` -> **17 Treffer**, ausschließlich Fremdbetriebe (`CUP Recycling GmbH` 0,7 km, `MAIREC Edelmetallgesellschaft mbH` 2,3 km, `Umtec Umweltschutz GmbH & Co. KG` 2,6 km) - **kein Felbinger in Alzenau**; (2) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Alzenau 63755…&dst=3&is=1&e=1` -> **0 Treffer**; (3) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Felbinger` -> **3 Treffer**, sämtlich `Felbinger GmbH Hauptsitz`, `Dieselstraße 71, 63165 Mühlheim am Main`, Vorgangsnummer ZZFT00300077 (Anlage 1 Sammeln/Befördern, Anlage 2 Lagern, Anlage 3 Behandeln) - **das ist der Mühlheimer Betrieb und nicht der Alzenauer Lead**; `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Felbinger` -> **0 Treffer**. Das Dossier hält bereits fest, dass die Felbinger GmbH in Mühlheim am Main (HRB 6821 AG Offenbach) ohne Identitäts- oder Standortbrücke nicht diesem Seed zuzuordnen ist; dieser Mühlheimer Nachweis wird deshalb **nicht** übertragen. Die Efb-Anerkennung nach § 56 KrWG und die Anerkennung nach AltfahrzeugV sind freiwillig; ein Register-Nichteintrag ist deshalb kein Nichtexistenzbeweis und widerlegt weder Betrieb noch Annahme noch Zertifizierungsbedarf. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Felbinger ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Alzenau%2063755%2C%20Deutschland%3B9.0813749%3B50.085868%3B9.0933749%3B50.097868%3B9.0693749%3B50.073868&dst=3&is=1&e=1 ; https://www.felbinger.de/impressum (Abruf 01.11.2026).]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Das Dossier trägt keine Straße und
+  keine Hausnummer; die Dossier-Adresse ist der Seed-Ort **Alzenau** ohne Adressangabe. Quelle 1 (OSM): Live-Scan am
+  03.11.2026 über das Kachelraster **bbox=9.0520,50.0670,9.1020,50.1170** (25 Kacheln à 0,01° über Alzenau, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.0520,50.0670,9.1020,50.1170)
+  mit **62 098 Elementen** und **0 Kachel-Fehlern**; die Suche über `name`, `operator`, `brand`, `official_name`,
+  `alt_name`, `short_name`, `legal_name` und `old_name` nach „felbinger“ liefert **0 Treffer**, und es existiert kein
+  Adressobjekt mit `addr:housenumber`/`addr:street`, das einem Alzenauer Felbinger zuzuordnen wäre. Quelle 2 (Betreiber/Register,
+  im Dossier bereits zitiert): die Betreiber-Website und ihr Impressum nennen die Felbinger GmbH durchgehend am
+  Standort **Dieselstraße 71, 63165 Mühlheim am Main** (HRB 6821 AG Offenbach; Dossier-Recherche
+  12.10./18.10./24.10.2026), und die amtliche Registerabfrage im Fachbetrieberegister GESA vom 01.11.2026 liefert
+  unter dem Namen „Felbinger“ ausschließlich `Felbinger GmbH Hauptsitz, Dieselstraße 71, 63165 Mühlheim am Main`, Vorgangsnummer ZZFT00300077 - also den Mühlheimer Betrieb,
+  nicht den Alzenauer Lead; die Radiusabfrage um Alzenau (17 Treffer) enthält **keinen** Felbinger. Damit findet sich
+  die Dossier-Hausnummer in OSM **nicht**; es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Die
+  bestehende `clear_fields: geo`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden
+  soll und kein belegter Ersatz existiert; `status`, `description` und alle übrigen Felder bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.0520,50.0670,9.1020,50.1170 ; https://www.felbinger.de/impressum ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Felbinger (live abgerufen 03.11.2026).]

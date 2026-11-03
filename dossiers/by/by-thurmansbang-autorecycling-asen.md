@@ -40,3 +40,25 @@ Die Betreiberseite wirbt mit Anlieferung von Fahrzeugen und kostenloser Abholung
 ### Importiert (Audit 7 Feedback #6584)
 
 - Lead #6584 wurde im Auftrag als wiederholt bezeichnet. Ein vorheriges lokales Dossier und der Wortlaut der ursprünglichen Feedbackmeldung lagen hier nicht vor; deshalb wird keine frühere Behauptung rekonstruiert oder als Beleg übernommen.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist **Am Seiderberg
+  2, 94169 Thurmansbang**. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=13.2700,48.7300,13.3000,48.7600** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=13.2700,48.7300,13.3000,48.7600) mit **17 559 Elementen**
+  und **0 Kachel-Fehlern**. Die Straße „Am Seiderberg“ ist in Thurmansbang als Geometrie erfasst (way/112714699
+  `highway`=unclassified, `name`=Am Seiderberg, `source`=Bing) und als Knoten benannt (node/9764236137,
+  „Thurmansbang Altfaltern“), trägt aber **kein einziges Adressobjekt mit `addr:housenumber`** - im gesamten 3x3-Raster ist die
+  Dossier-Hausnummer **2 nicht adressiert**; die Suche über `name`, `operator`, `brand` und `official_name` nach
+  „asen“, „autorecycling“ und „ara“ liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert. Quelle 2
+  (Betreiber/amtlich, im Dossier bereits zitiert): die Betreiberseite „ARA Autorecycling Asen“ und die
+  **Handwerkskammer Niederbayern-Oberpfalz** führen denselben Standort **Am Seiderberg 2, 94169 Thurmansbang** und
+  dieselbe Telefonnummer 08544 974596; die HWK bezeichnet den Betrieb als „Anna Asen“ und führt Autorecycling,
+  Gebrauchtteilehandel, Kfz-Meisterbetrieb und Fahrzeugverwertung als Leistungen (Dossier-Überblick und Recherche
+  26.10.2026). Die abweichende Ortsangabe „Thannberg“ im Impressum der Betreiberseite bezeichnet denselben
+  Straßenstandort; eine getrennte Annahmestelle ist nicht belegt. Die Adresse ist damit **betreiberseitig und
+  handwerkskammerseitig bestätigt**, nur die **Geometrie der Hausnummer 2 fehlt in OSM** (kein Adressobjekt auf der
+  Straße im gescannten Raster); nach der Regel dieser Welle wird deshalb **keine** Koordinate erfunden und **kein**
+  Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung; `status`
+  (aktiv), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=13.2700,48.7300,13.3000,48.7600 ; https://api.openstreetmap.org/api/0.6/way/112714699/full.json ;
+  https://www.autorecycling-asen.de/ ; https://www.hwk-niederbayern-oberpfalz.de/ (live abgerufen 03.11.2026).]

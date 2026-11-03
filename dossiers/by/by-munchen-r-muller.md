@@ -52,3 +52,28 @@ Das Münchner Stadtportal führt die **R. Müller Altmetallhandel GmbH** an der 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Registerfund ohne geprüfte Website (PLZ 81829)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist
+  **Georg-Thiele-Str. 2, 81829 München**. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=11.6600,48.1300,11.6900,48.1600** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6600,48.1300,11.6900,48.1600). Auf der
+  Georg-Thiele-Straße in 81829 München sind **8 Adressobjekte** erfasst (Hausnummern **1b, 1c, 1d, 2, 3, 4, 5, 7**),
+  darunter **node/3023008176** mit `addr:housenumber`=**2**, `addr:street`=Georg-Thiele-Straße, `addr:postcode`=81829, `addr:city`=München,
+  `addr:country`=DE (Mittel der eindeutigen Knoten 48.1411340/11.6797949, innerhalb der Objekt-BBox 48.1411340/11.6797949
+  bis 48.1411340/11.6797949) - die Dossier-Hausnummer 2 ist damit objektgenau belegt. Das Objekt trägt **weder
+  `name=` noch `operator=`**; die Suche über `name`, `operator`, `brand` und `official_name` nach „altmetall“,
+  „schrott“ und „r. müller“ liefert **keinen** Treffer, der diesem Datensatz zugeordnet werden kann. Quelle 2
+  (Beleglage, im Dossier dokumentiert): das Münchner Stadtportal https://orte.muenchen.de/1240509.html führt die **R. Müller Altmetallhandel
+  GmbH** an der Georg-Thiele-Str. 2, 81829 München (Tel. 089 908147), Creditreform führt für diese GmbH **HRB 188933**
+  - gleichzeitig wird an derselben Anschrift ein **anderer Rechtsträger**, **Rudolf Müller Altmetall + Schrott e.K.**
+  (HRA 68506), geführt; das belegt einen Adressbezug der GmbH, aber **weder eine Verbindung der Rechtsträger noch,
+  dass dort aktuell Kundenannahme stattfindet** (Dossier-Überblick). Das Dossier hält ausdrücklich fest, dass
+  „Georg-Thiele-Str. 2 ein Adressbeleg, aber kein bestätigter Annahmepunkt“ ist und **vor jeder GEO-Zuordnung die
+  heutige Funktion der Adresse und die genaue Rechtsträgerzuordnung zu klären** ist; Telefon, E-Mail und
+  Öffnungszeiten bleiben unbestätigte Verzeichnisdaten, der Website-Direktabruf war technisch nicht erfolgreich. Die
+  geforderte zweite Quelle (Betreiber- oder Registerbeleg mit Betreiberfunktion für genau diese Anschrift) fehlt
+  damit. Es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Das Dossier enthält `clear_fields: 'description,email,geo,opening_hours,phone'`; die
+  Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt (Riemer Straße 344a) weiterhin entzogen werden
+  soll und keine belegte Ersatzkoordinate existiert; `status` (pruefung) und alle übrigen Felder bleiben
+  unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6600,48.1300,11.6900,48.1600 ; https://api.openstreetmap.org/api/0.6/node/3023008176.json ; https://orte.muenchen.de/1240509.html ; https://firmeneintrag.creditreform.de/81829/8170893280/R_MUELLER_ALTMETALLHANDEL_GMBH (live abgerufen 03.11.2026).]

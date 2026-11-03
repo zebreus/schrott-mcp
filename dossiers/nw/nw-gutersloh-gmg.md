@@ -61,3 +61,35 @@ Die Recherche dieser Welle bestätigt den Negativbefund, klärt den Spiegeldefek
 
 - Schrott (GS)
 - Adresse: Gütersloh
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Lead-Adresse **Hermann-Nohl-Str. 12,
+  33330 Gütersloh** ist in OSM adressgenau erfasst, der Dossier-Name **„GMG“** lässt sich jedoch **keinem
+  Rechtsträger** zuordnen; es fehlt damit die zweite erforderliche Quelle (Betreiber-/Registerbeleg). **Was live
+  geprüft wurde (03.11.2026):** (a) Das Adressobjekt existiert: **way/276237572** mit `addr:housenumber`=**12**,
+  `addr:street`=**Hermann-Nohl-Straße**, `addr:city`=Gütersloh, `addr:country`=DE, `addr:postcode`=**33330**,
+  `building`=apartments, `building:levels`=2 (Mittel der 18 eindeutigen Way-Knoten **51.9113745/8.3595588**, BBox
+  51.9112890/8.3594160 – 51.9114861/8.3597430); die Straße trägt live **20** verschiedene Hausnummern (2, 4, 7–12,
+  14–24). (b) Das Objekt trägt **weder** `name=` **noch** `operator=`; eine Suche über `name`, `operator`, `brand`,
+  `website`, `contact:website`, `description`, `note` und `short_name` nach **„GMG“** und **„Metallgesellschaft“** im
+  Kachelraster **8.3400/51.8900 – 8.4200/51.9300** liefert **0** Treffer — Aussage zum OSM-Bestand, **kein**
+  Negativbeleg über den Betrieb. Quelle 1 (Verzeichnis, **keine** Betreiber-/Registerquelle): der 11880-Eintrag führt
+  „GMG-Metallgesellschaft“, Hermann-Nohl-Str. 12, 33330 Gütersloh, **05241 220997**, ohne Website, E-Mail oder
+  Öffnungszeiten (Eintrag 19.06.2026, Aktualisierung 03.10.2026 — Portalmetadaten, keine Gründung und keine
+  Inhaberbestätigung); die Darstellung im Öffnungszeitenbuch ist **dieselbe Datenplattform** ohne Zusatzangaben und
+  damit **keine** zweite unabhängige Quelle. Eine Handelsregister- und NorthData-Suche nach einer GMG beziehungsweise
+  GMG-Metallgesellschaft in Gütersloh blieb negativ; das **amtliche Fachbetrieberegister** hat für Gütersloh **keine
+  Ortsseite** (Spiegeldefekt, HTTP 404) — beides ist ein Negativbefund **ohne Beweiswert**, zumal die
+  EFB-Anerkennung freiwillig ist. Abzugrenzen ist die **Metallmanufaktur Gütersloh GmbH & Co. KG** (AG Gütersloh
+  HRA 8113, Bartholomäusweg 37, 33334 Gütersloh) — **andere Anschrift**, ebenso die G.M.G. Spa (Kontaktseite betrifft
+  Cartura/Italien) und die GEA-Historie zur Metallgesellschaft AG Frankfurt. Quelle 2 (OSM): die Adresse ist vorhanden,
+  der **Betriebsbezug** fehlt. **Was fehlt:** eine Gewerberegisterauskunft oder ein Betreiberkontakt, der den Seednamen
+  „GMG“ einem Rechtsträger an der Hermann-Nohl-Straße 12 zuordnet; erst danach ist die Zeile geokodierbar.
+  `clear_fields: 'geo'` bleibt bestehen, `status: pruefung` bleibt unverändert, es wird weder Fortbestand noch
+  Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/276237572/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3400,51.8900,8.4200,51.9300 ;
+  https://www.11880.com/branchenbuch/guetersloh/120674719B100897086/gmg-metallgesellschaft.html ;
+  https://www.oeffnungszeitenbuch.de/filiale/Guetersloh-GMG-Metallgesellschaft-3046709X.html ;
+  https://schrottregister.pages.dev/land-nordrhein-westfalen/ort-guetersloh (Abruf 03.11.2026).]

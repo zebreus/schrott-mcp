@@ -45,3 +45,26 @@ Der Seed führt Hans-Christian Holtzmann am Lüdersring 39. Eine direkt geöffne
 ### Importiert (Seed-Stand 2026-09-30)
 
 - FE/NE (lt. Aggregator)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Für „Hans-Christian Holtzmann" liegt
+  ausschließlich ein **Verzeichnislead** vor: schrottplatz.org (live 24.10.2026) nennt „Schrott Holtzmann Hans-Christian
+  Schrott und Metalle", **Lüdersring 39, 22547 Hamburg**, 040 843444; schrottplatz-info.de und ein
+  B2B-Marktplatzverzeichnis führen dieselbe Spur, was aber **keine** unabhängigen Belege sind (dieselbe
+  Verzeichnisdatenbasis) und nach Repo-Quellenhierarchie ohnehin **kein** Beleg. Ein Betreiber-, Impressum- oder
+  Registerbeleg fehlt vollständig; das Dossier hält ausdrücklich fest: „Lüdersring 39 ist ein ungeprüfter
+  Kontakt-/Privatstandort; vor Bestätigung nicht als öffentlicher Schrottplatz geokodieren". Eine OSM-Hausnummerensuche
+  (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse **Lüdersring 39** wurde in
+  dieser Welle angestoßen und im Umfeld der Adresse weitergeführt; sie wurde durch die API-Drosselung (HTTP 429) nur
+  **teilweise** abgeschlossen und ist deshalb **kein** belastbarer Negativbefund — für die Entscheidung ist das **nicht
+  maßgeblich**, weil für die Dossier-Adresse keine Betreiber- oder Registerquelle vorliegt. **Konsequenz:** Es fehlen
+  sowohl das OSM-Objekt als auch eine belastbare Betreiber-/Registerquelle; eine Position auf den Lüdersring wäre zudem
+  die Veröffentlichung eines ungeprüften Privatstandorts als Annahmeplatz. `status: pruefung`, `street`/`postcode`
+  (letzteres leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **keine** Schließung behauptet.
+  **Nächster Schritt für den Owner:** aktueller Betreiber-/Gewerbenachweis an der Lüdersring-Adresse; erst danach ist
+  eine OSM-Hausnummerensuche sinnvoll. Quelle(n):
+  https://www.schrottplatz.org/hamburg/schrott-holtzmann-hans-christian-schrott-und-metalle-aYEPVj.html ;
+  https://www.schrottplatz-info.de/schrottplatz/Hamburg/Holtzmann-Hans-Christian-Schrott-und-Metalle ;
+  https://b2b.marktplatzapp.de/anbieter/holtzmann-hans-christian-schrott-und-metalle (Verzeichnisleads) ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8650,53.5600,9.8850,53.5800 (Abruf 03.11.2026).]

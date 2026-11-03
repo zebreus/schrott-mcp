@@ -60,3 +60,34 @@ Der Rechtsträger S.O.S. Schrott und Metallhandel GmbH (HRB 110063 Hamburg, zuvo
 
 - Schrott, NE-Metalle (HRB 110063)
 - Adresse: Wilhelmsburg, Neuhöfer Damm 110, 21107
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert; `clear_fields` bleibt unverändert
+  bestehen.** Der Rechtsträger **S.O.S. Schrott und Metallhandel GmbH (HRB 110063 Hamburg, zuvor HRB 10416 KI)** wurde
+  laut Registerdaten **gelöscht** (Liquidationshinweis 10.04.2012, Insolvenzverfahrenshinweis 67g IN 68/12, Löschung
+  **19.01.2016**; NorthData, live gelesen laut Bestandsvermerk vom 26.10.2026). Die sichtbare Registeradresse ist nur
+  „Hamburg", **nicht** Neuhöfer Damm 110; die Dossier-Adresse „Neuhöfer Damm 110, 21107 Hamburg" stammt aus dem
+  **historischen Verzeichnislead** (11880) und wird im Dossier ausdrücklich als „nur historischer Verzeichnislead, keine
+  unabhängig bestätigte aktuelle Betriebs- oder Kundenannahmeadresse" geführt — der dort verknüpfte Webauftritt
+  schwerlast-hamburg.eu gehört einer **anderen** Spedition (SSH Schwerlast-Spedition Hamburg GmbH, HRB 34331, inzwischen
+  Schwarzenbek). Ein heutiger Nachfolger ist weder belegt noch ausgeschlossen; das Dossier hält fest, die Adresse sei
+  „bis zur Betreiberklärung kein GEO-Ziel". Eine OSM-Stichprobe (api.openstreetmap.org/api/0.6/map.json,
+  0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse **Neuhöfer Damm 110** (Kachelraster 53.4300-53.4900 / 9.9600-10.0800)
+  ergab **kein** Objekt mit Namens-, Betreiber- oder Branchenbezug zu „S.O.S." oder zu einer Schrott-/Metallhandlung;
+  die Aussage ist als Stichprobe qualifiziert, weil die OSM-API in dieser Welle stark gedrosselt war (HTTP 429 bei
+  Kachelabrufen). Der Adresspunkt **Neuhöfer Damm 110** ist nach den Live-Betreiberbelegen des verwandten Dossiers heute
+  der Sitz der **RETRACO GmbH** (eigenes Dossier `hh-wilhelmsburg-hafen-retraco`) und damit **nicht** dem
+  Dossier-Eintrag zuzuordnen. **Konsequenz:** Eine Koordinate würde den gelöschten Rechtsträger am Sitz eines anderen,
+  aktiven Betriebs verorten; die Zwei-Quellen-Regel ist nicht erfüllt. `status: pruefung`, `street`/`postcode` (leer)
+  und alle übrigen Frontmatter-Felder bleiben unverändert. **`clear_fields: 'geo,phone'` bleibt bestehen** und wird
+  **nicht** entfernt: Es enthält ein `geo`-Token, und der Seed lehnt ein `clear_fields` neben belegtem `lat`/`lon` ab —
+  da hier **keine** Koordinate gesetzt wird, bleibt das Token gültig und weiterhin nötig, um den falschen gespeicherten
+  Punkt (53.6422/13.8582, laut Owner-Prüfung Torgelow/Ferdinandshof in Mecklenburg-Vorpommern) und die unbelegte
+  Telefonnummer zurückzunehmen. **Nächster Schritt für den Owner:** historischer Registerauszug mit
+  Anschriftenpublikation und/oder ein Nachfolge-Nachweis am Standort; erst dann wäre eine Koordinate ansetzbar — und die
+  dann per `clear_fields` zurückzunehmende Altposition wäre ersetzt. Quelle(n):
+  https://www.northdata.de/S.O.S.%20Schrott%20und%20Metallhandel%20GmbH,%20Hamburg/HRB%20110063 ;
+  https://www.11880.com/branchenbuch/hamburg/060440090B53390996/s-o-s-schrott-und-metallhandelgmbh.html ;
+  https://schwerlast-hamburg.eu/impressum/ (fremde Spedition) ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9600,53.4300,10.0800,53.4900 (Abruf 03.11.2026).]

@@ -1,6 +1,7 @@
 ---
 slug: by-memmingerberg-eisenhut
-clear_fields: 'geo'
+lat: 47.9930540
+lon: 10.2247297
 name: Eisenhut
 trader_type: sonstige
 state: BY
@@ -62,3 +63,30 @@ Die historische Domain zeigt weiterhin nur einen Freischaltungsplatzhalter; webm
 - [Recherche 03.10.2026: `website_status` leer → `unbekannt` normalisiert; die erreichbare Eisenhut-Domain ist laut Prüfung nur eine Platzhalterseite und nicht als aktiver Betreiberauftritt bestätigt. Quelle(n): Quellen und Aktualitätshinweise im folgenden Recherchevermerk dieses Dossiers.]
 
 - [Recherche 03.10.2026: Die amtliche Verwerterliste des Landkreises Unterallgäu (Stand September 2026) führt „Eisenhut Schrott und Metalle“ unter „Alteisen und Schrott“ mit Am Ziegelstadel 24, 87766 Memmingerberg, Tel. (08331) 3437; street und phone aus dieser kommunalen Quelle befüllt, PLZ/Ort waren bereits gesetzt. Die Liste schließt selbst eine Gewähr für Aktualität/Vollständigkeit aus. Identitäts-/Namensvettercheck: Gelbe Seiten und Das Örtliche nennen „Eisenhut Peter Schrott und Metalle“ an derselben Adresse/Telefonnummer, sind aber Verzeichnis-Leads und belegen weder Inhaber noch eine Umfirmierung; die Betreiber-Domain liefert unter HTTP nur eine soeben freigeschaltete Platzhalter-Homepage mit webmaster@, HTTPS war nicht abrufbar. Daher Name, trader_type, Website/E-Mail und status unverändert; konkrete Ankaufbedingungen bleiben ungeklärt. Quelle(n): https://www.landratsamt-unterallgaeu.de/fileadmin/eigene_dateien/LRA/Abfallentsorgung/Verwerterliste.pdf (Landkreis Unterallgäu, Stand September 2026); https://www.gelbeseiten.de/gsbiz/e114c2e1-3998-49bb-a48d-eb66faebf362; https://www.dasoertliche.de/Themen/Eisenhut-Peter-Schrott-und-Metalle-Memmingerberg-Am-Ziegelstadel; http://eisenhut-schrott.de; https://eisenhut-schrott.de]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **47.9930540/10.2247297** (Mittelwert der
+  **8** eindeutigen Way-Knoten von way/301091347; der Punkt liegt innerhalb der Objekt-BBox 47.9927029/10.2241154 bis
+  47.9932714/10.2251130). Quelle 1 (OSM): way/301091347 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/301091347/full.json) trägt `name`=**Peter
+  Eisenhut Schrott und Metalle** und `landuse`=**commercial** - das Objekt benennt den Betrieb **wörtlich** wie die
+  Verbandsquelle und ist die einzige Fläche dieser Art im Live-Scan der Umgebung; der Kachelraster-Scan
+  **bbox=10.2100,47.9800,10.2400,48.0100** (9 Kacheln à 0,01°, live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/map.json?bbox=10.2100,47.9800,10.2400,48.0100) weist **kein** Objekt mit
+  `addr:housenumber`=**24** auf „Am Ziegelstadel“ aus (dort sind in den 9 Kacheln die Hausnummern 3, 7, 9, 11, 13, 14, 15, 17 und 19 erfasst, u. a.
+  node/6123676581 und node/6123678045 mit der Nummer 14) und **kein** Adressobjekt mit der Nummer 24 innerhalb von 200 m um das Betriebsobjekt (nächste Adressobjekte: way/102629572 „Wertstoffhof Memmingerberg“, Oberer Ziegeleiweg 1, 110 m; node/6123678045 und node/6123676581, Am Ziegelstadel 14, 157 m bzw. 163 m); die
+  gemessene Abstandsdistanz des Betriebsobjekts zur Straßen-Geometrie way/34696499 („Am Ziegelstadel“,
+  `highway`=residential) beträgt **6,7 m** - die kartierte Gewerbefläche grenzt also unmittelbar an genau die Straße,
+  die die amtliche Verwerterliste nennt. Die Koordinate markiert damit die **betriebsbezogene Kartierung**
+  (Gewerbefläche mit Betriebsnamen), nicht die interpolierte Hausnummer 24. Quelle 2 (Betreiber/Register, im Dossier
+  bereits zitiert): die **amtliche Verwerterliste Unterallgäu** (Stand September 2026) führt „Eisenhut Schrott und
+  Metalle, **Am Ziegelstadel 24, 87766 Memmingerberg, 08331 3437“ unter Alteisen und Schrott; die
+  **BDSV-Mitgliederliste** vom 20.08.2026 führt „**Peter Eisenhut Schrott und Metalle**, 87766 Memmingerberg“ - der
+  OSM-Objektname stimmt damit wörtlich mit der Verbandsquelle und der Landkreisquelle überein (Dossier-Recherche
+  15.10./24.10.2026). Das Dossier enthielt `clear_fields: 'geo'`; das Token **`geo` wird entfernt**, weil der Seed
+  `clear_fields` neben belegtem `lat`/`lon` ablehnt und die Koordinate den bisherigen, laut Dossier ungenauen
+  Altpunkt (Schwabenstraße, Künersberg) ersetzt. **Qualifizierung:** Die Koordinate belegt den kartierten
+  Betriebsstandort, nicht einen frei zugänglichen Hof; die Landkreisliste weist Aktualitäts- und
+  Gewährleistungsvorbehalte aus und verlangt „Annahme- bzw. Abholtermine … mit den Firmen direkt zu vereinbaren“;
+  Ankaufkurse, Öffnungszeiten und ein Betreiberauftritt bleiben weiterhin unbelegt, `status` (pruefung), `website_status`
+  (unbekannt) und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/301091347/full.json ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.2100,47.9800,10.2400,48.0100 ; https://api.openstreetmap.org/api/0.6/way/34696499/full.json ; https://www.landratsamt-unterallgaeu.de/fileadmin/eigene_dateien/LRA/Abfallentsorgung/Verwerterliste.pdf ;
+  https://bdsv.de/de/resources/BDSV%20Mitgliederliste%2020.08.2026_.pdf (OSM live abgerufen 03.11.2026).]

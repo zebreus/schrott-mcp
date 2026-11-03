@@ -61,3 +61,26 @@ provenance_origin: prose
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Der HTTP-Direktabruf von reinhardt-metall.de reagierte erneut nicht innerhalb des Abruffensters; damit liegt weiterhin kein lesbares Impressum, Kontakt- oder Leistungsangebot vor. Der frühere Creditreform-Namenslead bleibt ohne unabhängige Zuordnung zum Seed-Betrieb. Felder leer, `status: pruefung`; keine Schließung abgeleitet. Keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Quelle(n): http://reinhardt-metall.de/ (Direktabruf Timeout); vorhandener Creditreform-Lead siehe Recherche 01.10.2026]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist **Nutzweg 29,
+  97424 Schweinfurt** (Verzeichnis-Leads nennen zusätzlich „Nutzweg 29 b“). Quelle 1 (OSM): Live-Scan am 03.11.2026
+  über das Kachelraster **bbox=10.1800,50.0200,10.2100,50.0500** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500) mit
+  **50 775 Elementen** und **0 Kachel-Fehlern**. Der Nutzweg (`highway`=residential, `name`=Nutzweg,
+  `postal_code`=97424, `note`=access restriction by sign 267, way/24908972) trägt in 97424 Schweinfurt **34
+  Adressobjekte mit 34 verschiedenen Hausnummern** (1, 3, 10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, **30**,
+  32, 34, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65) - die Dossier-Hausnummer **29 existiert in
+  OSM nicht** und die Variante **29 b** ebenfalls nicht (die ungeraden Nummern sind dort 35, 37, 39 … 65, nicht 29);
+  die Suche über `name`, `operator`, `brand` und `official_name` nach „reinhardt“ liefert **0 Treffer** - der Betrieb
+  ist in OSM nicht kartiert. Quelle 2 (Beleglage, im Dossier dokumentiert): 11880 führt „Reinhardt Metall“ am Nutzweg
+  29 mit 01573 0283000 und verlinkt reinhardt-abbruch.de; Creditreform-Suchergebnisse führen sowohl **Ricardo
+  Reinhardt** am Nutzweg 29 als auch **Roland Reinhardt Schrotthandel** am Nutzweg 29 b, weitere Aggregator-Spuren
+  weichen ab (Cylex 0157 30283000, Branchenheld 0175 3753164 und eine E-Mail); die direkt erreichbare Website
+  reinhardt-recycling.de nennt dagegen **Heinrich Reinhardt in Koblenz** und ist **kein** Beleg für den Schweinfurter
+  Betrieb (Dossier-Überblick und Recherche 23.10./27.10.2026). Damit sind **Rechtsträger, Inhaber, Hausnummer (29 vs.
+  29 b), Telefon- und Domainzuordnung** ungeklärt, ein aktueller eigenständiger Betreiber- oder Registernachweis
+  fehlt, und die Dossier-Hausnummer ist in OSM **nicht** auffindbar; es wird **keine** Koordinate erfunden und kein
+  Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt
+  weiterhin entzogen werden soll; `status` (pruefung) und alle übrigen Felder bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500 ; https://api.openstreetmap.org/api/0.6/way/24908972/full.json ; https://www.11880.com/ ; https://firmeneintrag.creditreform.de/ (live abgerufen 03.11.2026).]

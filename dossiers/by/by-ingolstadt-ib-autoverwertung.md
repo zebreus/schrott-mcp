@@ -1,5 +1,7 @@
 ---
 slug: by-ingolstadt-ib-autoverwertung
+lat: 48.7741496
+lon: 11.4578397
 name: IB Autoverwertung GmbH
 trader_type: autoverwertung
 state: BY
@@ -39,3 +41,21 @@ Die Betreiberseite bewirbt kostenlose Abholung/Entsorgung von Altautos, Gebrauch
 ### Importiert (Audit 7 Feedback #6583)
 
 - Lead #6583 wurde im Auftrag als wiederholt bezeichnet. Ein vorheriges lokales Dossier und der Wortlaut der ursprünglichen Feedbackmeldung lagen hier nicht vor; deshalb wird keine frühere Behauptung rekonstruiert oder als Beleg übernommen.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **48.7741496/11.4578397** (Mittelwert der
+  **4** eindeutigen Way-Knoten von way/32509058; der Punkt liegt innerhalb der Objekt-BBox 48.7739636/11.4574569 bis
+  48.7743356/11.4582226). Quelle 1 (OSM): way/32509058 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/32509058/full.json) trägt `addr:housenumber`=**63**,
+  `addr:street`=**Hebbelstraße**, `addr:postcode`=**85055**, `addr:city`=**Ingolstadt**, `addr:country`=DE und `building`=yes - die
+  Dossier-Hausnummer 63 ist damit objektgenau belegt. Das Objekt trägt **weder `name=` noch `operator=`**; der
+  Betrieb selbst ist in OSM nicht als Objekt kartiert, das wird hier als Aussage zum OSM-Bestand festgehalten, nicht
+  als Negativbeleg über den Betrieb. Quelle 2 (Betreiber/Register, im Dossier bereits zitiert): das Impressum der
+  Betreiberseite nennt diese Anschrift, **HRB 11827 beim Amtsgericht Ingolstadt** und Ibrahim Ibrahim; NorthData führt
+  dieselbe Gesellschaft und Adresse, und das Register dokumentiert die Namens- und Sitzänderung 2024 von „I&B
+  Autoverwertung Schierling GmbH“ zu „IB Autoverwertung GmbH“ (Dossier-Überblick). Damit stimmen OSM-Objekt und
+  Betreiber-/Registerbeleg in Straße, Hausnummer, PLZ und Sitz überein; die weiterhin verwendete E-Mail-Domain
+  autoverwertung-schierling.de wird nicht als Beleg für einen separaten Schierlinger Standort gelesen. Das Dossier
+  enthielt **keine** `clear_fields`-Anweisung, daher ist nichts zu entfernen; `status`, `opening_hours`, `phone`,
+  `email` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/32509058/full.json ; https://www.ib-autoverwertung.de/ ; https://www.ib-autoverwertung.de/impressum/ ; https://www.northdata.de/IB-Autoverwertung-GmbH/Ingolstadt/Amtsgericht%20Ingolstadt%20HRB%2011827
+  (OSM live abgerufen 03.11.2026).]

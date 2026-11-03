@@ -58,3 +58,34 @@ Der Seed bleibt ein ungeklärter Essener ZJM-Lead: Verzeichnisse ordnen „ZJM D
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Die beiden verlinkten Betreiber-Domains essen-baumdienst.de und zjm-demontagen.de waren beim Abruf nicht erreichbar; die Verzeichnisse führen weiterhin Von-Ossietzky-Ring 59 und dieselbe Telefonnummer, sind aber nur Leads und kein unabhängiger Beleg. Daher keine Frontmatter-Korrektur: Adresse/Telefon bleiben unbestätigt, website_status tot (bisheriger DNS-Befund) und status pruefung unverändert. Quelle(n): https://www.dasoertliche.de/Themen/ZJM-Demontagen-Essen-Horst-Von-Ossietzky-Ring; https://www.gelbeseiten.de/gsbiz/f36fc8e4-9f21-4b2c-8343-a094698df13c; https://www.essen-baumdienst.de/; https://www.zjm-demontagen.de/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **ZJM Demontagen + Hausmeisterservice** sind
+  zwei **Hausnummern** der Von-Ossietzky-Ring in Umlauf (59 und 61); der Widerspruch ist im Dossier ausdrücklich offen
+  und nicht auflösbar, ohne den Betrieb zu identifizieren. **Was live geprüft wurde (03.11.2026):** (a) **Beide**
+  Kandidaten sind in OSM als Adressobjekte erfasst: **way/291659603** mit `addr:housenumber`=**59**,
+  `addr:street`=**Von-Ossietzky-Ring**, `addr:city`=Essen, `addr:postcode`=**45279**, `building`=yes (Mittel der 22
+  eindeutigen Way-Knoten **51.4364084/7.1162179**) und **way/291659606** mit `addr:housenumber`=**61**, sonst gleiche
+  Tags (Mittel der 23 eindeutigen Way-Knoten **51.4366268/7.1161254**); die Objekte liegen **25 m** auseinander. Der
+  Von-Ossietzky-Ring trägt live **71** verschiedene Hausnummern. (b) Beide Objekte tragen **weder** `name=` **noch**
+  `operator=`; eine Suche über `name`, `operator`, `brand`, `website`, `contact:website`, `description`, `note` und
+  `short_name` nach **„ZJM“**/**„Zänker“** im Kachelraster **7.0900/51.4200 – 7.1400/51.4500** liefert **0** Treffer
+  — Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. (c) Ein Objekt mit `addr:housenumber`=61 auf
+  **anderen** Straßen existiert im selben Raster nicht. Quelle 1 (Betreiber/Register): das **archivierte** Impressum von
+  `zjm-demontagen.de` vom **23.09.2021** und **20.06.2024** nennt „ZJM Demontagen+Hausmeisterservice“ mit
+  Steuernummer **111/5904/2947** und der verantwortlichen Person **Rebecca Sabrina Zänker** an **Von-Ossietzky-Ring 59,
+  45279 Essen** (die Adresshistorie beginnt 2016 mit **Kaldekirche 43, 45309 Essen**); das **Live**-Impressum von
+  `schrottundmetallabholung.de` nennt **Von-Ossietzky-Ring 61** mit derselben Steuernummer, und ein
+  Creditreform-Suchlead führt Rebecca Zänker ebenfalls an Nr. 61 (Direktabruf 403) — die Live- und die
+  Archivbelege widersprechen sich also in der Hausnummer, und es ist zudem **nicht** belegt, dass Website und
+  Seed-Lead (Nr. 59, Tel. 0201 9467448) derselbe Betrieb sind. Die Verzeichnisse Das Örtliche und Gelbe Seiten nennen
+  Nr. 59 mit **0201 9467448**. Quelle 2 (OSM): beide Hausnummern sind erfasst, ein Objekt mit Betriebsbezug fehlt.
+  **Was fehlt:** die Auflösung des Hausnummernkonflikts 59 gegen 61 **und** die Verknüpfung von Website und Seed-Lead;
+  erst damit ist ein Punkt für diese Zeile belegbar. `street`/`postcode` bleiben unverändert, `clear_fields: 'geo'`
+  bleibt bestehen, `status: pruefung` bleibt unverändert, es wird weder Fortbestand noch Annahme behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/291659603/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/291659606/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0900,51.4200,7.1400,51.4500 ;
+  https://web.archive.org/web/20210923213229id_/http://zjm-demontagen.de/impressum.html ;
+  https://www.schrottundmetallabholung.de/impressum (Abruf 03.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: by-aschaffenburg-63739-gold-silber-ankauf-deg
+lat: 49.9751782
+lon: 9.1464664
 name: Gold & Silber Ankauf Aschaffenburg (DEG e.K.)
 trader_type: sonstige
 state: BY
@@ -44,3 +46,26 @@ Aschaffenburger Filiale der Deutsche Edelmetall & Grund DEG e.K.; derselbe Recht
 ### Recherche 01.11.2026
 
 - [Recherche 01.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Gold & Silber Ankauf Aschaffenburg (DEG e.K.)`, Steingasse 4, 63739 Aschaffenburg, wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Vermerk gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 01.11.2026, clientseitig gerenderte Vaadin-App, Grid vollständig durchscrollt): (1) Radiusabfrage um die Dossieradresse `…/Entsorgungsfachbetriebe/adr=Steingasse 4, 63739 Aschaffenburg, Deutschland;9.1465143;49.9752926;…&dst=3&is=1&e=1` -> **37 Treffer**, ausschließlich Fremdbetriebe (u. a. `Stadtwerke Aschaffenburg kommunale Dienstleistungen` 0,8 km, `EMDE Altpapier-Erfassung und -Verwertung GmbH`, `CUP Recycling GmbH` Goldbach, `Rohstoffhandel Bernhard Westarp GmbH & Co. KG`) - **kein Treffer auf `DEG`, `Gold` oder `Silber` an der Dossieradresse**; (2) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Steingasse 4, 63739 Aschaffenburg…&dst=3&is=1&e=1` -> **1 Treffer**, `Rohstoffhandel Bernhardt Westarp KG`, `Hafenrandstraße 5-6, 63741 Aschaffenburg`, ZARS00500003 / 1, 2,4 km - **Fremdbetrieb**; (3) Namenssuche `n=Gold` -> 18 bundesweite Treffer ohne Aschaffenburger Treffer; `n=DEG` führt bundesweit zu `Degussa Sonne/Mond Goldhandel GmbH`, `Friedrich-Ebert-Anlage 35-37, 60327 Frankfurt` - **anderes Unternehmen, anderer Ort**. Als Edelmetallhändler wurde zusätzlich die Mitgliedsliste des **Berufsverbands des Deutschen Münzenfachhandels e.V.** geprüft: `https://www.muenzenverband.de/zertifizierte-goldankaeufer/` (82 Einträge, vollständig über alle Seiten abgerufen) und `https://www.muenzenverband.de/mitgliederliste/` (215 Einträge) wurden über die Suchmaske abgefragt: `firma=DEG` -> 1 Treffer (`Degussa Sonne/Mond Goldhandel GmbH`, Feld „“ = **Nein**) - **kein `DEG e.K.` aus Darmstadt/Aschaffenburg**; `city=Aschaffenburg` -> **0 Treffer** in der Liste der zertifizierten Goldankäufer, `zip=63739` -> **0 Treffer**, `webseite=goldankauf-silber.de` -> **0 Treffer**. Das Feld **„“ ist damit nicht `Ja`** - eine zertifizierte Goldankäufer-Urkunde wird nicht beansprucht. Das Impressum der Betreiberseite (`DEUTSCHE EDELMETALL & GRUND DEG e.K`, Handelsregister Darmstadt HRA 87094, Inhaber Sven Breitschaft, Filiale Aschaffenburg `Steingasse 4, 63739 Aschaffenburg`) nennt **keine** Verbandsmitgliedschaft und kein Zertifikat. Die Efb-Anerkennung nach § 56 KrWG und die Anerkennung nach AltfahrzeugV sind freiwillig; ein Register-Nichteintrag ist deshalb kein Nichtexistenzbeweis und widerlegt weder Betrieb noch Annahme noch Zertifizierungsbedarf. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Steingasse%204%2C%2063739%20Aschaffenburg%2C%20Deutschland%3B9.1465143%3B49.9752926%3B9.1585143%3B49.9872926%3B9.1345143%3B49.9632926&dst=3&is=1&e=1 ; https://www.muenzenverband.de/zertifizierte-goldankaeufer/ ; https://www.muenzenverband.de/mitgliederliste/ ; https://www.goldankauf-silber.de/impressum (Abruf 01.11.2026).]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.9751782/9.1464664** (Mittelwert der
+  eindeutigen Knoten des Objekts node/2900847620; der Objektknoten ist der einzige Knoten, der Punkt liegt damit
+  innerhalb der Objekt-BBox). Quelle 1 (OSM): node/2900847620 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/node/2900847620.json) trägt
+  `addr:housenumber`=**4**, `addr:street`=**Steingasse**, `addr:postcode`=**63739**, `addr:city`=**Aschaffenburg**,
+  `name`=**Goldankauf**, `shop`=jewelry und `opening_hours`=„Mo-Fr 10:00-18:00; Sa 10:00-16:00“ - die
+  Dossier-Hausnummer 4 ist damit objektgenau belegt, und die im OSM hinterlegten Öffnungszeiten decken sich wörtlich
+  mit dem Dossier-Feld `opening_hours`. Das zweite Objekt derselben Hausnummer, way/124274263, trägt `addr:housenumber`=4,
+  `addr:street`=Steingasse, `addr:postcode`=63739, `addr:city`=Aschaffenburg und `building`=apartments, aber **keinen**
+  Betriebsbezug; der benannte Betriebsknoten node/2900847620 ist der betriebsbezogene Treffer und wurde als
+  Koordinatenträger gewählt (Hausnummern-Duplikat, kein Widerspruch). Ein Objekt im Raster, das den Rechtsträger
+  „Deutsche Edelmetall & Grund DEG e.K.“ nennt, existiert nicht. Quelle 2 (Betreiber, im Dossier bereits zitiert): die
+  Standortseite https://www.goldankauf-silber.de/standorte/goldankauf-aschaffenburg nennt „Gold & Silber Ankauf Aschaffenburg, **Steingasse 4, 63739 Aschaffenburg**“ mit der
+  lokalen Rufnummer 06021 37 30 31 0 (Dossier-Recherche 05.10.2026 und 30.10.2026), das Betreiber-Impressum nennt den
+  Rechtsträger DEUTSCHE EDELMETALL & GRUND DEG e.K., HRA 87094 AG Darmstadt, und die Filiale Aschaffenburg „Steingasse
+  4, 63739 Aschaffenburg“ (Dossier-Recherche 01.11.2026). Beide Quellen nennen dieselbe Hausnummer, Straße und PLZ;
+  die im Dossier (Recherche 30.10.2026) protokollierte Adressabfrage im amtlichen Fachbetrieberegister GESA
+  („adr=Steingasse 4, 63739 Aschaffenburg“) liegt mit 49.9752926/9.1465143 rund 15 m neben dem OSM-Knoten. Das Dossier
+  enthielt **keine** `clear_fields`-Anweisung, daher ist nichts zu entfernen; `status`, `opening_hours`, `website` und alle
+  übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/node/2900847620.json ; https://api.openstreetmap.org/api/0.6/way/124274263.json ; https://www.goldankauf-silber.de/standorte/goldankauf-aschaffenburg ; https://www.goldankauf-silber.de/impressum (OSM live abgerufen
+  03.11.2026).]

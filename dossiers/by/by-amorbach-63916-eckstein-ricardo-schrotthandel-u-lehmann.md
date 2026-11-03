@@ -56,3 +56,29 @@ Unbestätigter Doppelname aus Schrottplatz-Portalen: Eckstein Ricardo Schrotthan
 ### Recherche 01.11.2026
 
 - [Recherche 01.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Eckstein Ricardo Schrotthandel u. Lehmann Antonia`, Amorsbrunner Straße 5C, 63916 Amorbach, wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Vermerk gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 01.11.2026, clientseitig gerenderte Vaadin-App, Grid vollständig durchscrollt): (1) Radiusabfrage um die Dossieradresse `…/Entsorgungsfachbetriebe/adr=Amorsbrunner Straße 5C, 63916 Amorbach, Deutschland;9.2012585;49.647796;…&dst=3&is=1&e=1` -> **0 Treffer**; (2) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Amorsbrunner Straße 5C, 63916 Amorbach…&dst=3&is=1&e=1` -> **0 Treffer**; (3) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Eckstein` -> **0 Treffer**, ebenso `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Eckstein` -> **0 Treffer**; (4) Positivkontrolle mit 10 km Radius um Amorbach -> Treffer, die Abfragetechnik funktioniert also. Das Dossier hält fest, dass nur ein Verzeichnis-Lead mit defektem Homepage-Link vorliegt; eine Betreiberwebsite oder ein Zertifikat existiert nicht. Die Efb-Anerkennung nach § 56 KrWG und die Anerkennung nach AltfahrzeugV sind freiwillig; ein Register-Nichteintrag ist deshalb kein Nichtexistenzbeweis und widerlegt weder Betrieb noch Annahme noch Zertifizierungsbedarf. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Amorsbrunner%20Stra%C3%9Fe%205C%2C%2063916%20Amorbach%2C%20Deutschland%3B9.2012585%3B49.647796%3B9.2132585%3B49.659796%3B9.1892585%3B49.635796&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Eckstein (Abruf 01.11.2026).]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist **Amorsbrunner
+  Straße 5C, 63916 Amorbach**. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=9.1990,49.6230,9.2490,49.6730** (25 Kacheln à 0,01° über Amorbach, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1990,49.6230,9.2490,49.6730) mit **77 717 Elementen** und
+  **0 Kachel-Fehlern**. Auf der Straße „Amorsbrunner Straße“ sind **16 Adressobjekte** erfasst, mit den Hausnummern
+  **1, 2, 2a, 2b, 6, 7, 7a, 8, 10, 43, 45, 47, 49, 51** (way/321414037 „Kapelle Amorsbrunn“ 1, way/482802857 1,
+  way/482803462 2, way/482803459 2a, way/482803458 2b, way/482873530 6, way/482802838 7, way/482802836 7a,
+  way/482873531 8, way/1006563957 10, way/482893317 43, way/482893316 45, way/482893313 47, way/482893312 49,
+  way/482893310 51, way/1006563955 2); die Dossier-Hausnummer **5C existiert in OSM nicht** - auch die
+  Bereichsschreibweise „5“ ist auf dieser Straße nicht vergeben (die Objektliste mit `addr:housenumber`=5 im Raster betrifft
+  ausschließlich andere Straßen: Königsberger Straße, Hintere Gasse, Wolkmannstraße, Miltenberger Straße, Steinerne
+  Gasse, Abteigasse, Mühlrain, Amtsgarten, Debonstraße, Kirchplatz, Löhrstraße, Oberes Tor, Weilbacher Straße sowie
+  Nachbarorte wie Weilbach und Schneeberg). Die Suche über
+  `name`, `operator`, `brand`, `official_name`, `alt_name`, `short_name`, `legal_name` und `old_name` nach „eckstein“,
+  „schrotthandel“ und „lehmann“ liefert **nur** die Straßenbezeichnung way/69223958 „Lehmannweg“ und **kein** Objekt
+  mit Betriebsbezug. Quelle 2 (Beleglage, im Dossier dokumentiert): die Adresse „Amorsbrunner Straße 5C, 63916
+  Amorbach, 09373 3678“ stammt ausschließlich aus Schrottplatz-Portalen (Dossier-Überblick und Recherche 27.09.2026);
+  eine Betreiberwebsite, ein Leistungsnachweis, ein Registereintrag oder eine Öffnungszeit sind **nicht** belegt, der
+  verlinkte Homepage-Auftritt liefert einen PHP-Fehler, und die Doppelnennung „Eckstein Ricardo … u. Lehmann Antonia“
+  lässt keine gesicherte gemeinsame Gesellschaft ableiten. Damit ist die Dossier-Hausnummer in OSM **nicht**
+  auffindbar; es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: geo`-Anweisung
+  **bleibt unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll und kein belegter Ersatz
+  existiert; `status`, `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1990,49.6230,9.2490,49.6730 (live abgerufen
+  03.11.2026).]

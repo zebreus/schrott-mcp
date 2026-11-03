@@ -67,3 +67,29 @@ NorthData führt die **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, mit Liq
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — einziger Adress-Lead schrottplatz.org (Eisenbahnstraße Essen), 11880-Essen-Trefferliste ohne Ludwig-Eintrag, kein HR-Beleg trotz GmbH & Co. KG, keine Betreiber-Website — kein Fill, Status pruefung; Quelle(n): nur Lead — Verzeichnis-Suche 01.10.2026]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse nennt **keine
+  Hausnummer** („Eisenbahnstraße“, 45134 Essen); ohne Hausnummer ist kein adressgenauer OSM-Punkt zuordenbar, jeder
+  Punkt auf der Straße wäre geraten. **Was live geprüft wurde (03.11.2026):** (a) Die **Eisenbahnstraße** in
+  Essen-Rellinghausen ist erfasst und trägt live **15** verschiedene Hausnummern (8, 9, 10, 11, 12, 13, 14, 15, 17, 18,
+  19, 20, 21, 23, 25) im Kachelraster **7.0400/51.4200 – 7.0600/51.4400**. (b) Das einzige Objekt mit Betriebsbezug in
+  diesem Umfeld ist **way/46753336** `name`=**„Grünannahmestelle Süd, Eisenbahnstraße 18“**, `operator`=**EBE**,
+  `amenity`=recycling, `recycling_type`=centre, `recycling:green_waste`=yes, `landuse`=commercial — eine
+  **Grünannahmestelle der Essener Entsorgungsbetriebe**, also **kein** Schrottplatz und **kein** Bezug zur
+  Rainer Ludwig GmbH & Co. KG. (c) Eine Suche über `name`, `operator`, `brand`, `website`, `description`, `note` und
+  `short_name` nach **„Ludwig“** im Raster liefert nur **Straßennamen** (Ludwig-Bender-Straße, Ludwig-Richter-Straße,
+  Ludwigstraße) und „Bahn-Landwirtschaft Bezirk Essen e.V. … Anlage ‚Ludwigstrecke‘“ — **kein** Treffer mit Bezug zum
+  Betrieb. Quelle 1 (Betreiber/Register): NorthData und der amtliche Handelsregisterauszug belegen die
+  **Rainer Ludwig GmbH & Co. KG, AG Essen HRA 4117** mit Liquidation (31.01.2023) und Löschung (22.10.2024) sowie dem
+  letzten registrierten Sitz „Eisenbahnstraße, 45134 Essen“ **ohne Hausnummer**; die Umweltinspektion 2021 nennt dort die
+  Anlage „Lagerung und Behandlung von Metallen“. Der WAZ-Bericht vom 28.04.2023 meldet, eine „Firma Ludwig“ habe den
+  Schrottplatz an der Eisenbahnstraße Ende Juni 2023 verlassen, nennt aber weder die KG noch HRA 4117. Quelle 2 (OSM):
+  die fehlende Hausnummer in Dossier und Register sowie das Fehlen eines objekts mit Betriebsbezug zur KG an der
+  Eisenbahnstraße. **Was fehlt:** eine belegte **Hausnummer** des historischen Standorts; erst mit dieser wäre ein
+  adressgenauer Punkt setzbar. `status: pruefung`, die leeren Kontaktfelder und `clear_fields: 'geo'` bleiben
+  unverändert; es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4200,7.0600,51.4400 ;
+  https://api.openstreetmap.org/api/0.6/way/46753336/full.json ; https://www.northdata.de/ ;
+  https://www.online-handelsregister.de/ (Abruf 03.11.2026).]

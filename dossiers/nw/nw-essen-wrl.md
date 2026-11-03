@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-wrl
-clear_fields: 'geo'
+lat: 51.5016982
+lon: 7.0321982
 name: WRL GmbH
 trader_type: schrotthaendler
 state: NW
@@ -45,3 +46,29 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Triage Feedback 2564)
 
 - [Recherche 01.10.2026: Feedback 2564 berechtigt — Betreiber-Footer (aktuell, © 2026): „Emscherstrasse 27 | 45327 Essen" → PLZ-Konflikt zugunsten der Betreiber-Primärquelle aufgelöst (postcode 45326 → 45327); street-Fix (Firmen-/Ortspräfix entfernt → „Emscherstr. 27"); HR-Spiegel-45326 als überholter Registerstand vermerkt; Quelle(n): https://www.wrl-essen.de/ (Footer)]
+
+
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.5016982/7.0321982** (Mittel der 6 eindeutigen
+  Way-Knoten von way/1057464915; der Punkt liegt innerhalb der Objekt-BBox **51.5016335/7.0321296 – 51.5017580/7.0322667**).
+  Quelle 1 (OSM): way/1057464915 trägt `name`=**WRL GmbH**, `office`=company, `website`=**https://www.wrl-essen.de/**,
+  `building`=yes — Name und Website stimmen mit dem Dossier-Betrieb (WRL GmbH, `website` https://www.wrl-essen.de)
+  objektgenau überein, der Betriebsbezug ist also unmittelbar am Objekt belegt. **Hausnummer:** für die
+  Dossier-Adresse **Emscherstraße 27** existiert in OSM **kein** Adressobjekt; die live erfassten Hausnummern der
+  Emscherstraße (Kachelraster **7.0200/51.4900 – 7.0400/51.5200**) lauten u. a. 2, 4, 10, 12, 28, 32, 34, 35, 36, 38
+  und weiter 80–212 — **die 27 fehlt**. Das benannte Betriebsgebäude liegt unmittelbar an der Emscherstraße gegenüber
+  dem Adressobjekt **Emscherstraße 28** (way/369120064) und ist der einzige Objektkörper mit Betriebsbezug in diesem
+  Umfeld; gesetzt wird deshalb das Objekt mit dem **Betriebsbezug**, nicht eine geratene Hausnummer. Quelle 2
+  (Betreiber/Register): das Impressum der Betreiber-Website nennt **WRL GmbH, Emscherstr. 27, HRB 19378 AG Essen**, der
+  Website-Footer nennt **„Emscherstrasse 27 | 45327 Essen“**, und die Startseite lädt ausdrücklich zur Materialabgabe an
+  den veröffentlichten Öffnungszeiten ein. Der zuvor im Produktionsbestand gespeicherte Punkt **51.450284375/7.015053125**
+  (Straße „Freiheit“, 45128 Essen) lag **5839 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/1057464915/full.json ; https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0200,51.4900,7.0400,51.5200 ;
+  https://www.wrl-essen.de/impressum/ ; https://www.wrl-essen.de/ (Abruf 03.11.2026).]

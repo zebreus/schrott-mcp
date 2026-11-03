@@ -40,3 +40,32 @@ RETRACO GmbH, Hamburg HRB 136833, ist über Betreiber-AGB und Northdata an Neuh�
 ### Importiert (Seed-Stand 2026-09-30)
 
 - FE/NE, Kabel, E-Geräte, Katalysatoren (Schlüssel 160801 lt. Register), Lagern/Behandeln/Handeln/Makeln
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Die Betreiberquelle ist belastbar:
+  Die **Einkaufs-AGB der RETRACO GmbH** (PDF, live abgerufen 03.11.2026, https://retraco-gmbh.com/agb-einkauf.pdf)
+  nennen in § 1 „**Vertragspartner des Lieferanten/Verkäufers ist die RETRACO GmbH, Neuhöfer Damm 110, 21107 Hamburg,
+  Handelsregister Hamburg - HRB 136833**"; die Verkaufs-AGB (https://retraco-gmbh.com/agb-verkauf.pdf) führen dieselbe
+  Rechtsträgerin. Damit sind Dossier-Adresse, PLZ und Register-Nr. betreiberseitig gedeckt (die im Dossier dokumentierte
+  Telefonkonflikt-Ecke bleibt unberührt, die Kontaktfelder bleiben leer). **Die geokodierungsseitige Quelle fehlt
+  jedoch:** Eine OSM-Hausnummerensuche (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Umfeld der
+  Dossier-Adresse **Neuhöfer Damm 110** wurde in dieser Welle angestoßen und über das Kachelraster **53.4300-53.4900 /
+  9.9600-10.0800** (Hamburger Insel- und Wilhelmsburger Raum) weitergeführt; sie wurde durch die API-Drosselung (HTTP
+  429 „You have downloaded too much data") nur **teilweise** abgeschlossen und ist deshalb **kein** belastbarer
+  Negativbefund — in den abgerufenen Kacheln wurde **kein** Objekt mit `addr:housenumber`=110 und `addr:street`=Neuhöfer
+  Damm angetroffen, die Dossier-Hausnummer ist in OSM **bisher nicht nachgewiesen**; ein Objekt mit Namens-, Betreiber-
+  oder Branchenbezug zu „RETRACO" wurde ebenfalls nicht angetroffen. Ohne Objekt ist kein „Mittelwert der eindeutigen
+  Knoten" bildbar und kein Punkt innerhalb einer Objekt-BBox prüfbar; eine Position „ungefähr am Neuhöfer Damm" wäre
+  eine geratene Koordinate. **Konsequenz:** Die Dossier-Adresse bleibt ungeokodiert; die Nachpflege ist eine
+  OSM-Datenlücke, kein Beleg gegen die Adresse. **Abgrenzung, unverändert übernommen:** Das Dossier hält fest, dass die
+  Zeile eine **zertifizierte Betriebsstätte** (Efb-Zertifikat ZZBT00300171, Stand 11.08.2026, nur Zertifikatslead aus
+  dem Verzeichnisspiegel, kein gelesenes Originalzertifikat) und **keinen** öffentlichen Schrottplatz mit
+  Privatkundenannahme abbildet — eine spätere Koordinate würde die **Betriebsstätte** markieren, keinen Annahmehof;
+  Ankaufspreise, Verkaufspreise und Gebühren bleiben unbelegt. `status: pruefung`, `street`/`postcode`, Telefon/E-Mail,
+  `website_status: aktiv` und alle übrigen Frontmatter-Felder bleiben unverändert. **Nächster Schritt für den Owner:**
+  OSM-seitig das Adressobjekt Neuhöfer Damm 110 (bzw. ein Objekt mit Betriebsbezug RETRACO) ergänzen bzw. identifizieren
+  und die Koordinate danach aus dem Objekt nachziehen. Quelle(n): https://retraco-gmbh.com/agb-einkauf.pdf ;
+  https://retraco-gmbh.com/agb-verkauf.pdf ; https://schrottregister.pages.dev/betrieb-retraco-gmbh-hamburg ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9600,53.4300,10.0800,53.4900 (Abruf 03.11.2026, teilweise
+  gedrosselt).]

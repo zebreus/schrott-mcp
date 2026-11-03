@@ -41,3 +41,29 @@ Van der Meulen Edelmetaal B.V. ist durch den eigenen niederländischen Auftritt 
 
 - Edelmetallrecycling (Gewerbe: Juweliere/Zahntechnik; NL-Scheideanstalt)
 - Adresse: Allermöhe, Hans-Duncker-Str. 14, 21035
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Der Dossier-Eintrag hat **keinen
+  belegten Hamburger Standort**: Die Betreiberquelle (https://meulen.nl/contact/, live abgerufen 11.10.2026 laut
+  Bestandsvermerk) nennt **Polderboskdyk 13-A, 8501 ZJ Joure (Niederlande)** und beschreibt die Schmelze in **Joure**;
+  eine Hamburger Niederlassung ist dort **nicht** ausgewiesen. Die Seed-Adresse **Hans-Duncker-Str. 14, 21035 Hamburg
+  (Allermöhe)** stammt aus einem Verzeichnislead (Gelbe Seiten) und ist im Dossier ausdrücklich als **unbestätigter
+  Verzeichnislead** geführt; das Dossier vermerkt als Geo-Vorgabe ausdrücklich: keine NL-Koordinaten und keine Hamburger
+  Verzeichnisadresse übernehmen, **aktuelle Hamburger Niederlassung, Betreiber und öffentliche Annahme zuerst
+  bestätigen**. Eine OSM-Stichprobe (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Umfeld der
+  Dossier-Adresse **Hans-Duncker-Str. 14** (Kachelraster 53.5800-53.6000 / 10.0400-10.0600) ergab **kein** Objekt mit
+  `addr:street`=Hans-Duncker-Straße und `addr:housenumber`=14 und **kein** Objekt mit Namens-, Betreiber- oder
+  Branchenbezug zu „Van der Meulen", „Meulen", „Edelmetaal Waarborg" oder „EWN" — die Dossier-Hausnummer ist damit in
+  OSM **nicht nachgewiesen**; die Aussage ist als Stichprobe qualifiziert, weil die OSM-API in dieser Welle stark
+  gedrosselt war (HTTP 429 bei Kachelabrufen). Unabhängig davon fehlt die zweite Quelle: Das Dossier enthält für „Van
+  der Meulen Edelmetaal B.V." sowie für „Edelmetaal Waarborg Nederland B.V. Zweigniederlassung Deutschland" **keinen**
+  Register- oder Betreibereintrag mit Hamburger Anschrift; der Verzeichnislead ist nach Repo-Quellenhierarchie kein
+  Beleg. **Konsequenz:** Eine Koordinate wäre weder durch das OSM-Objekt noch durch eine Betreiber-/Registerquelle
+  gedeckt; insbesondere wäre eine **niederländische** Koordinate (Joure) eine falsche Zuordnung, da der
+  Dossier-Datensatz einen Hamburger Standort führt. `status: pruefung`, `website_status: unbekannt`, `street`/`postcode`
+  (leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **keine** Schließung behauptet. **Nächster
+  Schritt für den Owner:** Nachweis einer tatsächlich in Hamburg betriebenen Niederlassung (Impressum mit Hamburger
+  Anschrift oder Gewerberegisterauszug) — dann erneute OSM-Hausnummerensuche. Quelle(n): https://meulen.nl/contact/ ;
+  https://www.gelbeseiten.de/gsbiz/2a511aa3-ae39-48d1-8d07-6aca24ceabf7 (Verzeichnislead) ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0400,53.5800,10.0600,53.6000 (Abruf 03.11.2026).]
