@@ -1,6 +1,7 @@
 ---
 slug: nw-aachen-ocher-schrottmannchen
-clear_fields: 'geo'
+lat: 50.7219689
+lon: 6.1515488
 name: Öcher Schrottmännchen
 trader_type: schrotthaendler
 state: NW
@@ -81,3 +82,30 @@ provenance_origin: table
 
 - [Recherche 01.11.2026: Kein amtlicher Zertifikatsnachweis gefunden — `certifications` bleibt **leer**. Abfrage des amtlichen Fachbetrieberegisters am 01.11.2026: (1) **Namenssuche** „Schrottmännchen“ und „Maennchen“ (Umschrift ohne Umlaut) im Register „Entsorgungsfachbetriebe“ → jeweils **0 Treffer gefunden**; Namenssuche „Öcher“ → **0 Treffer gefunden**; die Kontrollsuche „Ocher“ (Umschrift) → **8 Treffer gefunden**, vollständig gelesen: Heidemarie Kocher, Ludwig-Erhard-Str. 8, 91639 Wolframs-Eschenbach (ZZIT00700287 / 1-3) und Fuchslocher GmbH & Co. Kommanditgesellschaft, Müggenburger Str. 20-24, 20539 Hamburg (ZZHT00300037 / 1-5) — **andere Orte und andere Rechtsträger**, keine Namensübereinstimmung mit „Öcher Schrottmännchen“; (2) dieselben Namenssuchen im Register „Altfahrzeugverwertung“ → **0 Treffer gefunden**; (3) **Standortsuche** um die Dossier-Adresse Kroitzheider Weg 8, 52076 Aachen, Umkreis 2 km, Register „Entsorgungsfachbetriebe“ → **0 Treffer gefunden**; dieselbe Standortsuche im Register „Altfahrzeugverwertung“ → **0 Treffer gefunden**. Der Betrieb ist nach der Recherche vom 03.10.2026 ohnehin nur über Verzeichnisangaben und eine nicht als Betreiber verifizierte Kleinanzeige greifbar (Gelbe-Seiten-Eintrag Kroitzheider Weg 8, 52076 Aachen, 0176 24453838; Anbieter in der Anzeige „hillracer“); es liegt keine bestätigte Rechtsidentität und keine bestätigte stationäre Annahme vor. **Reichweite der Negativaussage:** Die Efb-Anerkennung nach § 56 KrWG ist freiwillig und für einen mobilen Kleinanlieferbetrieb ohne Abfallanlage nicht erforderlich; der Negativbefund beweist keine Nichtzertifizierung, keine Rechtswidrigkeit und keine Schließung. Umfang: beide Register, Namens- und Standortsuche, mehrere Schreibweisen. `status` bleibt unverändert `pruefung`. Keine Preise, Gebühren oder Ankaufsbedingungen aus dieser Recherche abgeleitet.]
 - [Recherche 01.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottm%C3%A4nnchen ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=%C3%96cher ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ocher ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrottm%C3%A4nnchen ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=52076%20Aachen,%20Deutschland;6.1515;50.7220;6.1515;50.7220;6.1515;50.7220&dst=2&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=52076%20Aachen,%20Deutschland;6.1515;50.7220;6.1515;50.7220;6.1515;50.7220&dst=2&is=1&e=1]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.7219689/6.1515488** (Mittel der **4** eindeutigen
+  Knoten von way/208620437; das Objekt hat 5 Knotenreferenzen, davon 4 eindeutige - ein Knoten ist doppelt gezählt; die
+  BBox der eindeutigen Knoten reicht von 50.7218757/6.1513815 bis 50.7220621/6.1517161 und **umschließt den
+  Mittelwert**). Quelle 1 (OSM): way/208620437 trägt `addr:housenumber`=8, `addr:street`=Kroitzheider Weg,
+  `addr:city`=Aachen, `addr:postcode`=52076, `addr:suburb`=Schleckheim, `addr:country`=DE und `building`=yes (live
+  geladen am 03.11.2026, HTTP 200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die belegte
+  Anschrift und **keine** verifizierte Annahme, Zufahrt oder Waage. Das Objekt ist identisch mit dem bereits am
+  03.10.2026 dokumentierten Photon-Haus-/Gebäudematch (way 208620437, lat 50.7219689/lon 6.1515488, type house,
+  district Schleckheim) - die damalige Notiz, dass der Punkt weder Ortsmittelpunkt noch Beweis einer
+  Schrottannahme ist, bleibt **unverändert gültig** und wird durch diese Geokodierung ausdrücklich **nicht**
+  aufgehoben: `status: pruefung`, `website` und `website_status` bleiben unverändert, und es wird **keine** öffentliche
+  Anlieferung, kein Ankauf und kein Standortbetrieb behauptet. Quelle 2 (Verzeichnis): der direkt gelesene
+  Gelbe-Seiten-Eintrag (live abgerufen am 27.10.2026) nennt **Kroitzheider Weg 8, 52076 Aachen**, Telefon
+  **0176 24453838**, Mo–Fr 09:00–17:00 / Sa 09:00–14:00 und die Leistungen „Schrottabholung und Entrümpelungen“;
+  GoLocal und Das Telefonbuch wiederholen dieselbe Anschrift und Nummer, und die amtliche Fachbetriebsregister-
+  Standortsuche um die Dossier-Adresse (Umkreis 2 km) hat **keinen** Eintrag zu diesem Standort ergeben - die
+  Anschrift ist damit durch die Verzeichniskette gedeckt, die **Betreiberidentität bleibt jedoch ungeklärt**
+  (Anbieter in der Kleinanzeige „hillracer“, Name laut Impressums-Spiegel „Stefan Hillmann“, keine
+  Registereintragung). Der bisher gespeicherte Produktionspunkt 50.76775/6.1029 (rund 5,4 km entfernt, laut
+  read-only-Abgleich vom 23.10.2026) wird durch diesen Punkt ersetzt; `clear_fields: 'geo'` entfällt, weil die
+  Koordinate nun belegt vorliegt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/208620437/full.json ;
+  https://www.gelbeseiten.de/gsbiz/afe626ca-d7f5-4fa4-9b4e-9a2ba12e7054 ;
+  https://www.golocal.de/aachen/entsorgung/oecher-schrottmaenchen-7RJWY/ ;
+  https://www.findix.de/kleinanzeige/das-oecher-schrottmaennchen (Abruf 03.11.2026).]

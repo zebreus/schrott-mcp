@@ -55,3 +55,39 @@ Möglicher Verzeichnislead „Schrotthandel Paul“ in Bechhofen/Pfalz, aber noc
 ### Recherche 07.10.2026
 
 - [Korrektur/Recherche 07.10.2026: fehlerhaft zusammengesetztes Frontmatter-Feld `street: Paul Bechhofen Bechhofen Altestr. 4` geleert; der unveränderte Seed-/Importvermerk und die Recherche vom 02.10.2026 bewahren den Ursprungswert und dessen Kritik. Cylex führt als unbestätigten Lead „Schrotthandel Paul“, Alte Str. 4, 66894 Bechhofen, Tel. 0179 6320816; die Domain schrott-paul.de war beim Direktabruf nicht erreichbar, was weder Betreiberidentität noch Geschäftsaufgabe beweist. Adresse/Telefon/PLZ daher nicht ins Frontmatter übernommen. ANKAUF: nicht bestätigt, keine Preise; VERKAUF: keine Liste; GEBÜHREN: keine Angaben. Offen: richtiger Ortsteil/PLZ, Betreiber und Hausnummer. Quelle(n): https://web2.cylex.de/firma-home/schrotthandel-paul-15241859.html; http://www.schrott-paul.de; https://www.schrott-paul.de/impressum.php]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **4** ist in OSM auf der
+  Dossier-Straße **Altestraße** zwar **eindeutig** belegt, aber **es fehlt die zweite unabhängige Quelle**: die
+  Dossier-Adresse stammt **ausschließlich** aus einem **Cylex-Verzeichnislead**, und nach der README-Quellenhierarchie
+  sind Verzeichnisse ausdrücklich **Leads, nie Evidenz**; zudem ist die **Betreiberidentität** selbst ungeklärt.
+  **Was geprüft wurde (live am 03.11.2026):** (a) Die Straße **Altestraße** im pfälzischen **Bechhofen**
+  (66894, VG Nordpfälzer Land; **nicht** zu verwechseln mit dem bayerischen Bechhofen 91572, VG Ansbach) trägt in
+  OSM **13 Adressobjekte** mit den Hausnummern **2, 3, 4, 4a, 5, 6, 7, 8, 9, 10, 12, 14, 20** - die **Hausnummer 4
+  ist genau einmal** belegt und damit eindeutig: **way/402134595** mit `addr:housenumber`=**4**,
+  `addr:street`=**Altestraße**, `addr:city`=**Bechhofen**, `addr:postcode`=**66894**, `addr:country`=DE und
+  `building`=yes (Kachelraster über **bbox=7.3800,49.3300,7.4300,49.3750**, live abgerufen 03.11.2026); Objekt-BBox
+  49.3483408/7.4101116 bis 49.3485257/7.4104715. (b) Eine Suche über **alle** Tag-Werte nach „paul“, „schrott“ oder
+  einem Schrott-/Metallbetrieb im Raster liefert **0 Objekte**, die **den eigenen Betrieb** nennen - der Betrieb ist in
+  OSM **nicht namentlich kartiert**; das Objekt trägt **weder `name=` noch `operator=`**. (c) Die **Namensvetter-
+  Abgrenzung** bleibt: Bechhofen (Pfalz) ist **nicht** mit Bechhofen (Bayern) zu verwechseln - die
+  Schrotthändler-Liste von Das Örtliche (live abgerufen 03.11.2026, HTTP 200,
+  https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Bechhofen.html) liefert für „Bechhofen a.d.Heide“ (Bayern)
+  **keine** Treffer im Ort, sondern nur einen regionsfremden Betrieb „Rudolf Ernst Abfallverwertung“ in Gunzenhausen -
+  ein **Namenshomonym ohne Ortsbezug**, das den Dossier-Lead **nicht** stützt. **Quelle 1 (Verzeichnis):** Der
+  **Cylex-Lead** (im Dossier vom 27.10.2026 zitiert,
+  https://web2.cylex.de/firma-home/schrotthandel-paul-15241859.html) nennt „**Schrotthandel Paul**“ mit „**Alte
+  Str. 4, 66894 Bechhofen**“, Telefon 0179 6320816 - das ist ein **Verzeichnislead ohne Betreiber- oder
+  Registerbestätigung**. Die Betreiber-Domain **schrott-paul.de** ist seit dem 27.10.2026 **nicht erreichbar**
+  (HTTPS-Abbruch ohne Antwort, Status 000) - das ist ein technischer Ausfall und **kein** Betriebs- oder
+  Schließungsnachweis; ein **Betreiberauftritt, ein Impressum oder ein Registereintrag** zu „Schrotthandel Paul“ in
+  Bechhofen existiert **nicht**. **Quelle 2 (OSM):** way/402134595 und die übrigen Adressobjekte der Altestraße
+  (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3800,49.3300,7.4300,49.3750). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle**, die „Schrotthandel Paul“ in Bechhofen (Pfalz) und die Anschrift bestätigt, sowie
+  die Bestätigung, dass an der Altestraße 4 überhaupt eine Schrottannahme stattfindet. `status` bleibt **pruefung**,
+  `street`/`postcode`/`phone` bleiben unverändert bzw. leer, `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3800,49.3300,7.4300,49.3750 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Bechhofen.html (live abgerufen 03.11.2026) ;
+  Recherche-Vermerke vom 25.10. und 27.10.2026 im Dossier.]

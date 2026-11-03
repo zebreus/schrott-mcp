@@ -50,3 +50,36 @@ Ein aktueller Gelbe-Seiten-Eintrag führt „Burns Schrotthandel“, Hüttenberg
 ### Recherche 01.10.2026
 
 - [Recherche Burns Linden: kein 2. unabhängiger Beleg, nur Aggregator-Leads, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Betreiber-Beleg]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **23** auf der "Hüttenberger Straße" in Linden existiert in OSM: das am 03.11.2026 live
+  abgefragte Kachelraster ueber den Lindener Ortsbereich (Rasterfenster 8.5900/50.5100 bis 8.6900/50.5550,
+  0,01-Grad-Kacheln ueber `scripts/release/osm_street_scan.py`, 50 Kacheln, 0 Fehler) weist auf der Strasse
+  **36 Adressobjekte** mit **35 verschiedenen Hausnummern** aus (2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17,
+  19, 21, 22, **23**, 24, 25, 26, 27, 28, 29, 30, 32, 34, 36, 38, 40, 42, 43, 30a, 17 A, 27 A) - die Nummer 23
+  ist als `way/609560812` erfasst (`addr:housenumber`=23, `addr:street`=Hüttenberger Straße,
+  `addr:postcode`=35440, `addr:city`=Linden, `building`=yes; 4 eindeutige Knoten, BBox 8.6450431/50.5299585 bis
+  8.6451703/50.5300505, Mittelwert der eindeutigen Knoten 50.5300045/8.6451067); die Strasse selbst ist als
+  way/27194110 und way/38097770 (`highway=secondary`, `ref`=L 3129, `postal_code`=35440) kartiert. Das Objekt
+  traegt **weder** `name` **noch** `operator`; die einzigen benannten Objekte der Strasse sind `name=Nau,
+  Daniel` (Nummer 29) und `name=Autovermietung Thorald Schäfer GmbH` (Nummer 43) - ein Objekt mit Bezug zu
+  "Burns", "Schrott" oder "Metall" existiert im Raster **nicht** (die Treffer zu `amenity=recycling` sind
+  kommunale Sammelstellen und der kommunale "Wertstoffhof Linden"). Quelle 1 (Betreiber/Register): **fehlt** -
+  die Gelbe-Seiten-Detailseite (live gelesen am 25.10.2026) fuehrt "Burns Schrotthandel", Hüttenberger Str. 23,
+  35440 Linden, Tel. 06403 778468, Rubrik Schrott, bietet aber **keinen** Betreiberauftritt, **keine** Preise und
+  **keine** unabhaengig belegte Annahmefunktion; eine Websuche vom 02.10.2026 fand keinen Betreiber-, HRB- oder
+  kommunalen Beleg zu "Burns Schrotthandel" in Linden, nur Aggregator-Leads. Ein Verzeichniseintrag ist nach dem
+  Quellenstandard kein Betreiberbeleg. Quelle 2 (OSM): way/609560812 sowie das Kachelraster (live, oben).
+  Damit liegt eine belegte **Anschrift** vor, aber **kein** belegter **Betrieb**; ein Punkt auf der
+  Hüttenberger Straße 23 wuerde einen Standort suggerieren, den weder OSM noch eine Betreiber- oder
+  Registerquelle dem Seed zuordnet. Es wird **keine** Koordinate erfunden. Der gespeicherte Altpunkt
+  51.18435/8.33325 (Huxel bei Schmallenberg, Hochsauerlandkreis) liegt rund 300 km entfernt und wird mit
+  `clear_fields: 'geo'` ohnehin zurueckgenommen; `status` bleibt `pruefung`, fehlende Belege beweisen keine
+  Nichtexistenz oder Schliessung.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/609560812/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/27194110/full.json ;
+  `scripts/release/osm_street_scan.py` (Kachelraster) ;
+  https://www.gelbeseiten.de/gsbiz/a2affcc7-5875-4371-9970-9fa8cc8feabe ;
+  https://schrottregister.pages.dev/ort-linden ; read-only `public.db` (Abruf 03.11.2026)]

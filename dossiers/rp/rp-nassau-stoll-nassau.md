@@ -53,3 +53,37 @@ Verzeichnisprofile führen „Schrott und Metallhandel Stoll“, Bahnhofstr. 16,
 - Bahnhofstr. 16
 - urspr. Website-Angabe: keine
 - Adresse: Nassau
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **16** findet sich in OSM auf
+  der Dossier-Straße **Bahnhofstraße** in Nassau **nicht**; ein Punkt wäre geraten, deshalb wird bewusst **keine**
+  Koordinate gesetzt. **Was geprüft wurde (live am 03.11.2026):** (a) Die Straße **Bahnhofstraße** ist in OSM
+  durchgängig kartiert und trägt **17 Adressobjekte**; die belegten Hausnummern sind **1, 3, 4, 5, 6, 7, 8, 9, 10,
+  11, 12, 13, 14, 14a, 18** - die **Hausnummer 16 existiert dort nicht** (das Kachelraster über
+  **bbox=7.7800,50.3000,7.8200,50.3300** umfasst den gesamten Bahnhofsbereich mit Bahnhof und Aldi-Süd und ist
+  vollständig verfügbar). Der Bahnhof selbst trägt way/108649547 `addr:housenumber`=**14a**, `building`=train_station,
+  `addr:city`=Nassau, `addr:postcode`=56377. (b) Eine Suche über **alle** Tag-Werte nach „stoll“ im Raster liefert
+  **0 Objekte**; ein Objekt, das **den eigenen Betrieb** nennt, existiert in OSM **nicht** - die Objekte auf der
+  Straße sind nachweislich **andere Betriebe** (way/470786868 Evangelisches Gemeindehaus, way/168639623 Aldi Süd,
+  node/10038994282 Bäckerei Schäfer, way/472314235–246 und way/470923996 Wohn-/Gewerbegebäude). (c) Auch die
+  **Hausnummer 15** und **17** fehlen, die Nummernfolge ist also lückenhaft - die Dossier-Adresse „Bahnhofstr. 16“
+  liegt in diesem Lückenbereich. **Quelle 1 (Betreiber/Verzeichnis):** Das **Schrottplatz-Portal** (live abgerufen
+  03.11.2026, https://lokaleschrottplatz.de/schrott-und-metallhandel-stoll/) führt „Schrott und Metallhandel Stoll“
+  mit „**Bahnhofstraße 16, 56377 Nassau**“, Telefon 01573 5709600, Mo–Sa 07:00–18:00 und den Mindestmengen
+  100 kg Eisen / 1 kg NE; die **11880-Detailseite** (live abgerufen 03.11.2026,
+  https://www.11880.com/branchenbuch/nassau-lahn/060440092B113459929/schrott-und-metallhandel-stoll.html) nennt
+  dieselbe Anschrift und dieselbe Rufnummer. Beides sind **Verzeichnisse** - es existiert **keine** Betreiberseite,
+  **kein** Impressum und **kein** Registereintrag zu diesem Namen (die README-Quellenhierarchie führt Verzeichnisse
+  ausdrücklich als **Lead**, nicht als Beleg); das im Dossier dokumentierte „Geschlossen“ ist eine dynamische
+  Portalanzeige und **kein** Schließungsbeleg. **Quelle 2 (OSM):** die Straße way/… `name`=Bahnhofstraße und die
+  oben genannten Adressobjekte (live abgerufen 03.11.2026 über das Kachelraster
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7800,50.3000,7.8200,50.3300). **Was fehlt:** ein
+  OSM-Objekt mit `addr:street`=Bahnhofstraße **und** `addr:housenumber`=16 (oder ein benanntes Betriebsobjekt an
+  dieser Anschrift) **sowie** eine Betreiber- oder Registerquelle, die die Nummer 16 bestätigt. Der im Dossier
+  dokumentierte Straßeneintrag „Stoll Nassau Nassau Bahnhofstr. 16“ bleibt ein Importartefakt und wird **nicht**
+  übernommen; `status` bleibt **pruefung**. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7800,50.3000,7.8200,50.3300 (Kachelraster, live abgerufen
+  03.11.2026) ; https://lokaleschrottplatz.de/schrott-und-metallhandel-stoll/ ;
+  https://www.11880.com/branchenbuch/nassau-lahn/060440092B113459929/schrott-und-metallhandel-stoll.html (live
+  abgerufen 03.11.2026).]

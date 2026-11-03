@@ -1,5 +1,7 @@
 ---
 slug: rp-borrstadt-ayan-borrstadt
+lat: 49.5837123
+lon: 7.9416515
 name: Ayan Börrstadt
 trader_type: sonstige
 state: RP
@@ -12,7 +14,6 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -48,3 +49,39 @@ Die Betreiberwebsite und zwei dort hochgeladene SMU-Zertifikate nennen **R. Ayan
 - Kaiserstr. 5, 82★
 - urspr. Website-Angabe: keine
 - Adresse: Börrstadt
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.5837123/7.9416515** (Mittel der eindeutigen
+  Knoten von way/329824713, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=**5**,
+  `addr:street`=**Kaiserstraße**, `addr:city`=Börrstadt, `addr:postcode`=67725, `addr:country`=DE und
+  `building`=yes - die Dossier-Adresse (Kaiserstraße 5, 67725 Börrstadt) ist damit **adresslich vollständig
+  belegt**; Objekt-BBox 49.5836552/7.9415512 bis 49.5837694/7.9417517, der Punkt liegt **innerhalb**; der Way hat
+  4 eindeutige Knoten. Quelle 1 (Betreiber): Das **Impressum der Betreiber-Website** (live abgerufen 03.11.2026,
+  HTTP 200, https://www.schrotthandel-ayan.de/impressum) nennt „**Resul Ayan, Autorecycling, Schrotthandel und
+  Containerdienst, Kaiserstraße 5, 67725 Börrstadt**“, Telefon 06357 498, Mobil 0176 68 222 826,
+  E-Mail schrotthandel-ayan@t-online.de, Inhaber Resul Ayan; die Seitenfußzeile wiederholt „R. Ayan Autorecycling |
+  Schrotthandel | Containerdienst, **Kaiserstraße 5 | 67725 Börrstadt**“ - Straße, Hausnummer, PLZ und Ort sind
+  damit über eine **Betreiber-Primärquelle** belegt. Das zweite Zertifikat des Dossiers (**anerkannter
+  Demontagebetrieb**, https://www.schrotthandel-ayan.de/uploads/PPUnQXUS/anerkannter-Demontagebetrieb.pdf) nennt
+  nach der Recherche vom 26.10.2026 denselben Rechtsträger und dieselbe Anschrift „**R. Ayan Schrotthandel,
+  Autorecycling, Containerdienst, Kaiserstraße 5, 67725 Börrstadt**“ (Prüfung 24.01.2026, ausgestellt 09.03.2026) -
+  es stützt die Anschrift, bleibt aber ein Betreiber-Upload und **keine** eigenständige Registerabfrage.
+  Quelle 2 (OSM): way/329824713 (live abgerufen 03.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/329824713/full.json) sowie das Kachelraster über
+  **bbox=7.9300,49.5700,7.9600,49.6000** (live abgerufen 03.11.2026) - auf der Kaiserstraße in Börrstadt ist die
+  **Hausnummer 5 genau einmal** belegt und damit **eindeutig** (gefundene Nummern u. a. 1, 1a, 2, 2a, 4, 4a, 5, 6,
+  6a, 7, 8, 9, 11, 11a, 12, 13, 13a, 14, 15, 19, 20, 20a, 22, 24, 26, 34, 36). **Qualifizierung:** das Objekt trägt
+  **weder `name=` noch `operator=`** und keinen Betriebsbezug - der Betrieb ist in OSM also **nicht namentlich
+  kartiert**; gesetzt wird deshalb der **adressgenau belegte** Objektpunkt, nicht ein Betriebspolygon. Der
+  previously gespeicherte Produktionspunkt 49.5777/7.9425 (Gartenweg 1) ist mit dieser Koordinate **ersetzt**;
+  `clear_fields: 'geo'` wurde deshalb aus dem Frontmatter **entfernt** (ein belegtes lat/lon-Paar und das
+  gleichzeitig gesetzte `geo`-Clear sind laut Seed-Vertrag unzulässig). **Was offen bleibt:** die seit 26.10.2026
+  dokumentierte **Identitäts-Zuordnung** der Seed-Zeile `Ayan Börrstadt` zu „R. Ayan Autorecycling/Schrotthandel“
+  bleibt **unverändert** offen - die Zertifikate wurden weiterhin **nicht** bei der ausstellenden Stelle
+  verifiziert; `name`, `trader_type`, `street`, `postcode`, `website`, `status` und `dropoff_json` bleiben daher
+  **unverändert bzw. ungefüllt**, `status` bleibt **pruefung**. Die gesetzte Koordinate belegt den
+  **Adressstandort**, nicht die Aktivität, die Kundenannahme oder die Preise. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/329824713/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9300,49.5700,7.9600,49.6000 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.schrotthandel-ayan.de/impressum (live abgerufen 03.11.2026).]

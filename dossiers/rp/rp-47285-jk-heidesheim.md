@@ -43,3 +43,23 @@ provenance_origin: table
 - HRB
 - urspr. Website-Angabe: keine
 - Adresse: 47285)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, weil kein Adress- und kein Betriebsbezug
+  besteht.** Die Seed-Zeile trägt den Namen „**JK Heidesheim**“ und in `city` den String „**47285)**“ - eine
+  **fehlerhafte** Angabe, die laut Recherche vom 03.10. und 21.10.2026 **nicht** als Postleitzahl interpretiert werden
+  darf und **nicht** zu Heidesheim/Ingelheim passt; `street` und `postcode` sind **leer**. **Was geprüft wurde (live am
+  03.11.2026):** (a) Ohne **Dossier-Straße** und **Dossier-Hausnummer** gibt es **kein** Suchfenster und damit
+  **keinen** geokodierbaren Adresspunkt - die OSM-Prüfung dieser Welle (Kachelraster Kaiserslautern, Bad Kreuznach,
+  Börrstadt, Mayen, Koblenz, Neuwied, live abgerufen 03.11.2026) hat **kein** Objekt mit einem `name=`/`operator=`-
+  Bezug zu „JK“, „Heidesheim“ oder einer JK-Firma ergeben. (b) Die Zahl **47285** ist **keine** belegte PLZ des
+  Dossiers; die Recherche vom 03.10.2026 hat live belegt, dass die Gelbe-Seiten-Suche „JK in Heidesheim“ **keinen**
+  Schrott- oder Metallbetrieb dieses Namens zeigt, sondern unverbundene JK-Namenshomonyme, und dass die Suche nach
+  der exakten Kombination „JK Heidesheim“/„47285“ **keinen** belastbaren Betreiber- oder Registerbeleg erbrachte.
+  **Was fehlt:** ein **Betreiber- oder Registerbeleg**, der die Zeile einem konkreten Betrieb mit **Anschrift**
+  zuordnet - erst dann wäre eine Geokodierung möglich; eine **Suchtreffer-Namenshomonymie** ersetzt die fehlende
+  Identität nicht. `city` bleibt unverändert „47285)“, `status` bleibt **pruefung**, alle übrigen Felder bleiben leer.
+  Ein **Nichtexistenz- oder Schließungsbeweis** ist damit **nicht** verbunden. Quelle(n): Recherche-Vermerke vom
+  03.10. und 21.10.2026 im Dossier ; https://api.openstreetmap.org/api/0.6/map.json (Kachelraster
+  Kaiserslautern/Bad Kreuznach/Börrstadt/Mayen/Koblenz/Neuwied, live abgerufen 03.11.2026).]

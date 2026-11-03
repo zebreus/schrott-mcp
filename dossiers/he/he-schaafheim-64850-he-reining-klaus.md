@@ -52,3 +52,32 @@ Der Seed führt Klaus Reining an Karlstr. 1. Die Website des heutigen Containerd
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Re-Check ohne neuen Fund — Forschungsstand 01.10.2026 unverändert tragfähig: containerdienst-reining.com weiter dead, Nachfolger containerdienst-schaafheim.de (Salih Gencsoy, „seit Mai 2020 unter neuem Namen/neuem Inhaber“, 38-jährige Vorgeschichte) bestätigt das Ende der Klaus-Reining-Entität an Karlstr. 1. Tel.-Lead 06073 9009 bleibt ohne Zweitbeleg. Kein Fill, status weiter pruefung (Obsolet-Verdacht, Löschkandidat für Owner-Gate). Folgewelle: Gewerberegister Schaafheim (Abmeldung prüfen). Quelle(n): keine neuen, Stand 01.10.2026 re-verifiziert.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Adresse **Karlstr. 1, 64850 Schaafheim** ist in OSM als `way/799842912` erfasst
+  (`addr:housenumber`=1, `addr:street`=Karlstraße, `addr:city`=Schaafheim, `addr:postcode`=64850,
+  `addr:country`=DE, `building`=yes; live geladen am 03.11.2026, HTTP 200, 4 eindeutige Knoten, BBox
+  9.0062167/49.9240450 bis 9.0065348/49.9242251, Mittelwert der eindeutigen Knoten 49.9241344/9.0063775).
+  Das Objekt traegt **weder** `name` **noch** `operator` - es bestaetigt die Anschrift, aber **nicht** den
+  Betrieb. Quelle 1 (Betreiber/Register): **fehlt fuer diese Anschrift** - die Nachfolger-Seite
+  https://www.containerdienst-schaafheim.de/ (ausgelieferte JS-Komponenten
+  `Seo-DTvtlKDA.js`, `UeberUns-CamdrXxU.js`, `Impressum-DA8ZMBv_.js`, live gelesen am 28.10.2026) nennt
+  Salih Gencsoy, **Ringstraße 7**, 64850 Schaafheim, 0170 8648439 / 06073 7447301 und "operatingSince Mai 2020"
+  sowie in der Ueber-uns-Komponente "Vor mehr als 38 Jahren gruendet Klaus Reining den Containerdienst
+  Reining, welcher nun unter neuem Namen und neuem Inhaber fuer Sie da ist" - **nur mit der abgeschwaechten
+  Formulierung "laut bisheriger Website"**; die Adresse Ringstraße 7 wird ausdruecklich **nicht** auf Reining
+  uebertragen, `containerdienst-reining.com` ist nicht im DNS und Klaus Reining ist in keinem Register
+  erfasst. Der Seed-Bestand "Klaus Reining, Karlstr. 1" selbst beruht auf einem Verzeichnis-Konsens
+  (Gelbe Seiten, schrottplatz-info, schrottplatz.org, misterwhat, branchenbuchdeutschland), also auf Leads.
+  Ein unabhaengiger Registerbeleg fuer die Betriebsidentitaet oder eine Annahmestelle fehlt; das Dossier
+  haelt fest: "GEO: Karlstr. 1 und die Nachfolgeradresse Ringstraße 7 bleiben getrennte, ungeklaerte
+  Kandidaten; Betreiberkette und Annahmestelle vor Geokodierung klaeren." Der gespeicherte Altpunkt
+  49.9242/9.0094 (Im Herrngarten 6a) wird mit `clear_fields: 'geo'` ohnehin zurueckgenommen. Es wird
+  **keine** Koordinate erfunden; `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/799842912/full.json ;
+  https://www.containerdienst-schaafheim.de/assets/UeberUns-CamdrXxU.js ;
+  https://www.containerdienst-schaafheim.de/assets/Seo-DTvtlKDA.js ;
+  https://www.11880.com/branchenbuch/schaafheim/060371058B112441803/containerdienst-schaafheim-salih-gencsoy.html ;
+  https://schrottregister.pages.dev/ort-schaafheim ; read-only `public.db` (Abruf 03.11.2026)]

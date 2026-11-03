@@ -53,3 +53,32 @@ Verzeichnisse führen VelBo Metall GmbH am Oerschbachstr. 41, Düsseldorf-Reisho
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Registerbeleg gefunden, aber Sitz-Mismatch: Northdata führt VelBo Metall GmbH unter Moers, AG Kleve HRB 11896 (Einzelbeleg, unsicher) — Dossier-Ort Düsseldorf-Reisholz (Oerschbachstr. 41, 40599 laut Verzeichnis-Leads: cylex, firmania, 11880, dastelefonbuch u.a., keine Belege) als mögliche Zweigniederlassung unbestätigt; keine Betreiber-Website gefunden (velbo-metall.de nicht erreichbar). KEINE Fills, Status bleibt pruefung; Quelle(n): Northdata-Titel HRB 11896 (Einzelbeleg) + Verzeichnis-Leads]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **41** existiert auf der
+  **„Oerschbachstraße“** in OSM **nicht**: das am 03.11.2026 nachgeladene Kachelraster über den Düsseldorfer
+  Stadtteil Reisholz (6.8000/51.2300 bis 6.8200/51.2500, **4 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst **103
+  verschiedene Straßen** mit Adressobjekten, darunter **keine** Straße **„Oerschbachstraße“** - die Namenssuche über alle im Raster
+  gefundenen `addr:street`-Werte liefert **keinen** Treffer, und eine Suche nach der Hausnummer 41 in Verbindung mit
+  „Oerschbach“ findet **kein** Objekt. Das bereits am 27.10.2026 dokumentierte Ergebnis der Nominatim-Reverse-Abfrage
+  (der Produktionspunkt 51.2211243/6.7941432 löst sich am **Konrad-Adenauer-Platz** in der Düsseldorfer Stadtmitte auf)
+  bleibt damit unverändert gültig. Quelle 1 (Verzeichnis/Register): der am 25.10.2026 erneut live gelesene
+  11880-Eintrag **„VelBo Metall GmbH“** nennt **Oerschbachstr. 41, 40589 Düsseldorf-Reisholz**, Telefon **0211
+  64132588** und Mo–Fr 08:00–16:00 / Sa 08:00–12:00 (Eintragsdaten 07.03.2025, Portalaktualisierung 03.10.2026); der
+  Verzeichniseintrag Cylex nennt für dieselbe Straße abweichend **40599**, und der Registerspiegel NorthData führt die
+  **VelBo Metall GmbH** unter **HRB 11896 AG Kleve** mit Sitz **Moers** (Eurotec-Ring 15, 47445 Moers) - die
+  Düsseldorfer Betriebsstätte ist damit **nicht** registerbelegt. Ein Objekt mit Betriebsbezug zu „VelBo“ existiert im
+  Raster **nicht**. Quelle 2 (OSM): das Kachelraster 6.7900/51.2200 bis 6.8300/51.2600 (live geladen am 03.11.2026,
+  HTTP 200). **Warum keine Koordinate:** Ohne ein Objekt, das `addr:street`=„Oerschbachstraße“ und
+  `addr:housenumber`=41 trägt, wäre jeder Punkt eine Ableitung aus einem fremden Objekt oder einer Straßenmitte und
+  damit eine unbelegte Vermutung über die Lage eines Hofes, dessen Betreiber- und Registerbindung für diesen Ort
+  **nicht** belegt ist. **Was zur Auflösung fehlt:** eine Kartierung der Oerschbachstraße in OSM (oder ein Objekt, das
+  die Anschrift trägt) **und** ein Betreiber- oder Registerbeleg für die Reisholzer Niederlassung; die
+  **PLZ-Abweichung 40589 gegenüber 40599** und die ungeklärten Zusatzkontakte 01516 3575784 und 0211 9796223 bleiben
+  **offen**. Der bisher gespeicherte Produktionspunkt 51.2211243/6.7941432 wird durch diese Notiz **nicht** ersetzt und
+  bleibt zurückgenommen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8000,51.2300,6.8200,51.2500 ;
+  https://www.11880.com/branchenbuch/duesseldorf/060444720B104538472/velbo-metall-gmbh.html ;
+  https://web2.cylex.de/firma-home/velbo-metall-gmbh-11229001.html ;
+  https://www.northdata.de/VelBo%20Metall%20GmbH,%20Moers/Amtsgericht%20Kleve%20HRB%2011896 (Abruf 03.11.2026).]

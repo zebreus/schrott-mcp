@@ -48,3 +48,30 @@ Der Betrieb „Levy David Schrott und Metallhandel" sitzt laut Branchenverzeichn
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: **Die früher als Website geführte Domain ist per DNS abgeschaltet – dies ist als harter Befund festgehalten, nicht als Vermutung.** `dig david-levy-schrotthandel.de A` liefert am 29.10.2026 **NXDOMAIN** (kein A-Record, kein NS-Record, keine SOA – die Domain ist nicht delegiert); der Kontrollabruf auf eine intakte Domain (eisen-rudi.de) liefert im selben Lauf ein A-Record, der DNS-Abfrageweg ist also funktionsfähig. Damit ist der in Gelbe Seiten, Das Örtliche, MisterWhat und gavabiz als „Website" geführte Auftritt nicht mehr erreichbar; `website` bleibt leer, `website_status` bleibt unbekannt, und es wird **keine** Schließung aus dem Ausfall abgeleitet. **OSM-Prüfung der Hausnummer live (nicht angenommen):** Die Straße ist kartiert (way 37134965, `highway=service`, `name=Am Sportplatz`, `service=driveway` — keine `addr:*`-Tags am Objekt), eine Adressknoten-Abfrage im Umfeld des Objekts liefert auf „Am Sportplatz" die Hausnummern 1, 2, 3, 5, 6, 7, 7a, 9, 9a, 10, 12 und 14 sowie auf „Wolfsgartenallee" 11, 13 und 21 — **die Hausnummer 11 auf „Am Sportplatz" fehlt in OSM** (präzise: die Straße ist erfasst, die gesuchte Hausnummer nicht). Das Nachbarobjekt way 801683671 trägt `addr:housenumber=12`, `addr:street=Am Sportplatz`, `addr:postcode=64291`, `name=Schrotthandel Meyer`, `landuse=industrial`, `industrial=scrap_yard`. Der gespeicherte GEO-Punkt 49.8718375/8.6533 löst rückwärts auf **Schuchardstraße 3, 64283 Darmstadt-Mitte** auf und liegt damit rund 6,5 km vom Stadtteil Wixhausen entfernt — der Produktionspunkt ist damit am falschen Ort; eine Korrektur/Geokodierung ist angezeigt, wird aber ohne belastbaren Hausnummerknoten nicht gesetzt. frontmatter: postcode → 64291, description mit Leistungsumfang und Website-Befund. **ANKAUF:** Buntmetall-/Kupfer-/Kabel-/Alteisenankauf als Leistung benannt, **keine Preise veröffentlicht**; **VERKAUF:** keine Liste belegt; **GEBÜHREN:** Containerdienst als Leistung benannt, **keine Tarife**. Status bleibt `pruefung` (nur Verzeichnisangaben). Quelle(n): https://www.gelbeseiten.de/gsbiz/dbe4f84c-1165-491a-b72a-e215b567acea + https://www.dasoertliche.de/Themen/Schrott/M%C3%BCnchen-Pasing.html + https://www.schrottplatz-info.de/schrottplatz/Darmstadt/Levy-David + https://api.openstreetmap.org/api/0.6/way/801683671/full + Nominatim-/Overpass-Abfragen „Am Sportplatz 11, 64291 Darmstadt" und „Am Sportplatz, 64291 Darmstadt" (Abruf 29.10.2026); DNS-Abfragen david-levy-schrotthandel.de / eisen-rudi.de (29.10.2026)]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Fuer die Dossier-Adresse **Am Sportplatz 11,
+  64291 Darmstadt-Wixhausen** existiert die Hausnummer in OSM nicht, und die zweite Quelle fehlt.
+  Quelle 1 (OSM, live nachgemessen am 03.11.2026): die Strasse "Am Sportplatz" ist als Way way/37134965
+  erfasst (`highway=service`, `name=Am Sportplatz`, `service=driveway`, ohne `addr:*`-Tags), das Nachbargrundstueck
+  way/801683671 traegt `addr:housenumber`=12, `addr:street`=Am Sportplatz, `addr:city`=Darmstadt,
+  `addr:postcode`=64291, `addr:suburb`=Wixhausen, `name=Schrotthandel Meyer`, `landuse=industrial`,
+  `industrial=scrap_yard` (BBox 8.6296555/49.9314659 bis 8.6303465/49.9321343) - das ist ein **anderer** Betrieb.
+  Das live abgefragte Kachelraster (bbox 8.6265,49.9295,8.6335,49.9345, 1 Kachel, 0 Fehler) liefert fuer
+  `addr:street`=Am Sportplatz die Hausnummern **1, 2, 3, 5, 6, 7, 7a, 9, 9a, 10, 12 und 14** sowie auf
+  Wolfsgartenallee 2, 11, 13 und 21 - **die Nummer 11 auf Am Sportplatz fehlt**, die Folge springt von 10 auf 12;
+  ein Objekt mit `name=` oder `operator=` und Bezug zu "Levy David" ist im Raster **nicht** vorhanden.
+  Quelle 2: es fehlt - das Dossier belegt den Betrieb ausschliesslich ueber Branchenverzeichnisse
+  (Gelbe Seiten, Das Oertliche, schrottplatz-info, MisterWhat, gavabiz, infoisinfo), die nach dem
+  Quellenstandard Leads sind; eine Betreiberseite existiert nicht (die Domain david-levy-schrotthandel.de
+  liefert per DNS NXDOMAIN), ein Registereintrag oder kommunaler Nachweis liegt nicht vor. Damit ist die
+  Belegkette fuer einen Punkt unvollstaendig und es wird **keine** Koordinate erfunden.
+  Ergaenzend: das Dossier fuehrt die Owner-Direktive `clear_fields: 'geo'`; der dortige gespeicherte
+  Produktionspunkt 49.8718375/8.6533 (Schuchardstrasse 3, 64283 Darmstadt-Mitte, rund 6,9 km entfernt) wird
+  dadurch ohnehin zurueckgenommen, und ein Ersatzpunkt wird hier nicht gesetzt. `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/37134965/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/801683671/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6265,49.9295,8.6335,49.9345 ;
+  https://www.gelbeseiten.de/gsbiz/dbe4f84c-1165-491a-b72a-e215b567acea ;
+  https://www.schrottplatz-info.de/schrottplatz/Darmstadt/Levy-David (Abruf 03.11.2026)]

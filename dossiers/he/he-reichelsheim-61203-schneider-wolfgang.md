@@ -1,12 +1,13 @@
 ---
 slug: he-reichelsheim-61203-schneider-wolfgang
+lat: 50.3556459
+lon: 8.8418919
 name: Altwagenabholservice Wolfgang Schneider GmbH
 trader_type: autoverwertung
 state: HE
 city: Reichelsheim 61203
 street: Dorn-Assenheimer-Straße 29
 postcode: '61203'
-clear_fields: 'geo'
 phone: 06035 917250
 email: vertrieb@aas-schneider.de
 opening_hours: Mo-Fr 08:00-18:00, Sa 10:00-13:00
@@ -89,3 +90,29 @@ entfernt in einem anderen Ort; er wird zurückgezogen.
 - [Recherche 29.10.2026: **Frontmatter-Füllung, Namens- und Typentscheidung.** Belegt werden name „Altwagenabholservice Wolfgang Schneider GmbH“ (Rechtsname aus dem amtlichen Register; die Website verwendet zusätzlich die Kurzform „Wolfgang Schneider GmbH“, der alte Seed-Name „Schneider Wolfgang“ bleibt in dieser Notiz erhalten), trader_type `autoverwertung` (vorher `sonstige`; Registergegenstand „Auto-Press-Betrieb bzw. Autoverwertung“, Demontagebetrieb nach AltfahrzeugV, Altautoverwertungsanlage im amtlichen Fachbetrieberegister), street Dorn-Assenheimer-Straße 29, postcode 61203, phone 06035 917250, email vertrieb@aas-schneider.de, website https://www.aas-schneider.de/ mit website_status aktiv, opening_hours, certifications ZZET01600232 und status aktiv (Betreiber-Primärquelle, amtliches Handelsregister und amtliches Fachbetrieberegister sind drei unabhängige Belege für denselben Rechtsträger an derselben Anschrift). Offen bleiben: die Frage, ob der Onlineshop `autoteile-goldstein.de` zum selben Betreiber gehört, und die Frage nach einer öffentlichen Annahmestelle mit Annahmezeiten für Privatkunden (die Website nennt nur Betriebsöffnungszeiten). Quelle(n): https://www.aas-schneider.de/impressum ; https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ; https://schrottregister.pages.dev/ort-reichelsheim ; Abruf 29.10.2026.]
 
 - [30.10.2026 (Korrekturvermerk): **Prioritätskennzeichnung ergänzt**: das amtliche Fachbetrieberegister führt den Schlüssel als `160104* - Altfahrzeuge` (mit Prioritätskennzeichnung); 160106 und 160122 tragen sie nicht. Quelle(n): https://schrottregister.pages.dev/betrieb-altwagenabholservice-wolfgang-schneider-gmbh-altautoverwertungsanlage- (Abruf 30.10.2026)]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.3556459/8.8418919**. Quelle 1 (OSM, live geladen):
+  `way/1361425825` traegt `name=Altwagenabholservice Wolfgang Schneider GmbH`, `operator=Wolfgang Schneider`,
+  `addr:housenumber`=29, `addr:street`=Dorn-Assenheimer-Straße, `addr:city`=Reichelsheim,
+  `addr:postcode`=61203, `phone`=+49 6035 917250, `email`=vertrieb@aas-schneider.de,
+  `website`=https://www.aas-schneider.de/, `landuse`=industrial, `industrial`=scrap_yard; der Way hat 8 eindeutige
+  Knoten (BBox 8.8409188/50.3553658 bis 8.8423654/50.3559066), der Mittelwert der eindeutigen Knoten liegt bei
+  50.3556459/8.8418919 und damit innerhalb der Objekt-BBox. Das OSM-Objekt benennt damit **Betrieb, Anschrift,
+  Telefon, E-Mail und Website** deckungsgleich mit dem Dossier. Quelle 2 (Betreiber/Register, im Dossier bereits
+  zitiert und am 03.11.2026 erneut live gelesen): das Impressum https://www.aas-schneider.de/impressum/ nennt
+  woertlich "Altwagenabholservice Wolfgang Schneider GmbH / Dorn-Assenheimer-Straße 29 / 61203 Reichelsheim
+  (Wetterau) / Telefon: 06035 917250 / Telefax: 06035 9172519 / E-Mail: vertrieb@aas-schneider.de /
+  Geschäftsführer: Nedyalko Ivanov / Registergericht: Amtsgericht 61169 Friedberg (Hessen) / Registernummer: HRB
+  9888 / USt-IdNr.: DE 353670594"; das amtliche Handelsregister (Abruf 29.10.2026) bestaetigt Rechtstraeger,
+  HRB 9888 und die Geschaeftsanschrift Dorn-Assenheimer-Straße 29, 61203 Reichelsheim (Wetterau), das amtliche
+  Fachbetrieberegister fuehrt die Betriebsanlage Dorn-Assenheimer-Straße 29, 61203 Reichelsheim (Zertifikatsnummer
+  ZZET01600232, Demontagebetrieb nach AltfahrzeugV).
+  **Der `clear_fields: 'geo'`-Eintrag wurde mit dem Setzen der Koordinate entfernt** (ein gleichzeitiges
+  `clear_fields: 'geo'` neben belegtem `lat`/`lon` waere vom Seed ohnehin ungueltig); die Direktive hatte den
+  **nachweislich falschen** gespeicherten Produktionspunkt zurueckgenommen - dieser wird durch den belegten
+  Punkt ersetzt. Der Punkt bezeichnet die belegte Autoverwertungsanlage (Schrottplatz-Tag), nicht eine
+  verifizierte Einfahrt oder Waage. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1361425825/full.json ;
+  https://www.aas-schneider.de/impressum/ ; https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ;
+  https://schrottregister.pages.dev/ort-reichelsheim (Abruf 03.11.2026)]

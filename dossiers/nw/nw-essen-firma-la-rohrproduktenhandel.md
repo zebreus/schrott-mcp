@@ -54,3 +54,32 @@ Der externe Host burgaltendorf.com ist hier mehr als ein einfacher Branchenbuche
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: Betreiber-Containerseite erneut direkt gelesen. Sie bestätigt Containerbereitstellung für Schrottabfälle und ausdrücklich „Vergütung ... nach den jeweiligen Tagespreisen“; keine Material-/Einheitsbeträge. Die Seite nennt weiter dieselbe Worringstraße und Kontaktdaten, liefert aber keinen veröffentlichten Verkaufskatalog und keine numerischen Container-/Entsorgungsgebühren. Keine neue unabhängige Quelle zur Heuweg-9-Gegenadresse; deshalb keine strukturierten Änderungen. ANKAUF: Tagespreise, Höhe unbekannt; VERKAUF: keine Liste; GEBÜHREN: keine Liste. Quelle: https://www.burgaltendorf.com/promotion/lass/containerdienst/index.html ; https://www.burgaltendorf.com/promotion/lass/impressum.html]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **250** existiert auf der
+  **„Worringstraße“** in OSM **nicht**: das am 03.11.2026 nachgeladene Kachelraster über den Essener Stadtteil
+  Burgaltendorf (6.8800/51.4400 bis 6.9300/51.4600, **18 Kacheln, 0 Kachel-Fehler**) erfasst **245 verschiedene
+  Straßen** mit Adressobjekten, darunter **keine** Straße **„Worringstraße“** - die Namenssuche über alle im Raster
+  gefundenen `addr:street`-Werte liefert keinen Treffer, und eine Suche nach der Hausnummer 250 in Verbindung mit
+  „Worring“ findet **kein** Objekt. Quelle 1 (Betreiber): der firmeneigene Auftritt
+  https://www.burgaltendorf.com/promotion/lass/impressum.html nennt **Rohproduktenhandel Klaus Laß, Inhaber Klaus Laß,
+  Worringstraße 250, 45289 Essen**, Telefon 0201 580472 und klaus_lass@web.de, und die Startseite
+  https://www.burgaltendorf.com/promotion/lass/index.html beschreibt Schrott-/Metallabholung, Altautoentsorgung und
+  Containerdienst; die Containerdienstseite
+  https://www.burgaltendorf.com/promotion/lass/containerdienst/index.html bestätigt Containerbereitstellung für
+  Schrottabfälle und die Vergütung „nach den jeweiligen Tagespreisen“. Die Anschrift ist damit belegt, aber **nicht** in
+  OSM abbildbar. Quelle 2 (OSM): das Kachelraster 6.8800/51.4400 bis 6.9300/51.4600 (live geladen am 03.11.2026,
+  HTTP 200). **Warum keine Koordinate:** Ohne ein Objekt, das `addr:street`=„Worringstraße“ und `addr:housenumber`=250
+  trägt, wäre jeder Punkt eine Ableitung aus einem fremden Objekt oder einer Straßenmitte und damit eine unbelegte
+  Vermutung über die Lage des Betriebs. **Was zur Auflösung fehlt:** eine Kartierung der Worringstraße in OSM (oder ein
+  Objekt, das die Anschrift trägt) - der Betrieb selbst ist über die eigene Impressumsseite hinreichend belegt; offen
+  bleibt weiterhin der im Dossier dokumentierte **Gegenlead** „Heuweg 9“ (anderer Verzeichnisbeleg) und die Frage, ob
+  die Ost-Kölner Heizungsbau-Spur zum selben Betrieb gehört. Der bisher gespeicherte Produktionspunkt
+  51.4502844/7.0150531 (laut read-only-Abgleich vom 25.10.2026 an der Freiheit im Essener Südviertel) wird durch diese
+  Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder
+  bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8800,51.4400,6.9300,51.4600 ;
+  https://www.burgaltendorf.com/promotion/lass/impressum.html ;
+  https://www.burgaltendorf.com/promotion/lass/index.html ;
+  https://www.burgaltendorf.com/promotion/lass/containerdienst/index.html (Abruf 03.11.2026).]

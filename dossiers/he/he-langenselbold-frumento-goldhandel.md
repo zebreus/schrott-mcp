@@ -1,5 +1,7 @@
 ---
 slug: he-langenselbold-frumento-goldhandel
+lat: 50.1750380
+lon: 9.0379543
 name: Frumento Goldhandel (Severino Frumento)
 trader_type: sonstige
 state: HE
@@ -47,3 +49,33 @@ Edelmetallankauf für Privatkunden und Edelmetallrecycling für Gewerbe/Industri
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Betreiberwebsite und Impressum identifizieren Severino Frumento, Hanauer Straße 26, 63505 Langenselbold, Telefon +49 6184 9950140 und kontakt@goldenluxury.de; Ankauf von Gold, Silber, Platin und Palladium inklusive Zahngold sowie gewerblichem/industriellem Scheidgut, Öffnungszeiten Mo-Fr 10:00-13:00 und 15:00-18:00, Samstag nach Vereinbarung. Eine zweite qualifizierte unabhängige Quelle wurde nicht gefunden; die exakten Betreiber-Kontaktangaben und Besuchszeiten bleiben daher in der Timeline statt als verifizierte Frontmatter-Felder, status pruefung bleibt. Die Website zeigt volatile Ankaufskurse, die hier nicht als dauerhafte Frontmatter-Werte übernommen werden. Service-Orte auf der Website sind keine separaten Filialbelege; insbesondere keine Zusammenführung mit AGH Erlensee. Quelle(n): https://www.frumento-goldhandel.de/; https://www.frumento-goldhandel.de/impressum/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.1750380/9.0379543**. Quelle 1 (OSM, live geladen):
+  `way/289809805` traegt `addr:housenumber`=26, `addr:street`=Hanauer Straße, `addr:city`=Langenselbold,
+  `addr:postcode`=63505, `building`=commercial, `wheelchair`=yes; der Way hat 4 eindeutige Knoten (BBox
+  9.0378423/50.1749680 bis 9.0380756/50.1750988), der Mittelwert der eindeutigen Knoten liegt bei
+  50.1750380/9.0379543 und damit innerhalb der Objekt-BBox. Das Objekt traegt **weder** `name` **noch**
+  `operator`; es bestaetigt die Anschrift, nicht den Betrieb. Das live abgefragte Kachelraster ueber den
+  Langenselbolder Ortsbereich (Rasterfenster 9.0250/50.1700 bis 9.0850/50.2250, 0,01-Grad-Kacheln ueber
+  `scripts/release/osm_street_scan.py`, 42 Kacheln, 0 Fehler) weist auf der
+  "Hanauer Straße" **101 Adressobjekte** mit **97 verschiedenen Hausnummern** (1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+  11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 32, 33, 34, 35, 36, 37, 40, 41, 42, 43, 44, 45, 46,
+  47, 48, 49, 4a, 50, 51, 52, 54, 56, 58, 60, 62, 63, 64, 65, 66, 67, 68, 69, 71, 91, 93, 95, 99, 100, 102,
+  10a, 11a, 11b, 11c, 11d, 12a, 14a, 17a, 19a, 1Aa, 32a, 32b, 32c, 32d, 32f, 33a, 34a, 35a, 37a, 37b, 39a,
+  39b, 40a, 41a, 43a, 46a, 49a, 50a, 63a, 64a, 64b, 66a, 66b, 66c) - die **Dossier-Hausnummer 26 existiert**
+  und ist **eindeutig** (nur ein Objekt mit dieser Nummer auf der Strasse). Quelle 2 (Betreiber, im Dossier
+  bereits zitiert und am 03.11.2026 erneut live gelesen): das Impressum https://www.frumento-goldhandel.de/impressum/
+  nennt woertlich "Severino Frumento / Frumento Goldhandel / Hanauerstr. 26 / 63505 Langenselbold / Telefon:
+  06184-9950140 / Telefax: 06184-9950141 / E-Mail: kontakt@goldenluxury.de / USt-IdNr DE 321663547" und in der
+  Fusszeile "HANAUER STR. 26 / 63505 LANGENSELBOLD"; die Seite beschreibt den Ankauf von Gold, Silber, Platin,
+  Palladium und Zahngold sowie Scheidgut fuer Gewerbe und Industrie mit Oeffnungszeiten Mo-Fr 10.00-13.00 und
+  15.00-18.00 Uhr, Samstag nach Vereinbarung. Hausnummer, Straße, PLZ und Ort decken sich damit unabhaengig von
+  OSM mit dem gesetzten Punkt; der Punkt bezeichnet die belegte Geschaeftsanschrift, nicht eine verifizierte
+  Zufahrt oder Waage. Die im Dossier offene Frage einer zweiten **qualifizierenden** Quelle zur Existenz des
+  Einzelbetriebs (Gewerberegister) bleibt davon unberuehrt; die Kontaktfelder des Frontmatters bleiben
+  unveraendert, `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/289809805/full.json ;
+  `scripts/release/osm_street_scan.py` (Kachelraster) ;
+  https://www.frumento-goldhandel.de/impressum/ ; https://www.frumento-goldhandel.de/ (Abruf 03.11.2026)]

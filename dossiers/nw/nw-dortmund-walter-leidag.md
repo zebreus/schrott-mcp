@@ -50,3 +50,42 @@ Das Handelsregister löst die Namens- und Rechtsformfrage: Die Gesellschaft hei�
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Neue Websuche nach Walter/Schrotthandel Leidag/Juliusstraße ergab keinen aktuellen Betreiberauftritt oder belastbaren Registertreffer. Ein 2017er Branchenverzeichnis führte „Schrotthandel Leidag GmbH“, Juliusstraße 28, 44145 Dortmund; der Seedname „Walter Leidag GmbH“ ist damit nicht als aktueller Rechtsname bestätigt. Die im Seed mit überzähliger `)` gespeicherte Nummer wurde nur syntaktisch zu 0231 815645 normalisiert, nicht als aktuell bestätigt. Das aktuelle Schrottregister der Dortmunder anerkannten Betriebe führt Leidag nicht; dessen Nichtnennung ist kein Schließungsbeweis. Ankauf/Verkauf/Gebühren: keine Preislisten. Adresse bleibt Altlead und nicht koordinatenreif. Quelle(n): https://www.google.com/search?q=site%3Akennstdueinen.de+%22Schrotthandel+Leidag%22+Dortmund; https://schrottregister.pages.dev/ort-dortmund; https://www.google.com/search?q=%22Walter+Leidag%22+Dortmund+Juliusstra%C3%9Fe.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diesen Seed ist die Adresse selbst
+  **nicht eindeutig**: Das am 03.11.2026 nachgeladene Kachelraster über den Dortmunder Innenstadtbereich
+  (7.4700/51.5200 bis 7.5100/51.5600, **12 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst die **Juliusstraße**
+  in **44145 Dortmund** mit nur **5 verschiedenen Hausnummern**: **4** (way/55675246), **5** (way/53050980), **11**
+  (way/53051122), **12** (way/478821352) und **13** (way/53051124) - die **Dossier-Hausnummer 28 existiert dort nicht**,
+  und eine Suche nach der Hausnummer 28 in Verbindung mit „Juliusstraße“ findet **keinen** Treffer. Die **zweite**
+  Kandidatenanschrift des Registers, die **Gottscheestraße 9, 44339 Dortmund**, ist in OSM dagegen **durchaus
+  abbildbar**: das über den Stadtteil Dortmund-Derne nachgeladene Kachelraster (7.4600/51.5400 bis 7.4900/51.5700,
+  **12 Kacheln, 0 Kachel-Fehler**) erfasst die **Gottscheestraße** in **44339 Dortmund** mit **22 verschiedenen
+  Hausnummern** (1, 2, 3, 4, 5, 6, 7, 8, **9**, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 24, 26) - die
+  **Dossier-Adresse 9 existiert dort** als way/91787638 (`addr:housenumber`=9, `addr:street`=Gottscheestraße,
+  `addr:city`=Dortmund, `addr:postcode`=44339, `building`=yes; Mittel der **4** eindeutigen Knoten
+  **51.5535426/7.4764411**, BBox 51.5534988/7.4763757 bis 51.5535865/7.4765065). Quelle 1 (Register): das amtliche
+  Handelsregister (AG Dortmund, **HRB 5378**) führt die Gesellschaft als **„Schrotthandlung Walter Leidag GmbH“** mit
+  Unternehmensgegenstand „Der Handel mit Schrott und Altmetallen“, Stammkapital 26.000,00 EUR, und als
+  **Geschäftsanschrift „Gottscheestr. 9, 44339 Dortmund“** (Stand 29.01.2025); seit dem 19.06.2023 ist die
+  **Liquidation** eingetragen (Liquidator Walter Leidag, seit 24.04.2024 Rosemarie Leidag), die letzte
+  Registereintragung erfolgte am 29.01.2025. Quelle 2 (OSM): die beiden Kachelraster sowie way/91787638 (live
+  geladen am 03.11.2026, HTTP 200). **Warum keine Koordinate:** Es liegen **zwei** konkurrierende Anschriften vor - die
+  frühere Betriebsstätte **Juliusstr. 28, 44145 Dortmund** aus älteren Branchenverzeichnissen (in OSM **nicht**
+  abbildbar) und die seit 2023 eingetragene Geschäftsanschrift **Gottscheestr. 9, 44339 Dortmund** (in OSM abbildbar).
+  Die Auswahl zwischen beiden wäre ohne Klärung der Anschriftenkette **willkürlich**: das Handelsregister belegt die
+  **eingetragene Geschäftsanschrift**, nicht den **Ort des Schrottplatzes**, und die Gesellschaft befindet sich seit
+  2023 in **Abwicklung** - es wird **kein** Betrieb am Registerstandort behauptet. Der bisher gespeicherte
+  Produktionspunkt 51.5309916/7.4752801 (Juliusstraße, 44145 Dortmund Innenstadt-Nord - laut read-only-Abgleich vom
+  28.10.2026 der Straßenkörper, nicht die Hausnummer 28) wird durch diese Notiz **nicht** ersetzt und bleibt
+  zurückgenommen. **Was zur Auflösung fehlt:** die Klärung, ob die Stätte Juliusstr. 28 noch betrieben wird, ob die
+  Liquidation abgeschlossen ist und ob eine Nachfolgebetreuung besteht; erst danach ist eine Koordinate sinnvoll
+  setzbar. `status: pruefung`, `clear_fields: geo` und alle übrigen Felder bleiben unverändert; eine Schließung wird
+  **nicht** behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4700,51.5200,7.5100,51.5600 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4600,51.5400,7.4900,51.5700 ;
+  https://api.openstreetmap.org/api/0.6/way/91787638/full.json ;
+  https://www.northdata.de/Schrotthandlung%20Walter%20Leidag%20GmbH,%20Dortmund/HRB%205378 ;
+  https://www.registercheck.de/companies/schrotthandlung-walter-leidag-gmbh ;
+  https://schrottregister.pages.dev/ort-dortmund (Abruf 03.11.2026).]

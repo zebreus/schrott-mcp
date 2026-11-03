@@ -51,3 +51,34 @@ Der direkt gelesene 11880-Eintrag nennt „Rainer Gerhardt Schrott & Metalle“,
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **100** existiert in OSM zwar, der Betrieb ist dort aber **nicht** belegt: das am 03.11.2026
+  live abgefragte Kachelraster ueber den Gross-Rohrheimer Ortsbereich (bbox 8.4400,49.7000,8.5100,49.7300,
+  0,01-Grad-Kacheln ueber `scripts/release/osm_street_scan.py`, 24 Kacheln, 1 Kachel-Fehler) weist auf der
+  **Rheinstraße** (OSM-Schreibweise; das Dossier schreibt "Rheinstr.") **136 Adressobjekte** mit **132
+  verschiedenen Hausnummern** aus, darunter **100** - erfasst als `node/9570681937` mit
+  `addr:housenumber`=100, `addr:street`=Rheinstraße, `addr:city`=Groß-Rohrheim, `addr:postcode`=68649
+  (Punktlage 49.7183155/8.4777707) **ohne** `name`- und **ohne** `operator`-Tag. Die benannten Objekte der
+  Strasse sind Fremdbetriebe (u. a. `name=Gemeindebücherei im "Treff 21"` an der Nummer 21,
+  `name=Traditionsbäckerei Öhlenschläger` an der Nummer 31, `name=Kissel` an der Nummer 9, `name=Immoha` an der
+  Nummer 11, `name=bft` an der Nummer 109) - **kein** Objekt mit Bezug zu "Gerhardt", "Schrott", "Metalle" oder
+  "Rainer Gerhardt". Quelle 1 (Betreiber/Register): **fehlt** - der 11880-Eintrag (live gelesen am 26.10.2026)
+  nennt "Rainer Gerhardt Schrott & Metalle", Rheinstr. 100, 68649 Groß-Rohrheim, 06245 5547, verweist aber als
+  "Website" auf **metallbauer.io**, das sich selbst als Branchenportal mit Uebernahme-/Aenderungsfunktion
+  beschreibt; Cylex wiederholt nur dieselbe Adresse und ist kein unabhaengiger Betreiberbeleg. Es gibt **keine**
+  Betreiberseite, **kein** Impressum, **keinen** Registereintrag und **keinen** kommunalen Nachweis; nach dem
+  Quellenstandard sind die Verzeichnisangaben Leads. Quelle 2 (OSM): node/9570681937 und das Kachelraster
+  (live, oben). Damit liegt zwar eine belegte **Anschrift**, aber **kein** belegter **Betrieb** vor; ein Punkt
+  auf der Rheinstraße 100 wuerde einen Standort suggerieren, den weder OSM noch ein Betreiber- oder
+  Registerbeleg dem Seed zuordnet. Es wird **keine** Koordinate erfunden. Der gespeicherte Altpunkt
+  49.7211000/8.4828000 wird mit `clear_fields: 'geo'` ohnehin zurueckgenommen; `status` bleibt `pruefung`,
+  und fehlende Belege beweisen keine Nichtexistenz oder Schliessung.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/9570681937.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4400,49.7000,8.5100,49.7300 ;
+  https://www.11880.com/branchenbuch/gross-rohrheim/060440092B113096919/rainer-gerhardt-schrott-metalle.html ;
+  https://metallbauer.io/gross-rohrheim/9150-rainer-gerhardt-schrott--metalle ;
+  https://web2.cylex.de/stadtplan/Gross-rohrheim-68/Gross-rohrheim-strasse-Rheinstr.html ;
+  read-only `public.db` (Abruf 03.11.2026)]

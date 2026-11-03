@@ -1,12 +1,13 @@
 ---
 slug: nw-dusseldorf-gerresheim-adam
-clear_fields: 'geo'
+lat: 51.2354706
+lon: 6.8576975
 name: Adam
 trader_type: schrotthaendler
 state: NW
 city: Düsseldorf-Gerresheim
-street: ''
-postcode: ''
+street: Dreherstr. 27
+postcode: '40625'
 phone: ''
 email: ''
 opening_hours: ''
@@ -61,3 +62,36 @@ Für „Adam“ in Düsseldorf-Gerresheim bleibt die Betreiberidentität unaufge
 
 - Schrott (GS)
 - Adresse: Düsseldorf-Gerresheim
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.2354706/6.8576975** (Mittel der **6** eindeutigen
+  Knoten von way/165759269; das Objekt hat 7 Knotenreferenzen, davon 6 eindeutige - ein Knoten ist doppelt gezählt; die
+  BBox der eindeutigen Knoten reicht von 51.2353476/6.8575264 bis 51.2355828/6.8578250 und **umschließt den
+  Mittelwert**). Quelle 1 (OSM): way/165759269 trägt `addr:housenumber`=27, `addr:street`=Dreherstraße,
+  `addr:city`=Düsseldorf, `addr:postcode`=40625, `addr:country`=DE, `building`=yes und `source`=Aerowest; survey
+  (live geladen am 03.11.2026, HTTP 200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die
+  belegte Anschrift und **keine** verifizierte Annahme, Zufahrt oder Waage. Das am 03.11.2026 nachgeladene Kachelraster
+  über die Dreherstraße in Gerresheim (6.8500/51.2300 bis 6.8700/51.2400, **7 Kacheln, 0 Kachel-Fehler**) erfasst die
+  Straße mit **38 verschiedenen Hausnummern** (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
+  23, 25, **27**, 29, 2a, 31, 33, 35, 37, 39, 41, 113, 115, 117, 119, 151, 153) - die **Dossier-Hausnummer 27
+  existiert** dort. Ein Objekt mit Betriebsbezug zu „Adam“, „Ametovic“ oder „Bislimi“ existiert im Raster **nicht**.
+  Quelle 2 (Verzeichnis): das Schrottplatz-Org-Detail **„Schrott Ametovic Adam“** nennt **Dreherstr. 27, 40625
+  Düsseldorf-Gerresheim**, Telefon **0152 33 86 07 54** und die Branche Schrottplatz; das Telefonbuch führt für **„Bislimi
+  Adam“** (Branche Schrott) dieselbe Anschrift und dieselbe Nummer, zusätzlich eine Zweitanschrift **Hellweg 55, 40235
+  Düsseldorf** mit 0174 399 68 26 - beide Verzeichnisse bestätigen die in OSM gefundene Anschrift **unabhängig
+  voneinander**. **Was der Punkt bezeichnet - und was nicht:** Er bezeichnet die **Anschrift**, die nach der
+  Verzeichniskette sehr wahrscheinlich zum selben Betrieb mit dem Vornamen „Adam“ und abweichendem Nachnamen gehört; die
+  **Gleichsetzung mit der Seed-Zeile** bleibt - wie im Dossier vom 27.10.2026 dokumentiert - **nicht register- oder
+  betreiberseitig belegt**, und die Wahl zwischen „Ametovic“ und „Bislimi“ ist **offen**. Ausdrücklich **nicht**
+  behauptet werden eine Kundenannahme, ein Ankauf oder ein Standortbetrieb; `status: pruefung`, `website` und
+  `website_status` bleiben unverändert. **Neu aufgenommen:** die bislang leeren Frontmatter-Felder `street` und
+  `postcode` sind mit „Dreherstr. 27“ und „40625“ gefüllt, weil die Anschrift durch die beiden Verzeichnisse und das
+  OSM-Objekt gedeckt ist; der Namensvetter (Ametovic/Bislimi) und die Zweitanschrift Hellweg 55 bleiben als **eigene
+  offene Fragen** bestehen. Der bisher gespeicherte Produktionspunkt 51.2211243/6.7941432 (laut read-only-Abgleich vom
+  25.10.2026 am Konrad-Adenauer-Platz in der Düsseldorfer Stadtmitte) wird durch diesen Punkt ersetzt;
+  `clear_fields: 'geo'` entfällt, weil die Koordinate nun belegt vorliegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/165759269/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8500,51.2300,6.8700,51.2400 ;
+  https://www.schrottplatz.org/duesseldorf/schrott-ametovic-adam-aYEPW7.html ;
+  https://www.dastelefonbuch.de/Branchen/Schrotthandel/D%C3%BCsseldorf (Abruf 03.11.2026).]

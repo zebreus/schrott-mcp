@@ -56,3 +56,28 @@ provenance_origin: table
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: DDG-Abfrage "Bochum-Umgebung Schrott" ohne Treffer bestätigt 01.10-Befund — kein identifizierbarer Betrieb, kein Fill, bleibt pruefung (Miss-Kandidat); Quelle(n): DDG-Suche 02.10.2026]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diesen Seed existiert **keine
+  Dossier-Adresse**, auf die eine Koordinate bezogen werden könnte: `street` und `postcode` sind im Frontmatter leer,
+  und die Nachforschungen vom 01.10.2026, 02.10.2026, 07.10.2026 und 25.10.2026 kommen übereinstimmend zu dem
+  Ergebnis, dass „Bochum-Umgebung“ **kein Firmenname, sondern eine Gebietsbezeichnung** ist („ein nicht eindeutiger
+  Importname ohne identifizierbaren Firmennamen“, „eine Gebietsbeschreibung und kein eindeutiger Firmenname“) - eine
+  Exaktsuche nach „Bochum-Umgebung“ in Verbindung mit Schrotthandel/Schrottabholung liefert keinen Treffer, und
+  weder Betreiber-Website noch Registerfirma noch ein konkreter Hof ließen sich dem Importbeleg zuordnen. **Warum keine
+  Koordinate:** Ohne benannten Betrieb gibt es **kein Objekt in OSM**, dessen `addr:housenumber`/`addr:street` (oder
+  `name`/`operator` mit Betriebsbezug) sich auf diesen Seed beziehen ließe; jeder Punkt wäre eine Behauptung über eine
+  Standortlage, die keine Quelle trägt. Der Versuch, einen Adresspunkt aus dem Bochumer Stadtgebiet abzuleiten, wäre
+  genau die vom Dossier zurückgewiesene Verortung eines Stadtplatzhalters. **Geprüft wurde:** die vier oben genannten
+  Suchläufe (Zeitraum 01.10.-25.10.2026) sowie die read-only-Produktionsabfrage, die für diesen Slug den Punkt
+  51.4740889/7.2192389 ausweist - dieser liegt laut Nominatim-Reverse an der **Taubenstraße** in Ehrenfeld/Wiemelhausen
+  und damit in einem **Gebiet**, das der Kürzel „Bochum-Umgebung“ nicht eingrenzt; ein solcher Punkt ist weder ein
+  Betriebsort noch repräsentativ für den Einsatzbereich und wird deshalb **nicht** übernommen. **Was zur Auflösung
+  fehlt:** der ursprüngliche Importdatensatz oder ein vollständiger Firmen-/Inhabername, aus dem sich eine konkrete
+  Anschrift und damit ein adressgenaues OSM-Objekt ergeben; erst dann ist eine Geokodierung möglich. `status:
+  pruefung`, `clear_fields: geo` und alle übrigen Felder bleiben unverändert; eine Schließung oder Annahmeverweigerung
+  wird **nicht** behauptet. Quelle(n): Rechercheeinträge 01.10.2026, 02.10.2026, 07.10.2026 und 25.10.2026 dieses
+  Dossiers; read-only `public.db` (25.10.2026);
+  https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.474088888888886&lon=7.219238888888889&zoom=18&addressdetails=1
+  (Abruf 03.11.2026).]

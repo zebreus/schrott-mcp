@@ -65,3 +65,37 @@ Der Seed „Elektroschrott Aachen“ ist an Robensstr. 20 nicht als Betrieb iden
 
 - [Recherche 01.11.2026: Kein amtlicher Zertifikatsnachweis gefunden — `certifications` bleibt **leer**. Abfrage des amtlichen Fachbetrieberegisters am 01.11.2026: (1) **Namenssuche** „Elektroschrott“ im Register „Entsorgungsfachbetriebe“ → **5 Treffer gefunden**, vollständig gelesen: Lebenshilfe Oder-Neiße Werkstätten e.V. (Elektroschrott-Demontagewerkstatt), Ringstraße 7, 15890 Eisenhüttenstadt (ZZET01600031 / 3) und HB Elektroschrott Recycling Inh. Bodo Heisel, Kreisstr. 1, 37318 Wahlhausen (ZZFE00100468 / 1-4) — **beide andere Orte und andere Rechtsträger**, keine Verbindung zum Seed „Elektroschrott Aachen“; (2) dieselbe Namenssuche im Register „Altfahrzeugverwertung“ → **0 Treffer gefunden**; (3) **Standortsuche** um die im Dossier genannte Seed-Adresse Robensstraße 20, 52070 Aachen, Umkreis 2 km, Register „Entsorgungsfachbetriebe“ → **4 Treffer gefunden**, vollständig gelesen: ITSI GmbH & Co. KG, Wilhelmstraße 119 (1,1 km, ZZHT00300893 / 1 und / 2); AIXrail GmbH, Jülicher Straße 215 (1,2 km, ZZLE00200096 / 1); ASCA Altlasten-Sanierungs-Center Aachen GmbH & Co. KG, Boxgraben 38 (1,5 km, ZZET01600044 / 2) — **kein** Eintrag „Elektroschrott Aachen“ und **keine** Anlage an Robensstraße 20; (4) dieselbe Standortsuche im Register „Altfahrzeugverwertung“ → **1 Treffer gefunden**: „Mercedes Shop Aachen“, LiebigStr. 9-11, 52070 Aachen, ZAES00100033 / 1 — ein anderer Rechtsträger, kein Nachweis für den Seed. Der Seed ist nach der Recherche vom 03.10.2026 zudem **kein identifizierter Betrieb** (Robensstr. 20, Telefon und Anzeige gehören laut Betreiberauftritt zu „Express Entrümpelung Aachen“); eine Zertifikatssuche ohne gesicherte Rechtsidentität ist deshalb nur eingeschränkt aussagekräftig. **Reichweite der Negativaussage:** Die Efb-Anerkennung nach § 56 KrWG ist freiwillig, ein E-Schrotthändler ohne Abfallanlage braucht sie nicht; der Negativbefund beweist keine Nichtzertifizierung und keine Schließung. Umfang: beide Register, Namens- und Standortsuche. `status` bleibt unverändert `pruefung`. Keine Preise, Gebühren oder Ankaufsbedingungen aus dieser Recherche abgeleitet.]
 - [Recherche 01.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Elektroschrott ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Elektroschrott ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=52070%20Aachen,%20Deutschland;6.0968;50.7796;6.0968;50.7796;6.0968;50.7796&dst=2&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=52070%20Aachen,%20Deutschland;6.0968;50.7796;6.0968;50.7796;6.0968;50.7796&dst=2&is=1&e=1]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diesen Seed existiert **keine** belegte
+  Betriebsadresse: `street` und `postcode` sind im Frontmatter **leer**, und die Dossier-Recherche hat die
+  Seed-Adresse **Robensstr. 20, 52070 Aachen** ausdrücklich als **nicht zum Seed gehörig** abgegrenzt - sie gehört laut
+  aktuellem Betreiberauftritt zu **Express Entrümpelung Aachen** (M. Inayat), einem Entrümpelungsbetrieb ohne
+  E-Schrott-Fokus. Das am 03.11.2026 nachgeladene Kachelraster über die Robensstraße (6.0900/50.7700 bis
+  6.1100/50.7900, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst die Straße in **52070 Aachen** mit
+  **57 verschiedenen Hausnummern** (2, 3, 3a, 4, 5, 6-8, 7, 10, 11, 12, 13-15, 14, 16, 17, 18, 19-21, 20-22, 23, 24, 27, 28,
+  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 48, 49, 50, 51, 52, 54, 56, 57, 58, 59, 60, 61, 62, 63, 65,
+  67, 69, 71, 73, 75) - eine **einzelne** Hausnummer **20** existiert dort **nicht**; die Nummer ist als **Bereich 20-22**
+  erfasst (way/124764332, `addr:housenumber`=20-22, `addr:street`=Robensstraße, `addr:city`=Aachen,
+  `addr:postcode`=52070), und ein Objekt mit Betriebsbezug zu „Elektroschrott“ existiert im Raster **nicht**.
+  Quelle 1 (Betreiber): https://www.express-entruempelung-aachen.com/ nennt Robensstraße 20, 52070 Aachen und
+  beschreibt Entrümpelung/Haushaltsauflösung - **nicht** einen E-Schrottbetrieb; der E-Schrott-Auftritt
+  https://www.elektroschrott-entsorgung-aachen.de/impressum/ gehört laut Impressum zur **EAS-Recycling Solution GmbH**
+  (HRB Hagen 10741) mit Sitz Wienbergweg 2 und Betriebsstätte **Ostender Weg 12A, 58313 Herdecke** - also **weder** in
+  Aachen **noch** an der Robensstraße. Quelle 2 (OSM): das Kachelraster sowie way/124764332 (live geladen am
+  03.11.2026, HTTP 200). **Warum keine Koordinate:** Es gibt **keinen** Betrieb, dessen belegte Anschrift dieser Seed
+  trägt; jeder Punkt - insbesondere auf dem Bereichsobjekt 20-22 - würde eine **Betriebsstätte für Elektroschrott
+  Aachen** behaupten, die weder der Betreiberauftritt noch das Register hergibt. **Was zur Auflösung fehlt:** ein
+  Betreiberauftritt, ein Impressum oder ein Registereintrag, der „Elektroschrott Aachen“ an einer konkreten
+  Anschrift in Aachen belegt - der amtliche Fachbetrieberegister-Negativbefund vom 01.11.2026 (Namenssuche
+  „Elektroschrott“: 0 Treffer in „Entsorgungsfachbetriebe“ und „Altfahrzeugverwertung“) bleibt maßgeblich, wobei die
+  Efb-Anerkennung freiwillig ist und ihr Fehlen weder Nichtzertifizierung noch Schließung beweist. Der bisher
+  gespeicherte Produktionspunkt 50.76775/6.1029 (laut read-only-Abgleich vom 25.10.2026 an der Rehmannstraße im
+  Frankenberger Viertel) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`,
+  `clear_fields: geo` und alle übrigen Felder bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.0900,50.7700,6.1100,50.7900 ;
+  https://www.express-entruempelung-aachen.com/ ;
+  https://www.elektroschrott-entsorgung-aachen.de/impressum/ ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Elektroschrott
+  (Abruf 03.11.2026).]

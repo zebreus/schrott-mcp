@@ -52,3 +52,36 @@ Ein Betreiberauftritt „Schrotthandel Freddi Goldbach“ sagt „seit 1957 in F
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Die Betreiberseite freddi-goldbach.de nennt Schrotthandel Freddi Goldbach, Inhaber Freddi Goldbach, Wadbergstraße 7, 36145 Hofbieber und „seit 1957 in Fulda“. Der Seed nennt dagegen Stephan Goldbach in Fulda-Dietershan; ohne Namens-/Adressbrücke kein Merge und keine Felder übertragen. Kandidatenangebot: Privatankauf auf Anfrage, ab 200 kg „Tageshöchstpreise“ (ohne Betrag); gebührenfreie Schrottabholung/-entsorgung ab 200 kg sowie kostenlose dauerhafte Containerstellung für Firmen/öffentliche Einrichtungen; keine Ablademöglichkeit. Keine Verkaufspreise. Kandidatenanschrift erst bei bestätigter Beziehung geokodieren. Quelle(n): https://www.freddi-goldbach.de/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **5** auf dem "Im Alten Roth" in Fulda-Dietershan existiert in OSM: das am 03.11.2026 live
+  abgefragte Kachelraster ueber den Fuldaer Ortsteil (Rasterfenster 9.6300/50.5400 bis 9.7300/50.6200,
+  0,01-Grad-Kacheln ueber `scripts/release/osm_street_scan.py`, 80 Kacheln, 0 Fehler) weist auf der Strasse
+  **8 Adressobjekte** mit **8 verschiedenen Hausnummern** aus (1, 2, 3, **5**, 6, 7, 8, 10) - die gesuchte Nummer
+  5 ist als `way/417437153` erfasst (`addr:housenumber`=5, `addr:street`=Im Alten Roth, `addr:city`=Fulda,
+  `building`=yes, 5 eindeutige Knoten, BBox 9.7069077/50.6006496 bis 9.7071015/50.6007608, Mittelwert der
+  eindeutigen Knoten 50.6006974/9.7070105); die Strasse selbst ist way/93472176 (`highway=residential`,
+  `name=Im Alten Roth`). **Keines** dieser Objekte traegt `name` oder `operator`; ein Objekt mit Bezug zu
+  "Goldbach", "Schrott" oder "Stephan" existiert im Raster **nicht**. Quelle 1 (Betreiber/Register): **fehlt** -
+  der Creditreform-Suchindex fuehrt "Stephan Goldbach Schrotthandel" in Fulda/36039 (Branche Grosshandel
+  Altmaterialien/Reststoffe), der Vollabruf bleibt aber **HTTP 403** gesperrt; die Adressangabe "Im Alten Roth 5,
+  36039 Fulda-Dietershan" und die Kontakte 0661 65447 und info@schrotthandel-goldbach.de stammen aus
+  **Verzeichnisleads** (branchenbuch.meinestadt.de, fulda.stadtbranchenbuch.com), und der Direktabruf der Domain
+  schrotthandel-goldbach.de scheitert am 03.11.2026 erneut mit einem Transportfehler - es gibt also weder eine
+  Betreiberseite noch ein Impressum noch einen Registereintrag fuer den Seed "Stephan Goldbach". Quelle 2 (OSM):
+  way/417437153 und way/93472176 (live, oben). **Abgrenzung:** der Betreiberauftritt "Schrotthandel Freddi
+  Goldbach" (Wadbergstraße 7, 36145 Hofbieber, "seit 1957 in Fulda") ist ein **anderer** Betrieb mit eigener
+  Dossierzeile (he-hofbieber-schrotthandel-freddi-goldbach-seit-1957); weder der Vorname (Freddi statt Stephan)
+  noch der Ort stimmen ueberein, eine Namens- oder Betriebsbeziehung ist nicht belegt und wird **nicht**
+  behauptet. Damit liegt eine belegte **Anschrift** vor, aber kein belegter **Betrieb**; es wird **keine**
+  Koordinate erfunden. Der gespeicherte Altpunkt 50.5541/9.67525 (Schloss Fulda) wird mit `clear_fields: 'geo'`
+  ohnehin zurueckgenommen; `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/417437153/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/93472176/full.json ;
+  `scripts/release/osm_street_scan.py` (Kachelraster) ;
+  https://firmeneintrag.creditreform.de/36039/6090143184/STEPHAN_GOLDBACH_SCHROTTHANDEL (HTTP 403) ;
+  https://www.schrotthandel-goldbach.de/ (Transportfehler) ;
+  https://branchenbuch.meinestadt.de/fulda/company/13008108 ;
+  https://www.freddi-goldbach.de/ ; read-only `public.db` (Abruf 03.11.2026)]

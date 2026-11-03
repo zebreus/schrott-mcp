@@ -60,3 +60,26 @@ Die offizielle Gorsler-Standortseite führt aktuell die Gorsler GmbH & Co. KG an
 
 - Schrotthandlung + AV
 - Adresse: Grünberg 35305
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Das Dossier fuehrt die Owner-Direktive
+  `clear_fields: 'geo,phone'`; der Token `geo` wird hier **nicht** entfernt, weil die Beleglage keine
+  Koordinate traegt. Der Betrieb "Helmut Eller Schrotthandlung und Autoverwertung" ist im Dossier **nicht**
+  identifiziert: Quelle 1 (Betreiber): die am 26.10.2026 direkt gelesene offizielle Standortseite
+  https://www.rvt.de/unternehmen/standorte/ und https://www.rvt.de/unternehmen/das-sind-wir/ fuehren die
+  **Gorsler GmbH & Co. KG**, Adam-Opel-Straße 2, 35305 Gruenberg, mit Annahme von Eisen- und Buntmetallen
+  (Mo-Fr 07:30-12:00 und 12:30-16:00, 1. und 3. Samstag 08:00-12:00); das belegt den heutigen Gorsler-Standort,
+  aber **keine** Umbenennung, Uebernahme oder sonstige Verbindung zu "Helmut Eller" oder dem aelteren Hinweis
+  "Uwe Eller" - Gorsler-Kontakte, Annahme und Konditionen wurden deshalb ausdruecklich **nicht** in das
+  Eller-Dossier uebernommen. Quelle 2 (OSM): **entfaellt**, weil die Dossier-Adresse leer ist (`street` und
+  `postcode` sind leer) und damit keine Dossier-Hausnummer existiert, nach der gesucht werden koennte; eine
+  Geokodierung des Gorsler-Standorts in das Eller-Dossier wuerde eine fremde Firma anzeigen. Der einzige
+  Adress-Lead zu Eller stammt aus dem Verzeichnis schrottplatz-info.de ("Eller Helmut Schrotthandlung und
+  Autoverwertung", Adam-Opel-Str. 2, 35305 Gruenberg, 06401 90022; die Seite sagt ausdruecklich, dass Angebot
+  und Oeffnungszeiten noch nicht erfasst sind) und ist nach dem Quellenstandard ein Lead, kein Betreiber- oder
+  Registerbeleg. Es wird **keine** Koordinate erfunden; `status` bleibt `pruefung`, der Token `phone` in
+  `clear_fields` bleibt unveraendert. Quelle(n): https://www.rvt.de/unternehmen/standorte/ ;
+  https://www.rvt.de/unternehmen/das-sind-wir/ ;
+  https://www.schrottplatz-info.de/schrottplatz/Gruenberg/Eller-Helmut-Schrotthandlung-und-Autoverwertung ;
+  https://schrottregister.pages.dev/ort-gruenberg (Abruf 03.11.2026)]

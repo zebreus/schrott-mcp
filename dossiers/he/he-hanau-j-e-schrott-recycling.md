@@ -56,3 +56,25 @@ J.E. Schrott & Recycling bleibt Karten-/Verzeichnislead: Exa nennt Diebacher Weg
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Gegenprüfung des Vorbefunds: Exa Places führt J.E. Schrott & Recycling als Schrottplatz in Hanau und nennt Diebacher Weg 121, 63452, Tel. 01577 9264128, Öffnungszeiten und Status „Open“; das bleibt ein Aggregator-/Karten-Lead ohne Betreiberlink oder Impressum. Die Gelbe-Seiten-Suche nach J.E. Schrott in Hanau liefert keinen passenden Hanauer Betrieb (nur einen unverbundenen Treffer in Hannover). Keine Betreiber-Website, kein belastbarer Register-/Kommunalbeleg und keine unabhängige Bestätigung der Adresse oder Identität gefunden; daher nur website_status=unbekannt gesetzt, alle Kontakt-/Adressfelder sowie status=pruefung unverändert; „Open“ ist kein Schließungs- oder Betriebsbeleg; Quelle(n): https://exa.ai/library/place/vylzk5ln3y8 ; https://www.gelbeseiten.de/suche/j-e-schrott/hanau ; https://www.bing.com/search?q=J.E.+Schrott+Recycling+Hanau&setlang=de]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Das Dossier fuehrt die Owner-Direktive
+  `clear_fields: 'geo'`; der Token bleibt bestehen. "J.E. Schrott & Recycling" ist ausschliesslich ein
+  Karten-/Verzeichnislead: Quelle 1 (Betreiber/Register): **fehlt** - es gibt keine Betreiberseite, kein
+  Impressum, keinen ausgeschriebenen Inhaber und keinen unabhaengigen Register- oder Kommunalbeleg; die
+  Namens- und Ortsnachsuchen vom 25.10.2026 und 01.10.2026 brachten nur generische Portale. Das Exa-Places-Profil
+  (am 26.10.2026 erneut live gelesen) nennt "J.E. Schrott & Recycling", Diebacher Weg 121, 63452 Hanau,
+  01577 9264128, Status "Open", Oeffnungszeiten Mo-Fr 08:00-18:00 und Sa 08:00-16:30 sowie eine einzelne
+  Bewertung vom 02.09.2025 - das ist nach dem Quellenstandard ein Aggregator-Eintrag, und "Open" sowie
+  Bewertungen sind **keine** bestaetigte aktuelle Kundenannahme. Quelle 2 (OSM): **nicht anwendbar** - die
+  Dossier-Felder `street` und `postcode` sind leer, es existiert damit keine Dossier-Hausnummer, nach der im
+  Kachelraster gesucht werden koennte; eine Geokodierung der reinen Portal-Angabe wuerde eine Adresse
+  suggerieren, die im Dossier gerade nicht belegt ist. Der read-only Produktionsabruf am 25.10.2026 zeigte den
+  Altpunkt 50.1280667/8.9168333 (Friedrich-Ebert-Anlage 31a, Hanau-Suedost), der mit `clear_fields: 'geo'`
+  ohnehin zurueckgenommen wird; kein Dossierbeleg verbindet diesen Ort mit dem Lead Diebacher Weg 121. Es wird
+  **keine** Koordinate erfunden; `status` bleibt `pruefung`.
+  Quelle(n): https://exa.ai/library/place/vylzk5ln3y8 ;
+  https://www.gelbeseiten.de/suche/j-e-schrott/hanau ;
+  https://www.bing.com/search?q=J.E.+Schrott+Recycling+Hanau&setlang=de ;
+  read-only `public.db` (Abruf 03.11.2026)]

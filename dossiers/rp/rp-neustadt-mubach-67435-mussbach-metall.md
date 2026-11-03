@@ -1,6 +1,7 @@
 ---
 slug: rp-neustadt-mubach-67435-mussbach-metall
-clear_fields: 'geo'
+lat: 49.3654875
+lon: 8.1651895
 name: Mussbach Metall GmbH & Co. KG
 trader_type: metallhaendler
 state: RP
@@ -53,3 +54,41 @@ Das NorthData-Firmenprofil zur Mussbach Metall GmbH & Co. KG führt HRA 41393 un
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Der NorthData-Firmenprofil-/Registertreffer führt Mussbach Metall GmbH & Co. KG unter HRA 41393, Amtsgericht Ludwigshafen, an der Eselshaut 2, 67435 Neustadt. Der Registerauszug zur persönlich haftenden Geschäftsführungs-GmbH (HRB 41319) beschreibt die KG als Herstellerin und Händlerin von Metall-Halb-/Fertigfabrikaten und Rohstoffen. Das stützt die Einordnung als Metallunternehmen, nicht aber eine Schrottannahme oder Metallankaufstelle; die verlinkte Domain mussbach-metall.de lieferte beim Direktabruf keine nutzbare Betreiberseite. Name, Status und leere Kontaktfelder bleiben daher unverändert. ANKAUF: nicht belegt; VERKAUF: keine numerischen Preise; GEBÜHREN: keine Angaben. Offen: heutiger Betrieb/Betreiber und etwaiger Schrottbezug. Quelle(n): https://www.northdata.de/Mussbach%20Metall%20GmbH%20%26%20Co%C2%B7%20KG,%20Neustadt%20a%C2%B7%20d%C2%B7%20Weinstra%C3%9Fe/Amtsgericht%20Ludwigshafen%20a.Rhein%20HRA%2041393 ; https://www.online-handelsregister.de/handelsregisterauszug/rp/Ludwigshafen-am-Rhein/HRB/41319/Mussbach-Metall-Geschaeftsfuehrungsgesellschaft-mbH ; https://www.mussbach-metall.de/ (Direktabruf ohne verwertbare Antwort).]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.3654875/8.1651895** (Mittel der eindeutigen
+  Knoten von way/143309852, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=**2**,
+  `addr:street`=**An der Eselshaut**, `addr:city`=**Neustadt an der Weinstraße**, `addr:postcode`=**67435**,
+  `addr:country`=DE und `building`=**industrial**; Objekt-BBox 49.3648481/8.1645956 bis 49.3661268/8.1657835, der
+  Punkt liegt **innerhalb**; der Way hat 4 eindeutige Knoten. Quelle 1 (Register): Der **Handelsregisterauszug über
+  online-handelsregister.de** (live abgerufen 03.11.2026, HTTP 200,
+  https://www.online-handelsregister.de/handelsregisterauszug/rp/Ludwigshafen-am-Rhein/HRB/41319/Mussbach-Metall-Geschaeftsfuehrungsgesellschaft-mbH)
+  nennt die **Mussbach Metall Geschäftsführungsgesellschaft mbH**, aktiv, **HRB 41319**, **Amtsgericht Ludwigshafen
+  a.Rhein**, mit der Anschrift „**An der Eselshaut 2 • 67435 Neustadt**“ und dem Satz „Sie kann schriftlich über die
+  Firmenadresse **An der Eselshaut 2, 67435 Neustadt** erreicht werden“; der **NorthData-Eintrag** zur
+  **Mussbach Metall GmbH & Co. KG, HRA 41393** (im Dossier bereits zitiert) führt dieselbe Anschrift. Die im Dossier
+  dokumentierte Einordnung als **Herstellerin und Händlerin von Metallhalb-/Fertigfabrikaten und Rohstoffen** stammt
+  aus dem Profil der Geschäftsführungs-GmbH HRB 41319, das die KG beschreibt. Quelle 2 (OSM): way/143309852 (live
+  abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1500,49.3550,8.1850,49.3750) - die **Hausnummer 2** ist auf der
+  **An der Eselshaut** **eindeutig** (gefundene Nummern u. a. 2, 2a, 2B, 4, 6, 7, 8, 8a, 9, 10, 11, 12, 12a, 12b, 13,
+  14, 15, 15a, 17, 18, 19, 20, 21, 21a, 21b, 22 bis 44a, 46 bis 63a, 64 bis 74, 76); das **Nachbarobjekt**
+  way/389031218 trägt `addr:housenumber`=**2a** (ebenfalls `addr:postcode`=67435, `addr:suburb`=Mußbach) und ist
+  damit **nicht** die Dossier-Adresse. **Qualifizierung:** das Objekt trägt **weder `name=` noch `operator=`**; ein
+  Objekt mit `name`=**„Metallwerk“** (node/3921951960, `amenity`=nightclub, `operator`=PURE Gastro & Event UG
+  (haftungsbeschränkt), `contact:website`=http://www.metallwerk-nw.com/) trägt zwar **auch**
+  `addr:housenumber`=2 auf derselben Straße, trägt aber den `fixme`-Vermerk „**Metallwerk auf das richtige Gebäude
+  verlegen**“ und beschreibt eine **Eventlocation** in **anderem** Betriebsträger - die **Zwei-Knoten-Lage** zur
+  Nummer 2 ist damit im OSM selbst als **unbereinigt** markiert; gesetzt wird der **adressgenau belegte**
+  Gebäudepunkt way/143309852 (`building`=industrial), der die Dossier-Adresse trägt. **Was offen bleibt:** Die im
+  Dossier dokumentierten Punkte - die **Liquidations-/Fortsetzungseintragung** (Liquidierung 10.04.2017,
+  Fortsetzung 12.06.2025) und der fehlende **aktuelle Originalregisterauszug** sowie der am 24.10.2026 mit einem
+  **Transportfehler** ausgefallene Abruf von mussbach-metall.de - bleiben **unverändert**; die Koordinate belegt den
+  **Registerstandort**, **nicht** einen laufenden Betrieb, **nicht** eine öffentliche Annahme und **nicht** einen
+  Schrottankauf. `status` bleibt **pruefung**, `trader_type` bleibt `metallhaendler`, `website_status` bleibt **tot**,
+  `phone`/`email`/`opening_hours` bleiben leer. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1500,49.3550,8.1850,49.3750 (Kachelraster, live abgerufen
+  03.11.2026) ;
+  https://www.online-handelsregister.de/handelsregisterauszug/rp/Ludwigshafen-am-Rhein/HRB/41319/Mussbach-Metall-Geschaeftsfuehrungsgesellschaft-mbH
+  (live abgerufen 03.11.2026).]

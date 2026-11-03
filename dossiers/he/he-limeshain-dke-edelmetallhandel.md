@@ -1,5 +1,7 @@
 ---
 slug: he-limeshain-dke-edelmetallhandel
+lat: 50.2606068
+lon: 9.0039726
 name: DKE Edelmetallhandel (Denis Kunz)
 trader_type: sonstige
 state: HE
@@ -46,3 +48,33 @@ Die neu gestaltete Betreiberwebsite nennt nun selbst Ronneburgstraße 33, 63694 
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Die Betreiber-Preisseite veröffentlicht bedingte ANKAUFSANGABEN, keine allgemeingültigen Fixkurse: handelsfähiges, unbeschädigtes 999er Silber in Barren/Münzen „210 Euro unter London Fix pro kg“; Bruchsilber (u.a. 800/830/850/900/925) und Gold nur auf Anfrage. Kleine lose Diamanten unter 0,10 ct: ab 55 €/ct nach Prüfung; Zinngegenstände ab 10 €/kg; VHM-/Wolframspäne nach Prüfung ab 11 €/kg; Hartmetalleinsätze/Bohrer auf Anfrage, Farbedelsteine nach Markt-/Gutachtenbewertung. Diese Material-, Zustand- und Prüfvorbehalte nicht zu einem universellen €/kg-Kurs verallgemeinern. VERKAUF: keine öffentliche Verkaufspreisliste auf den geprüften Betreiberseiten gefunden. GEBÜHREN: keine separate Gebührentafel gefunden. Geocoding: Betreiberseite nennt Ronneburgstraße 45 A, 63694 Limeshain, während 11880 Hausnr. 33 nennt; Adresse bleibt ungeklärt, daher keinen Pin veröffentlichen/aktualisieren, bis die Hausnummer bestätigt ist. Quelle(n): https://www.dk-edelmetalle.de/i/ankaufspreise; https://www.dk-edelmetalle.de/i/oeffnungszeiten; https://www.dk-edelmetalle.de/i/kontakt; https://www.11880.com/branchenbuch/limeshain/181726177B113005551/dke-edelmetallhandel-goldankauf.html.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.2606068/9.0039726**. Quelle 1 (OSM, live geladen):
+  `way/407742206` traegt `addr:housenumber`=33, `addr:street`=Ronneburgstraße, `addr:city`=Limeshain,
+  `addr:postcode`=63694, `addr:suburb`=Himbach, `building`=house; der Way hat 4 eindeutige Knoten (BBox
+  9.0039055/50.2605483 bis 9.0040380/50.2606651), der Mittelwert der eindeutigen Knoten liegt bei
+  50.2606068/9.0039726 und damit innerhalb der Objekt-BBox. Das Objekt traegt **weder** `name` **noch**
+  `operator`; es bestaetigt die Anschrift, nicht den Betrieb. Das live abgefragte Kachelraster ueber den
+  Strassenverlauf der Ronneburgstrasse in Limeshain-Himbach (Rasterfenster 8.9800/50.2450 bis 9.0450/50.2950,
+  0,01-Grad-Kacheln ueber `scripts/release/osm_street_scan.py`, 42 Kacheln, 0 Fehler) weist auf der Strasse in
+  der Postleitzahl 63694 **69 Adressobjekte** mit **68 verschiedenen Hausnummern** aus (1 bis 58 mit Luecken
+  sowie 5a, 8a, 13a, 14a, 24a, 25a, 27a, 34a, 36a, 37a, 38a, 38b, 42a, 44a) - die **Dossier-Hausnummer 33
+  existiert** und ist genau einmal belegt. Das einzige benannte Objekt der Strasse ist der Gastbetrieb
+  `node/7638723885` (Hausnummer 31, `name=Bier- und Apfelweinhof Am Backhaus Himbach`); ein Objekt mit Bezug zu
+  "DKE", "Kunz" oder "Edelmetall" existiert im Raster **nicht**. Quelle 2 (Betreiber, im Dossier bereits zitiert
+  und am 03.11.2026 erneut live gelesen): das Impressum https://www.dk-edelmetalle.de/impressum/ nennt woertlich
+  "Herr Kunz / Denis Kunz Edelmetallhandel / Ronneburgstraße 33 / 63694 Hessen - Limeshain / Tel.: 0160 1870367 /
+  E-Mail: kunz@dk-edelmetalle.de"; die Kontaktseite nennt dieselbe Anschrift und dieselbe Nummer, die
+  Betreiberseite beschreibt den Ankauf von Gold, Silber, Platin und Palladium sowie von Schmuck, Uhren und
+  Edelsteinen ausschliesslich nach Vereinbarung. Betrieb, Hausnummer, Straße, PLZ und Ort decken sich damit
+  unabhaengig von OSM mit dem gesetzten Punkt. **Abgrenzung:** die ebenfalls in OSM gefuehrte
+  **Ronneburgstraße in Maintal-Wachenbuchen** (63477, `addr:suburb`=Wachenbuchen, z. B. `way/218249619` mit
+  derselben Hausnummer 33) ist eine **andere Strasse in einer anderen Gemeinde** und wird hier **nicht**
+  verwechselt; das Dossier nennt ausdruecklich 63694 Hessen-Limeshain. Der Punkt bezeichnet die belegte
+  Geschaeftsanschrift, nicht eine verifizierte Zufahrt oder Waage; `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/407742206/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/7638723885.json ;
+  `scripts/release/osm_street_scan.py` (Kachelraster) ;
+  https://www.dk-edelmetalle.de/impressum/ ; https://www.dk-edelmetalle.de/kontakt/ (Abruf 03.11.2026)]
