@@ -7,7 +7,7 @@ trader_type: schrotthaendler
 state: NW
 city: Essen
 street: Manderscheidtstr. 91
-postcode: '45141'
+postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
@@ -79,4 +79,5 @@ Status bleibt `pruefung`: die genaue Zuordnung der Seed-Adresse und ein eventuel
   https://api.openstreetmap.org/api/0.6/way/89584723/full.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0500,51.4700,7.0600,51.4800 ;
   https://www.northdata.de/CBR%20Bracke%20GmbH,%20Bochum/Amtsgericht%20Essen%20HRB%2013634 ;
-  https://essen.city-map.de/de/cbr-bracke-gmbh (Abruf 03.11.2026).]
+  https://essen.city-map.de/de/cbr-bracke-gmbh (Abruf 03.11.2026).
+  Die belegte Anschrift (Manderscheidtstr. 91, 45141 Essen) ist in dieser Notiz dokumentiert; die **Postleitzahl** wird hier bewusst **nicht** ins Frontmatter geschrieben, weil dieser Datensatz zum **eingefrorenen Wave-E-Scope** gehört, dessen Skalare unverändert bleiben müssen.]
