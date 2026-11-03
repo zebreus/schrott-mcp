@@ -56,3 +56,38 @@ Die Beleglage des Seeds bleibt unverändert schwach: Die einzige belastbare Spur
 - Hördter Str. 48, FE
 - urspr. Website-Angabe: keine
 - Adresse: Bellheim
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **48** ist in OSM auf der
+  Dossier-Straße **Hördter Straße** zwar **eindeutig** belegt, aber **es fehlt die zweite unabhängige Quelle**: die
+  Dossier-Adresse stammt ausschließlich aus einem **Verzeichnis-Portal**, und nach der README-Quellenhierarchie sind
+  Verzeichnisse ausdrücklich **Leads, keine Evidenz** - ein Verzeichnis plus OSM bleibt ein **Einzelbeleg**; hinzu
+  kommt die im Dossier dokumentierte **dynamische Statusanzeige „Geschlossen“** des Portals. **Was geprüft wurde
+  (live am 03.11.2026):** (a) Die Straße **Hördter Straße** in Bellheim trägt in OSM **57 Adressobjekte** mit den
+  Hausnummern **1, 1A, 2, 4, 5, 6, 7, 8, 8A, 9, 10, 11, 12, 13, 14, 14A, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25,
+  26A, 26B, 27, 27A, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 39A, 39B, 39C, 40, 41, 42, 43, 43A, 44, 45,
+  46, 47, **48**, 49, 50, 52, 54, 56** - die **Hausnummer 48 ist genau einmal** belegt und damit eindeutig:
+  **way/396748734** mit `addr:housenumber`=**48**, `addr:street`=**Hördter Straße**, `addr:city`=Bellheim,
+  `addr:postcode`=**76756**, `addr:country`=DE, `building`=yes, `building:levels`=2 (Kachelraster über
+  **bbox=8.2600,49.1700,8.3200,49.2100**, live abgerufen 03.11.2026); Objekt-BBox 49.1876626/8.2890008 bis
+  49.1878144/8.2892463. (b) Eine Suche über **alle** Tag-Werte nach „faust“ bzw. „schrott“ im Raster liefert
+  **0 Objekte**, die **den eigenen Betrieb** nennen - der Betrieb ist in OSM **nicht namentlich kartiert**; das Objekt
+  trägt **weder `name=` noch `operator=`**. **Quelle 1 (Verzeichnis):** Das **Schrottplatz-Portal**
+  (live abgerufen 03.11.2026, HTTP 200,
+  https://lokaleschrottplatz.de/schrott-und-autoentsorgung-faust-brigitte-und-philipp/) führt „**Schrott- und
+  Autoentsorgung Faust**“, Anbieter „**Schrott- und Autoentsorgung Faust Brigitte und Philipp**“, Anschrift
+  „**Bellheim, Hördter Str. 48, 76756 Bellheim**“, Telefon **+49 7272 91693** (07272 91693), dazu eine
+  Material-/Altfahrzeugliste und die Mindestmengen 100 kg Eisen / 1 kg NE. Das Portal weist **für sich keine
+  Betreiberquelle aus**; die Suche nach einem Betreiber-, Register- oder Behördenauftritt zu „Faust“ in Bellheim
+  (im Dossier vom 27.10.2026 dokumentiert, am 03.11.2026 nicht neu geprüft) blieb ohne Treffer, und die
+  Gemeindeseiten der **Verbandsgemeinde Bellheim** führen keinen Faust-Betrieb. Das **dynamisch** angezeigte
+  „Geschlossen“ begründet **keine** dauerhafte Schließung. **Quelle 2 (OSM):** way/396748734 und die übrigen
+  Adressobjekte der Hördter Straße (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2600,49.1700,8.3200,49.2100). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle** für den Betrieb an dieser Anschrift sowie die Klärung, ob er noch besteht.
+  `status` bleibt **pruefung**, `street`/`postcode`/`phone` bleiben leer, `clear_fields: 'geo'` bleibt bestehen.
+  Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2600,49.1700,8.3200,49.2100 (Kachelraster, live abgerufen
+  03.11.2026) ; https://lokaleschrottplatz.de/schrott-und-autoentsorgung-faust-brigitte-und-philipp/ (live abgerufen
+  03.11.2026).]

@@ -62,3 +62,36 @@ Der generische Seed „Koblenzer Entrümpelungen“ (56070) ist weiterhin keinem
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine unabhängige Verifizierung möglich — Websuche ergebnislos, keine Betreiber-Website, kein Registerbeleg; alle Felder bleiben leer; Klärfall für Folgewelle (Gewerberegister Koblenz); Quelle(n): keine neuen.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diesen **generischen** Seed sind **zwei
+  verschiedene Kandidaten** mit **verschiedenem Namen und verschiedener PLZ** dokumentiert; welcher davon die
+  Seed-Zeile „Koblenzer Entrümpelungen“ ist, ist **nicht entschieden** - ein Punkt wäre eine Festlegung ohne
+  Beleg. **Was geprüft wurde (live am 03.11.2026):** (a) **Kandidat 1 - Verzeichnislead:** Die **Gelbe-Seiten-
+  Detailseite** (live abgerufen 03.11.2026, HTTP 200,
+  https://www.gelbeseiten.de/gsbiz/3cbd8b33-de34-4481-9291-37719293ca83) führt „**Koblenzer Entrümpelungen
+  Schrotthandel**“ mit „**Karl-Russell-Str. 54, 56070 Koblenz-Lützel**“, Telefon 0163 4098013 und Portalöffnungszeiten
+  täglich 08:00–20:00; die **Hausnummer 54** ist in OSM auf der **Karl-Russell-Straße** **eindeutig** belegt
+  (**node/14066926053**, `addr:housenumber`=54, `addr:street`=Karl-Russell-Straße, `addr:city`=Koblenz,
+  `addr:postcode`=56070; die belegten Nummern der Straße sind 1 bis 58, 64, 66, 68; Kachelraster über
+  **bbox=7.5450,50.3350,7.6050,50.3750**, live abgerufen 03.11.2026). Der Knoten trägt **weder `name=` noch
+  `operator=`** - der Betrieb ist in OSM **nicht namentlich kartiert**; die Quelle für die **Hausnummer** ist ein
+  **Verzeichnis**. (b) **Kandidat 2 - Betreiber:** Die **Betreiber-Website** „**Koblenzer Schrotthandel**“
+  (live abgerufen 03.11.2026, https://www.koblenzer-schrotthandel.de/impressum/) nennt **Karin Reinhardt**,
+  **Am Metternicher Bahnhof 18, 56072 Koblenz** - **anderer Name, andere Straße, andere PLZ**; die **Hausnummer 18**
+  ist in OSM ebenfalls belegt (node/14167375979, `addr:housenumber`=18, `addr:street`=Am Metternicher Bahnhof), die
+  Nachbarobjekte sind dort nachweislich **andere Betriebe** (Edeka Goerzen =11, Rossmann =9, Esch & Pickel GmbH =10).
+  (c) Eine Suche über **alle** Tag-Werte nach „entrümpel“ bzw. einem Schrottbetrieb im Raster liefert **0 Objekte**,
+  die **den eigenen Betrieb** nennen. **Quelle 1 (Betreiber/Verzeichnis):** die beiden oben genannten Quellen -
+  **Verzeichnis** (Kandidat 1) und **Betreiber-Website** (Kandidat 2); sie beschreiben **zwei verschiedene
+  Unternehmen** und lösen die Zuordnung **nicht** auf. **Quelle 2 (OSM):** node/14066926053 und die übrigen
+  Adressobjekte der Karl-Russell-Straße sowie node/14167375979 und die Objekte am Metternicher Bahnhof (live
+  abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5450,50.3350,7.6050,50.3750). **Was fehlt:** ein
+  **Betreiber- oder Registerbeleg**, der die Seed-Zeile „Koblenzer Entrümpelungen (56070)“ **einem** der beiden
+  Betriebe zuordnet; erst dann wäre die zugehörige OSM-Koordinate eindeutig. `status` bleibt **pruefung**, `street`/
+  `postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5450,50.3350,7.6050,50.3750 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.gelbeseiten.de/gsbiz/3cbd8b33-de34-4481-9291-37719293ca83 ;
+  https://www.koblenzer-schrotthandel.de/impressum/ (live abgerufen 03.11.2026).]

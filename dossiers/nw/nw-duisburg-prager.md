@@ -69,3 +69,31 @@ Verzeichnisse führen den Kandidaten als „Prager Axel Unfallwagenhdl.“ an Am
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KEINE Frontmatter-Fills — Frontmatter (street, postcode, phone) stammt aus Vorwelle 30.09.2026 (Aggregator-Dreifachbeleg); keine neuen belegfähigen Funde (nur weitere Aggregator-Leads: firmania, city-advisor, 11880, Das Örtliche, Das Telefonbuch — alles Leads, keine Betreiber-Primärquelle); keine Betreiber-Website auffindbar; Quelle(n): keine neuen — Stand unverändert]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Straße **„Am Sportplatz“** existiert im
+  gescannten Duisburger Stadtbereich **nicht**: das am 03.11.2026 nachgeladene Kachelraster über Duisburg-Rumeln und
+  -Kaldenhausen (6.7500/51.4300 bis 6.7800/51.4600, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst **167
+  verschiedene Straßen** mit Adressobjekten - eine Straße **„Am Sportplatz“** ist darunter **nicht**, und eine Suche nach der
+  Hausnummer 24 in Verbindung mit „Sportplatz“ findet **kein** Objekt. Quelle 1 (Verzeichnis): die 11880-Suchergebnisseite
+  **„Prager in Duisburg“** zeigt genau einen passenden Treffer **„Axel Prager UnfallwagenHdl.“** an **Am Sportplatz 24,
+  47239 Duisburg-Rumeln-Kaldenhausen**, Tel. **02151 940729**, mit den Portalrubriken Schrottplatz/Altmaterialhandel/
+  Schrotthandel; das Statuslabel **„Geschlossen“** der Portalseite ist ein **Portalstatus** und beweist **keine**
+  dauerhafte Schließung. Auch GoLocal, Cylex, Gelbe Seiten und kfz-fragen nennen dieselbe Anschrift und dieselbe
+  Nummer - die **Adresse** ist damit mehrfach gedeckt. Quelle 2 (OSM): das Kachelraster (live geladen am 03.11.2026,
+  HTTP 200); ein Objekt mit Betriebsbezug zu „Prager“ existiert dort **nicht**. **Warum keine Koordinate:** Die Adresse
+  ist in OSM **nicht abbildbar** - jeder Punkt wäre eine Ableitung aus einem fremden Objekt oder einer Straßenmitte.
+  Hinzu kommt das im Dossier dokumentierte **Betreiber-Identitätsproblem**: der Eintrag beschreibt einen
+  **Unfallwagenhändler**, und die Portalrubriken „Schrottplatz/Altmaterialhandel/Schrotthandel“ belegen **weder** einen
+  allgemeinen Metall- oder Schrottankauf **noch** eine öffentliche Annahmestelle; ein Betreiberauftritt, ein Impressum
+  oder ein Registereintrag ist nicht belegt. Die 2021 datierte Alternative **Dahlingstr. 90, 47229 Duisburg** mit
+  0171 3257709 stammt aus **einem** Portaltreffer und ist im Dossier ausdrücklich als unsicher verworfen; sie wird
+  **nicht** übernommen. **Was zur Auflösung fehlt:** eine Kartierung der Am Sportplatz in OSM **und** ein
+  Betreiber- oder Registerbeleg, der die Tätigkeit als Schrott-/Metallhändler an dieser Anschrift belegt. Der bisher
+  gespeicherte Produktionspunkt 51.429824/6.748468 (laut read-only-Abgleich vom 25.10.2026 an der Vulkanstraße 54 in
+  der Duisburger Altstadt) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`,
+  `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert; eine Schließung wird **nicht** behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7500,51.4300,6.7800,51.4600 ;
+  https://www.11880.com/suche/prager/duisburg ;
+  https://www.golocal.de/duisburg/autoverwertung/prager-axel-unfallwagenhdl-4nQv (Abruf 03.11.2026).]

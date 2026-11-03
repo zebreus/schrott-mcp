@@ -67,3 +67,34 @@ Aktuelle Betreiberübersicht und alle drei einzeln geprüften Standortseiten fü
 
 - Gold-/Silberankauf
 - Adresse: Mainz 55116
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Es fehlt die **zweite unabhängige Quelle**: Die
+  Dossier-Adresse „**Flachsmarkt 5, 55116 Mainz**“ stammt aus **Verzeichnis-Leads** (Gelbe Seiten und 11880), und die
+  **Betreiberquelle** (DEG e.K.) weist **keine Mainzer Filiale** aus - im Dossier ist bereits dokumentiert, dass die
+  Standortübersicht nur **Frankfurt, Darmstadt und Aschaffenburg** führt und die Mainzer Rufnummer
+  06131-6932911 lediglich im Aschaffenburger Fließtext steht. Damit ist für diesen Seed **kein** belegter
+  Mainzer Standort vorhanden, dessen OSM-Objekt man zuordnen könnte; zusätzlich findet sich die **Hausnummer 5 auf
+  dem Flachsmarkt in Mainz in OSM nicht** (live am 03.11.2026 geprüft: Das Kachelraster über
+  **bbox=8.2600,49.9950,8.2900,50.0150** umfasst den ganzen Mainzer Altstadtbereich; auf der Straße **Flachsmarkt**
+  sind nur die Hausnummern **1, 2, 3, 4-6, 7, 8, 11, 16, 22, 24, 26, 28, 30, 32, 34, 38** belegt - eine Nummer
+  **5** existiert dort nicht; die **Flachsmarktstraße** und die **Hintere Flachsmarktstraße** sind die
+  Straßennamen der Umgehung). **Was geprüft wurde (live am 03.11.2026):** (a) die Adressobjekte der Straße
+  Flachsmarkt in Mainz - way/237501201 (`addr:housenumber`=3), way/166807136 (=8), way/237501219 (=11, Flachsmarktstraße),
+  way/237501206 (=28), way/237501215 (=34) sowie der Bereichsknoten node/1642994070 (`addr:housenumber`=**4-6**,
+  `addr:street`=Flachsmarkt, `addr:postcode`=55116, `addr:city`=Mainz) - **keine** Objekt mit der Nummer 5 und
+  **kein** Objekt mit `name=`/`operator=`-Bezug zu einem Gold- oder Silberhandel; (b) die **eigenständige** Mainzer
+  Goldhandels-Filiale **R(h)eingoldboutique / GoldSilberShop, SOLIT Management GmbH, Rheinstraße 103, 55116 Mainz** -
+  ein **anderer Rechtsträger** (das Dossier schließt eine Zusammenführung ausdrücklich aus), der hier **nicht**
+  übernommen wird. **Quelle 1 (Betreiber):** Die **Betreiber-Website** (https://www.goldankauf-silber.de/impressum,
+  live abgerufen 03.11.2026) nennt den Rechtsträger **DEUTSCHE EDELMETALL & GRUND DEG e.K, Inhaber Sven Breitschaft,
+  HRA 87094 AG Darmstadt** mit den ausgewiesenen Filialen **Frankfurt, Darmstadt und Aschaffenburg** - **keine
+  Mainzer Filiale**; die USt-IdNr. DE232448782 wird vom EU-VIES am 27.10.2026 als gültig bestätigt (im Dossier
+  zitiert). **Quelle 2 (OSM):** die oben genannten Adressobjekte und die Straßenways (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2600,49.9950,8.2900,50.0150). **Was fehlt:** ein OSM-Objekt
+  mit `addr:street`=Flachsmarkt **und** `addr:housenumber`=5 **oder** ein benanntes Goldankauf-Objekt an dieser
+  Anschrift **und** eine Betreiber- oder Registerquelle, die eine **Mainzer** Filiale dieses Rechtsträgers belegt.
+  `status` bleibt **pruefung**, `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2600,49.9950,8.2900,50.0150 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.goldankauf-silber.de/impressum (live abgerufen 03.11.2026).]

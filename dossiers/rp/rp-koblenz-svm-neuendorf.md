@@ -58,3 +58,32 @@ Die Website svmdienstleistungen.de präsentiert „SVM Dienstleistungen“ in Ko
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: Live-Nachpruefung des Betreiberauftritts, Befund unveraendert. svmdienstleistungen.de antwortet am 29.10.2026 mit HTTP 200 (Startseite erreichbar), der Pfad /impressum mit HTTP 404 — es gibt also weiterhin KEIN Impressum und damit weiterhin weder Rechtstraeger noch Registerangabe, Anschrift, oeffentliche Telefonnummer oder E-Mail. Das Angebot der Seite bleibt Haushaltsaufloesung/Demontage/Transport; ein Schrott- oder Metallangebot, eine Annahmestelle, eine Preisanzeige oder ein Abhol-/Entsorgungstarif ist nicht vorhanden. Der im September 2024 von der Recherche 02.10.2026 erwaehnte Testimonial-Platzhalter „John Doe“ wird nicht erneut behauptet, da der Seiteninhalt am 29.10.2026 nur als „Testimonials mit Platzhaltern“ zitiert wurde. In dieser Welle wurde bewusst KEINE OSM-Aussage zu einem „Gleisanschluss“ in Koblenz-Neuendorf getroffen: der gepruefte Kartenausschnitt lag im Stadtzentrum und enthielt keinen Gleisanschluss und kein Industrieobjekt mit Schrottbezug und ist damit fuer die Seed-Angabe „Gleisanschluss“ NICHT aussagekraeftig — eine belastbare Aussage bleibt offen. Frontmatter unveraendert (keine Adresse, kein Telefon, website leer, website_status unbekannt), `clear_fields: 'geo'` bleibt in Kraft, kein Koordinatenpaer gesetzt, status pruefung bleibt; die Zwei-Quellen-Regel fuer eine Identitaetszuschreibung des Webauftritts zum Seed „SVM Neuendorf“ ist weiterhin nicht erfuellt. ANKAUF: keine Metallannahme, keine Kurse; VERKAUF: keine Preisliste; GEBUEHREN: keine Tarife fuer Entruempelung, Demontage oder Transport. Quelle(n): https://www.svmdienstleistungen.de/ (HTTP 200, Abruf 29.10.2026) ; https://www.svmdienstleistungen.de/impressum (HTTP 404, Abruf 29.10.2026)]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, weil die Zeile keine Adresse und keinen
+  belegten Betriebsbezug hat.** `street` und `postcode` sind **leer**; der Seed-Eintrag „**Gleisanschluss**“ ist eine
+  **Flächenangabe**, keine Anschrift, und `city` trägt nur „**Koblenz**“. **Was geprüft wurde (live am 03.11.2026):**
+  (a) Das Kachelraster über **bbox=7.5300,50.3200,7.6000,50.3800** (live abgerufen 03.11.2026) umfasst den
+  Koblenzer Stadtbereich einschließlich **Neuendorf** und weist **kein** Objekt mit `name=`/`operator=`-Bezug zu
+  „SVM“, „SVM Dienstleistungen“ oder einem Schrottbetrieb aus - ein Objekt, das **den eigenen Betrieb** nennt,
+  existiert in OSM **nicht**. (b) Die im Dossier dokumentierte **Untersuchung des „Gleisanschlusses“** ist damit
+  bestätigt: die im Koblenzer Raum vorhandenen Bahn-Objekte sind durchweg **DB-Infrastruktur** - „Linke
+  Rheinstrecke“ (`railway`=rail, `operator`=DB InfraGO AG), „Oberstromgleis“ (DB InfraGO AG), die Bahnsteige
+  „Koblenz-Lützel Gleis 1 / 2“ und „Koblenz-Lützel Gleis 3 / 4“ sowie diverse `railway`=signal-Objekte - **kein**
+  Anschlussgleis eines Entsorgungsbetriebs und **kein** Betriebsobjekt „SVM“. Ein „Gleisanschluss“ ohne
+  Flächenkennung ist zudem **kein** geokodierbarer Punkt. (c) Die **Betreiber-Website** svmdienstleistungen.de
+  (live abgerufen 03.11.2026, https://www.svmdienstleistungen.de/ und /impressum) wurde bereits am 29.10.2026 als
+  **ohne Impressum** (HTTP 404) und mit **Platzhaltern** in den Referenzen dokumentiert; sie nennt als Standort nur
+  „**Koblenz am Rhein**“ und **keine** Anschrift. (d) Das im Dossier genannte **Schrottplatz-Portal** (live abgerufen
+  03.11.2026, https://lokaleschrottplatz.de/svm-dienstleistungen/) bleibt ein **Aggregator-Lead**. **Quelle 1
+  (Betreiber):** die Betreiber-Website svmdienstleistungen.de (live abgerufen 03.11.2026) - **ohne** Impressum, **ohne**
+  Anschrift, **ohne** Rechtsträger. **Quelle 2 (OSM):** das Kachelraster und die genannten DB-Bahnobjekte (live
+  abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5300,50.3200,7.6000,50.3800). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle** mit einer **Anschrift** und der Zuordnung des Webauftritts zur Seed-Zeile
+  „SVM Neuendorf“; erst dann wäre eine Geokodierung möglich. `status` bleibt **pruefung**, `website` bleibt
+  **unbekannt** bzw. leer, `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5300,50.3200,7.6000,50.3800 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.svmdienstleistungen.de/ ; https://www.svmdienstleistungen.de/impressum (live abgerufen
+  03.11.2026).]

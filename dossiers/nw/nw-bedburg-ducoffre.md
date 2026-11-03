@@ -62,3 +62,42 @@ Historischer Händler-Lead „Altstoffe Joachim Ducoffre“ in Bedburg, aber akt
 
 - [Recherche 01.11.2026: Kein amtlicher Zertifikatsnachweis gefunden — `certifications` bleibt **leer**. Abfrage des amtlichen Fachbetrieberegisters am 01.11.2026: (1) **Namenssuche** „Ducoffre“ und „Ducoff“ im Register „Entsorgungsfachbetriebe“ → jeweils **0 Treffer gefunden**; (2) **Standortsuche** um Bedburg, Umkreis 3 km, Register „Entsorgungsfachbetriebe“ → **10 Treffer gefunden**, vollständig gelesen: „Budak GmbH / Budak GmbH Bedburg“, Otto-Hahn-Straße 7, 50181 Bedburg (ZZHT00300884 / 1 Sammeln, Befördern, 0,5 km); „PreZero Service Rheinland GmbH“, Heinrich-Hertz-Straße 2 (ZZEE00200323 / 3 und / 4 Lagern, Behandeln, 1,6 km); „RRK Rohstoffrecycling Kuhlen GmbH“, Heinrich-Hertz-Straße 15 (ZZEE00300212 / 2, / 3, / 4, / 5 und / 7, 1,6 km) — **kein** Eintrag „Ducoffre“ und keine Anlage an der Graf-Salm-Straße 33, die der Recherche vom 03.10.2026 zufolge die Seed-Adresse des Altstoffhändlers Joachim Ducoffre ist; (3) Namenssuche „Ducoffre“ im Register „Altfahrzeugverwertung“ → **0 Treffer gefunden**. Der 11880-Eintrag („Altstoffe Joachim Ducoffre“, Graf-Salm-Str. 33, 50181 Bedburg, 02272 7012) ist ein Verzeichnisbeleg; das amtliche Bedburg-PDF (Stadtnachrichten 15.06.2019) enthielt laut Recherche vom 03.10.2026 keinen Ducoffre-Treffer und ist damit kein kommunaler Betreibernachweis. **Reichweite der Negativaussage:** Die Efb-Anerkennung nach § 56 KrWG ist freiwillig; der Negativbefund beweist keine Nichtzertifizierung und keine Schließung. Umfang: beide Register, Namens- und Standortsuche. `status` bleibt unverändert `pruefung`. Keine Preise, Gebühren oder Ankaufsbedingungen aus dieser Recherche abgeleitet.]
 - [Recherche 01.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ducoffre ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ducoffre ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Bedburg,%20Deutschland;6.5768;50.9972;6.5768;50.9972;6.5768;50.9972&dst=3&is=1&e=1]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Adresse ist **nicht eindeutig** und der
+  **Rechtsträger nicht fortführend** belegt. Das am 03.11.2026 nachgeladene Kachelraster über die Graf-Salm-Straße in
+  Bedburg (6.5700/50.9900 bis 6.5800/51.0000, **2 Kacheln, 0 Kachel-Fehler**) erfasst die Straße in **50181 Bedburg**
+  mit **44 verschiedenen Hausnummern** (3, 8, 10, 10a, 11, 12, 13, 13-15, 14, 15, 16, 17, 17a, 18, 19, 20, 21, 22, 23, 24, 25,
+  26, 27, 28, 29, 30, 31, 31a, 32, **33**, 33a, 34, 36, 36a, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46) - **beide**
+  Dossier-Kandidaten existieren in OSM nebeneinander: **way/316116038** (`addr:housenumber`=33, `addr:street`=Graf-Salm-Straße,
+  `addr:city`=Bedburg, `addr:postcode`=50181, `building`=yes; Mittel der **14** eindeutigen Knoten
+  **50.9966610/6.5760780**, BBox 50.9965843/6.5759365 bis 50.9967054/6.5762100) und **way/316116039**
+  (`addr:housenumber`=33a, `building`=yes; Mittel der **12** eindeutigen Knoten **50.9965324/6.5760125**, BBox
+  50.9964469/6.5758856 bis 50.9966164/6.5761882) - die beiden Objekte liegen **direkt nebeneinander** (rund 15 m
+  Abstand) und sind damit **nicht** gegeneinander abgrenzbar. Quelle 1 (Register/Verzeichnis): 11880 führt weiterhin
+  **Altstoffe Joachim Ducoffre**, **Graf-Salm-Str. 33, 50181 Bedburg**, Tel. 02272 7012, Altmaterial-/Schrotthandel
+  (Eintragsdaten 2021, Update 2024); ein **anderer** Portalhinweis schreibt **33a**; der Registerspiegel
+  **NorthData** zu „Altstoffe Joachim Ducoffre, Inh.: Britta Ducoffre e.K.“, **AG Köln HRA 32232** (früher Neuss
+  HRA 2283), zeigt die Veröffentlichungen **19.09.2016 Inhaber-/Sitzwechsel** und **21.09.2016 Löschung** - ohne
+  amtliche Originaltexte ist ein möglicher Registertransfer nicht von einer endgültigen Betriebseinstellung zu
+  unterscheiden. Das **amtliche Fachbetrieberegister** führt zu „Ducoffre“ **keinen** Eintrag (Namenssuche in
+  „Entsorgungsfachbetriebe“ und „Altfahrzeugverwertung“: je 0 Treffer), und die Standortsuche um Bedburg
+  (Umkreis 3 km) liefert **andere** Rechtsträger (Budak GmbH, PreZero Service Rheinland GmbH, RRK Rohstoffrecycling
+  Kuhlen GmbH) - **keine** Anlage an der Graf-Salm-Straße 33. Quelle 2 (OSM): das Kachelraster sowie way/316116038 und
+  way/316116039 (live geladen am 03.11.2026, HTTP 200). **Warum keine Koordinate:** Die Wahl zwischen **33** und **33a**
+  ist ohne Klärung der Anschriftenkette **willkürlich** - beide Nummern sind in OSM belegt und liegen unmittelbar
+  nebeneinander; und selbst die gewählte Nummer träfe keine **fortführende** Rechtsträgerin, da die e.K. 2016
+  gelöscht wurde. Ein Punkt wäre die Behauptung einer heutigen Betriebsanschrift, die keine Quelle trägt. **Was zur
+  Auflösung fehlt:** ein aktueller Betreiber- oder Registerbeleg für einen Nachfolger an **einer** der beiden
+  Hausnummern, oder die Klärung, welche der beiden Verzeichnisangaben (33 oder 33a) die Seed-Adresse abbildet. Der
+  bisher gespeicherte Produktionspunkt 50.9926/6.5713 (laut read-only-Abgleich vom 23.10.2026) wird durch diese Notiz
+  **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields: geo` und alle übrigen Felder bleiben
+  unverändert; eine Schließung wird **nicht** behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.5700,50.9900,6.5800,51.0000 ;
+  https://api.openstreetmap.org/api/0.6/way/316116038/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/316116039/full.json ;
+  https://www.11880.com/branchenbuch/bedburg-erft/060440090B102609685/altstoffe-joachim-ducoffre.html ;
+  https://www.northdata.de/Altstoffe%20Joachim%20Ducoffre,%20Inh%C2%B7:%20Britta%20Ducoffre%20e%C2%B7%20K%C2%B7,%20Bedburg/Amtsgericht%20K%C3%B6ln%20HRA%2032232 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ducoffre
+  (Abruf 03.11.2026).]

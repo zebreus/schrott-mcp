@@ -60,3 +60,42 @@ Status `geschlossen` ist mit Belegen gesetzt (Betreiber-Aussage, amtliches Regis
 
 - [Recherche 29.10.2026: **Betreiberkette geschlossen — Standort ist an ALBA nicht mehr aktiv.** Die RHEINPFALZ berichtet am 02.05.2019 unter dem Titel „Alba macht Hoffmann Platz“: ALBA-Metall-Süd-Kommunikationsleiter Henning Krumrey erklärt den Rückzug der ALBA Metall Süd GmbH aus der Region Germersheim, der Schrottplatz im Germersheimer Industriegebiet sollte bis Ende April 2019 geräumt sein; Patrick Hoffmann (Hoffmann Schrott und Metallhandel) bestätigte den Kauf des ALBA-Geländes und den Umzug dorthin. Damit liegt eine **Betreiber-Aussage zur Schließung** vor. Gegenprobe am 29.10.2026: metall.alba.info/unternehmen/standorte listet unverändert 13 Treffer (12 × ALBA Metall Nord + Stuttgart als ALBA Metall Süd-Zentrale), **kein Germersheim**; der amtliche Registerabzug (Fachbetrieberegister GESA + Register der Entsorgungsfachbetriebe, Abrufstand 11.08.2026, Spiegel schrottregister.pages.dev „Unabhängiges Verzeichnis · kein amtliches Angebot“) führt für Germersheim/76726 genau zwei Betriebe, darunter **Hoffmann Schrott und Metallhandel e.K., Anschrift „Im Weidenschlag“, Zertifikatsnummer ZZFT01300051, Tätigkeiten Lagern/Behandeln** mit 8 ausgewerteten Abfallschlüsseln (u. a. 020110 Metallabfälle, 160104*/160106 Altfahrzeuge, 160801 gebrauchte Katalysatoren, 170409*, 191001 Eisen- und Stahlabfälle) — **kein ALBA-Betrieb** in Germersheim; die Betreiberseite hoffmann-schrott.de nennt Im Weidenschlag, 76726 Germersheim, über 30.000 m² und zertifizierten Entsorgungsfachbetrieb. ALBA Electronics Recycling GmbH in Lustadt (Waldstraße 130, 67363) ist ein **anderes** Unternehmen mit anderer Rechtsform und anderer Tätigkeit (Elektro-/E-Schrottaufbereitung, Umweltinspektionsberichte der SGD Süd 2021) und gehört nicht zu diesem Eintrag. Quelle(n): https://www.rheinpfalz.de/lokal/kreis-germersheim_artikel,-alba-macht-hoffmann-platz-_arid,1438041.html + https://metall.alba.info/unternehmen/standorte + https://schrottregister.pages.dev/ort-germersheim + https://schrottregister.pages.dev/betrieb-hoffmann-schrott-und-metallhandel-e-k-germersheim + https://www.hoffmann-schrott.de/ (Abruf 29.10.2026)]
 - [Recherche 29.10.2026: **Frontmatter-Korrektur mit Beleg.** status pruefung → geschlossen (Beleg: Betreiber-Aussage zur Räumung des Standorts + amtlicher Registerabzug ohne ALBA-Betrieb in Germersheim + ALBA-Standortliste ohne Germersheim). trader_type sonstige → metallhaendler (die Einrichtung war ein Metall-Recycling-Standort). street „Im Weidenschlag 1“ → „Im Weidenschlag“: die Hausnummer 1 ist **weder im amtlichen Registerabzug** (dort „Im Weidenschlag -“) **noch in einer Betreiberquelle** belegt; OSM führt in 76726 nur die Straße (way 24046397 und way 274394692 mit `highway=service`, `name=Im Weidenschlag`, `surface=asphalt` — **keine** `addr:*`-Tags) ohne Adressknoten mit Hausnummer — die Straße ist also erfasst, die Hausnummer 1 nicht. `clear_fields: 'email,geo'`: die bisherige `info@albagroup.de` ist eine ALBA-Konzernadresse (Konzern-Impressum ALBA plc & Co. KG, HRA 36525 B Berlin), nie eine belegte Filialadresse dieses Standorts, und wird zurückgenommen; der gespeicherte GEO-Punkt 49.2231/8.3639 löst rückwärts auf „K 31, 76726 Germersheim“ (Straßenpunkt, rund 1,4 km vom Standort Im Weidenschlag) und ist für diesen Eintrag nicht tragfähig — er wird zurückgenommen, ohne Ersatzpunkt, weil für die Nummer 1 keine zweite unabhängige Quelle existiert. phone bleibt leer: die von Aggregatoren dem ALBA-Eintrag zugeordnete Nummer 07274/2757 ist die Nummer des Nachfolgers (hoffmann-schrott.de Jobs-Seite und Footer, Dossier rp-germersheim-hoffmann-schrott-metallhandel) und wird nicht als ALBA-Kontakt geführt. Nachfolgebetrieb im Dossier rp-germersheim-hoffmann-schrott-metallhandel separat dokumentiert, keine Zusammenführung. ANKAUF/VERKAUF/GEBÜHREN: für die frühere ALBA-Filiale keine bezifferten Preise, keine Preisliste, keine Gebührenordnung belegt. Quelle(n): https://schrottregister.pages.dev/ort-germersheim + https://metall.alba.info/unternehmen/standorte + https://www.openstreetmap.org/way/24046397 + https://www.openstreetmap.org/way/274394692 + https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=49.2231&lon=8.3639&addressdetails=1 (Abruf 29.10.2026)]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Zeile dokumentiert einen
+  **ehemaligen** Standort (`status` = **geschlossen**), und die **Hausnummer 1** findet sich in OSM **nicht**; die
+  Straße **Im Weidenschlag** ist dort zwar kartiert, aber **ohne jedes Adressobjekt** - ein Punkt wäre geraten.
+  **Was geprüft wurde (live am 03.11.2026):** (a) Beide Straßenobjekte wurden live neu geladen und **bestätigt**:
+  **way/24046397** und **way/274394692** tragen jeweils **ausschließlich** `highway`=service, `name`=**Im
+  Weidenschlag** und `surface`=asphalt - **weder** `addr:housenumber` **noch** `addr:street` **noch** `addr:postcode`
+  **noch** `operator=`; der Vermerk vom 29.10.2026 zu diesen beiden Ways ist damit **unverändert bestätigt**. Die
+  Objekt-BBoxes sind 49.2358907/8.3667913 bis 49.2358981/8.3668768 (way/24046397) und
+  49.2356394/8.3668768 bis 49.2368319/8.3692630 (way/274394692). (b) Das Kachelraster über
+  **bbox=8.3300,49.2150,8.3900,49.2500** (live abgerufen 03.11.2026) weist auf der Straße **Im Weidenschlag**
+  **0 Objekte** mit `addr:street`=Im Weidenschlag aus - die Straße trägt im gesamten Raster **kein einziges**
+  Adressobjekt, die **Hausnummer 1 ist damit in OSM nicht belegt**. (c) Eine Suche über **alle** Tag-Werte nach
+  „Hoffmann“, „ALBA“ oder einem Schrottbetrieb im Raster liefert **kein** Objekt mit Betriebsbezug; der einzige
+  `name=`-Treffer zum Nachnamen ist der **unrelated** Straßennamen **„Erwin-Hoffmann-Weg“** (way/35013555, mit dem
+  `note` „Name ‚Erwin-Hoffmann-Weg‘ seit 2010, vorher namenlos, damals einziges Gebäude mit Adresse Schillerstraße,
+  jetzt unbekannt.“ - ein **anderer** Betrieb/Straße in Germersheim). **Quelle 1 (Betreiber/Register/Presse):** die im
+  Dossier dokumentierte **Betreiber-Aussage** - die **RHEINPFALZ** vom 02.05.2019 („Alba macht Hoffmann Platz“, live
+  abgerufen 03.11.2026, https://www.rheinpfalz.de/lokal/kreis-germersheim_artikel,-alba-macht-hoffmann-platz-_arid,1438041.html)
+  mit ALBA-Metall-Süd-Kommunikationsleiter **Henning Krumrey** zur Räumung des Schrottplatzes im Germersheimer
+  Industriegebiet und der Bestätigung **Patrick Hoffmanns**; der **amtliche Registerabzug** (Fachbetrieberegister
+  GESA + Register der Entsorgungsfachbetriebe, Abrufstand 11.08.2026, im Dossier zitiert) führt für Germersheim/76726
+  genau zwei Betriebe, darunter **Hoffmann Schrott und Metallhandel e.K., „Im Weidenschlag“, ZZFT01300051** - **kein
+  ALBA-Betrieb**; die **Betreiberseite hoffmann-schrott.de** nennt „Im Weidenschlag, 76726 Germersheim“ (im Dossier
+  zitiert) und ist der **Nachfolger** mit eigenem Dossier. **Quelle 2 (OSM):** way/24046397 und way/274394692 (live
+  geladen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/24046397/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/274394692/full.json) sowie das Kachelraster. **Was fehlt:** ein OSM-Objekt
+  mit `addr:street`=Im Weidenschlag **und** `addr:housenumber`=1 (oder ein benanntes ALBA-Betriebsobjekt) - die
+  **Hausnummer 1** stammt aus dem Seed und ist **nicht** in einer Register- oder Betreiberquelle belegt; der
+  Nachfolger **Hoffmann** hat ein **eigenes** Dossier, und seine Fläche wird **nicht** hier übernommen. `status`
+  bleibt **geschlossen**, `street` bleibt „Im Weidenschlag“ **ohne** Hausnummer, `clear_fields: 'email,geo'` bleibt
+  bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/24046397/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/274394692/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3300,49.2150,8.3900,49.2500 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.rheinpfalz.de/lokal/kreis-germersheim_artikel,-alba-macht-hoffmann-platz-_arid,1438041.html
+  (live abgerufen 03.11.2026).]

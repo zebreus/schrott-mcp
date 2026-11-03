@@ -43,3 +43,32 @@ Die aktuelle PR-Recycling-Seite nennt Sandro Roggendorf und Am Siegborn 336, 353
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Die aktuell abrufbare Betreiber-Website https://pr-recycling.de/ sowie ihr Impressum identifizieren Sandro Roggendorf / PR-Recycling am Siegborn 336, 35396 Gießen. Die geprüften Seiten nennen Stolzenmorgen 62 nicht; die zweite PR-Dossieradresse Am Siegborn 336 ist deshalb nur ein Identitäts-/Dublettenhinweis und wird nicht hierher übertragen. Eine veröffentlichte €/kg-Ankaufpreisliste gibt es auf der Betreiberseite nicht (nur Tagespreise auf Anfrage); Verkaufspreise für Material und sichere standortbezogene Gebühren sind nicht ausgewiesen. Wegen unbewiesener Standortzuordnung keine Frontmatter-Füllung, keine Geokodierung und kein Merge; Status pruefung bleibt. Offen: ob Stolzenmorgen 62 jemals ein PR-Betriebssitz oder bloß ein fehlerhafter Seed-Ort war. Quelle(n): https://pr-recycling.de/; https://pr-recycling.de/impressum; https://pr-recycling.de/leistungen/schrotthandel]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **80-82** auf der
+  "Stolzenmorgen" in Gießen existiert in OSM **nicht**: das am 03.11.2026 live abgefragte Kachelraster ueber den
+  Strassenverlauf (Rasterfenster 8.6900/50.5850 bis 8.7450/50.6200, 0,01-Grad-Kacheln ueber
+  `scripts/release/osm_street_scan.py`, 24 Kacheln, 0 Fehler) weist auf der "Stolzenmorgen" in der Postleitzahl
+  35394 **51 Adressobjekte** mit **28 verschiedenen Hausnummern** aus (9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+  21, 22, 23, 24, 24 A, 25, 26, 27, 30, 31, 32, 33, 34, 36, 68, 76, 86) - die Nummern **80, 80-82** und auch die
+  Seed-Nummer **62** fehlen; zwischen der Nummer 76 (way/1083438936, `name=BHKW`,
+  `operator=Stadtwerke Gießen`, Punktlage 50.5988408/8.7350989) und der Nummer 86 (way/103336125,
+  Punktlage 50.6012206/8.7385311)
+  liegt kein Adressobjekt. Die Strasse selbst ist in OSM durch viele Ways kartiert (u. a. way/88129305,
+  way/472145380, way/511006088, way/1386654890), eine Objektbenennung zu "Klajo", "Schrott", "Metallhandel" oder
+  "Containerdienst" existiert im Raster **nicht** - die Treffer zu `amenity=recycling` sind ausschliesslich
+  kommunale Wertstoffcontainer. Quelle 1 (Betreiber, im Dossier bereits zitiert und am 03.11.2026 erneut live
+  gelesen): das Impressum https://klajo-recycling-giessen.de/impressum nennt woertlich "Schrotthandel
+  Gießen - Klajo Recycling / Klaus Jochum / Stolzenmorgen 80-82 / 35394 Giessen / Deutschland / 0173 81 69 022 /
+  0641 6869 1390 / Email: info@klajo-recycling-giessen.de"; die Schrotthandelsseite bewirbt Schrott- und
+  Altmetallankauf zu Tagespreisen, Containerstellung und Containerdienst. Quelle 2 (OSM): das Kachelraster und
+  die genannten Objekte (live, oben); **ohne** Adressobjekt fuer die Dossier-Hausnummer kann kein Punkt gebildet
+  werden, und ein Nachbarobjekt (etwa die Nummer 76 oder 86) waere ein geratenes Nachbargrundstueck. Es wird
+  **keine** Koordinate erfunden. `status` bleibt `aktiv`; die Seed-Ortsangabe "Stolzenmorgen 62" ist durch
+  den Betreiber (80-82) ueberholt und in der Dossierhistorie dokumentiert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/1083438936/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/103336125/full.json ;
+  `scripts/release/osm_street_scan.py` (Kachelraster) ;
+  https://klajo-recycling-giessen.de/impressum ; https://klajo-recycling-giessen.de/schrott/ ;
+  https://klajo-recycling-giessen.de/containerdienst (Abruf 03.11.2026)]

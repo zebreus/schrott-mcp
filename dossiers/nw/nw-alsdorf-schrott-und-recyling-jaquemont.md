@@ -66,3 +66,48 @@ Der Adresskonflikt ist größer geworden: Neben Buschhofer Weg 2 (Gelbe Seiten) 
 
 - [Recherche 01.11.2026: Kein amtlicher Zertifikatsnachweis gefunden — `certifications` bleibt **leer**. Abfrage des amtlichen Fachbetrieberegisters am 01.11.2026: (1) **Namenssuche** „Jaquemont“ und „Jaquemot“ (Umschrift) im Register „Entsorgungsfachbetriebe“ → jeweils **0 Treffer gefunden**; (2) **Standortsuche** um 52477 Alsdorf, Umkreis 2 km, Register „Entsorgungsfachbetriebe“ → **1 Treffer gefunden**: „Franz Plum GmbH & Co. KG“, Carl-Zeiss-Str. 9, 52477 Alsdorf, ZZEE00300009 / 1 (Sammeln, Befördern), 0,0 km — **anderer Rechtsträger**, kein Jaquemont-Eintrag; (3) dieselbe Standortsuche im Register „Altfahrzeugverwertung“ → **0 Treffer gefunden**. Das stützt den am 29.10.2026 dokumentierten Negativbefund über den Registerspiegel (SchrottRegister, Abrufstand 11.08.2026: in 52477 Alsdorf genau ein Betrieb, Eintrag „Zentrale und Logistik“, Werner-von-Siemens-Str. 21; weder „Jaquemot“/„Jaquemont“ existiert im gesamten Spiegel mit 4.507 Betrieben, noch sind Buschhofer Weg 2, Grenzweg 25 oder Uebacher Weg 25 Registeradressen). **Reichweite der Negativaussage:** Die Efb- und Anlagenerkennung ist freiwillig; ihr Fehlen ist ein Hinweis ohne Beweiswert und belegt weder eine Nichtzertifizierung noch eine Schließung. Umfang: beide Register, Namens- und Standortsuche. `status` bleibt unverändert `pruefung`. Keine Preise, Gebühren oder Ankaufsbedingungen aus dieser Recherche abgeleitet.]
 - [Recherche 01.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Jaquemont ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=52477%20Alsdorf,%20Deutschland;6.1861;50.8720;6.1861;50.8720;6.1861;50.8720&dst=2&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=52477%20Alsdorf,%20Deutschland;6.1861;50.8720;6.1861;50.8720;6.1861;50.8720&dst=2&is=1&e=1 ; https://schrottregister.pages.dev/ort-alsdorf]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Der Seed hat **drei** widersprüchliche
+  Adresskandidaten mit derselben Mobilnummer, und **keiner** von ihnen ist als Betriebsadresse belegt. Das am
+  03.11.2026 nachgeladene Kachelraster über den Alsdorfer Stadtbereich einschließlich Busch und Kellersberg
+  (6.1600/50.8600 bis 6.1800/50.8900, **16 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) prüft alle drei Kandidaten: **(a) Buschhofer Weg
+  2** existiert in OSM als **node/4457640357** (`addr:housenumber`=2, `addr:street`=Buschhofer Weg, `addr:city`=Alsdorf,
+  `addr:postcode`=52477; Punktlage **50.8820753/6.1341316**) **ohne** jeden `name`- oder `operator`-Tag;
+  **(b) Grenzweg 25** existiert als **way/315804073** (`addr:housenumber`=25, `addr:street`=Grenzweg,
+  `addr:city`=Alsdorf, `addr:postcode`=52477, `building`=yes; Mittel der **6** eindeutigen Knoten
+  **50.8713925/6.1623088**, BBox 50.8713493/6.1622368 bis 50.8714303/6.1623764) ebenfalls **ohne** Betriebsbezug - die
+  Nachbarobjekte tragen **andere** Betriebe (Nummer 82: Penny, `shop`=supermarket; Nummern 84-86: Fitness Factory
+  Alsdorf); **(c) Uebacher Weg 25** existiert in OSM **nicht** - im gesamten Raster gibt es **keine** Straße
+  „Uebacher Weg“, und eine Suche nach der Hausnummer 25 in Verbindung damit findet **keinen** Treffer. Die Straße
+  „Grenzweg“ trägt in diesem Raster **66** verschiedene Hausnummern (1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 15, 16, 17, 18,
+  19, 19a, 19b, 20, 21, 22, 23, 23a, 24, **25**, 26, 27, 28, 29, 29a, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
+  46, 48, 50, 52, 54, 56, 58, 65, 67, 69, 71, 73, 75, 77, 79, 82, 84, 84-86, 86, 17a). Quelle 1 (Verzeichnis/Register):
+  die Gelbe-Seiten-Detailseite https://www.gelbeseiten.de/gsbiz/8b0f0318-2737-491b-92ee-08494dcdae5b nennt
+  **„Jaquemot Bastian Schrott & Reycling“, Buschhofer Weg 2, 52477 Alsdorf-Busch**, Telefon **0176 30 32 94 35**, mit den
+  Leistungen Containerdienst, Entrümpelungen und Recycling sowie täglich 08:00–18:00; das Schrottplatz-Info-Profil
+  https://www.schrottplatz-info.de/schrottplatz/Alsdorf/Jaquemot-Bastian-Schrott-und-Reycling nennt dieselbe Nummer,
+  aber **Grenzweg 25**; der dritte Verzeichniseintrag „Schrott & Recycling Jaquemot“ (11880, Branchen Abbrucharbeiten,
+  Containerdienst und Renovierungsarbeiten) nennt **Uebacher Weg 25, 52477 Alsdorf** - dieselbe Mobilnummer, eine
+  **dritte** Straße. Die verlinkte Domain `bastianjaquemot.de.to` liefert **HTTP 404**. Das amtliche Fachbetrieberegister
+  führt in Alsdorf **nur** „Franz Plum GmbH & Co. KG“, Carl-Zeiss-Str. 9 (0,0 km) und **keinen** Eintrag „Jaquemont“ oder
+  „Jaquemot“ - ebenso wenig in „Altfahrzeugverwertung“ (0 Treffer). Quelle 2 (OSM): das Kachelraster sowie
+  node/4457640357 und way/315804073 (live geladen am 03.11.2026, HTTP 200). **Warum keine Koordinate:** Der Adresskonflikt
+  ist ungelöst - **drei** Straßen mit derselben Mobilnummer, davon eine in OSM gar nicht vorhanden - und **keines** der
+  beiden existierenden Objekte trägt einen Betriebsbezug zum Seed; jede Auswahl einer der beiden wäre eine unbelegte
+  Vermutung, und die im Dossier ausdrücklich zurückgewiesene Geokodierung einer der drei Adressen bleibt damit
+  begründet. **Was zur Auflösung fehlt:** ein Betreiberauftritt, ein Impressum oder ein Registereintrag, der
+  **eine** der drei Anschriften bestätigt und den Firmennamen (Jaquemot oder Jaquemont) klärt. Der bisher gespeicherte
+  Produktionspunkt 50.5141333333333/6.83926666666667 (laut read-only-Abgleich vom 29.10.2026 auf „Beobachtungsplatz
+  Hirschbrunft, Frankenstrasse, Mutscheid, Bad Muenstereifel“ aufgelöst, rund 64 km entfernt) wird durch diese Notiz
+  **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben
+  unverändert; eine Schließung wird **nicht** behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.1600,50.8600,6.1800,50.8900 ;
+  https://api.openstreetmap.org/api/0.6/node/4457640357.json ;
+  https://api.openstreetmap.org/api/0.6/way/315804073/full.json ;
+  https://www.gelbeseiten.de/gsbiz/8b0f0318-2737-491b-92ee-08494dcdae5b ;
+  https://www.schrottplatz-info.de/schrottplatz/Alsdorf/Jaquemot-Bastian-Schrott-und-Reycling ;
+  https://www.11880.com/suche/schrott/alsdorf ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Jaquemont
+  (Abruf 03.11.2026).]

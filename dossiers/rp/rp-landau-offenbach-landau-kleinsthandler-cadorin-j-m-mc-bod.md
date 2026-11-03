@@ -56,3 +56,34 @@ Historischer Sammel-Seed für mehrere nicht unabhängig zugeordnete Kleinbetrieb
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Die gezielte Betreiber-/Namenssuche ergab nur nicht hinreichend verknüpfte Verzeichnis-Leads, keine belastbare Betreiberseite oder zweite unabhängige Identitätsquelle. 11880 führt u. a. J. Cadorin mit „An den Lerchenwiesen 0“ (keine verifizierbare Hausnummer), Martin Koch/Elke an Queichheimer Hauptstr. 239 und Durmaz Tankservice/Trenntechnik in Landau; die Durmaz-Zuordnung kollidiert mit dem Offenbach-Seed. Bodenstein erscheint dort als Entrümpelung, für Engel kein passender lokaler Schrotthandelsbeleg und Benkler nur ortsfremd. Diese Lead-Treffer belegen keine Zugehörigkeit der Personen zum Sammeldossier und rechtfertigen weder Merge noch Adresse/Kontakt. Keine Betreiberwebsite identifiziert (website_status unbekannt); Status pruefung und übrige Felder unverändert. Quelle(n): https://www.11880.com/suche/schrotthandel/landau-in-der-pfalz; https://www.11880.com/suche/cadorin/landau-in-der-pfalz; https://www.11880.com/suche/bodenstein/landau-in-der-pfalz; https://www.11880.com/suche/engel/landau-in-der-pfalz; https://www.11880.com/suche/benkler/landau-in-der-pfalz; https://www.11880.com/suche/koch/landau-in-der-pfalz; https://www.11880.com/suche/durmaz/landau-in-der-pfalz]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Diese Zeile ist ein **Sammel-Seed über
+  mehrere nicht zugeordnete Kleinbetriebe** (Cadorin J./M., MC, Bodenstein, Engel A./R., Benkler, Koch M.+E., Durmaz);
+  für **keinen** davon ist eine Betreiber- oder Registerquelle im Dossier belegt, und der Dossier hält selbst fest,
+  dass **kein** Kontakt stellvertretend für den Sammeldatensatz eingetragen werden darf - ein Punkt wäre eine
+  Festlegung ohne Beleg. **Was geprüft wurde (live am 03.11.2026):** (a) Die im Dossier genannten Adress Leads wurden
+  im OSM nachgeschlagen (Kachelraster über **bbox=8.0900,49.1800,8.1500,49.2150**, live abgerufen 03.11.2026):
+  **Cornichonstraße 13a** existiert dort **nicht** - die Straße trägt die Nummern 10, 10 a, 10 b, 11, 12, 12a, 12b, 12c,
+  12d, **13**, 14, 15, 16, 16a u. a.; **Sudetenstraße 4** ist zwar belegt (die Nummern der Straße sind 1 bis 40 mit
+  Lücken), und **An den Lerchenwiesen** (Landau, 76829) trägt die Nummern **6**, **20** u. a. - die im Portal
+  genannte Nummer **0** existiert dort **nicht** und ist damit **keine** geokodierbare Geschäftsadresse. (b) Eine
+  Suche über **alle** Tag-Werte nach „cadorin“, „bodenstein“, „engel“, „benkler“, „koch“ bzw. einem Schrott-/Metallbetrieb
+  im Raster liefert **0 Objekte**, die einen der genannten Betriebe benennen. (c) Die im Dossier dokumentierte
+  **Namensvetter-Lage** bleibt unverändert: „Schrott und Metallhandel J. Cadorin“ wird im Portal mit „**An den
+  Lerchenwiesen 0, 76829 Landau**“ geführt, „Jeffrey Cadorin“ bei 11880/Gelbe Seiten mit „**Cornichonstr. 13a**“ und
+  „Heiner Bodenstein“ mit „**Sudetenstr. 4**“ - das sind **widersprüchliche** Adressen zu ein und derselben Person, und
+  die Recherche vom 08.10.2026 hat zudem festgehalten, dass „An den Lerchenwiesen“ **nicht** als Umzug oder
+  Gleicherstellung gedeutet werden darf. **Quelle 1 (Verzeichnis):** die im Dossier zitierten
+  Verzeichnis-Einträge (11880, Gelbe Seiten, GoLocal, Schrottplatz-Info, Das Örtliche) - sämtlich **Leads**, keine
+  Betreiber- oder Registerbelege; für **keinen** der sieben genannten Namen existiert ein Betriebsauftritt, ein
+  Impressum oder ein Registereintrag. **Quelle 2 (OSM):** die Adressobjekte der Cornichonstraße, Sudetenstraße und
+  An den Lerchenwiesen (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0900,49.1800,8.1500,49.2150). **Was fehlt:** die
+  **Zuordnung eines konkreten Betriebs zu einer konkreten Anschrift** - die Zeile ist ein Sammeldatensatz und
+  zurückhaltend aufzuteilen; eine **Aufteilung in stabile Einzeldossiers** ist laut Dossier eine **Owner-Entscheidung**
+  und wird hier **nicht** vorgenommen. `status` bleibt **pruefung**, `street`/`postcode` bleiben leer,
+  `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0900,49.1800,8.1500,49.2150 (Kachelraster, live abgerufen
+  03.11.2026) ; Recherche-Vermerke vom 08.10., 16.10. und 23.10.2026 im Dossier.]

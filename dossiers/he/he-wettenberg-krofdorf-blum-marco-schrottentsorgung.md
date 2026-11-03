@@ -61,3 +61,30 @@ Der bisherige Lead „Marco Blum, Höhenstraße 27A, Wettenberg“ passt zu Pers
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Betreiberseite und Impressum direkt gelesen: Marco Blum / Julias Container, Höhenstraße 27a, 35435 Wettenberg, 0641 49815208, info@julias-container.de. Der offizielle Auftritt verlinkt Facebook/Instagram-Profile von Julias Container; das Facebook-Profil zeigt einen Beitrag vom 08.05.2026. Die exakte Namens-/Adressübereinstimmung löst den bisherigen Lead zu Marco Blum auf; daher Name, Betreiberart, bestätigte Geschäftsanschrift/Kontakt/Website und Aktivität eingetragen. Das ist kein Nachweis eines Metallankaufs oder öffentlichen Schrottannahmehofs; `provenance_ankauf_raw` bleibt unklar. ANKAUF: keine Schrottkurse/kein Ankauf beworben. VERKAUF: Schotter, Sand, Erde, Rindenmulch nur auf Anfrage. GEBÜHREN: Containergrößen 1,0/3,0/3,5/4,0/5,5/7,0/10,0 m³ kosten 349/549/599/649/799/949/1.249 EUR Festpreis inkl. MwSt. für Stellung, Entsorgung und bis zu 8 Wochen Standzeit; Seite nennt keine Sortenstaffel. GEO: Betreiberadresse bestätigt, jedoch Hof-/Publikumsannahme unklar; erst Standortart klären, dann Adresse/Punkt geocodieren. Quelle: https://www.julias-container.de/; https://www.julias-container.de/impressum; https://www.julias-container.de/datenschutz; https://www.facebook.com/profile.php?id=100072551570861; https://www.instagram.com/julias_containerdienst/; https://www.gelbeseiten.de/gsbiz/47c92c9c-a16b-49fb-9aa1-734bc8ca8cc0]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Adressangabe "Höhenstraße 27A, 35435 Wettenberg" ist in OSM als `way/426220375` erfasst (`addr:housenumber`=27 A,
+  `addr:street`=Höhenstraße, `addr:city`=Wettenberg, `addr:postcode`=35435, `addr:suburb`=Krofdorf-Gleiberg,
+  `building`=yes; live geladen am 03.11.2026, HTTP 200, 4 eindeutige Knoten, BBox 8.6416760/50.6164380 bis
+  8.6420520/50.6165976, Mittelwert der eindeutigen Knoten 50.6165178/8.6418640). Das Objekt traegt **weder**
+  `name` **noch** `operator` und benennt **weder** einen Betreiber **noch** eine Schrottannahmestelle; das
+  zweite Adressobjekt desselben Orts, `way/441823326` (`addr:housenumber`=10, `addr:street`=Auf dem Falkenberg,
+  `addr:postcode`=35435, `building`=house, 8 Knoten, BBox 8.6490819/50.6167685 bis 8.6493924/50.6170117) ist
+  ein Wohnhaus und loest zugleich den alten Produktionspunkt 50.6167/8.65 auf - es ist **nicht** die
+  Adresslage des Dossiers. Quelle 1 (Betreiber/Register): **fehlt fuer den Seedbetrieb** - der Lead
+  "Marco Blum, Höhenstraße 27A, Wettenberg" passt zu Person und Adresse im Impressum von **Julias
+  Container** (live gelesen am 22.10.2026: Marco Blum, Höhenstraße 27a, 35435 Wettenberg, Telefon
+  0641 49815208, Containerstellung und Entsorgung), diese Firma ist aber **kein bestaetigter
+  Metallankufer und kein Annahmehof** und nicht abschliessend mit dem Seedbetrieb "Schrottentsorgung"
+  abgeglichen; der Creditreform-Direktabruf (firmeneintrag.creditreform.de/35435/6110597532/MARCO_BLUM_ENTSORGUNGSTEAM)
+  bleibt gesperrt (HTTP 403), der unvollstaendige unabhaengige Identitaets- und Feldabgleich fehlt. Quelle 2
+  (OSM): way/426220375 und way/441823326 (live, oben). Der gespeicherte Altpunkt 50.6167/8.65 wird mit
+  `clear_fields: 'geo'` ohnehin zurueckgenommen. Es wird **keine** Koordinate erfunden; `status` bleibt
+  `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/426220375/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/441823326/full.json ;
+  https://www.julias-container.de/ ; https://www.julias-container.de/impressum ;
+  https://firmeneintrag.creditreform.de/35435/6110597532/MARCO_BLUM_ENTSORGUNGSTEAM (HTTP 403) ;
+  read-only `public.db` (Abruf 03.11.2026)]

@@ -43,3 +43,34 @@ Der Betreiberauftritt asm-recycling.de ist erreichbar und nennt weiterhin **An d
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: Der Betreiberauftritt wurde am 29.10.2026 erneut geprueft. Die Kontaktseite asm-recycling.de/kontakt nennt unveraendert "ADRESSE: An der Wienbecke 30, 46284 Dorsten, Telefon 015771546610, E-Mail info@asm-recycling.de" sowie den WhatsApp-Anschluss 015771546610; die Impressum-Adresse https://asm-recycling.de/impressum liefert weiterhin HTTP 404, ein Rechtstraeger, eine HRB-Nummer und eine Handelsform sind damit nicht belegt. Der aus der Recherche vom 10.10.2026 bekannte Nummernkonflikt besteht fort: sichtbar steht 015771546610, die tel-Links der Seite fuehren dagegen zu +49 2362 7876971. NEU ist eine dritte Adress- und Nummernvariante: das Verzeichnis Yelp fuehrt "ASM RECYCLING, Updated September 2026" mit "Wenger Hoefe 13, 46284 Dorsten" und 02566 5619969. Damit liegen drei abweichende Anschriften oder Nummern vor (An der Wienbecke 30 mit 015771546610, An der Wienbecke 30 mit +49 2362 7876971, Wenger Hoefe 13 mit 02566 5619969); die Zuordnung des Rueckgabewerts zu einem Ort ist damit offen und es wurde keine Koordinate gesetzt. OSM live geprueft: das Strassenraster ueber den gesamten Verlauf der An der Wienbecke enthaelt 23 Objekte mit addr:street und 17 verschiedene Hausnummern (6, 12, 15, 48, 51, 52, 56, 57, 58, 59, 63, 64, 65, 75, 75-77, 85, 86); die Hausnummer 30 ist NICHT als addr:housenumber erfasst. Die Bereichsangabe "75 - 77" wurde einzeln aufgeloest: die Nummer 75 existiert zusaetzlich als node/8567052626, die Nummern 76 und 77 sind NICHT separat erfasst. Die Objekte tragen ausschliesslich Adress-Tags, keinen Name-, operator- oder Gewerbe-Tag. Der Registerabzug aus Fachbetrieberegister und Register der Entsorgungsfachbetriebe fuehrt fuer Dorsten 5 Betriebe (Humbert GmbH, Wienbachstr. 14-22; James Okpowe, An der Glashuette 17; Kommunaler Servicebetrieb Dorsten, An der Wienbecke 15; REMONDIS PMR GmbH Niederlassung Dorsten, Gottlieb-Daimler-Straße 33; Reifen Deike, Langobardenring 24) und kein ASM Recycling (Stand 11.08.2026); der kommunale Betrieb An der Wienbecke 15 und die Humbert Baustoff-Recycling an der An der Wienbecke 64 sind andere Betriebe. Namensvetter: die El-Lahib-Spuren (Waeil El-Lahib und Aeemad-Hussein-El-Lahib laut Owner-Gate vom 09.10.2026) passen zu der im Coesfelder Dossier belegten El-Lahib-Familie (A. Lahib, Mahmoud El-Lahib, Issam EL-Lahib), ein gemeinsamer Rechtstraeger oder eine Zweigstelle ist damit nicht belegt und es wurde nichts zusammengefuehrt. ANKAUF: Metall- und Schrottannahme sowie Einkauf werden beworben, keine Preise und keine Preisliste belegt; VERKAUF: Warenannahme und Verkauf werden dem Mitarbeiter Waeil El-Lahib zugeordnet, ohne Preise; GEBUEHREN: keine Gebuehrenangaben, Containerdienst und Autoverwertung werden ohne Tarife beworben. Quellen: https://asm-recycling.de/kontakt ; https://asm-recycling.de/impressum ; https://www.yelp.com/biz/asm-recycling-dorsten ; https://api.openstreetmap.org/api/0.6/node/8567052626.json ; https://schrottregister.pages.dev/ort-dorsten ; https://schrottregister.pages.dev/land-nordrhein-westfalen]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **30** existiert auf der
+  **„An der Wienbecke“** in OSM **nicht**: das am 03.11.2026 nachgeladene Kachelraster über den Straßenverlauf
+  (6.9600/51.6700 bis 6.9900/51.7000, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst die Straße in **46284
+  Dorsten** mit **19 verschiedenen Hausnummern** (6, 12, 15, 48, 51, 52, 56, 57, 58, 59, 63, 64, 65, 75, 75 - 77, 85, 86, 152,
+  171) - die **Nummer 30 fehlt**, und eine Suche nach der Hausnummer 30 in Verbindung mit „An der Wienbecke“
+  findet **keinen** Treffer. Das bestätigt den am 29.10.2026 dokumentierten Befund (dort 23 Objekte mit 17 verschiedenen
+  Hausnummern; das jetzt erweiterte Raster erfasst zusätzlich die Nummern 146, 148, 152 und 171). Quelle 1 (Betreiber):
+  die Kontaktseite https://asm-recycling.de/kontakt nennt unverändert **„ADRESSE: An der Wienbecke 30, 46284 Dorsten“**,
+  Telefon 015771546610 (WhatsApp) und die E-Mail info@asm-recycling.de, und das Impressum
+  https://asm-recycling.de/impressum liefert weiterhin **HTTP 404** - ein **Rechtsträger ist damit nicht belegt**;
+  die sichtbare Telefonnummer weicht zudem von der Zielnummer der Telefon-Links (**+49 2362 7876971**) ab. Ein
+  **dritter** Adress- und Nummervarianten-Eintrag führt das Verzeichnis Yelp zu **„Wenger Hoefe 13, 46284 Dorsten“** mit
+  02566 5619969 - eine **andere** Anschrift desselben Namens. Quelle 2 (OSM): das Kachelraster sowie die gefundenen
+  Adressobjekte der An der Wienbecke (live geladen am 03.11.2026, HTTP 200); ein Objekt mit Betriebsbezug zu „ASM
+  Recycling“ existiert dort **nicht**. **Warum keine Koordinate:** Die Hausnummer 30 ist in OSM **nicht abbildbar**,
+  und es liegen **drei** abweichende Adress-/Nummernvarianten vor (An der Wienbecke 30 mit 015771546610, An der Wienbecke
+  30 mit +49 2362 7876971, Wenger Hoefe 13 mit 02566 5619969) - jeder Punkt wäre die Behauptung einer Lage, die keine
+  Quelle trägt; die im Dossier genannten Nachbaradressen (An der Glashuette 17, An der Wienbecke 15, die An der
+  Wienbecke 64 der Humbert Baustoff-Recycling sowie der kommunale Betrieb An der Wienbecke 15) sind **andere** Betriebe.
+  **Was zur Auflösung fehlt:** ein erreichbares Impressum mit Rechtsträger und eindeutiger Anschrift - oder eine
+  Kartierung der **An der Wienbecke 30** in OSM; die Adressvarianten müssen zu **einer** Anschrift zusammengeführt
+  werden. Der bisher gespeicherte Produktionspunkt 51.450284375/7.015053125 (laut read-only-Abgleich vom 27.10.2026 die
+  Fernbus-Spur „Freiheit“ am Essener Hauptbahnhof) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen.
+  `status: pruefung` und alle übrigen Felder bleiben unverändert; eine Schließung wird **nicht** behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9600,51.6700,6.9900,51.7000 ;
+  https://asm-recycling.de/kontakt ; https://asm-recycling.de/impressum ;
+  https://www.yelp.com/biz/asm-recycling-dorsten ;
+  https://schrottregister.pages.dev/ort-dorsten (Abruf 03.11.2026).]

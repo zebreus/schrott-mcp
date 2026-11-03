@@ -1,5 +1,7 @@
 ---
 slug: nw-doerentrup-limekon
+lat: 52.0062016
+lon: 9.0607847
 name: Limekon GmbH
 trader_type: metallhaendler
 state: NW
@@ -65,3 +67,28 @@ Die Preisliste vom 31.10.2026 zeigt Ankauf-Richtpreise, keinen Warenverkauf und 
 
 - [Recherche 30.10.2026: **OSM-Abgleich der Betriebsadresse — der Rechtsträger ist als `operator` erfasst, die Hausnummer ist geteilt.** Im Rasterfenster **9.0482986/52.0030899 bis 9.0645928/52.0162783** liegen auf der **Bahnhofstraße** **62 Adressobjekte / 58 verschiedene Hausnummern**. Die **Hausnummer 23 existiert** als **node/10922127059** mit `addr:housenumber=23`, `addr:street=Bahnhofstraße`, `addr:city=Dörentrup`, `addr:postcode=32694`, `addr:suburb=Bega`, `name=Limekon`, `operator=Limekon GmbH`, `office=company`, `contact:phone=+49 5263 9561906`, `contact:fax=+49 5263 9578700`, `contact:website=https://limekon.de/`. Die Telefonnummer und die Domain stimmen mit dem Betreiber-Impressum überein; die **Faxnummer** ist über OSM belegt. Auf derselben Hausnummer liegen zusätzlich **node/10922131939** mit `amenity=place_of_worship`, `name=HomePoint Church`, `contact:email=homepoint.church@gmail.com`, `contact:website=https://homepoint.church/`, `fixme=Bitte Positionierung überprüfen` sowie **way/370758673** mit `building=yes`, `building:levels=2`, `height=12.6`, `source:building=OpenData Land Nordrhein-Westfalen - Hausumringe` — die Anschrift ist also auch für eine Glaubensgemeinschaft und ein Gebäudekörper hinterlegt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster, Abruf 30.10.2026); https://api.openstreetmap.org/api/0.6/node/10922127059.json]
 - [Recherche 30.10.2026: **Geokodierungsbedarf:** die Produktion führt für diesen Händler bisher **keine** Koordinate (lat/lon leer). Die Betriebsadresse **Bahnhofstr. 23, 32694 Dörentrup** ist durch das oben genannte OSM-Raster belegt (node/10922127059 mit `name=Limekon`, `operator=Limekon GmbH` und der Betreiber-Telefonnummer); eine belegte Geokodierung steht aus — es wurde **keine** Koordinate selbst gesetzt. Quelle(n): read-only `/var/lib/schrott-mcp/public.db` (Abruf 30.10.2026); https://api.openstreetmap.org/api/0.6/node/10922127059.json ; docs/trader-seed.md, GEO-Vertrag]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.0062016/9.0607847** (Mittel der **1** eindeutigen
+  Knoten-Koordinate von node/10922127059; bei einem Node-Objekt ist die Objekt-BBox mit dem Punkt identisch, der Punkt
+  liegt also **innerhalb der Objekt-BBox**). Quelle 1 (OSM): node/10922127059 trägt `addr:housenumber`=23,
+  `addr:street`=Bahnhofstraße, `addr:city`=Dörentrup, `addr:postcode`=32694, `addr:suburb`=Bega, `name`=Limekon,
+  `operator`=Limekon GmbH, `office`=company, `contact:phone`=+49 5263 9561906, `contact:fax`=+49 5263 9578700 und
+  `contact:website`=https://limekon.de/ (live geladen am 03.11.2026, HTTP 200). Das Objekt benennt den Rechtsträger
+  **mit** `operator` und `contact:phone`, es handelt sich also nicht nur um eine nackte Adressangabe, sondern um das
+  zum Register passende Betriebsobjekt. Auf derselben Hausnummer 23 liegen zusätzlich node/10922131939
+  (`amenity`=place_of_worship, `name`=HomePoint Church, 52.0063751/9.0604842) und way/370758673 (`building`=yes,
+  `building:levels`=2) — der Anlieferhof selbst ist damit **nicht** eindeutig abgegrenzt; der Punkt bezeichnet die
+  belegte Anschrift und den Betreiberstandort, **nicht** eine verifizierte Waage oder Zufahrt. Quelle 2 (Betreiber):
+  das Impressum der Betreiberseite https://limekon.de/pages/impressum1.php nennt **Limekon GmbH, Bahnhofstr. 23,
+  32694 Dörentrup**, Telefon +49 5263 9561906 und die Domain limekon.de und deckt damit Hausnummer, Straße und PLZ
+  unabhängig von OSM ab; der Registerspiegel NorthData (Amtsgericht Lemgo HRB 7953) führt dieselbe Rechtsträgerin an
+  derselben Anschrift und ist im Dossier bereits als zulässige Registerquelle zitiert. Die im Dossier vom 30.10.2026
+  vermerkte fehlende Koordinate ist damit geschlossen; `clear_fields` bleibt unverändert
+  (`dropoff_json,email,opening_hours,phone,pickup_json` — **kein** `geo`-Token), `status`, `street`, `postcode`,
+  `website`, `website_status` und die übrigen Felder bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/10922127059.json ;
+  https://limekon.de/pages/impressum1.php ;
+  https://www.northdata.de/LIMEKON%20GmbH,%20D%C3%B6rentrup/Amtsgericht%20Lemgo%20HRB%207953
+  (Abruf 03.11.2026).]

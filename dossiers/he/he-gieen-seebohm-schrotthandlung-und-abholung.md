@@ -55,3 +55,26 @@ Gelbe Seiten und GoLocal führen Seebohm Schrotthandlung und Abholung mit Mobiln
 - [Recherche 28.10.2026: Verzeichniseintrag erneut vollständig gelesen: Die Gelbe Seiten führen "Seebohm Schrotthandlung und Abholung", Branche Schrott, 35398 Gießen, Mobil 0171 6 38 73 25, ohne Straße und ohne Website, mit der Angabe "Öffnungszeiten: Termine nach telef. Vereinbarung", dem Unternehmenssatz "Seit vielen Jahren, Partner für Privat, Handwerk und Industrie" und dem Leistungsumfang Altautoentsorgung, Altmetallsentsorgung, Altmetalle, Demontagearbeiten, Entsorgung, Kabelrecycling, NE Metalle, Schrottabholung, Schrottentsorgung und Schrotthandel. Die einzige Bewertung (5,0 aus einer Quelle) stammt von GoLocal vom 01.09.2014 und ist damit übernommenes Fremdmaterial, kein eigener Beleg. postcode, phone und description werden nicht in die Felder übernommen, weil laut Repo-Regel Branchenverzeichnisse Leads sind; status bleibt pruefung, clear_fields geo bleibt unangetastet. Quelle(n): https://www.gelbeseiten.de/gsbiz/39e82f02-373d-4cf7-90fe-bf98831f5be5]
 - [Recherche 28.10.2026: Negativbefund im Fachbetriebeverzeichnis, ohne Beweiswert: Das SchrottRegister führt für Gießen sieben anerkannte Betriebe, darunter Ferrum Recycling GmbH (Margaretenhütte 50), MP Schneider, SBM und ad-acta, aber keinen Eintrag Seebohm. Das SchrottRegister ist ein unabhängiges Verzeichnis und kein amtliches Angebot, die Efb-Eintragung ist freiwillig, deshalb beweist das Fehlen keine Nichtexistenz und es wird kein Schließungsstatus abgeleitet. Quelle(n): https://schrottregister.pages.dev/ort-giessen]
 - [Recherche 28.10.2026: Preisabgrenzung: In Gießen sind bei anderen Betrieben Tarife veröffentlicht, die nicht zu diesem Dossier gehören und nicht auf Seebohm übertragen werden dürfen: Klajo Recycling (Stolzenmorgen 80-82) bietet die Containerstellung für Schrott ab 2000 kg kostenlos an und berechnet darunter eine Stell- und Transportgebühr, Absetzcontainer 5 bis 7 m³ und Abrollcontainer 12 bis 36 m³, Containerstellung inklusive 7 Tage Standzeit zuzüglich Transport und Entsorgung; ESOREC nennt 7 Tage kostenlose Containermiete, danach 2,50 Euro pro Tag zuzüglich 19 Prozent Umsatzsteuer, und eine Containerlieferung inklusive 7 Tage für 69 bis 89 Euro; Ferrum Recycling (Margaretenhütte 50, 35398 Gießen) verwieg NE-Metalle ab 1 kg und zahlt FE-Metalle ab 200 kg aus. ANKAUF, VERKAUF und GEBÜHREN für Seebohm selbst bleiben unveröffentlicht und unbelegt. Quelle(n): https://klajo-recycling-giessen.de/containerdienst ; https://www.esorec.de/containerdienst/giessen/ ; https://www.ferrum-recycling.de/startseite.html]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Das Dossier fuehrt **keine Dossier-Adresse**:
+  `street` und `postcode` sind leer, `city` lautet "Gießen". Belegt ist ausschliesslich eine Mobilnummer
+  (0171 6387325) und die Postleitzahl 35398 aus zwei Verzeichnis-Leads (Gelbe Seiten und GoLocal), ohne
+  Straßenanschrift, ohne Rechtsträger und ohne Betreiberauftritt. Ein OSM-Objekt kann damit nicht zugeordnet
+  werden: Es gibt keine Hausnummer, nach der im Kachelraster gesucht werden koennte, und eine Suche nach den
+  belegten Personennamen (Seebohm) in OSM wuerde keinen Betriebsbezug ergeben. Quelle 1 (Betreiber/Register): es
+  fehlt - das Dossier belegt ausdruecklich "Eine eigenstaendige Betreiberseite, ein Registerbeleg und eine
+  bestaetigte Strassenanschrift fehlen"; die direkt gelesene stadtische Giessen-Quelle nennt Corinna Seebohm nur
+  als Vereinskontakt, nicht als Schrotthaendlerin, und Northdata fuehrt in den sichtbaren Ergebnissen keine
+  eindeutig zuordenbare Schrotthandelsfirma. Quelle 2 (OSM): nicht anwendbar, weil keine Adressangabe existiert;
+  der read-only Produktionsabruf am 23.10.2026 zeigte den Altpunkt 50.5852400/8.6791800, der mit
+  `clear_fields: 'geo'` ohnehin zurueckgenommen wird. Es wird **keine** Koordinate erfunden: aus einer
+  Mobilnummer und einer Postleitzahl laesst sich kein Standort ableiten, und die in der
+  Preisabgrenzungs-Notiz vom 28.10.2026 genannten Tarife anderer Giessener Betriebe (Klajo Recycling,
+  ESOREC, Ferrum Recycling) gehoeren nicht zu diesem Dossier. `status` bleibt `pruefung`.
+  Quelle(n): https://www.gelbeseiten.de/gsbiz/39e82f02-373d-4cf7-90fe-bf98831f5be5 ;
+  https://www.golocal.de/giessen/schrotthandel/seebohm-schrotthandlung-abholung-MJ5yH/ ;
+  https://schrottregister.pages.dev/ort-giessen ;
+  https://www.northdata.de/Seebohm,+Gie%C3%9Fen ;
+  read-only `public.db` (Abruf 03.11.2026)]

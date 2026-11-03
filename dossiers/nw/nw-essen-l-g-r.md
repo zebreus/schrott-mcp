@@ -55,3 +55,33 @@ Ein starker Kandidat für das Kürzel „L.G.R.“ in Essen ist die L.G.R. Lotha
 
 - Schrott (GS)
 - Adresse: Essen
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die OSM-Adresse **Karl-Legien-Straße 10, 45356
+  Essen** existiert zwar als way/187631828 (`addr:housenumber`=10, `addr:street`=Karl-Legien-Straße, `addr:city`=Essen,
+  `addr:postcode`=45356, `building`=yes; Mittel der **8** eindeutigen Knoten 51.4977254/6.9825267 bei 9
+  Knotenreferenzen, BBox 51.4976239/6.9824232 bis 51.4977816/6.9826541), sie ist aber **kein** Standort eines
+  Schrotthändlers: Quelle 1 (Betreiber) ist das Impressum der **L.G.R. Lothar Gedenk Recycling GmbH**, Karl-Legien-Straße
+  10, 45356 Essen, HRB 12622 Amtsgericht Essen, vertreten durch Marwin und Dario Gedenk, und die Dienstleistungs- und
+  Über-uns-Seiten beschreiben ausschließlich die kommunale Erfassung und das Recycling von **Alttextilien und
+  Altschuhen**; NorthData bestätigt denselben Unternehmensgegenstand (An- und Verkauf von Altkleidern/-schuhen und
+  Sammelcontainern). Ein **Schrott- oder Metallankauf** ist für diese Gesellschaft **nicht** belegt - die als
+  `schrotthaendler` importierte Zeile passt also im **Branchen- und Materialbereich** nicht zum belegten
+  Unternehmensgegenstand, auch wenn zwei aktuelle Verzeichnisse („L.G.R. Recycling GmbH“, Kategorie Schrotthandel) die
+  Adresse mit identischer Telefonnummer, E-Mail und Domain nennen und der Kürzel-/Ortsbezug des Seeds zu dieser
+  Gesellschaft passt. Ein OSM-Objekt mit Betriebsbezug zu L.G.R. gibt es im Umfeld nicht; way/187631828 trägt weder
+  `name` noch `operator`. **Warum keine Koordinate:** Der einzige zu diesem Seed belegte Rechtsträger an dieser Adresse
+  betreibt Textil- und Schuhrecycling, nicht Metallrecycling - eine Koordinate an dieser Anschrift würde für einen
+  Schrotthändler einen **Betriebsstandort** suggerieren, den keine Quelle trägt, und wäre zudem eine Behauptung zur
+  **Branchenlage**, die ausdrücklich offen ist. Der Punkt bezeichnet die Anschrift der Textilrecyclingfirma, nicht den
+  Standort eines Schrott- oder Metallhändlers. Der bisher gespeicherte Produktionspunkt 51.450284375/7.015053125 (die
+  Fernbus-Spur am Essener Hauptbahnhof, laut read-only-Abgleich vom 27.10.2026) wird durch diese Notiz **nicht**
+  ersetzt und bleibt bis zur Klärung der Branche zurückgenommen. **Was zur Auflösung fehlt:** ein belegter
+  Schrott-/Metallhändler an der Karl-Legien-Straße 10 oder ein anderer, branchlich passender Standort dieser
+  Dossierzeile - die Branche ist bis dahin separat vom Standort zu klären. `status: pruefung`, `clear_fields: geo` und
+  alle übrigen Felder bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/187631828/full.json ;
+  https://lgr-essen.de/impressum/ ; https://lgr-essen.de/dienstleistungen/ ;
+  https://www.northdata.de/L.G.R.+Lothar+Gedenk+Recycling+GmbH,+Essen/Amtsgericht+Essen+HRB+12622
+  (Abruf 03.11.2026).]

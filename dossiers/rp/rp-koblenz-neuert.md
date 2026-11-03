@@ -1,6 +1,7 @@
 ---
 slug: rp-koblenz-neuert
-clear_fields: 'geo'
+lat: 50.3834847
+lon: 7.5945465
 name: Neuert
 trader_type: sonstige
 state: RP
@@ -59,3 +60,41 @@ Die Firmenregister-Spiegel North Data und online-handelsregister führen überei
 ### Korrektur 03.10.2026 (Feedback 4519)
 
 - [Korrektur 03.10.2026: Interne Rechercheformulierungen sowie HRB-, Geschäftsführer- und Adressangaben aus der nutzerorientierten description entfernt; sie nennt jetzt nur den bei NorthData ausgewiesenen Unternehmensgegenstand „Handel und Verwertung von Rohstoffen aller Art“. Die Registerspiegel führen Raimund Neuert Rohstoffverwertungsgesellschaft mbH, HRB 3481, aktiv, an Marienfelder Str. 5 in Koblenz. Gegenprüfung des zuvor fehlzugeordneten containerdienst-koblenz.de-Auftritts: Das aktuelle Impressum nennt stattdessen Zimmermann Recycling & Transporte GmbH, HRB 24292, Ahlerhof, 56112 Lahnstein. Kein eigener Neuert-Betreiberauftritt und keine öffentlichen Annahmebedingungen verifiziert; website bleibt leer, website_status unbekannt und status pruefung unverändert. Quelle: https://www.northdata.de/Raimund+Neuert+Rohstoffverwertungsgesellschaft+mbH,+Koblenz/HRB+3481; https://www.online-handelsregister.de/handelsregisterauszug/rp/Koblenz/HRB/3481/Raimund-Neuert-Rohstoffverwertungsgesellschaft-mbH; http://containerdienst-koblenz.de; https://zimmermann-recycling.com/impressum/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.3834847/7.5945465** (Knoten-Koordinate von
+  node/14181436183; bei einem Knoten ist die Objekt-BBox mit dem Punkt identisch, der Punkt liegt daher
+  **innerhalb**). Das Objekt trägt `addr:housenumber`=**5** und `addr:street`=**Marienfelder Straße** - die
+  Dossier-Hausnummer und -Straße sind damit objektgenau belegt; **Qualifizierung:** der Knoten trägt **weder
+  `addr:city` noch `addr:postcode` noch `name=` noch `operator=`** (die **übrigen** Adressobjekte derselben Straße
+  tragen ebenfalls keine Stadt-/PLZ-Tags; nur die Objekte mit `name=` wie node/4222193189 „Bocklet“
+  (`addr:housenumber`=3), node/10709394793 „HFM Zelt- und Festservice“ (=7) und node/10709382462
+  „GT-Schmitz Gebäudetechnik“ (=123) führen zusätzlich einen `name=`-Wert). Die **Hausnummer 5 ist auf der
+  Marienfelder Straße eindeutig** - die belegten Nummern sind **1, 3, 5, 7, 110, 111, 113, 115, 117, 117a, 119,
+  119a, 121, 123** (Kachelraster über **bbox=7.5800,50.3780,7.6000,50.3900**, live abgerufen 03.11.2026), und die
+  beiden weiteren „3“-Knoten (node/14181436182 und node/4222193189) liegen auf **derselben** Nummer, nicht auf 5.
+  Quelle 1 (Register): Der **NorthData-Registereintrag** (live abgerufen 03.11.2026, HTTP 200,
+  https://www.northdata.de/Raimund+Neuert+Rohstoffverwertungsgesellschaft+mbH,+Koblenz/HRB+3481) führt
+  „**Raimund Neuert Rohstoffverwertungsgesellschaft mbH**, **Amtsgericht Koblenz HRB 3481**“ mit „**HRB3481 Adresse
+  Marienfelder Str. 5, D-56070 Koblenz**“ und dem Unternehmensgegenstand „**Der Handel und die Verwertung von
+  Rohstoffen aller Art**“; der Eintrag zur **Eintragung** 2010 nach § 3 EGGmbHG nennt ausdrücklich
+  „**Geschäftsanschrift: Marienfelder Str. 5, 56070 Koblenz**“ - die **Dossier-Adresse, -PLZ und der Rechtsträger
+  sind damit registerlich belegt**. Der im Dossier bereits zitierte **online-handelsregister-Eintrag**
+  (https://www.online-handelsregister.de/handelsregisterauszug/rp/Koblenz/HRB/3481/Raimund-Neuert-Rohstoffverwertungsgesellschaft-mbH)
+  führt denselben Rechtsträger und dieselbe Anschrift und ist **deckungsgleich**. Der umliegende Kartenausschnitt
+  (7.5920/50.3810 bis 7.5980/50.3870) weist durchgängig `addr:city`=**Koblenz** und `addr:postcode`=**56070** aus
+  (z. B. „Am Petersberg“ 9, „Ernst-Sachs-Straße“ 12 und 16, „Carl-Spaeter-Straße“ 13 und 15, „Von-Kuhl-Straße“ 15,
+  „Andernacher Straße“ 100) - die **Ortslage Koblenz-Lützel, 56070** ist damit belegt. Quelle 2 (OSM):
+  node/14181436183 (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5800,50.3780,7.6000,50.3900). **Was offen bleibt:** Der
+  Dossier-Stand ist ein **Registerspiegel ohne Betreiberseite** - es ist **kein** Betriebsauftritt, **kein**
+  Impressum und **kein** Zertifikat vorhanden; die Koordinate bezeichnet die **registerlich belegte
+  Geschäftsanschrift**, **nicht** eine öffentliche Annahmestelle und **nicht** einen verifizierten Hofzugang. Die
+  **Preis- und Annahmebedingungen bleiben unbekannt** (kein numerischer Ankaufskurs, keine Preisliste, keine
+  Gebührentabelle); `status` bleibt **pruefung**, `website`/`website_status` bleiben leer bzw. **unbekannt**,
+  `phone`, `email` und `opening_hours` bleiben leer. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5800,50.3780,7.6000,50.3900 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.northdata.de/Raimund+Neuert+Rohstoffverwertungsgesellschaft+mbH,+Koblenz/HRB+3481 ;
+  https://www.online-handelsregister.de/handelsregisterauszug/rp/Koblenz/HRB/3481/Raimund-Neuert-Rohstoffverwertungsgesellschaft-mbH
+  (live abgerufen 03.11.2026).]

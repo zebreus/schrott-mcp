@@ -47,3 +47,33 @@ Ankauf: keine aktuelle Preis- oder Annahmeliste. Verkauf: keine Material-/Teilep
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Starker aktueller Standort-/Anlagenbeleg in der offiziellen Standortseite der Bezirksregierung Düsseldorf ergänzt: Carl Herholz GmbH & Co. KG, Wilhelm-Beckmann-Straße 14, 45307 Essen; Inspektionskategorie „Lagerung und Behandlung von Fe- und NE-Schrotten, Schrottplatz“. Postcode 45307 ergänzt; keine Aussage daraus über aktuell offenen Kundenbetrieb oder Ankauf abgeleitet. Weiterhin Konflikt mit sekundärem Registerprofil (HRA 8331 als beendet/terminiert; NorthData/handelsregister.ai, siehe bisherige Recherche), deshalb Status `pruefung`; aktuelle Gesellschafts-/Nachfolgekette zu klären. Ankauf: keine veröffentlichte Preisliste; Verkauf: keine; Gebühren: keine. Adresse ist geokodierbar als behördlich geführter Anlagenstandort, nicht als bestätigte Kundenannahme. Quelle(n): https://www.brd.nrw.de/umweltinspektionsberichte/stadt-essen; NorthData-/Handelsregisterhinweis HRA 8331 aus bisheriger Recherche.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **14** existiert auf der
+  **„Wilhelm-Beckmann-Straße“** in OSM **nicht**: das am 03.11.2026 nachgeladene Kachelraster über den Standortbereich
+  (6.9930/51.4800 bis 7.0230/51.5100, **9 Kacheln, 0 Kachel-Fehler**) erfasst in diesem Stadtteil **113 verschiedene
+  Straßen** mit Adressobjekten, darunter **Beckstädtstraße** mit 41 Hausnummern (15, 16, 17, 18, 19, 20, 21, 22, 23, 24,
+  25, 26, 27, 27a, 27b, 29a, 29b, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 44, 46, 47, 48, 49, 50, 51, 52, 53, 54,
+  55, 56, 57, 58) - eine Straße **„Wilhelm-Beckmann-Straße“** kommt im Raster **nicht** vor, weder als Adressobjekt
+  noch als benannter Straßenway; die Suche nach der Hausnummer 14 in Verbindung mit „Wilhelm-Beckmann“ findet **keinen**
+  Treffer. Quelle 1 (Betreiber/Behörde): die offizielle Standortliste der Bezirksregierung Düsseldorf führt
+  **Carl Herholz GmbH & Co. KG, Wilhelm-Beckmann-Straße 14, 45307 Essen** weiterhin mit der Inspektionskategorie
+  **„Lagerung und Behandlung von Fe- und NE-Schrotten, Schrottplatz“** (Umweltinspektionsbericht E-046, Inspektion vom
+  25.02.2026) - die **behördlich dokumentierte Anlagenanschrift** ist damit belegt; der Registerspiegel NorthData
+  (AG Essen HRA 8331) führt dieselbe Rechtsträgerin und bestätigt die Gesellschaft. Quelle 2 (OSM): das Kachelraster
+  6.9930/51.4800 bis 7.0230/51.5100 und die darin enthaltenen Adressobjekte (live geladen am 03.11.2026, HTTP 200);
+  ein Objekt mit Betriebsbezug zu „Herholz“ ist im Raster **nicht** vorhanden. **Warum keine Koordinate:** Die
+  behördliche Anlagenanschrift ist nicht als OSM-Objekt abbildbar; jeder Punkt müsste aus einem Nachbarobjekt oder
+  einer Straßenmitte abgeleitet werden und wäre damit eine unbelegte Vermutung über die Lage eines
+  Schrottplatzes, dessen Zuschnitt in OSM **nicht** existiert - insbesondere wäre eine bloße Adressmitte der
+  Wilhelm-Beckmann-Straße **kein** Beleg für die Schrottplatz-Fläche. Der bisher gespeicherte Produktionspunkt
+  51.450284375/7.015053125 (die Fernbus-Spur „Freiheit“ am Essener Hauptbahnhof, laut read-only-Abgleich vom
+  27.10.2026) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. **Was zur Auflösung fehlt:** ein
+  OSM-Objekt oder eine Kartierhilfe, die die Anlage an der Wilhelm-Beckmann-Straße 14 eindeutig lokalisiert; die
+  **behördliche** Standortliste belegt den Standort, kann aber keinen Punkt liefern. `status: pruefung`,
+  `clear_fields: geo` und alle übrigen Felder bleiben unverändert. Quelle(n):
+  https://www.brd.nrw.de/umweltinspektionsberichte/Stadt-Essen/E-046-Lagerung-und-Behandlung-von-Fe-und-NE-Schrotte ;
+  https://www.brd.nrw.de/umweltinspektionsberichte/stadt-essen ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9930,51.4800,7.0230,51.5100 ;
+  https://www.northdata.de/Carl%20Herholz%20GmbH%20%26%20Co%C2%B7%20KG,%20Essen/HRA%208331 (Abruf 03.11.2026).]

@@ -68,3 +68,36 @@ Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 3
 
 - [Recherche 01.11.2026: Kein amtlicher Zertifikatsnachweis gefunden — `certifications` bleibt **leer**. Abfrage des amtlichen Fachbetrieberegisters am 01.11.2026: (1) **Namenssuche** „Budnik“ im Register „Entsorgungsfachbetriebe“ → **0 Treffer gefunden**; dieselbe Namenssuche im Register „Altfahrzeugverwertung“ → **0 Treffer gefunden**; (2) **Standortsuche** um die Dossier-Adresse Sternhelle 18, 59757 Arnsberg, Umkreis 2 km, Register „Entsorgungsfachbetriebe“ → **2 Treffer gefunden**, vollständig gelesen: „Röhrtaler Wertstoff GmbH / Standort Arnsberg-Neheim (Herdringen)“, Borkshagenstraße 13, 59757 Arnsberg-Neheim (Herdringen), ZZHT00900028 / 6 (Behandeln) und / 5 (Lagern), jeweils 1,5 km entfernt — **anderer Rechtsträger und andere Hausnummer**; die Standortsuche unterscheidet nicht nach Straßenseite, nennt aber weder „Budnik“ noch Sternhelle 18, sodass für die Dossier-Adresse **kein** zertifizierter Betrieb belegt ist. Nach der Aktenprüfung vom 18.10.2026 bleiben Sternhelle 18 und 02932 36942 Verzeichnisleads ohne Betreiberidentität. **Reichweite der Negativaussage:** Die Efb-Anerkennung nach § 56 KrWG ist freiwillig; der Negativbefund beweist keine Nichtzertifizierung, keine Rechtswidrigkeit und keine Schließung. Umfang: beide Register, Namens- und Standortsuche. `status` bleibt unverändert `pruefung`. Keine Preise, Gebühren oder Ankaufsbedingungen aus dieser Recherche abgeleitet.]
 - [Recherche 01.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Budnik ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Budnik ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=59757%20Arnsberg,%20Deutschland;7.9616;51.4162;7.9616;51.4162;7.9616;51.4162&dst=2&is=1&e=1]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **18** existiert auf der
+  **„Sternhelle“** in OSM **nicht**: das am 03.11.2026 nachgeladene Kachelraster über den gesamten Straßenverlauf
+  (7.9400/51.4000 bis 7.9800/51.4400, **16 Kacheln, 0 Kachel-Fehler**) erfasst die Straße „Sternhelle“ in
+  **59757 Arnsberg-Herdringen** mit **14 verschiedenen Hausnummern**: **1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+  und 16** - die **Nummer 18 fehlt**, und eine Suche nach der Hausnummer 18 in Verbindung mit „Sternhelle“ findet
+  **keinen** Treffer. Das entspricht dem bereits am 03.10.2026 dokumentierten Befund, dass die Photon-Suche
+  ausschließlich die **Straße** „Sternhelle“ lieferte und **keine** bestätigte Hausnummer ergab; die Aussage
+  „keine bestätigte Hausnummer/Betreiberbindung“ ist damit unverändert bestätigt. Quelle 1 (Betreiber/Verzeichnis):
+  der am 25.10.2026 erneut live gelesene 11880-Eintrag **„Rolf Budnik Schrott-RohstoffHdl.“** nennt
+  **Sternhelle 18, 59757 Arnsberg**, Telefon 02932 36942 und die Branchen Altmaterialhandel/Schrotthandel/Recycling
+  (Eintragsdaten 29.06.2021, Portalaktualisierung 02.10.2026) - die Anschrift ist damit **belegt**, aber nicht in OSM
+  abbildbar. Quelle 2 (OSM): das Kachelraster 7.9400/51.4000 bis 7.9800/51.4400 sowie die 14 gefundenen
+  Adressobjekte way/254547383 (6), way/254547578 (16), way/254547675 (13), way/254547771 (2), way/254547860 (11),
+  way/254547930 (14), way/254548290 (10), way/254548314 (5), way/254548370 (1), way/254548555 (7), way/254548564 (8),
+  way/254548568 (12), way/254547421 (9) und ein weiteres Objekt mit `addr:housenumber`=3 (live geladen am
+  03.11.2026, HTTP 200). **Warum keine Koordinate:** Ein Punkt wäre nur aus einem Nachbarobjekt (etwa Sternhelle 16)
+  oder aus einer Straßenmitte ableitbar und damit eine unbelegte Vermutung über die Lage des Betriebs; die
+  Nachbarhausnummer 16 ist **kein** Ersatz für die Dossier-Adresse. **Zusätzlich offen** bleibt die vom Dossier
+  dokumentierte fehlende Betreiberidentität: es existiert **kein** Betreiberauftritt, **kein** Impressum und **kein**
+  Registereintrag zu „Rolf Budnik Schrott-RohstoffHdl.“; die Namenssuche im amtlichen Fachbetrieberegister ergab
+  **0 Treffer** für „Budnik“ in „Entsorgungsfachbetriebe“ und in „Altfahrzeugverwertung“, und die Standortsuche um
+  Sternhelle 18 (Umkreis 2 km) liefert **ausschließlich** die **andere** Rechtsträgerin Röhrtaler Wertstoff GmbH /
+  Standort Arnsberg-Neheim (Herdringen), Borkshagenstraße 13 (1,5 km entfernt) - **kein** Registerbeleg für den Seed.
+  Der bisher gespeicherte Produktionspunkt 51.39518/8.06078 (laut read-only-Abgleich vom 25.10.2026 auf Twiete 9
+  aufgelöst) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields:
+  geo` und alle übrigen Felder bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9400,51.4000,7.9800,51.4400 ;
+  https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Budnik
+  (Abruf 03.11.2026).]

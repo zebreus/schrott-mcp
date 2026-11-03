@@ -1,6 +1,7 @@
 ---
 slug: he-gernsheim-64579-ca-recycling
-clear_fields: 'geo'
+lat: 49.7582837
+lon: 8.4927383
 name: CA Recycling
 trader_type: sonstige
 state: HE
@@ -47,3 +48,32 @@ Ein jetzt direkt lesbarer Betreiberauftritt „CA Recycling Gernsheim“ nennt i
 
 - Abgrenzung AWRec Gernsheim (distinct, Verhältnis ungeklärt)
 - Adresse: Gernsheim 64579
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.7582837/8.4927383**. Quelle 1 (OSM, live geladen):
+  `way/467027681` traegt `addr:housenumber`=13, `addr:street`=Alte Landstraße, `addr:city`=Gernsheim,
+  `addr:postcode`=64579, `building`=residential; der Way hat 4 eindeutige Knoten (BBox 8.4926605/49.7582353 bis
+  8.4928160/49.7583320), der Mittelwert der eindeutigen Knoten liegt bei 49.7582837/8.4927383 und damit innerhalb
+  der Objekt-BBox. Das Objekt traegt **weder** `name` **noch** `operator`; es bestaetigt die Anschrift, nicht den
+  Betrieb. Das live abgefragte Kachelraster (bbox 8.470,49.740,8.510,49.770, 16 Kacheln, 0 Fehler) weist auf der
+  "Alte Landstraße" **29 Adressobjekte** mit **28 verschiedenen Hausnummern** (2, 3, 4, 5, 6, 7, 8, 9, 10,
+  11, 12, 13, 14, 15, 1a, 1b, 1c, 1d, 1e, 1f, 1g, 2A, 3a, 3b, 4A, 7a, 9a, 11a) - the Dossier-Hausnummer **13**
+  existiert also und ist genau einmal belegt (nur die Nummer 14 ist doppelt erfasst). Quelle 2 (Betreiber, im Dossier bereits zitiert und am 03.11.2026 erneut live gelesen): das
+  Impressum https://www.ca-recycling.de/impressum/ nennt woertlich "CA Recycling Gernsheim / Cafer Aksu /
+  Alte Landstraße 13 / 64579 Gernsheim / Tel.: 06258 - 507 13 69 / Tel. Mobil: 0179 570 0775 / E-Mail:
+  ca-recycling24@hotmail.com" sowie "Inhaltlich Verantwortlicher: Cafer Aksu, Alte Landstraße 13, 64579
+  Gernsheim"; die Betreiberseite beschreibt Schrottabholung, Demontagearbeiten, Entrümpelung, Autoverwertung und
+  Containerdienst. Hausnummer, Straße, PLZ und Ort decken sich damit unabhaengig von OSM mit dem gesetzten Punkt.
+  **Der `clear_fields: 'geo'`-Eintrag wurde mit dem Setzen der Koordinate entfernt** (ein gleichzeitiges
+  `clear_fields: 'geo'` neben belegtem `lat`/`lon` waere vom Seed ohnehin ungueltig); die Direktive hatte den
+  **nachweislich falschen** gespeicherten Produktionspunkt 49.7531/8.4886 (Zwingenberger Straße 11) zurueckgenommen
+  - dieser wird durch den belegten Punkt ersetzt. Offen bleiben im Dossier die widersprechenden
+  Verzeichniskontakte des Eintrags Darmstadt Post (Tel. 06258 5593666, ca-recycling-24@web.de), die Identitaet
+  als Handelsunternehmen (kein HRB) und die Frage einer oeffentlichen Selbstanlieferstelle mit Oeffnungszeiten;
+  der Punkt bezeichnet die belegte Geschaeftsanschrift, keine verifizierte Zufahrt oder Waage. `status` bleibt
+  `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/467027681/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.470,49.740,8.510,49.770 ;
+  https://www.ca-recycling.de/impressum/ ; https://www.ca-recycling.de/ ;
+  https://darmstadt-post.de/unternehmen/gernsheim/schrotthandel/ca-recycling-2488/ (Abruf 03.11.2026)]

@@ -1,6 +1,7 @@
 ---
 slug: nw-augustdorf-gregorz
-clear_fields: 'geo'
+lat: 51.9042841
+lon: 8.7059115
 name: Gregorz
 trader_type: schrotthaendler
 state: NW
@@ -50,6 +51,7 @@ Verzeichnisprofile nennen „Autoverwertung KFZ-Meisterbetrieb Gregorz / Schrott
 - Schrott (GS)
 - Adresse: Augustdorf
 
+
 ### Recherche 03.10.2026 (Gesamtaudit C)
 
 - [Recherche 03.10.2026: Korrektur zur alten Wertung „Autoreparaturen, nicht Schrott“: direkt abgerufene GS-Detailseite nennt trotz Werkstattkategorie ausdrücklich Autorecycling/Autoverwertung beziehungsweise Schrott- und Autoverwertung. Das Örtliche direkt gelesen bestätigt „Autoverwertung KFZ-Meisterbetrieb Gregorz Schrott- und Autoverwertung“, Nord-West-Ring 18, 32832 Augustdorf, 05237 1069. Fachlich relevant, Autoverwertung nicht pauschal entfernen. Bestehende Kontaktfelder jetzt durch zweiten Verzeichnisabruf gestützt, aber gemeinsame Datenherkunft nicht ausgeschlossen, kein Betreiber-/Registerkongruenznachweis. Keine Owner-Ausnahme. Droge am Nord-West-Ring 39A bleibt separater Betrieb.; Quelle(n): https://www.gelbeseiten.de/gsbiz/eebc9d98-0079-4682-b8b9-4f902ac0bcb2, https://www.dasoertliche.de/Themen/Autoverwertung-KFZ-Meisterbetrieb-Gregorz-Schrott-und-Autoverwertung-Augustdorf-Nord-West-Ring]
@@ -60,3 +62,33 @@ Verzeichnisprofile nennen „Autoverwertung KFZ-Meisterbetrieb Gregorz / Schrott
 
 - [Recherche 01.11.2026: Kein amtlicher Zertifikatsnachweis gefunden — `certifications` bleibt **leer**. Abfrage des amtlichen Fachbetrieberegisters am 01.11.2026: (1) **Namenssuche** „Gregorz“ im Register „Entsorgungsfachbetriebe“ → **0 Treffer gefunden**; Kontrollsuche „Gregor“ → **2 Treffer gefunden**, vollständig gelesen: „Gregor Weuthen Service GmbH & Co. KG / GWS Abfalllogistik“, Alst 130, 41372 Brüggen (ZZEE00100711 / 1) und „Gregor Industriewartung GmbH & Co. KG“, Richard-Seiffert-Straße 10, 51469 Bergisch Gladbach (ZZET01500446 / 1) — **andere Orte und andere Rechtsträger**, keine Verbindung zum Seed „Gregorz“ in Augustdorf; (2) Namenssuche „Gregorz“ im Register „Altfahrzeugverwertung“ → **0 Treffer gefunden**; (3) **Standortsuche** um die Dossier-Adresse Nord-West-Ring 18, 32832 Augustdorf, Umkreis 1 km, Register „Entsorgungsfachbetriebe“ → **17 Treffer gefunden**; die gelesenen Anlagenzeilen betreffen ausschließlich die **Albert Freise GmbH**: Wertstoffsortieranlage, Nord-West-Ring 33, 32832 Augustdorf (ZZHT00300516 / 2 Lagern, / 3 Behandeln) sowie die Vorbehandlungsanlagen BE20.1, BE20.2, BE21, BE30, BE40, BE50 an Nord-West-Ring 38a (ZZHT00300516 / 13 bis / 18), alle 0,2 km entfernt — **anderer Rechtsträger und andere Hausnummern** (33 und 38a, nicht 18). Der Seed „Gregorz“ ist nach der Recherche vom 03.10.2026 nur über Verzeichnisangaben belegt (Gelbe-Seiten-Eintrag Nord-West-Ring 18, 32832 Augustdorf, 05237 1069; zusätzlich 05237 8987970, Mo-Fr 08-18/Sa 08-15) — es liegt keine bestätigte Rechtsidentität und keine eigene Betreiberquelle vor. **Reichweite der Negativaussage:** Die Efb-Anerkennung nach § 56 KrWG ist freiwillig; der Negativbefund beweist keine Nichtzertifizierung und keine Schließung. Umfang: beide Register, Namens- und Standortsuche. `status` bleibt unverändert `pruefung`. Keine Preise, Gebühren oder Ankaufsbedingungen aus dieser Recherche abgeleitet.]
 - [Recherche 01.11.2026: Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gregorz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gregor ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Gregorz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=32832%20Augustdorf,%20Deutschland;8.7059;51.9043;8.7059;51.9043;8.7059;51.9043&dst=1&is=1&e=1]
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.9042841/8.7059115** (Mittel der **4** eindeutigen
+  Knoten von way/339505119; das Objekt hat 5 Knotenreferenzen, davon 4 eindeutige - ein Knoten ist doppelt gezählt; die
+  BBox der eindeutigen Knoten reicht von 51.9040231/8.7056605 bis 51.9045449/8.7061634 und **umschließt den
+  Mittelwert**). Quelle 1 (OSM): way/339505119 trägt `addr:housenumber`=18, `addr:street`=Nord-West-Ring,
+  `addr:city=Augustdorf, `addr:postcode`=32832, `addr:country`=DE und `building`=yes (live geladen am 03.11.2026,
+  HTTP 200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die belegte Anschrift und **keine**
+  verifizierte Zufahrt, Waage oder öffentliche Annahme. Das Objekt ist identisch mit dem bereits am 03.10.2026
+  dokumentierten Photon-Haus-/Gebäudematch (way 339505119, lat 51.9042841/lon 8.7059116) - die damalige Notiz, dass
+  der Punkt weder aktuelle Betreiberbindung noch Kundenannahme beweist, bleibt also **unverändert gültig** und wird
+  durch diese Geokodierung ausdrücklich **nicht** aufgehoben: `status: pruefung`, `website` und `website_status`
+  bleiben unverändert, und es wird **keine** Kundenannahme, kein Ankauf und kein Standortbetrieb behauptet. Quelle 2
+  (Betreiber/Verzeichnis): die Betreiber-Filialspur der Dossier-Recherche nennt die Adresse **Nord-West-Ring 18,
+  32832 Augustdorf** - das eBay-Verkäuferprofil „kfz-gregorz“ (Nord-West-Ring 18, 32832 Augustdorf, Tel. 05237 8987970,
+  info@autoverwertung-gregorz.de) und der Verzeichniseintrag „Autoverwertung KFZ-Meisterbetrieb Gregorz Schrott- und
+  Autoverwertung“ (Das Örtliche) nennen dieselbe Hausnummer und PLZ; das eBay-Profil ist ein **betreiberseitiges**
+  Verkäuferprofil mit rechtlichen Angaben und damit die belastbarste der im Dossier zitierten Adressquellen. Die
+  zweite, konkurrierende Rufnummer (05237 1069 aus Gelbe Seiten) und die abweichenden Inhaberinnennamen (Halina
+  Gregorz versus Evelyn Lisa Gregorz-Wiens) bleiben **unaufgeklärt**; das amtliche Fachbetrieberegister führt zu
+  „Gregorz“ **keinen** Eintrag (Namenssuche „Gregorz“ in „Entsorgungsfachbetriebe“ und „Altfahrzeugverwertung“: 0
+  Treffer), und die Standortsuche um die Dossier-Adresse liefert **ausschließlich** die **andere** Rechtsträgerin
+  Albert Freise GmbH (Nord-West-Ring 33 und 38a) - **kein** Registerbeleg für den Seed. Der bisher gespeicherte
+  Produktionspunkt 51.9094/8.7317 (rund 2,3 km entfernt) wird durch diesen Punkt ersetzt; `clear_fields: 'geo'`
+  entfällt, weil die Koordinate nun belegt vorliegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/339505119/full.json ;
+  https://www.ebay.de/usr/kfz-gregorz ;
+  https://www.dasoertliche.de/Themen/Autoverwertung-KFZ-Meisterbetrieb-Gregorz-Schrott-und-Autoverwertung-Augustdorf-Nord-West-Ring ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gregorz
+  (Abruf 03.11.2026).]

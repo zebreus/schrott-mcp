@@ -71,3 +71,24 @@ zwischen Impressum und AGB.
 - [Recherche 29.10.2026: **ANKAUF- und VERKAUF-Seiten erneut geprüft; der Preismechanismus, nicht eine Preisliste, ist der belegbare Befund.** Die Materialseite Kupfer (https://www.schrott24.de/altmetall-ankauf/kupfer/) trägt den Hinweis „*Preise sind abhängig von Ihrem Standort und der gewählten Transportart. Angezeigt werden Maximalpreise aus Deutschland und Österreich. Bei größeren Mengen können ggf. auch höhere Preise erzielt werden.“ und die Angabe „1 kg reines Kupfer liegt durchschnittlich zwischen 4 - 6 Euro“, mit dem Zusatz, der tatsächliche Preis richte sich nach den tagesaktuellen Entwicklungen an der London Metal Exchange. Die Zahlenwerte der Materialkarten werden per JavaScript nachgeladen und waren am 29.10.2026 im statischen HTML **nicht** enthalten; ein datierter Live-Quote für Hessen ist damit **nicht** belegt und wird **nicht** übernommen. VERKAUF: die Navigation „Altmetall kaufen“ führt zu einem B2B-Portal („METALOOP IST UNSER B2B-PORTAL“) ohne öffentlich ausgewiesene Verkaufspreise; eine Festpreisliste bleibt offen. Quelle(n): https://www.schrott24.de/altmetall-ankauf/kupfer/ ; https://www.schrott24.de/faq/ ; Abruf 29.10.2026.]
 - [Recherche 29.10.2026: **Rechtsträger- und Geltungsbereichsfrage bleibt offen, Impressum und AGB wurden erneut gelesen.** Die Impressum-Seite nennt weiterhin **Metaloop Europe GmbH** (Graz, Österreich), die AGB-Seite spricht weiterhin von **Schrott24 GmbH**; beide Seiten liefern am 29.10.2026 HTTP 200. Die AGB-Klauseln (Storno nach 12 Stunden: 5 % des Warenwerts bzw. 20 EUR bei Warenwert unter 400 EUR; 2 % bei PayPal-Auszahlung) enthalten weiterhin Österreich-spezifische Details; ihre Anwendung auf einen deutschen Hessen-Vertrag ist **nicht** belegt und bleibt eine offene Frage für den Owner. Die Partneradressen in Frankfurt und Bischofsheim bei Mainz sind weiterhin **nicht** öffentlich; der Hessen-Bereich wird auf https://www.schrott24.de/standorte/schrottplatz-hessen/ geführt. Für den hessenweiten Portaleintrag wird weiterhin **keine** Adresse und **keine** Koordinate abgeleitet. Quelle(n): https://www.schrott24.de/faq/impressum/ ; https://www.schrott24.de/faq/agb/ ; https://www.schrott24.de/standorte/schrottplatz-hessen/ ; Abruf 29.10.2026.]
 - [Recherche 29.10.2026: **Frontmatter: `website_status` von leer auf `aktiv` gesetzt, alle übrigen Felder bleiben unverändert.** Am 29.10.2026 liefern die Startseite, die FAQ-, Support-, AGB- und Impressumseite sowie die Hessen-Standortseite **ausnahmslos HTTP 200** mit vollständigem Inhalt; die Domain ist damit technisch und inhaltlich in Betrieb. `website` (https://www.schrott24.de/), `status: aktiv`, `trader_type: schrotthaendler`, `city: hessenweit` sowie die leeren Adress-, Kontakt- und Öffnungszeitfelder bleiben unverändert; es wird weiterhin **keine** Adresse und **keine** Koordinate für den bundesweiten Portaleintrag abgeleitet. Quelle(n): https://www.schrott24.de/ ; https://www.schrott24.de/faq/ ; https://www.schrott24.de/standorte/schrottplatz-hessen/ ; Abruf 29.10.2026.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Das Dossier fuehrt die Owner-Direktive
+  `clear_fields: 'geo'`; der Token bleibt bestehen. Das Dossier hat **keine Dossier-Adresse** (`street` und
+  `postcode` leer, `city` = "hessenweit") und beschreibt keinen einzelnen Standort: Die Hessen-Landingpage
+  nennt Frankfurt und Bischofsheim (bei Mainz) ausdruecklich als **Partnerstandorte**, und konkrete
+  Annahmeadressen und -zeiten werden laut Support **erst nach dem Online-Verkaufsabschluss** mitgeteilt
+  ("Genau(e) Anlieferadresse und Oeffnungszeiten erhalten Sie nach Verkaufsabschluss automatisch per E-Mail");
+  der Auftritt ist damit ein Online-Ankaufportal mit Partnerbetrieben, kein Standortbetrieb mit offengelegter
+  Anschrift. Quelle 1 (Betreiber/Register): es fehlt - das Impressum nennt die **Metaloop Europe GmbH**
+  (Sitz Graz, Oesterreich), die AGB-Seite dagegen die **Schrott24 GmbH**; die Betreiber-/Vertragskette und die
+  Uebertragbarkeit einzelner AGB-Klauseln auf Hessen sind im Dossier ausdruecklich offen. Quelle 2 (OSM):
+  **nicht anwendbar** - es existiert keine Dossier-Hausnummer, nach der gesucht werden koennte; eine
+  Geokodierung eines der Partnerstandorte wuerde einen Standort suggerieren, der vom Betreiber bewusst erst
+  nach Verkaufsabschluss mitgeteilt wird. Der read-only Produktionsabruf am 23.10.2026 zeigte fuer diese
+  Zeile `lat`/`lon` = NULL (`clear_fields: 'geo'` greift). Es wird **keine** Koordinate erfunden; `status`
+  bleibt `aktiv`, weil die Plattform selbst aktiv ist - die Standortangabe bleibt es nicht.
+  Quelle(n): https://www.schrott24.de/ ; https://www.schrott24.de/faq/impressum ;
+  https://www.schrott24.de/faq/agb/ ; https://www.schrott24.de/faq/ ;
+  https://www.schrott24.de/standorte/schrottplatz-hessen/ ; read-only `public.db` (Abruf 03.11.2026)]

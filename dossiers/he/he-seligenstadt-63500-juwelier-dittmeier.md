@@ -57,3 +57,32 @@ Betreiber-Einzelbeleg: Juwelier Dittmeier, vertreten durch G. Acar, Aschaffenbur
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 3141 berechtigt, eingearbeitet — street 'Aschaffenburger Str.' → 'Aschaffenburger Str. 18', city 'Seligenstadt 63500' → 'Seligenstadt'; phone 06182 21961, email info@juwelier-dittmeier.eu (Kontaktseite; Impressum nennt abweichend dittmeierjuwelier@gmx.de als Vermerk), opening_hours Mo-Fr 10-18/Sa 10-14/So geschlossen; Betreiber G. Acar; website_status aktiv, status bleibt pruefung (keine HR-Angabe, keine 2. Quelle). Quelle(n): https://juwelier-dittmeier.eu/kontakt/, https://juwelier-dittmeier.eu/impressum/ (Abruf 01.10.2026)]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **18** auf der "Aschaffenburger Straße" existiert in OSM **nicht**: das live abgefragte
+  Kachelraster ueber den Seligenstaedter Stadtbereich (Rasterfenster 8.8400/50.0000 bis 8.9100/50.0600,
+  0,01-Grad-Kacheln ueber `scripts/release/osm_street_scan.py`, 56 Kacheln, 0 Fehler) weist **393 verschiedene
+  Strassennamen** mit Adressobjekten aus - darunter "Frankfurter Straße", "Seligenstädter Straße",
+  "Hochstädter Straße", "Ludwigstraße", "Nordring" und "Rheinstraße" - aber **keine** "Aschaffenburger Straße"
+  und **kein** Adressobjekt mit der Hausnummer 18 auf dieser Strasse. Ein Objekt mit Betriebsbezug zu
+  "Dittmeier" oder "Juwelier" existiert im Raster ebenfalls **nicht**; der einzige Treffer zur Wortmarke
+  "Juwelier" ist der OSM-Knoten **node/7274902220** bei 50.0284410/8.8846740 mit dem **wörtlichen Vermerk
+  "kein Juwelier hier - entgegen anderen Angaben im Internet"** (angelegt am 07.03.2020) - er liegt 29 m vom
+  Adressobjekt Ludwigstraße 54 und 33 m von Hochstädter Straße 11 entfernt, also im alten Ortskern, in dem der
+  Betreiber seinen Sitz nennt. Quelle 1 (Betreiber, im Dossier bereits zitiert und am 03.11.2026 erneut live
+  gelesen): das Impressum https://juwelier-dittmeier.eu/impressum/ nennt woertlich "JUWELIER DITTMEIER /
+  Vertreten durch: G. Acar / Aschaffenburger Str. 18, 63500 Seligenstadt, Deutschland / Steuernummer.: 044 801
+  04037 / USt-IdNr.: DE 35 12 76 4 91" - die Anschrift ist damit betreiberseitig belegt. Quelle 2 (OSM): der
+  genannte Knoten node/7274902220 sowie das Kachelraster (live, oben); die zweite Quelle widerspricht der
+  Ortsangabe **nicht** belegbar, sie belegt die Strasse "Aschaffenburger Straße" im Umfeld einfach **nicht**.
+  Der Widerspruch zwischen dem Betreiber-Impressum ("Aschaffenburger Str. 18") und dem OSM-Vermerk "kein
+  Juwelier hier" ist damit **offen** und wird hier als solcher festgehalten: ohne in OSM belegtes Adressobjekt
+  wird **keine** Koordinate erfunden und kein Nachbarobjekt als Ersatzpunkt missbraucht. Der gespeicherte
+  Altpunkt 50.0432/8.9739 (Mauergasse 38) wird mit `clear_fields: 'geo'` ohnehin zurueckgenommen. `status`
+  bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/7274902220.json ;
+  `scripts/release/osm_street_scan.py` (Kachelraster) ;
+  https://juwelier-dittmeier.eu/impressum/ ; https://juwelier-dittmeier.eu/kontakt/ ;
+  read-only `public.db` (Abruf 03.11.2026)]

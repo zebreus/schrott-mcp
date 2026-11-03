@@ -1,12 +1,13 @@
 ---
 slug: he-offenbach-am-main-autoverwertung-kitsakis
+lat: 50.1068566
+lon: 8.8009095
 name: Autoverwertung Kitsakis GmbH
 trader_type: autoverwertung
 state: HE
 city: Offenbach am Main
 street: Lämmerspieler Weg 151
 postcode: '63075'
-clear_fields: 'geo'
 phone: ''
 email: ''
 opening_hours: ''
@@ -71,3 +72,32 @@ eine andere Straße und eine andere Postleitzahl, rund 2,6 km entfernt; er wird 
 - [Recherche 29.10.2026: **Amtliche Gegenprobe: keine Anerkennung nach AltfahrzeugV dokumentiert.** Die Ortsseite Offenbach am Main des amtlichen Fachbetrieberegisters (Auszug 11.08.2026, Postleitzahlen 63071 und 63075) führt **4 anerkannte Betriebe** (ESO Offenbacher Dienstleistungsgesellschaft mbH Umschlaghalle Dieselstraße 37; ESO Stadtservice GmbH Daimlerstraße 8; ESO Stadtservice GmbH Wertstoffhof Schadstoffsammelstelle Dieselstraße 37; Saubermacher Recycling GmbH Brockmannstraße 39) und **keinen** „Kitsakis“; ein anerkannter **Demontagebetrieb** ist in Offenbach am Main **nicht verzeichnet**. Das Fehlen ist ein **Hinweis ohne Beweiswert**: für die Tätigkeit „Autoverwertung“ ist eine Anerkennung nach AltfahrzeugV zu erwarten, eine Efb-Anzeige für reine Schrotthandels- oder Vermittlungstätigkeit nicht, und der Registerumfang umfasst die Postleitzahlen 63071 und 63075, die Seed-Postleitzahl 63069 ist nicht enthalten. Quelle(n): https://schrottregister.pages.dev/ort-offenbach-am-main ; Abruf 29.10.2026.]
 - [Recherche 29.10.2026: **ANKAUF, VERKAUF und GEBÜHREN getrennt geführt.** ANKAUF: belegt ist der Ankauf von gebrauchten Kraftfahrzeugen, Ersatzteilen und **Schrottwaren** allein durch den Registergegenstand; eine bezifferte Ankaufpreisliste, eine Abnahmegebühr, Mindestmengen oder Annahmezeiten sind **nicht** belegt, und die Seed-Notiz „Schrottankauf nur KFZ-bezogen“ ist durch den Registergegenstand **nicht** gedeckt (Schrottwaren sind ausdrücklich genannt) und wird hier **nicht** geändert, sondern als offene Frage geführt. VERKAUF: belegt ist der Verkauf von gebrauchten Kraftfahrzeugen und Ersatzteilen allein durch den Registergegenstand; eine öffentliche Verkaufs- oder Ersatzteilpreisliste existiert nicht. GEBÜHREN: **keine** Tarife; eine kostenlose Annahme oder Entsorgung wird nicht unterstellt, und die Abfallgebühren der Stadt Offenbach am Main sind **kommunale** Tarife und **keine** Betreibergebühr. Quelle(n): https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ; Abruf 29.10.2026.]
 - [Recherche 29.10.2026: **GEO-Befund und Frontmatter-Füllung.** Der in Produktion gespeicherte Punkt 50.104/8.76496666666667 löst per Reverse-Geocoding auf **„Zentner Scherer Sanitätshaus, 1-7, Bieberer Straße, Zentrum, Offenbach am Main, 63065“** auf (Bereichsnummer 1-7, Sanitätshaus), also auf eine **andere Straße** und eine **andere Postleitzahl** als die registerbelegte Geschäftsanschrift Lämmerspieler Weg 151 (63075), rund **2,6 km** entfernt; er wird mit `clear_fields: 'geo'` zurückgezogen. Belegt übernommen werden street Lämmerspieler Weg 151 und postcode 63075 (amtliches Handelsregister, Primärquelle) sowie status aktiv (Registerauszug „aktuell“, ausdrücklicher Schrottwaren-Gegenstand) und description (Registerangaben). `phone`, `email`, `opening_hours` und `website` bleiben **leer**: das Register nennt keine Kontaktdaten, und eine Betreiberwebsite oder ein Impressum ist nicht auffindbar; `website_status` bleibt `unbekannt`. Der Typ `autoverwertung` bleibt unverändert. Offen bleiben: die Seed-Angabe „seit 1977“ (der Registerauszug nennt den Gesellschaftsvertrag vom **27.11.1980**; ein vorgezogenes Bestehen ist nicht belegt und wird **nicht** geändert), eine öffentliche Annahmestelle, Annahmezeiten, eine etwaige Demontage-Anerkennung nach AltfahrzeugV und der Umfang des Schrottankaufs außerhalb des KFZ-Bezugs. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.104&lon=8.76496666666667&zoom=18&addressdetails=1 ; https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ; Abruf 29.10.2026.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.1068566/8.8009095**. Quelle 1 (OSM, live geladen):
+  `way/190947370` traegt `addr:housenumber`=151, `addr:street`=Lämmerspieler Weg, `addr:city`=Offenbach am Main,
+  `addr:postcode`=63075, `building`=yes; der Way hat 4 eindeutige Knoten (BBox 8.8007892/50.1067907 bis
+  8.8010297/50.1069226), der Mittelwert der eindeutigen Knoten liegt bei 50.1068566/8.8009095 und damit innerhalb
+  der Objekt-BBox. Das Objekt traegt **weder** `name` **noch** `operator` **noch** `website`; ein Objekt mit Bezug
+  zu "Kitsakis" ist an dieser Anschrift in OSM nicht erfasst - der Punkt bezeichnet daher die belegte
+  Geschaeftsanschrift, keine verifizierte Zufahrt, Waage oder Demontagehalle. Quelle 2 (Register, im Dossier
+  bereits zitiert): das **amtliche Handelsregister** fuehrt die **Autoverwertung Kitsakis GmbH**, Amtsgericht
+  Offenbach am Main, **HRB 5001**, Status "aktuell", mit der **Geschaeftsanschrift Lämmerspieler Weg 151, 63075
+  Offenbach am Main** und dem Unternehmensgegenstand "An- und Verkauf von gebrauchten Kraftfahrzeugen,
+  Ersatzteilen und Schrottwaren sowie Abschleppdienst"; die Identitaet ist am 03.11.2026 zusaetzlich live ueber
+  den Seitentitel des Registerspiegels bestaetigt ("Autoverwertung Kitsakis GmbH, Offenbach a. Main,
+  Amtsgericht Offenbach am Main HRB 5001"). Abrufgrenze: eine erneute Live-Abfrage des Registerportals war am
+  03.11.2026 nicht moeglich (Sitzungs-basierte Suche), der Registerspiegel antwortete beim Wiederholungsabruf
+  mit HTTP 429 - der Registerauszug ist deshalb wortgleich aus der Dossier-Notiz vom 29.10.2026 uebernommen.
+  **Der `clear_fields: 'geo'`-Eintrag wurde mit dem Setzen der Koordinate entfernt** (ein gleichzeitiges
+  `clear_fields: 'geo'` neben belegtem `lat`/`lon` waere vom Seed ohnehin ungueltig); die Direktive hatte den
+  **nachweislich falschen** gespeicherten Produktionspunkt 50.104/8.76496666666667 (Zentner Scherer
+  Sanitaetshaus, Bieberer Strasse 1-7, 63065, rund 2,6 km entfernt) zurueckgenommen - dieser wird durch den
+  belegten Punkt ersetzt. Offen bleiben im Dossier Annahmezeiten, eine oeffentliche Annahmestelle, der Umfang des
+  Schrottankaufs und eine Demontage-Anerkennung nach AltfahrzeugV (im amtlichen Fachbetrieberegister ist fuer
+  Offenbach am Main kein Demontagebetrieb verzeichnet); davon wird durch den Punkt nichts behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/190947370/full.json ;
+  https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ;
+  https://www.northdata.de/Autoverwertung+Kitsakis+GmbH,+Offenbach+am+Main/Amtsgericht+Offenbach+am+Main+HRB+5001 ;
+  https://schrottregister.pages.dev/ort-offenbach-am-main (Abruf 03.11.2026)]

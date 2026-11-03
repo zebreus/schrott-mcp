@@ -1,6 +1,7 @@
 ---
 slug: he-kassel-bettenhausen-bachmann-matthias-autoverwertung
-clear_fields: 'geo'
+lat: 51.3073104
+lon: 9.5438377
 name: Matthias Bachmann Autoverwertung GmbH & Co. KG
 trader_type: autoverwertung
 state: HE
@@ -68,3 +69,37 @@ Der aktuelle Betreiberauftritt nennt **Matthias Bachmann Autoverwertung GmbH & C
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Erneut direkt gelesene Betreiberseiten/Impressum bestätigen Matthias Bachmann Autoverwertung GmbH & Co. KG, HRA 7347 AG Kassel, Heiligenröder Straße 45, 34123, 0561 523934 und info@bachmann-ks.de; NorthData ist kongruent. Daher `name`, Website/aktiv-Status und leere Kontaktfelder auf Betreiberstand gebracht; die Seite „Fahrzeugankauf“ bietet defekte Fahrzeuge aller Marken/Modelle mit individueller Bewertung und nach Angebotsannahme Abholung/Transport, jedoch keinen Zahlenkurs. Verkauf gebrauchter Teile wird beworben; der verlinkte Shop lieferte beim Abruf HTTP 402, daher keine aktuellen Verkaufspreise verifiziert. GEBÜHREN: keine Tabelle, keine kostenlose Entsorgung behauptet. Das Betreiber-PDF zur §5-Zertifizierung endet am 24.12.2024; kein aktueller Zertifizierungsnachweis. GEO: Adresse bestätigt, Zufahrt/Hofpunkt separat prüfen; keine Koordinaten gesetzt. Quelle: https://www.bachmann-ks.de/impressum/; https://www.bachmann-ks.de/unternehmen/; https://www.bachmann-ks.de/fahrzeugankauf/; https://www.bachmann-ks.de/autoverwertung/; https://www.bachmann-ks.de/wp-content/uploads/2023/12/Zertifikat-2023-2024.pdf; https://www.northdata.de/Matthias+Bachmann+Autoverwertung+GmbH+%26+Co.+KG,+Kassel/Amtsgericht+Kassel+HRA+7347; https://shop.bachmann-ks.de/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.3073104/9.5438377**. Quelle 1 (OSM, live geladen):
+  `way/297011027` traegt `name=Bachmann Autoverwertung`, `addr:housenumber`=45,
+  `addr:street`=Heiligenröder Straße, `landuse`=industrial; der Way hat 5 eindeutige Knoten (BBox
+  9.5427487/51.3067332 bis 9.5448383/51.3081432), der Mittelwert der eindeutigen Knoten liegt bei
+  51.3073104/9.5438377 und damit innerhalb der Objekt-BBox. Das Objekt benennt damit **den Betrieb selbst**
+  an der Dossier-Hausnummer. Das live abgefragte Kachelraster ueber den Strassenverlauf der Heiligenroeder
+  Strasse (Rasterfenster 9.5100/51.2900 bis 9.5900/51.3500, 0,01-Grad-Kacheln ueber
+  `scripts/release/osm_street_scan.py`, 63 Kacheln, 0 Kachel-Fehler) weist auf der Strasse **197 Adressobjekte**
+  mit **159 verschiedenen Hausnummern** aus; die Dossier-Hausnummer **45** ist dabei **dreifach** belegt:
+  `way/297011027` (der Betrieb, `name=Bachmann Autoverwertung`), `way/211248310`
+  (`addr:housenumber`=45, `addr:street`=Heiligenröder Straße, `building`=yes) und `node/10278696067`
+  (`addr:housenumber`=45, `addr:city`=Niestetal). Weitere benannte Objekte der Strasse sind Fremdbetriebe
+  (u. a. `name=Bayer Fahrzeug Reparaturen` und `name=Bayer Fahrzeugrtechnik` an der Nummer 17,
+  `name=Autohaus Hetzler` an der Nummer 27, `name=B.O.C.` an der Nummer 21) - **kein** weiterer Objektbezug zu
+  "Bachmann" oder "Matthias Bachmann". Quelle 2 (Betreiber/Register, im Dossier bereits zitiert und am
+  03.11.2026 erneut live gelesen): die Betreiberseite https://www.bachmann-ks.de/ fuehrt in Seitenkopf und
+  Fusszeile die Anschrift woertlich "Heiligenroder Straße 45, 34123 Kassel" mit `info@bachmann-ks.de` und
+  0561 / 52 39 34 und bewirbt die Autoverwertung mit Ankauf defekter Fahrzeuge und dem Verkauf gebrauchter
+  Ersatzteile; das Impressum nennt HRA 7347 AG Kassel, kongruent zum NorthData-Profil. Betrieb, Hausnummer,
+  Straße, PLZ und Ort decken sich damit unabhaengig von OSM mit dem gesetzten Punkt.
+  **Der `clear_fields: 'geo'`-Eintrag wurde mit dem Setzen der Koordinate entfernt** (ein gleichzeitiges
+  `clear_fields: 'geo'` neben belegtem `lat`/`lon` waere vom Seed ohnehin ungueltig); die Direktive hatte den
+  **nicht zuordenbaren** Altpunkt 51.3157909/9.4767182 zurueckgenommen - dieser wird durch den belegten Punkt
+  ersetzt. Der Punkt bezeichnet die belegte Autoverwertungsanlage, nicht eine verifizierte Zufahrt oder Waage;
+  Annahmezeiten fuer lose Altmetalle sind weiterhin nicht belegt und werden nicht behauptet. `status` bleibt
+  `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/297011027/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/211248310/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/10278696067.json ;
+  https://www.bachmann-ks.de/ ; https://www.bachmann-ks.de/impressum/ ;
+  https://www.northdata.de/Matthias+Bachmann+Autoverwertung+GmbH+%26+Co.+KG (Abruf 03.11.2026)]

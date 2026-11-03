@@ -60,3 +60,29 @@ Klärfall zum früheren Betreiber Klaus Reining. Die Vorrecherche dokumentiert e
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: erneute Prüfung der heutigen Betreiberseite bestätigt weiterhin Containerdienst Schaafheim unter Salih Gencsoy seit Mai 2020 an Ringstraße 7; der Webauftritt beschreibt Containertransport/Entsorgung unter anderem für Metalle/Schrott, aber keinen eindeutig belegten Ankauf mit Auszahlung. Das ist vom ungeklärten historischen Datensatz Klaus Reining, Karlstr. 1 / Tel. 06073 9009, getrennt zu halten. ANKAUF: nicht bestätigt, keine Ankaufspreise; VERKAUF: keine Preisliste; GEBÜHREN: keine numerische Container-/Entsorgungsgebühr, individuelle Anfrage. Kein Frontmatter-Fill oder Merge. Offen: Status/Abmeldung des früheren Betriebs und etwaige Rechtsnachfolge. Quelle(n): https://containerdienst-schaafheim.de/; https://containerdienst-schaafheim.de/datenschutz]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Adresse **Karlstr. 1, 64850 Schaafheim** ist in OSM als `way/799842912` erfasst
+  (`addr:housenumber`=1, `addr:street`=Karlstraße, `addr:city`=Schaafheim, `addr:postcode`=64850,
+  `addr:country`=DE, `building`=yes; live geladen am 03.11.2026, HTTP 200, 4 eindeutige Knoten, BBox
+  9.0062167/49.9240450 bis 9.0065348/49.9242251, Mittelwert der eindeutigen Knoten 49.9241344/9.0063775);
+  das Objekt traegt **weder** `name` **noch** `operator` und benennt **weder** den Altbetrieb Klaus Reining
+  **noch** den Nachfolger. Quelle 1 (Betreiber/Register): **fehlt fuer diese Anschrift** - der heute dort
+  betriebene Containerdienst Schaafheim (Salih Gencsoy) sitzt laut Betreiberauftritt (live gelesen am
+  28.10.2026, `Seo-DTvtlKDA.js` und `UeberUns-CamdrXxU.js` von https://www.containerdienst-schaafheim.de/) an
+  **Ringstraße 7**, 64850 Schaafheim; die Ringstraße-7-Adresse wird ausdruecklich **nicht** auf
+  Klaus Reining uebertragen und die beiden Reining-Zeilen werden nicht zusammengefuehrt. Das Dossier
+  haelt fest: "GEO: Karlstraße 1 nicht auf Ringstraße 7 verschieben; zuerst Altgewerbe/Abmeldung und
+  Uebernahme klaeren"; die Nachfolgekette ist durch das Impressum des Nachfolgers (Platzhalter fuer
+  Rechtsform/USt-ID) **nicht** unabhaengig belegt, `containerdienst-reining.com` ist nicht im DNS und Klaus
+  Reining ist in keinem Register erfasst - die Existenz der Klaus-Reining-Entitaet nach dem Wechsel 2020
+  bleibt unbewiesen, ein Loesch- oder Schliessungsbeleg fehlt. Quelle 2 (OSM): way/799842912 (live, oben).
+  Der gespeicherte Altpunkt 49.9242/9.0094 (Im Herrngarten 6a) wird mit `clear_fields: 'geo'` ohnehin
+  zurueckgenommen. Es wird **keine** Koordinate erfunden; `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/799842912/full.json ;
+  https://www.containerdienst-schaafheim.de/ ;
+  https://www.containerdienst-schaafheim.de/assets/Seo-DTvtlKDA.js ;
+  https://www.containerdienst-schaafheim.de/assets/Impressum-DA8ZMBv_.js ;
+  https://schrottregister.pages.dev/ort-schaafheim ; read-only `public.db` (Abruf 03.11.2026)]

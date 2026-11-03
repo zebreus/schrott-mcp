@@ -63,3 +63,26 @@ Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ i
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Erneute Suche nach exaktem Namen, Pfungstadt und „Schrott“ ergab keine neue Betreiber-, Register- oder kommunale Quelle. Der frühere Tulpenweg-3-/64319-/06157-9110132-Treffer bleibt ein Verzeichnislead; die bereits dokumentierte Entfernung dieser Felder aus Frontmatter wird bestätigt. Negativbefund ist kein Nichtexistenz-/Schließungsnachweis. ANKAUF: nicht bestätigt/keine Zahlenpreise; VERKAUF/GEBÜHREN: keine Listen. Kein verifizierter Standort für GEO. Quelle/Suchweg: https://www.northdata.de/?query=Stein%20Alexander-Sebastian%20Pfungstadt; https://www.11880.com/; https://pfungstadt.stadtbranchenbuch.com/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **3** auf dem "Tulpenweg" in Pfungstadt existiert in OSM **nicht**: das am 03.11.2026 live
+  abgefragte Kachelraster ueber den Pfungstaedter Ortsbereich (Rasterfenster 8.5700/49.7850 bis 8.6400/49.8250,
+  0,01-Grad-Kacheln ueber `scripts/release/osm_street_scan.py`, 40 Kacheln, 0 Fehler) liefert **0 Objekte**
+  mit dem Strassennamen "Tulpenweg" und **kein** Adressobjekt mit der Hausnummer 3 - die Strasse selbst ist
+  in OSM an dieser Stelle nicht kartiert. Quelle 1 (Betreiber/Register): **fehlt** - fuer "Stein
+  Alexander-Sebastian" existiert weder eine Betreiberseite noch ein Impressum noch ein Register- oder
+  Northdata-Treffer; der Dossier-Beleg ist ausschliesslich ein **Verzeichnislead** (Darmstadt Post:
+  "Alexander-Sebastian Stein Schrotthandel, Tulpenweg 3, 64319 Pfungstadt, Tel. 06157 9110132"; dazu die
+  aelteren 11880- und Stadtbranchenbuch-Eintraege), der nach dem Quellenstandard kein Beleg ist; die dort
+  gezeigte Bewertung ist kein Nachweis laufender Annahme, und das Dossier fuehrt street/postcode/phone
+  deshalb ausdruecklich **nicht** als Frontmatter-Werte. Quelle 2 (OSM): das Kachelraster (live, oben); ohne
+  Adressobjekt kann kein Punkt gebildet werden. Der gespeicherte Altpunkt 49.8056/8.6031 (Rügnerstraße 67c)
+  wird mit `clear_fields: 'geo'` ohnehin zurueckgenommen; er loest zudem auf eine **andere** Strasse als
+  die Verzeichnisangabe "Tulpenweg 3" auf. Es wird **keine** Koordinate erfunden; `status` bleibt `pruefung`,
+  und die offene Frage der kommunalen Gewerberegister-Auskunft bleibt offen.
+  Quelle(n): `scripts/release/osm_street_scan.py` (Kachelraster) ;
+  https://darmstadt-post.de/unternehmen/pfungstadt/schrotthandel/alexander-sebastian-stein-schrotthandel-493/ ;
+  https://pfungstadt.stadtbranchenbuch.com/ ;
+  read-only `public.db` (Abruf 03.11.2026)]

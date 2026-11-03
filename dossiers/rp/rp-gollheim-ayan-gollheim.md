@@ -52,3 +52,27 @@ Göllheimer Seed ungeklärt. Die Betreiberwebsite schrotthandel-ayan.de nennt Re
 - Königkreuzstr. 13
 - urspr. Website-Angabe: keine
 - Adresse: Göllheim
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, weil die Zeile keine belegte Göllheimer Anschrift
+  hat.** Das Dossier trägt `city`=**Göllheim**, aber `street` und `postcode` sind **leer**: die importierte
+  Straßenangabe „**Königkreuzstr. 13**“ wurde am 10.10.2026 bewusst **geleert**, weil sie nur ein Seed-Lead ohne
+  Bestätigung ist. **Was geprüft wurde (live am 03.11.2026):** (a) Die **Betreiber-Website**
+  (https://www.schrotthandel-ayan.de/impressum, live abgerufen 03.11.2026) nennt „**Resul Ayan, Autorecycling,
+  Schrotthandel und Containerdienst, Kaiserstraße 5, 67725 Börrstadt**“ - **keine** Göllheimer Filiale und **keine**
+  Göllheimer Anschrift; die Materialankaufseite (https://www.schrotthandel-ayan.de/materialankauf, live abgerufen
+  03.11.2026) bewirbt denselben Standort in **Börrstadt**. Die Adresse dieser Zeile ist damit **nicht** belegt.
+  (b) Die **Straße Königkreuzstraße** existiert in Göllheim zwar in OSM (way/159383387, `highway`=tertiary,
+  `name`=Königkreuzstraße, `ref`=K 86, `sidewalk`=both), trägt aber **kein** `addr:housenumber`; eine Suche nach
+  `addr:housenumber`=13 auf dieser Straße im Kachelraster über **bbox=8.0400,49.5800,8.0700,49.6000** (live
+  abgerufen 03.11.2026) liefert **0 Objekte** - die **Hausnummer 13 ist dort nicht belegt**. (c) Eine Suche über
+  **alle** Tag-Werte nach „ayan“ bzw. einem Schrott-/Metallbetrieb im Raster liefert **0 Objekte**, die **den eigenen
+  Betrieb** nennen. **Was fehlt:** ein **Betreiber- oder Registerbeleg** für einen **Göllheimer** Standort; die im
+  Dossier dokumentierte Namensvetter-Kette (derselbe Betreiber sitzt in **Börrstadt**, das Dossier
+  `rp-borrstadt-ayan-borrstadt` ist davon getrennt geführt) schließt eine Übernahme der Börrstadter Adresse **aus**.
+  `status` bleibt **pruefung**, `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. Ein
+  **Nichtexistenz- oder Schließungsbeweis** ist damit **nicht** verbunden. Quelle(n):
+  https://www.schrotthandel-ayan.de/impressum ; https://www.schrotthandel-ayan.de/materialankauf (live abgerufen
+  03.11.2026) ; https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0400,49.5800,8.0700,49.6000 (Kachelraster, live
+  abgerufen 03.11.2026).]

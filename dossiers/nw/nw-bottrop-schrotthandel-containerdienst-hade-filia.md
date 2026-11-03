@@ -54,3 +54,39 @@ Die ursprünglich importierte **Brackerstr. 74** ist eine andere, unabhängige S
 ### Recherche 22.10.2026
 
 - [Korrektur 22.10.2026: Primärseiten gegengeprüft. Hädes eigener Auftritt beschreibt das Unternehmen als in Ratingen-Lintorf ansässig und nennt keinen Bottroper Zweig; die Seite trägt Copyright 2011 und liefert keinen aktuellen Beleg für eine Bottroper Filiale. Linkes aktuelle Betreiberseite nennt Polderstr. 107 als Bottroper Anschrift, nicht Brackerstr. 74. Deshalb ist die frühere Aussage „Brackerstr. 74 gehört zu Linke“ mit den jetzt gelesenen Seiten nicht erneut belegt und wird hier als ungeklärte historische Zuordnung gekennzeichnet, nicht als widerlegt. Kein Feld-/Statuswechsel: Betreiber und Nutzung der Brackerstr. 74 bleiben offen. ANKAUF/VERKAUF: Häde-Ratinger Aussagen nicht auf Bottrop übertragen; keine numerischen Kurse. GEBÜHREN: keine Bottrop-Tarife. Quellen: https://schrotthandel-haede.de/ ; https://linke-bottrop.de/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diesen Seed existiert **keine** belegte
+  Bottroper Betriebsadresse, und die einzige Kandidatenanschrift ist in OSM **nicht abbildbar**: Das am 03.11.2026
+  nachgeladene Kachelraster über den Bottroper Stadtbereich einschließlich Batenbrock (6.9100/51.5200 bis
+  6.9300/51.5500, **6 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst **111 verschiedene Straßen** mit Adressobjekten - eine
+  Straße **„An der Knippenburg“** ist darunter **nicht**, und eine Suche nach der Hausnummer 84 in Verbindung mit
+  „Knippenburg“ findet **kein** Objekt. Quelle 1 (Verzeichnis/Betreiber): der neu gefundene 11880-Detaillead
+  **„Schrotthandel Häde“** für Bottrop nennt **An der Knippenburg 84, 46238 Bottrop**, Telefon **02041 3489860** und
+  eine E-Mail-Adresse unter `schrotthandel-containerdienst.de` (Eintragsdaten 15.05.2026, Portalupdate 10.10.2026);
+  die Detailseite hat **keinen** Betreibertext und **kein** Impressum. Der eigene Betreiberauftritt
+  https://www.schrotthandel-haede.de/ beschreibt das Unternehmen ausdrücklich als in **Ratingen-Lintorf** ansässig
+  (Impressum: Marcus Häde, Kalkumer Str. 36, 40885 Ratingen) und nennt **keinen** Bottroper Zweig; die verlinkte Domain
+  `schrotthandel-containerdienst.de` lieferte beim Abruf am 23.10.2026 einen **Transportfehler** ohne Impressum.
+  Die **importierte** Seed-Adresse **Brackerstr. 74** gehört nachweislich zu einem **anderen** Betrieb: Linkes aktuelle
+  Betreiberseite https://linke-bottrop.de/abfallsortieranlage/ bezeichnet die Brakerstraße 74 ausdrücklich als
+  Herzstück des **Linke**-Standorts und nennt zugleich **Polderstr. 107** als Anliefer- und Kontaktadresse. Quelle 2
+  (OSM): das Kachelraster (live geladen am 03.11.2026, HTTP 200); ein Objekt mit Betriebsbezug zu „Häde“ findet sich
+  dort **nicht**. **Warum keine Koordinate:** Es liegen **drei** nicht zusammenführbare Spuren vor - die Seed-Adresse
+  Brackerstr. 74 (Linke), der neue 11880-Kandidat An der Knippenburg 84 (nur ein Verzeichniseintrag, ohne
+  Betreibertext und ohne OSM-Abbildung) und der Betreiberauftritt in **Ratingen** - und jede Zuordnung wäre eine
+  Behauptung über eine Filiale, die keine Quelle belegt; eine Ersatzkoordinate aus einem Nachbarobjekt oder der
+  Straßenmitte ist ausdrücklich **nicht** zulässig. **Was zur Auflösung fehlt:** ein Beleg, dass die Gesellschaft
+  **Schrotthandel + Containerdienst Häde GmbH** eine Bottroper Filiale an **An der Knippenburg 84** unterhält - etwa
+  ein Impressum der genannten Domain oder ein Registereintrag mit dieser Anschrift - sowie eine Kartierung dieser
+  Straße in OSM. Der bisher gespeicherte Produktionspunkt 51.53954/6.92652 (laut read-only-Abgleich vom 23.10.2026)
+  wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`,
+  `clear_fields: 'dropoff_json,geo'` und alle übrigen Felder bleiben unverändert; eine Schließung oder Auflösung wird
+  **nicht** behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9100,51.5200,6.9300,51.5500 ;
+  https://www.11880.com/branchenbuch/bottrop/060440090B112833095/schrotthandel-haede.html ;
+  https://www.schrotthandel-haede.de/impressum.html ;
+  https://linke-bottrop.de/abfallsortieranlage/ ;
+  https://www.11880.com/branchenbuch/essen-ruhr/120674719B102132131/schrotthandel-containerdienst-haede-gmbh-rene-haede.html
+  (Abruf 03.11.2026).]

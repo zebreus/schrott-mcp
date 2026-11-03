@@ -52,3 +52,40 @@ Der Erftstädter Lead „Richard Liesegang GmbH & Co. KG“, Seestr. 2 C, 50374 
 
 - Schrott (GS)
 - Adresse: Erftstadt
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für die Erftstädter Adresse fehlt die
+  Dossier-Hausnummer in OSM, und der Seed ist **kein** bestätigter Betrieb dieser Adresse. Das am 03.11.2026
+  nachgeladene Kachelraster über das Erftstädter Stadtgebiet einschließlich Liblar (6.7700/50.7900 bis
+  6.8300/50.8400, **30 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**; die Straßenauszählung ist zusätzlich über den
+  abrufbaren Einzelabruf 6.8100/50.8100 bis 6.8300/50.8300 reproduzierbar) erfasst die **Seestraße** in **50374
+  Erftstadt** mit **69 verschiedenen Hausnummern** (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 20a, 20b, 20c, 20d,
+  20e, 20f, 20g, 20h, 21, 22, 23, 23a, 23b, 23c, 24, 25, 25a, 26, 28, 29, 30, 32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43,
+  44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76) - eine Adressangabe **„Seestr. 2 C“** existiert
+  dort **nicht**; der nächstliegende Treffer ist way/199199144 mit
+  `addr:housenumber`=**2** (`addr:street`=Seestraße, `addr:city`=Erftstadt, `addr:postcode`=50374, `building`=yes,
+  `source`=BING), daneben unter anderem way/199199137 (8), way/199199139 (10), way/199199140 (12), way/199199138 (14),
+  way/199199143 (16), way/199199142 (18), way/199199141 (20) und way/106463943 (23c). Der Zusatz **„C“** aus der
+  Verzeichnisangabe ist in OSM **nicht** abgebildet - eine Zuordnung von „2 C“ auf die Nummer 2 wäre eine
+  Unterstellung. Quelle 1 (Betreiber): der Betreiberauftritt https://www.rl-liesegang.de/de/impressum/ und die
+  Kontaktseite https://www.rl-liesegang.de/de/kontakt/ nennen **Richard Liesegang GmbH & Co. KG, Kirchstr. 3,
+  50354 Hürth-Knapsack, HRA 18515** und beschreiben Abbruch, Demontage sowie Entsorgung und Schrottvermarktung **aus
+  Bauprojekten**; sie nennen **weder** die Seestraße in Erftstadt **noch** einen öffentlichen Schrottplatz oder eine
+  Anlieferung dort. Der Erftstädter 11880-Eintrag (Datensatz 29.06.2021, Portalaktualisierung 02.10.2026) führt
+  „Richard Liesegang GmbH & Co. KG“ als Altmaterial-/Schrotthandel an **Seestr. 2 C, 50374 Erftstadt-Liblar**,
+  Tel. 02235 9251-500, zeigt aber **„Website hinzufügen“** statt einer Betreiber-URL; NorthData führt dieselbe KG in
+  **Hürth**, nicht als Erftstädter Niederlassung. Quelle 2 (OSM): das Kachelraster sowie die genannten Objekte (live
+  geladen am 03.11.2026, HTTP 200). **Warum keine Koordinate:** Es fehlt sowohl die **Hausnummer** („2 C“ existiert
+  nicht) als auch die **Betreiberbindung** der Erftstädter Adresse an die belegte Rechtsträgerin (der Betreiberauftritt
+  nennt Hürth-Knapsack als Sitz und nennt die Erftstädter Adresse nicht); ein Punkt auf way/199199144 würde eine
+  Verbindung behaupten, die keine Quelle trägt. **Was zur Auflösung fehlt:** ein belegter Bezug der
+  Seestr. 2 C in Erftstadt zur Richard Liesegang GmbH & Co. KG **oder** eine Erfassung der Anschrift „2 C“ in OSM.
+  Der bisher gespeicherte Produktionspunkt 50.8148/6.7939 (laut read-only-Abgleich vom 23.10.2026) wird durch diese
+  Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields: geo` und alle übrigen Felder
+  bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8100,50.8100,6.8300,50.8300 ;
+  https://www.rl-liesegang.de/de/impressum/ ; https://www.rl-liesegang.de/de/kontakt/ ;
+  https://www.11880.com/branchenbuch/erftstadt/060440090B27108543/richard-liesegang-gmbh-co-kg.html ;
+  https://www.northdata.de/Richard%20Liesegang%20GmbH%20%26%20Co%C2%B7%20KG,%20H%C3%BCrth/Amtsgericht%20K%C3%B6ln%20HRA%2018515
+  (Abruf 03.11.2026).]

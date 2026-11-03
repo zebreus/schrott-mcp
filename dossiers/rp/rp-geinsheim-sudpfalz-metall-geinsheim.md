@@ -58,3 +58,36 @@ Die Namensvetter-Kette ist damit sauber getrennt: **Südpfalz Metall GmbH**, Jan
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: website_status auf tot gesetzt — die alte Domain ist kein erreichbarer Südpfalz-Metall-Auftritt mehr: www leitet auf eine sachfremde Domain um, die Apex-Domain zeigt sachfremde Adult-/Escort-Inhalte; das betrifft nur die Website, nicht den Betriebsstatus. Betreiberidentität und Adresse bleiben offen: eine nicht mehr reproduzierbare Suchindex-Spur zu „Benjamin Glaser, Böbinger Straße 9“ ist nicht als Beleg übernommen; dieselbe Hausnummer steht im Impressum der AH-Drucktechnik GmbH, also keine Bestätigung für Südpfalz Metall. Der ähnlich benannte Rohrbach-Auftritt nennt anderen Ort und Betreiber; keine Merge-Zuordnung. Keine Schließung belegt. Quelle(n): https://www.suedpfalz-metall.de/; https://suedpfalz-metall.de/; https://www.ah-drucktechnik.de/impressum.html; https://suedpfalzmetall-gmbh.de/; https://suedpfalzmetall-gmbh.de/impressum; https://suedpfalzmetall-gmbh.de/leistungen/; https://www.northdata.de/S%C3%BCdpfalz-Metall%20GmbH,%20Rohrbach/Amtsgericht%20Landau%20HRB%2033727]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Straße **Böbinger Straße** ist in OSM
+  **nicht** kartiert; die Dossier-Hausnummer **9** findet sich dort **nicht**, und die im Dossier dokumentierte
+  **Mehrfachnutzung** der Hausnummer 9 durch die **ah-drucktechnik GmbH** (HRB 64280) hätte einen Punkt auf ein
+  **fremdes** Gebäude gesetzt. **Was geprüft wurde (live am 03.11.2026):** (a) Das Kachelraster über
+  **bbox=8.1000,49.3300,8.1800,49.4000** (live abgerufen 03.11.2026) umfasst **Neustadt an der Weinstraße** und den
+  Ortsteil **Geinsheim** vollständig; die dort mit `addr:postcode`=**67435** belegten Straßen heißen unter anderem
+  **Altbachstraße, Am Hitzpfad, Bögnerweg, Erlenbergstraße, Freiherr-vom-Stein-Straße, Grüne Heide, Häuser,
+  Hildenbrandseck, Im Tal, Kapellenstraße, Kirchplatz, Kleingasse, Kurpfalzstraße, Loblocherstraße, Meerspinnstraße,
+  Peter-Koch-Straße, Pfarrhausstraße, Raiffeisenstraße, Rieslingweg, Rohgasse, Rosenstraße, Scheidweg,
+  Schießmauer, Schlesierstraße, Stabenbergstraße, Steinbruchweg, Talwiesenstraße, Zum Ordenswald** u. a. - eine Straße
+  namens **„Böbinger Straße“** existiert dort **nicht**; die ähnlichste Schreibweise ist **„Bögnerweg“** (ein
+  **anderer** Straßenname, keine Schreibvariante). (b) Eine Suche über **alle** Tag-Werte nach „südpfalz“, „suedpfalz“,
+  „glaser“ bzw. einem Metallbetrieb im Raster liefert **0 Objekte**, die **den eigenen Betrieb** nennen - der Betrieb
+  ist in OSM **nicht namentlich kartiert**. (c) Die **zweite Quelle** auf der Betreiberseite ist die archivierte
+  **Impressum-Seite** (Internet Archive, Snapshot 13.01.2026, live abgerufen 03.11.2026,
+  https://web.archive.org/web/20260113213658/https://suedpfalz-metall.de/index.php?option=com_content&view=article&id=2:impressum&catid=8:impressum&Itemid=239)
+  mit „**Südpfalz Metall, Benjamin Glaser, Böbinger Straße 9, 67435 Neustadt**“, USt-IdNr. **DE359650878** (vom
+  **EU-VIES** am 27.10.2026 als gültig bestätigt, im Dossier zitiert) - die **Adresse** ist damit zweifach belegt,
+  der **OSM-Punkt** fehlt. **Quelle 1 (Betreiber/Register):** das archivierte Impressum und der VIES-Beleg (im
+  Dossier zitiert). **Quelle 2 (OSM):** das Kachelraster und die obige Straßenliste (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1000,49.3300,8.1800,49.4000). **Was fehlt:** ein OSM-Objekt mit
+  `addr:street`=Böbinger Straße **und** `addr:housenumber`=9 (oder ein benanntes Betriebsobjekt an dieser Anschrift)
+  sowie die Klärung, welche der beiden Nutzer die Annahme betreibt - die im Dossier dokumentierte **Namensvetter-
+  Kette** zur **Südpfalz Metall GmbH, Janneck Knecht, Am Bellensee 6, 76865 Rohrbach, HRB 33727** (eigenes Dossier)
+  bleibt davon getrennt. `status` bleibt **pruefung**, `website_status` bleibt **tot** (Domain-Umleitung auf eine
+  sachfremde Domain), `phone`/`opening_hours` bleiben leer. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1000,49.3300,8.1800,49.4000 (Kachelraster, live abgerufen
+  03.11.2026) ;
+  https://web.archive.org/web/20260113213658/https://suedpfalz-metall.de/index.php?option=com_content&view=article&id=2:impressum&catid=8:impressum&Itemid=239
+  (live abgerufen 03.11.2026).]

@@ -1,6 +1,7 @@
 ---
 slug: rp-bad-kreuznach-weinand-entsorgung-recycling
-clear_fields: 'geo'
+lat: 49.8461187
+lon: 7.8772522
 name: Weinand Entsorgung / Recycling
 trader_type: schrotthaendler
 state: RP
@@ -59,3 +60,39 @@ Die Betreiberwebsite belegt am Schwabenheimer Weg 3, 55543 Bad Kreuznach, einen 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Entsorgung/Recycling, Container, Schrott (Branchenverzeichnis)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.8461187/7.8772522** (Mittel der eindeutigen
+  Knoten von way/608363839, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=3,
+  `addr:street`=**Schwabenheimer Weg**, `addr:city`=Bad Kreuznach, `addr:postcode`=55543, `addr:country`=DE,
+  `building`=yes sowie **`name`=„Weinand Entsorgung Recycling“**, **`office`=company** und
+  **`website`=https://weinand.de/** - das OSM-Objekt benennt also **Betreiber, Zweck und Betreiber-Website
+  ausdrücklich mit**; die Dossier-Adresse (Straße, Hausnummer, PLZ, Ort) ist damit **adresslich vollständig
+  belegt**. Objekt-BBox 49.8460058/7.8770419 bis 49.8462221/7.8774811, der Punkt liegt innerhalb; der Way hat
+  13 Knotenreferenzen, davon **12 eindeutige** (ein doppelter Knoten). Quelle 1 (Betreiber): Die
+  **Betreiber-Website weinand.de** (https://weinand.de/ , live abgerufen 03.11.2026) nennt für Bad Kreuznach
+  „**Schwabenheimer Weg 3**“, 55543 Bad Kreuznach, Mo–Fr 08:00–12:00 und 13:00–17:00 sowie die
+  Materialannahme Mo–Fr 08:00–11:00 und 13:00–16:00; das **Impressum** (https://weinand.de/impressum/,
+  live abgerufen 03.11.2026) nennt die **Weinand Entsorgungs-GmbH, HRB 2916 AG Bad Kreuznach**, und
+  **Manfred Weinand** - Adresse, PLZ, Ort und Rechtsträger sind damit über eine Betreiber-Primärquelle belegt;
+  der **Registerspiegel** (https://www.northdata.de/Weinand+Entsorgungs-GmbH,+Bad+Kreuznach/Amtsgericht+Bad+Kreuznach+HRB+2916,
+  im Dossier bereits zitiert) führt denselben Rechtsträger und dieselbe HRB 2916. Das `website`-Feld des
+  Dossiers trägt bereits `https://weinand.de`. Quelle 2 (OSM): way/608363839 (live abgerufen 03.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/608363839/full.json) sowie das Kachelraster um den Standort
+  (bbox=7.8600,49.8400 bis 7.8900,49.8600, live abgerufen 03.11.2026) - auf dem Schwabenheimer Weg in Bad
+  Kreuznach liegt die **Hausnummer 3 genau einmal** und ist dort **eindeutig** (gefundene Nummern u. a.
+  1, 2, 3, 5, 6, 8, 14, 16, 20A–20M, 22, 24, 26, 32, 34, 36, 38, 48A/48B, 56, 60, 62, 66, 70, 101, 103, 105,
+  107, 111, 119, 125, 127, 127a, 129); die Objekt-BBox 49.8460058/7.8770419 bis 49.8462221/7.8774811 enthält
+  den gesetzten Punkt. **Damit ist der seit 23.10.2026 dokumentierte Klärfall geschlossen:** Der zuvor
+  gespeicherte Altpunkt 49.8426000/7.8512500 (rund 4,6 km entfernt, Richtung Innenstadt) und der vom
+  Betreiber-Kartenmarker abweichende Wert 49.883796/7.851105 sind **beide ersetzt** - der neue Punkt liegt
+  **adressgenau** auf dem Betriebsgebäude, das OSM selbst mit `name`=„Weinand Entsorgung Recycling“ und
+  `website`=weinand.de führt. **Was offen bleibt:** der seit 21.10.2026 offene Gesellschafts-Konflikt
+  (historische „Weinand Recyclinggesellschaft mbH & Co. KG“ HRA 1203, erloschen, versus die auf der Website
+  genannte „Weinand Recycling GmbH & Co. KG“) bleibt **unverändert** und wird durch die Koordinate **nicht**
+  entschieden; `status` bleibt **pruefung**, `trader_type` bleibt `schrotthaendler`, die nichtmetallische
+  Abfallannahme bleibt seit 25.04.2025 ausgeschlossen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/608363839/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.8600,49.8400,7.8900,49.8600 (Kachelraster, live
+  abgerufen 03.11.2026) ; https://weinand.de/ ; https://weinand.de/impressum/ (live abgerufen 03.11.2026).]

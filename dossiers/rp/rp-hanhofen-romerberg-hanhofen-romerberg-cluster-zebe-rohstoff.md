@@ -47,3 +47,46 @@ Der Cluster bleibt ein Sammel-Klärfall und darf nicht als eine gemeinsame Firma
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Mehrere Kleinhändler Schrott-/Metallhandel (nur Gelbe Seiten)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, weil die Zeile ein Sammel-Cluster über mehrere
+  nicht zugeordnete Kleinbetriebe ist.** Das Dossier enthält **fünf** eigenständige Namen (ZEBE Rohstoffhandel GmbH;
+  Wagner R.+B.; Kreischer J.; Lehr T.+M./I.+R.; Wagner P.+S.) und hält ausdrücklich fest, dass die
+  **ZEBE-Adresse und deren Rechtsträger nur dieser Cluster-Komponente zugeordnet** bleiben und **nicht** in
+  gemeinsame Frontmatter-Felder übertragen werden dürfen - ein Punkt für den Sammel-Datensatz müsste sich also
+  willkürlich für eine der Komponenten entscheiden. **Was geprüft wurde (live am 03.11.2026):** (a) Die
+  Dossier-Adresse „**Martin-Greif-Str. 31, 67354 Römerberg**“ ist in OSM **eindeutig belegt**: **way/133500286** mit
+  `addr:housenumber`=**31**, `addr:street`=**Martin-Greif-Straße**, `addr:city`=**Römerberg**,
+  `addr:postcode`=**67354**, `addr:suburb`=**Berghausen**, `addr:country`=DE und `building`=residential (live geladen
+  03.11.2026, https://api.openstreetmap.org/api/0.6/way/133500286/full.json); Objekt-BBox
+  49.2879978/8.4066219 bis 49.2881284/8.4068373, der Way hat 7 Knotenreferenzen, davon **6 eindeutige** (ein
+  doppelter Knoten), der Mittelwert der eindeutigen Knoten ist **49.2880619/8.4067252**. Die **Hausnummer 31** ist auf
+  der Martin-Greif-Straße **eindeutig** (Kachelraster über **bbox=8.3750,49.2600,8.4250,49.3000**, live abgerufen
+  03.11.2026; die belegten Nummern sind 1 bis 36, 38, 40, 42, 44, 44A, 44B, 46, 48, 50, 52, 54, 56, 58, 60, 62 sowie
+  2a). (b) Eine Suche über **alle** Tag-Werte nach „ZEBE“, „Kreischer“, „Lehr“ bzw. einem Schrott-/Metallbetrieb im
+  Raster liefert **0 Objekte**, die **den Betrieb** nennen - die Betriebe sind in OSM **nicht namentlich kartiert**; das
+  Objekt trägt **weder `name=` noch `operator=`** und ist als `building`=**residential** kartiert. (c) Die **zweite**
+  im Dossier zitierte **Martin-Greif-Straße** in OSM (way/33440561, way/34309401 und die Adressobjekte
+  way/169943830, way/169943837, way/169943856, way/169943868 mit `addr:city`=**Ludwigshafen am Rhein**,
+  `addr:postcode`=**67065**) liegt in **Ludwigshafen** und **nicht** in Römerberg - sie ist damit **keine** Alternative
+  für die Dossier-Adresse und wurde **nicht** übernommen. **Quelle 1 (Register):** Der **Handelsregisterauszug über
+  online-handelsregister.de** (live abgerufen 03.11.2026, HTTP 200,
+  https://www.online-handelsregister.de/handelsregisterauszug/rp/Ludwigshafen-am-Rhein/HRB/51621/ZEBE-Rohstoffhandel-GmbH-Schrott-Metalle-Giesserei-und-Huettenbedarf)
+  nennt „**ZEBE Rohstoffhandel GmbH Schrott-Metalle Gießerei- und Hüttenbedarf**“, aktiv, **HRB 51621**,
+  **Amtsgericht Ludwigshafen a.Rhein**, mit „**Martin-Greif-Str. 31 • 67354 Römerberg**“ und dem Satz „Sie können
+  schriftlich über die Firmenadresse **Martin-Greif-Str. 31, 67354 Römerberg** erreicht werden“; der **NorthData-
+  Eintrag** (im Dossier bereits zitiert) ist deckungsgleich. **Quelle 2 (OSM):** way/133500286 (live geladen
+  03.11.2026) sowie das Kachelraster (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3750,49.2600,8.4250,49.3000). **Was fehlt:** die
+  **Entscheidung des Owners**, ob der Sammel-Cluster in **Einzeldossiers** aufgeteilt wird und welche Komponente
+  welche Koordinate erhält - erst dann wäre die jeweils zugehörige OSM-Koordinate eindeutig zuzuordnen. **Unverändert
+  bleibt:** Die Adresse ist ein **Register-Adressbeleg** und **kein** bestätigter öffentlicher Hof; der sichtbare
+  Jahresabschluss reicht bis 2023 (veröffentlicht 24.01.2025) und belegt **weder** heutigen Betrieb **noch** eine
+  Kundenannahme; die **Ankaufskurse**, **Preislisten** und **Gebührentarien** bleiben unbelegt. `status` bleibt
+  **pruefung**, `street`/`postcode` bleiben leer, `clear_fields: geo` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/133500286/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3750,49.2600,8.4250,49.3000 (Kachelraster, live abgerufen
+  03.11.2026) ;
+  https://www.online-handelsregister.de/handelsregisterauszug/rp/Ludwigshafen-am-Rhein/HRB/51621/ZEBE-Rohstoffhandel-GmbH-Schrott-Metalle-Giesserei-und-Huettenbedarf
+  (live abgerufen 03.11.2026).]

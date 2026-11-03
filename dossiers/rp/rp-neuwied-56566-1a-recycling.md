@@ -1,6 +1,7 @@
 ---
 slug: rp-neuwied-56566-1a-recycling
-clear_fields: 'geo'
+lat: 50.4337652
+lon: 7.4896289
 name: 1a Recycling GmbH
 trader_type: autoverwertung
 state: RP
@@ -52,3 +53,35 @@ Betreiberseite und Registerdaten identifizieren nun übereinstimmend 1a Recyclin
 
 - Recycling/Schrott
 - Adresse: Neuwied 56566
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.4337652/7.4896289** (Mittel der eindeutigen
+  Knoten von way/36775281, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=**51**,
+  `addr:street`=**Breslauer Straße**, `addr:city`=Neuwied, `addr:postcode`=56566, `addr:country`=DE,
+  `building`=commercial und **`name`=„1A Recycling GmbH“** - das OSM-Objekt benennt den **Dossier-Betrieb
+  ausdrücklich mit**; die Dossier-Adresse (Straße, Hausnummer, PLZ, Ort) ist damit **adresslich vollständig
+  belegt**. Objekt-BBox 50.4336767/7.4894704 bis 50.4338599/7.4897817, der Punkt liegt **innerhalb**; der Way hat
+  7 Knotenreferenzen, davon **6 eindeutige** (ein doppelter Knoten). Quelle 1 (Betreiber/Register): Das
+  **Impressum der Betreiber-Website** (live abgerufen 03.11.2026, HTTP 200,
+  https://1a-recycling-gmbh.de/impressum-1) nennt „**1a Recycling GmbH, Breslauer Str. 51, DE-56566 Neuwied**“,
+  Mobil +49 177 302 0285, Telefon **+49 2631 9593630**, Fax +49 2631 9593632,
+  E-Mail info@1a-recycling-gmbh.de, **Betriebsnummer G10178697**, **Amtsgericht Montabaur, HRB 27237**,
+  USt-IdNr. DE331506994 - Straße, Hausnummer, PLZ, Ort, Telefonnummer und E-Mail stimmen **exakt** mit dem
+  Dossier überein, die **HRB 27237 Montabaur** ist mit dem bereits zitierten **NorthData-Registereintrag**
+  (https://www.northdata.de/1a+Recycling+GmbH,+Neuwied/Amtsgericht+Montabaur+HRB+27237) deckungsgleich.
+  Quelle 2 (OSM): way/36775281 (live abgerufen 03.11.2026,
+  https://api.openstreetmap.org/api/0.6/way/36775281/full.json) sowie das Kachelraster über
+  **bbox=7.4600,50.4100,7.5100,50.4600** (live abgerufen 03.11.2026) - auf der Breslauer Straße in Neuwied ist
+  die **Hausnummer 51 durch genau ein Objekt mit Betriebsnamen** belegt (way/36775281 `name`=1A Recycling GmbH);
+  daneben tragen way/36775280 und way/36775282 dieselbe Hausnummer 51 **ohne** `name`/`operator` und sind
+  Gebäudeteile desselben Grundstücks (BBox-Abstände < 30 m) - der **betriebstragende** Way ist damit eindeutig.
+  **Damit ist der seit 23.10.2026 dokumentierte GEO-Klärfall geschlossen:** Der zuvor gespeicherte Produktionspunkt
+  50.4420000/7.4925000 (rund 1,1 km nordöstlich, nicht auf dem Betriebsgrundstück) ist **ersetzt**; der neue Punkt
+  liegt **adressgenau** auf dem von OSM selbst mit `name` benannten Betriebsgebäude. **Was offen bleibt:** Die im
+  Dossier offenen Punkte - Annahme-/Abholbedingungen, Wochenöffnungszeiten und aktuelle Zertifikatsgültigkeit - sind
+  **unverändert**; die Koordinate ersetzt **keinen** dieser Belege. `status` bleibt **aktiv**, `trader_type` bleibt
+  `autoverwertung`, `dropoff_json`/`pickup_json` bleiben **leer** (keine öffentliche Annahme belegt). Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/36775281/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4600,50.4100,7.5100,50.4600 (Kachelraster, live abgerufen
+  03.11.2026) ; https://1a-recycling-gmbh.de/impressum-1 (live abgerufen 03.11.2026).]

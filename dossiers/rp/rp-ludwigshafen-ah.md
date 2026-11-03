@@ -51,3 +51,30 @@ provenance_origin: table
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: Namensgleicher Kandidat klar abgegrenzt, nicht zugeordnet: Betreiber-Website und Impressum führen die AH GmbH Metall- und Schrotthandel, Geschäftsführer Mehmet Ali Halici, HRB 737082, Fruchtbahnhofstraße 13, 68159 Mannheim, Tel. 0621 17895089, E-Mail info@ah-schrotthandel.de. Betreiberseiten beschreiben Recycling/Containerdienst (3–40 m³), nennen aber keine konkreten Ankaufspreise, Verkaufspreise oder Container-/Entsorgungsgebühren. Mannheim ist nicht Ludwigshafen; kein Beleg verbindet diese Firma mit dem Seed „AH“ in Ludwigshafen, daher keinerlei Felder übertragen. Quelle(n): https://ah-schrotthandel.de/ ; https://ah-schrotthandel.de/impressum/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Zeile trägt nur das **Kürzel „AH“** und
+  `city`=**Ludwigshafen**; `street` und `postcode` sind **leer**, und die einzige konkret belegte Gesellschaft mit
+  ähnlichem Namen ist die **AH GmbH Metall- und Schrotthandel** in **Mannheim** - eine **andere Stadt**, ohne
+  Identitätsbrücke. **Was geprüft wurde (live am 03.11.2026):** (a) Die OSM-Prüfung im Ludwigshafener Raum
+  (Kachelraster über **bbox=8.4000,49.4700,8.4500,49.5100**, live abgerufen 03.11.2026) findet **kein** Objekt
+  mit `name=`/`operator`=**AH** oder einem Schrott-/Metallbetriebs-Bezug zu diesem Kürzel; die dort gefundenen
+  Adressobjekte tragen durchweg **andere** Betriebe (z. B. node/12102657950 „Bulgarien Market“ Rottstraße 95,
+  way/12988380859 Moltkestraße 9-11) - ein **Objekt, das den eigenen Betrieb benennt**, existiert **nicht**. (b) Die
+  **Namensvetter-Kette** aus dem Dossier bleibt unverändert: Die **AH GmbH**, Geschäftsführer **Mehmet Ali Halici**,
+  **HRB 737082**, **Fruchtbahnhofstraße 13, 68159 Mannheim**, Telefon 0621 17895089,
+  info@ah-schrotthandel.de (https://ah-schrotthandel.de/ und /impressum/, live abgerufen 03.11.2026) ist **kein**
+  Ludwigshafener Betrieb; Mannheim ist **nicht** Ludwigshafen, und es fehlt jeder Beleg, der diese Firma mit dem
+  Seed-Kürzel „AH“ in Ludwigshafen verbindet. (c) Ein **eigenes** Ludwigshafener Unternehmen mit den Initialen
+  „AH“ ist im Dossier **nicht** dokumentiert. **Quelle 1 (Betreiber):** die Betreiber-Website
+  ah-schrotthandel.de (live abgerufen 03.11.2026) - sie belegt den **Mannheimer** Betrieb, **nicht** die
+  Ludwigshafener Zeile. **Quelle 2 (OSM):** das Kachelraster und die genannten Adressobjekte (live abgerufen
+  03.11.2026 über https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4000,49.4700,8.4500,49.5100). **Was fehlt:**
+  eine **Betreiber- oder Registerquelle** für ein **Ludwigshafener** Unternehmen mit dem Kürzel „AH“ samt
+  Anschrift; ohne sie ist die Zuordnung des NamensveTTers **nicht** möglich und ein Punkt wäre geraten. `status`
+  bleibt **pruefung**, `street`/`postcode`/`website` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. Ein
+  **Nichtexistenz- oder Schließungsbeweis** ist damit **nicht** verbunden. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4000,49.4700,8.4500,49.5100 (Kachelraster, live abgerufen
+  03.11.2026) ; https://ah-schrotthandel.de/impressum/ (live abgerufen 03.11.2026) ; Recherche-Vermerke vom
+  08.10. und 27.10.2026 im Dossier.]

@@ -1,5 +1,7 @@
 ---
 slug: rp-kaiserslautern-67655-peter-marco
+lat: 49.4416975
+lon: 7.7670836
 name: Peter Marco
 trader_type: sonstige
 state: RP
@@ -13,7 +15,6 @@ website: https://goldankauf-reinhold.de/
 website_status: aktiv
 status: pruefung
 description: 'Gold-, Pelz- und Antiquitätenankauf in Kaiserslautern-Innenstadt. Betreiber-Primärquelle (Impressum § 5 DDG) nennt „Marco Reinhold Peter", Handelsname „Goldankauf Reinhold", Pirmasenser Straße 14, 67655 Kaiserslautern, Tel. 0631 5349928, info@goldankauf-reinhold.de; Kontaktseite: Mo–Sa 10:00–16:00, So geschlossen. Leistungen: Ankauf von Gold/Schmuck/Zahngold/Münzen/Barren/Silber, Pelzen, Uhren, Antiquitäten und Nachlässen, Bewertung kostenlos und unverbindlich, Auszahlung sofort bar oder per Überweisung. Kein Ankauf von Metallschrott oder Altmetall, keine Abfallannahme, keine veröffentlichten Metallkurse. Die Seed-Kategorie „Schrott" war eine Fehlklassifikation aus der Verzeichniskategorie „Metalle und Metallwaren".'
-clear_fields: geo
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -47,3 +48,45 @@ Der Seed lässt sich eindeutig einem Betrieb zuordnen, und dieser Betrieb ist **
 
 - Schrott
 - Adresse: Kaiserslautern 67655
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.4416975/7.7670836** (Mittel der eindeutigen
+  Knoten von way/100970794, innerhalb der Objekt-BBox). Das Objekt trägt `addr:housenumber`=**14**,
+  `addr:street`=**Pirmasenser Straße**, `addr:city`=Kaiserslautern, `addr:postcode`=67655, `addr:country`=DE und
+  `building`=apartments; Objekt-BBox 49.4416077/7.7669904 bis 49.4417740/7.7672400, der Punkt liegt **innerhalb**;
+  der Way hat 6 eindeutige Knoten. Quelle 1 (Betreiber/Register): Das **Impressum der Betreiber-Website** (live
+  abgerufen 03.11.2026, HTTP 200, https://goldankauf-reinhold.de/impressum/) nennt nach § 5 DDG „**Marco Reinhold
+  Peter**, Handelsname **Goldankauf Reinhold**, **Pirmasenser Straße 14, 67655 Kaiserslautern**“; die
+  **Fußzeile der Kontaktseite** desselben Auftritts wiederholt „**Pirmasenser Straße 14, 67655 Kaiserslautern,
+  0631 5349928, info@goldankauf-reinhold.de**“ (live abgerufen 03.11.2026,
+  https://goldankauf-reinhold.de/kontakt/) - Straße, Hausnummer, PLZ, Ort, Rufnummer und E-Mail sind damit über eine
+  **Betreiber-Primärquelle** belegt. Die im Dossier bereits zitierte **zweite unabhängige amtliche Quelle**, der vom
+  Citymanagement der Stadt Kaiserslautern herausgegebene *Einkaufsführer Kaiserslautern* (Ausgabe 01/2019, S. 60/61),
+  führt unter „Lifestyle & Wohnen / Einrichtung / Deko / Haushalt“ den Eintrag „**Antik Debold**, Pirmasenser Straße 14,
+  0631 5349928“ - **derselbe Standort und dieselbe Rufnummer**, historisch als Antik-/Lifestyle-Handel geführt; damit
+  ist die Anschrift **zweifach unabhängig** belegt (Betreiber-Website und städtischer Einkaufsführer). Die
+  Einkaufsführer-PDF wurde am 03.11.2026 erneut live abgerufen (HTTP 200,
+  https://www.kaiserslautern.de/mb/themen/tourismus/citymanagement_shopping-guide-web.pdf) und der Eintrag
+  „**Antik Debold / Pirmasenser Straße 14 / 0631 5349928**“ unter der Rubrik „Einrichtung / Deko / Haushalt“ dort
+  erneut wörtlich bestätigt. Quelle 2 (OSM):
+  way/100970794 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/100970794/full.json) sowie
+  das Kachelraster über **bbox=7.7500,49.4300,7.7900,49.4550** (live abgerufen 03.11.2026) - auf der Pirmasenser
+  Straße in Kaiserslautern ist die **Hausnummer 14 genau einmal** belegt und damit **eindeutig** (gefundene Nummern
+  u. a. 1, 1a, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, **14**, 15, 16, 17, 18, 19, 20, 20a, 21, 22, 23, 24, 24-26,
+  25, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40-42, 44, 44a, 45, 46, 47, 48, 49, 50, 52, 54, 56, 57, 58, 59,
+  60, 60a, 60b, 61, 62, 63, 63A, 63B, 64, 65, 66, 68, 70, 72, 74, 75, 78, 80, 82, 90, 92, 94, 94a, 96, 98, 100, 104,
+  114, 116, 118, 120, 122, 124, 126, 132, 134, 136, 138). **Qualifizierung:** das Objekt trägt **weder `name=` noch
+  `operator=`** und keinen Schrottbezug - der Betrieb ist in OSM **nicht namentlich kartiert**; gesetzt wird der
+  **adressgenau belegte** Objektpunkt des bestätigten Standorts. **Damit ist der im Dossier benannte offene Punkt
+  („die Owner-Geocodierung der bestätigten Betreiberadresse bleibt offen“) erledigt:** Der zuvor gespeicherte
+  Produktionspunkt 49.4395500/7.7554333 löste rückwärts auf „9, Adolfstraße, 67655 Kaiserslautern“ auf und ist
+  mit dieser adressgenauen Koordinate **ersetzt**; `clear_fields: geo` wurde deshalb aus dem Frontmatter
+  **entfernt** (ein belegtes lat/lon-Paar und das gleichzeitig gesetzte `geo`-Clear sind laut Seed-Vertrag
+  unzulässig). **Was unverändert bleibt:** `trader_type` bleibt **sonstige** - der Betrieb ist ein
+  **Edelmetall-/Antiquitätenankauf** und **kein** Schrotthändler; es findet **keine** Abfallannahme statt, es werden
+  **keine** Metallkurse veröffentlicht, `status` bleibt **pruefung**, `dropoff_json`/`pickup_json` bleiben **leer**.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/100970794/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7500,49.4300,7.7900,49.4550 (Kachelraster, live abgerufen
+  03.11.2026) ; https://goldankauf-reinhold.de/impressum/ ; https://goldankauf-reinhold.de/kontakt/ (live abgerufen
+  03.11.2026).]
