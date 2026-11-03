@@ -74,7 +74,7 @@ Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 3
 - [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **18** existiert auf der
   **„Sternhelle“** in OSM **nicht**: das am 03.11.2026 nachgeladene Kachelraster über den gesamten Straßenverlauf
   (7.9400/51.4000 bis 7.9800/51.4400, **16 Kacheln, 0 Kachel-Fehler**) erfasst die Straße „Sternhelle“ in
-  **59757 Arnsberg-Herdringen** mit **14 verschiedenen Hausnummern**: **1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+  **59757 Arnsberg-Herdringen** mit **15 verschiedenen Hausnummern**: **1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
   und 16** - die **Nummer 18 fehlt**, und eine Suche nach der Hausnummer 18 in Verbindung mit „Sternhelle“ findet
   **keinen** Treffer. Das entspricht dem bereits am 03.10.2026 dokumentierten Befund, dass die Photon-Suche
   ausschließlich die **Straße** „Sternhelle“ lieferte und **keine** bestätigte Hausnummer ergab; die Aussage
@@ -82,7 +82,7 @@ Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 3
   der am 25.10.2026 erneut live gelesene 11880-Eintrag **„Rolf Budnik Schrott-RohstoffHdl.“** nennt
   **Sternhelle 18, 59757 Arnsberg**, Telefon 02932 36942 und die Branchen Altmaterialhandel/Schrotthandel/Recycling
   (Eintragsdaten 29.06.2021, Portalaktualisierung 02.10.2026) - die Anschrift ist damit **belegt**, aber nicht in OSM
-  abbildbar. Quelle 2 (OSM): das Kachelraster 7.9400/51.4000 bis 7.9800/51.4400 sowie die 14 gefundenen
+  abbildbar. Quelle 2 (OSM): das Kachelraster 7.9400/51.4000 bis 7.9800/51.4400 sowie die 15 gefundenen
   Adressobjekte way/254547383 (6), way/254547578 (16), way/254547675 (13), way/254547771 (2), way/254547860 (11),
   way/254547930 (14), way/254548290 (10), way/254548314 (5), way/254548370 (1), way/254548555 (7), way/254548564 (8),
   way/254548568 (12), way/254547421 (9) und ein weiteres Objekt mit `addr:housenumber`=3 (live geladen am

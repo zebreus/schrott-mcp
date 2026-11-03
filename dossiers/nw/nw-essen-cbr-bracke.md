@@ -71,7 +71,7 @@ Status bleibt `pruefung`: die genaue Zuordnung der Seed-Adresse und ein eventuel
   (wegen Vermögenslosigkeit) und die **Abweichung des letzten Registerorts (Bochum)** bleiben **unverändert offen** und
   werden durch diese Geokodierung **nicht** aufgehoben - es wird **kein** heutiger Betrieb, **keine** Annahme und
   **kein** Nachfolger behauptet, und `status: pruefung` bleibt unverändert. **Neu aufgenommen:** das bislang leere
-  Frontmatter-Feld `postcode` ist mit **45141** gefüllt, weil das OSM-Objekt die PLZ trägt; die im Dossier genannten
+  Frontmatter-Feld `street` ist mit **Manderscheidtstr. 91** gefüllt, weil das OSM-Objekt die PLZ trägt; die im Dossier genannten
   weiteren Adressen **Bonifaciusstr. 160** und **Marderweg 9 (Bochum)** bleiben ungeprüft und **nicht** übernommen.
   Der bisher gespeicherte Produktionspunkt 51.450284375/7.015053125 (die Fernbus-Spur „Freiheit“ am Essener
   Hauptbahnhof, laut read-only-Abgleich vom 27.10.2026) liegt rund **4,0 km** vom neuen Punkt entfernt und wird durch
