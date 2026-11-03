@@ -203,7 +203,9 @@ fn phone_key(s: &str) -> String {
 fn street_key(s: &str) -> String {
     let mut t = s.to_lowercase();
     t = t.replace("strasse", "str").replace("straße", "str");
-    t = t.replace('.', "");
+    // Punkte und Bindestriche tragen keine Bedeutung ("Robert-Bosch-Str. 24" und
+    // "Robert-Boschstr. 24" sind dieselbe Anschrift).
+    t = t.replace('.', "").replace('-', "");
     t.split_whitespace().collect::<Vec<_>>().join(" ")
 }
 
@@ -756,6 +758,16 @@ mod tests {
             "street",
             "Hafenrandstraße 5-6",
             "Hafenrandstr. 5-6"
+        ));
+        assert!(same_value(
+            "street",
+            "Robert-Bosch-Str. 24",
+            "Robert-Boschstr. 24"
+        ));
+        assert!(same_value(
+            "street",
+            "Robert-Bosch-Straße 24",
+            "Robert-Bosch-Str. 24"
         ));
         // Verschiedene Nummern oder Adressen bleiben ein Wechsel.
         assert!(!same_value("phone", "06021 84601", "06021 84600"));
