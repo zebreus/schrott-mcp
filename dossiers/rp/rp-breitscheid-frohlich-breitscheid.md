@@ -45,3 +45,31 @@ Der Creditreform-Einzelbeleg „Michael Fröhlich, Breitscheid, Gewerbebetrieb, 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Creditreform-Beleg: Michael Fröhlich, Breitscheid, Gewerbebetrieb, wirtschaftsaktiv (ohne Straßenangabe) — als Aktivitäts-Einzelbeleg nur hier. Betreiber-Domains tot (NXDOMAIN/kein DNS). Aggregator-Leads ohne Belegwert: Josef-Reuschenbach-Str. 2, Breitscheid, Tel. 0172 2041425. Kein HRB → Owner-Direktive greift nicht; kein Fill, Status pruefung bleibt, Klärfall: Straße/Telefon via Gewerbe-/Melderegister Breitscheid klären; Quelle(n): Creditreform-Firmeneintrag 01.10.2026, DNS-/curl-Checks, Leads 11880/Cylex]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Es fehlt die **belegte Dossier-Adresse**:
+  `street` und `postcode` sind **leer**, und der einzige Adress-Lead („**Josef-Reuschenbach-Str. 2, Breitscheid**“)
+  stammt aus **Verzeichnissen** (11880, Cylex), deren Adressangabe **in OSM nicht existiert** - ein Punkt wäre geraten.
+  **Was geprüft wurde (live am 03.11.2026):** (a) Die Straße **Josef-Reuschenbach-Straße** ist in OSM im Raum
+  **Breitscheid (Landkreis Altenkirchen, 57570)** **nicht** kartiert: das Kachelraster über
+  **bbox=7.6300,50.7200,7.7000,50.7900** (live abgerufen 03.11.2026, umfasst den ganzen Ort) kennt **keine**
+  Straße dieses Namens; die dort mit `addr:postcode`=57570 belegten Straßen heißen **Am Kloster, Auf dem Balkert,
+  Auf der Bitze, Balkertsweg, Eisenkaul, Gartenstraße, Hammer Straße, Heinrich-Heine-Straße, Kirchplatz, Kirchweg,
+  Klosterpforte, Lindenallee, Lohmühlenweg, Marktzentrum, Mühlenstraße, Obersalterberger Hof, Raiffeisenstraße,
+  Scheidter Straße, Siegstraße, Synagogenplatz, Thalhauser Straße, Theodor-Fontane-Straße, Thomas-Mann-Straße**. (b) Eine
+  Suche über **alle** Tag-Werte nach „fröhlich“ bzw. einem Schrott-/Metallbetrieb im Raster liefert **0 Objekte**, die
+  **den eigenen Betrieb** nennen. (c) Die im Dossier dokumentierte **Namensvetter-Abgrenzung** bleibt: Der
+  **Creditreform-Einzelbeleg** „**Michael Fröhlich, Breitscheid, Gewerbebetrieb, wirtschaftsaktiv**“ (live am
+  01.10.2026 geprüft) belegt Firmenname, Ort und **Gewerbeaktivität**, enthält aber **keine** Straßenangabe; die
+  **Betreiber-Domains** aus dem Vorverlauf liefern **NXDOMAIN** bzw. **kein DNS**. **Quelle 1 (Register):** der
+  Creditreform-Firmeneintrag (im Dossier zitiert) - **Einzelbeleg**, ohne Anschrift. **Quelle 2 (OSM):** das
+  Kachelraster und die obige Straßenliste (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6300,50.7200,7.7000,50.7900). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle**, die die **Anschrift** des Gewerbebetriebs in Breitscheid belegt - erst dann
+  wäre eine Geokodierung möglich; die Gewerbeauskunft der Ortsgemeinde Breitscheid bzw. der Verbandsgemeinde
+  Altenkirchen-Flammersfeld ist laut Dossier der offene Weg. `status` bleibt **pruefung**, `street`/`postcode`/
+  `phone`/`website` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. Ein **Nichtexistenz- oder Schließungsbeweis**
+  ist damit **nicht** verbunden. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6300,50.7200,7.7000,50.7900 (Kachelraster, live abgerufen
+  03.11.2026) ; Recherche-Vermerke vom 01.10. und 27.10.2026 im Dossier.]

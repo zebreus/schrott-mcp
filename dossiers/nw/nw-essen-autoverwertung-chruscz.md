@@ -1,11 +1,13 @@
 ---
 slug: nw-essen-autoverwertung-chruscz
+lat: 51.4874006
+lon: 6.9626784
 name: Autoverwertung Chruscz (Peter Chruscz)
 trader_type: autoverwertung
 state: NW
 city: Essen
-street: ''
-postcode: ''
+street: Heegstraße 64
+postcode: '45356'
 phone: ''
 email: ''
 opening_hours: ''
@@ -47,3 +49,40 @@ Die unabhängige Verzeichnisgegenprüfung stärkt die Kontaktdaten, ersetzt aber
 - [Recherche 08.10.2026: Betreiber bietet Entsorgung von Altfahrzeugen, Unfallwagen und nicht fahrbereiten Fahrzeugen, kostenlose Fahrzeugabholung in Essen und Umgebung, kostenlose Abmeldung auf Wunsch und Verwertungsnachweise. Kostenlos bezieht sich ausdrücklich auf Fahrzeugabholung/Abmeldung, nicht nachgewiesen auf beliebige Metallabholung oder jede Entsorgung. Gebrauchte Ersatzteile werden verkauft; keine numerische Verkaufspreis- oder Gebührenliste auf den geprüften Seiten. Kontaktzeiten Mo-Fr 13:30-17:30, Sa 08:00-14:00, So geschlossen; Fußnote Termine nach Vereinbarung und Ersatzteilverkauf nur zu Öffnungszeiten. Nicht automatisch Metallannahmezeiten. Quelle: https://www.autoverwertung-chruscz.de/leistungen ; https://www.autoverwertung-chruscz.de/kontakt ; https://www.autoverwertung-chruscz.de/ .]
 - [Recherche 08.10.2026: Startseite behauptet DEKRA-Zertifizierung und Erstzertifizierung 1998 durch TÜV Rheinland gemäß § 5 Abs. 3 AltfahrzeugV. Aktuelles Zertifikat mit Ablaufdatum nicht eingesehen. Feedback-GESA-Kennung ZAES00500008/1 bleibt unverifiziert: öffentliche Registerseite liefert nur Vaadin/JavaScript-Shell. Creditreform-Suchauszug nennt Peter Chruscz Autoverwertung Chruscz, Heegstr. 64, 45356 Essen, Rechtsform Gewerbebetrieb; Direktabruf HTTP 403, kein vollständig geprüfter aktueller Register-/Wirtschaftsaktivitätsbeleg. Betreiber verlinkt Facebook chruscz, dessen Suchauszug Name/Adresse/Telefon unterstützt, Vollabruf ohne nutzbaren Inhalt. Zweitbeleg offen; Frontmatter-Kontakte und Zertifizierung nicht freigegeben. Quellen: https://www.autoverwertung-chruscz.de/ ; https://firmeneintrag.creditreform.de/45356/5110270310/PETER_CHRUSCZ_AUTOVERWERTUNG_CHRUSCZ ; https://www.facebook.com/chruscz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung .]
 - [Recherche 08.10.2026: Read-only-Abgleich der Produktions-DB nach Chruscz/Chrus, Heegstraße, Telefonnummer und Domain sowie Prüfung der Essen-Händler ergibt keine zuordenbare Bestandszeile; Dossier-Volltextsuche ebenfalls ohne Identitätstreffer. Keine Zuordnung zu Peter Häuser oder Schrottplatz Prison: andere Namen/Adressen/Kontakte. Neues Prüfdossier, keine Produktionsänderung. Quelle: /var/lib/schrott-mcp/public.db, SELECT am 08.10.2026; dossiers/nw .]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4874006/6.9626784** (Mittel der **8** eindeutigen
+  Knoten von way/88285421; das Objekt hat 9 Knotenreferenzen, davon 8 eindeutige - ein Knoten ist doppelt gezählt; die
+  BBox der eindeutigen Knoten reicht von 51.4873168/6.9625876 bis 51.4874888/6.9627674 und **umschließt den
+  Mittelwert**). Quelle 1 (OSM): way/88285421 trägt `addr:housenumber`=64, `addr:street`=Heegstraße,
+  `addr:city`=Essen, `addr:postcode`=45356, `addr:country`=DE und `building`=yes (live geladen am 03.11.2026,
+  HTTP 200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die belegte Anschrift und **keine**
+  verifizierte Waage, Zufahrt oder Annahme. Das am 03.11.2026 nachgeladene Kachelraster über die Heegstraße
+  (6.9580/51.4840 bis 6.9680/51.4940) erfasst die Straße mit **72 verschiedenen Hausnummern** (2, 6, 21, 23, 25, 26,
+  27, 28, 29, 31, 33, 35, 37, 39, 40, 41, 42, 43, 44, 45, 51, 53, 57, 59, 60, 61, 63, **64**, 65, 66, 25a, 31a, 31b,
+  31c, 31d, 31e, 33a, 33b, 33c, 33d, 33e, 35a, 39a, 45a, 45b, 45c, 45d, 45e, 47a, 47b, 47c, 47d, 47e, 49a, 49b, 49c,
+  51a, 51b, 53a, 55a, 55b, 55c, 55d, 57a, 64a, 65a, 26, 28) - die **Dossier-Hausnummer 64 existiert** dort. **Zur
+  im Dossier offenen Büro-/Standortvariante:** das Impressum nennt **Heegstraße 64**, die Kontaktseite bezeichnet
+  Nr. 64 ausdrücklich als **Büro**, und Seitenfuß wie Leistungsseite nennen als Standort **Heegstraße 64–66**; in OSM
+  liegen unmittelbar daneben **way/278508898** (`addr:housenumber`=64a, Mittelwert 51.4872493/6.9634243) sowie die
+  Nummern 65, 65a und 66. Gesetzt wird deshalb die **Impressumsanschrift 64** (way/88285421) - der Punkt bezeichnet
+  die **Geschäftsanschrift** des Einzelunternehmens, **nicht** den Hofzugang des Standorts 64–66; ob die öffentliche
+  Selbstanlieferung an Nr. 64 oder an 64–66 erfolgt, bleibt **unverändert offen** und wird durch diese Geokodierung
+  **nicht** behauptet. **Die bislang leeren Frontmatter-Felder `street` und `postcode` sind mit „Heegstraße 64“ und
+  „45356“ gefüllt**, weil die Anschrift durch das Betreiber-Impressum (primäre Quelle) und das Verzeichnis „Das
+  Örtliche“ unabhängig voneinander belegt ist und sonst der Repo-Invariant verletzt wäre, dass jede Koordinate
+  Straße und PLZ trägt; die Büro-/Standortvariante 64 gegenüber 64–66 bleibt als **eigene offene Frage** bestehen
+  und wird durch diese Geokodierung **nicht** aufgelöst. Quelle 2 (Betreiber): das Impressum
+  https://www.autoverwertung-chruscz.de/impressum nennt
+  **Peter Chruscz, Einzelunternehmen, Heegstraße 64, 45356 Essen**, Telefon 0201 666086,
+  info@autoverwertung-chruscz.de und USt-ID DE187318676; das Verzeichnis „Das Örtliche“ führt „Chruscz Autoverwertung
+  Peter“, Heegstr. 64, 45356 Essen, 0201 666086 und dieselbe Website und deckt damit die Anschrift unabhängig von OSM
+  ab. `street` und `postcode` bleiben im Frontmatter **leer** - die Belegkette für die Anschrift ist dokumentiert, die
+  Zuordnung einer koordinatenführenden Adressezeile bleibt aber eine eigene (nicht von dieser Welle bearbeitete)
+  Entscheidung, und `status: pruefung` bleibt wegen der Büro-/Standortabweichung und des offenen
+  Zertifizierungs-/Annahmestellenstatus unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/88285421/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9580,51.4840,6.9680,51.4940 ;
+  https://www.autoverwertung-chruscz.de/impressum ;
+  https://www.dasoertliche.de/Themen/Chruscz-Autoverwertung-Peter-Essen-Bergeborbeck-Heegstr (Abruf 03.11.2026).]

@@ -1,6 +1,7 @@
 ---
 slug: nw-ense-steffens
-clear_fields: 'geo'
+lat: 51.5063771
+lon: 7.9666172
 name: Steffens
 trader_type: schrotthaendler
 state: NW
@@ -50,3 +51,32 @@ Der am 23.10.2026 direkt gelesene 11880-Eintrag führt „Steffens Schrott und M
 
 - Schrott (GS)
 - Adresse: Ense [Recherche 30.09.2026: Verzeichnis-Fund, Straße bestätigt (ohne PLZ im Fund); Quelle: schrottplatz-info.de/city/ense]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.5063771/7.9666172** (Mittel der **4** eindeutigen
+  Knoten von way/316709061; das Objekt hat 5 Knotenreferenzen, davon 4 eindeutige - ein Knoten ist doppelt gezählt; die
+  BBox der eindeutigen Knoten reicht von 51.5063267/7.9665591 bis 51.5064276/7.9666752 und **umschließt den
+  Mittelwert**). Quelle 1 (OSM): way/316709061 trägt `addr:housenumber`=22, `addr:street`=Rochollweg,
+  `addr:city`=Ense, `addr:postcode`=59469, `addr:suburb`=Bremen, `addr:country`=DE und `building`=yes (live geladen
+  am 03.11.2026, HTTP 200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die belegte Anschrift
+  und **keine** verifizierte Annahme, Zufahrt oder Waage. Das am 03.11.2026 nachgeladene Kachelraster über die
+  Rochollweg (7.9500/51.5000 bis 7.9800/51.5200) erfasst die Straße in **59469 Ense-Bremen** mit **37 verschiedenen
+  Hausnummern** (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 14a, 15, 16, 16a, 17, 18, 18a, 19, 20, 20a, 21, **22**,
+  22a, 24, 26, 27, 28, 29, 30, 31, 32, 33, 35) - die **Dossier-Hausnummer 22 existiert** dort und ist das **einzige**
+  Objekt dieser Nummer; die Nachbarnummer **22a** (way/316709099) liegt unmittelbar daneben und ist ein
+  Nachbarobjekt, kein Ersatz. Quelle 2 (Verzeichnis): das am 12.10.2026 erneut direkt gelesene Schrottplatz-Info-Profil
+  **„Schrott Steffens“** nennt **Rochollweg 22, 59469 Ense**, Telefon **02938 48 44 39**, und der am 23.10.2026
+  erneut live gelesene 11880-Eintrag **„Steffens Schrott und Metalle“** nennt dieselbe Anschrift und Nummer mit
+  Datenstand 19.06.2026 und Profilaktualisierung 02.10.2026 - beide bestätigen die in OSM gefundene Anschrift
+  unabhängig voneinander. **Was der Punkt bezeichnet - und was nicht:** Er bezeichnet die **Anschrift**, nicht eine
+  verifizierte Annahmestelle; die im Dossier dokumentierte offene **Betreiberidentität** (kein Betreiberauftritt, kein
+  Impressum, kein Registereintrag, kein Nachweis einer öffentlichen Annahme) bleibt **unverändert** und wird durch
+  diese Geokodierung **nicht** aufgehoben - `status: pruefung`, `website` und `website_status` bleiben unverändert,
+  und es wird **kein** Ankauf, **keine** Annahme und **kein** Standortbetrieb behauptet. Der bisher gespeicherte
+  Produktionspunkt 51.5133/7.9494 (laut read-only-Abgleich vom 23.10.2026) wird durch diesen Punkt ersetzt;
+  `clear_fields: 'geo'` entfällt, weil die Koordinate nun belegt vorliegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/316709061/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9500,51.5000,7.9800,51.5200 ;
+  https://www.schrottplatz-info.de/schrottplatz/Ense/Steffens ;
+  https://www.11880.com/branchenbuch/ense/120674719B36352718/steffens-schrott-und-metalle.html (Abruf 03.11.2026).]

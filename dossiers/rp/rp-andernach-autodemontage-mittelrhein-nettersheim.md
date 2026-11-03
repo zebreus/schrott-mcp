@@ -47,3 +47,37 @@ Echte Betreiberwebsite gefunden: Autodemontage Mittelrhein Gebr. Nettersheim OHG
 
 - Autodemontage
 - Adresse: Andernach
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **2** findet sich in OSM auf
+  der Dossier-Straße **Bahnweg** **nicht**; die Straße existiert dort zwar, trägt aber **kein einziges** Objekt mit
+  `addr:housenumber` - ein Punkt wäre geraten, deshalb wird bewusst **keine** Koordinate gesetzt. **Was geprüft wurde
+  (live am 03.11.2026):** (a) Die Straße **Bahnweg** in Andernach-Miesenheim ist in OSM mit **einem** Way kartiert
+  (way/35015872, `highway`=service, `name`=Bahnweg, 14 Knoten, Verlauf von 50.3972522/7.4019395 bis
+  50.3993041/7.4037748); das Objekt trägt **weder `addr:housenumber` noch `addr:street` noch `operator=`**. (b) Das
+  Kachelraster über **bbox=7.3850,50.3850,7.4250,50.4100** (live abgerufen 03.11.2026, umfasst den gesamten
+  Miesenheimer Bahnhofs-/Gewerbebereich) weist **0 Objekte** mit `addr:street`=Bahnweg aus - die Straße trägt im
+  gesamten Raster **kein einziges** Adressobjekt, die **Hausnummer 2 ist damit in OSM nicht belegt**. (c) Eine Suche
+  über **alle** Tag-Werte nach „nettersheim“, „mittelrhein“ oder einem Schrott-/Demontagebetrieb im Raster liefert
+  **0 Objekte**, die **den eigenen Betrieb** nennen - der Betrieb ist in OSM **nicht namentlich kartiert**. **Quelle 1
+  (Betreiber/Register):** Das **Betreiber-Impressum** (live abgerufen 03.11.2026,
+  https://www.auto-mittelrhein.de/impressum/) nennt **Autodemontage Mittelrhein Gebr. Nettersheim OHG**,
+  Alfred/Erhard Nettersheim, **Bahnweg 2, 56626 Andernach**, Telefon 02632 71144,
+  E-Mail info@auto-mittelrhein.de, **Amtsgericht Koblenz HRA 12948**; die **AltfahrzeugV-Bescheinigung** des
+  Betreibers (https://www.auto-mittelrhein.de/bescheinigung-zertifikat/, live abgerufen 03.11.2026, Zertifikatsnummer
+  **ICS003AV26**, Prüfung 01.04.2026, gültig bis 30.09.2027) nennt für die Anlage **Bahnweg 2** in 56626 Andernach
+  die Annahme und Demontage von Altfahrzeugen samt Telefon 02632 71144 und info@auto-mittelrhein.de. Der
+  **NorthData-Registereintrag** (https://www.northdata.de/Autodemontage+Mittelrhein+OHG,+Andernach/Amtsgericht+Koblenz+HRA+12948,
+  im Dossier bereits zitiert) führt denselben Rechtsträger und dieselbe Anschrift. Die **Dossier-Adresse selbst ist
+  damit dreifach belegt** - **nur der OSM-Punkt fehlt**. **Quelle 2 (OSM):** way/35015872 (live abgerufen 03.11.2026
+  über das Kachelraster https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3850,50.3850,7.4250,50.4100). **Was
+  fehlt:** ein OSM-Objekt mit `addr:street`=Bahnweg **und** `addr:housenumber`=2 (oder ein benanntes Betriebsobjekt an
+  dieser Anschrift). Der im Dossier vom 28.10.2026 dokumentierte Nominatim-Befund - die Vorwärtssuche liefert nur die
+  Straße 50.3981746/7.4032618 ohne Hausnummer - ist damit **live bestätigt**. Das ist **kein** Schließungsbeleg und
+  **keine** Aussage gegen die Existenz des Betriebs: die Bahnweg ist in OSM nur als Servicestraße **ohne
+  Adressobjekte** erfasst. `status` bleibt **aktiv**, `street`/`postcode` bleiben unverändert, `clear_fields: 'geo'`
+  bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3850,50.3850,7.4250,50.4100 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.auto-mittelrhein.de/impressum/ ;
+  https://www.auto-mittelrhein.de/bescheinigung-zertifikat/ (live abgerufen 03.11.2026).]

@@ -40,3 +40,36 @@ Die rechtliche Kennung ist widersprüchlich: Das aktuelle Impressum nennt HRB 11
 ### Importiert (Audit 7 Feedback #6724)
 
 - Erneute Meldung nach Audit 6 Feedback #5637: Goldsofort.de (Ring Manufaktur GmbH), 59229 Ahlen, Zahngold/Dentalgold. Die Wiederholung wurde als Prioritätshinweis behandelt, nicht als Beleg.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Straße **„Am Neuen Baum“** existiert
+  in OSM **nicht**: das am 03.11.2026 nachgeladene Kachelraster über das Ahlenner Stadtgebiet (7.6000/51.9300 bis
+  7.6300/51.9900, **36 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**; die Straßenauszählung ist zusätzlich über den
+  abrufbaren Einzelabruf 7.6000/51.9300 bis 7.6200/51.9500 reproduzierbar) erfasst **768 verschiedene Straßen** mit
+  Adressobjekten; eine
+  Straße **„Am Neuen Baum“** oder eine Schreibvariante davon kommt dort **nicht** vor - die im selben Raster
+  vorhandenen Straßen mit ähnlichem Namensbeginn sind **Am Alten Schützenhof, Am Hawerkamp, Am Hörsterfriedhof, Am
+  Kanonengraben, Am Kreuztor, Am Mittelhafen, Am Stadtgraben** sowie **Neubrückenpromenade** und **Neubrückenstraße**.
+  Eine Suche nach der Hausnummer 4 in Verbindung mit einem Straßennamen, der „Am Neuen Baum“ entspricht, findet
+  **keinen** Treffer, und ein Objekt mit Betriebsbezug zu „Ring Manufaktur“ oder „Goldsofort“ existiert im Raster
+  **nicht**. Quelle 1 (Betreiber): das Impressum der Betreiberseite https://www.goldsofort.de/impressum nennt
+  **Ring Manufaktur GmbH, Am Neuen Baum 4, 59229 Ahlen**, Geschäftsführer Lukas-Kevin Christ, Telefon 02382 9668823,
+  info@goldsofort.de und HRB 11125 beim Amtsgericht Münster, und die Filialseite
+  https://www.goldsofort.de/filialen/ahlen bezeichnet Ahlen als Hauptsitz und bestätigt Adresse, Telefon und
+  Mo–Fr 08:00–17:00; der Registerspiegel NorthData (Amtsgericht Münster HRB 17133) führt die Ring Manufaktur GmbH an
+  derselben Anschrift. Die **Anschrift ist damit belegt** - aber **nicht** in OSM abbildbar. Quelle 2 (OSM): das
+  Kachelraster 7.6030/51.9330 bis 7.6330/51.9930 (live geladen am 03.11.2026, HTTP 200). **Warum keine Koordinate:**
+  Ohne ein Objekt, das `addr:street`=„Am Neuen Baum“ und `addr:housenumber`=4 trägt, wäre jeder Punkt eine
+  Ableitung aus einem fremden Objekt oder einer bloßen Straßenmitte und damit eine unbelegte Vermutung über die
+  Lage des Juwelenhändlers; eine Nachbarstraße als Ersatz zu setzen ist ausdrücklich **nicht** zulässig. **Was zur
+  Auflösung fehlt:** eine Kartierung der Straße „Am Neuen Baum“ in OSM (oder ein Objekt, das die Anschrift trägt) -
+  die Betriebsadresse selbst ist durch Impressum, Filialseite und Register hinreichend belegt. **Offen bleibt**
+  unverändert die im Dossier dokumentierte **Registerkennungsabweichung** (HRB 11125 im Betreiber-Impressum gegen
+  HRB 17133 im NorthData-Spiegel) sowie der Widerspruch zwischen der Filialseite (02382 9668823, Mo–Fr 08:00–17:00)
+  und dem Ahlen-Standortblock auf https://www.goldsofort.de/ueber-uns (02382 9681225, Mo–Fr 09:30–18:00); das
+  Frontmatter und alle übrigen Felder bleiben unverändert, `status: aktiv` bleibt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6000,51.9300,7.6200,51.9500 ;
+  https://www.goldsofort.de/impressum ; https://www.goldsofort.de/filialen/ahlen ;
+  https://www.northdata.de/Ring%20Manufaktur%20GmbH,%20Ahlen/Amtsgericht%20M%C3%BCnster%20HRB%2017133
+  (Abruf 03.11.2026).]

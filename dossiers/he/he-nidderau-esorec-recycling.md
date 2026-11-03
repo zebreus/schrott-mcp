@@ -1,5 +1,7 @@
 ---
 slug: he-nidderau-esorec-recycling
+lat: 50.2439454
+lon: 8.8642957
 name: ESOREC Recycling (Jeremy Willeführ)
 trader_type: schrotthaendler
 state: HE
@@ -68,3 +70,26 @@ Straße ist in OSM stark bebaut (71 Adressobjekte, 55 verschiedene Hausnummern i
 - [Recherche 29.10.2026: **Frontmatter-Füllung und Statusentscheidung.** Belegt werden street Siemensstraße 42, postcode 61130, phone 0162 265 72 70, email info@esorec.de und description: alle vier Angaben stammen wörtlich aus dem Impressum der Betreiber-Primärquelle. `status` bleibt **`pruefung`**, weil das Impressum weder HRB-Nummer noch USt-IdNr nennt (Recognition-Kriterien des README für eine Betreiber-Ausnahme nicht vollständig erfüllt) und die Namensrecherche im amtlichen Register keinen hessischen Rechtsträger dieser Firma findet; `website` und `website_status: aktiv` bleiben unverändert. **Keine Koordinate gesetzt**: die OSM-Adresse 42 existiert, ist aber ein Wohngebäude (`building=house`) ohne Betriebs-Tag, der Standort ist als Wertstoffhof nicht bestätigt; die Geokodierung bleibt ein Follow-up für den Owner. Offen bleiben die abweichende 11880-Telefonnummer, die Frage einer öffentlichen Annahmestelle mit Öffnungszeiten (die Website nennt keine) und die Frage, ob die Containerlieferung für Nichtgewerbliche verfügbar ist. Quelle(n): https://www.esorec.de/impressum/ ; https://www.esorec.de/ ; https://www.11880.com/branchenbuch/nidderau-hessen/060371058B108815280/esorec-recycling.html ; Abruf 29.10.2026.]
 
 - [30.10.2026 (Korrekturvermerk): **Zahl der verschiedenen Hausnummern im Korridor berichtigt**: die Nachmessung am 30.10.2026 mit demselben Raster (bbox 8.864374,50.240149,8.870221,50.244856) ergibt **71** Adressobjekte mit `addr:housenumber` (unveraendert) und **57** verschiedene Hausnummern (bisher 55). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=<Raster laut Dossier> (Nachmessung 30.10.2026)]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.2439454/8.8642957**. Quelle 1 (OSM, live geladen):
+  `way/799707978` traegt `addr:housenumber`=42, `addr:street`=Siemensstraße, `addr:city`=Nidderau,
+  `addr:postcode`=61130, `addr:suburb`=Heldenbergen, `addr:country`=DE, `building=house`; der Way hat 4 eindeutige
+  Knoten (BBox 8.8642073/50.2438866 bis 8.8643842/50.2440041), der Mittelwert der eindeutigen Knoten liegt bei
+  50.2439454/8.8642957 und damit innerhalb der Objekt-BBox. Quelle 2 (Betreiber, im Dossier bereits zitiert und am
+  03.11.2026 erneut live gelesen): das Impressum https://www.esorec.de/impressum/ nennt woertlich
+  "ESOREC / Jeremy Willefuehr / Siemensstraße 42 / 61130 Nidderau / Tel.: 0162 265 72 70 / E-Mail: info@esorec.de"
+  und "Inhaltlich Verantwortlicher: Jeremy Willefuehr, Siemensstraße 42, 61130 Nidderau"; die Betreiberseite
+  beschreibt Containerdienst und Schrotthandel mit Ankauf von Metallschrott, Abholung und Vor-Ort-Verwiegung.
+  Betrieb, Hausnummer, Straße und PLZ decken sich damit unabhaengig von OSM mit dem gesetzten Punkt.
+  Einordnung: das OSM-Objekt traegt **weder** `name` **noch** `operator` **noch** `website` und ist als
+  `building=house` erfasst; der Punkt bezeichnet daher die belegte Betriebsanschrift, **nicht** eine verifizierte
+  Zufahrt, Waage oder das als Wertstoffhof genutzte Gelände. Die im Dossier genannten Industrieobjekte der
+  Siemensstraße (way/160623275, `addr:housenumber`=13-17, `building=industrial`, sowie way/244299638 und
+  way/617675329 mit den Bereichsangaben 10-12 und 3-7 auf der Liebigstraße) werden **nicht** als Betriebsstandort
+  behauptet. Die am 29.10.2026 offene Frage einer oeffentlichen Annahmestelle mit Oeffnungszeiten und die
+  abweichende 11880-Telefonnummer bleiben offen, `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/799707978/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.864374,50.240149,8.870221,50.244856 ;
+  https://www.esorec.de/impressum/ ; https://www.esorec.de/ (Abruf 03.11.2026)]

@@ -41,3 +41,26 @@ Die Betreiberwebsite nennt Serafino Nikolaiciuk und einen Impressumsitz in Hainb
 ### Recherche 05.10.2026
 
 - [Recherche 05.10.2026: Betreiberseite bewirbt Ankauf von Eisen, Altmetall, Kupfer-/Aluminiumkabeln und weiteren Metallen sowie Abholung/Container im Raum Hanau und Rhein-Main. Das Impressum nennt Serafino Nikolaiciuk und den Betriebssitz Gartenstraße 83, 63512 Hainburg samt Telefonnummern; diese Betreiberangaben bleiben wegen fehlender qualifizierter unabhängiger Zweitquelle in der Timeline und nicht als verifizierte Frontmatter-Kontaktfelder. 11880 wiederholt Basisdaten nur als Verzeichnis-Lead. Die Seite belegt keine öffentliche Selbstanlieferung in Hanau und keine numerischen Metallankaufspreise. Bauschutt- und Containerpreise sind Entsorgungsgebühren, keine Ankaufskurse. Quelle(n): https://gs-containerdienst.de/schrottentsorgung-schrottankauf/; https://gs-containerdienst.de/impressum/; https://gs-containerdienst.de/kontakt/; https://www.11880.com/branchenbuch/hainburg-hessen/060441364B113009653/gs-containerdienst-hanau.html]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Das Dossier fuehrt die Owner-Direktive
+  `clear_fields: 'geo'`; der Token bleibt bestehen, weil die Beleglage keine Koordinate traegt. Die einzige
+  belegte Adresse ist die **Betreiber-Bueroadresse** Gartenstraße 83, 63512 Hainburg (Impressum
+  https://gs-containerdienst.de/impressum/, im Dossier bereits zitiert und am 03.11.2026 erneut gelesen:
+  "GS Containerdienst Hanau, Serafino Nikolaiciuk, Gartenstraße 83, 63512 Hainburg, Tel. +49 6181 9195058 /
+  +49 151 67706600"). Das Dossier haelt dazu ausdruecklich fest: "Hainburg bleibt Impressums-/Bueroadresse,
+  **keine bestaetigte Selbstanlieferstelle**, daher keine GEO-Aenderung" und "weder Hanau noch Hainburg als
+  Selbstanlieferstelle geokodieren". Quelle 2 (unabhaengige zweite Quelle): es fehlt - 11880 wiederholt
+  dieselben Basisdaten nur als Verzeichnis-Lead, ein Handelsregister- oder sonstiger betreiberunabhaengiger
+  Nachweis fuer Gartenstraße 83 liegt nicht vor; das Impressum ist ein Betreiber-Einzelbeleg. Damit ist die
+  Dossierzeile ein **mobiler** Schrott-/Metall- und Kabelankauf mit Abholung und Containerdienst im Raum Hanau
+  und Rhein-Main ("kein lokaler Hof oder oeffentliche Selbstanlieferung belegt", `pickup_json` belegt die
+  Abholung), und ein Punkt auf der Bueroadresse wuerde eine oeffentliche Anlieferstelle suggerieren, die es
+  gerade nicht gibt. Der read-only Produktionsabruf am 25.10.2026 zeigte den Altpunkt 49.7531/8.4886
+  (Zwingenberger Straße 11, Gernsheim), der ohnehin zurueckgenommen wird. Es wird **keine** Koordinate
+  erfunden; `status` bleibt `pruefung`.
+  Quelle(n): https://gs-containerdienst.de/impressum/ ;
+  https://gs-containerdienst.de/schrottentsorgung-schrottankauf/ ;
+  https://www.11880.com/branchenbuch/hainburg-hessen/060441364B113009653/gs-containerdienst-hanau.html ;
+  read-only `public.db` (Abruf 03.11.2026)]

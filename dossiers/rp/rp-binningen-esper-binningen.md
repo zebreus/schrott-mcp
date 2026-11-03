@@ -63,3 +63,36 @@ Die Betreiberidentität bleibt ungeklärt, die Anschrift ist jetzt aber sauber b
 
 - [Recherche 01.10.2026: Klärfall – nur Aggregator-/Kleinanzeigen-Leads (Schrottplatz-Portale), keine verifizierte Betreiber-Website, kein Registerbeleg (Retry 01.10.2026 ohne neuen Beleg); street-Feld enthält Seed-Mischtext und wird nicht überschrieben; Quelle(n): keine belegfähige Quelle (nur Aggregator-/Kleinanzeigen-Leads, zählen nicht)]
 - [Recherche 01.10.2026: Felder leer gelassen, Status pruefung unverändert; Quelle(n): siehe Vorbullet]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **56** ist in OSM auf der
+  Dossier-Straße **Hauptstraße** zwar **eindeutig** belegt, aber **es fehlt die zweite unabhängige Quelle**: die
+  Dossier-Adresse stammt ausschließlich aus **Verzeichnis-Leads**, und nach der README-Quellenhierarchie sind
+  Verzeichnisse ausdrücklich **Leads, keine Evidenz** - ein Verzeichnis plus OSM bleibt ein **Einzelbeleg**.
+  **Was geprüft wurde (live am 03.11.2026):** (a) Die Straße **Hauptstraße** in Binningen trägt in OSM **über 80
+  Adressobjekte**; die **Hausnummer 56 ist genau einmal** belegt und damit eindeutig: **way/492658719** mit
+  `addr:housenumber`=**56**, `addr:street`=**Hauptstraße**, `addr:city`=**Binningen**, `addr:postcode`=**56754**,
+  `addr:country`=DE und `building`=residential (Kachelraster über **bbox=7.2300,50.1950,7.2600,50.2150**, live
+  abgerufen 03.11.2026); Objekt-BBox 50.2046042/7.2436404 bis 50.2046735/7.2437773. (b) Eine Suche über **alle**
+  Tag-Werte nach „esper“ oder „schrott“ im Raster liefert **0 Objekte**, die **den eigenen Betrieb** nennen - der
+  Betrieb ist in OSM **nicht namentlich kartiert**; das Objekt trägt **weder `name=` noch `operator=`** und ist als
+  `building`=**residential** kartiert, was eine **Wohnnutzung** und **keine** belegte gewerbliche Annahme nahelegt.
+  **Quelle 1 (Verzeichnis):** Die **11880-Detailseite** (live abgerufen 03.11.2026, HTTP 200,
+  https://www.11880.com/branchenbuch/binningen-eifel/060440092B113059782/schrotthandel-esper.html) führt
+  „Schrotthandel Esper“ mit „**Hauptstr. 56, 56754 Binningen, Eifel**“, Mobil **(0160) 3872487**,
+  E-Mail schrotthandel.esper@web.de, Öffnungszeiten täglich 08:00–20:00 (Profilaktualisierung 26.10.2026,
+  zugrunde liegende Eintragsdaten 09.01.2026); der **Schrottplatz.org-Eintrag** (live abgerufen 03.11.2026,
+  https://www.schrottplatz.org/binningen/schrott-esper-frank-u-michaela-aYEPQz.html) nennt dieselbe Anschrift mit
+  dem Festnetz 02672 91 25 87. Beides sind **Verzeichnisse**; eine **Betreiberseite**, ein **Impressum** oder ein
+  **Registereintrag** existiert **nicht**. Der im Dossier dokumentierte **Namens- und Nummernkonflikt** bleibt offen:
+  11880 und die Kleinanzeige nennen **Raphael Esper**, Schrottplatz.org nennt **Frank u. Michaela Esper** - die
+  Einträge sind damit **nicht eindeutig demselben Betrieb** zuzuordnen. **Quelle 2 (OSM):** way/492658719 und die
+  übrigen Adressobjekte der Hauptstraße (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2300,50.1950,7.2600,50.2150). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle**, die Anschrift, Inhaber und Betrieb bestätigt, sowie die Klärung, ob an der
+  Hauptstraße 56 überhaupt eine öffentliche Annahme stattfindet. `status` bleibt **pruefung**,
+  `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2300,50.1950,7.2600,50.2150 (Kachelraster, live abgerufen
+  03.11.2026) ; https://www.11880.com/branchenbuch/binningen-eifel/060440092B113059782/schrotthandel-esper.html ;
+  https://www.schrottplatz.org/binningen/schrott-esper-frank-u-michaela-aYEPQz.html (live abgerufen 03.11.2026).]

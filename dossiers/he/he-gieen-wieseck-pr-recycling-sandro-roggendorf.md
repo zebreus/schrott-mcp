@@ -60,3 +60,32 @@ Betreiber-PRIMARY-QUELLE bestätigt: PR RECYCLING, Sandro Roggendorf, Am Siegbor
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Betreiber-Domain live erneut geprüft: Startseite, Impressum, Schrotthandel-, Containerdienst- und AGB-Seiten. Das Impressum nennt weiterhin Sandro Roggendorf, PR-Recycling, Am Siegborn 336, 35396 Gießen; kein HRB. Schrotthandel bewirbt Ankauf von Altmetall zu tagesaktuellen Höchstpreisen, kostenlose Verwiegung und Sofortauszahlung, aber keine Zahlen-/Materialkurse. Containerdienst bewirbt 3–40-m³-Container, Festpreise und für Gewerbekunden kostenlose Schrottcontainer; die AGB derselben Domain nennen jedoch Lieferung und Abholung als gesondert abgerechnete Positionen, eine Sortierungsgebühr bei Fehlwurf und möglichen vollen Auftragsbetrag bei Storno unter 24 Stunden. Die AGB nennen den Anbieter nur „Containerdienst Gießen“ und weisen keine Beträge aus; deshalb die kostenlosen Schrottcontainer nicht zu einer allgemeinen kostenlosen Container-/Abholleistung verallgemeinern. ANKAUF — Tagespreise ohne veröffentlichte €/kg-Werte; VERKAUF — keine Preisliste für Material; GEBÜHREN — keine Beträge, nur die oben genannten vertraglichen Kostenarten, deren rechtliche Zuordnung zum im Impressum genannten PR-Recycling offen bleibt. Keine Frontmatter-Änderung: nur ein Betreiber-Domainkomplex und kein Registerzweibeleg; insbesondere kein Nachweis, dass eine Annahmestelle am seedgenauen Ortsteil Wieseck liegt. Quelle(n): https://pr-recycling.de/; https://pr-recycling.de/impressum; https://pr-recycling.de/leistungen/schrotthandel; https://pr-recycling.de/leistungen/containerdienst; https://pr-recycling.de/agb]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **336** auf "Am Siegborn" existiert in OSM **nicht**: die Strasse ist zwar kartiert, aber
+  ausschliesslich als **Feldweg** (`highway=track`, `name=Am Siegborn`) in drei Ways -
+  `way/4937038` (BBox 8.6938012/50.6079624 bis 8.6945711/50.6107044), `way/1031978819`
+  (BBox 8.6936206/50.6073804 bis 8.6938012/50.6079624) und `way/381760610` - **ohne** `addr:*`-Tags und
+  **ohne** ein einziges Adressobjekt. Das am 03.11.2026 live abgefragte Kachelraster ueber den gesamten
+  Wiesecker Ortsbereich (bbox 8.6850,50.6000,8.7050,50.6150, 4 Kacheln, 0 Fehler) liefert **0 Objekte** mit
+  `addr:street`=Am Siegborn und **keine** Hausnummer 336; die Adressobjekte der Nachbarstrassen
+  (Am Kaiserberg 7 bis 38, Burgenring, Wettenbergring, Lichtenauer Weg, Schöne Aussicht, Eisenstein,
+  Gleibergring, Rabenauer Straße, Philipp-Scheidemann-Straße) tragen **keine** Nummer 336. Von den 11
+  Treffern mit `amenity=recycling` im Raster sind **alle** kommunale Wertstoffcontainer
+  (`recycling_type=container` bzw. reine Sammelstellen ohne `name`/`operator`); **kein** Objekt mit Bezug zu
+  "PR Recycling", "Roggendorf", "Schrott", "Metall" oder "Containerdienst" ist erfasst. Die Betriebsadresse
+  selbst ist belegt: Quelle 1 (Betreiber): das Impressum https://pr-recycling.de/impressum nennt woertlich
+  "Sandro Roggendorf PR-Recycling Am Siegborn 336 35396 Gießen" mit Telefon 0177-5545410 und
+  info@pr-recycling.de; die AGB von https://schrottplatzgiessen.de/ nennen "PR RECYCLING, Am Siegborn 336,
+  35396 Gießen" ausdruecklich als Anbieter. Quelle 2 (OSM): way/4937038, way/1031978819, way/381760610 sowie
+  das Kachelraster 8.6850,50.6000,8.7050,50.6150 (live, oben). Da die Dossier-Hausnummer in OSM nicht
+  existiert, wird **keine** Koordinate erfunden und kein Nachbarobjekt als Ersatzpunkt missbraucht; der
+  gespeicherte Altpunkt 50.5852400/8.6791800 (Ostanlage, Gießen 35390) wird mit `clear_fields: 'geo'`
+  ohnehin zurueckgenommen. `status` bleibt `pruefung`.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/4937038/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/1031978819/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6850,50.6000,8.7050,50.6150 ;
+  https://pr-recycling.de/impressum ; https://schrottplatzgiessen.de/ ; https://pr-recycling.de/agb ;
+  read-only `public.db` (Abruf 03.11.2026)]

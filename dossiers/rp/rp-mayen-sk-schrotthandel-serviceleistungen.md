@@ -55,3 +55,37 @@ Betreiber-Einzelbeleg mit internem Identitätskonflikt: Impressum nennt René St
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Altmetallabholung, Entrümpelung (gegr. 2024)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse ist **nicht
+  widerspruchsfrei**, und für keine der beiden Varianten ist eine **öffentliche Annahmestelle** belegt; ein Punkt
+  wäre geraten, deshalb wird bewusst **keine** Koordinate gesetzt. **Was geprüft wurde (live am 03.11.2026):** (a) Das
+  **Impressum** der Betreiber-Website (live abgerufen 03.11.2026, HTTP 200,
+  http://www.sk-serviceleistungen.info/Impressum/) nennt „**René Stöcker, Neustraße 15, 56727 Mayen**“,
+  Telefon 0172 6565802; der **Datenschutzabschnitt derselben Seite** nennt „**Michel Kraus, SK Schrotthandel &
+  Serviceleistungen, Alkenstr. 30, 56727 Mayen**“ - der im Dossier seit 08.10.2026 dokumentierte
+  Identitätskonflikt besteht am 03.11.2026 **unverändert** und ist damit **live bestätigt**. (b) Die Variante
+  **Alkenstr. 30** findet sich in OSM **nicht**: das Kachelraster über **bbox=7.2000,50.3150,7.2400,50.3400**
+  (live abgerufen 03.11.2026, umfasst den gesamten Mayener Innenstadtbereich) weist auf der **Alkenstraße** nur die
+  Hausnummern **1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14** aus (way/97847621 `highway`=living_street,
+  `name`=Alkenstraße; way/835425105 als `highway`=service) - eine Nummer **30 existiert dort nicht**. (c) Die
+  Variante **Neustraße 15** existiert zwar, ist aber **mit einem anderen Betrieb belegt**: node/9081682679 trägt
+  `addr:housenumber`=15, `addr:street`=Neustraße, `addr:city`=Mayen, `addr:postcode`=56727 **und**
+  `name`=**„Rosenberg Doll“** mit `office`=company; daneben liegt way/655697252 (`building`=residential) mit
+  derselben Nummer 15 ohne Betriebsbezug. **„Rosenberg Doll“ ist nicht der Dossier-Betrieb** - die OSM-Adresse
+  15 ist also **nicht** als Standort von „SK Schrotthandel & Serviceleistungen“ belegt. (d) Eine Suche über
+  **alle** Tag-Werte nach „schrotthandel“, „SK“ oder „Serviceleistungen“ im Raster liefert **0 Objekte**; der
+  Betrieb ist in OSM **nicht namentlich kartiert**. **Quelle 1 (Betreiber):** das oben zitierte Impressum (live
+  03.11.2026) sowie die Leistungsseite **Kostenlose-Schrottabholung** (live abgerufen 03.11.2026,
+  http://www.sk-serviceleistungen.info/Kostenlose-Schrottabholung/) - sie beschreibt einen **mobilen
+  Abholservice** („Altmetall-/Elektroschrottabholung und Bereitstellung von Gitterboxen/Sammelfässern“, 800 kg
+  Fahrzeugzuladekapazität, maximal 1.800 kg je Anfahrt) und nennt **keinen** festen Hof, an dem angenommen wird.
+  **Quelle 2 (OSM):** die oben genannten Objekte (live abgerufen 03.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2000,50.3150,7.2400,50.3400). **Was fehlt:** eine
+  widerspruchsfreie Betreiberanschrift **und** ein OSM-Objekt ohne konkurrierenden Fremdbetrieb; die
+  SAM-Nr. GG0000087 bleibt **Selbstauskunft**, keine unabhängige Genehmigungsprüfung. `status` bleibt **pruefung**,
+  `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2000,50.3150,7.2400,50.3400 (Kachelraster, live abgerufen
+  03.11.2026) ; http://www.sk-serviceleistungen.info/Impressum/ ;
+  http://www.sk-serviceleistungen.info/Kostenlose-Schrottabholung/ (live abgerufen 03.11.2026).]
