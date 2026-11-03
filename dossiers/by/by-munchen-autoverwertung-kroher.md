@@ -52,3 +52,27 @@ Die Betreiberwebsite nennt Christian Kroher und Rupert-Bodner-Straße 19, währe
 ### Importiert (Seed-Stand 2026-09-30)
 
 - nur Autoverwertung
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Das Dossier führt zwei
+  **widersprüchliche Hausnummern** für denselben Betrieb: die Betreiber-Website nennt **Rupert-Bodner-Straße 19**, die
+  Verzeichnisse (11880, Gelbe Seiten) dagegen **Rupert-Bodner-Straße 23**; beide Hausnummern sind laut Dossier Leads,
+  die Website trägt ©2018. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=11.4100,48.1500,11.4400,48.1800** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4100,48.1500,11.4400,48.1800). Auf der
+  Rupert-Bodner-Straße in 81245 München sind **8 Adressobjekte** erfasst (Hausnummern **5, 6, 11, 12, 16, 20, 23,
+  25**), darunter **way/32672333** mit `addr:housenumber`=**23**, `addr:street`=Rupert-Bodner-Straße, `addr:postcode`=81245,
+  `addr:city`=München und `building`=commercial sowie way/133498336 mit `addr:housenumber`=25 und `name`=**ALFA Recycling
+  München GmbH & Co. KG** (ein **anderer** Betrieb, der nicht als Beleg für Kroher verwendet wird). Die
+  **Betreiber-Website-Nummer 19 existiert in OSM nicht**; von den beiden konkurrierenden Dossier-Nummern ist nur
+  **23** adressiert. Die Suche über `name`, `operator`, `brand` und `official_name` nach „kroher“ und
+  „autoverwertung“ liefert **keinen** Treffer, der diesem Betrieb zugeordnet werden kann - Kroher ist in OSM nicht
+  kartiert. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert): das Betreiber-Impressum https://www.autoverwertung-kroher.de/impressum.html nennt
+  „Autoverwertung Kroher, Inhaber Christian Kroher, **Rupert-Bodner-Straße 19**, 81245 München-Aubing, Tel. 089
+  8633975 (zusätzlich 089 8632783)“, die Seite trägt jedoch **©2018** und ist damit kein Aktualitätsbeleg; die
+  Verzeichnisse nennen dieselbe Nummer 089 8633975, aber Hausnummer 23 (Recherche 02.10./20.10.2026). Damit
+  widersprechen sich die beiden einzigen vorliegenden Adressquellen, und die Nummer des Betreiber-Primärbelegs ist in
+  OSM nicht auffindbar; eine Zuordnung des Punktes wäre geraten. Es wird **keine** Koordinate erfunden und kein
+  Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo,phone'`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt
+  (Spielhalle Dachauer Straße) weiterhin entzogen werden soll; `status` (pruefung), `phone` und alle übrigen
+  Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4100,48.1500,11.4400,48.1800 ; https://api.openstreetmap.org/api/0.6/way/32672333/full.json ; https://www.autoverwertung-kroher.de/impressum.html ; https://www.11880.com/branchenbuch/muenchen/060440459B33206091/christian-kroher-autoverwertung.html (live abgerufen 03.11.2026).]

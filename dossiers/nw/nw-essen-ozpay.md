@@ -55,3 +55,36 @@ ist der OSM-Way 178376297 (51.4501937/6.9882735) dokumentiert.
 
 - mobil (GS)
 - Adresse: Essen
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **29** ist auf der
+  **Bunsenstraße** in OSM zwar erfasst, die **Betreiberidentität** an dieser Anschrift aber **nicht**; die zweite
+  erforderliche Quelle (Betreiber-/Registerbeleg) fehlt. **Was live geprüft wurde (03.11.2026):** (a) Das Adressobjekt
+  existiert: **way/178376297** mit `addr:housenumber`=**29**, `addr:street`=**Bunsenstraße**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45145**, `building`=apartments, `building:levels`=3 (Mittel der 4 eindeutigen
+  Way-Knoten **51.4501939/6.9882737**, BBox 51.4501289/6.9881643 – 51.4502593/6.9883823) — die Dossier-Adresse ist damit
+  adressgenau im OSM vorhanden. (b) Das Objekt trägt **weder** `name=` **noch** `operator=`; eine Suche über `name`,
+  `operator`, `brand`, `website`, `contact:website`, `description`, `note` und `short_name` nach **„Özpay“**/**„Ozpay“**
+  im Kachelraster **6.9400/51.4100 – 7.0200/51.4800** liefert **0** Treffer — Aussage zum OSM-Bestand, **kein**
+  Negativbeleg über den Betrieb. (c) Das **amtliche Fachbetrieberegister** (Auszug 11.08.2026) führt für Essen 24
+  anerkannte Betriebe (u. a. Coban Metallhandel, DREKOPF Recyclingzentrum, Tappe Rohstoffhandel, HAMAREC, WRL GmbH) —
+  **keinen** Betrieb an der Bunsenstraße 29 und **keinen** namensgleichen Betrieb; die EFB-Anerkennung ist freiwillig,
+  das ist daher ein Negativbefund **ohne Beweiswert**. (d) Die amtliche/verlagsseitige Zuordnung ist zusätzlich
+  gestört: Die Branchenplattform auskunft.de hinterlegt bei „Özpay Schrott- und Metallhandel, Bunsenstraße 29“ die
+  E-Mail **info@schrottabholung-ankauf.de** und die Website **schrottabholung-ankauf.de**, **dieselben** Angaben stehen
+  dort aber auch bei zwei anderen Essener Betrieben („Schrottabholung Nagel“, Viehofer Straße 20, und „Schrotthandel
+  Udo Schimmel UG“, Johannes-Brokamp-Straße 29) — es ist ein **geteilter Portal-Kontakt**, keine betreiberseigene Angabe;
+  die Domain selbst nennt in ihrem Impressum weder Özpay noch die Bunsenstraße. Quelle 1 (Verzeichnis, **keine**
+  Betreiber-/Registerquelle): 11880 führt „Özpay Schrott- und Metallhandel“, Bunsenstr. 29, 45145 Essen-Holsterhausen,
+  **0178 6836501** (Profilupdate 14.10.2026); Gelbe Seiten führt „Schrotthandel Özpay“ an derselben Adresse, aber in
+  Essen-Frohnhausen; Das Telefonbuch liefert zu derselben Adresse das Koordinatenpaar **51.450224/6.988326**
+  (**5 m** neben dem OSM-Objekt) — die drei Verzeichnisse sind **Aggregatoren** derselben Datenbasis und damit **keine**
+  unabhängige Betreiberquelle. Quelle 2 (OSM): die Adresse ist vorhanden, der **Betriebsbezug** fehlt. **Was fehlt:** ein
+  Betreiber- oder Registerbeleg, der Özpay an die Bunsenstraße 29 bindet (Betreiberseite, Impressum oder HR-Eintrag);
+  erst damit wäre die Dossier-Adresse als Standort gesichert. `clear_fields: 'geo'` bleibt bestehen; die Ortsteil-
+  Abweichung (Holsterhausen/Frohnhausen) bleibt ungeklärt.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/178376297/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9400,51.4100,7.0200,51.4800 ;
+  https://www.11880.com/branchenbuch/essen-ruhr/060440090B53756582/oezpay-schrott-und-metallhandel.html ;
+  https://schrottregister.pages.dev/ort-essen ; https://www.auskunft.de/a/schrotthaendler/essen (Abruf 03.11.2026).]

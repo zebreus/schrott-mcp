@@ -43,3 +43,26 @@ Der vorhandene Dossier-Eintrag `by-moosburg-huber-recycling.md` betrifft die Hub
 ### Importiert (Audit 7 Feedback #6578)
 
 - Als wiederholter Audit-7-Fehlhändler-Lead „Autoverwertung Peter Huber, Geretsried“ übergeben. Ein passendes älteres Dossier bzw. das zugrunde liegende Feedback-Rohprotokoll war im lokalen Checkout nicht vorhanden; keine frühere Dossierhistorie oder ungeprüften Seed-Werte rekonstruiert.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist **Breslauer Weg
+  119, 82538 Geretsried**. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=11.4620,47.8360,11.5120,47.8860** (25 Kacheln à 0,01° über Geretsried, https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4620,47.8360,11.5120,47.8860) mit **114 824 Elementen**
+  und **0 Kachel-Fehlern**. Auf dem „Breslauer Weg“ sind **23 Adressobjekte** in 82538 Geretsried erfasst, mit den
+  Hausnummern **2, 4, 6-8, 9, 10-12, 11, 14-16, 20, 22, 24, 26, 27, 32, 36, 36a, 38, 94, 103, 113, 117, 123** (u. a.
+  node/1996896662 hn=36, node/5052315805 hn=38, node/5052315807 hn=36a, node/5052315810 hn=26, node/5052315813 hn=24,
+  node/7679549394 hn=94, node/9955217554 und way/188648201 hn=103 „Fitness Forum & Squash“, way/189042651 hn=113
+  „EDEKA Heininger“, way/128503530 hn=117, way/501380014 hn=123 „CHT Geretsried“); die Dossier-Hausnummer **119
+  existiert in OSM nicht** - sie fehlt auch in dem von way/128503530 (117, Mittel 47.8580193/11.4914192) und
+  way/501380014 (123, Mittel 47.8585551/11.4925158) eingeschlossenen und vollständig gescannten Straßenabschnitt. Die
+  Suche über `name`, `operator`, `brand`, `official_name`, `alt_name`, `short_name`, `legal_name` und `old_name` nach
+  „autoverwertung“ und „peter huber“ liefert **0 Treffer** - der Betrieb selbst ist in OSM nicht kartiert. Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert): das Betreiber-Impressum von https://autoverwertung-huber.de/ nennt **Breslauer Weg 119,
+  82538 Geretsried**, Inhaber Peter Huber, USt-IdNr. DE182230887, und der amtliche Fachbetrieberegister (Auszug
+  11.08.2026, schrottregister.pages.dev) führt denselben Betrieb als anerkannten Demontagebetrieb nach AltfahrzeugV,
+  Zertifikatsnummer ZAHS01800066, mit derselben Anschrift (Recherche 28.10.2026). Die Adresse ist damit belegt, die
+  **Geometrie der Hausnummer 119 fehlt in OSM jedoch**; es wird **keine** Koordinate erfunden, kein Nachbarobjekt (117
+  oder 123) und kein Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthält **keine**
+  `clear_fields`-Anweisung; `status`, `certifications`, `street`, `postcode` und alle übrigen Felder bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4620,47.8360,11.5120,47.8860 ; https://api.openstreetmap.org/api/0.6/way/128503530/full.json ; https://api.openstreetmap.org/api/0.6/way/501380014/full.json ; https://autoverwertung-huber.de/impressum/ ; https://schrottregister.pages.dev/betrieb-autoverwertung-peter-huber-inhaber-peter-huber-geretsried (live abgerufen 03.11.2026).]

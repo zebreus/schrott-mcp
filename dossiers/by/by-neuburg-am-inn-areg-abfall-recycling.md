@@ -49,3 +49,26 @@ NorthData zeigt außerdem einen anderen, erloschenen Rechtsträger „areg Abfal
 ### Owner-Korrektur 25.10.2026
 
 - [Owner-Korrektur 25.10.2026: Betreiber-Impressum bestätigt AREG mbH, HRB 1543 AG Passau, Hauptstr. 91, Telefon +49 8502 9003-0 und info@areg-mbh.de. Betreiber-Kontakt-/Unternehmensseiten nennen Neuburg am Inn/Pfennigbach als Standort, Öffnungszeiten Mo–Do 07:00–16:00 und Freitag Anlieferung bis 14:00. Die Wertstoffseite bestätigt Annahme für Privat- und Geschäftskunden, Schrott/Metalle sowie weitere ausdrücklich gelistete Wertstoffe; Abrechnung nach Preisliste und Gewicht, Metallvergütung ab 101 kg, kein Direktempfang von KMF/asbesthaltigen Baustoffen. Betreiberseiten belegen außerdem Container-Service und Abholung nach Abstimmung. NorthData bestätigt HRB 1543/Adresse; die Otto Ammermüller GmbH HRB 5519 bleibt separat. AREGs Zertifikatsseite nennt Gültigkeit bis 29.10.2026; diese Frist ist nicht als dauerhafte Zertifizierung übernommen und nach Ablauf erneut zu prüfen. Quellen: https://www.areg-mbh.de/impressum/ ; https://www.areg-mbh.de/kontakt/ ; https://www.areg-mbh.de/entsorgung/wertstoffe/ ; https://www.areg-mbh.de/containerservice/ ; https://www.areg-mbh.de/unternehmen/ ; https://www.northdata.de/AREG%20Abfall-Recycling-Entsorgungsgesellschaft%20mbH,%20Neuburg%20a.%20Inn/Amtsgericht%20Passau%20HRB%201543 ; https://www.northdata.de/Otto%20Ammerm%C3%BCller%20GmbH,%20Neuburg%20a.%20Inn/Amtsgericht%20Passau%20HRB%205519]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist **Hauptstr. 91,
+  94127 Neuburg am Inn**. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=13.3700,48.5200,13.4000,48.5500** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3700,48.5200,13.4000,48.5500) mit **18 675 Elementen**
+  und **0 Kachel-Fehlern**. Auf der Hauptstraße in 94127 Neuburg am Inn sind **5 Adressobjekte** mit **4 verschiedenen
+  Hausnummern** erfasst (**1, 4, 43, 90**) - die Dossier-Hausnummer **91 existiert in OSM nicht**. Das einzige
+  wertstoffbezogene Objekt ist **way/215834382** mit `addr:housenumber`=**90**, `addr:street`=Hauptstraße, `addr:postcode`=94127,
+  `addr:city`=Neuburg a.Inn, `addr:suburb`=**Pfenningbach**, `amenity`=recycling, `recycling_type`=centre,
+  `name`=**Recyclinghof Neuburg-Pfenningbach**, `operator`=**ZAW Abfallwirtschaft Donau-Wald**, `phone`=+49
+  8502 3531 (Mittel der 11 eindeutigen Knoten 48.5333930/13.3898487, innerhalb der Objekt-BBox) - das ist **die
+  Nachbarhausnummer 90 und ein anderer Betreiber**, nicht die AREG; die Objekte tragen weder AREG noch
+  `operator`=AREG. Quelle 2 (Betreiber/Register, im Dossier bereits zitiert): die Betreiberwebsite und das
+  Registerprofil ordnen der **AREG Abfall-Recycling-Entsorgungsgesellschaft mbH, HRB 1543 beim Amtsgericht Passau**,
+  die **Hauptstr. 91, 94127 Neuburg am Inn** zu; die aktuelle Betreiberseite führt Neuburg/Pfennigbach als
+  Wertstoffannahmestelle, nennt Annahme für Privat- und Geschäftskunden und Schrott-/Metallvergütung ab 101 kg
+  (Dossier-Überblick und Recherche 22.10.2026). AREG bleibt von der separat registrierten **Otto Ammermüller GmbH**
+  getrennt; die amtliche ZAW-Kartierung in OSM ist ein **anderer** Rechtsträger und wird nicht als Beleg für AREG
+  übernommen. Damit ist die Dossier-Hausnummer in OSM **nicht** auffindbar; es wird **keine** Koordinate erfunden und
+  die benachbarte Hausnummer 90 nicht als Ersatz gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung;
+  `status` (aktiv), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3700,48.5200,13.4000,48.5500 ;
+  https://api.openstreetmap.org/api/0.6/way/215834382/full.json ; https://www.areg-mbh.de/ ; https://www.northdata.de/AREG-Abfall-Recycling-Entsorgungsgesellschaft-mbH/Neuburg-am-Inn/Amtsgericht%20Passau%20HRB%201543 (live abgerufen 03.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: by-munchen-schindelar-center-autoverwertung-sued
+lat: 48.1377772
+lon: 11.6641554
 name: Schindelar Center Autoverwertung GmbH Süd
 trader_type: autoverwertung
 state: BY
@@ -42,3 +44,20 @@ Die Namenszusätze „Nord“ und „West“ sind keine zusätzlichen Süd-Filia
 ### Owner-Korrektur 25.10.2026
 
 - [Owner-Korrektur 25.10.2026: Die aktuelle Betreiberseite `https://www.schindelar.de/autoverwertung/` bestätigt kostenfreie Selbstanlieferung nicht nur samstags, sondern Mo–Fr 08:00–18:00 sowie Sa 09:00–13:00. Sie nennt für Abholung im Großraum München Termine Mo–Fr 08:30–17:00 gegen entfernungsabhängige Pauschale. `dropoff_json` wurde um Werktage erweitert; da die JSON-Struktur keine unterschiedlichen Zeitfenster je Wochentag ausdrückt, bleiben die genauen Zeiten in `opening_hours` und im Bedingungstext statt in einer missverständlichen gemeinsamen `time_windows`-Liste. `pickup_json` hält Gebührenhinweis und Terminfenster fest. Das Betreiber-Impressum bestätigt weiterhin die konkrete Süd-GmbH/HRB 67441, Valentin-Linhof-Str. 14. Quelle: https://www.schindelar.de/autoverwertung/ ; https://www.schindelar.de/impressum/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **48.1377772/11.6641554** (Mittelwert der
+  eindeutigen Knoten des Objekts node/2699847290; der Objektknoten ist der einzige Knoten, der Punkt liegt damit
+  innerhalb der Objekt-BBox 48.1377772/11.6641554 bis 48.1377772/11.6641554). Quelle 1 (OSM): node/2699847290 (live
+  abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/node/2699847290.json) trägt `name`=**Schindelar Center Autoverwertungs GmbH Süd**, `shop`=car_parts,
+  `addr:housenumber`=**14**, `addr:street`=**Valentin-Linhof-Straße**, `phone`=+49 89 420908-0,
+  `email`=moosfeld@schindelar.de, `website`=**https://www.schindelar.de/** und `opening_hours`=„Mo-Fr 08:00-18:00; Sa 09:00-13:00“ - das
+  Objekt benennt den Dossier-Betrieb **wörtlich**, und Telefon, Website und Öffnungszeiten decken sich exakt mit dem
+  Dossier (089 420 90 80, https://www.schindelar.de/, Mo-Fr 08:00-18:00; Sa 09:00-13:00). Quelle 2 (Betreiber/Register, im Dossier
+  bereits zitiert): das Betreiber-Impressum nennt Schindelar Center Autoverwertung GmbH Süd, HRB 67441 Amtsgericht
+  München, **Valentin-Linhof-Str. 14**; das unabhängige NorthData-Registerprofil bestätigt dieselbe Gesellschaft und
+  Anschrift, die Betreiberseite zeigt denselben Standort (Dossier-Überblick). Damit stimmen OSM-Objekt und
+  Betreiber-/Registerbeleg überein. Das Dossier enthielt **keine** `clear_fields`-Anweisung, daher ist nichts zu
+  entfernen; `status`, `opening_hours`, `phone`, `email` und alle übrigen Felder bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/2699847290.json ; https://www.schindelar.de/ ; https://www.schindelar.de/impressum/ (OSM live abgerufen 03.11.2026).]

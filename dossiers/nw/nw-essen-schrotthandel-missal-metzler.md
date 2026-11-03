@@ -63,3 +63,31 @@ Mobile Betreiber-Sphäre Metzler/Jürgen Missal mit belegter kostenloser Altmeta
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Schrottpreise-Seite direkt erneut abgerufen. Sie verlangt für ein konkretes Angebot den Anruf und nennt keine EUR/kg-Werte oder datierte Tabelle; Zusammensetzung/Menge, Demontage-/Sortieraufwand und mögliche Entsorgungskosten wirken laut Text auf die Preisberechnung. Seite wirbt zugleich mit kostenloser Abholung im Ruhrgebiet/NRW. ANKAUF: telefonische Einzelfallpreise, keine numerische Preisliste. VERKAUF: keine separate Produkt-/Verkaufspreisliste. GEBÜHREN: kostenlose Abholung behauptet; Zusatzarbeiten/Entsorgungskosten können anfallen und sind nicht pauschal kostenfrei, aber keine Tarife ausgewiesen. Identitäts-/Adresskonflikt aus bisherigen Einträgen bleibt offen; Frontmatter nicht geändert. GEO offen: keine Zuordnung von Kalthofweg 4 oder Zum Oberhof 32 als Schrottannahme; mobiler Dienst ist kein bestätigter Hof. Quelle: https://schrotthandel-metzler-essen.de/schrottpreise/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diese Zeile sind **zwei** Betriebsadressen
+  im Umlauf, und der Adresskonflikt ist im Dossier **ausdrücklich offen** (Owner-Gate vom 01.10.2026); eine
+  Festlegung wäre eine Ermessensentscheidung und keine geprüfte Geokodierung. **Was live geprüft wurde (03.11.2026):**
+  (a) **Beide** Kandidaten sind in OSM als Adressobjekte erfasst: **way/318494685** mit `addr:housenumber`=**4**,
+  `addr:street`=**Kalthofweg**, `addr:postcode`=**45277**, `addr:suburb`=Überruhr-Hinsel, `building`=yes (Mittel der 4
+  eindeutigen Way-Knoten **51.4257355/7.0783742**) und **way/88583555** mit `addr:housenumber`=**32**,
+  `addr:street`=**Zum Oberhof**, `addr:postcode`=**45307**, `building`=apartments (Mittel der 4 eindeutigen Way-Knoten
+  **51.4568962/7.0728580**); die beiden Objekte liegen **3.486 m** auseinander. (b) Beide Objekte tragen **weder** `name=`
+  **noch** `operator=`; eine Suche über `name`, `operator`, `brand`, `website`, `contact:website`, `description`, `note`
+  und `short_name` nach **„Missal“** und **„Metzler“** im Essener Kachelraster **6.9400/51.3900 – 7.1600/51.5300**
+  liefert **0** Treffer. (c) Die **Schwesterzeile** `nw-essen-schrott-und-metallhandel-j-missal` führt für die
+  Betreiberanschrift **Kalthofweg 4** dieselbe Quellenlage; dort ist die Anschrift gesetzt. Quelle 1 (Betreiber/
+  Register): das Impressum der Betreiber-Website **schrotthandel-metzler-essen.de/impressum** nennt **Jürgen Missal**
+  **und** den Vertretungsberechtigten **Markus Metzler** an **Kalthofweg 4, 45277 Essen** (Telefon **0170 3547895**,
+  keine HRB, USt-ID nicht erteilt) — die Betreiberquelle spricht damit für Kalthofweg 4. Dagegen steht der
+  Verzeichniseintrag „Markus Metzler Schrotthandel“, **Zum Oberhof 32, 45307 Essen** (11880), der die im Dossier
+  geführte Seed-Adresse trägt und die von den Betreiberseiten **nicht** erwähnt wird; beide Adressen sind in OSM
+  **Wohnobjekte ohne Betriebsbezug**. Quelle 2 (OSM): beide Kandidaten sind adressgenau erfasst, eine Auswahl ist
+  ohne Betreiberentscheidung nicht begründbar. **Was fehlt:** die Klärung, ob der Betrieb Missal oder der Betrieb Metzler
+  an der jeweils anderen Anschrift sitzt (Betreiberbestätigung oder Registerauszug); erst dann ist ein Punkt für diese
+  Zeile setzbar. `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen, `status: aktiv` bleibt
+  unverändert, es wird **keine** Annahme- oder Standortbehauptung aufgestellt.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/318494685/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/88583555/full.json ; https://schrotthandel-metzler-essen.de/impressum/ ;
+  https://www.11880.com/branchenbuch/essen-ruhr/120672194B37573047/markus-metzler-schrotthandel.html (Abruf 03.11.2026).]

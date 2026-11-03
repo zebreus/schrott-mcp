@@ -1,5 +1,7 @@
 ---
 slug: hh-veddel-remex-nord-gmbh
+lat: 53.5274801
+lon: 10.0295111
 name: REMEX Nord GmbH (Betriebsstätte Oberwerder Damm)
 trader_type: schrottplatz
 state: HH
@@ -56,3 +58,36 @@ uebernommen.
 ### Recherche 28.10.2026: Efb-Betrieb am Oberwerder Damm als eigenes Dossier
 
 - [Recherche 28.10.2026: AUSGLAGERUNG aus dem Dossier hh-billbrook-billbrook-oberwerder-damm-1-veddel, das zwei Betriebe in einer Zeile gefuehrt hatte. Amtliches Fachbetrieberegister (Auszug 11.08.2026, Spiegel schrottregister.pages.dev): "REMEX Nord GmbH ist im amtlichen Register mit der Anschrift Oberwerder Damm 1 - 5, 20539 Hamburg gefuehrt", Zertifizierte Taetigkeiten "Lagern" und "Behandeln", 32 Abfallschluessel (020110, 120101-120104, 150104, 160109, 160117, 160118, 160120, 160801-160803, 170401-170407, 170409, 170410, 170411, 191001, 191002, 191005, 191006, 191202, 191203, 200135, 200136, 200140), Zertifikatsnummer ZZBE00100010; ein zweiter Registereintrag fuehrt dieselbe Gesellschaft am Einsiedeldeich 15, 20539 Hamburg mit den Taetigkeiten "Handeln" und "Makeln" und 62 Abfallschluesseln. Betreiber-Primärquelle, am 28.10.2026 direkt gelesen (remex-nord.de, Startseite mit der Standortliste): "REMEX Nord GmbH, Betriebsstaette Oberwerder Damm, Oberwerder Damm 3-5, 20539 Hamburg, Deutschland, T +49 40 781107-0, F +49 40 781107-14", Oeffnungszeiten "Mo-Fr: 07:00 - 17:00", Standortbeschreibung "Anlage zur Zwischenlagerung von gefaehrlichen und nicht gefaehrlichen Abfallen: Zwischenlager fuer eine Vielzahl von Abfallen, darunter kontaminierte Boeden, Bauschutt, Strassenaufbruch, Giessereirestande, Ofenausbruch, Aschen, Schlacken, Schlaemme, Dachpappe, Baggergut sowie organische Abfaelle wie Bioabfaelle, Gruenschnitt, Strassenkehricht" und "Anlage zur Behandlung ... sowie Konditionierung von fluessigen und staubfoermigen Abfallen"; Zertifikate: Efb (Zertifikat Entsorgungsfachbetrieb, PDF), DIN EN ISO 45001 und DIN EN ISO 9001. Der Auftritt nennt die Gesellschaft "REMEX Nord GmbH (ehemals ETH Umwelttechnik GmbH)", "Seit 2019 gehoeren unsere Standorte in Hamburg zur REMEX-Gruppe", vier Betriebsplaetze, sechs nach BlmSchG genehmigte Anlagen, 250.000 t/a Anlagenkapazitaet und den Einzugsbereich Bremen, Hamburg, Mecklenburg-Vorpommern, Niedersachsen und Schleswig-Holstein; die Verwaltung am Einsiedeldeich 15 nennt die Geschaeftsfuehrer Guido Bruning (T +49 40 781107-33, guido.bruening@remex.de) und Torsten Kurth (T +49 40 781107-28, torsten.kurth@remex.de). Register: REMEX Nord GmbH, HRB 133957 AG Hamburg, EUID DEK1101R.HRB133957, Geschaeftsanschrift Einsiedeldeich 15, 20539 Hamburg, Stammkapital 310.100,00 EUR (Stand 28.01.2025). Adressabweichung, dokumentiert und nicht aufgeloest: das amtliche Register nennt "Oberwerder Damm 1 - 5" (unter dieser Anschrift ist ZZBE00100010 erteilt; das fruehere Efb-Zertifikat ZZBT005000349003 der ETH Wertstoffrecycling GmbH, HRB 115679 Hamburg, nennt ebenfalls "Oberwerder Damm 1-5"), die Standortseite des Betreibers dagegen "Oberwerder Damm 3-5"; Hausnummer 3 ist laut eigenem Impressum von der ABN Baustoffueberwachung Nord mbH (Niederlassung Hamburg, HRB 11463 HL) belegt. E-Mail: das REMEX-Gruppenportal remex.de/profil/standorte verlinkt fuer die Betriebsstaetten der REMEX Nord das Postfach info-nord@remex.de; auf remex-nord.de ist die Adresse hinter einem mailto-Token verborgen, die Domain @remex.de ist im HTML sichtbar. ANKAUF: keine Ankaufspreise, das Angebot zielt auf Abfallentsorgung und mineralische Verwertung, nicht auf den Ankauf von Schrott durch Private. VERKAUF: keine Preisliste. GEBUEHREN: keine oeffentlichen Tarife. GEO: keine Koordinate gesetzt, weil fuer den Oberwerder Damm nur OSM-Adressknoten und keine zweite unabhaengige Punktquelle vorliegen (Node 3160813999 Oberwerder Damm 1 = 53.5276477/10.0296576, Node 3160814003 = 53.5275573/10.029583, Node 3160814009 Oberwerder Damm 5 = 53.5274801/10.0295111; Way 659212054 = Oberwerder Damm 3, building=office); 11880 fuehrt nur "REMEX Nord GmbH // Verwaltung" am Einsiedeldeich 15. Quelle(n): https://schrottregister.pages.dev/betrieb-remex-nord-gmbh-hamburg-2 ; https://schrottregister.pages.dev/betrieb-remex-nord-gmbh-hamburg ; https://schrottregister.pages.dev/ort-hamburg ; https://www.remex-nord.de/ ; https://www.remex.de/profil/standorte/ ; https://www.northdata.de/REMEX+Nord+GmbH,+Hamburg/HRB+133957 ; https://www.registercheck.de/companies/remex-nord-gmbh ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0240,53.5230,10.0330,53.5300 ; https://abn-online.de/impressum ; https://www.eth-umweltservice.de/fileadmin/content/eth_wertstoffrecycling/ZZBT005000349003_EFB-Zertifikat.pdf (Abruf 28.10.2026).]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **53.5274801/10.0295111**. Quelle 1 (OSM):
+  **node/3160814009** (live geladen 03.11.2026, https://api.openstreetmap.org/api/0.6/node/3160814009.json) trägt
+  `addr:housenumber`=**5**, `addr:street`=**Oberwerder Damm**, `addr:city`=Hamburg, `addr:country`=DE,
+  `addr:postcode`=**20539** — die Dossier-Postleitzahl 20539 und die Dossier-Straße stimmen objektgenau überein;
+  Objekt-BBox = der Punkt selbst (Mittel der eindeutigen Knoten eines Einzelknoten-Objekts), der Punkt liegt innerhalb.
+  Quelle 2 (amtliches Fachbetrieberegister): der Register-Spiegel mit Abrufstand **11.08.2026** (live abgerufen
+  03.11.2026, https://schrottregister.pages.dev/betrieb-remex-nord-gmbh-hamburg-2) führt die REMEX Nord GmbH „im
+  amtlichen Register mit der Anschrift **Oberwerder Damm 1 - 5, 20539 Hamburg**", Zertifikatsnummer **ZZBE00100010**,
+  zertifizierte Tätigkeiten **Lagern** und **Behandeln**, 32 Abfallschlüssel (u. a. 170401-170407, 191001, 191002,
+  200140). Die im Dossier bereits zitierte Betreiber-Standortseite nennt abweichend „**Oberwerder Damm 3-5, 20539
+  Hamburg**"; die Betreiber-Domains remex-nord.de und remex.de/profil/standorte/ liefern am 03.11.2026 nur eine
+  **Bot-Challenge-Seite** („Challenge Validation"), ein erneuter Live-Read des Betreiberauftritts war deshalb nicht
+  möglich — die Betreiberangabe wird aus dem Vermerk vom 28.10.2026 fortgeschrieben und nicht als am 03.11.2026 live
+  bestätigt ausgegeben. **Objektwahl, offengelegt:** Beide Adressformen (Register 1-5, Betreiber 3-5) umfassen die
+  Hausnummern 3, 4 und 5; die **Hausnummer 3 ist jedoch belegt** — das Impressum der **ABN Gesellschaft für
+  Baustoffüberwachung Nord mbH, Niederlassung Hamburg** nennt live (abgerufen 03.11.2026,
+  https://abn-online.de/impressum) „**Oberwerder Damm 3, 20539 Hamburg**" (HRB 11463 HL). Deshalb ist **Nr. 5** gewählt:
+  die einzige Hausnummer, die in **beiden** belegten Adressformen liegt und **nicht** durch eine konkurrierende
+  Anschrift belegt ist. Eine OSM-Objektsuche im Kachelraster 53.5150-53.5400 / 10.0100-10.0450 (0,01-Grad-Kacheln,
+  api.openstreetmap.org/api/0.6/map.json) findet auf dem Oberwerder Damm **kein** Objekt mit `name=`/`operator=` zu
+  REMEX; die einzigen betriebsbezogenen Objekte im Umfeld sind **node/11690209493** (`name`=ek-robotics,
+  `office`=company, Oberwerder Damm 11) und **way/665684601** (`name`/`operator`=E.R.N. Elektro-Recycling Nord GmbH,
+  ohne `addr:*`) — **andere** Unternehmen. Der gesetzte Punkt ist damit der **Adresspunkt der Hausnummer 5** im
+  Register-/Betreiber-Adressbereich, **kein** Eingang und **kein** öffentlicher Annahmeplatz: eine Annahme von
+  Privatschrott gegen Vergütung ist für diese Anlage nicht belegt und wird nicht behauptet. Übrige Frontmatter-Felder,
+  `status: aktiv`, `street`/`postcode` und die Adressabweichung 1-5 vs. 3-5 bleiben unverändert; `clear_fields` ist in
+  diesem Dossier nicht vorhanden, es wurde nichts entfernt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/3160814009.json ;
+  https://schrottregister.pages.dev/betrieb-remex-nord-gmbh-hamburg-2 ; https://abn-online.de/impressum ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0100,53.5150,10.0450,53.5400 (Abruf 03.11.2026).]

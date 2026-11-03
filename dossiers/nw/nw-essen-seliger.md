@@ -54,3 +54,34 @@ provenance_origin: table
 
 - Schrott (GS)
 - Adresse: Essen
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Vöcklinghauser Str. 1,
+  45130 Essen** ist in OSM adressgenau erfasst, die **Betreiberidentität** an dieser Anschrift aber nur
+  **verzeichnisgestützt**; die im Auftrag geforderte Betreiber-/Registerquelle fehlt. **Was live geprüft wurde
+  (03.11.2026):** (a) Zwei Objekte tragen die Dossier-Anschrift: **way/112511546** mit `addr:housenumber`=**1**,
+  `addr:street`=**Vöcklinghauser Straße**, `addr:city`=Essen, `addr:country`=DE, `addr:postcode`=**45130**,
+  `building`=apartments, `building:levels`=3 (Mittel der 14 eindeutigen Way-Knoten **51.4396058/7.0135272**, BBox
+  51.4395349/7.0134158 – 51.4396429/7.0136202) und **node/4257813413** mit denselben Adress-Tags,
+  `name`=**Casa Della Pizza**, `amenity`=restaurant, `website`=http://casadellapizza.de/ (Mittel des einzigen Knotens
+  **51.4395651/7.0134908**) — **ein Restaurant**, also ein **anderer** Betrieb. (b) Beide Objekte tragen **keinen** Bezug
+  zu „Seliger“; eine Suche über `name`, `operator`, `brand`, `website`, `contact:website`, `description`, `note` und
+  `short_name` nach **„Seliger“** im Kachelraster **6.9900/51.4100 – 7.0400/51.4600** liefert **0** Treffer — Aussage
+  zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. (c) Die Vöcklinghauser Straße trägt live **39** verschiedene
+  Hausnummern; die Nummer 1 ist doppelt belegt (Wohnobjekt und Restaurant). Quelle 1 (Verzeichnis, **keine**
+  Betreiber-/Registerquelle): 11880 führt „Timo Seliger Schrottabholung“, Vöcklinghauser Str. 1, 45130 Essen,
+  **0163 2474456**, Branchen Altmaterialhandel/Schrotthandel/Altmetallrecycling (Eintrag 04.01.2023, Portalaktualisierung
+  2026); das Branchenbuch des Ruhrpott-Kurier führt denselben Betrieb mit derselben Adresse, aber **ohne** Telefonnummer
+  und ohne Website — beide Einträge sind **Aggregatoren** und damit keine unabhängige Betreiberquelle. Das Dossier
+  hält selbst fest, dass „reine Verzeichnisbelege (Aggregatoren), kein Impressum/Register“ vorliegen und die Adresse
+  „nicht als verifizierter Geocoding-Punkt verwenden“ ist. Quelle 2 (OSM): die Adresse ist vorhanden, der
+  **Betriebsbezug** fehlt; das Objekt mit `name=` an der Nummer 1 ist ein Restaurant. **Was fehlt:** ein
+  Betreiberauftritt oder ein Registereintrag zu „Timo Seliger Schrottabholung“ an dieser Anschrift; erst damit wäre der
+  Standort gesichert. `clear_fields: 'geo'` bleibt bestehen, `status: pruefung` bleibt unverändert, eine Annahme- oder
+  Tätigkeitsaussage wird nicht getroffen.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/112511546/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/4257813413.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9900,51.4100,7.0400,51.4600 ;
+  https://www.11880.com/branchenbuch/essen-ruhr/060440090B102237809/timo-seliger-schrottabholung.html ;
+  https://ruhrpott-kurier.de/branchenbuch/essen/schrotthandel/timo-seliger-schrottabholung-7961/ (Abruf 03.11.2026).]

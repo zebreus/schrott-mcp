@@ -1,5 +1,7 @@
 ---
 slug: by-hirschaid-hermann-korn
+lat: 49.8302879
+lon: 10.9856314
 name: Hermann Korn e.K.
 trader_type: schrotthaendler
 state: BY
@@ -48,3 +50,23 @@ Register und Betreiberseite stimmen für Hermann Korn e.K. in Hirschaid überein
 - [Recherche 30.10.2026: Kontaktseite live, bisher nicht notierte Angabe ergänzt. Seite https://www.h-korn.de/Kontakt.html nennt neben Hermann Korn e. K., Jägerstraße 2, D-96114 Hirschaid, Tel. 09543 6367 und der maskierten Mail "info(at)h-korn.de" zusätzlich "FAX 09543 7976". Die Zeitangaben bleiben wie zuvor saisonal: "Öffnungszeiten Sommer (März bis Oktober): Montag - Freitag 8.00 h - 12.00 h, Dienstag + Donnerstag 13.00 h - 17.00 h" und "Öffnungszeiten Winter (November bis Februar): Montag - Freitag 8.00 h - 12.00 h, Dienstag + Donnerstag 13.00 h - 16.00 h"; die Recyclinghofseite nennt "Öffnungszeiten: MO - FR 8.00 - 12.00 h und DI und DO 13.00 - 17.00 h". Die Felder phone, email, opening_hours, dropoff_json und pickup_json bleiben wegen des am 10.10.2026 dokumentierten Owner-Gates unverändert leer. Quelle(n): https://www.h-korn.de/Kontakt.html; https://www.h-korn.de/recyclinghof.html]
 - [Recherche 30.10.2026: ANKAUF und GEBÜHREN getrennt. ANKAUF: die Seite Schrott/Metalle nennt "Wir kaufen Schrott und Metalle an ( z. B. Kupfer, Aluminium, Kabel, Messing, V2A, etc.)" und "Für weitere Informationen, sowie Preisanfragen, wenden Sie sich bitte an uns"; ein Ankaufspreis je Kilogramm wird nicht veröffentlicht. GEBÜHREN: die zwölf gebührenpflichtigen Abfallgruppen tragen zwar die Überschrift "Gegen Gebühr:", es wird aber kein Tarifbetrag genannt; daraus wird keine kostenfreie Annahme abgeleitet. VERKAUF: Big-Bags und Plattensäcke, ohne Preisangabe. Quelle(n): https://www.h-korn.de/schrott_metalle.html; https://www.h-korn.de/recyclinghof.html]
 - [Recherche 30.10.2026: OSM-Straßenscan. Rasterfenster bbox=10.9808144,49.8241332,10.9905917,49.8343539, Straße "Jägerstraße" in 96114 Hirschaid (ways 141460219, 259511336, 259511337, 259511350), Filter addr:street mit addr:housenumber. Ergebnis live: 11 Adressobjekte mit 10 verschiedenen Hausnummern (1, 2, 3, 4, 7, 11, 12, 14, 16, 18). Die Seed-Hausnummer 2 ist damit live als Adressobjekt erfasst. Geokodierung: Punkt für Jägerstraße 2, 96114 Hirschaid ist noch zu setzen. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9808144,49.8241332,10.9905917,49.8343539]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.8302879/10.9856314** (Mittelwert der
+  **4** eindeutigen Way-Knoten von way/141460206; der Punkt liegt innerhalb der Objekt-BBox 49.8302184/10.9855248 bis
+  49.8303625/10.9857450). Quelle 1 (OSM): way/141460206 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/141460206/full.json) trägt `addr:housenumber`=**2**,
+  `addr:street`=**Jägerstraße**, `addr:postcode`=**96114**, `addr:city`=**Hirschaid**, `addr:country`=DE und `building`=yes - die
+  Dossier-Hausnummer 2 ist damit objektgenau belegt; der bereits im Dossier dokumentierte OSM-Straßenscan vom
+  30.10.2026 (Raster bbox=10.9808144,49.8241332,10.9905917,49.8343539) zählt auf der Jägerstraße in 96114 Hirschaid
+  **11 Adressobjekte mit 10 verschiedenen Hausnummern** (1, 2, 3, 4, 7, 11, 12, 14, 16, 18) und belegt die Nummer 2
+  als **eindeutig** in diesem Straßenabschnitt. Das Objekt trägt **weder `name=` noch `operator=`** - der Betrieb
+  selbst ist in OSM nicht als Objekt kartiert, das wird hier als Aussage zum OSM-Bestand festgehalten, nicht als
+  Negativbeleg über den Betrieb. Quelle 2 (Betreiber/Register, im Dossier bereits zitiert): die Kontakt- und
+  Impressumsseiten https://www.h-korn.de/impressum.html und https://www.h-korn.de/Kontakt.html nennen **Hermann Korn e. K., Jägerstraße 2, D-96114 Hirschaid**, Telefon
+  09543 6367; das unabhängige NorthData-Profil führt dieselbe Firma mit **HRA 8076 AG Bamberg** (Dossier-Recherche
+  09.10./14.10.2026). Straße, Hausnummer und PLZ stimmen damit zwischen OSM-Objekt und Betreiber-/Registerbeleg
+  überein. Das Dossier enthielt **keine** `clear_fields`-Anweisung, daher ist nichts zu entfernen; `status` (pruefung),
+  `opening_hours`, `phone` und `email` bleiben unverändert - insbesondere wird die abgelaufene Zertifikatslage vom
+  09.12.2022 (gültig bis 29.02.2024) nicht durch die Koordinate umgedeutet. Quelle(n): https://api.openstreetmap.org/api/0.6/way/141460206/full.json ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9808144,49.8241332,10.9905917,49.8343539 ;
+  https://www.h-korn.de/impressum.html ; https://www.northdata.de/Hermann%20Korn%20e%C2%B7%20K%C2%B7,%20Hirschaid/Amtsgericht%20Bamberg%20HRA%208076 (OSM live abgerufen 03.11.2026).]

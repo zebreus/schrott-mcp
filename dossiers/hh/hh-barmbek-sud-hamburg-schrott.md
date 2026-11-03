@@ -45,3 +45,27 @@ Die offizielle Immobilienseite der **AlsterCity** beschreibt Osterbekstraße **9
 ### Importiert (Seed-Stand 2026-09-30)
 
 - FE/NE (lt. Aggregator)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** „Hamburg schrott", **Osterbekstr.
+  90B** ist im Dossier ausdrücklich als **unscharfer Verzeichnisname ohne identifizierten Betreiber** geführt; die
+  amtliche Gegenprüfung (Fachbetrieberegister-Auszug 11.08.2026, live 27.10.2026) kennt weder einen Eintrag „Hamburg
+  schrott" noch die Adresse Osterbekstraße 90B, und die offizielle Branchenbuch-Liste der Stadt Hamburg führt keinen
+  Schrottbetrieb dort. Die beiden zitierten Quellen sind **keine** Betreiber-/Registerbelege für diese Adresse: die
+  **AlsterCity-Immobilienseite** belegt nur das **Adressumfeld** (Osterbekstraße 90 a–c als Büro-/Geschäftshauskomplex
+  mit rund 90.000 m² Bürofläche), die **Firmenzone-Seite** nur generische Kfz-Werkstattleistungen zu einem
+  Aggregator-Namen. Eine OSM-Stichprobe (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Umfeld der
+  Dossier-Adresse **Osterbekstr. 90B** (Kachelraster 53.5700-53.5800 / 10.0200-10.0400) ergab **kein** Objekt mit
+  `addr:housenumber`=90B und `addr:street`=Osterbekstraße und **kein** Objekt mit Namens-, Betreiber- oder Branchenbezug
+  zu „Hamburg schrott" bzw. zu einem Schrott-/Metallhandel an dieser Nummer — die Dossier-Hausnummer ist in OSM **nicht
+  nachgewiesen**; die Aussage ist als Stichprobe qualifiziert, weil die OSM-API in dieser Welle stark gedrosselt war
+  (HTTP 429 bei Kachelabrufen). **Konsequenz:** Die Zwei-Quellen-Regel (OSM-Objekt **und** eine im Dossier zitierte
+  Betreiber-/Registerquelle für dieselbe Adresse) ist nicht erfüllt; eine Koordinate wäre eine Behauptung über einen
+  nicht identifizierten Betrieb und würde zudem einen **Bürokomplex** als Annahmeplatz suggerieren. `status: pruefung`,
+  `street`/`postcode` (letzteres leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **weder** eine
+  Schließung **noch** das Fehlen eines Schrottbetriebs dort behauptet. **Nächster Schritt für den Owner:** namentlicher
+  Gewerbe-/Betreibernachweis für Osterbekstraße 90B sowie Klärung „Büroadresse vs. Materialannahme". Quelle(n):
+  https://schrottregister.pages.dev/ort-hamburg ; https://diealstercity.de/ ;
+  https://firmenzone.com/business/hamburg-schrott (Verzeichnislead) ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0200,53.5700,10.0400,53.5800 (Abruf 03.11.2026).]

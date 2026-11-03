@@ -1,5 +1,7 @@
 ---
 slug: by-muenchen-riem-pro-aurum-goldhaus
+lat: 48.1351726
+lon: 11.6855361
 name: pro aurum GmbH Hauptsitz (Goldhaus)
 trader_type: sonstige
 state: BY
@@ -39,3 +41,21 @@ provenance_origin: feedback
 - [Recherche 30.10.2026: GEBÜHREN, erstmals mit Betrag belegt. Die Leistungsseite nennt wörtlich "Bis zu einem Einlieferungswert von 25.000 Euro fallen zusätzliche Gebühren von lediglich 29 Euro an" (Weg Nr. 1, Abholung durch einen neutralen Kurier). Als Orientierungsrahmen nennt dieselbe Seite "Ein klassischer Abschlag für die Schmelze und Analyse alter Edelmetalle sollte im Bereich von 10 bis 15 Prozent vom reinen Edelmetallwert und nicht höher liegen" und als Beispiel "Einen Abschlag von rund 10%". Quelle(n): https://www.proaurum.de/leistungen/altgoldservice-und-goldankauf/]
 - [Recherche 30.10.2026: VERKAUF, maschinenlesbare Preisliste. https://www.proaurum.de/shop/preisliste-onlineshop/gold/ liefert je Produkt einen An- und einen Verkaufspreis im JSON-Block der Seite (askPrice und bidPrice) mit "Zuletzt aktualisiert am 30.10.2026 um 16:00:42" und "Basiskurse ab 2026-10-30 15:00:40", Umrechnung "Euro in USD 1,1157 $". Die Seite ist mit "Verkaufen**" und "Kaufen**" überschrieben und trägt die Fußnoten "Alle Preise sind Endverkaufspreise - jedoch freibleibend, zzgl. Versandkosten. Investmentgold ist in Deutschland von der MwSt. befreit. Für alle anderen Produkte gilt der volle MwSt.-Satz von 19%." und "** Ankaufspreis = netto; Kaufpreis = brutto." Beispiele: Goldbarren 1 Gramm Umicore Verkaufen 110,00 EUR und Kaufen 129,50 EUR, Goldbarren 2,5 Gramm Umicore 274,00 EUR und 305,00 EUR, Goldbarren 5 Gramm Umicore 546,50 EUR und 604,50 EUR, Goldbarren 10 Gramm Umicore 1.093,50 EUR und 1.193,00 EUR. Das ist die Preisliste des Onlineshops für Anlagegold, keine Schrott-Sortenliste. Quelle(n): https://www.proaurum.de/shop/preisliste-onlineshop/gold/]
 - [Recherche 30.10.2026: OSM-Straßenscan. Rasterfenster bbox=11.6776693,48.1314316,11.6942629,48.1394922, Joseph-Wild-Straße in München-Riem (ways 152641136, 32854175, 734198771, 916731083), Straße "Joseph-Wild-Straße", Filter addr:street mit addr:housenumber. Ergebnis live: 20 Adressobjekte mit 8 verschiedenen Hausnummern (12, 13, 15, 16, 18, 20, 21, 23). Die Seed-Hausnummer 12 ist damit live als Adressobjekt erfasst. Geokodierung: Punkt für Joseph-Wild-Straße 12, 81829 München ist noch zu setzen. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6776693,48.1314316,11.6942629,48.1394922]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **48.1351726/11.6855361** (Mittelwert der
+  eindeutigen Knoten des Objekts node/8835799341; der Objektknoten ist der einzige Knoten, der Punkt liegt damit
+  innerhalb der Objekt-BBox 48.1351726/11.6855361 bis 48.1351726/11.6855361). Quelle 1 (OSM): node/8835799341 (live
+  abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/node/8835799341.json) trägt `name`=**Pro Aurum**, `operator`=**pro aurum GmbH**, `shop`=gold,
+  `addr:housenumber`=**12**, `addr:street`=**Joseph-Wild-Straße**, `addr:postcode`=**81829**, `addr:city`=**München**, `addr:country`=DE,
+  `phone`=+49 89 444 584 0, `email`=info@proaurum.de, `website`=https://www.proaurum.de/home/standorte/deutschland/muenchen.html sowie `opening_hours`=„Mo-Fr
+  09:00-12:30,14:00-17:30; We 09:00-12:30; Th 09:00-12:30,14:00-20:00“ und `wikidata`=Q2111411 - das Objekt benennt
+  den Dossier-Betrieb **und** die Gesellschaft, und Telefon, E-Mail und Website decken sich mit dem Dossier (Telefon
+  +49 89 444 584-0, Website https://www.proaurum.de/). Quelle 2 (Betreiber, im Dossier bereits zitiert): die Betreiber-Website
+  bestätigt die Geschäftsstelle Joseph-Wild-Straße 12, 81829 München-Riem mit dem öffentlichen Goldhaus und dem
+  Altgoldankauf vor Ort (Dossier-Überblick und Recherche-Notizen). **Abweichung, nicht übernommen:** die OSM-Zeiten
+  nennen den Donnerstag bis 20:00, das Dossier-Feld `opening_hours` bis 19:00; das Dossier-Feld bleibt unverändert. Das
+  Dossier enthielt **keine** `clear_fields`-Anweisung, daher ist nichts zu entfernen; `status`, `opening_hours`, `website`
+  und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/node/8835799341.json ; https://www.proaurum.de/ ; https://www.proaurum.de/home/standorte/deutschland/muenchen.html (OSM live abgerufen
+  03.11.2026).]

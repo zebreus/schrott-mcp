@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-schwarzaugen
-clear_fields: 'geo'
+lat: 51.4627353
+lon: 7.0011292
 name: Schwarzaugen
 trader_type: mobil
 state: NW
@@ -51,3 +52,32 @@ Schwarzauger ist ein Familienbetrieb aus dem Ruhrgebiet (Schrott- und Buntmetall
 - [Recherche 30.10.2026: **Leistungen belegt, Preise ausschließlich login-geschützt.** Die Materialienseite nennt „Schrottankauf und Metalleankauf — Der Handel mit Metallen und Schrotten zu Tageshöchstpreisen“, „Schwarzauger Metallentsorgung — Entsorgung von Baumischabfälle, Bauschutt, Industrieabfälle und Schrott zu günstigen Preisen“ und „Spedition im Ruhrgebiet — Transporte innerhalb des Ruhrgebiets … Ausland: Holland, Belgien“. **Ankaufpreise:** keine Zahlenwerte veröffentlicht; die Navigationsposition „Preise“ verweist auf `https://schwarzauger.com/nfc/customer/` und dort auf die Seite „**Online-Preis-Check** — Kunden-Login / KundenNr. / Passwort“ — eine **Preisliste existiert öffentlich nicht abrufbar**, sondern nur hinter Anmeldung. **Gebühren:** keine Tarife genannt; die Entsorgung wird „zu günstigen Preisen“ beworben, ohne Zahlenwert. **Verkauf:** der Betrieb bietet Entsorgung/Verwertung an, nennt aber keine Verkaufspreise. `provenance_ankauf_raw` ist entsprechend von `unklar` auf `ja` gesetzt. Quelle(n): https://schwarzauger.com/materialien ; https://schwarzauger.com/nfc/customer/ (Abruf 30.10.2026)]
 - [Recherche 30.10.2026: **OSM-Abgleich der historischen Essener Anschrift — „15 B“ ist in OSM als „15b“ erfasst.** Im Rasterfenster **6.9991740/51.4622962 bis 7.0030090/51.4645591** liegen auf der **Niederstraße** **20 Adressobjekte / 21 verschiedene Hausnummern** — die Bereichsnotation „12 - 16“ wurde einzeln aufgelöst (12, 13, 14, 15, 16) und erzeugt die Zahl 21. Für die Dossier-Adresse sind zwei Objekte einschlägig: **way/143381697** mit `addr:housenumber=15`, `addr:street=Niederstraße`, `addr:city=Essen`, `addr:postcode=45141`, `addr:country=DE`, `building=yes` und **way/279222567** mit `addr:housenumber=15b`, `addr:street=Niederstraße`, `addr:city=Essen`, `addr:postcode=45141`, `building=yes` — beide **ohne** `name`-Tag, **ohne** `operator`-Tag, **ohne** `phone`- und **ohne** `contact:website`-Tag; die Schreibweise „15 B“ des Dossiers entspricht damit der OSM-Notation „15b“. Ebenfalls im Raster liegt **way/279221352** mit `addr:housenumber=12 - 16`, `addr:housename=Franziska-Schervier-Haus`, `addr:street=Niederstraße`, `addr:city=Essen`, `addr:postcode=45141`, `name=CSE Essen`, `operator=Caritasverband für die Stadt Essen e.V.`, `amenity=social_centre`, `social_facility=outreach`, `website=https://www.cse.ruhr/` — **kein** Bezug zum Betreiber. Ein Objekt mit Bezug zu Schwarzauger ist im abgetasteten Raster **nicht** vorhanden — das ist eine Aussage zum OSM-Bestand, kein Negativbeleg über den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster, Abruf 30.10.2026); https://api.openstreetmap.org/api/0.6/way/143381697.json ; https://api.openstreetmap.org/api/0.6/way/279222567.json ; https://api.openstreetmap.org/api/0.6/way/279221352.json]
 - [Recherche 30.10.2026: **Geokodierungsbedarf:** die Produktion führt wegen `clear_fields: 'geo'` **keine** Koordinate (lat/lon leer). Für die im Dossier geführte **historische** Essener Anschrift **Niederstr. 15 B, 45141 Essen** ist das oben genannte OSM-Objekt way/279222567 (`addr:housenumber=15b`) der Beleg; für die **aktuelle** Betriebsadresse laut Betreiber-Impressum, **Am Industriepark 14, 46562 Voerde**, liegt bislang kein Geokodierungsbeleg vor. Für beide Anschriften steht eine belegte Geokodierung aus — es wurde **keine** Koordinate selbst gesetzt. Quelle(n): read-only `/var/lib/schrott-mcp/public.db` (Abruf 30.10.2026); https://schwarzauger.com/impressum (Abruf 30.10.2026); docs/trader-seed.md, GEO-Vertrag]
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4627353/7.0011292** (Mittel der 7 eindeutigen
+  Way-Knoten von way/279222567; der Punkt liegt innerhalb der Objekt-BBox **51.4626364/7.0010012 – 51.4628687/7.0013043**).
+  Quelle 1 (OSM): way/279222567 trägt `addr:housenumber`=**15b**, `addr:street`=**Niederstraße**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45141**, `building`=yes — die Schreibweise „15 B“ des Dossiers entspricht der
+  OSM-Notation „**15b**“. Die Niederstraße trägt live **21** verschiedene Hausnummern (1, 3, 5, 7, 9–13, 15, 17, 19, 21,
+  23, 25, 27, 29, 15a, 15b und die Bereichsnotation „12 - 16“); zum Nachbarobjekt gehört way/143381697
+  (`addr:housenumber`=15) sowie way/279221352 (`addr:housenumber`=12 - 16, `addr:housename`=Franziska-Schervier-Haus,
+  `name`=CSE Essen, `operator`=Caritasverband für die Stadt Essen e.V.) — **kein** Bezug zum Betreiber. Quelle 2
+  (Betreiber/Register): die Seite „Über uns“ des Betreiberauftritts `schwarzauger.com` schildert, dass **Fritz Collong
+  Metallhandel GmbH** 1956 **in Essen** gegründet wurde und das Unternehmen **Anfang 2015 nach Voerde** zog; das
+  Register führt **Schwarzauger Metallhandel e.K., HRA 7685 AG Essen** (Essener Register), die unabhängigen Verzeichnisse
+  (11880 „vom Inhaber bestätigt“, branchen-info, business-branchenbuch) nennen übereinstimmend **Niederstr. 15 B,
+  45141 Essen**. **Abgrenzung (wichtig):** die gesetzte Koordinate bezeichnet die **historische Essener Anschrift**, die
+  das Dossier in `street`/`postcode` führt. Die **heutige** Betriebsadresse laut Betreiber-Impressum —
+  **Schwarzauger Metallrecycling GmbH, Am Industriepark 14, 46562 Voerde-Friedrichsfeld, AG Duisburg HRB 32208** — ist
+  damit **nicht** geokodiert; ein OSM-Beleg für diese Anschrift wurde in dieser Welle **nicht** geprüft und wird hier
+  **nicht** behauptet. Der zuvor im Produktionsbestand gespeicherte Punkt **51.450284375/7.015053125** (Straße
+  „Freiheit“, 45128 Essen) lag **1687 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/279222567/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/279221352/full.json ; https://schwarzauger.com/ueber-uns ;
+  https://schwarzauger.com/impressum ; https://www.11880.com/branchenbuch/essen-ruhr/120674719B53736488
+  (Abruf 03.11.2026).]

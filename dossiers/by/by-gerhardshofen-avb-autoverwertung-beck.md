@@ -1,5 +1,7 @@
 ---
 slug: by-gerhardshofen-avb-autoverwertung-beck
+lat: 49.6256002
+lon: 10.7070328
 name: AVB Autoverwertung Beck (Uli Beck)
 trader_type: autoverwertung
 state: BY
@@ -44,3 +46,21 @@ Die aktuelle Betreiber-Fußzeile nennt 09163/995557. Ein jüngerer Stellenbeitra
 ### Importiert (Audit 7 Feedback #6587)
 
 - Lead #6587 wurde im Auftrag als wiederholt bezeichnet. Ein vorheriges lokales Dossier und der Wortlaut der ursprünglichen Feedbackmeldung lagen hier nicht vor; deshalb wird keine frühere Behauptung rekonstruiert oder als Beleg übernommen.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.6256002/10.7070328** (Mittelwert der
+  eindeutigen Knoten des Objekts node/6293332529; der Objektknoten ist der einzige Knoten, der Punkt liegt damit
+  innerhalb der Objekt-BBox 49.6256002/10.7070328 bis 49.6256002/10.7070328). Quelle 1 (OSM): node/6293332529 (live
+  abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/node/6293332529.json) trägt `addr:housenumber`=**1**, `addr:street`=**Am Steinbruch**, `addr:postcode`=**91466**,
+  `addr:city`=**Gerhardshofen**, `name`=**AVB Autoverwertung Beck**, `shop`=car_repair, `website`=**https://www.avb-beck.de/**
+  und `contact:phone`=+49 9163 99920 - das Objekt benennt den Dossier-Betrieb selbst, und der `website`-Tag deckt sich mit
+  dem Dossier-Feld `website` (https://www.avb-beck.de/). Quelle 2 (Betreiber/Register, im Dossier bereits zitiert): das
+  Betreiber-Impressum nennt AVB Autoverwertung Beck, Inhaber Uli Beck, **Am Steinbruch 1, 91466 Gerhardshofen**; das
+  am 22.07.2026 ausgestellte und bis 22.08.2028 gültige Inspektionszertifikat bestätigt dieselbe Anschrift und die
+  Anerkennung als Demontagebetrieb nach § 5 Abs. 3 AltfahrzeugV (Dossier-Überblick). Damit stimmen OSM-Objekt und
+  Betreiberbeleg in Straße, Hausnummer, PLZ und Betriebsname überein. **Abweichung, nicht übernommen:** die
+  OSM-Objekttelefonnummer +49 9163 99920 weicht von der Betreiber-Fußzeilennummer 09163 995557 ab; das Dossier-Feld
+  `phone` bleibt deshalb unverändert, ebenso `status`, `opening_hours`, `website` und alle übrigen Felder. Das
+  Dossier enthielt **keine** `clear_fields`-Anweisung, daher ist nichts zu entfernen. Quelle(n): https://api.openstreetmap.org/api/0.6/node/6293332529.json ; https://www.avb-beck.de/ ;
+  https://www.avb-beck.de/impressum/ (OSM live abgerufen 03.11.2026).]

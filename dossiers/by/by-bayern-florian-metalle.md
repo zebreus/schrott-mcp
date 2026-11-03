@@ -59,3 +59,26 @@ Status `pruefung` bleibt wegen fehlendem unabhängigen Register-/Gewerbenachweis
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Die Betreiberwebsite weiterhin live; öffentliche Suche nach „Florian-Metalle Preise/Preisliste“ ergab keine vom Betreiber veröffentlichte numerische Liste. Ankauf wird beschrieben, aber konkrete Kurse sind nicht einsehbar; für Materialverkauf/Container- oder Abholgebühren ebenfalls keine Tarifliste gefunden. Keine Änderung an mobil markierter Einsatzregion oder Status. Die Impressumsanschrift Albrecht-Dürer-Straße 15, 90766 Fürth ist weiterhin nicht die bestätigte Anlieferstelle; nicht geokodieren. Quelle(n): https://florian-metalle.de/]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Das Dossier führt bewusst **keine**
+  Straße und **keine** PLZ; das Feld `city` trägt die mobile Einsatzregion „Bayern“ (Dossier-Recherche 04.10.2026).
+  Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster **bbox=10.9680,49.4570,11.0180,49.5070** (25 Kacheln à
+  0,01° über Fürth, https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9680,49.4570,11.0180,49.5070) mit **222 346 Elementen** und **0 Kachel-Fehlern**. Die „Albrecht-Dürer-Straße“ in 90766
+  Fürth trägt **26 Adressobjekte** mit den Hausnummern 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14, **15**, 15a, 16, 17, 18,
+  19, 19a, 20, 21, 23, 25, 27, 29 - die Geschäftsanschrift-Hausnummer **15 existiert** (node/3046130035 mit
+  `addr:housenumber`=15, `addr:street`=Albrecht-Dürer-Straße, `addr:postcode`=90766, `addr:city`=Fürth), das Objekt trägt jedoch **weder
+  `name=` noch `operator=`** und keinen Geschäftsbezug; die Suche über `name`, `operator`, `brand`,
+  `official_name`, `alt_name`, `short_name`, `legal_name` und `old_name` nach „florian metalle“ bzw. „florian-metalle“ liefert
+  **0 Treffer** - der mobile Betrieb ist in OSM nicht kartiert. Quelle 2 (Betreiber, im Dossier bereits zitiert): das
+  Betreiber-Impressum von https://florian-metalle.de/ nennt **Albrecht-Dürer-Straße 15, 90766 Fürth**, Inhaber Tyrese Florian, 0157
+  38158346 (Recherche 04.10.2026). Das Dossier hat diese Anschrift jedoch **bewusst** nicht in `street`/`postcode`
+  übernommen und in **drei** Wellennotizen (Recherche 04.10., 07.10. und 20.10./27.10.2026) festgehalten, dass die
+  Geschäftsanschrift „nicht als Kundenannahme geokodieren“ bzw. „nicht geokodieren“ ist und der Betrieb **mobil**
+  bleibt („Keine stationäre Annahme ausgewiesen“; `status: pruefung` mangels unabhängigem Register-/Gewerbenachweis). Ein
+  Punkt auf der Geschäftsanschrift würde genau die im Dossier vermiedene falsche Zuordnung erzeugen (ein
+  Kundenannahmepunkt existiert nicht) und würde zudem eine Karte für einen mobilen Betrieb in der Einsatzregion
+  „Bayern“ erzeugen. Deshalb wird hier **keine** Koordinate gesetzt; das Dossier enthält keine `clear_fields`-Anweisung
+  und keine Koordinate, es bleibt bei `lat`/`lon` leer. `status`, `description`, `street` und `postcode`
+  bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9680,49.4570,11.0180,49.5070 ; https://florian-metalle.de/ (live abgerufen 03.11.2026).]

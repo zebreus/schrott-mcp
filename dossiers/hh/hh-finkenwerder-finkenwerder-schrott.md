@@ -49,3 +49,27 @@ provenance_origin: table
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein Betreiber-Nachweis — keine 2 unabhängigen Belege, nur Aggregator-Lead; Frontmatter leer belassen (Klärfall); Quelle(n): keine Belegquelle]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Die Dossier-Hausnummer **21a**
+  existiert in OSM nicht, das ist am 03.11.2026 live nachgeprüft: Kachelraster **53.5200-53.5550 / 9.8350-9.8850** in
+  0,01-Grad-Kacheln (api.openstreetmap.org/api/0.6/map.json) — die Straße **Rüschweg** (21129 Hamburg) trägt dort **9
+  Adressobjekte mit 9 verschiedenen Hausnummern**: node/13630776791 (2), way/147558324 (5), way/147558321 (7),
+  node/892457059 (12), node/4155511022 und way/146021518 (18, „TuS-Finkenwerder - Abteilung Segeln"), way/146021520 (22,
+  „Segelverein Finkenwerder Hamburg von 1965 e.V."), node/892435494 (23), node/892457092 (25). **Weder 21 noch 21a ist
+  belegt** — die Dossier-Hausnummer 21a ist damit in OSM nicht auffindbar; die Reihenfolge der Dossier-Adresse
+  (Hans-Duncker-/Rüschweg-Nummerierung) lässt sich aus OSM **nicht** rekonstruieren, und eine Position „in der Nähe von
+  21a" wäre geraten. **Zweite Quelle fehlt ebenfalls:** für „Finkenwerder Schrott" gibt es weder einen Betreiber- oder
+  Registerbeleg noch einen amtlichen Eintrag — das Branchenbuch der Stadt Hamburg (Kategorie Schrott, live geprüft im
+  Vermerk vom 27.10.2026) führt keinen Eintrag aus Finkenwerder, das amtliche Fachbetrieberegister (Auszug 11.08.2026)
+  keinen, und die im Dossier zitierte Nachbarübersicht (Richard Völz & Söhne, Rüschweg 21; Autoservice Domgjoni,
+  Rüschweg 25) betrifft **andere** Betriebe und bestätigt weder die Nummer 21a noch einen Schrottbetrieb.
+  **Negativaussage, qualifiziert:** Auf dem Rüschweg trägt kein Objekt einen Namens-, Betreiber- oder Branchenbezug zu
+  einem Schrott- oder Metallhändler; die beiden betriebsbezogenen Objekte sind ein Segelverein und eine Sportabteilung.
+  `street`/`postcode` bleiben unverändert, `status: pruefung` bleibt, eine Koordinate wird nicht erfunden. **Nächster
+  Schritt für den Owner:** amtlicher Gewerbenachweis mit korrekter Hausnummer (oder Korrektur der Seed-Adresse) — erst
+  dann ist ein Adressobjekt sinnvoll zu suchen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8350,53.5200,9.8850,53.5550 ;
+  https://www.hamburg.de/branchenbuch/hamburg/schrott ; https://schrottregister.pages.dev/ort-hamburg (Abruf
+  03.11.2026).]

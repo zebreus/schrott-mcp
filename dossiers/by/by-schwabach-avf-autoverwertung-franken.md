@@ -1,5 +1,7 @@
 ---
 slug: by-schwabach-avf-autoverwertung-franken
+lat: 49.3169933
+lon: 11.0533693
 name: AVF Autoverwertung Franken GmbH
 trader_type: autoverwertung
 state: BY
@@ -43,3 +45,19 @@ Die Betreiberseite nennt AVF Autoverwertung Franken GmbH und Am Kiefernschlag 22
 ### Owner-Korrektur 25.10.2026
 
 - [Owner-Korrektur 25.10.2026: Die aktuelle Betreiberseite bestätigt Selbstanlieferung am Verwertungsbetrieb Schwabach. Für kostenfreie Verwertung/Abholung verlangt sie ein rollfähiges, vollständiges Fahrzeug mit Katalysator und Eigentumsnachweis; für Vergütung bei Selbstanlieferung nennt sie ein nicht ausgebranntes/nicht ausgeschlachtetes Fahrzeug, Katalysator und Eigentumsnachweis. Auch andere Fahrzeuge werden am Hof angenommen; genaue Bedingungen vorab klären. Die Servicegebühr von 80 Euro steht im Zusammenhang mit dem alternativen Abholservice bei Fahrzeugen außerhalb der Standardbedingungen; die Seite weist keine gesonderte Gebühr für Selbstanlieferung aus. `dropoff_json` und `pickup_json` korrigiert, Öffnungszeiten bleiben leer, da die veröffentlichten Bürozeiten nicht ausdrücklich als Hofannahmezeiten ausgewiesen sind. Quelle: https://www.autoverwertung-franken.de/autoverwertung ; https://www.autoverwertung-franken.de/impressum]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.3169933/11.0533693** (Mittelwert der
+  **9** eindeutigen Way-Knoten von way/94199494; der Punkt liegt innerhalb der Objekt-BBox 49.3166692/11.0530278 bis
+  49.3172926/11.0540124). Quelle 1 (OSM): way/94199494 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/94199494/full.json) trägt `addr:housenumber`=**22**,
+  `addr:street`=**Am Kiefernschlag**, `addr:postcode`=**91126**, `addr:city`=**Schwabach**, `addr:country`=DE,
+  `name`=**Autoverwertung Franken GmbH**, `building`=industrial und `industrial`=auto_wrecker - das Objekt benennt
+  den Dossier-Betrieb selbst und ist zugleich das einzige Objekt dieser Hausnummer auf dieser Straße. Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert): die Betreiberseite nennt AVF Autoverwertung Franken GmbH und **Am
+  Kiefernschlag 22, 91126 Schwabach**; das Impressum, der Registerdatensatz **HRB 15031 beim Amtsgericht Nürnberg**
+  und die Registerpublikation zur Geschäftsführung passen zusammen, NorthData führt als frühere Firma „AVF
+  Autoverwertung + Demontagen GmbH“ (Namenshistorie derselben Gesellschaft, kein zweiter Händler) (Dossier-Überblick).
+  Damit stimmen OSM-Objekt und Betreiber-/Registerbeleg in Straße, Hausnummer, PLZ und Firmierung überein. Das Dossier
+  enthielt **keine** `clear_fields`-Anweisung, daher ist nichts zu entfernen; `status`, `opening_hours`, `phone` und alle
+  übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/94199494/full.json ; https://www.autoverwertung-franken.de/ ; https://www.autoverwertung-franken.de/impressum/ (OSM live abgerufen 03.11.2026).]

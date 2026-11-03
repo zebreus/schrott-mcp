@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-mre-metall-recycling-essen
-clear_fields: geo
+lat: 51.4761186
+lon: 7.0879340
 name: MRE Metall Recycling Essen
 trader_type: metallhaendler
 state: NW
@@ -59,3 +60,31 @@ Die live Betreiberseite beansprucht den Namen „MRE Metall Recycling Essen“ u
 
 - Bonifaciusring 5, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4761186/7.0879340** (Mittel der 4 eindeutigen
+  Way-Knoten von way/93518934; der Punkt liegt innerhalb der Objekt-BBox **51.4759995/7.0878284 – 51.4762377/7.0880421**).
+  Quelle 1 (OSM): way/93518934 trägt `addr:housenumber`=**5**, `addr:street`=**Bonifaciusring**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45309**, `building`=yes — Dossier-Straße, -Hausnummer und -PLZ stimmen
+  objektgenau überein; der Bonifaciusring trägt live **23** verschiedene Hausnummern (1, 3, 5–16, 18, 19, 21, 23–28).
+  Das Objekt trägt **kein** `name=` und **kein** `operator=`; das nächstgelegene Objekt mit Betriebsbezug ist
+  node/12162517394 `name`=Fahrradwerkstatt am Mechtenberg, **Bonifaciusring 8** (53 m entfernt) — ein **anderer**
+  Betrieb. Quelle 2 (Betreiber/Register): die Betreiber-Website nennt **MRE Metall Recycling Essen** (Geschäftsführer
+  **Zakaria El Osman**) an **Bonifaciusring 5, 45309 Essen**; das unabhängige Verlagsverzeichnis **Das Örtliche** führt
+  dieselbe Gesellschaft **MRE Metall Recycling Essen** an derselben Anschrift mit derselben Telefonnummer. **Abgrenzung
+  (unaufgelöst, bleibt offen):** der Auftritt vermischt „MRE“ mit „Häde Metall Recycling Essen“ (Gründung 2011 neben
+  „fast 70 Jahren Unternehmensgeschichte“), nennt zwei Telefonnummern (0201 47616418 / 0176 61438885) und **kein**
+  HRB; „Häde Recycling GmbH“ sitzt laut eigenem Impressum an der Alte Bottroper Straße 120. Die gesetzte Koordinate
+  bezeichnet deshalb die **von Betreiber und unabhängigem Verzeichnis übereinstimmend genannte Anschrift** — sie ist
+  **kein** Beleg für einen geklärten Rechtsträger und **kein** Beleg für einen Annahmehof; `status: pruefung`, die
+  leeren Kontaktfelder und die Identitätswidersprüche bleiben unverändert. Der zuvor im Produktionsbestand gespeicherte
+  Punkt **51.450284375/7.015053125** (Straße „Freiheit“, 45128 Essen) lag **5809 m** entfernt und war für diese Zeile
+  falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/93518934/full.json ; https://mre-essen.de.tl/ ;
+  https://mre-essen.de.tl/Impressum.htm ;
+  https://www.dasoertliche.de/Themen/Metall-Recycling-Essen-Essen-Kray-Bonifaciusring (Abruf 03.11.2026).]
