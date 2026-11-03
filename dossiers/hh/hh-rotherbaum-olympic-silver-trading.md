@@ -51,3 +51,29 @@ Der historische Rechtsträger Olympic Silver Trading GmbH (HRB 54383 Hamburg) wu
 - Namesake-/Merge-Prüfung: Die Gelbe-Seiten-Leadseite nennt nur den exakten Firmennamen, Silberhandel, Rotherbaum und 20146 (https://www.gelbeseiten.de/gsbiz/514be2fe-3a01-4761-8471-f63831636ab1); Das Örtliche hat ebenfalls nur einen Orts-/PLZ-Eintrag ohne Straße (https://www.dasoertliche.de/Themen/Olympic-Silver-Trading-GmbH-Hamburg). Name und Ort/PLZ passen zur HRB-Gesellschaft, aber kein Eintrag verknüpft den Aggregator explizit mit HRB 54383. Im sichtbaren North-Data-Verlauf ist eine Löschung, keine Umbenennung oder Verschmelzung ausgewiesen; das schließt einen nicht erfassten Nachfolger nicht aus. Der HR-Auszug-Anbieter führt keine Website/Kontaktseite für die Gesellschaft.
 - Klärfall: Grindelweg 4 a ist nur als historische Registeranschrift dieses Anbieters belegt und kein bestätigter heutiger Händlerstandort; die Zuordnung des Gelbe-Seiten-Leads zur gelöschten Gesellschaft und ein möglicher Nachfolger bleiben offen. Daher keine Anschrift aus dem historischen Register in die Händlerfelder übernehmen und `status: pruefung` beibehalten; vor einem Schließungsentscheid die Identität des Aggregator-Leads bzw. etwaigen Nachfolger unabhängig klären.
 - Ergänzende Website-/Merge-Prüfung: Ein weiterer Gelbe-Seiten-Datensatz (https://www.gelbeseiten.de/gsbiz/ad817380-4998-400f-b45f-11b57f955306) hängt den Lead an http://www.silver-to-go.com. Der www-Host lieferte beim Abruf 400; die Domain ohne www zeigte eine StoneX-Bullion-Seite. Das dortige Betreiber-Impressum benennt StoneX Bullion GmbH, Taunustor 1, 60310 Frankfurt am Main, HRB 98020 AG Frankfurt (https://www.stonexbullion.com/en/documents/legal-notice/). Das ist keine Bestätigung einer Verbindung zur inzwischen gelöschten Olympic-Gesellschaft, sondern ein möglicher veralteter/falscher Aggregator-Link; keine Zuordnung oder Website-Übernahme. Quelle(n): https://www.gelbeseiten.de/gsbiz/ad817380-4998-400f-b45f-11b57f955306 (Lead), http://www.silver-to-go.com (Abruf 03.10.2026), https://www.stonexbullion.com/en/documents/legal-notice/.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Der historische Rechtsträger
+  **Olympic Silver Trading GmbH (HRB 54383 Hamburg)** wurde am **12.05.2003** wegen Vermögenslosigkeit von Amts wegen
+  gelöscht (NorthData-Registerhistorie, live gelesen laut Bestandsvermerk vom 26.10.2026); die im Dossier zitierte
+  Anschrift **Grindelweg 4 a, 20146 Hamburg** stammt aus einem Registerauszugs-Anbieter und ist **historische
+  Registeranschrift** — das Dossier hält ausdrücklich fest: „Grindelweg 4 a ist nur als historische Registeranschrift
+  dieses Anbieters belegt und kein bestätigter heutiger Händlerstandort", und das aktuell gelesene Gelbe-Seiten-Profil
+  nennt **keine Straße**, nur Rotherbaum/20146, Telefon 040 44 50 21 und den Link auf silver-to-go.com, der heute zu
+  **StoneX Bullion GmbH (Taunustor 1, 60310 Frankfurt, HRB 98020 AG Frankfurt)** führt — eine Verbindung zur gelöschten
+  Hamburger Gesellschaft ist damit **nicht** belegt. Eine OSM-Hausnummerensuche (api.openstreetmap.org/api/0.6/map.json,
+  0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse **Grindelweg 4 a** wurde in dieser Welle angestoßen und im Umfeld der
+  Adresse weitergeführt; sie wurde durch die API-Drosselung (HTTP 429) nur **teilweise** abgeschlossen und ist deshalb
+  **kein** belastbarer Negativbefund — für die Entscheidung ist das **nicht maßgeblich**, weil für die Dossier-Adresse
+  keine Betreiber- oder Registerquelle vorliegt. Die Dossier-Zeile führt zudem **keine** Straße in der Frontmatter.
+  **Konsequenz:** Ein Punkt auf der historischen Registeranschrift würde einen seit 2003 gelöschten Rechtsträger als
+  heutigen Händlerstandort ausgeben; der Dossier-Eintrag ist zudem ein reiner Verzeichnislead ohne belegte
+  Betreiberidentität. `status: pruefung`, `street`/`postcode` (leer) und alle übrigen Frontmatter-Felder bleiben
+  unverändert; es wird **keine** Nachfolge behauptet. **Nächster Schritt für den Owner:** Klärung, ob der
+  Verzeichnislead einen heutigen Nachfolger in Hamburg hat (Register-/Betreibernachweis mit Hamburger Anschrift); erst
+  dann Geokodierung. Quelle(n): https://www.northdata.de/Olympic+Silver+Trading+GmbH,+Hamburg/HRB+54383 ;
+  https://www.online-handelsregister.de/handelsregisterauszug/hh/Hamburg/HRB/54383/Olympic-Silver-Trading-GmbH ;
+  https://www.gelbeseiten.de/gsbiz/514be2fe-3a01-4761-8471-f63831636ab1 (Verzeichnislead) ;
+  https://www.stonexbullion.com/en/documents/legal-notice/ (fremder Rechtsträger) ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0100,53.5800,10.0300,53.5900 (Abruf 03.11.2026).]

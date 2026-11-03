@@ -1,5 +1,7 @@
 ---
 slug: by-straubing-carnuth-stahlrecycling
+lat: 48.8808327
+lon: 12.6184695
 name: H. Carnuth KG - Werk Straubing
 trader_type: schrotthaendler
 state: BY
@@ -40,3 +42,22 @@ Anlieferungszeiten sind veröffentlicht, aber die Website enthält widersprüchl
 - [Zertifikatsprüfung 08.10.2026: Betreiber verlinkt PÜG-Deckblatt K10081, Vorgang ZZHT004003941013; PDF separat geladen. Bestätigt beide Standorte Sachsenring 23/Straubing und Industriestraße 16/Bogen, nennt jedoch Verwaltungssitz Straubing, während Website Bogen als Verwaltung bezeichnet. Zertifikat gültig 16.06.2025 bis 30.09.2026, somit beim heutigen Abruf abgelaufen. Nicht als aktuell gültige Zertifizierung dargestellt; jüngeres Originalzertifikat nachholen. Feedback-GESA-Kennung nicht unabhängig bestätigt. Quellen: https://www.carnuth.de/zertifikate/ ; https://www.carnuth.de/wp-content/uploads/2025/07/Deckblatt-2025-EfbV-_-H.-Carnuth-K.G.-.pdf .]
 - [Zeiten/Preise 08.10.2026: Websitefuß nennt allgemein Mo-Do 07-12/13-17, Fr 07-12/13-14, Anlieferung Mo-Do bis 16:30 und Fr bis 13:30. Andere HTML-Blöcke desselben Dokuments nennen für Straubing Mo-Fr 07-12/13-17 und Anlieferung bis 16:30. Keine stille Auswahl einer Variante; verbindliche Freitags-/Standortzeiten erfragen. Stahlrecycling und Anlieferung belegt, aber keine explizite Privatannahme oder feste Schrottvergütung. Numerische Ankauf-/Verkauf-/Gebührenliste nicht verifiziert. Quelle: https://www.carnuth.de/kontakt/ .]
 - [Dublettenprüfung 08.10.2026: Vorhanden ist nur der getrennte Carnuth-Bogen/Furth-Slug; kein Straubinger Carnuth-Dossier. Gegenverweis: dossiers/by/by-bogen-furth-carnuth-metallrecycling.md. Status pruefung wegen offener Annahme-/Vergütungsbedingungen; kein Schließungsbeleg aus abgelaufenem Zertifikat. Keine direkten Produktionsschreibzugriffe.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **48.8808327/12.6184695** (Mittelwert der
+  **4** eindeutigen Way-Knoten von way/1218678668; der Punkt liegt innerhalb der Objekt-BBox 48.8807515/12.6183784 bis
+  48.8809139/12.6185606). Quelle 1 (OSM): way/1218678668 (live abgerufen 03.11.2026, https://api.openstreetmap.org/api/0.6/way/1218678668/full.json) trägt `addr:housenumber`=**23**,
+  `addr:street`=**Sachsenring**, `addr:postcode`=**94315**, `addr:city`=**Straubing**, `addr:country`=DE und `building`=commercial -
+  die Dossier-Hausnummer 23 ist damit objektgenau belegt. Das Objekt trägt **weder `name=` noch `operator=`**; der
+  Betrieb selbst ist in OSM nicht als Objekt kartiert, das wird hier als Aussage zum OSM-Bestand festgehalten, nicht
+  als Negativbeleg über den Betrieb. Quelle 2 (Betreiber/Register, im Dossier bereits zitiert): die
+  Betreiber-Kontaktseite https://www.carnuth.de/kontakt/ trennt „Werk Straubing, **Sachsenring 23, 94315 Straubing**, 09421 9254-0,
+  info@carnuth.de“ ausdrücklich vom Werk Bogen/Verwaltung (Industriestraße 16, 94327 Bogen), das Impressum nennt die
+  **H. Carnuth KG, HRA 1404 AG Straubing**, und NorthData bestätigt dieselbe KG/Registernummer sowie die
+  Geschäftsanschrift Sachsenring 23 in der Registerbekanntmachung vom 18.11.2009 (Dossier-Überblick und Verifikation
+  08.10.2026). Damit stimmen OSM-Objekt und Betreiber-/Registerbeleg überein. Das Dossier enthielt **keine**
+  `clear_fields`-Anweisung, daher ist nichts zu entfernen; `status` (pruefung wegen offener
+  Annahme-/Vergütungsbedingungen), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert - die zum
+  Abrufzeitpunkt abgelaufene EfbV-Zertifikatgültigkeit wird durch die Koordinate nicht berührt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1218678668/full.json ;
+  https://www.carnuth.de/kontakt/ ; https://www.carnuth.de/impressum/ ; https://www.northdata.de/H%C2%B7%20Carnuth%20KG,%20Bogen/Amtsgericht%20Straubing%20HRA%201404 (OSM live abgerufen 03.11.2026).]

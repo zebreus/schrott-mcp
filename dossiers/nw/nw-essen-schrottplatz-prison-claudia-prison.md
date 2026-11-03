@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-schrottplatz-prison-claudia-prison
-clear_fields: 'geo'
+lat: 51.4785696
+lon: 6.9835565
 name: Schrottplatz Prison (Claudia Prison)
 trader_type: schrottplatz
 state: NW
@@ -40,3 +41,28 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kabelschrott, Katalysatoren, NE-Metalle (Hövelstr. 254)
+
+
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4785696/6.9835565** (Mittel der 4 eindeutigen
+  Way-Knoten von way/49219240; der Punkt liegt innerhalb der Objekt-BBox **51.4784998/6.9834696 – 51.4786395/6.9836433**).
+  Quelle 1 (OSM): way/49219240 trägt `addr:housenumber`=**254**, `addr:street`=**Hövelstraße**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45356**, `building`=yes — Dossier-Straße, -Hausnummer und -PLZ stimmen
+  objektgenau überein. Der Betriebsbezug ist im OSM zusätzlich am selben Standort belegt: node/5612444503
+  (`name`=**Schrotthandel Prison**, `industrial`=**scrap_yard**, `landuse`=industrial) liegt **31 m** entfernt bei
+  **51.4787665/6.9832361** — Betrieb und Anschrift sind damit auf demselben Grundstück verortet. Quelle 2
+  (Betreiber/Register): das Impressum der Betreiber-Website nennt **Schrott- und Metallgroßhandel Prison-Kramer,
+  Hövelstr. 254, 45356 Essen** (Einzelunternehmen Claudia Prison-Kramer, ohne HRB), die Kontaktseite bestätigt
+  Anschrift, Telefon **0201 660081** und E-Mail **buero@schrottplatz-essen.de** sowie Anlieferung, Containerstellung
+  und Entsorgung am Standort; die kongruenten Verzeichnisleads (YellowMap/golocal/city-map/schrottplatz-info) nennen
+  dieselbe Anschrift. Der zuvor im Produktionsbestand gespeicherte Punkt **51.450284375/7.015053125** (Straße „Freiheit“,
+  45128 Essen) lag **3828 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/49219240/full.json ; https://api.openstreetmap.org/api/0.6/node/5612444503.json ;
+  https://schrottankauf-in.de/impressum.php ; https://schrottankauf-in.de/kontakt-infos-schrottankauf-zu-spitzen-preisen-in-nrw.html.php
+  (Abruf 03.11.2026).]

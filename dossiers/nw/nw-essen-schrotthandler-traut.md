@@ -58,3 +58,33 @@ Merge) und verweist auf die Leitzeile
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — kein Treffer: kein Betreiber, keine Adresse, kein Register zu Schrotthändler Traut Essen gefunden (nur generische Essener Schrott-Verzeichnisse); kein Frontmatter-Fill; Quelle(n): keine]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für die Zeile existiert **keine** belegte
+  Betriebsanschrift in Essen; der Kartenmarker des verwendeten Aggregatorportals liegt in einem **Wohnobjekt** und ist
+  kein Betriebsort. **Was live geprüft wurde (03.11.2026):** (a) Das Portal-Profil „Schrotthändler Traut“ lässt die
+  Anschrift **leer** und nennt nur eine Mobilnummer (**+49 162 9135397**), die Leistung „Abtransport von Schrott“ und
+  die Metallarten Kupfer, Aluminium, Edelstahl, Messing, Zink, Blei; das Portal schreibt selbst, dass alle
+  Unternehmensangaben aus öffentlichen Quellen stammen. (b) Der Marker dieses Portals liegt bei
+  **51.4409073/7.0160182**; die dort genannte Anschrift **92, Witteringstraße, 45130 Essen** ist in OSM nur durch
+  **zwei** Objekte belegt: **node/3453735410** (`amenity`=car_sharing, `name`=**Stadtmobil**,
+  `brand`=Stadtmobil Rhein-Ruhr) und **node/4548791823** (`amenity`=restaurant, `name`=**Tío Pepe**,
+  `website`=https://tio-pepe-essen.de/) — **kein** Schrottbezug; der Marker liegt **230 m** von der Nummer 92 entfernt.
+  (c) Eine Suche über `name`, `operator`, `brand`, `website`, `contact:website`, `description`, `note` und `short_name`
+  nach **„Traut“** im Kachelraster **6.9400/51.4100 – 7.1000/51.4900** liefert **0** Treffer mit Betriebsbezug (nur
+  „Trautes Heim“ und „Waldtrautstraße“ als Straßennamen). (d) Die Zwillingszeile
+  `nw-gelsenkirchen-mitte-schrotthandler-traut-ge-ableger` führt dieselbe Mobilnummer mit der Anschrift
+  **Kurt-Schumacher-Straße 80, 45881 Gelsenkirchen**; eine belegte eigene Essener Betriebsanschrift gibt es weiterhin
+  nicht, und die Gelsenkirchen-Adresse wird **nicht** in diese Zeile übernommen. Quelle 1 (Betreiber/Register): für
+  Traut in Essen ist **weder** eine Betreiberseite **noch** ein Registereintrag gefunden; 11880 führt die Nummer nicht,
+  Gelbe Seiten und Das Örtliche kennen keinen Traut-Eintrag in Essen oder Gelsenkirchen, NorthData-Suchen „Schrotthandel
+  Traut“/„Traut Gelsenkirchen“ zeigen kein passendes Registerunternehmen (bei Einzelunternehmern ohne HRB ist das ein
+  Negativbefund ohne Beweiswert). Quelle 2 (OSM): **kein** Objekt mit Betriebsbezug zu Traut in Essen, das Adressobjekt
+  an der Portal-Markeradresse gehört einem Carsharing-Punkt und einem Restaurant. **Was fehlt:** eine kuratierte
+  Anschrift **oder** ein belegter Annahmehof für den mobilen Betrieb in Essen; der Klärfall bleibt offen, der
+  Stadt-Platzhalter wird nicht durch einen geratenen Punkt ersetzt.
+  Quelle(n): https://schrottfinder.de/schrotthandler-traut-essen/ ;
+  https://api.openstreetmap.org/api/0.6/node/3453735410.json ;
+  https://api.openstreetmap.org/api/0.6/node/4548791823.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9400,51.4100,7.1000,51.4900 (Abruf 03.11.2026).]

@@ -52,3 +52,30 @@ IMET Industriemetall-Handelsgesellschaft mbH ist im Registerspiegel unter HRB 18
 
 - Metallhandel/Trading (B2B)
 - Adresse: Eißendorf, Ehestorfer Weg 25, 21075
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Zwei getrennte Sachverhalte
+  blockieren die Geokodierung. **(1) Seed-Adresse vs. Registeranschrift:** Die Dossier-Adresse ist **Eißendorf,
+  Ehestorfer Weg 25, 21075** (Import-Stand 30.09.2026); der Registerspiegel (NorthData, „IMET
+  Industriemetall-Handelsgesellschaft mbH, Hamburg HRB 18825", live abgerufen 23.10.2026) belegt, dass die
+  Geschäftsanschrift **2021 von Ehestorfer Weg 25 nach Süderstraße 112 a, 20537 Hamburg** verlegt wurde — der
+  Seed-Standort ist damit historisch, und das Dossier hält ausdrücklich fest: „Die Registeranschrift wird nicht als
+  Betriebsstandort eingesetzt"; die Betreiberdomain imet.de war am 21./23.10.2026 nicht abrufbar (HTTP 403), es gibt
+  **keinen** belegten Annahmehof und keine Privatkundenannahme in Eißendorf. **(2) OSM:** Eine OSM-Hausnummerensuche
+  (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse **Ehestorfer Weg 25** wurde
+  in dieser Welle angestoßen und im Umfeld der Adresse weitergeführt; sie wurde durch die API-Drosselung (HTTP 429) nur
+  **teilweise** abgeschlossen und ist deshalb **kein** belastbarer Negativbefund — für die Entscheidung ist das **nicht
+  maßgeblich**, weil die Seed-Adresse selbst unbestätigt ist und die heutige Registeranschrift Süderstraße 112 a ohnehin
+  eine **Geschäftsanschrift** eines B2B-Handelshauses und kein Annahmeplatz ist. Für die heutige Registeranschrift
+  **Süderstraße 112 a** wurde im selben Durchgang kein belastbar geprüftes Adress- bzw. Betriebsobjekt mit Namens- oder
+  Betreiberbezug zu „IMET" ausgewiesen; selbst ein vorhandenes Adressobjekt wäre eine **Geschäftsanschrift** eines
+  B2B-Handelshauses, nicht ein Annahmeplatz. **Konsequenz:** Weder für die Dossier-Adresse noch für die verlegte
+  Registeranschrift sind OSM-Objekt **und** Betreiber-/Registerquelle für denselben Standort vereinbar; eine Koordinate
+  würde eine Betriebsstätte suggerieren, die nicht belegt ist. `status: pruefung`, `street`/`postcode` (leer) und alle
+  übrigen Frontmatter-Felder bleiben unverändert; es wird **keine** Schließung und **kein** Verbleib der Eißendorfer
+  Niederlassung behauptet. **Nächster Schritt für den Owner:** lesbarer Betreiberauftritt (Impressum mit Standort und
+  Leistungen) oder Originalregisterauszug mit Anschriftenhistorie; danach erneute OSM-Hausnummerensuche. Quelle(n):
+  https://www.northdata.de/imet%20Industriemetall-Handelsgesellschaft%20mbH,%20Hamburg/HRB%2018825 ;
+  https://openregister.de/company/DE-HRB-K1101-18825 ; https://imet.de/ (403) ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9750,53.5700,9.9950,53.5800 (Abruf 03.11.2026).]

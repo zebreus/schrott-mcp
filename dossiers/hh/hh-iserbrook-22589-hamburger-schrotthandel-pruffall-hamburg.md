@@ -58,3 +58,26 @@ Unbelegte Telefon-/Domainzuordnung aus aktueller Frontmatter zurückgenommen; al
 ### Recherche 01.10.2026 (Feedback-Triage #3086)
 
 - [Recherche 01.10.2026: Berechtigt — Domain-Tod per DNS bestätigt (NXDOMAIN für hamburger-schrott.de; website_status tot bestand bereits zurecht). Prüf-Notizen aus name-Feld in Timeline überführt (name bereinigt). Namensvetter-Check: kein realer „Hamburger Schrotthandel" in Iserbrook auffindbar (Treffer: hamburger-schrottverwertung.de = fremder Anbieter, PMK/SMH/Schmidt = andere Firmen) — Phantom-Verdacht, KEINE Adress-/Kontakt-Fills, status pruefung bleibt, Klärfall (Tel. 0173 6110524 weiter offen); Quelle(n): DNS-NXDOMAIN + Websuche 01.10.2026]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Der Eintrag „Hamburger Schrott" ist
+  im Dossier ausdrücklich als **Prüffall** geführt: Die einzige belegte Spur ist ein **Verzeichnislead**
+  (schrottplatz.org, live 07.10.2026: „Schrott Hamburger Schrott", **Heerbrook 4, 22589 Hamburg**, Tel. 0173 611 05 24,
+  identisch mit dem historischen Seed-Wert), der weder Betreiber noch aktuellen Betrieb belegt; die zugehörige Domain
+  **hamburger-schrott.de** ist per DNS **NXDOMAIN** (Google-DNS-A-Abfrage, Status 3, Vermerk vom 10.10.2026) — ein
+  Recursor-Befund, kein Schließungs- oder Identitätsbeleg. Namensähnliche Hamburger Anbieter (u. a.
+  hamburger-schrottverwertung.de) sind ausdrücklich **nicht** zu vermischen. Eine OSM-Hausnummerensuche
+  (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse **Heerbrook 4** wurde in
+  dieser Welle angestoßen und im Umfeld der Adresse weitergeführt; sie wurde durch die API-Drosselung (HTTP 429) nur
+  **teilweise** abgeschlossen und ist deshalb **kein** belastbarer Negativbefund — für die Entscheidung ist das **nicht
+  maßgeblich**, weil für die Dossier-Adresse keine Betreiber- oder Registerquelle vorliegt. **Konsequenz:** Die
+  Zwei-Quellen-Regel ist nicht erfüllt (kein OSM-Objekt, keine Betreiber-/Registerquelle); eine Position auf der
+  Heerbrook wäre eine Behauptung über einen Portal-Eintrag ohne Betreiber. `status: pruefung`, `street`/`postcode`
+  (leer) und alle übrigen Frontmatter-Felder bleiben unverändert; `clear_fields: 'phone,website'` bleibt unverändert
+  bestehen (enthält **kein** `geo`-Token, da keine Koordinate gesetzt wird — der Seed lehnt `clear_fields` neben
+  belegtem `lat`/`lon` ab). Es wird **keine** Schließung behauptet. **Nächster Schritt für den Owner:** Betreiber- oder
+  Gewerbenachweis (bzw. belastbare Zuordnung des Telefonleiters 0173 6110524) für Heerbrook 4; danach erneute
+  OSM-Hausnummerensuche. Quelle(n): https://www.schrottplatz.org/hamburg/schrott-hamburger-schrott-aYEPV3.html
+  (Verzeichnislead) ; https://dns.google/resolve?name=hamburger-schrott.de&type=A ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8950,53.4450,9.9150,53.4650 (Abruf 03.11.2026).]

@@ -60,3 +60,27 @@ Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding und 01
 ### Owner-Korrektur 18.10.2026 (Seed-Verhalten)
 
 - [Owner-Korrektur 18.10.2026: Heutiger mode=ro/query_only-Abgleich mit public.db zeigt Telefon 0171 1884077 und Flurweg 8/93426 weiterhin gespeichert; nur Bestandsaufnahme, keine Tatsachenverifikation oder Bestätigung der im Entwurf behaupteten 12.10.-Abfrage. Nach Rebuild/Integration entfernt clear_fields phone das gespeicherte Telefon und bleibt bei jedem Seed autoritativ, auch gegen spätere Drift mit gleich gebliebenem Seed-Hash. Leeres Telefon allein würde Enrichment behalten. Straße/PLZ werden beim geänderten Seed leer überschrieben, vorhandenes GEO 49.1943/12.5196 dagegen behalten und nicht neu validiert. Ungeklärte Händler-/Punktzuordnung bleibt Veröffentlichungsblocker, keine GEO- oder Produktionsmutation dieses Check-ins. Grundlage: docs/trader-seed.md; heutige Abfrage dokumentiert in /tmp/opencode/checkin-20261018-0900-production-gate.json.]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist **Flurweg 8,
+  93426 Roding** (Portal-Lead „Metallrecycling Inh. Romano Janßen“). Quelle 1 (OSM): Live-Scan am 03.11.2026 über das
+  Kachelraster **bbox=12.4900,49.1900,12.5200,49.2200** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=12.4900,49.1900,12.5200,49.2200) mit **36 406
+  Elementen** und **0 Kachel-Fehlern**. Auf dem Flurweg in 93426 Roding sind **11 Adressobjekte** erfasst (Hausnummern
+  1, 2, 3, 4, 5, 6, **8**, 12, 14, 16, 18), darunter **way/497811880** mit `addr:housenumber`=**8**, `addr:street`=Flurweg,
+  `addr:postcode`=93426, `addr:city`=Roding, `addr:country`=DE, `building`=yes, `source`=DOP_LVA_BY_01 (Mittel der 4 eindeutigen
+  Knoten 49.2032562/12.5070291, innerhalb der Objekt-BBox) - die Dossier-Hausnummer 8 ist damit objektgenau belegt.
+  Das Objekt trägt **weder `name=` noch `operator=`**; die Suche über `name`, `operator`, `brand` und
+  `official_name` nach „jansen“, „janßen“ und „metallrecycling“ liefert **0 Treffer** - der Betrieb ist in OSM nicht
+  kartiert. Quelle 2 (Beleglage, im Dossier dokumentiert): die Identität „Jansen“ ist **unvollständig** - die
+  Anschrift Flurweg 8 und die Mobilnummer 0171 1884077 wurden als unzureichend belegte Fakten aus dem Frontmatter
+  zurückgenommen; der am 26.10.2026 gelesene Eintrag des Branchenportals LokaleSchrottplatz führt „Metallrecycling
+  Inh. Romano Janßen“ mit genau dieser Adresse und Mobilnummer, ist laut README aber **nur Aggregatorbeleg**; ein
+  Telefonbuch-Lead nennt Romano Jansen an derselben Adresse mit **abwehender** Nummer 09461 401336, und **kein**
+  Betreiber-/Registerbeleg löst Identität oder Nummerkonflikt (Dossier-Überblick und Recherche 28.10.2026). Damit
+  fehlt die für diese Welle geforderte zweite unabhängige Quelle (Betreiber- oder Registerbeleg für eben diese
+  Anschrift); das Dossier hält zudem fest, dass „Flurweg 8 … ein konkreter Portal-Kandidat für einen Schrottplatz,
+  aber **unbestätigt**“ ist. Es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Das Dossier enthielt
+  `clear_fields: 'geo,phone'`; die Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll
+  und kein belegter Ersatz existiert; `status` (pruefung), `description` und alle übrigen Felder bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.4900,49.1900,12.5200,49.2200 ; https://api.openstreetmap.org/api/0.6/way/497811880/full.json ; https://lokaleschrottplatz.de/ (live abgerufen 03.11.2026).]

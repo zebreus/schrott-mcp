@@ -50,3 +50,33 @@ Die Betreiberseite `dieausmister.de/hagen` nennt „Die Ausmister“, Wehringhau
 
 - Entrümpler (GS)
 - Adresse: Hagen
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Wehringhauser Str. 60,
+  58089 Hagen** ist in OSM adressgenau erfasst, trägt dort aber den **Namen eines anderen Betriebs**; die
+  Betreiberseite erfüllt die Anforderung an eine zulässige Betreiberquelle nicht. **Was live geprüft wurde
+  (03.11.2026):** (a) Das Adressobjekt existiert: **way/284230977** mit `addr:housenumber`=**60**,
+  `addr:street`=**Wehringhauser Straße**, `addr:city`=Hagen, `addr:country`=DE, `addr:postcode`=**58089**,
+  `building`=yes, `name`=**Antik Eck**, `source`=NRW Atlas ALK Vektor (Mittel der 12 eindeutigen Way-Knoten
+  **51.3554606/7.4543859**, BBox 51.3553570/7.4542209 – 51.3555316/7.4546032) — das ist ein **anderer Betrieb** an
+  derselben Hausnummer; eine Bestätigung der Ausmister an dieser Anschrift ist damit **nicht** erbracht. (b) Im Umfeld
+  von 80 m liegen keine weiteren Objekte mit Betriebsbezug zu „Ausmister“; eine Suche über `name`, `operator`, `brand`,
+  `website`, `contact:website`, `description`, `note` und `short_name` nach **„Ausmister“** im Kachelraster
+  **7.4200/51.3400 – 7.5600/51.4200** (112 Kacheln, 0 Kachel-Fehler) liefert **0** Treffer — Aussage zum OSM-Bestand,
+  **kein** Negativbeleg über den Betrieb. Quelle 1 (Betreiber/Register): die Betreiberseite **dieausmister.de/hagen**
+  nennt **Wehringhauser Strasse 60, 58089 Hagen**, **02331-9109428**, **info@dieausmister.de** und
+  Beratungs-/Besichtigungszeiten Mo–So 08:00–22:00; sie beschreibt **Entrümpelung inklusive Entsorgung zum Festpreis**,
+  Abbruchservice und Renovierung, aber **keine** allgemeine Schrottannahme und **keinen** Metall-Ankaufspreis. Der
+  Menüpunkt „Impressum“ führt auf dieselbe Seite `/hagen` zurück, eine rechtliche Betreiberangabe (Firmierung,
+  Register) ist **nicht** sichtbar — die Seite erfüllt die README-Ausnahme für eine registerkongruente Betreiberquelle
+  damit **nicht**; das Facebook-Profil „DieAusmister“ bestätigt nur Name, Stadt und Entrümpelungsangebot, **nicht**
+  die Anschrift. Das Dossier hat die Felder `email`, `phone` und `opening_hours` deshalb bereits zurückgenommen.
+  Quelle 2 (OSM): die Adresse ist vorhanden, trägt aber den **Fremdnamen „Antik Eck“** und keinen Bezug zu den
+  Ausmister. **Was fehlt:** eine rechtlich belastbare Betreiberidentität (Impressum mit Firmierung/Register) **oder**
+  eine zweite unabhängige Bestätigung der Anschrift; erst damit wäre die Karte der Ausmister dieser Hausnummer
+  zuzuordnen. `clear_fields` (email, geo, opening_hours, phone) bleibt unverändert, `status: pruefung` bleibt
+  unverändert, es wird weder Fortbestand noch Annahme behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/284230977/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ; https://dieausmister.de/hagen ;
+  https://www.facebook.com/DieAusmister/ (Abruf 03.11.2026).]

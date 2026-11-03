@@ -38,3 +38,26 @@ Moorburger Elbdeich 29 aus Verzeichnissen nicht mit der Registeradresse zu einem
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (FE/NE lt. Aggregator)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Für diesen Eintrag ist der Standort
+  **nicht** als aktueller Annahmeplatz belegt: NorthData ordnet die Heiko Miersen GmbH (HRB 117106 Hamburg, zuvor HRB
+  2717 NM Kiel) dem historischen Standort **Moorburger Schanze 6, 21079 Hamburg** zu (live gelesen laut Vermerk vom
+  14.10.2026; dort jüngster sichtbarer Abschluss 23.12.2021 für 2020, kein Nachweis eines heutigen Betriebs). Als
+  Stilllegungshinweise sind im Dossier ein **Lieferanten-Eigenbericht** (PROGAS, veröffentlicht 09.06.2022, geändert
+  21.06.2024: „Betriebseinstellung der Abwrackwerft mit Ablauf des vergangenen Jahres") und ein **unabhängiger
+  Ortsbericht** (MOPO vom 09.06.2020: „Heiko Miersen GmbH" als „Geschichte", Gelände geräumt) dokumentiert; die
+  Chronologie widerspricht sich, ein exaktes Schließungsdatum wird deshalb **nicht** behauptet und `status` bleibt
+  **`pruefung`** statt `geschlossen`. Eine OSM-Punktquelle zur Abwrackwerft ist im Kachelraster des Hamburger Moorburger
+  Raums (53.5000-53.5350 / 9.9950-10.0250, 0,01-Grad-Kacheln, api.openstreetmap.org/api/0.6/map.json) **nicht** als
+  Betriebsobjekt mit Namens-, Betreiber- oder Branchenbezug zu „Miersen" oder einer Abwrack-/Schrottanlage belegt; die
+  Registeradresse „Moorburger Schanze 6" ist zudem **keine Hausnummer-Adresse** im Sinne eines Adressobjekts und wird im
+  Dossier ausdrücklich als historischer Platz geführt, für den „kein GEO-Fill" dokumentiert war. **Nächster Schritt für
+  den Owner:** ein Nachweis einer Fortführung unter derselben oder einer neuen Rechtsträgerin an einem benannten
+  Standort; erst dann wäre eine Koordinate ansetzbar — eine Position auf die geräumte historische Fläche wäre eine
+  erfundene Koordinate. Übrige Frontmatter-Felder, `status` und alle Bestandsvermerke bleiben unverändert. Quelle(n):
+  https://www.northdata.de/Heiko%20Miersen%20GmbH,%20Hamburg/HRB%20117106 ;
+  https://progas.de/erfahrungsberichte/gewerblich/heiko-miersen-hamburg-geschlossen ;
+  https://www.mopo.de/hamburg/in-hamburg-gestrandet-dieses-wrack-gammelt-seit-jahrzehnten-vor-sich-hin/204280 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9950,53.5000,10.0250,53.5350 (Abruf 03.11.2026).]

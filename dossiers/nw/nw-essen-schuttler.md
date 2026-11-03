@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-schuttler
-clear_fields: geo
+lat: 51.4732823
+lon: 7.0776219
 name: Schüttler
 trader_type: mobil
 state: NW
@@ -55,3 +56,30 @@ Identitätskandidat bleibt **Sylvia Schüttler Metallhandel**, Stubbenkamp 6, 45
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: website_status leer → unbekannt; übrige Frontmatter unverändert. Die einzeln abgerufene 11880-Detailseite führt „Sylvia Schüttler Metallhandel“, Stubbenkamp 6, 45309 Essen-Kray, Mobilnummer und E-Mail sowie Altmetallrecycling/Schrotthandel; sie zeigt „Website hinzufügen“, keine Öffnungszeiten und keine zweite unabhängige Betreiber- oder Registerquelle. Der Eintrag ist laut 11880 am 27.06.2026 aktualisiert, die Eintragsdaten stammen vom 13.10.2025. Das reicht nicht für Fills; Name bleibt unpräzisiert „Schüttler“, Straße/Kontakt/Beschreibung bleiben leer, status bleibt pruefung. Quelle(n): https://www.11880.com/branchenbuch/essen-ruhr/190682936B113680307/sylvia-schuettler-metallhandel.html]
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4732823/7.0776219** (Mittel der 10 eindeutigen
+  Way-Knoten von way/307631343; der Punkt liegt innerhalb der Objekt-BBox **51.4732306/7.0775334 – 51.4733340/7.0777194**).
+  Quelle 1 (OSM): way/307631343 trägt `addr:housenumber`=**6**, `addr:street`=**Stubbenkamp**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45309**, `building`=house — Dossier-Straße, -Hausnummer und -PLZ stimmen
+  objektgenau überein; der Stubbenkamp trägt live **11** verschiedene Hausnummern (2, 4, 6, 8, 10, 1a, 1b, 3a, 3b, 5a,
+  5b). Das Objekt ist in OSM als **Wohnhaus** kartiert und trägt **weder** `name=` **noch** `operator=`; ein Objekt mit
+  Betriebsbezug zu „Schüttler“ ist nicht vorhanden — Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb.
+  Quelle 2 (Betreiber/Register): das Impressum von `firma-schuettler.de` (CNAME-identisch mit `xn--schttler-85a.com`)
+  nennt **Inhaberin Sylvia Schüttler, Stubbenkamp 6, 45309 Essen**, Telefon **01577 1361724**; das unabhängige
+  11880-Profil „Sylvia Schüttler Metallhandel“ (Aktualisierung 04.10.2026) führt dieselbe Person und dieselbe Anschrift
+  **Stubbenkamp 6, 45309 Essen (Kray)** mit **0178 4299833** und den Branchen Altmetallrecycling/Schrotthandel.
+  **Abgrenzung (offen, bleibt offen):** die Betreiberseite beschreibt als Tätigkeit **Glasfaser-Verlegung und
+  Innenausbau** und nennt weder „Metall“ noch „Schrott“; ob Frau Schüttler heute Schrott oder Metall handelt, ist
+  damit **nicht** geklärt, ebenso die Zuordnung der beiden Telefonnummern. Die Koordinate bezeichnet die von beiden
+  Quellen übereinstimmend genannte **Anschrift der Inhaberin**, **nicht** einen belegten Annahmehof (der Umfeldscan
+  zeigt an der Anschrift nur Textil-Altkleidercontainer); `status: pruefung` bleibt unverändert. Der zuvor im
+  Produktionsbestand gespeicherte Punkt **51.450284375/7.015053125** (Straße „Freiheit“, 45128 Essen) lag
+  **5.033 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/307631343/full.json ; https://www.xn--schttler-85a.com/impressum ;
+  https://www.11880.com/branchenbuch/essen-ruhr/190682936B113680307/sylvia-schuettler-metallhandel.html (Abruf 03.11.2026).]

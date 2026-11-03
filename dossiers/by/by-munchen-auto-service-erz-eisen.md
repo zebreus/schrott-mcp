@@ -46,3 +46,28 @@ Der Münchner Seed-Standort Curd-Jürgens-Straße 4 ist historisch: HRB 201496 M
 
 - Autoverwertung
 - Adresse: München (Curd-Jürgens-Str. 4)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Die Dossier-Adresse
+  **Curd-Jürgens-Straße 4 (München)** ist laut Dossier **historisch**: HRB 201496 München dokumentiert 2016 die
+  Sitzverlegung der Auto-Service Erz & Eisen GmbH nach **Vaterstetten/Weißenfeld, Ammerthal 3b, 85622**; ein
+  München.de-/Stadtbranchenbuch-Eintrag führt „Abschleppdienst Erz & Eisen“ nur noch unter dieser Weißenfelder Adresse
+  und derselben Telefonnummer, also als Verzeichnis-Lead. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das
+  Kachelraster **bbox=11.6300,48.0700,11.6600,48.1000** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6300,48.0700,11.6600,48.1000) mit **96 275
+  Elementen** und **0 Kachel-Fehlern**. Auf der Curd-Jürgens-Straße sind **25 Adressobjekte** in München erfasst
+  (Hausnummern 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 26, 28, 30, 32, 34), darunter
+  **way/267120801** mit `addr:housenumber`=**4**, `addr:street`=Curd-Jürgens-Straße, `addr:postcode`=**81739**, `addr:city`=München,
+  `building`=apartments (Mittel der 20 eindeutigen Knoten 48.0842360/11.6430334, innerhalb der Objekt-BBox
+  48.0839785/11.6428421 bis 48.0845821/11.6431852) - die Dossier-Hausnummer 4 existiert in OSM also objektgenau, das
+  Objekt trägt **weder `name=` noch `operator=`**, und die Suche nach „erz“, „abschlepp“ und „eisen“ in `name`,
+  `operator`, `brand` und `official_name` liefert **0 Treffer**; der Betrieb ist in OSM nicht kartiert. **Abweichung,
+  dokumentiert:** das OSM-Objekt trägt die PLZ **81739**, das Dossier nennt keine PLZ; der Münchner Standort ist damit
+  der historische Seed-Ort, nicht der aktuelle Sitz des Unternehmens. Quelle 2 (Register, im Dossier bereits zitiert):
+  HRB 201496 München mit der Sitzverlegung 2016 nach Ammerthal 3b, 85622 Vaterstetten (Dossier-Überblick); ein
+  aktueller, anerkannter Autoverwertungsbetrieb oder eine öffentliche Schrottannahme ist damit **nicht** belegt, die
+  früher verlinkte Domain erzundeisen.de steht zum Verkauf. Ein Punkt in München würde einen **historischen** Sitz
+  markieren, während der aktuelle Sitz in einer anderen Gemeinde liegt; es wird **keine** Koordinate erfunden und kein
+  Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt
+  weiterhin entzogen werden soll und kein belegter bayerischer Ersatz existiert; `status`, `description` und alle
+  übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6300,48.0700,11.6600,48.1000 ; https://api.openstreetmap.org/api/0.6/way/267120801/full.json (live abgerufen 03.11.2026).]

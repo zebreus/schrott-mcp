@@ -60,3 +60,22 @@ Es gibt eine Registerspur für „FERRO Sundries GmbH & Co.KG Internationaler Ha
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Klärfall — keine Ferro Sundries GmbH & Co. in Hamburg-Altona auffindbar (weder Register noch Betreiber-Website); Treffer nur Ferrostaal (Ferrostaal Metals GmbH, HRB 153474, andere Firma) und branchenfremde Ferro-Namen; kein Frontmatter-Fill; Quelle(n): keine belegfähige Quelle]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Für diesen Eintrag existiert **keine
+  geokodierbare Adresse**: Das Dossier führt weder `street` noch `postcode`, und auch der Import (Seed-Stand 30.09.2026)
+  nennt **keinen Ort und keine Hausnummer** („Metall/Trading (lt. Aggregator)" ohne Adresszeile); der Ort „Altona" ist
+  ein **historischer Seed-Wert ohne Beleg** und wurde in den Bestandsvermerken ausdrücklich als „unbelegter Seed-Ort"
+  geführt. Die im Dossier zitierte Registerquelle (NorthData, „FERRO Sundries GmbH & Co.KG Internationaler Handel,
+  Hamburg, Amtsgericht Hamburg HRA 91446", live bestätigt mit Erloschen-Markierung im Vermerk vom 28.10.2026) nennt
+  **keine Betriebsadresse** und kann keinen Adresspunkt liefern; die zweite Registerangabe (Firmenkontor24-Auszug,
+  letzte Bekanntmachung 13.07.2012) ebenso wenig. Eine OSM-Abfrage ist deshalb **nicht ansetzbar**: es gibt keine
+  Dossier-Hausnummer, nach der gesucht werden könnte — eine Kachel-Suche nach einem Ort ohne Hausnummer würde eine
+  beliebige Position in Altona treffen und wäre eine erfundene Koordinate. Die Zeile bleibt damit bewusst ungeokodiert;
+  der Rechtsträger ist im Register **aufgelöst** (Löschung 13.07.2012), es wird weder eine Betriebsadresse noch ein
+  Nachfolger behauptet. `status: geschlossen` und alle übrigen Frontmatter-Felder bleiben unverändert. **Nächster
+  Schritt für den Owner:** nur mit einem historischen Adressnachweis (z. B. Registeranschriften-Publikation zur HRA
+  91446) wäre ein Adresspunkt überhaupt bestimmbar — bis dahin keine Koordinate. Quelle(n):
+  https://www.northdata.de/FERRO+Sundries+GmbH+%26+Co.+KG+Internationaler+Handel,+Hamburg/HRA+91446 ; Bestandsvermerke
+  vom 28.10.2026, 06.10.2026 und 02.10.2026 dieses Dossiers.]

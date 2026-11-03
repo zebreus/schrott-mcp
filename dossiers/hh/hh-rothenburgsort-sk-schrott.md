@@ -59,3 +59,27 @@ Für „SK Schrott“ an Billstr. 140 gibt es weiterhin keinen zuordenbaren Betr
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Erneute Namens-/Adress- und zweiseitige Umfeldprüfung zu „SK Schrott“/Billstr. 140/Rothenburgsort; weiterhin keine zuordenbare Betreiber-Primärquelle, Registerfundstelle oder zweite belastbare Quelle. Gelbe Seiten führt u. a. Hanse Schrott an Billstr. 185; hamburg.de führt Henry Schmidt Autoverwertung an Mühlenhagen 156; beides sind andere Namen/Adressen und kein Identitätsbeleg für SK Schrott. Der NDR-Bericht behandelt Billstraße allgemein und nennt SK Schrott nicht. Keine Schließung belegt; Adresse, Status und übrige Frontmatter unverändert, insbesondere keine PLZ/Kontakte/Koordinaten ergänzt; Quelle(n): https://www.gelbeseiten.de/branchen/schrotthaendler/hamburg (Verzeichnis-Lead, andere Adresse) + https://www.hamburg.de/branchenbuch/hamburg/eintrag/1046934/ (anderer Betrieb, kein Identitätsbeleg) + https://www.ndr.de/nachrichten/hamburg/billstrasse-in-hamburg-drei-jahre-nach-dem-grossfeuer,billstrasse-100.html (nur Umfeldbericht).]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Für „SK Schrott" an der
+  Dossier-Adresse **Billstr. 140** (Rothenburgsort) existiert **kein** zuordenbarer Betreiber- oder Registerbeleg: Die
+  beiden Verzeichnisleads (Cybo: „SK Schrott", Billstraße 140, 20539, 040 38634360; Das-Örtliche-Straßenindex: dieselbe
+  Nummer, aber nur unter der unspezifischen Rubrik „Automobile" ohne Firmennamen) stammen aus Aggregatoren und
+  widersprechen sich in der Kategorisierung; sie bestätigen weder „SK Schrott" noch einen bestimmten anderen Betrieb.
+  Der gleichnamige Betreiberauftritt „SK Schrotthandel & Serviceleistungen" (Impressum: René Stöcker, Neustraße 15,
+  56727 Mayen, Einsatzgebiet Mayen-Koblenz/Eifel/Rheinland) ist ein **anderer** Betrieb und kein Hamburg-Nachweis; Hanse
+  Schrott (Billstr. 185) und Henry Schmidt Autoverwertung (Mühlenhagen 156) sind ebenfalls andere Unternehmen. Eine
+  OSM-Hausnummerensuche (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse
+  **Billstr. 140** wurde in dieser Welle angestoßen und im Umfeld der Adresse weitergeführt; sie wurde durch die
+  API-Drosselung (HTTP 429) nur **teilweise** abgeschlossen und ist deshalb **kein** belastbarer Negativbefund — für die
+  Entscheidung ist das **nicht maßgeblich**, weil für die Dossier-Adresse keine Betreiber- oder Registerquelle vorliegt.
+  **Konsequenz:** Weder OSM-Objekt noch Betreiber-/Registerquelle decken die Adresse; das Dossier vermerkt ausdrücklich
+  „Billstr. 140 nicht geokodieren, bis Identität/öffentliche Annahmestelle geklärt ist". `status: pruefung`,
+  `street`/`postcode` (letzteres leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **keine**
+  Schließung behauptet. **Nächster Schritt für den Owner:** Gewerbe- oder Betreibernachweis für Billstraße 140 (bzw.
+  Klärung, ob die Nummer 040 38634360 zu „Automobile" gehört); danach erneute OSM-Hausnummerensuche. Quelle(n):
+  https://sk.cybo.com/DE/hamburg-hamburg/scrap-metal-dealer ;
+  https://www.dasoertliche.de/Themen/Billstra%C3%9Fe/Hamburg.htm ; http://www.sk-serviceleistungen.info/ (fremder
+  Rechtsträger, Mayen) ; https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9850,53.5250,10.0050,53.5350 (Abruf
+  03.11.2026).]

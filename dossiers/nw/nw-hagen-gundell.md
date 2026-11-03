@@ -49,3 +49,31 @@ provenance_origin: table
 
 - Schrott (GS)
 - Adresse: Hagen
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Lead-Adresse **Obernahmerstr. 2, 58119
+  Hagen-Hohenlimburg** ist im live abgerufenen OSM-Bestand **nicht** erfasst, und die Adresse stützt sich allein auf
+  **einen** Verzeichniseintrag. **Was live geprüft wurde (03.11.2026):** (a) Eine Suche über alle Tag-Werte nach
+  `addr:street`=**Obernahmerstraße** im Kachelraster **7.4200/51.3400 – 7.5600/51.4200** (112 Kacheln à 0,01 Grad,
+  live abgerufen über `https://api.openstreetmap.org/api/0.6/map.json?bbox=…`, **0 Kachel-Fehler**) liefert **0**
+  Adressobjekte und **0** Hausnummern; auch eine Suche nach dem Straßennamen selbst (als `name=` eines
+  Straßen-Ways oder eines Stoppunkts) liefert im Raster **keinen** Treffer — vorhanden sind dort nur die
+  Buslinien-Relationen „HA-Obernahmer“ (Linien 538) sowie die benachbarten Straßen Rehstraße, Obere Rehstraße,
+  Eugen-Richter-Straße, Wehringhauser Straße und Berliner Straße in Hagen-Hohenlimburg. Die **Dossier-Straße
+  „Obernahmerstr.“ existiert in OSM nicht**. (b) Eine Suche über `name`, `operator`, `brand`, `website`,
+  `contact:website`, `description`, `note` und `short_name` nach **„Gündell“**, **„Gündell“/„Gundell“** und
+  **„Schrotthandel Gündell“** im selben Raster liefert **0** Treffer — Aussage zum OSM-Bestand, **kein**
+  Negativbeleg über den Betrieb. (c) Für die in der Straße üblichen Nachbarnummern (Rehstraße, Obere Rehstraße)
+  wurde kein Objekt mit Betriebsbezug gefunden. Quelle 1 (Verzeichnis, **keine** Betreiber-/Registerquelle): der
+  11880-Eintrag „Schrotthandel Gündell“, **Obernahmerstr. 2, 58119 Hagen-Hohenlimburg**, **0171 5443575**, Branchen
+  Altmaterialhandel/Schrotthandel (Eintragsdaten 29.06.2021, Aktualisierungsanzeige 02.10.2026 — Portalmetadaten, **kein**
+  Nachweis heutiger Tätigkeit); keine Betreiberwebsite, keine E-Mail, keine Öffnungszeiten; der Treffer bei „Wer
+  kennt den BESTEN“ ist ebenfalls nur ein Portal-Lead. Quelle 2 (OSM): die Dossier-Straße und ihre Hausnummer
+  existieren im live abgerufenen Raster **nicht**, ein Objekt mit Betriebsbezug ebenfalls nicht. **Was fehlt:** ein
+  adressgenauer OSM-Punkt **und** eine zweite unabhängige Belegquelle für die Anschrift (Betreiberkontakt oder
+  Gewerbeauskunft); erst damit wäre die Zeile geokodierbar. `clear_fields: 'geo'` bleibt bestehen,
+  `status: pruefung` bleibt unverändert, es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
+  https://www.11880.com/branchenbuch/hagen-westfalen/120674719B29367375/schrotthandel-guendell.html ;
+  https://www.werkenntdenbesten.de/schrotthandel/hagen (Abruf 03.11.2026).]

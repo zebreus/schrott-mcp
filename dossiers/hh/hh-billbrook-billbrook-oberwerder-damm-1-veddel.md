@@ -70,3 +70,32 @@ hh-veddel-remex-nord-gmbh ausgelagert. Der Slug dieser Zeile bleibt unveraendert
 
 - [Recherche 05.10.2026: Neue Registergegenprobe zur Seed-Anschrift: HEG Hamburger Entsorgungsgesellschaft mbH, HRB 53960 AG Hamburg, Bredowstr. 13, 22113 Hamburg, ehemals WERT Wertstoff-Einsammlung GmbH; Registerhistorie nennt am 17.08.2021 Verschmelzung der früheren HEG HRB 62204 und Umbenennung, zuletzt Jahresabschlussveröffentlichung 18.08.2026 für 2025. Damit ist der bloße Orts-/Adressname des Dossiers noch nicht eindeutig einem Betreiber samt Oberwerder Damm 1 zugeordnet. Historischer Konzernbericht 2020 der Stadtreinigung separat live gelesen: HEG und WERT damals als getrennte Tochtergesellschaften aufgeführt; kein unabhängiger aktueller Nachweis für die zusammengefasste Seed-Zeile. Konzernbericht ist Betreibergruppenquelle, nicht unabhängige zweite Behörde. Kein Merge, keine Namenskorrektur oder PLZ-Fill aus der ungeklärten Identitätskette. Quelle(n): https://www.northdata.de/HEG+Hamburger+Entsorgungsgesellschaft+mbH,+Hamburg/HRB+53960; https://nachhaltigkeitsbericht.stadtreinigung.hamburg/2020/strategie/konzernstruktur]
 - [Recherche 05.10.2026: Abrufgrenzen: neue Domain heg.hamburg sowie Start, Impressum und Kontakt einzeln versucht, HTTP 403; zusätzlich /leistungen als unbestätigten Pfad versucht, ebenfalls 403. Suchsnippets mit HRB, Telefonen/E-Mails nicht als live verifizierte Betreiberinhalte behandelt. Alte Seed-Domain heg-hamburg.de technisch nicht abrufbar; das beweist weder dauerhafte Domainaufgabe noch Betriebsschließung. Kein erfolgreiches Impressum, keine aktuelle standortspezifische Annahme-/Zeit-/Preis-/Zertifikatsprüfung, daher keine Betreiber-Ausnahme. Bestehende Straße/Name/status pruefung unverändert, alle leeren Felder leer. Owner: Billbrook und Oberwerder Damm 1 getrennt identifizieren, heutigen Kundenankauf gegen Lager-/Entsorgungsfunktion abgrenzen. Keine verifizierten Ankauf-/Verkaufs-/Gebührenlisten. Quelle(n): https://www.heg.hamburg/ (403); https://www.heg.hamburg/impressum (403); https://www.heg.hamburg/kontakt (403); https://www.heg.hamburg/leistungen (unbestätigter Pfad, 403); https://heg.hamburg/impressum (403); https://www.heg-hamburg.de/ (technischer Fehler); https://www.northdata.de/HEG+Hamburger+Entsorgungsgesellschaft+mbH,+Hamburg/HRB+53960]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Die Adresse ist auf beiden
+  Belegseiten gesichert: Das **amtliche Branchenbuch der Stadt Hamburg** (Eintragsnummer **10220456**, live abgerufen
+  03.11.2026, „Letzte Aktualisierung: 02.11.2026") führt die **HEG Hamburger Entsorgungsgesellschaft mbH**, Kategorie
+  „Container und Entsorgung", mit **„Bredowstraße 13, 22113 Hamburg (Billbrook)"**, Telefon **040 / 257 620 70**,
+  Telefax 040 / 257 620 75, E-Mail heg@srhh.de, Website heg.hamburg; der Registerspiegel (NorthData, HRB 53960 AG
+  Hamburg) nennt denselben Rechtsträger und dieselbe Anschrift. **Die zweite, geokodierungsseitige Quelle fehlt
+  jedoch:** Eine OSM-Hausnummerensuche (api.openstreetmap.org/api/0.6/map.json, 0,01-Grad-Kacheln) im Kachelraster des
+  Billbrook-Raums (53.4900-53.5350 / 9.9700-10.0350, live 03.11.2026) findet **keine** Straße „Bredowstraße" und
+  **kein** Objekt mit `addr:street`=Bredowstraße und `addr:housenumber`=13 — die Dossier-Hausnummer ist in OSM **nicht
+  abgebildet**; die Aussage ist als Stichprobe qualifiziert, weil die OSM-API in dieser Welle stark gedrosselt war (HTTP
+  429 bei Kachelabrufen). Ohne Objekt ist kein „Mittelwert der eindeutigen Knoten" bildbar und kein Punkt innerhalb
+  einer Objekt-BBox prüfbar; eine Position „ungefähr in Billbrook" wäre eine geratene Koordinate. **Konsequenz:** Die
+  Dossier-Adresse bleibt ungeokodiert, obwohl sie betreiberseitig/amtlich belegt ist — die Nachpflege ist eine reine
+  OSM-Datenlücke, kein Beleg gegen die Adresse. **Wichtige Abgrenzung, unverändert übernommen:** Die gebührenfreie
+  Schrott-/Kabel-/Buntmetallannahme der Stadtreinigung gilt für ihre **Recyclinghöfe**, und der **Recyclinghof Billbrook
+  liegt an der Liebigstraße 66**, also an einer **anderen** Anschrift als die Geschäftsanschrift Bredowstraße 13; eine
+  Koordinate an der Bredowstraße 13 würde daher **keinen** Annahmeplatz und **keinen** Ankauf belegen. `status:
+  pruefung`, `street`/`postcode`, Telefon/E-Mail, `website_status: blockiert` und alle übrigen Frontmatter-Felder
+  bleiben unverändert; es wird **weder** eine Schließung **noch** eine Annahme an der Geschäftsanschrift behauptet.
+  **Nächster Schritt für den Owner:** (a) OSM-seitig die Bredowstraße 13 ergänzen bzw. ein vorhandenes Adressobjekt
+  identifizieren und dann die Koordinate nachziehen; (b) falls die Zeile die **Annahmestelle** abbilden soll, wäre die
+  Liebigstraße 66 (Recyclinghof Billbrook) die fachlich richtige Anschrift — das ist eine inhaltliche
+  Owner-Entscheidung, keine Geokodierung. Quelle(n): https://www.hamburg.de/branchenbuch/hamburg/eintrag/10220456/ ;
+  https://www.northdata.de/HEG+Hamburger+Entsorgungsgesellschaft+mbH,+Hamburg/HRB+53960 ;
+  https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9700,53.4900,10.0350,53.5350 (Abruf 03.11.2026).]

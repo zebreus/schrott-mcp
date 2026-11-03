@@ -52,3 +52,26 @@ Die aktuellen Belege widersprechen sich beim Standort: 11880 führt Digosa Metal
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Die aktuellen Firmenprofile ordnen Digosa Metall GmbH dem Sitz Mannheim zu (HRB 753503); NorthData nennt H 2 16–17, 68159 Mannheim. Creditreform beschreibt An- und Verkauf von Gold/Edelmetallen und Rohstoffhandel. Das belegt weder eine fortbestehende Lohrer Annahmestelle noch den Seed-Telefonkontakt; Lohr kann ein veralteter Sitz-/Standorthinweis sein. Frontmatter-Ort und Telefon deshalb nicht umgedeutet oder überschrieben; Klärung, ob es eine Lohrer Niederlassung gibt, bleibt offen. Kein numerischer Ankaufspreis, Verkaufspreis oder Gebührentarif publiziert gefunden. Quellen: https://www.northdata.com/Digosa%20Metall%20GmbH,%20Mannheim/HRB%20753503 ; https://firmeneintrag.creditreform.de/68159/8310477913/DIGOSA_METALL_GMBH]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Die Dossier-Adresse **Färbergasse
+  13, 97816 Lohr am Main** ist laut Dossier eine **frühere Registeranschrift** eines Unternehmens, dessen Sitz im
+  Februar 2025 nach Mannheim verlegt wurde. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=9.5700,49.9900,9.5800,50.0000** (1 Kachel um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.5700,49.9900,9.5800,50.0000) mit **11 744 Elementen** und **0
+  Kachel-Fehlern**. Auf der Färbergasse in 97816 Lohr am Main sind **19 Adressobjekte mit 17 verschiedenen Hausnummern** erfasst (3, 4, 5, 5-7, 6, 7, 8, 9, 10, 11, 12, **13**, 14, 15, 17, 19, 21) (way/270412615
+  `addr:housenumber`=**13**, `addr:street`=Färbergasse, `addr:postcode`=97816, `addr:city`=Lohr am Main, `building`=apartments) - die Dossier-Hausnummer 13 existiert in OSM also objektgenau; das Objekt trägt **weder
+  `name=` noch `operator=`**, und die Suche über `name`, `operator`, `brand`, `official_name` und `old_name` nach
+  „digosa“ liefert **0 Treffer**. Quelle 2 (Register, im Dossier bereits zitiert): 11880 führt „Digosa Metall GmbH“ in
+  Lohr, **Färbergasse 13**, mit der Seed-Telefonnummer 0173 3120667 (Eintrag 29.09.2026, am 10.10. aktualisiert),
+  während **NorthData die Lohrer Adresse als frühere Registeranschrift** ausweist und die **Sitzverlegung nach
+  Mannheim im Februar 2025** dokumentiert (HRB 753503); die Digosa-Domain zeigt nur eine Passwort-/Neueröffnungsseite
+  mit dem Kontakt „ELIF JUWELIER“, H 2 16, 68159 Mannheim, und derselben Nummer, ohne die Domain, das Juwelier und die
+  GmbH rechtlich zu verbinden (Dossier-Überblick und Recherche 23.10./28.10.2026). Das Dossier hält ausdrücklich fest,
+  dass **weder** Mannheim H 2 16 **noch** Lohr Färbergasse 13 als Kundenannahme für diesen Datensatz bestätigt ist.
+  Ein Punkt in Lohr würde einen **historischen** Sitz eines Unternehmens markieren, das nach Mannheim umgezogen ist,
+  und wäre damit ein irreführender Standort; die Mannheimer Adresse ist nicht als Kundenannahme bestätigt. Es wird
+  **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'`-Anweisung **bleibt
+  unverändert**, weil der zurückgezogene Altpunkt (Bezirkskrankenhaus Lohr) weiterhin entzogen werden soll;
+  `status`, `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.5700,49.9900,9.5800,50.0000 ; https://api.openstreetmap.org/api/0.6/way/270412615/full.json ; https://www.northdata.de/Digosa-Metall-GmbH/Frankfurt-am-Main/Amtsgericht%20Frankfurt%20HRB%20753503
+  (live abgerufen 03.11.2026).]

@@ -53,3 +53,31 @@ Der konkrete Name „Goldankauf 111“ bleibt ein nicht verifizierter Verzeichni
 - Gold-/Silberankauf, Zahngold (30 J. Erfahrung)
 - urspr. Website-Angabe: keine (falsche Website gold-silberankauf-hamburg.de entfernt, 29.09.2026 — Impressum: Goldtrans, Ahrensburger Str. 69, 22041 Hamburg)
 - Adresse: Groß Borstel, Borsteler Chaussee 179, 22453
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Keine Koordinate gesetzt — Klärfall dokumentiert.** Der Dossier-Eintrag „Goldankauf 111"
+  (Groß Borstel, **Borsteler Chaussee 179, 22453**) hat **keinen** Identitätsbeleg: Die ehemals falsch zugeordnete
+  Website gold-silberankauf-hamburg.de gehört nach deren Impressum **Goldtrans**, Ahrensburger Str. 69, 22041 Hamburg
+  (anderer Rechtsträger, im Dossier bereits getrennt geführt); der auf derselben Adresse tatsächlich belegte
+  Edelmetallankauf ist die **Zweigstelle des Hanseatischen Goldankaufs** (Inhaberin Diana Dexheimer, Zweigstelle
+  Borsteler Chaussee 179, 22453, 040 466 500 67, Di–Fr nach Termin) — die Betreiberquelle
+  (https://hanseatischer-goldankauf.de/kontakt.html, live laut Bestandsvermerk vom 22.10.2026; das
+  Hamburg.de-Branchenbuch nennt dieselbe Adresse/Telefonnummer als „Goldankauf Groß Borstel") belegt damit **einen
+  anderen benannten Betrieb**, nicht „Goldankauf 111"; Standortgleichheit ist kein Betreiberwechsel- oder
+  Schließungsnachweis. Ein Owner-Hinweis vom 03.10.2026 meldete „Goldankauf 111" auf Google Maps als „permanently
+  closed", ohne übermittelten Place-Link bzw. Place-ID — als **Schließungslead** festgehalten, nicht als selbst
+  verifizierter Befund; `status` bleibt `pruefung`. Eine OSM-Hausnummerensuche (api.openstreetmap.org/api/0.6/map.json,
+  0,01-Grad-Kacheln) im Umfeld der Dossier-Adresse **Borsteler Chaussee 179** wurde in dieser Welle angestoßen und im
+  Umfeld der Adresse weitergeführt; sie wurde durch die API-Drosselung (HTTP 429) nur **teilweise** abgeschlossen und
+  ist deshalb **kein** belastbarer Negativbefund — für die Entscheidung ist das **nicht maßgeblich**, weil für die
+  Dossier-Adresse keine Betreiber- oder Registerquelle vorliegt. **Konsequenz:** Die Zwei-Quellen-Regel ist nicht
+  erfüllt — es gibt weder ein passendes OSM-Objekt für die Dossier-Hausnummer noch einen Betreiber-/Registerbeleg für
+  „Goldankauf 111" an dieser Adresse; eine Koordinate würde zudem den fremden Hanseatischen Goldankauf als Ziel des
+  Dossier-Eintrags ausgeben. `status: pruefung`, `website_status: unbekannt`, `street`/`postcode` (letzteres leer) und
+  alle übrigen Frontmatter-Felder bleiben unverändert. **Nächster Schritt für den Owner:** ein überprüfbarer
+  Profil-/Registerbeleg, ob „Goldankauf 111" noch firmiert, geschlossen wurde oder ein Vorgänger des Hanseatischen
+  Goldankaufs ist — erst dann Geokodierung. Quelle(n): https://hanseatischer-goldankauf.de/kontakt.html ;
+  https://www.hamburg.de/branchenbuch/hamburg/goldank__c3__a4ufer/ ; https://www.gold-silberankauf-hamburg.de/impressum/
+  (fremder Rechtsträger Goldtrans) ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0100,53.5800,10.0400,53.6000
+  (Abruf 03.11.2026).]

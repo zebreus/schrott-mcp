@@ -56,3 +56,36 @@ Das ist ein besserer Betreiberkandidat, aber noch kein unabhängig bestätigter 
 
 - [Recherche 05.10.2026: App-Shell überwunden durch Prüfung des vom Root selbst geladenen Bundles — Root leitet auf www.ates-schrotthandel.de, HTTP 200, Script /assets/index-CVUfJLY8.js. Darin enthält die Komponente der Route /impressum ausdrücklich ATES SCHROTTHANDEL, Hakan Güngörmez, Kleingewerbe/Einzelunternehmen, Hagen/Deutschland, 0173 611 09 28 und atesschrotthandel@gmail.com; keine USt-ID/kein HR-Eintrag laut eigener Aussage. Es steht wörtlich, für ein vollständiges Impressum sei eine ladungsfähige Anschrift mit Straße, Hausnummer, PLZ und Ort erforderlich. Kontakt-JSON-LD im Bundle nur addressLocality Hagen, nicht Bahnhofstraße 14; der statische HTML-Kopf enthält dagegen weiter Bahnhofstraße 14, PLZ 58095 und Mo-So 06–22 Uhr. Beide aktuellen Seitenschichten stehen nebeneinander: keine Löschung/Verlegung dieser Adresse aus dem Bundle-Nichtvorkommen ableiten. Aktualisierter technischer Befund, kein behaupteter amtlich bestätigter Inhaber oder Umzugsnachweis. Quelle: https://ates-schrotthandel.de/ ; https://www.ates-schrotthandel.de/assets/index-CVUfJLY8.js ; https://www.ates-schrotthandel.de/impressum ; https://www.ates-schrotthandel.de/kontakt]
 - [Recherche 05.10.2026: ANKAUF: Bundle bewirbt Altmetallankauf u.a. Kupfer/Messing/Aluminium/Eisen, keine numerischen Kurse. GEBÜHREN: Eigenwerbung kostenlose Abholung für Privat/Gewerbe, aber fehlender unabhängiger Identitäts-/Adressmatch; nicht als bestätigte Servicebedingung importiert. VERKAUF: kein numerischer Preislistenfund im geprüften Bundle. Vorwellen-Adressen/06–22-Uhr-Angabe nicht übernehmen; website_status unbekannt und status pruefung bleiben. Nächster Klärschritt: vollständige rechtliche Adresse plus unabhängige Betreiberbestätigung zu Hakan Güngörmez/ATES. Rechercheweiterführung durch HTTP 401 der Suchintegration begrenzt. Quelle: vorgenanntes ausgeliefertes Betreiber-Bundle, Komponenten /leistungen, /schrottarten, /faq, /impressum und /kontakt]
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **ATES SCHROTTHANDEL** (Hakan Güngörmez,
+  Hagen) liegt **keine** belastbare Betriebsanschrift vor; die einzige im Auftritt genannte Adresse steht im Widerspruch
+  zu den Verzeichnisangaben, und das Betreiber-Impressum verweigert selbst eine ladungsfähige Anschrift. **Was live
+  geprüft wurde (03.11.2026):** (a) Die **Bahnhofstraße** in Hagen trägt live **32** verschiedene Hausnummern
+  (1, 7, 9, 11, 18, 21–49) — **die 14 fehlt**; ein Objekt mit `addr:housenumber`=14 und `addr:street`=Bahnhofstraße
+  existiert in Hagen **nicht** (Treffer nur in Essen, Gelsenkirchen, Bochum und Herdecke). (b) Die von den Verzeichnissen
+  genannte **Lange Straße 105** ist erfasst: **way/293369998** mit `addr:housenumber`=105, `addr:street`=Lange Straße,
+  `addr:city`=Hagen, `addr:postcode`=**58089**, `building`=apartments (Mittel der 7 eindeutigen Way-Knoten
+  **51.3502666/7.4524913**) — die beiden Verzeichnisse nennen für dieselbe Nummer **58089** (11880) und **58097**
+  (Cylex), also **widersprüchliche PLZ**; das Objekt trägt **weder** `name=` **noch** `operator=`. (c) Der dritte Lead
+  nennt **Boeler Straße** **ohne Hausnummer** — nicht adressgenau. (d) Eine Suche über `name`, `operator`, `brand`,
+  `website`, `contact:website`, `description`, `note` und `short_name` nach **„ATES“**, **„Güngörmez“** und
+  **„Schrotthandel“** im Kachelraster **7.4200/51.3400 – 7.5600/51.4200** (112 Kacheln, 0 Kachel-Fehler) liefert
+  **0** Treffer mit Betriebsbezug. Quelle 1 (Betreiber/Register): die Betreiber-Website **ates-schrotthandel.de**
+  nennt im statischen HTML-Kopf **Bahnhofstraße 14, 58095 Hagen** mit Öffnungszeiten, im ausgelieferten Bundle
+  (`/assets/index-CVUfJLY8.js`) aber **ausdrücklich**: „Für ein vollständiges Impressum ist eine **ladungsfähige
+  Anschrift** mit Straße, Hausnummer, Postleitzahl und Ort erforderlich“ — die Impressum-Komponente gibt **keine**
+  Anschrift, **keine** USt-ID und **keinen** HR-Eintrag an; die Kontakt-JSON-LD nennt nur `addressLocality`=Hagen. Damit
+  fehlt eine **zulässige Betreiberquelle mit Anschrift**; die Verzeichnisangaben sind ausdrücklich **Leads** und
+  widersprechen sich. Quelle 2 (OSM): die Dossier-Hausnummer **14** ist auf der Bahnhofstraße in Hagen **nicht**
+  erfasst, und ein Objekt mit Betriebsbezug existiert im Raster nicht. **Was fehlt:** eine vollständige Rechtsanschrift
+  des Betriebs (und eine unabhängige Bestätigung, dass der Seed „Ates“ zu diesem Auftritt gehört); erst damit ist ein
+  Punkt setzbar. `clear_fields: 'geo'` bleibt bestehen, `website_status: unbekannt` und `status: pruefung` bleiben
+  unverändert, der zurückgezogene gemeinsame Hagen-Punkt **51.90933/7.88825** (Mehringen, Kreis Warendorf) bleibt
+  zurückgenommen.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/293369998/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
+  https://ates-schrotthandel.de/ ; https://ates-schrotthandel.de/assets/index-CVUfJLY8.js ;
+  https://www.11880.com/suche/schrotthandel/hagen ; https://web2.cylex.de/firma-home/ates-schrotthandel-15076188.html
+  (Abruf 03.11.2026).]

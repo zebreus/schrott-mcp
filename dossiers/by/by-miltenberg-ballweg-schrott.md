@@ -47,3 +47,25 @@ Ein aktueller Gelbe-Seiten-Eintrag „Schrotthandel Ballweg“ führt Berliner S
 
 - Schrott
 - Adresse: Miltenberg (nur GS)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist **Berliner Str.
+  3, 63916 Amorbach**. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=9.1990,49.6230,9.2490,49.6730** (25 Kacheln à 0,01° über Amorbach, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1990,49.6230,9.2490,49.6730) mit **77 717 Elementen** und **0
+  Kachel-Fehlern**. Die Straße „Berliner Straße“ ist in OSM **nur als Geometrie** erfasst: way/41946696 (`highway=residential`,
+  `name`=Berliner Straße) ohne `addr:housenumber` und ohne `addr:street`; im gesamten Raster trägt **kein** Objekt
+  `addr:street`=Berliner Straße, und die Hausnummer **3 existiert auf dieser Straße in OSM nicht** (die Objektliste mit
+  `addr:housenumber`=3 im Raster betrifft ausschließlich andere Straßen: Miltenberger Straße, Löhrstraße, Steinerne Gasse,
+  Bädersweg, Abteigasse, Richterstraße, Schneeberger Straße, Johannisturmstraße, Pfarrgasse, Neudorfer Straße u. a.
+  sowie die Nachbarorte Weilbach und Schneeberg). Die Suche über `name`, `operator`, `brand`, `official_name`,
+  `alt_name`, `short_name`, `legal_name` und `old_name` nach „ballweg“ liefert **0 Treffer** - der Betrieb selbst ist in
+  OSM nicht kartiert. Quelle 2 (Beleglage, im Dossier dokumentiert): die Anschrift „Berliner Str. 3, 63916 Amorbach,
+  09373 99102“ stammt aus zwei Verzeichnissen (Gelbe Seiten und 11880, Recherche 28.10.2026); es gibt **keine**
+  Betreiber-Website (ballweg.de ist eine Parking-Domain), **keinen** Registereintrag und **keinen** Efb-Eintrag im
+  amtlichen Fachbetrieberegister. Damit findet sich die Dossier-Hausnummer in OSM **nicht**; es wird **keine**
+  Koordinate erfunden und kein Ersatzpunkt gesetzt - insbesondere wird die Kartennadel des Verzeichnisses nicht
+  übernommen. Die bestehende `clear_fields: geo`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt
+  (Eichenbühler Straße 52, Miltenberg-Nord) weiterhin entzogen werden soll und kein belegter Ersatz existiert;
+  `status`, `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1990,49.6230,9.2490,49.6730 ; https://api.openstreetmap.org/api/0.6/way/41946696/full.json (live abgerufen
+  03.11.2026).]

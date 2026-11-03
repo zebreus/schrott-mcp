@@ -55,3 +55,36 @@ daneben. Weil die Adresse selbst nur einfach belegt ist, bleiben `street` und
 
 - mobil (Essener Traut-Netz)
 - urspr. Website-Angabe: keine (Kurt-Schumacher-Str. 80, 0162 9135397)
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Anschrift **Kurt-Schumacher-Straße 80,
+  45881 Gelsenkirchen** ist in OSM adressgenau erfasst, die Adresse ist aber ein **Aggregator-Lead ohne zweite
+  Belegquelle**; ein Betreiber- oder Registerbeleg fehlt. **Was live geprüft wurde (03.11.2026):** (a) Das Adressobjekt
+  existiert: **way/263862026** mit `addr:housenumber`=**80**, `addr:street`=**Kurt-Schumacher-Straße**,
+  `addr:city`=Gelsenkirchen, `addr:country`=DE, `addr:postcode`=**45881**, `building`=yes (Mittel der 6 eindeutigen
+  Way-Knoten **51.5217624/7.0902379**, BBox 51.5216853/7.0900895 – 51.5218331/7.0903443) — die Portal-Adresse ist damit
+  objektgenau im OSM vorhanden. (b) Das Objekt trägt **weder** `name=` **noch** `operator=`; eine Suche über `name`,
+  `operator`, `brand`, `website`, `contact:website`, `description`, `note` und `short_name` nach **„Traut“** im
+  Kachelraster **7.0500/51.5000 – 7.1200/51.5600** liefert **0** Treffer mit Betriebsbezug (nur „Trautes Heim“ und
+  „Waldtrautstraße“ als Straßennamen) — Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. (c) Die
+  Kurt-Schumacher-Straße trägt live **146** verschiedene Hausnummern; die Nummer 80 ist belegt. (d) Der zuvor im
+  Produktionsbestand gespeicherte Punkt **51.539169/7.080031** löst sich als **Alfred-Zingler-Straße 9, 45881
+  Gelsenkirchen-Schalke-Nord** auf, rund **2,06 km** vom Adresspunkt entfernt. Quelle 1 (Aggregator, **keine**
+  Betreiber-/Registerquelle): das Schrottfinder-Profil „Schrotthändler Traut – Gelsenkirchen“ nennt Kurt-Schumacher-Straße
+  80, 45881 Gelsenkirchen, Telefon **491629135397** (= Seed-Nummer 0162 9135397), Annahme laut Portal für Kupfer,
+  Aluminium, Edelstahl, Messing, Zink und Blei sowie die Leistung „Abtransport von Schrott“; das Portal schreibt
+  selbst, dass alle Unternehmensangaben aus öffentlichen Quellen stammen, und die dort gezeigten Schrottmetallpreise
+  sind ausdrücklich **Portal-Durchschnitte** und **kein** öffentliches Angebot. Die Gegenprüfungen 11880-Suche
+  („Trautenstein“, nicht Traut), Gelbe-Seiten-Suche (Top 0) und das Örtliche-Schrotthändlerverzeichnis Gelsenkirchen
+  (Nattermann, Daniel, Huwald, Misini, Mandel, Szymkowiak, GBT) führen **keinen** Traut-Eintrag; NorthData-Suchen
+  „Schrotthandel Traut“ und „Traut Gelsenkirchen“ zeigen kein passendes Registerunternehmen (bei einem
+  Einzelunternehmer ohne HRB ist das ein Negativbefund ohne Beweiswert); eine eigene Betreiberseite existiert nicht.
+  Quelle 2 (OSM): die Adresse ist vorhanden, der **Betriebsbezug** fehlt. **Was fehlt:** eine zweite unabhängige
+  Belegquelle — Betreiberseite oder Registerauszug —, die Traut an die Kurt-Schumacher-Straße 80 bindet; erst damit
+  wäre der Standort gesichert. `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen, `status:
+  pruefung` bleibt unverändert, es wird weder Fortbestand noch Annahme behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/263862026/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0500,51.5000,7.1200,51.5600 ;
+  https://schrottfinder.de/schrotthandler-traut-gelsenkirchen-gelsenkirchen/ ; https://www.northdata.de/?query=Traut+Gelsenkirchen
+  (Abruf 03.11.2026).]

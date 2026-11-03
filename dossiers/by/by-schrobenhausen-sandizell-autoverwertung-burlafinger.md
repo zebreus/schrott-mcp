@@ -126,3 +126,24 @@ Schrobenhausen**, Gollingkreuter Weg 13, 86529 Schrobenhausen", Tätigkeiten Lag
 ### Importiert (Audit 7 Feedback #6580)
 
 - Als wiederholter Audit-7-Fehlhändler-Lead „Autoverwertung Burlafinger GbR, Schrobenhausen-Sandizell“ übergeben. Ein passendes älteres Dossier bzw. das zugrunde liegende Feedback-Rohprotokoll war im lokalen Checkout nicht vorhanden; keine frühere Dossierhistorie oder ungeprüften Seed-Werte rekonstruiert.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Dossier-Adresse ist
+  **Grimolzhausener Straße 12, 86529 Schrobenhausen**. Quelle 1 (OSM): Live-Scan am 03.11.2026 über das Kachelraster
+  **bbox=11.1700,48.5600,11.2000,48.5900** (9 Kacheln à 0,01° um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=11.1700,48.5600,11.2000,48.5900) mit **11 716 Elementen**
+  und **0 Kachel-Fehlern**. Auf der Grimolzhausener Straße (`highway`=secondary, `ref`=St 2045, way/22743374) in
+  86529 Schrobenhausen sind **5 Adressobjekte** mit **5 verschiedenen Hausnummern** erfasst (**1, 8, 11, 17, 22**) -
+  die Dossier-Hausnummer **12 existiert in OSM nicht**; die Suche über `name`, `operator`, `brand` und `official_name`
+  nach „burlafinger“ und „autoverwertung“ liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert. Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert): der Dossier-Betrieb ist durch die **Betreiber-Primärquelle**
+  (https://www.autoverwertung-burlafinger.de/, Familienbetrieb gegründet 01.09.1988, Inhaber Helmut Burlafinger sen., jun. und Anton Burlafinger) und
+  das **amtliche Fachbetrieberegister** belegt - Zertifikatskennung **ZAIS01500007 / 1**, Bescheinigungsanlagennr. 1,
+  Kennnummer I185E1224, zertifiziert nach § 5 Abs. 3 AltfahrzeugV; Betriebsanschrift **Grimolzhausener Straße 12,
+  86529 Schrobenhausen** (Dossier-Überblick und Verifikation 22.07.2026). Die Adresse ist damit **betreiberseitig und
+  registerseitig belegt**, nur die **Geometrie der Hausnummer 12 fehlt in OSM**: die Karte kennt auf dieser Straße die
+  Nachbarhausnummern 11 und 17, aber keine Nummer 12, und kein Objekt nennt den Betrieb. Nach der Regel dieser Welle
+  wird deshalb **keine** Koordinate erfunden und **kein** Nachbarobjekt (11 oder 17) und **kein**
+  Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung; `status`
+  (aktiv), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.1700,48.5600,11.2000,48.5900 ; https://api.openstreetmap.org/api/0.6/way/22743374/full.json ;
+  https://www.autoverwertung-burlafinger.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (live abgerufen 03.11.2026).]

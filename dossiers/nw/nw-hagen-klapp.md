@@ -1,5 +1,7 @@
 ---
 slug: nw-hagen-klapp
+lat: 51.4015787
+lon: 7.4899906
 name: Klapp
 trader_type: schrotthaendler
 state: NW
@@ -12,7 +14,6 @@ opening_hours: ''
 website: https://cc-gruppe.com
 website_status: aktiv
 status: pruefung
-clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -45,3 +46,32 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Schrott (GS)
 - Adresse: Hagen
+
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4015787/7.4899906** (Mittel der 4 eindeutigen
+  Way-Knoten von way/391704895; der Punkt liegt innerhalb der Objekt-BBox **51.4014181/7.4897976 – 51.4017394/7.4901837**).
+  Quelle 1 (OSM): way/391704895 trägt `addr:housenumber`=**88**, `addr:street`=**Hellweg**, `addr:city`=Hagen,
+  `addr:country`=DE, `addr:postcode`=**58099**, `building`=yes — Dossier-Straße, -Hausnummer und -PLZ stimmen
+  objektgenau überein; die Hellweg trägt live **166** verschiedene Hausnummern. Das Objekt trägt **weder** `name=` **noch**
+  `operator=`; in **80 m** Umfeld liegen nur DB-Bahnanlagen (node/3621728759 `name`=Hagen-Kabel, `railway`=yard;
+  way/118032875 `name`=Hagen-Kabel Kf, `operator`=DB Netz AG) — **kein** Bezug zum Betrieb; Aussage zum OSM-Bestand,
+  **kein** Negativbeleg über den Betrieb. Quelle 2 (Betreiber/Register): die Adresse **Hellweg 88, 58099 Hagen** mit der
+  zum Betreiber gehörenden E-Mail **info@cc-gruppe.com** und der Domain **cc-gruppe.com** ist durch **zwei
+  unabhängige** Verzeichnisse übereinstimmend belegt (Branchenbuch **ruhrpott-kurier.de** und **branchen-info.net**,
+  jeweils mit Straße, PLZ und Betreiber-E-Mail); das Dossier führt die Identität („C.C. Schrott + Metall Klapp GmbH +
+  Co. KG, seit 1969 Entsorgung/Verwertung“) als **geklärt** und die Koordinate war dort als **neu zu geocodieren**
+  vermerkt. **Offener Punkt (bleibt offen):** die frühere Betreiber-Domain `cc-gruppe.com` löst inzwischen auf
+  **Blue Phoenix Deutschland GmbH, Bataverstr. 25, 47809 Krefeld** auf (mögliche Übernahme/Umfirmierung) — ein
+  **eigenständiger Registerbeleg** für einen heute unter dieser Anschrift tätigen Rechtsträger liegt daher **nicht** vor;
+  die gesetzte Koordinate bezeichnet die **dokumentierte Anschrift** des Dossiers, nicht einen geprüften
+  Annahmehof. Der zuvor im Produktionsbestand gespeicherte Punkt **51.90933/7.88825** (Mehringen, Everswinkel,
+  Kreis Warendorf, 48351) lag **62.789 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/391704895/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
+  https://ruhrpott-kurier.de/ ; https://hagen.branchen-info.net/ ; https://cc-gruppe.com (Abruf 03.11.2026).]

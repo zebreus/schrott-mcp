@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-schrottladys
-clear_fields: geo
+lat: 51.4602183
+lon: 7.0661715
 name: Schrottladys
 trader_type: schrotthaendler
 state: NW
@@ -54,3 +55,30 @@ Neue Betreiber-Social-Spuren: Facebook dieschrottladys und Instagram schrottlady
 
 - [Recherche 08.10.2026: Social-Primärquellen-Kandidaten entdeckt und direkt verfolgt: Facebook dieschrottladys (Suchindex Essen, Website www.dieschrottladys.de); Instagram schrottladys (Suchindex Höchstpreise für Buntmetalle/Stahl bei Anlieferung, 0178 1565192). Tatsächlicher Instagram-Abruf liefert nur Login, Facebook keine auslesbaren Angaben (HTTP-HTML nur Profil-Titel). Keine Inhalts-/Aktualitätsprüfung hinter Login behauptet. Domain dieschrottladys.de mit/ohne www, HTTP/HTTPS transport-/DNS-fehlerhaft; kein Impressum. Anschrift Joachimstr. 60a aus Essener Branchenbuch nur Lead. Keine Telefonnummer/Adresse/Website/Konditionen ins Frontmatter übernommen. Quelle(n): https://www.facebook.com/dieschrottladys/ ; https://www.instagram.com/schrottladys/ ; https://dieschrottladys.de/ ; https://www.dieschrottladys.de/ ; https://www.essener-branchenbuch.de/schrott/essen/ (Suchlead)]
 - [Recherche 08.10.2026: Keine verifizierte numerische Ankaufpreisliste; Höchstpreiswerbung im Suchindex ist kein Kurs. Keine Verkaufspreisliste oder Gebührenordnung gelesen. TV-/Suchtreffer mit historischen Tageskursen sind keine aktuellen Betreiberpreislisten und wurden nicht übernommen. Owner: öffentlich lesbares Betreiberprofil/Impressum und unabhängige Gewerbe-/Standortbestätigung, privat/gewerbliche Anlieferung und Abholung klären. Quelle(n): Social-Kandidaten wie oben]
+
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4602183/7.0661715** (Mittel der 10 eindeutigen
+  Way-Knoten von way/106321185; der Punkt liegt innerhalb der Objekt-BBox **51.4601128/7.0659987 – 51.4603166/7.0663635**).
+  Quelle 1 (OSM): way/106321185 trägt `addr:housenumber`=**17**, `addr:street`=**Am Luftschacht**, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45307**, `building`=yes — Dossier-Straße, -Hausnummer und -PLZ stimmen
+  objektgenau überein; die Straße trägt live **19** verschiedene Hausnummern (1–7, 10–13, 15, 17, 18, 20–23 und 12a).
+  Das Objekt trägt **kein** `name=` und **kein** `operator=` — Aussage zum OSM-Bestand, **kein** Negativbeleg über den
+  Betrieb. Quelle 2 (Betreiber/Register): die archivierten Betreiber-Impressen von `monikaschrottabholung.de` vom
+  **11.05.2021** und **23.05.2022** nennen Inhaberin **Monika Kosiol, Am Luftschacht 17, 45307 Essen**, Telefon
+  **0178 1565192**, Steuernummer **111/5158/2306**; der unabhängige 11880-Eintrag „Die Schrottladys, Schrotthandel,
+  Schrottentsorgung“ (Aktualisierung 15.10.2026) führt denselben Betrieb an derselben Anschrift. **Abgrenzung:** die
+  Fassung vom **18.07.2012** nennt noch die Vorgängeranschrift **Joachimstr. 60a, 45309 Essen** — die gesetzte
+  Koordinate bezeichnet die **spätere** (2021/2022) Anschrift; der **heutige** Betriebsstatus bleibt **unbekannt**
+  (`dieschrottladys.de` ohne A-Record, `monikaschrottabholung.de` mit HTTP 404), es wird weder Fortbestand noch
+  Annahme behauptet und `status: pruefung` bleibt. Der zuvor im Produktionsbestand gespeicherte Punkt
+  **51.450284375/7.015053125** (Straße „Freiheit“, 45128 Essen) lag **3710 m** entfernt und war für diese Zeile falsch.
+  **Hinweis zum Frontmatter:** der Clear-Token `geo` wurde aus `clear_fields` entfernt, weil die Zeile jetzt eine
+  kuratierte Koordinate trägt — ein gleichzeitig gesetztes `clear_fields: 'geo'` wird vom Seed-Validator als
+  Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/106321185/full.json ;
+  http://web.archive.org/web/20210511203008/https://monikaschrottabholung.de/impressum ;
+  http://web.archive.org/web/20220523210655/https://www.monikaschrottabholung.de/impressum ;
+  https://www.11880.com/branchenbuch/essen-ruhr/062393133B101892935/die-schrottladys-schrotthandel-schrottentsorgung.html
+  (Abruf 03.11.2026).]

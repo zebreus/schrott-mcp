@@ -47,3 +47,27 @@ Der Seedname „Derda" ist in Hagen keinem Schrottbetrieb zuzuordnen. Die am 01.
 
 - Schrott (GS)
 - Adresse: Hagen
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Derda** existiert **keine** belegte
+  Händleradresse in Hagen; ohne Anschrift ist kein adressgenauer Punkt zuordenbar. **Was live geprüft wurde
+  (03.11.2026):** (a) Das Kachelraster **7.4200/51.3400 – 7.5600/51.4200** (112 Kacheln à 0,01 Grad, live abgerufen
+  über `https://api.openstreetmap.org/api/0.6/map.json?bbox=…`, **0 Kachel-Fehler**) wurde vollständig ausgewertet:
+  eine Suche über `name`, `operator`, `brand`, `website`, `contact:website`, `description`, `note`, `short_name` und
+  `official_name` nach **„Derda“** liefert **0** Treffer — Aussage zum OSM-Bestand, **kein** Negativbeleg über den
+  Betrieb. (b) Auch `addr:housename` und `landuse`/`industrial`-Flächen mit Gewerbebezug liefern keinen Treffer mit
+  Namensbestandteil „Derda“. (c) Es wurde **keine** Adresse aus anderen Quellen übernommen, weil keine vorliegt.
+  Quelle 1 (Betreiber/Register): das **amtliche Fachbetrieberegister** (Auszug 11.08.2026) führt für Hagen 19
+  anerkannte Betriebe in 58089, 58091, 58093 und 58097 (Autoverwertung Hagen GmbH, Autoverwertung Krüger, Blue Phoenix
+  Deutschland GmbH, EDELMET GmbH, Ernst Jürgen Fritsch GmbH, FP Putzke Recycling GmbH, Fass-Braun GmbH, GRE Recycling
+  und Entsorgung GmbH, HEB GmbH, HUI GmbH, HaWeD GmbH, Lobbe Umweltservice GmbH & Co. KG, Manfred Meyer GmbH & Co. KG,
+  NE-Metalle Alex Klawek GmbH, Neuhaus GmbH, TL-K GmbH u. a.) — **kein** Betrieb des Namens Derda; die EFB-Anerkennung
+  ist **freiwillig**, das beweist weder Nichtexistenz noch Schließung und erst recht keine Aufgabe der Annahme. Die
+  Verzeichnissuche nach Schrotthandel in Hagen kennt ebenfalls kein Derda. Quelle 2 (OSM): kein Objekt mit Bezug zu
+  „Derda“ im live abgerufenen Hagen-Raster. **Was fehlt:** jede belastbare Anschrift — zuerst ein Gewerbeauskunft aus
+  dem Gewerbe- und Gaststättenverzeichnis der Stadt Hagen oder eine Auskunft beim Gewerbeamt; erst dann ist eine
+  Geokodierung möglich. `clear_fields: 'geo'` bleibt bestehen, `status: pruefung` bleibt unverändert, es wird weder
+  Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
+  https://schrottregister.pages.dev/ort-hagen ; https://www.gelbeseiten.de/suche/schrott/hagen (Abruf 03.11.2026).]

@@ -46,3 +46,25 @@ Das vorhandene Dossier `by-pfarrkirchen-michel.md` betrifft Michel Sascha Entsor
 ### Importiert (Audit 7 Feedback #6585)
 
 - Als wiederholter Audit-7-Fehlhändler-Lead „Heinrich Brummer Autoverwertung, Pfarrkirchen“ übergeben. Ein passendes älteres Dossier bzw. das zugrunde liegende Feedback-Rohprotokoll war im lokalen Checkout nicht vorhanden; keine frühere Dossierhistorie oder ungeprüften Seed-Werte rekonstruiert.
+
+### Geokodierung 03.11.2026
+
+- [Geokodierung 03.11.2026: **keine Koordinate gesetzt - Klärfall dokumentiert.** Das Dossier führt **zwei
+  widersprüchliche Hausnummern** (Sonnenstraße 4 und 6) und keinen eigenen Betreiber- oder Registernachweis. Quelle 1
+  (OSM): Live-Scan am 03.11.2026 über das Kachelraster **bbox=12.9200,48.4300,12.9500,48.4600** (9 Kacheln à 0,01° um
+  den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=12.9200,48.4300,12.9500,48.4600) mit **33 754 Elementen** und **0 Kachel-Fehlern**. Die Straße „Sonnenstraße“ ist in
+  Pfarrkirchen als Geometrie erfasst (way/25981439 `highway`=residential, `name`=Sonnenstraße, 34 Knoten; way/25981783 `highway`=service,
+  `name`=Sonnenstraße), trägt aber **kein einziges Adressobjekt mit `addr:housenumber`** - im gesamten 3x3-Raster ist **weder die
+  Hausnummer 4 noch die Hausnummer 6** adressiert; die Suche über `name`, `operator`, `brand` und `official_name`
+  nach „brummer“ und „autoverwertung“ liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert. Quelle 2
+  (Beleglage, im Dossier dokumentiert): AutoverwerterFinder führt den Namen mit **Sonnenstraße 4, 84347 Pfarrkirchen**
+  und behauptet einen GESA-Demontageeintrag (letzter Aktualisierungsstand 19.08.2026), während 11880 denselben Namen
+  an **Sonnenstr. 6** mit Telefon 08561 1587 führt (Eintragsdaten vom 01.03.2022, am 02.10.2026 aktualisiert, ohne
+  Inhaberbestätigung) und ein Meinestadt-Auszug „Sonnenstr. 4-6“ nennt - das sind **widersprüchliche
+  Verzeichnis-Leads**, und der behauptete GESA-Eintrag ist im amtlichen Register **nicht direkt verifiziert**; ob
+  Hausnummernfehler, ein Betrieb über mehrere Hausnummern oder getrennte Standorte vorliegen, ist offen
+  (Dossier-Überblick). Die geforderte zweite unabhängige Quelle (Betreiber- oder direkt geprüfter Registerbeleg für
+  eben diese Anschrift) fehlt damit, und die Dossier-Hausnummer ist in OSM **nicht** auffindbar; es wird **keine**
+  Koordinate erfunden und kein Ersatzpunkt gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung; `status`
+  (pruefung), `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.9200,48.4300,12.9500,48.4600 ; https://api.openstreetmap.org/api/0.6/way/25981439/full.json ; https://www.11880.com/branchenbuch/pfarrkirchen/ ;
+  https://autoverwerterfinder.de/autoverwerter/ (live abgerufen 03.11.2026).]
