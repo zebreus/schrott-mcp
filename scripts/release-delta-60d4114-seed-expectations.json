@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "release_commit": "60d4114502ed4cedc960a836cb8bbc2aed59d16d",
+  "release_tree": "61267306b005e1da25b93a46f0bea5b004de8338",
+  "rehearsal_manifest_sha256": "0197bd369580a70d7e1d3a80a099f3f5001a761c471fed74518b105a18ddcadc",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "he-frankfurt-60325-degussa-goldhandel",
+    "nw-brilon-hoppecke-batterien",
+    "nw-dormagen-altmetalle-kraft"
+  ],
+  "scope": "exactly the 3 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-60d4114. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "he-frankfurt-60325-degussa-goldhandel",
+      "values": {
+        "name": "Degussa Goldhandel GmbH",
+        "city": "Frankfurt 60325",
+        "street": "Kettenhofweg 25",
+        "postcode": "60325",
+        "phone": "+49 69 860068-100",
+        "email": "frankfurt@degussa.com",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.degussa-goldhandel.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b6ef563e804316b6ac4e3c68fd172334a7adc8a84ee7e41054571a0425e377ba",
+      "seed_hash": "11870f1e58081efc",
+      "geo": [
+        50.1150278,
+        8.667317
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-brilon-hoppecke-batterien",
+      "values": {
+        "name": "HOPPECKE Batterien GmbH & Co. KG",
+        "city": "Brilon",
+        "street": "Bontkirchener Str. 1",
+        "postcode": "59929",
+        "phone": "02963 61-0",
+        "email": "info@hoppecke.com",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.hoppecke.com/de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "fbdcce80e2440b026f07884f1d692b4d90399f052c82c8b73792ae700f4c2f14",
+      "seed_hash": "97ae3bccddaca872",
+      "geo": [
+        51.3946,
+        8.5715
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Qualitätsmanagementsystem DIN EN ISO 9001:2015 (GUTcert GmbH | Member of the AFNOR Group, Berlin; Zertifikat-Nr. Q-26-26716, ausgestellt Berlin, 24. September 2026, gültig vom 24.09.2026 bis zum 23.09.2029; Organisation HOPPECKE Batterien GmbH & Co. KG, Standort Bontkirchener Straße 1, 59929 Brilon, Geltungsbereich Entwicklung, Herstellung und Vertrieb von industriellen Batterien und Batterie- und Stromversorgungssystemen; Herstellung von industriellen Bleibatterien und Stromversorgungssystemen; Service-Lösungen für Batterien und Energiespeichersysteme zentral und dezentral an Kundenstandorten (zwei Standortbezeichnungen); Herstellung von Hart- und Weichblei und Recycling von Bleibatterien; Betreiber-Download auf der Zertifikatsseite https://www.hoppecke.com/de/ueber-hoppecke/csr-und-nachhaltigkeit/)\", \"Umweltmanagementsystem DIN EN ISO 14001:2015 (GUTcert GmbH | Member of the AFNOR Group, Berlin; Zertifikat-Nr. U-26-26716, ausgestellt Berlin, 24. September 2026, gültig vom 24.09.2026 bis zum 30.04.2029; Organisation HOPPECKE Batterien GmbH & Co. KG, Standort Bontkirchener Straße 1, 59929 Brilon, Geltungsbereich Entwicklung, Herstellung und Vertrieb von industriellen Batterien und Batterie- und Stromversorgungssystemen; Herstellung von industriellen Bleibatterien und Stromversorgungssystemen; Herstellung von Hart- und Weichblei und Recycling von Bleibatterien; Betreiber-Download auf der Zertifikatsseite)\", \"Arbeitsschutzmanagementsystem DIN EN ISO 45001:2023 (GUTcert GmbH | Member of the AFNOR Group, Berlin; Zertifikat-Nr. S-26-26716, ausgestellt Berlin, 24. September 2026, gültig vom 24.09.2026 bis zum 23.09.2029; Organisation HOPPECKE Batterien GmbH & Co. KG, Standort Bontkirchener Straße 1, 59929 Brilon, Geltungsbereich Entwicklung, Herstellung und Vertrieb von industriellen Batterien und Batterie- und Stromversorgungssystemen; Herstellung von industriellen Bleibatterien und Stromversorgungssystemen; Service-Lösungen für Batterien und Energiespeichersysteme zentral und dezentral an Kundenstandorten (zwei Standortbezeichnungen); Herstellung von Hart- und Weichblei und Recycling von Bleibatterien; Betreiber-Download auf der Zertifikatsseite)\"]"
+    },
+    {
+      "slug": "nw-dormagen-altmetalle-kraft",
+      "values": {
+        "name": "Altmetalle Kraft",
+        "city": "Dormagen",
+        "street": "Robert-Bosch-Str. 24",
+        "postcode": "41541",
+        "phone": "0163 5927189",
+        "email": "info@schrott-koeln.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://schrott-koeln.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b75219f1288c92cb0f74cd232332a7edb8cc1ed0458e1e23de8305ee8ee34579",
+      "seed_hash": "b66aebd5835fc10d",
+      "geo": [
+        51.1383489,
+        6.7992397
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
