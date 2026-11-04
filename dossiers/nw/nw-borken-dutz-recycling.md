@@ -15,6 +15,7 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat-Nr. 120897475, Vorgangsnummer ZZHT003002358013, gültig bis zum 25.11.2027, Prüfungsdatum 28.05.2026, Ausstellungsdatum 22.06.2026; Anlagen 1 bis 4 sind dem Standort Hansestraße 25, 46325 Borken zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E554891034), Anlage 2 Lagern (E554550507), Anlage 3 Behandeln (E554550507, zugleich zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG), Anlage 4 Behandeln und Verwerten (E554550507); Rechtsträger Dutz Recycling GmbH, HRB 10543 Amtsgericht Coesfeld)", "Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01400006 / 1, Kennnummer E55400910, Firma Dutz Recycling GmbH, Hansestraße 25, 46325 Borken, Ansprechpartner Frau Dutz Sarah, Telefon 02861 62566, E-Mail info@helmut-dutz.de; als Zertifikatsinhaber ist im Register „Helmut Dutz Schrott- und Metall- handels- und Entsorgungs- gesellschaft mbH“ mit derselben Anschrift, demselben Telefon und derselben E-Mail ausgewiesen)"]'
 provenance_section: Neu, Ankauf verifiziert (ja)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -35,3 +36,51 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - An-/Verkauf Schrott/Buntmetalle, Container, 40.000 m² (Ramsdorfer Postweg 8)
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Amtlicher Nachweis gefunden (Entsorgungsfachbetrieb): Das amtliche Fachbetrieberegister
+  (fachbetrieberegister.gadsys.de, Route "Entsorgungsfachbetriebe", Abruf 04.11.2026) liefert für die Namenssuche "Dutz"
+  und "Dutz Recycling" je 4 Treffer sowie für "Dutz Recycling GmbH" 4 Treffer; die Ortssuche 46325 Borken mit 3 km und
+  mit 5 km Umkreis liefert jeweils 23 Treffer, darunter mit Entfernung "0,0 km" vier Anlagen des Dossierstandorts: "Dutz
+  Recycling GmbH", "Hansestraße 25, 46325 Borken", "ZZHT00300235 / 1" (Sammeln, Befördern), "ZZHT00300235 / 2" (Lagern),
+  "ZZHT00300235 / 3" (Behandeln), "ZZHT00300235 / 4" (Behandeln, Verwerten). Detailansicht und Zertifikats-PDF wurden im
+  Session-Kontext wörtlich gelesen: Zertifizierungsorganisation DEKRA Certification GmbH, Handwerkstraße 15, 70565
+  Stuttgart, Zertifikat-Nr. 120897475, Vorgangsnummer ZZHT003002358013, gültig bis zum 25.11.2027, Prüfungsdatum
+  28.05.2026, Ausstellungsdatum 22.06.2026, Zertifikat umfasst 4 Anlagen; Rechtsträger Dutz Recycling GmbH, Hansestraße
+  25, 46325 Borken, HRB 10543 Amtsgericht Coesfeld. Alle vier Anlagen nennen als Standort Hansestraße 25, 46325 Borken:
+  Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E554891034), Anlage 2 Lagern (E554550507), Anlage 3
+  Behandeln (E554550507; das Zertifikat weist die Anlagen 3 und 4 ausdrücklich als zertifizierte Erstbehandlungsanlagen
+  im Sinne des § 21 ElektroG aus), Anlage 4 Behandeln und Verwerten (E554550507). Die Adressangabe stimmt mit der
+  Dossieradresse Hansestraße 25, 46325 Borken überein.]
+- [Recherche 04.11.2026: Zweiter amtlicher Nachweis (AltfahrzeugV): Die Route "Altfahrzeugverwertung" desselben
+  Registers liefert für "Dutz" genau 1 Treffer und für den 3-km-Radius um 46325 Borken 2 Treffer, darunter mit
+  Entfernung "0,0 km" die Bescheinigung bzw. Standortanlage ZAES01400006 / 1. Die Detailansicht weist wörtlich aus:
+  "Bezeichnung der Firma" = Dutz Recycling GmbH, "Adresse der Firma" = Hansestraße 25, 46325 Borken, Kennnummer
+  E55400910, Ansprechpartner Frau Dutz Sarah, Telefon 02861 62566, E-Mail info@helmut-dutz.de, Vorgangsnummer
+  ZAES01400006, Bescheinigungsanlagennr. 1. Abweichend ist das Feld "Bezeichnung" des Zertifikatsinhabers: "Helmut Dutz
+  Schrott- und Metall- handels- und Entsorgungs- gesellschaft mbH" mit derselben Anschrift, demselben Telefon und
+  derselben E-Mail. Das Register selbst dokumentiert keine Umfirmierung; der Firmenbezug ist jedoch durch das Feld
+  "Bezeichnung der Firma" (Dutz Recycling GmbH, identische Anschrift und Kontaktdaten) amtlich belegt. Ein
+  Zertifikats-PDF wird für diesen AltfahrzeugV-Eintrag im Register nicht angeboten.]
+- [Recherche 04.11.2026: Abgrenzung und Reichweite: Die Namenssuche "Dutz Schrott" liefert 0 Treffer. Im 3-km-Radius
+  um 46325 Borken stehen 19 Anlagen fremder Betriebe (u.a. Borchers Kreislaufwirtschaft GmbH und Borchers Transport
+  GmbH, Hansestraße 44, Wertstoffhof Borken Gemen, Tobias Heming GmbH, Bernhard Stienemann GmbH & Co. KG); in der Route
+  "Altfahrzeugverwertung" steht dort als zweiter fremder Treffer "Autoverwertung Kara GmbH & Co. KG", Otto-Hahn-Straße
+  48, 46325 Borken, ZAES01100037 / 1, 0,8 km. Beide wurden nicht übernommen. Reichweite: die Anerkennung als
+  Entsorgungsfachbetrieb nach § 56 KrWG und die Anerkennung nach AltfahrzeugV sind freiwillig; ein Register-Nichteintrag
+  wäre kein Nachweis, dass ein Betrieb keine Anerkennung besitzt. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dutz ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dutz%20Recycling
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dutz%20Recycling%20GmbH
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dutz%20Schrott
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46325%20Borken%2C%20Deutschland;6.8835067;51.8512952;6.8835067;51.8512952;6.8835067;51.8512952&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46325%20Borken%2C%20Deutschland;6.8835067;51.8512952;6.8835067;51.8512952;6.8835067;51.8512952&dst=5&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Dutz ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=46325%20Borken%2C%20Deutschland;6.8835067;51.8512952;6.8835067;51.8512952;6.8835067;51.8512952&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dutz&p=ZZHT00300235&fd=1
+  (Abruf 04.11.2026)]

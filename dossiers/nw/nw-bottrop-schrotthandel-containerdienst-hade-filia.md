@@ -90,3 +90,49 @@ Die ursprünglich importierte **Brackerstr. 74** ist eine andere, unabhängige S
   https://linke-bottrop.de/abfallsortieranlage/ ;
   https://www.11880.com/branchenbuch/essen-ruhr/120674719B102132131/schrotthandel-containerdienst-haede-gmbh-rene-haede.html
   (Abruf 03.11.2026).]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für eine Filiale des Schrotthandels Häde an der im Dossier genannten Anschrift
+  An der Knippenburg 84, 46238 Bottrop. Reichweite: die Namensvarianten "Häde" (3 Treffer), "Häde GmbH" (2 Treffer),
+  "Haede" (0), "Schrotthandel Häde" (0), "Schrotthandel Containerdienst Häde" (0) und "Rene Häde" (0) in der Route
+  "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefern nur zwei fremde Unternehmen: "Häde
+  Recycling GmbH", Alte Bottroper Straße 120, 45356 Essen, ZZET00700321 / 1 (Handeln, Makeln) sowie "Fritz Häder
+  KfZ-Meisterbetrieb Bergungs- und Abschleppdienst", Am Schützenplatz 3, 06796 Sandersdorf-Brehna, ZZPT00400193 / 1 und
+  "Wieker Spezialunternehmen für Ölschädenbeseitigung GmbH", An der Autobahn 15, 27798 Hude, ZZFE00100038 / 1. Die
+  Ortssuche 46238 Bottrop mit 3 km Umkreis liefert 51 Treffer, mit 5 km 83 Treffer und mit 10 km 195 Treffer
+  Zertifikatsanlagen; der einzige Häde-Treffer darin ist die Essener Anlage in 2,3 km Entfernung, kein Treffer liegt an
+  An der Knippenburg 84. Die Route "Altfahrzeugverwertung" liefert für "Häde" 0 Treffer und im 3-km-Radius um 46238
+  Bottrop 5 fremde Treffer ohne Häde-Bezug.]
+- [Recherche 04.11.2026: Abgrenzung (kein Standortnachweis für die Filiale): Das Zertifikat ZZET00700321 (envizert
+  GmbH Umweltgutachter, Zertifikat 2603070, Vorgangsnummer ZZET007003216004, gültig bis zum 10.11.2027, Prüfungsdatum
+  11.05.2026, Ausstellungsdatum 15.09.2026, 1 Anlage Handeln und Makeln) wurde im Detaildialog wörtlich gelesen und
+  gehört der "Häde Recycling GmbH", Alte Bottroper Straße 120, 45356 Essen, HRB 33618 Amtsgericht Essen. Sitz, Anschrift
+  und Firmierung weichen vom Dossier ab: das Dossier führt eine Filiale in Bottrop und nennt als Betreiber den
+  Ratingener Marcus Häde, das Register nennt eine eigenständige GmbH in Essen mit eigener Registernummer. Nach E-15 wird
+  dieses Zertifikat deshalb nicht für den Dossierstandort übernommen.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Das Dossier bleibt im
+  Status pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=H%C3%A4de ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Haede ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrotthandel%20H%C3%A4de
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrotthandel%20Containerdienst%20H%C3%A4de
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=H%C3%A4de%20GmbH
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Rene%20H%C3%A4de
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46238%20Bottrop%2C%20Deutschland;6.9476323;51.5125512;6.9476323;51.5125512;6.9476323;51.5125512&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46238%20Bottrop%2C%20Deutschland;6.9476323;51.5125512;6.9476323;51.5125512;6.9476323;51.5125512&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46238%20Bottrop%2C%20Deutschland;6.9476323;51.5125512;6.9476323;51.5125512;6.9476323;51.5125512&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=H%C3%A4de ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=46238%20Bottrop%2C%20Deutschland;6.9476323;51.5125512;6.9476323;51.5125512;6.9476323;51.5125512&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=H%C3%A4de&p=ZZET00700321&fd=1
+  (Abruf 04.11.2026)]

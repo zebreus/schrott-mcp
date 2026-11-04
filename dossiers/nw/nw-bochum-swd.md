@@ -46,3 +46,41 @@ Der SWD-Import ist weiterhin nicht belastbar mit einem Betreiberauftritt verknü
 
 - mobil (GS)
 - Adresse: Bochum
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für den im Dossier geführten Schrotthandel SWD. Reichweite: die Namensvarianten
+  "SWD" (0 Treffer), "Schrottabholung SWD" (0), "Schrottabholung SWD GmbH" (0) und "SWD Bochum" (0) in der Route
+  "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefern nichts; die Suche nach dem im Dossier
+  dokumentierten Nachbarbetriebsnamen "Schrottankauf gegen Bares" liefert ebenfalls 0 Treffer. Die Ortssuchen um die
+  beiden im Dossier genannten Adressspuren liefern 24 Treffer (3 km um Am Kortländer 11, 44787 Bochum), 42 Treffer (5 km
+  um dieselbe Adresse), 28 Treffer (3 km um Breddestraße 6, 44866 Bochum) sowie 203 Treffer mit 10 km Radius um beide
+  Punkte; alle gehören fremden Betrieben (u.a. Supportive Recycling GmbH, Reifen Gruppe Ruhr Mahmoud Daouk Lagerplatz,
+  TEAM HAIST Inh. Anja Kaufmann, A. Fischer & Söhne GmbH, USB Bochum GmbH, REMEX Bochum GmbH, MEDLOG24 Systemlogistik).
+  Kein Treffer trägt die Bezeichnung SWD oder einen Namen aus dem Umfeld des Dossiers, keiner sitzt an Am Kortländer 11
+  oder an der Breddestraße 6, und keiner wurde übernommen. Die Route "Altfahrzeugverwertung" liefert für "SWD" 0 Treffer
+  und im 3-km-Radius um 44787 Bochum 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Er bestätigt zugleich
+  die bereits im Dossier dokumentierte Adresskollision zwischen dem GoLocal-Lead SWD (Am Kortländer 11) und dem
+  eigenständigen Auftritt "Schrottankauf gegen Bares" an derselben Hausnummer. Das Dossier bleibt im Status pruefung,
+  Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=SWD ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottabholung%20SWD
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottankauf%20gegen%20Bares
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44787%20Bochum%2C%20Deutschland;7.2127952;51.4853360;7.2127952;51.4853360;7.2127952;51.4853360&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44787%20Bochum%2C%20Deutschland;7.2127952;51.4853360;7.2127952;51.4853360;7.2127952;51.4853360&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44787%20Bochum%2C%20Deutschland;7.2127952;51.4853360;7.2127952;51.4853360;7.2127952;51.4853360&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44866%20Bochum%2C%20Deutschland;7.1687536;51.4824565;7.1687536;51.4824565;7.1687536;51.4824565&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44866%20Bochum%2C%20Deutschland;7.1687536;51.4824565;7.1687536;51.4824565;7.1687536;51.4824565&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=SWD ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=44787%20Bochum%2C%20Deutschland;7.2127952;51.4853360;7.2127952;51.4853360;7.2127952;51.4853360&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

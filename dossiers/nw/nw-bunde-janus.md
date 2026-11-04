@@ -62,3 +62,39 @@ Mehrere Branchenverzeichnisse führen A. Janus / Artur Janus, Mindener Str. 74, 
 ### Recherche 20.10.2026
 
 - [Recherche 20.10.2026: Die aktuelle Gelbe-Seiten-Suche „Schrotthändler Bünde“ zeigt weiterhin A. Janus, Mindener Str. 74, 32257 Bünde und 0178 545 82 42; das bleibt ein Branchenportal-Lead und widerspricht nicht der Owner-Korrektur vom 15.10., die diese Werte aus dem Frontmatter zurückzog. Die zweite Niederfeldstr.-Spur ist weiterhin nicht mit dem ersten Eintrag verbunden; keine Betreiberseite, kein Register-/Gewerbeauszug, kein neuer Identitätsbeleg. ANKAUF: keine verifizierte Preisliste oder Kursangabe. VERKAUF: keine Liste. GEBÜHREN: keine belastbare Tarifliste; ältere „kostenlos oder gegen Bezahlung“-Formulierung bleibt unquantifiziert. GEO offen: beide Adressen nur Leads, vorhandene Koordinate ausdrücklich ungeprüft; keine Geokodierung/Annahmezuordnung. Quelle/Lead: https://www.gelbeseiten.de/branchen/schrotthaendler/buende ; Vorabgrenzung: https://buende.stadtbranchenbuch.com/6340701.html]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für den im Dossier geführten Schrotthandel Janus in Bünde. Reichweite: die
+  Namensvarianten "Janus" (0 Treffer), "Artur Janus" (0), "A. Janus" (0) und "Janus Alt-Buntmetallhandel" (0) in der
+  Route "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefern nichts. Ortssuchen: um die im
+  Dossier genannte Anschrift Mindener Str. 74, 32257 Bünde mit 3 km Umkreis 20 Treffer, mit 5 km 28 Treffer und mit 10
+  km 65 Treffer; um die abweichende Portal-Adresse Niederfeldstr. 72, 32257 Bünde mit 3 km Umkreis 5 Treffer und mit 10
+  km 36 Treffer. Alle Treffer gehören fremden Betrieben (u.a. Kuhlmann GmbH & Co. KG Muldendienst in Kirchlengern,
+  Latoschik + Fischer Behälterschutz Tankanlagen in Hiddenhausen, Berg Abfallbeseitigungs GmbH & Co. KG und Berg
+  Transporte GmbH in Hiddenhausen, AVR GmbH & Co. KG Lange Straße 72-76 in Bünde); keiner trägt den Namen Janus, keiner
+  sitzt an Mindener Straße 74 oder an Niederfeldstraße 72, und keiner wurde übernommen. Die Route
+  "Altfahrzeugverwertung" liefert für "Janus" 0 Treffer und im 3-km-Radius um 32257 Bünde 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Er bestätigt
+  zugleich, dass sich die beiden im Dossier nebeneinander geführten Verzeichnisanschriften nicht im Register auflösen
+  lassen. Das Dossier bleibt im Status pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Janus ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Artur%20Janus ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=A.%20Janus ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Janus%20Alt-Buntmetallhandel
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=32257%20B%C3%BCnde%2C%20Deutschland;8.6109188;52.1903467;8.6109188;52.1903467;8.6109188;52.1903467&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=32257%20B%C3%BCnde%2C%20Deutschland;8.6109188;52.1903467;8.6109188;52.1903467;8.6109188;52.1903467&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=32257%20B%C3%BCnde%2C%20Deutschland;8.6109188;52.1903467;8.6109188;52.1903467;8.6109188;52.1903467&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=32257%20B%C3%BCnde%2C%20Deutschland;8.5501188;52.2043491;8.5501188;52.2043491;8.5501188;52.2043491&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=32257%20B%C3%BCnde%2C%20Deutschland;8.5501188;52.2043491;8.5501188;52.2043491;8.5501188;52.2043491&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Janus ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=32257%20B%C3%BCnde%2C%20Deutschland;8.6109188;52.1903467;8.6109188;52.1903467;8.6109188;52.1903467&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

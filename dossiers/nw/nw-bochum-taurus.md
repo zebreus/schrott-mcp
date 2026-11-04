@@ -57,3 +57,33 @@ Der Treffer „Taurus Schrotthandel Entsorgung von Schrott und Altmetall“ an G
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); Gegenrecherche ohne verifizierbaren Treffer (Such-Backend 01.10.2026 gestört: Websearch-Tool Dauerausfall, Bing nur Junk-Treffer); kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für den im Dossier geführten Betrieb Taurus an der Gelsenkirchener Str. 4,
+  44866 Bochum. Reichweite: die Namensvarianten "Taurus" (0 Treffer), "Taurus GmbH Bochum" (0) und "Taurus Schrott" (0)
+  in der Route "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefern nichts; die Ortssuche
+  44866 Bochum mit 3 km Umkreis liefert 16 Treffer, mit 5 km 35 Treffer und mit 10 km 245 Treffer Zertifikatsanlagen.
+  Alle Treffer gehören fremden Betrieben (u.a. USB Bochum GmbH Wertstoffhof Am Sattelgut, Rohstoffhandel Heinrichs GmbH
+  & Co. KG, Rare Metal Trading GmbH, Elektrorückgabe Recycling GmbH & Co. KG, Entsorgungsbetriebe Bochum GmbH, Kemper in
+  Gelsenkirchen); keiner trägt den Namen Taurus und keiner wurde übernommen. Die Route "Altfahrzeugverwertung" liefert
+  für "Taurus" 0 Treffer und im 3-km-Radius um 44866 Bochum genau 1 fremden Treffer (Rohstoffhandel Heinrichs GmbH & Co.
+  KG, Am Dördelmannshof 30, 45886 Gelsenkirchen, ZAES01100097 / 1, 1,1 km).]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Das Dossier bleibt im
+  Status pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Taurus ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Taurus%20GmbH%20Bochum
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Taurus%20Schrott
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44866%20Bochum%2C%20Deutschland;7.1120751;51.4816910;7.1120751;51.4816910;7.1120751;51.4816910&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44866%20Bochum%2C%20Deutschland;7.1120751;51.4816910;7.1120751;51.4816910;7.1120751;51.4816910&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44866%20Bochum%2C%20Deutschland;7.1120751;51.4816910;7.1120751;51.4816910;7.1120751;51.4816910&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Taurus ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=44866%20Bochum%2C%20Deutschland;7.1120751;51.4816910;7.1120751;51.4816910;7.1120751;51.4816910&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

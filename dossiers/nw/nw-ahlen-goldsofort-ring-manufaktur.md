@@ -73,3 +73,42 @@ Die rechtliche Kennung ist widersprüchlich: Das aktuelle Impressum nennt HRB 11
   https://www.goldsofort.de/impressum ; https://www.goldsofort.de/filialen/ahlen ;
   https://www.northdata.de/Ring%20Manufaktur%20GmbH,%20Ahlen/Amtsgericht%20M%C3%BCnster%20HRB%2017133
   (Abruf 03.11.2026).]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für die Ring Manufaktur GmbH (Goldsofort.de) am Standort Am Neuen Baum 4, 59229
+  Ahlen. Reichweite: Namensvarianten in der Route "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal
+  (is=1&e=1) waren "Ring Manufaktur" (0 Treffer), "Ring Manufaktur GmbH" (0), "Ring Manufaktur Ahlen" (0), "Goldsofort"
+  (0) und "Goldsofort.de" (0); die Namenssuche nach dem im Dossier genannten Geschäftsführer "Lukas-Kevin Christ" wurde
+  ebenfalls mit 0 Treffern beantwortet. Die Ortssuche 59229 Ahlen mit 3 km Umkreis liefert 5 Treffer, mit 5 km 7
+  Treffer, mit 10 km 26 Treffer; alle gehören fremden Betrieben (Verwaltung und Vertrieb sowie Abfallrecyclinganlage, Am
+  Vatheuershof 19, ZZLT00300229; Stenau Sonderabfalltransporte und Wertstoffaufbereitungs GmbH, Auf dem Toelen 4,
+  ZZET02000054; Bohnenkamp Rohstoff-Handels-GmbH, Kruppstraße 7, 59227 Ahlen, ZZEE00300280; im 10-km-Radius zusätzlich
+  u.a. PreZero Service Hamm GmbH und Westarp Rohstoffhandel GmbH), keiner trägt den Namen Ring Manufaktur oder
+  Goldsofort und keiner sitzt an Am Neuen Baum 4. Die Route "Altfahrzeugverwertung" liefert für "Ring Manufaktur" 0
+  Treffer und im 3-km-Radius um 59229 Ahlen 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Erwartungsgemäß ist
+  der Edelmetallankauf ohnehin keine Entsorgungstätigkeit im Sinne des Registers. Das Dossier bleibt im Status aktiv,
+  Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ring%20Manufaktur
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ring%20Manufaktur%20GmbH
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ring%20Manufaktur%20Ahlen
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Goldsofort ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Goldsofort.de ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lukas-Kevin%20Christ
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=59229%20Ahlen%2C%20Deutschland;7.9019356;51.7480004;7.9019356;51.7480004;7.9019356;51.7480004&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=59229%20Ahlen%2C%20Deutschland;7.9019356;51.7480004;7.9019356;51.7480004;7.9019356;51.7480004&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=59229%20Ahlen%2C%20Deutschland;7.9019356;51.7480004;7.9019356;51.7480004;7.9019356;51.7480004&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ring%20Manufaktur
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=59229%20Ahlen%2C%20Deutschland;7.9019356;51.7480004;7.9019356;51.7480004;7.9019356;51.7480004&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]
