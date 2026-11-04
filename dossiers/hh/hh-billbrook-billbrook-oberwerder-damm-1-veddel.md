@@ -1,7 +1,7 @@
 ---
 slug: hh-billbrook-billbrook-oberwerder-damm-1-veddel
-lat: 53.5250819
-lon: 10.0837413
+lat: 53.5250080
+lon: 10.0837283
 name: HEG Hamburger Entsorgungsgesellschaft mbH
 trader_type: containerdienst
 state: HH
@@ -122,13 +122,13 @@ hh-veddel-remex-nord-gmbh ausgelagert. Der Slug dieser Zeile bleibt unveraendert
   10, 11, 12, **13**, 14, 15, 16, 17, 17C, 18, 19, 20, 21, 25, 28, 29) - die **Dossier-Hausnummer 13 existiert** in
   OSM. **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):** **way/24895562**
   (https://api.openstreetmap.org/api/0.6/way/24895562/full.json) trägt `addr:housenumber`=**13**,
-  `addr:street`=**Bredowstraße**, `building`=yes, Version 4 (Stand 05.10.2014); das Objekt hat **7** eindeutige
-  Knoten, der **Mittelwert der eindeutigen Knoten** ist **53.5250819 / 10.0837413**, die Objekt-BBox ist
+  `addr:street`=**Bredowstraße**, `building`=yes, Version 4 (Stand 05.10.2014); das Objekt hat **6** eindeutige
+  Knoten, der **Mittelwert der eindeutigen Knoten** ist **53.5250080 / 10.0837283**, die Objekt-BBox ist
   53.5247243/10.0831436 bis 53.5255252/10.0843487, der Punkt liegt **innerhalb** der BBox. **Quelle 2 (amtliche
   Betreiber-/Registerquelle, live):** Das Branchenbuch trägt für den Eintrag die Kartenkoordinate
   **53.524817594951635 / 10.083381369695534** - das liegt nur rund **30 m** vom OSM-Objekt entfernt und bestätigt
   Adresse und Lage unabhängig; der Registerspiegel (NorthData, HRB 53960 AG Hamburg) deckt Rechtsträger und Anschrift
-  ein zweites Mal. **Koordinate:** `lat`/`lon` = **53.5250819 / 10.0837413** (Mittelwert der eindeutigen Knoten von
+  ein zweites Mal. **Koordinate:** `lat`/`lon` = **53.5250080 / 10.0837283** (Mittelwert der eindeutigen Knoten von
   way/24895562, innerhalb der Objekt-BBox). **Abgrenzung ohne Bezug:** Im selben Fenster liegt **way/938836099 „Rafi
   Recycling & Autoteile"** - ein **anderer** Betrieb; es erfolgt **kein** Merge. **Wichtige Abgrenzung, unverändert
   übernommen:** Die gebührenfreie Schrott-/Kabel-/Buntmetallannahme der Stadtreinigung gilt für ihre
