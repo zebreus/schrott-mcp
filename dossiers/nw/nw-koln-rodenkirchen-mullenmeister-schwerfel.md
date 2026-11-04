@@ -71,7 +71,8 @@ Die Kölner Umweltinspektion veröffentlichte 2014 einen Bericht „Müllenmeist
   Köln-Bayenthal** ist in OSM **nicht abbildbar**: die Straße ist kartiert, die **Hausnummer 138 existiert dort jedoch
   nicht** - obwohl die Anschrift durch einen **amtlichen Behördenbeleg** gedeckt ist. **Was live geprüft wurde
   (04.11.2026):** Das Kachelraster über Köln-Bayenthal/Rodenkirchen (6.9300/50.8800 bis 7.0000/50.9500, **49 Kacheln von
-  je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die **Alteburger Straße** mit **268** Adressobjekten und
+  je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die **Alteburger Straße** mit **256** verschiedenen Adressobjekten
+  (**268** Nodes im Raster, die an den Kachelrändern doppelt gezählt werden) und
   **234** verschiedenen Hausnummern (1–89, 101, 103, 103a, 105, 105a, 107, 109, 109a, 111, 113, 115, 117, 119, 121, 127,
   127a, 129, 13, 139, 14, 141;141a, 143, 15, 15a, 16, 18, 180, 182, 184, 186, 188, 189, 190, 191, 192, 193, 194, 195,
   196, 198, 2, 20, 200, 202–212, 217, 218, 219a, 219b, 22, 220–300, 302, 303, 304, 306, 31, 311–379, 32, 36, 37, 38, 39,

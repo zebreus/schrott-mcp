@@ -92,5 +92,6 @@ Da nicht belegt ist, welche der beiden Adressen dem Registereintrag zugehört, b
   weder Fortbestand noch Schließung behauptet. Quelle(n):
   https://api.openstreetmap.org/api/0.6/way/275855234/full.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=11.7600,54.0000,11.7900,54.0200 ;
+  https://order.firmenkontor24.com/search/HRB/9677 (Register-Spiegel, Abruf 04.11.2026; die Live-Abfrage des amtlichen Registers war zum Abrufzeitpunkt mit HTTP 429 gesperrt) ;
   https://api.openstreetmap.org/api/0.6/way/96373934/full.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=11.8100,54.0600,11.8300,54.0800 (Abruf 04.11.2026).]
