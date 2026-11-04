@@ -77,7 +77,7 @@ Der direkt gelesene 11880-Eintrag (Portalaktualisierung 14.10.2026) führt „sc
   **way/419448773** trägt `addr:street`=Höcherstraße, `addr:housenumber`=**3**, `addr:city`=Waldmohr,
   `addr:postcode`=66914, `addr:country`=DE und `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der
   im Dossier belegten Prüfspur **Höcherstraße 3, 66914 Waldmohr** überein. **Fensterprüfung (kein Fensterfehler):**
-  das am 04.11.2026 live abgerufene Kachelraster über Waldmohr umfasst **7.3300/50.3800 bis 7.3400/50.3900**,
+  das am 04.11.2026 live abgerufene Kachelraster über Waldmohr umfasst **7.3300/49.3800 bis 7.3400/49.3900**,
   **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich**
   mit dem Straßenobjekt **way/558093202** (`highway`=secondary, `name`=Höcherstraße, `ref`=K 3) sowie
   **15** Adressobjekten auf „Höcherstraße" mit den Hausnummern 3, 6, 8, 8a, 10, 11, 12, 13, 17, 18, 19, 21, 23, 25
@@ -108,6 +108,6 @@ Der direkt gelesene 11880-Eintrag (Portalaktualisierung 14.10.2026) führt „sc
   `street` (leer), `postcode` (leer), `phone` (leer), `email` (leer), `opening_hours` (leer), `website` (leer),
   `website_status` (leer) und `description` (leer) bleiben unverändert. Quelle(n):
   https://api.openstreetmap.org/api/0.6/way/419448773/full.json ;
-  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3300,50.3800,7.3400,50.3900 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3300,49.3800,7.3400,49.3900 ;
   https://www.oeffnungszeiten.com/schrott-und-metallhaendler-Brennemann/Waldmohr-Rheinland-Pfalz/Hoecherstrasse-3/ ;
   https://www.11880.com/branchenbuch/waldmohr/060440092B112831048/schrotthandel-brennemann.html (Abruf 04.11.2026).]

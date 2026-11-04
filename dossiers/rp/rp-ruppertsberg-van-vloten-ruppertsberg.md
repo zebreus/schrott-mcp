@@ -70,7 +70,7 @@ Das beschädigte importierte Straßenfeld ist weiterhin kein verifizierter Adres
   **way/1350683139** trägt `addr:street`=Obergasse, `addr:housenumber`=**8D**, `addr:city`=Ruppertsberg,
   `addr:postcode`=67152, `addr:country`=DE und `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der
   Dossier-Adresse **Obergasse 8D, 67152 Ruppertsberg** überein. **Fensterprüfung (kein Fensterfehler):** das am
-  04.11.2026 live abgerufene Kachelraster über Ruppertsberg umfasst **8.1900/50.4000 bis 8.2000/50.4100**,
+  04.11.2026 live abgerufene Kachelraster über Ruppertsberg umfasst **8.1900/49.4000 bis 8.2000/49.4100**,
   **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich**
   mit dem Straßenobjekt **way/25087948** (`highway`=residential, `name`=**Obergasse**) sowie **38** Adressobjekten
   auf „Obergasse" mit den Hausnummern 2, 3, 4, 6, 7, 8, 8B, 8C, **8D**, 8K, 8a, 8e, 8f, 8g, 8h, 8i, 8j, 8l, 8m, 9, 10,
@@ -92,5 +92,5 @@ Das beschädigte importierte Straßenfeld ist weiterhin kein verifizierter Adres
   `street` (Rohzeichenfolge unverändert), `postcode` (leer), `phone` (leer), `email`, `opening_hours`, `website`
   (leer), `website_status` (leer) und `description` (leer) bleiben unverändert. Quelle(n):
   https://api.openstreetmap.org/api/0.6/way/1350683139/full.json ;
-  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1900,50.4000,8.2000,50.4100 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1900,49.4000,8.2000,49.4100 ;
   https://lokaleschrottplatz.de/silke-van-vloten-vsi/ (Abruf 04.11.2026).]

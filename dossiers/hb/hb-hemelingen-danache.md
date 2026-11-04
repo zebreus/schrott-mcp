@@ -64,7 +64,7 @@ Der Betreiberauftritt ist am 22.10.2026 direkt erreichbar und nennt Danache Auto
   **node/4431726693** mit **`name`=Danache Autoverwertung Bremen**, `shop`=**car_parts**, `phone`=+49 421 48402424,
   `email`=info@davb-hemelingen.de und `website`=http://www.davb-hemelingen.de (53.0517311/8.8822712) - das
   **Betriebsobjekt** liegt damit **objektgenau** an der belegten Anschrift. **Fensterprüfung (kein Fensterfehler):** das
-  am 04.11.2026 live abgerufene Kachelraster umfasst **8.8700/53.0400 bis 8.9000/53.0600**, **9 Kacheln von je 0,01
+  am 04.11.2026 live abgerufene Kachelraster umfasst **8.8700/53.0400 bis 8.9000/53.0600**, **6 Kacheln von je 0,01
   Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich und vollständig** mit **9**
   Straßenobjekten auf dem „Hemelinger Hafendamm" (way/156679949, way/217602517, way/328873030, way/28153889,
   way/270106807, way/328873027, way/328873028, way/443442828, way/443545093; Verlauf 53.03847/8.87770 bis
