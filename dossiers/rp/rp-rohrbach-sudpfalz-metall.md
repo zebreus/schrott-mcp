@@ -70,7 +70,7 @@ Die Betreiberwebsite „Südpfalz Metall“ bewirbt einen Schrottplatz in Rohrba
   die gesuchte Straße **nachweislich** mit **5** Adressobjekten auf „Am Bellensee" und den Hausnummern 3, 4, 5, 6 und
   10 - die **Dossier-Hausnummer 6 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
   Straße. Eine Namenssuche nach **„Südpfalz"** über die Felder name, operator, description, website,
-  contact:website, brand, note und addr:housename findet im Raster **kein Objekt mit Betriebsbezug zum Dossierbetrieb** (die Namensobjekte dort sind
+  contact:website, brand, note und addr:housename findet im Raster **kein Objekt mit Betriebsbezug zum Dossierbetrieb** (die Namensobjekte auf „Am Bellensee" sind
   „Clubhaus SpVgg Rohrbach", „Schützenhaus" und „Betonwerk Dyckerhoff") - es gibt also **keine** OSM-Betriebszuordnung,
   nur die Adressangabe. Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
   **Betreiberwebsite** https://suedpfalzmetall-gmbh.de/ liefert **HTTP 200** und nennt live im Kontaktblock
