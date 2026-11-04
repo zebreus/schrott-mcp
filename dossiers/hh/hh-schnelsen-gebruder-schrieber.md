@@ -1,5 +1,7 @@
 ---
 slug: hh-schnelsen-gebruder-schrieber
+lat: 53.6393923
+lon: 9.9026859
 name: Gebrüder Schrieber GmbH
 trader_type: schrotthaendler
 state: HH
@@ -67,3 +69,50 @@ Der konkrete Standort und der Ankauf bleiben mangels zweiter vollständig gelese
   https://www.gelbeseiten.de/gsbiz/9d4a374c-84af-4b7e-a9d2-1da733b388df (nur Lead) ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9400,53.6200,10.0800,53.6800 (Abruf 03.11.2026, teilweise
   gedrosselt).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: `lat`/`lon` = 53.6393923/9.9026859.** Das im Vermerk vom
+  03.11.2026 dokumentierte Kachelraster **9.9400-10.0800 / 53.6200-53.6800** wurde jetzt
+  **vollständig** abgerufen (84 von 84 Kacheln zu 0,01 Grad, **0 Kachel-Fehler**); es enthält **kein**
+  Objekt mit `addr:street`=Kulemannstieg, denn das Fenster liegt rund **7,2 km** östlich der Straße
+  (es erfasst Ohlsdorf/Hummelsbüttel/Klein Borstel/Borstel) und war damit **fehlerhaft platziert**:
+  der damalige Negativbefund war kein Daten-, sondern ein Fensterfehler. **Korrigiertes Fenster (live,
+  vollständig): 9.8800-9.9600 / 53.6150-53.6650** (40 Kacheln zu 0,01 Grad,
+  api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026, **0 Kachel-Fehler**) liegt auf der
+  Kulemannstieg in **Schnelsen** (PLZ 22457) und erfasst **26** Objekte mit `addr:street`=Kulemannstieg
+  (Hausnummern 3, 5, 6, 10, 11, 12, 13, 15, 15a, 17, 19, 20, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33,
+  34, 35, 49); **genau ein** Objekt trägt `addr:housenumber`=**33**, ein zweites Objekt mit derselben
+  Hausnummer gibt es im Fenster nicht. **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):**
+  **way/336481301** (https://api.openstreetmap.org/api/0.6/way/336481301/full.json) trägt
+  `addr:housenumber`=**33**, `addr:street`=**Kulemannstieg**, `addr:city`=Hamburg,
+  `addr:postcode`=**22457**, `building`=yes; das Objekt hat **12 eindeutige Knoten**, der Mittelwert der
+  Knoten (53.6393923/9.9026859) liegt **innerhalb** der Objekt-BBox (53.6392038/9.9024725 bis
+  53.6395571/9.9029310). **Quelle 2 (Register, live):** NorthData
+  (https://www.northdata.de/Gebr%C3%BCder+Schrieber+GmbH,+Hamburg/HRB+15508, Abruf 04.11.2026) nennt
+  weiterhin **„Gebrüder Schrieber GmbH, Hamburg, Amtsgericht Hamburg HRB 15508"** mit der Anschrift
+  **„Kulemannstieg 33, D-22457 Hamburg"** und dem Unternehmensgegenstand **„Großhandel mit unedlen
+  Metallen und Schrott."** Straße, PLZ, Hausnummer und Register-Nr. stimmen damit mit dem
+  OSM-Adressobjekt überein. **Abgrenzung, unverändert übernommen:** Im Fenster trägt **kein** Objekt
+  der Kulemannstieg einen Namen, einen `operator`, eine Marke oder einen sonstigen Branchenbezug zu
+  Schrott-, Metall- oder Kabelhandel (0 Treffer bei `name`, `operator`, `brand`, `website`,
+  `contact:website`, `description`, `note`); drei Objekte der Straße sind als `building`=industrial
+  geführt (die Nummern 5, 10 und 34), eine Nutzung als Schrott- oder Metallhof ist daraus
+  **nicht** ableitbar. Die Nachbar-Hausnummer **32** (way/336481296) ist im Repo als
+  `hh-schnelsen-walter-behncke-inh-bernd-behncke` (Walter Behncke e.K.) geführt: **kein** Merge, **keine**
+  Übernahme von Kontakten, Leistungen oder Zeiten der Nachbarschaft. **Reichweite / Fehlbelegklausel:**
+  Die **Hausnummernlage in OSM** und die **Efb-/AltfahrzeugV-Lage** sind **nicht** gleichbedeutend mit
+  „kein Betrieb am Ort": die gefundene Hausnummer 33 belegt **nur** eine Adresse und **weder** einen
+  Großhandelsbetrieb **noch** eine öffentliche Privatkundenannahme, und umgekehrt belegt das Fehlen
+  eines Efb-/AltfahrzeugV-Eintrags oder eines Betriebsnamens im Kartennetz **nicht**, dass an dieser
+  Anschrift kein Betrieb existiert. Ein Registerstand (auch mit aktueller Bilanzveröffentlichung)
+  belegt **keine** öffentliche Privatkundenannahme, keine Öffnungszeiten und keine Preise; die
+  Koordinate markiert die **Registeranschrift**, keinen Annahmehof. `status: pruefung`,
+  `street`/`postcode` (beide leer), Telefon/E-Mail und alle übrigen Frontmatter-Felder bleiben
+  unverändert; es wird **keine** Schließung behauptet, und der Vermerk vom 03.11.2026 bleibt
+  **wortgleich** erhalten und wird durch diesen Vermerk **fortgeschrieben** (dessen Aussage „keine
+  Koordinate gesetzt" galt dem fehlerhaft platzierten Fenster, nicht der Adresse). Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/336481301/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8800,53.6150,9.9600,53.6650 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9400,53.6200,10.0800,53.6800 ;
+  https://www.northdata.de/Gebr%C3%BCder+Schrieber+GmbH,+Hamburg/HRB+15508 (Abruf 04.11.2026).]

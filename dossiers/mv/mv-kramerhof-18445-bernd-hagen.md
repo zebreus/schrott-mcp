@@ -1,5 +1,7 @@
 ---
 slug: mv-kramerhof-18445-bernd-hagen
+lat: 54.3358565
+lon: 13.0325719
 name: Bernd Hagen GmbH
 trader_type: sonstige
 state: MV
@@ -13,7 +15,6 @@ website: https://www.bhagen.de/
 website_status: aktiv
 status: geschlossen
 description: 'Belegte Schließung und Standortwechsel: Die Zeile verweist auf einen zusammengeführten Sachverhalt aus zwei Firmierungen. (1) Die **Bernd Hagen GmbH** (Handelsregister Kiel HRB 1897 NM, fortgeführt unter HRB 12108 KI, zuletzt Segeberger Landstr. 40, 24619 Bornhöved) trug den Unternehmensgegenstand Kraftfahrzeughandel sowie Kraft- und Baumaschinenvermittlung und -vermietung, wurde am 13.12.2019 gelöscht und stand **nie** in Kramerhof; **kein Schrottbetrieb an diesem Eintrag**. (2) Die **Bernd Hagen Recycling und Baustoffe GmbH** (Kiel HRB 8228 KI) war am **Hauptstr. 34, 18445 Kramerhof OT Kedingshagen** eingetragen (Eintragung 06.07.2006) und ist im Register **gelöscht**; ihr Stralsunder Registerblatt HRB 7382 (Voigdehäger Weg 56, 18439 Stralsund) wurde nach Sitzverlegung geschlossen. (3) Die **Hagen-Bau GmbH** (Kiel HRB 11889 KI, Eintragung 11.05.2010, Hauptstr. 34, 18445 Kramerhof/OT Groß Kedingshagen) wurde nach Stralsund fortgeführt (HRB 21097) und ist dort ebenfalls **gelöscht**. Die heute aktive Fortführung der Gruppe ist die **Bernd Hagen Abbruch und Rückbau GmbH** (Kiel HRB 21990 KI, fortgeführt vom Stralsunder Blatt HRB 7160, aktiv, Rendsburger Straße 345, 24537 Neumünster); die im Dossier geführte Domain bhagen.de gehört zur **Bernd Hagen Verwaltungs GmbH** (HRB 14302 KI) ebendort. Der Standort Kramerhof ist damit aufgegeben; für die Zeile selbst sind ANKAUF, VERKAUF und GEBÜHREN nicht belegt.'
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -69,3 +70,42 @@ Phantom-Fortschreibung). Der Slug und der Zeilenname bleiben unverändert.
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: bhagen.de-Impressum nicht abrufbar (404), Standorte (Neumünster-Behauptung) unverifiziert; keine Frontmatter-Änderung, status pruefung bleibt. Quelle: https://www.bhagen.de/ (Homepage Bernd Hagen Unternehmensgruppe, 30.09.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **54.3358565/13.0325719** (Mittel der **10**
+  eindeutigen Knoten von way/195005624; die BBox der eindeutigen Knoten reicht von 54.3357442/13.0322715 bis
+  54.3359997/13.0327185 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/195005624** trägt `addr:street`=Hauptstraße, `addr:housenumber`=**34**, `addr:postcode`=18445,
+  `addr:city`=Kramerhof, `addr:suburb`=Groß Kedingshagen, `addr:country`=DE sowie `building`=**apartments** - Straße,
+  Hausnummer, PLZ, Ort und Ortsteil stimmen mit der Dossier-Adresse **Hauptstraße 34, 18445 Kramerhof** überein.
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster über Kramerhof/
+  Groß Kedingshagen umfasst **13.0200/54.3200 bis 13.0500/54.3500**, **9 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**;
+  das Fenster enthält die gesuchte Straße **nachweislich** mit den Straßenobjekten **way/26551159**, **way/30437242**,
+  **way/115913919**, **way/115913923**, **way/1034562521** und **way/1252994583** sowie **55** Adressobjekten auf
+  „Hauptstraße" mit **54** verschiedenen Hausnummern (2, 2a, 3, 4, 5, 6, 7, 8, 9, 10, 10a, 11, 13, 14, 15, 16, 16a, 17, 18,
+  19, 20, 21, 22, 23, 24, 25, 25a, 26, 27, 28, 29, 30, 30a, 31, 32, 33a, 33b, **34**, 35, 36a, 36b, 36c, 36d, 36e, 36f, 37,
+  38, 40a, 40b, 42, 44, 46a, 46b, 48, 50) - die **Dossier-Hausnummer 34 existiert** und ist im Raster das einzige
+  Objekt mit dieser Nummer. Eine Namenssuche nach **„Hagen"** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer - es gibt **keine**
+  OSM-Betriebszuordnung; das Objekt ist als **Wohnhaus** erfasst. Quelle 2 (Register, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): der **Handelsregisterauszug** (https://www.online-handelsregister.de/handelsregisterauszug/sh/Kiel/HRB/8228KI/Bernd-Hagen-Recycling-und-Baustoffe-GmbH)
+  liefert **HTTP 200** und nennt live **„Bernd Hagen Recycling und Baustoffe GmbH, gelöscht, HRB 8228 KI,
+  Hauptstr. 34 • 18445 Kramerhof OT Kedingshagen"**; das Dossier dokumentiert für dieselbe Anschrift zusätzlich die
+  **Hagen-Bau GmbH (Kiel HRB 11889 KI)** - beide Rechtsträger sind im Register **gelöscht**. **Zurücknahme des
+  `geo`-Tokens (Begründung):** `clear_fields: 'geo'` wurde **entfernt**, weil es den am 28.10.2026 zurückgenommenen und
+  auf „Alte Dorfstraße 22" (54.3537/13.0541) fallenden Produktionspunkt fernhalten sollte; der hier gesetzte Punkt liegt
+  **exakt** auf der registrierten Anschrift der Zeile, während `clear_fields` nicht gleichzeitig `geo` neben belegtem
+  `lat`/`lon` stehen darf. **Qualifizierung (unverändert übernommen, ausdrücklich):** Der Punkt bezeichnet die
+  **historische Registeranschrift** der gelöschten Kramerhofer Rechtsträger - die **Bernd Hagen GmbH** (Kiel HRB 12108
+  KI) wurde zum **13.12.2019** gelöscht, die **Bernd Hagen Recycling und Baustoffe GmbH** (HRB 8228 KI) und die
+  **Hagen-Bau GmbH** (HRB 11889 KI) ebenfalls; der Standort wurde **verlassen**, die heute aktive Fortführung der
+  Gruppe (**Bernd Hagen Abbruch und Rückbau GmbH**, Kiel HRB 21990 KI) sitzt in **Rendsburger Straße 345, 24537
+  Neumünster** und ist ein **eigener Standort in einer anderen Zeile** - die Neumünsterer Adresse wurde hier
+  ausdrücklich **nicht** übernommen. Der Punkt ist damit **kein** Beleg für eine heutige Schrottannahme an dieser Stelle;
+  `status: geschlossen` bleibt unverändert, ebenso `name`, `city`, `street`, `postcode`, `phone`, `website`,
+  `website_status` und `description`; ANKAUF, VERKAUF und GEBÜHREN bleiben für diese Zeile unbelegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/195005624/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.0200,54.3200,13.0500,54.3500 ;
+  https://www.online-handelsregister.de/handelsregisterauszug/sh/Kiel/HRB/8228KI/Bernd-Hagen-Recycling-und-Baustoffe-GmbH
+  (Abruf 04.11.2026).]

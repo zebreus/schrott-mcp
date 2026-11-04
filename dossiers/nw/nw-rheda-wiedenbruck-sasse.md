@@ -60,3 +60,38 @@ Kein belegter aktueller Annahmeort für diese Seedzeile, keine Ankauf-, Verkaufs
 
 - Schrott (GS)
 - Adresse: Rheda-Wiedenbrück
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Seed-Zeile **„Sasse“** ist **nicht
+  eindeutig** einer der im Dossier dokumentierten Sasse-Betriebe zuzuordnen; die im Register geführte **Schrott-Sasse
+  GmbH & Co. KG (HRA 5881)** ist zwar aktiv, belegt aber **weder** eine heutige Schrottannahme **noch** die Identität
+  mit dem generischen Seed. **Was live geprüft wurde (04.11.2026):** Das Kachelraster über Rheda-Wiedenbrück
+  (8.3000/51.8100 bis 8.3300/51.8400, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die
+  **Lippstädter Straße** mit **70** Adressobjekten und **67** verschiedenen Hausnummern und den Hausnummern 3, 4, 5, 6,
+  12, 14, 16, 22, 26, 28, 54, 54a, 54b, 56a, **61**, 65, 68, 68c, 69, 69a, 69b, 70, 71, 71a, 71b, 71c, 71d, 71e, 71f,
+  73, 74, 75, 75a, 77, 79, 81, 81a, 83, 83a, 84, 85, 87, 100, 103, 104a, 121, 122, 122a, 124, 125, 125a, 125b, 125c,
+  126, 127a, 127b, 127c, 127d, 127e, 127f, 128, 129, 129a, 129b, 129c, 130 und 131; die **Dossier-Hausnummer 61
+  existiert** als **way/291288595** mit `addr:housenumber`=61, `addr:street`=Lippstädter Straße,
+  `addr:city`=Rheda-Wiedenbrück, `addr:postcode`=33378 und `building`=yes - das Objekt trägt **weder** `name=` **noch**
+  `operator=`; eine Namenssuche nach **„Sasse“** und **„Kathöfer“** über die Felder name, operator, description,
+  website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer. Quelle 1
+  (Register/Identität): der im Dossier bereits zitierte **GLEIF-Datensatz** LEI **391200DERUQIA2FILR68** (live am
+  26.10.2026 gelesen) führt **Schrott-Sasse GmbH & Co. KG, HRA 5881, Lippstädter Str. 61, 33378 Rheda-Wiedenbrück**,
+  entity **ACTIVE**, LEI-Status ISSUED, letzte Aktualisierung 18.04.2026; der **lokale Zeitungsbericht vom 02.01.2020**
+  (im Dossier zitiert) belegt dagegen, dass **Hermann Sasses** Betrieb am **Südring** und **Christina Sasses** Betrieb
+  an der **Lippstädten Straße** bereits 2019 endeten und beide unter **Hermann Kathöfer** in Langenberg vereinigt wurden
+  - die **KG** wird also **nicht** durch diese Zeitungsgeschichte als Nachfolgerin belegt, und umgekehrt ist die KG
+  **keine** Fortführung der beiden historischen Betriebe. Quelle 2 (OSM): das live abgerufene Kachelraster
+  8.3000/51.8100–8.3300/51.8400 mit way/291288595 **ohne** Betriebsbezug. **Warum keine Koordinate:** Die Seed-Zeile ist
+  ein generischer Nachname; die im Dossier ausdrücklich als **historische Betriebsorte** und **nicht zur aktuellen
+  Geokodierung freigegeben** bezeichneten Adressen **Lippstädter Str. 61** und **Südring 107** dürfen nicht
+  stillschweigend zu einem Betriebsstandort werden, und der existierende OSM-Adressknoten trägt **keinen**
+  Betriebsbezug. **Was zur Auflösung fehlt:** die Zuordnung des Seeds zu einem bestimmten Sasse-Betrieb **und** ein
+  aktueller Beleg für eine öffentliche Schrottannahme an der dann einschlägigen Anschrift. `clear_fields: 'geo'`
+  **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/291288595/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3000,51.8100,8.3300,51.8400 ;
+  https://api.gleif.org/api/v1/lei-records/391200DERUQIA2FILR68 ;
+  https://www.die-glocke.de/kreis-guetersloh/rheda-wiedenbrueck/artikel/wiedervereinigung-im-schrottgewerbe-1624316601
+  (Abruf 04.11.2026).]

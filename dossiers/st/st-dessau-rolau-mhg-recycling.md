@@ -150,3 +150,38 @@ steht weiterhin beim Vorgänger „Transporte und Altmetallhandel Horst Haberman
 - [Recherche 30.10.2026: **Preise (Ankauf / Verkauf / Gebühren) unverändert, offene Punkte bestätigt.** ANKAUF: tagesaktuelle Liste, Stand 27.10.2026, 14 Positionen (siehe oben). VERKAUF: keine Verkaufspreise. GEBÜHREN: Containerdienst (7–10 m³ Absetzer, 20 m³ und 40 m³ Abroller) und Demontage ohne veröffentlichten Tarif; eine Abholung von Schrott wird nicht angeboten, die Anlieferung am Standort dagegen ausdrücklich. **Offen für den Owner (unverändert bestätigt):** (1) Existenz und Sitz der HRB 37461 sind im amtlichen Portal nicht bestätigt; (2) der Efb-Status nach dem Betreiberwechsel — das Zertifikat steht weiterhin auf Habermann, MHG sollte um die eigene Anzeige nach § 56 KrWG gebeten werden; (3) für einen Preis-Handler: der Materialkatalog enthält keinen Altpapier-Eintrag, und der Slot `stahlschrott-shredder` ist auf EUR/t gepflegt, während MHG in EUR/kg rechnet (0,08 €/kg = 80 €/t). Quelle(n): wie oben (Abruf 30.10.2026).]
 
 - [30.10.2026 (Korrekturvermerk): **Quellen-URL berichtigt**: die zitierte Angabe `https://api.openstreetmap.org/api/0.6/map.json` liefert live HTTP 400 ("The parameter bbox is required"). Die Quelle nennt jetzt das Raster dieses Dossiers (12.2252259/51.8214341/12.2292070/51.8298960). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.2252259,51.8214341,12.2292070,51.8298960 (Abruf 31.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die durch **Betreiberwebsite und amtliches
+  Fachbetrieberegister doppelt belegte** Anschrift **Taubenstraße 37, 06847 Dessau-Roßlau** existiert in OSM **nicht**;
+  das abgetastete Fenster enthält die gesuchte Straße **nachweislich** selbst (der Fensterfehler der letzten Welle liegt
+  hier **nicht** vor). **Quelle 1 (OSM, live abgerufen am 04.11.2026):** Kachelraster über **Dessau-Roßlau/Rolau**
+  (**12.2100/51.8100 bis 12.2500/51.8700**, **24 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, live über
+  `https://api.openstreetmap.org/api/0.6/map.json?bbox=12.2100,51.8100,12.2500,51.8700`): die **Taubenstraße** ist im
+  Raster mit **fünf Objekten** enthalten - **way/25156926** (`highway`=residential, `name`=Taubenstraße, Straßenverlauf
+  51.8269630/12.2267259 bis 51.8283960/12.2275979), **way/217881638** (51.8229341/12.2276106 bis
+  51.8241498/12.2277070), **way/217881637**, **way/217881636** (Fußweg) und **node/12075769974** (`name`=Taubenstraße,
+  `operator`=Dessauer Stromversorgung GmbH, `power`=substation, `note`=unter der Brücke, 51.8284231/12.2273681) - und
+  trägt die **Hausnummern 2** (way/105592979), **4** (way/105593003), **5** (way/88264947), **6** (node/1215947427 und
+  way/105592988; node/1215947427 trägt `name`=**Kamera-Spezialwerkstatt**, `operator`=Ralf Hügle, `shop`=camera,
+  `phone`=+49 340 8591122), **8** (way/105593021) und **10** (way/105592997). Die **Hausnummer 37 existiert im Raster
+  nicht**. Eine Namenssuche nach **„MHG“**, **„Habermann“**, **„Gaudefroy“** und **„Schrott“** in den Feldern name,
+  operator, description, website, contact:website, brand, note und addr:housename findet **keinen** Treffer - es gibt
+  also **keine** OSM-Betriebszuordnung für MHG Recycling oder für Horst Habermann. Quelle 2 (Betreiber/Register, im
+  Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Impressum der Betreiberseite**
+  https://www.mhg-recycling.de/impressum nennt **MHG Recycling GmbH, Taubenstraße 37, 06847 Dessau-Roßlau,
+  Handelsregister Stendal HRB 37461, Geschäftsführer Nicolas Gaudefroy, USt-IdNr. DE462718707, Tel. +49 340 5210947**;
+  das im Dossier bereits dokumentierte **amtliche Fachbetrieberegister** (Auszug 11.08.2026) führt an dieser Anschrift
+  **„Transporte und Altmetallhandel Horst Habermann“** (Zertifikat ZZPT00700034, Lagern und Behandeln, Abfallschlüssel
+  160106) und bestätigt damit **Standort** und **Tätigkeit** unabhängig vom Betreiberauftritt. **Warum keine
+  Koordinate:** in OSM existiert **nur die Straßenlinie**; ein Punkt darauf wäre eine geratene Hofposition; der
+  zurückgenommene Produktionspunkt **51.7574/11.4608** (Herrenbreite 13b, Wohnhaus) bleibt mit `clear_fields: 'geo'`
+  zurückgenommen. **Was zur Auflösung fehlt:** ein OSM-Objekt mit `addr:housenumber`=**37** und `addr:street`=Taubenstraße
+  (oder ein benannter Betriebspunkt „MHG Recycling“/„Habermann“ an dieser Adresse); `street`, `postcode`, `phone`,
+  `email`, `opening_hours`, `website`, `website_status`, `description`, `dropoff_json`, `pickup_json` und
+  `status: pruefung` bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.2100,51.8100,12.2500,51.8700 ;
+  https://api.openstreetmap.org/api/0.6/way/25156926/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/1215947427.json ;
+  https://www.mhg-recycling.de/impressum ;
+  https://schrottregister.pages.dev/betrieb-transporte-und-altmetallhandel-horst-habermann-dessau-rosslau (Abruf 04.11.2026).]

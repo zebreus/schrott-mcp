@@ -64,3 +64,42 @@ Der Identitätslead ist weiterhin ein wlw-Profil „SMI Metallrecycling“ an Am
 ### Recherche 01.10.2026 (Feedback-Triage fb2489)
 
 - [Recherche 01.10.2026: Feedback fb2489 berechtigt bestätigt — smi-metallrecycling.de liefert 01.10.2026 weiterhin nur Platzhalter „BALD VERFÜGBAR" (/offline/coming_soon.svg, keine Firmen-/Kontaktdaten); keine Frontmatter-Füllung möglich; DB-Koordinaten 51.6993/8.0389 ca. 40 km von Münster = Platzhalter-Zentroid, kein Adressbeleg; status pruefung bleibt; Quelle(n): smi-metallrecycling.de/ (eine Quelle, Zweitbeleg offen)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **SMI Metallrecycling** (Münster) stehen
+  **zwei konkurrierende Anschriften** nebeneinander, und beide beruhen auf **Branchenverzeichnis-Profilen**; die
+  zugehörige Domain ist ein **Bautstellenhinweis**. **Was live geprüft wurde (04.11.2026):** (a) Das Kachelraster über
+  Münster-Sprakel (7.6000/52.0200 bis 7.6300/52.0500, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen)
+  erfasst die **Am Schild** mit **34** Adressobjekten und den Hausnummern 1, 3, 5, 7, 8, 9, 9a, 10, **11**, 11a, 12,
+  12a, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 24a, 25, 26, 26a, 27, 28, 29, 30, 34, 36 und 38; die
+  **Dossier-Adresse „Am Schild 11“ existiert** als **way/299511188** mit `addr:housenumber`=11, `addr:street`=Am Schild,
+  `addr:city`=Münster, `addr:postcode`=48159, `addr:suburb`=Sprakel und `building`=yes (`source`=NRW Atlas (ALK)) - das
+  Objekt trägt **weder** `name=` **noch** `operator=`. (b) Im **selben** live abgerufenen Raster ist die **zweite**
+  Adressspur des Dossiers abbildbar: die **Sprakeler Straße** trägt dort **182** Adressobjekte mit **154** verschiedenen
+  Hausnummern und die **Hausnummer 34e existiert** als **way/300665034** mit `addr:housenumber`=34e,
+  `addr:street`=Sprakeler Straße, `addr:city`=Münster, `addr:postcode`=48159 und `building`=yes, ebenfalls **ohne**
+  Betriebsbezug. (c) Namenssuchen nach **„Ikram“** und **„SMI“** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename finden im Raster **keinen** Treffer - es gibt **keine**
+  OSM-Betriebszuordnung. Quelle 1 (Betreiber/Verzeichnis): das **wlw-Branchenprofil**
+  https://www.wlw.de/de/firma/smi-metallrecycling-1786787 wurde am 04.11.2026 live gelesen und führt „**Smi
+  Metallrecycling, Am Schild 11, 48159 Münster, Deutschland**“ als nationaler Dienstleister („rund um Schrottabholung,
+  Demontagen, Abbrucharbeiten“); das **Marktplatz-Mittelstand-Profil**
+  https://www.marktplatz-mittelstand.de/muenster/smi-metallrecycling-aWPKf4.html nennt **0176 32738749** und die
+  Leistungen Metall-/Kabelankauf, Schrottentsorgung, Abbruch und Industriedemontage, seine sichtbaren **Bewertungen
+  stammen aber von 2012–2014** und sind **kein** Aktualitätsbeleg; die **zugeordnete Domain**
+  https://smi-metallrecycling.de/ liefert am 04.11.2026 live nur **„Wir arbeiten gerade an unserer Website - BALD
+  VERFÜGBAR“** ohne Impressum, Firmenkontakt, Leistungen oder Preise. Quelle 2 (OSM): das live abgerufene Kachelraster
+  7.6000/52.0200–7.6300/52.0500 mit way/299511188 und way/300665034 **ohne** Betriebsbezug. **Warum keine Koordinate:**
+  Es stehen **zwei** Adressen (Am Schild 11 und Sprakeler Straße 34e) für **einen** nicht betreiberbestätigten Namen
+  nebeneinander, und der Bezug zwischen Seed und Profil ist nicht unabhängig belegt; jeder Punkt müsste **eine** der
+  beiden Adressen willkürlich auswählen und würde einen aktiven Schrotthandel suggerieren, den keine Quelle trägt. **Was
+  zur Auflösung fehlt:** ein lesbarer Betreiberauftritt (Impressum) **oder** ein Registerbeleg, der **eine** der beiden
+  Anschriften dem Betrieb zuordnet und den Standort als Gewerbe- bzw. Recyclinghof bestätigt. `clear_fields: 'geo'`
+  **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/299511188/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/300665034/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6000,52.0200,7.6300,52.0500 ;
+  https://www.wlw.de/de/firma/smi-metallrecycling-1786787 ;
+  https://www.marktplatz-mittelstand.de/muenster/smi-metallrecycling-aWPKf4.html ; https://smi-metallrecycling.de/
+  (Abruf 04.11.2026).]

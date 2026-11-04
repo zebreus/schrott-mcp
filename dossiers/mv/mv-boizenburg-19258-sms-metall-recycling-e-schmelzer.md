@@ -53,3 +53,34 @@ Der am 18.10.2026 im unabhängigen Review direkt gelesene Auftritt unter smsrecy
 
 - Altmetall
 - Adresse: Boizenburg 19258, Bahnhofstr. 13
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Seed-Adresse **Bahnhofstr. 13** existiert in
+  OSM **nicht**, und der einzige belegte Betreiberauftritt nennt **nicht** Boizenburg - eine Koordinate wäre hier eine
+  erfundene Zuordnung. Quelle 1 (OSM, live abgerufen am 04.11.2026): das Kachel-/Zellraster über Boizenburg umfasst
+  **10.7000/53.3400 bis 10.7400/53.4200** (**8 Zellen von je 0,02 Grad** im Ortsbereich, **0 Fehler**, live über
+  `https://api.openstreetmap.org/api/0.6/map.json?bbox=10.7000,53.3600,10.7200,53.3800` u. a.); das Fenster enthält
+  Boizenburg **nachweislich** - die Zellen
+  tragen die **Postleitzahl 19258** mit **2727** Adressobjekten sowie über **120** kartierte Straßen (u. a. Markt,
+  Schwartower Straße, Hamburger Straße, Königstraße, Goethe-, Schiller-, Richard-Markmann-, Stift-, Paulsen-,
+  Friedenstraße, Am Stadtpark, Lange Straße, 1.-4. Twiete) - eine Straße mit dem Namen **„Bahnhofstraße"** oder
+  „Bahnhofstr." kommt dort **nicht** vor, ein Objekt mit Bezug zu „SMS Metall Recycling" ebenso wenig. Quelle 2
+  (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Impressum**
+  https://www.smsrecycling.de/impressum/ liefert **HTTP 200** und nennt live **„Name des Unternehmens: SMS Metall
+  Recycling, Eingetragener Firmensitz: In den Wiesenhöfen 34, 27383 Scheeßel, Kontaktinformationen:
+  tel:017668232814, E-Mail: e.schmelzer@smsrecycling.de, USt.-ID-Nr. DE301515073"** - **kein Boizenburg-Bezug**, weder zur
+  Anschrift noch zu einem Umzug; der E-Mail-Lokalteil „e.schmelzer" ist ein Identitätslead, aber kein Nachweis für eine
+  Boizenburger Filiale oder Rechtsnachfolge; die im Dossier zitierte historische Domain **sms-recycling.de** gehört einer
+  fremden SMS Recycling GmbH & Co. KG und wurde **nicht** verknüpft. **Warum keine Koordinate:** (a) die
+  Dossier-Adresse **Bahnhofstr. 13** hat im OSM-Bestand **kein** Gegenstück - die Straße existiert dort nicht; (b) die
+  **zweite Quelle** (Betreiberauftritt) spricht für **Scheeßel** und damit **gegen** Boizenburg, eine Gleichsetzung wäre
+  eine unbelegte Behauptung; (c) die Seed-Adresse hat laut Dossier-Historie **keinen Zweitbeleg** (Zweitbeleg-Suche vom
+  01.10.2026 negativ), eine öffentliche Annahme oder ein Preisansgebot ist nicht belegt. **Was zur Auflösung fehlt:** ein
+  lesbarer Betreiberauftritt, der **Boizenburg** ausdrücklich nennt (Impressum, Kontakt- oder Anfahrtsseite), oder
+  ein OSM-Objekt mit Betriebsbezug an einer Boizenburger Bahnhofstraße - sowie die Bestätigung der Hausnummer 13.
+  `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen Ersatzpunkt), `city`, `street`, `postcode` (leer), `phone`,
+  `email`, `opening_hours`, `website`, `website_status` und `description` (leer) bleiben unverändert,
+  `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.7000,53.3600,10.7200,53.3800 ;
+  https://www.smsrecycling.de/impressum/ ; https://www.smsrecycling.de/ (Abruf 04.11.2026).]

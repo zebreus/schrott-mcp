@@ -68,3 +68,44 @@ Registerzweck umfasst Abschleppen/Bergung, Autoverwertung/Entsorgung, Fahrzeug- 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein Befund — Gelbe Seiten kennt kein »RILEI« in Kalbe (nur Riley-Rauschen), Örtliches listet unter Autoverwertung/Kalbe nur Betriebe aus Gardelegen/Klötze/Dähre, kein RILEI; kein Fill, status weiter pruefung; Quelle(n): https://www.gelbeseiten.de/suche/rilei/kalbe und https://www.dasoertliche.de/Themen/Autoverwertung/Kalbe.html.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für die im Dossier belegte Anschrift
+  **„Cheinitzer Rundling 44 / Zum Rundling 44, 39624 Kalbe (Milde)“** existiert in OSM **kein** adressgenaues Objekt;
+  die beiden live abgetasteten Fenster umfassen **Kalbe (Milde) einschließlich der Ortsteile** nachweislich, der
+  gesuchte Straßenname existiert dort aber **nicht**. **Quelle 1 (OSM, live abgerufen am 04.11.2026):**
+  (a) Kachelraster über **Kalbe (Milde) West** (**11.3200/52.6000 bis 11.4400/52.7000**, live über
+  `https://api.openstreetmap.org/api/0.6/map.json?bbox=11.3200,52.6000,11.4400,52.7000`): das Raster enthält den Ort
+  **Kalbe (Milde)** selbst (place=town, 52.6562/11.3872) sowie die Ortsteile **Faulenhorst** (52.6582/11.3324),
+  **Wernstedt** (52.6457/11.3378), **Neu Wernstedt** (52.6334/11.3352), **Schenkenhorst** (52.6032/11.3947),
+  **Vahrholz** (52.6790/11.3870), **Altmersleben** (52.6853/11.4244), **Klein Engersen**, **Engersen**, **Bühne** und den
+  Ortsteil **Dolchau** - eine Namenssuche nach **„Rundling“**, **„Cheinitz“** und **„Rilei“** über die Felder name,
+  operator, description, website, contact:website, brand, note und addr:housename findet **keinen** Treffer, und es
+  gibt **kein** Objekt mit `addr:street`=Cheinitzer Rundling oder Zum Rundling. (b) das Ergänzungsraster über
+  **Kalbe (Milde) Ost** (**11.3800/52.5800 bis 11.5000/52.7000**) enthält **Kassieck**, **Karritz**, **Kremkau**,
+  **Neuendorf am Damm**, **Berkau**, **Eichenhof**, **Butterhorst**, **Algenstedt** und **Kalbe (Milde)** - ebenfalls
+  **kein** „Rundling“ und **kein** „Cheinitz“. Ein Kontrollscan des **gesamten** Ortsbereichs Kalbe (Milde) in zwei
+  0,10°-Schritten (11.32–11.50 / 52.58–52.70) findet damit **weder** die Straße **noch** die Hausnummer **44**.
+  Quelle 2 (Betreiber/Register, im Dossier bereits zitiert): der **GLEIF-Datensatz** zu LEI
+  **529900TGM8IAAPLG8W46** (live abgerufen 27.10.2026) nennt Rechtsträger **Rilei Automobile GmbH**, `registeredAs`
+  **HRB 737**, `legalAddress` **Zum Rundling 44, Cheinitz, 39624** und `headquartersAddress` **Cheinitzer Rundling 44,
+  Kalbe (Milde), 39624** - der Datensatz weist aber selbst `entity.status: ACTIVE` bei `registration.status: LAPSED`
+  und `lastUpdateDate: 19.07.2021` aus; das **Golden-Copy-Publishdatum** ist kein Betriebsprüfdatum. Der im Dossier
+  zitierte **NorthData-Registerabdruck** (HRB 737 Stendal, ehemaliger Name RILEI Autoverwertung GmbH Badel) und das
+  **Verzeichnisprofil auto-werkstatt.de** („Rilei Automobile GmbH, Cheinitzer Rundling 44, 39624 Kalbe, 039001 90922,
+  Ansprechpartnerin Nicole Wernecke“) sind **kein** Standortbeleg; das Verzeichnis ist ausdrücklich **ungeprüft** und
+  nennt als Spezialisierung nur **Autoreparatur**. **Warum keine Koordinate:** OSM kennt die Straße nicht; eine
+  Position auf die Ortsteil-Fläche „Cheinitz“ oder auf ein Nachbarobjekt wäre **geraten**; der zurückgenommene
+  Produktionspunkt **53.2934/9.5506** (Kalbe in **Niedersachsen**, Kreis Rotenburg - also ein **anderer** Ort) bleibt
+  mit `clear_fields: geo` zurückgenommen. **Was zur Auflösung fehlt:** ein OSM-Objekt mit `addr:street`=Cheinitzer
+  Rundling bzw. `addr:housenumber`=44 und `addr:postcode`=39624 (oder ein benannter Betriebspunkt „Rilei“) - vor allem
+  aber ein **aktueller Gewerbe-/Betriebsbeleg**, der die heutige Tätigkeit als Autoverwertung an dieser Anschrift
+  bestätigt (LEI-Registrierung ist LAPSED, die Domain rilei.de steht zum Verkauf, die Autoverwertung ist nicht
+  belegt); `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status`, `description` und
+  `status: pruefung` bleiben unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.3200,52.6000,11.4400,52.7000 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.3800,52.5800,11.5000,52.7000 ;
+  https://api.gleif.org/api/v1/lei-records/529900TGM8IAAPLG8W46 ;
+  https://www.northdata.de/Rilei+Automobile+GmbH,+Kalbe+(Milde)/Amtsgericht+Stendal+HRB+737 ;
+  https://www.auto-werkstatt.de/kalbe/rilei-automobile-gmbh-aULLNy (Abruf 04.11.2026).]

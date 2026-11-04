@@ -45,3 +45,38 @@ Registerhistorie und aktueller Betreiberauftritt klären die Rechtsnachfolge bes
 
 - Abbruch/Eisen
 - Adresse: Gadebusch 19205
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **2a** ist in OSM **nicht**
+  erfasst; das abgetastete Fenster enthält die gesuchte Straße **nachweislich** selbst (der Fensterfehler der letzten
+  Welle liegt hier **nicht** vor). Quelle 1 (OSM, live abgerufen am 04.11.2026): das Kachelraster über
+  Reinhardtsdorf umfasst **11.1500/53.6900 bis 11.1700/53.7100**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**;
+  das Fenster enthält die gesuchte Straße **nachweislich** mit den Straßenobjekten **way/53334045** (tertiary),
+  **way/230394778** (unclassified) und den Ortseingangs-/Stützpunktknoten **node/361398046**, **node/2706717064**,
+  **node/674535693** sowie **13** Adressobjekten auf „Reinhardtsdorf" mit **13** verschiedenen Hausnummern (**1, 2, 3, 4,
+  4a, 5, 6, 7, 8, 8a, 9, 10, 11**) - die belegten Nummern springen von **2** direkt auf **3**, die **Hausnummer 2a fehlt**.
+  Ein Objekt mit Betriebsbezug (name/operator auf „Kieswerk", „Harder" oder einem Kies-/Industrieflächen-Tag) findet sich
+  im Fenster **nicht**; der nächstliegende Kandidat wäre das Nachbarobjekt **way/550947009** (`addr:housenumber`=2,
+  `building`=yes, Mittelpunkt 53.7021015/11.1597337), das aber eine **andere** Hausnummer trägt. Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Impressum** der
+  Betreiberseite https://kieswerk-harder.de/impressum liefert **HTTP 200** und nennt live **„Kieswerk Harder GmbH & Co.
+  KG, Reinhardtsdorf 2a, 19205 Gadebusch, Geschäftsführer: Axel Guttmann, Fon: 03886/712651, Mail:
+  info@kieswerk-harder.de, Amtsgericht: Schwerin, HR-Nr.: 6858"** (die abweichende HR-Nr. 6858 gegenüber der aktuellen
+  **HRA 4373** bleibt wie im Dossier offengelegt); der **NorthData-Datensatz HRA 4373** nennt ebenfalls **Reinhardtsdorf
+  2 A, 19205 Gadebusch** mit Zweck Kieswerk, Bauabfallverwertung, Lagerung und Baustoffhandel. **Warum keine
+  Koordinate:** (a) die Dossier-Hausnummer **2a** existiert in OSM **nicht**, und der Punkt des Nachbarobjekts „2" würde
+  ein **anderes** Haus bezeichnen; (b) ein OSM-Objekt mit **Betriebsbezug** (Kieswerk/Industrie) ist an der Anschrift
+  **nicht** kartiert, der Punkt würde also einen gewerblichen Standort nur behaupten; (c) die im Dossier dokumentierten
+  Prüfpunkte - **kein öffentlicher Metall- oder Schrottankauf**, mineralische Produkte (Kies/Sand, Beton-/Ziegelrecycling),
+  kein bestätigter EFB-/Demontagebetrieb, keine amtliche Registerbestätigung des Impressums - bleiben unverändert.
+  **Was zur Auflösung fehlt:** ein OSM-Objekt mit `addr:housenumber`=**2a** und `addr:street`=Reinhardtsdorf (oder ein
+  benannter Betriebspunkt „Kieswerk Harder") in 19205 Gadebusch. `clear_fields: 'email,geo'` **bleibt** unverändert
+  bestehen (es gibt keinen Ersatzpunkt, die E-Mail-Rücknahme aus dem Dossier vom 26.10.2026 wird nicht berührt),
+  `status: pruefung`, `city`, `street`, `postcode`, `phone`, `website`, `website_status` und `description` bleiben
+  unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.1500,53.6900,11.1700,53.7100 ;
+  https://api.openstreetmap.org/api/0.6/way/550947009/full.json ;
+  https://kieswerk-harder.de/impressum ;
+  https://www.northdata.de/Kieswerk%20Harder%20GmbH%20%26%20Co%C2%B7%20KG,%20Gadebusch/Amtsgericht%20Schwerin%20HRA%204373
+  (Abruf 04.11.2026).]

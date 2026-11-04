@@ -1,6 +1,7 @@
 ---
 slug: st-petersberg-wallwitz
-clear_fields: 'geo'
+lat: 51.5808356
+lon: 11.9254789
 name: Wallwitz
 trader_type: autoverwertung
 state: ST
@@ -61,3 +62,43 @@ Der Ortsbezug Wallwitz liefert mehrere voneinander abweichende Autoverwertungs-K
 
 - Autoverwertung
 - Adresse: Petersberg
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.5808356/11.9254789** (Mittelwert der **1**
+  eindeutigen Knoten des Objekts **node/9810388740** - ein Objektknoten, der Mittelwert ist damit deckungsgleich mit dem
+  Knoten und liegt innerhalb der Objekt-BBox 11.9254789/51.5808356 bis 11.9254789/51.5808356). Quelle 1 (OSM):
+  **node/9810388740** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/node/9810388740.json`, HTTP 200) `addr:street`=Am Kulturhaus,
+  `addr:housenumber`=**7**, `addr:city`=Petersberg, `addr:suburb`=**Wallwitz**, `addr:postcode`=**06193**,
+  `addr:country`=DE - die Dossier-Adresse existiert damit **unabhängig** in OSM und **straßengenau**. Das Objekt trägt
+  **weder** `name=` **noch** `operator=` und **keinen** Branchentag; der Punkt bezeichnet die belegte Anschrift, keinen
+  verifizierten Demontagehof. **Fensterdisziplin:** das am 04.11.2026 live abgerufene Kachelraster über
+  **Wallwitz/Petersberg** (**11.9200/51.5700 bis 11.9400/51.5900**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**)
+  enthält die gesuchte Straße tatsächlich: die **Am Kulturhaus** (way/129133861, `highway`=residential) ist im Raster
+  mit den Hausnummern **1** (node/9810388746), **2** (node/9810388745), **3** (node/9810388744), **4**
+  (node/9810388743), **5** (node/9810388742), **6** (node/9810388741) und **7** (node/9810388740) vertreten - die
+  **Dossier-Hausnummer 7 existiert** und ist im Raster das einzige Objekt dieser Nummer auf dieser Straße. Quelle 2
+  (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): (a) die **11880**-Detailseite
+  https://www.11880.com/branchenbuch/petersberg-bei-halle/060440459B27311566/fahrzeug-verwertung-wallwitz.html führt
+  **„Fahrzeug-Verwertung Wallwitz“** mit **Am Kulturhaus 7, 06193 Petersberg bei Halle**, Telefon **(034606) 20449**,
+  Fax (034606) 21166, Öffnungszeiten Mo–Fr 08:00–17:00 und der Portalkoordinate **11.925479/51.580836** - die
+  Portalkoordinate deckt sich mit dem gewählten OSM-Knoten auf **weniger als 1 m**. (b) das im Dossier zitierte
+  **eBay-Verkäuferprofil „BK Fahrzeugverwertung Wallwitz“** (Über-uns-Tab, live gelesen am 21.10.2026) nennt
+  **„Ricardo Beutel & Martin Kolbe GbR / BK Racing GbR, Am Kulturhaus 7, Wallwitz, 06193 Petersberg, Tel. 034606 20449,
+  USt-ID DE267212096“** - **dieselbe Hausnummer und dieselbe Telefonnummer** wie die 11880-Adresse; das im Dossier
+  zitierte **Das Örtliche** führt **„Martin Kolbe & Ricardo Beutel GbR / Fahrzeugverwertung“** an derselben Adresse.
+  **Qualifizierung (wichtig):** die im Dossier dokumentierte **Gegenkandidatur** „Kfz-Verwertung Wallwitz Heinrich
+  Rasche KG, **Am Kulturhaus 2**“ (Verzeichnis recyclingpool) bleibt **offen** - die **Hausnummer 2** existiert in OSM
+  ebenfalls (node/9810388745), und die Verbindung zwischen BK/Beutel/Kolbe und der Rasche KG sowie die **eindeutige
+  Zuordnung zum Seed-Namen „Wallwitz“** sind nicht registerlich belegt; ein **Betreiberauftritt mit Impressum** fehlt,
+  und die Domain fahrzeug-verwertung-wallwitz.de liefert HTTP 500. Die Koordinate adressiert den Standort, den die
+  **drei** übereinstimmenden Quellen (11880 mit exakt passender Portalkoordinate, eBay-Betreiberselbstauskunft, Das
+  Örtliche) für den **Seed-Namen „Wallwitz“** nennen; der Widerspruch zur Rasche-KG-Spur bleibt ausdrücklich
+  dokumentiert. `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status`, `description`,
+  `dropoff_json`, `pickup_json` und `status: pruefung` bleiben unverändert; es wird weder Fortbestand noch Schließung
+  behauptet. `clear_fields: 'geo'` **entfällt**, weil die Koordinate nun belegt vorliegt und der Seed `geo` neben
+  belegtem `lat`/`lon` ablehnt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/9810388740.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.9200,51.5700,11.9400,51.5900 ;
+  https://www.11880.com/branchenbuch/petersberg-bei-halle/060440459B27311566/fahrzeug-verwertung-wallwitz.html ;
+  https://www.ebay.de/str/bkfahrzeugverwertungwallwitz?_tab=about (Abruf 04.11.2026).]

@@ -47,3 +47,28 @@ Neue Spur ist das Facebook-Profil „Mrad Schrotthandel Metallhandel“ unter se
 
 - 01511-Nr. (Backyard-Typ)
 - urspr. Website-Angabe: keine gefunden
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Mrad Schrott und Metallhandel** (Lippstadt)
+  existiert **keine** belastbare Händleradresse; die einzige Spur ist ein **Facebook-Profil**, dessen Inhalt nicht
+  abrufbar ist. **Was live geprüft wurde (04.11.2026):** Das Kachelraster über Lippstadt (8.3100/51.6500 bis
+  8.3600/51.7000, **25 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) wurde vollständig ausgewertet: eine
+  Suche über `name`, `operator`, `brand`, `website`, `contact:website`, `description`, `note`, `short_name`,
+  `official_name` und `addr:housename` nach **„Mrad“** und **„Sena“** liefert **keinen** Treffer - es gibt **keine**
+  OSM-Betriebszuordnung. Eine adressgenauere Zuordnung ist mangels Anschrift gegenstandslos; der im Dossier
+  dokumentierte Suchindex-Treffer zum Facebook-Profil „Mrad Schrotthandel Metallhandel“ (sena.sena.564) gibt nur den
+  **Profilnamen** wieder. Quelle 1 (Betreiber/Verzeichnis): das im Dossier zitierte **Facebook-Profil**
+  https://www.facebook.com/sena.sena.564 wurde erneut geprüft - der Direktabruf liefert **keinen auswertbaren
+  Betreiberinhalt** (kein Sitz in Lippstadt, kein vollständiger Name, keine Telefonnummer, keine Anschrift, kein
+  Impressum); die im Dossier dokumentierte Suche nach **„Mrad“ + „Lippstadt“** und **„Mrad“ + „01511“** bleibt ohne
+  Treffer, die Seed-Nummer **„01511“** ist **unvollständig** und wird **nicht** ergänzt, und andere Lippstädter
+  Ankauf-Landingpages werden **nicht** zugerechnet. Quelle 2 (OSM): das live abgerufene Kachelraster
+  8.3100/51.6500–8.3600/51.7000 **ohne** jeden Objektbezug zu „Mrad“. **Warum keine Koordinate:** Es liegt **keine**
+  belegte Adresse vor; jeder Punkt müsste geraten werden. Zusätzlich ist offen, ob es sich überhaupt um einen
+  **Betriebshof** handelt oder um einen **mobilen** Dienst (Seedtyp mobil/unklar), und die unvollständige Nummer lässt
+  keine zusätzliche Zuordnung zu. **Was zur Auflösung fehlt:** ein lesbarer Betreiberauftritt oder Registerbeleg mit
+  **Anschrift und vollständigem Namen** (sowie die Klärung Abholgebiet versus Betriebshof). `clear_fields: 'geo'`
+  **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3100,51.6500,8.3600,51.7000 ;
+  https://www.facebook.com/sena.sena.564 (Abruf 04.11.2026; Direktabruf ohne auswertbaren Inhalt).]

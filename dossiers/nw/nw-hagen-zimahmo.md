@@ -1,5 +1,7 @@
 ---
 slug: nw-hagen-zimahmo
+lat: 51.3339207
+lon: 7.4744235
 name: ZIMAHMO
 trader_type: mobil
 state: NW
@@ -12,7 +14,6 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -47,3 +48,35 @@ Der Live-Auftritt `zimahmo-schrotthandel.de` benennt „ZIMAHMO Schrotthandel“
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Kein eindeutig zuordenbarer Betreiberauftritt, Impressum, Register- oder Kommunalbeleg zu „ZIMAHMO“ in Hagen verifiziert; die Websuche lieferte keine belastbare Identitäts-/Standortquelle. NorthData-Namenssuche zeigte nur unscharfe, unpassende „Mahmoud“-Treffer ohne Hagen-Bezug (keine negative Registerauskunft). Deshalb keine Frontmatter-Fills, keine Telefonnummer, Adresse oder Koordinaten geraten; status bleibt pruefung, ohne Schließungsbehauptung. Quelle(n): keine belegfähige Quelle; Suchprotokolle (kein Sachbeleg): https://www.bing.com/search?q=%22ZIMAHMO%22+Hagen; https://www.northdata.de/?query=ZIMAHMO]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.3339207/7.4744235** (Mittel der **10**
+  eindeutigen Knoten von way/139550294; die BBox der eindeutigen Knoten reicht von 51.3337847/7.4742843 bis
+  51.3340095/7.4745375 und **umschließt den Mittelwert**). Quelle 1 (OSM): way/139550294 trägt `addr:housenumber`=213a,
+  `addr:street`=Selbecker Straße, `addr:city`=Hagen, `addr:postcode`=58091 und `building`=yes (live geladen am
+  04.11.2026, HTTP 200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die belegte Anschrift und
+  keine verifizierte Zufahrt, Waage oder Annahmefläche. Das am 04.11.2026 live abgerufene Kachelraster über Hagen-Eilpe
+  (7.4500/51.3100 bis 7.5000/51.3600, **25 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst die **Selbecker Straße**
+  mit **239** Adressobjekten und **223** verschiedenen Hausnummern (1–288, darunter 101a, 103a, 111a, 114a, 120a, 129a,
+  131a, 132a, 138a, 140a, 151a, 151b, 153a, 154a, 158a, 161a, 162a, 166a, 167a, 169a, 179a, 185a, 187a, 187b, 187c,
+  187d, 189a, **213a**, 214a, 216a, 239a, 239b, 239d, 239e, 240a, 240b, 240c, 240d, 240e, 241, 242, 243, 244, 246, 248,
+  248a, 250a, 252a, 261, 263, 267, 267a, 270, 271, 272, 272a, 274, 282, 288) - die **Dossier-Hausnummer 213a existiert**
+  und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße (die Nachbarnummer 213 trägt ein Restaurant
+  „Rosengarten“); eine Namenssuche nach **„ZIMAHMO“** und **„Boumaza“** über die Felder name, operator, description,
+  website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer, es gibt also **keine**
+  OSM-Betriebszuordnung. Quelle 2 (Betreiber): das **Impressum** der Betreiberseite
+  https://zimahmo-schrotthandel.de/index.php/impressum/ nennt **Lies Boumaza, ZIMAHMO Schrotthandel (Einzelunternehmer),
+  Selbecker Str. 213a, 58091 Hagen**, Telefon +49 (0)176 702 955 06 und E-Mail info@zimahmo-schrotthandel.de (live
+  abgerufen 04.11.2026); die Startseite https://zimahmo-schrotthandel.de/ bewirbt mobile Schrottabholung für Privat und
+  Gewerbe in NRW, Demontage und Entrümpelungen. Der im Dossier bereits zitierte 11880-Profilspiegel („Vom Inhaber
+  bestätigt“) bleibt ein Aggregator und ist kein unabhängiger Zweitbeleg; die Betreiber-Primärquelle trägt die Adresse
+  allein. Der bisher gespeicherte Produktionspunkt **51.90933/7.88825** (Mehringen, Kreis Warendorf, laut
+  read-only-Abgleich vom 24.10.2026) wird durch diesen Punkt ersetzt. `clear_fields: 'geo'` **entfällt**, weil die
+  Koordinate nun belegt vorliegt; `status: pruefung`, `street`, `postcode`, `phone`, `email`, `website`,
+  `website_status`, `description`, `dropoff_json` und `pickup_json` bleiben unverändert - insbesondere bleibt der
+  Eintrag ein **Prüfdatensatz**, weil ein zweiter unabhängiger Betreiber-/Registerbeleg zur Seed-Zeile fehlt und die
+  Zustellart des mobilen Dienstes nicht als öffentliche Annahmestelle belegt ist. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/139550294/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4500,51.3100,7.5000,51.3600 ; https://zimahmo-schrotthandel.de/
+  ; https://zimahmo-schrotthandel.de/index.php/impressum/ (Abruf 04.11.2026).]

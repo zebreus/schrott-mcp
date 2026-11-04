@@ -1,5 +1,7 @@
 ---
 slug: mv-mollenhagen-17219-wertstoffaufbereitungszentrum-freidorf
+lat: 53.5240171
+lon: 12.9163581
 name: Wertstoffaufbereitungszentrum Freidorf GmbH
 trader_type: wertstoffhaendler
 state: MV
@@ -13,7 +15,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: 'Wertstoffaufbereitung/Entsorgung (HRB 4382 AG Neubrandenburg); heutige Betreiber- und Standortzuordnung ungeklärt.'
-clear_fields: 'geo,phone'
+clear_fields: 'phone'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -56,3 +58,48 @@ Die überlieferten Standortangaben Industriegelände 1/039928 70090 und Chaussee
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Teilfund mit WARNHINWEIS — schrottplatz.org listet Industriegelände 1, 17219 Möllenhagen, Tel. 039928/70090, Fax 039928/70024 (einziger Adress-/Telefonbeleg, Aggregator-Lead); Register: HRB 4382 (AG Neubrandenburg, via northdata.de + online-handelsregister.de zweitbelegt), Gegenstand Abfall-/Reststoffaufbereitungsanlagen; KRITISCH: online-handelsregister.de führt Status „gelöscht" + Adresse Chaussee 4, 17219 Möllenhagen (ADRESSKONFLIKT Chaussee 4 vs Industriegelände 1; Löschung einzelbelegt/unbestätigt) — daher KEIN status-Wechsel (bleibt pruefung, kein geschlossen ohne Zweitbeleg), Fills (Straße/PLZ/Telefon/description) als Leads mit offener Beleglage; keine Betreiber-Website gefunden. Quelle(n): schrottplatz.org (Adress-/Tel.-Lead); northdata.de + online-handelsregister.de (HRB-Existenz, Löschungs-Hinweis einzelbelegt)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **53.5240171/12.9163581** (Mittel der **4**
+  eindeutigen Knoten von way/234557433; die BBox der eindeutigen Knoten reicht von 53.5239374/12.9161219 bis
+  53.5240967/12.9165942 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/234557433** trägt `addr:street`=Chaussee, `addr:housenumber`=**4**, `addr:postcode`=17219,
+  `addr:city`=Möllenhagen, `building`=yes sowie **`name`=REMONDIS Mecklenburg GmbH** - das Objekt trägt also
+  **Betriebsbezug**. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster über
+  Möllenhagen umfasst **12.9000/53.5100 bis 12.9400/53.5400**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das
+  Fenster enthält die geprüften Straßen **nachweislich** mit **sechs** Straßenobjekten auf „Chaussee" (way/222892559,
+  way/222892569, way/232539831, way/313320946, way/313320947, way/499716184) und **sieben** Adressobjekten dort
+  (Hausnummern 1, 2, 3, **4**, 14, 15) sowie die Adresse **„Industriegelände"** mit **way/419322539**
+  (`addr:housenumber`=**1**), **node/418819687**, **node/6434027092**, **node/6434027129** (alle `addr:housenumber`=1,
+  `addr:city`=Möllenhagen, `addr:postcode`=17219) und **way/148588024**/``way/148588557``/``way/148588558``/
+  ``way/148588559``/``way/419322165``/``way/1442043487`` - **beide** im Dossier konkurrierenden Anschriften sind in OSM
+  erfasst. **Entscheidung der Adressfrage (neu, live geprüft):** die im Dossier offene Zuordnung
+  „Industriegelände 1 = WAZ" vs. „Chaussee 4 = REMONDIS" lässt sich am OSM-Objekt **nicht** gegen die Seed-Adresse
+  entscheiden, wohl aber **über die Verzeichnis-Koordinate**: der **11880-Eintrag**
+  https://www.11880.com/branchenbuch/moellenhagen/060441364B27198211/remondis-seenplatte-gmbh-wertstoffaufbereitung.html
+  liefert **HTTP 200** und nennt live **„REMONDIS Seenplatte GmbH Wertstoffaufbereitung, Chaussee 4 A, 17219
+  Möllenhagen, (039928) 700-0"** - die dort ausgewiesene Standortkoordinate **53.524017/12.916358** fällt mit
+  **unter 0,1 m Abweichung** auf das OSM-Objekt **Chaussee 4** und liegt **523 m** vom Objekt **„Industriegelände 1"**
+  entfernt; die Nummer **039928 700-0** ist zugleich die im Dossier als historische Verzeichnisadresse des WAZ
+  dokumentierte Telefonnummer - die Seed-Adresse „Industriegelände 1" und die REMONDIS-Adresse „Chaussee 4" sind also
+  **nicht** derselbe Ort, und der Betrieb mit der WAZ-Nummer sitzt in OSM **an der Chaussee 4**. Quelle 2
+  (Register, im Dossier bereits zitiert): der **Registerspiegel** (https://www.northdata.de/Wertstoffaufbereitungszentrum+Freidorf+GmbH,+M%C3%B6llenhagen/Amtsgericht+Neubrandenburg+HRB+4382)
+  belegt **Wertstoffaufbereitungszentrum Freidorf GmbH (HRB 4382 AG Neubrandenburg)** als **übertragenden** und
+  **REMONDIS Seenplatte GmbH (HRB 484 AG Neubrandenburg)** als **übernehmenden** Rechtsträger der Verschmelzung vom
+  Dezember 2017; die im Dossier zitierte **SPITZKE-Standortseite** weist **Industriegelände 1, 17219 Möllenhagen**
+  aus und belegt damit die **Zweitbelegung** dieses Grundstücks. **Zurücknahme des `geo`-Tokens (Begründung):**
+  `clear_fields: 'geo,phone'` wurde auf **`'phone'`** gekürzt - nur das Token **geo** wurde entfernt, weil es den am
+  26.10.2026 zurückgenommenen und auf „Am Burgwall 3" fallenden Produktionspunkt (53.5239/12.9287) fernhalten sollte;
+  der hier gesetzte Punkt liegt **exakt** auf dem OSM-Objekt mit Betriebsbezug, während `clear_fields` nicht
+  gleichzeitig `geo` neben belegtem `lat`/`lon` stehen darf. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet den **Standort der REMONDIS-Gruppe** in Möllenhagen (Chaussee 4) als **Rechtsnachfolgerin** der 2017
+  verschmolzenen WAZ - er ist **kein** Beleg für eine heutige **Metall-/Schrottannahme** durch die WAZ selbst, und
+  die **historisierte Seed-Adresse „Industriegelände 1"** bleibt **nicht** übernommen (dieses Grundstück weist die
+  Betreiberseite SPITZKE aus); `status: pruefung`, `city`, `street` (leer), `postcode` (leer), `phone` (leer), `email`
+  (leer), `opening_hours` (leer), `website` (leer), `website_status` (leer) und `description` bleiben unverändert; es
+  wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/234557433/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.9000,53.5100,12.9400,53.5400 ;
+  https://www.11880.com/branchenbuch/moellenhagen/060441364B27198211/remondis-seenplatte-gmbh-wertstoffaufbereitung.html ;
+  https://www.spitzke.com/ueber-uns/standorte/ (Abruf 04.11.2026).]

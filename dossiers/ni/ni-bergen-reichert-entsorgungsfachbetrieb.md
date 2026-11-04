@@ -1,13 +1,13 @@
 ---
 slug: ni-bergen-reichert-entsorgungsfachbetrieb
+lat: 52.8014344
+lon: 9.9601070
 name: Armin Reichert Entsorgungsfachbetrieb
 trader_type: schrotthaendler
 state: NI
 city: Bergen
 street: Am Umspannwerk 5
 postcode: '29303'
-lat: ''
-lon: ''
 phone: '05051 4222'
 email: ''
 opening_hours: ''
@@ -51,3 +51,34 @@ Betreiber-Impressum und städtischer Eintrag ordnen den Containerdienst Armin Re
 - [Recherche 30.10.2026: OSM-Adressprüfung live am Objekt. Raster bbox=9.9580038,52.8000154,9.9647802,52.8039441 über den gesamten Verlauf der Straße "Am Umspannwerk" in Bergen (Celle), Filter addr:street=Am Umspannwerk: 4 Objekte | 4 verschiedene Hausnummern (roh 1, 2, 3 und 5). Die Betriebsadresse ist als Knoten erfasst: node/2875932634 mit addr:housenumber=5, addr:street=Am Umspannwerk, addr:postcode=29303, addr:city=Bergen, addr:country=DE, name=Containerdienst - Armin Reichert. Die Nachbarobjekte tragen die Namen "Cornils GmbH" (way/224246241, Hausnummer 1, building=industrial) und "Lindhorst GmbH" (way/1482927822, Hausnummer 3, building=commercial). Präzise: die Adresse existiert in OSM und trägt den Namen des Betreibers, der Schrottbetrieb selbst ist dort nicht als Flächennutzung oder Recycling-POI kartiert. Quelle(n): https://api.openstreetmap.org/api/0.6/node/2875932634.json ; https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9580038,52.8000154,9.9647802,52.8039441 (Abruf 30.10.2026)]
 - [Recherche 30.10.2026: **Korrektur einer Fehldeutung der Kontaktdaten.** Kontaktseite und Seitenfuß führen zwei Rufnummern: "+49 5051-4222" und "+49 5051-7143". Das Impressum weist dieselbe zweite Nummer ausdrücklich als "Fax: +49 (0) 5051-7143" aus. Es handelt sich also nicht um eine Zweittelefonleitung; die Nummer bleibt deshalb im Dossier nicht als Telefon gesetzt. Quelle(n): https://www.reichert-bergen.de/impressum/ ; https://www.reichert-bergen.de/kontakt/ (Abruf 30.10.2026)]
 - [Recherche 30.10.2026: Preise getrennt nach Ankauf, Verkauf und Gebühren. ANKAUF: "Ankauf von Schrott und Buntmetall", "Annahme von Schrott- und NE-Metallen" sowie die Fraktionsliste "Schrott und NE-Metalle" sind belegt, **Zahlenpreise sind nicht veröffentlicht**. VERKAUF: die Seite nennt "gewerbliche Altpapierannahme", "Annahme gewerblicher Abfällen zur Verwertung" und "Abfallberatung"; eine Verkaufspreisliste für Metalle ist nicht vorhanden. GEBÜHREN: der Container-Bereich nennt nur die Größen (Absetzmulden 5 bis 10 m³, Arollcontainer 10 bis 36 m³) und den Baustein "Mehr Infos werden benötigt" - **keine Tarifordnung, keine Entsorgungspreisliste, keine kostenfreie Annahme behauptet**. Quelle(n): https://www.reichert-bergen.de/containerdienst/ ; https://www.reichert-bergen.de/ (Abruf 30.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.8014344/9.9601070**. Das Objekt ist ein
+  **Knoten** (kein Weg), die Koordinate ist daher unmittelbar die Knotenposition; die Objekt-BBox eines Knotens
+  entartet auf diesen Punkt, der Punkt liegt damit in ihr. Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **node/2875932634** trägt `addr:street`=Am Umspannwerk, `addr:housenumber`=**5**, `addr:postcode`=29303,
+  `addr:city`=Bergen, `addr:country`=DE und **`name`=Containerdienst - Armin Reichert** - das Adressobjekt trägt also
+  nicht nur die Hausnummer, sondern den **Namen des Betreibers**; Straße, Hausnummer, PLZ und Ort stimmen mit dem
+  Dossier (`Am Umspannwerk 5`, 29303 Bergen) überein. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster über Bergen (Celle) umfasst **9.9400/52.7900 bis 9.9800/52.8100**, **8 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler**; das Raster enthält die gesuchte Straße **nachweislich** mit dem Straßenobjekt
+  **way/40478972** (und way/1459569308) sowie **vier** Adressobjekten auf „Am Umspannwerk" (Hausnummern 1, 2, 3 und
+  **5**) - die Dossier-Hausnummer **5 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
+  Straße; die Nachbarobjekte sind way/224246241 (`name`=Cornils GmbH, Hausnummer 1) und way/1482927822 (`name`=Lindhorst
+  GmbH, Hausnummer 3). Eine Namenssuche nach **„Reichert"** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **genau einen** Treffer, eben node/2875932634. Quelle
+  2 (Betreiber/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Impressum** der
+  Betreiberseite https://www.reichert-bergen.de/impressum nennt live **Inhaber Armin Reichert, Am Umspannwerk 5,
+  29303 Bergen, Tel. 05051 4222**; unabhängig davon führt das im Dossier bereits zitierte **amtliche
+  Fachbetrieberegister** (https://schrottregister.pages.dev/ort-bergen, Registerstand 11.08.2026) für Bergen (29303)
+  genau **einen** Betrieb: „Armin Reichert, Am Umspannwerk 5", Tätigkeiten Lagern, Behandeln, Verwerten, zugleich
+  anerkannter Demontagebetrieb - beide Quellen stützen unabhängig voneinander **denselben** Standort. **Qualifizierung
+  (unverändert übernommen):** Der Schrottbetrieb selbst ist in OSM **nicht** als Fläche, Recycling-POI oder
+  Gewerbeobjekt kartiert; der Punkt bezeichnet die **betreiber- und registerbestätigte Anschrift** und damit die
+  Anfahrt/Zufahrt zum Betrieb, **nicht** eine geprüfte Waage oder Annahme- bzw. Demontagefläche. Der historische
+  SVG-Zert-Hinweis von 2003 bleibt wie im Dossier unbestätigt; `status: aktiv`, `street`, `postcode`, `phone`,
+  `website`, `website_status`, `certifications` und `description` bleiben unverändert, es wird weder Fortbestand noch
+  Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/node/2875932634.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9400,52.7900,9.9800,52.8100 ;
+  https://www.reichert-bergen.de/impressum ; https://schrottregister.pages.dev/ort-bergen (Abruf 04.11.2026).]

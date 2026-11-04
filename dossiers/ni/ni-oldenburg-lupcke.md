@@ -68,3 +68,42 @@ Der aktuelle, belegte Betrieb Michael Lüpcke GmbH sitzt in Wardenburg (HRB 2031
 ### Recherche 06.10.2026
 
 - [Recherche 06.10.2026: Betreiber-Impressum/Startseite erneut geprüft; Betreiber meldet Michael Lüpckes Tod zum 01.01.2026 und die Übernahme der Geschäftsführung durch Meike Haferkamp seit 10.02.2026. Die aktuellen Seiten führen Metalle/Schrott weiterhin als Teil der Entsorgungsleistungen, aber sämtliche konkreten Standortangaben betreffen Wardenburg. Kein Beleg zur Oldenburger Seed-Zeile; wegen offenem Stadt-/Identitätsabgleich Status `aktiv` → `pruefung` (keine Schließung behauptet). Keine numerische Ankaufpreisliste. ANKAUF: keine veröffentlichten Sätze; VERKAUF: keine Preisliste; GEBÜHREN/Container: individuelles Angebot, kein Tarif veröffentlicht. Quelle(n): https://container-luepcke.de/; https://container-luepcke.de/impressum/.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **35** ist in OSM **nicht**
+  erfasst; das abgetastete Fenster enthält die gesuchte Straße **nachweislich** selbst (der Fensterfehler der letzten
+  Welle liegt hier **nicht** vor). Quelle 1 (OSM, live abgerufen am 04.11.2026): Kachelraster über Wardenburg-
+  Hundsmühlen (**8.1600/53.1000 bis 8.2000/53.1200**, **8 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, live über
+  `https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1600,53.1000,8.2000,53.1200`): die **Diedrich-Dannemann-Straße**
+  ist im Raster **vollständig** mit **17** Straßenobjekten enthalten (way/289046960, way/289046961, way/337176268,
+  way/1174999686, way/1174999687, way/1174999689, way/1174999690, way/1174999710, way/1175477569, way/1535595428,
+  way/1535595429, way/1535595430, way/1535595431 sowie vier Bushaltestellen-/Stützpunkknoten) und trägt **63**
+  Adressobjekte mit **61** verschiedenen Hausnummern (1, 3, 3A, 5, 5A, 6, 7, 7a, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 21,
+  22, 22a, 22b,c, 22c, 23, 25, 26, **30**, **36**, 53, 55, 61, 61C, 63a, 63b, 63c, 63d, 65a, 65b, 69a, 69b, 70, 71, 71a,
+  71b, 82, 87, 91, 93, 95, 97, 99, 101, 102, 102A, 104, 104A, 104B, 106, 106A) - die belegten Nummern springen von
+  **30** direkt auf **36**, die **Hausnummer 35 fehlt**. Das im Dossier vom 28.10.2026 zitierte Straßenteilstück
+  **way/1174999689** (53.1088992/8.1814985 bis 53.1097188/8.1866629) ist ebenfalls im Raster bestätigt und trägt
+  selbst **keine** `addr:*`-Tags; eine Namenssuche nach **„Lüpcke"** über die Felder name, operator, description,
+  website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer - es gibt also **keine**
+  OSM-Betriebszuordnung und **kein** adressgenaues Objekt zur Hausnummer 35. Quelle 2 (Betreiber/Register, im Dossier
+  bereits zitiert, live nachgelesen am 04.11.2026): das auf der Betreiberseite veröffentlichte **EFB-Zertifikat der
+  bregau zert GmbH** (Nummer **BREG2000-06/25**, Vorgangsnummer ZZDT001000418009, gültig bis **30.04.2027**) nennt
+  live und im Volltext **„Name und Anschrift des Entsorgungsfachbetriebes (Hauptsitz): Michael Lüpcke GmbH, Straße:
+  Diedrich-Dannemann-Straße 35, Postleitzahl 26203, Ort: Wardenburg-Hundsmühlen"**; das **Impressum** der
+  Betreiberseite (https://container-luepcke.de/impressum/) bestätigt live **„Michael Lüpcke GmbH,
+  Diedrich-Dannemann-Straße 35, 26203 Wardenburg, Handelsregister HRB 203176, Registergericht Amtsgericht Oldenburg,
+  vertreten durch Meike Haferkamp"**. **Warum keine Koordinate:** (a) es existiert **kein** OSM-Objekt mit
+  `addr:housenumber`=**35** und `addr:street`=Diedrich-Dannemann-Straße in 26203 Wardenburg; (b) der von Nominatim
+  gelieferte Treffer way/1174999689 ist ein reines **Straßenobjekt ohne Hausnummer** und damit als Koordinate
+  untauglich - der Punkt würde eine Straßenmitte bezeichnen und nicht die Betriebsadresse; (c) die Nachbarobjekte 30
+  und 36 lägen nicht an der belegten Nummer. **Was zur Auflösung fehlt:** ein OSM-Objekt mit
+  `addr:housenumber`=**35** auf der Diedrich-Dannemann-Straße in 26203 Wardenburg-Hundsmühlen (oder ein benannter
+  Betriebspunkt „Michael Lüpcke GmbH") - oder eine Kartierung des Gebäudes, auf das sich die Nummer 35 im
+  Betriebszertifikat bezieht. `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen Ersatzpunkt), `street`,
+  `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status`, `certifications`, `status: aktiv` und
+  `description` bleiben unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1600,53.1000,8.2000,53.1200 ;
+  https://api.openstreetmap.org/api/0.6/way/1174999689/full.json ;
+  https://container-luepcke.de/wp-content/uploads/2026/01/EFB-Zertifikat-2026.pdf ;
+  https://container-luepcke.de/impressum/ (Abruf 04.11.2026).]

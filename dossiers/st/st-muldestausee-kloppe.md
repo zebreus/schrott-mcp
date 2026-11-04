@@ -1,5 +1,7 @@
 ---
 slug: st-muldestausee-kloppe
+lat: 51.6574807
+lon: 12.4245592
 name: Kloppe
 trader_type: autoverwertung
 state: ST
@@ -50,3 +52,43 @@ Das Dokument ist eine Altlasten-/Planungsquelle, kein aktueller Gewerbe- oder Ze
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: MISS — kein Treffer für „Kloppe“ als Autoverwertung/Schrott in Muldestausee (Websuche nur Personen-Homonyme: Naturstein Kloppe Doberlug-Kirchhain, Autohaus-Mitarbeiter etc.). Offene Spur (kein Beleg, keine Gleichsetzung): Altlasten-PDF der Gemeinde Muldestausee nennt „Autoverwertung Rabe, Windmühlenweg 17a“ — ob Seed-Name „Kloppe“ (Personenfragment?) dorthin gehört, ist ungeklärt. Keine Fills, weiter pruefung; Quelle(n): keine Beleg-Quelle; Spur: https://www.gemeinde-muldestausee.de/de/datei/anzeigen/id/32199,1163/anlage_4_altlasten.pdf]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.6574807/12.4245592** (Mittelwert der **4**
+  eindeutigen Knoten von **way/1085327399**; das Objekt hat **5** Knotenreferenzen, davon 4 eindeutige - ein Knoten ist
+  doppelt gezählt; die BBox der eindeutigen Knoten reicht von 12.4244594/51.6574183 bis 12.4246591/51.6575432 und
+  **umschließt den Mittelwert**). Quelle 1 (OSM): **way/1085327399** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/way/1085327399/full.json`, HTTP 200) `addr:street`=Freiheitstraße,
+  `addr:housenumber`=**12**, `addr:city`=Muldestausee, `addr:suburb`=**Schlaitz**, `addr:postcode`=**06774**,
+  `addr:country`=DE, `building`=yes - die Dossier-Adresse existiert damit **unabhängig** in OSM, mit PLZ und Ortsteil
+  deckungsgleich. Das Objekt trägt **weder** `name=` **noch** `operator=` und **keinen** Branchentag; der Punkt
+  bezeichnet die **belegte Anschrift**, keinen verifizierten Annahmehof. **Fensterdisziplin:** das am 04.11.2026 live
+  abgerufene Kachelraster über **Schlaitz** (**12.4100/51.6500 bis 12.4400/51.6800**, **9 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler**) enthält die gesuchte Straße tatsächlich: die **Freiheitstraße** ist im Raster mit **zwölf
+  Straßenobjekten** (way/35344445, way/307606162, way/1199416770, way/1199416771, way/1199621378, way/1199656069,
+  way/1201457244, way/1264804916, way/1264805283, way/1396650273, way/1396650280, way/1396650282) und über **100
+  Adressobjekten** vertreten - die belegten Hausnummern laufen von **1** bis **72** (nebst **1A–1E**, **2A–2H**, **2K**,
+  **21A**, **38A**, **39A–39C**, **45A**, **60A**, **71A–71C**, **72A**); die **Dossier-Hausnummer 12 existiert** und
+  ist im Raster das einzige Objekt dieser Nummer auf dieser Straße (way/1085327399), während **3** von zwei Objekten
+  (node/434464133 `name`=Eiscafé Solgården und way/1085308905) belegt ist. Quelle 2 (amtlich/Betreiber, im Dossier
+  bereits zitiert): (a) das **amtliche Flächennutzungsplan-Dokument der Gemeinde
+  Muldestausee** (März 2022, Anlage 4, Seite 28, Abschnitt Schlaitz, Typ 5/Nr. 3077) nennt die Fläche **„Schlaitzer
+  Autoverwertung Firma Kloppe, Freiheitsstraße 12“** mit der Beschreibung **„Autoverwertung, Hof gepflastert“** und
+  weist sie als vorgesehene gewerbliche Baufläche aus - das ist eine **kommunale Quelle**, die Betrieb, Straße und
+  Hausnummer amtlich belegt. (b) Die **11880**-Detailseite
+  https://www.11880.com/branchenbuch/muldestausee/060440459B42590285/schlaitzer-autoverwertung.html führt live
+  (04.11.2026) **„Schlaitzer Autoverwertung“** mit **Freiheitstr. 12, 06774 Muldestausee** und Telefon
+  **034955 20503**; die dort hinterlegte Geokoordinate **12.424529/51.657496** liegt rund **6 m** vom OSM-Objekt
+  entfernt und bestätigt denselben Standort. (c) die im Dossier zitierten **Gelbe Seiten** führen **„Dietmar &
+  Hans-Jürgen Kloppe GbR Schlaitzer Autoverwertung“, Freiheitstraße 12, 06774 Muldestausee-Schlaitz**, Tel. 034955
+  20503. **Qualifizierung:** das im Dossier dokumentierte FNP-Dokument ist ein **Planungs-/Altlastendokument von 2022**
+  und **kein** aktueller Gewerbe- oder Zertifikatsnachweis; Betreiberperson, heutige Tätigkeit und eine öffentliche
+  Kundenannahme sind damit **nicht** belegt - die Koordinate markiert die **amtlich und verzeichnisseitig belegte
+  Anschrift** der Schlaitzer Autoverwertung, nicht eine geprüfte Waage oder Annahmefläche. `street`, `postcode`,
+  `phone`, `website`, `website_status`, `description` und `status: pruefung` bleiben unverändert; es wird weder
+  Fortbestand noch Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1085327399/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.4100,51.6500,12.4400,51.6800 ;
+  https://www.gemeinde-muldestausee.de/de/datei/anzeigen/id/32199,1163/anlage_4_altlasten.pdf ;
+  https://www.11880.com/branchenbuch/muldestausee/060440459B42590285/schlaitzer-autoverwertung.html ;
+  https://www.gelbeseiten.de/gsbiz/c118ea4a-64b8-43dc-8320-cdf98ff54b0a (Abruf 04.11.2026).]

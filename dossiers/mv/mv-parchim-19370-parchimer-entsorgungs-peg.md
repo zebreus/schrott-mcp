@@ -59,3 +59,34 @@ Walter-Hase-Str. 42 ist laut Behördenwebsite die Anschrift des Amtes Parchimer 
 - Walter-Hase-Str. 42, 19370 Parchim ist Sitz des Amtes Parchimer Umland (Tel. 03871 4213-0), kein Schrott-/Entsorgungsbetrieb.
 - Klärfall Folgewelle: Dossier prüfen (Fehlanlage durch Adressverwechslung möglich, echte PEG-Adresse suchen oder schließen).
 - [Recherche 01.10.2026 (Shard NW/NI/MV/SH): Gegenprobe GS „schrott parchim“ (2 Treffer: Buelow/Holthusen, ACS/Ribnitz) — keine PEG, bestaetigt Negativbefund; kein Fill, status bleibt pruefung.; Quelle(n): https://www.gelbeseiten.de/suche/schrott/parchim (Abruf 01.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Das Dossier nennt **keine** Dossier-Adresse für
+  die PEG; die einzige geprüfte Anschrift **Walter-Hase-Str. 42** ist die **Amtsanschrift des Amts Parchimer Umland**
+  und kein PEG-Standortbeleg. Quelle 1 (OSM, live abgerufen am 04.11.2026): das Kachelraster über Parchim umfasst
+  **11.8200/53.4200 bis 11.8400/53.4400**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die
+  geprüfte Straße **nachweislich** mit den Straßenobjekten **way/35478258**, **way/114301939** und **way/322424532**
+  sowie **26** Adressobjekten auf „Walter-Hase-Straße" mit **26** verschiedenen Hausnummern (1, 2, 3, 4, 5, 6, 7, 8, 9,
+  18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34) - die **Hausnummer 42 existiert dort nicht** (die
+  Nummerierung endet bei 34), und ein OSM-Objekt mit Bezug zu „PEG" bzw. „Parchimer Entsorgung" findet sich im Fenster
+  **nicht**. Quelle 2 (Register/Kommune, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
+  **Registerspiegel-Quelle** (https://www.northdata.de/Parchimer%20Entsorgungs%20GmbH-PEG,%20Parchim/Amtsgericht%20Schwerin%20HRB%20219)
+  identifiziert **Parchimer Entsorgungs GmbH-PEG, HRB 219 Schwerin** mit **Löschungspublikation vom 03.12.2012** und
+  dem Gegenstand öffentliche Abfallentsorgung/Müllumladestation - das belegt den **historischen Rechtsträger**, aber
+  weder Fortbestand noch Nachfolger und schon gar keine Standortadresse; die **Stadt Parchim** und die
+  **Landkreis-/ALP-Seite** nennen als öffentliche Annahmestelle **Paarscher Weg 64, 19370 Parchim** (Stadt: „REMONDIS
+  Mecklenburg GmbH", Landkreis: „ALP mbH") - verschiedene Betreiberschilder für eine **kommunale** Anlage, ausdrücklich
+  **keine** nachgewiesene PEG-Nachfolge, und diese Adresse wird hier **nicht** geokodiert. **Warum keine Koordinate:**
+  (a) die PEG ist seit **2012 gelöscht**, ein heutiger Betriebsstandort ist nicht belegt; (b) die einzige geprüfte
+  Anschrift ist eine **Behördenanschrift** ohne PEG-Bezug und ohne Hausnummer 42 in OSM; (c) die kommunale
+  Annahmestelle am Paarscher Weg 64 gehört **anderen Betreibernamen** und ist eine andere Zeile. **Was zur Auflösung
+  fehlt:** ein Register- oder Betreiberbeleg, der eine **PEG-Nachfolge** und deren **Standortadresse** belegt, oder
+  ein OSM-Objekt mit Betriebsbezug zur PEG. `clear_fields: geo` **bleibt** bestehen (es gibt keinen Ersatzpunkt),
+  `city`, `street` (leer), `postcode` (leer), `phone`, `email`, `opening_hours`, `website`, `website_status` und
+  `description` (leer) bleiben unverändert, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch
+  Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.8200,53.4200,11.8400,53.4400 ;
+  https://api.openstreetmap.org/api/0.6/way/35478258/full.json ;
+  https://www.parchim.de/de/buergerservice-1/buergerservice/umwelt-klima-und-natur/abfall-und-reinigung/abfallentsorgung/ ;
+  https://alp.kreis-lup.de/Abfallentsorgung/Wertstoffh%C3%B6fe-und-Annahmestellen/Adressen-%C3%96ffnungszeiten-Annahmespektrum
+  (Abruf 04.11.2026).]

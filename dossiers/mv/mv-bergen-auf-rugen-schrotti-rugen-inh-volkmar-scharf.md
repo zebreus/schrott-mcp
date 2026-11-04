@@ -1,6 +1,7 @@
 ---
 slug: mv-bergen-auf-rugen-schrotti-rugen-inh-volkmar-scharf
-clear_fields: 'geo'
+lat: 54.3931685
+lon: 13.5017353
 name: Schrotti Rügen Inh. Volkmar Scharf
 trader_type: schrotthaendler
 state: MV
@@ -65,3 +66,36 @@ Für „Schrotti Rügen Inh. Volkmar Scharf“ in Silvitz bei Bergen auf Rügen 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - lokaleschrottplatz.de (4,6★), ruegen-kompass.de (Autoverwertung), OZ-Artikel "Rügens Schrott-König", Cylex/Firmania; schrotti.de.rs nicht verifizierbar
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **54.3931685/13.5017353**. Das Objekt ist ein
+  **Knoten** (kein Weg), die Koordinate ist daher unmittelbar die Knotenposition; die Objekt-BBox eines Knotens
+  entartet auf diesen Punkt, der Punkt liegt damit in ihr. Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **node/3874615594** trägt `addr:street`=Silvitz und `addr:housenumber`=**8** sowie `addr:city`=Bergen auf Rügen
+  (`addr:postcode` ist am Knoten nicht getaggt, die Nachbarknoten derselben Straße tragen 18528). **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **13.5000/54.3900 bis 13.5200/54.4100**,
+  **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit den
+  Straßenobjekten **way/30169640**, **way/30769221**, **way/218350891** (sowie einem Stützpunktknoten) und **20**
+  Adressobjekten auf „Silvitz" mit **19** verschiedenen Hausnummern (1, 1a, 1b, 2, 2a, 3, 4, 5, 6, 7, **8**, 9, 10, 11, 12,
+  13, 13a, 14, 15, 16) - die **Dossier-Hausnummer 8 existiert** und ist im Raster das einzige Objekt mit dieser Nummer
+  auf dieser Straße. Eine Namenssuche nach **„Scharf"** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer - es gibt **keine**
+  OSM-Betriebszuordnung, nur den Adresspunkt. Quelle 2 (Portal/Verzeichnis, im Dossier bereits zitiert, live
+  abgerufen am 04.11.2026): das **LokaleSchrottplatz-Profil**
+  https://lokaleschrottplatz.de/schrotti-rugen-inh-volkmar-scharf/ liefert **HTTP 200** und nennt live **„Schrotti Rügen
+  – Inh. Volkmar Scharf", Adresse des Schrottplatzes: Silvitz 8, 18528 Bergen auf Rügen, Telefon +49 171 7246081**; die
+  in den **JSON-LD-Daten** derselben Seite ausgewiesene Standortkoordinate **54.3931899/13.5016862** fällt auf das
+  OSM-Objekt **Silvitz 8** (Abweichung **4,0 m**) - die Portaladresse ist damit geometrisch bestätigt. **Zurücknahme des
+  `geo`-Tokens (Begründung):** `clear_fields: 'geo'` wurde **entfernt**, weil es den am 25.10.2026 zurückgenommenen und
+  auf den Markt in Bergen auf Rügen (54.4182/13.4335) fallenden Produktionspunkt fernhalten sollte; der hier gesetzte
+  Punkt liegt **exakt** auf der von Portal, Presse und Verzeichnissen belegten Anschrift, während `clear_fields` nicht
+  gleichzeitig `geo` neben belegtem `lat`/`lon` stehen darf. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet die **portal- und pressseitig belegte Anschrift**, **nicht** einen verifizierten Annahmehof - das
+  Portalprofil trägt weiterhin die Markierung **„Geschlossen"**, die Domain **schrotti.de.rs** war beim Direktabruf
+  nicht erreichbar, und eine Drittanbieter-Markierung ist kein belastbarer Schließungsnachweis; ein Betreiberauftritt
+  liegt weiterhin **nicht** vor, `status: pruefung` bleibt unverändert, ebenso `city`, `street`, `postcode`, `phone`,
+  `email`, `opening_hours`, `website` (leer) und `website_status` (leer); es wird weder Fortbestand noch Schließung
+  behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/node/3874615594.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.5000,54.3900,13.5200,54.4100 ;
+  https://lokaleschrottplatz.de/schrotti-rugen-inh-volkmar-scharf/ (Abruf 04.11.2026).]

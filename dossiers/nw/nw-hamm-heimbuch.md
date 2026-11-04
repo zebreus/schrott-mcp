@@ -59,3 +59,42 @@ Der Hamm-Eintrag bleibt ein nicht aufgelöster Identitäts- und Aktivitätsklär
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Kein Hamm-spezifischer Treffer ließ sich belastbar Heimbuch zuordnen. Die direkt geprüfte Gelbe-Seiten-Suche zeigt andere Schrotthändler, aber keinen Heimbuch; die städtische ASH-Informationsseite ist kommunale Abfallwirtschaft und kein Nachweis für den Seed-Betrieb. Keine Frontmatter-Fills; Betreiberidentität ungeklärt. Quelle(n): https://www.gelbeseiten.de/branchen/schrotthaendler/hamm ; https://www.hamm.de/ash/wir-ueber-uns]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Heimbuch** (Hamm) ist der Seed **nicht
+  eindeutig einer Anschrift zuzuordnen**: das Dossier führt zwei widersprüchliche Verzeichnisanschriften desselben
+  Namens, und für keine davon ist ein Betriebs- oder Registerbeleg verfügbar. **Was live geprüft wurde (04.11.2026):**
+  (a) **Blücherstraße** (Kachelraster 7.7200/51.6700 bis 7.7700/51.7200, **25 Kacheln von je 0,01 Grad, 0
+  Kachel-Fehler**, live abgerufen) - die Straße trägt dort **55** Adressobjekte mit **50** verschiedenen Hausnummern
+  (1–45, 47, 49, 51 sowie 34a, 40a und 43a); die **Hausnummer 43 existiert** als **way/129547033** mit
+  `addr:housenumber`=43, `addr:street`=Blücherstraße, `addr:city`=Hamm, `addr:postcode`=59075 und
+  `building`=**apartments** (Wohnhaus, **weder** `name=` **noch** `operator=`); eine Namenssuche nach **„Heimbuch“**
+  über die Felder name, operator, description, website, contact:website, brand, note und addr:housename findet im Raster
+  **keinen** Treffer. (b) **Hammer Straße** (Kachelraster 7.7300/51.6700 bis 7.7800/51.7200, **25 Kacheln von je 0,01
+  Grad, 0 Kachel-Fehler**, live abgerufen) - die Straße trägt dort **233** Adressobjekte mit **208** verschiedenen
+  Hausnummern; die **Hausnummer 112 existiert** als **way/240480599** mit `addr:housenumber`=112, `addr:street`=Hammer
+  Straße, `addr:city`=Hamm, `addr:postcode`=59075 und `building`=**house** (ebenfalls **ohne** Betriebsbezug); auch hier
+  liefert die Namenssuche nach **„Heimbuch“** **keinen** Treffer. Quelle 1 (Betreiber/Verzeichnis): die beiden
+  11880-Profile wurden am 04.11.2026 live gelesen - „**Altmetallentsorgung Heimbuch**“, **Blücherstr. 43, 59075 Hamm
+  (Bockum-Hövel)**, **(0176) 64496526** sowie „**David Heimbuch Altmetallentsorgung**“, **Hammer Str. 112, 59075 Hamm
+  (Bockum-Hövel)**, **(02381) 9287674** (Altmaterialhandel, Schrotthandel); beide Profile sind Aggregator-Leads
+  derselben Quellenklasse, die Facebook-Seite „Altmetallentsorgung & Demontage Heimbuch“ bleibt an der
+  Login-/Browserbarriere und liefert **keinen** lesbaren Betreiberbeleg, und das amtliche Fachbetrieberegister (Auszug
+  11.08.2026) deckt für Hamm nur die PLZ 59063, 59065, 59067 und 59071 ab, **nicht** 59075 - der Negativbefund trägt
+  deshalb **nichts** zur Klärung bei. Quelle 2 (OSM): die beiden live abgerufenen Kachelraster
+  7.7200/51.6700–7.7700/51.7200 und 7.7300/51.6700–7.7800/51.7200 mit den Adressobjekten way/129547033 und way/240480599
+  **ohne** jeden Betriebsbezug. **Warum keine Koordinate:** Die Seedzeile ist zwischen zwei rund 700 m
+  auseinanderliegenden Anschriften **nicht zuordenbar**; das OSM-Objekt an beiden Adressen ist ein gewöhnliches
+  Wohngebäude **ohne** jeden Hinweis auf eine Schrott- oder Metallannahme, und ein mobiler Sammeldienst braucht ohnehin
+  keinen öffentlichen Annahmehof. Jeder Punkt würde eine Betriebs- oder Hofzuordnung suggerieren, die keine Quelle
+  trägt. **Was fehlt:** ein lesbarer Betreiberauftritt (Impressum) oder ein Registerbeleg, der **eine** der beiden
+  Anschriften dem Seed zuordnet und eine öffentliche Annahme belegt. `clear_fields: 'geo'` **bleibt** bestehen, `status:
+  pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/129547033/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/240480599/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7200,51.6700,7.7700,51.7200 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7300,51.6700,7.7800,51.7200 ;
+  https://www.11880.com/branchenbuch/hamm-westfalen/060441364B53341868/altmetallentsorgung-heimbuch.html ;
+  https://www.11880.com/branchenbuch/hamm-westfalen/060440090B102609686/david-heimbuch-altmetallentsorgung.html ;
+  https://schrottregister.pages.dev/ort-hamm (Abruf 04.11.2026).]

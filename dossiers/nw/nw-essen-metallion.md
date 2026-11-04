@@ -66,3 +66,36 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9400,51.3900,7.1600,51.5300 ;
   https://api.openstreetmap.org/api/0.6/node/277057769.json ; https://metallion.de/impressum/ ;
   https://metallion.de/aluminum-ankauf (Abruf 03.11.2026).]
+
+### Korrektur 04.11.2026
+
+- [Korrektur 04.11.2026: **Mengenangabe des Vermerks vom 03.11.2026 berichtigt: 16 statt 13 Objekte mit
+  `addr:housenumber`=77 und `addr:postcode`=45329 im Essener Kachelraster.** Die drei bislang nicht
+  mitgezählten Objekte sind **Hegerkamp** (way/276260967, `addr:street`=Hegerkamp, `addr:city`=Essen,
+  `building`=house), **Holzschragen** (way/163016191, `addr:street`=Holzschragen, `building`=yes) und
+  **Lattenkamp** (way/276276480, `addr:street`=Lattenkamp, `building`=house); Hegerkamp und Lattenkamp
+  wurden zuletzt am **30.05.2025** (Changeset **166981379**), Holzschragen zuletzt am **15.05.2014**
+  (Changeset **22346723**) bearbeitet. Alle drei waren also **schon vor** der Welle vom 03.11.2026 in
+  OSM erfasst: die Zahl 13 war eine **unvollständige Zählung**, keine Änderung des Datenbestands.
+  **Live nachgezählt (04.11.2026):** Das im Vermerk vom 03.11.2026 dokumentierte Kachelraster
+  **6.9400-7.1600 / 51.3900-51.5300** (0,01-Grad-Kacheln, api.openstreetmap.org/api/0.6/map.json,
+  **308 von 308 Kacheln**, **0 Kachel-Fehler**) liefert **16** Objekte mit `addr:housenumber`=77 und
+  `addr:postcode`=45329 auf **16 verschiedenen Straßen**: Arenbergstraße, Batenbrocker Straße,
+  Basunestraße, Bischoffstraße, Böhmerheide, Boshamerweg, Hegerkamp, Heisterholz, Hohendahlstraße,
+  Holzschragen, I. Schichtstraße, Karnaper Straße, Lattenkamp, Rahmdörne, Stinnesstraße, Wolbeckstraße;
+  ohne PLZ-Filter trägt das Raster insgesamt **383** Objekte mit `addr:housenumber`=77.
+  **Die tragende Aussage des Vermerks vom 03.11.2026 bleibt damit bestätigt:** Die Dossier-Hausnummer
+  **77** fehlt auf der **Heßlerstraße** nach wie vor, **0 von 16** der so belegten Objekte liegt dort;
+  im Korridorfenster der Heßlerstraße (**7.0000-7.0500 / 51.5000-51.5200**, 10 Kacheln zu 0,01 Grad,
+  vollständig abgerufen, 0 Kachel-Fehler) liegt **kein** Objekt mit `addr:housenumber`=77 und
+  `addr:street`=Heßlerstraße, und die dort belegten Nummern springen von **65** auf **79**.
+  **Unverändert:** `clear_fields: 'geo'` bleibt bestehen, es wird **kein** Punkt geraten; der
+  zurückgenommene Produktionspunkt **51.450284375/7.015053125** (Straße „Freiheit", 45128 Essen)
+  bleibt zurückgenommen; `status: aktiv`, `street`/`postcode`, Annahmezeiten, Ankaufspreise,
+  Verkaufspreise und Gebühren bleiben unverändert; der Vermerk vom 03.11.2026 bleibt **wortgleich**
+  erhalten und wird durch diesen Vermerk **berichtigt**. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9400,51.3900,7.1600,51.5300 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0000,51.5000,7.0500,51.5200 ;
+  https://api.openstreetmap.org/api/0.6/way/276260967/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/163016191/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/276276480/full.json (Abruf 04.11.2026).]

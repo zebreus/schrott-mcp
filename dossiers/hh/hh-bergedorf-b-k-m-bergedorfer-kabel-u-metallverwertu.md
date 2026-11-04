@@ -73,3 +73,41 @@ NorthData führt B.K.M. Bergedorfer Kabel- und Metallverwertungsgesellschaft mbH
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.2050,53.4900,10.2150,53.5050 ;
   https://www.northdata.de/B%C2%B7K%C2%B7M%C2%B7%20Bergedorfer%20Kabel-%20und%20Metallverwertungsgesellschaft%20mbH,%20Hamburg/HRB%2058151
   (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate live nachgeprüft und bestätigt, `lat`/`lon` bleiben
+  53.4907325/10.2143635 (unverändert).** Das Adressobjekt wurde erneut live geladen
+  (https://api.openstreetmap.org/api/0.6/way/217872644/full.json, Abruf 04.11.2026) und trägt
+  unverändert `addr:housenumber`=**23**, `addr:street`=**Ernst-Mantius-Straße**, `addr:city`=Hamburg,
+  `addr:country`=DE, `addr:postcode`=**21029**, `building`=detached, `building:levels`=2,
+  `roof:shape`=half-hipped; das Objekt hat **12 eindeutige Knoten**, der Mittelwert der Knoten
+  (53.4907325/10.2143635) liegt unverändert **innerhalb** der Objekt-BBox (53.4906715/10.2143073 bis
+  53.4908294/10.2144668). Das im Frontmatter gesetzte Paar ist damit am Objekt belegt und wird
+  **nicht** geändert. **Fenster (live, vollständig):** Das im Vermerk vom 03.11.2026 dokumentierte
+  Kachelraster **10.2050-10.2150 / 53.4900-53.5050** (2 Kacheln zu 0,01 Grad,
+  api.openstreetmap.org/api/0.6/map.json) wurde erneut abgerufen, **0 Kachel-Fehler**: darin tragen
+  **30** Objekte `addr:street`=Ernst-Mantius-Straße mit den Hausnummern 1 bis 34 (u. a. 10-10a-12,
+  13a), und **genau ein** Objekt trägt die Hausnummer **23** (way/217872644); ein zweites Objekt mit
+  derselben Hausnummer existiert im Fenster nicht. Nennenswerte Objekte an der Straße sind
+  node/5031060621 „Stilett" (Nr. 7), node/5913415140 „Oro" (Nr. 10), node/6457504771 „GSD Software
+  Design GmbH" (Nr. 24) und relation/2885847 „Amtsgericht Hamburg-Bergedorf" (Nr. 8); **kein** Objekt
+  trägt einen Namens-, Betreiber- oder Branchenbezug zu Schrott-, Metall- oder Kabelhandel, der
+  Betriebsbezug stammt allein aus der Registerquelle. **Quelle 2 (Register, live):** NorthData
+  (https://www.northdata.de/B%C2%B7K%C2%B7M%C2%B7%20Bergedorfer%20Kabel-%20und%20Metallverwertungsgesellschaft%20mbH,%20Hamburg/HRB%2058151,
+  Abruf 04.11.2026) nennt weiterhin die Gesellschaft **HRB 58151** mit der Anschrift
+  „Ernst-Mantius-Str. 23, D-21029 Hamburg" und dem Gegenstand Handel sowie Verwertung/Entsorgung von
+  Kabel- und Metallabfällen. **Reichweite / Fehlbelegklausel:** Die **Hausnummernlage in OSM** und die
+  **Efb-/AltfahrzeugV-Lage** sind **nicht** gleichbedeutend mit „kein Betrieb am Ort": ein fehlender
+  Zertifikatseintrag und ein fehlender Betriebsbezug im Kartennetz belegen **weder**, dass an der
+  Anschrift kein Betrieb existiert, **noch** dass ein Betrieb dort aktiv ist. Der gesetzte Punkt
+  bezeichnet die **Register-Geschäftsanschrift**, keinen verifizierten öffentlichen Annahmehof und
+  keinen Eingang; Annahmezeiten, Ankaufspreise, Verkaufspreise und Gebühren bleiben unbelegt, die im
+  Dossier offen gebliebene Bedingung „GEO erst nach Bestätigung einer tatsächlichen
+  Kundenannahmestelle" bleibt **unerfüllt**. `street`/`postcode` bleiben **leer**, `status: aktiv`
+  bleibt der ungeprüfte Seed-Stand, alle übrigen Frontmatter-Felder bleiben unverändert; der Vermerk
+  vom 03.11.2026 bleibt **wortgleich** bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/217872644/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.2050,53.4900,10.2150,53.5050 ;
+  https://www.northdata.de/B%C2%B7K%C2%B7M%C2%B7%20Bergedorfer%20Kabel-%20und%20Metallverwertungsgesellschaft%20mbH,%20Hamburg/HRB%2058151
+  (Abruf 04.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: nw-neuss-giesen-wekos
+lat: 51.2123642
+lon: 6.6988258
 name: Giesen-Wekos GmbH & Co. KG Eisen- und Rohstoffhandel
 trader_type: schrotthaendler
 state: NW
@@ -44,3 +46,37 @@ Offene Quellenabweichungen: Unternehmensprofil nennt 24.000 m², Leistungsseite 
 ### Lead: Feedback 6261 / 7350
 
 - Beide Meldungen werden als ein Aufnahmegegenstand mit beiden Original-IDs erhalten; Vorprüfung Index 14 war lediglich Bündelungslead, kein unabhängiger Registerbeleg. Quelle: research/feedback-20261014-audit7-duplicates-a.md
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.2123642/6.6988258** (Mittel der **6**
+  eindeutigen Knoten von way/48171656; die BBox der eindeutigen Knoten reicht von 51.2122513/6.6986729 bis
+  51.2124668/6.6989994 und **umschließt den Mittelwert**). Quelle 1 (OSM): way/48171656 trägt `addr:housenumber`=15c,
+  `addr:street`=Duisburger Straße und `building`=yes (live geladen am 04.11.2026, HTTP 200); das Objekt benennt den
+  Betrieb **nicht** und trägt **weder** `addr:city` **noch** `addr:postcode` - der Punkt bezeichnet daher die belegte
+  Anschrift und keine verifizierte Zufahrt, Waage oder Annahmefläche; PLZ und Ort der Anschrift werden durch das
+  **benachbarte** Objekt derselben Straße gestützt: **way/812948065** mit `addr:housenumber`=15;17,
+  `addr:street`=Duisburger Straße, `addr:city`=**Neuss**, `addr:postcode`=**41460** und `name`=**TanQuid Neuss Tanklager
+  1**. Das am 04.11.2026 live abgerufene Kachelraster über dem Neusser Hafen (6.6800/51.2000 bis 6.7100/51.2300, **9
+  Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst die **Duisburger Straße** mit **26** Adressobjekten und den
+  Hausnummern 1, 1a, 3, 3a, 4, 5, 6, 7, 8, 9, 9a, 10, 10a, 11, 12, 13, 15, 15;17, **15c**, 16, 18, 19, 20, 22, 24 und 26
+  - die **Dossier-Hausnummer 15c existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße;
+  eine Namenssuche nach **„Giesen“** und **„Wekos“** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer mit Betriebsbezug (die Namensfunde
+  betreffen ausschließlich Buslinien-Relationen nach „Giesenkirchen“), es gibt also **keine** OSM-Betriebszuordnung.
+  Quelle 2 (Betreiber/Register): das **Impressum** der Betreiberseite https://www.giesen-wekos.de/impressum nennt live
+  (Abruf 04.11.2026) **Giesen-Wekos GmbH & Co. KG, Eisen- und Rohstoffhandel, Duisburger Str. 15c, D-41460 Neuss**,
+  Telefon **02131/1619-10**, E-Mail zentrale@giesen-wekos.de, persönlich haftende Gesellschafterin **Giesen-Wekos GmbH
+  (Amtsgericht Neuss, HRB 11146)**, Geschäftsführer **Christoph Balzer** und **Kristiana Wolf**, KG-Eintrag **HRA 6020
+  Amtsgericht Neuss**, USt-Id-Nr. DE 121646182; die **Annahmebedingungen** des Betreibers nennen ausdrücklich das
+  **Zentrallager Duisburger Str. 15c**, und das im Dossier bereits zitierte ESN-Zertifikat **ESN 98-120179(25)** (gültig
+  bis 30.04.2027) führt den Standort in sämtlichen fünf Anlagen. Die im Dossier dokumentierte **Flächendiskrepanz**
+  (24.000 m² im Unternehmensprofil gegen ca. 26.000 m² auf der Leistungsseite) bleibt offen und wird **nicht** als
+  Tatsache übernommen. `status: aktiv`, `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status`, `description`, `dropoff_json`, `pickup_json` und `certifications` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/48171656/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/812948065/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.6800,51.2000,6.7100,51.2300 ;
+  https://www.giesen-wekos.de/impressum ; https://www.giesen-wekos.de/download/annahmebedingungen.pdf ;
+  https://www.northdata.de/Giesen-Wekos%20GmbH%20&%20Co%C2%B7%20KG%20Eisen-%20und%20Rohstoffhandel,%20Neuss/HRA%206020
+  (Abruf 04.11.2026).]

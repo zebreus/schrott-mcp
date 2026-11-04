@@ -1,12 +1,13 @@
 ---
 slug: st-aschersleben-lorenz
+lat: 51.7347513
+lon: 11.4299923
 name: Lorenz
 trader_type: autoverwertung
 state: ST
 city: Aschersleben
 street: ''
 postcode: ''
-clear_fields: geo
 phone: ''
 email: ''
 opening_hours: ''
@@ -76,3 +77,49 @@ Ein aktueller Telefonbuchtreffer nennt Michael Lorenz, Welbslebener Chaussee 2, 
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Zwei Seiten geprüft, kein belastbarer Identitätsbeleg für einen „Lorenz“-Autoverwerter in Aschersleben: Gelbe-Seiten-Suche nach Lorenz zeigt nur Lorenz Sigrid in Nachterstedt sowie Lorenz Annemarie und ein Dentallabor in anderen Orten; die Autoverwertungs-Suche liefert ebenfalls Betriebe außerhalb Ascherslebens. Das sind nur Aggregator-Leads und kein Beweis der Nichtexistenz. Separater Namensträger-Gegencheck: Die offizielle Website und das Gewerbeverzeichnis Neunkirchen am Brand beschreiben Lorenz Recycling GmbH & Co. KG, HRA 12468 AG Bamberg, an Benedikt-Vasold-Str. 10, 91077 Neunkirchen am Brand; Betreiberseite nennt als Tätigkeitsgebiet Nürnberg/Fürth/Erlangen/Forchheim, Team/Inhaber Bernd Lorenz und aktuelle Meldungen bis April 2025. Diese belegte bayerische Firma ist nicht mit der unbelegten Aschersleben-Zeile gleichzusetzen; keine Verbindung oder Filiale in Aschersleben gefunden, keine Daten übertragen. Für den hiesigen Datensatz bleiben Straße/Kontakt/Website leer, status pruefung und kein Schließungsbeleg; website_status auf unbekannt gesetzt. Quelle(n): https://www.gelbeseiten.de/suche/lorenz/aschersleben; https://www.gelbeseiten.de/suche/autoverwertung/aschersleben; https://www.schrott-lorenz.com/; https://www.schrott-lorenz.com/about; https://www.schrott-lorenz.com/leistungen/autoverwertung/; https://www.schrott-lorenz.com/leistungen/team-kontakt/; https://www.schrott-lorenz.com/leistungen/aktuelles/; https://www.schrott-lorenz.com/startseite/downloads-links/; https://www.neunkirchen-am-brand.de/wirtschaft/gewerbe/details/153]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.7347513/11.4299923** (Mittelwert der **1**
+  eindeutigen Knoten des Objekts **node/6390673666** - ein Objektknoten, der Mittelwert ist damit deckungsgleich mit dem
+  Knoten und liegt innerhalb der Objekt-BBox 11.4299923/51.7347513 bis 11.4299923/51.7347513). Quelle 1 (OSM):
+  **node/6390673666** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/node/6390673666.json`, HTTP 200) `name`=**Autoverwertung Lorenz**,
+  `operator`=Rolf Lorenz, `addr:street`=Welbslebener Chaussee, `addr:housenumber`=**2**, `addr:city`=Aschersleben,
+  `addr:postcode`=06449, `addr:suburb`=Westdorf, `addr:country`=DE, `contact:phone`=+49 3473 809908,
+  `opening_hours`=Mo-Fr 10:00-17:00; Sa 10:00-12:00; Su,PH off, `shop`=car_repair - das Objekt benennt den Betrieb
+  also **selbst** und trägt die Dossier-Adresse straßengenau. Auf derselben Anschrift liegt ein **zweites** OSM-Objekt,
+  **node/6634819243** (`name`=Autohof Lorenz, `operator`=Rolf Lorenz, `addr:housenumber`=2, `addr:street`=Welbslebener
+  Chaussee, `addr:suburb`=Westdorf, `contact:phone`=+49 3473 815031, `contact:fax`=+49 3473 815032,
+  51.7348216/11.4295986); es liegt rund **9 m** vom gewählten Punkt entfernt und bestätigt denselben Standort.
+  **Fensterdisziplin:** das am 04.11.2026 live abgerufene Kachelraster über **Aschersleben/Westdorf**
+  (**11.4200/51.7000 bis 11.5100/51.8000**, **90 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**) enthält die gesuchte
+  Straße tatsächlich: die **Welbslebener Chaussee** ist im Raster mit den Hausnummern **1** (node/6390673667) und
+  **2** (node/6390673666 und node/6634819243) vertreten, die **Dossier-Hausnummer 2 existiert** und ist das einzige
+  Objekt dieser Nummer auf dieser Straße; im selben Raster stehen **5.400 Adressobjekte** auf **288** Straßen, eine
+  Namenssuche nach „Lorenz“ über die Felder name, operator, description, website, contact:website, brand, note und
+  addr:housename trifft **genau** die beiden genannten Lorenz-Objekte. Quelle 2 (Betreiber/Verzeichnis, im Dossier
+  bereits zitiert, live nachgelesen am 04.11.2026): das 11880-Verzeichnis führt **„Lorenz Autoverwertung“** mit der
+  Branche **Autoverschrottung/Autoverwertung** an **Welbslebener Chaussee 2, 06449 Aschersleben (Westdorf)** mit
+  Telefon **(03473) 809908** und den Öffnungszeiten Mo–Fr 10:00–17:00, Sa 10:00–12:00 - Telefonnummer, Straße,
+  Hausnummer, Ortsteil und Öffnungszeiten decken sich **exakt** mit dem OSM-Objekt; die im Dossier vermerkte
+  „geschlossen“-Markierung ist **keine** Schließung, sondern der Öffnungszeiten-Widget („Geschlossen bis Mi., 10:00
+  Uhr“, also nur der momentane Tagesstatus). Ebenfalls im Dossier zitiert und live gegengeprüft: der
+  **Mitteldeutsche-Zeitung-Lokalbericht vom 26.05.2004** („Westdorf/MZ.“) schildert den „**Autohof Lorenz**“ in
+  Westdorf mit dem 2002 erfolgten Umzug und hält fest, dass „Werkstatt und Autoverwertung strikt getrennt“ sind -
+  deckt sich mit den beiden OSM-Objekten „Autohof Lorenz“/„Autoverwertung Lorenz“ desselben Betreibers. Der im
+  Dossier dokumentierte Telefonbuch-Lead „**Lorenz Michael**, Welbslebener Chaussee 2, Tel. 03473 815031“ findet seine
+  Entsprechung in **node/6634819243** (`contact:phone`=+49 3473 815031). **Qualifizierung / Restunsicherheit:** die
+  Betreiberangaben lauten in OSM auf **„Rolf Lorenz“**, der Telefonbuch-Lead auf **„Michael Lorenz“**; die
+  Anschrift, die Telefonnummern 809908 und 815031, die Branche Autoverwertung und der Ortsteil Westdorf stimmen
+  jedoch überein, und der Seed-Name „Lorenz“ ist damit dieser eine Standort - die Namensvarianten und der Umstand,
+  dass **kein** Betreiberauftritt und **kein** Registerbeleg vorliegen, bleiben offen (die bayerische Lorenz Recycling
+  GmbH & Co. KG ist weiterhin **nicht** gemeint); `street`, `postcode`, `phone`, `status: pruefung` und
+  `website_status: unbekannt` bleiben deshalb unverändert. `clear_fields: geo` **entfällt**, weil die Koordinate nun
+  belegt vorliegt und der Seed `geo` neben belegtem `lat`/`lon` ablehnt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/6390673666.json ;
+  https://api.openstreetmap.org/api/0.6/node/6634819243.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4200,51.7000,11.5100,51.8000 ;
+  https://www.11880.com/branchenbuch/aschersleben-sachsen-anhalt/060440459B102540169/lorenz-autoverwertung.html ;
+  https://www.11880.com/suche/autoverwertung/aschersleben ;
+  https://www.mz.de/lokal/aschersleben/leute-neue-existenz-dank-der-parksunder-2953135 (Abruf 04.11.2026).]

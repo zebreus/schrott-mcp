@@ -49,3 +49,34 @@ Die Berni Pfleging GmbH (HRB 6222 AG Gütersloh) führte historisch den An- und 
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Registerstark — Berni Pfleging GmbH, HRB 6222 (AG Gütersloh; webvalid.de + northdata.de), gegr. 25.01.1996, Gegenstand „An- und Verkauf von Eisen- und Stahlschrott"; Adresse Fürst-Bentheim-Str. 36, 33378 Rheda-Wiedenbrück (firmania.de + recyclingpool.de + city-advisor + bauenwohnen, konsistent); Tel. 05242/401369 (recyclingpool.de; telefonbuchsuche-Personeneintrag Burgweg 66 gleiche Nr. = Firmenbezug zweitbelegt, Burgweg-Adresse als Privat-/Altadresse in Historie). Fills: name (GmbH), street, postcode, phone, description; status → aktiv (Register + Konsistenz). Quelle(n): webvalid.de + northdata.de (Register, stark); recyclingpool.de + firmania.de (Adress-/Tel.-Konsistenz, Leads)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Fürst-Bentheim-Str. 36,
+  33378 Rheda-Wiedenbrück** ist in OSM zwar als Gebäude erfasst, sie ist aber die Anschrift einer **gelöschten**
+  Gesellschaft; ein aktueller Betrieb, eine Annahme oder eine Nachfolge sind **nicht** belegt. **Was live geprüft wurde
+  (04.11.2026):** Das Kachelraster über Rheda-Wiedenbrück (8.2700/51.8400 bis 8.3000/51.8700, **9 Kacheln von je 0,01
+  Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die **Fürst-Bentheim-Straße** mit **73** Adressobjekten und **63**
+  verschiedenen Hausnummern und den Hausnummern 2, 3, 4, 4a, 5, 6, 6a, 7, 8, 10, 12, 13, 14, 15, 17, 18, 20, 21, 22, 23,
+  24, 25, 26, 27-29, 28, 30, 31, 31a, 32, 33, 33a, 34, 35, 35a, 35b, **36**, 37, 37a, 37b, 38, 39, 39a, 40, 41, 43, 43a,
+  45, 51, 55, 56, 57, 58, 59, 60, 60a, 61, 62, 63, 65, 65a, 67, 67a und 69; die **Dossier-Hausnummer 36 existiert** als
+  **way/251907087** mit `addr:housenumber`=36, `addr:street`=Fürst-Bentheim-Straße, `addr:city`=Rheda-Wiedenbrück,
+  `addr:postcode`=33378 und `building`=yes (`source:building`=OpenData Kreis Gütersloh - NAS) - das Objekt trägt
+  **weder** `name=` **noch** `operator=`; eine Namenssuche nach **„Pfleging“** über die Felder name, operator,
+  description, website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer, es gibt
+  also **keine** OSM-Betriebszuordnung. Quelle 1 (Register): der im Dossier bereits zitierte **NorthData-Detailbeleg**
+  zu **Berni Pfleging GmbH, HRB 6222 AG Gütersloh** dokumentiert den historischen Unternehmensgegenstand „An- und
+  Verkauf von Eisen- und Stahlschrott“, den **Liquidator Berni Pfleging**, eine Veröffentlichung vom 03.04.2020 und die
+  **formelle Löschung am 24.10.2022**; ein Beleg für einen Rechtsnachfolger oder eine Fortführung existiert **nicht**.
+  Quelle 2 (OSM): das live abgerufene Kachelraster 8.2700/51.8400–8.3000/51.8700 mit way/251907087 **ohne**
+  Betriebsbezug. **Warum keine Koordinate:** Die zur Seed-Zeile gehörende Gesellschaft ist seit **24.10.2022 gelöscht**;
+  ein Punkt an der historischen Anschrift würde für die **Berni Pfleging GmbH** einen heutigen Betriebsstandort
+  behaupten, den weder Register noch OSM tragen - das Dossier selbst hält die Adresse für historische Stammdaten und
+  nicht für einen Annahmepunkt. **Was zur Auflösung fehlt:** ein Nachweis einer **Fortführung oder Nachfolge** an dieser
+  oder einer anderen Anschrift mit belegter Schrottannahme. `clear_fields: 'geo,phone'` **bleibt** bestehen (der
+  Altpunkt wird weiterhin zurückgezogen, die historische Rufnummer weiterhin nicht als aktueller Kontakt geführt),
+  `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/251907087/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2700,51.8400,8.3000,51.8700 ;
+  https://www.northdata.de/Berni+Pfleging+GmbH,+Rheda-Wiedenbr%C3%BCck/Amtsgericht+G%C3%BCtersloh+HRB+6222 (Abruf
+  04.11.2026).]

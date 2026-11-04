@@ -1,12 +1,13 @@
 ---
 slug: ni-osnabruck-maggi-stefan-maggi-schrott-metalle
+lat: 52.2990522
+lon: 7.9446457
 name: Maggi / Stefan Maggi Schrott + Metalle
 trader_type: schrotthaendler
 state: NI
 city: Osnabrück
 street: 'Zum Attersee 45'
 postcode: '49090'
-clear_fields: geo
 phone: '0171 9802047'
 email: ''
 opening_hours: ''
@@ -55,3 +56,45 @@ Die importierte Zuordnung „Maggi / Stefan Maggi Schrott + Metalle“ nennt Zum
 ### Recherche 29.10.2026: OSM-Negativa live geprüft — Zum Attersee trägt kein Scrap-Bezug, Hausnummernfolge 9/45/50
 
 - [Recherche 29.10.2026: Die OSM-Aussagen der Vorwelle wurden **live am Objekt** nachgeprüft und die verbliebende Negativa präzisiert. (1) **Node 8669114456** (live, `api.openstreetmap.org`): `addr:housenumber=45`, `addr:street=Zum Attersee`, `addr:postcode=49076`, `addr:city=Osnabrück`, `name=Abschleppdienst Schubert`, `shop=car_repair`, `service:vehicle:towing=yes` — **kein** Schrott-, Recycling- oder Metall-Tag; die Nachbarhäuser der Straße tragen `craft=cleaning` (Hausnummer 9, „rational Gebäudereinigung") und `name=Camping- und Freizeitgelände Attersee` mit `contact:website=http://www.camping-attersee.de/` (Hausnummer 50, Telefon +49 541 124147). Die Hausnummernfolge der Straße ist damit unter anderem **9, 45 und 50** (in 49076 trägt „Zum Attersee“ zusätzlich 2, 5, 10, 12 und 19; der Straßenname setzt sich in Lotte/Wersen mit zahlreichen weiteren Hausnummern in der PLZ 49504 fort (unter anderem 21, 24, 26, 28, 30, 32, 42, 45, 46, 47, 48, 49, 50, 51, 53, 55, 21a und 26a) (der Beleg für die „9“ ist **node 8669109229** — `addr:housenumber=9`, `addr:street=Zum Attersee`, `addr:postcode=49076`, `craft=cleaning`, `name=rational Gebäudereinigung GmbH & Co. KG` — und liegt **innerhalb** des zitierten Kartenausschnitts `bbox=7.9400,52.2960,7.9480,52.3020`); ein **Schrottplatz-Objekt existiert an der Adresse nicht** — präziser als „nicht erfasst" lautet der Befund: „die Adresse 45 Zum Attersee ist als Abschleppdienst/Kfz-Reparatur erfasst, nicht als Schrottfläche". (2) **Die Gegenadresse** way 301205202 trägt `addr:housenumber=5`, `addr:street=Die Eversburg`, `building=apartments`, `building:levels=2` — **keine** `addr:postcode`/`addr:city`; die Nominatim-Vorwärtssuche „Die Eversburg 5, 49090 Osnabrück" löst auf genau dieses Objekt auf. (3) Der Kartennadel-Punkt der Gelben Seiten (52.300674/7.979144) löst nach OSM/Nominatim auf den **Glasgowring** (way 729513250, `highway=residential`, `name=Glasgowring`, `surface=asphalt`) — also auf eine **Straße ohne Hausnummer**, nicht auf ein Gebäude; die Vorwellen-Angabe „pin trifft keines der beiden Häuser exakt" ist damit bestätigt und präzisiert. (4) Die **zurückgenommene** Koordinate (52.27062222222222/8.036999999999999) löst nach OSM/Nominatim auf „**14, Schnatgang**, Vordere Wüste, Wüste, Osnabrück (49080)" — rund **7 km** vom Dokumentationspunkt entfernt; die Rücknahme mit `clear_fields: geo` aus der Vorwelle ist damit bestätigt und bleibt. (5) **Preise**: unverändert **keine** Ankaufspreise, **keine** Materialstaffel, **kein** Tageskurs, **keine** Verkaufsliste, **keine** Tarife — eine Preisliste existiert für diesen Betrieb nach dem Stand dieser Recherche nicht. Frontmatter unverändert (Straße, PLZ, Telefon, `status: aktiv`, `clear_fields: geo` bleiben wie in der Vorwelle); `website_status: unbekannt` bleibt. **Offen (unverändert):** verbindliche Betriebsadresse (Zum Attersee 45 mit 49076 oder 49090 bzw. Die Eversburg 5), Betriebsname/„Stefan Maggi“-Zuordnung, aktuelle Öffnungszeiten und Ankaufbedingungen. Quellen: https://api.openstreetmap.org/api/0.6/node/8669114456.json ; https://api.openstreetmap.org/api/0.6/way/301205202/full ; https://api.openstreetmap.org/api/0.6/way/729513250/full ; https://api.openstreetmap.org/api/0.6/map?bbox=7.9400,52.2960,7.9480,52.3020 ; https://nominatim.openstreetmap.org/search?q=Die+Eversburg+5%2C+49090+Osnabr%C3%BCck&format=jsonv2&limit=5 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.300674&lon=7.979144&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.27062222222222&lon=8.036999999999999&zoom=18&addressdetails=1 ; read-only `public.db` (29.10.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.2990522/7.9446457**. Das Objekt ist ein
+  **Knoten** (kein Weg), die Koordinate ist daher unmittelbar die Knotenposition; die Objekt-BBox eines Knotens
+  entartet auf diesen Punkt, der Punkt liegt damit in ihr. Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **node/8669114456** trägt `addr:street`=Zum Attersee, `addr:housenumber`=**45**, `addr:city`=Osnabrück,
+  `addr:postcode`=**49076** sowie `name`=**Abschleppdienst Schubert**, `shop`=car_repair,
+  `service:vehicle:towing`=yes. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene
+  Kachelraster umfasst **7.9300/52.2900 bis 7.9600/52.3100**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das
+  Fenster enthält die gesuchte Straße **nachweislich** mit **15** Straßenobjekten (way/24455771, way/24455772,
+  way/28170722, way/34859679, way/34859680, way/34859681, way/34859684, way/43179596, way/174045785,
+  way/174045788, way/318163379, way/681889184, way/681889186, way/847117326, way/935483634) und **31** Adressobjekten
+  auf „Zum Attersee" (Hausnummern 2, 5, 9, 10, 12, 19, 21, 21a, 24, 26, 26a, 28, 30, 32, 42, **45**, 46, 47, 48, 49, 50,
+  51, 53, 55) - die **Dossier-Hausnummer 45 existiert**; im Raster tragen **zwei** Objekte diese Nummer, jedoch
+  disambiguieren die Ortstags eindeutig: **node/8669114456** (`addr:city`=**Osnabrück**, `addr:postcode`=49076) gegen
+  **way/314663680** (`addr:city`=**Lotte**, `addr:postcode`=49504) - gesetzt wird das Objekt im Dossier-Ort
+  Osnabrück. Eine Namenssuche nach **„Maggi"** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer; ein Namenssuchlauf nach
+  **„Schubert"** findet **genau einen** Treffer, eben node/8669114456. Quelle 2 (Verzeichnis, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): der **Gelbe-Seiten-Eintrag** liefert **HTTP 200** und nennt live **„Maggi
+  Schrott + Metalle", Branche Schrott, Zum Attersee 45, 49090 Osnabrück, Telefon 0171 9 80 20 47** - die
+  Hausnummer- und Straßenangabe des Dossiers ist damit durch eine zweite Quelle gedeckt und die Telefonnummer
+  stimmt überein. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: geo` wurde **entfernt**, weil es den
+  am 28.10.2026 zurückgenommenen und rund 7 km abweichenden Produktionspunkt (52.270622/8.036999, Schnatgang 14,
+  49080 Osnabrück-Wüste) fernhalten sollte; der hier gesetzte Punkt liegt **exakt** auf der belegten Anschrift
+  „Zum Attersee 45", während `clear_fields` nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen darf.
+  **Offene Widersprüche (unverändert übernommen, ausdrücklich nicht aufgelöst):** (a) die **Postleitzahl** weicht ab -
+  das Dossier/der Gelbe-Seiten-Eintrag nennen **49090**, OSM nennt für dasselbe Haus **49076** (Ortsteil Atter); die
+  Straße selbst führt in OSM jenseits der Stadtgrenze objects in Lotte/49504 mit geraden Hausnummern, die Nummern 9,
+  10, 12, 45 und 50 liegen dagegen auf der Osnabrücker Seite; (b) der **Adresskonflikt** „Die Eversburg 5"
+  (lokaleschrottplatz.de) bleibt ungeklärt - way/301205202 trägt `addr:housenumber`=5, `addr:street`=Die Eversburg,
+  `building`=apartments und liegt rund 3,3 km entfernt; (c) das OSM-Objekt an der gesetzten Adresse trägt den Namen
+  **„Abschleppdienst Schubert"**, also einen **anderen** Betrieb als den Dossier-Eintrag - es gibt **keine**
+  OSM-Betriebszuordnung zu „Maggi"; der Punkt bezeichnet damit die **Adressangabe des Dossiers**, nicht einen
+  verifizierten Maggi-Standort und **keine** Schrott-Annahmefläche. `status: aktiv` bleibt Seed-Wert, `street`,
+  `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und `description` bleiben unverändert; es
+  wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/8669114456.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9300,52.2900,7.9600,52.3100 ;
+  https://www.gelbeseiten.de/gsbiz/f2cf6cca-f319-4ff4-bea3-f8b9a6e62e5a ; https://api.openstreetmap.org/api/0.6/way/301205202/full.json
+  (Abruf 04.11.2026).]
