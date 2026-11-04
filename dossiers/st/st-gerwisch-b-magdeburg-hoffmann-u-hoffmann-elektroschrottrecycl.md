@@ -1,5 +1,7 @@
 ---
 slug: st-gerwisch-b-magdeburg-hoffmann-u-hoffmann-elektroschrottrecycl
+lat: 52.1787075
+lon: 11.7456292
 name: Hoffmann u. Hoffmann GbR Elektroschrottrecycling
 trader_type: schrotthaendler
 state: ST
@@ -13,7 +15,6 @@ website: ''
 website_status: ''
 status: pruefung
 description: 'Elektroschrottrecycling am Standort Gartenstr. 1, 39175 Gerwisch (Biederitz). Die Identität ist nur über ein Branchenverzeichnis belegt; im amtlichen Register der Entsorgungsfachbetriebe (Stand 11.08.2026) ist für die Postleitzahl 39175 nur die Gerwischer Rohstoffrecycling & Verwertungs GmbH (Lostauer Straße 5) geführt, ein Eintrag Hoffmann u. Hoffmann fehlt. Annahmebedingungen, Preise und Gebühren sind nicht belegt; die ebenfalls geführte Gerwischer Rohstoffrecycling & Verwertungs GmbH ist ein getrenntes Unternehmen.'
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Nachtrag Audit-Runde 3 (Stand: 2026-09-27)'
@@ -59,3 +60,46 @@ Die importierte Identität „Hoffmann u. Hoffmann GbR Elektroschrottrecycling�
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Klärfall bleibt offen. Die Gemeindeseite Biederitz liefert für die Suche nach „Hoffmann“ keine Treffer. Das belegt nicht, dass kein Betrieb besteht, und verifiziert weder die importierte Identität noch Gartenstr. 1, 39175 oder 039292/9144; die geprüfte Gemeindesuche liefert keinen ergänzenden Beleg zu den Seed-Angaben. Die vorhandenen, nichtleeren Felder bleiben unangetastet; keine Schließungsbehauptung, keine Annahme-/Abholangaben ergänzt und keine Geocodierung. Restunsicherheit: Zuordnung der GbR zu dieser Adresse/Telefonnummer, aktueller Betrieb und E-Schrott-Annahme; Quelle(n): https://www.biederitz.de/?s=Hoffmann (Abruf 04.10.2026; offizielle Gemeindeseite, keine Übereinstimmung auf der Website-Suche).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.1787075/11.7456292** (Mittelwert der **9**
+  eindeutigen Knoten von **way/1084695047**; die BBox der eindeutigen Knoten reicht von 11.7455147/52.1786506 bis
+  11.7457130/52.1787596 und **umschließt den Mittelwert**). Quelle 1 (OSM): **way/1084695047** trägt live (abgerufen am
+  04.11.2026 über `https://api.openstreetmap.org/api/0.6/way/1084695047/full.json`, HTTP 200)
+  `addr:street`=Gartenstraße, `addr:housenumber`=**1**, `addr:city`=Biederitz, `addr:suburb`=**Gerwisch**,
+  `addr:postcode`=**39175**, `addr:country`=DE, `building`=yes - die Dossier-Adresse existiert damit **unabhängig** in
+  OSM und **straßengenau**. Das Objekt trägt **weder** `name=` **noch** `operator=` und **keinen** Branchentag; der Punkt
+  bezeichnet die belegte Anschrift, nicht einen verifizierten E-Schrott-Annahmehof. **Fensterdisziplin:** das am
+  04.11.2026 live abgerufene Kachelraster über **Gerwisch (Biederitz)** (**11.7300/52.1600 bis 11.7600/52.2000**,
+  **12 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**) enthält die gesuchte Straße tatsächlich: die **Gartenstraße**
+  in Gerwisch (39175) ist im Raster mit **neun Straßenobjekten** (way/27745952, way/97109976, way/98819251,
+  way/364302606, way/364302608, way/407480745, way/525173996, way/647453705, way/741651466) und über **40
+  Adressobjekten** vertreten - die belegten Hausnummern lauten u. a. **1** (way/1084695047), 1B, 1C, 1D, 1E, 3, 4, 5,
+  6B, 6E, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 26A, 26B, 28, 28A, 30, 30A,
+  30B, 32, 32A, 32B, 32C, 34, 36A, 36B, 37, 37A, 38, 40; die **Dossier-Hausnummer 1 existiert** und ist im Raster
+  das einzige Objekt dieser Nummer auf dieser Straße; die im Dossier zitierten OSM-Ways 741651466 / 647453705 /
+  525173996 sind damit bestätigt **Straßenobjekte derselben Straße**, und die im Dossier vermerkte Nominatim-Auflösung
+  **52.1787073/11.7456129** deckt sich auf **wenige Meter** mit dem gewählten Objekt. Quelle 2 (Betreiber/Verzeichnis, im
+  Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **11880**-Detailseite führt
+  **„Hoffmann u. Hoffmann GbR Elektroschrottrecycling“** mit **Gartenstr. 1, 39175 Gerwisch**, Telefon
+  **(039292) 9144** und der im Portal hinterlegten Geokoordinate **11.745613/52.178707**; das im Dossier zitierte
+  **Branchenbuch der Gemeinde Gerwisch** („Hoffmann u. Hoffmann GbR Transport“), **ITSBETTER**, **anrufer.info**,
+  **defirmenkataloge**, **finderr** (Spedition), **schrottplatz.org** („Anbieter für E-Schrott“), **Öffnungszeitenbuch**
+  und **11880** („Recycling, Entsorgung & Altmaterialhandel“) nennen dieselbe Anschrift und dieselbe Nummer. Die
+  **Adresse** ist damit mehrfach unabhängig gedeckt. **Qualifizierung (wichtig):** die Identität des Betriebs beruht
+  **ausschließlich auf Branchenverzeichnissen** - es existiert **kein** Betreiberauftritt, **kein** Impressum, **kein**
+  Inhabername und **kein** Registereintrag; im **amtlichen Fachbetrieberegister** (Auszug 11.08.2026) ist für
+  Biederitz/Gerwisch (39175) **nur** die „Gerwischer Rohstoffrecycling und Verwertung GmbH“ (Lostauer Straße 5) geführt,
+  ein Eintrag Hoffmann u. Hoffmann **fehlt** (Negativbefund ohne Beweiswert, die Efb-Anerkennung ist freiwillig); die
+  beiden Unternehmen bleiben **getrennt**, und die Branchenbezeichnung ist zwischen den Verzeichnissen uneinheitlich
+  (Elektroschrottrecycling / Transport / Spedition). Die Koordinate markiert daher die **Anschrift, die die
+  Verzeichnisse diesem Seed-Eintrag nennen**, und ist **kein** Beleg für eine öffentliche E-Schrott-Annahme oder für
+  den Fortbestand des Betriebs; `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status`,
+  `description`, `dropoff_json`, `pickup_json` und `status: pruefung` bleiben unverändert. `clear_fields: 'geo'`
+  **entfällt**, weil die Koordinate nun belegt vorliegt und der Seed `geo` neben belegtem `lat`/`lon` ablehnt.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/1084695047/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.7300,52.1600,11.7600,52.2000 ;
+  https://www.11880.com/branchenbuch/gerwisch/060441364B27807836/hoffmann-u-hoffmann-gbr-elektroschrottrecycling.html ;
+  https://gerwisch.stadtbranchenbuch.com/545843.html ;
+  https://www.schrottplatz.org/biederitz/schrott-hoffmann-u-hoffmann-gbr-elektroschrottrecycling-aYEPQC.html (Abruf 04.11.2026).]

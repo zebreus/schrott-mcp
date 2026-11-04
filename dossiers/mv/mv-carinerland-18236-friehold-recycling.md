@@ -1,5 +1,7 @@
 ---
 slug: mv-carinerland-18236-friehold-recycling
+lat: 54.0052629
+lon: 11.7739194
 name: Friehold Recycling GmbH
 trader_type: sonstige
 state: MV
@@ -54,3 +56,41 @@ Da nicht belegt ist, welche der beiden Adressen dem Registereintrag zugehört, b
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: **Der am 02.10.2026 notierte Negativbefund zur genauen Namenssuche ist überholt — es gibt einen Registertreffer; gleichzeitig ist die Seed-Adresse falsch zugeordnet.** Der Handelsregister-Spiegel (firmenkontor24, Suche nach Registernummer) führt **Friehold Recycling GmbH, AG Rostock HRB 9677, Sitz Karin** — die in der Vorwelle als Fehlgriff dokumentierte NorthData-Suche war eine zu enge Suche, nicht das Fehlen des Unternehmens. Die Suche nach HRB 9677 allein ist nicht eindeutig (die Registernummer ist gerichtsspezifisch; 58 Unternehmen teilen sich die Nummer über verschiedene Amtsgerichte), **der Treffer „Friehold Recycling GmbH | Karin | Amtsgericht Rostock | HRB 9677" ist aber eindeutig der gesuchte Rechtsträger**. Die Registerkette um die Bezugsperson **Dirk Friehold** ist belegt: **BAG Bauschuttaufbereitungsgesellschaft Nord mbH**, AG Rostock HRB 14055, Geschäftsanschrift **Kastanienallee 5 b, 18233 Carinerland OT Alt Karin**, Geschäftsführer und 100-%-Gesellschafter Dirk Friehold (USt-IdNr DE352 358 628 / Bilanz 2024: 2 Mitarbeiter, 741.088 € Bilanzsumme) sowie **TRB Transport-Recycling-Baustoffhandel Nord GmbH**, Stralsund HRB 7160, **Chaussee 1, 18236 Kröpelin**, Geschäftsführer u. a. Dirk Friehold. **Adresskonflikt, live in OSM geprüft:** Die Branchenverzeichnisse (stadtbranchenbuch Kröpelin, tupalo, stadtbranchenbuch Bad Doberan) nennen **Friehold Recycling GmbH, Chaussee 1, 18236 Kröpelin-Brusow**, Tel. 038292 82468, Fax 038292 82469 — also **Kröpelin, nicht Carinerland**; ein anderes Verzeichnis (schrottplatz.org) führt den Betrieb dagegen unter **Kastanienallee 12, 18236 Carinerland**, während die Stadt Carinerland (OT Alt Karin) die PLZ **18233** trägt (18236 ist die PLZ von Kröpelin) — die Seed-Kombination „Carinerland 18236" ist in sich widersprüchlich; dieselbe Adresse nennt ein weiteres Verzeichnis als Sitz von **„Dirk Friehold Baggerarbeiten"** (Tel. 038297 30362), also einer anderen Geschäftsart. In OSM sind **beide** Adressen als Gebäude erfasst: way 96373934 (`addr:housenumber=1`, `addr:street=Chaussee`, `addr:postcode=18236`, `addr:city=Kröpelin`, `addr:suburb=Brusow`) und way 275855234 (`addr:housenumber=12`, `addr:street=Kastanienallee`, `addr:postcode=18233`, `addr:city=Carinerland`, `addr:suburb=Alt Karin`) — **beide Hausnummern existieren also in OSM, mit unterschiedlichen Postleitzahlen** (präzise: die Seed-Adresse ist in OSM als „12, Kastanienallee, 18233 Carinerland" erfasst, nicht als „18236"). Der amtliche Fachbetrieberegister-Abzug (Stand 11.08.2026) hat **keine Ortsseite für Carinerland oder Kröpelin** (HTTP 404) — ein Negativbefund ohne Beweiswert. frontmatter: **kein Fill der Adresse**, da die Zuordnung Registereintrag ↔ Anschrift offen ist; `city` von „Carinerland 18236" auf **„Carinerland"** normalisiert (die PLZ steckt im Feld city — eine reine Feldnormalisierung, keine neue Adressbestätigung), description mit der Namens- und Rechtsformlage. **ANKAUF:** Recycling-/Schrottannahme als Geschäftsfeld belegt, **keine Preise veröffentlicht**; **VERKAUF:** kein Verkaufssortiment belegt; **GEBÜHREN:** keine Gebühren- oder Containerordnung belegt, keine kostenfreie Annahme behauptet. **Offen:** Welche der beiden Anschriften (Kastanienallee 12, 18233 Carinerland/Alt Karin oder Chaussee 1, 18236 Kröpelin/Brusow) dem HRB-9677-Eintrag zuzuordnen ist — ohne Registerauszug mit Geschäftsanschrift nicht entscheidbar; ebenso offen, ob die Bauschutt-Aufbereitung (BAG) und der Baustoffhandel (TRB) eigene Betriebe mit eigenen Preisen sind, die **nicht** diesem Slug zugeordnet werden dürfen. Quelle(n): https://order.firmenkontor24.com/search/HRB/9677 + https://www.registercheck.de/companies/BAG+Bauschuttaufbereitungsgesellschaft+nord+mbh + https://handelsregister.ai/en/organizations/carinerland/quarrying-of-other-natural-sands-and-gravel/bag-bauschuttaufbereitungsgesellschaft-nord-mbh-249827d15ee6c671ce27783b8a04034f + https://transport-unternehmen.de/firma/trb-transport-recycling-baustoffhandel-nord-gmbh--hrb7160/ + https://kroepelin.stadtbranchenbuch.com/1745536.html + https://www.tupalo.de/kr%C3%B6pelin/friehold-recycling + https://www.schrottplatz.org/carinerland/friehold-recycling-gmbh-5164416.html + https://kroepelin.stadtbranchenbuch.com/1124428.html + https://api.openstreetmap.org/api/0.6/way/96373934/full + https://api.openstreetmap.org/api/0.6/way/275855234/full (Abruf 29.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **54.0052629/11.7739194** (Mittel der **6**
+  eindeutigen Knoten von way/275855234; die BBox der eindeutigen Knoten reicht von 54.0051294/11.7737256 bis
+  54.0054331/11.7741057 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/275855234** trägt `addr:street`=Kastanienallee, `addr:housenumber`=**12**, `addr:postcode`=18233,
+  `addr:city`=Carinerland, `addr:suburb`=Alt Karin, `addr:country`=DE, `building`=yes. **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster über Alt Karin umfasst **11.7600/54.0000 bis
+  11.7900/54.0200**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße
+  **nachweislich** mit den Straßenobjekten **way/26534424**, **way/26534426** und **way/376194204** sowie **13**
+  Adressobjekten auf „Kastanienallee" (Hausnummern 1, 2, 3, 4, 5, 5b, 6, 6a, 7, 8, 10, 11 und **12**) - die
+  **Dossier-Hausnummer 12 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße; alle
+  Adressobjekte tragen `addr:city`=Carinerland, `addr:postcode`=18233. Ein Namenssuchlauf nach **„Friehold"** über die
+  Felder name, operator, description, website, contact:website, brand, note und addr:housename findet im Raster
+  **keinen** Treffer - es gibt **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Register, im Dossier
+  bereits zitiert): der **Register-Spiegel** (Handelsregister AG Rostock **HRB 9677**) führt **Friehold Recycling
+  GmbH** mit **Sitz Karin** - Karin ist der Ortsteil **Alt Karin der Gemeinde Carinerland**, also genau die in OSM
+  hinterlegte Kommune, Ortsteil und PLZ des gesetzten Objekts; die im Dossier dokumentierte **BAG Bauschuttaufbereitungsgesellschaft
+  Nord mbH** (AG Rostock HRB 14055, Geschäftsanschrift **Kastanienallee 5 b, 18233 Carinerland OT Alt Karin**,
+  Geschäftsführer und 100-%-Gesellschafter **Dirk Friehold**) und die **TRB Transport-Recycling-Baustoffhandel Nord
+  GmbH** (Stralsund HRB 7160, **Chaussee 1, 18236 Kröpelin**, Geschäftsführer u. a. Dirk Friehold) belegen die
+  Namens- und Ortszugehörigkeit der Gruppe. **Zurückgenommene Alternativadresse (bleibt offen):** die
+  Branchenverzeichnisse nennen den Betrieb an **Chaussee 1, 18236 Kröpelin-Brusow**; dieses Objekt existiert in OSM
+  ebenfalls (way/96373934, `addr:housenumber`=1, `addr:street`=Chaussee, `addr:postcode`=18236, `addr:city`=Kröpelin,
+  `addr:suburb`=Brusow, Kontrollfenster **11.8100/54.0600 bis 11.8300/54.0800**, **4 Kacheln**, **0 Kachel-Fehler**,
+  dort **15** Adressobjekte auf „Chaussee"), es gehört aber nach Registerlage zur **TRB** und nicht zum Sitz der
+  Friehold Recycling GmbH; die Seed-Kombination „Carinerland 18236" bleibt in sich widersprüchlich (18236 ist die PLZ
+  von Kröpelin, Alt Karin trägt 18233). **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die
+  **registergestützte Sitzanschrift** der Gesellschaft in Alt Karin; ob dort der Recyclingbetrieb tatsächlich
+  **betrieben** wird, ist nicht belegt - das amtliche Fachbetrieberegister führt für Carinerland/Kröpelin **keine**
+  Ortsseite (Negativbefund ohne Beweiswert). `status: pruefung`, `trader_type: sonstige`, `city`, `street`,
+  `postcode` (leer), `phone`, `email`, `website`, `website_status` und `description` bleiben unverändert; es wird
+  weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/275855234/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.7600,54.0000,11.7900,54.0200 ;
+  https://api.openstreetmap.org/api/0.6/way/96373934/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.8100,54.0600,11.8300,54.0800 (Abruf 04.11.2026).]

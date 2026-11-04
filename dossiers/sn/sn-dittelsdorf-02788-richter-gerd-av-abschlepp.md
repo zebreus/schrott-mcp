@@ -1,5 +1,7 @@
 ---
 slug: sn-dittelsdorf-02788-richter-gerd-av-abschlepp
+lat: 50.9496281
+lon: 14.8545732
 name: Richter Gerd AV + Abschlepp
 trader_type: autoverwertung
 state: SN
@@ -44,3 +46,34 @@ Eine amtliche sächsische Anlage von 2012 führt „Autoverwertung Gerd Richter�
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Der geprüfte Kandidat av-richter.de ist laut eigenem Impressum und Kontaktseite Autoverwertung Richter, Inhaber Mario Kuhn, Rackwitzer Str. 50–52, 04347 Leipzig, also nicht der gesuchte Gerd Richter in Dittelsdorf; dessen Adresse und Kontakte wurden nicht übertragen. Im GESA-Fachbetrieberegister ließ sich weiterhin kein verwertbarer, eindeutig passender aktueller Nachweis abrufen. Website, Adresse, Kontakt- und Betriebsfelder bleiben leer/unbekannt; fehlender Nachweis belegt keine Schließung. Preise nicht belegt; Quelle(n): http://www.av-richter.de/impressum.html; http://www.av-richter.de/kontakt.html; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.9496281/14.8545732** (Mittel der **4**
+  eindeutigen Knoten von way/282566927; die BBox der eindeutigen Knoten reicht von 50.9495324/14.8543551 bis
+  50.9497237/14.8547912 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/282566927** trägt `addr:street`=Wittgendorfer Feld, `addr:housenumber`=**14**, `addr:postcode`=02788,
+  `addr:city`=Zittau, `addr:suburb`=**Dittelsdorf**, `addr:country`=DE, `building`=yes - der **Ortsteil Dittelsdorf**
+  ist damit ausdrücklich hinterlegt und die Dossier-Adresse **Wittgendorfer Feld 14, 02788 Dittelsdorf** vollständig
+  abgebildet. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst
+  **14.8400/50.9400 bis 14.8700/50.9600**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die
+  gesuchte Straße **nachweislich** mit dem Straßenobjekt **way/279787701** (residential) sowie **19** Adressobjekten auf
+  „Wittgendorfer Feld" mit **19** verschiedenen Hausnummern (1, 2a, 2b, 3, 4, 4a, 5, 6, 7, 8, 10, 10a, 12, **14**, 16, 16a,
+  18, 18a) - die **Dossier-Hausnummer 14 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
+  Straße. Quelle 2 (Verzeichnis/Behörde, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
+  **Gelbe-Seiten-Suche** liefert **HTTP 200** und nennt live **„Richter Gerd, Autoverwertung und Abschleppdienst,
+  Branche Autoverwertung, Wittgendorfer Feld 14, 02788 Dittelsdorf (Dittelsdorf), Telefon 035843 2 52 70"** - die
+  Anschrift und die Nummer stimmen mit dem OSM-Adressobjekt überein; die im Dossier zitierte **amtliche sächsische
+  Anlage von 2012** führt „Autoverwertung Gerd Richter" mit der Tätigkeit „Autoverwertung und Abschleppdienst" in
+  **Hirschfelde, OT Dittelsdorf** - ein **historischer** Behördenbeleg, kein aktueller Betriebs- oder
+  Zertifizierungsnachweis. **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die
+  **verzeichnisgestützte Anschrift**, **nicht** einen verifizierten Betrieb - die Portalmarkierung „Geschlossen" bzw.
+  das Fehlen aktueller Verzeichniseinträge ist kein belastbarer Schließungsnachweis, ein Betreiberauftritt (Impressum,
+  eigene Website) existiert **nicht**, der Auftritt **av-richter.de** gehört laut eigenem Impressum zur
+  **Autoverwertung Richter/Mario Kuhn in Leipzig** und wird **nicht** zugeordnet; die **Zertifizierung** und eine
+  **heutige öffentliche Annahme** bleiben offen, ebenso Ankauf, Verkauf und Gebühren. `status: pruefung`, `city`,
+  `street` (leer), `postcode` (leer), `phone` (leer), `email` (leer), `opening_hours` (leer), `website` (leer),
+  `website_status` (unbekannt) und `description` (leer) bleiben unverändert; es wird weder Fortbestand noch Schließung
+  behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/way/282566927/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=14.8400,50.9400,14.8700,50.9600 ;
+  https://www.gelbeseiten.de/suche/autoverwertung+richter/zittau (Abruf 04.11.2026).]

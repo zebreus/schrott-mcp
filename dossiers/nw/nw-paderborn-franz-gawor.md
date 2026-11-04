@@ -55,3 +55,34 @@ Franz Gawor ist bislang ein Rohprodukte-/Verzeichnislead, kein unabhängig beleg
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Leads (keine Belege): Hermann-Kirchhoff-Str. 35, 33102 Paderborn, Tel. 05251 32195, Mo–Fr 09:30–17:30 aus Verzeichnissen (11880, Öffnungszeitenbuch, branchenbuchdeutschland.de). Felder bleiben leer, website_status unbekannt; Quelle(n): 11880.de, oeffnungszeitenbuch.de (nur Leads)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Hermann-Kirchhoff-Str. 35,
+  33102 Paderborn** ist in OSM **nicht abbildbar**: die Straße existiert, die **Hausnummer 35 fehlt** dort. **Was live
+  geprüft wurde (04.11.2026):** Das Kachelraster über Paderborn-Kernstadt (8.7300/51.7200 bis 8.7600/51.7500, **9
+  Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die **Hermann-Kirchhoff-Straße** mit **38**
+  Adressobjekten und **35** verschiedenen Hausnummern (1, 2, 3, 4, 5, 7, 9, 11, 13, 15, 17, 19, 1a, 1b, 1c, 19a, 19b,
+  19c, 23, 25, 27, 29, 31, 33, 3b, 3c, 3d, 3e, 37, 39, 41, 43, 43a, 45 und 51) - die **Hausnummer 35 existiert dort
+  nicht** (die Nachbarnummern 33 und 37 sind erfasst, 35 nicht); eine Suche nach `addr:housenumber`=35 in Verbindung mit
+  „Hermann-Kirchhoff“ findet **kein** Objekt. Eine Namenssuche nach **„Gawor“** über die Felder name, operator,
+  description, website, contact:website, brand, note und addr:housename findet im live abgerufenen Raster **keinen**
+  Treffer - es gibt **keine** OSM-Betriebszuordnung. Quelle 1 (Betreiber/Verzeichnis): die 11880-Detailseite wurde am
+  04.11.2026 live gelesen und führt „**Franz Gawor RohProd.Ankauf**“ mit den Portalrubriken
+  Altmaterialhandel/Schrotthandel, **(05251) 32195**, **Hermann-Kirchhoff-Str. 35, 33102 Paderborn (Kernstadt)** und
+  Öffnungszeiten Mo–Fr 09:30–17:30; sie weist zugleich **„Eintragsdaten vom 01.03.2022“** und **„aktualisiert am
+  02.10.2026“** aus - der Portalstempel ist ein **Aktualitätsstempel des Verzeichnisses**, kein Betreiber- oder
+  Identitätsbeleg. Das im Dossier bereits zitierte **NorthData-Ergebnis** führt unter den ersten 15 Treffern **keinen**
+  zugeordneten Einzelbeleg zu „Franz Gawor“; ein nicht eingetragener Einzelbetrieb kann dadurch **nicht** ausgeschlossen
+  werden. Quelle 2 (OSM): das live abgerufene Kachelraster 8.7300/51.7200–8.7600/51.7500 mit der oben genannten
+  Hausnummern-Census und **ohne** Objekt mit der Nummer 35. **Warum keine Koordinate:** Die Dossier-Hausnummer ist in
+  OSM **nicht** vorhanden; jeder Punkt müsste aus einem fremden Objekt oder aus der Straßenmitte **abgeleitet** werden
+  und wäre damit eine unbelegte Vermutung. Hinzu kommt der im Dossier dokumentierte **Betreiberbefund**: für „Franz
+  Gawor“ existiert **kein** Betreiberauftritt und **kein** Registerbeleg, die Angaben stammen aus **Verzeichnis-Leads**
+  (11880, Öffnungszeitenbuch, branchenbuchdeutschland.de). **Was zur Auflösung fehlt:** (a) eine Kartierung der
+  **Hausnummer 35** in der Hermann-Kirchhoff-Straße in OSM - oder eine belegte Nachbaradresse; und (b) ein Betreiber-
+  oder Registerbeleg, der die Tätigkeit als Schrott-/Rohstoffhändler an dieser Anschrift **heute** belegt.
+  `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch
+  Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.7300,51.7200,8.7600,51.7500 ;
+  https://www.11880.com/branchenbuch/paderborn/060440090B27400779/franz-gawor-rohprod-ankauf.html ;
+  https://www.northdata.de/?query=Franz%20Gawor%20Paderborn (Abruf 04.11.2026).]

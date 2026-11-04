@@ -1,5 +1,7 @@
 ---
 slug: st-lutherstadt-wittenberg-madaj
+lat: 51.9093688
+lon: 12.6951160
 name: Madaj
 trader_type: autoverwertung
 state: ST
@@ -13,7 +15,6 @@ website: https://www.autoverwertung-wittenberg.de/
 website_status: aktiv
 status: aktiv
 description: 'Autoverwertung, Autoschrottplatz und Ersatzteilmarkt in Lutherstadt Wittenberg OT Karlsfeld. Das Betreiber-Impressum (autoverwertung-wittenberg.de, live abgerufen am 28.10.2026) nennt "Autoverwertung Eiserbeck Inh. Torsten Madaj", Eupersche Str. 2, 06888 Lutherstadt Wittenberg OT Karlsfeld, Telefon 03491-884444, Fax 03491-440662, USt-IdNr. 115/216/01622, E-Mail av.eiserbeck@gmail.com, Betriebsgründung 1. Januar 1991; die Startseite teilt mit, dass der Betrieb ab 01.01.2025 von Matthias Eiserbeck an Torsten Madaj übergeben wurde, und ist mit M. Eiserbeck unterzeichnet. Das offizielle Branchenbuch der Lutherstadt Wittenberg führt unter derselben Anschrift und derselben Telefonnummer "Autoverwertung Eiserbeck & Sachse GbR" (E-Mail info@autoverwertung-wittenberg.de). Dieser Namenskonflikt zwischen dem Einzelunternehmer Madaj und der GbR-Firmierung bleibt offen; eine Umbenennung oder gemeinsame Identität wird nicht abgeleitet. ANKAUF: ständiger Ankauf von Unfallwagen, Schrottautos und Wohnmobilen, Barankauf ohne vorherige Anmeldung; für Schrott und Metalle ist kein öffentlich bezifferter Ankaufpreis dokumentiert. VERKAUF: Verkauf gebrauchter PKW-Ersatzteile und gepflegter Gebrauchtwagen, Preise auf Anfrage, keine öffentliche Preisliste. GEBÜHREN: der Betreiber nennt "kostenlose Schrottannahme" und "Abholung von Schrott"; "PKW Entsorgung mit geringen Verwertungskosten" ist nicht beziffert; eine öffentliche Gebührenliste gibt es nicht.'
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -60,3 +61,41 @@ Landstraße in 06886 und wird zurückgenommen; für die Eupersche Straße existi
 
 - Autoverwertung
 - Adresse: Lutherstadt Wittenberg
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.9093688/12.6951160** (Mittelwert der **6**
+  eindeutigen Knoten von **way/163622391**; das Objekt hat **7** Knotenreferenzen, davon 6 eindeutige - ein Knoten ist
+  doppelt gezählt; die BBox der eindeutigen Knoten reicht von 12.6949061/51.9092208 bis 12.6952985/51.9095148 und
+  **umschließt den Mittelwert**). Quelle 1 (OSM): **way/163622391** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/way/163622391/full.json`, HTTP 200) `addr:street`=Eupersche Straße,
+  `addr:housenumber`=**2**, `addr:city`=Wittenberg, `addr:postcode`=**06888**, `addr:country`=DE,
+  `building`=warehouse - die Dossier-Adresse existiert damit **unabhängig** in OSM und **straßengenau** (PLZ 06888 =
+  Lutherstadt Wittenberg). Das Objekt trägt **weder** `name=` **noch** `operator=`, der Punkt bezeichnet die belegte
+  Anschrift (ein Lagergebäude), nicht eine verifizierte Waage oder Annahmefläche. **Fensterdisziplin:** das am
+  04.11.2026 live abgerufene Kachelraster über **Lutherstadt Wittenberg/Karlsfeld** (**12.6900/51.9000 bis
+  12.7000/51.9200**, **2 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**) enthält die gesuchte Straße tatsächlich: die
+  **Eupersche Straße** ist im Raster mit **way/163622393 (Hausnummer 1)**, **way/163622391 (Hausnummer 2)** und
+  **way/163622397 (Hausnummer 3)** vertreten, daneben der Ortsteil **Karlsfeld** (node/8722994246) und die
+  Karlsfelder Straßen **Karlsfeld 7 bis 13** (way/486699453, way/486699451, way/486699449, way/486699448,
+  way/486699446, way/486699436, way/486698112, way/486698109) - die **Dossier-Hausnummer 2 existiert** und ist im
+  Raster das einzige Objekt dieser Nummer auf dieser Straße.
+  Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Betreiber-Impressum**
+  https://www.autoverwertung-wittenberg.de/impressum.htm nennt **„Autoverwertung Eiserbeck Inh. Torsten Madaj“**,
+  **Eupersche Str. 2, 06888 Lutherstadt Wittenberg, OT Karlsfeld**, Telefon **03491-884444**, Fax 03491-440662,
+  USt-IdNr. 115/216/01622, E-Mail av.eiserbeck@gmail.com, Betriebsgründung 1. Januar 1991; das im Dossier zitierte
+  **offizielle Branchenbuch der Lutherstadt Wittenberg** führt unter derselben Anschrift und derselben Telefonnummer
+  **„Autoverwertung Eiserbeck & Sachse GbR“**. Die **Adresse** ist damit durch zwei unabhängige Quellen gedeckt, und
+  die OSM-Adresse stimmt mit beiden überein. **Qualifizierung (wichtig):** der im Dossier dokumentierte
+  **Namenskonflikt** zwischen dem Einzelunternehmer **Torsten Madaj** und der GbR-Firmierung **Eiserbeck & Sachse**
+  bleibt **offen** und wird durch diese Geokodierung **nicht** aufgelöst - die Koordinate adressiert den Standort, den
+  beide Quellen für diese Adresse nennen, und **nicht** eine geklärte Rechtsform; das OSM-Objekt trägt selbst **keinen**
+  Betriebsnamen, und die im Dossier dokumentierte Suche im Handelsregister findet die Firmierung „Autoverwertung
+  Eiserbeck“ **nicht**. `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status`,
+  `description`, `dropoff_json`, `pickup_json` und `status: aktiv` bleiben unverändert; der zurückgenommene
+  Produktionspunkt **51.8744/12.6060** (Rote Landstraße 90a, 06886 Kleinwittenberg) wird durch diesen Punkt ersetzt.
+  `clear_fields: 'geo'` **entfällt**, weil die Koordinate nun belegt vorliegt und der Seed `geo` neben belegtem
+  `lat`/`lon` ablehnt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/163622391/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.6900,51.9000,12.7000,51.9200 ;
+  https://www.autoverwertung-wittenberg.de/impressum.htm ;
+  https://lutherstadt-wittenberg.stadtbranchenbuch.com/1116072.html (Abruf 04.11.2026).]

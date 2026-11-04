@@ -1,5 +1,7 @@
 ---
 slug: sn-dresden-flaxres
+lat: 51.0585870
+lon: 13.7704145
 name: FLAXRES GmbH
 trader_type: sonstige
 state: SN
@@ -18,7 +20,6 @@ pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar (B2B-Flag)
 provenance_origin: table
-clear_fields: 'geo'
 ---
 
 # FLAXRES GmbH
@@ -97,3 +98,44 @@ Hausnummer; ein eigenes FLAXRES-Objekt ist dort nicht erfasst.)
 
 
 
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.0585870/13.7704145** (Mittel der **5**
+  eindeutigen Knoten von way/65200866; die BBox der eindeutigen Knoten reicht von 51.0584323/13.7701878 bis
+  51.0587981/13.7705700 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/65200866** trägt `addr:street`=Blumenstraße, `addr:housenumber`=**80**, `building`=**industrial**, `ref`=A,
+  `roof:colour`=red. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster über
+  Dresden-Innere Neustadt umfasst **13.7600/51.0500 bis 13.7900/51.0700**, **6 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit **39** Adressobjekten auf
+  „Blumenstraße" (Hausnummern 60, 61, 63, 65, 69, 70, 71, 73, 75, 75b, 79, **80**, 81, 83, 84, 85, 87, 89, 91, 92, 94, 95,
+  97, 99, 100, 102, 104, 106 u. a.) - die **Dossier-Hausnummer 80 existiert** und ist im Raster **fünffach** belegt:
+  **way/65200866** (`building=industrial`, `ref=A`), **way/110287851** (`addr:housename`=B, `building=office`,
+  `building:levels`=2, `ref`=B), **node/12188064682** (`name`=Dresdner Wanderer- und Bergsteigerverein e.V.,
+  `club`=sport), **node/5287843129** (`name`=Triebwerkstatt Paartherapie Dresden) und **node/7717696923** (`name`=fiedz);
+  die drei Knoten tragen zusätzlich `addr:city`=Dresden und `addr:postcode`=01307, die beiden Wege nur Straße und
+  Hausnummer. **Korrektur der Vorwellen-Angabe:** die Notiz vom 29.10.2026 nennt **drei** Objekte zur Hausnummer 80 -
+  die Live-Zählung am 04.11.2026 ergibt **fünf** (die beiden zusätzlichen Knoten node/5287843129 und node/7717696923
+  sind neu bzw. wurden nicht mitgezählt). Eine Namenssuche nach **„Flaxres"** über die Felder name, operator,
+  description, website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer - ein
+  **FLAXRES-Objekt existiert an dieser Anschrift nicht**; die Hausnummer 80 trägt vier andere Gewerbe-/Vereinsnamen.
+  **Objektwahl (begründet):** gesetzt wird **way/65200866**, weil es das einzige Objekt der Hausnummer 80 mit
+  `building=industrial` ist und damit dem Nutzungsprofil eines Recycling-Technologieunternehmens am nächsten kommt;
+  alle fünf Objekte liegen innerhalb von rund 60 m auf demselben Grundstück, der Punkt bezeichnet daher die
+  **Anschrift Blumenstraße 80**, nicht einen gesonderten Betrieb. Quelle 2 (Betreiber/Register, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): das **Impressum** der Betreiberseite
+  https://www.flaxres.com/de/impressum/ liefert **HTTP 200** und nennt live **„FLAXRES GmbH, Blumenstraße 80, 01307
+  Dresden, Handelsregister 36460, Registergericht Dresden, vertreten durch Nico Bernstein, Geschäftsführung Nico
+  Bernstein, Telefon +49 (0) 351 211 681-0, E-Mail info@flaxres.com, USt-IdNr. DE311412250"** - die Anschrift stimmt
+  mit dem OSM-Adressobjekt **exakt** überein. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'`
+  wurde **entfernt**, weil es den am 29.10.2026 zurückgenommenen und rund 1,8 km abweichenden Produktionspunkt
+  (51.0559414/13.7431690, Elberadweg, 01097 Dresden) fernhalten sollte; der hier gesetzte Punkt liegt **exakt** auf der
+  belegten Anschrift, während `clear_fields` nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen darf.
+  **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die **betreiber- und registerbestätigte
+  Anschrift**; er ist **kein** Beleg für einen Schrottankauf - die FLAXRES ist ein Technologieunternehmen für
+  PV-Modul-Recycling im B2B, ein Barankauf von Schrott oder Metallen ist nicht belegt und nicht Teil des
+  Geschäftsmodells. `trader_type: sonstige` und `status: pruefung` bleiben unverändert, ebenso `street`, `postcode`,
+  `phone`, `email`, `website`, `website_status` und `description`; es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/65200866/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.7600,51.0500,13.7900,51.0700 ;
+  https://www.flaxres.com/de/impressum/ (Abruf 04.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: nw-munster-voskuhl
+lat: 52.0111522
+lon: 7.6662395
 name: Voskuhl
 trader_type: schrotthaendler
 state: NW
@@ -12,7 +14,6 @@ opening_hours: Büro Mo-Do 08:00-17:00, Fr 08:00-16:00, Sa 09:00-12:00; Anliefer
 website: ''
 website_status: ''
 status: pruefung
-clear_fields: 'geo'
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -47,3 +48,39 @@ Die Münsterer Zeile (Voskuhl & Sohn GmbH & Co. KG, Hessenbusch 186, 48157 Müns
 - [Recherche 29.10.2026: Muensterer Zeile live geprueft: Das selbst gepflegte Unternehmensprofil auf dein-ms.de nennt Hessenbusch 186, 48231 Muenster, Telefon 0251-932560, Buerozeiten Mo-Do 08:00-17:00, Fr 08:00-16:00, Sa 09:00-12:00 (an den Samstagen der Sommerferien geschlossen) sowie Anlieferzeiten Mo-Do 08:00-16:30, Fr 08:00-15:30, Sa 09:00-11:30 mit "geeichten Waagen" und "direkte Abrechnung zu den jeweiligen aktuellen Marktpreisen"; 11880 bestaetigt die Buerozeiten, die Branchenangaben (Autohandel, Altmaterialhandel, Schrotthandel, Autoverschrottung, Autoverwertung, Containerdienst, Altmetallrecycling, Handelsgesellschaft, Schrottplatz) und fuehrt als Website das dein-ms-Profil. PLZ-Abweichung unaufgeloest: 48157 (11880, OSM) gegen 48231 (dein-ms.de). Aktualitaets-Lead der Seite: "Baustart voraussichtlich 2028 / Zentralhof in Muensters Sueden ermoeglicht Anhaenger-Anlieferungen / Mehr Service und erweiterte Oeffnungszeiten". ANKAUF: Abrechnung zu aktuellen Marktpreisen, keine Zahlen; VERKAUF: nichts belegt; GEBUEHREN: keine Tarife belegt. Quellen: https://www.dein-ms.de/dienstleister-und-handwerker-muenster/r-voskuhl--sohn ; https://www.11880.com/branchenbuch/muenster-westfalen/012010409B43224371/voskuhl-sohn-gmbh-co-kg.html]
 - [Recherche 29.10.2026: Amtliches Fachbetrieberegister (Spiegel schrottregister.pages.dev, Abrufstand 11.08.2026): In Muenster sind 16 Betriebe anerkannt (PLZ 48155, 48157, 48163, 48165), darunter die Abfallwirtschaftsbetriebe Muenster, DREKOPF Recyclingzentrum Essen GmbH (Hessenbusch 186a), die EZN GmbH & Co. KG (Hessenbusch 184), die Reiling PV-Recycling GmbH & Co. KG (Hessenbusch 180) und die Zimmermann Entsorgungs GmbH (Hessenbusch 183); ein anerkannter Demontagebetrieb fuer Altfahrzeuge ist nicht verzeichnet. Ein Betrieb mit dem Namen "Voskuhl" existiert im gesamten Registerspiegel (4.507 Betriebe) nicht. OSM live: die Hessenbusch traegt 22 Adressobjekte mit 22 verschiedenen Hausnummern (119, 121, 151, 157, 171, 172, 173, 180, 183, 184, 185, 186, 186a, 186b, 188, 190, 192, 194, 200, 202, 208, 210) auf zwei Strassen-Ways; die Hausnummer 186 existiert als way/145428833 (building="yes") ohne name- oder operator-Tag, die Nachbarnummern 180 (Reiling PV-Recycling, amenity="recycling") und 151 (Deutsche Post DHL Zustellbasis) tragen dagegen Betriebsnamen. Umfang: die Efb-Erkennung ist freiwillig, ihr Fehlen ist ein Hinweis ohne Beweiswert. Quelle(n): https://schrottregister.pages.dev/ort-munster ; https://schrottregister.pages.dev/sitemap.xml ; https://api.openstreetmap.org/api/0.6/way/145428833]
 - [Recherche 29.10.2026: Read-only-Abgleich der Produktionszeile: gespeicherter Punkt 51.6992941176471, 8.03888235294118 loest im OSM-Rueckweg auf "Frölichweg, Lippborg, Lippetal, Kreis Soest, 59510" auf, also rund 43 km vom belegten Standort Hessenbusch 186 in Muenster entfernt und in einem anderen Landkreis. `clear_fields: 'geo'` zieht dieses Alt-Paar zurueck; das bedeutet nur "keine kuratierte aktuelle Koordinate", nicht Schliessung und keine Annahmeverweigerung. Hessenbusch 186 ist als Geokodierungsbedarf an den Owner gemeldet. Quelle(n): read-only-Abgleich public.db vom 29.10.2026; https://api.openstreetmap.org/api/0.6/way/145428833]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.0111522/7.6662395** (Mittel der **8**
+  eindeutigen Knoten von way/145428833; das Objekt hat **9** Knotenreferenzen, davon 8 eindeutige - ein Knoten ist
+  doppelt gezählt; die BBox der eindeutigen Knoten reicht von 52.0110048/7.6657255 bis 52.0113934/7.6664896 und
+  **umschließt den Mittelwert**). Quelle 1 (OSM): way/145428833 trägt `addr:housenumber`=186, `addr:street`=Hessenbusch,
+  `addr:city`=Münster, `addr:postcode`=48157 und `building`=yes, `source`=NRW Atlas (live geladen am 04.11.2026, HTTP
+  200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die belegte Anschrift und keine
+  verifizierte Zufahrt, Waage oder Annahmefläche. Das am 04.11.2026 live abgerufene Kachelraster über Münster-Gelmer
+  (7.6500/52.0000 bis 7.6800/52.0300, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst die **Hessenbusch** mit
+  **22** Adressobjekten und den Hausnummern 119, 121, 151, 157, 171, 172, 173, 180, 183, 184, 185, **186**, 186a, 186b,
+  188, 190, 192, 194, 200, 202, 208 und 210 - die **Dossier-Hausnummer 186 existiert** und ist im Raster das einzige
+  Objekt mit dieser Nummer auf dieser Straße; eine Namenssuche nach **„Voskuhl“** über die Felder name, operator,
+  description, website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer, es gibt
+  also **keine** OSM-Betriebszuordnung (die Nachbarnummern 180 „Reiling PV-Recycling“, 183 „Zimmermann Entsorgung“, 184
+  „EZN“ und 186a „DREKOPF Recyclingzentrum“ tragen dagegen Betriebsnamen - sie sind **andere** Betriebe und werden nicht
+  übernommen). Quelle 2 (Betreiber/Verzeichnis): das **selbst gepflegte Unternehmensprofil**
+  https://www.dein-ms.de/dienstleister-und-handwerker-muenster/r-voskuhl--sohn nennt live (Abruf 04.11.2026) **„R.
+  Voskuhl & Sohn GmbH, Hessenbusch 186, 48231 Münster, 0251-932560“** mit Bürozeiten Mo–Do 08:00–17:00, Fr 08:00–16:00,
+  Sa 09:00–12:00 und **Anlieferzeiten** Mo–Do 08:00–16:30, Fr 08:00–15:30, Sa 09:00–11:30 mit „geeichten Waagen“ und
+  „direkte Abrechnung zu den jeweiligen aktuellen Marktpreisen“; das im Dossier bereits zitierte 11880-Profil bestätigt
+  **Hessenbusch 186, 48157 Münster-Gelmer, (0251) 93256-0** und die Branchenangaben (Altmaterialhandel, Schrotthandel,
+  Schrottplatz). **Offener Punkt (unverändert übernommen):** die **PLZ-Abweichung 48157** (OSM, 11880) gegen **48231**
+  (dein-ms.de) bleibt ungelöst; Straße und Hausnummer stimmen überein. **Abgrenzung:** die **Nottulner**
+  Betriebsgesellschaft **Voskuhl GmbH (HRB 2335, AG Coesfeld, Otto-Hahn-Straße 106, 48301 Nottuln)** sowie deren
+  Preismechanik und Öffnungszeiten werden **nicht** auf diesen Punkt übertragen, und die Rechtsform der Münsterer
+  Gesellschaft (GmbH oder GmbH & Co. KG) bleibt offen. Der bisher gespeicherte Produktionspunkt **51.6992941/8.0388824**
+  (laut read-only-Abgleich vom 29.10.2026 rund 43 km entfernt, „Frölichweg“, Lippetal) wird durch diesen Punkt ersetzt.
+  `clear_fields: 'geo'` **entfällt**, weil die Koordinate nun belegt vorliegt; `status: pruefung`, `street`, `postcode`,
+  `phone`, `opening_hours`, `description`, `dropoff_json` und `pickup_json` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/145428833/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6500,52.0000,7.6800,52.0300 ;
+  https://www.dein-ms.de/dienstleister-und-handwerker-muenster/r-voskuhl--sohn ;
+  https://www.11880.com/branchenbuch/muenster-westfalen/012010409B43224371/voskuhl-sohn-gmbh-co-kg.html (Abruf
+  04.11.2026).]

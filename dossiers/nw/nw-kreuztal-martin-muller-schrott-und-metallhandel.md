@@ -55,3 +55,38 @@ Die historische Kandidatendomain llermartin.de hatte am 15.10.2026 einen DNS-NXD
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: llermartin.de erneut direkt geprüft; DNS liefert NXDOMAIN und der HTTPS-Abruf keinen Seiteninhalt. website_status tot bleibt daher für den historischen Domain-Kandidaten bestehen; website bleibt leer, da die Verbindung dieser Domain zum Betrieb nicht unabhängig verifiziert wurde. Mobilnummer 0173 6646494 bleibt nur Aggregator-Lead, kein Betriebsschluss belegt; status pruefung bleibt.; Quelle(n): https://dns.google/resolve?name=llermartin.de&type=A, https://llermartin.de/]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Martin Müller Schrott- und Metallhandel**
+  ist die **Ortszuordnung** zwischen **Kreuztal** (Seed) und **Marburg** (Kandidatendomain) ungeklärt; ein
+  Betreiberauftritt mit Impressum, Registereintrag oder bestätigte Annahmestelle fehlt. **Was live geprüft wurde
+  (04.11.2026):** Das Kachelraster über Kreuztal (7.9700/50.9400 bis 8.0200/50.9900, **25 Kacheln von je 0,01 Grad, 0
+  Kachel-Fehler**, live abgerufen) wurde vollständig ausgewertet: eine Suche über `name`, `operator`, `brand`,
+  `website`, `contact:website`, `description`, `note`, `short_name`, `official_name` und `addr:housename` nach
+  **„Müller“** liefert **einen** Namensfund - **node/3483876256** mit `name`=**Metzgerei Müller**,
+  `operator`=Wittgensteiner Fleisch- & Wurstwaren GmbH, also eine **Metzgerei** und damit ein **branchenfremdes**
+  Gewerbe; nach **„Martin Müller“**, **„Mueller“** und **„Schrott“** findet sich im Raster **kein** Treffer. Die
+  **Marburger Straße** in Kreuztal trägt im Raster über **170** Hausnummern; eine belastbare Zuordnung des Seeds zu
+  einer dieser Adressen lässt sich aus dem Raster **nicht** ableiten. Quelle 1 (Betreiber/Verzeichnis): das im Dossier
+  zitierte lokale Händlerprofil https://lokaleschrottplatz.de/martin-muller-schrott-und-metallhandel/ verlinkt als
+  „offizielle Webseite“ **müllermartin-schrottundmetall.de** (DNS: **xn--mllermartin-schrottundmetall-16c.de**, A
+  37.218.254.124); der am 04.11.2026 live abgerufene Auftritt (https://xn--mllermartin-schrottundmetall-16c.de/)
+  bezeichnet den Anbieter **„Schrotthandel Marburg“** und nennt **Ginseldorfer Weg 46, 35039 Marburg**, Mo–Fr
+  08:00–17:00, sichtbare Rufnummer **0173 6646494** (der `tel:`-Link der Seite zielt dagegen auf **+4917366464944**),
+  Werbung für Metallankauf, Container und Abholung - **ohne** numerische Kurse, **ohne** Impressum und **ohne** jeden
+  Hinweis auf **Kreuztal**; der Seiten-Titel lautet zudem allgemein „Schrotthandel Marburg“. Das Profil selbst nennt als
+  Ort nur **Kreuztal** und dieselbe Nummer - die starke Kontakt-/Domainspur löst den **Ortskonflikt** nicht. Die
+  historische Kandidatendomain **llermartin.de** liefert laut Dossier DNS **NXDOMAIN**. Quelle 2 (OSM): das live
+  abgerufene Kachelraster 7.9700/50.9400–8.0200/50.9900 mit dem einzigen Namensfund „Metzgerei Müller“ und **ohne**
+  jeden Bezug zu einem Schrott- oder Metallhandel. **Warum keine Koordinate:** Der Seed nennt **Kreuztal**, der einzige
+  zugängliche Betreiberauftritt nennt **Marburg**; solange nicht geklärt ist, ob Kreuztal ein mobiler Einsatzort
+  desselben Betreibers, ein veralteter Datensatz oder eine Fehlverknüpfung ist, wäre **jeder** Punkt eine Vermutung über
+  den Standort - erst recht wäre die Übernahme der Marburger Anschrift in die Kreuztaler Zeile unzulässig. **Was zur
+  Auflösung fehlt:** ein Impressum oder Registereintrag mit **Kreuztaler** Anschrift, alternativ die ausdrückliche
+  Bestätigung, dass der Betrieb **mobil** in Kreuztal tätig ist und keinen Standort hat. `clear_fields: 'geo'`
+  **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9700,50.9400,8.0200,50.9900 ;
+  https://lokaleschrottplatz.de/martin-muller-schrott-und-metallhandel/ ;
+  https://xn--mllermartin-schrottundmetall-16c.de/ ;
+  https://dns.google/resolve?name=xn--mllermartin-schrottundmetall-16c.de&type=A (Abruf 04.11.2026).]

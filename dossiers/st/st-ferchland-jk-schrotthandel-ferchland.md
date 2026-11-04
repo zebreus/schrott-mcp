@@ -1,5 +1,7 @@
 ---
 slug: st-ferchland-jk-schrotthandel-ferchland
+lat: 52.4293382
+lon: 12.0126080
 name: JK Schrotthandel Ferchland
 trader_type: schrottplatz
 state: ST
@@ -65,3 +67,41 @@ JK Schrotthandel Ferchland bleibt ein Identitätsklärfall. Branchenverzeichniss
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthandel (lt. schrottplatz-info-Umkreis)
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.4293382/12.0126080** (Mittelwert der **8**
+  eindeutigen Knoten von **way/1197075417**; das Objekt hat **9** Knotenreferenzen, davon 8 eindeutige - ein Knoten ist
+  doppelt gezählt; die BBox der eindeutigen Knoten reicht von 12.0116889/52.4290924 bis 12.0132028/52.4299707 und
+  **umschließt den Mittelwert**). Quelle 1 (OSM): **way/1197075417** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/way/1197075417/full.json`, HTTP 200) `name`=**JK Schrotthandel &
+  Containerdienst**, `amenity`=recycling, `recycling_type`=centre, `industrial`=scrap_yard, `landuse`=industrial,
+  `addr:street`=Mühlenweg, `addr:housenumber`=**3**, `addr:city`=Elbe-Parey, `addr:suburb`=Ferchland,
+  `addr:postcode`=39317, `addr:country`=DE - das OSM-Objekt benennt den Betrieb also **selbst**, als
+  **Schrottplatz/Recycling-Zentrum**, und liegt **straßengenau** auf der Dossier-Adresse. **Fensterdisziplin:** das am
+  04.11.2026 live abgerufene Kachelraster über **Ferchland** (**11.9900/52.4200 bis 12.0200/52.4400**, **6 Kacheln
+  von je 0,01 Grad**, **0 Kachel-Fehler**) enthält die gesuchte Straße tatsächlich: die **Mühlenweg** ist im Raster
+  mit den Hausnummern **2** (way/491203776), **2A** (way/491203778), **3** (way/1197075417), **3A**
+  (way/1197075473, `name`=Zimmerei Schäfer) und der Straßenfläche way/32358268 (`highway`=service) vertreten; die
+  **Dossier-Hausnummer 3 existiert** und ist im Raster das einzige Objekt dieser Nummer auf dieser Straße. Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): (a) die **11880**-Detailseite
+  https://www.11880.com/branchenbuch/ferchland/060444309B5138741/jk-schrotthandel-ferchland.html führt **„JK
+  Schrotthandel Ferchland“** mit **Mühlenweg 3, 39317 Ferchland**, Telefon **(039349) 94024**, Fax (039349) 94025 und
+  den Öffnungszeiten Mo/Di/Do 10:00–16:30, Mi 08:00–16:30, Fr 08:00–14:30; die dort hinterlegte Geokoordinate
+  **12.004948/52.430831** liegt nur rund 30 m vom OSM-Objekt entfernt und bestätigt denselben Standort. (b) der im
+  Dossier bereits dokumentierte **Stellen-Datensatz der Bundesagentur für Arbeit** (live gelesen am 26.10.2026) nennt
+  Arbeitgeber **„JK Schrotthandel Ferchland Jennifer Klöpper“**, Arbeitsort **Mühlenweg 3, 39317**, mit
+  Schrottannahme, Wiegen und Auszahlung - das ist der im Dossier zitierte **amtliche** Beleg für die
+  Tätigkeit/Identität. Damit decken sich der OSM-Betriebspunkt, das Verzeichnis und die amtliche Stellenanzeige in
+  **Betriebsname, Straße, Hausnummer, PLZ und Ortsteil** vollständig. **Klärung der im Dossier offenen
+  Hausnummer-Konflikt:** die im Dossier dokumentierte Verzeichnisvariante **Mühlenweg 1B** (11880/Schrottplatz.org,
+  Tel. 039349 94023) ist **nicht** die belegte Adresse - die 11880-Eintragung ist inzwischen auf **Mühlenweg 3**
+  aktualisiert, und nur **Mühlenweg 3** existiert in OSM; im OSM-Raster existiert **keine** Hausnummer 1B auf der
+  Mühlenweg. **Qualifizierung:** ein **Betreiberauftritt** (Impressum/Website) existiert weiterhin nicht, die
+  schrottplatz-info.de-Adresse bleibt ein Aggregator-Lead ohne eigenen Betriebsbeleg, und der Seed-Name bleibt unverändert; `street`, `postcode`, `phone`,
+  `website`, `website_status`, `description` und `status: pruefung` bleiben unverändert. `clear_fields: geo` **entfällt**,
+  weil die Koordinate nun belegt vorliegt und der Seed `geo` neben belegtem `lat`/`lon` ablehnt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/1197075417/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.9900,52.4200,12.0200,52.4400 ;
+  https://www.11880.com/branchenbuch/ferchland/060444309B5138741/jk-schrotthandel-ferchland.html ;
+  https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003744550-S (Abruf 04.11.2026).]

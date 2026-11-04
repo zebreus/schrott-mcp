@@ -49,3 +49,33 @@ Zwei Verzeichnisse führen einen Kandidaten „Schrottabholung Köln“ an der S
 
 - Abholung (GS)
 - Adresse: Köln
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **„Schrottabholung (Stolzestr. 25)“**
+  (Köln-Neustadt-Süd) existiert die Anschrift zwar in OSM, der **Betreiberbezug** ist jedoch **nicht** belegt: das am
+  Seed hängende Verzeichnisprofil verweist über seine Domain auf **einen anderen Betrieb an anderer Anschrift**. **Was
+  live geprüft wurde (04.11.2026):** Das Kachelraster über Köln-Neustadt-Süd (6.9200/50.9100 bis 6.9500/50.9400, **9
+  Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die **Stolzestraße** mit **15** Adressobjekten
+  und **14** verschiedenen Hausnummern (1, 4, 5-7, 6, 8, 10, 12, 14, 16, 1a, 1A, 23, **25** und 27); die
+  **Dossier-Hausnummer 25 existiert** als **way/159833445** mit `addr:housenumber`=25, `addr:street`=Stolzestraße,
+  `addr:city`=Köln, `addr:postcode`=50674 und `building`=yes - das Objekt trägt **weder** `name=` **noch** `operator=`;
+  eine Namenssuche nach **„Schrottabholung“** über die Felder name, operator, description, website, contact:website,
+  brand, note und addr:housename findet im Raster **keinen** Treffer, es gibt also **keine** OSM-Betriebszuordnung.
+  Quelle 1 (Betreiber/Verzeichnis): die 11880-Detailseite wurde am 04.11.2026 live gelesen und führt „**Schrottabholung
+  Köln**“, **(01578) 9805949**, **Stolzestr. 25, 50674 Köln (Neustadt-Süd)** mit der Portalrubrik Altmetallrecycling und
+  verlinkt **https://schrottabholung-köln.de**; diese Domain leitet auf **xn--schrottabholung-kln-66b.de** um, dessen
+  Impressum **A. Lahib, Homburger Str. 18, 50969 Köln**, **01522 422 4277** nennt - also **andere Anschrift und andere
+  Nummer**; die dortige Eigenwerbung zur kostenlosen Abholung wird dem Seed **nicht** zugerechnet. Quelle 2 (OSM): das
+  live abgerufene Kachelraster 6.9200/50.9100–6.9500/50.9400 mit way/159833445 **ohne** Betriebsbezug. **Warum keine
+  Koordinate:** Der einzige zur Dossier-Zeile vorliegende Beleg ist ein **Verzeichnislead**, dessen zugehörige Domain
+  auf einen fremden Betrieb zeigt; die im Dossier dokumentierte Zuordnungskette „11880 → schrottabholung-köln.de →
+  Homburger Str. 18“ ist damit **nicht** für Stolzestr. 25 belegt. Der Punkt an der Adresse würde eine Betriebs- und
+  Annahmezusage suggerieren, die keine Quelle trägt; die Homburger Straße 18 ist ein **gesonderter, nicht zugeordneter**
+  Kandidat. **Was fehlt:** ein Betreiberauftritt oder Impressum, der die „Schrottabholung Köln“ **an der Stolzestraße
+  25** belegt (oder eine unabhängige Bestätigung der dortigen Annahme). `clear_fields: 'geo'` **bleibt** bestehen,
+  `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/159833445/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9200,50.9100,6.9500,50.9400 ;
+  https://www.11880.com/branchenbuch/koeln/060440092B113511664/schrottabholung-koeln.html ;
+  https://xn--schrottabholung-kln-66b.de/impressum/ (Abruf 04.11.2026).]

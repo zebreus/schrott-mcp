@@ -1,5 +1,7 @@
 ---
 slug: ni-hildesheim-schrott-handel-miro
+lat: 52.1435312
+lon: 9.9403050
 name: Schrott Handel Miro
 trader_type: schrotthaendler
 state: NI
@@ -13,7 +15,6 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: Mobile Schrott- und Metallannahme "Miro Metallschrott Handel" in Hildesheim. Die Anschrift wird von mehreren Verzeichnissen übereinstimmend als "An der Innerste-Au 2, 31139 Hildesheim (West)" geführt (11880 mit Aktualisierung August 2026, Cylex, lokaleschrottplatz, recyclinghof-wertstoffhof; Gelbe Seiten nennt die Straße ohne Hausnummer), die Mobilnummer 0176 23574787 überall gleich; ein Betreiberauftritt, ein Impressum und ein Registereintrag fehlen. Betreibertext in den Verzeichnissen: Abholung von Metallschrott im Umkreis, zusätzlich Entrümpelungen, Räumungen und Entsorgungen, angenommene Sorten Metalle aller Art, Kupfer, Messing, Aluminium, Zink, Blei, Hartmetall, Altholz, Stahlträger, Batterien, Bauschutt, Kabel und Unfallfahrzeuge. Offen bleiben Inhabername, Hausnummer-Bestätigung, Öffnungszeiten (die Verzeichnisse nennen widersprüchliche Zeitfenster) sowie die Frage, ob "Miro" und "Sami Schrott" bzw. "Schrotthandel Salloum" dieselbe Person betreffen; im amtlichen Fachbetrieberegister ist der Betrieb nicht geführt, was wegen der freiwilligen EFB-Anerkennung keine Nichtexistenz bedeutet. Ankaufskurse, Verkaufspreise und Gebühren sind nicht belegt.
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Weitere Verzeichnis-Funde (Nienburg/Diepholz/Verden, Osnabrück-Nord,
@@ -52,3 +53,40 @@ Der Lead ist inzwischen mit vollständiger Hausnummer und einer betreiberseitig 
 
 - Schrott
 - urspr. Website-Angabe: keine (nur Verzeichnisbeleg)
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.1435312/9.9403050**. Das Objekt ist ein
+  **Knoten** (kein Weg), die Koordinate ist daher unmittelbar die Knotenposition; die Objekt-BBox eines Knotens
+  entartet auf diesen Punkt, der Punkt liegt damit in ihr. Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **node/5835882655** trägt `addr:street`=An der Innerste-Au und `addr:housenumber`=**2** (weder `addr:city` noch
+  `addr:postcode` noch `name` sind getaggt). **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster über Hildesheim (West) umfasst **9.9300/52.1300 bis 9.9500/52.1500**, **6 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit **sechs**
+  Straßenobjekten (way/25814436, way/25814438, way/25814440, way/25814441, way/25814442, way/25814443) sowie **24**
+  Adressobjekten auf „An der Innerste-Au" mit **24** verschiedenen Hausnummern (1, 1A, 2, 3, 4, 5, 6, 7, 8, 10, 12, 14,
+  16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38) - die **Dossier-Hausnummer 2 existiert** und ist im Raster das
+  einzige Objekt mit dieser Nummer auf dieser Straße. Eine Namenssuche nach **„Miro"** und **„Schrott"** über die
+  Felder name, operator, description, website, contact:website, brand, note und addr:housename findet im Raster
+  **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung, nur den Adresspunkt. Quelle 2 (Verzeichnis, im
+  Dossier bereits zitiert, live nachgelesen am 04.11.2026): der **11880-Eintrag**
+  https://www.11880.com/branchenbuch/hildesheim/120674719B113457192/miro-metall-schrott-handel.html liefert
+  **HTTP 200** und nennt live **„Miro Metall Schrott Handel, (0176) 23574787, An der Innerste-Au 2, 31139 Hildesheim
+  (West)"** mit den Öffnungszeiten Mo–Fr 08:00–19:00; die im Dossier zitierten Verzeichnisse **Cylex**,
+  **lokaleschrottplatz.de** und **recyclinghof-wertstoffhof.de** führen dieselbe Anschrift **An der Innerste-Au 2** mit
+  derselben Nummer 0176 23574787. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` wurde
+  **entfernt**, weil es den am 28.10.2026 zurückgenommenen und falsch liegenden Produktionspunkt
+  (52.15088/9.95548 = Zingel 38, 31134 Hildesheim Oststadt) fernhalten sollte; der hier gesetzte Punkt liegt **exakt**
+  auf der in mehreren Verzeichnissen übereinstimmend genannten Anschrift, während `clear_fields` nicht gleichzeitig
+  `geo` neben belegtem `lat`/`lon` stehen darf. **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die
+  **verzeichnisgestützte Anschrift**, nicht einen verifizierten Annahmehof - die Zuordnung des Betriebs „Miro" zu
+  diesem Haus ist im OSM **nicht** hinterlegt, die Identität des Inhabers bleibt offen (die Verzeichnisse führen
+  zusätzlich „Sami Schrott" und „Altmetall Abholung und Schrotthandel Salloum"), und das amtliche Fachbetrieberegister
+  (Auszug 11.08.2026) führt für Hildesheim vier Betriebe und **keinen** Betrieb Miro - die Efb-Anerkennung ist
+  freiwillig, das ist kein Nichtexistenzbeweis. `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status` und `description` bleiben **unverändert** (die Anschrift steht weiterhin nur in der Beschreibung
+  und in der Timeline), `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/5835882655.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9300,52.1300,9.9500,52.1500 ;
+  https://www.11880.com/branchenbuch/hildesheim/120674719B113457192/miro-metall-schrott-handel.html ;
+  https://schrottregister.pages.dev/ort-hildesheim (Abruf 04.11.2026).]

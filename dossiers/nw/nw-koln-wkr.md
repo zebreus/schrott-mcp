@@ -1,12 +1,13 @@
 ---
 slug: nw-koln-wkr
+lat: 50.8721260
+lon: 6.9959248
 name: WKR GmbH
 trader_type: schrotthaendler
 state: NW
 city: Köln-Rodenkirchen
 street: Kirschbaumweg 8
 postcode: '50996'
-clear_fields: 'geo'
 phone: 0221 97060622
 email: ''
 opening_hours: 'Annahme: Mo-Fr 08:00-16:00; Sa geschlossen'
@@ -62,3 +63,33 @@ Dieses Dossier bildet die WKR-Niederlassung **Köln-Rodenkirchen** ab: Die Betre
   daher offen. Die WordPress-REST-Darstellung
   <https://www.wkr-schrott.de/wp-json/wp/v2/pages/240> enthält ebenfalls
   statische Nullen; ihr Änderungszeitpunkt ist kein Preisdatum.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.8721260/6.9959248** (Mittel der **4**
+  eindeutigen Knoten von way/270966143; die BBox der eindeutigen Knoten reicht von 50.8720466/6.9958005 bis
+  50.8722055/6.9960491 und **umschließt den Mittelwert**). Quelle 1 (OSM): way/270966143 trägt `addr:housenumber`=8,
+  `addr:street`=Kirschbaumweg, `addr:city`=Köln, `addr:postcode`=50996 und `building`=yes (live geladen am 04.11.2026,
+  HTTP 200); das Objekt benennt den Betrieb **nicht**, der Punkt bezeichnet daher die belegte Anschrift und keine
+  verifizierte Zufahrt, Waage oder Annahmefläche. Das am 04.11.2026 live abgerufene Kachelraster über Köln-Rodenkirchen
+  (6.9800/50.8600 bis 7.0100/50.8900, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**) erfasst den **Kirschbaumweg** mit
+  **22** Adressobjekten und den Hausnummern 1, 1;1a, 1a, 10, 14, 16, 18, 18a, 19, 20, 20a, 23, 26, 26a, 28, 28a, 28b,
+  28c, 30, 32, 34 und **8** - die **Dossier-Hausnummer 8 existiert** und ist im Raster das einzige Objekt mit dieser
+  Nummer auf dieser Straße; eine Namenssuche nach **„WKR“** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer, es gibt also **keine**
+  OSM-Betriebszuordnung. Quelle 2 (Betreiber): die **Kontaktseite** der Betreiberseite
+  https://www.wkr-schrott.de/kontakt/kontaktdaten/ nennt live (Abruf 04.11.2026) **„Niederlassung Rodenkirchen - WKR
+  GmbH, Kirschbaumweg 8, 50996 Köln-Rodenkirchen, Tel. 0221 - 97 06 06 22, info@wkr-schrott.de“** mit den Öffnungszeiten
+  **Büro/Annahme Montag bis Freitag 08:00 Uhr bis 16:30 Uhr**; die Startseite https://www.wkr-schrott.de/ nennt beide
+  WKR-Schrottplätze (Longerich und Rodenkirchen) ausdrücklich als Annahmestellen für Privatpersonen und Unternehmen und
+  weist das Impressum **WKR Wertstoff- und Kreislaufwirtschaft Rodenkirchen GmbH, HRB 63135 Amtsgericht Köln** aus. Die
+  im Dossier dokumentierte **Abgrenzung** bleibt: Hugo-Junkers-Str. 10a (Longerich, 0221 97997814) und Geestemünder
+  Straße 34 (Niehl, **MKR Rothenbücher GmbH**) sind **andere** Standorte und werden nicht in diesen Punkt übernommen.
+  Der bisher gespeicherte Produktionspunkt **50.9807/6.9212** (laut read-only-Abgleich vom 26.10.2026 Gebäude 193,
+  Longericher Straße) wird durch diesen Punkt ersetzt. `clear_fields: 'geo'` **entfällt**, weil die Koordinate nun
+  belegt vorliegt; `status: aktiv`, `street`, `postcode`, `phone`, `opening_hours`, `website`, `website_status`,
+  `description`, `dropoff_json` und `pickup_json` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/270966143/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9800,50.8600,7.0100,50.8900 ;
+  https://www.wkr-schrott.de/kontakt/kontaktdaten/ ; https://www.wkr-schrott.de/ ;
+  https://www.wkr-schrott.de/kontakt/impressum/ (Abruf 04.11.2026).]

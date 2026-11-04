@@ -70,3 +70,36 @@ Heizungsartikel; Verkauf — keine Schrott-Verkaufspreise; Gebühren — keine T
   Website-Status und Beschreibung waren gefüllt, der Status blieb zu diesem Zeitpunkt `pruefung`,
   weil das Ankauf-Flag offen war. Quellen: https://www.mainmetall.de/ ;
   https://www.mainmetall.de/kontakt/]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Diese Zeile ist ein **geschlossener
+  Nicht-Schrott-Eintrag** (reiner Sanitär-/Heizungs-/Baustoff-Großhandel) und trägt im Frontmatter **weder Straße noch
+  PLZ** - es gibt damit **keine** Dossier-Adresse, die geokodiert werden könnte; zusätzlich existiert in OSM **kein**
+  Objekt mit Bezug zu „MAINMETALL“ in Sangerhausen. **Quelle 1 (OSM, live abgerufen am 04.11.2026):** Kachelraster
+  über **Sangerhausen** (**11.2600/51.4400 bis 11.3400/51.5000**, live über
+  `https://api.openstreetmap.org/api/0.6/map.json?bbox=11.2600,51.4400,11.3400,51.5000`): das Raster enthält den Ort
+  **Sangerhausen** selbst (place=town, 51.4730/11.2982) samt der Ortsteile **Othal**, **Engelsburg**, **Im Schlag**,
+  **Wallburg am Schlösschenkopf**, **Weinlager** und **Wüstung Brechtewende**; eine Namenssuche nach
+  **„Mainmetall“**, **„MAINMETALL“**, **„Sanitär“** und **„Baustoff“** in den Feldern name, operator, description,
+  website, contact:website, brand, note und addr:housename findet **keinen** Treffer für die MAINMETALL GmbH - der
+  einzige Haustechnik-Treffer im Raster ist **node/4857544613** („SHS Riedel Sanitär- und Heizungsbau GmbH“,
+  `craft`=hvac, 51.47563/11.27307), ein **anderer** Betrieb. Es gibt in OSM also **keinen** Punkt, der die
+  MAINMETALL-Filiale in Sangerhausen bezeichnet; ein Geokodierungs-Punkt müsste frei gewählt werden. Quelle 2
+  (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **Live-Seite der MAINMETALL GmbH**
+  (https://www.mainmetall.de/) bestätigt den reinen Haustechnik-Handel („Partner des Fachhandwerks seit 1948“, über
+  38.000 Artikel im Sortiment, 25 Standorte) und **keinen** Schrott- oder Metallankauf; das im Dossier dokumentierte
+  **Branchenbuch** („Großhandel (Haustechnik)“) stuft die Zeile ebenfalls als geschlossenen Nicht-Schrott-Eintrag ein.
+  **Warum keine Koordinate:** (a) die Zeile wird **nicht** als Schrotthändler geführt (`trader_type: sonstige`,
+  `status: geschlossen`), eine Geokodierung würde einen Schrott-Annahmestandort suggerieren, den es nicht gibt und
+  den das Dossier ausdrücklich verneint; (b) `street`, `postcode` und `phone` sind **leer** - es gibt keine Adresse,
+  deren Lage geprüft werden könnte; (c) der bisher gespeicherte Produktionspunkt **51.4722/11.2953** ist ein reiner
+  **Stadtplatzhalter** (Sangerhausen) und kein Betriebsstandort - er wird deshalb mit `clear_fields: geo` beim
+  regulären Seed **zurückgenommen** und **nicht** ersetzt. **Was zur Auflösung fehlt:** für diesen Datensatz ist
+  **nichts** zu klären - die Zeile bleibt ein geschlossener Nicht-Schrott-Eintrag; eine Wiederaufnahme als
+  Schrotthändler würde eine eigene Recherche mit Betriebsbeleg erfordern. `status: geschlossen`,
+  `trader_type: sonstige`, `website`, `website_status`, `description`, `dropoff_json`, `pickup_json` und die übrigen
+  Frontmatter-Felder bleiben **unverändert**; es wird weder eine rechtliche Löschung des Unternehmens noch
+  Schrottannahme behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.2600,51.4400,11.3400,51.5000 ;
+  https://www.mainmetall.de/ (Abruf 04.11.2026).]

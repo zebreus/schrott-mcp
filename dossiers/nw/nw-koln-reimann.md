@@ -64,3 +64,37 @@ Der 11880-Detaillead führt „Schrott und Metall Reimann Metallschrotthandlung�
 ### Recherche 22.10.2026
 
 - [Recherche 22.10.2026: 11880-Detailseite direkt erneut gelesen; sie führt dieselben Adresse-/Telefon-Leads und nennt Eintragsdaten 20.11.2025 sowie eine Portalaktualisierung am 02.10.2026. Die Seite enthält keine Betreiber-Website, keine individuelle Inhaberbestätigung dieses Falls und keine Material-/Einheitspreise. Mehrere Verzeichnistreffer bleiben keine unabhängigen Primärbelege; keine Frontmatter-Änderung, kein Rückwechsel auf `aktiv`. ANKAUF: nicht bestätigt; VERKAUF: keine Liste; GEBÜHREN: keine Tarife. Quelle (Aggregator-Lead): https://www.11880.com/branchenbuch/koeln/120674719B44130217/schrott-und-metall-reimann-metallschrotthandlung.html]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Reimann** (Köln-Lövenich) ist die
+  Dossier-Adresse **Daimlerstr. 12** in OSM durch einen **anderen, aktiv betriebenen Nutzer** belegt; ein Betriebs- oder
+  Registerbeleg für „Schrott und Metall Reimann Metallschrotthandlung“ fehlt. **Was live geprüft wurde (04.11.2026):**
+  (a) Das Kachelraster über Köln-Lövenich (6.8200/50.9200 bis 6.8700/50.9700, **25 Kacheln von je 0,01 Grad, 0
+  Kachel-Fehler**, live abgerufen) erfasst die **Daimlerstraße** mit **26** Adressobjekten und **26** verschiedenen
+  Hausnummern (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 21, 22, 23, 24, 25, 26, 27, 28 und 30 sowie 2a und
+  26a); die **Hausnummer 12 existiert** als **node/5937094100** und trägt `addr:housenumber`=12,
+  `addr:street`=Daimlerstraße, `name`=**IF Italy Foodworld GmbH** sowie `shop`=**deli** - die Adresse ist damit
+  objektgenau dem **Supermarkt der Italy FoodWorld GmbH** zugeordnet, **nicht** einem Schrotthandel; ein Objekt mit
+  `addr:housenumber`=12 auf dieser Straße ohne Delikaten-Handwerk gibt es im Raster nicht. (b) Eine Namenssuche nach
+  **„Reimann“** über die Felder name, operator, description, website, contact:website, brand, note und addr:housename
+  findet im live abgerufenen Raster **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung zu Reimann. Quelle
+  1 (Betreiber/Verzeichnis): das 11880-Detailprofil wurde am 04.11.2026 live gelesen und führt „**Schrott und Metall
+  Reimann Metallschrotthandlung**“, **Daimlerstr. 12, 50859 Köln (Lövenich)**, **(02234) 4305969** mit den
+  Portalrubriken Altmaterialhandel, Schrotthandel und Altmetallrecycling, **ohne** Website, Mail, Öffnungszeiten oder
+  Preise; das im Dossier bereits zitierte Portal **„Jetzt bewerten!“** ist ein Verzeichnislead und kein unabhängiger
+  Primärbeleg, das dort verlinkte Domain-Impressum verweist nach dem Dossier auf einen **anderen** Betrieb (A. Lahib,
+  Homburger Str. 18/50969). Die im Dossier dokumentierte offizielle Betreiberseite der **Italy FoodWorld GmbH** weist
+  ihren Supermarkt-Standort an **Daimlerstraße 12, 50859 Köln-Lövenich** aus - dieser zweite, **unabhängige** Beleg
+  deckt genau die **Gegenbelegung** derselben Adresse ab, nicht Reimann. Quelle 2 (OSM): node/5937094100 (`name`=IF
+  Italy Foodworld GmbH, `shop`=deli, `addr:housenumber`=12, `addr:street`=Daimlerstraße). **Warum keine Koordinate:**
+  Der einzige Adressbeleg für Reimann ist ein einzelner Verzeichniseintrag, während OSM **und** die Betreiberseite eines
+  anderen Unternehmens dieselbe Anschrift als Lebensmittelladen ausweisen; ein dort gesetzter Punkt würde den
+  **Supermarkt** als Schrotthandelsstandort ausweisen und einen Adresskonflikt als Tatsache verdecken. **Was fehlt:**
+  ein Betreiberauftritt, ein Impressum oder ein Registereintrag, der die Reimann-Zeile an **einer** Anschrift in Köln
+  belegt und erklärt, ob und wie ein zweiter Mieter an der Daimlerstraße 12 bestand. `clear_fields: 'geo'` **bleibt**
+  bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/5937094100.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8200,50.9200,6.8700,50.9700 ;
+  https://www.11880.com/branchenbuch/koeln/120674719B44130217/schrott-und-metall-reimann-metallschrotthandlung.html ;
+  https://www.italyfoodworld.de/ (Abruf 04.11.2026).]

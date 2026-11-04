@@ -66,3 +66,35 @@ Die einzeln gelesene Metall-Standortseite Wilhelmshaven nennt Emsstrasse 29, 263
 - [Recherche 01.11.2026: **ALBAclick-Shop geprueft — Containerpreise, kein Ankaufpreis (Bezug: ni-uberregional-alba-gruppe-mehrere-ni-standorte, Standort überregional (NI)).** `https://shop.albaclick.de/` (eigene IP, **nicht** von der 429-Sperre betroffen, HTTP 200, Abruf 01.11.2026 11:44 UTC) fuehrt im Seitentitel „Container online bestellen ab 119€“ — das ist ein **Container-Dienstleistungspreis (Gebuehr)** fuer die Abfallentsorgung, **kein** Ankaufpreis fuer Schrott; die uebrigen Abfallarten (Mischabfall, Pappe, Bioabfall, Glas, Bauschutt, Sperrmuell, Holz, Gruenschnitt, Erdaushub, Elektrogeraete) werden ohne Preis gelistet, die Preise werden clientseitig ueber `api.albaclick.de` geladen; `/schrott` liefert „Nicht gefunden“. `https://www.myALBA.de/` laeuft in dieselbe 429-Sperre. **Befund fuer `ni-uberregional-alba-gruppe-mehrere-ni-standorte`: kein Ankaufpreis.**]
 
 - [Recherche 01.11.2026: **Preisarten strikt getrennt fuer `ni-uberregional-alba-gruppe-mehrere-ni-standorte` (Standort überregional (NI), mehrere NI-Standorte).** **Ankaufpreis:** nicht veroeffentlicht — kein Zahlenwert, keine Einheit, kein Datum; die Betreiber-Angabe zum Standort überregional (NI) bewirbt den Ankauf ausschliesslich qualitativ. **Verkauf:** nicht veroeffentlicht — die Sorten- und Produktpalette der ALBA-Gruppe ist fuer überregional (NI) ohne Preis. **Gebuehren / Annahmegebuehren:** nicht veroeffentlicht — die Container- und Behaelterangaben zu überregional (NI) sind **Volumen** (m³), keine Gebuehrensaetze. **Markt-/Boersenkurs:** nicht veroeffentlicht — die ALBA-Seiten nennen fuer überregional (NI) keinen eigenen Kurs und keine eigene Notierung. **Kommunale Gebuehr:** nicht einschlaegig bzw. nicht veroeffentlicht. **Nicht** belegt und **nicht** erfunden: ein absoluter Material-Ankaufpreis, eine Gebuehrentafel oder ein Kurs fuer `ni-uberregional-alba-gruppe-mehrere-ni-standorte`.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Diese Zeile ist ein **Konzern-Sammeldossier** und
+  trägt im Frontmatter **weder Straße noch PLZ** - es gibt damit **keine** Dossier-Adresse, die geokodiert werden
+  könnte; `city` = „überregional" ist kein Geocoding-Ziel. Quelle 1 (OSM, live abgerufen am 04.11.2026): das
+  Zellraster über **Wilhelmshaven** umfasst **8.0400/53.5400 bis 8.0800/53.6000** (**5 Zellen von je 0,02 Grad**,
+  **0 Fehler**, live über `https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0600,53.5600,8.0800,53.5800` u. a.);
+  das Fenster enthält die Stadt
+  **nachweislich** (Ortsknoten „Wilhelmshaven" sowie die Straßen Sengwarder Altendeich, Steindamm, Ostfriesenstraße,
+  Inhauser Landstraße, Kavernenstraße, Klinkerstraße, Posener Straße, Tidofeld, Friedlandstraße) - eine Straße
+  **„Emsstraße"** mit der Dossier-Hausnummer **29** ist in den abgetasteten Zellen **nicht** vorhanden, und ein Objekt
+  mit Bezug zu „ALBA" **Metall Nord"** ebensowenig. Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): die **ALBA-Metall-Nord-Standortseite**
+  https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-wilhelmshaven/ liefert **HTTP 200** und nennt
+  live **„Standort Wilhelmshaven, ALBA Metall Nord GmbH, Emsstrasse 29, 26382 Wilhelmshaven, +49 4421 4020,
+  amn.wilhelmshaven@alba.info, Öffnungszeiten Mo–Do 7:30–16:30 Uhr, Fr 7:00–14:45 Uhr"** und beschreibt dort
+  Schrott- und Metallhandel mit Ankauf auch von privaten Kleinstmengen - **diese Einzeladresse gehört aber in das
+  Standortdossier** `ni-wilhelmshaven-alba-metall-nord-hafen` (bzw. `ni-wilhelmshaven-jade-stahl`) und **nicht** in das
+  Sammeldossier; eine Übertragung auf die Konzernzeile wäre eine Identitätsübertragung, die keine Quelle trägt.
+  **Warum keine Koordinate:** (a) die Zeile hat **keine eigene Adresse** und ist ausdrücklich als Sammeldossier
+  geführt („Sammeldossier nicht geokodieren", Recherche 24.10.2026), (b) die Konzernliste unterscheidet **ALBA Metall
+  Nord (Wilhelmshaven)** von **ALBA Braunschweig** und **ALBA Niedersachsen-Anhalt** mit mehreren Braunschweiger
+  Betriebsstätten - ein einziger Punkt würde einen dieser Standorte unausgewählt behaupten, (c) Zentrale,
+  Kundenbüro und Abfallentsorgungszentrum sind **nicht automatisch** Schrottankaufstellen. **Was zur Auflösung fehlt:** eine
+  Auflösung des Sammeldossiers in **einzelne Standortdossiers** (jeweils mit eigener Anschrift) - erst dann ist je
+  Zeile eine Koordinate setzbar. `status: aktiv`, `city`, `street` (leer), `postcode` (leer), `phone`, `email`,
+  `opening_hours`, `website`, `website_status` und `description` (leer) bleiben unverändert; es wird weder Fortbestand
+  noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0600,53.5600,8.0800,53.5800 ;
+  https://metall.alba.info/unternehmen/standorte/detail/betriebsstaette-wilhelmshaven/ ;
+  https://www.alba.info/standorte/ (Abruf 04.11.2026).]
