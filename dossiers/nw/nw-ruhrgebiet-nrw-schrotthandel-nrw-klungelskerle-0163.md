@@ -68,3 +68,46 @@ Mobiler NRW-Schrottankauf wird jetzt direkt auf der erreichbaren Zieldomain bewo
 ### Korrektur 18.10.2026
 
 - [Korrektur 18.10.2026: Status aktiv → pruefung wegen ungeklärter Betreiber-/Seedidentität und lediglich indexgestützter Ziel-Leistungen, nicht allein wegen HTTP 403. Im heutigen Review Root mit/ohne www jeweils 403, /impressum, /schrottankauf und /datenschutz jeweils 404; kein Betreiberinhalt dieser Zieldomain gelesen. Indexangaben 0163 4630051 versus 0163 4694319 bleiben Konflikt-Leads, keine bestätigten Kontakte. Startseite/Impressum der separaten Domain nrw-schrott.de gelesen: Tarek El-Lahib, Robertstraße 70, Bochum, 01525-2376589; Kopf mit zusätzlichem WhatsApp-Kontakt. Dort beworbene kostenlose Abholung ist termin-/standort-/mengenabhängig; 100–150 kg nur FAQ-Beispiel, keine allgemeine feste Mindestmenge. Ankauf nach Menge/Qualität/Aufwand, Wiederverkauf von Fahrzeugteilen und möglicher Demontagemehraufwand, im gelesenen Text keine numerischen Tarife. Keine dieser Angaben in strukturierte Zielfelder übertragen. Gemeinsamer Nachname beweist keine Betreiberkette; separate Domain nicht als bewiesener Vorgänger oder anderer Betreiber behandeln. Historische RSS-Daten beweisen nicht heutiges Inhaltsalter; der uncommittete 12.10.-Entwurf ist kein belegter damaliger Abruf. Für den Zielbetrieb Preis-/Gebührenbeträge offen. Quellen: https://schrotthandel.nrw/ ; https://www.schrotthandel.nrw/ ; https://schrotthandel.nrw/impressum ; https://schrotthandel.nrw/schrottankauf ; https://schrotthandel.nrw/datenschutz ; https://nrw-schrott.de/impressum.html ; https://nrw-schrott.de/]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Schrotthandel NRW / Klüngelskerle (0163)**
+  sind die **Einsatz-/Betriebsadresse** und der **Betreiberbezug** ungeklärt: das Betreiber-Impressum und das
+  Verzeichnisprofil nennen **zwei verschiedene** Anschriften in Bochum, und die Website belegt **kein** stationäres
+  Annahmegrundstück. **Was live geprüft wurde (04.11.2026):** (a) **Vorstadtstraße** (Kachelraster 7.1200/51.4700 bis
+  7.1500/51.5000, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) trägt **55** Adressobjekte mit **54**
+  verschiedenen Hausnummern (1, 2, 3, 5, 6, 7, 7a, 8, 9, 10, 11, 12, 13, 14, 15, 15a, 16, 17, 18, 19, 20, 21, 22, 23,
+  24, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 58, 59, 60, 61, 62, 63, 65 und
+  67); die **Hausnummer 65 existiert** als **way/325148295** mit `addr:housenumber`=65, `addr:street`=Vorstadtstraße,
+  `addr:city`=Bochum, `addr:postcode`=44866 und `building`=yes - **ohne** `name=` **noch** `operator=`. (b)
+  **Lohrheidestraße** (Kachelraster 7.1000/51.4700 bis 7.1300/51.5000, **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**,
+  live abgerufen) trägt **71** Adressobjekte mit **64** verschiedenen Hausnummern (1, 2, 3, 5, 7, 8, 8a, 9, 10, 12, 14,
+  18, 49, 51, 53, 55, 56, 57, 58, 59, 60, 61, 61a, 62, 63, 64, 66, 68, 69, 70, 71, 71a, 72, 82, 83, 85, 87, 89, 91, 121,
+  123, 125, 135, 137, 138, 139 und 140–157); die **Hausnummer 156 existiert** als **way/249160779** mit
+  `addr:housenumber`=156, `addr:street`=Lohrheidestraße, `addr:city`=Bochum, `addr:postcode`=44866 und
+  `building`=**apartments** - also ein **Wohnhaus**, ebenfalls **ohne** Betriebsbezug. (c) Namenssuchen nach **„Lahib“**
+  über die Felder name, operator, description, website, contact:website, brand, note und addr:housename finden in
+  **beiden** Rastern **keinen** Treffer. Quelle 1 (Betreiber/Verzeichnis): das **Impressum** der Betreiberseite
+  https://schrotthandel.nrw/impressum nennt live (Abruf 04.11.2026) **„Schrotthandel.nrw EL-Lahib, Vorstadtstraße 65,
+  44866 Bochum“** (ohne vollständigen Vornamen und ohne Rechtsform); die **Kontaktseite**
+  https://schrotthandel.nrw/contact zeigt die Nummer **4694319** und enthält zusätzlich einen **unbeschrifteten**
+  `tel:`-Link auf **0163 4630051**; das im Dossier bereits zitierte **11880**-Profil „Schrotthandel.nrw“ nennt dagegen
+  **Lohrheidestr. 156, 44866 Bochum-Wattenscheid, 0163 4630051, info@schrotthandel.nrw, Mo–Sa 07:00–19:00**
+  (Eintragsdaten 21.09.2026, Portalaktualisierung 09.10.2026) - die beiden Anschriften stehen also **unvereinbar**
+  nebeneinander, und die Domain **nrw-schrott.de** (Tarek El-Lahib, Robertstraße 70) wird mangels belegter
+  Betreiberkette **nicht** zusammengeführt. Quelle 2 (OSM): die beiden live abgerufenen Kachelraster
+  7.1200/51.4700–7.1500/51.5000 und 7.1000/51.4700–7.1300/51.5000 mit way/325148295 und way/249160779 **ohne**
+  Betriebsbezug. **Warum keine Koordinate:** Der Seed ist ein **mobiler NRW-Dienst**; die Website belegt **kein**
+  stationäres Annahmegrundstück, und die beiden einzigen Adressangaben sind **widersprüchlich** (Impressum
+  Vorstadtstraße 65 gegen 11880 Lohrheidestraße 156) - jeder Punkt müsste **eine** davon willkürlich auswählen und würde
+  zudem einen Abholhof suggerieren, den keine Quelle trägt; der zudem nicht zum Seed passende Firmenname (Impressum
+  „EL-Lahib“ gegen Seed-Nennung „Klüngelskerle“) bleibt ungeklärt. **Was zur Auflösung fehlt:** eine Bestätigung, welche
+  der beiden Anschriften die Betriebsadresse ist, und ein Beleg für eine **öffentliche Annahme** (statt eines mobilen
+  Abholservices). `clear_fields: 'dropoff_json,geo'` **bleibt** bestehen (die nicht belegte frühere Annahmezusage und
+  der falsche Punkt bleiben zurückgenommen), `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch
+  Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/way/325148295/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/249160779/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1200,51.4700,7.1500,51.5000 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1000,51.4700,7.1300,51.5000 ;
+  https://schrotthandel.nrw/impressum ;
+  https://www.11880.com/branchenbuch/bochum/120674719B112437141/schrotthandel-nrw.html (Abruf 04.11.2026).]

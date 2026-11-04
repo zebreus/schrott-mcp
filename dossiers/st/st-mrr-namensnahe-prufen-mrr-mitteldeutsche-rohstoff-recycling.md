@@ -50,3 +50,44 @@ MRR Mitteldeutsche Rohstoff-Recycling GmbH ist jetzt registerbasiert unter Stend
 
 - Rohstoffrecycling
 - Adresse: Halle (Am Saalehafen 5, 06118; Scholz-Adresse + MRR-Namensnähe – prüfen)
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diese Dossier-Zeile existiert **keine**
+  geokodierbare Dossier-Adresse: das Frontmatter-Feld `city` trägt den **Seed-Fehlerwert „MRR-Namensnähe – prüfen)“**,
+  der **kein Ort** ist, und `street`/`postcode`/`phone` sind **leer**. Der naheliegende Lead **Am Saalehafen 5,
+  06118 Halle** existiert zwar in OSM, ist aber **nicht** als Punkt für diese Zeile verwendbar. **Quelle 1 (OSM, live
+  abgerufen am 04.11.2026):** Kachelraster über **Halle (Saale)/Trotha** (**11.9200/51.4800 bis 12.0000/51.5400**,
+  live über `https://api.openstreetmap.org/api/0.6/map.json?bbox=11.9200,51.4800,12.0000,51.5400`): die Straße **Am
+  Saalehafen** ist im Raster mit **way/24798097** (`highway`, `name`=Am Saalehafen) und den Adressobjekten
+  **way/183256352 (Hausnummer 1, `name`=Wasserschutzpolizeirevierstation Halle)**, **node/891532491 (Hausnummer 5)** und
+  **node/891532508 (Hausnummer 8)** vertreten - die **Hausnummer 5 existiert**, das Objekt trägt jedoch **weder**
+  `name=` **noch** `operator=` und **keinen** Branchentag. Eine Namenssuche nach **„MRR“**, **„Mitteldeutsche
+  Rohstoff“**, **„Scholz“** und **„Recycling“** in den Feldern name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer für einen MRR- oder
+  Scholz-Betrieb (der einzige „Scholz“-Treffer ist **node/11286836361** „Bauingenieure Enke+Scholz“,
+  Leipziger Straße 93, 06108 Halle - ein **anderes** Unternehmen). Quelle 2 (Betreiber/Register, im Dossier bereits
+  zitiert): die **NorthData-Löschungsbekanntmachung** (live gelesen 14.10.2026) dokumentiert für die **MRR Mitteldeutsche
+  Rohstoff-Recycling GmbH** (AG Stendal **HRB 201565**, Sitzverlagerung Halle → Bitterfeld-Wolfen zum 12.06.2014,
+  Liquidationsereignisse ab 2020) die **Löschung am 22.05.2023** mit dem Wortlaut „Die Liquidation ist beendet. Die
+  Gesellschaft ist erloschen.“; der im Dossier zitierte **Scholz-Standortfinder** weist heute **Scholz Recycling GmbH,
+  Am Saalehafen 5, 06118 Halle** aus, und die im Dossier zitierte **Gelbe-Seiten**-Fundstelle nennt für die
+  „MRR Mitteldeutsche Rohstoff-Recycling GmbH“ ebenfalls **Am Saalehafen 5, 06118 Halle** (Rubrik
+  Entsorgungsbetriebe, Tel. 0345 35182673). **Warum keine Koordinate:** (a) die Seed-Zeile hat **keine Adresse**, der
+  Seed-Ort ist **kein Ort**; (b) der Rechtsträger MRR ist **seit 22.05.2023 gelöscht** - eine Koordinate auf den
+  Betriebsstandort würde die **gelöschte Gesellschaft** als aktiv darstellen; (c) der heute dort ansässige Betreiber
+  **Scholz Recycling GmbH** ist ein **fremder Rechtsträger**, und die Übernahme des Punktes würde eine stille
+  Nachfolge-Zuordnung unterstellen, die das Dossier ausdrücklich nicht belegt (Scholz-Gesellschaftspublikationen sind
+  keine automatische Verschmelzung/Betriebsübertragung); (d) die Adresse **gehört** zur separaten Dossier-Zeile
+  **st-halle-mrr-mitteldeutsche-rohstoff-recycling** (Seed-Ort „Halle“), deren Zuordnung zum Seed **hier**
+  ausdrücklich nicht vorliegt. **Was zur Auflösung fehlt:** eine belastbare Entscheidung des Owners, welche der
+  beiden Seed-Zeilen (oder keiner) die **MRR-Historie** trägt und ob der Standort **Am Saalehafen 5** überhaupt
+  MRR zuzuordnen ist - erst danach wäre die Hausnummer 5 in OSM (node/891532491) als Geokodierungsziel zu prüfen;
+  `city` (der fehlerhafte Seed-Wert), `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status`, `description`, `dropoff_json`, `pickup_json` und `status: pruefung` bleiben unverändert; es wird
+  weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.9200,51.4800,12.0000,51.5400 ;
+  https://api.openstreetmap.org/api/0.6/node/891532491.json ;
+  https://www.northdata.de/MRR+Mitteldeutsche+Rohstoff-Recycling+GmbH,+Bitterfeld-Wolfen/Amtsgericht+Stendal+HRB+201565 ;
+  https://www.scholz-recycling.com/standorte/ ; https://www.gelbeseiten.de/branchen/recycling/halle%20saale
+  (Abruf 04.11.2026).]

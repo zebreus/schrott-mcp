@@ -64,3 +64,38 @@ Die Kölner Umweltinspektion veröffentlichte 2014 einen Bericht „Müllenmeist
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Ausnahme-Fills (Aggregator-Konsens, offen dokumentiert): 11880 + stadtbranchenbuch + schrottplatz.org nennen übereinstimmend Müllenmeister & Schwerfel, Alteburger Str. 138, 50968 Köln (Bayenthal/Rodenkirchen-Nähe), Tel. 0221 381677, Fax 0221 381371, info@muellenmeister-schwerfel.de. Betreiber-Domain muellenmeister-schwerfel.de per Direktabruf 02.10.2026 tot (Transport-Error http+https, www+apex) — website bleibt leer, website_status bleibt leer (kein sicherer Tot-Nachweis bei möglicher Bot-Abwehr). KEIN Register-/Betreiber-Beleg → Status bleibt pruefung, E-Mail mit Restunsicherheit. Quelle(n): 11880 + stadtbranchenbuch + schrottplatz.org (drei Aggregatoren, eine Belegklasse — Ausnahmefall)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Alteburger Str. 138, 50968
+  Köln-Bayenthal** ist in OSM **nicht abbildbar**: die Straße ist kartiert, die **Hausnummer 138 existiert dort jedoch
+  nicht** - obwohl die Anschrift durch einen **amtlichen Behördenbeleg** gedeckt ist. **Was live geprüft wurde
+  (04.11.2026):** Das Kachelraster über Köln-Bayenthal/Rodenkirchen (6.9300/50.8800 bis 7.0000/50.9500, **49 Kacheln von
+  je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die **Alteburger Straße** mit **268** Adressobjekten und
+  **234** verschiedenen Hausnummern (1–89, 101, 103, 103a, 105, 105a, 107, 109, 109a, 111, 113, 115, 117, 119, 121, 127,
+  127a, 129, 13, 139, 14, 141;141a, 143, 15, 15a, 16, 18, 180, 182, 184, 186, 188, 189, 190, 191, 192, 193, 194, 195,
+  196, 198, 2, 20, 200, 202–212, 217, 218, 219a, 219b, 22, 220–300, 302, 303, 304, 306, 31, 311–379, 32, 36, 37, 38, 39,
+  4, 40–70, 70-74, 72, 73, 74, 76, 78, 79, 8-12, 80, 81, 82, 83, 85, 87, 89) - die **Hausnummer 138 fehlt** in dieser
+  Liste (die geraden Nummern 130–138 sind in diesem Abschnitt durchgängig **nicht** vergeben); eine Suche nach
+  `addr:housenumber`=138 in Verbindung mit „Alteburger“ findet **kein** Objekt. Eine Namenssuche nach
+  **„Müllenmeister“** und **„Schwerfel“** über die Felder name, operator, description, website, contact:website, brand,
+  note und addr:housename findet im 49-Kachel-Raster **keinen** Treffer - es gibt **keine** OSM-Betriebszuordnung.
+  Quelle 1 (Behörde): der **Umweltinspektionsbericht der Stadt Köln** (Umwelt- und Verbraucherschutz, Abteilung
+  Immissionsschutz, Wasser- und Abfallwirtschaft; **live am 04.11.2026 als PDF abgerufen**,
+  https://www.stadt-koeln.de/mediaasset/content/pdf57/2014-05-12_umweltinspektionsbericht_m%C3%BCllenmeister___schwerfel.pdf)
+  nennt **„Firma: Müllenmeister & Schwerfel, Standort: Alteburger Str. 138 in D-50968 Köln-Bayenthal, Anlage:
+  Abfallbehandlungsanlage (Ziffer gemäß der 4. Bundes-Immissionsschutzverordnung 8.11.24, 8.12.2 und 8.12.3.2), Datum
+  und Dauer der Umweltinspektion: November 2013 bis September 2014, 12.05.2014“** - das ist ein **belastbarer amtlicher
+  Standortbeleg**, aber **historisch** (Inspektionszeitraum 2013/2014) und **kein** Nachweis für Betrieb, Annahme oder
+  Kontakt heute; die heutigen Kontaktdaten (0221 381677, info@muellenmeister-schwerfel.de) stammen laut Dossier
+  weiterhin aus Verzeichnisprofilen, und die Betreiber-Domain ist **nicht auswertbar**. Quelle 2 (OSM): das live
+  abgerufene Kachelraster 6.9300/50.8800–7.0000/50.9500 mit der oben genannten Hausnummern-Census und **ohne** Objekt
+  mit der Nummer 138. **Warum keine Koordinate:** Die Dossier-Hausnummer ist in OSM **nicht** vorhanden; jeder Punkt
+  müsste aus einem benachbarten Objekt oder aus der Straßenmitte **abgeleitet** werden und wäre damit eine unbelegte
+  Vermutung über die Lage der Anlage. **Was zur Auflösung fehlt:** eine Kartierung der **Hausnummer 138** (oder des
+  Gebäudes/Grundstücks) der Abfallbehandlungsanlage in OSM, zusätzlich ein aktueller Betreiber- oder Registerbeleg für
+  die heutige Annahme. `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder
+  Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9300,50.8800,7.0000,50.9500 ;
+  https://www.stadt-koeln.de/mediaasset/content/pdf57/2014-05-12_umweltinspektionsbericht_m%C3%BCllenmeister___schwerfel.pdf
+  (Abruf 04.11.2026).]

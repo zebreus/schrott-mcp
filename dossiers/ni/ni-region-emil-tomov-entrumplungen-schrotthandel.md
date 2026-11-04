@@ -51,3 +51,44 @@ Ein möglicher, bislang nicht zugeordneter Diepholzer Lead ist „Entrümplungen
 
 - [Recherche 05.10.2026: Vollständige Namensvetter-Recherche vom 03.10. als Ausgangspunkt gelesen, deren drei fremde Gesellschaften nicht erneut als vermeintliche Dossierbetreiber gecrawlt. Neue NorthData-Abfrage Emil Tomov live: erster sichtbarer Block 15 von 1.000+ unscharfen Resultaten, überwiegend bulgarische Personen mit Varianten Tomow; keine eindeutige Verknüpfung zu einem mobilen niedersächsischen Entrümpelungs-/Schrottgewerbe. Neue Websuche ebenfalls nur unverknüpfte Namensvetter. Die begrenzte Suchansicht ist KEIN umfassender Nachweis „nicht im Register“ und keine Schließung. Quelle(n): https://www.northdata.de/Emil+Tomov (live Suchansicht, kein qualifizierter Identitätsbeleg)]
 - [Recherche 05.10.2026: Identitätsblocker weiterhin vollständiger Gewerbename/Ort bzw. Betreiberkontakt; weder Website-Impressum noch standortspezifische Unterseiten eindeutig zugeordnet, daher kein sinnvoller Preis-/Zeit-/Zertifikatscrawl und keine Betreiber-Ausnahme. Alle leeren Felder, city „Region ?“, Name/Slug und status pruefung erhalten. Keine ungeklärte Tomov-Merge-Kette übernommen, keine Service-/Preis-/Koordinatenwerte erfunden. Keine verifizierte Ankauf-/Verkaufs-/Gebührenliste. Quelle(n): https://www.northdata.de/Emil+Tomov (begrenzte Suchansicht)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **53** der Moorstraße
+  existiert zwar in OSM, die **Betreiberzuordnung** „Emil Tomov" ist jedoch nicht belegt - eine Koordinate würde den
+  ungeklärten Lead als Anschrift eines Schrotthandels ausweisen. Quelle 1 (OSM, live abgerufen am 04.11.2026): das
+  Kachelraster über den Ortsteil umfasst **8.3500/52.6000 bis 8.3800/52.6200**, **6 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit **elf** Straßenobjekten
+  (way/26280674, way/26704898, way/27067194, way/27067196, way/141564857, way/141564858, way/141564859,
+  way/141564860, way/489077072, way/1317090244, way/1376132454) sowie **45** Adressobjekten auf „Moorstraße" mit **44**
+  verschiedenen Hausnummern (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 18, 19, 20, 21, 22, 22A, 23, 30, 35, 36, 38, 40, 41, 42, 43,
+  44, 45, 46, 47, 48, 49, 50, 51, 52, **53**, 54, 55, 56, 57, 58, 59, 60) - die **Dossier-Hausnummer 53 existiert**
+  eindeutig: **way/489077030** mit `addr:street`=Moorstraße, `addr:housenumber`=53, `addr:postcode`=49356,
+  `addr:city`=Diepholz, `building`=house (Mittel der 4 eindeutigen Knoten: 52.6012093/8.3658010). Eine Namenssuche
+  nach **„Tomov"** über die Felder name, operator, description, website, contact:website, brand, note und
+  addr:housename findet im Raster **keinen** Treffer - es gibt **keine** OSM-Betriebszuordnung. Quelle 2 (Verzeichnis,
+  im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **11880-Seite**
+  https://www.11880.com/branchenbuch/diepholz/060442230B112598676/entruemplungen-und-umzuege-aller-art.html liefert
+  **HTTP 200** und nennt live **„Entrümplungen Und Umzüge Aller Art, (0176) 56789391, Moorstr. 53, 49356 Diepholz"** mit
+  den Leistungen **Haushaltsauflösung, Umzugsunternehmen und Entrümplelung**; die in den **JSON-LD-Daten** derselben
+  Seite ausgewiesene Standortkoordinate **52.601209/8.365801** fällt **exakt** auf das OSM-Objekt **Moorstraße 53** -
+  die Anschrift ist damit geometrisch bestätigt, der **Firmierungsname** aber nicht: der Verzeichniseintrag heißt
+  „Entrümplungen Und Umzüge Aller Art", **„Emil Tomov" wird dort nicht genannt**, und die im Dossier dokumentierte
+  Namensspur stützt sich allein auf einen **Facebook-Suchindex**, dessen Seite beim Direktabruf **nur eine
+  Login-Seite** liefert. **Warum keine Koordinate:** (a) die **Identität** des Seed-Eintrags „Emil Tomov
+  Entrümplungen/Schrotthandel" ist gegenüber dem Verzeichnisbetrieb nicht belegt, und der Facebook-Auftritt ist als
+  Quelle wertlos; (b) die im Verzeichnis hinterlegten Leistungen betreffen **Haushaltsauflösung, Umzüge und
+  Entrümplelung** - in keinem Beleg erscheint ein **Schrottbezug**, eine Metallannahme oder ein Ankauf, die
+  Materialliste des Seed-Eintrags stammt aus der Importzeile und ist nicht belegt; (c) das **amtliche
+  Fachbetrieberegister** (Auszug 11.08.2026) führt für Diepholz nur „MWT GmbH & Co. KG, Siemensstraße 7" - kein Tomov
+  und kein Entrümpelbetrieb (bei freiwilliger Efb-Anerkennung ohne Beweiswert). Ein gesetzter Punkt würde den
+  ungeklärten Lead als Standort eines Schrotthandels etikettieren. **Was zur Auflösung fehlt:** ein lesbarer
+  Betreiberauftritt (Impressum/Website/Facebook-Seite mit Inhalt), der **„Emil Tomov"** als Inhaber des
+  Entrümplelbetriebs an der Moorstraße 53 ausweist **und** eine Schrott-/Metallannahme belegt, oder ein
+  Registerbeleg. `city` („Region ?"), `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status` und `description` bleiben unverändert, `status: pruefung` bleibt unverändert; es wird weder
+  Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3500,52.6000,8.3800,52.6200 ;
+  https://api.openstreetmap.org/api/0.6/way/489077030/full.json ;
+  https://www.11880.com/branchenbuch/diepholz/060442230B112598676/entruemplungen-und-umzuege-aller-art.html ;
+  https://schrottregister.pages.dev/ort-diepholz (Abruf 04.11.2026).]

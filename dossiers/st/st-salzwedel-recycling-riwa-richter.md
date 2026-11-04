@@ -1,5 +1,7 @@
 ---
 slug: st-salzwedel-recycling-riwa-richter
+lat: 52.8529569
+lon: 11.1823088
 name: Recycling RiWa (Richter)
 trader_type: schrotthaendler
 state: ST
@@ -13,7 +15,6 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: 'Metallrecyclinghof und Schrottplatz in Salzwedel. Das amtliche Abfallwirtschaftskonzept des Landkreises Altmarkkreis Salzwedel (Fortschreibung 2022, Kap. 14.1.6 „Schrotthändler") führt die Anlage An der Ritzer Brücke 3 unter dem Betreibernamen „Metall Recycling SAW"; die Creditreform-Firmenauskunft nennt den Gewerbebetrieb „Michael Richter Metallrecycling SAW" mit Unternehmensgegenstand „Recycling und Handel mit metallischen Altmaterialien, Autorecycling" und Hauptbranche Großhandel mit Altmaterialien und Reststoffen (46.87.0). Verzeichnisnamen: „Recycling RiWa Richter Michael", „MR Metall Recycling SAW". Eine Betreiberwebsite ist nicht auffindbar; die Telefonnummer stammt aus der Firmenauskunft und mehreren voneinander unabhängigen Verzeichnissen. Preise, Annahmebedingungen und Gebühren sind nicht veröffentlicht.'
-clear_fields: geo
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -53,3 +54,46 @@ Die Typfrage ist mit einer **amtlichen Quelle** entschieden: Das **Abfallwirtsch
 
 - Recycling/AV
 - Adresse: Salzwedel (An der Ritzer Brücke 3, 29410)
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.8529569/11.1823088** (Mittelwert der **6**
+  eindeutigen Knoten von **way/613121645**; das Objekt hat **7** Knotenreferenzen, davon 6 eindeutige - ein Knoten ist
+  doppelt gezählt; die BBox der eindeutigen Knoten reicht von 11.1814092/52.8526411 bis 11.1830047/52.8533678 und
+  **umschließt den Mittelwert**). Quelle 1 (OSM): **way/613121645** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/way/613121645/full.json`, HTTP 200) `name`=**MR Metall Recycling SAW**,
+  `amenity`=recycling, `recycling_type`=centre, `recycling:scrap_metal`=**yes**, `landuse`=industrial - das OSM-Objekt
+  benennt den Betrieb **selbst** und kartiert ihn als **Metallschrott-Recyclingzentrum**. Direkt daneben liegt
+  **way/613121646** mit `addr:street`=**An der Ritzer Brücke**, `addr:housenumber`=**3**, `addr:city`=Salzwedel,
+  `addr:postcode`=29410 (Mittelwert 52.8529055/11.1819731, rund 26 m entfernt) - die **Dossier-Adresse** und der
+  **Betriebspunkt** sind damit in OSM **dieselbe Liegenschaft**. **Fensterdisziplin:** das am 04.11.2026 live
+  abgerufene Kachelraster über **Salzwedel/Perver** (**11.1600/52.8400 bis 11.2000/52.8600**, **12 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**) enthält die gesuchte Straße tatsächlich: die **An der Ritzer Brücke** ist im
+  Raster mit den Hausnummern **1** (way/613121644, `brand`=Audi, Autohaus Salzwedel), **3** (way/613121646), **4**
+  (way/689118631), **5** (way/613121637, `brand`=Volkswagen; Skoda), **6** (way/689118633), **7** (way/613121639,
+  Lack-Fix), **8** (way/689118634), **9** (way/613121636) und **11** (way/613121635) vertreten - die
+  **Dossier-Hausnummer 3 existiert** und ist im Raster das einzige Objekt dieser Nummer auf dieser Straße. Quelle 2
+  (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): (a) das **amtliche
+  Abfallwirtschaftskonzept des Landkreises Altmarkkreis Salzwedel** (Fortschreibung 2022, Kapitel 14.1.6
+  „Schrotthändler“, Nr. 27, S. 115) führt den Standort **„An der Ritzer Brücke 3, 29410 Salzwedel“** mit dem
+  Betreiber **„Metall Recycling SAW“** - der **Landkreis** selbst weist die Anlage als **Schrotthändler** aus, und
+  die Betreiberbezeichnung **„Metall Recycling SAW“** deckt sich mit dem OSM-Namen **„MR Metall Recycling SAW“**.
+  (b) die **11880**-Detailseite führt **„Recycling RiWa Richter Michael“** mit **An der Ritzer Brücke 3, 29410
+  Salzwedel**, Telefon **(03901) 308868** und der Portalkoordinate **11.181759/52.852978**, die nur rund **35 m** vom
+  gewählten OSM-Punkt entfernt liegt; das im Dossier zitierte **Creditreform-Firmenprofil „Michael Richter
+  Metallrecycling SAW“** nennt dieselbe Anschrift mit demselben Gegenstand („Recycling und Handel mit metallischen
+  Altmaterialien, Autorecycling“). Der Seed-Name **„Recycling RiWa (Richter)“** löst sich damit über das 11880-Profil
+  „Recycling RiWa **Richter Michael**“ und das **Infobel**-Profil „**MR** Metall Recycling **SAW** / RiWa Michael
+  Richter“ in **einen** Betrieb auf. **Qualifizierung:** eine **Betreiberwebsite** existiert nicht, die Preise sind
+  nicht belegt, und das amtliche Fachbetriebsregister (Auszug 11.08.2026) führt für Salzwedel nur ALBA - ein
+  Negativbefund ohne Beweiswert für kleine Einzelbetriebe; die Koordinate bezeichnet die amtlich und verzeichnisseitig
+  belegte **Betriebsstätte** (Recyclingzentrum mit Schrottannahme), nicht eine geprüfte Waage. `street`, `postcode`,
+  `phone`, `email`, `opening_hours`, `website`, `website_status`, `description`, `dropoff_json`, `pickup_json` und
+  `status: pruefung` bleiben unverändert; der zurückgenommene Produktionspunkt **52.8544/11.1525** (Steintorstraße 9,
+  Neustadt) wird durch diesen Punkt ersetzt. `clear_fields: geo` **entfällt**, weil die Koordinate nun belegt vorliegt
+  und der Seed `geo` neben belegtem `lat`/`lon` ablehnt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/613121645/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/613121646/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.1600,52.8400,11.2000,52.8600 ;
+  https://www.altmarkkreis-salzwedel.de/PortalData/1/Resources/landkreis/bekantmachungen/2022/04_2022/AWK_SAW_04-04-2022.pdf ;
+  https://www.11880.com/branchenbuch/salzwedel-hansestadt/060444309B53145266/recycling-riwa-richter-michael.html ;
+  https://firmeneintrag.creditreform.de/29410/3350081118/MICHAEL_RICHTER_METALLRECYCLING_SAW (Abruf 04.11.2026).]

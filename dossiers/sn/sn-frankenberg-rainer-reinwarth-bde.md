@@ -1,5 +1,7 @@
 ---
 slug: sn-frankenberg-rainer-reinwarth-bde
+lat: 50.9048037
+lon: 13.0317228
 name: Rainer Reinwarth BDE
 trader_type: sonstige
 state: SN
@@ -7,7 +9,7 @@ city: Frankenberg
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'dropoff_json,geo,phone'
+clear_fields: 'dropoff_json,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -67,3 +69,38 @@ provenance_origin: table
 ### Owner-Korrektur 18.10.2026 (Seed-Verhalten)
 
 - [Owner-Korrektur 18.10.2026: Heutiger mode=ro/query_only-Abgleich mit public.db zeigt Telefon 037206 70542, Hohe Str. 31/09669 und Status aktiv weiterhin gespeichert; Bestandsaufnahme, keine sachliche Verifikation oder Bestätigung der behaupteten 12.10.-Abfrage. Nach Integration/Rebuild entfernt clear_fields phone das Telefon und bleibt bei jedem Seed gegen spätere Drift autoritativ, auch bei gleichem Seed-Hash. Kernadresse/Status werden beim geänderten Seed aktualisiert. Fehlende Dossierkoordinaten behalten das DB-Paar 50.9259/13.0596 unverändert und unvalidiert. Zusätzlich gespeichertes dropoff_json allowed true bleibt bei leerem Dossierfeld ebenfalls erhalten, durch pruefung weder gelöscht noch bestätigt; gesonderte qualifizierte Bereinigung offen. Keine zusätzlichen Clear-Tokens freigegeben. Ungeklärte Identität/Punktzuordnung bleibt Veröffentlichungsblocker; keine Produktions-/GEO-Mutation dieses Check-ins. Grundlage docs/trader-seed.md und heutige Abfrage /tmp/opencode/checkin-20261018-0930-production-gate.json.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.9048037/13.0317228** (Mittel der **4**
+  eindeutigen Knoten von way/386317391; die BBox der eindeutigen Knoten reicht von 50.9047290/13.0315967 bis
+  50.9048784/13.0318488 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/386317391** trägt `addr:street`=Hohe Straße, `addr:housenumber`=**31**, `addr:city`=Frankenberg/Sa.,
+  `addr:postcode`=09669 sowie `building`=**apartments**, `building:levels`=3, `roof:levels`=1 - Straße, Hausnummer,
+  PLZ und Ort stimmen mit der Dossier-Adresse **Hohe Str. 31, 09669 Frankenberg/Sa.** überein. **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **13.0200/50.9000 bis 13.0500/50.9200**,
+  **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit den
+  Straßenobjekten **way/25443806**, **way/1208328774** und **way/1208328775** sowie **20** Adressobjekten auf
+  „Hohe Straße" mit **20** verschiedenen Hausnummern (2, 5, 7, 9, 11, 13, 15, 16, 20, 21, 24, 28, 29, 30, **31**, 31a,
+  35, 36, 37, 38) - die **Dossier-Hausnummer 31 existiert** und ist im Raster das einzige Objekt mit dieser Nummer
+  (31a ist ein eigenes Nachbarobjekt). Eine Namenssuche nach **„Reinwarth"** und **„BDE"** über die Felder name,
+  operator, description, website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer -
+  es gibt also **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Verzeichnis, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): die **11880-Verzeichnissuche** liefert **HTTP 200** und führt live **„BDE
+  Dienstleistungen Reinwarth Rainer Metall Kabel Schrott, Altmaterialhandel, Schrotthandel & Altmetallrecycling, Hohe
+  Str. 31, 09669 Frankenberg, Sachsen, (037206) 70542"**; das im Dossier dokumentierte **Gelbe-Seiten-Profil** nennt
+  dieselbe Anschrift und Nummer. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'dropoff_json,geo,phone'`
+  wurde um das Token **geo** gekürzt (die Tokens `dropoff_json` und `phone` bleiben **unverändert** bestehen), weil es
+  den nicht zuordenbaren Produktionspunkt fernhalten sollte; der hier gesetzte Punkt liegt **exakt** auf der belegten
+  Anschrift, während `clear_fields` nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen darf.
+  **Offener Zweitstandort (unverändert übernommen):** dieselbe 11880-Suche führt zusätzlich **„BDE Dienstleistungen
+  Reinwarth Rainer Schrott Metalle A&V, Altmaterialhandel & Schrotthandel, Am Chemnitzberg 17, 09328 Lunzenau
+  (Göritzhain), (037383) 61701"** - eine **zweite** Anschrift desselben Namens in einem anderen Ort; die Dossierzeile
+  bleibt der Frankberger Standort, eine Gleichsetzung der beiden Anschriften wird **nicht** behauptet.
+  **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die **verzeichnisgestützte Anschrift**, nicht
+  einen verifizierten Annahmehof - das OSM-Objekt ist als **Wohnhaus** erfasst, ein Betriebs- oder Recycling-POI
+  existiert dort nicht, und es wird weder Fortbestand noch Schließung behauptet. `status: pruefung`, `city`,
+  `street`, `postcode` (leer), `phone` (leer), `email`, `opening_hours`, `website`, `website_status` und `description`
+  bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/386317391/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.0200,50.9000,13.0500,50.9200 ;
+  https://www.11880.com/branchenbuch/frankenberg-s-a/060442240B110998711/rainer-reinwarth-bde.html (Abruf 04.11.2026).]

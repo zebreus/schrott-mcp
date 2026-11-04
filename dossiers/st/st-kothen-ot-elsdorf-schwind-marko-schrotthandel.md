@@ -1,5 +1,7 @@
 ---
 slug: st-kothen-ot-elsdorf-schwind-marko-schrotthandel
+lat: 51.7824130
+lon: 11.9778684
 name: Schwind Marko Schrotthandel
 trader_type: schrottplatz
 state: ST
@@ -13,7 +15,6 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: 'Schrotthandel bzw. Entrümpelung in Köthen OT Elsdorf, Ringstr. 4. Die frühere Marko Schwind UG (AG Stendal HRB 8480) wurde liquidiert und am 14.12.2017 im Handelsregister gelöscht; im amtlichen Register der Entsorgungsfachbetriebe (Stand 11.08.2026) ist für Köthen (06366/06369) kein Betrieb Schwind geführt. Eine Fortführung durch eine Einzelperson ist nicht belegt; Annahme, Preise und Gebühren sind nicht belegt.'
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Dessau-Roßlau / Wittenberg / Bitterfeld / Köthen / Bernburg /
@@ -53,3 +54,43 @@ Die frühere Marko Schwind UG (AG Stendal HRB 8480) war laut Registerprofil Gege
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: 11880-Detailseite führt „Marko Schwind Schrotthandel“ mit Altmetallrecycling/Altmaterialhandel, nennt in der FAQ Ringstr. 4, 06369 Elsdorf, und führt Tel. 03496 303294 sowie zusätzlich 0177 4036272; E-Mail/Website/Öffnungszeiten fehlen. Das Örtliche führt am selben Haus „Schwind Entrümpelungen“, Ringstr. 4, 06369, Tel. 0177 3361329. Beides sind Aggregator-Leads, keine Betreiber-Primärquelle und trotz gleicher Adresse/Namensbestandteil kein unabhängiger Identitäts-/Merge-Beleg; Kontaktzuordnung und Verhältnis beider Einträge bleiben offen. Keine Postleitzahl, Telefonnummer oder Leistung ergänzt/korrigiert; website_status mangels belegter Betreiber-Domain auf unbekannt gesetzt, status pruefung bleibt; keine Schließung belegt. Quelle(n): https://www.11880.com/branchenbuch/elsdorf-bei-koethen/060440090B48384962/marko-schwind-schrotthandel.html + https://www.dasoertliche.de/Themen/Schwind-Entr%C3%BCmpelungen-Elsdorf-Elsdorf-Ringstr (beide Verzeichnis-Leads, kein Identitätsbeleg).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.7824130/11.9778684** (Mittelwert der **1**
+  eindeutigen Knoten des Objekts **node/5121795516** - ein Objektknoten, der Mittelwert ist damit deckungsgleich mit dem
+  Knoten und liegt innerhalb der Objekt-BBox 11.9778684/51.7824130 bis 11.9778684/51.7824130). Quelle 1 (OSM):
+  **node/5121795516** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/node/5121795516.json`, HTTP 200) `addr:street`=Ringstraße,
+  `addr:housenumber`=**4**, `addr:city`=**Elsdorf**, `addr:postcode`=**06369**, `addr:country`=DE - die Dossier-Adresse
+  existiert damit **unabhängig** in OSM und **straßengenau** (PLZ 06369 = Elsdorf bei Köthen). Das Objekt trägt **weder**
+  `name=` **noch** `operator=` und **keinen** Branchentag. **Fensterdisziplin:** das am 04.11.2026 live abgerufene
+  Kachelraster über **Köthen-Elsdorf** (**11.9600/51.7700 bis 12.0000/51.8000**, **12 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler**) enthält die gesuchte Straße tatsächlich: die **Ringstraße in 06369 Elsdorf** ist im Raster mit
+  **sieben Straßenobjekten** (way/124722540, way/352172025, way/352172805, way/353289758, way/1545410345,
+  way/1545410346, way/1545410354) und den Hausnummern **1** (node/5121795518), **3** (node/5121795517), **4**
+  (node/5121795516), **5**
+  (node/5121795515), **6** (node/5121795514), **7** (node/5121795513), **8** (node/5121795512), **9**
+  (node/5121795511), **10** (node/5121795510), **11** (node/5121795509), **12** (node/5121795508) und **13**
+  (node/5120128902) vertreten - die **Dossier-Hausnummer 4 existiert** und ist im Raster das einzige Objekt dieser
+  Nummer auf dieser Straße; die gleichnamige Ringstraße in **Aken (Elbe) 06385** (u. a. node/4776512942 „4“) und eine
+  weitere Ringstraße bei 12.016/51.799 liegen außerhalb der Ortsgrenze und sind **andere** Straßen - die Filterung
+  über `addr:city`=Elsdorf bzw. `addr:postcode`=06369 trennt die drei sauber. Quelle 2 (Betreiber/Verzeichnis, im
+  Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): die **11880**-Detailseite führt **„Marko Schwind Schrotthandel“** mit den Sparten Altmetallrecycling
+  und Altmaterialhandel an **Ringstr. 4, 06369 Elsdorf bei Köthen**, Telefon **(03496) 303294** (sowie 0177
+  4036272); die dort hinterlegte Geokoordinate **11.977838/51.782424** liegt rund **5 m** vom OSM-Objekt entfernt und
+  bestätigt denselben Standort. Das im Dossier zitierte **Das Örtliche** führt am selben Haus **„Schwind
+  Entrümpelungen“, Ringstr. 4, 06369** (Tel. 0177 3361329) und das im Dossier zitierte **Creditreform-/NorthData-Profil**
+  der früheren **Marko Schwind UG (AG Stendal HRB 8480)** nennt ebenfalls „06369 Köthen-Elsdorf“ und Ringstraße 4
+  (Straße in der Registerpublikation redigiert). **Qualifizierung (wichtig):** die Koordinate markiert die
+  **Anschrift, die die Verzeichnisse diesem Seed-Eintrag nennen**; die **Marko Schwind UG ist laut Register am
+  14.12.2017 gelöscht**, eine Fortführung durch eine Einzelperson ist **nicht** belegt, ein **Betreiberauftritt**
+  existiert nicht und im amtlichen Fachbetrieberegister ist für Köthen **kein** Betrieb „Schwind“ geführt. Die
+  Koordinate ist deshalb **kein** Beleg für einen aktiven Schrottplatz und **kein** Beleg für Fortbestand oder
+  Schließung; `street`, `postcode`, `phone`, `website`, `website_status`, `description` und `status: pruefung` bleiben
+  unverändert. `clear_fields: 'geo'` **entfällt**, weil die Koordinate nun belegt vorliegt und der Seed `geo` neben
+  belegtem `lat`/`lon` ablehnt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/5121795516.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.9600,51.7700,12.0000,51.8000 ;
+  https://www.11880.com/branchenbuch/elsdorf-bei-koethen/060440090B48384962/marko-schwind-schrotthandel.html ;
+  https://www.dasoertliche.de/Themen/Schwind-Entr%C3%BCmpelungen-Elsdorf-Elsdorf-Ringstr (Abruf 04.11.2026).]

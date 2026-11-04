@@ -1,13 +1,13 @@
 ---
 slug: ni-meppen-autoverwertung-gwm
+lat: 52.6651415
+lon: 7.2959797
 name: Autoverwertung GWM
 trader_type: autoverwertung
 state: NI
 city: Meppen
 street: Schulze-Delitzsch-Straße 16
 postcode: '49716'
-lat: ''
-lon: ''
 phone: '05931 17500'
 email: anfrage@autoverwertung-gwm.de
 opening_hours: 'Mo–Fr 09:00–18:00, Sa 09:00–13:00'
@@ -54,3 +54,35 @@ Die Betreiberwebsite belegt einen laufenden GWM-Auftritt in Meppen und nennt Alt
 
 - [Recherche 21.10.2026: Die live abgerufene Betreiberwebsite beschreibt den Ankauf von Unfallfahrzeugen, Gebraucht-/Neuteile und ausdrücklich Altfahrzeugannahme. Die Firmengeschichte nennt Lingen als Gründungsort 1988, den Umzug 1990 und die Pacht des Autowrackplatzes Meppen-Nödike 1995; „genau hier“ sei der Betrieb weiterhin. Das Impressum nennt „Autoverwertung GWM“, Inhaber Clemens Bitter, Schulze-Delitzsch-Straße 16, 49716 Meppen, Tel. 05931 17500, Fax 05931 912958 und anfrage@autoverwertung-gwm.de. Die AGB nennen am selben Ort „Autoverwertung GWM Bitter“ und im Widerrufsabschnitt „Autoverwertung GWM Bitter GbR“. Gleiche Marke/Adresse und derselbe Betreiberauftritt sprechen für einen Standortfall, lösen aber die widersprüchliche Rechtsform nicht auf; keine Rechtsform und keine Straßen-/Kontaktfelder strukturiert übernommen. Öffentlich genannte Zeiten: Mo-Fr 09:00-18:00, Sa 09:00-13:00; Ankauf-/Teilepreise und Gebühren nicht ausgewiesen. Quelle(n): https://www.autoverwertung-gwm.de/ ; https://www.autoverwertung-gwm.de/impressum/ ; https://www.autoverwertung-gwm.de/agb/]
 - [Abgrenzung 21.10.2026: Lingen ist laut Betreiberseite Unternehmensgeschichte, nicht als heutige Filiale belegt. Die lokalen Meppener Dossiers zu Autorecycling Kempers (Zwoller Straße 5, Meppen-Versen) und Emsschrott (Essener Straße 15) beschreiben andere Betreiber/Standorte; keine der beiden Adressen wurde GWM zugeschrieben. Die Betreiberwebsite nennt Schulze-Delitzsch-Straße 16 im Impressum; ein unabhängiger Register-/Kommunalbeleg für die Anschrift wurde nicht gefunden. Quellen: https://www.autoverwertung-gwm.de/ ; https://www.autoverwertung-gwm.de/impressum/ ; dossiers/ni/ni-meppen-autorecycling-kempers.md ; dossiers/ni/ni-meppen-emsschrott.md]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.6651415/7.2959797**. Das Objekt ist ein
+  **Knoten** (kein Weg), die Koordinate ist daher unmittelbar die Knotenposition; die Objekt-BBox eines Knotens
+  entartet auf diesen Punkt, der Punkt liegt damit in ihr. Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **node/13919412398** trägt `addr:street`=Schulze-Delitzsch-Straße, `addr:housenumber`=**16**, `addr:city`=Meppen
+  (`addr:postcode` und `addr:suburb` sind **nicht** getaggt - siehe Notiz vom 28.10.2026, das bleibt unverändert).
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **7.2900/52.6600 bis
+  7.3100/52.6700**, **2 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße
+  **nachweislich** mit den Straßenobjekten **way/28771292**, **way/153204632** und **way/495476843** sowie **21**
+  Adressobjekten auf „Schulze-Delitzsch-Straße" mit **21** verschiedenen Hausnummern (1, 1a, 2, 2a, 3, 4, 6, 8, 10, 12,
+  12a, 14, 15, **16**, 16a, 17, 18, 19, 23, 25, 27) - die **Dossier-Hausnummer 16 existiert** und ist im Raster das
+  einzige Objekt mit dieser Nummer auf dieser Straße (die Nachbarnummer 16a liegt 64 m nördlich). Eine Namenssuche
+  nach **„GWM"** und **„Bitter"** über die Felder name, operator, description, website, contact:website, brand, note und
+  addr:housename findet im Raster **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung, nur den
+  Adresspunkt. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das
+  **Impressum** der Betreiberseite https://www.autoverwertung-gwm.de/impressum/ liefert **HTTP 200** und nennt
+  **„Autoverwertung GWM, Inhaber: Clemens Bitter, Schulze-Delitzsch-Straße 16, 49716 Meppen, Telefon 05931-17500,
+  Telefax 05931-912958, anfrage@autoverwertung-gwm.de, USt.Id.Nr. DE190234127"**; das im Dossier zitierte
+  **Das-Örtliche-Profil** („Autoverwertung GWM Bitter, Schulze-Delitzsch-Str. 16, 49716 Meppen-Nödike, Telefon 05931 1
+  75 00") bestätigt Adresse, Telefonnummer und Öffnungszeiten unabhängig von der Website. **Qualifizierung
+  (unverändert übernommen):** Der Punkt bezeichnet die **betreiberbestätigte Anschrift** und die Zufahrt zum
+  Standort, **nicht** eine geprüfte Demontagefläche; die offene Rechtsform („Autoverwertung GWM" vs. „GWM Bitter
+  GbR") und der fehlende Eintrag im amtlichen Fachbetrieberegister bleiben wie im Dossier offen, `status: pruefung`
+  bleibt unverändert, ebenso `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und
+  `description`; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/13919412398.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2900,52.6600,7.3100,52.6700 ;
+  https://www.autoverwertung-gwm.de/impressum/ ;
+  https://www.dasoertliche.de/Themen/Autoverwertung-GWM-Bitter-Meppen-N%C3%B6dike-Schulze-Delitzsch-Str (Abruf
+  04.11.2026).]

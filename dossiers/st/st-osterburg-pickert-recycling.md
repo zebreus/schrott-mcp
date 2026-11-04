@@ -1,5 +1,7 @@
 ---
 slug: st-osterburg-pickert-recycling
+lat: 52.7780639
+lon: 11.7629963
 name: Pickert Recycling GmbH
 trader_type: schrottplatz
 state: ST
@@ -59,3 +61,49 @@ Hausnummer 19 ist in OSM als Betriebspunkt erfasst (way 1562018071, `industrial=
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: Keine dem Osterburger Eintrag sicher zuordenbare Betreiberseite, Registerquelle oder unabhängige Bestätigung gefunden; website_status daher nur auf unbekannt gesetzt, Adresse/Kontakt/Beschreibung/Status bleiben offen. schrottplatz-info bleibt ein Aggregator-Lead. Die direkt abgerufenen Seiten von Pickert GmbH in Pfinztal beschreiben Prozessautomatisierung/Software und belegen einen gleichnamigen, aber nicht zuordenbaren Betrieb — keine Zusammenführung mit „Pickert Recycling GmbH“ in Osterburg. Keine Schließung belegt. Quelle(n): https://www.schrottplatz-info.de/; https://www.pickert.de/; https://www.pickert.de/ueber-uns/; https://www.pickert.de/kontakt/]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.7780639/11.7629963** (Mittelwert der **12**
+  eindeutigen Knoten von **way/1562018071**; das Objekt hat **13** Knotenreferenzen, davon 12 eindeutige - ein Knoten
+  ist doppelt gezählt; die BBox der eindeutigen Knoten reicht von 11.7625236/52.7775565 bis 11.7644943/52.7789997 und
+  **umschließt den Mittelwert**). Quelle 1 (OSM): **way/1562018071** trägt live (abgerufen am 04.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/way/1562018071/full.json`, HTTP 200) `name`=**Pickert Recycling**,
+  `industrial`=scrap_yard, `landuse`=industrial, `addr:street`=Düsedauer Straße, `addr:housenumber`=**19**,
+  `addr:city`=Osterburg (Altmark), `addr:suburb`=Osterburg, `addr:postcode`=**39606**, `addr:country`=DE - das Objekt
+  benennt den Betrieb **selbst** und liegt **straßengenau** auf der Registeradresse; der Punkt bezeichnet einen als
+  Schrottplatz kartierten Betrieb. **Fensterdisziplin:** das am 04.11.2026 live abgerufene Kachelraster über
+  **Osterburg/Düsedau** (**11.7500/52.7600 bis 11.7800/52.7900**, **9 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**)
+  enthält die gesuchte Straße tatsächlich: die **Düsedauer Straße** in 39606 Osterburg ist im Raster mit den
+  Hausnummern **1** (way/257595586), **1A–1E** (way/257595587 bis way/257595591), **2** (way/143181232), **2A**
+  (way/143181251), **3** (way/257595595), **4** (way/143181263), **5** (way/257595598), **6** (way/166561407), **7**
+  (way/140873562 „7C“, way/1560768434 „7A“, way/1560768435 „7B“, way/1560768436 „7D“), **14** (way/202628422),
+  **15** (way/202628447, Pflegedienst Winckelmann), **19** (way/1562018071, `name`=Pickert Recycling), **19a**
+  (way/1562018033), **20** (way/141029722), **20A** (way/202628449), **20B** (way/202628409, Die Handelsstube), **21**
+  (way/202628441, Flash Club), **22** (way/202628412), **23** (way/1562018059, Kreisstraßenmeisterei Osterburg), **24**
+  (way/202628399), **26** (way/1562018057, Lebenshilfe Osterburg), **64** (way/332716753) und **68** (way/332716756)
+  vertreten - die **Dossier-Hausnummer 19 existiert** und ist im Raster das einzige Objekt dieser Nummer auf dieser
+  Straße; das im Dossier zitierte Nachbarobjekt **19a** (way/1562018033, zugleich node/14212401058 „JUH Rettungswache
+  Osterburg“) liegt auf derselben Straße, ist aber ein **anderes** Haus.
+  Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): der
+  **NorthData-Registerauszug** bestätigt **Pickert Recycling GmbH, Amtsgericht Stendal HRB 2003, Geschäftsanschrift
+  Düsedauer Str. 19, 39606 Osterburg**, Unternehmensgegenstand NE-Metall-/Schrotthandel, Autoverwertung und
+  Containerdienst; die **11880**-Detailseite
+  https://www.11880.com/branchenbuch/osterburg-altmark/060444309B26432575/pickert-recycling-gmbh.html führt
+  **„PICKERT-Recycling GmbH“** mit **Düsedauer Str. 19, 39606 Osterburg** und Telefon (03937) 2929348. Registername,
+  Betriebsname, Straße, Hausnummer und PLZ stimmen zwischen OSM, Registerauszug und Verzeichnis **überein**.
+  **Qualifizierung (wichtig):** die im Dossier dokumentierte **amtliche Namenssuche** (online-handelsregister.de,
+  „Pickert Recycling Osterburg“) bleibt **ohne Treffer** - der Registerbeleg stammt aus einem kommerziellen
+  Registerdaten-Dienstleister, nicht aus einem amtlichen Portalabdruck; im **amtlichen Fachbetrieberegister** ist für
+  Osterburg **nur** „Autoverwertung Muhl GbR, Bismarckstraße 137“ geführt (anderer Betrieb; die Efb-Anerkennung ist
+  freiwillig, das ist ein Hinweis ohne Beweiswert). Der im Dossier dokumentierte **Adresskonflikt** zwischen
+  OSM/Registeradresse „Düsedauer Str. 19“ und der 11880-Portalkoordinate **11.772429/52.772872** - die auf den
+  Ortsteil **Düsedau** (Alte Düsedauer Dorfstraße) zeigt, rund 750 m vom OSM-Betriebspunkt entfernt - bleibt
+  dokumentiert; maßgeblich ist die in OSM **und** im Registerauszug übereinstimmende Anschrift. `street`, `postcode`,
+  `phone`, `website`, `website_status`, `description`, `dropoff_json`, `pickup_json` und `status: pruefung` bleiben
+  unverändert; der zurückgenommene Produktionspunkt **52.7872/11.7530** (Parkfläche an der Straße Golle) wird durch
+  diesen Punkt ersetzt. `clear_fields: geo` **entfällt**, weil die Koordinate nun belegt vorliegt und der Seed `geo`
+  neben belegtem `lat`/`lon` ablehnt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1562018071/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.7500,52.7600,11.7800,52.7900 ;
+  https://www.northdata.com/Pickert%20Recycling%20GmbH,%20Osterburg%20(Altmark)/Amtsgericht%20Stendal%20HRB%202003 ;
+  https://www.11880.com/branchenbuch/osterburg-altmark/060444309B26432575/pickert-recycling-gmbh.html (Abruf 04.11.2026).]

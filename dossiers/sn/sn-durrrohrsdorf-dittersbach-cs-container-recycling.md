@@ -1,6 +1,7 @@
 ---
 slug: sn-durrrohrsdorf-dittersbach-cs-container-recycling
-clear_fields: 'geo'
+lat: 51.0617841
+lon: 14.0023702
 name: CS Container & Recycling GmbH & Co. KG
 trader_type: sonstige
 state: SN
@@ -51,3 +52,40 @@ Die offizielle Betreiberwebsite und das Impressum identifizieren CS Container & 
 
 - Lagern/Behandeln (Register)
 - Sächs.-Schweiz-Rand
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.0617841/14.0023702**. Das Objekt ist ein
+  **Knoten** (kein Weg), die Koordinate ist daher unmittelbar die Knotenposition; die Objekt-BBox eines Knotens
+  entartet auf diesen Punkt, der Punkt liegt damit in ihr. Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **node/3287269442** trägt `addr:street`=Dresdner Straße, `addr:housenumber`=**59**, `addr:postcode`=01833,
+  `addr:city`=Dürrröhrsdorf-Dittersbach, `addr:suburb`=Wilschdorf, `addr:country`=DE. **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster über Dürrröhrsdorf-Dittersbach/Wilschdorf umfasst
+  **14.0000/51.0600 bis 14.0200/51.0800**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die
+  gesuchte Straße **nachweislich** mit **neun** Straßenobjekten (way/38840226, way/71222660, way/71222661,
+  way/108387272, way/108387273, way/423112566, way/423112567, way/722459261, way/894360113) sowie **41** Adressobjekten
+  auf „Dresdner Straße" mit **41** verschiedenen Hausnummern (16, 16a, 18, 20, 21, 22, 23, 24, 25, 26, 27, 27a, 28, 28a, 29,
+  29a, 29b, 31, 32, 34, 35, 36, 36a, 37, 38, 39, 40, 41, 42, 42a, 43, 44, 45, 47, 49, 51, 53, 55, 57, 58, **59**) - die
+  **Dossier-Hausnummer 59 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Quelle 2
+  (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Impressum** der
+  Betreiberseite https://cs-entsorgung.de/impressum liefert **HTTP 200** und nennt live **„Betreiber der Website: CS
+  Container & Recycling GmbH & Co. KG, Dresdner Straße 59, OT Wilschdorf, 01833 Dürrröhrsdorf-Dittersbach, E-Mail
+  info@cs-entsorgung.de, Internet `www.cs-entsorgung.de`, Tel. 035026 95 59 0, Fax 035026 95 59 30, Vertretungsberechtigte
+  Gesellschafter (Komplementäre): CS Compounds & Synthetics GmbH – Amtsgericht Dresden – HRB 22031, Geschäftsführer:
+  Johannes Heiko Lemke"**; der **11880-Eintrag** bestätigt live **„CS Container & Recycling GmbH & Co. KG, Containerdienst,
+  Dresdner Str. 59, 01833 Dürrröhrsdorf-Dittersbach (Wilschdorf), (035026) 9559-0"** und die dort ausgewiesene
+  Standortkoordinate **51.061784/14.002370** fällt **exakt** auf den gesetzten OSM-Knoten (Abweichung unter 0,1 m) - die
+  Anschrift ist damit geometrisch bestätigt. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` wurde
+  **entfernt**, weil es den am 26.10.2026 zurückgenommenen und falsch liegenden Produktionspunkt fernhalten sollte; der
+  hier gesetzte Punkt liegt **exakt** auf der betreiber- und verzeichnisbestätigten Anschrift, während `clear_fields`
+  nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen darf. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet die **betreiberbestätigte Anschrift** und den Zugang zum Standort, **nicht** eine geprüfte Waage oder
+  Annahmefläche; der Standort ist laut Betreiberseite **nur nach telefonischer Absprache** anlieferbar, und aus dem
+  Abfallkatalog (Schrott, Aluminium, Blei, Kupfer, Messing, Batterien) folgt **kein** Ankaufangebot - Ankauf, Verkauf und
+  Gebühren bleiben unbelegt; `status: pruefung`, `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status` und `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/3287269442.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=14.0000,51.0600,14.0200,51.0800 ;
+  https://cs-entsorgung.de/impressum ;
+  https://www.11880.com/branchenbuch/duerrroehrsdorf-dittersbach/060371058B26257849/cs-container-recycling-gmbh-co-kg.html
+  (Abruf 04.11.2026).]

@@ -43,3 +43,34 @@ in der Krefelder Innenstadt und wird zurückgenommen. `status` bleibt `pruefung`
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Klärfall — kein Schrottbetrieb Marius in Krefeld-Dießem auffindbar; namensähnlicher Treffer Josef Hendrichs Metallhandels GmbH (Neue Ritterstr. 27, 47805 Krefeld) ist andere Firma ohne Marius-Bezug; kein Frontmatter-Fill; Quelle(n): keine belegfähige Quelle]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **MARIUS** (Krefeld-Dießem) lässt sich der
+  Seedname **keinem** Schrotthandel zuordnen; eine belastbare Händleradresse existiert **nicht**, und im live
+  abgerufenen OSM-Raster von Krefeld-Dießem findet sich **kein** Objekt mit Bezug zu diesem Namen. **Was live geprüft
+  wurde (04.11.2026):** Das Kachelraster über Krefeld-Dießem/Krefeld-Mitte (6.5400/51.3000 bis 6.5900/51.3500, **25
+  Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) wurde vollständig ausgewertet: eine Suche über `name`,
+  `operator`, `brand`, `website`, `contact:website`, `description`, `note`, `short_name`, `official_name` und
+  `addr:housename` nach **„Marius“** liefert **keinen** Treffer mit Betriebsbezug (der einzige Namensfund betrifft ein
+  Versicherungsunternehmen); eine Suche nach `addr:street`-Objekten mit einer dem Seed zugeordneten Hausnummer ist
+  mangels Adresse gegenstandslos. Das Dossier dokumentiert darüber hinaus die **amtliche Namenssuche** im
+  online-handelsregister.de nach „Marius Krefeld“ (live, ohne Treffer) und das **amtliche Fachbetrieberegister** (Auszug
+  11.08.2026) mit **elf** anerkannten Betrieben für Krefeld (Blue Phoenix Deutschland GmbH, GSAK, Grafenberg-Metall
+  GmbH, IK Umwelt Krefeld Hafen GmbH, Jean Berends Altmetalle & Containerservice, Josef Hendrichs Metallhandels GmbH &
+  Co. KG, MAV Krefeld GmbH, MKVA, PRO SCHROTT 100 GmbH, Umfüllung) - **kein** Betrieb namens Marius und **keiner** im
+  Ortsteil Dießem. Quelle 1 (Betreiber/Register): die im Dossier zitierten amtlichen Negativbefunde
+  (online-handelsregister.de-Namenssuche und Fachbetrieberegister-Auszug vom 11.08.2026) - ein Negativbefund **ohne**
+  Beweiswert, weil die Efb-Erkennung **freiwillig** ist und ein Mobilschrott-Sammler ohne Efb-Anerkennung dort nie
+  sichtbar würde. Quelle 2 (OSM): das live abgerufene Kachelraster 6.5400/51.3000–6.5900/51.3500 **ohne** jeden
+  Objektbezug zu „Marius“. **Warum keine Koordinate:** Für den Seed existiert **keine** belegte Betriebsanschrift; ohne
+  Adresse ist **kein** adressgenauer Punkt zuordenbar, und jeder Punkt müsste geraten werden - die frühere Abgrenzung zu
+  „Josef Hendrichs Metallhandels GmbH“ (Neue Ritterstr. 27, 47805 Krefeld) wird **nicht** aufgehoben. **Was zur
+  Auflösung fehlt:** jede belastbare Händleradresse (z. B. eine Gewerbeauskunft oder ein lesbarer Betreiberauftritt) -
+  erst dann ist eine Geokodierung möglich; der Produktionspunkt 51.3347636/6.5710545 (Krefelder Innenstadt, laut
+  read-only-Abgleich vom 28.10.2026) bleibt zurückgenommen. `clear_fields: 'geo'` **bleibt** bestehen, `status:
+  pruefung` bleibt unverändert, `name` bleibt „MARIUS“ und der Seedtyp bleibt unverändert; es wird weder Fortbestand
+  noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.5400,51.3000,6.5900,51.3500 ;
+  https://schrottregister.pages.dev/ort-krefeld ; https://www.online-handelsregister.de/suche/Marius+Krefeld (Abruf
+  04.11.2026).]

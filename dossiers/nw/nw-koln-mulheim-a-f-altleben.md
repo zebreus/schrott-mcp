@@ -59,3 +59,37 @@ Die am 25.10. direkt gelesene 11880-Detailseite führt den Eintrag mit Datenstan
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — einziger Adress-Lead koelnerbranchen.de (Schreibvariante Alsleben, Frankfurter Str. 59, 51065 Köln), Das Örtliche Frankfurter-Str.-Liste ohne Altleben-Treffer, keine Betreiber-Website, kein Register, kein Zweitbeleg — kein Fill; Quelle(n): nur Lead — https://www.koelnerbranchen.de/schrott/koeln 01.10.2026]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **A.F. Altleben** (Köln-Mülheim) ist die
+  Verzeichnisanschrift **Frankfurter Str. 59** in OSM durch **andere Nutzungen** belegt, und die Identität des Seeds
+  (Altleben/Alsleben) bleibt offen. **Was live geprüft wurde (04.11.2026):** (a) Das Kachelraster über Köln-Mülheim
+  (6.9800/50.9300 bis 7.0300/50.9800, **25 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**, live abgerufen) erfasst die
+  **Frankfurter Straße** mit **310** Adressobjekten und **201** verschiedenen Hausnummern; zur **Hausnummer 59** gehören
+  dort **drei** Objekte: **node/603316670** (`addr:housenumber`=59, `addr:street`=Frankfurter Straße, `addr:city`=Köln,
+  `addr:postcode`=51065, `shop`=**vacant**), **node/603316672** (gleiche Anschrift, `name`=**Unlimited Hair & Care**,
+  `shop`=**hairdresser**) und **node/3627597558** (nur die Anschrift, ohne weitere Tags) - **keines** dieser Objekte
+  trägt einen Schrott-, Metall- oder Entrümpelungsbezug. (b) Eine Namenssuche nach **„Alsleben“** über die Felder name,
+  operator, description, website, contact:website, brand, note und addr:housename findet im Raster **genau einen**
+  Treffer: **node/1198461079** mit `name`=**Kölner Schlüsseldienst Alsleben** - ein **Schlüsseldienst**, also ein
+  **anderes** Gewerbe mit ähnlichem Namen und ohne Bezug zum Seed; nach **„Altleben“** gibt es **keinen** Treffer.
+  Quelle 1 (Betreiber/Verzeichnis): die 11880-Detailseite wurde am 04.11.2026 live gelesen und führt „**A.F.
+  Schrottabholung-Entrümpelung Altleben**“, **(0177) 6822530**, **Frankfurter Str. 59, 51065 Köln (Mülheim)** mit der
+  Portalrubrik Altmetallrecycling; die im Dossier zitierten Verzeichnisse Cylex/auskunft/Cybo nennen dieselbe Anschrift.
+  Das dort verlinkte Domain-Impressum **schrottabholung-ankauf.de** gehört nach dem im Dossier dokumentierten Live-Abruf
+  **Karlos Prosche, Elisabethstraße 20, 44866 Bochum** - also einem **anderen** Betreiber an **anderer** Anschrift, und
+  **nicht** zur Kölner Seed-Zeile. Quelle 2 (OSM): das live abgerufene Kachelraster 6.9800/50.9300–7.0300/50.9800 mit
+  node/603316670, node/603316672, node/3627597558 (Frankfurter Str. 59) und node/1198461079 („Kölner Schlüsseldienst
+  Alsleben“). **Warum keine Koordinate:** Die Adresse weist in OSM einen Friseursalon bzw. eine Leerstandsfläche aus -
+  ein Punkt dort würde einen Schrott-/Entrümpelungsbetrieb suggerieren, den keine Quelle trägt; der einzige
+  OSM-Namensbezug „Alsleben“ gehört einem **Schlüsseldienst**, und der Seed ist gerade gegen diese Namensvariante nicht
+  abgegrenzt. **Was fehlt:** ein lesbarer Betreiberauftritt oder Registerbeleg der Kölner Altleben-Zeile **an der
+  Frankfurter Straße 59** (oder eine bestätigte Nachfolge), der zugleich klärt, ob dort überhaupt Schrott angenommen
+  wird. `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch
+  Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/node/603316670.json ;
+  https://api.openstreetmap.org/api/0.6/node/603316672.json ; https://api.openstreetmap.org/api/0.6/node/3627597558.json
+  ; https://api.openstreetmap.org/api/0.6/node/1198461079.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9800,50.9300,7.0300,50.9800 ;
+  https://www.11880.com/branchenbuch/koeln/060440092B113983984/a-f-schrottabholung-entruempelung-altleben.html ;
+  https://schrottabholung-ankauf.de/impressum.html (Abruf 04.11.2026).]

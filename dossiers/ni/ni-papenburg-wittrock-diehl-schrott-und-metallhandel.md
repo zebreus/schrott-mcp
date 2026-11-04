@@ -47,3 +47,39 @@ Domainkandidat wittrock-diehl.de war bei mehreren Direktversuchen nicht lesbar (
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metalle
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **25** der Deverhafen ist in
+  OSM **nicht** erfasst; das abgetastete Fenster enthält die gesuchte Straße **nachweislich** selbst (der Fensterfehler
+  der letzten Welle liegt hier **nicht** vor). Quelle 1 (OSM, live abgerufen am 04.11.2026): das Kachelraster über
+  Papenburg-Untenende umfasst **7.3700/53.0800 bis 7.3900/53.1000**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**;
+  das Fenster enthält die gesuchte Straße **nachweislich und vollständig** mit den Straßenobjekten **way/47138467**
+  (service), **way/48820505** (unclassified), **way/48820507** (service), **way/286107184** (unclassified) und
+  **way/471793760** (unclassified) - der gesamte Verlauf der Deverhafen (von 53.0853396/7.3735328 bis
+  53.0904869/7.3823110) liegt im Fenster - sowie **14** Adressobjekten auf „Deverhafen" mit **14** verschiedenen
+  Hausnummern (1, 2, 3, 4, 5, 7, 9, 11, 13, 15, 17, 19, 21, **23**) - die **Hausnummer 25 fehlt**, die belegten Nummern
+  enden bei **23**. Ein OSM-Objekt mit Bezug zu „Wittrock" oder „Diehl" findet sich im Fenster **nicht**. Quelle 2
+  (Verzeichnis/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **11880-Suche** liefert
+  **HTTP 200** und führt live **„Wittrock & Diehl GmbH, Schrott u. Metallhandel, Regionaler Lieferservice,
+  Altmaterialhandel & Erz- und Metall Großhandel, Deverhafen 25, 26871 Papenburg (Papenburg-Untenende),
+  (04961) 916177"** (mit der Portalmarkierung „Geschlossen"); der im Dossier zitierte **NorthData-Datensatz** führt
+  **Wittrock & Diehl GmbH Schrott- und Metallhandel, AG Osnabrück HRB 121340, Deverhafen 25, 26871 Papenburg** mit
+  Bilanzpublikation vom 12.02.2026 für 2024; die Betreiberseite **wittrock-diehl.de** liefert beim Direktabruf
+  weiterhin **HTTP 500** und ist damit keine lesbare Quelle. **Warum keine Koordinate:** (a) in OSM existiert **kein**
+  Objekt mit `addr:housenumber`=**25** auf der Deverhafen; die Nachbarnummer **23** läge nicht an der belegten Nummer,
+  und ein Punkt auf die Straßenmitte (way/47138467 u. a.) wäre eine Straßengasse und keine Betriebsadresse; (b) die
+  **Beleglage** ist dünn: die Domain ist nicht lesbar, der Creditreform-Eintrag war gesperrt (HTTP 403), es gibt
+  keinen zweiten unabhängigen **Betreiberauftritt** und **keine** belegte öffentliche Annahme, sondern nur ein
+  Verzeichnis- und ein Registereintrag; (c) das **amtliche Fachbetrieberegister** führt für Papenburg keinen Betrieb
+  dieses Namens - die Efb-Anerkennung ist freiwillig, das ist kein Nichtexistenzbeweis, aber eine amtliche Stütze für
+  eine Annahme fehlt. **Was zur Auflösung fehlt:** ein OSM-Objekt mit `addr:housenumber`=**25** und
+  `addr:street`=Deverhafen in 26871 Papenburg-Untenende (oder ein benannter Betriebspunkt „Wittrock & Diehl") **und**
+  eine lesbare zweite Betreiberquelle. `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen Ersatzpunkt),
+  `city`, `street` (leer), `postcode` (leer), `phone`, `email`, `opening_hours`, `website` (leer), `website_status`
+  (leer) und `description` (leer) bleiben unverändert, `status: pruefung` bleibt unverändert; es wird weder Fortbestand
+  noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3700,53.0800,7.3900,53.1000 ;
+  https://api.openstreetmap.org/api/0.6/way/48820505/full.json ;
+  https://www.11880.com/suche/wittrock/papenburg ;
+  https://www.northdata.de/Wittrock+%26+Diehl+GmbH,+Papenburg (Abruf 04.11.2026).]

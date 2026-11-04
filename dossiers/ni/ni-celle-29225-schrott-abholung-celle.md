@@ -53,3 +53,42 @@ Die Recherche dieser Welle prüft beide Portalquellen erneut, ordnet die Denicke
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — SEO-Spam-Seite ohne Betreiber-Impressum/Registerbeleg; kein Zweitbeleg; Statusfeld unveraendert; Quelle(n): duenne Web-Leads]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Das Dossier nennt **keine Hausnummer**; eine
+  adressgenaue Zuordnung ist damit nicht möglich. Quelle 1 (OSM, live abgerufen am 04.11.2026): das Kachelraster über
+  Celle-Neustadt/Heese umfasst **10.0200/52.5900 bis 10.0700/52.6200**, **15 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** - die Denickestraße ist mit **fünf**
+  Straßenobjekten im Raster (way/23150819 residential, way/23150820 residential, way/23150821 residential,
+  way/23150823 living_street, way/157019076 residential; Verlauf von 52.6104139/10.0563493 bis
+  52.6164002/10.0598034) vollständig abgebildet, und auf ihr liegen **47** Adressobjekte mit **46** verschiedenen
+  Hausnummern (11, 13, 15, 17, 20, 21, 22, 78, 79, 80, 80a, 81 bis 99, 100, 101, 101a, 102, 103, 106, 107, 108, 109, 110,
+  110a, 110b, 111, 111a, 112, 113) - **die Dossier-Hausnummer ist also nicht nur in OSM nicht auffindbar, sie ist im
+  Lead selbst nicht vorhanden**. Eine Namenssuche nach **„Schrott-Abholung"**, **„Schrott"** und **„8769770"** über die
+  Felder name, operator, description, website, contact:website, brand, note und addr:housename findet im Raster
+  **keinen** Treffer; es gibt also **keine** OSM-Betriebszuordnung, nur die Straßengeometrie. **Korrektur der
+  Vorwellen-Aussage:** die Notiz vom 28.10.2026 behauptet, die Denickestraße habe „in OpenStreetMap keine
+  Hausnummernpunkte"; die Live-Nachmessung am 04.11.2026 **widerlegt** das - die Hausnummern sind erfasst, sie
+  standen nur nicht am Straßenobjekt selbst (way/23150819/23150820/23150823 tragen keine `addr:*`-Tags), was die
+  frühere Prüfung als „keine Hausnummernpunkte" fehlgedeutet hat. Der damalige Fensterfehler liegt hier also
+  **nicht** vor; die Blockade liegt an der fehlenden Hausnummer, nicht am Fenster. Quelle 2 (Portal, im Dossier
+  bereits zitiert, live abgerufen am 04.11.2026): **https://lokaleschrottplatz.de/schrott-abholung-celle/** liefert heute
+  **HTTP 200** und nennt als Adresse des Schrottplatzes **„Denickestraße, 29225 Celle"** (Kontakt: +49 162 8769770),
+  dazu die Materialliste und die Mindestgewichte (Eisenmetalle ab 100 kg, NE-Metalle ab 1 kg), sowie die
+  Portalmarkierung **„Geschlossen, öffnet morgen um 05:00"** - die **Hausnummer fehlt auch hier**, und die
+  Portalmarkierung ist kein belastbarer Schließungsnachweis. **Warum keine Koordinate:** (a) der Lead trägt keine
+  Hausnummer, (b) die Straße weist in OSM **46** verschiedene Hausnummern auf, jeder gesetzte Punkt wäre eine
+  willkürliche Auswahl unter Dutzenden Adressen und damit eine **erfundene** Koordinate, (c) es existiert weder ein
+  OSM-Betriebsobjekt noch ein zweiter Betreiber-/Registerbeleg - das **amtliche Fachbetrieberegister** (Auszug
+  11.08.2026, https://schrottregister.pages.dev) führt für Celle sechs Betriebe (Bleckenweg 106, Bleckenweg 94,
+  Hellmann Process Management, Rohstoffhandel Celle GmbH an der Wernerusstraße 33a, Starbatty Kraftfahrzeuge, Veolia
+  Umweltservice Nord) und **keinen** Betrieb „Schrott-Abholung-celle"; die EFB-Anerkennung ist freiwillig, das ist
+  kein Nichtexistenzbeweis. **Was zur Auflösung fehlt:** die **Hausnummer** auf der Denickestraße (29225 Celle) aus
+  einem Betreiberauftritt, Impressum oder Registerbeleg, alternativ ein benannter OSM-Betriebspunkt zu „Schrott-
+  Abholung-celle". `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen Ersatzpunkt), `street`, `postcode`,
+  `phone`, `status: pruefung`, `website`, `website_status` und `description` bleiben unverändert; es wird weder
+  Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0200,52.5900,10.0700,52.6200 ;
+  https://api.openstreetmap.org/api/0.6/way/23150819/full.json ;
+  https://lokaleschrottplatz.de/schrott-abholung-celle/ ; https://schrottregister.pages.dev (Abruf 04.11.2026).]

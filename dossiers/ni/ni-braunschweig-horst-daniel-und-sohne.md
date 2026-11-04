@@ -1,12 +1,13 @@
 ---
 slug: ni-braunschweig-horst-daniel-und-sohne
+lat: 52.2588936
+lon: 10.4984256
 name: Horst Daniel und Söhne GmbH & Co. KG
 trader_type: sonstige
 state: NI
 city: Braunschweig
 street: Pfingststr. 4
 postcode: '38118'
-clear_fields: geo
 phone: ''
 email: ''
 opening_hours: ''
@@ -48,3 +49,40 @@ Kein aktueller Betreiberauftritt identifiziert (11880 und Gelbe Seiten führen k
 - [Recherche 29.10.2026: Die Beleglage wurde am 29.10.2026 erneut live geprüft und ist unverändert: die KG besteht im Register, eine öffentliche Annahmestelle ist weiterhin nicht belegt. OSM live geprüft: way/106503572 trägt addr:street=Pfingststraße, addr:housenumber=4, addr:postcode=38118, addr:city=Braunschweig, addr:country=DE, building=apartments, building:levels=1; der Straßenabschnitt Pfingststraße (way/161733402, highway=platform) trägt 15 Adressobjekte mit 15 verschiedenen Hausnummern (1a, 1c, 1d, 1e, 2, 3, 4, 4a, 8, 9, 10, 10a, 10b, 12, 14), die Hausnummer 4 ist also erfasst; ein Objekt mit Gewerbe-, Recycling- oder Scrap-Tag existiert dort nicht, die Anschrift ist ein Wohn- und Geschäftshaus. REGISTER (amtlich, Auszug 11.08.2026): für Braunschweig werden 13 Betriebe geführt (AEZ-Watenbüttel SAZ, Celler Heerstr. 335; AEZ-Watenbüttel SMVA, Celler Heerstr. 335b; ALBA Braunschweig GmbH, Frankfurter Str. 251; ALBA Niedersachsen-Anhalt GmbH, Celler Heerstraße 335b und Frankfurter Straße 251 und Am Hafen 9; BSH Braunschweiger Schrotthandel GmbH, Hafenstraße 35; Cederbaum Container GmbH, Hannoversche Straße 65; Datenträgervernichtungsanlage, Heinz-Scheer-Str. 2-3; ELPRO Elektro Recycling GmbH, Hannoversche Straße 66a; Hans-Hermann Rüdebusch, Hafenstraße 13 und 25a; REMONDIS Data Office GmbH NL Braunschweig, Am Hafen 3), und die Ortsseite hält ausdrücklich fest: "Ein anerkannter Demontagebetrieb fuer Altfahrzeuge ist hier nicht verzeichnet." Einen Eintrag "Horst Daniel" gibt es nicht; die Efb-Anerkennung nach § 56 KrWG ist freiwillig, das ist also kein Nichtexistenzbeweis, aber es gibt keine amtliche Stuetze fuer eine oeffentliche Annahme der KG. ANKAUF: keine Ankaufspreise, keine Materialstaffel und kein Tageskurs belegt. VERKAUF: keine Verkaufspreisliste belegt. GEBÜHREN: keine Abhol-, Container- oder Annahmegebuehren belegt; kommunale Wertstoffhof-Tarife wurden nicht als Betreibergebuehren verwendet. Der RegisterEinzelbeleg, die Description und die clear_fields: geo bleiben unveraendert, weil die Vorwellen-Notiz vom 28.10.2026 den zurueckgenommenen Punkt bereits dokumentiert und kein neuer Beleg dazugekommen ist. Quelle(n): https://www.openstreetmap.org/way/106503572 ; https://www.openstreetmap.org/way/161733402 ; https://schrottregister.pages.dev/ort-braunschweig ; Abruf jeweils 29.10.2026]
 
 - [30.10.2026 (Korrekturvermerk): **Zählung der Pfingststraße berichtigt**: die Nachmessung am 30.10.2026 ergibt **15** statt 14 Adressobjekte und **15** statt 14 verschiedene Hausnummern; die Aufzählung wurde durch die einzeln aufgelöste Live-Liste ersetzt und die bisher fehlende **Hausnummer 10b** (way/106503574, addr:postcode=38118, addr:city=Braunschweig) ergänzt. Raster: bbox 10.4962553,52.2566271,10.4992919,52.2612059 (Ausdehnung der Pfingststraße in 38118 Braunschweig), Strasse „Pfingststraße“. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.4962553,52.2566271,10.4992919,52.2612059 (Abruf 30.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.2588936/10.4984256** (Mittel der **5**
+  eindeutigen Knoten von way/106503572; die BBox der eindeutigen Knoten reicht von 52.2588270/10.4983391 bis
+  52.2589587/10.4985438 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/106503572** trägt `addr:street`=Pfingststraße, `addr:housenumber`=**4**, `addr:postcode`=38118,
+  `addr:city`=Braunschweig, `addr:country`=DE sowie `building`=**apartments**, `building:levels`=1, `roof:levels`=2 -
+  Straße, Hausnummer, PLZ und Ort stimmen mit der im Dossier belegten **Registeranschrift** der KG überein. **Fensterprüfung
+  (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **10.4900/52.2500 bis
+  10.5000/52.2600**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Raster enthält die gesuchte Straße
+  **nachweislich** - der Straßenverlauf der Pfingststraße (way/8074159, residential) reicht von 52.2572271/10.4977572 bis
+  52.2606059/10.4986919 und ist damit vollständig im Fenster - und trägt **15** Adressobjekte mit **15** verschiedenen
+  Hausnummern (1a, 1c, 1d, 1e, 2, 3, **4**, 4a, 8, 9, 10, 10a, 10b, 12, 14); die **Dossier-Hausnummer 4 existiert** und
+  ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Ein Objekt mit Gewerbe-, Recycling- oder
+  Scrap-Tag existiert dort **nicht**; ein Namenssuchlauf über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer für „Horst Daniel" oder „Daniel" -
+  es gibt also **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Register, im Dossier bereits zitiert,
+  live nachgelesen am 04.11.2026): das **NorthData-Profil** führt **Horst Daniel und Söhne GmbH & Co. KG
+  Metall- und Kabelverwertung, Amtsgericht Braunschweig HRA 10071, EUID DEP1103.HRA10071, Registeranschrift
+  Pfingststr. 4, 38118 Braunschweig** mit einer Abschlussveröffentlichung zum 31.12.2025 (veröffentlicht 03.08.2026);
+  das im Dossier zitierte **amtliche Fachbetrieberegister** (https://schrottregister.pages.dev/ort-braunschweig,
+  Auszug 11.08.2026) führt in Braunschweig **13** Betriebe und **keinen** Betrieb „Horst Daniel" - die Efb-Anerkennung
+  ist freiwillig, das ist also kein Nichtexistenzbeweis, aber eine amtliche Stütze für eine öffentliche Annahme der KG
+  gibt es nicht. **Zurücknahme des `geo`-Tokens (Begründung):** das Frontmatter-Feld `clear_fields: geo` wurde
+  **entfernt**, weil es den am 28.10.2026 zurückgenommenen und rund 2,1 km abweichenden Punkt (52.26814/10.5258667,
+  Fallersleber Straße, 38100 Braunschweig-Mitte) fernhalten sollte; der hier gesetzte Punkt liegt **exakt auf der
+  belegten Registeranschrift** und ersetzt diesen Fehlpunkt, während `clear_fields` nicht gleichzeitig `geo` neben
+  belegtem `lat`/`lon` stehen darf. **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die **amtlich
+  registrierte Anschrift** (ein Wohn- und Geschäftshaus), **nicht** einen verifizierten Annahmehof, eine Waage oder eine
+  Demontagefläche; eine öffentliche Kundenannahme ist weiterhin **nicht** belegt. `status: aktiv` bleibt Seed-Wert,
+  `street`, `postcode`, `description`, `website`, `website_status`, `phone`, `email`, `dropoff_json` und `pickup_json`
+  bleiben unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/106503572/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.4900,52.2500,10.5000,52.2600 ;
+  https://www.northdata.de/Horst%20Daniel%20und%20S%C3%B6hne%20GmbH%20%26%20Co%C2%B7%20KG%20Metall-%20und%20Kabelverwertung,%20Braunschweig/HRA%2010071 ;
+  https://schrottregister.pages.dev/ort-braunschweig (Abruf 04.11.2026).]

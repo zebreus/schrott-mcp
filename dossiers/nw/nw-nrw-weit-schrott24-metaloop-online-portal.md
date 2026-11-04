@@ -82,3 +82,35 @@ Schrott24/Metaloop präsentiert sich als überregionaler Online-Verkaufs- und Ve
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Betreiber-Ablaufseite erneut live geprüft. Die pauschale Übersicht nennt Auszahlung innerhalb von fünf Arbeitstagen nach Qualitätsprüfung; 48 Stunden stehen zusätzlich in den Detailabschnitten zu Greifer-LKW-Abholung und Paketversand. Die Website differenziert damit teilweise nach Transportart, löst die abweichenden Aussagen aber nicht ausdrücklich auf. Der bisherige konservative Hinweis in dropoff_json bleibt deshalb bestehen und wird nicht zu einer allgemeinen 48-Stunden-Zusage geändert. Kein Preis-/Anlieferadressen- oder Partneridentitäts-Fill; Website erreichbar, aber die bereits dokumentierte Insolvenzsituation und aktuelle Abwicklung bleiben ungeklärt; Quelle(n): https://www.schrott24.de/ablauf/ ; https://www.schrott24.de/standorte/schrottplatz-nordrhein-westfalen/ (Abruf 04.10.2026; Betreiberseiten).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Schrott24 (Metaloop, Online-Portal)**
+  existiert **keine** belegte NRW-Betriebsanschrift, die einen Punkt tragen könnte; das Dossier führt
+  `city`=**NRW-weit** sowie leere Felder `street` und `postcode`. **Was live geprüft wurde (04.11.2026):** (a) Das
+  **Impressum** des Portals https://www.schrott24.de/faq/impressum/ (live abgerufen 04.11.2026) nennt **Metaloop Europe
+  GmbH**, Rechtsform Gesellschaft mit beschränkter Haftung, **Sitz der Gesellschaft: Puchstraße 17, 8020 Graz,
+  Österreich**, **Firmenbuchnummer FN 638630 m**, Firmenbuchgericht Landesgericht für Zivilrechtssachen Graz, UID
+  ATU81391405 - es ist damit **kein** NRW-Sitz und **keine** deutsche Betriebsanschrift belegt; die Karte/Startseite
+  weist den Auftritt als „Schrott24 **POWERED BY METALOOP**“ aus. (b) Das Dossier nennt die Standortseiten (Düsseldorf,
+  Bonn, Gütersloh, Hagen, Hamm, Lünen, Mönchengladbach) als **Partnerorte ohne Straßenadresse**; die konkrete
+  Annahmeadresse wird laut Dossier erst nach dem Online-Abschluss übermittelt, aus der Portalnavigation lässt sich
+  **keine** Straße und **keine** Hausnummer entnehmen. (c) Das Kachelraster über den vom bisherigen Produktionspunkt
+  **51.58945/7.20350** adressierten Bereich in **Recklinghausen** (7.1900/51.5700 bis 7.2200/51.6000, **9 Kacheln von je
+  0,01 Grad**, live abgerufen 04.11.2026) wurde live geladen und vollständig ausgewertet: eine Suche über `name`,
+  `operator`, `brand`, `website`, `contact:website`, `description`, `note`, `short_name`, `official_name` und
+  `addr:housename` nach **„Schrott24“** und **„Metaloop“** liefert dort **keinen** Treffer; der einzige Treffer für
+  **„Metall“** ist **way/1240485211** mit `name`=**Ralf Horstmann Schmiede-Metallbau**
+  (`website`=https://schmiede-horstmann.de) an der Tiroler Straße - ein **Schmiede-/Metallbaubetrieb**, der weder ein
+  Schrotthandel noch das Portal ist; der zurückgezogene Punkt saß in derselben Straße und bezeichnet **keine** Annahme-
+  oder Geschäftsstelle. Quelle 1 (Betreiber): das vorgenannte Impressum des Portals (Betreiber **Metaloop Europe GmbH**,
+  Sitz Graz/Österreich). Quelle 2 (OSM): das live abgerufene Kachelraster 7.1900/51.5700 bis 7.2200/51.6000 ohne jeden
+  Objektbezug zu Schrott24/Metaloop. **Warum keine Koordinate:** Eine Koordinate für ein **überregionales
+  Vermittlungsportal** ohne eigenen NRW-Betriebssitz wäre eine erfundene Ortsangabe; die im Dossier dokumentierte
+  Insolvenz-/Abwicklungs- und AGB-Lage (Schrott24 GmbH versus Metaloop Europe GmbH) ist zusätzlich offen. **Was fehlt:**
+  eine konkrete, einzelne Annahme- oder Betriebsanschrift in NRW - erst dann ist ein Punkt setzbar. `clear_fields:
+  'geo'` **bleibt** bestehen, `status: pruefung`, `website_status: aktiv`, `website`, `description`, `dropoff_json` und
+  `pickup_json` bleiben unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://www.schrott24.de/faq/impressum/ ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1900,51.5700,7.2200,51.6000 ;
+  https://www.northdata.de/?query=Metaloop+Europe+GmbH (Abruf 04.11.2026).]

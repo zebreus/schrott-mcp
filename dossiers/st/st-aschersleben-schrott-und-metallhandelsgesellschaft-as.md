@@ -51,3 +51,37 @@ Die Betreiberwebsite bestätigt die Schrott- und Metallhandelsgesellschaft Asche
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Zwei Verzeichnisse exakt konsistent — Das Örtliche: „Schrott und Metallhandelsgesellschaft Aschersleben mbH, Schrott, Walter-Kersten-Str. 15, 06449 Aschersleben, Tel. 03473 80 11 32“; schrottplatz-info: gleiche Adresse + Telefon (mit Detailseite, „zur Homepage“-Link ohne Ziel); als begründeter Ausnahmefall (zwei unabhängige Verlags-/Portalquellen, exakt konsistent, mbH-Suffix belegt) Adresse/PLZ/Telefon gefüllt, Restunsicherheit bleibt (kein Betreiber-Beleg, kein Owner-Gate); Öffnungszeiten/Leistungen auf schrottplatz-info „noch nicht erfasst“ (kein Fill); Koordinaten-Neugeocodierung läuft automatisch; Quelle(n): dasoertliche.de-Suche Aschersleben + schrottplatz-info.de/schrottplatz/Aschersleben (+Detailseite)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **4** der Majoranweg ist in
+  OSM **nicht** erfasst; das abgetastete Fenster enthält die gesuchte Straße **nachweislich** selbst (der
+  Fensterfehler der letzten Welle liegt hier **nicht** vor). **Quelle 1 (OSM, live abgerufen am 04.11.2026):**
+  Kachelraster über **Aschersleben-Nord** (**11.4300/51.7600 bis 11.4500/51.7800**, **4 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler**, live über `https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4300,51.7600,11.4500,51.7800`):
+  der **Majoranweg** ist im Raster als **way/115828445** (`highway`=unclassified, `name`=Majoranweg) vollständig
+  enthalten (Straßenverlauf 51.7695660/11.4347297 bis 51.7727396/11.4451492) und trägt die **Hausnummern 5, 5-7, 6, 7,
+  11, 12, 13, 15 und 21** (node/6328531715, way/249450885 mit `name`=TAS Transport - Logistik GmbH, node/6328531714,
+  node/6328531713, node/6328531712, node/6328531711, node/6328531710, node/6328531709, node/6328531708) - die
+  **Hausnummer 4 fehlt**, die niedrigste belegte Nummer ist **5**. Das erweiterte Raster **11.4200/51.7000 bis
+  11.5100/51.8000** (**90 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**) bestätigt denselben Befund: die Majoranweg
+  führt dort ausschließlich die Nummern 5, 5-7, 6, 7, 11, 12, 13, 15, 21, und eine Namenssuche nach **„Metall“**,
+  **„Schrott“**, **„Handelsgesellschaft“**, **„Pögel“** und **„Aschersleben“** in den Feldern name, operator,
+  description, website, contact:website, brand, note und addr:housename findet **keinen** Treffer für diesen Betrieb
+  (der einzige benannte Betrieb auf der Straße ist **TAS Transport - Logistik GmbH**, way/249450885). Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das Impressum der Betreiberseite
+  https://schrotthandel-asl.de/ueber-uns/Impressum/ nennt unverändert **„Schrott und Metallhandelsgesellschaft
+  Aschersleben mbH, Majoranweg 4, 06449 Aschersleben, Telefon: 03473/801132, USt-IdNr. DE184485537, Handelsregister
+  Stendal: HRB 110001, Geschäftsführung: Anne Pögel“** - die **Adresse ist durch Betreiber und Register gedeckt**, aber
+  in OSM existiert **kein adressgenaues Objekt** dazu; die im Dossier dokumentierte ältere Verzeichnisadresse
+  **Walter-Kersten-Str. 15** ist im selben 90-Kachel-Raster belegt (Hausnummern 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+  15, 16-18, 18, 19, 20, 22, 25) und wäre **kein** Ersatz, weil sie laut Register seit 14.05.2024 nicht mehr die
+  Geschäftsanschrift ist. **Warum keine Koordinate:** in OSM existiert nur die Straßenlinie (way/115828445); ein Punkt
+  darauf wäre eine geratene Hofposition und kein belastbarer Eingang; der alte Produktionspunkt **51.7574/11.4608**
+  (Herrenbreite 13b, Wohnhaus, rund 2 km entfernt) bleibt mit `clear_fields: geo` zurückgenommen. **Was zur Auflösung
+  fehlt:** ein OSM-Objekt mit `addr:housenumber`=**4** und `addr:street`=Majoranweg (oder ein benannter Betriebspunkt der
+  Gesellschaft an dieser Adresse) - sowie die live bestätigte Rücknahme der alten Verzeichnisadresse Walter-Kersten-Str.
+  15 in den Aggregatoren; `street`, `postcode`, `phone`, `email`, `website`, `website_status`, `description` und
+  `status: aktiv` bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4300,51.7600,11.4500,51.7800 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4200,51.7000,11.5100,51.8000 ;
+  https://schrotthandel-asl.de/ueber-uns/Impressum/ (Abruf 04.11.2026).]

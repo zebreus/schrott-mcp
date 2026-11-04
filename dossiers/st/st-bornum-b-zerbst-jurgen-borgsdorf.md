@@ -46,3 +46,39 @@ Für den Seed „Jürgen Borgsdorf“ in Bornum ist nun ein plausibler, aber nic
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: 11880-Detail verifiziert (Jürgen Borgsdorf, Lange Str. 18, 39264 Bornum bei Zerbst, Tel (039248) 424, Sparten Schrott/Altmaterial/Container) — EIN Aggregator → KEIN Fill (Telefon deckt sich nur mit Seed-Stand aus derselben Quelle); dasoertliche-Eintrag nur noch als 410-Leiche nachweisbar; keine Betreiber-Website gefunden (11880-Filter 'Webseite' ohne URL); website_status auf unbekannt gesetzt. Quelle(n): https://www.11880.com/suche/schrotthandel/bornum-zerbst + https://www.11880.com/suche/juergen-borgsdorf-schrotthandel/bornum-bei-zerbst (eine Quelle)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **18** der Lange Straße ist in
+  OSM **nicht** erfasst; das abgetastete Fenster enthält die gesuchte Straße **nachweislich** selbst (der Fensterfehler
+  der letzten Welle liegt hier **nicht** vor). **Quelle 1 (OSM, live abgerufen am 04.11.2026):** Kachelraster über
+  **Bornum bei Zerbst** (**12.1800/51.9700 bis 12.2200/52.0000**, **12 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**,
+  live über `https://api.openstreetmap.org/api/0.6/map.json?bbox=12.1800,51.9700,12.2200,52.0000`): die **Lange
+  Straße** ist im Raster mit **sieben Straßenobjekten** enthalten (way/59293802, way/59293809, way/59387665,
+  way/824230978, way/1188694067, way/1415204218, way/1415204219; Straßenverlauf 51.9774171/12.1986331 bis
+  51.9814701/12.2069016) und trägt **drei** Adressobjekte: **way/129087784** (`addr:housenumber`=**14**,
+  `addr:street`=Lange Straße, `addr:city`=Bornum, `addr:postcode`=39264, `building`=yes),
+  **way/129087827** (`addr:housenumber`=**15**, `amenity`=place_of_worship, `name`=Dorfkirche Bornum) und
+  **node/7985773421** (`addr:housenumber`=**6a**, `amenity`=fire_station, `name`=Freiwillige Feuerwehr Bornum) - die
+  **Hausnummer 18 fehlt**, die belegten Nummern springen von **15** auf **21/…**. Ein vergrößertes
+  Orientierungsraster über **12.1800/51.9500 bis 12.2800/52.0500** bestätigt denselben Befund: im gesamten Ort
+  Bornum existiert **kein** Objekt mit `addr:housenumber`=18 auf der Lange Straße; eine Namenssuche nach
+  **„Borgsdorf“**, **„Jürgen“** und **„Schrott“** in den Feldern name, operator, description, website,
+  contact:website, brand, note und addr:housename findet **keinen** Treffer. Quelle 2 (Betreiber/Verzeichnis, im
+  Dossier bereits zitiert, live nachgelesen am 04.11.2026): **11880** führt **„Jürgen Borgsdorf“** mit den Sparten
+  Schrott/Altmaterial/Container an **„Lange Str. 18, 39264 Bornum bei Zerbst“**, Telefon **(039248) 424**; das im
+  Dossier dokumentierte **Creditreform-Profil „Jürgen Borgsdorf“** und das **11880-Branchenbuch** bleiben
+  Verzeichnis-Leads, ein **Betreiberauftritt** existiert für die Bornumer Adresse nicht. **Warum keine Koordinate:**
+  (a) in OSM existiert **kein** adressgenaues Objekt zur Hausnummer 18 - die beiden Nachbarobjekte 14 und 15 lägen
+  beim Reihenhaus- bzw. Kirchenbereich, nicht bei der gesuchten Nummer; (b) die im Dossier selbst dokumentierte
+  **Identitätsfrage** bleibt offen: der Seed-Eintrag Bornum ist **nicht** sicher mit der **Borgsdorf-Recycling GmbH**
+  (Altbuchsland 18d, **39261 Zerbst**) gleichzusetzen, und der Zerbst-Standort ist ein **anderer** Ort - ein Punkt
+  dürfte ihn nicht stillschweigend übernehmen. Der zurückgenommene Produktionspunkt **51.9795/12.2040** (Lange Straße
+  14) bleibt mit `clear_fields: 'geo'` zurückgenommen. **Was zur Auflösung fehlt:** ein OSM-Objekt mit
+  `addr:housenumber`=**18** und `addr:street`=Lange Straße in 39264 Bornum (oder ein benannter Betriebspunkt
+  „Jürgen Borgsdorf“) **und** eine Bestätigung, dass der Bornumer Seed-Eintrag der Borgsdorf-Recycling GmbH
+  nachfolgt bzw. ihr zuzuordnen ist; `street`, `postcode`, `phone`, `website`, `website_status`, `description` und
+  `status: pruefung` bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.1800,51.9700,12.2200,52.0000 ;
+  https://api.openstreetmap.org/api/0.6/way/129087784/full.json ; https://api.openstreetmap.org/api/0.6/way/129087827/full.json ;
+  https://www.11880.com/suche/juergen-borgsdorf-schrotthandel/bornum-bei-zerbst ;
+  https://www.borgsdorf-recycling.de/impressum (Abruf 04.11.2026).]

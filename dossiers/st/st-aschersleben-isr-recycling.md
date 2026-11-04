@@ -44,3 +44,37 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/NE-Metalle, Container, Demontage
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **6** der Wilslebener Straße
+  existiert in OSM **nicht**, im Unterschied zur Betriebsadresse ist hier aber auch der **Straßenname** selbst live
+  verifiziert - der Fehler der letzten Welle (abgetastetes Fenster mehrere Kilometer vom Objekt entfernt) liegt bei
+  diesem Dossier **nicht** vor. **Quelle 1 (OSM, live abgerufen am 04.11.2026):** (a) Kachelraster über
+  **Aschersleben-Süd** (**11.4200/51.7000 bis 11.5100/51.8000**, **90 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**,
+  live über `https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4200,51.7000,11.5100,51.8000`): das Raster enthält
+  **5.400 Adressobjekte** auf **288** Straßen und die gesuchte **Wilslebener Straße selbst** mit **16 Adressobjekten /
+  16 verschiedenen Hausnummern** (1, 2, 2b, 10, 12, 13, 14, 15, 16, 18, 19, 20, 22, 23, 25, 27) - die **Hausnummer 6
+  fehlt**; die belegten Nummern springen von **2b** auf **10**. (b) **Ergänzungsraster für den nördlichen
+  Straßenabschnitt** (**11.4300/51.7800 bis 11.4600/51.8000**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**):
+  dort liegt der Außenbereich der Wilslebener Straße (**way/358621748**, `highway`=unclassified, `name`=Wilslebener
+  Straße) **ohne jede Hausnummer**; die getrennt geführte **Wilslebener Chaussee** trägt dort die Nummern 12
+  (way/233713147, Rulmeca Germany GmbH) und 24 (way/673195058, Betreuungszentrum Aschersleben) und ist **nicht** die
+  gesuchte Straße. Damit ist der **gesamte Straßenverlauf** der Wilslebener Straße zwischen Aschersleben und Wilsleben
+  abgedeckt. Eine Namenssuche nach **„ISR“**, **„Recycling“**, **„Schrott“** und **„Metall“** über die Felder name,
+  operator, description, website, contact:website, brand, note und addr:housename findet im 90-Kachel-Raster **keinen**
+  Treffer - es gibt also **keine** OSM-Betriebszuordnung für den Standort. Quelle 2 (Betreiber, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): die Betreiber-Standortseite
+  https://www.isr-recycling.de/index.php/standorte-isr führt unverändert **„Schrottplatz Aschersleben, ISR Recycling
+  GmbH & Co. KG, Wilslebener Straße 6, 06449 Aschersleben, 0 34 73 - 28 80“** mit **Mo–Fr 7:00–16:00 Uhr** und
+  ausdrücklicher Schrott-/Metallannahme - die **Adresse ist also durch den Betreiber gedeckt**, aber in OSM existiert
+  **kein adressgenaues Objekt** dazu. **Warum keine Koordinate:** es gibt in OSM nur die Straßenlinie
+  (way/364741265/364741266/1236446446/1251521752/1258711234), und ein Punkt auf der Straßenlinie wäre **kein**
+  belastbarer Eingang, sondern eine geratene Hofposition; der alte Produktionspunkt **51.7574/11.4608** (Herrenbreite
+  13b, Wohnhaus) bleibt mit `clear_fields: geo` zurückgenommen. **Was zur Auflösung fehlt:** ein OSM-Objekt mit
+  `addr:housenumber`=**6** und `addr:street`=Wilslebener Straße (oder ein benannter Betriebspunkt „ISR Recycling“)
+  sowie - unabhängig davon - eine zweite belastbare Quelle für die **öffentliche** Kundenannahme an genau dieser
+  Hausnummer; `street`, `postcode`, `phone`, `website`, `website_status: aktiv`, `description` und `status: aktiv`
+  bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4200,51.7000,11.5100,51.8000 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4300,51.7800,11.4600,51.8000 ;
+  https://www.isr-recycling.de/index.php/standorte-isr (Abruf 04.11.2026).]
