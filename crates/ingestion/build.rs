@@ -171,6 +171,12 @@ fn timeline_notes(body: &str) -> String {
             continue;
         }
         if is_h2(line) {
+            // Ein zweiter "## Timeline"-Abschnitt setzt die Sammlung fort -
+            // sonst ginge die aeltere Timeline des Dossiers verloren. Jede
+            // andere H2-Ueberschrift beendet die Sammlung.
+            if line.trim_end() == "## Timeline" {
+                continue;
+            }
             break;
         }
         // Eine **eingerueckte** Zeile ist eine Fortsetzungszeile des
@@ -184,6 +190,11 @@ fn timeline_notes(body: &str) -> String {
                 bullets.push(b.trim().to_string());
                 continue;
             }
+            // Eine Zeile in Spalte 0, die kein Bullet ist (Prosa, Tabelle,
+            // Platzhalter), gehoert zu keiner Notiz: sie wird **nicht** an
+            // den laufenden Bullet angehaengt. Das entspricht der
+            // Pruefer-Referenz in scripts/release/check_note_order.py.
+            continue;
         }
         if s.starts_with('#') || s.is_empty() {
             continue;
@@ -444,6 +455,27 @@ mod tests {
             &format!("---\nslug: coordinate-test\n{fields}---\n## Timeline\n"),
             "bb",
         )
+    }
+
+    #[test]
+    fn timeline_notes_follow_the_checker_reference() {
+        // 1) Eine eingerueckte Zeile ist eine Fortsetzungszeile - auch wenn
+        //    sie mit "- " beginnt (kein eigener Bullet, kein "|"-Trenner).
+        let body = "## Timeline\n\n- [A: eins]\n  - zwei\n- [B: drei]\n";
+        assert_eq!(timeline_notes(body), "[A: eins] - zwei | [B: drei]");
+
+        // 2) Eine Zeile in Spalte 0, die kein Bullet ist, gehoert zu keiner
+        //    Notiz und wird nicht an den vorigen Bullet angehaengt.
+        let body = "## Timeline\n\n- [A: eins]\n_Keine Eintraege._\n- [B: drei]\n";
+        assert_eq!(timeline_notes(body), "[A: eins] | [B: drei]");
+
+        // 3) Ein zweiter "## Timeline"-Abschnitt setzt die Sammlung fort.
+        let body = "## Timeline\n\n- [A: eins]\n\n## Timeline\n\n- [B: zwei]\n";
+        assert_eq!(timeline_notes(body), "[A: eins] | [B: zwei]");
+
+        // 4) Eine andere H2-Ueberschrift beendet die Sammlung.
+        let body = "## Timeline\n\n- [A: eins]\n\n## Quellen\n\n- [B: zwei]\n";
+        assert_eq!(timeline_notes(body), "[A: eins]");
     }
 
     #[test]

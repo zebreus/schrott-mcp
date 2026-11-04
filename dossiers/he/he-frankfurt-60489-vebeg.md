@@ -37,7 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Adresse, Telefon, Mail, Beschreibung verifiziert und Frontmatter gefüllt (Owner-Ausnahme: Impressum Name+HRB+Ort: VEBEG GmbH, Rödelheimer Bahnweg 23, 60489 Frankfurt am Main, HRB B 8255 AG Frankfurt); website live abgerufen daher website_status aktiv; Quelle(n): https://www.vebeg.de/en/others/impressum.htm + https://www.vebeg.de/en/unternehmen/info.htm + https://www.vebeg.de]
-+- [Korrektur 01.10.2026 (Owner-Gate): HR-Kongruenz per Northdata nachgeholt (VEBEG GmbH, AG Frankfurt HRB 8255, Roedelheimer Bahnweg 23, 60489 Frankfurt) + service.bund.de (Behoerdenportal: gleiche Adresse/Tel/Mail) — Fills damit doppelbelegt; Quelle(n): https://www.northdata.com/VEBEG%20GmbH,%20Frankfurt%20a%C2%B7%20Main/Amtsgericht%20Frankfurt%20am%20Main%20HRB%208255 + https://www.service.bund.de/Content/DE/DEBehoerden/V/VEBEG/VEBEG-GmbH.html]
+- [Korrektur 01.10.2026 (Owner-Gate): HR-Kongruenz per Northdata nachgeholt (VEBEG GmbH, AG Frankfurt HRB 8255, Roedelheimer Bahnweg 23, 60489 Frankfurt) + service.bund.de (Behoerdenportal: gleiche Adresse/Tel/Mail) — Fills damit doppelbelegt; Quelle(n): https://www.northdata.com/VEBEG%20GmbH,%20Frankfurt%20a%C2%B7%20Main/Amtsgericht%20Frankfurt%20am%20Main%20HRB%208255 + https://www.service.bund.de/Content/DE/DEBehoerden/V/VEBEG/VEBEG-GmbH.html]
 - Bundeseigene Treuhandgesellschaft (gegr. 1951 durch Bundesfinanzministerium): verkauft Überschussmaterial öffentlicher Stellen per Tender (kein Ankauf, kein Schrottplatz) — GRENZFALL bleibt bestehen; city-Feld unverändert gelassen (Impressum bestätigt Frankfurt am Main)
 - Keine Öffnungszeiten auf Betreiber-Website (Ausschreibungsportal), Feld bleibt leer
 
