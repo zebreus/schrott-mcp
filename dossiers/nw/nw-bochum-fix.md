@@ -54,3 +54,43 @@ Der Betreiberauftritt schrottabholung-fix.de ist erreichbar; das Impressum nennt
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: Die Preis- und Konditionsangaben wurden am 29.10.2026 live nachgeprueft und sind unveraendert gueltig, ergaenzt um den aktuellen Impressums- und Navigationsstand. Die Seite schrottabholung-fix.de ist erreichbar, das Impressum nennt "Angaben gemaess Paragraf 5 TMG: Thorsten Kento Baumbach, Oppelner Str. 31, 53119 Bonn, Telefon +49 178 291 7351, E-Mail info@schrottabholung-fix.de"; die Kopfzeile nennt "Mo-Sa: 07:00-20:00 Uhr". Der Navigationspunkt "Schrottpreise" verweist auf https://www.schrottabholung-fix.de/schrottpreise und liefert dort HTTP 404, es gibt also keine zentrale Preisseite; die Materialseiten tragen die Angaben. Die Kupferseite formuliert unveraendert "Der Preis pro kg liegt bei Kupfer in der Regel zwischen 2 und 6 Euro. Der exakte Preis ist unter anderem vom Wertpapiermarkt abhaengig" - das ist eine undatierte Marktorientierung und kein Haendlerkurs; die im Anfrageformular angezeigten "0 EUR" sind ein Formularplatzhalter mit dem Zusatz "Unverbindlicher Richtwert". Die FAQ nennt weiterhin bis zu 250 Euro je Altauto abhaengig von Marke und Zustand und eine kostenlose Abholung auch dann, wenn keine Auszahlung erfolgt; Selbstanlieferung wird ausgeschlossen. ANKAUF: nur die undatierte Kupfer-Orientierung 2 bis 6 Euro je kg, kein Tageskurs und keine Preisliste; VERKAUF: keine Haendler-Verkaufspreisliste, die Verkauf-Seiten betreffen den Verkauf von Kundenschrott an den Haendler; GEBUEHREN: keine Gebuehrenordnung, die Abholung wird als kostenlos beworben, eine pauschale Gratis-Containerstellung oder beliebige kostenlose Entsorgung wird daraus nicht abgeleitet. Die Seed-Verknuepfung (Fix, Bochum, mobil) bleibt unbewiesen, weil das Impressum eine Bonner Anschrift nennt und die Seite keine Annahmestelle in Bochum ausweist; der Verzeichniseintrag Rensingstrasse 9, 44807 Bochum teilt nur den Telefonanschluss. Quellen: https://www.schrottabholung-fix.de/impressum ; https://www.schrottabholung-fix.de/kupfer-verkaufen ; https://www.schrottabholung-fix.de/faq ; https://www.schrottabholung-fix.de/schrottpreise ]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für die im Dossier geführte Schrottabholung Fix. Reichweite: die Namenssuche
+  "Fix" in der Route "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefert 6 Treffer, sämtlich
+  andere Unternehmen (Fix Container Service GmbH, Altenheimer Weg 6, 77743 Neuried, ZZHT00900093 / 1 und / 2;
+  Betriebsstätte Kehl-Hafen, Graudenzer Straße 10, 77743 Kehl, ZZHT00900093 / 3 und / 4; AVEA Entsorgungsbetriebe GmbH &
+  Co. KG Sortieranlage Fixheide, Borsigstraße 19, 51381 Leverkusen, ZZEE00200041 / 9; Clean - Fix Industrieservice GmbH,
+  Leimberg 9, 52222 Stolberg, ZZET01600094 / 1) und damit reine Namensvetter-Treffer ohne Bezug zum Dossier. Die auf den
+  Dossier-Auftritt zugeschnittenen Varianten "Schrottabholung Fix", "Schrottabholung Fix GmbH" und "Baumbach Schrott"
+  (Inhabername laut Betreiber-Impressum) liefern jeweils 0 Treffer. Ortssuchen: um das im Verzeichnis genannte Bochumer
+  Adress-Lead Rensingstraße 9, 44807 Bochum mit 3 km Umkreis 8 Treffer, mit 5 km 68 Treffer und mit 10 km 201 Treffer;
+  um die im Betreiber-Impressum genannte Anschrift Oppelner Str. 31, 53119 Bonn mit 3 km Umkreis 29 Treffer. Kein
+  Treffer trägt den Namen Fix oder Schrottabholung Fix, keiner sitzt an Rensingstraße 9 oder an Oppelner Straße 31, und
+  keiner wurde übernommen. Die Route "Altfahrzeugverwertung" liefert für "Fix" 0 Treffer und im 3-km-Radius um 44807
+  Bochum 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Zu beachten ist, dass
+  die im Betreiber-Impressum genannte Bonner Anschrift eine Impressumsanschrift und kein belegter Annahmehof ist; die
+  Abfrage beider Orte trägt dieser Unsicherheit Rechnung. Das Dossier bleibt im Status pruefung, Frontmatter-Felder
+  werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Fix ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottabholung%20Fix
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottabholung%20Fix%20GmbH
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Baumbach%20Schrott
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44807%20Bochum%2C%20Deutschland;7.2092568;51.5140100;7.2092568;51.5140100;7.2092568;51.5140100&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44807%20Bochum%2C%20Deutschland;7.2092568;51.5140100;7.2092568;51.5140100;7.2092568;51.5140100&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44807%20Bochum%2C%20Deutschland;7.2092568;51.5140100;7.2092568;51.5140100;7.2092568;51.5140100&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=53119%20Bonn%2C%20Deutschland;7.0564945;50.7478535;7.0564945;50.7478535;7.0564945;50.7478535&dst=3&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Fix ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=44807%20Bochum%2C%20Deutschland;7.2092568;51.5140100;7.2092568;51.5140100;7.2092568;51.5140100&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

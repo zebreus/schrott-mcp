@@ -55,3 +55,50 @@ Gärtner in Frechen bleibt ein ungeklärter Verzeichnis-Kandidat. Für Hauptstr.
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Fill Hauptstr. 174, 50226 Frechen, Tel. 02234 54905, Zeiten Mo-Fr 8-20/Sa 9-18; Zweitadresse Roemerstr. 133 Bergheim-Thorr nur Timeline, kein Fill; Adressaenderung: Koordinaten neu zu geocodieren; Quelle(n): Gelbe Seiten, Das Oertliche/golocal (unredaktioneller Verzeichnisbeleg, als alleiniger Beleg offen dokumentiert), schrottplatz-info als Lead]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Entsorgungsfachbetriebseintrag für den Dossierstandort Hauptstr. 174, 50226 Frechen und
+  keinen für die im Dossier dokumentierte Zweit Spur "Manuel Gärtner Schrotthandel", Römerstr. 133, 50127
+  Bergheim-Thorr. Reichweite: Namensvarianten in der Route "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal
+  (is=1&e=1) waren "Gärtner" (10 Treffer), "Gaertner" (0), "Schrotthandel Gärtner" (0), "Gärtner Schrotthandel" (0),
+  "Gärtner Recycling" (0), "Gaertner Schrott" (0) und "Manuel Gärtner" (0); Ortssuchen mit 3 km Umkreis um 50226 Frechen
+  liefern 4 Treffer, mit 5 km 12 Treffer, mit 10 km um die abweichende Zweit Spur 50127 Bergheim-Thorr 13 Treffer (3 km:
+  5 Treffer). Alle Treffer gehören fremden Betrieben (u.a. August Baumgärtner GmbH & Co. KG Weingarten und Mengen,
+  Gärtnerei Körbelitz, Kraftwerk Frechen, Stadtbetrieb Frechen GmbH, AVISTA OIL Deutschland GmbH, Erftverband, AMB
+  Rheinland GmbH Bergheim, eR erft RECYCLING GmbH, Heinz Burbach e.K.), keiner trägt den Namen Gärtner und keiner sitzt
+  an einer der beiden Dossieranschriften. Die Route "Altfahrzeugverwertung" liefert für "Gärtner" 0 Treffer und im
+  3-km-Radius um 50226 Frechen 0 Treffer.]
+- [Recherche 04.11.2026: Abgrenzung und Grenze der Aussage: Die 10 Treffer zur Namenssuche "Gärtner" sind sämtlich
+  andere Unternehmen (August Baumgärtner GmbH & Co. KG in Weingarten und Mengen sowie Anlagen der Gärtnerei Körbelitz)
+  und damit Namensvetter-Treffer ohne Bezug zum Dossier; sie wurden nicht übernommen. Reichweite der Negativaussage: die
+  Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG und die Anerkennung nach AltfahrzeugV sind freiwillig, ein
+  Register-Nichteintrag ist deshalb kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine
+  Nichtexistenz. Das Dossier bleibt im Status pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=G%C3%A4rtner ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gaertner ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrotthandel%20G%C3%A4rtner
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=G%C3%A4rtner%20Schrotthandel
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=G%C3%A4rtner%20Recycling
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gaertner%20Schrott
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Manuel%20G%C3%A4rtner
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=50226%20Frechen%2C%20Deutschland;6.8039645;50.9089759;6.8039645;50.9089759;6.8039645;50.9089759&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=50226%20Frechen%2C%20Deutschland;6.8039645;50.9089759;6.8039645;50.9089759;6.8039645;50.9089759&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=50226%20Frechen%2C%20Deutschland;6.8039645;50.9089759;6.8039645;50.9089759;6.8039645;50.9089759&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=50127%20Bergheim%2C%20Deutschland;6.6412827;50.9383012;6.6412827;50.9383012;6.6412827;50.9383012&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=50127%20Bergheim%2C%20Deutschland;6.6412827;50.9383012;6.6412827;50.9383012;6.6412827;50.9383012&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=50127%20Bergheim%2C%20Deutschland;6.6412827;50.9383012;6.6412827;50.9383012;6.6412827;50.9383012&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=G%C3%A4rtner ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=50226%20Frechen%2C%20Deutschland;6.8039645;50.9089759;6.8039645;50.9089759;6.8039645;50.9089759&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

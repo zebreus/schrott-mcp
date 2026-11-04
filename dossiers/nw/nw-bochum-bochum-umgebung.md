@@ -81,3 +81,40 @@ provenance_origin: table
   Dossiers; read-only `public.db` (25.10.2026);
   https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.474088888888886&lon=7.219238888888889&zoom=18&addressdetails=1
   (Abruf 03.11.2026).]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage (Einsatzgebiet statt Betrieb): Das amtliche Fachbetrieberegister
+  (fachbetrieberegister.gadsys.de, Abruf 04.11.2026) kennt keinen Eintrag mit der Bezeichnung "Bochum-Umgebung"; die
+  Namensvarianten "Bochum-Umgebung" und "Bochum Umgebung" und "Bochum Umgebung Schrott" liefern in der Route
+  "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) jeweils 0 Treffer. Das ist erwartbar, weil das
+  Dossier keinen Betrieb, sondern ein unspezifisches Einsatzgebiet für mobile Sammler beschreibt; eine Standortadresse
+  lässt sich daraus nicht ableiten. Reichweite der Ortsabfrage: um den Ortsmittelpunkt Bochum (51,4818111 / 7,2196635)
+  liefert die Route "Entsorgungsfachbetriebe" mit 3 km Umkreis 21 Treffer, mit 5 km 42 Treffer und mit 10 km 188 Treffer
+  Zertifikatsanlagen; alle sind namentlich benannte Betriebe an eigenen Standorten in Bochum und Umgebung (unter anderem
+  A. Fischer & Söhne GmbH Altenbochumer Straße 15, USB Bochum GmbH Wertstoffhof Am Sattelgut, Entsorgungsbetriebe Bochum
+  GmbH Jung-Stilling-Straße 64, Rare Metal Trading GmbH Ottostraße 29, RAU Recycling am Umweltpark GmbH Rombacher Hütte
+  12, REMEX Bochum GmbH Karl-Lange-Straße 45). Kein Treffer entspricht dem Seed-Namen, keiner ist als Sammler für das
+  Einsatzgebiet "Bochum-Umgebung" ausgewiesen und keiner wurde übernommen. Die Route "Altfahrzeugverwertung" liefert für
+  "Bochum-Umgebung" 0 Treffer und im 3-km-Radius um Bochum 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass ein Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Für ein
+  Sammler-Einsatzgebiet ist ein Registereintrag ohnehin nicht zu erwarten, die Abfrage dient hier nur der
+  Vollständigkeit des Belegs. Das Dossier bleibt im Status pruefung, Frontmatter-Felder und der zurückgezogene GEO-Punkt
+  werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bochum-Umgebung
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bochum%20Umgebung
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bochum%20Umgebung%20Schrott
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Bochum-Umgebung
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

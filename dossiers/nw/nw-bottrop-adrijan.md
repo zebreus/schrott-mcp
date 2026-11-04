@@ -44,3 +44,32 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Identität per Eigeninserat belegt (Einzelbeleg, unsicher): Kleinanzeigen-Impressum Kleinunternehmer Adrijan Gasi, Knappenstraße 1, 46238 Bottrop, Tel. 01575 5607954, E-Mail adrijan_boy@icloud.com — Adress-Leads deckungsgleich (cylex, ruhrpott-kurier, 11880: Knappenstr. 1, 46238 Bottrop; nur Leads, keine Belege). Keine Betreiber-Website, kein HR-Eintrag (Kleinunternehmer). KEINE Fills, Status bleibt pruefung; Quelle(n): kleinanzeigen.de Eigeninserat (Snippet-Einzelbeleg) + Verzeichnis-Leads]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für den im Dossier geführten Betrieb Adrijan an der Knappenstr. 1, 46238
+  Bottrop. Reichweite: die Namensvarianten "Adrijan" (0 Treffer), "Adrijan GmbH" (0) und "Adrijan Schrott" (0) in der
+  Route "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefern nichts; die Ortssuche 46238
+  Bottrop mit 3 km Umkreis liefert 49 Treffer, mit 5 km 81 Treffer und mit 10 km 197 Treffer Zertifikatsanlagen. Alle
+  Treffer gehören fremden Betrieben (u.a. Linke GmbH & Co. KG Polderstr. 107, Nebenstandort mit Sortieranlage Brakerstr.
+  74, Rainer Sikora Transporte, BETREM GmbH, REMONDIS Recycling GmbH & Co. KG, Tappe Rohstoffhandel GmbH, Coban
+  Metallhandel GmbH); keiner trägt den Namen Adrijan und keiner wurde übernommen. Die Route "Altfahrzeugverwertung"
+  liefert für "Adrijan" 0 Treffer; im 3-km-Radius um 46238 Bottrop stehen 5 fremde Treffer (Klaus Neumann
+  Autoverwertung, Autoverwertung Baytemür, AC Care Recycling GmbH, P & W Metall GmbH, Auto-Center Bugdaci GmbH).]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Das Dossier bleibt im
+  Status pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Adrijan ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Adrijan%20GmbH ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Adrijan%20Schrott
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46238%20Bottrop%2C%20Deutschland;6.9561745;51.5206712;6.9561745;51.5206712;6.9561745;51.5206712&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46238%20Bottrop%2C%20Deutschland;6.9561745;51.5206712;6.9561745;51.5206712;6.9561745;51.5206712&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=46238%20Bottrop%2C%20Deutschland;6.9561745;51.5206712;6.9561745;51.5206712;6.9561745;51.5206712&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Adrijan ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=46238%20Bottrop%2C%20Deutschland;6.9561745;51.5206712;6.9561745;51.5206712;6.9561745;51.5206712&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

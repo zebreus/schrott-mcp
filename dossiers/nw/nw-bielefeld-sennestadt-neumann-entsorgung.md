@@ -15,6 +15,7 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat-Nr. 290408014, Vorgangsnummer ZZHT003006771008, gültig bis zum 19.07.2027, Prüfungsdatum 20.01.2026, Ausstellungsdatum 26.01.2026; Anlagen 1 bis 3 sind dem Standort Krackser Straße 180, 33689 Bielefeld zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E711800121), Anlage 2 Lagern (E711740139), Anlage 3 Lagern und Behandeln (E711740139); Rechtsträger Neumann Entsorgung GmbH & Co. KG, HRA 17480 Amtsgericht Bielefeld)"]'
 provenance_section: Neu, Ankauf verifiziert (ja)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -39,3 +40,48 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Triage Feedback 2549)
 
 - [Recherche 01.10.2026: Feedback 2549 teilweise berechtigt — HR-Spiegel (aktiv, HRA 17480, Krackser Straße 180, 33689 Bielefeld) adressgleich zum Impressum → Owner-Ausnahme erfüllt → phone/email gefüllt; Öffnungszeiten weiterhin leer (site-interner Widerspruch unaufgelöst); Quelle(n): online-handelsregister.de HRA 17480]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Amtlicher Nachweis gefunden: Entsorgungsfachbetrieb nach § 56 KrWG für den Dossierstandort
+  Krackser Str. 180, 33689 Bielefeld-Sennestadt. Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Route "Entsorgungsfachbetriebe", Abruf 04.11.2026) liefert für die Namenssuche "Neumann Entsorgung", "NEUMANN
+  ENTSORGUNG" und "Neumann Entsorgung GmbH & Co. KG" je 3 Treffer; die Ortssuche 33689 Bielefeld mit 3 km Umkreis
+  liefert 12 Treffer, mit 5 km 14 Treffer, mit 10 km 57 Treffer. Die drei Treffer mit Entfernung "0,0 km" sind dem
+  Dossierstandort zugeordnet: "Neumann Entsorgung GmbH & Co. KG", "Krackser Straße 180, 33689 Bielefeld", "ZZHT00300677
+  / 1" (Sammeln, Befördern), "ZZHT00300677 / 2" (Lagern), "ZZHT00300677 / 3" (Lagern, Behandeln). Detailansicht und
+  Zertifikats-PDF wurden im Session-Kontext wörtlich gelesen: Zertifizierungsorganisation DEKRA Certification GmbH,
+  Handwerkstraße 15, 70565 Stuttgart, Zertifikat-Nr. 290408014, Vorgangsnummer ZZHT003006771008, gültig bis zum
+  19.07.2027, Prüfungsdatum 20.01.2026, Ausstellungsdatum 26.01.2026, Zertifikat umfasst 3 Anlagen; Rechtsträger Neumann
+  Entsorgung GmbH & Co. KG, Krackser Straße 180, 33689 Bielefeld, HRA 17480 Amtsgericht Bielefeld. Alle drei Anlagen
+  nennen als Standort Krackser Straße 180, 33689 Bielefeld: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV
+  E711800121), Anlage 2 Lagern (E711740139), Anlage 3 Lagern und Behandeln (E711740139). Die Registernummer HRA 17480
+  Amtsgericht Bielefeld und die Anschrift stimmen mit den bereits im Dossier dokumentierten Betreiberangaben überein;
+  das Register nennt den Ort "Bielefeld" ohne den Ortsteil Sennestadt.]
+- [Recherche 04.11.2026: Abgrenzung und Reichweite: Die Namenssuche "Neumann" liefert 22 Treffer; die darin
+  enthaltenen Einträge von Autoverwertung Neumann GmbH & Co. KG (Ziegeleistraße 9-11, 75050 Gemmingen, ZZHT00400080),
+  S.U.C. Inhaber Thomas Neumann e.K. (Landsberger Str. 60a, 12305 Berlin, ZZET01600225), ASN Uwe Neumann e.K.
+  (Magdeburg) und Neumann EURO-TRANS GmbH (Sternberg) sind andere Unternehmen und wurden nicht übernommen. Im
+  3-km-Radius um 33689 Bielefeld stehen 9 Anlagen fremder Betriebe (u.a. Medentex GmbH, Piderits Bleiche 11; Am
+  Klosterteich 24 a; Stiftung Bethel / Brockensammlung); die Route "Altfahrzeugverwertung" liefert für "Neumann
+  Entsorgung" 0 Treffer und im 3-km-Radius um 33689 Bielefeld 0 Treffer, eine Anerkennung nach AltfahrzeugV für den
+  Dossierstandort ist damit nicht ausgewiesen. Reichweite: die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG ist
+  freiwillig; ein Register-Nichteintrag ist kein Nachweis, dass ein Betrieb keine Anerkennung besitzt. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Neumann%20Entsorgung
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Neumann%20Entsorgung%20GmbH%20%26%20Co.%20KG
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=NEUMANN%20ENTSORGUNG
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Neumann ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=33689%20Bielefeld%2C%20Deutschland;8.5620024;51.9415010;8.5620024;51.9415010;8.5620024;51.9415010&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=33689%20Bielefeld%2C%20Deutschland;8.5620024;51.9415010;8.5620024;51.9415010;8.5620024;51.9415010&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=33689%20Bielefeld%2C%20Deutschland;8.5620024;51.9415010;8.5620024;51.9415010;8.5620024;51.9415010&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Neumann%20Entsorgung
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=33689%20Bielefeld%2C%20Deutschland;8.5620024;51.9415010;8.5620024;51.9415010;8.5620024;51.9415010&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Neumann%20Entsorgung&p=ZZHT00300677&fd=1
+  (Abruf 04.11.2026)]

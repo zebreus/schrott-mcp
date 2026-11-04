@@ -53,3 +53,40 @@ provenance_origin: table
 
 - mobil (GS)
 - Adresse: Bochum
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für den im Dossier geführten mobilen Sammler "Eco" (Auftritt
+  eco-schrottabholung.de). Reichweite: die generische Namenssuche "Eco" in der Route "Entsorgungsfachbetriebe" mit
+  Filter Art des Betriebs = Egal (is=1&e=1) liefert bundesweit 96 Treffer; keiner davon trägt den Namen "Eco" als
+  Entsorgungsfachbetrieb und keiner liegt in Bochum (die Treffer sind u.a. RECOM Recycling GmbH Aschaffenburg, EcoloChem
+  GmbH Langenweißbach, ECOWEST Logistik GmbH Oelde, Ecowest Entsorgungsverbund Westfalen GmbH Ennigerloh, THECO Thesing
+  GmbH & Co. KG Coesfeld, ECOBAT Solutions Europe GmbH, ECO Remarketing GmbH Ennigerloh, RECON GmbH und Recon-T GmbH
+  Schwedt/Oder, Ecotex GmbH & Co. KG Wuppertal, ECO Europe GmbH Lemgo). Die auf den Dossier-Auftritt zugeschnittenen
+  Namensvarianten "eco-schrottabholung", "Eco Schrottabholung" und "Schrottabholung DE" liefern jeweils 0 Treffer. Die
+  Ortssuche um den Ortsmittelpunkt Bochum (51,4818111 / 7,2196635) liefert mit 3 km Umkreis 21 Treffer, mit 5 km 42
+  Treffer und mit 10 km 188 Treffer Zertifikatsanlagen; kein Treffer trägt den Namen "Eco", keiner ist dem Auftritt
+  eco-schrottabholung.de zugeordnet und keiner wurde übernommen. Die Route "Altfahrzeugverwertung" liefert für "Eco"
+  genau 1 fremden Treffer (Volkswagen Sachsen GmbH, Bereich Circular Economy, Glauchauer Straße 40, 08058 Zwickau OT
+  Mosel, ZAET01500460 / 1) und im 3-km-Radius um Bochum 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Für einen mobilen
+  Sammler ohne eigene Annahmestelle ist ein Registereintrag ohnehin nicht zu erwarten. Das Dossier bleibt im Status
+  pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Eco ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=eco-schrottabholung
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Eco%20Schrottabholung
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottabholung%20DE
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Eco ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=44801%20Bochum%2C%20Deutschland;7.2196635;51.4818111;7.2196635;51.4818111;7.2196635;51.4818111&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]
