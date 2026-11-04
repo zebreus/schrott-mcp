@@ -80,7 +80,8 @@ Dieses Dossier bildet die WKR-Niederlassung **Köln-Rodenkirchen** ab: Die Betre
   OSM-Betriebszuordnung. Quelle 2 (Betreiber): die **Kontaktseite** der Betreiberseite
   https://www.wkr-schrott.de/kontakt/kontaktdaten/ nennt live (Abruf 04.11.2026) **„Niederlassung Rodenkirchen - WKR
   GmbH, Kirschbaumweg 8, 50996 Köln-Rodenkirchen, Tel. 0221 - 97 06 06 22, info@wkr-schrott.de“** mit den Öffnungszeiten
-  **Büro/Annahme Montag bis Freitag 08:00 Uhr bis 16:30 Uhr**; die Startseite https://www.wkr-schrott.de/ nennt beide
+  **Büro Montag bis Freitag 08:00 Uhr bis 16:00 Uhr, Samstag geschlossen** (die
+  **16:30 Uhr** gehören zur **Niederlassung Longerich**, Hugo-Junkers-Str. 10a, 50739 Köln-Longerich, Tel. 0221 - 97 99 78 14 — **nicht** zu Rodenkirchen); die Startseite https://www.wkr-schrott.de/ nennt beide
   WKR-Schrottplätze (Longerich und Rodenkirchen) ausdrücklich als Annahmestellen für Privatpersonen und Unternehmen und
   weist das Impressum **WKR Wertstoff- und Kreislaufwirtschaft Rodenkirchen GmbH, HRB 63135 Amtsgericht Köln** aus. Die
   im Dossier dokumentierte **Abgrenzung** bleibt: Hugo-Junkers-Str. 10a (Longerich, 0221 97997814) und Geestemünder

@@ -53,7 +53,8 @@ Die Betreiberanschrift Lieskauer Straße 1a, 06198 Salzatal OT Bennstedt bleibt 
   hier **nicht** vor). **Quelle 1 (OSM, live abgerufen am 04.11.2026):** Kachelraster über **Salzatal OT Bennstedt**
   (**11.8200/51.4800 bis 11.8400/51.4900**, **2 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, live über
   `https://api.openstreetmap.org/api/0.6/map.json?bbox=11.8200,51.4800,11.8400,51.4900`): die **Lieskauer Straße** in
-  06198 Salzatal-Bennstedt ist im Raster mit **43 Adressobjekten** vertreten und trägt die Hausnummern **1**
+  06198 Salzatal-Bennstedt ist im Raster mit **41 Adressobjekten** und **2** weiteren Straßenobjekten
+  (**43** Objekte im Raster) vertreten und trägt die Hausnummern **1**
   (node/9695007410), **2** (node/9695007409), **3** (node/9695007411), **4** (node/9695007407), **4a**
   (node/9695007408), **5** (node/9695007406), **6** (node/9695007405), **7** (node/9695007404), **9**
   (node/9695007403), **10** (node/9695007402), **11** (node/9695007401), **13** (node/9695007400), **14**
