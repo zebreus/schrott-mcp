@@ -1,6 +1,8 @@
 ---
 slug: sl-saarbrucken-malstatt-thomanek-schrott-und-metall
-clear_fields: 'dropoff_json,geo'
+lat: 49.2398497
+lon: 6.9774239
+clear_fields: 'dropoff_json'
 name: Thomanek Schrott und Metall
 trader_type: schrotthaendler
 state: SL
@@ -70,3 +72,51 @@ Ein Gelbe-Seiten-Eintrag führt „Thomanek Schrott und Metall“ in der Ludwigs
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — Lead Saarbrücken-Malstatt, Ludwigstr. 58 nur Verzeichnisbeleg (Einzelbeleg, unsicher); keine Website gefunden; mögl. verwandt mit Grün Thomanek (Völklingen-Fürstenhausen, Saarwiesenweg 2); keine Frontmatter-Fills; Quelle(n): recherche/sl.md]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.2398497/6.9774239** (Mittel der 26 eindeutigen Knoten von
+  way/631153200; der Punkt liegt innerhalb der Objekt-BBox
+  49.2397211/6.9772222–49.2399304/6.9776023). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/631153200** trägt `addr:street`=Ludwigstraße, `addr:housenumber`=**58**,
+  `addr:postcode`=66115, `addr:city`=Saarbrücken und `building`=apartments - Straße, Hausnummer,
+  PLZ und Ort stimmen mit der Dossier-Adresse **Ludwigstr. 58, 66115 Saarbrücken-Malstatt** überein.
+  Das Objekt trägt **weder `name=` noch `operator=`**; es ist die **Adressangabe** eines
+  Mehrparteienhauses, kein Betriebs-POI. Quelle 2 (im Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): der Gelbe-Seiten-Eintrag
+  https://www.gelbeseiten.de/gsbiz/c7fef7ea-8eed-46eb-a47a-ff182a9c98d1 liefert HTTP 200 und führt im
+  LocalBusiness-Block **„Thomanek Schrott und Metall“, streetAddress „Ludwigstr. 58“, postalCode
+  „66115“, addressLocality „Saarbrücken“, Telefon „0176 84 73 97 07“, keywords „Metallrecycling,
+  Schrott, Containerservice, Kabelrecycling“** mit der Kartenposition **49.239857/6.977358** - die
+  **rund 5 m** vom gesetzten OSM-Punkt entfernt liegt und die Anschrift damit unabhängig bestätigt.
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst
+  **6.9700/49.2300 bis 6.9800/49.2500**, **2 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**,
+  **35.742 Elemente**; das Fenster enthält die gesuchte Straße **„Ludwigstraße“ nachweislich** mit
+  **11 Straßenobjekten** (way/15701142, way/117335403, way/218647746, way/652569857 bis
+  way/652569861, way/870818315, way/1039640491, way/1040623881, way/1490834012; residential bzw.
+  primary_link) sowie **42 Adressobjekten** auf „Ludwigstraße“ mit **42 verschiedenen Hausnummern**
+  (3–36 sowie 54, 55, 57, **58**, 59, 60, 61, 65, 67–73) - die **Dossier-Hausnummer 58 existiert** und
+  ist im Raster von **zwei** Objekten belegt: **way/631153200** (Gebäude, nur Adresse) und
+  **node/6105056583** mit `name`=**Tanzstudio Fortuna**, `leisure`=dance, `operator`=HBS GmbH und
+  `contact:website`=https://www.tanzstudio-fortuna.de/ - das ist ein **anderer Betrieb in derselben
+  Hausnummer** (34 m entfernt); der gesetzte Punkt ist das **Gebäudeobjekt mit der Anschrift**.
+  **Negativaussage, qualifiziert:** im Raster tragen **1.672 Objekte** `name=` oder `operator=`,
+  **mit Bezug zu „Thomanek“, „Schrott“, „Metallrecycling“, „Containerdienst“ oder
+  „Kabelrecycling“** trifft es auf **kein** Objekt dieser Adresse - der Betrieb ist in OSM **nicht**
+  kartiert. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'dropoff_json,geo'` wurde auf
+  **`'dropoff_json'`** gekürzt - das Token `geo` ist **entfernt**, weil es den am 26.10.2026
+  zurückgenommenen und nachweislich falschen Produktionspunkt (49.2354125/6.9932063 = Ufergasse,
+  Saarbrücken-St. Johann) fernhalten sollte; das Token `dropoff_json` bleibt **unverändert** bestehen,
+  weil die allgemeine Annahmezusage weiterhin nicht belegt ist. `clear_fields` darf nicht
+  gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. **Qualifizierung (unverändert übernommen):**
+  Der Punkt bezeichnet die **Adresse eines einzelnen Verzeichnis-Leads**, **nicht** einen verifizierten
+  Annahmehof, eine Waage oder eine öffentliche Schrottannahme; der im Dossier offene Punkt der
+  fehlenden zweiten unabhängigen Quelle, die widersprüchliche Zuordnung derselben Mobilnummer zu
+  „A & W Recycling“ (Klausenerstr. 18) und der mögliche Bezug zum getrennten „Grün Thomanek
+  Metallrecycling UG“ (Saarwiesenweg 2, Völklingen) bleiben unverändert, ebenso `status: pruefung`,
+  `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und
+  `description`. Es wird kein Ankaufkurs, keine Preisliste und keine Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/631153200/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/6105056583.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9700,49.2300,6.9800,49.2500 ;
+  https://www.gelbeseiten.de/gsbiz/c7fef7ea-8eed-46eb-a47a-ff182a9c98d1 (Abruf 04.11.2026).]

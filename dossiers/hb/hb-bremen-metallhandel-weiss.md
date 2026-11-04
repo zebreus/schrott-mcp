@@ -48,3 +48,39 @@ Der amtliche Fachbetrieberegister (Abzug 11.08.2026) führt für Bremen 38 Betri
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: **Namensvetter gegen gleichnamige Betriebe und OSM-Prüfung des Sitzes; die Straße bleibt unbekannt.** Ausgeschlossen wurden ausdrücklich der gleichnamige Betrieb **„Schrott- und Metallhandel Weiß", Königsberger Str. 4, 76139 Karlsruhe** (schrottweiss.de, Tel. 0721 3523255) und **„Schrott & Metallhandel Weiße Michèle"** (metallrecyclingweissemichele.de.tl) — **andere Betriebe in anderen Orten, keine Zusammenführung**. Belegt sind für diesen Eintrag die Mobilnummer **0177 2389254**, der Sitz „Bremen" **ohne Straßenangabe** und die Annahmeliste (Stahl- und Eisenschrott, Aluminium, Kupfer, Edelstähle, Blei, Messing, Rotguss, Zink, Nickel und Nickellegierungen, Zinn, Kabel, Hart- und Sondermetalle, Kühler, Altfahrzeuge, Elektromotoren) mit der Kooperationsbedingung **Mindestgewicht Eisenmetalle ab 100 kg, Nichteisenmetalle ab 1 kg**. **OSM-Prüfung:** Eine Suche über den Bremer Stadtbereich nach Objekten mit Scrap-/Second-Hand-/Metall-/Recycling-Tag und einem auf Weiß/Weiss passenden Namen liefert **keinen Treffer**; mangels Straße ist der Sitz „Bremen" in OSM ohnehin nicht zu einem Betriebspunkt auflösbar. Der gespeicherte GEO-Punkt 53.0929235294118/8.80957647058823 löst rückwärts auf **Borgfelder Straße 19, 28215 Bremen (Findorff)** auf, way 223353635 mit `building=apartments` — **ein Mehrfamilienhaus, kein Betriebsobjekt**; die Koordinate ist damit nicht belastbar und wird nicht übernommen. Der amtliche Fachbetrieberegister-Abzug (Stand 11.08.2026) listet für Bremen 38 Betriebe, darunter die EFB-Einträge Adolf Löbl Rohstoffbetriebe (Arberger Hafendamm 20), Augustin Entsorgung (Adam-Smith-Straße 3/5), Autoverwertung Jesewski (Neuer Steindamm 6), Autoverwertung Roßberg (Simon-Bolivar-Straße 38) und Hanse Rohstoffhandel (Am Fallturm 5) — **kein Eintrag zu Metallhandel Weiss**; ein Negativbefund ohne Beweiswert. Die **Öffnungszeiten sind zwischen den Verzeichnisseiten widersprüchlich** (08:00–18:00 / 07:00–17:00 / 06:00–16:00) und werden deshalb **nicht** in die Stammdaten übernommen. frontmatter: `clear_fields: 'phone'` **bleibt bestehen** — der Owner hatte den Platzhalter „n.e." zurückgenommen; die hier gefundene Nummer 0177 2389254 stammt aus **Verzeichnissen** (per Hierarchie ein Beleg), nicht aus einer Betreiber- oder Registerquelle, und wird deshalb **nicht** eingesetzt. description mit Sortenliste und Mindestgewichten. **ANKAUF:** Sortenliste und Mindestgewichte belegt, **keine Preise**; **VERKAUF:** kein Verkaufssortiment belegt; **GEBÜHREN:** keine Gebühren- oder Containerordnung belegt, keine kostenfreie Annahme behauptet. Status bleibt `pruefung`. Quelle(n): https://lokaleschrottplatz.de/metallhandel-weiss/ + https://lokaleschrottplatz.de/bremen/bremen-bremen/ + https://lokaleschrottplatz.de/search/stahl-eisen-schrotthaendler-bremen/ + https://www.schrottweiss.de/kontakt/ + https://metallrecyclingweissemichele.de.tl/ + https://schrottregister.pages.dev/ort-bremen + https://api.openstreetmap.org/api/0.6/way/223353635/full + Nominatim-Rückwärtssuche 53.0929235294118/8.80957647058823 (Abruf 29.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **Metallhandel Weiss** ist im Dossier **keine
+  Straße** belegt - der Sitz ist nur „Bremen" **ohne Straßenangabe** - und eine adressgenaue Zuordnung ist damit nicht
+  möglich. Quelle 1 (OSM, live geprüft am 04.11.2026): **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster umfasst **8.8000/53.0900 bis 8.8100/53.1000**, **1 Kachel von je 0,01 Grad**, **0
+  Kachel-Fehler**; das Fenster enthält **2743** Adressobjekte auf den Straßen des Bremer Stadtteils
+  **Findorff/Borgfelder** (Bereich der im Dossier als „Bremen (Mitte)" geführten Sitzangabe und der zurückgenommenen
+  Altkoordinate), darunter **46** Adressobjekte auf der „Borgfelder Straße" mit **44** verschiedenen Hausnummern (10, 12
+  bis 23, 25, 27, 29, 32, 33, 35 bis 39, 41, 42, 44, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80
+  sowie „24,26, 28,30") - **die Dossier-Zeile führt keine Hausnummer**, die gesuchte Anschrift kann deshalb **nicht**
+  adressgenau geprüft werden; ein Namenssuchlauf nach **„Weiß"**, **„Weiss"**, **„Metallhandel"**, **„Schrott"** und
+  **„Altmetall"** über die Felder name, operator, brand, description, website, contact:website, shop, craft, amenity,
+  landuse, man_made, industrial und office findet im Raster **keinen** Treffer - es gibt **keine**
+  OSM-Betriebszuordnung, nur die Straßengeometrie; der bisher gespeicherte Punkt 53.0929235/8.8095765 löst live auf
+  **way/223353635** (19, Borgfelder Straße, 28215 Bremen-Findorff) auf, ein Objekt mit `building`=**apartments** - ein
+  **Mehrfamilienhaus**, **kein** Betriebsobjekt, und der Punkt bleibt über `clear_fields: 'geo,phone'` zurückgenommen.
+  Quelle 2 (Verzeichnis/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das
+  **lokaleschrottplatz**-Profil https://lokaleschrottplatz.de/metallhandel-weiss/ liefert **HTTP 200** und führt den
+  Eintrag „Metallhandel Weiss: Schrottplatz in **Bremen**" **ohne Straßenangabe** (Sitz Bremen, HB) - es bleibt ein
+  **Verzeichnislead** (README, Quellenhierarchie) und **kein** Betreiber- oder Registerbeleg. Der amtliche
+  Fachbetrieberegister-Auszug (Stand 11.08.2026, https://schrottregister.pages.dev/ort-bremen) listet für Bremen **38**
+  Betriebe, darunter Adolf Löbl Rohstoffbetriebe, Augustin Entsorgung, Autoverwertung Jesewski, Autoverwertung Roßberg
+  und Hanse Rohstoffhandel - **keinen** Eintrag zu Metallhandel Weiss; das ist ein **Negativbefund ohne Beweiswert**.
+  Ausdrücklich ausgeschlossen und **nicht** gleichgesetzt wurden der gleichnamige Betrieb **„Schrott- und Metallhandel
+  Weiß", Königsberger Str. 4, 76139 Karlsruhe** (schrottweiss.de) und **„Schrott & Metallhandel Weiße Michèle"** -
+  andere Betriebe in anderen Orten. **Warum keine Koordinate:** ohne belegte Straße und Hausnummer gibt es **kein**
+  adressgenaues OSM-Objekt; eine Punktwahl im Stadtgebiet Bremen wäre eine **Schätzung**. `clear_fields: 'geo,phone'`
+  **bleibt** unverändert bestehen (es gibt keinen Ersatzpunkt), `status: pruefung` bleibt, Ankauf-, Verkaufs- und
+  Gebührenangaben bleiben unbelegt, es wird **keine** Schließung behauptet. **Reichweitenklausel:** das Fehlen eines
+  OSM-Treffers ist **kein** Nachweis für das Fehlen des Betriebs und **kein** Nachweis für die Richtigkeit des Sitzes
+  „Bremen". Offen bleibt die Beleglage der Straße; erst danach ist zu geokodieren. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.80,53.08,8.83,53.11 ;
+  https://api.openstreetmap.org/api/0.6/way/223353635/full.json ; https://lokaleschrottplatz.de/metallhandel-weiss/ ;
+  https://schrottregister.pages.dev/ort-bremen (Abruf 04.11.2026).]

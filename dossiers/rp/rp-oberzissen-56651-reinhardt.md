@@ -1,6 +1,7 @@
 ---
 slug: rp-oberzissen-56651-reinhardt
-clear_fields: 'geo'
+lat: 50.4519668
+lon: 7.1984599
 name: Reinhardt
 trader_type: schrotthaendler
 state: RP
@@ -50,3 +51,40 @@ Unzugeordneter Selbstauftritt: „Büro Am Sauerbrunnen 21, 56651 Oberzissen“,
 
 - Schrott
 - Adresse: Oberzissen 56651
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 50.4519668, 7.1984599** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/672987085**, sechs eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  7.1983100/50.4518866 bis 7.1985557/50.4520567). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/672987085** trägt `name`=**Schrotthandel Reinhardt** und `building`=yes - das ist ein
+  **Betriebsobjekt mit Betriebsbezug** (Schrotthandel) und **keine** bloße Adressangabe; der Abruf von
+  https://api.openstreetmap.org/api/0.6/way/672987085/full.json liefert HTTP 200 mit genau diesen Tags. Die
+  **Dossier-Adresse Am Sauerbrunnen 21, 56651 Oberzissen** ist im selben Raster belegt: **way/672987082** trägt
+  `addr:street`=Am Sauerbrunnen, `addr:housenumber`=**1**, `addr:city`=Oberzissen, `addr:postcode`=56651,
+  `addr:country`=DE, `amenity`=fire_station, `building`=fire_station, `name`=**Freiwillige Feuerwehr Oberzissen**,
+  `operator`=Verbandsgemeinde Brohltal. **Abgrenzung (wichtig):** In OSM trägt die **Hausnummer 21** an der Straße
+  „Am Sauerbrunnen" **kein** eigenes Adressobjekt - der Anschriftsobjekt-Treffer im Raster ist die
+  **Feuerwehr (Hausnummer 1)**; die **Hausnummer 21** selbst ist in OSM **nicht** als Objekt abgebildet. Der
+  gesetzte Punkt liegt daher auf dem **Schrotthandel-Betriebsobjekt**, das in OSM ohne eigene Hausnummer erfasst
+  ist; das Adressobjekt der Hausnummer 1 (Feuerwehr) liegt mit 50.4524988/7.1992510 rund 90 m entfernt. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene
+  Kachelraster über Oberzissen umfasst **7.1900/50.4450 bis 7.2100/50.4600**, **4 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit dem Straßenobjekt
+  **„Am Sauerbrunnen"** sowie den Adressobjekten auf „Ackerstraße", „Bachstraße", „Brohltalstraße", „Burgstraße",
+  „Lindenstraße", „Neustraße", „Ringstraße" und weiteren. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert,
+  live nachgelesen am 04.11.2026): die **11880-Unternehmensprofilseite** liefert **HTTP 200** und führt live
+  **„Reinhardt schrotthandel"** mit der Branche **Altmetallrecycling** an **Am Sauerbrunnen 21, 56651
+  Oberzissen**, Telefon **(0177) 5385349**, verlinkt auf **https://dreinhardt83.wixsite.com/reinhardt**, Öffnungszeiten
+  Mo–Fr 07:30–20:00 - identisch mit der Dossier-Adresse. **Zurücknahme des `geo`-Tokens (Begründung):**
+  `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein
+  `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt auf dem OSM-Betriebsobjekt desselben Betriebs.
+  **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet das **Schrotthandel-Betriebsobjekt**; das im
+  Dossier dokumentierte **Fehlen eines vollständigen Inhabernachweises/Impressums** (die Wix-Kontaktseite enthält
+  noch Textplatzhalter) sowie die Einstufung der Anschrift als **„Büro"** statt als bestätigte öffentliche
+  **Schrottannahmestelle** bleiben unverändert - eine Kundenannahme, ein Ankaufskurs oder eine Gebühr wird durch die
+  Koordinate **nicht** belegt. `status: pruefung`, `city`, `street` (leer), `postcode` (leer), `phone` (leer), `email`
+  (leer), `opening_hours` (leer), `website` (leer), `website_status` (leer) und `description` (leer) bleiben
+  unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/672987085/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/672987082/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1900,50.4450,7.2100,50.4600 ;
+  https://www.11880.com/branchenbuch/oberzissen/060440092B102731107/reinhardt-schrotthandel.html (Abruf 04.11.2026).]

@@ -58,3 +58,47 @@ Der alte Eintrag „Siegfried Petko u. Angelika Schrott & Metalle“ in Nordsees
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Siegfried Petko u. Angelika Schrott & Metalle` (Nordseestr. 10a, 26954 Nordenham; laut Dossier nicht als aktuelle Filiale der Petko Schrott & Metalle GmbH nachgewiesen) wurde im amtlichen Fachbetrieberegister weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Petko` -> **3 Treffer**, sämtlich `Petko Schrott & Metalle GmbH` (Düngstruper Straße 91, 27793 Wildeshausen, `ZZDT00100073 / 1` und `/ 2`) und `Petko Schrott & Metalle GmbH | Gewerbehalle` (Düngstruper Str. 89, 27793 Wildeshausen, `ZZDT00100073 / 3`) - **Namensvetter: anderer Standort (Wildeshausen), kein Eintrag für die Personenfirma in Nordenham**; `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Petko` -> **0 Treffer**; (2) Radiusabfrage mit **3 km** um die Dossier-Adresse `…/Entsorgungsfachbetriebe/adr=Nordseestr. 10a, 26954 Nordenham, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer**, ebenso die Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **0 Treffer** - **weder an der Nordseestr. 10a noch im Umkreis 3 km ein anerkannter Betrieb**; (3) zum Vergleich: dieselbe Radiusabfrage am Wildeshauser Standort der Petko GmbH liefert die drei Petko-Zeilen mit **0,0 km** - der Namensbefund betrifft also ausschließlich Wildeshausen. Für die Nordseestr. 10a gibt es im Register **keinen** Efb- und **keinen** AltfahrzeugV-Eintrag.
     Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
     Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Petko ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Petko ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Nordseestr.%2010a,%2026954%20Nordenham,%20Deutschland;8.4606219;53.4709767;8.53306270980604;53.51409563639957;8.388181090193958;53.427857763600436&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Nordseestr.%2010a,%2026954%20Nordenham,%20Deutschland;8.4606219;53.4709767;8.53306270980604;53.51409563639957;8.388181090193958;53.427857763600436&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - Klärfall mit neuem Fenster belegt aktualisiert.** Die Nachprüfung bestätigt die
+  Negativaussage der Vorwelle, diesmal mit einem **korrigierten und verifizierten Fenster**. **Fenster und Raster:**
+  Kachelraster **8.4506/53.4609 bis 8.4706/53.4809**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält die gesuchte Straße
+  **nachweislich**: die **Nordseestraße** in Abbehausen (26954 Nordenham) ist mit **2** Straßenobjekten
+  (way/1418987653, way/47323876, `highway`=residential) vollständig darin erfasst. **Census im Fenster:** **17**
+  Adressobjekte mit `addr:street`=Nordseestraße und `addr:postcode`=26954 mit **14** verschiedenen Hausnummern (1, 2,
+  3, 5, 5a, 6, 7, 8, 10, 12, 12a, 14, 16, 18) - die **Hausnummer 10a fehlt** in OSM weiterhin; der Belegbestand ist
+  zeichengleich mit dem Census vom 29.10.2026, es ist also **keine** neue Hausnummer hinzugekommen und der
+  Fensterfehler der Vorwellen liegt hier **nicht** vor. **Negativaussage, qualifiziert:** Das einzige Objekt mit
+  Branchenbezug trägt `craft`=**metal_construction** und `name`=**„Metallbau Minßen Inh. Christoph Albers"**
+  (node/3184130599, `addr:housenumber`=**12**, `addr:postcode`=26954, `addr:city`=Nordenham, 53.4712892/8.4593741) -
+  ein **anderer** Betrieb (Metallbau, keine Schrott- oder Altmetallfirma); die übrigen benannten Objekte sind ein
+  Getränkehandel (way/442654979, Nr. 1), ein Taxiunternehmen (node/3897964692, Nr. 18) und ein Gartenbaubetrieb
+  (way/422035069, Nr. 2). Eine Suche nach „petko", „schrott", „metall" und „abwrack" über alle Tag-Werte des Fensters
+  findet **kein** Objekt mit Bezug zum Dossier-Händler. **Zweite Quelle, weiterhin nicht erfüllt:** Die im Dossier
+  bereits zitierte **Betreiberseite** https://www.petko-metalle.de/impressum/ liefert am 04.11.2026 **HTTP 200** und
+  nennt live **„Petko Schrott & Metalle GmbH, Düngstruper Straße 91, 27793 Wildeshausen, Geschäftsführer: Markus
+  Petko"**; die Kontaktseite und die Navigationsleiste führen ausschließlich die Standorte **Wildeshausen, Bassum und
+  Osterholz-Scharmbeck** (dort ausdrücklich nur Lager) und **kein** Wort „Nordenham". Das **amtliche
+  Fachbetrieberegister** (Auszug 11.08.2026, im Dossier zitiert) führt für Nordenham drei andere Betriebe (MKV
+  Metall- und Kabelverwertung GmbH, Martin-Pauls-Straße 168; May Umweltdienste GmbH, Martin-Pauls-Straße 158a;
+  Nordenham Metall GmbH, Johannastraße 2) und keinen Betrieb „Petko". Für die **Personenfirma** „Siegfried Petko u.
+  Angelika" mit der Dossier-Adresse Nordseestr. 10a existiert damit **keine** Betreiber- oder Registerquelle; die
+  eBay- und Verzeichnisangaben stammen weiterhin aus einer Quelle und sind kein Beleg. **Konsequenz:** Die
+  Zwei-Quellen-Regel (OSM-Objekt **und** eine Betreiber-/Registerquelle für dieselbe Adresse) ist nicht erfüllt; eine
+  Position „neben Nr. 10" oder „ungefähr Nordseestraße" wäre **geraten**, weil die Adresse in OSM nicht abgebildet
+  ist. **Reichweite / Fehlbelegklausel:** Das Fehlen der **Hausnummer 10a** in OSM ist eine **OSM-Datenlücke**,
+  **kein** Nachweis, dass an der Anschrift kein Betrieb existiert - die Adressebene der Straße ist mit 14 Nummern
+  über den gesamten Verlauf dünn; umgekehrt belegt eine vorhandene Hausnummer **keinen** Betrieb. Der
+  **Nichteintrag** im Fachbetrieberegister beweist ebenfalls nichts, weil die Efb- und die AltfahrzeugV-Anerkennung
+  **freiwillig** sind. `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen Ersatzpunkt), `status: pruefung`,
+  `street`/`postcode`, Telefon, `website_status: unbekannt` und alle übrigen Frontmatter-Felder bleiben unverändert;
+  es wird **weder** eine Schließung **noch** das Fehlen eines Betriebs behauptet. **Nächster Schritt für den Owner:**
+  ein amtlicher Gewerbe- oder Betreibernachweis, der die Personenfirma oder einen Nachfolger an der Nordseestraße 10a
+  belegt; erst dann ist eine OSM-Hausnummerensuche sinnvoll. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4506,53.4609,8.4706,53.4809 ;
+  https://api.openstreetmap.org/api/0.6/node/3184130599.json ; https://www.petko-metalle.de/impressum/ ;
+  https://www.petko-metalle.de/kontakt/ ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Petko (Abruf
+  04.11.2026).]

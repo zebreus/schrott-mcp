@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG, Niederlassung Dresden-Hafen, Magdeburger Straße 58, 01067
+Dresden: Schrotthandel am Hafen mit eigenem Fuhrpark, Absetz- und Abrollcontainern und Ankauf
+von Eisen- und Nichteisenschrott für Privat-, Handwerks-, Gewerbe- und Industriekunden. Die
+Identität tragen das Impressum mit Amtsgericht Dortmund HRA 19743, der Registerspiegel zur
+Ausgliederung aus der TSR Recycling GmbH & Co. KG und das Efb-Zertifikat des Ingenieurbüros
+Ulbricht mit der Nummer 801.0237/25, gültig bis 22.04.2027, das die Anlagen 1 bis 3 der
+Niederlassung Dresden-Hafen zuordnet. Eine Preisliste ist nicht veröffentlicht; Privatkunden
+werden auf tagesaktuelle Sortenpreise vor Ort verwiesen. Offen bleiben die getrennte Hofzufahrt
+und die Abgrenzung zu den beiden anderen Betrieben an derselben Anschrift, der Scholz Recycling
+GmbH Dresden Hafen und dem Alberthafen der Sächsischen Binnenhäfen Oberelbe.
 
 ## Timeline
 

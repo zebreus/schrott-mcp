@@ -67,3 +67,49 @@ Van der Meulen Edelmetaal B.V. ist durch den eigenen niederländischen Auftritt 
   Anschrift oder Gewerberegisterauszug) — dann erneute OSM-Hausnummerensuche. Quelle(n): https://meulen.nl/contact/ ;
   https://www.gelbeseiten.de/gsbiz/2a511aa3-ae39-48d1-8d07-6aca24ceabf7 (Verzeichnislead) ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0400,53.5800,10.0600,53.6000 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Dossier-Adresse existiert in OSM, ist aber von einem ganz anderen Unternehmen
+  belegt.** Die Nachprüfung korrigiert einen **Fensterfehler** der Vorwelle und liefert zugleich einen neuen
+  Sachbefund. **Fehler der Vorwelle:** das am 03.11.2026 abgetastete Raster 10.0400-10.0600 / 53.5800-53.6000 liegt
+  rund **9 km nordöstlich** der Hans-Duncker-Straße (53.4910 N / 10.1149 E) und enthält dort nur Bramfelder und
+  Wellingsbütteler Straßen; die Aussage „kein Objekt mit `addr:street`=Hans-Duncker-Straße" war ein
+  **Fensterfehler**, kein Datenbefund. **Korrigiertes Fenster (live, vollständig): 10.1049/53.4809 bis
+  10.1249/53.5009**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json,
+  Abruf 04.11.2026); als Kontrollfenster wurden zusätzlich **10.0000/53.5950 bis 10.0300/53.6150** (**6 Kacheln**)
+  und **9.9800/53.5800 bis 10.0300/53.6000** (**10 Kacheln**) abgetastet. Das Fenster enthält die gesuchte Straße
+  **nachweislich**: die **Hans-Duncker-Straße** ist mit **19** Straßenobjekten darin erfasst (way/31349970,
+  way/38666456, way/52199619, way/53793980, way/53794139, way/130905874, way/130905876, way/158043025, way/158043027,
+  way/158043046, way/158043052, way/158043070, way/481345829, way/481346604, way/666397470, way/767474623,
+  way/767474624, way/884203924, way/884205766). **Census im Fenster:** **17** Adressobjekte mit
+  `addr:street`=Hans-Duncker-Straße und `addr:postcode`=21035 mit **17** verschiedenen Hausnummern (1, 2, 4, 5, 6, 7,
+  8, 9, 10, 11, 12, 13, **14**, 15, 16, 17, 21) - die Dossier-Hausnummer **14 existiert**. **Quelle 1 (OSM-Objekt,
+  live geladen 04.11.2026):** **way/230600464** (https://api.openstreetmap.org/api/0.6/way/230600464/full.json) trägt
+  `addr:housenumber`=**14**, `addr:street`=**Hans-Duncker-Straße**, `addr:city`=Hamburg, `addr:country`=DE,
+  `addr:postcode`=**21035**, `building`=office, `building:levels`=4, `roof:levels`=0 und `name`=**„Pandora EMEA
+  Distribution Center"** (Version 5, Stand 22.08.2021); das Objekt hat **9** eindeutige Knoten, der Mittelwert der
+  eindeutigen Knoten ist **53.4910368 / 10.1148722**, die Objekt-BBox ist 53.4907084/10.1139986 bis
+  53.4914461/10.1155547, der Punkt liegt **innerhalb** der BBox. Das Gebäude ist damit in OSM **einem anderen
+  Unternehmen zugeordnet** - einem Verteilzentrum der dänischen Schmuckmarke Pandora, **nicht** einem
+  Edelmetallrecycler. Eine Suche nach „Meulen", „Edelmetaal", „Waarborg" und „Schrott" über alle Tag-Werte des
+  Fensters findet **kein** weiteres Objekt. **Quelle 2 (Betreiber, live):** Die im Dossier zitierte Betreiberseite
+  https://meulen.nl/contact/ nennt live **Polderboskdyk 13-A, 8501 ZJ Joure (Niederlande)** und beschreibt die
+  Schmelze in **Joure**; eine Hamburger Niederlassung ist dort **nicht** ausgewiesen. Der im Dossier geführte
+  **Verzeichnislead** (Gelbe Seiten, live abgerufen 04.11.2026, HTTP 200: „Van der Meulen Edelmetaal B.V.,
+  Edelmetallrecycling, Hans-Duncker-Str. 14, 21035 Hamburg-Allermöhe") ist nach Repo-Quellenhierarchie **kein
+  Beleg**; seine Kartenkoordinate 53.490883/10.114892 deckt sich mit dem OSM-Objekt und belegt damit nur, dass der
+  Lead **dieselbe Adresse** meint - nicht, dass dort der Edelmetallrecycler sitzt. **Konsequenz:** Ein Punkt auf der
+  Hans-Duncker-Straße 14 würde das **Pandora-Verteilzentrum** als Dossier-Standort ausgeben; die niederländische
+  Koordinate (Joure) wäre eine falsche Zuordnung, weil der Dossier-Datensatz einen Hamburger Standort führt. Beides
+  ist unzulässig, deshalb **keine** Koordinate. **Reichweite / Fehlbelegklausel:** Dass in OSM an der
+  Hans-Duncker-Straße 14 ein **Pandora-Verteilzentrum** erfasst ist, belegt **nicht**, dass dort kein
+  Edelmetallrecycler existiert - Adress- und Nutzungsdaten in OSM können veraltet sein; es belegt aber ebenso wenig
+  einen Betrieb „Van der Meulen Edelmetaal B.V." an dieser Anschrift. `status: pruefung`, `website_status:
+  unbekannt`, `street`/`postcode` (beide leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird
+  **keine** Schließung behauptet. **Nächster Schritt für den Owner:** Nachweis einer tatsächlich in Hamburg
+  betriebenen Niederlassung (Impressum mit Hamburger Anschrift oder Gewerberegisterauszug) - dann erneute
+  OSM-Hausnummerensuche. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1049,53.4809,10.1249,53.5009 ;
+  https://api.openstreetmap.org/api/0.6/way/230600464/full.json ; https://meulen.nl/contact/ ;
+  https://www.gelbeseiten.de/gsbiz/2a511aa3-ae39-48d1-8d07-6aca24ceabf7 (Verzeichnislead) (Abruf 04.11.2026).]

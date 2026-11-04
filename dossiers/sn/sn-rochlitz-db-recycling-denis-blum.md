@@ -1,6 +1,7 @@
 ---
 slug: sn-rochlitz-db-recycling-denis-blum
-clear_fields: 'dropoff_json,geo'
+lat: 51.0475812
+lon: 12.8084114
 name: DB Recycling (Denis Blum)
 trader_type: schrotthaendler
 state: SN
@@ -13,6 +14,7 @@ opening_hours: ''
 website: https://www.dein-schrottplatz.de
 website_status: aktiv
 status: aktiv
+clear_fields: 'dropoff_json'
 description: 'DB Recycling, Metall & Schrotthandel, Inhaber Denis Blum, Schützenstr. 6, 09306 Rochlitz (Betreiber-Website dein-schrottplatz.de; Einzelunternehmen ohne HRB, USt-IdNr DE 229 910 409, Steuernummer 222/208/04686). Leistungen: An- und Verkauf von Schrott und Buntmetallen, Altpapier- und Altkleiderankauf, Gold-, Silber-, Platin- und Katalysatorankauf, Hartmetallankauf, Autoverwertung mit kostenloser Abholung, Containerdienst 3,5 bis 38 cbm. ANKAUF: Einkaufspreisliste je kg, gültig ab 03.10.2026, am 29.10.2026 unverändert abrufbar. GEBÜHREN: Entsorgungskosten laut Preisliste (Sperrmüll 300 EUR/t, Bauschutt sauber 40 EUR/t, Grünschnitt und Altholz 150 EUR/t, Transport Absetzcontainer 100 EUR). VERKAUF: kein Verkauf gebrauchter Ersatzteile. Laut Preisliste besteht für Textilien und Schuhe ein Annahmestopp. Weitere laut Betreiber genannte Standorte: Colditzer Str. 14, 09306 Rochlitz und Goethestr. 83, 09217 Burgstädt.'
 dropoff_json: ''
 pickup_json: ''
@@ -61,3 +63,42 @@ provenance_origin: table
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: Die Preisseite ist am 29.10.2026 wieder erreichbar (HTTP 200) und trägt weiterhin die Angabe "Gültig ab 03.10.2026"; die in der Owner-Korrektur vom 27.10.2026 dokumentierte Preistabelle besteht damit fort, ohne dass ein neuerer Gültigkeitsstand vorläge. ANKAUF (Einkaufspreise des Betreibers, je kg, gültig ab 03.10.2026): Hartmetall 45,00; Cu Raff 92% 9,20; Cu schwer 10,00; Cu Oberleitung/Freileitung 10,00; Cu Lackdraht/Berry 9,70; Cu Millberry 11,40; Ms schwer 6,20; Ms Raff max. 10% Anhaftung 4,00; Ms Raff Späne 5,00; Cu-Ms Kühler o. Fe 5,00; Al Draht blank 1,90; Al Freileitung o. Fe 1,70; Al Profil Si 0,5 blank 1,90; Al Felgen sauber 2,00; Al Blech/Guß mit 2% Fe 1,00; Al Getriebe 0,40; Al-Cu Kühler o. Fe 4,20; Cu-Shredderkabel 3,80; Cu-Schlitzkabel 60% 5,80; Al-Shredderkabel 0,10; Al-Schlitzkabel 1,00; Zinkblech 2,00; Reinzinn 30,00; Altblei 1,20; Wucht-/Kabelblei 0,40; Batterieblei/Bleiakkus 0,30; Chromstahl 0,16; V2A 0,80; V4A 1,60; E-motoren 0,80; Getriebemotoren 0,30; Schwerer Scherenschrott 0,15; Leichter Scherenschrott 0,13; Kernschrott 0,18; Gußschrott 0,18; Mischschrott 0,10; Schreddervormaterial 0,05; PC-komplett 0,60; Laufwerk 0,20; Festplatte 1,40; Netzteil 0,20; Leiterplatte Klasse 1 10,00; Leiterplatte Klasse 3 0,80; Altpapier 0,08. GEBÜHREN, getrennt davon und ausdrücklich als "Entsorgungskosten" bezeichnet: Sperrmüll "Netto 0,3= 300EUR/t"; Bauschutt sauber "Netto 0,04=40 EUR/t"; Grünschnitt/Altholz "Netto 0,15= 150EUR/t"; "Transport Absetzcontainer 100,00 EUR". Das sind Betreiberkosten für die Entsorgung und keine Ankaufpreise; kommunale Wertstoffhof-Tarife wurden nicht übernommen. ANNAHME: In der Spalte "Vergütung" steht für Textilien und für Schuhe jeweils "Annahmestopp", eine materialbezogene Annahmegrenze des Betreibers. VERKAUF: die Autoverwertungsseite nennt ausdrücklich "kein Verkauf von gebrauchten Ersatzteilen" und daneben "Ankauf von Gebrauchtwagen", "kostenlose Autoverwertung", "kostenlose Abholung innerhalb von 24h" und "Abholung der Fahrzeuge innerhalb von 48 Stunden"; eine Verkaufspreisliste existiert nicht. CONTAINER: Absetzcontainer 3,5 bis 10 cbm und Abrollcontainer 7,0 bis 38 cbm, "Bei Absprache auch nach 14 Tagen keine Standgebühren", "Container mit Deckel oder Klappe ohne Aufpreis", laut Über-uns-Seite "Containerstellung ab 1 Tonne kostenlos"; Standorte laut Autoverwertungsseite: Schützenstr. 6 (09306 Rochlitz), Colditzer Str. 14 (09306 Rochlitz) und Goethestr. 83 (09217 Burgstädt), die beiden letzten sind im Dossier bisher nicht erfasst. Impressum: Inhaber Denis Blum, Schützenstr. 6, 09306 Rochlitz, Steuernummer 222/208/04686, USt-IdNr DE 229 910 409, Aufsichtsbehörde Regierungspräsidium Chemnitz, keine HRB-Nummer (Einzelunternehmen), deshalb bleibt die Zwei-Quellen-Standardregel maßgeblich und Straße und PLZ werden weiterhin nicht strukturiert übernommen. OSM: die Schützenstraße in Rochlitz trägt 11 Adressobjekte mit 11 verschiedenen Hausnummern (1, 2, 3, 5, 6, 6 A, 7, 7a, 9, 10, 14), die Hausnummer 6 existiert, ein Objekt mit Bezug zu DB Recycling oder Schrottplatz existiert dort nicht; die Colditzer Straße trägt 25 Adressobjekte mit 24 verschiedenen Hausnummern (die Nummer 14 existiert), die Goethestraße in Burgstädt 28 Objekte mit 27 verschiedenen Hausnummern (die Nummer 83 fehlt dort). Der kommunale Wertstoffhof Rochlitz (way/309156986, Colditzer Straße 5b) ist mit `recycling:scrap_metal=yes` erfasst und damit kommunal, nicht dieser Betreiber. Quelle(n): https://www.dein-schrottplatz.de/pages/preise.php (Abruf 29.10.2026); https://www.dein-schrottplatz.de/pages/leistungen/autokauf-autoverwertung.php (Abruf 29.10.2026); https://www.dein-schrottplatz.de/pages/leistungen/containerdienst.php (Abruf 29.10.2026); https://www.dein-schrottplatz.de/pages/ueber-uns.php (Abruf 29.10.2026); https://www.dein-schrottplatz.de/pages/kontakt/impressum.php (Abruf 29.10.2026); https://www.dein-schrottplatz.de/pages/ankauf/hartmetall-ankauf.php (Abruf 29.10.2026); OSM-API (Abruf 29.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 51.0475812, 12.8084114** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/202082310**, sechs eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  12.8082061/51.0473368 bis 12.8087316/51.0478403). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/202082310** trägt `landuse`=industrial, `name`=**SMS - Sterns Metall & Schrotthandel**, `operator`=**Marco
+  Stein**, `website`=**https://www.sms-rochlitz.de/**, `phone`=+49 3737 7864315 und
+  `email`=sms-rochlitz@t-online.de - das ist ein **Betriebsobjekt mit Betriebsbezug** an der Dossier-Anschrift; die
+  **Hausnummer 6** ist im selben Raster als **way/202082302** belegt (`addr:street`=Schützenstraße,
+  `addr:housenumber`=**6**, `addr:city`=Rochlitz, `addr:postcode`=09306, `addr:country`=DE,
+  `building`=commercial). **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster
+  über Rochlitz umfasst **12.8000/51.0400 bis 12.8200/51.0600**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**;
+  das Fenster enthält die gesuchte Straße **nachweislich** mit **11** Adressobjekten auf „Schützenstraße" und den
+  Hausnummern 1, 2, 3, 5, 6, 6 A, 7, 7a, 9, 10 und 14 - die **Dossier-Hausnummer 6 existiert** und ist im Raster das
+  einzige Objekt mit dieser Nummer auf dieser Straße. Quelle 2 (Betreiber, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): das **Impressum** https://www.dein-schrottplatz.de/pages/kontakt/impressum.php liefert
+  **HTTP 200** und nennt live **„DB Recycling, Inhaber: Denis Blum, Schützenstr. 6, 09306 Rochlitz, Telefon:
+  (0 37 37) 7 86 43 15, Fax: (0 37 37) 7 86 43 16, Mobil: (0162) 8938850, E-Mail: info@dein-schrottplatz.de,
+  Umsatzsteuer-Identifikationsnummer DE 229 910 409"**; die **Kontaktseite** nennt live dieselbe Anschrift und
+  dieselben Rufnummern. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'dropoff_json,geo'` wurde um das
+  Token **geo** gekürzt (das Token `dropoff_json` bleibt **unverändert** bestehen), weil der Seed jetzt eine belegte
+  Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt auf der
+  durch zwei unabhängige Quellen gedeckten Anschrift. **Abgrenzung (ausdrücklich offengelegt):** Das OSM-Betriebsobjekt
+  trägt den **Geschäftsnamen „SMS - Sterns Metall & Schrotthandel"** und die Website **sms-rochlitz.de**, nicht
+  „DB Recycling" / **dein-schrottplatz.de**; die **beiden Auftritte gehören demselben Inhaber Denis Blum** an
+  derselben Anschrift mit denselben Rufnummern und derselben USt-IdNr - die im Dossier dokumentierte Beobachtung,
+  dass die beiden Websites **keine unabhängigen Standortquellen** sind und **keinen** getrennten Parallelbetrieb
+  belegen, bleibt damit bestehen. Der Punkt bezeichnet den **Standort**, nicht zwei getrennte Betriebe; die Dossierzeilen
+  `sn-rochlitz-db-recycling-denis-blum` und `sn-rochlitz-09306-sms-sterns-metall-schrotthandel` werden **nicht**
+  verschmolzen. Ebenso bleibt der im Dossier dokumentierte **Mehrstandort-Hinweis** unberührt (Schützenstr. 6,
+  Colditzer Str. 14 und Goethestr. 83 in Burgstädt); gesetzt ist der **Standort Schützenstr. 6**. **Qualifizierung
+  (unverändert übernommen):** `status: aktiv`, `city`, `street` (leer), `postcode` (leer), `phone` (leer), `email`
+  (leer), `opening_hours` (leer), `website`, `website_status` und `description` bleiben unverändert; die
+  `dropoff_json`-Rücknahme (keine pauschale Anlieferzusage) bleibt unberührt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/202082310/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/202082302/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.8000,51.0400,12.8200,51.0600 ;
+  https://www.dein-schrottplatz.de/pages/kontakt/impressum.php (Abruf 04.11.2026).]

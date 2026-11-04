@@ -1,5 +1,7 @@
 ---
 slug: th-amt-creuzburg-nowatzky-recycling
+lat: 51.0764589
+lon: 10.3371705
 name: Nowatzky Recycling GmbH
 trader_type: sonstige
 state: TH
@@ -12,7 +14,7 @@ opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-clear_fields: 'geo'
+clear_fields: ''
 description: 'Registerzweck: Aufarbeitung von Baumaterialien; aktuelle öffentliche Schrottannahme oder Schrottankauf nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
@@ -45,3 +47,46 @@ Die Nowatzky Recycling GmbH ist als HRB 402795 beim Amtsgericht Jena geführt; N
 
 - Recycling?
 - Adresse: Amt Creuzburg
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.0764589/10.3371705** (Mittel der 7 eindeutigen Knoten von
+  way/801013550; der Punkt liegt innerhalb der Objekt-BBox
+  51.0763702/10.3370970–51.0765612/10.3372730). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/801013550** trägt `addr:street`=Münsterstraße, `addr:housenumber`=**22**,
+  `addr:postcode`=99831, `addr:city`=Amt Creuzburg, `addr:suburb`=**Mihla**, `building`=house -
+  Straße, Hausnummer, PLZ, Ort **und der Ortsteil** stimmen mit der im Dossier dokumentierten
+  **Registeranschrift Münsterstr. 22, 99831 Amt Creuzburg** überein (die Lage in **Mihla** präzisiert
+  den Dossier-Ort). Das Objekt trägt **weder `name=` noch `operator=`**; es ist eine **Adressangabe**
+  eines Wohnhauses, kein Betriebs-POI. Quelle 2 (Register, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): die NorthData-Unternehmensseite
+  https://www.northdata.com/Nowatzky%20Recycling%20GmbH,%20Amt%20Creuzburg/Amtsgericht%20Jena%20HRB%20402795
+  liefert HTTP 200 und nennt **„Nowatzky Recycling GmbH, Amt Creuzburg, Amtsgericht Jena HRB 402795,
+  EUID DEY1206.HRB402795, Münsterstr. 22, 99831 Amt Creuzburg, Germany, Geschäftsführer Uwe
+  Nowatzky“** (Sitzverlegung 09.01.2020 auf Amt Creuzburg) - die Dossier-Adresse ist damit
+  registergestützt bestätigt. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster umfasst **10.3300/51.0700 bis 10.3400/51.0800**, **1 Kachel von je 0,01
+  Grad**, **0 Kachel-Fehler**, **9.120 Elemente**; das Fenster enthält die gesuchte Straße
+  **„Münsterstraße“ nachweislich** mit den beiden Straßenobjekten **way/35266275** und
+  **way/263693842** (`highway`=tertiary) sowie **22 Adressobjekten** auf „Münsterstraße“ mit **22
+  verschiedenen Hausnummern** (17, 19, 20, **22**, 23–30, 32, 34, 36, 38, 40 sowie 20a, 23a, 24a, 38a) -
+  die **Dossier-Hausnummer 22 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf
+  dieser Straße. **Negativaussage, qualifiziert:** im Raster tragen **201 Objekte** `name=` oder
+  `operator=`; **mit Bezug zu „Nowatzky“, „Recycling“, „Schrott“, „Bauschutt“ oder „Container“** trifft
+  es auf **kein** Objekt dieser Adresse - weder die GmbH HRB 402795 noch ein Recyclinghof ist in OSM
+  kartiert; der Punkt bezeichnet ausschließlich die **Registeranschrift**. **Betreiberkonflikt,
+  ausdrücklich festgehalten:** die im Dossier zitierte **ThEGA-Unternehmensdatenbank** nennt für die
+  Nowatzky Recycling GmbH dieselbe Anschrift, während das unter **nowatzky.de** erreichbare Impressum
+  die **BTC Nowatzky GmbH (HRB 400876)** an **„Auf der Struth 1“** ausweist - die beiden
+  Rechtsträger und Adressen werden **nicht** vermengt, und es wird **nicht** behauptet, dass die
+  Nowatzky Recycling GmbH die Anlage auf der Münsterstraße 22 betreibt. **Qualifizierung (unverändert
+  übernommen):** Der Punkt bezeichnet die **Register-/Geschäftsanschrift**, **nicht** eine bestätigte
+  öffentliche Annahme, keinen Eingangspunkt und keine Waage; die im Dossier offenen Punkte
+  (Betreiberzuordnung zwischen HRB 402795 und HRB 400876, aktueller Kundenbetrieb, konkrete
+  Ankaufpreise, Verkaufspreise und Entsorgungsgebühren) bleiben unverändert. `status` bleibt
+  `pruefung`, `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und
+  `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/801013550/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.3300,51.0700,10.3400,51.0800 ;
+  https://www.northdata.com/Nowatzky%20Recycling%20GmbH,%20Amt%20Creuzburg/Amtsgericht%20Jena%20HRB%20402795
+  (Abruf 04.11.2026).]

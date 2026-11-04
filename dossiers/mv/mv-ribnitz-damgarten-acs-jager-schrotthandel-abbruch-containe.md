@@ -50,3 +50,39 @@ provenance_origin: table
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott, Abbruch, Container
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **ACS Jäger** sind Betreiberidentität,
+  heutige Betriebsstätte und öffentliche Annahme nicht bestätigt, die zitierten Lead-Seiten sind heute **nicht mehr
+  abrufbar**, und die Dossier-Adresse **Bei den Borger Tannen 8, 18311 Ribnitz-Damgarten-Borg** ist im abgetasteten
+  Stadtbereich **nicht** erfasst. Quelle 1 (OSM, live geprüft am 04.11.2026): **Fensterprüfung (kein Fensterfehler):**
+  das am 04.11.2026 live abgerufene Kachelraster umfasst **12.4400/54.2800 bis 12.4900/54.3100**, **12 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**; das Fenster erfasst den **Stadtbereich Ribnitz-Damgarten** mit **194**
+  Adressobjekten auf **14** Straßen (Damgartener Straße, Gutsstraße, Hafenweg, Heideweg, Hummelberg, Langendammer
+  Straße, Saaler Chaussee, Schwarze Straße, Seereihe, Waldemar-Schröder-Weg, Waldreihe, Wasserreihe, Weidensteig, Zum
+  Deich) - eine Straße **„Bei den Borger Tannen"** ist dort **nicht** erfasst, und die Dossier-Hausnummer **8** findet
+  sich auf keiner dieser Straßen. Eine Suche nach **„ACS Jäger"** und **„Andreas Jäger"** über die Felder name,
+  operator, brand, description, website, contact:website, shop, craft, amenity, landuse, man_made und industrial findet
+  im Fenster **keinen** Treffer - es gibt **keine** OSM-Betriebszuordnung. Das Raster deckt **nicht** den Ortsteil
+  **Borg** ab, das Fehlen der Straße im Stadtbereich ist deshalb **kein** Nachweis gegen deren Existenz, aber **auch
+  kein** Beleg für einen Standort des Betriebs. Quelle 2 (Verzeichnis/Betreiber, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): die Portal-Adresse
+  https://adresse.dastelefonbuch.de/Ribnitz-Damgarten/2-0115907281761-Container-ACS-J%C3%A4ger-Ribnitz-Damgarten-Bei-den-Borger-Tannen.html
+  liefert heute **HTTP 410 (Gone)** und das Stadtbranchenbuch
+  https://ribnitz-damgarten.stadtbranchenbuch.com/3369216.html **HTTP 403**; der im Dossier dokumentierte Stand war
+  „Andreas Jäger", **Bei den Borger Tannen 8, 18311 Ribnitz-Damgarten-Borg**, mit **zwei** voneinander abweichenden
+  Telefonnummern (03821 708737 laut Das Telefonbuch, 0175 7847211 laut Stadtbranchenbuch) - beides **Verzeichnisleads**,
+  keine Betreiberbestätigung. Die Betreiberdomain **http://www.acs-jaeger.de** bleibt **blockiert** (HTTP 403/Timeout)
+  und wurde **nicht** mit der namensähnlichen, **anderen** Firma `jaeger-acs.de` aus Großkarolinenfeld gleichgesetzt.
+  **Warum keine Koordinate:** die zitierten Lead-Seiten sind heute **nicht mehr abrufbar**, die Telefonnummer bleibt
+  widersprüchlich und eine Betreiber- oder Registerquelle fehlt; die Dossier-Adresse ist damit **nicht mehr belegbar**
+  (und in OSM ohne Betriebsbezug), eine Punktwahl wäre eine **Rathausnahme**. `clear_fields: 'dropoff_json,geo'`
+  **bleibt** unverändert bestehen (es gibt keinen Ersatzpunkt), `status: pruefung` bleibt, Ankauf-, Verkaufs- und
+  Gebührenangaben bleiben unbelegt, es wird **keine** Schließung behauptet. **Reichweitenklausel:** die
+  Nichterreichbarkeit der Verzeichnisse und das Fehlen eines OSM-Tagings sind **kein** Nachweis für das Fehlen oder die
+  Auflösung des Betriebs. Offen bleiben Inhaber, Standort und Annahme; erst nach deren Bestätigung ist zu geokodieren.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.44,54.28,12.49,54.31 ;
+  https://adresse.dastelefonbuch.de/Ribnitz-Damgarten/2-0115907281761-Container-ACS-J%C3%A4ger-Ribnitz-Damgarten-Bei-den-Borger-Tannen.html
+  (HTTP 410 am 04.11.2026) ; https://ribnitz-damgarten.stadtbranchenbuch.com/3369216.html (HTTP 403 am 04.11.2026) ;
+  http://www.acs-jaeger.de (blockiert, Abruf 04.11.2026).]

@@ -48,3 +48,37 @@ Schrott24/Metaloop ist ein aktives Onlineangebot; das aktuelle Impressum nennt M
 
 - alle Altmetalle, Paketversand/Abholung/Container, Express-Auszahlung
 - größte EU-Plattform, eigene SN-Preisseiten
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Schrott24/Metaloop ist eine **Online-Plattform
+  ohne zugeordnete lokale Annahmeadresse** in Sachsen: Die Betreiber-Website nennt zwar drei sächsische Standorte,
+  gibt aber **keine Straße und keine Hausnummer** an - die genaue Anlieferadresse wird den Kundinnen und Kunden erst
+  **nach Verkaufsabschluss** per E-Mail mitgeteilt. Ein OSM-Objekt mit Betriebsbezug existiert dazu **nicht**.
+  **Was live geprüft wurde (04.11.2026):** Das am 04.11.2026 live abgerufene Kachelraster über den drei
+  sächsischen Standortstädten umfasst **13.7400/51.0300–13.7600/51.0500** (Dresden), **12.9300/50.9300–12.9500/50.9500**
+  (Chemnitz) und **12.5400/51.3300–12.5600/51.3500** (Leipzig), **je 4 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**;
+  eine Namenssuche nach **„Metaloop"** und **„Schrott24"** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet in **keinem** der drei Raster einen Treffer - es gibt also
+  **kein** kartiertes Betriebsobjekt, dessen Mittelwert sich setzen ließe. Quelle 1 (OSM): die live abgerufenen
+  Kachelraster über Dresden, Chemnitz und Leipzig **ohne** Treffer für „Metaloop" oder „Schrott24". Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **Standortseite**
+  https://www.schrott24.de/standorte liefert **HTTP 200** und nennt live unter **„Sachsen : Chemnitz, Dresden,
+  Leipzig"** sowie den Hinweis **„Genaue Anlieferadresse und Öffnungszeiten erhalten Sie nach Verkaufsabschluss
+  automatisch per E-Mail"**; das **Impressum** https://www.schrott24.de/faq/impressum liefert **HTTP 200** und nennt live
+  **„Unternehmensname: Metaloop Europe GmbH, Rechtsform: Gesellschaft mit beschränkter Haftung (GmbH), Sitz der
+  Gesellschaft: Puchstraße 17, 8020 Graz, Österreich, Firmenbuchnummer: FN 638630 m"** - der Sitz liegt also in
+  **Österreich**, nicht in Sachsen. **Warum keine Koordinate:** (a) die Betreiber-Website gibt für Sachsen **keine
+  konkrete Annahmeadresse** preis; (b) eine der drei genannten Städte auszuwählen, wäre eine **Ratenentscheidung**
+  ohne Beleg und würde zudem eine **Annahmestelle** suggerieren, die es so nicht gibt; (c) der Sitz der Rechtsträgerin
+  liegt in Graz/Österreich, eine dortige Koordinate wäre **nicht** die Dossierzeile „in SN tätig". **Reichweitenklausel:**
+  Das **Fehlen eines Betriebsobjekts** in OSM und das **Fehlen einer offengelegten Straße** auf der Website sind
+  **keine** Nachweise für das Fehlen des Angebots - der Online-Ankauf mit Paketversand und Abholung ist im Dossier
+  belegt und bleibt unberührt. **Was zur Auflösung fehlt:** die nach einem konkreten Verkaufsabschluss mitgeteilte
+  **Anlieferadresse eines sächsischen Standorts** (bzw. eine Karte mit Straße und Hausnummer) oder ein
+  OSM-Objekt mit `operator`=Metaloop Europe GmbH. `status: aktiv`, `city` („online"), `street` (leer), `postcode`
+  (leer), `phone` (leer), `email` (leer), `opening_hours` (leer), `website`, `website_status` und `description`
+  bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=13.7400,51.0300,13.7600,51.0500 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.9300,50.9300,12.9500,50.9500 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.5400,51.3300,12.5600,51.3500 ;
+  https://www.schrott24.de/standorte ; https://www.schrott24.de/faq/impressum (Abruf 04.11.2026).]

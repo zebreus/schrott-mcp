@@ -27,7 +27,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Drosdz Rohstoffrecycling, Peitnachstraße 12, 86956 Schongau: Zweigniederlassung der Scherrieble
+Sekundärrohstoffe AG mit Verwaltungssitz Entennest 1, 73730 Esslingen, Amtsgericht Stuttgart
+HRB 721599, Vorstand Georg Hartmann, die Schrott und Altmetalle handelt. Die Identität tragen
+das PÜG-Entsorgungsfachbetriebs-Zertifikat K00645 mit dem Vorgang ZZHT0040031020011, gültig bis
+03.06.2027, das die Anlage dieser Anschrift zuordnet, die PZERT-Bescheinigung für eine
+Altfahrzeug-Annahmestelle, die GewAbfVO-Bestätigung, das Zertifikat für Aktenvernichtung nach
+ISO/IEC 21964 sowie der Registereintrag im Registerspiegel. Ankauf- und Verkaufspreise sind
+nicht beziffert, ebenso wenig Gebühren, und die Öffnungszeiten stammen aus Verzeichnissen.
+Offen bleibt der Standortnachweis, da OSM die Hausnummer 12 ohne Namens- oder Betreibertag
+führt, sowie die fehlende Umsatzsteuer-Identifikationsnummer der AG.
 
 ## Timeline
 

@@ -69,3 +69,49 @@ Die offizielle Immobilienseite der **AlsterCity** beschreibt Osterbekstraße **9
   https://schrottregister.pages.dev/ort-hamburg ; https://diealstercity.de/ ;
   https://firmenzone.com/business/hamburg-schrott (Verzeichnislead) ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0200,53.5700,10.0400,53.5800 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - aber die Negativaussage der Vorwelle war sachlich falsch und wird hiermit
+  korrigiert.** Die Dossier-Adresse **Osterbekstr. 90B** ist in OSM **nachweislich vorhanden**; die Vermerk vom
+  03.11.2026 war **ein Fensterfehler plus Schreibweise-Fehler**. **Fehler 1 (Fenster):** das dort abgetastete Raster
+  53.5700-53.5800 / 10.0200-10.0400 endet rund **0,9 km südlich** des Objekts (53.5829 N) und enthält die
+  betreffenden Adressobjekte gar nicht. **Fehler 2 (Schreibweise):** in OSM ist die Hausnummer **90b** (klein
+  geschrieben) erfasst, nicht „90B"; ein exakter Vergleich „90B" gegen „90b" findet nichts. **Korrigiertes Fenster
+  (live, vollständig): 10.0200/53.5620 bis 10.0400/53.5920**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält die gesuchte Straße
+  **nachweislich**: die **Osterbekstraße** ist mit **15** Straßenobjekten darin erfasst (way/1160822245,
+  way/1160822564, way/24273396, way/24379410, way/37557040, way/145893952, way/1160822274, way/1160822376,
+  way/1219754213, way/1219754214, way/24537309, way/25000710, way/163732931, way/1172062836, way/1172062987).
+  **Census im Fenster:** **47** Adressobjekte mit `addr:street`=Osterbekstraße und `addr:postcode`=22083 mit **42**
+  verschiedenen Hausnummern (60, 62, 64, 66, 68, 76, 78, 78a, 78b, 78c, 79, 80, 82, 84a, 84b, 84c, 86, 90a, **90b**,
+  90c, 92a, 92b, 92c, 92d, 92e, 92f, 92g, 92h, 92i, 92k, 94, 96, 100, 101, 102, 103, 104, 107, 107a, 107b, 107c,
+  107d) - die Dossier-Hausnummer 90b ist damit belegt. **Quelle 1 (OSM, live geladen 04.11.2026):** **zwei** Objekte
+  tragen `addr:housenumber`=**90b** und `addr:street`=Osterbekstraße: **node/1754112219** (`addr:city`=Hamburg,
+  `addr:postcode`=22083, `entrance`=main, **ohne** `name` und **ohne** `operator`, 53.5829070/10.0284386) und
+  **node/1636827185** (`addr:city`=Hamburg, `addr:country`=DE, `addr:postcode`=22083, `leisure`=**sports_centre**,
+  `sport`=athletics, `name`=**„Turnhalle-HH"**, `opening_hours`=Mo,We,Fr 07:00-22:30; Tu,Th 09:00-22:30; Sa,Su
+  10:00-19:00, `wheelchair`=yes). **Quelle 2 (Betreiber-/Register, weiterhin nicht erfüllt):** Die im Dossier
+  zitierten Quellen sind **keine** Betreiber-/Registerbelege für diese Adresse - die **AlsterCity-Immobilienseite**
+  (diealstercity.de) belegt nur das **Adressumfeld** (Osterbekstraße 90 a-c / Weidestraße 122 a-d als Büro- und
+  Geschäftshauskomplex mit rund 90.000 m² Bürofläche), die **Firmenzone-Seite** nur generische
+  Kfz-Werkstattleistungen zu einem **Aggregator-Namen** (nach Repo-Quellenhierarchie ein Lead, kein Beleg); das
+  **amtliche Fachbetrieberegister** (Auszug 11.08.2026) kennt weder einen Eintrag „Hamburg schrott" noch die Adresse,
+  und die **amtliche Branchenbuch-Liste** der Stadt Hamburg führt dort keinen Schrottbetrieb. **Warum trotzdem keine
+  Koordinate:** (a) die Zwei-Quellen-Regel ist nicht erfüllt - Aggregator-Lead plus Adressobjekt ist ein
+  **Einzelbeleg**; (b) die beiden OSM-Objekte tragen **keinen** Bezug zum Dossier-Händler, im Gegenteil ist 90b in
+  OSM als **Turnhalle** (`leisure`=sports_centre) kartiert; (c) ein Punkt an 90b würde einen **Büro- und
+  Sportkomplex** als Annahmeplatz suggerieren, wofür es keinen Beleg gibt. **Negativaussage, qualifiziert:** Auf der
+  Osterbekstraße trägt **kein** Objekt einen Namens-, Betreiber- oder Branchenbezug zu „Hamburg schrott" bzw. zu
+  einem Schrott- oder Metallhandel; die gefundenen Namensobjekte gehören zu anderen Betrieben. **Reichweite /
+  Fehlbelegklausel:** Dass die Hausnummer 90b in OSM existiert, belegt **die Adresse**, **nicht** den Betreiber
+  „Hamburg schrott" und **nicht** einen Schrottbetrieb; umgekehrt belegt der Register-Nichteintrag **kein** Fehlen
+  eines Betriebs (die Efb-Anerkennung ist **freiwillig**). `status: pruefung`, `street`/`postcode` (letzteres leer)
+  und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **weder** eine Schließung **noch** das Fehlen
+  eines Schrottbetriebs dort behauptet. **Nächster Schritt für den Owner:** namentlicher Gewerbe- oder
+  Betreibernachweis für „Hamburg schrott" an der Osterbekstraße 90b sowie Klärung „Büro- bzw. Sportadresse vs.
+  Materialannahme"; erst dann ist die Koordinate sinnvoll. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0200,53.5620,10.0400,53.5920 ;
+  https://api.openstreetmap.org/api/0.6/node/1754112219.json ;
+  https://api.openstreetmap.org/api/0.6/node/1636827185.json ; https://schrottregister.pages.dev/ort-hamburg ;
+  https://diealstercity.de/ ; https://firmenzone.com/business/hamburg-schrott (Verzeichnislead) (Abruf 04.11.2026).]

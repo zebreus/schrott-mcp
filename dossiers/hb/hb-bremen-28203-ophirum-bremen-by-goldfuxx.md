@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+OPHIRUM Bremen by GOLDFUXX, Fedelhören 12, 28203 Bremen: Edelmetallfiliale der Ophirum GmbH mit
+Sitz Friedensstraße 6-10 in Frankfurt, Amtsgericht Frankfurt HRB 87050, die Alt- und Bruchgold,
+Silber, Platin, Palladium und Versandankauf annimmt. Die Identität tragen die
+Filialdetailseite, das Impressum und der separat geöffnete Registerspiegel, während die
+Filialseite Anschrift, Rufnummer 0421 41650555 und die Öffnungszeiten Montag bis Freitag 10 bis
+13 und 14 bis 18 Uhr sowie Samstag 10 bis 13:30 Uhr ausweist; in OSM trägt das Gebäude an
+Fedelhören 12 den Nummernbereich 12 bis 13. Die veröffentlichte Legierungstafel ist ein in
+Echtzeit laufender Referenzkurs und kein Ankaufpreis, während die Filialseite für Barren und
+Münzen Endpreise nennt; ein Schrottankaufpreis fehlt. Offen bleibt die Einordnung von GOLDFUXX,
+da die Marke ohne örtliche Identitätsbelege nicht als eigene Verkaufsstelle gezählt wird.
 
 ## Timeline
 

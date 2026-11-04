@@ -107,3 +107,44 @@ Der aktuelle, belegte Betrieb Michael Lüpcke GmbH sitzt in Wardenburg (HRB 2031
   https://api.openstreetmap.org/api/0.6/way/1174999689/full.json ;
   https://container-luepcke.de/wp-content/uploads/2026/01/EFB-Zertifikat-2026.pdf ;
   https://container-luepcke.de/impressum/ (Abruf 04.11.2026).]
+
+### Geokodierung 04.11.2026 (Nachprüfung)
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt; die Hausnummer 35 fehlt in OSM weiterhin, der Fensterfehler der letzten
+  Welle liegt hier nicht vor.** Die Nachprüfung bestätigt den Vermerk vom 04.11.2026 am OSM-Bild und schließt ihn mit
+  den Betreiberquellen ab. **Quelle 1 (OSM, live abgerufen am 04.11.2026):** Kachelraster über Wardenburg-Hundsmühlen
+  (**8.1600/53.1000 bis 8.2000/53.1200**, **8 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, live über
+  `https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1600,53.1000,8.2000,53.1200`): die
+  **Diedrich-Dannemann-Straße** ist im Raster **vollständig** mit **17** Straßenobjekten enthalten (way/289046960,
+  way/289046961, way/337176268, way/1174999690, way/1174999710, way/1174999686, way/1174999687, way/1174999689,
+  way/1175477569, way/1535595428, way/1535595429, way/1535595430, way/1535595431 sowie vier Stützpunktknoten
+  node/6681619352 bis node/6681619355) und trägt **60** Adressobjekte mit **61** verschiedenen Hausnummern in
+  Rohschreibweise (1, 3, 3A, 5, 5A, 6, 7, 7a, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 21, 22, 22a, 22b,c, 22c, 23,
+  25, 26, **30**, **36**, 53, 55, 61, 61C, 63a, 63b, 63c, 63d, 65a, 65b, 69a, 69b, 70, 71, 71a, 71b, 82, 87, 91, 93,
+  95, 97, 99, 101, 102, 102A, 104, 104A, 104B, 106, 106A) - die belegten Nummern springen von **30** direkt auf
+  **36**, die **Hausnummer 35 fehlt**; das bereits zitierte Straßenteilstück **way/1174999689** ist ebenfalls im
+  Raster bestätigt und trägt selbst **keine** `addr:*`-Tags. Eine Namenssuche nach **„Lüpcke"**, **„Luepcke"** und
+  **„container-luepcke"** über die Felder name, operator, description, website, contact:website, brand, note und
+  addr:housename findet im Raster **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung und **kein**
+  adressgenaues Objekt zur Hausnummer 35; ein „Mittelwert der eindeutigen Knoten" und ein Punkt innerhalb einer
+  Objekt-BBox sind mangels Objekt nicht bildbar. **Quelle 2 (Betreiber/Register, live nachgelesen am 04.11.2026, HTTP
+  200):** das auf der Betreiberseite veröffentlichte **EFB-Zertifikat der bregau zert GmbH** (Nummer
+  **BREG2000-06/25**, Vorgangsnummer **ZZDT001000418009**) nennt im Volltext **„4. Name und Anschrift des
+  Entsorgungsfachbetriebes (Hauptsitz): 4.1 Name: Michael Lüpcke GmbH, 4.2 Straße: Diedrich-Dannemann-Straße 35, 4.3
+  Staat: DE, Bundesland: NI, Postleitzahl: 26203, Ort: Wardenburg-Hundsmühlen, 4.4 Registernummer: HRB 203176,
+  Registergericht: Oldenburg"**; das **Impressum** (https://container-luepcke.de/impressum/) bestätigt live
+  **„Michael Lüpcke GmbH, Diedrich-Dannemann-Straße 35, 26203 Wardenburg, Handelsregister: HRB 203176,
+  Registergericht: Amtsgericht Oldenburg, Vertreten durch: Meike Haferkamp, Telefon: 0441 2336570"**. **Warum keine
+  Koordinate:** Die zweite Quelle (Betreiber- und Zertifikatsbeleg) ist damit **erfüllt**, die **OSM-Seite fehlt
+  aber**: es existiert **kein** Objekt mit `addr:housenumber`=**35** und `addr:street`=Diedrich-Dannemann-Straße in
+  26203 Wardenburg; die Nachbarobjekte 30 und 36 lägen **nicht** an der belegten Nummer, und ein Punkt auf die
+  Straßenmitte (way/1174999689 u. a.) wäre eine Straßengasse und keine Betriebsadresse. **Reichweite /
+  Fehlbelegklausel:** Das Fehlen der **Hausnummer 35** in OSM ist eine **OSM-Datenlücke**, **kein** Nachweis, dass
+  der Betrieb dort nicht existiert - die Adressebene der Straße ist lückenhaft (die Nummernfolge springt von 30 auf
+  36); umgekehrt belegt eine vorhandene Hausnummer **keinen** Betrieb und keine Annahme. `clear_fields: 'geo'`
+  **bleibt** bestehen (es gibt keinen Ersatzpunkt), `status: pruefung`, `street`/`postcode`, `phone`, `email`,
+  `opening_hours`, `website`, `website_status` und `description` bleiben unverändert; Ankaufspreise, Verkaufspreise
+  und Gebühren bleiben unbelegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1600,53.1000,8.2000,53.1200 ;
+  https://api.openstreetmap.org/api/0.6/way/1174999689/full.json ; https://container-luepcke.de/impressum/ ;
+  https://container-luepcke.de/wp-content/uploads/2026/01/EFB-Zertifikat-2026.pdf (Abruf 04.11.2026).]

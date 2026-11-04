@@ -79,3 +79,34 @@ Es gibt eine Registerspur für „FERRO Sundries GmbH & Co.KG Internationaler Ha
   91446) wäre ein Adresspunkt überhaupt bestimmbar — bis dahin keine Koordinate. Quelle(n):
   https://www.northdata.de/FERRO+Sundries+GmbH+%26+Co.+KG+Internationaler+Handel,+Hamburg/HRA+91446 ; Bestandsvermerke
   vom 28.10.2026, 06.10.2026 und 02.10.2026 dieses Dossiers.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - Klärfall mit einem erstmals geprüften OSM-Namensfenster belegt.** Für diesen Eintrag
+  existiert **keine geokodierbare Adresse**: Das Dossier führt weder `street` noch `postcode`, und auch der Import
+  (Seed-Stand 30.09.2026) nennt **keinen Ort und keine Hausnummer** („Metall/Trading (lt. Aggregator)" ohne
+  Adresszeile); der Ort „Altona" ist ein **historischer Seed-Wert ohne Beleg** und wird in den Bestandsvermerken
+  ausdrücklich als „unbelegter Seed-Ort" geführt. Eine adressgenaue Suche ist damit **nicht ansetzbar** - nach einem
+  Ort ohne Hausnummer zu suchen würde eine beliebige Position treffen und wäre eine erfundene Koordinate.
+  **Stattdessen erstmals eine Namenssuche im historischen Ortsumfeld:** Kachelraster **9.9200/53.5400 bis
+  9.9600/53.5600** (Altona-Altstadt, Neustadt, Ottensen, Bahrenfeld), **8 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). **Census im Fenster:** **85.101**
+  Elemente, davon **3.879** mit `name=` und **1.080** mit `operator=`; **6.158** Adressobjekte auf **227**
+  verschiedenen Straßen (Bahrenfelder Straße 284, Max-Brauer-Allee 169, Ottenser Hauptstraße 146, Große Brunnenstraße
+  144, Große Elbstraße 125, Fischers Allee 114, Große Bergstraße 113, Bernstorffstraße 109, Friedensallee 107,
+  Holstenstraße 103, Gaußstraße 92, Hospitalstraße 90 u. a.). Eine Suche nach **„Ferro"**, **„Ferro Sundries"** und
+  **„Sundries"** über alle Tag-Werte des Fensters findet **kein** Objekt - weder mit `name=` noch mit `operator=`.
+  **Zweite Quelle, weiterhin nicht erfüllt:** Die im Dossier zitierte Registerquelle (NorthData, „FERRO Sundries GmbH
+  & Co.KG Internationaler Handel, Hamburg, Amtsgericht Hamburg HRA 91446", live bestätigt mit Erloschen-Markierung im
+  Vermerk vom 28.10.2026) nennt **keine Betriebsadresse** und kann keinen Adresspunkt liefern; die zweite
+  Registerangabe (Firmenkontor24-Auszug, letzte Bekanntmachung 13.07.2012) ebenso wenig. **Konsequenz:** Die Zeile
+  bleibt bewusst ungeokodiert; der Rechtsträger ist im Register **aufgelöst** (Löschung 13.07.2012), es wird weder
+  eine Betriebsadresse noch ein Nachfolger behauptet. **Reichweite / Fehlbelegklausel:** Die Namenssuche ist eine
+  **Stichprobe** über ein 8-Kachel-Fenster im historischen Ortsumfeld und **kein** Existenz- oder Nichtexistenzbeweis
+  für eine andere Hamburger Anschrift; sie belegt nur, dass im abgetasteten Fenster kein Objekt mit Bezug zum
+  Rechtsträger existiert. `status: geschlossen` und alle übrigen Frontmatter-Felder bleiben unverändert. **Nächster
+  Schritt für den Owner:** nur mit einem historischen Adressnachweis (z. B. Registeranschriften-Publikation zur HRA
+  91446) wäre ein Adresspunkt überhaupt bestimmbar - bis dahin keine Koordinate. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9200,53.5400,9.9600,53.5600 ;
+  https://www.northdata.de/FERRO+Sundries+GmbH+%26+Co.+KG+Internationaler+Handel,+Hamburg/HRA+91446 ;
+  Bestandsvermerke vom 28.10.2026, 06.10.2026 und 02.10.2026 dieses Dossiers (Abruf 04.11.2026).]

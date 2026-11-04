@@ -91,3 +91,40 @@ Der Rechtsträger S.O.S. Schrott und Metallhandel GmbH (HRB 110063 Hamburg, zuvo
   https://www.11880.com/branchenbuch/hamburg/060440090B53390996/s-o-s-schrott-und-metallhandelgmbh.html ;
   https://schwerlast-hamburg.eu/impressum/ (fremde Spedition) ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9600,53.4300,10.0800,53.4900 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - Klärfall mit korrigiertem Fenster belegt; `clear_fields` bleibt unverändert
+  bestehen.** Der Vermerk vom 03.11.2026 hatte ein **fehlerhaft platziertes** Raster (53.4300-53.4900 /
+  9.9600-10.0800) abgetastet, das rund **2 km südlich** der Neuhöfer Damm endet und den Hafenquartier-Teil der Straße
+  nicht erfasst; das war ein **Fensterfehler**, kein Datenbefund. **Korrigiertes Fenster (live, vollständig):
+  9.9580/53.5030 bis 9.9780/53.5230**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält die gesuchte Straße
+  **nachweislich**: die **Neuhöfer Damm** ist mit **36** Straßenobjekten darin erfasst. **Census im Fenster:** nur
+  **5** Adressobjekte mit `addr:street`=Neuhöfer Damm und `addr:postcode`=21107 (95, 104, 109, 116, 117) - ein Objekt
+  mit `addr:housenumber`=**110 existiert nicht**; eine Suche nach „S.O.S.", „Schrott", „Metall" und „Metallhandel"
+  über alle Tag-Werte des Fensters findet **kein** Objekt mit Bezug zu einem Rechtsträger „S.O.S. Schrott und
+  Metallhandel". **Warum keine Koordinate:** (a) der Rechtsträger **S.O.S. Schrott und Metallhandel GmbH (HRB 110063
+  Hamburg, zuvor HRB 10416 KI)** wurde laut Registerdaten **gelöscht** (Liquidationshinweis 10.04.2012,
+  Insolvenzverfahrenshinweis 67g IN 68/12, Löschung **19.01.2016**; NorthData, live gelesen laut Bestandsvermerk vom
+  26.10.2026); die sichtbare Registeradresse ist nur „Hamburg", **nicht** Neuhöfer Damm 110, und die Dossier-Adresse
+  stammt aus dem **historischen Verzeichnislead** (11880) und wird im Dossier ausdrücklich als „nur historischer
+  Verzeichnislead, keine unabhängig bestätigte aktuelle Betriebs- oder Kundenannahmeadresse" geführt; (b) der
+  Adresspunkt **Neuhöfer Damm 110** ist nach den Live-Betreiberbelegen des verwandten Dossiers
+  (`hh-wilhelmsburg-hafen-retraco`) heute der Sitz der **RETRACO GmbH** (eigenes Dossier) und damit **nicht** dem
+  Dossier-Eintrag zuzuordnen; (c) es existiert **kein** OSM-Objekt für die Nummer 110, sodass sich ohnehin kein
+  „Mittelwert der eindeutigen Knoten" bilden ließe. **Reichweite / Fehlbelegklausel:** Die Abwesenheit der Hausnummer
+  110 in OSM ist eine **OSM-Datenlücke** und **kein** Beleg gegen die historische Adresse; der Registerbefund belegt
+  die **Auflösung des Rechtsträgers**, nicht das Ende eines Schrottgeschäfts. **`clear_fields: 'geo,phone'` bleibt
+  bestehen** und wird **nicht** entfernt: Es enthält ein `geo`-Token, und der Seed lehnt ein `clear_fields` neben
+  belegtem `lat`/`lon` ab - da hier **keine** Koordinate gesetzt wird, bleibt das Token gültig und weiterhin nötig,
+  um den falschen gespeicherten Punkt (53.6422/13.8582, laut Owner-Prüfung Torgelow/Ferdinandshof in
+  Mecklenburg-Vorpommern) und die unbelegte Telefonnummer zurückzunehmen. `status: pruefung`, `street`/`postcode`
+  (leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **weder** eine Schließung des Standorts
+  **noch** ein Nachfolger behauptet. **Nächster Schritt für den Owner:** historischer Registerauszug mit
+  Anschriftenpublikation und/oder ein Nachfolge-Nachweis am Standort; erst dann wäre eine Koordinate ansetzbar - und
+  die dann per `clear_fields` zurückzunehmende Altposition wäre ersetzt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9580,53.5030,9.9780,53.5230 ;
+  https://www.northdata.de/S.O.S.%20Schrott%20und%20Metallhandel%20GmbH,%20Hamburg/HRB%20110063 ;
+  https://www.11880.com/branchenbuch/hamburg/060440090B53390996/s-o-s-schrott-und-metallhandelgmbh.html ;
+  https://schwerlast-hamburg.eu/impressum/ (fremde Spedition) (Abruf 04.11.2026).]

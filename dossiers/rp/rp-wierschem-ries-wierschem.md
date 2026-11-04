@@ -1,6 +1,7 @@
 ---
 slug: rp-wierschem-ries-wierschem
-clear_fields: 'geo'
+lat: 50.2262946
+lon: 7.3518151
 name: Ries Wierschem
 trader_type: sonstige
 state: RP
@@ -57,3 +58,37 @@ Ungeklärter „Ries“-Altmetallrecycling-Lead im Ort Wierschem. Ein direkt gel
 - [Recherche 28.10.2026: Verzeichnislead erneut gelesen, Identität bleibt unbestätigt: Das 11880-Profil führt "Thomas Ries", Branche Altmetallrecycling, Pappelstr. 3, 56294 Wierschem, 02605 847638, mit Eintragsdaten 23.09.2023 und einer Profilaktualisierung vom 04.10.2026; das ist ein Verzeichnislead und laut Repo-Regel kein Existenz- oder Aktivitätsbeleg. Die offizielle Unternehmensliste der Gemeinde Wierschem nennt sieben andere örtliche Unternehmen, aber keinen Ries; die Gemeindeliste ist keine vollständige Gewerberegisterauskunft, das Fehlen ist kein Negativbeweis und es wird kein Schließungsstatus abgeleitet. Es wurden deshalb weder postcode noch phone ins Frontmatter übernommen, und die Rohzeichenfolge "Ries Wierschem Wierschem Pappelstr. 3" im Adressfeld bleibt unverändert. Quelle(n): https://www.11880.com/branchenbuch/wierschem/060440092B112781761/thomas-ries.html ; https://www.wierschem.de/index.php/unternehmen]
 - [Recherche 28.10.2026: Für die Seed-Adresse gibt es inzwischen einen adressgenauen OSM-Punkt, die Owner-GEO-Prüfung bleibt aber bestehen: OSM-Way 490951019 trägt addr:housenumber 3, addr:street Pappelstraße, addr:postcode 56294 und addr:city Wierschem bei 50.2262906/7.3518079, live über api.openstreetmap.org geprüft; der von der Owner-GEO-Prüfung am 23.10.2026 zurückgezogene Altpunkt 50.2256/7.3516 liegt nur rund 0,08 km entfernt (Haversine, R = 6371 km). Da die Zuordnung des Adresspunkts zu einem Betreiber weiterhin nur auf einem Verzeichnislead beruht und die Gemeindeliste den Namen nicht kennt, bleibt clear_fields geo bestehen und es wurde keine Koordinate ins Frontmatter übernommen. Für den Owner ist damit dokumentiert, dass die Seed-Adresse Pappelstraße 3 geocodiert werden kann, sobald die Identität geklärt ist. Quelle(n): https://api.openstreetmap.org/api/0.6/way/490951019/full.json]
 - [Recherche 28.10.2026: ANKAUF, VERKAUF und GEBÜHREN bleiben unbekannt: Das Verzeichnisprofil nennt weder Sorten noch Preise, kein Verkaufsangebot und keine Tarife; die Sorten, Mindestmengen und Annahmezeiten sind damit nicht belegt, weshalb description und die Servicefelder ohne Preisaussage bleiben und keine Servicezusage aus dem Verzeichnis abgeleitet wird. Quelle(n): https://www.11880.com/branchenbuch/wierschem/060440092B112781761/thomas-ries.html]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 50.2262946, 7.3518151** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/490951019**, sieben eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  7.3517570/50.2262250 bis 7.3519220/50.2263510). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/490951019** trägt `addr:street`=Pappelstraße, `addr:housenumber`=**3**, `addr:city`=Wierschem,
+  `addr:postcode`=56294, `addr:country`=DE, `building`=yes und `source:building`=OpenData Rheinland-Pfalz - Straße,
+  Hausnummer, PLZ und Ort stimmen mit der Seed-Adresse **Pappelstr. 3, 56294 Wierschem** überein. **Fensterprüfung
+  (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **7.3500/50.2200 bis
+  7.3600/50.2300**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße
+  **nachweislich** mit **11** Adressobjekten auf „Pappelstraße" und den Hausnummern 1, 2, 3, **4**, 5, 6, 7, 8, 9, 11
+  und 13 - die **Dossier-Hausnummer 3 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
+  Straße. Eine Namenssuche nach **„Ries"** über die Felder name, operator, description, website, contact:website,
+  brand, note und addr:housename findet im Raster **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung,
+  nur die Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): die **11880-Unternehmensprofilseite** liefert **HTTP 200** und führt live **„Thomas Ries"** mit der
+  Branche **Altmetallrecycling** an **Pappelstr. 3, 56294 Wierschem**, Telefon **(02605) 847638**; die **Gemeindeseite**
+  https://www.wierschem.de/index.php/unternehmen liefert ebenfalls **HTTP 200** und listet sieben andere örtliche
+  Unternehmen (Holzbau Stefan Hürter GmbH, Landhaus vor Burg Eltz, Metallbau & Agrartechnik Alfred Schneider,
+  Pott & Deckel, Ferienwohnung Maifeld, Ferienwohnung Weber Mans, Ferienwohnung Burg Eltz), **Thomas Ries erscheint
+  dort nicht** - das ist **kein** Existenz- oder Schließungsbeleg, weil die Gemeindeliste kein vollständiges
+  Gewerberegister ist. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt ersatzlos**,
+  weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab,
+  und der Punkt liegt exakt auf der durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung (unverändert
+  übernommen):** Der Punkt bezeichnet die **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; der
+  im Dossier dokumentierte Verzeichnis-Eintragsstand **23.09.2023** und die weiterhin ungeklärte **Betreiberidentität**
+  (kein Rechtsträger, keine Betreiberseite, kein Registereintrag) bleiben offen - es wird weder Fortbestand noch
+  Schließung behauptet. `status: pruefung`, `city`, `street` (Rohzeichenfolge unverändert), `postcode` (leer),
+  `phone` (leer), `email`, `opening_hours`, `website`, `website_status` und `description` bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/490951019/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3500,50.2200,7.3600,50.2300 ;
+  https://www.11880.com/branchenbuch/wierschem/060440092B112781761/thomas-ries.html ;
+  https://www.wierschem.de/index.php/unternehmen (Abruf 04.11.2026).]

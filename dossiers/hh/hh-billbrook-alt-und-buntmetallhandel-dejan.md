@@ -77,3 +77,50 @@ Eine aktuelle Suche zeigte außerdem einen Creditreform-Suchtreffer für einen D
   https://firmeneintrag.creditreform.de/22179/2151851447/DEJAN_DZEMAILOVIC_SCHROTT_UND_ALTMETALLHAENDLER (Direktabruf
   403, Suchtreffer allein) ; https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9750,53.4950,10.0250,53.5250 (Abruf
   03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - aber die Dossier-Adresse IST in OSM vorhanden; die Negativaussage der Vorwelle war ein
+  Fensterfehler.** Die im Vermerk vom 03.11.2026 genannte Negativaussage („kein Objekt mit `addr:housenumber`=9 und
+  `addr:street`=Wöhlerstraße") ist **sachlich falsch**: das dort abgetastete Raster 53.4950-53.5250 / 9.9750-10.0250
+  liegt rund **4 km südwestlich** der Wöhlerstraße (53.5378 N / 10.0846 E) und erfasst die Straße gar nicht; das war
+  ein **Fensterfehler**, kein Datenbefund. **Korrigiertes Fenster (live, vollständig): 10.0700/53.5350 bis
+  10.0900/53.5500**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json,
+  Abruf 04.11.2026), ergänzt um den südlichen Straßenteil **10.0600/53.5100 bis 10.0900/53.5350** (**9 Kacheln**, **0
+  Kachel-Fehler**). Das Fenster enthält die gesuchte Straße **nachweislich**: die **Wöhlerstraße** in
+  Hamburg-Billbrook ist mit **18** Straßenobjekten darin erfasst (way/677241301, way/677241302, way/677241304,
+  way/677241307, way/677241308, way/677241310, way/677241311, way/677241312, way/677241322, way/677241342,
+  way/677241347, way/25468824, way/601067613, way/862926013, way/862926022, way/862926023, way/862926026,
+  relation/9325008). **Census auf der ganzen Straße:** **12** Adressobjekte mit `addr:street`=Wöhlerstraße mit **11**
+  verschiedenen Hausnummern (2, 2a, 2b, 4, 8, 8a, 8b, **9**, 25, 28, 33) - die **Dossier-Hausnummer 9 existiert**.
+  **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):** **way/25044261**
+  (https://api.openstreetmap.org/api/0.6/way/25044261/full.json) trägt `addr:housenumber`=**9**,
+  `addr:street`=**Wöhlerstraße**, `addr:city`=Hamburg, `addr:country`=DE, `addr:postcode`=**22113**, `building`=yes,
+  Version 5 (Stand 19.07.2013); das Objekt hat **5** eindeutige Knoten, der Mittelwert der eindeutigen Knoten ist
+  **53.5378326 / 10.0845777**, die Objekt-BBox ist 53.5377261/10.0843218 bis 53.5379873/10.0849616, der Punkt liegt
+  **innerhalb** der BBox. Das Objekt trägt **weder `name=` noch `operator=`** - es belegt **die Adresse**, nicht den
+  Betreiber. **Quelle 2 (Betreiber-/Register, weiterhin nicht erfüllt):** Der im Dossier zitierte
+  **GoLocal-Detaillead** liefert am 04.11.2026 **HTTP 200** und nennt live **„Alt- und Buntmetallhandel Dejan",
+  Wöhlerstr. 9, 22113 Hamburg, (040) 678 16 56**; nach Repo-Quellenhierarchie ist ein Verzeichnislead jedoch **kein
+  Beleg** (Aggregator), und der Eintrag trägt nur eine einzelne Bewertung vom 05.12.2013 sowie Nutzerfotos vom
+  23.07.2020. Der **Creditreform**-Treffer „Dejan Dzemailovic - Schrott- und Altmetallhändler" (Direktabruf
+  **firmeneintrag.creditreform.de/22179/2151851447/...**) liefert am 04.11.2026 weiterhin **HTTP 403** und nennt im
+  Suchtreffer weder Straße noch Verbindung zur Wöhlerstraße 9. Ein **Betreiberauftritt**, ein **Impressum** oder ein
+  **Registerauszug** existiert nicht. **Konsequenz:** Die Zwei-Quellen-Regel (OSM-Objekt **und** eine
+  Betreiber-/Registerquelle für dieselbe Adresse) ist nicht erfüllt - Aggregator-Lead plus Adressobjekt ist ein
+  **Einzelbeleg**; eine Koordinate würde den Betrieb „Alt- und Buntmetallhandel Dejan" behaupten, den keine Quelle
+  belegt. **Nebenbefund zur PLZ-Streitigkeit:** Das OSM-Objekt trägt selbst `addr:postcode`=**22113** und bestätigt
+  damit die PLZ des Verzeichnisleads gegen den Seed-Wert **21113**; `postcode` im Frontmatter bleibt dennoch
+  **unverändert**, weil die Änderung eine inhaltliche Owner-Entscheidung ist und das Dossier die PLZ als strittig
+  führt. **Reichweite / Fehlbelegklausel:** Die Existenz des Adressobjekts 9 belegt **das Gebäude** an dieser Nummer,
+  **nicht** den Händler und **nicht** eine Annahme- oder Abholfunktion; umgekehrt belegt der Register-Nichteintrag
+  **kein** Fehlen eines Betriebs (die Efb-Anerkennung ist **freiwillig**). `status: pruefung`, `street`/`postcode`
+  und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **keine** Schließung behauptet. **Nächster Schritt
+  für den Owner:** aktueller Gewerbe- oder Betreibernachweis (Impressum mit Rechtsträger oder Handelsregisterauszug)
+  für die Wöhlerstraße 9 in 22113 Hamburg; dann kann way/25044261 ohne Neuladen als Koordinate übernommen werden.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0700,53.5350,10.0900,53.5500 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0600,53.5100,10.0900,53.5350 ;
+  https://api.openstreetmap.org/api/0.6/way/25044261/full.json ;
+  https://www.golocal.de/hamburg/schrotthandel/alt-buntmetallhandel-dejan-MJ4Gz/ (Verzeichnislead) ;
+  https://firmeneintrag.creditreform.de/22179/2151851447/DEJAN_DZEMAILOVIC_SCHROTT_UND_ALTMETALLHAENDLER (Direktabruf
+  403) (Abruf 04.11.2026).]

@@ -76,3 +76,42 @@ Dieses Dossier ist eine Dublette des Verden-Eintrags `ni-verden-borchers-industr
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.2200,52.9100,9.2400,52.9300 ;
   https://api.openstreetmap.org/api/0.6/way/202828668/full.json ;
   https://www.borchersindustrieservice.com/impressum (Abruf 04.11.2026).]
+
+### Geokodierung 04.11.2026 (Nachprüfung)
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt; der Vermerk vom 04.11.2026 wird bestätigt und mit dem Census des Fensters
+  präzisiert.** Diese Zeile ist eine **Dublette** des Verden-Dossiers `ni-verden-borchers-industrieservice` und trägt
+  im Frontmatter **weder Straße noch PLZ**; `city` = „Region" ist kein Geocoding-Ziel, und die einzige belegte
+  Anschrift gehört dem **kanonischen** Datensatz. **Quelle 1 (OSM, live abgerufen am 04.11.2026):** das Kachelraster
+  über Verden (Aller) umfasst **9.2200/52.9100 bis 9.2400/52.9300**, **4 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**; das Fenster enthält den Ort **nachweislich** mit den Straßen **Groß Hutberger Straße**
+  (way/69674189, way/629647002, way/1171628847, way/1426704616, way/1426704617), **Adalbert-Stifter-Straße**,
+  **Allerstraße**, **Am Allerufer**, **Am Bürgerpark**, **Am Hafen**, **Am Nordertor**, **Alte Burg**, **Alter
+  Borsteler Weg** u. a. und **1.924** Adressobjekten der **Postleitzahl 27283**. Die **Hausnummer 2** der
+  Dossier-Adresse existiert in OSM als **way/202828668** mit `addr:street`=**Groß Hutberger Straße**,
+  `addr:housenumber`=**2**, `addr:postcode`=27283, `addr:city`=Verden (Aller), `addr:suburb`=**Hönisch**,
+  `building`=yes (Mittel der **9** eindeutigen Knoten: **52.9188681 / 9.2206462**, BBox 52.9188026/9.2205291 bis
+  52.9189346/9.2207011, der Mittelwert liegt darin); eine Suche nach **„Borchers"**, **„Hutberger"** und
+  **„Industrieservice"** über die Felder name, operator, description, website, contact:website, brand, note und
+  addr:housename findet im Fenster **kein** Objekt mit Betriebsbezug. **Quelle 2 (Betreiber, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026):** das **Impressum** https://www.borchersindustrieservice.com/impressum
+  liefert **HTTP 200** und nennt live **„Borchers Industrieservice, Iliyana Borchers, Zum Hutberger Graben 2, 27283
+  Verden (Aller), Telefon +49 173 6026888 und +49 4231 9850940, E-Mail iliyanaborchers@yahoo.de, USt-Id
+  DE305103038"** - es weist **ausschließlich** diesen einen Standort aus, keinen „Region"-Standort. **Warum keine
+  Koordinate:** (a) die Zeile ist eine ausdrücklich als Dublette geführte **Dubletten-Zeile ohne eigene Adresse**
+  („`Region` nicht geokodieren", Recherche 01.10./06.10./25.10.2026); (b) der geprüfte Verden-Standort ist **dem
+  kanonischen Dossier** zugeordnet - ihn hier zu setzen würde den Standort doppelt erfassen und die Dublette
+  verschleiern; (c) es fehlt weiterhin ein **unabhängiger Zweitbeleg** (kein HRB - Einzelunternehmen) und die
+  Betriebsleistungen sind **industrielle Demontage/Rückbau**, keine Schrottannahme; (d) die **Straßenbezeichnung**
+  weicht ab (Betreiber „Zum Hutberger Graben" gegen OSM „Groß Hutberger Straße"), das OSM-Objekt trägt **keinen**
+  Betriebsbezug. **Reichweite / Fehlbelegklausel:** Die Existenz des Adressobjekts 2 belegt **das Gebäude**,
+  **nicht** den Betrieb „Borchers Industrieservice" und **nicht** eine Schrottannahme; umgekehrt belegt eine
+  vorhandene Hausnummer **keinen** Betrieb. `status: pruefung`, `city`, `street` (leer), `postcode` (leer), `phone`,
+  `email`, `opening_hours`, `website`, `website_status` und `description` (leer) bleiben unverändert; es wird weder
+  Fortbestand noch Schließung behauptet. **Was zur Auflösung fehlt:** die Auflösung der Dublette - nach Auflösung
+  kann ausschließlich der **kanonische** Datensatz `ni-verden-borchers-industrieservice` geokodiert werden (dort wäre
+  der geprüfte OSM-Punkt **52.9188681/9.2206462** unter Abgleich der abweichenden Straßenbezeichnung „Zum Hutberger
+  Graben"/„Groß Hutberger Straße" zu verwenden). Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.2200,52.9100,9.2400,52.9300 ;
+  https://api.openstreetmap.org/api/0.6/way/202828668/full.json ; https://www.borchersindustrieservice.com/impressum
+  (Abruf 04.11.2026).]

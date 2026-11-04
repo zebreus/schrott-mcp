@@ -1,6 +1,8 @@
 ---
 slug: sl-st-wendel-hoof-falkenberg-schrotthandel
-clear_fields: 'geo'
+lat: 49.4891045
+lon: 7.2437521
+clear_fields: ''
 name: Falkenberg Schrotthandel
 trader_type: schrotthaendler
 state: SL
@@ -44,3 +46,44 @@ Falkenberg Schrotthandel ist nur über Verzeichnisse greifbar: Nebenhügel 2, 66
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.4891045/7.2437521** (Mittel der 8 eindeutigen Knoten von
+  way/227934248; der Punkt liegt innerhalb der Objekt-BBox
+  49.4890397/7.2436126–49.4891750/7.2439582). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/227934248** trägt `name`=**Falkenberg Schrotthandel**, `addr:street`=Nebenhügel,
+  `addr:housenumber`=**2**, `addr:postcode`=66606, `addr:city`=Sankt Wendel,
+  `addr:suburb`=**Hoof**, `building`=yes - Straße, Hausnummer, PLZ, Ort **und der Geschäftsname**
+  stimmen mit der Dossier-Adresse **Nebenhügel 2, 66606 St. Wendel-Hoof** überein; das Objekt trägt
+  den **Betriebsbezug** (`name`). Quelle 2 (im Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): Das Telefonbuch
+  https://www.dasoertliche.de/Themen/Schrotthaendler/St-Wendel.html liefert HTTP 200 und führt den
+  Eintrag **„Falkenberg Schrotthandel, Nebenhügel 2, 66606 St. Wendel, Hoof, Telefon 06856 89 28
+  82“** (zweiter Eintrag „Falkenberg“ an derselben Anschrift mit Fax 06856 89 22 55) mit der
+  Kartenposition **49.4892290/7.2437017** - die **rund 4 m** vom gesetzten OSM-Punkt entfernt liegt
+  und die Anschrift damit unabhängig bestätigt. **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster umfasst **7.2400/49.4800 bis 7.2500/49.5000**, **2 Kacheln
+  von je 0,01 Grad**, **0 Kachel-Fehler**, **9.266 Elemente**; das Fenster enthält die gesuchte
+  Straße **„Nebenhügel“ nachweislich** mit den drei Straßenobjekten **way/222311470** und
+  **way/227917947** (residential) sowie **way/227917948** (service) sowie **21 Adressobjekten** auf
+  „Nebenhügel“ mit **21 verschiedenen Hausnummern** (1–7, 9–12, 14, 16–20, 24, 28 sowie 1a, 7a) - die
+  **Dossier-Hausnummer 2 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
+  Straße. **Negativaussage, qualifiziert:** im Raster tragen **87 Objekte** `name=` oder `operator=`;
+  **mit Bezug zu „Falkenberg“ oder „Schrott“** trifft es auf **genau 1 Objekt**
+  (way/227934248, `name`=Falkenberg Schrotthandel) - es gibt **kein** zweites Objekt dieser Adresse
+  und **keinen** konkurrierenden Schrottbetrieb auf der Straße. **Zurücknahme des `geo`-Tokens
+  (Begründung):** `clear_fields: 'geo'` wurde **entfernt** (das Feld steht jetzt als
+  `clear_fields: ''`), weil es den am 25.10.2026 zurückgenommenen und stadtteilfalschen
+  Produktionspunkt (49.4663/7.1681 = Parkstraße 5 in St. Wendel) fernhalten sollte; der hier gesetzte
+  Punkt liegt **exakt** auf der verzeichnisbestätigten Betriebsadresse im Ortsteil **Hoof**, und
+  `clear_fields` darf nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. **Qualifizierung
+  (unverändert übernommen):** Der Punkt bezeichnet die **betrieblich benannte Anschrift**, aber
+  **nicht** einen verifizierten Annahmehof, eine Waage oder eine öffentliche Schrottannahme; das
+  Branchenlabel „Schrotthandel“ ist **keine** bestätigte Vergütung, es wird **kein** Ankaufkurs,
+  **keine** Materialverkaufspreisliste und **keine** Gebühr behauptet. `status` bleibt `pruefung`,
+  `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und
+  `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/227934248/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2400,49.4800,7.2500,49.5000 ;
+  https://www.dasoertliche.de/Themen/Schrotthaendler/St-Wendel.html (Abruf 04.11.2026).]

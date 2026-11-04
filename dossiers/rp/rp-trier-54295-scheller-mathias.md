@@ -1,6 +1,7 @@
 ---
 slug: rp-trier-54295-scheller-mathias
-clear_fields: 'geo'
+lat: 49.7394703
+lon: 6.6467909
 name: Scheller Mathias
 trader_type: schrotthaendler
 state: RP
@@ -62,3 +63,38 @@ Mathias/Matthias Scheller beziehungsweise MS Schrotthandel in Trier bleibt ungek
 - [Recherche 04.10.2026: Betreibergeführte Social-/Anzeigen-Leads konnten nicht inhaltlich verifiziert werden: Facebook-Profilabruf ergab keinen nutzbaren Profiltext; die numerische Seiten-URL liefert HTML mit Login-Weiterleitung. Kleinanzeigen-Abruf scheiterte mit HTTP 403; TikTok-Profil lieferte keinen nutzbaren Text, der einzeln abgerufene Beitragslink lediglich eine generische „TikTok - Make Your Day“-HTML-Seite ohne auswertbaren Händlernachweis. Angaben aus Suchtreffern zu Abholung, Ankauf oder Telefonnummer gelten daher nicht als verifiziert. Facebook-/TikTok-Domain-Roots wären außerdem keine händlerspezifischen Websites; Quelle(n): https://www.facebook.com/p/Schrott-und-Metallhandel-Matthias-Scheller-61554977015003, https://www.facebook.com/61554977015003, https://www.kleinanzeigen.de/s-anzeige/schrotthandel-matthias-scheller-trier/3436382552-298-5450, https://www.tiktok.com/@trierschrotthaendler, https://www.tiktok.com/@trierschrotthaendler/photo/7660122062077349152]
 - [Recherche 04.10.2026: Namensvetter-/Register-Gegencheck: Die tatsächlich abgerufene Northdata-Personenseite „Matthias Scheller, Berlin“ zeigt ein Netzwerk aus Albertinen-/Immanuel-Krankenhausgesellschaften; daraus folgt keine Zuordnung zum Trierer Schrotthändler. Websuchen mit Mathias/Matthias Scheller + Trier bei Northdata/Creditreform lieferten keinen passenden verifizierten Datensatz. Der versuchte Northdata-Such-URL-Abruf zeigte nur die allgemeine Suchoberfläche, keinen negativen Registerauszug. Die alte Notiz „Northdata ohne Registertreffer“ wird deshalb nicht als amtlicher Nichtregistrierungsnachweis fortgeschrieben; Quelle(n): https://www.northdata.de/Scheller,%20Matthias,%20Berlin/1apu, https://www.northdata.de/?id=&name=Mathias+Scheller+Trier]
 - [Recherche 04.10.2026: Entscheidung: Kein Frontmatter-Fill, keine Korrektur von Name oder city; status bleibt pruefung. Offen sind direkt belegte Betreiberidentität, Schreibweise Mathias/Matthias, Kontakt-/Betriebsadresse versus öffentlich zugängliche Annahmestelle und verbindliche Öffnungszeiten. Eine erreichbare Betreiberquelle plus unabhängiger Gewerbe-/Registerbeleg fehlen; Betreiber-Ausnahme nicht erfüllt. Keine verifizierte Ankaufspreisliste; aus den gesperrten Anzeigen werden weder Preise noch Leistungszusagen übernommen; Quelle(n): https://sellwerk.de/firmenprofil/schrottmetallhandel-matthias-scheller, https://www.facebook.com/61554977015003, https://www.kleinanzeigen.de/s-anzeige/schrotthandel-matthias-scheller-trier/3436382552-298-5450]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 49.7394703, 6.6467909** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/339014880**, sechs eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  6.6466703/49.7393656 bis 6.6468882/49.7395831). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/339014880** trägt `addr:street`=Tessenowstraße, `addr:housenumber`=**35**, `addr:city`=Trier,
+  `addr:postcode`=54295, `addr:country`=DE und `building`=house - Straße, Hausnummer, PLZ und Ort stimmen mit der
+  Dossier-Adresse **Tessenowstr. 35, 54295 Trier (Heiligkreuz)** überein. **Fensterprüfung (kein Fensterfehler):**
+  das am 04.11.2026 live abgerufene Kachelraster über Trier-Heiligkreuz umfasst **6.6300/49.7300 bis
+  6.6500/49.7500**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße
+  **nachweislich** mit **24** Adressobjekten auf „Tessenowstraße" und den Hausnummern 3, 5, 6, 7, 8, 9, 10, 11, 12, 13,
+  16, 17, 18, 19, 21, 23, 25, 29, 31, 33, **35** und 37 - die **Dossier-Hausnummer 35 existiert** und ist im Raster
+  das einzige Objekt mit dieser Nummer auf dieser Straße. Eine Namenssuche nach **„Scheller"** über die Felder
+  name, operator, description, website, contact:website, brand, note und addr:housename findet im Raster **keinen**
+  Treffer (die Namensobjekte dort sind „Sparkasse Trier", „Friseur Oberbillig", „Dienstleistungszentrum Ländlicher
+  Raum", „Zahnarztpraxis Heiligkreuz", „Berg-Apotheke", „Dr. Egbert Schneider", „Heiko Simon", „China Restaurant
+  Lotus", „King's Diner" und „Renate Peisen") - es gibt also **keine** OSM-Betriebszuordnung, nur die Adressangabe.
+  Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
+  **11880-Unternehmensprofilseite** liefert **HTTP 200** und führt live **„Metallrecycling MS Schrotthandel"**
+  (Branche Recycling, „Vom Inhaber bestätigt") an **Tessenowstr. 35, 54295 Trier (Heiligkreuz)**, Telefon
+  **(0175) 2305407**, mit Verweis auf das Verzeichnisprofil **sellwerk.de/firmenprofil/schrottmetallhandel-matthias-scheller-comprix**
+  - identisch mit der Dossier-Adresse. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt
+  ersatzlos**, weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem
+  `lat`/`lon` ab, und der Punkt liegt exakt auf der durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung
+  (unverändert übernommen):** Der Punkt bezeichnet die **verzeichnisgestützte Anschrift**, keinen verifizierten
+  Annahmehof; das im Dossier dokumentierte **Fehlen eines Registers oder eines lesbaren Impressums** (die
+  Facebook-Seite liefert nur eine Login-Seite) sowie die im Dossier festgehaltene **Namensform
+  „Mathias/Matthias Scheller"** bleiben ungeklärt - eine Ankaufzusage, ein Annahmehof oder eine Öffnungszeit wird
+  durch die Koordinate **nicht** belegt. `status: pruefung`, `city`, `street` (leer), `postcode` (leer), `phone` (leer),
+  `email`, `opening_hours`, `website` (leer), `website_status` (leer) und `description` (leer) bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/339014880/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.6300,49.7300,6.6500,49.7500 ;
+  https://www.11880.com/branchenbuch/trier/032192491B113026256/matallrecycling-schrott-und-metalle-matthias-scheller.html
+  (Abruf 04.11.2026).]

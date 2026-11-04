@@ -47,3 +47,41 @@ Der aktuelle Betrieb **Dinkel Recycling GmbH** (HRB 10644) und sein Standort Epp
 
 - Tätigkeit unklar
 - Adresse: Stuttgart-Möhringen
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Zwei voneinander unabhängige Gründe: (a) die
+  **Identität der Dossierzeile** ist ungeklärt, (b) die **Hausnummer 182** fehlt in OSM. Quelle 1 (OSM, live geprüft am
+  04.11.2026): das am 04.11.2026 live abgerufene Kachelraster umfasst **9.1500/48.7300 bis 9.1700/48.7700**, **8 Kacheln
+  von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit **30**
+  Straßenobjekten auf dem „Epplestraße" (u. a. way/158936268, way/28566787, way/46610723, way/155576221, way/34619378,
+  way/100468020, way/100468024, way/100468029, way/563805817, way/469935863, way/557625072; Verlauf 48.72965/9.16711 bis
+  48.74931/9.17065) sowie **88** Adressobjekten auf „Epplestraße" mit **72** verschiedenen Hausnummern (2 bis 91, 151,
+  178, 180, 181, 185, 192, 200 sowie die Zusatznummern 1A, 1B, 1a, 20A, 32A, 39A, 39B, 39C, 40-44, 48A, 56A, 56B, 90-96)
+  - **die Dossier-Hausnummer 182 existiert dort nicht**, obwohl die unmittelbaren Nachbarnummern 178 (**way/246643394**
+  „Häckselplatz Möhringen"), 180 (**way/233903194**), 181 (**way/30098179** Hockeyhalle HTC), 185 (**way/246666403**),
+  192 (**way/233903195** „Felix Renner Transporte GmbH") und 200 (**way/233903196**) erfasst sind; eine Suche nach
+  **„Dinkel"** über die Felder name, operator, brand, description, website, contact:website und addr:housename findet im
+  Fenster **keinen** Treffer. Der bisher gespeicherte Produktionspunkt 48.7258/9.1464 löst live auf **node/3127571980**
+  (48.7258683/9.1466502) auf, ein Objekt mit `name`=**foto-butik**, `shop`=photo - **kein** Schrottbetrieb. Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **Betreiberseite**
+  https://dinkel-gmbh.de/stuttgart-degerloch.html liefert **HTTP 200** und nennt live „Dinkel Recycling GmbH",
+  **Epplestraße 182, 70567 Stuttgart**, Telefon 0711 453218, info@dinkel-gmbh.de und die Selbstanlieferung von
+  Schrott/Metall durch Privat- und Gewerbekunden; das im Dossier zitierte **NorthData**-Profil (Amtsgericht Stuttgart
+  **HRB 10644**) bestätigt Rechtsträger und heutige Existenz, war am 04.11.2026 aber wegen **HTTP 429** nicht erneut
+  auslesbar und wird deshalb **nicht** als eigener Live-Beleg gezählt. **Warum keine Koordinate:** die Dossierzeile
+  führt den Namen **„Dinkel"** mit dem Ort **Stuttgart-Möhringen**, die belegte Betriebsanschrift liegt aber in
+  **Stuttgart-Degerloch**; die Verknüpfung der Möhringer Zeile mit der Degerlocher Gesellschaft stützt sich allein auf
+  einen **Verzeichnislead** (stuttgart.city-map.de, Suchbereich Möhringen) und ist keine Betreiber- oder
+  Registerfeststellung - die Übernahme des Degerlocher Punktes würde den Ort der Zeile ändern und ist eine
+  **Owner-Entscheidung (Merge)**, keine Geokodierung. Zusätzlich fehlt die Hausnummer 182 in OSM, sodass kein
+  adressgenaues Objekt vorliegt. `clear_fields:
+  'description,dropoff_json,email,geo,opening_hours,phone,website,website_status'` **bleibt** unverändert bestehen (es
+  gibt keinen Ersatzpunkt), `status: pruefung` bleibt, es wird keine Schließung und keine Betriebsverlegung behauptet.
+  **Reichweitenklausel:** das Fehlen der Hausnummer 182 in OSM ist **kein** Nachweis für das Fehlen oder die Verlegung
+  des Betriebs; die Operatorquelle belegt die Anschrift unverändert. Offen bleiben die Zuordnung der Möhringer Seedzeile
+  zum Betreiber in Degerloch und eine adressgenaue OSM-Erfassung. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.15,48.73,9.17,48.77 ;
+  https://api.openstreetmap.org/api/0.6/node/3127571980.json ; https://dinkel-gmbh.de/stuttgart-degerloch.html (Abruf
+  04.11.2026) ; https://www.northdata.de/Dinkel%20Recycling%20GmbH,%20Stuttgart/HRB%2010644 (im Dossier zitiert, am
+  04.11.2026 HTTP 429).]

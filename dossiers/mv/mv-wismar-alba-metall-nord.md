@@ -50,3 +50,39 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Primärquelle: alba.info/standorte (Corporate-Liste) — Tonnenhofstraße 12, 23970 Wismar gehört der ALBA Nord GmbH („Betriebsstätte Wismar“, +49 3841 704678), NICHT der ALBA Metall Nord GmbH (diese führt Wismar auf keiner aktuellen Liste: Delisted-Protokoll für „Metall Nord Wismar“ ohne Schließungsbeleg).
 - name auf Betreiber-Stand korrigiert (ALBA Nord GmbH); Altname „ALBA Metall Nord GmbH“ hier in Timeline archiviert. Slug unverändert. website auf nord.alba.info + aktiv.
 - Querverweis (kein Merge): mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai — gleiche Adresse, historischer Vorgängername (RWE Umwelt MV).
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **ALBA Metall Nord GmbH** ist die Frage
+  offen, ob an der Dossier-Adresse **Tonnenhofstraße 12, 23970 Wismar** heute eine eigenständige
+  Metall-Nord-Betriebsstätte besteht - die Adresse ist im Bestand dem ALBA-Nord-Standort zugeordnet, und genau diese
+  Zuordnung ist strittig. Quelle 1 (OSM, live geprüft am 04.11.2026): **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster umfasst **11.4500/53.9000 bis 11.4600/53.9100**, **1 Kachel von je 0,01
+  Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit **6** Straßenobjekten auf
+  dem „Tonnenhofstraße" (way/90788778, way/1412760698, way/90788777, way/1067776267 sowie zwei weitere Segmente) sowie
+  **7** Adressobjekten auf „Tonnenhofstraße" mit **6** verschiedenen Hausnummern (6, 7, 10, **12**, 10a, 10b) - die
+  **Dossier-Hausnummer 12 existiert** als **way/209020779** (`building`=industrial, `addr:postcode`=23970,
+  `addr:city`=Wismar); der östlich anschließende Abschnitt der Straße mit weiteren Nummern liegt außerhalb des
+  abgetasteten Kachelausschnitts. Eine Suche nach **„ALBA"** über die Felder name, operator, brand, description,
+  website, contact:website, shop, craft, amenity, landuse, man_made, industrial und office findet im Raster **keinen**
+  Treffer - es gibt **keine** OSM-Betriebszuordnung zur ALBA Metall Nord GmbH. Quelle 2 (Betreiber/Register, im Dossier
+  bereits zitiert, live nachgelesen am 04.11.2026): die **ALBA-Nord-Standortseite**
+  https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ liefert **HTTP 200** und nennt
+  live die Betriebsstätte **Tonnenhofstraße 12, 23970 Wismar**; die **aktuelle ALBA-Metall-Nord-Standortübersicht**
+  https://metall.alba.info/unternehmen/standorte/ führt **Wismar nicht** auf - das ist **kein** Nachweis einer
+  Schließung; das direkt geprüfte **Zertifikat**
+  (https://metall.alba.info/fileadmin/user_upload/ALBA_Metall_Nord/PDF/2024/Urkunde_Ver_CCF_ALBA_plc_und_Co._KG_GJ2023_final.pdf)
+  führt für den Erhebungszeitraum **2023** „ALBA Metall Nord GmbH" und „ALBA Nord GmbH" **getrennt** unter dieser
+  Adresse, belegt aber weder eine aktuelle eigenständige Metall-Nord-Betriebsstätte noch heutige Kundenannahme. **Warum
+  keine Koordinate:** die Beleglage widerspricht sich zwischen zwei ALBA-Gesellschaften an derselben Anschrift; ein
+  Punkt dort würde dem Datensatz „ALBA Metall Nord GmbH" eine Standortgültigkeit zuschreiben, die gerade **offen** ist,
+  und würde die Abgrenzung zum ALBA-Nord-Sibling faktisch aufheben - das ist eine **Owner-Entscheidung (Merge)**, keine
+  Geokodierung. `clear_fields: 'dropoff_json,geo,phone,website,website_status'` **bleibt** unverändert bestehen (es gibt
+  keinen Ersatzpunkt), `status: pruefung` bleibt, Ankauf-, Verkaufs- und Gebührenangaben bleiben unbelegt; es wird
+  **keine** Schließung und **kein** Merge behauptet. **Reichweitenklausel:** das Fehlen eines OSM-Betriebs-Tagings ist
+  **kein** Nachweis für das Fehlen einer Metall-Nord-Betriebsstätte in Wismar. Offen bleibt die Identitätsklärung
+  zwischen „ALBA Metall Nord GmbH" und „ALBA Nord GmbH"; erst danach ist zu geokodieren. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.44,53.90,11.46,53.91 ;
+  https://nord.alba.info/unternehmen/standorte/detail/location/betriebsstaette-wismar-1/ ;
+  https://metall.alba.info/unternehmen/standorte/ ; README.md, Quellenhierarchie und Betreiberkettenregel (Abruf
+  04.11.2026).]

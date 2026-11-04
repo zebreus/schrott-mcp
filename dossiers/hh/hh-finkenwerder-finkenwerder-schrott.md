@@ -73,3 +73,35 @@ provenance_origin: table
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8350,53.5200,9.8850,53.5550 ;
   https://www.hamburg.de/branchenbuch/hamburg/schrott ; https://schrottregister.pages.dev/ort-hamburg (Abruf
   03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Dossier-Hausnummer 21a existiert in OSM weiterhin nicht.** Die Nachprüfung
+  bestätigt den Vermerk vom 03.11.2026 am OSM-Bild mit einem enger gefassten Fenster und vollständigem Census.
+  **Fenster und Raster:** Kachelraster **9.8450/53.5250 bis 9.8750/53.5450** (Hamburg-Finkenwerder, Rüschweg), **6
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das
+  Fenster enthält die gesuchte Straße **nachweislich**: der **Rüschweg** (21129 Hamburg) ist mit **6**
+  Straßenobjekten darin erfasst. **Census im Fenster:** **11** Adressobjekte mit `addr:street`=Rüschweg und
+  `addr:postcode`=21129 mit **10** verschiedenen Hausnummern (1, 2, 5, 7, 12, 18, 22, 23, 24, 25) - **weder 21 noch
+  21a ist belegt**; die Dossier-Hausnummer 21a ist damit in OSM nicht auffindbar, die Reihenfolge der Dossier-Adresse
+  (Hans-Duncker-/Rüschweg-Nummerierung) lässt sich aus OSM **nicht** rekonstruieren, und eine Position „in der Nähe
+  von 21a" wäre geraten. **Negativaussage, qualifiziert:** Auf dem Rüschweg trägt **kein** Objekt einen Namens-,
+  Betreiber- oder Branchenbezug zu einem Schrott- oder Metallhändler; die betriebsbezogenen Objekte sind ein
+  Segelverein (way/146021520, `name`=„Segelverein Finkenwerder Hamburg von 1965 e.V.", Nr. 22), eine Sportabteilung
+  (node/4155511022 und way/146021518, `name`=„TuS-Finkenwerder - Abteilung Segeln", Nr. 18) und ein Segelclub
+  (node/9941672397, `name`=„Altonaer Segel Club e.V.", Nr. 24). **Zweite Quelle, weiterhin nicht erfüllt:** Für
+  „Finkenwerder Schrott" gibt es weder einen Betreiber- oder Registerbeleg noch einen amtlichen Eintrag - das
+  **Branchenbuch der Stadt Hamburg** (Kategorie Schrott, live geprüft im Vermerk vom 27.10.2026) führt keinen Eintrag
+  aus Finkenwerder, das **amtliche Fachbetrieberegister** (Auszug 11.08.2026) keinen, und die im Dossier zitierte
+  Nachbarübersicht (Richard Völz & Söhne, Rüschweg 21; Autoservice Domgjoni, Rüschweg 25) betrifft **andere**
+  Betriebe und bestätigt weder die Nummer 21a noch einen Schrottbetrieb. **Konsequenz:** Die Zwei-Quellen-Regel ist
+  nicht erfüllt; ein Punkt auf dem Rüschweg wäre eine Behauptung über eine nicht belegte Annahmeadresse. **Reichweite
+  / Fehlbelegklausel:** Das Fehlen der **Hausnummer 21a** in OSM ist eine **OSM-Datenlücke**, **kein** Nachweis, dass
+  dort kein Betrieb existiert; die Adressebene der Straße ist mit 10 Nummern über den gesamten Verlauf dünn, und
+  umgekehrt belegt eine vorhandene Hausnummer **keinen** Betrieb und keine Annahme. `street`/`postcode` bleiben
+  unverändert, `status: pruefung` bleibt, eine Koordinate wird nicht erfunden; es wird **weder** Fortbestand **noch**
+  Schließung behauptet. **Nächster Schritt für den Owner:** amtlicher Gewerbenachweis mit korrekter Hausnummer (oder
+  Korrektur der Seed-Adresse) - erst dann ist ein Adressobjekt sinnvoll zu suchen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8450,53.5250,9.8750,53.5450 ;
+  https://api.openstreetmap.org/api/0.6/node/9941672397.json ; https://www.hamburg.de/branchenbuch/hamburg/schrott ;
+  https://schrottregister.pages.dev/ort-hamburg (Abruf 04.11.2026).]

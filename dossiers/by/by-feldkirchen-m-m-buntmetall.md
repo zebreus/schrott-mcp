@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+M&M Buntmetall GmbH, Xaver-Münch-Straße 2-4, 85622 Feldkirchen-Heimstetten: Buntmetallankauf
+für Privatkunden, Gewerbe und Industrie mit veröffentlichten Sorten von Aluminium, Kupfer,
+Messing, Edelstahl, Zink, Blei, Zinn und Hartmetall. Die Identität belegen das Impressum mit
+Geschäftsführer Murad Azeez und der Registerspiegel mit Amtsgericht München HRB 303469 und dem
+Gegenstand Handel mit Buntmetallen. Ankaufpreise sind nicht veröffentlicht, die Konditionen
+werden individuell vereinbart, und die kostenlose Containerbereitstellung ist die einzige
+Gebührenaussage. Offen bleiben der nicht ausgefüllte Eintrag zur
+Umsatzsteuer-Identifikationsnummer, eine nur verzeichnisgestützte Zweitrufnummer, das
+Ausbleiben eines Efb-Eintrags im Fachbetrieberegister und die Bereichsnummer: In OSM existiert
+die Hausnummer 2, die Nummer 4 nicht, und der Betrieb ist dort nicht benannt.
 
 ## Timeline
 

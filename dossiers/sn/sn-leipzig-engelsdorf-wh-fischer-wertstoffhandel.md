@@ -1,5 +1,7 @@
 ---
 slug: sn-leipzig-engelsdorf-wh-fischer-wertstoffhandel
+lat: 51.3446905
+lon: 12.4696216
 name: WH-Fischer Wertstoffhandel
 trader_type: wertstoffhaendler
 state: SN
@@ -18,7 +20,6 @@ pickup_json: ''
 provenance_section: 3) Leipzig und Nordsachsen
 provenance_ankauf_raw: ja
 provenance_origin: table
-clear_fields: 'geo'
 ---
 
 # WH-Fischer Wertstoffhandel
@@ -83,3 +84,43 @@ Leipzig)**; ein Objekt mit Bezug zum Wertstoffhandel ist dort **nicht** erfasst.
 - [Recherche 29.10.2026: **GEO - Produktionspunkt zurueckgenommen.** Der DB-Punkt 51.3545032/12.3691742 loest per Nominatim-Reverse auf „hair & flair, 10, Trufanowstraße, 04105 Leipzig" auf, also rund **2,5 km noerdlich** auf eine andere Strasse in einem anderen Stadtbezirk. `clear_fields: 'geo'` wird gesetzt, **kein** Punkt geraten. Zu geokodieren: **Werkstaettenstraße 4, 04319 Leipzig (Engelsdorf)**. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.3545032&lon=12.3691742 ; read-only `public.db` (29.10.2026).]
 
 - [Recherche 29.10.2026: **OSM live geprueft (Werkstättenstraße, Leipzig).** Kachelraster ueber den **gesamten** Strassenverlauf (Strassenbbox 12.4521/51.3332 bis 12.4719/51.3443, **15 Kacheln, 0 Kachel-Fehler**). Zaehlung getrennt: **33 Adressobjekte / 22 verschiedene Hausnummern** auf der Werkstättenstraße (10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 25, 29, 2a, 2b, 2c, 2d, 31, 4, 6, 7, 8, 9), im gesamten Rastergebiet **122 Adressobjekte mit Hausnummer / 52 verschiedene Hausnummern**. **Hausnummer 4 existiert**: node/9764485016 mit `addr:housenumber=4`, `addr:street=Werkstättenstraße`, `addr:city=Leipzig`, `addr:postcode=04319`, `landuse=railway`, `name=RailMaint` - **kein** `operator`-Tag, `website=https://www.railmaint.com/unternehmen/standorte/werk-leipzig.html`; way/97073881 mit `addr:housenumber=4`, `addr:street=Werkstättenstraße`, `building=yes`, `amenity=nightclub`, `name=Hellraiser` - **kein** `operator`-Tag, `website=https://www.hellraiser-leipzig.de/`, `opening_hours="zu Konzerten"`; way/539692271 mit `addr:housenumber=4`, `addr:street=Werkstättenstraße`, `building=guardhouse` - **kein** `name`-Tag - **kein** `operator`-Tag Ein Objekt mit einem `name`- oder `operator`-Bezug zum Betreiber ist im abgetasteten Raster **nicht** vorhanden; das ist eine Aussage zum OSM-Bestand, kein Negativbeleg ueber den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster) ; https://api.openstreetmap.org/api/0.6/<objekt>.json ; read-only `public.db` (29.10.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 51.3446905, 12.4696216** (Mittelwert der eindeutigen Knoten des
+  Objekts **node/6860608464**; bei einem Node ist der eindeutige Knoten der Objektknoten selbst, der Punkt liegt im
+  eigenen BBox 12.4696216/51.3446905 bis 12.4696216/51.3446905). **Quelle 1 (OSM, live geladen am 04.11.2026,
+  HTTP 200):** **node/6860608464** trägt `name`=**Wertstoffhandel Fischer**, `recycling_type`=centre,
+  `recycling:scrap_metal`=**yes**, `recycling:paper`=yes, `opening_hours`=Mo-Th 10:00-17:00 und `website`=
+  **https://www.wh-fischer.de/** - das ist ein **Betriebsobjekt mit Betriebsbezug** (Annahme von Schrott und Altpapier)
+  und die **Website des Betreibers**; der Abruf von https://api.openstreetmap.org/api/0.6/node/6860608464/full.json
+  liefert HTTP 200 mit genau diesen Tags. Die **Dossier-Adresse Werkstättenstr. 4, 04319 Leipzig** ist im selben
+  Raster belegt: **node/9764485016** trägt `addr:housenumber`=**4**, `addr:street`=Werkstättenstraße,
+  `addr:city`=Leipzig, `addr:postcode`=04319, `landuse`=railway, `name`=**RailMaint** sowie
+  `website`=https://www.railmaint.com/unternehmen/standorte/werk-leipzig.html (live über die Objektabfrage geprüft) -
+  **Achtung Abgrenzung:** die Hausnummer 4 trägt in OSM **mehrere, konkurrierende** Objekte; neben dem
+  Wertstoffhandel-Oben **node/6860608464** und dem RailMaint-Flächenobjekt **node/9764485016** ist im Dossier vom
+  29.10.2026 zusätzlich **way/97073881** (`addr:housenumber`=4, `addr:street`=Werkstättenstraße, `building`=yes,
+  `amenity`=nightclub, `name`=**Hellraiser**) erfasst. Der gesetzte Punkt bezeichnet deshalb den **Betrieb**
+  (Wertstoffhandel Fischer) und **nicht** die Anschriftsecke; die drei Objekte teilen sich dieselbe Hausnummer.
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst
+  **12.4600/51.3400 bis 12.4700/51.3500**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält
+  die gesuchte Straße **nachweislich** - das Adressobjekt **node/9764485016** liegt in dieser Kachel, und die
+  Namenssuche nach **„Fischer"** findet im Raster genau den Treffer **node/6860608464** mit `name`=Wertstoffhandel
+  Fischer. Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Betreiber-Impressum**
+  https://wh-fischer.com/impressum/ liefert **HTTP 200** und nennt live **„Wertstoffhandel Fischer, Fischer Waldemar,
+  Werkstättenstraße 4, 04319 Leipzig, Germany"** mit Telefon **0177 2320010**, `info@wh-fischer.de` und
+  **USt-IdNr DE279977446**; die Startseite https://www.wh-fischer.de/ (identische Domain wie das
+  OSM-`website`-Tag, **HTTP 200**) wirbt „Schrottankauf in Leipzig. Fair. Bar. Sofort." mit Ankauf von Schrott,
+  Buntmetallen und Altpapier. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt
+  ersatzlos**, weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem
+  `lat`/`lon` ab, und der Punkt liegt auf dem live belegten Betriebsobjekt des Betreibers. **Qualifizierung
+  (unverändert übernommen):** Der Punkt bezeichnet das **Schrott-/Altpapier-Annahmeobjekt** des Betreibers; die
+  im Dossier dokumentierte **Kongruenz der Hausnummer mit zwei weiteren Betrieben** (RailMaint, Hellraiser) bleibt
+  offen und wird hier nur abgegrenzt, nicht aufgelöst - eine Zusage zu Containerstellung, Anlieferung oder
+  Öffnungszeiten wird durch die Koordinate **nicht** belegt. `status: aktiv`, `city`, `street`, `postcode`, `phone`,
+  `email`, `website`, `website_status`, `description`, `dropoff_json` und `pickup_json` bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/6860608464/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/9764485016.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.4600,51.3400,12.4700,51.3500 ;
+  https://wh-fischer.com/impressum/ ; https://www.wh-fischer.de/ (Abruf 04.11.2026).]

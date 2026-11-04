@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ISR Recycling GmbH & Co. KG mit Sitz Hafenstraße 35, 25524 Itzehoe, Amtsgericht Pinneberg HRA
+1317 IZ, betreibt in Hamburg-Harburg einen Schrott- und Metallgroßhandel an der
+Wilhelm-Weber-Straße 3, 21079 Hamburg, wo nach Angabe der Standortseite Edelstahl, Aluminium,
+Kupfer und Altmetalle angekauft werden. Die Anschrift tragen die Betreiber-Standortseite und
+das Branchenverzeichnis des Hamburger Hafens, die dieselbe Rechtsperson unter derselben Adresse
+und derselben Rufnummer 040 771441 führen; das Impressum nennt keine Registernummer.
+Ankaufpreise werden nicht beziffert, sondern als Höchst- beziehungsweise Tageshöchstpreis
+bezeichnet, eine Verkaufspreisliste und eine bezifferte Gebühr fehlen. Offen bleiben der Typ
+des Standorts, da die Autoverwertung für Harburg ausdrücklich ausgeschlossen ist, und der
+Standortnachweis, da die Wilhelm-Weber-Straße in OSM ohne Adressierung geführt wird.
 
 ## Timeline
 

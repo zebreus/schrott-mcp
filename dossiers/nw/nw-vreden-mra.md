@@ -1,5 +1,7 @@
 ---
 slug: nw-vreden-mra
+lat: 52.0176754
+lon: 6.7857736
 name: MRA Metallrecycling Autoverwertung
 trader_type: schrotthaendler
 state: NW
@@ -9,7 +11,6 @@ postcode: '48691'
 phone: '02564 398876 / 0178 2882612'
 email: info@schrotthandel-vreden.de
 opening_hours: 'Mo-Fr 08:00-17:00, Sa 08:00-16:00'
-clear_fields: 'geo'
 website: https://schrotthandel-vreden.de
 website_status: aktiv
 status: pruefung
@@ -54,3 +55,38 @@ Die Betreiber-Website `https://schrotthandel-vreden.de/` ist seit dem 30.10.2026
 
 
 - [Recherche 30.10.2026: **OSM-Abgleich der Betriebsadresse — die Hausnummer 11 existiert, ohne Betreiberbezug.** Im Rasterfenster **6.7761036/52.0170256 bis 6.7901896/52.0203449** liegen auf der **Lise-Meitner-Straße** **22 Adressobjekte / 22 verschiedene Hausnummern**. Die **Hausnummer 11 existiert** als **way/330576342** mit `addr:housenumber=11`, `addr:street=Lise-Meitner-Straße`, `addr:city=Vreden`, `addr:postcode=48691`, `addr:country=DE`, `building=yes` — **kein** `name`-Tag, **kein** `operator`-Tag, **kein** `phone`- und **kein** `contact:website`-Tag. Die Anschrift ist damit unabhängig vom Betreiber bestätigt; ein Objekt mit Bezug zu MRA ist im abgetasteten Raster **nicht** vorhanden — das ist eine Aussage zum OSM-Bestand, kein Negativbeleg über den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster, Abruf 30.10.2026); https://api.openstreetmap.org/api/0.6/way/330576342.json]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 52.0176754, 6.7857736** (Mittelwert der eindeutigen Knoten
+  des Objekts **way/330576342**, vier eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  6.7856928/52.0176256 bis 6.7858542/52.0177256). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/330576342** trägt `addr:street`=Lise-Meitner-Straße, `addr:housenumber`=**11**, `addr:city`=Vreden,
+  `addr:postcode`=48691, `addr:country`=DE und `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der
+  Dossier-Adresse **Lise-Meitner-Straße 11, 48691 Vreden** überein. **Fensterprüfung (kein Fensterfehler):** das
+  am 04.11.2026 live abgerufene Kachelraster umfasst **6.7700/52.0100 bis 6.8000/52.0300**, **6 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit dem Straßenobjekt
+  **way/47317550** und **28** Adressobjekten auf „Lise-Meitner-Straße" mit **28** verschiedenen Hausnummern (1, 3,
+  4, 5, 8, 9, 10, **11**, 11a, 13, 15, 17, 18, 19, 20, 21, 23, 24, 25, 25a, 26, 27, 27a, 28, 31, 32, 35, 36) - die
+  **Dossier-Hausnummer 11 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße.
+  **Betriebsbezug jetzt zusätzlich in OSM belegt:** im selben Raster liegt **way/203120296** mit `name`=**MRA
+  Schrotthandel**, `man_made`=works und `website`=**https://www.schrotthandel-vreden.de** - dieselbe Domain wie
+  im Dossier-Frontmatter; der Abruf von https://api.openstreetmap.org/api/0.6/way/203120296/full.json liefert HTTP
+  200 mit fünf eindeutigen Knoten (Mittelwert 52.0175954/6.7855577, Objekt-BBox 6.7848818/52.0174154 bis
+  6.7860728/52.0178615). **Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026):** die
+  **Betreiber-Website** https://schrotthandel-vreden.de/ liefert **HTTP 200** und nennt live im Standortblock
+  **„MRA | Metallrecycling Autoverwertung, Lise-Meitner-Straße 11, 48691 Vreden, Deutschland"** mit
+  Festnetz **02564 / 398876**, Mobil **0178 2882612**, `info@schrotthandel-vreden.de` und den Öffnungszeiten
+  Mo–Fr 08:00–17:00 Uhr und Sa 08:00–16:00 Uhr - identisch zu den Dossier-Feldern. **Zurücknahme des
+  `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine belegte
+  Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt auf der
+  durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet die **betreiberseitig genannte Anschrift**; ein Impressum mit Rechtsträger bleibt weiterhin nicht
+  erreichbar (`/impressum/` liefert HTTP 404, bereits im Dossier vom 30.10.2026 dokumentiert), die Anerkennung
+  als zertifizierter Verwertungsbetrieb wird durch die Koordinate **nicht** belegt. `status: pruefung`, `city`,
+  `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status`, `description`,
+  `dropoff_json` und `pickup_json` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/330576342/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/203120296/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7700,52.0100,6.8000,52.0300 ;
+  https://schrotthandel-vreden.de/ (Abruf 04.11.2026).]

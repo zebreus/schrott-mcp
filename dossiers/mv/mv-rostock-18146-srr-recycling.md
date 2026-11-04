@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Veolia Umweltservice Nord GmbH, Up de Schnur 2, 18146 Rostock: Gewerbeabfallsortieranlage für
+die Sortierung und Behandlung nicht gefährlicher gemischter Leichtverpackungen, hervorgegangen
+aus der SRR Recycling GmbH (HRB 4306 Rostock) über die EVG (HRB 5543) bis zur heutigen
+Rechtsnachfolge (HRB 99491). Belegt sind die Standortangabe durch die Betreiber-Seite samt
+Rufnummer und Waagenzeiten sowie der Anhang zum Entsorgungsfachbetriebs-Zertifikat, der die
+zertifizierte Tätigkeit ausweist; in OSM trägt die Hausnummer 2 kein Namens- oder Betreibertag,
+während dort ein Objekt als Sortieranlage mit Betreiberbezug ohne Adress-Tags erfasst ist. Ein
+Schrott- oder Metallankauf ist nicht belegt, ebenso wenig ein Verkauf von Nutzmaterial oder
+eine bezifferte Gebühr. Offen bleibt die exakte historische Hausnummer der
+Vorgängergesellschaft und die unbelegte Seed-Angabe Eisen und Nichteisenmetalle.
 
 ## Timeline
 

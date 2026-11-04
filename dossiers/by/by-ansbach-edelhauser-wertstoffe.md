@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Edelhäuser Wertstoffe GmbH, Am Igelsbach 11-13, 91541 Rothenburg o. d. Tauber, Amtsgericht
+Ansbach HRB 1710, Geschäftsführung Oliver und Sieglinde Edelhäuser: Entsorgungsfachbetrieb der
+Edelhäuser-Gruppe, während die im Dossier geführte Anschrift Naglerstraße 1, 91522 Ansbach, zur
+Schwestergesellschaft Edelhäuser Rohstoffe GmbH gehört und der Wertstoffhof Ansbach in der
+Adalbert-Pilipp-Straße 48 liegt. Die Identität tragen das Impressum mit Registernummer, der
+kongruente Registerspiegel und die Stadt Ansbach als kommunaler Zweitbeleg; das amtlich
+gelesene Zertifikat der TÜV SÜD mit der Nummer 12 150 8123, gültig bis 22.05.2027, ordnet dem
+Wertstoffhof Ansbach die Anlagen 5 bis 7 zu. Offen bleiben die Adressdifferenz, da keine Anlage
+die Naglerstraße 1 nennt, das Fehlen eines Altfahrzeugverwertungs-Eintrags und die Frage, ob
+dort Material angekauft wird.
 
 ## Timeline
 

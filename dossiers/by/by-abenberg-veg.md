@@ -29,7 +29,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+VEG Verwertung, Entsorgung Gilch GmbH & Co. KG, Beerbach A 70, 91183 Abenberg: zertifizierter
+Entsorgungsfachbetrieb mit Containerdienst und Wertstoffzentrum, das nach Angabe der
+Betreiberseite Schrott, Kupfer, Messing, Aluminium und Edelstahl ankauft; die Gesellschaft ist
+Teil der Gilch-Unternehmensgruppe. Die Identität belegen das Impressum mit Amtsgericht Nürnberg
+HRA 16112, der Registerspiegel und das amtlich gelesene audis-Zertifikat 458-11-12-25, gültig
+bis 20.06.2027; das amtliche Register schreibt die Anschrift als Beerbach 70 A. Ankaufpreise
+werden nicht veröffentlicht, ein Verkauf von Sekundärprodukten ist nicht belegt, und Gebühren
+sind nirgends beziffert. Offen bleiben der fehlende unmittelbare Betriebsbezug auf der
+Hausnummer 70 in OSM, wo nur die Gruppe erfasst ist, der Negativbefund zu einer
+Altfahrzeugverwertungs-Anerkennung sowie die nur einseitig belegten Kontaktzeiten.
 
 ## Timeline
 

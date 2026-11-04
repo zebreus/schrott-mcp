@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wieland-Werke AG, Graf-Arco-Str. 36, 89079 Ulm: Kupfer- und Messing-Halbzeughersteller mit
+Walzprodukten, Rohren und Gleitlagern, der Schrotte als Rohstoff in einem
+B2B-Beschaffungsportfolio unter Metal Supply einkauft. Die Identität tragen das Impressum mit
+Amtsgericht Ulm HRB 1256 und die Standortseite mit Geschäfts- und Warenannahmezeiten; in OSM
+tragen mehrere Objekte an der Graf-Arco-Straße den Betriebsnamen, das Adressobjekt zur
+Hausnummer 36 ist ein reiner Gebäudepunkt. Ein öffentlicher Ankauf von Schrott gegen Bargeld
+wird nicht angeboten, Verkaufshalbzeuge werden ohne Preise gelistet, und die ausgewiesenen
+Metallkurse sind Börsenreferenzen und keine Ankaufpreise. Offen bleiben die nur einseitig
+belegten E-Mail und Öffnungszeiten sowie die Bedingungen, unter denen das Werk Schrotte
+annimmt.
 
 ## Timeline
 

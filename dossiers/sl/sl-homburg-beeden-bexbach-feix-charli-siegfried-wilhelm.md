@@ -1,6 +1,8 @@
 ---
 slug: sl-homburg-beeden-bexbach-feix-charli-siegfried-wilhelm
-clear_fields: 'geo'
+lat: 49.3039275
+lon: 7.3097543
+clear_fields: ''
 name: Siegfried Feix Schrotthandel u. Schrottentsorgung
 trader_type: schrotthaendler
 state: SL
@@ -58,3 +60,47 @@ Die im älteren Lead genannte Domain bexbacher-buntmetallverwertung.de ist beim 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein Betreiber-Beleg zu „Feix (Charli/Siegfried/Wilhelm)“, Homburg-Beeden/Bexbach auffindbar (Bing nur irrelevante Treffer, DDG ratenlimitiert); Familienbetriebe-Struktur und Adressen weiter unbelegt, keine Fills, weiter pruefung; Quelle(n): keine belegfähige Quelle]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.3039275/7.3097543** (Mittel der 4 eindeutigen Knoten von
+  way/359549371; der Punkt liegt innerhalb der Objekt-BBox
+  49.3038623/7.3096661–49.3039928/7.3098424). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/359549371** trägt `addr:street`=An der Kiesgrube, `addr:housenumber`=**13**,
+  `addr:postcode`=66424, `addr:city`=Homburg, `addr:country`=DE und `building`=yes - Straße,
+  Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse **An der Kiesgrube 13, 66424
+  Homburg-Beeden** überein. Das Objekt trägt **weder `name=` noch `operator=`**; es ist eine
+  **Adressangabe** eines Gebäudes, kein Betriebs-POI. Quelle 2 (im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): Das Telefonbuch
+  https://www.dasoertliche.de/Themen/Feix-Siegfried-Schrotthandel-u-Schrottentsorgung-Homburg-Beeden-An-der-Kiesgrube
+  liefert HTTP 200 und nennt im FAQ-Block **„Wie lautet die Adresse von Feix Siegfried Schrotthandel
+  u. Schrottentsorgung? - An der Kiesgrube 13, 66424 Homburg“**; das im Dossier zitierte
+  Schrottplatz-Portal https://lokaleschrottplatz.de/siegfried-feix/ liefert ebenfalls HTTP 200 mit
+  **„Siegfried Feix, An d. Kiesgrube 13, 66424 Homburg, Telefon +49 6841 5992“** und einer
+  Kartenposition **49.30389300/7.30973000**, die **rund 4 m** vom gesetzten OSM-Punkt entfernt liegt
+  und die Anschrift damit unabhängig bestätigt. **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster umfasst **7.3000/49.3000 bis 7.3200/49.3100**, **2 Kacheln
+  von je 0,01 Grad**, **0 Kachel-Fehler**, **10.970 Elemente**; das Fenster enthält die gesuchte
+  Straße **„An der Kiesgrube“ nachweislich** mit dem Straßenobjekt **way/80054913**
+  (`highway`=residential) sowie **30 Adressobjekten** auf „An der Kiesgrube“ mit **30 verschiedenen
+  Hausnummern** (3–26, 28–30, 32, 34, 36) - die **Dossier-Hausnummer 13 existiert** und ist im
+  Raster das einzige Objekt mit dieser Nummer auf dieser Straße. **Negativaussage, qualifiziert:**
+  im Raster tragen **216 Objekte** `name=` oder `operator=`; **mit Bezug zu „Feix“, „Schrott“ oder
+  „Entsorgung“** trifft es auf **kein** Objekt dieser Adresse - der Betrieb ist in OSM **nicht**
+  kartiert; der Punkt bezeichnet ausschließlich die verzeichnisgestützte Anschrift. **Zurücknahme
+  des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` wurde **entfernt** (das Feld steht jetzt als
+  `clear_fields: ''`), weil es den am 25.10.2026 zurückgenommenen und nachweislich falschen
+  Produktionspunkt (49.3264/7.3387 = Poststraße 1 in Homburg) fernhalten sollte; der hier gesetzte
+  Punkt liegt **exakt** auf der verzeichnisbestätigten Anschrift, und `clear_fields` darf nicht
+  gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. **Qualifizierung (unverändert übernommen):**
+  Der Punkt bezeichnet die **Adresse eines Verzeichnis-Leads**, **nicht** einen verifizierten
+  Annahmehof, eine Waage oder eine öffentliche Schrottannahme; die im Dossier offenen Punkte
+  (Identität zwischen Siegfried, Charli und Wilhelm Feix, die abweichenden Feix-Ansichten in Bexbach
+  und Beeden, der tote Domainlead bexbacher-buntmetallverwertung.de) bleiben unverändert, ebenso
+  `status: pruefung`, `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status` und `description`. Es wird kein Ankaufkurs, keine Materialverkaufspreisliste und
+  keine Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/359549371/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3000,49.3000,7.3200,49.3100 ;
+  https://www.dasoertliche.de/Themen/Feix-Siegfried-Schrotthandel-u-Schrottentsorgung-Homburg-Beeden-An-der-Kiesgrube ;
+  https://lokaleschrottplatz.de/siegfried-feix/ (Abruf 04.11.2026).]

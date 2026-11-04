@@ -1,6 +1,7 @@
 ---
 slug: rp-ruppertsberg-van-vloten-ruppertsberg
-clear_fields: 'geo'
+lat: 49.4010499
+lon: 8.1923604
 name: van Vloten Ruppertsberg
 trader_type: sonstige
 state: RP
@@ -60,3 +61,36 @@ Das beschädigte importierte Straßenfeld ist weiterhin kein verifizierter Adres
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Klärfall — kein Beleg; Gelbe-Seiten-Trefferliste Ruppertsberg (Lead) nennt nur Neustadt/Haßloch-Betriebe, kein „van Vloten"; Northdata nur Suchseite ohne DE-Treffer, keine Betreiber-Website/Domain; Street-Feld („Vloten Ruppertsberg Ruppertsberg Obergasse 8D") bleibt unverändert (Nur-leere-Felder + City-Mismatch-Regel, Obergasse 8D als Einzelbeleg nur hier in Timeline); Quelle(n): https://www.gelbeseiten.de/suche/schrotthandel/ruppertsberg (Lead)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 49.4010499, 8.1923604** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/1350683139**, sieben eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  8.1922906/49.4009998 bis 8.1924268/49.4010986). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/1350683139** trägt `addr:street`=Obergasse, `addr:housenumber`=**8D**, `addr:city`=Ruppertsberg,
+  `addr:postcode`=67152, `addr:country`=DE und `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der
+  Dossier-Adresse **Obergasse 8D, 67152 Ruppertsberg** überein. **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster über Ruppertsberg umfasst **8.1900/50.4000 bis 8.2000/50.4100**,
+  **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich**
+  mit dem Straßenobjekt **way/25087948** (`highway`=residential, `name`=**Obergasse**) sowie **38** Adressobjekten
+  auf „Obergasse" mit den Hausnummern 2, 3, 4, 6, 7, 8, 8B, 8C, **8D**, 8K, 8a, 8e, 8f, 8g, 8h, 8i, 8j, 8l, 8m, 9, 10,
+  11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 21b, 22, 24, 26, 28 und 30 - die
+  **Dossier-Hausnummer 8D existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine
+  Namenssuche nach **„Vloten"** über die Felder name, operator, description, website, contact:website, brand, note
+  und addr:housename findet im Raster **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung, nur die
+  Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das
+  **Schrottplatz-Portal LokaleSchrottplatz** liefert **HTTP 200** und führt live **„Silke van Vloten VSI"** mit der
+  Angabe **„Adresse des Schrottplatzes: Obergasse 8D, 67152 Ruppertsberg"** und Telefon **+49 6326 7673** -
+  identisch mit der Dossier-Adresse. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt
+  ersatzlos**, weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem
+  `lat`/`lon` ab, und der Punkt liegt exakt auf der durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung
+  (unverändert übernommen):** Der Punkt bezeichnet die **portalgestützte Anschrift**, keinen verifizierten
+  Annahmehof; das im Dossier dokumentierte **Fehlen einer Betreiber- oder Registerbestätigung** (bislang nur
+  Verzeichnisse, kein Impressum mit Rechtsträger) bleibt offen, ebenso die im Dossier festgehaltene **Anzeige
+  „Geschlossen"** und die **nicht übernommenen** Material- und Mindestmengenangaben des Portals - eine Ankaufzusage,
+  ein Annahmehof oder eine Öffnungszeit wird durch die Koordinate **nicht** belegt. `status: pruefung`, `city`,
+  `street` (Rohzeichenfolge unverändert), `postcode` (leer), `phone` (leer), `email`, `opening_hours`, `website`
+  (leer), `website_status` (leer) und `description` (leer) bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/1350683139/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1900,50.4000,8.2000,50.4100 ;
+  https://lokaleschrottplatz.de/silke-van-vloten-vsi/ (Abruf 04.11.2026).]

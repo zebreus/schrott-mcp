@@ -61,3 +61,46 @@ Moorburger Elbdeich 29 aus Verzeichnissen nicht mit der Registeradresse zu einem
   https://progas.de/erfahrungsberichte/gewerblich/heiko-miersen-hamburg-geschlossen ;
   https://www.mopo.de/hamburg/in-hamburg-gestrandet-dieses-wrack-gammelt-seit-jahrzehnten-vor-sich-hin/204280 ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9950,53.5000,10.0250,53.5350 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - Klärfall mit drei geprüften Fenstern belegt; die historische Platzadresse ist in OSM
+  nicht abbildbar.** Für diesen Eintrag ist der Standort **nicht** als aktueller Annahmeplatz belegt: NorthData
+  ordnet die Heiko Miersen GmbH (HRB 117106 Hamburg, zuvor HRB 2717 NM Kiel) dem historischen Standort **Moorburger
+  Schanze 6, 21079 Hamburg** zu (live gelesen laut Vermerk vom 14.10.2026; dort jüngster sichtbarer Abschluss
+  23.12.2021 für 2020, kein Nachweis eines heutigen Betriebs). Als Stilllegungshinweise sind im Dossier ein
+  **Lieferanten-Eigenbericht** (PROGAS, veröffentlicht 09.06.2022, geändert 21.06.2024: „Betriebseinstellung der
+  Abwrackwerft mit Ablauf des vergangenen Jahres") und ein **unabhängiger Ortsbericht** (MOPO vom 09.06.2020: „Heiko
+  Miersen GmbH" als „Geschichte", Gelände geräumt) dokumentiert; die Chronologie widerspricht sich, ein exaktes
+  Schließungsdatum wird deshalb **nicht** behauptet und `status` bleibt **`pruefung`** statt `geschlossen`.
+  **OSM-Prüfung (live, 04.11.2026, drei Fenster zu je 0,01 Grad, insgesamt 14 Kacheln, 0 Kachel-Fehler,
+  api.openstreetmap.org/api/0.6/map.json):** (a) **9.9700/53.5200 bis 10.0000/53.5400** (**6 Kacheln**) erfasst den
+  Hafenbereich nördlich der Norderelbe mit **61** benannten Straßen (Klütjenfelder Hauptdeich, Klütjenfelder Straße,
+  Reiherstieg-Hauptdeich, Steinwerder Damm, Norderelbstraße, Strandkai, Harburger Chaussee, Ellerholzdamm,
+  Werftstraße, Nordersand u. a.), aber **keine** Straße namens „Moorburger Schanze"; (b) **10.0000/53.5050 bis
+  10.0200/53.5250** (**4 Kacheln**) erfasst Veddel/Georgswerder mit **73** benannten Straßen (Veddeler Straße,
+  Honartsdeicher Weg, Niedergeorgswerder Deich, Vogelhüttendeich, Rothenhäuser Straße, Klütjenfelder Hauptdeich,
+  Wilhelmsburger Brücke, Georgswerder Ring u. a.), ebenfalls **keine** Straße mit diesem Namen; (c) **10.0100/53.5250
+  bis 10.0300/53.5450** (**4 Kacheln**) erfasst Veddel/Harburg mit **82** benannten Straßen (Baakenallee,
+  Banksstraße, Veddeler Brückenstraße, Oberwerder Damm, Neue Elbbrücke, Kirchenpauerkai, Moldauhafensteg, Hovestraße
+  u. a.), ebenfalls **keine** Straße namens „Moorburger Schanze". Eine Suche nach **„Miersen"** und **„Moorburger"**
+  über alle Tag-Werte dieser Fenster findet **kein** Objekt mit Namens-, Betreiber- oder Branchenbezug zu „Miersen",
+  zu einer Abwrack- oder Schrottanlage. **Warum keine Koordinate:** Die Registeradresse „Moorburger Schanze 6" ist
+  **keine Hausnummer-Adresse** im Sinne eines Adressobjekts, sondern ein **historischer Platzname** (Erdwerk); das
+  Dossier führt „Moorburger Elbdeich 29" aus Verzeichnissen **nicht** mit der Registeradresse zu einem vermeintlichen
+  aktuellen Schrottplatz zusammen und hält ausdrücklich fest, dass für den historischen Platz **kein GEO-Fill**
+  dokumentiert war. Ein Punkt auf die geräumte historische Fläche wäre eine **erfundene** Koordinate; die Nutzung des
+  Geländes ist zudem unstrittig nicht mehr die eines Schrottbetriebs. **Reichweite / Fehlbelegklausel:** Das Fehlen
+  einer Abbildung der „Moorburger Schanze" in OSM ist eine **OSM-Datenlücke** bzw. eine Folge der historischen
+  Ortsbezeichnung, **kein** Nachweis über den Standort eines Betriebs; der **Nichteintrag** im amtlichen
+  Fachbetrieberegister wäre ohnehin kein Nichtexistenzbeweis (freiwillige Anerkennung). Übrige Frontmatter-Felder,
+  `status` und alle Bestandsvermerke bleiben unverändert; es wird **weder** ein genauer Schließungszeitpunkt **noch**
+  ein heutiger Betrieb behauptet. **Nächster Schritt für den Owner:** ein Nachweis einer Fortführung unter derselben
+  oder einer neuen Rechtsträgerin an einem **benannten** Standort (Straße und Hausnummer); erst dann wäre eine
+  Koordinate ansetzbar. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9700,53.5200,10.0000,53.5400
+  ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0000,53.5050,10.0200,53.5250 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0100,53.5250,10.0300,53.5450 ;
+  https://www.northdata.de/Heiko%20Miersen%20GmbH,%20Hamburg/HRB%20117106 ;
+  https://progas.de/erfahrungsberichte/gewerblich/heiko-miersen-hamburg-geschlossen ;
+  https://www.mopo.de/hamburg/in-hamburg-gestrandet-dieses-wrack-gammelt-seit-jahrzehnten-vor-sich-hin/204280 (Abruf
+  04.11.2026).]

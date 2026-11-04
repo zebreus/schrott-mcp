@@ -24,9 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
-Preisstand 01.11.2026: Der Betreiber veröffentlicht auf seiner Domain wil-ro.de **keine** bezifferten Preise. Die gesamte Website (4 Seiten laut Sitemap) enthält null Euro-Werte; die einzige Preisnennung ist das unbezifferte Versprechen „vergüten die Metalle zu Tageshöchstpreisen". Auch die beiden veröffentlichten PDFs sind Entsorgungsfachbetrieb-Zertifikate ohne Preiszeile. Der Namenszusatz „BDSV-Mitglied" verweist auf die Verbandsmitgliedschaft, nicht auf eine Preisquelle.
+WIL-RO Wildeshauser Rohstoffhandel und Recycling GmbH, Düngstruper Straße 77, 27793
+Wildeshausen: Entsorgungsfachbetrieb mit Ankauf von Eisenschrott, Kupfer, Messing, Zink, Blei,
+Aluminium, V2A und V4A, Katalysatoren, Batterien und Kabeln, anerkannter Autoannahmestelle
+sowie Containerdienst und Sondertransporten. Die Identität tragen das Impressum mit Amtsgericht
+Oldenburg HRB 141058 und der Registerspiegel, gestützt durch zwei Zertifikate der bregau zert;
+der Namenszusatz BDSV-Mitglied ist durch die Verbandsmitgliederliste vom 20.08.2026 belegt.
+Preise werden nicht veröffentlicht: Nach dem Abruf vom 01.11.2026 enthält die Domain keinen
+einzigen Eurobetrag und keine Preisliste, die einzige preisbezogene Aussage ist das
+unbezifferte Versprechen, die Metalle zu Tageshöchstpreisen zu vergüten. Offen bleiben die
+tatsächlich gezahlten Tageshöchstpreise und eine nicht veröffentlichte Preisliste.
 
 ## Timeline
 

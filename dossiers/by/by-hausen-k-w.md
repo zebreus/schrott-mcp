@@ -26,7 +26,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+K & W Metallhandel GmbH, Gewerbering 9, 93345 Hausen: zertifizierter Entsorgungsfachbetrieb,
+der laut Betreiberseite Schrott und Nichteisenmetalle täglich annimmt und wieder abnimmt,
+vertreten durch die Inhaberin Katrin Fuchs. Als Belege dienen das Impressum mit Registergericht
+Regensburg und Registernummer 13318 sowie die Kontaktseite mit der Ankauf- und Abnahmezusage
+auf derselben Domain; in OSM existiert die Hausnummer 9 als Adressobjekt, trägt aber weder
+Namen noch Betreiber, und ein Objekt mit Betriebsbezug fehlt dort. Ankaufkurse, eine
+Materialpreisliste, Verkaufspreise und Gebühren werden nicht veröffentlicht, und eine Gebühr
+wird auch auf der verlinkten Seite der Allgemeinen Geschäftsbedingungen nicht genannt;
+Öffnungszeiten sind nirgends publiziert. Offen bleibt die Beleggrenze nach der zweiten
+unabhängigen Quelle, da Impressum und Kontaktseite nur eine Quelle bilden.
 
 ## Timeline
 

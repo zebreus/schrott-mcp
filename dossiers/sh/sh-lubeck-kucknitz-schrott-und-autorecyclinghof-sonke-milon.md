@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott- und Autorecyclinghof Sönke Milon e.K. mit Sitz Ottostraße 11, 23738 Lensahn,
+Amtsgericht Lübeck HRA 2053 OL: Autoverwertung und Schrottplatz, der als Filialbetrieb am
+Standort Mühlenkamp 8, 23569 Lübeck-Kücknitz geführt wird. Die Betreiberkette ist mit der
+Mitteilung des Verkäufers belegt, nach der die ALBA Metall Nord GmbH den Lübecker Standort zum
+01.09.2016 an die e.K. abgab, und mit dem amtlichen Landesportal, das beide Standorte unter
+derselben e.K. führt; der Registerauszug weist Lübeck nicht als Registeranschrift aus. Die
+Betreiberdomain milon-recycling.de antwortet auf allen geprüften Pfaden mit HTTP 500, das
+Fachbetrieberegister führt für Lübeck keinen Betrieb der e.K., und in OSM ist das Gebäude zur
+Hausnummer 8 als abgerissen markiert. Offen bleibt, ob der Standort nach 2016 weiter betrieben
+wurde oder nach Lensahn verlagert wurde; Preise und Tarife sind nicht belegt.
 
 ## Timeline
 

@@ -79,3 +79,45 @@ IMET Industriemetall-Handelsgesellschaft mbH ist im Registerspiegel unter HRB 18
   https://www.northdata.de/imet%20Industriemetall-Handelsgesellschaft%20mbH,%20Hamburg/HRB%2018825 ;
   https://openregister.de/company/DE-HRB-K1101-18825 ; https://imet.de/ (403) ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9750,53.5700,9.9950,53.5800 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - Klärfall mit zwei geprüften Fenstern belegt; die heutige Registeranschrift ist in OSM
+  ein Café.** Die Nachprüfung prüft **beide** für das Dossier relevanten Anschriften. **(1) Die Seed-Adresse**
+  (Eißendorf, Ehestorfer Weg 25, 21075): Kachelraster **9.9550/53.5600 bis 9.9850/53.5900** (Eppendorf, Eimsbüttel,
+  Alsterdorf), **9 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf
+  04.11.2026). Das Fenster enthält **231** benannte Straßen (u. a. Abendrothsweg, Alardusstraße, Amandastraße,
+  Bernstorffstraße, Beiersdorfstraße, Bismarckstraße), aber **keine** Straße namens „Ehestorfer Weg" - die
+  Seed-Straße ist im geprüften Eißendorfer Umfeld **nicht** in OSM erfasst, ein Adressobjekt zur Hausnummer 25 kann
+  dort also nicht existieren; der vorige Vermerk war in diesem Punkt kein Fenster-, sondern ein Datenbefund. **(2)
+  Die heutige Registeranschrift** (Süderstraße 112 a, 20537 Hamburg, Verlegung 2021): Kachelraster **10.0250/53.5360
+  bis 10.0450/53.5560**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**. Das Fenster enthält die gesuchte Straße
+  **nachweislich**: die **Süderstraße** ist mit **48** Straßenobjekten darin erfasst; **Census:** **58**
+  Adressobjekte mit `addr:street`=Süderstraße und `addr:postcode`=20537 mit **47** verschiedenen Hausnummern (24, 26,
+  30, 32, 32b, 34, 61, 63, 73, 75, 77, 79, 83, 109, 111, 112, **112a**, 112b, 114, 120, 121, 129, 131, 133, 139, 140,
+  141, 142, 149-153, 153, 153a, 157, 159a, 160, 163, 165, 167, 169, 185, 188, 193, 195, 198, 199, 200) - die
+  **Hausnummer 112a existiert**, wird aber von **zwei** Objekten getragen: **node/7121921386** (live geladen
+  04.11.2026, `addr:housenumber`=**112a**, `addr:street`=Süderstraße, `addr:city`=Hamburg, `addr:postcode`=**20537**,
+  `amenity`=**cafe**, `name`=**„Presscafé"**, `website`=https://presscafe.de, `check_date`=2023-10-27, Version 4 vom
+  17.08.2025, **53.5451271 / 10.0329772**) und **node/10144600178** (dieselbe Anschrift ohne `name`, Version 1 vom
+  31.10.2022, **53.5452172 / 10.0330402**). **Warum trotzdem keine Koordinate:** (a) die Dossier-Zeile führt
+  **keine** Straße und **keine** PLZ in der Frontmatter, die Seed-Adresse ist historisch (Verlegung 2021), und das
+  Dossier hält ausdrücklich fest: „Die Registeranschrift wird nicht als Betriebsstandort eingesetzt"; (b) die
+  **jetzige** Nutzung der Registeranschrift ist in OSM ein **Café** (Presscafé) und damit **kein** Metall- oder
+  Schrottstandort; (c) es gibt **keinen** belegten Annahmehof und **keine** Privatkundenannahme in Eißendorf, die
+  Betreiberdomain imet.de war am 21./23.10.2026 nicht abrufbar (HTTP 403). **Negativaussage, qualifiziert:** Eine
+  Suche nach „IMET", „Schrott" und „Metall" über alle Tag-Werte beider Fenster findet **kein** Objekt mit
+  Betriebsbezug zur IMET; das einzige benannte Objekt im Süderstraße-Fenster ist ein Fremdobjekt (node/3618318683
+  „KALO Gruppe Kalorimeta"). **Reichweite / Fehlbelegklausel:** Die **Abwesenheit** der Straße „Ehestorfer Weg" in
+  OSM ist eine **OSM-Datenlücke**, **kein** Nachweis, dass dort kein Betrieb existiert; die Zuordnung der
+  Café-Nutzung zur Süderstraße 112 a ist eine OSM-Standangabe (letzte Änderung 2025) und **kein** Beleg gegen eine
+  gleichzeitige gewerbliche Nutzung durch die IMET. `status: pruefung`, `street`/`postcode` (beide leer) und alle
+  übrigen Frontmatter-Felder bleiben unverändert; es wird **keine** Schließung und **kein** Verbleib der Eißendorfer
+  Niederlassung behauptet. **Nächster Schritt für den Owner:** lesbarer Betreiberauftritt (Impressum mit Standort und
+  Leistungen) oder Originalregisterauszug mit Anschriftenhistorie; danach erneute OSM-Hausnummerensuche. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9550,53.5600,9.9850,53.5900 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0250,53.5360,10.0450,53.5560 ;
+  https://api.openstreetmap.org/api/0.6/node/7121921386.json ;
+  https://api.openstreetmap.org/api/0.6/node/10144600178.json ;
+  https://www.northdata.de/imet%20Industriemetall-Handelsgesellschaft%20mbH,%20Hamburg/HRB%2018825 ;
+  https://openregister.de/company/DE-HRB-K1101-18825 ; https://imet.de/ (403) (Abruf 04.11.2026).]

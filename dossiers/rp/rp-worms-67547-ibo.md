@@ -45,3 +45,36 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [30.10.2026 (Korrekturvermerk): **Distanzangabe berichtigt**: die Haversine-Distanz (R = 6371 km) beträgt **2,63 km** (nicht 3,0 km). Quelle(n): Haversine R = 6371 km, Abruf 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk): **Objektzahl der Gartenstraße berichtigt**: die Nachmessung am 30.10.2026 ergibt **22** statt 23 Adressobjekte und **22** verschiedene Hausnummern - die Zahl der verschiedenen Hausnummern (22) und die Aufzählung (19 Zahlenhausnummern 1 bis 7, 9 bis 12, 14 bis 18, 20, 22 und 24; im Bereich 1 bis 24 fehlen 8, 13, 19, 21 und 23; dazu 4a, 10a und 12a) sind unverändert. Raster: bbox 8.3683654,49.6247472,8.3709690,49.6277853 (Ausdehnung der Gartenstraße in 67547 Worms), Strasse „Gartenstraße“. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3683654,49.6247472,8.3709690,49.6277853 (Abruf 30.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Gartenstr. 10, 67547
+  Worms-Innenstadt** (Verzeichnislead „Ibo Schrotthändler") **existiert** in OSM, aber das Objekt trägt **weder**
+  `name=` **noch** `operator=` und ist als **Wohngebäude** erfasst (`building`=apartments); es gibt an dieser
+  Anschrift **kein** Betriebs- oder Recycling-POI, und der Seed-Name **„Ibo"** ist keine Firmenbezeichnung, sondern
+  eine Kurzform, die keinem Schrotthandel zweifelsfrei zugeordnet ist. **Was live geprüft wurde (04.11.2026):** das
+  am 04.11.2026 live abgerufene Kachelraster über Worms-Innenstadt (8.3600/49.6200 bis 8.3700/49.6300, **1 Kachel
+  von je 0,01 Grad, 0 Kachel-Fehler**) enthält die gesuchte Straße **nachweislich** als **way** mit `name`=Gartenstraße
+  und führt **20** Adressobjekte auf „Gartenstraße" mit **20** verschiedenen Hausnummern (1, 2, 3, 4, 4a, 5, 6, 7, 9,
+  **10**, 10a, 11, 12, 12a, 14, 16, 18, 20, 22, 24) - die **Dossier-Hausnummer 10 existiert** als **way/208150593**
+  mit `addr:housenumber`=10, `addr:street`=Gartenstraße, `addr:city`=Worms, `addr:postcode`=67547,
+  `addr:country`=DE, `building`=apartments, `roof:shape`=flat; der Abruf von
+  https://api.openstreetmap.org/api/0.6/way/208150593/full.json liefert HTTP 200 (elf eindeutige Knoten, Objekt-BBox
+  8.3685468/49.6261723 bis 8.3688156/49.6263585). Eine Namenssuche nach **„Ibo"** über die Felder name, operator,
+  description, website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer. Quelle 1
+  (OSM): das live abgerufene Kachelraster 8.3600/49.6200–8.3700/49.6300 mit **way/208150593** ohne Betriebsbezug.
+  Quelle 2 (Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **Gelbe-Seiten-
+  Detailseite** liefert **HTTP 200** und führt live **„Ibo Schrotthändler"** in der Rubrik **Schrott** an
+  **Gartenstr. 10, 67547 Worms-Innenstadt**, Telefon **0176 21 45 65 69**, ohne Website und ohne E-Mail - das bleibt
+  ein Aggregator-Lead. **Warum keine Koordinate:** Die OSM-Adresse bestätigt nur die **Anschrift**, nicht den
+  **Betrieb**; ein Punkt an einem Wohnhaus würde für den Seed einen Schrottbetrieb behaupten, den weder OSM noch ein
+  Betreiber- oder Registerbeleg trägt. Das im Dossier dokumentierte **amtliche Fachbetrieberegister** führt für Worms
+  vier Betriebe (FAß Rohstoffrecycling, Herrmann Eisen-Metall GmbH, Holzkontor Worms GmbH, Velte Rohstoffhandel GmbH)
+  und **keinen** namens Ibo; die Efb-Anerkennung ist freiwillig, das ist daher **kein** Nichtexistenzbeweis, und das
+  **Fehlen einer Hausnummer** wäre hier ohnehin nicht gegeben. **Was zur Auflösung fehlt:** ein lesbarer
+  Betreiberauftritt (Impressum mit Rechtsträger), ein Registereintrag oder ein OSM-Objekt mit Betriebsbezug, das dem
+  Seed-Namen „Ibo" zugeordnet werden kann. `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt
+  unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/208150593/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3600,49.6200,8.3700,49.6300 ;
+  https://www.gelbeseiten.de/gsbiz/b56d209a-ec98-483b-96a5-5e085589757d (Abruf 04.11.2026).]

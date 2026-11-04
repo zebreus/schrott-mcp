@@ -1,6 +1,7 @@
 ---
 slug: rp-trier-pfeil-heinz
-clear_fields: 'geo'
+lat: 49.7454006
+lon: 6.6365441
 name: Pfeil-Heinz
 trader_type: sonstige
 state: RP
@@ -55,3 +56,36 @@ Das frühere `street`-Feld enthielt den nicht normalisierten Komposittext „Pfe
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Adress-Konsens über 4 Aggregatoren (firmania/meinestadt/cylex/lokaleschrottplatz: Petra/Pfeil-Heinz Schrotthandel und Entsorgungsbetrieb, Leostr. 6, 54290 Trier, 0170 6878799) + 11880-Eintrag (Stand 05/2026); aber alles Leads ohne Betreiber-/Registerbeleg → kein Fill (Seed-Rohtext in street unangetastet), pruefung bleibt; Quelle(n): s.o. Aggregatoren (Leads)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 49.7454006, 6.6365441** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/160207789**, achtzehn eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  6.6363418/49.7452683 bis 6.6367713/49.7456357). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/160207789** trägt `addr:street`=Leostraße, `addr:housenumber`=**6**, `addr:city`=Trier,
+  `addr:postcode`=54290, `addr:country`=DE, `building`=yes - Straße, Hausnummer und Ort stimmen mit der im Dossier
+  belegten Seed-Adresse **Leostr. 6, 54290 Trier (Trier-Süd)** überein. **Fensterprüfung (kein Fensterfehler):** das
+  am 04.11.2026 live abgerufene Kachelraster über Trier-Süd umfasst **6.6300/49.7400 bis 6.6400/49.7500**, **1
+  Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit den
+  Straßenobjekten **way/19564626**, **way/507924665** und **way/540487717** (alle `name`=Leostraße) sowie **7**
+  Adressobjekten auf „Leostraße" mit den Hausnummern 1, 2, 3, 4, 5, 6 und 7 - die **Dossier-Hausnummer 6 existiert**
+  und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine Namenssuche nach **„Pfeil"** über
+  die Felder name, operator, description, website, contact:website, brand, note und addr:housename findet im Raster
+  **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Betreiber/
+  Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **11880-Unternehmensprofilseite**
+  liefert **HTTP 200** und führt live **„Pfeil-Heinz"** mit der Branche **Altmetallrecycling** an
+  **Leostr. 6, 54290 Trier (Trier-Süd)**, Telefon **(0170) 6878799**; das **Schrottplatz-Portal LokaleSchrottplatz**
+  nennt live denselben Betrieb mit **Leostraße 6, 54290 Trier** und derselben Nummer. **Zurücknahme des
+  `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine belegte
+  Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt auf der
+  durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet die **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; das im Dossier dokumentierte
+  **Fehlen eines Betreiber- oder Registerbelegs**, die **abweichenden Öffnungszeiten** (11880 Mo–Fr 08:00–17:30
+  gegenüber Portal Mo–Fr 08:00–17:00) und die **Portal-Mindestgewichte** (100 kg Fe / 1 kg NE) bleiben unbestätigte
+  Portalangaben - eine Ankaufzusage, ein Annahmehof oder ein Öffnungsnachweis wird durch die Koordinate **nicht**
+  belegt. `status: pruefung`, `city`, `street` (leer), `postcode` (leer), `phone` (leer), `email`, `opening_hours`,
+  `website`, `website_status` und `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/160207789/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.6300,49.7400,6.6400,49.7500 ;
+  https://www.11880.com/branchenbuch/trier/060440092B112767456/pfeil-heinz.html ;
+  https://lokaleschrottplatz.de/pfeil-heinz/ (Abruf 04.11.2026).]

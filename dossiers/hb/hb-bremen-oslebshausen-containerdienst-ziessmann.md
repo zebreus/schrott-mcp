@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Containerdienst Ziessmann GmbH & Co. KG, Große Riehen 8, 28239 Bremen-Oslebshausen:
+Containerdienst und Schrottplatz, dessen Bezeichnung und Anschrift bislang allein aus
+Verzeichniseinträgen zweier Schrottplatz-Portale stammen, die das Leistungsangebot als nicht
+erfasst führen und deren Homepage-Link ins Leere zeigt. Gegen die Identität spricht die
+Registerspur: Die gleichnamige Bremer Ziessmann GmbH & Co. KG (HRA 25178) wurde 2017 aufgelöst
+und 2018 gelöscht, die Zießmann Besitz GmbH & Co. KG (HRA 26233) 2022, eine Rechtsnachfolge ist
+nicht belegt, und im Fachbetrieberegister ist an der Anschrift kein Betrieb verzeichnet, was
+wegen der freiwilligen Efb-Anerkennung kein Nichtexistenzbeweis ist. Ankaufspreise,
+Verkaufspreise und Gebühren sind nicht belegt, und OSM liefert keinen Hausnummernpunkt. Offen
+bleiben ein heutiger Nachfolger und die abweichende Adressspur Tillmannstraße 27.
 
 ## Timeline
 

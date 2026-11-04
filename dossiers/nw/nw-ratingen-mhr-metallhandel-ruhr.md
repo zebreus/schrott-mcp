@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MHR Metallhandel Ruhr GmbH, Heiligenhauser Straße 3, 40883 Ratingen-Hösel:
+Verwaltungsgesellschaft der TSR Group und reines B2B-Handelshaus für Altmetalle an
+Industrieunternehmen, Stahlwerke, Hütten und Gießereien, ohne eigene Domain. Die Anschrift
+belegt das Standortverzeichnis der Konzernbibliothek, das den Sitz als Verwaltung MHR führt,
+während das Impressum der Konzernseite die TSR Deutschland GmbH & Co. KG mit Amtsgericht
+Dortmund HRA 19743 nennt; in OSM existiert die Hausnummer 3 als Gebäudeteil ohne Namens- oder
+Betreibertag. Einkaufs- und Verkaufsbedingungen belegen die Preismechanismen und die
+Beschränkung auf Unternehmer nach § 14 BGB, enthalten aber keinen Eurobetrag, und eine
+Preisliste ist nicht veröffentlicht. Offen bleibt die Frage, ob an einer Verwaltungsanschrift
+überhaupt Material angenommen wird, sowie der nicht ausgelesene Weigerkostenkatalog.
 
 ## Timeline
 

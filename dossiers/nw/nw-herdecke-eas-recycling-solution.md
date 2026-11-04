@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+EAS-Recycling Solution GmbH, Betriebsstätte Ostender Weg 12A, 58313 Herdecke:
+Elektroschrott-Spezialist mit Sortierung und Demontage, bundesweiter Abholung und
+Versandankauf, geführt von Geschäftsführer Christian Raters mit Amtsgericht Hagen HRB 10741 und
+dem Unternehmenssitz Wienbergweg 2 im selben Ort. Die Belegkette besteht aus dem Impressum mit
+Betriebsstätte, Registerdaten und Umsatzsteuer-Identifikationsnummer, der Kontaktseite mit den
+Geschäftszeiten Montag bis Freitag 8 bis 18 Uhr und dem Hinweis auf Anlieferung nur nach
+Terminabsprache sowie den drei öffentlichen Ankaufspreislisten für elektronische Bauteile,
+Hardware und Altmetalle in Euro je Kilogramm. Verkaufspreise, eine Rückvergütung und Gebühren
+sind nicht beziffert. Offen bleiben der Standortnachweis, da die Hausnummer 12A in OSM nicht
+existiert und die Nummer 12 einen anderen Betrieb trägt, sowie die maskierte E-Mail-Adresse.
 
 ## Timeline
 
