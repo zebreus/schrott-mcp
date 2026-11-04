@@ -27,7 +27,7 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite „Südpfalz Metall“ bewirbt einen Schrottplatz in Rohrbach und nennt Am Bellensee 6, Telefon +49 176 24226146, info@suedpfalzmetall-gmbh.de sowie Öffnungszeiten. Ihr Impressum nennt Janneck Knecht und HRB 33727, aber keinen Firmennamen. Der aktuelle Registerabdruck ordnet HRB 33727 der MBK Mietservice GmbH an genau dieser Anschrift und mit Janneck Knecht als Geschäftsführer zu; der eingetragene Unternehmensgegenstand ist jedoch der Verleih und Verkauf von Baumaschinen. Damit besteht eine starke Personen-/Adress-/Registerverbindung, aber keine bestätigte rechtliche Zuordnung des beworbenen Schrottbetriebs zur Seed-Entität **Südpfalz Metall GmbH**. `status: pruefung`; Anschrift, Kontakte und Annahme bleiben strukturiert ungefüllt, `clear_fields: 'dropoff_json,geo'` bleibt angemessen. Die erreichbare Website ist kein unabhängiger Betriebsnachweis. „Faire Preise“ ohne Zahlen; keine Verkaufs- oder Gebührenliste.
+Die Betreiberwebsite „Südpfalz Metall“ bewirbt einen Schrottplatz in Rohrbach und nennt Am Bellensee 6, Telefon +49 176 24226146, info@suedpfalzmetall-gmbh.de sowie Öffnungszeiten. Ihr Impressum nennt Janneck Knecht und HRB 33727, aber keinen Firmennamen. Der aktuelle Registerabdruck ordnet HRB 33727 der MBK Mietservice GmbH an genau dieser Anschrift und mit Janneck Knecht als Geschäftsführer zu; der eingetragene Unternehmensgegenstand ist jedoch der Verleih und Verkauf von Baumaschinen. Damit besteht eine starke Personen-/Adress-/Registerverbindung, aber keine bestätigte rechtliche Zuordnung des beworbenen Schrottbetriebs zur Seed-Entität **Südpfalz Metall GmbH**. `clear_fields: 'dropoff_json'` bleibt angemessen; der Altpunkt ist durch den am 04.11.2026 neu aufgelösten Punkt ersetzt. Die erreichbare Website ist kein unabhängiger Betriebsnachweis. „Faire Preise“ ohne Zahlen; keine Verkaufs- oder Gebührenliste.
 
 ## Timeline
 
@@ -70,7 +70,7 @@ Die Betreiberwebsite „Südpfalz Metall“ bewirbt einen Schrottplatz in Rohrba
   die gesuchte Straße **nachweislich** mit **5** Adressobjekten auf „Am Bellensee" und den Hausnummern 3, 4, 5, 6 und
   10 - die **Dossier-Hausnummer 6 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
   Straße. Eine Namenssuche nach **„Südpfalz"** über die Felder name, operator, description, website,
-  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer (die Namensobjekte dort sind
+  contact:website, brand, note und addr:housename findet im Raster **kein Objekt mit Betriebsbezug zum Dossierbetrieb** (die Namensobjekte dort sind
   „Clubhaus SpVgg Rohrbach", „Schützenhaus" und „Betonwerk Dyckerhoff") - es gibt also **keine** OSM-Betriebszuordnung,
   nur die Adressangabe. Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
   **Betreiberwebsite** https://suedpfalzmetall-gmbh.de/ liefert **HTTP 200** und nennt live im Kontaktblock
