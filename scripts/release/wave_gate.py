@@ -37,24 +37,34 @@ def frontmatter(text):
 
 
 def timeline_bullets(text):
-    """Timeline notes: a bullet starts with '- ' and may wrap over lines."""
-    tail = text.split("## Timeline", 1)[1]
+    """Timeline notes with the **reference semantics** of
+    `check_note_order.timeline_notes` / `check_pre_wave_notes.timeline_blocks`:
+
+    * a bullet starts with "- " in column 0 and absorbs the indented
+      continuation lines that follow it,
+    * any other line in column 0 (prose, a table, a malformed bullet) ends the
+      running note - it does **not** belong to it and is not appended.
+
+    The gate used its own parser until now, which appended such lines to the
+    previous note. That made the three gates disagree about what a note is:
+    a malformed bullet in a dossier looked like a changed old note here while
+    the other two gates did not see it at all.
+    """
+    tail = text.split("## Timeline", 1)[1] if "## Timeline" in text else ""
     bullets, current = [], None
     for line in tail.splitlines():
         if line.startswith("- "):
             if current is not None:
                 bullets.append(current)
-            current = line
-        elif not line.strip() or line.startswith("#"):
-            # a blank line or a heading closes the running note
-            if current is not None:
-                bullets.append(current)
-                current = None
+            current = [line]
+        elif current is not None and line.strip() and line[:1] in (" ", "\t"):
+            current.append(line)          # eingerueckte Fortsetzungszeile
         elif current is not None:
-            current += " " + line.strip()
+            bullets.append(current)       # Zeile in Spalte 0 schliesst die Notiz
+            current = None
     if current is not None:
         bullets.append(current)
-    return bullets
+    return ["\n".join(b) for b in bullets]
 
 
 def main() -> int:

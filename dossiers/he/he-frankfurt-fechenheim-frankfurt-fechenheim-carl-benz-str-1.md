@@ -41,8 +41,6 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Betreiber-Primärquelle (Live-Abruf 01.10.2026): riwald.de-Standortseite nennt für Frankfurt Carl-Benz-Str. 1, 60314 Frankfurt am Main, Tel. +49 (69) 416 745-0, info.rrrm@riwald.de; Verwaltung Mo-Do 07:00-16:00, Fr 07:00-14:00; Warenannahme Mo-Do 06:30-15:30, Fr 06:30-13:30.
 - DDG-Snippets (01.10.2026): Northdata-Eintrag „Riwald Recycling Rhein-Main GmbH, Frankfurt a. Main / AG Frankfurt HRB 50373"; Gelbe-Seiten-Lead bestätigt Adresse Carl-Benz-Str. 1, 60314 Frankfurt-Fechenheim (nur Lead, kein Beleg).
 - Klärfall: Adresse/Telefon/Mail/Hours bleiben leer – nur Betreiber-Einzelbeleg, kein zweiter unabhängiger Beleg und kein Rhein-Main-Impressum (HR-kongruent) für Owner-Ausnahme gefunden; HRB 50373 nur per Snippet, Northdata-Direktabruf timeout. Website als Domain-Root per Live-Abruf verifiziert (aktiv).
-- [Korrektur 01.10.2026 (Owner-Gate): website `riwald.de` (scheme-los, Build-Fehler) zu `https://www.riwald.de` normiert (Gate-Direktabruf: Standortseite nennt Filiale Carl-Benz-Str. 1, 60314 Frankfurt + Tel/Mail; Zweitquelle riwald.com gleiche Filial-Fakten); Quelle(n): https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ + https://riwald.com/standorte-de-riwald-recycling-rhein-main/]
-
 ### Recherche 01.10.2026 (Feedback-Triage #3087)
 
 - [Recherche 01.10.2026: Berechtigt — Name war reine Adresse → „Riwald Recycling Rhein-Main (Frankfurt-Fechenheim)"; street/postcode/phone/email/opening_hours aus den bereits 2-fach belegten Filial-Fakten (riwald.de + riwald.com) in Frontmatter übernommen; trader_type sonstige → schrotthaendler (Betreiber: FE-/NE-Metallrecycling für Industrie + Privathaushalte, ArcelorMittal-Tochter). Neu: Betreiber-Kette dokumentiert (1964 W. & O. Bergmann KG → 2000 Wagner Rohstoffe → 2009 Interseroh → 2013 Alba Metall Süd Rhein-Main → 2022 Riwald) — erklärt Altname-Spuren; Schwestersites Gelnhausen (Lagerhausstr. 8, Linsengericht) + Hanau (Auheimer Str.) nur Timeline-Vermerk (eigene Dossiers prüfen); Quelle(n): https://www.riwald.de/about-us-en-riwald-recycling-rhein-main/ + /locations-en-riwald-recycling-rhein-main/]
@@ -64,3 +62,13 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   DATUM: Für Preise ist kein Datum ausgewiesen. Datums-Indizes sind der AGB-Stand „Stand: Oktober 2024" (AGB-Fassung, kein Preisstand) und das Copyright-Jahr „©2025 Riwald". Der Abrufzeitpunkt (01.11.2026, 07:28 UTC) ist der einzige harte Zeitanker.
   OFFENE PUNKTE: (1) Ob der Betrieb eine Preisliste nach Sorten führt und ob sie auf Anfrage herausgegeben wird, ist nicht belegbar — öffentlich existiert keine Preisquelle. (2) Ob Frankfurt gegenüber Gelnhausen und Hanau abweichende Konditionen hat, ist nicht belegbar. (3) Die Adressabweichung im Impressum (Dieselstraße 52 gegenüber Carl-Benz-Str. 1) ist durch die Recherche zur Preisquelle nicht geklärt und bleibt offen. (4) Eine Preisfreiheit auf der Domain belegt nicht, dass der Betrieb keine Preise anbietet — die Aussage ist „öffentlich nicht veröffentlicht", nicht „keine Preise".
   Quelle(n): https://www.riwald.de/materialien-und-leistungen-de-riwald-recycling-rhein-main/ ; https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ ; https://www.riwald.de/sell-to-us/ ; https://www.riwald.de/downloads-de-riwald-recycling-rhein-main/ ; https://c89f9f6bd94de186-endpoint.azureedge.net/wp-content/uploads/2025/06/20241001_Riwald-Recycling-Rhein-Main-GmbH_Verkaufs-AGB-Deutsch.pdf (Live-Abruf 01.11.2026, 07:28 UTC)]
+
+### Korrektur 04.11.2026
+
+- [Korrektur 04.11.2026: **Nachgetragene Notiz vom 01.10.2026.** Diese Notiz stand im Dossier
+  an dieser Stelle mit einem fehlerhaften `+- `-Praefix. Die Timeline-Referenz liest nur
+  Bullets in Spalte 0, die Notiz war dadurch unsichtbar - sie fehlte im Seed und damit in
+  der Produktionsdatenbank. Sie ist jetzt am Timeline-Ende in korrekter Form wiederholt;
+  der Wortlaut ist unveraendert.]
+
+- [Korrektur 01.10.2026 (Owner-Gate): website `riwald.de` (scheme-los, Build-Fehler) zu `https://www.riwald.de` normiert (Gate-Direktabruf: Standortseite nennt Filiale Carl-Benz-Str. 1, 60314 Frankfurt + Tel/Mail; Zweitquelle riwald.com gleiche Filial-Fakten); Quelle(n): https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ + https://riwald.com/standorte-de-riwald-recycling-rhein-main/]
