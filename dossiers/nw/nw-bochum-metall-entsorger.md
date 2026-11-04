@@ -36,3 +36,36 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - mobil (GS)
 - Adresse: Bochum
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für die Metall Entsorger am Mohnweg 15, 44894 Bochum. Reichweite: die
+  Namensvarianten "Metall Entsorger" (0 Treffer), "Metall-Entsorger" (0) und "Metall Entsorger GmbH" (0) in der Route
+  "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefern nichts; die generische Suche
+  "Entsorger" liefert 7 Treffer, sämtlich andere Unternehmen (Hamburger Schiffsentsorger GmbH, RTK-Karlsruhe GmbH IHR
+  GRÜNER ENTSORGER, M.E.N. Mittelständisches EntsorgerNetz GmbH & Co. KG Dresden, Die Profi-Entsorger Kuisle, Giglberger
+  GbR Olching sowie eine Entsorgungsanlage in Ahnatal-Weimar) ohne Bezug zum Dossier. Die Ortssuche 44894 Bochum mit 3
+  km Umkreis liefert 14 Treffer, mit 5 km 44 Treffer und mit 10 km 109 Treffer Zertifikatsanlagen; keiner trägt den
+  Namen Metall Entsorger und keiner wurde übernommen. Die Route "Altfahrzeugverwertung" liefert für "Metall Entsorger" 0
+  Treffer und im 3-km-Radius um 44894 Bochum 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Das Dossier bleibt im
+  Status pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Metall%20Entsorger
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Metall-Entsorger
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Metall%20Entsorger%20GmbH
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Entsorger ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44894%20Bochum%2C%20Deutschland;7.2859247;51.4850280;7.2859247;51.4850280;7.2859247;51.4850280&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44894%20Bochum%2C%20Deutschland;7.2859247;51.4850280;7.2859247;51.4850280;7.2859247;51.4850280&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=44894%20Bochum%2C%20Deutschland;7.2859247;51.4850280;7.2859247;51.4850280;7.2859247;51.4850280&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Metall%20Entsorger
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=44894%20Bochum%2C%20Deutschland;7.2859247;51.4850280;7.2859247;51.4850280;7.2859247;51.4850280&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]

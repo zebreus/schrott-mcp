@@ -48,3 +48,41 @@ Mehrere nicht verknüpfte Standort-/Identitätsleads: Seed Brieger Weg 3; Gelbe 
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: neue Gegenprobe ergibt zusätzliche Orts-/Identitätskonflikte, jedoch keine Primärquelle: Gelbe Seiten führt KHK Metallrecycling, Meckenheimer Str. 35, 53179 Bonn-Mehlem, 0228 18032447; eine generierte geo.io-Unterseite ordnet dieselbe Telefonnummer einer Adresse Mainzer Str. in 53424 Remagen zu und ist keine Betreiberwebsite; ein separates Verzeichnisprofil nennt KHK-Schrott & Metallrecycling, Severinsweg 8a, Bonn, 0228 30418348. Diese Treffer beweisen weder Umzug noch mehrere Standorte oder gemeinsamen Betreiber. Website-Status bleibt blockiert, Frontmatter leer; Kandidaten nicht geocodiert. ANKAUF: nicht bestätigt; VERKAUF: keine Preisliste; GEBÜHREN: keine Tarifangabe. Offen: Rechtsträger/Betreiber, gültiger Standort und ob die Profile zusammengehören. Quelle(n): https://www.gelbeseiten.de/gsbiz/cb6485ca-50dc-4f92-8d0e-4df27797e377; https://khk-metallrecycling.geo.io/; https://www.khk-metallrecycling.de/ (Direktabruf 403); weiteres Profil nur als Verzeichnislead, Suchabfrage https://www.google.com/search?q=%22KHK-Schrott%22+Bonn+Severinsweg]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: Belegte Negativaussage: Das amtliche Fachbetrieberegister (fachbetrieberegister.gadsys.de,
+  Abruf 04.11.2026) führt keinen Eintrag für die KHK Metallrecycling. Reichweite: die Namensvarianten "KHK" (0 Treffer),
+  "KHK Metallrecycling" (0), "KHK Metallrecycling GmbH" (0), "KHK Recycling" (0) und "KHK-Schrott" (0) in der Route
+  "Entsorgungsfachbetriebe" mit Filter Art des Betriebs = Egal (is=1&e=1) liefern nichts. Ortssuchen: um die im Dossier
+  genannte Anschrift Meckenheimer Str. 35, 53179 Bonn-Mehlem mit 3 km Umkreis 0 Treffer, mit 5 km 4 Treffer und mit 10
+  km 14 Treffer; um die abweichende Seed-Adresse Brieger Weg 3, 53119 Bonn-Tannenbusch mit 3 km Umkreis 28 Treffer und
+  mit 10 km 40 Treffer. Alle Treffer gehören fremden Betrieben (u.a. Mehl Recycling GmbH, Jungheim Schrott &
+  Metallhandels GmbH, MVA Müllverwertungsanlage Bonn GmbH, bonnorange AöR, Baumann Logistik GmbH & Co. KG); keiner trägt
+  den Namensbestandteil KHK und keiner wurde übernommen. Die Route "Altfahrzeugverwertung" liefert für "KHK" 0 Treffer
+  und im 3-km-Radius um 53179 Bonn 0 Treffer.]
+- [Recherche 04.11.2026: Grenze der Aussage: Der Registerbefund betrifft die Anerkennung als Entsorgungsfachbetrieb
+  nach § 56 KrWG und die Anerkennung nach AltfahrzeugV; beides ist freiwillig, ein Register-Nichteintrag ist deshalb
+  kein Nachweis, dass der Betrieb keine Anerkennung besitzt und kein Beleg für eine Nichtexistenz. Die geprüften
+  Namensvarianten erfassen keine Individualisierung ohne Inhabernamen, weil das Dossier keinen belegten Inhaber nennt;
+  das Register kennt weder die Firmierung KHK noch eine Tätigkeit unter dieser Bezeichnung in Bonn. Das Dossier bleibt
+  im Status pruefung, Frontmatter-Felder werden nicht geändert. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=KHK ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=KHK%20Metallrecycling
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=KHK%20Metallrecycling%20GmbH
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=KHK%20Recycling
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=KHK-Schrott ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=53179%20Bonn%2C%20Deutschland;7.1894675;50.6595413;7.1894675;50.6595413;7.1894675;50.6595413&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=53179%20Bonn%2C%20Deutschland;7.1894675;50.6595413;7.1894675;50.6595413;7.1894675;50.6595413&dst=5&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=53179%20Bonn%2C%20Deutschland;7.1894675;50.6595413;7.1894675;50.6595413;7.1894675;50.6595413&dst=10&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=53119%20Bonn%2C%20Deutschland;7.0414273;50.7481459;7.0414273;50.7481459;7.0414273;50.7481459&dst=3&is=1&e=1
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=53119%20Bonn%2C%20Deutschland;7.0414273;50.7481459;7.0414273;50.7481459;7.0414273;50.7481459&dst=10&is=1&e=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=KHK ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=53179%20Bonn%2C%20Deutschland;7.1894675;50.6595413;7.1894675;50.6595413;7.1894675;50.6595413&dst=3&is=1&e=1
+  (Abruf 04.11.2026)]
