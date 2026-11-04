@@ -112,10 +112,25 @@ fn text(node: scraper::ElementRef<'_>) -> String {
 
 fn quoted_amount(quote: &str) -> Option<f64> {
     let number = quote.strip_suffix('€')?.trim();
-    let (integer, decimals) = number.split_once(',')?;
+    let (integer, decimals) = match number.split_once(',') {
+        Some((integer, decimals)) => (integer, Some(decimals)),
+        None => {
+            // Die Preisspalte des Betreibers fuehrt auch ganze Werte ohne
+            // Nachkommastellen ("70 EUR"). Die sind eindeutig und werden nicht
+            // verworfen - sonst verliert der Handler die **ganze** Preistabelle,
+            // weil eine Zeile kein Komma hat. Eine Punkt-Trennung bleibt
+            // zweideutig (1.234 als 1234 oder als 1,234) und wird verworfen.
+            if number.contains('.') {
+                return None;
+            }
+            (number, None)
+        }
+    };
     let digits = |s: &str| !s.is_empty() && s.bytes().all(|b| b.is_ascii_digit());
-    if decimals.len() != 2 || !digits(decimals) {
-        return None;
+    if let Some(decimals) = decimals {
+        if decimals.len() != 2 || !digits(decimals) {
+            return None;
+        }
     }
     let mut groups = integer.split('.');
     if !digits(groups.next()?) || !groups.all(|g| g.len() == 3 && digits(g)) {
@@ -742,6 +757,15 @@ mod tests {
     #[test]
     fn quote_is_exact_eur_amount_not_model_number_or_range() {
         assert_eq!(quoted_amount("1.234,50 €"), Some(1234.5));
+        // Ganze Werte ohne Nachkommastellen kommen auf der Preisseite vor
+        // ("70 EUR" fuer Arbeitsspeicher Goldkante) und sind eindeutig.
+        assert_eq!(quoted_amount("70 €"), Some(70.0));
+        assert_eq!(quoted_amount("70€"), Some(70.0));
+        // Eine Punkt-Trennung ohne Komma bleibt zweideutig und wird verworfen.
+        assert_eq!(quoted_amount("1.234 €"), None);
+        // Unvollstaendige oder unplausible Werte bleiben abgelehnt.
+        assert_eq!(quoted_amount("70,5 €"), None);
+        assert_eq!(quoted_amount("70,500 €"), None);
         assert_eq!(quoted_amount("0,00 €"), Some(0.0));
         for quote in [
             "308,00",
