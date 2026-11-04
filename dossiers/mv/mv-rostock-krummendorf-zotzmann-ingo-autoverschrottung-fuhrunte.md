@@ -1,5 +1,7 @@
 ---
 slug: mv-rostock-krummendorf-zotzmann-ingo-autoverschrottung-fuhrunte
+lat: 54.1357752
+lon: 12.1270021
 name: Zotzmann Ingo Autoverschrottung / Fuhrunternehmen
 trader_type: autoverwertung
 state: MV
@@ -14,7 +16,6 @@ website_status: 'aktiv'
 status: aktiv
 description: 'Autoverwertung und Autorecycling in Rostock-Krummendorf. Betreiber ist Ivo Zotzmann als Einzelunternehmer (De Striethoff 2, 18147 Rostock-Krummendorf, Tel. 0381-6752030, Fax 0381-6700010, E-Mail info@autoverwertung-zotzmann.de, USt-IdNr. DE248451755, Betriebsgründung laut Impressum 1. Januar 1991). Das amtliche Fachbetrieberegister (Auszug 11.08.2026) führt den Betrieb als "Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf" mit Hauptsitz "Firma Ivo Zotzmann" und der Anerkennung nach AltfahrzeugV als Demontagebetrieb, Zertifikatsnummer ZAAS00300005; die Selbstauskunft "Wir sind ein zertifizierter Entsorgungsbetrieb" ist damit bestätigt. Die offizielle Rücknahmestellenliste von Ford Deutschland nennt "Autoverwertung Zotzmann, De Striethof 2, 18147 Rostock, 0381 6752030". ANKAUF: Ankauf von Alt-, Unfall- und Schadensfahrzeugen ohne vorherige Anmeldung; für Schrott und NE-Metalle ist kein öffentlich bezifferter Ankaufpreis dokumentiert. VERKAUF: Ersatzteilhandel und Verkauf gebrauchter Ersatzteile, Preise auf Anfrage, keine öffentliche Teilepreisliste. GEBÜHREN: die Preistafel der Selbsthilfewerkstatt (Hebebühne, Werkzeuge, Altöl- und Kühlmittelentsorgung) ist eine Werkstattnutzungsgebühr und keine Annahmegebühr; für die Fahrzeugannahme ist keine Gebühr dokumentiert. Das Fuhrunternehmen wird ohne öffentliche Tarifliste geführt.'
 certifications: '["Anerkennung nach AltfahrzeugV als Demontagebetrieb, Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf, Hauptsitz Firma Ivo Zotzmann, Zertifikatsnummer ZAAS00300005 (Fachbetrieberegister, Auszug 11.08.2026)"]'
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Betriebe, nur Verzeichnisbeleg
@@ -57,3 +58,42 @@ wird mit `clear_fields: 'geo'` zurückgenommen, weil der gespeicherte Punkt auf 
 - [Recherche 01.10.2026: Betreiber-Impressum verifiziert – Autoverwertung Zotzmann, Inh. Ivo Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf; Tel. 0381-6752030, Fax 0381-6700010, info@autoverwertung-zotzmann.de, USt-ID DE248451755; Öffnungszeiten Mo-Fr 10:00-18:00, Sa 09:00-13:00; Quelle(n): Betreiber-Website autoverwertung-zotzmann.de/impressum + /kontakt-anfahrt (Abruf 01.10.2026)]
 - [Recherche 01.10.2026: Einzelunternehmen ohne HRB-Angabe → Owner-Direktive greift nicht; kein zweiter unabhängiger (Register-/kommunaler) Beleg für Adresse/Telefon gefunden – Verzeichnis-Leads (Gelbe Seiten, Das Örtliche) zählen nicht; daher nur website (Domain-Root) + website_status (Seite live → aktiv) gefüllt; street/postcode/email bleiben leer; phone-Feld ist vorbefüllt („0381 6752“) und wird nicht überschrieben – weicht vom Impressum (0381-6752030) ab, Klärung ausstehend; Status pruefung unverändert; Quelle(n): siehe Vorbullet (Einzelbeleg)]
 - [Feedback-Triage ID 2346: Meldung teilweise berechtigt — (a) Telefon: gespeicherte „0381 6752" ist keine wählbare Nummer (offenbar trunkiert); Betreiber nennt konsistent auf Kontakt- UND Impressum-Seite 0381-6752030 → phone korrigiert (starke Betreiber-Einzelquelle, offengelegt; Re-Verifikation 01.10.2026). (b) Typ: Betreiber-Selbstbezeichnung „Autoverwertung Zotzmann" (Altauto-Annahme, Ersatzteilhandel, HU-Freitag) → trader_type schrotthaendler → autoverwertung korrigiert (Einzelbeleg Betreiber, offengelegt). (c) Adresse/E-Mail/Zeiten: Northdata-Suche „Zotzmann Rostock" ohne Register-Treffer (nur namensfremde Zotzmann-Firmen), kein kommunaler Zweitbeleg → Felder bleiben leer, Status pruefung bleibt, kein Phantom-Fill; Namensvetter-Check negativ (einziger Zotzmann im Korpus). Quelle(n): https://www.autoverwertung-zotzmann.de/kontakt-anfahrt (Re-Abruf 01.10.2026), Northdata-Suche 01.10.2026 (Negativbefund).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **54.1357752/12.1270021** (Mittel der **13**
+  eindeutigen Knoten von way/239809269; die BBox der eindeutigen Knoten reicht von 54.1350896/12.1257547 bis
+  54.1360646/12.1282667 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/239809269** trägt **`name`=Autoverwertung Zotzmann Rostock**, `landuse`=**commercial**, `addr:street`=De
+  Striethoff, `addr:housenumber`=**2**, `addr:postcode`=18147, `addr:city`=Rostock, `addr:suburb`=Krummendorf,
+  `addr:hamlet`=Krummendorf, `phone`=+49 381 6752030 und `website`=https://www.autoverwertung-zotzmann.de/ - das Objekt
+  trägt also **Betriebsbezug** (Firmenname, Telefon und Website des Dossierbetriebs) und nicht nur die Anschrift; das
+  Gebäudeobjekt **way/33995768** trägt dieselbe Hausnummer **2** (`addr:street`=De Striethoff, `addr:postcode`=18147,
+  `addr:city`=Rostock, `addr:suburb`=Krummendorf, `building`=yes, `height`=6.4 m, `kvl_hro:type`=1006). Straße,
+  Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse **De Striethoff 2, 18147 Rostock-Krummendorf** überein.
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **12.1200/54.1300 bis
+  12.1300/54.1400**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße
+  **nachweislich** mit den Straßenobjekten **way/4745110** (BBox 54.13578/12.12127 bis 54.13607/12.12619) und
+  **way/371298526** (bis 54.13622/12.12695) sowie **4** Adressobjekten auf „De Striethoff" mit den Hausnummern 1, 2 und
+  3 - die **Dossier-Hausnummer 2 existiert** und ist im Raster mit **zwei** Objekten belegt (das oben genannte
+  Betriebsobjekt und das Gebäudeobjekt), also **objektgenau** an der Dossier-Adresse. Quelle 2 (Betreiber, im Dossier
+  bereits zitiert, live nachgelesen am 04.11.2026): das **Impressum** https://www.autoverwertung-zotzmann.de/impressum
+  liefert **HTTP 200** und nennt live „Inh. Ivo Zotzmann, De Striethoff 2, 18147 Rostock-Krummendorf", Telefon
+  0381-6752030, Fax 0381-6700010, E-Mail info@autoverwertung-zotzmann.de, USt-IdNr. DE248451755 und Betriebsgründung 1.
+  Januar 1991. Quelle 3 (amtliches Fachbetrieberegister, im Dossier bereits zitiert, live nachgelesen am 04.11.2026):
+  die Registerdetailseite https://schrottregister.pages.dev/betrieb-zotzmann-rostock-krummendorf liefert **HTTP 200**
+  und führt „Zotzmann, **De Striethoff 2, 18147 Rostock-Krummendorf**", Hauptsitz „Firma Ivo Zotzmann", die
+  **Anerkennung nach AltfahrzeugV als Demontagebetrieb** und die Zertifikatsnummer **ZAAS00300005**; die offizielle
+  Ford-Rücknahmestellenliste (im Dossier zitiert) nennt „Autoverwertung Zotzmann, De Striethof 2, 18147 Rostock, 0381
+  6752030". **Qualifizierung:** der Punkt bezeichnet den in OSM **namentlich geführten** Betriebsstandort und dessen
+  belegte Anschrift, nicht eine punktgenau belegte Annahme- oder Zerlegefläche; die Werkstatt-Preistafel der
+  Selbsthilfewerkstatt ist eine Nutzungsgebühr und **keine** Annahmegebühr, ein öffentlich bezifferter Schrott- oder
+  Metallankaufpreis ist **nicht** belegt, `status: aktiv` bleibt unverändert. **Zurücknahme des `geo`-Tokens
+  (Begründung):** die Frontmatter-Zeile `clear_fields: 'geo'` wurde **vollständig entfernt**, weil sie den falschen
+  Altpunkt 54.10598/12.11163 („8, Pressentinstraße, Eulenflucht, Gehlsdorf, 18147 Rostock") fernhalten sollte und der
+  hier gesetzte Punkt exakt auf der belegten Betriebsadresse liegt; `clear_fields` darf nicht gleichzeitig `geo` neben
+  belegtem `lat`/`lon` stehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/239809269/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/33995768/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.12,54.13,12.13,54.14 ;
+  https://www.autoverwertung-zotzmann.de/impressum ;
+  https://schrottregister.pages.dev/betrieb-zotzmann-rostock-krummendorf (Abruf 04.11.2026).]

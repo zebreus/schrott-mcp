@@ -52,3 +52,37 @@ Schrottjungs UG (HRB 196586 Hamburg) bewirbt mobile Schrottabholung für Privat-
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website schrottjungs.de verifiziert (Berlin-Seite + Impressum): mobiler Abholdienst ohne Berliner Anlieferadresse — Telefon 0173 8705566, E-Mail info@schrottjungs.de gefüllt, Website auf Domain-Root normiert, trader_type metallhaendler → mobil; HRB 196586 (AG Hamburg, Schrottjungs UG, Billwerder Steindamm 15a, 20537 Hamburg) zweitbelegt; Abholbedingungen (kleine Eisenmengen/Einzelgeräte nur gegen Gebühr 40-80 EUR; kein TV/Monitor/Kühlschrank/Eisen <300 kg) + dropoff/pickup-Abweichung nur Timeline-Vermerk — dropoff_json/pickup_json bleiben Enrichment-besetzt (Seed-leer), kein Fill; Quelle(n): https://schrottjungs.de/schrottabholung-berlin + https://schrottjungs.de/impressum-datenschutz/]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Der Datensatz ist ein **mobiler Abholdienst**; die
+  Betreiberseite nennt **keine Berliner Anlieferadresse** und **keinen** Berliner Hof - die
+  Berliner Unterseite bewirbt Abholung in allen Bezirken und regionale Partner, der Rechtssitz der
+  Betreibergesellschaft liegt in **Hamburg**. Für einen Datensatz im Land **BE** gibt es damit
+  **keine** Adresse, die geokodiert werden könnte. Quelle 1 (OSM, live geprüft am 04.11.2026): das am
+  04.11.2026 live abgerufene Kachelraster über dem eingetragenen Sitz in **Hamburg-Billwerder**
+  umfasst **10.0300/53.5300 bis 10.0400/53.5400**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**,
+  **8.593 Elemente**; das Fenster enthält die Straßen **Alexandra-Stieg, Amsinckstraße,
+  Billhorner Brückenstraße, Billhorner Kanalstraße, Billhorner Mühlenweg, Billhorner Röhrendamm,
+  Billwerder Neuer Deich, Cornelia-Harte-Straße, Entenwerder, Hardenstraße, Kaatje-Benninga-Platz,
+  Köhnestraße, Lindleystraße, Marckmannstraße, Nieburstraße, Olga-Brandt-Knack-Straße, Reginenstraße,
+  Rothenburgsorter Marktplatz, Stresowstraße, Vierländer Damm** mit **264 Adressobjekten** (u.a.
+  Billhorner Kanalstraße 1–76, Billhorner Röhrendamm 90–152, Billhorner Mühlenweg 1–32,
+  Billwerder Neuer Deich 1–76, Marckmannstraße 1–62, Stresowstraße 2–62) - eine **„Billwerder
+  Steindamm“** ist in diesem Fenster **nicht** enthalten, und eine Volltextsuche über `name`,
+  `operator`, `brand`, `description`, `note`, `shop`, `craft`, `landuse`, `man_made` und `amenity` findet
+  **keinen** Treffer zu „Schrottjungs“ oder „Schrott“; im Raster tragen **436 Objekte** `name=` oder
+  `operator=`, **keines** davon mit Bezug zum Betreiber (u.a. node/10104426890 und node/10104434236
+  `operator`=Selecta). **Konsequenz:** der Sitz liegt in Hamburg, nicht in Berlin; eine Hamburger
+  Koordinate würde einen Standort im falschen Bundesland ausweisen. Es wird **keine** Koordinate
+  gesetzt und **kein** Straßenmittelpunkt geraten; `status` bleibt `aktiv`, `city` bleibt der
+  Schlagwortwert `berlinweit mobil`, `street`, `postcode`, `phone`, `email`, `opening_hours`,
+  `website`, `website_status` und `description` bleiben unverändert; die im Dossier dokumentierten
+  Mindestmengen-, Tageskurs- und Gebührenangaben bleiben unberührt, es wird **kein** Berliner
+  Händlerkurs behauptet. **Reichweitenklausel:** das Fehlen eines Betriebsobjekts und einer
+  Berliner Anschrift in OSM ist **kein** Nachweis für das Fehlen des Angebots in Berlin und **kein**
+  Nachweis gegen eine spätere Anlaufstelle; das im Dossier dokumentierte Impressum belegt den
+  Hamburger Rechtssitz (HRB 196586 AG Hamburg) und ist **keine** Berliner Betriebsadresse. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0300,53.5300,10.0400,53.5400 ;
+  https://schrottjungs.de/impressum-datenschutz/ ;
+  https://schrottjungs.de/schrottabholung-berlin/ (Abruf 04.11.2026).]

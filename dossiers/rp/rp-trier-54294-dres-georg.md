@@ -1,6 +1,7 @@
 ---
 slug: rp-trier-54294-dres-georg
-clear_fields: 'geo'
+lat: 49.7550535
+lon: 6.6222544
 name: Dres Georg
 trader_type: schrotthaendler
 state: RP
@@ -42,3 +43,37 @@ Der Seed ist erstmals einem konkreten Trierer Schrotthandelsbetrieb zugeordnet: 
 
 - Schrott
 - Adresse: Trier 54294
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 49.7550535, 6.6222544** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/140970152**, fünfzehn eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  6.6221249/49.7549868 bis 6.6223641/49.7551238). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/140970152** trägt `addr:street`=Andreas-Hoevel-Straße, `addr:housenumber`=**6**, `addr:city`=Trier,
+  `addr:postcode`=54294, `addr:country`=DE und `building`=apartments - Straße, Hausnummer, PLZ und Ort stimmen mit
+  der Dossier-Adresse **Andreas-Hoevel-Str. 6, 54294 Trier-West** überein. **Fensterprüfung (kein Fensterfehler):**
+  das am 04.11.2026 live abgerufene Kachelraster über Trier-West umfasst **6.6200/49.7500 bis 6.6300/49.7600**,
+  **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit
+  den Straßenobjekten **way/23381741** und **way/27867325** (beide `name`=Andreas-Hoevel-Straße) sowie **14**
+  Adressobjekten auf „Andreas-Hoevel-Straße" mit den Hausnummern 1, 1a, 2, 3, 4, 5, 6, 7, 8, 9, 10 und 11 - die
+  **Dossier-Hausnummer 6 existiert**; im Raster tragen **zwei** Objekte diese Nummer (**way/140970152** mit dem
+  vollständigen Adresssatz und **way/140970156** mit `addr:housenumber`=6 und `addr:street`=Andreas-Hoevel-Straße
+  ohne PLZ/Ort, `building`=apartments) - es handelt sich um **zwei Gebäudeteile desselben Hauskomplexes**
+  (die Objekte teilen vier Knoten); gesetzt ist der **Objektteil mit dem vollständigen Adresssatz**. Eine
+  Namenssuche nach **„Dres"** über die Felder name, operator, description, website, contact:website, brand, note
+  und addr:housename findet im Raster **keinen** Treffer mit Bezug zum Betrieb - es gibt also **keine**
+  OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): die **Gelbe-Seiten-Detailseite** liefert **HTTP 200** und führt live **„Dres Georg
+  Schrott- und Metallhandel"** in der Rubrik **Schrott** an **Andreas-Hoevel-Str. 6, 54294 Trier-West**, Telefon
+  **0651 84609** - identisch mit den Dossier-Feldern. **Zurücknahme des `geo`-Tokens (Begründung):**
+  `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein
+  `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt auf der durch zwei unabhängige Quellen
+  gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die
+  **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; das im Dossier dokumentierte **Fehlen einer
+  Betreiber-Primärquelle** (keine eigene Website, kein Impressum, kein Registereintrag) bleibt offen - eine
+  Ankaufzusage, ein Annahmehof oder eine Öffnungszeit wird durch die Koordinate **nicht** belegt. `status:
+  pruefung`, `city`, `street`, `postcode`, `phone`, `email` (leer), `opening_hours` (leer), `website` (leer),
+  `website_status` (leer) und `description` (leer) bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/140970152/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.6200,49.7500,6.6300,49.7600 ;
+  https://www.gelbeseiten.de/gsbiz/9a872267-a9c2-4989-809c-1b822a5b03e4 (Abruf 04.11.2026).]

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heraeus Goldstore Hanau, Rodenbacher Weg 2, 63450 Hanau: Edelmetall-Goldstore, dessen Ankauf
+von Altgold und anderen Edelmetallen der Betreiber aus technischen Gründen eingestellt hat; der
+Hinweis auf der Filialseite trägt den Zeitstempel 30.01.2026, die frühere Ankaufsadresse
+liefert HTTP 404, ein Wiederaufnahmedatum ist nicht genannt, und der Goldstore selbst wird
+nicht als geschlossen beurteilt. Anschrift, Rufnummer +49 6181 35 35 35 und die service-Adresse
+belegen Filialseite, Shop-Impressum und die zweite Domain heraeus-gold.de, während das
+Impressum die Heraeus Metals Germany GmbH & Co. KG mit HRA 93163 AG Hanau nennt, die
+Goldstore-AGB zum Ankauf dagegen auf die Argor-Heraeus Deutschland GmbH verweisen. Offen
+bleiben die rechtliche Zuordnung beider Gesellschaften, die unvereinbaren Öffnungszeiten der
+Filialseite und die Frage, ob wieder angekauft wird.
 
 ## Timeline
 

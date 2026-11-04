@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Buchloe-Standort „The BIG", Winkeläckerstraße 10, 86807 Buchloe, ist die Filiale der Föll
+Rohstoffhandel GmbH mit Sitz Webereistraße 37, 87471 Durach, Amtsgericht Kempten HRB 7650, und
+trägt im Kartenlink des Betreibers weiterhin den früheren Namen Schmidt Recycling. Als
+Entsorgungsfachbetrieb mit Schrottplatz, Schrottschere, Presse und Altholzschredder ist er
+durch das PÜG-Zertifikat K10682-20260706-Efb-de, gültig bis 14.01.2028, belegt, das die Anlagen
+13 bis 18 dieser Anschrift zuordnet; hinzu kommen Bescheinigungen für einen
+Altfahrzeug-Demontagebetrieb, Anlagen nach ElektroG und eine Vorbehandlungsanlage nach
+GewAbfVO. Ankaufpreise sind nicht veröffentlicht, und die genannten Abzugs- und
+Gebührenpositionen bleiben unbeziffert. Offen bleibt der Betriebsbezug, da in OSM die belegte
+Hausnummer 10 keinen Namens- oder Betreibertag trägt.
 
 ## Timeline
 

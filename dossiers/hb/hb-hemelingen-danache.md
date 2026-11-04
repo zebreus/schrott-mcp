@@ -1,5 +1,7 @@
 ---
 slug: hb-hemelingen-danache
+lat: 53.0517441
+lon: 8.8822379
 name: Danache
 trader_type: autoverwertung
 state: HB
@@ -50,3 +52,40 @@ Der Betreiberauftritt ist am 22.10.2026 direkt erreichbar und nennt Danache Auto
 - [Recherche 04.10.2026: Leistungs-/Preisabgrenzung: Die Website wirbt mit kostenfreier Altautoabholung/Entsorgung, Verwertungsnachweis, Autoankauf/-verkauf, gebrauchten Teilen sowie Motoren-/Getriebeverwertung. Diese spezifischen Leistungen und Konditionen sind nur Betreiber-Einzelbelege und werden nicht als allgemein bestätigter Metallankauf, kostenlose Abholung jeder Abfallart oder JSON-Servicefelder übernommen. Keine numerische Schrottankaufspreisliste gefunden; „kostenfrei“ bezeichnet das beworbene Altautoangebot, keinen Ankaufspreis. Zertifizierungsbehauptung ohne abgerufenes aktuelles Zertifikat mit Gültigkeitsende bleibt Klärfall; Quelle(n): https://www.kostenloseautoverwertung.de/ (Abruf 04.10.2026)]
 - [Recherche 04.10.2026: Einzelcrawl der vorhandenen relevanten Seiten/Abschnitte: Startseite mit DAVB, Leistungen, Angebot, Referenzen und Kontakt als Seitenanker, außerdem Impressum, Datenschutz und Haftung separat; Sitemap enthält nur die Startseite mit lastmod 09.03.2019 und ist kein Aktualitätsnachweis. Der verlinkte alte Kleinanzeigen-Profilpfad liefert HTTP 410, der entsprechende heutige Profilpfad HTTP 404; ein Facebook-Abruf lieferte keine auswertbare unabhängige Bestätigung. Diese fehlgeschlagenen Abrufe beweisen keine Betriebsschließung. Offene Fragen: zweite Kontakt-/Domainquelle, aktuelle Zertifizierung, Samstagszeiten und heutige Annahmebedingungen; Quelle(n): https://www.kostenloseautoverwertung.de/ ; https://www.kostenloseautoverwertung.de/impressum ; https://www.kostenloseautoverwertung.de/datenschutz ; https://www.kostenloseautoverwertung.de/haftung ; https://www.kostenloseautoverwertung.de/sitemap.xml ; https://www.ebay-kleinanzeigen.de/pro/DAVB-Danache-Autoverwertungs-Bremen ; https://www.kleinanzeigen.de/pro/DAVB-Danache-Autoverwertungs-Bremen ; https://de-de.facebook.com/danacheautoverwertungbremen/ (Abrufversuche jeweils 04.10.2026)]
 - [Recherche 04.10.2026: Amtliche Zertifizierungs-Gegenrecherche über GESA/GADSYS angestoßen: Die Informationsseite der Gemeinsamen Stelle Altfahrzeuge verweist auf die Suche nach anerkannten Betrieben. Das verlinkte Fachbetrieberegister lieferte im textbasierten Abruf nur die JavaScript/Vaadin-Anwendungshülle, keine auswertbaren Danache-Betriebsdaten. Deshalb keine behauptete Registerbestätigung oder aktuelles Zertifikatsdatum; offener Folgecheck im interaktiven Register nach Danache/Hemelinger Hafendamm 19, ohne fehlenden Datenauszug als Negativbeleg auszulegen; Quelle(n): https://www.altfahrzeugstelle.de/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (Abruf jeweils 04.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **53.0517441/8.8822379** (Mittel der **6**
+  eindeutigen Knoten von way/27623563; die BBox der eindeutigen Knoten reicht von 53.0514480/8.8818208 bis
+  53.0519715/8.8827451 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/27623563** trägt `addr:street`=Hemelinger Hafendamm, `addr:housenumber`=**19**, `addr:postcode`=28309,
+  `addr:city`=Bremen, `addr:country`=DE sowie `building`=yes; Straße, Hausnummer, PLZ und Ort stimmen mit der
+  Dossier-Adresse **Hemelinger Hafendamm 19, 28309 Bremen-Hemelingen** überein. Rund **3 m** daneben liegt
+  **node/4431726693** mit **`name`=Danache Autoverwertung Bremen**, `shop`=**car_parts**, `phone`=+49 421 48402424,
+  `email`=info@davb-hemelingen.de und `website`=http://www.davb-hemelingen.de (53.0517311/8.8822712) - das
+  **Betriebsobjekt** liegt damit **objektgenau** an der belegten Anschrift. **Fensterprüfung (kein Fensterfehler):** das
+  am 04.11.2026 live abgerufene Kachelraster umfasst **8.8700/53.0400 bis 8.9000/53.0600**, **9 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich und vollständig** mit **9**
+  Straßenobjekten auf dem „Hemelinger Hafendamm" (way/156679949, way/217602517, way/328873030, way/28153889,
+  way/270106807, way/328873027, way/328873028, way/443442828, way/443545093; Verlauf 53.03847/8.87770 bis
+  53.05708/8.88422) sowie **21** Adressobjekten auf „Hemelinger Hafendamm" mit **19** verschiedenen Hausnummern (1a, 1b,
+  1c, 5, 7, 15, 18, **19**, 19a, 20, 22, 24, 26, 28, 30, 31-33, 34, 36, 38) - die **Dossier-Hausnummer 19 existiert**
+  und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Quelle 2 (Betreiber/Behörde, im Dossier
+  bereits zitiert, live nachgelesen am 04.11.2026): die **Betreiberseite** https://www.kostenloseautoverwertung.de/ und
+  ihr **Impressum** https://www.kostenloseautoverwertung.de/impressum liefern **HTTP 200** und nennen live „Danache
+  Autoverwertung Bremen", **Jamal Danache**, **Hemelinger Hafendamm 19, 28309 Bremen** sowie Telefon 0421-48402424 und
+  info@kostenloseautoverwertung.de - die in OSM hinterlegten Kontaktdaten des Betriebsknotens **decken sich** mit der
+  Betreiberangabe; die **kommunale Übersicht zugelassener Abfallentsorgungsanlagen** des Landes Bremen (Stand
+  02.02.2024,
+  https://umwelt.bremen.de/sixcms/media.php/13/2024-02-02_Anlagen%C3%BCbersicht%20Abfallentsorgungsanlagen.pdf) führt
+  unter Stadtgemeinde Bremen, laufende Nr. 14, „Danache Autoverwertung" mit genau dieser **Betreiber- und
+  Anlagenadresse** als **Altfahrzeugverwertungsanlage** - eine amtliche Quelle, die den Standort stützt.
+  **Qualifizierung:** der Punkt bezeichnet die **betreiberseitig und amtlich belegte Betriebsanschrift mit
+  OSM-Betriebsbezug**; die Bewerbung kostenloser Altautoabholung und -entsorgung ist **kein** allgemein bestätigter
+  Metallankauf und **keine** Aussage über die Kostenfreiheit anderer Abfallarten, ein bezifferter Ankauf-/Verkaufspreis
+  ist **nicht** belegt, `status: pruefung` bleibt unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/27623563/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.87,53.04,8.90,53.06 ;
+  https://www.kostenloseautoverwertung.de/impressum ;
+  https://umwelt.bremen.de/sixcms/media.php/13/2024-02-02_Anlagen%C3%BCbersicht%20Abfallentsorgungsanlagen.pdf (Abruf
+  04.11.2026).]

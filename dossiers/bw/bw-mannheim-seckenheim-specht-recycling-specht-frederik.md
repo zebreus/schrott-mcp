@@ -50,3 +50,45 @@ Die Recherche dieser Welle fügt einen dritten Standort im Stadtgebiet Mannheim 
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: erneuter Quellenabgleich deckt Adress-/Telefonkonflikt innerhalb der Verzeichnis-Spur auf. Ein Gelbe-Seiten-Detailprofil für „Specht Frederik Recycling von Schrott und Schrottdemontage, An- und Verkauf von Schrot“ nennt Auf dem Kegel 16, 68239 Mannheim und 0176 63217148; Gelbe-Seiten-Trefferlisten führen den bisherigen Rohrlachstr.-34-Lead und 0621 4366433 weiter. Keine Betreiber- oder Registerquelle gefunden, daher Adresse nicht überschrieben und Telefonnummer nicht ergänzt. Aggregator-Text nennt An-/Verkauf, aber keine Zahlenpreise/Gebühren oder Annahmebedingungen. Status aktiv→pruefung wegen ungeklärter Betriebs-/Standortidentität und nicht verifizierter Ankaufspraxis, keine Schließungsbehauptung. Quelle(n): https://www.gelbeseiten.de/gsbiz/8fff50c1-1aaf-4ddc-8790-2e15e648458e ; https://www.gelbeseiten.de/branchen/schrottplatz/mannheim%20stadtteil%20seckenheim]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossierzeile trägt zwar die Anschrift
+  **Rohrlachstr. 34, 68239 Mannheim-Seckenheim**, die aber selbst als **ungeklärter Altlead** steht: Für dieselbe
+  Mobilnummer 0176 63217148 kursieren **drei** Standortangaben im Stadtgebiet Mannheim, und welche davon der Betrieb
+  tatsächlich trägt, ist offen. Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200): **way/257439443** trägt
+  `addr:street`=Rohrlachstraße, `addr:housenumber`=**34**, `addr:postcode`=68239, `building`=**apartments**,
+  `building:levels`=4 - die Objekt-BBox reicht von 49.4562843/8.5358891 bis 49.4564819/8.5361735, der Mittelpunkt der
+  **6** eindeutigen Knoten liegt bei **49.4563790/8.5360421** und damit **innerhalb** der BBox. **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **8.5300/49.4500 bis 8.5400/49.4600**, **1
+  Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit **9**
+  Straßenobjekten auf dem „Rohrlachstraße“ (way/24519314, way/96941614, way/96941620, way/156544741, way/231143096,
+  way/250794337, way/250794340, way/255329492, way/846676463) sowie **40** Adressobjekten auf „Rohrlachstraße“ mit
+  **40** verschiedenen Hausnummern (3, 5, 13, 15, 17, 21, 23, 25, 27, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41,
+  42, 43, 44, 45, 46, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65/67, 69/71, 73, 75/77, 79) - die **Dossier-Hausnummer 34
+  existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine Suche nach **„Specht"**
+  über die Felder name, operator, brand, description, website, contact:website, shop und craft findet im Raster
+  **keinen** Treffer - die Liegenschaft ist ein **Wohngebäude** ohne jeden Betriebsbezug; Quelle 2
+  (Verzeichnis/Register, im Dossier bereits zitiert): die **Gelbe-Seiten**-Einträge
+  https://www.gelbeseiten.de/gsbiz/8fff50c1-1aaf-4ddc-8790-2e15e648458e und
+  https://www.gelbeseiten.de/gsbiz/9df55164-aac7-4187-b7da-28027f7af37c sowie das **11880**-Profil
+  https://www.11880.com/branchenbuch/mannheim/060440090B102383030/frederik-specht.html nennen live **Rohrlachstraße 34**
+  bzw. **Auf dem Kegel 16**, das Firmenverzeichnis https://inteka.de/Firmenverzeichnis/index.cfm?Eintrag=2657467 nennt
+  für „Specht Frederik" **Auf dem Kegel 16** mit der E-Mail-Adresse rickispecht@hotmail.com, und
+  https://schrottfinder.de/frederik-specht-schrotthandler-mannheim/ nennt **Aufeldstraße 30, 68199 Neckarau**; die
+  verlinkte Google-Site-Darstellung liefert **HTTP 404**, ein Betreiberauftritt existiert damit nicht. Das **amtliche
+  Fachbetrieberegister** (Auszug 11.08.2026, https://schrottregister.pages.dev/ort-mannheim) führt für Mannheim **47**
+  anerkannte Betriebe und **keinen** Betrieb „Specht" - das ist **kein** Nichtexistenz- und **kein** Schließungsbeweis,
+  weil die EFB-Anerkennung freiwillig ist. **Warum keine Koordinate:** die Wahl zwischen den drei Anschriften
+  (Rohrlachstraße 34, Auf dem Kegel 16, Aufeldstraße 30) wäre ohne Klärung der Standortfrage **willkürlich**; der auf
+  die Frontmatter-Adresse passende OSM-Punkt 49.4563790/8.5360421 bezeichnet ein **Wohngebäude** und keinen
+  Schrottbetrieb, die Einordnung als Kundenstandort wäre damit unbelegt. `clear_fields: 'geo'` **bleibt** bestehen (es
+  gibt keinen Ersatzpunkt), `status: pruefung` bleibt, Ankauf-, Verkaufs- und Gebührenangaben bleiben unbelegt, es wird
+  keine Schließung behauptet. **Reichweitenklausel:** das Fehlen eines Betriebs-Tagings in OSM ist **kein** Nachweis für
+  das Fehlen des Betriebs. Offen bleibt die Standortfrage; nach ihrer Klärung sind die Anschriften neu zu geokodieren.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/257439443/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.53,49.45,8.54,49.46 ;
+  https://www.gelbeseiten.de/gsbiz/8fff50c1-1aaf-4ddc-8790-2e15e648458e ;
+  https://www.11880.com/branchenbuch/mannheim/060440090B102383030/frederik-specht.html ;
+  https://schrottregister.pages.dev/ort-mannheim ; http://frederik-specht-schrotthandler-schrott.business.site/ (HTTP
+  404 am 04.11.2026) (Abruf 04.11.2026).]

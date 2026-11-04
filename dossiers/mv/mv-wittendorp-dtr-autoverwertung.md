@@ -1,5 +1,7 @@
 ---
 slug: mv-wittendorp-dtr-autoverwertung
+lat: 53.5751860
+lon: 11.1049034
 name: DTR Autoverwertung
 trader_type: autoverwertung
 state: MV
@@ -57,3 +59,37 @@ Für „DTR Autoverwertung“ in Wittendörp ist am 15.10.2026 die bisher nicht 
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **53.5751860/11.1049034** (Mittel der **4**
+  eindeutigen Knoten von way/675878712; die BBox der eindeutigen Knoten reicht von 53.5751285/11.1048050 bis
+  53.5752435/11.1050017 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/675878712** trägt `addr:street`=Dorfrunde, `addr:housenumber`=**5**, `addr:postcode`=19243,
+  `addr:city`=**Wittendörp**, `addr:suburb`=**Boddin**, `addr:country`=DE sowie `building`=yes; Straße und Hausnummer
+  stimmen mit der Dossier-Anschrift **Dorfrunde 5, 19243** überein, und das Objekt trägt **beide** in den Verzeichnissen
+  genannten Ortsnamen - der im Dossier als „Ortskonflikt" beschriebene Widerspruch zwischen **Wittendörp** und **Boddin
+  bei Hagenow** ist damit **kein** Widerspruch zwischen zwei Orten, sondern eine Benennungsdifferenz derselben
+  Anschrift. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst
+  **11.1000/53.5700 bis 11.1100/53.5800**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die
+  gesuchte Straße **nachweislich** mit **3** Straßenobjekten auf dem „Dorfrunde“ (way/104529893, way/104529898,
+  way/397107752) sowie **26** Adressobjekten auf „Dorfrunde“ mit **26** verschiedenen Hausnummern (1, 2, 3, 4, 5, 7, 8,
+  9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 27, 11a, 13a, 27a, 2a) - die **Dossier-Hausnummer 5 existiert**
+  und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Quelle 2 (Verzeichnis, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): die Detailseite https://lokaleschrottplatz.de/dtr-autoverwertung/ liefert
+  **HTTP 200** und nennt live „DTR Autoverwertung", **Dorfrunde 5, 19243 Wittendörp**, +49 174 4558806; **11880**
+  https://www.11880.com/branchenbuch/boddin-bei-hagenow/060440459B113502063/dtr-autoverwertung.html führt denselben
+  Namen, dieselbe Nummer und **Dorfrunde 5, 19243 Boddin bei Hagenow** - beide Verzeichnisse nennen damit **dieselbe
+  Straße und Hausnummer**. **Qualifizierung (Beleggrenze, unverändert übernommen):** Quelle 2 ist ein
+  **Verzeichnislead** (README, Quellenhierarchie) und **kein** Betreiber-, Register- oder Kommunalbeleg; das amtliche
+  **Fachbetrieberegister** (Auszug 11.08.2026, https://schrottregister.pages.dev/) führt weder einen Betrieb in
+  Wittendörp oder Boddin noch einen Eintrag mit der Anschrift **Dorfrunde 5**, und die Suche im **amtlichen
+  Handelsregister** (online-handelsregister.de) nach „DTR Autoverwertung" bzw. „Autoverwertung Wittendörp" liefert
+  keinen Registereintrag - für einen Einzelbetrieb ohne HRB ist das ein **Negativbefund ohne Beweiswert**, aus dem
+  **keine** Schließung abgeleitet wird. Der Punkt bezeichnet die **doppelt belegte Anschrift**, **nicht** einen
+  verifizierten Autoverwertungsbetrieb; die vom Portal behauptete Annahme von Metallen und Altfahrzeugen sowie die
+  Mindestmengen bleiben **unbestätigte Portalangaben**, Ankauf-, Verkaufs- und Gebührenangaben bleiben unbelegt,
+  `status: pruefung` bleibt unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/675878712/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.10,53.57,11.11,53.58 ;
+  https://lokaleschrottplatz.de/dtr-autoverwertung/ ;
+  https://www.11880.com/branchenbuch/boddin-bei-hagenow/060440459B113502063/dtr-autoverwertung.html (Abruf 04.11.2026).]

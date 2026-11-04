@@ -1,6 +1,7 @@
 ---
 slug: rp-prum-dechmann-peter-schrott-und-metallhandel
-clear_fields: 'geo'
+lat: 50.2154823
+lon: 6.4480454
 name: Dechmann Peter Schrott- und Metallhandel
 trader_type: metallhaendler
 state: RP
@@ -46,3 +47,40 @@ Für Peter Dechmann stehen die Verzeichnisangaben Rudolf-Diesel-Straße 17/17 A,
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallhandel (nur Gelbe Seiten)
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 50.2154823, 6.4480454** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/220479547**, fünf eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  6.4478900/50.2153750 bis 6.4482500/50.2156003). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/220479547** trägt `addr:street`=Rudolf-Diesel-Straße, `addr:housenumber`=**17A**, `addr:city`=Prüm,
+  `addr:postcode`=54595, `addr:country`=DE, `building`=yes und `source:building`=OpenData Rheinland-Pfalz - Straße,
+  Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse **Rudolf-Diesel-Str. 17 A, 54595 Prüm (Dausfeld)**
+  überein. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster über
+  Prüm-Dausfeld umfasst **6.4300/50.2000 bis 6.4700/50.2400**, **16 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**;
+  das Fenster enthält die gesuchte Straße **nachweislich** mit **25** Adressobjekten auf „Rudolf-Diesel-Straße" und
+  den Hausnummern 1, 2, 3, 4, 5, 5A, 5B, 6, 7, 8, 9, 10, 11, 13, 14, 15, 17, **17A**, 19, 21, 23 und 25 - die
+  **Dossier-Hausnummer 17 A existiert** als **17A** und ist im Raster das einzige Objekt dieser Nummer; eine
+  gesonderte **17** trägt **way/220479575**, eine **15** trägt **way/220479561**. Eine Namenssuche nach
+  **„Dechmann"** über die Felder name, operator, description, website, contact:website, brand, note und
+  addr:housename findet im Raster **keinen** Treffer (die Namensobjekte dort sind „Autohaus Opel Bohnen GmbH",
+  „Autohaus Eifel-Mosel GmbH", „Tesla Automation", „Zeugen Jehovas", „Tesla Service Centern Prüm Dausfeld" und
+  „Classic Car Workshop GmbH" - alles andere Betriebe) - es gibt also **keine** OSM-Betriebszuordnung, nur die
+  Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
+  **11880-Verzeichnissuche** liefert **HTTP 200** und führt live **„Peter Dechmann Schrott- und Metallhandel"** mit
+  den Branchen Altmaterialhandel, Altmetallrecycling, Großhandel, Metallwaren und Schrotthandel an
+  **Rudolf-Diesel-Str. 17, 54595 Prüm (Dausfeld)**, Telefon **(06551) 4780**; das **Das Örtliche**-Profil nennt
+  live denselben Betrieb mit **Rudolf-Diesel-Str. 17 A, 54595 Prüm - Dausfeld**, Telefon **06551 47 80** und
+  Zweitnummer **06551 98 59 57** - die Dossier-Adresse „17 A" ist damit durch zwei Verzeichnisse gedeckt.
+  **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine
+  belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt
+  auf der durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet die **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; das im Dossier dokumentierte
+  **Fehlen eines Betreiber- oder Registerbelegs** (beide Quellen sind Branchenverzeichnisse) bleibt offen, ebenso die
+  im Dossier festgehaltene **Hausnummer-Differenz** (11880 führt 17, Das Örtliche 17 A) - eine Ankaufzusage, ein
+  Annahmehof oder eine Öffnungszeit wird durch die Koordinate **nicht** belegt. `status: pruefung`, `city`, `street`,
+  `postcode`, `phone`, `email` (leer), `opening_hours` (leer), `website` (leer), `website_status` und `description`
+  (leer) bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/220479547/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.4300,50.2000,6.4700,50.2400 ;
+  https://www.11880.com/branchenbuch/prum/060441364B109930552/peter-dechmann-schrott-und-metallhandel.html ;
+  https://www.dasoertliche.de/Themen/Dechmann-Peter-Schrott-und-Metallhandel-Pr%C3%BCm (Abruf 04.11.2026).]

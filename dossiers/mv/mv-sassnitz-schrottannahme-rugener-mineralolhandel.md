@@ -50,3 +50,36 @@ Die Betreiberwebsite und eine Tyczka-Partnerseite identifizieren einen Rügener 
 - Lead-Fakten (unsicher, NICHT in Frontmatter): Rügener Mineralölhandel, Gewerbepark 16, 18546 Sassnitz; Tel. +49 38392 50955, info@ruegenoel.de (Flaschengas-Kontext, nicht Schrott).
 - Schrottannahme nur Portal-Behauptung ohne zweite Spur; Verwechslung mit Rügen-Recycling und Tiefbau GmbH (Klementelvitz 7, 18546 Sassnitz) möglich.
 - Klärfall Folgewelle: Schrottannahme-Betrieb in Sassnitz identifizieren oder Dossier schließen.
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für den **Rügener Mineralölhandel** ist die
+  Anschrift **Gewerbepark 16, 18546 Sassnitz** zwar durch Betreiber- und Partnerquelle belegt, in OSM existiert im
+  abgetasteten Stadtbereich aber **kein** Adressobjekt mit dieser Straße oder Hausnummer. Quelle 1 (OSM, live geprüft am
+  04.11.2026): **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst
+  **13.6200/54.5100 bis 13.6700/54.5300**, **12 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster erfasst den
+  **Stadtbereich Sassnitz** (Altstadt, Hafen, Karl-Liebknecht-Ring und die Wohnquartiere) mit **1372** Adressobjekten
+  auf **70** verschiedenen Straßen - eine Straße **„Gewerbepark"** ist darin **nicht** erfasst, und eine Suche nach
+  **„Rügener Mineralölhandel"** über die Felder name, operator, brand, description, website, contact:website, shop,
+  craft, amenity, landuse, man_made und industrial findet im Fenster **keinen** Treffer - es gibt **keine**
+  OSM-Betriebszuordnung. Das Raster erfasst die Stadt Sassnitz, nicht das nördlich davon liegende **Mukraner
+  Hafengebiet**; das Fehlen der Straße ist deshalb **kein** Nachweis gegen deren Existenz, aber **auch kein** Beleg für
+  einen adressgenauen Punkt. Quelle 2 (Betreiber/Partner, im Dossier bereits zitiert, live nachgelesen am 04.11.2026):
+  die **Betreiberseite** https://www.ruegenoel.de/ liefert **HTTP 200** und nennt live „Rügener Mineralölhandel", Inh.
+  **Jana Töpper**, **Gewerbepark 16, 18546 Sassnitz**, Telefon 038392-50955, info@ruegenoel.de, Mo-Fr 08:00-15:00; die
+  **unabhängige Tyczka-Partnerseite** https://tyczka-energy.de/haendlersuche/ruegener-mineraloelhandel-4000082 liefert
+  **HTTP 200** und bestätigt live „Rügener Mineralölhandel", **Gewerbepark 16, 18546 Sassnitz" und den Kontakt. **Warum
+  keine Koordinate:** obwohl die Anschrift durch zwei unabhängige Quellen belegt ist, gibt es in OSM **kein**
+  adressgenaues Objekt und **kein** Betriebs-Tagging; ein gerundeter Punkt auf der „Gewerbepark" oder auf einem
+  Nachbarweg wäre eine **Ersatzverortung**, und die BBox-Prüfung (Mittelwert innerhalb der Objekt-BBox) wäre nicht
+  erfüllbar. **Qualifizierung (unverändert übernommen):** die Betreiberseite bewirbt zwar „Kostenlose Schrottannahme",
+  der **Datenschutzhinweis** derselben Seite benennt aber abweichend **Wagner Vermietung Sassnitz / Marko Wagner** an
+  derselben Adresse als verantwortliche Stelle - die Zuordnung der Schrottleistung zum Dossierbetrieb ist damit
+  **nicht** unabhängig geklärt; die Tyczka-Seite belegt Mineralöl/Flaschengas, **nicht** die Schrottannahme.
+  Ankauf-/Verkaufspreise und Gebühren bleiben unbelegt, `status: pruefung` bleibt unverändert, `clear_fields:
+  'dropoff_json,email,geo,opening_hours'` bleibt für die übrigen Tokens bestehen und wird **nicht** angetastet (es gibt
+  keinen Ersatzpunkt). **Reichweitenklausel:** das Fehlen eines OSM-Adressobjekts ist **kein** Nachweis gegen die
+  belegte Anschrift oder den Betrieb - es bedeutet nur, dass OSM die Hausnummer dort nicht führt. Offen bleibt die
+  OSM-Erfassung des Standorts; erst mit einem adressgenauen Objekt ist zu geokodieren. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.62,54.51,13.67,54.53 ; https://www.ruegenoel.de/ ;
+  https://tyczka-energy.de/haendlersuche/ruegener-mineraloelhandel-4000082 (Abruf 04.11.2026).]

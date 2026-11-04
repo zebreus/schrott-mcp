@@ -1,5 +1,7 @@
 ---
 slug: sl-st-wendel-schrott-manz-alexander
+lat: 49.4509825
+lon: 7.1419580
 name: Schrott Manz Alexander
 trader_type: schrotthaendler
 state: SL
@@ -50,3 +52,42 @@ Eine Creditreform-Suche liefert jetzt einen Treffer „Alexander Manz Schrotthan
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — kein Betreiber-Webauftritt, kein HR-Eintrag zu Schrott Manz Alexander St. Wendel auffindbar; Websuche stoert (401); Statusfeld unveraendert; Quelle(n): keine]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.4509825/7.1419580** (Mittel der 4 eindeutigen Knoten von
+  way/195177069; der Punkt liegt innerhalb der Objekt-BBox
+  49.4509148/7.1418458–49.4510502/7.1420701). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/195177069** trägt `addr:street`=Am Dilling, `addr:housenumber`=**10**,
+  `addr:postcode`=66606, `addr:city`=Sankt Wendel, `addr:suburb`=Oberlinxweiler,
+  `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse **Am Dilling 10,
+  66606 St. Wendel** überein. Das Objekt trägt **weder `name=` noch `operator=`**; es ist eine
+  **Adressangabe** eines Gebäudes, kein Betriebs-POI. Quelle 2 (im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): das Schrottplatz-Verzeichnis
+  https://www.schrottplatz-info.de/schrottplatz/Sankt-Wendel/Manz-Alexander liefert HTTP 200 mit
+  **„Schrottplatz Manz Alexander, Adresse: Am Dilling 10, 66606 St Wendel“**; die im Dossier
+  dokumentierte Creditreform-Suchanzeige **„Alexander Manz Schrotthandel, Am Dilling 10,
+  66606 St. Wendel, Tel. +49 6851 907691“** stützt dieselbe Anschrift (der direkte
+  Firmenprofilabruf liefert HTTP 403 und wird hier nicht erneut behauptet). **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **7.1400/49.4500 bis
+  7.1500/49.4600**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**, **4.889 Elemente**; das Fenster
+  enthält die gesuchte Straße **„Am Dilling“ nachweislich** mit den vier Straßenobjekten
+  **way/140523212**, **way/140523214**, **way/140523216** und **way/140523217** (residential bzw.
+  service) sowie **34 Adressobjekten** auf „Am Dilling“ mit **34 verschiedenen Hausnummern** (1–44
+  ohne 23 und 28, dazu 13a, 18a, 18b, 32a) - die **Dossier-Hausnummer 10 existiert** und ist im
+  Raster das einzige Objekt mit dieser Nummer auf dieser Straße. **Negativaussage, qualifiziert:**
+  im Raster tragen **92 Objekte** `name=` oder `operator=`; **mit Bezug zu „Manz“, „Schrott“,
+  „Recycling“ oder „Metall“** trifft es auf **kein** Objekt dieser Adresse - der Betrieb ist in OSM
+  **nicht** kartiert; der Punkt bezeichnet ausschließlich die verzeichnisgestützte Anschrift.
+  **Zurücknahme des `geo`-Tokens (Begründung):** das Dossier führte bislang **kein** `geo`-Token in
+  `clear_fields`; es wurde deshalb **keines** entfernt - das Token `geo` neben belegtem `lat`/`lon`
+  ist vom Seed ohnehin unzulässig, und es wird hier kein Altpunkt zurückgenommen.
+  **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die **Adresse eines
+  Verzeichnis-Leads**, **nicht** einen verifizierten Annahmehof, eine Waage oder eine öffentliche
+  Schrottannahme; der im Dossier offene Punkt der fehlenden zweiten zulässigen Belegquelle, die
+  ungeklärte Betreiberidentität und `status: pruefung` bleiben unverändert, ebenso `street`,
+  `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und `description`. Es
+  wird kein Ankaufkurs, keine Preisliste und keine Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/195177069/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1400,49.4500,7.1500,49.4600 ;
+  https://www.schrottplatz-info.de/schrottplatz/Sankt-Wendel/Manz-Alexander (Abruf 04.11.2026).]

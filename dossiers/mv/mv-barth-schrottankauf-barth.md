@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottankauf-Barth, Nelkenstraße 16, 18356 Barth: An- und Verkauf von Altmetall und Schrott
+sowie Autoverwertung und Ersatzteilhandel, wie Verzeichnisangaben und ein
+Google-Business-Profil ausweisen. Als Belege dienen das betreibergepflegte Profil mit Anschrift
+und Rufnummer 01521 8927701, ein Recyclinghof-Portal mit denselben Angaben und der
+11880-Eintrag, der Adresse und Telefon bestätigt; eine eigene Website, ein Register- oder
+Kommunalbeleg fehlen, und im amtlichen Fachbetrieberegister ist für Barth kein Betrieb dieses
+Namens geführt, was wegen der freiwilligen Anerkennung kein Nichtexistenzbeweis ist.
+Zahlenpreise sind nicht belegt, und ein wortgleich bei anderen Betrieben stehender
+Mindestmengenhinweis wurde nicht übernommen. Offen bleiben die Inhaberschaft, die aktuelle
+Tätigkeit und das OSM-Bild ohne adressgenauen Hausnummernpunkt.
 
 ## Timeline
 

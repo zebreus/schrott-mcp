@@ -49,3 +49,41 @@ Bereits vorhanden: [MRC Mühlhausen](th-muhlhausen-mrc-mitteldeutsche-recycling.
 
 - Rueckbau/Recycling
 - Adresse: Muehlhausen
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für diese **historische MRG-Zeile** ist keine eigene Anschrift
+  belegt; der Mühlhausener Metallstandort gehört nach Register- und Betreiberlage zur **anderen**
+  Rechtseinheit MRC Mitteldeutsche Recycling GmbH (HRB 512953 AG Jena), die ein **eigenes Dossier**
+  (`th-muhlhausen-mrc-mitteldeutsche-recycling`) führt; eine Adressübernahme oder eine Zusammenführung
+  wäre eine Dublette. Quelle 1 (OSM, live geprüft am 04.11.2026): das am 04.11.2026 live abgerufene
+  Kachelraster über Mühlhausen umfasst **10.8000/51.0400 bis 10.8200/51.0600**, **4 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**, **3.846 Elemente** - die Straße **„Am Flutgraben“ ist in diesem
+  Raster nicht enthalten** (kein Straßenobjekt, kein Adressobjekt); ein zweites, an den in den
+  Verzeichnisquellen genannten Kartenpunkt (51.2078/10.4809) gerichtetes Raster
+  **10.4700/51.2000 bis 10.4900/51.2100**, **2 Kacheln à 0,01 Grad**, **7.969 Elemente**, enthält
+  zwar einen Serviceway **way/178292706** mit `name`=Am Flutgraben, aber **null Adressobjekte** und
+  damit **keine** Hausnummer 25; die dortigen Straßen heißen Aemilienhäuser Straße, Am Rieseninger
+  Berg, Bergweg, Bonatstraße, Gebr.-Franke-Straße, Gustav-Walter-Straße, Mühlhäuser Straße,
+  Pollexweg, Thomas-Müntzer-Straße - der Kartennunkt der Verzeichnisquellen liegt damit **nicht**
+  im Mühlhausener Stadtgebiet. **Konsequenz:** die Mühlhausener Hausnummer 25 ist im geprüften OSM
+  **nicht** belegbar, und der Punkt lässt sich dieser Zeile **nicht** eindeutig zuordnen. Quelle 2
+  (im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die NorthData-Bekanntmachung vom
+  16.03.2017 belegt die **Sitzverlegung der MRG Rueckbau und Recycling GmbH von Mühlhausen (Jena
+  HRB 401958) nach Stadtoldendorf (AG Hildesheim HRB 205183)**; das Kontaktblatt der MRC
+  https://www.mrc-umwelt.de/kontakt (live HTTP 200) nennt **„Mitteldeutsche Recycling GmbH, Am
+  Flutgraben 25, 99974 Mühlhausen“** (HRB 512953, Geschäftsführer Heiko Sagert), und das
+  Schrottplatz-Verzeichnis listet unter „Schrottplätze in der Nähe“ **„MRG Rückbau und Recycling GmbH,
+  Am Flutgraben 25, 99974 Mühlhausen / Thüringen“** als historischen Verzeichniseintrag **neben**
+  der MRC - das ist eine **Adressspur**, keine belegte heutige Betriebsstätte dieser Zeile. **Reichweitenklausel:**
+  das Fehlen einer belegbaren Hausnummer und eines Betriebsobjekts in OSM ist **kein** Nachweis für
+  das Fehlen des Betriebs und **kein** Nachweis für eine Schließung; umgekehrt belegt die gemeinsame
+  Anschrift mit der MRC-Zeile keine Fortführung dieser Zeile an diesem Ort. **Keine** Koordinate wird
+  gesetzt und **kein** Straßenmittelpunkt geraten; `status: pruefung`, `city`, `street`, `postcode`,
+  `phone`, `email`, `opening_hours`, `website`, `website_status` und `description` bleiben
+  unverändert, ebenso alle übrigen Stammdaten; es wird kein Ankaufkurs, keine Preisliste und keine
+  Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8000,51.0400,10.8200,51.0600 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.4700,51.2000,10.4900,51.2100 ;
+  https://www.mrc-umwelt.de/kontakt ;
+  https://www.northdata.de/?id=3367205006 (Abruf 04.11.2026).]

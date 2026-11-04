@@ -61,3 +61,38 @@ Kleiner Schrotthändler nur durch Verzeichnis-Leads beschrieben: Chemnitzer Stra
 
 - Schrott
 - Größe: klein
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **91** ist auf der
+  gesuchten Straße **Chemnitzer Straße** in OSM **nicht** erfasst. Quelle 1 (OSM, live geprüft am 04.11.2026): das am
+  04.11.2026 live abgerufene Kachelraster umfasst **8.9900/48.1900 bis 9.0600/48.2500**, **42 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich und vollständig** - die beiden
+  einzigen Straßenobjekte mit `name`=Chemnitzer Straße (**way/23804748**, BBox 48.20815/8.99365 bis 48.20834/8.99564,
+  und **way/701040410**, BBox 48.20834/8.98979 bis 48.20866/8.99365) liegen **vollständig** im Fenster, es gibt in OSM
+  keinen weiteren Abschnitt dieser Straße. Im ganzen Fenster stehen **6269** Adressobjekte auf **301** verschiedenen
+  Straßen, davon **21** auf der „Chemnitzer Straße" mit den **21** Hausnummern 6, 8, 10, 14, 16, 18, 19, 21, 22, 23, 24,
+  25, 26, 27, 28, 29, 31, 33, 35, 37 und 39 - **die 91 fehlt**; der erfasste Nummernbereich endet bei 39. Quelle 2 (im
+  Dossier zitierte Verzeichnisquelle, live nachgelesen am 04.11.2026): die drei im Dossier genannten Lead-Seiten - das
+  Örtliche-Profil https://www.dasoertliche.de/Themen/Spindler-Karl-SchrottHdl-Albstadt-Ebingen-Chemnitzer-Str , der
+  Gelbe-Seiten-Eintrag https://www.gelbeseiten.de/gsbiz/6b5bc994-1b48-4866-84e7-ec7b8e4db01b und die Telefonbuch-Adresse
+  https://adresse.dastelefonbuch.de/Albstadt/1-Schrott-Karl-Spindler-Albstadt-Chemnitzer-Str.html - liefern am
+  04.11.2026 **alle HTTP 410 (Gone)** und damit heute **keinen** abrufbaren Beleg mehr; die Anschrift „Chemnitzer Str.
+  91, 72458 Albstadt-Ebingen" und die Nummer 07431 74569 bleiben nur als **historische Verzeichnisleads** im Dossier
+  (README, Quellenhierarchie: Aggregatoren sind Leads, kein Betreiberbeleg). **Kein Betriebsobjekt in OSM:** eine
+  Volltextsuche über name, operator, brand, description, note, shop, craft, landuse, man_made und amenity im gesamten
+  42-Kachel-Fenster findet **keinen** Treffer zu „Spindler" - nur 17 Recycling-Objekte anderer Betreiber, darunter
+  **way/103007573** „Korn Recycling" (Unter dem Malesfelsen 35-45, https://www.korn-recycling.de/), also ein **anderer**
+  Betrieb an anderer Straße. Der bisher gespeicherte Punkt 48.2270667/9.0204 löst live auf **node/764047115**
+  (48.2258111/9.0202737) auf, ein Objekt mit `amenity`=**bench** an „Am Klarahof" - **weder** Betriebs- **noch**
+  Adressobjekt; er bleibt über `clear_fields: 'dropoff_json,geo,phone'` zurückgenommen und wird **nicht** durch einen
+  Ersatzpunkt ersetzt. **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für das Fehlen
+  des Betriebs und **kein** Nachweis für die Falschheit der Verzeichnisadresse; umgekehrt belegt die Verzeichnisadresse
+  ohne Betreiber-, Register- oder Kommunalbeleg keine Annahmestelle. Offen bleiben Inhaber, tatsächliche Annahmeadresse
+  und eine belastbare Primärbestätigung; bis dahin wird **keine** Koordinate gesetzt und kein Straßenmittelpunkt
+  geraten. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.99,48.19,9.06,48.25 ;
+  https://api.openstreetmap.org/api/0.6/node/764047115.json ;
+  https://www.dasoertliche.de/Themen/Spindler-Karl-SchrottHdl-Albstadt-Ebingen-Chemnitzer-Str (HTTP 410 am 04.11.2026) ;
+  https://www.gelbeseiten.de/gsbiz/6b5bc994-1b48-4866-84e7-ec7b8e4db01b (HTTP 410 am 04.11.2026) ;
+  https://adresse.dastelefonbuch.de/Albstadt/1-Schrott-Karl-Spindler-Albstadt-Chemnitzer-Str.html (HTTP 410 am
+  04.11.2026) ; README.md, Quellenhierarchie.]

@@ -1,5 +1,7 @@
 ---
 slug: bw-villingen-schwenningen-renz-rohstoffe-renz-container
+lat: 48.0582524
+lon: 8.5602072
 name: Renz Rohstoffe / Renz Container
 trader_type: schrotthaendler
 state: BW
@@ -13,7 +15,6 @@ website: http://renz-rohstoffe.de/
 website_status: aktiv
 status: aktiv
 description: Renz Rohstoffe, Inhaber Gerhard Renz ("Fa. Renz"), Klippeneckstr. 62, 78056 Villingen-Schwenningen, Telefon 07720 77 77, E-Mail info@renz-rohstoffe.de. Der Betrieb betreibt vier eigene Domains mit identischen Kontaktdaten (renz-rohstoffe.de, renzcontainer.de, renz-kanal.de fuer Kanalreinigung, renz-entruempelung.de fuer Entruempelung); das Impressum ist ein Einzelunternehmer-Angabeblock nach § 5 TMG ohne Registernummer. Angeboten wird der Ankauf von Metallschrott jeder Art und jeder Menge fuer Privatleute und Gewerbetreibende, von Kleinmengen bis zu kompletten Containerladungen, zu Tagespreisen nach Boersenkurs, dazu Demontage, Trennung und Sortierung. Eine oeffentliche Zahlenpreisliste gibt es nicht; NE-Metalle werden tagesaktuell angeboten. Containergroessen 6, 7, 10, 17 und 36 cbm; wertvolles Altmetall wird mit einer Gutschrift nach dem Verkauf verrechnet, was keine kostenlose Gesamtentsorgung bedeutet. Im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist der Betrieb nicht gefuehrt, was wegen der freiwilligen EFB-Anerkennung keine Nichtexistenz bedeutet.
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Villingen-Schwenningen / Schwarzwald
@@ -57,3 +58,40 @@ Die Recherche dieser Welle liest die Betreiberseiten erneut vollständig, weist 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback 1943 dokumentiert (Einzelbeleg, unsicher) — Betreiber-Impressum verifiziert (Klippeneckstr. 62, 78056 Villingen-Schwenningen, Tel 07720/7777, info@renz-rohstoffe.de; Ankauf Gewerbe+Privat) — EINE Quelle → KEIN Frontmatter-Fill (Owner-Ausnahme nicht gezogen); website live → website_status aktiv (bereits gesetzt); Abgrenzung zu HSR Brandenburg per Korrektur 30.09.2026 belegt; Quelle(n): http://renz-rohstoffe.de/ , http://renz-rohstoffe.de/impressum.html]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **48.0582524/8.5602072** (Mittel der **5**
+  eindeutigen Knoten von way/583234670; die BBox der eindeutigen Knoten reicht von 48.0581538/8.5600807 bis
+  48.0583545/8.5603873 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/583234670** trägt `addr:street`=Klippeneckstraße, `addr:housenumber`=**62**, `addr:city`=Villingen-Schwenningen,
+  `addr:suburb`=Schwenningen, `addr:country`=DE sowie `building`=yes; Straße und Hausnummer stimmen mit der im Dossier
+  aus dem Betreiber-Impressum belegten Anschrift **Klippeneckstr. 62, 78056 Villingen-Schwenningen** überein.
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **8.5500/48.0500 bis
+  8.5700/48.0700**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße
+  **nachweislich und vollständig** mit den Straßenobjekten **way/28018189** (BBox 48.05848/8.55165 bis 48.06070/8.55524)
+  und **way/714626289** (BBox 48.05838/8.55524 bis 48.05877/8.56135) sowie **14** Adressobjekten auf „Klippeneckstraße"
+  mit **14** verschiedenen Hausnummern (8, 16, 18, 20, 24, 30, 31, 33, 40, 48, 50, 56, **62**, 64) - die
+  **Dossier-Hausnummer 62 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine
+  Suche nach **„Renz"** über die Felder name, operator, brand, shop, craft, description, amenity, landuse, man_made und
+  website findet im Fenster **keinen** Treffer; das einzige Recycling-Objekt ist **way/397265282** „Wertstoffhof
+  Schwenningen" (operator=Maschinenring Schwarzwald-Baar GmbH, In Rammelswiesen 9) - ein **anderer** Betreiber, der auch
+  im amtlichen Fachbetrieberegister (Auszug 11.08.2026) unter „NL Villingen-Schwenningen", In Rammelswiesen 8 bzw. 5,
+  und **nicht** unter „Renz" geführt wird. Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): das **Impressum** http://renz-rohstoffe.de/impressum.html liefert **HTTP 200** und nennt live „Gerhard
+  Renz, Fa. Renz, Klippeneckstr. 62, 78056 Villingen-Schwenningen", Telefon 07720 77 77, E-Mail info@renz-rohstoffe.de.
+  **Beleggrenze (unverändert übernommen):** es handelt sich um einen **Einzelunternehmer ohne Registernummer**; die
+  README-Ausnahme für eine allein gültige Betreiberquelle greift damit formal nicht, und die vier Domains desselben
+  Betreibers (renz-rohstoffe.de, renzcontainer.de, renz-kanal.de, renz-entruempelung.de) sowie das Branchenverzeichnis
+  ENF sind **keine** unabhängige zweite Identitätsquelle - das amtliche Fachbetrieberegister führt für
+  Villingen-Schwenningen keinen Betrieb „Renz", was wegen der freiwilligen EFB-Anerkennung **kein** Nichtexistenz- und
+  **kein** Schließungsbeweis ist. Der Punkt bezeichnet die **betreiberseitig dokumentierte Anschrift** (Gewerbehof mit
+  Containerabstellung), **nicht** eine punktgenau belegte Einfahrt oder Waage; eine öffentliche Zahlenpreisliste
+  existiert nicht, Ankauf erfolgt „zu Tagespreisen nach Börsenkurs", Gebühren sind nicht veröffentlicht, `status: aktiv`
+  bleibt unverändert. **Zurücknahme des `geo`-Tokens (Begründung):** die Frontmatter-Zeile `clear_fields: 'geo'` wurde
+  **vollständig entfernt**, weil sie den falschen Altpunkt 48.0667/8.45 (Sebastian-Kneipp-Straße, 78048
+  Villingen-Schwenningen) fernhalten sollte und der hier gesetzte Punkt exakt auf der belegten Anschrift liegt;
+  `clear_fields` darf nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen, weitere Clear-Tokens sind in dieser
+  Zeile nicht betroffen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/583234670/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.55,48.05,8.57,48.07 ; http://renz-rohstoffe.de/impressum.html
+  (Abruf 04.11.2026) ; https://schrottregister.pages.dev/ort-villingen-schwenningen (im Dossier zitiert).]

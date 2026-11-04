@@ -81,3 +81,46 @@ Der konkrete Name „Goldankauf 111“ bleibt ein nicht verifizierter Verzeichni
   https://www.hamburg.de/branchenbuch/hamburg/goldank__c3__a4ufer/ ; https://www.gold-silberankauf-hamburg.de/impressum/
   (fremder Rechtsträger Goldtrans) ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0100,53.5800,10.0400,53.6000
   (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Dossier-Hausnummer 179 ist in OSM belegt, dort ist aber ein ganz anderes Gewerbe
+  erfasst.** Die Nachprüfung liefert einen **neuen Sachbefund** zur Identitätsfrage. **Fenster und Raster:**
+  Kachelraster **9.9700/53.5960 bis 10.0000/53.6160** (Hamburg-Groß Borstel), **6 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält die gesuchte Straße
+  **nachweislich**: die **Borsteler Chaussee** ist mit **37** Straßenobjekten darin erfasst. **Census im Fenster:**
+  **155** Adressobjekte mit `addr:street`=Borsteler Chaussee und `addr:postcode`=22453. **Quelle 1 (OSM, live
+  abgerufen 04.11.2026):** zur **Hausnummer 179** existieren **zwei** Objekte: **node/6981345514**
+  (`addr:city`=Hamburg, `addr:country`=DE, `addr:housenumber`=**179**, `addr:postcode`=**22453**,
+  `addr:street`=Borsteler Chaussee, `amenity`=**fast_food**, `cuisine`=chinese, `name`=**„China Express Zixin"**,
+  `operator`=Yinlin Yuan, `phone`=+49 40 851 598 58, `email`=l.yuan@web.de,
+  `website`=https://www.china-express-zixin.de, `opening_hours`=Mo-Fr 12:00-22:00; Su 12:00-22:00, `delivery`=yes,
+  `takeaway`=yes, `outdoor_seating`=yes) und **way/262577037** (`addr:housenumber`=**179**, `addr:postcode`=22453,
+  `addr:street`=Borsteler Chaussee, `building`=apartments, `building:levels`=2, `roof:levels`=1). **Damit ist die
+  Hausnummer belegt, aber die Nutzung in OSM eine chinesische Schnellküche und ein Wohngebäude** - **kein**
+  Edelmetallankauf und **kein** Bezug zu „Goldankauf 111". Eine Suche nach „goldankauf", „gold", „silber" und
+  „edelmetall" über alle Tag-Werte des Fensters findet **kein** Objekt mit Bezug zu einem Edelmetallankauf. **Quelle
+  2 (Betreiber/Register, nicht auf denselben Namen bezogen):** Die im Dossier zitierten Quellen belegen an dieser
+  Adresse **einen anderen benannten Betrieb**: die **Betreiberseite** des **Hanseatischen Goldankaufs**
+  (https://hanseatischer-goldankauf.de/kontakt.html, live laut Bestandsvermerk vom 22.10.2026) nennt die
+  **Zweigstelle Borsteler Chaussee 179, 22453, 040 466 500 67, Di-Fr nach Termin** (Inhaberin Diana Dexheimer), und
+  das **Hamburg.de-Branchenbuch** führt dieselbe Adresse und Telefonnummer als „Goldankauf Groß Borstel"; die ehemals
+  falsch zugeordnete Domain gold-silberankauf-hamburg.de gehört nach deren Impressum **Goldtrans**, Ahrensburger Str.
+  69, 22041 Hamburg (anderer Rechtsträger, im Dossier getrennt geführt). **Warum keine Koordinate:** (a) die
+  Identität **„Goldankauf 111"** ist nicht belegt - die Quellen belegen **„Hanseatischer Goldankauf" / „Goldankauf
+  Groß Borstel"**, und Standortgleichheit ist **kein** Betreiberwechsel- oder Fortbestandsnachweis; (b) der
+  Owner-Hinweis vom 03.10.2026 meldete „Goldankauf 111" als „permanently closed", ohne Place-Link bzw. Place-ID - ein
+  **Schließungslead**, kein selbst verifizierter Befund; (c) in OSM trägt die Hausnummer 179 ein
+  **Gaststättengewerbe** und ein Wohngebäude, nicht einen Edelmetallankauf; (d) an der Nummer 179 liegen **zwei**
+  OSM-Objekte vor, ein eindeutiger Objekt-Bezug wäre damit nicht gegeben. **Reichweite / Fehlbelegklausel:** Die in
+  OSM erfasste Nutzung „China Express Zixin" ist eine **Standangabe** und **kein** Beleg gegen einen (auch heute noch
+  vorhandenen) Edelmetallankauf im selben Haus; umgekehrt belegt eine vorhandene Hausnummer **keinen** Betrieb.
+  `status: pruefung`, `website_status: unbekannt`, `street`/`postcode` (letzteres leer) und alle übrigen
+  Frontmatter-Felder bleiben unverändert; es wird **weder** eine Schließung **noch** ein Fortbestand behauptet.
+  **Nächster Schritt für den Owner:** ein überprüfbarer Profil- oder Registerbeleg, ob „Goldankauf 111" noch
+  firmiert, geschlossen wurde oder ein Vorgänger des Hanseatischen Goldankaufs ist - erst dann Geokodierung.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9700,53.5960,10.0000,53.6160 ;
+  https://api.openstreetmap.org/api/0.6/node/6981345514.json ;
+  https://api.openstreetmap.org/api/0.6/way/262577037/full.json ; https://hanseatischer-goldankauf.de/kontakt.html ;
+  https://www.hamburg.de/branchenbuch/hamburg/goldank__c3__a4ufer/ ;
+  https://www.gold-silberankauf-hamburg.de/impressum/ (fremder Rechtsträger Goldtrans) (Abruf 04.11.2026).]

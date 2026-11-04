@@ -64,3 +64,44 @@ Der direkt gelesene Gelbe-Seiten-Eintrag heißt „Schmidt Rohprodukte Altmetall
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Schmidt + Schmidt Rohprodukte Altmetalle` (Sägemühlenstr. 1, Bad Grund; das Dossier nennt keine PLZ, keine Kontakte und keine belegte Betriebsidentität) wurde im amtlichen Fachbetrieberegister weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt + Schmidt` -> **1 Treffer** (`GbR Marcus Schmidt mit Matthias Schmidt`, Dorfstraße 16 a, 99955 Urleben, `ZZRT00200260 / 1`, Tätigkeit Befördern) - **anderer Rechtsträger an anderem Ort**; `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schmidt + Schmidt` -> **2 Treffer** (`Autoverwertung Kfz-Schmidt Inh. Wladimir Schmidt`, Bischof-von-Ketteler-Str. 6, 84453 Mühldorf a. Inn, `ZASS00300016 / 1`; Am Bahndamm 14, 84543 Winhöring OT Eisenfelden, `ZASS00300027 / 1`) - **Namensvetter, beide in Bayern**; (2) Kontrollsuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt` -> **81 Treffer** bundesweit, `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schmidt` -> **13 Treffer**, **keiner** in Bad Grund; (3) Radiusabfrage mit **3 km** um die Dossier-Adresse `…/Entsorgungsfachbetriebe/adr=Sägemühlenstr. 1, 37539 Bad Grund, Deutschland;…&dst=3&is=1&e=1` -> **4 Treffer**, **alle** `MPM Environment Intelligence GmbH` (Bahnhofstraße 3a, 37539 Bad Grund OT Gittelde, 1,1 km, `ZZEE00100243 / 1` bis `/ 4`) - **anderer Rechtsträger am selben Ort, nicht übernommen**; dieselbe Radiusabfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **0 Treffer**. Die Radiusabfrage liefert in derselben Umgebung Treffer, die Abfragetechnik funktioniert also - für `Schmidt + Schmidt` in Bad Grund gibt es **keinen** Registereintrag.
     Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
     Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt%20%2B%20Schmidt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schmidt%20%2B%20Schmidt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schmidt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=S%C3%A4gem%C3%BChlenstr.%201,%2037539%20Bad%20Grund,%20Deutschland;10.1897143;51.7873206;10.259420363723125;51.83043953639957;10.120008236276876;51.744201663600435&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=S%C3%A4gem%C3%BChlenstr.%201,%2037539%20Bad%20Grund,%20Deutschland;10.1897143;51.7873206;10.259420363723125;51.83043953639957;10.120008236276876;51.744201663600435&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Dossier-Adresse ist in OSM belegt, die Betreiberidentität aber nicht.** Die
+  Nachprüfung liefert erstmals einen **positiven Adressbefund**, ändert aber nichts an der offenen Identitätsfrage.
+  **Fenster und Raster:** Kachelraster **10.1800/51.7780 bis 10.2000/51.7980** (Bad Grund, Teichhütte), **4 Kacheln
+  von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster
+  enthält die gesuchte Straße **nachweislich**: die **Sägemühlenstraße** ist mit **3** Straßenobjekten darin erfasst
+  (way/23093902, way/56011014, way/158636372). **Census im Fenster:** **13** Adressobjekte mit
+  `addr:street`=Sägemühlenstraße mit **13** verschiedenen Hausnummern (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 16, 18) -
+  die **Dossier-Hausnummer 1 existiert**. **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):** **way/123555713**
+  (https://api.openstreetmap.org/api/0.6/way/123555713/full.json) trägt `addr:housenumber`=**1**,
+  `addr:street`=**Sägemühlenstraße**, `addr:suburb`=**Teichhütte**, `building`=yes, Version 4 (Stand 03.03.2026); das
+  Objekt hat **5** eindeutige Knoten, der Mittelwert der eindeutigen Knoten ist **51.7873037 / 10.1897247**, die
+  Objekt-BBox ist 51.7872362/10.1895695 bis 51.7874050/10.1898590, der Punkt liegt **innerhalb** der BBox. Das Objekt
+  trägt **weder `name=` noch `operator=`** - es belegt **die Adresse**, nicht den Betreiber. **Quelle 2
+  (Betreiber-/Register, weiterhin nicht erfüllt):** Das Dossier führt für „Schmidt + Schmidt Rohprodukte Altmetalle"
+  **keine** PLZ, **keine** Kontakte und **keine** belegte Betriebsidentität; das **amtliche Fachbetrieberegister**
+  (Auszug 11.08.2026, live geprüft am 02.11.2026) führt für Bad Grund nur **andere** Rechtsträger (im 3-km-Radius um
+  die Dossier-Adresse ausschließlich MPM Environment Intelligence GmbH, Bahnhofstraße 3a, Bad Grund OT Gittelde, 1,1
+  km) und **keinen** Eintrag „Schmidt + Schmidt"; die Namenssuche nach „Schmidt + Schmidt" liefert nur
+  **Namensvetter** in anderen Orten (GbR Marcus Schmidt mit Matthias Schmidt, Dorfstraße 16 a, 99955 Urleben;
+  Autoverwertung Kfz-Schmidt, Bischof-von-Ketteler-Straße 6, 84453 Mühldorf a. Inn; ebenda Winhöring).
+  **Konsequenz:** Die Zwei-Quellen-Regel ist nicht erfüllt - OSM-Objekt plus fehlende Betreiberquelle; eine
+  Koordinate würde behaupten, dass „Schmidt + Schmidt Rohprodukte Altmetalle" an der Sägemühlenstraße 1 sitzt, was
+  keine Quelle trägt. **Negativaussage, qualifiziert:** Eine Suche nach „Schmidt", „Altmetall" und „Rohprodukt" über
+  alle Tag-Werte des Fensters findet **kein** Objekt mit Betriebsbezug. **Reichweite / Fehlbelegklausel:** Die
+  Existenz des Adressobjekts 1 belegt **die Adresse**, **nicht** den Betrieb und **nicht** eine Annahme- oder
+  Abholfunktion; der **Nichteintrag** im amtlichen Fachbetrieberegister beweist **nichts**, weil die Efb- und die
+  AltfahrzeugV-Anerkennung **freiwillig** sind und ein Register-Nichteintrag ohnehin kein Nichtexistenzbeweis ist.
+  `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen Ersatzpunkt), `status: pruefung`, `street`/`postcode`
+  (letzteres leer), Telefon, `website_status` (leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird
+  weder Fortbestand noch Schließung behauptet. **Nächster Schritt für den Owner:** ein Gewerbe- oder
+  Betreibernachweis (Impressum mit Rechtsträger oder Handelsregisterauszug) für „Schmidt + Schmidt Rohprodukte
+  Altmetalle" an der Sägemühlenstraße 1 - dann kann way/123555713 ohne Neuladen als Koordinate übernommen werden.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,51.7780,10.2000,51.7980 ;
+  https://api.openstreetmap.org/api/0.6/way/123555713/full.json ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt%20%2B%20Schmidt
+  ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schmidt%20%2B%20Schmidt
+  ; https://schrottregister.pages.dev (Abruf 04.11.2026).]

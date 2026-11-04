@@ -61,3 +61,45 @@ gegenüber Mo–Fr 09:00–18:00) und bleiben deshalb leer.
 ### Recherche 03.10.2026
 
 - [Recherche 03.10.2026: GoLocal und 11880 führen Alter Postweg 173 B, 28207, aber unterschiedliche Telefonnummern (0176 521 53 90 gegenüber 0174 5215390) und unterschiedliche Leistungsprofile; beides sind nur Aggregator-Leads. Der mögliche Domainname auto-kaman.de ist über die GoLocal-Mailadresse verknüpft, lieferte beim Direktabruf aber nur eine generische Hosting-/Fehlerseite, keinen Betreiberauftritt oder Impressumsbeleg. website_status leer→unbekannt; status aktiv→pruefung, weil aktuelle Tätigkeit nicht unabhängig bestätigt ist (keine Schließung behauptet). Straße unverändert, Postleitzahl/Telefon/Website nicht gefüllt.; Quelle(n): https://www.golocal.de/bremen/automobile/auto-kaman-abschleppservice-kfz-an-verkauf-metall-u-schrotthandel-hv3N/, https://www.11880.com/branchenbuch/bremen/012080446B108774998/auto-kaman-bremen.html, https://auto-kaman.de/]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **173 B** ist auf der
+  gesuchten Straße **Alter Postweg** in OSM **nicht** erfasst, und für den Betrieb existiert **keine** Betreiber- oder
+  Registerquelle. Quelle 1 (OSM, live geprüft am 04.11.2026): **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026
+  live abgerufene Kachelraster umfasst **8.8700/53.0600 bis 8.8800/53.0700**, **1 Kachel von je 0,01 Grad**, **0
+  Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich und vollständig** mit **8** Straßenobjekten
+  (way/4747645, way/19078850, way/19078852, way/19078853, way/31546904, way/860176154 und zwei weitere Segmente; Verlauf
+  53.06126/8.86966 bis 53.06514/8.88030) sowie **195** Adressobjekten auf „Alter Postweg" mit **192** verschiedenen
+  Hausnummern (49 bis 77, 93 bis 143, 144 bis 170, **174** bis 239, 245 bis 286, 302 sowie die Zusatznummern 130;131,
+  148,149, 166a, 174f, 179a, 192-193, 192; 193, 197,198, 210a, 214a, 247;248, 275,276, 276a, 276b, 277,278,279, 287;
+  288) - **die Dossier-Hausnummer 173 existiert dort nicht**; die Nummerierung springt von **170** auf **174**. Eine
+  Suche nach **„Kaman"** über die Felder name, operator, brand, description, website, contact:website, shop, craft und
+  addr:housename findet im Kachelausschnitt **keinen** Treffer - es gibt **keine** OSM-Betriebszuordnung; der Altpunkt
+  48.2753/8.8546 (aus der früheren Produktion) löst live auf **way/169826526** (Hirschbergstraße 2, 72336 Balingen) auf
+  und damit **nicht** auf die Dossier-Adresse. Quelle 2 (Verzeichnis/Register, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): **Das Örtliche**
+  https://www.dasoertliche.de/Themen/Auto-Kaman-Abschleppservice-KFZ-An-und-Verkauf-Metall-u-Schrotthandel-Bremen-Hastedt-Alter-Postweg
+  nennt live „Auto Kaman Abschleppservice, KFZ An- und Verkauf, Metall- u. Schrotthandel", **Alter Postweg 173 B, 28207
+  Bremen-Hastedt**, 0176 5215390, info@auto-kaman.de und „Mustafa Saglik (Inhaber / Ansprechpartner (nicht
+  verifiziert))"; **GoLocal**
+  https://www.golocal.de/bremen/automobile/auto-kaman-abschleppservice-kfz-an-verkauf-metall-u-schrotthandel-hv3N/ und
+  **11880** https://www.11880.com/branchenbuch/bremen/012080446B108774998/auto-kaman-bremen.html nennen dieselbe
+  Adresse, 11880 allerdings mit der **Zifferndreher**-Variante (0174) 5215390 - allesamt **Verzeichnisleads**, keine
+  Belege. Die eigene Domain **auto-kaman.de** ist vorhanden, aber **nicht abrufbar** (TLS-Fehler
+  `ERR_TLS_CERT_ALTNAME_INVALID`), das Web-Archiv kennt dort **keine** archivierte Betreiberseite, sondern nur
+  Weiterleitungen - es gibt **kein** Impressum und **keine** Preisliste. Das amtliche Fachbetrieberegister (Auszug
+  11.08.2026, https://schrottregister.pages.dev/ort-bremen) führt für Bremen **keinen** Betrieb an der Alter Postweg 173
+  und **kein** „Auto Kaman"; das ist **kein** Nichtexistenzbeweis, weil ein Abschlepp-/KFZ-Betrieb die EFB-Anerkennung
+  nicht braucht. **Warum keine Koordinate:** die Hausnummer 173 B ist in OSM nicht erfasst, es gibt **kein**
+  adressgenaues Objekt; die Dossier-Adresse ruht allein auf Verzeichniseinträgen mit widersprüchlichen Nummern, und eine
+  Ersatzverortung (Straßenmittelpunkt) wäre keine Geokodierung. `status: pruefung` bleibt, Ankauf-, Verkaufs- und
+  Gebührenangaben bleiben unbelegt, es wird **keine** Schließung behauptet. **Reichweitenklausel:** das Fehlen einer
+  Hausnummer in OSM ist **kein** Nachweis für das Fehlen des Betriebs. Offen bleiben Inhaber, eine aktuelle Tätigkeit
+  und ein funktionierender Betreiberauftritt; erst danach ist zu geokodieren. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.87,53.06,8.88,53.07 ;
+  https://api.openstreetmap.org/api/0.6/way/19078852/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/169826526/full.json ;
+  https://www.dasoertliche.de/Themen/Auto-Kaman-Abschleppservice-KFZ-An-und-Verkauf-Metall-u-Schrotthandel-Bremen-Hastedt-Alter-Postweg
+  ; https://auto-kaman.de/ (TLS-Fehler am 04.11.2026) ; https://schrottregister.pages.dev/ort-bremen (Abruf
+  04.11.2026).]

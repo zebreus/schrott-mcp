@@ -71,3 +71,38 @@ Die Gruppe beschreibt Sammlung, Aufbereitung und Vermarktung von Stahlschrotten 
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2900,52.4900,7.3000,52.5000 ;
   https://api.openstreetmap.org/api/0.6/way/102024864/full.json ; https://www.g-voth.de/unternehmen_li.html ;
   https://www.g-voth.de/impressum.html (Abruf 04.11.2026).]
+
+### Geokodierung 04.11.2026 (Nachprüfung)
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt; der Vermerk vom 04.11.2026 wird bestätigt und mit dem Census des Fensters
+  präzisiert.** Die Dossier-Adresse **Niederdarmer Straße** enthält **keine Hausnummer**, und in OSM trägt die Straße
+  im geprüften Abschnitt **keinerlei Adressobjekte** - eine adressgenaue Zuordnung ist damit nicht möglich. **Quelle
+  1 (OSM, live abgerufen am 04.11.2026):** das Kachelraster über den Südwesten Lingen (Baccum/Darme) umfasst
+  **7.2900/52.4700 bis 7.3100/52.5000**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; ergänzt um
+  **7.2900/52.4900 bis 7.3000/52.5000**, **1 Kachel**, **0 Fehler**. Das Fenster enthält die gesuchte Straße
+  **nachweislich** mit dem Straßenobjekt **way/102024864** (residential) sowie den Brückenabschnitt **way/102024855**
+  und den Endabschnitt **way/27644804** - auf der „Niederdarmer Straße" ist im Fenster jedoch **kein einziges
+  Adressobjekt** erfasst (0 Objekte mit `addr:street`=Niederdarmer Straße), es gibt also **weder** eine Hausnummer 13
+  **noch** eine andere belegte Hausnummer dieser Straße, an der ein Betriebspunkt hängen könnte; eine Namenssuche
+  nach **„Voth"** und **„Günther Voth"** über die Felder name, operator, description, website, contact:website,
+  brand, note und addr:housename findet im Fenster **keinen** Treffer. **Quelle 2 (Betreiber/Register, im Dossier
+  bereits zitiert, live nachgelesen am 04.11.2026):** die **Lingen-Standortseite**
+  https://www.g-voth.de/unternehmen_li.html liefert **HTTP 200** und nennt live **„Rohstoff-Handelsgesellschaft
+  Günther Voth GmbH, Niederdarmer Strasse, 49811 Lingen, Tel. + 49 (0) 591 5041, E-mail: lingen@g-voth.de,
+  Verantwortliche Person: F. Lüke, Mitarbeiteranzahl: 3, Ausstattung: Bahnanschluss, Wasseranschluss, zertifiziert
+  nach Entsorgungsfachbetriebeverordnung und DIN EN ISO 9001:2015"** - auch hier steht **keine Hausnummer**; das
+  **Impressum** bestätigt die GmbH (HRB 181 AG Paderborn), der **aktuelle Registerauszug** führt die Gesellschaft mit
+  Sitz Paderborn und **ohne** Lingen-Zweigniederlassung. **Warum keine Koordinate:** (a) der Lead nennt **keine
+  Hausnummer**, (b) OSM kartiert auf der Straße **keine** Adressen, jeder Punkt wäre eine willkürliche Position auf
+  einer langen Landstraße, (c) das **EfB-Zertifikat** für Lingen (Nr. 125ZEB166, Lagern und Behandeln) war zum
+  **01.08.2026** abgelaufen und das **ISO-Zertifikat** zum **16.05.2026** - eine heute gültige Zertifizierung, eine
+  öffentliche Kundenannahme oder ein Ankauf sind **nicht** belegt. **Reichweite / Fehlbelegklausel:** Das Fehlen
+  **sämtlicher** Adressobjekte auf der Straße ist eine **OSM-Datenlücke**, **kein** Nachweis, dass dort kein Betrieb
+  existiert; umgekehrt belegt eine vorhandene Hausnummer **keinen** Betrieb. `status: pruefung`, `street`,
+  `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und `description` bleiben unverändert;
+  es wird weder Fortbestand noch Schließung behauptet. **Was zur Auflösung fehlt:** die **Hausnummer** des Linger
+  Standorts (aus einem Betreiberauftritt, Impressum mit Hausnummer oder Registerbeleg) und ein dazu passendes
+  OSM-Adressobjekt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2900,52.4700,7.3100,52.5000 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2900,52.4900,7.3000,52.5000 ;
+  https://api.openstreetmap.org/api/0.6/way/102024864/full.json ; https://www.g-voth.de/unternehmen_li.html ;
+  https://www.g-voth.de/impressum.html (Abruf 04.11.2026).]

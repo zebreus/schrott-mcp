@@ -70,3 +70,45 @@ Prüffall ohne verifizierten Betreiberbeleg. Zwei 11880-Profile widersprechen si
   https://www.11880.com/branchenbuch/hamburg/251092496B111438881/heinz-terboven-schrotthandel.html (Aggregator-Leads,
   nicht unabhängig) ; https://www.northdata.de/Heinz+Terboven,+Hamburg ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9950,53.4550,10.0150,53.4650 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Negativaussage der Vorwelle war ein Fensterfehler; beide Hausnummern existieren in
+  OSM, tragen aber fremde Nutzungen.** **Fehler der Vorwelle:** das am 03.11.2026 abgetastete Raster 53.4550-53.4650
+  / 9.9950-10.0150 liegt rund **2,3 km östlich** der Eißendorfer Straße (53.4597 N / 9.9730 E); die Aussage „kein
+  Objekt mit `addr:housenumber`=41 bzw. 43" war ein **Fensterfehler**, kein Datenbefund. **Korrigiertes Fenster
+  (live, vollständig): 9.9600/53.4490 bis 9.9800/53.4690** (Hamburg-Harburg, Eißendorfer Straße), **4 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält
+  die gesuchte Straße **nachweislich**: die **Eißendorfer Straße** ist mit **18** Straßenobjekten darin erfasst.
+  **Census im Fenster:** **138** Adressobjekte mit `addr:street`=Eißendorfer Straße und `addr:postcode`=21073 mit
+  **129** verschiedenen Hausnummern - **41** und **43** sind beide belegt. **Quelle 1 (OSM, live geladen
+  04.11.2026):** **node/2518031220** trägt `addr:housenumber`=**41**, `addr:street`=Eißendorfer Straße,
+  `addr:postcode`=21073, `craft`=**plumber**, `name`=**„Klempnerei-Genossenschaft"**, `operator`=**Klempnerei-,
+  Installations- und Rohrleitungsbau-Genossenschaft eG**, `phone`=+49 40 772531,
+  `website`=https://www.klempnerei-gen.de/, `opening_hours`=Mo-Th 07:00-16:00; Fr 07:00-12:30,
+  `check_date`=2026-10-29, Version 7 vom 29.10.2026, bei **53.4596896 / 9.9732282**; **way/53011904** trägt
+  `addr:housenumber`=**43**, `addr:street`=Eißendorfer Straße, `addr:postcode`=21073, `building`=apartments,
+  `building:levels`=4, `roof:levels`=1, Version 6 vom 28.03.2021, Mittel der **6** eindeutigen Knoten **53.4596697 /
+  9.9729578**, BBox 53.4595786/9.9727870 bis 53.4597300/9.9731450. **Quelle 2 (Betreiber-/Register, weiterhin nicht
+  erfüllt):** Die beiden vorliegenden Verzeichnisprofile zu „Heinz Terboven" **widersprechen sich in der Hausnummer**
+  (Eißendorfer Str. 41 mit Telefon 040 776019 und Schließungsvermerk gegen Eißendorfer Str. 43 mit Mobilnummer 0172
+  4533204), stammen aber **aus demselben Aggregator** (11880) und sind damit **keine** zwei unabhängigen Quellen; die
+  NorthData-Suche ergab keinen eindeutig passenden Registertreffer, und die verknüpfte Domain klempnerei-gen.de ist
+  ohne unabhängigen Beleg. **Warum keine Koordinate:** (a) der Adresswiderspruch 41/43 bleibt ungelöst, (b) in OSM
+  trägt **41** ein **Klempnerei-Handwerk** (`craft`=plumber, `operator`=Klempnerei-Genossenschaft eG) und **43** ein
+  **Wohngebäude** - **keines** der beiden Objekte hat einen Bezug zu „Heinz Terboven" oder zu einem Schrotthandel,
+  (c) ohne Betreiber-/Registerquelle ist die Zwei-Quellen-Regel nicht erfüllt, eine Koordinate müsste zwischen zwei
+  widersprüchlichen Hausnummern raten und würde zudem eine fremde Nutzung als Dossier-Standort ausgeben.
+  **Negativaussage, qualifiziert:** Eine Suche nach „Terboven" und „Schrott" über alle Tag-Werte des Fensters findet
+  **kein** Objekt mit Bezug zum Dossier-Händler. **Reichweite / Fehlbelegklausel:** Die in OSM erfasste Nutzung an 41
+  und 43 ist eine **Standangabe** und **kein** Beleg gegen einen (heute nicht mehr belegten) Schrotthandel ebendort;
+  umgekehrt belegt eine vorhandene Hausnummer **keinen** Betrieb. `status: pruefung`, `street`/`postcode` (beide
+  leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **keine** Schließung behauptet, obwohl ein
+  Aggregatorprofil eine Schließung andeutet. **Nächster Schritt für den Owner:** Direktkontakt, Einwohnermeldung oder
+  Gewerbeauskunft zur richtigen Hausnummer an der Eißendorfer Straße; danach erneute OSM-Hausnummerensuche.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9600,53.4490,9.9800,53.4690 ;
+  https://api.openstreetmap.org/api/0.6/node/2518031220.json ;
+  https://api.openstreetmap.org/api/0.6/way/53011904/full.json ; https://www.11880.com/suche/heinz-terboven/hamburg ;
+  https://www.11880.com/branchenbuch/hamburg/120674719B111438881/heinz-terboven-schrotthandel.html ;
+  https://www.11880.com/branchenbuch/hamburg/251092496B111438881/heinz-terboven-schrotthandel.html (Aggregator-Leads,
+  nicht unabhängig) ; https://www.northdata.de/Heinz+Terboven,+Hamburg (Abruf 04.11.2026).]

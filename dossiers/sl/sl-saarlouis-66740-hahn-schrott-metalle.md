@@ -56,3 +56,39 @@ Plausibler Rechtsträgerkandidat ist **HAHN GmbH**, HRB 24161 beim AG Saarbrück
 - [Recherche 04.10.2026: Domain-Lead hahn-saarlouis.de aus externer Suche geprüft: HTTPS ohne www sowie HTTP/HTTPS mit www ergaben Transportfehler, kein Betreiberinhalt oder Impressum. Website bleibt leer; daraus weder „tot“ noch dauerhafte Schließung abgeleitet. Ohne identifizierbare Betreiberseite konnten keine Kontakt-, Standort-, Annahme-, Abhol-, Preis-, Zertifikats- oder News-Unterseiten verifiziert werden; keine zurechenbare Ankaufspreisliste gefunden. CompanyHouse und unternehmen24 waren bei direktem Abruf mit HTTP 403 gesperrt. Betreiber-Ausnahme nicht erfüllt, Status weiter pruefung; Quelle(n): https://hahn-saarlouis.de/ ; http://www.hahn-saarlouis.de/ ; https://www.hahn-saarlouis.de/ ; https://www.companyhouse.de/HAHN-Gesellschaft-mit-beschrankter-Haftung-Saarlouis ; https://www.unternehmen24.info/Firmeninformationen/Deutschland/Firma/1498956 ; https://search.brave.com/search?q=Hahn%20Schrott%20Saarlouis&source=web (Abrufversuche 04.10.2026; Suchseite nur Lead)]
 - [Recherche 04.10.2026: Namesake-/Betreiberkettenprüfung: North Data führt separat „Hahn & Ecker GmbH, Saarlouis“ unter HRB 23595/EUID DEV1109.HRB23595, dort als erloschen markiert; das ist eine andere Registeridentität als HRB 24161. Kein Übernahme-, Umbenennungs- oder Merge-Nachweis zwischen beiden gefunden, daher keine Status-/Adressübertragung. Kommunal eingegrenzte Websuche auf saarlouis.de nach Hahn/Schrott war ohne Treffer; exakte Suche nach Seed-Mobiltelefon 0170 2020322 und Kohlbrunnenstraße 19 wurde durch Bot-Challenge begrenzt. Keine kommunale Gewerberegisterauskunft oder aktueller Originalauszug beschafft; Quelle(n): https://www.northdata.de/Hahn%20%26%20Ecker%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2023595 ; https://html.duckduckgo.com/html/?q=site%3Asaarlouis.de+%22Hahn%22+%22Schrott%22 ; https://html.duckduckgo.com/html/?q=%220170+2020322%22 ; https://html.duckduckgo.com/html/?q=%22Kohlbrunnenstra%C3%9Fe+19%22 (Abrufe 04.10.2026; Namesake-Registerseite inhaltlich abgerufen, Suchseiten nur Rechercheprotokoll)]
 - [Recherche 04.10.2026: Fortsetzung nur für offene Betreiber-/Zertifikatslücke: hahn-saarlouis.de beim erneuten Zugriff nicht per DNS auflösbar; Identität der Domain weiterhin nicht über Impressum bestätigt, daher kein Website-Fill und kein Schluss auf Betriebsschließung. Zusätzliche Suche nach Hahn/Kohlbrunnen/Impressum sowie Hahn/Saarlouis/Entsorgungsfachbetrieb jeweils HTTP 202/Bot-Challenge, kein Zertifikat verifiziert. Erfolgreiche Registerabrufe nicht wiederholt. Preislisten getrennt: keine verifizierte Ankaufspreisliste und keine verifizierte Verkaufspreisliste; Source-Lücken verhindern eine vollständige Betreiber-Preisprüfung. Frontmatter unverändert; Quelle(n): https://hahn-saarlouis.de/ ; https://html.duckduckgo.com/html/?q=%22Hahn%22%20%22Kohlbrunnen%22%20%22Impressum%22 ; https://html.duckduckgo.com/html/?q=%22Hahn%22%20%22Saarlouis%22%20%22Entsorgungsfachbetrieb%22 (Abrufversuche 04.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **19** ist auf der gesuchten Straße
+  **Kohlbrunnenstraße** in OSM **nicht** erfasst. Quelle 1 (OSM, live geprüft am 04.11.2026): das am
+  04.11.2026 live abgerufene Kachelraster umfasst **6.7700/49.3200 bis 6.7800/49.3300**, **1 Kachel
+  von je 0,01 Grad**, **0 Kachel-Fehler**, **10.000 Elemente**; das Fenster enthält die gesuchte Straße
+  **„Kohlbrunnenstraße“ nachweislich** mit **5 Straßenobjekten** (way/36003542, way/1210723666,
+  way/1210723667, way/1210723668, way/1210723670; alle `highway`=residential) sowie **15
+  Adressobjekten** auf „Kohlbrunnenstraße“ mit **15 verschiedenen Hausnummern** (2, 5, 6, 8, 10, 12,
+  13, 14, 15, 16, 17, 18, 20, 22, 24) - **die Dossier-Hausnummer 19 fehlt**; die Nachbarobjekte
+  tragen 18 bzw. 20, der erfasste Nummernbereich springt also über 19 hinweg. **Negativaussage,
+  qualifiziert:** eine Volltextsuche über `name`, `operator`, `brand`, `description`, `note`, `shop`,
+  `craft`, `landuse`, `man_made` und `amenity` im Kachel-Fenster findet **keinen** Treffer zu
+  „Hahn“, „Schrott“ oder „Metall“ - eine Anlage der HAHN GmbH ist in OSM **nicht** kartiert. Quelle 2
+  (Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die NorthData-Seite
+  https://www.northdata.de/HAHN%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2024161
+  liefert HTTP 200 und nennt **„HAHN GmbH, Saarlouis, Amtsgericht Saarbrücken HRB 24161, EUID
+  DEV1109.HRB24161, Kohlbrunnenstr. 19, 66740 Saarlouis“** mit dem Unternehmensgegenstand „Handel
+  mit Rohprodukten (Schrotthandel) sowie die Durchführung von Transporten im Güternahverkehr“ - die
+  **Registeranschrift** ist damit belegt, der **Standort** jedoch nicht: das im Dossier zitierte
+  Stadtbranchenbuch (HTTP 403 beim Abruf) und das im Dossier dokumentierte **Brancheneintrag** sind
+  Verzeichnisleads, und die **Seed-Mobilnummer 0170 2020322** ist keinem Rechtsträger zugeordnet;
+  **Hahn & Ecker GmbH (HRB 23595)** bleibt eine **getrennte** Registereinheit und wird nicht
+  gleichgesetzt. **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für
+  das Fehlen des Betriebs und **kein** Nachweis für die Falschheit der Registeradresse; umgekehrt
+  belegt die Registeranschrift **keine** öffentliche Annahme, keinen Hof und keinen Geschäftsbetrieb
+  an dieser Stelle. Der bisher gespeicherte Punkt 49.3137/6.7515 (Weißkreuzstraße 10, Saarlouis)
+  bleibt über `clear_fields: 'geo'` zurückgenommen und wird **nicht** durch einen Ersatzpunkt
+  ersetzt; es wird **kein** Straßenmittelpunkt geraten. `status` bleibt `pruefung`, `city`, `street`,
+  `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und `description`
+  bleiben unverändert; es wird kein Ankaufkurs, keine Preisliste und keine Gebühr behauptet.
+  Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7700,49.3200,6.7800,49.3300 ;
+  https://www.northdata.de/HAHN%20GmbH,%20Saarlouis/Amtsgericht%20Saarbr%C3%BCcken%20HRB%2024161
+  (Abruf 04.11.2026).]

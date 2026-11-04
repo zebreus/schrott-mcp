@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Bernhard, Weidenweg 16, 72379 Hechingen-Boll: Schrotthandel, der Kupfer, V2A,
+Kabel, Aluminium, Messing und Batterien ankauft und die Abholung sowie die Containerstellung
+kostenlos anbietet. Als Belege dienen das Impressum der Betreiberseite mit Anschrift, der
+E-Mail-Adresse andy-bernhard@hotmail.de und der Festnetznummer 07471/6511 sowie Startseite und
+Kontaktformular mit der Mobilnummer +49 162 2484342 und den Öffnungszeiten Montag bis Freitag
+8:00 bis 19:00 Uhr bei geschlossener Sam- und Sonntag. Offen bleiben die Beleggrenze, da alle
+Angaben aus einer Betreiberdomain stammen und eine zweite unabhängige Quelle sowie ein
+Registerbeleg fehlen, die abweichende Schreibweise der E-Mail-Adresse zwischen Impressum und
+Kontaktformular und der Umstand, dass Ankaufpreise nicht veröffentlicht sind.
 
 ## Timeline
 

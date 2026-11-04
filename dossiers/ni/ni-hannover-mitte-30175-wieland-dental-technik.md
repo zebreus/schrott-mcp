@@ -96,3 +96,48 @@ Der Hannover-Seed führt „Wieland Dental + Technik GmbH & Co. KG“, Königstr
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.7100,52.3500,9.7700,52.3900 ;
   https://api.openstreetmap.org/api/0.6/way/1490513976/full.json ;
   https://www.ivoclar.com/en_li/tools/group-companies ; https://koke-consulting.de/impressum (Abruf 04.11.2026).]
+
+### Geokodierung 04.11.2026 (Nachprüfung)
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt; der Vermerk vom 04.11.2026 wird bestätigt und mit einem erneut vermessenen
+  Fenster präzisiert.** Die Dossier-Adresse **Königstr. 9** existiert in OSM, ist aber **nicht** dem Dossier-Entity
+  zugeordnet; die zweite erforderliche Quelle fehlt. **Quelle 1 (OSM, live abgerufen am 04.11.2026):** das
+  Kachelraster über Hannover-Mitte umfasst **9.7100/52.3500 bis 9.7700/52.3900**, **24 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json); das Fenster enthält die gesuchte Straße
+  **nachweislich** mit **16** Straßenobjekten (node/2925752445, node/2925752446, node/7328626340, node/7328626341,
+  way/5002201, way/5058905, way/27533571, way/29200366, way/106621694, way/106621700, way/610293399, way/772396405,
+  way/1008932151, way/1008932152, way/1229237482, relation/3837111) und **70** Adressobjekten auf „Königstraße" mit
+  **53** verschiedenen Hausnummern (2, 2A, 3, 4, 5, 6, 6a, 7, 8, **9**, 9a, 10, 11, 12, 18, 19, 20, 21, 22, 23, 24,
+  25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 44, 45, 46, 47, 48, 49, 49A, 50, 50A, 50a, 51, 52, 53, 53a, 54,
+  55) - die **Dossier-Hausnummer 9 existiert** also: **way/1490513976** mit `addr:street`=Königstraße,
+  `addr:housenumber`=**9**, `addr:postcode`=30175, `addr:city`=Hannover, `building`=**office**, `building:levels`=5,
+  `height`=20, `roof:shape`=gabled, `source:building`=OpenData LGLN Niedersachsen (Mittel der eindeutigen Knoten laut
+  Vermerk vom 04.11.2026: 52.3757020/9.7485685). Eine Namenssuche nach **„Wieland"** über die Felder name, operator,
+  description, website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer zu einem
+  Betrieb - der einzige „Wieland"-Treffer ist die **Wielandstraße** (way/23659535), also eine **andere** Straße; eine
+  Suche nach **„Dental"** findet nur **Zahnarztpraxen** (node/9275817080 „Dein Dental", operator=Julian André
+  Fritzsche & Jan Ziehme GbR, und node/14144042401 „DEIN DENTAL - Zahnärzte am Lister Platz", hn=8/62) und **keinen**
+  Bezug zu „Wieland". **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert):** Die **Identität** des
+  Hannover-Seeds „Wieland Dental + Technik GmbH & Co. KG" ist im Dossier selbst offen - die **offizielle
+  Ivoclar-Gruppenliste** (https://www.ivoclar.com/en_li/tools/group-companies) nennt deutsche Gesellschaften in
+  **Ellwangen** und **Pforzheim**, aber **keinen** Hannoveraner Standort und keine „Wieland Dental"-Gesellschaft; der
+  einzige live belegte Betreiber an genau dieser Anschrift ist laut dem im Dossier zitierten
+  **Koke-Consulting-Impressum** (https://koke-consulting.de/impressum) ein **Versicherungs-/Finanzvermittler** - ein
+  **gleichadressiger fremder Betreiber**, ausdrücklich **kein** Nachfolgenachweis für Wieland und kein Beweis
+  exklusiver Gebäudenutzung; das **amtliche Fachbetrieberegister** führt für Hannover keinen Betrieb dieses Namens,
+  und ein **Schrottankauf** ist für den Hannover-Seed **nicht** belegt („Dental-Depot/Materialvertrieb", keine
+  Ankaufbelege). **Warum keine Koordinate:** (a) die **Identität** ist nicht belegt, (b) das OSM-Objekt trägt **weder
+  `name=` noch `operator=`** und ist ein allgemeines Bürogebäude, (c) ein gesetzter Punkt würde eine
+  **Identitätsübertragung** behaupten, die keine Quelle trägt - die Vermerke vom 25.10.2026 („Keine
+  Ersatzkoordinate") und vom 27.10.2026 („Keine Identitätsübertragung, keine Ersatzkoordinate") bleiben unverändert
+  gültig. **Reichweite / Fehlbelegklausel:** Die Existenz des Adressobjekts 9 belegt **das Gebäude**, **nicht** den
+  Rechtsträger und **nicht** einen Schrottbetrieb; das Fehlen eines Efb-Eintrags (freiwillige Anerkennung) beweist
+  **nichts** über die Existenz eines Betriebs. `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen
+  Ersatzpunkt), `city`, `street`, `postcode` (leer), `phone`, `email`, `opening_hours`, `website`, `website_status`
+  (leer), `description` (leer) und `status: pruefung` bleiben unverändert; es wird weder Fortbestand noch Schließung
+  behauptet. **Was zur Auflösung fehlt:** ein Betreiber-, Impressums- oder Registerbeleg, der die **Wieland Dental +
+  Technik GmbH & Co. KG** (oder einen Rechtsnachfolger mit Schrottbezug) an **Königstraße 9, 30175 Hannover** belegt,
+  zusätzlich ein OSM-Objekt mit Betriebsbezug. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.7100,52.3500,9.7700,52.3900 ;
+  https://api.openstreetmap.org/api/0.6/way/1490513976/full.json ;
+  https://www.ivoclar.com/en_li/tools/group-companies ; https://koke-consulting.de/impressum (Abruf 04.11.2026).]

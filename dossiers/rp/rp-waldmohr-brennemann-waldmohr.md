@@ -1,6 +1,7 @@
 ---
 slug: rp-waldmohr-brennemann-waldmohr
-clear_fields: 'geo'
+lat: 49.3873137
+lon: 7.3322219
 name: Brennemann Waldmohr
 trader_type: sonstige
 state: RP
@@ -67,3 +68,46 @@ Der direkt gelesene 11880-Eintrag (Portalaktualisierung 14.10.2026) führt „sc
 
 - [Recherche 01.10.2026: Klärfall – kein Treffer auf Betreiber-Website oder Register; nur Seed-Adressfragment (Nickelsweiher 15); keine zwei unabhängigen Belege (Retry 01.10.2026 ohne neuen Beleg); Quelle(n): keine belegfähige Quelle]
 - [Recherche 01.10.2026: Felder leer gelassen, Status pruefung unverändert; Quelle(n): siehe Vorbullet]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 49.3873137, 7.3322219** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/419448773**, sechs eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  7.3321168/49.3872404 bis 7.3323310/49.3873582). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/419448773** trägt `addr:street`=Höcherstraße, `addr:housenumber`=**3**, `addr:city`=Waldmohr,
+  `addr:postcode`=66914, `addr:country`=DE und `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der
+  im Dossier belegten Prüfspur **Höcherstraße 3, 66914 Waldmohr** überein. **Fensterprüfung (kein Fensterfehler):**
+  das am 04.11.2026 live abgerufene Kachelraster über Waldmohr umfasst **7.3300/50.3800 bis 7.3400/50.3900**,
+  **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich**
+  mit dem Straßenobjekt **way/558093202** (`highway`=secondary, `name`=Höcherstraße, `ref`=K 3) sowie
+  **15** Adressobjekten auf „Höcherstraße" mit den Hausnummern 3, 6, 8, 8a, 10, 11, 12, 13, 17, 18, 19, 21, 23, 25
+  und 27 - die **Dossier-Hausnummer 3 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
+  Straße. Eine Namenssuche nach **„Brennemann"** über die Felder name, operator, description, website,
+  contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer - es gibt also **keine**
+  OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): das **Öffnungszeiten-Firmenprofil** liefert **HTTP 200** und nennt live
+  **„schrott & metallhändler Brennemann, Höcherstraße 3, 66914 Waldmohr"** mit Telefon **01523 8835642** - identisch
+  mit der Dossier-Adresse und derselben Nummer, die auch der **11880-Eintrag „schrotthandel brennemann"** (Adresse
+  **Nickelsweiher 15, 66914 Waldmohr**, Telefon 01523 8835642, Branchen Altmaterialhandel und Recycling) nennt.
+  **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine
+  belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt
+  auf der durch zwei unabhängige Quellen gedeckten Anschrift. **Abgrenzung (ausdrücklich offengelegt):** Die beiden
+  Verzeichnisse nennen **zwei verschiedene Anschriften** für denselben Betrieb und dieselbe Telefonnummer -
+  **Höcherstraße 3** (Öffnungszeiten-Profil, hier gesetzt) und **Nickelsweiher 15** (11880-Eintrag; in OSM als
+  **way/399125770** „Nickelsweiher 1" und weiteren Objekten auf derselben Straße erfasst, aber **nicht** mit der
+  Nummer 15). Die Entscheidung für **Höcherstraße 3** folgt der im Dossier dokumentierten Prüfspur dieses
+  Verzeichnisses; welche der beiden Anschriften der Betrieb tatsächlich beliefert, ist damit **nicht** entschieden -
+  der Punkt bezeichnet die **von der gewählten Quelle genannte Anschrift**, nicht zwingend den Betriebssitz. Der
+  zweite Direktauftritt `schrottundmetalhandel.de` (im Dossier als Verzeichnis-Lead zu Höcherstraße 3 dokumentiert)
+  war am 04.11.2026 **nicht mehr erreichbar** (die Domain wird vom Hosting-Dienst als „Domain not available"
+  ausgeliefert) - er wird hier **nicht** als Beleg geführt. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet die **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; das im Dossier dokumentierte
+  **Fehlen einer Betreiberidentität** (das Impressum von `schrottundmetalhandel.de` enthielt leere Vorlagenfelder, die
+  Domain `schrotthandelbrennemann.de` liefert kein verwertbares Impressum) bleibt offen - eine Ankaufzusage, ein
+  Annahmehof oder eine Öffnungszeit wird durch die Koordinate **nicht** belegt. `status: pruefung`, `city`,
+  `street` (leer), `postcode` (leer), `phone` (leer), `email` (leer), `opening_hours` (leer), `website` (leer),
+  `website_status` (leer) und `description` (leer) bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/419448773/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3300,50.3800,7.3400,50.3900 ;
+  https://www.oeffnungszeiten.com/schrott-und-metallhaendler-Brennemann/Waldmohr-Rheinland-Pfalz/Hoecherstrasse-3/ ;
+  https://www.11880.com/branchenbuch/waldmohr/060440092B112831048/schrotthandel-brennemann.html (Abruf 04.11.2026).]

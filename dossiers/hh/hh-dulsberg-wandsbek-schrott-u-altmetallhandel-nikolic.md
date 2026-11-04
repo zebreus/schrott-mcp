@@ -71,3 +71,36 @@ Nur ein nicht verifizierter Verzeichnis-Lead: Cylex-Suchtreffer nennt Graudenzer
   https://web2.cylex.de/firma-home/schrott-und-altmetallhandel-nikolic-16663123.html (403, nur Suchlead) ;
   https://www.northdata.de/Nikolic,+Hamburg ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0400,53.5800,10.0600,53.6000 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Dossier-Adresse ist in OSM belegt, der Betreiber aber nicht.** Die Nachprüfung
+  liefert erstmals einen **positiven Adressbefund** und ersetzt den zuvor nur teilweise abgeschlossenen Scan.
+  **Fenster und Raster:** Kachelraster **10.0590/53.5787 bis 10.0790/53.5987** (Hamburg-Dulsberg, Wandsbek), **4
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das
+  Fenster enthält die gesuchte Straße **nachweislich**: der **Graudenzer Weg** ist mit **1** Straßenobjekt
+  (way/24043443) darin erfasst. **Census im Fenster:** **18** Adressobjekte mit `addr:street`=Graudenzer Weg mit
+  **18** verschiedenen Hausnummern (1, 2, 4, 6, 8, **10**, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24) - die
+  **Dossier-Hausnummer 10 existiert**. **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):** **node/3657972315**
+  (https://api.openstreetmap.org/api/0.6/node/3657972315.json) trägt `addr:housenumber`=**10**,
+  `addr:street`=**Graudenzer Weg** und `entrance`=yes (Version 1, Stand 19.07.2015) bei **53.5888550 / 10.0689358**;
+  das Objekt trägt **weder `name=` noch `operator=`** und belegt damit **die Adresse**, nicht den Betreiber. **Quelle
+  2 (Betreiber-/Register, weiterhin nicht erfüllt):** Der Dossier-Eintrag beruht ausschließlich auf einem **nicht
+  verifizierten Verzeichnislead** (Cylex, Suchanführung „Schrott- und Altmetallhandel Nikolic", Graudenzer Weg 10,
+  22049 Hamburg, 0176 81237816, 24-Stunden-Betrieb); die Detailseite liefert am 04.11.2026 erneut **HTTP 403**, ein
+  Betreiberauftritt oder Registertreffer existiert nicht (die NorthData-Suche nach „Nikolic, Hamburg" ergab nur
+  unscharfe Personen- und Auslandstreffer). Verzeichnisleads sind nach der Repo-Quellenhierarchie **kein Beleg**, und
+  die 24-Stunden-Angabe bleibt ungeprüft. **Konsequenz:** Die Zwei-Quellen-Regel ist nicht erfüllt (OSM-Objekt
+  vorhanden, Betreiber-/Registerquelle fehlt); eine Koordinate würde eine Behauptung über einen nicht verifizierten
+  Lead sein. **Negativaussage, qualifiziert:** Eine Suche nach „Nikolic", „Schrott" und „Altmetall" über alle
+  Tag-Werte des Fensters findet **kein** Objekt mit Betriebsbezug zu diesem Händler. **Reichweite /
+  Fehlbelegklausel:** Die Existenz des Adressobjekts 10 belegt **die Adresse**, **nicht** den Betrieb „Schrott- und
+  Altmetallhandel Nikolic" und **nicht** eine Annahme- oder Abholfunktion; umgekehrt belegt ein fehlender
+  Registertreffer **kein** Fehlen eines Betriebs. `status: pruefung`, `street`/`postcode` (beide leer) und alle
+  übrigen Frontmatter-Felder bleiben unverändert; es wird **weder** eine Schließung **noch** das Fehlen eines
+  Betriebs behauptet. **Nächster Schritt für den Owner:** Gewerbe- oder Betreibernachweis mit Anschrift für den
+  Graudenzer Weg 10; dann kann node/3657972315 ohne Neuladen als Koordinate übernommen werden. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0590,53.5787,10.0790,53.5987 ;
+  https://api.openstreetmap.org/api/0.6/node/3657972315.json ;
+  https://web2.cylex.de/firma-home/schrott-und-altmetallhandel-nikolic-16663123.html (403, nur Suchlead) ;
+  https://www.northdata.de/Nikolic,+Hamburg (Abruf 04.11.2026).]

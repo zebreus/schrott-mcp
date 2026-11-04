@@ -1,5 +1,7 @@
 ---
 slug: be-berlin-aurofix-gmbh-industriegold
+lat: 52.4789849
+lon: 13.3426337
 name: Aurofix GmbH (Goldkauf24)
 trader_type: metallhaendler
 state: BE
@@ -40,3 +42,49 @@ Der Betreiber bewirbt ausdrücklich den Ankauf von Gold, Silber, Platin und Pall
 ### Importiert (Audit 7 Feedback #6772)
 
 - Erneute Meldung nach Audit 6 Feedback #5685: Aurofix GmbH (Goldkauf24 / altgoldankauf24.de), 10825 Berlin, Ankauf von Industriegold und edelmetallhaltigen Industrieabfällen. Die Wiederholung wurde als Prioritätshinweis behandelt, nicht als Beleg.
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.4789849/13.3426337** (Mittel der eindeutigen Knoten von
+  node/7660539092; der Punkt liegt innerhalb der Objekt-BBox
+  52.4789849/13.3426337–52.4789849/13.3426337). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **node/7660539092** trägt `addr:street`=Wexstraße, `addr:housenumber`=**2**,
+  `addr:postcode`=10825, `addr:city`=Berlin, `addr:suburb`=Schöneberg, `name`=**Gold- und
+  Diamantenzentrum Berlin**, `shop`=**pawnbroker** und `website`=**https://aurofix.de/** - Straße,
+  Hausnummer und PLZ stimmen mit der Dossier-Adresse **Wexstraße 2, 10825 Berlin** überein, und das
+  Objekt trägt den **Betriebsbezug**: einen Pfandankauf mit **genau der Website der Dossier-Firma**
+  (aurofix.de, die Impressums-Domain der Aurofix GmbH) und den zur Tätigkeit passenden
+  `shop`=pawnbroker. Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): das Impressum https://altgoldankauf24.de/impressum/ liefert HTTP 200 und nennt
+  **„Aurofix GmbH, Wexstraße 2, 10825 Berlin, Handelsregister HRB 157302 B, Registergericht Amtsgericht
+  Charlottenburg (Berlin), vertreten durch Devid Abramov, Telefon +49 30 484 945 420, E-Mail
+  service@aurofix.de, Websites https://www.aurofix.de, https://www.altgoldankauf24.de, https://www.goldkauf24.de,
+  USt-IdNr. DE 298 999 687“** - die Dossier-Adresse und der Rechtsträger sind damit betreiberseitig
+  bestätigt. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster
+  umfasst **13.3200/52.4700 bis 13.3500/52.4800**, **3 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**,
+  **80.810 Elemente**; das Fenster enthält die gesuchte Straße **„Wexstraße“ nachweislich** mit
+  **44 Straßenobjekten** (way/4405314, way/4405315, way/4535326, way/26976785, way/26976786,
+  way/32879630, way/386825202, way/392446617, way/392446618, way/392748963, way/4463571, way/6075300,
+  way/965153013, way/1127720438, way/1158486824, way/1144625582, way/1144625594, way/1192200102,
+  way/1219873816 bis way/1219873831, way/1220110808 bis way/1220110818, way/1222856390,
+  way/1222956492, way/1222956493, way/1442296109, way/1442296110, way/1472427966, way/1476926600,
+  way/1476926602, way/1559017769, way/27719726, way/34375418, way/508612666, way/540175256,
+  way/830617290; secondary/tertiary/platform) sowie **28 Adressobjekten** auf „Wexstraße“ mit **30
+  verschiedenen Hausnummern** (1, **2**, 8, 13–33, 37–40 sowie 33a, 35/36) - die **Dossier-Hausnummer 2
+  existiert** und ist im Raster von **drei** Objekten belegt: **node/7660539092** (Gold- und
+  Diamantenzentrum Berlin, Pfandankauf, Website aurofix.de), node/7659253634 (`name`=Praxis für
+  ästhetische Zahnmedizin, `amenity`=dentist) und way/60115108 (`building`=apartments,
+  `building:levels`=6) - gesetzt wird das Objekt **mit dem Betriebsbezug und der Betreiber-Website**.
+  **Negativaussage, qualifiziert:** im Raster tragen **3.297 Objekte** `name=` oder `operator=`;
+  **mit Bezug zu „Aurofix“, „Gold“, „Diamant“, „Pfand“ oder „aurofix.de“** trifft es auf **genau 1
+  Objekt** (node/7660539092) - es gibt **kein** zweites Objekt dieser Adresse mit Bezug zum Betreiber.
+  **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die **betreiber- und
+  OSM-bestätigte Anschrift**; er ist **kein** Beleg für eine öffentliche Schrottannahme, eine Waage
+  oder eine Lieferadresse, und die im Dossier dokumentierte Einschränkung (persönliche Anlieferung am
+  Standort nicht ausdrücklich zugesagt, `dropoff_json` bleibt leer) bleibt unverändert. `status`,
+  `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und
+  `description` bleiben unverändert; es wird **kein** Ankaufkurs, **keine** Materialverkaufspreisliste
+  und **keine** Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/7660539092.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3200,52.4700,13.3500,52.4800 ;
+  https://altgoldankauf24.de/impressum/ (Abruf 04.11.2026).]

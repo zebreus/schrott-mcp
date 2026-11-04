@@ -62,3 +62,42 @@ Neue Branchenportale platzieren „Jürgen Broschart Schrotthandel“ mit Seed-T
 - [Recherche 03.10.2026: `website_status` leer → `unbekannt` normalisiert; für den eigenständigen Jürgen Broschart Schrotthandel wurde kein zurechenbarer Betreiberauftritt belegt. Quelle(n): Creditreform-/Registerabgrenzung im folgenden Recherchevermerk dieses Dossiers.]
 
 - [Recherche 03.10.2026: NorthData führt Kohlengrubstr. 112 als Anschrift der eigenständigen Containerdienst Broschart GmbH (AG Saarbrücken HRB 109524; Geschäftsführer Markus Schorr); diese Anschrift lässt sich daher nicht auf den separat geführten Jürgen Broschart Schrotthandel übertragen. Der Seed-Lead An den Eichen 1 bleibt ohne zurechenbaren Beleg; für den Schrotthandel ist weiterhin keine Adresse bestätigt, daher keine Frontmatter-Änderung und nicht koordinatenbereit. Quelle/Gegenbeleg zur Adressgleichsetzung: https://www.northdata.de/Containerdienst%20Broschart%20GmbH,%20Schiffweiler/Amtsgericht%20Saarbr%C3%BCcken%20HRB%20109524]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für den eigenständigen **„Jürgen Broschart
+  Schrotthandel“** sind zwei widersprüchliche Anschriften in der Diskussion (Seed-Lead **„An den
+  Eichen 1“** gegenüber dem Verzeichnis-Lead **„Kohlengrubstraße 112“**), und **keine** der beiden
+  Hausnummern ist in OSM belegt. Quelle 1 (OSM, live geprüft am 04.11.2026): das am 04.11.2026 live
+  abgerufene Kachelraster über Schiffweiler umfasst **7.1000/49.3500 bis 7.1300/49.3800**, **4
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, **27.421 Elemente**; die gesuchte Straße **„An den
+  Eichen“ ist in diesem Raster nicht enthalten** (kein Straßenobjekt, kein Adressobjekt) - das
+  Raster belegt die Lage dieser Anschrift damit **nicht**. Die zweite Kandidatenanschrift liegt in
+  demselben Raster: die Straße **„Kohlengrubstraße“ nachweislich** mit **5 Straßenobjekten**
+  (way/148128207, way/542335839 `highway`=service; way/148121991, way/148123387, way/542338873
+  `highway`=residential) sowie **105 Adressobjekten** auf „Kohlengrubstraße“ mit **105 verschiedenen
+  Hausnummern** (1–98, 100, 102, 104, 108, 110, 114, 116, 118 sowie 10a, 16a, 34a, 39a, 51a, 53a,
+  61a, 75a, 110a) - **die Hausnummer 112 fehlt**; die Nachbarobjekte tragen 110 und 114. Im Raster
+  tragen **233 Objekte** `name=` oder `operator=`; **mit Bezug zu „Broschart“, „Schrott“, „Container“
+  oder „Entsorgung“** trifft es auf **kein** Objekt dieser Straße - die im Dossier abgetrennte
+  **Containerdienst Broschart GmbH** ist in OSM **nicht** kartiert. Quelle 2 (im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): das Impressum der **getrennten** GmbH
+  http://www.broschart-containerdienst.de/impressum.html liefert HTTP 200 und nennt **„Containerdienst
+  Broschart GmbH, Kohlengrubstrasse 112, 66578 Schiffweiler“** (Geschäftsführer Markus Schorr, HRB
+  109524) - das ist die **Impressumsadresse einer anderen Rechtseinheit** und keine Bestätigung der
+  Anschrift dieses Händlers; die Verzeichnisseinträge
+  https://www.schrottplatz-info.de/schrottplatz/Schiffweiler/Broschart-Juergen und
+  https://branchenbuch.meinestadt.de/schiffweiler/company/500162336 führen **„Broschart Jürgen“** an
+  **Kohlengrubstr. 112, 66578 Schiffweiler** mit der Seed-Telefonnummer 06821 68508, sind aber
+  **Portalleads** und keine Betreiberquelle. **Reichweitenklausel:** das Fehlen der Hausnummern 112 und
+  „An den Eichen 1“ in OSM ist **kein** Nachweis für das Fehlen des Betriebs und **kein** Nachweis
+  für die Falschheit der Verzeichnisanschrift; umgekehrt belegt die Anschriftübereinstimmung mit der
+  Containerdienst GmbH **keine** gemeinsame Identität, Zweigfolge oder Nachfolge. Der bisher
+  gespeicherte Punkt 49.3667/7.1333 (Mühlenstraße 19) bleibt über `clear_fields: 'geo'` zurückgenommen
+  und wird **nicht** durch einen Ersatzpunkt ersetzt; es wird **kein** Straßenmittelpunkt geraten.
+  `status` bleibt `pruefung`, `city`, `street`, `postcode`, `phone`, `email`, `opening_hours`,
+  `website`, `website_status` und `description` bleiben unverändert; es wird kein Ankaufkurs, keine
+  Preisliste und keine Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1000,49.3500,7.1300,49.3800 ;
+  http://www.broschart-containerdienst.de/impressum.html ;
+  https://www.schrottplatz-info.de/schrottplatz/Schiffweiler/Broschart-Juergen (Abruf 04.11.2026).]

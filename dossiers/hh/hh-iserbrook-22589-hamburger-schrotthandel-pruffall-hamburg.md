@@ -81,3 +81,43 @@ Unbelegte Telefon-/Domainzuordnung aus aktueller Frontmatter zurückgenommen; al
   OSM-Hausnummerensuche. Quelle(n): https://www.schrottplatz.org/hamburg/schrott-hamburger-schrott-aYEPV3.html
   (Verzeichnislead) ; https://dns.google/resolve?name=hamburger-schrott.de&type=A ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8950,53.4450,9.9150,53.4650 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Dossier-Adresse ist in OSM belegt, der Betrieb aber nicht.** Die Nachprüfung
+  ersetzt den unvollständigen Scan der Vorwelle durch ein vollständiges Fenster und liefert erstmals einen positiven
+  Adressbefund. **Fenster und Raster:** Kachelraster **9.8210/53.5677 bis 9.8410/53.5877** (Hamburg-Iserbrook,
+  Heerbrook), **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf
+  04.11.2026). Das Fenster enthält die gesuchte Straße **nachweislich**: der **Heerbrook** ist mit **17**
+  Straßenobjekten darin erfasst. **Census im Fenster:** **47** Adressobjekte mit `addr:street`=Heerbrook und
+  `addr:postcode`=22589 mit **47** verschiedenen Hausnummern (1, 2, 3, **4**, 5, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21,
+  23, 25, 27, 29, 29a-29d, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73,
+  75, 77, 79, 81, 83) - die **Dossier-Hausnummer 4 existiert**. **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):**
+  **way/95961991** (https://api.openstreetmap.org/api/0.6/way/95961991/full.json) trägt `addr:housenumber`=**4**,
+  `addr:street`=**Heerbrook**, `addr:city`=Hamburg, `addr:country`=DE, `addr:postcode`=**22589**,
+  `building`=**apartments**, `building:levels`=**9**, `roof:levels`=0, `roof:shape`=flat, Version 5 (Stand
+  06.06.2026); das Objekt hat **15** eindeutige Knoten, der Mittelwert der eindeutigen Knoten ist **53.5779762 /
+  9.8313797**, die Objekt-BBox ist 53.5778652/9.8312289 bis 53.5780903/9.8315936, der Punkt liegt **innerhalb** der
+  BBox. Das Objekt trägt **weder `name=` noch `operator=`** - in OSM ist die Nummer 4 ein **9-geschossiges
+  Wohngebäude**, kein Schrottplatz. **Quelle 2 (Betreiber-/Register, weiterhin nicht erfüllt):** Die einzige Spur
+  bleibt ein **Verzeichnislead** (schrottplatz.org, live 07.10.2026: „Schrott Hamburger Schrott", **Heerbrook 4,
+  22589 Hamburg**, Tel. 0173 611 05 24, identisch mit dem historischen Seed-Wert), der weder Betreiber noch aktuellen
+  Betrieb belegt; die zugehörige Domain **hamburger-schrott.de** ist per DNS **NXDOMAIN** (Google-DNS-A-Abfrage,
+  Status 3, Vermerk vom 10.10.2026) - ein Recursor-Befund, kein Schließungs- oder Identitätsbeleg. Namensähnliche
+  Hamburger Anbieter (u. a. hamburger-schrottverwertung.de) sind ausdrücklich **nicht** zu vermischen.
+  **Konsequenz:** Die Zwei-Quellen-Regel ist nicht erfüllt (kein Betreiber-/Registerbeleg); eine Position an der
+  Heerbrook 4 würde zudem ein **Wohngebäude** als öffentliche Annahmeadresse ausgeben. **Negativaussage,
+  qualifiziert:** Auf dem Heerbrook trägt **kein** Objekt einen Namens-, Betreiber- oder Branchenbezug zu einem
+  Schrott- oder Metallhändler; das einzige benannte Adressobjekt der Straße ist ein Waschsalon (way/95962047, Nr. 8,
+  `name`=„Mein wunderbarer Waschsalon"). **Reichweite / Fehlbelegklausel:** Die Existenz des Adressobjekts 4 belegt
+  **die Adresse**, **nicht** den Betrieb „Hamburger Schrott" und **nicht** eine Annahme- oder Abholfunktion; die in
+  OSM hinterlegte Wohnnutzung ist eine **Standangabe** und **kein** Beleg gegen eine gewerbliche Nutzung desselben
+  Hauses. `status: pruefung`, `street`/`postcode` (beide leer) und alle übrigen Frontmatter-Felder bleiben
+  unverändert; `clear_fields: 'phone,website'` bleibt unverändert bestehen (enthält **kein** `geo`-Token, da keine
+  Koordinate gesetzt wird - der Seed lehnt `clear_fields` neben belegtem `lat`/`lon` ab); es wird **keine**
+  Schließung behauptet. **Nächster Schritt für den Owner:** Betreiber- oder Gewerbenachweis (bzw. belastbare
+  Zuordnung des Telefonleiters 0173 6110524) für Heerbrook 4; danach erneute OSM-Hausnummerensuche. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.8210,53.5677,9.8410,53.5877 ;
+  https://api.openstreetmap.org/api/0.6/way/95961991/full.json ;
+  https://www.schrottplatz.org/hamburg/schrott-hamburger-schrott-aYEPV3.html (Verzeichnislead) ;
+  https://dns.google/resolve?name=hamburger-schrott.de&type=A (Abruf 04.11.2026).]

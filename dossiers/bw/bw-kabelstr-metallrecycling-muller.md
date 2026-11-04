@@ -44,3 +44,32 @@ provenance_origin: table
 
 - Metallrecycling
 - Adresse: Kabelstr. (Ort unklar; kein Bezug zu Müller MG/NRW)
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossierzeile enthält **keinen** Ort, keine
+  Straße und keine Hausnummer, sodass sich **kein** Geokodierungsfenster überhaupt definieren lässt. Quelle 1 (OSM, live
+  geprüft am 04.11.2026): Das Dossier führt als einziges Adressfragment den Pseudo-Ortswert **„Kabelstr."** und als
+  Importnotiz „Adresse: Kabelstr. (Ort unklar; kein Bezug zu Müller MG/NRW)"; ein Ort, eine Straße und eine Hausnummer
+  sind damit **nicht** vorhanden, ein Geokodierungsfenster lässt sich **nicht** definieren. Als Kontrollabfrage wurde
+  das am 04.11.2026 live abgerufene Kachelraster **11.0100/50.8700 bis 11.0200/50.8800** (**1 Kachel von je 0,01 Grad**,
+  **0 Kachel-Fehler**) im Raum **Arnstadt-Kirchheim** geprüft - die Kachel enthält **3448** Elemente, **keine** Straße
+  namens **„Kabelstraße"** und **kein** Objekt mit Bezug zu „Metallrecycling Müller" (Namenssuche über name, operator,
+  brand, description, website, contact:website und addr:housename ohne Treffer); sie liegt **nicht** im
+  Zuständigkeitsbereich des Dossiers und ist damit **kein** Nachweis über die (unbekannte) Ortslage. Für
+  **„Metallrecycling Müller"** in Baden-Württemberg ist in OSM **kein** Objekt mit Betriebsbezug auffindbar. Der
+  Portal-Kandidat https://lokaleschrottplatz.de/metallrecycling-muller/ lieferte bereits am 18.10.2026 **HTTP
+  403/Challenge** und ist damit **keine** auswertbare Quelle und **kein** Firmen-Existenzbeleg; die
+  **NorthData**-Namenssuche https://www.northdata.de/?query=Metallrecycling%20M%C3%BCller nennt als einzigen exakten
+  Namenstreffer die **Metallrecycling-Müller GmbH & Co. KG, Nobitz (Thüringen), HRA 501562 Jena, erloschen** -
+  Bundesland und Ort passen **nicht** zu einem BW-Datensatz, der Registereintrag ist **gelöscht**, und eine Zuordnung
+  ist ausdrücklich **kein** Identitätsbeleg. **Warum keine Koordinate:** ohne Ort, Straße und Hausnummer existiert
+  **kein** adressgenaues Zielobjekt; ein „Kabelstraße"-Treffer irgendwo im Bund wäre eine **Erfindung** und keine
+  Geokodierung dieses Dossiers. Es wird **keine** Koordinate gesetzt und **keine** Straße ersatzweise verortet; `status:
+  pruefung` bleibt, `city` bleibt „unbekannt", Ankauf-, Verkaufs- und Gebührenangaben bleiben unbelegt.
+  **Reichweitenklausel:** das Fehlen eines OSM-Treffers ist **kein** Nachweis für das Fehlen des Betriebs; es ist
+  lediglich die Unauflösbarkeit der Importzeile. Offen bleibt die ungekürzte Originalimportzeile mit Ort, Hausnummer und
+  Quellenherkunft - erst sie macht eine Geokodierung möglich. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.01,50.87,11.02,50.88 ;
+  https://lokaleschrottplatz.de/metallrecycling-muller/ (Abrufgrenze, 18.10.2026) ;
+  https://www.northdata.de/?query=Metallrecycling%20M%C3%BCller (Abruf 18.10.2026) ; README.md, Quellenhierarchie.]

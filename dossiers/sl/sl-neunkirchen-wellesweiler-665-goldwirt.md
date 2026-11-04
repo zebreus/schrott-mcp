@@ -1,6 +1,8 @@
 ---
 slug: sl-neunkirchen-wellesweiler-665-goldwirt
-clear_fields: geo
+lat: 49.3435882
+lon: 7.2120071
+clear_fields: ''
 name: Goldwirt
 trader_type: sonstige
 state: SL
@@ -56,3 +58,39 @@ Die Seed-Anschrift Rosenstr. 15, 66539 Neunkirchen-Wellesweiler ist weiterhin nu
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Gegenprobe findet weiterhin nur Verzeichnis-Leads, keine verifizierte Betreiberseite: 11880 listet Rosenstr. 15, Telefon 06821 9527510 und goldwirt@gmail.com, zeigt aber „Website hinzufügen“; die dort gelisteten Öffnungszeiten (Mo/Di/Do/Fr 10:00–12:30 und 14:30–18:00, Mi 10:00–12:30, Sa 10:00–12:30) widersprechen deutlich den bei Gavabiz gelisteten Mo–Fr 07:00–21:30/Sa 07:00–20:00. Weil beide Angaben aus Aggregatoren stammen und kein Betreiber-Primärbeleg zur Auflösung gefunden wurde, bleiben phone, email, opening_hours und description leer; Website bleibt leer, website_status=unbekannt bezeichnet nur die nicht verifizierte Webpräsenz (nicht „tot“). Bestehende Adresswerte und status=pruefung unverändert; keine neue Adresse, daher keine Neu-Geocodierung; Quelle(n): https://www.11880.com/branchenbuch/neunkirchen-saar/181726177B101597759/goldankauf-goldwirt-edelmetallpruefer.html; https://neunkirchen_6.gavabiz.de/company/goldankauf-goldwirt-neunkirchen.html]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.3435882/7.2120071** (Mittel der 9 eindeutigen Knoten von
+  way/236044672; der Punkt liegt innerhalb der Objekt-BBox
+  49.3433940/7.2117590–49.3437777/7.2122193). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/236044672** trägt `addr:street`=Rosenstraße, `addr:housenumber`=**15**,
+  `addr:postcode`=66539, `addr:city`=Neunkirchen, `addr:suburb`=**Wellesweiler**,
+  `addr:country`=DE und `building`=yes - Straße, Hausnummer, PLZ, Ort **und der Ortsteil**
+  stimmen mit der Dossier-Adresse **Rosenstr. 15, 66539 Neunkirchen-Wellesweiler** überein. Das
+  Objekt trägt **weder `name=` noch `operator=`**; es ist eine **Adressangabe** eines Gebäudes, kein
+  Betriebs-POI. Quelle 2 (im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
+  Gold.de-Suchseite https://www.gold.de/goldankauf/saarbruecken liefert HTTP 200 und führt den Eintrag
+  **„Goldankauf Goldwirt, Rosenstraße 15, 66539 Neunkirchen, 06821 / 9527510 oder 0171 / 7828335“**
+  (Kategorie Goldankauf, ca. 21 km vom Saarbrückener Zentrum) - die im Dossier zitierte 11880-Seite
+  nennt dieselbe Anschrift und Nummer, ist aber **derselbe Aggregator-Datensatz** und damit **keine**
+  zweite unabhängige Quelle. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster umfasst **7.2100/49.3400 bis 7.2200/49.3500**, **1 Kachel von je 0,01
+  Grad**, **0 Kachel-Fehler**, **7.616 Elemente**; das Fenster enthält die gesuchte Straße
+  **„Rosenstraße“ nachweislich** mit dem Straßenobjekt **way/28798458** (`highway`=residential) sowie
+  **26 Adressobjekten** auf „Rosenstraße“ mit **26 verschiedenen Hausnummern** (7, 9–12, 14, **15**,
+  16–24, 26, 28, 30, 32, 34, 36, 38, 40, 41, 43) - die **Dossier-Hausnummer 15 existiert** und ist im
+  Raster das einzige Objekt mit dieser Nummer auf dieser Straße. **Negativaussage, qualifiziert:**
+  im Raster tragen **100 Objekte** `name=` oder `operator=`; **mit Bezug zu „Goldwirt“, „Gold“, „Ankauf“
+  oder „Edelmetall“** trifft es auf **kein** Objekt dieser Adresse - der Betrieb ist in OSM **nicht**
+  kartiert; der Punkt bezeichnet ausschließlich die verzeichnisgestützte Anschrift. **Qualifizierung
+  (unverändert übernommen):** Der Punkt bezeichnet die **Adresse eines Verzeichnis-Leads**, **nicht**
+  einen verifizierten Ankaufstandort, eine Waage oder eine öffentliche Annahme; die im Dossier
+  dokumentierten offenen Punkte (nur lesbare Domain `goldwirt.de.tl` ohne Anbieterinhalt, 404 auf
+  `/Preise.htm`, **widersprüchliche Öffnungszeiten** zwischen 11880 und Gavabiz, ungeklärte
+  Kontaktdaten) bleiben unverändert, ebenso `status: pruefung`, `street`, `postcode`, `phone`,
+  `email`, `opening_hours`, `website`, `website_status` und `description`. Es wird **kein**
+  Ankaufkurs, **keine** Materialverkaufspreisliste und **keine** Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/236044672/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2100,49.3400,7.2200,49.3500 ;
+  https://www.gold.de/goldankauf/saarbruecken (Abruf 04.11.2026).]

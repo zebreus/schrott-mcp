@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Müllheizkraftwerk Bremen der swb Entsorgung GmbH & Co. KG, Oken 2, 28219 Bremen: thermische
+Abfallbehandlung von Hausmüll, Gewerbeabfällen und Klärschlamm mit Strom- und
+Fernwärmeerzeugung, hervorgegangen aus der früheren Abfallbehandlung Nord (ANO) GmbH. Belegt
+sind die Identität über das Impressum mit Amtsgericht Bremen HRA 25983 und das Zertifikat der
+bregau zert mit der Nummer BREG2017-02/09, gültig bis 17.12.2027, das den Standort als Anlage 1
+ohne Abfallschlüssel der Gruppen Eisen und Stahl oder Nichteisenmetalle führt. Ein Schrott-
+oder Metallankauf ist damit nicht belegt, und die kommunale Metallannahme Bremens liegt bei der
+Bremer Stadtreinigung, nicht beim Betreiber. Offen bleibt die Hausnummer, die in OSM auf der
+Straße Oken fehlt, sowie das gesperrte Umweltportal der Senatorin für Umwelt.
 
 ## Timeline
 

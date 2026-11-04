@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TAE Wertstoffe GmbH, Fuchslochweg 2, 74933 Neidenstein: Wertstoffhof mit Kunststoff- und
+Metallrecycling, Lohn- und Kabelaufbereitung sowie Materialankauf. Die Belegkette besteht aus
+der Betreiberseite mit Anschrift, Rufnummer 07260 9120930, der E-Mail-Adresse
+info@tae-wertstoffe.de und den Öffnungszeiten Montag bis Freitag 8:15 bis 17:00 Uhr bei
+Anlieferung bis 16:30 Uhr, ergänzt um die Ankaufsfraktionen-Tabelle mit Stand Juli 2026, die
+den gewerblichen Ankauf sortenreiner PP-, PE-, ABS-, PA6-, PA66- und POM-Fraktionen ab zwei
+Tonnen sowie weitere Thermoplaste nach Rücksprache beschreibt. Preise und Abholung hängen nach
+Betreiberangabe von Material, Menge und Vereinbarung ab. Offen bleiben die Beleggrenze nach der
+zweiten unabhängigen Quelle und die fehlenden Register- und Zertifikatsnachweise.
 
 ## Timeline
 

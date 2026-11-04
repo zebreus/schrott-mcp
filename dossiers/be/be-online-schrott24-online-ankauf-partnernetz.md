@@ -154,3 +154,46 @@ Händler-Ankaufskurve.
 
 - Online-Ankauf, Express-Auszahlung, Abholung
 - Adresse: kein Sitz in Berlin belegt
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Der Datensatz ist ein **Online-Angebot ohne Berliner
+  Betriebssitz**; die Betreiberplattform vermittelt Verkauf und Abholung bzw. eine
+  Partner-Anlieferstelle, deren Adresse laut FAQ **erst nach dem Online-Verkaufsabschluss per E-Mail**
+  mitgeteilt wird. Für einen Datensatz im Land **BE** existiert damit **keine** Adresse, die
+  geokodiert werden könnte; der eingetragene Sitz der Betreibergesellschaft liegt in **Österreich**. Quelle
+  1 (OSM, live geprüft am 04.11.2026): das am 04.11.2026 live abgerufene Kachelraster über dem
+  eingetragenen Sitz in **Graz** umfasst **15.4300/47.0300 bis 15.4500/47.0500**, **3 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**, **22.653 Elemente**; das Fenster enthält die Straße
+  **„Puchstraße“ nachweislich** mit **36 Straßenobjekten** (way/29752307, way/71852935, way/76399692,
+  way/76399700, way/197920253 bis way/197920263, way/23622618, way/23622628, way/24090534,
+  way/60224742, way/71852740, way/76399690, way/82212839, way/96247940, way/96247964,
+  way/108627916, way/108627937, way/108627943, way/178627307, way/178631240, way/196599516,
+  way/196599519, way/30544200, way/360052383, way/4080162, way/895530231, way/1416179796 u.a.;
+  secondary/residential/service) sowie **82 Adressobjekten** auf „Puchstraße“ mit **82 verschiedenen
+  Hausnummern** (25, 34, 36, 41, 44–51, 56, 57, 62, 70, 76, 80, 83, 85, 87, 110–216 sowie 46a, 46b,
+  176a, 180a, 184a, 184b, 186a, 188a, 194a, 200a, 202c, 208a, 214a) - **die in den Schwesterdossiers
+  belegte Hausnummer 17 liegt in diesem Ausschnitt nicht**; eine Volltextsuche über `name`, `operator`,
+  `brand`, `description`, `note`, `shop`, `craft`, `landuse`, `man_made` und `amenity` im 3-Kachel-Fenster
+  findet **keinen** Treffer zu „Metaloop“, „Schrott24“ oder „Scrap24“ (im Raster tragen **871 Objekte**
+  `name=` oder `operator=`, u.a. way mit `name`=Puchmuseum, `name`=Magna Steyr Aerospace,
+  `name`=Hilti, `name`=Billa, `name`=The Lux) - die Plattform ist in OSM **nicht** kartiert. Quelle 2
+  (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das Impressum
+  https://www.schrott24.de/faq/impressum/ liefert HTTP 200 und nennt **„Metaloop Europe GmbH,
+  Puchstraße 17, 8020 Graz, FN 638630 m, Geschäftsführer Jan Christer Pannenbäcker und Alexander
+  Schlick, UID ATU81391405“**; die Standortseite
+  https://www.schrott24.de/standorte/schrottplatz-berlin/ weist für Berlin ein **reines
+  Online-/Partnernetz-Angebot** aus (Preisrechner, Abholung, über 400 Händler/Werke/Recyclingbetriebe)
+  ohne Berliner Betriebsadresse. **Konsequenz:** die Sitzadresse liegt in Österreich und ist **keine**
+  Berliner Anschrift; eine dortige Koordinate würde einen Standort im falschen Land und in der falschen
+  Stadt ausweisen. Es wird **keine** Koordinate gesetzt und **kein** Straßenmittelpunkt geraten; `status`
+  bleibt `aktiv`, `city` bleibt der Schlagwortwert `online`, `street`, `postcode`, `phone`, `email`,
+  `opening_hours`, `website`, `website_status` und `description` bleiben unverändert; die im Dossier
+  dokumentierten Plattform-Maximalpreise und Gebühren bleiben unberührt, es wird **kein** Berliner
+  Händlerkurs behauptet. **Reichweitenklausel:** das Fehlen eines Betriebsobjekts in OSM ist **kein**
+  Nachweis für das Fehlen des Angebots und **kein** Nachweis für das Fehlen einer Berliner
+  Anlieferstelle; die erst nach Verkaufsabschluss mitgeteilte Partneradresse ist damit weder belegt
+  noch widerlegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=15.4300,47.0300,15.4500,47.0500 ;
+  https://www.schrott24.de/faq/impressum/ ;
+  https://www.schrott24.de/standorte/schrottplatz-berlin/ (Abruf 04.11.2026).]
