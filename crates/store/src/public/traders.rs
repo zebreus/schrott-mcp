@@ -169,12 +169,27 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
 /// * **street:** the German street suffix is normalized ("Straße"/"strasse"/
 ///   "str." → "str") and the spacing is collapsed, so "Hafenrandstraße 5-6"
 ///   and "Hafenrandstr. 5-6" are the same address.
+/// * **lat/lon:** the number decides, not its spelling. A coordinate written
+///   with a trailing zero ("49.884893" vs. "49.8848930") is the same point;
+///   overwriting it would be format churn on an unchanged value.
 /// * every other field: an exact comparison.
 fn same_value(field: &str, new: &str, old: &str) -> bool {
     match field {
         "phone" => phone_key(new) == phone_key(old),
         "street" => street_key(new) == street_key(old),
+        "lat" | "lon" => coordinate_key(new) == coordinate_key(old),
         _ => false,
+    }
+}
+
+/// The comparable key of a coordinate: the numeric value. Not a number
+/// (empty or unparsable) stays an exact string comparison, so a malformed
+/// value is never treated as "the same" as another one.
+fn coordinate_key(s: &str) -> String {
+    let t = s.trim();
+    match t.parse::<f64>() {
+        Ok(v) => format!("{v:.9}"),
+        Err(_) => t.to_owned(),
     }
 }
 
@@ -769,6 +784,14 @@ mod tests {
             "Robert-Bosch-Straße 24",
             "Robert-Bosch-Str. 24"
         ));
+        // Koordinaten: dieselbe Zahl in anderer Schreibweise ist derselbe
+        // Punkt - ein Ueberschreiben waere reiner Format-Churn.
+        assert!(same_value("lat", "49.8848930", "49.884893"));
+        assert!(same_value("lon", "8.6224784", "8.62247840"));
+        assert!(same_value("lat", "49.884893", "49.884893"));
+        // Ein anderer Punkt bleibt ein Wechsel.
+        assert!(!same_value("lat", "49.8848931", "49.884893"));
+        assert!(!same_value("lon", "8.6224784", "8.6224785"));
         // Verschiedene Nummern oder Adressen bleiben ein Wechsel.
         assert!(!same_value("phone", "06021 84601", "06021 84600"));
         assert!(!same_value(
