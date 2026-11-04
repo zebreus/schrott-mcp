@@ -1,7 +1,7 @@
 ---
 slug: hh-altstadt-degussa-niederlassung-hamburg
-lat: 53.5549158
-lon: 10.0004556
+lat: 53.5549033
+lon: 10.0004633
 name: Degussa Niederlassung Hamburg
 trader_type: sonstige
 state: HH
@@ -49,9 +49,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Friedrich-Ebert-Anlage 35–37, 60327 Frankfurt am Main). **Koordinate:** In OSM ist die
   Hausnummer 5 nicht einzeln getaggt; sie gehört zum Adressbereich „4-5“ des Gebäudes
   way/43290556 („Propfe Haus“, `addr:housename`=Propfe Haus, `addr:street`=Ballindamm,
-  `addr:housenumber`=4-5, `addr:postcode`=20095, `building`=office, 7 Geschosse; 15 Knoten,
+  `addr:housenumber`=4-5, `addr:postcode`=20095, `building`=office, 7 Geschosse; 14 eindeutige Knoten
+  (15 Ring-Referenzen),
   BBox 53.554817–53.555091 / 10.000099–10.000689). Die Koordinate ist der Mittelwert der eindeutigen
-  Knoten dieses Gebäudes (53.5549158, 10.0004556) und liegt innerhalb der BBox; zweite Quelle ist
+  Knoten dieses Gebäudes (53.5549033, 10.0004633) und liegt innerhalb der BBox; zweite Quelle ist
   die Niederlassungsseite des Betreibers mit der Hausnummer 5. **Reichweitenklausel:** Die
   Kachelraster 9.9780/53.5455–9.9965/53.5495, 9.9850/53.5490–9.9960/53.5540 und
   9.9960/53.5490–10.0060/53.5540 sowie 9.9880/53.5460–10.0020/53.5580 wurden live abgerufen und
