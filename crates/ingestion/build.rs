@@ -142,6 +142,19 @@ fn parse_scalar(ctx: &str, raw: &str) -> String {
     if raw.contains(" #") || raw.contains("\t#") {
         fail(ctx, &format!("Wert mit Kommentar braucht Quotes: {raw:?}"));
     }
+    // Ein **unquotierter** Wert mit ": " ist kein gueltiges YAML: ein
+    // Standardparser liest ihn als Mapping. Solche Werte wurden bisher
+    // stillschweigend akzeptiert und landeten als Fliesstext im Seed, obwohl
+    // das Frontmatter nicht parsebar war.
+    if raw.contains(": ") {
+        fail(
+            ctx,
+            &format!(
+                "unquotierter Wert mit ': ' - nicht parsebares YAML, \
+                 Wert bitte mit einfachen Anfuehrungszeichen quoten: {raw:?}"
+            ),
+        );
+    }
     match raw {
         "null" | "Null" | "NULL" | "~" => String::new(),
         _ => raw.to_string(),
@@ -455,6 +468,21 @@ mod tests {
             &format!("---\nslug: coordinate-test\n{fields}---\n## Timeline\n"),
             "bb",
         )
+    }
+
+    #[test]
+    fn plain_scalars_with_colon_space_are_rejected() {
+        // ": " macht einen unquotierten Wert zu ungueltigem YAML - der Wert
+        // muss gequotet werden. Ohne diese Regel landete der Text als
+        // Fliesstext im Seed, obwohl das Frontmatter nicht parsebar war.
+        let err = std::panic::catch_unwind(|| {
+            coordinates("description: 'Wert: mit Doppelpunkt'\n")
+        });
+        assert!(err.is_ok(), "quotierter Wert muss erlaubt sein");
+        let err = std::panic::catch_unwind(|| {
+            coordinates("description: Wert: mit Doppelpunkt\n")
+        });
+        assert!(err.is_err(), "unquotierter Wert mit ': ' muss abgelehnt werden");
     }
 
     #[test]
