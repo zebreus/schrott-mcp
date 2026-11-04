@@ -56,10 +56,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Korrektur 04.11.2026
 
-- [Korrektur 04.11.2026: **Nachgetragene Notiz vom 01.10.2026.** Diese Notiz stand im Dossier
-  an dieser Stelle mit einem fehlerhaften `+- `-Praefix. Die Timeline-Referenz liest nur
-  Bullets in Spalte 0, die Notiz war dadurch unsichtbar - sie fehlte im Seed und damit in
-  der Produktionsdatenbank. Sie ist jetzt am Timeline-Ende in korrekter Form wiederholt;
-  der Wortlaut ist unveraendert.]
+- [Korrektur 04.11.2026: **Nachgetragene Notiz vom 01.10.2026 (VEBEG, HRB-Kongruenz).**
+  Diese Notiz stand im Dossier an dieser Stelle mit einem fehlerhaften `+- `-Praefix. Die
+  Timeline-Referenz liest nur Bullets in Spalte 0, die Notiz war dadurch unsichtbar - sie
+  fehlte im Seed und damit in der Produktionsdatenbank. Sie ist jetzt am Timeline-Ende in
+  korrekter Form wiederholt; der Wortlaut ist unveraendert.]
 
 - [Korrektur 01.10.2026 (Owner-Gate): HR-Kongruenz per Northdata nachgeholt (VEBEG GmbH, AG Frankfurt HRB 8255, Roedelheimer Bahnweg 23, 60489 Frankfurt) + service.bund.de (Behoerdenportal: gleiche Adresse/Tel/Mail) — Fills damit doppelbelegt; Quelle(n): https://www.northdata.com/VEBEG%20GmbH,%20Frankfurt%20a%C2%B7%20Main/Amtsgericht%20Frankfurt%20am%20Main%20HRB%208255 + https://www.service.bund.de/Content/DE/DEBehoerden/V/VEBEG/VEBEG-GmbH.html]

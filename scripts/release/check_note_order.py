@@ -34,6 +34,17 @@ from pathlib import Path
 DATE_IN_TITLE = re.compile(r"\d{2}\.\d{2}\.\d{4}")
 
 
+def is_correction_note(note: str) -> bool:
+    """Ein Vermerk, der eine Korrektur dokumentiert.
+
+    Erkannt werden der bisherige Literalmarker und der Formatpraefix der
+    Dossiers ("- [Korrektur <datum>: ...]"). Der Marker allein war ein
+    Schlupfloch: zwei Dossiers mit demselben neuen Korrekturvermerk wurden
+    nicht erkannt, weil ihr Text den Marker nicht woertlich enthielt.
+    """
+    return "Korrekturvermerk" in note or note.startswith("- [Korrektur ")
+
+
 def timeline_notes(text: str):
     """Die Timeline-Notizen als Bloecke (Bullet-Zeile + Fortsetzungszeilen)."""
     blocks = []
@@ -175,7 +186,7 @@ def main() -> int:
         # unveraenderlich und duerfen nicht als Duplikat des neuen Stands gewertet werden.
         local = defaultdict(list)
         for note in new_notes:
-            if "Korrekturvermerk" in note and note not in old_notes:
+            if is_correction_note(note) and note not in old_notes:
                 key = normalise(note)
                 local[key].append(note)
                 groups[key].append(rel)

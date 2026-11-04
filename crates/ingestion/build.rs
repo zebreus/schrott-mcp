@@ -475,14 +475,14 @@ mod tests {
         // ": " macht einen unquotierten Wert zu ungueltigem YAML - der Wert
         // muss gequotet werden. Ohne diese Regel landete der Text als
         // Fliesstext im Seed, obwohl das Frontmatter nicht parsebar war.
-        let err = std::panic::catch_unwind(|| {
-            coordinates("description: 'Wert: mit Doppelpunkt'\n")
-        });
+        let err =
+            std::panic::catch_unwind(|| coordinates("description: 'Wert: mit Doppelpunkt'\n"));
         assert!(err.is_ok(), "quotierter Wert muss erlaubt sein");
-        let err = std::panic::catch_unwind(|| {
-            coordinates("description: Wert: mit Doppelpunkt\n")
-        });
-        assert!(err.is_err(), "unquotierter Wert mit ': ' muss abgelehnt werden");
+        let err = std::panic::catch_unwind(|| coordinates("description: Wert: mit Doppelpunkt\n"));
+        assert!(
+            err.is_err(),
+            "unquotierter Wert mit ': ' muss abgelehnt werden"
+        );
     }
 
     #[test]

@@ -67,6 +67,25 @@ cp "$ROOT/scripts/probe_release.py" "$PROBE_DIR/probe_release.py"
 PROBE_DIR="$PROBE_DIR" RELEASE_COMMIT="$COMMIT" PROBE_TARGET_SLUGS_FILE="$SLUGS" \
   python3 "$PROBE_DIR/probe_release.py" | tail -20
 
+echo "== format gate =="
+# Ein fehlgeschlagenes Format-Gate darf **kein** Bundle erzeugen: der Zyklus
+# bricht hier ab, damit kein Kandidat weitergeht, der das Format-Gate nicht
+# besteht. (Befund aus der Pre-Deploy-Pruefung vom 04.11.2026.)
+python3 - "$PROBE_DIR/predeploy-probe-manifest.json" <<'PY'
+import json
+import sys
+
+manifest = json.load(open(sys.argv[1]))
+fmt = (manifest.get("build_binding") or {}).get("format_check") or {}
+if not fmt.get("passed", False):
+    print("FORMAT-GATE FEHLGESCHLAGEN - der Release-Zyklus bricht ab.")
+    print("command: {}".format(fmt.get("command")))
+    print("exit_code: {}".format(fmt.get("exit_code")))
+    print("log: {}".format(fmt.get("log")))
+    sys.exit(1)
+print("FORMAT-GATE OK (exit_code {})".format(fmt.get("exit_code")))
+PY
+
 echo "== release-pinned wave E expectations =="
 python3 "$ROOT/scripts/release/make_wave_e_expectations.py" \
   --rehearsal "$PROBE_DIR/data/public.db" \
