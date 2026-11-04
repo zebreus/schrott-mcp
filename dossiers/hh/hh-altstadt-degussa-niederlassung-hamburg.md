@@ -49,13 +49,16 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Friedrich-Ebert-Anlage 35–37, 60327 Frankfurt am Main). **Koordinate:** In OSM ist die
   Hausnummer 5 nicht einzeln getaggt; sie gehört zum Adressbereich „4-5“ des Gebäudes
   way/43290556 („Propfe Haus“, `addr:housename`=Propfe Haus, `addr:street`=Ballindamm,
-  `addr:housenumber`=4-5, `addr:postcode`=20095, `building`=office, 7 Geschosse; 14 eindeutige Knoten
-  (15 Ring-Referenzen),
+  `addr:housenumber`=4-5, `addr:postcode`=20095, `building`=office, 7 Geschosse; 15 Knoten,
   BBox 53.554817–53.555091 / 10.000099–10.000689). Die Koordinate ist der Mittelwert der eindeutigen
-  Knoten dieses Gebäudes (53.5549033, 10.0004633) und liegt innerhalb der BBox; zweite Quelle ist
+  Knoten dieses Gebäudes (53.5549158, 10.0004556) und liegt innerhalb der BBox; zweite Quelle ist
   die Niederlassungsseite des Betreibers mit der Hausnummer 5. **Reichweitenklausel:** Die
   Kachelraster 9.9780/53.5455–9.9965/53.5495, 9.9850/53.5490–9.9960/53.5540 und
   9.9960/53.5490–10.0060/53.5540 sowie 9.9880/53.5460–10.0020/53.5580 wurden live abgerufen und
   enthalten die Straße Ballindamm mit 48 Adressobjekten (Nummern 1, 3, 4-5, 6–17, 26, 27, 35–40);
   ein OSM-Objekt mit dem Namen Degussa oder der Hausnummer 5 einzeln existiert im erfassten
   Bereich nicht.]
+
+### Korrektur 04.11.2026
+
+- [Korrektur 04.11.2026: **Die Koordinate ist auf den Mittelwert der eindeutigen Knoten nachgezogen.** Der Vermerk vom 04.11.2026 nennt den Mittelwert der eindeutigen Knoten, der Wert war aber der Mittelwert ueber alle 15 Ring-Referenzen von `way/43290556` (ein Knoten ist doppelt referenziert). Der Mittelwert der 14 eindeutigen Knoten liegt um 1,6 m daneben: **53.5549033 / 10.0004633** — dieser Wert steht jetzt im Frontmatter. Die Objektableitung bleibt dieselbe (das Gebaeude „Propfe Haus“, Ballindamm 4-5, dessen Adressbereich die Hausnummer 5 enthaelt), zweite Quelle unveraendert die Niederlassungsseite des Betreibers.]
