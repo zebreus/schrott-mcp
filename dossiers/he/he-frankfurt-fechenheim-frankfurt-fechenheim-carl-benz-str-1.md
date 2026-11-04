@@ -65,10 +65,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ### Korrektur 04.11.2026
 
-- [Korrektur 04.11.2026: **Nachgetragene Notiz vom 01.10.2026.** Diese Notiz stand im Dossier
-  an dieser Stelle mit einem fehlerhaften `+- `-Praefix. Die Timeline-Referenz liest nur
-  Bullets in Spalte 0, die Notiz war dadurch unsichtbar - sie fehlte im Seed und damit in
-  der Produktionsdatenbank. Sie ist jetzt am Timeline-Ende in korrekter Form wiederholt;
-  der Wortlaut ist unveraendert.]
+- [Korrektur 04.11.2026: **Nachgetragene Notiz vom 01.10.2026 (Riwald, Domainname).**
+  Diese Notiz stand im Dossier an dieser Stelle mit einem fehlerhaften `+- `-Praefix. Die
+  Timeline-Referenz liest nur Bullets in Spalte 0, die Notiz war dadurch unsichtbar - sie
+  fehlte im Seed und damit in der Produktionsdatenbank. Sie ist jetzt am Timeline-Ende in
+  korrekter Form wiederholt; der Wortlaut ist unveraendert.]
 
 - [Korrektur 01.10.2026 (Owner-Gate): website `riwald.de` (scheme-los, Build-Fehler) zu `https://www.riwald.de` normiert (Gate-Direktabruf: Standortseite nennt Filiale Carl-Benz-Str. 1, 60314 Frankfurt + Tel/Mail; Zweitquelle riwald.com gleiche Filial-Fakten); Quelle(n): https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ + https://riwald.com/standorte-de-riwald-recycling-rhein-main/]
