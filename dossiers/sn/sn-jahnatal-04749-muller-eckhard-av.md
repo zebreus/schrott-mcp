@@ -46,3 +46,38 @@ Preise Ankauf/Verkauf/Gebühren nicht verifiziert. Nächster Beleg: aktuelles An
 ### Recherche 01.10.2026
 
 - Nur Aggregator-Leads (Müller Jahnatal). Kein Betreiber-Impressum gefunden → kein Doppelbeleg, Felder leer, Klärfall.
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Seed-Adresse **Bergstr. 6, 04749
+  Jahnatal-Schrebitz** existiert in OSM **nicht als Objekt**: Die dort kartierte **Bergstraße** in Schrebitz führt nur die
+  Hausnummern **2, 3 und 5**; die Dossier-Hausnummer **6** ist nicht abgebildet. **Was live geprüft wurde
+  (04.11.2026):** das am 04.11.2026 live abgerufene Kachelraster über Jahnatal-Schrebitz umfasst
+  **13.0600/51.2000 bis 13.0700/51.2100**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; es enthält die gesuchte
+  Straße **nachweislich** mit dem Straßenobjekt **way/288533113** (`highway`=residential, `name`=**Bergstraße**) sowie
+  genau **3** Adressobjekten auf
+  „Bergstraße": **way/368447774** (Hausnummer 2), **way/368447724** (Hausnummer 3) und **way/368447786**
+  (Hausnummer 5), alle mit `addr:city`=Jahnatal, `addr:postcode`=04749 und `addr:suburb`=Schrebnitz. Ein
+  umgebendes Raster von **13.0500/51.1900 bis 13.0800/51.2100** (9 Kacheln) enthält **keine** weitere „Bergstraße" und
+  **keine** weitere Adressangabe mit der Hausnummer 6; eine Namenssuche nach **„Müller"** findet dort nur
+  Fremdbetriebe (u. a. „Thomas Müller", „Ines Müller", „Fleischerei Müller") ohne Bezug zur Autoverwertung. Quelle 1
+  (OSM): das live abgerufene Kachelraster 13.0600/51.2000–13.0700/51.2100 mit den **drei** Adressobjekten der
+  Bergstraße (2, 3, 5) und **ohne** Objekt für die Hausnummer 6. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): das **Das-Örtliche-Profil** liefert **HTTP 200** und führt live
+  **„Müller Eckhard Autoverwertung und Abschleppdienst, Bergstr. 6, 04749 Jahnatal - Schrebitz"** mit der Branche
+  **Autoverwertung** und Telefon **034362 3 37 34** - identisch mit der Dossier-Adresse. **Warum keine Koordinate:**
+  Für die Dossier-Hausnummer gibt es **kein** OSM-Objekt, dessen Mittelwert sich setzen ließe; die Punkte der
+  Nachbarhäuser 3 und 5 würden eine **andere** Adresse bezeichnen. Hinzu kommt die im Dossier dokumentierte
+  **Identitätsunsicherheit**: Das Örtliche führt denselben Betrieb zugleich als **„Eckhard Müller
+  Kraftfahrzeugtechnik"** (ein Kfz-Technik-Profil), während der Seed einen **Autoverwertungs- und Abschleppdienst**
+  führt - das sind unterschiedliche Tätigkeitsangaben, die nicht durch einen Register- oder Betreiberbeleg
+  zusammengeführt sind. **Reichweitenklausel:** Das **Fehlen der Hausnummer 6 in OSM** ist **kein** Nachweis für
+  das Fehlen des Betriebs - es belegt nur, dass diese Adresse dort nicht kartiert ist. **Was zur Auflösung fehlt:** ein
+  adressgenaues OSM-Objekt für Bergstr. 6 oder ein lesbarer Betreiberauftritt (Impressum mit Rechtsträger) bzw. ein
+  aktuelles Demontageanerkennungszertifikat, das Standort und Inhaber nennt. `status: pruefung`, `city`, `street`,
+  `postcode` (leer), `phone` (leer), `email`, `opening_hours`, `website` (leer), `website_status` (leer) und
+  `description` (leer) bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.0600,51.2000,13.0700,51.2100 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.0500,51.1900,13.0800,51.2100 ;
+  https://www.dasoertliche.de/Themen/M%C3%BCller-Eckhard-Autoverwertung-und-Abschleppdienst-Jahnatal-Schrebitz-Bergstr
+  (Abruf 04.11.2026).]

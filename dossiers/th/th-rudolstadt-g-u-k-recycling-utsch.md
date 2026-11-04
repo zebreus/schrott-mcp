@@ -1,5 +1,7 @@
 ---
 slug: th-rudolstadt-g-u-k-recycling-utsch
+lat: 50.7636241
+lon: 11.2304729
 name: G & K Recycling Utsch
 trader_type: sonstige
 state: TH
@@ -12,7 +14,7 @@ opening_hours: 'Mo–Fr 08:00–15:30 (Anlieferung nach Anmeldung)'
 website: https://recycling-utsch.de/
 website_status: aktiv
 status: aktiv
-clear_fields: 'geo'
+clear_fields: ''
 description: 'Entsorgungsfachbetrieb für Altreifen und Altgummi; Selbstanlieferung nach vorheriger Anmeldung/Angebotsbestätigung sowie Abholung.'
 dropoff_json: ''
 pickup_json: ''
@@ -57,3 +59,44 @@ Der aktuelle Betreiberauftritt identifiziert **G & K Recycling Utsch**, Inhaber 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: kein Handelsregister-Treffer (Northdata: keine Utsch-Firma in Rudolstadt; Treffer nur Kennzeichen-Hersteller Erich Utsch Siegen u.ä.), keine Betreiber-Website auffindbar; nur Verzeichnis-/Review-Leads → keine Frontmatter-Fills; Klärfall bleibt, Status pruefung]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.7636241/11.2304729** (Mittel der 4 eindeutigen
+  Knoten von way/164787990; der Punkt liegt innerhalb der Objekt-BBox
+  50.7635320/11.2300366–50.7637162/11.2309092). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/164787990** trägt `name`=**G&K Recycling Utsch**, `addr:street`=Gewerbepark,
+  `addr:housenumber`=**4**, `addr:city`=Rudolstadt, `addr:postcode`=07407, `addr:suburb`=Remda,
+  `amenity`=recycling, `recycling_type`=centre, `building`=yes und `website`=https://recycling-utsch.de/ -
+  Straße, Hausnummer, PLZ, Ort **und der Firmenname** stimmen mit der Dossier-Adresse
+  **Gewerbepark 4, 07407 Rudolstadt** überein, und das OSM-Objekt trägt den **Betriebsbezug**
+  sowie die Betreiber-Website. Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am
+  04.11.2026): das Impressum https://recycling-utsch.de/impressum/ liefert HTTP 200 und nennt
+  **„G & K Recycling Utsch, Gewerbepark 4, 07407 Rudolstadt, Inhaber: Thomas Utsch,
+  Handelsregister Jena HRA 200995“** - die Dossier-Adresse und der Rechtsträger sind damit
+  betreiberseitig bestätigt. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster umfasst **11.2300/50.7600 bis 11.2400/50.7700**, **1 Kachel von je
+  0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **„Gewerbepark“
+  nachweislich** mit den beiden Straßenobjekten **way/106909731** und **way/292098753**
+  (beide `highway`=service) sowie **1** Adressobjekt auf „Gewerbepark“ mit **1** verschiedenen
+  Hausnummer (**4**) - die **Dossier-Hausnummer 4 existiert** und ist im Raster das einzige
+  Objekt mit dieser Nummer auf dieser Straße. Im Raster tragen **20 Objekte** `name=` oder
+  `operator=`; **mit Bezug zum Betreiber** (Suchbegriffe „G&K“, „Utsch“, „recycling-utsch“) trifft
+  es auf der Straße **genau 1 Objekt**: way/164787990 (`name`=G&K Recycling Utsch,
+  `amenity`=recycling, `website`=https://recycling-utsch.de/) - die übrigen benannten Objekte sind
+  andere Betriebe bzw. Ortsteile (u.a. way/164788028 Landkulturhof Glücksbringer, way/860363536
+  Staatliche Grundschule Remda). **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'`
+  wurde **entfernt** (das Feld steht jetzt als `clear_fields: ''`), weil es den am 26.10.2026
+  zurückgenommenen und falsch liegenden Produktionspunkt (50.7204/11.3405 = Fahrradständer am Markt
+  in Volkstedt) fernhalten sollte; der hier gesetzte Punkt liegt **exakt** auf der
+  betreiber- und OSM-bestätigten Betriebsadresse, und `clear_fields` darf nicht gleichzeitig `geo`
+  neben belegtem `lat`/`lon` stehen. **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet
+  die **betreiber- und OSM-bestätigte Geschäftsadresse** und die dort kartierte Recycling-Anlage
+  (`amenity`=recycling); die im Dossier dokumentierten **Annahmebedingungen** (Selbstanlieferung nur
+  nach vorheriger Anmeldung und bestätigtem Angebot, Mo–Fr 08:00–15:30, Abholung) gelten unverändert
+  weiter. Es wird **kein** Ankaufkurs, **keine** Materialverkaufspreisliste und **kein** Gebührentarif
+  behauptet; `status`, `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status` und `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/164787990/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.2300,50.7600,11.2400,50.7700 ;
+  https://recycling-utsch.de/impressum/ (Abruf 04.11.2026).]

@@ -66,3 +66,47 @@ Ein aktuellerer Gelbe-Seiten-Suchtreffer nennt zusätzlich 01522 6006051 sowie M
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Balzer Metallverwertung` (Limmerburg 11a, 31061 Alfeld; Verzeichnis-Lead Tel. 0152 26006000, der Dossier-Überblick nennt als Registerkandidaten die `Balzers Metallverwertungsgesellschaft UG`, HRB 204441 AG Hildesheim, Geschäftsführer Dirk Balzer, Limmerburg 11 A - Betriebsidentität und aktuelle Annahme laut Dossier nicht bestätigt) wurde im amtlichen Fachbetrieberegister weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzer` -> **10 Treffer**, sämtlich `Balzersen GmbH & Co. KG` (Mühlenweg 1, 24955 Harrislee, `ZZAE00100008 / 1` bis `/ 10`, darunter `Bodendeponie Harrisleehof`, Ochsenweg, 24955 Harrisleehof) - **Namensvetter: anderer Rechtsträger an anderem Ort (Schleswig-Holstein), nicht der Alfelder Betrieb**; `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Balzer` -> **0 Treffer**; (2) Radiusabfrage mit **3 km** um die Dossier-Adresse `…/Entsorgungsfachbetriebe/adr=Limmerburg 11a, 31061 Alfeld, Deutschland;…&dst=3&is=1&e=1` -> **3 Treffer**, ausschließlich `Zimmermann Recycling Alfeld, Inh. Giuliano Mario Zimmermann` (Industriestraße 11, 31061 Alfeld, `ZZBT00500354 / 1` bis `/ 3`, **1,1 km**) - **anderer Rechtsträger am selben Ort, nicht übernommen**; dieselbe Radiusabfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **0 Treffer**; (3) Kontrollsuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzers` -> ebenfalls **10 Treffer** und **kein** Alfelder Treffer. Für den Namen `Balzer`/`Balzers` und für die Anschrift Limmerburg 11a gibt es im Register **keinen** Efb- und **keinen** AltfahrzeugV-Eintrag.
     Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
     Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Balzer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Limmerburg%2011a,%2031061%20Alfeld,%20Deutschland;9.804756;51.9918522;9.874780017557338;52.03497113639956;9.73473198244266;51.94873326360043&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Limmerburg%2011a,%2031061%20Alfeld,%20Deutschland;9.804756;51.9918522;9.874780017557338;52.03497113639956;9.73473198244266;51.94873326360043&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Balzers (Abruf 02.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die Dossier-Adresse ist in OSM belegt, aber die Identität bleibt offen und der
+  Registerbeleg gehört zum Schwesterdossier.** Die Nachprüfung liefert erstmals einen **positiven Adressbefund** für
+  die Dossier-Adresse. **Fenster und Raster:** Kachelraster **9.7950/51.9810 bis 9.8150/52.0010** (Alfeld-Leine,
+  Limmerburg), **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf
+  04.11.2026). Das Fenster enthält die gesuchte Straße **nachweislich**: die **Limmerburg** ist mit **1**
+  Straßenobjekt (way/26521307) darin erfasst. **Census im Fenster:** **31** Adressobjekte mit
+  `addr:street`=Limmerburg und `addr:city`=Alfeld (Leine) mit **31** verschiedenen Hausnummern (1, 2, 3, 4, 5, 6, 7,
+  8, 9, 10, 11, **11A**, 12, 13, 13A, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 44) - die
+  **Dossier-Hausnummer 11a existiert** in OSM, dort mit ** Großbuchstaben „11A"** geschrieben. **Quelle 1
+  (OSM-Objekt, live geladen 04.11.2026):** **node/5918618393**
+  (https://api.openstreetmap.org/api/0.6/node/5918618393.json) trägt `addr:housenumber`=**11A**,
+  `addr:street`=**Limmerburg**, `addr:city`=**Alfeld (Leine)** (Version 1, Stand 20.09.2018) bei **51.9918522 /
+  9.804756**; das Objekt trägt **weder `name=` noch `operator=`** und belegt damit **die Adresse**, nicht den
+  Betreiber. **Quelle 2 (Beleglage, weiterhin nicht erfüllt - und mit einem Doppelbuchungsrisiko):** Die im Dossier
+  zitierten Registerdarstellungen (NorthData, Creditreform, companyhouse.de, dnb.com) führen **„Balzers
+  Metallverwertungsgesellschaft UG", AG Hildesheim HRB 204441, Limmerburg 11 A, 31061 Alfeld (Leine), GF Dirk
+  Balzer** - dieser Rechtsträger ist aber **nicht** der Dossier-Eintrag, sondern das **Schwesterdossier
+  `ni-alfeld-balzers-metallverwertungsgesellschaft`**; für die hier geführte Verzeichnisfirma „Balzer
+  Metallverwertung" existiert **kein** eigener Register- oder Betreiberbeleg. Der im Dossier genannte
+  **Verzeichnislead** (Gelbe Seiten, live abgerufen 04.11.2026, HTTP 200: „Balzer Metallverwertung, Schrott,
+  Limmerburg 11a, 31061 Alfeld (Leine)", Kartenkoordinate 51.991783/9.804733) ist nach Repo-Quellenhierarchie **kein
+  Beleg**; die Portalmarkierung „Jetzt geschlossen - Öffnet Donnerstag um 08:00" ist eine **Öffnungszeitenanzeige**,
+  **kein** Schließungsnachweis. **Warum keine Koordinate:** (a) das Dossier hält ausdrücklich fest: „Limmerburg 11 A
+  ist eine Gesellschaftsanschrift, kein Beleg für öffentliche Annahme oder eine konkrete Hofzufahrt; keine
+  Ersatzkoordinate setzen, bevor Betreiber-/Markenbrücke und Kunden-Zugang geklärt sind"; (b) die
+  Marken-/Betreiberbrücke zwischen Verzeichnisfirma und UG ist nicht belegt; (c) der einzige Registerbeleg für die
+  Adresse gehört dem **Schwesterdossier** - ein Punkt hier würde denselben Standort doppelt erfassen und die offene
+  Dublettenfrage verschleiern. **Negativaussage, qualifiziert:** Eine Suche nach „Balzer", „Balzers", „Schrott" und
+  „Metall" über alle Tag-Werte des Fensters findet **kein** Objekt mit Betriebsbezug; das einzige Adressobjekt an der
+  Dossier-Nummer trägt keinen Namen. **Reichweite / Fehlbelegklausel:** Die Existenz des Adressobjekts 11A belegt
+  **das Grundstück bzw. die Hausnummer**, **nicht** den Betreiber „Balzer Metallverwertung" und **nicht** eine
+  öffentliche Annahme; der **Nichteintrag** im amtlichen Fachbetrieberegister beweist nichts, weil die Efb- und die
+  AltfahrzeugV-Anerkennung **freiwillig** sind. `clear_fields: 'geo'` **bleibt** bestehen (es gibt keinen
+  Ersatzpunkt), `status: pruefung`, `street`/`postcode`, Telefon, `website_status` (leer) und alle übrigen
+  Frontmatter-Felder bleiben unverändert; es wird weder Fortbestand noch Schließung behauptet. **Nächster Schritt für
+  den Owner:** Klärung der Namens-/Betreiberbrücke zwischen Verzeichnisfirma und UG und Auflösung der Dubette zu
+  `ni-alfeld-balzers-metallverwertungsgesellschaft` - danach kann node/5918618393 ohne Neuladen als Koordinate
+  übernommen werden. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.7950,51.9810,9.8150,52.0010 ;
+  https://api.openstreetmap.org/api/0.6/node/5918618393.json ;
+  https://www.northdata.de/Balzers%20Metallverwertungsgesellschaft%20UG,%20Alfeld%20(Leine)/Amtsgericht%20Hildesheim%20HRB%20204441
+  ; https://www.gelbeseiten.de/gsbiz/dab30a73-6a18-4bbe-ae5a-0b16f0e9d362 (Verzeichnislead) (Abruf 04.11.2026).]

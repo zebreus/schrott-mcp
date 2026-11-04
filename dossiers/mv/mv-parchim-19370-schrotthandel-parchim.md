@@ -1,12 +1,13 @@
 ---
 slug: mv-parchim-19370-schrotthandel-parchim
+lat: 53.4196156
+lon: 11.8198620
 name: Schrotthandel Parchim
 trader_type: schrotthaendler
 state: MV
 city: Parchim 19370
 street: ''
 postcode: ''
-clear_fields: geo
 phone: ''
 email: ''
 opening_hours: ''
@@ -52,3 +53,36 @@ Der aktuelle Treffer bei Nordkurier ist ausdrücklich ein "Standard Profil"/Anze
 
 - Eisen/NE, Öffnungszeiten publiziert
 - Adresse: Parchim 19370, Juri-Gagarin-Ring 10
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **53.4196156/11.8198620** (Mittel der **4**
+  eindeutigen Knoten von way/1201245438; die BBox der eindeutigen Knoten reicht von 53.4193328/11.8196390 bis
+  53.4198984/11.8200850 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/1201245438** trägt `addr:street`=Juri-Gagarin-Ring, `addr:housenumber`=**10**, `addr:postcode`=19370,
+  `addr:city`=Parchim, `addr:country`=DE sowie `building`=yes; Straße, Hausnummer, PLZ und Ort stimmen mit der
+  Dossier-Adresse **Juri-Gagarin-Ring 10, 19370 Parchim** überein. **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster umfasst **11.8100/53.4100 bis 11.8300/53.4300**, **4 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich und vollständig** mit den
+  Straßenobjekten **way/201039378** (BBox 53.41947/11.81807 bis 53.42492/11.82161), **way/114301743**,
+  **way/1201245424** und **way/28036567** (bis 53.42615/11.81807) sowie **19** Adressobjekten auf „Juri-Gagarin-Ring"
+  mit **17** verschiedenen Hausnummern (1 bis 14 sowie 63, 64, 65, 66) - die **Dossier-Hausnummer 10 existiert** und ist
+  im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine Suche nach **„Schrott"**, **„Recycling"**,
+  **„Metall"** und **„Entsorgung"** über die Felder name, operator, brand, shop, craft, description, amenity, landuse
+  und man_made findet im Fenster **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung, nur die
+  Adressangabe. Quelle 2 (Verzeichnis/Anzeige, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das
+  **Nordkurier-Profil** https://www.nordkurier.de/regionale-unternehmen/schrotthandel-parchim-203992 liefert **HTTP
+  200** und nennt live „Schrotthandel Parchim", „Juri-Gagarin-Ring 10, 19370 Parchim"; es ist weiterhin ausdrücklich als
+  **„Standard Profil"/Anzeige** gekennzeichnet und enthält **keinen** Inhaber, **keine** Telefonnummer, **keine**
+  Website, **keine** Öffnungszeiten und **keine** Preise. **Qualifizierung (unverändert übernommen):** der Punkt
+  bezeichnet die **anzeigengestützte Anschrift**, **nicht** einen verifizierten Schrotthandels-, Annahme- oder
+  Wiegebetrieb; die im Dossier offene Frage, ob es sich um ein Importartefakt handelt, bleibt offen, `status: pruefung`
+  bleibt, Ankauf-, Verkaufs- und Gebührenangaben bleiben unbelegt, und der Datensatz wird **nicht** mit dem
+  Umschlagplatz-Dossier (`mv-parchim-19370-umschlagplatz-parchim`, Zum Strauchberg 8, GKM Güstrower Kies + Mörtel GmbH)
+  gleichgesetzt. **Zurücknahme des `geo`-Tokens (Begründung):** die Frontmatter-Zeile `clear_fields: geo` wurde
+  **vollständig entfernt**, weil sie den nicht zuordenbaren Altpunkt 53.4263/11.8488 (Bauhofstraße 22, rund 2,1 km
+  entfernt) fernhalten sollte und der hier gesetzte Punkt exakt auf der belegten Anschrift liegt; `clear_fields` darf
+  nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/1201245438/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.81,53.41,11.83,53.43 ;
+  https://www.nordkurier.de/regionale-unternehmen/schrotthandel-parchim-203992 (Abruf 04.11.2026).]

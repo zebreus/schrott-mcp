@@ -25,7 +25,15 @@ certifications: ''
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+VEBEG GmbH, Rödelheimer Bahnweg 23, 60489 Frankfurt am Main: bundeseigene Treuhandgesellschaft,
+die Überschussmaterial öffentlicher Stellen per Ausschreibung verkauft. Die Identität tragen
+das Impressum mit Amtsgericht Frankfurt HRB B 8255, der kongruente Registerspiegel und das
+Behördenportal service.bund.de mit derselben Anschrift; die Geschäftszeiten nennt die
+Kontaktseite, daneben unterhält die Gesellschaft ein Berliner Büro. Ankauf ist nicht belegt,
+während die aktuelle Angebotsseite Verkaufslose aus der Kategorie Metalle und Schrott zeigt;
+eine Gebühr wird nicht genannt. Offen bleibt die Abgrenzung zum Schrott-Handelsscope, denn die
+Gesellschaft ist Verkäuferin und nicht Ankäuferin, und im amtlichen Fachbetrieberegister ist
+für die Frankfurter VEBEG weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag geführt.
 
 ## Timeline
 

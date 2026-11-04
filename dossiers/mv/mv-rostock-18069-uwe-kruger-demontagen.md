@@ -1,5 +1,7 @@
 ---
 slug: mv-rostock-18069-uwe-kruger-demontagen
+lat: 54.1174152
+lon: 12.0852354
 name: Uwe Krüger Demontagen GmbH
 trader_type: sonstige
 state: MV
@@ -13,7 +15,6 @@ website: ''
 website_status: ''
 status: pruefung
 description: 'Demontage-, Abbruch- und Containerdienstunternehmen mit Geschäftsanschrift Fischerweg 408, 18069 Rostock. Registerstand: Uwe Krüger Demontagen GmbH, Amtsgericht Rostock HRB 8710, gegründet 30.03.2001, im Registerauszug vom 28.10.2026 als aktiv geführt; der Auszug weist ausdrücklich darauf hin, dass aktuell keine Registerbekanntmachung vorliegt und offizielle Bekanntmachungen nur bis August 2022 bereitgestellt wurden. NorthData nennt als Unternehmensgegenstand Demontagen, Brenn- und Stemmarbeiten, Gebäudeentkernung und Containerdienst. Creditreform weist die Gesellschaft mit 94 Prozent Firmenkunden aus, die Beleglage bestätigt eine reine B2B-Ausrichtung. ANKAUF: kein öffentlich bezifferter Ankaufkurs und keine belegte Annahmestelle; das Registerzertifikat deckt keine Metall- oder Schrottannahme ab. VERKAUF: keine Verkaufs- oder Materialpreisliste. GEBÜHREN: keine öffentliche Tarifliste für Containerdienst oder Abbruch; die Containerdienst-Leistung ist nur als Unternehmensgegenstand belegt.'
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -58,3 +59,45 @@ schrottplatz.org +49 381 8113071).
 
 - Abbruch/Demontage/Eisen
 - Adresse: Rostock 18069
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **54.1174152/12.0852354** (Mittel der **13**
+  eindeutigen Knoten von way/33894304; die BBox der eindeutigen Knoten reicht von 54.1172495/12.0850540 bis
+  54.1177003/12.0853996 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/33894304** trägt `addr:street`=Fischerweg, `addr:housenumber`=**408**, `addr:postcode`=18069,
+  `addr:city`=Rostock, `addr:suburb`=Schmarl, `addr:country`=DE sowie `building`=yes, `building:levels`=**5**,
+  `height`=28.3 m, `kvl_hro:amenity`=**office_building**, `kvl_hro:type`=1411 und `source`=KVL HRO; der Knoten
+  **node/4391424160** trägt `entrance`=**main**. Straße, Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse
+  **Fischerweg 408, 18069 Rostock** überein. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene
+  Kachelraster umfasst **12.0800/54.1100 bis 12.0900/54.1200**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das
+  Fenster enthält die gesuchte Straße **nachweislich** mit **11** Straßenobjekten auf dem „Fischerweg" (way/23196369,
+  way/24735051, way/41338659, way/157454532, way/157454533, way/157454561, way/441206260, way/441383779, way/779976516,
+  way/1422791242, way/1462145475) sowie **25** Adressobjekten auf „Fischerweg" mit **21** verschiedenen Hausnummern (1,
+  4, 9, 10, 11, 12, 13, 14, 18, 103, 109, 110, 111, 112, 407, **408**, 409, 411, 416, 421, 422) - die
+  **Dossier-Hausnummer 408 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine
+  Suche nach **„Schrott"**, **„Recycling"**, **„Montage"**, **„Krüger"** und **„Kruger"** über name, operator, brand,
+  shop, craft, description, amenity, landuse, man_made und website findet im Fenster **keinen** Treffer zu „Uwe Krüger
+  Demontagen"; der einzige Recycling-Treffer ist **way/33894479** „Marieneher Umweltschutz und Recycling" (Werkstraße 6)
+  - ein **anderer** Betrieb. Quelle 2 (Register, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): der
+  **Handelsregisterauszug**
+  https://www.online-handelsregister.de/handelsregisterauszug/mv/Rostock/HRB/8710/Uwe-Krueger-Demontagen-GmbH liefert
+  **HTTP 200** und nennt live „Uwe Krüger Demontagen GmbH", **Amtsgericht Rostock HRB 8710** und die Geschäftsanschrift
+  „**Fischerweg 408, 18069 Rostock**"; die **Creditsafe-Unternehmensdatenbank**
+  https://www.creditsafe.com/business-index/de-de/company/uwe-krueger-demontagen-gmbh-de01680474 liefert **HTTP 200**
+  und bestätigt unabhängig davon „Fischerweg 408 in 18069 Rostock" als Hauptsitz; das im Dossier zitierte
+  **NorthData**-Profil nennt denselben Unternehmensgegenstand (Demontagen, Brenn- und Stemmarbeiten, Gebäudeentkernung,
+  Containerdienst). **Qualifizierung (unverändert übernommen):** das gesetzte OSM-Objekt ist ein **fünfgeschossiges
+  kommunales Verwaltungsgebäude** (`kvl_hro` = Kommunalverwaltung Rostock, `amenity`=office_building), **kein**
+  Schrottstandort; der Punkt bezeichnet damit die **registerlich belegte Geschäftsanschrift** und **nicht** eine
+  verifizierte Annahme-, Lager- oder Abbruchfläche. Eine öffentliche Zahlenpreisliste, ein bezifferter Ankaufskurs und
+  eine Annahmestelle sind für diese Gesellschaft **nicht** belegt; `status: pruefung` bleibt, `dropoff_json` bleibt leer
+  (keine Default-Aussage), Ankauf-, Verkaufs- und Gebührenangaben bleiben unbelegt. **Zurücknahme des `geo`-Tokens
+  (Begründung):** die Frontmatter-Zeile `clear_fields: 'geo'` wurde **vollständig entfernt**, weil sie den falschen
+  Altpunkt 54.10598/12.11163 („8, Pressentinstraße, Eulenflucht, Gehlsdorf, 18147 Rostock" - weder Fischerweg 408 noch
+  PLZ 18069) fernhalten sollte und der hier gesetzte Punkt exakt auf der registerlich belegten Anschrift liegt;
+  `clear_fields` darf nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/33894304/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.08,54.11,12.09,54.12 ;
+  https://www.online-handelsregister.de/handelsregisterauszug/mv/Rostock/HRB/8710/Uwe-Krueger-Demontagen-GmbH ;
+  https://www.creditsafe.com/business-index/de-de/company/uwe-krueger-demontagen-gmbh-de01680474 (Abruf 04.11.2026).]

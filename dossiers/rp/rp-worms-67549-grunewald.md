@@ -1,6 +1,7 @@
 ---
 slug: rp-worms-67549-grunewald
-clear_fields: 'geo'
+lat: 49.6319584
+lon: 8.3208881
 name: Schrotthandel Grünewald
 trader_type: schrotthaendler
 state: RP
@@ -52,3 +53,37 @@ Die vorhandene Anschrift/Rufnummer beruhen auf der dokumentierten früheren Verz
 
 - Schrott
 - Adresse: Worms 67549
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 49.6319584, 8.3208881** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/293038616**, sieben eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  8.3207829/49.6319172 bis 8.3209528/49.6319915). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/293038616** trägt `addr:street`=Speerstraße, `addr:housenumber`=**5**, `addr:city`=Worms,
+  `addr:postcode`=67549, `addr:country`=DE, `building`=yes und `source:building`=OpenData Rheinland-Pfalz - Straße,
+  Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse **Speerstr. 5, 67549 Worms-Pfiffligheim** überein.
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst
+  **8.3200/49.6200 bis 8.3400/49.6400**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die
+  gesuchte Straße **nachweislich** mit **24** Adressobjekten auf „Speerstraße" und den Hausnummern 1, 2, 3, 4, 5, 6,
+  7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 26, 28 und 32 - die **Dossier-Hausnummer 5 existiert**
+  und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine Namenssuche nach **„Grünewald"**,
+  **„Grunewald"** und **„Schrott"** über die Felder name, operator, description, website, contact:website, brand, note
+  und addr:housename findet im Raster **keinen** Treffer - es gibt also **keine** OSM-Betriebszuordnung, nur die
+  Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die
+  **Gelbe-Seiten-Detailseite** liefert **HTTP 200** und führt live **„Schrotthandel Grünewald"** in der Rubrik
+  **Schrott** an **Speerstr. 5, 67549 Worms-Pfiffligheim**, Telefon **0176 21 16 53 84**; das **Portalprofil
+  LokaleSchrottplatz** nennt live denselben Betrieb mit **Speerstraße (ohne Hausnummer), 67549 Worms** und derselben
+  Nummer. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed
+  jetzt eine belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt
+  liegt exakt auf der durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung (unverändert
+  übernommen):** Der Punkt bezeichnet die **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; das
+  im Dossier dokumentierte **Fremdportal** `schrotthaendler-in-der-naehe.de` gehört **Reinhold Paisler**
+  (Schwalbach/Dillingen) und **nicht** Grünewald, die widersprüchlichen Öffnungszeitangaben (Mo–Sa 08:00–18:00
+  gegenüber „täglich 00:00–24:00") und die Portal-Mindestmengen (100 kg Fe / 1 kg NE) bleiben **unbestätigte
+  Portalvorlagen** - eine Ankaufzusage, ein Annahmehof oder ein Öffnungsnachweis wird durch die Koordinate **nicht**
+  belegt. `status: pruefung`, `city`, `street`, `postcode`, `phone`, `email` (leer), `opening_hours` (leer),
+  `website` (leer), `website_status`, `description` (leer), `dropoff_json` und `pickup_json` bleiben unverändert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/293038616/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3200,49.6200,8.3400,49.6400 ;
+  https://www.gelbeseiten.de/gsbiz/ab051b0a-3124-4a91-ba44-5f20f92a8a65 ;
+  https://lokaleschrottplatz.de/schrotthandel-grunewald/ (Abruf 04.11.2026).]

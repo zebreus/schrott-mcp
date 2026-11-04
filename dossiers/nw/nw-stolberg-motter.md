@@ -1,6 +1,7 @@
 ---
 slug: nw-stolberg-motter
-clear_fields: 'geo'
+lat: 50.7780286
+lon: 6.2210837
 name: Motter
 trader_type: schrotthaendler
 state: NW
@@ -56,3 +57,37 @@ Verzeichnis-Lead konkretisiert auf Karl-Heinz Motter Güter-/Nahverkehr, Transpo
 
 - Schrott (GS)
 - Adresse: Stolberg
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 50.7780286, 6.2210837** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/175212890**, achtzehn eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  6.2209988/50.7779178 bis 6.2211739/50.7781765). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/175212890** trägt `addr:street`=Auf der Mühle, `addr:housenumber`=**26**, `addr:city`=Stolberg (Rhld.),
+  `addr:postcode`=52222 und `building`=residential - Straße, Hausnummer, PLZ und Ort stimmen mit der im Dossier
+  belegten Seed-Adresse **Auf der Mühle 26, 52222 Stolberg-Münsterbusch** überein. **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster über Stolberg umfasst **6.2000/50.7400 bis
+  6.2400/50.7800**, **16 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße
+  **nachweislich** mit **25** Adressobjekten auf „Auf der Mühle" und den Hausnummern 1, 2, 3, 4, 5, 6, 8, 10, 12,
+  14, 16, 17, 19, 21, 23, 25, 26, 27, 28, 29, 30, 32, 34 und 36 - die **Dossier-Hausnummer 26 existiert** und ist im
+  Raster das einzige Objekt mit dieser Nummer auf dieser Straße. Eine Namenssuche nach **„Motter"** über die Felder
+  name, operator, description, website, contact:website, brand, note und addr:housename findet im Raster **keinen**
+  Treffer - es gibt also **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im
+  Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **11880-Unternehmensprofilseite** liefert
+  **HTTP 200** und führt live **„Karl-Heinz Motter Güter- u. Nahverkehr, Transport u. Schrottentsorgung"** mit den
+  Branchen Entsorgung, Transport, Schrotthandel, Spedition, Altmaterialhandel und Logistik an **Auf der Mühle 26,
+  52222 Stolberg**, Telefon **(02402) 6883**, Öffnungszeiten Mo–Fr 08:00–18:00 (Portalaktualisierung 02.10.2026,
+  Eintragsdaten 10.05.2026) - identisch mit der Dossier-Adresse. **Zurücknahme des `geo`-Tokens (Begründung):**
+  `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein
+  `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt auf der durch zwei unabhängige Quellen
+  gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die
+  **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; das im Dossier dokumentierte **Fehlen einer
+  Betreiber-/Registerquelle** (keine eigene Website, nur Verzeichniseinträge) bleibt offen, und die Bezeichnung
+  „Schrottentsorgung" kann auch eine kostenpflichtige Dienstleistung bezeichnen - eine Ankaufzusage, ein Annahmehof
+  oder eine Öffnungsbestätigung wird durch die Koordinate **nicht** belegt. `status: pruefung`, `city`, `street`
+  (leer), `postcode` (leer), `phone` (leer), `email`, `opening_hours`, `website` (leer), `website_status`,
+  `description` (leer), `dropoff_json` und `pickup_json` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/175212890/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.2000,50.7400,6.2400,50.7800 ;
+  https://www.11880.com/branchenbuch/stolberg-rheinland/060441364B26276568/karl-heinz-motter-gueter-u-nahverkehr-transport-u-schrottentsorgung.html
+  (Abruf 04.11.2026).]

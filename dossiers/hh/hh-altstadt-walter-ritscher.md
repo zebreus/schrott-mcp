@@ -77,3 +77,49 @@ Der neue Registerspiegelbefund identifiziert einen historischen Rechtsträger: W
   übernommen werden. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9950,53.5500,10.0050,53.5600 ;
   https://www.northdata.de/Walter+Ritscher+GmbH,+Hamburg ;
   https://www.schrottplatz-info.de/schrottplatz/Hamburg/Walter-Ritscher-GmbH (Verzeichnislead) (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - Klärfall mit vollständigem Fenster und Census bestätigt.** Die Nachprüfung bestätigt
+  die Negativaussage der Vorwelle; das Adressobjekt existiert, der Rechtsträger ist an dieser Adresse aber weiterhin
+  nicht belegt. **Fenster und Raster:** Kachelraster **9.9885/53.5435 bis 10.0085/53.5635**, **4 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält die
+  gesuchte Straße **nachweislich**: die **Ferdinandstraße** in Hamburg-Altstadt ist mit **1** Straßenobjekt
+  (way/19728446, `highway`=residential) darin erfasst, der Verlauf liegt vollständig im Fenster. **Census im
+  Fenster:** **36** Adressobjekte mit `addr:street`=Ferdinandstraße und `addr:postcode`=20095 mit **29**
+  verschiedenen Hausnummern (2, 3, 5, 6, 12, 15, 18-24, 21, 25-27, 28-30, 29-33, 32, 34-36, 35, 36, 38-40, 40a, 41,
+  47, 55-57, 56, 58, 59, 63, 64, 65-67, 67, 69, 75) - die **Dossier-Hausnummer 32 ist belegt**. **Quelle 1
+  (OSM-Objekt, live geladen 04.11.2026):** **way/43293527**
+  (https://api.openstreetmap.org/api/0.6/way/43293527/full.json) trägt `addr:housenumber`=**32**,
+  `addr:street`=**Ferdinandstraße**, `addr:city`=Hamburg, `addr:postcode`=**20095**, `addr:housename`=**Alsterhaus**,
+  `building`=yes, Version 2 (Stand 13.05.2010); das Objekt hat **6** eindeutige Knoten, der Mittelwert der
+  eindeutigen Knoten ist **53.5540967 / 9.9995505**, die Objekt-BBox ist 53.5539844/9.9993227 bis
+  53.5542070/9.9997046, der Punkt liegt **innerhalb** der BBox. **Quelle 2 (Betreiber-/Register, weiterhin nicht
+  erfüllt):** Die im Dossier zitierte Registerquelle (NorthData, „Walter Ritscher GmbH, Hamburg HRB 12088 / EUID
+  DEK1101R.HRB12088", live laut Bestandsvermerk vom 16.10.2026) **maskiert die Straße** - sichtbar ist nur „D-20095
+  Hamburg"; die Verknüpfung HRB 12088 zur Ferdinandstraße 32 ist damit **nicht** belegt. Historisch belegt ist nur
+  die Namenskette (Walter Ritscher GmbH = 2007 umfirmierte FIS Brokerage GmbH, Gegenstand erlaubnisfreie
+  Schiffsvermittlung, Löschung 02.07.2014) - also **kein** heutiger Schrottbetrieb und **keine** heutige
+  Annahmestelle; das OSM-Objekt trägt **weder `name=` noch `operator=`** (nur den Gebäudenamen „Alsterhaus") und
+  damit keinen Bezug zum Rechtsträger. Die **einzige** Quelle, die „Ferdinandstr. 32" mit „Walter Ritscher"
+  verknüpft, ist der Verzeichnislead schrottplatz-info.de, nach Repo-Quellenhierarchie **kein** Beleg.
+  **Negativaussage, qualifiziert:** Auf der Ferdinandstraße trägt **kein** Objekt einen Namens-, Betreiber- oder
+  Branchenbezug zu „Walter Ritscher", „Ritscher", „FIS Brokerage" oder zu einem Schrott-/Metallhandel; die
+  betriebsbezogenen Objekte sind andere Unternehmen (node/4197341396 „Toptranslation GmbH", node/4522870792 „Chang
+  Thai Wellness", node/14234924980 „anonetics GmbH", node/11749009469 „Hapag-Lloyd AG", way/43284846 „Friedrichshof",
+  way/43284847 „Hamburg 1", way/43284841 „Hotel Barceló Hamburg", way/43284842, way/43284661 „Schiffahrtshaus",
+  way/43284902 „Evangelisch-reformierte Kirche"). **Warum keine Koordinate:** (a) die zweite Quelle für **diese**
+  Adresse fehlt, (b) das Dossier hält ausdrücklich fest: „keine GEO-Freigabe für die historische Büroanschrift", (c)
+  ein Punkt auf Ferdinandstraße 32 würde die **Adresse eines Lead-Eintrags** auf einen 2014 gelöschten Rechtsträger
+  (Schiffsvermittlung) projizieren, ohne dass ein aktueller Schrottbetrieb dort belegt ist. **Reichweite /
+  Fehlbelegklausel:** Das Vorhandensein des Adressobjekts 32 belegt **das Gebäude**, **nicht** den Rechtsträger und
+  **nicht** einen Schrottbetrieb; umgekehrt belegt eine fehlende Hausnummer oder ein Register-Nichteintrag **kein**
+  Fehlen eines Betriebs (die Efb-Anerkennung ist freiwillig). `status: pruefung`, `street`/`postcode` (letzteres
+  leer) und alle übrigen Frontmatter-Felder bleiben unverändert; es wird **keine** Schließung und **kein** heutiger
+  Betrieb behauptet. **Nächster Schritt für den Owner:** Originalregister-/Anschriftspublikation zur HRB 12088 (die
+  die Straße nennt) oder ein aktueller Nachfolgebetreiber an der Ferdinandstraße 32 - dann kann way/43293527 ohne
+  Neuladen als Koordinate übernommen werden. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9885,53.5435,10.0085,53.5635 ;
+  https://api.openstreetmap.org/api/0.6/way/43293527/full.json ;
+  https://www.northdata.de/Walter+Ritscher+GmbH,+Hamburg ;
+  https://www.schrottplatz-info.de/schrottplatz/Hamburg/Walter-Ritscher-GmbH (Verzeichnislead) (Abruf 04.11.2026).]

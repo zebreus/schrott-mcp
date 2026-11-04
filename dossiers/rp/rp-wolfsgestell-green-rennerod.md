@@ -1,5 +1,7 @@
 ---
 slug: rp-wolfsgestell-green-rennerod
+lat: 50.6212151
+lon: 8.0729838
 name: Green Autorecycling GmbH
 trader_type: sonstige
 state: RP
@@ -43,3 +45,41 @@ Der aktuelle Betreiberauftritt nennt **Green Autorecycling GmbH**, Am Wolfsgeste
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Kein Betreiber-Beleg. green-rennerod.de NXDOMAIN (DNS 02.10.2026); keine Verzeichnis-Treffer (Das Örtliche/Gelbe Seiten); Seed-Angaben (Am Wolfsgestell 1, E-Motoren) unbestätigt — KEINE Füllung; Klärfall (Existenz/Sitz, Stadt "Wolfsgestell" prüfen); Quelle(n): DNS-NXDOMAIN + Verzeichnis-Abgleich (Negativbefund).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 50.6212151, 8.0729838** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/682932790**, vier eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  8.0727672/50.6211274 bis 8.0732004/50.6213027). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/682932790** trägt `addr:street`=Am Wolfsgestell, `addr:housenumber`=**1**, `addr:city`=Rennerod,
+  `addr:country`=DE und `building`=house - Straße, Hausnummer und Ort stimmen mit der Dossier-Adresse
+  **Am Wolfsgestell 1, 56477 Rennerod** überein (die PLZ **56477** ist im Dossier belegt; das Objekt selbst trägt
+  kein PLZ-Tag, die Nachbarobjekte **way/895535157** (Hausnummer 28) und **way/895535155** (Hausnummer 30) derselben
+  Straße tragen `addr:postcode`=**56477**). **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster über Rennerod umfasst **8.0600/50.6150 bis 8.0800/50.6300**, **4 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit dem Straßenobjekt
+  **way/158345808** (`highway`=residential, `name`=**Am Wolfsgestell**) sowie **23** Adressobjekten auf
+  „Am Wolfsgestell" mit den Hausnummern 1, 2, 2 A, 2 B, 3, 4, 5, 6, 6 A, 8, 9, 9 A, 11, 12, 13, 14, 16, 18, 20, 22, 26, 28
+  und 30 - die **Dossier-Hausnummer 1 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser
+  Straße. Eine Namenssuche nach **„Green"** und **„Autorecycling"** über die Felder name, operator, description,
+  website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer - es gibt also
+  **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Betreiber/Register, im Dossier bereits zitiert,
+  live nachgelesen am 04.11.2026): die **Betreiberwebsite** https://www.green-autorecycling.de/ liefert **HTTP 200**
+  und nennt live im Kontaktblock **„Am Wolfsgestell 1, 56477 Rennerod, Germany"** mit Telefon **+492664 5252** und
+  `info@green-autorecycling.de`; die **NorthData-Registeransicht** liefert **HTTP 200** und nennt live
+  **„Green Autorecycling GmbH, Amtsgericht Montabaur, HRB 25053, Adresse: Am Wolfsgestell 1, D-56477 Rennerod"** mit
+  dem Unternehmensgegenstand „Kfz-Aufbereitung, der Kfz-Handel und der Handel mit Kfz-Zubehörteilen sowie der
+  Betrieb einer Autoverwertung sowie Schrotthandel". **Zurücknahme des `geo`-Tokens (Begründung):** Der Seed führte
+  **kein** `clear_fields: 'geo'`-Token (es lag **kein** `geo` im Frontmatter) - es ist daher **nichts**
+  zurückzunehmen; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt auf der
+  durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der Punkt
+  bezeichnet die **Firmensitz-Anschrift**; das im Dossier dokumentierte **Formularangebot** (gewünschte Anlieferung,
+  Termin, Transportart) bleibt ein Betreiberhinweis und **keine** unabhängige Bestätigung der öffentlichen Hoföffnung
+  oder von Annahmebedingungen, ebenso die **undatierten** Fahrzeug-Indikationen („ab 100 € pro Tonne", „bis zu 400 €")
+  - eine Ankaufzusage, ein Annahmehof oder eine Öffnungszeit wird durch die Koordinate **nicht** belegt.
+  `status: pruefung`, `city`, `street`, `postcode`, `phone` (leer), `email` (leer), `opening_hours` (leer), `website`,
+  `website_status` und `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/682932790/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0600,50.6150,8.0800,50.6300 ;
+  https://www.green-autorecycling.de/ ;
+  https://www.northdata.de/Green+Autorecycling+GmbH,+Rennerod/Amtsgericht+Montabaur+HRB+25053 (Abruf 04.11.2026).]

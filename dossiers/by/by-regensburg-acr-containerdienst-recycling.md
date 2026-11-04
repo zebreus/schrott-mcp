@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ACR Containerdienst und Recycling GmbH, Wiener Straße 14a, 93055 Regensburg:
+Entsorgungsfachbetrieb mit Containerverleih, Recyclinghof und Direktannahme, das neben Abbruch,
+Demontage, Entrümpelung, Räumung und Straßenreinigung tätig ist. Die Identität tragen das
+Impressum mit Amtsgericht Regensburg HRB 5224 und der Geschäftsführung Anna Barbara Amann, der
+Eintrag der bvse-Entsorgergemeinschaft als Fördermitglied mit derselben Anschrift und
+Telefonnummer sowie das Branchenverzeichnis Key-to-Bavaria für die E-Mail-Adresse
+kontakt@acr-recycling.de. Offen bleiben die Beleggrenzen bei den Feldern, deren zweiter Beleg
+fehlt: Die zweite Rufnummer 0941/25025 stammt allein vom Betreiber, und zu Ankaufs-, Verkaufs-
+und Gebührenpreisen trifft das Dossier keine Aussage, sodass hier weder ein Kurs noch eine
+Anlage- oder Containergebühr belegt ist.
 
 ## Timeline
 

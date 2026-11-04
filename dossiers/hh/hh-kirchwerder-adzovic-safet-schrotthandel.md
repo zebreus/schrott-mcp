@@ -69,3 +69,42 @@ Nur ein Einzel-Lead bei schrottplatz-info.de nennt Adzovic Safet Schrotthandel a
   übernommen werden. Quelle(n): https://api.openstreetmap.org/api/0.6/way/257411602/full.json ;
   https://www.schrottplatz.org/hamburg/schrott-adzovic-safet-schrotthandel-aYEPVH.html (live abgerufen 03.11.2026,
   Verzeichnislead); Bestandsvermerke vom 29.10.2026 und 02.10.2026 dieses Dossiers.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - das OSM-Adressobjekt existiert und wurde erneut live bestätigt; die zweite Quelle
+  fehlt weiterhin.** Die Nachprüfung prüft das Objekt mit verifiziertem Fenster neu. **Fenster und Raster:**
+  Kachelraster **10.1122/53.4156 bis 10.1322/53.4356** (Hamburg-Kirchwerder, Warwischer Hauptdeich), **4 Kacheln von
+  je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält
+  die gesuchte Straße **nachweislich**: der **Warwischer Hauptdeich** ist mit **4** Straßenobjekten darin erfasst.
+  **Census im Fenster:** **20** Adressobjekte mit `addr:street`=Warwischer Hauptdeich und `addr:postcode`=21037 mit
+  **20** verschiedenen Hausnummern (62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 80a, 84, 88, **90**, 92, 94, 104, 106,
+  114, 116). **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):** **way/257411602**
+  (https://api.openstreetmap.org/api/0.6/way/257411602/full.json) trägt `addr:housenumber`=**90**,
+  `addr:street`=**Warwischer Hauptdeich**, `addr:city`=Hamburg, `addr:postcode`=**21037**, `building`=yes (Version 1,
+  Stand 20.01.2014); das Objekt hat **9** eindeutige Knoten, der Mittelwert der eindeutigen Knoten ist **53.4255433 /
+  10.1222079**, die Objekt-BBox ist 53.4254810/10.1221255 bis 53.4256361/10.1223382, der Punkt liegt **innerhalb**
+  der BBox. **Quelle 2 (Betreiber-/ Register, weiterhin nicht erfüllt):** Für die Adresse **Warwischer Hauptdeich
+  90** existiert im Dossier **keine** Betreiber- oder Registerquelle - die beiden Verzeichnisbetreiber
+  (schrottplatz.org, schrottplatz-info.de) sind nach der Repo-Quellenhierarchie **Leads, kein Beleg**; die im Dossier
+  genannten Adzovic-Belege betreffen **andere** Betriebe an anderen Anschriften (hamburg.de: „Adzovic",
+  Von-Scheliha-Str. 34, 21035, Haushaltsauflösungen; Impressum entsorgungen24.de: „David Adzovic, Mozartstrasse 6,
+  22083 Hamburg", Entrümpelung) - eine Personenzuordnung oder ein Merge ist damit **nicht** belegbar. **Nebenbefund
+  zur Adresslage:** Der Verzeichnislead schrottplatz.org trägt selbst eine Kartenkoordinate **53.4255609 /
+  10.1222289** und deckt sich damit auf wenige Meter mit dem OSM-Objekt - die **Adresse** ist also durch Lead und OSM
+  deckungsgleich, die **Betreiberidentität** bleibt unbelegt. Das OSM-Objekt trägt **weder `name=` noch
+  `operator=`**. **Warum keine Koordinate:** Nach der Zwei-Quellen-Regel (OSM-Objekt **und** eine im Dossier zitierte
+  Betreiber-/Registerquelle für dieselbe Adresse) ist die zweite Quelle nicht erfüllt; ein Punkt wäre hier eine
+  Behauptung, keine Geokodierung. **Negativaussage, qualifiziert:** Der Adress-Objekt-Nachweis belegt **das Gebäude
+  der Hausnummer 90**, nicht die Betreiberidentität „Adzovic Safet Schrotthandel"; eine Suche nach „adzovic", „safet"
+  und „schrott" über alle Tag-Werte des Fensters findet **kein** Objekt mit Betriebsbezug. **Reichweite /
+  Fehlbelegklausel:** Das Fehlen eines Efb-Eintrags (freiwillige Anerkennung) oder eines Branchenbuch-Eintrags belegt
+  **nicht**, dass dort kein Betrieb existiert; umgekehrt belegt die vorhandene Hausnummer **keinen** Betrieb.
+  `street`/`postcode` bleiben unverändert im Frontmatter, `phone` bleibt leer, `status: pruefung` bleibt; es wird
+  weder Fortbestand noch Schließung behauptet. **Nächster Schritt für den Owner:** ein aktueller
+  Gewerbe-/Betreibernachweis (Impressum mit Rechtsträger oder ein Registerauszug) für den Standort Warwischer
+  Hauptdeich 90 - dann kann way/257411602 ohne Neuladen als Koordinate übernommen werden. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1122,53.4156,10.1322,53.4356 ;
+  https://api.openstreetmap.org/api/0.6/way/257411602/full.json ;
+  https://www.schrottplatz.org/hamburg/schrott-adzovic-safet-schrotthandel-aYEPVH.html (live abgerufen 04.11.2026,
+  Verzeichnislead) ; Bestandsvermerke vom 29.10.2026 und 02.10.2026 dieses Dossiers (Abruf 04.11.2026).]

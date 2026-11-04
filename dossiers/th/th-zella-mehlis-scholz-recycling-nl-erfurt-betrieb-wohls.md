@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scholz Recycling GmbH, Standort Zella-Mehlis, Schöne Aussicht 22, 98544 Zella-Mehlis:
+Behandlungsanlage für Eisen- und Nichteisenschrott samt Autowracks nebst Container- und
+Transportdienst, betrieben von der Scholz Recycling GmbH mit Sitz Berndt-Ulrich-Scholz-Straße
+1, 73457 Essingen, Amtsgericht Ulm HRB 733963. Die Identität tragen das Impressum, der
+Registerspiegel und das ESN-Zertifikat ESN 98-040115 (26), Vorgang ZZEE003002667009, gültig bis
+30.09.2027, das sechs Anlagen an dieser Anschrift ausweist; die ElektroG-Bescheinigung deckt
+nur die Großgerätekategorie 4 ab. Ankauf- und Verkaufspreise werden nicht veröffentlicht. Offen
+bleiben die Herkunft der Dossierbezeichnung „NL Erfurt-Betrieb Wöhlsdorf + Zella-Mehlis", eine
+tote Zertifikats-PDF-Adresse, die abweichend genannte Vorgangsnummer und der fehlende
+Betriebsbezug des OSM-Adressknotens zur Hausnummer 22.
 
 ## Timeline
 

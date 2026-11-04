@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alträucher GmbH, Wahlenstr. 10, 50823 Köln-Ehrenfeld: Entsorgungsfachbetrieb für
+Containerdienst, Wohnungsräumungen, Haushaltsauflösungen und die Entsorgung von Schrott- und
+Baustellenabfällen samt Metall- und Schrotthandel. Anschrift, Rufnummer 0221 512246 und
+Öffnungszeiten Montag bis Freitag 07:00 bis 16:30 Uhr stammen aus dem 11880-Eintrag und der
+Branchenplattform wlw, die den Registerstand ALTRÄUCHER Gebrauchtwaren GmbH, Amtsgericht Köln
+HRB 23916, nennt; die Hausnummer 10 ist in OSM ohne Namens- oder Betreibertag erfasst.
+Ankaufpreise werden nicht beziffert, sondern nur als Tageshöchstpreise bezeichnet, Gebühren
+sind nicht belegt. Offen bleiben die Identität und die Fortführung des Betriebs an der
+Wahlenstraße: Die geführte Website leitet auf die Hölzer GmbH der REMONDIS-Gruppe um, deren
+Abfallannahmestelle an anderer Anschrift liegt und den Namen Alträucher nicht führt.
 
 ## Timeline
 

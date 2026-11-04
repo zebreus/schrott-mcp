@@ -1,6 +1,7 @@
 ---
 slug: nw-wuppertal-unterbarmen-halan
-clear_fields: 'geo'
+lat: 51.2669998
+lon: 7.1628562
 name: Halan
 trader_type: schrotthaendler
 state: NW
@@ -60,3 +61,36 @@ Das Portal nennt jetzt die konkrete Lead-Adresse **Burgunderstraße 19, 42285 Wu
 
 - [Recherche 01.10.2026: Klärfall — nur 1 Verzeichnis-Lead ohne Adresse: Halan Schrottabholung Wuppertal, Tel. +49 202 76713022 (lokaleschrottplatz.de-Lead); 11880-Eintrag existiert, aber Abruf blockiert (403); kein Betreiber, kein Register; kein Frontmatter-Fill; Quelle(n): nur Lead — lokaleschrottplatz.de/halan-schrottabholung-wuppertal/]
 - [Recherche 01.10.2026: Klärfall bestätigt — Nachrecherche ohne Zweitbeleg (kein Betreiber, kein Register, keine Adresse), Telefon-Lead unbestätigt — kein Fill, Status pruefung; Quelle(n): keine belegfähige Quelle 01.10.2026]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 51.2669998, 7.1628562** (Mittelwert der eindeutigen Knoten des
+  Objekts **way/294012794**, zehn eindeutige Knoten; der Punkt liegt innerhalb der Objekt-BBox
+  7.1627227/51.2669539 bis 7.1629955/51.2670813). **Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):**
+  **way/294012794** trägt `addr:street`=Burgunderstraße, `addr:housenumber`=**19**, `addr:city`=Wuppertal,
+  `addr:postcode`=42285, `addr:country`=DE und `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der im
+  Dossier belegten Seed-Adresse **Burgunderstraße 19, 42285 Wuppertal (Unterbarmen)** überein. **Fensterprüfung (kein
+  Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **7.1600/51.2600 bis 7.1700/51.2700**,
+  **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit
+  den Straßenobjekten **way/38659746** und **way/38659747** (`name`=Burgunderstraße) sowie **24** Adressobjekten auf
+  „Burgunderstraße" mit den Hausnummern 1, 3, 5, 12, **19**, 21, 27, 29, 31, 33, 35, 37, 39, 39a, 39b, 41, 41a, 41b,
+  41c, 47, 49 und 50 (50 doppelt) - die **Dossier-Hausnummer 19 existiert** und ist im Raster das einzige Objekt mit
+  dieser Nummer auf dieser Straße. Eine Namenssuche nach **„Halan"** über die Felder name, operator, description,
+  website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer - es gibt also
+  **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2 (Betreiber/Verzeichnis, im Dossier bereits zitiert,
+  live nachgelesen am 04.11.2026): das **Schrottplatz-Portal LokaleSchrottplatz** liefert **HTTP 200** und führt live
+  **„Halan Schrottabholung Wuppertal"** mit der Angabe **„Adresse des Schrottplatzes: Burgunderstraße 19, 42285
+  Wuppertal"**, Telefon **+49 202 76713022**. **Zurücknahme des `geo`-Tokens (Begründung):**
+  `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt eine belegte Koordinate führt; der Seed lehnt ein
+  `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt exakt auf der durch zwei unabhängige Quellen
+  gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der Punkt bezeichnet die
+  **portalgestützte Anschrift**, keinen verifizierten Annahmehof; das im Dossier dokumentierte **Fehlen einer
+  Betreiberidentität** (das Portal behauptet keine Betreiberfirma, kein Registerbeleg), der **widersprüchliche
+  Portalstatus** („Geschlossen, öffnet morgen um 13:00" gegen die Wochenliste Mo–Sa 08–20) und die
+  **Portal-Mindestmengen** (100 kg Eisen / 1 kg NE, identisch mit anderen Portalprofilen) bleiben unbestätigte
+  Portalangaben - eine Ankaufzusage, ein Annahmehof oder ein Öffnungsnachweis wird durch die Koordinate **nicht**
+  belegt. `status: pruefung`, `city`, `street` (leer), `postcode` (leer), `phone` (leer), `email`, `opening_hours`,
+  `website` (leer), `website_status` (leer) und `description` (leer) bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/294012794/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1600,51.2600,7.1700,51.2700 ;
+  https://lokaleschrottplatz.de/halan-schrottabholung-wuppertal/ (Abruf 04.11.2026).]

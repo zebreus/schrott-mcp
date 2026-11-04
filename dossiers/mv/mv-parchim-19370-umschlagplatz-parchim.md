@@ -62,3 +62,37 @@ HRB 219 Schwerin, 2012 gelöscht) und `mv-parchim-autoverwertung-brandt-u-heye-f
 - [Recherche 28.10.2026: **GEO.** Für „Zum Strauchberg 8, 19370 Parchim“ liefert Nominatim nur die beiden Straßenobjekte (way 178018706, 53.4447341/11.8340169; way 34230297, 53.4423312/11.8300933 der Straße K 120) und keinen adressgenauen Hausnummernpunkt; im OSM-API-Auszug des umgebenden Bereichs (BBox 11,8150/53,4350 bis 11,8600/53,4560) gibt es kein Objekt mit addr:street „Zum Strauchberg“ und kein Betreiber-Tagging. Die PLZ 19370 ist dort an den Nachbarstraßen hinterlegt, was die PLZ-Angabe aller Quellen stützt; die Auftragsprämisse 17192 ist falsch, denn 17192 gehört zu Groß Dratow u. a. im Landkreis Müritz, nicht zu Parchim. Es wird deshalb keine Koordinate gesetzt und kein Straßenmittelpunkt geraten. Quellen: https://nominatim.openstreetmap.org/search?format=jsonv2&q=Zum%20Strauchberg%208%2C%2019370%20Parchim&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/map?bbox=11.8150,53.4350,11.8400,11.4560 ; https://www.suche-postleitzahl.org/plz-gebiet/19370 ; Abruf 28.10.2026.]
 - [Recherche 28.10.2026: **Abgrenzung zum Seed-Datensatz.** Der Seed-Datensatz mv-parchim-19370-schrotthandel-parchim beschreibt eine Verzeichnisanzeige („Schrotthandel Parchim“, Juri-Gagarin-Ring 10, ohne Inhaber, Kontakt, Website oder Preise; OSM löst Juri-Gagarin-Ring 10 in Parchim 19370 auf). Der Umschlagplatz liegt an anderer Straße und hat einen anderen Betreiber; beide Datensätze bleiben nebeneinander bestehen, es erfolgt keine Gleichsetzung, kein Merge und keine Löschung. Ebenso getrennt: mv-parchim-19370-parchimer-entsorgungs-peg (historische PEG, Löschung 03.12.2012) und mv-parchim-autoverwertung-brandt-u-heye-flag-autove. Quellen: https://www.nordkurier.de/regionale-unternehmen/schrotthandel-parchim-203992 ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Juri-Gagarin-Ring%2010%2C%20Parchim ; Abruf 28.10.2026.]
 - [Recherche 28.10.2026: **Offene Punkte für den Owner.** (1) Ankauf oder nur Annahme? Der Standort ist ein Umschlagplatz eines Kies- und Entsorgungsbetriebs; ob Metallschrott gegen Vergütung angekauft wird, ist unbelegt - Klärweg: Rückfrage unter 03871 451094 oder schriftliche Bestätigung des Efb-Status mit Ankauf-Angabe. (2) Privatkunden: die ALP-Liste nennt „Gewerbeabfälle“ neben Bauschutt und Schrott, eine Privatkundenregel ist nicht veröffentlicht; der Entwurf setzt daher customer_types [gewerbe] und weist Privatkunden als ungeklärt aus. (3) Abholung beim Kunden wird nicht angeboten, pickup bleibt leer. (4) Das Verzeichnis recyclinghof-wertstoffhof.de nennt einen weiteren Standort desselben Betreibers in Weitendorf (52,9 km), der auf der Betreiberseite nicht existiert - Klärung über den Betreiber, kein Datensatz. (5) Für die Deponie Plaatz/Spoitgendorf weichen Register („An der Deponie 1“) und Betreiberseite („Glasewitzer Straße“) ab - betrifft einen anderen Standort desselben Betreibers. (6) Der Registerauszug datiert vom 11.08.2026. Quellen: read-only Produktionsabfrage `file:…public.db?mode=ro` + `PRAGMA query_only=ON` (traders, 28.10.2026) ; https://recyclinghof-wertstoffhof.de/recyclinghof/mecklenburg-vorpommern/parchim/gkm-guestrower-kies-moertel-gmbh-zum-strauchberg-8 ; Abruf 28.10.2026.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für **„Umschlagplatz Parchim", Zum Strauchberg 8,
+  19370 Parchim** existiert in OSM **kein** adressgenaues Objekt mit dieser Hausnummer; die Anschrift ist in OSM nur als
+  **Straße** erfasst. Quelle 1 (OSM, live geprüft am 04.11.2026): **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster umfasst **11.8200/53.4300 bis 11.8400/53.4600**, **4 Kacheln von je 0,01 Grad
+  (abgerufene Kacheln: 11.82/53.44, 11.82/53.45, 11.83/53.43, 11.83/53.44)**, **0 Kachel-Fehler**; das Fenster enthält
+  die gesuchte Straße **nachweislich** mit **2** Straßenobjekten auf dem „Zum Strauchberg“ (way/34230297, way/178018706)
+  sowie **0** Adressobjekten auf „Zum Strauchberg“ mit **0** verschiedenen Hausnummern () - die **Dossier-Hausnummer 8
+  existiert dort nicht**. Eine Suche nach **„GKM"**, **„Güstrower"**, **„Umschlagplatz"** und **„Strauchberg"** über die
+  Felder name, operator, brand, description, website, contact:website und addr:housename findet im Raster **keinen**
+  Treffer zu einer Betriebsstätte - es gibt **keine** OSM-Betriebszuordnung und **kein** Objekt mit
+  `addr:housenumber`=**8** auf dem „Zum Strauchberg". Quelle 2 (Betreiber/Register/Behörde, im Dossier bereits zitiert,
+  live nachgelesen am 04.11.2026): die **Betreiber-Standortseite** https://www.gkm-mv.de/standorte/ liefert **HTTP 200**
+  und nennt live „Parchim (Recyclinghof | Umschlagplatz), **Zum Strauchberg 8, 19370 Parchim**, Tel. 03871 4510 94, Fax
+  03871 4510 98, Öffnungszeiten Montag bis Freitag 07.00-16.00 Uhr, Samstag nach Absprache"; das **amtliche
+  Fachbetrieberegister** (Auszug 11.08.2026) führt an dieser Anschrift den Eintrag „Umschlagplatz Parchim", Hauptsitz
+  **GKM Güstrower Kies + Mörtel GmbH**, Zertifikatsnummer **ZZMT00400134**, zertifizierte Tätigkeiten „Lagern und
+  Verwerten" mit den Abfallschlüsseln 170401, 170402 und 170405; der **Abfallratgeber 2026** der Abfallwirtschaft
+  Ludwigslust-Parchim AöR (PDF vom 14.11.2025, Seite 52) listet „GKM GÜSTROWER KIES + MÖRTEL GmbH, **Zum Strauchberg 8,
+  19370 Parchim**" mit der Annahme von Bauschutt, Gewerbeabfällen, Asbest, Dämmung, Teerpappe, Altholz und **Schrott**.
+  **Warum keine Koordinate:** die Adresse ist durch Betreiber, amtliches Register und kommunale Abfallwirtschaft
+  dreifach **belegt**, aber in OSM existiert **kein** adressgenaues Objekt und **kein** Betriebs-Tagging; ein
+  Straßenmittelpunkt oder eine gerundete Position wäre eine **Ersatzverortung** und keine Geokodierung, die BBox-Prüfung
+  (Mittelwert innerhalb der Objekt-BBox) wäre nicht erfüllbar. Die BBox-Bedingung dieser Welle verlangt ein Objekt; es
+  fehlt. `status: pruefung` bleibt, Ankauf (Vergütung) bleibt unbelegt, Gebühren bleiben unveröffentlicht; der Datensatz
+  wird **nicht** mit dem Seed-Datensatz `mv-parchim-19370-schrotthandel-parchim` (Verzeichnisanzeige Juri-Gagarin-Ring
+  10) gleichgesetzt. **Reichweitenklausel:** das Fehlen eines OSM-Adressobjekts ist **kein** Nachweis gegen die belegte
+  Anschrift oder den Betrieb - es bedeutet nur, dass OSM die Hausnummer nicht führt. Offen bleibt die OSM-Erfassung des
+  Standorts; ohne adressgenaues Objekt wird kein Punkt gesetzt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.82,53.43,11.84,53.45 ; https://www.gkm-mv.de/standorte/ ;
+  https://alp-lup.de/media/custom/3626_100_1.PDF?1765378065 ;
+  https://schrottregister.pages.dev/betrieb-umschlagplatz-parchim-parchim (Abruf 04.11.2026).]

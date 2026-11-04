@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+GOLDhandelshaus Bremen, Sögestraße 1, 28195 Bremen: Edelmetallankauffiliale der
+Trauringschmiede Drechsel GmbH mit Sitz Abendener Straße 17, 52385 Nideggen, Geschäftsführer
+Enrico Drechsel, Amtsgericht Düren HRB 9896, die Alt- und Zahngold bewertet. Die Identität
+tragen das Impressum der Betreiberseite, der kongruente Registerspiegel und die Filialseite mit
+Anschrift, Rufnummer 0421 38028024 und den Ankaufszeiten Montag bis Samstag 11.00 bis 19.00
+Uhr; in OSM trägt das Objekt zur Hausnummer 1 den Namen Trauringschmiede. Ankaufskurse je
+Feingehalt sind im Impressum beziffert, eine Verkaufspreisliste und eine bezifferte Gebühr
+fehlen, Schätzung und Beratung sind ausdrücklich kostenlos. Offen bleiben die maskierte E-Mail
+und die uneinheitlichen Angaben zur Zahlungsart, da Filialübersicht und Verkaufsseite Bar,
+Überweisung und PayPal unterschiedlich nennen.
 
 ## Timeline
 

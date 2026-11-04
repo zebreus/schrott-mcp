@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+OM Recycling, Elsässer Weg 14, 49393 Lohne (Oldenburg): auf Kabel- und Kupferschrott
+spezialisierter Ankauf mit Sofortauszahlung, dessen Name und Tätigkeit bislang nur aus
+Branchenverzeichnissen stammen. Die Verzeichnisleads von firmenindex-deutschland, Gelben
+Seiten, Firmania, Cylex und Europages nennen einheitlich die Anschrift und die Rufnummer 04442
+7021915, ein Katalog die Betreiberdomain om-recycling.de; diese ist am 01.10. und erneut am
+31.10.2026 nicht erreichbar, weshalb der Website-Status auf tot bleibt. In OSM existiert die
+Hausnummer 14 als Adressobjekt ohne Namens- oder Betreibertag, ein Objekt mit Betriebsbezug
+fehlt dort. Ankaufpreise, Verkaufspreise und Gebühren sind nicht belegbar. Offen bleiben die
+tatsächliche Aktivität des Betriebs und die Typisierung, da Kabelrecycling als eigene Art
+geführt werden müsste.
 
 ## Timeline
 

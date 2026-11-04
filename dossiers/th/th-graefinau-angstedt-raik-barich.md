@@ -51,3 +51,48 @@ Ein einzelner Schrottplatz.org-Verzeichniseintrag nennt Raik Barich, Wiesenweg 2
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: MISS — einziger Lead: schrottplatz.org „Raik Barich“, Wiesenweg 28, 98704 Gräfinau-Angstedt, Tel. 036785/50463 (Portal-Einzelbeleg, unsicher). Keine zweite Quelle (kein Betreiber-/Register-/Kommunalbeleg). Keine Fills, weiter pruefung; Quelle(n): https://www.schrottplatz.org/ilmenau/raik-barich-5402744.html (Lead, kein Beleg)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **28** auf dem **Wiesenweg** in
+  **98704 Gräfinau-Angstedt** ist in OSM **nicht** auffindbar. Quelle 1 (OSM, live geprüft am
+  04.11.2026): das am 04.11.2026 live abgerufene Kachelraster über dem Ortsteil Gräfinau-Angstedt
+  (heute Ortsteil der Stadt Ilmenau) umfasst **10.9700/50.6600 bis 11.0300/50.7100**, **10 Kacheln
+  von je 0,01 Grad** (2 weitere Kacheln dieses Fensters waren zum Abrufzeitpunkt vom Datenlimit der
+  OSM-API nicht abrufbar), **0 Kachel-Fehler** in den abgerufenen Kacheln, **46.188 Elemente**; das
+  Fenster enthält die Straßen **Alte Gehrener Straße, Am Badeteich, Am Herrenteich, Am Torteich, Am
+  Wehr, An der Wasserleite, Ankenbachstraße, Annawerk, Apotheken-Passage, Bachweg, Brandberg,
+  Brauhausstraße, Ernst-Thälmann-Platz, Fichtenweg, Gehrener Straße, Gewerbering, Goldener Rand,
+  Gottesgelänge, Hauptstraße, Heinsestraße, Hinter den Gärten, Hinter der Schäferei, Hofgraben,
+  Hohlweg, Ilmenauer Straße, Ilmstraße, In den Folgen, In den Langen Lehden, In der Weide,
+  Karl-Marx-Straße, Kesselgrund, Kilianstraße, Kirchnersbach, Kleine Gartenstraße, Kleine Straße,
+  Klopfgasse, Margarethenstraße, Marktplatz, Mittelweg, Mönchstraße, Mühlgrabenweg, Mühlstraße, Neue
+  Steete, Peterstraße, Pforte, Randstraße, Ratsstraße, Rudolf-Breitscheid-Straße, Sandstraße,
+  Schöffengrund, Singer Straße, Stadtilmer Straße, Steete, Stiegel, Teichstraße, Tragbergstraße,
+  Wagnergasse, Weidenberg, Weidig, Wiesengrund** - **eine Straße mit `name`=Wiesenweg ist im Fenster
+  nicht enthalten**; der einzige Name mit „Wiesen“-Bezug ist **Wiesengrund** (eine andere Straße). Im
+  Fenster stehen **1.150 Adressobjekte** und **1.334 Objekte** mit `name=` oder `operator=`; eine
+  Volltextsuche über `name`, `operator`, `brand`, `description`, `note`, `shop`, `craft`, `landuse`,
+  `man_made` und `amenity` findet **keinen** Treffer zu „Barich“, „Schrott“, „Recycling“ oder
+  „Metall“. **Abgrenzung zu einer gleichnamigen Straße:** die in OSM existierende **Wiesenweg** in
+  **Ilmenau** (Kacheln 10.9000/50.6800 und 10.9100/50.6800, way/24242531, way/71166006,
+  way/71166012, way/236730788) trägt **18 Adressobjekte** mit den Hausnummern 2–24 (ohne 28) und
+  trägt in **jedem** Objekt `addr:city`=**Ilmenau** und `addr:postcode`=**98693** - sie ist damit
+  **nicht** die Dossier-Anschrift (98704 Gräfinau-Angstedt) und wird **nicht** gleichgesetzt. Quelle 2
+  (im Dossier zitiert, live nachgelesen am 04.11.2026): das Schrottplatz-Verzeichnis
+  https://www.schrottplatz.org/ilmenau/raik-barich-5402744.html liefert HTTP 200 und führt
+  **„Raik Barich, Wiesenweg 28, 98704 Gräfinau-Angstedt, Telefon 036785/50463“** (Kategorie
+  „Schrottplatz“, keine Leistungsangabe); das im Dossier zitierte amtliche Fachbetrieberegister
+  (Auszug 11.08.2026, https://schrottregister.pages.dev/ort-ilmenau) führt für Ilmenau **genau einen**
+  Betrieb - **„Scholz Recycling GmbH, Oberweg 9“** - **weder „Raik Barich“ noch die Anschrift
+  Wiesenweg 28**; da die EFB-Anerkennung freiwillig ist, ist das **kein** Nichtexistenz- und **kein**
+  Schließungsbeleg. **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist **kein** Nachweis
+  für das Fehlen des Betriebs und **kein** Nachweis für die Falschkeit der Verzeichnisadresse; umgekehrt
+  belegt die Verzeichnisadresse ohne Betreiber-, Register- oder Kommunalbeleg keine Annahmestelle und
+  erst recht keinen Schrottankauf. Es wird **keine** Koordinate gesetzt und **kein** Straßenmittelpunkt
+  geraten; `status` bleibt `pruefung`, `city`, `street`, `postcode`, `phone`, `email`,
+  `opening_hours`, `website`, `website_status` und `description` bleiben unverändert; es wird kein
+  Ankaufkurs, keine Preisliste und keine Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9700,50.6600,11.0300,50.7100 ;
+  https://www.schrottplatz.org/ilmenau/raik-barich-5402744.html ;
+  https://schrottregister.pages.dev/ort-ilmenau (Abruf 04.11.2026).]

@@ -65,3 +65,49 @@ Die Betreiberseite wagner-kies.de nennt die **Wagner Recycling GmbH**, Salinenst
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: kein Treffer - Das Oertliche Branche Recycling/Erfurt ohne Wagner-Eintrag; Domain wagner-recycling.de unregistriert/nicht aufloesbar (DNS-Fehler 02.10.2026); keine Betreiber-Website, kein Register-Beleg; keine Fills, status pruefung (Klaerfall); Quelle(n): Das-Oertliche-Branchensuche Recycling/Erfurt + DNS-Check 02.10.2026]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **91** auf der **Salinenstraße** in
+  **99085 Erfurt** ist im geprüften OSM-Raster **nicht** auffindbar; zugleich belegt die
+  Register-/Betreiberlage **keine** öffentliche Annahme an der Firmenanschrift, und die beiden
+  Bedingungen rechtfertigen **keine** Koordinate. Quelle 1 (OSM, live geprüft am 04.11.2026): das am
+  04.11.2026 live abgerufene Kachelraster umfasst **11.0200/51.0000 bis 11.0300/51.0100**, **1 Kachel
+  von je 0,01 Grad**, **0 Kachel-Fehler**, **9.666 Elemente**; das Fenster enthält die gesuchte Straße
+  **„Salinenstraße“ nachweislich** mit **9 Straßenobjekten** (way/9827351, way/13310082, way/30758819,
+  way/194137223, way/367609523, way/946217128, way/946217130, way/946217131, way/946217132;
+  tertiary/service) sowie **16 Adressobjekten** auf „Salinenstraße“ mit **16 verschiedenen
+  Hausnummern** (8, 15, 16, 17, 18, 19, 22, 24, 135, 136, 138, 139, 140, 141, 143, 144) - **die
+  Dossier-Hausnummer 91 fehlt** in dieser Kachel. **Ausdrücklicher Hinweis zur Fensterreichweite (kein
+  Fensterschluss):** die in der Kachel geführten Objekte tragen sämtlich `addr:postcode`=**99086**
+  (ein Einzelobjekt 99089), während das Dossier **99085** nennt; die Nummernfolge fällt in der Kachel
+  von **144** im Westen auf **24** im Osten, der Nummernbereich **25–134** liegt damit in der
+  **Nachbarkachel 11.0300/51.0000**, die die OSM-API zum Abrufzeitpunkt wegen ihres Datenlimits
+  (HTTP 429 „You have downloaded too much data“) **nicht** auslieferte. Aus dem geprüften Raster ist
+  deshalb **keine** Aussage darüber ableitbar, ob die Hausnummer 91 in OSM existiert; ein
+  „in OSM nicht vorhanden“ wird hier **nicht** behauptet. Ein zweites Raster über dem Erfurter
+  Südbezirk (99085) umfasst **11.0300/50.9600 bis 11.0500/50.9900**, **6 Kacheln von je 0,01 Grad**,
+  **81.930 Elemente**, **4.986 Adressobjekte**, **4.307 Objekte** mit `name=`/`operator=` und enthält
+  **keine** Straße mit `name`=Salinenstraße. Eine Volltextsuche über `name`, `operator`, `brand`,
+  `description`, `note`, `shop`, `craft`, `landuse`, `man_made` und `amenity` in beiden Rastern findet
+  **keinen** Treffer zu „Wagner“, „Recycling“, „Schrott“ oder „Metall“. Quelle 2 (Betreiber/Register,
+  im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die Betreiber-Leistungsseite
+  http://wagner-kies.de/leistungen-recycling.html liefert HTTP 200 und nennt **„Wagner Recycling GmbH,
+  Salinenstraße 91, 99085 Erfurt, HRB 113325 AG Jena, Ansprechpartner Mario Schollmeyer,
+  Telefon 0361 778810, E-Mail m.schollmeyer@wagner-kies.de“** (Lohnarbeit in der Abfallaufbereitung,
+  Verwertung, Entsorgung, mobile Brecheranlage); die NorthData-Seite
+  https://www.northdata.com/Wagner%20Recycling%20GmbH,%20Erfurt/Amtsgericht%20Jena%20HRB%20113325
+  bestätigt Rechtsträger, Anschrift und den Unternehmensgegenstand „Annahme, Aufbereitung, Sortierung
+  und Handel mit Abfallstoffen“ - **die Firmenanschrift belegt aber weiterhin keine öffentliche
+  Selbstanlieferung, keinen Eingangspunkt und keine Waage**; es wird **kein** Ankaufkurs, **keine**
+  Materialverkaufspreisliste und **kein** Gebührentarif behauptet. **Reichweitenklausel:** das Fehlen
+  eines Betriebsobjekts in OSM ist **kein** Nachweis für das Fehlen des Betriebs und **kein** Nachweis
+  für eine Schließung; umgekehrt belegt die Firmenanschrift ohne Beleg der öffentlichen Annahme keine
+  Kundestelle. Es wird **keine** Koordinate gesetzt und **kein** Straßenmittelpunkt geraten; `status`
+  bleibt `pruefung`, `city`, `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`,
+  `website_status` und `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.0200,51.0000,11.0300,51.0100 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.0300,50.9600,11.0500,50.9900 ;
+  http://wagner-kies.de/leistungen-recycling.html ;
+  https://www.northdata.com/Wagner%20Recycling%20GmbH,%20Erfurt/Amtsgericht%20Jena%20HRB%20113325
+  (Abruf 04.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: th-gera-rova-pax-ltd
+lat: 50.8661688
+lon: 12.0404775
 name: RoVa PaX Ltd.
 trader_type: schrotthaendler
 state: TH
@@ -15,7 +17,7 @@ status: pruefung
 description: 'Registergegenstand der Geraer Zweigniederlassung: An- und Verkauf von Schrott/Buntmetallen einschließlich Transport; konkrete lokale Leistungen/Annahme nicht unabhängig aktuell bestätigt.'
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'geo,phone'
+clear_fields: 'phone'
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
 provenance_ankauf_raw: Ankauf unklar
 provenance_origin: table
@@ -60,3 +62,47 @@ ROVA PAX LIMITED ist bei Companies House unter Nr. 06400127 aktiv; das britische
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Stark belegt — Stadtrodaer Str. 1, 07548 Gera(-Scheubengrobsdorf), Tel. 0171 9621218 (Gelbe Seiten + schrottplatz-info.de + marktplatz-mittelstand.de, konsistent); Register: UK Limited (Companies House 06400127) mit Zweigniederlassung HRB 502447 (AG Jena), Gegenstand u.a. Großhandel Altmaterialien/Reststoffe (northdata.de, stark); Leistungen Stahl/NE, Abbruch, Industriedemontage, Container (schrottplatz.org). Fills: street, postcode, phone, description; status → aktiv (Register + GS + Konsistenz). Quelle(n): northdata.de (Register, stark); gelbeseiten.de + schrottplatz-info.de (Adress-/Tel.-Konsistenz, Leads); schrottplatz.org (Leistungen, Lead)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.8661688/12.0404775** (Mittel der 5 eindeutigen Knoten von
+  way/150801285; der Punkt liegt innerhalb der Objekt-BBox
+  50.8661334/12.0404137–50.8662202/12.0405472). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/150801285** trägt `addr:street`=Stadtrodaer Straße, `addr:housenumber`=**1**,
+  `addr:postcode`=07548, `addr:city`=Gera, `addr:suburb`=Windischenbernsdorf, `building`=residential -
+  Straße, Hausnummer, PLZ und Ort stimmen mit der im Dossier dokumentierten **Registeranschrift
+  Stadtrodaer Str. 1, 07548 Gera** überein. Das Objekt trägt **weder `name=` noch `operator=`**; es ist
+  die **Adressangabe** eines Wohngebäudes, kein Betriebs-POI. Quelle 2 (Register, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): die NorthData-Unternehmensseite
+  https://www.northdata.de/Rova%20PAX%20Ltd%C2%B7,%20Gera,%20DE/Companies%20House%2006400127
+  liefert HTTP 200 und nennt **„Rova PAX Ltd., Gera, Companies House 06400127, Amtsgericht Jena
+  HRB 502447, EUID DEY1206V.HRB502447, Sitz: Gera, Straße: Stadtrodaer Str. 1, D-07548 Gera,
+  Gegenstand: Großhandel mit Altmaterialien und Reststoffen“** - die Dossier-Adresse ist damit
+  registergestützt bestätigt. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster umfasst **12.0400/50.8600 bis 12.0500/50.8700**, **1 Kachel von je 0,01
+  Grad**, **0 Kachel-Fehler**, **1.365 Elemente**; das Fenster enthält die gesuchte Straße
+  **„Stadtrodaer Straße“ nachweislich** mit den drei Straßenobjekten **way/156438510**,
+  **way/288616344** und **way/724765600** (alle `highway`=secondary) sowie **1 Adressobjekt** auf
+  „Stadtrodaer Straße“ mit **1** verschiedenen Hausnummer (**1**) - die **Dossier-Hausnummer 1
+  existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße.
+  **Negativaussage, qualifiziert:** im Raster tragen **60 Objekte** `name=` oder `operator=`,
+  **mit Bezug zu „RoVa“, „PaX“, „Schrott“, „Altmetall“ oder „Recycling“ trifft es auf 0 Objekte** -
+  die Zweigniederlassung ist in OSM **nicht** kartiert; der Punkt bezeichnet ausschließlich die
+  **Registeranschrift**. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo,phone'`
+  wurde auf **`'phone'`** gekürzt - das Token `geo` ist **entfernt**, weil es den am 27.10.2026
+  zurückgenommenen und nachweislich falschen Produktionspunkt (50.86395/12.08895 = Wohngebäude
+  Meuselwitzer Straße 33a, 07546 Gera) fernhalten sollte; das Token `phone` bleibt **unverändert**
+  bestehen, weil die Seed-Mobilnummer nur aggregatorenbelegt ist. `clear_fields` darf nicht
+  gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. **Qualifizierung (unverändert übernommen):**
+  Der Punkt bezeichnet die **registrierte Anschrift**, **nicht** eine belegte öffentliche
+  Annahmestelle, keinen Standort mit Personal und keinen geprüften Betrieb; das amtliche
+  Fachbetrieberegister führt für Gera (07548, 07551, 07552) nur Gerd Winkler, Infinex Repoly, SMH
+  Schrott- und Metallhandels GmbH und Scholz Recycling, **keinen** Eintrag für RoVa PaX - das bleibt
+  ein Negativbefund ohne Beweiswert (EFB-Anerkennung ist freiwillig). `status` bleibt `pruefung`,
+  `street`, `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und
+  `description` bleiben unverändert; es wird kein Ankaufkurs, keine Preisliste und keine Gebühr
+  behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/150801285/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.0400,50.8600,12.0500,50.8700 ;
+  https://www.northdata.de/Rova%20PAX%20Ltd%C2%B7,%20Gera,%20DE/Companies%20House%2006400127
+  (Abruf 04.11.2026).]

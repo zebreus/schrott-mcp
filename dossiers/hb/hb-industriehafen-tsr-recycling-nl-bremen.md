@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG, Niederlassung Bremen, Waterbergstraße 6, 28237
+Bremen-Industriehäfen: gewerblicher Schrottabnehmer mit Containerdienst, Lagerung und einer
+Schrottschere mit Paketpresse, Baggersortierung und Brennschneiden. Die Identität tragen das
+Impressum mit Registergericht Dortmund HRA 19743 und der persönlich haftenden TSR Deutschland
+Verwaltungs GmbH HRB 36274 sowie das Entsorgungsfachbetriebs-Zertifikat der EdDE mit der Nummer
+0679, gültig bis 18.08.2027, das dem Standort die Anlagen 4 bis 6 zuordnet. Ankaufpreise je
+Sorte werden nicht veröffentlicht, der Standort tritt nur als Abnehmer auf, eine öffentliche
+Annahmegebühr ist nicht belegt, und die Privatkundenannahme ist ausgeschlossen. Offen bleibt
+der Standortnachweis: Die Hausnummer 6 existiert in OSM auf der Waterbergstraße nicht, und ein
+Objekt mit Betriebsbezug fehlt dort ebenfalls.
 
 ## Timeline
 

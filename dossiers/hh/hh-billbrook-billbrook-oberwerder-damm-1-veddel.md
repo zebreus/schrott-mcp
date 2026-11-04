@@ -1,5 +1,7 @@
 ---
 slug: hh-billbrook-billbrook-oberwerder-damm-1-veddel
+lat: 53.5250819
+lon: 10.0837413
 name: HEG Hamburger Entsorgungsgesellschaft mbH
 trader_type: containerdienst
 state: HH
@@ -99,3 +101,49 @@ hh-veddel-remex-nord-gmbh ausgelagert. Der Slug dieser Zeile bleibt unveraendert
   https://www.northdata.de/HEG+Hamburger+Entsorgungsgesellschaft+mbH,+Hamburg/HRB+53960 ;
   https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9700,53.4900,10.0350,53.5350 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt - die Negativaussage der Vorwelle war ein Fensterfehler.** Die amtliche Beleglage ist
+  unverändert stark (Das **amtliche Branchenbuch der Stadt Hamburg**, Eintragsnummer **10220456**, live abgerufen
+  04.11.2026, „Letzte Aktualisierung: 02.11.2026": „HEG Hamburger Entsorgungsgesellschaft mbH", Kategorie „Container
+  und Entsorgung", **„Bredowstraße 13, 22113 Hamburg (Billbrook)"**, Telefon **040 / 257 620 70**, Telefax 040 / 257
+  620 75, E-Mail heg@srhh.de, Website heg.hamburg; der Registerspiegel NorthData HRB 53960 AG Hamburg nennt denselben
+  Rechtsträger und dieselbe Anschrift). **Der Vermerk vom 03.11.2026 war falsch platziert:** Das dort abgetastete
+  Kachelraster 9.9700-10.0350 / 53.4900-53.5350 liegt rund **4 km westlich** der Bredowstraße und erfasste deshalb
+  weder die Straße noch eine Hausnummer; das war ein **Fensterfehler**, kein Datenbefund. **Korrigiertes Fenster
+  (live, vollständig): 10.0734/53.5148 bis 10.0934/53.5348**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält die gesuchte Straße
+  **nachweislich**: die **Bredowstraße** ist mit **11** Straßenobjekten darin erfasst (way/25349333, way/5012736,
+  way/5183130, way/31003058, way/31145276, way/570706477, way/651999428, way/651999432, way/652936216, way/652936218,
+  way/5012725; dazu die Abschnittsnamen „Bredowstraße (Mitte)" sowie die Querstraßen Borsigstraße, Halskestraße,
+  Liebigstraße, Andreas-Meyer-Straße, Grusonstraße, Moorfleeter Straße, Werner-Siemens-Straße, Porgesring). **Census
+  im Fenster:** **21** Adressobjekte mit `addr:street`=Bredowstraße und **20** verschiedenen Hausnummern (4, 6, 8, 9,
+  10, 11, 12, **13**, 14, 15, 16, 17, 17C, 18, 19, 20, 21, 25, 28, 29) - die **Dossier-Hausnummer 13 existiert** in
+  OSM. **Quelle 1 (OSM-Objekt, live geladen 04.11.2026):** **way/24895562**
+  (https://api.openstreetmap.org/api/0.6/way/24895562/full.json) trägt `addr:housenumber`=**13**,
+  `addr:street`=**Bredowstraße**, `building`=yes, Version 4 (Stand 05.10.2014); das Objekt hat **7** eindeutige
+  Knoten, der **Mittelwert der eindeutigen Knoten** ist **53.5250819 / 10.0837413**, die Objekt-BBox ist
+  53.5247243/10.0831436 bis 53.5255252/10.0843487, der Punkt liegt **innerhalb** der BBox. **Quelle 2 (amtliche
+  Betreiber-/Registerquelle, live):** Das Branchenbuch trägt für den Eintrag die Kartenkoordinate
+  **53.524817594951635 / 10.083381369695534** - das liegt nur rund **30 m** vom OSM-Objekt entfernt und bestätigt
+  Adresse und Lage unabhängig; der Registerspiegel (NorthData, HRB 53960 AG Hamburg) deckt Rechtsträger und Anschrift
+  ein zweites Mal. **Koordinate:** `lat`/`lon` = **53.5250819 / 10.0837413** (Mittelwert der eindeutigen Knoten von
+  way/24895562, innerhalb der Objekt-BBox). **Abgrenzung ohne Bezug:** Im selben Fenster liegt **way/938836099 „Rafi
+  Recycling & Autoteile"** - ein **anderer** Betrieb; es erfolgt **kein** Merge. **Wichtige Abgrenzung, unverändert
+  übernommen:** Die gebührenfreie Schrott-/Kabel-/Buntmetallannahme der Stadtreinigung gilt für ihre
+  **Recyclinghöfe**, und der **Recyclinghof Billbrook liegt an der Liebigstraße 66**, also an einer **anderen**
+  Anschrift als die Geschäftsanschrift Bredowstraße 13; die gesetzte Koordinate bezeichnet die **Geschäftsanschrift**
+  und belegt **weder** einen Annahmeplatz **noch** einen Ankauf. **Reichweite / Fehlbelegklausel:** Die
+  OSM-Hausnummer **13** belegt **nur das Gebäude** an dieser Nummer, **keinen** Betrieb; der **Nichteintrag** im
+  amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist **kein** Nachweis, dass die HEG dort keinen Betrieb führt,
+  weil die Efb-Anerkennung **freiwillig** ist; Ankaufspreise, Verkaufspreise und Gebührentarife bleiben **unbelegt**.
+  `status: pruefung`, `street`/`postcode`, Telefon/E-Mail, `website_status: blockiert` und alle übrigen
+  Frontmatter-Felder bleiben unverändert; `clear_fields` war in diesem Dossier nicht gesetzt und wird **nicht**
+  ergänzt; der Vermerk vom 03.11.2026 bleibt **wortgleich** erhalten und wird durch diesen Vermerk
+  **fortgeschrieben** (dessen Aussage „keine Koordinate gesetzt" galt dem fehlerhaft platzierten Fenster, nicht der
+  Adresse). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0734,53.5148,10.0934,53.5348 ;
+  https://api.openstreetmap.org/api/0.6/way/24895562/full.json ;
+  https://www.hamburg.de/branchenbuch/hamburg/eintrag/10220456/ ;
+  https://www.northdata.de/HEG+Hamburger+Entsorgungsgesellschaft+mbH,+Hamburg/HRB+53960 ;
+  https://files.stadtreinigung.hamburg/SRH_25_028_Info_Broschuere_2026_Web.pdf (Abruf 04.11.2026).]

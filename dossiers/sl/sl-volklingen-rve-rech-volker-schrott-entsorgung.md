@@ -1,5 +1,7 @@
 ---
 slug: sl-volklingen-rve-rech-volker-schrott-entsorgung
+lat: 49.2449770
+lon: 6.8870897
 name: RVE Rech Volker Schrott-Entsorgung
 trader_type: schrotthaendler
 state: SL
@@ -15,7 +17,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'dropoff_json,geo'
+clear_fields: 'dropoff_json'
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
 provenance_ankauf_raw: 'ja (ab Mindestmenge: Schrott 300 kg / Metalle 5 kg)'
 provenance_origin: table
@@ -71,3 +73,46 @@ Der Blog ist aktuell erreichbar, enthält datierte Posts bis Januar 2026 und ide
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Kein neuer Beleg — Blogspot-Reverify (schrott-entsorgung.blogspot.com) per Abruf 02.10.2026 fehlgeschlagen (429/limitiert), kein 2. unabhängiger Beleg für Hausen 49 / 06898/4420217 auffindbar → kein Frontmatter-Fill, status aktiv unverändert (Betreiber-Blog aus 01.10.2026 als einzige Quelle). Quelle(n): keine neue (Reverify-Versuch 02.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.2449770/6.8870897** (Mittel der 4 eindeutigen Knoten von
+  way/303711514; der Punkt liegt innerhalb der Objekt-BBox
+  49.2449270/6.8870303–49.2450284/6.8871528). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/303711514** trägt `addr:street`=Hausenstraße, `addr:housenumber`=**49**,
+  `addr:postcode`=66333, `addr:city`=Völklingen, `addr:country`=DE und `building`=yes - Straße,
+  Hausnummer, PLZ und Ort stimmen mit der im Dossier dokumentierten Adresse **Hausen 49,
+  66333 Völklingen** überein. Das Objekt trägt **weder `name=` noch `operator=`**; es ist eine
+  **Adressangabe** eines Gebäudes, kein Betriebs-POI. Quelle 2 (Betreiber, im Dossier bereits
+  zitiert, live nachgelesen am 04.11.2026): der Betreiberblog
+  https://schrott-entsorgung.blogspot.com/ liefert HTTP 200 und nennt im Beitrag „Visitenkarte“
+  **„R V E Rech Volker, Hausen 49, 66333 Völklingen, Tel 06898/442017, Web schrott-saar.de“** (auch
+  im Seitenkopf „Schrott Entsorgung im Saarland R V E Rech Volker, Hausen 49, 66333 Völklingen“).
+  Das ist der Betreiberauftritt selbst; die im Dossier dokumentierte zweite Seite
+  (Jimdo-Kontakt) ist **keine** unabhängige Quelle und wird hier nicht als solche geführt.
+  **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst
+  **6.8800/49.2400 bis 6.8900/49.2500**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**,
+  **3.999 Elemente**; das Fenster enthält die gesuchte Straße **„Hausenstraße“ nachweislich** mit den
+  vier Straßenobjekten **way/24423764**, **way/24423765**, **way/30434238** und **way/1444971255**
+  (alle `highway`=residential) sowie **53 Adressobjekten** auf „Hausenstraße“ mit **53 verschiedenen
+  Hausnummern** (1–68 sowie 2a, 7a, 48a, 48b, 50a, 50b, 52a, 52b, 54a, 54b, 56a, 56b, 58a, 58b, 60a,
+  60b, 62a, 62b, 64a, 64b, 67a, 67b) - die **Dossier-Hausnummer 49 existiert** und ist im Raster das
+  einzige Objekt mit dieser Nummer auf dieser Straße. **Negativaussage, qualifiziert:** im Raster
+  tragen **135 Objekte** `name=` oder `operator=`; **mit Bezug zu „Rech“, „RVE“, „Schrott“ oder
+  „Entsorgung“** trifft es auf **kein** Objekt dieser Adresse - der Betrieb ist in OSM **nicht**
+  kartiert; der Punkt bezeichnet ausschließlich die betreiberseitig genannte Anschrift.
+  **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'dropoff_json,geo'` wurde auf
+  **`'dropoff_json'`** gekürzt - das Token `geo` ist **entfernt**, weil es den am 25.10.2026
+  zurückgenommenen und nachweislich falschen Produktionspunkt (49.2516/6.8587 = Parkplatz
+  Rathausplatz, Völklingen) fernhalten sollte; das Token `dropoff_json` bleibt **unverändert**
+  bestehen, weil die allgemeine Annahmezusage weiterhin nicht belegt ist. `clear_fields` darf nicht
+  gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. **Qualifizierung (unverändert übernommen):**
+  Der Punkt bezeichnet die **vom Betreiber selbst genannte Anschrift**, **nicht** einen geprüften
+  Annahmehof, eine Waage oder eine öffentliche Schrottannahme; der im Dossier offene Punkt der
+  fehlenden zweiten unabhängigen Belegquelle, die uneinheitlichen Kontaktdaten und die unklare
+  Betreiberidentität bleiben unverändert dokumentiert, ebenso `status: pruefung`, `street`,
+  `postcode`, `phone`, `email`, `opening_hours`, `website`, `website_status` und `description`. Es
+  wird kein Ankaufkurs, keine Mindestmenge, keine Preisliste und keine Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/303711514/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8800,49.2400,6.8900,49.2500 ;
+  https://schrott-entsorgung.blogspot.com/ (Abruf 04.11.2026).]

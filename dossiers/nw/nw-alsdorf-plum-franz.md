@@ -27,7 +27,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Franz Plum GmbH & Co. KG, Carl-Zeiss-Straße 9, 52477 Alsdorf: Schrott- und
+Nichteisenmetall-Großhandel mit Containerdienst und Industriedemontagen, der Kleinmengen
+Nichteisenmetalle am Sitz und am Schrottplatz Am Güterbahnhof 5 annimmt. Die Rechtsidentität
+belegen Betreiberimpressum und Registerspiegel mit Amtsgericht Aachen HRA 3432, die Tätigkeit
+das ESN-Zertifikat 16-060542(26), gültig bis 30.11.2027, das dem Sitz eine Anlage für Sammeln
+und Befördern zuordnet, sowie das ISO-9001-Zertifikat des TÜV Rheinland. Ankaufpreise sind
+nicht veröffentlicht. Offen bleiben die Dublettenfrage zu einem weiteren Dossier mit derselben
+Nummer und Anschrift und der fehlende Nachweis einer Demontagebetriebs-Anerkennung, da die
+Altfahrzeugverwertungs-Route an dieser Adresse keinen Treffer liefert.
 
 ## Timeline
 

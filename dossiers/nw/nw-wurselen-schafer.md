@@ -1,6 +1,7 @@
 ---
 slug: nw-wurselen-schafer
-clear_fields: 'geo'
+lat: 50.8135828
+lon: 6.1154552
 name: Schäfer
 trader_type: schrotthaendler
 state: NW
@@ -60,3 +61,43 @@ Der Seed-Name "Schaefer" lässt sich in Wurselen keinem anerkannten Betrieb zuor
 - [30.10.2026 (Korrekturvermerk):  **OSM-Tag-Zitat berichtigt**: die zitierten Objekte way/25413408 und way/834944966 tragen live `name=Südstraße`; die im Dossier verwendete Schreibweise war eine Transliteration (Umschrift ohne Umlaut). Quelle(n): https://api.openstreetmap.org/api/0.6/way/25413408/full ;]
 
 - [30.10.2026 (Korrekturvermerk): **Bereichsnotation der Hausnummern berichtigt**: die Angabe „2 bis 120 in Einzelschritten sowie 2a, 2b, 4a, 5a, 6a, 6b, 8a, 8b, 43a, 44a“ (implizit 119 numerische Werte zuzüglich 10 Buchstabenhausnummern) wurde durch die einzeln aufgelöste **Live-Liste der 102 verschiedenen Hausnummern** ersetzt; die Objektzahl (102) und die Zahl der verschiedenen Hausnummern (102) bleiben unverändert. In der Spanne 2 bis 120 existieren live **nicht** 22, 25, 30, 32, 34, 50, 51, 55, 58, 61, 63, 72, 73, 74, 75, 76, 77, 79, 86, 103, 109, 110, 111, 113, 115, 117, 119; die Buchstabenhausnummern 2a, 2b, 4a, 5a, 6a, 6b, 8a, 8b, 43a und 44a existieren live. Raster: bbox 6.1134372,50.8124610,6.1160298,50.8188533 (Bbox der beiden im Dossier genannten Strassen-Ways way/25413408 und way/834944966 zuzueglich 0,0006 Grad Rand), Strasse „Südstraße“ (im Dossier transliteriert „Südstraße“). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.1134372,50.8124610,6.1160298,50.8188533 (Abruf 30.10.2026)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt: 50.8135828, 6.1154552** (Mittelwert der eindeutigen Knoten des
+  Objekts **node/4718095954**; bei einem Node ist der eindeutige Knoten der Objektknoten selbst, der Punkt liegt
+  im eigenen BBox 6.1154552/50.8135828 bis 6.1154552/50.8135828). **Quelle 1 (OSM, live geladen am 04.11.2026,
+  HTTP 200):** **node/4718095954** trägt `addr:street`=Südstraße, `addr:housenumber`=**99**, `addr:city`=Würselen,
+  `addr:postcode`=52146 - Straße, Hausnummer, PLZ und Ort stimmen mit der im Dossier belegten Seed-Adresse
+  **Südstr. 99, 52146 Würselen** überein. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live
+  abgerufene Kachelraster umfasst **6.1000/50.8000 bis 6.1300/50.8300**, **9 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit dem Straßenobjekt **way/25413408**
+  (`highway`=residential, `name`=**Südstraße**, 18 eindeutige Knoten, live über die Objektabfrage geprüft) sowie
+  **102** Adressobjekten auf „Südstraße" mit **102** verschiedenen Hausnummern (2, 2a, 2b, 3, 4, 4a, 5, 5a, 6, 6a,
+  6b, 7, 8, 8a, 8b, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 26, 27, 28, 29, 31, 33, 35, 36, 37,
+  38, 39, 40, 41, 42, 43, 43a, 44, 44a, 45, 46, 47, 48, 49, 52, 53, 54, 56, 57, 59, 60, 62, 64, 65, 66, 67, 68, 69,
+  70, 71, 78, 80, 81, 82, 83, 84, 85, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, **99**, 100, 101, 102, 104,
+  105, 106, 107, 108, 112, 114, 116, 118, 120) - die **Dossier-Hausnummer 99 existiert** und ist im Raster das
+  einzige Objekt mit dieser Nummer auf dieser Straße. Eine Namenssuche nach **„Schäfer"**, **„Schrott"** und
+  **„Recycling"** über die Felder name, operator, description, website, contact:website, brand, note und
+  addr:housename findet im Raster **keinen** Treffer mit Bezug zu einem Würselener Schrotthandel; der einzige
+  Namens-/Marken-Treffer **way/117906439** (`name`=Schäfer fulfillment, `addr:city`=Aachen, `addr:street`=
+  Strangenhäuschen, `addr:housenumber`=26, `addr:postcode`=52070) liegt **in Aachen, nicht in Würselen**, und ist
+  für diesen Seed nicht einschlägig; es gibt also **keine** OSM-Betriebszuordnung, nur die Adressangabe. Quelle 2
+  (Betreiber/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **11880-Verzeichnissuche**
+  liefert **HTTP 200** und führt live **„A. Schäfer Schrotthandel“** mit den Branchen Altmaterialhandel,
+  Schrotthandel und Recycling an **Südstr. 99, 52146 Würselen** - die Dossier-Adresse ist damit verzeichnisgedeckt.
+  **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` **entfällt ersatzlos**, weil der Seed jetzt
+  eine belegte Koordinate führt; der Seed lehnt ein `geo`-Clear neben belegtem `lat`/`lon` ab, und der Punkt liegt
+  exakt auf der durch zwei unabhängige Quellen gedeckten Anschrift. **Qualifizierung (unverändert übernommen):** Der
+  Punkt bezeichnet die **verzeichnisgestützte Anschrift**, keinen verifizierten Annahmehof; die im Dossier
+  dokumentierte **Namensdifferenz** (zwei 11880-Profile „A. Schäfer Schrotthandel" 02405 84441 und „Schäfer Albert
+  Theodor SchrottgroßHdl. Containerdienst" 02405 82414 an derselben Straße, ferner die fehlende Zuordnung des
+  Seed-Kurznames „Schäfer") bleibt offen, ebenso dass das amtliche Fachbetrieberegister in 52146 Würselen nur die
+  **BHR Baumaschinenbetrieb** GmbH ausweist - das ist **kein** Beleg für die Abwesenheit eines Gewerbebetriebs.
+  `status: pruefung`, `city`, `street` (leer), `postcode` (leer), `phone` (leer), `email`,
+  `opening_hours`, `website`, `website_status` und `description` bleiben unverändert; es wird weder Fortbestand noch
+  Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/node/4718095954.json ;
+  https://api.openstreetmap.org/api/0.6/way/25413408/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.1000,50.8000,6.1300,50.8300 ;
+  https://www.11880.com/branchenbuch/wurselen/060440092B112095313/a-schaefer-schrotthandel.html (Abruf 04.11.2026).]

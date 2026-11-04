@@ -70,3 +70,46 @@ Verzeichnisse beschreiben „PC-Schrott 24“ als Computer-/E-Schrottbetrieb und
 ### Recherche 08.10.2026
 
 - [Recherche 08.10.2026: koeln.de-Detailseite vollständig live gelesen: weiterhin nur Branchenbucheintrag Entsorgungsbetriebe, Am Senkelsgraben 26, 53842 Troisdorf, 01577 5305555, Eintrag ändern/Firma kostenlos eintragen. Das ist kein kommunaler Gewerbe- oder Betreiberbeleg. Betreiber-/Impressumssuche führt außerdem zu Schrott24/Metaloop (Graz): namensähnliche Plattform, nicht PC-Schrott 24 in Troisdorf. Keine Plattformpreise auf diesen Händler übertragen. Frontmatter unverändert, status pruefung, Betreiber/aktueller Hof/Annahmevergütung offen; keine Ankauf-, Verkauf- oder Gebührenliste verifiziert. Quelle(n): https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24 ; https://en.schrott24.de/faq/about-us/ (nur Suchlead zur Abgrenzung, kein PC-Schrott-Beleg)]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Für „PC-Schrott 24" liegen **zwei
+  widersprüchliche Anschriften** vor (koeln.de-Branchenverzeichnis: **Am Senkelsgraben 26, 53842 Troisdorf**;
+  11880-Detailseite: **Adam-Riese-Str. 13 A, 53842 Troisdorf-Oberlar**), beide mit derselben Nummer
+  **01577 5305555**, und **kein** Betreiber- oder Registerbeleg löst den Widerspruch. **Was live geprüft wurde
+  (04.11.2026):** Das am 04.11.2026 live abgerufene Kachelraster über Troisdorf-Spich umfasst
+  **7.1100/50.8350 bis 7.1200/50.8450**, **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**; es enthält die Straße
+  **„Am Senkelsgraben"** nachweislich mit den Straßenobjekten **way/22381910**, **way/105177575**,
+  **way/105588778** und **way/1001347803** sowie **25** Adressobjekten mit den Hausnummern 2, 4, 5, 6, 7, 8, 9, 10,
+  11, 12, 13, 14, 14a, 14b, 15, 16, 17, 18, 20 (zweifach), 21, 23, 24, 25 und **26**. Die **Dossier-Hausnummer 26
+  existiert** als **way/718778560** mit `addr:street`=Am Senkelsgraben, `addr:housenumber`=26, `addr:city`=Troisdorf,
+  `addr:postcode`=53842, `addr:suburb`=Spich, `description`=**„in Planung"**, `proposed:building`=yes und
+  `source`=daten.stadttroisdorf - das Objekt ist damit ein **geplantes, noch nicht realisiertes Gebäude** und kein
+  bestehender Betriebsstandort. Ein zweites Raster über Troisdorf-Oberlar umfasst **7.1200/50.7900 bis
+  7.1500/50.8200**, **9 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; es enthält die **Adam-Riese-Straße**
+  nachweislich mit **15** Adressobjekten und den Hausnummern 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 18 und 22 -
+  eine **Hausnummer „13 A" existiert dort nicht** (nur „13"). Eine Namenssuche nach **„PC-Schrott"** über die Felder
+  name, operator, description, website, contact:website, brand, note und addr:housename findet in **beiden** Rastern
+  **keinen** Treffer; die benannten Objekte dort sind andere Betriebe (u. a. „W. Müller GmbH", „Breuer GmbH",
+  „Blum-Tief", „Haus des Troisdorfer Karneval", „ZVG"). Quelle 1 (OSM): das live abgerufene Kachelraster
+  7.1100/50.8350–7.1200/50.8450 mit **way/718778560** (`proposed:building`, „in Planung") sowie das Raster
+  7.1200/50.7900–7.1500/50.8200 mit der **Adam-Riese-Straße** **ohne** Hausnummer „13 A". Quelle 2 (Verzeichnis, im
+  Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **koeln.de-Branchenverzeichnis** liefert
+  **HTTP 200** und führt live **„PC - Schrott 24"** (Rubrik Entsorgungsbetriebe) an **Am Senkelsgraben 26, 53842
+  Troisdorf**, Telefon **01577 5305555**; die **11880-Detailseite** liefert **HTTP 200** und nennt live
+  **„PC-Schrott 24, Adam-Riese-Str. 13 A, 53842 Troisdorf-Oberlar"** mit derselben Nummer, `geisterbrummi@gmail.com`
+  und Mo–Fr 09:00–15:00 (Eintragsdaten 30.03.2026, Portalaktualisierung 15.10.2026) - beide sind **Verzeichnisleads**.
+  **Warum keine Koordinate:** (a) die beiden Verzeichnisangaben widersprechen einander, ohne dass eine
+  Betreiber- oder Registerquelle sie auflöst; (b) die Adresse der Frontmatter (**Am Senkelsgraben 26**) ist in OSM
+  ein **geplantes Gebäude** („in Planung", `proposed:building`) und damit **kein** realisierter Standort; (c) für die
+  zweite Anschrift (Adam-Riese-Str. 13 A) existiert **kein** Objekt mit dieser Hausnummer. **Reichweitenklausel:**
+  Das **Fehlen der Hausnummer 13 A** in OSM ist **kein** Nachweis für das Fehlen des Betriebs - es belegt nur, dass
+  diese Schreibweise dort nicht abgebildet ist. **Was zur Auflösung fehlt:** ein lesbarer Betreiberauftritt
+  (Impressum mit Rechtsträger) oder ein Registereintrag, der die Anschrift klärt und bestätigt, dass der Betrieb
+  an dieser Stelle tatsächlich besteht; ergänzend die Klärung, welche der beiden Verzeichnisanschriften gilt.
+  `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch
+  Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/way/718778560/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1100,50.8350,7.1200,50.8450 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1200,50.7900,7.1500,50.8200 ;
+  https://www.koeln.de/branchen/eintrag/58727/entsorgungsbetriebe/pc-schrott-24 ;
+  https://www.11880.com/branchenbuch/troisdorf/060441364B107305703/pc-schrott-24.html (Abruf 04.11.2026).]

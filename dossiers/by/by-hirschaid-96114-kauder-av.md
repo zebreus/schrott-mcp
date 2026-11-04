@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Kauder, Jägerstraße 8, 96114 Hirschaid: Autoverwertung mit Unfallwagenankauf und
+Abholung, Altauto-Recycling und Ersatzteilhandel für Motoren, Getriebe, Karosserieteile sowie
+Reifen und Felgen, geführt von Inhaber Christian Kauder. Die Kontakt- und Impressumsseiten der
+Betreiberwebsite belegen Anschrift, Rufnummer 09543 3300 und die Öffnungszeiten Montag bis
+Freitag 08:00 bis 12:00 und 12:30 bis 16:45 Uhr sowie Samstag 08:30 bis 11:45 Uhr; das
+Verzeichnis Das Örtliche nennt denselben Betrieb mit derselben Anschrift. Eine unabhängige
+zweite Quelle zu den Leistungen wurde nicht gefunden, die E-Mail-Adresse steht nur auf der
+Betreiberseite, und die im Impressum genannte abweichende Domain wurde nicht geprüft. Offen
+bleiben damit die Beleggrenze der Tätigkeit und die in einem Verzeichnis abweichend genannte
+Mittagspause.
 
 ## Timeline
 

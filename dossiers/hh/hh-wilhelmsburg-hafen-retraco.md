@@ -118,3 +118,47 @@ RETRACO GmbH, Hamburg HRB 136833, ist über Betreiber-AGB und Northdata an Neuh�
   https://api.openstreetmap.org/api/0.6/relation/2064796/full.json ;
   https://retraco-gmbh.com/agb-einkauf.pdf ; https://retraco-gmbh.com/agb-verkauf.pdf ;
   https://schrottregister.pages.dev/betrieb-retraco-gmbh-hamburg (Abruf 04.11.2026).]
+
+### Geokodierung 04.11.2026 (Nachprüfung)
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom 04.11.2026 mit einem enger
+  gefassten Fenster und schließt die verbliebene Adresslücke aus.** Die Betreiberquelle ist unverändert belastbar:
+  Die **Einkaufs-AGB der RETRACO GmbH** (PDF, live abgerufen 04.11.2026, https://retraco-gmbh.com/agb-einkauf.pdf)
+  nennen in § 1 „**Vertragspartner des Lieferanten/Verkäufers ist die RETRACO GmbH, Neuhöfer Damm 110, 21107 Hamburg,
+  Handelsregister Hamburg - HRB 136833**"; Dossier-Adresse, PLZ und Register-Nr. sind damit betreiberseitig gedeckt
+  (der im Dossier dokumentierte Telefonkonflikt bleibt unberührt, die Kontaktfelder bleiben leer). **Quelle 1 (OSM,
+  live abgerufen am 04.11.2026):** das Kachelraster über den Wilhelmsburger Hafen umfasst **9.9580/53.5030 bis
+  9.9780/53.5230**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** (api.openstreetmap.org/api/0.6/map.json); das
+  Fenster enthält die gesuchte Straße **nachweislich**: die **Neuhöfer Damm** ist mit **36** Straßenobjekten darin
+  erfasst (way/306524276, way/594761566, way/594761567, way/594761572, way/30992180, way/30998183, way/795948500 bis
+  way/795948503, way/30992181, way/30992182, way/30997722, way/30997723, way/193891555, way/193891556, way/536703971,
+  way/536703972, way/536703973, way/795934587, way/795934588, way/795948499, way/1481563149, way/18499228,
+  way/18499229, way/18574651, way/23329726, way/27941145, way/27941147, relation/8306828 sowie die Stützpunktknoten
+  node/5368259707, node/5756421038, node/660061316, node/5624778299, node/5624778321, node/660080481). **Census im
+  Fenster:** nur **5** Adressobjekte mit `addr:street`=Neuhöfer Damm und `addr:postcode`=21107: **95**
+  (way/148037036, `name`=„Schule Neuhof", `building`=school, `operator`=Hamburg Port Authority), **104**
+  (way/795950681, `building`=office), **109** (way/296779654, `building`=apartments), **116** (way/1410325602,
+  `building`=office) und **117** (way/795950677, `building`=yes) - ein Objekt mit `addr:housenumber`=**110 existiert
+  nicht**, auch in diesem engeren Fenster nicht. Ein Objekt mit Namens-, Betreiber- oder Branchenbezug zu „RETRACO"
+  wurde im gesamten Fenster **nicht** angetroffen; auf der Straße selbst trägt **kein** Objekt einen Namen außer der
+  Schule Neuhof (Nr. 95). **Abgrenzung ohne Bezug:** Im selben Fenster liegt **way/184564217 „Metallhütte Mark KG"**
+  (`addr:street`=**Fährstieg**, `addr:housenumber`=4-6, `addr:postcode`=21107, `building`=industrial,
+  `man_made`=works) - eine **andere Straße und ein anderes Unternehmen**, ohne jeden Bezug zur RETRACO GmbH; es
+  erfolgt **kein** Merge und **keine** Übernahme von Daten. **Warum keine Koordinate:** Die Adressebene der Neuhöfer
+  Damm ist in OSM sehr dünn (**5** Objekte über rund 800 m Verlauf), die **Hausnummer 110 fehlt**; eine Position
+  „ungefähr am Neuhöfer Damm" oder „neben Nr. 109" wäre eine **geratene** Koordinate. Die Nachpflege ist damit eine
+  reine **OSM-Datenlücke**, **kein** Beleg gegen die Adresse. **Reichweite / Fehlbelegklausel:** Die
+  **Hausnummernlage in OSM** und die **Efb-/AltfahrzeugV-Lage** sind **nicht** gleichbedeutend mit „kein Betrieb am
+  Ort": das Fehlen eines Adressobjekts 110 und das Fehlen eines Efb-/AltfahrzeugV-Eintrags belegen **weder**, dass an
+  der Anschrift kein Betrieb existiert, **noch** dass ein Betrieb dort aktiv ist; umgekehrt belegt eine vorhandene
+  Hausnummer **keinen** Betrieb. Das Dossier hält unverändert fest, dass die Zeile eine **zertifizierte
+  Betriebsstätte** (Efb-Zertifikat ZZBT00300171, Stand 11.08.2026, nur Zertifikatslead aus dem Verzeichnisspiegel,
+  kein gelesenes Originalzertifikat) und **keinen** öffentlichen Schrottplatz mit Privatkundenannahme abbildet;
+  Ankaufspreise, Verkaufspreise und Gebühren bleiben unbelegt. `status: pruefung`, `street`/`postcode`,
+  Telefon/E-Mail, `website_status: aktiv` und alle übrigen Frontmatter-Felder bleiben unverändert; der Vermerk vom
+  03.11.2026 und der Vermerk vom 04.11.2026 bleiben **wortgleich** erhalten und werden durch diesen Vermerk
+  **fortgeschrieben**. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9580,53.5030,9.9780,53.5230 ;
+  https://api.openstreetmap.org/api/0.6/way/148037036/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/184564217/full.json ; https://retraco-gmbh.com/agb-einkauf.pdf ;
+  https://retraco-gmbh.com/agb-verkauf.pdf ; https://schrottregister.pages.dev/betrieb-retraco-gmbh-hamburg (Abruf
+  04.11.2026).]

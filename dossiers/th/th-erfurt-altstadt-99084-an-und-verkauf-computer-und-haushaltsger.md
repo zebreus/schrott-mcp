@@ -51,3 +51,37 @@ Gelbe Seiten führt den Namen als „An- und Verkauf“ an Trommsdorffstr. 11, 9
 
 - [Recherche 01.10.2026: KEIN Betreiber-Beleg gefunden (keine Betreiber-Website, kein Social, kein Register-Treffer). Aggregator-Leads (NUR Leads): „An- und Verkauf Computer und Haushaltsgeräte“, Trommsdorffstr. 11, 99084 Erfurt-Altstadt, Tel. 0361 6604623 (Das Telefonbuch, Gelbe Seiten, Mapquest). Hinweis: „An- und Verkauf Heimelektronik Schleising“ (Trommsdorffstraße, erfurt-libersave.de-Händlerseite = Lead) — möglicher Nachfolger/Namensvetter, ungeklärt. GRENZFALL-Bewertung (Reuse statt Schrott) bleibt bestehen. → KEINE Frontmatter-Füllung. Klärfall: Betreiber-Quelle + GRENZFALL-Entscheid requires Folgewelle; Quelle(n): keine Beleg-Quelle]
 - [Recherche 06.10.2026: Der direkte Gelbe-Seiten-Eintrag klassifiziert den Treffer als „An- und Verkauf“, nennt Trommsdorffstr. 11, 99084 Erfurt und 0361 6604623, aber keine Website/E-Mail und keine Schrott-/Metallannahme. Dies ist ein weiterer Aggregatorbeleg, keine Betreiberbestätigung; der zuvor gefundene Schleising-Eintrag ist weiterhin nur ein möglicher Namens-/Nachfolger-Lead. Kein Nachweis für Altmetallankauf, Preislisten, Verkaufspreise für Schrott oder Entsorgungsgebühren. Der Fall bleibt als Reuse-Grenzfall gekennzeichnet, strukturiert nichts übernehmen; Gebäude/geschäftliche Nutzung nicht geocodieren, bis aktueller Betreiber feststeht. Quelle(n): https://www.gelbeseiten.de/gsbiz/0b232c3f-a463-4daa-8ddb-929d9dfeff7d ; vorhandener Schleising-Lead siehe Recherche 01.10.2026.]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Hausnummer **11** ist auf der gesuchten Straße
+  **Trommsdorffstraße** in OSM **nicht** erfasst. Quelle 1 (OSM, live geprüft am 04.11.2026): das am
+  04.11.2026 live abgerufene Kachelraster umfasst **11.0200/50.9700 bis 11.0400/50.9800**, **2 Kacheln
+  von je 0,01 Grad**, **0 Kachel-Fehler**, **43.193 Elemente**; das Fenster enthält die gesuchte
+  Straße **„Trommsdorffstraße“ nachweislich und vollständig** - **alle 19 Straßenobjekte** mit
+  `name`=Trommsdorffstraße (way/13310125, way/14428210, way/14428228, way/14428236, way/14469548,
+  way/26673440, way/50088841, way/50711306, way/124355273, way/243104257, way/243104262,
+  way/243104263, way/273712715, way/278828091, way/390963944, way/419686431, way/420550073,
+  way/1527452258, way/1527452259) liegen in der Kachel **11.0300/50.9700**, die Nachbarkachel
+  11.0200/50.9700 enthält **kein** weiteres Objekt dieser Straße. Auf der Straße stehen **19
+  Adressobjekte** mit **19 verschiedenen Hausnummern** (2, 3, 4, 5, 5a, 7, 8, **13**, 14, 15, 16, 17,
+  1a, 1b, 26, 27, 28, 29, 30) - **die Dossier-Hausnummer 11 fehlt**; der erfasste Nummernbereich
+  springt von 8 auf 13. Quelle 2 (im Dossier zitiert, live nachgelesen am 04.11.2026): der
+  Gelbe-Seiten-Eintrag https://www.gelbeseiten.de/gsbiz/0b232c3f-a463-4daa-8ddb-929d9dfeff7d liefert
+  HTTP 200 und führt **„An- und Verkauf Computer und Haushaltsgeräte“, Anschrift „Trommsdorffstr. 11“,
+  PLZ 99084, Ort Erfurt-Altstadt, Telefon 0361 6604623**; das im Dossier zitierte MapQuest-Profil
+  (MapQuest) bleibt ein Aggregator-Lead. **Negativaussage, qualifiziert:** im Raster tragen **3.020
+  Objekte** `name=` oder `operator=`; **mit Bezug zu „An- und Verkauf“, „Computer“, „Haushaltsgeräte“,
+  „Schrott“, „Recycling“ oder „Metall“** trifft es auf **kein** Objekt der Hausnummer 11 - der
+  Eintrag ist in OSM **nicht** kartiert; die im Dossier dokumentierten anderen Plattform-Leads an
+  derselben Anschrift (LiberSave „Transfurt(ria)“, Fresha „Loco Artista Tattoo“) werden **nicht**
+  gleichgesetzt. **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für
+  das Fehlen des Betriebs und **kein** Nachweis für die Falschheit der Verzeichnisadresse; umgekehrt
+  belegt die Verzeichnisadresse ohne Betreiber-, Register- oder Kommunalbeleg weder eine Annahme-
+  noch eine Verkaufsstelle und erst recht keinen Schrottankauf. Der bisher gespeicherte Punkt
+  50.988125/11.0274583 (Magdeburger Allee 16, 99086 Erfurt) bleibt über `clear_fields: 'geo'`
+  zurückgenommen und wird **nicht** durch einen Ersatzpunkt ersetzt; es wird **kein** Straßenmittelpunkt
+  geraten. `status` bleibt `pruefung`, `city`, `street`, `postcode`, `phone`, `email`,
+  `opening_hours`, `website`, `website_status` und `description` bleiben unverändert. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.0200,50.9700,11.0400,50.9800 ;
+  https://www.gelbeseiten.de/gsbiz/0b232c3f-a463-4daa-8ddb-929d9dfeff7d (Abruf 04.11.2026).]

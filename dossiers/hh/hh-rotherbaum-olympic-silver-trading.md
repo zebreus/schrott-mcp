@@ -77,3 +77,48 @@ Der historische Rechtsträger Olympic Silver Trading GmbH (HRB 54383 Hamburg) wu
   https://www.gelbeseiten.de/gsbiz/514be2fe-3a01-4761-8471-f63831636ab1 (Verzeichnislead) ;
   https://www.stonexbullion.com/en/documents/legal-notice/ (fremder Rechtsträger) ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.0100,53.5800,10.0300,53.5900 (Abruf 03.11.2026).]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Keine Koordinate gesetzt - die historische Dossier-Adresse ist jetzt in OSM belegt; der Rechtsträger ist aber
+  seit 2003 gelöscht.** Die Nachprüfung korrigiert einen **Fensterfehler** der Vorwelle und liefert einen neuen
+  Adressbefund. **Fehler der Vorwelle:** das am 03.11.2026 abgetastete Raster 10.0100-10.0300 / 53.5800-53.5900 liegt
+  rund **1,7 km nördlich** des Grindelwegs (53.5651 N / 9.9815 E); die Aussage „kein Objekt mit
+  `addr:housenumber`=4a" war ein **Fensterfehler**, kein Datenbefund. **Korrigiertes Fenster (live, vollständig):
+  9.9712/53.5553 bis 9.9912/53.5753** (Hamburg-Rotherbaum), **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (api.openstreetmap.org/api/0.6/map.json, Abruf 04.11.2026). Das Fenster enthält die gesuchte Straße
+  **nachweislich**: der **Grindelweg** ist mit **4** Straßenobjekten darin erfasst. **Census im Fenster:** **15**
+  Adressobjekte mit `addr:street`=Grindelweg und `addr:postcode`=20146 mit **15** verschiedenen Hausnummern (1, 1a,
+  2, 2a, 3, 3a, 4, **4a**, 5, 6, 7, 8, 9, 10, 11) - die **Dossier-Hausnummer 4a existiert**. **Quelle 1 (OSM-Objekt,
+  live geladen 04.11.2026):** **way/34916054** (https://api.openstreetmap.org/api/0.6/way/34916054/full.json) trägt
+  `addr:housenumber`=**4a**, `addr:street`=**Grindelweg**, `addr:city`=Hamburg, `addr:country`=DE,
+  `addr:postcode`=**20146**, `building`=apartments, `building:levels`=3, `roof:levels`=1,
+  `roof:shape`=double_saltbox, Version 11 (Stand 19.08.2026); das Objekt hat **15** eindeutige Knoten, der Mittelwert
+  der eindeutigen Knoten ist **53.5651164 / 9.9814957**, die Objekt-BBox ist 53.5650402/9.9813003 bis
+  53.5652296/9.9816228, der Punkt liegt **innerhalb** der BBox. **Quelle 2 (Register, im Dossier zitiert):** Die im
+  Dossier zitierten Registerdarstellungen nennen für den Rechtsträger **Olympic Silver Trading GmbH (HRB 54383
+  Hamburg)** die Anschrift **Grindelweg 4 a, 20146 Hamburg** - sie decken sich also **objektgenau** mit dem
+  OSM-Objekt. **Warum trotzdem keine Koordinate:** (a) der Rechtsträger wurde am **12.05.2003** wegen
+  Vermögenslosigkeit **von Amts wegen gelöscht**; die Adresse ist damit eine **historische Registeranschrift** und
+  **kein** heutiger Händlerstandort - das Dossier hält ausdrücklich fest: „Grindelweg 4 a ist nur als historische
+  Registeranschrift dieses Anbieters belegt und kein bestätigter heutiger Händlerstandort"; (b) das OSM-Objekt trägt
+  **weder `name=` noch `operator=`** und beschreibt ein **Wohngebäude** (apartments, 3 Geschosse), also **keinen**
+  Edelmetallhandel; (c) das aktuell gelesene **Gelbe-Seiten-Profil** nennt **keine Straße**, nur Rotherbaum/20146,
+  Telefon 040 44 50 21 und den Link auf silver-to-go.com, der heute zu **StoneX Bullion GmbH (Taunustor 1, 60310
+  Frankfurt, HRB 98020 AG Frankfurt)** führt - eine Verbindung zur gelöschten Hamburger Gesellschaft ist damit
+  **nicht** belegt; (d) ein Punkt auf der historischen Registeranschrift würde einen seit 2003 gelöschten
+  Rechtsträger als heutigen Händlerstandort ausgeben (vgl. die Grundsätze zu Phantomzeilen in README.md, Punkt 4).
+  **Negativaussage, qualifiziert:** Auf dem Grindelweg trägt **kein** Objekt einen Namens-, Betreiber- oder
+  Branchenbezug zu „Olympic Silver Trading", „Silver" oder zu einem Edelmetallhandel. **Reichweite /
+  Fehlbelegklausel:** Die in OSM erfasste Wohnnutzung an 4a ist eine **Standangabe** (Version 11 vom 19.08.2026) und
+  **kein** Beleg, dass der Rechtsträger nicht (damals) dort gearbeitet hätte; umgekehrt belegt eine vorhandene
+  Hausnummer **keinen** Betrieb. `status: pruefung`, `street`/`postcode` (beide leer) und alle übrigen
+  Frontmatter-Felder bleiben unverändert; es wird **keine** Nachfolge behauptet. **Nächster Schritt für den Owner:**
+  Klärung, ob der Verzeichnislead einen heutigen Nachfolger in Hamburg hat (Register-/Betreibernachweis mit Hamburger
+  Anschrift) - dann wäre way/34916054 ohne Neuladen als Koordinate zu übernehmen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.9712,53.5553,9.9912,53.5753 ;
+  https://api.openstreetmap.org/api/0.6/way/34916054/full.json ;
+  https://www.northdata.de/Olympic+Silver+Trading+GmbH,+Hamburg/HRB+54383 ;
+  https://www.online-handelsregister.de/handelsregisterauszug/hh/Hamburg/HRB/54383/Olympic-Silver-Trading-GmbH ;
+  https://www.gelbeseiten.de/gsbiz/514be2fe-3a01-4761-8471-f63831636ab1 (Verzeichnislead) ;
+  https://www.stonexbullion.com/en/documents/legal-notice/ (fremder Rechtsträger) (Abruf 04.11.2026).]

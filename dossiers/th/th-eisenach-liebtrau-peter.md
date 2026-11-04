@@ -1,6 +1,8 @@
 ---
 slug: th-eisenach-liebtrau-peter
-clear_fields: geo
+lat: 50.9879749
+lon: 10.3101383
+clear_fields: ''
 name: Liebtrau Peter
 trader_type: schrotthaendler
 state: TH
@@ -61,3 +63,48 @@ Das Telefonbuch führt „Liebtrau Peter Schrotthandel“ an Amsdorfstr. 24, 998
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott (allg.)
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.9879749/10.3101383** (Mittel der 4 eindeutigen Knoten von
+  way/318280150; der Punkt liegt innerhalb der Objekt-BBox
+  50.9879036/10.3100468–50.9880462/10.3102297). Quelle 1 (OSM, live geladen am 04.11.2026):
+  **way/318280150** trägt `addr:street`=Amsdorfstraße, `addr:housenumber`=**24**,
+  `addr:postcode`=99817, `addr:city`=Eisenach, `addr:country`=DE sowie `building`=apartments,
+  `building:levels`=3 - Straße, Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse
+  **Amsdorfstr. 24, 99817 Eisenach** überein. Das Objekt trägt **weder `name=` noch `operator=`**;
+  es ist die **Adressangabe** des Gebäudes, kein Betriebs-POI. Quelle 2 (im Dossier bereits zitiert,
+  live nachgelesen am 04.11.2026): das Telefonbuch-Eintrag
+  https://www.dastelefonbuch.de/Details/Eisenach/Schrott-Peter-Liebtrau-Eisenach-Amsdorfstr.html
+  liefert HTTP 200 und nennt **„Liebtrau Peter Schrotthandel“, street/houseno `Amsdorfstr./24`,
+  postalcode 99817, city Eisenach, Telefon 03691 841988**; die dort veröffentlichte Kartenposition
+  **50.987959/10.309792** liegt **rund 24 m** vom gesetzten OSM-Punkt entfernt und bestätigt die
+  Anschrift unabhängig. **Fensterprüfung (kein Fensterfehler):** das am 04.11.2026 live abgerufene
+  Kachelraster umfasst **10.3100/50.9800 bis 10.3200/50.9900**, **1 Kachel von je 0,01 Grad**,
+  **0 Kachel-Fehler**, **9.222 Elemente**; das Fenster enthält die gesuchte **Hausnummer 24 auf der
+  Adresse Amsdorfstraße nachweislich** mit **7 Adressobjekten** auf „Amsdorfstraße“ und **7
+  verschiedenen Hausnummern** (12, 14, 16, 18, 22, **24**, 26) - die **Dossier-Hausnummer 24
+  existiert** und ist im Raster das einzige Objekt mit dieser Nummer (way/318280150).
+  **Einschränkung, ausdrücklich festgehalten:** in diesem Fenster trägt **kein** Way den Straßennamen
+  `Amsdorfstraße` - die Straße wird dort ausschließlich über die `addr:street`-Tags der Gebäude
+  geführt; die nächstgelegenen kartierten Straßen (way/5114117 Ernst-Thälmann-Straße,
+  way/29381006 Junkerstraße) liegen **49–50 m** vom Objekt entfernt. **Negativaussage,
+  qualifiziert:** im Raster tragen **294 Objekte** `name=` oder `operator=`, **mit Bezug zu
+  „Liebtrau“, „Schrott“, „Recycling“ oder „Metall“ trifft es jedoch auf 0 Objekte** - der Betrieb
+  ist in OSM **nicht** kartiert; der Punkt bezeichnet ausschließlich die verzeichnisgestützte
+  Anschrift. **Zurücknahme des `geo`-Tokens (Begründung):** `clear_fields: 'geo'` wurde **entfernt**
+  (das Feld steht jetzt als `clear_fields: ''`), weil es den am 24./26.10.2026 zurückgenommenen und
+  nach Weilmünster (Hessen) auflösenden Produktionspunkt 50.41535/8.41595 fernhalten sollte; der hier
+  gesetzte Punkt liegt **exakt** auf der verzeichnisbestätigten Anschrift, und `clear_fields` darf
+  nicht gleichzeitig `geo` neben belegtem `lat`/`lon` stehen. **Qualifizierung (unverändert
+  übernommen):** Der Punkt bezeichnet die **Adressangabe eines Verzeichniseintrags** (Telefonbuch,
+  im Dossier als „Private Einträge“ eingeordnet), **nicht** einen geprüften Annahmehof, eine Waage
+  oder eine öffentliche Schrottannahme; der offene Nummernkonflikt (03691 841988 laut Telefonbuch
+  gegen 03691 8893175 laut 123Entsorgung) und die fehlende Gewerberegistrierung bleiben
+  unverändert dokumentiert. `status` bleibt `pruefung`, `street`, `postcode`, `phone`, `email`,
+  `opening_hours`, `website`, `website_status` und `description` bleiben unverändert; es wird kein
+  Ankaufkurs, keine Preisliste und keine Gebühr behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/318280150/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.3100,50.9800,10.3200,50.9900 ;
+  https://www.dastelefonbuch.de/Details/Eisenach/Schrott-Peter-Liebtrau-Eisenach-Amsdorfstr.html
+  (Abruf 04.11.2026).]

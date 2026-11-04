@@ -1,5 +1,7 @@
 ---
 slug: bw-bretten-hauser-recycling-transporte
+lat: 49.0495920
+lon: 8.7398349
 name: Hauser Recycling und Transporte GmbH
 trader_type: schrotthaendler
 state: BW
@@ -43,3 +45,30 @@ Die veröffentlichten Öffnungszeiten sind Betriebszeiten, keine gesondert best�
 - [Recherche 14.10.2026: Leistungsseite nennt ausdrücklich Ankauf von Eisen-/Stahlschrott, Guss, Kupfer/Aluminium/Messing/Bronze/Zink/Blei und Kabeln/Leitungen mit Isolierung für Privat- und Gewerbekunden zu marktgerechten Preisen. Über-uns-Seite verknüpft den erweiterten eigenen Standort mit Ankauf, Sortierung und Verwertung; einzige konkret veröffentlichte Betriebsadresse Gewerbestraße 59. Containerdienst mit rund 200 Containern 7-40 m³ und deutschlandweiter Freileitungsrückbau sind Leistungen/Bediengebiet, keine zusätzlichen Betriebsstätten. Quellen: https://www.hauser-gmbh.net/leistungen/ ; https://www.hauser-gmbh.net/ueber-uns/ .]
 - [Recherche 14.10.2026: Standortbezogener Kontaktblock bestätigt Telefon, E-Mail und Öffnungszeiten Mo-Fr 08:00-12:00/13:00-16:30, Sa 08:00-12:00. Kontakt-Haupttext ist ein allgemeines Formular, nicht alleiniger Standortbeweis; registerkongruente Betreiberadresse, Betriebsbeschreibung und aktuelles Standortzertifikat ergänzen ihn. AGB (Inkrafttreten 01.03.2018, weiterhin veröffentlicht) §5/6 verlangen vereinbarte Waren/Empfangsstelle beziehungsweise Abholung und enthalten besondere Anforderungen an gefährliche Abfälle; §8 marktbezogene Preise, §7 keine generell kostenlose Containerstellung. Deshalb keine Default-Annahme-/Abholbedingungen oder numerischen Mindest-/Höchstmengen importiert, keine speziellen Annahmezeitfenster unterstellt. Keine konkrete Ankauf-/Verkaufspreisliste oder Gebührenrate gefunden. Quellen: https://www.hauser-gmbh.net/kontakt/ ; https://www.hauser-gmbh.net/agb/ .]
 - [Recherche 14.10.2026: Breiter read-only-Abgleich aller 3881 Produktionshändler und 3923 vorhandenen Dossiers vor Neuanlage: Name/Slug, Domain/Mail, normierte Telefonnummern, Registernummer, Straße, Ort/Ortsteil/PLZ sowie Notes/extra_json berücksichtigt. Kein Treffer für Hauser-Domain, HRB 240545, Zieltelefon/Fax, Gewerbestr.59/Gewerbestraße59, Gölshausen oder Bretten/75015. Peter Häuser/Altmetall Häuser in Essen (IDs 1633/1414) andere Adresse/Domain/Identität; weitere Teilworttreffer Edelhäuser/Sindlhauser/Wildeshauser keine Übereinstimmung. Keine Bestandsdossiers editiert oder Zeilen gemergt. Slug einmalig festgelegt. Feedbacks bleiben unverändert; Aufnahme ist lokal vorbereitet, nicht produktiv veröffentlicht. Quellen: /var/lib/schrott-mcp/public.db, SELECT mit mode=ro und PRAGMA query_only=ON; dossiers/; research/feedback-20261014-hauser-admission.md .]
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.0495920/8.7398349** (Mittel der **4**
+  eindeutigen Knoten von way/378668933; die BBox der eindeutigen Knoten reicht von 49.0494501/8.7396157 bis
+  49.0497315/8.7400523 und **umschließt den Mittelwert**). Quelle 1 (OSM, live geladen am 04.11.2026, HTTP 200):
+  **way/378668933** trägt `addr:street`=Gewerbestraße, `addr:housenumber`=**59**, `addr:postcode`=75015,
+  `addr:city`=Bretten, `addr:suburb`=Gölshausen, `addr:country`=DE sowie `building`=**industrial**; Straße, Hausnummer,
+  PLZ und Ort stimmen mit der Dossier-Adresse **Gewerbestraße 59, 75015 Bretten-Gölshausen** überein. **Fensterprüfung
+  (kein Fensterfehler):** das am 04.11.2026 live abgerufene Kachelraster umfasst **8.7300/49.0300 bis 8.8200/49.0800**,
+  **45 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster enthält die gesuchte Straße **nachweislich** mit den
+  Straßenobjekten **way/27682881**, **way/42057419**, **way/100184228**, **way/166022588**, **way/175594630**,
+  **way/31675105**, **way/37746565** und **way/42057208** sowie **73** Adressobjekten auf „Gewerbestraße" mit **66**
+  verschiedenen Hausnummern (12, 13, 14, 15, 16, 18, 20, 21, 22, 23, 24, 25, 26, 30, 31, 33, 35, 37, 38, 39, 40, 41, 42,
+  43, 44, 45, 47, 49, 51, 52, 53, 54, 56, 58, **59**, 60, 61, 62, 63, 64, 65, 66, 67, 71, 75, 77, 79, 83, 85, 91, 92,
+  93, 95 und die Zusatznummern 14/1, 15/1, 16/1, 18/1, 20/1, 39/1, 42/1, 53/1, 54/1, 60/1, 60/2, 64/1, 95/1) - die
+  **Dossier-Hausnummer 59 existiert** und ist im Raster das einzige Objekt mit dieser Nummer auf dieser Straße (die
+  Nachbarnummern 58, 60, 60/1, 60/2, 61 und 63 tragen andere Betriebe, u. a. FÖRSTER Fleischgroßhandel GmbH und Zuber
+  Berufskleidung). Quelle 2 (Betreiber, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): das **Impressum**
+  https://www.hauser-gmbh.net/impressum/ liefert **HTTP 200** und nennt live „Hauser Recycling & Transporte GmbH,
+  Gewerbestraße 59, 75015 Bretten", HRB 240545; das aktuelle **DEKRA-EFB-Zertifikat** ZZHT002000478011 (Prüfdatum
+  29.01.2026, gültig bis 28.07.2027) führt Hauptsitz und Anlagen 1-3 an derselben Anschrift. Der Punkt bezeichnet damit
+  die belegte Betriebsanschrift (Gewerbehof mit Lager- und Behandlungsanlage) und **nicht** eine punktgenau belegte
+  Einfahrt oder Waage; Ankauf-, Verkaufs- und Gebührenangaben bleiben unverändert unbelegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/378668933/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.73,49.03,8.82,49.08 ; https://www.hauser-gmbh.net/impressum/
+  (Abruf 04.11.2026).]

@@ -96,3 +96,42 @@ NorthData führt Dorozala GmbH, HRB 5379 AG Paderborn, nach Liquidation als am 2
   https://www.11880.com/branchenbuch/lippstadt/060441364B49838890/janzon-otto-gmbh-co-kg-rohprodukten-grosshandel-entsorgungsfachbetrieb.html
   ; https://www.northdata.de/Dorozala+GmbH,+Lippstadt/Amtsgericht+Paderborn+HRB+5379 (Abruf 04.11.2026; Live-Abruf HTTP
   429).]
+
+### Geokodierung 04.11.2026 (Sonderfall Dorozala)
+
+- [Geokodierung 04.11.2026: **Klärfall - weiterhin keine Koordinate; die Abgrenzung zur Fremdfirma ist am
+  04.11.2026 erneut live bestätigt.** Die Dossier-Adresse **Am Mondschein 10, 59557 Lippstadt** ist in OSM zwar
+  abgebildet, gehört aber nachweislich **nicht** der Dorozala GmbH: Das Objekt **way/338835274** trägt
+  `addr:street`=Am Mondschein, `addr:housenumber`=**10**, `addr:city`=Lippstadt, `addr:postcode`=59557,
+  `addr:country`=DE und `building`=yes - **weder** `name=` **noch** `operator=` **noch** ein Schrott-/Recycling-Bezug
+  (live über die Objektabfrage geprüft; vier eindeutige Knoten, Objekt-BBox 8.3691839/51.6774754 bis
+  8.3695544/51.6776922, Mittelpunkt 51.6775838/8.3693691). **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster über Lippstadt-Kernstadt umfasst **8.3500/51.6600 bis 8.3800/51.6900**,
+  **9 Kacheln von je 0,01 Grad, 0 Kachel-Fehler**; die Straße **„Am Mondschein"** ist darin **nachweislich** mit
+  **21** Adressobjekten und den **18** verschiedenen Hausnummern 1, 2, 3, 4, 7, 8, **10**, 15, 21, 23, 23a, 24, 25, 26,
+  27, 29, 30 und 31 erfasst - die **Dossier-Hausnummer 10 existiert** und ist das einzige Objekt mit dieser Nummer auf
+  dieser Straße. Eine Namenssuche nach **„Dorozala"** und **„Janzon"** über die Felder name, operator, description,
+  website, contact:website, brand, note und addr:housename findet im Raster **keinen** Treffer; die einzigen
+  Namensobjekte dort sind Fremdbetriebe („Globus Baumarkt" 24, „Raiffeisen" 31, „Löckenhoff" 26, „Aldi" 29, „Autohaus
+  Hecker" 27, „ASSA ABLOY Entrance Systems" 25, „Schieffer GmbH & Co. KG" 23, „Bach GmbH & Co. KG" 30). Quelle 1
+  (Register/Verzeichnis, im Dossier bereits zitiert, live nachgelesen am 04.11.2026): die **11880-Detailseite** liefert
+  **HTTP 200** und führt an **derselben** Adresse **„Janzon Otto GmbH & Co. KG Rohprodukten-Großhandel/
+  Entsorgungsfachbetrieb"**, **Am Mondschein 10, 59557 Lippstadt (Kernstadt)**, Telefon **(02941) 3515** - also eine
+  **andere benannte Firma mit eigener Nummer**; der **NorthData-Registerspiegel** zu **Dorozala GmbH, HRB 5379 AG
+  Paderborn** war am 04.11.2026 erneut **nur mit HTTP 429** abrufbar, die im Dossier vom 23.10.2026 dokumentierte
+  Löschung am **25.01.2024** (nach Liquidation zum 01.12.2021) bleibt damit der maßgebliche Registerstand.
+  Quelle 2 (OSM): das live abgerufene Kachelraster 8.3500/51.6600–8.3800/51.6900 mit **way/338835274** ohne
+  Betriebsbezug. **Warum weiterhin keine Koordinate:** Die Seed-Entität ist eine **gelöschte** Gesellschaft, und die
+  heute belegte Nutzung der Anschrift gehört der **Janzon Otto GmbH & Co. KG**; ein Punkt an dieser Adresse würde für
+  die Dorozala GmbH einen Betriebsstandort behaupten, den weder Register noch OSM tragen. **Abgrenzung (festgehalten):**
+  Die Adressangabe „Am Mondschein 10" wird **nicht** als Dorozala-Standort übernommen, und die Dossierzeile wird
+  **nicht** mit der Janzon-Eintragung verschmolzen. **Reichweitenklausel:** Weder das Fehlen eines
+  Dorozala-Betriebsobjekts in OSM noch die Löschung im Register sind für sich genommen ein Nachweis, dass am Ort
+  **kein** Schrottbetrieb existiert - die Janzon-Eintragung belegt dort gerade eine **Entsorgungsfachbetriebstätigkeit**;
+  der offene Punkt ist die **Zuordnung zur Seed-Entität**, nicht das Fehlen von Betrieben. `clear_fields: 'geo'` bleibt
+  bestehen, `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/338835274/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3500,51.6600,8.3800,51.6900 ;
+  https://www.11880.com/branchenbuch/lippstadt/060441364B49838890/janzon-otto-gmbh-co-kg-rohprodukten-grosshandel-entsorgungsfachbetrieb.html
+  ; https://www.northdata.de/Dorozala+GmbH,+Lippstadt/Amtsgericht+Paderborn+HRB+5379 (Abruf 04.11.2026; Live-Abruf
+  HTTP 429).]

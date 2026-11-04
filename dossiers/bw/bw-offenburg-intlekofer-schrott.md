@@ -59,3 +59,37 @@ Die Verzeichnisse nennen für „Intlekofer (Schrott)“ widersprüchlich Griesh
 
 - Schrott
 - Größe: klein
+
+### Geokodierung 04.11.2026
+
+- [Geokodierung 04.11.2026: **Klärfall - keine Koordinate gesetzt.** Der Dossier-Datensatz trägt einen
+  **Hausnummernkonflikt**: die Verzeichnisleads nennen **Griesheimer Str. 27** und **Griesheimer Str. 66** für denselben
+  Betrieb, und es existiert **keine** Quelle aus der zulässigen Betreiber-/Register-/Kommunalkategorie, die eine der
+  beiden Nummern bestätigt. Quelle 1 (OSM, live geprüft am 04.11.2026): **Fensterprüfung (kein Fensterfehler):** das am
+  04.11.2026 live abgerufene Kachelraster über Offenburg umfasst **7.9200/48.4600 bis 7.9700/48.4800**, **7 Kacheln von
+  je 0,01 Grad**, **0 Kachel-Fehler**; das Fenster erfasst den **Stadtbereich Offenburg** mit **4640** Adressobjekten
+  auf **260** verschiedenen Straßen - eine Straße **„Griesheimer Straße"** ist darin **nicht** erfasst (nur Buslinien
+  der S3/7136 mit dem Ortsteil Griesheim im Routennamen). Eine Suche nach **„Intlekofer"** über die Felder name,
+  operator, brand, description, website, contact:website, shop, craft, amenity, landuse, man_made und industrial findet
+  im Fenster **keinen** Treffer - es gibt **keine** OSM-Betriebszuordnung. Das Raster erfasst die **Stadt** Offenburg,
+  nicht den südöstlich angrenzenden **Ortsteil Griesheim** (der wegen der Buslinien nicht im Kachelausschnitt liegt);
+  das Fehlen einer „Griesheimer Straße" im Stadtbereich ist deshalb **kein** Nachweis gegen deren Existenz in Griesheim,
+  aber **auch kein** Beleg für einen Standort des Betriebs. Quelle 2 (Verzeichnis, im Dossier bereits zitiert, live
+  nachgelesen am 04.11.2026): das **Das-Örtliche**-Branchenverzeichnis
+  https://www.dastelefonbuch.de/Branchen/Schrotthandel/Offenburg und der Portal-Eintrag
+  https://www.schrottplatz-info.de/schrottplatz/Offenburg/Intlekofer nennen live **Griesheimer Str. 27** bzw.
+  **Griesheimer Str. 66** mit derselben Nummer 0781 9708589; das im Dossier dokumentierte Gelbe-Seiten-Profil
+  https://www.gelbeseiten.de/gsbiz/a6ce9769-8a71-43f0-b21d-bca4b96bfd50 nennt **Griesheimer Str. 27, 77652
+  Offenburg-Griesheim**, das Öffnungszeitenbuch-Profil „Ralf Intlekofer Schrotthändler" **Nr. 66**. Beide Nummern sind
+  **Verzeichnisleads** und damit **keine** Belege (README, Quellenhierarchie); gleiche Telefonnummer beweist weder Umzug
+  noch identischen Rechtsträger. **Warum keine Koordinate:** ohne Auflösung des Nummernkonflikts wäre jede Punktwahl
+  eine **Rathausnahme**; das Dossier hat deshalb `street` und `postcode` leer gelassen, und `clear_fields:
+  'dropoff_json,geo,phone'` **bleibt** unverändert bestehen (es gibt keinen Ersatzpunkt). `status: pruefung` bleibt,
+  Ankauf-, Verkaufs- und Gebührenangaben bleiben unbelegt; es wird **keine** Schließung behauptet.
+  **Reichweitenklausel:** das Fehlen eines Betriebs-Tagings in OSM ist **kein** Nachweis für das Fehlen des Betriebs,
+  und das Fehlen einer der beiden Hausnummern im abgetasteten Stadtbereich **kein** Nachweis gegen die andere. Offen
+  bleiben Inhaber und die zutreffende Annahmeadresse. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.92,48.46,7.97,48.48 ;
+  https://www.dastelefonbuch.de/Branchen/Schrotthandel/Offenburg ;
+  https://www.schrottplatz-info.de/schrottplatz/Offenburg/Intlekofer ;
+  https://www.gelbeseiten.de/gsbiz/a6ce9769-8a71-43f0-b21d-bca4b96bfd50 (Abruf 04.11.2026).]
