@@ -1,5 +1,7 @@
 ---
 slug: he-frankfurt-60325-degussa-goldhandel
+lat: 50.1150814
+lon: 8.6673090
 name: Degussa Goldhandel GmbH
 trader_type: sonstige
 state: HE
@@ -8,7 +10,7 @@ street: Kettenhofweg 25
 postcode: '60325'
 phone: '+49 69 860068-100'
 email: frankfurt@degussa.com
-opening_hours: ''
+opening_hours: Mo-Fr 09:00-19:00
 website: https://www.degussa-goldhandel.de
 website_status: ''
 status: aktiv
@@ -43,3 +45,28 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 03.11.2026
 
 - [Korrektur 03.11.2026: **Belegte Kontaktdaten der Frankfurter Niederlassung im Frontmatter nachgetragen.** Die Niederlassungsseite des Betreibers nennt wörtlich: „Degussa Sonne/Mond Goldhandel GmbH, Kettenhofweg 25, 60325 Frankfurt, +49 69 860068-100, frankfurt@degussa.com“. Diese Werte standen bisher **nur** in der Produktionsdatenbank (dort vom Scraper gesetzt), nicht im Dossier — dadurch beschrieb das Dossier den Standort ohne Anschrift. Das Frontmatter führt sie jetzt; die Recherchehistorie bleibt unverändert. Quelle(n): https://degussa.com/de-de/header_navigation/niederlassungen/frankfurt-am-main/ (Live-Abruf 03.11.2026). **Zwei offene Punkte bleiben:** (1) Die Seite nennt als Rechtsträger **„Degussa Sonne/Mond Goldhandel GmbH“** (Fußzeile: „© 2026 Degussa Sonne/Mond Goldhandel GmbH“), das Dossier führt die Kurzform **„Degussa Goldhandel GmbH“** — eine **Namensvariante desselben Betriebs** (gleiche Anschrift, gleiche Rufnummer, gleiche Mail, gleiche Domain). Die Registerbestätigung der Firmierung steht noch aus (eine Prüfung über HRB 21229 traf eine andere Gesellschaft, der Eintrag ist daher **nicht** übernommen). (2) Die Pre-Deploy-Prüfung nannte auf einer AGB-/Widerrufsseite der **gleichen** Domain eine abweichende Hausnummer **„Kettenhofweg 29“**; diese Seite war beim Abruf am 03.11.2026 **nicht erreichbar**, der Wert ist daher **nicht** übernommen. Für die Anschrift sprechen zwei unabhängige Quellen: die Niederlassungsseite („Kettenhofweg 25“) und der OSM-Knoten **node/10665610880** (`addr:street=Kettenhofweg`, `addr:housenumber=25`, `addr:postcode=60325`).]
+
+### Recherche 04.11.2026
+
+- [Recherche 04.11.2026: **Firmierung registerbestätigt, Filiale und Sitz unterschieden.** Das
+  Impressum des Betreibers (https://www.degussa.com/impressum/, Abruf 04.11.2026) nennt wörtlich
+  „Firmensitz: Degussa Sonne/Mond Goldhandel GmbH, Friedrich-Ebert-Anlage 35 – 37, 60327 Frankfurt
+  am Main“ mit „Registergericht: Handelsregister des Amtsgerichts Frankfurt am Main; HRB-Nummer:
+  139179“ und „USt-IdNr: DE275313528“ (Geschäftsführer Alexander Betz, Tino Porzel); die
+  Wertlagerbedingungen des Betreibers nennen dieselbe Gesellschaft unter HRB 139179 (Sitzverlegung
+  vom Amtsgericht München, HRB 188979, zum 26.06.2025). **Abgrenzung:** Der Dossier-Name
+  „Degussa Goldhandel GmbH“ ist die von der Website und im OSM verwendete Markenform, nicht die
+  Registerfirma; **Firmensitz (60327) und Niederlassung/Standort (60325) sind zwei verschiedene
+  Adressen.** Die Frontmatter-Adresse ist die Niederlassung: die Niederlassungsseite des
+  Betreibers (https://www.degussa.com/de-de/header_navigation/niederlassungen/, Abruf 04.11.2026)
+  führt „Niederlassung Frankfurt, Kettenhofweg 25, 60325 Frankfurt“ mit „+49 69 860068-100“,
+  „frankfurt@degussa.com“ und „Montag bis Freitag 9:00 – 19:00 Uhr“; Telefon, E-Mail und
+  Öffnungszeiten im Frontmatter sind damit belegt und unverändert übernommen.]
+- [Recherche 04.11.2026: **Koordinate gesetzt.** Das OSM-Objekt node/10665610880 (live geladen am
+  04.11.2026) trägt `name`=Degussa Goldhandel GmbH, `addr:street`=Kettenhofweg,
+  `addr:housenumber`=25, `addr:postcode`=60325, `addr:city`=Frankfurt am Main, `shop`=gold_buyer
+  und `description`=Gold und Silber Ankauf und Verkauf; es liegt bei 50.1150814, 8.6673090. Damit
+  stimmen die **beiden** Quellen überein (OSM-Objekt und die Niederlassungsseite des Betreibers).
+  **Abgrenzung:** der OSM-Eintrag nennt `opening_hours` Mo-We,Fr 10:00-17:00, Th 10:00-18:00
+  (Stand 2024) — das weicht von der aktuellen Angabe des Betreibers (Mo–Fr 9:00–19:00) ab;
+  maßgeblich ist die **eigene** Angabe des Betreibers, der OSM-Wert ist älter und nicht übernommen.]

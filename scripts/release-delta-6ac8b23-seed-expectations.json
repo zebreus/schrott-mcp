@@ -1,0 +1,296 @@
+{
+  "version": 1,
+  "release_commit": "6ac8b2369d966c47351b98393cfe229235b33e46",
+  "release_tree": "7f901ad6ba8589a53511e4efa0bbbe8f7e9fa8ad",
+  "rehearsal_manifest_sha256": "991bdf159d965510828839b350fa9e35662ed4f368e60ecf9570ca626ee79ae8",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "he-frankfurt-60489-vebeg",
+    "he-frankfurt-fechenheim-frankfurt-fechenheim-carl-benz-str-1",
+    "ni-stade-wiepenkathen-r-s-kusche-entsorgungsfachbetrieb",
+    "ni-wangerland-brosda-schrott-und-metalle-korrektur-tho",
+    "nw-remscheid-vhm-hartmetall-ankauf",
+    "st-gardelegen-ot-jeseritz-herms-recycling-schrott-abbruch-entrumpe",
+    "st-radegast-eks-ankauf-von-katalysatoren-und-batteri",
+    "st-wanzleben-tannenlaufer-willi-schrotthandel",
+    "st-zerbst-borgsdorf-recycling",
+    "th-greiz-greizer-metall-schrott"
+  ],
+  "scope": "exactly the 10 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-6ac8b23. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "he-frankfurt-60489-vebeg",
+      "values": {
+        "name": "VEBEG GmbH",
+        "city": "Frankfurt am Main",
+        "street": "Rödelheimer Bahnweg 23",
+        "postcode": "60489",
+        "phone": "+49 69 75897-0",
+        "email": "mail@vebeg.de",
+        "opening_hours": "Mo–Do 8–12 und 13–16 Uhr, Fr 8–12 und 13–14 Uhr",
+        "description": "Bundeseigene Treuhandgesellschaft, die Überschussmaterial öffentlicher Stellen per Ausschreibung verkauft.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.vebeg.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "0f078584c2229f3596c2b0ffe3883bdd62cbc9bfde10ef08824a966d85550dd8",
+      "seed_hash": "6e24df81b9880390",
+      "geo": [
+        50.119404878048776,
+        8.653973170731708
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-frankfurt-fechenheim-frankfurt-fechenheim-carl-benz-str-1",
+      "values": {
+        "name": "Riwald Recycling Rhein-Main (Frankfurt-Fechenheim)",
+        "city": "Frankfurt-Fechenheim",
+        "street": "Carl-Benz-Str. 1",
+        "postcode": "60314",
+        "phone": "+49 69 416 745-0",
+        "email": "info.rrrm@riwald.de",
+        "opening_hours": "Warenannahme Mo-Do 07:30-16:00, Fr 07:30-14:30",
+        "description": "Riwald Recycling Rhein-Main: Standort Frankfurt-Fechenheim.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.riwald.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "8e2af08526e42789184277b6d3f2dab5fe74155aba71066774f792b93a059c93",
+      "seed_hash": "9ee76a7d6c5a1c81",
+      "geo": [
+        50.119404878048776,
+        8.653973170731708
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-stade-wiepenkathen-r-s-kusche-entsorgungsfachbetrieb",
+      "values": {
+        "name": "R&S Kusche (Entsorgungsfachbetrieb)",
+        "city": "Stade-Wiepenkathen",
+        "street": "Ohle Ring 4",
+        "postcode": "21684",
+        "phone": "04141 787 978",
+        "email": "info@r-skusche.de",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00; Sa 08:00-12:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://r-skusche.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e6079521b17533db9bb46b8ef2d995427e5edc25e2aa6cdd40af3e00413ff57f",
+      "seed_hash": "11ed8479622f647d",
+      "geo": [
+        53.5998,
+        9.48005
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-wangerland-brosda-schrott-und-metalle-korrektur-tho",
+      "values": {
+        "name": "Brosda Schrott und Metalle → Korrektur: Thomas Brosda Altmetallhandel, Wangerland (Fuhlrieger Allee 1), nicht Jever",
+        "city": "Wangerland",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "http://www.brosda.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3000b558f617365b5a3c579fe6d2fbb858ee4ebdc945c67aefc0f85322e61274",
+      "seed_hash": "5239eb1eccaff475",
+      "geo": [
+        53.658,
+        7.9227
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-remscheid-vhm-hartmetall-ankauf",
+      "values": {
+        "name": "VHM Hartmetall Ankauf",
+        "city": "Remscheid",
+        "street": "Grünenplatzstraße 1a",
+        "postcode": "42899",
+        "phone": "017670524959",
+        "email": "info@vhm-hartmetall.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.vhm-hartmetall.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "ba257581f0283a5ed257accad62ca955e2b8d1ade9f1f9a56f89dff8071586b8",
+      "seed_hash": "00916dde4013d0f7",
+      "geo": [
+        51.2172067,
+        7.2428904
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-gardelegen-ot-jeseritz-herms-recycling-schrott-abbruch-entrumpe",
+      "values": {
+        "name": "Herms-Recycling (Schrott/Abbruch/Entrümpelung)",
+        "city": "Gardelegen OT Jeseritz",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "7d1dba2942495fdc491cdd6827b0ad1ac3691f9735028ba61d2deb35f5e5fecf",
+      "seed_hash": "bfe905d570d7d70b",
+      "geo": [
+        52.5252,
+        11.3952
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-radegast-eks-ankauf-von-katalysatoren-und-batteri",
+      "values": {
+        "name": "EKS – Ankauf von Katalysatoren und Batterien",
+        "city": "Radegast",
+        "street": "Bahnhofstr. 13",
+        "postcode": "06369",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "7192a2def6f9b888c7239a64f7d0241e4abebccc3d92c1ffad098012eb4bc6b6",
+      "seed_hash": "50fc2a3c835b521d",
+      "geo": [
+        51.6572045,
+        12.09021
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-wanzleben-tannenlaufer-willi-schrotthandel",
+      "values": {
+        "name": "Tannenläufer Willi Schrotthandel",
+        "city": "Wanzleben",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrottplatz",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "843b7028ee39f04cd3d2175c801178497f64dabe517ab41b89a7f1476da12a01",
+      "seed_hash": "2c7715ac353885c8",
+      "geo": [
+        52.0609,
+        11.4408
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-zerbst-borgsdorf-recycling",
+      "values": {
+        "name": "Borgsdorf-Recycling GmbH",
+        "city": "Zerbst/Anhalt",
+        "street": "Altbuchsland 18d",
+        "postcode": "39261",
+        "phone": "+49 3923 786437",
+        "email": "borgsdorf-recycling@t-online.de",
+        "opening_hours": "Mo-Fr 07:00-17:00; Sa 08:00-12:00",
+        "description": "Schrott- und Buntmetallankauf für Privat- und Firmenkunden sowie ausgewählte Papierwertstoffe unter Annahmebedingungen. Auf den am 18.10.2026 geprüften lesbaren Seiten keine numerische Ankaufspreisliste gefunden; Tageskonditionen erfragen. Container- und Big-Pack-Service zu individuellen Konditionen.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.borgsdorf-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7ff810326d0573cf16939fcb1a11b120be482228909d14c0b7bb12899faae4c6",
+      "seed_hash": "e6006c0275addf89",
+      "geo": [
+        51.9502617,
+        12.0900749
+      ],
+      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"days\":[\"Mo\",\"Di\",\"Mi\",\"Do\",\"Fr\",\"Sa\"],\"time_windows\":[\"Mo-Fr 07:00-17:00\",\"Sa 08:00-12:00\"],\"conditions\":\"Anlieferung am Wertstoffhof Altbuchsland 18d zu regulären Betreiberzeiten, keine Feiertagsgarantie. Schrott und Buntmetalle sowie ausgewählte Papierwertstoffe. Papier nur hier, lose und nicht gebündelt; keine mit Speiseresten, Farbe oder Öl verunreinigten Papiere/Kartons, Tetrapaks, Wachspapiere oder Aktenordner; Durchschreibepapier nur ohne Kohlepapier. Bei Schrott-/Metallanlieferung keine Druckgasflaschen, Elektronikschrott oder Kühl-/Gefriergeräte; keine Öl-, Flüssigkeits-, Chemie-, Asbest- oder radioaktiven Beimengungen. Ausschlüsse nicht pauschal auf andere Entsorgungsdienste übertragen. Tagespreise telefonisch oder vor Ort erfragen; konkrete Materialbedingungen vorab klären.\"}",
+      "pickup_json": "{\"allowed\":true,\"conditions\":\"Abholung von Schrott ist laut Betreiber alternativ über Containerdienst möglich; Container oder Big Pack werden geliefert und nach Befüllung abgeholt. Preise werden individuell abgestimmt; keine kostenlose Abholung oder Abholung ohne Behälter zugesagt.\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb §56 KrWG (Zertifikat 801.0112/26, Anlage 4 Schrottplatz Altbuchsland 18d, gültig bis 16.12.2027)\"]"
+    },
+    {
+      "slug": "th-greiz-greizer-metall-schrott",
+      "values": {
+        "name": "G M S Greizer Metall- & Schrott GmbH",
+        "city": "Greiz",
+        "street": "In den Auwiesen 1",
+        "postcode": "07973",
+        "phone": "03661 2982",
+        "email": "",
+        "opening_hours": "",
+        "description": "Metallhandel, Bauschutt-Recycling, Containerdienst und Autoverwertung der G M S Greizer Metall- & Schrott GmbH (HRB 208506 AG Jena) am Standort In den Auwiesen 1, 07973 Greiz/Mohlsdorf; im amtlichen Verzeichnis gewerblicher Sammlungen des Abfallwirtschaftsverbandes Ostthüringen als Schrott-Annahmestelle geführt. Keine öffentliche Ankauf- oder Verkaufskursliste.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e31a7acf597dee1dda9f854df2412f15f781d124ae4497cb88d8ba467451b88a",
+      "seed_hash": "31dcd262a9dd3a6f",
+      "geo": [
+        50.6578,
+        12.1992
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
