@@ -13,7 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 clear_fields: 'geo'
-description: Der Seedname "Derda" lässt sich keinem Schrottbetrieb in Hagen zuordnen. Eine gezielte Suche nach Name, Telefonnummer und Schrotthandel-Spuren in Hagen bleibt ohne Treffer: das amtliche Fachbetrieberegister (Auszug 11.08.2026) führt für Hagen 19 anerkannte Betriebe und keinen Betrieb Derda, und die bereits am 01.10.2026 geprüfte Verzeichnissuche nach Schrotthandel in Hagen kennt kein Derda. Die EFB-Anerkennung ist freiwillig, das Fehlen im Register beweist weder Nichtexistenz noch Schließung. Adresse, Kontaktdaten und Öffnungszeiten bleiben offen; der zuvor zurückgezogene gemeinsame GEO-Punkt bleibt zurückgezogen, bis eine belegte Händleradresse vorliegt. Ankauf, Verkauf und Gebühren sind nicht belegt.
+description: 'Der Seedname "Derda" lässt sich keinem Schrottbetrieb in Hagen zuordnen. Eine gezielte Suche nach Name, Telefonnummer und Schrotthandel-Spuren in Hagen bleibt ohne Treffer: das amtliche Fachbetrieberegister (Auszug 11.08.2026) führt für Hagen 19 anerkannte Betriebe und keinen Betrieb Derda, und die bereits am 01.10.2026 geprüfte Verzeichnissuche nach Schrotthandel in Hagen kennt kein Derda. Die EFB-Anerkennung ist freiwillig, das Fehlen im Register beweist weder Nichtexistenz noch Schließung. Adresse, Kontaktdaten und Öffnungszeiten bleiben offen; der zuvor zurückgezogene gemeinsame GEO-Punkt bleibt zurückgezogen, bis eine belegte Händleradresse vorliegt. Ankauf, Verkauf und Gebühren sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
