@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Pletschacher Recycling GmbH, Breslauer Straße 61, 83395 Freilassing: zertifizierter
+Entsorgungsfachbetrieb mit Schrott- und Metallhandel, An- und Verkauf von NE-Metallen und
+Eisenschrott zu Tagespreisen, Altfahrzeugannahmestelle und Containerdienst; geführt von
+Mario Weilch und Anton Pletschacher. Die Identität tragen das Impressum der
+Betreiberseite pletschacher-recycling.de, der kongruente Registerspiegel zur HRB 7986
+Registergericht Traunstein und das amtlich gelesene EfbV-Zertifikat K10935-20260410-Efb-de
+der PÜG (Vorgangsnummer ZZHT004000928015, gültig bis 07.10.2027), das dem Standort die
+Anlagen Sammeln und Befördern, Lagern und Behandeln zuordnet. Offen bleiben der
+Negativbefund zu einer Altfahrzeugverwertungs-Anerkennung trotz der auf der Betreiberseite
+genannten Altfahrzeugannahmestelle sowie die nur telefonisch erteilbaren Preise.
 
 ## Timeline
 

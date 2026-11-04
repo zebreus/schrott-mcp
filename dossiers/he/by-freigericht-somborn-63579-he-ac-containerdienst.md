@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+AC Containerdienst UG (haftungsbeschränkt), Im Schwalbengrund 14, 63579 Freigericht:
+Containerdienst mit Schrottankauf im Main-Kinzig-Kreis, geführt von Merle Federau; angekauft
+werden Schrott, Altmetall und Kabel zu Tagespreisen auf Anfrage, hinzu kommen Abholung und
+Container. Die Identität tragen das Betreiber-Impressum mit HRB 101188 Amtsgericht Hanau und
+das Verzeichnis 11880 als Zweitbeleg. Offen bleibt der Negativbefund im amtlichen
+Fachbetrieberegister: Zum Abrufdatum weist das Register keinen Eintrag aus, der dem
+Dossierstandort zugeordnet ist, sodass Zertifikats- und Vorgangsdaten nicht ausgewiesen
+sind. Die Seed-Adresse Raiffeisenstraße 26 in Somborn wurde durch die Impressum-Adresse
+ersetzt; der Eintrag ist nicht mit dem benachbarten TSR-Standort im Gewerbepark Birkenhain
+zusammengeführt.
 
 ## Timeline
 

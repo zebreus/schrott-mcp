@@ -25,7 +25,16 @@ certifications: ''
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SRM Schrotthandel Rhein-Main e.K., Inh. Dennis Böckem, Zimmerner Str. 11, 64409 Messel: e.K.
+mit HRA 85319 AG Darmstadt, der Schrott ankauft, im Rhein-Main-Gebiet abholt, Container stellt
+und eine Selbstanlieferung am Schrottplatz Messel ohne Termin ermöglicht; der Betrieb ist unter
+dem früheren Namen Schrotthandel Boeckem aus Egelsbach hierher umgezogen. Die Identität tragen
+das Betreiber-Impressum und der kongruente Registerspiegel, die Rufnummer entspricht dem
+Seed-Eintrag. Das Dossier he-messel-srm-schrotthandel-rhein-main beschreibt dieselbe Firma und
+Annahmestelle, keinen zweiten Betrieb. Ankaufpreise sind tagesabhängig und nicht als numerische
+Liste veröffentlicht. Offen bleiben die Preishöhe sowie der Befund, dass das amtliche
+Fachbetrieberegister weder ein Efb-Zertifikat noch einen AltfahrzeugV-Eintrag führt, was wegen
+der Freiwilligkeit kein Nachweis des Fehlens ist.
 
 ## Timeline
 

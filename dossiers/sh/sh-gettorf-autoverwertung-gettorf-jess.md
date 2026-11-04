@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Autoverwertung Gettorf ist ein Einzelunternehmen von Robert Jess (USt-IdNr. DE 203288353)
+in Hasselrott 67, 24214 Gettorf; sie besteht seit 1968 und ist ein anerkannter Demontagebetrieb
+nach Altfahrzeug-Verordnung, jährlich durch den TÜV Nord zertifiziert, mit Demontage und
+Verwertung von Altfahrzeugen, Verkauf demontierter Gebrauchtteile und Fahrzeugen zum
+Selbstausbau. Die Identität trägt das Impressum der Betreiberwebsite mit Anschrift, Telefon,
+USt-IdNr. und E-Mail; die abweichende Adresse in der Fußzeile der Startseite ist als
+Gegenangabe dokumentiert. Offen bleibt die Adresslage: In OSM existiert die Hausnummer 67 auf
+der Hasselrott nicht, die Nummern springen von 66 auf 68, und ein Objekt mit Betriebsbezug
+fehlt. Eine Ankaufspreisliste ist nicht veröffentlicht; Verkauf erfolgt über Einzel-Exposé,
+Gebühren sind nicht ausgewiesen.
 
 ## Timeline
 

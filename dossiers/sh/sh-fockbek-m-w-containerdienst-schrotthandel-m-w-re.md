@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+M.W. Recycling GmbH (Geschäftsführer Michael Waschelewski) betreibt in Fockbek, Krattredder 28,
+24787 Fockbek, einen Recyclinghof mit Containerdienst, Schrotthandel, Abbruch und Transport;
+das Unternehmen wurde 2003 gegründet, zog 2016 von Owschlag nach Fockbek und erweiterte 2021
+zum Recyclinghof. Die Identität trägt das Impressum der Betreiberwebsite, das die GmbH mit
+HRB 13659 KI AG Kiel und den Geschäftsführer ausweist; Öffnungszeiten und Leistungsangaben
+stammen von der Kontakt- und Startseite derselben Domain. Eine zweite unabhängige Quelle
+außerhalb der Betreiberdomain ist nicht dokumentiert, ebenso fehlen Ankaufspreise,
+Verkaufspreise und Gebührenangaben.
 
 ## Timeline
 

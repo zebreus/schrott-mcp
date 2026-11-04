@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Autoverwertung Teut GbR betreibt in Ziethen, An der Bundesstraße 13, 23911 Ziethen, einen
+zertifizierten Entsorgungsfachbetrieb mit Autoverwertung und Autoverschrottung, Abholservice für
+Unfall- und Altfahrzeuge, Ersatzteilhandel und Altmetallhandel mit Ankauf von Bunt- und
+Edelmetallen, Containerstellung, Abholung, Demontage und Elektroschrott-Entsorgung. Die
+Identität trägt die Betreiberseite mit Impressum, das Firma, Anschrift und Telefon bestätigt; die
+Hausnummer 13 ist in OSM erfasst, ein Objekt mit Betriebsbezug fehlt dort. Offen bleibt die
+Rechtsform: Das Impressum nennt weder HR-Nummer noch Geschäftsführer, die Firmierung ist damit
+nicht registerbelegt, die USt-IdNr. ist zwar vorhanden, ihr Ziffernwert aber nicht ausgeschrieben,
+und die E-Mail verschleiert. Ob über den Altmetallhandel hinaus Schrott angekauft wird, ist nicht
+belegt; Preise und Tarife fehlen.
 
 ## Timeline
 

@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Kurt Steding Entsorgungs GmbH, Ruhrstraße 29, 63452 Hanau, Amtsgericht Hanau HRB 5833,
+Geschäftsführung Kerstin Ludewig: metallhandelnder Entsorgungsbetrieb, der Fe- und NE-Schrott
+ankauft, Fe-Schrott ab 100 kg und NE-Schrott auch in kleineren Mengen annimmt und
+Selbstanlieferung am Standort ermöglicht. Die Identität tragen das Betreiber-Impressum und der
+kongruente Registereintrag, die Leistungsseite belegt den Schrottankauf, das Impressum nennt
+eine ESN-Zertifizierung. Offen bleiben die Ankaufspreise, da keine numerische öffentliche
+Preisliste vorliegt, und die reguläre Wochenzeit, weil eine separat verlinkte
+Samstag-Mitteilung nicht als Öffnungszeit übernommen wurde.
 
 ## Timeline
 

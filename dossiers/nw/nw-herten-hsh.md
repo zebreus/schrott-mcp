@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HSH Hertener Schrotthandel GmbH, Im Emscherbruch 7, 45699 Herten: Altmetallhandel mit
+Barankauf gegen Personalausweis und geeichten Waagen, Demontage und Rückbau sowie
+kostenlosem Containerdienst. Das Betreiberimpressum nennt HRB 8149 Amtsgericht
+Recklinghausen und die Geschäftsführung; die Postanschrift und der gesondert genannte
+Schrottplatz an der Hohewardstraße 346 sind belegt. Offen bleiben die Standortlage und die
+Belegkette: Im Dossier ist die Postanschrift als Straße geführt, der eigentliche Platz liegt
+an anderer Adresse, und die in der Beschreibung genannte Zertifizierung als
+Entsorgungsfachbetrieb ist durch kein Dokument belegt. Ankaufpreise sind nicht
+veröffentlicht.
 
 ## Timeline
 

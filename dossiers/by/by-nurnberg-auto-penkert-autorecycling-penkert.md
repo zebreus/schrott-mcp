@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autorecycling Penkert GmbH, Daimlerstraße 33, 90441 Nürnberg: Autoverwertung mit Demontage
+von Alt- und Unfallfahrzeugen, Gebrauchtwagen- und Ersatzteilhandel sowie Annahme und
+Sortierung von Schrott und Altmetall; geöffnet Montag bis Freitag 08:00 bis 18:00 Uhr und
+Samstag 08:00 bis 13:00 Uhr. Die Identität tragen das Impressum der Betreiberseite
+autorecycling-penkert.de mit der Registernummer HRB 27591 und der kongruente
+Registerspiegel. Offen bleiben die konkreten Annahmebedingungen für Privatkunden und eine
+Abholung: Auf den geprüften Seiten sind sie nicht beschrieben, sodass weder eine
+Annahme- noch eine Abholzusage dokumentiert ist.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+A.S. Brito GmbH, Industriestraße 38, 68623 Lampertheim, Amtsgericht Darmstadt HRB 62115,
+Geschäftsführer Antonio Da Silva Brito: Schrott- und Metallhandel mit Bar-Auszahlung nach
+Kilogramm, Fahrzeugentsorgung und Autoverwertung sowie An- und Verkauf von Europaletten,
+Gitterboxen und Kunststoffpaletten. Die Identität tragen das Betreiber-Impressum und der
+kongruente Registereintrag, dessen Unternehmenszweck Fahrzeughandel lautet;
+Branchenverzeichnisse nennen abweichend Spirituosen- und Lebensmittelhandel, sind aber nur
+Leitspuren. Offen bleiben die konkreten Ankaufkriterien, Defektannahme, Mengen und aktuellen
+Preise sowie die Annahmezeiten, weil die Recycling-Seite von 8 bis 19 Uhr und die Fußzeile von
+8 bis 18 Uhr nennen.
 
 ## Timeline
 

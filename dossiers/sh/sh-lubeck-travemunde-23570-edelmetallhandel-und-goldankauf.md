@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Edelmetallhandel Lübeck Dennis Suitner e.K. — im Impressum TraveAntik Travemünde e.K.
+(USt-IdNr. DE 263028761) — betreibt in Travemünde, Rose 12, 23570 Lübeck, eine Filiale für
+Gold- und Silberankauf mit Live-Ankaufspreisen, Prüfung per Röntgenanalyse (Fischerscope,
+Olympus) und geeichten Waagen; die zweite Niederlassung sitzt an der Mühlenbrücke 1, 23552
+Lübeck. Die Identität trägt das Impressum mit USt-IdNr. und FairCommerce-Mitgliedschaft sowie die
+Anfahrtsseite, die beide Niederlassungen nennt; in OSM ist der Betrieb als „Traveantik"
+erfasst, allerdings ohne Adresszuordnung. Offen bleiben die Kontakt- und Zeitangaben: Die
+Dossier-Telefonnummer stammt aus Verzeichnissen, das Impressum nennt nur die Nummer der
+Innenstadtfiliale, und die Öffnungszeiten weichen zwischen Dossier (Mo-Fr 10-17) und OSM
+(Mo-Fr 10-18) ab. Eine numerische Verkaufspreisliste ist nicht verifiziert.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Sommer GmbH, Lothringer Str. 3-5, 63450 Hanau, Amtsgericht Hanau HRB 96003: Gold- und
+Silberankauf von Schmuck, Altgold, Zahngold, Münzen und Barren im Hanauer Fachgeschäft, geführt
+von Aribert und Brunhilde Sommer, mit Verkauf von Anlagegold. Die Identität tragen die
+Impressen der beiden Betreiber-Domains goldankauf-hanau.de und firma-sommer.de, die dieselbe
+Gesellschaft mit derselben USt-IdNr nennen, sowie der kongruente Registereintrag; ein
+Branchenverzeichnis verweist zusätzlich auf eine dritte Domain derselben Firma. Die Preisseite
+liefert eine zeitgestempelte Momentaufnahme, keine dauerhafte Preisliste. Offen bleiben die
+Preishöhen, der nur einseitig belegte E-Mail-Kontakt und die Rolle der dritten Domain, die nur
+über das Verzeichnis bekannt ist.
 
 ## Timeline
 

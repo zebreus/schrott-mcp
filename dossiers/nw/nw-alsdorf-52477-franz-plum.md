@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Franz Plum GmbH & Co. KG, Carl-Zeiss-Straße 9, 52477 Alsdorf: Schrott- und NE-Metallhandel
+mit Containerdienst und Industriedemontagen; Kleinmengen NE-Metalle werden am Sitz
+angenommen, der Schrottplatz liegt gesondert an Am Güterbahnhof 5. Betreiberimpressum und
+Northdata-Registerspiegel nennen übereinstimmend HRA 3432 Amtsgericht Aachen. Das amtliche
+Fachbetrieberegister weist genau diesen Standort mit dem ESN-Zertifikat 16-060542(26),
+gültig bis 30.11.2027, und einer Anlage für Sammeln und Befördern aus; die hinterlegte
+Bilddatei zeigt nur das abgelöste Vorgängerzertifikat. Daneben liegt ein ISO-9001-Zertifikat
+des TÜV Rheinland mit derselben Anschrift. Ankaufpreise sind nicht veröffentlicht. Offen
+bleiben die Dublettenfrage zu einem weiteren Dossier mit derselben Nummer und Anschrift und
+der fehlende Nachweis einer Anerkennung nach AltfahrzeugV.
 
 ## Timeline
 

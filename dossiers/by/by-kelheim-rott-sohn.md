@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rott & Sohn GmbH & Co. KG, Grenzstraße 8, 93309 Kelheim: Energie- und Entsorgungsbetrieb mit
+Containerverleih für Abfälle im Raum Niederbayern; Bürozeiten Montag bis Donnerstag 08:00 bis
+17:00 Uhr, Freitag bis 16:00 Uhr. Die Identität tragen das Impressum der Betreiberseite
+rottundsohn.de mit Anschrift und Telefon sowie das Firmenprofil bei Sellwerk als Zweitbeleg
+für Name, Adresse, Domain und E-Mail. Offen bleibt die Registerlage: die im Impressum
+genannte HRB 4500 beim Amtsgericht Regensburg ist widersprüchlich, da die
+Northdata-Abfrage auf eine andere Gesellschaft auflöst, weshalb keine Registernummer
+übernommen wurde. Ein Schrottankauf ist nicht belegt, und Annahmezeiten sind nicht
+veröffentlicht.
 
 ## Timeline
 

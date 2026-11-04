@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zimmer Schrott- und Metallhandels GmbH, Grubenstraße 10, 50354 Hürth: Annahme und
+Aufbereitung von Stahl-, legierten Stahl- und Buntmetallschrotten, dazu Kabelrecycling und
+lokale Schrottentsorgung für Industrie und Entsorgungswirtschaft. Das Betreiberimpressum
+nennt HRB 43379 Amtsgericht Köln und die Anschrift, die Registerdarstellung bestätigt Nummer
+und Ort, und die Unterseiten zu Anschrift, Geschichte, Märkten, Management, Compliance und
+Zertifizierung bestätigen den aktuellen Betrieb sowie getrennte Büro- und
+Anlieferungszeiten. Offen bleiben die Namensform, da der Registerspiegel die Gesellschaft
+als Zimmer Schrott- und Metallhandelsgesellschaft mbH führt, und die Adressangabe, weil das
+Dossierfeld neben der eigentlichen Anschrift einen Firmenrest enthält. Ankaufpreise und
+Gebühren sind nicht veröffentlicht; das Dossier bleibt im Status pruefung.
 
 ## Timeline
 

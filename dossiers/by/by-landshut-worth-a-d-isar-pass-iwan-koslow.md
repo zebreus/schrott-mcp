@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Iwan Koslow GmbH & Co. KG, Röntgenstraße 17, 84030 Landshut: Schrott- und Metallhandel mit
+Altfahrzeug- und E-Schrott-Verwertung und Containerdienst; neben diesem Werk führt der
+Betreiber Werke in der Unteren Auenstraße 33 in Landshut, der Siemensstraße 44 in Wörth
+a. d. Isar und der Regensburger Straße 13a in Passau. Die Identität tragen das Impressum
+der Betreiberseite koslow.de mit Sitz und Registernummer HRA 7610 Amtsgericht Landshut
+sowie der kongruente Registerspiegel; die Werkseiten stammen aus derselben Quelle wie das
+Impressum. Offen bleibt die Anschrift des Hauptwerks, die nur betreiberseitig belegt ist,
+während die zweite Quelle ausschließlich die Registeridentität stützt.
 
 ## Timeline
 

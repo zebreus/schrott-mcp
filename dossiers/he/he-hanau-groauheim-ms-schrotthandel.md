@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MS Schrotthandel GmbH, Rodgaustr. 29, 63457 Hanau-Großauheim: Schrotthändler, der Schrott,
+Altmetall und Schrottfahrzeuge ankauft, über eine Fahrzeugwaage Selbstanlieferung annimmt,
+Abholung und Container nach Absprache anbietet und eine kostenlose Schrottabholung im
+Main-Kinzig-Kreis bewirbt. Die Identität tragen Betreiber-Homepage und -Impressum mit
+Amtsgericht Hanau HRB 95524 und Geschäftsführer Edwin Moghaddasian. Der für die
+Statusentscheidung verlangte unabhängige Live-Registerabruf war nicht abrufbar, Registerportale
+bleiben daher Leitspuren, und eine konkurrierende Verzeichnisangabe nennt an derselben Adresse
+Yenal Simsek. Offen bleiben damit die eigenständige Registerbestätigung, die Betreiberzuordnung
+im Namenskonflikt und sämtliche Preise, die nur als tagesaktuelle Anfrage erscheinen.
 
 ## Timeline
 

@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Siegfried Jacob Hamburg GmbH & Co. KG betreibt in Glinde, Wilhelm-Bergner-Str. 13,
+21509 Glinde, eine 50.000 m² große Anlage zum Recycling von NE-Metallen sowie den weltweiten
+Handel mit Kupfer, Aluminium, Zink und Zinn; die Anlieferung erfolgt durch Industrie und
+Handel. Sie gehört zur Jacob-Metal-Group. Die Identität trägt allein die Betreiberseite, die
+auch Impressum und Kontakt ausweist — ein ausdrücklich offengelegter Einzelbeleg. Offen bleibt,
+welche Kundengruppen der Betrieb tatsächlich annimmt: Die Seite beschreibt die Anlieferung
+durch Kunden, nennt aber weder eine Freigabe noch ein Verbot für Privatkunden, deshalb wird
+keine Kundengruppe behauptet. Ankaufs-, Verkaufs- und Gebührenpreise sind nicht belegt.
 
 ## Timeline
 

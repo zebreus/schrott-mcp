@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Steinrath Metalle GmbH, Hüttenstraße 133-135, 52068 Aachen: Metallhändler in vierter
+Generation, der Schrott und Metalle für Privat- und Gewerbekunden annimmt, auch in
+Kleinmengen, mit Anlieferung, Abholung und Containerdienst. Das Betreiberimpressum nennt HRB
+22078 Amtsgericht Aachen, ein kongruenter Northdata-Registerspiegel stützt die
+Rechtsidentität. Das amtliche Fachbetrieberegister weist den Betrieb an dieser Anschrift mit
+dem bvse-Zertifikat 10440, gültig bis 31.01.2028, und drei Anlagen für Sammeln und
+Befördern, Lagern und Behandeln aus. Der OSM-Punkt ist ein Polygonrepräsentationspunkt eines
+als commercial geführten Betriebsgeländes, nicht Einfahrt oder Waage. Ankaufpreise sind nur
+als tagesaktuell beschrieben. Offen bleibt eine Anerkennung nach AltfahrzeugV, da die
+Altfahrzeugverwertungs-Route des Registers keinen Treffer liefert.
 
 ## Timeline
 

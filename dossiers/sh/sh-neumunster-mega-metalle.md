@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mega-Metalle ist ein Kleinbetrieb in Neumünster, Am Gashof 10, 24534 Neumünster, der nach
+eigenem Auftreten seit 2010 Schrott- und Metallhandel betreibt und Kupfer, Messing, Eisen und
+Kabel ankauft; ergänzend werden Container und Boxen verliehen. Die Identität trägt allein die
+Betreiberseite mit Anschrift, Rufnummer, E-Mail und Öffnungszeiten (Mo-Fr 8-18, Sa 8-14) — ein
+offengelegter Einzelbeleg, dessen Impressum nicht auf eine HR-Nummer geprüft ist. Offen bleiben
+damit Registerlage und Preise: Eine zweite unabhängige Quelle ist nicht dokumentiert, und
+Ankaufs-, Verkaufs- und Gebührenpreise werden nicht veröffentlicht.
 
 ## Timeline
 

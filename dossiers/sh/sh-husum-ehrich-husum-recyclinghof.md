@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Standort ist Recyclinghof und Schrottplatz der Ehrich-Gruppe in Husum, Johannes-Mejer-Str. 1,
+25813 Husum, mit Schrott, Altautos und NE-Metallen auf 15.000 qm; daneben betreibt die Gruppe
+den Port Husum. Betreiber ist die Ehrich Recyclinghof Husum GmbH & Co. KG (HRA 5900 AG
+Flensburg, Geschäftsführer Carsten Wölk). Die Identität trägt das Impressum zusammen mit der
+Standort-Detailseite, die den Schrottplatz und die Öffnungszeiten (Mo-Fr 8-16, Sa 8-12)
+ausweist. Offen bleibt der zweite Standort in Rödemishallig: Dort ist keine Schrott-Anlieferung
+belegt, der Eingang daher nicht übernommen. Ankaufs-, Verkaufs- und Gebührenpreise sind nicht
+ausgewiesen, eine zweite unabhängige Quelle außerhalb der Betreiberdomain ist nicht
+dokumentiert.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die AVB Autoverwertung, geführt von Robin Pauly, ist in Schwabstedt, Norderende 9a, 25876
+Schwabstedt, ein anerkannter Demontagebetrieb für Altfahrzeug-Annahme und -Entsorgung mit
+Metallschrott-Annahme und Absetzmulden; geöffnet ist montags, dienstags, donnerstags und
+freitags in drei Schichten, mittwochs und samstags geschlossen, die Schrottannahme läuft bis
+16:30 Uhr. Die Identität trägt allein die Betreiberwebsite mit Anschrift, Telefon und Büro-Mail —
+ein offengelegter Einzelbeleg, da ein Inhaberbetrieb ohne HR-Nummer keinen Registerbeleg haben
+kann. Offen bleiben die Preise: Eine Ankaufspreisliste ist nicht veröffentlicht, ebenso wenig
+Verkaufspreise für Ersatzteile oder Gebührentarife; eine zweite unabhängige Quelle ist nicht
+dokumentiert.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Borowski & Hopp GmbH & Co. KG ist ein Recycling-Fachbetrieb in Bad Oldesloe, Paperbarg 3,
+23843 Bad Oldesloe, mit An- und Verkauf von Altmetallen und Fe-Schrotten, Containerdienst,
+Abbruch und Demontage. Die Identität trägt die Betreiber-Website boho.de mit Start-,
+Warenanlieferungs- und Preisseite, ergänzt um das OSM-Objekt way/29351931, das den Betrieb
+unter der Hausnummer 3 nennt. Kasse und Metallannahme sind seit 01.02.2026 dauerhaft ab
+16:00 Uhr geschlossen. Ankaufpreise werden nicht veröffentlicht, die Seite nennt nur das
+Verfahren „tagesaktuell und orientiert an den Weltmarkt-Preisen"; für Gebühren und Tarife fehlt
+jeder Betrag, die AGB nennen Abholgebühr und Containermietzins ohne Zahlen. Offen bleibt die
+Belegkette: Die Website ist ein Einzelbeleg ohne zweiten Register- oder Kommunalbeleg, und ein
+Entsorgungsfachbetrieb-Nachweis für den Standort Bad Oldesloe ist nicht erbracht.
 
 ## Timeline
 

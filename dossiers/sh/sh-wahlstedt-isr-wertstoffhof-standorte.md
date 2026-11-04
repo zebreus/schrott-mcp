@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die ISR Recycling GmbH & Co. KG betreibt in Fahrenkrug/Wahlstedt, Holsteinstraße 17, einen
+Schrottplatz für privaten und gewerblichen Schrott mit Containergestellung und Entsorgung von
+Altfahrzeugen mit Entsorgungsnachweis, geöffnet Mo-Fr 8-17 Uhr. Die Identität trägt die
+Betreiber-Standortseite; in OSM ist der Standort positiv als „ISR Recycling GmbH & Co. KG" mit
+industrial=scrap_yard unter der Hausnummer 17 erfasst. Offen bleibt die Ortslage: Der Betreiber
+gibt 23795 Fahrenkrug an, die beiden OSM-Objekte tragen 23812 Wahlstedt, welche PLZ für den
+tatsächlichen Standort gilt, ist ungeklärt. Zudem führt das Impressum keine HR-Nummer, die
+E-Mail bleibt wegen JS-Verschleierung leer, und Ankaufs-, Verkaufs- und Gebührenpreise sind nicht
+veröffentlicht.
 
 ## Timeline
 

@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+nordisk metal e.K. sitzt in Flensburg-Sandberg, Preesterbarg 31, 24943 Flensburg; das Dossier
+führt den Betrieb als Metallhandel mit Halbzeugen, ein Schrottankauf ist bislang nicht belegt.
+Als Rechtsträger ist ein Registereintrag HRA 4067 Flensburg mit Inhaber Hubert Mayer erfasst,
+stammt aber aus einer einzelnen Verzeichnisquelle. Die Domain nordiskmetal.com löst per DNS
+nicht mehr auf, der Webauftritt ist damit tot und die Halbzeug-Angabe nicht mehr überprüfbar.
+In OSM existiert die Hausnummer 31 als reines Gebäudeobjekt ohne Namens- oder
+Betreiberkennzeichnung. Offen bleiben die heutige Nutzung der Anschrift, der fehlende
+Schrottankaufs-Beleg und eine zweite Quelle zur Registerzugehörigkeit.
 
 ## Timeline
 

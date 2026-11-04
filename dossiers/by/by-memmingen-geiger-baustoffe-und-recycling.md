@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Geiger Baustoffe und Recycling GmbH & Co. KG, Fuchsäcker 1, 87700 Memmingen: Kreislaufstandort
+Memmingen der Geiger Gruppe, rund 11 Hektar, am 11.07.2024 eröffnet; angenommen werden
+Altholz, Bauschutt und Bodenaushub von Bau- und Abbruchfirmen, Entsorgern, Kommunen und
+Privatkunden, geöffnet Montag bis Donnerstag 7 bis 12 und 13 bis 17 Uhr, Freitag bis 13 Uhr.
+Die Identität tragen die Standortseite der Betreiberseite geigergruppe.com, der
+Fachpressebeitrag von AT Minerals als Zweitbeleg zu Fläche und Eröffnungsdatum und der
+Registerspiegel zur HRA 11084 Amtsgericht Kempten mit Sitz Oberstdorf. Offen bleiben die
+formal nicht geltend gemachte Belegausnahme, weil das Konzern-Impressum mit der Wilhelm
+Geiger GmbH & Co. KG eine andere Gesellschaft nennt, sowie der fehlende Nachweis eines
+Schrottankaufs für Privatanlieferer an diesem Standort.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Pietsch Rohstoffe GmbH, Lise-Meitner-Straße 24-30, 47533 Kleve: Wertstoffhof mit Schrott-
+und Metallhandel, Ankauf sortierter Kupfer-, Aluminium-, Blei-, Zink-, Eisen-, Edelstahl-
+und Messingabfälle nach Gewicht zum aktuellen Tagespreis, auch alte Kupferkabel werden
+angenommen. Das Betreiberimpressum nennt HRB 1861 Amtsgericht Kleve und die
+Geschäftsführung, der Registerspiegel bestätigt Nummer und Ort unter abweichender
+Namensform, und das Zertifikat der bvse-Entsorgergemeinschaft Nr. 10718 (Vorgangsnummer
+ZZEE001005080006, gültig bis 30.06.2027) nennt Hauptsitz und Betriebsstätte Kleve. Offen
+bleiben die Standortlage und die Annahmebedingungen: Das OSM-Objekt zur Hausnummerfolge 24,
+26, 28 und 30 trägt weder Name noch Betreiberangabe, der Firmenname steht am benachbarten
+Objekt zur Nummer 29. Preise werden nur telefonisch genannt, eine Abholung ist nicht belegt.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Schrotthandel Langenhorn GmbH & Co. KG (HRA 7553 FL AG Flensburg) betreibt in Langenhorn,
+Hohe Koppel 14, 25842 Langenhorn, einen Schrotthandel, der Alu, Blei, Kupfer, Kabel, Stahl und
+Zink annimmt. Die Identität trägt der Registereintrag mit dem Unternehmenszweck „Betrieb eines
+Schrotthandels" sowie ein Verzeichniseintrag; die Domain schrotthandel-nordfriesland.de ist nur
+eine leere STRATO-Reservierung und damit kein Beleg. Offen bleibt die Betreiberzuordnung: Unter
+derselben Adresse führt das Branchenbuch zwei verschiedene Einträge mit zwei Rufnummern,
+„Schrotthandel Langenhorn GmbH & Co. KG" und „Björn Schrotthandel Björn Weide", weshalb das
+Telefonfeld leer bleibt. In OSM existiert die Hausnummer 14 auf der Hohe Koppel nicht; Ankaufs-
+preise sind nicht belegt.
 
 ## Timeline
 

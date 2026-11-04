@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ritschny Schrott- und Metallhandel GmbH, Zu den Werkstätten 29, 59821 Arnsberg: Schrott- und
+Metallhandel mit Annahme für Gewerbe, Privatkunden und Vereine, Verwiegung, Containerdienst
+und Demontage. Das Betreiberimpressum nennt HRB 1216 Amtsgericht Arnsberg, der
+Northdata-Registerspiegel ist kongruent. Das amtliche Fachbetrieberegister weist den
+Standort mit dem ESN-Zertifikat 07-040415(26), gültig bis 30.09.2027, und vier Anlagen für
+Sammeln, Befördern, Lagern, Behandeln, Verwerten sowie Handeln und Makeln aus. Ankaufpreise
+und Mindestmengen werden nicht veröffentlicht. Offen bleiben die widersprüchlichen
+Öffnungszeiten der eigenen Detailseiten, der fehlende exakte Hausnummernnachweis in OSM, der
+die Koordinatenanlage verhinderte, und der fehlende Treffer in der Altfahrzeugverwertung des
+Registers. Warstein-Niederbergheim gehört einer eigenen Gesellschaft.
 
 ## Timeline
 

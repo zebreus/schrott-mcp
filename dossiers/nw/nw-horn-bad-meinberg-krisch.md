@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Krisch GmbH, Nordstraße 86, 32805 Horn-Bad Meinberg: Metall- und Schrottankauf mit
+Containerdienst und Schrottschere, zertifizierter Entsorgungsfachbetrieb laut Betreiber. Das
+Betreiberimpressum nennt HRB 8075 Amtsgericht Lemgo, die Vertretungsberechtigten und die
+Entsorger-Nummer E 766 790 12, die Startseite Adresse, Rufnummer und die Geschäftszeiten
+Mo-Fr 08:00-16:00; die Gelben Seiten dienen als Zweitbeleg für Adresse und Telefon. Offen
+bleiben die Zertifizierung, für die kein Dokument vorliegt, sowie belastbare Annahme- und
+Abholbedingungen, die das Dossier deshalb leer lässt. Ankaufpreise sind nicht
+veröffentlicht; das Dossier bleibt im Status pruefung.
 
 ## Timeline
 
