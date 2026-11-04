@@ -173,12 +173,22 @@ fn timeline_notes(body: &str) -> String {
         if is_h2(line) {
             break;
         }
+        // Eine **eingerueckte** Zeile ist eine Fortsetzungszeile des
+        // vorigen Bullets - auch wenn sie mit "- " beginnt. Ohne diese
+        // Unterscheidung wurde jede eingerueckte Aufzaehlung zu einem
+        // eigenen Bullet und die Notiz bekam einen zusaetzlichen "|"-Trenner.
+        let indented = line.starts_with(' ') || line.starts_with('\t');
         let s = line.trim();
-        if let Some(b) = s.strip_prefix("- ") {
-            bullets.push(b.trim().to_string());
-        } else if s.starts_with('#') || s.is_empty() {
+        if !indented {
+            if let Some(b) = s.strip_prefix("- ") {
+                bullets.push(b.trim().to_string());
+                continue;
+            }
+        }
+        if s.starts_with('#') || s.is_empty() {
             continue;
-        } else if let Some(last) = bullets.last_mut() {
+        }
+        if let Some(last) = bullets.last_mut() {
             last.push(' ');
             last.push_str(s);
         }
