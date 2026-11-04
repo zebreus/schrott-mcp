@@ -30,7 +30,9 @@ Ungeklärter „Ries“-Altmetallrecycling-Lead im Ort Wierschem. Ein direkt gel
 
 **Preise:** keine zuordenbare Ankaufspreisliste, Verkaufspreisliste oder Gebührenangabe gefunden. **Offen:** vollständiger Betreibername, Adresse/PLZ, aktuelle Tätigkeit sowie eine zulässige Betreiber- oder Registerquelle.
 
-**GEO:** Für die Seed-Adresse Pappelstraße 3 existiert inzwischen ein adressgenauer OSM-Punkt, der nur rund 0,08 km vom zurückgezogenen Altpunkt entfernt liegt. `clear_fields: 'geo'` bleibt bestehen, bis der Owner die Identität geklärt hat; der am 04.11.2026 neu aufgelöste Punkt (50.2262946/7.3518151) steht jetzt im Feld.## Timeline
+**GEO:** Für die Seed-Adresse Pappelstraße 3 existiert inzwischen ein adressgenauer OSM-Punkt, der nur rund 0,08 km vom zurückgezogenen Altpunkt entfernt liegt. `clear_fields: 'geo'` bleibt bestehen, bis der Owner die Identität geklärt hat; der am 04.11.2026 neu aufgelöste Punkt (50.2262946/7.3518151) steht jetzt im Feld.
+
+## Timeline
 
 ### Owner-GEO-Prüfung 23.10.2026
 
