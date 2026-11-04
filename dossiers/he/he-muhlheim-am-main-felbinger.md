@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Felbinger GmbH, Dieselstr. 71, 63165 Mühlheim am Main, Amtsgericht Offenbach HRB 6821,
+Geschäftsführer Andreas Felbinger: Wertstoffhof mit Selbstanlieferung von Metallen und
+Abfällen, der Metallanlieferungen auf Basis der aktuell gültigen Tagespreise auf Wunsch sofort
+vergütet. Die Identität tragen das Betreiber-Impressum, die Wertstoffhofseite und der
+kongruente Registereintrag; der Vermerk zur Recherche nennt ein Efb-Zertifikat bis 2027. Offen
+bleiben die Preishöhen, da keine numerische öffentliche Preisliste vorliegt, sowie eine
+Abholleistung, die das Dossier nicht belegt.
 
 ## Timeline
 

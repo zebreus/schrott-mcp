@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Nordic Recycling GmbH (HRB 5028 AG Flensburg, Geschäftsführer Bengtsson und Alm) ist in
+Handewitt, Gewerbepark 40, 24983, ein Sortier- und Umschlagsbetrieb mit Metallannahme, der
+Kupfer, Aluminium, Zink, Nickel, Zinn, Blei, Legierungen und Seltenmetalle beschafft und
+handelt. Die Identität trägt das Impressum der Betreiberwebsite; die Startseite belegt den
+Sortier- und Umschlagsbetrieb sowie die Annahmezeiten. Offen bleiben die Belegtiefe und die
+Preise: Eine zweite unabhängige Quelle außerhalb der Betreiberdomain ist nicht dokumentiert,
+und Ankaufs-, Verkaufs- und Gebührenpreise werden nicht veröffentlicht.
 
 ## Timeline
 

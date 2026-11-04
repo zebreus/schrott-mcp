@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Emscher Wertstoff GmbH, Werftstraße 13, 45881 Gelsenkirchen: Fe- und NE-Metallhandel mit
+Demontage. Das Betreiberimpressum nennt HRB 8996 Amtsgericht Gelsenkirchen und die
+Geschäftsführung, die Kontaktseite bestätigt Anschrift, Telefon, Fax und die Öffnungszeiten
+mit Annahme bis 15:30 und einem 14-tägigen Samstagsangebot; als Zweitbeleg ist ein
+kongruenter Registerspiegel herangezogen. Offen bleiben die Ortsangabe, da die Beschreibung
+Gelsenkirchen-Schalke-Nord nennt und das Dossier Gelsenkirchen-Mitte führt, sowie der
+Nachweis der in der Beschreibung genannten Zertifizierung als Entsorgungsfachbetrieb, für
+den kein Dokument vorliegt.
 
 ## Timeline
 

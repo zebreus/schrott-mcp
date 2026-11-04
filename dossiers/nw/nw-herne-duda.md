@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Industriedemontagen Duda, Dorstener Straße 349, 44653 Herne: Altmetallentsorgung, Abbruch,
+Haushaltsauflösung und Firmenumzüge, laut Startseite seit 2004. Das Betreiberimpressum nennt
+Inhaberin Christiane Duda, Anschrift, Rufnummern und E-Mail; als unabhängige Zweitbelege
+sind ein Creditreform-Firmeneintrag, ein Cylex-Profil und die Gelben Seiten adresskonguent
+herangezogen. Offen bleiben die Belegkette und die Standortlage: Das Einzelunternehmen hat
+keinen Registereintrag, eine Owner-Ausnahme greift daher nicht, die im Seed genannte
+Alternative Bickernstraße 49 gilt als veraltet und wurde nicht übernommen, und die
+Standortkoordinate ist nicht gesetzt. Ankaufpreise und Annahmebedingungen sind nicht
+veröffentlicht.
 
 ## Timeline
 

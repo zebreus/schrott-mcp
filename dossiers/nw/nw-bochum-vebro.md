@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Vebro, Schrotthandel VEBRO, Hustadtring 71, 44801 Bochum: mobiler Schrott- und
+Altmetallservice mit Abholung, Ankauf und Demontage im Ruhrgebiet und in NRW. Das Impressum
+nach § 5 DDG nennt Inhaber Abdul El-Lahib, Anschrift und Rufnummer; als unabhängige
+Zweitbelege sind Das Örtliche, werkenntdenBESTEN, Trustpilot und Sellwerk adress- und
+telefonkonguent aufgeführt. Die E-Mail-Adresse ist nur über Drittportale domainkonsistent
+belegt, auf der Betreiberseite ist sie maskiert. Offen bleiben eine zweite amtliche Quelle
+und die fehlende Standortkoordinate; das amtliche Fachbetrieberegister führt unter mehreren
+Namensvarianten und in der Ortssuche keinen Eintrag für den Betrieb. Da die Anerkennung nach
+§ 56 KrWG und nach AltfahrzeugV freiwillig ist, belegt dieser Negativbefund nicht das Fehlen
+einer Anerkennung.
 
 ## Timeline
 

@@ -27,7 +27,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Westarp Rohstoffhandel GmbH, Ladestraße 11, 59269 Beckum: Schrott- und Metallrecycling mit
+Anlieferung für Privatkunden und Gewerbe ohne Mindestmengen, Containerdienst, Abholung,
+Abbruch und Demontage. Das Betreiberimpressum nennt HRB 7671 Amtsgericht Münster, der
+Northdata-Registerspiegel ist kongruent. Das amtliche Fachbetrieberegister weist den
+Standort mit dem ESN-Zertifikat 98-030084 (26), gültig bis 31.08.2027, und drei Anlagen für
+Sammeln und Befördern, Lagern und Behandeln aus; die verlinkte PDF-Datei ist das abgelöste
+Vorgängerzertifikat. Die Schrottpreis-Seite trägt keine belastbaren Zahlenwerte. Offen
+bleiben die fehlende Anerkennung nach AltfahrzeugV und die Abgrenzung zu gleichnamigen
+Westarp-Rechtsträgern in Aschaffenburg, die nicht übernommen wurden.
 
 ## Timeline
 

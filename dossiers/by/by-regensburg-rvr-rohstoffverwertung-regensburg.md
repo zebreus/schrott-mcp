@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RVR Rohstoffverwertung Regensburg GmbH, Budapester Straße 24, 93055 Regensburg: Eisen- und
+Stahlschrott, NE-Metalle, Autoverwertung sowie Container- und Muldendienst; Geschäftsführer
+ist Franz Schwarzbauer. Die Identität tragen das Impressum der Betreiberseite
+rvr-regensburg.de mit der Registernummer HRB 9134 Amtsgericht Regensburg und der
+kongruente Registerspiegel. Offen bleiben die Belegtiefe der Anschrift, die allein aus der
+Betreiberquelle stammt, während die zweite Quelle nur die Registeridentität stützt, sowie die
+auf der Betreiberseite nicht veröffentlichten Öffnungszeiten.
 
 ## Timeline
 

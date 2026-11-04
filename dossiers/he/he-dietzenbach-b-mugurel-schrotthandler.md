@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+B. Mugurel Schrotthändler, Inh. Mugurel Braica, Robert-Koch-Str. 11, 63128 Dietzenbach:
+Schrotthändler als Einzelunternehmen mit Wirtschafts-Identifikationsnummer DE425479280 und ohne
+HRB-Eintrag, der die kostenlose Abholung von Altmetall bewirbt. Die Identität trägt das
+Impressum der Betreiberseite, die Adresse bestätigt ein OSM-Objekt zur Hausnummer 11, das weder
+Namen noch Betreiber trägt. Die Registersuche nach „Braica" und „Mugurel" liefert keine
+Treffer, was bei Einzelunternehmern kein Nichtbestehen belegt, und das amtliche
+Fachbetrieberegister führt für Dietzenbach zwei andere Betriebe und keinen
+Altauto-Demontagebetrieb. Offen bleiben die Öffnungszeiten, weil Betreiber- und
+Verzeichniseintrag drei verschiedene Zeitfenster nennen, die nur auf der Betreiberseite
+stehende E-Mail-Adresse, eine öffentliche Annahmestelle und sämtliche Materialpreise.
 
 ## Timeline
 

@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Oerter, Inh. Susanne Domuradt, Am Schimberg 8, 35708 Haiger (Flammersbach):
+Einzelunternehmen ohne HRB-Eintrag, das Altautos entsorgt und verwertet und Ersatzteile
+anbietet. Die Identität tragen das Betreiber-Impressum der Frameset-Site und die Gelben Seiten
+als zweiter Beleg mit identischer Anschrift und Telefonnummer; die Website ist nur per http
+erreichbar. Im Menü-Frame steht eine ältere E-Mail-Adresse als im Impressum, übernommen wurde
+die Impressumsangabe. Offen bleiben eine Register- oder Anerkennungsangabe, die es als
+Einzelunternehmen ohne Eintrag nicht gibt, sowie Ankaufs-, Vergütungs- und Gebührenangaben, zu
+denen das Dossier keine Aussage trifft.
 
 ## Timeline
 

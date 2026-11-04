@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+OPHIRUM Hanau by GOLDFUXX, Hirschstr. 11, 63450 Hanau: Edelmetallfiliale, die Gold, Silber,
+Platin und Palladium ankauft und Edelmetalle verkauft; Betreiber ist die Ophirum GmbH mit HRB
+87050 AG Frankfurt am Main. Die Identität tragen das Betreiber-Impressum, der kongruente
+Registereintrag und die standortgebundene Filialseite, die Anschrift, reguläre Öffnungszeiten
+und Vor-Ort-Beratung ausweist; das Label „geschlossen" betrifft nur den momentanen Tagesstatus,
+ein Newsbeitrag meldet die Neueröffnung ab dem 16. September 2026. Die veröffentlichte
+Legierungstafel nennt sechs laufend datierte Kurse und ist damit ein Referenz-, kein
+Schrott-Ankaufpreis; eine Mengenstaffel und eine Gültigkeitsdauer fehlen. Offen bleiben ein
+Filialtelefon, da nur die zentrale Servicenummer erscheint, und die Preisgültigkeit.
 
 ## Timeline
 

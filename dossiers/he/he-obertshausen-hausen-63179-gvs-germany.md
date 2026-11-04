@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+GVS Germany GmbH, Birkenwaldstr. 38, 63179 Obertshausen, Handelsregisternummer HRB 49571,
+Gesellschafter Helmut Soos: Gold- und Silberankauf samt Edelmetallhandel, ein allgemeiner
+Schrottankauf ist nicht belegt. Die Identität tragen das Betreiber-Impressum, das die
+Anschrift, die zentrale E-Mail-Adresse und die Registernummer nennt, sowie die Filialseite des
+Anbieters, die dieselbe Telefonnummer und die Öffnungszeiten bestätigt. Offen bleibt die
+gesellschaftliche Zuordnung, weil die Filialseite eine zweite standortbezogene E-Mail-Adresse
+nennt und das Impressum eine weitere GVS-Bullion-Gesellschaft separat ausweist; auch Preise und
+Gebühren sind nicht belegt.
 
 ## Timeline
 

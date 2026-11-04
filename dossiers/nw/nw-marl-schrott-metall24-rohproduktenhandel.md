@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott-Metall24 Rohproduktenhandel, Vor den Büschen 48, 45770 Marl-Sinsen: Schrott- und
+Metallhandel, im Webarchiv von 2015 als Lager 2 mit Ankauf von Metallen jeglicher Art zu
+Tagespreisen von Privat- und Geschäftskunden beschrieben, ergänzt um Demontage,
+Abbrucharbeiten und Bauschuttentsorgung. Die Anschrift stammt aus dem archivierten
+Betreiberimpressum, die aktuelle Live-Domain antwortet mit HTTP 423 und ist seit 2024 ohne
+öffentlichen Inhalt. Offen bleiben der Betriebsstatus, die Inhaberschaft, da das archivierte
+Impressum einen anderen Namen nennt als die Verzeichniseinträge, und die Öffnungszeiten, da
+Archiv und Verzeichnis voneinander abweichen. Für die Hausnummer 48 existiert im OSM-Raster
+kein Adressobjekt, Ankaufpreise sind nicht veröffentlicht.
 
 ## Timeline
 

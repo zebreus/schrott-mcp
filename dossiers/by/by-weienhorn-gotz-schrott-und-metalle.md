@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Götz GmbH Schrott und Metalle, Eschachweg 2-4, 89264 Weißenhorn: Filiale der Götz GmbH
+Schrott und Metalle mit Sitz Zeppelinstraße 32, 89231 Neu-Ulm (HRB 7047 Amtsgericht
+Memmingen, Geschäftsführer Harald und Michael Götz); die Familiengeschichte reicht bis 1951,
+die heutige GmbH wurde 1986 gegründet, der Standort Weißenhorn 2014 integriert. Angekauft
+werden Stahl, Guss, Aluminium, Kupfer, Kupferlegierungen, Blei, Zinn, Zink und Edelmetalle,
+auch kleine Mengen von Privatkunden mit Ausweis, vergütet zu Börsenpreisen; hinzu kommt
+die Abholung per Container. Die Identität tragen das Impressum und die
+Schrott-und-Metalle-Seite der Betreiberseite goetz-neu-ulm.de. Offen bleiben die Belegtiefe,
+da neben dem Betreiberauftritt keine zweite unabhängige Quelle ausgewiesen ist, und ein
+Zertifikatsnachweis für den Standort, der im Dossier nicht dokumentiert ist.
 
 ## Timeline
 

@@ -26,7 +26,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Kollmann GmbH Metallrecycling, Am Kuffholz 16, 93138 Lappersdorf: Metallrecyclingbetrieb,
+der Metallschrott und Metallabfälle gegen Vergütung annimmt, Containerdienst anbietet und
+größere Mengen per Kranwagen abholt; geführt von Christoph Schönfeld. Die Identität tragen
+das Impressum der Betreiberseite kollmann-metallrecycling.de mit der Registernummer HRB
+21039 Amtsgericht Regensburg und der kongruente Registerspiegel. Offen bleiben die
+Ortsangabe Hainsacker, die der Betreiber verwendet, während Register und Anschrift die
+Gemeinde Lappersdorf nennen, der Umstand, dass es sich beim Registerspiegel nicht um einen
+direkt abgerufenen amtlichen Auszug handelt, und die Verzeichnisquelle, die über den
+Status eines Aggregator-Leads nicht hinausgeht.
 
 ## Timeline
 

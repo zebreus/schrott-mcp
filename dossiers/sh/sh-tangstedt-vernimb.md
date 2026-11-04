@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Malte Vernimb GmbH in Tangstedt, Heidehofweg 16, 25499, erbringt nach dem Branchenbuch der
+Stadt Hamburg Entsorgung, Haushaltsauflösung und Entrümpelung sowie Lagerhaus und wird im
+Schrotthandel-Verzeichnis als Schrotthandel geführt. Die Identität trägt das Branchenbuch
+(Eintrag 10236172, zuletzt aktualisiert 13.11.2025) mit Anschrift, Telefon, Fax, E-Mail und
+Öffnungszeiten; die Domain vernimb-gmbh.de löst per DNS nicht mehr auf, ein Webauftritt fehlt
+damit. Offen bleibt die Firmierung: Branchenbuch, Schrotthandel-Verzeichnis und Vorwellen-Notiz
+nennen drei verschiedene Bezeichnungen, und Registerdaten wie HR-Nummer und Geschäftsführer sind
+nicht belegt. Ebenfalls unbelegt sind ein Ankauf von Metall, die Entsorgungsfachbetrieb-
+Zertifizierung und sämtliche Preise; in OSM existiert die Hausnummer 16 ohne Betriebsbezug.
 
 ## Timeline
 

@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hugo Neuhaus GmbH Schrott- und Metallgroßhandel, Askay 7, 57439 Attendorn-Ennest: Schrott-
+und Metallentsorgung mit Prüfung, Sortierung und Aufbereitung von Eisen-, Stahl- und
+NE-Metallen, dazu Warenannahme, Behälter und Transportlogistik. Das Betreiberimpressum nennt
+HRB 6082 Amtsgericht Siegen, der kongruente Registerspiegel stützt die Rechtsidentität. Das
+amtliche Fachbetrieberegister weist den Standort mit dem ESN-Zertifikat 02-060344(26),
+gültig bis 30.09.2027, und vier Anlagen für Sammeln, Befördern, Lagern, Behandeln und
+Verwerten aus; dazu liegen ein standortbezogenes ISO-9001-Zertifikat und eine
+Güterkraftverkehrslizenz vor. Ankaufpreise sind nicht veröffentlicht. Offen bleiben die
+Personenangaben, da Impressum und Registerspiegel bei den Geschäftsführern auseinandergehen,
+und der fehlende AltfahrzeugV-Nachweis.
 
 ## Timeline
 

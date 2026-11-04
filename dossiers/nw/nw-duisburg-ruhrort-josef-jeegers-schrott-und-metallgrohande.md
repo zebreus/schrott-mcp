@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Josef Jeegers GmbH Schrott- und Metallgroßhandel, Am Nordhafen 26a, 47119 Duisburg-Ruhrort:
+Schrottplatz mit rund 15.000 qm, Ankauf von Eisen- bis Buntmetallen gegen Bar sowie
+Containerdienst, Abholung, Brenn- und Abbrucharbeiten; Autoteile werden nicht verkauft. Das
+Betreiberimpressum nennt HRB 17162 Amtsgericht Duisburg und die Geschäftsführung; die
+Verzeichniseinträge dazu sind Alt- oder Parallelbelege derselben Adresse. Die frühere Domain
+jeegers-duisburg.de ist per DNS nicht mehr auflösbar, und die Impressum-Angabe zu einer
+Entsorgungsfachbetrieb-Zertifizierung stammt aus dieser Quelle; ein Zertifikatsdokument
+liegt dem Dossier nicht bei. Offen bleiben damit der amtliche Nachweis der Zertifizierung,
+eine zweite unabhängige Belegquelle und die Zuordnung der genannten Tagespreise, die nur
+telefonisch oder persönlich erteilt werden.
 
 ## Timeline
 

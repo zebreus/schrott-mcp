@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Manuel, Rohrbrunner Weg 2-4, 63128 Dietzenbach: Verzeichnislead eines Schrotthändlers, dessen
+Beleglage allein aus Verzeichniseinträgen besteht. Die 11880-Einzelseite führt den Eintrag mit
+dem Vermerk „Vom Inhaber bestätigt", die Gelben Seiten nennen dieselbe Anschrift und dieselbe
+Rufnummer; Betreiber-Website, Impressum, Registereinträge, Preisliste und belegter Annahmehof
+fehlen. Dieselbe Anschrift trägt laut Betreiber-Website die Marke „Lorenzo Schrotthandel", doch
+Name, Rufnummer und E-Mail verbinden beide Einträge nicht. Die Registersuche nach „Manuel"
+liefert nur ortsfremde Treffer, was mit einem Einzelunternehmen vereinbar ist, und das amtliche
+Fachbetrieberegister führt für Dietzenbach zwei andere Betriebe. Offen bleiben die Existenz
+eines eigenständigen Betriebs an dieser Adresse, eine öffentliche Annahmestelle und jede
+Preisangabe.
 
 ## Timeline
 

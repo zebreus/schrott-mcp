@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+H.L.R. Herbert Lagerin Rohstoffhandel GmbH, Am Roten Stock 16, 65199 Wiesbaden-Dotzheim,
+Amtsgericht Wiesbaden HRB 26864, Geschäftsführer Herbert Lagerin: zertifizierter
+Entsorgungsfachbetrieb, der Buntmetalle, Eisen- und Stahlschrott, Kabel und Katalysatoren
+ankauft und Containerdienst, Demontage und Abbruch anbietet. Die Identität tragen das
+Betreiber-Impressum und der passende Registereintrag mit dem Gegenstand Schrotthandel,
+Zerlegung und Sortierung, dazu die Standortseiten des Betriebs. Offen bleiben die Kontaktdaten,
+da Impressum und Kopf- beziehungsweise Fußzeile zwei verschiedene Telefonnummern nennen und die
+E-Mail-Adresse verschleiert ist, sowie die Anlieferung, die die Standortseite in Mainz und das
+Impressum in Dotzheim situiert.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Buhck GmbH & Co. KG betreibt in Trittau, Technologiepark 25, 22946 Trittau, einen
+Betriebshof mit Recyclinghof, Selbstanlieferung und Abholservice. Die Identität trägt das
+Standort-JSON der Konzernseite, das den Betriebshof mit Adresse, Telefon, standortspezifischer
+E-Mail, Koordinaten und saisonalen Öffnungszeiten ausweist. Offen bleiben zwei Punkte: Die
+Öffnungszeiten widersprechen sich zwischen Konzern-, Beteiligungs- und Branchenbuchangabe,
+weshalb das Feld leer bleibt, und ob im Betriebshof Schrott angekauft oder nur angenommen wird,
+ist nicht belegt, sodass der Status auf Prüfung steht. Hinzu kommt, dass in OSM die Hausnummer
+25 auf dem Technologiepark fehlt und im direkten Umfeld weitere Abfallbetriebe anderer
+Gesellschaften liegen. Ankaufs- und Standortpreise sowie Tarife sind nicht belegt.
 
 ## Timeline
 

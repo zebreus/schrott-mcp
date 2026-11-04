@@ -25,7 +25,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fa. Kocher, Ludwig-Erhard-Straße 8, 91639 Wolframs-Eschenbach: von Heidemarie Kocher
+geführter Familienbetrieb in dritter Generation mit Containerdienst, der laut
+Betreiberseite LGA-zertifizierter Entsorgungsfachbetrieb ist; ein Schrottankauf ist nicht
+belegt. Die Identität tragen das Impressum der Betreiberseite kocher-containerdienst.de mit
+der USt-IdNr. DE312738169 und das Örtliche als Zweitbeleg für Straße, PLZ und Ort. Offen
+bleiben der fehlende Handelsregistereintrag als Einzelunternehmen ohne HRB, weshalb die
+Ausnahme von der Zwei-Belege-Regel nicht greift, das nur im Verzeichnis belegte Telefon
+und die nur betreiberseitig genannten Öffnungszeiten, die deshalb nicht übernommen wurden,
+sowie das Zertifikat des Entsorgungsfachbetriebs, zu dem im Dossier keine Nummer und kein
+Ablaufdatum hinterlegt ist.
 
 ## Timeline
 

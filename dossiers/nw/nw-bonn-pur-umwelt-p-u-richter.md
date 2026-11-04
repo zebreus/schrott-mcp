@@ -25,9 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
-Der Betreiber veröffentlicht für den Standort Bonn-Bad Godesberg (Friesdorfer Straße 176) eine datierte Ankaufspreisliste für Schrott und Metalle. Der Preisstand wurde am 01.11.2026 erneut live geprüft und ist auf den 26.10.2026 fortgeschrieben; die Werte selbst sind gegenüber der Vorwelle unverändert.
+P.U. Richter Umweltdienste Rheinland GmbH, Friesdorfer Straße 176, 53175 Bonn-Bad Godesberg:
+Schrottannahme am Schrottplatz mit 50-t-Fahrzeugwaage, Containerabholung und veröffentlichte
+Ankaufspreisliste. Das amtliche Fachbetrieberegister weist den Betrieb mit dem
+PÜG-Zertifikat K10582-20260512-Efb-de, gültig bis 18.08.2027, und einer Anlage für Sammeln
+und Befördern aus; das Zertifikat nennt HRB 8793 Amtsgericht Bonn. Die Preisliste trägt das
+Datum 26.10.2026, 14:30 Uhr, wurde am 01.11.2026 erneut live geprüft und ist gegenüber der
+Vorwelle unverändert; sie listet 19 bepreiste Sorten in €/t, während der Seitenkopf eine
+zweite Darstellung mit 28 Positionen in €/kg führt, mit Mindermengenabzug von 10 % unter 200
+kg und Preisanfrage ab 500 kg je Sorte. Offen bleibt, ob beide Darstellungen dieselbe
+Preisrunde führen und ob eine Anerkennung nach AltfahrzeugV besteht.
 
 ## Timeline
 

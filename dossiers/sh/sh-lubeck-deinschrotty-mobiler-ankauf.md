@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+DeinSchrotty arbeitet ausschließlich mobil: Der Betrieb holt Schrott in Lübeck und Umgebung
+kostenlos ab, privat wie gewerblich, täglich von 8 bis 22 Uhr auch an Wochenenden, und zahlt
+Kleinmengen frei bzw. Großmengen bar; eine Anlieferadresse gibt es nicht, Sitz ist Hinter den
+Kirschkaten 1-3, 23560 Lübeck. Die Identität trägt allein die Betreiberseite mit Kontaktangaben
+und Impressum — ein ausdrücklich offengelegter Einzelbeleg. Offen bleibt die Betriebsbereitschaft:
+Die Seite meldet an zwei Stellen, derzeit keine Anfragen entgegenzunehmen, weshalb der Status
+als aktiv geführt, das Angebot aber als vorübergehend eingeschränkt gilt. Ankaufspreise werden
+nicht veröffentlicht.
 
 ## Timeline
 

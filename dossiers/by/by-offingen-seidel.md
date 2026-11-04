@@ -24,7 +24,15 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rohstoffe Seidel GmbH & Co. KG, Rappenwörthstraße 7, 89362 Offingen: Familienbetrieb seit
+1974, der Schrott, Metalle, Buntmetalle und E-Motoren entsorgt und verwertet, Demontage und
+Schutzplankenarbeiten übernimmt, Container stellt und Transport und Logistik anbietet;
+Mitglied des BDSV. Die Identität tragen das Impressum der Betreiberseite rohstoffe-seidel.de
+mit der Registernummer HRA 12443 Amtsgericht Memmingen und die einzeln gelesenen
+Leistungsseiten. Offen bleibt die Identität der Zertifikatsträgerin: Die auf der Seite
+"Qualifikation" gezeigten aktuellen ISO-9001- und ISO-14001-Zertifikate vom 10.02.2026
+nennen "Rohstoffe Seidel GmbH" und nicht die im Dossier geführte Gesellschaft & Co. KG,
+weshalb keine Zertifikate übernommen wurden. Öffnungszeiten sind nicht veröffentlicht.
 
 ## Timeline
 

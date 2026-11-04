@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bernhard Stienemann GmbH & Co. KG, Ramsdorfer Postweg 8, 46325 Borken: Metall-, Textil- und
+Kunststoffhandel und -verwertung mit An- und Verkauf, Verleih und Reparatur von Paletten,
+Gitterboxen und Behältern. Betreiberimpressum und Northdata-Registerspiegel nennen
+übereinstimmend die Firma und den Ort; die Registernummer ist zwischen den Belegen
+unterschiedlich, das Impressum nennt HRA 3518, das amtliche Zertifikat HRA 5413. Das
+amtliche Fachbetrieberegister weist den Standort mit dem ESN-Zertifikat 00-080300 (26),
+gültig bis 31.12.2027, und drei Anlagen für Sammeln, Befördern, Lagern, Behandeln und
+Verwerten aus. Offen bleiben die abweichende Registernummer, die fehlende Anerkennung nach
+AltfahrzeugV sowie Preise, Zustands- und Abholbedingungen. Die im Seed geführte Adresse
+Hansestraße 25 gehört nach dem Kreuzbeleg zu Dutz und wurde nicht übernommen.
 
 ## Timeline
 

@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+WERTZ Handelsgesellschaft mbH & Co. KG, Rödgerheidweg 34, 52068 Aachen: Schrott- und
+NE-Metallrecycling mit Annahme, Container- und Entsorgungsdiensten, dazu Stahlhandel und
+Brennschneidbetrieb. Das Betreiberimpressum nennt HRA 2668 Amtsgericht Aachen; das amtliche
+Fachbetrieberegister führt dieselbe Anschrift mit dem ESN-Zertifikat 99-050229(26), gültig
+bis 31.08.2027, und zwei Anlagen für Sammeln, Befördern, Handeln und Makeln sowie für Lagern
+und Behandeln. Das PDF auf der Zertifikatsseite ist inhaltsgleich mit der Registerurkunde
+und kein zweites Zertifikat; Ankaufpreise und Gebühren werden nicht veröffentlicht. Offen
+bleiben die fehlende Anerkennung nach AltfahrzeugV und die Abgrenzung zu den Standorten
+Eschweiler und Düren, die unter eigenen Vorgangsnummern laufen. Das ISO-9001-Zertifikat der
+Gruppe gilt nach dem gelesenen PDF der Wertz Autokrane und nicht dem Schrotthandel.
 
 ## Timeline
 

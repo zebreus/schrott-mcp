@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Götz GmbH Schrott und Metalle, Kiryat-Shmona-Straße 5, 87700 Memmingen: Wertstoffhof der
+Götz GmbH Schrott und Metalle (HRB 7047 Amtsgericht Memmingen, Geschäftsführer Harald und
+Michael Götz), einer von drei Standorten neben Neu-Ulm und Weißenhorn. Angenommen werden
+Stahlschrott, Guss, Aluminium, Kupfer und Kupferlegierungen, Blei, Zinn und Zink, hoch- und
+niedriglegierter Stahl sowie Edelmetalle; vergütet zu tagesaktuellen Börsenpreisen nach
+Verwiegung und Qualitätsprüfung, ohne veröffentlichte Preisliste. Verkauft werden
+Stahlschrott, Gießerei-Rohstoffe, Sekundärrohstoffe, Brennstoffe und Baustoffe. Die Identität
+tragen Kontakt- und Impressumsseite der Betreiberseite goetz-neu-ulm.de sowie
+Verzeichniseinträge bei meinestadt.de. Offen bleibt der fehlende Adressbezug in OSM: Die
+Hausnummer 5 ist dort nicht adressiert, die Straße trägt nur die Nummern 6 und 8.
 
 ## Timeline
 

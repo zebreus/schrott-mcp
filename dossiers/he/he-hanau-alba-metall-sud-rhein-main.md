@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Riwald Recycling Rhein-Main GmbH, Betrieb Hanau an der Auheimer Straße, 63450 Hanau:
+Betriebsstätte eines FE- und NE-Metallrecyclings mit Schrottannahme, hervorgegangen 2022 aus
+der ALBA Metall Süd Rhein-Main GmbH von 2013; Sitz der Gesellschaft ist Frankfurt am Main, HRB
+50373 AG Frankfurt am Main. Die Identität tragen die Standort- und Leistungsseite sowie das
+Riwald-Impressum, die den Standort mit Rufnummer und E-Mail führen. Ein Negativbefund zur
+Preisangabe ist belegt: Die Domain nennt keinen Eurobetrag, die Preispfade antworten mit 404,
+und die Downloads sind auf Zertifikate und die Verkaufs-AGB beschränkt. Offen bleiben eine
+Standorthausnummer, denn der Betreiber nennt keine, während Verzeichnisse einhellig Auheimer
+Straße 1 führen, die Aktualität der auf Oktober 2024 datierten AGB und die Frage, ob eine
+Preisliste auf Anfrage herausgegeben wird.
 
 ## Timeline
 

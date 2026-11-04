@@ -24,7 +24,14 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schielle - Schrott und Metalle, Inhaberin Margit Zadrosny e. K., Georgenstraße 53, 87719
+Mindelheim: Schrott- und Metallhandel mit Containerdienst und Altautoverwertung; die
+Schrott-Sortenliste der Betreiberseite beschreibt die angenommene Ware, eine vollständige
+Preisangabe wird nicht veröffentlicht. Die Identität tragen das Impressum der
+Betreiberseite schielle.de mit der USt-IdNr. DE233396128 sowie der kongruente Eintrag bei
+schrottplatz-info.de. Offen bleibt, dass die Ausnahme von der Zwei-Belege-Regel nicht
+greift - es ist ein Einzelunternehmen ohne Registereintrag -, sodass die Beleglage allein
+auf einer starken Einzelquelle und einem Verzeichnisbeleg beruht.
 
 ## Timeline
 

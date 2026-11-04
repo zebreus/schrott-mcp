@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MOHR Rohstoff GmbH, Saarbrücker Allee 5, 65201 Wiesbaden-Schierstein, Amtsgericht Wiesbaden HRB
+32121, Geschäftsführer René Fousseret: Schrotthandel mit eigenem Schrottplatz, der Schrott
+ankauft, abholt, Kabelrecycling betreibt, Container stellt sowie Industrie-Demontage und
+Rückbau im Rhein-Main- und Rhein-Neckar-Gebiet übernimmt. Die Identität tragen das
+Betreiber-Impressum und der kongruente Registereintrag, der auch den Unternehmensgegenstand
+Handel mit Rohstoffen, Demontage und Containerdienst nennt. Offen bleiben die Ankaufs- und
+Verkaufskonditionen sowie jede Gebührenangabe; ein An- und Verkauf von Autoteilen ist laut
+Start- und Kontaktseite ausgeschlossen.
 
 ## Timeline
 

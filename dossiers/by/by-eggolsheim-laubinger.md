@@ -25,7 +25,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Laubinger Schrott & Metalle, Drügendorfer Straße 5, 91330 Eggolsheim: von Jonny Laubinger
+betriebener Schrott- und Metallhandel mit Metall-Abholung, Containerdienst,
+Recycling-Service und Kranwagen. Die Identität tragen das Impressum der Betreiberseite
+laubingerschrottundmetalle.de mit der USt-IdNr. DE24553376955 und das Verzeichnis
+lokaleschrottplatz.de als Zweitbeleg für Anschrift und Telefonnummer. Offen bleiben der
+fehlende Handelsregistereintrag als Einzelunternehmen ohne HRB, weshalb die Ausnahme von
+der Zwei-Belege-Regel nicht greift, der Negativbefund zu einer Entsorgungsfachbetriebs-
+oder Altfahrzeugverwertungs-Anerkennung im amtlichen Register, die zwischen Betreiber
+und Verzeichnis abweichenden Öffnungszeiten und der abweichende Verzeichniseintrag
+"Schrott Laubinger Alfred, Eberhardstr. 10".
 
 ## Timeline
 

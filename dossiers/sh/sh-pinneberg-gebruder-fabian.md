@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Gebrüder Fabian GmbH betreibt in Pinneberg, Haderslebener Straße 1b, 25421 Pinneberg, einen
+Standort zur Annahme von Eisen- und NE-Metallen, Aluminium, Elektroschrott und Katalysatoren,
+unmittelbar an der Abfahrt Pinneberg-Nord an der A 23; das Gelände wurde 2023 von Bobka Recycling
+übernommen, Lagerleiter ist Alexander Bergstedt. Die Identität trägt die Betreiber-Standortseite mit
+standortspezifischer E-Mail, das ElektroG-Zertifikat ESN 98-060136 (26) für genau diese Anschrift
+und das Entsorgungsfachbetriebs-Zertifikat ESN 98-060136(26) mit Hauptsitz Hamburg, HRB 92568.
+Offen bleibt die Adresslage: In OSM existiert die Hausnummer 1b auf der Haderslebener Straße nicht,
+die nächstgelegenen Nummern lauten 1a und 4, und ein Objekt mit Betriebsbezug fehlt. Ankaufs-
+und Verkaufspreislisten sowie Gebührentarife fehlen; kostenfrei ist nur die Rücknahme von
+Elektroaltgeräten ausgewiesen.
 
 ## Timeline
 

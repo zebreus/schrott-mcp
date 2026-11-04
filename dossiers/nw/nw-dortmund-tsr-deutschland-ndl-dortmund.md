@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG, Niederlassung Dortmund, Kohlenweg 10a, 44147 Dortmund:
+Hafenstandort, an dem Altmetall und Schrott ausschließlich für Gewerbe- und Industriekunden
+angeboten werden; PKW-Ankauf nur auf Anfrage per Kontaktformular. Die Anschrift trägt die
+Betreiber-Standortseite und das OSM-Objekt way 1066790829, das die Adresse als scrap_yard
+führt und mit der Telefonnummer des Betreibers zusammenpasst. Offen bleiben die Preise: Für
+diesen Standort ist keine Ankaufpreisliste veröffentlicht, was über Standortseiten, Sitemap
+und eine CDX-Suche geprüft wurde. Die fünf verlinkten Zertifikatsdokumente lieferten HTTP
+403, weshalb Nummern und Gültigkeit nicht belegt sind. Der Weigerkostenkatalog von
+20.11.2020 ist nicht standortspezifisch, die Einkaufsbedingungen von 02/2026 belegen die
+Preisart ohne Betrag.
 
 ## Timeline
 

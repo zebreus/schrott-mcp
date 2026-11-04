@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Christian Bacher GmbH, Industriestr. 4, 42499 Hückeswagen: Altauto- und Schrottrecycling mit
+Fuhr- und Maschinenpark sowie mobiler Presse, zertifizierter Entsorgungsfachbetrieb seit
+1988; gebrauchte Kfz-Ersatzteile werden nicht gehandelt. Das Betreiberimpressum nennt HRB
+37926 Amtsgericht Köln, die Vertretungsberechtigten und die Umsatzsteuer-Identifikations-
+nummer; Telefon, Fax und E-Mail stammen von derselben Seite, als Zweitbelege sind meinestadt
+und die Gelben Seiten adress- und telefonkonguent herangezogen. Offen bleiben der Nachweis
+der Zertifizierung, für den kein Dokument im Dossier liegt, und die Belegbarkeit des
+Ankaufs; Ankaufpreise sind nicht veröffentlicht, eine Standortkoordinate ist nicht gesetzt.
 
 ## Timeline
 

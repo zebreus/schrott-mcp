@@ -23,7 +23,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Matthias Hopp Recycling GmbH (HRB 7299 HL AG Lübeck, Geschäftsführer Matthias Hopp) ist
+ein Schrotthandel in Glinde, Waldweg 2, 21509 Glinde, mit Annahme, Abholung von Schrott,
+NE-Metallen und Altfahrzeugen, Containerdienst und Abbruch für Betriebe und Privat in
+Schleswig-Holstein, Hamburg, Niedersachsen und Mecklenburg-Vorpommern. Die Identität trägt das
+Impressum der Betreiberwebsite; die Startseite belegt das genannte Leistungsspektrum. Offen
+bleibt die Belegkette: Eine zweite unabhängige Quelle außerhalb der Betreiberdomain ist nicht
+dokumentiert, und Ankauf-, Verkauf- und Gebührenpreise sind nirgends ausgewiesen.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Entsorgungs-Park Niebüll der Werner Mommsen GmbH & Co. (GF Torsten und Stephan Mommsen,
+USt DE168270382, AG Flensburg HRA 1341 NI) liegt in Niebüll, Ostring 49, 25899, und erbringt
+Altmetallankauf, Entsorgung und Containerdienst mit saisonal wechselnden Öffnungszeiten. Die
+Identität trägt das Impressum der Betreiberwebsite; Adresse und Saisonzeiten sind zusätzlich über
+Aggregatoren konsistent, gelten aber als eine Quelle, da der Registereintrag HRA 1341 NI keinen
+externen Zweitbeleg hat. Offen bleibt damit die Belegkette: Der Altmetallankauf ist nur über
+einen Verzeichniseintrag und die Angabe „Schrottabholung" belegt und damit kein belastbarer
+Ankaufsnachweis, weshalb der Status auf Prüfung bleibt; zudem weicht eine Verzeichnis-Telefonnummer
+von der Betreibernummer ab, und die E-Mail ist nur im Impressum belegt.
 
 ## Timeline
 

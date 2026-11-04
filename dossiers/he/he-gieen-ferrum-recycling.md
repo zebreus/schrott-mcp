@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ferrum Recycling GmbH, Margaretenhütte 50, 35398 Gießen, Registergericht Gießen HRB 1035:
+zertifiziertes Fachunternehmen der Recycling- und Entsorgungswirtschaft mit Schrott- und
+Metallhandel, Entsorgungsdienst und Containerdienst. Die Identität tragen das
+Betreiber-Impressum, die Standort- und Unternehmensseite sowie der passende Registereintrag,
+die Zertifikatsseite weist den Entsorgungsfachbetrieb aus, und die Koordinate ist über
+Nominatim am Hausnummern-Objekt der Anschrift bestimmt. Belegt sind die Annahmebedingungen mit
+NE-Verwiegung ab 1 kg und FE-Auszahlung ab 200 kg, unterhalb dieser Menge erfolgt keine
+Vergütung, sowie Containervermietung mit bepreisten An- und Abfahrten. Ankaufpreise werden nur
+auf Anfrage genannt. Offen bleiben damit die Preishöhen und der Umstand, dass eine kostenlose
+lose Schrottabholung nicht belegt ist, sondern nur der Containerdienst.
 
 ## Timeline
 

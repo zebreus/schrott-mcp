@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Wulfhorst, Keggenriede 1, 34434 Borgentreich: Autoverwertung mit Ankauf und
+Demontage von Altfahrzeugen und Ersatzteilen für VW, Audi, Seat und Skoda. Das Impressum
+nach § 5 DDG nennt Inhaber Christian Wulfhorst, Anschrift, Rufnummer und E-Mail, die
+Kontaktseite bestätigt Adresse und Öffnungszeiten; als Zweitbeleg sind die Gelben Seiten
+adresskonguent aufgeführt. Offen bleiben die amtliche Beleglage und der Standortnachweis:
+Das amtliche Fachbetrieberegister führt weder für den Namen noch im 3-km-Radius um die
+Anschrift einen Eintrag, weder als Entsorgungsfachbetrieb noch in der Altfahrzeugverwertung;
+die 10-km-Kontrolle liefert nur einen fremden Betrieb. Da beide Anerkennungen freiwillig
+sind, belegt dieser Negativbefund nicht das Fehlen einer Zertifizierung, und eine
+Standortkoordinate ist bislang nicht gesetzt.
 
 ## Timeline
 

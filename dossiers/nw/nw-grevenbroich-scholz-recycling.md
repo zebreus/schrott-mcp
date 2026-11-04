@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scholz Recycling GmbH, Otto-Hahn-Straße 11, 41515 Grevenbroich: Niederlassung der Scholz
+Recycling GmbH, HRB 733963 Amtsgericht Ulm, mit den Geschäftsbereichen Stahlschrotte,
+NE-Metalle und legierte Schrotte; die Abwicklung ist auf Selbstanlieferer und
+Industriekunden ausgerichtet. Belegt sind die Betreiber-Standortseite, das Konzernimpressum,
+der Standort-JSON-Feed des Betreibers und ein kongruenter Registerspiegel, ergänzt um
+Verzeichnisangaben. Offen bleiben die Preise: Eine Ankaufpreisliste ist an keiner Stelle
+belegt, was über die 185 Standortseiten, die Sitemap, die REST-Schnittstelle und die
+Mediathek geprüft wurde; die Preismethodik ist beschrieben, ein Betrag nicht. Die Startseite
+antwortet mit HTTP 503, das EDI-Portal ist login-geschützt, und Verkaufspreise sowie
+Gebühren sind ebenfalls nicht veröffentlicht.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schmid & Zweck GmbH, Betrieb Gailoh, Im Frauental 7, 92224 Amberg: Wertstoffhof der
+Schmid & Zweck GmbH (Hauptsitz Max-Planck-Straße 25, 92224 Amberg, HRB 1118 Amtsgericht
+Amberg) mit Containergestellung sowie Annahme von Stahlschrott und Buntmetallen. Die
+Identität tragen das Impressum der Betreiberseite schmid-und-zweck.de mit der
+Registernummer, das Entsorgungsangebot der Stadt Amberg als kommunaler Zweitbeleg und das
+amtlich gelesene EfbV-Zertifikat 120497197 (Vorgangsnummer ZZHT003008063011, gültig bis
+23.10.2027), das dem Standort Gailoh die Anlagen 2 (Lagern) und 3 (Behandeln) sowie die
+Anschrift Im Frauental 7 zuordnet. Offen bleiben die fehlende
+Altfahrzeugverwertungs-Anerkennung für diese Anschrift und die auf der Betreiberseite
+nicht veröffentlichten Öffnungszeiten des Wertstoffhofs.
 
 ## Timeline
 

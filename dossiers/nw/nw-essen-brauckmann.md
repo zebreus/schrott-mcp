@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Brauckmann Service GmbH, Krablerstr. 14b, 45326 Essen: Metallhandel mit Ankauf von Kupfer,
+Aluminium, Edelstahl und Eisen zu Tagespreisen und Abholung bei größeren Mengen, dazu
+Containerdienst und Hausmeisterservice. Das Betreiberimpressum nennt HRB 30120 Amtsgericht
+Essen und die Geschäftsführung, der Northdata-Registerspiegel ist kongruent. Die Anschrift
+ist über ein OSM-Adressobjekt mit der Hausnummer 14b belegt, das Objekt trägt jedoch weder
+Name noch Betreiberangabe, und eine Namenssuche im Umraster findet keinen Bezug zum Betrieb.
+Die Gelben Seiten führen abweichend Gladbecker Straße 6-10, 45141 Essen; maßgeblich ist die
+registerkonforme Anschrift. Offen bleiben der fehlende OSM-Betriebsbezug der Anschrift, die
+Zuordnung der Preis- und Abholangaben, die nur als Tagespreise benannt sind, und eine
+Zertifizierung, die im Dossier nicht belegt ist.
 
 ## Timeline
 

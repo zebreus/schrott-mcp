@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Steglich Recycling GmbH, heute REMONDIS Rhein-Berg GmbH, Gneisenaustraße 8, 51377
+Leverkusen: Containerdienst mit Kleincontainern und Umleerbehältern, Metallhandel,
+Wertstoffhöfe in Leverkusen, Bergisch Gladbach und Overath, Abfallberatung und Anlieferung
+für Kleingewerbe- und Privatkunden. Der Registerspiegel führt unter Amtsgericht Köln HRB
+48987 mit EUID DER3306.HRB48987 die Namenskette FABA GmbH Fahrzeuge und Maschinen, Steglich
+Recycling GmbH und REMONDIS Rhein-Berg GmbH bei derselben Anschrift; die
+Registerbekanntmachung vom 06.01.2021 belegt den Wechsel auf Steglich Recycling GmbH samt
+neuem Unternehmensgegenstand. Die frühere Domain leitet per HTTP 301 auf die REMONDIS-Seite,
+deren Kontaktseite die Anschrift bestätigt. Offen bleiben die Namensführung im Katalog und
+die Preise, da keine bezifferte Preis- oder Gebührentafel veröffentlicht ist.
 
 ## Timeline
 

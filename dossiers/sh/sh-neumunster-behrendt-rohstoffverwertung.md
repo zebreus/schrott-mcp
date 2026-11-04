@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Behrendt Rohstoffverwertung GmbH ist ein Familienbetrieb in dritter Generation mit Schrottplatz,
+Metall- und E-Schrott-Handel, Containerdienst und Holzaufbereitung in Neumünster, Leinestraße
+31-33, 24539; Autoverwertung erscheint in der Leistungsliste nur als Altauto-Trockenlegung
+neben dem Kerngeschäft Rohstoffverwertung, der Verkauf geht an Alu-Hütten und Stahlwerke.
+Die Identität trägt allein die Betreiberwebsite mit eigener Leistungsseite „Schrottplatz" und
+Impressum — ein offengelegter Einzelbeleg ohne verifizierte HR-Nummer. Offen bleibt damit die
+Belegkette: Eine zweite unabhängige Quelle ist nicht dokumentiert, ein Registereintrag fehlt, und
+Ankaufs-, Verkaufs- und Gebührenpreise werden nicht veröffentlicht. Ein zweiter Neumünsteraner
+Standort ist erwähnt, aber nicht mit Adresse belegt.
 
 ## Timeline
 
