@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Autoverwertung BlechMann GmbH ist ein Autoverwertungsbetrieb in Darmstadt,
+Staudingerstr. 5, 64293 Darmstadt; er kauft Motor-, Getriebe- und Unfallschadenfahrzeuge an,
+holt bundesweit ab und verkauft keine Ersatzteile, Besuch und Anlieferung erfolgen nur nach
+Vereinbarung. Die Identität tragen das Betreiber-Impressum (HRB 95846 AG Darmstadt, im
+Impressum als HRA 95846 geschrieben) und die dazu HR-kongruenten Northdata- und
+Creditreform-Einträge. Offen bleibt, dass das amtliche Fachbetrieberegister weder einen
+Entsorgungsfachbetriebs- noch einen Altfahrzeugverwertungseintrag ausweist und die
+Betreiberseite keine Zertifikatsseite führt; ein solcher Negativbefund ist kein Beleg für
+die Nichtexistenz, der Status bleibt pruefung.
 
 ## Timeline
 

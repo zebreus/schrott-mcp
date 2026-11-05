@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Riwald Recycling Rhein-Main GmbH betreibt in Frankfurt-Fechenheim, Carl-Benz-Str. 1,
+60314 Frankfurt am Main, einen Standort des auf FE- und NE-Metallrecycling für Industrie und
+Privathaushalte ausgerichteten ArcelorMittal-Tochterkonzerns; die Warenannahme läuft Mo-Do
+07:30-16:00, Fr 07:30-14:30. Standortseite und Impressum tragen die Identität (HRB 50373 AG
+Frankfurt, per Northdata belegt), eine Namens- oder Standortzusammenführung besteht nicht.
+Offen bleiben die abweichende Unternehmensanschrift Dieselstraße 52 im Impressum, das Fehlen
+jeder bezifferten Preisangabe auf der Domain und Verkaufskonditionen ohne Zahlenwert in den
+AGB mit Stand Oktober 2024.
 
 ## Timeline
 

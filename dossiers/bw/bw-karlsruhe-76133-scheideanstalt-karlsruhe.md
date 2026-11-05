@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scheideanstalt Karlsruhe ist die ScheideanstaltKa.GmbH, ein Laden für den Barankauf von
+Edelmetallen und Zahngold in der Karlstr. 25, 76133 Karlsruhe. Die Identität trägt das
+Betreiber-Impressum mit der Registernummer HRB 721844; der Importe-Vermerk nennt den
+Laden-Barankauf und 70 €/g für gelbes Zahngold. Offen bleibt die Öffnungszeitfrage, weil
+Impressum, Startseite und Anfahrtsseite voneinander abweichende Werktags- und
+Samstagszeiten nennen und keine Vorrangregel belegt ist; das Feld opening_hours ist
+deshalb leer. Ebenso uneinheitlich sind die Anschlüsse: das Impressum führt 0721 98 19
+36 62, der Seitenkopf der Startseite 0721 151 9733, und welche Nummer der Betreiber als
+Hauptanschluss priorisiert, ist ungeklärt. Ein öffentlicher Ankaufpreis ist nicht
+belegt.
 
 ## Timeline
 

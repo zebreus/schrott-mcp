@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Weber Metallverarbeitung und Handel e.K. unter der Marke Schrott-Weber ist ein von René
+Weber betriebener Schrottplatz in Langenselbold, Am Weiher 2f, 63505 Langenselbold; sie
+zahlt Tageshöchstpreise sofort bar, bei NE-Metallen ab einem Warenwert von 10 Euro, und
+handelt mit Eisen, NE-Metallen, Kabel, V2A und Zink, ohne Auto-Ankäufe. Das
+Betreiber-Impressum (HRA 5192 AG Hanau) und die dazu HR-kongruente Northdata-Angabe tragen
+die Identität. Offen bleibt, dass die befristeten Sonderöffnungszeiten bis 11.10.2026 nach
+Ablauf nicht erneut bestätigt sind und die regulären Zeiten wieder geprüft werden müssen;
+ein Beleg jenseits von Impressum und Register fehlt.
 
 ## Timeline
 

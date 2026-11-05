@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neidhardt Rohstoff GmbH, Alpenstraße 64, 87700 Memmingen, ist ein Kunststoffrecyclingbetrieb
+des Post-Industrial-Recyclings; das Impressum nennt die Geschäftsführer Bettina Schuler-Kargoll
+und Stefan Ackermann sowie HRB 20723 AG Memmingen. Der Rohstoffmarkt der Betreiberseite listet
+Mahlgut, Regranulat und Re-Compound aus LDPE, PE, PP, POM, PC-ABS, PBT, PA bis PPS; ein
+Schrott- oder Metallankauf ist dort nicht belegt, was den vermerkten Verdacht einer
+Fehlklassifikation bestätigt. Verkauf von Recycling-Granulat und Compounds ist belegt, Preise
+und Gebühren werden nicht beziffert. In OpenStreetMap trägt ein Industrieobjekt mit dem Namen
+Neidhardt den Standort ohne Anschrift-Tags; die Hausnummer 64 ist auf der Alpenstraße nicht
+erfasst, und eine Koordinate ist deshalb nicht gesetzt. Offen bleiben eine zweite unabhängige
+Quelle für Telefon, E-Mail und Öffnungszeiten sowie die fehlende Hausnummer.
 
 ## Timeline
 

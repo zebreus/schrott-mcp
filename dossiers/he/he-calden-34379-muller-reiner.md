@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Reiner Müller Schrott- und Metallhandel ist ein Kleinst-Schrotthändler in Calden, Oberweg 19
+A, 34379 Calden, dessen Beleglage allein auf Verzeichnisaggregatoren beruht: 11880 führt
+Anschrift und Rufnummer, BranchenbuchDeutschland dieselbe Nummer ohne den Zusatz A, ein
+Betreiberauftritt, ein Impressum, ein Registerbeleg und eine verifizierte eigene Website
+fehlen. Offen bleiben die Hausnummer (19 gegen 19 A), die primärquellenbestätigte
+Telefonnummer, die Betreiberidentität und der qualifizierte Zweitbeleg; eine amtliche
+hessische Gewerberegister-Auskunft wurde gelesen, aber nicht bestellt, und das amtliche
+Fachbetrieberegister weist weder ein Entsorgungsfachbetriebs- noch einen
+Altfahrzeugverwertungseintrag aus. Eigene Ankauf-, Verkaufs- oder Tarifquellen fehlen, der
+Status bleibt pruefung.
 
 ## Timeline
 

@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die MC Metallhandel GmbH ist ein B2B-Handel für NE-Altmetall mit Lager und Sortierung in
+Frankfurt-Seckbach, Gwinnerstr. 11, 60388, der nach Angabe des Seed-Stands ausschließlich
+Gewerbe und Handel bedient. Das Betreiber-Impressum (HRB 50607 AG Frankfurt, Geschäftsführer
+Dr. Christoph Kuhlmann) trägt die Identität und ist HR-kongruent; die andere Gesellschaft an
+derselben Hausnummer, die Metallhandel Frankfurt GmbH, wird getrennt geführt. Offen bleiben
+die vom B2B-Händler nicht veröffentlichten Öffnungszeiten sowie der Negativbefund im
+amtlichen Fachbetrieberegister, der weder einen standortzugeordneten Eintrag noch einen
+Altfahrzeugverwertungseintrag ausweist.
 
 ## Timeline
 

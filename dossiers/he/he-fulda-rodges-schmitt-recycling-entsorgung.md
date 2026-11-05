@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Schmitt Recycling & Entsorgung GmbH & Co. KG ist ein Entsorgungs- und Containerdienst
+mit Wertstoffhof in Fulda-Rodges, Böcklerstr. 31, 36041 Fulda-Rodges, der Abfallentsorgung,
+Akten- und Datenträgervernichtung, gefährliche Abfälle, Transporte und einen Online-Shop
+anbietet und getrennte Öffnungszeiten für Gewerbe und Privat hält. Das Betreiber-Impressum
+(HRA 5228 AG Fulda) trägt die Identität, das amtliche Fachbetrieberegister bestätigt
+Standort und Firma mit vier Anlagen und dem Zertifikat 36041/03-26 der ESC Cert; die Anlagen
+2 und 3 verweisen auf eine Erstbehandlungsanlage nach § 21 ElektroG. Offen bleibt die
+abweichende Registernummer HRB 99420 im amtlichen Zertifikat gegen HRA 5228 im Impressum
+sowie der Verweis auf nur die Anlagen 1-3 bei zugleich vier Anlagen.
 
 ## Timeline
 

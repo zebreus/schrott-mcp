@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bernd Witz GmbH ist ein Schrotthandel mit Metallverwertung und Container in der Roßwette
+2, 78048 Villingen-Schwenningen; die Betreiberseite nennt HRB 601086 Amtsgericht
+Freiburg und die Geschäftsführung Michaela Witz-Degen. Die Identität tragen Impressum
+und Startseite sowie der OSM-Betriebsknoten node/975361307, der die Hausnummer 2 mit dem
+Namen "Witz GmbH" führt. Ankauft werden Stahl- und Gussschrott, Edelstahl und
+NE-Metalle, vergütet nach Analyse und Verwiegung per Bankgutschrift oder in bar. Offen
+bleibt die Auswertung der drei angebotenen AGB-Dateien für Einkauf, Verkauf und
+Entsorgung, aus denen Ankaufkonditionen, Mindestmengen, Abschläge und Gebühren
+hervorgehen würden; im HTML sind keine Preise sichtbar. E-Mail und Öffnungszeiten
+bleiben leer, weil die Angaben von einer Quelle stammen.
 
 ## Timeline
 

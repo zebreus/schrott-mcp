@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Edwins Autorecycling, Gutenbergstraße 10, 28816 Stuhr, ist ein Autoverwertungsbetrieb des
+Inhabers Edwin Dembeck, dessen knappe Homepage Autoverwertung, Autoteile, Altmetall und
+Altautos als Angebotsfelder nennt, aber kein Impressum und keine Preise enthält; Telefon
+0421/2008877 und Mobil 0175/3374205 sind dort genannt. Das amtliche Fachbetrieberegister führt
+für die Anschrift eine Bescheinigung nach der Altfahrzeug-Verordnung mit der Vorgangsnummer
+ZACS00100018 und der Kennnummer CAS974010, die Telefonnummer, Fax und die Adresse
+info@edwinsautorecycling.de bestätigen. Eine Anerkennung als Entsorgungsfachbetrieb nach § 56
+KrWG besteht für den Standort nicht. In OpenStreetMap existiert die Hausnummer 10 auf der
+Gutenbergstraße nicht und kein Objekt trägt einen Betriebsbezug, daher ist keine Koordinate
+gesetzt. Offen bleibt, ob das Grundstück unter einer abweichenden Nummer erfasst ist.
 
 ## Timeline
 

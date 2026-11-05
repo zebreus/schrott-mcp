@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Jörg Aulfinger GmbH & Co. KG ist ein Wertstoffhändler mit Wertstoffhöfen,
+Containerdienst sowie Schrott- und Metallhandel; als Hauptsitz führt das Dossier die
+Vera-Vollmer-Str. 5, 70469 Stuttgart-Feuerbach, das Impressum nennt HRA 721213 und als
+Komplementär HRB 722689. Die Identität tragen Betreiber-Impressum, Anfahrt- und
+Schrottseiten sowie die Standortangaben beider Betriebsstätten, auch des Zweitstandorts
+Möglingen, Daimlerstr. 56. Das Dossier-Feld city nennt Stuttgart und Möglingen, nicht
+deckungsgleich mit der Anschrift in Feuerbach. Die Wertstoffhöfe nehmen Schrott und
+Metalle von Privat mit Ausweis an, Aluminiumguss und -krätze werden nach
+Aluminiumbörsen-Tagespreisen vergütet, eine Preisliste fehlt. Offen bleiben die
+Einschränkung für gefährliche Abfälle und die Prüfung der Koordinaten.
 
 ## Timeline
 

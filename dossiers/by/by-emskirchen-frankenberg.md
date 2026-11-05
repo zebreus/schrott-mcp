@@ -25,7 +25,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Frankenberg ist die Frankenberg-Metallrecycling GmbH, ein Metallhändler in der
+Industriestraße 1, 91448 Emskirchen; das Impressum nennt den Geschäftsführer Stefan
+Frankenberg und HRB 11345 Registergericht Fürth. Die Identität tragen Impressum und
+Registerspiegel sowie das amtliche EfbV-Zertifikat der DEKRA 120198071 (Vorgangsnummer
+ZZHT003006587009), das sechs Anlagen sämtlich am Standort Industriestraße 1 ausweist.
+Das Angebot umfasst Zink-, Zinn- und Bleihartmetallblöcke, Krätzen, Lötzinn und
+Lotpasten, verlangt jedoch eine Anfrage; sortenbezogene Preise und Mindestmengen werden
+nicht veröffentlicht. Offen bleibt der fehlende Altfahrzeugverwertungseintrag für die
+Anschrift, der wegen der Freiwilligkeit der Anerkennung keinen Nichtbestand belegt,
+sowie die Öffnungszeiten, deren Kopfangabe ohne Tagesangabe bleibt.
 
 ## Timeline
 

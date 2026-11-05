@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dienstleistung-Habeth, Inhaber Axel und Miranda Habeth, ist ein in Gießen als
+Schrottabholung verzeichneter Betrieb, nach dem Verzeichnislead Marburger Straße 41, 35390
+Gießen. Belegt ist bislang nur die 11880-Suchseite; eine Betreiberquelle, ein Impressum oder
+ein Registerbeleg fehlen, weshalb alle Frontmatter-Felder leer bleiben und der Status
+pruefung lautet. Offen bleiben Betreiberidentität, Tätigkeitsumfang und Fortbestand; die
+amtliche Gewerberegister-Auskunft Hessens wurde gelesen, aber nicht bestellt, und das
+amtliche Fachbetrieberegister weist keinen standortzugeordneten Eintrag aus, ohne dass dies
+die Existenz widerlegt. Die im Dossier abgrenzten anderen Habeth-Betriebe in Gießen bleiben
+unberührt.
 
 ## Timeline
 

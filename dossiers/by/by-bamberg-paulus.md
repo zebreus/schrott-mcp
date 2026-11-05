@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Paulus GmbH ist ein Entsorgungsfachbetrieb, dessen Importe-Eintrag Lagern nennt, in der
+Gundelsheimer Str. 9 A, 96052 Bamberg. Die Identität tragen Betreiber-Website und
+Impressum mit der USt-IdNr. DE132282304, ein Verzeichniseintrag als Zweitbeleg für
+Anschrift und Telefon sowie das Fachbetrieberegister, in dem das Efb-Zertifikat des TÜV
+SÜD 12 150 56402 drei Anlagen am Standort ausweist und HRB 5912 Bamberg nennt. Offen
+bleibt die leere Registerangabe im Impressum, die abweichende Rufnummer des
+Verzeichnisses gegenüber der Betreibernummer 0951 62934 und die Öffnungszeiten, die nur
+als Einzelbeleg vorliegen und nicht ins Dossier folgen. Im
+Altfahrzeugverwertungsregister fehlt ein Eintrag für den Standort; die Anerkennung ist
+freiwillig, ein Nichttreffer belegt kein Fehlen. Ankauf und Preise sind nicht belegt.
 
 ## Timeline
 

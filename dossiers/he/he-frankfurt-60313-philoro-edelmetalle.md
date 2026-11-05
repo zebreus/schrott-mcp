@@ -25,7 +25,14 @@ certifications: ''
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die philoro EDELMETALLE GmbH unterhält in Frankfurt am Main, Schillerstraße 15-17, 60313
+Frankfurt, eine Filiale, die Zahngold und Altgold ankauft und Münzen und Barren verkauft;
+Sitz des Konzerns ist Leipzig. Betreiber-Filialseite und Impressum (HRB 27556 AG Leipzig)
+tragen die Identität; die Preisliste umfasst sechs Warengruppen mit Kauf- und Verkaufspreis
+je Stück, ist aber eine Konzernliste ohne Standortbezug. Offen bleibt, dass die Preisliste
+kein Preisdatum trägt und die Frankfurter Gesellschaft nicht in der Liste der zertifizierten
+Goldankäufer steht; die dort geführte Leipziger philoro Edelmetall GmbH ist eine andere
+Gesellschaft, deren Nachweis nicht übertragen wird.
 
 ## Timeline
 

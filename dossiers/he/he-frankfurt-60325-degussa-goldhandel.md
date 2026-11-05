@@ -27,7 +27,14 @@ certifications: ''
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Dossier führt die Degussa Goldhandel als Markenform; rechtlich trägt die Degussa
+Sonne/Mond Goldhandel GmbH mit Sitz Friedrich-Ebert-Anlage 35-37, 60327 Frankfurt am Main,
+HRB 139179 AG Frankfurt. Die Niederlassung Frankfurt am Main, Kettenhofweg 25, 60325,
+handelt mit Gold und Silber; die Niederlassungsseite des Betreibers und der OSM-Knoten
+node/10665610880 tragen die Anschrift und decken sich. Offen bleibt, dass der Dossiername
+die Registerfirma nicht abbildet, eine AGB- und Widerrufsseite mit der Hausnummer 29 beim
+Abruf nicht erreichbar war und die älteren OSM-Öffnungszeiten vom Betreiber abweichen; ein
+Register- oder Münzenfachhandelsnachweis fehlt.
 
 ## Timeline
 

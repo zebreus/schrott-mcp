@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Loacker Recycling Lindau, Spitalmühlweg 16, 88131 Lindau-Aeschach, ist eine Filiale der Loacker
+Recycling GmbH; der Betreiber weist sie als 1959 unter dem Namen Fischer Recycling Lindau GmbH
+gegründet aus und beschreibt sie auf die Entsorgung und das Recycling nicht gefährlicher
+Wertstoffe für Haushalte, Gewerbebetriebe und öffentliche Einrichtungen in den Landkreisen
+Lindau und Ravensburg sowie im Bodenseekreis. Zum Leistungsspektrum zählen Papier, Glas, Holz,
+Kunststoffe, Eisenschrott und NE-Metalle, die als angekauft benannt sind; Verkauf, Kurse und
+Gebühren werden nicht beziffert. In OpenStreetMap trägt die Hausnummer 16 nur Adress- und
+Ortsteilangaben, ein Objekt mit Betriebsbezug fehlt. Offen bleiben die im Dossier leere
+Postleitzahl 88131, die fehlende HRB-Angabe und die nicht erreichbare hinterlegte Domain.
 
 ## Timeline
 

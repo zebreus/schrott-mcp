@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Franz Pichl GmbH Eisen- u. Metallhandel ist ein Metallhändler in der Carl-Mez-Straße 48,
+79114 Freiburg; der Registerspiegel Northdata führt die Gesellschaft unter HRB 2418
+Amtsgericht Freiburg. Die Identität tragen Betreiberseite, Gelbe Seiten und firmania,
+die übereinstimmend Adresse, Telefon und E-Mail nennen; die Telefonnummer 0761 493408
+ist deshalb als begründeter Ausnahmefall gefüllt, obwohl das Impressum kein Register
+nennt. Die Startseite kündigt "ZUR ZEIT KEINE ANNAHME ... auch nicht zu den
+Öffnungszeiten" an, beschreibt daneben aber die reguläre Materialannahme. Offen bleibt,
+wie lange die Annahmepause gilt, denn der Hinweis ist undatiert und der Registereintrag
+deckt die Aktualität nicht ab; das Annahmefeld bleibt unbekannt. Offen bleibt auch die
+abweichende, unbelegte Nummer 0761 44 30 06.
 
 ## Timeline
 

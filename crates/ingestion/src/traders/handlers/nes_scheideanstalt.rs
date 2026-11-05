@@ -130,6 +130,7 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h1 = Selector::parse("h1").expect("valid selector");
     let h2 = Selector::parse("h2").expect("valid selector");
+    let h3 = Selector::parse("h3").expect("valid selector");
     if !doc
         .select(&h1)
         .any(|h| h.text().collect::<String>().trim() == "Impressum")
@@ -139,9 +140,13 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             detail: "Impressum-Block fehlt".to_owned(),
         });
     }
-    let hamburg = doc
-        .select(&h2)
-        .find(|h| h.text().collect::<String>().trim() == "Standort Hamburg");
+    let hamburg = doc.select(&h2).find(|h| {
+        // The sidebar heading was renamed on 05.11.2026: "Standort
+        // Hamburg" is now simply "HAMBURG" (the Norderstedt HQ and the
+        // Niedersachsen branch carry their own headings).
+        let t = h.text().collect::<String>().trim().to_uppercase();
+        t == "STANDORT HAMBURG" || t == "HAMBURG"
+    });
     let Some(hamburg) = hamburg else {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
@@ -154,7 +159,17 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     // Hamburg"+"Telefon:"), so work <p>-by-<p>.
     let p_sel = Selector::parse("p").expect("valid selector");
     let mut paras: Vec<scraper::ElementRef> = Vec::new();
-    let mut sib = hamburg.next_siblings();
+    // Anchor: the widget that carries the heading. On 05.11.2026 the
+    // site moved the address into its **own** aside next to the
+    // heading, so the scan starts at the heading's parent element and
+    // reads that widget's own paragraphs plus the paragraphs of the
+    // following siblings.
+    let anchor = hamburg
+        .ancestors()
+        .find_map(|a| scraper::ElementRef::wrap(a))
+        .unwrap_or(hamburg);
+    paras.extend(anchor.select(&p_sel));
+    let mut sib = anchor.next_siblings();
     let mut scanned = 0;
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
     while let Some(node) = sib.next() {
@@ -172,6 +187,16 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
         if name == "p" {
             paras.push(el);
         } else if name == "div" {
+            // The next branch's widget (Niedersachsen) carries an
+            // "h2" — stop there instead of reading its address.
+            if el.select(&h2).next().is_some() {
+                break;
+            }
+            paras.extend(el.select(&p_sel));
+        } else if name == "aside" {
+            if el.select(&h2).next().is_some() || el.select(&h3).next().is_some() {
+                break;
+            }
             paras.extend(el.select(&p_sel));
         }
     }
@@ -198,7 +223,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
             }
         }
     }
-    // tel: link inside the widget ("tel:+494060926890").
+    // tel: link inside the widget ("tel:+494060926890"). The site
+    // dropped that link on 05.11.2026 and prints the number as plain
+    // text instead — that form is accepted as well.
     let mut phone = String::new();
     {
         let a = Selector::parse("a[href^=\"tel:\"]").expect("valid selector");
@@ -217,27 +244,46 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
                 }
             }
         }
+        if phone.is_empty() {
+            for el in &paras {
+                let t = el.text().collect::<String>();
+                let t = t.split_whitespace().collect::<Vec<_>>().join(" ");
+                if t.starts_with("+49") && t.chars().filter(|c| c.is_ascii_digit()).count() >= 9 {
+                    phone = t;
+                    break;
+                }
+            }
+        }
     }
     // Obfuscated shortcode carries the plaintext address
     // ("…email=…kontakt@norddeutsche-es.de…"); expand around '@'.
     // Char-based (not byte-based): the fixture uses multibyte
     // curly quotes that byte-slicing would glue or split.
     let mut email = String::new();
-    if let Some(at) = imp.find('@') {
+    // The page names the address in clear text since 05.11.2026 — the
+    // shortcode is only the fallback. Every '@' is tried, because the
+    // first one now sits in the JSON-LD block ("@context").
+    {
         let chars: Vec<char> = imp.chars().collect();
-        let at_c = imp[..at].chars().count();
         let stop = |c: char| c.is_whitespace() || "<>\"'|=()[]“”&#;".contains(c);
-        let mut l = at_c;
-        while l > 0 && !stop(chars[l - 1]) {
-            l -= 1;
-        }
-        let mut r = at_c;
-        while r < chars.len() && !stop(chars[r]) {
-            r += 1;
-        }
-        let cand: String = chars[l..r].iter().collect();
-        if cand.contains('.') && cand.ends_with("norddeutsche-es.de") {
-            email = cand;
+        let mut at_c = 0;
+        while at_c < chars.len() {
+            if chars[at_c] == '@' {
+                let mut l = at_c;
+                while l > 0 && !stop(chars[l - 1]) {
+                    l -= 1;
+                }
+                let mut r = at_c;
+                while r < chars.len() && !stop(chars[r]) {
+                    r += 1;
+                }
+                let cand: String = chars[l..r].iter().collect();
+                if cand.contains('.') && cand.ends_with("norddeutsche-es.de") {
+                    email = cand;
+                    break;
+                }
+            }
+            at_c += 1;
         }
     }
     if street.is_empty() && phone.is_empty() && email.is_empty() {
@@ -444,6 +490,31 @@ mod tests {
         assert!(extract_info("<p>Ohne Titel</p>").is_err());
     }
 
+    // Real live excerpt (05.11.2026): the sidebar heading is now
+    // "HAMBURG", the address sits in its own aside next to the heading,
+    // the phone is plain text without a tel: link and the address is
+    // named in clear text (the first '@' sits in the JSON-LD block).
+    const IMP_NEU: &str = "<h1 class=\"entry-title\">Impressum</h1>\
+        <script type=\"application/ld+json\">{\"@context\":\"https://schema.org\"}</script>\
+        <aside id=\"block-74\"><h2 class=\"wp-block-heading\"><a href=\"https://scheideanstalt-hamburg.de\">HAMBURG</a></h2></aside>\
+        <aside id=\"block-75\"><p class=\"wp-block-paragraph\">Servicebüro der <br>Scheideanstalt<br>\
+        <strong>Neuer Wall 13 </strong><br>in der Passage <br>Alsterarkaden/Neuer Wall<br>20354 Hamburg</p></aside>\
+        <aside id=\"block-92\"><p class=\"wp-block-paragraph\">+49 (0)40 609 26 89-0 </p></aside>\
+        <aside id=\"block-87\"><p class=\"wp-block-paragraph\"><a href=\"https://scheideanstalt-hamburg.de/terminvereinbarung-scheideanstalt-hamburg/\">Nur mit Terminvereinbarung</a></p></aside>\
+        <div class=\"footer-widget-4\"><aside id=\"block-84\"><h2 class=\"wp-block-heading\">NIEDERSACHSEN</h2></aside>\
+        <aside id=\"block-83\"><p class=\"wp-block-paragraph\">Servicebüro der NES Scheideanstalt<br>21614 BUXTEHUDE<br>Breite Strasse 7</p></aside></div>\
+        <p>Email: kontakt@norddeutsche-es.de</p>";
+
+    #[test]
+    fn impressum_lesen_die_neue_seitenstruktur() {
+        let info = extract_info(IMP_NEU).expect("parses");
+        assert_eq!(info.street, "Neuer Wall 13");
+        assert_eq!(info.postcode, "20354");
+        assert_eq!(info.city, "Hamburg");
+        assert_eq!(info.phone, "040 6092689-0");
+        assert_eq!(info.email, "kontakt@norddeutsche-es.de");
+    }
+
     #[test]
     fn mapping_uses_fineness_variants() {
         assert_eq!(grade_for("Gold", "AK >999 hf"), Some(("gold", "999 hf")));
@@ -460,3 +531,4 @@ mod tests {
         assert_eq!(grade_for("Gold", "VK >999 uv"), None);
     }
 }
+

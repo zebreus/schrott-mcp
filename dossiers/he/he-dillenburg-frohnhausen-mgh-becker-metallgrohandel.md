@@ -25,7 +25,14 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (PÜG Prüf- und Über
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die MGH Metallgroßhandel Becker GmbH ist ein Schrott- und Metallrecyclingbetrieb in
+Dillenburg-Frohnhausen, Bahnhofstraße 23, 35684 Dillenburg-Frohnhausen, mit Schrott- und
+NE-Metallhandel und Containerdienst. Das Betreiber-Impressum (HRB 3100 AG Wetzlar) trägt die
+Identität, das amtliche Fachbetrieberegister bestätigt Firma und Standort (MGH
+METALLGROSSHANDEL BECKER GMBH) mit zwei Anlagen für Sammeln und Befördern sowie Lagern und
+Behandeln und dem PÜG-Zertifikat K10040-20260622-Efb-de. Offen bleiben ein zweiter
+Betreiberbeleg jenseits des Impressums, die nicht gesondert belegten Containergrößen von 5
+bis 20 m³ und die abweichende Namensschreibweise im Register.
 
 ## Timeline
 

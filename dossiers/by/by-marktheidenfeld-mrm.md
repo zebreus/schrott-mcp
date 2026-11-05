@@ -24,7 +24,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MRM Metallrecycling Marktheidenfeld GmbH, Bahnhofstraße 19, 97828 Marktheidenfeld, ist ein
+Metallrecyclingbetrieb, der nach eigenen Angaben als Tochtergesellschaft der MV-Gottenheim
+Metallabfälle aller Art und auch Haushaltsmetalle entsorgt. Das Betreiber-Impressum nennt den
+Geschäftsführer Daniel Kaufmann, das Amtsgericht Würzburg und HRB 14955, ein Registerspiegel
+ist adressgleich. Die Ankaufsliste der Betreiberseite ist nach Sorten und Untergruppen
+differenziert und reicht von Aluminium und Kupfer über Messing und legierten Schrott bis zu
+Blei und Zink; Verkaufssortiment, Preise und Gebühren werden nicht genannt. In OpenStreetMap
+ist die Hausnummer 19 auf der Bahnhofstraße nicht erfasst, ein Objekt mit Betriebsbezug fehlt
+im ganzen Raster, und eine Koordinate ist deshalb nicht gesetzt. Offen bleiben die Hausnummer
+und eine zweite unabhängige Quelle für Telefon und E-Mail.
 
 ## Timeline
 

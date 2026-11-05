@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Föll Rohstoffhandel GmbH ist ein Schrott- und Metallhandel mit Containerdienst in der
+Zeppelinstr. 77, 88239 Wangen im Allgäu; das Impressum nennt HRB 7650 Amtsgericht
+Kempten. Die Identität tragen die Betreiber-Standortseite sowie zwei OSM-Objekte mit dem
+Betreiber als operator, ein Recyclingzentrum "Föll Schrott" und eine Waagenanlage; die
+Hausnummer 77 ist über einen Adressknoten belegt. Das Sortiment umfasst FE-Schrotte,
+NE-Metalle, Kabel und legierte Schrotte; Anlieferung ist für Privat- und Gewerbekunden
+mit Ausweis zugelassen. Offen bleibt der Ankaufspreis, das Angebot wird persönlich
+erstellt, und eine Gebührentabelle fehlt; belegt ist nur die Vorauszahlungspflicht bei
+kostenpflichtigen Materialien. Die Telefonnummer im OSM-Objekt weicht von der
+Standortangabe der Betreiberseite ab, welche Nummer aktuell ist, bleibt offen.
 
 ## Timeline
 

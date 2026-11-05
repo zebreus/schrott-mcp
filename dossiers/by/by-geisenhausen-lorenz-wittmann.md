@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lorenz Wittmann GmbH, Vilsbiburger Straße 70-74, 84144 Geisenhausen, ist ein Recycling- und
+Entsorgungsbetrieb mit Textilrecycling, Wertstoffhof, Altmetall- und Schrottverwertung sowie
+Containerdienst; das Impressum weist sie mit HRB 1526 AG Landshut aus, ein Registerspiegel
+nennt Registergericht und Nummer gleichlautend. Die Betreiberseite führt Geisenhausen als
+Zentrale, daneben eine Niederlassung Ergolding, und weist die Gesellschaft seit 1998 als
+geprüften Entsorgungsfachbetrieb nach § 56 KrWG aus. Alttextilien werden als Sammelware zu
+marktgerechten Preisen an Sammelpartner und Kommunen angenommen; Metallschrott ist mit einer
+Preiszusage ohne Zahl bedacht, eine öffentliche Preisquelle fehlt. Offen bleibt, ob in
+Geisenhausen überhaupt Metallschrott angenommen wird, da der ausgewiesene Wertstoffhof für
+Ergolding steht.
 
 ## Timeline
 

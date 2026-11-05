@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+"Bimbes und Rudi" bezeichnet die 2025 aufgelöste Bimbes und Rudi GbR; der heutige
+Betrieb an derselben Anschrift ist Bimbes Recycling von Jörg Freimuth, ein Recycling-
+und Schrottbetrieb in der Christallerstr. 21, 71364 Winnenden. Die Identität tragen
+Betreiber-Impressum und Kontaktseite, die Adresse und Telefonnummer nennen, sowie ein
+Lokalportal, das die GbR noch unter demselben Namen führt. Die Auflösung der GbR und die
+Neugründung 2025 beruht allein auf der Angabe des Betriebs, das Gewerbeeintrag der Stadt
+Winnenden war nicht abrufbar. Offen bleibt die Firmierung, da das Dossier den Namen der
+aufgelösten GbR führt, eine Umbenennung wäre eine Owner-Entscheidung; die E-Mail-Adresse
+ist gegen JavaScript geschützt, Ankaufpreise sind nicht veröffentlicht, die Abholung nur
+zeitlich geregelt. In OSM trägt die Adresse kein Betriebsobjekt.
 
 ## Timeline
 
