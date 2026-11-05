@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metallrecycling Keck ist ein von Rinaldo Keck betriebenes Einzelunternehmen mit
+Betriebsadresse Haasstraße 3, Containerplatz 15, 64293 Darmstadt und Büroanschrift
+Akazienweg 37; es kauft Stahl, Kupfer, Messing, Aluminium, Edelstahl, Zink, Zinn, Blei,
+Metallspäne, E-Motoren und Batterien an, holt kostenlos ab und stellt Container. Vergütet
+wird Schrott ab 300 kg, Buntmetalle auch bei geringen Mengen, private Abholungen bleiben
+ohne Vergütung. Belegt sind das Betreiber-Impressum mit Kontaktseite sowie der
+OSM-Adresspunkt way/290485175, der Haasstraße 3 und PLZ 64293 bestätigt. Offen bleibt der
+PLZ-Widerspruch der Büroanschrift Akazienweg 37, eine fehlende OSM-Betriebszuordnung und der
+Negativbefund im amtlichen Fachbetrieberegister, der ohne Existenzbeweis bleibt.
 
 ## Timeline
 

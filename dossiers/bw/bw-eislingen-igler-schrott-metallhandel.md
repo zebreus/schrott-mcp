@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Igler Schrott & Metallhandel ist ein Metallhändler in Eislingen, der Schrott,
+Buntmetall, Kupfer und Aluminium ankauft und kostenfrei an sechs Tagen abholt; das
+Dossier führt die Anschrift Ulmerstr. 131/1, 73054 Eislingen. Die Identität tragen die
+Betreiberseiten der Marke (Startseite, Über uns, Kontakt, Impressum) und das
+operator-branded Instagram-Profil, die dieselbe Anschrift nennen; ein Registerbeleg
+fehlt. Offen bleiben der Telefonkonflikt zwischen 07162 9486399 auf der Startseite und
+07162/45920 im Impressum, der einen Telefon-Fill blockiert, sowie E-Mail und
+Öffnungszeiten als Einzelbeleg. In OSM trägt die Adresse kein Objekt mit Betriebsbezug
+und die Notation "131/1" existiert dort nicht; die ebenfalls schrotthandelbetreibende
+Igler Recycling GmbH (HRB 722270) wurde nicht zusammengeführt.
 
 ## Timeline
 

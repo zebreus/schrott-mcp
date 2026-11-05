@@ -25,7 +25,16 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutac
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+M. Schmidt GmbH, Berliner Straße 22c, 35614 Aßlar, ist ein Schrott- und Containerdienst mit
+Annahme von Kupfer, Aluminium, Messing, Mischschrott, Spänen und Fe- und NE-Metallen sowie
+Abfallentsorgung; das Impressum nennt den Geschäftsführer Marco Schmidt und HRB 6803 AG
+Wetzlar, das Register führt dieselbe Bezeichnung. Das amtliche Fachbetrieberegister bestätigt
+die Anschrift mit einem EfbV-Zertifikat der TÜV SÜD Umweltgutachter (Nummer 12 150 45382,
+Vorgangsnummer ZZIT007001755010, gültig bis 19.09.2027), das drei Anlagen am Standort ausweist:
+Sammeln und Befördern für den Containerdienst, Lagern und Behandeln mit Zwischenlagerung von
+Metallen sowie Handeln und Makeln. Die Telefondifferenz zwischen Impressum und Fußzeile bleibt
+offen, da das Register nur eine der beiden Nummern nennt. Offen bleibt außerdem, ob die frühere
+Anschrift Altenbergstraße 7 auf einen weiteren Händler verweist.
 
 ## Timeline
 

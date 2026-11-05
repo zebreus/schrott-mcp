@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldankauf Bremen - Kredo, Faulenstraße 19, 28195 Bremen, ist ein Edelmetallankauf von Inhaber
+Fuat Boldas; die Betreiberseite führt Gold, Silber und Zahngold sowie den Ankauf per Post und
+gibt die Öffnungszeiten Montag bis Samstag 10.00 bis 18.00 Uhr an. Das Portal GOLD.DE nennt
+denselben Inhaber, dieselbe Anschrift und dieselbe Nummer und verweist auf eine vorliegende
+Gewerbeanmeldung, ist aber ein Lead und kein unabhängiger Beleg; ein amtlicher Registerauszug
+liegt nicht vor, ein Handelsregister ist bei einem Einzelunternehmen nicht ausgewiesen, weshalb
+eine Ausnahme von der Zwei-Quellen-Regel nicht greift. Unstimmig bleiben die Stunden des
+Portals gegenüber der Betreiberseite und die dortige Angabe zum Postankauf; der Rechner der
+Seite enthält keine belastbaren Preise. Die Koordinate bildet den Gebäudemittelpunkt ab.
 
 ## Timeline
 

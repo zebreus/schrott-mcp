@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ortolf Recycling GmbH (Erwin Ortolf) ist ein Schrott- und Metallhändler mit
+Containerdienst in der Raiffeisenstr. 12, 86167 Augsburg-Lechhausen; das Impressum nennt
+den Geschäftsführer André Ortolf und HRB 13320 Augsburg. Die Identität tragen Impressum
+und Homepage-Kontaktblock sowie das amtliche Fachbetrieberegister, in dem das
+Efb-Zertifikat der GZQ mit der Nummer A-000457 und der Vorgangsnummer ZZKT001002674006
+vier Anlagen am Standort ausweist: Lagern, Behandeln, Sammeln und Befördern sowie
+Handeln und Makeln. Offen bleibt der fehlende Eintrag im Altfahrzeugverwertungsregister
+für den Namen und die Anschrift, der wegen der Freiwilligkeit der Anerkennung kein
+Fehlen belegt. Der Importe-Eintrag nennt Schrott und Metall, Container und eine
+Betriebsgeschichte von über 70 Jahren; Ankaufpreise sind nicht belegt.
 
 ## Timeline
 

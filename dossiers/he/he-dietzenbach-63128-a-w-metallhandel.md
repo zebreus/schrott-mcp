@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eintrag A w Metallhandel in Dietzenbach, 63128 Dietzenbach, beruht auf einer einzigen
+Verzeichnisangabe: 11880 führt die Mobilnummer, den Ort ohne Straße, die Kategorie
+Abrissfirma und weder Website noch E-Mail noch Öffnungszeiten. Betreiberidentität,
+Rechtsform und Tätigkeit sind damit nicht belegt; die Namensrecherche im gemeinsamen
+Registerportal liefert beim Amtsgericht Offenbach 0 Treffer und beim Amtsgericht Darmstadt
+zwei ortsfremde Einträge, die Ortsseite Dietzenbach des amtlichen Fachbetriebsregisters
+genau zwei anerkannte Betriebe ohne A w Metallhandel. Offen bleiben damit die ungeklärte
+Typfrage zwischen Metallhändler und Abrissfirma, der nicht belegte Annahmehof, die nicht
+bestellte Gewerberegister-Auskunft und der auf eine andere Straße auflösende
+Koordinatenpunkt; der Status bleibt pruefung.
 
 ## Timeline
 

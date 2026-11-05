@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hertle Metallservice, Machtlfinger Straße 10, 81379 München, ist ein Metallhandel, der
+Halbzeuge aus Stahl und NE-Metallen an Gewerbekunden liefert; Betreiberin ist Ingeborg Hertle.
+Impressum, Kontakt- und Anfahrtsseite der Betreiberseite nennen Anschrift, Telefon 089 748 353
+10 und die Adresse service@stahlmetall.eu, ein Handelsregister ist im Impressum nicht
+ausgewiesen. Die Detailseiten zählen zusammen als eine Quelle; das Örtliche bestätigt Adresse
+und Telefon nur als Verzeichniseintrag und weicht bei E-Mail und Öffnungszeiten ab, so dass
+diese Angaben nicht übernommen wurden. Schrottankauf ist nicht belegt, Altmetall erscheint nur
+in den Metadaten, weshalb die Einordnung als sonstiger Handel und der Prüfstatus bestehen
+bleiben. Offen bleibt die Namensnennung SUNTEK mit der Postleitzahl 81377, die weder zugeordnet
+noch ausgeschlossen ist.
 
 ## Timeline
 

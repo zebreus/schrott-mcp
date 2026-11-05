@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mohr Schrotthandel und Demontage ist die Mohr Rohstoff GmbH mit Geschäftsführer René
+Fousseret, ein Schrotthandel mit Demontage und Containerdienst in der Saarbrücker Allee
+5, 65201 Wiesbaden; das Dossier-Feld state ist von BW auf HE korrigiert. Die Identität
+tragen Betreiber-Impressum, Standortseite zum Schrottplatz Wiesbaden und Registerspiegel
+Northdata mit AG Wiesbaden HRB 32121 sowie der früheren Zuordnung AG Darmstadt HRB
+97866. Offen bleibt die Zertifizierung: das Fachbetrieberegister liefert am 01.11.2026
+für die Wiesbadener Adresse keinen Treffer, die Zertifikatspfade der Website antworten
+mit 404, das einzige verlinkte PDF ist ein Umwelt-Tip-Flyer und das SchrottRegister
+kennt keinen Mohr-Datensatz. Auch die BW-Servicegebiet-Zusage lässt sich nicht belegen.
 
 ## Timeline
 

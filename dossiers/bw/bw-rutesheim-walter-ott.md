@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Walter Ott ist der heute amtierende Recyclingbetrieb Walter Ott Rohstoff-Recycling GmbH
+& Co. KG in der Schuckertstraße 24, 71277 Rutesheim; der Registerspiegel Northdata führt
+die KG unter HRA 254487 Amtsgericht Stuttgart, das Impressum nennt HRB 253370. Die
+Identität tragen Impressum, Registerspiegel und Annahmekatalog, der die KG-Nummer
+ausweist; das Jubiläum vom 13.08.2026 belegt einen betriebenen Standort. Offen bleibt
+der Konflikt zwischen Impressum und Register, weil HRB 253370 dort der Walter Ott
+Verwaltungs GmbH zugeordnet ist, und die behauptete Kette vom e.K. von 1956 zur KG von
+2006, die nur Betreiberangabe ist. Solange die Zuordnung der Dossierzeile "Walter Ott"
+zur heutigen KG offen ist, bleiben die Adressfelder leer. Ein Ankaufspreis ist nicht
+veröffentlicht, ein Efb-Zertifikat nicht verifiziert.
 
 ## Timeline
 

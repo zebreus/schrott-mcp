@@ -25,7 +25,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Rhein Main Rohstoffe GmbH ist eine Schrott- und Rohstoffhandelsgesellschaft der
+Steil-Gruppe in Frankfurt am Main, Gutleutstraße 371, 60327 Frankfurt; die Niederlassung
+Hanau an der Canthalstraße 2-4 ist als eigenes Dossier geführt. Betreiber-Impressum (HRB
+100405 AG Frankfurt) und die dazu HR-kongruenten Northdata- und Creditreform-Einträge tragen
+die Identität, das amtliche Fachbetrieberegister bestätigt Standort und Firma mit drei
+Anlagen für Sammeln, Befördern, Handeln und Makeln, Lagern sowie Behandeln und dem
+PÜG-Zertifikat K12995-20260513-Efb-de. Offen bleiben die nicht publizierten Öffnungszeiten
+der Frankfurter Niederlassung und der fehlende Altfahrzeugverwertungseintrag.
 
 ## Timeline
 

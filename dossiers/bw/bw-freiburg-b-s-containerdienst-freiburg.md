@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+B+S Containerdienst Freiburg ist die B u. S Containerdienst GmbH, ein Containerdienst in
+der Auerstraße 6, 79108 Freiburg; laut Importe-Tabelle kauft der Betrieb Schrott und
+Metall an, der frühere Website-Eintrag verwies auf eine Metallverwertungsseite. Das
+Impressum nennt Geschäftsführer Michael Schiele und die Registernummer HRB 6955
+Amtsgericht Freiburg. Die Identität tragen Betreiber-Impressum und der unabhängige
+Registerspiegel Northdata, der HRB 6955 unter derselben Nummer führt, und der
+Domain-Root bestätigt Adresse und Registerangabe erneut; Öffnungszeiten und Kontaktdaten
+stammen aus dem Impressum. Offen bleibt die Angebotsseite: öffentlich bezifferte
+Ankaufpreise und eine Gebührenliste für die Container sind nicht belegt, ebenso wenig
+eine zweite Quelle zum Ankaufsgeschäft.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Karle Recycling GmbH ist ein Wertstoffhändler mit Wertstoffhof, Großwaage und An- und
+Verkauf von Eisen- und NE-Metallen in der Friedrich-Scholer-Str. 5, 70469
+Stuttgart-Feuerbach; das Impressum nennt HRB 18064 Amtsgericht Stuttgart. Die Identität
+tragen Betreiber-Standortseite, Kontaktseite, Impressum, ein zweiter Standort in
+Böblingen und der OSM-Betriebsknoten way/468843619, der die Hausnummer 5 mit dem Namen
+"Karle Recycling" trägt. An- und Verkauf Fe/NE ist einer Ansprechperson zugeordnet,
+Kurse werden nicht veröffentlicht. Offen bleibt die im Seed genannte Preisliste für
+Eisenschrott und NE-Metalle, die ohne Anmeldung nicht einsehbar ist; beziffert sind nur
+fünf Containerpositionen des Webshops, also Gebühren und keine Ankaufpreise. Eine
+allgemeine Firmen-E-Mail nennt die Seite nicht.
 
 ## Timeline
 

@@ -50,3 +50,36 @@ Northdata nennt HR Transport & Handel GmbH, AG Münster HRB 19010, Drachterstra�
 
 - Schrott (GS)
 - Adresse: Münster
+
+### Recherche 05.11.2026
+
+- [Recherche 05.11.2026: **Amtliches Fachbetrieberegister (E-15) am 05.11.2026 erneut geprüft: für die HR Transport & Handel GmbH in Münster-Hiltrup kein dem Dossierstandort zugeordneter
+  Registereintrag (Negativaussage mit Reichweitenklausel).** Geprüft wurden beide Routen des amtlichen Fachbetrieberegisters
+  (https://fachbetrieberegister.gadsys.de/fachbetrieberegister/), Route „Entsorgungsfachbetriebe“ und Route „Altfahrzeugverwertung“, durchgängig mit dem Filter „Art des
+  Betriebs = Egal“ (is=1&e=1); die Standortabfragen liefen mit validiertem adr-Parameter, der die Adresse „Drachterstraße 29a, 48153 Münster-Hiltrup“ samt PLZ-Abgleich
+  (48153 per OSM/Nominatim bestätigt, Punkt 7.6220598/51.9240697) enthält, in den Radien 3 km, 5 km und 10 km. **Namenssuche Route „Entsorgungsfachbetriebe“:** „HR
+  Transport & Handel“ 3 Treffer und „HR Transport & Handel GmbH“ 3 Treffer, jeweils „HRH Transport & Metallhandel GmbH“ (ZZBT00300187 / 1-3, Neuhöfer Damm 110, 21107
+  Hamburg), also ein Namensvetter in Hamburg; „HR Transport“ 21 Treffer (u. a. „SWT Schrott-, Wertstoffhandel + Transport GmbH“, Uder, und „Rohrbach-Transporte e.K.“,
+  Jüchen), „HR Transport und Handel“ 0 Treffer, „HR Transport & Handel GmbH Münster“ 0, „HR Transport & Handel e.K.“ 0, „Transport & Handel GmbH“ 9 Treffer, „HR“ 500
+  Treffer und „HR GmbH“ 500 Treffer (jeweils das Anzeige-Maximum der Anwendung, die Trefferlisten sind nicht vollständig darstellbar). **Route „Altfahrzeugverwertung“:**
+  „HR“ 90 Treffer, „HR GmbH“ 29 Treffer, „HR Transport“ 0, „HR Transport & Handel“ 0, „HR Transport & Handel GmbH“ 0, „HR Transport und Handel“ 0, „HR Transport & Handel
+  GmbH Münster“ 0, „HR Transport & Handel e.K.“ 0, „Transport & Handel GmbH“ 0. **Standortabfrage:** Route „Entsorgungsfachbetriebe“ 3 km → 13 Treffer, 5 km → 18 Treffer,
+  10 km → 39 Treffer; Route „Altfahrzeugverwertung“ 3 km → 1 Treffer, 5 km → 1 Treffer, 10 km → 1 Treffer. **Nachbarsuche (Namenssuche der geografisch benachbarten
+  Treffer):** „Einbrodt & Schubert GbR“ 1 Treffer (Dahlweg 122, 48153 Münster, ZAES01100066 / 1), „REMONDIS GmbH & Co. KG“ 428 Treffer (davon 5 Anlagen „Behandlungs- und
+  Lageranlage, Betriebsstätte Münster“, Kesslerweg 10, 48155 Münster), „Abfallwirtschaftsbetriebe Münster“ 24 Treffer (4 Anlagen in 48155 Münster), „Gaarmann Overhaus
+  Container GmbH & Co. KG“ 3 Treffer und „SRM Schrott & Metallrecycling GmbH“ 2 Treffer; keine dieser Zeilen führt zu einer HR Transport & Handel GmbH in Münster, eine
+  Umbenennung ist nicht erkennbar. **Abgrenzung:** Die 13 Treffer im 3-km-Radius sind „REMONDIS GmbH & Co. KG | Behandlungs- und Lageranlage, Betriebsstätte Münster“
+  (ZZET00700006 / 7-11, Kesslerweg 10, 48155 Münster, 1,8 km), „Gaarmann Overhaus Container GmbH & Co. KG“ (ZZHT00300781 / 3, Loddenheide 30, 48155 Münster, 1,8 km),
+  „Abfallwirtschaftsbetriebe Münster | Recyclinghof Münster“ (ZZEE00200150 / 17, Eulerstraße 8, 48155 Münster, 2,1 km) und „SRM Schrott & Metallrecycling GmbH“
+  (ZZRT00300098 / 1 und / 2, Kesslerweg 37, 48155 Münster, 2,1 km); in der Route „Altfahrzeugverwertung“ „Einbrodt & Schubert GbR“ (ZAES01100066 / 1, Dahlweg 122, 48153
+  Münster). Die Drachterstraße 29a selbst trägt keinen Registereintrag. **Adressdifferenz:** Die Dossieranschrift „Drachterstraße 29a, 48153 Münster-Hiltrup“ liegt in
+  Hiltrup, die gefundenen Betriebe in Münster-Zentrum bzw. -Hiltrup an anderen Straßen; die Namensvettern „HRH Transport & Metallhandel GmbH“ (Hamburg) und „SWT Schrott-,
+  Wertstoffhandel + Transport GmbH“ (Uder) haben keine Standortbeziehung zum Dossierbetrieb. **Ergebnis:** Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation,
+  Ausstellungsdatum, Gültigkeitsdatum, Anlagenanzahl, zertifizierte Tätigkeit und Standort sind für die HR Transport & Handel GmbH an der Dossieranschrift nicht
+  ausgewiesen; das Feld `certifications` bleibt unverändert leer. **Reichweite der Aussage:** geprüft wurden die oben genannten neun Namensvarianten (Rechtsform-Pool und
+  Inhaber-Namensvetter) in beiden Registerrouten (durchgängig mit dem Filter „Art des Betriebs = Egal“, is=1&e=1), die Standortsuche mit validiertem adr-Parameter in den
+  Radien 3 km, 5 km und 10 km sowie die Namenssuche der benachbarten Treffer; Abrufdatum 05.11.2026; die Trefferzahlen der einzelnen Abfragen sind oben wörtlich genannt.
+  Zwei Namenssuchen erreichen das Anzeige-Maximum von 500 Treffern der Anwendung; bei diesen ist die Trefferliste nicht vollständig darstellbar, die Standortabfragen
+  schließen die Lücke für den geprüften Ortsteil. Ein Register-Nichteintrag ist kein Nachweis dafür, dass ein Betrieb keine Anerkennung besitzt: die Efb-Anerkennung nach §
+  56 KrWG ist freiwillig, und der Dritt-Spiegel schrottregister.pages.dev wurde nicht als Beleg herangezogen.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=HR%20Transport%20%26%20Handel; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=HR%20Transport%20%26%20Handel; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Drachterstra%C3%9Fe%2029a%2C%2048153%20M%C3%BCnster-Hiltrup%3B7.6220598%3B51.9240697%3B7.634060%3B51.936070%3B7.610060%3B51.912070&dst=3&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Drachterstra%C3%9Fe%2029a%2C%2048153%20M%C3%BCnster-Hiltrup%3B7.6220598%3B51.9240697%3B7.634060%3B51.936070%3B7.610060%3B51.912070&dst=3&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Drachterstra%C3%9Fe%2029a%2C%2048153%20M%C3%BCnster-Hiltrup%3B7.6220598%3B51.9240697%3B7.634060%3B51.936070%3B7.610060%3B51.912070&dst=5&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Drachterstra%C3%9Fe%2029a%2C%2048153%20M%C3%BCnster-Hiltrup%3B7.6220598%3B51.9240697%3B7.634060%3B51.936070%3B7.610060%3B51.912070&dst=5&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Drachterstra%C3%9Fe%2029a%2C%2048153%20M%C3%BCnster-Hiltrup%3B7.6220598%3B51.9240697%3B7.634060%3B51.936070%3B7.610060%3B51.912070&dst=10&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Drachterstra%C3%9Fe%2029a%2C%2048153%20M%C3%BCnster-Hiltrup%3B7.6220598%3B51.9240697%3B7.634060%3B51.936070%3B7.610060%3B51.912070&dst=10&is=1&e=1]

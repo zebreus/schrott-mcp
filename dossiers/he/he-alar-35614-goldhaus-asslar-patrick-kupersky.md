@@ -25,7 +25,16 @@ certifications: '["Zertifizierter Goldhändler nach den Kriterien des Berufsverb
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldhaus Asslar, Hauptstraße 27a, 35614 Aßlar, ist ein Edelmetallankauf des Inhabers Patrick
+Kupersky; das Impressum weist die Anschrift, das Telefon 06441 55 620 30 und die Adresse
+info@goldhaus-asslar.de aus. Die Verbandsdatenbank des Berufsverbandes des Deutschen
+Münzenfachhandels führt den Betrieb mit zertifiziertem Goldhändlerstatus und bestätigt
+Anschrift und Nummer auch in der gedruckten Mitgliederliste 2026; die dort genannte zweite
+Domain verweist im Impressum selbst auf goldhaus-asslar.de. Eine Ausnahme von der
+Zwei-Quellen-Regel greift nicht, da ein Handelsregister fehlt, zusätzlich bestätigt ein
+städtisches Rundschreiben die Kontaktdaten. Als zertifizierter Goldhändler ist der Betrieb
+damit belegt; eine Anerkennung als Entsorgungsfachbetrieb oder nach der Altfahrzeug-Verordnung
+besteht nicht.
 
 ## Timeline
 

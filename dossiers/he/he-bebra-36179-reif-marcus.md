@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eintrag führt die Auto Reif Inhaber Marcus Reif in Bebra, Ulfenmühle 1, 36179 Bebra, ein
+mutmaßliches Einzelunternehmen ohne Handelsregistereintrag, das die Betreiberseite
+autoreif.com mit Autoverwertung und 24-Stunden-Abschleppdienst ausweist und das mit Gelbe
+Seiten und 11880 in Anschrift und Rufnummer übereinstimmt. Das amtliche Fachbetrieberegister
+der Gemeinsamen Stelle Altfahrzeuge führt dazu den Vorgang ZALS00800044 mit Kennnummer
+F73E03840;F73RD0210, deckungsgleich mit Name, Anschrift und Telefon. Offen bleibt, dass für
+den Standort kein Entsorgungsfachbetrieb-Eintrag besteht, die Bescheinigung keine Anlagenart
+trägt und kein Zertifikats-PDF hinterlegt ist, eine Anerkennung als Demontagebetrieb also
+nicht belegt ist; die Betreiberseite war am 02.11.2026 gesperrt, der Status bleibt pruefung.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Leber A. Rohstoffe GmbH Schrotthandel ist die Kehler Zweigstelle eines Lager- und
+Umschlagplatzes für NE-Metalle und Stahlschrott am Rheinhafen, den die Standortseite mit
+Hafenstr. 50, 77694 Kehl führt, das Dossier dagegen Hafenstr. 46 und den Ortswert
+"Zweigstelle Kehl". Die Identität belegt allein die Betreiberseite mit Standort- und
+Leistungsseiten; eine Registerangabe fehlt, und die Firmierung der Kehler Seite (A.
+Leber Rohstoffe Handels GmbH) weicht von der Dossier-Firmierung ab. In OSM sind beide
+Hausnummern 46 und 50 auf der Hafenstraße belegt, liegen 305 m auseinander und tragen
+kein Objekt mit Betriebsbezug. Offen bleibt deshalb die genutzte Anschrift und die
+Zuordnung der beiden Nummern, die nur Befragung oder Registerabgleich klären kann.
+Ankaufpreise werden nicht veröffentlicht, die Börsenkursseite verweist auf eine Anfrage.
 
 ## Timeline
 

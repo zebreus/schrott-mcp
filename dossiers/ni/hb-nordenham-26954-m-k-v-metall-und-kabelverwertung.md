@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MKV Metall- und Kabelverwertung GmbH, Martin-Pauls-Straße 168, 26954 Nordenham, ist ein
+Verwertungsbetrieb, der Altkabel, Bleibatterien, Elektromotoren, Kühler, Metallspäne,
+NE-Metalle und Schrott ankauft und Kabel zerlegt. Das Impressum nennt den Geschäftsführer
+Andreas Kalk, HRB 100644 Amtsgericht Oldenburg. Das amtliche Fachbetrieberegister bestätigt die
+Anschrift mit einem EfbV-Zertifikat der TÜV NORD Umweltschutz (Nummer 225ZEB163, Vorgangsnummer
+ZZBT005001397008, gültig bis 11.04.2027) mit einer Anlage für Lagern, Behandeln und Handeln;
+eine Anerkennung nach der Altfahrzeug-Verordnung besteht für die Anschrift nicht. Im
+OpenStreetMap-Bestand fehlt ein Objekt mit Betriebsbezug, während der benachbarte Recyclinghof
+Nordenham einem anderen Rechtsträger gehört. Offen bleibt, ob Altmetall verkauft wird, und es
+fehlt eine zweite Quelle für E-Mail und Öffnungszeiten.
 
 ## Timeline
 

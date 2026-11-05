@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott Anton GmbH, Lerchenstraße 19, 80995 München, ist ein Schrott- und Containerdienst mit
+Schrottplatz und Buntmetallhandel; Marktauftritt ist Schrott-Anton, Impressum und
+Registerspiegel führen die Firma als Schrott-SAM GmbH mit HRB 225491 AG München, wobei
+Identität und Anschrift übereinstimmen. Die Startseite nennt 80995, das Impressum abweichend
+80959; der Wert 80995 wurde übernommen, weil zwei Quellen ihn stützen. Belegt sind Telefon
+089/48956853, die Mobilnummer 0177 3074529, die Adresse info@schrott-anton.de sowie die
+Öffnungszeiten Montag bis Freitag 7.00 bis 17.00 Uhr und Samstag 8.00 bis 12.00 Uhr. Offen
+bleibt der Firmenname im Dossier, da ein nachgewiesener Namenswechsel zur Schrott Anton GmbH
+nicht belegt ist und die Namensfestlegung eine Owner-Entscheidung wäre.
 
 ## Timeline
 

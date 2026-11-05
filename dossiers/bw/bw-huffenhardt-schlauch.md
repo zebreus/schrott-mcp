@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+"Schlauch" ist eine Autoverwertung in der Industriestr. 1, 74928 Hüffenhardt, ein
+Einzelunternehmen ohne Registereintrag. Die Identität tragen zwei Verlagsverzeichnisse,
+das Telefonbuch und der stadtbranchenbuch-Eintrag von Siegelsbach, die dieselbe
+Anschrift, Telefonnummer, E-Mail-Adresse und dieselben Zeiten nennen; ein Archivstand
+von 2022 belegt für die Domain eine frühere Betreiberwebsite mit dem Text
+"Entsorgungsfachbetrieb Schlauch ... Autos verwertet". Die Betreiberdomain ist unter
+HTTPS weiterhin nicht abrufbar, das Feld website_status steht deshalb auf unbekannt.
+Offen bleibt der aktuelle Betriebszustand, da die Belege zum Teil auf
+Verzeichniseinträgen und einem Archivstand beruhen, sowie der Ankauf von Schrott, der im
+Dossier als unklar geführt wird. Ein Registerbeleg fehlt.
 
 ## Timeline
 

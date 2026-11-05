@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Brendle Michael ist der Ein-Mann-Betrieb Michael Brendle Abbruch & Entkernung in der
+Rudolf-Diesel-Str. 10a, 86850 Fischach; das Angebot umfasst Abbruch, Entkernung,
+Asbestentsorgung und Containerverleih. Die Identität tragen Betreiber-Kontaktseite und
+Impressum, die Adresse und Telefonnummer nennen, jedoch nur als Einzelbeleg; ein
+Registereintrag fehlt, weshalb der Status des Dossiers auf pruefung bleibt. Offen bleibt
+der Schrottankauf, der im Import als Leistung vermutet, auf der Website aber nicht
+erkennbar ist, sowie jeder Preis. Die Suche im Fachbetrieberegister liefert für Namen
+und Anschrift weder ein Efb-Zertifikat noch einen Altfahrzeugverwertungseintrag, was
+wegen der Freiwilligkeit der Anerkennungen keinen Nichtbestand belegt. Öffnungszeiten
+sind nicht belegt, und eine zweite Telefonnummer ist nur als Nebenlinie dokumentiert.
 
 ## Timeline
 

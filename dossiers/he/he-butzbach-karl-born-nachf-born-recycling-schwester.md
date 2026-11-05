@@ -25,7 +25,15 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (ProRecyZert GmbH, Lin
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Karl Born Nachf. GmbH & Co. KG (Born Recycling) ist ein Metall- und Schrotthandel in
+Butzbach, Alte Wetzlarer Straße 47-49, 35510 Butzbach, der NE-Metalle wie Kupfer, Messing,
+Alu, Zink, Zinn und Blei sowie E-Motoren zu Tagespreisen ankauft; die Anlage 4 des Registers
+nennt als Behandlung Sortieren, Pressen, Schneiden und Brennschneiden. Betreiber-Impressum
+(Geschäftsführer Michael Schuy, pers. haft. Borneo Verw.-GmbH HRB 9035 AG Friedberg) und
+amtliches Fachbetrieberegister tragen die Identität (Born Nachf. GmbH & Co. KG, HRA 4780 AG
+Friedberg, vier Anlagen, Zertifikat PRZ-EfbV-2022-092 der ProRecyZert). Offen bleibt, dass
+das Register den Namen ohne Karl führt und die Namenssuche Born Recycling nur ortsfremde
+Paderborner Zeilen trifft.
 
 ## Timeline
 

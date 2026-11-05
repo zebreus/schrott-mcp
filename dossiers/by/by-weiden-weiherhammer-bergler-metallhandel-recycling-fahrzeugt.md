@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bergler GmbH & Co. KG, Etzenrichter Straße 12, 92729 Weiherhammer, ist ein Metallhandel- und
+Recyclingunternehmen mit Fahrzeugtechnik; das amtliche Fachbetrieberegister weist ihn mit HRA
+1578 Registergericht Weiden i. d. OPf. aus. Das Efb-Zertifikat der DEKRA Certification GmbH
+(Nummer 90595104, Vorgangsnummer ZZHT003008030013, gültig bis 25.10.2027) umfasst 14 Anlagen,
+von denen Anlage 1 dem Dossierstandort zugeordnet ist und Sammeln und Befördern, Handeln und
+Makeln mit Kennnummern nach § 28 NachwV umfasst. Die übrigen 13 Anlagen liegen an anderen
+Hausnummern und Orten; auch die Namensvetter der Gruppe sitzen an anderen Standorten. Eine
+Anerkennung nach der Altfahrzeug-Verordnung besteht für diesen Standort nicht, der einzige
+Treffer dieser Route gehört der Bergler Fahrzeugtechnik GmbH in Weiden. Das Impressum der
+Betreiberseite nennt dieselbe Anschrift und denselben Registereintrag; der Status bleibt aktiv.
 
 ## Timeline
 

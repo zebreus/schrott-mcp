@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+R. Mayer ist ein Schrott- und Altmetallhandel mit KFZ-Recycling und privaten
+Entrümpelungen in der Martinistr. 70, 68219 Mannheim; das Impressum führt "R. Mayer
+Entrümpelung" als eingetragenen Firmensitz, der Seitenkopf von "Schrott- und
+Altmetallhandel R. Mayer". Die Identität tragen Impressum und Kontaktseite auf der
+punycode-Schreibweise der Domain, die PLZ 68219, Telefonnummer und E-Mail nennen; die im
+Frontmatter eingetragene Umlaut-Domain ist nicht erreichbar, das Feld website_status
+bleibt leer. Offen bleibt die Rechtsform, denn das Impressum nennt keine
+Gesellschaftsform und ein Registerbeleg fehlt. Postleitzahl, Telefon und E-Mail bleiben
+deshalb leer, weil die Angaben von einer Quelle stammen. In OSM trägt die Martinistraße
+70 kein Objekt mit Betriebsbezug.
 
 ## Timeline
 

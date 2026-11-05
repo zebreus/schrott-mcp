@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wesermarsch Metallrecycling GmbH, Max-Planck-Straße 9, 26919 Brake, ist ein
+Metallrecyclingbetrieb mit Selbstanlieferung, Containerverleih, industrieller Demontage und
+Annahme von Eisen- und NE-Metallen, Kabel, Hartmetall, Batterien und Altfahrzeugen; die
+Barauszahlung erfolgt nach Verwiegung, andere Abfälle sind kostenpflichtig. Das amtliche
+Fachbetrieberegister weist die Gesellschaft mit HRB 100164 Registergericht Oldenburg aus und
+bestätigt sie mit einem EfbV-Zertifikat der DEKRA Certification GmbH (Nummer 291124027,
+Vorgangsnummer ZZHT003015365003, gültig bis 13.02.2028), das vier Anlagen am Dossierstandort
+umfasst, darunter Anlage 1 mit dem Beiblatt für eine Altfahrzeugannahmestelle. Ein eigener
+Eintrag in der Route Altfahrzeugverwertung fehlt, und ein amtlicher Registerauszug war nicht
+abrufbar. Die Koordinate bildet den Mittelpunkt des Gebäudes und nicht das Tor ab.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die RHH-Rohstoffhandel Haiger GmbH ist ein Rohstoffhandel in Haiger, Zum Haigerfeld 1, 35708
+Haiger, im Industriegebiet Auf der Hor; sie kauft Schrott und Metalle an, handelt
+Stahlwerks- und Gießereischrott, nimmt Kleinmengen von Privaten und Handwerkern gegen
+Barzahlung und stellt Container für die Industrie, gehört laut Angabe des Betriebs seit dem
+01.01.2019 zur RMR-Gruppe. Betreiber-Vollcrawl und Impressum (HRB 5856 AG Wetzlar, USt-IdNr
+DE 267 181 965) tragen die Identität, dazu Northdata als HR-Beleg und der OSM-Adresspunkt
+way/123498275 die Anschrift. Offen bleiben die nur maskierte Allgemein-E-Mail, das Fehlen
+bezifferter Preise, Verkaufslisten und Containergebühren sowie die fehlende
+OSM-Betriebszuordnung.
 
 ## Timeline
 
