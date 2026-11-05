@@ -1,8 +1,11 @@
 //! Goldtrans Edelmetallhandel (Hamburg-Wandsbek): exact per-gram purchase
-//! prices in one clean HTML table ("Gold Legierung" / "Preis", €/g in
-//! every row, page-stated "Stand: dd.mm.yyyy"). 13 gold alloys plus a
-//! separate Zahngold row (live 27.09.2026: 14 rows). Quoted unit is
-//! honestly EUR/g (catalog units match — no conversion anywhere).
+//! prices in one clean HTML table, page-stated "Stand: dd.mm.yyyy". The
+//! header changed on 05.11.2026 — "Gold Legierung" / "Preis" became
+//! "Gold" / "Preis (€ / g.)" with a caption, and the price cells now
+//! carry only "€" — the gram unit rides in the column header. Both
+//! forms are read. 13 gold alloys plus a separate Zahngold row (live
+//! 27.09.2026: 14 rows). Quoted unit is honestly EUR/g (catalog units
+//! match — no conversion anywhere).
 //! Fineness rides in the variant ("Gold 999 24 Karat" → `gold`/`999`);
 //! Zahngold maps to `zahngold` (dental alloy, never a gold alias).
 
@@ -174,9 +177,14 @@ fn parse(
     let tail = &html[start..];
     let end = tail.find("Bitte Beachten").unwrap_or(tail.len());
     let window = &tail[..end];
-    // Kopf-Selektion: the table whose header reads "Gold Legierung" —
-    // never the first table on the page. The <style> block inside the
-    // window is never read as text (only table cells are selected).
+    // Kopf-Selektion: the table whose header names the gold rows and the
+    // price column — never the first table on the page. The site changed
+    // its header on 05.11.2026: the old "Gold Legierung" / "Preis" is
+    // now "Gold" / "Preis (€ / g.)" with the caption "Goldankauf
+    // Preise". Both forms are accepted; the footer table carries no
+    // matching header and is therefore still never read. The <style>
+    // block inside the window is never read as text (only table cells
+    // are selected).
     let doc = Html::parse_fragment(window);
     let table_sel = Selector::parse("table").expect("valid selector");
     let th_sel = Selector::parse("th").expect("valid selector");
@@ -185,13 +193,26 @@ fn parse(
     let table = doc
         .select(&table_sel)
         .find(|t| {
-            t.select(&th_sel)
-                .any(|h| h.text().collect::<String>().contains("Gold Legierung"))
+            let headers: Vec<String> = t
+                .select(&th_sel)
+                .map(|h| h.text().collect::<String>())
+                .collect();
+            headers.iter().any(|h| h.contains("Gold Legierung"))
+                || (headers.iter().any(|h| h.trim() == "Gold")
+                    && headers.iter().any(|h| h.contains("Preis")))
         })
         .ok_or_else(|| IngestError::Parse {
             url: URL.to_owned(),
-            detail: "Preistabelle (Gold Legierung) fehlt".to_owned(),
+            detail: "Preistabelle (Gold Legierung / Gold + Preisspalte) fehlt".to_owned(),
         })?;
+    // The unit may live in the price cell ("111,33 €/g") or — with the
+    // new header — only in the column header ("Preis (€ / g.)"). The
+    // guard below still demands a unit; it is simply taken from the
+    // column when the cell carries none.
+    let unit_from_header = table
+        .select(&th_sel)
+        .map(|h| h.text().collect::<String>())
+        .any(|h| h.contains("€ / g") || h.contains("€/g") || h.contains("EUR/g"));
     let mut rows = Vec::new();
     let mut skips = Vec::new();
     for tr in table.select(&tr_sel) {
@@ -208,7 +229,7 @@ fn parse(
         if matches!(grade_for(&label), Some(("gold" | "zahngold", _))) {
             // Fail the complete parse, including earlier valid rows, before
             // any HandlerOutcome can reach recording or contact enrichment.
-            let price = positive_gold_quote(&label, price_raw)?;
+            let price = positive_gold_quote(&label, &price_with_unit(price_raw, unit_from_header))?;
             rows.push((label, price, "EUR/g"));
             continue;
         }
@@ -236,6 +257,17 @@ fn parse(
     // cannot leak in.
     let published_at = window.find("Stand").and_then(|i| date_in(&window[i..]));
     Ok((published_at, rows, skips))
+}
+
+/// Adds the column unit to a price cell that carries none ("109,40 €"
+/// → "109,40 €/g"), so that the unit guard below still sees a unit.
+/// A cell that already names its unit is left untouched.
+fn price_with_unit(price_cell: &str, unit_from_header: bool) -> String {
+    let trimmed = price_cell.trim();
+    if !unit_from_header || !trimmed.ends_with('€') || trimmed.ends_with("€/g") {
+        return price_cell.to_owned();
+    }
+    format!("{}€/g", trimmed.trim_end_matches('€').trim())
 }
 
 /// dd.mm.yyyy → RFC 3339 UTC midnight (tappe-style byte scan; this
@@ -676,6 +708,37 @@ mod tests {
         );
         assert!(date_in("Stand : 27.09.2026 Hamburg").is_some());
         assert_eq!(date_in("kein Datum"), None);
+    }
+
+    // Real live excerpt (05.11.2026): the page now writes the header as
+    // "Gold" / "Preis (€ / g.)" with a caption and a <thead>/<tbody>
+    // structure; the price cells carry only "€" — the gram unit lives
+    // in the column header.
+    const FIXTURE_NEU: &str = "<p>Hier aktuelle Ankaufspreise f&uuml;r Altgold in Hamburg f&uuml;r unseren Goldankauf\
+        <table><caption>Goldankauf Preise</caption><thead><tr><th>Gold</th><th>Preis (&euro; / g.)</th></tr></thead><tbody>\
+        <tr><td>Gold 999er (24 Karat)</td><td>109,40 &euro;</td></tr>\
+        <tr><td>Gold 750er (18 Karat)</td><td>82,05 &euro;</td></tr>\
+        <tr><td>Gold 333er (8 Karat)</td><td>36,43 &euro;</td></tr>\
+        </tbody></table><p><strong>Stand:</strong> 05.11.2026 &ndash; Hamburg</p>";
+
+    #[test]
+    fn neue_kopfzeile_und_einheit_aus_der_spalte() {
+        let (published, rows, skips) = parse(FIXTURE_NEU).expect("parses");
+        assert!(skips.is_empty());
+        assert_eq!(rows.len(), 3);
+        assert_eq!(rows[0].0, "Gold 999er (24 Karat)");
+        assert_eq!(rows[0].1, 109.40);
+        assert_eq!(rows[0].2, "EUR/g");
+        assert_eq!(rows[2].1, 36.43);
+        assert!(published
+            .as_deref()
+            .unwrap_or_default()
+            .starts_with("2026-11-05"));
+        // Die Spalteneinheit traegt den Waehrungswaert: ohne sie bleibt
+        // der Preis unbrauchbar und wird verworfen.
+        assert_eq!(super::price_with_unit("109,40 €", true), "109,40€/g");
+        assert_eq!(super::price_with_unit("111,33 €/g", true), "111,33 €/g");
+        assert_eq!(super::price_with_unit("109,40 €", false), "109,40 €");
     }
 
     #[test]
