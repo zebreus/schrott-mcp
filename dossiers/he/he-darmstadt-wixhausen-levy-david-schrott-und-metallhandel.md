@@ -79,3 +79,37 @@ Der Betrieb „Levy David Schrott und Metallhandel" sitzt laut Branchenverzeichn
 ### Recherche 04.11.2026
 
 - [Recherche 04.11.2026: **Amtliches Fachbetriebsregister geprüfkt — kein dem Dossierstandort zugeordneter Nachweis (Negativaussage mit Reichweite).** „Entsorgungsfachbetriebe“ des amtlichen Fachbetriebsregisters, live abgefragt am 04.11.2026, durchgängig mit dem Filter „Art des Betriebs = Egal“ (is=1&e=1), Suchradius der Namenssuche dst=10. **Namenssuche (Namensvarianten, Inhaber-Namensvetter und Rechtsform-Pool):** „Levy David“ → 0 Treffer; „David Levy“ → 0 Treffer; „Levy“ → 0 Treffer; „Levy Metallhandel“ → 0 Treffer; „Levy Schrott“ → 0 Treffer. **Standortsuche** mit validiertem adr-Parameter (PLZ-Abgleich: 64291 Darmstadt) und Radius 3 km → 3 Treffer; Radius 10 km um dieselbe Adresse → 73 Treffer. Alle Trefferzeilen dieser Abfragen wurden über die Grid-Paginierung vollständig gelesen. **Gegenprobe Route „Altfahrzeugverwertung“** mit dem Namensbegriff „Levy“ → 0 Treffer. Abgrenzung: Die Ortssuche um Am Sportplatz 11 (PLZ 64291) ergibt in 3 km 3, in 10 km 73 Anlagenzeilen; die drei Zeilen des 3-km-Radius sind sämtlich „Darmstädter Recycling Zentrum GmbH (DRZ GmbH)“, Röntgenstraße 12, 64291 Darmstadt, ZZHT01000192 / 1-3 (1,7 km) — ein anderer Rechtsträger, keine Übernahme. Die Dossier-Adresse Am Sportplatz 11 kommt im Register nicht vor. **Ergebnis:** Für Levy David Schrott und Metallhandel, Am Sportplatz 11, 64291 Darmstadt-Wixhausen weist das amtliche Fachbetriebsregister zum Abrufdatum 04.11.2026 keinen Eintrag aus, der dem Dossierstandort zugeordnet ist; Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation, Ausstellungsdatum, Gültigkeitsdatum, Anlagenanzahl und zertifizierte Tätigkeit sind daher **nicht ausgewiesen**. Das Feld `certifications` bleibt deshalb leer; der Dossierstatus bleibt unberührt. Das Fehlen einer Eintragung ist **kein** Beleg für die Nichtexistenz des Betriebs, da die Efb-Anerkennung nach § 56 KrWG freiwillig ist und reine Metallhändler ohne gefährliche Abfälle keine Efb-Anzeige benötigen. Quelle(n): Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Levy%20David; Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=David%20Levy; Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Levy; Entsorgungsfachbetriebe/adr=Am%20Sportplatz%2C%2064291%20Darmstadt%2C%20Deutschland;8.629327;49.931490;8.665327;49.967490;8.593327;49.895490&dst=3&is=1&e=1; Entsorgungsfachbetriebe/adr=Am%20Sportplatz%2C%2064291%20Darmstadt%2C%20Deutschland;8.629327;49.931490;8.749327;50.051490;8.509327;49.811490&dst=10&is=1&e=1; Altfahrzeugverwertung/dst=10&is=1&e=1&n=Levy (Abruf 04.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **11** auf "Am Sportplatz" in **64291 Darmstadt-Wixhausen** existiert in OSM **nicht** - die
+  Nachprüfung mit einem **weit gefassten** Fenster bestätigt den alten Negativbefund und deckt zugleich die
+  Verwechslungsquelle auf. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das
+  enge Feinraster **8.6200/49.9250 bis 8.6400/49.9400** umfasst **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**,
+  4563 Elemente und **umschließt die Objekt-BBox des Nachbargrundstücks way/801683671 vollständig** (8.6296555/49.9314659
+  bis 8.6303465/49.9321343); die Straße "Am Sportplatz" ist dort mit **13 Adressobjekten** und **12** verschiedenen
+  Hausnummern erfasst (**1, 2, 3, 5, 6, 7, 7a, 9, 9a, 10, 12, 14**) - **die Nummer 11 fehlt**, die Reihe springt von 10
+  auf 12. Das Kontrollfenster **8.6000/49.9200 bis 8.6600/49.9500** (**18 Kacheln**, **0 Kachel-Fehler**, 47215
+  Elemente) liefert zwar ein "Am Sportplatz" mit **39 Adressobjekten** und **28** Hausnummern - darunter eine **11** -
+  diese gehört aber zur **namensgleichen Straße in einer anderen Gemeinde**: node/11135870426 trägt `addr:housenumber`=11,
+  `addr:street`=Am Sportplatz, `addr:city`=**Weiterstadt**, `addr:postcode`=**64331**,
+  `addr:suburb`=**Gräfenhausen** und liegt bei 49.9257924/8.607426, also **1,743 m** vom Darmstädter Nachbarobjekt
+  entfernt. Die Trennung der beiden gleichnamigen Straßen gelingt allein über `addr:city`/`addr:postcode`:
+  die 13 Adressobjekte mit den Hausnummern 1-14 ohne die 11 tragen sämtlich `addr:city`=Darmstadt, `addr:postcode`=64291,
+  `addr:suburb`=Wixhausen. Quelle 2 (Betreiber/Register): **fehlt weiterhin** - für "Levy David Schrott und
+  Metallhandel" existiert **kein** Betreiberauftritt und **kein** Registereintrag; die Dossier-Belege sind
+  ausschließlich Branchenverzeichnis-Leads (Gelbe Seiten, Das Örtliche, schrottplatz-info, MisterWhat, gavabiz,
+  infoisinfo), die Domain david-levy-schrotthandel.de liefert per DNS **NXDOMAIN**, und die amtliche
+  Fachbetriebsregister-Abfrage vom 04.11.2026 ergab für "Levy", "Levy David" und "David Levy" jeweils **0 Treffer**.
+  **Warum keine Koordinate:** es gibt kein adressgenaues OSM-Objekt und keine zweite unabhängige Quelle; die
+  Nachbaradresse 12 (way/801683671, `name`=Schrotthandel Meyer) wird **nicht** als Ersatzpunkt missbraucht.
+  `clear_fields: 'geo'` bleibt bestehen, der gespeicherte Altpunkt 49.8718375/8.6533 (Schuchardstraße 3,
+  Darmstadt-Mitte, anderer Ortsteil und andere PLZ) wird damit ohnehin zurückgenommen; `status` bleibt `pruefung`.
+  **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für das Fehlen des Betriebs; das
+  gilt auch für die **namensgleiche** Straße in Gräfenhausen, die nicht die Dossier-Adresse ist. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.62,49.925,8.64,49.94 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6,49.92,8.66,49.95 ;
+  https://api.openstreetmap.org/api/0.6/way/801683671/full.json ;
+  https://www.gelbeseiten.de/gsbiz/dbe4f84c-1165-491a-b72a-e215b567acea ;
+  https://www.schrottplatz-info.de/schrottplatz/Darmstadt/Levy-David (Abruf 05.11.2026)]

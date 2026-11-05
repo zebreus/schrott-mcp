@@ -178,3 +178,38 @@ Schrobenhausen**, Gollingkreuter Weg 13, 86529 Schrobenhausen", Tätigkeiten Lag
   https://api.openstreetmap.org/api/0.6/way/22743374/full.json ; https://www.autoverwertung-burlafinger.de/impressum/ ;
   https://schrottregister.pages.dev/betrieb-autoverwertung-burlafinger-gbr-schrobenhausen-sandizell
   (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Grimolzhausener Straße 12, 86529 Schrobenhausen**; die alte Vermerkung nennt als Suchfenster das Raster
+  **11.1700/48.5600 bis 11.2000/48.5900** (9 Kacheln, vom 03.11.2026) bzw. **11.1700/48.5600 bis 11.2200/48.5900**
+  (15 Kacheln, vom 05.11.2026). **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das Kachelraster
+  **bbox=11.1700,48.5600,11.2200,48.5900** (**15 Kacheln von je 0,01 Grad** um die Hausnummer herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.1700,48.5600,11.2200,48.5900) lieferte **8 865 Elemente** bei
+  **0 Kachel-Fehlern**. Die **„Grimolzhausener Straße“** (in OSM durchgängig `highway`=secondary, `ref`=St 2045) ist in
+  diesem Fenster mit **sieben** Straßenobjekten erfasst (way/22743374, way/43619607, way/181652818, way/492416837,
+  way/492416838, way/492416839, way/492416842; Verlauf 48.578698/11.172557 bis 48.579902/11.186603); die **Objekt-BBox der
+  Straße** (48.578698/11.172557 bis 48.579902/11.186603) liegt damit **vollständig in der Fenster-BBox**. Auf ihr sind
+  **5 Adressobjekte** mit **5 verschiedenen Hausnummern** erfasst (**1, 8, 11, 17, 22**; `addr:postcode`=86529,
+  `addr:city`=Schrobenhausen, `addr:suburb`=Sandizell) - die Dossier-Hausnummer **12 existiert in OSM nicht**; die
+  Nachbarhausnummern **11** (way/222822860) und **17** (way/288546770) schließen die Lücke ein, in der die Nummer 12 zu
+  liegen hätte. Die Suche über `name`, `operator`, `brand` und `official_name` nach „burlafinger“ und „autoverwertung“
+  liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert. Der Ortsteil **Sandizell** (48.5835737/11.1778139) liegt im
+  Fenster, die Adressobjekte tragen `addr:city`=Schrobenhausen - die Straße liegt also am richtigen Ort und **nicht** in
+  einem gleichnamigen Ort. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen,
+  HTTP 200):** das Betreiber-Impressum nennt **„Autoverwertung Burlafinger Gbr, Grimolzhausenerstraße 12, 86529
+  Schrobenhausen“** (Familienbetrieb gegründet 01.09.1988), und die Spiegelung der amtlichen Register
+  (schrottregister.pages.dev, Auszug 11.08.2026; veralteter Snapshot, im Sinne der Quellenhierarchie **kein** eigenständiger Beleg, Ort Schrobenhausen-Sandizell) führt denselben Betrieb mit **Betriebsanschrift
+  Grimolzhausener Straße 12, 86529 Schrobenhausen-Sandizell** und der Anerkennung nach AltfahrzeugV **Demontagebetrieb**,
+  Zertifikatsnummer **ZAIS01500007** (Bescheinigungsanlagennr. 1, Kennnummer I185E1224). Die Adresse ist damit
+  **betreiberseitig und registerseitig belegt**, nur die **Geometrie der Hausnummer 12 fehlt in OSM**: die Karte kennt auf
+  dieser Straße die Nachbarhausnummern 11 und 17, aber keine Nummer 12, und kein Objekt nennt den Betrieb. Nach der Regel
+  dieser Welle wird deshalb **keine** Koordinate erfunden und **kein** Nachbarobjekt (11 oder 17) und **kein**
+  Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung; `status` (aktiv),
+  `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer Hausnummer
+  oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.1700,48.5600,11.2200,48.5900 ;
+  https://api.openstreetmap.org/api/0.6/way/22743374/full.json ; https://www.autoverwertung-burlafinger.de/impressum/ ;
+  https://schrottregister.pages.dev/betrieb-autoverwertung-burlafinger-gbr-schrobenhausen-sandizell
+  (live abgerufen 05.11.2026).]

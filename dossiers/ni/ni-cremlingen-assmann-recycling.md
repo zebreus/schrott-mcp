@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Assmann Recycling GmbH ist ein Recycling- und Schrottbetrieb in Cremlingen, An der
+Bundesstraße 1, 38162. Impressum und die Registeraufbereitung Northdata zum HRB 201170 beim
+Amtsgericht Braunschweig belegen die Gesellschaft als zwei Quellen. Der Metallhandel mit
+NE-Metallen und Eisenschrott zum Tagespreis gehört zum festen Tagesgeschäft, angenommen werden
+Kupfer, Aluminium, Messing, Zink und Edelstahl sowie Metalle aus Demontagearbeiten;
+Zahlenpreise werden nicht veröffentlicht, ein Verkauf ist nicht belegt und keine Gebühr ist
+beziffert. Offen bleibt die Typisierung, da neben dem Metallhandel ein Abbruch- und
+Demontageschwerpunkt mit Asbestdemontage nach TRGS 519 besteht, sowie Telefon, E-Mail und
+Öffnungszeiten, die nur als Einzelbeleg vorliegen. In OpenStreetMap steht der Betrieb als
+eigenes Objekt neben dem Adressobjekt der Hausnummer 1.
 
 ## Timeline
 

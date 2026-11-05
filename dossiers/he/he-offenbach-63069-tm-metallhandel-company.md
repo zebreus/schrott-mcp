@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TM Metallhandel Company ist ein in Offenbach am Main geführter Metallhandel, den ein
+B2B-Verzeichnis als Großhändler mit Sitz an der Sprendlinger Landstrasse 115 in 63069 Offenbach
+führt. Dieser Eintrag ist der einzige belastbare Beleg; die dort verknüpfte Domain
+td-metaltools.com liefert nur eine Hosting-Platzseite ohne Impressum. Die Firmierung bleibt
+uneindeutig, weil das Verzeichnis den Betrieb teils mit dem Namen Tariq Dar und ohne
+Kontaktdaten führt. Die Suche im gemeinsamen Registerportal der Länder nach Tariq Dar ergibt
+keinen Treffer, und die Ortsseite des amtlichen Fachbetrieberegisters führt keinen Betrieb
+dieser Firma, wobei die Seed-Postleitzahl 63069 außerhalb des Registerumfangs liegt. Der
+gespeicherte Koordinatenpunkt löst auf ein Sanitätshaus in der Bieberer Straße mit der
+Postleitzahl 63065 auf. Sorten, Preise und Gebühren sind nicht belegt.
 
 ## Timeline
 

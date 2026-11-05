@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Bassum Inh. AIPEX GmbH ist der Zweitstandort der AIPEX Transport & Trading GmbH
+in Bassum, Industriestr. 31, 27211, mit Telefonnummer +49 4241 9210800; der Hauptsitz liegt
+laut Impressum in Minden, Auf dem Brink 8, mit HRB 15142 beim Amtsgericht Bad Oeynhausen.
+Betreiberseite und Impressum belegen Anschrift und Kontaktdaten, das Seed nennt Alu und Stahl
+mit Autoverwertung und Logistik. Amtlich belegt ist die Anerkennung als Anlage zur weiteren
+Behandlung nach der Altfahrzeug-Verordnung: Die Bescheinigung ZACS00100015 mit der Kennnummer
+CAR974010 gilt für Anlage 1 des Standorts. Offen bleibt der fehlende Entsorgungsfachbetrieb
+nach § 56 KrWG, da das Register für diese Anschrift keinen Eintrag führt, und die
+Telefonnummer 04241 7713 im Register weicht von der Dossierangabe ab. Ankaufpreise sind nicht
+belegt.
 
 ## Timeline
 

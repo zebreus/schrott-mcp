@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klemens Waldemar Schrotthandel ist ein in Wächtersbach geführter Schrotthandel, den ein
+Verzeichnis als Klemens Schrott und Metallhandel mit Abholservice für Altmetall und Schrott
+beschreibt. Belegt ist der Betrieb nur durch Aggregatoren mit drei Rufnummern und zwei
+Straßenangaben: die Roßlebener Str. 12 und die Poststraße ohne Hausnummer. Die verlinkte Domain
+schrotthandelklemens.de antwortet durchgängig mit einer Bot-Challenge, weshalb weder Impressum
+noch Adresse noch Zeiten übernommen wurden und der Website-Status unbekannt bleibt. Die Suche
+im gemeinsamen Registerportal der Länder nach dem vollen Namen ergibt keinen Treffer, die
+Ortsseite des amtlichen Fachbetrieberegisters führt in Wächtersbach nur die Weisgerber
+Umweltservice GmbH, ohne Beweiswert. Der Koordinatenpunkt löst auf eine Wohnadresse in der
+Ysenburger Straße auf, Ankaufkurse, Verkaufslisten und Gebühren sind nicht belegt.
 
 ## Timeline
 

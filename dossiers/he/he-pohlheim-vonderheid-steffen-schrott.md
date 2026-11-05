@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Entsorgungsteam Vonderheid, Inhaber Steffen Vonderheid, Grenzweg 4 in 35415 Pohlheim, ist ein
+Kleinhändler für Schrott, der im Kreis Gießen und dessen Umgebung Material kostenlos abholt und
+Container ab einem Kubikmeter stellt. Die Materialliste reicht von Eisenschrott und
+Gartenzäunen über Messing, Kupfer, Zinn und Blei bis zu Autoteilen, Rohren, Kesseln und
+Fahrrädern. Die Identität tragen eine betreibereigene Kleinanzeige mit den rechtlichen Angaben
+sowie drei Verzeichnisse, die dieselbe Anschrift und die Festnetznummer nennen, ergänzt um das
+OSM-Adressobjekt zur Hausnummer 4, das den Betrieb nicht ausweist. Offen bleiben Website,
+E-Mail, Öffnungszeiten und ein Gewerberegister- oder Handelsregistereintrag, da die Firma als
+Einzelunternehmen ohne HRB geführt wird. Ankaufpreise werden nicht genannt, die Anzeige nennt
+nur die Verhandlungsbasis, und für die Containerstellung ist kein Entgelt beziffert.
 
 ## Timeline
 

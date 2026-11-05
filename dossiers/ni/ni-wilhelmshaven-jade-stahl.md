@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+JADE-STAHL GmbH, Emsstr. 29, 26382 Wilhelmshaven: der Dossier-Eintrag führt den
+ehemaligen Betreiber an dieser Anschrift, während die Betreiberseite metall.alba.info
+den Standort als „früher Jade-Stahl Wilhelmshaven" und heute als Standort der ALBA
+Metall Nord GmbH führt. Ein Registerspiegel weist für die INTERSEROH Jade-Stahl
+GmbH, AG Oldenburg HRB 131660, die Verschmelzung vom 01.09.2014 und die Löschung am
+03.09.2014 durch Verschmelzung auf die ALBA Metall Nord GmbH aus. Das Frontmatter
+ist deshalb auf den Betreiberstand gesetzt, der Altname bleibt im Titel und in der
+Historie dokumentiert. Der Standort bietet Schrott- und Metallrecycling, nennt 17
+Sortengruppen ohne jeden Eurobetrag und weist keinen Preis aus. Offen bleibt damit ein
+bezifferter Ankaufpreis für den ehemaligen Jade-Stahl wie auch für den Rechtsnachfolger.
 
 ## Timeline
 

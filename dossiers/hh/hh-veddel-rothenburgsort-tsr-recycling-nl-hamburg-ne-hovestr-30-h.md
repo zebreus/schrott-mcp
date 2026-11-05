@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Niederlassung Hamburg NE von TSR sitzt in der Hovestraße 30 in 20539 Hamburg-Veddel und ist
+auf Nichtneimetalle ausgerichtet, Schrottankauf von privat ist dort ausdrücklich angeboten,
+während der zweite Hamburger Standort in der 2. Hafenstraße 4 auf Stahlschrott spezialisiert
+ist und keine Privatkunden annimmt. Die Betreiberseite weist als Anbieter die TSR Deutschland
+GmbH & Co. KG mit HRA 19743 am Amtsgericht Dortmund aus, womit der Dossier-Name TSR Recycling
+GmbH von der aktuellen Firmierung abweicht. Die Anschrift tragen zusätzlich das Branchenbuch
+der Stadt Hamburg und das amtliche Schrottregister, das für die Hovestraße 27/30 eine
+Niederlassung mit Lagern und Behandeln führt. Offen bleibt die Preislage, da für den Standort
+keine Zahlenpreise veröffentlicht werden, und die Zuordnung der Fläche im Kartennetz bleibt
+offen, weil das Adressobjekt zur Hausnummer 30 den Betrieb nicht benennt.
 
 ## Timeline
 

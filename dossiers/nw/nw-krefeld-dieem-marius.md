@@ -74,3 +74,40 @@ in der Krefelder Innenstadt und wird zurückgenommen. `status` bleibt `pruefung`
   https://api.openstreetmap.org/api/0.6/map.json?bbox=6.5400,51.3000,6.5900,51.3500 ;
   https://schrottregister.pages.dev/ort-krefeld ; https://www.online-handelsregister.de/suche/Marius+Krefeld (Abruf
   04.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom 04.11.2026 und prüft den Namensraum
+  live nach.** Für **MARIUS** (Krefeld-Dießem) lässt sich der Seedname **keinem** Schrotthandel zuordnen; eine
+  belastbare Händleradresse existiert **nicht**, und im live abgerufenen OSM-Raster von Krefeld-Mitte/Dießem findet sich
+  **kein** Objekt mit Bezug zu diesem Namen. **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** das Kachelraster
+  **6.5500/51.3100 bis 6.5900/51.3400**, **12 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.5500,51.3100,6.5900,51.3400) wurde vollständig ausgewertet: es
+  umfasst **10.484** Adressobjekte auf **280** verschiedenen Straßen des Krefelder Stadtgebiets; eine Suche über `name`,
+  `operator`, `brand`, `website`, `contact:website`, `contact:phone`, `description`, `note`, `short_name`,
+  `official_name` und `addr:housename` nach **„Marius“** liefert **einen** Treffer, der **keinen** Bezug zum
+  Schrotthandel hat: **node/537847604** am **Dionysiusplatz 12, 47798 Krefeld** mit `name`=**Alianz**,
+  `office`=insurance und `brand`=**„Marius Bee“** (ein Versicherungsagentenname) - ein **Namensvetter**, der **nicht**
+  übernommen wird. Suchen nach **„Schrott“** und **„Altmetall“** liefern **0** Treffer, die Suche nach **„Recycling“**
+  **5** Treffer mit **anderen** Betreibern (Textilrecycling Nord, Grotex Recycling GmbH); Aussage zum OSM-Bestand,
+  **kein** Negativbeleg über den Betrieb. **Quelle 2 (Register, live am 05.11.2026 nachgelesen, HTTP 200):** die
+  **amtsliche Namenssuche** https://www.online-handelsregister.de/suche/Marius+Krefeld liefert **HTTP 200** und
+  ausdrücklich **„Ihr Suchergebnis für 'Marius Krefeld' - Unternehmen: Keine Suchergebnisse! Personen: Keine
+  Suchergebnisse!“** - der im Dossier dokumentierte Negativbefund besteht unverändert; das **amtliche
+  Fachbetrieberegister** (Auszug 11.08.2026) führt für Krefeld **elf** anerkannte Betriebe (Blue Phoenix Deutschland
+  GmbH, GSAK, Grafenberg-Metall GmbH, IK Umwelt Krefeld Hafen GmbH, Jean Berends Altmetalle & Containerservice, Josef
+  Hendrichs Metallhandels GmbH & Co. KG, MAV Krefeld GmbH, MKVA, PRO SCHROTT 100 GmbH, Umfüllung) - **kein** Betrieb
+  namens Marius und **keiner** im Ortsteil Dießem; die Efb-Erkennung ist **freiwillig**, ein Mobilschrott-Sammler ohne
+  Efb-Anerkennung wäre dort ohnehin nie sichtbar, der Negativbefund hat daher **keinen** Beweiswert. **Warum keine
+  Koordinate:** Für den Seed existiert **keine** belegte Betriebsanschrift; ohne Adresse ist **kein** adressgenauer
+  Punkt zuordenbar, und jeder Punkt müsste geraten werden - die frühere Abgrenzung zu **„Josef Hendrichs Metallhandels
+  GmbH“** (Neue Ritterstr. 27, 47805 Krefeld) wird **nicht** aufgehoben. **Was zur Auflösung fehlt:** jede belastbare
+  Händleradresse (z. B. eine Gewerbeauskunft oder ein lesbarer Betreiberauftritt) - erst dann ist eine Geokodierung
+  möglich; der Produktionspunkt 51.3347636/6.5710545 (Krefelder Innenstadt, laut read-only-Abgleich vom 28.10.2026)
+  bleibt zurückgenommen. `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt unverändert, `name` bleibt
+  „MARIUS“ und der Seedtyp bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet.
+  **Reichweitenklausel:** das Fehlen eines OSM-Betriebsobjekts und das Fehlen eines Registertreffers sind **kein**
+  Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.5500,51.3100,6.5900,51.3400 ;
+  https://www.online-handelsregister.de/suche/Marius+Krefeld ; https://schrottregister.pages.dev/ort-krefeld (im Dossier
+  zitiert, Abruf 05.11.2026).]

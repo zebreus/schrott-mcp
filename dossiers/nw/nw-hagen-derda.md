@@ -71,3 +71,49 @@ Der Seedname „Derda" ist in Hagen keinem Schrottbetrieb zuzuordnen. Die am 01.
   Fortbestand noch Schließung behauptet.
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
   https://schrottregister.pages.dev/ort-hagen ; https://www.gelbeseiten.de/suche/schrott/hagen (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung korrigiert den Negativbefund des Dossiers - ein Betrieb des
+  Namens „Derda“ existiert im Verzeichnis, und seine Anschrift ist in OSM adressgenau vorhanden.** Der Seedname „Derda“
+  ließ sich bisher **keinem** Schrottbetrieb in Hagen zuordnen; das war ein **Suchfehler**, kein Fehlen. **Quelle 1
+  (OSM, live geladen am 05.11.2026, HTTP 200):** das Kachelraster **7.5000/51.3300 bis 7.5300/51.3500**, **6 Kacheln von
+  je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5000,51.3300,7.5300,51.3500) **umschließt die Objekt-BBox
+  vollständig** (die BBox von way/71965693 liegt vollständig in der Kachel 7.51/51.33) und enthält die **„Delsterner
+  Straße“** in **58091 Hagen-Eilpe** nachweislich und vollständig mit **119** Adressobjekten und **119** verschiedenen
+  Hausnummern (1, 2, 3, 4, 5, 6, 7, 8, 9, 9a, 10, 11, 12, 13, 14, 16, 18, 19, 20, 21, 21a, 21b, 22, 23, 24, 25, 26, 26a,
+  27, 28, 29, 30, 31, 32, 33, 34, 38, 38a, 40, 41, 42, 42a, 44, 45, 47, 49, 50, 51a, 52, 53, 53a, 54, 54a, 55, 56, 57,
+  58, 59, 60, 64, 66, 68, 72, 74, 75, 76, 78, 78a, 80, 82, 92, 96, 98, 100, 100a, 101, 101a, 102, 103, 104, 104a, 106,
+  106a, 106b, 108, 110, 113, 114, 116, **118**, 120, 120a, 120b, 120c, 121, 122, 124, 124a, 124b, 126, 129, 130, 131,
+  133, 134, 135, 137, 139, 145, 147, 148, 148a, 148d, 148e, 149, 150, 151, 152, 159) - die **Hausnummer 118 existiert**
+  als **way/71965693** (`addr:housenumber`=118, `addr:street`=Delsterner Straße, `addr:city`=Hagen, `addr:country`=DE,
+  `addr:postcode`=58091, `building`=yes; 31 Knotenreferenzen, davon **30** eindeutig; Mittel der eindeutigen Knoten
+  **51.3395188/7.5118191**, BBox 51.3392605/7.5112900 bis 51.3397715/7.5124333). Das Objekt trägt **weder** `name=`
+  **noch** `operator=`. **Quelle 2 (Verzeichnis, am 05.11.2026 live gesucht und gelesen, HTTP 200; keine
+  Betreiber-/Registerquelle):** die **amtslich** wirkende 11880-Suche **„Derda in Hagen“** liefert am 05.11.2026 genau
+  **einen** Hagener Treffer: **„Schrott- und Metallhandel S. Derda“**, Kategorie **RecyclingCenter**, Leistungen
+  **Schrotthandel & Altmaterialhandel**, Anschrift **Delsterner Str. 118, 58091 Hagen (Eilpe)**, Telefon **(0172)
+  2628625**, E-Mail **andreasbradke@aol.com**, ohne Öffnungszeiten; der Kart Marker des Portals liegt bei
+  **51.339523/7.512034** und damit **11 m** vom OSM-Objekt - Straße, Hausnummer, PLZ und Ort stimmen also
+  **adressgenau** mit way/71965693 überein. **Das im Dossier dokumentierte „kein Betrieb des Namens“ ist damit
+  überholt:** die Verzeichnissuche nach Schrotthandel in Hagen (Vermerk vom 01.10.2026) hatte den Eintrag nicht erfasst.
+  **Beleggrenze:** nach der Quellenhierarchie (README, Stand 26.10.2026) ist ein Branchenportal ein **Lead**, kein
+  Beleg; die im Dossier zitierte **amtliche Namenssuche** im online-handelsregister.de nach „Derda“ (live am 05.11.2026)
+  weist **kein** Hagener Unternehmen aus - die Registertreffer betreffen ausschließlich **andere** Rechtsträger (**Derda
+  Logistik GmbH** Düsseldorf/Krefeld, **Derda Verpackung & Logistik GmbH** Krefeld, **Derda Holding GmbH** Kleve,
+  **Derda-Immobilien- und Grundbesitzgesellschaften** Krefeld) und sind **Namensvetter ohne Bezug zum Schrotthandel in
+  Hagen**; eine Person „Bernhard Derda“ ist in **Bochum** verzeichnet, nicht in Hagen. **Warum keine Koordinate:** Für
+  die zweite, unabhängige Quelle fehlt ein **Betreiber-, Register- oder Behördenbeleg**: der Eintrag ist ein
+  **Einzelunternehmer** („S. Derda“) ohne Registereintrag, die im Verzeichnis hinterlegte E-Mail trägt einen **anderen
+  Nachnamen** (andreasbradke@aol.com), und eine Bestätigung der heutigen Tätigkeit fehlt; ein Punkt auf way/71965693
+  würde eine Betriebsanschrift behaupten, die nur ein Lead trägt. **Was zur Auflösung fehlt:** ein Betreiberauftritt
+  (Impressum, Website oder operator-run Social-Profil) oder ein belastbarer Behörden-/Registerbeleg, der „Schrott- und
+  Metallhandel S. Derda“ an der **Delsterner Straße 118** in Hagen-Eilpe bindet; erst damit wäre die Zeile geokodierbar.
+  `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt unverändert, `street`/`postcode`/`phone` bleiben
+  leer; es wird weder Fortbestand noch Schließung behauptet. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs
+  oder eines Registertreffers wäre **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5000,51.3300,7.5300,51.3500 ;
+  https://api.openstreetmap.org/api/0.6/way/71965693/full.json ; https://www.11880.com/suche/derda/hagen-westfalen ;
+  https://www.11880.com/branchenbuch/hagen-westfalen/120674719B101935459/schrott-und-metallhandel-s-derda.html ;
+  https://www.online-handelsregister.de/suche/Derda (live gelesen am 05.11.2026).]

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fritsch Recycling GmbH & Co. KG ist ein Autoverwertungs- und Recyclingbetrieb in Barnstorf,
+Rudolf-Diesel-Str. 13, 49406, mit Telefonnummer +49 5442 3070 und der Registernummer HRA
+201947 beim Registergericht Walsrode. Betreiberseite und Impressum belegen die seit 1976
+bestehende Firma mit Fahrzeugverschrottung, Autoteilen und Containern für Metall und
+Bauschutt. Amtlich belegt sind außerdem die Anerkennungen: Das EfbV-Zertifikat der DEKRA
+Certification GmbH trägt die Nummer 120798542, ist bis 02.12.2027 gültig und umfasst drei
+Anlagen am Standort, darunter die Altfahrzeugdemontage; eine Bescheinigung nach der
+Altfahrzeug-Verordnung verweist auf Anlage 2. Offen bleibt die Annahme- und Preislage: Das
+Register belegt Anerkennung und Standort, nicht aber eine öffentliche Annahme von
+Privatkunden, Ankaufpreise, Verkaufspreise oder Gebühren.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gebrüder Gerdes Metalle GmbH, Ursulastraße 6-10, 48529 Nordhorn: Metallhändler
+mit Schrottannahme, Containerdienst und Fuhrpark. Das Impressum der Betreiberseite
+metalle-gerdes.de nennt die Gesellschaft mit HRB 206387 AG Osnabrück und Geschäftsführer
+Thomas Gerdes, die Kontaktseite denselben Betrieb an der Nummer 6. Die Betriebsseite weist
+das Materialprogramm ohne Zahlenpreise aus, verlangt für Preise den telefonischen Kontakt
+und führt eine Gebührenliste mit Entsorgungskosten für Autogastank, Feuerlöscher, Reifen und
+Druckbehälter sowie Fahrt- und Containerkosten nach Gebieten. In OSM sind die Hausnummern
+6 und 10 als Adressobjekte erfasst, ein Objekt mit Betriebsbezug fehlt jedoch. Offen
+bleiben die uneinheitliche Adressschreibweise, der Widerspruch zwischen der im Impressum
+genannten Rechtsform und Registervorwahl und dem Aggregator sowie das leere E-Mail-Feld.
 
 ## Timeline
 

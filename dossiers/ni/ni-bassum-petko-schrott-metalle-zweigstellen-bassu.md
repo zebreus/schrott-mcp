@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Petko Schrott & Metalle ist ein Schrott- und Metallhändler mit Zweigstelle in Bassum,
+Industriestr. 41, mit Telefonnummer 04241-979950 und den Öffnungszeiten Montag bis Donnerstag
+07:00 bis 17:00 Uhr, Freitag bis 13:00 Uhr. Der Hauptsitz der Petko Schrott & Metalle GmbH
+liegt laut Betreiberseite in Wildeshausen, Düngstruper Straße 91, 27793, die Zweigstelle
+Osterholz-Scharmbeck ist nur als Lagerfläche ohne Kundenverkehr ausgewiesen. Offen bleibt die
+Postleitzahl des Bassumer Standorts, weil die Betreiberseite sie nicht nennt. Ebenso unbelegt
+ist die Anerkennung: Im amtlichen Fachbetrieberegister trägt der Betrieb mit drei Einträgen
+nur den Wildeshauser Hauptsitz, für die Zweigstelle Bassum gibt es weder ein Efb-Zertifikat
+noch einen AltfahrzeugV-Eintrag, und die Umkreisabfrage führt nur zu fremden Rechtsträgern am
+Nachbargrundstück.
 
 ## Timeline
 

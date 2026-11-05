@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Flebbe GmbH ist ein Autoverwertungsbetrieb in Bramsche-Hesepe, Industriestr.
+19, 49565, mit Telefonnummer 05461-2458 und der E-Mail-Adresse info@autoverwertung-flebbe.de.
+Betreiberseite und Impressum belegen Anschrift, Kontaktdaten, den Geschäftsführer Matthias
+Flebbe und die Registernummer HRB 19847 beim Amtsgericht Osnabrück; die https-Variante der
+Seite ist im TLS defekt. Amtlich belegt ist die Bescheinigung nach der Altfahrzeug-Verordnung
+mit der Vorgangsnummer ZACS00100008 und der Kennnummer CRG311000 für Anlage 1 des Standorts;
+die Rücknahme für Hersteller ist nicht ausgewiesen. Offen bleibt der Entsorgungsfachbetrieb
+nach § 56 KrWG, denn die Namenssuche im amtlichen Fachbetrieberegister liefert keinen Treffer
+und die Umkreisabfrage führt nur zum fremden Betrieb technocycle GmbH. Ankauf-, Verkaufspreise
+und Gebühren sind nicht veröffentlicht.
 
 ## Timeline
 

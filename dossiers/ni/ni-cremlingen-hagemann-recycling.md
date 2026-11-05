@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HAGEMANN RECYCLING GmbH betreibt den Recycling Park Cremlingen, Im Moorbusche 93, 38162, mit
+Telefonnummer 05306 9906345 und den Öffnungszeiten Montag bis Freitag 07:00 bis 17:00 Uhr,
+samstags bis 12:00 Uhr. Der Standort ist seit dem 01.01.2026 Teil der Hagemann Recycling GmbH
+der Bettels-Gruppe und war zuvor der Recycling-Park Harz; das Impressum weist den Sitz der
+Gesellschaft in Wolfenbüttel mit dem HRB 7675 beim Amtsgericht Braunschweig und dem
+Geschäftsführer Jan Kaiser aus; der Eintrag ist ein Zweigstandort. Adresse, Telefon und Zeiten
+sind durch Standortseite und Preisliste zweifach belegt. Die Standortseite nennt die Annahme
+von Stahlschrott und Metallen sowie kostenloses Papier, Pappe und Kartonage, keine Annahme von
+Elektroschrott. Offen bleibt die Zweigstellen-E-Mail-Adresse cremlingen@hagemann-recycling.de,
+die nur als Einzelbeleg vorliegt.
 
 ## Timeline
 
