@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SR Stainless Recycling GmbH, als Metallum Stainless GmbH amtlich geführt, Dieselstr. 12, 63456
+Hanau, Amtsgericht Hanau HRB 6319: Edelstahlschrott-Aufbereitung für Schmelzwerke,
+Konzernmutter ist die Thommen Group. Die Identität tragen der Betreiberauftritt, das amtliche
+Fachbetrieberegister mit den Tätigkeiten Lagern, Behandeln und Verwerten an dieser Anschrift
+und die Standortliste des Konzerns; die Domain sr-stainless.de führt auf den Betreiber. Offen
+bleiben der Name, weil der Maps-Link der Betreiberseite noch den früheren Firmennamen trägt,
+sowie sämtliche Ankaufspreise und Annahmebedingungen, zu denen das Dossier keine Aussage
+enthält.
 
 ## Timeline
 

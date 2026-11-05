@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+F. Hackländer GmbH, Holländische Str. 120, 34127 Kassel (Nord-Holland), Amtsgericht Kassel HRB
+2165: Stahl- und Metallhandel, der seit 1908 zur SPAETER-Gruppe gehört und eine zweite
+Niederlassung in Kaufungen unterhält. Die Identität tragen die Standortseite der Gruppe mit
+Kontakt, Unternehmensgeschichte und Produktabschnitten, das Betreiber-Impressum und der
+kongruente Registereintrag, der die Gesellschaft als aktiv führt; der Registerabdruck belegt
+die Aufnahme der früheren Vertriebsgesellschaft im Jahr 2009 und keine Umbenennung. Eine
+Schrottannahme ist nicht belegt, daher bleiben Anlieferung und Abholung unbelegt, und der
+Website-Status bleibt unbekannt, obwohl die Seiten abrufbar waren. Offen bleiben damit die
+Metallschrott-Aufnahme und jede Preisangabe.
 
 ## Timeline
 

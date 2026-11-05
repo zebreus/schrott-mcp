@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Max Üblacker Schrott- und Metallhandel, Egerlandstraße 2a, 92696 Flossenbürg: seit 1952
+betriebener Schrott- und Metallhandel, der Eisen- und Stahlschrott, NE-Metalle, Kabel und
+E-Motoren annimmt, NE-Metalle sortiert und aufbereitet sowie Container für Firmen und
+Großmengen bereitstellt. Die Identität tragen das Impressum und die Kontaktseite der
+Betreiberseite schrott-metall-ueblacker.de mit Anschrift, Telefon 09603-462 und
+E-Mail-Adresse sowie das Firmenprofil bei Sellwerk als Zweitbeleg für Anschrift und
+Öffnungszeiten. Offen bleibt der Negativbefund zu einer Entsorgungsfachbetriebs- und
+Altfahrzeugverwertungs-Anerkennung: Im amtlichen Fachbetriebsregister ist unter dem
+Namen und an der Anschrift kein Eintrag verzeichnet.
 
 ## Timeline
 

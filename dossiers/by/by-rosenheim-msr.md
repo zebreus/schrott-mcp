@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MSR GmbH, Äußere Münchener Straße 2a, 83026 Rosenheim: Metall- und Schrotthandel, der
+Aluminium, Blei, Edelstahl, Kupfer, Messing sowie Zinn und Zink von Handel, Industrie und
+Privatkunden ankauft, Container und Mulden stellt und Abbrucharbeiten mit Partnern
+ausführt; Geschäftsführer ist Martin Grubmüller. Die Identität tragen das Impressum der
+Betreiberseite msr-rosenheim.de mit der Registernummer HRB 24831 Amtsgericht Traunstein,
+die Homepage sowie die Verzeichniseinträge bei schrottradar.de und schrottfinder.de.
+Offen bleiben die nirgends veröffentlichten Öffnungszeiten und der fehlende
+Registerabgleich: Ein selbst abgerufener Registerauszug oder Registerspiegel zur HRB
+24831 ist im Dossier nicht ausgewiesen.
 
 ## Timeline
 

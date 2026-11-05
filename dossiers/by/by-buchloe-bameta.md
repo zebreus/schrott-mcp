@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das im Dossier als Bameta GmbH geführte Werk ist heute der Standort Buchloe der ALFA Metals
+GmbH (Hauptsitz Freihamer Straße 2, 82166 Gräfelfing, HRB 292726 Amtsgericht München): eine
+auf Aluminium spezialisierte Aufbereitungsanlage mit Annahme, Sortierung und Aufbereitung
+von Aluminium. Die Identität tragen die Unternehmensgeschichte und die Filialseite der
+Betreiberseite alfa-metals.de, das Impressum sowie das amtliche EfbV-Zertifikat A-001217
+der GZQ GmbH (Vorgang ZZKT001003372006, gültig bis 28.10.2027), das die Winkeläckerstraße 10
+ausdrücklich als Anlage 2 mit Lagern und Behandeln führt. Offen bleiben der nicht mehr
+aktuelle Rechtsname im Dossier, da das Register unter "BAMETA" keinen Vorgang kennt, das
+Fehlen einer Altfahrzeugverwertungs-Anerkennung für ALFA Metals und der Mehrbenutzerstandort,
+an dem auch die Föll Rohstoffhandel GmbH geführt wird.
 
 ## Timeline
 

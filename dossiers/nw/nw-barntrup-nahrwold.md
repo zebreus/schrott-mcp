@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nahrwold Schrott- und Metallgroßhandlung, Entsorgungsfachbetrieb e.K., Bromberg 19, 32683
+Barntrup-Alverdissen: Schrott- und Metallgroßhandel mit Anlieferung, Sortierung und
+Vermarktung von Eisen- und NE-Schrotten, Containerstellung und Abholung. Das
+Betreiberimpressum nennt HRA 3794 Amtsgericht Lemgo und die Rechtsform des e.K.;
+Registerspiegel und Verzeichnis sind kongruent. Das amtliche Fachbetrieberegister weist den
+Standort mit dem TÜO-Zertifikat 151/0265/Efb, gültig bis 14.10.2027, und drei Anlagen für
+Sammeln und Befördern sowie zwei Lagern aus; dazu ist eine Beförderer-Erlaubnis nach § 53
+KrWG belegt. Die verlinkte Zertifikatsdatei ist ein Schmuckzertifikat mit abgelaufenem
+Datum. Ankaufpreise sind nicht veröffentlicht. Offen bleiben die Abgrenzung zu Nahrwold &
+Lehmeier GmbH in Extertal und der fehlende AltfahrzeugV-Nachweis.
 
 ## Timeline
 

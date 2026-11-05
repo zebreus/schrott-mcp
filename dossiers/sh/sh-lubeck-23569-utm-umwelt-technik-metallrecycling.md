@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die UTM Umwelt-Technik-Metallrecycling GmbH (HRB 4075 HL AG Lübeck) ist in Lübeck, Alt Herrenwyk 12,
+23569, seit 1996 auf die fachgerechte Entsorgung von Gasflaschen und Druckbehältern sowie die
+Notfall-Bergung beschädigter Gasflaschen ausgerichtet; sie entwirft, fertigt und verkauft
+Sicherheitsausrüstung sowie Transport- und Lagerbehälter für flüssiges Quecksilber. Eigentümer ist
+seit 09/2007 die Séché Environnement. Die Identität trägt das EFB-Zertifikat 25-1136-39-25
+(Vorgangsnr. ZZCT004000825009, Institut für Umwelttechnik Dr. Kühnemann & Partner GmbH Hannover,
+4 Anlagen, gültig bis 23.05.2027) mit Hauptsitz und Anlage auf dieser Anschrift sowie die
+Konzern-Standortseite; ISO 14001 (Reg.-Nr. 50137) und ISO 9001:2015 sind zusätzlich belegt. Offen
+bleibt die Kontaktlage: Die E-Mail-Adressen der Standortseite sind JavaScript-obfuskiert, in OSM
+fehlt die Hausnummer 12 auf der Alt Herrenwyk, und ein Ankauf von Metallschrott ist nicht belegt.
 
 ## Timeline
 

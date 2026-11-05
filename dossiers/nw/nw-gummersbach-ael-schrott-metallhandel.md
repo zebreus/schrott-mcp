@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+AEL Schrott & Metallhandel GmbH, Vollmerhauser Straße 45 b, 51645 Gummersbach-Vollmerhausen:
+Metallhandel mit dem im Registerspiegel genannten Gegenstand des Handels mit Schrott und
+Metall, zuvor als UG geführt. Der Registerspiegel nennt Amtsgericht Köln HRB 87502 mit EUID
+DER3306.HRB87502 und derselben Anschrift, das Verzeichnis dieselbe Straße mit der
+Telefonnummer 02261 9123485. Offen bleiben die Belegkette und die Standortlage: Eine
+amtliche Registerverifikation steht aus, der Creditreform-Eintrag war nicht abrufbar, die im
+Verzeichnis genannte Website-Domain besitzt keinen A-Record, und E-Mail und Öffnungszeiten
+sind unbelegt. Das OSM-Adressobjekt zur Hausnummer 45 b trägt weder Name noch
+Betreiberangabe. Ankaufpreise, Verkaufspreise und Gebühren sind nicht belegt, das Dossier
+bleibt im Status pruefung.
 
 ## Timeline
 

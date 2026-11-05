@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SRM Schrotthandel Rhein-Main e.K., Zimmerner Str. 11, 64409 Messel: Doppelführung desselben
+Betriebs, den das ältere Dossier he-egelsbach-63329-boeckem als kanonisch führt; Betreiber ist
+Dennis Böckem, HRA 85319 AG Darmstadt. Die Identität tragen Betreiber-Impressum und
+Kontaktseite mit demselben Standort, die Abholung, Containerstellung und die Selbstanlieferung
+ohne Termin beschreiben, und der kongruente Registereintrag. Da dieser Slug als Duplikat auf
+Prüfung steht, wird kein zweiter Händler und keine Schließung behauptet. Offen bleiben die
+Preisangaben, die auch hier nur als tagesabhängig erscheinen, und die Auflösung der
+Doppelführung, die ohne Schließungsvermerk bestehen bleibt.
 
 ## Timeline
 

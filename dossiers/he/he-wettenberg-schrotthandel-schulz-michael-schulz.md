@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Schulz, Michael Schulz, Mittelmark 18, 35435 Wettenberg: Einzelunternehmen ohne
+HRB, das Schrott und Altmetall auch in Kleinmengen ankauft, mobil in Mittelhessen abholt,
+Demontage, Container und KFZ-Entsorgung anbietet und die Anlieferung am Betriebshof ermöglicht.
+Die Identität trägt allein das Impressum der Betreiberseite, das Anschrift, Rufnummer und
+E-Mail nennt; Gießen ist Servicegebiet, keine weitere Filiale. Offen bleiben eine zweite
+unabhängige Quelle, sämtliche Preis- und Gebührenangaben sowie Öffnungszeiten,
+Annahmebedingungen und eine Altauto-Vergütung, die das Dossier nicht belegt.
 
 ## Timeline
 

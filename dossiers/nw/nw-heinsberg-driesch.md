@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Joh. von den Driesch GmbH & Co. KG, Wurmstraße 4, 52525 Heinsberg: Schrotthandel mit An- und
+Verkauf von Kupfer, Messing, Zink, Blei, V2A und V4A sowie Stahl, ergänzt um Stahlhandel,
+Autokrane, Containerdienste und Abbruch. Belegt ist die Betreiber-Primärquelle: Das
+Impressum nennt HRB 10369 am Amtsgericht Aachen sowie die Vertretungsberechtigten, die
+Schrotthandel-Seite die genannten Metalle, die Kontaktseite Rufnummer, Fax und E-Mail. Offen
+bleiben die zweite Belegquelle und der Standortnachweis: Ein unabhängiger Register- oder
+Verzeichnisbeleg liegt nicht vor, die HRB-Angabe stammt aus dem Impressum, die
+Leistungsseiten zu Stahlhandel, Autokranen, Containerdiensten und Abbruch sind nur verlinkt
+und nicht einzeln gelesen, die Standortkoordinate fehlt, und Ankaufpreise sind nicht
+veröffentlicht.
 
 ## Timeline
 

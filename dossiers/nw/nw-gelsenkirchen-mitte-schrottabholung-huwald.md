@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottabholung Huwald, Braubauerschaft 29, 45889 Gelsenkirchen-Bismarck: mobiler
+Schrotthändler, ein Familienunternehmen seit 2009, das Schrott und Altmetall im Ruhrgebiet
+kostenlos abholt und keinen festen Schrottplatz betreibt. Das Betreiberimpressum nennt
+Inhaber, Rufnummer und E-Mail, die Anschrift und die Öffnungszeiten stammen übereinstimmend
+aus den Gelben Seiten. Offen bleiben der Adresskonflikt, da das Betreiberimpressum
+abweichend Flaßhofstraße 3, 46045 Oberhausen unter der Firmierung Rhein Ruhr Schrottabholung
+nennt, die Rechtsform als Einzelunternehmen ohne Registereintrag sowie das Website-Feld der
+Gelben Seiten, das auf ein fremdes Portal verweist.
 
 ## Timeline
 

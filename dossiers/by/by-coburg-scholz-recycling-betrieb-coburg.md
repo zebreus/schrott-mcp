@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scholz Recycling GmbH Betrieb Coburg, Gutenbergstraße 6, 96450 Coburg: Filiale der Scholz
+Recycling GmbH (Hauptsitz Berndt-Ulrich-Scholz-Straße 1, 73457 Essingen, HRB 733963
+Registergericht Ulm) für Stahl- und Metallschrott-Ankauf, Selbstanlieferung und Container.
+Die Identität tragen Impressum und Standort-Datenquelle, die Gelben Seiten als Zweitbeleg
+für Anschrift, Telefon und Zeiten sowie das amtliche EfbV-Zertifikat ESN 98-110174 (26)
+der ESN (Vorgang ZZEE003000555011, gültig bis 31.08.2027), das dem Standort Coburg die
+Anlagen Sammeln und Befördern, Lagern und Behandeln zuordnet. Im Altfahrzeugverwertungs-
+register ist der Standort nur als sonstige Anlage zur weiteren Behandlung geführt, nicht als
+Demontagebetrieb. Offen bleiben die fehlende Ankaufspreisliste, die abweichende
+Freitagnachmittagszeit und der fehlende OSM-Adressbezug zur Hausnummer 6.
 
 ## Timeline
 

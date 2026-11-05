@@ -25,7 +25,16 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert G
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+A. Fischer & Söhne GmbH, Altenbochumer Straße 15-21, 44803 Bochum: Entsorgungsfachbetrieb
+mit Schrott- und NE-Metall-Ankauf, Container, Altpapier und Aktenvernichtung, dazu ein
+zweites Werk in der Daimlerstraße 11, 44805 Bochum-Gerthe. Das Impressum nennt HRB 113
+Amtsgericht Bochum; die Betreiberbelege wurden über das Webarchiv gelesen, weil der
+Live-Auftritt eine Bot-Sperre auslöst. Das amtliche Fachbetrieberegister weist den Betrieb
+mit dem TÜV-Rheinland-Zertifikat 01 400 1800134, gültig bis 30.11.2027, und sieben Anlagen
+aus, von denen vier dem Dossierstandort zugeordnet sind, darunter die Altmetallsortierung
+für Lagern und Behandeln; die Anlagen fünf bis sieben betreffen das zweite Werk. Offen
+bleiben die fehlende Anerkennung nach AltfahrzeugV und die Schrott-Preisliste, die nur als
+Archivstand vom 03.01.2025 vorliegt.
 
 ## Timeline
 

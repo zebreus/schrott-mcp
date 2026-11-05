@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+E&O Entsorgung GmbH, Betrieb Kelkheim, Zeilsheimer Weg 4, 65779 Kelkheim: Betriebsstätte eines
+zertifizierten Entsorgungsfachbetriebs mit Sitz in Bingen, HRB 51294 AG Mainz, der gewerblich
+Abfallkleinmengen annimmt, Schrott und Altmetall zu Tageshöchstpreisen vergütet und Container
+stellt. Die Identität tragen das Betreiber-Impressum und das amtliche Fachbetrieberegister, das
+die E&O Entsorgung GmbH dort mit Lagern und Behandeln führt; dasselbe Register führt dort die
+Kilb Vetter Entsorgung GmbH, und die OSM-Objekte zur Hausnummer 4 und 5 tragen nur diesen
+Schwestergesellschaftsnamen. Die Altmetall-Preisliste (Stand 7. Dezember 2023) ist für Kelkheim
+mit dem Vorbehalt versehen, dass dort über die Kilb Vetter abgerechnet wird. Offen bleiben der
+standortspezifische Ankaufpreis, die Zuordnung des OSM-Standorts und die Samstagsöffnung, da
+Betreiberangabe und OSM sich widersprechen.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Holz-Fehlings Gleistechnik und Entsorgung GmbH, Gräwenkolkstraße 107, 45770 Marl-Sinsen:
+Gleistechnik mit Handel von Schienen, Schwellen und Befestigungsmaterial sowie Gleisrückbau
+und Aufbereitung und Entsorgung von Gleisbaustoffen. Das Betreiberimpressum nennt HRB 5817
+Amtsgericht Gelsenkirchen und die Geschäftsführung, der Registerspiegel ist kongruent, und
+die Standort- und Zertifikatsseiten des Betreibers führen für Marl-Sinsen den Handel mit
+Gleisbaustoffen und Befestigungsmaterial, den Gleisrückbau und die Entsorgung. Offen bleiben
+die Abgrenzung zum Metallschrott, da die geprüften Seiten keine Annahme von Metallschrott
+durch die Allgemeinheit beschreiben und ein Ankauf deshalb nicht behauptet wird, ferner
+Zertifikats- und Preisangaben. Das Dossier bleibt im Status pruefung.
 
 ## Timeline
 

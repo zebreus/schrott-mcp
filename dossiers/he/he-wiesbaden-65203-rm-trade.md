@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+rm trade GmbH, Mainzer Str. 117, 65189 Wiesbaden, Amtsgericht Wiesbaden HRB 13257,
+Geschäftsführer Lutz Kraemer: Großhandel mit Altpapier und Papierrohstoffen wie
+Recyclingpapier, Rollenware, Faserstoffen und Zellstoff-Sonderposten; eine Metallannahme ist
+nicht belegt. Die Identität tragen das Betreiber-Impressum, der kongruente Registereintrag mit
+demselben Unternehmensgegenstand und der Creditreform-Firmeneintrag als Zweitbeleg. Die im Seed
+genannte Postleitzahl 65203 war ein Fehler, die belegte Anschrift trägt 65189. Offen bleiben
+Ankaufs- und Verkaufskonditionen, zu denen das Dossier keine Aussage enthält, sowie die Frage,
+ob im Papiergroßhandel eine Schrottannahme stattfindet.
 
 ## Timeline
 

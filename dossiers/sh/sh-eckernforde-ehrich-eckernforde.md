@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Standort ist der Schrottplatz der Ehrich-Gruppe in Eckernförde, Holm 7, 24340
+Eckernförde, mit Stahlschrott, NE-Metallen, Holz und Bauabfällen. Betrieben wird er von der
+F. Ehrich GmbH & Co. KG (HRA 1384 RD AG Kiel, Geschäftsführer Bernhard Scheil); die Identität
+trägt das Impressum des Betreibers zusammen mit der Standort-Detailseite, die den Betrieb
+als „unseren Schrottplatz in Eckernförde" führt. Adresse, Telefon, E-Mail und Öffnungszeiten
+sind gegen diese beiden Betreiberangaben gesetzt. Offen bleibt die Schreibweise der Anschrift:
+Der Seitenkopf nennt „Holm 5-7", die Kontaktbox nur „Holm 7"; übernommen wurde die präzisere
+Kontaktbox-Angabe. Eine zweite unabhängige Quelle außerhalb der Betreiberdomain liegt nicht
+vor.
 
 ## Timeline
 

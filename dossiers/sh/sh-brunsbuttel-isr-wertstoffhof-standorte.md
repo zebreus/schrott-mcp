@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ISR Recycling GmbH & Co. KG unterhält in Brunsbüttel, Am Südufer 25541, laut
+Betreiber-Standortseite ein Lager; ein Ankauf von Schrott und Altmetallen findet dort
+ausdrücklich nicht statt, die Materialannahme läuft über den Standort Itzehoe. Die Identität
+trägt allein diese Standortseite, deren deutsche und englische Fassung dieselbe Quelle sind;
+das Impressum der Gruppe führt keine HR-Nummer. In OSM ist die Straße Am Südufer nicht
+adressiert, ein Objekt mit Betriebsbezug gibt es dort nicht. Offen bleiben die Hausnummer der
+Lagerzufahrt, die beim Betreiber nicht erfragbar ist, und der Koordinatenpunkt, der neu zu
+setzen ist; zudem ist unklar, ob der Lagerstandort zusätzlich unter einer firmierten
+Straßenadresse läuft.
 
 ## Timeline
 

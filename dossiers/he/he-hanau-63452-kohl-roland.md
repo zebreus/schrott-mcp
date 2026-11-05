@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bergungs- und Abschleppdienst Hanau, Inh. Roland Kohl, Niddastr. 34, 63452 Hanau:
+Einzelunternehmen mit HRA-Eintrag 5146 am Amtsgericht Hanau, das Bergungs- und
+Abschleppdienste, Autoverwertung, Gebrauchtteilhandel und Kranarbeiten anbietet. Die Identität
+tragen das Betreiber-Impressum und der unabhängige 11880-Eintrag vom 19. September 2026 mit
+derselben Anschrift, Telefonnummer, E-Mail-Adresse und Website; weil der HRA-Eintrag keine
+Owner-Ausnahme begründet, stützt sich die Zuordnung auf diese beiden Belege. Offen bleiben eine
+Register- oder Anerkennungsangabe zur Autoverwertung sowie sämtliche Angaben zu Ankauf,
+Vergütung und Gebühren.
 
 ## Timeline
 

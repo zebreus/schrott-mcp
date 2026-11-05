@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Schrotthandel Butenschön, geführt von Helmut-Andreas Butenschön, arbeitet in Schwentinental,
+Gutenbergstraße 14, 24223 Schwentinental b. Kiel, mit Schrottabholung, -handel und -ankauf von
+Alteisen und Metallen zu tagesaktuellen Preisen; Elektro-Haushaltsgeräte nimmt er ausdrücklich
+nicht an. Die Identität trägt das Impressum der Betreiberwebsite mit Anschrift, Telefon und
+Inhabernennung. Offen bleiben mehrere Punkte: Der Navigationspunkt „Schrottpreise" ist kein Link,
+eine Preisseite existiert also nicht und Zahlenpreise fehlen; die Adresse „Ritzebeker Weg 60" aus
+einem Verzeichnis ist unbelegt und wurde nicht übernommen, während in OSM die Hausnummer 14
+existiert, aber kein Objekt mit Betriebsbezug. Die E-Mail bleibt leer, weil die Betreiberseite
+selbst „N/A" ausweist.
 
 ## Timeline
 

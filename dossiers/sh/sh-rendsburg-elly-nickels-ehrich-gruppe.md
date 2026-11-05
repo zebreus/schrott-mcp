@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Elly Nickels GmbH & Co. KG (HRA 679 RD AG Kiel) sitzt in Rendsburg, Kieler Straße 171, 24768,
+und erbringt als zertifizierter Entsorgungsfachbetrieb Abbruch, Rückbau, Industriedemontage,
+Schadstoffsanierung und Windkraft-Rückbau; ein Schrottankauf ist nirgends belegt. Die Identität
+trägt die eigene Betreiberseite mit Impressum. Gegenläufig nennt die Stahlschrott-Seite der
+Ehrich-Gruppe an derselben Anschrift eine Schrottannahme in Rendsburg, führt sie dort aber unter
+„Ehrich Rendsburg", während das Gruppen-Impressum die Elly-Nickels-Gesellschaft separat führt.
+Offen bleibt deshalb genau die Betreiberzuordnung der Annahme an der Kieler Straße 171; der
+Status bleibt aus diesem Grund auf Prüfung, Ankaufspreise sind nicht belegt.
 
 ## Timeline
 

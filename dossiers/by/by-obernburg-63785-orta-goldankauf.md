@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Orta Goldankauf, Römerstraße 44, 63785 Obernburg: von Aliye Orta geführter Gold- und
+Silberankauf für Schmuck, Bruchgold, Zahngold, Münzen, Uhren und Silberbesteck; Auflagen von
+80 bis 120 sind ausgeschlossen. Geöffnet Montag bis Freitag 09:30 bis 12:30 und 14:00 bis
+18:00 Uhr, Samstag 09:30 bis 12:30 Uhr. Die Identität tragen das Impressum der
+Betreiberseite goldankauf-orta.de mit der USt-IdNr. DE20225650927 und der Eintrag bei den
+Gelben Seiten als Zweitbeleg für Anschrift und Öffnungszeit. Offen bleibt, dass die Website
+nur über http erreichbar ist und über https ausfällt.
 
 ## Timeline
 

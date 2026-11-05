@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die ReRec GmbH (HRB 27126 KI AG Kiel, Geschäftsführer und Aufsichtsratsvorsitzender Maximilian
+Rehage) ist in Neumünster, Leinestraße 39, 24539, ein zertifizierter Entsorgungsfachbetrieb nach
+§ 56 KrWG und Erstbehandlungsanlage nach ElektroG; sie kauft Elektroschrott, Edelmetalle, Hartmetall,
+HSS, NE-Metalle, Kabel und Sondermetalle an und bietet Recycling und Reuse, Demontage, Sortierung und
+zertifizierte Datenträgervernichtung. Die Identität trägt das Impressum mit Register- und
+USt-Angaben, die Zertifizierung die Startseite; in OSM existiert die Hausnummer 39, ein Objekt mit
+Betriebsbezug fehlt. Für Privatkunden ist eine öffentliche Ankaufspreisliste mit Mengenstaffeln ab
+1 kg, 30 kg und 100 kg veröffentlicht; Gebührenregeln nennen die 2-Prozent-PayPal-Minderung und die
+Versandkosten bei Rückgabe. Offen bleibt die Anlieferungsschwelle, die die Seite mit 400 € und
+200 € widersprüchlich angibt; eine Gewerbe-Preisliste fehlt ebenfalls, und die E-Mail ist verschleiert.
 
 ## Timeline
 

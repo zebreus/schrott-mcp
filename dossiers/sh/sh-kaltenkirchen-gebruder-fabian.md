@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Gebrüder Fabian GmbH betreibt in Kaltenkirchen, Leibnizstraße 8, 24568 Kaltenkirchen, einen
+Standort zur Annahme von Eisen- und NE-Metallen, Aluminium, Elektroschrott und Katalysatoren;
+Lagerleitung ist Silas Fabian, das Gelände wurde 2023 vom ehemaligen Schrotthandel Hunger
+übernommen. Die Identität trägt die Betreiber-Standortseite mit standortspezifischer E-Mail, das
+Entsorgungsfachbetriebs-Zertifikat ESN 98-060136(26) mit Anlage 6 für genau diese Anschrift und
+das ElektroG-Zertifikat ESN 98-060136 (26) als zertifizierte Erstbehandlungsanlage nach § 21
+Abs. 8; Hauptsitz ist Hamburg, HRB 92568. In OSM nennt ein Objekt den Betrieb an der
+Leibnizstraße, verweist aber nicht auf die Hausnummer 8. Offen bleibt der Preisstand: Ankaufs-
+und Verkaufspreislisten fehlen, Gebührentarife werden nicht genannt; kostenfrei ist nur die
+Rücknahme von Elektroaltgeräten ausgewiesen.
 
 ## Timeline
 

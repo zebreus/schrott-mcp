@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die ISR Recycling GmbH & Co. KG betreibt in Itzehoe den Schrottplatz Hafenstraße 35, 25524
+Itzehoe, für Gewerbe und Privat aus den Kreisen Steinburg und Dithmarschen, mit Annahme von
+Schrott und Metallen, Containerdienst und Demontage; ein zweiter Itzehoer Standort ist der
+Wertstoffhof Carl-Zeiss-Straße 6. Die Identität trägt die Standortseite des Betreibers, die
+Annahmezeiten (Mo-Fr 7-17) und die Vergütung „zu Höchstpreisen" ausweist; in OSM existiert die
+Hausnummer 35, ein Objekt mit Betriebsbezug fehlt dort. Offen bleibt die Betreiberidentität: Das
+Impressum führt keine HR-Nummer, und die Filial-E-Mail ist nur JS-geschützt lesbar, während die
+Fußzeile lediglich die zentrale Adresse nennt. Eine Preisliste ist nicht veröffentlicht, für die
+Entgeltordnung des Kreises Steinburg kein Betrag.
 
 ## Timeline
 

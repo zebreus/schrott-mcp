@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Vogel & Sohn GmbH & Co. KG, Hardtstraße 22, 91522 Ansbach: Schrott- und Metallhandel mit
+Ankauf von Schrott und NE-Metallen ab 1 kg, Containerdienst für Abroll-, Absetz- und
+Kranmulden in Ansbach und Umgebung sowie Aufbereitung von Metallspänen zu Presslingen
+für den Gießereibedarf. Die Identität tragen das Impressum der Betreiberseite
+schrott-vogel.de, der kongruente Registerspiegel und das amtliche EfbV-Zertifikat
+12 150 59812 der TÜV SÜD (Vorgang ZZIT007004234009, gültig bis 17.08.2027) mit den Anlagen
+Sammeln und Befördern, Lagern und Behandeln sowie als Erstbehandlungsanlage nach § 21
+ElektroG, das auch auf der Betreiberseite liegt. Offen bleiben der Negativbefund zu einer
+Altfahrzeugverwertungs-Anerkennung, die zwischen Zertifikat (HRB 4164) und Registerspiegel
+(HRA 3233) abweichende Registernummer und fehlende Ankaufpreise.
 
 ## Timeline
 

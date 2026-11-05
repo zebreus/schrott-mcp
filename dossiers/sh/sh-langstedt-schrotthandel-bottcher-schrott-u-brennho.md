@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Böttcher e.K. mit Sitz in Osterlangstedt 11, 24852 Langstedt, geführt von Luca Böttcher und
+Oliver Böttcher (HRA 10920 FL AG Flensburg), verkauft seit 1987 Brennholz, Holzpellets und
+Holzbriketts ausschließlich online und liefert zum Kunden; ein Ladengeschäft und Selbstabholung
+gibt es nicht. Die Identität trägt das Impressum der Betreiberwebsite mit Register-, USt- und
+Inhaberangaben, das HR-kongruent zum Registercheck ist. Der Registername lautet
+„schrott-brennholzhandel Böttcher e.K.", doch das belegt nur den Namen, nicht ein aktuelles
+Schrottangebot. Offen bleibt damit genau das: Ob ein Schrottplatz parallel weiterläuft, ist nicht
+belegt, die Dossiertype ist nur vom Seed gestützt. Hinzu kommt, dass in OSM die Hausnummer 11
+auf der Osterlangstedt nicht existiert.
 
 ## Timeline
 

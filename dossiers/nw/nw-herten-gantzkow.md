@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gantzkow Rohstoff GmbH, Büro West, Julie-Postel-Straße 84, 45699 Herten: rein
+unternehmensbezogener Handel und Vermittlung von Sekundärrohstoffen, ein Entsorgungsfach-
+betrieb seit 2003 mit AEO-C; die Zentrale liegt in Baden-Baden. Für die Herten-Filiale
+tragen der 11880-Eintrag und die Betreiber-Teamseite mit der Bezeichnung Büro West die
+Anschrift und die Kontaktdaten, das Branchenbuch-Portal stützt die Branchenzuordnung. Offen
+bleiben die Belegkette und der Standortnachweis: Das Impressum der Zentrale nennt keine
+Registernummer, damit liegt keine amtliche Rechtsträgerverifikation vor und auch keine
+Owner-Ausnahme; eine unabhängige zweite Quelle für den Standort fehlt ebenso wie eine
+Standortkoordinate. Ein Publikums-Schrottankauf ist nicht belegt, das Dossier bleibt im
+Status pruefung.
 
 ## Timeline
 

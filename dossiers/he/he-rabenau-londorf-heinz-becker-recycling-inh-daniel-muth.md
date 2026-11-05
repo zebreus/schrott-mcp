@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heinz Becker Recycling, Inh. Daniel Muth, Marburger Str. 16, 35466 Rabenau-Londorf:
+Niederlassung eines Einzelunternehmens ohne HRB, das Alteisen, Mischschrott, NE-Metalle und
+Industrieschrott zu tagesgültigen Konditionen ankauft, mit Mengenschwellen von 100 kg für
+Alteisen und Mischschrott sowie 50 kg für NE-Metalle bei Anlieferung; die Zentrale liegt in
+Weimar an der Lahn. Die Identität trägt das Betreiber-Impressum, das beide Anschriften nennt,
+gestützt durch ein OSM-Adressobjekt zur Hausnummer 16, das weder Namen noch Betreiber führt.
+Offen bleiben die Zuordnung des Betriebs zur Anschrift, da nur eine Betreiber-Einzelquelle
+vorliegt, die ortsbezogenen Kontaktangaben, weil Telefonnummer und E-Mail unter beiden
+Anschriften stehen, und sämtliche Preise, da nur ein Preismechanismus genannt wird.
 
 ## Timeline
 
