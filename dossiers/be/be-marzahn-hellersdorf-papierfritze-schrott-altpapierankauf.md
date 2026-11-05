@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Marke Papierfritze des Betreibers Rustech Recycling GmbH (HRB 233965 B) in der Alt-Biesdorf
+12, 12683 Berlin, mit Paletten- und Gitterboxenankauf, unter anderem Europaletten,
+Einwegpaletten, Aufsatzrahmen und neue wie gebrauchte Euro-Gitterboxen; laut Betreiber
+werden Stückpreise und Annahmebedingungen veröffentlicht, das Metallpreis-Schema greift für
+Ladungsträger nicht. Impressum und Registerangabe sind direkt kongruent; die Kontaktseite
+nennt zusätzlich eine eigenständige Neuköllner Einfahrt an der Stubenrauch- und der
+Kanalstraße sowie im Impressum die Klettwitzer Straße 1, wofür kein eigener
+Standortdatensatz vorliegt. Offen bleiben die E-Mail-Adresse, die als geschützter Link
+ausgeliefert und deshalb nicht belegt ist, sowie die Schwesterdatei zur Marke Schrottfritze,
+die denselben Standort und Rechtsträger beschreibt.
 
 ## Timeline
 

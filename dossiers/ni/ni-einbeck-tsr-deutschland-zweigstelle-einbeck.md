@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland (Zweigstelle Einbeck) ist eine Standortseite der TSR Deutschland GmbH & Co. KG aus der
+REMONDIS-Gruppe, die Fe- und NE-Metall ankauft, Container stellt und Demontage anbietet; die Zweigstelle sitzt
+in Auf der Lieben Frau, 37574 Einbeck, mit Telefon +49 5561 93380, während die Konzernzentrale in der
+Brunnenstraße 138, 44536 Luenen liegt. Die Beleglage stützt sich auf die Betreiber-Standortseite der
+Konzern-Website, die das Sortenprogramm für Fe- und NE-Metalle sowie Bauschutt, Altpapier, Folien,
+Grünschnitt, Altholz, Reifen und Gewerbeabfälle nennt. Die einzige öffentliche Preisaussage ist die montags
+gültige Sonderaktion, die Kleingewerbekunden und Privatkunden 10,00 Euro je Tonne auf Fe-Schrott und 100,00
+Euro je Tonne auf NE-Altmetalle obendrauf legt; ein Grundpreis wird nicht veröffentlicht. Offen bleiben dieser
+Grundpreis, da die Gruppe keine Preisliste führt, sowie eine zweite unabhängige Quelle für die Standortfakten
+und die Koordinaten.
 
 ## Timeline
 

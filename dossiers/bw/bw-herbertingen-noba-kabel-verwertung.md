@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Noba Kabelverwertung GmbH an der Obere Bergen Straße 8, 88518 Herbertingen, mit
+Kaltzerlegung von Kabeln und Metallverbunden sowie Ankauf und Verkauf von
+Gebrauchtmaschinen. Die Betreiberwebsite trägt Anschrift, Telefon +49 7586 1303 und die
+Mailadresse noba@noba-kabelverwertung.de, die Gelbe Seiten bestätigen den Betrieb unter
+derselben Nummer und nennen die Hausnummer abweichend mit 8/1; die Schreibweise des
+Betreibers wurde übernommen, die Variante bleibt offen. Offen bleibt die
+Rechtsform-Beleglage: Ein Impressum mit Registernummer wurde auf den abgerufenen Unterseiten
+nicht gefunden, sodass die Identität nur über Betreiber- und Verzeichniseintrag getragen
+wird. Die Anlieferungszeiten Mo–Do 8 bis 16 Uhr und Fr 8 bis 12 Uhr stammen aus einer
+Betreiber-News von 2023. Das Dossier führt keine Koordinaten.
 
 ## Timeline
 

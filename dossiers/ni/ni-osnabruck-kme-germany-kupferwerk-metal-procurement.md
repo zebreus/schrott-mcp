@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+KME Germany GmbH & Co. KG, Kupferwerk Osnabrück, Klosterstr. 29, 49074 Osnabrück:
+B2B-Schrottankauf von Kupfer-, Messing- und Zinkschrotten für Konzerngießereien, ausdrücklich
+kein Publikums-Ankauf. Die Identität trägt das Impressum der Betreiberdomain, das KME SE mit
+Anschrift, Telefonnummer, E-Mail und HRB 213357 AG Osnabrück ausweist; die Seite zur
+Rohstoffbeschaffung bestätigt den Ankauf großer Mengen NE-Schrott für vier KME-Gießereien. Offen
+bleibt, dass die im Dossier geführte Firmierung der heutigen KME-SE- und cunova-Struktur nicht
+mehr exakt entspricht, was bislang nur als Timeline-Vermerk dokumentiert ist. Ebenso unbelegt
+ist eine Annahmestelle oder Selbstanlieferung am Osnabrücker Standort, weshalb das Feld zur
+Anlieferung leer bleibt. Nach der geänderten Adresse ist die Geokodierung neu zu fahren.
 
 ## Timeline
 

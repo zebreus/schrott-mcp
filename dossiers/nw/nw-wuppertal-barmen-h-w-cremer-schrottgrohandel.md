@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+H. W. Cremer Schrottgroßhandel GmbH, Loher Höhe 12, 42283 Wuppertal-Barmen: Schrott- und
+Metallgroßhandel, Recycling und Containerdienst mit Annahme und Abholung für Privatpersonen,
+Unternehmen, Werkstätten und Baustellen, zertifizierter Entsorgungsfachbetrieb. Die Identität
+trägt der Betreiber-Vollcrawl mit Impressum (HRB 6731), Anschrift, Telefonnummer und E-Mail,
+Northdata führt denselben Rechtsträger unter dieser HRB mit dem früheren Namen H.W. CREMER GmbH
+SCHROTTGROSSHANDEL als Historie, und OSM way/463176330 belegt die Hausnummer 12 im Stadtbezirk
+Barmen. Offen bleibt, dass die Betreiberseiten nur Wuppertal nennen, weshalb die genauere
+Ortsangabe Barmen unverändert bleibt, und dass keine Materialliste, Mindestmenge, Preise oder
+Abholreichweite veröffentlicht sind; die Zertifizierungsseite verlinkt ein Zertifikat von 2025,
+die jüngsten dort sichtbaren Nachrichten datieren ebenfalls von 2025.
 
 ## Timeline
 

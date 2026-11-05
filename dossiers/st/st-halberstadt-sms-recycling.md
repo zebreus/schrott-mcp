@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SMS Recycling GmbH & Co., In den langen Stücken 18a, 38820 Halberstadt: der Standort wird heute
+von der ISR Recycling GmbH & Co. KG (Hauptsitz Hafenstraße 35, Itzehoe) als Schrottplatz
+geführt, mit Ankauf von Schrott- und Metallabfällen, Anlieferung und Abholung, Mo–Fr
+07:00–16:00. Die Identität tragen die Betreiber-Standortseite mit Anschrift, Telefonnummern und
+Zeiten sowie das Impressum der Gesellschaft; Northdata bestätigt HRA 1317 IZ, Anschrift und die
+SMS-Verwaltung als persönlich haftende Gesellschafterin, und OSM way/659237012 führt die
+Hausnummer 18A. Offen bleibt die juristische Kontinuität zwischen dem Verzeichnisnamen SMS
+Recycling GmbH & Co. und dem Betreiber ISR Recycling GmbH & Co. KG, da das ISR-Impressum keine
+HR-Nummer nennt. Das Schwester-Dossier st-halberstadt-isr-recycling beschreibt denselben
+Standort und ist zu querverweisen statt zu mergen.
 
 ## Timeline
 

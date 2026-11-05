@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel-Yildirim GmbH ist ein Schrotthandel mit Schwerpunkt Kabel- und Buntmetallankauf sowie
+Containerdienst in Bremerhaven, Am Baggerloch 7, 27572. Das Impressum der Betreiberseite nennt die
+Betriebsadresse Am Baggerloch 7, den Geschäftsführer Deniz Yildirim sowie Telefon, E-Mail und Öffnungszeiten;
+ein Registerspiegel führt dieselbe aktive GmbH unter HRB 32402 Bremen mit der Anschrift Am Baggerloch 5 bis 7.
+Ankauf handelsüblicher Schrotte und NE-Metalle sowie Container von 5 bis 40 m³ sind auf der Betreiberseite
+beschrieben, belastbare Tagespreise werden nicht veröffentlicht. Offen bleiben die Zuordnung des
+Namensbestandteils Necati Yildirim, da das Impressum Deniz Yildirim ausweist, die im Seed genannte Oderberger
+Straße als unbelegter Umzugslead, der fehlende amtliche Registerauszug sowie die Koordinaten, die wegen der
+abweichenden Hausnummern 5 und 7 bewusst leer bleiben.
 
 ## Timeline
 

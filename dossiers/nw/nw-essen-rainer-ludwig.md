@@ -93,3 +93,38 @@ NorthData führt die **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, mit Liq
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4200,7.0600,51.4400 ;
   https://api.openstreetmap.org/api/0.6/way/46753336/full.json ; https://www.northdata.de/ ;
   https://www.online-handelsregister.de/ (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom
+  03.11.2026 und schließt das Suchfenster auf den ganzen Straßenverlauf.** Die Dossier-Adresse **Eisenbahnstraße, 45134
+  Essen** nennt **keine Hausnummer**; ohne Hausnummer ist kein adressgenauer OSM-Punkt zuordenbar. **Quelle 1 (OSM, live
+  abgefragt am 05.11.2026):** das Kachelraster **7.0400/51.4100 bis 7.0900/51.4600**, **25 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4100,7.0900,51.4600), **umschließt
+  die Objekt-BBox vollständig** und enthält die **„Eisenbahnstraße“** nachweislich und vollständig mit den
+  Straßenobjekten way/8513069, way/24395792, way/668524651 und way/1467678792 (Verlauf 51.4262627/7.0420511 bis
+  51.4277467/7.0453752); sie trägt **15** Adressobjekte; sie weist **15** verschiedene Hausnummern (8, 9, 10, 11, 12, 13, 14,
+  15, 17, 18, 19, 20, 21, 23, 25). Das erweiterte Fenster liefert **dieselben 15** Nummern wie das Raster vom
+  03.11.2026 - ein Fensterfehler der letzten Welle liegt hier **nicht** vor. Das einzige Objekt mit Betriebsbezug im
+  Umfeld ist **way/46753336** `name`=**„Grünannahmestelle Süd, Eisenbahnstraße 18"**, `operator`=**EBE**, `amenity`=
+  recycling, `recycling_type`=centre - eine **Grünannahmestelle der Essener Entsorgungsbetriebe**, also **kein**
+  Schrottplatz und **kein** Bezug zur Rainer Ludwig GmbH & Co. KG. **Namensvetter ohne Übernahme:** eine Suche nach
+  „Ludwig" über die Felder name, operator, brand, description, website, contact:website, note und addr:housename findet
+  im Raster nur die Objekte **„Zeche Ludwig"** (node/3614521739, node/3614521740, node/3839274548, node/3839275838,
+  node/5672593549, way/594971598, way/594971600, relation/2815409) sowie **„Ludwig-Park"** (way/33852685) und
+  **„Ludwig-Kessing-Park"** (way/33116445); das sind die **namenstragenden Flächen der ehemaligen Zeche Ludwig** und
+  ein Park, **kein** Rechtsträger, keine Hausnummer und kein Bezug zur Rainer Ludwig GmbH & Co. KG - es erfolgt **keine
+  Übernahme**. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert):** der amtliche Handelsregisterauszug belegt
+  die **Rainer Ludwig GmbH & Co. KG, AG Essen HRA 4117** mit Liquidation (31.01.2023) und Löschung (22.10.2024) sowie
+  dem letzten registrierten Sitz „Eisenbahnstraße, 45134 Essen" **ohne Hausnummer**; die Umweltinspektion 2021 nennt
+  dort die Anlage „Lagerung und Behandlung von Metallen"; der WAZ-Bericht vom 28.04.2023 meldet, eine „Firma Ludwig"
+  habe den Schrottplatz an der Eisenbahnstraße Ende Juni 2023 verlassen, nennt aber weder die KG noch HRA 4117.
+  **Warum keine Koordinate:** Es fehlt die **Hausnummer** - im Dossier wie im Register; jeder Punkt auf der Straße oder
+  auf einem der 15 Adressobjekte wäre geraten und würde zudem eine **fortführende** Rechtsträgerin behaupten, die das
+  Register ausschließt. **Was zur Auflösung fehlt:** eine belegte Hausnummer des historischen Standorts oder eine
+  belegte Nachfolge. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert; es wird
+  weder Fortbestand noch Schließung behauptet. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines
+  OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4100,7.0900,51.4600 ;
+  https://api.openstreetmap.org/api/0.6/way/46753336/full.json ; https://www.northdata.de/ ;
+  https://www.online-handelsregister.de/ (im Dossier zitiert, Abruf 05.11.2026).]

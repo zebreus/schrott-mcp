@@ -83,3 +83,45 @@ Der externe Host burgaltendorf.com ist hier mehr als ein einfacher Branchenbuche
   https://www.burgaltendorf.com/promotion/lass/impressum.html ;
   https://www.burgaltendorf.com/promotion/lass/index.html ;
   https://www.burgaltendorf.com/promotion/lass/containerdienst/index.html (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung erweitert das Fenster um den
+  Faktor vier und findet die Straße weiterhin nicht.** Die Dossier-Hausnummer **250** ist auf der **„Worringstraße"**
+  in OSM **nicht abbildbar**, weil die Straße selbst dort nicht existiert. **Quelle 1 (OSM, live abgefragt am
+  05.11.2026):** das Kachelraster **6.8500/51.4200 bis 6.9500/51.4800**, **60 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8500,51.4200,6.9500,51.4800) erfasst im
+  Essener Westen und Südwesten einschließlich **Burgaltendorf** **1.068** benannte Straßenways; die Namenssuche über
+  alle im Raster gefundenen `addr:street`- und `name`-Werte liefert **keinen** Treffer für „Worringstraße" und
+  **keine** Schreibvariante - als einziger Fund mit diesem Zeichenbestand erscheint **way/302498820** mit
+  `name`=**Worring Leder** (ein Geschäftsname, keine Straße). Auch eine Suche über sämtliche lokal vorgehaltenen
+  OSM-Kacheln (rund 1.900 Kacheln, mehr als 4 GB) nach „Worring" liefert **nur** „Worring Leder" sowie die
+  Buslinien-Bezüge „Köln Worringen" (relation/1988313, relation/1988335) - **keine** Straße. Das war am 03.11.2026
+  mit einem 18-Kachel-Fenster (6.8800/51.4400 bis 6.9300/51.4600) nicht ausgeschlossen; das jetzt dreimal größere
+  Fenster schließt einen Fensterfehler der letzten Welle **aus**. Ein Objekt mit Betriebsbezug zu „Rohproduktenhandel"
+  oder „Klaus Laß" existiert im Raster **nicht**; eine Suche nach „Lass", „Rohproduktenhandel" und „Klaus" über die
+  Felder name, operator, brand, description, website, contact:website, note und addr:housename findet **keinen**
+  Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2 (Betreiber, im Dossier bereits
+  zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** die firmeneigene Impressumsseite
+  https://www.burgaltendorf.com/promotion/lass/impressum.html nennt **„Rohproduktenhandel Klaus Laß, Klaus Laß,
+  Worringstraße 250, 45289 Essen"**, Fon +49 201 58 04 72, E-Mail Klaus_Lass@web.de, Inhaber Klaus Laß, Sitz der
+  Gesellschaft Essen, Steuernummer 111/5173/2205; die Seitenfußzeile derselben Seite nennt zusätzlich den Ortsteil
+  **„45289 Essen-Burgaltendorf"** und dieselbe Hausnummer 250. Die Startseite und die Leistungsseiten der gleichen
+  Domain beschreiben Schrott- und Metallabholung, Altautoentsorgung und Containerdienst. Die Anschrift ist damit
+  **betreiberseitig belegt**, aber **nicht** in OSM abbildbar. **Warum keine Koordinate:** Ohne ein Objekt, das
+  `addr:street`=„Worringstraße" und `addr:housenumber`=250 trägt - und ohne die Straße selbst in OSM - wäre jeder Punkt
+  eine Ableitung aus einem fremden Objekt oder einer Straßenmitte und damit eine unbelegte Vermutung über die Lage des
+  Betriebs; die Nachbarobjekte und die Straßenmitte wären **kein** Ersatz für die belegte Adresse. **Was zur Auflösung
+  fehlt:** eine Kartierung der Worringstraße in OSM (oder ein Objekt, das die Anschrift trägt) - der Betrieb selbst ist
+  über die eigene Impressumsseite hinreichend belegt; offen bleibt weiterhin der im Dossier dokumentierte
+  **Gegenlead** „Heuweg 9" (anderer Verzeichnisbeleg) und die Frage, ob die Ost-Kölner Heizungsbau-Spur zum selben
+  Betrieb gehört. Der bisher gespeicherte Produktionspunkt 51.4502844/7.0150531 (laut read-only-Abgleich vom 25.10.2026
+  an der Freiheit im Essener Südviertel) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status:
+  pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer
+  Hausnummer oder eines OSM-Betriebsbezugs wäre kein Existenz- oder Schließungsbeweis; die fehlende Kartierung der
+  Straße ist eine OSM-Datenlücke und **kein** Beleg gegen die belegte Betriebsadresse. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8500,51.4200,6.9500,51.4800 ;
+  https://www.burgaltendorf.com/promotion/lass/impressum.html ;
+  https://www.burgaltendorf.com/promotion/lass/index.html ;
+  https://www.burgaltendorf.com/promotion/lass/containerdienst/index.html (Abruf 05.11.2026).]
+

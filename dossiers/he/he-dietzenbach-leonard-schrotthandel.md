@@ -1,5 +1,7 @@
 ---
 slug: he-dietzenbach-leonard-schrotthandel
+lat: 50.0050838
+lon: 8.7878900
 name: Leonard Schrotthandel
 trader_type: schrotthaendler
 state: HE
@@ -15,7 +17,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'geo'
 certifications: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
@@ -52,3 +53,39 @@ Die Betreiberwebsite nennt Leonard Dorel Caldarar als Inhaber und auf Impressum,
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Leonard Schrotthandel` (Robert-Koch-Str. 9, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Leonard` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Leonard` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Robert-Koch-Str. 9, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Robert-Koch-Str. 9, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 0,2 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 0,8 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 2,1 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Robert-Koch-Str. 9, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Leonard Schrotthandel`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **30 Treffer**, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Leonard ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Leonard ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe+9%2C+63128+Dietzenbach%2C+Deutschland%3B8.7878624%3B50.0051905%3B8.789371280291503%3B50.0063946302915%3B8.786673319708498%3B50.0036966697085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe%209%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7878624;50.0051905;8.789371280291503;50.0063946302915;8.786673319708498;50.0036966697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Robert-Koch-Stra%C3%9Fe%209%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7878624;50.0051905;8.789371280291503;50.0063946302915;8.786673319708498;50.0036966697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.0050838/8.7878900** (Mittelwert der
+  eindeutigen Knoten von node/534547353, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber):** das Impressum von
+  https://leonard-schrotthandel.de/impressum/ (im Dossier am 24./28.10.2026 live gelesen und hier zitiert) nennt
+  wörtlich "Anschrift Leonard Schrotthandel, Inhaber: Leonard Dorel Caldarar, Robert-Koch-Str. 9, 63128 Dietzenbach,
+  Tel: 017640067307, E-Mail: info@leonard-schrotthandel.de" - die Dossier-Anschrift ist damit betreiberseitig belegt
+  (USt-ID steht weiter auf "folgt", es bleibt eine Betreiber-Selbstauskunft ohne Registerbrücke). **Quelle 2 (OSM):**
+  node/534547353, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/node/534547353.json - bei Nodes liefert `/full.json` HTTP 404, deshalb
+  `node/<id>.json`), trägt `addr:housenumber`=9, `addr:street`=Robert-Koch-Straße, `addr:city`=Dietzenbach,
+  `addr:postcode`=63128, `addr:country`=DE; der Adressknoten hat genau **1** eindeutigen Knoten, Objekt-BBox
+  8.7878900/50.0050838 bis 8.7878900/50.0050838, der Punkt liegt innerhalb. **Fensterdisziplin (kein Fensterfehler):**
+  das am 05.11.2026 live abgefragte Kachelraster **8.7800/50.0000 bis 8.7900/50.0100** (0,01-Grad-Kacheln, **1** Kachel,
+  **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig**; die Straße "Robert-Koch-Straße" ist dort mit **21**
+  Adressobjekten und **17** verschiedenen Hausnummern erfasst (1, 1a, 2, 3, 4, 5, 6, 7, 7a, 8, **9**, 10, 11, 14, 16, 18,
+  20), die Dossier-Hausnummer **9** existiert also in OSM. **Schreibweise:** das Dossier schreibt "Robert-Koch-Str. 9",
+  OSM "Robert-Koch-Straße" - dieselbe Straße. **Adresswiderspruch, ungelöst und dokumentiert:** das JSON-LD derselben
+  Betreiberseite nennt "Dieselstraße 22"; ein Objekt oder eine Straße "Dieselstraße" existiert im live abgefragten
+  Kachelraster über den gesamten Dietzenbacher Ortsbereich (**8.7700/49.9950 bis 8.8100/50.0150**, 8 Kacheln à 0,01
+  Grad, **0** Kachel-Fehler, 32159 Elemente) **nicht** - die Alternativadresse hat also keine OSM-Entsprechung; der
+  Widerspruch bleibt offen und wird durch den gesetzten Punkt **nicht** aufgelöst. **Betriebsbezug in OSM:** keiner -
+  eine Suche nach "Leonard|Caldarar|Schrott" über die Felder name, operator, brand, description, website,
+  contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen** Treffer; der gesetzte Punkt ist
+  ein **Adresspunkt der belegten Betriebsanschrift, kein bestätigter Betriebseingang**. **Zurücknahme des `geo`-Tokens (Begründung):** der Token
+  `geo` wird aus `clear_fields` **entfernt**, weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed
+  `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md); der zuvor zurückgezogene Produktionspunkt
+  50.0098/8.7778 (Hammannsgasse 6, rund 890 m entfernt) wird damit durch den belegten Adresspunkt ersetzt. `status` bleibt
+  `pruefung`, alle übrigen Felder bleiben unverändert; die Abgrenzung zu den Marken STALCANT und "Sebastian
+  Schrotthändler" an derselben Hausnummer bleibt offen und wird **nicht** geändert. **Reichweitenklausel:** das Fehlen
+  eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die
+  Anschrift, nicht den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/node/534547353.json ;
+  https://leonard-schrotthandel.de/impressum/ ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.0,8.79,50.01 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.77,49.995,8.81,50.015 (Abruf 05.11.2026)]

@@ -1,5 +1,7 @@
 ---
 slug: he-frankfurt-60316-gold-silber-ankauf-deg
+lat: 50.1197234
+lon: 8.6939650
 name: Gold & Silber Ankauf Frankfurt (DEG e.K.)
 trader_type: sonstige
 state: HE
@@ -44,3 +46,38 @@ Frankfurter Filiale des Edelmetallankäufers Deutsche Edelmetall & Grund DEG e.K
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Gold & Silber Ankauf Frankfurt (DEG e.K.)` (Berger Straße 27, 60316 Frankfurt am Main) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gold%20%26%20Silber%20Ankauf%20Frankfurt` -> **0 Treffer** (EfB); (2) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gold-%20und%20Silberankauf` -> **0 Treffer** (EfB); (3) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Gold%20%26%20Silber%20Ankauf%20Frankfurt` -> **0 Treffer** (Altfahrzeug); (4) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Gold-%20und%20Silberankauf` -> **0 Treffer** (Altfahrzeug). Die Radiusabfrage mit 3 km um `Berger Straße 27, 60316 Frankfurt am Main` (`…/Entsorgungsfachbetriebe/adr=Berger Straße 27, 60316 Frankfurt am Main, Deutschland;…&dst=3&is=1&e=1`) liefert **36 Treffer** (u. a. `KURZ Muldendienst West GmbH`, `Intzestraße 24, 60314 Frankfurt am Main`, `ZZET02000263 / 1, 2, 3, 4, 5`, `FES GmbH Schadstoffzwischenlager`, `Intzestraße 19a, 60314 Frankfurt am Main`, `ZZEE00200089 / 17, 18, 19, 20, 21, 22`, `Blasius Schuster GmbH & Co. KG Entsorgung, Spe...`, `Franziusstraße 22, 60314 Frankfurt`, `ZZKT00100065 / 2, 3`) - **kein Treffer auf `Gold & Silber Ankauf` und keiner auf `Berger Straße 27`**. Dieselbe 3-km-Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&o=5&e=1` liefert **0 Treffer** - **kein AltfahrzeugV-Vermerk**. Als Positivkontrolle liefert die 10-km-Efb-Abfrage um dieselbe Adresse **60 Treffer**, die 10-km-Abfrage in der Altfahrzeugverwertung-Route **1 Treffer** (`KITSAKIS GmbH`, `Lämmerspieler Weg 151, 63075 Offenbach`, `ZARS00700012 / 1`) - die Abfragetechnik funktioniert also. **Zusatzprüfung Edelmetallhandel:** Die Liste der zertifizierten Goldankäufer des Berufsverbandes des Deutschen Münzenfachhandels e.V. (`muenzenverband.de/zertifizierte-goldankaeufer/`, 82 Einträge, sämtlich mit dem Feld `zert. Goldankäufer` = `Ja`) führt `Gold & Silber Ankauf Frankfurt (DEG e.K.)` **nicht** - das Feld „zert. Goldankäufer“ trägt für diesen Betrieb **kein Ja**, deshalb wird hier kein Zertifikat geführt. 
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gold%20%26%20Silber%20Ankauf%20Frankfurt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Gold%20%26%20Silber%20Ankauf%20Frankfurt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gold%20Silber%20Ankauf ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Gold%20Silber%20Ankauf ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gold-%20und%20Silberankauf ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Gold-%20und%20Silberankauf ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Berger%20Stra%C3%9Fe%2027%2C%2060316%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6939629%3B50.1197091%3B8.705963%3B50.131709%3B8.681963%3B50.107709&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Berger%20Stra%C3%9Fe%2027%2C%2060316%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6939629%3B50.1197091%3B8.705963%3B50.131709%3B8.681963%3B50.107709&dst=3&is=1&o=5&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Berger%20Stra%C3%9Fe%2027%2C%2060316%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6939629%3B50.1197091%3B8.705963%3B50.131709%3B8.681963%3B50.107709&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Berger%20Stra%C3%9Fe%2027%2C%2060316%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6939629%3B50.1197091%3B8.705963%3B50.131709%3B8.681963%3B50.107709&dst=10&is=1&o=5&e=1 ; https://www.muenzenverband.de/zertifizierte-goldankaeufer/ (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.1197234/8.6939650** (Mittelwert der eindeutigen
+  Knoten von way/135194084, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber/Register):** die Standortseite
+  https://www.goldankauf-silber.de/standorte/goldankauf-frankfurt (im Dossier am 05.10. und 31.10.2026 live gelesen und
+  hier zitiert) nennt wörtlich "GOLD & SILBER ANKAUF FRANKFURT, Berger Straße 27, 60316 Frankfurt", "069 - 95 63 32 01"
+  und die Servicezeiten; das Impressum nennt die Rechtsträgerin "Deutsche Edelmetall & Grund DEG e.K", HRA 87094
+  AG Darmstadt, Inhaber Sven Breitschaft, USt-ID DE232448782, und das Registerportal "handelsregister.live" führt dieselbe
+  Gesellschaft mit HRA 87094, Sitz Darmstadt - die Frankfurter Filiale ist damit als Standort derselben Gesellschaft
+  belegt (die Register-Geschäftsanschrift Mathildenplatz 8, 64283 Darmstadt ist **nicht** die Dossier-Adresse). **Quelle 2
+  (OSM):** way/135194084, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/135194084/full.json), trägt `addr:housenumber`=27, `addr:street`=Berger Straße,
+  `addr:city`=Frankfurt am Main, `addr:postcode`=60316, `building`=apartments; **11** Knoten, davon **10** eindeutig,
+  Objekt-BBox 8.6938337/50.1196306 bis 8.6940887/50.1197912, der Punkt liegt innerhalb. **Fensterdisziplin (kein
+  Fensterfehler):** das am 05.11.2026 live abgefragte Kachelraster **8.6800/50.1050 bis 8.7000/50.1250**
+  (0,01-Grad-Kacheln, **4** Kacheln, **0** Kachel-Fehler nach Wiederholung der zunächst mit HTTP 429 abgewiesenen Kachel)
+  **umschließt die Objekt-BBox vollständig**; die Straße "Berger Straße" ist dort mit **47** Adressobjekten und **36**
+  verschiedenen Hausnummern erfasst (4, 6, 8, 10, 12, 12-14, 14, 15, 15a, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, **27**,
+  28, 29, 30, 31, 31-33, 32, 33, 34, 35, 39) - die Dossier-Hausnummer 27 existiert also in OSM. **Zweites Objekt zur
+  selben Hausnummer, dokumentiert:** node/4603894344 trägt ebenfalls `addr:housenumber`=27, `addr:street`=Berger Straße,
+  `addr:city`=Frankfurt am Main, `addr:postcode`=60316, dazu `name`=Café Puro, `shop`=kiosk, `opening_hours`=24/7 (live
+  geladen 05.11.2026, HTTP 200) bei 50.1196899/8.6940378, rund **8 m** vom gesetzten Punkt entfernt - beide Objekte liegen
+  auf demselben Grundstück; der Kiosk ist ein **Fremdbetrieb**, gesetzt wird das **Adressobjekt des Gebäudes**. **Betriebsbezug
+  in OSM:** keiner - eine Suche nach "Goldankauf|Gold|Silber|Edelmetall|DEG" über die Felder name, operator, brand,
+  description, website, contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen** Treffer auf
+  die Gesellschaft. Der gesetzte Punkt ist folglich ein **Adresspunkt der belegten Filialanschrift, kein bestätigter
+  Betriebseingang**. **Clear-Direktive:** dieses Dossier führt **kein** `clear_fields` und damit keinen `geo`-Token - es ist
+  nichts zu entfernen; der Seed akzeptiert das Koordinatenpaar ohne Widerspruch. `status` bleibt `aktiv`, alle übrigen
+  Felder (Öffnungszeiten, `dropoff_json`, Telefon, Website) bleiben unverändert. **Reichweitenklausel:** das Fehlen eines
+  OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift,
+  nicht den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/way/135194084/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/4603894344.json ; https://www.goldankauf-silber.de/standorte/goldankauf-frankfurt ;
+  https://www.goldankauf-silber.de/impressum ; https://handelsregister.live/hra/hessen/ag-darmstadt/87094/deutsche-edelmetall-grund-deg-ek/strukturiert ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.68,50.105,8.70,50.125 (Abruf 05.11.2026)]

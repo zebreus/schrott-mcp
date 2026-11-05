@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bierhoff GmbH & Co. KG, Illingheimer Straße 39, 59846 Sundern-Amecke: Ankauf und Verwertung von
+Metallabfällen, Privatanlieferung zu Tagespreisen mit Ausweis, gewerbliche Abholung und
+Containerdienst. Die Identität tragen das Betreiber-Impressum und die Kontaktseite mit
+Firmierung, Anschrift, Telefonnummer und E-Mail, dazu das Register (Amtsgericht Arnsberg, HRA
+5623, HRB 6485) sowie Northdata und Creditreform als Gegenbelege; OSM way/202878636 trägt
+Hausnummer 39 und den Ortsteil Amecke. Offen bleibt, dass die Abgrenzung zwischen der KG (HRA
+5623) und der Komplementär-GmbH (HRB 6485) ungeklärt ist, eine Namenssuche im OSM-Raster keinen
+Betriebsbezug zu Bierhoff findet und damit nur die Adresse belegt ist, sowie dass die
+Efb-Erkennung des Betreibers freiwillig ist und kein Zertifikat vorliegt; eine Preisliste ist
+nicht veröffentlicht.
 
 ## Timeline
 

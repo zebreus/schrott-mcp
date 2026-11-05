@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Möck Autoverwertung GmbH ist eine zertifizierte Autoverwertung mit Schrott- und Metallrecycling sowie
+Containerdienst in Tübingen, Reutlinger Straße 73-79, 72072 Tübingen. Das Impressum der Betreiberseite führt
+die Firma als AV Möck GmbH mit Registereintrag HRB 380750 Stuttgart; ein Registerspiegel führt dieselbe aktive
+Gesellschaft und dokumentiert die Umfirmierung von der Autoverwertung Tübingen Möck GmbH zum 17.12.2021. Die
+Demontagezertifizierung ist über ein öffentlich zugängliches PDF des Sachverständigen Klaus Suhm unter der
+PZERT-Register-Nr. 10290 belegt, gültig vom 03.12.2025 bis 02.06.2027. Anlieferung ohne Termin und Abholung
+nur nach telefonischer Terminvereinbarung sind beschrieben. Offen bleiben die Abweichung zwischen Dossiername
+und Impressumsfirma, eine öffentliche Preisliste, die Auszahlung für Fahrzeuge und Metalle sowie die
+Koordinaten zur ergänzten Anschrift.
 
 ## Timeline
 

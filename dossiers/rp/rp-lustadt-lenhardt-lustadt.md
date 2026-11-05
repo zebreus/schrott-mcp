@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lenhardt Heiko Rohstoffentsorgung, Röderstr. 12, 67363 Lustadt-Oberlustadt: Rohstoffentsorgung
+in einem Einzelunternehmen ohne Register. Die Identität tragen zwei unabhängige Verzeichnisse,
+11880 und Gelbe Seiten, die denselben Namen und dieselbe Anschrift nennen; die Telefonnummer
+stammt aus beiden Einträgen. Offen bleibt, dass keine eigene Betreiberseite existiert und
+damit Website, E-Mail, Öffnungszeiten sowie Preise und Gebühren unbekannt bleiben; das amtliche
+Fachbetrieberegister führt für Lustadt nur einen anderen Betrieb und keinen Efb-Eintrag für
+Röderstr. 12, was bei freiwilliger Anerkennung kein Nichtexistenzbeweis ist. Vier
+Namensvetter im Umfeld (Lenhard, Lenhart, Lenhardt) bleiben unzugeordnet, da eine Verwandtschaft
+aus den Quellen nicht belegbar ist; der Status bleibt auf Prüfung.
 
 ## Timeline
 

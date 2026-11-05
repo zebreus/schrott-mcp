@@ -1,5 +1,7 @@
 ---
 slug: he-dietzenbach-63128-lorenzo
+lat: 50.0134679
+lon: 8.7858510
 name: Lorenzo
 trader_type: schrotthaendler
 state: HE
@@ -7,7 +9,6 @@ city: Dietzenbach 63128
 street: Rohrbrunner Weg 2-4
 postcode: '63128'
 phone: (0163) 0393134
-clear_fields: 'geo'
 email: ''
 opening_hours: ''
 website: ''
@@ -48,3 +49,37 @@ provenance_origin: table
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Lorenzo` (Rohrbrunner Weg 2-4, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lorenzo` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Lorenzo` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Rohrbrunner Weg 2-4, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Rohrbrunner Weg 2-4, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 1,0 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 1,1 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 1,4 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Rohrbrunner Weg 2-4, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Lorenzo`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **36 Treffer**, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lorenzo ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Lorenzo ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Rohrbrunner+Weg+2-4%2C+63128+Dietzenbach%2C+Deutschland%3B8.7857865%3B50.0133913%3B8.787334230291503%3B50.01486843029151%3B8.784636269708498%3B50.01217046970851&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Rohrbrunner%20Weg%202-4%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7857865;50.0133913;8.787334230291503;50.01486843029151;8.784636269708498;50.01217046970851&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Rohrbrunner%20Weg%202-4%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7857865;50.0133913;8.787334230291503;50.01486843029151;8.784636269708498;50.01217046970851&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.0134679/8.7858510** (Mittelwert der
+  eindeutigen Knoten von way/40922224, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber):** das Impressum von
+  https://schrotthandel-lorenzo.de/impressum (im Dossier am 28./29.10.2026 live gelesen und hier zitiert) nennt wörtlich
+  "Anschrift Sebastian Mihai Caldarar, Rohrbrunner Weg 2-4, 63128 Dietzenbach, Tel: +491630393134, E-Mail:
+  info@schrotthandel-lorenzo.de" - die Dossier-Anschrift ist damit betreiberseitig belegt. **Quelle 2 (OSM):**
+  way/40922224, live geladen am 05.11.2026 (HTTP 200, https://api.openstreetmap.org/api/0.6/way/40922224/full.json),
+  trägt `addr:housenumber`=2, `addr:street`=Rohrbrunner Weg, `addr:city`=Dietzenbach, `addr:postcode`=63128,
+  `building`=yes; **10** Knoten, davon **9** eindeutig, Objekt-BBox 8.7856530/50.0133667 bis 8.7860781/50.0136604, der
+  Punkt liegt innerhalb. **Fensterdisziplin (kein Fensterfehler):** das am 05.11.2026 live abgefragte Kachelraster
+  **8.7800/50.0100 bis 8.7900/50.0200** (0,01-Grad-Kacheln, **1** Kachel, **0** Kachel-Fehler) **umschließt die
+  Objekt-BBox vollständig**; die Straße "Rohrbrunner Weg" ist dort mit **3** Adressobjekten und **2** verschiedenen
+  Hausnummern (**2** und **4**) erfasst. Die Bereichsangabe "2-4" ist in OSM als **zwei Objekte derselben Anlage**
+  erfasst: way/40922224 (`addr:housenumber`=2) und way/35668549 (`addr:housenumber`=4, live geladen 05.11.2026,
+  HTTP 200, 11 Knoten / 10 eindeutig, BBox 8.7857719/50.0130063 bis 8.7860914/50.0133676, Mittelwert
+  50.0131834/8.7859314); beide Objekte teilen einen Stützpunkt, die Anlage ist also nicht doppelt erfasst. Gesetzt wird
+  am Objekt der **Nummer 2** (der ersten Nummer der Bereichsangabe); das Objekt der Nummer 4 liegt rund **31 m** entfernt
+  und markiert den zweiten Straßeneingang derselben Anlage. **Betriebsbezug in OSM:** keiner - weder way/40922224 noch
+  way/35668549 tragen `name` oder `operator`; eine Suche nach "Caldarar|Lorenzo|Schrott" über die Felder name, operator,
+  brand, description, website, contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen**
+  Treffer. Der gesetzte Punkt ist folglich ein **Adresspunkt der belegten Betriebsanschrift, kein bestätigter
+  Betriebseingang**. **Zurücknahme des `geo`-Tokens (Begründung):** der Token `geo` wird aus `clear_fields` **entfernt**, weil das Dossier jetzt ein
+  belegtes Koordinatenpaar führt und der Seed `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md); der zuvor
+  zurückgezogene Produktionspunkt 50.0098/8.7778 (Hammannsgasse 6, rund 730 m entfernt) wird damit durch den belegten
+  Adresspunkt ersetzt. `status` bleibt `pruefung`, alle übrigen Felder bleiben unverändert; die Doppelnennung der
+  Anschrift mit dem Dossier he-dietzenbach-63128-manuel wird **nicht** zum Merge - beide Zeilen bleiben eigenständig.
+  **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder
+  Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/40922224/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/35668549/full.json ;
+  https://schrotthandel-lorenzo.de/impressum ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.01,8.79,50.02 (Abruf 05.11.2026)]

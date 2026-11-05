@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+AERIS Recycling & Dienstleistungs GmbH, Zum Wendehammer 7, 14656 Brieselang im Gewerbegebiet
+Zeestow, mit Schrott- und Altmetallankauf am Recyclinghof, Containern für Altmetall und
+Bauabfälle sowie Demontage und Abrissleistungen; das Impressum nennt das Handelsregister
+32201 Potsdam und O. Oellers. Betreiber-Leistungsseite und unabhängige Registeraufbereitung
+bei North Data nennen übereinstimmend Schrottmetall- und Rohstoffhandel, Containerdienste,
+Abbruch und Transporte; ein Abruf der Bonitätsauskunft scheiterte mit HTTP 403 und wird
+nicht als gelesene Quelle geführt. Offen bleiben die Preise, denn die Materialliste führt
+die Sorten auf, die Preisseite kündigt Werte in Euro je Kilogramm an, enthält aber keine
+Zahlen. Auch fehlt ein Standortnachweis, da die OSM-Abfrage nur einen Straßenabschnitt ohne
+Hausnummer liefert.
 
 ## Timeline
 

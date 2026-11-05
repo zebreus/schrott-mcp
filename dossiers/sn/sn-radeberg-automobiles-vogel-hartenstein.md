@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Automobiles Vogel & Hartenstein GbR, Bischofsweg 32, 01454 Radeberg (Großerkmannsdorf):
+Autoverwertung mit Altfahrzeugabholung im Großraum Dresden sowie Verkauf gebrauchter
+Kfz-Ersatzteile und Unfallfahrzeuge. Die Identität tragen die Betreiber-Website mit Impressum
+(GbR, E-Mail, Kontakt, Fahrzeugverwertung) und das AutoScout24-Händlerprofil, das die Anschrift
+bestätigt und aktuelle Fahrzeugangebote zeigt; Register-Spiegel und Schrottplatz-Portale nennen
+dieselbe Anschrift und den Demontagebetrieb. Offen bleibt ein Adresskonflikt innerhalb der
+Betreiber-Website: Die Anfahrtseite nennt Bischofsweg 6, Impressum und Fußzeile nennen 32, das
+unabhängige Händlerprofil stützt die Nummer 32. Die Öffnungszeiten bleiben leer, weil die
+Betreiberfußzeile und die Aggregate abweichen, die Telefonnummer ist nur Einzelbeleg eines
+Fachportals, und keine Frontmatter-Adresse wurde geändert.
 
 ## Timeline
 

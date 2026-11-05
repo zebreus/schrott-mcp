@@ -26,11 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
-## Überblick
-
-Die Adresse, Postleitzahl und Rufnummer stammen aus zwei unabhängigen Verzeichnissen (Das Telefonbuch und Gelbe Seiten) und sind unverändert übernommen: „Rocky`s Schrotthandel“, Leunisstr. 31, 31137 Hildesheim-Nord, 0176 36 86 18 32, Branche „Schrott“. Als Leistungsumfang nennen die Verzeichnisse „kostenlose Schrottabholung, Schrottankauf, Schrottentsorgung, Schrotthandel“. Eine eigene Betreiber-Website existiert nicht (Domain-Sonden rockys-schrott.de, rocky-schrott.de, rockyschrott.de, rocky-schrotthandel.de ohne Inhalt), im amtlichen Fachbetrieberegister (Auszug 11.08.2026) ist in Hildesheim kein Betrieb dieses Namens verzeichnet (dort nur TANK LINE GmbH, Thon Kanal- und AbscheiderService GmbH und Willi Hennies Recycling GmbH & Co. KG an zwei Standorten); ein Negativbefund beweist keine Nichtexistenz. **Ankauf:** kein bezifferter Kurs; die „kostenlose Schrottabholung“ ist eine Servicezusage, keine Gebührenliste. **Verkauf:** keine Preisliste. **Gebühren:** keine Tarife. `status` bleibt `pruefung`. **GEO:** 52.161001, 9.9495509 ist der OSM-Hauspunkt zur Leunisstraße 31 und deckt sich mit der Kartennadel des Gelbe-Seiten-Eintrags (52.161057, 9.949337); er ersetzt den gespeicherten, rund 1,2 km entfernten Punkt Zingel 38, 31134 Hildesheim-Oststadt. Zu beachten: Das Gebäude ist in OSM als Moschee („Ayasofya Moschee“, `amenity=place_of_worship`, `building=mosque`) erfasst — wo der Schrottbetrieb tatsächlich arbeitet, ist offen.
+Rocky's Schrotthandel ist ein Schrotthandel in Hildesheim-Nord, Leunisstraße 31, 31137, dessen Adresse,
+Postleitzahl und Rufnummer aus den beiden unabhängigen Verzeichnissen Telefonbuch und Gelbe Seiten stammen;
+beide nennen kostenlose Schrottabholung, Schrottankauf und Schrottentsorgung. Eine eigene Betreiber-Website
+existiert nicht, mehrere Domain-Sonden bleiben ohne Inhalt. Im amtlichen Fachbetrieberegister, Auszug vom
+11.08.2026, ist in Hildesheim kein Betrieb dieses Namens verzeichnet, nur vier andere; ein Negativbefund
+beweist keine Nichtexistenz. Ein bezifferter Ankaufkurs ist nicht belegt, die kostenlose Schrottabholung ist
+eine Leistungszusage, und Verkaufs- oder Gebührenlisten fehlen; der Status bleibt auf Prüfung. Die Koordinaten
+bilden den OSM-Hauspunkt zur Leunisstraße 31, der mit der Kartennadel des Verzeichniseintrags übereinstimmt
+und den zuvor gespeicherten Punkt Zingel 38 ersetzt; das Gebäude ist dort in OpenStreetMap als Moschee
+erfasst, wo der Betrieb arbeitet, bleibt offen.
 
 ## Timeline
 

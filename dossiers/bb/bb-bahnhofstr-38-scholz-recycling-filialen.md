@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Filiale der Scholz Recycling GmbH mit Sitz in Essingen (HRB 733963 Ulm) an der Bahnhofstraße
+38, 01979 Lauchhammer, für Fe- und NE-Schrottrecycling und getrennt vom Schwesterstandort
+Eisenwerkstraße 8; Kontakt 03574 87020 und lauchhammer@scholz-recycling.de, Öffnungszeiten
+werktags in drei Blöcken, Samstag geschlossen. Identität tragen das Betreiber-Impressum, das
+Standort-JSON und der Registerabgleich bei North Data; das Kommunalverzeichnis von
+Lauchhammer bestätigt Adresse und Nummer zusätzlich, und ein ESN-Zertifikat vom 15.01.2026,
+gültig bis 30.04.2027, benennt den Standort mit Fe- und NE-Abfallbehandlung. Offen bleiben
+E-Mail und Öffnungszeiten ohne zweiten Beleg; ein Ankaufpreis ist nicht veröffentlicht, die
+Abrechnung nach Gewicht und Marktpreisen ist nur Preismethodik.
 
 ## Timeline
 

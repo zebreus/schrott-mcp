@@ -1,5 +1,7 @@
 ---
 slug: he-dietzenbach-cristofor-schrotthandel
+lat: 50.0141078
+lon: 8.7864837
 name: Cristofor Schrotthandel
 trader_type: schrotthaendler
 state: HE
@@ -15,7 +17,6 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'geo'
 certifications: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
@@ -62,3 +63,34 @@ Die Website von Cristofor Schrotthandel ist erreichbar und nennt Cristofor Ciura
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Cristofor Schrotthandel` (Marktheidenfelder Weg 2, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Cristofor` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Cristofor` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Marktheidenfelder Weg 2, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Marktheidenfelder Weg 2, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 1,1 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 1,2 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 1,3 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Marktheidenfelder Weg 2, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Cristofor Schrotthandel`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **36 Treffer**, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Cristofor ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Cristofor ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Marktheidenfelder+Weg+2%2C+63128+Dietzenbach%2C+Deutschland%3B8.786498%3B50.01424%3B8.787695730291501%3B50.0156111302915%3B8.784997769708498%3B50.0129131697085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Marktheidenfelder%20Weg%202%2C%2063128%20Dietzenbach%2C%20Deutschland;8.786498;50.01424;8.787695730291501;50.0156111302915;8.784997769708498;50.0129131697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Marktheidenfelder%20Weg%202%2C%2063128%20Dietzenbach%2C%20Deutschland;8.786498;50.01424;8.787695730291501;50.0156111302915;8.784997769708498;50.0129131697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.0141078/8.7864837** (Mittelwert der
+  eindeutigen Knoten von way/40922223, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber):** das Impressum von
+  https://cristofor-schrotthandel.de/impressum/ (im Dossier am 23./26./28.10.2026 live gelesen und hier zitiert) nennt
+  wörtlich "Anschrift Cristofor Schrotthandel, Geschäftsführer: Cristofor Ciurar, Marktheidenfelder Weg 2, 63128
+  Dietzenbach, Tel: +49 163 9392817, E-Mail: info@cristofor-schrotthandel.de" - die Dossier-Anschrift ist damit
+  betreiberseitig belegt (HRB und USt-IdNr stehen dort weiterhin auf "folgt", es bleibt also eine Betreiber-Selbstauskunft
+  ohne unabhängige Registerbrücke). **Quelle 2 (OSM):** way/40922223, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/40922223/full.json), trägt `addr:housenumber`=2, `addr:street`=Marktheidenfelder
+  Weg, `addr:city`=Dietzenbach, `addr:postcode`=63128, `building`=yes, `building:levels`=17; **9** Knoten, davon **8**
+  eindeutig, Objekt-BBox 8.7862900/50.0139994 bis 8.7867589/50.0143320, der Punkt liegt innerhalb. **Fensterdisziplin
+  (kein Fensterfehler):** das am 05.11.2026 live abgefragte Kachelraster **8.7800/50.0100 bis 8.7900/50.0200**
+  (0,01-Grad-Kacheln, **1** Kachel, **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig**; die Straße
+  "Marktheidenfelder Weg" ist dort mit **3** Adressobjekten und **2** verschiedenen Hausnummern (**2** und **4**) erfasst
+  (way/40922223 zu Nummer 2, way/35668548 zu Nummer 4, dazu die Straßenrelation/252775 mit `name`=Marktheidenfelder Weg),
+  die Dossier-Hausnummer **2** existiert also in OSM. **Betriebsbezug in OSM:** keiner - way/40922223 trägt **weder**
+  `name` **noch** `operator`; eine Suche nach "Cristofor|Ciurar|Emji|Gogircea|Schrott" über die Felder name, operator,
+  brand, description, website, contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen**
+  Treffer. Der gesetzte Punkt ist folglich ein **Adresspunkt der belegten Betriebsanschrift, kein bestätigter
+  Betriebseingang**; das OSM-Objekt kann die an derselben Hausnummer geführte Marke "Emji-Schrott" (Dossier
+  he-dietzenbach-emji-schrott) **nicht** trennen, eine Zusammenführung wird **nicht** behauptet. **Zurücknahme des `geo`-Tokens (Begründung):** der
+  Token `geo` wird aus `clear_fields` **entfernt**, weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der
+  Seed `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md); der zuvor zurückgezogene Produktionspunkt
+  50.0098/8.7778 (Hammannsgasse 6, rund 800 m entfernt) wird damit durch den belegten Adresspunkt ersetzt. `status` bleibt
+  `pruefung`, alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder
+  einer Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/40922223/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/35668548/full.json ; https://cristofor-schrotthandel.de/impressum/ ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.01,8.79,50.02 (Abruf 05.11.2026)]

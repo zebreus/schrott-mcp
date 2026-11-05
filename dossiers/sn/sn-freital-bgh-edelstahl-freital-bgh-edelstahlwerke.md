@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BGH Edelstahl Freital GmbH, Am Stahlwerk 1, 01705 Freital: EAF-Edelstahlwerk und
+Produktionsstandort, kein öffentlicher Schrottankauf; der Schrottbezug läuft über Händler und
+Großmengen, der Schrotteinkauf der BGH-Gruppe über die SRG Schrott & Recycling GmbH in Siegen.
+Die Identität tragen das Impressum (BGH Edelstahlwerke GmbH, Registergericht Dresden, HRB 7)
+und die Standortseite der Betreiberdomain, OSM way/98898585 benennt den Betrieb selbst an der
+Hausnummer 1, und die Einkaufsbedingungen der Gruppe (Stand 11/2023) führen „03 - BGH Edelstahl
+Freital GmbH" im Geltungsbereich. Offen bleibt, dass keine Ankaufskurse und keine
+Verkaufspreisliste veröffentlicht sind, die Einkaufsbedingungen nur den Konditionsrahmen regeln
+und keine Gebühren ausweisen; die E-Mail bleibt leer, weil nur eine Datenschutzadresse
+publiziert ist.
 
 ## Timeline
 

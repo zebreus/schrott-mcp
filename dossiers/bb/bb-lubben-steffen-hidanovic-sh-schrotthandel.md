@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SMR GmbH, Mühlbergweg 10, 15907 Lübben-Neuendorf, mit Schrotthandel, Altmetallankauf,
+Schrottannahme und Containerdienst; eine Betreiber-News vom 22.08.2024 belegt den Wechsel
+vom SH Schrotthandel zur SMR GmbH und den Betrieb des neuen Platzes seit Juni 2024. Als
+Rechtsträger weist das Betreiber-Impressum HRB 15078 Cottbus aus, während die
+Registerrecherche HRB 17372 Cottbus für die SMR GmbH in Lübben findet; die Stadt Hoyerswerda
+ordnet den Betrieb der Familie Hidanovic zu, die Stadt Lübben führt Seki Hidanovic nur mit
+einer Vereinsadresse und belegt damit keinen Rechtsträger. Offen bleibt damit die
+Betreiberidentität: Die abweichenden Registernummern lassen die Ausnahme für eigene
+Filialfakten nicht zu, ein Direktabruf beim Handelsregister war nicht verifizierbar, und der
+importierte Vorname Steffen ist nicht belegt; das Dossier führt keine Koordinaten.
 
 ## Timeline
 

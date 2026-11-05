@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TIMA Tungsten GmbH ist ein Recyclingbetrieb für Hartmetallschrott, der Wolframschrott zu regeneriertem
+Wolframkarbidpulver umarbeitet; das Impressum der Betreiberseite führt die Gesellschaft mit Registereintrag
+HRB 20731 Regensburg, dem Geschäftsführer Shiyong Li und dem Sitz Bayernstraße 16, 93128 Regenstauf, wo sie
+seit Januar 2024 ansässig ist. Die Unternehmenshistorie des Betreibers belegt die Standortkette Altona 2002
+bis 2009, HafenCity 2009 bis 2015, Norderstedt 2015 bis 2023 und Regenstauf ab 2024; ein Registerspiegel
+bestätigt Register, Sitzverlegung und die früheren Firmen TIMA Handels GmbH und XINYUAN Metals & Minerals
+GmbH. Der Dossier-Eintrag HafenCity ist damit ein historischer Standort dieser Gesellschaft, für den die
+Betreiberhistorie keine Straße und keine Postleitzahl nennt; eine Hamburger Anschrift wurde deshalb nicht
+übernommen. Offen bleiben die Öffnungszeiten, die Anliefer- und Abholbedingungen sowie die Koordinaten.
 
 ## Timeline
 

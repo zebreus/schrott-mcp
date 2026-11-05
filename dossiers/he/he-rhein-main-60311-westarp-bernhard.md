@@ -78,3 +78,29 @@ Der belastbare Namensfund ist Rohstoffhandel BERNHARD WESTARP GmbH & Co. KG in A
   https://www.bayernhafen.de/firmenverzeichnis/rohstoffhandel-bernhard-westarp-gmbh-co-kg/ ;
   https://schrottregister.pages.dev/betrieb-rohstoffhandel-bernhard-westarp-gmbh-co-kg-aschaffenburg ;
   https://schrottregister.pages.dev/ort-frankfurt-am-main ; read-only `public.db` (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Der
+  Dossier-Ortswert "Rhein-Main 60311" enthält **keine Geschäftsstraße** und damit **keine Hausnummer**, nach der im
+  Kachelraster gesucht werden könnte - ein adressgenaues OSM-Objekt kann diesem Datensatz nicht zugeordnet werden.
+  Quelle 1 (OSM, live geprüft am 05.11.2026): **nicht anwendbar** - mangels Dossier-Hausnummer gibt es kein Suchfenster;
+  das live abgerufene Kachelraster über den Frankfurter Innenstadtbereich **8.6800/50.1050 bis 8.7000/50.1250** (**4**
+  Kacheln von je 0,01 Grad, **0** Kachel-Fehler, 36612 Elemente) belegt, dass der zentrale Frankfurter Bereich adressgenau
+  kartiert ist (Straßen "Fahrgasse" und "Berger Straße" mit 53 bzw. 47 Adressobjekten), enthält aber **kein** Objekt mit
+  Bezug zu "Westarp" oder "Bernhard" - eine Suche nach "Goldankauf|Gold|Silber|Edelmetall|DEG" über die Felder name,
+  operator, brand, description, website, contact:website, shop, craft und addr:housename findet dort **keinen**
+  Westarp-Treffer. Quelle 2 (Betreiber/Register): das am 23.10.2026 direkt gelesene Impressum der Betreiberseite nennt
+  **Rohstoffhandel BERNHARD WESTARP GmbH & Co. KG, Hafenrandstraße 5-6, 63741 Aschaffenburg, HRA 466 AG Aschaffenburg**;
+  das Dossier hält dazu fest: "eine Frankfurter Betriebsstätte oder Verbindung zu `Rhein-Main 60311` ist dort nicht belegt"
+  und "KEIN Beleg für Standort/Aktivität in Frankfurt 60311". Das amtlich geklärte Standortregister der Westarp-Gruppe führt
+  weiterhin **keine** Frankfurter Betriebsstelle; der Dossier-Name "Westarp Bernhard GmbH" ist zudem eine andere Firmierung
+  als die belegte "Rohstoffhandel Bernhard Westarp GmbH & Co. KG". **Warum keine Koordinate:** eine Geokodierung des
+  Aschaffenburger Stammsitzes würde einen Frankfurter Datensatz in eine andere Stadt setzen, und die Sitz der belegten
+  Gesellschaft liegt ohnehin über die Dossierzeile hinaus (die Westarp-Gruppe führt weitere Standorte). Der gespeicherte
+  Altpunkt 50.0799000/8.4464000 wird mit `clear_fields: 'geo'` ohnehin zurückgenommen; `status` bleibt `pruefung`.
+  **Reichweitenklausel:** das Fehlen einer Dossier-Hausnummer ist **kein** Nachweis für das Fehlen des Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.68,50.105,8.7,50.125 ; https://www.westarp-kg.de/impressum/ ;
+  https://www.westarp-kg.de/einkaufspreise/ ;
+  https://www.bayernhafen.de/firmenverzeichnis/rohstoffhandel-bernhard-westarp-gmbh-co-kg/ ;
+  https://schrottregister.pages.dev/ort-frankfurt-am-main (Abruf 05.11.2026)]

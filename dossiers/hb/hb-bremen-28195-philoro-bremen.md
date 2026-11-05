@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+philoro Bremen ist die Bremer Filiale der philoro EDELMETALLE GmbH mit Sitz in Leipzig, Barfußgässchen 11, HRB
+27556, die Altgold, Zahngold und Silber ankauft. Filialseite, Kontakt- und Ankaufsseiten sowie ein
+Ankaufsformular als PDF vom April 2024 belegen die Filiale und nennen Bremen als Übergabefiliale; das
+Impressum nennt die Geschäftsführer Steffen Horn und Tobias Kascha, ein Registerspiegel ist damit kongruent,
+aber kein amtlicher Auszug. Die Filiale sitzt in der Wachtstraße 20, 28195 Bremen, die Eröffnung nennt der
+Betreiber mit 2016. Barzahlung oder Überweisung sind belegt, versilbertes Besteck wird ausgeschlossen; ein
+Raffineriewerk am Bremer Standort ist nicht belegt, GOLDWERK liegt in Korneuburg in Österreich. Offen bleibt
+die Koordinatenzuordnung, da Nominatim nur einen Ladenpunkt und kein passendes Gebäude liefert und die
+strukturierte Auszeichnung des Betreibers rund 40 Meter abweicht.
 
 ## Timeline
 

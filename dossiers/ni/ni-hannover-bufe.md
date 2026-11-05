@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BUFE GmbH ist ein Entsorgungsfachbetrieb in Hannover, Erythropelstraße 50, 30519, der Schrott und NE-Metalle
+an- und verkauft, Schrottannahme, Containerdienst sowie die Annahme von Bauschutt, Grünabfall und Holz
+anbietet. Betreiberseite, Kontakt- und Impressumsseite belegen Anschrift, Telefon 0511 865403, die Adresse
+info@bufegmbh.de, die Zeiten von Montag bis Freitag sowie ein EFB-Zertifikat 2026. Das Impressum nennt als
+Registerangabe HRA Abt. B Nr. 0380 des Amtsgerichts Hannover, was für eine GmbH ungewöhnlich ist; ein
+Registerspiegel führt unter derselben Anschrift und mit gleichem Geschäftszweck die Bufe Metall-, Rohstoff-
+und Schrotthandelsgesellschaft mbH unter HRB 380 und nennt dieselben drei Geschäftsführer wie die
+Betreiberseite. Die Zuordnung ist damit vertretbar, doch Impressumsfehler und Firmierung bleiben als
+Restunsicherheit dokumentiert. Offen bleiben ein amtlicher Registerauszug und die neu zu geocodierenden
+Koordinaten.
 
 ## Timeline
 

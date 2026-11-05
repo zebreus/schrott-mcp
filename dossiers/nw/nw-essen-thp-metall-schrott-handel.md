@@ -79,3 +79,37 @@ Der einzige verbleibende Treffer ist weiterhin der Branchenbucheintrag city-map:
   https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9900,51.4500,7.0300,51.4900 ;
   https://essen.city-map.de/de/thp-metall-schrott-handel ; https://schrottregister.pages.dev/ort-essen
   (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom
+  03.11.2026.** Die Dossier-Adresse **Schlenhofstr. 10** ist in OSM adressgenau erfasst, die Identität des Betriebs
+  **THP Metall + Schrott Handel** an dieser Anschrift aber ausschließlich **verzeichnisgestützt**; ein Betreiber- oder
+  Registerbeleg fehlt. **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** (a) das Adressobjekt existiert:
+  **way/279103048** mit `addr:housenumber`=**10**, `addr:street`=Schlenhofstraße, `addr:city`=Essen,
+  `addr:country`=DE, `addr:postcode`=**45141**, `building`=apartments (Mittel der **4** eindeutigen Way-Knoten
+  **51.4658891/7.0084599**, BBox 51.4657776/7.0083426 bis 51.4660009/7.0085769); die Schreibweise „Schlenhofstr." des
+  Dossiers entspricht der OSM-Schreibweise „Schlenhofstraße". (b) das Kachelraster **7.0000/51.4500 bis 7.0300/51.4800**,
+  **9 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0000,51.4500,7.0300,51.4800) **umschließt die Objekt-BBox
+  vollständig**, enthält die **„Schlenhofstraße“** nachweislich und vollständig (Verlauf 51.4651236/7.0066555 bis
+  51.4678240/7.0080482) und erfasst sie mit **29** Adressobjekten; sie weist **29** verschiedene Hausnummern (1, 10, 12, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 3, 30, 31, 32, 34, 36, 38, 5, 6, 7, 8) - die **Dossier-Hausnummer 10 existiert**. (c) das Objekt trägt
+  **weder** `name=` **noch** `operator=` und **keinen** `industrial`- oder Gewerbe-Tag; es ist als **Wohngebäude**
+  kartiert. Eine Suche nach „THP" über die Felder name, operator, brand, description, website, contact:website, note und
+  addr:housename findet im Kachelausschnitt **keinen** Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den
+  Betrieb. **Quelle 2 (Verzeichnis, keine Betreiber-/Registerquelle):** der Branchenportal-Eintrag city-map führt „THP
+  Metall+Schrott Handel", Schlenhofstraße 10, 45141 Essen, Tel. 0201 8325192 / Fax 0201 8325904, **ohne**
+  Homepage-Ziel und ohne Betreiberkennzeichnung - nach der dokumentierten Quellenhierarchie ein **Lead**, kein Beleg;
+  Betreiberseite, Impressum, Registertreffer, kommunaler Beleg und ein operator-run Social-Profil existieren nicht. Das
+  im Dossier zitierte **amtliche Fachbetrieberegister** (Auszug 11.08.2026, Ortsseite Essen) führt **kein** THP - die
+  EFB-Anerkennung ist freiwillig, das ist ein Negativbefund **ohne Beweiswert**. **Warum keine Koordinate:** Die zweite
+  erforderliche Quelle (Betreiber- oder Registerbeleg) fehlt; der Punkt wäre ein Adresspunkt ohne belegten Betriebsbezug
+  und würde den in OSM als Wohngebäude kartierten Bestand als Schrottstandort ausweisen. **Was zur Auflösung fehlt:** eine
+  Betreiber- oder Registerquelle zu „THP Metall+Schrott Handel" an der Schlenhofstraße 10. `clear_fields: 'geo'` bleibt
+  bestehen, `status: pruefung` bleibt unverändert, es wird weder Annahme noch Tätigkeitsbestand behauptet.
+  **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder
+  Schließungsbeweis; eine vorhandene Hausnummer belegt umgekehrt **keinen** Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/279103048/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0000,51.4500,7.0300,51.4800 ;
+  https://essen.city-map.de/de/thp-metall-schrott-handel ; https://schrottregister.pages.dev/ort-essen (Abruf 05.11.2026).]
+

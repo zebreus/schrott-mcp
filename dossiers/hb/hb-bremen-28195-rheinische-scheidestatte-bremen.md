@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rheinische Scheidestätte Bremen ist die Bremer Edelmetallankaufsfiliale der Rheinischen Scheidestätte GmbH mit
+Sitz in der Bilker Straße 37, Düsseldorf, HRB 67778, mit dem Geschäftsführer Nicole Scholand; ein
+Registerspiegel ist kongruent, aber kein amtlicher Auszug. Die Filiale in der Knochenhauerstraße 41 bis 42,
+28195 Bremen, ist über die Betreiberseite und unabhängig über das Branchenportal GOLD.DE belegt, das Anschrift
+und Telefon bestätigt; der Ankauf von Altgold, Zahngold und Silber sowie der Versandankauf sind beschrieben.
+Das Versandbegleitschreiben belegt Einsendung und eine möglicherweise zerstörende Materialanalyse, aber kein
+eigenes industrielles Scheidwerk in Bremen. Die Koordinaten folgen dem Gebäudemittelpunkt des Bürohauses way
+202161844 und weichen vom Kartenpin des Betreibers ab. Offen bleiben Tagespreise und Gebührenangaben sowie ein
+amtlicher Registerauszug.
 
 ## Timeline
 

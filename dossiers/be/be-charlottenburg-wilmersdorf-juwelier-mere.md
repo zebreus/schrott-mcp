@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Juwelier Mere, Fredericiastr. 2, 14059 Berlin-Charlottenburg, ein Gold-, Uhren-, Schmuck-
+und Antiquitätenankauf mit anhängendem Online-Shop; Betreiber ist die Kunst und Preziosen
+Berlin UG mit Geschäftsführer Reduan Mere und HRB 193472 Amtsgericht Charlottenburg, wie
+Impressum und Register belegen. Der erste Beleg war nur ein Verzeichniseintrag, weshalb der
+Status zunächst auf pruefung zurückgenommen wurde; das Betreiber-Impressum nennt dieselbe
+Telefonnummer wie dieser Eintrag, und der zweite Auftritt juweliermere.com läuft unter
+derselben Anschrift, Nummer und Mailadresse. Offen bleibt die Zuordnung der Öffnungszeiten:
+Der Shop nennt 11 bis 18 Uhr und 11 bis 15 Uhr, übernommen wurden die Impressumswerte 10 bis
+18 Uhr und 10 bis 16 Uhr. Das Dossier führt keine Koordinaten; die Geokodierung der
+bereinigten Anschrift ist neu zu laufen.
 
 ## Timeline
 

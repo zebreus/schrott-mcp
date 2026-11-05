@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Recycling Wagner, Inhaber Toni Wagner, Kraichgaustrasse 17, 74889 Sinsheim-Hilsbach, ein
+mobiler Schrott- und NE-Metallankauf mit Abholung ab 500 kg, Containerdienst und Demontage;
+das Betreiber-Impressum vom 01.10.2026 nennt Anschrift, Telefon +49 160 2509275, die
+Mailadresse, die USt-IdNr. DE279495340 und ausdrücklich keinen Registereintrag. Offen bleibt
+die Annahmefrage: Der Firmensitz ist nicht als Annahmestelle belegt, die Betreiberseiten
+sprechen von keinem klassischen Walk-in und verlangen für Anlieferungen einen Termin, eine
+vereinbarte Anlieferung ist damit nicht ausgeschlossen und bleibt offen, weshalb das Feld
+für die Anlieferung leer bleibt. Das Verzeichniseintrag führt Name und Anschrift nur als
+Lead, die Zeiten sind als Service- und nicht als Hofzeiten geführt, Preise werden nicht
+veröffentlicht, und das Dossier führt keine Koordinaten.
 
 ## Timeline
 

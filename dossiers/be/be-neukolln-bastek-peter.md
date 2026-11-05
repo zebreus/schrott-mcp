@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Verzeichniseintrag Bastek Peter an der Jonasstr. 17, 12053 Berlin-Neukölln, dessen Tätigkeit
+als Schrottplatz neben einem Bauunternehmen mit Abbrucharbeiten unter demselben Namen und
+Anschrift geführt wird; eine Betreiber-Website fehlt. Belegt ist nur ein Aggregator-Lead,
+die über mehrere Verzeichnisse übereinstimmende Nummer 030 6812911 gilt nicht als zweiter
+Beleg, das Telefonfeld bleibt leer. Offen ist die gesamte Identitäts- und Abgrenzungsfrage:
+Im amtlichen Fachbetrieberegister steht für Berlin kein Betrieb Bastek und kein Eintrag an
+der Jonasstraße, eine Registersuche findet unter diesem Namen nur andersorts geführte
+Rechtsträger und keinen Berliner Eintrag, was ohne Beweiswert bleibt. Der YouTube-Kanal
+Bastek recykling lässt sich der Anschrift nicht zuordnen, und der Nachbarbetrieb an
+derselben Hausnummer ist nicht abgegrenzt; eine kommunale Auskunft bleibt offen.
 
 ## Timeline
 

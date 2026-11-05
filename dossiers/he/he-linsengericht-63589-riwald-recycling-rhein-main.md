@@ -1,5 +1,7 @@
 ---
 slug: he-linsengericht-63589-riwald-recycling-rhein-main
+lat: 50.1951057
+lon: 9.1841949
 name: Riwald Recycling Rhein-Main GmbH (Betrieb Gelnhausen)
 trader_type: schrotthaendler
 state: HE
@@ -45,3 +47,40 @@ Der Betreiber vermarktet diesen Standort als „Gelnhausen“; die veröffentlic
   DATUM: Für Preise ist kein Datum ausgewiesen. Datums-Indizes sind der AGB-Stand „Stand: Oktober 2024" (AGB-Fassung, kein Preisstand) und das Copyright-Jahr „©2025 Riwald". Der Abrufzeitpunkt (01.11.2026, 07:28 UTC) ist der einzige harte Zeitanker.
   OFFENE PUNKTE: (1) Ob der Betrieb eine Preisliste nach Sorten führt und ob sie auf Anfrage herausgegeben wird, ist nicht belegbar — öffentlich existiert keine Preisquelle. (2) Ob Gelnhausen/Linsengericht gegenüber Frankfurt und Hanau abweichende Konditionen hat, ist nicht belegbar. (3) Ob die AGB-Fassung „Stand: Oktober 2024" aktuell gilt, ist nicht belegt. (4) Die vom Betreiber verwendete Ortsbezeichnung „Gelnhausen" bei der Linsengerichter Lagerhausstraße bleibt durch die Preisrecherche unberührt. (5) Eine Preisfreiheit auf der Domain belegt nicht, dass der Betrieb keine Preise anbietet — die Aussage ist „öffentlich nicht veröffentlicht", nicht „keine Preise".
   Quelle(n): https://www.riwald.de/materialien-und-leistungen-de-riwald-recycling-rhein-main/ ; https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ ; https://www.riwald.de/sell-to-us/ ; https://www.riwald.de/downloads-de-riwald-recycling-rhein-main/ ; https://c89f9f6bd94de186-endpoint.azureedge.net/wp-content/uploads/2025/06/20241001_Riwald-Recycling-Rhein-Main-GmbH_Verkaufs-AGB-Deutsch.pdf (Live-Abruf 01.11.2026, 07:28 UTC)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.1951057/9.1841949** (Mittelwert der
+  eindeutigen Knoten von way/144924584, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber/Register):** die
+  Standortseite https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ (im Dossier am 05.10. und 01.11.2026 live
+  gelesen und hier zitiert) führt den Standort als "Gelnhausen, Lagerhausstr. 8, 63589 Linsengericht, +49 (06051) 9734-0,
+  info.rrrm@riwald.de" mit den Warenannahmezeiten Mo-Do 07:30-15:30 und Fr 07:30-15:00; das Impressum
+  https://www.riwald.de/impressum-de-riwald-recycling-rhein-main/ und NorthData belegen die Rechtsträgerin "Riwald
+  Recycling Rhein-Main GmbH", HRB 50373 AG Frankfurt - Dossier-Anschrift, Rechtsträger und Register sind belegt.
+  **Quelle 2 (OSM):** way/144924584, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/144924584/full.json), trägt `addr:housenumber`=8, `addr:street`=Lagerhausstraße,
+  `addr:city`=Gelnhausen, `addr:postcode`=63589, `addr:suburb`=Hailer, `addr:country`=DE, `building`=yes; **9** Knoten,
+  davon **8** eindeutig, Objekt-BBox 9.1840665/50.1949879 bis 9.1843868/50.1951869, der Punkt liegt innerhalb.
+  **Fensterdisziplin (kein Fensterfehler):** das Feinraster um die Hausnummer **9.1800/50.1900 bis 9.1900/50.2000**
+  (0,01-Grad-Kacheln, **1** Kachel, **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig** und weist auf
+  "Lagerhausstraße" **16** Adressobjekte mit **10** verschiedenen Hausnummern aus (7-9, **8**, 10, 11, 12, 14, 15, 15a,
+  17, 19); die Nummer 8 ist im Raster das **einzige** Objekt mit dieser Nummer. **Betriebsbezug in OSM, zusätzlich
+  gefunden:** way/792443610 (live geladen 05.11.2026, HTTP 200) trägt `operator`=**Alba Metall Süd Rhein-Main GmbH**,
+  `description`=**Container-Lagerplatz**, `access`=private, `barrier`=fence, BBox 9.1856403/50.1941960 bis
+  9.1866634/50.1948503, Mittelwert 50.1946134/9.1861720 - der Betriebshof derselben Gesellschaftskette
+  (Alba Metall Süd Rhein-Main GmbH ist der Vorgängername der Riwald Recycling Rhein-Main GmbH) liegt rund **110 m** vom
+  Adressobjekt in derselben Straßenzeile; die Suche nach "Riwald|Recycling|Schrott|Metall" findet im Kachelausschnitt
+  **keinen** weiteren Treffer. **Ortsangabe, geklärt:** die Adressobjekte der Lagerhausstraße tragen teils
+  `addr:city`=Linsengericht/`addr:postcode`=63589 und teils `addr:city`=Gelnhausen/`addr:postcode`=63571; das Objekt zur
+  Nummer 8 trägt `addr:city`=**Gelnhausen** bei `addr:postcode`=**63589**, `addr:suburb`=Hailer - die Dossier-Angabe
+  "63589 Linsengericht" und die Betreiber-Ortsbezeichnung "Gelnhausen" sind beide im OSM-Bestand abgebildet. **Clear-
+  Direktive:** dieses Dossier führt **kein** `clear_fields` und damit keinen `geo`-Token - es ist nichts zu entfernen;
+  der Seed akzeptiert das Koordinatenpaar ohne Widerspruch. `status` bleibt `aktiv`, alle übrigen Felder (Öffnungszeiten,
+  `dropoff_json`, Telefon, E-Mail, Website) bleiben unverändert. **Reichweitenklausel:** der Punkt ist ein
+  **Adresspunkt**; eine öffentliche Selbstanlieferung ist damit nicht belegt, die `dropoff_json`-Angabe bleibt wie im
+  Dossier bestehen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/144924584/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/792443610/full.json ;
+  https://www.riwald.de/standorte-de-riwald-recycling-rhein-main/ ;
+  https://www.riwald.de/impressum-de-riwald-recycling-rhein-main/ ;
+  https://www.northdata.de/Riwald+Recycling+Rhein-Main+GmbH,+Frankfurt+am+Main/HRB+50373 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.18,50.19,9.19,50.2 (Abruf 05.11.2026)]

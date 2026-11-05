@@ -1,5 +1,7 @@
 ---
 slug: nw-bielefeld-pro-aurum-filiale
+lat: 52.0185466
+lon: 8.5322859
 name: pro aurum GmbH Filiale Bielefeld
 trader_type: sonstige
 state: NW
@@ -68,3 +70,43 @@ Seit 2025 bestehende öffentliche Filiale für Edelmetallhandel und Beratung. F�
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=33602%20Bielefeld%2C%20Deutschland;8.532219;52.0185026;8.532219;52.0185026;8.532219;52.0185026&dst=3&is=1&e=1
   ; https://www.muenzenverband.de/mitgliederliste/ ; https://www.muenzenverband.de/zertifizierte-goldankaeufer/ ;
   https://muenzenverband.de/wp-content/uploads/Mitgliederliste.pdf ; https://www.proaurum.de/ (Abruf 02.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **52.0185466/8.5322859** (Mittelwert des **1**
+  eindeutigen Knotens von node/12978482403; bei Nodes liefert `/full.json` HTTP 404, deshalb `node/<id>.json`; die
+  Objekt-BBox ist der Punkt selbst, 52.0185466/8.5322859 bis 52.0185466/8.5322859, und **umschließt den
+  Mittelwert**). **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** node/12978482403 trägt
+  `addr:housenumber`=**1b**, `addr:street`=Am Bach, `addr:city`=Bielefeld, `addr:country`=DE,
+  `addr:postcode`=**33602**, `name`=**pro aurum**, `shop`=**gold_buyer**,
+  `website`=https://www.proaurum.de/unternehmen/standorte/bielefeld/ sowie `opening_hours`=Mo-Fr 09:30-13:00,14:00-18:00;
+  We,Sa 09:30-14:00; Su,PH off - Straße, Hausnummer, PLZ, Ort **und** die Öffnungszeiten stimmen mit der
+  Dossier-Adresse **Am Bach 1b, 33602 Bielefeld** und dem Frontmatter-Zeitfeld überein. **Fensterdisziplin:** für diese
+  Zeile lag noch kein Geokodierungs-Vermerk vor; das Fenster wurde deshalb zuerst aus der Lage der Straße bestimmt und
+  erst danach um die Hausnummer herum abgetastet: das am 05.11.2026 live abgefragte Kachelraster umfasst
+  **8.5100/52.0000 bis 8.5600/52.0400**, **20 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=8.5100,52.0000,8.5600,52.0400); es **umschließt die
+  Objekt-BBox vollständig** und enthält die Straße **Am Bach** nachweislich und vollständig mit den Straßenobjekten
+  way/5363673, way/170212750, way/800661258 und way/976948214 (Verlauf 52.0182015/8.5303506 bis 52.0194703/8.5335992);
+  die Straße trägt im Fenster **19** Adressobjekte; sie weist **19** verschiedene Hausnummern (1, 10, 11, 12, 14, 15, 16, 17, 18, 19, 1a, 1b, 2, 20, 3, 4, 5, 6, 8)
+  - die **Dossier-Hausnummer 1b existiert** (neben 1, 1a, 2, 3, 4, 5, 6, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20). **Quelle 2
+  (Betreiber, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** die standortbezogene Seite
+  https://www.proaurum.de/unternehmen/standorte/bielefeld/ nennt live **„pro aurum GmbH Filiale Bielefeld, Am Bach 1 b,
+  33602 Bielefeld"**, Telefon **+49 521 304 667 - 0**, E-Mail bielefeld@proaurum.de, Öffnungszeiten Mo, Di, Do, Fr
+  09:30-13:00 und 14:00-18:00 Uhr, Mi 09:30-14:00 Uhr, Sa 09:30-14:00 Uhr und beschreibt die Eröffnung der Filiale im
+  **Februar 2025**; die Anfahrtsbeschreibung nennt das Gebäude **„pro aurum Bielefeld, Am Bach 1b"** ausdrücklich.
+  Das im Dossier zitierte **Impressum** belegt die Rechtsträgerin **pro aurum GmbH**, **HRB 178875, Amtsgericht München**,
+  und das im Dossier zitierte NorthData-Register deckt denselben Registereintrag - die Identität der Rechtsträgerin ist
+  damit belegt. **Betriebsbezug in OSM:** diesmal **vorhanden** - der Knoten trägt `name`=pro aurum und `shop`=gold_buyer;
+  der Punkt bezeichnet damit den **betrieblichen Standort** selbst und nicht nur eine Adresse. **Zurücknahme eines
+  `geo`-Tokens:** das Frontmatter dieses Dossiers führt **keinen** `clear_fields`-Eintrag und damit keinen `geo`-Token;
+  es ist nichts zu entfernen, das Dossier trägt jetzt das belegte Paar. `status: aktiv`, `street`, `postcode`, `phone`,
+  `email`, `opening_hours`, `website` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen
+  eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt den
+  Standort der Filiale, nicht Schrottannahme oder Gebühren. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/12978482403.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.5100,52.0000,8.5600,52.0400 ;
+  https://www.proaurum.de/unternehmen/standorte/bielefeld/ ;
+  https://www.proaurum.de/impressum/ ;
+  https://www.northdata.de/pro%20aurum%20GmbH,%20M%C3%BCnchen/HRB%20178875 (im Dossier zitiert, Abruf 05.11.2026).]
+

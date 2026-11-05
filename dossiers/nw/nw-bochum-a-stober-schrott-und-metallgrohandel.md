@@ -1,5 +1,7 @@
 ---
 slug: nw-bochum-a-stober-schrott-und-metallgrohandel
+lat: 51.4465328
+lon: 7.2003689
 name: A. Stöber Schrott- und Metallgroßhandel
 trader_type: schrotthaendler
 state: NW
@@ -13,7 +15,6 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
@@ -90,3 +91,57 @@ Der Seedname „A. Stöber Schrott- und Metallgroßhandel“ passt zu Verzeichni
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=St%C3%B6ber%20Schrott ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=44795%20Bochum%2C%20Deutschland;7.2006424;51.4465806;7.2006424;51.4465806;7.2006424;51.4465806&dst=3&is=1&e=1
   (Abruf 02.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4465328/7.2003689** (Mittelwert des **1**
+  eindeutigen Knotens von node/5762381148; bei Nodes liefert `/full.json` HTTP 404, deshalb `node/<id>.json`; die
+  Objekt-BBox ist der Punkt selbst, 51.4465328/7.2003689 bis 51.4465328/7.2003689, und **umschließt den
+  Mittelwert**). **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** node/5762381148 trägt `name`=**A. Stöber**,
+  `shop`=**junk**, `description`=**„Schrott- und Metallgroßhandel. Metallgroßhandel, Lumpensortierbetrieb,
+  Altpapiergroßhandel"**, `contact:phone`=**+49 234 472761**, `website`=http://schrotthandel-stoeber.de sowie
+  `addr:housenumber`=**34**, `addr:street`=Am Kuhlenkamp, `addr:city`=Bochum, `addr:country`=DE,
+  `addr:postcode`=**44795** - das ist ein **betrieblicher Geschäftsknoten** mit Namen, Tätigkeit, Telefonnummer und
+  Website, nicht nur eine Adressangabe; Straße, Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse **Am Kuhlenkamp
+  34, 44795 Bochum** überein. **Fensterdisziplin:** für diese Zeile lag noch kein Geokodierungs-Vermerk vor; das Fenster
+  wurde deshalb zuerst aus der Lage der Straße bestimmt und erst danach um die Hausnummer herum abgetastet: das am
+  05.11.2026 live abgefragte Kachelraster umfasst **7.1900/51.4400 bis 7.2500/51.4800**, **24 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1900,51.4400,7.2500,51.4800); es
+  **umschließt die Objekt-BBox vollständig** und enthält die Straße **„Am Kuhlenkamp“** nachweislich und vollständig mit
+  zwölf Straßenobjekten (Verlauf 51.4460361/7.1985655 bis 51.4478625/7.2056167); die Straße trägt im Fenster **41**
+  Adressobjekte; sie weist **41** verschiedene Hausnummern (1, 10, 10a, 12, 12a, 14, 15, 16, 17, 17a, 18, 19, 20, 21, 21a, 21b, 21c, 21d, 23, 24, 24a, 25, 26, 26a, 26b, 28, 28a, 28b, 29, 3, 31, 34, 34a, 40, 42, 44, 46, 48, 6, 7, 8) - die
+  **Dossier-Hausnummer 34 existiert** in OSM (daneben 34a: „Huschke & Wirth", `shop`=car_repair, und 31, 28, 28a,
+  28b, 29, 26, 26a, 26b, 25, 24, 24a, 23, 21, 21a, 21b, 21c, 21d, 20, 19, 18, 17, 17a, 16, 15, 14, 12, 12a, 10, 10a,
+  8, 7, 6, 3, 1). **Quelle 2 (Betreiber, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen):** das
+  **Impressum der Betreiberseite selbst** ist als Web-Archiv-Abbild vom **11.04.2015** belegt
+  (https://web.archive.org/web/20150411084554/http://schrotthandel-stoeber.de/Impressum.jpg) und nennt wörtlich:
+  **„Schrott- und Metallgroßhandlung A. Stöber"**, **„Diensteanbieter: Schrott- und Metallgroßhandlung A. Stöber"**,
+  **„Registriert unter: HRA 961 (Bochum)"**, **„Verantwortliche Ansprechperson: Albert Stöber, Reinhard Hoberg"**,
+  **„Anschrift: Am Kuhlenkamp 34, 44795 Bochum"**, **„elektronische Postadresse: info@schrotthandel-stoeber.de"**,
+  **„Tel.: 02 34 / 47 27 61"**, **„Umsatzsteueridentifikationsnummer: 178790044"** sowie den Zweck „Firmenvorstellung
+  und Preisübersicht". Der **Live**-Abruf von http://schrotthandel-stoeber.de/ am 05.11.2026 liefert weiterhin **nur eine
+  Anubis-JS-Challenge ohne lesbaren Inhalt** (das Dossier hatte das bereits am 28.10.2026 dokumentiert); die Domain
+  gehört aber unstreitig zum selben Betrieb, weil Impressum, OSM-Knoten und Verzeichnis dieselbe Telefonnummer **0234
+  472761** und dieselbe Anschrift nennen. **Quelle 3 (Verzeichnis, live nachgelesen am 05.11.2026, HTTP 200):** der
+  Gelbe-Seiten-Eintrag **„Stöber Albert"**, Branche **Schrott**, **Am Kuhlenkamp 34, 44795 Bochum-Weitmar**, Telefon
+  **0234 47 27 61**, Öffnungszeiten Mo-Fr 09:00-16:00, Leistungsumfang „Schrotthandlung, Altmetalle, Eisen,
+  Alu-Kupfer, Aluminium, Bleche alt, Blei, Kabel, Kühler" - nach der Quellenhierarchie ein **Lead**, aber als dritte
+  konvergierende Spur. **Betriebsbezug in OSM:** diesmal **vorhanden** - der Knoten benennt den Betrieb und führt
+  Telefonnummer, Website und Tätigkeit mit; der Punkt bezeichnet damit den **betrieblichen Standort**. **Offen bleibt**
+  (unverändert, und durch die Geokodierung **nicht** entschieden): ob der Betrieb **heute** noch unter dieser Anschrift
+  arbeitet - das Impressum ist nur als Archivstand vom 11.04.2015 belegt, die Live-Domain ist nicht lesbar, und das
+  **amtliche Fachbetrieberegister** führt für „Stöber" **0 Treffer** (die EFB-Anerkennung ist freiwillig, das ist ein
+  Negativbefund **ohne Beweiswert**); der Frontmatter-Telefonwert bleibt daher **leer**, obwohl Impressum und
+  Verzeichnis ihn belegen. **Zurücknahme des `geo`-Tokens (Begründung):** der Token `geo` wird aus `clear_fields`
+  **entfernt** (die Zeile `clear_fields: 'geo'` entfällt), weil das Dossier jetzt ein belegtes Koordinatenpaar führt und
+  der Seed `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md); der zuvor zurückgezogene Produktionspunkt
+  51.474088888888886/7.219238888888889 (laut read-only-Abgleich vom 28.10.2026 die Taubenstraße 5, 44789 Bochum) wird
+  damit durch den belegten Adresspunkt ersetzt. `status: pruefung`, `street`, `postcode` und alle übrigen Felder bleiben
+  unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder
+  Schließungsbeweis; der Punkt belegt die Anschrift des Betriebs, nicht eine heute laufende Annahme. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/5762381148.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1900,51.4400,7.2500,51.4800 ;
+  https://web.archive.org/web/20150411084554/http://schrotthandel-stoeber.de/Impressum.jpg ;
+  https://www.gelbeseiten.de/gsbiz/2b6fa38a-0efb-47e4-8cc2-c126f9d14327 ;
+  http://schrotthandel-stoeber.de/ (nur Anubis-Challenge, ohne lesbaren Inhalt) (Abruf 05.11.2026).]
+

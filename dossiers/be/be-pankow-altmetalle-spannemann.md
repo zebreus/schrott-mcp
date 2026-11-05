@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Altmetalle Spannemann OHG, Meyerbeerstr. 61-63, 13088 Berlin-Weißensee, ein Altstoffhandel
+mit NE-Metallen wie Kupfer, Aluminium, Edelstahl, Messing, Blei, Zink und Kabel; die
+Registerangabe HRA 44717 B beim Amtsgericht Charlottenburg ist mit den Verzeichniseinträgen
+und der Telefonnummer 030 9253920 kongruent. Offen ist die Beleglage mehrfach: Die
+Betriebswebsite ist seit dem 01.10.2026 zweimal nicht erreichbar und gilt als tot, wodurch
+der wichtigste Belegweg verloren ist, das Löschkreuz im Registertitel bleibt ohne
+Direktabruf beim Unternehmensregister ungeklärt. Die Hausnummer nennt das Verzeichnis mit
+61-63, der Kartendienst mit 61; im OSM sind 61 und 63 getrennt erfasst. Öffnungszeiten und
+E-Mail stammen aus je einem Verzeichnisbeleg; im OSM-Raster benennt kein Objekt den Betrieb,
+was kein Negativbeleg ist. Preise und Gebühren sind nicht belegt.
 
 ## Timeline
 

@@ -78,3 +78,42 @@ Der aktuelle Betreiberauftritt ist direkt erreichbar und nennt im Impressum Issa
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Schrotthändler Plus` (Inh. Issam EL-Lahib, Vorstadtstraße 65, 44866 Bochum-Wattenscheid - Kontakt-/Rechtsanschrift laut Impressum) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrotthändler Plus` -> **0 Treffer**, `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lahib` -> **0 Treffer**, ebenso beide Suchen in der Route `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=…` -> **0 Treffer** (zusätzlich mit dem Filter `Art des Betriebs = Egal` geprüft, ebenfalls 0); (2) Radiusabfrage mit 3 km um die Dossieradresse `…/Entsorgungsfachbetriebe/adr=Vorstadtstraße 65, 44866 Bochum, Deutschland;…&dst=3&is=1&e=1` -> **20 Treffer**, u. a. `USB Bochum GmbH, Wertstoffhof Am Sattelgut`, `Am Sattelgut 132, 44866 Bochum`, `ZZEE00200310 / 7`, 0,8 km, `Rare Metal Trading GmbH`, `Ottostraße 29, 44867 Bochum`, `ZZET00700116 / 1`, 1,4 km - **kein Treffer auf `Schrotthändler Plus`, `Lahib` oder Vorstadtstraße 65**; (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **1 Treffer** (`Rohstoffhandel Heinrichs GmbH & Co. KG`, Gelsenkirchen, `ZAES01100097 / 1`, 1,4 km) - **Fremdbetrieb**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> 207 Efb-Treffer und 7 Altfahrzeug-Treffer, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrotth%C3%A4ndler%20Plus ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lahib ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrotth%C3%A4ndler%20Plus ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Lahib ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Vorstadtstra%C3%9Fe%2065%2C%2044866%20Bochum%2C%20Deutschland;7.1390802;51.4821058;7.1405802000000005;51.4836058;7.1375802;51.4806058&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Vorstadtstra%C3%9Fe%2065%2C%2044866%20Bochum%2C%20Deutschland;7.1390802;51.4821058;7.1405802000000005;51.4836058;7.1375802;51.4806058&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Vorstadtstra%C3%9Fe%2065%2C%2044866%20Bochum%2C%20Deutschland;7.1390802;51.4821058;7.1440802;51.4871058;7.1340802000000005;51.4771058&dst=10&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Vorstadtstra%C3%9Fe%2065%2C%2044866%20Bochum%2C%20Deutschland;7.1390802;51.4821058;7.1440802;51.4871058;7.1340802000000005;51.4771058&dst=10&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung stellt fest, dass die im
+  Betreiber-Impressum genannte Anschrift inzwischen in OSM existiert, die Auswahl unter den drei Adressspuren aber
+  ausdrücklich offen ist.** **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das Kachelraster **7.1100/51.4600 bis
+  7.1500/51.5100**, **20 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1100,51.4600,7.1500,51.5100) **umschließt die Objekt-BBox
+  vollständig** und enthält die beiden Adressstraßen des Dossiers nachweislich: die **Vorstadtstraße** (Verlauf
+  51.4818901/7.1321232 bis 51.4840343/7.1394324) mit **54** Adressobjekten; die Straße weist **54** verschiedene Hausnummern (1, 10, 11, 12, 13, 14, 15, 15a, 16, 17, 18, 19, 2, 20, 21, 22, 23, 24, 25, 27, 29, 3, 31, 33, 35, 37, 39, 41, 43, 45, 47, 48, 49, 5, 50, 51, 52, 53, 55, 56, 57, 58, 59, 6, 60, 61, 62, 63, 65, 67, 7, 7a, 8, 9) und die **„Hochstraße“** (Verlauf 51.4799399/7.1368624 bis
+  51.4804827/7.1484339) mit **97** Adressobjekten; die Straße weist **96** verschiedene Hausnummern (1, 100, 11, 12, 14, 14a, 16, 18, 19, 2, 20, 21, 22, 23, 24, 26, 28, 3, 30, 31, 32, 33, 34, 35, 36, 37, 39, 4, 42, 43, 44, 45, 46, 47, 47-49, 48, 49, 5, 50, 51, 52, 53, 54, 55, 55a, 56, 57, 58, 59, 6, 60, 61, 62, 63, 64, 65, 66, 67, 68, 68a, 69, 7, 70, 71, 72, 72a, 72b, 73, 74, 75, 76, 76a, 77, 78, 79, 8, 80, 80a, 81, 82, 83, 84, 85, 86, 87, 88, 89, 9, 90, 91, 92, 93, 94, 94a, 95, 96, 98). Die Impressumsanschrift **Vorstadtstraße 65** existiert als
+  **way/325148295** (`addr:housenumber`=65, `addr:street`=Vorstadtstraße, `addr:postcode`=44866, `building`=yes, ohne
+  `name` und ohne `operator`); der Portal-Lead **Hochstraße 28** existiert als **way/893742107**
+  (`addr:housenumber`=28, `addr:street`=Hochstraße, `addr:postcode`=44866, `building`=apartments) und als
+  node/7036090907 (`name`=**KiK**); der dritte Lead **Hochstraße 25** existiert als way/330041815, der Portal-Lead
+  **Hochstraße 65** als way/324714781 und node/13316773819 (`name`=**Wiesmann's - Raum für Kultur, Produktivität &
+  Genuss WatWerk e.V.**). Ein Objekt mit Betriebsbezug zu „Schrotthändler Plus", „Issam EL-Lahib" oder „Lahib" existiert
+  im Raster **nicht**; eine Suche über die Felder name, operator, brand, description, website, contact:website, note und
+  addr:housename findet **keinen** Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb.
+  **Quelle 2 (Betreiber, im Dossier bereits zitiert):** der aktuelle Betreiberauftritt ist erreichbar und nennt im
+  Impressum Issam EL-Lahib, **Vorstadtstraße 65, 44866 Bochum**, und den Kontakt `0157 36548705` /
+  `info@schrotthaendler-plus.de`; die Bochum-Leistungsseite bewirbt mobile Schrottabholung in Bochum und ausdrücklich
+  Wattenscheid. **Warum keine Koordinate:** Es liegen **drei** Adressspuren mit derselben Person vor (Vorstadtstraße 65
+  aus dem Impressum, Hochstraße 28 und Hochstraße 25 aus Portal-Leads); die Auswahl wäre eine Ermessensentscheidung.
+  Hinzu kommt die im Dossier ausdrücklich offene Frage der Betriebsfunktion: das Impressum ist eine
+  Kontakt-/Rechtsanschrift, ein Schrottplatz oder eine öffentliche Anlieferung dort ist **nicht** belegt - der Betreiber
+  wirbt ausschließlich Abholung „bei Ihnen zu Hause"; das Dossier hält fest: „Keine dieser Anschriften als Schrottplatz
+  geokodieren, bis ein tatsächlicher Kunden-/Hofstandort belegt ist." Ein Punkt an der Impressumsanschrift würde einen
+  **Annahmehof** suggerieren, den keine Quelle trägt. **Was zur Auflösung fehlt:** ein belegter Hof- oder
+  Kundenannahme-Standort des mobilen Betriebs in Wattenscheid (oder eine Betreiberbestätigung, welche der drei
+  Anschriften den Standort trägt). `street` und `postcode` bleiben leer, `clear_fields: 'description,geo,pickup_json'`
+  bleibt bestehen, `status: pruefung` bleibt unverändert; es wird weder Annahme- noch Tätigkeitsbestand behauptet.
+  **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder
+  Schließungsbeweis; das bloße Existieren einer Adresszeile in OSM belegt umgekehrt **keinen** Annahmehof. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1100,51.4600,7.1500,51.5100 ;
+  https://www.schrotthaendler-plus.de/impressum/ ;
+  https://www.schrotthaendler-plus.de/schrottabholung-bochum/ ;
+  https://www.golocal.de/bochum/schrotthandel/schrottabholung-bochum-umgebung-M371X/ (Abruf 05.11.2026).]
+

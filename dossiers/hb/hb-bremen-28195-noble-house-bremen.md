@@ -26,7 +26,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Noble House Bremen ist eine Juwelieradresse mit Ankauf von Alt- und Bruchgold, Silber, Zahngold und Münzen in
+der Schüsselkorb 23, 28195 Bremen. Das Impressum der Shopdomain führt die Rechtsform als Noble House GmbH mit
+Registereintrag HRB 23661 Bremen und dem Geschäftsführer Ulrich W. Meyer; zwei separat geöffnete
+Registerspiegel sind damit kongruent. Die Domain noble-house.de leitet auf die Shopdomain noble-house-shop.de
+um, auf der die Ladenanschrift, Telefonnummer und Öffnungszeiten stehen. Die Anschrift ist in OpenStreetMap
+als Wohn- und Geschäftsgebäude way 201185806 erfasst, die hinterlegten Koordinaten bilden den
+Gebäudemittelpunkt und nicht den Ladeneingang. Offen bleiben verifizierte Abholleistungen und Tagespreise, da
+keine veröffentlicht sind, sowie der Umstand, dass die Registerspiegel keine amtlichen Registerauszüge sind.
 
 ## Timeline
 

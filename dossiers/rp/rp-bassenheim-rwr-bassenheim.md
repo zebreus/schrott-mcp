@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RWR Recycling GmbH, Am Bahnhof 9, 56220 Bassenheim: Schrott- und Metallhandel mit Container- und
+Abholservice, Entsorgungsleistungen und Industriedemontage. Die Identität tragen das
+Betreiber-Impressum und die Leistungsseiten der Website; die Unternehmensregister-Suche
+bestätigt die Gesellschaft am Standort Bassenheim (HRB 32106, Amtsgericht Koblenz, Registerstand
+22.07.2026). Der erste Suchlauf war ein Negativbefund ohne Treffer in Gelbe Seiten und Das
+Örtliche, erst der zweite Lauf brachte den Betreiberbeleg; die Seed-Angaben „Am Bhf 9" und
+E-Motoren bleiben unbestätigt. Offen bleibt, dass Annahme und Öffnungszeiten nicht belegt sind
+und deshalb leer bleiben, während die Gruppen-Seite eine anders firmierte RWR Recycling &
+Industrie GmbH mit abweichender Telefonnummer nennt, die nicht auf dieses Dossier übertragen
+wurde; der Status steht weiterhin auf Prüfung.
 
 ## Timeline
 

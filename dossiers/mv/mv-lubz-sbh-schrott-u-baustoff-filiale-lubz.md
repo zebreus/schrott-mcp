@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SBH (Schrott u. Baustoff) Filiale Lübz ist eine Niederlassung der SBH Schrott- und
+Baustoff-Handelsgesellschaft mbH mit Sitz in Lohmen, Zum Suckwitzer See 4, Registereintrag HRB 6315 Rostock,
+Geschäftsführung Daniel Sadowski und Oliver Mayer; die Filiale liegt in der Industriestraße 6a, 19386 Lübz,
+mit Telefon 038731/22355 und einer filialbezogenen E-Mail. Die Kontaktseite des Betreibers belegt Anschrift,
+Nummer und Ansprechpartner, das Impressum zusätzlich USt-ID und Registergericht; die Startseite bezeichnet das
+Unternehmen als zertifizierten Entsorgungsfachbetrieb und stellt Efb- und AUF-Zertifikat bereit. In
+OpenStreetMap ist die Hausnummer 6a als Gewerbebau erfasst und der Betrieb über einen Recycling-Knoten mit
+derselben Telefonnummer sowie ein Schrottplatz-Objekt mit abgewandelter Schreibweise benannt. Offen bleiben
+die Öffnungszeiten der Filiale, die nur zentral veröffentlicht werden, sowie Preise und Gebühren, denn
+Richtpreise werden nur telefonisch genannt.
 
 ## Timeline
 

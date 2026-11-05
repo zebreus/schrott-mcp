@@ -86,3 +86,29 @@ Betreiber-Einzelbeleg: Juwelier Dittmeier, vertreten durch G. Acar, Aschaffenbur
   `scripts/release/osm_street_scan.py` (Kachelraster) ;
   https://juwelier-dittmeier.eu/impressum/ ; https://juwelier-dittmeier.eu/kontakt/ ;
   read-only `public.db` (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **18** auf der "Aschaffenburger Straße" existiert in OSM **nicht** - die Straße ist im Seligenstädter
+  Stadtbereich nicht kartiert. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das
+  live abgerufene Kachelraster über den Seligenstädter Stadtbereich umfasst **8.8400/50.0000 bis 8.9100/50.0600**, **42
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, 162699 Elemente; das Fenster weist zahlreiche Straßen mit Adressobjekten
+  aus (u. a. "Frankfurter Straße", "Seligenstädter Straße", "Hochstädter Straße", "Ludwigstraße", "Nordring", "Rheinstraße",
+  "Spessartstraße") - aber **keine** "Aschaffenburger Straße" und **kein** Adressobjekt mit der Hausnummer 18 auf dieser
+  Straße. Zwei einschlägige Einzelobjekte sind live nachgeladen: **node/7274902220** (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/node/7274902220.json) mit dem wörtlichen `note`="**kein Juwelier hier - entgegen
+  anderen Angaben im Internet**" bei 50.0284410/8.8846740 und **node/4838972453** (HTTP 200) mit `name`="Die Goldmine",
+  `description`="Goldankauf", `shop`=yes bei 50.0004839/8.8674637 - beide ohne `addr:*`-Tags und **keiner** mit Bezug zu
+  "Dittmeier". Quelle 2 (Betreiber, im Dossier bereits zitiert und am 03.11.2026 erneut live gelesen): das Impressum
+  https://juwelier-dittmeier.eu/impressum/ nennt wörtlich "JUWELIER DITTMEIER / Vertreten durch: G. Acar / Aschaffenburger
+  Str. 18, 63500 Seligenstadt, Deutschland / Steuernummer.: 044 801 04037 / USt-IdNr.: DE 35 12 76 4 91" - die Anschrift
+  ist damit betreiberseitig belegt. **Warum keine Koordinate:** die zweite Quelle belegt die Anschrift, die erste Quelle
+  belegt sie in OSM **nicht** - ohne in OSM belegtes Adressobjekt wird **keine** Koordinate erfunden und kein
+  Nachbarobjekt als Ersatzpunkt missbraucht; der Widerspruch zwischen dem Betreiber-Impressum und dem OSM-Vermerk "kein
+  Juwelier hier" bleibt damit **offen** und wird als solcher festgehalten. Der gespeicherte Altpunkt 50.0432/8.9739
+  (Mauergasse 38) wird mit `clear_fields: 'geo'` ohnehin zurückgenommen; `status` bleibt `pruefung`. **Reichweitenklausel:**
+  das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für das Fehlen des Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/7274902220.json ; https://api.openstreetmap.org/api/0.6/node/4838972453.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.84,50.0,8.91,50.06 ; https://juwelier-dittmeier.eu/impressum/ ;
+  https://juwelier-dittmeier.eu/kontakt/ (Abruf 05.11.2026)]

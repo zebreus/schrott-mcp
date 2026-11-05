@@ -92,3 +92,30 @@ zwischen Impressum und AGB.
   Quelle(n): https://www.schrott24.de/ ; https://www.schrott24.de/faq/impressum ;
   https://www.schrott24.de/faq/agb/ ; https://www.schrott24.de/faq/ ;
   https://www.schrott24.de/standorte/schrottplatz-hessen/ ; read-only `public.db` (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Das Dossier hat
+  **keine Dossier-Adresse** (`street` und `postcode` leer, `city` = "hessenweit") und beschreibt keinen einzelnen Standort:
+  die Hessen-Landingpage nennt Frankfurt und Bischofsheim bei Mainz ausdrücklich als **Partnerstandorte**, und konkrete
+  Annahmeadressen und -zeiten werden laut Support **erst nach dem Online-Verkaufsabschluss** mitgeteilt ("Genau(e)
+  Anlieferadresse und Öffnungszeiten erhalten Sie nach Verkaufsabschluss automatisch per E-Mail"); der Auftritt ist damit ein
+  Online-Ankaufportal mit Partnerbetrieben, kein Standortbetrieb mit offengelegter Anschrift. Ein adressgenaues OSM-Objekt
+  kann damit nicht zugeordnet werden: es existiert **keine** Dossier-Hausnummer, nach der im Kachelraster gesucht werden
+  könnte. Quelle 1 (OSM, live geprüft am 05.11.2026): **nicht anwendbar** - mangels Dossier-Hausnummer gibt es kein
+  Suchfenster; das Kachelraster über den Frankfurter Innenstadtbereich **8.6800/50.1050 bis 8.7000/50.1250** (**4** Kacheln
+  à 0,01 Grad, **0** Kachel-Fehler) enthält die Straßen "Fahrgasse" und "Berger Straße" der beiden Frankfurter
+  Edelmetall-Dossiers, aber **kein** Objekt mit Bezug zu "Schrott24", "Metaloop" oder einer Partneradresse - die
+  Suchintention des Dossiers (Partnerstandorte) lässt sich in OSM nicht adressgenau abbilden. Quelle 2 (Betreiber/Register):
+  es fehlt - das Impressum nennt die **Metaloop Europe GmbH** (Sitz Graz, Österreich), die AGB-Seite dagegen die **Schrott24
+  GmbH**; die Betreiber-/Vertragskette und die Übertragbarkeit einzelner AGB-Klauseln auf Hessen sind im Dossier ausdrücklich
+  offen. **Warum keine Koordinate:** eine Geokodierung eines der Partnerstandorte würde einen Standort suggerieren, den
+  der Betreiber bewusst erst nach Verkaufsabschluss mitteilt, und würde zudem die ungeklärte Gesellschaftskette
+  verdecken. **Clear-Direktive, Korrektur zur Vorwellen-Notiz:** die Notiz vom 03.11.2026 nennt eine Owner-Direktive
+  `clear_fields: 'geo'`; das Dossier führt im Frontmatter **keine** `clear_fields`-Zeile und damit **keinen** `geo`-Token -
+  es ist hier nichts zu entfernen und nichts hinzuzufügen. `status` bleibt `aktiv` (die Plattform selbst ist aktiv - die
+  Standortangabe nicht). **Reichweitenklausel:** das Fehlen einer Dossier-Hausnummer ist **kein** Nachweis für das Fehlen
+  der Plattform oder ihrer Partnerbetriebe. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.68,50.105,8.7,50.125 ; https://www.schrott24.de/ ;
+  https://www.schrott24.de/faq/impressum ; https://www.schrott24.de/faq/agb/ ;
+  https://www.schrott24.de/standorte/schrottplatz-hessen/ (Abruf 05.11.2026)]
