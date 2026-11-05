@@ -531,4 +531,3 @@ mod tests {
         assert_eq!(grade_for("Gold", "VK >999 uv"), None);
     }
 }
-
