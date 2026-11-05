@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Recycling-Cluster Metalle / REWIMET, Klubgartenstr. 5, Goslar: der Dossier-Eintrag
+führt einen Netzwerkverein, keinen Schrotthändler. REWIMET e.V. ist im Vereinsregister
+200914 AG Braunschweig eingetragen und vernetzt Unternehmens-, Forschungs- und kommunale
+Mitglieder; die Recycling-Leistungen einzelner Mitglieder sind keine eigene Händlerleistung
+des Vereins. Sein Impressum nennt an der früheren Anschrift Im Schleeke 50 die Metalogie
+GmbH und die Geschäftsstelle in der Leibnizstraße 23 in Clausthal-Zellerfeld, weshalb
+die Websiteangabe rewimet.de leer bleibt. In OSM trägt die Adresse Klubgartenstraße
+5 zwar ein Hausobjekt, aber ohne Namen und Recyclingbezug; auf der Straße stehen nur
+Behörden und Fremdbetriebe. Ankauf, Verkauf und Gebühren sind hier nicht belegbar. Offen
+bleibt, ob die Adresse zu diesem Eintrag gehört; eine Koordinate ist nicht gesetzt.
 
 ## Timeline
 

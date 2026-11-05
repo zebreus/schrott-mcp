@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+H. G. Büttner GmbH ist ein Schrott- und Metallrecyclingbetrieb mit Autoverwertung, Stahlhandel
+und Containerdienst in Aurich, Liebigstraße 2, 26607, mit 10.000 m² Anliefergelände und den
+Öffnungszeiten Montag bis Freitag 08:00 bis 17:00 Uhr. Betreiber-Impressum und die
+Registeraufbereitung Northdata zum HRB 201293 beim Amtsgericht Aurich belegen Identität,
+Geschäftsführung durch Heinz Hans-Günther und Thomas Büttner sowie den Unternehmensgegenstand
+mit Altfahrzeug-Handel und NE-Metallen. Belegt ist außerdem die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG: Das DEKRA-Zertifikat 291222031 ist bis 21.02.2027
+gültig und umfasst drei Anlagen am Standort. Offen bleibt die Altfahrzeugverwertung, für die
+das amtliche Fachbetrieberegister keinen Eintrag zu diesem Standort ausweist und auch das
+Zertifikat kein eigenes Feld enthält. Ankaufpreise sind nicht veröffentlicht.
 
 ## Timeline
 

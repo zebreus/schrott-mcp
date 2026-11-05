@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wilhelm Walkling e.K., Fritz-Stegen-Allee 6-7, 31226 Peine: Schrotthändler mit
+Containerdienst, Metallhandel und Ankauf von Edelmetallen und Katalysatormetallen.
+Das Impressum der Betreiberseite schrott-walkling.de nennt Julius Falkenhain-Walkling
+und Wilhelm Walkling e.K. mit HRA 100505 AG Hildesheim, dazu Kontaktseite und
+WhatsApp-Nummer. Ein unabhängiger Registerspiegel bestätigt HRA und Ort Peine, trägt
+aber keinen Straßenbeleg, weshalb Anschrift und Telefonnummer auf den Betreiber
+allein zurückgehen und der Status auf Prüfung bleibt. Das Impressum nennt eine
+zweite E-Mail-Adresse neben der Kontaktseite. Offen bleiben damit der fehlende
+Straßennachweis aus dem Register und die nicht gesetzte Koordinate der Anschrift.
 
 ## Timeline
 

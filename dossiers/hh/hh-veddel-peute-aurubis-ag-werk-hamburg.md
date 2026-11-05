@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Aurubis AG, Werk Hamburg, Hovestraße 50 in 20539 Hamburg-Veddel, ist die Geschäftsstelle der
+Kupferhütte mit HRB 1775 am Amtsgericht Hamburg, die Kupfer- und Legierungsschrott,
+Elektronikschrott, Shredderfraktionen sowie Schlacken und Rückstände aufbereitet. Belegt sind
+die Anschrift und die Telefonnummer 040 7883-0 durch das Konzern-Impressum, in OpenStreetMap
+steht an der Hausnummer 50 ein Bürogebäude ohne Betriebsnamen, während die betrieblich
+benannten Aurubis-Flächen Zentrale und Werk Ost als Industrieflächen geführt sind. Offen bleibt
+die Frage der Annahme, denn die Dossier-Adresse ist die Büroseite, das Gebäude trägt keinen
+Annahme- oder Recycling-Tag, und ob und wo Material angeliefert werden kann, ist nicht belegt.
+Ein Standortkurs je Sorte wird nicht veröffentlicht, die Preisbildung läuft laut Konzernangabe
+transparent über das Kundenportal, Gebühren für Annahme oder Container fehlen.
 
 ## Timeline
 

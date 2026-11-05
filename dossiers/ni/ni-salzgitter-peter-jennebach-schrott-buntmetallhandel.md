@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Peter Jennebach Schrott & Buntmetallhandel, Wilhelm-Leuschner-Straße 21, 38228
+Salzgitter: kleingewerblicher Schrott- und Buntmetallhändler, der Schrott, Buntmetall,
+Kabel und Batterieschrott bei Haushaltsmengen kostenlos abholt und größere Mengen
+zu tagesaktuellen Preisen ankauft. Belegt ist die Kontaktseite der Betreiberseite
+jennebach-schrotthandel.de, die Anschrift, Festnetz und Mobilnummer nennt; ein Impressum
+und eine Registerangabe fehlen, sodass kein unabhängiger Zweitbeleg möglich ist. In
+OSM existiert zur Hausnummer 21 ein Adressobjekt, das jedoch keinen Namen und keinen
+Betreiberbezug trägt. Zahlenpreise, Verkaufspreise und Gebühren sind nicht belegt.
+Offen bleiben die Betriebszuordnung allein über die Betreiberseite, das leere E-Mail-
+und Öffnungszeitenfeld sowie die Frage nach einer weiteren Sammel- oder Lagerfläche.
 
 ## Timeline
 

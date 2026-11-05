@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobiler Schrottservice ist ein Einzelunternehmen am Brockhausweg 57 in 22127 Hamburg-Billstedt,
+das Schrott und Metalle wie Aluminium, Kupfer, Messing, Edelstahl, Kabel und Batterien abholt,
+demontiert und transportiert, ohne dass eine Kundenanlieferung belegt wäre. Das Impressum des
+Betreibers nennt Anschrift, beide Rufnummern und die E-Mail-Adresse, das OSM-Adressobjekt zur
+Hausnummer 57 stützt die Anschrift, trägt aber weder Namen noch Betreiberangabe und weist die
+Postleitzahl 22117 statt der gedruckten 22127 aus. Offen bleibt die Standortfrage, weil die
+Anschrift als Kontakt- und Impressumsadresse geführt wird und ein zweiter gleichnamiger
+Verzeichniseintrag an der Nummer 93 im selben Strassenzug ungeklärt ist; eine Übernahme von
+Kontakten oder Leistungen aus diesem Eintrag ist nicht erfolgt. Ankaufpreise, Verkaufslisten
+und Gebühren sind nicht belegt.
 
 ## Timeline
 

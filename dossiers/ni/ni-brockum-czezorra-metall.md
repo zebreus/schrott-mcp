@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Czezorra Metall GmbH ist ein Schrott- und Metallhändler in Brockum, Gewerbering 38, 49448, mit
+Telefonnummer +49 173 6012450 und der E-Mail-Adresse info@czezorra-metall.de. Betreiberseite
+und Impressum belegen Anschrift, Kontaktdaten, das HRB 210107 beim Registergericht Walsrode
+und den Geschäftsführer Khurram Czezorra; belegt sind ferner ein Ankauf ab 200 Kilogramm, eine
+geeichte Waage bis 40 Tonnen sowie Tageshöchstpreise und Barzahlung. Offen bleibt die
+Anerkennung: Die Namenssuche im amtlichen Fachbetrieberegister liefert keinen Treffer, die
+Umkreisabfrage um drei Kilometer ebenso wenig, und im Zehn-Kilometer-Radius erscheint nur der
+fremde Abfalltransportunterne BohrService Stegmann. Das Feld certifications bleibt deshalb
+leer, wobei ein Register-Nichteintrag die freiwillige Anerkennung nicht widerlegt. Der Status
+bleibt in Prüfung.
 
 ## Timeline
 

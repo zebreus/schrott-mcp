@@ -117,3 +117,40 @@ provenance_origin: prose
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500 ;
   https://api.openstreetmap.org/api/0.6/way/24908972/full.json ; https://www.11880.com/ ;
   https://schrottregister.pages.dev/ort-schweinfurt (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Nutzweg 29, 97424 Schweinfurt** (Verzeichnis-Leads nennen zusätzlich „Nutzweg 29 b“); die alte Vermerkung nennt als
+  Suchfenster das Raster **10.1800/50.0200 bis 10.2100/50.0500** (9 Kacheln). **Quelle 1 (OSM, live abgefragt am
+  05.11.2026):** das Kachelraster **bbox=10.1800,50.0200,10.2100,50.0500** (**9 Kacheln von je 0,01 Grad** um die
+  Hausnummer herum, https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500) lieferte
+  **45 361 Elemente** bei **0 Kachel-Fehlern**; das Kontrollraster östlich davon **bbox=10.2100,50.0200,10.2400,50.0500**
+  (**9 Kacheln**) lieferte **70 226 Elemente** bei **0 Kachel-Fehlern** und **keinen** weiteren „Nutzweg“ und **kein**
+  Adressobjekt mit `addr:street`=Nutzweg. Der **„Nutzweg“** (`highway`=residential, `name`=Nutzweg) ist im ersten Fenster
+  mit **drei** Straßenobjekten erfasst (way/24908972, way/24908974, way/24941423; Verlauf 50.035887/10.194667 bis
+  50.038835/10.199212); die **Objekt-BBox der Straße** (50.035887/10.194667 bis 50.038835/10.199212) liegt damit
+  **vollständig in der Fenster-BBox**. Er trägt **34 Adressobjekte** mit **34 verschiedenen Hausnummern** (1, 3, 10, 11, 12,
+  13, 14, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65;
+  `addr:postcode`=97424, `addr:city`=Schweinfurt) - die Dossier-Hausnummer **29 existiert in OSM nicht** und die Variante
+  **29 b** ebenfalls nicht (die ungeraden Nummern sind dort 35, 37, 39 … 65, nicht 29; zwischen 28 und 30 bleibt die
+  Nummer 29 unbesetzt). Die Suche über `name`, `operator`, `brand` und `official_name` nach „reinhardt“ liefert **0
+  Treffer** - der Betrieb ist in OSM nicht kartiert. **Quelle 2 (Beleglage, im Dossier dokumentiert):** 11880 führt
+  „Reinhardt Metall“ am Nutzweg 29 mit 01573 0283000 und verlinkt reinhardt-abbruch.de; Creditreform-Suchergebnisse führen
+  sowohl **Ricardo Reinhardt** am Nutzweg 29 als auch **Roland Reinhardt Schrotthandel** am Nutzweg 29 b, weitere
+  Aggregator-Spuren weichen ab (Cylex 0157 30283000, Branchenheld 0175 3753164 und eine E-Mail); die direkt erreichbare
+  Website reinhardt-recycling.de nennt dagegen **Heinrich Reinhardt in Koblenz** und ist **kein** Beleg für den
+  Schweinfurter Betrieb (Dossier-Überblick und Recherche 23.10./27.10.2026). Die Spiegelung der amtlichen Register
+  (schrottregister.pages.dev, Auszug 11.08.2026; veralteter Snapshot, im Sinne der Quellenhierarchie **kein** eigenständiger Beleg) führt für **Schweinfurt** fünf Betriebe (GKS Gemeinschaftskraftwerk
+  Schweinfurt GmbH, Georg Lesch e.K., Stadt Schweinfurt Servicebetrieb Bau und Stadtgrün, Wertstoffhof Kurt-Römer-Straße,
+  bb-net media GmbH) und **keinen** Reinhardt - ein Betreiber- oder Registerbeleg für diese Anschrift fehlt damit. Damit sind
+  **Rechtsträger, Inhaber, Hausnummer (29 vs. 29 b), Telefon- und Domainzuordnung** ungeklärt, ein aktueller eigenständiger
+  Betreiber- oder Registernachweis fehlt, und die Dossier-Hausnummer ist in OSM **nicht** auffindbar; es wird **keine**
+  Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'` bleibt unverändert, weil der
+  zurückgezogene Altpunkt weiterhin entzogen werden soll; `status` (pruefung) und alle übrigen Felder bleiben unverändert.
+  **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines Registereintrags ist **kein** Existenz- oder
+  Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.2100,50.0200,10.2400,50.0500 ;
+  https://api.openstreetmap.org/api/0.6/way/24908972/full.json ; https://www.11880.com/ ;
+  https://schrottregister.pages.dev/ort-schweinfurt (live abgerufen 05.11.2026).]

@@ -101,3 +101,37 @@ Das vorhandene Dossier `by-pfarrkirchen-michel.md` betrifft Michel Sascha Entsor
   https://api.openstreetmap.org/api/0.6/way/25981439/full.json ;
   https://www.11880.com/branchenbuch/pfarrkirchen/ ; https://autoverwerterfinder.de/autoverwerter/ ;
   https://schrottregister.pages.dev/ort-pfarrkirchen (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Das Dossier führt **zwei
+  widersprüchliche Hausnummern** (Sonnenstraße 4 und 6) und keinen eigenen Betreiber- oder Registernachweis; die alte
+  Vermerkung nennt als Suchfenster das Raster **12.9200/48.4300 bis 12.9500/48.4600** (9 Kacheln). **Quelle 1 (OSM, live
+  abgefragt am 05.11.2026):** das neue Kachelraster **bbox=12.9200,48.4300,12.9400,48.4500** (**4 Kacheln von je 0,01
+  Grad** um die Hausnummer herum, https://api.openstreetmap.org/api/0.6/map.json?bbox=12.9200,48.4300,12.9400,48.4500)
+  lieferte **18 698 Elemente** bei **0 Kachel-Fehlern**. Die **„Sonnenstraße“** ist in diesem Fenster mit **sieben**
+  Straßenobjekten erfasst (way/25981439, way/25981464, way/25981477, way/25981494, way/25981499, way/25981626,
+  way/25981783; Verlauf 48.440618/12.929751 bis 48.443114/12.934828); die **Objekt-BBox der Straße**
+  (48.440618/12.929751 bis 48.443114/12.934828) liegt damit **vollständig in der Fenster-BBox**, sie trägt aber **kein
+  einziges** Adressobjekt mit `addr:housenumber` - im gesamten 4x2-Raster ist **weder die Hausnummer 4 noch die Hausnummer
+  6** adressiert. Der Ort **Pfarrkirchen** selbst liegt mit seinem Platzknoten (48.4320329/12.9386266) ebenfalls im
+  Fenster, und die Adressobjekte des Rasters tragen `addr:postcode`=**84347**/`addr:city`=Pfarrkirchen - die Straße liegt
+  also im richtigen Ort. Die Suche über `name`, `operator`, `brand` und `official_name` nach „brummer“ und
+  „autoverwertung“ liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert. **Quelle 2 (Beleglage, im Dossier
+  dokumentiert):** AutoverwerterFinder führt den Namen mit **Sonnenstraße 4, 84347 Pfarrkirchen** und behauptet einen
+  GESA-Demontageeintrag (letzter Aktualisierungsstand 19.08.2026), während 11880 denselben Namen an **Sonnenstr. 6** mit
+  Telefon 08561 1587 führt (Eintragsdaten vom 01.03.2022, am 02.10.2026 aktualisiert, ohne Inhaberbestätigung) und ein
+  Meinestadt-Auszug „Sonnenstr. 4-6“ nennt - das sind **widersprüchliche Verzeichnis-Leads**. Die Spiegelung der amtlichen
+  Register (schrottregister.pages.dev, Auszug 11.08.2026; veralteter Snapshot, im Sinne der Quellenhierarchie **kein** eigenständiger Beleg) führt für **Pfarrkirchen** genau **einen** Betrieb
+  (`Hirsch Städtereinigung Inh. René Koepner e.K.`, Franz-Stelzenberger-Straße 14) und **keinen** Brummer - der behauptete
+  GESA-Eintrag lässt sich also **nicht** bestätigen. Ob Hausnummernfehler, ein Betrieb über mehrere Hausnummern oder
+  getrennte Standorte vorliegen, ist offen (Dossier-Überblick). Die geforderte zweite unabhängige Quelle (Betreiber- oder
+  direkt geprüfter Registerbeleg für eben diese Anschrift) fehlt damit, und die Dossier-Hausnummer ist in OSM **nicht**
+  auffindbar; es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Das Dossier enthielt **keine**
+  `clear_fields`-Anweisung; `status` (pruefung), `description` und alle übrigen Felder bleiben unverändert.
+  **Reichweitenklausel:** das Fehlen eines Adressobjekts oder eines bestätigten Registereintrags ist **kein** Existenz- oder
+  Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=12.9200,48.4300,12.9400,48.4500 ;
+  https://api.openstreetmap.org/api/0.6/way/25981439/full.json ;
+  https://www.11880.com/branchenbuch/pfarrkirchen/ ;
+  https://schrottregister.pages.dev/ort-pfarrkirchen (live abgerufen 05.11.2026).]

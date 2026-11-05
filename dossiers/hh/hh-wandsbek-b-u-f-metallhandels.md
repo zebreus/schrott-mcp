@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+B. u. F. Metallhandels GmbH, Angerburger Straße 21 in 22047 Hamburg-Wandsbek, ist ein
+NE-Metallgroßhandel mit Geschäftsführer Christoph von Borck und HRB 89654 am Amtsgericht
+Hamburg, der Kupferschrott und weitere Nichtneimetalle ankauft und verkauft, auf seinem
+Hamburger Lager umschlägt, auf einer 60-Tonnen-Waage verwieg und LME-Börsengeschäfte abwickelt.
+Der Betrieb ist zertifizierter Entsorgungsfachbetrieb nach Paragraf 52 Absatz 1 KrW- und AbfG,
+erfüllt die DIN EN ISO 9001:2015 und besitzt für Kupferschrott eine
+End-of-Waste-Zertifizierung, wie die Zertifikatsseite des Betreibers ausweist. Offen bleibt die
+Standortlage, denn die Hausnummer 21 ist auf der Angerburger Straße in OpenStreetMap nicht
+adressiert, die Anschrift trägt allein das Impressum. Zahlenpreise sind nicht veröffentlicht,
+eine Privatkundenannahme ist nicht belegt, und Öffnungszeiten nennt die Website nicht.
 
 ## Timeline
 

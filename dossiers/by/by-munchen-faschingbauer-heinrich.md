@@ -113,3 +113,39 @@ Der gespeicherte GEO-Punkt 48.1436973333333/11.559808 löst rückwärts auf **Da
   https://api.openstreetmap.org/api/0.6/way/108337620/full.json ;
   https://www.11880.com/branchenbuch/muenchen/060440092B112892162/faschingbauer-heinrich.html ;
   https://www.gelbeseiten.de/branchen/schrottplatz/m%C3%BCnchen (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Josef-Lang-Str. 15, 81245 München (Pasing-Obermenzing)**; die alte Vermerkung nennt als Suchfenster das Raster
+  **11.4600/48.1400 bis 11.4900/48.1700** (9 Kacheln). **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue
+  Kachelraster **bbox=11.4600,48.1400,11.4800,48.1600** (**4 Kacheln von je 0,01 Grad** um die Hausnummer herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4600,48.1400,11.4800,48.1600) lieferte **52 926 Elemente** bei
+  **0 Kachel-Fehlern**. Die **„Josef-Lang-Straße“** ist in diesem Fenster mit dem Straßenobjekt way/16554653
+  (`highway`=residential, Verlauf 48.1492129/11.4715479 bis 48.1521326/11.4723393) und zwei Haltestellenobjekten
+  (way/379853753, way/379853754) erfasst; die **Objekt-BBox der Straße** (48.1492129/11.4715479 bis 48.1521326/11.4723393)
+  liegt damit **vollständig in der Fenster-BBox**. Auf ihr sind **21 Adressobjekte** mit **20 verschiedenen Hausnummern**
+  erfasst (1, 2, 3, 4, 5, 7, 9, 10, 11, 12, 13, **15**, 17, 18, 19, 21, 23, 25, 27, 29) - die Dossier-Hausnummer **15 ist
+  damit objektgenau belegt**, nämlich **way/108337620** mit `addr:housenumber`=**15**, `addr:street`=Josef-Lang-Straße,
+  `addr:postcode`=**81245**, `addr:city`=München, `addr:country`=DE sowie `building`=**apartments**, `building:levels`=4,
+  `roof:shape`=flat (5 eindeutige Knoten, Mittel 48.1508807/11.4707287, Objekt-BBox 48.1508009/11.4706148 bis
+  48.1509343/11.4708408; der Mittelwert liegt **innerhalb** der Objekt-BBox). Das Objekt trägt **weder `name=` noch
+  `operator=`** und ist ein **Wohngebäude**, kein Betriebsgebäude; die Suche über `name`, `operator`, `brand` und
+  `official_name` nach „faschingbauer“, „schrott“ und „altmetall“ liefert **0 Treffer** - der Betrieb ist in OSM nicht
+  kartiert. **Quelle 2 (Beleglage, im Dossier dokumentiert, live am 05.11.2026 nachgelesen, HTTP 200):** die
+  11880-Branchenbuchseite führt „Faschingbauer Heinrich“ weiterhin mit **„Altmetallrecycling“, Josef-Lang-Str. 15,
+  81245 München (Pasing-Obermenzing), Tel. (089) 873471**; die Anschrift stammt damit **ausschließlich** aus
+  Branchenverzeichnissen (11880, Das Örtliche, Gelbe Seiten, MisterWhat, Cylex) und „Heinrich Faschingbauer
+  Schrottabholung“ (Gelbe Seiten) - also **eine** Namensvariante, kein zweiter Betrieb. Eine Betreiberseite, ein
+  Registereintrag oder ein amtlicher Nachweis wurde **nicht** gefunden; das Branchenbuch Bayern vermerkt beim Eintrag
+  „Änderungshinweis an Sachbearbeiter“ und bei vergleichbaren Münchner Schrotteinträgen „Kein Anschluss unter dieser Nummer“
+  (Hinweis auf ungepflegte Verzeichnisdaten, nicht auf eine Betriebsaufgabe). Die für diese Welle geforderte zweite
+  unabhängige Quelle (Betreiber- oder Registerbeleg für eben diese Anschrift) fehlt damit weiterhin; nach README zählen
+  Verzeichnis und Aggregator zusammen als **eine** Quelle. Da kein belegter Betriebspunkt vorliegt, wird **keine**
+  Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'`-Anweisung **bleibt unverändert**,
+  weil der zurückgezogene Altpunkt (Spielhalle Dachauer Straße, 80335 München, rund 7 km entfernt) weiterhin entzogen
+  werden soll; `status` (pruefung) und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines
+  OSM-Betriebsbezugs oder eines Betreiber-/Registerbelegs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4600,48.1400,11.4800,48.1600 ;
+  https://api.openstreetmap.org/api/0.6/way/108337620/full.json ;
+  https://www.11880.com/branchenbuch/muenchen/060440092B112892162/faschingbauer-heinrich.html (live abgerufen 05.11.2026).]

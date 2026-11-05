@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+acm Abfall- & Containerservice Moers GmbH, Sigsfeldstraße 16, 52078 Aachen-Brand:
+Containerdienst mit Schrott- und Metallankauf und Anlieferung an der Sigsfeldstraße.
+Die Identität tragen das Shop-Impressum der zum Betrieb gehörenden Domain, das Rolf
+Moers, Rufnummer 0241 18923770 und E-Mail-Adresse nennt, sowie ein Registerspiegel zur
+HRB 14281 Aachen. Das generische Impressum auf der Betreiberdomain acm-moers.de ist
+keine eigene Impressumsseite, weshalb die Betreiber-Primärquelle den Ausnahmetatbestand
+nicht trägt und der Status auf Prüfung bleibt. Die im amtlichen Fachbetrieberegister
+geführten sechs Anlagen im Umkreis tragen weder den Namen acm noch die Anschrift, ein
+Zertifikatsnachweis fehlt. Offen bleiben die widersprüchliche Zuordnung des Shop-Impressums,
+die nicht verifizierte Angabe einer Schließung sowie die fehlenden Öffnungszeiten.
 
 ## Timeline
 

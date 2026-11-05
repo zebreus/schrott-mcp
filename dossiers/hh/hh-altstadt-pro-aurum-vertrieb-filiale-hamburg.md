@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+pro aurum Vertrieb GmbH, Filiale Hamburg am Rödingsmarkt 39 in 20459 Hamburg, ist eine Filiale
+des Münchner Edelmetallhändlers pro aurum mit Sitz in der Joseph-Wild-Straße 12 und HRB 178875
+am Amtsgericht München; im Haus wird ein Altgoldservice mit Einzelbewertung angeboten. Die
+Filialseite nennt Anschrift und Anfahrt, und in OpenStreetMap trägt der Betriebsknoten zur
+Hausnummer 39 den Namen pro aurum mit Telefon und Kontaktadresse, womit Anschrift und Identität
+positiv belegt sind. Offen bleibt die Preisfrage, denn die veröffentlichte Preisliste gilt für
+Anlagebarren und Münzen, während für Altgold nur die Zusage fairer Ankaufspreise und sofortiger
+Auszahlung ohne Zahlenwert steht. Die E-Mail des Frontmatter-Feldes bleibt leer, da der OSM-Tag
+keine Betreiberbestätigung ist und die Seite die Adresse verschleiert; eine Gebühr für Anfahrt
+oder Lagerung wird nicht genannt.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Martens, C., Schortens-Oestringfelde: der Dossier-Eintrag stammt aus einem Verzeichnislead
+und ist bis heute nicht als Betrieb identifiziert. Wiederholte Suchen in Gelbe Seiten,
+Das Telefonbuch, Das Örtliche und der Websuche nach Martens beziehungsweise C. Martens mit
+Schortens, Oestringfelde und Schrott ergaben keinen Treffer, der Name und Ort zusammenführt;
+die gefundenen Schrottbetriebe im Raum Jever und Wangerland sind andere Unternehmen.
+Spätere Verzeichnisseinträge nennen Huntsteerter Weg 265 und teils die Telefonnummer
+04461 84174, doch sie sind Aggregator-Leads ohne Betreiber- oder Registerbestätigung und
+lassen die Zuordnung zu Oestringfelde offen. Die städtische Fundstelle bestätigt nur den
+Straßennamen und den Bebauungsplan. Offen bleiben damit die gesamte Betriebsidentität, jede
+Adresse und Kontaktangabe sowie Leistung und Preis, ohne dass ein Schließungsbeleg vorläge.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bülow & Partner GmbH ist ein Entsorgungsfachbetrieb in Holthusen, Pampower Str. 3, 19075, mit
+Schrottankauf, Entsorgung und Recycling, Aktenvernichtung, Industriedemontagen und
+Containerdienst von 1 bis 38 m³. Impressum und Karriereseite bestätigen die Betriebsstätte mit
+Telefonnummer 03865 7804-0 und nennen die Branche Entsorgungswirtschaft und Rohstoffhandel;
+die Sortenliste nennt Sperrschrott, Moniereisen, Kupfer, Messing, Bronze, Blei, Zinn, Alu und
+Zink. Offen bleibt die Firmensitzfrage: Das Impressum führt als Register-Sitz Kummerfeld mit
+HRB Pinneberg 2867, die Karriereseite die GmbH mit Sitz in Holthusen, beides wird nicht
+zusammengeführt und ein Registerabgleich der Betriebsstätte fehlt. Das OSM-Adressobjekt zur
+Hausnummer 3 trägt keinen Namen- und Betreiber-Tag, die Koordinate wurde auf dessen
+Mittelpunkt gesetzt. Zahlenpreise und Container-Mietpreise sind nicht veröffentlicht.
 
 ## Timeline
 

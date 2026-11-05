@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fiedler Metall Recycling GmbH & Co. KG, Gottfried-Linke-Str. 210, 38239 Salzgitter:
+Recyclinghof mit An- und Verkauf von Schrott und NE-Metallen auf eigenem Hof und
+Abrollcontainer-Service. Das Impressum der Betreiberseite fiedler-container.de
+weist die Gesellschaft mit HRA 200275 AG Braunschweig und als Komplementärin die
+Fiedler Beteiligungs-GmbH HRB 200461 aus, dazu Anschrift, Telefonnummer, E-Mail
+und die Zeiten Mo-Fr 07:30-16:30. Der unabhängige Registerspiegel bestätigt Firma,
+HRA und Aktivität, führt aber eine abweichende Registeradresse Krühgarten 50 in
+Salzgitter, so dass die Betriebsanschrift allein durch das Betreiberimpressum
+belegt bleibt. Offen bleiben damit die Differenz zwischen Register- und
+Betriebsanschrift sowie die nicht gesetzte Koordinate des Standorts in Salzgitter.
 
 ## Timeline
 

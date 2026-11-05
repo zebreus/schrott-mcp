@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Risse-Hildebrand ist ein als Kleinst-Schrotthändler geführter Eintrag für In der Großen Wiese 8
+in 35764 Sinn, nur von Aggregator-Leads getragen. Den Telefonangaben widersprechen sich zwei
+Verzeichnisse, und ein unter der Firma geführtes Unternehmen ist im gemeinsamen Registerportal
+der Länder nicht auffindbar, die Suche nach dem Nachnamen liefert nur einen hamburgischen
+Treffer. Die Ortsseite des amtlichen Fachbetrieberegisters führt in Sinn nur einen anerkannten
+Betrieb und keinen Risse oder Hildebrand; das Fehlen ist ohne Beweiswert, weil die Anerkennung
+freiwillig ist. In OpenStreetMap existiert die Hausnummer 8 zwar, das Objekt trägt aber den
+Namen eines Abschleppdienstes mit Baggervermietung statt eines Schrottbetriebs. Der
+gespeicherte Koordinatenpunkt löst auf die Gutenbergstraße auf und ist kein Adresspunkt.
+Ankaufpreise, Verkaufslisten und Gebühren sind nicht belegt, der Status bleibt in Prüfung.
 
 ## Timeline
 

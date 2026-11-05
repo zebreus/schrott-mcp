@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ziems Recycling ist eine Filiale der Ziems Recycling Malchow GmbH & Co. KG, HRA 2440
+Amtsgericht Neubrandenburg, und steht in Stralsund, Zum Seglerhafen 1, 18439, mit
+Telefonnummer +49 3831 666234. Das Impressum und die Registeraufbereitung Northdata belegen
+den Rechtsträger, die Standortseite die Filiale; die Gruppe nennt fünf Standorte in den
+Landkreisen Mecklenburgische Seenplatte, Rostock und Vorpommern-Rügen. Angenommen werden
+Buntmetalle, Metalle, Elektroschrott, Kunststoffe, Abbruchmaterial, Reifen, Felgen,
+Altbatterien sowie Pappe, Papier und Karton, der Standort ist zertifiziert. Verkauf von
+Nutzmaterial und ein Abholservice sind belegt, Zahlen- und Mietpreise dagegen nicht; zur
+Kostenfreiheit der Abholung fehlt eine Aussage. Offen bleiben die E-Mail-Adresse, die nur für
+die Zentrale belegt ist, und der fehlende Betriebsbezug im OSM-Objekt zur Hausnummer 1.
 
 ## Timeline
 

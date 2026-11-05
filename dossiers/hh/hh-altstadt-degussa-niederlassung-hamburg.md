@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Degussa Niederlassung Hamburg am Ballindamm 5 in 20095 Hamburg ist eine Filiale der Degussa
+Sonne/Mond Goldhandel GmbH mit Sitz in der Friedrich-Ebert-Anlage 35 bis 37 in 60327 Frankfurt
+am Main, HRB 139179 am Amtsgericht Frankfurt am Main, die Schmuck, Dentalprodukte, Zahngold,
+Barren und Münzen führt. Die Filialdaten tragen die Niederlassungsseite des Betreibers mit
+Anschrift, Rufnummer, E-Mail und den Zeiten Montag bis Freitag 9 bis 19 Uhr, die
+Rechtsträgerangaben das Impressum. In OpenStreetMap ist die Hausnummer 5 nicht einzeln erfasst,
+sie gehört zum Adressbereich 4 bis 5 des Gebäudes Propfe Haus, und ein Objekt mit dem Namen
+Degussa existiert im erfassten Bereich nicht, die Koordinate markiert daher nur die belegte
+Anschrift. Eine Preisliste ist im Dossier lediglich als Seed-Verweis vermerkt, geprüfte
+Ankaufs- oder Verkaufspreise sind nicht dokumentiert.
 
 ## Timeline
 

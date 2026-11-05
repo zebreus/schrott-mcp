@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH ist in Greifswald, Gützkower Landstr. 18, als Schrottplatz geführt, die
+Filial-Existenz ist aber nicht betreiberseitig belegt. Ein OpenStreetMap-Objekt nennt den
+Betrieb an genau dieser Adresse mit der deckungsgleichen Telefonnummer 03834 841059, doch das
+ist nur ein OSM-Datenstand. Die aktuelle Standortliste der Betreibergruppe nennt 13 Orte ohne
+Greifswald, die ältere hatte 17 Treffer, die hinterlegte Standortseite antwortet mit 404, und
+ein Schließungsbeleg fehlt; der Status bleibt Prüfung. Offen bleiben der Adressbeleg, das
+leere Postleitzahlfeld, die Koordinate und die ungeklärte Nachfolge der Greifen-Schrott GbR an
+derselben Adresse. Ein Ankaufpreis ist nicht veröffentlicht: Die Sortenliste nennt 17 Gruppen
+ohne Betrag, eine Archivprüfung fand keine Preisliste, und der Containerpreis im
+ALBAclick-Shop ist eine Gebühr.
 
 ## Timeline
 

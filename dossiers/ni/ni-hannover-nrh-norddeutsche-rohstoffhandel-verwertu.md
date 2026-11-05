@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Norddeutsche Rohstoffhandelsgesellschaft mbH (NRH), Fössestraße 114, 30453 Hannover:
+Metallhändler mit Ankauf und Verkauf von Schrott und Metallen, Containergestellung von
+1 bis 33 m³, Altbatterie- und Altfahrzeugentsorgung, Abbruch- und Demontagearbeiten. Die
+Standortseite stender-hohenaspe.de nennt Anschrift, Telefonnummer und Öffnungszeiten,
+der Branchenverband bvse dieselben Daten. In OSM trägt die Adresse ein Objekt mit dem
+Namen der Gesellschaft und derselben Telefonnummer, stützt den Standort aber nur ohne
+Registerauszug. Ankauf und Verkauf erfolgen zu tagesaktuellen Preisen, Zahlenpreise
+und Gebühren werden nicht veröffentlicht. Das Impressum der Website nennt weiterhin die
+Verwertungszentrum Hohenaspe GmbH ohne HRB. Offen bleibt die juristische Kontinuität
+zwischen NRH und Hohenaspe sowie die Frage, wer die Betreiberseite weiter betreibt.
 
 ## Timeline
 

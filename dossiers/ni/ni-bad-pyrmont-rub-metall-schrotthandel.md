@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RÜB Metall- & Schrotthandel ist ein Einzelbetrieb in Bad Pyrmont, Thaler Landstr. 66, 31812,
+mit Telefonnummer 05281 621972 und der E-Mail-Adresse des Inhabers. Die Betreiberseite belegt
+Schrottankauf und Container-Transport, das Seed nennt zusätzlich NE-Metalle, Hartmetalle und
+Demontage, ohne dass die Website das im Einzelnen bestätigt. Ein Handelsregisterbeleg fehlt,
+der Status bleibt in Prüfung. Offen bleibt die Anerkennung: Die Namenssuche im amtlichen
+Fachbetrieberegister liefert nur Teilzeichenketten-Treffer ohne Bezug zu Bad Pyrmont, die
+Suche nach Altfahrzeugverwertung bleibt ganz ohne Treffer, und die Umkreisabfrage um drei
+Kilometer führt ausschließlich zum Containerdienst PCG Pyrmonter Containerdienst als anderem
+Rechtsträger am selben Ort. Das Feld certifications bleibt deshalb leer, wobei ein
+Register-Nichteintrag die freiwillige Anerkennung nicht widerlegt.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert G
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rohstoff Recycling, Walter-Gropius-Straße 38, 50126 Bergheim: Metallrecycling mit
+Ankauf ab 100 kg für Gewerbe und Privat, Weißblech-Pressbetrieb und Containerdienst. Das
+Impressum von rrb-recycling.de nennt Rohstoff Recycling Bergheim GmbH mit Steuernummer
+DE251557115 und dem Verantwortlichen Tobias Folger-Seimetz, aber keine HRB-Nummer. Das
+amtliche Fachbetrieberegister führt diese Anschrift als einzigen Standort und weist das
+Zertifikat der TÜV Rheinland Cert GmbH mit der Nummer 01 400 187133 und der Vorgangsnummer
+ZZET016001968008 aus, gültig bis 31.08.2027, für eR erft RECYCLING GmbH, HRB 59114
+Köln, mit den Tätigkeiten Befördern, Lagern und Behandeln. Die Betreiberseite bestätigt
+die Firmierung seit April 2025 unter diesem Namen. Offen bleibt der fehlende Vermerk
+zur Altfahrzeugverwertung, denn der Standort ist kein anerkannter Demontagebetrieb.
 
 ## Timeline
 

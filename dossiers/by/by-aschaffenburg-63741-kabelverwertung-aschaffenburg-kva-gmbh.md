@@ -68,3 +68,33 @@ Aschaffenburger Kabel- und NE-Metallankäufer. Eigenständige Gesellschaft, getr
   https://www.kabelverwertung-aschaffenburg.de/impressum/ ;
   https://www.northdata.de/Kabelverwertung%20Aschaffenburg%20KVA%20GmbH,%20Aschaffenburg/Amtsgericht%20Aschaffenburg%20HRB%2017577
   (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Pappelweg 8a, 63741 Aschaffenburg**; die alte Vermerkung nennt als Suchfenster das Raster
+  **9.0900/49.9400 bis 9.1400/49.9900** (25 Kacheln) und hält fest, die Hausnummer 8a fehle in OSM. **Quelle 1 (OSM, live
+  abgefragt am 05.11.2026):** das neue Kachelraster **bbox=9.1100,49.9500,9.1400,49.9700** (**6 Kacheln von je 0,01 Grad**
+  um die Hausnummer herum, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1100,49.9500,9.1400,49.9700) lieferte
+  **23 997 Elemente** bei **0 Kachel-Fehlern**. Die **„Pappelweg“** ist in diesem Fenster mit **zwei** Straßenobjekten
+  erfasst (way/30150996, way/23220342; Verlauf 49.9595368/9.1229071 bis 49.9625165/9.1273035); die **Objekt-BBox der
+  Straße** (49.9595368/9.1229071 bis 49.9625165/9.1273035) liegt damit **vollständig in der Fenster-BBox**. Auf der Straße
+  sind **32 Adressobjekte** mit **26 verschiedenen Hausnummern** erfasst (1, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 17, 19,
+  21, 23, 25, 27, 29, 29a, 31, 33, 35, 37, 39, 41; `addr:postcode`=63741, `addr:city`=Aschaffenburg) - die Dossier-Hausnummer
+  **8a existiert in OSM nicht**. Das Nachbarobjekt **way/124562547** (`addr:housenumber`=8, `addr:street`=Pappelweg) und
+  **way/124649030** (`addr:housenumber`=29a) belegen, dass die Straße sowohl gerade als auch mit Buchstabzusatz nummeriert
+  ist, die Geometrie der Nummer **8a** fehlt jedoch; die beiden gewerblichen Knoten an Nummer 8
+  (node/8607543282 „Asmussen KFZ Technik“, node/8607543283 „Englert Fördersysteme“) sind **andere** Betriebe. Die Suche
+  über `name`, `operator`, `brand`, `official_name`, `alt_name`, `short_name`, `legal_name` und `old_name` nach
+  „kabelverwertung“ und „kva“ liefert im Fenster **keinen** Treffer, der diesem Betrieb zugeordnet werden kann - die KVA ist
+  in OSM nicht kartiert. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen,
+  HTTP 200):** das Betreiber-Impressum nennt **„KVA GmbH, Pappelweg 8a, 63741 Aschaffenburg“**, Registereintrag beim
+  Amtsgericht Aschaffenburg **HRB 17577**, USt-IdNr. DE 367 422 720, verantwortlich Josef Huth; das im Dossier zitierte
+  NorthData-Profil bestätigt Rechtsträger und Registereintrag. Die Adresse ist damit **betreiberseitig belegt**, nur die
+  **Geometrie der Hausnummer 8a fehlt in OSM**; nach der Regel dieser Welle wird deshalb **keine** Koordinate erfunden und
+  **kein** Nachbarobjekt (8 oder 29a) und **kein** Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthielt
+  **keine** `clear_fields`-Anweisung; `status` (aktiv), `street`, `postcode`, `opening_hours`, `phone` und alle übrigen
+  Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein**
+  Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1100,49.9500,9.1400,49.9700 ;
+  https://www.kabelverwertung-aschaffenburg.de/impressum/ (live abgerufen 05.11.2026).]
