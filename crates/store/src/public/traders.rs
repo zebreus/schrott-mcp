@@ -173,7 +173,7 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
 ///   with a trailing zero ("49.884893" vs. "49.8848930") is the same point;
 ///   overwriting it would be format churn on an unchanged value.
 /// * every other field: an exact comparison.
-fn same_value(field: &str, new: &str, old: &str) -> bool {
+pub fn same_value(field: &str, new: &str, old: &str) -> bool {
     match field {
         "phone" => phone_key(new) == phone_key(old),
         "street" => street_key(new) == street_key(old),
@@ -218,10 +218,13 @@ fn phone_key(s: &str) -> String {
 fn street_key(s: &str) -> String {
     let mut t = s.to_lowercase();
     t = t.replace("strasse", "str").replace("straße", "str");
-    // Punkte und Bindestriche tragen keine Bedeutung ("Robert-Bosch-Str. 24" und
-    // "Robert-Boschstr. 24" sind dieselbe Anschrift).
-    t = t.replace('.', "").replace('-', "");
-    t.split_whitespace().collect::<Vec<_>>().join(" ")
+    // Punkte, Bindestriche und der Leerraum tragen keine Bedeutung
+    // ("Robert-Bosch-Str. 24" und "Robert-Boschstr. 24" sind dieselbe
+    // Anschrift, ebenso "Blankenburger Str. 18 - 20" und "Blankenburger Str.
+    // 18-20"). Sie werden **vollstaendig entfernt** - mit einem Leerzeichen
+    // blieben "18 - 20" ("18 20") und "18-20" ("1820") zwei Schluessel.
+    t = t.replace('.', "").replace('-', "").replace('\u{2013}', "");
+    t.split_whitespace().collect::<Vec<_>>().join("")
 }
 
 /// One trader row, as stored.
@@ -307,6 +310,13 @@ pub struct SeedKept {
     pub lat: Option<f64>,
     pub lon: Option<f64>,
     pub certifications: String,
+    /// Die recherchierte Adresse, wie sie in der Datenbank steht. Ein Dossier,
+    /// das eine andere Schreibweise derselben Adresse fuehrt, darf sie nicht
+    /// ueberschreiben (Owner-Entscheidung E-16) - und ein **leeres** Dossier-Feld
+    /// soll sie weiterhin entfernen (Beleg zurueckgenommen).
+    pub street: String,
+    pub postcode: String,
+    pub city: String,
 }
 
 impl PublicDb {
@@ -476,7 +486,8 @@ impl PublicDb {
         conn.query_row(
             "SELECT extra_json, description, dropoff_json, pickup_json,
                     website, website_status, website_checked_at, phone,
-                    email, opening_hours, lat, lon, certifications
+                    email, opening_hours, lat, lon, certifications,
+                    street, postcode, city
              FROM traders WHERE slug = ?1",
             params![slug],
             |r| {
@@ -498,6 +509,9 @@ impl PublicDb {
                     lat: r.get(10)?,
                     lon: r.get(11)?,
                     certifications: r.get(12)?,
+                    street: r.get(13)?,
+                    postcode: r.get(14)?,
+                    city: r.get(15)?,
                 })
             },
         )
@@ -783,6 +797,22 @@ mod tests {
             "street",
             "Robert-Bosch-Straße 24",
             "Robert-Bosch-Str. 24"
+        ));
+        // Bindestriche mit und ohne Leerzeichen sind dieselbe Anschrift.
+        assert!(same_value(
+            "street",
+            "Blankenburger Str. 18 - 20",
+            "Blankenburger Str. 18-20"
+        ));
+        assert!(same_value(
+            "street",
+            "Senator-Bömers Straße 10",
+            "Senator-Bömers-Straße 10"
+        ));
+        assert!(same_value(
+            "street",
+            "Hafenrandstr. 5-6",
+            "Hafenrandstraße 5-6"
         ));
         // Koordinaten: dieselbe Zahl in anderer Schreibweise ist derselbe
         // Punkt - ein Ueberschreiben waere reiner Format-Churn.
