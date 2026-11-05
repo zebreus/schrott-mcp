@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mattusch GmbH Schrotthandel ist ein Schrotthandel in der Ulmer Str. 145, 70188
+Stuttgart-Ost; das Handelsregister führt HRB 11765 Amtsgericht Stuttgart mit den
+Geschäftsführern Uwe und Marcel Mattusch. Die Identität tragen der Registereintrag zu
+Sitz und Adresse sowie ein Verzeichniseintrag mit Telefonnummer 0711 2858002 und
+Öffnungszeiten. Die Betreiberseite mattusch-gmbh.de liefert nur ein Logo- und Adressbild
+ohne Impressum, weshalb website_status auf unbekannt steht; die Adresse tragen Register
+und Verzeichnis. Offen bleiben der zweite unabhängige Beleg, weshalb die Angaben aus dem
+Verzeichnis nicht ins Dossier folgen, sowie jede Aussage zu Ankauf, Verkauf und
+Gebühren: es liegt keine Preisseite vor, der Schrottcharakter beruht allein auf dem
+Importe-Eintrag. In OSM trägt die Hausnummer 145 kein Objekt mit Betriebsbezug.
 
 ## Timeline
 

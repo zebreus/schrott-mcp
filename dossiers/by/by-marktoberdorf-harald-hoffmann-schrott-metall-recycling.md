@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Harald Hoffmann Schrott & Metall Recycling eK, Wertachstraße 25, 87616 Marktoberdorf, ist ein
+Schrott- und Metallrecyclingbetrieb, der nach Angaben der Betreiberseite seit 1964 Stahl,
+Buntmetalle und Metallabfälle aufbereitet; Inhaber ist Harald Hoffmann. Das Impressum bestätigt
+Anschrift und Rufnummer, ein Handelsregister-Gegenbeleg nennt HRA 11382 AG Kempten, und die
+Seite weist den Betrieb als von der PÜG zertifizierten Entsorgungsfachbetrieb aus. Ankauf von
+Schrott, Metall und großen Materialmengen ist belegt, Kurse, Verkaufspreise und Gebühren werden
+nicht genannt. In OpenStreetMap trägt die Hausnummer 25 keine Namens- oder Betreiberangabe; ein
+benannter Betriebs-Way mit dem Hofnamen Hoffmann liegt ohne Adress-Tags neben dem Adressobjekt.
+Offen bleibt der Status, da ein erneuter Registerabgleich aussteht, und es fehlen zweite Belege
+für E-Mail und Öffnungszeiten.
 
 ## Timeline
 

@@ -25,7 +25,14 @@ certifications: ''
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die OPHIRUM GmbH betreibt in Frankfurt am Main, Friedensstraße 6-10, 60311 Frankfurt am
+Main, eine Filiale für den Ankauf von Gold und Silber und den Verkauf von Barren und Münzen.
+Die Identität tragen die ortsgebundene Filialseite und das HR-kongruente Betreiber-Impressum
+(HRB 87050 AG Frankfurt); die Filialseite führt sechs Goldlegierungen von 333 bis 999 mit
+Kursen in EUR je Gramm und sekundengenauem Zeitstempel. Offen bleibt, dass es keinen
+Entsorgungsfachbetriebs- oder Altfahrzeugverwertungseintrag und keinen Eintrag in der Liste
+der zertifizierten Goldankäufer gibt und die Kurse ohne Gültigkeitszeitraum und
+Mengenstaffel nur Referenzkurse sind, kein Schrott-Ankaufpreis.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Joachim Schrotthandel GmbH ist ein Familienbetrieb mit Geschäftsführern Peter, René und
+Felix Joachim, der Schrott, Metalle, Altautos und Container annimmt, in der Leutersgrube
+2, 97616 Bad Neustadt a. d. Saale. Die Identität tragen Betreiber-Impressum mit HRB
+10387 Schweinfurt, ein Creditreform-Eintrag mit derselben Adresse sowie das
+Fachbetrieberegister, in dem das Efb-Zertifikat des TÜV SÜD 12 150 8196 vier Anlagen
+ausweist und das Beiblatt den Betrieb als Demontagebetrieb nach AltfahrzeugV bestätigt.
+Offen bleiben die abweichende Registernummer, da das Zertifikat HRB 8833 ausweist, sowie
+der Anschriftenkonflikt zwischen Leutersgrube 2 und der Verzeichnisangabe
+Liebenthalerstr. 70, da beide Anschriften in OSM keine Hausnummern tragen und die Straße
+kein Betriebsobjekt führt, weshalb kein Koordinatenpunkt gesetzt ist.
 
 ## Timeline
 

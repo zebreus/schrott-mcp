@@ -25,7 +25,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die von Gries Recycling GmbH ist ein Familienbetrieb mit Schrott- und Metallhandel seit 1939
+in Frankfurt am Main, Flinschstraße 39, 60388; er handelt mit FE- und NE-Metallen, Kabel,
+Elektronik und Katalysatoren und stellt Container. Betreiber-Impressum (HRB 33586 AG
+Frankfurt, Geschäftsführer Paul von Gries) und Northdata tragen die Identität, das amtliche
+Fachbetrieberegister bestätigt Firma und Standort mit drei Anlagen für Sammeln und
+Befördern, Lagern und Verwerten sowie Behandeln und Verwerten und dem SMU-Zertifikat
+SMU/1194/002. Offen bleiben der fehlende Altfahrzeugverwertungseintrag und die Abgrenzung
+zur Fr. von Gries Rohstoffe GmbH in Mannheim als anderem Rechtsträger.
 
 ## Timeline
 

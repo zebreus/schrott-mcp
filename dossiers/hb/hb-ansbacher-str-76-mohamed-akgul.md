@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Service rund ums Haus Team, Inhaber Mohamed Akgül, Ansbacher Straße 76, 28215 Bremen, ist ein
+mobiler Dienst für Schrottabholung und Entrümpelung, der laut Betreiberseite Heizkörper,
+Baustahl, Maschinen und Altmetall bei Privat- und Gewerbekunden in Bremen und Umgebung abholt.
+Die Domain war beim letzten Abruf auf Start-, Impressums-, Kontakt- und Leistungsseiten
+gesperrt, weshalb der Auftritt als blockiert geführt wird; eine KUL-Partnerseite bestätigt
+Namen und Anschrift, ist aber Geschäftspartner und kein Registerbeleg und stützt weder
+Schrottleistungen noch Vergütung oder Kontaktdaten. Das Impressum nennt kein Handelsregister,
+eine Ausnahme von der Zwei-Quellen-Regel greift daher nicht. Die Koordinate bildet ein
+Wohngebäude ab und keinen Schrottplatz. Offen bleibt die Vergütung; mit dem gleichnamigen
+Betrieb des Yasin Akgül besteht keine belegte Verbindung.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+J. Pfeifer Schrotthandel, Lengfelder Straße 38, 97078 Würzburg-Versbach, ist ein
+Einzelunternehmen des Inhabers Jürgen Pfeifer, das Mischschrott, Metalle und Elektrokabel
+ankauft, Altfahrzeuge und Landmaschinen abholt. Die Betreiberseite und das Telefonbuch nennen
+Anschrift, Telefon 0931 286304 und die Mobilnummer 0175 2747610 übereinstimmend, das Impressum
+trägt jedoch Platzhalter für Umsatzsteuer-Identifikation und Handelsregister, weshalb eine
+Ausnahme von der Zwei-Quellen-Regel nicht greift. Zahlenpreise, Verkaufssortiment und Gebühren
+werden nicht genannt, Termine erfolgen nach Vereinbarung. In OpenStreetMap existiert die
+Hausnummer 38 auf der Lengfelder Straße nicht und kein Objekt trägt einen Betriebsbezug, daher
+ist keine Koordinate gesetzt. Offen bleibt die Zuordnung des Grundstücks, falls es in der
+Kartierung unter abweichender Nummer erfasst ist.
 
 ## Timeline
 

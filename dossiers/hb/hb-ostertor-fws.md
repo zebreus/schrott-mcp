@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+FWS GmbH, Außer der Schleifmühle 65, 28203 Bremen-Ostertor, ist ein Textilsammelunternehmen der
+Boer Group; Impressum und Kontaktseite weisen HRB 26659 HB, den Betriebsleiter Rainer Binger,
+Telefon 0421 346250 und die Adresse info@fws.de aus. Die Betreiberseite beschreibt durchgängig
+Altkleidercontainer, Sortierung und Textilverwertung, ein Schrott- oder Altmetallankauf ist
+dort nicht belegt; die Branchenangabe Schrotthandel und Altmaterialhandel stammt aus
+Verzeichnissen ohne Metallankaufleistung. Ein Registereintrag bestätigt Nummer, Anschrift und
+die Gesellschafterin M.W. Boer Verwaltungsgesellschaft mbH sowie ältere Namens- und
+Adressformen. Die Zugehörigkeit zur Boer Group ist eine Konzernangabe und kein unabhängiger
+Zweitbeleg. Offen bleibt, ob das Unternehmen tatsächlich Schrott handelt, weshalb Prüfstatus
+und Einordnung bestehen bleiben.
 
 ## Timeline
 

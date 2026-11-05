@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metall-Recycling Loos, Amberger Straße 45, 91217 Hersbruck, ist ein Metallhändler, der
+NE-Metallschrott, Spänen, Krätzen, Altkabel und Eisenschrott an- und verkauft und Absetzmulden
+stellt; das Impressum nennt Karolin Loos als Geschäftsführerin und die
+Umsatzsteuer-Identifikationsnummer DE246260787, ein Kreditreform-Eintrag führt dieselbe
+Anschrift und Rufnummer als Karolin Loos Metallhandel. Er tritt als zertifizierter
+Entsorgungsfachbetrieb auf und ist Mitglied im Bundesverband Deutscher Stahl-Recycling- und
+Entsorgungsunternehmen. In OpenStreetMap ist die Anschrift als Knoten mit Hausnummer 45, dem
+Namen Metall-Recycling Loos und dem Betreiber Loos Metallrecycling erfasst, ein Betriebsknoten
+mit Schrottannahme. Offen bleibt der Registerpunkt, denn ein Handelsregister wird im Impressum
+nicht genannt; eine öffentliche Preis- oder Gebührenliste fehlt.
 
 ## Timeline
 

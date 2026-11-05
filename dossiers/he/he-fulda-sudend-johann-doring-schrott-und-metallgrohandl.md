@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Johann Döring GmbH & Co. KG Schrott- und Metallgroßhandlung ist ein Schrott- und
+NE-Metallhandel in Fulda-Südend, Bellingerstr. 22, 36043 Fulda, der Industrie, Handwerk und
+Privat bedient und Container stellt; laut Seed-Stand ist sie ESN-Mitglied. Das
+Betreiber-Impressum (HRA 175 AG Fulda) trägt die Identität, das amtliche
+Fachbetrieberegister bestätigt Standort und Firma mit drei Anlagen für Sammeln, Befördern
+und Handeln, Lagern sowie Behandeln und dem ESN-Zertifikat ESN 98-050125(26). Offen bleiben
+die abweichende Registernummer HRB 7122 im amtlichen Zertifikat gegen HRA 175 im Impressum,
+die bei der Namenssuche ohne Treffer bleibende Rechtsformvariante Doering und der fehlende
+Altfahrzeugverwertungseintrag.
 
 ## Timeline
 

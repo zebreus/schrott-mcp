@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BERNHARD WESTARP GmbH & Co. KG ist ein Rohstoffhandel mit Schrott, E-Schrott, Abbrüchen
+und Containern in der Hafenrandstraße 5-6, 63741 Aschaffenburg, HRA 466 Aschaffenburg.
+Die Identität tragen Betreiber-Footer und Impressum mit der Registerangabe sowie das
+Fachbetrieberegister: das Efb-Zertifikat der PÜG K21433-20260306-Efb-de mit der
+Vorgangsnummer ZZHT004003037014 umfasst 33 Anlagen, von denen 1 bis 3 auf diese
+Anschrift entfallen; der Standort ist zusätzlich als Erstbehandlungsanlage nach ElektroG
+geführt. Im Altfahrzeugverwertungsregister ist der Betrieb als Demontagebetrieb geführt
+(ZARS00500003); die Felder zu Kennnummer und Herstellerrücknahme sind leer. Offen bleibt
+die Schreibweise des Firmennamens, da das Altfahrzeugregister Bernhardt nennt, sowie die
+Gültigkeit des ElektroG-Nachweises, der kürzer läuft als die Parallelzertifikate.
 
 ## Timeline
 

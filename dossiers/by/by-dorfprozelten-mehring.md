@@ -25,7 +25,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mehring ist die Mehring GmbH Schrott-Recycling-Container, ein Schrott- und Metallhandel
+mit Containerdienst und Wertstoffhof in der Industriestraße 18, 97904 Dorfprozelten; das
+Betreiber-Impressum nennt HRB 8536 Registergericht Aschaffenburg. Die Identität tragen
+Betreiber-Website mit Impressum und Zertifikatsseite, ein Registerspiegel sowie das
+EfbV-Zertifikat der ZUUM (ZUUM-177-0510-97-26-0615, Vorgangsnummer ZZFT013000728015) mit
+drei Anlagen am Standort: Sammeln und Befördern, Lagern und Behandeln sowie Lagern.
+Offen bleibt die Geschäftsanschrift An der Senne 25 in Mainaschaff, die ein
+Registerspiegel nennt, während die Zertifikatsfassung Industriestraße 18 nennt und die
+Firmierung abweicht; zudem unterscheiden sich die Telefonangaben, und das verlinkte PDF
+ist die Vorgängerfassung. Ankauf und Preise sind nicht belegt.
 
 ## Timeline
 

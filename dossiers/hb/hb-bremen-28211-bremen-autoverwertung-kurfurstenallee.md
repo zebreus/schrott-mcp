@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bremen-Autoverwertung, Kurfürstenallee 6, 28211 Bremen, ist eine Autoverwertungsseite mit
+Schrottautoankauf und Abschleppdienst, die Anschrift, Telefon 0152 2789 0705 und die Adresse
+info@bremen-autoverwertung.de ausweist. Das Impressum benennt weder eine natürliche Person noch
+eine Gesellschaft und enthält keine Register- oder Zertifikatsidentität; die eigene Werkstatt,
+eine Zertifizierung und ein deutschlandweiter mobiler Ankauf sind unbestätigte
+Betreiberbehauptungen, und Texte zu Berlin und Itzehoe deuten auf kopierte Ortslandingpages
+hin. Die Impressen unter anderen Ortsanschriften tragen dieselbe Rufnummer und dasselbe Layout,
+was für ein Multi-City-Landingnetzwerk spricht, aber keine unabhängige Unternehmensbestätigung
+ist. Öffnungszeiten werden nicht genannt, und die Koordinate wurde nicht übernommen, da der
+Treffer ein Wohngebäude ist und keinen Betriebshof belegt. Offen bleibt die Betreiberidentität.
 
 ## Timeline
 

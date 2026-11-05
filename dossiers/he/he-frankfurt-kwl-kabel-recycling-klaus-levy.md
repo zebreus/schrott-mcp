@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+KWL Kabel Recycling, Inhaber Klaus Levy, ist ein Kabel-Spezialist in dritter Generation mit
+Standort seit 1981 in Frankfurt, Homburger Landstraße 247, 60435 Frankfurt; er kauft Kupfer-
+und Alukabel, Messing, VA und E-Motoren an und holt hessenweit nach Voranknündigung ab, eine
+Bareinzahlung ist möglich. Belegt sind Betreiber-Impressum, Start- und Kontaktseite in
+konsistenten Angaben; ein Registereintrag fehlt, da es sich um ein Einzelunternehmen
+handelt. Offen bleiben die nur als Kontaktanschrift belegte Adresse, die ungeklärte
+Anlieferung und der Negativbefund im amtlichen Fachbetrieberegister, der ohne Existenzbeweis
+bleibt.
 
 ## Timeline
 

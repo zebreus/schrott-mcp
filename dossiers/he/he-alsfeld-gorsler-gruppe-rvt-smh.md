@@ -25,7 +25,19 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Thüringen Anlag
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gorsler GmbH & Co. KG, Carl-Zeiss-Straße 1, 36304 Alsfeld, ist ein Metallhandel der Gruppe
+RVT/SMH, der Eisen- und Buntmetalle, E-Schrott und Batterien annimmt, Selbstanlieferung in
+Kleinmengen ermöglicht und Container stellt; das Impressum nennt HRA 3193 AG Gießen, ein
+zweiter Registereintrag bestätigt Nummer und Anschrift. Das amtliche Fachbetrieberegister weist
+die Gesellschaft mit einem EfbV-Zertifikat der TÜV Thüringen Anlagentechnik (Nummer
+2B210425-065-2026, Vorgangsnummer ZZRT002000226011, gültig bis 08.12.2027) aus, das drei
+Anlagen am Dossierstandort umfasst: Sammeln und Befördern, Lagern mit den angekreuzten Feldern
+zwecks Verwertung sowie Behandeln und Verwerten. Das Beiblatt weist die Anlage zugleich als
+anerkannte Annahmestelle nach § 2 Absatz 2 AltfahrzeugV aus. Weitere zertifizierte Betriebe
+derselben Ortssuche gehören anderen Rechtsträgern und wurden nicht übernommen. Offen bleibt, ob die Gesellschaft
+einen eigenen Eintrag in der Route „Altfahrzeugverwertung“ des amtlichen Registers führt — die hier genannte
+Anerkennung als Annahmestelle stammt aus dem Beiblatt des EfbV-Zertifikats, ein eigener
+AltfahrzeugV-Registereintrag ist im Dossier nicht belegt.
 
 ## Timeline
 

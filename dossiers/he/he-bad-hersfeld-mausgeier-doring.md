@@ -25,7 +25,15 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (ESN Entsorgergemeinsc
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mäusgeier + Döring GmbH & Co. KG ist ein Schrott- und Metallgroßhandel in Bad Hersfeld,
+Landecker Straße 15, 36251 Bad Hersfeld, der FE-Schrott und NE-Metalle ankauft, Container
+stellt und abholt; Altautowerkauf gibt es nicht, der Ankauf verlangt einen gültigen
+Personalausweis. Die Identität tragen das Betreiber-Impressum (AG Bad Hersfeld HRA 102,
+Geschäftsführerin Ina-Maria Döring), HR-kongruent per Northdata, und das amtliche
+Fachbetrieberegister mit drei Anlagenzeilen am Standort und der Urkunde ESN 98-060132(26);
+ergänzend sind Erstbehandlungsanlage nach § 21 ElektroG und LkSG-Bescheinigung belegt. Offen
+bleibt, dass die Betreiberseite noch die Vorjahreszertifikatsnummer nennt und die
+Altfahrzeugverwertungs-Route keinen Treffer zeigt; öffentliche Ankaufpreise fehlen.
 
 ## Timeline
 

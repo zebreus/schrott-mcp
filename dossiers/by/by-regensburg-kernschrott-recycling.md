@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Kernschrott Recycling UG (haftungsbeschränkt), Dieselstr. 7, 93053 Regensburg, ist ein Schrott-
+und Sondermetallhändler mit Schwerpunkt Elektroelektronikschrott, Kabel und Containern; das
+Impressum weist HRB 12051 Regensburg und Michael Bitterbier als Geschäftsführer aus. Für die
+Elektrofraktion führt die Betreiberseite eine Preisseite mit 42 Positionen je Kilogramm, Stand
+06.10.2026, überwiegend mit Zahlenwerten und drei Positionen nur auf Anfrage; die Preise sind
+als unverbindlich gekennzeichnet und setzen eine Rücksprache vor dem Verkauf voraus. Die
+interne Annahmeliste hält 19 Materialannahmen mit ihren jeweiligen Variantenbedingungen und
+einem globalen Gefahrstoffausschluss fest; Leiterplatten der Klasse 3 bleiben wegen des
+Widerspruchs zwischen Sortenbeschreibung und Ankaufsausschluss in Quarantäne und gelten nicht
+als bestätigte Annahme. Offen bleibt, welche Preise für die übrigen Schrottfraktionen gelten.
 
 ## Timeline
 

@@ -48,3 +48,35 @@ Registergesellschaft Gebrüder Dörner GmbH & Co. (HRA 9964 Wuppertal) ist laut 
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Handelsregister-Treffer Gebrüder Dörner GmbH & Co. KG, Wuppertal, AG Wuppertal HRA 9964, Status erloschen (Northdata-Spiegel, Einzelbeleg); keine Betreiber-Website auffindbar (Suchtreffer nur Verzeichnis-Profile: schrottradar/schrottplatz-info u.ä. = Leads, keine Belege); Güterbahnhof Mirke 1 nur per Aggregator belegt → keine Frontmatter-Fills; Status bleibt pruefung; Quelle: northdata.de-Sucheintrag HRA 9964]
+
+### Recherche 05.11.2026
+
+- [Recherche 05.11.2026: **Amtliches Fachbetrieberegister (E-15) am 05.11.2026 erneut geprüft: für die Gebrüder Dörner GmbH & Co. KG in Wuppertal-Elberfeld kein dem Dossierstandort zugeordneter
+  Registereintrag (Negativaussage mit Reichweitenklausel).** Geprüft wurden beide Routen des amtlichen Fachbetrieberegisters
+  (https://fachbetrieberegister.gadsys.de/fachbetrieberegister/), Route „Entsorgungsfachbetriebe“ und Route „Altfahrzeugverwertung“, durchgängig mit dem Filter „Art des
+  Betriebs = Egal“ (is=1&e=1); die Standortabfragen liefen mit validiertem adr-Parameter, der die Hofanschrift „In der Mirke 1, 42109 Wuppertal“ samt PLZ-Abgleich (42109
+  per OSM/Nominatim bestätigt, Punkt 7.1460372/51.2741118) enthält, in den Radien 3 km, 5 km und 10 km. **Namenssuche Route „Entsorgungsfachbetriebe“:** „Dörner“ 75 Treffer
+  und „Dörner GmbH & Co. KG“ 28 Treffer, ausschließlich Namensvettern wie „OTTO DÖRNER Mineralik GmbH & Co. KG“ (Hamburg, Consrade, Holthusen, Groß Schwaß, Weitendorf,
+  Plate, Zurow, Tarzow, Seevetal, Nützen) sowie „Henstedt-Ulzburg“ (ZZBE00100041 / 3-5) und „Hauptsitz“ (ZZBE00100041 / 1-3, Lederstrasse 32-34, 22525 Hamburg); „Gebrüder
+  Dörner“ 0, „Gebrüder Dörner GmbH & Co. KG“ 0, „Gebruder Dörner“ 0, „Gebruder Dorner“ 0, „Dorner“ 0, „Gebr. Dörner“ 0, „Dörner Recycling“ 6 Treffer, „Gebrüder Dörner GmbH
+  & Co“ 0. **Route „Altfahrzeugverwertung“:** „Dörner“ 0, „Dörner GmbH & Co. KG“ 0, „Gebrüder Dörner“ 0, „Gebrüder Dörner GmbH & Co. KG“ 0, „Gebruder Dörner“ 0, „Gebruder
+  Dorner“ 0, „Dorner“ 0, „Gebr. Dörner“ 0, „Dörner Recycling“ 0, „Gebrüder Dörner GmbH & Co“ 0, jeweils 0 Treffer. **Standortabfrage:** Route „Entsorgungsfachbetriebe“ 3 km
+  → 9 Treffer, 5 km → 20 Treffer, 10 km → 83 Treffer; Route „Altfahrzeugverwertung“ 3 km → 0 Treffer, 5 km → 0 Treffer, 10 km → 2 Treffer. **Nachbarsuche (Namenssuche der
+  geografisch benachbarten Treffer):** 18 Nachbarnamen wurden einzeln gesucht, u. a. „AWG Abfallwirtschaftsgesellschaft mbH Wuppertal“ (8 Treffer), „AWG Recyclinghof
+  Bornberg“ (2), „Tamm GmbH“ (6), „Westmetall GmbH & Co. KG“ (3), „Entsorgung Solingen GmbH“ (6), „Birgit Wüster Schrotthandel“ (3), „Rohr-Frei-Schnelldienst Axel
+  Zimmerbeutel GmbH“ (1), „Günter Allermann GmbH“ (3), „Heintke Umweltdienste GmbH“ (1), „Uwe Schero Schrotthandel & Dienstleistungen“ (2), „Korfmann GmbH“ (1), „Overbeck
+  Agrar- und Umweltservice GmbH“ (1) und „Tanklager Solingen“ (1); keine dieser Namenssuchen führt zu einem Dörner-Eintrag in Wuppertal, eine Umbenennung oder Nachfolge ist
+  nicht erkennbar. **Abgrenzung:** Die 9 Treffer im 3-km-Radius sind „AWG Abfallwirtschaftsgesellschaft mbH Wuppertal | AWG Recyclinghof Bornberg“ (ZZHT00301354 / 4 und /
+  5, Bornberg 22, 42109 Wuppertal, 0,4 km), „Rohr-Frei-Schnelldienst Axel Zimmerbeutel GmbH | … (Fuhrpark)“ (ZZHT00301369 / 1, Bornberg 91, 42109 Wuppertal, 0,7 km), „Ewald
+  Lietmann GmbH“ (ZZET00800041 / 1 und / 2, Juliusstr. 6, 42105 Wuppertal, 0,8 km), „Vebego Industrial Cleaning Services GmbH“ (ZZBT00300192 / 1, Konsumstr. 45, 42285
+  Wuppertal, 1,6 km), „AVISTA OIL Deutschland GmbH“ (ZZBT00500004 / 39, Funckstraße 94e, 42115 Wuppertal, 2,0 km) und „H.W. Cremer Schrottgroßhandel GmbH“ (ZZET00800045 /
+  2, Loher Höhe 12, 42283 Wuppertal, 2,2 km). Die im 10-km-Radius gefundenen „Birgit Wüster Schrotthandel“ (Römerstraße 1, 50354 Hürth) und „Entsorgung Solingen GmbH“ sind
+  ebenfalls Fremdbetriebe. **Adressdifferenz:** Das Dossier nennt „Güterbahnhof Mirke 1“; die validierte Adresslage lautet „In der Mirke 1, 42109 Wuppertal“ (OT Mirke), das
+  Register führt an dieser Adresse keinen Dörner-Eintrag. **Ergebnis:** Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation, Ausstellungsdatum, Gültigkeitsdatum,
+  Anlagenanzahl, zertifizierte Tätigkeit und Standort sind für die Gebrüder Dörner GmbH & Co. KG nicht ausgewiesen; das Feld `certifications` bleibt unverändert leer. Der
+  Negativbefund betrifft nur die Registeranerkennung und widerlegt die bereits am 28.10.2026 dokumentierte Auflösung der Gesellschaft nicht. **Reichweite der Aussage:**
+  geprüft wurden die oben genannten zehn Namensvarianten (Rechtsform-Pool und Inhaber-Namensvetter) in beiden Registerrouten (durchgängig mit dem Filter „Art des Betriebs = Egal“, is=1&e=1), die Standortsuche mit validiertem
+  adr-Parameter in den Radien 3 km, 5 km und 10 km sowie die Namenssuche der 18 benachbarten Treffer; Abrufdatum 05.11.2026; die Trefferzahlen der einzelnen Abfragen sind oben wörtlich genannt. Ein Register-Nichteintrag ist kein Nachweis
+  dafür, dass ein Betrieb keine Anerkennung besitzt: die Efb-Anerkennung nach § 56 KrWG ist freiwillig, und der Dritt-Spiegel schrottregister.pages.dev wurde nicht als
+  Beleg herangezogen.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gebr%C3%BCder%20D%C3%B6rner; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Gebr%C3%BCder%20D%C3%B6rner; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=In%20der%20Mirke%201%2C%2042109%20Wuppertal%3B7.1460372%3B51.2741118%3B7.158037%3B51.286112%3B7.134037%3B51.262112&dst=3&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=In%20der%20Mirke%201%2C%2042109%20Wuppertal%3B7.1460372%3B51.2741118%3B7.158037%3B51.286112%3B7.134037%3B51.262112&dst=3&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=In%20der%20Mirke%201%2C%2042109%20Wuppertal%3B7.1460372%3B51.2741118%3B7.158037%3B51.286112%3B7.134037%3B51.262112&dst=5&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=In%20der%20Mirke%201%2C%2042109%20Wuppertal%3B7.1460372%3B51.2741118%3B7.158037%3B51.286112%3B7.134037%3B51.262112&dst=5&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=In%20der%20Mirke%201%2C%2042109%20Wuppertal%3B7.1460372%3B51.2741118%3B7.158037%3B51.286112%3B7.134037%3B51.262112&dst=10&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=In%20der%20Mirke%201%2C%2042109%20Wuppertal%3B7.1460372%3B51.2741118%3B7.158037%3B51.286112%3B7.134037%3B51.262112&dst=10&is=1&e=1]

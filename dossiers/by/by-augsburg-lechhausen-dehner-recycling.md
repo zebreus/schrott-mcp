@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dehner Recycling GmbH ist ein Recyclingbetrieb mit Handel, Containerdienst und
+Entsorgung in der Derchingerstr. 133, 86165 Augsburg; das Impressum nennt HRB 19632
+Augsburg. Die Identität tragen Homepage-Footer und Impressumsblock sowie das
+Fachbetrieberegister, in dem das Efb-Zertifikat der PÜG K11915-20260511-Efb-de mit der
+Vorgangsnummer ZZHT004003314011 drei Anlagen am Standort ausweist, darunter das
+Behandeln von Schrott und NE-Metallen. Zusätzlich legt der Betrieb ein PÜG-Dokument vor,
+das die Anschrift als Altfahrzeug-Annahmestelle nach § 5 Abs. 3 AltfahrzeugV bescheinigt
+(Betriebsnummer I761E1970). Offen bleibt, dass das Altfahrzeugverwertungsregister für
+Namen und Anschrift keinen Treffer führt, die Bescheinigung also nur als
+Betreiberdokument vorliegt. Ein Ankauf von Schrott ist nicht belegt.
 
 ## Timeline
 

@@ -25,7 +25,15 @@ certifications: ''
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+AGH Altgoldhandel ist ein von Raimund Pyrka betriebenes Einzelunternehmen in Erlensee,
+Langendiebacherstr. 45, 63526 Erlensee, das Zahngold und Dentalgold, Gekrätz, Gusskegel und
+Feilung ankauft, Laborabfälle annimmt und mit eigenem Spektrometer sowie Abholservice im
+50-km-Radius und per Versand arbeitet. Die Identität tragen das Betreiber-Impressum mit
+USt-IdNr DE 270343605, die Zahngold- und Kontaktseiten sowie die betreibergeführten
+Social-Profile als Zweitbeleg; die Altgoldseite führt acht datierte Feingoldgehalte in EUR
+je Gramm mit Preisstand 09.10.2026. Offen bleiben der Negativbefund im amtlichen
+Fachbetrieberegister und das Fehlen des Eintrags in der Liste der zertifizierten
+Goldankäufer des Münzenfachhandels.
 
 ## Timeline
 

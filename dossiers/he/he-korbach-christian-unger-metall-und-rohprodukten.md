@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Christian Unger Metall- und Rohprodukten-Großhandel ist ein als Güternahverkehr e.K.
+eingetragenes Einzelunternehmen in dritter Generation in Korbach, Homberger Weg 3-5, 34497
+Korbach, das seit 1953 Schrott zu Tageshöchstpreisen bar ankauft, auch Kleinstmengen nimmt
+und Container stellt; seit 2025 führt Christian Unger den Betrieb. Die Betreiber-Website und
+der Handelsregistereintrag HRA 103 AG Korbach als HR-Zweitbeleg tragen die Identität. Offen
+bleiben die abweichende Hausnummer (3 im Register gegen 3-5 auf der Website), der Umstand,
+dass Telefon, E-Mail und Zeiten aus der Betreiber-Einzelquelle stammen, und die noch auf die
+vorherige Generation lautende Angabe auf der Website.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Süd GmbH ist der Standort Stuttgart (Zentrale Süd) der ALBA-Gruppe, ein
+Schrott- und Metallrecycling mit Großhandel am Mittelkai 21, 70327 Stuttgart; der
+Registerspiegel Northdata führt die Gesellschaft unter AG Stuttgart HRB 765421. Die
+Identität tragen Betreiber-Standortseite, Konzernübersicht und Registerspiegel, die
+Anschrift, Telefon und E-Mail nennen. Die Sortenliste umfasst 17 Sortengruppen von
+Produktionsschrott über Karossen bis Buntmetallen; ein Eurobetrag mit Einheit oder Datum
+ist nirgends veröffentlicht, auch nicht in der Wayback-Historie und nicht auf den
+Schwester-Domains. Offen bleibt damit der Ankaufspreis; eine Gebührentafel oder ein
+Börsenkurs ist ebenfalls nicht belegt, und die Betreiberdomain war beim Abruf nur über
+einen Reader-Proxy erreichbar.
 
 ## Timeline
 
