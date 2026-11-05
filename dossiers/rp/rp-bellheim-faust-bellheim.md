@@ -91,3 +91,42 @@ Die Beleglage des Seeds bleibt unverändert schwach: Die einzige belastbare Spur
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2600,49.1700,8.3200,49.2100 (Kachelraster, live abgerufen
   03.11.2026) ; https://lokaleschrottplatz.de/schrott-und-autoentsorgung-faust-brigitte-und-philipp/ (live abgerufen
   03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die zweite unabhängige Quelle fehlt.** Der
+  OSM-Befund der Vorphase ist **live bestätigt** und der Adresspunkt **eindeutig**, aber die Dossier-Adresse stammt
+  ausschließlich aus **Verzeichnis-Portalen**; nach der README-Quellenhierarchie sind Verzeichnisse ausdrücklich
+  **Leads, keine Evidenz** - ein Verzeichnis plus OSM bleibt ein **Einzelbeleg**; hinzu kommt die im Dossier
+  dokumentierte **dynamische Statusanzeige „Geschlossen"** des Portals. **Was geprüft wurde (live am 05.11.2026):**
+  (a) **Suchfenster (0,01°-Kacheln):** **bbox=8.2700,49.1750,8.3000,49.1950** = 6 Kacheln à 0,01° (8.2700/49.1750/8.2800/
+  49.1850, 8.2700/49.1850/8.2800/49.1950, 8.2800/49.1750/8.2900/49.1850, 8.2800/49.1850/8.2900/49.1950,
+  8.2900/49.1750/8.3000/49.1850, 8.2900/49.1850/8.3000/49.1950), live abgerufen am 05.11.2026; **Zensus:** **59**
+  Adressobjekte mit `addr:street`=Hördter Straße (Nummern 1, 1A, 2, 4, 5, 6, 7, 8, 8A, 9, 10, 11, 12, 13, 14, 14A, 15,
+  16, 17, 18, 19, 20, 21, 23, 24, 25, 26A, 26B, 27, 27A, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 39A, 39B, 39C,
+  40, 41, 42, 43, 43A, 44, 45, 46, 47, **48**, 49, 50, 52, 54, 56) und **65** namentliche Straßen im Fenster; eine Suche
+  über **alle** Tag-Werte nach „**Faust**", „**Schrott**" oder „**Autoentsorgung**" liefert **0 Treffer** - der Betrieb
+  ist in OSM **nicht namentlich kartiert**. (b) **Objekt (live geladen):** **way/396748734** mit `addr:housenumber`=**48**,
+  `addr:street`=**Hördter Straße**, `addr:city`=**Bellheim**, `addr:postcode`=**76756**, `addr:country`=DE,
+  `building`=yes, `building:levels`=2 (live am 05.11.2026 über
+  https://api.openstreetmap.org/api/0.6/way/396748734/full.json); 5 Knotenreferenzen, davon **4 eindeutige**; Objekt-BBox
+  49.1876626/8.2890008 bis 49.1878144/8.2892463; Mittelwert der eindeutigen Knoten 49.1877537/8.2891134, liegt
+  **innerhalb** der Objekt-BBox; die **Objekt-BBox liegt vollständig im Suchfenster** (Prüfung ✓). Das Objekt trägt
+  **weder `name=` noch `operator=`**. (c) **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der
+  Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) kennt für **Bellheim (76756)** **keinen** Betrieb; eine Suche im **vollständigen
+  Registerdatensatz** (4.507 Einträge, Stand 11.08.2026) nach „**Faust**" liefert **0** Treffer. Eine Efb- oder
+  AltfahrzeugV-Anerkennung für den Betrieb ist damit **nicht belegt** (die Anerkennung ist freiwillig). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle** für den Betrieb an dieser Anschrift sowie die Klärung, ob er noch besteht.
+  `status` bleibt **pruefung**, `street`/`postcode`/`phone` bleiben leer, `clear_fields: 'geo'` bleibt bestehen.
+  **Reichweitenklausel:** Das Fehlen eines Registerbelegs oder einer Efb-Anerkennung ist **kein** Existenz- oder
+  Schließungsbeweis; die dynamische Portalanzeige „Geschlossen" begründet **keine** dauerhafte Schließung. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/396748734/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2700,49.1750,8.2800,49.1850 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2700,49.1850,8.2800,49.1950 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2800,49.1750,8.2900,49.1850 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2800,49.1850,8.2900,49.1950 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2900,49.1750,8.3000,49.1850 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2900,49.1850,8.3000,49.1950 ;
+  https://schrottregister.pages.dev/assets/institute.json (vollständiger Registerdatensatz, Stand 11.08.2026) ;
+  https://lokaleschrottplatz.de/schrott-und-autoentsorgung-faust-brigitte-und-philipp/ (live abgerufen 05.11.2026).]

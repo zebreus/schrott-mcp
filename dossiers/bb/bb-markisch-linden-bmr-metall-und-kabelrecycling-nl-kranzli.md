@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BMR Metall- und Kabelrecycling GmbH (NL Kränzlin), Darritzer Straße 25, 16818 Märkisch Linden
+OT Kränzlin: Niederlassung eines Metall- und Kabelrecyclingbetriebs. Das Impressum der Gruppe
+nennt die Gesellschaft mit HRB 9544 CB, USt-IdNr. DE 138 543 370, den Geschäftsführern Enrico
+Isdepski und René Konrad und dem Sitz In der Muna 12 in Mittenwalde OT Töpchin; Kränzlin wird
+dort nicht genannt. Die Niederlassung ist ausschließlich über Verzeichniseinträge belegt, die
+sie als Darritzer Straße 25 in Kränzlin führen. In OpenStreetMap ist die Hausnummer 25 zwar als
+Gebäude dieser Straße erfasst, das Objekt trägt jedoch keinen Betriebsbezug. Ein öffentlicher
+Ankaufspreis fehlt, die Preisseite verweist auf telefonische Auskunft; beziffert sind nur die
+Verkaufspreise des samstags geöffneten BMR-Markts. Offen bleibt, ob die Niederlassung betrieben
+wird; der Status bleibt pruefung.
 
 ## Timeline
 

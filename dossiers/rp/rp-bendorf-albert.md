@@ -95,3 +95,43 @@ provenance_origin: table
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5500,50.3950,7.6100,50.4450 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.11880.com/branchenbuch/bendorf-rhein/120674719B107486227/albert-schrotthandel.html ;
   https://raeumungsfinder.de/methodik/ (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Die Dossier-Hausnummer **109** findet sich in OSM
+  auf der Dossier-Straße **Bahnhofstraße** in Bendorf **nicht**; ein Punkt auf eine Nachbarnummer wäre geraten,
+  deshalb wird bewusst **keine** Koordinate gesetzt. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster
+  (0,01°-Kacheln):** **bbox=7.5600,50.3900,7.6000,50.4400** = 8 Kacheln à 0,01° (4 Kacheln über
+  bbox=7.5600,50.4000,7.6000,50.4400 plus 4 Kacheln über bbox=7.5600,50.3900,7.6000,50.4000; live abgerufen am
+  05.11.2026). Das Fenster umfasst die **gesamte** Bahnhofstraße: die Nummern steigen nach Norden, der südlichste
+  kartierte Wert ist die **98** bei 50.4155873/7.5774663, eine **109** wäre im südlichen Fortsetzungsbereich erwartet.
+  **Zensus:** **31** Adressobjekte mit `addr:street`=Bahnhofstraße (Nummern **28, 58, 59, 60, 61, 62, 63, 64, 65, 67,
+  68, 69, 70, 74, 75, 78, 80, 80a, 81, 82, 83, 84, 85, 86, 87, 91, 92, 93, 94, 95, 98**) - die **Hausnummer 109
+  existiert dort nicht**; eine Suche über **alle** Tag-Werte nach `addr:housenumber`=**109** im gesamten Fenster
+  (**113.318** Elemente) liefert **0 Objekte**; eine Suche nach „**albert**", „**schrott**" oder „**entrümpel**" liefert
+  **0 Treffer** - der Betrieb ist in OSM **nicht namentlich kartiert**. (b) **Quelle 1 (Betreiber/Verzeichnis):** Das
+  **11880-Profil** (live abgerufen 03.11.2026, https://www.11880.com/branchenbuch/bendorf-rhein/120674719B107486227/albert-schrotthandel.html)
+  führt „Albert Schrotthandel" mit „**Bahnhofstr. 109, 56170 Bendorf**", Telefon 0176 41806011, Mo–Fr 07:00–18:00; das
+  **RäumungsFinder-Profil** (https://raeumungsfinder.de/rheinland-pfalz/bendorf/bendorf-allgemein/schrotthandel-albert/)
+  nennt dieselbe Anschrift, und **RäumungsFinder erklärt selbst**, ein redaktionelles Branchenverzeichnis zu sein, das
+  Firmenangaben aus Google Business/Maps und OpenStreetMap aggregiert - es ist damit **keine** unabhängige Quelle.
+  **Es existiert keine Betreiberseite, kein Impressum und kein Registereintrag**; der **Registerabzug** des
+  Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe (Stand
+  11.08.2026, über den Spiegel schrottregister.pages.dev) kennt für **Bendorf** **keinen** Betrieb und im vollständigen
+  Registerdatensatz (4.507 Einträge) **keinen** Eintrag „Albert Schrotthandel". **Quelle 2 (OSM):** die
+  Bahnhofstraße-Adressobjekte im genannten 0,01°-Fenster (live abgerufen 05.11.2026). **Was fehlt:** ein OSM-Objekt mit
+  `addr:street`=Bahnhofstraße **und** `addr:housenumber`=109 (oder ein benanntes Betriebsobjekt an dieser Anschrift)
+  **sowie** eine Betreiber- oder Registerquelle für die Nummer 109. Der im Dossier dokumentierte Vermerk, das im selben
+  Verzeichnis geführte **HMS Breitbach** sitze an Bahnhofstraße 110, ist **kein** Beleg für oder gegen die Nummer 109
+  und **keine** Merge-Grundlage. `status` bleibt **pruefung**, das Dossier bleibt im Identitäts-Klärfall.
+  **Reichweitenklausel:** Das Fehlen einer Hausnummer in OSM ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5600,50.4000,7.5800,50.4100 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5800,50.4000,7.6000,50.4100 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5600,50.4100,7.5800,50.4200 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5800,50.4100,7.6000,50.4200 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5600,50.4200,7.5800,50.4300 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5800,50.4200,7.6000,50.4300 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5600,50.3900,7.5800,50.4000 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5800,50.3900,7.6000,50.4000 ;
+  https://schrottregister.pages.dev/assets/institute.json ; Recherche-Vermerke vom 03.11.2026 im Dossier (live abgerufen
+  05.11.2026).]

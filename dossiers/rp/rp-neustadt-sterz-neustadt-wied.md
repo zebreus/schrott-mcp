@@ -88,3 +88,40 @@ Ein Verzeichnis führt „Sicherheitsdienst Norbert Sterz“ an der Mühlenstra�
   verbunden. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4000,50.6000,7.4600,50.6450 (Kachelraster, live abgerufen
   03.11.2026) ; Recherche-Vermerke vom 02.10., 07.10. und 15.10.2026 im Dossier.]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Es fehlt eine **belegte Anschrift** und ein
+  **belegter Schrottbetrieb**: `street` und `postcode` sind **leer**; der einzige Adress-Lead („**Mühlenstraße 21,
+  53577 Neustadt (Wied)**") gehört laut Dossier zu einem **Sicherheitsdienst** (Sicherheitsdienst Norbert Sterz), nicht
+  zu einem Schrottbetrieb. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster (0,01°-Kacheln, 0,02°-Kacheln
+  für den westlichen Rand):** **bbox=7.4000,50.6000,7.4500,50.6400** = 8 Kacheln à 0,01° über
+  **bbox=7.4100,50.6000,7.4500,50.6400** (7.4100/50.6000/7.4200/50.6100, 7.4100/50.6100/7.4200/50.6200,
+  7.4100/50.6200/7.4200/50.6300, 7.4200/50.6100/7.4300/50.6200, 7.4200/50.6200/7.4300/50.6300, 7.4300/50.6100/7.4400/
+  50.6200, 7.4300/50.6200/7.4400/50.6300, 7.4400/50.6100/7.4500/50.6200) plus 2 Kacheln à 0,02° über
+  **bbox=7.4000,50.6000,7.4100,50.6400**, live abgerufen am 05.11.2026; **Zensus:** **732** Adressobjekte und **58**
+  namentliche Straßen im Fenster (u. a. Ammerich, Auf dem Schützeichel, Bahnhofstraße, Basaltweg, Ehrenberg,
+  Ehrensteiner Straße, Gerhardshahn, Hauptstraße, Kirchplatz, Mühlenauer Weg, Paffhausen, Panau, Rüddel). Eine Suche
+  über **alle** Tag-Werte nach „**Mühlenstraße**" bzw. „**Muehlenstraße**" liefert **0 Objekte** in **43.478** Elementen -
+  die Straße existiert in **Neustadt (Wied)** **nicht**; der **ähnlichste** Straßenname ist **„Mühlenauer Weg"**
+  (Hausnummern **1, 3, 5, 7, 9**) - ein **anderer** Straßenname, keine Schreibvariante; daneben trägt **„Ehrenberg"** die
+  Nummern 46, 46a, 48, 48a, 50, 50b, 50c, 52, 54, 61. Eine Suche nach `addr:housenumber`=**21** im gesamten Fenster liefert
+  **0 Objekte**; eine Suche über **alle** Tag-Werte nach „**sterz**", „**schrott**", „**wertstoff**" oder
+  „**sicherheitsdienst**" liefert **0 Treffer** - der Betrieb ist in OSM **nicht namentlich kartiert**. (b) Das im Dossier
+  dokumentierte **Datenmischverdachts-Lage** bleibt unverändert: Das Portal recyclinghof-wertstoffhof.de führt
+  „Sicherheitsdienst Norbert Sterz, Mühlenstraße 21, 53577 Neustadt (Wied)" unter der **URL mit 35767-breitscheid** und die
+  Rubrik Rheinland-Pfalz/**Breitscheid**, und die dort genannten Öffnungszeiten (Fr 14:00–16:30, Sa 09:00–14:00) entsprechen
+  **exakt** dem durch zwei direkt gelesene Primärseiten bestätigten kommunalen **Wertstoffhof Siegweg in
+  Breitscheid/Hessen (35767)** - ein **Kontaminationssignal**, kein Beleg für eine Schrottannahme durch Sterz. **Quelle 1
+  (Verzeichnis):** der Portal-Eintrag (im Dossier vom 07.10. und 15.10.2026 zitiert) - ein **Aggregator** mit **fremder
+  Branchenangabe**, der **Datenmischverdacht** ist dokumentiert. **Quelle 2 (OSM):** das Kachelraster (live abgerufen
+  05.11.2026 über https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4100,50.6000,7.4500,50.6400 und
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4000,50.6000,7.4100,50.6400). **Was fehlt:** ein
+  **Betreiber- oder Registerbeleg** für einen **Schrottbetrieb** in Neustadt (Wied) samt **Anschrift**; die Recherche vom
+  02.10.2026 hat live belegt, dass Gelbe Seiten und 11880 **keinen** Schrott-/Kfz-Bezug zu „Sterz" in Neustadt (Wied)
+  kennen. `status` bleibt **pruefung**, `street`/`postcode`/`phone`/`website` bleiben leer bzw. unverändert,
+  `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen einer Straße, einer Hausnummer oder eines
+  Betriebsobjekts in OSM ist **kein** Nichtexistenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4100,50.6000,7.4500,50.6400 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4000,50.6000,7.4100,50.6400 ;
+  Recherche-Vermerke vom 02.10., 07.10., 15.10. und 03.11.2026 im Dossier (live abgerufen 05.11.2026).]

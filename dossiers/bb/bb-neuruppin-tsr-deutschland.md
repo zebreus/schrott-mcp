@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG, Philipp-Oehmigke-Straße 13, 16816 Neuruppin: Schrotthändler der
+REMONDIS-Gruppe. Das Impressum weist die Gesellschaft mit Sitz Brunnenstraße 138 in Lünen,
+Amtsgericht Dortmund HRA 19743, und die persönlich haftende Gesellschafterin TSR Deutschland
+Verwaltungs GmbH (AG Dortmund HRB 36274) aus. Die Standortseite nennt Anschrift, Telefon +49
+3391 404839, Öffnungszeiten und das Leistungsprogramm aus Altmetallen und Metallschrott,
+Bleibatterien, Reifen-Demontage, Containern und Brennarbeiten; Efb-Bescheinigung und Zertifikat
+nach DIN EN ISO 9001:2015 liegen als PDF vor. In OpenStreetMap tragen zwei Objekte den Betrieb,
+eines mit Hausnummer, Name, Betreiber und Telefon. Ein Ankaufpreis wird nicht veröffentlicht;
+die Einkaufsbedingungen mit Stand 02/2026 nennen nur die Preisart eines individuell
+vereinbarten Festpreises. Offen bleibt die durch eine Bot-Sperre blockierte Website.
 
 ## Timeline
 

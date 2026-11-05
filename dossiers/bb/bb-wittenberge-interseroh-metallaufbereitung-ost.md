@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, Betriebsstätte Quitzow, Buchholzer Chaussee 5, 19348 Perleberg OT
+Quitzow: Metallaufbereitung mit Schrottannahme, im Dossier unter dem Altnamen INTERSEROH
+geführt. Die Registerkette zum jetzigen Rechtsträger, der ALBA Metall Nord GmbH mit HRB 181
+beim Amtsgericht Rostock, führt über die INTERSEROH Metallaufbereitung Ost GmbH und die
+gelöschte INTERSEROH Berlin GmbH. Die Standortseite nennt Anschrift, Rufnummer +49 3876 786602,
+Adresse quitzow.metall@alba.info und die Zeiten Mo–Fr 7:00 bis 12:15 und 12:45 bis 16:00 Uhr
+sowie Schrott- und NE-Metallannahme und Containerdienst von 7 bis 36 m³. Ein externes
+Zertifikat eines Gutachters führt dieselbe Firma unter der Nummer 5 derselben Straße; der
+Landkreis führt Quitzow als Ortsteil von Perleberg. Ein Ankaufpreis wird nicht veröffentlicht.
+Offen bleibt die frühere Hausnummer 24, die nur auf einen Aggregator-Lead zurückgeht.
 
 ## Timeline
 

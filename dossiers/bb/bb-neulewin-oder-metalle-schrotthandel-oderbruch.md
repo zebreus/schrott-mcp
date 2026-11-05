@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Oder-Metalle Schrotthandel Oderbruch, Neulewin 47a, 16259 Neulewin: Schrott- und
+Altmetallankauf mit Containerdienst, betrieben von der O.M.N. Oder-Metalle GmbH. Das Impressum
+der Betreiberseite nennt die Anschrift, die Rufnummer +49 (0) 33452 49 37 30 und
+Geschäftsführer Sascha Lesner; die E-Mail-Adresse ist nur als Bild eingebettet und daher nicht
+maschinell lesbar, ein Handelsregister nennt die Seite nicht. Die Preisseite führt bezifferte
+Tagespreise je Tonne und Kilo, unter anderem für Mischschrott, Guss, schweren Langschrott,
+Altpapier und Raffkupfer; bei Anlieferung ab 500 kg je Sorte gilt für Buntmetall ein
+Preisaufschlag ohne Zahlenwert. Eine Gebührentafel fehlt, der Schrottpreis wird um die
+Containerkosten gekürzt. Offen bleiben die Registerlage, die E-Mail-Adresse und die
+Flächenzuordnung, da OpenStreetMap die Adresse ohne Betriebsbezug führt.
 
 ## Timeline
 

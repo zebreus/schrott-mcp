@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alt- und Buntmetallankauf Bulgrin GmbH, Im Schäwe 12, 14547 Beelitz: Familienbetrieb, der Alt-
+und Buntmetalle, Katalysatoren und E-Schrott ankauft und Container stellt. Das Register führt
+dazu die Bulgrin GmbH, HRB 30767 Potsdam, mit Schrott- und Buntmetallhandel und René Bulgrin
+als Geschäftsführer bei Gründung; die Betreiberseite verwendet die abweichende Langbezeichnung
+und nennt René Bulgrin selbst als Gründer. Die Standorthistorie führt 2007 Zum Bahnhof 8 und
+seit Mai 2014 Im Schäwe 12, was mit dem Gebäudeknoten in OpenStreetMap übereinstimmt. Pappe
+wird seit 01.08.2022, Kunststoffe seit 2017 und Alttextilien seit 2018 nicht mehr angenommen.
+Containerstellung und Abholung sind kostenpflichtig. Offen bleiben die juristische
+Langbezeichnung und das Impressum, das nur Login- und Datenschutztext liefert, sodass eine
+zweite unabhängige Quelle fehlt.
 
 ## Timeline
 

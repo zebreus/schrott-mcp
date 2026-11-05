@@ -1,5 +1,7 @@
 ---
 slug: rp-33481-dmr-rohstoffhandel-kl
+lat: 49.4594934
+lon: 7.8177009
 name: DMR Rohstoffhandel GmbH
 trader_type: metallhaendler
 state: RP
@@ -82,3 +84,50 @@ Impressum und registerbasierter Unternehmensdatensatz führen übereinstimmend d
   https://www.dmr-rohstoff.de/impressum/ ;
   https://www.northdata.de/DMR+Rohstoffhandel+GmbH,+Kaiserslautern/Amtsgericht+Kaiserslautern+HRB+33481 (live abgerufen
   03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Treffer - Koordinate gesetzt.** Der Negativbefund vom 03.11.2026 ist **sachlich falsch**
+  und wird hiermit korrigiert: Die Straße **„Eselsfürther Bahnhof" existiert in OSM** und trägt Adressobjekte - der
+  damalige Vermerk „in OSM existiert keine Straße namens Eselsfürther Bahnhof" beruhte auf einem **Auslese-/Fensterfehler**.
+  **Wo die Straße liegt (live am 05.11.2026):** Die Straße ist als **way/781358265** (`highway`=residential,
+  `name`=Eselsfürther Bahnhof) im Industriegebiet **Eselsfürth** (OT von Kaiserslautern) kartiert, BBox
+  49.4596535/7.8176047 bis 49.4600310/7.8176811. **Suchfenster (0,01°-Kacheln):** **bbox=7.8100,49.4500,7.8200,49.4700**
+  = 2 Kacheln à 0,01° (7.8100/49.4500/7.8200/49.4600 und 7.8100/49.4600/7.8200/49.4700), live abgerufen am 05.11.2026;
+  **Zensus:** in diesem Fenster genau **3 Adressobjekte** mit `addr:street`=Eselsfürther Bahnhof - die Nummern **1, 2 und
+  4** - dazu 8 namentliche Straßen (u. a. Eselsfürth, Quartermaster Facility, Europaallee, Mainzer Straße); **kein**
+  Objekt mit `name=`/`operator=`-Bezug zu „DMR", „Rohstoff" oder einem Schrottbetrieb. **Objekt (live geladen):**
+  **way/781358267** mit `addr:housenumber`=**4**, `addr:street`=**Eselsfürther Bahnhof**, `addr:city`=**Kaiserslautern**,
+  `addr:postcode`=**67657**, `addr:country`=DE, `building`=yes (live am 05.11.2026 über
+  https://api.openstreetmap.org/api/0.6/way/781358267/full.json); 9 Knotenreferenzen, davon **8 eindeutige**;
+  Objekt-BBox 49.4594286/7.8174491 bis 49.4596090/7.8178163; **Mittelwert der eindeutigen Knoten:
+  49.4594934/7.8177009** - liegt **innerhalb** der Objekt-BBox. **Hausnummer-Abgleich:** Das Dossier führt
+  „Eselsfürther Bahnhof **4b**"; OSM führt an dieser Straße als einzige 4x-Nummer die **4** (way/781358267). Der Suffix
+  „b" ist in OSM **nicht separat kartiert** - die Straße trägt insgesamt nur die Nummern **1, 2 und 4**; ein weiteres
+  Objekt mit einer 4x-Nummer existiert im Fenster **nicht**. Die Abweichung ist damit als **Suffix-/Schreibweisenvariante
+  derselben Hausnummer** zu lesen, nicht als Verweis auf ein anderes Haus; der Punkt liegt in jedem Fall auf derselben
+  Straße derselben Liegenschaft. **Quelle 1 (OSM):** way/781358267 (live abgerufen 05.11.2026). **Quelle 2
+  (Betreiber/Register):** Das **Betreiber-Impressum** (live abgerufen 05.11.2026, HTTP 200,
+  https://www.dmr-rohstoff.de/impressum/) nennt „**DMR Rohstoffhandel GmbH, Eselsfürther Bahnhof 4b, 67657
+  Kaiserslautern**", Geschäftsführer **Nevzat Demir**, **Amtsgericht Kaiserslautern HRB 33481**, USt-IdNr. **DE353023676**;
+  die **Kontaktseite** (live abgerufen 05.11.2026, https://www.dmr-rohstoff.de/kontakt) nennt dieselbe Anschrift
+  („Eselsfürther Bahnhof 4b, Kaiserslautern, 67657") sowie Tel. 0631 34073889 und info@dmr-rohstoff.de; der im Dossier
+  bereits zitierte **NorthData-Registereintrag** (AG Kaiserslautern HRB 33481, „Eselsfürther Bahnhof 4 b, D-67657
+  Kaiserslautern", Unternehmensgegenstand „Der An- und Verkauf von Schrott und NE-Metallen"; Abruf 03.11.2026 - eine
+  erneute Live-Abfrage am 05.11.2026 wurde vom Anbieter mit „Zu viele Anfragen" abgewiesen, der Eintrag ist daher
+  **unverändert aus dem Dossier zitiert**) ist deckungsgleich.
+  **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und des
+  Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, gespiegelt über schrottregister.pages.dev) führt für
+  **67657 Kaiserslautern** nur die kommunale „**ZAK - Zentrale Abfallwirtschaft Kaiserslautern**" (Kapiteltal); die
+  DMR Rohstoffhandel GmbH ist dort **nicht** verzeichnet - eine Efb-/AltfahrzeugV-Anerkennung ist für sie damit **nicht
+  belegt** (die Anerkennung ist freiwillig, das ist **kein** Nichtexistenzbeweis). **Was die Koordinate nicht belegt:**
+  sie belegt **nur** den Adresspunkt, nicht einen öffentlich zugänglichen Annahmehof, keine Preise und keine laufende
+  Annahme. **Reichweitenklausel:** Das Fehlen einer getrennten Kartierung des Suffixes „b" und das Fehlen einer
+  Efb-Anerkennung sind **keine** Existenz- oder Schließungsbeweise. `status` bleibt **pruefung**, `street`/`postcode`
+  bleiben unverändert; ein `clear_fields`-Eintrag `geo` war in dieser Zeile nicht vorhanden und musste deshalb nicht
+  entfernt werden. Quelle(n): https://api.openstreetmap.org/api/0.6/way/781358267/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.8100,49.4500,7.8200,49.4600 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.8100,49.4600,7.8200,49.4700 ;
+  https://www.dmr-rohstoff.de/impressum/ ; https://www.dmr-rohstoff.de/kontakt ;
+  https://www.northdata.de/DMR+Rohstoffhandel+GmbH,+Kaiserslautern/Amtsgericht+Kaiserslautern+HRB+33481 (im Dossier
+  zitiert, Abruf 03.11.2026) ; https://schrottregister.pages.dev/ort-kaiserslautern (live abgerufen 05.11.2026).]

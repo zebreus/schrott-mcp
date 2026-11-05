@@ -77,3 +77,39 @@ Das Münchner Stadtportal führt die **R. Müller Altmetallhandel GmbH** an der 
   Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt (Riemer Straße 344a) weiterhin entzogen werden
   soll und keine belegte Ersatzkoordinate existiert; `status` (pruefung) und alle übrigen Felder bleiben
   unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6600,48.1300,11.6900,48.1600 ; https://api.openstreetmap.org/api/0.6/node/3023008176.json ; https://orte.muenchen.de/1240509.html ; https://firmeneintrag.creditreform.de/81829/8170893280/R_MUELLER_ALTMETALLHANDEL_GMBH (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Georg-Thiele-Str. 2, 81829 München**; die alte Vermerkung nennt als Suchfenster das Raster
+  **bbox=11.6600,48.1300,11.6900,48.1600** (9 Kacheln). **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue
+  Kachelraster **bbox=11.6700,48.1300,11.7000,48.1600** (**9 Kacheln von je 0,01 Grad** um den Adresspunkt,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6700,48.1300,11.7000,48.1600) lieferte **48 202 Elemente**
+  bei **0 Kachel-Fehlern**. Die **„Georg-Thiele-Straße“** in 81829 München ist im Fenster mit dem Straßenobjekt
+  way/10435863 (`highway`=residential, Verlauf 48.1410662/11.6795252 bis 48.1417002/11.6807505) erfasst; auf ihr sind
+  **8 Adressobjekte** mit **8 verschiedenen Hausnummern** erfasst (1b, 1c, 1d, **2**, 3, 4, 5, 7), darunter
+  **node/3023008176** mit `addr:housenumber`=**2**, `addr:street`=Georg-Thiele-Straße, `addr:postcode`=81829,
+  `addr:city`=München, `addr:country`=DE (48.1411340/11.6797949, innerhalb der Objekt-BBox 48.1411340/11.6797949 bis
+  48.1411340/11.6797949) - die Dossier-Hausnummer 2 ist damit objektgenau belegt. Das Objekt trägt **weder `name=` noch
+  `operator=`**; die Suche über `name`, `operator`, `brand` und `official_name` nach „altmetall“, „schrott“ und
+  „r. müller“ liefert **keinen** Treffer, der diesem Datensatz zugeordnet werden kann. Das erweiterte Fenster liefert
+  **dasselbe** Ergebnis wie das Raster vom 03.11.2026 - ein **Fensterfehler** der letzten Welle liegt hier **nicht**
+  vor. **Quelle 2 (Beleglage, im Dossier dokumentiert, live am 05.11.2026 nachgelesen, HTTP 200):** das Münchner
+  Stadtportal https://orte.muenchen.de/1240509.html führt die **R. Müller Altmetallhandel GmbH** weiterhin an der
+  **Georg-Thiele-Str. 2, 81829 München** (Tel. 089 908147, Fax 089 907369, Branche „Schrott | Trudering, Riem“); das
+  Dossier nennt für diese GmbH **HRB 188933** und gleichzeitig an derselben Anschrift einen **anderen Rechtsträger**,
+  **Rudolf Müller Altmetall + Schrott e.K.** (HRA 68506) - das belegt einen Adressbezug der GmbH, aber **weder eine
+  Verbindung der Rechtsträger noch, dass dort aktuell Kundenannahme stattfindet** (Dossier-Überblick). Das Dossier
+  hält ausdrücklich fest, dass „Georg-Thiele-Str. 2 ein Adressbeleg, aber kein bestätigter Annahmepunkt“ ist und
+  **vor jeder GEO-Zuordnung die heutige Funktion der Adresse und die genaue Rechtsträgerzuordnung zu klären** ist;
+  Telefon, E-Mail und Öffnungszeiten bleiben unbestätigte Verzeichnisdaten, der Website-Direktabruf war technisch
+  nicht erfolgreich. Die geforderte zweite Quelle (Betreiber- oder Registerbeleg mit **Betreiberfunktion** für genau
+  diese Anschrift) fehlt damit weiterhin. Es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Das
+  Dossier enthält `clear_fields: 'description,email,geo,opening_hours,phone'`; die Anweisung **bleibt unverändert**,
+  weil der zurückgezogene Altpunkt (Riemer Straße 344a) weiterhin entzogen werden soll und keine belegte
+  Ersatzkoordinate existiert; `status` (pruefung) und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:**
+  das Fehlen eines OSM-Betriebsbezugs oder eines Betreiberbelegs ist **kein** Existenz- oder Schließungsbeweis.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6700,48.1300,11.7000,48.1600 ;
+  https://api.openstreetmap.org/api/0.6/node/3023008176.json ; https://orte.muenchen.de/1240509.html ;
+  https://www.11880.com/branchenbuch/muenchen/120674719B27850023/r-mueller-altmetall-u-schrotthandel-gmbh.html
+  (live abgerufen 05.11.2026).]

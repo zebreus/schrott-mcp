@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Jens Düring Bauten- & Container Service arbeitet an der Köpenicker Landstraße 162, 12437
+Berlin-Treptow-Köpenick, mit Containerdienst, Sperrmüll und Abbruch; ein Schrottankauf ist
+dort ausdrücklich nicht belegt. Die Belegkette besteht aus dem Impressum der Betreiber-Domain
+duero.de.tl, das Anschrift, Telefon 030 5336412 und die Mail jensduer@aol.com ausweist,
+zusammen mit den Leistungsseiten desselben Auftritts. Es handelt sich um ein
+Einzelunternehmen ohne Registernummer, womit die Unabhängigkeit der Beleglage offen bleibt;
+entsprechend ist der Dossierstatus "pruefung" geblieben, und das Annahme- oder Abholverhalten
+ist nicht strukturiert belegt. Offen bleiben darüber hinaus die Öffnungszeiten und jede
+Preisangabe, und die zur geänderten Straße neu zu berechnende Koordinate ist im Dossier noch
+nicht nachgeführt.
 
 ## Timeline
 

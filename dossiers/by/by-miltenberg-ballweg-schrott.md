@@ -69,3 +69,33 @@ Ein aktueller Gelbe-Seiten-Eintrag „Schrotthandel Ballweg“ führt Berliner S
   (Eichenbühler Straße 52, Miltenberg-Nord) weiterhin entzogen werden soll und kein belegter Ersatz existiert;
   `status`, `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1990,49.6230,9.2490,49.6730 ; https://api.openstreetmap.org/api/0.6/way/41946696/full.json (live abgerufen
   03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Berliner Str. 3, 63916 Amorbach**; die alte Vermerkung nennt als Suchfenster das Raster
+  **9.1990/49.6230 bis 9.2490/49.6730** (25 Kacheln) und hält fest, die Straße sei in OSM nur als Geometrie erfasst.
+  **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue Kachelraster **bbox=9.1900,49.6200,9.2400,49.6700**
+  (**25 Kacheln von je 0,01 Grad** um den Adresspunkt,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1900,49.6200,9.2400,49.6700) lieferte **69 836 Elemente** bei
+  **0 Kachel-Fehlern**. Die **„Berliner Straße“** ist in Amorbach **nur als Geometrie** erfasst (way/41946696,
+  `highway`=residential, `name`=Berliner Straße, 9 Knoten, Verlauf 49.6470528/9.2081904 bis 49.6482181/9.2110365) - sie
+  liegt damit **vollständig** im Fenster und trägt **kein** `addr:housenumber` und **kein** `addr:street`; auf der Straße
+  ist **kein einziges** Adressobjekt erfasst. Die Dossier-Hausnummer **3 existiert auf dieser Straße in OSM nicht**; die
+  Objekte mit `addr:housenumber`=3 im Fenster betreffen ausschließlich andere Straßen (Miltenberger Straße, Löhrstraße,
+  Steinerne Gasse, Bädersweg, Abteigasse, Richterstraße, Schneeberger Straße, Johannisturmstraße, Pfarrgasse, Neudorfer
+  Straße u. a. sowie den Nachbarort Weilbach). Die Suche über `name`, `operator`, `brand`,
+  `official_name`, `alt_name`, `short_name`, `legal_name` und `old_name` nach „ballweg“ liefert **0 Treffer** - der Betrieb
+  selbst ist in OSM nicht kartiert. **Fensterprüfung:** das neue Raster ist gegenüber dem alten um einen Kachelstreifen
+  nach Westen und Süden erweitert, enthält die Berliner Straße vollständig und liefert **dasselbe** Ergebnis - ein
+  **Fensterfehler** der letzten Welle liegt hier **nicht** vor. **Quelle 2 (Beleglage, im Dossier dokumentiert):** die
+  Anschrift „Berliner Str. 3, 63916 Amorbach, 09373 99102“ stammt aus zwei Verzeichnissen (Gelbe Seiten und 11880,
+  Recherche 28.10.2026); es gibt **keine** Betreiber-Website (ballweg.de ist eine Parking-Domain), **keinen**
+  Registereintrag und **keinen** Efb-Eintrag im amtlichen Fachbetrieberegister. Damit findet sich die Dossier-Hausnummer
+  in OSM **nicht**; es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt - insbesondere wird die Kartennadel
+  des Verzeichnisses nicht übernommen. Die bestehende `clear_fields: geo`-Anweisung **bleibt unverändert**, weil der
+  zurückgezogene Altpunkt (Eichenbühler Straße 52, Miltenberg-Nord) weiterhin entzogen werden soll und kein belegter
+  Ersatz existiert; `status`, `description` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das
+  Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1900,49.6200,9.2400,49.6700 ;
+  https://api.openstreetmap.org/api/0.6/way/41946696/full.json (live abgerufen 05.11.2026).]

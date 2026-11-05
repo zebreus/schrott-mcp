@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, Betriebsstätte Lichtenberg, Herzbergstraße 46-48, 10365 Berlin:
+Metallrecyclingbetrieb der ALBA-Gruppe. Die Betreiberidentität ist registeramtlich belegt (ALBA
+Metall Nord GmbH, Amtsgericht Rostock HRB 181); Standortseite und Impressum der Gruppe nennen
+die Anschrift, die Rufnummer +49 30 35182 9150, die Adresse lichtenberg.metall@alba.info und
+die Zeiten Mo–Fr 7:00–12:00 und 12:30–16:00 Uhr, samstags geschlossen. Die Standortseite nennt
+Stahl- und Nichteisenmetallankauf, Containerdienst von 7 bis 36 m³, Industriedemontage und
+-abbruch, eine öffentliche Waage, Kleinmengen für Privatkunden, Nutzeisenverkauf und
+E-Altgeräte-Annahme; der Seed-Zusatz Hafenlogistik gehört zur Betriebsstätte Spandau. Ein
+Ankaufpreis wird nicht veröffentlicht, auch nicht in den Webarchiv-Snapshots; der
+ALBA-Shop-Containerpreis von 119 Euro ist eine Gebühr. Offen bleibt die Preislage.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Weckwerth GmbH (Filiale), Schmargendorfer Weg 30, 16278 Angermünde: Filiale eines Schrott- und
+Metallhändlers. Der Betreiber, die Weckwerth-Metalle & Autoverwertung & Abschleppdienst GmbH,
+HRB 10044 Neuruppin, Geschäftsführer Bruno Machner, sitzt laut Impressum in Gewerbepark 18a,
+16303 Schwedt/Oder und bietet dort den Ankauf von Schrott und NE-Metallen,
+Altfahrzeugverwertung, Container von 7 bis 40 cbm, Abbruch und Rückbau. Die Filiale Angermünde
+ist auf der Betreiberseite nicht abgebildet: auf zehn geprüften Seiten kommt der Ortsname nicht
+vor, die Anschrift Schmargendorfer Weg 30 stammt aus Verzeichnisdaten und aus zwei
+OSM-Objekten, die den Betrieb nennen. Ein Ankaufpreis wird nicht veröffentlicht, die
+Einkaufsbedingungen mit Stand Mai 2021 regeln nur Abrechnung und Zahlungsziel. Offen bleiben
+die Existenz der Filiale, eine zweite unabhängige Quelle und der Status pruefung.
 
 ## Timeline
 

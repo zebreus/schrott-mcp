@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Harnisch E.-M. Schrott & Metallhandel GmbH ist ein Schrott- und Metallhändler am Robinienweg
+3-4, 13467 Berlin-Hermsdorf. Die Verzeichnisse führen den Betrieb mit derselben Anschrift,
+der Nummer 030 404 50 09 und der Rechtsform GmbH; eine unabhängige zweite Quelle existiert
+nicht. Ein Registerhinweis aus einem Registerspiegel nennt die frühere Firma "Eva-Maria
+Harnisch Schrott- und Metallhandel GmbH", umbenannt in Victoriatrans GmbH, AG Charlottenburg
+HRB 85696 B, mit Insolvenzverfahren und einer Löschung von Amts wegen, veröffentlicht am
+12.01.2026. Die Betreiber-Domain antwortet zwar, liefert aber nur eine Domain-Parking-Seite
+ohne Firmenbezug, weshalb der Website-Zustand weiterhin als tot geführt wird. In OSM sind die
+Hausnummern 3 und 4 getrennt erfasst. Offen bleiben der Registerbefund, dem kein Direktabruf
+des Handelsregisters gegenübersteht, sowie jede Preis- oder Sortenangabe.
 
 ## Timeline
 

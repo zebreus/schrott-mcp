@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ANTIK MÖBEL Sadowski, Alte Goethestraße 8, 16321 Bernau: Antik- und Möbelhandel, der laut
+Betreiberseite im Ladengeschäft Gold- und Silberschmuck, Golduhren und Silberbesteck prüft und
+ankauft, also Edelmetallankauf; ein allgemeiner Schrott- oder Altmetallankauf ist nicht belegt.
+Adresse, Telefonnummern und die Zeiten Mo–Do 10–18 Uhr mit Hausterminen am Freitag und Samstag
+stehen so im Impressum der Betreiberseite und werden vom Verzeichniseintrag gedeckt. Der
+Standort ist in OpenStreetMap als Gebäude der Alten Goethestraße erfasst. Offen bleiben das
+Impressum und die Datenschutzerklärung, deren Verknüpfung auf eine Platzhalterdomain zeigt,
+sowie der fehlende Registereintrag; zusätzlich ist die Seite mit Casino-Links belastet. Der
+Status bleibt deshalb pruefung, und die Inhaberschaft ist nur über die Betreiberseite belegt.
 
 ## Timeline
 

@@ -95,3 +95,51 @@ Der generische Seed „Koblenzer Entrümpelungen“ (56070) ist weiterhin keinem
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5450,50.3350,7.6050,50.3750 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.gelbeseiten.de/gsbiz/3cbd8b33-de34-4481-9291-37719293ca83 ;
   https://www.koblenzer-schrotthandel.de/impressum/ (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die zweite unabhängige Quelle fehlt.** Der
+  OSM-Befund der Vorphase ist **live bestätigt** und der Adresspunkt **eindeutig**; der Konflikt zwischen zwei
+  Kandidaten bleibt jedoch bestehen. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster (0,02°-Kacheln):**
+  **bbox=7.5550,50.3350,7.6050,50.3750** = 6 Kacheln à 0,02° (7.5550/50.3350/7.5750/50.3550, 7.5550/50.3550/7.5750/
+  50.3750, 7.5750/50.3350/7.5950/50.3550, 7.5750/50.3550/7.5950/50.3750, 7.5950/50.3350/7.6050/50.3550,
+  7.5950/50.3550/7.6050/50.3750), live abgerufen am 05.11.2026; **Zensus:** **8.898** Adressobjekte und **392**
+  namentliche Straßen im Fenster. Die Straße **Karl-Russell-Straße** (Koblenz-Lützel) trägt **48** Adressobjekte mit den
+  Nummern 1, 2, 2a, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 21a, 21b, 21c, 22, 23, 24, 25, 26,
+  27, 28, 29, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 52, **54**, 56, 58, 64, 66, 68 - die **Hausnummer 54 ist
+  eindeutig**; ein Suche über **alle** Tag-Werte nach „**schrott**" oder „**entrümpel**" liefert im Fenster **4**
+  Treffer, von denen **einer** ein **Schrottplatz** ist: **way/1265664115** mit `industrial`=**scrap_yard**,
+  `landuse`=industrial, `name`=**„Schrotthandel M. Schneider u. Sohn"**, `operator`=Michael Winfried Schneider,
+  `addr:street`=**Peter-Klöckner-Straße**, `addr:housenumber`=**2A**, `addr:postcode`=56073, `mobile`=+49 175 3737011
+  (50.3637600/7.5726215) - das ist ein **anderer Betrieb** (eigener Dossier-Kontext) und **nicht** die Seed-Zeile.
+  (b) **Objekt (live geladen):** **node/14066926053** mit `addr:housenumber`=**54** und `addr:street`=**Karl-Russell-
+  Straße** (live am 05.11.2026 über https://api.openstreetmap.org/api/0.6/node/14066926053.json); der Knoten trägt
+  **weder `addr:city` noch `addr:postcode` noch `name=` noch `operator=`**; Punkt **50.3699827/7.5819921** (BBox
+  identisch, Punkt liegt **innerhalb**). Die Postleitzahl **56070** der Seed-Zeile wird durch die übrigen
+  Adressobjekte der Straße bestätigt (u. a. way/1467879326, `addr:housenumber`=1, `addr:city`=Koblenz,
+  `addr:postcode`=**56070**). (c) **Quelle 1 (Verzeichnis):** die **Gelbe-Seiten-Detailseite** (live abgerufen
+  05.11.2026, HTTP 200, https://www.gelbeseiten.de/gsbiz/3cbd8b33-de34-4481-9291-37719293ca83, Titel „Koblenzer
+  Entrümpelungen Schrotthandel in 56070 Koblenz-Lützel") führt „**Koblenzer Entrümpelungen Schrotthandel**" mit
+  „**Karl-Russell-Str. 54, 56070 Koblenz-Lützel**", Telefon 0163 4098013 - ein **Verzeichnislead**; der Website-Button
+  des Eintrags ist **inaktiv**, es gibt also **keine** Betreiberseite. **Quelle 2 (OSM):** node/14066926053 und die
+  übrigen Adressobjekte der Karl-Russell-Straße (live abgerufen 05.11.2026). **Was fehlt:** ein **Betreiber- oder
+  Registerbeleg**, der die Seed-Zeile „Koblenzer Entrümpelungen (56070)" **einem** der beiden Betriebe zuordnet. Der
+  **zweite Kandidat** bleibt klar abgrenzbar: die **Betreiber-Website** „**Koblenzer Schrotthandel**" (live abgerufen
+  03.11.2026, https://www.koblenzer-schrotthandel.de/impressum/) nennt **Karin Reinhardt**, **Am Metternicher Bahnhof 18,
+  56072 Koblenz** - **anderer Name, andere Straße, andere PLZ**; in OSM trägt die Straße „Am Metternicher Bahnhof"
+  die Adressobjekte node/14167375981 (18), node/14167375980 (20) und way/484899237 (24). **Registerabgleich (neu):** Der
+  Abzug des **Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe**
+  (Stand 11.08.2026, über den Spiegel schrottregister.pages.dev) führt für **56070 Koblenz** nur MCR Metallgroßhandel &
+  Containerdienst Riebe GmbH (2 Einträge), REMONDIS Mittelrhein GmbH (Hans-Böckler-Straße 16) und TSR Deutschland GmbH &
+  Co. KG (Hans-Böckler-Straße 16) - **keinen** Eintrag „Koblenzer Entrümpelungen". `status` bleibt **pruefung**,
+  `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen eines
+  Betreiber- oder Registerbelegs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/14066926053.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5550,50.3350,7.5750,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5550,50.3550,7.5750,50.3750 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5750,50.3350,7.5950,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5750,50.3550,7.5950,50.3750 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5950,50.3350,7.6050,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5950,50.3550,7.6050,50.3750 ;
+  https://www.gelbeseiten.de/gsbiz/3cbd8b33-de34-4481-9291-37719293ca83 ;
+  https://schrottregister.pages.dev/ort-koblenz (live abgerufen 05.11.2026).]

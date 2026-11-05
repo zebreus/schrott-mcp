@@ -87,3 +87,34 @@ Die aktuelle Betreiberwebsite und ihr Impressum ordnen die Felbinger GmbH dem St
   bestehende `clear_fields: geo`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden
   soll und kein belegter Ersatz existiert; `status`, `description` und alle übrigen Felder bleiben unverändert.
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.0520,50.0670,9.1020,50.1170 ; https://www.felbinger.de/impressum ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Felbinger (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Das Dossier trägt
+  weiterhin **keine** Straße und **keine** Hausnummer; die Dossier-Adresse ist der Seed-Ort **Alzenau** ohne
+  Adressangabe, eine Hausnummer ist damit weder im Dossier noch in einer Betreiberquelle vorhanden. **Quelle 1 (OSM,
+  live abgefragt am 05.11.2026):** das Kachelraster **bbox=9.0500,50.0500,9.1000,50.1000** (**25 Kacheln von je 0,01
+  Grad** über Alzenau, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.0500,50.0500,9.1000,50.1000)
+  lieferte **74 390 Elemente** bei **0 Kachel-Fehlern**; die Suche über `name`, `operator`, `brand`, `official_name`,
+  `alt_name`, `short_name`, `legal_name` und `old_name` nach „felbinger“ ergibt **0 Treffer**, und es existiert kein
+  Adressobjekt mit `addr:housenumber`/`addr:street`, das einem Alzenauer Felbinger zuzuordnen wäre. **Fensterprüfung:**
+  das neue Raster (9.05–9.10 Ost / 50.05–50.10 Nord) deckt das gesamte Alzenauer Stadtgebiet einschließlich der
+  Gewerbegebiete ab und liegt **nicht** wie ein Fenstersprung vom Objekt weg; es verschiebt den alten Vermerk vom
+  03.11.2026 (9.0520/50.0670 bis 9.1020/50.1170) nur um rund 2 km nach Südwest, ohne einen Treffer zu verlieren - ein
+  **Fensterfehler** der letzten Welle liegt hier **nicht** vor. **Quelle 2 (Betreiber/Register, im Dossier bereits
+  zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** das Impressum der Betreiberseite nennt unverändert
+  **„FELBINGER GmbH CONTAINER-DIENSTLEISTUNGEN ENTSORGUNGSFACHBETRIEB RECYCLING & WERTSTOFFHOF, Dieselstraße 71,
+  Gewerbegebiet Süd, 63165 Mühlheim am Main, Handelsregister 6821, Registergericht AG Offenbach am Main“**; die
+  Dossier-Notiz vom 01.11.2026 hält zusätzlich fest, dass die amtliche Registerabfrage im Fachbetrieberegister unter
+  dem Namen „Felbinger“ ausschließlich `Felbinger GmbH Hauptsitz, Dieselstraße 71, 63165 Mühlheim am Main`
+  (Vorgangsnummer ZZFT00300077) liefert und die Radiusabfrage um Alzenau (17 Treffer) **keinen** Felbinger enthält.
+  Damit findet sich in OSM **kein** Adress- oder Betriebsobjekt für einen Alzenauer Felbinger; es wird **keine**
+  Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: geo`-Anweisung **bleibt
+  unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll und kein belegter Ersatz existiert;
+  `status`, `description` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines
+  Adress- oder Betriebsobjekts in OSM ist **kein** Existenz- oder Schließungsbeweis; ein anderer Alzenauer
+  Felbinger-Betrieb ist damit nicht ausgeschlossen, und die Mühlheimer Adresse wird nicht auf diesen Seed übertragen.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.0500,50.0500,9.1000,50.1000 ;
+  https://www.felbinger.de/impressum ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Felbinger
+  (live abgerufen 05.11.2026).]

@@ -84,3 +84,38 @@ Unvollständige Betreiberidentität „Jansen“: Flurweg 8, 93426 Roding und 01
   `clear_fields: 'geo,phone'`; die Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll
   und kein belegter Ersatz existiert; `status` (pruefung), `description` und alle übrigen Felder bleiben unverändert.
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.4900,49.1900,12.5200,49.2200 ; https://api.openstreetmap.org/api/0.6/way/497811880/full.json ; https://lokaleschrottplatz.de/ (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Flurweg 8, 93426 Roding** (Portal-Lead „Metallrecycling Inh. Romano Janßen“); die alte Vermerkung nennt als
+  Suchfenster das Raster **bbox=12.4900,49.1900,12.5200,49.2200** (9 Kacheln) und hält fest, die Hausnummer 8 sei
+  objektgenau vorhanden, eine zweite unabhängige Quelle fehle jedoch. **Quelle 1 (OSM, live abgefragt am 05.11.2026):**
+  das neue Kachelraster **bbox=12.5000,49.1900,12.5300,49.2200** (**9 Kacheln von je 0,01 Grad** um die Hausnummer
+  herum, https://api.openstreetmap.org/api/0.6/map.json?bbox=12.5000,49.1900,12.5300,49.2200) lieferte **39 924
+  Elemente** bei **0 Kachel-Fehlern**. Der **„Flurweg“** ist im Fenster mit zwei Straßenobjekten erfasst
+  (way/32486626, `highway`=residential, `source`=DOP_LVA_BY_01, Verlauf 49.2025434/12.5065495 bis 49.2036457/12.5068644;
+  way/1207791620) und liegt damit **vollständig im Fenster**; auf ihm sind **11 Adressobjekte** mit **11 verschiedenen
+  Hausnummern** erfasst (1, 2, 3, 4, 5, 6, **8**, 12, 14, 16, 18) - die Dossier-Hausnummer **8 ist objektgenau belegt**,
+  nämlich **way/497811880** (live geladen, HTTP 200) mit `addr:housenumber`=**8**, `addr:street`=Flurweg,
+  `addr:postcode`=**93426**, `addr:city`=Roding, `addr:country`=DE, `building`=yes, `source`=DOP_LVA_BY_01 (4 eindeutige
+  Knoten, Mittel 49.2032562/12.5070291, innerhalb der Objekt-BBox 49.2032144/12.5069599 bis 49.2032980/12.5070983). Das
+  Objekt trägt **weder `name=` noch `operator=`**; die Suche über `name`, `operator`, `brand` und `official_name` nach
+  „jansen“, „janßen“ und „metallrecycling“ liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert. Das erweiterte
+  Fenster liefert **dasselbe** Ergebnis wie das Raster vom 03.11.2026 - ein **Fensterfehler** der letzten Welle liegt hier
+  **nicht** vor. **Quelle 2 (Beleglage, im Dossier dokumentiert, live am 05.11.2026 nachgelesen):** die Identität
+  „Jansen“ ist **unvollständig** - die Anschrift Flurweg 8 und die Mobilnummer 0171 1884077 wurden als unzureichend
+  belegte Fakten aus dem Frontmatter zurückgenommen; der am 26.10.2026 gelesene Eintrag des Branchenportals
+  LokaleSchrottplatz führt „Metallrecycling Inh. Romano Janßen“ mit genau dieser Adresse und Mobilnummer, ist laut
+  README aber **nur Aggregatorbeleg**; ein Telefonbuch-Lead nennt Romano Jansen an derselben Adresse mit **abwehender**
+  Nummer 09461 401336. Die Spiegelung der amtlichen Register (schrottregister.pages.dev, Auszug 11.08.2026) führt für
+  **Roding** genau **einen** Betrieb (`Mildt GmbH & Co. KG`, Turonstraße 3) und **keinen** Janßen/Jansen - ein
+  Betreiber- oder Registerbeleg für diese Anschrift fehlt damit weiterhin. Der Dossier-Überblick hält zudem fest, dass
+  „Flurweg 8 … ein konkreter Portal-Kandidat für einen Schrottplatz, aber **unbestätigt**“ ist. Es wird **keine**
+  Koordinate erfunden und kein Ersatzpunkt gesetzt. Das Dossier enthielt `clear_fields: 'geo,phone'`; die Anweisung
+  **bleibt unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll und kein belegter Ersatz
+  existiert; `status` (pruefung), `description` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das
+  Fehlen eines Betreiber-/Registerbelegs oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.5000,49.1900,12.5300,49.2200 ;
+  https://api.openstreetmap.org/api/0.6/way/497811880/full.json ; https://lokaleschrottplatz.de/ ;
+  https://schrottregister.pages.dev/ort-roding (live abgerufen 05.11.2026).]

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+GHG Wertstoffrecycling & Wertstoffankauf (BSV-Gruppe), Charlottenhof 18, 15848 Beeskow:
+Wertstoffhof einer Gruppe, die Schrott und Wertstoffe ankauft. Die Standortseite nennt die
+Anschrift, die Rufnummer 03366 152810 und die Zeiten Mo–Fr 09:00–12:00 und 13:00–17:00 Uhr; die
+Adresse info@wertstoff-dealer.de ist die Zentrale. Das Impressum führt als verantwortliche
+Gesellschaft die Brandenburger Schrott-Verwertung GmbH, HRB 9313 Frankfurt/Oder, 15517
+Fürstenwalde/Spree, und das Register bestätigt deren Aktivität. Offen bleibt die
+Betreiberidentität am Ort: Unter derselben Anschrift führt das Register die GHG
+Gleishandelsgesellschaft mbH, HRB 11128, mit dem Gegenstand Gleise und Eisenbahnzubehör; die
+Gruppenrelation ist nicht registeramtlich belegt. Für Eisenschrott, Buntmetalle und Batterien
+gilt der Tagespreis auf Anfrage; beziffert sind nur Altpapier und Bücher.
 
 ## Timeline
 

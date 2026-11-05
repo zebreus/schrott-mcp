@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldhaus BRB, Steinstraße 12, 14776 Brandenburg an der Havel: Edelmetallankauf für Gold, Silber
+und Zahngold. Die Betreiberseite nennt die Anschrift, die Rufnummer 03381 3069885 und die
+Adresse info@goldhaus-brb.de, dazu die Öffnungszeiten Mo–Fr 10:15 bis 17:00 Uhr mit
+Mittagspause. Ein Eintrag des Tourismus- und Stadtmarketing-Portals bestätigt Standort und
+Ankaufsgegenstand, gibt aber keinen unabhängigen Preis- oder Inhaberbeweis. Das Impressum
+benennt Antonio be David und das Ingenieurbüro be David, der Footer daneben einen älteren A.
+Sahin; ein Handelsregister wird nicht genannt, und die genannten Ansprechpartner widersprechen
+sich. Die Werte im Goldrechner sind nicht als Zahlenpreise abrufbar, und die Filiale in Stendal
+wird nicht als Brandenburg-Adresse geführt. Offen bleiben Inhaberschaft und Registerbeleg;
+Postleitzahl, Telefon und E-Mail bleiben deshalb leer.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ASSI Auto Service GmbH ist eine Autoverwertung am Dederingstr. 21, 12107 Berlin-Mariendorf im
+Bezirk Tempelhof-Schöneberg, die Ersatzteile von Mercedes-Benz und Smart anbietet,
+Ersatzteile versendet und Autorecycling betreibt. Der einzige Beleg ist ein
+Schrottplatz-Verzeichnis, das den Namen, die Anschrift, die Nummer (030) 70 17 66 44 und eine
+Homepage-Angabe auf autoverwertung-assi.de nennt; die dortigen Öffnungszeiten sind
+ausdrücklich nicht vollständig erfasst. Die Betreiber-Domain ist nicht erreichbar, der Abruf
+läuft in einen Verbindungs-Timeout, weshalb der Website-Zustand als tot geführt wird. Die
+Anschrift ist über OSM bestätigt, trägt dort aber einen anderen Betrieb, während ein Objekt
+mit Bezug zur ASSI Auto Service fehlt. Offen bleiben der Belegweg - es gibt weder Register-
+noch Gewerberegisternachweis - sowie Öffnungszeiten, Kurse und jede Gebührenangabe.
 
 ## Timeline
 

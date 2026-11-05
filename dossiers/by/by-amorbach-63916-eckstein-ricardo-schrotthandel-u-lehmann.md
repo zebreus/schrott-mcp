@@ -82,3 +82,34 @@ Unbestätigter Doppelname aus Schrottplatz-Portalen: Eckstein Ricardo Schrotthan
   **bleibt unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll und kein belegter Ersatz
   existiert; `status`, `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1990,49.6230,9.2490,49.6730 (live abgerufen
   03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Amorsbrunner Straße 5C, 63916 Amorbach**; die alte Vermerkung nennt als Suchfenster das Raster
+  **9.1990/49.6230 bis 9.2490/49.6730** (25 Kacheln) und behauptet, die Hausnummer 5C fehle in OSM. **Quelle 1 (OSM, live
+  abgefragt am 05.11.2026):** das neue Kachelraster **bbox=9.1900,49.6200,9.2400,49.6700** (**25 Kacheln von je 0,01
+  Grad** um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1900,49.6200,9.2400,49.6700) lieferte
+  **69 836 Elemente** bei **0 Kachel-Fehlern**. Die **„Amorsbrunner Straße“** ist damit im Fenster **vollständig** und
+  nachweislich mit **sechs** Straßenobjekten erfasst (way/189227898, way/416580569, way/504811040, way/611215381,
+  way/1176862208, way/183585539); ihr Verlauf reicht von 49.6474158/9.1999316
+  bis 49.6490694/9.2128776 und liegt damit **vollständig im Fenster** - ein **Fensterfehler** der letzten Welle liegt
+  hier **nicht** vor, das neue Raster ist gegenüber dem alten um einen Kachelstreifen nach Westen/Süden erweitert und
+  enthält denselben Straßenverlauf. Auf der Straße sind **16 Adressobjekte** mit **14 verschiedenen Hausnummern** erfasst
+  (1, 2, 2a, 2b, 6, 7, 7a, 8, 10, 43, 45, 47, 49, 51) - die Dossier-Hausnummer **5C existiert in OSM nicht**, und auch
+  die Bereichsschreibweise **5** ist auf dieser Straße nicht vergeben; die Objekte mit `addr:housenumber`=5 im Fenster
+  betreffen ausschließlich andere Straßen (Königsberger Straße, Hintere Gasse, Wolkmannstraße, Miltenberger Straße,
+  Steinerne Gasse, Abteigasse, Mühlrain, Amtsgarten, Debonstraße, Kirchplatz, Löhrstraße, Oberes Tor, Weilbacher Straße
+  sowie den Nachbarort Weilbach). Die Suche über `name`, `operator`, `brand`, `official_name`,
+  `alt_name`, `short_name`, `legal_name` und `old_name` nach „eckstein“, „schrotthandel“ und „lehmann“ liefert **nur**
+  die Straßenbezeichnung way/69223958 „Lehmannweg“ und **kein** Objekt mit Betriebsbezug. **Quelle 2 (Beleglage, im
+  Dossier dokumentiert):** die Adresse „Amorsbrunner Straße 5C, 63916 Amorbach, 09373 3678“ stammt ausschließlich aus
+  Schrottplatz-Portalen (Dossier-Überblick und Recherche 27.09.2026); eine Betreiberwebsite, ein Leistungsnachweis, ein
+  Registereintrag oder eine Öffnungszeit sind **nicht** belegt, der verlinkte Homepage-Auftritt liefert einen
+  PHP-Fehler, und die Doppelnennung „Eckstein Ricardo … u. Lehmann Antonia“ lässt keine gesicherte gemeinsame
+  Gesellschaft ableiten. Damit bleibt die Dossier-Hausnummer in OSM **nicht** auffindbar; es wird **keine** Koordinate
+  erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: geo`-Anweisung **bleibt unverändert**, weil der
+  zurückgezogene Altpunkt weiterhin entzogen werden soll und kein belegter Ersatz existiert; `status`, `description`
+  und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen der Hausnummer oder eines
+  OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1900,49.6200,9.2400,49.6700 (live abgerufen 05.11.2026).]

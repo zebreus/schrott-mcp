@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die MK Metalle ist ein mobiler Schrott- und Metallhändler mit Geschäftsanschrift Merano
+Kreuz, Gerichtshof 8, 74389 Cleebronn, der im Raum Heilbronn, Ludwigsburg, Pforzheim und
+Karlsruhe Abholung, Containerdienst und Demontage anbietet; die Anschrift ist kein öffentlich
+zugänglicher Schrottplatz. Das Betreiber-Impressum belegt Anschrift, die Nummer +49 15561
+708507 und die Mail info@mk-metalle.de, das Verzeichnis 11880 bestätigt Anschrift und Kontakt
+mit nicht sicher unabhängiger Herkunft; die Schrottseite nennt eine abweichende Nummer. Die
+Bürozeiten werden auf der Kontaktseite und im Fußzeilebereich unterschiedlich angegeben, das
+Feld bleibt leer. Im amtlichen Fachbetrieberegister liefern alle geprüften Namensvarianten in
+beiden Routen null Treffer. Offen bleiben die fehlende zweite unabhängige Quelle, der
+Registerbefund und jede Angabe zu Ankaufkurs oder Annahmebedingungen.
 
 ## Timeline
 

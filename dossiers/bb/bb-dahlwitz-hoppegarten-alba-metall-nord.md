@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, Betriebsstätte Hoppegarten, Industriestraße 16, 15366 Hoppegarten:
+Metallrecyclingbetrieb der ALBA-Gruppe, der nach der Standortseite sämtliche Altmetalle und
+Eisenschrott ankauft. Die Betreiberidentität ist über das Register belegt (ALBA Metall Nord
+GmbH, Amtsgericht Rostock HRB 181). Standortseite und Impressum nennen die Anschrift, die
+Rufnummer +49 30 35182 422, die Adresse hoppegarten.metall@alba.info und die Zeiten Mo–Fr
+7:00–12:00 und 12:30–15:30 Uhr. Die Standortseite weist seit 01.10.2025 darauf hin, dass keine
+Bargeldauszahlungen mehr erfolgen und Privatkunden nicht mehr bedient werden; der
+Containerdienst von 7 bis 36 m³ bleibt. Ein Ankaufpreis wird nicht veröffentlicht, auch nicht
+in den Webarchiv-Snapshots; der ALBA-Shop-Containerpreis von 119 Euro ist eine Gebühr. Offen
+bleibt die Preislage des Standorts.
 
 ## Timeline
 

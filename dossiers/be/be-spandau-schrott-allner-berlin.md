@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott-Allner-Berlin ist ein nach § 18 KrWG berechtigter Entsorgungsbetrieb, geführt von
+Maikel Allner; die Dossier-Adresse lautet Burscheider Weg 43, 13599
+Berlin-Spandau-Haselhorst, das Impressum der Betreiber-Seite nennt dagegen Tangermünder
+Straße 96, 12627 Berlin, mit Telefon 0176-70851990, der Mail Schrott-Allner-Berlin@web.de und
+einer Steuernummer. Die Startseite und die Abholseite nennen die kostenlose Schrottabholung
+für Berlin und Brandenburg, Kleintransporte sowie Wohnungsauflösungen und listen die
+abgeholten Sorten von Öfen und Heizkörpern bis zu Felgen. Der einzige Verzeichniseintrag zur
+Spandauer Anschrift nennt eine andere Rufnummer; die Adresse ist über OSM bestätigt. Offen
+bleibt die Adressdiskrepanz - ob Burscheider Weg 43 eine Zweitstelle oder ein veralteter
+Eintrag ist - und die fehlende Angabe von Ankaufskurs, Öffnungszeiten und Gebühren.
 
 ## Timeline
 

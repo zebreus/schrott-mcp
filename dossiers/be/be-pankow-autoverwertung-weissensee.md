@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Weissensee GmbH ist ein Autoverwertungsbetrieb am Marienstr. 5, 13127
+Berlin-Pankow, Französisch Buchholz; ein Branchenbuch führt ihn als zertifizierten
+Demontage-KFZ-Meister-Ausbildungsbetrieb. Die Identität tragen Verzeichniseinträge: das
+Branchenbuch nennt "AVW Autoverwertung Weissensee GmbH" mit derselben Anschrift, der Nummer
+030 4721154 und der Mail info@autoverwertung-weissensee.de; weitere Verzeichnisse bestätigen
+Anschrift und Telefon. In OSM existiert die Hausnummer 5, ein Objekt mit Bezug zum Betrieb
+nicht. Ein Registerhinweis auf "AVW Autoverwertung in Weissensee GmbH", AG Charlottenburg HRB
+61823 B, mit Status terminiert/erloschen stammt aus einem Registerspiegel. Offen bleiben der
+Registerstatus, die Abweichung des Dossier-Namens von der Registerfirmierung, das Fehlen
+einer abrufbaren Website sowie unbelegte Öffnungszeiten und Preise.
 
 ## Timeline
 

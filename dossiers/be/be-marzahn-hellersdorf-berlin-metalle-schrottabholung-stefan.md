@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Berlin Metalle (Schrottabholung Stefan), Lötschbergstraße, 12683 Berlin: Schrottabholung, die
+Schrott und Altmetall, Haushaltswaren und Elektroschrott zum Wunschtermin in Berlin und
+Brandenburg kostenlos abholt und Demontage, Schrottabriss sowie Räumungen übernimmt. Die
+Betreiberseite nennt die Rufnummer 0176 20936925, die Faxnummer und die Erreichbarkeit Mo–So
+08:00–19:00 Uhr. Der Footer firmiert als Berlin Metalle - Schrottabholung Belger, nennt die
+Anschrift ohne Hausnummer und eine Steuernummer statt eines Registereintrags; die
+Namensabweichung ist unaufgelöst. In OpenStreetMap bezieht sich im Raster um die Straße kein
+Objekt auf den Betrieb. Ankaufspreise und Gebührentafeln sind nicht veröffentlicht, die
+Kostenlosigkeit der Abholung gilt aber als zugesagt. Offen bleiben Hausnummer, Impressum,
+Gewerbeanmeldung und die Abgrenzung von Selbstanlieferung, die die Seite nicht erwähnt.
 
 ## Timeline
 

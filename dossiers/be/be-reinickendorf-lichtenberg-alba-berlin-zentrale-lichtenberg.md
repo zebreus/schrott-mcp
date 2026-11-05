@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier führt die ALBA Berlin GmbH mit zwei Standorten, der Zentrale Flottenstraße 7-9,
+13407 Berlin-Reinickendorf, und der Annahmestelle Lichtenberg, Marzahner Straße 35, 13053
+Berlin. Belegt ist die Konzern-Standortliste berlin.alba.info, die vier Standorte mit
+Telefonnummern ausweist - Zentrale und Annahmestelle Reinickendorf an der Flottenstraße,
+Annahmestelle Lichtenberg an der Marzahner Straße sowie eine Annahmestelle in Wriezen -
+zusammen mit der Kontaktseite, aus der die Mail kundenservice-berlin@alba.info stammt; die
+Marzahner Straße 35 ist ausdrücklich nicht mit der Nummer 36 des dort ansässigen BRAL
+verwechselt worden. Ein Ankaufpreis ist nicht veröffentlicht: die Domain verweist durchweg
+auf Anfrageformulare, und die Wayback-Suche findet auch historisch keine Preisliste. Offen
+bleibt die im Dossier vermerkte Frage, ob die Gesellschaft Schrott mit Barpreisliste annimmt.
 
 ## Timeline
 

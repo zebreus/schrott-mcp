@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Rheinische Scheidestätte GmbH betreibt am Friedrichstraße 172, 10117 Berlin-Mitte, eine
+Filiale für Scheideanstalt, Dentalgold und Tageskurse. Der Betreiberauftritt
+rheinische-scheidestaette.de/unternehmen/filialen/ bestätigt die Anschrift in der
+Schreibweise "Friedrichstraße 172"; Mail info-berlin-mitte@rheinische-scheidestaette.de und
+die Zeiten Mo-Fr 9:30-18:00 bei geschlossenem Samstag stammen aus der Seed-Unterlage. Die
+Seed-Notiz verweist zusätzlich auf eine Seite mit aktuellen Edelmetallkursen, ohne dass Kurse
+ausgewiesen wären. Die Rufnummer 030-2593200 wird laut Korrekturvermerk vom 28.10.2026 von
+einem 6h-Handler gepflegt, das Telefonfeld bleibt leer. Offen bleibt, dass eine zweite
+unabhängige Quelle fehlt: Rechtsform, Registereintrag und Impressum sind nicht belegt.
 
 ## Timeline
 

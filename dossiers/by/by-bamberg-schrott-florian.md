@@ -78,3 +78,42 @@ Verzeichnis-Kandidat „Schrott Florian“: Gelbe Seiten und Das Örtliche nenne
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Schrott Florian` (Verzeichnis-Lead Heumannstr. 1, 96050 Bamberg, Tel. 0951 30945195 - Adresse und Betriebsidentität laut Dossier nicht bestätigt) wurde im amtlichen Fachbetrieberegister weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott Florian` -> **0 Treffer**, ebenso `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrott Florian` -> **0 Treffer** (mit den Filtern `Art des Betriebs = Demontagebetrieb` und `Art des Betriebs = Egal` erneut geprüft, jeweils 0); (2) Kontrollsuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Florian` -> **3 Treffer**, sämtlich die **fremde** `Florian Herbold Abschlepp- und Umweltservice GmbH` (Buchäckerring 6, 74906 Bad Rappenau, `ZZHT00700222 / 2`; Am Richtbach 12, 74547 Untermünkheim, `ZZHT00700222 / 3`; Hofgartenstraße 25, 74626 Bretzfeld-Schwabbach, `ZZHT00700222 / 1`), und `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Florian` -> **1 Treffer** (`Autopresse Tempelhof Florian Schmidtke e. K.`, Gottlieb-Dunkel-Str. 41, 12099 Berlin, `ZALS00200027 / 1`) - **kein Treffer auf `Schrott Florian` und keiner in Bamberg**; (3) Radiusabfrage mit 3 km um die Lead-Adresse `…/Entsorgungsfachbetriebe/adr=96050 Bamberg, Deutschland;…&dst=3&is=1&e=1` -> **10 Treffer**, u. a. `Heinrich Fischer & Söhne Brennstoffe GmbH`, Memmelsdorfer Straße 59, 96052 Bamberg, `ZZFT01100254 / 1`, 1,2 km, `Paulus GmbH`, Gundelsheimer Str. 9a, 96052 Bamberg, `ZZIT00700157 / 1`, 1,6 km, `Bamberg Service - Eigenbetrieb der Stadt Bamberg`, Margaretendamm 40, 96052 Bamberg, `ZZLT00400086 / 1`, 1,7 km, `Rudolf Fritsche GmbH | Betriebsstätte Bamberg`, Hafenstraße 8, 96052 Bamberg, `ZZEE00100214 / 3`, 2,0 km, `REMONDIS GmbH & Co. KG NL Bamberg`, Mainstraße 3, 96052 Bamberg, `ZZEE00200048 / 22`, 2,8 km - **kein Treffer auf `Schrott Florian` und keiner auf Heumannstr. 1**; (4) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1` -> **1 Treffer** (`Autoverwertung Piske Inhaber Christian Piske`, Mainstraße 3, 96052 Bamberg, `ZAHS01800076 / 1`, 2,8 km) - **fremder Rechtsträger an anderer Anschrift**; (5) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **39 Efb-Treffer** und **3 Altfahrzeug-Treffer** (`Autoverwertung Piske` 2,8 km, `Riwald Recycling Franken GmbH` 3,5 km, `Autoverwertung Kauder Inhaber Christian Kauder` 9,4 km), die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott%20Florian ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrott%20Florian ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Florian ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Florian ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=96050%20Bamberg%2C%20Deutschland%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=96050%20Bamberg%2C%20Deutschland%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=96050%20Bamberg%2C%20Deutschland%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116&dst=10&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=96050%20Bamberg%2C%20Deutschland%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116%3B10.8973691%3B49.8943116&dst=10&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Das Dossier führt
+  bewusst **keine** Straße und **keine** PLZ; der einzige Adressbezug ist der Verzeichnis-Lead **„Schrott Florian“,
+  Heumannstr. 1, 96050 Bamberg, 0951 30945195** (Dossier-Recherche 24.10.2026), der am 05.11.2026 **live erneut** auf der
+  Gelbe-Seiten-Detailseite **unverändert** steht. **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das Kachelraster
+  **bbox=10.8500,49.8600,10.9100,49.9200** (**36 Kacheln von je 0,01 Grad** um Bamberg,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8500,49.8600,10.9100,49.9200) wurde mit **354 579 Elementen**
+  und **0 Kachel-Fehlern** vollständig abgetastet; die
+  **„Heumannstraße“** in 96050 Bamberg ist darin mit drei Straßenobjekten erfasst (way/1184469601, way/136064557,
+  way/36218942) und trägt **3 Adressobjekte** mit **3 verschiedenen Hausnummern** (1, 2, 3) - die Lead-Hausnummer **1
+  existiert in OSM also objektgenau**, nämlich **way/36218940** (live geladen, HTTP 200) mit `addr:housenumber`=**1**,
+  `addr:street`=Heumannstraße, `addr:postcode`=**96050**, `addr:city`=Bamberg, `addr:country`=DE, `building`=
+  **apartments**, `building:levels`=4, `building:use`=**residential** (9 eindeutige Knoten, Mittel 49.8943261/10.8974370,
+  Objekt-BBox 49.8941974/10.8972429 bis 49.8944381/10.8975523). Das einzige Objekt an der Lead-Adresse ist damit ein
+  **Wohngebäude ohne jeden Betriebsbezug** (weder `name=` noch `operator=` noch `shop=`/`office=`/`industrial=`); die
+  Suche nach „florian“ und „schrott“ über `name`, `operator`, `brand`, `official_name` und `old_name` liefert im Fenster
+  **keinen** Treffer, der diesem Kandidaten zugeordnet werden kann. **Quelle 2 (Beleglage, im Dossier dokumentiert, live
+  am 05.11.2026 nachgelesen):** die Gelbe-Seiten-Detailseite führt „Schrott Florian“ unverändert an Heumannstr. 1, 96050
+  Bamberg - das ist ein **Verzeichnis-Lead**, keine Betreiber- oder Registerquelle; eine Betreiberwebsite oder ein
+  Registereintrag existiert nach den Dossier-Recherchen vom 18.10./23.10./24.10.2026 **nicht**, und die amtliche
+  Registerabfrage vom 02.11.2026 (Namenssuche `Schrott Florian` in beiden Routen: **0 Treffer**; Radiusabfrage um
+  96050 Bamberg: **10** Efb-Treffer, davon **keiner** „Schrott Florian“) findet ebenfalls **keinen** Registerbeleg. Die
+  für diese Welle geforderte zweite unabhängige Quelle (Betreiber- oder Registerbeleg für eben diese Anschrift) fehlt
+  damit weiterhin, und die Dossier-Entscheidung vom 24.10.2026 (Straße/PLZ/Telefon als unzureichend belegte Fakten
+  zurückgenommen, Altpunkt entzogen) bleibt unberührt. **Zusatzbefund zum entzogenen Altpunkt:** der im Dossier genannte
+  gespeicherte Punkt **49.8925, 10.897025** liegt rund **210 m** vom OSM-Objekt der Lead-Adresse entfernt - er ist also
+  auch geometrisch **nicht** die Heumannstraße 1; eine Karte auf dem Altpunkt wäre doppelt unzutreffend. Es wird **keine**
+  Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo,phone'`-Anweisung **bleibt
+  unverändert**, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll und kein belegter Ersatz existiert;
+  `status` (pruefung), `description` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen
+  eines OSM-Betriebsbezugs oder eines Registereintrags ist **kein** Existenz- oder Schließungsbeweis; die gefundene
+  Wohneigenschaft an der Lead-Adresse belegt weder eine Annahme noch eine Schließung. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8500,49.8600,10.9100,49.9200 ;
+  https://api.openstreetmap.org/api/0.6/way/36218940/full.json ;
+  https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott%20Florian
+  (live abgerufen 05.11.2026).]

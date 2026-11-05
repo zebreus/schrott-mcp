@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Containerdienst Bach, Eichenweg 2, 16321 Bernau bei Berlin OT Schönow: Containerdienst mit
+SERO-Recycling, der nach eigener Darstellung seit 1982 Schrott und Nichteisenmetalle zu
+Tagespreisen annimmt, Abholung und Anlieferung anbietet und Container oder Selbstlader stellt;
+das Servicegebiet ist der Raum Berlin. Das Impressum nennt als Inhaberin Corinna Hacker und
+weist kein Handelsregister aus. Die Öffnungszeiten sind widersprüchlich: Die Kontaktseite nennt
+Mo–Do 8–15 Uhr und Fr 8–14 Uhr, der Footer aller Seiten dagegen 7–16 und 7–15 Uhr, das
+Verzeichnis bestätigt die kürzeren Werte. Offen bleiben damit die verbindliche Zeitenangabe,
+eine zweite unabhängige Quelle und die Zuordnung der Hausnummer, da OpenStreetMap für den
+Eichenweg keine Hausnummer führt und deshalb kein Punkt gesetzt ist. Der Status bleibt
+pruefung.
 
 ## Timeline
 

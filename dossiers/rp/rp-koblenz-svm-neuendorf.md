@@ -87,3 +87,40 @@ Die Website svmdienstleistungen.de präsentiert „SVM Dienstleistungen“ in Ko
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5300,50.3200,7.6000,50.3800 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.svmdienstleistungen.de/ ; https://www.svmdienstleistungen.de/impressum (live abgerufen
   03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die Zeile keine Adresse und keinen belegten
+  Betriebsbezug hat.** `street` und `postcode` sind **leer**; der Seed-Eintrag „**Gleisanschluss**" ist eine
+  **Flächenangabe**, keine Anschrift, und `city` trägt nur „**Koblenz**". **Was geprüft wurde (live am 05.11.2026):**
+  (a) **Suchfenster (0,02°-Kacheln):** **bbox=7.5550,50.3350,7.6050,50.3750** = 6 Kacheln à 0,02° (7.5550/50.3350/
+  7.5750/50.3550, 7.5550/50.3550/7.5750/50.3750, 7.5750/50.3350/7.5950/50.3550, 7.5750/50.3550/7.5950/50.3750,
+  7.5950/50.3350/7.6050/50.3550, 7.5950/50.3550/7.6050/50.3750), live abgerufen am 05.11.2026; **Zensus:** **8.898**
+  Adressobjekte und **392** namentliche Straßen in **236.234** Elementen. Eine Suche über **alle** Tag-Werte nach
+  „**SVM**" liefert **0 Objekte** im gesamten Fenster - ein Objekt, das **den eigenen Betrieb** benennt, existiert in
+  OSM **nicht**. (b) Die im Dossier dokumentierte **Untersuchung des „Gleisanschlusses"** ist damit bestätigt: die im
+  Koblenzer Raum vorhandenen Bahn-Objekte sind durchweg **DB-Infrastruktur** - der „**Oberstromgleis**" (way/876200062,
+  `electrified`=contact_line, `gauge`=1435, `operator`=**DB InfraGO AG**, `passenger_lines`=3, `railway`=rail) sowie
+  Bahnsteig-Zugänge („Zugang Gleis 1", „Zugang zu Gleis 2 und 3") und `railway`=signal-Objekte - **kein** Anschlussgleis
+  eines Entsorgungsbetriebs und **kein** Betriebsobjekt „SVM". Ein „Gleisanschluss" ohne Flächenkennung ist zudem
+  **kein** geokodierbarer Punkt. (c) Die **Betreiber-Website** svmdienstleistungen.de (live abgerufen 03.11.2026,
+  https://www.svmdienstleistungen.de/ und /impressum) wurde bereits am 29.10.2026 als **ohne Impressum** (HTTP 404) und
+  mit **Platzhaltern** in den Referenzen dokumentiert; sie nennt als Standort nur „**Koblenz am Rhein**" und **keine**
+  Anschrift. **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und
+  des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel schrottregister.pages.dev) führt für
+  **Koblenz** sechs Betriebe (Lux & Co. GmbH, MCR Metallgroßhandel & Containerdienst Riebe GmbH, Metlux Recycling GmbH,
+  REMONDIS Mittelrhein GmbH, TSR Deutschland GmbH & Co. KG) - **keinen** mit SVM-Bezug. **Quelle 1 (Betreiber):** die
+  Betreiber-Website svmdienstleistungen.de - **ohne** Impressum, **ohne** Anschrift, **ohne** Rechtsträger.
+  **Quelle 2 (OSM):** das Kachelraster und die genannten DB-Bahnobjekte (live abgerufen 05.11.2026). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle** mit einer **Anschrift** und die Zuordnung des Webauftritts zur Seed-Zeile „SVM
+  Neuendorf"; erst dann wäre eine Geokodierung möglich. `status` bleibt **pruefung**, `website` bleibt
+  **unbekannt** bzw. leer, `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen eines
+  Betriebsobjekts in OSM ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5550,50.3350,7.5750,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5550,50.3550,7.5750,50.3750 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5750,50.3350,7.5950,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5750,50.3550,7.5950,50.3750 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5950,50.3350,7.6050,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5950,50.3550,7.6050,50.3750 ;
+  https://www.svmdienstleistungen.de/ ; https://schrottregister.pages.dev/ort-koblenz ; Recherche-Vermerke vom 29.10. und
+  03.11.2026 im Dossier (live abgerufen 05.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: by-bamberg-autoverwertung-piske
+lat: 49.9100664
+lon: 10.8671132
 name: 'Autoverwertung Piske (Christian Piske)'
 trader_type: autoverwertung
 state: BY
@@ -45,3 +47,50 @@ Die Nürnberger Straße ist laut Betreiberseite die Gründungsadresse von 1968, 
 - [Recherche 02.11.2026: **Altfahrzeugverwertung: Anerkennung als Demontagebetrieb belegt; Entsorgungsfachbetrieb nicht belegt.** Die Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Piske` liefert 1 Treffer (`Autoverwertung Piske Inhaber Christian Piske`, Mainstraße 3, 96052 Bamberg, `ZAHS01800076 / 1`); die Kontrollabfrage mit dem Filter `Art des Betriebs = Demontagebetrieb` liefert 1 Treffer, die Filter `Annahmestelle`, `Rücknahmestelle`, `Schredderanlage` und `Sonstige Anlage zur weiteren Behandlung` jeweils 0 Treffer. Der Detaildialog nennt wörtlich `Bezeichnung Autoverwertung Piske Inhaber Christian Piske`, `Adresse Mainstraße 3, 96052 Bamberg`, `Internetadresse www.ap-auto.de`, `E-Mail info@ap-auto.de`, `Telefon 0951/67601`, `Vorgangsnummer ZAHS01800076`, `Bescheinigungsanlagennr. 1`, `Fax 0951/601640`, `Ansprechpartner Herr Christian Piske`, `Kennnummer I461E1140` sowie `Bezeichnung der Firma Autoverwertung Piske Inhaber Christian Piske` und `Adresse der Firma Mainstraße 3, 96052 Bamberg`; Anschrift, Telefon, E-Mail und Internetadresse decken sich mit dem Dossier.
   Die Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Piske` liefert 0 Treffer; die ortsbezogene Kontrollabfrage mit 3 km Radius um Mainstraße 3, 96052 Bamberg liefert 9 Efb-Treffer, darunter `REMONDIS GmbH & Co. KG NL Bamberg`, Mainstraße 3, 96052 Bamberg, `ZZEE00200048 / 22` (Sammeln, Befördern), `Eichhorn Kompost GmbH` 0,8 km, `AGB Dienstleistungs-GmbH` 0,8 km, `Rudolf Fritsche GmbH` 0,9 km, `Bamberg Service` 1,0 km, `Eichhorn Transport- und Entsorgungs-GmbH` 1,0 km, `Paulus GmbH` 1,6 km und `Heinrich Fischer & Söhne Brennstoffe GmbH` 2,0 km. **Abgrenzung:** Der Eintrag `REMONDIS GmbH & Co. KG NL Bamberg` betrifft einen anderen Rechtsträger am selben Ort und wurde **nicht** übernommen. **Reichweitenklausel:** Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig; ein Nichttreffer im Register ist **kein** Nichtexistenzbeweis für eine Zertifizierung des Betriebs.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Piske ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Piske ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Mainstra%C3%9Fe%203%2C%2096052%20Bamberg%2C%20Deutschland;10.8671132;49.9100664;10.8686132;49.9115664;10.8656132;49.9085664&dst=3&is=1&a=1&gl=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **49.9100664/10.8671132** (Mittelwert der **4** eindeutigen
+  Knoten von way/89320800; das Objekt hat 4 Knotenreferenzen, davon 4 eindeutige; die Objekt-BBox reicht von
+  49.9099946/10.8669927 bis 49.9101381/10.8672336 und **umschließt den Mittelwert**). **Quelle 1 (OSM, live geladen
+  am 05.11.2026, HTTP 200):** way/89320800 trägt `addr:housenumber`=**3**, `addr:street`=**Mainstraße**,
+  `addr:postcode`=**96052**, `addr:city`=Bamberg, `addr:country`=DE, `building`=yes; Straße, Hausnummer, PLZ und Ort
+  stimmen mit der im Dossier belegten Anschrift **Mainstraße 3, 96052 Bamberg** überein. **Fensterdisziplin:** das am
+  05.11.2026 live abgefragte Kachelraster umfasst **10.8600/49.9000 bis 10.8900/49.9200**, **6 Kacheln von je 0,01
+  Grad** um die Hausnummer herum mit **52 942 Elementen** und **0 Kachel-Fehlern**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8600,49.9000,10.8900,49.9200); es **umschließt die
+  Objekt-BBox vollständig** und enthält die **„Mainstraße“** nachweislich und vollständig mit den Straßenobjekten
+  way/324941054, way/324941055, way/4325231, way/324941056 (Verlauf 49.9077936/10.8596837 bis 49.9108480/10.8682849);
+  sie trägt im Fenster **3 Adressobjekte** und weist **3 verschiedene Hausnummern** (2, 3, 10) - die
+  **Dossier-Hausnummer 3 existiert in OSM objektgenau**. Die Lage deckt sich mit der Dossier-Angabe „im Bamberger
+  Hafen“: im selben Fenster liegen die **Hafenstraße** (way/452718913, way/1414418312 bis way/1414418314,
+  way/744391671, way/77661932, way/872381387, way/452718915) und die **Kai 2/Kai 3** (way/31341076, way/324941051,
+  way/324941052) sowie die Haltestellen **„Bamberg Mainstraße“** (node/349055766, node/655276780, node/655276781,
+  node/349055141). **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen,
+  HTTP 200):** die Kontaktseite der Betreiberseite nennt **„Autoverwertung Piske, Mainstraße 3, 96052 Bamberg,
+  Telefon: 0951/67601, Fax: 0951/601640, E-Mail: info@ap-auto.de“**, und die **Anfahrtsseite** derselben Seite bettet
+  eine Karte mit dem Standortmarker **49.909710, 10.866990** ein - der Marker liegt **rund 40 m südlich** des
+  gesetzten Punkts (knapp außerhalb der Objekt-BBox, also unmittelbar vor dem Gebäude) und deckt sich damit mit
+  derselben Liegenschaft. Das im Dossier
+  zitierte **amtliche Fachbetrieberegister** führt den Betrieb als **Autoverwertung Piske Inhaber Christian Piske,
+  Mainstraße 3, 96052 Bamberg**, Vorgangsnummer **ZAHS01800076**, Bescheinigungsanlagennr. 1, Kennnummer I461E1140
+  (Dossier-Überblick und Recherche 02.11.2026); die in derselben Dossier-Notiz dokumentierte Register-Ortsabfrage zu
+  **Mainstraße 3, 96052 Bamberg** ist mit dem BBox-Mittelpunkt **10.8671132;49.9100664** auf **denselben Punkt**
+  gesetzt - Register- und OSM-Geokodierung decken sich damit auf ~1 m. **Betriebsbezug in OSM:** keiner -
+  way/89320800 trägt weder `name=` noch `operator=`; eine Suche nach „Piske“ über die Felder name, operator, brand,
+  description, website, note und addr:housename findet im Fenster **keinen** Treffer - das ist eine Aussage zum
+  OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Abgrenzung (unverändert offen, ausdrücklich mitgenommen):**
+  die Dossier-Notiz vom 02.11.2026 bleibt unberührt - der **Efb-Eintrag fehlt** (der am selben Ort geführte Eintrag
+  `REMONDIS GmbH & Co. KG NL Bamberg`, ZZEE00200048 / 22, betrifft einen anderen Rechtsträger und wurde nicht
+  übernommen), der AltfahrzeugV-Nachweis ZAHS01800076 bleibt wie im Dossier; die bei REMONDIS genannte
+  **Nürnberger Straße** bleibt die Gründungsadresse von 1968 und kein zweiter Standort. Das Dossier enthält **keine**
+  `clear_fields`-Anweisung, daher ist nichts zurückzunehmen; `status` (aktiv), `street`, `postcode`,
+  `opening_hours`, `certifications` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen
+  eines Efb-Eintrags oder eines OSM-Betriebsbezugs wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die
+  belegte Anschrift des im Dossier geführten Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/89320800/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8600,49.9000,10.8900,49.9200 ;
+  https://www.autoverwertung-piske.de/kontakt/ ; https://www.autoverwertung-piske.de/anfahrt/ ;
+  https://www.bayernhafen.de/firmenverzeichnis/autoverwertung-piske/ ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (im Dossier zitiert, Abruf
+  05.11.2026).]

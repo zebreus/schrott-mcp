@@ -95,3 +95,46 @@ Der aktuelle Betreiberauftritt bestätigt Wahl & Co. Inhaber Thomas Madeiski e.K
 
 - Buntmetall-Spezialist (Cu, Messing, Rotguss, Alu, V2A/V4A, Zinn, HSS, Hartmetall, Wolfram), Kabel, Container
 - Adressbeleg: https://wahlundco.de/
+
+### Recherche 05.11.2026
+
+- [Recherche 05.11.2026: **Kein amtlicher Fachbetriebsregister-Eintrag für den Dossierstandort Wahl & Co. Inh. Thomas
+  Madeiski e.K., Heinrich-Ehrhardt-Straße 47b, 98544 Zella-Mehlis.** Die Namenssuche
+  `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wahl & Co` und `n=Madeiski` liefern jeweils **0**
+  Treffer, die Namenssuche `n=Wahl` **3** Treffer – **sämtlich Namensvetter**: `Silke Wahl` mit
+  `ZZGT00200083 / 1` und `/ 2`, Adresse `In den Fahrgärten 3, 67165 Waldsee`, und `Wahl Logistik GmbH`
+  mit `ZZHT00400098 / 1`, Adresse `Dornierstraße 2, 53424 Remagen` – andere Personen bzw.
+  Gesellschaften an anderen Orten. In der Route „Altfahrzeugverwertung“ liefern `Wahl & Co`, `Wahl`
+  und `Madeiski` jeweils **0** Treffer. **Abgrenzung.** Die Standortabfragen um
+  Heinrich-Ehrhardt-Straße 47b, 98544 Zella-Mehlis mit den Radien 3, 5 und 10 km (validiertes `adr=`)
+  liefern in der Route „Entsorgungsfachbetriebe“ 6, 11 und 18 Treffer – darunter ist **kein** Eintrag
+  für die Adresse Heinrich-Ehrhardt-Straße 47b; in der Route „Altfahrzeugverwertung“ liefern die
+  Abfragen mit 3, 5 und 10 km jeweils 1 Treffer, nämlich `Zella-Mehlis` mit `ZZEE00300267 / 4` bzw.
+  `ZZEE00300266 / 4`, Adresse `Schöne Aussicht 22, 98544 Zella-Mehlis` – **Fremdbetrieb am selben Ort
+  mit anderer Straße und ohne Bezug zum Dossierbetrieb**, daher nicht übernommen.
+  **Reichweitenklausel.** Geprüft wurden die Namensvarianten `Wahl & Co`, `Wahl` und `Madeiski` sowie
+  die Standortabfragen mit den Radien 3, 5 und 10 km um die Dossier-Adresse (validiertes `adr=` mit
+  PLZ-Abgleich 98544), jeweils mit den Filtern `is=1` und `e=1` (Art des Betriebs: Egal), in den
+  Routen „Entsorgungsfachbetriebe“ und „Altfahrzeugverwertung“; Trefferzahlen der Namenssuchen: Route
+  Entsorgungsfachbetriebe: `Wahl & Co` = 0 Treffer, `Wahl` = 3 Treffer, `Madeiski` = 0 Treffer; Route
+  Altfahrzeugverwertung: `Wahl & Co` = 0 Treffer, `Wahl` = 0 Treffer, `Madeiski` = 0 Treffer;
+  Trefferzahlen der Standortabfragen: Route Entsorgungsfachbetriebe: 3 km = 6 Treffer, 5 km = 11
+  Treffer, 10 km = 18 Treffer; Route Altfahrzeugverwertung: 3 km = 1 Treffer, 5 km = 1 Treffer, 10 km
+  = 1 Treffer; Abruf am 05.11.2026. Ein Register-Nichteintrag ist **kein** Nachweis, dass ein Betrieb
+  keine Anerkennung nach § 56 KrWG oder nach der Altfahrzeugverwertungsverordnung besitzt – beide
+  Anerkennungen sind freiwillig; der Befund belegt allein, dass zum Abrufdatum **kein**
+  Registereintrag unter den geprüften Varianten, Radien und Filtern dem Dossierstandort zugeordnet
+  war. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wahl%20%26%20Co;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wahl;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Madeiski;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Heinrich-Ehrhardt-Str.%2047b%2C%2098544%20Zella-Mehlis%2C%20Deutschland%3B10.6787827%3B50.6593321%3B10.690783%3B50.671332%3B10.666783%3B50.647332&dst=3&is=1&e=1;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Heinrich-Ehrhardt-Str.%2047b%2C%2098544%20Zella-Mehlis%2C%20Deutschland%3B10.6787827%3B50.6593321%3B10.690783%3B50.671332%3B10.666783%3B50.647332&dst=5&is=1&e=1;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Heinrich-Ehrhardt-Str.%2047b%2C%2098544%20Zella-Mehlis%2C%20Deutschland%3B10.6787827%3B50.6593321%3B10.690783%3B50.671332%3B10.666783%3B50.647332&dst=10&is=1&e=1;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wahl%20%26%20Co;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wahl;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Madeiski;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Heinrich-Ehrhardt-Str.%2047b%2C%2098544%20Zella-Mehlis%2C%20Deutschland%3B10.6787827%3B50.6593321%3B10.690783%3B50.671332%3B10.666783%3B50.647332&dst=3&is=1&e=1;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Heinrich-Ehrhardt-Str.%2047b%2C%2098544%20Zella-Mehlis%2C%20Deutschland%3B10.6787827%3B50.6593321%3B10.690783%3B50.671332%3B10.666783%3B50.647332&dst=5&is=1&e=1;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Heinrich-Ehrhardt-Str.%2047b%2C%2098544%20Zella-Mehlis%2C%20Deutschland%3B10.6787827%3B50.6593321%3B10.690783%3B50.671332%3B10.666783%3B50.647332&dst=10&is=1&e=1
+  (Abruf 05.11.2026).]
