@@ -23,6 +23,7 @@ use std::hash::{Hash, Hasher};
 
 use serde::Deserialize;
 
+use schrott_mcp_store::public::traders::same_value;
 use schrott_mcp_store::{NewTrader, PublicDb};
 
 /// One seed row, as compiled at build time from a dossier by
@@ -317,6 +318,54 @@ fn payload_hash(
 }
 
 /// Non-empty seed value wins, otherwise the stored (enriched) one survives.
+fn keep_strict(seed: &str, stored: &str, fallback: &str) -> String {
+    if !seed.is_empty() {
+        seed.to_owned()
+    } else if !stored.is_empty() {
+        stored.to_owned()
+    } else {
+        fallback.to_owned()
+    }
+}
+
+/// Like [`keep`], but a seed value that is only another **spelling** of the
+/// stored value does not replace it (owner decision E-16): the scraper and the
+/// seed must not flip the spelling of the same value back and forth. An
+/// **empty** seed value still wins - a withdrawn address must disappear.
+fn keep_variant(field: &str, seed: &str, stored: &str) -> String {
+    if same_value(field, seed, stored) {
+        // Nur eine andere Schreibweise desselben Werts: der gespeicherte Wert
+        // bleibt stehen (E-16).
+        stored.to_owned()
+    } else {
+        seed.to_owned()
+    }
+}
+
+/// Wie [`keep`], aber eine reine Schreibvariante ersetzt den gespeicherten Wert
+/// nicht (E-16). Fuellfelder (Telefon, E-Mail, …) behalten bei einem **leeren**
+/// Dossier-Feld den gespeicherten Wert - ein leeres Feld loescht nur, was
+/// ausdruecklich zurueckgenommen wurde.
+fn keep_enrichment(field: &str, seed: &str, stored: &str, fallback: &str) -> String {
+    if seed.is_empty() {
+        keep(seed, stored, fallback)
+    } else {
+        keep_variant(field, seed, stored)
+    }
+}
+
+/// Wie [`keep`], aber eine reine Schreibvariante ersetzt den gespeicherten Wert
+/// nicht (E-16). **Kernfelder** (Anschrift) werden bei einem leeren
+/// Dossier-Feld weiterhin geleert - das ist der Weg, ueber den eine
+/// zurueckgenommene Anschrift aus der Datenbank verschwindet.
+fn keep_core(field: &str, seed: &str, stored: &str, fallback: &str) -> String {
+    if seed.is_empty() {
+        fallback.to_owned()
+    } else {
+        keep_variant(field, seed, stored)
+    }
+}
+
 /// Ordinary blanks never clobber scraper/human enrichment; explicit clears
 /// bypass this helper and use the field's empty default.
 fn keep(seed: &str, stored: &str, fallback: &str) -> String {
@@ -366,9 +415,19 @@ fn apply_seed_traders(
                 clear_drift |= stored != fallback;
                 fallback.to_owned()
             } else {
-                keep(seed, stored, fallback)
+                // Fuellfelder: eine reine Schreibvariante ersetzt den
+                // gespeicherten Wert nicht (E-16), ein leeres Dossier-Feld
+                // laesst ihn stehen.
+                keep_enrichment(field, seed, stored, fallback)
             }
         };
+        // Die Adresse und die Telefonnummer folgen der Schreibweisen-Regel
+        // (E-16): eine andere Schreibweise derselben Adresse ersetzt den
+        // gespeicherten Wert nicht, ein **leeres** Dossier-Feld entfernt ihn
+        // weiterhin (Beleg zurueckgenommen).
+        let street = keep_core("street", &t.street, &kept.street, "");
+        let postcode = keep_core("postcode", &t.postcode, &kept.postcode, "");
+        let city = keep_core("city", &t.city, &kept.city, "");
         let description = effective("description", &t.description, &kept.description, "");
         let dropoff_json = effective("dropoff_json", &t.dropoff_json, &kept.dropoff_json, "{}");
         let pickup_json = effective("pickup_json", &t.pickup_json, &kept.pickup_json, "{}");
@@ -430,9 +489,9 @@ fn apply_seed_traders(
                 name: &t.name,
                 trader_type: &t.trader_type,
                 description: &description,
-                street: &t.street,
-                postcode: &t.postcode,
-                city: &t.city,
+                street: &street,
+                postcode: &postcode,
+                city: &city,
                 state: &t.state,
                 country: "DE",
                 // Dossier pair wins; absent/empty pair preserves stored GEO.
@@ -512,6 +571,85 @@ mod tests {
             now,
         })
         .unwrap();
+    }
+
+    /// E-16: eine andere Schreibweise derselben Adresse oder Nummer ersetzt
+    /// den gespeicherten Wert nicht - der Scraper und der Seed duerfen die
+    /// Schreibweise nicht gegeneinander kippen. Ein **leeres** Dossier-Feld
+    /// entfernt die Adresse weiterhin (Beleg zurueckgenommen).
+    #[test]
+    fn seed_keeps_a_spelling_variant_but_still_withdraws_a_blank_address() {
+        let dir = TempDbDir::new("seed-address-variant");
+        let db = PublicDb::open(dir.path()).unwrap();
+        db.upsert_trader(&schrott_mcp_store::NewTrader {
+            slug: "bb-coordinate-test",
+            name: "Coordinate test",
+            trader_type: "schrotthaendler",
+            city: "Teststadt",
+            state: "BB",
+            country: "DE",
+            street: "Eichenstraße 25",
+            postcode: "65933",
+            lat: Some(52.5),
+            lon: Some(13.4),
+            phone: "069-77011759",
+            email: "test@example.org",
+            website: "https://example.org",
+            website_status: "aktiv",
+            website_checked_at: "checked",
+            opening_hours: "Mo-Fr",
+            description: "Enriched",
+            certifications: Some("[]"),
+            dropoff_json: "{}",
+            pickup_json: "{}",
+            min_quantity_kg: None,
+            max_quantity_kg: None,
+            status: "aktiv",
+            notes: "",
+            extra_json: "{}",
+            now: "t0",
+        })
+        .unwrap();
+
+        let mut variant = coordinate_fixture(serde_json::json!({
+            "street": "Eichenstr. 25", "postcode": "65933", "phone": "069 77011759"
+        }));
+        variant.slug = "bb-coordinate-test".to_owned();
+        variant.name = "Coordinate test".to_owned();
+        variant.city = "Teststadt".to_owned();
+        apply_seed_traders(&db, &[variant], "t1").unwrap();
+        let mut rows = db
+            .query_sql("SELECT street, phone FROM traders WHERE slug = 'bb-coordinate-test'")
+            .unwrap()
+            .rows;
+        let row = rows.remove(0);
+        assert_eq!(
+            row[0].as_str(),
+            Some("Eichenstraße 25"),
+            "eine Schreibvariante darf die gespeicherte Adresse nicht ersetzen"
+        );
+        assert_eq!(
+            row[1].as_str(),
+            Some("069-77011759"),
+            "eine Schreibvariante darf die gespeicherte Nummer nicht ersetzen"
+        );
+
+        // Ein leeres Dossier-Feld entfernt die Adresse (Beleg zurueckgenommen).
+        let mut leer = coordinate_fixture(serde_json::json!({}));
+        leer.slug = "bb-coordinate-test".to_owned();
+        leer.name = "Coordinate test".to_owned();
+        leer.city = "Teststadt".to_owned();
+        apply_seed_traders(&db, &[leer], "t2").unwrap();
+        let mut rows = db
+            .query_sql("SELECT street FROM traders WHERE slug = 'bb-coordinate-test'")
+            .unwrap()
+            .rows;
+        let row = rows.remove(0);
+        assert_eq!(
+            row[0].as_str(),
+            Some(""),
+            "eine zurueckgenommene Adresse muss verschwinden"
+        );
     }
 
     #[test]

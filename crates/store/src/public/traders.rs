@@ -173,7 +173,7 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
 ///   with a trailing zero ("49.884893" vs. "49.8848930") is the same point;
 ///   overwriting it would be format churn on an unchanged value.
 /// * every other field: an exact comparison.
-fn same_value(field: &str, new: &str, old: &str) -> bool {
+pub fn same_value(field: &str, new: &str, old: &str) -> bool {
     match field {
         "phone" => phone_key(new) == phone_key(old),
         "street" => street_key(new) == street_key(old),
@@ -307,6 +307,13 @@ pub struct SeedKept {
     pub lat: Option<f64>,
     pub lon: Option<f64>,
     pub certifications: String,
+    /// Die recherchierte Adresse, wie sie in der Datenbank steht. Ein Dossier,
+    /// das eine andere Schreibweise derselben Adresse fuehrt, darf sie nicht
+    /// ueberschreiben (Owner-Entscheidung E-16) - und ein **leeres** Dossier-Feld
+    /// soll sie weiterhin entfernen (Beleg zurueckgenommen).
+    pub street: String,
+    pub postcode: String,
+    pub city: String,
 }
 
 impl PublicDb {
@@ -476,7 +483,8 @@ impl PublicDb {
         conn.query_row(
             "SELECT extra_json, description, dropoff_json, pickup_json,
                     website, website_status, website_checked_at, phone,
-                    email, opening_hours, lat, lon, certifications
+                    email, opening_hours, lat, lon, certifications,
+                    street, postcode, city
              FROM traders WHERE slug = ?1",
             params![slug],
             |r| {
@@ -498,6 +506,9 @@ impl PublicDb {
                     lat: r.get(10)?,
                     lon: r.get(11)?,
                     certifications: r.get(12)?,
+                    street: r.get(13)?,
+                    postcode: r.get(14)?,
+                    city: r.get(15)?,
                 })
             },
         )
