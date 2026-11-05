@@ -161,3 +161,68 @@ Der Adresskonflikt ist größer geworden: Neben Buschhofer Weg 2 (Gelbe Seiten) 
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Jaquemont
   (im Dossier zitiert, Abruf 05.11.2026).]
 
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung korrigiert den Schreibweisenfehler des Alt-Vermerks - der
+  dritte Adresskandidat ist adressgenau in OSM vorhanden.** Der Seed hat **drei** widersprüchliche Adresskandidaten mit
+  derselben Mobilnummer, und **keiner** von ihnen ist als Betriebsadresse belegt. **Quelle 1 (OSM, live geladen am
+  05.11.2026, HTTP 200):** das Kachelraster **6.1300/50.8600 bis 6.1700/50.8900**, **12 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.1300,50.8600,6.1700,50.8900) **umschließt die
+  Objekt-BBox vollständig** und deckt alle drei Kandidaten ab. **(a) „Übacher Weg 25“ existiert in OSM** - als
+  **way/445140310** (`addr:housenumber`=25, `addr:street`=**Übacher Weg**, `addr:city`=Alsdorf, `addr:country`=DE,
+  `addr:postcode`=52477, `building`=yes; Mittel der **7** eindeutigen Knoten **50.8756379/6.1585434**, BBox
+  50.8755758/6.1584181 bis 50.8757092/6.1587021); die Straße trägt im Fenster **87** Adressobjekte (76 Ways, 11 Nodes)
+  mit **86** verschiedenen Hausnummern (1, 2, 4, 5, 7, 17, 19, 21, **25**, 27, 29, 31, 33, 35, 36, 37, 39, 43, 51, 54,
+  56, 59, 60, 61, 62, 63, 64, 65, 67, 69, 70, 70a, 72, 74, 76, 78, 81, 83, 85, 87, 89, 95, 101, 103, 107, 109, 111, 113,
+  115, 117, 119, 121, 123, 124, 126, 127, 129, 130, 131, 132, 133, 134, 135, 135a, 137, 138, 141, 143, 145, 146, 148,
+  150, 152, 154, 156, 158, 160, 162, 166, 168, 172, 176, 178, 203, 205, 220) und **19** Straßenobjekten (Verlauf
+  50.8743821/6.1421441 bis 50.8950283/6.1609013). **Korrektur des Alt-Befunds:** die Vermerke vom 03.11.2026 und vom
+  05.11.2026 in diesem Dossier führen den dritten Kandidaten als „Uebacher Weg“ und erklären die Straße für **nicht
+  existent**; die OSM-Schreibweise lautet **„Übacher Weg“** (mit Ü) - der Negativbefund war ein **Schreibweisenfehler**,
+  kein Datenmangel. **(b) „Buschhofer Weg 2“** existiert als **node/4457640357** (`addr:housenumber`=2,
+  `addr:street`=Buschhofer Weg, `addr:city`=Alsdorf, `addr:postcode`=52477; Punktlage **50.8820753/6.1341316**, die
+  Objekt-BBox ist der Punkt selbst) **ohne** jeden `name`- oder `operator`-Tag; die Straße trägt im Fenster **12**
+  Adressobjekte mit **12** verschiedenen Hausnummern (1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 13, 15) und einem Straßenobjekt
+  (way/19797612; Verlauf 50.8812553/6.1341836 bis 50.8822583/6.1347128). **(c) „Grenzweg 25“** existiert als
+  **way/315804073** (`addr:housenumber`=25, `addr:street`=Grenzweg, `addr:city`=Alsdorf, `addr:postcode`=52477,
+  `building`=yes; Mittel der **6** eindeutigen Knoten **50.8713925/6.1623088**, BBox 50.8713493/6.1622368 bis
+  50.8714303/6.1623764) ebenfalls **ohne** Betriebsbezug; die Nachbarobjekte tragen **andere** Betriebe (Nummer 82:
+  Penny, `shop`=supermarket; Nummern 84-86: Fitness Factory Alsdorf), die Straße trägt im Fenster **66** Adressobjekte
+  mit **66** verschiedenen Hausnummern (1, 2, 2a, 3, 4, 5, 6, 7, 8, 9, 11, 13, 14, 15, 16, 17, 17a, 18, 19, 19a, 19b,
+  20, 21, 22, 23, 23a, 24, **25**, 26, 27, 28, 29, 29a, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 48,
+  50, 52, 54, 56, 58, 65, 67, 69, 71, 73, 75, 77, 79, 82, 84, 84-86, 86) und sieben Straßenobjekten (Verlauf
+  50.8674331/6.1609972 bis 50.8729004/6.1664896). Ein Objekt mit Betriebsbezug zu „Jaquemot", „Jaquemont" oder „Bastian"
+  existiert im Fenster **nicht**; eine Suche über die Felder name, operator, brand, description, website,
+  contact:website, contact:phone, note und addr:housename findet **keinen** Treffer - Aussage zum OSM-Bestand, **kein**
+  Negativbeleg über den Betrieb. **Quelle 2 (Verzeichnis/Register, im Dossier bereits zitiert, live am 05.11.2026
+  nachgelesen, HTTP 200):** die 11880-Suche **„Schrott in Alsdorf“** führt am 05.11.2026 genau **einen** Alsdorfer
+  Treffer: **„Schrott & Recycling Jaquemot“, Branchen Abbrucharbeiten, Containerdienst & Renovierungsarbeiten, Übacher
+  Weg 25, 52477 Alsdorf, (0176) 30329435** - die Schreibweise **„Übacher Weg“** steht also bereits im
+  Verzeichnis-Eintrag selbst; die beiden im Dossier bereits zitierten anderen Verzeichniseinträge nennen dagegen
+  **„Jaquemot Bastian Schrott & Reycling“, Buschhofer Weg 2, 52477 Alsdorf-Busch** (Gelbe Seiten) und **„Jaquemot
+  Bastian Schrott und Reycling“** mit **Grenzweg 25** (Schrottplatz-Info), jeweils mit derselben Mobilnummer; die
+  verlinkte Domain `bastianjaquemot.de.to`
+  liefert **HTTP 404**, und das amtliche Fachbetrieberegister führt in Alsdorf **nur** „Franz Plum GmbH & Co. KG“
+  (Carl-Zeiss-Str. 9) und **keinen** Eintrag „Jaquemont“ oder „Jaquemot“. **Warum trotz der Korrektur keine
+  Koordinate:** Die Adresse ist zwar jetzt für **alle drei** Kandidaten adressgenau in OSM auffindbar, der
+  **Adresskonflikt** bleibt aber ungelöst: **drei** Straßen mit derselben Mobilnummer, und der importierte Seed-Stand
+  nennt selbst **„Buschhofer Weg 2“**, während der Seed-**Name** zum 11880-Eintrag an der Übacher Weg gehört - welche
+  der drei Anschriften den Seed trägt, ist damit weiterhin **nicht** entscheidbar; jede Auswahl einer der drei wäre eine
+  unbelegte Vermutung, und die im Dossier ausdrücklich zurückgewiesene Geokodierung einer der drei Adressen bleibt damit
+  begründet. Nach der Quellenhierarchie (README, Stand 26.10.2026) sind die drei Verzeichniseinträge **Leads**, kein
+  Beleg. **Was zur Auflösung fehlt:** ein Betreiberauftritt, ein Impressum oder ein Registereintrag, der **eine** der
+  drei Anschriften bestätigt und den Firmennamen (Jaquemot oder Jaquemont) klärt. Der bisher gespeicherte
+  Produktionspunkt 50.5141333333333/6.83926666666667 (laut read-only-Abgleich vom 29.10.2026 auf „Beobachtungsplatz
+  Hirschbrunft, Frankenstrasse, Mutscheid, Bad Muenstereifel“ aufgelöst, rund 64 km entfernt) wird durch diese Notiz
+  **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben
+  unverändert; eine Schließung wird **nicht** behauptet. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines
+  OSM-Betriebsbezugs wäre kein Existenz- oder Schließungsbeweis; die drei vorhandenen Adressobjekte belegen umgekehrt
+  **keinen** Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.1300,50.8600,6.1700,50.8900 ;
+  https://api.openstreetmap.org/api/0.6/way/445140310/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/4457640357.json ;
+  https://api.openstreetmap.org/api/0.6/way/315804073/full.json ; https://www.11880.com/suche/schrott/alsdorf ;
+  https://www.gelbeseiten.de/gsbiz/8b0f0318-2737-491b-92ee-08494dcdae5b ;
+  https://www.schrottplatz-info.de/schrottplatz/Alsdorf/Jaquemot-Bastian-Schrott-und-Reycling ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Jaquemont (im
+  Dossier zitiert, Abruf 05.11.2026).]

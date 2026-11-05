@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+enosys Recycling ist ein Entsorgungsfachbetrieb in Grevesmühlen, Am Baarssee 3, 23936, der
+Metalle zu tagesaktuellen Preisen ankauft, Container von 3 bis 30 m³ im Umkreis von 70
+Kilometern stellt und Filterstaub aufbereitet. Das Impressum trägt Anschrift und
+Handelsregister HRB 12601, die Kontaktseite bestätigt Anschrift und Öffnungszeiten, die
+Startseite nennt die Sorten Eisen, Kupfer, Messing, Aluminium, Blei, Zink und Kabel.
+Zahlenpreise werden nicht veröffentlicht, auch keine Mietpreise für Container, ein Verkauf von
+Nutzmaterial ist nicht beschrieben. Offen bleiben die zwischen zwei Angaben divergierende
+E-Mail-Adresse sowie die Seed-Angaben bar/Gutschrift und Tagesbestpreise, die die Website
+nicht deckt. Die Straße Am Baarssee führt in OpenStreetMap kein einziges Adressobjekt, ein
+Betriebsknoten fehlt, die Koordinate ist nicht belegt gesetzt.
 
 ## Timeline
 

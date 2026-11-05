@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Roggelin ist ein Einzelunternehmen in Kühlungsborn, Zur Asbeck 4, 18225, das
+Metallschrott aller Art annimmt und kostenlose Abholung zusagt; die Seite nennt Zäune,
+Treppen, Heizungsanlagen, Fahrräder, Werkzeuge, Maschinen und Autoteile als Beispiele. Die
+Kontaktseite nennt die Telefonnummer 01736001434. Belegt sind damit Name, Anschrift und
+Leistungsversprechen, nicht die Identität des Betriebs: Die Seite ist eine Baukasten-Seite
+ohne Impressum, Registernummer oder Preisverzeichnis, ein Registerbeleg fehlt und eine zweite
+unabhängige Quelle existiert nicht, weshalb der Status der Prüfung gilt. Offen bleiben der
+Telefon- und Ortscheck, der fehlende OSM-Betriebsknoten an der belegten Hausnummer 4 und die
+Preislage, da kein bezifferter Ankaufpreis veröffentlicht ist und das kostenlose
+Abholungsversprechen nur in Prosa vorliegt.
 
 ## Timeline
 

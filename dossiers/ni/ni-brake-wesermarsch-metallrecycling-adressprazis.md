@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wesermarsch Metallrecycling GmbH ist ein Recyclingbetrieb in Brake, Max-Planck-Str. 9, 26919,
+mit Telefonnummer 04401 980060 und der E-Mail-Adresse wmr@wmr-online.de. Impressum, Northdata
+zum HRB 100164 beim Amtsgericht Oldenburg und die BDSV-Mitgliederliste tragen die Identität
+und den Geschäftsführer Bennet Springer; die Privatkunden-Seite belegt Abfallannahme,
+Selbstanlieferung und Containerverleih. Amtlich belegt ist außerdem die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG: Das DEKRA-Zertifikat 291124027 ist bis 13.02.2028
+gültig und umfasst vier Anlagen am Standort, darunter eine Altfahrzeugannahmestelle, für die
+keine Rücknahmebindung für Hersteller besteht. Offen bleibt die Preislage: Ankauf-,
+Verkaufspreise und Gebühren sind nicht veröffentlicht; das Register belegt Anerkennung und
+Standort, nicht eine öffentliche Privatkundenannahme.
 
 ## Timeline
 

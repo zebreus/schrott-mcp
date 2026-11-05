@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lechmann ist die Autoverwertung an der Lagerstraße 3 in 64331 Weiterstadt, deren Rechtsträger
+die Auto-Teile Markt Lechmann OHG mit HRA 5680 AG Darmstadt ist; das Register führt den Sitz in
+Roßdorf mit den Geschäftsführern Ingrid Hermann und Nadine Grimm sowie die Zweigniederlassungen
+Kodersdorf und Großwallstadt. Der Onlineshop autoteilemarkt.de weist als Betreiber die Lechmann
+OHG in der Einsteinstraße 3 in Großwallstadt aus. Die Weiterstädter Betriebsstätte ist im
+Registerauszug nicht als eigene Zweigniederlassung geführt, die Betreiberseite bestätigt sie
+nicht mehr, und die frühere Domain autoverwertung-lechmann.de ist eine Baustelle. Die Adresse
+tragen mehrere Verzeichnisse übereinstimmend sowie ein OSM-Objekt zur Hausnummer 3, das als
+Lagerhalle ohne Betriebsnamen erfasst ist. Ankaufpreise für die Betriebsstätte sind nicht
+veröffentlicht, ein Shop-Mindestpreis für gebrauchte Reifen ist publiziert.
 
 ## Timeline
 

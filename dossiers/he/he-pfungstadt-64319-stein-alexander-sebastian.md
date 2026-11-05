@@ -108,3 +108,37 @@ Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ i
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.57,49.78,8.64,49.83 ;
   https://darmstadt-post.de/unternehmen/pfungstadt/schrotthandel/alexander-sebastian-stein-schrotthandel-493/ ;
   https://pfungstadt.stadtbranchenbuch.com/ (Abruf 05.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **3** auf dem "Tulpenweg" in 64319 Pfungstadt-Eschollbrücken existiert in OSM **nicht**; die
+  Nachprüfung mit eng am Fundort liegendem Fenster bestätigt den Negativbefund der Vorwellen-Notiz vom 05.11.2026.
+  Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das live abgerufene
+  Kachelraster **8.5900/49.8000 bis 8.6200/49.8200** umfasst **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**,
+  35012 Elemente, 3078 Adressobjekte auf 114 Straßen; die Straßenliste enthält **keine** Straße "Tulpenweg", und eine
+  Suche nach "Tulpen|Tulpenweg" über die Felder name, operator, brand, description, website, contact:website, shop,
+  craft und addr:housename findet im Raster **0 Treffer**. Das **Kontrollfenster 8.6000/49.8000 bis 8.6400/49.8400**
+  (**16 Kacheln**, **0 Kachel-Fehler**, 41973 Elemente, 3090 Adressobjekte auf 118 Straßen) bestätigt das für den
+  gesamten Pfungstädter Ortsbereich einschließlich Eschollbrücken: auch dort **0** Treffer auf "Tulpen|Tulpenweg". Das
+  Fenster liegt am Fundort: der Ortsteil
+  **Eschollbrücken** (way/150959725, `name`=Eschollbrücker Straße, BBox 8.5898058/49.8012697 bis
+  8.5931821/49.8025529) liegt darin ebenso wie der bisher gespeicherte Punkt (Rügnerstraße 67c = way/332647042 bei
+  8.6027920/49.8053659, Objekt-BBox 8.6027920/49.8053659 bis 8.6031167/49.8055362) - der gespeicherte Punkt löst auf
+  eine **andere** Straße als die Verzeichnisangabe "Tulpenweg 3" auf. Quelle 2 (Betreiber/Register): **fehlt** - für
+  "Stein Alexander-Sebastian" existiert weder eine Betreiberseite noch ein Impressum noch ein Register- oder
+  Northdata-Treffer; der Dossier-Beleg ist ausschließlich ein **Verzeichnislead** (Darmstadt Post: "Alexander-Sebastian
+  Stein Schrotthandel, Tulpenweg 3, 64319 Pfungstadt, Tel. 06157 9110132"; dazu die älteren 11880- und
+  Stadtbranchenbuch-Einträge), der nach dem Quellenstandard kein Beleg ist; die dort gezeigte Bewertung ist kein
+  Nachweis laufender Annahme, und das Dossier führt street/postcode/phone deshalb ausdrücklich **nicht** als
+  Frontmatter-Werte. **Warum keine Koordinate:** ohne adressgenaues OSM-Objekt kann kein Punkt gebildet werden, und
+  die Adresse selbst ist nur lead-belegt; der `clear_fields: 'geo'`-Eintrag bleibt bestehen, der gespeicherte
+  Altpunkt 49.8056/8.6031 (Rügnerstraße 67c) wird damit ohnehin zurückgenommen; `status` bleibt `pruefung`, und die
+  offene Frage der kommunalen Gewerberegister-Auskunft der Stadt Pfungstadt bleibt offen. **Reichweitenklausel:**
+  das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für das Fehlen des Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.59,49.8,8.62,49.82 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6,49.8,8.64,49.84 ;
+  https://api.openstreetmap.org/api/0.6/way/150959725/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/332647042/full.json ;
+  https://darmstadt-post.de/unternehmen/pfungstadt/schrotthandel/alexander-sebastian-stein-schrotthandel-493/ ;
+  https://pfungstadt.stadtbranchenbuch.com/ (Abruf 05.11.2026)]

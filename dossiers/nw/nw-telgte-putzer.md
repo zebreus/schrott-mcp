@@ -86,3 +86,40 @@ Produktionspunkt (Wohnhaus in der Gutenbergweg) wird zurückgenommen. `status` b
   Schließung behauptet. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7700,51.9700,7.8000,52.0000 ;
   https://www.online-handelsregister.de/suche/Putzer+Telgte ;
   https://www.dasoertliche.de/Themen/Putzer/Telgte.html (Abruf 04.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom 04.11.2026 am OSM-Bild und stützt den
+  Registerbefund live.** Für den Seed **„Putzer“** in Telgte gibt es **keine Betriebsidentität**, der eine Koordinate
+  zugeordnet werden könnte. **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** das Kachelraster **7.7800/51.9700
+  bis 7.8000/52.0000**, **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7800,51.9700,7.8000,52.0000) umfasst den im Dossier
+  zurückgenommenen Alt-Punkt (51.98/7.7829) und enthält die Straße **„Gutenbergweg“** nachweislich und vollständig mit
+  **zwei** Straßenobjekten (way/26949860, way/1198451556; Verlauf 51.9799076/7.7823167 bis 51.9807916/7.7830019); sie
+  trägt im Fenster **8** Adressobjekte (8 Ways) mit den Hausnummern **1, 2, 3, 4, 5, 6, 7 und 8** (alle
+  `addr:city`=Telgte, `addr:postcode`=48291) - der Adresspunkt **„2, Gutenbergweg“** ist **way/778370102**
+  (`building`=apartments; Mittel der **6** eindeutigen Knoten **51.9799741/7.7827088**, BBox 51.9799018/7.7826062 bis
+  51.9800573/7.7828945) und damit ein **Wohnobjekt ohne jeden Bezug zu einem Schrottbetrieb**. Eine Namenssuche nach
+  **„Putzer“** über die Felder name, operator, brand, description, website, contact:website, contact:phone, note und
+  addr:housename findet im Kachelausschnitt **keinen** Treffer - es gibt dort **kein** Schrott- oder Recycling-Objekt
+  und **keinen** Betriebsbezug zu „Putzer“; Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2
+  (Register, live am 05.11.2026 nachgelesen, HTTP 200):** die **amtsliche Namenssuche**
+  https://www.online-handelsregister.de/suche/Putzer+Telgte liefert **HTTP 200** und ausdrücklich **„Ihr Suchergebnis
+  für 'Putzer Telgte' - Unternehmen: Keine Suchergebnisse! Personen: Keine Suchergebnisse!“** - der im Dossier vom
+  04.11.2026 dokumentierte Negativbefund besteht am 05.11.2026 unverändert; die **Das-Örtliche-Suche** (im Dossier
+  zitiert) führt unter „Putzer in Telgte“ ausschließlich **Privatpersonen** und ein **Putzunternehmen** mit gleichem
+  Nachnamen, aber **keinen** Schrott-, Metall- oder Recycling-Eintrag. **Warum keine Koordinate:** Der Seedname ist
+  **keine Firmenbezeichnung**; ein Punkt müsste eine **Wohnadresse** als Betriebsstandort ausgeben, und die Wahl einer
+  der „Putzer“-Privatadressen wäre eine **Ratenentscheidung ohne jeden Beleg**; der zurückgenommene Alt-Punkt am
+  Gutenbergweg wird nicht durch einen geratenen Punkt ersetzt. **Was zur Auflösung fehlt:** der ursprüngliche GS-Eintrag
+  mit vollständigem Vornamen bzw. Firmennamen oder ein lesbarer Betreiberauftritt (Impressum mit Rechtsträger) für einen
+  Schrottbetrieb in Telgte; eine Gewerbeauskunft der Stadt Telgte wäre der nächste Schritt. **Reichweitenklausel:** Das
+  **Fehlen eines OSM-Betriebsobjekts** und das **Fehlen eines Registertreffers** sind **keine** Nachweise für das Fehlen
+  des Betriebs - sie belegen nur, dass der Seed am 05.11.2026 nicht zugeordnet werden konnte; das im Dossier
+  festgehaltene Fehlen einer **Ortsseite im amtlichen Fachbetrieberegister** für Telgte bedeutet, dass eine
+  Efb-Anerkennung dort **weder bestätigt noch ausgeschlossen** werden kann. `clear_fields: 'geo'` **bleibt** bestehen,
+  `status: pruefung` bleibt unverändert; es wird weder Fortbestand noch Schließung behauptet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7800,51.9700,7.8000,52.0000 ;
+  https://api.openstreetmap.org/api/0.6/way/778370102/full.json ;
+  https://www.online-handelsregister.de/suche/Putzer+Telgte ; https://www.dasoertliche.de/Themen/Putzer/Telgte.html (im
+  Dossier zitiert, Abruf 05.11.2026).]

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dammann Schrott ist ein Karosserie- und Autoverwertungsbetrieb in Bremervörde, Lloydstr. 13,
+27432, mit Telefonnummer 04761 1289. Betreiber-Impressum und die Registeraufbereitung
+Northdata zum HRB 207971 beim Amtsgericht Tostedt belegen Anschrift und Gesellschaft als zwei
+Quellen; E-Mail und Öffnungszeiten bleiben als Einzelbeleg leer. Die Betreiberseite führt
+Karosserie- und PKW-Verwertung und verweist für den Fahrzeugbestand auf eine eBay-Liste mit
+verkauften Gebrauchtteilen. Offen bleibt der Schrott- und Metallankauf, den die Website nicht
+nennt, obwohl der Seed-Name auf Schrott lautet, ebenso die Identität zwischen OSM-Namen und
+Firmierung. Die Hausnummer 13 ist in OpenStreetMap als Schrottplatz mit Betriebsnamen erfasst,
+die Koordinate wurde darauf gesetzt. Zahlenpreise, Gebühren sowie eine Anerkennung nach § 56
+KrWG oder der Altfahrzeug-Verordnung sind nicht belegt.
 
 ## Timeline
 

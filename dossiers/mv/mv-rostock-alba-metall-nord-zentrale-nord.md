@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH unterhält in Rostock, Werkstr. 1, 18069, die Zentrale Nord mit
+Schredderanlage, Großschrottschere, Mobilbagger, Spänelager und Hafen- und Bahnanschluss; die
+Standortseite beschreibt den Standort als Betriebsstätte in Rostock-Schmarl, früher MAB
+Rostock. Anschrift, Telefonnummer +49 381 809060, E-Mail und Öffnungszeiten mit Annahmeschluss
+trägt die Detailseite der Betreibergruppe, das Impressum die Rechtsform. Belegt sind Standort
+und Anlagen, nicht Zahlenpreise: Die Sortenliste nennt 17 Gruppen ohne Betrag, eine
+Archivprüfung fand keine Preisliste, und die genannten Tageshöchstpreise für Nichteisenmetalle
+tragen keinen Wert. Offen bleibt eine Pressemeldung zur Schließung des Schrottumschlags
+Marienehe und Fischereihafen, die gegen den Betreiberstand nicht verifiziert ist, sowie ein
+fehlender Standortnachweis in OpenStreetMap.
 
 ## Timeline
 

@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottplatz Rötgesbüttel, Hauptstraße 4, 38531 Rötgesbüttel: Schrottplatz mit täglichem
+Ankauf von Schrott und Buntmetallen für Privat und Gewerbe zu Tagespreisen, bar bezahlt.
+Die Betreiberseite schrottplatz-roetgesbuettel.de führt eine Altmetallpreisliste mit
+Kupfer, Kabel und Metallen, darunter Kupfer Millberry 11,30 Euro/kg (Tagespreis) und
+Mischschrott 150 €/t, mit dem Vorbehalt für kleine Mengen von 2 oder 3 kg. Verkaufspreise
+und Containergebühren nennt die Seite nicht. In OSM trägt die Adresse ein als scrap_yard
+getaggtes Objekt mit dem Namen Stern Trade - Lager, dessen Website nicht erreichbar ist;
+ein zweites Objekt an derselben Hausnummer trägt Reiner Kaufmann Transport GmbH. Offen
+bleiben die ungeklärte Firmierung, der bei mehreren Abrufen wechselnde Preis für Kabel
+75% und die Frage, ob die geführten Zeiten die Sammelannahme oder das Lager beschreiben.
 
 ## Timeline
 

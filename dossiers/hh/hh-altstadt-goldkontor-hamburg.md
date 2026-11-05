@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldkontor Hamburg GmbH im Kontorhaus Bergstraße, Bergstraße 16 in 20095 Hamburg, ist ein
+Edelmetallhändler für Altgold, Zahngold, Silber und Platin mit Geschäftsführer Axel Potthast
+und HRB 119938 am Amtsgericht Hamburg. Die Identität tragen das Impressum des Betreibers auf
+feingoldhandel.de sowie drei Registerquellen, die Registernummer und Anschrift übereinstimmend
+wiedergeben. Die im Seed genannte Adresse Alstertor 1 hat sich als falsch erwiesen und wurde
+durch Bergstraße 16 ersetzt, auch der Verweis auf die Domain goldkontor.de ist überholt, da
+diese inzwischen ohne Branchenbezug weiterläuft und der Shop unter feingoldhandel.de geführt
+wird. Der Shop weist Tagespreise aus, einzelne Kurse sind im Dossier jedoch nicht belegt.
 
 ## Timeline
 

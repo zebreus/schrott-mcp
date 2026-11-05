@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Stena Recycling GmbH, Hermannstrasse 22 in 20095 Hamburg-Altstadt, ist die deutsche
+Gesellschaft der internationalen Stena Recycling Gruppe und bietet Wertstoffrecycling,
+Branchenlösungen und Recycling-Services an. Die Adresse tragen der Filialfinder der
+Betreiberseite mit Rufnummer und E-Mail-Adresse sowie das OSM-Adressobjekt zur Hausnummer 22,
+das den Betrieb nicht benennt. Offen bleibt die Leistungsangabe, weil die Website keine
+Sortenliste und keine Preise nennt und auch die Seed-Zuordnung von Fein- und Nichtneimetallen
+sowie Logistik nicht konkret belegt ist; für den Standort sind keine Öffnungszeiten angegeben.
+Die im Impressum genannten Entsorgungsfachbetrieb-Zertifikate gelten für den Standort DE-06188
+Landsberg und dürfen nicht auf die Hermannstraße bezogen werden. Eine Preisliste und jede
+Gebühr fehlen.
 
 ## Timeline
 

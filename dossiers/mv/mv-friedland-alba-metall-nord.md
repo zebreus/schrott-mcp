@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH unterhält in Friedland, An der Kleinbahn 13a, 17098, eine Niederlassung
+für Stahl- und Metallrecycling mit Annahme von Schrott und Lieferung von Endprodukten.
+Anschrift, Telefonnummer, E-Mail und Öffnungszeiten trägt die Standortdetailseite der
+Betreibergruppe, die Rechtsform das Impressum; die Standortliste führt den Betrieb als aktiv.
+Belegte Leistungen sind Großschrottschere, Spänelager, Radioaktivitäts-Messanlage,
+zertifizierte Altauto-Verwertung, Nutzeisenverkauf und Containerdienst. Offen bleibt die
+Preislage: Die Standortseite nennt keinen Eurobetrag, die Ankaufsseite nur 17 Sortengruppen,
+eine Archivprüfung fand historisch keine Preisliste, und für den Standort sind weder Gebühren
+noch Verkaufserlöse veröffentlicht. Offen bleiben zudem die fehlende Standortkoordinate und
+eine IP-Sperre der Betreiberdomain.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Vedder & Stockrahm GmbH & Co. KG, Senator-Bömers-Straße 10, 28197 Bremen:
+Altmetallrecycling, Containerdienst und Rohstoffhandel mit Entsorgungsfachbetrieb
+und Abholung ab etwa 1,5 t. Das Impressum der Betreiberseite vedder-stockrahm.de
+nennt die Gesellschaft mit HRA 15234 AG Bremen sowie die Geschäftsführer Jens
+und Nils Kruse und die Kruse Beteiligungsgesellschaft mbH HRB 27526 HB. Die
+Kontaktseite belegt denselben Besuchsstandort, ein unabhängiger Registerspiegel
+bestätigt Firma, HRA und Bremer Adresse. Das Dossier war ursprünglich dem Land
+Niedersachsen und damit Delmenhorst zugeordnet; der Footer-Link auf eine Delmenhorster
+Kontaktseite liefert 404, ein dortiger Hof ist daraus nicht belegbar. Offen bleiben
+der Verzeichnislead zu Delmenhorst und die noch nicht geokodierte Anschrift.
 
 ## Timeline
 

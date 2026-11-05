@@ -58,3 +58,46 @@ Betreiber-Impressum des aktiven Webauftritts nennt Dehner Schrott-Metall-Contain
 ### Recherche 04.11.2026
 
 - [Recherche 04.11.2026: **Amtliches Fachbetriebsregister geprüfkt — kein dem Dossierstandort zugeordneter Nachweis (Negativaussage mit Reichweite).** „Entsorgungsfachbetriebe“ des amtlichen Fachbetriebsregisters, live abgefragt am 04.11.2026, durchgängig mit dem Filter „Art des Betriebs = Egal“ (is=1&e=1), Suchradius der Namenssuche dst=10. **Namenssuche (Namensvarianten, Inhaber-Namensvetter und Rechtsform-Pool):** „Dehner“ → 3 Treffer; „Silvano Haas“ → 0 Treffer; „Schrotthandel Frankfurt“ → 0 Treffer; „Dehner Schrott“ → 0 Treffer; „Schrotthandel Frankfurt e.K.“ → 0 Treffer; „Schrotthandel Frankfurt“ → 0 Treffer. **Standortsuche** mit validiertem adr-Parameter (PLZ-Abgleich: 60314 Frankfurt am Main) und Radius 3 km → 82 Treffer; Radius 10 km um dieselbe Adresse → 148 Treffer. Alle Trefferzeilen dieser Abfragen wurden über die Grid-Paginierung vollständig gelesen. **Gegenprobe Route „Altfahrzeugverwertung“** mit dem Namensbegriff „Dehner“ → 0 Treffer. Abgrenzung der Namensvetter: Die Suche „Dehner“ (3 Treffer) trifft ausschließlich Dehner Recycling GmbH, Derchinger Straße 133, 86165 Augsburg (ZZHT00400331 / 1-3) — andere Firma, anderer Ort; keinen Treffer in PLZ 60314, 60433 oder 63571 und keinen Treffer auf den Dossiernamen. „Silvano Haas“ und „Schrotthandel Frankfurt“ (je 0 Treffer) sowie die Rechtsform-Varianten „Dehner Schrott“ und „Schrotthandel Frankfurt e.K.“ (je 0 Treffer) liefern ebenfalls nichts. Die Ortssuche um Peter-Behrens-Straße (PLZ 60314; die Dossier-Adresse trägt keine Hausnummer) ergibt in 3 km 82, in 10 km 148 Anlagenzeilen; an der nächstgelegenen Nummer liegt RMB Rhein-Main Biokompost GmbH, Peter-Behrens-Straße 8 (0,0 km, ZZEE00200254 / 1-2) — ein anderer Rechtsträger, keine Übernahme. Adressdifferenz: Für 60314 weist das Register keinen Eintrag „Dehner Schrott & Metallhandel Containerdienst e.K.“ und keinen Eintrag unter der Marke schrotthandel-frankfurt.de aus; der Dossier-Stammsitz Im Steinigen Graben 26a, 63571 Gelnhausen wurde nicht mit abgefragt, weil er außerhalb der Dossier-Adresse liegt. **Ergebnis:** Für Dehner Schrott & Metallhandel Containerdienst e.K., Peter-Behrens-Str. (ohne Hausnummer), 60314 Frankfurt am Main weist das amtliche Fachbetriebsregister zum Abrufdatum 04.11.2026 keinen Eintrag aus, der dem Dossierstandort zugeordnet ist; Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation, Ausstellungsdatum, Gültigkeitsdatum, Anlagenanzahl und zertifizierte Tätigkeit sind daher **nicht ausgewiesen**. Das Feld `certifications` bleibt deshalb leer; der Dossierstatus bleibt unberührt. Das Fehlen einer Eintragung ist **kein** Beleg für die Nichtexistenz des Betriebs, da die Efb-Anerkennung nach § 56 KrWG freiwillig ist und reine Metallhändler ohne gefährliche Abfälle keine Efb-Anzeige benötigen. Quelle(n): Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dehner; Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Silvano%20Haas; Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrotthandel%20Frankfurt; Entsorgungsfachbetriebe/adr=Peter-Behrens-Stra%C3%9Fe%2C%2060314%20Frankfurt%20am%20Main%2C%20Deutschland;8.737625;50.115235;8.773625;50.151235;8.701625;50.079235&dst=3&is=1&e=1; Entsorgungsfachbetriebe/adr=Peter-Behrens-Stra%C3%9Fe%2C%2060314%20Frankfurt%20am%20Main%2C%20Deutschland;8.737625;50.115235;8.857625;50.235235;8.617625;49.995235&dst=10&is=1&e=1; Altfahrzeugverwertung/dst=10&is=1&e=1&n=Dehner (Abruf 04.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Nachprüfung korrigiert die Aussage der Vorwellen-Notiz vom 03.11.2026: die Frankfurter Niederlassungsstraße
+  **"Peter-Behrens-Straße" existiert in OSM** - der alte Befund "die Straße existiert in OSM nicht" war ein
+  **Fensterfehler**. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das live
+  abgerufene Kachelraster **8.7300/50.1100 bis 8.7500/50.1300** umfasst **4 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**, 25629 Elemente, 888 Adressobjekte auf 54 Straßen; die Straße "Peter-Behrens-Straße" ist dort in
+  **drei** Objects erfasst: way/45014959 (`highway`=service, `name`=Peter-Behrens-Straße), way/914375466
+  (`highway`=unclassified, `name`=Peter-Behrens-Straße) und **way/48068960** mit `addr:housenumber`=**8**,
+  `addr:street`=Peter-Behrens-Straße, `addr:city`=Frankfurt am Main, `addr:postcode`=**60314**, `building`=yes
+  (Objekt-BBox 8.7357309/50.1146701 bis 8.7366681/50.1152636) - die Straße trägt damit **genau eine** Adressnummer,
+  die **8**. Die Dossier-Adresse nennt jedoch **keine Hausnummer** ("Niederlassung Frankfurt: Peter-Behrens-Straße,
+  60314 Frankfurt am Main"), und die einzige in OSM vergebene Nummer ist laut der Register-Notiz vom 04.11.2026 einem
+  **anderen** Rechtsträger zugeordnet ("RMB Rhein-Main Biokompost GmbH, Peter-Behrens-Straße 8" - keine Übernahme);
+  ein adressgenauer Punkt lässt sich daraus nicht ableiten. Der einzige vollständige Betreiber-Wert, der Stammsitz
+  **Im Steinigen Graben 26a, 63571 Gelnhausen**, liegt in OSM als way/245467610 (live geladen am 05.11.2026, HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/245467610/full.json) mit `addr:housenumber`=26a,
+  `addr:street`=Im Steinigen Graben, `addr:city`=Gelnhausen, `addr:postcode`=63571, `addr:suburb`=Hailer,
+  `building`=commercial; **16** eindeutige Knoten, Objekt-BBox 9.1840507/50.1859227 bis 9.1843761/50.1861277, der
+  Mittelwert (50.1859794/9.1841598) läge innerhalb - er liegt jedoch in einer **anderen Stadt als die
+  Dossierzeile** (`city`: Frankfurt) und ist zudem ein Registersitz, nicht als Annahmestelle belegt; er wird deshalb
+  **nicht** in den Frankfurter Datensatz übernommen. Quelle 2 (Betreiber/Register): **vorhanden, aber ohne
+  Hausnummer** - das am 05.11.2026 erneut live gelesene Impressum https://www.schrotthandel-frankfurt.de/impressum
+  nennt "Dehner Schrott - Metall - Containerdienst e. K., Im Steinigen Graben 26a, 63571 Gelnhausen, Niederlassung
+  Frankfurt: Peter-Behrens-Straße, 60314 Frankfurt am Main, Firmeninhaber: Silvano Haas e.K., Registernummer HRA
+  93391, Registergericht Amtsgericht Hanau"; die amtliche Fachbetriebsregister-Abfrage vom 04.11.2026 weist für 60314
+  keinen Eintrag "Dehner Schrott & Metallhandel Containerdienst e.K." aus (die Namenssuche "Dehner" trifft
+  ausschließlich Dehner Recycling GmbH, Derchinger Straße 133, 86165 Augsburg), die abweichenden Verzeichnisdaten zu
+  Hugo Dehner, Bonameser Str. 156, 60433 Frankfurt, bleiben ausdrücklich ungeklärt und dürfen nicht zusammengeführt
+  werden. **Warum keine Koordinate:** es fehlt entweder die Dossier-Hausnummer selbst oder - bei Zugriff auf den
+  Stammsitz - die Verknüpfung mit dem als Frankfurt geführten Dossier; es wird keine Koordinate erfunden und keine
+  fremde Stadt in den Frankfurter Datensatz gehört. `clear_fields: 'geo'` bleibt bestehen, der gespeicherte
+  Produktionspunkt 50.1194049/8.6539732 (Senckenberganlage 30, Frankfurt-Westend) passt zu keiner der geprüften
+  Anschriften und wird dadurch zurückgenommen; `status` bleibt `pruefung`. **Reichweitenklausel:** das Fehlen einer
+  Hausnummer oder eines Registereintrags ist **kein** Nachweis für das Fehlen des Betriebs oder seiner
+  Annahmestelle. Quelle(n): https://api.openstreetmap.org/api/0.6/way/48068960/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/45014959/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/914375466/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/245467610/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.73,50.11,8.75,50.13 ;
+  https://www.schrotthandel-frankfurt.de/impressum (Abruf 05.11.2026)]

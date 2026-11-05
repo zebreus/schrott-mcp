@@ -98,3 +98,56 @@ Der Hamm-Eintrag bleibt ein nicht aufgelöster Identitäts- und Aktivitätsklär
   https://www.11880.com/branchenbuch/hamm-westfalen/060441364B53341868/altmetallentsorgung-heimbuch.html ;
   https://www.11880.com/branchenbuch/hamm-westfalen/060440090B102609686/david-heimbuch-altmetallentsorgung.html ;
   https://schrottregister.pages.dev/ort-hamm (Abruf 04.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom 04.11.2026 und hält den
+  Adresskonflikt zwischen zwei belegten Adressobjekten offen.** Für **Heimbuch** (Hamm) ist der Seed **nicht eindeutig
+  einer Anschrift zuzuordnen**: das Dossier führt zwei widersprüchliche Verzeichnisanschriften desselben Namens, und für
+  keine davon ist ein Betriebs- oder Registerbeleg verfügbar. **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):**
+  das Kachelraster **7.7400/51.6800 bis 7.7600/51.7000**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7400,51.6800,7.7600,51.7000) **umschließt die Objekt-BBox
+  vollständig** (die BBox beider Objekte liegt vollständig in den Kacheln 7.74/51.69 bzw. 7.75/51.69) und erfasst
+  **beide** Dossier-Anschriften: (a) **Blücherstraße** in **59075 Hamm** mit **52** Adressobjekten (52 Ways) und **51**
+  verschiedenen Hausnummern (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26,
+  27, 28, 29, 30, 31, 32, 33, 34, 34a, 35, 36, 37, 38, 39, 40, 40a, 41, 42, **43**, 43a, 44, 45, 47, 49, 51) und
+  **zwei** Straßenobjekten (way/25143766, way/524996889; Verlauf 51.6900624/7.7447705 bis 51.6931631/7.7550967) - die
+  **Hausnummer 43 existiert** als **way/129547033** (`addr:housenumber`=43, `addr:street`=Blücherstraße,
+  `addr:city`=Hamm, `addr:country`=DE, `addr:postcode`=59075, `building`=apartments, `building:levels`=2; 5
+  Knotenreferenzen, davon **4** eindeutig; Mittel der eindeutigen Knoten **51.6903007/7.7478087**, BBox
+  51.6902241/7.7477173 bis 51.6903773/7.7479001) - ein gewöhnliches **Wohngebäude ohne** `name=` und **ohne**
+  `operator=`; (b) **Hammer Straße** in **59075 Hamm** mit **125** Adressobjekten (110 Ways, 15 Nodes) und **115**
+  verschiedenen Hausnummern (47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 59, 59a, 60, 61, 61a, 62, 63, 63a, 64, 65, 65a, 66,
+  67, 67a, 68, 68a, 68b, 69, 69a, 70, 71, 71a, 72, 72a, 72b, 72c, 72d, 72e, 72f, 72g, 72h, 72j, 73, 73a, 74, 74a, 75,
+  75a, 76, 77, 77a, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 87a, 88, 89, 90a, 91, 92, 93, 94, 95, 95a, 96, 97, 98, 99,
+  100, 101, 102, 103, 103c, 104, 105, 106, 106a, 107, 107a, 108, 109, 110, 111, 111a, **112**, 113, 114, 115, 116, 117,
+  118, 118a, 119, 120, 121, 122, 124, 126, 128-130, 132, 133, 134, 135, 136, 138, 138a, 140, 140a) und **29**
+  Straßenobjekten (Verlauf 51.6913263/7.7395270 bis 51.6943359/7.7602949) - die **Hausnummer 112 existiert** als
+  **way/240480599** (`addr:housenumber`=112, `addr:street`=Hammer Straße, `addr:city`=Hamm, `addr:country`=DE,
+  `addr:postcode`=59075, `building`=house; 14 Knotenreferenzen, davon **13** eindeutig; Mittel der eindeutigen Knoten
+  **51.6938938/7.7512556**, BBox 51.6938551/7.7511405 bis 51.6939566/7.7513316) - ebenfalls **ohne** Betriebsbezug. Eine
+  Namenssuche nach **„Heimbuch“** über die Felder name, operator, brand, description, website, contact:website,
+  contact:phone, note und addr:housename findet im Kachelausschnitt **keinen** Treffer. **Quelle 2
+  (Verzeichnis/Register, im Dossier bereits zitiert):** die beiden 11880-Profile wurden am 04.11.2026 live gelesen -
+  „**Altmetallentsorgung Heimbuch**“, **Blücherstr. 43, 59075 Hamm (Bockum-Hövel)**, **(0176) 64496526** sowie „**David
+  Heimbuch Altmetallentsorgung**“, **Hammer Str. 112, 59075 Hamm (Bockum-Hövel)**, **(02381) 9287674**
+  (Altmaterialhandel, Schrotthandel); beide Profile sind Aggregator-Leads derselben Quellenklasse, die Facebook-Seite
+  „Altmetallentsorgung & Demontage Heimbuch“ liefert beim Direktabruf am 05.11.2026 weiterhin **nur die
+  Login-/Browserbarriere** und **keinen** lesbaren Betreiberbeleg, und das amtliche Fachbetrieberegister (Auszug
+  11.08.2026) deckt für Hamm nur die PLZ 59063, 59065, 59067 und 59071 ab, **nicht** 59075 - der Negativbefund trägt
+  deshalb **nichts** zur Klärung bei. **Warum keine Koordinate:** Die Seedzeile ist zwischen den beiden Anschriften
+  **nicht zuordenbar**; die beiden Adressobjekte liegen nach den live geladenen Mittelwertspunkten rund **470 m**
+  auseinander (51.6903007/7.7478087 gegenüber 51.6938938/7.7512556), und beide sind gewöhnliche Wohngebäude **ohne**
+  jeden Hinweis auf eine Schrott- oder Metallannahme; ein mobiler Sammeldienst braucht ohnehin keinen öffentlichen
+  Annahmehof. Jeder Punkt würde eine Betriebs- oder Hofzuordnung suggerieren, die keine Quelle trägt. **Was fehlt:** ein
+  lesbarer Betreiberauftritt (Impressum) oder ein Registerbeleg, der **eine** der beiden Anschriften dem Seed zuordnet
+  und eine öffentliche Annahme belegt. `clear_fields: 'geo'` **bleibt** bestehen, `status: pruefung` bleibt unverändert;
+  es wird weder Fortbestand noch Schließung behauptet. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder
+  eines Registertreffers ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7400,51.6800,7.7600,51.7000 ;
+  https://api.openstreetmap.org/api/0.6/way/129547033/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/240480599/full.json ;
+  https://www.facebook.com/100054623492301/albums/623756169455161 ;
+  https://www.11880.com/branchenbuch/hamm-westfalen/060441364B53341868/altmetallentsorgung-heimbuch.html ;
+  https://www.11880.com/branchenbuch/hamm-westfalen/060440090B102609686/david-heimbuch-altmetallentsorgung.html ;
+  https://schrottregister.pages.dev/ort-hamm (im Dossier zitiert, Abruf 05.11.2026).]

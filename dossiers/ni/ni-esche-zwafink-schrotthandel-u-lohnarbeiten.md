@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zwafink Schrotthandel u. Lohnarbeiten, Zur Eiche 3, 49828 Esche: von Carsten Zwafink
+geführter Schrotthandel mit An- und Verkauf von Stahl- und NE-Schrott in der Grafschaft
+Bentheim und im niederländischen Grenzgebiet, daneben Lohnarbeiten mit Bagger, Radlader
+und Winterdienst. Die Betreiberseite nennt Inhaber, Anschrift, Telefon, Funk, E-Mail
+und USt-IdNr DE-813654240 und weist die Schrottannahme zu aktuellen Tagespreisen aus.
+In OSM existiert das Adressobjekt zur Hausnummer 3, es trägt jedoch keinen Namen und
+keinen Betreiberbezug. Die Beleglage ist ein reiner Einzelbeleg aus der Betreiberseite;
+da der Inhaber kein HRB führt, greift die Owner-Ausnahme nicht und die Kontaktfelder
+bleiben leer. Offen bleiben die nicht veröffentlichten Zahlenpreise, die Frage, ob die
+Containerstellung gegen Miete erfolgt, und eine möglicherweise zweite gewerbliche Anschrift.
 
 ## Timeline
 

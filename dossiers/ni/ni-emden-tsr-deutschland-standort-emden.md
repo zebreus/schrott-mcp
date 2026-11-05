@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG, Annahmestelle Schiffbauerdamm 4, 26725 Emden: Annahmestelle
+und Rohstoffstandort der TSR-Gruppe für Fe- und NE-Metalle sowie gewerbliche Abfälle wie
+Bauschutt, Altholz, Papier, Grünschnitt, Gewerbe- und Sonderabfall. Die Standortseite
+der Betreiberseite nennt Anschrift, Telefon und Öffnungszeiten, war am 31.10.2026 aber
+nur als Bot-Challenge erreichbar und erst am 01.11.2026 mit Browser-Headern im Vollinhalt
+abrufbar. Als Ankaufpreis ist dort mittwochs ein Zuschlag von 10 € je Tonne Fe-Schrott und
+100 € je Tonne NE-Metall für Privatkunden ausgewiesen, unverändert in Wayback-Snapshots
+seit Mai 2024. In OSM trägt die Betriebsstätte ein Objekt mit dem Namen TSR Recycling
+GmbH & Co. KG, jedoch ohne Adress-Tags. Offen bleiben der fehlende Adressnachweis für die
+Hausnummer 4 in OSM, der nicht gesetzte Koordinatenpunkt und der unbelegte Basis-Tagespreis.
 
 ## Timeline
 

@@ -77,3 +77,49 @@ provenance_origin: table
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
   https://www.11880.com/branchenbuch/hagen-westfalen/120674719B29367375/schrotthandel-guendell.html ;
   https://www.werkenntdenbesten.de/schrotthandel/hagen (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung korrigiert den Fenster- und Schreibweisenfehler des
+  Alt-Vermerks - die Straße existiert in OSM unter dem Namen „Obernahmerland“, und die Hausnummer 2 ist vorhanden.**
+  **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** das Kachelraster **7.5600/51.3000 bis 7.6000/51.3300**, **12
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5600,51.3000,7.6000,51.3300) **umschließt die Objekt-BBox
+  vollständig** (die BBox von way/406201905 liegt vollständig in der Kachel 7.58/51.31) und erfasst im Fenster **207**
+  Adressobjekte auf **22** verschiedenen Straßen; die Straße **„Obernahmerland“** in **58119 Hagen-Hohenlimburg** trägt
+  dort **4** Adressobjekte mit den Hausnummern **1, 2, 4 und 6** und **2** Straßenobjekten (way/47200952, way/406201928;
+  Verlauf **51.3115550/7.5797640 bis 51.3156178/7.5804639**) - die **Dossier-Hausnummer 2 existiert** als
+  **way/406201905** (`addr:housenumber`=2, `addr:street`=**Obernahmerland**, `addr:city`=Hagen, `addr:country`=DE,
+  `addr:postcode`=58119, `building`=yes; 5 Knotenreferenzen, davon **4** eindeutig; Mittel der eindeutigen Knoten
+  **51.3122225/7.5801620**, BBox 51.3121560/7.5800765 bis 51.3122889/7.5802475). Das Objekt trägt **weder** `name=`
+  **noch** `operator=`. **Korrektur des Alt-Befunds (Fenster- und Schreibweisenfehler):** der Vermerk vom 03.11.2026
+  führt die Dossier-Straße als „Obernahmerstr.“ und erklärt sie im 112-Kachel-Raster **7.4200/51.3400 bis
+  7.5600/51.4200** für **nicht existent**; tatsächlich liegt die Straße rund **3,4 km** südöstlich außerhalb dieses
+  Rasters (das Objekt bei 51.3122/7.5802 gegenüber der Raster-Südostkante bei 51.34/7.56), und sie heißt in OSM
+  **„Obernahmerland“** - die Suche nach dem String „Obernahmerstraße“ konnte sie deshalb weder finden noch ausschließen.
+  Dass es sich um **denselben** Ort handelt, belegt der live geladene Buslinien-Verlauf **relation/5324060** („Bus 538:
+  HA-Vorhalle Bf => HA-Obernahmer“): die Haltestelle **„Obernahmer“** (node/601503037, stop_exit_only,
+  **51.3156178/7.579837**; Haltestellenplattform node/5000494399, **51.3156198/7.579631**) und die Haltestelle
+  **„Obernahmer Land“** (node/11016016411, **51.3179875/7.5783928**) liegen unmittelbar an bzw. auf dieser Straße.
+  **Quelle 2 (Verzeichnis/Register, live am 05.11.2026 nachgelesen bzw. gesucht, HTTP 200):** der 11880-Eintrag
+  **„Schrotthandel Gündell“** nennt live **Obernahmerstr. 2, 58119 Hagen (Hohenlimburg)**, Telefon **(0171) 5443575**,
+  Leistungen Altmaterialhandel/Schrotthandel, ohne Öffnungszeiten, E-Mail oder Website (Eintragsdaten 29.06.2021,
+  Aktualisierung 02.10.2026 - Portalmetadaten, **kein** Nachweis heutiger Tätigkeit); die **amtsliche Namenssuche** im
+  online-handelsregister.de nach „Gündell“ liefert live **kein** Unternehmen und **keine** Person in Hagen - der einzige
+  Treffer **„von Gündell-Krohne und Partner Unternehmensberatung GmbH“** (Mannheim) ist ein **Namensvetter** ohne Bezug
+  zum Schrotthandel. **Warum keine Koordinate:** Die Adresse ist jetzt adressgenau auffindbar, aber es fehlt die zweite,
+  unabhängige Belegquelle: der einzige Adresshinweis ist ein **Verzeichnis-Lead** (nach der Quellenhierarchie, README,
+  Stand 26.10.2026, kein Beleg), der **Betreiber ist ein Einzelunternehmer ohne Registereintrag**, und die
+  Verzeichnis-Schreibweise **„Obernahmerstr.“** weicht von der OSM-Schreibweise **„Obernahmerland“** ab - die
+  Gleichsetzung der beiden ist über den Haltestellennamen **plausibel**, aber nicht belegt; jeder Punkt wäre damit eine
+  unbelegte Vermutung über die Lage des Betriebs. **Was zur Auflösung fehlt:** ein Betreiberauftritt (Impressum,
+  Website, operator-run Social-Profil) oder eine Gewerbeauskunft der Stadt Hagen, die „Schrotthandel Gündell“ an der
+  **Obernahmerland 2** bzw. der als „Obernahmerstraße“ geführten Adresse in Hagen-Hohenlimburg bindet; der Treffer bei
+  „Wer kennt den BESTEN“ ist ebenfalls nur ein Portal-Lead. `clear_fields: 'geo'` **bleibt** bestehen, `status:
+  pruefung` bleibt unverändert, `street`/`postcode`/`phone` bleiben leer; es wird weder Fortbestand noch Schließung
+  behauptet. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs wäre **kein** Existenz-
+  oder Schließungsbeweis. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5600,51.3000,7.6000,51.3300 ;
+  https://api.openstreetmap.org/api/0.6/way/406201905/full.json ;
+  https://api.openstreetmap.org/api/0.6/relation/5324060/full.json ;
+  https://www.11880.com/branchenbuch/hagen-westfalen/120674719B29367375/schrotthandel-guendell.html ;
+  https://www.online-handelsregister.de/suche/G%C3%BCndell (live gelesen am 05.11.2026).]

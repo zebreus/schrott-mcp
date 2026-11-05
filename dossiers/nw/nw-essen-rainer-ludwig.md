@@ -128,3 +128,40 @@ NorthData führt die **Rainer Ludwig GmbH & Co. KG**, AG Essen HRA 4117, mit Liq
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4100,7.0900,51.4600 ;
   https://api.openstreetmap.org/api/0.6/way/46753336/full.json ; https://www.northdata.de/ ;
   https://www.online-handelsregister.de/ (im Dossier zitiert, Abruf 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom 05.11.2026 und prüft die beiden
+  entscheidenden Nachbarobjekte live nach.** Die Dossier-Adresse **Eisenbahnstraße, 45134 Essen** nennt **keine
+  Hausnummer**; ohne Hausnummer ist kein adressgenauer OSM-Punkt zuordenbar, jeder Punkt auf der Straße wäre geraten.
+  **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** das Kachelraster **7.0400/51.4200 bis 7.0600/51.4400**, **4
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4200,7.0600,51.4400) **umschließt die Objekt-BBox
+  vollständig** und enthält die **„Eisenbahnstraße“** in **45134 Essen-Rellinghausen** nachweislich und vollständig mit
+  **vier** Straßenobjekten (way/8513069, way/24395792, way/668524651, way/1467678792; Verlauf 51.4262627/7.0420511 bis
+  51.4277467/7.0453752); sie trägt im Fenster **15** Adressobjekte (13 Ways, 2 Nodes) und weist **15** verschiedene
+  Hausnummern (8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 23, 25). Das einzige Objekt mit Betriebsbezug im Umfeld
+  ist **way/46753336** `name`=**„Grünannahmestelle Süd, Eisenbahnstraße 18“**, `operator`=**EBE**, `amenity`=recycling,
+  `recycling_type`=centre, `recycling:green_waste`=yes, `landuse`=commercial,
+  `website`=https://www.ebe-essen.de/neue-grunannahmestelle-in-rellinghausen (Mittel der **10** eindeutigen Knoten
+  **51.4277250/7.0458740**, BBox 51.4274331/7.0453461 bis 51.4281141/7.0468635) - eine **Grünannahmestelle der Essener
+  Entsorgungsbetriebe**, also **kein** Schrottplatz und **kein** Bezug zur Rainer Ludwig GmbH & Co. KG. Als weiteres
+  Betriebsobjekt trägt **way/92266367** `name`=**„Möbel - Kiste“** (`shop`=furniture,
+  `website`=https://www.möbel-kiste.com) an der Nummer 9 - ebenfalls **kein** Schrottbezug. **Namensvetter ohne
+  Übernahme:** eine Suche nach „Ludwig" über die Felder name, operator, brand, description, website, contact:website,
+  contact:phone, note und addr:housename findet im Fenster nur die beiden Objekte **„Zeche Ludwig“** (node/3614521739,
+  node/3614521740) - die **namenstragenden Flächen der ehemaligen Zeche Ludwig**, **kein** Rechtsträger, keine
+  Hausnummer und kein Bezug zur Rainer Ludwig GmbH & Co. KG; es erfolgt **keine** Übernahme. **Quelle 2
+  (Betreiber/Register, im Dossier bereits zitiert):** der amtliche Handelsregisterauszug belegt die **Rainer Ludwig GmbH
+  & Co. KG, AG Essen HRA 4117** mit Liquidation (31.01.2023) und Löschung (22.10.2024) sowie dem letzten registrierten
+  Sitz „Eisenbahnstraße, 45134 Essen“ **ohne Hausnummer**; die Umweltinspektion 2021 nennt dort die Anlage „Lagerung und
+  Behandlung von Metallen"; der WAZ-Bericht vom 28.04.2023 meldet, eine „Firma Ludwig“ habe den Schrottplatz an der
+  Eisenbahnstraße Ende Juni 2023 verlassen, nennt aber weder die KG noch HRA 4117. **Warum keine Koordinate:** Es fehlt
+  die **Hausnummer** - im Dossier wie im Register; jeder Punkt auf der Straße oder auf einem der 15 Adressobjekte wäre
+  geraten und würde zudem eine **fortführende** Rechtsträgerin behaupten, die das Register ausschließt. **Was zur
+  Auflösung fehlt:** eine belegte Hausnummer des historischen Standorts oder eine belegte Nachfolge. `status: pruefung`,
+  `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert; es wird weder Fortbestand noch Schließung
+  behauptet. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein** Existenz-
+  oder Schließungsbeweis. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4200,7.0600,51.4400 ;
+  https://api.openstreetmap.org/api/0.6/way/46753336/full.json ; https://www.northdata.de/ ;
+  https://www.online-handelsregister.de/ (im Dossier zitiert, Abruf 05.11.2026).]
