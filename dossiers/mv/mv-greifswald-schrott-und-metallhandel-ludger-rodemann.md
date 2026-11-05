@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott- und Metallhandel Ludger Rodemann ist ein B2B-Recyclingbetrieb in Greifswald, Kleine Hafenstraße 15,
+17489, der Zink, Blei, V2A, Eisen, Aluminium, Kabel, E-Schrott und MV-Schrott handelt und Abholung per
+Spedition bis 40 t anbietet; eine Privatanlieferung ist ausgeschlossen, ein eigener Schrottplatz existiert
+nicht. Die Betreiber-Website rodemann-recycling.de ist live belegt und weist die Rodemann Recycling GmbH mit
+dem Geschäftsführer Ludger Rodemann, HRB 23830 Coesfeld, USt-ID DE463674914, einer Greifswalder Festnetznummer
+und der Mobilnummer der Seed-Zeile aus. Das Impressum dieser Seite nennt jedoch die Adresse Zur Hofweide 5,
+46348 Raesfeld in Nordrhein-Westfalen, während die Verzeichnisse Cylex, Infobel und 11880 die Greifswalder
+Anschrift stützen. Offen bleiben diese Adressdivergenz, die ungeklärte alte Domain
+schrottundmetalle-rodemann.de und die Koordinaten; der Status steht weiterhin auf Prüfung.
 
 ## Timeline
 

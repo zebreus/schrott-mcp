@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RecycLog GmbH Gesellschaft für Recycling und Logistik mit Sitz in der Haydnstraße 1, 14656
+Brieselang (HRB 21229 Potsdam), ein industrieller Sekundärrohstoffhandel mit Schwerpunkt
+Altpapier und wiederverwertbare Kunststoffe, Rohstofflogistik und Entsorgung von
+Großanfallstellen; ein utb-cert-Zertifikat vom 14.07.2025, gültig bis 08.01.2027, bestätigt
+den Umgang mit Abfällen an dieser Anschrift. Registergegenprüfung, Impressum und Kurzprofil
+stimmen in Company, Anschrift und Registernummer überein, die Unternehmensseite nennt rund
+800.000 Tonnen Jahresvolumen, ein älteres Kurzprofil 400.000 Tonnen. Offen bleibt die
+zentrale Frage: Der Registergegenstand umfasst ausdrücklich Schrott und Metall, eine
+öffentliche Metallannahme oder ein Privatankauf ist aber nirgends belegt, weshalb der Status
+auf pruefung bleibt; der OSM-Hauspunkt weist nur den Unternehmenssitz aus.
 
 ## Timeline
 

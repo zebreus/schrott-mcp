@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Augustin Städtereinigung ist der Nordhorner Standort der Theo Augustin Städtereinigung GmbH & Co. KG, die laut
+Registerspiegel mit HRA 200280 des Amtsgerichts Osnabrück geführt wird; das zentrale Impressum der
+Betreiberwebsite weist dagegen die Holding aus, die Identität des Standortbetreibers ist damit nicht
+abschließend belegt. Die Standortseite nennt Alfred-Mozer-Straße 59, 48527 Nordhorn, Telefon 05921 990863, die
+Adresse nordhorn@augustin-entsorgung.de sowie Montag bis Freitag von 8 bis 17 Uhr und Samstag von 9 bis 12
+Uhr. Die Leistungsseite beschreibt Ankauf und Erfassung von Schrotten und Metallen, schließt weiße Ware aus
+und führt Containerdienst und Wertstoffhof auf. Die Anschrift ist über eine adressgenaue Nominatim-Abfrage
+belegt, die Koordinaten 52,4181167 und 7,0314845 sind übernommen. Offen bleibt eine belegte Abholregelung für
+Schrott, für die keine Angaben gefunden wurden; der Status bleibt Prüfung.
 
 ## Timeline
 

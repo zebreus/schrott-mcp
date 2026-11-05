@@ -78,3 +78,28 @@ J.E. Schrott & Recycling bleibt Karten-/Verzeichnislead: Exa nennt Diebacher Weg
   https://www.gelbeseiten.de/suche/j-e-schrott/hanau ;
   https://www.bing.com/search?q=J.E.+Schrott+Recycling+Hanau&setlang=de ;
   read-only `public.db` (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** "J.E. Schrott
+  & Recycling" ist ausschließlich ein Karten-/Verzeichnislead. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung
+  (kein Fensterfehler):** das Lokalisierungsraster über den Hanauer Raum umfasst **8.8700/50.1100 bis 8.9500/50.1500**,
+  **32 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, 197290 Elemente; die Straße "Diebacher Weg" ist dort mit genau **1**
+  Adressobjekt und der Hausnummer **105** erfasst - die Dossier-Hausnummer **121** existiert dort **nicht**; auch im
+  Feinraster **8.9050/50.1250 bis 8.9250/50.1400** (**4 Kacheln**, **0 Kachel-Fehler** nach Wiederholung der zunächst mit
+  HTTP 429 abgewiesenen Kachel) findet sich kein Objekt mit der Hausnummer 121 und kein Objekt mit Betriebsbezug zu
+  "J.E." (die Suche nach "Schrott|Recycling|J.E.|Diebacher" über die Felder name, operator, brand, description, website,
+  contact:website, shop, craft und addr:housename findet nur den Fremdbetrieb "S.K.C. Textilrecycling KG"). Quelle 2
+  (Betreiber/Register): **fehlt** - es gibt keine Betreiberseite, kein Impressum, keinen ausgeschriebenen Inhaber und
+  keinen unabhängigen Register- oder Kommunalbeleg; die Namens- und Ortsnachsuchen vom 25.10.2026 und 01.10.2026 brachten
+  nur generische Portale. Das Exa-Places-Profil (am 26.10.2026 live gelesen und hier zitiert) nennt "J.E. Schrott &
+  Recycling", Diebacher Weg 121, 63452 Hanau, 01577 9264128, Status "Open" und eine einzelne Bewertung vom 02.09.2025 - das
+  ist nach dem Quellenstandard ein Aggregator-Eintrag, und "Open" sowie Bewertungen sind **keine** bestätigte aktuelle
+  Kundenannahme. **Warum keine Koordinate:** die Dossier-Hausnummer 121 existiert in OSM nicht, und die Adresse ruht allein
+  auf einem Aggregator-Eintrag; es wird **keine** Koordinate erfunden. `clear_fields: 'geo'` bleibt bestehen, der gespeicherte
+  Altpunkt 50.1280667/8.9168333 (Friedrich-Ebert-Anlage 31a, Hanau-Südost) wird damit ohnehin zurückgenommen - kein
+  Dossierbeleg verbindet diesen Ort mit dem Lead Diebacher Weg 121; `status` bleibt `pruefung`. **Reichweitenklausel:** das
+  Fehlen einer Hausnummer in OSM ist **kein** Nachweis für das Fehlen des Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.87,50.11,8.95,50.15 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.905,50.125,8.925,50.14 ;
+  https://exa.ai/library/place/vylzk5ln3y8 ; https://www.gelbeseiten.de/suche/j-e-schrott/hanau (Abruf 05.11.2026)]

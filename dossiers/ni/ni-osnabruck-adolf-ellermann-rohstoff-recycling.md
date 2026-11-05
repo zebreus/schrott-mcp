@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+GMH Recycling GmbH ist ein Schrotthandels- und Aufbereitungsbetrieb in Osnabrück, Rheinstraße 90 bis 122,
+49090, der Stahlwerke und Gießereien beliefert; die aktuelle Standortseite der Gruppe nennt diese Anschrift,
+die Nummer 0541 96124-0 und die Adresse info.recycling@gmh-gruppe.de. Ein Registerspiegel führt die
+Gesellschaft unter HRB 211783 und dokumentiert die Verschmelzung der Adolf Ellermann GmbH und der Rohstoff
+Recycling Osnabrück GmbH zur heutigen GMH Recycling GmbH, der Dossier-Eintrag nennt daher weiterhin den
+historischen Namen. Die frühere Hausnummer 103 liegt im Bereich der veröffentlichten Anschrift, ist aber nicht
+als Einzelanschrift bestätigt und wurde deshalb nicht übernommen. Offen bleiben Öffnungszeiten sowie
+Bedingungen für private Anlieferung und Abholung, da der Betreiber dazu nichts veröffentlicht, und die
+Herkunft der Nummer, die nur aus der Betreiberquelle stammt.
 
 ## Timeline
 

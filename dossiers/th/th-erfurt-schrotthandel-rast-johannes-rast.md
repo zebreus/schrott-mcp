@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Rast (Johannes Rast), Mittelhäuserstraße 17-19, Erfurt: FE/NE-Schrott und Kabel nur
+für Gewerbe, Katalysatoren-Ankauf auch für Privatpersonen, dazu Containerdienst und Abholung; das
+Gewerbeschrottangebot wird bundesweit beworben. Die Identität trägt der Betreiber-Kontaktblock mit
+Betriebs- und Anlieferadresse, Telefonnummer, E-Mail und Öffnungszeiten; das Impressum (§5 TMG,
+USt-ID DE274005618) nennt abweichend Stadtweg 70, 99099 Erfurt als ladungsfähige Anschrift. Offen
+bleibt diese Doppeladresse, für die Mittelhäuserstraße ist keine PLZ publiziert, weshalb das Feld
+leer bleibt, und die Anlieferung an die Mittelhäuserstraße ist auf der Betreiberseite nicht belegt,
+sodass das Feld zur Anlieferung ebenfalls leer bleibt; die Telefonnummer ist nur durch einen
+Aggregator-Lead bestätigt.
 
 ## Timeline
 

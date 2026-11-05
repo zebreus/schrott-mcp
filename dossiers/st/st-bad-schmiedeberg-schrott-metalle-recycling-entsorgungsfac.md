@@ -24,11 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
-## Überblick
-
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+W.K.W. Recycling GmbH, Kossaer Str. 3 b, 06905 Bad Schmiedeberg OT Söllichau: Entsorgungsfachbetrieb
+für Eisen- und NE-Metalle mit werkseigenem Containerdienst, laut Beschreibung mit Hauptstandort
+Söllichau und Niederlassung Apolda. Die Identität tragen die Betreiber-Website mit Impressum, das
+Firma, Anschrift, Telefon, Fax, E-Mail, Geschäftsführer Kai Wetzel und HRB 25403 AG Stendal
+ausweist, bestätigt durch Northdata und Creditreform; das Impressum weist den Betrieb als
+Entsorgungsfachbetrieb aus. Offen bleibt, dass die Beleglage auf einer Betreiberquelle mit
+Registerangabe beruht und ein zweiter unabhängiger Beleg fehlt; der Seed-Name war generisch
+(„Schrott Metalle & Recycling (Entsorgungsfachbetrieb)") und wurde auf den Betreibernamen
+korrigiert, wobei der Altname in der Timeline dokumentiert ist. Für die als Niederlassung
+genannte Apolda enthält das Dossier keinen eigenen Nachweis.
 
 ## Timeline
 

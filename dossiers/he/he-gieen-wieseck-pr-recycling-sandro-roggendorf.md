@@ -89,3 +89,32 @@ Betreiber-PRIMARY-QUELLE bestätigt: PR RECYCLING, Sandro Roggendorf, Am Siegbor
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6850,50.6000,8.7050,50.6150 ;
   https://pr-recycling.de/impressum ; https://schrottplatzgiessen.de/ ; https://pr-recycling.de/agb ;
   read-only `public.db` (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **336** auf "Am Siegborn" in Gießen-Wieseck existiert in OSM **nicht** - die Straße ist dort
+  ausschließlich als **Feldweg** kartiert. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein
+  Fensterfehler):** das live abgerufene Kachelraster über den gesamten Wiesecker Ortsbereich umfasst **8.6850/50.6000 bis
+  8.7050/50.6150**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler** nach Wiederholung der zunächst mit HTTP 429
+  abgewiesenen Kachel, 18032 Elemente; es liefert **0** Objekte mit `addr:street`=Am Siegborn und **keine** Hausnummer 336.
+  Die Straße selbst ist in drei Ways erfasst, live geladen am 05.11.2026 (alle HTTP 200): **way/4937038** (`highway`=track,
+  `tracktype`=grade1, `name`=Am Siegborn, BBox 8.6938012/50.6079624 bis 8.6945711/50.6107044, Mittelwert der eindeutigen
+  Knoten 50.6094642/8.6942402), **way/1031978819** (BBox 8.6936206/50.6073804 bis 8.6938012/50.6079624, Mittelwert
+  50.6076714/8.6937109) und **way/381760610** (BBox 8.6945711/50.6106961 bis 8.6963412/50.6107044, Mittelwert
+  50.6107003/8.6954562) - **ohne** `addr:*`-Tags und **ohne** ein einziges Adressobjekt; ein Mittelwert dieser Feldweg-
+  Objekte wäre eine Straßenmitte, **keine** Geokodierung. Die Suche nach "Schrott|Recycling|Roggendorf" über die Felder
+  name, operator, brand, description, website, contact:website, shop, craft und addr:housename findet im Raster **keinen**
+  Treffer auf den Betrieb. Quelle 2 (Betreiber): **vorhanden** - das Impressum https://pr-recycling.de/impressum nennt
+  wörtlich "Sandro Roggendorf PR-Recycling Am Siegborn 336 35396 Gießen" mit Telefon 0177-5545410 und
+  info@pr-recycling.de, die AGB von https://schrottplatzgiessen.de/ nennen "PR RECYCLING, Am Siegborn 336, 35396 Gießen"
+  ausdrücklich als Anbieter. **Warum keine Koordinate:** die Betriebsadresse ist betreiberseitig belegt, die
+  **Hausnummer existiert in OSM nicht**; es wird **keine** Koordinate erfunden und kein Nachbar- oder Straßenobjekt als
+  Ersatzpunkt missbraucht. Der gespeicherte Altpunkt 50.5852400/8.6791800 (Ostanlage, Gießen 35390) wird mit
+  `clear_fields: 'geo'` ohnehin zurückgenommen; `status` bleibt `pruefung`. **Reichweitenklausel:** das Fehlen einer
+  Hausnummer in OSM ist **kein** Nachweis für das Fehlen des Betriebs oder seiner Annahmestelle. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/4937038/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/1031978819/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/381760610/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.685,50.6,8.705,50.615 ;
+  https://pr-recycling.de/impressum ; https://schrottplatzgiessen.de/ (Abruf 05.11.2026)]

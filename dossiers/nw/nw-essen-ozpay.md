@@ -88,3 +88,41 @@ ist der OSM-Way 178376297 (51.4501937/6.9882735) dokumentiert.
   https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9400,51.4100,7.0200,51.4800 ;
   https://www.11880.com/branchenbuch/essen-ruhr/060440090B53756582/oezpay-schrott-und-metallhandel.html ;
   https://schrottregister.pages.dev/ort-essen ; https://www.auskunft.de/a/schrotthaendler/essen (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom
+  03.11.2026.** Die Dossier-Hausnummer **29** ist auf der **Bunsenstraße** in OSM erfasst, die **Betreiberidentität**
+  an dieser Anschrift aber **nicht**; die zweite erforderliche Quelle (Betreiber-/Registerbeleg) fehlt. **Quelle 1 (OSM,
+  live geladen am 05.11.2026, HTTP 200):** (a) das Adressobjekt existiert: **way/178376297** mit
+  `addr:housenumber`=**29**, `addr:street`=Bunsenstraße, `addr:city`=Essen, `addr:country`=DE,
+  `addr:postcode`=**45145**, `building`=apartments, `building:levels`=3 (Mittel der **4** eindeutigen Way-Knoten
+  **51.4501939/6.9882737**, BBox 51.4501289/6.9881643 bis 51.4502593/6.9883823) - die Dossier-Adresse ist damit
+  adressgenau im OSM vorhanden. (b) das Kachelraster **6.9600/51.4400 bis 7.0200/51.4800**, **24 Kacheln von je 0,01
+  Grad**, **0 Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9600,51.4400,7.0200,51.4800)
+  **umschließt die Objekt-BBox vollständig**, enthält die **„Bunsenstraße“** nachweislich und vollständig (Verlauf
+  51.4480313/6.9818616 bis 51.4520879/6.9893209) und erfasst sie mit **64** Adressobjekten; sie weist **64** verschiedene Hausnummern (10, 100, 101, 103, 106, 12, 14, 15, 16, 17, 18, 19, 2, 21, 23, 24, 25, 26, 27, 29, 31, 33, 35, 37, 39, 4, 40, 41, 42, 44, 48, 52, 54, 56, 58, 6, 60, 62, 64, 66, 68, 70, 72, 73, 74, 77, 79, 8, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 93, 95, 96, 97, 99) - die **Nummer 29 existiert**. (c) das Objekt trägt
+  **weder** `name=` **noch** `operator=`; eine Suche nach „Özpay", „Ozpay" und „Oezpay" über die Felder name, operator,
+  brand, description, website, contact:website, note und addr:housename findet im Kachelausschnitt **keinen** Treffer -
+  Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2 (Verzeichnis, keine Betreiber-/Register-
+  quelle):** 11880 führt „Özpay Schrott- und Metallhandel", Bunsenstr. 29, 45145 Essen-Holsterhausen, **0178 6836501**
+  (Profilupdate 14.10.2026); Gelbe Seiten führt „Schrotthandel Özpay" an derselben Adresse, aber in
+  Essen-Frohnhausen; das Telefonbuch liefert zu derselben Adresse das Koordinatenpaar **51.450224/6.988326**
+  (**5 m** neben dem OSM-Objekt) - die drei Verzeichnisse sind **Aggregatoren** derselben Datenbasis und damit **keine**
+  unabhängige Betreiberquelle. Die Branchenplattform auskunft.de hinterlegt bei „Özpay Schrott- und Metallhandel,
+  Bunsenstraße 29" die E-Mail **info@schrottabholung-ankauf.de** und die Website **schrottabholung-ankauf.de**,
+  **dieselben** Angaben stehen dort aber auch bei zwei anderen Essener Betrieben („Schrottabholung Nagel", Viehofer
+  Straße 20, und „Schrotthandel Udo Schimmel UG", Johannes-Brokamp-Straße 29) - es ist ein **geteilter
+  Portal-Kontakt**, keine betreiberseigene Angabe; die Domain selbst nennt in ihrem Impressum weder Özpay noch die
+  Bunsenstraße. Das **amtliche Fachbetrieberegister** (Auszug 11.08.2026) führt für Essen 24 anerkannte Betriebe - **kein**
+  Betrieb an der Bunsenstraße 29 und **keinen** namensgleichen Betrieb; die EFB-Anerkennung ist freiwillig, das ist ein
+  Negativbefund **ohne Beweiswert**. **Warum keine Koordinate:** Die zweite Quelle fehlt; die Adresse selbst ist zwar
+  auffindbar, ihre Zuordnung zum Seed Özpay aber nicht belegt. **Was zur Auflösung fehlt:** ein Betreiber- oder
+  Registerbeleg, der Özpay an die Bunsenstraße 29 bindet (Betreiberseite, Impressum oder HR-Eintrag). `clear_fields:
+  'geo'` bleibt bestehen; die Ortsteil-Abweichung (Holsterhausen/Frohnhausen) bleibt ungeklärt. **Reichweitenklausel:**
+  das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/178376297/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9600,51.4400,7.0200,51.4800 ;
+  https://www.11880.com/branchenbuch/essen-ruhr/060440090B53756582/oezpay-schrott-und-metallhandel.html ;
+  https://www.auskunft.de/a/schrotthaendler/essen ; https://schrottregister.pages.dev/ort-essen (Abruf 05.11.2026).]
+

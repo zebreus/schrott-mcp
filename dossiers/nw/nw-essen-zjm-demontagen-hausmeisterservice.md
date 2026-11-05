@@ -89,3 +89,41 @@ Der Seed bleibt ein ungeklärter Essener ZJM-Lead: Verzeichnisse ordnen „ZJM D
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0900,51.4200,7.1400,51.4500 ;
   https://web.archive.org/web/20210923213229id_/http://zjm-demontagen.de/impressum.html ;
   https://www.schrottundmetallabholung.de/impressum (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom
+  03.11.2026.** Für **ZJM Demontagen + Hausmeisterservice** sind zwei **Hausnummern** des Von-Ossietzky-Ring in
+  Umlauf (59 und 61); der Widerspruch ist im Dossier ausdrücklich offen und nicht auflösbar, ohne den Betrieb zu
+  identifizieren. **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** (a) **beide** Kandidaten sind in OSM als
+  Adressobjekte erfasst: **way/291659603** mit `addr:housenumber`=**59**, `addr:street`=Von-Ossietzky-Ring,
+  `addr:city`=Essen, `addr:postcode`=**45279**, `building`=yes (Mittel der **22** eindeutigen Way-Knoten
+  **51.4364084/7.1162179**) und **way/291659606** mit `addr:housenumber`=**61**, sonst gleiche Tags (Mittel der **23**
+  eindeutigen Way-Knoten **51.4366268/7.1161254**); die Objekte liegen rund **25 m** auseinander. (b) das Kachelraster
+  **7.0800/51.4100 bis 7.1400/51.4600**, **30 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0800,51.4100,7.1400,51.4600) **umschließt die Objekt-BBox
+  vollständig**, enthält den **Von-Ossietzky-Ring** nachweislich und vollständig (Verlauf 51.4331925/7.1069639 bis
+  51.4373883/7.1172031) und erfasst ihn mit **71** Adressobjekten; die Straße weist **71** verschiedene Hausnummern (1, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 27, 27a, 28a, 28b, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38a, 38b, 38c, 38d, 39, 4, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 6, 60, 61, 62, 63, 64, 65, 66, 68, 70, 72, 74, 76, 78, 8, 80, 9) - **59** und **61** sind beide belegt. (c) beide Objekte tragen
+  **weder** `name=` **noch** `operator=`; eine Suche nach „ZJM", „Zänker" und „Zaneker" über die Felder name, operator,
+  brand, description, website, contact:website, note und addr:housename findet im Kachelausschnitt **keinen** Treffer -
+  Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. (d) ein Objekt mit `addr:housenumber`=61 auf
+  **anderen** Straßen existiert im selben Raster nicht. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert):**
+  das **archivierte** Impressum von `zjm-demontagen.de` vom **23.09.2021** und **20.06.2024** nennt „ZJM
+  Demontagen+Hausmeisterservice" mit Steuernummer **111/5904/2947** und der verantwortlichen Person **Rebecca Sabrina
+  Zänker** an **Von-Ossietzky-Ring 59, 45279 Essen** (die Adresshistorie beginnt 2016 mit **Kaldekirche 43, 45309
+  Essen**); das **Live**-Impressum von `schrottundmetallabholung.de` nennt **Von-Ossietzky-Ring 61** mit derselben
+  Steuernummer, und ein Creditreform-Suchlead führt Rebecca Zänker ebenfalls an Nr. 61 (Direktabruf 403) - die Live- und
+  die Archivbelege widersprechen sich also in der Hausnummer, und es ist zudem **nicht** belegt, dass Website und
+  Seed-Lead (Nr. 59, Tel. 0201 9467448) derselbe Betrieb sind. Die Verzeichnisse Das Örtliche und Gelbe Seiten nennen
+  Nr. 59 mit **0201 9467448**. **Warum keine Koordinate:** Die Auflösung des Hausnummernkonflikts 59 gegen 61 **und**
+  die Verknüpfung von Website und Seed-Lead fehlen; erst damit ist ein Punkt für diese Zeile belegbar.
+  `street`/`postcode` bleiben unverändert, `clear_fields: 'geo'` bleibt bestehen, `status: pruefung` bleibt
+  unverändert, es wird weder Fortbestand noch Annahme behauptet. **Reichweitenklausel:** das Fehlen eines
+  OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder Schließungsbeweis; das Fehlen der Nummer 77 im
+  Nachbardossier wäre ebenso kein Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/291659603/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/291659606/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0800,51.4100,7.1400,51.4600 ;
+  https://web.archive.org/web/20210923213229id_/http://zjm-demontagen.de/impressum.html ;
+  https://www.schrottundmetallabholung.de/impressum (im Dossier zitiert, Abruf 05.11.2026).]
+

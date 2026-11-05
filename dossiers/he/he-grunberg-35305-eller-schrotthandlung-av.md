@@ -1,5 +1,7 @@
 ---
 slug: he-grunberg-35305-eller-schrotthandlung-av
+lat: 50.6026968
+lon: 8.9611724
 name: Helmut Eller Schrotthandlung und Autoverwertung
 trader_type: schrotthaendler
 state: HE
@@ -7,7 +9,7 @@ city: Grünberg
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'geo,phone'
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -83,3 +85,40 @@ Die offizielle Gorsler-Standortseite führt aktuell die Gorsler GmbH & Co. KG an
   https://www.rvt.de/unternehmen/das-sind-wir/ ;
   https://www.schrottplatz-info.de/schrottplatz/Gruenberg/Eller-Helmut-Schrotthandlung-und-Autoverwertung ;
   https://schrottregister.pages.dev/ort-gruenberg (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.6026968/8.9611724** (Mittelwert der eindeutigen
+  Knoten von way/93541879, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber/Verzeichnis):** der bereits im
+  Dossier zitierte Verzeichniseintrag https://www.schrottplatz-info.de/schrottplatz/Gruenberg/Eller-Helmut-Schrotthandlung-und-Autoverwertung
+  nennt "Eller Helmut Schrotthandlung und Autoverwertung, Adam-Opel-Str. 2, 35305 Gruenberg, 06401 90022" und hält ausdrücklich
+  fest, dass Angebot und Öffnungszeiten dort noch nicht erfasst sind; die am 26.10.2026 direkt gelesene offizielle
+  Standortseite https://www.rvt.de/unternehmen/standorte/ führt **Gorsler GmbH & Co. KG** an derselben Adam-Opel-Straße 2
+  mit derselben Nummer 06401 90022 - eine Umbenennung oder Übernahme ist damit **nicht** belegt, die Gorsler-Kontakte,
+  Annahme und Konditionen werden ausdrücklich **nicht** in das Eller-Dossier übernommen. **Quelle 2 (OSM):** die
+  Dossier-Adresse existiert in OSM als way/93541879 (live geladen am 05.11.2026, HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/93541879/full.json) mit `addr:housenumber`=2, `addr:street`=Adam-Opel-Straße,
+  `addr:city`=Grünberg, `addr:postcode`=35305, `addr:country`=DE, `building`=yes; **5** Knoten, davon **4** eindeutig,
+  Objekt-BBox 8.9610133/50.6026083 bis 8.9613315/50.6027853, der Punkt liegt innerhalb. **Fensterdisziplin (kein
+  Fensterfehler):** das am 05.11.2026 live abgefragte Kachelraster **8.9500/50.5700 bis 9.0100/50.6200**
+  (0,01-Grad-Kacheln, **30** Kacheln, **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig**; die Straße
+  "Adam-Opel-Straße" ist dort mit **7** Adressobjekten und **6** verschiedenen Hausnummern erfasst (1, 1a, **2**, 4, 5,
+  6), die Dossier-Hausnummer 2 existiert also in OSM. **Betriebsbezug in OSM, neu und entscheidend:** way/93541874
+  (live geladen 05.11.2026, HTTP 200) trägt `name`=**Firma Eller**, `note:de`=**"Abschleppdienste/Schrotthandlung/
+  Autoverwertung"**, `phone`=**+49 6401 90022** und `shop`=car_repair (BBox 8.9606252/50.6018604 bis 8.9619832/50.6028233,
+  Mittelwert 50.6021839/8.9612500) - das ist ein **Betriebsobjekt mit exakt dem Dossiernamen, der Dossier-Tätigkeit und der
+  Dossier-Rufnummer**, rund **59 m** vom Adressobjekt Nummer 2 entfernt, also auf demselben Grundstück. Damit ist die
+  frühere Aussage, eine Geokodierung zeige "eine fremde Firma", für den OSM-Bestand **nicht mehr zutreffend**: OSM führt
+  hier die **Eller**-Firma, nicht Gorsler. **Abgrenzung, ausdrücklich offengelegt:** ob der heutige Betreiber an dieser
+  Nummer Gorsler oder der Eller-Betrieb ist und ob ein Inhaberwechsel stattgefunden hat, ist damit **nicht** geklärt; die
+  Nummer 06401 90022 wird nachweislich von beiden Seiten geführt, und die Gorsler-Standortseite nennt Annahme von Eisen-
+  und Buntmetallen. Der gesetzte Punkt ist ein **Adresspunkt der im Dossier dokumentierten Anschrift mit OSM-Betriebsobjekt
+  derselben Firma**, kein bestätigter Betriebseingang und keine Identitätsbestätigung des Seed-Betriebs. **Zurücknahme des
+  `geo`-Tokens (Begründung):** der Token `geo` wird aus `clear_fields` **entfernt** (das Token `phone` bleibt unangetastet
+  bestehen), weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed `geo` neben belegtem `lat`/`lon`
+  ablehnt (docs/trader-seed.md). `status` bleibt `pruefung`, alle übrigen Felder bleiben unverändert. **Reichweitenklausel:**
+  das Fehlen einer eigenständigen Betreiber- oder Registerquelle für "Helmut Eller" ist **kein** Nichtexistenz- oder
+  Schließungsbeweis. Quelle(n): https://api.openstreetmap.org/api/0.6/way/93541879/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/93541874/full.json ; https://www.rvt.de/unternehmen/standorte/ ;
+  https://www.schrottplatz-info.de/schrottplatz/Gruenberg/Eller-Helmut-Schrotthandlung-und-Autoverwertung ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.95,50.57,9.01,50.62 (Abruf 05.11.2026)]

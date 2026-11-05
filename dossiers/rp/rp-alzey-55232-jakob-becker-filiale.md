@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alzey-Niederlassung der Jakob Becker Entsorgungs-GmbH, Albiger Str. 18, 55232 Alzey:
+Containerdienst, Spezialdienstleistungen, Abflussreinigung und Abwassertechnik. Die Identität
+trägt die Betreiber-Niederlassungsseite der Domain zusammen mit dem Impressum der Gesellschaft;
+Northdata führt die Jakob Becker Entsorgungs-GmbH (AG Kaiserslautern, HRB 3043, Sitz Mehlingen)
+als Betreiber. Offen bleibt der für dieses Dossier entscheidende Punkt: Die Niederlassungsseite
+nennt weder eine Schrottannahme noch eine Schrottabholung, der Standort ist für Schrott damit
+ungeklärt. Die Kontaktangaben stammen aus der Niederlassungs- bzw. Verzeichnisangabe, ein
+Impressum-Beleg der Filiale liegt nicht vor, weshalb der Website-Status auf unbekannt bleibt
+und der Status auf Prüfung steht.
 
 ## Timeline
 

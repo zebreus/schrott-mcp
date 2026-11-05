@@ -1,5 +1,7 @@
 ---
 slug: he-dietzenbach-schrotthandler-sabri
+lat: 50.0066411
+lon: 8.7875397
 name: Schrotthändler Sabri
 trader_type: schrotthaendler
 state: HE
@@ -7,7 +9,7 @@ city: Dietzenbach
 street: ''
 postcode: ''
 phone: ''
-clear_fields: 'geo,phone'
+clear_fields: 'phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -54,3 +56,33 @@ Eine Website unter „Schrotthändler Sabri“ beschreibt Metall-/Schrottabholun
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Schrotthändler Sabri` (Robert-Koch-Str. 3, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Sabri` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Sabri` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Robert-Koch-Str. 3, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Robert-Koch-Str. 3, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 0,3 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 0,8 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 1,9 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Robert-Koch-Str. 3, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Schrotthändler Sabri`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **31 Treffer**, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Sabri ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Sabri ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe+3%2C+63128+Dietzenbach%2C+Deutschland%3B8.787409199999999%3B50.0067219%3B8.7884777302915%3B50.0081257802915%3B8.785779769708496%3B50.0054278197085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe%203%2C%2063128%20Dietzenbach%2C%20Deutschland;8.787409199999999;50.0067219;8.7884777302915;50.0081257802915;8.785779769708496;50.0054278197085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Robert-Koch-Stra%C3%9Fe%203%2C%2063128%20Dietzenbach%2C%20Deutschland;8.787409199999999;50.0067219;8.7884777302915;50.0081257802915;8.785779769708496;50.0054278197085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.0066411/8.7875397** (Mittelwert der
+  eindeutigen Knoten von node/534547355, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber):** der Kontaktblock
+  der Betreiberseite https://schrotthandel-sabri.de/kontakt/ (im Dossier am 20./24./28.10.2026 live gelesen und hier
+  zitiert) nennt "Robert-Koch-Straße 3, 63128 Dietzenbach, 01577 / 5680199, info@schrotthandel-sabri.de" - die
+  Dossier-Anschrift ist damit vom Betreiberauftritt selbst belegt; das Impressum der Seite liefert weiterhin **keinen**
+  Rechtsträger (themenfremder Template-Artikel), die Betriebsidentität bleibt also ungesichert und wird hier **nicht**
+  behauptet. **Quelle 2 (OSM):** node/534547355, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/node/534547355.json - bei Nodes liefert `/full.json` HTTP 404, deshalb
+  `node/<id>.json`), trägt `addr:housenumber`=3, `addr:street`=Robert-Koch-Straße, `addr:city`=Dietzenbach,
+  `addr:postcode`=63128, `addr:country`=DE; der Adressknoten hat genau **1** eindeutigen Knoten, Objekt-BBox
+  8.7875397/50.0066411 bis 8.7875397/50.0066411, der Punkt liegt innerhalb. **Fensterdisziplin (kein Fensterfehler):**
+  das am 05.11.2026 live abgefragte Kachelraster **8.7800/50.0000 bis 8.7900/50.0100** (0,01-Grad-Kacheln, **1** Kachel,
+  **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig**; die Straße "Robert-Koch-Straße" ist dort mit **21**
+  Adressobjekten und **17** verschiedenen Hausnummern erfasst (1, 1a, 2, **3**, 4, 5, 6, 7, 7a, 8, 9, 10, 11, 14, 16, 18,
+  20), die Dossier-Hausnummer **3** existiert also in OSM. **Schreibweise:** das Dossier schreibt "Robert-Koch-Str. 3",
+  OSM "Robert-Koch-Straße" - dieselbe Straße. **Betriebsbezug in OSM:** keiner - eine Suche nach "Sabri|Schrott" über die
+  Felder name, operator, brand, description, website, contact:website, shop, craft und addr:housename findet im
+  Kachelausschnitt **keinen** Treffer; der gesetzte Punkt ist ein **Adresspunkt der vom Betreiber genannten Anschrift,
+  kein bestätigter Betriebseingang** und **kein** Beleg für einen öffentlichen Annahmehof. **Zurücknahme des `geo`-Tokens (Begründung):** der Token
+  `geo` wird aus `clear_fields` **entfernt**, weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed
+  `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md); der Token `phone` bleibt unangetastet bestehen, weil
+  der Telefonnummernbeleg weiterhin nicht trägt. Der zuvor zurückgezogene Produktionspunkt 50.0098/8.7778 (Hammannsgasse
+  6, rund 780 m entfernt) wird damit durch den belegten Adresspunkt ersetzt. `status` bleibt `pruefung`, alle übrigen
+  Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein
+  Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/534547355.json ; https://schrotthandel-sabri.de/kontakt/ ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.0,8.79,50.01 (Abruf 05.11.2026)]

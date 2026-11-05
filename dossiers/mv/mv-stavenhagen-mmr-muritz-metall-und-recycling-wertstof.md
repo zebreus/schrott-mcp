@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MMR GmbH, die Müritz Metall und Recycling GmbH, betreibt den Wertstoffhof Stavenhagen in der Schultetusstraße
+39b, 17153, seit 1996 auf dem Gelände eines ehemaligen Kohlehandels; das Impressum nennt den Registereintrag
+HRB 5477 Neubrandenburg, den Geschäftsführer Dieter Wisnia und die USt-ID DE 213991310. Der Betrieb handelt
+Schrott und NE-Metalle, bietet Containerdienst, Baustoffe und Abbrucharbeiten an und weist eine Fahrzeugwaage
+bis 30 Tonnen aus; als zweiter Standort ist ein Bauherrenzentrum im Gewerbegebiet mit abweichenden Zeiten
+genannt. Die Firmen-E-Mail bleibt leer, weil nur eine personenbezogene Adresse des Geschäftsführers
+veröffentlicht ist, und die im Impressum genannte Web-Adresse weicht von der erreichbaren Domain ab. Offen
+bleibt, ob die Gesellschaft 2026 noch unter der genannten Registernummer geführt wird, und ob Wertstoffhof und
+Bauherrenzentrum heute vom Betrieb genutzt werden, denn in OpenStreetMap sind beide Flächen nicht als
+Betriebsstandorte kartiert.
 
 ## Timeline
 

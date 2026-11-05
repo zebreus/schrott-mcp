@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SAK Entsorgungs- und Recycling GmbH, nach Registerchronik seit 2013 REMONDIS Kyffhäuser GmbH
+(HRB 400247), Schachtstr. 5, 99706 Sondershausen: Annahmestelle für Grünschnitt, Gewerbeabfälle
+und Sperrmüll mit Direktanlieferung für Kleingewerbe und Privatkunden, dazu Containerdienst und
+Rohstoffrecycling. Die Identität tragen die REMONDIS-Seite mit Impressum und Northdata, das
+derselben HRB und Adresse die früheren Namen SAK Entsorgungs- und Recycling GmbH und S'A'K
+zuordnet; das unabhängige Kreisportal bestätigt E-Mail und Öffnungszeiten. Offen bleibt, dass
+die Betreiberpfade nicht crawlbar waren und aus indexierten Seiten ausgewertet wurden, dass
+11880 an derselben Adresse eine separate Remondis GmbH & Co. KG mit anderem Kontakt führt, was
+keine rechtliche Identität belegt, und dass die geführten Öffnungszeiten (Mo–Fr 06:00–17:00)
+den aktuellen Belegen (Mo–Do 08:00–16:00, Fr 08:00–15:00) widersprechen.
 
 ## Timeline
 

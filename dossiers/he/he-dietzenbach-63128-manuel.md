@@ -1,5 +1,7 @@
 ---
 slug: he-dietzenbach-63128-manuel
+lat: 50.0134679
+lon: 8.7858510
 name: Manuel
 trader_type: schrotthaendler
 state: HE
@@ -7,7 +9,6 @@ city: Dietzenbach 63128
 street: Rohrbrunner Weg 2-4
 postcode: '63128'
 phone: 015213319683
-clear_fields: 'geo'
 email: ''
 opening_hours: ''
 website: ''
@@ -63,3 +64,38 @@ Preisangabe.
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Manuel` (Rohrbrunner Weg 2-4, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Manuel` -> **10 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Manuel` -> **2 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Rohrbrunner Weg 2-4, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Rohrbrunner Weg 2-4, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 1,0 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 1,1 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 1,4 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Rohrbrunner Weg 2-4, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Manuel`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **36 Treffer**, die Abfragetechnik funktioniert also. Die Namenssuche `n=Manuel` liefert 10 Efb- und 2 Altfahrzeug-Treffer, sämtlich **Fremdbetriebe** (u. a. `M-Recycling Manuela Marquardt`, Hinteres Öschle 5, 78604 Rietheim-Weilheim; `Autoverwertung Manuel Triebsch Inh. Manuel Triebsch`, Berghamm 1 a, 26434 Wangerland Hooksiel) - **kein** `Manuel` in Dietzenbach.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Manuel ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Manuel ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Rohrbrunner%20Weg%202-4%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7857865;50.0133913;8.787334230291503;50.01486843029151;8.784636269708498;50.01217046970851&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Rohrbrunner%20Weg%202-4%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7857865;50.0133913;8.787334230291503;50.01486843029151;8.784636269708498;50.01217046970851&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.0134679/8.7858510** (Mittelwert der eindeutigen
+  Knoten von way/40922224, liegt innerhalb der Objekt-BBox) - dieselbe Anschrift wie im Dossier
+  he-dietzenbach-63128-lorenzo, weil beide Dossiers dieselbe Hausnummer tragen. **Quelle 1 (Betreiber):** das Impressum
+  von https://schrotthandel-lorenzo.de/impressum (im Dossier am 28./29.10.2026 live gelesen und hier zitiert) nennt
+  wörtlich "Anschrift Sebastian Mihai Caldarar, Rohrbrunner Weg 2-4, 63128 Dietzenbach" und bestätigt damit die
+  Dossier-Anschrift als Anschrift eines Schrottbetriebs; die Marke "Manuel.&.Schrotthändler" wird an derselben Anschrift
+  vom Verzeichnis 11880 (Eintrag "Vom Inhaber bestätigt", Telefon 01521 3319683) und von den Gelben Seiten geführt, und
+  die Dossier-Anschrift "Rohrbrunner Weg 2-4, 63128 Dietzenbach" ist im Frontmatter bereits vom Owner übernommen. **Quelle
+  2 (OSM):** way/40922224, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/40922224/full.json), trägt `addr:housenumber`=2, `addr:street`=Rohrbrunner
+  Weg, `addr:city`=Dietzenbach, `addr:postcode`=63128, `building`=yes; **10** Knoten, davon **9** eindeutig, Objekt-BBox
+  8.7856530/50.0133667 bis 8.7860781/50.0136604, der Punkt liegt innerhalb. **Fensterdisziplin (kein Fensterfehler):**
+  das am 05.11.2026 live abgefragte Kachelraster **8.7800/50.0100 bis 8.7900/50.0200** (0,01-Grad-Kacheln, **1** Kachel,
+  **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig**; die Straße "Rohrbrunner Weg" ist dort mit **3**
+  Adressobjekten und **2** verschiedenen Hausnummern (**2** und **4**) erfasst - die Bereichsangabe "2-4" ist in OSM als
+  zwei Objekte derselben Anlage erfasst (way/40922224 und way/35668549, live geladen 05.11.2026, HTTP 200, Mittelwert
+  50.0131834/8.7859314, rund 31 m entfernt); gesetzt wird am Objekt der **Nummer 2**. **Betriebsbezug in OSM:** keiner -
+  eine Suche nach "Manuel|Horvath|Caldarar|Schrott" über die Felder name, operator, brand, description, website,
+  contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen** Treffer; der gesetzte Punkt ist ein
+  **Adresspunkt der belegten Anschrift, kein bestätigter Betriebseingang** von "Manuel.&.Schrotthändler". **Offen bleibt**
+  ausdrücklich, ob "Manuel.&.Schrotthändler" ein eigener Betrieb oder eine zweite Marke desselben Betriebs ist: Die
+  Rufnummer des Manuel-Eintrags (01521 3319683) stimmt mit keiner der Lorenzo-Nummern überein, und die Marke selbst hat
+  weiterhin **keine** eigene Betreiber-Website, kein Impressum und keinen Registereintrag; es wird deshalb **nichts
+  zusammengeführt** und keine Identitätsbehauptung aufgestellt. **Zurücknahme des `geo`-Tokens (Begründung):** der Token `geo` wird aus
+  `clear_fields` **entfernt**, weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed `geo` neben belegtem
+  `lat`/`lon` ablehnt (docs/trader-seed.md). `status` bleibt `pruefung`, alle übrigen Felder bleiben unverändert.
+  **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder
+  Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/40922224/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/35668549/full.json ; https://schrotthandel-lorenzo.de/impressum ;
+  https://www.11880.com/branchenbuch/dietzenbach/120674719B114199681/manuel-schrotthaendler.html ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.01,8.79,50.02 (Abruf 05.11.2026)]

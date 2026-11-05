@@ -97,3 +97,43 @@ Verzeichnisse führen den Kandidaten als „Prager Axel Unfallwagenhdl.“ an Am
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7500,51.4300,6.7800,51.4600 ;
   https://www.11880.com/suche/prager/duisburg ;
   https://www.golocal.de/duisburg/autoverwertung/prager-axel-unfallwagenhdl-4nQv (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung vergrößert das Fenster um das
+  Siebenfache und bestätigt, dass die Straße „Am Sportplatz" in OSM nicht existiert.** **Quelle 1 (OSM, live
+  abgefragt am 05.11.2026):** das Kachelraster **6.7200/51.4200 bis 6.8000/51.5000**, **64 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7200,51.4200,6.8000,51.5000) **umschließt
+  die Objekt-BBox vollständig** und erfasst im südlichen Duisburger Stadtgebiet **25.136** Adressobjekte auf **849**
+  verschiedenen Straßen sowie **976** benannte Straßenways; die Straßensuche über alle gefundenen `addr:street`- und
+  `name`-Werte liefert **keinen** Treffer für **„Am Sportplatz"** und **keine** Schreibvariante - Straßen mit
+  „Platz" im Namen sind dort vorhanden (etwa „Am Alten Flugplatz", „Averdunkplatz", „Calaisplatz"), eine Straße
+  „Am Sportplatz" dagegen **nicht**. Eine Suche nach der Hausnummer 24 in Verbindung mit „Sportplatz" findet **kein**
+  Objekt, und eine Suche nach „Prager" über die Felder name, operator, brand, description, website, contact:website,
+  note und addr:housename findet im Raster **keinen** Treffer mit Betriebsbezug (der einzige Namensfund „Prager" ist der
+  Straßennamenbestandteil des Brückenobjekts **node/5486003624** „Abdeckung III") - Aussage zum OSM-Bestand, **kein**
+  Negativbeleg über den Betrieb. Das Fenster umfasst den gesamten im Dossier genannten Bereich Duisburg-Rumeln und
+  -Kaldenhausen und damit **mehr** als das Raster vom 03.11.2026 (9 Kacheln, 167 Straßen); ein Fensterfehler der letzten
+  Welle liegt hier **nicht** vor. **Quelle 2 (Verzeichnis, im Dossier bereits zitiert):** die 11880-Suchergebnisseite
+  **„Prager in Duisburg"** zeigt genau einen passenden Treffer **„Axel Prager UnfallwagenHdl."** an **Am Sportplatz 24,
+  47239 Duisburg-Rumeln-Kaldenhausen**, Tel. **02151 940729**, mit den Portalrubriken Schrottplatz/Altmaterialhandel/
+  Schrotthandel; das Statuslabel **„Geschlossen"** der Portalseite ist ein **Portalstatus** und beweist **keine**
+  dauerhafte Schließung. Auch GoLocal, Cylex, Gelbe Seiten und kfz-fragen nennen dieselbe Anschrift und dieselbe Nummer -
+  die **Adresse** ist damit mehrfach gedeckt, aber nach der Quellenhierarchie sind Verzeichnisse **Leads**, kein Beleg.
+  **Warum keine Koordinate:** Die Straße existiert in OSM **nicht**, die Adresse ist damit **nicht abbildbar**; jeder
+  Punkt wäre eine Ableitung aus einem fremden Objekt oder einer Straßenmitte. Hinzu kommt das im Dossier dokumentierte
+  **Betreiber-Identitätsproblem**: der Eintrag beschreibt einen **Unfallwagenhändler**, und die Portalrubriken
+  „Schrottplatz/Altmaterialhandel/Schrotthandel" belegen **weder** einen allgemeinen Metall- oder Schrottankauf **noch**
+  eine öffentliche Annahmestelle; ein Betreiberauftritt, ein Impressum oder ein Registereintrag ist nicht belegt. Die
+  2021 datierte Alternative **Dahlingstr. 90, 47229 Duisburg** mit 0171 3257709 stammt aus **einem** Portaltreffer und
+  ist im Dossier ausdrücklich als unsicher verworfen; sie wird **nicht** übernommen. **Was zur Auflösung fehlt:** eine
+  Kartierung der Am Sportplatz in OSM **und** ein Betreiber- oder Registerbeleg, der die Tätigkeit als Schrott-/Metallhändler
+  an dieser Anschrift belegt. Der bisher gespeicherte Produktionspunkt 51.429824/6.748468 (laut read-only-Abgleich vom
+  25.10.2026 an der Vulkanstraße 54 in der Duisburger Altstadt) wird durch diese Notiz **nicht** ersetzt und bleibt
+  zurückgenommen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert; eine Schließung
+  wird **nicht** behauptet. **Reichweitenklausel:** das Fehlen einer Straße oder einer Hausnummer in OSM ist eine
+  Kartierungslücke und **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7200,51.4200,6.8000,51.5000 ;
+  https://www.11880.com/suche/prager/duisburg ;
+  https://www.golocal.de/duisburg/autoverwertung/prager-axel-unfallwagenhdl-4nQv (im Dossier zitiert, Abruf 05.11.2026).]
+

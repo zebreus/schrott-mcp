@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Compes & Schmidt e.K. (Inhaber Thomas Dreckmann), Am Silberg 29, 59494 Soest: Schrottgroßhandel,
+Containerdienst und Autoentsorgungsfachbetrieb. Die Betreiber-Website mit Impressum nennt
+Firmierung, Inhaber, Anschrift, Telefonnummer und E-Mail; als zweite Quelle führt die Gelbe
+Seiten „Compes & Schmidt e.K. Entsorgungsfachbetrieb" unter derselben Anschrift und Nummer, dazu
+kommen Das Örtliche, meinestadt.de, branchen-info, firmania und schrottplatz-info. Offen bleibt,
+dass das Impressum keine HRB-Angabe enthält und damit die Owner-Ausnahme nicht greift; das
+EFB-Verzeichnis der Entsorgergemeinschaft als Primär-Zweitbeleg war nicht auffindbar, und die
+Initialangabe des Das Örtlichen (H.J. Dreckmann) weicht von der Betreiberangabe (Thomas
+Dreckmann) ab.
 
 ## Timeline
 

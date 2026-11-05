@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Annahmestelle der McSchrott Rathenow GmbH (HRB 32437 P Amtsgericht Potsdam) in der
+Kummerlestraße 1A, 14770 Brandenburg an der Havel, mit Schrott- und Buntmetallankauf für
+Privat- und Gewerbekunden, zusätzlich Papierankauf, Containerdienst nur für Gewerbe und
+kostenloser Abholung im Raum Brandenburg und bis 30 km ohne Materialvergütung. Adresse,
+Telefon 03381 8903049 und Mailadresse der Filiale stammen aus der Betreiber-Standortseite;
+das Impressum belegt den Diensteanbieter am Sitz in Rathenow und ist damit kein
+Standortnachweis. Der OSM-Hausadresspunkt zur Nummer 1A ist adresskongruent, die Koordinate
+im Betreiber-JSON-LD liegt rund 0,9 km entfernt. Offen bleibt ein zweiter Beleg für die
+Standortzeiten; die Preisliste ist ausdrücklich ein unverbindlicher Richtpreis in Euro je
+Kilogramm.
 
 ## Timeline
 

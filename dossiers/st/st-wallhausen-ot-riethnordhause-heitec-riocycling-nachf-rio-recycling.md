@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HeiTec RIOcycling GmbH (Nachfolger der RIO Recycling GmbH), Kachstedter Weg 1, 06528 Wallhausen OT
+Riethnordhausen: Entsorgungs- und Verwertungsbetrieb mit Wertstoffannahme für Schrott, Sperrmüll,
+E-Schrott und Grünschnitt, NE-Aufbereitung und Containerdienst 3–30 m³ im 50-km-Umkreis,
+Geschäftsführerin Jenny Apel. Die Identität tragen das Betreiber-Impressum mit Name, HRB 12259 AG
+Stendal, Ort, Anschrift, Telefonnummer, E-Mail und Öffnungszeiten sowie Northdata, das dieselbe
+HRB, die Anschrift und die Umbenennung 2019 von RIO Recycling GmbH mit der Gesellschafterin
+HeiTec INDUSTRIES GmbH bestätigt. Offen bleibt die Vergütung der Annahme: Die Provenienz
+vermerkt den Ankauf als unklar, und eine zweite belastbare Quelle für die öffentliche Annahme an
+diesem Standort fehlt; der Status bleibt auf Prüfung.
 
 ## Timeline
 

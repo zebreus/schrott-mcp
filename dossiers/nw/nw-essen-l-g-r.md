@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-l-g-r
-clear_fields: geo
+lat: 51.4977254
+lon: 6.9825267
 name: L.G.R.
 trader_type: schrotthaendler
 state: NW
@@ -85,3 +86,44 @@ Ein starker Kandidat für das Kürzel „L.G.R.“ in Essen ist die L.G.R. Lotha
   https://lgr-essen.de/impressum/ ; https://lgr-essen.de/dienstleistungen/ ;
   https://www.northdata.de/L.G.R.+Lothar+Gedenk+Recycling+GmbH,+Essen/Amtsgericht+Essen+HRB+12622
   (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4977254/6.9825267** (Mittelwert der **8**
+  eindeutigen Knoten von way/187631828; das Objekt hat 9 Knotenreferenzen, davon 8 eindeutige; die Objekt-BBox reicht
+  von 51.4976239/6.9824232 bis 51.4977816/6.9826541 und **umschließt den Mittelwert**). **Quelle 1 (OSM, live geladen
+  am 05.11.2026, HTTP 200):** way/187631828 trägt `addr:housenumber`=**10**, `addr:street`=Karl-Legien-Straße,
+  `addr:city`=Essen, `addr:postcode`=**45356**, `building`=yes; Straße, Hausnummer, PLZ und Ort stimmen mit der im
+  Dossier belegten Anschrift **Karl-Legien-Straße 10, 45356 Essen** überein. **Fensterdisziplin:** das am 05.11.2026 live
+  abgefragte Kachelraster umfasst **6.9600/51.4800 bis 7.0100/51.5200**, **20 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9600,51.4800,7.0100,51.5200); es **umschließt die
+  Objekt-BBox vollständig** und enthält die **„Karl-Legien-Straße“** nachweislich und vollständig mit dem Straßenobjekt
+  way/9930761 (Verlauf 51.4978497/6.9801975 bis 51.4980522/6.9861365). Die Straße trägt im Fenster **15** Adressobjekte; sie weist **15** verschiedene Hausnummern (2, 3, 3a, 5, 7, 9, 10, 11, 12, 13, 14, 16, 18, 24, 26) - die
+  **Dossier-Hausnummer 10 existiert in OSM**. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am
+  05.11.2026 nachgelesen, HTTP 200):** das Impressum der Betreiberseite nennt **„L.G.R. Lothar Gedenk Recycling GmbH,
+  Karl-Legien-Straße 10, 45356 Essen"**, Handelsregister **HRB 12622**, Registergericht Amtsgericht Essen, vertreten
+  durch Marwin Gedenk und Dario Gedenk, Umsatzsteuer-Identifikationsnummer DE 190105358; das im Dossier zitierte
+  NorthData-Register (AG Essen HRA 12622) deckt denselben Rechtsträger. **Offene Branchenlage (ausdrücklich
+  mitgenommen, unverändert offen):** die Betreiberseite beschreibt am Standort ausschließlich die kommunale Erfassung
+  und das Recycling von **Alttextilien und Altschuhen** („Mit 16 Mitarbeitern und einem Fuhrpark von 10 LKW übernimmt
+  die L.G.R. die komplette Kommunalentsorgung von Alttextilien und Altschuhen"), das NorthData-Profil nennt denselben
+  Unternehmensgegenstand; ein **Schrott- oder Metallankauf** ist für diese Gesellschaft **nicht** belegt, die als
+  `schrotthaendler` importierte Zeile passt also im Branchen- und Materialbereich nicht zum belegten
+  Unternehmensgegenstand. Der gesetzte Punkt bezeichnet deshalb die **belegte Anschrift des im Dossier geführten
+  Rechtsträgers** und **nicht** einen Schrott- oder Metallhandel; die Branchenzuordnung bleibt ein **separater
+  Owner-Punkt** und wird durch diese Geokodierung **nicht** entschieden. **Betriebsbezug in OSM:** keiner -
+  way/187631828 trägt weder `name=` noch `operator=`; eine Suche nach „Gedenk", „L.G.R." und „Lothar Gedenk" über die
+  Felder name, operator, brand, description, website, contact:website, note und addr:housename findet im Kachelausschnitt
+  **keinen** Treffer - das ist eine Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Zurücknahme des
+  `geo`-Tokens (Begründung):** der Token `geo` wird aus `clear_fields` **entfernt** (die Zeile `clear_fields: geo`
+  entfällt), weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed `geo` neben belegtem `lat`/`lon`
+  ablehnt (docs/trader-seed.md); der zuvor zurückgezogene Produktionspunkt 51.450284375/7.015053125 (die Fernbus-Spur
+  am Essener Hauptbahnhof) wird damit durch den belegten Adresspunkt ersetzt. `status: pruefung`, `trader_type:
+  schrotthaendler` und alle übrigen Felder bleiben unverändert; `street` und `postcode` bleiben **leer**, weil die
+  Zuordnung einer koordinatenführenden Adressezeile eine eigene Entscheidung ist und hier nicht mitbearbeitet wird.
+  **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder
+  Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb und nicht die Branchenzuordnung. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/187631828/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9600,51.4800,7.0100,51.5200 ;
+  https://lgr-essen.de/impressum/ ;
+  https://www.northdata.de/L.G.R.+Lothar+Gedenk+Recycling+GmbH,+Essen/Amtsgericht+Essen+HRB+12622 (Abruf 05.11.2026).]

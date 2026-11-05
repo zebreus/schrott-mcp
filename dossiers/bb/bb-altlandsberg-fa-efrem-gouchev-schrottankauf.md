@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Einzelunternehmen von Efrem Gouchev, im Impressum mit USt-IdNr. DE274618656, das unter
+schrottankauf-bitterfelderstr23.de Schrott und Altmetalle zu Tagespreisen ankauft;
+Elektrogeräte nimmt es nur mit Gewerbeanmeldung an, für die Anlieferung verlangt es
+Personalausweis. Betreiberanschrift laut Impressum ist Bitterfelder Straße 23, 12681
+Berlin-Marzahn, während das Frontmatter weiterhin Altlandsberg in Brandenburg führt.
+Zweitbeleg ist nur der Verzeichniseintrag bei Das Örtliche mit Anschrift und Telefonnummer
+030 99272366, der als Lead und nicht als unabhängige Prüfung gilt; weil das
+Einzelunternehmen kein Register führt, fehlt ein zweiter Beleg. Offen bleiben der
+Ortskonflikt gegen Berlin und der Status der Zeile auf pruefung sowie der Standortnachweis,
+da die OSM-Abfrage an der Hausnummer einen fremden Gerüstbaubetrieb trifft.
 
 ## Timeline
 

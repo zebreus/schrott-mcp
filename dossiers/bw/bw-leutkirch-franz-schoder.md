@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Franz Schoder, Inhaberin Elfriede Schoder, ein Einzelunternehmen für Schrott- und
+Metallhandel mit Schrottautos, Container und Metallentsorgung in der Unterer Auenweg 26,
+88299 Leutkirch; Telefon 07561 71807, laut Betreiberseite zusätzlich 07561 2143. Die
+amtliche Liste der anerkannten Altfahrzeug-Demontagebetriebe des Landratsamts Unterallgäu,
+Stand Mai 2026, führt den Betrieb unter derselben Anschrift und Nummer als anerkannten
+Demontagebetrieb; die Betreiberseite trägt die Leistungsangaben. Offen bleibt die
+Belegtiefe: Die E-Mail-Schreibweise unterscheidet sich zwischen amtlichem PDF und
+Betreiberseite, die Öffnungszeiten sind nur betreiberseitig belegt und deshalb im Feld leer,
+und eine Abhol- oder Anlieferregel hat sich nicht verifizieren lassen. Der Status bleibt
+pruefung, Koordinaten fehlen.
 
 ## Timeline
 

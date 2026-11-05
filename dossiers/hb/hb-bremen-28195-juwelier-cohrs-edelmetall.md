@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Juwelier Cohrs Edelmetall GmbH ist ein Edelmetallhändler mit Ankauf von Altgold, Zahngold, Silber
+einschließlich industrieller Reste und Zinn; das Dossier führt die Bremer Filiale in der Pelzerstraße 4, 28195
+Bremen. Die Filialseite der Kette weist Anschrift, Telefon, E-Mail und Öffnungszeiten aus, das Impressum nennt
+die Rechtsträgerin mit Sitz in Hannover, Bahnhofstraße 3, HRB 225939, und den Geschäftsführer Buchor Allaev;
+ein Registerspiegel ist damit kongruent. Die Anschrift ist in OpenStreetMap als Bürogebäude way 202161840
+erfasst, die hinterlegten Koordinaten bilden den Gebäudemittelpunkt und nicht den Ladeneingang. Offen bleibt,
+ob die unter derselben Telefonnummer und nahezu gleicher Anschrift geführte Albers & Kinzel GmbH in derselben
+Rechtsperson fortgeführt wurde, da eine Nachfolge nicht nachgewiesen ist; der Registerspiegel ist kein
+amtlicher Auszug, und zu Preisen und einer Abholung liegen keine Angaben vor.
 
 ## Timeline
 

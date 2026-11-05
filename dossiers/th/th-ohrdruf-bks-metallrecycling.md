@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BKS Metallrecycling GmbH & Co. KG, Suhler Str. 7b, 99885 Ohrdruf: B2B-Schrottentsorgung und
+Containerdienst 7–40 cbm in Thüringen, Privatannahme nur nach vorheriger Terminvereinbarung, dazu
+Abholung von Gewerbeschrott. Die Identität tragen das Impressum (§5 TMG, HRA 506024 AG Jena) und
+der seitenweite Footer der Betreiber-Website mit der Anschrift Suhler Str. 7b; die Seiten zum
+Schrottankauf, zur Startseite und zum Kontakt belegen Annahme und Abholung. Offen bleibt ein
+Widerspruch innerhalb der Betreiber-Angaben: Die SEO-Landingpages nennen parallel den Hauptsitz
+Industriestraße 39a seit über zwei Jahrzehnten, ob Altstandort oder Zweitfläche ist ungeklärt;
+als rechtsverbindliche Anschrift wurde das Impressum gewichtet. Nach der geänderten Straße ist
+die Geokodierung neu zu fahren.
 
 ## Timeline
 

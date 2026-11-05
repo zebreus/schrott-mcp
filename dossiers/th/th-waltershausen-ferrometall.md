@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+FerroMetall GmbH, Gothaer Str. 52, 99880 Waltershausen: Rohstoffrecycling, Stahlschrottentsorgung,
+NE-Metallhandel und Containerdienst, mit Entsorgungsfachbetrieb-Angabe, Geschäftsführer Alfred
+Strobel und HRB 113416 Jena. Die Identität tragen die Betreiber-Website mit Firmendaten zu Name,
+Anschrift, Telefonnummer, E-Mail und Öffnungszeiten sowie Das Örtliche als Gegenbeleg mit
+derselben Adresse, Telefonnummer und denselben Zeiten; die https-Variante der Domain ist tot,
+erreichbar ist nur http. Offen bleibt, dass der erste Suchlauf nur einen Aggregator-Lead ergeben
+hatte und dieser Negativbefund erst durch den Volltreffer vom 02.10.2026 überholt wurde, dass die
+Entsorgungsfachbetrieb-Angabe auf der Betreiber-Website beruht und ein Zertifikat nicht belegt
+ist, und dass zum Ankauf nichts beziffert belegt ist; die Provenienz vermerkt ihn als unklar. Nach
+der neuen Adresse ist neu zu geocodieren.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Ralf Gilbert Reinhardt unter der Bezeichnung MvR Recycling, Zeilweg 3, 71106
+Magstadt, ein Familienbetrieb seit 1976, 2000 von Pierre und Ralf Reinhardt übernommen, mit
+Schrottentsorgung für Unternehmen und Privathaushalte, Metallankauf, Abholung mit Wiegen vor
+Ort sowie Bereitstellung von Kunststoffboxen, Stahlfässern und Euro-Gitterboxen. Angenommen
+werden laut Betreiber V2A-Schrott, Edelstahl, verschiedene Kupferabfälle, Kupferkabel ab 60
+Prozent und Messing. Offen bleibt die Beleglage: Es liegt nur die Betreiberquelle eines
+Einzelunternehmens ohne Register vor, eine zweite unabhängige Quelle steht aus, und im
+amtlichen Fachbetrieberegister fehlt für Magstadt ein Eintrag dieses Betriebs, was ohne
+Beweiswert bleibt. Preise und Öffnungszeiten werden nicht veröffentlicht, Koordinaten
+fehlen.
 
 ## Timeline
 

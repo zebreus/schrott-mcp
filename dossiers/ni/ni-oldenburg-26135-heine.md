@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heine GmbH & Co. KG ist ein Entsorgungsfachbetrieb für Schrott und Metalle in Oldenburg, Emsstraße 9, 26135,
+an der Hafenkante; Betreiber-Website und Impressum weisen die Anschrift, die Nummer 0441 25704, die Adresse
+info@heine-efb.de und die Geschäftszeiten von Montag bis Freitag aus, und die Leistungsseite beschreibt die
+Schrottentsorgung sowie die Beratung von Unternehmen. Unabhängig davon bestätigen das Mitgliederverzeichnis
+der Entsorgergemeinschaft und ein Registerspiegel mit HRA 2934 die Gesellschaft unter derselben Anschrift. Die
+Öffnungszeiten gelten als Geschäftszeiten; eigene Anliefer- oder Abholbedingungen für Schrott sind nicht
+veröffentlicht, weshalb die entsprechenden Felder leer bleiben. Offen bleibt damit, ob und zu welchen
+Bedingungen am Standort Schrott angenommen wird, da der Ankauf im Dossier als unklar geführt wird; der Status
+steht weiterhin auf Prüfung.
 
 ## Timeline
 

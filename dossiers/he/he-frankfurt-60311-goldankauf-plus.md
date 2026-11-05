@@ -1,5 +1,7 @@
 ---
 slug: he-frankfurt-60311-goldankauf-plus
+lat: 50.1133419
+lon: 8.6859666
 name: Goldankauf PLUS GmbH
 trader_type: sonstige
 state: HE
@@ -44,3 +46,36 @@ Edelmetallankauf im Frankfurter Stadtzentrum; nicht als allgemeiner Schrottplatz
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Goldankauf PLUS GmbH` (Fahrgasse 97, 60311 Frankfurt am Main) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Goldankauf%20PLUS` -> **0 Treffer** (EfB); (2) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Goldankauf%20Plus` -> **0 Treffer** (EfB); (3) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Goldankauf%20PLUS` -> **0 Treffer** (Altfahrzeug); (4) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Goldankauf%20Plus` -> **0 Treffer** (Altfahrzeug). Die Radiusabfrage mit 3 km um `Fahrgasse 97, 60311 Frankfurt am Main` (`…/Entsorgungsfachbetriebe/adr=Fahrgasse 97, 60311 Frankfurt am Main, Deutschland;…&dst=3&is=1&e=1`) liefert **23 Treffer**, u. a. `Premium Recycling Service GmbH`, `Schmickstraße 34 - 40, 60314 Frankfurt`, `ZZGT00200028 / 1, 2, 3, 4, 5`, `Walter Mandausch GmbH`, `Schmickstr. (BE 5,7,9) 25-35, 60314 Frankfurt`, `ZZFT01300199 / 1, 2, 3, 4`, `FES GmbH Hauptverwaltung`, `Weidenbornstraße 40, 60389 Frankfurt am Main`, `ZZEE00200089 / 1` - **kein Treffer auf `Goldankauf PLUS` und keiner auf `Fahrgasse 97`**. Dieselbe 3-km-Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&o=5&e=1` liefert **0 Treffer** - **kein AltfahrzeugV-Vermerk**. Als Positivkontrolle liefert die 10-km-Efb-Abfrage um dieselbe Adresse **59 Treffer**, die 10-km-Abfrage in der Altfahrzeugverwertung-Route **1 Treffer** (`KITSAKIS GmbH`, `Lämmerspieler Weg 151, 63075 Offenbach`, `ZARS00700012 / 1`) - die Abfragetechnik funktioniert also. **Zusatzprüfung Edelmetallhandel:** Die Liste der zertifizierten Goldankäufer des Berufsverbandes des Deutschen Münzenfachhandels e.V. (`muenzenverband.de/zertifizierte-goldankaeufer/`, 82 Einträge, sämtlich mit dem Feld `zert. Goldankäufer` = `Ja`) führt `Goldankauf PLUS GmbH` **nicht** - das Feld „zert. Goldankäufer“ trägt für diesen Betrieb **kein Ja**, deshalb wird hier kein Zertifikat geführt. 
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Goldankauf%20PLUS ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Goldankauf%20PLUS ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Goldankauf%20Plus ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Goldankauf%20Plus ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Fahrgasse%2097%2C%2060311%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6859666%3B50.1133416%3B8.697967%3B50.125342%3B8.673967%3B50.101342&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Fahrgasse%2097%2C%2060311%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6859666%3B50.1133416%3B8.697967%3B50.125342%3B8.673967%3B50.101342&dst=3&is=1&o=5&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Fahrgasse%2097%2C%2060311%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6859666%3B50.1133416%3B8.697967%3B50.125342%3B8.673967%3B50.101342&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Fahrgasse%2097%2C%2060311%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.6859666%3B50.1133416%3B8.697967%3B50.125342%3B8.673967%3B50.101342&dst=10&is=1&o=5&e=1 ; https://www.muenzenverband.de/zertifizierte-goldankaeufer/ (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.1133419/8.6859666** (Mittelwert der eindeutigen
+  Knoten von way/174815800, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber/Register):** das Impressum
+  https://www.goldankauf-plus.de/impressum.html (im Dossier am 05.10. und 31.10.2026 live gelesen und hier zitiert) nennt
+  wörtlich "Goldankauf Plus GmbH, Fahrgasse 97, 60311 Frankfurt/Main", "Handelsregister: HRB 118224", "Amtsgericht
+  Frankfurt/Main", "Geschäftsführerin: H. Fries", "Tel.: (+49) 069 28 57 83"; NorthData führt dieselbe Gesellschaft mit
+  derselben HRB 118224 - Dossier-Anschrift, -Rechtsträger und -Register sind damit belegt. **Quelle 2 (OSM):**
+  way/174815800, live geladen am 05.11.2026 (HTTP 200, https://api.openstreetmap.org/api/0.6/way/174815800/full.json),
+  trägt `addr:housenumber`=97, `addr:street`=Fahrgasse, `addr:city`=Frankfurt am Main, `addr:postcode`=60311,
+  `addr:country`=DE, `building`=apartments, `building:levels`=5, `roof:levels`=0; **5** Knoten, davon **4** eindeutig,
+  Objekt-BBox 8.6858864/50.1132673 bis 8.6860561/50.1134170, der Punkt liegt innerhalb. **Fensterdisziplin (kein
+  Fensterfehler):** das am 05.11.2026 live abgefragte Kachelraster **8.6800/50.1050 bis 8.7000/50.1250**
+  (0,01-Grad-Kacheln, **4** Kacheln, **0** Kachel-Fehler nach Wiederholung der zunächst mit HTTP 429 abgewiesenen Kachel)
+  **umschließt die Objekt-BBox vollständig**; die Straße "Fahrgasse" ist dort mit **53** Adressobjekten und **43**
+  verschiedenen Hausnummern erfasst (1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25,
+  26, 27, 29, 80, 82, 84, 86, 87, 88, 89, 90, 91, 91-93, 92, 93, 94, 95, **97**, 99, 109, 111) - die Dossier-Hausnummer 97
+  existiert also in OSM, und das ist im Raster das **einzige** Objekt mit dieser Nummer auf dieser Straße. **Betriebsbezug in
+  OSM:** keiner - das Objekt trägt **weder** `name` **noch** `operator`; eine Suche nach "Goldankauf|Gold|Edelmetall|DEG"
+  über die Felder name, operator, brand, description, website, contact:website, shop, craft und addr:housename findet im
+  Kachelausschnitt **keinen** Treffer auf die Gesellschaft (die Treffer sind Fremdnamen wie "Goldies", "Hüftgold",
+  "Goldriver Rosenthal" u. a.). Der gesetzte Punkt ist folglich ein **Adresspunkt der belegten Geschäftsanschrift, kein
+  bestätigter Betriebseingang**; der im Impressum genannte Orientierungspunkt node/292380306 ("Asia Supermarkt",
+  `addr:housenumber`=95) liegt rund **11 m** entfernt und ist im Raster ebenfalls erfasst. **Clear-Direktive:** dieses
+  Dossier führt **kein** `clear_fields` und damit keinen `geo`-Token - es ist nichts zu entfernen; der Seed akzeptiert das
+  Koordinatenpaar ohne Widerspruch. `status` bleibt `aktiv`, alle übrigen Felder (Öffnungszeiten, `dropoff_json`,
+  Telefon, Website) bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer
+  Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/174815800/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/292380306.json ; https://www.goldankauf-plus.de/impressum.html ;
+  https://www.northdata.de/Goldankauf+Plus+GmbH,+Frankfurt+am+Main/HRB+118224 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.68,50.105,8.70,50.125 (Abruf 05.11.2026)]

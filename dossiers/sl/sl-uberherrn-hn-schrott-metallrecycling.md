@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HN Schrott- & Metallrecycling GmbH, Nauwies 9, 66802 Überherrn: An- und Verkauf von Eisen- und
+Metallschrott, Elektroschrott, Edelmetallen wie Kupfer, Messing und Kabel sowie Altbatterien zur
+Weitergabe an Großhändler, dazu Containerdienst mit Liefer- und Abholservice. Die Identität
+tragen die Betreiber-Homepage und das Impressum mit Geschäftsführer Hakan Nalu, USt-IdNr.
+DE343763256, Telefon, Fax und E-Mail; Northdata führt dieselbe Anschrift und den
+Unternehmenszweck unter HRB 107162 AG Saarbrücken. In OSM trägt way/196778127 die Hausnummer 9,
+der „Schrottplatz" (way/1089904604) ist 52 m daneben kartiert. Offen bleibt, dass das Impressum
+keine HRB-Nummer nennt und damit die Owner-Ausnahme nicht greift, die Zertifizierung als
+Batterieentsorger nur behauptet ist und kein Zertifikat vorliegt; Euro-Beträge für Ankauf und
+Verkauf sowie Gebühren sind nicht veröffentlicht.
 
 ## Timeline
 

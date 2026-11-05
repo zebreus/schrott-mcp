@@ -1,5 +1,7 @@
 ---
 slug: he-dietzenbach-b-mugurel-schrotthandler
+lat: 50.0048589
+lon: 8.7875996
 name: B. Mugurel Schrotthändler
 trader_type: schrotthaendler
 state: HE
@@ -7,7 +9,6 @@ city: Dietzenbach
 street: 'Robert-Koch-Str. 11'
 postcode: '63128'
 phone: '0171 6146732'
-clear_fields: 'geo'
 email: ''
 opening_hours: ''
 website: https://xn--schrotthndler-mugurel-d2b.de
@@ -65,3 +66,37 @@ stehende E-Mail-Adresse, eine öffentliche Annahmestelle und sämtliche Material
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `B. Mugurel Schrotthändler` (Robert-Koch-Str. 11, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Mugurel` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Mugurel` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Robert-Koch-Str. 11, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Robert-Koch-Str. 11, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 0,2 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 0,8 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 2,1 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Robert-Koch-Str. 11, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `B. Mugurel Schrotthändler`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **30 Treffer**, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Mugurel ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Mugurel ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe+11%2C+63128+Dietzenbach%2C+Deutschland%3B8.7877964%3B50.00480750000001%3B8.789349680291503%3B50.0061727802915%3B8.786651719708498%3B50.0034748197085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe%2011%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7877964;50.00480750000001;8.789349680291503;50.0061727802915;8.786651719708498;50.0034748197085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Robert-Koch-Stra%C3%9Fe%2011%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7877964;50.00480750000001;8.789349680291503;50.0061727802915;8.786651719708498;50.0034748197085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.0048589/8.7875996** (Mittelwert der
+  eindeutigen Knoten von node/534547348, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber):** das Impressum
+  von https://xn--schrotthndler-mugurel-d2b.de/impressum (im Dossier am 31.10.2026 live gelesen und hier erneut
+  zitiert) nennt "Robert-Koch-Str. 11", "63128 Dietzenbach", Inhaber Mugurel Braica, W-IdNr DE425479280 und
+  0171 6146732 - die Dossier-Anschrift ist damit betreiberseitig belegt. **Quelle 2 (OSM):** node/534547348, live
+  geladen am 05.11.2026 (HTTP 200, https://api.openstreetmap.org/api/0.6/node/534547348.json - bei Nodes liefert
+  `/full.json` HTTP 404, deshalb `node/<id>.json`), trägt `addr:housenumber`=11, `addr:street`=Robert-Koch-Straße,
+  `addr:city`=Dietzenbach, `addr:postcode`=63128, `addr:country`=DE; der Adressknoten hat genau **1** eindeutigen
+  Knoten, Objekt-BBox 8.7875996/50.0048589 bis 8.7875996/50.0048589, der Punkt liegt innerhalb. **Fensterdisziplin
+  (kein Fensterfehler):** das am 05.11.2026 live abgefragte Kachelraster **8.7800/50.0000 bis 8.7900/50.0100**
+  (0,01-Grad-Kacheln, **1** Kachel, **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig** und weist auf der
+  Straße "Robert-Koch-Straße" **21** Adressobjekte mit **17** verschiedenen Hausnummern aus (1, 1a, 2, 3, 4, 5, 6, 7,
+  7a, 8, 9, 10, **11**, 14, 16, 18, 20) - die Dossier-Hausnummer 11 existiert also, die Nummerierung ist lückenlos.
+  **Schreibweise:** das Dossier schreibt "Robert-Koch-Str. 11", OSM "Robert-Koch-Straße" - dieselbe Straße (Schreib-
+  weisenfehler, kein Sachmangel). **Abgrenzung, dokumentiert:** zur selben Hausnummer trägt way/320318062
+  `addr:housenumber`=11 mit `name`=Istanbul Kebaphaus, `amenity`=fast_food (live geladen 05.11.2026, HTTP 200); das
+  Adressobjekt zu Nummer 11 ist damit ein reines Adressobjekt **ohne** Betriebsbezug, während im selben Haus ein
+  Gastronomiebetrieb kartiert ist. Der gesetzte Punkt ist folglich ein **Adresspunkt, kein bestätigter
+  Betriebseingang** von "B. Mugurel Schrotthändler". Eine Suche nach "Mugurel|Braica|Schrott" über die Felder name,
+  operator, brand, description, website, contact:website, shop, craft und addr:housename findet im Kachelausschnitt
+  **keinen** OSM-Betriebsbezug; der Betriebsbezug stützt sich allein auf Quelle 1. **Zurücknahme des `geo`-Tokens (Begründung):** der Token
+  `geo` wird aus `clear_fields` **entfernt**, weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed
+  `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md, GEO-Vertrag); der zuvor zurückgezogene
+  Produktionspunkt wird damit nicht mehr per Clear-Anweisung entfernt, sondern durch den belegten Adresspunkt ersetzt.
+  `status` bleibt `pruefung`, alle
+  übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer
+  Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/534547348.json ;
+  https://api.openstreetmap.org/api/0.6/way/320318062/full.json ;
+  https://xn--schrotthndler-mugurel-d2b.de/impressum ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.0,8.79,50.01 (Abruf 05.11.2026)]

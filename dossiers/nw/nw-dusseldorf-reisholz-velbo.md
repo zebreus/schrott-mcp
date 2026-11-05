@@ -82,3 +82,42 @@ Verzeichnisse führen VelBo Metall GmbH am Oerschbachstr. 41, Düsseldorf-Reisho
   https://www.11880.com/branchenbuch/duesseldorf/060444720B104538472/velbo-metall-gmbh.html ;
   https://web2.cylex.de/firma-home/velbo-metall-gmbh-11229001.html ;
   https://www.northdata.de/VelBo%20Metall%20GmbH,%20Moers/Amtsgericht%20Kleve%20HRB%2011896 (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung schließt den Fensterschwerpunkt
+  des Vermerks vom 03.11.2026 aus, findet die Straße aber weiterhin nicht.** Die Dossier-Hausnummer **41** existiert
+  auf der **„Oerschbachstraße"** in OSM **nicht**. **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das Kachelraster
+  **6.7700/51.2100 bis 6.8200/51.2400**, **15 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7700,51.2100,6.8200,51.2400) erfasst im Reisholzer
+  Stadtteilbereich **503** benannte Straßenways; die Namenssuche über alle gefundenen `addr:street`- und
+  `name`-Werte liefert **keinen** Treffer für „Oerschbachstraße" und **keine** Schreibvariante - als einzige
+  „bach"-Namen erscheinen **„Achenbachstraße"** und **„Bachstraße"**. Eine Suche über **alle** lokal vorgehaltenen
+  OSM-Kacheln (rund 1.900 Kacheln, mehr als 4 GB Kacheldaten) nach dem Zeichenbestand „Oerschbach" liefert **null**
+  Treffer. Die Raster vom 03.11.2026 (6.7900/51.2200 bis 6.8300/51.2600) umfassten zusätzlich den östlichen und
+  nördlichen Rand des Stadtteils; zusammen mit dem neuen Raster ist der Reisholzer Bereich abgedeckt. Ein Objekt mit
+  Betriebsbezug zu „VelBo" existiert im Raster **nicht**; eine Suche nach „VelBo" über die Felder name, operator,
+  brand, description, website, contact:website, note und addr:housename findet **keinen** Treffer - Aussage zum
+  OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2 (Verzeichnis/Register, im Dossier bereits zitiert):
+  die am 25.10.2026 erneut live gelesene 11880-Eintrag **„VelBo Metall GmbH"** nennt **Oerschbachstr. 41, 40589
+  Düsseldorf-Reisholz**, Telefon **0211 64132588** und Mo-Fr 08:00-16:00 / Sa 08:00-12:00 (Eintragsdaten 07.03.2025,
+  Portalaktualisierung 03.10.2026; die Angabe wurde am 05.11.2026 erneut abgerufen und ist unverändert); der
+  Verzeichniseintrag Cylex nennt für dieselbe Straße abweichend **40599**, und der Registerspiegel NorthData führt die
+  **VelBo Metall GmbH** unter **HRB 11896 AG Kleve** mit Sitz **Moers** (Eurotec-Ring 15, 47445 Moers) - die Düsseldorfer
+  Betriebsstätte ist damit **nicht** registerbelegt. **Warum keine Koordinate:** Ohne ein Objekt, das
+  `addr:street`=„Oerschbachstraße" und `addr:housenumber`=41 trägt, wäre jeder Punkt eine Ableitung aus einem fremden
+  Objekt oder einer Straßenmitte und damit eine unbelegte Vermutung über die Lage eines Hofes, dessen Betreiber- und
+  Registerbindung für diesen Ort **nicht** belegt ist. **Was zur Auflösung fehlt:** eine Kartierung der
+  Oerschbachstraße in OSM (oder ein Objekt, das die Anschrift trägt) **und** ein Betreiber- oder Registerbeleg für die
+  Reisholzer Niederlassung; die **PLZ-Abweichung 40589 gegenüber 40599** und die ungeklärten Zusatzkontakte 01516
+  3575784 und 0211 9796223 bleiben **offen**. Der bisher gespeicherte Produktionspunkt 51.2211243/6.7941432 (laut
+  read-only-Abgleich vom 25.10.2026 am Konrad-Adenauer-Platz in der Düsseldorfer Stadtmitte) wird durch diese Notiz
+  **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben
+  unverändert. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs wäre kein Existenz-
+  oder Schließungsbeweis; das Fehlen der Straße in OSM ist eine Kartierungslücke und **kein** Beleg für die Abwesenheit
+  eines Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.7700,51.2100,6.8200,51.2400 ;
+  https://www.11880.com/branchenbuch/duesseldorf/060444720B104538472/velbo-metall-gmbh.html ;
+  https://web2.cylex.de/firma-home/velbo-metall-gmbh-11229001.html ;
+  https://www.northdata.de/VelBo%20Metall%20GmbH,%20Moers/Amtsgericht%20Kleve%20HRB%2011896 (Abruf 05.11.2026).]
+

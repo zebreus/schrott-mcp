@@ -91,3 +91,44 @@ Mobile Betreiber-Sphäre Metzler/Jürgen Missal mit belegter kostenloser Altmeta
   Quelle(n): https://api.openstreetmap.org/api/0.6/way/318494685/full.json ;
   https://api.openstreetmap.org/api/0.6/way/88583555/full.json ; https://schrotthandel-metzler-essen.de/impressum/ ;
   https://www.11880.com/branchenbuch/essen-ruhr/120672194B37573047/markus-metzler-schrotthandel.html (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom
+  03.11.2026.** Für diese Zeile sind **zwei** Betriebsadressen im Umlauf, und der Adresskonflikt ist im Dossier
+  **ausdrücklich offen** (Owner-Gate vom 01.10.2026); eine Festlegung wäre eine Ermessensentscheidung und keine
+  geprüfte Geokodierung. **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** (a) **beide** Kandidaten sind in
+  OSM als Adressobjekte erfasst: **way/318494685** mit `addr:housenumber`=**4**, `addr:street`=Kalthofweg,
+  `addr:postcode`=**45277**, `addr:suburb`=Überruhr-Hinsel, `building`=yes (Mittel der **4** eindeutigen Way-Knoten
+  **51.4257355/7.0783742**, BBox 51.4256888/7.0783024 bis 51.4257824/7.0784476) und **way/88583555** mit
+  `addr:housenumber`=**32**, `addr:street`=Zum Oberhof, `addr:postcode`=**45307**, `building`=apartments (Mittel der
+  **4** eindeutigen Way-Knoten **51.4568962/7.0728580**, BBox 51.4568163/7.0727197 bis 51.4569761/7.0729962); die
+  beiden Objekte liegen rund **3,49 km** auseinander. (b) das Kachelraster **7.0500/51.4100 bis 7.1000/51.4800**, **35
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0500,51.4100,7.1000,51.4800) **umschließt beide Objekt-BBoxes
+  vollständig** und enthält die **„Kalthofweg“** (Verlauf 51.4257925/7.0779563 bis 51.4262281/7.0796087) mit **18** Adressobjekten; sie weist **18** verschiedene Hausnummern (1, 10, 11, 12, 13, 14, 15, 16, 18, 2, 20, 3, 4, 5, 6, 7, 8, 9) sowie den **Zum
+  Oberhof** (Verlauf 51.4555093/7.0687763 bis 51.4574307/7.0778756) mit **36** Adressobjekten; sie weist **36** verschiedene Hausnummern (1, 10, 11, 12, 13, 14, 15, 16, 17, 19, 2, 20, 21, 22, 23, 24, 26, 28, 3, 30, 32, 34, 36, 38, 4, 5, 50, 52, 6, 62, 64, 66, 68, 7, 8, 9) - **beide** Dossier-Hausnummern existieren in OSM. (c) beide
+  Objekte tragen **weder** `name=` **noch** `operator=`; eine Suche nach „Missal" und „Metzler" über die Felder name,
+  operator, brand, description, website, contact:website, note und addr:housename findet im Kachelausschnitt **keinen**
+  Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2 (Betreiber/Register, im Dossier
+  bereits zitiert):** das Impressum der Betreiber-Website **schrotthandel-metzler-essen.de/impressum** nennt **Jürgen
+  Missal** **und** den Vertretungsberechtigten **Markus Metzler** an **Kalthofweg 4, 45277 Essen** (Telefon **0170
+  3547895**, keine HRB, USt-ID nicht erteilt) - die Betreiberquelle spricht damit für Kalthofweg 4. Dagegen steht der
+  Verzeichniseintrag „Markus Metzler Schrotthandel", **Zum Oberhof 32, 45307 Essen** (11880), der die im Dossier
+  geführte Seed-Adresse trägt und der von den Betreiberseiten **nicht** erwähnt wird; beide Adressen sind in OSM
+  **Wohnobjekte ohne Betriebsbezug**. Die **Schwesterzeile** `nw-essen-schrott-und-metallhandel-j-missal` führt für die
+  Betreiberanschrift **Kalthofweg 4** dieselbe Quellenlage; dort ist die Anschrift gesetzt. **Warum keine Koordinate:**
+  Die Wahl zwischen den beiden Adressen bleibt eine Ermessensentscheidung, solange das Owner-Gate vom 01.10.2026 offen
+  ist; jeder Punkt würde eine Rollen- und Anschriftenkette behaupten, die keine Quelle trägt. **Was zur Auflösung
+  fehlt:** die Klärung, ob der Betrieb Missal oder der Betrieb Metzler an der jeweils anderen Anschrift sitzt
+  (Betreiberbestätigung oder Registerauszug); erst dann ist ein Punkt für diese Zeile setzbar. `street`/`postcode`
+  bleiben leer, `clear_fields: 'geo'` bleibt bestehen, `status: aktiv` bleibt unverändert, es wird **keine** Annahme-
+  oder Standortbehauptung aufgestellt. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer
+  Hausnummer wäre kein Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/318494685/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/88583555/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0500,51.4100,7.1000,51.4800 ;
+  https://schrotthandel-metzler-essen.de/impressum/ ;
+  https://www.11880.com/branchenbuch/essen-ruhr/120672194B37573047/markus-metzler-schrotthandel.html (im Dossier
+  zitiert, Abruf 05.11.2026).]
+

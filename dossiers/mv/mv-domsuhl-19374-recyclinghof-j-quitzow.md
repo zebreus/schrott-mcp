@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RAD Recyclinganlage Domsühl GmbH ist ein Entsorgungs- und Recyclingbetrieb mit Anlage in Domsühl, Damerower
+Landstraße 1b, 19374, der Schrott annimmt und Containerdienst, Logistik, Abfallberatung und Abbrucharbeiten
+anbietet. Das Impressum der Betreiberseite nennt dieselbe Anschrift mit Telefon 038 728 202 93 und der
+Schreibweise Recycling Anlage Domsühl GmbH, während der Registereintrag HRB 5915 Schwerin die Bezeichnung RAD
+Recyclinganlage Domsühl GmbH führt und die Umfirmierung von Recyclinghof J. Quitzow GmbH sowie einen
+Geschäftsführerwechsel 2024 dokumentiert; die Impressumsfirma weicht vom Register ab. Die Zeiten nennen Montag
+bis Freitag, samstags von März bis Oktober sowie die Be- und Entladung bis 16:30 Uhr. Offen bleibt die neu zu
+geocodierende Ortsangabe, die im Verzeichnis abweichend genannte Hausnummer 3 und ein zweites Dossier für
+dieselbe Gesellschaft und Anschrift, das nur cross-referenziert wurde.
 
 ## Timeline
 

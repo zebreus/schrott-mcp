@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Seed-Name „Ibo" ist keine Firmierung, sondern eine Kurzbezeichnung. Der passende
+Verzeichnislead lautet „Ibo Schrotthändler", Gartenstr. 10, 67547 Worms-Innenstadt, Branche
+Schrott; eine Betreiber-Website, ein Impressum, ein Registereintrag und eine
+Efb-Anerkennung sind nicht belegt. Die Identität stützt sich damit allein auf einen
+Aggregator-Lead; die amtliche Fachbetrieberegister-Übersicht für Worms (Auszug 11.08.2026)
+führt vier Betriebe und keinen Betrieb dieses Namens, was bei freiwilliger Anerkennung kein
+Nichtexistenzbeweis ist. OSM erfasst Gartenstraße 10 als Wohngebäude ohne Gewerbe-Tag und ohne
+Betriebsknoten. Offen bleibt damit die Existenz und die Zuordnung des Namens; die
+Telefonnummer des Leads wurde nicht übernommen, es wurde keine Koordinate gesetzt, und der Status
+steht auf Prüfung.
 
 ## Timeline
 

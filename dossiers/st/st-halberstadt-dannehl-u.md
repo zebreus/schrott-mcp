@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Dannehl U., Otto-Spielmann-Str. 5, 38820 Halberstadt: der Betrieb ist bislang
+nur über Schrottplatz-Portale belegt. Die Identität stützt sich allein auf Aggregator-Leads,
+schrottplatz-info.de und schrottplatz.org, die dieselbe Adresse und Telefonnummer nennen und
+die Branche Schrottplatz bzw. Fahrzeugrecycling ausweisen; eine Betreiber-Website, ein
+Register- oder Gewerberegister-Beleg und ein Gelbe-Seiten-Treffer fehlen. Offen bleiben damit
+Existenz und aktueller Stand des Betriebs sowie die Frage, unter welchem Namen er läuft. Das
+amtliche Fachbetrieberegister (Auszug 11.08.2026) führt für Halberstadt fünf Betriebe, keinen
+namens Dannehl, was bei freiwilliger Efb-Anerkennung kein Nichtexistenzbeweis ist; die
+Halberstädter Wertstoffhandel und Containerdienst GmbH & Co. KG wird nicht gleichgesetzt.
+Straße, PLZ und Telefonnummer blieben unübernommen, OSM kennt keinen adressgenauen Punkt.
 
 ## Timeline
 

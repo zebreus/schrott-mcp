@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MGD Recycling ist ein Einzelunternehmen in Lüdersdorf, Hauptstraße 27g, 23923, das Schrott und NE-Metalle
+annimmt und Container, Demontage sowie Abholung nach Vereinbarung anbietet. Das Impressum der Betreiberseite
+nennt Inhaber Marcello Hoffmann in zweiter Generation, die Telefonnummer 038821 679908, eine Mobilnummer und
+die Adresse mgd@mgd-recycling.de; die Annahmezeiten nennen Montag bis Freitag von 8 bis 17 Uhr und Samstag von
+9 bis 13 Uhr. Als Zweitbeleg führen die Verzeichnisse schrottfinder.de und schrottplatz.org dieselbe
+Anschrift. Der Dossier-Name nennt zusätzlich JD Schrott und Metall Recycling, dieser Bezug erscheint auf der
+Betreiber-Seite jedoch nicht, und die im Seed geführten Telefonnummern weichen von den betreiberseitig
+genannten ab, ohne als Vorläufer belegt zu sein. Offen bleiben daneben die Koordinaten, für die kein belegter
+Standortnachweis vorliegt, sowie eine Registerangabe, da es sich um ein Einzelunternehmen ohne HRB handelt.
 
 ## Timeline
 

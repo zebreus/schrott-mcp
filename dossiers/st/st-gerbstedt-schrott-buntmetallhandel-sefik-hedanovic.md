@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott Buntmetallhandel Sefik Hedanovic, Apfelborn 11, 06347 Gerbstedt (Ortsteil Hübitz,
+Gemeinde Siersleben): Schrott- und Buntmetallhandel mit Autohandel PKW und LKW, Entrümpelung,
+Entkernung von Metallen, Brennarbeiten und Abholung; angekauft werden Kupfer, Messing,
+Kupferkabel und weitere Buntmetalle ab 1000 kg zu Spitzenpreisen. Die Identität trägt die
+Betreiber-Website mit Impressumsseite, Geschäftsführung, Anschrift, Kontakt und USt-IdNr.,
+ergänzt um gleichlautende Verzeichnisse. Offen bleibt, dass das Impressum den Nachnamen
+durchgehend Hidanovic schreibt, das Dossier Hedanovic nennt und ein zweiter unabhängiger Beleg
+fehlt, dass die Impressumsanschrift die veraltete PLZ 06308 Siersleben nennt und zwei
+Telefonschreibweisen nebeneinander stehen; im amtlichen Fachbetrieberegister ist für Gerbstedt
+kein Betrieb dieses Namens geführt, ein Negativbefund ohne Beweiswert.
 
 ## Timeline
 

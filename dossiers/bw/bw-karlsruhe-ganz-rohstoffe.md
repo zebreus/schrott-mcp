@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ganz Rohstoffe GmbH, Fritschlachweg 15, 76189 Karlsruhe, mit Schrott- und NE-Metallankauf,
+Containerdienst und einer Fläche von 5000 Quadratmetern; das Impressum weist die
+Gesellschaft mit HRB 704296 beim Amtsgericht Mannheim und drei Geschäftsführern aus, die
+Kontakt- und Leistungsseiten belegen zusätzlich den Status als Entsorgungsfachbetrieb mit
+ISO 9001 und ISO 14001 sowie Öffnungszeiten, an denen freitags keine Barauszahlung
+stattfindet. Offen bleibt die Tiefe der Registerbelegung: Die Rechtsträgerangabe stammt aus
+dem Betreiber-Impressum, ein eigenständiger Registerabgleich fehlt, und die Zertifizierungen
+sind ebenfalls nur Betreiberangaben. Ein Preis für Schrott oder Container ist nirgends
+ausgewiesen, das Dossier führt keine Koordinaten, und nach dem Adress-Fill ist eine
+Neugeokodierung zu erwarten.
 
 ## Timeline
 

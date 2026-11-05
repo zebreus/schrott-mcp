@@ -76,3 +76,33 @@ Ein einzelner Das-Örtliche-Lead nennt Karl-Heinz Völker, Ginseldorfer Weg 44, 
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.7660,50.8190,8.7860,50.8390 ;
   https://www.dasoertliche.de/Themen/Schrott/M%C3%BCnchen-Pasing.html ;
   https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ; read-only `public.db` (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **44** auf dem "Ginseldorfer Weg" in Marburg **existiert in OSM**; nicht belegt ist der **Betrieb**.
+  Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das live abgerufene Kachelraster
+  über den Marburger Ortsbereich umfasst **8.7700/50.8200 bis 8.7850/50.8350**, **4 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**, 11188 Elemente; die Straße "Ginseldorfer Weg" ist dort mit **40** Adressobjekten und **39** verschiedenen
+  Hausnummern erfasst (4, 4a, 4b, 6, 8, 10, 12, 14, 14A, 16, 18, 20, 22, 24, 24a, 24b, 26, 26a, 28, 30, 32, 34, 36, 36a,
+  36b, 38, 40, 42, **44**, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64) - die Dossier-Hausnummer 44 ist im Raster das **einzige**
+  Objekt mit dieser Nummer. node/11085812784, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/node/11085812784.json - bei Nodes liefert `/full.json` HTTP 404, deshalb
+  `node/<id>.json`), trägt `addr:housenumber`=44, `addr:street`=Ginseldorfer Weg, `addr:postcode`=35039, `addr:city`=Marburg;
+  der Adressknoten hat genau **1** eindeutigen Knoten, Objekt-BBox 8.7766734/50.8290542 bis 8.7766734/50.8290542, der Punkt
+  läge innerhalb. **Betriebsbezug in OSM:** keiner - das Objekt trägt **weder** `name` **noch** `operator`; die Suche nach
+  "Schrott|Völker|Voelker|Müller" über die Felder name, operator, brand, description, website, contact:website, shop, craft
+  und addr:housename findet im Kachelausschnitt **keinen** Treffer; die benannten Objekte der Straße sind Fremdbetriebe
+  (u. a. `name`=Bügler's Kiosk am Eck, `name`=Missionshaus mit `operator`=Evangelische Elisabethkirchengemeinde). Quelle 2
+  (Betreiber/Register): **fehlt für diesen Seed** - das Dossier führt die Adresse nur über einen einzelnen Das-Örtliche-Lead
+  ("Karl-Heinz Völker, Ginseldorfer Weg 44, 35039 Marburg, Telefon/Fax 06421 66176, Rubrik Schrott"; an derselben Adresse
+  wird auch Silvia Müller Schrotthandel geführt); das amtliche Handelsregister führt "Marburger Rohstoffverwertung Johannes
+  Voelker GmbH", AG Marburg HRB 1784, **Niederwettersche Str. 4, 35094 Lahntal** - eine andere Person und ein **anderer
+  Ort**; die beiden Einträge werden ausdrücklich nicht zusammengeführt, die Maintaler Verwechslung bleibt ausgeschlossen.
+  **Warum keine Koordinate:** es liegt eine belegte **Anschrift** vor, aber **kein** belegter **Betrieb**; der
+  `clear_fields: 'geo'`-Eintrag bleibt bestehen, der gespeicherte Altpunkt 50.8014500/8.7639000 wird damit ohnehin
+  zurückgenommen; `status` bleibt `pruefung`. **Reichweitenklausel:** das Fehlen eines Betreiber- oder Registerbelegs ist
+  **kein** Nichtexistenz- oder Schließungsbeweis; die Anschrift ist in OSM belegt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/node/11085812784.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.77,50.82,8.785,50.835 ;
+  https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml (Abruf 05.11.2026)]
