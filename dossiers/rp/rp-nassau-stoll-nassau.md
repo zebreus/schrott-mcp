@@ -93,7 +93,7 @@ Verzeichnisprofile führen „Schrott und Metallhandel Stoll“, Bahnhofstr. 16,
 - [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Die Dossier-Hausnummer **16** findet sich in OSM auf
   der Dossier-Straße **Bahnhofstraße** in Nassau **nicht**; ein Punkt wäre geraten, deshalb wird bewusst **keine**
   Koordinate gesetzt. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster (0,01°-Kacheln):** **bbox=7.7850,
-  50.3050,7.8150,50.3200** = 6 Kacheln à 0,01° (7.7850/50.3050/7.7950/50.3150, 7.7850/50.3150/7.7950/50.3250,
+  50.3050,7.8150,50.3250** = 6 Kacheln à 0,01° (7.7850/50.3050/7.7950/50.3150, 7.7850/50.3150/7.7950/50.3250,
   7.7950/50.3050/7.8050/50.3150, 7.7950/50.3150/7.8050/50.3250, 7.8050/50.3050/7.8150/50.3150, 7.8050/50.3150/7.8150/
   50.3250), live abgerufen am 05.11.2026; **Zensus:** die Straße **Bahnhofstraße** ist in OSM durchgängig kartiert und
   trägt **16** Adressobjekte mit **15** verschiedenen Hausnummern (**1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 14a,
@@ -117,7 +117,7 @@ Verzeichnisprofile führen „Schrott und Metallhandel Stoll“, Bahnhofstr. 16,
   und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel schrottregister.pages.dev) kennt
   für **Nassau (56377)** **keinen** Betrieb; eine Suche im vollständigen Registerdatensatz (4.507 Einträge) nach
   „**Stoll**" liefert **0** Treffer. **Quelle 2 (OSM):** die Straße und die oben genannten Adressobjekte (live abgerufen
-  05.11.2026 über das Kachelraster bbox=7.7850,50.3050,7.8150,50.3200). **Was fehlt:** ein OSM-Objekt mit
+  05.11.2026 über das Kachelraster bbox=7.7850,50.3050,7.8150,50.3250). **Was fehlt:** ein OSM-Objekt mit
   `addr:street`=Bahnhofstraße **und** `addr:housenumber`=16 (oder ein benanntes Betriebsobjekt an dieser Anschrift)
   **sowie** eine Betreiber- oder Registerquelle, die die Nummer 16 bestätigt. Der im Dossier dokumentierte Straßeneintrag
   „Stoll Nassau Nassau Bahnhofstr. 16" bleibt ein Importartefakt und wird **nicht** übernommen; `status` bleibt

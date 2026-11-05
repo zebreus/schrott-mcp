@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Altfahrzeugverwertung-Bescheinigung (amtliches Fachbetrieberegister, Route „Altfahrzeugverwertung“, Detaildialog wörtlich: „Bezeichnung Autoverwertung Rottegger GmbH“, „Adresse Ingolstädter Landstraße 4, 85748 Garching-Hochbrück“, „Vorgangsnummer ZAIS00100010“, „Bescheinigungsanlagennr. 1“, „Kennnummer I184E0259;I184E0259“, „Telefon 089 3150598“, „E-Mail info@autoverwertung-rottegger.de“, „Ansprechpartnerin Frau Rottegger Irmgard“; Abruf 05.11.2026; kein Zertifikats-PDF hinterlegt, daher keine 12-stellige Vorgangsnummer ausgewiesen; Standortzuordnung: Dossier-Standort, die Adressdifferenz der Hausnummer (Register 4, Dossier 18, Impressum 4 – 18) ist im Vermerk benannt)"]'
 provenance_section: Nachtrag Wide-Net (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

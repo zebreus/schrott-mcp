@@ -58,9 +58,12 @@ Die Nürnberger Straße ist laut Betreiberseite die Gründungsadresse von 1968, 
   stimmen mit der im Dossier belegten Anschrift **Mainstraße 3, 96052 Bamberg** überein. **Fensterdisziplin:** das am
   05.11.2026 live abgefragte Kachelraster umfasst **10.8600/49.9000 bis 10.8900/49.9200**, **6 Kacheln von je 0,01
   Grad** um die Hausnummer herum mit **52 942 Elementen** und **0 Kachel-Fehlern**
-  (https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8600,49.9000,10.8900,49.9200); es **umschließt die
-  Objekt-BBox vollständig** und enthält die **„Mainstraße“** nachweislich und vollständig mit den Straßenobjekten
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8600,49.9000,10.8900,49.9200); es umschließt die Objekt-BBox **bis auf einen Überhang nach Westen** — der westlichste
+  Knoten der „Mainstraße“ liegt bei 10.8596837, das Fenster beginnt bei 10.8600, **8 von 27 Knoten**
+  liegen damit rund **23 m** außerhalb — und enthält die **„Mainstraße“** mit den Straßenobjekten
   way/324941054, way/324941055, way/4325231, way/324941056 (Verlauf 49.9077936/10.8596837 bis 49.9108480/10.8682849);
+  die gesetzte Koordinate ist der Mittelwert der eindeutigen Knoten des Adressobjekts way/89320800 und
+  liegt innerhalb dessen BBox;
   sie trägt im Fenster **3 Adressobjekte** und weist **3 verschiedene Hausnummern** (2, 3, 10) - die
   **Dossier-Hausnummer 3 existiert in OSM objektgenau**. Die Lage deckt sich mit der Dossier-Angabe „im Bamberger
   Hafen“: im selben Fenster liegen die **Hafenstraße** (way/452718913, way/1414418312 bis way/1414418314,
