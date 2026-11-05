@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoankauf Potsdam, Verkehrshof 12, 14478 Potsdam Bergholz-Rehbrücke: Autoankauf und
+Gebrauchtwagenhandel des Einzelunternehmens Autoankauf Lindemann. Impressum und Kontaktseite
+nennen Heino Lindemann, die USt-IdNr. DE272658229, beide Rufnummern 0331 5858558 und 0179
+4855580 sowie die Zeiten Mo–Fr 10–19 Uhr und samstags nach Vereinbarung; benannt sind Ankauf,
+kostenlose Abmeldung, Verkauf über Kleinanzeigen, Auto-Export und Klimaservice. In
+OpenStreetMap trägt ein Objekt den Betrieb mit Name, Inhaber und beiden Rufnummern, aber ohne
+Hausnummer; die Hausnummer 12 wird dort von drei fremden Betrieben belegt, deren Lage zur
+Betreiberseite passt. Verzeichniseinträge führen abweichende Rufnummern und weitere
+gleichnamige Betriebe an anderen Anschriften. Offen bleibt die Zuordnung zur Hausnummer 12 und
+jede Preisangabe, da lediglich ein faires Angebot zugesagt wird.
 
 ## Timeline
 

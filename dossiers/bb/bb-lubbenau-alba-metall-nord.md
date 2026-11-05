@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, Betriebsstätte Lübbenau, Nordstraße 4, 03222 Lübbenau:
+Metallrecyclingbetrieb der ALBA-Gruppe, der nach der Standortseite in einer zertifizierten
+Betriebsstätte alle gängigen Schrott- und Metallsorten wie Eisenschrott, Messing, Kupfer und
+Aluminium entgegennimmt. Die Betreiberidentität ist über das Register belegt (ALBA Metall Nord
+GmbH, Amtsgericht Rostock HRB 181); Standortseite und Impressum der Gruppe nennen die
+Anschrift, die Rufnummer +49 3542 2567, die Adresse luebbenau.metall@alba.info und die Zeiten
+Mo–Fr 7:00–9:00, 9:30–12:00 und 12:30–16:00 Uhr. Das Sortenprogramm der Gruppe umfasst 17
+Gruppen, ohne einen einzigen Eurobetrag. Ein Ankaufpreis wird nicht veröffentlicht, auch nicht
+in den Webarchiv-Snapshots; der ALBA-Shop-Containerpreis von 119 Euro ist eine Gebühr und kein
+Ankaufpreis. Offen bleibt damit die Preislage des Standorts.
 
 ## Timeline
 

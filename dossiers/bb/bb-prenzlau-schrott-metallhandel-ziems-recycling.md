@@ -24,13 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
-Der Prenzlauer Standort der ZIEMS-Gruppe existiert nicht mehr. Das **Betreiber-Portal** ziems-recycling.de weist **fünf Standorte** aus — Malchow, Malchin, Gnoien, Waren (Müritz) und Stralsund, alle in Mecklenburg-Vorpommern; **Prenzlau fehlt**, und das Impressum nennt als Rechtsträger die **Ziems Recycling Malchow GmbH & Co. KG**, Am Bahnhof, 17213 Malchow (nicht „Schrott- & Metallhandel ZIEMS Recycling GmbH“). Das **amtliche Firmenverzeichnis der Stadt Prenzlau** liefert für die Suche „ZIEMS“ **„Die Suche ergab keine Treffer“** und führt stattdessen die **PSR – Prenzlauer Schrott-Recycling GmbH**, Schrotthandel, **Brüssower Allee 90**, mit `psr-recycling.de` — die Rufnummer der Seed-Zeile (03984 859110) liegt heute bei diesem Nachfolger. Das amtliche Fachbetrieberegister kennt für Prenzlau (17291) drei Betriebe (Autoverwertung Klinkow GbR, „Prenzlau“ Stettiner Straße 79, Uckermärkische Dienstleistungsgesellschaft) — **keinen ZIEMS-Eintrag**; in OpenStreetMap existiert an der **Grabowstraße 52** kein ZIEMS-Objekt.
-
-**Status:** `pruefung` bleibt. Die Belege dokumentieren einen **nicht mehr betriebenen Standort** (Betreiber-Delistierung, städtisches Verzeichnis ohne Eintrag, Rufnummer beim Nachfolger, kein Registereintrag, kein OSM-Objekt) — die Umstellung auf `geschlossen` ist eine **Owner-Entscheidung**, weil der vom Seed benannte Rechtsträger „Schrott- & Metallhandel ZIEMS Recycling GmbH“ in keinem Register identifizierbar ist und die Repo-Semantik für `geschlossen` einen belegten Eintragsschluss verlangt.
-
-**Ankauf/Verkauf/Gebühren:** für den Prenzlauer Standort nichts belegt. Die **Gruppe** bietet an ihren aktiven Standorten „Aufkauf, Abholung und Entsorgung“ von Schrott, Bau- und Abbruchmaterialien, Buntmetallen, Sperrmüll, Folien/Kunststoffen, Grünschnitt, Altautos, Batterien und Reifen an, „Verkauf von Nutzmaterial“, zugelassener Altautodemontagebetrieb, Abholung von Kleinstmengen mit Kleintransporter, LKW-Waage bis 50 t, Feinwaage für Buntmetalle, Containerdienst 7 cbm/34 cbm — **ohne jeden Zahlenpreis**.
+Schrott- & Metallhandel ZIEMS Recycling GmbH, Grabowstraße 52, 17291 Prenzlau: Dossier zu einem
+nach den Belegen nicht mehr betriebenen Standort. Das Betreiber-Portal ziems-recycling.de führt
+fünf Standorte in Mecklenburg-Vorpommern, Prenzlau ist nicht dabei, und das Impressum nennt als
+Rechtsträger die Ziems Recycling Malchow GmbH & Co. KG. Das amtliche Firmenverzeichnis der
+Stadt Prenzlau findet für ZIEMS keine Treffer und führt stattdessen die PSR – Prenzlauer
+Schrott-Recycling GmbH am Brüssower Allee 90, wo auch die Rufnummer 03984 859110 heute liegt.
+Das amtliche Fachbetrieberegister kennt für Prenzlau keinen ZIEMS-Eintrag, und in OpenStreetMap
+existiert an der Grabowstraße 52 kein ZIEMS-Objekt. Offen bleibt, ob es einen registerlich
+fassbaren Rechtsträger mit dem im Seed genannten Namen gab; die Umstellung auf geschlossen ist
+eine Owner-Entscheidung. Für den Standort ist kein Ankaufpreis belegt.
 
 ## Timeline
 

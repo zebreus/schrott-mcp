@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, Betriebsstätte Döberitz, Am Hafen 22, 14727 Premnitz OT Döberitz:
+Metallrecyclingbetrieb der ALBA-Gruppe an einer Hafenlage. Die Betreiberidentität ist über das
+Register belegt (ALBA Metall Nord GmbH, Amtsgericht Rostock HRB 181); Standortseite und
+Impressum der Gruppe nennen die Anschrift, die Rufnummer +49 3386 200110, die Adresse
+doeberitz.metall@alba.info und die Zeiten Mo–Fr 7:00–12:00 und 12:30–16:00 Uhr. Die
+Standortseite hält fest, dass eine Annahme schon ab Kleinstmengen möglich ist, ohne einen
+Betrag zu nennen. Das Sortenprogramm der Gruppe umfasst 17 Gruppen ohne jeden Eurobetrag; ein
+Ankaufpreis wird nicht veröffentlicht, auch nicht in den Webarchiv-Snapshots, und der
+ALBA-Shop-Containerpreis von 119 Euro ist eine Gebühr. Offen bleibt die Preislage des
+Standorts.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+EXCHANGE AG (Mehringdamm), Mehringdamm 70, 10961 Berlin Friedrichshain-Kreuzberg:
+Goldankaufsfiliale mit An- und Verkauf von Anlagegold und -silber in Münzen und Barren,
+Beleihung von hochwertigen Uhren sowie Geldwechsel; Schrott und Buntmetalle gehören nicht zum
+Sortiment. Die Betreiber-Filialseite nennt Anschrift, Rufnummer +49 30 788 969 45, die
+Filialadresse mehringdamm@exchange-ag.de, die Zeiten Mo–Fr 09:30–18:00 Uhr und samstags
+geschlossen sowie die Filialleitung. Gold- und Wechselkurse werden in getrennten Spalten für
+Ankauf und Verkauf veröffentlicht. Die Anschrift ist zusätzlich in OpenStreetMap erfasst, wo
+ein Objekt den Namen Exchange AG mit abweichenden Öffnungszeiten trägt, während die Hausnummer
+70 von zwei Adressobjekten mit Korrekturnotizen erfasst ist. Offen bleibt ein Impressum mit
+Firmierung und Handelsregisternummer für die Berliner Filiale.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metall-Schrott-Berlin war ein Altmetallhändler am Storkower Straße 48, 10409
+Berlin-Prenzlauer Berg, mit Schrott-Abholung, Klein-Transporten, Wohnungsauflösungen und
+Entrümpelungen. Belege sind ausschließlich archivierte Betreiber-Seiten von 2014; das
+Impressum bezeichnet die Anschrift ausdrücklich als Büro ohne Schrottannahme, die
+Inhaberangabe Frank Mutschmann und die Rufnummern stammen allein aus Aggregator-Einträgen
+ohne Register- und ohne Betreiber-Social. Die Betreiber-Domain ist nicht mehr auflösbar, der
+Abruf läuft in einen Timeout, weshalb der Website-Zustand als tot geführt wird; die Anschrift
+ist über OSM bestätigt, ein Objekt mit Bezug zum Betrieb existiert dort nicht. Offen bleibt,
+ob der Betrieb heute noch besteht - ohne erreichbare Website und ohne Registernachweis nicht
+entscheidbar - und alle aktuellen Angaben zu Ankauf, Verkauf, Gebühren und Öffnungszeiten.
 
 ## Timeline
 

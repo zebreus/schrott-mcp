@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Trennwerk Metallverwertung tritt zugleich als Trennwerk Abbruch und Entsorgung auf, hat
+die Postadresse Hebelstraße 13, 79356 Eichstetten und arbeitet ausschließlich mit Abholung
+vor Ort; eine Annahmestelle ist nicht belegt, die Schrottseite nennt für Freiburg keinen
+Annahmepunkt. Die Belegkette besteht aus der Betreiber-Seite schrotthandel-freiburg.de, der
+Schwester-Domain trennwerkae.de mit derselben Anschrift und der Mail kontakt@trennwerkae.de;
+die Schwester-Domain ist keine unabhängige Quelle. Die Telefonnummer ist zwischen beiden
+Domains unterschiedlich angegeben, 0160 7261051 auf der Schrottseite und 0160 97719497 auf
+der Abbruch-Seite. Ein weiterer Verzeichnisstreffer an derselben Adresse ist ein anderes
+Unternehmen. Offen bleiben die Telefonabweichung, die fehlende Registeranmeldung, jede
+Preisangabe und die Frage der Anlieferung, die bewusst als unbekannt geführt wird.
 
 ## Timeline
 

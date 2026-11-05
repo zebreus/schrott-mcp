@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+K&M Automobile, Drontheimer Straße 26, 13359 Berlin Mitte: Autoverwertung mit Schwerpunkt
+Mercedes-Benz, die Ersatzteile aufbereitet und Gebrauchtwagen verkauft. Betreiber-Website und
+Impressum nennen Inhaber R. Kendzierski, die Anschrift, die Rufnummer +49 30 48099666, die
+Faxnummer, die E-Mail-Adresse k-m.automobile@t-online.de und die Bürozeiten Mo–Do 9–17 Uhr und
+Fr 9–15 Uhr. Als zweite unabhängige Quelle führt die Liste der anerkannten Demontagebetriebe
+für Altfahrzeuge des Landes Berlin denselben Betrieb mit derselben Anschrift und Telefonnummer
+sowie der Nummer L 27312060; der Zweitbeleg-Standard ist damit erfüllt und der Status aktiv.
+Offen bleibt, dass die Firma als Einzelunternehmen ohne Handelsregistereintrag geführt wird,
+und dass die Telefonnummer ursprünglich aus einem Verzeichniseintrag stammt.
 
 ## Timeline
 

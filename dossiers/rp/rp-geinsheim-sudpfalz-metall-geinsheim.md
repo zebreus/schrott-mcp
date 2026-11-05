@@ -91,3 +91,47 @@ Die Namensvetter-Kette ist damit sauber getrennt: **Südpfalz Metall GmbH**, Jan
   03.11.2026) ;
   https://web.archive.org/web/20260113213658/https://suedpfalz-metall.de/index.php?option=com_content&view=article&id=2:impressum&catid=8:impressum&Itemid=239
   (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Die Dossier-Straße **Böbinger Straße** ist in OSM
+  **nicht** kartiert; die Dossier-Hausnummer **9** findet sich dort **nicht**, und die im Dossier dokumentierte
+  **Mehrfachnutzung** der Hausnummer 9 durch die **ah-drucktechnik GmbH** (HRB 64280) hätte einen Punkt auf ein
+  **fremdes** Gebäude gesetzt. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster (0,01°-Kacheln):**
+  **bbox=8.1350,49.3500,8.1550,49.3700** = 4 Kacheln à 0,01° (8.1350/49.3500/8.1450/49.3600, 8.1350/49.3600/8.1450/
+  49.3700, 8.1450/49.3500/8.1550/49.3600, 8.1450/49.3600/8.1550/49.3700), live abgerufen am 05.11.2026, ergänzt um das
+  umliegende 0,02°-Raster **bbox=8.1300,49.3450,8.1800,49.3850** (4 Kacheln, live abgerufen 05.11.2026), das den
+  Ortsteil **Geinsheim** und den Neustädter Stadtbereich vollständig umfasst. **Zensus:** im 0,01°-Fenster **2.561**
+  Adressobjekte und **123** namentliche Straßen, im 0,02°-Raster **107.832** Elemente; eine Suche über **alle**
+  Tag-Werte nach „**böb**", „**bob**", „**böbinger**" oder „**bogner**" liefert **keine** Straße mit Adressobjekten -
+  eine Straße namens **„Böbinger Straße" existiert dort nicht**; die ähnlichste Schreibweise **„Bögnerweg"** (ein
+  **anderer** Straßenname, keine Schreibvariante) trägt im 0,01°-Fenster **0** Adressobjekte; eine Suche nach
+  `addr:housenumber`=**9** im gesamten 0,01°-Fenster liefert **0 Objekte**. Der Ortsname **„Böbig"** ist in Neustadt
+  zwar kartiert (Bahnhofsvorplatz Böbig, Sporthalle Schulzentrum Böbig, Grünzug Böbig) - eine **Fläche**, keine Straße
+  mit der Dossier-Nummer. Eine Suche über **alle** Tag-Werte nach „**südpfalz**", „**glaser**" oder „**schrott**" liefert
+  **0 Treffer** - der Betrieb ist in OSM **nicht namentlich kartiert**. (b) **Quelle 1 (Betreiber/Register):** das
+  **archivierte Impressum** (Internet Archive, Snapshot 13.01.2026, live abgerufen 03.11.2026,
+  https://web.archive.org/web/20260113213658/https://suedpfalz-metall.de/index.php?option=com_content&view=article&id=2:impressum&catid=8:impressum&Itemid=239)
+  mit „**Südpfalz Metall, Benjamin Glaser, Böbinger Straße 9, 67435 Neustadt**", USt-IdNr. **DE359650878** (vom
+  **EU-VIES** am 27.10.2026 als gültig bestätigt, im Dossier zitiert) - die **Adresse** ist damit zweifach belegt, der
+  **OSM-Punkt** fehlt. **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der Gemeinsamen Stelle
+  Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) führt für **67435** genau **zwei** Betriebe: „**Autoverwertung Meyer Inhaber Sascha Meyer**"
+  (Im Altenschemel 40 a) und „**Sascha Meyer Schrott und Metallhandel**" - **keinen** Eintrag „Südpfalz Metall"; eine
+  Efb-/AltfahrzeugV-Anerkennung für die Dossier-Firma ist damit **nicht belegt**. (c) **Was fehlt:** ein OSM-Objekt mit
+  `addr:street`=Böbinger Straße **und** `addr:housenumber`=9 (oder ein benanntes Betriebsobjekt an dieser Anschrift)
+  sowie die Klärung, welche der beiden Nutzer die Annahme betreibt - die im Dossier dokumentierte **Namensvetter-
+  Kette** zur **Südpfalz Metall GmbH, Janneck Knecht, Am Bellensee 6, 76865 Rohrbach, HRB 33727** (eigenes Dossier)
+  bleibt davon getrennt. `status` bleibt **pruefung**, `website_status` bleibt **tot** (Domain-Umleitung auf eine
+  sachfremde Domain), `phone`/`opening_hours` bleiben leer. **Reichweitenklausel:** Das Fehlen einer Hausnummer, einer
+  Straße oder einer Efb-Anerkennung in OSM ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1350,49.3500,8.1450,49.3600 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1350,49.3600,8.1450,49.3700 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1450,49.3500,8.1550,49.3600 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1450,49.3600,8.1550,49.3700 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1300,49.3450,8.1600,49.3650 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1500,49.3450,8.1800,49.3650 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1300,49.3650,8.1600,49.3850 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1500,49.3650,8.1800,49.3850 ;
+  https://schrottregister.pages.dev/ort-neustadt-an-der-weinstrasse ; https://schrottregister.pages.dev/assets/institute.json ;
+  Recherche-Vermerke vom 03.11.2026 im Dossier (live abgerufen 05.11.2026).]

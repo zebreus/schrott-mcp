@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+rebuy recommerce GmbH, Köpenicker Straße 40-41, 10179 Berlin Mitte: bundesweiter Ankäufer
+gebrauchter Elektronik, der Geräte bewertet und weiterverkauft; ein Schrott- oder Metallhandel
+ist nicht gegeben. Das Handelsregister führt die Gesellschaft, auch unter der Firmierung
+trade-a-game GmbH, mit HRB 109344 B beim Amtsgericht Charlottenburg und weist als Sitz
+Erkelenzdamm 11-13 in 10999 Berlin aus; die Anschriftshistorie nennt Dieffenbachstraße 33,
+Kanalstraße 139 und Potsdamer Straße 188. Das eigene Impressum bestätigt die Sitzanschrift und
+nennt zusätzlich die rebuy recommerce services GmbH & Co. KG. Die Seed-Adresse Köpenicker
+Straße 40-41 ist durch das Register nicht gedeckt und wurde deshalb nicht überschrieben. Offen
+bleibt, welche der belegten Berliner Adressen zutrifft und ob die Einordnung als Schrotthändler
+zu streichen ist; ein Ankaufskurs wird nicht veröffentlicht.
 
 ## Timeline
 - [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Im Dossier stand „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe. Das Feld ist jetzt **leer** (unbekannt) und `clear_fields: 'phone'` nimmt den in der Produktion gespeicherten Platzhalter beim nächsten regulären Seed zurück; es wird **keine** Nummer erfunden. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]

@@ -82,3 +82,54 @@ Der Seed „Schrotthandel R&A" ist durch zwei unabhängige Verzeichnisse gedeckt
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5450,50.3350,7.6050,50.3750 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.gelbeseiten.de/gsbiz/f3e15f7e-7279-4692-86b1-1504b98cf884 ;
   https://www.schrottplatz.org/koblenz/schrott-schrotthandel-ra-aYEPwO.html (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die zweite unabhängige Quelle fehlt.** Der
+  OSM-Befund der Vorphase ist **live bestätigt** und der Adresspunkt **eindeutig**, aber die Dossier-Adresse stammt
+  ausschließlich aus **zwei Verzeichnissen**, und nach der README-Quellenhierarchie sind Verzeichnisse ausdrücklich
+  **Leads, nie Evidenz** - zwei Verzeichnisse sind zudem **keine** zwei voneinander unabhängigen Quellen im Sinne der
+  Zwei-Quellen-Regel. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster (0,02°-Kacheln):**
+  **bbox=7.5550,50.3350,7.6050,50.3750** = 6 Kacheln à 0,02° (7.5550/50.3350/7.5750/50.3550, 7.5550/50.3550/7.5750/
+  50.3750, 7.5750/50.3350/7.5950/50.3550, 7.5750/50.3550/7.5950/50.3750, 7.5950/50.3350/7.6050/50.3550,
+  7.5950/50.3550/7.6050/50.3750), live abgerufen am 05.11.2026; **Zensus:** **8.898** Adressobjekte und **392**
+  namentliche Straßen im Fenster. Die Straße **Moselweißer Straße** (Koblenz-Rauental) trägt **95** Adressobjekte mit den
+  Nummern 1, 2b, 3, 4, 5, 6, 7, 8, 10, 12, 16, 18, **20**, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 30a, 31, 32, 33, 34,
+  34a, 36, 37, 38, 40, 42-46, 43, 45, 47, 47a, 48, 48-52, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63,
+  64, 65, 66, 66A, 67, 68, 69, 70, 71, 73, 75, 77, 78, 79, 81, 83, 85, 101-103, 105, 107, 115, 116, 117-119, 121,
+  122, 123, 124, 125, 192, 194 - die **Hausnummer 20 ist genau einmal** belegt und damit eindeutig. Eine Suche über
+  **alle** Tag-Werte nach „**R&A**" bzw. einem Schrottbetrieb im Fenster liefert **4** Treffer, von denen **einer** ein
+  **Schrottplatz** ist: **way/1265664115** mit `industrial`=**scrap_yard**, `name`=**„Schrotthandel M. Schneider u.
+  Sohn"**, `addr:street`=**Peter-Klöckner-Straße**, `addr:housenumber`=**2A**, `addr:postcode`=56073, `mobile`=+49 175
+  3737011 - ein **anderer Betrieb**, **nicht** „Schrotthandel R&A"; die übrigen drei Treffer sind eine Überwachungskamera,
+  das „Dienstleistungscenter" der GZ Service Koblenz GmbH und ein Krankenhausgebäude. (b) **Objekt (live geladen):**
+  **node/13307227200** mit `addr:housenumber`=**20**, `addr:street`=**Moselweißer Straße**, `addr:city`=**Koblenz**,
+  `addr:postcode`=**56073**, `addr:suburb`=**Rauental** (live am 05.11.2026 über
+  https://api.openstreetmap.org/api/0.6/node/13307227200.json); Punkt **50.3613280/7.5841080** (BBox identisch, Punkt
+  liegt **innerhalb**). Der Knoten trägt **weder `name=` noch `operator=`** - der Betrieb ist in OSM **nicht namentlich
+  kartiert**. (c) **Quelle 1 (Verzeichnis):** Die **Gelbe-Seiten-Detailseite** (live abgerufen 05.11.2026, HTTP 200,
+  https://www.gelbeseiten.de/gsbiz/f3e15f7e-7279-4692-86b1-1504b98cf884, Titel „Schrotthandel R&A in 56073
+  Koblenz-Rauental") führt „**Schrotthandel R&A**" mit „**Moselweißer Str. 20, 56073 Koblenz-Rauental**", Telefon
+  **0176 65 07 34 77**, Branche „Schrott"; der **Website-Button des Eintrags ist inaktiv** - es gibt also **keine**
+  Betreiberseite. Das **Schrottplatz-Portal** (live abgerufen 03.11.2026, HTTP 200,
+  https://www.schrottplatz.org/koblenz/schrott-schrotthandel-ra-aYEPwO.html) nennt denselben Betrieb mit derselben
+  Anschrift. Beides sind **Verzeichnisse**; eine **Betreiberseite**, ein **Impressum** oder ein **Registereintrag** zu
+  „Schrotthandel R&A" existiert **nicht**. **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der
+  Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) führt für **56073 Koblenz** **keinen** Betrieb. **Quelle 2 (OSM):** node/13307227200 und
+  die übrigen Adressobjekte der Moselweißer Straße (live abgerufen 05.11.2026 über das Kachelraster). **Was fehlt:** eine
+  **Betreiber- oder Registerquelle**, die den Betrieb an dieser Anschrift bestätigt. Der im Dossier dokumentierte
+  Befund, dass der zuvor gespeicherte Produktionspunkt (50.3540142857143/7.5774) rückwärts auf „2, Devorastraße,
+  Goldgrube" auflöst und dort zum **anderen** Betrieb „Schrottplatz 1A Schrotthandel & Entrümpelungen" gehört, bleibt
+  **unverändert** - der Punkt wird **nicht** übernommen. `status` bleibt **pruefung**, `clear_fields: 'geo'` bleibt
+  bestehen. **Reichweitenklausel:** Das Fehlen eines Betreiber- oder Registerbelegs ist **kein** Existenz- oder
+  Schließungsbeweis. Quelle(n): https://api.openstreetmap.org/api/0.6/node/13307227200.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5550,50.3350,7.5750,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5550,50.3550,7.5750,50.3750 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5750,50.3350,7.5950,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5750,50.3550,7.5950,50.3750 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5950,50.3350,7.6050,50.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5950,50.3550,7.6050,50.3750 ;
+  https://www.gelbeseiten.de/gsbiz/f3e15f7e-7279-4692-86b1-1504b98cf884 ;
+  https://schrottregister.pages.dev/ort-koblenz ; Recherche-Vermerke vom 27.10. und 03.11.2026 im Dossier (live abgerufen
+  05.11.2026).]

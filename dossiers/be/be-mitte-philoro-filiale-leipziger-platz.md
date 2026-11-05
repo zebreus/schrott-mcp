@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+philoro ist ein Edelmetallhändler mit Gold- und Dentalgold-Ankauf; die Filiale sitzt am
+Leipziger Platz 1, 10117 Berlin-Mitte und führt laut Seed-Unterlage einen Altgold-Rechner.
+Als Kontakt sind die Mail berlin@philoro.de und die Öffnungszeiten Mo-Fr 10-18, Sa 10-15
+geführt. Belegt ist bislang nur der Betreiberauftritt philoro.de/filialen/berlin, aus dem am
+28.10.2026 die Schreibweise der Anschrift übernommen wurde, ergänzt um die Seed-Adresse aus
+be.json; ein Impressum mit Rechtsform oder Registernummer fehlt im Dossier. Die Rufnummer +49
+30 206 33 99 50 wird laut Korrekturvermerk vom 28.10.2026 von einem 6h-Handler gepflegt, das
+Telefonfeld bleibt deshalb leer. Offen bleibt vor allem eine zweite unabhängige Quelle: weder
+Register- noch Impressumsangaben noch Ankaufkurse sind belegt, die Filialexistenz steht nur
+durch den Betreiberauftritt selbst fest.
 
 ## Timeline
 

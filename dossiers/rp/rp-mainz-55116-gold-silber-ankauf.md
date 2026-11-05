@@ -98,3 +98,46 @@ Aktuelle Betreiberübersicht und alle drei einzeln geprüften Standortseiten fü
   `status` bleibt **pruefung**, `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2600,49.9950,8.2900,50.0150 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.goldankauf-silber.de/impressum (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Es fehlt die **zweite unabhängige Quelle**: Die
+  Dossier-Adresse „**Flachsmarkt 5, 55116 Mainz**" stammt aus **Verzeichnis-Leads** (Gelbe Seiten und 11880), und die
+  **Betreiberquelle** (DEG e.K.) weist **keine Mainzer Filiale** aus. **Was geprüft wurde (live am 05.11.2026):**
+  (a) **Suchfenster (0,01°-Kacheln):** **bbox=8.2550,49.9950,8.2750,50.0150** = 4 Kacheln à 0,01° (8.2550/49.9950/8.2650/
+  50.0050, 8.2550/50.0050/8.2650/50.0150, 8.2650/49.9950/8.2750/50.0050, 8.2650/50.0050/8.2750/50.0150), live abgerufen
+  am 05.11.2026; **Zensus:** **2.810** Adressobjekte und **199** namentliche Straßen im Fenster. Auf der Straße
+  **Flachsmarkt** sind **18** Adressobjekte belegt (Nummern **1, 2, 3, 4-6, 7, 8, 10, 11, 16, 22, 24, 26, 28, 30, 32, 34,
+  38**; die **Flachsmarktstraße** und die **Hintere Flachsmarktstraße** sind die Straßennamen der Umgehung) - eine
+  eigenständige Nummer **5 existiert dort nicht**; der Bereichsknoten mit `addr:housenumber`=**4-6** (node/1642994070,
+  `addr:street`=Flachsmarkt, `addr:postcode`=55116, `addr:city`=Mainz) ist ein **Bereichs-, kein Einzelobjekt**. Die
+  benannten Adressobjekte der Straße sind **Gerino Barba** (hn=16), **Handy Hof Mainz** (hn=16) und **Orientalisches
+  Bistro** (hn=22) - **kein** Gold- oder Silberhandel. (b) Eine Suche über **alle** Tag-Werte nach „**gold**", „**silber**",
+  „**edelmetall**" oder „**ankauf**" liefert **49** Treffer, die sämtlich **Juwelier-/Schmuckbetriebe** sind (u. a.
+  „123gold", Am Brand 1; „Kley Goldschmiede", Steingasse 6; „Mussel Goldschmiede", Augustinerstraße 44; „Goldschmiede
+  Stöckl", Rochusstraße 23; „Goldbörse" als Juwelier) sowie false positives (Farbangaben „lightgoldenrodyellow",
+  „Old but Gold Tatoo", die Haltestelle „Rheingoldhalle/Rathaus") - **kein** Objekt mit Bezug zu einem Gold- oder
+  Silberankauf an der Dossier-Adresse. (c) **Quelle 1 (Betreiber):** Die **Betreiber-Website** (live abgerufen
+  05.11.2026, HTTP 200, https://www.goldankauf-silber.de/impressum) nennt den Rechtsträger **DEUTSCHE EDELMETALL & GRUND
+  DEG e.K, Handelsregister Darmstadt HRA 87094**, Inhaber **Sven Breitschaft**, USt-IdNr. **DE232448782**, Sitz
+  **Mathildenplatz 8, 64283 Darmstadt**; die **Standort-Navigation der Seite** weist ausschließlich **Frankfurt,
+  Darmstadt und Aschaffenburg** aus - **keine Mainzer Filiale**. Die USt-IdNr. DE232448782 wird vom EU-VIES am 27.10.2026
+  als gültig bestätigt (im Dossier zitiert). **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der
+  Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) kennt für **Mainz** dreizehn Betriebe (u. a. H.L.R. Herbert Lagerin Rohstoffhandel GmbH,
+  Industriestraße 1-3; Landbell Aktiengesellschaft für Rückhol-Systeme, Rheinstraße 4 L; Kommunale Abfallwirtschaft Mainz
+  und Mainz-Bingen AöR) - **keinen** mit Bezug zu einem Gold-/Silberankauf oder zur Dossier-Firma. **Quelle 2 (OSM):**
+  die oben genannten Adressobjekte und die Straßenways (live abgerufen 05.11.2026 über das Kachelraster). **Was fehlt:** ein
+  OSM-Objekt mit `addr:street`=Flachsmarkt **und** `addr:housenumber`=5 **oder** ein benanntes Goldankauf-Objekt an dieser
+  Anschrift **und** eine Betreiber- oder Registerquelle, die eine **Mainzer** Filiale dieses Rechtsträgers belegt. Die
+  **eigenständige** Mainzer Goldhandels-Filiale **R(h)eingoldboutique / GoldSilberShop, SOLIT Management GmbH, Rheinstraße
+  103, 55116 Mainz** - ein **anderer Rechtsträger** (das Dossier schließt eine Zusammenführung ausdrücklich aus) - wird
+  hier **nicht** übernommen. `status` bleibt **pruefung**, `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt
+  bestehen. **Reichweitenklausel:** Das Fehlen einer Hausnummer, einer Betreiberfiliale oder eines Registereintrags ist
+  **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2550,49.9950,8.2650,50.0050 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2550,50.0050,8.2650,50.0150 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2650,49.9950,8.2750,50.0050 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2650,50.0050,8.2750,50.0150 ;
+  https://www.goldankauf-silber.de/impressum ; https://schrottregister.pages.dev/ort-mainz ; Recherche-Vermerk vom
+  03.11.2026 im Dossier (live abgerufen 05.11.2026).]

@@ -73,3 +73,40 @@ Der Creditreform-Einzelbeleg „Michael Fröhlich, Breitscheid, Gewerbebetrieb, 
   ist damit **nicht** verbunden. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6300,50.7200,7.7000,50.7900 (Kachelraster, live abgerufen
   03.11.2026) ; Recherche-Vermerke vom 01.10. und 27.10.2026 im Dossier.]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Es fehlt die **belegte Dossier-Adresse**:
+  `street` und `postcode` sind **leer**, und der einzige Adress-Lead („**Josef-Reuschenbach-Str. 2, Breitscheid**")
+  stammt aus **Verzeichnissen** (11880, Cylex); ein Punkt wäre geraten. **Was geprüft wurde (live am 05.11.2026):**
+  (a) **Suchfenster (0,01°-Kacheln):** **bbox=7.6500,50.7050,7.6700,50.7250** = 4 Kacheln à 0,01°
+  (7.6500/50.7050/7.6600/50.7150, 7.6500/50.7150/7.6600/50.7250, 7.6600/50.7050/7.6700/50.7150,
+  7.6600/50.7150/7.6700/50.7250), live abgerufen am 05.11.2026, ergänzt um das umliegende 0,02°-Raster
+  **bbox=7.6400,50.6950,7.6900,50.7350** (6 Kacheln, live abgerufen 05.11.2026). **Zensus:** im 0,01°-Fenster **202**
+  Adressobjekte und **22** namentliche Straßen (Alt-Koberstein, Auf den Eichen, Auf der Bitze, Bachstraße,
+  Bahnhofstraße, Dorfstraße, Gartenstraße, Hacksener Straße, Hauptstraße, Hilgenrother Straße, Im Gässchen,
+  Im Schäfersgarten, In der Hoppbach, In der Katzbach, Kobersteiner Mühle, Kobersteiner Weg, Lärchenweg, Neu-Koberstein,
+  Schulstraße, Sportplatzweg, Vorm Hähl, Zum alten Forsthaus) im 0,02°-Raster **993** Adressobjekte; eine Suche über
+  **alle** Tag-Werte nach „**Reuschenbach**" liefert **0 Objekte** - die Straße **„Josef-Reuschenbach-Straße" ist in OSM
+  nicht kartiert**; eine Suche nach „**fröhlich**", „**schrott**" oder „**gewerbe**" liefert **0 Treffer**. (b)
+  **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und des Registers
+  der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel schrottregister.pages.dev) führt für die Postleitzahl
+  **57570** (Breitscheid, Landkreis Altenkirchen, Rheinland-Pfalz) **keinen** Betrieb; der einzige Registereintrag mit
+  Ortsbezug „Breitscheid" (KEM Klassen-Edel-Metalle, **35767**) liegt in **Breitscheid (Hessen)** und ist ein
+  **anderer** Betrieb. Eine Efb-/AltfahrzeugV-Anerkennung für „Michael Fröhlich" ist damit **nicht belegt** (die
+  Anerkennung ist freiwillig). (c) **Quelle 1 (Register):** der im Dossier zitierte **Creditreform-Firmeneintrag**
+  („Michael Fröhlich, Breitscheid, Gewerbebetrieb, wirtschaftsaktiv") - **Einzelbeleg ohne Anschrift**; die
+  **Betreiber-Domains** aus dem Vorverlauf liefern **NXDOMAIN** bzw. kein DNS. **Quelle 2 (OSM):** das 0,01°- und
+  0,02°-Kachelraster um den Ortskern Breitscheid (live abgerufen 05.11.2026). **Was fehlt:** eine **Betreiber- oder
+  Registerquelle**, die die **Anschrift** des Gewerbebetriebs in Breitscheid belegt - erst dann wäre eine Geokodierung
+  möglich; die Gewerbeauskunft der Ortsgemeinde Breitscheid bzw. der Verbandsgemeinde Altenkirchen-Flammersfeld ist laut
+  Dossier der offene Weg. `status` bleibt **pruefung**, `street`/`postcode`/`phone`/`website` bleiben leer,
+  `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen einer Straße, einer Hausnummer oder eines
+  Registereintrags in OSM ist **kein** Nichtexistenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6500,50.7050,7.6600,50.7150 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6500,50.7150,7.6600,50.7250 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6600,50.7050,7.6700,50.7150 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6600,50.7150,7.6700,50.7250 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6400,50.6950,7.6900,50.7350 ;
+  https://schrottregister.pages.dev/assets/institute.json (vollständiger Registerdatensatz, Stand 11.08.2026) ;
+  Recherche-Vermerke vom 01.10. und 27.10.2026 im Dossier (live abgerufen 05.11.2026).]

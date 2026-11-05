@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Bürck Rohstoffhandel & Recycling GmbH ist ein Rohstoffhändler und Entsorgungsfachbetrieb
+am Schleif 1, 77855 Achern, mit Schwerpunkt Altglas-Recycling aus kommunaler Sammlung; das
+Impressum nennt HRB 220273 (AG Mannheim), die Nummer +49 7841 6267-20 und die Mail
+recycling@buerck-achern.de, gestützt durch einen Register-Spiegel. Stärkster Beleg ist der
+Treffer im amtlichen Fachbetrieberegister: Die Route "Entsorgungsfachbetriebe" führt die
+Gesellschaft mit der Vorgangsnummer ZZET01600433 und den Tätigkeiten Lagern, Behandeln und
+Verwerten; das Zertifikat der TÜV Rheinland Cert GmbH trägt die Nummer 01 400 2300779, das
+Prüfungsdatum 30.09.2025 und die Gültigkeit bis zum 31.03.2027 für eine Anlage zur Behandlung
+und Verwertung von Altglas. Offen bleiben der Widerspruch zwischen "Schleif 1" und "Scheif
+1", der bot-blockierte Register-Direktabruf sowie jede Ankaufpreisangabe.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier führt eine Berliner Niederlassung von Scholz Recycling NL Berlin an der
+Tiefwerderweg 13, 13597 Berlin-Spandau - dieselbe Anschrift wie der ELNO-Seed, räumliche
+Koinzidenz bei getrennten Firmen. Belegt ist der Konzern: Das Impressum nennt die Scholz
+Recycling GmbH in Essingen mit HRB 733963 (AG Ulm) und dem Geschäftsführer Abderrahmane El
+Aoufir, während der Standortfinder mit 184 Datensätzen weder Berlin noch Tiefwerderweg oder
+die PLZ 13597 führt. Die Anschrift ist über OSM bestätigt, dort trägt die Straße heute nur
+Sportnutzungen. Ein Ankaufpreis ist nicht belegt: Die Abrechnung erfolge nach Gewicht und
+Qualität auf Basis tagesaktueller Marktpreise, was die Methodik beschreibt, aber keinen
+Betrag. Offen bleibt die Zuordnung der historischen Niederlassung zum heutigen Betreiber und
+damit die Frage, ob der Standort derzeit online geführt wird.
 
 ## Timeline
 - [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]

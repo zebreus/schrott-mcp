@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+KLE Schrott- und Metallhandel GmbH, Holzstraße 13, 13359 Berlin Mitte: Schrott- und
+Metallhandel mit Kabelrecycling, Annahme von NE-Metallen und Elektroschrott und Hausabholung ab
+einer bestimmten Menge. Das Handelsregister bestätigt die Gesellschaft mit Gegenstand Handel
+und Bearbeitung von Schrott und Metallen sowie Abbruch unter HRB 19879 B beim Amtsgericht
+Charlottenburg, führt aber die Anschrift Holzstraße 15-17, das Dossier Holzstraße 13. In
+OpenStreetMap ist die Hausnummer 13 als Gebäude dieser Straße erfasst; ein Objekt, das den
+Betrieb nennt, gibt es dort nicht. Die Betreiber-Domain kle-metalle.de liefert nur eine
+Bot-Challenge, weshalb Impressum, Ansprechpartner und E-Mail fehlen. Die Rufnummer 030 4911071
+stammt allein aus Verzeichniseinträgen; eine Preisliste und eine Gebührentafel fehlen. Offen
+bleibt die Hausnummer-Differenz 13 gegenüber dem Registerintervall 15-17.
 
 ## Timeline
 

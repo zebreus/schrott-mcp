@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Theo Steil GmbH betreibt am Gehringstr. 47, 13088 Berlin-Weißensee, eine Niederlassung im
+Schrott- und Metallgroßhandel. Die Konzern-Standortseite nennt wörtlich "Theo Steil GmbH
+Schrott- und Metallgrosshandel", die Anschrift, das Telefon +49 30 924 00 88-80 sowie
+Annahmezeiten Mo-Fr 07:00-16:00 Uhr, Ladezeiten bis 15:00 Uhr und eine Mittagspause
+12:00-13:00 Uhr. Erstmals verlinkt sind drei standortspezifische Zertifikate, das
+Schmuckzertifikat Efb Berlin, die Altfahrzeug-Annahmestelle und die Erstbehandlungsanlage
+nach ElektroG; die PDF-Inhalte wurden nicht ausgewertet, das Feld certifications bleibt
+deshalb leer. Die Anschrift ist über OSM bestätigt. Offen bleiben der fehlende
+Zertifikatsinhalt, die Frage der Registereintragung der Niederlassung, die obfuskierten
+E-Mail-Adressen sowie nicht veröffentlichte Kurse und Gebühren.
 
 ## Timeline
 

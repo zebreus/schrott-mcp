@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG betreibt am Westhafenstr. 1, 13353 Berlin-Moabit, einen
+Standort eines Metallrecyclers für Fe- und NE-Metalle von Privat und Gewerbe. Die
+Standortseite nennt Anschrift, Telefon +49 30 3988199-0, die Zeiten Mo-Do 08:00-16:00 sowie
+Fr 08:00-15:00 Uhr und den Zusatz, dass montags und freitags keine Privatkunden angenommen
+werden; sie war am 01.11.2026 erst mit Browser-Headern abrufbar, da die Incapsula-Challenge
+nur den naiven Abruf sperrt. Unabhängig bestätigt die BEHALA den Betrieb als Mieter und führt
+Telefon, Fax und die Mail Berlin@tsr.eu; in OSM trägt die Hausnummer 1 das Container Terminal
+BeHaLa. Ein Ankaufskurs ist nicht veröffentlicht, veröffentlicht sind nur Sortenprogramm und
+Weigerkostenkatalog. Offen bleiben die widersprüchliche Sektorangabe (BEHALA "Sektor F"
+gegenüber Betreiber "Sektor A") und fehlende Registerbelege.
 
 ## Timeline
 

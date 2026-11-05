@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Trauringschmiede Berlin ist eine Trauring- und Schmuckfiliale in der Jägerstraße 60, 10117
+Berlin-Mitte. Das Impressum der Kette benennt als Anbieter die Fontanelli GmbH und für den
+Webshop die Trauringschmiede Drechsel GmbH, beide Abendener Straße 17, 52385 Nideggen, HRB
+125465 B (AG Berlin-Charlottenburg) bzw. B 9896 (AG Düren), Geschäftsführer Enrico Drechsel;
+die Kette nennt sich selbst "37 Filialen". Die Goldankauf-Marke GOLDhandelshaus führt eine
+Standortseite mit "Jägerstraße 60", "10117 Berlin-Mitte", "Telefon 030 / 259 35 831" und den
+Ankaufszeiten Di-Fr 11-19, Sa 10-19 - der unabhängige Zweitbeleg, mit dem der Klärfall "nur
+Verzeichnisbeleg" geschlossen ist. Offen bleiben ein Registereintrag der Filiale, die
+Verzeichnis-Alternative Jägerstr. 58, die nur per Facebook belegte Mailadresse, nicht
+veröffentlichte Verkaufskurse und die in OSM als Tiefgarage erfasste Hausnummer 60.
 
 ## Timeline
 

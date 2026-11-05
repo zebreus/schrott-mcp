@@ -78,3 +78,40 @@ provenance_origin: table
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4000,49.4700,8.4500,49.5100 (Kachelraster, live abgerufen
   03.11.2026) ; https://ah-schrotthandel.de/impressum/ (live abgerufen 03.11.2026) ; Recherche-Vermerke vom
   08.10. und 27.10.2026 im Dossier.]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Die Zeile trägt nur das **Kürzel „AH"** und
+  `city`=**Ludwigshafen**; `street` und `postcode` sind **leer**, und die einzige konkret belegte Gesellschaft mit
+  ähnlichem Namen ist die **AH GmbH Metall- und Schrotthandel** in **Mannheim** - eine **andere Stadt**, ohne
+  Identitätsbrücke. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster (0,02°-Kacheln):** **bbox=8.4200,
+  49.4700,8.4600,49.4900** = 2 Kacheln à 0,02° (8.4200/49.4700/8.4400/49.4900 und 8.4400/49.4700/8.4600/49.4900), live
+  abgerufen am 05.11.2026; **Zensus:** **4.012** Adressobjekte im Fenster; eine Suche über **alle** Tag-Werte nach dem
+  eigenständigen Token **„AH"** (Wortgrenze) liefert **0 Objekte** in **66.203** Elementen - ein Objekt mit einem
+  `name=`/`operator=`-**AH**-Bezug existiert **nicht**. Eine Suche nach „**schrott**", „**recycl**", „**containerdienst**",
+  „**metallhandel**" oder „**schrottplatz**" liefert **40** Treffer, die **sämtlich kommunale Wertstoffcontainer**
+  (`amenity`=recycling, teils `operator`=Knettenbrech + Gurdulic) sind - **kein** Objekt benennt einen Schrottbetrieb
+  oder ein Unternehmen mit dem Kürzel „AH". (b) Die **Namensvetter-Kette** aus dem Dossier bleibt unverändert: Die
+  **AH GmbH**, Geschäftsführer **Mehmet Ali Halici**, **HRB 737082**, **Fruchtbahnhofstraße 13, 68159 Mannheim**, Telefon
+  0621 17895089, info@ah-schrotthandel.de (https://ah-schrotthandel.de/ und /impressum/, live abgerufen 03.11.2026) ist
+  **kein** Ludwigshafener Betrieb; Mannheim ist **nicht** Ludwigshafen, und es fehlt jeder Beleg, der diese Firma mit dem
+  Seed-Kürzel „AH" in Ludwigshafen verbindet. (c) **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der
+  Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) führt für **Ludwigshafen am Rhein** dreizehn Betriebe (Autoverwertung Ludwigshafen,
+  Flomersheimer Straße 51; Günther Schmelzer GmbH, Erbachstraße 23; Höhl KG, Torfstechering 3 [2 Einträge]; L & Z
+  Transformatoren und Industrieservice GmbH, Rheinhorststraße 37; Müllheizkraftwerk Ludwigshafen, Industriestraße 1;
+  R. S. Abschleppdienst KG, Torfstechering 5; Rhein-Fass GmbH & Co. KG, Großpartstraße 2 a; Scherer & Kohl GmbH,
+  Inselstraße 20; Wirtschaftsbetr. Ludwigshafen, Kaiserwörthdamm 3; Betriebsstätte Ludwigshafen, Saarburgerstr. 33;
+  Horst Lehr, Lagerplatz) - **keinen** mit dem Kürzel „AH". **Quelle 1 (Betreiber):** die Betreiber-Website
+  ah-schrotthandel.de (live abgerufen 03.11.2026) - sie belegt den **Mannheimer** Betrieb, **nicht** die Ludwigshafener
+  Zeile. **Quelle 2 (OSM):** das Kachelraster (live abgerufen 05.11.2026 über
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4200,49.4700,8.4400,49.4900 und
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4400,49.4700,8.4600,49.4900). **Was fehlt:** eine **Betreiber-
+  oder Registerquelle** für ein **Ludwigshafener** Unternehmen mit dem Kürzel „AH" samt Anschrift; ohne sie ist die
+  Zuordnung des Namensvetters **nicht** möglich und ein Punkt wäre geraten. `status` bleibt **pruefung**,
+  `street`/`postcode`/`website` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen
+  eines Betriebsobjekts in OSM oder eines Registereintrags ist **kein** Nichtexistenz- oder Schließungsbeweis.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4200,49.4700,8.4400,49.4900 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4400,49.4700,8.4600,49.4900 ;
+  https://ah-schrotthandel.de/impressum/ ; https://schrottregister.pages.dev/ort-ludwigshafen ;
+  Recherche-Vermerke vom 08.10. und 03.11.2026 im Dossier (live abgerufen 05.11.2026).]

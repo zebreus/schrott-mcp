@@ -89,3 +89,39 @@ Status `pruefung` bleibt wegen fehlendem unabhängigen Register-/Gewerbenachweis
   **Reichweite und Einschränkung:** Der Dossier-Datensatz benennt als Ort nur das Bundesland Bayern; eine Standortsuche (Radiusabfrage) ist damit **nicht sinnvoll durchführbar** — eine Radiusabfrage um den Nominatim-Mittelpunkt des Bundeslandes (11.5709058;48.1319124) hätte keinen Aussagewert und wurde deshalb **nicht** als Beleg herangezogen. Die Abfrage beschränkt sich auf die **Namenssuche** mit den Varianten `n=„Florian-Metalle“` (0 Treffer) und `n=„Florian Metalle“` (0 Treffer) in der Route „Entsorgungsfachbetriebe“ sowie `n=„Florian-Metalle“` (0 Treffer) in der Route „Altfahrzeugverwertung“ — **kein Treffer auf den Dossiernamen**. Für die weitere Suche wird ein belastbarer Standort (Straße, PLZ, Ort) benötigt.
   **Reichweite der Registerabfrage (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App; Filter „Art des Betriebs = Egal“ durchgehend is=1&e=1; Namenssuche dst=10; Standortsuche mit PLZ-validiertem adr=Parameter, Radien 3 km und 10 km; Ergebnisgrid vollständig durchscrollt):** Route „Altfahrzeugverwertung“ Namenssuche n=„Florian-Metalle“ (dst=10, is=1, e=1) → 0 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Florian-Metalle“ (dst=10, is=1, e=1) → 0 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Florian Metalle“ (dst=10, is=1, e=1) → 0 Treffer.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Florian-Metalle ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Florian-Metalle (Abruf 04.11.2026). Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass ein Betrieb keine Anerkennung besitzt]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Das Dossier führt
+  bewusst **keine** Straße und **keine** PLZ; das Feld `city` trägt die mobile Einsatzregion „Bayern“; die alte Vermerkung
+  nennt als Suchfenster das Raster **bbox=10.9680,49.4570,11.0180,49.5070** (25 Kacheln über Fürth). **Quelle 1 (OSM, live
+  abgefragt am 05.11.2026):** das neue Kachelraster **bbox=10.9600,49.4500,11.0200,49.5100** (**36 Kacheln von je 0,01
+  Grad**, https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9600,49.4500,11.0200,49.5100) lieferte **300 096
+  Elemente** bei **0 Kachel-Fehlern**; die drei in der letzten Welle wegen HTTP 429 ausgefallenen Randkacheln wurden am
+  05.11.2026 nachgeholt. Die **„Albrecht-Dürer-Straße“** in 90766 Fürth ist im Fenster vollständig mit drei
+  Straßenobjekten erfasst (way/23258693, way/302327074, way/409972954; Verlauf 49.4909222/10.9716450 bis
+  49.4929832/10.9737780) und trägt **25 Adressobjekte** mit **24 verschiedenen Hausnummern** (2, 3, 5, 6, 8, 9, 10, 11,
+  12, 13, 14, **15**, 15a, 16, 17, 18, 19, 19a, 20, 21, 23, 25, 27, 29) - die Geschäftsanschrift-Hausnummer **15
+  existiert** objektgenau, nämlich **node/3046130035** (live geladen, HTTP 200) mit `addr:housenumber`=15,
+  `addr:street`=Albrecht-Dürer-Straße, `addr:postcode`=**90766**, `addr:city`=Fürth, `addr:country`=DE (49.4918613/
+  10.9712495); das Objekt trägt jedoch **weder `name=` noch `operator=`** und keinen Geschäftsbezug; die Suche über
+  `name`, `operator`, `brand`, `official_name`, `alt_name`, `short_name`, `legal_name` und `old_name` nach „florian
+  metalle“ bzw. „florian-metalle“ liefert **0 Treffer** - der mobile Betrieb ist in OSM nicht kartiert. Das erweiterte
+  Fenster liefert **dasselbe** Ergebnis wie das Raster vom 03.11.2026 - ein **Fensterfehler** der letzten Welle liegt
+  hier **nicht** vor. **Quelle 2 (Betreiber, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** das
+  Betreiber-Impressum nennt **„Florian-Metalle, Inhaber: Tyrese Florian, Albrecht-Dürer-Straße 15, 90766 Fürth“** mit
+  0157 38158346 und info@florian-metalle.de. **Warum trotz der objektgenauen Adresse keine Koordinate:** das Dossier hat
+  diese Anschrift **bewusst** nicht in `street`/`postcode` übernommen und in **drei** Wellennotizen (Recherche 04.10.,
+  07.10. und 20.10./27.10.2026) festgehalten, dass die Geschäftsanschrift „nicht als Kundenannahme geokodieren“ bzw.
+  „nicht geokodieren“ ist und der Betrieb **mobil** bleibt („Keine stationäre Annahme ausgewiesen“; `trader_type: mobil`;
+  `status: pruefung` mangels unabhängigem Register-/Gewerbenachweis; die Wellennotiz vom 04.11.2026 hält zusätzlich
+  fest, dass für eine Standortsuche im amtlichen Fachbetrieberegister **kein** Efb- und **kein** AltfahrzeugV-Eintrag
+  auf den Dossiernamen existiert). Ein Punkt auf der Geschäftsanschrift würde genau die im Dossier vermiedene falsche
+  Zuordnung erzeugen (ein Kundenannahmepunkt existiert nicht) und würde zudem eine Karte für einen mobilen Betrieb in
+  der Einsatzregion „Bayern“ erzeugen. Deshalb wird hier **keine** Koordinate gesetzt; das Dossier enthält keine
+  `clear_fields`-Anweisung und keine Koordinate, es bleibt bei `lat`/`lon` leer. `status`, `description`, `street` und
+  `postcode` bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder eines
+  Registereintrags ist **kein** Existenz- oder Schließungsbeweis; der Punkt wäre zudem kein Annahmepunkt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9600,49.4500,11.0200,49.5100 ;
+  https://api.openstreetmap.org/api/0.6/node/3046130035.json ; https://florian-metalle.de/ (live abgerufen
+  05.11.2026).]

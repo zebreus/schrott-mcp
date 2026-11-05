@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott- und Metallhandel Barkow (Reiner Barkow), Birkenhainer Ring 7, 14979 Großbeeren: von
+Reiner Barkow geführter Schrottplatz, der Alt- und Buntmetalle sowie Kabelschrott ankauft und
+nach eigener Angabe seit 1977 besteht. Name, Anschrift, Rufnummer, E-Mail-Adresse und die
+Öffnungszeiten stehen in der Onepage mit Kontaktbereich und Impressum-Modal; ein
+Handelsregister wird dort nicht genannt. Die Zuordnung der Adresse ist über OpenStreetMap
+gedeckt, wo das Haus in der genannten Straße mit der passenden Hausnummer erfasst ist.
+Birkenhain ist dabei Ortsteil der Großbeerener Anschrift und keine eigene Filiale, und das
+Karten-Zentrum der Website wurde nicht als Firmenstandort gewertet. Offen bleiben eine zweite
+unabhängige Quelle und die Abholkonditionen, zu denen die Website keine aktuellen Angaben
+enthält; das Verzeichnis nennt für Samstag eine abweichende Endzeit.
 
 ## Timeline
 

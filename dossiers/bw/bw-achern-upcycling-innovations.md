@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die upcycling innovations GmbH sitzt am Allerheiligenstr. 40, 77855 Achern, und arbeitet im
+Styropor-/EPS-Recycling für Unternehmen; ein Schrott- oder Metallankauf ist nicht das
+Geschäftsfeld, der Dossier-Typ "sonstige" ist damit bestätigt. Betreiber-Impressum und
+Kontaktseite nennen HRB 737683 (AG Mannheim), die Nummer +49 7843 9943-0 und die Mail
+info@up-in.de; ein Register-Spiegel bestätigt die Registernummer. Im amtlichen
+Fachbetrieberegister ist die Gesellschaft mit zwei Anlagen am Dossierstandort geführt,
+ZZST00400125/1 für Sammeln und Befördern und ZZST00400125/2 für Handeln und Makeln; das
+Zertifikat der PZERT GmbH trägt die Nummer 10568-Efb-de, das Prüfungsdatum 25.08.2026 und die
+Gültigkeit bis zum 24.02.2028. Offen bleiben die Schreibweise der Straße, die das Register
+mit "ß" führt, und die Zuordnung der übrigen sechs Anlagen an drei anderen Standorten.
 
 ## Timeline
 

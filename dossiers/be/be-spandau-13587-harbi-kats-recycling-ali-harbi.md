@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Harbi Kats Recycling (Ali Harbi) ist auf den Ankauf von Katalysatoren und
+Dieselpartikelfiltern spezialisiert und sitzt laut Impressum an der Rauchstraße 43, 13587
+Berlin-Spandau; laut Seed-Unterlage zahlt er in bar. Die Belegkette besteht aus dem
+Betreiber-Impressum harbi-kats.de, das am 28.10.2026 live gelesen wurde und die Anschrift in
+der Schreibweise "Rauchstraße 43" bestätigt, sowie aus vier Kleinanzeigen und einer
+Facebook-Seite; die Mail info@harbi-kats.de ist im Frontmatter geführt. Eine Rufnummer wird
+laut Korrekturvermerk vom 28.10.2026 von einem 6h-Handler gepflegt, das Telefonfeld bleibt
+deshalb leer. Offen bleiben Identität und Belegkette: es gibt weder eine zweite unabhängige
+Quelle noch einen Register- oder Impressumsnachweis mit Rechtsform, und zu Ankaufpreisen,
+Öffnungszeiten und Leistungsumfang enthält das Dossier keine belegten Werte.
 
 ## Timeline
 

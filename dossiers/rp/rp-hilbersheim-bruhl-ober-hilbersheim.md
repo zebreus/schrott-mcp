@@ -67,3 +67,42 @@ Brühl ist hier mutmaßlich Firmen-/Personenname, nicht automatisch die NRW-Stad
   bleiben unverändert bzw. leer, `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0100,49.8800,8.0500,49.9150 (Kachelraster, live abgerufen
   03.11.2026) ; Recherche-Vermerk vom 15.10.2026 im Dossier.]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Die Dossier-Hausnummer **12** findet sich in OSM
+  auf der Dossier-Straße **Obergasse** in **Ober-Hilbersheim** **nicht**; zusätzlich ist das `street`-Feld ein
+  **Importartefakt** („Brühl Ober-Hilbersheim Hilbersheim Obergasse 12" - Name, Ort und Straße in einem Feld) und die
+  Beleglage beruht allein auf einem **Cylex-Lead**. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster
+  (0,02°-Kacheln über dem Ortskern, 0,01°-Raster zur Adressprüfung):** **bbox=8.0000,49.8700,8.0400,49.9100** = 4 Kacheln
+  à 0,02° (8.0000/49.8700/8.0200/49.8900, 8.0000/49.8900/8.0200/49.9100, 8.0200/49.8700/8.0400/49.8900, 8.0200/
+  49.8900/8.0400/49.9100), live abgerufen am 05.11.2026; **Zensus:** die Straße **Obergasse** in **Ober-Hilbersheim
+  (55437)** trägt **22** Adressobjekte mit **15** verschiedenen Hausnummern (**1, 2, 3, 4, 6, 7, 8, 9, 10, 15, 17, 19, 21,
+  23, 25**) - die **Hausnummer 12 existiert dort nicht**; eine Suche über **alle** Tag-Werte nach
+  `addr:housenumber`=**12** im gesamten Fenster (**12.668** Elemente) liefert **0 Objekte**; eine Suche nach „**brühl**",
+  „**schrott**" oder „**verwertung**" liefert **0 Treffer** - der Betrieb ist in OSM **nicht namentlich kartiert**. Das
+  Fenster umfasst **39** namentliche Straßen des Ortskerns (u. a. Am Hummelberg, Brucknerstraße, Hauptstraße, Kirchgasse,
+  Nieder-Hilbersheimer Straße, Ringstraße, Wassengasse) und ist vollständig verfügbar. (b) **Quelle 1 (Verzeichnis):**
+  der **Cylex-Lead** (im Dossier vom 15.10.2026 zitiert,
+  https://web2.cylex.de/firma-home/schrottverwertung-bruehl-16581904.html) nennt „**schrottverwertung Brühl**" mit
+  „**Obergasse 12, 55437 Ober-Hilbersheim**", Telefon 06728 7349963 - das ist ein **Verzeichnislead**; eine
+  **Betreiberseite**, ein **Impressum** oder ein **Registereintrag** existiert **nicht** (das Dossier hat die Folgesuche
+  nach Betreiber/Register am 15.10.2026 ohne zulässigen Treffer dokumentiert). **Registerabgleich (neu):** Der Abzug des
+  **Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand
+  11.08.2026, über den Spiegel schrottregister.pages.dev) kennt für **Ober-Hilbersheim (55437)** **keinen** Betrieb;
+  eine Suche im vollständigen Registerdatensatz (4.507 Einträge) nach „**Brühl**" liefert ausschließlich die
+  „Stadt Brühl Fachbereich 70/3 Wertstoffhof" (50321 **Brühl/NS**) - einen **anderen** Ort und **anderen** Betrieb.
+  **Quelle 2 (OSM):** die Straßen- und Adressobjekte der Obergasse (live abgerufen 05.11.2026 über das Kachelraster
+  bbox=8.0000,49.8700,8.0400,49.9100). **Was fehlt:** ein OSM-Objekt mit `addr:street`=Obergasse **und**
+  `addr:housenumber`=12 (oder ein benanntes Betriebsobjekt an dieser Anschrift) **sowie** eine Bestätigung der
+  **Rechtsinhaberschaft**; nach der Recherche vom 15.10.2026 ist außerdem zu klären, ob **„Brühl"** hier
+  Firmen-/Personenname ist und **nicht** die NRW-Stadt **Brühl** - eine Verwechslung mit dieser ist auszuschließen.
+  `status` bleibt **pruefung**, `street`/`postcode`/`phone`/`website` bleiben unverändert bzw. leer,
+  `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen einer Hausnummer in OSM ist **kein**
+  Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0000,49.8700,8.0200,49.8900 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0000,49.8900,8.0200,49.9100 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0200,49.8700,8.0400,49.8900 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0200,49.8900,8.0400,49.9100 ;
+  https://schrottregister.pages.dev/assets/institute.json ; Recherche-Vermerk vom 15.10.2026 im Dossier (live abgerufen
+  05.11.2026).]

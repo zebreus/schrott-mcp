@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HSR Schrotthandel (Zweigstelle), An den Steinenden 17a, 04916 Herzberg: Schrottankauf der
+HSR-Gruppe, der Privaten und Gewerbetreibenden die Anlieferung annimmt und Kleinstmengen
+willkommen heißt. Das Impressum der Betreiberseite ist live geprüft und nennt die HSR
+Herzberger Schrott Recycling UG, die Anschrift, die Rufnummer 03535 7089942 und das Register
+HRB 13465 CB; E-Mail-Adresse, Öffnungszeiten Mo–Fr 9–17 und Sa 9–13 Uhr und die
+Anlieferbereitschaft stehen auf derselben Seite. Die Kontaktseite bezeichnet die Firma als
+GmbH, das Impressum als UG (haftungsbeschränkt); der Dossiername bleibt deshalb unverändert.
+Von derselben Adresse ist die HSR Schrotthandel Hidanovic GmbH in Schlieben zu unterscheiden,
+auch wenn derselbe Geschäftsführer in beiden Firmen genannt wird. Offen bleiben die abweichende
+Rechtsform, eine zweite unabhängige Quelle und jede Preisangabe.
 
 ## Timeline
 

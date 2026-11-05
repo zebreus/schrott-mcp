@@ -63,3 +63,35 @@ provenance_origin: table
   Ein **Nichtexistenz- oder Schließungsbeweis** ist damit **nicht** verbunden. Quelle(n): Recherche-Vermerke vom
   03.10. und 21.10.2026 im Dossier ; https://api.openstreetmap.org/api/0.6/map.json (Kachelraster
   Kaiserslautern/Bad Kreuznach/Börrstadt/Mayen/Koblenz/Neuwied, live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die Zeile weder Adresse noch belegten
+  Betrieb trägt.** Der Recheck bestätigt den Vermerk vom 03.11.2026. Die Seed-Zeile trägt den Namen „**JK
+  Heidesheim**" und in `city` den String „**47285)**" - eine **fehlerhafte** Angabe, die laut Recherche vom 03.10. und
+  21.10.2026 **nicht** als Postleitzahl interpretiert werden darf und **nicht** zu Heidesheim/Ingelheim passt;
+  `street` und `postcode` sind **leer**. **Was geprüft wurde (live am 05.11.2026):** (a) Ohne **Dossier-Straße** und
+  **Dossier-Hausnummer** gibt es **kein** Hausnummer-Fenster und damit **keinen** geokodierbaren Adresspunkt; das
+  Suchraster um den in der Zeile genannten Ort **Heidesheim** wurde neu abgetastet: **Kachelraster über
+  bbox=8.4400,49.6900,8.4800,49.7300** (4 Kacheln à 0,02°, live abgerufen 05.11.2026); **Zensus:** **1.468**
+  Adressobjekte und **83** namentliche Straßen in diesem Fenster; eine Suche über **alle** Tag-Werte nach „**JK**",
+  „**Schrott**", „**Metall**", „**Recycling**" oder „**Containerdienst**" liefert **9 Treffer**, die **ausschließlich**
+  kommunale **Altglas-/Alttextilcontainer** sind (`amenity`=recycling, `recycling:glass_bottles`/`recycling:clothes`,
+  `recycling_type`=container) - **kein** Objekt benennt eine JK-Firma oder einen Schrottbetrieb. Für den zweiten in der
+  Recherche genannten Ort **Ingelheim** verzeichnet der **Registerabzug des Fachbetrieberegisters der Gemeinsamen
+  Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) genau **zwei** Betriebe (Abwasserzweckverband „Untere Selz", Außenliegend 122, und
+  „Budenheimer Weg 71") - **keinen** mit einem JK-Bezug. Eine Suche im **vollständigen Registerdatensatz** (4.507
+  Einträge, Stand 11.08.2026) nach „JK" liefert **keinen** einschlägigen Treffer (einziger String-Treffer:
+  „Matejka Abfallmanagement GmbH", 97230 Estenfeld - anderer Ort, anderer Betrieb). (b) Die Zahl **47285** ist **keine**
+  belegte PLZ der Zeile; die Recherche vom 03.10.2026 hat live belegt, dass die Gelbe-Seiten-Suche „JK in Heidesheim"
+  **keinen** Schrott- oder Metallbetrieb dieses Namens zeigt, sondern unverbundene JK-Namenshomonyme. **Was fehlt:** ein
+  **Betreiber- oder Registerbeleg**, der die Zeile einem konkreten Betrieb mit **Anschrift** zuordnet - erst dann wäre
+  eine Geokodierung möglich; eine **Suchtreffer-Namenshomonymie** ersetzt die fehlende Identität nicht. `city` bleibt
+  unverändert „47285)", `status` bleibt **pruefung**, alle übrigen Felder bleiben leer; `clear_fields` wird **nicht**
+  angetastet (in dieser Zeile ist kein `geo`-Token gesetzt). **Reichweitenklausel:** Ein **Nichtexistenz- oder
+  Schließungsbeweis** ist damit **nicht** verbunden. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.4400,49.6900,8.4800,49.7300 ;
+  https://schrottregister.pages.dev/ort-ingelheim ; https://schrottregister.pages.dev/assets/institute.json
+  (vollständiger Registerdatensatz, Stand 11.08.2026) ; Recherche-Vermerke vom 03.10. und 21.10.2026 im Dossier (live
+  abgerufen 05.11.2026).]

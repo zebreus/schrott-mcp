@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die ALBA Metall Nord GmbH betreibt am Nonnendammallee 28, 13599 Berlin-Spandau, eine der 13
+in der Konzernliste geführten Metallstandorte; die Detailseite nennt eine
+1.000-t-Schrottschere, einen betriebseigenen Hafen, eine Radioaktivitäts-Messanlage,
+Materialanalyse und Containerdienst 7 bis 36 m³. Sie bestätigt Anschrift, Telefon +49 30 351
+82 843, die Mail spandau.metall@alba.info und die Zeiten Mo-Fr 07:00-12:30 und 13:00-16:00
+Uhr. Entscheidend ist der vermerkte Zahlungs- und Kundenkreiswechsel: seit dem 01.10.2025
+sind an diesem Standort keine Bargeldauszahlungen mehr möglich und Privatkunden werden nicht
+mehr bedient, verwiesen wird auf Lichtenberg und Döberitz, der Containerdienst bleibt
+bestehen. Ein Ankaufpreis ist nicht veröffentlicht; die Sortenseite nennt 17 Sortengruppen
+ohne Betrag. Offen bleibt, zu welchen Konditionen die Sorten tatsächlich angenommen werden.
 
 ## Timeline
 

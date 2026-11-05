@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Winter Walter, Hauptstraße 23, 15938 Golßen: Dossier zu einem Schrotthandel, für den bislang
+kein Betreiberbeleg vorliegt. Der amtliche Auszug des Fachbetrieberegisters vom 11.08.2026
+führt für Golßen keinen anerkannten Betrieb; dieser Negativbefund beweist nichts, weil die
+Anerkennung freiwillig ist. Auch in OpenStreetMap ist um die Hausnummer kein Schrott- oder
+Metallbetrieb kartiert, sondern das Industrieareal eines anderen Unternehmens. Die Anschrift
+selbst ist durch mehrere Verzeichnisse belegt, die den Eintrag unterschiedlich als Walter
+Winter oder Udo Walter Jürgen führen; ob ein Schrottbetrieb dahintersteht und wer ihn führt,
+ist offen. Der Namensvetter findet in Golßen keinen Beleg, und die im Dossier hinterlegte
+Koordinate hat keinen Beleg, weshalb kein Punkt gesetzt ist. Ankauf, Verkauf und Gebühren sind
+nicht belegt; die Gewerbeauskunft der Gemeinde Golßen wäre der nächste Schritt.
 
 ## Timeline
 

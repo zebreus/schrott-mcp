@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Niederlassung Berlin Neukölln der TSR Deutschland GmbH & Co. KG liegt laut
+Betreiber-Standortseite an der Lahnstraße 1-9, 12055 Berlin und nimmt Fe- und NE-Schrott von
+Privat und Gewerbe an. Die Standortseite war am 01.11.2026 nur mit vollständigen
+Browser-Headern abrufbar; sie nennt Anschrift, Telefon +49 30 63225780 und die Zeiten Mo-Do
+07:00-11:30 und 12:30-15:30 sowie Fr bis 14:30 Uhr. Eine unabhängige Firmen-Profilquelle
+führt denselben Betrieb mit gleicher Nummer, der Mail info@tsr.eu und wortgleichen
+Öffnungszeiten und beschreibt das Leistungsspektrum von Ankauf, Verkauf und Aufbereitung von
+Altmetallen. Ein Ankaufpreis ist nicht veröffentlicht, TSR lehnt universell gültige
+Preisangaben ab. In OSM ist die Hausnummer "1-9" nicht erfasst. Offen bleibt die Herkunft der
+Seed-Adresse, die laut Seed auf einem Verzeichnislead "Lahnstr. 3-5" mit Vorbehalt beruht.
 
 ## Timeline
 
