@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Goßfeldener Autoverwertung Mario Anfang in Lahntal-Goßfelden, Wettersche Str. 11, 35094
+Lahntal-Goßfelden, wird von Mario und Susanne Anfang geführt und ist nicht im
+Handelsregister eingetragen; sie kauft Alt- und Unfallwagen sowie Militaria an, verkauft
+gebrauchte Ersatzteile aus der Demontage, nimmt Fahrzeuge am Betrieb an und holt sie auf
+Wunsch ab. Betreiber-Website und die Honda-Rücknahmestellenliste von 2018 decken sich in
+Name, Hausnummer, PLZ und Telefon, der OSM-Weg way/219232095 bestätigt die Anschrift. Offen
+bleiben die maskierte E-Mail, die nur aus der Betreiberquelle stammenden Öffnungszeiten und
+Anlieferbedingungen, das Fehlen einer öffentlichen Ankaufspreisliste und Teileliste sowie
+die nicht amtlich belegte Zertifizierung nach § 4 Abs. 2 Altautoverordnung.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Eduard Dörr Autoverwertung, Altenburger Straße 78, 36304 Alsfeld, ist ein im
+Branchenverzeichnis 11880 geführter Kleinbetrieb mit der Telefonnummer 06631 919565; eine
+eigene Betreiberseite und eine E-Mail-Adresse fehlen. Das Örtliche führt denselben Betrieb an
+derselben Anschrift, beide Einträge sind jedoch Aggregatorangaben; eine unabhängige Betreiber-,
+Register- oder Kommunalquelle wurde nicht gefunden, und die Gelbe-Seiten-Suche für
+Autoverwertung in Alsfeld zeigt nur einen anderen Betrieb. Die Verzeichniskategorie belegt
+weder Autoankauf noch Teileverkauf, Gratisabholung oder Annahmetarif. Das amtliche
+Fachbetrieberegister führt für Dörr weder in der Route der Entsorgungsfachbetriebe noch in der
+der Altfahrzeugverwertung einen Eintrag, obwohl die Ortssuche andere Alsfelder Betriebe
+ausweist. Offen bleiben Betreiberidentität, aktuelle Tätigkeit und Zertifizierung.
 
 ## Timeline
 

@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die MS Recycling Frankfurt e.K., Inhaber Christian Jungk, ist ein Generalist mit E-Schrott,
+Aktenvernichtung, Container und Demontage in Frankfurt-Griesheim, Eichenstraße 25, 65933
+Frankfurt am Main; die Namenskette führt von Rohprodukte Karl Schäfer über M. Schäfer
+Recycling e.K. hierher. Das amtliche Fachbetrieberegister bestätigt Standort und Firma (HRA
+17731 AG Frankfurt) mit drei Anlagen für Sammeln und Befördern, Lagern und Behandeln sowie
+Lagern und dem Zertifikat 801.11324/25 des Ingenieurbüros Ulbricht; Anlage 2 verweist auf
+eine Erstbehandlungsanlage nach § 21 ElektroG. Offen bleiben der Widerspruch zwischen der
+Telefonnummer 069 38280203 im Impressum und 069-382802 im Seitenfuß sowie die ohne
+Zweitbeleg leeren Felder für E-Mail und Öffnungszeiten.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lorenz Wittmann GmbH ist eine Entsorgungs- und Recyclinggesellschaft mit Textilrecycling
+und Gewerbewertstoffhof; das Dossier beschreibt die Zweigniederlassung Ergolding,
+Albert-Einstein-Str. 10, 84030 Ergolding, der Hauptsitz liegt in der Vilsbiburger Straße
+70-74, 84144 Geisenhausen, HRB 1526 Landshut. Die Identität tragen Betreiber-Impressum
+und Wertstoffhof-Seite sowie das EfbV-Zertifikat der bvse-Entsorgergemeinschaft 10323
+(ZZEE001002378008), das acht Anlagen umfasst, von denen der Standort Ergolding zwei
+trägt. Offen bleibt die Preisfrage: ein Negativbefund belegt, dass die Domain keine
+bezifferte Preisquelle führt, die Ankaufzusage nennt keinen Wert, Verkauf und Gebühren
+sind nicht belegt. Das Angebot des Wertstoffhofs richtet sich an Gewerbetreibende, eine
+Vergütung für Privatanlieferungen ist nicht ausgewiesen.
 
 ## Timeline
 

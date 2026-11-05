@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gun Schaub Münzhandlung, Harpertshäuser Straße 20, 64832 Babenhausen-Sickenhofen, ist ein
+Münzversandhandel ohne Ladengeschäft, der deutsche Münzen, Silber- und Anlagemünzen ankauft,
+verkauft und kostenlos bewertet; das Impressum nennt Telefon 06073 711445 und die Adresse
+gun.schaub@muenzen-goldankauf.biz. Die Mitgliederliste des Berufsverbandes des Deutschen
+Münzenfachhandels führt den Betrieb unter derselben Anschrift und Nummer, weist ihm aber
+ausdrücklich das Merkmal zertifizierter Goldhändler ab; die Datenbank der zertifizierten
+Goldhändler liefert keine Einträge. Das amtliche Fachbetrieberegister führt für die Anschrift
+keinen Datensatz; die Namenssuche trifft nur einen Betrieb in Kreuztal, die Ortssuche andere.
+Ein Zertifikatsnachweis ist nicht vorhanden; die Verbandsmitgliedschaft ist keine
+Zertifizierung, und offen bleibt die Zuordnung des Namensbestandteils Schaub.
 
 ## Timeline
 

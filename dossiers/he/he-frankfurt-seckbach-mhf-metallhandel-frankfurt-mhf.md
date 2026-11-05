@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Metallhandel Frankfurt GmbH, geführt unter der Marke MHF, ist ein Metallrecyclingbetrieb
+mit Schrott und Metallen seit 1949 in Frankfurt-Seckbach, Gwinnerstr. 11, 60388, der
+Privatanlieferung zu Tagespreisen sowie Abholung und Fuhrpark anbietet. Das
+Betreiber-Impressum (HRB 129583 AG Frankfurt, Geschäftsführer Julian Doeringer) trägt die
+Identität; die Kontaktseite der Rhein Main Rohstoffe nennt MHF als Partner, eine
+Zusammenführung der getrennten Gesellschaften findet nicht statt. Offen bleiben der
+Negativbefund im amtlichen Fachbetrieberegister ohne standortzugeordneten Eintrag und ohne
+Altfahrzeugverwertungseintrag sowie die unbelegten Öffnungszeiten.
 
 ## Timeline
 

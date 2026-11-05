@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott-Recycle Meikel ist ein von Timo Warth betriebenes Einzelunternehmen für
+Schrottabholung und Containerdienst. Die Startseite belegt Schrottankauf, Abholung und
+Container, während das Betreiber-Impressum als Kontaktanschrift Sodenerstraße 21, 63454
+Hanau nennt und die älteren Notizen zur Vatterstraße 23 in 60386 Frankfurt damit überholt
+sind; das Ortsfeld führt weiterhin Frankfurt am Main. Offen bleiben der fehlende zweite
+Beleg, die unbelegte Annahmestelle, das leere Feld für Öffnungszeiten und der Negativbefund
+im amtlichen Fachbetrieberegister, der kein Existenzbeweis ist; der Status bleibt pruefung.
 
 ## Timeline
 

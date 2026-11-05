@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BZ Metall GmbH ist ein Schrott- und Metallhändler mit Demontage und Containerdienst in
+der Im Steinernen Kreuz 25, 75449 Wurmberg; das Betreiber-Impressum nennt die
+Geschäftsführer Patrick und Bernhard Balzuweit, Registergericht Mannheim, HRB 742847 und
+die USt-IdNr. DE350404671. Die Identität tragen das Impressum und der OSM-Adressknoten
+der Hausnummer 25, der kein Objekt mit Betriebsbezug trägt. Ankaufiert werden
+Produktionsabfälle, Abbruchschrott, Sammelschrott, Buntmetalle, Kabel, legierter Schrott
+und Katalysatoren; die Preiskalkulation stützt sich ausdrücklich auf den LME-Kurs. Offen
+bleibt der Ankaufspreis, denn Monatspreise, tagesaktuelle Preise und Börsenkurs sind
+Prinzipien ohne Zahl; eine Gebührentabelle fehlt ebenfalls. Die E-Mail-Adresse ist im
+Impressum nicht lesbar, die Öffnungszeiten stehen nur auf der Startseite.
 
 ## Timeline
 

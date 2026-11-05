@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schulz GmbH Schrott- und Metallgroßhandel, Rupert-Bodner-Straße 25, 81245 München, ist ein
+Schrottgroßhändler; das amtliche Fachbetrieberegister führt ihn nach § 56 KrWG mit einem
+Zertifikat der GZQ GmbH (Nummer A-000694, Vorgangsnummer ZZKT001001684010, gültig bis
+14.07.2027), das die Anlage 1 dem Dossierstandort zuordnet und Sammeln, Befördern, Lagern und
+Behandeln umfasst. Der Registerwert nennt HRB 180446 Registergericht München, während das
+Impressum der Betreiberseite dort nur eine Umsatzsteuer-Identifikationsnummer ausweist. Eine
+Anerkennung nach der Altfahrzeug-Verordnung besteht für diese Anschrift nicht; die vier
+Namensvetter der Registerroute liegen an anderen Orten. An derselben Hausnummer sind weitere
+Rechtsträger zertifiziert, die nicht übernommen wurden. Offen bleibt die Betreiberidentität, da
+das Gebäude in OpenStreetMap unter einem fremden Firmennamen geführt wird.
 
 ## Timeline
 

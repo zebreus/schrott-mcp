@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldankauf Bremen - GOLDPUNKT, Pappelstraße 123, 28199 Bremen, ist ein Edelmetallankauf der
+Inhaberin Hülya Yüce; die Betreiberseite nennt den Ankauf von Alt- und Zahngold, Barren und
+Münzen, den Besuch ohne Termin und die Öffnungszeiten Montag bis Samstag 10.00 bis 18.00 Uhr
+sowie Telefon 0421 79469885 und die Adresse info@goldpunkt-bremen.de. Ein Beitrag des
+Weser-Kuriers vom 26.03.2026 bestätigt Anschrift und Inhaberin und die Recycling über C.
+Hafner, ist aber ausdrücklich als Sonderveröffentlichung gekennzeichnet und damit kein
+unabhängiger redaktioneller Beleg. Da die Betreiberseite die einzige zulässige Quelle bleibt,
+ein Handelsregister bei einem Einzelunternehmen nicht ausgewiesen ist und eine Ausnahme von der
+Zwei-Quellen-Regel fehlt, bleiben die Ankaufangaben offen dokumentiert. Die Koordinate bildet
+den Mittelpunkt eines Wohn- und Geschäftsgebäudes und nicht den Ladeneingang ab.
 
 ## Timeline
 

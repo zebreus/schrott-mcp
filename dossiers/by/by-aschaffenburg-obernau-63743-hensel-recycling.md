@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hensel Recycling GmbH ist ein Recyclingbetrieb für Katalysatoren aus Auto und Industrie,
+E-Schrott, Platinen und Edelmetalle in der Mühlweg 10, 63743 Aschaffenburg-Obernau; das
+Impressum nennt HR 7526, das Register die Gesellschaft unter HRB 7526 Aschaffenburg. Die
+Identität tragen Betreiber-Standortseite, Impressum und Registerspiegel sowie das
+Fachbetrieberegister: das Efb-Zertifikat der GZQ A-001179 (ZZKT001001486011) umfasst
+vier Anlagen am Standort; Anlage 4 ist als Erstbehandlungsanlage nach ElektroG
+zertifiziert. Offen bleibt der fehlende Eintrag im Altfahrzeugverwertungsregister, der
+wegen der Freiwilligkeit der Anerkennung keinen Nichtbestand belegt, zudem die
+Ortsbezeichnung, da Register und Standortseite Aschaffenburg-Obernau nennen, das Dossier
+Aschaffenburg. Öffnungszeiten und eine Publikumsannahme sind nicht belegt.
 
 ## Timeline
 

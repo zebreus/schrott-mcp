@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Knittlingen ist die Autoverwertung Knittlingen GmbH in der Pflegmühleweg 68, 75438
+Knittlingen; das Impressum nennt Pascalis Veranis, der Registerspiegel Northdata führt
+die Gesellschaft unter HRB 732419 Amtsgericht Mannheim und nennt historisch die
+Schreibweise Paschalis Veranis. Die Identität tragen die Startseite, das Impressum unter
+/privacy und der Registerspiegel, die übereinstimmend Firma, Ort und Anschrift nennen.
+Die Leistungen sind auf Fahrzeugankauf, Demontage und Ersatzteilehandel begrenzt: die
+Homepage bestätigt nur den allgemeinen Bezug zum Auto, der Registergegenstand nennt die
+drei Tätigkeiten, ein Ankauf loser Altmetalle ist damit nicht belegt, weshalb der Status
+auf pruefung bleibt. Offen bleibt außerdem die amtliche Straßenschreibweise, und die im
+Dossier geführte Nummer DE321826654 ist nicht als Zertifikatsnummer belegt.
 
 ## Timeline
 

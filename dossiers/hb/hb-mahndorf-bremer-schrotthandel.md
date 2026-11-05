@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bremer Schrotthandel, Syker Straße 6, 28307 Bremen-Mahndorf, ist ein Schrotthandel, der laut
+Impressum von Kadir Sayli betrieben wird; die Startseite nennt Schrottabholung, Entrümpelung
+und Containerdienst im Raum Bremen und Umgebung sowie den Ankauf von Buntmetall. Das Impressum
+weist Telefon +49 1522 6349848 und die Adresse office@bremerschrotthandel.com aus; die
+abweichenden Schreibweisen in der Fußzeile wurden nicht übernommen. Die Identität stützt sich
+damit auf eine starke Betreiber-Einzelquelle, ein Registerspiegel liefert keinen Treffer, und
+ein belastbarer Doppelbeleg fehlt. Offen bleibt der Preisbeleg, da die Branche als
+Ankaufszuordnung belegt ist, ein Zahlenpreis aber nicht vorliegt.
 
 ## Timeline
 

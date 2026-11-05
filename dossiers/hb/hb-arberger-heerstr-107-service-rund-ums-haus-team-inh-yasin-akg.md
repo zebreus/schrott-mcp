@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Service rund ums Haus Team, Inhaber Yasin Akgül, Arberger Heerstraße 107, 28307 Bremen, ist ein
+mobiler Schrottdienst, der Heizkörper, Stahl, Maschinen, Kupfer, Messing, Aluminium und
+Kfz-Teile kostenlos abholt. Impressum und Kontaktseite der Betreiberseite bestätigen Anschrift,
+Telefon 0177 362 95 56 und die Adresse info@schrotthaendler-bremen.de. Eine öffentliche
+Annahmestelle und eine Vergütung sind nicht belegt; das Telefonbuch bestätigt Adresse und
+Nummer nur als Verzeichniseintrag, und die dort genannten Öffnungszeiten wurden nicht
+übernommen. Ein Handelsregister ist nicht ausgewiesen, eine Ausnahme von der Zwei-Quellen-Regel
+greift nicht. Die Koordinate bildet ein Wohngebäude als Verwaltungsadresse ab und keine
+Abgabestelle. Gegenüber dem gleichnamigen Betrieb des Mohamed Akgül bestehen getrennte
+Inhaber-, Domain- und Anschriftidentität; eine Verwandtschaft ist nicht belegt.
 
 ## Timeline
 

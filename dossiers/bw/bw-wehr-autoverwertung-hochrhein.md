@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Hochrhein ist die von Hussein Wehbi betriebene Autoverwertung in der
+Finsterbachstraße 10, 79664 Wehr, ein zertifizierter Demontagebetrieb seit 2001, der
+Unfallfahrzeuge und neuere Modelle ankauft und gebrauchte Ersatzteile verkauft. Die
+Identität tragen Betreiber-Startseite, Impressum und der Creditreform-Firmeneintrag, die
+übereinstimmend Anschrift und Telefonnummer nennen; ein Registereintrag fehlt, das
+Dossier nennt Einzelunternehmen. Offen bleibt die Telefonnummer, die auf derselben Seite
+zwei abweichende Mobilnummern führt, sowie E-Mail und Öffnungszeiten, die nur als
+Einzelbeleg vorliegen. Ankaufpreise werden nicht beziffert, und kostenlos ist nur die
+Anlieferung mit Abmeldung, während der Aufpreis für die Abholung offen bleibt. In OSM
+trägt die Hausnummer 10 kein Objekt mit Betriebsbezug.
 
 ## Timeline
 

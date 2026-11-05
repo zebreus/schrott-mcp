@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Abschlepp- und Bergedienst Hedderich, Sandwiesenstraße 24, 64665 Alsbach-Hähnlein, ist ein
+Abschlepp- und Bergedienst mit Fahrzeuglogistik, Kranarbeiten und Fahrzeugverwertung mit
+Verwertungsnachweis; Inhaber ist Uwe Hedderich. Die Kontaktseite nennt Telefon 06257/5921, die
+Adresse info@asd-hedderich.de sowie Bürozeiten Montag bis Freitag 8.00 bis 17.00 Uhr und
+Abholzeiten 9.30 bis 16.00 Uhr; das Impressum weist als Rechtssitz Robert-Bosch-Straße 3, 64683
+Einhausen aus, daneben wird ein Standort in Bensheim geführt. Das amtliche Fachbetrieberegister
+führt für keine der beiden Anschriften einen Eintrag, und die Betreiberseite enthält keinen
+Zertifikatsbeleg; die Zusage, Verwertungsnachweise auszustellen, ist eine Betreiberangabe.
+Offen bleibt die Zuordnung des Dossierstandorts zum Impressumsrechtssitz und der Schwerpunkt
+des Angebots, da Abschleppdienst und Logistik dominieren.
 
 ## Timeline
 

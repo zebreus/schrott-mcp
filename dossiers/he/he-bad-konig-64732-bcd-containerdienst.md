@@ -25,7 +25,14 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (SVG Zertifizierungsdi
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BCD Containerdienst GmbH & Co. KG ist ein Containerdienst mit Wertstoffhof in Bad König,
+Zeller Gewerbezentrum 27, 64732 Bad König; beworben werden Metallankauf zu Tagespreisen mit
+Anlieferung, Verwiegung und Vergütung sowie Container in verschiedenen Größen. Die Identität
+tragen das Betreiber-Impressum (HRA 84964 AG Darmstadt, Geschäftsführer Markus Reichert) und
+das vom Betrieb verlinkte Facebook-Profil als Zweitbeleg; das amtliche Fachbetrieberegister
+führt den Standort mit drei Anlagenzeilen für Sammeln und Befördern, Lagern und Behandeln
+und weist das Zertifikat 1649/01/16 der SVG aus. Offen bleibt, dass die Seed-Adresse Zeller
+Gewerbezentrum 2 überholt ist und bezifferte Ankaufpreise nicht vorliegen.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SHK Krämer ist die von Romeo Krämer betriebene Einzelunternehmung Schrotthandel Krämer in
+Darmstadt, Akazienweg 23, 64293 Darmstadt; sie erledigt Schrottentsorgung und -recycling,
+kauft Kupfer, Aluminium, Edelstahl, Kabel und Mischschrott an, nimmt Anlieferungen entgegen
+und bietet Containerdienst sowie Entrümpelung mit besenreiner Übergabe. Die
+Betreiber-Website mit Impressum, Kontakt und Startseite trägt die Identität, der OSM-Knoten
+node/2940158778 bestätigt die Hausnummer ohne Namens- oder Betreiberangabe. Offen bleiben
+der fehlende Register- und Sozialbeleg, der Creditreform-Treffer Denny Krämer als andere
+Person, das Fehlen einer numerischen Preisliste und bezifferter Gebühren sowie die nur
+betreiberseitig belegte Anlieferung.
 
 ## Timeline
 

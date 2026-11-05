@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+A. Lahib Autoverschrottung Bremen, Ludwig-Erhard-Straße 28, 28197 Bremen, ist ein mobiler
+Dienst für Autoverwertung, Autoentsorgung und Schrottautoankauf, der Fahrzeuge kostenlos abholt
+und laut Betreiberseite deutschlandweit ohne feste Niederlassungen arbeitet. Impressum,
+Kontakt- und Leistungsseiten bestätigen Anschrift, Telefon 0152 04045656, die Adresse
+info@autoverschrottung-bremen.de und die Öffnungszeiten täglich 8.00 bis 20.00 Uhr; sie zählen
+als eine Quelle. Hinweis auf einen zertifizierten Partnerbetrieb und angedeutete eigene
+Zertifizierung sind nicht verifiziert, da weder Partner noch Zertifikats- oder
+Registeridentität belegt sind; eine zweite unabhängige Bestätigung fehlt, der Prüfstatus bleibt
+und keine Koordinate ist gesetzt. Ein gleichnamiger Bochumer Eintrag mit anderer Anschrift und
+Nummer ist ein Aggregator-Lead und kein Beleg für eine Filiale.
 
 ## Timeline
 

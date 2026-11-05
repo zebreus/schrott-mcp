@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Stey Schrotthändler ist ein in Hanau-Steinheim verzeichneter Schrotthändler, dessen einziger
+Beleg der Gelbe-Seiten-Eintrag mit der Straßen- und Ortsangabe An der Mainbrücke, 63456
+Hanau und der Mobilnummer 0178 9321274 ist; eine Hausnummer und eine eigene Domain fehlen.
+Ein Betreiberauftritt, ein Impressum sowie ein unabhängiger Register- oder Kommunalbeleg
+wurden nicht gefunden, die Namensrecherche im gemeinsamen Registerportal liefert 0 Treffer
+und die Ortsseite Hanau des amtlichen Fachbetriebsregisters 12 anerkannte Betriebe ohne
+einen Stey. Offen bleiben damit die fehlende Hausnummer, die damit nicht prüfbare
+Soll-Adresse, der auf eine andere Straße und Postleitzahl auflösende Koordinatenpunkt und
+der nur als Umspannwerk belegte Straßenpunkt im OSM; der Status bleibt pruefung.
 
 ## Timeline
 

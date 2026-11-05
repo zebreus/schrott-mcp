@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Spoto Altmetallverwertung ist der von Marco Spoto betriebene Einzelbetrieb in der
+Bavousstr. 6, 86153 Augsburg, ein Spezialist für Hartmetall und
+Werkstoffverbundwerkstoffe mit Altmetallhandel. Die Identität tragen Betreiber-Impressum
+mit Steuernummer und Homepage-Kontaktblock, die Anschrift und Kontaktdaten nennen; ein
+Registereintrag fehlt. Die Startseite kündigt ausdrücklich "Aktuell keine
+Schrottanlieferung zu uns an den Standort" und bewirbt Abholung und Container, sodass
+Dauer und Ende der Pause offen bleiben, das Annahmefeld leer ist. Öffnungszeiten werden
+nicht publiziert. Im amtlichen Fachbetrieberegister ist weder ein Efb- noch ein
+Altfahrzeugverwertungseintrag für Namen oder Anschrift zu finden; die Anerkennungen sind
+freiwillig, ein Nichttreffer belegt kein Fehlen.
 
 ## Timeline
 
