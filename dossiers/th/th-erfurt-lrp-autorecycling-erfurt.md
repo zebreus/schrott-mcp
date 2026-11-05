@@ -69,9 +69,10 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Bei den Froschäckern 3 — Altfahrzeuge“. Eine **eigene Live-Nachprüfung am 05.11.2026** (Namenssuche `LRP`,
   `LRP Autorecycling`, `LRP-Autorecycling` und `Autorecycling` in der Route „Altfahrzeugverwertung“: 1, 1, 1 und
   26 Treffer, **keiner** in Erfurt; Standortabfrage 3 km um die validierte Dossier-Adresse: **0** Treffer) findet
-  **keinen** AFV-Eintrag an dieser Adresse; in der Route „Entsorgungsfachbetriebe“ liegt im selben Umkreis nur die
-  „Betriebsstätte Erfurt“ (ZZEE00100092 / 5–8) bei **Bei den Froschäckern 10** — andere Hausnummer und laut PDF die KG
-  Ludwig Melosch, also ein anderer Rechtsträger. Der Spiegel-Eintrag ist damit **im amtlichen Register nicht mehr
+  **keinen** AFV-Eintrag an dieser Adresse; in der Route „Entsorgungsfachbetriebe“ liegt im selben Umkreis **kein**
+  LRP-Eintrag, die nächstliegenden Treffer sind die „Betriebsstätte Erfurt“ (ZZEE00100092 / 5–8) bei **Bei den
+  Froschäckern 10** — andere Hausnummer und laut PDF die KG Ludwig Melosch, also ein anderer Rechtsträger — sowie zwei
+  weitere Fremdbetriebe (Enviro GmbH Erfurt-Vieselbach, Car Complete 24 GmbH Erfurt-Urbich). Der Spiegel-Eintrag ist damit **im amtlichen Register nicht mehr
   nachweisbar** (zurückgenommen oder umbenannt); da der Spiegel **nicht amtlich** ist und die Live-Abfrage ihn nicht
   bestätigt, bleibt `certifications` leer. Die Aussage gilt für den Registerstand 05.11.2026.
   **Reichweitenklausel.** Geprüft wurden die Namensvarianten `LRP Autorecycling`, `LRP` und
