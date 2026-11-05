@@ -34,7 +34,10 @@ die Gesellschaft mit einem EfbV-Zertifikat der TÜV Thüringen Anlagentechnik (N
 Anlagen am Dossierstandort umfasst: Sammeln und Befördern, Lagern mit den angekreuzten Feldern
 zwecks Verwertung sowie Behandeln und Verwerten. Das Beiblatt weist die Anlage zugleich als
 anerkannte Annahmestelle nach § 2 Absatz 2 AltfahrzeugV aus. Weitere zertifizierte Betriebe
-derselben Ortssuche gehören anderen Rechtsträgern und wurden nicht übernommen.
+derselben Ortssuche gehören anderen Rechtsträgern und wurden nicht übernommen. Offen bleibt, ob die Gesellschaft
+einen eigenen Eintrag in der Route „Altfahrzeugverwertung“ des amtlichen Registers führt — die hier genannte
+Anerkennung als Annahmestelle stammt aus dem Beiblatt des EfbV-Zertifikats, ein eigener
+AltfahrzeugV-Registereintrag ist im Dossier nicht belegt.
 
 ## Timeline
 
