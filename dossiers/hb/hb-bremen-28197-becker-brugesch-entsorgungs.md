@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+becker + brügesch Entsorgungs GmbH ist ein Entsorgungs- und Wertstoffmanagementbetrieb mit Containerlogistik
+in Bremen; die Verwaltung sitzt in der Warturmer Heerstraße 120, 28197 Bremen, die Anlieferung erfolgt laut
+Betreiberseite über Tor 1 an der Barkhausenstraße 14. Das Impressum führt die Gesellschaft mit HRB 19105 und
+dem Geschäftsführer Daniel Thiemann, ein Registerspiegel ist kongruent, und das Mitgliederverzeichnis der
+Entsorgergemeinschaft bestätigt Adresse, Telefon und den Metall-, Stahl- und Elektroschrottbezug unabhängig.
+Die Selbstanlieferung ist werktags mit Waage und Warnkleidung beschrieben, private Zulassung und
+Metallauszahlung sind nicht belegt. Zwei Zertifikate liegen vor, ein EBA-Zertifikat mit eng begrenztem
+Geltungsbereich und ein ElektroG-Zertifikat für kleine ITK-Datenträger. Offen bleiben das abgelaufene
+HTTPS-Zertifikat der Website und der fehlende Standortnachweis für das Anliefertor; die Koordinaten bilden
+allein die Verwaltung ab.
 
 ## Timeline
 

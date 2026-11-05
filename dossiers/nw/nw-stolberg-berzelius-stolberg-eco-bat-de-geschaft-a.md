@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Primärbleihütte Binsfeldhammer, Binsfeldhammer 14, 52224 Stolberg, seit 02/2023 NYRSTAR
+STOLBERG (vormals ECOBAT Resources Stolberg, davor Berzelius; Übernahme durch Trafigura):
+Multimetallhütte mit QSL-Anlage, rund 300 Beschäftigte, Produkte Blei, Bleilegierungen, Silber
+und Schwefelsäure, Jahreskapazität 155.000 t Blei, gegründet 1848; kein
+Publikums-Schrotthandel, Ankauf und Verkauf laufen über die Einkaufs- und Auftragsbedingungen
+(Stand 9/2025). Die Identität tragen die Betreiber-Seiten und das OSM-Objekt way/704998669, das
+den Betrieb selbst benennt; die Clarios-Mitteilung vom 04.05.2026 nennt nur Freiberg, Braubach
+und Arnoldstein, Stolberg ist nicht Teil dieser Übernahme. Offen bleibt, dass das OSM-Objekt
+keinen operator-Tag trägt, die Telefonangaben keine Ortsangabe liefern und keine bezifferten
+Preise veröffentlicht sind.
 
 ## Timeline
 

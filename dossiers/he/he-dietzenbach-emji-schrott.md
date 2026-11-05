@@ -127,3 +127,35 @@ gespeicherte Punkt 50.0098/8.7778 liegt 798 m daneben.
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Emji-Schrott` (Marktheidenfelder Weg 2, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Emji` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Emji` -> **0 Treffer** (Altfahrzeug); `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gogircea` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Gogircea` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Marktheidenfelder Weg 2, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Marktheidenfelder Weg 2, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 1,1 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 1,2 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 1,3 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Marktheidenfelder Weg 2, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `Emji-Schrott`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **36 Treffer**, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Emji ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Emji ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gogircea ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Gogircea ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Marktheidenfelder%20Weg%202%2C%2063128%20Dietzenbach%2C%20Deutschland;8.786498;50.01424;8.787695730291501;50.0156111302915;8.784997769708498;50.0129131697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Marktheidenfelder%20Weg%202%2C%2063128%20Dietzenbach%2C%20Deutschland;8.786498;50.01424;8.787695730291501;50.0156111302915;8.784997769708498;50.0129131697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields` bleibt unverändert.** Die
+  Dossier-Hausnummer **2** auf dem "Marktheidenfelder Weg" existiert in OSM - die Vorwellen-Notiz vom 01.11.2026 traf für
+  den **Betrieb** zu, nicht für die **Adresse**. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein
+  Fensterfehler):** das live abgerufene Kachelraster **8.7800/50.0100 bis 8.7900/50.0200** umfasst **1 Kachel von je 0,01
+  Grad**, **0 Kachel-Fehler**, 7233 Elemente; die Straße "Marktheidenfelder Weg" ist dort mit **3** Adressobjekten und **2**
+  verschiedenen Hausnummern erfasst (**2** und **4**) - way/40922223 zu Nummer 2, way/35668548 zu Nummer 4, dazu die
+  Straßenrelation/252775 mit `name`=Marktheidenfelder Weg. way/40922223, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/40922223/full.json), trägt `addr:housenumber`=2, `addr:street`=Marktheidenfelder
+  Weg, `addr:city`=Dietzenbach, `addr:postcode`=63128, `building`=yes, `building:levels`=17; **9** Knoten, davon **8**
+  eindeutig, Objekt-BBox 8.7862900/50.0139994 bis 8.7867589/50.0143320, der Punkt läge innerhalb. **Die zweite Quelle
+  fehlt aber weiterhin:** für "Emji-Schrott / Gogircea Alexandru" existiert **kein** Betreiberauftritt und **kein**
+  Registereintrag - die einzige Nennung ist der Verzeichnislead 11880 ("Emji-Schrott Abholung / Schrotthändler Gogircea
+  Alexandru", Marktheidenfelder Weg 2, Mobil (0178) 1997566), und die gespiegelten Verzeichnisse sind keine zweite Quelle;
+  die im Dossier zitierten Betreiberquelle https://cristofor-schrotthandel.de/impressum/ (live gelesen 05.11.2026 im
+  Dossierzitat) nennt **Cristofor Ciurar** mit **anderer** Rufnummer an derselben Hausnummer, und das OSM-Objekt trägt
+  **weder** `name` **noch** `operator` und kann die beiden Marken nicht trennen; die Suche nach
+  "Schrott|Cristofor|Ciurar|Emji|Gogircea|Lorenzo|Manuel" über die Felder name, operator, brand, description, website,
+  contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen** Treffer. **Warum keine Koordinate:**
+  die Dossier-Adresse stammt weiterhin **ausschließlich** aus einem Verzeichnislead, die `street`- und `postcode`-Felder
+  bleiben deshalb leer, und die Hausnummer wird nicht über einen Geokodierungsschritt in eine Koordinate umgewandelt;
+  das Dossier führt **kein** `clear_fields` und damit keinen `geo`-Token, an der Frontmatter wird nichts geändert;
+  `status` bleibt `pruefung`. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein
+  Existenz- oder Schließungsbeweis; die Anschrift ist in OSM belegt, die Betriebsidentität nicht. Offen bleiben die
+  Betriebsidentität, die tatsächliche Tätigkeitsaufnahme und jede öffentliche Annahme. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/40922223/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/35668548/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.01,8.79,50.02 ;
+  https://www.11880.com/branchenbuch/dietzenbach/060444309B113012766/emji-schrott-abholung-schrotthaendler-gogircea-alexandru.html ;
+  https://cristofor-schrotthandel.de/impressum/ (Abruf 05.11.2026)]

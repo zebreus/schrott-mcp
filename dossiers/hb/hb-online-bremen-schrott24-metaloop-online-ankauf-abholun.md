@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott24 / Metaloop ist kein Bremer Betrieb, sondern die Onlineplattform der Metaloop Europe GmbH mit Sitz in
+der Puchstraße 17, 8020 Graz, FN 638630 m, geführt von Jan Christer Pannenbäcker und Alexander Schlick;
+Unternehmensgegenstand ist der Betrieb von Internetplattformen zur Vermittlung von Schrott- und
+Altmetallgeschäften. Das Dossier führt Bremen als Region eines Anlieferstellennetzes mit über 90
+Anlieferstellen in Deutschland und Österreich und einem Netzwerk aus über 400 Schrotthändlern und Werken;
+Adresse und Öffnungszeiten der Bremer Anlieferstelle werden erst nach dem Online-Verkaufsabschluss per E-Mail
+zugesendet. Eine OSM-Prüfung der Puchstraße zeigt die Hausnummer 17 als Mehrparteienhaus, in keinem der
+Objekte wird Metaloop oder Schrott24 genannt, der Betrieb ist nicht kartiert. Offen bleiben die Bremer
+Anlieferadresse, eine telefonische Erreichbarkeit und ein Zahlenpreis für den Standort Bremen, da die
+Preistabelle dort clientseitig befüllt wird.
 
 ## Timeline
 - [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „n.e.“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]

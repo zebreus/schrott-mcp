@@ -86,3 +86,25 @@ Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ i
   https://darmstadt-post.de/unternehmen/pfungstadt/schrotthandel/alexander-sebastian-stein-schrotthandel-493/ ;
   https://pfungstadt.stadtbranchenbuch.com/ ;
   read-only `public.db` (Abruf 03.11.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **3** auf dem "Tulpenweg" in Pfungstadt-Eschollbrücken existiert in OSM **nicht** - die Straße ist
+  dort nicht kartiert. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das live
+  abgerufene Kachelraster über den Pfungstädter Ortsbereich umfasst **8.5700/49.7800 bis 8.6400/49.8300**, **37 Kacheln
+  von je 0,01 Grad**, **0 Kachel-Fehler** (zwei zunächst mit HTTP 429 abgewiesene Kacheln wurden einzeln nachgeladen und
+  ohne Fehler übernommen), 87224 Elemente; es liefert **0** Objekte mit dem Straßennamen "Tulpenweg" und **kein**
+  Adressobjekt mit der Hausnummer 3. Quelle 2 (Betreiber/Register): **fehlt** - für "Stein Alexander-Sebastian" existiert
+  weder eine Betreiberseite noch ein Impressum noch ein Register- oder Northdata-Treffer; der Dossier-Beleg ist
+  ausschließlich ein **Verzeichnislead** (Darmstadt Post: "Alexander-Sebastian Stein Schrotthandel, Tulpenweg 3, 64319
+  Pfungstadt, Tel. 06157 9110132"; dazu die älteren 11880- und Stadtbranchenbuch-Einträge), der nach dem Quellenstandard
+  kein Beleg ist; die dort gezeigte Bewertung ist kein Nachweis laufender Annahme. **Warum keine Koordinate:** ohne
+  adressgenaues OSM-Objekt kann kein Punkt gebildet werden, und die Adresse selbst ist nur lead-belegt; der
+  `clear_fields: 'geo'`-Eintrag bleibt bestehen, der gespeicherte Altpunkt 49.8056/8.6031 (Rügnerstraße 67c) wird damit
+  ohnehin zurückgenommen - er löst zudem auf eine **andere** Straße als die Verzeichnisangabe "Tulpenweg 3" auf. `status`
+  bleibt `pruefung`. **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für das Fehlen des
+  Betriebs; die offene Frage der kommunalen Gewerberegister-Auskunft bleibt offen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.57,49.78,8.64,49.83 ;
+  https://darmstadt-post.de/unternehmen/pfungstadt/schrotthandel/alexander-sebastian-stein-schrotthandel-493/ ;
+  https://pfungstadt.stadtbranchenbuch.com/ (Abruf 05.11.2026)]

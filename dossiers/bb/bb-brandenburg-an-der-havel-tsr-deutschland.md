@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Standort der TSR Deutschland GmbH & Co. KG (HRA 19743 Amtsgericht Dortmund, Sitz Lünen) in
+der Woltersdorfer Straße 40, 14770 Brandenburg an der Havel, mit Ankauf und Aufbereitung von
+Fe- und NE-Schrott für Privat- und Gewerbekunden, Containerdienst, Abholung und Rückbau;
+Kontakt 03381 36830, Montag bis Freitag 06:00 bis 17:30. Identität und Tätigkeit tragen das
+Betreiber-Impressum, der Registerabgleich bei North Data und ein EdDE-Zertifikat vom
+19.09.2025, gültig bis 31.01.2027, das die Anlage Brandenburg nennt, ergänzt um ein
+GZQ-ISO-9001-Zertifikat und eine Sammelpartnerurkunde. Offen bleibt, dass ein kommunaler
+IED-Prüfbericht nicht abrufbar war, die Annahmeposition auf dem gemeinsamen Industrieareal
+nicht ableitbar ist und das Dossier deshalb keine Koordinaten führt, und dass für diesen
+Standort kein Ankaufpreis veröffentlicht ist.
 
 ## Timeline
 

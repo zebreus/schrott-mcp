@@ -1,6 +1,7 @@
 ---
 slug: nw-essen-carl-herholz
-clear_fields: 'geo'
+lat: 51.4561763
+lon: 7.0584476
 name: Carl Herholz GmbH & Co. KG
 trader_type: sonstige
 state: NW
@@ -77,3 +78,47 @@ Ankauf: keine aktuelle Preis- oder Annahmeliste. Verkauf: keine Material-/Teilep
   https://www.brd.nrw.de/umweltinspektionsberichte/stadt-essen ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9930,51.4800,7.0230,51.5100 ;
   https://www.northdata.de/Carl%20Herholz%20GmbH%20%26%20Co%C2%B7%20KG,%20Essen/HRA%208331 (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **51.4561763/7.0584476** (Mittelwert der **4**
+  eindeutigen Knoten von way/106507914; das Objekt hat 5 Knotenreferenzen, davon 4 eindeutige; die Objekt-BBox reicht
+  von 51.4560740/7.0582821 bis 51.4562788/7.0586135 und **umschließt den Mittelwert**). **Quelle 1 (OSM, live geladen
+  am 05.11.2026, HTTP 200):** way/106507914 trägt `addr:housenumber`=**14**, `addr:street`=Wilhelm-Beckmann-Straße,
+  `addr:city`=Essen, `addr:postcode`=**45307**, `building`=yes; Straße, Hausnummer, PLZ und Ort stimmen mit der
+  Dossier-Adresse **Wilhelm-Beckmann-Str. 14, 45307 Essen** überein. **Fensterdisziplin - der Vermerk vom 03.11.2026
+  hatte einen Fensterfehler:** dessen Kachelraster 6.9930/51.4800 bis 7.0230/51.5100 lag rund 3 km zu weit
+  nordwestlich, deshalb war die Straße dort nicht sichtbar; die Wilhelm-Beckmann-Straße liegt tatsächlich bei
+  51.4545663/7.0564286 bis 51.4584386/7.0608571. Das am 05.11.2026 live abgefragte Kachelraster über den korrekten
+  Standortbereich umfasst **7.0400/51.4400 bis 7.0900/51.4800**, **20 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4400,7.0900,51.4800); es **umschließt die Objekt-BBox
+  vollständig** und enthält die Straße nachweislich mit den Straßenobjekten way/25513079, way/25513084 und
+  way/771034614. Die Straße trägt im Fenster **21** Adressobjekte; sie weist **21** verschiedene Hausnummern: 1, 2, 3, 5, 6, 7,
+  11, 12, 13a, 13b, **14**, 15, 16, 18, 19, 20, 22, 23, 25, 27 sowie die Sammelangabe 24, 26 (way/458047900) - die
+  **Dossier-Hausnummer 14 existiert also in OSM**; sie war nur außerhalb des alten Fensters unsichtbar. **Schreibweise:**
+  das Dossier schreibt „Wilhelm-Beckmann-Str. 14", OSM „Wilhelm-Beckmann-Straße" - die Abkürzung „Str." ist kein
+  abweichender Straßenname. **Quelle 2 (Betreiber/Behörde, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen,
+  HTTP 200):** der Umweltinspektionsbericht der Bezirksregierung Düsseldorf führt für **Carl Herholz GmbH & Co. KG** die
+  Anlagenbezeichnung **„Lagerung und Behandlung von Fe- und NE-Schrotte"** und den Standort **„Wilhelm-Beckmann-Straße
+  14, 45307 Essen"** (Datum der Umweltinspektion 25.02.2026, Datum 03.06.2026, Einstufung nach Anhang 1 der
+  4. BImSchV Nr. 8.12.3.1); die Dossier-Adresse ist damit behördlich belegt, und das im Dossier zitierte
+  NorthData-Register (AG Essen HRA 8331) deckt denselben Rechtsträger. **Betriebsbezug in OSM:** keiner -
+  way/106507914 trägt weder `name=` noch `operator=`; der einzige Adressknoten auf demselben Gebäude,
+  node/3550524891 (Punktlage 51.4561652/7.0585024), trägt `name`=**Helmut Reiter Gabelstapler** (`office`=company) und
+  damit einen **anderen** Betrieb desselben Hauses. Eine Suche nach „Herholz" über die Felder name, operator, brand,
+  description, website, contact:website, note und addr:housename findet im Kachelausschnitt **keinen** Treffer - das ist
+  eine Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. Der gesetzte Punkt ist ein **Adresspunkt der
+  behördlich belegten Anlagenanschrift**, kein bestätigter Betriebseingang und keine Waage. **Offen bleibt** die im
+  Dossier dokumentierte Gesellschafts-/Betreiberkette (sekundäre Firmendatenbanken melden die HRA 8331 als
+  beendet/terminiert) sowie die Frage einer heutigen Annahme; der Punkt sagt darüber nichts. **Zurücknahme des
+  `geo`-Tokens (Begründung):** der Token `geo` wird aus `clear_fields` **entfernt** (die Zeile `clear_fields: 'geo'`
+  entfällt), weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed `geo` neben belegtem `lat`/`lon`
+  ablehnt (docs/trader-seed.md); der zuvor zurückgezogene Produktionspunkt 51.450284375/7.015053125 (die Fernbus-Spur
+  „Freiheit" am Essener Hauptbahnhof) wird damit durch den belegten Adresspunkt ersetzt. `status: pruefung`,
+  `trader_type: sonstige` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines
+  OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift,
+  nicht den Betrieb. Quelle(n): https://api.openstreetmap.org/api/0.6/way/106507914/full.json ;
+  https://api.openstreetmap.org/api/0.6/node/3550524891.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0400,51.4400,7.0900,51.4800 ;
+  https://www.brd.nrw.de/umweltinspektionsberichte/Stadt-Essen/E-046-Lagerung-und-Behandlung-von-Fe-und-NE-Schrotte ;
+  https://www.northdata.de/Carl%20Herholz%20GmbH%20%26%20Co%C2%B7%20KG,%20Essen/HRA%208331 (Abruf 05.11.2026).]

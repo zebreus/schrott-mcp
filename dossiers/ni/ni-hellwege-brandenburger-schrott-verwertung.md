@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Brandenburger Schrott-Verwertung ist eine GmbH mit Sitz in der Juri-Gagarin-Straße 33, 15517 Fürstenwalde,
+Registereintrag HRB 9313 des Amtsgerichts Frankfurt/Oder, Geschäftsführer Thorsten Bartsch und USt-ID
+DE220143715; das Dossier führt den Standort Hellwege, Ahauser Straße 32, 27367, Mo bis Fr 08:00 bis 15:00 Uhr,
+unter der Eigenmarke BSV Wertstoffrecycling und Wertstoffankauf. Impressum und lokale Standortseite belegen
+Rechtsträger und Filiale, ein unabhängiger Firmenverzeichniseintrag bestätigt die Firma, während die
+Seitenkopfzeile für Hellwege die Fürstenwalder Nummer nennt. Der Betrieb kauft Eisenschrott, Buntmetalle und
+Batterien an, nimmt Altpapier und Bücher kostenlos an und zahlt bar nach Verwiegung; die Preistabelle nennt
+für jede Sorte nur den Tagespreis ohne Wert. Offen bleiben der nur auf Anfrage genannte Tagespreis je Sorte,
+eine mögliche gebührenpflichtige Annahme für gewerbliche Anlieferer außerhalb der Höfe und eine Preisregelung
+in den AGB, die nur als Bilddatei ohne Textebene vorliegen.
 
 Preisstand 01.11.2026: Der Betreiber veröffentlicht auf **jeder Standortseite von wertstoff-dealer.de eine Preistabelle ohne jeden Zahlenwert** — „Eisenschrott | Tagespreis! Bitte erfragen.", „Buntmetalle | Tagespreis! Bitte erfragen.", „Batterien | Tagespreis! Bitte erfragen.", „Altpapier | kostenlose Annahme", „Bücher | kostenlose Annahme". Auf der gesamten Domain (14 URLs laut Sitemap) steht kein einziger Euro-Wert, und die Preis-Pfade /preise, /ankaufpreise, /sorten und /downloads antworten alle mit HTTP 404. Preisart: ANKAUF — aber ohne Wert, also kein erfassbarer Preis.
 

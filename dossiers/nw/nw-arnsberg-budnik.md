@@ -101,3 +101,39 @@ Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 3
   https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Budnik
   (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung verdoppelt das Fenster und
+  bestätigt, dass die Dossier-Hausnummer 18 in OSM fehlt.** **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):**
+  das Kachelraster **7.9300/51.4000 bis 8.0000/51.4500**, **35 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9300,51.4000,8.0000,51.4500) **umschließt die Objekt-BBox
+  vollständig**, enthält die **„Sternhelle“** in **59757 Arnsberg-Herdringen** nachweislich und vollständig (Verlauf
+  51.4205065/7.9590819 bis 51.4224575/7.9609217) und erfasst sie mit **15** Adressobjekten; die Straße weist **15** verschiedene Hausnummern (1, 10, 11, 12, 13, 14, 16, 2, 3, 4, 5, 6, 7, 8, 9) - die **Nummer 18 fehlt**, und eine Suche nach der Hausnummer 18
+  in Verbindung mit „Sternhelle" findet **keinen** Treffer. Das mehr als doppelt so große Raster gegenüber dem Vermerk
+  vom 03.11.2026 (16 Kacheln) liefert **dieselben 15** Nummern - ein Fensterfehler der letzten Welle liegt hier **nicht**
+  vor. Ein Objekt mit Betriebsbezug zu „Budnik" existiert im Raster **nicht**; eine Suche nach „Budnik" und „Rolf
+  Budnik" über die Felder name, operator, brand, description, website, contact:website, note und addr:housename findet
+  **keinen** Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2 (Betreiber/Verzeichnis,
+  im Dossier bereits zitiert):** der am 25.10.2026 erneut live gelesene 11880-Eintrag **„Rolf Budnik
+  Schrott-RohstoffHdl."** nennt **Sternhelle 18, 59757 Arnsberg**, Telefon 02932 36942 und die Branchen
+  Altmaterialhandel/Schrotthandel/Recycling (Eintragsdaten 29.06.2021, Portalaktualisierung 02.10.2026) - die Anschrift
+  ist damit **verzeichnisgestützt**, aber nicht in OSM abbildbar; nach der Quellenhierarchie ist ein
+  Branchenportal ein **Lead**, kein Beleg. Ein **Betreiberauftritt**, ein **Impressum** und ein **Registereintrag** zu
+  „Rolf Budnik Schrott-RohstoffHdl." existieren **nicht**; die Namenssuche im amtlichen Fachbetrieberegister ergab **0
+  Treffer** für „Budnik" in „Entsorgungsfachbetriebe" und in „Altfahrzeugverwertung", und die Standortsuche um Sternhelle
+  18 (Umkreis 2 km) liefert **ausschließlich** die **andere** Rechtsträgerin Röhrtaler Wertstoff GmbH / Standort
+  Arnsberg-Neheim (Herdringen), Borkshagenstraße 13 (1,5 km entfernt) - **kein** Registerbeleg für den Seed. **Warum keine
+  Koordinate:** Ein Punkt wäre nur aus einem Nachbarobjekt (etwa Sternhelle 16) oder aus einer Straßenmitte ableitbar
+  und damit eine unbelegte Vermutung über die Lage des Betriebs; die Nachbarhausnummer 16 ist **kein** Ersatz für die
+  Dossier-Adresse. **Was zur Auflösung fehlt:** eine belegte Hausnummer 18 in OSM **oder** ein Betreiberauftritt, ein
+  Impressum oder ein Registereintrag, der „Rolf Budnik Schrott-RohstoffHdl." an der Sternhelle 18 in Arnsberg bindet. Der
+  bisher gespeicherte Produktionspunkt 51.39518/8.06078 (laut read-only-Abgleich vom 25.10.2026 auf Twiete 9
+  aufgelöst) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung`, `clear_fields:
+  geo` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist eine
+  Datenlücke und **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.9300,51.4000,8.0000,51.4500 ;
+  https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Budnik
+  (im Dossier zitiert, Abruf 05.11.2026).]
+

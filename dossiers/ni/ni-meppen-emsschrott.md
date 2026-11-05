@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Emsschrott GmbH & Co. KG ist ein Altmetall- und Schrottspezialist der Augustin-Gruppe in Meppen-Hüntel,
+Essener Straße 15, 49716 Meppen, mit Registereintrag HRA 202873 des Amtsgerichts Osnabrück und der Augustin
+Entsorgung Holding GmbH als Gesellschafterin; Betreiber-Website und Impressum belegen Anschrift, Nummer,
+E-Mail, die Zeiten und die Geschäftsführer Rolf Augustin und Tim Metz. Ankauf, Erfassung, Sortierung und
+Aufbereitung von Schrotten und Metallen sind beschrieben, weiße Ware wird ausgeschlossen. Die einzige
+öffentliche Preisquelle ist die Tabelle Schrottangebot der Woche mit acht Sorten, die nach tagesaktuellen
+marktgerechten Preisen abgerechnet wird; die Preistabelle trägt kein Datum, die Seite wurde zuletzt am
+26.10.2026 geändert, was auf einen Angebotsstand vom Donnerstag, 22.10.2026, deutet. Der Sortenkatalog von 16
+Sorten nennt dagegen keine Preise. Offen bleibt, ob die Wochenpreise an allen genannten Annahmestellen
+identisch gelten und ob eine Mindestmenge gilt.
 
 ## Timeline
 

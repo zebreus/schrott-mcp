@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Blank & Co. Rohstoffhandelsgesellschaft mbH in der Boschweg 6, 12057 Berlin-Neukölln, ein
+Rohstoffhändler mit An- und Verkauf von Fe- und NE-Metallen, Schrott, Ferrolegierungen und
+Metallhalbzeugen; das Register führt die Gesellschaft unter HRB 24283 B beim Amtsgericht
+Charlottenburg mit aktivem Jahresabschluss 2024, Betreiber-Website und North Data stimmen in
+Name und Anschrift überein. Die Abholschwellen von 1000 kg für Fe-Metall und 500 kg für
+Buntmetalle zu Tagespreisen sowie Container auf Wunsch sind nur als Hinweis in der Recherche
+dokumentiert. Offen bleibt die Belegtiefe der Kontaktdaten: E-Mail und Öffnungszeiten
+beruhen allein auf der Betreiberseite, für die Telefonnummer 030 6255005 liegt kein zweiter
+Beleg vor, und das Dossier führt keine Koordinaten.
 
 ## Timeline
 

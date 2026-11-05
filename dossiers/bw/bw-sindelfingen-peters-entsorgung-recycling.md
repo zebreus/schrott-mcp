@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wertstoff- und Recyclinghof der Klaus Peters GmbH in der Schwertstraße 48/1, 71065
+Sindelfingen, mit Annahme von Schrott und Metallen für Privat- und Gewerbekunden, laut
+Betreiber Barauszahlung für Metalle und Schrott sowie Container-, Pressendienst und mobiler
+Entsorgung; das Impressum nennt HRB 241056 beim Amtsgericht Stuttgart und den Ort
+Sindelfingen, die Registeraufbereitung bei North Data führt dieselbe Gesellschaft mit
+gleicher Registernummer und Anschrift, und die Betreiberseiten weisen den geöffneten Hof mit
+laufenden Leistungen aus. Offen bleibt die Belegtiefe: Kontakt-, Zeit- und Leistungsangaben
+stammen aus dem Betreiberauftritt, ein Preis oder eine feste Ankaufsrate ist nicht
+eingetragen, und das Dossier führt keine Koordinaten.
 
 ## Timeline
 

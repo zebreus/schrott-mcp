@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Müller Stefan Schrotthandel, Inhaber Stefan Müller, Thälmannstr. 6, 99610 Sömmerda: Ankauf von
+Altmetallen zu tagesaktuellen Preisen, kostenlose Abholung auch von Kleinmengen in Sömmerda und
+Containerbereitstellung in Zusammenarbeit mit einem Großhändler. Die Identität trägt die
+Betreiber-Website mit Impressum-Seitenleiste, die Inhaber, Anschrift, Telefonnummer und E-Mail
+nennt; die Öffnungszeiten stammen aus einer eigenen Detailseite. Offen bleibt, dass externe
+Namens- und Ortssuchen keinen unabhängigen aktuellen Identitätsbeleg lieferten und damit keine
+HRB-Owner-Ausnahme greift, dass die Preise ausschließlich telefonisch zu erfragen sind und die
+Aktualität der Zeiten vor Anfahrten telefonisch zu bestätigen wäre; Abrollcontainer gibt es nur
+gemeinsam mit dem Großhändler, eine Eigenflotte wird nicht behauptet, und nach der ergänzten PLZ
+ist neu zu geocodieren.
 
 ## Timeline
 

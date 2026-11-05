@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Six Cars GbR, Parkring 14, 04158 Leipzig: Autoverwertung und Ersatzteilhandel mit kostenloser
+Fahrzeugabholung in Leipzig und im 50-km-Umkreis, die Vergütung für Unfallfahrzeuge hängt vom
+Einzelfall ab. Die Identität tragen die Betreiber-Website mit Impressum (Six Cars GbR, Dmitri
+Gempel und Igor Marants, Parkring 14), Telefonnummer, E-Mail und Öffnungszeiten einschließlich
+telefonischer Hotline; ein externes Verzeichnis ist namens- und adresskongruent. Offen bleibt,
+dass kein Registeroriginal vorliegt und damit keine HRB-Owner-Ausnahme greift, die
+Zertifizierung nur Betreiberbehauptung ist und kein aktuelles GESA-Zertifikat abgerufen wurde
+sowie die Abmeldung auf der Leistungsseite gegen Gebühr, in der FAQ kostenlos angeboten wird,
+weshalb keine Kostenangaben übernommen wurden; Ausnahmen für ausgebrannte und ausgeschlachtete
+Fahrzeuge bleiben bestehen.
 
 ## Timeline
 

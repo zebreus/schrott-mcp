@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott Buntmetallankauf Altmittweida, Hauptstr. 79, 09648 Altmittweida: Kleinannahmestelle
+(KAS) im Annahmenetz der Hofmann Metall GmbH (HRB 5475 AG Chemnitz, Hauptsitz Zwickau) für
+Stahlschrott und Buntmetall. Die Identität trägt die Hofmann-Kleinannahmestellenseite, die
+Hauptstraße 79 und die Mobilnummer 0176/411 925 44 nennt, identisch mit der hier gespeicherten
+Nummer; die Hofmann-Firmenhistorie nennt die Eröffnung für 2024 und eine Ankündigung vom
+25.07.2024 nennt Stahlschrott und Buntmetall, OSM führt way/201731552 mit Hausnummer 79 und
+way/330963119 mit dem Hofmann-Betriebsnamen. Offen bleibt, dass die Hofmann-Seite als Anlage
+nicht die Hauptstraße 79, sondern das ohne Hausnummer kartierte Betriebsobjekt führt und dass
+für die KAS weder Ankaufsquote noch Gebührenhöhe belegt sind; die auf der Konzernseite
+veröffentlichten Markt- und Börsenpreise gelten für das Konzernangebot.
 
 ## Timeline
 - [Recherche 28.10.2026: Die Zeile ist die **Kleinannahmestelle (KAS) Altmittweida** der Hofmann Metall GmbH: Die Betreiber-Kleinannahmestellenseite (hofmann-metall.de) nennt Hauptstraße 79, 09648 Altmittweida und die Mobilnummer 0176 / 411 925 44 - **identisch** mit der in dieser Zeile gespeicherten Nummer; die Hofmann-Firmenhistorie nennt für 2024 die Eröffnung der KAS Altmittweida, eine Hofmann-Ankündigung vom 25.07.2024 nennt für die Stelle Stahlschrott und Buntmetall. **GEO korrigiert:** Der gespeicherte Punkt 50.9677492/12.9570254 löst auf „78c, Hauptstraße“ auf - rund **1.073 m** daneben; neu ist der adresskongruente OSM-Punkt zu Hauptstraße 79 (way 201731552, 50.9634358/12.9433358), also die in dieser Zeile selbst geführte Hausnummer. Keine Preise und keine Gebühren belegt. Quellen: https://hofmann-metall.de/standorte/kleinannahme-altmittweida/ ; https://hofmann-metall.de/firmenhistorie/ ; https://nominatim.openstreetmap.org/search?q=Hauptstra%C3%9Fe+79%2C+09648+Altmittweida&format=jsonv2 ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.9677492&lon=12.9570254&zoom=18&addressdetails=1 ; read-only `public.db` (28.10.2026).]

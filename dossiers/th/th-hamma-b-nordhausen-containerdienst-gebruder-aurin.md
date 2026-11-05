@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gebrüder Aurin GmbH, Am Siebenackerweg 1, 99765 Hamma (Landkreis Nordhausen): Containerdienst,
+Schrott- und Metallhandel, Abbrüche und Entkernungen sowie technische Gase, mit
+Entsorgungsfachbetrieb. Die Identität tragen die Betreiber-Website mit Impressum, das Firma,
+Anschrift, Telefonnummer, E-Mail, Öffnungszeiten, Leistungen und HRB 503375 AG Jena ausweist, und
+Northdata als Gegenbeleg, der dieselbe HRB kongruent bestätigt und den Unternehmensgegenstand
+Metallhandel, Metallaufbereitung, Abbrüche und Containerdienst nennt. Offen bleibt, dass die
+Entsorgungsfachbetrieb-Angabe auf der Betreiber-Website beruht und ein Zertifikat nicht belegt
+ist, dass die Belegkette zunächst nur aus einer Betreiberquelle bestand und der Registerangabe
+erst nachträglich zugeleitet wurde, und dass zum Ankauf nichts beziffert belegt ist; die
+Provenienz vermerkt ihn als unklar.
 
 ## Timeline
 

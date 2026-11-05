@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SMH Schrott- und Metallhandels GmbH, Fasaneninsel 10, 07548 Gera: Stahlschrott, Buntmetall,
+Elektronikschrott, Autoverwertung und Container mit Bargeld-Sofortauszahlung. Die Identität tragen
+die selbst verifizierte Betreiber-Standortseite mit Anschrift, Telefonnummer, E-Mail und
+Öffnungszeiten sowie das Impressum mit HRB 109818 AG Jena; rvt.de bestätigt als
+Gruppen-Gegenbeleg. Offen bleibt die Standortabgrenzung: Das Dossier hatte zunächst zwei
+Standorte vermischt, Erfurt, Ladestraße 14, und Gera, Fasaneninsel 10, und wurde auf Gera
+korrigiert; weitere Standorte der SMH-Gruppe sind hier nicht belegt, eine unabhängige zweite
+Quelle über den Gruppenbeleg hinaus fehlt.
 
 ## Timeline
 

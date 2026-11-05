@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung BAREC GmbH, Antonienstraße 13, 06749 Bitterfeld-Wolfen (OT Bitterfeld):
+Autoverwertung mit Onlineverkauf neuer und gebrauchter Kfz-Ersatzteile und Demontagefahrzeugen im
+Bestand, Geschäftsführer Torsten Hellbarth. Die Identität tragen das Betreiber-Impressum mit
+Firma, Geschäftsführer, Register (HRB 16225 Amtsgericht Stendal), Anschrift, Telefonnummer und
+E-Mail, das kongruente Northdata-Registerprofil und das Chemiepark-Firmenverzeichnis 2023, das
+E-Mail und Domain im Suchindex bestätigt. Offen bleibt, dass die Kontaktseite nur eine
+Teileanfrage anbietet, kein ausgewiesenes allgemeines Schrottannahmeangebot und keine
+Annahmezeiten nennt, und dass der Registergegenstand allein keinen heutigen Privatankauf belegt;
+Öffnungszeiten und JSON-Felder bleiben leer, der Status bleibt auf Prüfung.
 
 ## Timeline
 

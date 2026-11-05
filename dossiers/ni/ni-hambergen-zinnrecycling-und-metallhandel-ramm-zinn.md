@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Zinnrecycling und Metallhandel Ramm ist ein Einzelunternehmen des Inhabers Felix Ramm in Hambergen,
+Ohlenstedter Straße 2, 27729, das als Zinn-Spezialist Schrott, Metalle und Legierungen ankauft, analysiert und
+einschmilzt, Paketversand mit Preislisten anbietet und einen nach dem BImSchG zugelassenen Schrottplatz
+betreibt; im Impressum steht kein Registereintrag, da das Unternehmen als Einzelunternehmen ohne HRB geführt
+wird. Die zweite Quelle ist ein Verzeichniseintrag mit Telekom-Auskunftsdaten, der Anschrift und Nummer deckt
+sich mit der Betreiber-Website, deren Kontaktseite den Kartenpunkt setzt; die Warenannahmezeiten weichen von
+den Geschäftszeiten ab. Bezifferte Ankaufspreise gelten ausdrücklich nur für Paketsendungen, für die übrige
+Sortenliste kündigt der Betreiber die Preise ab dem 19.10.2026 wieder an, und die Seiten nennen kein
+Veröffentlichungsdatum. Offen bleibt, ob der Kundenverkehr nach der angekündigten Wiederöffnung am 19.10.2026
+wieder normal läuft.
 
 ## Timeline
 

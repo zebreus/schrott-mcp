@@ -24,7 +24,16 @@ provenance_origin: prose
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+FLAXRES GmbH, Blumenstraße 80, 01307 Dresden: Technologieunternehmen für die Zerlegung von
+Photovoltaikmodulen; Northdata führt als Unternehmensgegenstand die Entwicklung, Herstellung,
+den Betrieb und den Vertrieb von Recyclingvorrichtungen für Verbundmaterialien (HRB 36460
+Dresden). Die Identität tragen das Betreiber-Impressum mit Anschrift, Telefonnummer und E-Mail
+sowie das extern registerkongruente Northdata-Profil. Offen bleibt ein Widerspruch der
+Betreiberseiten: Die Modulseite nennt Annahmebedingungen für gewerbliche Kunden (komplette
+monokristalline Module mit Rückseitenfolie, mindestens eine Palette), die Kontakt-FAQ sagt
+zugleich, es gebe keine Erstannahmelizenz. Uneinheitlich sind auch die Geschäftsführerangaben,
+denn das Impressum nennt nur Nico Bernstein, Northdata zusätzlich Zi-Su Kim. Ein allgemeiner
+Metallankauf ist nicht belegt.
 
 ## Timeline
 

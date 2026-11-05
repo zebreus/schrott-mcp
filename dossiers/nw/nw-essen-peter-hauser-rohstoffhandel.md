@@ -82,3 +82,43 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   http://altmetall-haeuser.de/impressum.html ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=6.8950,51.4740,6.9450,51.5000 ;
   https://api.openstreetmap.org/api/0.6/way/226838734/full.json ; read-only `public.db` (01.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom
+  01.11.2026 mit einem enger gefassten Fenster und der Prüfung des vom Betreiber selbst genannten
+  Betriebsgeländes.** Die Dossier-Hausnummer **370** existiert auf der Ripshorster Straße in OSM **nicht**. **Quelle 1
+  (OSM, live abgefragt am 05.11.2026):** das Kachelraster **6.9000/51.4800 bis 6.9300/51.5000**, **6 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9000,51.4800,6.9300,51.5000) **umschließt die Objekt-BBox
+  vollständig**, enthält die **„Ripshorster Straße“** nachweislich und vollständig (Verlauf 51.4835952/6.8988489 bis
+  51.4915168/6.9263931) und erfasst sie mit **91** Adressobjekten; sie weist **91** verschiedene Hausnummern (126, 130, 136, 136a, 136b, 138, 140, 142, 148, 150, 156, 158, 160, 162, 164, 172, 174, 182, 184, 186, 188, 190, 192, 248, 249, 255, 280, 282, 284, 285, 288, 289, 290, 291, 292, 293, 294, 296, 298, 300, 301, 302, 303, 304, 306, 307, 308, 309, 310, 311, 312, 312a, 313, 314, 315, 316, 318, 318a, 319, 320, 321, 322, 323, 328, 330, 331, 333, 334, 335, 336, 337, 338, 340, 342, 344, 356, 364, 366, 367, 368, 375, 377, 379, 380, 386, 460, 460a, 464, 470, 479, 495) - die **Nachbarnummern 368** (way/198663926) und **375**
+  (way/198663912) sind erfasst, **370 nicht**; eine Suche nach der Nummer 370 in Verbindung mit „Ripshorster" findet
+  **keinen** Treffer. Zusätzlich wurde das vom Betreiber selbst genannte **„Betriebsgelände"** geprüft: die in der
+  Startseite eingebettete Karte liegt auf **51.488681/6.919324**; im Umkreis von **300 m** um diesen Punkt existiert
+  **genau ein** Adressobjekt, **node/13096393837** mit `addr:housenumber`=**380**, `addr:street`=Ripshorster Straße
+  (**109 m** entfernt) - das Grundstück selbst ist in OSM **nicht** als Fläche mit Betriebsbezug erfasst. Ein Objekt mit
+  Betriebsbezug zu „Häuser" existiert im Raster **nicht**; eine Suche nach „Häuser", „Haeuser" und „Rohstoffhandel" über
+  die Felder name, operator, brand, description, website, contact:website, note und addr:housename findet **keinen**
+  Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2 (Betreiber, im Dossier bereits
+  zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** die Startseite des Betriebs nennt unverändert das
+  **„Betriebsgelände" Ripshorsterstr. 370, 45357 Essen** mit „Ankauf von Schrott und Metall während der Öffnungszeiten",
+  die Öffnungszeiten Mo.-Fr. 08-17 Uhr, Sa. nach Absprache, die Telefonnummern 0208 620 68 45 und 0171 926 48 75 sowie
+  `info@altmetall-haeuser.de`; das Impressum nennt **Peter Häuser, Rohstoffhandel, Einbleckstr. 3, 46117 Oberhausen**,
+  Steuernummer 110/5056/1026. Die **Impressumsanschrift** ist in OSM belegt (way/226838734,
+  `addr:housenumber`=3, `addr:street`=Einbleckstraße, `addr:city`=Oberhausen, `addr:postcode`=46117, `building`=house,
+  ohne `name` und ohne `operator`; Mittelwert der eindeutigen Knoten **51.4895061/6.9112873**), sie liegt aber rund
+  **564 m** vom Mittelpunkt der eingebetteten Anfahrtskarte des Betriebsgeländes (ll=51.488681,6.919324) entfernt und ist
+  eine **andere Straße in einer anderen Stadt**. **Warum keine Koordinate:** Die Betriebsstätte selbst ist nicht als
+  adressgenaues OSM-Objekt vorhanden; ein Punkt auf die Nachbarnummer 380 oder auf die Einbleckstraße in Oberhausen
+  wäre eine Ableitung und keine Abbildung des Standorts; die Sitz-/Betriebsdivergenz (Betriebsgelände Essen vs.
+  Rechtsanschrift Oberhausen) bleibt ungelöst. **Was zur Auflösung fehlt:** eine Erfassung des Betriebsgeländes an der
+  Ripshorster Straße 370 in OSM (oder eine belegte Hausnummer des Standorts) **sowie** die Klärung, welche der beiden
+  Anschriften den Standort trägt. Der read-only Produktionsabruf zeigt `lat`/`lon` = **NULL** (`clear_fields: 'geo'`
+  greift), es ist also kein Altpunkt zu ersetzen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder
+  bleiben unverändert; es wird weder Fortbestand noch Schließung behauptet. **Reichweitenklausel:** das Fehlen einer
+  Hausnummer in OSM ist eine Datenlücke und **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  http://altmetall-haeuser.de/startseite.html ; http://altmetall-haeuser.de/impressum.html ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9000,51.4800,6.9300,51.5000 ;
+  https://api.openstreetmap.org/api/0.6/way/226838734/full.json (Abruf 05.11.2026).]
+

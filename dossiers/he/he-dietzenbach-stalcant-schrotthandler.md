@@ -1,5 +1,7 @@
 ---
 slug: he-dietzenbach-stalcant-schrotthandler
+lat: 50.0050838
+lon: 8.7878900
 name: STALCANT Schrotthändler
 trader_type: schrotthaendler
 state: HE
@@ -15,7 +17,6 @@ status: pruefung
 description: 'Einzelunternehmen Sebastian Traian Caldarar in Dietzenbach (Robert-Koch-Str. 9, 63128 Dietzenbach, Wirtschafts-Identifikationsnummer DE452409549, Reisegewerbe-Aufsicht Magistrat Dietzenbach). Leistungen: Ankauf von Kupfer, Messing, Aluminium, Gold, Stahl- und Baueisenschrott zum Tagespreis, Abholung oder Anlieferung nach Terminabsprache, kostenlose Abholung ab 350 kg, Containerdienst in verschiedenen Größen, Demontage, Entrümpelung, Haushaltsauflösung im Rhein-Main-Gebiet. Keine numerischen Ankauf- oder Verkaufspreise und keine Container- oder Demontagetarife veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
-clear_fields: 'geo'
 certifications: ''
 provenance_section: Einträge
 provenance_ankauf_raw: ja
@@ -64,3 +65,35 @@ Ankauf: Tagespreise und telefonische Auskunft, kein numerisches Preisblatt. „K
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `STALCANT Schrotthändler` (Robert-Koch-Str. 9, 63128 Dietzenbach) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=STALCANT` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=STALCANT` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 3 km um `Robert-Koch-Str. 9, 63128 Dietzenbach` `…/Entsorgungsfachbetriebe/adr=Robert-Koch-Str. 9, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **6 Treffer** u. a. `Stadtwerke Entsorgungs Service GmbH` (Max-Planck-Str. 13-15, 63128 Dietzenbach, `ZZFE00100028 / 1`, 0,2 km), `Adnan Ercan A+E Recycling` (Friedrich-Ebert-Straße 7, 63128 Dietzenbach, `ZZFT01300359 / 1`, 0,8 km), `Peter Vetter Abfallverwertung` (Karl-Benz-Straße 4, 63128 Dietzenbach, `ZZHT00301695 / 1`, 2,1 km); (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=Robert-Koch-Str. 9, 63128 Dietzenbach, Deutschland;…&dst=3&is=1&e=1` -> **0 Treffer** - **kein Treffer auf `STALCANT Schrotthändler`**; (4) Positivkontrolle mit 10 km Radius um dieselbe Adresse -> **30 Treffer**, die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=STALCANT ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=STALCANT ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe+9%2C+63128+Dietzenbach%2C+Deutschland%3B8.7878624%3B50.0051905%3B8.789371280291503%3B50.0063946302915%3B8.786673319708498%3B50.0036966697085&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe%209%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7878624;50.0051905;8.789371280291503;50.0063946302915;8.786673319708498;50.0036966697085&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Robert-Koch-Stra%C3%9Fe%209%2C%2063128%20Dietzenbach%2C%20Deutschland;8.7878624;50.0051905;8.789371280291503;50.0063946302915;8.786673319708498;50.0036966697085&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.0050838/8.7878900** (Mittelwert der
+  eindeutigen Knoten von node/534547353, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber):** das Impressum von
+  https://www.stalcant-schrotthaendler.de/impressum (im Dossier am 28.10.2026 live gelesen und hier zitiert) nennt
+  "Sebastian Traian Caldarar, STALCANT - der Schrotthändler, Robert-Koch-Straße 9, 63128 Dietzenbach", Telefon
+  0163 5255962 und Wirtschafts-Identifikationsnummer DE452409549 - die Dossier-Anschrift ist damit betreiberseitig
+  belegt (kein HRB-Eintrag, es bleibt eine Betreiber-Selbstauskunft). **Quelle 2 (OSM):** node/534547353, live geladen
+  am 05.11.2026 (HTTP 200, https://api.openstreetmap.org/api/0.6/node/534547353.json - bei Nodes liefert `/full.json`
+  HTTP 404, deshalb `node/<id>.json`), trägt `addr:housenumber`=9, `addr:street`=Robert-Koch-Straße,
+  `addr:city`=Dietzenbach, `addr:postcode`=63128, `addr:country`=DE; der Adressknoten hat genau **1** eindeutigen
+  Knoten, Objekt-BBox 8.7878900/50.0050838 bis 8.7878900/50.0050838, der Punkt liegt innerhalb. **Fensterdisziplin (kein
+  Fensterfehler):** das am 05.11.2026 live abgefragte Kachelraster **8.7800/50.0000 bis 8.7900/50.0100**
+  (0,01-Grad-Kacheln, **1** Kachel, **0** Kachel-Fehler) **umschließt die Objekt-BBox vollständig**; die Straße
+  "Robert-Koch-Straße" ist dort mit **21** Adressobjekten und **17** verschiedenen Hausnummern erfasst (1, 1a, 2, 3, 4,
+  5, 6, 7, 7a, 8, **9**, 10, 11, 14, 16, 18, 20), die Dossier-Hausnummer **9** existiert also in OSM. **Schreibweise:**
+  das Dossier und das Impressum schreiben "Robert-Koch-Straße 9" - identisch mit der OSM-Schreibweise. **Betriebsbezug in
+  OSM:** keiner - eine Suche nach "Stalcant|Caldarar|Sebastian|Schrott" über die Felder name, operator, brand,
+  description, website, contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen** Treffer;
+  der gesetzte Punkt ist ein **Adresspunkt der belegten Betriebsanschrift, kein bestätigter Betriebseingang**.
+  **Mehrmarkenadresse, ungelöst:** an derselben Hausnummer sind mindestens drei Schrottmarken belegt (STALCANT und
+  "Sebastian Schrotthändler" mit derselben W-IdNr DE452409549 sowie "Leonard Schrotthandel" mit eigener Person); eine
+  Zusammenführung dieser Dossiers wird **nicht** vorgenommen, alle Zeilen bleiben eigenständig. **Zurücknahme des `geo`-Tokens (Begründung):** der
+  Token `geo` wird aus `clear_fields` **entfernt**, weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der
+  Seed `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md); der zuvor zurückgezogene Produktionspunkt
+  50.0098/8.7778 (Hammannsgasse 6, rund 890 m entfernt) wird damit durch den belegten Adresspunkt ersetzt. `status` bleibt
+  `pruefung`, alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder
+  einer Hausnummer wäre kein Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/534547353.json ;
+  https://www.stalcant-schrotthaendler.de/impressum ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.0,8.79,50.01 (Abruf 05.11.2026)]

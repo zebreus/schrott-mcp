@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ATM Rath eGbR, Albert-Einstein-Str. 10-12, 54329 Konz-Könen: Altmetall- und Kabelankauf auch
+kleiner Privatmengen, Autoverwertung, Ersatzteilhandel, Containerdienst und Entsorgung. Die
+Identität tragen die Betreiber-Seiten mit Impressum, Kontakt, Anfahrt und Leistungsübersicht, die
+ATM Rath eGbR, Michael Rath, DE149870706, Anschrift, Telefonnummer und E-Mail ausweisen; ein
+externes Register-Aggregat bestätigt ATM Rath eGbR, Wittlich GsR 353, und dokumentiert die
+Namensänderung vom 09.04.2025. Offen bleibt, dass kein amtlicher Originalauszug vorliegt und
+damit keine pauschale HRB-Owner-Ausnahme greift, dass belastbare Öffnungszeiten und vollständige
+Preise fehlen und dass ältere Bures/Rath-GbR-Verzeichnisse nicht als heutige eigene Filiale
+übernommen wurden; der Status bleibt auf Prüfung.
 
 ## Timeline
 

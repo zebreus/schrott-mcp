@@ -1,5 +1,7 @@
 ---
 slug: nw-bonn-vfg-autoverwertung
+lat: 50.7357524
+lon: 7.0744836
 name: Autoverwertung VFG Bonn (VFG gemeinnützige Betriebs-GmbH)
 trader_type: autoverwertung
 state: NW
@@ -51,3 +53,49 @@ Am benachbarten **Am Dickobskreuz 4** ist im öffentlichen Bestand außerdem **J
   Abgrenzung: Das Register führt als Standort/Adresse `Am Dickobskreuz 6, 53121 Bonn`, das Dossier weist die Annahmestelle „Schrottplatz“ am `Am Dickobskreuz 4a` aus (Impressum/Verwaltung: 6) - beide Hausnummern liegen an derselben Straße; der Registereintrag ist der einzige VFG-Eintrag (Namenssuche sowie 3-km- und 10-km-Radialabfrage liefern je 1 Treffer). **Nicht übernommen** wurde der Efb-Eintrag am benachbarten `Am Dickobskreuz 4`: `Jungheim Schrott & Metallhandels GmbH (Containerdienst mit Schrotthandel und -zwischenlagerung)`, `Am Dickobskreuz 4, 53121 Bonn`, `ZZET01600154 / 1` (Zertifikat TÜV Rheinland Cert GmbH, `01 400 0139`, `3.3 Vorgangsnummer …: ZZET016001543008`, `3.7 Das Zertifikat ist gültig bis zum 31.03.2027`, `4.1 Name: Jungheim Schrott & Metallhandels GmbH`, `Registernummer …: HRB 16767 Registergericht: Bonn`) - **anderer Rechtsträger am Nachbarstandort**, im Dossier bereits abgegrenzt; ebenso kein Efb-Eintrag für VFG (Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=VFG` -> 0 Treffer).
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=VFG ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20VFG ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Am%20Dickobskreuz%204a%2C%2053121%20Bonn%2C%20Deutschland;7.0743507;50.7357488;7.0758507;50.7372488;7.0728507;50.7342488&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=VFG ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Am%20Dickobskreuz%204a%2C%2053121%20Bonn%2C%20Deutschland;7.0743507;50.7357488;7.0758507;50.7372488;7.0728507;50.7342488&dst=3&is=1&e=1 (Abruf 02.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.7357524/7.0744836** (Mittelwert der **9**
+  eindeutigen Knoten von way/38571941; das Objekt hat 10 Knotenreferenzen, davon 9 eindeutige; die Objekt-BBox reicht
+  von 50.7356523/7.0740925 bis 50.7358456/7.0746236 und **umschließt den Mittelwert**). **Quelle 1 (OSM, live geladen
+  am 05.11.2026, HTTP 200):** way/38571941 trägt `addr:housenumber`=**4a**, `addr:street`=Am Dickobskreuz,
+  `addr:city`=Bonn, `addr:postcode`=**53121**, `building`=**industrial**; Straße, Hausnummer, PLZ und Ort stimmen mit der
+  Dossier-Adresse **Am Dickobskreuz 4a, 53121 Bonn** überein. **Fensterdisziplin:** für dieses Dossier lag noch kein
+  Geokodierungs-Vermerk vor, das Fenster wurde deshalb zuerst aus der Lage der Straße bestimmt und erst danach um die
+  Hausnummer herum abgetastet: das am 05.11.2026 live abgefragte Kachelraster umfasst **7.0500/50.7200 bis
+  7.0900/50.7500**, **12 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0500,50.7200,7.0900,50.7500); es **umschließt die Objekt-BBox
+  vollständig** und enthält die Straße **Am Dickobskreuz** nachweislich und vollständig mit dem Straßenobjekt
+  way/209143767 (Verlauf 50.7327277/7.0727543 bis 50.7372471/7.0767488). Die Straße trägt im Fenster **16** Adressobjekte; sie weist **18** verschiedene Hausnummern (1, 1a, 2, 3, 4, 4a, 5, 6, 7,
+  8, 9, 10, 11, 11a, 12, 13, 14, 16), wobei way/5228081356 bis way/5228081359 den Bereich 12-14 tragen - die
+  **Dossier-Hausnummer 4a existiert in OSM**. **Quelle
+  2 (Betreiber, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** die standortbezogene VFG-Seite
+  „Autoverwertung (Schrottplatz)" nennt **„KFZ-Verwertung (zertifiziert nach Altfahrzeug-Verordnung), Am Dickobskreuz
+  4a, 53121 Bonn"**, Mo-Fr 08:00-17:00 Uhr, Telefon 0228 9857612, verwertung@vfg-bonn.de, Ansprechpartner Ralf
+  Schnichels, dazu „Bezahlung von bis zu 300 EUR für komplette Altfahrzeuge", „Abholung, Demontage und Entsorgung von
+  Unfall- und Altautos" und „Altreifenannahme"; der Seitenfuß nennt die Verwaltungsanschrift **Am Dickobskreuz 6, 53121
+  Bonn**. Ergänzend ist das im Dossier zitierte **amtliche Fachbetrieberegister** herangezogen: der Eintrag
+  **„Autoverwertung VFG gB-GmbH"**, Vorgangsnummer **ZAES00500010**, Bescheinigungsanlagennr. 1, E-Mail
+  verwertung@vfg-bonn.de, führt als Adresse **Am Dickobskreuz 6, 53121 Bonn** (Art des Betriebs = Demontagebetrieb) und
+  bestätigt damit Rechtsträger und Straße. **Abgrenzung der Nachbarhausnummern (kein Merge):** die Hausnummer **4** trägt
+  in OSM **Jungheim Schrott & Metallhandels GmbH** (way/49548493, `building`=commercial) - ein **anderer** Rechtsträger
+  (HRB 16767) an derselben Straße; die Hausnummer **6** trägt way/49547135 mit `name`=**VFG Verein für
+  Gefährdetenhilfe** und `operator`=**VFG gemeinnützige Betriebs-GmbH** (`amenity`=social_facility, Mittelwert
+  50.7353568/7.0748075, rund 50 m vom gesetzten Punkt entfernt) - das Vereins- und Verwaltungshaus, nicht die
+  Annahmestelle. Gesetzt wird deshalb die vom Betreiber ausgewiesene **Annahmestelle 4a**, also die Hausnummer aus
+  `street` und aus der Standortseite; der Registereintrag zu Hausnummer 6 belegt den Rechtsträger und die Straße, nicht
+  eine zweite Annahmestelle. **Betriebsbezug in OSM:** way/38571941 trägt weder `name=` noch `operator=`; der Punkt ist
+  ein **Adresspunkt der belegten Betriebsanschrift**, kein bestätigter Waagen- oder Einfahrtstandort. **Zurücknahme eines
+  `geo`-Tokens:** das Frontmatter dieses Dossiers führt **keinen** `clear_fields`-Eintrag und damit keinen
+  `geo`-Token; es ist nichts zu entfernen, das Dossier trägt jetzt das belegte Paar. `status: aktiv`, `street`,
+  `postcode`, `certifications` (Vorgangsnummer ZAES00500010, dort die Anschrift Am Dickobskreuz 6) und alle übrigen
+  Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre
+  kein Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift der Verwertung, nicht den Betriebsablauf.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/38571941/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/49547135/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/49548493/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0500,50.7200,7.0900,50.7500 ;
+  https://www.vfg-bonn.de/arbeit-beschaeftigung/autoverwertung-schrottplatz/ ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20VFG
+  (im Dossier zitiert, Abruf 05.11.2026).]

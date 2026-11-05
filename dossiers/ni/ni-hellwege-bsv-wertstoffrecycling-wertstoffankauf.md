@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BSV Wertstoffrecycling und Wertstoffankauf ist die Eigenmarke, unter der der Betreiber den Standort Hellwege,
+Ahauser Straße 32, 27367, führt; die Dossier-Adresse in der Schreibweise Ahauser Str. und die Nummer
+04264-836300 decken sich mit der lokalen Standortseite, die Mo bis Fr 08:00 bis 15:00 Uhr nennt. Rechtsträger
+ist die Brandenburger Schrott-Verwertung GmbH mit Sitz in der Juri-Gagarin-Straße 33, 15517 Fürstenwalde,
+Registereintrag HRB 9313 des Amtsgerichts Frankfurt/Oder, Geschäftsführer Thorsten Bartsch und USt-ID
+DE220143715; belegt sind Betreiber-Impressum und unabhängiger Firmenverzeichniseintrag. Der Betrieb kauft
+Eisenschrott, Buntmetalle und Batterien an, nimmt Altpapier und Bücher kostenlos an und zahlt bar nach
+Verwiegung, veröffentlicht aber keinen Euro-Wert. Offen bleiben der nur auf Anfrage genannte Tagespreis je
+Sorte, eine mögliche gebührenpflichtige Annahme für gewerbliche Anlieferer und eine Preisregelung in den AGB
+ohne Textebene; die Seitenkopfzeile nennt für Hellwege weiterhin die Fürstenwalder Nummer.
 
 Preisstand 01.11.2026: Für genau diesen Standort veröffentlicht der Betreiber auf https://www.wertstoff-dealer.de/wertstoffhoefe/hellwege eine Preistabelle **ohne jeden Zahlenwert** — „Eisenschrott | Tagespreis! Bitte erfragen.", „Buntmetalle | Tagespreis! Bitte erfragen.", „Batterien | Tagespreis! Bitte erfragen.", „Altpapier | kostenlose Annahme", „Bücher | kostenlose Annahme". Auf der gesamten Domain (14 URLs laut Sitemap) steht kein einziger Euro-Wert, und die Preis-Pfade /preise, /ankaufpreise, /sorten und /downloads antworten alle mit HTTP 404. Preisart: ANKAUF (Barzahlung nach Verwiegung) — aber ohne Wert, also kein erfassbarer Preis.
 

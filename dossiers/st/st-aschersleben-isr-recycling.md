@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ISR Recycling GmbH & Co. KG mit Hauptsitz Hafenstraße 35 in Itzehoe, Schrottplatz Aschersleben,
+Wilslebener Straße 6, 06449 Aschersleben: Annahme von Schrott und Metall sowie Abholung. Die
+Identität tragen die Betreiber-Standortseite mit Anschrift, Telefonnummer und Öffnungszeiten, das
+Betreiber-Impressum mit der Hauptanschrift in Itzehoe und der LEI-Datensatz, der dieselbe
+Gesellschaft als aktiv mit Registergericht Pinneberg und HRA 1317 ausweist. Offen bleibt, dass die
+Hausnummer 6 in OSM nicht existiert und ein Suchraster nach ISR, Recycling, Schrott und Metall
+keinen Treffer liefert, sodass kein Betriebsknoten vorliegt und keine Koordinate gesetzt wurde; die
+Angabe der Geschäftstätigkeitsübergabe an ISR zum 01.01.2019 belegt weder eine Registerlöschung noch
+eine Verschmelzung. Öffnungszeiten und E-Mail bleiben leer, weil die Betreiberzeit (7–16 Uhr) und
+die Aggregatorangaben (7–17 Uhr) widersprechen bzw. nur verschleiert sind.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Filiale der Scholz Recycling GmbH mit Sitz in Essingen (HRB 733963 Ulm) an der Senftenberger
+Straße 6, 03205 Calau, für Fe- und NE-Schrott und weitere Wertstoffe; Kontakt 03541 2897 und
+calau@scholz-recycling.de, werktags mit unterschiedlichen Nachmittagszeiten, Samstag
+geschlossen. Betreiber-Standortdatensatz und -Impressum liefern die Fakten, ein
+ISO-50001-Zertifikat der TÜV Thüringen vom 23.12.2024, gültig bis 27.12.2027, benennt im
+gelesenen Standortanhang die Anschrift in Calau mit Fe- und NE-Abfallbehandlung, der
+Registerabgleich bei North Data bestätigt die Rechtsträgerin. Offen bleibt die Zeitlage: Das
+Verzeichnis nennt ältere pauschale Zeiten, die vom Betreiber vorgezogen wurden, ohne die
+Abweichung aufzulösen. Der Ortszusatz Werchow ist nicht belegt, das OSM nennt Altnau; ein
+Ankaufpreis fehlt.
 
 ## Timeline
 

@@ -74,3 +74,40 @@ Der Betreiberauftritt asm-recycling.de ist erreichbar und nennt weiterhin **An d
   https://asm-recycling.de/kontakt ; https://asm-recycling.de/impressum ;
   https://www.yelp.com/biz/asm-recycling-dorsten ;
   https://schrottregister.pages.dev/ort-dorsten (Abruf 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Nachprüfung erweitert das Fenster um ein
+  Drittel und bestätigt, dass die Dossier-Hausnummer 30 in OSM fehlt.** **Quelle 1 (OSM, live geladen am 05.11.2026):
+  das Kachelraster **6.9400/51.6600 bis 7.0200/51.7200**, **48 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9400,51.6600,7.0200,51.7200) **umschließt die Objekt-BBox
+  vollständig**, enthält die Straße **„An der Wienbecke“** in **46284 Dorsten** nachweislich und vollständig (Verlauf
+  51.6728377/6.9736449 bis 51.7025720/7.0079835) und erfasst sie mit **21** Adressobjekten; die Straße weist **22** verschiedene Hausnummern (12, 146, 148, 15, 152, 171, 48, 51, 52, 56, 57, 58, 59, 6, 63, 64, 65, 75, 75 - 77, 85, 86) - die **Nummer 30 fehlt**, und eine Suche nach der
+  Hausnummer 30 in Verbindung mit „An der Wienbecke" findet **keinen** Treffer. Das erweiterte Raster nimmt den
+  Straßenverlauf gegenüber dem Vermerk vom 03.11.2026 (9 Kacheln, 19 Objekte) vollständig auf; ein Fensterfehler der
+  letzten Welle liegt hier **nicht** vor. Ein Objekt mit Betriebsbezug zu „ASM Recycling" existiert im Raster **nicht**;
+  eine Suche nach „ASM", „asm-recycling" und „El-Lahib" über die Felder name, operator, brand, description, website,
+  contact:website, note und addr:housename findet **keinen** Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über
+  den Betrieb. **Quelle 2 (Betreiber, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** die
+  Kontaktseite https://asm-recycling.de/kontakt nennt unverändert **„ADRESSE: An der Wienbecke 30, 46284 Dorsten"**,
+  Telefon **015771546610** (WhatsApp), die E-Mail info@asm-recycling.de, das Teammitglied **Waeil El-Lahib**
+  („Warenannahme & Verkauf") und unter „UNSERE LEISTUNGEN" Schrott- und Metallhandel, Containerdienst,
+  Autoverwertung, Ankauf von Batterien und Schrottautos; das Impressum https://asm-recycling.de/impressum liefert
+  weiterhin **HTTP 404** - ein **Rechtsträger ist damit nicht belegt**. Ein **dritter** Adress- und Nummervarianten-Eintrag
+  führt das Verzeichnis Yelp zu **„Wenger Hoefe 13, 46284 Dorsten"** mit 02566 5619969 - eine **andere** Anschrift
+  desselben Namens. **Warum keine Koordinate:** Die Hausnummer 30 ist in OSM **nicht abbildbar**, und es liegen **drei**
+  abweichende Adress-/Nummernvarianten vor (An der Wienbecke 30 mit 015771546610, An der Wienbecke 30 mit +49 2362
+  7876971, Wenger Hoefe 13 mit 02566 5619969) - jeder Punkt wäre die Behauptung einer Lage, die keine Quelle trägt; die
+  im Dossier genannten Nachbaradressen (An der Glashuette 17, An der Wienbecke 15, die An der Wienbecke 64 der
+  Humbert Baustoff-Recycling sowie der kommunale Betrieb An der Wienbecke 15) sind **andere** Betriebe. **Was zur
+  Auflösung fehlt:** ein erreichbares Impressum mit Rechtsträger und eindeutiger Anschrift - oder eine Kartierung der
+  **An der Wienbecke 30** in OSM; die Adressvarianten müssen zu **einer** Anschrift zusammengeführt werden. Der bisher
+  gespeicherte Produktionspunkt 51.450284375/7.015053125 (laut read-only-Abgleich vom 27.10.2026 die Fernbus-Spur
+  „Freiheit" am Essener Hauptbahnhof) wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status:
+  pruefung` und alle übrigen Felder bleiben unverändert; eine Schließung wird **nicht** behauptet. **Reichweitenklausel:**
+  das Fehlen einer Hausnummer in OSM ist eine Datenlücke und **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9400,51.6600,7.0200,51.7200 ;
+  https://asm-recycling.de/kontakt ; https://asm-recycling.de/impressum ;
+  https://www.yelp.com/biz/asm-recycling-dorsten ;
+  https://schrottregister.pages.dev/ort-dorsten (im Dossier zitiert, Abruf 05.11.2026).]
+

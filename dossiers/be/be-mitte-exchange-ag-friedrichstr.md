@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+EXCHANGE AG, Filiale in der Friedrichstr. 150-153, 10117 Berlin-Mitte, mit Gold- und
+Silberankauf sowie An- und Verkauf von Anlagegold, Anlagebarsilber, Münzen, Barren, Schmuck
+und hochwertigen Uhren; Betreiber ist die Exchange AG Deutschland mit HRB 64978, wie
+Impressum und Registerabgleich bei North Data belegen. Die Filialseite des Betreibers trägt
+Anschrift, Telefon 030 20649296, die Mailadresse der Filiale sowie die Öffnungszeiten und
+zeigt zudem aktuelle Goldkurse mit Stand 03.10.2026. Offen bleibt die Abgrenzung zum
+Schrottgeschäft: Eine allgemeine Schrottannahme ist nicht belegt, weshalb der Typ auf
+sonstige und der Status auf pruefung bleiben. Das Verzeichniseintrag bleibt ein Lead und
+bestätigt die Leistungen nicht unabhängig, Kontakt- und Zeitangaben stammen allein von der
+Filialseite, und das Dossier führt keine Koordinaten.
 
 ## Timeline
 

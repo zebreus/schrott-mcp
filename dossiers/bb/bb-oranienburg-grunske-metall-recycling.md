@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+GRUNSKE Metall-Recycling GmbH & Co. KG, Veltener Straße 32, 16515 Oranienburg OT Germendorf,
+ein Metallrecyclingbetrieb mit Ankauf von Schrott und Buntmetallen ab 1 kg, Aufbereitung
+über Zerlegeplatz, Querstromzerspaner und Schrottschere sowie Containerdienst. Das Impressum
+belegt HRA 913 NP und die persönlich haftende Grunske Metall-Verwaltungs GmbH (HRB 4849 NP)
+beim Amtsgericht Neuruppin, vertreten durch Jörg Rauschenbach und Stefan Günther. Im OSM
+trägt way/321561749 an dieser Hausnummer den Namen des Betriebs, acht Kundenparkplätze am
+selben Standort tragen denselben Betreiber, die Koordinate ist der Mittel der eindeutigen
+Knoten. Offen bleibt die E-Mail-Adresse, die verschleiert ausgeliefert wird und deshalb im
+Feld leer bleibt. Ein Ankaufpreis ist nicht veröffentlicht, die genannten Marktpreise sind
+Marktnotierungen und kein Standortpreis.
 
 ## Timeline
 

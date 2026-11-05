@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Lengenfelder Schrott & Metalle, Inhaberin Claudia Roßmann-Kansorra, Zwickauer Straße 43, 08485
+Lengenfeld: Ankauf von Schrott und Buntmetall von Privat und Gewerbe, auch von Kleinstmengen bis
+zu Industrieanlagen, Auszahlung bar oder per Überweisung, dazu Containerdienst. Die Identität
+trägt das Impressum der Betreiber-Website mit Firmierung, Inhaberin, Anschrift, Telefonnummer
+und E-Mail; die Öffnungszeiten stammen aus einem Bild auf der Startseite. Offen bleibt, dass eine
+externe Suche nach der Inhaberin keinen unabhängigen Identitätsbeleg liefert und damit keine
+HRB-Owner-Ausnahme greift, dass ein Betreiberwechsel und eine Verbindung zur früheren Domain
+schrott-winter.de unbewiesen bleiben und dass keine Gleichsetzung mit der Lengenfelder Recycling
+und Abbruch GmbH erfolgt ist; Öffnungszeiten und übrige Angaben beruhen auf einer einzigen Quelle.
 
 ## Timeline
 

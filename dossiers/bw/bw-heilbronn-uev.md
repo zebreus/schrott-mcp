@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+UEV Umwelt, Entsorgung und Verwertung GmbH (HRB 104948, Sitz Stuttgart), Standort Salzgrund
+67, 74076 Heilbronn, eine Untertagedeponie für mineralische Abfälle; Aufbereitung und
+Metallrückgewinnung betreibt das Unternehmen ausdrücklich in Bad Friedrichshall, wo auch die
+Verwaltung geführt wird. Die Identität tragen das Betreiber-Impressum und ein externes
+Registeraggregat, das Firma und Registernummer bestätigt, während die angegebene
+Telefonnummer eine zentrale Unternehmensnummer und keine lokale Waage ist. Offen bleibt der
+Schrottbezug: Für den Standort Heilbronn ist kein normaler Privat-Schrottankauf
+nachgewiesen, weshalb der Typ auf sonstige und der Status auf pruefung bleiben und die
+Öffnungszeiten sowie Annahmeangaben leer sind. Das Dossier führt keine Koordinaten, die nach
+dem Adress-Fill neu zu erzeugen wären.
 
 ## Timeline
 

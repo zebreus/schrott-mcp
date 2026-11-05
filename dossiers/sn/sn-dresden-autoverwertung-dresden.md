@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Dresden GmbH, Magazinstraße 13, 01099 Dresden: Autoverwertung und
+Ersatzteilehandel, kein klassischer Schrottplatz; angenommen werden vollständige Altfahrzeuge
+mit Verwertungsnachweis, Abholung und Abmeldeservice gegen Aufpreis. Die Identität tragen das
+aktuelle Impressum mit Betreiber, Register (AG Dresden HRB 2437) und Ort, die Northdata und das
+online-handelsregister, das die Gesellschaft ausdrücklich als aktiv führt, sowie die
+MAN-Primärquelle mit Gesellschaft, Anschrift, Telefonnummer, E-Mail und Domain. Offen
+bleibt, dass die als Download bereitgestellte Zertifikatsdatei für den Demontagebetrieb 2026
+keine auswertbare Textschicht enthält und ihr Inhalt daher nicht geprüft ist, und dass die
+historische Eigenangabe zur Umbenennung Philipp & Krätzer nicht als unabhängig belegte
+Betreiberkette verwendet wurde; der Status bleibt auf Prüfung.
 
 ## Timeline
 

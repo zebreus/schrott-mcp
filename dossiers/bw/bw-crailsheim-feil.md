@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Feil GmbH mit der Betriebsstätte in der Wittauer Straße 3, 74564 Crailsheim, ein
+Wertstoffentsorgungsbetrieb mit Altpapieraufbereitung, Entsorgungskonzepten und
+Containerlogistik; der Firmensitz liegt laut Impressum in Aalen mit HRB 501665 beim
+Amtsgericht Ulm, die Crailsheimer Betriebsstätte wird dort ausdrücklich benannt, und die
+Registeraufbereitung bei North Data bestätigt die aktive Gesellschaft. Ein EFB-Zertifikat
+der ZertifizierungsNetzwerk GmbH vom 13.05.2026, gültig bis 11.11.2027, nennt die Anlage
+Wittauer Straße 3 samt Metall-Abfallschlüsseln. Offen bleibt der eigentliche Schrottankauf:
+Leistungs- und Containerseiten belegen Entsorgungslogistik und Beratung, aber keinen Ankauf
+für Privatkunden, keine Standortöffnungszeiten und keine Abholkonditionen; eine Preisliste
+ist nicht veröffentlicht, das Dossier führt keine Koordinaten.
 
 ## Timeline
 

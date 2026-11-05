@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heimerle + Meule GmbH, Dennigstraße 16, 75179 Pforzheim, eine Gold- und Silberscheideanstalt
+mit Edelmetallhandel und -recycling sowie industriellem Recycling; Impressum und
+Registerabgleich bei North Data bestätigen übereinstimmend die Gesellschaft mit HRB 500126,
+die Mailadresse ist auf der betreibereigenen Karriere-Impressumsseite ausgewiesen. Offen
+bleibt der Bezug zum Schrottgeschäft: Weder Kundenöffnungszeiten noch konkrete öffentliche
+Annahme- oder Abholbedingungen sind gefunden worden, die Beschreibung stützt sich auf die
+Scheideanstalt und den industriellen Recyclingbereich. Das Dossier führt keine Koordinaten;
+als Geocode-Quelle ist ein Nominatim-Gebäudetreffer für die Dennigstraße 16 dokumentiert,
+und die Website-Angabe wurde auf den Domain-Root normalisiert, von dem der frühere Pfad
+umgeleitet.
 
 ## Timeline
 
