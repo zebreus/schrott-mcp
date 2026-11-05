@@ -125,3 +125,37 @@ Status `pruefung` bleibt wegen fehlendem unabhängigen Register-/Gewerbenachweis
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9600,49.4500,11.0200,49.5100 ;
   https://api.openstreetmap.org/api/0.6/node/3046130035.json ; https://florian-metalle.de/ (live abgerufen
   05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Das Dossier führt bewusst
+  **keine** Straße und **keine** PLZ; das Feld `city` trägt die mobile Einsatzregion „Bayern“, die Betreiberanschrift laut
+  Impressum ist **Albrecht-Dürer-Straße 15, 90766 Fürth**; die alte Vermerkung nennt als Suchfenster das Raster
+  **10.9600/49.4500 bis 11.0200/49.5100** (36 Kacheln). **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue
+  Kachelraster **bbox=10.9600,49.4800,10.9900,49.5100** (**9 Kacheln von je 0,01 Grad** um die Hausnummer herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9600,49.4800,10.9900,49.5100) lieferte **60 681 Elemente** bei
+  **0 Kachel-Fehlern**. Die **„Albrecht-Dürer-Straße“** in 90766 Fürth ist in diesem Fenster mit **drei** Straßenobjekten
+  erfasst (way/23258693, way/302327074, way/409972954; Verlauf 49.4909222/10.9716450 bis 49.4929832/10.9737780); die
+  **Objekt-BBox der Straße** (49.4909222/10.9716450 bis 49.4929832/10.9737780) liegt damit **vollständig in der
+  Fenster-BBox**. Auf der Straße sind **25 Adressobjekte** mit **24 verschiedenen Hausnummern** erfasst (2, 3, 5, 6, 8, 9,
+  10, 11, 12, 13, 14, 15, 15a, 16, 17, 18, 19, 19a, 20, 21, 23, 25, 27, 29; `addr:postcode`=90766, `addr:city`=Fürth) - die
+  Geschäftsanschrift-Hausnummer **15 existiert objektgenau**, nämlich **node/3046130035** mit `addr:housenumber`=15,
+  `addr:street`=Albrecht-Dürer-Straße, `addr:postcode`=90766, `addr:city`=Fürth, `addr:country`=DE
+  (49.4918613/10.9712495); das Objekt trägt jedoch **weder `name=` noch `operator=`** und keinen Geschäftsbezug, und die Suche
+  über `name`, `operator`, `brand`, `official_name`, `alt_name`, `short_name`, `legal_name` und `old_name` nach „florian
+  metalle“ bzw. „florian-metalle“ liefert **0 Treffer** - der mobile Betrieb ist in OSM nicht kartiert. **Quelle 2
+  (Betreiber, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** das Betreiber-Impressum nennt
+  **„Florian-Metalle, Inhaber: Tyrese Florian, Albrecht-Dürer-Straße 15, 90766 Fürth“** mit 0157 38158346 und
+  info@florian-metalle.de. **Warum trotz der objektgenauen Adresse keine Koordinate:** das Dossier hat diese Anschrift
+  **bewusst** nicht in `street`/`postcode` übernommen und in mehreren Wellennotizen festgehalten, dass die Geschäftsanschrift
+  „nicht als Kundenannahme geokodieren“ bzw. „nicht geokodieren“ ist und der Betrieb **mobil** bleibt (`trader_type:
+  mobil`; `status: pruefung` mangels unabhängigem Register-/Gewerbenachweis; die Wellennotiz vom 04.11.2026 hält zusätzlich
+  fest, dass für eine Standortsuche im amtlichen Fachbetrieberegister **kein** Efb- und **kein** AltfahrzeugV-Eintrag auf
+  den Dossiernamen existiert). Ein Punkt auf der Geschäftsanschrift würde genau die im Dossier vermiedene falsche Zuordnung
+  erzeugen (ein Kundenannahmepunkt existiert nicht) und würde zudem eine Karte für einen mobilen Betrieb in der
+  Einsatzregion „Bayern“ erzeugen. Deshalb wird hier **keine** Koordinate gesetzt; das Dossier enthält keine
+  `clear_fields`-Anweisung und keine Koordinate, es bleibt bei `lat`/`lon` leer. `status`, `description`, `street` und
+  `postcode` bleiben unverändert. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder eines Registereintrags
+  ist **kein** Existenz- oder Schließungsbeweis; der Punkt wäre zudem kein Annahmepunkt. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9600,49.4800,10.9900,49.5100 ;
+  https://api.openstreetmap.org/api/0.6/node/3046130035.json ; https://florian-metalle.de/ (live abgerufen 05.11.2026).]

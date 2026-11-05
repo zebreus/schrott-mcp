@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthahn ist das Einzelunternehmen des Christian Hahn in der Wikingerstraße 15 in Offenbach
+am Main, das Metalle wie Kupfer, Messing, Kabel, Aluminium, Edelstahl und Elektromotoren von
+Privat und Gewerbe ankauft und Entsorgungsleistungen von der Entrümpelung über die Öltank- und
+Kesseldemontage bis zum Anlagenabbau erbringt. Identität und Anschrift tragen das Impressum mit
+Umsatzsteuer-Identifikationsnummer sowie das OSM-Adressobjekt zur Hausnummer 15, das zugleich
+die Postleitzahl 63073 bestätigt, obwohl das Objekt weder Namen noch Betreiber trägt. Das
+Geschäft nimmt keine Waren öffentlich an, Termine werden nur nach Vereinbarung gemacht, eine
+Anlieferadresse ist nicht ausgewiesen. Offen bleibt die Belegkette im Frontmatter, weil die
+Firma ohne HRB-Eintrag keine Ausnahme trägt und Postleitzahl, Telefon, E-Mail und Zeiten leer
+bleiben. Ankaufkurse und Gebühren sind nicht beziffert, die Vergütung hängt vom Einzelfall ab.
 
 ## Timeline
 

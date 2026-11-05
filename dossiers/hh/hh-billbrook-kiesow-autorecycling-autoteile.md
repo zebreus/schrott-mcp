@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Kiesow Autorecycling + Autoteile GmbH, Halskestraße 28 in 22113 Hamburg-Billbrook, ist ein
+Autoverwertungsbetrieb, den die Betreiberseite derzeit nur als Kiesow Autoverwertung tituliert
+und im Neuaufbau ohne Impressum zeigt. Belegt sind Anschrift, Rufnummer 040-7892134 und die
+Geschäftszeiten Montag bis Freitag 9 bis 18 Uhr sowie Samstag bis 13 Uhr durch die Startseite
+sowie durch das OSM-Adressobjekt zur Hausnummer 28. Ein 29 Meter entferntes OSM-Objekt mit dem
+Namen H. Kiesow und der Flächentyp eines Autoverwerters stützt die Zuordnung, trägt aber keine
+Hausnummer. Offen bleibt die Identität, weil die Website-Firmenbezeichnung vom Dossiernamen
+abweicht und ein Registernummernbeleg fehlt; auch der Seed-Eintrag zu Kfz-Ankauf und
+Ersatzteilen ist durch die Seite nicht gedeckt, Ankaufspreise und Gebühren werden nicht
+genannt.
 
 ## Timeline
 

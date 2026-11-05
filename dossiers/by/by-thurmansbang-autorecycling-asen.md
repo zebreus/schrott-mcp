@@ -92,3 +92,32 @@ Die Betreiberseite wirbt mit Anlieferung von Fahrzeugen und kostenloser Abholung
   https://api.openstreetmap.org/api/0.6/map.json?bbox=13.2700,48.7300,13.3000,48.7600 ;
   https://api.openstreetmap.org/api/0.6/way/112714699/full.json ; https://www.autorecycling-asen.de/ ;
   https://schrottregister.pages.dev/betrieb-autorecycling-asen-thurmansbang (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Am Seiderberg 2, 94169 Thurmansbang**; die alte Vermerkung nennt als Suchfenster das Raster
+  **13.2700/48.7300 bis 13.3000/48.7600** (9 Kacheln). **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue
+  Kachelraster **bbox=13.2800,48.7300,13.3000,48.7500** (**4 Kacheln von je 0,01 Grad** um die Hausnummer herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.2800,48.7300,13.3000,48.7500) lieferte **5 443 Elemente** bei
+  **0 Kachel-Fehlern**. Die Straße **„Am Seiderberg“** ist in Thurmansbang als Geometrie erfasst (way/112714699, live
+  geladen HTTP 200, `highway`=unclassified, `name`=Am Seiderberg, `source`=Bing, 25 Knoten, Verlauf 48.7372106/13.2857886
+  bis 48.7434553/13.2899498); die **Objekt-BBox der Straße** (48.7372106/13.2857886 bis 48.7434553/13.2899498) liegt damit
+  **vollständig in der Fenster-BBox**, sie trägt aber **kein einziges** Adressobjekt mit `addr:housenumber` - im gesamten
+  2x2-Raster ist die Dossier-Hausnummer **2 nicht adressiert**; die Suche über `name`, `operator`, `brand` und
+  `official_name` nach „asen“, „autorecycling“ und „ara“ liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert.
+  **Quelle 2 (Betreiber/amtlich, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** die
+  Betreiberseite nennt **„ARA Autorecycling Asen Kfz-Ersatzteile, Am Seiderberg 2, 94169 Thurmansbang“** (Fax 09903-494,
+  08544-974604) und die Spiegelung der amtlichen Register (schrottregister.pages.dev, Auszug 11.08.2026; veralteter Snapshot, im Sinne der Quellenhierarchie **kein** eigenständiger Beleg) führt denselben
+  Betrieb mit **„Am Seiderberg 2, Thannberg, 94169 Thurmansbang“** und der Anerkennung nach AltfahrzeugV **Demontagebetrieb**,
+  Zertifikatsnummer **ZAIS00600006**; die Dossier-Notiz vom 26.10.2026 nennt zusätzlich die **Handwerkskammer
+  Niederbayern-Oberpfalz** mit derselben Anschrift und Telefonnummer 08544 974596. Die abweichende Ortsangabe „Thannberg“
+  bezeichnet denselben Straßenstandort; eine getrennte Annahmestelle ist nicht belegt. Die Adresse ist damit
+  **betreiberseitig und registerseitig bestätigt**, nur die **Geometrie der Hausnummer 2 fehlt in OSM** (kein
+  Adressobjekt auf der Straße im gescannten Raster); nach der Regel dieser Welle wird deshalb **keine** Koordinate erfunden
+  und **kein** Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung;
+  `status` (aktiv), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen
+  einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.2800,48.7300,13.3000,48.7500 ;
+  https://api.openstreetmap.org/api/0.6/way/112714699/full.json ; https://www.autorecycling-asen.de/ ;
+  https://schrottregister.pages.dev/betrieb-autorecycling-asen-thurmansbang (live abgerufen 05.11.2026).]

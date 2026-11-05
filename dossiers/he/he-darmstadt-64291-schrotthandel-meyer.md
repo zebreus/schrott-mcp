@@ -94,3 +94,52 @@ Die Identität des Seeds bleibt offen. Der OSM-Weg 801683671 wird in der aktuell
   https://api.openstreetmap.org/api/0.6/way/8877713/full.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.61,49.91,8.67,49.96 ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.62,49.93,8.64,49.95 (Abruf 05.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Nachprüfung bestätigt den Seed-Lead in OSM und korrigiert die Zuordnung der Ortsangabe, ändert aber am Ergebnis
+  nichts: Die **Adresse des Seeds liegt in OSM vor** (Straße "Am Sportplatz", 64291 Darmstadt-Wixhausen), der
+  **Betriebs- oder Registerbeleg fehlt weiterhin**. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung
+  (kein Fensterfehler):** das Feinraster **8.6200/49.9250 bis 8.6400/49.9400** umfasst **4 Kacheln von je 0,01 Grad**,
+  **0 Kachel-Fehler**, 4563 Elemente und **umschließt die Objekt-BBox vollständig**; die Straße "Am Sportplatz" ist
+  dort mit **13 Adressobjekten** und **12** verschiedenen Hausnummern erfasst (1, 2, 3, 5, 6, 7, 7a, 9, 9a, 10, **12**,
+  14), die Nummer 12 zweifach: way/223816048 (`building`=yes, ohne `name`) und **way/801683671**. way/801683671, live
+  geladen am 05.11.2026 (HTTP 200, https://api.openstreetmap.org/api/0.6/way/801683671/full.json), trägt
+  `name`=**Schrotthandel Meyer**, `addr:housenumber`=12, `addr:street`=**Am Sportplatz**, `addr:city`=Darmstadt,
+  `addr:postcode`=**64291**, `addr:suburb`=Wixhausen, `addr:country`=DE, `industrial`=**scrap_yard**,
+  `landuse`=industrial; **10** Knoten, davon **9** eindeutig, Objekt-BBox 8.6296555/49.9314659 bis
+  8.6303465/49.9321343, der Mittelwert der eindeutigen Knoten (49.9317997/8.6299112) läge innerhalb. Das Objekt trägt
+  **weder** `operator` **noch** `website` **noch** `phone`; eine Suche nach "Meyer|Schrott|Scrap|Recycling|Metall" über
+  die Felder name, operator, brand, description, website, contact:website, shop, craft, addr:housename, phone,
+  contact:phone im Feinraster liefert **neben** way/801683671 nur **drei** Wertstoffcontainer fremder Betreiber
+  (node/12453073056, node/12453094525 mit `operator`=EAD, node/12453095993 mit `operator`=Baliz Textilwerke, alle bei
+  49.9301/8.6391) - **kein** weiterer Betriebsbezug zu "Meyer". **Adresskorrektur zur Vorwellen-Notiz, jetzt
+  objektgenau belegt:** die alte Vermerk nennt den OSM-Lead mit "Sensfelder Hof 12" - das ist **falsch zugeordnet**;
+  "Sensfelder Hof 12" ist way/8877713 (live geladen am 05.11.2026, HTTP 200) mit `addr:housenumber`=12,
+  `addr:street`=Sensfelder Hof, `addr:city`=**Weiterstadt**, `addr:postcode`=**64331**, `addr:suburb`=Gräfenhausen,
+  Objekt-BBox 8.6195982/49.9319129 bis 8.6198393/49.9321204, also **713 m** vom Objekt way/801683671 entfernt und in
+  einer **anderen Gemeinde**. Das Kontrollfenster **8.6000/49.9200 bis 8.6600/49.9500** (**18 Kacheln**, **0
+  Kachel-Fehler**, 47215 Elemente) zeigt zudem **zwei namensgleiche** Straßen "Am Sportplatz": die 13
+  Darmstädter Adressobjekte (Hausnummern 1-14 ohne die 11, `addr:city`=Darmstadt, `addr:postcode`=64291, `addr:suburb`=Wixhausen) und eine
+  weitergehende Reihe in **Weiterstadt-Gräfenhausen** (64331, 26 Adressknoten mit den Nummern 1-20 einschließlich
+  11, node/11135870426 bei 49.9257924/8.607426, **1.743 m** entfernt) - die Trennung gelingt allein über
+  `addr:city`/`addr:postcode`. Quelle 2 (Betreiber/Register): **fehlt weiterhin** - für "Schrotthandel Meyer" in
+  64291 Darmstadt-Wixhausen existiert **kein** Betreiberauftritt und **kein** Registereintrag: die im Dossier
+  zitierten Betreiberseiten betreffen Sascha Meyer (Im Altenschemel 40a, 67435 Neustadt a. d. Weinstraße) und
+  MB Schrotthandel (Marco Bock, Messeler Str. 103), und das amtliche Altfahrzeugverwertungsregister führt "Sascha Meyer
+  Schrotthandel und Metallhandel", "Autoverwertung Meyer Inhaber Sascha Meyer" (beide Im Altenschemel 40a, 67435
+  Neustadt) sowie "Meyer Autofachmarkt und Autoverwerter" (Heidenheimer Weg 27, 89564 Nattheim) - sämtlich
+  **Fremdbetriebe**; die Namenssuche "Meyer" liefert **keinen** Treffer in Darmstadt-Wixhausen. **Warum keine
+  Koordinate:** der OSM-Lead trägt zwar den Seed-Namen und ist als Schrottplatz (`industrial`=scrap_yard) kartiert,
+  aber eine OSM-Kartenlage allein ist nach dem Quellenstandard **kein** Betreiber- oder Registerbeleg; der Altpunkt
+  49.8718375/8.6533 (Schuchardstraße 3, Darmstadt-Mitte, anderer Ortsteil und andere PLZ als 64291) wird mit
+  `clear_fields: 'geo'` ohnehin zurückgenommen und **nicht** ersetzt. `status` bleibt `pruefung`. **Reichweitenklausel:**
+  das Fehlen eines Betreiber- oder Registerbelegs ist **kein** Nichtexistenzbeweis; die OSM-Adresse selbst ist
+  belegt, ebenso wie die Korrektur "Am Sportplatz" gegen "Sensfelder Hof". Offen bleibt, ob der Seed einen
+  eigenständigen Darmstädter Betrieb bezeichnet. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/801683671/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/223816048/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/8877713/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.62,49.925,8.64,49.94 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6,49.92,8.66,49.95 (Abruf 05.11.2026)]

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+LSB GmbH Schrott- und Metallhandel, Planckstr. 3, 26389 Wilhelmshaven: Metall- und
+Schrottgroßhandel mit Autoverwertung und Kfz-Werkstatt, geführt von Klaas Lange. Das
+Impressum von lsb-gmbh.com nennt HRB 208 532 Registergericht Oldenburg, Festnetz, Fax und
+die Öffnungszeiten Mo-Fr 09:00-16:00 und Sa 10:00-12:00; die Betreiberseite bezeichnet
+sich als zertifizierten Betrieb gemäß Altautoverordnung und als TÜV-zertifiziert, ohne
+Nachweis im Dossier. In OSM steht die Hausnummer 3 als Adressobjekt, daneben trägt
+ein Objekt ohne Adressbezug den Namen LSB GmbH mit identischen Öffnungszeiten. An- und
+verkauft wird zu Tagespreisen nach der Metallbörse in London, ohne Zahlenpreise und
+Gebühren. Offen bleiben die uneinheitliche Adressschreibweise, das leere E-Mail-Feld
+wegen der verschleierten Angabe und die nicht gesetzte Koordinate der Anschrift.
 
 ## Timeline
 

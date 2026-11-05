@@ -111,3 +111,44 @@ Der Betreiberauftritt asm-recycling.de ist erreichbar und nennt weiterhin **An d
   https://www.yelp.com/biz/asm-recycling-dorsten ;
   https://schrottregister.pages.dev/ort-dorsten (im Dossier zitiert, Abruf 05.11.2026).]
 
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt am OSM-Bild, dass die Betriebsadresse des
+  Betreiberauftritts nicht kartiert ist.** Die Dossier-Hausnummer **30** existiert auf der **„An der Wienbecke“** in OSM
+  **nicht**. **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** das Kachelraster **6.9700/51.6700 bis
+  7.0100/51.7100**, **16 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9700,51.6700,7.0100,51.7100) enthält die Straße **„An der
+  Wienbecke“** in **46284 Dorsten** nachweislich und vollständig mit **33** Straßenobjekten (way/26782657, way/41069233,
+  way/80504104, way/145276425, way/184445160, way/219044755, way/219047478, way/230548689, way/242172345, way/242172346,
+  way/249232263, way/261082298, way/261082302, way/301164974, way/301164977, way/303191151, way/306991174,
+  way/306991175, way/732737680, way/760237041, way/760237042, way/760237043, way/760237044, way/808078431,
+  way/808078432, way/808086656, way/808086657, way/831767967, way/939955935, way/939955936, way/1097801209,
+  way/1188948295, way/1430307523; Verlauf 51.6728377/6.9736449 bis 51.7025720/7.0079835); die Straße trägt im Fenster
+  **27** Adressobjekte (21 Ways, 6 Nodes) und weist **21** verschiedene Hausnummern (6, 12, 15, 48, 51, 52, 56, 57, 58,
+  59, 63, 64, 65, 75, 75 - 77, 85, 86, 146, 148, 152, 171) - die **Nummer 30 fehlt**, und eine Suche nach der Hausnummer
+  30 in Verbindung mit „An der Wienbecke“ findet **keinen** Treffer. Ein Objekt mit Betriebsbezug zu „ASM Recycling“
+  existiert im Raster **nicht**; eine Suche nach „ASM“ und „El-Lahib“ über die Felder name, operator, brand,
+  description, website, contact:website, contact:phone, note und addr:housename findet **keinen** Treffer - Aussage zum
+  OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2 (Betreiber, live am 05.11.2026 nachgelesen, HTTP
+  200):** die Kontaktseite https://asm-recycling.de/kontakt nennt live **„ADRESSE: An der Wienbecke 30, 46284
+  Dorsten“**, Telefon **015771546610** (WhatsApp), E-Mail **info@asm-recycling.de**, das Teammitglied **„WAEIL
+  EL-LAHIB“** („Warenannahme & Verkauf“) und die Öffnungszeiten Mo-Sa 08:00-18:00; das Impressum
+  https://asm-recycling.de/impressum liefert am 05.11.2026 erneut **HTTP 404** - ein **Rechtsträger** ist damit
+  weiterhin **nicht** belegt (nach README, Stand 26.10.2026, genügt eine Betreiber-Primärquelle nur mit Impressum mit
+  Name + Registernummer + Ort); die sichtbare Telefonnummer weicht zudem von der Zielnummer der Telefon-Links (+49 2362
+  7876971) ab. Ein **dritter** Adress- und Nummernvarianten-Eintrag führt das Verzeichnis Yelp zu **„Wenger Hoefe 13,
+  46284 Dorsten“** mit 02566 5619969 - eine **andere** Anschrift desselben Namens. **Warum keine Koordinate:** Die
+  Hausnummer 30 ist in OSM **nicht abbildbar**; jeder Punkt wäre eine Ableitung aus einem Nachbarobjekt oder einer
+  Straßenmitte und würde eine Lage behaupten, die keine Quelle trägt. Die im Dossier genannten Nachbaradressen (An der
+  Glashuette 17, An der Wienbecke 15, die An der Wienbecke 64 der Humbert Baustoff-Recycling sowie der kommunale Betrieb
+  An der Wienbecke 15) sind **andere** Betriebe. **Was zur Auflösung fehlt:** ein erreichbares Impressum mit
+  Rechtsträger und eindeutiger Anschrift - oder eine Kartierung der **An der Wienbecke 30** in OSM; die Adressvarianten
+  müssen zu **einer** Anschrift zusammengeführt werden. Der bisher gespeicherte Produktionspunkt
+  51.450284375/7.015053125 (laut read-only-Abgleich vom 27.10.2026 die Fernbus-Spur „Freiheit“ am Essener Hauptbahnhof)
+  wird durch diese Notiz **nicht** ersetzt und bleibt zurückgenommen. `status: pruefung` und alle übrigen Felder bleiben
+  unverändert; eine Schließung wird **nicht** behauptet. **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist
+  eine Kartierungslücke und **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9700,51.6700,7.0100,51.7100 ; https://asm-recycling.de/kontakt ;
+  https://asm-recycling.de/impressum (HTTP 404) ; https://www.yelp.com/biz/asm-recycling-dorsten ;
+  https://schrottregister.pages.dev/ort-dorsten (im Dossier zitiert, Abruf 05.11.2026).]

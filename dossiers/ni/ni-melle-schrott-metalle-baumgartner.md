@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott & Metallhandel Baumgärtner, Sundernstraße 6, 49328 Melle: Schrotthändler auf
+einem 4000 qm großen Firmengelände in Melle-Meesdorf mit sieben Mitarbeitern und einem
+Fuhrpark von drei Lastwagen. Die Betreiberseite schrott-melle.de nennt Anschrift, Telefon,
+Mobilnummer und die Zeiten Mo-Fr 08:00-16:00 sowie Sa 09:00-14:00; ein OSM-Objekt trägt
+denselben Betrieb unter derselben Hausnummer mit derselben Telefonnummer. Der Ankauf
+läuft über drei Wege, nämlich Abholung per Kranfahrzeug ab 1.000 kg Stahlschrott oder
+100 kg Buntmetallen, Containerstellung und Abholung sowie Anlieferung auf dem Gelände
+mit sofortiger Barzahlung ab dem ersten Kilogramm, vergütet nach Gewicht und Tagespreis.
+Zahlenpreise und Gebühren werden nicht veröffentlicht. Offen bleiben die abweichende
+Endzeit im OSM-Eintrag, das leere E-Mail-Feld und der fehlende unabhängige Zweitbeleg.
 
 ## Timeline
 

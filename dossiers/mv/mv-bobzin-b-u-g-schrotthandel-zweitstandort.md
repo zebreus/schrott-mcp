@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Niederlassung Bobzin der B.U.G. Schrotthandel GmbH liegt am Hunnenkamp 4 in 19230 Bobzin
+und steht für einen Schrotthandel, der Mischschrott, Schwerschrott, Schredderschrott und
+Stahlschrott ebenso ankauft wie Aluminium, Kupfer, Messing, Zink, Blei und E-Motoren, mit zwei
+geeichten 50-Tonnen-Waagen und kostenloser Abholung. Die Betreiberseite führt den Standort als
+Niederlassung mit Telefon 038852 239888 und den Zeiten Montag bis Freitag 7:30 bis 16:30 Uhr,
+das Impressum den Rechtsträger mit Sitz in der Handelsstraße 15 in Schwerin, Geschäftsführer
+Bernd Uwe Grimm und Registernummer 8856 am Amtsgericht Schwerin. Die Adresse tragen zusätzlich
+das OSM-Adressobjekt zur Hausnummer 4 ohne Betriebsnamen. Offen bleibt die Preislage, denn
+Schrottpreise werden nur auf Anfrage per Telefon, Fax oder E-Mail mitgeteilt, eine E-Mail für
+den Standort Bobzin ist nicht veröffentlicht, und die Muldenmiete ist nicht beziffert.
 
 ## Timeline
 

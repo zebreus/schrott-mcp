@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Smurfit Kappa NL Waren ist ein Vorgängername: Das Werk in Waren, Warendorfer Str. 7, 17192,
+firmiert nach der Fusion von Smurfit Kappa und WestRock als Smurfit Westrock Wellpappenwerk
+Waren GmbH und produziert Wellpappenverpackungen. Die Standortseite trägt Anschrift,
+Telefonnummer +49 3991 7440 sowie die Zertifizierungen ISO 9001, BRC-IOP und FSC C103843, das
+Impressum die Smurfit Westrock Deutschland GmbH in Hamburg mit HRB 90813. Offen bleibt die
+Hausnummer, denn die Seed-Adresse nennt Warendorfer Straße 5, die Betreiberseite 7, und die
+OSM-Straße kennt keine der beiden; das betriebsnamende OSM-Objekt trägt keine Adress-Tags, die
+Koordinate bleibt daher offen. Ebenfalls offen bleiben die Rechtsform der Standortgesellschaft
+und die nur teilweise gedeckte Seed-Angabe Altpapier, da der Pappe-Erwerb über die
+Recycling-Standorte in Hamburg und Mülheim läuft. Zahlenpreise werden nicht veröffentlicht.
 
 ## Timeline
 

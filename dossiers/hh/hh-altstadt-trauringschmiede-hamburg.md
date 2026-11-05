@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Trauringschmiede betreibt in der Lilienstraße 15 in 20095 Hamburg eine Filiale, die neben
+Trauringen und Schmuck auch den Geschäftszweig Goldankauf mit Edelmetallbewertung per Termin
+betreibt. Die Anschrift und die Identität trägt in OpenStreetMap ein Objekt zur Hausnummer 15,
+das den Betrieb nennt und dieselbe Domain wie die Betreiberseite führt, und die Seite des
+Betriebs bestätigt die Hamburger Filiale sowie den Goldankauf, nennt die Anschrift jedoch nicht
+wörtlich. Offen bleibt die Rechtsform, weil eine Registernummer fehlt und damit keine Ausnahme
+von der Zwei-Quellen-Regel greift, weshalb Telefon, E-Mail und Öffnungszeiten leer bleiben.
+Ankaufspreise werden nicht veröffentlicht, die Bewertung erfolgt einzelfallbezogen und ohne
+Entgeltangabe, und die Seed-Angabe zum Recyclinggold ist durch die Website nicht gedeckt.
 
 ## Timeline
 

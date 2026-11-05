@@ -108,3 +108,49 @@ Der Münchner Seed-Standort Curd-Jürgens-Straße 4 ist historisch: HRB 201496 M
   https://api.openstreetmap.org/api/0.6/way/267120801/full.json ;
   https://www.muenchen.de/service/branchenbuch/muenchen-landkreis/A/35.html ;
   https://schrottregister.pages.dev/ort-munchen (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt; beide in Frage kommenden
+  Anschriften wurden erneut geprüft.** Die Dossier-Adresse **Curd-Jürgens-Straße 4 (München)** ist laut Dossier
+  **historisch**: HRB 201496 München dokumentiert 2016 die Sitzverlegung der Auto-Service Erz & Eisen GmbH nach
+  **Vaterstetten/Weißenfeld, Ammerthal 3b, 85622**; die alte Vermerkung nennt als Suchfenster das Raster
+  **11.6300/48.0700 bis 11.6600/48.1000** (9 Kacheln). **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue
+  Kachelraster **bbox=11.6300,48.0800,11.6500,48.0900** (**2 Kacheln von je 0,01 Grad** um die Adress-Objekt-BBox herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6300,48.0800,11.6500,48.0900) lieferte **24 859 Elemente** bei
+  **0 Kachel-Fehlern**. Die **„Curd-Jürgens-Straße“** ist in diesem Fenster mit **vier** Straßenobjekten erfasst
+  (way/40742406, way/115785376, way/466674362, way/466674363; Verlauf 48.0844750/11.6429359 bis 48.0856914/11.6444643);
+  die **Objekt-BBox der Straße** (48.0844750/11.6429359 bis 48.0856914/11.6444643) liegt damit **vollständig in der
+  Fenster-BBox**. Auf ihr sind **25 Adressobjekte** mit **25 verschiedenen Hausnummern** erfasst (2, 3, 4, 5, 6, 7, 8, 9,
+  10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 26, 28, 30, 32, 34), darunter **way/267120801** (live geladen, HTTP 200)
+  mit `addr:housenumber`=**4**, `addr:street`=Curd-Jürgens-Straße, `addr:postcode`=**81739**, `addr:city`=München,
+  `addr:country`=DE, `building`=apartments, `building:levels`=4 (20 eindeutige Knoten, Mittel 48.0842360/11.6430334,
+  Objekt-BBox 48.0839785/11.6428421 bis 48.0845821/11.6431852; der Mittelwert liegt **innerhalb** der Objekt-BBox) - die
+  Dossier-Hausnummer 4 existiert in OSM also **objektgenau**. Das Objekt trägt **weder `name=` noch `operator=`**; die Suche
+  nach „erz“, „abschlepp“ und „eisen“ in `name`, `operator`, `brand` und `official_name` liefert **0 Treffer**; der Betrieb
+  ist in OSM nicht kartiert. **Abweichung, dokumentiert:** das OSM-Objekt trägt die PLZ **81739**, das Dossier nennt keine
+  PLZ. **Zusatzprüfung am aktuellen Sitz (live am 05.11.2026):** das Kontrollraster **bbox=11.7500,48.1200,11.7800,48.1500**
+  (**9 Kacheln von je 0,01 Grad**) um das in OSM geführte Weißenfelder **„Ammerthal“** (way/8226500, Verlauf
+  48.142832/11.760391 bis 48.143934/11.764575; Ortsteil Weißenfeld, `addr:postcode`=85622, `addr:city`=Vaterstetten)
+  lieferte **8 933 Elemente** bei **0 Kachel-Fehlern**; dort ist **ein** Adressknoten **node/2213727181** mit
+  `addr:housenumber`=**3**, `addr:street`=Ammerthal, `addr:postcode`=85622, `addr:city`=Vaterstetten,
+  `addr:suburb`=Weißenfeld erfasst (11.7629472/48.1442123) - er trägt **weder `name=` noch `operator=`** und nennt weder
+  „Erz & Eisen“ noch einen Abschleppdienst; die Registeranschrift lautet zudem **„Ammerthal 3 b“** mit Buchstabzusatz.
+  **Quelle 2 (Register/Verzeichnis, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** das auf
+  muenchen.de gehostete Branchenbuch führt „Abschleppdienst Erz & Eisen“ **„Ammerthal 3 B, 85622 Weissenfeld, Tel: 089
+  12136776“** - die Gesellschaft wird am 05.11.2026 also **ausschließlich** unter der Weißenfelder Adresse geführt, nicht
+  mehr am Münchner Seed-Ort; der Handelsregisterauszug (HRB 201496 München, Sitzverlegung 2016, Status „aktiv“) und die
+  Spiegelung der amtlichen Register (schrottregister.pages.dev, Auszug 11.08.2026; veralteter Snapshot, im Sinne der Quellenhierarchie **kein** eigenständiger Beleg, 30 in München verzeichnete Betriebe)
+  kennen **weder** die Auto-Service Erz & Eisen GmbH **noch** eine Anschrift Ammerthal oder Curd-Jürgens-Straße. Ein
+  aktueller, anerkannter Autoverwertungsbetrieb oder eine öffentliche Schrottannahme ist damit **nicht** belegt; die
+  früher verlinkte Domain erzundeisen.de steht zum Verkauf. Ein Punkt in München würde einen **historischen** Sitz
+  markieren, während der aktuelle Sitz in einer anderen Gemeinde liegt; es wird **keine** Koordinate erfunden und kein
+  Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'`-Anweisung **bleibt unverändert**, weil der zurückgezogene
+  Altpunkt weiterhin entzogen werden soll und kein belegter bayerischer Ersatz existiert; `status`, `description` und
+  alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines aktuellen Register- oder Annahmebelegs
+  für den Münchner Standort ist **kein** Existenz- oder Schließungsbeweis der Gesellschaft. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.6300,48.0800,11.6500,48.0900 ;
+  https://api.openstreetmap.org/api/0.6/way/267120801/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.7500,48.1200,11.7800,48.1500 ;
+  https://www.muenchen.de/service/branchenbuch/muenchen-landkreis/A/35.html ;
+  https://schrottregister.pages.dev/ort-munchen (live abgerufen 05.11.2026).]

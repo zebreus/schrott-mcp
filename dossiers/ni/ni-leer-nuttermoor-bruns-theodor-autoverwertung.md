@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Bruns Theodor Autoverwertung, Zinnstraße 20, 26789 Leer-Nüttermoor: anerkannter
+Verwertungsbetrieb mit Lagerung wiederverwendbarer Ersatzteile, die nach der
+Selbstdarstellung seit über 25 Jahren von Theodor Bruns geführt wird. Impressum und
+Kontaktseite nennen Anschrift, Telefon 0491/33 13, E-Mail-Adresse, USt-ID DE204938029
+und die Zeiten Mo-Fr 08:00-12:30 und 13:00-17:00; ein OSM-Objekt trägt denselben Betrieb
+mit Inhaber, Telefonnummer und identischen Öffnungszeiten, ein Registerportal stützt die
+Postleitzahl mit HRA 204103 AG Aurich zur Autoverwertung Bruns e.K. Ankauf von Schrott oder
+Metallen ist nicht belegt, verkauft werden Ersatzteile ohne Preisauskunft. Offen bleiben
+die trotz Doppelbeleg leeren Felder für Telefon, E-Mail und Öffnungszeiten, die abweichenden
+Zeiten eines Aggregators und der fehlende Zweitbeleg aus einem Altautofahrzeugregister.
 
 ## Timeline
 

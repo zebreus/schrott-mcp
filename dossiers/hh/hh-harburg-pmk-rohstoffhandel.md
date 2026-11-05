@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+PMK Rohstoffhandel GmbH, Jaffestraße 23 in 21109 Hamburg, ist ein Buntmetall- und Eisenhändler
+mit Geschäftsführer Ionut Iacomi und HRB 127343 am Amtsgericht Hamburg. Die Anschrift tragen
+das Impressum der Betreiberseite und ein kongruenter Registerspiegel, der die Gesellschaft noch
+als UG führt und die frühere Adresse Gaiserstraße 6 nennt; die Umfirmierung zur GmbH ist nur
+dort belegt. Die Rufnummer 040 67997087 bestätigen Betreiberseite, Das Örtliche und die Gelben
+Seiten, die E-Mail stammt aus einem JavaScript-Bündel der Betreiberseite, während die
+Öffnungszeiten zwischen Betreiber und Verzeichnissen abweichen. Offen bleibt die Doppelführung:
+die Jaffestraße liegt faktisch in Wilhelmsburg, ein dort geführtes Schwesterdossier beschreibt
+dieselbe Entität, eine Zusammenführung ist aber nicht erfolgt. Ankaufpreise, Verkaufslisten und
+Gebühren sind nicht belegt.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nimmermann, Bahnhofstraße 77, 58762 Altena: der Dossier-Eintrag ist ein reiner
+Verzeichnislead auf einen Schrottbetrieb mit dem genannten Namen. Ein Presseartikel vom
+13.01.2014 nennt den Diplom-Kaufmann Horst Nimmermann mit einer Industriemetallentsorgung
+an der Bahnhofstraße und berichtet, dass das Gelände an die Stadt Altena verkauft wurde
+und der Betrieb mindestens bis 2017 fortgeführt werde. Das Verzeichnis führt dieselbe
+Anschrift mit Telefon 02352 2 23 21 und den Zeiten Mo-Fr 08:00-17:00 und Sa 08:00-12:00.
+In OSM existiert die Hausnummer 77 an der Bahnhofstraße als Adressobjekt, doch ohne Namen
+oder Betreiberbezug, und das amtliche Fachbetrieberegister führt weder unter dem Namen noch
+im Umkreis von 3 km einen Eintrag. Offen bleiben damit die aktuelle Betriebsidentität und
+Fortführung, jede belastbare Kontaktangabe sowie sämtliche Leistungs- und Preisangaben.
 
 ## Timeline
 

@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+DKS Schrotthandel am Gehaborner Weg 101 in 64331 Weiterstadt ist ein Schrott- und
+Abbruchbetrieb, den das Firmenverzeichnis der Stadt Weiterstadt mit den Leistungen
+Schrotthandel, Abbruch, Entsorgung, Ankauf von Kupfer, Messing und Edelstahl sowie Abholung
+führt. Die Kontaktseite der Betreiberseite dkschrotthandel.de bestätigt Anschrift und Rufnummer
+0151 17208606, das OSM-Adressobjekt zur Hausnummer 101 stützt die Anschrift. Offen bleibt die
+Betreiberidentität, weil der Direktabruf der Domain mit einer Sperre endet und das Impressum
+eine generische Vorlage ohne klärenden Rechtsträger ist; Registerangaben fehlen, und die auf
+der Betreiberseite genannten abweichenden Angaben zu E-Mail und Öffnungszeiten wurden nicht
+übernommen. Ankaufpreise, Verkaufslisten und Gebühren sind nicht belegt.
 
 ## Timeline
 

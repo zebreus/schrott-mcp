@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH ist in Wismar als Schrottplatz geführt, die Standortidentität bleibt
+jedoch ungeklärt. Die Corporate-Standortliste weist Tonnenhofstraße 12, 23970, der ALBA Nord
+GmbH zu, die aktuelle Metall-Nord-Standortliste führt Wismar nicht auf, und ein direkt
+geprüftes Zertifikat für den Erhebungszeitraum 2023 nennt beide Gesellschaften getrennt unter
+derselben Anschrift, ohne eine heutige eigenständige Metall-Nord-Betriebsstätte zu belegen.
+Die frühere Zuordnung von Straße, Telefonnummer, Website und Drop-off-Zusage wurde
+zurückgenommen, der Bestand bleibt in Prüfung und ohne Koordinate. Offen bleibt die Abgrenzung
+zur Schwestergesellschaft ALBA Nord GmbH, der nicht belegte Ankauf und Verkauf, fehlende
+Gebührenangaben sowie das Fehlen jeder OSM-Betriebszuordnung, obwohl die Hausnummer 12 dort
+als Industrieobjekt erfasst ist.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Familienbetrieb Hoppe Schrotthandel ist ein Einzelunternehmen von Ingo Hoppe in Braunschweig,
+Hinter dem Turme 22, 38114, mit Telefonnummer 0531 61496874 und einer
+betreiberveröffentlichten E-Mail-Adresse. Impressum und Kontaktseite belegen Anschrift und
+Kontaktdaten, als zweite Quellen das Telefonbuch und eine Facebook-Seite; ein Handelsregister
+gibt es nicht, die Registernummer lautet nicht zutreffend. Die Leistungsseite nennt Ankauf und
+Abholung mit eigenem Kranwagen für Schrott, Buntmetalle und Kabelabfälle, ohne Mindestmenge
+oder zugesagte Kostenfreiheit. Amtlich belegt sind zwei Zertifikate als Entsorgungsfachbetrieb
+nach § 56 KrWG mit je zwei Anlagen am Standort, von der EGM (EGM/25/70, gültig bis 12.11.2026)
+und von der IWA (326/2025/26, gültig bis 12.11.2027). Offen bleiben die Altfahrzeugverwertung,
+für die das Register keinen Eintrag führt, sowie Ankauf-, Verkaufspreise und Gebühren.
 
 ## Timeline
 

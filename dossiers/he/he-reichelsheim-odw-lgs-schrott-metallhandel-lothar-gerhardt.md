@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+LGS Schrott & Metallhandel ist der von Lothar Gerhardt geführte Schrott- und Metallhandel in
+der Laudenauerstrasse 1 in 64385 Reichelsheim im Odenwald. Er kauft Schrott und Buntmetalle wie
+Aluminium, Blei, Edelstahl, E-Motoren, Kabel, Kupfer, Messing und Zink auch in kleinsten Mengen
+und zur Selbstanlieferung an, bietet dazu Kfz-Entsorgung mit Verwertungsnachweis sowie
+Brennschneiden und Demontage. Belegt sind die Anschrift und die Inhaberschaft durch das
+Impressum mit der Steuernummer des Finanzamts Michelstadt sowie durch das OSM-Adressobjekt zur
+Hausnummer 1, das den Betrieb nicht benennt. Eine Anerkennung nach dem Kreislaufwirtschafts-
+oder Altfahrzeugrecht wird nicht behauptet, das Feld für Zertifikate bleibt daher leer.
+Zahlenpreise sind nicht veröffentlicht, die Preise richten sich nach Tagessätzen, und für
+Abholung oder Entsorgung ist kein Entgelt genannt.
 
 ## Timeline
 
