@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH betreibt in Schwerin-Görries, Rogahner Str. 72, 19061, eine
+Betriebsstätte zur Annahme von Stahlschrott und Nichteisenmetallen, auch in Kleinmengen, mit
+Spänelager, Trafo-Recycling, Radioaktivitäts-Messanlage, Waage und Containerdienst von 7 bis
+36 m³. Die Detailseite der Betreibergruppe trägt Anschrift, Telefonnummer +49 385 6131-81,
+E-Mail und Öffnungszeiten, das Impressum die Rechtsform. Der Standort Ziegeleiweg 12 gehört
+nach dem ALBA-Fix der Schwestergesellschaft ALBA Nord GmbH mit eigenem Dossier, ein
+Widerspruch besteht nicht. Offen bleibt die Preislage: Die Sortenliste nennt 17 Gruppen ohne
+Betrag, eine Archivprüfung fand keine Preisliste, und der Containerpreis im ALBAclick-Shop ist
+eine Gebühr, kein Ankaufpreis. Ein Standortnachweis in OpenStreetMap fehlt.
 
 ## Timeline
 

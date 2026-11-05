@@ -1,6 +1,7 @@
 ---
 slug: he-wetter-firma-bajramaj
-clear_fields: 'geo'
+lat: 50.9034911
+lon: 8.7362641
 name: Firma Bajramaj
 trader_type: schrotthaendler
 state: HE
@@ -53,3 +54,40 @@ Ein aktueller Erstauftritt unter **firma-bajramaj.de** nennt „Firma Bajramaj�
 ### Recherche 29.10.2026
 
 - [Recherche 29.10.2026: Betreiberseite vollständig gelesen (Kontakt, Service, Über uns, Containerdienst). Die Kontaktseite nennt "Firma Bajramaj, Im Berntal 9, 35083 Wetter, Tel. 0 64 23 - 969 80 40, Mail: info@firma-bajramaj.de"; die E-Mail-Adresse ist damit auf der Betreiberseite lesbar, bleibt im Frontmatter aber leer, weil nur eine Quelle vorliegt und die Korrektur vom 24.10.2026 die Annahmegrenze nicht aufhebt. Die Über-uns-Seite hält fest: "Bereits seit 2004 war die Firma Bajramaj als Demontagebetrieb in Marburg ansässig und anfangs in der Entsorgung von Altmetallen tätig. Im Jahr 2006 haben wir unsere Expertise strategisch erweitert" auf Rückbau, Demontage, Räumung und Lebensmittelmärkte. Die Leistungsübersicht nennt Gebäudedemontage, Entkernung, Wandabbrüche, Fenster- und Türendemontage, Kernbohrungen, Rohrleitungen und Altlasten, ASI- und KMF-Arbeiten, Containerstellungen und Entsorgung; als Qualifizierung nennt die Seite die Selbstauskunft "zertifizierter Fachbetrieb für Abbruch-, Sanierungs- und Instandhaltungsarbeiten an asbestbelasteten Teilen/ASI-Arbeiten nach TRGS 519, sowie Schadstoffsanierung KMF nach TRGS 521", ohne Zertifikatsnummer, sie bleibt also eine Selbstaussage. Die Containerseite nennt Containerstellungen von 7 m³ bis 40 m³; Preise werden nicht genannt, es heißt "Auf Basis einer Besichtigung ... werden Kalkulation und Zeitplan erstellt". Amtlicher Negativbefund: Das Handelsregister (online-handelsregister.de, Suchbegriff "Bajramaj", Abruf 29.10.2026) führt keine Gesellschaft "Firma Bajramaj"; die Treffer sind "La Rustika e.K. Inhaber Iber Bajramaj" (Nürnberg) und die "Ingenieurgemeinschaft Bajramaj Halitovic PartG mbB" (Frankfurt am Main), also andere Branchen. OSM-Prüfung am Objekt: die Im Berntal in Wetter trägt 8 Adressobjekte mit 8 verschiedenen Hausnummern; die Hausnummer 9 existiert als way/1084624540 (`building=yes`, `addr:housenumber=9`, `addr:street=Im Berntal`, `addr:postcode=35083`, `addr:city=Wetter (Hessen)`), ein Objekt mit Bezug zu Bajramaj, Abbruch oder Schrott existiert im Kartenausschnitt nicht. ANKAUF: keine Preise und keine Ankaufzusage veröffentlicht, die Altmetalltätigkeit ist nach eigener Aussage eine Anfangsphase von 2004. VERKAUF: keine Warenpreisliste. GEBÜHREN: Container-, Bau- und Entsorgungsleistungen ohne Zahlenpreise, Angebot nach Besichtigung. Keine Frontmatter-Änderung, Status pruefung bleibt. Quelle(n): https://firma-bajramaj.de/kontakt/ (Abruf 29.10.2026); https://firma-bajramaj.de/ueber-uns/ (Abruf 29.10.2026); https://firma-bajramaj.de/service/ (Abruf 29.10.2026); https://firma-bajramaj.de/containerdienst-35083wetter/ (Abruf 29.10.2026); https://www.online-handelsregister.de/suche/Bajramaj (Abruf 29.10.2026); OSM-API way/1084624540 (Abruf 29.10.2026)]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Koordinate gesetzt**: `lat`/`lon` = **50.9034911/8.7362641** (Mittelwert der
+  eindeutigen Knoten von way/1084624540, liegt innerhalb der Objekt-BBox). **Quelle 1 (Betreiber):** das Impressum
+  https://firma-bajramaj.de/impressum/ (im Dossier am 24./29.10.2026 live gelesen und hier zitiert, am 05.11.2026
+  erneut live abgerufen) nennt wörtlich "Firma Bajramaj, Im Berntal 9, 35083 Wetter, Vertreten durch Inhaber: Avnih
+  Bajramaj, Telefon: 0 64 23 - 969 80 40, E-Mail: info@firma-bajramaj.de, USt-IdNr. gemäß § 27a UStG DE246022210" -
+  die Dossier-Anschrift ist damit **betreiberseitig belegt**; das Handelsregister führt keine Gesellschaft "Firma
+  Bajramaj" (die Treffer "La Rustika e.K. Inhaber Iber Bajramaj" in Nürnberg und "Ingenieurgemeinschaft Bajramaj
+  Halitovic PartG mbB" in Frankfurt am Main sind andere Branchen), es bleibt also eine Betreiber-Selbstauskunft mit
+  USt-IdNr. ohne unabhängige Registerbrücke. **Quelle 2 (OSM):** way/1084624540, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/1084624540/full.json), trägt `addr:housenumber`=**9**,
+  `addr:street`=**Im Berntal**, `addr:city`=**Wetter (Hessen)**, `addr:postcode`=**35083**, `addr:country`=DE,
+  `building`=yes; **4** Knoten, davon **4** eindeutig, Objekt-BBox 8.7361398/50.9034250 bis 8.7363884/50.9035572,
+  der Punkt liegt innerhalb. **Fensterdisziplin (kein Fensterfehler):** das am 05.11.2026 live abgerufene Kachelraster
+  **8.7200/50.8950 bis 8.7500/50.9100** umfasst **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, 12014 Elemente
+  und **umschließt die Objekt-BBox vollständig**; die Straße "Im Berntal" ist dort mit **8 Adressobjekten** und **8**
+  verschiedenen Hausnummern erfasst (**2, 3, 4, 5, 6, 8, 9, 16**) - die Dossier-Hausnummer **9** existiert also in OSM,
+  die Zählung der Vorwellen-Notiz vom 29.10.2026 ("8 Adressobjekte mit 8 verschiedenen Hausnummern") trifft damit zu;
+  die Adressobjekte des Rasters tragen `addr:city`=**Wetter (Hessen)** mit `addr:postcode`=**35083** (6 davon in
+  `addr:suburb`=Niederwetter), das Raster liegt damit in der richtigen Stadt. **Betriebsbezug in OSM:** keiner - way/1084624540 trägt **weder** `name` **noch**
+  `operator`; eine Suche nach "Bajramaj|Abbruch|Demontage|Schrott|Metall" über die Felder name, operator, brand,
+  description, website, contact:website, shop, craft und addr:housename findet im Kachelausschnitt **keinen** Treffer.
+  Der gesetzte Punkt ist folglich ein **Adresspunkt der belegten Betriebsanschrift, kein bestätigter Betriebseingang**;
+  eine öffentliche Metallannahme ist damit **nicht** belegt (die Altmetalltätigkeit ist nach eigener Aussage eine
+  Anfangsphase ab 2004). **Zurücknahme des `geo`-Tokens (Begründung):** der Token `geo` wird aus `clear_fields`
+  **entfernt**, weil das Dossier jetzt ein belegtes Koordinatenpaar führt und der Seed `geo` neben belegtem `lat`/`lon`
+  ablehnt (docs/trader-seed.md); der zuvor zurückgezogene Produktionspunkt 50.9025000/8.7237000 (rund **888 m**
+  entfernt) wird damit durch den belegten Adresspunkt ersetzt. `status` bleibt `pruefung`, alle übrigen Felder
+  bleiben unverändert; die `street`- und `postcode`-Felder bleiben wie in den Vorwellen-Notizen **leer** (die
+  Anschrift ist Betreiberangabe, keine Verzeichnisangabe). **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs
+  wäre **kein** Existenz- oder Schließungsbeweis; der Punkt belegt die Anschrift, nicht den Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/1084624540/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.72,50.895,8.75,50.91 ;
+  https://firma-bajramaj.de/impressum/ ;
+  https://www.online-handelsregister.de/suche/Bajramaj (Abruf 05.11.2026)]

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, Standort Wilhelmshaven (Hafen), Emsstrasse 29, 26382
+Wilhelmshaven: Metallrecyclingstandort der ALBA-Gruppe für Schrott- und Metallhandel
+bis zu einem Stückgewicht von 20 Tonnen, der laut Betreiberseite aus dem früheren
+Jade-Stahl Wilhelmshaven hervorgegangen ist. Die Standortdetailseite nennt Telefon,
+E-Mail und die Zeiten Mo-Do 7:30-16:30 und Fr 7:00-14:45. Die Ankaufs- und Sortenseiten
+führen 17 Sortengruppen ohne jeden Eurobetrag, und eine Wayback-Recherche findet
+auch historisch keine Preisliste. Der Abruf der ALBA-Domains war am 01.11.2026
+durch eine IP-Sperre blockiert und nur über einen Reader-Proxy auswertbar. Offen
+bleibt damit jeder bezifferte Ankaufpreis für diesen Standort; die sofortige
+Auszahlung bei privaten Kleinstmengen ist eine Zahlungsart und kein Preis.
 
 ## Timeline
 

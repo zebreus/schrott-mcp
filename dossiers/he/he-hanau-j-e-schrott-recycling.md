@@ -103,3 +103,37 @@ J.E. Schrott & Recycling bleibt Karten-/Verzeichnislead: Exa nennt Diebacher Weg
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.87,50.11,8.95,50.15 ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.905,50.125,8.925,50.14 ;
   https://exa.ai/library/place/vylzk5ln3y8 ; https://www.gelbeseiten.de/suche/j-e-schrott/hanau (Abruf 05.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Die
+  Dossier-Hausnummer **121** auf dem "Diebacher Weg" in 63452 Hanau lässt sich in OSM **nicht** auffinden; die
+  Nachprüfung kann den Befund der Vorwellen-Notiz vom 05.11.2026 **nicht reproduzieren**, wonach die Straße dort mit
+  einem Adressobjekt Nummer 105 erfasst sei. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein
+  Fensterfehler):** das live abgerufene Kachelraster **8.9000/50.1100 bis 8.9400/50.1400** umfasst **12 Kacheln von je
+  0,01 Grad**, **0 Kachel-Fehler**, 92978 Elemente, 5141 Adressobjekte auf 284 Straßen und enthält das
+  PLZ-Gebiet der Dossierzeile nachweislich (**668** Adressobjekte mit `addr:postcode`=**63452**,
+  `addr:city`=Hanau, daneben 63450, 63456/Steinheim, 63454, 63457/Großauheim). Ergänzend wurden die beiden Reststreifen
+  des alten Fensters **8.8700/50.1400 bis 8.9000/50.1500** (**3 Kacheln**, **0 Kachel-Fehler**, 15176 Elemente, 637
+  Adressobjekte) und **8.9400/50.1400 bis 8.9500/50.1500** (**1 Kachel**, **0 Kachel-Fehler**, 4097 Elemente, 200
+  Adressobjekte) live abgefragt - zusammen decken die drei Abfragen das alte Fenster 8.87-8.95/50.11-50.15 vollständig
+  ab. **In diesem gesamten Bereich existiert keine Straße mit dem Namensbestandteil "Dieb"**: eine Suche nach
+  "Dieb" über die Felder name, operator, brand, description, website, contact:website, shop, craft und addr:housename
+  liefert nur **Buslinien-Relationen** ("Bus 44S: Hanau => Langendiebach", "MKK-56 ... Bruderdiebacher Hof => Hanau"),
+  also **keine** Adressobjekte; eine Suche über `addr:street` mit Präfix "Dieb" ergibt **0 Treffer**. Der einzige
+  gleichnamige Straßenname im weiteren Raum ist **"Diebweg" in Gießen-Wieseck (35396)** mit **19** Adressobjekten und
+  **18** Hausnummern (1, 2 A, 3-12, 14, 16, 18, 19, 20, 22) - **ohne** die Nummer 121 und in einer **anderen Stadt und
+  PLZ**. Quelle 2 (Betreiber/Register): **fehlt** - es gibt keine Betreiberseite, kein Impressum, keinen
+  ausgeschriebenen Inhaber und keinen unabhängigen Register- oder Kommunalbeleg; das Exa-Places-Profil (am 26.10.2026
+  live gelesen und hier zitiert) nennt "J.E. Schrott & Recycling", Diebacher Weg 121, 63452 Hanau, 01577 9264128,
+  Status "Open" und eine einzelne Bewertung vom 02.09.2025 - das ist nach dem Quellenstandard ein Aggregator-Eintrag,
+  und "Open" sowie Bewertungen sind **keine** bestätigte aktuelle Kundenannahme. **Warum keine Koordinate:** die
+  Adresse ruht allein auf einem Aggregator-Eintrag, und es gibt weder ein adressgenaues OSM-Objekt noch eine zweite
+  unabhängige Quelle; es wird **keine** Koordinate erfunden. `clear_fields: 'geo'` bleibt bestehen, der gespeicherte
+  Altpunkt 50.1280667/8.9168333 (Friedrich-Ebert-Anlage 31a, Hanau-Südost) wird damit ohnehin zurückgenommen - kein
+  Dossierbeleg verbindet diesen Ort mit dem Lead Diebacher Weg 121; `status` bleibt `pruefung`.
+  **Reichweitenklausel:** das Fehlen einer Hausnummer in OSM ist **kein** Nachweis für das Fehlen des Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.9,50.11,8.94,50.14 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.87,50.14,8.9,50.15 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.94,50.14,8.95,50.15 ;
+  https://exa.ai/library/place/vylzk5ln3y8 ; https://www.gelbeseiten.de/suche/j-e-schrott/hanau (Abruf 05.11.2026)]

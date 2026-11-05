@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+AREA Industriedemontagen und Abbruch e.K. am Stadtrand 26 in 22047 Hamburg-Tonndorf ist ein
+Familienbetrieb des Inhabers Horst Kuhmichel mit HRA 106804 am Amtsgericht Hamburg, der seit
+1990 Heizungs-, Klima-, Lüftungs- und Maschinenanlagen demontiert und abbricht, im
+Einsatzgebiet Hamburg, Schleswig-Holstein und Niedersachsen. Die Identität tragen das Impressum
+der Betreiberseite und der Registerspiegel, der Inhaber und Registernummer bestätigt, jedoch
+nur die Anschrift Hamburg ohne Straße ausweist. In OpenStreetMap ist die Hausnummer 26 als
+Adressobjekt geführt, ohne den Betrieb zu benennen, die Straßenanschrift selbst trägt allein
+die Betreiberseite. Ein Ankauf von Schrott oder anderen Materialien ist nicht belegt, Sorten,
+Preise und Gebühren fehlen, und die auf der Seite vorhandene E-Mail-Zeile ist nicht als Adresse
+lesbar, weshalb das Feld leer bleibt.
 
 ## Timeline
 

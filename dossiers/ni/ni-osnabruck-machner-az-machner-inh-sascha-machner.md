@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Machner, Inh. Sascha Machner, Assmannstr. 4, 49086 Osnabrück: Schrotthändler mit Ankauf
+und Handel von Schrott, kostenloser Abholung, Autoabholung und Containerbereitstellung
+sowie Entsorgung, Demontage und Entrümplung für private und gewerbliche Kunden. Die
+Jimdo-One-Pager schrotty-machner.jimdofree.de belegen die Anschrift und beide Mobilnummern;
+die Seite hat weder Impressum noch HR-Angabe, ist damit ein reiner Einzelbeleg für
+ein Kleinunternehmen ohne Owner-Ausnahme. In OSM existiert zur Hausnummer 4 ein
+Adressobjekt, das aber keinen Namen und keinen Betreiberbezug trägt. Zahlenpreise,
+Verkaufspreise und Containerkosten werden nicht genannt. Offen bleiben die fehlende
+zweite Belegquelle, das leere E-Mail-Feld und das leere Öffnungszeitenfeld sowie die
+Frage, ob neben der Privatadresse eine Gewerbe- oder Lageradresse betrieben wird.
 
 ## Timeline
 

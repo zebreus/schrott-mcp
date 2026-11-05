@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Tammling Rekon Technik GmbH, Moorfleeter Deich 7 bis 9 in 22113 Hamburg-Moorfleet, ist ein
+Rekonditionierer von Stahlfässern und IBC-Behältern mit Geschäftsführer Mustafa Inal und HRB
+189224 am Amtsgericht Hamburg; das Unternehmen entstand 2025 aus der B. & F. Tammling
+Fassgroßhandlung Bernd Tammling, die in der Liste der BAM-Rekonditionierbetriebe unter dem
+Kurzzeichen BTH geführt wird. Belegt sind die Anschrift und die Rechtsform durch das Impressum
+sowie einen kongruenten Registerspiegel, die BAM-Liste trägt den Vorgänger. Der Betrieb
+arbeitet ausschließlich im Verpackungsrecycling, ein Ankauf von Metall ist nicht belegt, und
+die unentgeltliche Rücknahme wird ausdrücklich der Herstellerpflicht nach dem Verpackungsgesetz
+zugeordnet, nicht einem kostenlosen Abholvertrag. Abhol- und Entsorgungskosten sind nicht
+veröffentlicht, Zertifikate sind im Dossier nicht hinterlegt.
 
 ## Timeline
 

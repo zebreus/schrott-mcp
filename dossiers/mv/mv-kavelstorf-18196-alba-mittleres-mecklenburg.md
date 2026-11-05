@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Nord GmbH betreibt in Kavelstorf, Silder Moor 10, 18196, eine Betriebsstätte der
+Entsorgungs- und Verwertungsgesellschaft; der Dossier-Altname ALBA Mittleres Mecklenburg GmbH
+ist bei der Betreibergruppe nicht bekannt. Die Corporate-Standortliste nennt Anschrift und
+Telefonnummer +49 38208-8390, die Standortseite ergänzt Container von 7 m³ bis 34 m³, die
+Annahme sämtlicher Abfälle, Abbruchleistungen und die E-Mail nord@alba.info. Offen bleibt die
+entscheidende Frage, ob an dieser Adresse tatsächlich Schrott angekauft wird, denn Stahl- und
+Metallrecycling ist nur als Leistungsfeld der Gesellschaft und nicht standortscharf belegt.
+Ebenfalls offen sind die Adresslage, da die Hausnummer 10 in OpenStreetMap nicht existiert und
+das Nummernband dort bei 9 endet, sowie die nicht gesetzte Koordinate. Ein Ankaufpreis ist
+nicht veröffentlicht, der Containerpreis im ALBAclick-Shop ist eine Gebühr.
 
 ## Timeline
 

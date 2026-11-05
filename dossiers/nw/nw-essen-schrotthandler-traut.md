@@ -123,3 +123,45 @@ Merge) und verweist auf die Leitzeile
   https://api.openstreetmap.org/api/0.6/node/4548791823.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0000,51.4200,7.0300,51.4600 (Abruf 05.11.2026).]
 
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom 05.11.2026 mit dem enger gefassten
+  Fenster.** Für die Zeile existiert **keine** belegte Betriebsanschrift in Essen; der Kartenmarker des verwendeten
+  Aggregatorportals liegt in einem **Wohnobjekt** und ist kein Betriebsort. **Quelle 1 (OSM, live geladen am 05.11.2026,
+  HTTP 200):** das Kachelraster **7.0000/51.4400 bis 7.0200/51.4600**, **4 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler** (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0000,51.4400,7.0200,51.4600) enthält die
+  **Witteringstraße** nachweislich und vollständig mit **57** Straßenobjekten (Verlauf 51.4402509/7.0062821 bis
+  51.4424725/7.0181751); die Straße trägt im Fenster **137** Adressobjekte (90 Ways, 47 Nodes) und **93** verschiedene
+  Hausnummern. Die Markeradresse **92, Witteringstraße, 45130 Essen** ist in OSM durch **drei** Objekte belegt:
+  **way/354508084** (`addr:housenumber`=92, `addr:street`=Witteringstraße, `addr:city`=Essen, `addr:country`=DE,
+  `addr:postcode`=45130, `building`=apartments; Mittel der **9** eindeutigen Knoten **51.4410768/7.0158151**, BBox
+  51.4410206/7.0155783 bis 51.4411675/7.0160754), **node/3453735410** (`amenity`=car_sharing, `name`=**Stadtmobil**,
+  `brand`=Stadtmobil Rhein-Ruhr, `operator`=Stadtmobil Rhein-Ruhr GmbH, `website`=https://rhein-ruhr.stadtmobil.de;
+  Punktlage **51.4410560/7.0154956**, rund **40 m** vom Portal-Marker entfernt) und **node/4548791823**
+  (`amenity`=restaurant, `name`=**Tío Pepe**, `website`=https://tio-pepe-essen.de/, `opening_hours`=Mo-Sa,PH
+  18:00-24:00; Punktlage **51.4410972/7.0158434**, rund **24 m** vom Portal-Marker entfernt) - **kein** Schrottbezug.
+  Eine Suche nach „Traut" über die Felder name, operator, brand, description, website, contact:website, contact:phone,
+  note und addr:housename findet im Kachelausschnitt **keinen** Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg
+  über den Betrieb. **Quelle 2 (Aggregator, live am 05.11.2026 nachgelesen, HTTP 200; keine
+  Betreiber-/Registerquelle):** das Portal-Profil „Schrotthändler Traut Essen“ lässt die Anschrift **leer** („nimmt
+  Schrott unter der Adresse [leer] an“) und nennt nur die Mobilnummer **+49 162 9135397**, die Leistung „Abtransport von
+  Schrott“ und die Metallarten Kupfer, Aluminium, Edelstahl, Messing, Zink und Blei; das Portal schreibt selbst, dass
+  alle Unternehmensinformationen aus öffentlichen Quellen stammen, und die dort gezeigten Schrottmetallpreise sind
+  ausdrücklich **Portal-Durchschnitte** und **kein** öffentliches Angebot. Für Traut in Essen ist **weder** eine
+  Betreiberseite **noch** ein Registereintrag gefunden; 11880 führt die Nummer nicht, Gelbe Seiten und Das Örtliche
+  kennen keinen Traut-Eintrag in Essen oder Gelsenkirchen, NorthData-Suchen „Schrotthandel Traut“ und „Traut
+  Gelsenkirchen“ zeigen kein passendes Registerunternehmen (bei Einzelunternehmern ohne HRB ist das ein Negativbefund
+  ohne Beweiswert). Die Zwillingszeile `nw-gelsenkirchen-mitte-schrotthandler-traut-ge-ableger` führt dieselbe
+  Mobilnummer mit der Anschrift **Kurt-Schumacher-Straße 80, 45881 Gelsenkirchen**; eine belegte eigene Essener
+  Betriebsanschrift gibt es weiterhin nicht, und die Gelsenkirchen-Adresse wird **nicht** in diese Zeile übernommen.
+  **Warum keine Koordinate:** Es fehlt eine belegte Anschrift; jeder Punkt wäre eine Ableitung aus einem fremden Objekt
+  oder einer Straßenmitte. **Was zur Auflösung fehlt:** eine kuratierte Anschrift **oder** ein belegter Annahmehof für
+  den mobilen Betrieb in Essen; der Klärfall bleibt offen, der Portal-Platzhalter wird nicht durch einen geratenen Punkt
+  ersetzt. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert.
+  **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre kein Existenz- oder
+  Schließungsbeweis. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0000,51.4400,7.0200,51.4600 ;
+  https://api.openstreetmap.org/api/0.6/node/3453735410.json ;
+  https://api.openstreetmap.org/api/0.6/node/4548791823.json ;
+  https://api.openstreetmap.org/api/0.6/way/354508084/full.json ; https://schrottfinder.de/schrotthandler-traut-essen/ ;
+  https://www.northdata.de/?query=Traut+Gelsenkirchen (im Dossier zitiert, Abruf 05.11.2026).]

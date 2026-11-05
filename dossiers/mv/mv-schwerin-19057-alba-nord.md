@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Nord GmbH ist die Entsorgungs- und Verwertungsgesellschaft mit Hauptverwaltung und
+Recyclinghof in Schwerin, Ziegeleiweg 12, 19057, Telefon +49 385 4811 0, E-Mail
+nord@alba.info. Die Standortseite nennt Dienstleistungen rund um Abfallentsorgung, Recycling
+und Vermarktung von Recyclingrohstoffen sowie die Öffnungszeiten von Recyclinghof und
+Zentrale; die Corporate-Standortliste trägt Anschrift und Kontaktdaten, das Impressum die
+Rechtsform. Die im Seed abweichend genannte Rogahner Straße 72 gehört nach dem ALBA-Fix der
+Schwestergesellschaft ALBA Metall Nord GmbH mit eigenem Dossier, ein Widerspruch besteht
+nicht. Offen bleibt der eigentliche Schrottankauf: Für den Schweriner Standort nennt die
+Gesellschaft weder Annahmebedingungen für externe Schrottanlieferer noch einen Ankaufpreis,
+auch historisch ist keine Preisliste belegt. Ein Standortnachweis in OpenStreetMap fehlt.
 
 ## Timeline
 

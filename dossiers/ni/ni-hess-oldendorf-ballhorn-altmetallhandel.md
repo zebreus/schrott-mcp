@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BALLHORN Altmetallhandel, Lokenweg 7, 31840 Hessisch Oldendorf: Altmetallhändler mit
+Annahmestelle und Abholung vor Ort, laut Betreiberangabe seit 1998 aktiv. Das Impressum
+der Betreiberseite aus-liebe-zum-schrott.de nennt Stefan Ballhorn als Geschäftsführer
+und HRB 208606 AG Hannover und trennt sauber zwischen der Annahme in Hessisch Oldendorf
+und der Verwaltung in der Alten Kasseler Straße 39 in Rinteln; die HRB bestätigt ein
+unabhängiger Registerspiegel. Die Annahme ist laut Betreiberangabe Mo-Fr 15:00-17:00 und
+Sa 13:00-16:00 möglich, jeweils nach vorheriger telefonischer Anmeldung. Offen bleiben die
+älteren Angaben zu Fabrikstraße 41 und zur im Seed geführten Telefonnummer 09367 2200, die
+im aktuellen Live-Impressum nicht mehr auffindbar sind, sowie die fehlende Geokodierung.
 
 ## Timeline
 

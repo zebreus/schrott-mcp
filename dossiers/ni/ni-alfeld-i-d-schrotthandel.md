@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+I&D Schrotthandel ist ein Einzelbetrieb in Alfeld, Föhrster Str. 31, 31061, im Impressum als
+I&D Metallhandel mit Inhaberin Irma Kirvelaitiené geführt. Die Betreiberseite
+id-schrotthandel.de belegt den Schrottplatz mit Ankauf und Abholung von Aluminium, Kupfer,
+Kabel und Messing, dazu kostenlose Abholung, Karossen-Annahme, Demontage und
+Containerstellung; eine Tagespreis-Seite existiert, ihre Werte sind tagesaktuell. Belegt sind
+Adresse, Telefonnummer und Leistungsangaben, nicht die Rechtsform, denn ein Registerbeleg
+fehlt. Offen bleibt die Anerkennung: Namenssuche und Umkreisabfrage um drei Kilometer im
+amtlichen Fachbetrieberegister liefern keine Treffer, im Zehn-Kilometer-Radius steht ein
+anderer Rechtsträger am selben Ort; das Feld certifications bleibt deshalb leer, wobei ein
+Nichteintrag die freiwillige Anerkennung nicht widerlegt.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ASN Recycling GmbH in Boizenburg/Elbe, Galliner Straße 54, 19258, arbeitet als
+Autoverwertungsbetrieb mit Schrottankauf von Alu, Kupfer und Mischschrott, Autoverwertung,
+Reifenentsorgung und Fahrzeugabholung. Das Impressum nennt Rechtsform, Anschrift, HRB 13169
+beim Amtsgericht Schwerin, Geschäftsführung Arez Rashid und eine
+Umsatzsteuer-Identifikationsnummer; Northdata zum selben HRB stützt die Anschrift und weist
+die Nachfolge der Autoverwertung Nord GmbH aus. Zahlenpreise, Verkaufserlöse und bezifferte
+Gebühren sind nicht veröffentlicht, die Abholung nicht als kostenfrei belegt. Die Hausnummer
+54 ist in OpenStreetMap nur als Adressobjekt ohne Betriebsbezug erfasst. Offen bleiben zwei
+widersprüchliche Telefonnummern der Betreiberseite, der fehlende OSM-Betriebsbeleg und der
+benachbarte Schrottplatz LSM ohne eigenes Dossier.
 
 ## Timeline
 

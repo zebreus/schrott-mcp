@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott-i ist die Marke der Scholz & Scholz GbR in der Falltorstraße 35 in 61137
+Schöneck-Oberdorfelden, ein Metallhandel in dritter Generation, der Mischschrott,
+Elektromotoren, Aluminium- und Elektroschrott, Leitplatten, RAM und CPUs ankauft, Abholservice
+und Container bereitstellt und Gebrauchtwaren verkauft. Die Anschrift tragen das Impressum der
+GbR mit Umsatzsteuer-Identifikationsnummer und das OSM-Adressobjekt zur Hausnummer 35 ohne
+Betriebsnamen. Offen bleibt die Belegkette, da die GbR ohne HRB-Eintrag keine Ausnahme trägt
+und Telefon, E-Mail und Zeiten leer bleiben; ein Registerbeleg für die genannten Inhaber fehlt
+wie ein zweiter für die Postleitzahl. Preise sind nicht veröffentlicht und nur telefonisch zu
+erfragen, ein Entgelt für die Containerstellung ist nicht genannt, eine öffentliche Annahme ist
+nicht ausgewiesen. Private Elektrogeräte nimmt der Betrieb nicht entgegen.
 
 ## Timeline
 

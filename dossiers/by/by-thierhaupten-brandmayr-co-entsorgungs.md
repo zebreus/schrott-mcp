@@ -83,3 +83,33 @@ Keine numerische Ankauf-, Verkauf- oder Gebührenliste auf den hier geprüften S
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8700,48.5500,10.9000,48.5800 ;
   https://api.openstreetmap.org/api/0.6/way/32997437/full.json ; https://www.brandmayr-co.de/impressum/ ;
   https://www.thierhaupten.de/adressen/brandmayr-co-entsorgungs-gmbh/ (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Gemeindewald 19, 86672 Thierhaupten**; die alte Vermerkung nennt als Suchfenster das Raster
+  **10.8700/48.5500 bis 10.9000/48.5800** (9 Kacheln). **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue
+  Kachelraster **bbox=10.8800,48.5600,10.9000,48.5700** (**2 Kacheln von je 0,01 Grad** um die Hausnummer herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8800,48.5600,10.9000,48.5700) lieferte **5 824 Elemente** bei
+  **0 Kachel-Fehlern**. Der **„Gemeindewald“** (`highway`=residential, way/32997437, live geladen HTTP 200, 39 Knoten,
+  Verlauf 48.5636664/10.8854361 bis 48.5673210/10.8882226) ist damit **vollständig im Fenster** erfasst; die
+  **Objekt-BBox der Straße** (48.5636664/10.8854361 bis 48.5673210/10.8882226) liegt **vollständig in der Fenster-BBox**.
+  Er trägt nur **2 Adressobjekte** mit **einer** Hausnummer (**45**; way/120595590 „APS Waschpark Thierhaupten“ und
+  way/1493601833, beide `addr:postcode`=86672, `addr:city`=Thierhaupten) - die Dossier-Hausnummer **19 existiert in OSM
+  nicht**; die Suche über `name`, `operator`, `brand` und `official_name` nach „brandmayr“ liefert **0 Treffer** - der
+  Betrieb ist in OSM nicht kartiert. Die Adressobjekte des Fensters tragen durchgängig `addr:postcode`=**86672**/
+  `addr:city`=Thierhaupten, die gefundene Straße liegt also im richtigen Ort (die Haltestelle „Thierhaupten Ballonfabrik“
+  liegt im selben Raster). **Quelle 2 (Betreiber/amtlich, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen,
+  HTTP 200):** das Betreiber-Impressum nennt **Brandmayr & Co. Entsorgungs GmbH, HRB 15304 AG Augsburg, Gemeindewald 19,
+  86672 Thierhaupten**, 08271/81830 und info[at]brandmayr-co.de, und der **unabhängige kommunale Eintrag** der
+  Marktgemeinde Thierhaupten bestätigt Firma, **identische Adresse/Kontakte** sowie die Tätigkeiten „Abfall-Entsorgung,
+  Containerdienst, Schrotthandel, Transporte“ (Dossier-Überblick und Verifikation 08.10.2026). Die Adresse ist damit
+  **betreiberseitig und kommunal bestätigt**, nur die **Geometrie der Hausnummer 19 fehlt in OSM** (die Straße trägt dort
+  nur die Nummer 45 mit einem Waschpark); nach der Regel dieser Welle wird deshalb **keine** Koordinate erfunden und **kein**
+  Nachbarobjekt (45) und **kein** Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthielt **keine**
+  `clear_fields`-Anweisung; `status` (aktiv), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert.
+  **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder
+  Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8800,48.5600,10.9000,48.5700 ;
+  https://api.openstreetmap.org/api/0.6/way/32997437/full.json ; https://www.brandmayr-co.de/impressum/ ;
+  https://www.thierhaupten.de/adressen/brandmayr-co-entsorgungs-gmbh/ (live abgerufen 05.11.2026).]

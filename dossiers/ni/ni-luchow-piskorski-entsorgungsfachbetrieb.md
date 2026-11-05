@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+PISKORSKI GmbH & Co. KG, Albrecht-Thaer-Straße 13, 29439 Lüchow: Entsorgungsfachbetrieb
+mit Schrottankauf für Privat und Gewerbe, Containerdienst, Demontage und Abholung mit
+12-t-Pritschen-Lkw und Ladekran, auch für Asbest. Das Impressum der Betreiberseite
+piskorski.de weist die Gesellschaft mit HRA 202777 und die Komplementär-GmbH mit HRB 206825
+sowie die Geschäftsführer Philip und Bernd Kamlade aus; Kontaktseite und Schrottankaufseite
+bestätigen dieselbe Anschrift und Telefonnummer, externe Verzeichnisse nennen dieselbe
+Adresse. Die Identität trägt damit im Wesentlichen die Betreiberseite, gestützt durch den
+registerkonformen Abgleich mit HRA und HRB. Offen bleiben eine vom Betreiber unabhängige
+Bestätigung der Annahmeleistungen vor Ort und die fehlende Koordinate der Anschrift.
 
 ## Timeline
 

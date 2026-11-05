@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Herbert Neumann GmbH, Peuter Elbdeich 51 in 20539 Hamburg-Veddel, ist ein Schrott- und
+Industrieabfallverwertungsbetrieb mit Großhandel, HRB 24052 am Amtsgericht Hamburg, der das
+Geschäft des Einzelunternehmens Herbert Neumann seit dem 1. Januar 1979 fortführt. Die
+Anschrift tragen ein Registerspiegel und ein Bonitätsauszug übereinstimmend, in OpenStreetMap
+ist die Hausnummer 51 als reines Adressobjekt ohne Betriebsnamen geführt, und die
+Betriebsdomain schrotthandel-hamburg.de antwortet mit einer Bot-Sperre, weshalb Telefon, E-Mail
+und Öffnungszeiten leer bleiben und eine zweite unabhängige Identitätsquelle fehlt. Offen
+bleibt zudem die am 13. August 2026 im Register angekündigte Löschung von Amts wegen, die nicht
+als vollzogen belegt ist und daher den Status in Prüfung lässt. Ankauf- und Verkaufspreise
+sowie Gebühren sind nicht belegt.
 
 ## Timeline
 

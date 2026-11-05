@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Milhan Recycling wird in Dassow, Dassower Straße 5, 23942, als Inhaberbetrieb geführt und den
+Verzeichnisangaben nach dem Abbruch- und Recyclinggeschäft zuzuordnen. Eine Betreiberseite und
+ein Registerbeleg fehlen: Name, Anschrift, Telefonnummer 038826 88360 und die Inhaberschaft
+Torsten Milhan stammen aus sechs Verzeichnissen, die zusätzlich eine Milhan Recycling UG
+(haftungsbeschränkt) an derselben Adresse nennen, deren Registerzusammenhang ungeklärt ist.
+Der Bestand bleibt im Status der Prüfung. Die Hausnummer 5 ist in OpenStreetMap an zwei
+Stellen der Dassower Straße erfasst, in Harkensee und in Prieschendorf, rund 7,3 km
+auseinander und beide außerhalb des Kernorts Dassow; kein Objekt trägt einen Betriebsbezug.
+Offen bleiben, welche Adresslage zutrifft, die Betreiberidentität zwischen Inhaberbetrieb und
+genannter UG sowie eine unbelegte Preis- und Gebührenlage.
 
 ## Timeline
 
