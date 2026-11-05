@@ -218,10 +218,13 @@ fn phone_key(s: &str) -> String {
 fn street_key(s: &str) -> String {
     let mut t = s.to_lowercase();
     t = t.replace("strasse", "str").replace("straße", "str");
-    // Punkte und Bindestriche tragen keine Bedeutung ("Robert-Bosch-Str. 24" und
-    // "Robert-Boschstr. 24" sind dieselbe Anschrift).
-    t = t.replace('.', "").replace('-', "");
-    t.split_whitespace().collect::<Vec<_>>().join(" ")
+    // Punkte, Bindestriche und der Leerraum tragen keine Bedeutung
+    // ("Robert-Bosch-Str. 24" und "Robert-Boschstr. 24" sind dieselbe
+    // Anschrift, ebenso "Blankenburger Str. 18 - 20" und "Blankenburger Str.
+    // 18-20"). Sie werden **vollstaendig entfernt** - mit einem Leerzeichen
+    // blieben "18 - 20" ("18 20") und "18-20" ("1820") zwei Schluessel.
+    t = t.replace('.', "").replace('-', "").replace('\u{2013}', "");
+    t.split_whitespace().collect::<Vec<_>>().join("")
 }
 
 /// One trader row, as stored.
@@ -794,6 +797,22 @@ mod tests {
             "street",
             "Robert-Bosch-Straße 24",
             "Robert-Bosch-Str. 24"
+        ));
+        // Bindestriche mit und ohne Leerzeichen sind dieselbe Anschrift.
+        assert!(same_value(
+            "street",
+            "Blankenburger Str. 18 - 20",
+            "Blankenburger Str. 18-20"
+        ));
+        assert!(same_value(
+            "street",
+            "Senator-Bömers Straße 10",
+            "Senator-Bömers-Straße 10"
+        ));
+        assert!(same_value(
+            "street",
+            "Hafenrandstr. 5-6",
+            "Hafenrandstraße 5-6"
         ));
         // Koordinaten: dieselbe Zahl in anderer Schreibweise ist derselbe
         // Punkt - ein Ueberschreiben waere reiner Format-Churn.
