@@ -4,7 +4,7 @@ name: ASSI Auto Service GmbH
 trader_type: autoverwertung
 state: BE
 city: Tempelhof-Schöneberg
-street: Dederingstr. 21, ; Tel. 030 70176644
+street: Dederingstr. 21
 postcode: '12107'
 phone: 030 70176644
 email: ''
