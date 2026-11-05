@@ -72,3 +72,39 @@ NorthData zeigt außerdem einen anderen, erloschenen Rechtsträger „areg Abfal
   die benachbarte Hausnummer 90 nicht als Ersatz gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung;
   `status` (aktiv), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3700,48.5200,13.4000,48.5500 ;
   https://api.openstreetmap.org/api/0.6/way/215834382/full.json ; https://www.areg-mbh.de/ ; https://www.northdata.de/AREG-Abfall-Recycling-Entsorgungsgesellschaft-mbH/Neuburg-am-Inn/Amtsgericht%20Passau%20HRB%201543 (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Hauptstr. 91, 94127 Neuburg am Inn**; die alte Vermerkung nennt als Suchfenster das Raster
+  **bbox=13.3700,48.5200,13.4000,48.5500** (9 Kacheln um den Adresspunkt) und hält fest, die Hausnummer 91 fehle in OSM.
+  **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue Kachelraster **bbox=13.3600,48.5100,13.4100,48.5700**
+  (**30 Kacheln von je 0,01 Grad** um die Hausnummer herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3600,48.5100,13.4100,48.5700) lieferte **68 568 Elemente** bei
+  **0 Kachel-Fehlern**. Die **„Hauptstraße“** ist im erweiterten Fenster vollständig mit **fünf** Straßenobjekten
+  erfasst (way/77769536, way/1486900790, way/8051964, way/77769529, way/77769531; Verlauf 48.5198351/13.3730377 bis
+  48.5315265/13.3851310) und liegt damit **vollständig im Fenster**; auf ihr sind nur **5 Adressobjekte** mit **4
+  verschiedenen Hausnummern** erfasst (**1, 4, 43, 90**) - die Dossier-Hausnummer **91 existiert in OSM nicht**. Das
+  einzige wertstoffbezogene Objekt ist **way/215834382** mit `addr:housenumber`=**90**, `addr:street`=Hauptstraße,
+  `addr:postcode`=94127, `addr:city`=Neuburg a.Inn, `addr:suburb`=**Pfenningbach**, `amenity`=recycling,
+  `recycling_type`=centre, `name`=**Recyclinghof Neuburg-Pfenningbach**, `operator`=**ZAW Abfallwirtschaft
+  Donau-Wald** (Mittel der eindeutigen Knoten 48.5334090/13.3898260) - das ist die **Nachbarhausnummer 90 und ein
+  anderer Betreiber**, nicht die AREG; die Objekte tragen weder AREG noch `operator`=AREG. Das erweiterte Fenster
+  liefert **dasselbe** Ergebnis wie das Raster vom 03.11.2026 - ein **Fensterfehler** der letzten Welle liegt hier
+  **nicht** vor. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):**
+  die Betreiberwebsite nennt **„AREG mbH, Hauptstr. 91, 94127 Neuburg/Inn“** (Tel. +49 8502 9003-0) und führt
+  Neuburg/Pfennigbach als Wertstoffannahmestelle; die Spiegelung der amtlichen Register (schrottregister.pages.dev, Auszug
+  11.08.2026) führt die **AREG Abfall Entsorgung Recycl. GmbH** mit **Hauptstraße 91, 94127 Neuburg am Inn** als
+  **Demontagebetrieb** (Zertifikatsnummer **ZAIS01700016**), die **AREG Abfall-Recycling-Entsorgungsgesellschaft mbH**
+  (Efb, **ZZEE00100233**) und den **Hauptsitz** ebenfalls an **Hauptstraße 91**. AREG bleibt damit von der separat
+  registrierten **Otto Ammermüller GmbH** getrennt; die amtliche ZAW-Kartierung in OSM ist ein **anderer** Rechtsträger
+  und wird nicht als Beleg für AREG übernommen. Damit ist die Dossier-Hausnummer in OSM **nicht** auffindbar; es wird
+  **keine** Koordinate erfunden und die benachbarte Hausnummer 90 nicht als Ersatz gesetzt. Das Dossier enthielt **keine**
+  `clear_fields`-Anweisung; `status` (aktiv), `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert.
+  **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder
+  Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3600,48.5100,13.4100,48.5700 ;
+  https://api.openstreetmap.org/api/0.6/way/215834382/full.json ; https://www.areg-mbh.de/ ;
+  https://schrottregister.pages.dev/betrieb-areg-abfall-entsorgung-recycl-gmbh-neuburg-am-inn ;
+  https://www.northdata.de/AREG-Abfall-Recycling-Entsorgungsgesellschaft-mbH/Neuburg-am-Inn/Amtsgericht%20Passau%20HRB%201543
+  (live abgerufen 05.11.2026).]

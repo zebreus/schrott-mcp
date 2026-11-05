@@ -89,3 +89,50 @@ Betreiber-Einzelbeleg mit internem Identitätskonflikt: Impressum nennt René St
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2000,50.3150,7.2400,50.3400 (Kachelraster, live abgerufen
   03.11.2026) ; http://www.sk-serviceleistungen.info/Impressum/ ;
   http://www.sk-serviceleistungen.info/Kostenlose-Schrottabholung/ (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Die Dossier-Adresse ist **nicht
+  widerspruchsfrei**, und für keine der beiden Varianten ist eine **öffentliche Annahmestelle** belegt; ein Punkt wäre
+  geraten, deshalb wird bewusst **keine** Koordinate gesetzt. **Was geprüft wurde (live am 05.11.2026):** (a) Das
+  **Impressum** der Betreiber-Website (live abgerufen 05.11.2026, HTTP 200,
+  http://www.sk-serviceleistungen.info/Impressum/) nennt „**SK Schrotthandel & Serviceleistungen Inh. René Stöcker,
+  Neustraße 15, 56727 Mayen**", Telefon 0172 6565802, **SAM-Nr. GG0000087**; der **Datenschutzabschnitt derselben Seite**
+  nennt „**Michel Kraus, SK Schrotthandel & Serviceleistungen, Alkenstr. 30, 56727 Mayen**" - der im Dossier seit 08.10.2026
+  dokumentierte **Identitätskonflikt** besteht am 05.11.2026 **unverändert** und ist damit **live bestätigt**.
+  (b) **Suchfenster (0,01°-Kacheln):** **bbox=7.2050,50.3200,7.2350,50.3400** = 6 Kacheln à 0,01° (7.2050/50.3200/7.2150/
+  50.3300, 7.2050/50.3300/7.2150/50.3400, 7.2150/50.3200/7.2250/50.3300, 7.2150/50.3300/7.2250/50.3400, 7.2250/50.3200/
+  7.2350/50.3300, 7.2250/50.3300/7.2350/50.3400), live abgerufen am 05.11.2026; **Zensus:** **2.636** Adressobjekte und
+  **132** namentliche Straßen im Fenster. Die Variante **Alkenstr. 30** findet sich in OSM **nicht**: die **Alkenstraße**
+  trägt nur die Hausnummern **1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14** - eine Nummer **30 existiert dort nicht**. Die
+  Variante **Neustraße 15** existiert zwar, ist aber **mit einem anderen Betrieb belegt**: **node/9081682679** trägt
+  `addr:housenumber`=15, `addr:street`=Neustraße, `addr:city`=Mayen, `addr:postcode`=56727 **und** `name`=**„Rosenberg
+  Doll"**; daneben liegt **way/655697252** (`building`=residential) mit derselben Nummer 15 ohne Betriebsbezug.
+  „Rosenberg Doll" ist **nicht** der Dossier-Betrieb. Neu belegt ist zudem, dass die **Nummer 30 auf der Neustraße**
+  existiert - **node/9081682670** mit `name`=**„Eifelstube"** (ein Gaststättenbetrieb) und **way/656348565**; die
+  Datenschutz-Adresse „Alkenstr. 30" ließe sich also nur unter Verwechslung **zweier Straßen** auf ein OSM-Objekt
+  abbilden, das zudem einen **anderen** Betrieb trägt. Eine Suche über **alle** Tag-Werte nach „**schrott**", „**stöcker**",
+  „**kraus**" oder „**serviceleistung**" liefert **0 Treffer** - der Betrieb ist in OSM **nicht namentlich kartiert**.
+  (c) **Quelle 1 (Betreiber):** das oben zitierte Impressum (live 05.11.2026) sowie die Leistungsseite
+  **Kostenlose-Schrottabholung** (live abgerufen 03.11.2026, http://www.sk-serviceleistungen.info/Kostenlose-Schrottabholung/)
+  - sie beschreibt einen **mobilen Abholservice** („Altmetall-/Elektroschrottabholung und Bereitstellung von
+  Gitterboxen/Sammelfässern", 800 kg Fahrzeugzuladekapazität, maximal 1.800 kg je Anfahrt) und nennt **keinen** festen
+  Hof, an dem angenommen wird. **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der Gemeinsamen Stelle
+  Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) führt für **56727 Mayen** genau **drei** Betriebe (Drekopf Recyclingzentrum Mayen GmbH,
+  Am Layerhof 8; Recycling- und Containerdienst, Am Layerhof 7a; St. Raphael Caritas Alten- und Behindertenhilfe GmbH -
+  Caritas Werkstätten St. Johannes, Ludwig-Erhard-Str. 14) - **keinen** mit Bezug zu „SK Schrotthandel". **Quelle 2
+  (OSM):** die oben genannten Objekte (live abgerufen 05.11.2026 über das Kachelraster). **Was fehlt:** eine
+  widerspruchsfreie Betreiberanschrift **und** ein OSM-Objekt ohne konkurrierenden Fremdbetrieb; die SAM-Nr. GG0000087
+  bleibt **Selbstauskunft**, keine unabhängige Genehmigungsprüfung. `status` bleibt **pruefung**, `street`/`postcode`
+  bleiben leer, `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen eines OSM-Betriebsobjekts oder
+  eines Registereintrags ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2050,50.3200,7.2150,50.3300 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2050,50.3300,7.2150,50.3400 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2150,50.3200,7.2250,50.3300 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2150,50.3300,7.2250,50.3400 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2250,50.3200,7.2350,50.3300 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.2250,50.3300,7.2350,50.3400 ;
+  http://www.sk-serviceleistungen.info/Impressum/ ;
+  https://schrottregister.pages.dev/ort-mayen ; Recherche-Vermerke vom 08.10. und 03.11.2026 im Dossier (live abgerufen
+  05.11.2026).]

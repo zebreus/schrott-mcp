@@ -75,3 +75,40 @@ Die aktuellen Belege widersprechen sich beim Standort: 11880 führt Digosa Metal
   unverändert**, weil der zurückgezogene Altpunkt (Bezirkskrankenhaus Lohr) weiterhin entzogen werden soll;
   `status`, `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.5700,49.9900,9.5800,50.0000 ; https://api.openstreetmap.org/api/0.6/way/270412615/full.json ; https://www.northdata.de/Digosa-Metall-GmbH/Frankfurt-am-Main/Amtsgericht%20Frankfurt%20HRB%20753503
   (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse
+  **Färbergasse 13, 97816 Lohr am Main** ist laut Dossier eine **frühere Registeranschrift** eines Unternehmens, dessen
+  Sitz im Februar 2025 nach Mannheim verlegt wurde; die alte Vermerkung nennt als Suchfenster **eine einzelne** Kachel
+  **bbox=9.5700,49.9900,9.5800,50.0000**. **Quelle 1 (OSM, live abgefragt am 05.11.2026):** das neue Kachelraster
+  **bbox=9.5600,49.9800,9.5900,50.0100** (**9 Kacheln von je 0,01 Grad** um die Hausnummer herum,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.5600,49.9800,9.5900,50.0100) lieferte **58 043 Elemente** bei
+  **0 Kachel-Fehlern**. Die **„Färbergasse“** ist im Fenster vollständig mit **vier** Straßenobjekten erfasst
+  (way/15791458, way/70922032, way/27957606, way/1328724550; Verlauf 49.9940703/9.5731075 bis 49.9942232/9.5750167) und
+  trägt **19 Adressobjekte** mit **17 verschiedenen Hausnummern** (3, 4, 5, 5-7, 6, 7, 8, 9, 10, 11, 12, **13**, 14, 15,
+  17, 19, 21) - die Dossier-Hausnummer **13 existiert in OSM also objektgenau**, nämlich **way/270412615** mit
+  `addr:housenumber`=**13**, `addr:street`=Färbergasse, `addr:postcode`=**97816**, `addr:city`=Lohr am Main,
+  `addr:country`=DE, `building`=**apartments**, `building:levels`=2 (4 eindeutige Knoten, Mittel
+  49.9939560/9.5743494, Objekt-BBox 49.9938564/9.5742682 bis 49.9940555/9.5744307). Das Objekt trägt **weder `name=` noch
+  `operator=`**; die Suche über `name`, `operator`, `brand`, `official_name` und `old_name` nach „digosa“ liefert
+  **0 Treffer** - das erweiterte Fenster ändert am Befund des 03.11.2026 nichts, ein **Fensterfehler** liegt hier
+  **nicht** vor. **Quelle 2 (Register, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen):** 11880 führt
+  „Digosa Metall GmbH“ in Lohr, **Färbergasse 13**, mit der Seed-Telefonnummer 0173 3120667 (Eintrag 29.09.2026, am
+  10.10. aktualisiert), während **NorthData die Lohrer Adresse als frühere Registeranschrift** ausweist und die
+  **Sitzverlegung nach Mannheim im Februar 2025** dokumentiert (HRB 753503, H 2, 16–17, 68159 Mannheim); die
+  Digosa-Domain zeigt weiterhin nur eine Passwort-/Neueröffnungsseite mit dem Kontakt „ELIF JUWELIER“, H 2 16, 68159
+  Mannheim, und derselben Nummer, ohne die Domain, das Juwelier und die GmbH rechtlich zu verbinden (Dossier-Überblick
+  und Recherche 22.10./26.10.2026). Das Dossier hält ausdrücklich fest, dass **weder** Mannheim H 2 16 **noch** Lohr
+  Färbergasse 13 als Kundenannahme für diesen Datensatz bestätigt ist, und die Wellennotiz vom 26.10.2026 verlangt
+  ausdrücklich „Weder Lohr noch Mannheim geokodieren, bevor Kundenannahme belegt ist“. Ein Punkt in Lohr würde einen
+  **historischen** Sitz eines Unternehmens markieren, das nach Mannheim umgezogen ist, und wäre damit ein irreführender
+  Standort; es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: geo`
+  bleibt unverändert, weil der zurückgezogene Altpunkt (Bezirkskrankenhaus Lohr) weiterhin entzogen werden soll;
+  `status`, `description` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer
+  bestätigten Kundenannahme ist **kein** Existenz- oder Schließungsbeweis; ein fortbestehender Lohrer Betrieb bleibt
+  möglich. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.5600,49.9800,9.5900,50.0100 ;
+  https://api.openstreetmap.org/api/0.6/way/270412615/full.json ;
+  https://www.11880.com/branchenbuch/lohr-am-main/B112967916/digosa-metall-gmbh.html ;
+  https://www.northdata.de/Digosa-Metall-GmbH/Frankfurt-am-Main/Amtsgericht%20Frankfurt%20HRB%20753503 ;
+  https://www.digosa-metall.de/ (live abgerufen 05.11.2026).]

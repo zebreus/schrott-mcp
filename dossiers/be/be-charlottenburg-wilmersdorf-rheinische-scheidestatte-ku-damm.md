@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rheinische Scheidestätte GmbH (Ku'damm), Kurfürstendamm 138, 10711 Berlin Charlottenburg:
+Scheideanstalt für Edelmetall und Dentalgold, betrieben als Filiale. Filialseite und
+Filialübersicht nennen die Anschrift, die Rufnummer 030 33841882 und die Adresse
+info-berlin@rheinische-scheidestaette.de; getrennt davon ist die Filiale Mitte, Friedrichstraße
+172. Das Impressum führt als Rechtsträger die Rheinische Scheidestätte GmbH mit Sitz Bilker
+Straße 37 in Düsseldorf, HRB 67778 AG Düsseldorf. Offen bleibt die Belegbarkeit des Standorts,
+da ein externer Zweitbeleg ausblieb und die Owner-Ausnahme wegen fehlender HR-Kongruenz nicht
+greift; die Rufnummer steht nur in der Timeline. Bei den Öffnungszeiten weicht der
+Betreibertext ab: Mo–Fr 09:30–18:00 Uhr ohne Mittagspause, samstags geschlossen; das war am
+03.10.2026 ein Feiertag. Preise werden nicht aus dem Kurs-Widget übernommen.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier führt eine Betriebsstätte der ALBA Metall Nord GmbH in Berlin-Reinickendorf-Nord,
+Rödernallee 184, 13407 Berlin. Die Betreiber-Standortliste führt dreizehn Standorte, darunter
+Berlin-Spandau und Lichtenberg, aber keines in Reinickendorf; die Kandidaten-Detailpfade
+liefern 404. Gegenprobe: ALBA Berlin führt an dieser PLZ eine Annahmestelle in der
+Flottenstraße 7-9 - eine andere Anschrift. Das ist ein Negativbefund zur Standortführung und
+kein Schließungsurteil. Ein Ankaufpreis ist nicht veröffentlicht; die Sortenseite listet 17
+Sortengruppen ohne Betrag, und weder Wayback noch die Schwesterseiten der Gruppe enthalten je
+eine Preisliste. In OSM ist die Hausnummer 184 unabhängig vom Betrieb erfasst, ein Objekt mit
+Bezug zu ALBA existiert dort nicht. Offen bleibt, ob die Betriebsstätte überhaupt geführt
+wird und ob der Seed-Eintrag eine historische oder eine überholte Adresse wiedergibt.
 
 ## Timeline
 - [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]

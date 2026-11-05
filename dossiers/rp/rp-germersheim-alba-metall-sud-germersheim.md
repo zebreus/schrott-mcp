@@ -99,3 +99,44 @@ Status `geschlossen` ist mit Belegen gesetzt (Betreiber-Aussage, amtliches Regis
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3300,49.2150,8.3900,49.2500 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.rheinpfalz.de/lokal/kreis-germersheim_artikel,-alba-macht-hoffmann-platz-_arid,1438041.html
   (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Die Zeile dokumentiert einen **ehemaligen**
+  Standort (`status` = **geschlossen**), und die **Hausnummer 1** findet sich in OSM **nicht**; die Straße **Im
+  Weidenschlag** ist dort zwar kartiert, aber **ohne jedes Adressobjekt** - ein Punkt wäre geraten. **Was geprüft wurde
+  (live am 05.11.2026):** (a) **Suchfenster (0,01°-Kacheln):** **bbox=8.3400,49.2150,8.4000,49.2650** = 6 Kacheln à 0,01°
+  (8.3550/49.2250/8.3650/49.2350, 8.3550/49.2350/8.3650/49.2450, 8.3650/49.2250/8.3750/49.2350, 8.3650/49.2350/8.3750/
+  49.2450, 8.3750/49.2250/8.3850/49.2350, 8.3750/49.2350/8.3850/49.2450), live abgerufen am 05.11.2026. Beide
+  Straßenobjekte wurden live neu geladen und **bestätigt**: **way/24046397** und **way/274394692** tragen jeweils
+  **ausschließlich** `highway`=service, `name`=**Im Weidenschlag** und `surface`=asphalt - **weder `addr:housenumber`
+  noch `addr:street` noch `addr:postcode` noch `operator=`; die Objekt-BBoxes sind 49.2358907/8.3667913 bis
+  49.2358981/8.3668768 (way/24046397) und 49.2356394/8.3668768 bis 49.2368319/8.3692630 (way/274394692). **Zensus:** **0**
+  Adressobjekte mit `addr:street`=Im Weidenschlag, **0** Objekte mit `addr:housenumber`=**1** im gesamten Fenster
+  (**14.676** Elemente), **36** namentliche Straßen (u. a. Autohof Germersheim, Daimlerstraße, Hafenstraße, Hamburger
+  Straße, Lingenfelder Straße, Siebeinstraße, Wörthstraße); eine Suche über **alle** Tag-Werte nach „**Hoffmann**",
+  „**ALBA**" oder „**Schrott**" liefert **0 Treffer** - der Betrieb ist in OSM **nicht namentlich kartiert**. (b)
+  **Quelle 1 (Betreiber/Register):** die im Dossier dokumentierte **Betreiber-Aussage** - die **RHEINPFALZ** vom
+  02.05.2019 („Alba macht Hoffmann Platz", live abgerufen 03.11.2026,
+  https://www.rheinpfalz.de/lokal/kreis-germersheim_artikel,-alba-macht-hoffmann-platz-_arid,1438041.html) mit
+  ALBA-Metall-Süd-Kommunikationsleiter **Henning Krumrey** zur Räumung des Schrottplatzes im Germersheimer
+  Industriegebiet und der Bestätigung **Patrick Hoffmanns**; der **amtliche Registerabzug** (Fachbetrieberegister GESA +
+  Register der Entsorgungsfachbetriebe, Abrufstand 11.08.2026, im Dossier zitiert) führt für Germersheim/76726 genau zwei
+  Betriebe, darunter **Hoffmann Schrott und Metallhandel e.K., „Im Weidenschlag", ZZFT01300051** - **kein ALBA-Betrieb**;
+  die **Betreiberseite hoffmann-schrott.de** nennt „Im Weidenschlag, 76726 Germersheim" (im Dossier zitiert) und ist der
+  **Nachfolger** mit eigenem Dossier. **Quelle 2 (OSM):** way/24046397 und way/274394692 sowie das 0,01°-Kachelraster
+  (live abgerufen 05.11.2026). **Was fehlt:** ein OSM-Objekt mit `addr:street`=Im Weidenschlag **und**
+  `addr:housenumber`=1 (oder ein benanntes ALBA-Betriebsobjekt) - die **Hausnummer 1** stammt aus dem Seed und ist **nicht**
+  in einer Register- oder Betreiberquelle belegt; der Nachfolger **Hoffmann** hat ein **eigenes** Dossier, und seine
+  Fläche wird **nicht** hier übernommen. `status` bleibt **geschlossen**, `street` bleibt „Im Weidenschlag" **ohne**
+  Hausnummer, `clear_fields: 'email,geo'` bleibt bestehen. **Reichweitenklausel:** Das Fehlen einer Hausnummer in OSM ist
+  **kein** Schließungsbeweis und **keine** Aussage gegen die Existenz des Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/24046397/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/274394692/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3550,49.2250,8.3650,49.2350 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3550,49.2350,8.3650,49.2450 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3650,49.2250,8.3750,49.2350 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3650,49.2350,8.3750,49.2450 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3750,49.2250,8.3850,49.2350 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3750,49.2350,8.3850,49.2450 ;
+  https://schrottregister.pages.dev/ort-germersheim (live abgerufen 05.11.2026).]

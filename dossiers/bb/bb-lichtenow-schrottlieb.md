@@ -24,11 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
-Der Eintrag „Schrottlieb“ in Lichtenow (Chausseestr. 22A) ist weiterhin **ohne jeden Beleg für einen Betrieb**: Die Domain **schrottlieb.de** ist seit dem 02.10.2026 tot und am 28.10.2026 nicht mehr auflösbar; das amtliche Fachbetrieberegister kennt für Lichtenow keinen anerkannten Betrieb; in OpenStreetMap existiert dort kein Objekt „Schrottlieb“ — die Hausnummer 22a ist zwar als reiner Adresspunkt erfasst (node 8058385583, `addr:street=Chausseestraße`, `addr:housenumber=22a`, `addr:postcode=15345`, `addr:suburb=Lichtenow`, Fassung 2 vom 31.01.2025), trägt aber keinen Betriebsbezug. Die Adress-Herkunft ist offen: Das Gemeindemagazin der Gemeinde Rüdersdorf bei Berlin führt Chausseestraße 22a im Jahr 2011 als Anschrift des Sportvereins „Glück Auf“.
-
-**Ankauf:** keine Kurse, kein Sortiment, keine Annahmebedingungen belegt. **Verkauf:** keine Preise belegt. **Gebühren:** keine Tarife belegt. Status bleibt `pruefung` — **keine Schließungsbehauptung** und keine Nichtexistenzbehauptung (Negativbefunde in Register und OSM beweisen nichts).
+Schrottlieb, Chausseestraße 22A, 15345 Lichtenow: Eintrag eines Schrottbetriebs, für den es
+keinen Beleg für einen tatsächlichen Betrieb gibt. Die Domain schrottlieb.de ist seit dem
+02.10.2026 tot und am 28.10.2026 nicht auflösbar; das amtliche Fachbetrieberegister kennt für
+Lichtenow keinen anerkannten Betrieb, und in OpenStreetMap gibt es dort kein Objekt mit
+Betriebsbezug. Die Hausnummer 22a ist zwar als reiner Adressknoten erfasst, ohne Name und
+Schrottplatz-Tag, weshalb kein Punkt gesetzt wird. Die Herkunft der Anschrift ist offen: Das
+Gemeindemagazin von Rüdersdorf bei Berlin führt Chausseestraße 22a im Jahr 2011 als Anschrift
+des Sportvereins Glück Auf. Ankauf, Verkauf und Gebühren sind nicht belegt. Der Status bleibt
+pruefung, da weder eine Schließung noch eine Nichtexistenz behauptet wird; offen bleibt die
+Gewerbeauskunft der Gemeinde zu Name, Gewerbestand und Tätigkeit.
 
 ## Timeline
 

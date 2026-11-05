@@ -84,3 +84,48 @@ Christian Schlereth, Schrott-/Metallhandel in Karlstadt-Gambach, bleibt über Ve
   zurückgezogene Altpunkt weiterhin entzogen werden soll und die Zuordnung zum Seed-Datensatz noch offen ist;
   `status`, `description` und alle übrigen Felder bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.7400,50.0000,9.7500,50.0100 ; https://api.openstreetmap.org/api/0.6/way/800760622/full.json (live abgerufen
   03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Frühlingstr. 43, 97753 Karlstadt (Ortsteil Gambach)**; die alte Vermerkung nennt als Suchfenster **eine einzelne**
+  Kachel **bbox=9.7400,50.0000,9.7500,50.0100** (1 Kachel um den Adresspunkt) und hält fest, die Hausnummer 43 sei
+  zwar objektgenau vorhanden, eine zweite unabhängige Quelle fehle jedoch. **Quelle 1 (OSM, live abgefragt am
+  05.11.2026):** das neue Kachelraster **bbox=9.7300,49.9900,9.7600,50.0200** (**9 Kacheln von je 0,01 Grad** um die
+  Hausnummer herum, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.7300,49.9900,9.7600,50.0200) lieferte
+  **25 037 Elemente** bei **0 Kachel-Fehlern**. Die in OSM mit zusätzlichem „s“ geschriebene **„Frühlingsstraße“**
+  (Dossier-Schreibweise „Frühlingstr.“) ist im Fenster vollständig mit **acht** Straßenobjekten erfasst
+  (way/105893892, way/98928854, way/98928805, way/98928810, way/1104961870, way/1104954163, way/98928884,
+  way/1104956498; Verlauf 50.0006799/9.7428425 bis 50.0015446/9.7533547) und liegt damit **vollständig im Fenster** -
+  das erweiterte Raster bestätigt den Vermerk vom 03.11.2026 und schließt einen **Fensterfehler** aus. Auf der Straße
+  sind **50 Adressobjekte** mit **50 verschiedenen Hausnummern** erfasst (1, 3, 4, 6, 8, 9, 10, 11, 11a, 12, 13, 15, 16,
+  17, 18, 19, 1a, 20, 21, 23, 24, 25, 26, 28, 30, 31, 35, 36, 37, 38, 39, 40, 41, 42, **43**, 44, 45, 46, 47, 48, 51,
+  52, 56, 57, 58, 59, 5a, 60, 61, 62) - die Dossier-Hausnummer **43 existiert in OSM also objektgenau**, nämlich
+  **way/800760622** mit `addr:housenumber`=**43**, `addr:street`=Frühlingsstraße, `addr:postcode`=**97753**,
+  `addr:city`=Karlstadt, `addr:suburb`=**Gambach**, `building`=house, `addr:country`=DE (4 eindeutige Knoten, Mittel
+  50.0007941/9.7438910, Objekt-BBox 50.0007436/9.7438257 bis 50.0008446/9.7439563); die **Ortsteilangabe „Gambach“**
+  deckt sich mit der Dossier-Ortsteilangabe „Karlstadt-Gambach“. Das Objekt trägt **weder `name=` noch `operator=`**;
+  die Suche über `name`, `operator`, `brand`, `official_name` und `old_name` nach „schlereth“, „schrott“ und
+  „metallhandel“ liefert **0 Treffer** - der Betrieb selbst ist in OSM nicht kartiert. **Quelle 2 (Beleglage, live am
+  05.11.2026 nachgelesen):** die Verzeichnissuche der Gelben Seiten führt „Schrott und Metallhandel Christian
+  Schlereth, Schrott, **Frühlingstr. 43, 97753 Karlstadt (Gambach)**, 09353 50 90 50“ und verweist als „Website“ auf
+  **http://schrotthandel-chschlereth.de** - diese Domain ist am 05.11.2026 **nicht mehr auflösbar** (DNS-Fehler
+  „Name or service not known“ für schrotthandel-chschlereth.de und `www.schrotthandel-chschlereth.de`), es gibt damit
+  **keine** lesbare Betreiber-Website. Die ähnlich benannte, live erreichbare Domain **schrotthandel-schlereth.de**
+  gehört nach ihrem Impressum zu **Ewald Schlereth ES-Schrott-Containerdienst, Jahnstr. 28, 85134 Stammham** - ein
+  **anderer** Betrieb mit anderer Anschrift und anderer Person, also **kein** Beleg für diesen Seed. Die Spiegelung der
+  amtlichen Register (schrottregister.pages.dev, Auszug 11.08.2026) enthält für **Karlstadt/Gambach** **keinen**
+  Eintrag; ein Register- oder amtlicher Efb-Eintrag für „Schrott und Metallhandel Christian Schlereth“ liegt damit
+  ebenfalls nicht vor. Es bleibt bei **einem** Verzeichnis-Lead; die für diese Welle geforderte zweite unabhängige
+  Quelle (Betreiber- oder Registerbeleg für eben diese Anschrift) fehlt damit weiterhin. Es wird **keine** Koordinate
+  erfunden und kein Ersatzpunkt gesetzt, obwohl die Adressgeometrie in OSM vorliegt; die Entscheidung über den
+  Seed-Punkt bleibt beim Owner. Die bestehende `clear_fields: 'geo'`-Anweisung **bleibt unverändert**, weil der
+  zurückgezogene Altpunkt weiterhin entzogen werden soll und die Zuordnung zum Seed-Datensatz noch offen ist;
+  `status`, `description` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer
+  Betreiber- oder Registerquelle ist **kein** Existenz- oder Schließungsbeweis; die gefundene Adressgeometrie belegt
+  weder eine Annahme noch eine Auflösung der Identitätsfrage. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=9.7300,49.9900,9.7600,50.0200 ;
+  https://api.openstreetmap.org/api/0.6/way/800760622/full.json ;
+  https://www.gelbeseiten.de/suche/schrott%20und%20metallhandel/karlstadt ;
+  https://schrotthandel-schlereth.de/impressum/ ; https://schrottregister.pages.dev/sitemap.xml
+  (live abgerufen 05.11.2026).]

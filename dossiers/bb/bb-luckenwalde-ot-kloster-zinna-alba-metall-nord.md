@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, Betriebsstätte Luckenwalde OT Kloster Zinna, Dämmchenweg 16, 14943
+Luckenwalde: Metallrecyclingbetrieb der ALBA-Gruppe, der nach der Standortseite alle gängigen
+Schrott- und Metallsorten entgegennimmt und aufbereitet. Die Betreiberidentität ist über das
+Register belegt (ALBA Metall Nord GmbH, Amtsgericht Rostock HRB 181); Standortseite und
+Impressum der Gruppe nennen die Anschrift, die Rufnummer +49 3371 689 84 50, die Adresse
+luckenwalde.metall@alba.info und die Zeiten Mo–Fr 7:00–12:00 und 12:30–16:00 Uhr. Ein
+Ankaufpreis wird nicht veröffentlicht, auch nicht in den Webarchiv-Snapshots; der
+ALBA-Shop-Containerpreis von 119 Euro ist eine Gebühr und kein Ankaufpreis. Offen bleiben die
+Preislage und die Frage, welcher der früheren Hausnummernstände gilt; die Angabe Nummer 14 und
+die Ortsangabe Kloster Zinna wurden auf Betreiberangabe hin korrigiert.
 
 ## Timeline
 

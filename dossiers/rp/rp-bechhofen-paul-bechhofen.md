@@ -91,3 +91,47 @@ Möglicher Verzeichnislead „Schrotthandel Paul“ in Bechhofen/Pfalz, aber noc
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3800,49.3300,7.4300,49.3750 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Bechhofen.html (live abgerufen 03.11.2026) ;
   Recherche-Vermerke vom 25.10. und 27.10.2026 im Dossier.]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die zweite unabhängige Quelle fehlt.** Der
+  OSM-Befund der Vorphase ist **live bestätigt** und der Adresspunkt **eindeutig**, aber die Dossier-Adresse stammt
+  **ausschließlich** aus einem **Cylex-Verzeichnislead**; nach der README-Quellenhierarchie sind Verzeichnisse
+  ausdrücklich **Leads, nie Evidenz** - ein Verzeichnis plus OSM bleibt ein **Einzelbeleg**. **Was geprüft wurde (live
+  am 05.11.2026):** (a) **Suchfenster (0,01°-Kacheln):** **bbox=7.4000,49.3350,7.4200,49.3550** = 4 Kacheln à 0,01°
+  (7.4000/49.3350/7.4100/49.3450, 7.4000/49.3450/7.4100/49.3550, 7.4100/49.3350/7.4200/49.3450,
+  7.4100/49.3450/7.4200/49.3550), live abgerufen am 05.11.2026; **Zensus:** **13** Adressobjekte mit
+  `addr:street`=Altestraße (Nummern **2, 3, 4, 4a, 5, 6, 7, 8, 9, 10, 12, 14, 20**) und **32** namentliche Straßen im
+  Fenster; eine Suche über **alle** Tag-Werte nach „**Paul**", „**Schrott**" oder „**Recycling**" liefert **3 Treffer**,
+  die sämtlich **kommunale Altglas-/Alttextilcontainer** sind - **kein** Objekt benennt den Betrieb. (b) **Objekt (live
+  geladen):** **way/402134595** mit `addr:housenumber`=**4**, `addr:street`=**Altestraße**, `addr:city`=**Bechhofen**,
+  `addr:postcode`=**66894**, `addr:country`=DE, `building`=yes (live am 05.11.2026 über
+  https://api.openstreetmap.org/api/0.6/way/402134595/full.json); 9 Knotenreferenzen, davon **8 eindeutige**;
+  Objekt-BBox 49.3483408/7.4101116 bis 49.3485257/7.4104715; Mittelwert der eindeutigen Knoten 49.3484408/7.4102949,
+  liegt **innerhalb** der Objekt-BBox; die **Objekt-BBox liegt vollständig im Suchfenster** (Prüfung ✓). Das Objekt trägt
+  **weder `name=` noch `operator=`**. (c) **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der
+  Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) führt **keinen** Betrieb „Schrotthandel Paul" - die beiden dort unter „Bechhofen"
+  geführten Betriebe (Eckhardt Autorecycling, Inh. Eduard, und Tremel Entsorgungs- und Transport GmbH) tragen die
+  Postleitzahl **91572** und liegen im **bayerischen** Bechhofen (VG Zweibrücken-Land) - **nicht** im pfälzischen
+  Bechhofen (66894, VG Nordpfälzer Land). Der Namensvetter bleibt damit bestehen. (d) **Der bislang nur als „nicht
+  erreichbar" vermerkte Auftritt ist jetzt identifiziert - als Namensvetter:** Das **archivierte Impressum** der Domain
+  **schrott-paul.de** (Internet Archive, Snapshot 22.06.2016, live abgerufen 05.11.2026,
+  http://web.archive.org/web/20160622141352/http://schrott-paul.de/impressum.html) nennt „**Helmuth Paul, Boker Str. 44,
+  33129 Delbrück**", Steuernummer 339 5211 1913, E-Mail helmuth@schrott-paul.de; die **archivierte Kontaktseite**
+  (Snapshot 22.06.2016, http://web.archive.org/web/20160622142918/http://schrott-paul.de/kontakt.html) nennt zusätzlich
+  Telefon 05250/936021 und Mobil 0172/9772455. Die Domain gehört damit einem Betrieb in **Delbrück (NRW)** und **nicht**
+  zum Bechhofener Lead (dessen Rufnummer laut Cylex ist 0179 6320816) - die Domain ist **kein** Betreiberauftritt dieser
+  Zeile. **Was fehlt:** eine **Betreiber- oder Registerquelle**, die „Schrotthandel Paul" in Bechhofen (Pfalz) und die
+  Anschrift bestätigt, sowie die Bestätigung, dass an der Altestraße 4 überhaupt eine Schrottannahme stattfindet.
+  `status` bleibt **pruefung**, `street`/`postcode`/`phone` bleiben unverändert bzw. leer, `clear_fields: 'geo'` bleibt
+  bestehen. **Reichweitenklausel:** Das Fehlen eines Register- oder Betreiberbelegs ist **kein** Existenz- oder
+  Schließungsbeweis. Quelle(n): https://api.openstreetmap.org/api/0.6/way/402134595/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4000,49.3350,7.4100,49.3450 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4000,49.3450,7.4100,49.3550 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4100,49.3350,7.4200,49.3450 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4100,49.3450,7.4200,49.3550 ;
+  http://web.archive.org/web/20160622141352/http://schrott-paul.de/impressum.html ;
+  http://web.archive.org/web/20160622142918/http://schrott-paul.de/kontakt.html ;
+  https://schrottregister.pages.dev/ort-bechhofen ; Recherche-Vermerke vom 25.10. und 27.10.2026 im Dossier (live
+  abgerufen 05.11.2026).]

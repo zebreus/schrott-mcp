@@ -66,3 +66,38 @@ Der vorhandene Dossier-Eintrag `by-moosburg-huber-recycling.md` betrifft die Hub
   oder 123) und kein Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthält **keine**
   `clear_fields`-Anweisung; `status`, `certifications`, `street`, `postcode` und alle übrigen Felder bleiben unverändert.
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4620,47.8360,11.5120,47.8860 ; https://api.openstreetmap.org/api/0.6/way/128503530/full.json ; https://api.openstreetmap.org/api/0.6/way/501380014/full.json ; https://autoverwertung-huber.de/impressum/ ; https://schrottregister.pages.dev/betrieb-autoverwertung-peter-huber-inhaber-peter-huber-geretsried (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Breslauer Weg 119, 82538 Geretsried**; die alte Vermerkung nennt als Suchfenster das Raster
+  **11.4620/47.8360 bis 11.5120/47.8860** (25 Kacheln) und behauptet, die Hausnummer 119 fehle in OSM. **Quelle 1 (OSM, live
+  abgefragt am 05.11.2026):** das neue Kachelraster **bbox=11.4500,47.8300,11.5100,47.8900** (**36 Kacheln von je 0,01
+  Grad** um den Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4500,47.8300,11.5100,47.8900)
+  lieferte **152 527 Elemente** bei **0 Kachel-Fehlern**. Die **„Breslauer Weg“** ist im Fenster **vollständig** mit zwei
+  Straßenobjekten erfasst (way/8069724, `highway`=residential, Verlauf 47.8562797/11.4842294 bis 47.8594321/11.4916357;
+  way/8069626, Verlauf 47.8585761/11.4916357 bis 47.8592327/11.4930413); auf ihr sind **21 Adressobjekte** mit **21
+  verschiedenen Hausnummern** erfasst (2, 4, 6-8, 9, 10-12, 11, 14-16, 20, 22, 24, 26, 27, 32, 36, 36a, 38, 94, 103, 113,
+  117, 123) - die Dossier-Hausnummer **119 existiert in OSM nicht**. Sie fehlt auch in dem von **way/128503530**
+  (hn=117, `building`=yes, Mittel 47.8580029/11.4914093) und **way/501380014** (hn=123, `name`=**CHT Geretsried**,
+  `office`=company, Mittel 47.8585864/11.4924886) eingeschlossenen und vollständig gescannten Straßenabschnitt; weiter
+  nördlich liegen **way/189042651** (hn=113, `name`=EDEKA Heininger) und **node/9955217554** (hn=103, „Fitness Forum &
+  Squash“). Die Suche über `name`, `operator`, `brand`, `official_name`, `alt_name`, `short_name`, `legal_name` und
+  `old_name` nach „autoverwertung“ und „peter huber“ liefert **0 Treffer** - der Betrieb selbst ist in OSM nicht
+  kartiert. **Fensterprüfung:** das neue Raster ist gegenüber dem alten um einen Kachelstreifen in alle Richtungen
+  erweitert, die Straße liegt vollständig darin und das Ergebnis ist **unverändert** - ein **Fensterfehler** der letzten
+  Welle liegt hier **nicht** vor. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am 05.11.2026
+  nachgelesen, HTTP 200):** das Betreiber-Impressum nennt **„Postanschrift Breslauer Weg 119, 82538 Geretsried“**,
+  verantwortlich **Peter Huber** (USt-IdNr. DE182230887), und die Spiegelung der amtlichen Register
+  (schrottregister.pages.dev, Auszug 11.08.2026) führt denselben Betrieb als **Autoverwertung Peter Huber Inhaber
+  Peter Huber** mit derselben Anschrift und der Anerkennung nach AltfahrzeugV **Demontagebetrieb**, Zertifikatsnummer
+  **ZAHS01800066**. Die Adresse ist damit betreiberseitig und registerseitig belegt, nur die **Geometrie der Hausnummer
+  119 fehlt in OSM**; es wird **keine** Koordinate erfunden, kein Nachbarobjekt (117 oder 123) und kein
+  Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthält **keine** `clear_fields`-Anweisung; `status`
+  (aktiv), `certifications`, `street`, `postcode` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:**
+  das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4500,47.8300,11.5100,47.8900 ;
+  https://api.openstreetmap.org/api/0.6/way/128503530/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/501380014/full.json ; https://autoverwertung-huber.de/impressum/ ;
+  https://schrottregister.pages.dev/betrieb-autoverwertung-peter-huber-inhaber-peter-huber-geretsried
+  (live abgerufen 05.11.2026).]

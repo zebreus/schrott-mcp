@@ -74,3 +74,35 @@ Diese Zeile ist **kein Händler**. Der Frontmatter-Name ist eine Research-Arbeit
   Betrieb, zu dem eine Koordinate gehören könnte. Quelle(n): Recherche-Vermerke vom 03.10., 04.10. und 29.10.2026 im
   Dossier ; https://api.openstreetmap.org/api/0.6/map.json (Kachelraster Kaiserslautern/Bad Kreuznach/Börrstadt/Mayen/
   Koblenz/Neuwied, live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die Zeile nach wie vor keinen Betrieb und
+  keine Adresse trägt.** Der Recheck bestätigt den Vermerk vom 03.11.2026 und schärft ihn um eine belastbare
+  Fensterangabe: Die Zeile ist **keine Händlerzeile**, sondern eine **Recherche-Arbeitsnotiz**; der Frontmatter-Name ist
+  der Quellenstring „Quellen: lokaleschrottplatz 181 Plätze voll, schrottradar 21 voll, wlw voll, NorthData,
+  DDG/Bing-Limits. Gaps: Kleinanzeigen-JS, Facebook, OSM", und `city` trägt **„11880"** - die Kennung des
+  **Verzeichnisportals 11880**, **keine** belegte Ortsangabe. **Was geprüft wurde (live am 05.11.2026):** (a) Es
+  existiert **keine** Straße und **keine** Hausnummer, die sich dieser Zeile zuordnen ließe - `street` und `postcode`
+  sind leer; ein **Hausnummer-Fenster** ist damit nicht definierbar, und die Zahlen „181 Plätze voll" und „21 voll"
+  sind laut Recherche vom 29.10.2026 **Suchtreffer-Zählstände** von Portalseiten und **keine** Adressen. (b) Weil die
+  Zeile keinen Ort nennt, wurde das Suchraster der Vorphase - der Raum **Kaiserslautern** (dem einzigen Ort, den die
+  Quellenliste der Recherchevermerke nennt) - erneut abgetastet: **Kachelraster über bbox=7.7600,49.4300,7.8200,49.4700**
+  (6 Kacheln à 0,02°, live abgerufen 05.11.2026) **plus 0,01°-Feinraster über bbox=7.8100,49.4500,7.8200,49.4700**
+  (2 Kacheln à 0,01°, live abgerufen 05.11.2026); **Zensus:** **8.812** Adressobjekte und **424** namentliche Straßen in
+  diesen 8 Kacheln, darunter **3** Adressobjekte auf „Eselsfürther Bahnhof" (Nummern 1, 2, 4) - eine Suche über
+  **alle** Tag-Werte nach „**11880**", „**lokaleschrottplatz**", „**schrottradar**" oder „**wlw**" liefert
+  **0 Objekte**; ein Verzeichnis-Bezug dieser Art ist in OSM **nicht** kartiert. (c) **Registerabgleich (neu):** Der
+  Abzug des **Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe**
+  (Stand 11.08.2026, über den Spiegel schrottregister.pages.dev) kennt **keinen** Eintrag mit einer solchen Bezeichnung;
+  für **67657 Kaiserslautern** verzeichnet er nur die kommunale „ZAK - Zentrale Abfallwirtschaft Kaiserslautern".
+  **Was fehlt:** die **Zuordnung einer realen Adresse und eines realen Betriebs** zu dieser Quellenzeile; „11880" muss
+  **nicht** als Postleitzahl interpretiert werden. `status` bleibt **pruefung**, `city` bleibt unverändert „11880", alle
+  übrigen Felder bleiben leer; `clear_fields` wird **nicht** angetastet (in dieser Zeile ist kein `geo`-Token gesetzt).
+  **Reichweitenklausel:** Das Fehlen einer Adresse, einer OSM-Kartierung oder eines Registereintrags ist **kein**
+  Existenz- oder Schließungsbeweis - es gibt schlicht **keinen** Betrieb, zu dem eine Koordinate gehören könnte, und
+  die Zeile ist **kein** Negativbefund zu einem realen Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7600,49.4300,7.8200,49.4700 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.8100,49.4500,7.8200,49.4700 ;
+  https://schrottregister.pages.dev/ort-kaiserslautern ; Recherche-Vermerke vom 03.10., 04.10. und 29.10.2026 im
+  Dossier (live abgerufen 05.11.2026).]

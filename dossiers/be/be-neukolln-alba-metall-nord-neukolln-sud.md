@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Das Dossier führt eine Filiale der ALBA Metall Nord GmbH in Berlin-Neukölln-Süd, Ziegrastr.
+2-46, 12057 Berlin, mit Fe- und NE-Annahme für Gewerbe. Die Betreiber-Standortliste
+metall.alba.info führt dreizehn Standorte, darunter Berlin-Spandau und Lichtenberg, aber
+keinen in Neukölln; der Detailpfad zur Betriebsstätte Neukölln liefert 404 - ein
+Negativbefund zur Standortführung, kein Schließungsurteil. Ein Ankaufpreis ist nicht
+veröffentlicht: die Sortenseite listet 17 Sortengruppen ohne jeden Betrag, die
+Annahmebedingungen belegen nur Preisart und Annahmefristen, und weder Wayback noch die
+Schwesterseiten enthalten je eine Preisliste. In OSM existiert die Hausnummer "2-46" nicht,
+und kein Objekt nennt ALBA oder Metall Nord. Offen bleibt, ob die Filiale besteht und ob die
+Seed-These "Ex-Interseroh = ALBA, kein Doppel" trägt.
 
 ## Timeline
 - [Owner-Korrektur 28.10.2026: **Der Platzhalter im Telefonfeld wird zurückgenommen.** Die Zeile trug in der Produktion „—“ als Telefonnummer - das ist kein Rufnummernwert, sondern eine Import-Platzhalterangabe („nicht ermittelbar“). Das Dossier führt **keine** belegte Telefonnummer; `clear_fields: 'phone'` nimmt den Platzhalter beim nächsten regulären Seed zurück, das Feld bleibt danach **leer** (unbekannt) und wird nicht mit einer erfundenen Nummer gefüllt. Weitere Kontaktangaben der Zeile bleiben unverändert. Quellen: read-only `public.db` (28.10.2026) ; `docs/trader-seed.md` (Semantik der `clear_fields`-Direktive).]

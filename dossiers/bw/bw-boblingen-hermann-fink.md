@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Hermann Fink GmbH & Co. KG ist ein Eisen- und Metallgroßhandel am Hanns-Klemm-Str. 11,
+71034 Böblingen. Das Impressum der Betreiber-Seite weist die Gesellschaft mit HRA 240854 und
+HRB 240246 (AG Stuttgart), dem Geschäftsführer Hagen Fink, der Nummer 07031 3049412 und der
+Mail anfrage@eisenfink.com aus; ein Register-Spiegel bestätigt die Registernummern. Im
+amtlichen Fachbetrieberegister führt die Namenssuche in beiden Routen null Treffer für
+"Hermann Fink" und die Firmierung, und an der Dossier-Adresse stehen mit der Karle Recycling
+GmbH sowie der PaJoRo GmbH in der Nachbarhausnummer 14 zwei andere Rechtsträger, die nicht
+übernommen wurden. Ein Zertifikat ist damit nicht ausgewiesen; Zertifikatsnummer,
+Vorgangsnummer und Anlagentätigkeit fehlen vollständig. Offen bleibt die Schrott-Zuordnung,
+die im Seed allein auf einem Registervermerk beruht, sowie jeder Nachweis von Preisen.
 
 ## Timeline
 

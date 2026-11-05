@@ -91,3 +91,48 @@ Konkreter, aber unbestätigter Verzeichnislead zu Peter beziehungsweise Peter un
   03.11.2026) ; https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Landstuhl.html ;
   https://www.dastelefonbuch.de/Details/Landstuhl/Schrott-Firma-Peter-H%C3%B6schele-Landstuhl-Kolpingstr.html (live
   abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate, weil die zweite unabhängige Quelle fehlt.** Der
+  OSM-Befund der Vorphase ist **live bestätigt** und der Adresspunkt **eindeutig**, aber die Dossier-Adresse stammt
+  ausschließlich aus **Verzeichnis-Leads**; nach der README-Quellenhierarchie sind Verzeichnisse ausdrücklich **Leads,
+  keine Evidenz** - ein Verzeichnis plus OSM bleibt ein **Einzelbeleg**. **Was geprüft wurde (live am 05.11.2026):**
+  (a) **Suchfenster (0,02°-Kachel):** **bbox=7.5600,49.4100,7.5800,49.4300** = 1 Kachel à 0,02°, live abgerufen am
+  05.11.2026; **Zensus:** **1.053** Adressobjekte und **61** namentliche Straßen im Fenster. Die Straße **Kolpingstraße**
+  in Landstuhl trägt **35** verschiedene Hausnummern (**3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+  21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 2**) - die **Hausnummer 37 ist genau einmal** belegt
+  und damit eindeutig; eine Suche über **alle** Tag-Werte nach „**höschele**" bzw. „**schrott**" liefert **0 Treffer** -
+  der Betrieb ist in OSM **nicht namentlich kartiert**; kein Objekt der Kolpingstraße trägt `name=` oder `operator=`.
+  (b) **Objekt (live geladen):** **way/881351780** mit `addr:housenumber`=**37**, `addr:street`=**Kolpingstraße**,
+  `addr:city`=**Landstuhl**, `addr:postcode`=**66849**, `addr:country`=DE, `building`=yes (live am 05.11.2026 über
+  https://api.openstreetmap.org/api/0.6/way/881351780/full.json); 8 Knotenreferenzen, davon **7 eindeutige**;
+  Objekt-BBox 49.4154349/7.5775872 bis 49.4155791/7.5778138; Mittelwert der eindeutigen Knoten 49.4155098/7.5776657,
+  liegt **innerhalb** der Objekt-BBox. (c) **Quelle 1 (Verzeichnis):** Das **Telefonbuch** (live abgerufen 03.11.2026,
+  HTTP 200, https://www.dastelefonbuch.de/Details/Landstuhl/Schrott-Firma-Peter-H%C3%B6schele-Landstuhl-Kolpingstr.html)
+  führt „Firma Peter Höschele" mit **Kolpingstr. 37, 66849 Landstuhl** und Telefon **06371 94 68 78**; die
+  **Schrotthändler-Liste von Das Örtliche** (live abgerufen 03.11.2026, HTTP 200,
+  https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Landstuhl.html) führt „Firma Peter Höschele Schrott" mit
+  **Kolpingstr. 37, 66849 Landstuhl**, Tel. 06371 94 68 78, und **separat** „Höschele Peter Schrotthändler" mit derselben
+  Straße und der Mobilnummer 0172 6 65 29 96 - das sind **zwei Einträge desselben Verzeichnisanbieters**
+  (dastelefonbuch.de ist das Telefonbuch von Das Örtliche) und damit **keine** unabhängigen Quellen; der
+  **Schrottplatz-Portal-Eintrag** (live abgerufen 05.11.2026,
+  https://www.schrottplatz-info.de/schrottplatz/Landstuhl/-Hoeschele-Peter-u-Ute-Schrotthandel) nennt denselben
+  Betrieb unter der Namensvariante „**Schrott Höschele Peter u. Ute**" mit derselben Anschrift und derselben Nummer - ein
+  **Verzeichnis** und eine **Namensvariante**, keine neue Quelle. Ein **Betreiberauftritt, ein Impressum oder ein
+  Registereintrag** zu Peter bzw. Ute Höschele existiert **nicht** (die Höschele-Betriebe in Mackenbach/Rodenbach sind
+  eigenständige Orts-/Namenssignale und **keine** belegte Rechtsnachfolge). **Registerabgleich (neu):** Der Abzug des
+  **Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand
+  11.08.2026, über den Spiegel schrottregister.pages.dev) kennt für **66849 Landstuhl** **keinen** Betrieb; eine Suche im
+  vollständigen Registerdatensatz (4.507 Einträge) nach „**Höschele**" liefert **0** Treffer. **Quelle 2 (OSM):**
+  way/881351780 und die übrigen Adressobjekte der Kolpingstraße (live abgerufen 05.11.2026 über das Kachelraster
+  bbox=7.5600,49.4100,7.5800,49.4300). **Was fehlt:** eine **Betreiber- oder Registerquelle**, die die Anschrift und den
+  Betrieb bestätigt - ohne sie wäre der Punkt ein **Verzeichnis-Einzelbeleg**. `status` bleibt **pruefung**,
+  `street`/`postcode`/`phone` bleiben unverändert, `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das
+  Fehlen eines Betreiber- oder Registerbelegs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/881351780/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5600,49.4100,7.5800,49.4300 ;
+  https://www.dastelefonbuch.de/Details/Landstuhl/Schrott-Firma-Peter-H%C3%B6schele-Landstuhl-Kolpingstr.html ;
+  https://www.dasoertliche.de/Themen/Schrotth%C3%A4ndler/Landstuhl.html ;
+  https://www.schrottplatz-info.de/schrottplatz/Landstuhl/-Hoeschele-Peter-u-Ute-Schrotthandel ;
+  https://schrottregister.pages.dev/assets/institute.json (live abgerufen 05.11.2026).]

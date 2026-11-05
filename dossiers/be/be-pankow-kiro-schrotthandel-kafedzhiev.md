@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Kiro Schrotthandel (Kafedzhiev) ist ein Schrotthändler an der Blankenburger Straße 18-20,
+13089 Berlin-Pankow, der neben Eisen- und Buntmetallen auch Kabelschrott annimmt. Die
+Belegkette besteht aus dem Betreiberauftritt schrotthandel-berlin.com mit Start-, Kontakt-
+und Impressumsseite, die Anschrift, die Nummer 030 92403153, die Mail
+info@schrotthandel-berlin.com und die Zeiten Mo-Fr 8:00-17:00, Sa 8:30-14:00 decken. Eine
+öffentliche Ankaufspreisliste wurde am 01.11.2026 live verifiziert, sie nennt Beträge je
+Kilogramm mit einer Mengenstaffel ab 750 kg; datierbar ist der Stand über die Preisdatenbank
+des Betreibers, deren letzte Aktualisierung auf den 30.10.2026 fällt. Offen bleiben mehrere
+Preisfragen: die Angaben sind unverbindliche Richtwerte ohne Gültigkeitsdatum, und Startseite
+und Sortenseiten liefern wegen unterschiedlicher Cache-Stände abweichende Werte.
 
 ## Timeline
 

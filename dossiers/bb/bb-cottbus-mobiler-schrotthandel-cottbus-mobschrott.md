@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mobiler Schrotthandel Cottbus (mobschrott.de), Auraser Dorfstraße 2, 03116 Drebkau: mobiler
+Schrotthändler, der Schrott bei Privaten und Gewerbetreibenden vor Ort abholt und nach
+Terminabsprache sofort bezahlt; eine Selbstanlieferung ist nicht belegt. Das Impressum der
+Seite nennt den Sitz Drebkau, das Servicegebiet Cottbus und die Festnetznummer 035602 22909,
+die auch im Dossier steht. Eine Mobilnummer ist auf der Betreiberseite nicht verifizierbar und
+deshalb nicht übernommen, die E-Mail-Adresse stammt allein von derselben Seite. Offen bleiben
+die zweite unabhängige Quelle, die verbindlichen Öffnungszeiten und jede Preisangabe; das
+Dossier führt weder einen Ankaufspreis noch eine Gebühr. Sitz und Tätigkeit sind über das
+Impressum belegt, während die Standortstadt Cottbus im Slug nur das Servicegebiet beschreibt.
 
 ## Timeline
 

@@ -87,3 +87,30 @@ Die Betreiberwebsite und NorthData identifizieren AK Containerdienst GmbH, HRB 5
   **Kontrolle und Abgrenzung:** Wegen der fehlenden Straßenadresse wurde ersatzweise der Ortsmittelpunkt 63755 Alzenau verwendet; die Standortsuche mit validiertem `adr=`-Parameter liefert im 3-km-Radius 17 und im 10-km-Radius 45 Treffer in derselben Umgebung — die Abfragetechnik funktioniert also. Nächster Eintrag: `CUP Recycling GmbH CUP Recycling GmbH Aufbereitungsanlage für biogenen Abfälle, Altholz, Bauschutt`, Schäferheide ., 63755 Alzenau (`ZZHT00400903 / 1` bis `/ 6`), 0,7 km — **anderer Rechtsträger**, nicht übernommen. Beide Namenssuchen (`n=„AK Containerdienst“`, `n=„AK Container“`) ergeben je 10 Treffer, sämtlich **Namensvetter in anderen Orten**: `Karl Jakoby Containerdienst und Recycling`, Michelinstraße 6-8, 66424 Homburg (`ZZHT00900039 / 1` bis `/ 4`); `Gerhard Sczakiel Containerdienst und Autoverwertung Inh. Thorsten Sczakiel`, Steinwedeler Straße 18, 31303 Burgdorf (`ZZPT00400479 / 1`); `Irmak Containerdienst GmbH`, Buchenstraße 51, 25421 Pinneberg (`ZZAE00100085 / 1`); `Haak-Containerdienst GmbH & Co.KG`, Gewerbepark 16-18, 26676 Barßel-Lohe (`ZZFT00300651 / 2` bis `/ 4`) und Oldenburger Straße 4, 26676 Barßel-Elisabethenfehn (`ZZFT00300651 / 1`) — **keine Übereinstimmung mit dem Dossiernamen**. Die Route „Altfahrzeugverwertung“ liefert in beiden Radien 0 Treffer, die Namenssuche 1 Treffer (`Sczakiel, Gerhard Inh. Thorsten Sczakiel Containerdienst, Autoverwertung`, Steinwedelerstr. 18, 31303 Burgdorf, `ZANS00100001 / 1`) — Fremdbetrieb.
   **Reichweite der Registerabfrage (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App; Filter „Art des Betriebs = Egal“ durchgehend is=1&e=1; Namenssuche dst=10; Standortsuche mit PLZ-validiertem adr=Parameter, Radien 3 km und 10 km; Ergebnisgrid vollständig durchscrollt):** Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Alzenau, Deutschland“ dst=10 (is=1, e=1) → 0 Treffer; Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Alzenau, Deutschland“ dst=3 (is=1, e=1) → 0 Treffer; Route „Altfahrzeugverwertung“ Namenssuche n=„AK Containerdienst“ (dst=10, is=1, e=1) → 1 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Alzenau, Deutschland“ dst=10 (is=1, e=1) → 45 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Alzenau, Deutschland“ dst=3 (is=1, e=1) → 17 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„AK Containerdienst“ (dst=10, is=1, e=1) → 10 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„AK Container“ (dst=10, is=1, e=1) → 10 Treffer.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=…&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AK%20Containerdienst (Abruf 04.11.2026). Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass ein Betrieb keine Anerkennung besitzt]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Das Dossier ist ein
+  **Servicegebiets-Lead**: Es trägt **keine** Straße und **keine** Hausnummer, und der Dossier-Überblick belegt, dass Sitz
+  und Metall-Anlieferplatz in **Rödermark (Hessen)** liegen, nicht in Bayern. **Quelle 1 (OSM, live abgefragt am
+  05.11.2026):** das Kachelraster **bbox=9.1000,49.9400,9.2000,50.0400** (**100 Kacheln von je 0,01 Grad** über
+  Aschaffenburg und Alzenau, https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1000,49.9400,9.2000,50.0400)
+  lieferte **417 729 Elemente** bei **0 Kachel-Fehlern**; die Suche über `name`, `operator`, `brand`, `official_name`,
+  `alt_name`, `short_name`, `legal_name` und `old_name` nach „containerdienst“ und „AK Containerdienst“ ergibt **0
+  Treffer** - im erweiterten Raster existiert **kein** Objekt mit Betriebsbezug zur AK Containerdienst GmbH und **kein**
+  Adressobjekt, das einem Aschaffenburger Betriebssitz entspräche. Das alte Raster vom 03.11.2026
+  (9.1280/49.9570 bis 9.1780/50.0070, 25 Kacheln) war bereits korrekt platziert; das neue Fenster ist um einen
+  Kachelstreifen in alle Richtungen erweitert und liefert **dasselbe** Ergebnis - ein **Fensterfehler** der letzten Welle
+  liegt hier **nicht** vor. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen,
+  HTTP 200):** Impressum und Kontaktseite der Betreiberseite nennen unverändert die **AK Containerdienst GmbH**,
+  Geschäftsführerin Amalija Krämer, **Carl-Zeiss-Straße 37, 63322 Rödermark**, USt-IdNr. DE344570448, Registergericht
+  Amtsgericht Offenbach am Main, Registernummer **HRB 53757**; Aschaffenburg ist auf der Homepage ausdrücklich nur als
+  **Lieferort im Rhein-Main-Servicegebiet** geführt, Alzenau wird nicht genannt. Ein Punkt in Aschaffenburg wäre damit ein
+  **erfundener** Standort; die in Hessen belegte Adresse wird **nicht** auf diesen BY-Datensatz übertragen. Die bestehende
+  `clear_fields: geo`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt (das Jugendkulturzentrum am
+  Kirchhofweg) weiterhin entzogen werden soll und kein belegter bayerischer Ersatz existiert; `status`, `description` und
+  alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen eines Adress- oder Betriebsobjekts in OSM
+  ist **kein** Existenz- oder Schließungsbeweis; ein bayerischer Einsatzort der AK Containerdienst bleibt davon
+  unberührt. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1000,49.9400,9.2000,50.0400 ;
+  https://ak-containerdienst.de/impressum/ ; https://ak-containerdienst.de/kontakt/ ;
+  https://www.northdata.de/AK+Containerdienst+GmbH+R%C3%B6dermark (live abgerufen 05.11.2026).]

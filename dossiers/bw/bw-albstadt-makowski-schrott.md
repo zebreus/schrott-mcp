@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Makowski GmbH ist ein Entsorgungsfachbetrieb an der Heersbergstraße 6, 72459 Albstadt,
+mit Containerdienst, Kranservice, Abholung von Stahlschrott, Metallen, E-Schrott und
+Wertstoffen sowie einer Anlagentechnik für Sammeln und Befördern mit Containerdienst.
+Betreiber-Website und Impressum bestätigen Anschrift, Nummer 07431 9485614 und die Mail
+info@makowskigmbh.de; das Impressum weist kein Handelsregister aus, sodass die
+Verzeichniseinträge keine unabhängige Bestätigung liefern. Der Treffer im amtlichen
+Fachbetrieberegister stützt die Identität: Vorgang ZZHT00400168 mit der Tätigkeit Sammeln und
+Befördern, das Zertifikat der PÜG trägt die Nummer K12188-20261009-Efb-de, das Prüfungsdatum
+01.10.2026 und die Gültigkeit bis zum 31.03.2028. Offen bleibt die Anlieferung: Die Homepage
+erklärt sie ausgeschlossen, nennt aber zugleich eine Abholung ab 1,5 Tonnen.
 
 ## Timeline
 

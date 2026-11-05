@@ -81,3 +81,40 @@ Echte Betreiberwebsite gefunden: Autodemontage Mittelrhein Gebr. Nettersheim OHG
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3850,50.3850,7.4250,50.4100 (Kachelraster, live abgerufen
   03.11.2026) ; https://www.auto-mittelrhein.de/impressum/ ;
   https://www.auto-mittelrhein.de/bescheinigung-zertifikat/ (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Der Recheck bestätigt den Vermerk vom
+  03.11.2026 am Kern: Die Dossier-Hausnummer **2** findet sich in OSM auf der Dossier-Straße **Bahnweg** **nicht**;
+  die Straße existiert dort zwar, trägt aber **kein einziges** Objekt mit `addr:housenumber` - ein Punkt wäre geraten,
+  deshalb wird bewusst **keine** Koordinate gesetzt. **Was geprüft wurde (live am 05.11.2026):** (a) Die Straße
+  **Bahnweg** in Andernach-Miesenheim ist in OSM mit **einem** Way kartiert: **way/35015872** (`highway`=service,
+  `name`=Bahnweg; live geladen am 05.11.2026 über
+  https://api.openstreetmap.org/api/0.6/way/35015872/full.json), 14 Knoten, davon **14 eindeutige**, Objekt-BBox
+  50.3972522/7.4019395 bis 50.3993041/7.4037748, Mittelwert der eindeutigen Knoten 50.3986183/7.4033572; das Objekt
+  trägt **weder `addr:housenumber` noch `addr:street` noch `operator=`** - der Vermerk vom 03.11.2026 ist damit
+  **unverändert bestätigt**. (b) **Suchfenster (0,01°-Kacheln):** **bbox=7.3900,50.3900,7.4100,50.4000** = 2 Kacheln
+  à 0,01° (7.3900/50.3900/7.4000/50.4000 und 7.4000/50.3900/7.4100/50.4000), live abgerufen am 05.11.2026; die
+  **Objekt-BBox des Bahnweg-Ways liegt vollständig innerhalb** dieses Fensters (Prüfung ✓). **Zensus:** **0**
+  Adressobjekte mit `addr:street`=Bahnweg, **49** namentliche Straßen im Fenster (u. a. Am Bürgerhaus, Bahnweg,
+  Bahnhofstraße, Krufter Straße, Plaidter Straße, Raiffeisenstraße, Bruder-Anselm-Straße); die nächstgelegenen
+  Adressobjekte liegen auf **„Am Bürgerhaus"** (Nummern 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 20) in **74 bis 165 m**
+  Entfernung - auf der **Bahnweg** selbst ist **kein** Adressobjekt kartiert. Eine Suche über **alle** Tag-Werte nach
+  „**Nettersheim**", „**Mittelrhein**", „**Autodemontage**", „**Schrott**" oder „**Recycling**" liefert **8 Treffer**, die
+  sämtlich **kommunale Altglas-/Alttextilcontainer** (`amenity`=recycling) bzw. der Gewässername „Nette" sind - **kein**
+  Objekt benennt den Betrieb. (c) **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der Gemeinsamen
+  Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) führt für **56626 Andernach** genau **drei** Betriebe und darunter als **einzigen**
+  anerkannten **Altfahrzeug-Demontagebetrieb** die „**Autodemontage Mittelrhein OHG, Bahnweg 2**" (neben REMONDIS
+  Industrie Service GmbH & Co. KG, Dr. Friedrich-Schadeberg-Straße 11, und Zöllerland GmbH, Zu den Bergwingerten 5) -
+  die Dossier-Adresse ist damit **dreifach** belegt (Betreiber-Impressum, AltfahrzeugV-Bescheinigung ICS003AV26,
+  amtlicher Registerabzug), **nur der OSM-Punkt fehlt**. **Was fehlt:** ein OSM-Objekt mit `addr:street`=Bahnweg **und**
+  `addr:housenumber`=2 (oder ein benanntes Betriebsobjekt an dieser Anschrift). Das ist **kein** Schließungsbeleg und
+  **keine** Aussage gegen die Existenz des Betriebs: die Bahnweg ist in OSM nur als Servicestraße **ohne
+  Adressobjekte** erfasst. `status` bleibt **aktiv**, `street`/`postcode` bleiben unverändert, `clear_fields: 'geo'`
+  bleibt bestehen. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/35015872/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3900,50.3900,7.4000,50.4000 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4000,50.3900,7.4100,50.4000 ;
+  https://schrottregister.pages.dev/ort-andernach ; https://www.auto-mittelrhein.de/impressum/ ;
+  https://www.auto-mittelrhein.de/bescheinigung-zertifikat/ (live abgerufen 05.11.2026).]

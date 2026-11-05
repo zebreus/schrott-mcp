@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heiko Kluge Schrotthandel, Spittastraße 16, 14770 Brandenburg an der Havel: von Heiko Kluge
+geführtes Einzelunternehmen, das Schrott und Buntmetalle ankauft, Container stellt sowie
+Rückbau, Demontage und Brennschneiden anbietet; Sorten und die Abholung ab 2,5 t innerhalb 50
+km stehen auf der Website. Das Impressum ist personenbezogen und nennt kein Handelsregister.
+PDF-Dokumente belegen den Betrieb: ein TÜ-Service-Befähigungsnachweis nennt Heiko Kluge und die
+Anschrift mit dem Lagern, Behandeln und Verwerten von Metallabfällen, ausgestellt 2013 und bis
+2014 gültig, sowie eine Anlagengenehmigung mit Beförderer- und Maklernummer; ein aktuelles
+Zertifikat ist nicht nachgewiesen und ein externer Firmeneintrag war nicht abrufbar. Offen
+bleiben der aktuelle Befähigungsnachweis, eine zweite unabhängige Quelle und die
+Hausnummerzuordnung, da OpenStreetMap keine Hausnummer führt.
 
 ## Timeline
 

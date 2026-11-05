@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+EXCHANGE AG (Joachimsthaler Str.), Joachimsthaler Straße 5-6, 10623 Berlin Charlottenburg:
+Goldankaufsfiliale, die Anlagegold und -silber in Münzen und Barren an- und verkauft, Beleihung
+von Uhren, Anlagegold sowie Gold- und Brillantschmuck anbietet und Geldwechsel betreibt;
+Schrott oder Buntmetalle sind nicht im Sortiment. Die Betreiber-Filialseite nennt Anschrift,
+Rufnummer +49 30 880 339 70, die Filialadresse joachimsthaler@exchange-ag.de, die Zeiten Mo–Fr
+10:00–18:00 und Sa 10:00–16:00 Uhr sowie die Filialleitung und veröffentlicht Gold- und
+Wechselkurse. Die Adresse ist zusätzlich in OpenStreetMap erfasst, wo ein Objekt den Namen
+Exchange AG und die Hausnummer 6 mit abweichenden Öffnungszeiten trägt, während die
+Bereichsnummer 5-6 ein Ladengeschäft ausweist. Offen bleibt ein Impressum mit Firmierung und
+Handelsregisternummer für die Berliner Filiale.
 
 ## Timeline
 

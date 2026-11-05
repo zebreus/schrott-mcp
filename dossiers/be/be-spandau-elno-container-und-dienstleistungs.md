@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die ELNO Container und Dienstleistungs GmbH ist ein Containerdienst mit Schrottplatz an der
+Tiefwerderweg 13, 13597 Berlin-Spandau. Das Betreiber-Impressum weist die Gesellschaft mit
+HRB 141261 B (AG Charlottenburg), der Nummer 030 20614296-0 und der Mail
+info@elno-container.de aus; Northdata bestätigt die Registerdaten als zweite Quelle. Das Feld
+certifications trägt den Entsorgungsfachbetrieb nach § 56 KrWG mit Zertifikat 121101
+SBLBehMs, Vorgang ZZLE001000272009, gültig bis zum 02.04.2027. Der Betrieb veröffentlicht
+eine Altmetall-Preisliste als PDF, ausdrücklich nur für Privatkunden, freibleibend und
+tagesabhängig, mit Einstufung vor Ort; Gewerbekunden werden telefonisch angefragt. Die
+getrennt ausgewiesenen Abfallgebühren sind Gebühren und keine Ankaufpreise. Offen bleibt der
+im Impressum weiterhin verlinkte ältere Efb-Beleg, der neben dem aktuellen Zertifikat steht.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Carl-Heinz Scholz Rohstoffhandel GmbH & Co. KG ist ein Rohstoffhändler in
+Brigachtal-Klengen mit Press-, Scher- und Brikettierbetrieb, Containerdienst sowie Eisen- und
+NE-Schrott-Handel, ein BDSV-Mitglied mit über 140 Jahren Historie. Die Betreiber-Seite nennt
+die Anschrift Überaucher Str. 6-8, 78086 Brigachtal-Klengen und die Nummer +49 7721 98700. Im
+OSM existiert die Hausnummer 6 auf der Überaucher Straße nicht, dort sind nur 2, 3, 4, 5, 7,
+8/1, 8/2, 9, 11 und 13 erfasst, weshalb die Adressnotation allein von der Betreiber-Seite
+stammt. Ein Ankaufskurs ist nicht veröffentlicht; beziffert sind allein Gebühren für
+Fehlwürfe und Sortierkosten, während die Scholz Trading GmbH an derselben Anschrift
+Dropshipping ohne Preise bewirbt. Offen bleiben die Hausnummer, die nicht zusammengeführten
+Rechtsträger und die Frage, ob und zu welchen Konditionen Schrott angekauft wird.
 
 ## Timeline
 

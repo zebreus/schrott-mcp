@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Adlershof kauft an der Glienicker Straße 101, 12557 Berlin-Köpenick, Schrott zu
+tagesaktuellen Preisen und zahlt sofort bar; angekauft werden Aluminium, Blei, Kupfer,
+Messing, Edelstahl, E-Motoren, Kupferkabel und Metallschrott ab 1 kg; weiße Ware, Fahrräder,
+Bleiakkus und Batterien werden nicht mehr angenommen. Die Betreiber-Website war am 31.10.2026
+nicht abrufbar, weil eine Cloudflare-Challenge sperrt; belegen ließen sich Anschrift, Telefon
+030 37434252 und Sortenliste nur über ein Verzeichnis-Mirror. Die Anschrift ist über OSM
+bestätigt; ein Objekt zum Betrieb fehlt. Eine Ankaufspreisliste je Kilogramm ist über
+dasselbe Verzeichnis belegt, liegt in zwei abweichenden Zeitständen vor, sodass der gültige
+Stand offen bleibt. Offen bleiben der Widerspruch zwischen Ausschlussliste und Preistabelle
+bei Fahrzeugbatterien und der fehlende Registerbeleg.
 
 ## Timeline
 

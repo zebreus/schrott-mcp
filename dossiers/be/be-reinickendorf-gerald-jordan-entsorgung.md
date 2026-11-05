@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gerald Jordan Entsorgung ist ein auf Speisefett- und Altfettentsorgung spezialisierter
+Dienstleister am Amendestr. 12, 13409 Berlin-Reinickendorf, 1999 gegründet und mit drei
+Mitarbeitern beschäftigt. Das Impressum der Betreiber-Seite nennt Namen, Anschrift, Telefon
++49.30 495 25 65, die Faxnummer +49.30 498 75 743 und den Geschäftsführer Gerald Jordan; die
+Seite "über uns" beschreibt die Entsorgung von Speisefetten und -ölen, die zu 100 Prozent in
+Biodiesel umgewandelt werden. Der Betrieb arbeitet unter den Kontakt-Marken FettFEUERWEHR und
+FettTAXI. Die Anschrift ist über OSM als denkmalgeschütztes Mietshaus bestätigt; ein Objekt
+mit Bezug zum Betrieb gibt es nicht. Der Klärfall der Schrott-Relevanz ist entschieden:
+Schrott, Altmetall und Buntmetall werden hier nicht angekauft, der Dossier-Typ "sonstige" ist
+bestätigt. Offen bleiben Register- und Gewerbeanmeldung sowie jede Gebührentafel.
 
 ## Timeline
 

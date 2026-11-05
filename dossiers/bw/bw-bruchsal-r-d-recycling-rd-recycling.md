@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die R&D Recycling (RD RECYCLING) ist ein kleiner, mobiler Schrott- und Buntmetallhändler mit
+Büro am Berliner Str. 103, 76646 Bruchsal; Inhaber ist laut Impressum D. Graf,
+Einzelunternehmen ohne Register, mit Umsatzsteuer-Identifikation. Das Impressum nennt
+Schrottabholung mit Ladekran, Containerdienst (Abroll 20 bis 40 m³, Absetz 3 bis 12 m³),
+Demontage und Firmenauflösung; ein Annahmeplatz in 76707 Hambrücken ist nur mit Termin
+aufgesucht. Als zweite unabhängige Quelle bestätigt ein Branchenverzeichnis Anschrift und
+Nummer 07251 3227878, ein Firmenverzeichnis die Inhaberzuordnung. Im amtlichen
+Fachbetrieberegister ist für die Dossier-Adresse kein Eintrag ausgewiesen; die Namenssuche "R
+D Recycling" liefert 500 Treffer, also das Anzeige-Maximum. Offen bleiben Zertifikatsangaben,
+jeder Nachweis einer Preiszusage und der fehlende Registereintrag.
 
 ## Timeline
 

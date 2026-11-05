@@ -87,3 +87,44 @@ Historischer Sammel-Seed für mehrere nicht unabhängig zugeordnete Kleinbetrieb
   `clear_fields: 'geo'` bleibt bestehen. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0900,49.1800,8.1500,49.2150 (Kachelraster, live abgerufen
   03.11.2026) ; Recherche-Vermerke vom 08.10., 16.10. und 23.10.2026 im Dossier.]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **Klärfall - weiterhin keine Koordinate.** Diese Zeile ist ein **Sammel-Seed über mehrere
+  nicht zugeordnete Kleinbetriebe** (Cadorin J./M., MC, Bodenstein, Engel A./R., Benkler, Koch M.+E., Durmaz); für
+  **keinen** davon ist eine Betreiber- oder Registerquelle im Dossier belegt, und das Dossier hält selbst fest, dass
+  **kein** Kontakt stellvertretend für den Sammeldatensatz eingetragen werden darf - ein Punkt wäre eine Festlegung ohne
+  Beleg. **Was geprüft wurde (live am 05.11.2026):** (a) **Suchfenster (0,02°-Kacheln):** **bbox=8.0950,49.1850,
+  8.1350,49.2050** = 2 Kacheln à 0,02° (8.0950/49.1850/8.1150/49.1950 und 8.1150/49.1850/8.1350/49.1950), live abgerufen
+  am 05.11.2026; **Zensus:** **5.071** Adressobjekte und **260** namentliche Straßen im Fenster. Die drei im Dossier
+  genannten Adress-Leads wurden einzeln nachgemessen: **Cornichonstraße** trägt **44** verschiedene Hausnummern (1, 2,
+  3, 4, 5, 7, 7a, 8, 9, 10, 11, 12, 12a, 12b, 12c, 12d, **13**, 14, 15, 16, 16a, 16b, 17, 19, 20, 21, 22, 23, 24, 24a,
+  25, 27, 29, 31, 33, 35, 41, 43, 45, 47, 49) - die Nummer **13** existiert (node/11267630749, 49.1906617/8.1157891), die
+  vom Portal genannte **13a** existiert **nicht**; die nächstgelegenen benannten Objekte sind die **Maria-Ward-Schule**
+  (way/189169519, hn=1), das **Vinzentius-Krankenhaus** (way/1165455260, hn=4), die **Ärztliche Notfalldienstzentrale
+  Landau-SÜW** (node/2445695732, hn=4), ein **CarSharing**-Punkt (node/6591771885, hn=33) sowie „Wilde 13" (way/
+  1025483843, hn=14) - **kein** Schrottbetrieb. **Sudetenstraße** trägt **33** Hausnummern (1 bis 40 mit Lücken), die
+  **Hausnummer 4 existiert** (way/191676854, 49.2031688/8.1284864), ohne `name=`/`operator=`. **An den Lerchenwiesen**
+  trägt **10** Hausnummern (**6, 8, 10, 12, 14, 16, 18, 20, 22, 24**) - die vom Portal genannte Nummer **0 existiert dort
+  nicht** und ist damit **keine** geokodierbare Geschäftsadresse. Insgesamt **96** Adressobjekte auf diesen drei Straßen,
+  **keines** davon einem der genannten Betriebe zugeordnet. Eine Suche über **alle** Tag-Werte nach „**cadorin**",
+  „**bodenstein**", „**benkler**", „**durmaz**" oder „**schrott**" liefert **0** einschlägige Treffer (die **21**
+  Regex-Treffer auf „koch" sind ausschließlich die **Straßennamen** „Robert-Koch-Straße" und „Ferdinand-Koch-Straße"
+  sowie eine Gaststätten-Marke „Kochlöffel" - **keine** Betriebsangabe). (b) **Quelle 1 (Verzeichnis):** die im Dossier
+  zitierten Verzeichnis-Einträge (11880, Gelbe Seiten, GoLocal, Schrottplatz-Info, Das Örtliche) - sämtlich **Leads**,
+  keine Betreiber- oder Registerbelege; für **keinen** der sieben genannten Namen existiert ein Betriebsauftritt, ein
+  Impressum oder ein Registereintrag. **Registerabgleich (neu):** Der Abzug des **Fachbetrieberegisters der Gemeinsamen
+  Stelle Altfahrzeuge und des Registers der Entsorgungsfachbetriebe** (Stand 11.08.2026, über den Spiegel
+  schrottregister.pages.dev) führt für **76829 Landau** acht Betriebe (Abschleppdienst Brechtel, Autoverwertung
+  Demand-Recycling e.K. [2], Gerach Container GmbH, Klotz Rohstoffe GmbH, TKM Materialveredelung GmbH, JuRec-IT Social
+  & Green Remarketing GmbH, Kurz Karkassenhandel GmbH) - **keinen** mit einem der sieben Clusternamen. **Quelle 2 (OSM):**
+  die Adressobjekte der Cornichonstraße, Sudetenstraße und An den Lerchenwiesen (live abgerufen 05.11.2026 über das
+  Kachelraster bbox=8.0950,49.1850,8.1350,49.2050). **Was fehlt:** die **Zuordnung eines konkreten Betriebs zu einer
+  konkreten Anschrift** - die Zeile ist ein Sammeldatensatz und zurückhaltend aufzuteilen; eine **Aufteilung in stabile
+  Einzeldossiers** ist laut Dossier eine **Owner-Entscheidung** und wird hier **nicht** vorgenommen. `status` bleibt
+  **pruefung**, `street`/`postcode` bleiben leer, `clear_fields: 'geo'` bleibt bestehen. **Reichweitenklausel:** Das
+  Fehlen eines Betriebsnamens in OSM oder im Register ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0950,49.1850,8.1150,49.1950 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1150,49.1850,8.1350,49.1950 ;
+  https://schrottregister.pages.dev/ort-landau ; https://schrottregister.pages.dev/assets/institute.json ;
+  Recherche-Vermerke vom 08.10., 16.10., 23.10. und 03.11.2026 im Dossier (live abgerufen 05.11.2026).]

@@ -4,7 +4,7 @@ name: Schott Rainer
 trader_type: sonstige
 state: BE
 city: Spandau
-street: Gartenfelder Str. 86-88, ; Tel. 030 3819906
+street: Gartenfelder Str. 86-88
 postcode: '13599'
 phone: 030 3819906
 email: ''

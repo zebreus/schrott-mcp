@@ -84,3 +84,36 @@ provenance_origin: prose
   Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'`-Anweisung **bleibt unverändert**, weil der zurückgezogene Altpunkt
   weiterhin entzogen werden soll; `status` (pruefung) und alle übrigen Felder bleiben unverändert. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500 ; https://api.openstreetmap.org/api/0.6/way/24908972/full.json ; https://www.11880.com/ ; https://firmeneintrag.creditreform.de/ (live abgerufen 03.11.2026).]
+
+### Geokodierung 05.11.2026
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - Klärfall mit neuem Suchfenster belegt.** Die Dossier-Adresse ist
+  **Nutzweg 29, 97424 Schweinfurt** (Verzeichnis-Leads nennen zusätzlich „Nutzweg 29 b“); die alte Vermerkung nennt als
+  Suchfenster das Raster **bbox=10.1800,50.0200,10.2100,50.0500** (9 Kacheln). **Quelle 1 (OSM, live abgefragt am
+  05.11.2026):** das neue Kachelraster **bbox=10.1800,50.0200,10.2100,50.0500** (**9 Kacheln von je 0,01 Grad** um den
+  Adresspunkt, https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500) lieferte **50 775
+  Elemente** bei **0 Kachel-Fehlern**. Der **„Nutzweg“** (`highway`=residential, `name`=Nutzweg, way/24908972, live
+  geladen HTTP 200) ist im Fenster vollständig erfasst und trägt **34 Adressobjekte** mit **34 verschiedenen
+  Hausnummern** (1, 3, 10, 11, 12, 13, 14, 15, 16, 18, 20, 22, 24, 26, 28, **30**, 32, 34, 35, 37, 39, 41, 43, 45, 47,
+  49, 51, 53, 55, 57, 59, 61, 63, 65) - die Dossier-Hausnummer **29 existiert in OSM nicht** und die Variante **29 b**
+  ebenfalls nicht (die ungeraden Nummern sind dort 35, 37, 39 … 65, nicht 29). Die Suche über `name`, `operator`,
+  `brand` und `official_name` nach „reinhardt“ liefert **0 Treffer** - der Betrieb ist in OSM nicht kartiert. Das
+  unveränderte Raster liefert **dasselbe** Ergebnis wie am 03.11.2026 - ein **Fensterfehler** der letzten Welle liegt hier
+  **nicht** vor. **Quelle 2 (Beleglage, im Dossier dokumentiert, live am 05.11.2026 nachgelesen):** 11880 führt
+  „Reinhardt Metall“ am Nutzweg 29 mit 01573 0283000 und verlinkt reinhardt-abbruch.de; Creditreform-Suchergebnisse führen
+  sowohl **Ricardo Reinhardt** am Nutzweg 29 als auch **Roland Reinhardt Schrotthandel** am Nutzweg 29 b, weitere
+  Aggregator-Spuren weichen ab (Cylex 0157 30283000, Branchenheld 0175 3753164 und eine E-Mail); die direkt erreichbare
+  Website reinhardt-recycling.de nennt dagegen **Heinrich Reinhardt in Koblenz** und ist **kein** Beleg für den
+  Schweinfurter Betrieb (Dossier-Überblick und Recherche 23.10./27.10.2026). Die Spiegelung der amtlichen Register
+  (schrottregister.pages.dev, Auszug 11.08.2026) führt für **Schweinfurt** fünf Betriebe (GKS Gemeinschaftskraftwerk
+  Schweinfurt GmbH, Georg Lesch e.K., Stadt Schweinfurt Servicebetrieb Bau und Stadtgrün, Wertstoffhof
+  Kurt-Römer-Straße, bb-net media GmbH) und **keinen** Reinhardt - ein Betreiber- oder Registerbeleg für diese Anschrift
+  fehlt damit. Damit sind **Rechtsträger, Inhaber, Hausnummer (29 vs. 29 b), Telefon- und Domainzuordnung** ungeklärt,
+  ein aktueller eigenständiger Betreiber- oder Registernachweis fehlt, und die Dossier-Hausnummer ist in OSM **nicht**
+  auffindbar; es wird **keine** Koordinate erfunden und kein Ersatzpunkt gesetzt. Die bestehende `clear_fields: 'geo'`
+  bleibt unverändert, weil der zurückgezogene Altpunkt weiterhin entzogen werden soll; `status` (pruefung) und alle
+  übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines Registereintrags ist
+  **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.1800,50.0200,10.2100,50.0500 ;
+  https://api.openstreetmap.org/api/0.6/way/24908972/full.json ; https://www.11880.com/ ;
+  https://schrottregister.pages.dev/ort-schweinfurt (live abgerufen 05.11.2026).]
