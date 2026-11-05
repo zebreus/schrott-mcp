@@ -81,3 +81,52 @@ Die Betreiberseite nennt Mo–Fr 08:00–12:00 und 13:00–17:00 Uhr und Samstag
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.3700,48.3700,10.4500,48.4600 ;
   https://api.openstreetmap.org/api/0.6/way/4065270/full.json ; https://kfz-sauter.com/impressum/ ;
   https://schrottregister.pages.dev/betrieb-kfz-sauter-gmbh-co-kg-bubesheim (live abgerufen 05.11.2026).]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **keine Koordinate gesetzt - aber ein echter Fensterfehler der letzten Welle gefunden und
+  korrigiert: das alte Raster hat Bubesheim gar nicht erreicht.** Die Dossier-Adresse ist **Industriestraße 15-17,
+  89347 Bubesheim** (Betreiber-Impressum: „Industriestraße 15“); die alte Vermerkung nennt als Suchfenster das Raster
+  **10.3700/48.3700 bis 10.4500/48.4600** (72 Kacheln) und beschreibt therein eine „Industriestraße“ mit **sechs**
+  Straßenobjekten und **6 Adressobjekte** mit den Hausnummern **2, 43, 56, 58** - dabei handelt es sich **nicht** um die
+  Bubesheimer Straße. **Quelle 1 (OSM, live abgefragt am 05.11.2026):** (a) das Kontrollraster **bbox=10.4000,48.4200,
+  10.4300,48.4500** (**9 Kacheln von je 0,01 Grad**,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.4000,48.4200,10.4300,48.4500) lieferte **32 324 Elemente** bei
+  **0 Kachel-Fehlern**; die dort gefundene **„Industriestraße“** (way/171997584, way/171997585, way/334457981,
+  way/334457982, way/4065270, way/39515782; Verlauf 48.4254481/10.4112478 bis 48.4389971/10.419307) trägt ihre **sechs**
+  Adressobjekte sämtlich mit `addr:city`=**Burgau** und `addr:postcode`=**89331** (way/253633998 hn=2,
+  node/11528463931 hn=43 „Textilreinigung Frey“, way/253631391 hn=43, way/334368380 hn=43 „Autohaus Thoma“,
+  way/289851086 hn=56 „Waschparadies Burgau“, way/289851095 hn=58 „Pizzeria Il Tramonto“); der Ort **Burgau** liegt mit
+  seinem Platzknoten (48.4317081/10.4071961) im selben Raster. (b) Das **neu bestimmte** Fenster um den tatsächlichen
+  Adresspunkt **bbox=10.2400,48.4200,10.2700,48.4500** (**9 Kacheln von je 0,01 Grad**,
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.2400,48.4200,10.2700,48.4500) lieferte **17 443 Elemente** bei
+  **0 Kachel-Fehlern** und erfasst den Ort **Bubesheim** mit seinem Platzknoten (48.4334862/10.253454) sowie dessen
+  **„Industriestraße“** mit **drei** Straßenobjekten (way/172227078, way/172227092, way/345397416; Verlauf
+  48.4309429/10.2551272 bis 48.4316991/10.2605579, `highway`=residential/service); die **Objekt-BBox der Straße**
+  (48.4309429/10.2551272 bis 48.4316991/10.2605579) liegt **vollständig in der Fenster-BBox**. Auf dieser Bubesheimer
+  „Industriestraße“ ist **kein einziges** Adressobjekt erfasst - weder **15** noch **15-17** sind adressiert; die
+  Adressobjekte mit `addr:postcode`=89347/`addr:city`=Bubesheim liegen ausschließlich auf **Frühlingsweg**, **Gartenstraße**,
+  **Günzburger Straße**, **Leipheimer Straße** und **Weißenhorner Straße**. **Fensterbefund:** die Bubesheimer
+  Industriestraße liegt rund **8 bis 8,5 km westlich** der westlichen Fenstergrenze 10.3700 des alten Rasters - die letzte
+  Welle hat also eine gleichnamige Straße in der Nachbargemeinde **Burgau** erfasst und daraus den Negativbefund zur
+  Dossieradresse abgeleitet; dieser Befund war ein **Fensterfehler**, nicht der Nachweis einer fehlenden Hausnummer. Die
+  Namenssuche im neuen Fenster liefert als einzigen „Sauter“-Treffer **node/14156015786** „**Schreinerei Sauter**“
+  (`craft`=carpenter, 48.4331578/10.2531049) - eine **Schreinerei**, also ein **anderer** Betrieb, kein Beleg für die Kfz
+  Sauter. **Quelle 2 (Betreiber/Register, im Dossier bereits zitiert, live am 05.11.2026 nachgelesen, HTTP 200):** das
+  Betreiber-Impressum nennt **„KFZ Sauter GmbH & Co.KG, Industriestraße 15, 89347 Bubesheim“**, vertreten durch die
+  Sauter Verwaltungs-GmbH (Geschäftsführer Alexander Sauter, Mirco Sauter, Carlos Sauter), **Registereintrag beim Amtsgericht
+  Memmingen, HRA 12525**, USt-IdNr. DE220196179; die Spiegelung der amtlichen Register (schrottregister.pages.dev, Auszug
+  11.08.2026; veralteter Snapshot, im Sinne der Quellenhierarchie **kein** eigenständiger Beleg;
+  Ort Bubesheim) führt **„Kfz-Sauter GmbH & Co. KG“** mit der Anschrift **Industriestraße 15-17, 89347
+  Bubesheim** und der Anerkennung nach AltfahrzeugV **Demontagebetrieb**, Zertifikatsnummer **ZAIS01700010** (Betriebsnummer
+  I774E1002) - das deckt sich mit dem Zertifikatsbild und der **GESA-Fachbetrieberegister-Abfrage vom 02.11.2026** im
+  Dossier, die denselben Rechtsträger und dieselbe Anschrift nennt. Die Adresse ist damit **betreiberseitig
+  belegt**, nur die **Geometrie der Hausnummer 15 (15-17)** fehlt in OSM; nach
+  der Regel dieser Welle wird deshalb **keine** Koordinate erfunden und **kein** Nachbarobjekt und **kein**
+  Straßennummern-Mittelpunkt als Ersatz gesetzt. Das Dossier enthielt **keine** `clear_fields`-Anweisung; `status` (aktiv),
+  `street`, `postcode`, `opening_hours`, `phone` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das
+  Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.2400,48.4200,10.2700,48.4500 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=10.4000,48.4200,10.4300,48.4500 ;
+  https://api.openstreetmap.org/api/0.6/way/172227078/full.json ; https://kfz-sauter.com/impressum/ ;
+  https://schrottregister.pages.dev/betrieb-kfz-sauter-gmbh-co-kg-bubesheim (live abgerufen 05.11.2026).]

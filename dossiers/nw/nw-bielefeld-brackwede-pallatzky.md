@@ -25,7 +25,16 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification G
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Pallatzky GmbH, Stellwerkstr. 16, 33647 Bielefeld-Brackwede: Schrotthändler mit An-
+und Verkauf, Abbrüchen und Containerdienst, auch für Privatkunden. Das Impressum von
+pallatzky-gmbh.de nennt die Gesellschaft mit HRB 32764 beim Amtsgericht Bielefeld.
+Das amtliche Fachbetrieberegister führt diese Anschrift mit vier Anlagen: Sammeln
+und Befördern, eine Metallschrottverwertungsanlage zum Lagern und Behandeln, ein
+Zwischenlager für gefährliche Abfälle sowie eine Bauschuttaufbereitungsanlage, alles
+unter dem Zertifikat der DEKRA Certification GmbH mit der Nummer 120298126 und der
+Vorgangsnummer ZZHT003006318011, gültig bis 02.08.2027. Ergänzend weist der Betrieb ein
+ISO-9001-Zertifikat und ein A|U|F-Umweltpartnerzertifikat vor. Offen bleibt der fehlende
+Vermerk zur Altfahrzeugverwertung, denn der Standort ist kein anerkannter Demontagebetrieb.
 
 ## Timeline
 

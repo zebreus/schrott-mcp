@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Die Norddeutsche Edelmetall Scheideanstalt GmbH der NES GROUP betreibt in Hamburg ein
+Servicebüro am Neuer Wall 13 in der Passage Alsterarkaden mit der Postleitzahl 20354, das Gold,
+Silber, Platin und Palladium zu Schmelzkursen ankauft und Barren, Münzen und Halbzeuge
+verkauft; Hauptsitz und Werk liegen in Norderstedt, Oststraße 128, HRB 6761 am Amtsgericht
+Kiel. Die aktuelle Anschrift tragen Impressum, Startseite und die Seite Besuch und Versand, die
+den Standort nach einem Wechsel von der Nummer 80 nennen; die Unterseite zum Goldankauf führt
+die alte Nummer 80 weiter, und ein OSM-Objekt, das den Betrieb benennt, existiert nicht, die
+Koordinate markiert damit nur die belegte Anschrift. Die Hamburger Niederlassung ist kein
+eigener Registereintrag. Eine Schmelzkurstabelle mit Gold, Silber, Platin und Palladium ist
+veröffentlicht, Sorten und Gebühren sind es nicht.
 
 ## Timeline
 

@@ -159,3 +159,38 @@ gespeicherte Punkt 50.0098/8.7778 liegt 798 m daneben.
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.01,8.79,50.02 ;
   https://www.11880.com/branchenbuch/dietzenbach/060444309B113012766/emji-schrott-abholung-schrotthaendler-gogircea-alexandru.html ;
   https://cristofor-schrotthandel.de/impressum/ (Abruf 05.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields` bleibt unverändert.** Die
+  Dossier-Hausnummer **2** auf dem "Marktheidenfelder Weg" ist in OSM **vorhanden** - die Nachprüfung bestätigt den
+  Befund der Vorwellen-Notiz vom 05.11.2026 und korrigiert daran nichts. Quelle 1 (OSM, live geprüft am 05.11.2026):
+  **Fensterprüfung (kein Fensterfehler):** das live abgerufene Kachelraster **8.7800/50.0100 bis 8.7900/50.0200**
+  umfasst **1 Kachel von je 0,01 Grad**, **0 Kachel-Fehler**, 7233 Elemente und **umschließt die Objekt-BBox
+  vollständig**; die Straße "Marktheidenfelder Weg" ist dort mit **2 Adressobjekten** und **2** verschiedenen
+  Hausnummern (**2** und **4**) erfasst. way/40922223, live geladen am 05.11.2026 (HTTP 200,
+  https://api.openstreetmap.org/api/0.6/way/40922223/full.json), trägt `addr:housenumber`=2,
+  `addr:street`=Marktheidenfelder Weg, `addr:city`=Dietzenbach, `addr:postcode`=63128, `building`=yes,
+  `building:levels`=17; **9** Knoten, davon **8** eindeutig, Objekt-BBox 8.7862900/50.0139994 bis
+  8.7867589/50.0143320, der Mittelwert der eindeutigen Knoten (50.0141078/8.7864837) läge innerhalb. Quelle 2
+  (Betreiber/Register): **fehlt weiterhin** - für "Emji-Schrott / Gogircea Alexandru" existiert **kein** Betreiberauftritt
+  und **kein** Registereintrag; die einzige Nennung bleibt der Verzeichnislead 11880 ("Emji-Schrott Abholung /
+  Schrotthändler Gogircea Alexandru", Marktheidenfelder Weg 2, Mobil (0178) 1997566), und die gespiegelten Verzeichnisse
+  (Das Telefonbuch, stadtbranchenbuch.com, oeffnungszeitenbuch.de) sind **keine** zweite Quelle. Die im Dossier
+  zitierte Betreiberquelle https://cristofor-schrotthandel.de/impressum/ (live gelesen am 05.11.2026 im Dossierzitat)
+  nennt **Cristofor Ciurar** mit **anderer** Rufnummer an derselben Hausnummer und belegt damit die *Hausnummer*, nicht
+  die *Marke* "Emji-Schrott"; das OSM-Objekt trägt **weder** `name` **noch** `operator` und kann die beiden an
+  Marktheidenfelder Weg 2 geführten Marken nicht trennen. **Abgrenzung zum Schwesterdossier:** das Dossier
+  he-dietzenbach-cristofor-schrotthandel hat am 05.11.2026 eine Koordinate erhalten, weil es das Impressum des
+  Betreibers selbst zitiert - diese Belegkette fehlt dem vorliegenden Dossier. **Warum keine Koordinate:** die
+  Dossier-Hausnummer stammt weiterhin **ausschließlich** aus einem Verzeichnislead, und ein Adresspunkt würde die
+  Identität der Marke "Emji-Schrott" an diesem Haus suggerieren, die nicht belegt ist; die `street`- und
+  `postcode`-Felder bleiben deshalb leer. Das Dossier führt **keine** `clear_fields`-Zeile und damit **keinen**
+  `geo`-Token - an der Frontmatter wird nichts geändert; `status` bleibt `pruefung`. **Reichweitenklausel:** das
+  Fehlen eines OSM-Betriebsbezugs oder einer Hausnummer wäre **kein** Existenz- oder Schließungsbeweis; die Anschrift
+  ist in OSM belegt, die Betriebsidentität nicht. Offen bleiben die Betriebsidentität, die tatsächliche
+  Tätigkeitsaufnahme und jede öffentliche Annahme. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/40922223/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.78,50.01,8.79,50.02 ;
+  https://www.11880.com/branchenbuch/dietzenbach/060444309B113012766/emji-schrott-abholung-schrotthaendler-gogircea-alexandru.html ;
+  https://cristofor-schrotthandel.de/impressum/ (Abruf 05.11.2026)]

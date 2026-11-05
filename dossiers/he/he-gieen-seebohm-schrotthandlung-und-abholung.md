@@ -102,3 +102,31 @@ Gelbe Seiten und GoLocal führen Seebohm Schrotthandlung und Abholung mit Mobiln
   https://www.gelbeseiten.de/gsbiz/39e82f02-373d-4cf7-90fe-bf98831f5be5 ;
   https://www.golocal.de/giessen/schrotthandel/seebohm-schrotthandlung-abholung-MJ5yH/ ;
   https://schrottregister.pages.dev/ort-giessen ; https://www.northdata.de/Seebohm,+Gie%C3%9Fen (Abruf 05.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt, `clear_fields: 'geo'` bleibt bestehen.** Das Dossier
+  führt **keine Dossier-Adresse**: `street` und `postcode` sind leer, `city` lautet "Gießen"; belegt sind ausschließlich
+  eine Mobilnummer (0171 6387325) und die Postleitzahl 35398 aus zwei Verzeichnis-Leads (Gelbe Seiten und GoLocal),
+  ohne Straßenanschrift, ohne Rechtsträger und ohne Betreiberauftritt. Ein adressgenaues OSM-Objekt kann damit nicht
+  zugeordnet werden - es gibt **keine Hausnummer**, nach der im Kachelraster gesucht werden könnte. Quelle 1 (OSM, live
+  geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das live abgerufene Kachelraster über den
+  Gießener Innenstadtbereich umfasst **8.6600/50.5800 bis 8.6900/50.6000**, **6 Kacheln von je 0,01 Grad**, **0
+  Kachel-Fehler**, 58682 Elemente, 4496 Adressobjekte auf 190 Straßen; es liefert **0** Objekte mit `addr:street`
+  =Seebohm, die Straßenliste enthält keine Straße "Seebohm", und eine Suche nach
+  "Seebohm|Schrott|Scrap|Metallhandel|Containerdienst" über die Felder name, operator, brand, description, website,
+  contact:website, shop, craft und addr:housename findet im Raster **0 Treffer** - es gibt dort weder ein Objekt mit
+  dem Personennamen noch einen kartierten Schrottplatz mit Betriebsbezug. Quelle 2 (Betreiber/Register): **fehlt** -
+  das Dossier belegt ausdrücklich "Eine eigene Betreiberseite, ein Registerbeleg und eine bestätigte Straßenanschrift
+  fehlen"; die direkt gelesene städtische Gießen-Quelle nennt Corinna Seebohm nur als Vereinskontakt, nicht als
+  Schrotthändlerin, und Northdata führt in den sichtbaren Ergebnissen keine eindeutig zuordenbare Schrotthandelsfirma;
+  die im Dossier zitierte Schrottregister-Seite für Gießen (schrottregister.pages.dev/ort-giessen) liefert keinen
+  Eintrag zu "Seebohm". **Warum keine Koordinate:** aus einer Mobilnummer und einer Postleitzahl lässt sich kein
+  Standort ableiten; die in der Preisabgrenzungs-Notiz vom 28.10.2026 genannten Tarife anderer Gießener Betriebe
+  (Klajo Recycling, ESOREC, Ferrum Recycling) gehören nicht zu diesem Dossier. `clear_fields: 'geo'` bleibt bestehen,
+  der gespeicherte Altpunkt 50.5852400/8.6791800 wird damit ohnehin zurückgenommen; `status` bleibt `pruefung`.
+  **Reichweitenklausel:** das Fehlen eines OSM-Treffers zu einem Personennamen ist **kein** Nachweis für das Fehlen des
+  Betriebs. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.66,50.58,8.69,50.6 ;
+  https://www.gelbeseiten.de/gsbiz/39e82f02-373d-4cf7-90fe-bf98831f5be5 ;
+  https://www.golocal.de/giessen/schrotthandel/seebohm-schrotthandlung-abholung-MJ5yH/ ;
+  https://schrottregister.pages.dev/ort-giessen ; https://www.northdata.de/Seebohm,+Gie%C3%9Fen (Abruf 05.11.2026)]

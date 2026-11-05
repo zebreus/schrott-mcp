@@ -144,3 +144,51 @@ Historischer Händler-Lead „Altstoffe Joachim Ducoffre“ in Bedburg, aber akt
   https://www.northdata.de/Altstoffe%20Joachim%20Ducoffre,%20Inh%C2%B7:%20Britta%20Ducoffre%20e%C2%B7%20K%C2%B7,%20Bedburg/Amtsgericht%20K%C3%B6ln%20HRA%2032232
   (im Dossier zitiert, Abruf 05.11.2026).]
 
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [**Klärfall - keine Koordinate gesetzt; die Nachprüfung bestätigt den Vermerk vom 05.11.2026 mit dem Census des
+  erweiterten Fensters.** Die Adresse ist **nicht eindeutig** und der Rechtsträger **nicht fortführend** belegt.
+  **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):** das Kachelraster **6.5600/50.9900 bis 6.5900/51.0100**, **6
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=6.5600,50.9900,6.5900,51.0100) **umschließt die Objekt-BBox
+  vollständig** und enthält die **„Graf-Salm-Straße“** nachweislich und vollständig mit **vier** Straßenobjekten
+  (way/32107864, way/32107880, way/80677802, way/1353183855; Verlauf 50.9948475/6.5750649 bis 50.9970277/6.5760755); die
+  Straße trägt im Fenster **48** Adressobjekte (37 Ways, 11 Nodes) mit **43** verschiedenen Hausnummern (3, 8, 10, 11,
+  12, 13, 13-15, 14, 15, 16, 17, 17a, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 31a, 32, **33**, **33a**,
+  34, 36, 36a, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46) - **beide** Dossier-Kandidaten existieren in OSM nebeneinander:
+  **way/316116038** (`addr:housenumber`=33, `addr:street`=Graf-Salm-Straße, `addr:city`=Bedburg, `addr:country`=DE,
+  `addr:postcode`=50181, `building`=yes; Mittel der **14** eindeutigen Knoten **50.9966610/6.5760780**, BBox
+  50.9965843/6.5759365 bis 50.9967054/6.5762100) und **way/316116039** (`addr:housenumber`=33a, `building`=yes; Mittel
+  der **12** eindeutigen Knoten **50.9965324/6.5760125**, BBox 50.9964469/6.5758856 bis 50.9966164/6.5761882) - die
+  beiden Objekte liegen **direkt nebeneinander** (rund **15 m** Abstand) und sind damit **nicht** gegeneinander
+  abgrenzbar. Beide Objekte tragen **weder** `name=` **noch** `operator=`; eine Suche nach „Ducoffre" über die Felder
+  name, operator, brand, description, website, contact:website, contact:phone, note und addr:housename findet im
+  Kachelausschnitt **keinen** Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den Betrieb. **Quelle 2
+  (Register/Verzeichnis, im Dossier bereits zitiert):** 11880 führt weiterhin **Altstoffe Joachim Ducoffre**,
+  **Graf-Salm-Str. 33, 50181 Bedburg**, Tel. 02272 7012, Altmaterial-/Schrotthandel (Eintragsdaten 2021, Update 2024);
+  ein **anderer** Portalhinweis schreibt **33a**; der Registerspiegel **NorthData** zu „Altstoffe Joachim Ducoffre,
+  Inh.: Britta Ducoffre e.K.“, **AG Köln HRA 32232** (früher Neuss HRA 2283) wurde am 05.11.2026 live gelesen und weist
+  die Veröffentlichungen **19.09.2016 Inhaber-/Sitzwechsel** (Inhaber: Britta Ducoffre; Sitzverlegung: Altstoffe N.N.)
+  und **21.09.2016 Löschung** aus - die Anschrift selbst war im abrufbaren Text nicht ausgewiesen; ohne amtliche
+  Originaltexte ist ein möglicher Registertransfer nicht von einer endgültigen Betriebseinstellung zu unterscheiden. Das
+  **amtliche Fachbetrieberegister** führt zu „Ducoffre“ **keinen** Eintrag (Namenssuche in „Entsorgungsfachbetriebe“ und
+  „Altfahrzeugverwertung“: je 0 Treffer), und die Standortsuche um Bedburg (Umkreis 3 km) liefert **andere**
+  Rechtsträger (Budak GmbH, PreZero Service Rheinland GmbH, RRK Rohstoffrecycling Kuhlen GmbH) - **keine** Anlage an der
+  Graf-Salm-Straße 33. **Warum keine Koordinate:** Die Wahl zwischen **33** und **33a** ist ohne Klärung der
+  Anschriftenkette **willkürlich** - beide Nummern sind in OSM belegt und liegen unmittelbar nebeneinander; und selbst
+  die gewählte Nummer träfe keine **fortführende** Rechtsträgerin, da die e.K. 2016 gelöscht wurde. Ein Punkt wäre die
+  Behauptung einer heutigen Betriebsanschrift, die keine Quelle trägt. **Was zur Auflösung fehlt:** ein aktueller
+  Betreiber- oder Registerbeleg für einen Nachfolger an **einer** der beiden Hausnummern, oder die Klärung, welche der
+  beiden Verzeichnisangaben (33 oder 33a) die Seed-Adresse abbildet. Der bisher gespeicherte Produktionspunkt
+  50.9926/6.5713 (laut read-only-Abgleich vom 23.10.2026) wird durch diese Notiz **nicht** ersetzt und bleibt
+  zurückgenommen. `status: pruefung`, `clear_fields: 'geo'` und alle übrigen Felder bleiben unverändert; eine Schließung
+  wird **nicht** behauptet. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines OSM-Betriebsbezugs wäre kein
+  Existenz- oder Schließungsbeweis; eine vorhandene Hausnummer belegt umgekehrt **keinen** Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=6.5600,50.9900,6.5900,51.0100 ;
+  https://api.openstreetmap.org/api/0.6/way/316116038/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/316116039/full.json ;
+  https://www.11880.com/branchenbuch/bedburg-erft/060440090B102609685/altstoffe-joachim-ducoffre.html ;
+  https://www.northdata.de/Altstoffe%20Joachim%20Ducoffre,%20Inh%C2%B7:%20Britta%20Ducoffre%20e%C2%B7%20K%C2%B7,%20Bedburg/Amtsgericht%20K%C3%B6ln%20HRA%2032232
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ducoffre (im
+  Dossier zitiert, Abruf 05.11.2026).]

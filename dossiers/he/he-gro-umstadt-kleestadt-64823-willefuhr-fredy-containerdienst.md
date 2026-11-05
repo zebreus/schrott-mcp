@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Willeführ Fredy Containerdienst, Friedrich-Ebert-Str. 18 in 64823 Groß-Umstadt-Kleestadt, ist
+ein Verzeichnis-Eintrag eines Containerdienstes, den die Gelben Seiten mit Entsorgung,
+Entrümpelung, Demontage und Recycling beschreiben. Ein Betreiberauftritt zum Dossierstandort
+fehlt; die Betreiberseite containerdienst-willefuehr.de gehört nach ihrem Impressum zu Rino
+Willeführ in Rödermark und ist ein Namensvetter ohne Bezug zum Eintrag. Die Adresse tragen nur
+zwei Aggregatoren mit deckungsgleicher Anschrift, weshalb deren Telefonnummer nicht übernommen
+wurde. Das amtliche Fachbetrieberegister weist zum Standort keinen zugeordneten Nachweis aus,
+die amtliche Registersuche nach dem Nachnamen liefert für Hessen keinen Treffer, was ohne
+HRB-Eintrag keinen Beweiswert hat. Ankaufpreise, Verkaufslisten und Gebühren sind nicht belegt,
+und der Koordinatenpunkt liegt rund 18,6 km vom Adresspunkt entfernt.
 
 ## Timeline
 

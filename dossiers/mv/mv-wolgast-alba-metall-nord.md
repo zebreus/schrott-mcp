@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH ist in Wolgast, Kröslinerstr. 5, als Schrottplatz geführt, die
+Filial-Existenz ist jedoch nicht belegt. Die aktuelle Metall-Standortliste der Betreibergruppe
+nennt 13 Orte ohne Wolgast, die ältere Liste hatte 17 Treffer, der Detailpfad zum Ort liefert
+404, und ein Schließungsbeleg fehlt, daher bleibt der Status der Prüfung. Die Adresslage
+stützt sich allein auf den Seed-Eintrag: In OpenStreetMap beginnt das Nummernband der
+Krösliner Straße bei 8, die Hausnummer 5 existiert dort nicht, und kein Objekt trägt einen
+Bezug zur ALBA, sodass die Koordinate nicht gesetzt wurde. Ebenfalls offen bleiben die
+Seed-Angaben Container und Demontage, die die Gruppe zwar anbietet, keinem Wolgaster Standort
+aber zuordnet. Die Sortenliste nennt 17 Gruppen ohne Betrag, ein Ankaufspreis wird nicht
+veröffentlicht.
 
 ## Timeline
 

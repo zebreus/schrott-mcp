@@ -1,6 +1,7 @@
 ---
 slug: nw-bochum-blomeke
-clear_fields: 'geo'
+lat: 51.4873102
+lon: 7.1987467
 name: Blömeke
 trader_type: sonstige
 state: NW
@@ -93,3 +94,67 @@ Der Datensatz **Blömeke** passt als Verzeichnislead zu „Blömeke H. Dieter“
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bl%C3%B6meke
   (im Dossier zitiert, Abruf 05.11.2026).]
 
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026 (Nachprüfung): **Koordinate gesetzt**: `lat`/`lon` = **51.4873102/7.1987467** (Mittelwert der
+  **7** eindeutigen Knoten von
+  way/91818408; das Objekt hat 8 Knotenreferenzen, davon 7 eindeutig; die Objekt-BBox reicht von 51.4872422/7.1985818
+  bis 51.4873935/7.1989708 und **umschließt den Mittelwert**). **Quelle 1 (OSM, live geladen am 05.11.2026, HTTP 200):**
+  way/91818408 trägt `addr:housenumber`=**12**, `addr:street`=**Seilfahrt**, `addr:city`=Bochum, `addr:country`=DE,
+  `addr:postcode`=**44809**, `building`=yes - Straße, Hausnummer, PLZ und Ort stimmen mit der Dossier-Adresse
+  **Seilfahrt 12, 44809 Bochum-Hamme** überein. **Fensterdisziplin:** das am 05.11.2026 live abgefragte Kachelraster
+  umfasst **7.1900/51.4800 bis 7.2100/51.5000**, **4 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**
+  (https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1900,51.4800,7.2100,51.5000); es **umschließt die Objekt-BBox
+  vollständig** (die BBox liegt vollständig in der Kachel 7.19/51.48) und enthält die **„Seilfahrt“** nachweislich und
+  vollständig mit **19** Straßenobjekten (way/23370110, way/23370115, way/23370116, way/33873348, way/33873355,
+  way/33873373, way/55497758, way/55501035, way/55501045, way/97425760, way/219699653, way/222147949, way/350178539,
+  way/350178540, way/350178541, way/350178542, way/350178543, way/1244880918, way/1493049241; Verlauf
+  51.4850924/7.1946957 bis 51.4909284/7.2046641); die Straße trägt im Fenster **64** Adressobjekte (51 Ways, 13 Nodes),
+  alle mit `addr:city`=Bochum und `addr:postcode`=44809, und weist **51** verschiedene Hausnummern (1, 3, 6, 8, 10, 10a,
+  11, **12**, 12a, 15, 18, 20, 22, 29, 31, 33, 37, 47, 55, 59, 61, 61a, 63, 65, 67, 69, 83, 85, 89, 91, 93, 95, 97, 99,
+  101, 103, 105, 109, 111, 113, 117, 119, 121, 123, 125, 127, 129, 131, 133, 135, 137) - die **Dossier-Hausnummer 12
+  existiert** in OSM; auf dieser Straße trägt **nur way/91818408** die Nummer 12 (die Nachbarnummer 12a liegt auf
+  way/969467976). **Korrektur des Alt-Befunds:** der Vermerk vom 05.11.2026 in diesem Dossier behauptet, die Hausnummer
+  12 fehle in OSM und die belegten Nummern sprängen von 11 direkt auf 15 - das ist **am OSM-Bild falsch**: sein eigenes
+  Raster enthält way/91818408 (`addr:housenumber`=12) und zusätzlich die Nummer 12a; der alte Negativbefund war ein
+  Auswertungsfehler, kein Datenmangel. **Quelle 2 (Register, am 05.11.2026 live gesucht und gelesen, HTTP 200):** die
+  **amtsliche Namenssuche** im online-handelsregister.de nach „Blömeke“ (live, Abruf 05.11.2026) führt **„Blömeke Bau
+  GmbH.“, Amtsgericht Bochum, HRB 2975, OH-Nummer C-21470708** - der Registerauszug nennt als Geschäftsanschrift
+  wörtlich **„Seilfahrt 12 • 44809 Bochum“** („Sie konnte schriftlich unter Seilfahrt 12, 44809 Bochum erreicht
+  werden“), Gründung/Eintragung 07.07.1986, Rechtsform GmbH, Kapital 50.000 EUR. Der Eintrag wird **als gelöscht
+  geführt, Löschdatum 05.10.2012** (letzter offengelegter Jahresabschluss: Geschäftsjahr 01.01.2010 bis 31.05.2010).
+  Damit ist die **Adresse** der Dossier-Zeile durch ein **Register** belegt; der im Dossier vom 01.10.2026
+  festgehaltene Befund „kein Handelsregister-Firmentreffer (Northdata: nur Personen-Treffer Blömeke, keine Bochumer
+  Firma)“ beruhte auf einer zu engen Suche und ist **überholt**. **Quelle 3 (Verzeichnis, im Dossier bereits zitiert,
+  live am 05.11.2026 nachgelesen, HTTP 200):** das Recyclingpool-Profil nennt live **„Blömeke Bau GmbH“, Straße
+  Seilfahrt 12, PLZ 44809, Ort Bochum**, Telefon **0234 / 57160** (Fax 0234 / 577822), Branche **„Altmaterial-
+  Großhandel“**; der 11880-Eintrag **„Blömeke H. Dieter“** nennt dieselbe Anschrift und dieselbe Nummer
+  (Altmaterialhandel/Altbausanierung/Hochbau). **Beleggrenze:** die beiden Verzeichnisse sind nach der
+  Quellenhierarchie (README, Stand 26.10.2026) **Leads, kein Beleg**; sie stützen die **heutige** Tätigkeit an der
+  Anschrift, während das Register nur die (letzte registrierte) Anschrift der **2012 gelöschten** GmbH ausweist - ob
+  der Einzelunternehmer „Blömeke H. Dieter“ eine Fortführung ist, ist **nicht** belegt. Die Standortsuche im amtlichen
+  Fachbetrieberegister um die Dossier-Adresse (3 km, Vermerk vom 02.11.2026) liefert **keinen** Treffer auf Seilfahrt 12
+  - ein Negativbefund **ohne** Beweiswert, weil die Efb-Anerkennung freiwillig ist.
+  **Betriebsbezug in OSM:** **keiner** - way/91818408 trägt weder `name=` noch `operator=`; eine Suche nach „Blömeke“
+  und „Blomeke“ über die Felder name, operator, brand, description, website, contact:website, contact:phone, note und
+  addr:housename findet im Kachelausschnitt **keinen** Treffer - Aussage zum OSM-Bestand, **kein** Negativbeleg über den
+  Betrieb. **Was der Punkt bedeutet:** der gesetzte Punkt ist der **Adresspunkt der im Frontmatter geführten und im
+  Register belegten Anschrift** (street: Seilfahrt 12, postcode: 44809, phone: 0234 57160; die Anschrift steht seit dem
+  02.10.2026 im Dossier, das Register weist sie als Geschäftsanschrift der **Blömeke Bau GmbH.** aus) - er ist **kein**
+  bestätigter Betriebseingang, **keine** Waage und **kein** Nachweis einer heutigen Schrottannahme; die **Löschung der
+  GmbH zum 05.10.2012**, die Frage einer Fortführung durch den aktuellen Verzeichnislead und jede Annahme von
+  Tätigkeiten bleiben ungeklärt, `status: pruefung` bleibt unverändert. **Zurücknahme des `geo`-Tokens (Begründung):** der Token `geo` wird aus
+  `clear_fields` **entfernt** (die Zeile `clear_fields: 'geo'` entfällt), weil das Dossier jetzt ein belegtes
+  Koordinatenpaar führt und der Seed `geo` neben belegtem `lat`/`lon` ablehnt (docs/trader-seed.md); der zuvor
+  zurückgezogene Produktionspunkt 51.4740889/7.2192389 (laut read-only-Abgleich vom 25.10.2026 in der Taubenstraße,
+  Bochum-Ehrenfeld) wird damit durch den belegten Adresspunkt ersetzt. `street`, `postcode`, `phone`, `trader_type`,
+  `status`, `website_status` und alle übrigen Felder bleiben unverändert; **Ankauf**, **Verkauf** und **Gebühren**
+  bleiben unbelegt. **Reichweitenklausel:** das Fehlen eines OSM-Betriebsbezugs oder eines Registertreffers wäre kein
+  Existenz- oder Schließungsbeweis; eine vorhandene Hausnummer belegt umgekehrt **keinen** Betrieb. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/91818408/full.json ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=7.1900,51.4800,7.2100,51.5000 ;
+  https://www.recyclingpool.de/abfallwirtschaft-blomeke-bau-gmbh-in-bochum-12869 ;
+  https://www.11880.com/suche/altmaterialhandel/bochum ;
+  https://www.online-handelsregister.de/handelsregisterauszug/nw/Bochum/HRB/2975/Bloemeke-Bau-GmbH ;
+  https://www.online-handelsregister.de/suche/Bl%C3%B6meke (live gelesen am 05.11.2026).]

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Emsschrott GmbH & Co. KG, Zweigstelle Nordhorn, Alfred-Mozer-Str. 57-59, 48527
+Nordhorn: Annahmestelle für Fe- und NE-Schrott im Verbund der Emsschrott-Gruppe, deren
+Zentrale in Essener Straße 15 in Meppen-Hüntel sitzt. Das Organigramm der Konzernmutter
+augustin-entsorgung.de führt den Standort mit Anschrift und Telefonnummer, die Preisseite
+von emsschrott.de listet ihn als Schrottannahmestelle. Dort steht das Schrottangebot der
+Woche mit acht Sorten, darunter Mischschrott mit 105,- Euro je Tonne und Zink mit 1,90
+Euro je Kilogramm, errechnet nach tagesaktuellen marktgerechten Preisen aus Leitindexen
+oder Börse. Die Tabelle trägt kein Datum, veröffentlicht wird jede Woche am Donnerstag.
+Offen bleiben die Abweichung zwischen der Dossier-Adresse 57-59 und der Betreiberangabe
+59, die Frage identischer Wochenpreise an allen Annahmestellen und der fehlende Preisstand.
 
 ## Timeline
 

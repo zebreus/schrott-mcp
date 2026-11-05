@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Horst Beck GmbH, Senefelderstr. 11, 51469 Bergisch Gladbach: Metall- und Schrotthandel
+mit Containerdienst und Kabel-Recycling, das laut Betreiberangabe mit einem eigenen
+Kabelshredder seit 2011 betrieben wird. Das Impressum der Betreiberseite horstbeck.de
+nennt die Gesellschaft mit Registernummer HRB 51070 beim Amtsgericht Köln und die
+Anschrift Senefelderstr. 11 + 22. Gegenüber dem Impressum nennt die Kontaktseite eine
+andere Telefonnummer, und für die dort genannten Zeiten Mo-Fr 07:00-17:00 gibt es keinen
+unabhängigen Beleg, weshalb das Feld leer bleibt und der Status auf Prüfung steht. Im
+amtlichen Fachbetrieberegister erscheint der Betrieb unter keinem der beiden Namen,
+und ein eigener Zertifikatsnachweis fehlt. Offen bleiben der fehlende unabhängige
+Registerbeleg, der Telefonwiderspruch und die uneinheitliche Adressschreibweise.
 
 ## Timeline
 

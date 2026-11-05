@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+H.O. Autorecycling GmbH, Steinbrinksweg 31, 31840 Hessisch Oldendorf: Autoverwertungsbetrieb
+mit Abholung des Fahrzeugs, geführt von Bilal Abdul-Rassoul. Das Impressum der
+Betreiberseite hoautorecycling.de nennt Gesellschaft, Anschrift, Telefonnummer und
+E-Mail-Adresse, Northdata bestätigt Registerkennung und Anschrift. Die Website beschreibt
+Fahrzeugverwertung und Fahrzeugabholung, belegt aber keinen allgemeinen Ankauf loser Metalle
+und keine öffentliche Schrottannahme. Offen bleiben deshalb der Status des Schrottankaufs,
+die nicht veröffentlichten Öffnungszeiten und die fehlende Geokodierung der Anschrift.
 
 ## Timeline
 

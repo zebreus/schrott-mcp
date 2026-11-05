@@ -91,3 +91,42 @@ Die Betreiberwebsite nennt Serafino Nikolaiciuk und einen Impressumsitz in Hainb
   Nachweis für das Fehlen des Betriebs. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.9,50.18,8.97,50.21 ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.925,50.185,8.945,50.2 ; https://gs-containerdienst.de/impressum/ ;
   https://www.11880.com/branchenbuch/hainburg-hessen/060441364B113009653/gs-containerdienst-hanau.html (Abruf 05.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Frontmatter bleibt unverändert.** Die Nachprüfung
+  korrigiert den alten Negativbefund: die Straße **"Gartenstraße" existiert in OSM** - die Vorwellen-Notiz vom 05.11.2026
+  hatte mit **8.9000/50.1800 bis 8.9700/50.2100** ein **Fenster rund 13 km zu weit nördlich** angesetzt (dort liegen
+  Hanau-Klein-Auheim und Bruchköbel, **nicht** Hainburg; Hainburg mit PLZ 63512 liegt bei 50.075/8.933). Quelle 1 (OSM,
+  live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler):** das live abgerufene Kachelraster am tatsächlichen
+  Ortsort **8.9200/50.0750 bis 8.9500/50.0950** umfasst **6 Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, 30532
+  Elemente, 1650 Adressobjekte auf 77 Straßen; die Adressobjekte tragen `addr:city`=**Hainburg**, `addr:postcode`=**63512**
+  (1303 Objekte, davon 153 in `addr:suburb`=Hainstadt) bzw. Hanau/Klein-Auheim 63456 - das Raster liegt damit im
+  gesuchten Ort. Die Straße "Gartenstraße" ist dort mit **13 Adressobjekten** und **13** verschiedenen Hausnummern
+  erfasst (**1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 18**), durchgehend `building`=apartments/house/yes; sie läuft von
+  way/196702156 (Nummer 1, BBox 50.075828/8.933267 bis 50.075940/8.933429) bis way/1287444467 (Nummer 18, BBox
+  50.074958/8.936477 bis 50.075056/8.936632) und liegt damit **vollständig im Fenster**. **Die Dossier-Hausnummer 83
+  existiert dort nicht** - die Reihe endet bei 18; auch die anderen "Gartenstraßen" des Raums tragen keine 83
+  (Hanau/Klein-Auheim 63456: 1, 3-12, 14; Weiterstadt 64331: 1, 3, 5, 7, 9, 11-15, 15a, 18, 1a, 20-23; Gießen 35390: 10). Eine Suche nach
+  "Nikolaiciuk|Containerdienst|GS Containerdienst|Scrap|Schrott" über die Felder name, operator, brand, description,
+  website, contact:website, shop, craft und addr:housename findet im Kachelausschnitt **0 Treffer** - es gibt **kein**
+  Objekt mit Betriebsbezug zu GS Containerdienst. Quelle 2 (Betreiber/Register): das am 05.11.2026 erneut live gelesene
+  Impressum https://gs-containerdienst.de/impressum/ nennt wörtlich "GS Containerdienst Hanau, Serafino Nikolaiciuk,
+  Gartenstraße 83, 63512 Hainburg, Telefon: 06181 919 505 8, Telefon Mobil: 0151 6770 6600" - die Anschrift ist
+  betreiberseitig belegt, **eine unabhängige zweite Quelle fehlt** (11880 wiederholt dieselben Basisdaten nur als
+  Verzeichnis-Lead; ein Handelsregister- oder sonstiger betreiberunabhängiger Nachweis für die Gartenstraße 83 liegt
+  nicht vor). **Warum keine Koordinate:** es gibt kein adressgenaues OSM-Objekt zur Hausnummer 83; hinzu kommt die
+  ausdrückliche Dossier-Vorgabe: das Dossier ist ein **mobiler** Schrott-/Metall- und Kabelankauf mit Abholung und
+  Containerdienst ("kein lokaler Hof oder öffentliche Selbstanlieferstelle belegt", `pickup_json` belegt die Abholung),
+  und es hält fest: "Hainburg bleibt Impressums-/Büroadresse, **keine bestätigte Selbstanlieferstelle**" und "weder
+  Hanau noch Hainburg als Selbstanlieferstelle geokodieren". **Clear-Direktive, Korrektur zur Vorwellen-Notiz:** die
+  Notiz vom 03.11.2026 nennt eine Owner-Direktive `clear_fields: 'geo'`; das Dossier führt im Frontmatter **keine**
+  `clear_fields`-Zeile und damit **keinen** `geo`-Token - es ist hier nichts zu entfernen und nichts hinzuzufügen; der
+  in der Vorwellen-Notiz genannte gespeicherte Altpunkt 49.7531/8.4886 (Zwingenberger Straße 11, Gernsheim) ist ohne
+  die Clear-Direktive weiterhin der gespeicherte Wert und wurde hier **nicht** verändert. `status` bleibt `pruefung`.
+  **Reichweitenklausel:** das Fehlen der Hausnummer 83 in OSM ist **kein** Nachweis für das Fehlen des Betriebs. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.92,50.075,8.95,50.095 ;
+  https://api.openstreetmap.org/api/0.6/way/196702156/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/1287444467/full.json ;
+  https://gs-containerdienst.de/impressum/ ;
+  https://www.11880.com/branchenbuch/hainburg-hessen/060441364B113009653/gs-containerdienst-hanau.html (Abruf 05.11.2026)]

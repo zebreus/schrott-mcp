@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH ist in Stralsund, Dähnholmstr. 13, als Schrottplatz geführt, doch die
+Filial-Existenz ist nicht belegt. Die aktuelle Metall-Standortliste der Betreibergruppe führt
+13 Orte ohne Stralsund, die ältere Liste hatte 17 Treffer, der Detailpfad zur Niederlassung
+Vorpommern liefert 404, und ein Schließungsbeleg fehlt, daher bleibt der Status der Prüfung.
+Der einzige Hinweis auf den Betrieb ist ein Aggregator-Eintrag, ein betreiberseitiger Beleg
+fehlt ebenso wie eine zweite unabhängige Quelle. Offen bleibt zudem die Adresslage: In
+OpenStreetMap heißt die Straße Dänholmstraße, die Hausnummer 13 existiert dort nicht, nur 13a,
+und kein Objekt trägt einen Bezug zur ALBA, sodass die Koordinate nicht gesetzt wurde. Die
+Sortenliste der Gruppe nennt 17 Gruppen ohne Betrag, ein Ankaufspreis wird nicht
+veröffentlicht.
 
 ## Timeline
 

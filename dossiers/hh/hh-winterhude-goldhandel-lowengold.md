@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldhandel Löwengold ist der von Lev Gehlmann als e.K. geführte Edelmetallankauf am Grasweg 8
+in 22299 Hamburg-Winterhude, HRA 133093 am Amtsgericht Hamburg, der Gold, Silber, Platin,
+Palladium, Altgold, Zahngold, Schmuck, Barren und Münzen aufkauft. Die Identität tragen das
+Impressum der Betreiberseite und das Branchenbuch der Stadt Hamburg, die Anschrift, Rufnummer,
+E-Mail und die Zeiten Montag bis Freitag 12 bis 17 Uhr übereinstimmend nennen, in OpenStreetMap
+ist die Hausnummer 8 lediglich als Wohngebäude ohne Betriebsnamen erfasst. Offen bleibt die
+Preislage, denn die Filialseite stellt faire Ankaufspreise auf Basis des tagesaktuellen
+Edelmetallkurses in Aussicht, nennt aber keinen Kurs je Legierung oder Feingehalt; ein Verkauf
+von Edelmetallen ist nicht belegt. Die Bewertung und die Sofortauszahlung sind ausdrücklich
+gebührenfrei, Gebühren für Transport oder Auszahlung werden nicht genannt.
 
 ## Timeline
 

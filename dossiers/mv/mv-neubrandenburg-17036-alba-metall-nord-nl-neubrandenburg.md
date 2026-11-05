@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord NL Neubrandenburg ist in Neubrandenburg, Kruseshofer Str. 21, 17036, mit
+Telefonnummer 0395 3698315 als Standort geführt, doch die Filial-Existenz ist nicht
+betreiberseitig belegt. Die aktuelle Metall-Standortliste der Betreibergruppe nennt 13 Orte
+ohne Neubrandenburg, die ältere Liste hatte 17 Treffer, der Detailpfad zum Ort liefert 404,
+und ein Schließungsbeleg fehlt, daher bleibt der Status der Prüfung. Die Adresslage ist
+ungeklärt: In OpenStreetMap ist die Hausnummer 21 zweifach erfasst, das benannte Objekt trägt
+den Maschinenbaubetrieb SMW Spezialmaschinen und Werkzeugbau, dessen Telefonnummer nicht der
+Dossiernummer entspricht, ein Objekt mit Bezug zur ALBA fehlt. Offen bleiben die Zuordnung der
+Dossier-Telefonnummer, die nicht gesetzte Koordinate und die Preislage, denn die Sortenliste
+nennt 17 Gruppen ohne Betrag und ein Ankaufspreis wird nicht veröffentlicht.
 
 ## Timeline
 

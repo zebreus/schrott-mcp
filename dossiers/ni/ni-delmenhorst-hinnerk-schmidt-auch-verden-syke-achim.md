@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hinnerk Schmidt GmbH, Dibberser Bahnhof 1, 27321 Thedinghausen: Metallhändler mit
+Ankauf von Schrott und Buntmetallen für Privat und Gewerbe, Containergestellung
+und Abholung nach Anmeldung. Das Impressum der Betreiberseite hschmidt.gmbh weist
+die Gesellschaft mit HRB 208589 Walsrode aus; Northdata und Creditreform stützen
+Register und Anschrift registerkongruent. Ankauf ist ausdrücklich belegt: Fe-Schrott
+ab 100 kg, NE-Metalle sortiert ab 1 kg, Auszahlung bar oder per Überweisung,
+Ausweispflicht; dazu eine 60-t-Fahrzeugwaage. Der Platz ist Mo-Fr 13-16 geöffnet,
+das Büro Mo-Fr 8-16. Die frühere Domain hinnerk-schmidt.de ist nur noch eine
+Parkseite. Offen bleiben der Widerspruch zwischen dem Ortsfeld Delmenhorst und
+dem Impressumsort Thedinghausen sowie die ausstehende Geokodierung der Anschrift.
 
 ## Timeline
 

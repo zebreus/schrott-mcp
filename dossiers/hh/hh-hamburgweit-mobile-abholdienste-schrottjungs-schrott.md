@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottjungs UG (haftungsbeschränkt) mit Geschäftsführer Magnus Ditz und HRB 196586 am
+Amtsgericht Hamburg, Billwerder Steindamm 15a in 20537 Hamburg, betreibt mobile Schrott- und
+Metallabholung und stellt Container, im Angebot stehen die Marken Schrottjungs, Schrottbienen
+und Hamburger Schrottverwertung. Die Beleglage tragen das Impressum der Betreiberseite und die
+Hamburger Landingpage, auf der eine Abholgebühr von etwa 40 bis 80 Euro für Einzelgeräte und
+eine Mindestmenge von 300 kg Eisenschrott genannt werden; Container von 3 bis 40 Kubikmetern
+sind mietfrei bei Schrottbefüllung. Die Preistafel der Gewerbe-Seite nennt 19 unverbindliche
+Richtpreise als Obergrenzen, sie ist eine bundesweite Markenliste ohne Gültigkeitsdatum und
+kein Hamburger Tagespreis; die ausführenden Partnerbetriebe bleiben unbenannt, und eine
+Preisbelegung für Schrottbienen und die Hamburger Schrottverwertung fehlt.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Peter Stolz Edelstahlhandelsgesellschaft mbH, Hovestraße 32 in 20539 Hamburg-Veddel, ist ein
+Edelstahlhändler der ISR-Gruppe, die mit der ISR Recycling GmbH & Co. KG, der LSH Lübecker
+Schrotthandel GmbH und der Warnsholz GmbH & Co. KG vier Gesellschaften unter einer Adresse
+führt, Geschäftsführer ist Kevin Hopp. Die Anschrift und die Firmierung tragen das Impressum
+und die Kontaktseite der Gruppe sowie deren Standortübersicht, eine Registernummer nennt das
+Impressum nicht, weshalb die Belegkette unvollständig bleibt und Telefon, E-Mail und
+Öffnungszeiten nicht vollständig geführt sind. Die Adresse ist ausschließlich betreiberseitig
+belegt, nach dem dokumentierten OSM-Abgleich ist die Hausnummer 32 auf der Hovestraße nicht
+adressiert. Sorten, Preise und Gebühren sind für diesen Standort nicht belegt, die Angaben der
+Gruppe gelten für andere Standorte.
 
 ## Timeline
 

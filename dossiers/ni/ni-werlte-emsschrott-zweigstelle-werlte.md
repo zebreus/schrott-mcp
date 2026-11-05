@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Emsschrott GmbH & Co. KG, Zweigstelle Werlte, Am Zirkel 10, 49757 Werlte: Annahmestelle
+für Fe- und NE-Schrott im Verbund der Emsschrott-Gruppe mit Zentrale in Essener
+Straße 15 in Meppen-Hüntel. Organigramm augustin-entsorgung.de und Annahmestellenliste
+auf emsschrott.de führen den Standort Werlte übereinstimmend mit Anschrift und
+Telefonnummer 05951 95810, während das Dossier die Zentrale führt. Die Preisseite
+nennt das Schrottangebot der Woche mit acht Sorten, darunter Mischschrott mit 105,-
+Euro je Tonne und Kupfer alt mit 9,25 Euro je Kilogramm, abgeleitet aus tagesaktuellen
+marktgerechten Preisen; die Tabelle trägt kein Datum und wird donnerstags veröffentlicht.
+Offen bleiben die Frage identischer Wochenpreise an allen Annahmestellen, der
+fehlende Preisstand und die abweichende Telefonnummer der Zentrale für den Standort.
 
 ## Timeline
 

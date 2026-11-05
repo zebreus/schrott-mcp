@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SMS Metall Recycling, In den Wiesenhöfen 34, 27383 Scheeßel: Metallhändler, der nach
+dem Seed Alu, Kupfer, Kabel und E-Motoren sowie Demontage anbietet. Das Impressum
+der Betreiberseite smsrecycling.de nennt Anschrift, Mobilnummer, die E-Mail-Adresse
+e.schmelzer@smsrecycling.de und die USt-ID DE301515073, weist aber keine HRB aus; die Seite
+verweist außerdem darauf, dass ein Besuch nur nach telefonischer oder E-Mail-Anmeldung
+möglich ist. Ohne Registerangabe greift die Owner-Ausnahme nicht, sodass Adresse und
+Kontakt auf einem einzigen Betreiberbeleg beruhen und der Status auf Prüfung bleibt. Feste
+Öffnungszeiten sind nicht veröffentlicht. Offen bleiben damit der fehlende unabhängige
+Zweitbeleg, das leere Öffnungszeitenfeld und die nicht gesetzte Koordinate der Anschrift.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Uwe Hanusa Schrott- und Metallhandel, Brackestraße 9, 38159 Vechelde: Einzelunternehmen
+des Schrotthandels, laut Impressum mit Inhaberin Silke Hanusa und USt-ID DE179365814,
+das Schrott und Metalle zu online genannten Tagespreisen ankauft. Das Impressum der
+Betreiberseite hanusa-schrott.de nennt Anschrift, Festnetz und E-Mail-Adresse. Die
+Identität ist über einen Registerblick auf Silke Hanusa in Vechelde gestützt, doch
+dieser belegt nur den Ort, nicht die Straße; eine Suche im Handelsregister nach Hanusa
+in Vechelde blieb ohne Treffer, sodass die Owner-Ausnahme ohne HRB nicht greift.
+Öffnungszeiten sind nicht publiziert. Offen bleiben der fehlende straßengenaue Zweitbeleg
+für die Anschrift, das leere Öffnungszeitenfeld und die nicht gesetzte Koordinate.
 
 ## Timeline
 

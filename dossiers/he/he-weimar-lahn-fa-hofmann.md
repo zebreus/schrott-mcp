@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fa. Hofmann ist ein Schrotthändler, den ein Verzeichnis mit der Branchenangabe
+Altmetallrecycling und der Anschrift Koblenzer Str. 41 in 35096 Weimar an der Lahn führt.
+Dieser Eintrag ist der einzige Beleg, eine zweite Quelle fehlt, und die Telefonvorwahl des
+Verzeichnisses passt nicht zum Ort. Die kommunale Liste der Gemeinde Weimar nennt für Metall-
+und Schrotthandel nur Daniel Muth und Fa. Schäfer, in OpenStreetMap existiert die Hausnummer 41
+auf der Koblenzer Straße nicht, wo die Nummern 40 und 44 geführt sind. Die Suche im gemeinsamen
+Registerportal der Länder nach Hofmann Weimar ergibt keinen Treffer, und für Weimar an der Lahn
+existiert keine Ortsseite im amtlichen Fachbetrieberegister, beides ohne Beweiswert, weil die
+Anerkennung freiwillig ist. Der gespeicherte Koordinatenpunkt löst auf einen Straßenpunkt der
+Bundesstraße auf. Sorten, Preise und Gebühren sind nicht belegt, der Status bleibt in Prüfung.
 
 ## Timeline
 

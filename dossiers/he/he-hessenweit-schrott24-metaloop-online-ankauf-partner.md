@@ -119,3 +119,43 @@ zwischen Impressum und AGB.
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.68,50.105,8.7,50.125 ; https://www.schrott24.de/ ;
   https://www.schrott24.de/faq/impressum ; https://www.schrott24.de/faq/agb/ ;
   https://www.schrott24.de/standorte/schrottplatz-hessen/ (Abruf 05.11.2026)]
+
+### Geokodierung 05.11.2026 (Nachprüfung)
+
+- [Geokodierung 05.11.2026: **Klärfall - keine Koordinate gesetzt; die Frontmatter bleibt unverändert.** Das Dossier hat
+  **keine Dossier-Adresse** (`street` und `postcode` leer, `city` = "hessenweit") und beschreibt keinen einzelnen
+  Standort: die Hessen-Landingpage nennt Frankfurt und Bischofsheim bei Mainz ausdrücklich als **Partnerstandorte**, und
+  konkrete Annahmeadressen und -zeiten werden laut Support **erst nach dem Online-Verkaufsabschluss** mitgeteilt ("Genau(e)
+  Anlieferadresse und Öffnungszeiten erhalten Sie nach Verkaufsabschluss automatisch per E-Mail"); der Auftritt ist damit ein
+  Online-Ankaufportal mit Partnerbetrieben, kein Standortbetrieb mit offengelegter Anschrift. Ein adressgenaues OSM-Objekt
+  kann damit nicht zugeordnet werden: es existiert **keine** Dossier-Hausnummer, nach der im Kachelraster gesucht werden
+  könnte. Quelle 1 (OSM, live geprüft am 05.11.2026): **Fensterprüfung (kein Fensterfehler)** an **beiden** vom
+  Betreiber genannten Partnerorten. **Frankfurt:** das Kachelraster **8.6800/50.1050 bis 8.7000/50.1250** umfasst **4
+  Kacheln von je 0,01 Grad**, **0 Kachel-Fehler**, 69685 Elemente, 4404 Adressobjekte auf 221 Straßen; eine Suche nach
+  "Schrott24|Metaloop|Schrott|Metall|Recycling" über die Felder name, operator, brand, description, website,
+  contact:website, shop, craft und addr:housename liefert **45** Treffer, ausschließlich kommunale Wertstoffcontainer
+  (`amenity`=recycling, **ohne** `name` **und** **ohne** `operator`), Spenden-Shops des Deutschen Roten Kreuzes und die
+  Schmuckwaren-Firma "Galerie Gesamtmetall" - **kein** Objekt mit Bezug zu "Schrott24", "Metaloop" oder einem
+  Schrottbetrieb. **Bischofsheim bei Mainz:** hier ist die Ortszuordnung selbst zu prüfen, es gibt **drei** gleichnamige
+  Orte - das Kachelraster **8.3500/49.9800 bis 8.3800/50.0000** (**6 Kacheln**, **0 Kachel-Fehler**, 27105 Elemente, 2344
+  Adressobjekte, 96 Straßen) liegt in **Bischofsheim (Mainspitze), `addr:postcode`=65474, `addr:city`=Bischofsheim**
+  (2356 Adressobjekte) und damit beim vom Betreiber gemeinten Ort; die Suche dort liefert **3** Treffer, allesamt
+  kommunale Wertstoffcontainer ohne Betriebsbezug. Zum Vergleich: die Fenster **8.2000/50.0900 bis 8.2200/50.1100**
+  (**4 Kacheln**, **0 Kachel-Fehler**, 12485 Elemente, 496 Adressobjekte) und **8.2500/50.0900 bis 8.2800/50.1100**
+  (**6 Kacheln**, **0 Kachel-Fehler**, 28821 Elemente, 2834 Adressobjekte) liegen in **Wiesbaden** (65191/65193/65197) und
+  damit in den **Namensvettern** Wiesbaden-Bischofsheim bzw. Wiesbaden - **nicht** im Dossier-Ort. Quelle 2
+  (Betreiber/Register): **fehlt** - das Impressum nennt die **Metaloop Europe GmbH** (Sitz Graz, Österreich), die
+  AGB-Seite dagegen die **Schrott24 GmbH**; die Betreiber-/Vertragskette und die Übertragbarkeit einzelner AGB-Klauseln auf
+  Hessen sind im Dossier ausdrücklich offen. **Warum keine Koordinate:** eine Geokodierung eines der Partnerstandorte
+  würde einen Standort suggerieren, den der Betreiber bewusst erst nach Verkaufsabschluss mitteilt, und würde zudem die
+  ungeklärte Gesellschaftskette verdecken. **Clear-Direktive, Korrektur zur Vorwellen-Notiz:** die Notiz vom 03.11.2026
+  nennt eine Owner-Direktive `clear_fields: 'geo'`; das Dossier führt im Frontmatter **keine** `clear_fields`-Zeile und
+  damit **keinen** `geo`-Token - es ist hier nichts zu entfernen und nichts hinzuzufügen. `status` bleibt `aktiv` (die
+  Plattform selbst ist aktiv - die Standortangabe nicht). **Reichweitenklausel:** das Fehlen einer Dossier-Hausnummer oder
+  eines Partnertreffers in OSM ist **kein** Nachweis für das Fehlen der Plattform oder ihrer Partnerbetriebe. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.68,50.105,8.7,50.125 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.35,49.98,8.38,50.0 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.2,50.09,8.22,50.11 ;
+  https://api.openstreetmap.org/api/0.6/map.json?bbox=8.25,50.09,8.28,50.11 ;
+  https://www.schrott24.de/ ; https://www.schrott24.de/faq/impressum ;
+  https://www.schrott24.de/faq/agb/ ; https://www.schrott24.de/standorte/schrottplatz-hessen/ (Abruf 05.11.2026)]
