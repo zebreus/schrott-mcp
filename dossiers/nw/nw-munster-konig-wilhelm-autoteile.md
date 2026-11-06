@@ -6,13 +6,14 @@ name: König Wilhelm Autoteile - Einbrodt & Schubert GbR
 trader_type: autoverwertung
 state: NW
 city: Münster
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+street: Dahlweg 122
+postcode: 48153
+phone: 0251 791170
+email: info@koenig-wilhelm.com
+opening_hours: Mo-Fr 09:00-12:30, 13:00-17:00
+website: https://koenig-wilhelm.com/
+website_status: aktiv
+certifications: '["AltfahrzeugV: Bescheinigung nach § 5 Abs. 3 AltfahrzeugV (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route „Altfahrzeugverwertung“, Abruf 06.11.2026): Vorgangsnummer ZAES01100066, Bescheinigungsanlagennr. 1, Kennnummer E515A7002, Bezeichnung der Firma „Einbrodt & Schubert GbR“, Adresse der Firma „Dahlweg 122, 48153 Münster“, Telefon 0251 791170, Fax 0251 790631, Ansprechpartner Herr Einbrodt Dirk; Entfernung 0,0 km zur Dossieranschrift; die Felder „Internetadresse“, „E-Mail“ und „Rücknahme für folgende Hersteller“ sind im Register leer; Zertifikatsnummer, Aussteller und Gültigkeitsdatum der AltfahrzeugV-Bescheinigung sind im Register nicht ausgewiesen (für die Bescheinigung ist kein PDF hinterlegt)"]'
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -80,3 +81,8 @@ Mehrere Seiten derselben Website sind keine unabhängigen Quellen. Kein vollstä
   ; https://api.openstreetmap.org/api/0.6/map.json?bbox=7.6100,51.9200,7.6400,51.9500 ;
   https://koenig-wilhelm.com/Impressum ; https://koenig-wilhelm.com/Anfahrt ; https://koenig-wilhelm.com/Autoverwertung
   (Abruf 04.11.2026; Betreiber-Domain technisch nicht erreichbar).]
+
+### Recherche 06.11.2026
+
+- [Recherche 06.11.2026: **Der bislang unbestätigte Feedback-GESA-Key ZAES01100066/1 ist jetzt am amtlichen Register bestaetigt - der zuvor fehlende qualifizierte Zweitbeleg liegt vor.** Die Standortsuche 3 km um Dahlweg 122, 48153 Münster (Punkt 51.9389675/7.6294713) in der Route „Altfahrzeugverwertung“ liefert genau **1 Treffer mit 0,0 km Entfernung**: „Einbrodt & Schubert GbR“, Dahlweg 122, 48153 Münster, **ZAES01100066 / 1**. Der Detaildialog des Registers fuehrt dazu woertlich: „Bezeichnung der Firma: Einbrodt & Schubert GbR“, „Adresse der Firma: Dahlweg 122, 48153 Muenster“, „Vorgangsnummer: ZAES01100066“, „Bescheinigungsanlagennr.: 1“, „Telefon: 0251 791170“, „Fax: 0251 790631“, „Ansprechpartner: Herr Einbrodt Dirk“, „Kennnummer: E515A7002“; die Felder „Internetadresse“, „E-Mail“ und „Ruecknahme fuer folgende Hersteller“ sind leer. Die Namenssuche „Einbrodt“ und „Einbrodt & Schubert“ in derselben Route liefert jeweils denselben Eintrag, die Namenssuche in der Route „Entsorgungsfachbetriebe“ dagegen 0 Treffer. Telefonnummer und Fax decken sich woertlich mit dem Impressum der Betreiberseite (0251 791170, Fax 0251 790631) - das ist die bisher fehlende zweite, unabhaengige Quelle fuer Name, Anschrift und Kontakt, weshalb `street` „Dahlweg 122“, `postcode` „48153“, `phone` „0251 791170“, `email` „info@koenig-wilhelm.com“ und `opening_hours` „Mo-Fr 09:00-12:30, 13:00-17:00“ gesetzt und `website` „https://koenig-wilhelm.com/“ mit `website_status` „aktiv“ ergaenzt werden; `status` bleibt `pruefung`, weil der Registereintrag die Anerkennung, nicht die oeffentliche Annahme am Standort belegt. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Dahlweg%20122%2C%2048153%20M%C3%BCnster;7.6294713;51.9389675;7.6324713;51.9419675;7.6264712999999995;51.9359675&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Einbrodt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Einbrodt%20%26%20Schubert ; https://koenig-wilhelm.com/Impressum (Abruf 06.11.2026)]
+- [Recherche 06.11.2026: **Der Betrieb bestaetigt selbst die Verwertungsfachbetrieb-Rolle; die Zertifizierungsangabe der Betreiberseite ist damit amtlich gedeckt, ein Zertifikats-PDF ist im Register aber nicht hinterlegt.** Die Autoverwertungsseite der Betreiberseite (live am 06.11.2026 gerendert) fuehrt woertlich: „Seit 2008 sind wir als Verwertungsfachbetrieb zertifiziert und entsorgen Autos im Raum Muenster und Umgebung, 2016 haben wir uns zudem einem bundesweiten Netzwerk regionaler Autoverwerter angeschlossen“, dazu die Leistungen Abholung ueber Abschleppdienst, Verwertung nach Altfahrzeug-Verordnung und Verwertungsnachweis. Die Efb-Route des Registers liefert fuer den Standort 0 Treffer (Namenssuche „Koenig Wilhelm“, „Einbrodt“, „Einbrodt & Schubert“ je 0 Treffer; Standortsuche 3 km 15 Treffer, darunter recava GmbH, Industrieweg 43, 48155 Muenster, 0,6 km, Gaarmann Overhaus Container GmbH & Co. KG, Loddenheide 30, 0,7 km, und Abfallwirtschaftsbetriebe Muenster, Eulerstraße 8, 0,8 km). `certifications` traegt daher nur die AltfahrzeugV-Bescheinigung, keine Efb-Zertifizierung. **ANKAUF:** weiterhin keine numerischen Fahrzeug-, Metall- oder Katalysatorkurse; das Angebot wird beschrieben, nicht beziffert. **VERKAUF:** die Preise im Teileshop (z. B. Jeep Wrangler III Fast Track Light Kit 799,99 EUR, Jeep Willys Kurbelwellen-Zahnrad 49,99 EUR) sind Artikelverkaufspreise und kein Schrottankaufkurs. **GEBUEHREN:** die Abholpauschale bleibt ohne Zahl, „in einigen Fällen kann die Abholung sogar kostenlos durchgefuehrt werden - je nach KFZ, Zustand und Entfernung“; die bereits dokumentierten Versandkonditionen (Paketversand DE bis 31,5 kg kostenlos, Sperrgut DE bis 31,5 kg kostenlos, Spedition DE bis 50 kg 80 EUR bis 400 kg 190 EUR) sind Teileverkaufs- und keine Metallabholkosten. Offen bleibt, ob an der Dahlweg 122 (in OSM als Wohnhaus erfasst) oeffentlich Material angenommen wird. Quelle(n): https://koenig-wilhelm.com/Autoverwertung ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=K%C3%B6nig%20Wilhelm ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Dahlweg%20122%2C%2048153%20M%C3%BCnster;7.6294713;51.9389675;7.6324713;51.9419675;7.6264712999999995;51.9359675&dst=3&is=1&e=1 (Abruf 06.11.2026)]
