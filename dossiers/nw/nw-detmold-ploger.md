@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Carl Plöger e.K. ist ein Schrotthändler in der Arminstraße 32, 32756 Detmold, der Groß-
+und Einzelhandel mit Alt- und Abfallstoffen betreibt. Das Impressum der Betreiberseite
+nennt Inhaber, Anschrift und die Registernummer HRA 2772 Amtsgericht Lemgo, der HR-Spiegel
+bestätigt den aktiven Registerstand. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG mit dem Zertifikat 291109033 der DEKRA Certification
+GmbH, gültig bis zum 08.03.2028, die Anlage Sammeln und Befördern mit der Kennnummer
+E766T00076 ist dem Standort zugeordnet. Offen bleibt eine Anerkennung nach der
+AltfahrzeugV, für die das Register keine Treffer ausweist; die auf der Betreiberseite
+verlinkte Bestätigung von 2025 ist der Vorgänger des Registerzertifikats.
 
 ## Timeline
 

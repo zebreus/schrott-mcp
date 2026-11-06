@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SOLO Recycling compani ist ein mobiler Schrottservice im Gewerbegebiet Keltenweg 4, 66636
+Tholey, der Altmetalle vor Ort mit geeichter Waage wiegt, sortenrein zu einem geeigneten
+Entsorgungsfachbetrieb bringt und nach Materialart sogar zahlt; für private Haushalte ist die
+Abholung ausdrücklich kostenfrei, für Gewerbe gelten drei Servicepakete mit
+Rückvergütungssystem ohne veröffentlichte Beträge, und beworben wird die Produktion von
+Kupfergranulaten. Belege sind die Google-Sites-Betriebsseite und das Branchenverzeichnis 11880.
+Offen bleibt die Adresslage: die Betriebsseite nennt Keltenweg 4, das Verzeichnis nennt
+Keltenweg 2, und in OpenStreetMap tragen diese Nummern im Gewerbegebiet andere Firmen, während
+der Betrieb dort nicht kartiert ist. Ein Registereintrag fehlt, und ein Euro-Betrag je Material
+ist nicht belegt.
 
 ## Timeline
 

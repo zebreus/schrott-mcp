@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+WELI-Stahl Handelsgesellschaft mbH ist ein Altmetall-Rohstoffhändler, dessen Sitz laut
+Impressum in Oberhausen liegt und der in der Horststraße 4, 46539 Dinslaken ein Lager
+unterhält. Das Betreiber-Impressum nennt die Gesellschaft mit HRB 9781 Amtsgericht
+Duisburg, die Kontaktdaten stammen aus dem operativen Kontakt am Standort Oberhausen.
+Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG mit dem
+Zertifikat ESN 01-050320(26) der ESN, gültig bis zum 30.09.2027, wobei das Zertifikat als
+Hauptsitz die Dinslakener Adresse und als einzige Anlage die Fernewaldstraße 64 in
+Oberhausen nennt. Offen bleibt damit die Standortfrage, welche der beiden Anschriften die
+zertifizierte Anlage trägt, und eine Anerkennung nach der AltfahrzeugV ist im Register
+nicht ausgewiesen.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+WESTSCHROTT Industrie-Abbruch GmbH & Co. KG, Gewerbeallee 10, 45478 Mülheim an der Ruhr: zur
+TUS-Gruppe gehörendes Unternehmen für industriellen Abbruch, Abfallmanagement,
+Entkernung, Schadstoffsanierung und Verschrottung von Maschinen und Anlagen, laut
+Betreiberangabe seit 1924. Rechtsform und Anschrift sind durch das Betreiberimpressum mit
+HRA 8746 Amtsgericht Duisburg und einen Registerspiegel mit publiziertem Jahresabschluss 2024
+gedeckt; genannt sind der Geschäftsführer John Frederik Dresselmann und als
+Zertifizierungen SCCP, BGR 128, TRGS 519 und TRGS 521 sowie die Zertifizierung als
+Entsorgungsfachbetrieb. In OpenStreetMap ist die Hausnummer 10 als Adressobjekt ohne
+Betriebsverweis geführt. Offen bleiben die Frage, ob Gewerbe im Sinne eines
+Schrottankaufs Material anliefern können, sowie die Inhalte der Zertifikatsunterlagen.
 
 ## Timeline
 

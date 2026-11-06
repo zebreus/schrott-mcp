@@ -26,7 +26,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TRIMET Aluminium SE, Aluminiumallee 1, 45356 Essen: Primärhersteller von Aluminium mit
+eigener Recycling- und Schrottsortierung, Werk Essen mit Schrottlager und B2B-Rücknahme
+von Aluminiumschrott. Identität und Rechtsform tragen das Betreiberimpressum mit HRB 24574
+Amtsgericht Essen sowie die Werk- und Recyclingseiten derselben Domain. In OpenStreetMap ist
+die Hausnummer 1 der Aluminiumallee als Adressknoten mit Entrance geführt und liegt im als
+TRIMET benannten Werksgelände. Offen bleiben ein öffentlich belegter Ankauf von Schrott
+durch Privatkunden, die nicht veröffentlichten Öffnungszeiten und die Frage einer
+Annahme durch Dritte am Werk.
 
 ## Timeline
 

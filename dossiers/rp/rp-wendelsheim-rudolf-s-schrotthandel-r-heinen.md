@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rudolf's Schrotthandel von R. Heinen ist ein Schrotthändler am Neuer Weg 19, 55234 Wendelsheim,
+mit der Mobilnummer 0171 9858467, der Ankauf und Entsorgung von Altmetallen, Alteisen und
+Altfahrzeugen anbietet und ein Einzugsgebiet von Alzey-Worms bis Bad Kreuznach, Mainz-Bingen
+und Kaiserslautern nennt. Belegt sind das Betreiber-Impressum der hpage-Website und in
+OpenStreetMap ein Objekt mit Hausnummer 19, das die Adresse bestätigt, aber weder Namen noch
+Betreiber trägt; ein Objekt, das den Betrieb selbst nennt, existiert dort nicht. Offen bleibt
+die Beleglage: das Impressum ist die einzige Quelle, ein Registereintrag existiert nicht, die
+Angabe des Einzelunternehmens bleibt eine Vermutung, und für Ankauf, Verkauf und Gebühren ist
+keine Zahl belegt.
 
 ## Timeline
 

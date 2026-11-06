@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Golden Gate Goldankauf, Inh. Frank Maurer, Entenpfuhl 12, 56068 Koblenz: An- und Verkauf von
+Gold und Edelmetallen im Nebenhandel mit Souvenirs, Geschenkartikeln und Kleinantiquitäten.
+Die Betreiberseite mit Kontakt- und Impressumsangaben nennt Name, Anschrift und Rufnummer, ein
+Objekt in OpenStreetMap mit der Bezeichnung Golden Gate an derselben Hausnummer der
+Entenpfuhl stützt Name und Anschrift unabhängig; ein Handelsregister ist nicht vorhanden,
+da es sich um ein Einzelunternehmen handelt. Am selben Eingang ist im selben Haus eine zweite
+Ladenzeile mit der Bezeichnung Goldschmiede Faust erfasst. Offen bleiben die Zuordnung der
+beiden Ladentüren, die Frage, ob Maurer die Koblenzer Geschäfte gemeinsam oder getrennt
+führt, sowie ein öffentlich bezifferter Ankaufpreis, der auf der Leistungsseite nicht
+steht.
 
 ## Timeline
 

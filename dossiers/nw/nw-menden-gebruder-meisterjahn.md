@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gebrüder Meisterjahn GmbH, Eilinger Kamp 9-17, 58708 Menden: Entsorgung und Verwertung.
+Das Handelsregister des Amtsgerichts Arnsberg belegt unter HRB 4707 die Firmierungskette von
+der Gebrüder Horst und Dieter Meisterjahn GmbH über die Gebrüder Meisterjahn GmbH bis
+zur Umfirmierung in die Phönix Kabelrecycling GmbH am 09.10.2018 bei gleicher Anschrift; das
+Dossier führt den früheren Geschäftsführer Dieter Meisterjahn. Die im Frontmatter
+geführte Domain meisterjahn-gmbh.de leitet nur per Meta-Refresh auf eine Baustellenseite
+der Phönix Kabelrecycling um und trägt keinen Namen des Dossiers. Offen bleiben die
+Betreiberidentität unter der aktuellen Firmierung, der widersprüchliche Telefonstand,
+die Öffnungszeiten und die fehlende Standortkoordinate.
 
 ## Timeline
 

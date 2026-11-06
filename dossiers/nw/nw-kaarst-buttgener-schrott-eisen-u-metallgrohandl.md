@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+BSG Büttgener Schrott-, Eisen- und Metallgroßhandlung GmbH & Co. KG, Kaarster Str. 61,
+41564 Kaarst (Holzbüttgen): Großhandel mit Eisen- und Nichteisenmetallen, Abfallspänen,
+Kabeln und gemischten Metallen. Die Identität tragen zwei Registerspiegel zum Amtsgericht
+Neuss unter HRA 3068 mit derselben Anschrift sowie das Betreiberimpressum, das
+Geschäftsführer und Umsatzsteuer-Identifikationsnummer nennt, aber keine Registernummer
+ausweist. Eine eigene positive Betriebszuordnung in OpenStreetMap bestätigt Name,
+Telefonnummer und Öffnungszeiten am Adressobjekt Kaarster Straße 61; die
+veröffentlichte ESN-Liste ist eine Liste zugelassener Produkte und keine Preisliste. Offen
+bleiben der aktuelle Entsorgungsfachbetriebs-Nachweis, dessen Zertifikats-PDF hier nicht
+ausgewertet wurde, und die Frage, ob Privatanlieferungen angenommen werden.
 
 ## Timeline
 

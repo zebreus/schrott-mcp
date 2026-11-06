@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+IST GmbH ist eine Autoverwertung in der Stauderstraße 83 bis 85, 45326 Essen, die
+Karossen, Batterien und Katalysatoren mit Preislisten ankauft und zugleich Metallrecycling
+betreibt. Das Betreiber-Impressum nennt die Gesellschaft mit HRB 25453 Amtsgericht Essen
+und den Geschäftsführer Peter Prison, die Kontaktseite weist an dieser Anschrift
+Annahmezeiten aus, und die Umweltinspektionsberichte der Bezirksregierung Düsseldorf
+führen dort die Altfahrzeugbehandlungsanlage der IST GmbH. Die Koordinate ist auf das
+adressgenaue OSM-Objekt way/279775663 mit der Hausnummer 83 gestützt, das den Betrieb
+nicht benennt und daher die belegte Anschrift und keine verifizierte Anlage bezeichnet.
+Offen bleibt damit der Nachweis der Anlage am Standort.
 
 ## Timeline
 

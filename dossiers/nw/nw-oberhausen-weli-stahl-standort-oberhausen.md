@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+WELI-Stahl Handelsgesellschaft mbH, Fernewaldstraße 64, 46145 Oberhausen: Standort eines
+Altmetall- und Rohstoffhandlers mit Containerdienst; das Impressum weist den Sitz in
+Oberhausen und die Unternehmensanschrift in Dinslaken aus und nennt HRB 9781 Amtsgericht
+Duisburg sowie die Geschäftsführer Tobias Karsten und Karsten Klinkhammer. Mitgliedschaft
+in der Entsorgergemeinschaft der deutschen Stahl- und NE-Metall-Recycling-Wirtschaft und
+Entsorgungsfachbetriebsstatus werden von der Betreiberseite behauptet. Ein unabhängiger
+Registerabgleich ist nicht möglich, da die genannte Registernummer nur auf der Betreiberseite
+steht und die Spiegelprüfung scheiterte. Preise werden nicht veröffentlicht, der Betreiber
+nennt sie ausdrücklich nur tagesaktuell im persönlichen Kontakt. Offen bleiben der
+Registerbeleg, der Inhalt des verlinkten Zertifikats und die Standortkoordinate.
 
 ## Timeline
 

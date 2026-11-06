@@ -27,7 +27,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+City Gold Ankauf ist ein von Annette Berchem geführtes Einzelfirmen-Geschäft für den Ankauf von
+Gold, Silber, Platin, Palladium, Rhodium, Zahngold, Schmuck und Uhren in der Bibelstraße 3,
+66740 Saarlouis, mit der Rufnummer 06831 9021351 und Barzahlung zum tagesaktuellen Börsenkurs.
+Verkauft werden ausgewählte gebrauchte Schmuckstücke aus Gold, Silber und Platin sowie
+Bernstein und Perlen, eine Preisliste wird nicht veröffentlicht. Belege sind das
+Betreiber-Impressum und die Kontaktseite, die zugleich den Umzug von der Titzstraße 19 an die
+Bibelstraße 3 ausweisen, sowie in OpenStreetMap ein Objekt mit Hausnummer 3 ohne Namens- oder
+Betreiberangabe; der Knoten mit dem Firmennamen City Gold Ankauf liegt noch an der alten
+Titzstraße 19, an der Dossier-Adresse steht nur der Eintrag Edelmetallhandel. Offen bleibt eine
+unabhängige Bestätigung, weshalb die E-Mail leer bleibt.
 
 ## Timeline
 

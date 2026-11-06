@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Weiler Bärbel ist ein Schrotthändler in der Eisenbahnstraße 1, 66589 Merchweiler,
+dessen einziger Beleg das Verzeichnis schrottplatz-info.de ist, das die Adresse und die
+Rufnummer 06825 6186 führt und ausdrücklich vermerkt, dass weder eine vollständige Beschreibung
+noch das Leistungsangebot erfasst sind. Die im Dossier genannten Mindestmengen für Eisen und
+Nichteisenmetalle stammen aus diesem Verzeichnis und sind nicht durch eine zweite Quelle
+gedeckt. Die Domain schrott-wb.de löst sich nicht mehr auf, in OpenStreetMap trägt die
+Hausnummer 1 weder Namen noch Betreiber. Offen bleibt damit die gesamte Identitätslage: kein
+zweiter Beleg, kein Register, kein Impressum und keine Preise; auch die Frage, ob Bärbel Weiler
+und Matthias Weiler an der Nummer 1a dieselbe Firma sind, bleibt unbelegt.
 
 ## Timeline
 

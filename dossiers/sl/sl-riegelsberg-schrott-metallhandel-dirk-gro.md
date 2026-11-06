@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott & Metallhandel Dirk Groß ist ein von Dirk Groß geführtes Einzelunternehmen in der
+Walpershoferstraße 7a, 66292 Riegelsberg, das Schrott aller Art, Metallankauf von Kupfer,
+Kabel, Edelstahl und Messing, Auto- und Nutzfahrzeugentsorgung, Demontage und Entrümplungen
+anbietet. Belege sind das Impressum mit Anschrift, Telefonnummer, E-Mail und
+Umsatzsteuer-Identifikationsnummer DE 249 671 693 sowie in OpenStreetMap ein Objekt mit
+Hausnummer 7a ohne Namens- oder Betreiberangabe, das die Anschrift bestätigt. Offen bleibt die
+Beleglage: ein Handelsregistereintrag fehlt, PLZ, Telefon, E-Mail und Öffnungszeiten stehen nur
+in der Timeline, und es bleibt ungeklärt, ob der Betrieb mit der bundesweiten Plattform unter
+der ähnlich lautenden Domain schrott24.de identisch ist, deren Preisliste daher nicht für
+dieses Dossier gilt. Ankauf, Verkauf und Gebühren ohne belegte Zahl.
 
 ## Timeline
 

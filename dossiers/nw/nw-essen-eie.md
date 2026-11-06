@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+EIE Services GmbH ist ein Schrotthändler, dessen Anschrift Gelsenkirchener Straße 181,
+45309 Essen-Schonnebeck laut zwei Verzeichnissen mit der Rufnummer 0201 21962114 und der
+Branche Schrott geführt wird. Ein Betreiberauftritt fehlt, die im Verzeichnis genannte
+Domain deinschrottplatz.de ist nicht mehr auflösbar, und das archivierte Impressum von
+2021 gehört der ScrapBees GmbH in Düsseldorf, also einer anderen Gesellschaft. Offen
+bleibt damit die Betriebsidentität an dieser Anschrift. Der Live-Abgleich mit OSM zeigt,
+dass die Hausnummer 181 den Zollverein-Museumskomplex bezeichnet und kein Objekt mit Bezug
+zur EIE Services GmbH trägt, weshalb keine Koordinate gesetzt wurde. Ankaufpreise,
+Verkaufspreise und Gebühren sind nicht belegt.
 
 ## Timeline
 

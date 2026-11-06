@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TKM Materialveredelung GmbH ist ein Industrieunternehmen am Standort In den Waldstücken 6,
+76829 Landau, das Aluminium-Kunststoff-Verbundstoffe und weitere Aluminiumsorten annimmt,
+lagert und aufbereitet, darunter Flaschenschraubverschlüsse und Schredderfraktionen. Belege
+sind das Impressum der Betreiberseite mit Registergericht Landau und Registernummer HR B 2918
+sowie USt-IdNr., das nordata-Profil zum selben Register und ein OpenStreetMap-Knoten, der den
+Betrieb namentlich nennt und dessen Adresse, Telefon, Fax, E-Mail und USt-IdNr. mit der
+Betreiberseite übereinstimmt. Das amtliche Fachbetrieberegister führt das Unternehmen mit
+Zertifikatsnummer ZZGT00200081 für Lagern und Behandeln. Offen bleibt das Zertifikatsfeld des
+Dossiers leer, weil kein Zertifikat vorliegt; Ankauf- und Verkaufskurse werden nicht
+veröffentlicht, die Vergütung ist nur marktbasiert zugesagt.
 
 ## Timeline
 

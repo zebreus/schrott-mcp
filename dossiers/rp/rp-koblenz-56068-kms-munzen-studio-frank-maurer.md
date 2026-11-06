@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+KMS Koblenzer Münzen Studio von Frank Maurer, einem freien Sachverständigen, ist ein
+numismatischer Ankauf und Verkauf in der Rathauspassage 20, 56068 Koblenz. Angekauft werden
+Münzen, Orden, Briefmarken und Fachliteratur, verkauft Münzen, Zubehör von Lindner und Safe
+sowie numismatische Literatur. Die Identität trägt allein die Betreiber-Kontaktseite mit
+Adresse, Rufnummer und Öffnungszeiten, eine zweite unabhängige Quelle fehlt. In OpenStreetMap
+existiert die Hausnummer 20, das Objekt trägt aber weder Namen noch Betreiberbezug. Belegte
+Gebühr: Die mündliche Angebotserstellung ist kostenfrei, eine schriftliche kostet mindestens 25
+Euro inklusive Umsatzsteuer, für Verpackungsmaterial werden 2 Euro Pauschale berechnet. Offen
+bleiben die E-Mail-Adresse, die nur durch Cloudflare maskiert sichtbar ist, und die Frage, ob
+die Angebotsgebühr je Angebot oder je Vorgang anfällt.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schwenski Rohstoffhandel GmbH ist ein Metallhändler in der Ewaldstraße 11 bis 13 in
+Bocholt, der Stahlschrott und NE-Metalle für das Borkener, Ahauser und Coesfeldergebiet
+handelt. Das Impressum der Betreiberseite nennt die Gesellschaft mit HRB 9029 Amtsgericht
+Coesfeld, die Kontaktseite belegt dieselbe Anschrift als Büro und Lager. Offen bleibt die
+Postleitzahl, denn Impressum und Kontaktseite nennen 46397 und 46395, während der
+Registerspiegel den Sitz an einem anderen Ort ausweist, weshalb das Feld leer blieb. Im
+amtlichen Fachbetrieberegister ist weder ein Eintrag als Entsorgungsfachbetrieb noch nach
+AltfahrzeugV für den Standort gefunden worden; die Anerkennungen sind freiwillig, ein
+Nichteintrag belegt ihren Nichtbestand nicht.
 
 ## Timeline
 
