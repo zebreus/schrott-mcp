@@ -56,3 +56,22 @@ freiwillig, ein Nichttreffer belegt kein Fehlen. Ankauf und Preise sind nicht be
 - [Recherche 02.11.2026: **Amtlicher Efb-Nachweis im Fachbetrieberegister belegt; Zertifikats-PDF aus dem Detaildialog heruntergeladen und wörtlich gelesen.** Die Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Paulus` liefert 5 Treffer, davon 3 für `Paulus GmbH`, `Gundelsheimer Str. 9a, 96052 Bamberg`, `ZZIT00700157 / 1` (Sammeln, Befördern), `/ 2` (Lagern) und `/ 3` (Handeln). Der Detaildialog nennt wörtlich `Vorgangsnummer ZZIT00700157` und `Zertifikatsanlagennr. 1`; das amtliche Zertifikat (PDF) trägt `1.1 Name: TÜV SÜD Umweltgutachter GmbH`, `3.1 Nummer des Zertifikats (durch die Zertifizierungsorganisation frei zu vergeben): 12 150 56402`, `3.3 Vorgangsnummer (soweit von der Behörde erteilt): ZZIT007001576009`, `3.4 Das Zertifikat beinhaltet 3 Anlage(n).`, `3.7 Das Zertifikat ist gültig bis zum 12.11.2027`, `4.1 Name: Paulus GmbH`, `4.2 Straße: Gundelsheimer Str. 9a`, `Registernummer (HRA, HRB etc.): HRB 5912 Registergericht: Bamberg`, `6. Prüfungsdatum: 12.05.2026` und `8. Ausstellungsdatum: 06.08.2026`; alle drei Anlagen nennen den Standort `Gundelsheimer Str. 9a`, 96052 Bamberg mit den Kennnummern `I461T06300` (Sammeln, Befördern), `I461N00027` (Lagern) und `I461H03704` (Handeln).
   **Altfahrzeugverwertung: kein Eintrag für diesen Standort.** Die Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Paulus` liefert 1 Treffer (`Kärgel Kaiserslautern GmbH May & Paulus GmbH`, Philipp-Reis-Straße 16, 66849 Landstuhl, `ZAGS00300004 / 1`, ein anderer Betrieb); die ortsbezogene Kontrollabfrage mit 3 km Radius um Gundelsheimer Straße 9A, 96052 Bamberg liefert 2 Altfahrzeug-Treffer (`Autoverwertung Piske Inhaber Christian Piske` 1,8 km, `Riwald Recycling Franken GmbH` 2,7 km) und 9 Efb-Treffer, darunter `Paulus GmbH` 0,5 km. **Reichweitenklausel:** Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig; ein Nichttreffer im Register ist **kein** Nichtexistenzbeweis für eine Zertifizierung des Betriebs.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Paulus ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Paulus ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Gundelsheimer%20Stra%C3%9Fe%209A%2C%2096052%20Bamberg%2C%20Deutschland;10.890262;49.9032738;10.891762;49.9047738;10.888762;49.9017738&dst=3&is=1&a=1&gl=1 (Abruf 02.11.2026).]
+
+### Prüfung 06.11.2026
+
+- [Prüfung 06.11.2026: **Feldprüfung des Zertifikats: alle geprüften Felder stimmen mit dem PDF überein, der
+  Eintrag bleibt unverändert.** Geprüft wurde das Zertifikats-PDF der TÜV SÜD Umweltgutachter GmbH (Detaildialog
+  und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am 06.11.2026) mit `pdftotext -layout`,
+  feldweise: 3.1 `12 150 56402`, 3.3 `ZZIT007001576009`, 3.4 `Das Zertifikat beinhaltet 3 Anlage(n).`, 3.7
+  `gültig bis zum 12.11.2027`, 6. Prüfungsdatum `12.05.2026`, 8. Ausstellungsdatum `06.08.2026`; Aussteller 1.1
+  bis 1.3 `TÜV SÜD Umweltgutachter GmbH`, `Ridlerstraße 57`, `80339 München`; Rechtsträger 4.1 bis 4.4 `Paulus
+  GmbH`, `Gundelsheimer Str. 9a`, `96052 Bamberg`, `Registernummer (HRA, HRB etc.): HRB 5912`, `Registergericht:
+  Bamberg`. **Standorttreue:** Alle drei Anlagen tragen in Feld 1.1 bis 1.3 `Paulus GmbH`, `Gundelsheimer Str.
+  9a`, `96052 Bamberg` und sind dem Dossierstandort zugeordnet: Anlage 1 (Sammeln und Befördern `I461T06300`),
+  Anlage 2 (Lagern `I461N00027`) und Anlage 3 (Handeln `I461H03704`). Das Zertifikat enthält keine Anlage an
+  einem anderen Standort. Die AltfahrzeugV-Route liefert für `n=Paulus` nur den fremden Rechtsträger `May &
+  Paulus GmbH`, `Philipp-Reis-Straße 16, 66849 Landstuhl` — die Negativaussage des Eintrags ist damit bestätigt.
+  Damit ist jede Angabe des Eintrags im Feld `certifications` am PDF belegt; eine Korrektur war nicht nötig.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Paulus&p=ZZIT00700157&fd=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Paulus
+  (Abruf 06.11.2026).]

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Metall Nord GmbH, eine Gesellschaft des ALBA-Konzerns, betreibt in Salzwedel OT
+Pretzier an der Ritzlebener Straße 29 eine Betriebsstätte für Stahl- und NE-Metallschrott.
+Angeboten sind Annahme auch von Kleinstmengen gegen Bargeld, Containerdienst mit Behältern
+von 7 bis 36 m³, Industriedemontage, Waage sowie Bauschutt, Grünschutt und Holz,
+Privatkunden sind ausdrücklich willkommen. Die Identität tragen die Standort-Detailseite
+der Betreiberdomain mit Anschrift, Rufnummer, E-Mail-Adresse und Öffnungszeiten, das
+Konzern-Impressum und das Sortenprogramm mit 17 Sortengruppen. Offen bleibt die Beleglage:
+Ein Ankaufpreis wird nicht veröffentlicht, auch die Archivsuche findet keine Preisliste;
+die Einkaufsbedingungen belegen nur Preisart und Annahmefristen. Ob dieser Standort die
+Sortengruppen annimmt, ist nicht beziffert.
 
 ## Timeline
 

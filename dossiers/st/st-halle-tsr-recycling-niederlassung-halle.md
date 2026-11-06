@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG (HRA 19743, Amtsgericht Dortmund) führt in Halle-Radewell an
+der Äußeren Radeweller Straße 2 eine Niederlassung, die Schrott und Altmetall für
+Privatkunden, Gewerbebetriebe und Industrie annimmt, daneben Papierannahme,
+Schwerschrottaufbereitung, Abbruch- und Demontagearbeiten, Containerdienst und eine Box
+für Kleinmengen anbietet. Belege sind die Standortseite, das Impressum mit den
+Registerangaben und das dort verlinkte Entsorgungsfachbetriebszertifikat. Offen bleibt die
+Beleglage: Die Hausnummer 2 fehlt in OpenStreetMap auf der genannten Straße und liegt auf
+dem benachbarten Segment Radeweller Straße; welche Schreibweise offiziell gilt, ist nicht
+entscheidbar, deshalb ist keine Koordinate gesetzt. Der Direktabruf der Betreiberdomain
+bleibt gesperrt, ein Ankaufpreis wird nicht veröffentlicht.
 
 ## Timeline
 

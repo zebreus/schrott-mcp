@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Niedersachsen-Anhalt GmbH betreibt in Tangerhütte OT Demker am Bahnhof einen
+Standort, den das Betreiberportal als Grünschnitt- und Kompostplatz mit Anmeldung an der
+Waage ausweist, dazu Containerdienst, kommunale Abfallentsorgung und Angebote zur Stahl-
+und Metallentsorgung; die Öffnungszeiten nennen Montag bis Freitag 7:00 bis 16:30 Uhr. Die
+Identität tragen die Standort-Detailseite der Betreiberdomain mit Anschrift, Rufnummer und
+E-Mail-Adresse sowie die Konzernübersicht, die sechs Standorte ausweist. Offen bleibt die
+Beleglage: Die Betreiberdomain sperrt reguläre Abrufe per IP-Sperre, und eine zweite
+unabhängige Quelle für die Kontaktdaten fehlt. Ein Ankaufpreis für Schrott oder Altmetall
+wird nicht veröffentlicht; die einzige Preisliste des Portals betrifft Kompostprodukte der
+Anlage Watenbüttel in Braunschweig.
 
 ## Timeline
 

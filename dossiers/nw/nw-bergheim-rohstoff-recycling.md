@@ -18,7 +18,7 @@ pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert GmbH, Köln, Zertifikat 01 400 187133, Vorgangsnummer ZZET016001968008, gültig bis 31.08.2027, Prüfungsdatum 25.02.2026, Ausstellungsdatum 03.07.2026, 1 Anlage; Anlage 1: eR erft RECYCLING GmbH (Fuhrpark und Schrottplatz), Walter-Gropius-Straße 38, 50126 Bergheim, Tätigkeiten Befördern, Lagern, Behandeln; Hauptsitz eR erft RECYCLING GmbH, HRB 59114 Registergericht Köln, bis April 2025 firmiert als RRB Rohstoff Recycling Bergheim GmbH)"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert GmbH, Am Grauen Stein, 51105 Köln; Zertifikat 01 400 187133, Vorgangsnummer ZZET016001968008, gültig bis 31.08.2027, Prüfungsdatum 25.02.2026, Ausstellungsdatum 03.07.2026, 1 Anlage; Anlage 1: eR erft RECYCLING GmbH (Fuhrpark und Schrottplatz), Walter-Gropius-Straße 38, 50126 Bergheim, Tätigkeiten Befördern (Kennnummer nach § 28 NachwV E362T00120), Lagern (E362A50056) und Behandeln (E362A50056); Hauptsitz eR erft RECYCLING GmbH, HRB 59114 Registergericht Köln, bis April 2025 firmiert als RRB Rohstoff Recycling Bergheim GmbH)"]'
 ---
 
 # Rohstoff Recycling
@@ -104,3 +104,9 @@ zur Altfahrzeugverwertung, denn der Standort ist kein anerkannter Demontagebetri
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=50126%20Bergheim%2C%20Deutschland;6.595299;50.9546423;6.595299;50.9546423;6.595299;50.9546423&dst=3&is=1&e=1
   ; https://erftrecycling.de/ueber-uns ; https://erftrecycling.de/wp-content/uploads/2026/07/TRIS-01-400-187133-2026.pdf ;
   https://rrb-recycling.de/impressum ; https://rrb-recycling.de/ueber-uns/ ; https://schrottregister.pages.dev/ort-bergheim (Abruf 02.11.2026)]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Aussteller-Anschrift unvollständig und §-28-NachwV-Kennnummern fehlend.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) weist die Zertifizierungsorganisation in den Feldern 1.1 bis 1.3 als „TÜV Rheinland Cert GmbH“, „Am Grauen Stein“, Postleitzahl 51105, Ort Köln aus; der Eintrag nannte nur „TÜV Rheinland Cert GmbH, Köln“ und wurde um Straße und Postleitzahl ergänzt. Ergänzt wurden die im Anlagenbogen genannten Kennnummern nach § 28 NachwV „E362T00120“ für Befördern sowie „E362A50056“ für Lagern und Behandeln.
+  Unverändert bestätigt sind: „3.1 ...: 01 400 187133“; „3.3 Vorgangsnummer ...: ZZET016001968008“ (im Raster verkürzt „ZZET01600196 / 1“); „3.4 Das Zertifikat beinhaltet 1 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 31.08.2027“; „4.1 Name: eR erft RECYCLING GmbH“, „4.2 Straße: Walter-Gropius-Straße 38“, Postleitzahl 50126, Ort Bergheim; „4.4 ... Registernummer ...: HRB 59114 ... Registergericht: Köln“; „6. Prüfungsdatum: 25.02.2026“; „8. Ausstellungsdatum: 03.07.2026“. Standorttreue: die einzige Anlage nennt als Standortbezeichnung „eR erft RECYCLING GmbH (Fuhrpark und Schrottplatz)“ und als Standort „Walter-Gropius-Straße 38, 50126 Bergheim“ (Anlagenbogen Felder 1.1 bis 1.3), also den Dossierstandort. Das Betreiber-PDF (TRIS-01-400-187133-2026) wurde zusätzlich wörtlich gelesen und nennt dieselben Kopfdaten.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=erft%20Recycling&p=ZZET01600196&fd=1 ; https://erftrecycling.de/wp-content/uploads/2026/07/TRIS-01-400-187133-2026.pdf (Abruf 06.11.2026)]

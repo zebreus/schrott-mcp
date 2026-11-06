@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldankauf Börse Leipzig, Brühl 65, 04109 Leipzig, eine Filiale eines Goldankaufs, die laut
+Seed-Import als Handler-Kandidat geführt wird. Die Beleglage beruht auf der Betreiberseite: die
+Filialseite nennt die Anschrift und die Öffnungszeiten, das Impressum nennt als
+Verantwortlichen Herrn Ilhan Kör, aber keine Gesellschaft und keine Registernummer, sodass die
+Ausnahme für eine allein ausreichende Betreiberquelle nicht belegt ist; die Stadt Leipzig
+ordnet die Straße Brühl dem Stadtbezirk Mitte zu und bestätigt damit weder Hausnummer noch
+Händler, und die Anzeige im Leipziger Amtsblatt 23/2011 ist alt. Offen bleibt: eine unabhängige
+aktuelle Bestätigung für Händler und Einheit am Standort fehlt, weshalb Telefon und E-Mail im
+Dossier leer bleiben, obwohl die Filialseite beide nennt.
 
 ## Timeline
 

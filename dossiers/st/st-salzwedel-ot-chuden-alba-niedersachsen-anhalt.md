@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Niedersachsen-Anhalt GmbH betreibt in Salzwedel an der Salzwiesen 4 einen Standort,
+der neben der kommunalen Abfallentsorgung Containerdienst, Müllpressen, Umleerbehälter,
+die Direktanlieferung von Wertstoffen und Bauabfällen sowie Schüttgüter umfasst; das
+Betreiberportal weist sechs Standorte des Unternehmens aus. Die Identität tragen die
+Standort-Detailseite der Betreiberdomain mit Anschrift, Rufnummer, E-Mail-Adresse und
+Öffnungszeiten sowie die Konzernübersicht. Offen bleibt die Beleglage: Der Betreiber führt
+keinen Standort Chüden, die im Dossier genannte Ortsteilzuordnung ist eine vermutete
+Fehlzuordnung des Salzwedeler Standorts und wird vom Betreiber nicht getragen. Für diesen
+Standort ist kein Ankaufs-, Verkaufs- oder Gebührenpreis veröffentlicht; die einzige
+Preisliste des Portals betrifft Kompostprodukte der Anlage Watenbüttel in Braunschweig.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autohof Porstendorf ist eine Werkstatt mit Altautoverwertung und Ersatzteiletechnik an der
+Lache 8 in 07778 Neuengönna OT Porstendorf; das amtliche Fachbetrieberegister führt den
+Betrieb nicht als eigenständige Gesellschaft, sondern als Betriebsteil der Gleistal-Agrar
+eG Golmsdorf. Amtlich belegt ist die Anerkennung als Demontagebetrieb mit der Kennnummer
+R74B00172 und der Vorgangsnummer ZARS00300042, mit der Rücknahme für die Hersteller BMW,
+MINI und Opel. Die Identität tragen der Registereintrag und die Betreiberdomain, deren
+Rufnummer mit der Registerangabe übereinstimmt. Offen bleibt die Beleglage: Das Dossier
+nennt den Ort als Porstendorf/Dorndorf-Steudnitz, das Register führt Neuengönna OT
+Porstendorf, und ein Zertifikats-PDF ist nicht hinterlegt, sodass keine vollständige
+Vorgangsnummer ausgewiesen ist.
 
 ## Timeline
 

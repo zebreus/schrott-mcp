@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Goldankauf Boerse betreibt in Erfurt an der Bahnhofstraße 38 eine Filiale für den Ankauf
+von Edelmetallen, Zahngold und Dentalgold, Silber, Platin und Palladium sowie
+Industrieabfällen; ein Ankaufsrechner mit Live-Kurstabelle ist auf der Betreiberseite
+verlinkt. Die Identität tragen die Filialseite mit der gedruckten Rufnummer 0361 / 65 78
+24 70, die zugleich als Telefonlink gesetzt ist, und das Impressum, das dieselbe Nummer in
+internationaler Schreibweise und den Namen Ilhan Kör nennt. Offen bleibt die Beleglage:
+Beide Belege stammen von derselben Betreiberdomain, und das Impressum weist keine
+Handelsregisterangabe aus, weshalb kein unabhängiger Zweitbeleg zur Erreichbarkeit
+vorliegt. Die E-Mail-Adresse ist nur ein Betreiber-Einzelbeleg und wurde nicht ins
+Frontmatter übernommen.
 
 ## Timeline
 

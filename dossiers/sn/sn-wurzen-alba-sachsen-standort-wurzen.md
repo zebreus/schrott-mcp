@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Sachsen GmbH unterhält am Birkenhof 14 in 04808 Wurzen eine Niederlassung für
+Entsorgung, Containerdienst und Kanalspülung, die Gewerbe- und Privatkunden in den
+Landkreisen Nordsachsen, Leipzig, Mittelsachsen und Meißen berät; ein klassischer
+Schrottankauf ist dort nicht ausgewiesen. Die Identität tragen die Standort-Detailseite
+der Betreiberdomain mit Anschrift, Rufnummer, E-Mail-Adresse und Öffnungszeiten sowie die
+Konzernübersicht. Offen bleibt die Beleglage: Die Seite sperrt reguläre Abrufe per
+IP-Sperre, auswertbar war der Inhalt nur über einen Reader-Proxy, und eine zweite
+unabhängige Quelle für die Kontaktdaten fehlt. Preise werden für diesen Standort nicht
+veröffentlicht, weder als Ankaufs- noch als Verkaufs- oder Gebührenwert, auch die
+Archivsuche findet keine Preisliste.
 
 ## Timeline
 

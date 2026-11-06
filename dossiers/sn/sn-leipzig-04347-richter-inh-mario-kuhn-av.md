@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Richter, Inhaber Mario Kuhn, Rackwitzer Str. 50-52, 04347 Leipzig, ein
+Autoverwerter, der gebrauchte und Unfallfahrzeuge ankauft und gebrauchte Ersatzteile verkauft.
+Das Impressum nennt die Telefonnummer 0341 2312991, die ein OSM-Objekt mit der Bereichsnotation
+50-52 an derselben Straße bestätigt. Offen bleibt die Beleglage: die Seite ist nur über http
+erreichbar, da der TLS-Handshake für https scheitert, die fünf auf der Kontaktseite genannten
+E-Mail-Adressen bleiben unbelegt, die Öffnungszeiten stammen allein aus dem OSM-Objekt und sind
+deshalb nicht übernommen, und die dort genannte Website autoverwertung-richter.com führt auf
+eine fremde Seite. Preise für Ankauf und Entsorgung werden nicht veröffentlicht.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scholz Recycling GmbH, Betrieb Gröditz, Am Stahlwerk 12, 01609 Gröditz, ein Standort der
+Scholz-Gruppe, die nach dem Verkauf an Derichebourg am 31.07.2026 unter dem Logo Scholz
+Derichebourg firmiert. Amtlich belegt ist der Eintrag im amtlichen Fachbetrieberegister: Scholz
+Recycling GmbH Betrieb Gröditz, Zertifikatsnummer ZZEE00300190, Tätigkeiten Lagern, Behandeln
+und Verwerten bei 29 Abfallschlüsseln im Metall- und Fahrzeugbereich. Die Adresse stützt
+zusätzlich die städtische Branchenübersicht und ein OSM-Objekt, das die Hausnummer 12 trägt,
+den Betrieb dort aber nicht benennt. Offen bleibt: Telefon und E-Mail stehen im Dossier leer,
+obwohl der Standort-JSON-Feed des Betreibers eine Rufnummer und eine E-Mail-Adresse ausweist,
+und der Annahme-Scope für Gewerbe und Industrie gegenüber Privatkunden ist nicht festgelegt.
+Preise und Gebühren werden nicht veröffentlicht.
 
 ## Timeline
 

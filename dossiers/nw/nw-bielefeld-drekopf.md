@@ -25,7 +25,16 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (bvse-Entsorgergemeins
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Betriebsstätte Bielefeld der Drekopf Recyclingzentrum Bünde GmbH, Tiesloh 1, 33739 Bielefeld;
+der zertifizierende Rechtsträger hat seinen Hauptsitz in Bünde, HRB 7786 Registergericht Bad
+Oeynhausen. Die Betreiberseite beschreibt an diesem Standort eine Aktenvernichtungsanlage mit
+Schleusen, umgebaut 2018; ein Schrottankauf ist dort nicht belegt, der Altmetallhandel wird nur
+konzernweit geführt. Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56
+KrWG: Zertifikat 10349 der bvse-Entsorgergemeinschaft e.V., Vorgangsnummer ZZEE001000855009,
+Prüfungsdatum 28.10.2025, Ausstellungsdatum 13.11.2025, gültig bis zum 30.04.2027; Anlage 5 mit
+Lagern und Anlage 6 mit Behandeln sind dem Bielefelder Standort zugeordnet, die vier übrigen
+Anlagen dem Bünder Hauptsitz. Offen bleibt, ob an diesem Standort Schrott angekauft wird; für
+ihn weist das Register keine Anerkennung nach AltfahrzeugV aus. Der Status bleibt „pruefung".
 
 ## Timeline
 

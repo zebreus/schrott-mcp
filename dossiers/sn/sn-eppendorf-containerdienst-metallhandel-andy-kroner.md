@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Containerdienst und Metallhandel Andy Krönert, Am Gewerbepark 9, 09575 Eppendorf OT
+Großwaltersdorf; der Betrieb sitzt seit 2010 nicht mehr im Eppendorfer Kernort, das Frontmatter
+nennt deshalb die Gemeinde Eppendorf. Angeboten werden Buntmetall- und Schrottankauf sowie
+Containerdienst. Die Beleglage stützt sich auf die Betreiberseite mit Startseite und Impressum,
+ergänzt durch das Branchenverzeichnis Das Örtliche und den Gemeinde-Anzeiger der Gemeinde
+Eppendorf; für die Öffnungszeiten bleibt es bei einer Betreiber-Einzelquelle, da zwei
+unabhängige Zeitbelege fehlen. Offen bleibt: das Impressum nennt neben der Festnetznummer eine
+Mobilnummer, und das auf der Website verlinkte Zertifikatbild wurde nicht auf Gültigkeit
+geprüft, weshalb keine Zertifizierung ausgewiesen ist.
 
 ## Timeline
 

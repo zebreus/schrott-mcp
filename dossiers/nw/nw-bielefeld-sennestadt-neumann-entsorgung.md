@@ -94,3 +94,8 @@ ausweist, sowie die widersprüchlichen Öffnungszeiten innerhalb derselben Websi
   ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Neumann%20Entsorgung&p=ZZHT00300677&fd=1
   (Abruf 04.11.2026)]
+
+### Prüfung 06.11.2026
+
+- [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: DEKRA Certification GmbH“, „1.2 Straße: Handwerkstraße 15“, Postleitzahl 70565, Ort Stuttgart = Aussteller mit vollständiger Anschrift; „3.1 ...: 290408014“ = „Zertifikat-Nr. 290408014“; „3.3 Vorgangsnummer ...: ZZHT003006771008“ = Eintrag (im Raster verkürzt „ZZHT00300677 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 19.07.2027“; „4.1 Name: Neumann Entsorgung GmbH & Co. KG“, „4.2 Straße: Krackser Straße 180“, Postleitzahl 33689, Ort Bielefeld; „4.4 ... Registernummer ...: HRA 17480 ... Registergericht: Bielefeld“; „6. Prüfungsdatum: 20.01.2026“; „8. Ausstellungsdatum: 26.01.2026“. Anlagen 1 bis 3 nennen als Standort „Krackser Straße 180, 33689 Bielefeld“ (Anlagenbogen Felder 1.2 und 1.3) und die Kennnummern nach § 28 NachwV „E711800121“ (Anlage 1 Sammeln und Befördern) sowie „E711740139“ (Anlage 2 Lagern, Anlage 3 Lagern und Behandeln) - zeichenweise wie im Eintrag. Standorttreue: alle drei Anlagen liegen am Dossierstandort.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Neumann%20Entsorgung&p=ZZHT00300677&fd=1 (Abruf 06.11.2026)]

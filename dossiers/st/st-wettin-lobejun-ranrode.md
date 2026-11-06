@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RANRODE GmbH (HRB 9163, Amtsgericht Stendal) hat ihren Sitz in der Kreisstraße 47-48 in
+06193 Wettin-Löbejün OT Plötz und stellt Trapezbleche, Sandwichplatten und
+Trockenbauprofile her; der Werksverkauf führt A-Ware und B-Ware. Ein Schrott- oder
+Altmetallankauf, ein Recycling und eine Materialannahme sind nicht belegt, der
+Registergegenstand nennt nur Blech- und Profilprodukte; der Dossier-Typ gilt damit als
+Fehlklassifikation. Belege sind Betreiberseiten und Registerspiegel. Offen bleibt die
+Beleglage: Die Website zeigt laufenden Werksverkauf, während der Registerspiegel die
+Gesellschaft als in Liquidation führt, mit einer vorläufigen Insolvenzverwaltung am
+19.03.2026 und einem Liquidationsereignis am 10.06.2026; die Originalpublikationen waren
+nicht zugänglich, der Status bleibt in Prüfung statt geschlossen.
 
 ## Timeline
 

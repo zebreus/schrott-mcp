@@ -17,7 +17,7 @@ status: aktiv
 description: Schrott- und Metallankauf für Privatkunden und Gewerbe, auch Kleinmengen; Anlieferung, Abholung und Containerdienst in Aachen.
 dropoff_json: ''
 pickup_json: ''
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (bvse-Entsorgergemeinschaft e.V., Bonn; Zertifikat-Nr. 10440, Vorgangsnummer ZZEE001000794010, gültig bis zum 31.01.2028, Prüfungsdatum 10.07.2026, Ausstellungsdatum 25.08.2026; Anlagen 1 bis 3 sind dem Standort Hüttenstraße 133-135, 52068 Aachen zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E313T00945), Anlage 2 Lagern (E313A70083), Anlage 3 Behandeln (E313A70083); Rechtsträger Steinrath Metalle GmbH, HRB 22078 Amtsgericht Aachen)"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (bvse-Entsorgergemeinschaft e.V., Fränkische Straße 2, 53229 Bonn; Zertifikat-Nr. 10440, Vorgangsnummer ZZEE001000794010, gültig bis zum 31.01.2028, Prüfungsdatum 10.07.2026, Ausstellungsdatum 25.08.2026; Anlagen 1 bis 3 sind dem Standort Hüttenstraße 133-135, 52068 Aachen zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E313T00945), Anlage 2 Lagern (E313A70083), Anlage 3 Behandeln (E313A70083); Rechtsträger Steinrath Metalle GmbH, HRB 22078 Amtsgericht Aachen)"]'
 provenance_section: Aachen / Düren / Stolberg
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -87,3 +87,9 @@ Altfahrzeugverwertungs-Route des Registers keinen Treffer liefert.
   ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Steinrath&p=ZZEE00100079&fd=1
   (Abruf 04.11.2026)]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Die Aussteller-Anschrift im Eintrag war unvollständig.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) nennt in den Feldern 1.1 bis 1.3 „bvse-Entsorgergemeinschaft e.V.“, „Fränkische Straße 2“, Postleitzahl 53229, Ort Bonn; der Eintrag führte nur „bvse-Entsorgergemeinschaft e.V., Bonn“ und wurde zu „bvse-Entsorgergemeinschaft e.V., Fränkische Straße 2, 53229 Bonn“ ergänzt.
+  Alle übrigen geprüften Felder stimmen wörtlich mit dem PDF überein: „3.1 Nummer des Zertifikats (durch die Zertifizierungsorganisation frei zu vergeben): 10440“ = „Zertifikat-Nr. 10440“; „3.3 Vorgangsnummer (soweit von der Behörde erteilt): ZZEE001000794010“ = Eintrag (im Ergebnisraster verkürzt als „ZZEE00100079 / 1“ bis „ZZEE00100079 / 3“ geführt); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“ = „Anlagen 1 bis 3“; „3.7 Das Zertifikat ist gültig bis zum 31.01.2028“ = Eintrag; „4.1 Name: Steinrath Metalle GmbH“, „4.2 Straße: Hüttenstraße 133-135“, Postleitzahl 52068, Ort Aachen; „4.4 ... Registernummer (HRA, HRB etc.): HRB 22078 ... Registergericht: Aachen“ = Eintrag; „6. Prüfungsdatum: 10.07.2026“ und „8. Ausstellungsdatum: 25.08.2026“ = Eintrag. Standorttreue: die Anlagen 1 bis 3 nennen je als Standort „Hüttenstraße 133-135, 52068 Aachen“ (Anlagenbogen Felder 1.2 und 1.3) und liegen damit alle am Dossierstandort; die Kennnummern nach § 28 NachwV lauten „E313T00945“ (Anlage 1 Sammeln und Befördern), „E313A70083“ (Anlage 2 Lagern), „E313A70083“ (Anlage 3 Behandeln) und stimmen mit dem Eintrag überein. Anlagen anderer Standorte enthält das Zertifikat nicht.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Steinrath&p=ZZEE00100079&fd=1 (Abruf 06.11.2026)]

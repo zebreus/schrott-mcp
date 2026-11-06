@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SMS Sterns Metall & Schrotthandel ist ein Einzelunternehmen unter Inhaber Denis Blum in
+der Schützenstraße 6 in 09306 Rochlitz; das Angebot umfasst Schrottaufbereitung,
+Recycling, Demontage, Containerdienst und Autoverwertung. Die Identität tragen das
+Impressum mit Inhaberangabe, Anschrift, Telefon, Fax, Funk, E-Mail und
+Umsatzsteuer-Identifikationsnummer sowie die Kontaktseite, also zusammen eine Quelle, und
+ein OSM-Betriebsobjekt mit demselben Namen, der Website, der Telefonnummer und der
+E-Mail-Adresse. Offen bleibt die Beleglage: Das Operator-Tag dieses Objekts nennt Marco
+Stein, das Impressum Denis Blum; die abweichende Personenangabe ist offengelegt, aber
+nicht aufgelöst. Die Zeile DB Recycling an derselben Anschrift wird nicht verschmolzen.
+Öffnungszeiten sind nicht belegt, die Koordinate weist keine Anerkennung auf.
 
 ## Timeline
 

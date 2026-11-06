@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Nobra GmbH (HRB 302233, Registergericht Jena) betreibt in Rippershausen am Sandfeld 16
+eine Scheideanstalt zur Edelmetallrückgewinnung, die nach Angabe des Seed-Eintrags seit
+über 40 Jahren Gewerbe und Industrie beliefert, Abholung und Abrechnung übernimmt und über
+eine eigene Website geführt wird. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb durch das Zertifikat 2026/023/21 mit der Vorgangsnummer
+ZZRT003000244014, gültig bis 31.01.2028, mit drei Anlagen am Standort: Sammeln, Befördern
+sowie Lagern, Behandeln und Verwerten. Die Identität tragen dieses Zertifikat und der
+Eintrag im amtlichen Fachbetrieberegister. Offen bleibt die Beleglage: In der Route
+Altfahrzeugverwertung existiert für die Adresse kein Eintrag, was keinen Nachweis ist; die
+Erreichbarkeit ist nur über die Betreiberdomain belegt.
 
 ## Timeline
 

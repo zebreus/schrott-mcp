@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ossenbühl Schrotthandels GmbH, Im Liefeld 44, 40227 Düsseldorf, ein Schrotthändler für Eisen
+und NE-Metalle, Altautos und E-Schrott mit eigenem Wertstoffstandort, Containerdienst und
+Abholung im Umkreis von 50 km; das Impressum nennt Geschäftsführer Sven Rosenplaenter und HRB
+17893 Registergericht Düsseldorf. Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb
+nach § 56 KrWG: Zertifikat 2503090 der ENVIZERT Umweltgutachter GmbH, Vorgangsnummer
+ZZET007003409004, Prüfungsdatum 25.11.2025, Ausstellungsdatum 03.12.2025, gültig bis zum
+24.05.2027; alle fünf Anlagen sitzen an der Dossieranschrift, eine ist als
+Erstbehandlungsanlage nach § 21 ElektroG, eine als Demontagebetrieb nach AltfahrzeugV
+ausgewiesen. Offen bleibt: für die AltfahrzeugV-Anerkennung mit Vorgangsnummer ZAES01100107 ist
+kein Zertifikats-PDF hinterlegt, eine längere Vorgangsnummer ist nicht ausgewiesen.
 
 ## Timeline
 

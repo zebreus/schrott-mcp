@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Muhl, im Verzeichnis als Muhl Autoverwertung & Abschleppunternehmen
+geführt, liegt an der Bismarker Straße 137 in 39606 Osterburg (Altmark). Der Betrieb nimmt
+Schrott und Altfahrzeuge an, darunter Eisenmetalle, Aluminium, Kupfer, Edelstähle, Blei,
+Messing, Rotguss, Zink, Nickel, Zinn, Kabel, Kühler und Elektromotoren, und übernimmt
+Abschleppdienste; als Mindestmengen nennt das Verzeichnis 100 kg für Eisenmetalle und 1 kg
+für Nichteisenmetalle. Die Identität tragen zwei Verzeichnisse, die dieselbe Anschrift und
+die Nummer 03937 82157 nennen, sowie ein OSM-Objekt, das den Betrieb an der Hausnummer 137
+mit der Kennung eines Schrottplatzes und der Telefonnummer führt. Offen bleibt die
+Beleglage: Die verlinkte eigene Website antwortet mit 404 und bleibt eine tote Quelle,
+eine Ankaufspreisliste und jede Gebührenangabe fehlen.
 
 ## Timeline
 

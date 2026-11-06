@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+TSR Deutschland GmbH & Co. KG betreibt in Torgau am Welsauer Weg 14 eine Niederlassung,
+die Fe- und NE-Schrott sowie Kabel annimmt und auch Selbstanlieferer zulässt. Die
+Identität tragen die Standortseite des Betreibers, die Anschrift und die Nummer +49 3421
+704983 nennt, sowie die Verzeichnisse GoLocal und Gelbe Seiten, die deckungsgleich sind;
+die E-Mail-Adresse stammt allein aus GoLocal. Offen bleibt die Beleglage: Der Direktabruf
+der Betreiberdomain war durch eine Bot-Challenge gesperrt und die Seite nur mit
+vollständigen Browser-Headern lesbar. Ein Ankaufpreis wird nicht veröffentlicht, die
+Sortenliste zu den Stahlschrottsorten trägt keine Eurobeträge, und die Einkaufsbedingungen
+belegen nur die Preisart eines vereinbarten Festpreises. Die Weigerkosten der Gruppe
+stammen aus einem Katalog von 2020 und sind nicht standortspezifisch.
 
 ## Timeline
 

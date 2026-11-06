@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+LRP-Autorecycling Leipzig GmbH, Priesterstraße 6, 04509 Krostitz, ein Autoverwerter mit
+Ersatzteilhandel und Wertstoffhof; das Impressum nennt HRB 10064 Registergericht Leipzig, und
+ein OSM-Objekt an dieser Hausnummer nennt den Betrieb selbst und bestätigt die Telefonnummer.
+Amtlich belegt ist eine zweite Betriebsstätte: das Register führt den Standort Leipzig,
+Brahestraße 10, 04347 Leipzig, mit der Zertifikatsnummer ZALS00200036 und der Anerkennung nach
+AltfahrzeugV als Demontagebetrieb. Offen bleibt: für den Krostitzer Hauptsitz selbst existiert
+kein eigener Registereintrag, eine öffentliche Ankaufspreisliste ist nicht vorhanden, die in
+den Betriebsangaben genannte Jahresmenge an verwerteten Fahrzeugen ist eine unbelegte
+Eigenangabe, und E-Mail sowie Öffnungszeiten stammen aus einer Konzernseite ohne Zweitquelle.
+Der Status bleibt „pruefung".
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Frauenrath Recycling GmbH, Gewerbering Nord 11, 01900 Großröhrsdorf OT Bretnig, ein
+Recyclingzentrum für Bauschutt, Straßenaufbruch, Holz und Kompostierung; das OSM-Objekt an
+dieser Hausnummer nennt den Betrieb selbst. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG, allerdings unter der Anschrift Gewerbering Nord 22 a mit
+der Zertifikatsnummer ZZPT00400042 und den Tätigkeiten Lagern, Behandeln und Beseitigen. Die
+Betreiber-Preisliste vom 15.03.2025 nennt im Kopf die neue offizielle Anschrift Gewerbering
+Nord 22a, im Fußbereich aber weiter die Nummer 11. Offen bleibt: welche der beiden belegten
+Hausnummern die aktuelle Betriebsanschrift ist, der Telefonwiderspruch zwischen Standortseite
+und Verzeichnissen, der ungeklärte GmbH-Status nach dem Verkauf des Recyclingsbereichs an Colas
+im März 2026 und der fehlende Beleg für einen privaten Barankauf.
 
 ## Timeline
 

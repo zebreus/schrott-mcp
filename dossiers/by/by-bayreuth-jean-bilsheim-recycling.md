@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Jean Bilsheim Recycling GmbH, Weiherstraße 37, 95448 Bayreuth, ein Schrott- und Metallhändler mit
+Containerdienst, Altpapier und Aktenvernichtung. Betreiberbelege aus Kontaktseite, Footer und
+Impressum mit HRB 5486 Registergericht Bayreuth sind registerkonform. Amtlich belegt sind das
+EfbV-Zertifikat Nr. 10347 der bvse-Entsorgergemeinschaft e.V. mit Vorgangsnummer ZZEE001001011009,
+fünf Anlagen, Prüfungsdatum 02.07.2026, Ausstellungsdatum 28.07.2026 und Gültigkeit bis zum
+28.01.2028 sowie die Anerkennung als Demontagebetrieb nach AltfahrzeugV für Anlage 4 mit Kennnummer
+I462W10018 für die Lagerung und Behandlung von Autowracks. Alle fünf Anlagen sind der Weiherstraße
+37 zugeordnet. Offen bleibt: die Website veröffentlicht noch die ältere Zertifikatsfassung mit der
+Vorgangsnummer ZZEE001001011008, die E-Mail-Adresse weicht zwischen Impressum und Kontaktseite ab,
+und die AltfahrzeugV-Anerkennung gilt ausdrücklich für keinen Hersteller.
 
 ## Timeline
 

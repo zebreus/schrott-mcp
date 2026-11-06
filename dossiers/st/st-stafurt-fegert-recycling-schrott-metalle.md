@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fegert Recycling GmbH (HRB 102079, Amtsgericht Stendal) betreibt in Staßfurt OT
+Friedrichshall am An der Liethe 1b ein Lager für Schrott und Metalle; Sitz ist die
+Gröperstraße 3 in 39124 Magdeburg. Angeboten sind An- und Verkauf von Schrott und Metall,
+Containerdienst mit Behältern von 1,5 bis 34 cbm, Demontagearbeiten, Abholung und
+Entsorgung von Schrott, Metall, Papier, Bauschutt und Holz. Die Identität tragen Standort-
+und Impressumsseite der Betreiberdomain sowie das Schrottplatz-Verzeichnis, das den Sitz
+seit 1991 und die Zugehörigkeit zur Scholz Recycling Gruppe nennt. Offen bleibt die
+Beleglage: Die Gruppenzugehörigkeit ist nur eine Verzeichnisangabe und nicht registerlich
+belegt, die E-Mail-Adresse ist per JavaScript verschleiert, und die Hausnummer 1b ist in
+OpenStreetMap nicht abgebildet, wo nur 1 a mit der Sporthalle Paul Merkewitz steht.
 
 ## Timeline
 

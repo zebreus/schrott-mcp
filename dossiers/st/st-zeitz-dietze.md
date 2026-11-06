@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Auto-Dietze, Inhaber Andreas Dietze, ist ein Einzelunternehmen ohne Handelsregister mit
+Werkstatt in der Loitscher Hauptstraße 13 in 06712 Zeitz-Loitsch. Das amtliche
+Fachbetrieberegister führt den Betrieb in der Variante ZAES02200013 als Demontagebetrieb
+und Autoverwerterfinder, die Betreiberseite nennt einen Kfz-Meisterbetrieb mit Reparatur,
+Service und gebrauchten Ersatzteilen. Die Identität tragen das Impressum der
+Betreiberdomain mit Anschrift, Telefon und E-Mail-Adresse sowie mehrere
+Verzeichniseinträge, die dasselbe Datenbild liefern. Offen bleibt die Beleglage: Die
+aktuelle Startseite nennt keine Autoverwertung und keine Schrottannahme, sodass die
+heutige Verwertungsaktivität ungeklärt bleibt; das Register schreibt den Ortsnamen
+abweichend, und Öffnungszeiten sind nicht belegt.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott-Stark e.K. mit Inhaber Matthias Stark ist ein eingetragenes Einzelunternehmen
+(Amtsgericht Chemnitz, HRA 9440) am Standort Zum Schrottplatz 1 in 08258 Markneukirchen OT
+Siebenbrunn. Der Betrieb nimmt Altpapier, Altmetalle, Altautos, Bauschutt, Altholz und
+Grüngut an, betreibt eine eigene Kompostieranlage und stellt Container von 1,5 bis 40 cbm
+bereit. Belege sind die AGB und das Impressum des Betreiberportals, der Eintrag im
+amtlichen Fachbetrieberegister mit der Anerkennung als Demontagebetrieb (ZZST00200159) und
+ein OSM-Objekt, das den Betrieb namentlich kartiert. Offen bleibt die Beleglage: Die
+Öffnungszeiten bleiben unbesetzt, weil die vier Zeitangaben des Portals den
+Wochentagsgruppen nicht eindeutig zuzuordnen sind, und ein Zertifikat liegt nicht vor.
+Ankaufpreise sind nur als marktübliche Höchstpreise beschrieben.
 
 ## Timeline
 
