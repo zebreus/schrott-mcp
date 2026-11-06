@@ -1,0 +1,1008 @@
+{
+  "version": 1,
+<<<<<<<< HEAD:scripts/release-delta-0f2eb47-seed-expectations.json
+  "release_commit": "0f2eb47a86d0d2f464ccfeba9f45113276d465fa",
+  "release_tree": "d82f3b2f88ec6ce2138419447b98adc4223d9ec5",
+  "rehearsal_manifest_sha256": "6bd5e0da4fe17816dce4f8eac6cee046a476779e0d922982ccbc88f89b941d2c",
+========
+  "release_commit": "da3dac2b7331f7dca47d553dd2655bffa29e824f",
+  "release_tree": "e3af185b86fb3984a6a692da6e329e46b7d82cfd",
+  "rehearsal_manifest_sha256": "b04aa912a822ce41ad37df6df404e20ed9955bc4cf02dc8a38839aa1430350a6",
+>>>>>>>> rel12:scripts/release-delta-da3dac2-seed-expectations.json
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bw-albstadt-makowski-schrott",
+    "bw-bad-saulgau-fischer",
+    "bw-boblingen-karle-recycling",
+    "bw-bretten-hauser-recycling-transporte",
+    "bw-bruchsal-bruchsal-metall-schrotthandel",
+    "bw-efringen-kuhl-entsorgung-recycling-sudwest",
+    "bw-karlsruhe-kuhl-entsorgung-recycling-sudwest",
+    "bw-offenburg-leber-a-rohstoffe-schrotthandel",
+    "bw-stuttgart-degenkolbe",
+    "by-aschaffenburg-huth-schrott-metall-huth",
+    "by-aschaffenburg-obernau-63743-hensel-recycling",
+    "by-barbing-avas-recycling",
+    "by-bayreuth-jean-bilsheim-recycling",
+    "by-coburg-scholz-recycling-betrieb-coburg",
+    "by-deiningen-86738-autoverwertung-bachmann",
+    "by-dorfprozelten-mehring",
+    "by-emskirchen-frankenberg",
+    "by-lohr-am-main-seubert-rohstoffhandel",
+    "nw-bielefeld-brackwede-pallatzky",
+    "nw-bielefeld-drekopf",
+    "nw-bielefeld-drewer-autoverwertungs-u-handelsges",
+    "nw-bielefeld-wolfgang-dehne",
+    "nw-bochum-a-fischer-sohne",
+    "nw-bonn-jungheim-schrott-metallhandel",
+    "nw-bottrop-linke",
+    "nw-delbruck-adolf-muckenhaupt",
+    "nw-delbruck-grewing-metallhandel-p3-entsorgung",
+    "nw-dortmund-a-r-schrotthandel",
+    "nw-dortmund-hermstruwer",
+    "nw-dortmund-lutgendortmund-wilhelm-raven-euro-metall",
+    "nw-dortmund-poeppel",
+    "nw-duisburg-elg-utica-alloys",
+    "nw-duisburg-ferro-duo",
+    "nw-duisburg-meiderich-motikat-entsorgungsdienstleistungen",
+    "nw-dusseldorf-bohner-altmetalle",
+    "nw-dusseldorf-ossenbuhl-schrotthandels"
+  ],
+  "scope": "exactly the 36 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+<<<<<<<< HEAD:scripts/release-delta-0f2eb47-seed-expectations.json
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-0f2eb47. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+========
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-da3dac2. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+>>>>>>>> rel12:scripts/release-delta-da3dac2-seed-expectations.json
+  "traders": [
+    {
+      "slug": "bw-albstadt-makowski-schrott",
+      "values": {
+        "name": "Makowski GmbH (Schrott)",
+        "city": "Albstadt",
+        "street": "Heersbergstraße 6",
+        "postcode": "72459",
+        "phone": "07431 9485614",
+        "email": "info@makowskigmbh.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://makowskigmbh.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "e06fcc8150e118d495c63028f885b8b3b6150154e6d65de1a10e4d0948c71cb4",
+      "seed_hash": "35ee9107e45578d9",
+      "geo": [
+        48.227066666666666,
+        9.0204
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden; Zertifikatsnummer K12188-20261009-Efb-de, Vorgangsnummer ZZHT004001683010, 1 Anlage, Prüfungsdatum 01.10.2026, Ausstellungsdatum 09.10.2026, gültig bis zum 31.03.2028; Entsorgungsfachbetrieb Makowski GmbH, Heersbergstraße 6, 72459 Albstadt, HRB 734431 Registergericht Stuttgart; dem Dossierstandort zugeordnet ist die einzige Anlage 1 am Standort Heersbergstraße 6, 72459 Albstadt: Tätigkeit Sammeln und Befördern (Kennnummer nach § 28 NachwV H384002347), Anlagentechnik „Sammeln und Befördern von Abfällen, Containerdienst“; amtliches Fachbetrieberegister, Abruf 05.11.2026)\"]"
+    },
+    {
+      "slug": "bw-bad-saulgau-fischer",
+      "values": {
+        "name": "Fischer",
+        "city": "Bad Saulgau",
+        "street": "Friedrich-List-Str. 19",
+        "postcode": "88348",
+        "phone": "+49 7581 7774",
+        "email": "Info@autoverwertung-fischer.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://autoverwertung-fischer.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "8d08e0d2daced5d4d09f39eb14a773217298080199aaa9617df1a960d44c20d7",
+      "seed_hash": "50bf94ddd379892b",
+      "geo": [
+        48.0123,
+        9.5035
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"AltfahrzeugV: Bescheinigung nach § 5 Abs. 3 AltfahrzeugV (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route „Altfahrzeugverwertung“, Abruf 05.11.2026): Vorgangsnummer ZAHS01300003, Bescheinigungsanlagennr. 1, Kennnummer H44103270, Bezeichnung der Firma „Auto- + Teilehandel Fischer“, Adresse der Firma „Friedrich-List-Straße 19, 88348 Bad Saulgau“, Telefon 07581/7774, Ansprechpartner Herr Hans-Dieter Fischer, Entfernung 0,0 km; die Felder „Rücknahme für folgende Hersteller“, „Fax“, „Internetadresse“ und „E-Mail“ sind im Register leer; Zertifikatsnummer, Aussteller und Gültigkeitsdatum der AltfahrzeugV-Bescheinigung sind im Register **nicht ausgewiesen** (für die Bescheinigung ist kein PDF hinterlegt)\"]"
+    },
+    {
+      "slug": "bw-boblingen-karle-recycling",
+      "values": {
+        "name": "Karle Recycling GmbH",
+        "city": "Böblingen",
+        "street": "Hanns-Klemm-Str. 11",
+        "postcode": "71034",
+        "phone": "07031 20 943-20",
+        "email": "",
+        "opening_hours": "Mo-Fr 7-16, Sa geschlossen",
+        "description": "Wertstoffhof der Karle Recycling GmbH (HRB 18064 AG Stuttgart) in Böblingen: Ankauf und Aufbereitung von Eisen- und Nichteisenschrott, Entsorgung, Containerdienst und Aktenvernichtung; zertifiziert als Entsorgungsfachbetrieb, Altfahrzeugdemontagebetrieb, ElektroG-Erstbehandlungsanlage und Vorbehandlungsanlage GewAbfV. Vergütung nach Marktpreis, Mindestauszahlungsbetrag 20 EUR je Anlieferung.",
+        "status": "aktiv",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://karle-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d554f0b7f6e6f450b3c6a103ac0f88e28167d522f005da43bc14740f63235650",
+      "seed_hash": "e568409f667e78e9",
+      "geo": [
+        48.6902,
+        8.9705
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:00-16:00\"], \"conditions\": \"Anlieferung Fe-/NE-Metall am Standort Böblingen, Hanns-Klemm-Str. 11, Mo-Fr 07:00-16:00, Samstag geschlossen; Bewertung über Sortenbefund, Fremdstoffe und Verunreinigungen mindern die Vergütung, Fehlwürfe werden mit Weigerungskosten belegt; Mindestauszahlungsbetrag 20 EUR (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Gruppenweit bietet Karle Recycling die Abholung mit dem eigenen Fuhrpark an, laut Betreiberangabe bei Material, das für eine Anlieferung am Platz in Feuerbach zu sperrig ist, sowie Containerdienst und Mulden; eine standortspezifische Abholregel für Böblingen ist nicht veröffentlicht (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall- Recycling-Wirtschaft e.V., Berliner Allee 57, 40212 Düsseldorf; Zertifikat ESN 97-100016 (26), Vorgangsnummer ZZEE003002931012; Prüfungsdatum 25.03.2026, Ausstellungsdatum 14.04.2026, gültig bis 31.08.2027; 5 Anlagen; Entsorgungsfachbetrieb Karle Recycling GmbH, Hauptsitz Friedrich-Scholer-Straße 5, 70469 Stuttgart, HRB 18064 Registergericht Stuttgart; dem Dossierstandort zugeordnet: Anlage 4: Lagern (Kennnummer nach § 28 NachwV H011062101) (Standortbezeichnung „Karle Recycling GmbH“) - Hanns-Klemm-Straße 11, 71034 Böblingen; Anlage 5: Lagern (Kennnummer nach § 28 NachwV H011062101), Behandeln (Kennnummer nach § 28 NachwV H011062101) (Standortbezeichnung „Karle Recycling GmbH“) - Hanns-Klemm-Straße 11, 71034 Böblingen; nicht übernommen (anderer Standort): Anlage 1: Sammeln, Befördern, Handeln, Makeln - Friedrich-Scholer-Straße 5, 70469 Stuttgart; Anlage 2: Lagern - Friedrich-Scholer-Straße 5, 70469 Stuttgart; Anlage 3: Behandeln - Friedrich-Scholer-Straße 5, 70469 Stuttgart)\", \"Altfahrzeugdemontagebetrieb\", \"AltfahrzeugV: kein Eintrag in der Route Altfahrzeugverwertung des amtlichen Fachbetrieberegisters für den Standort Hanns-Klemm-Straße 11, 71034 Böblingen (Namenssuche „Karle“, „Karle Recycling“, „Karle Recycling GmbH“ je 0 Treffer, Standortsuche 3 km 0 Treffer, 10 km 1 fremder Betrieb; Abfrage 05.11.2026)\", \"ElektroG Erstbehandlungsanlage\", \"Vorbehandlungsanlage GewAbfV\"]"
+    },
+    {
+      "slug": "bw-bretten-hauser-recycling-transporte",
+      "values": {
+        "name": "Hauser Recycling und Transporte GmbH",
+        "city": "Bretten-Gölshausen",
+        "street": "Gewerbestraße 59",
+        "postcode": "75015",
+        "phone": "07252 95545",
+        "email": "info@hauser-gmbh.net",
+        "opening_hours": "Mo-Fr 08:00-12:00 und 13:00-16:30; Sa 08:00-12:00",
+        "description": "Schrott- und Metallhandel mit Ankauf von Eisen- und Stahlschrott, Buntmetallen und Kabeln für Privat- und Gewerbekunden; Containerdienst, Transporte, Freileitungsrückbau und Industriedemontage.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hauser-gmbh.net/leistungen/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "7d392d410fb356a89495cf939ef278d2148cb9fc2c6f1fcc3b66beeef0daa10b",
+      "seed_hash": "7276456ee24b9098",
+      "geo": [
+        49.049592,
+        8.7398349
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Automobil GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikatsnummer 24012020/2964/555025365, Vorgangsnummer ZZHT002000478011; Prüfungsdatum 29.01.2026, Ausstellungsdatum 01.07.2026, gültig bis zum 28.07.2027; 3 Anlagen; Entsorgungsfachbetrieb Hauser Recycling & Transporte GmbH, Gewerbestr. 59, 75015 Bretten, HRB 240545 Registergericht Mannheim; dem Dossierstandort zugeordnet sind alle drei Anlagen am Standort Gewerbestr. 59, 75015 Bretten: Anlage 1 Tätigkeit Sammeln und Befördern (Kennnummer nach § 28 NachwV H162485702, Anlagentechnik „Bring- und Holsystem, Containerdienst“), Anlage 2 Tätigkeit Lagern (Kennnummer nach § 28 NachwV H162485702), Anlage 3 Tätigkeit Lagern und Behandeln (Kennnummer nach § 28 NachwV H162485702, Anlagentechnik „Anlage zum Lagern und Behandeln von gefährlichen und nicht gefährlichen Abfällen“); standort-, tätigkeits- und abfallartenbezogen)\"]"
+    },
+    {
+      "slug": "bw-bruchsal-bruchsal-metall-schrotthandel",
+      "values": {
+        "name": "Bruchsal Metall- & Schrotthandel",
+        "city": "Bruchsal",
+        "street": "Zum Heckgraben 6",
+        "postcode": "76646",
+        "phone": "+49 7257 930 01 30",
+        "email": "info@bruchsal-schrott.de",
+        "opening_hours": "Mo–Fr 08:00–17:00; Sa 08:00–16:00; So geschlossen",
+        "description": "Ankauf von FE-/NE-Metallen, Kabeln und weiteren Schrottarten; außerdem Elektrorecycling, Containerdienst und Industriedemontage.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.bruchsal-schrott.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b92aa6ad6bc15456859d665909c8c995d86a8d72b8149e60dc11254c9957f8cd",
+      "seed_hash": "87904f34cc7bbc1f",
+      "geo": [
+        49.1081279,
+        8.5263792
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (m-plan eG, Innere Wiener Straße 32, 81667 München; Zertifikatsnummer 2025 36 032, Vorgangsnummer ZZIT006000256005, 4 Anlagen, Prüfungsdatum 24.06.2025, Ausstellungsdatum 23.09.2026, gültig bis zum 15.12.2026; Registername „Coban Recycling GmbH“, Zum Heckgraben 6, 76646 Bruchsal, HRB 757303 Registergericht Mannheim, Telefon 07257 9300130, E-Mail info@cobanrecycling.de; dem Dossierstandort zugeordnet sind alle vier Anlagen am Standort Zum Heckgraben 6, 76646 Bruchsal: Anlage 1 Tätigkeit Sammeln und Befördern (Kennnummer nach § 28 NachwV H164009646), Anlage 2 Tätigkeit Lagern und Verwerten (H164009646), Anlage 3 Tätigkeit Behandeln und Verwerten (H164009646) mit „Erstbehandlungsanlage im Sinne des § 21 ElektroG“, Anlage 4 Tätigkeit Handeln und Makeln (H164009646); Identitätsvorbehalt: das Dossier führt „Bruchsal Metall- & Schrotthandel e.K.“, HRA 711377 Amtsgericht Mannheim, Inhaber Tayfun Coban, Tel. +49 7257 930 01 30 — das Register nennt für dieselbe Anschrift und dieselbe Telefonnummer den Rechtsträger „Coban Recycling GmbH“, HRB 757303 Mannheim; das Register enthält keinen Umfirmierungsvermerk zwischen e.K. und GmbH, die Identitätskette stützt sich auf Anschrift, Telefonnummer und Nachnamen des Inhabers; amtliches Fachbetrieberegister, Abruf 05.11.2026)\"]"
+    },
+    {
+      "slug": "bw-efringen-kuhl-entsorgung-recycling-sudwest",
+      "values": {
+        "name": "Kühl Entsorgung & Recycling Südwest",
+        "city": "Efringen-Kirchen",
+        "street": "Beim Breitenstein 26",
+        "postcode": "79588",
+        "phone": "+49 7628 803890",
+        "email": "kuehl.efringen-kirchen@kuehl-gruppe.de",
+        "opening_hours": "Verwaltung Mo-Fr 08:00-17:00; Hof/Warenannahme Mo-Fr 08:00-16:00",
+        "description": "Entsorgungsfachbetrieb der Kühl Entsorgung & Recycling Südwest GmbH (Gruppe Kühl Unternehmensgruppe, Zentrale Diedorf) am Standort Beim Breitenstein 26 in Efringen-Kirchen: Warenannahme von Papier, Pappe, Kartonagen, Glas, Kunststoffen, Holz, Sperrmüll, Bioabfällen, E-Schrott und Baumischabfall (die letzten drei nur nach Absprache), Containerdienst und Aktenvernichtung. Anlieferung nach Terminabsprache mit Anmeldung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://kuehl-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "13d1b939edb5018aab5999303191f745e8b5048d172edbe039ec212b2e739964",
+      "seed_hash": "3c2e60bf063fdbf8",
+      "geo": [
+        47.65,
+        7.5667
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"08:00-16:00\"], \"conditions\": \"Hof/Warenannahme Mo-Fr 08:00-16:00, Verwaltung Mo-Fr 08:00-17:00; Anlieferung nach Terminabsprache, Anmeldung nötig; angenommen werden Papier, Pappe und Kartonagen, Glas, Kunststoffe, Holz, Sperrmüll, Bioabfälle, E-Schrott und Baumischabfall, die letzten drei jeweils nur nach Absprache (Betreiber-Standortseite, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerdienst und Abholung: Behälter von 120 l bis 40 m3 nach Plan oder auf Abruf, Abholung nach Absprache (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (BSI Group Deutschland GmbH, Große Gallusstr. 1st Floor 16-18, 60312 Frankfurt; Zertifikatsnummer EfbV 528127 /4633E, Vorgangsnummer ZZFT004000153014; Prüfungsdatum 28.07.2026, Ausstellungsdatum 14.09.2026, gültig bis 27.10.2027; 12 Anlagen; Entsorgungsfachbetrieb Kühl Entsorgung & Recycling Südwest GmbH, Hauptsitz Zeppelinstraße 6, 76185 Karlsruhe, HRB102571 Registergericht Mannheim; dem Dossierstandort zugeordnet: Anlage 5: Lagern (Kennnummer nach § 28 NachwV H344001664) (Standortbezeichnung „Standort Efringen Kirchen“) - Beim Breitenstein 26, 79588 Efringen Kirchen; Anlage 6: Behandeln (Kennnummer nach § 28 NachwV H344001664) (Standortbezeichnung „Standort Efringen Kirchen“) - Beim Breitenstein 26, 79588 Efringen Kirchen; nicht übernommen (anderer Standort): Anlagen 1 bis 4 (Sammeln, Befördern, Handeln, Makeln, Lagern, Behandeln, Kennnummer nach § 28 NachwV H150406100) - Zeppelinstraße 6, 76185 Karlsruhe; Anlagen 7 und 8 (Lagern, Behandeln, Kennnummer nach § 28 NachwV H150406100) - Tauberstraße 28, 97922 Lauda-Königshofen; Anlagen 9 und 10 (Lagern, Behandeln, Kennnummer E362A50029) - Röntgenstraße 46, 50169 Kerpen; Anlagen 11 und 12 (Lagern, Behandeln, Kennnummer nach § 28 NachwV H354003738) - Lindenstraße 17, 79848 Bonndorf)\"]"
+    },
+    {
+      "slug": "bw-karlsruhe-kuhl-entsorgung-recycling-sudwest",
+      "values": {
+        "name": "Kühl Entsorgung & Recycling Südwest",
+        "city": "Karlsruhe",
+        "street": "Zeppelinstraße 6",
+        "postcode": "76185",
+        "phone": "+49 721 952490",
+        "email": "kuehl.suedwest@kuehl-gruppe.de",
+        "opening_hours": "Verwaltung Mo-Fr 08:00-17:00; Hof/Warenannahme Mo-Fr 07:00-16:00",
+        "description": "Entsorgungsfachbetrieb der Kühl Entsorgung & Recycling Südwest GmbH (Gruppe Kühl Unternehmensgruppe, Zentrale Diedorf) am Standort Zeppelinstraße 6 in Karlsruhe: Warenannahme von Papier, Pappe, Kartonagen, Glas, Kunststoffen, Holz und Metallen (Metalle nur nach Absprache), Containerdienst von 120 l bis 40 m3, Akten- und Datenträgervernichtung mit Nachweis. Anlieferung nur nach Terminabsprache mit Anmeldung.",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://kuehl-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "f0027dc310329eb13335bb345c80c20dabbb8dd40301f32dd6e2f001cf50f983",
+      "seed_hash": "8d6652f55c9d44c7",
+      "geo": [
+        49.00611428571428,
+        8.396978571428571
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:00-16:00\"], \"conditions\": \"Hof/Warenannahme Mo-Fr 07:00-16:00, Verwaltung Mo-Fr 08:00-17:00; Anlieferung nach Terminabsprache, Anmeldung nötig; angenommen werden Papier, Pappe und Kartonagen, Glas, Kunststoffe, Holz und Metalle, Metalle nur nach Absprache (Betreiber-Standortseite, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerdienst und Abholung: Behälter von 120 l bis 40 m3 nach Plan oder auf Abruf, Abholung nach Absprache (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (BSI Group Deutschland GmbH, Große Gallusstr. 1st Floor 16-18, 60312 Frankfurt; Zertifikatsnummer EfbV 528127 /4633E, Vorgangsnummer ZZFT004000153014; Prüfungsdatum 28.07.2026, Ausstellungsdatum 14.09.2026, gültig bis 27.10.2027; 12 Anlagen; Entsorgungsfachbetrieb Kühl Entsorgung & Recycling Südwest GmbH, Hauptsitz Zeppelinstraße 6, 76185 Karlsruhe, HRB102571 Registergericht Mannheim; dem Dossierstandort zugeordnet: Anlage 1: Sammeln (Kennnummer nach § 28 NachwV H150406100), Befördern (Kennnummer nach § 28 NachwV H150406100) (Standortbezeichnung „Kühl Entsorgung & Recycling Südwest GmbH“) - Zeppelinstraße 6, 76185 Karlsruhe; Anlage 2: Handeln (Kennnummer nach § 28 NachwV H150406100), Makeln (Kennnummer nach § 28 NachwV H150406100) - Zeppelinstraße 6, 76185 Karlsruhe; Anlage 3: Lagern (Kennnummer nach § 28 NachwV H150406100) - Zeppelinstraße 6, 76185 Karlsruhe; Anlage 4: Behandeln (Kennnummer nach § 28 NachwV H150406100) - Zeppelinstraße 6, 76185 Karlsruhe; nicht übernommen (anderer Standort): Anlagen 5 und 6 (Lagern, Behandeln, Kennnummer nach § 28 NachwV H344001664) - Beim Breitenstein 26, 79588 Efringen Kirchen; Anlagen 7 und 8 (Lagern, Behandeln, Kennnummer nach § 28 NachwV H150406100) - Tauberstraße 28, 97922 Lauda-Königshofen; Anlagen 9 und 10 (Lagern, Behandeln, Kennnummer E362A50029) - Röntgenstraße 46, 50169 Kerpen; Anlagen 11 und 12 (Lagern, Behandeln, Kennnummer nach § 28 NachwV H354003738) - Lindenstraße 17, 79848 Bonndorf)\"]"
+    },
+    {
+      "slug": "bw-offenburg-leber-a-rohstoffe-schrotthandel",
+      "values": {
+        "name": "August Leber Rohstoffe Handelsgesellschaft mbH",
+        "city": "Offenburg",
+        "street": "Am Güterbahnhof 22",
+        "postcode": "77652",
+        "phone": "+49 781 9260-0",
+        "email": "info@leberrohstoffe.com",
+        "opening_hours": "Büro Mo-Fr 07:30-12:00 und 13:00-17:00; Lager Mo-Fr 07:30-12:00 und 13:00-16:30",
+        "description": "August Leber Rohstoffe Handelsgesellschaft mbH (Registergericht Freiburg HRB 470283, Geschäftsführer Raimund Leber und Manfred Leber) am Stammsitz Am Güterbahnhof 22 in 77652 Offenburg: traditionsreicher Schrott- und NE-Metall-Recycler mit rund 150 Mitarbeitern, über 165.000 Quadratmetern Betriebsfläche und rund 500.000 Tonnen erfasster Schrott- und Metallmenge pro Jahr; Standort Offenburg mit 50.000 Quadratmetern, zweiter Standort im Kehler Rheinhafen. Zertifiziert als Entsorgungsfachbetrieb, Altfahrzeug-Demontagebetrieb, ElektroG-Erstbehandlungsanlage sowie ISO 9001 und ISO 14001.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.leberrohstoffe.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "6334e40b16d9e13984808e13fc2776d4afa0a271b479bec8caa45e01b6602d8f",
+      "seed_hash": "b35307e913c00215",
+      "geo": [
+        48.468500000000006,
+        7.943666666666666
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\"], \"time_windows\": [\"07:30-16:30\"], \"conditions\": \"Privat- und Kleinlieferanten können laut Betreiberangabe zwischen 7:30 und 16:30 Uhr anliefern: Alteisen von der alten Waschmaschine bis zu Produktionsabfällen aus dem Maschinenbau, Altauto, Buntmetalle wie Kupfer, Kabel, Messing, Bronze, Alu, Zink, Zinn, Blei, Autobatterien und Edelstahl (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Containerservice mit Absetzmulden 7, 10 und 15 m3 sowie Abrollcontainern 15 bis 40 m3, Abhol- und Lieferservice mit eigenem Fuhrpark und Speditionspartnern, zusätzlich Bahn- und Schiffstransport (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (ZN ZertifizierungsNetzwerk GmbH, Goethestraße 11/5, 71131 Jettingen; Zertifikatsnummer 2026-0108, Vorgangsnummer ZZHT010001584007; Prüfungsdatum 16.04.2026, Ausstellungsdatum 30.04.2026, gültig bis 15.10.2027; 6 Anlagen; Entsorgungsfachbetrieb August Leber Rohstoffe Handelsgesellschaft mbH, Güterbahnhof 22, 77652 Offenburg, HRB 470283 Registergericht Freiburg; 5.1 „Zur Zertifizierung als Erstbehandlungsanlage im Sinne des § 21 ElektroG siehe Anlage(n) 3“; dem Dossierstandort zugeordnet: Anlage 1: Sammeln, Befördern, Handeln, Makeln (Kennnummer nach § 28 NachwV H290392001) - Güterbahnhof 22, 77652 Offenburg; Anlage 2: Lagern, Verwerten, Beseitigen (Kennnummer nach § 28 NachwV H290392001) - Güterbahnhof 22, 77652 Offenburg; Anlage 3: Behandeln, Verwerten (Kennnummer nach § 28 NachwV H290392001) mit „Erstbehandlungsanlage im Sinne des § 21 ElektroG“ - Güterbahnhof 22, 77652 Offenburg; nicht übernommen (anderer Standort): Anlagen 4 und 5: Lagern, Verwerten (Kennnummer nach § 28 NachwV H294003521) - Hafenstraße 50, 77694 Kehl; Anlage 6: Behandeln, Verwerten (Kennnummer nach § 28 NachwV H294003521) - Hafenstraße 50, 77694 Kehl)\", \"Altfahrzeug-Demontagebetrieb\", \"AltfahrzeugV (Route Altfahrzeugverwertung des amtlichen Fachbetrieberegisters, Abruf 06.11.2026): Eintrag ZZHT01000158 / 3 (Zertifikatsanlagennr. 3) für August Leber Rohstoffe Handelsgesellschaft mbH, Güterbahnhof 22, 77652 Offenburg, Kennnummer H29039200; die Felder „Rücknahme für folgende Hersteller“, „Fax“, „Internetadresse“ und „E-Mail“ sind im Register leer, ein Zertifikats-PDF ist dort nicht hinterlegt\", \"Erstbehandlungsanlage nach ElektroG\", \"ISO 9001\", \"ISO 14001\"]"
+    },
+    {
+      "slug": "bw-stuttgart-degenkolbe",
+      "values": {
+        "name": "Degenkolbe",
+        "city": "Stuttgart",
+        "street": "Neckartalstraße 225",
+        "postcode": "70376",
+        "phone": "0711 954530",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-16:30, Sa 07:00-13:00",
+        "description": "Degenkolbe Recycling GmbH (HRB 757816 AG Stuttgart, GF Wolfgang Müller und Stephan Karle) im Recyclingpark Neckartal in Stuttgart-Bad Cannstatt: Wertstoffhof und umfangreich genehmigter Entsorgungsfachbetrieb mit Schwerpunkt Papier-, Kartonagen- und Kunststoffrecycling, seit 1919 aktiv; nimmt Wertstoffe von Privatpersonen, Industrie, Gewerbe, Handel und anderen Entsorgungsbetrieben als Abnehmer an und betreibt eine Hochleistungsballenpresse und einen Shredder.",
+        "status": "aktiv",
+        "trader_type": "wertstoffhaendler",
+        "website": "https://www.degenkolbe-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1f61c33976da39d13f0fdb5efa1b649d51170eb7019a267a4cbcd7ec2dcce803",
+      "seed_hash": "226c26de5bc27c81",
+      "geo": [
+        48.76828,
+        9.186139999999998
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\", \"Sa\"], \"time_windows\": [\"07:00-16:30\"], \"conditions\": \"Generelle Anlieferzeiten laut Betreiber-Startseite Mo-Fr 07:00-16:30 Uhr, Sa 07:00-13:00 Uhr; Anlieferung am Wertstoffhof Neckartalstraße 225; Schrott und Fe-/NE-Metall nach den Annahmebedingungen der Karle-Gruppe (Bewertung nach Sortenbefund, Weigerungskosten bei Fehlwürfen), Details im EfB-Zertifikat (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Entsorgungskonzepte, innerbetriebliche Entsorgungslogistik, Stoffstrommanagement und Fremdverwiegung werden als Dienstleistungen angeboten; eine öffentliche Abholregel für Privatpersonen ist nicht veröffentlicht (Betreiber-Website, Abruf 30.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden; Zertifikatsnummer K10311-20260326-Efb-de, Vorgangsnummer ZZHT004004417015; Prüfungsdatum 25.03.2026, Ausstellungsdatum 26.03.2026, gültig bis 24.09.2027; 5 Anlagen; Entsorgungsfachbetrieb Degenkolbe Recycling GmbH, Neckartalstraße 225, 70376 Stuttgart, HRB757816 Registergericht Stuttgart; dem Dossierstandort zugeordnet sind alle fünf Anlagen am Standort Neckartalstraße 225, 70376 Stuttgart: Anlage 1 Tätigkeit Sammeln, Befördern und Handeln (Kennnummer nach § 28 NachwV H012658600), Anlage 2 Tätigkeit Lagern (Kennnummer nach § 28 NachwV H012658600), Anlage 3 Tätigkeit Behandeln (Kennnummer nach § 28 NachwV H012658600), Anlage 4 Tätigkeit Behandeln (Kennnummer nach § 28 NachwV H012658600), Anlage 5 Tätigkeit Behandeln (Kennnummer nach § 28 NachwV H012658600))\", \"Anzeige nach § 53 KrWG (Angabe der Betreiber-Seite; Zertifikat Entsorgungsfachbetrieb auf der Betreiber-Seite abrufbar)\"]"
+    },
+    {
+      "slug": "by-aschaffenburg-huth-schrott-metall-huth",
+      "values": {
+        "name": "Huth Schrott Metall GmbH (Huth GmbH)",
+        "city": "Aschaffenburg",
+        "street": "Hafenkopfstr. 7",
+        "postcode": "63741",
+        "phone": "06021 412323",
+        "email": "info@huth-recycling.de",
+        "opening_hours": "Mo-Fr 07:30-12:00+13:00-16:30, Sa 07:30-11:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.huth-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "bc4815ad207c1b7982d0a9f79c4a62049c351e3a678fd831eef111c96cc8e020",
+      "seed_hash": "ee469c67d7ba9cc9",
+      "geo": [
+        49.967827,
+        9.1080555
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (ZUUM Gesellschaft für techn. Überwachung und Zertifizierung mbH, Ringstraße 26, 36396 Steinau an der Straße; Zertifikat ZUUM-272-0718-63-25-0923, Vorgangsnummer ZZFT013000318011; Prüfungsdatum 19.11.2025, Ausstellungsdatum 03.12.2025, gültig bis zum 18.03.2027; 3 Anlagen; Entsorgungsfachbetrieb Huth Schrott-Metall GmbH, Hafenkopfstraße 7, 63741 Aschaffenburg, HRB 5758 Registergericht Aschaffenburg; Anlage 1 dem Standort Hafenkopfstraße 7, 63741 Aschaffenburg zugeordnet, Tätigkeit Sammeln, Befördern, Kennnummer nach § 28 NachwV I661T02919; Anlage 2 gleicher Standort, Tätigkeit Lagern, Kennnummer I661S00397; Anlage 3 gleicher Standort, Tätigkeit Behandeln, Kennnummer I661S00397)\"]"
+    },
+    {
+      "slug": "by-aschaffenburg-obernau-63743-hensel-recycling",
+      "values": {
+        "name": "Hensel Recycling GmbH",
+        "city": "Aschaffenburg",
+        "street": "Mühlweg 10",
+        "postcode": "63743",
+        "phone": "+49 6028 1209-0",
+        "email": "info@hensel-recycling.com",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://hensel-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d7ec529c2a4a0d75d49121051b5481fdba4adcef4c8eecdcd4249edf343a9f42",
+      "seed_hash": "ea41c0da421d71db",
+      "geo": [
+        49.9648,
+        9.1647
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken; Zertifikat A-001179, Vorgangsnummer ZZKT001001486011; Prüfungsdatum 04.03.2026, Ausstellungsdatum 30.04.2026, gültig bis 03.09.2027; das Zertifikat beinhaltet 4 Anlagen; Betreiber Hensel Recycling GmbH, Standort Mühlweg 10, 63743 Aschaffenburg-Obernau, HRB 7526 Registergericht Aschaffenburg; Anlage 1 Sammeln, Befördern, Handeln und Makeln (Kennnummer nach § 28 NachwV I661T04301 bzw. I661M00027), Anlage 2 Lagern (I661S00274), Anlage 3 Behandeln Katalysatorenanlage (I661S00283), Anlage 4 Behandeln (I661S00292); alle vier Anlagen am Standort Mühlweg 10, 63743 Aschaffenburg-Obernau)\", \"Erstbehandlungsanlage nach § 21 ElektroG (GZQ GmbH, Zertifikat A-001179 und Vorgangsnummer ZZKT001001486011, Anlage 4: Die Einhaltung der Anforderungen des ElektroG wurde geprüft und die Anlage gilt als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG; Standort Mühlweg 10, 63743 Aschaffenburg-Obernau)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Mühlweg 10, 63743 Aschaffenburg-Obernau (Abfrage 02.11.2026)\"]"
+    },
+    {
+      "slug": "by-barbing-avas-recycling",
+      "values": {
+        "name": "AVAS Recycling GmbH",
+        "city": "Barbing",
+        "street": "Gerstenweg 2",
+        "postcode": "93092",
+        "phone": "09401 539770",
+        "email": "",
+        "opening_hours": "Mo-Do 07.00-12.00 und 13.00-17.00, Fr 08.00-12.00",
+        "description": "Zertifizierter Entsorgungsfachbetrieb für Schrott- und Metallrecycling in Barbing bei Regensburg: Eisen- und Stahlschrott, NE-Metalle, Containerdienst, Abbruch und Entsorgung. ANKAUF: Schrottankauf privat und gewerblich gegen bares Geld, ohne veröffentlichte Preise oder Mindestmengen. VERKAUF: kein Verkauf von Metallen belegt. GEBÜHREN: Containerpreise werden nicht veröffentlicht, die Anfrage erfolgt über das Anfrageformular.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.avas-recycling.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "cf9ceb13f86d1146777adc41d643fe3261ec3a20cf1fc904cca6d7c2b81296c6",
+      "seed_hash": "cee63f842108f8fe",
+      "geo": [
+        49.0,
+        12.2
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG i. V. m. EfBV (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München): Zertifikat-Registrier-Nr. 12 150 62697 TMS, Auftrags-Nr. 707137094, Vorgangsnummer ZZIT007005319007, 3 Anlagen, gültig bis 21.01.2027, Auditdatum 21.07.2025, Ausstellungsdatum 20.10.2025, München; Entsorgungsfachbetrieb Avas Recycling GmbH, Hauptsitz Gerstenweg 2, 93092 Barbing, HRA 13592 Registergericht Regensburg; Anlage 1: Sammeln und Befördern, Kennnummer nach § 28 NachwV I375T30271, Anlagentechnik: Sammeln und Befördern von Abfällen; Anlage 2: Lagern, Kennnummer I375T30271, Anlagentechnik: Lagern von Abfällen auf einer überdachten Freifläche (darunter Abfallschlüssel 160104* Altfahrzeuge, max. 5 Fahrzeuge); Anlage 3: Behandeln und Verwerten, Kennnummer I375T30271, Anlagentechnik: Behandeln von Abfällen mit Hilfe eines Baggers, einer Alligator- und Schrottschere\", \"Amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge (Abfrage 02.11.2026): Route Entsorgungsfachbetriebe - Avas Recycling GmbH, Gerstenweg 2, 93092 Barbing, Vorgangsnummer ZZIT00700531, Bescheinigungsanlagennr. 1 (Sammeln, Befördern), 2 (Lagern) und 3 (Behandeln, Verwerten); die Route Altfahrzeugverwertung führt für Barbing keinen Eintrag dieses Betriebs - keine AltfahrzeugV-Anerkennung belegt\"]"
+    },
+    {
+      "slug": "by-bayreuth-jean-bilsheim-recycling",
+      "values": {
+        "name": "Jean Bilsheim Recycling GmbH",
+        "city": "Bayreuth",
+        "street": "Weiherstr. 37",
+        "postcode": "95448",
+        "phone": "0921 789190",
+        "email": "recycling@jean-bilsheim.com",
+        "opening_hours": "Mo-Fr 07:00-16:00 Anlieferung",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.jean-bilsheim.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "cd9a36abfba0749dea9564886e71223ed52158216dfc34883e9b617b56b83830",
+      "seed_hash": "c8cdbce53eb5a93c",
+      "geo": [
+        49.946175,
+        11.57825
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG i. V. m. EfBV (bvse-Entsorgergemeinschaft e.V., Fränkische Straße 2, 53229 Bonn): Zertifikat-Nr. 10347, Vorgangsnummer ZZEE001001011009, 5 Anlagen, gültig bis 28.01.2028, Prüfungsdatum 02.07.2026, Ausstellungsdatum 28.07.2026; Entsorgungsfachbetrieb Jean Bilsheim Recycling GmbH, Hauptsitz Weiherstraße 37, 95448 Bayreuth, HRB 5486 Registergericht Bayreuth; Anlage 4 ist dem Standort Weiherstraße 37, 95448 Bayreuth zugeordnet (Bezeichnung Jean Bilsheim Recycling GmbH), dort ist im Feld 3.2 das Feld 3.2.3 Demontagebetrieb angekreuzt, Anlagentechnik: Anlage zur Lagerung und Behandlung von Autowracks, Kennnummer nach § 28 NachwV I462W10018, Beiblatt AltfahrzeugV: Entsorgernummer (Behandeln) I462W10018, Genehmigungsbehörde Stadt Bayreuth, Hersteller für unentgeltliche Rücknahme von Altfahrzeugen: Für keinen Hersteller\", \"AltfahrzeugV-Anerkennung als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Abfrage 02.11.2026): Jean Bilsheim Recycling GmbH, Weiherstraße 37, 95448 Bayreuth, Vorgangsnummer ZZEE00100101, Bescheinigungsanlagennr. 4, Kennnummer I462W1001, Telefon 0921 78919-0, Fax 0921 78919-87, E-Mail sophia.bilsheim@jean-bilsheim.com, Internetadresse `www.jean-bilsheim.de;` die Bescheinigungsanlagennr. 4 erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb, mit dem Filter Art des Betriebs = Egal erscheinen zusätzlich die Anlagennr. 1, 2, 3 und 5, deren Art im Ergebnisgrid nicht ausgewiesen ist\", \"Amtliches Fachbetrieberegister (Route Entsorgungsfachbetriebe, Abfrage 02.11.2026): Jean Bilsheim Recycling GmbH, Weiherstraße 37, 95448 Bayreuth, Vorgangsnummer ZZEE00100101, Zertifikatsanlagennr. 1 (Sammeln, Befördern), 2 (Lagern), 3 (Behandeln), 4 (Lagern, Behandeln) und 5 (Lagern)\", \"EfbV-Zertifikat, auf der Betreiber-Website veröffentlichte Fassung (bvse-Entsorgergemeinschaft e.V., Nr. 10347, Vorgangsnummer ZZEE001001011008, gültig bis 30.01.2027, Nachweis erbracht im Rahmen der Überprüfung am 03.07.2025, Bonn, den 29.07.2025): Jean Bilsheim Recycling GmbH, Weiherstraße 37, 95448 Bayreuth - die amtliche Registerfassung ZZEE001001011009 ist die jüngere Folgezertifizierung\"]"
+    },
+    {
+      "slug": "by-coburg-scholz-recycling-betrieb-coburg",
+      "values": {
+        "name": "Scholz Recycling GmbH Betrieb Coburg",
+        "city": "Coburg",
+        "street": "Gutenbergstr. 6",
+        "postcode": "96450",
+        "phone": "+49 9561 5519-0",
+        "email": "coburg@scholz-recycling.de",
+        "opening_hours": "Mo-Do 07:30-11:45, 12:30-16:30, Fr 07:30-11:45, 12:30-15:15",
+        "description": "Scholz-Recycling-Filiale Coburg: Stahl-/Metallschrott-Ankauf, Selbstanlieferung, Container, Entsorgungsfachbetrieb",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.scholz-recycling.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "cc3698b8b624bc510179a3a236b2c996926d6212f4bd07e03fff3c9b62fd1e22",
+      "seed_hash": "a156c86fcb6aa7ae",
+      "geo": [
+        50.2594,
+        10.9638
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG i. V. m. EfBV (ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berliner Allee 57, 40212 Düsseldorf): Zertifikat-Nr. ESN 98-110174 (26), Vorgangsnummer ZZEE003000555011, 3 Anlagen, gültig bis 31.08.2027, Prüfungsdatum 18.03.2026, Ausstellungsdatum 15.04.2026; Entsorgungsfachbetrieb Scholz Recycling GmbH, Hauptsitz Berndt-Ulrich-Scholz-Straße 1, 73457 Essingen, HRB 733963 Registergericht Ulm; alle drei Anlagen sind dem Standort Gutenbergstraße 6, 96450 Coburg zugeordnet: Anlage 1 (Sammeln und Befördern, Kennnummer nach § 28 NachwV H130114406, Anlagentechnik: Fuhrpark), Anlage 2 (Lagern, Kennnummer I463S00057, Anlagentechnik: Anlage nach der 4. BImSchV, Auszug aus dem Bescheid Stadt Coburg 14.04.2015, 8.12.1.2 Anlage zur zeitweiligen Lagerung von gefährlichen Abfällen und 8.12.2 Anlage zur zeitweiligen Lagerung von nicht gefährlichen Abfällen) und Anlage 3 (Behandeln, Kennnummer I463S00057, Anlagentechnik: Anlage nach der 4. BImSchV, Auszug aus dem Bescheid Stadt Coburg 14.04.2015, 8.11.2.2 Anlage zur sonstigen Behandlung von nicht gefährlichen Abfällen und 8.11.2.1 Anlage zur sonstigen Behandlung von gefährlichen Abfällen)\", \"Amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge (Route Entsorgungsfachbetriebe, Abfrage 02.11.2026): Scholz Recycling GmbH Betrieb Coburg, Gutenbergstraße 6, 96450 Coburg, Vorgangsnummer ZZEE00300055, Zertifikatsanlagennr. 1 (Sammeln, Befördern), 2 (Lagern) und 3 (Behandeln)\", \"Eintrag in der Route Altfahrzeugverwertung des amtlichen Fachbetrieberegisters mit Art des Betriebs = sonstige Anlage zur weiteren Behandlung (Abfrage 02.11.2026, Filter Art des Betriebs = Sonstige Anlage): Scholz Recycling GmbH, Gutenbergstraße 6, 96450 Coburg, Vorgangsnummer ZAHS01600092, Bescheinigungsanlagennr. 1, Telefon 09561 5519-0, Ansprechpartner Herr Bernhardt Thomas; der Datensatz erscheint nicht beim Filter Art des Betriebs = Demontagebetrieb - eine Demontagebetrieb-Anerkennung ist für diesen Standort nicht belegt\"]"
+    },
+    {
+      "slug": "by-deiningen-86738-autoverwertung-bachmann",
+      "values": {
+        "name": "Autoverwertung Bachmann GmbH",
+        "city": "Deiningen 86738",
+        "street": "Hauptstraße 1",
+        "postcode": "86738",
+        "phone": "09081 / 29 33-0",
+        "email": "info@autoverwertung-bachmann.de",
+        "opening_hours": "Mo, Di, Do, Fr 8-12 und 13-17, Mi geschlossen, Sa 8-12",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://www.autoverwertung-bachmann.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "26d0007f087044ee73d394ca54ccdafe2d73ae82d332875f1c176d5a2c623c33",
+      "seed_hash": "0cb024c9e77b882c",
+      "geo": [
+        48.8667,
+        10.5667
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"AltfahrzeugV-Bescheinigung nach § 5 Abs. 3 Altfahrzeug-Verordnung (Bescheinigung gemäß § 5 Abs. 3 Altfahrzeug-Verordnung, durch den von der Industrie- und Handelskammer Hochrhein-Bodensee öffentlich bestellten und vereidigten Sachverständigen für das Sachgebiet Verwertung von Altautos, Herrn Kremer, im Rahmen eines Audits festgestellt, Bericht-Nr.: 3720 6134 - 26): Bachmann Autoverwertung GmbH, Hauptstraße 1, DE-86738 Deiningen; Art der Anlage Demontagebetrieb, geprüfter Standort Hauptstraße 1, DE-86738 Deiningen; Betriebsnummer I 779 E 0507; Ansprechpartner Herr Bachmann, jun. (Tel. 09081/2933-0); zuständige Genehmigungsbehörde Landratsamt Donau-Ries; Datum der Erstprüfung 16.01.1998; gültig bis 15.07.2027; Registrier-Nr. 01 410 080011; Vor-Ort-Prüfung Deiningen, 04.07.2026\", \"Amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge (Route Altfahrzeugverwertung, Abfrage 02.11.2026, Filter Art des Betriebs = Demontagebetrieb): Bachmann Autoverwertung GmbH, Hauptstraße 1, 86738 Deiningen, Vorgangsnummer ZAHS00800008, Bescheinigungsanlagennr. 1, Kennnummer I779E0507, Telefon 09081/2933-0, Fax 09081/2933-50, E-Mail info@autoverwertung-bachmann.de, Ansprechpartner Herr Timo Bachmann, Rücknahme für folgende Hersteller Alpina, BMW, Mini (ab Bj. 04/2001), Rolls-Royce\"]"
+    },
+    {
+      "slug": "by-dorfprozelten-mehring",
+      "values": {
+        "name": "Mehring",
+        "city": "Dorfprozelten",
+        "street": "Industriestraße 18",
+        "postcode": "97904",
+        "phone": "09392 98404 0",
+        "email": "info@mehring-container.de",
+        "opening_hours": "Mo-Fr 08:00-12:00, 12:45-17:00 (nach Absprache ab 07:00)",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.mehring-container.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "9944ab9023fdca2be1b8d873b3fed637361b11831284891c40aa66daa6e0ddad",
+      "seed_hash": "6ec27bb9727ed5d8",
+      "geo": [
+        49.7766272,
+        9.3992833
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG i. V. m. EfBV (ZUUM Gesellschaft für techn. Überwachung und Zertifizierung mbH, Ringstraße 26, 36396 Steinau an der Straße): Zertifikat-Nr. ZUUM-177-0510-97-26-0615, Vorgangsnummer ZZFT013000728015, 3 Anlagen, gültig bis 05.01.2028, Prüfungsdatum 15.10.2026, Ausstellungsdatum 17.10.2026; Entsorgungsfachbetrieb Mehring GmbH Schrott-Recycling-Container, Hauptsitz Industriestraße 18, 97904 Dorfprozelten, HRB 8536 Registergericht Aschaffenburg; alle drei Anlagen sind dem Standort Industriestraße 18, 97904 Dorfprozelten zugeordnet - Anlage 1 (Sammeln und Befördern, Kennnummer nach § 28 NachwV I676T04700, Anlagentechnik: Containerdienst, Schrott- und Metallhandel, Gewerbeabfälle), Anlage 2 (Lagern und Behandeln, Kennnummer I676E08169, Anlagentechnik: Containerdienst, Schrott- und Metallhandel, Gewerbeabfälle, Lager für nicht gefährliche Abfälle, Sortierbagger, Kabelschälmaschine, Alligatorschere) und Anlage 3 (Lagern, Kennummer I676E08169, Anlagentechnik: Zwischenlagerung und Umschlag von gefährlichen und nicht gefährlichen Abfällen und Holzspänen)\", \"Amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge (Route Entsorgungsfachbetriebe, Abfrage 02.11.2026): Mehring GmbH, Industriestraße 18, 97904 Dorfprozelten, Vorgangsnummer ZZFT01300072, Zertifikatsanlagennr. 1 (Sammeln, Befördern), 2 (Lagern, Behandeln) und 3 (Lagern); Internetadresse https://www.mehring-container.de, Telefon 06021 44198510\"]"
+    },
+    {
+      "slug": "by-emskirchen-frankenberg",
+      "values": {
+        "name": "Frankenberg",
+        "city": "Emskirchen",
+        "street": "Industriestraße 1",
+        "postcode": "91448",
+        "phone": "09104 826220",
+        "email": "verwaltung@fmr.ag",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://fmr.ag",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5a86a997daeee04f98f0e8a758656e6e5c4d599a2ac1424c361d4e2582be733a",
+      "seed_hash": "81c06ee5fc3ff0ae",
+      "geo": [
+        49.5528,
+        10.7128
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat 120198071, Vorgangsnummer ZZHT003006587009; Prüfungsdatum 03.02.2026, Ausstellungsdatum 09.02.2026, gültig bis zum 11.07.2027; 6 Anlagen; Entsorgungsfachbetrieb Frankenberg-Metallrecycling GmbH, Industriestraße 1, 91448 Emskirchen, HRB 11345 Registergericht Fürth; Anlage 1 dem Standort Industriestraße 1, 91448 Emskirchen zugeordnet, Tätigkeit Sammeln, Befördern, Handeln, Makeln, Kennnummer nach § 28 NachwV I575T04443 (Sammeln, Befördern), I575H00052 (Handeln, Makeln); Anlage 2 gleicher Standort, Tätigkeit Lagern, Kennnummer I575S00023; Anlage 3 gleicher Standort, Tätigkeit Behandeln, Kennummer I575S00023; Anlage 4 gleicher Standort, Tätigkeit Lagern, Kennummer I575S00023; Anlage 5 gleicher Standort, Tätigkeit Behandeln, Kennummer I575S00023; Anlage 6 gleicher Standort, Tätigkeit Lagern, Behandeln, Kennummer I575S00023\"]"
+    },
+    {
+      "slug": "by-lohr-am-main-seubert-rohstoffhandel",
+      "values": {
+        "name": "Seubert Rohstoffhandel",
+        "city": "Lohr am Main",
+        "street": "Am Landgraben 14",
+        "postcode": "97816",
+        "phone": "09352/807066 (auch 09352/5004107)",
+        "email": "info@seubert-rohstoffhandel.de",
+        "opening_hours": "Mo-Fr 8-12 und 13-17, Sa 9-13 Uhr",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.seubert-rohstoffhandel.de",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "06c090dc47d59214e5bd46b32173e636b8231e4a7d4eab9265c09a89219d1752",
+      "seed_hash": "e154da92494b87fd",
+      "geo": [
+        49.9892,
+        9.5722
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat 290914021, Vorgangsnummer ZZHT003001491010, gültig bis zum 02.01.2028, Prüfungsdatum 03.07.2026, Ausstellungsdatum 21.07.2026; 5 Anlagen; Rechtsträger Seubert Rohstoffhandel Inhaber Hans Seubert, Am Landgraben 14, 97816 Lohr am Main, Registernummer nicht ausgewiesen (Feld 4.4: Nicht zutreffend), Registergericht nicht ausgewiesen; alle Anlagen 1 bis 5 dem Standort Am Landgraben 14, 97816 Lohr am Main zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV I677Q01081), Anlage 2 Lagern (I677N00014), Anlage 3 Behandeln (I677N00014), Anlage 4 Behandeln (I677N00014), Anlage 5 Behandeln (I677N00014))\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Am Landgraben 14, 97816 Lohr am Main (Namenssuche Seubert in der Route Altfahrzeugverwertung: 0 Treffer, Abruf 05.11.2026)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-brackwede-pallatzky",
+      "values": {
+        "name": "Pallatzky GmbH",
+        "city": "Bielefeld-Brackwede",
+        "street": "Stellwerkstr. 16",
+        "postcode": "33647",
+        "phone": "0521 4442-94",
+        "email": "info@pallatzky-gmbh.de",
+        "opening_hours": "Mo-Do 08:00-16:30, Fr 08:00-14:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://pallatzky-gmbh.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "da3dcb256abca0a9dd3a2496f0a35b2a3cddc41e8facc2f49935ce1ed8f840c0",
+      "seed_hash": "0f7b5e1b04f84be3",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart, Zertifikat 120298126, Vorgangsnummer ZZHT003006318011, gültig bis 02.08.2027, Prüfungsdatum 03.02.2026, Ausstellungsdatum 24.02.2026, 4 Anlagen; alle Anlagen dem Standort Pallatzky GmbH, Stellwerkstraße 16, 33647 Bielefeld zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer E711804516), Anlage 2 Metallschrottverwertungsanlage Lagern und Behandeln (E711770056), Anlage 3 Zwischenlager für gefährliche Abfälle Lagern (E711770056), Anlage 4 Bauschuttaufbereitungsanlage Lagern und Behandeln (E711770083); Hauptsitz HRB 32764 Registergericht Bielefeld)\", \"Qualitätsmanagement ISO 9001:2015 (DEKRA Certification GmbH, Zertifikats-Registrier-Nr. 120424225, gültig vom 15.04.2024 bis 14.04.2027, zertifizierter Bereich Handel mit Schrott und Metallen, Entsorgungsdienstleistungen, Speditionsdienstleistungen, Pallatzky GmbH, Stellwerkstr. 16, 33647 Bielefeld)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-drekopf",
+      "values": {
+        "name": "Drekopf",
+        "city": "Bielefeld",
+        "street": "Tiesloh 1",
+        "postcode": "33739",
+        "phone": "05223 1771-0",
+        "email": "buende@drekopf.de",
+        "opening_hours": "Mo-Fr 08:00-12:00 und 13:00-16:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://www.drekopf.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "60070f5ef6fc5ab01dbc5f7f097d7799cd6de561d44eaaffc61291fac4bdc2a9",
+      "seed_hash": "346dea73b2c6617b",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (bvse-Entsorgergemeinschaft e.V., Fränkische Straße 2, 53229 Bonn, Zertifikat 10349, Vorgangsnummer ZZEE001000855009, gültig bis 30.04.2027, Prüfungsdatum 28.10.2025, Ausstellungsdatum 13.11.2025, 6 Anlagen; Anlage 5 und Anlage 6 dem Standort Drekopf Recyclingzentrum Bünde GmbH Bielefeld / Drekopf | Bielefeld, Tiesloh 1, 33739 Bielefeld zugeordnet: Anlage 5 Lagern und Anlage 6 Behandeln, Kennnummer nach § 28 NachwV E711740025; zertifizierender Rechtsträger Drekopf Recyclingzentrum Bünde GmbH, Hauptsitz Engerstraße 259, 32257 Bünde, HRB 7786 Registergericht Bad Oeynhausen)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-drewer-autoverwertungs-u-handelsges",
+      "values": {
+        "name": "Drewer Autoverwertungs- u. Handelsges.",
+        "city": "Bielefeld",
+        "street": "Werningshof 26",
+        "postcode": "33719",
+        "phone": "0521 332188",
+        "email": "info@drewer-autoverwertung.de",
+        "opening_hours": "Mo-Fr 08:00-17:00, Sa 10:00-13:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "https://drewer-autoverwertung.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3f9e9ac3c59420f2b248712a7935ebd020d7cc7b100425cf721e7eb6482ffbb1",
+      "seed_hash": "d5f6c0e7258a962d",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Abholung von Metallschrott aller Art im Umkreis bis 35 km, Autoverwertung/Teilehandel/Kabelrecycling (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "certifications": "[\"Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100009 / 1, Drewer Autoverwertungs- und Handelsgesellschaft mbH, Werningshof 26, 33719 Bielefeld, Kennnummer E71129901, HRB 34768 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)\"]"
+    },
+    {
+      "slug": "nw-bielefeld-wolfgang-dehne",
+      "values": {
+        "name": "Wolfgang Dehne GmbH & Co. KG",
+        "city": "Bielefeld",
+        "street": "Uferstraße 12",
+        "postcode": "33729",
+        "phone": "0521 76062",
+        "email": "info@dehne-bielefeld.de",
+        "opening_hours": "Mo-Fr 07:00-12:30 und 13:00-17:00, Sa 07:00-12:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "containerdienst",
+        "website": "https://www.dehne-bielefeld.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1d2cd6bb0f190ed45001675a623003db7f1f4d7b19a9af181de61e532f1d6fec",
+      "seed_hash": "159936804be4b43e",
+      "geo": [
+        52.01744736842105,
+        8.543657894736842
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat-Nr. 1212007029, Vorgangsnummer ZZHT003004620011, gültig bis zum 02.05.2027, Prüfungsdatum 05.11.2025, Ausstellungsdatum 07.11.2025; Anlagen 1 bis 3 sind dem Standort Uferstr. 12-16, 33729 Bielefeld zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E711807377), Anlage 2 Lagern (E711740528), Anlage 3 Behandeln (E711740528); Rechtsträger Wolfgang Dehne GmbH & Co. KG, HRB 31871 Amtsgericht Bielefeld)\"]"
+    },
+    {
+      "slug": "nw-bochum-a-fischer-sohne",
+      "values": {
+        "name": "A. Fischer & Söhne GmbH",
+        "city": "Bochum",
+        "street": "Altenbochumer Straße 15-21",
+        "postcode": "44803",
+        "phone": "0234 93721 0",
+        "email": "bochum@fischersoehne.de",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "description": "Entsorgungsfachbetrieb (seit 1875): Schrott-/NE-Metall-Ankauf mit Preisliste, Container, Altpapier, Aktenvernichtung. Standorte Altenbochum + Gerthe.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.fischersoehne.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "d11fd60de65f102651c2722326aebecacd76600a4fae9d3391b38938ac974a8e",
+      "seed_hash": "2d6ffe7601609456",
+      "geo": [
+        51.474088888888886,
+        7.219238888888889
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert GmbH, Am Grauen Stein, 51105 Köln, Zertifikat 01 400 1800134, Vorgangsnummer ZZET016000355009, gültig bis 30.11.2027, Prüfungsdatum 05.05.2026, Ausstellungsdatum 28.07.2026, 7 Anlagen; Anlage 1 bis 4 dem Standort A. Fischer & Söhne GmbH, Altenbochumer Straße 15, 44803 Bochum zugeordnet: Anlage 1 A. Fischer & Söhne GmbH (Fuhrpark) Sammeln, Befördern, Handeln und Makeln (Kennnummern nach § 28 NachwV E911809112 und E911M00204), Anlage 2 und Anlage 3 A. Fischer & Söhne GmbH (Altpapier- und Kunststoff-Sortieranlage) Lagern und Behandeln (E911972128), Anlage 4 A. Fischer & Söhne GmbH (Altmetallsortierung) Lagern und Behandeln (E911972137); Anlage 5 bis 7 betreffen das zweite Werk Daimlerstraße 11, 44805 Bochum; Hauptsitz HRB 113 Registergericht Bochum)\"]"
+    },
+    {
+      "slug": "nw-bonn-jungheim-schrott-metallhandel",
+      "values": {
+        "name": "Jungheim Schrott & Metallhandel GmbH",
+        "city": "Bonn",
+        "street": "Am Dickobskreuz 4",
+        "postcode": "53121",
+        "phone": "0228 637296",
+        "email": "info@jungheim-bonn.de",
+        "opening_hours": "Mo-Fr 08:00-17:00, Sa 08:00-12:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://jungheim-bonn.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "411bc316bdbe0431d2e23d7a2d63a36e6db74c8bbe720211a6e754389de5925c",
+      "seed_hash": "b30ade0117215cf1",
+      "geo": [
+        50.71977058823529,
+        7.1122941176470595
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Rheinland Cert GmbH, Am Grauen Stein, 51105 Köln; Zertifikat 01 400 0139, Vorgangsnummer ZZET016001543008, gültig bis zum 31.03.2027, Prüfungsdatum 01.09.2025, Ausstellungsdatum 24.10.2025; Anlagen 1 bis 3 sind dem Standort Am Dickobskreuz 4, 53121 Bonn zugeordnet: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E314838339), Anlage 2 Lagern (E314340943), Anlage 3 Lagern (E314340943); Rechtsträger Jungheim Schrott & Metallhandels GmbH, HRB 16767 Amtsgericht Bonn)\"]"
+    },
+    {
+      "slug": "nw-bottrop-linke",
+      "values": {
+        "name": "Linke GmbH & Co. KG",
+        "city": "Bottrop",
+        "street": "Polderstr. 107",
+        "postcode": "46238",
+        "phone": "02041 64666",
+        "email": "info@linke-bottrop.de",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://linke-bottrop.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "fa711acbaac43f5a69a77888426ad5e45a44e724436331ebef5804d355e3ced6",
+      "seed_hash": "3dd3016dc42b4a31",
+      "geo": [
+        51.53954,
+        6.926519999999999
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (G.BZ-Zert, Westring 303, 44629 Herne; Zertifikat Nr. 19-25-26, Vorgangsnummer ZZET008000537009, gültig bis zum 31.08.2027, Prüfungsdatum 03.06.2026, Ausstellungsdatum 30.07.2026; Anlagen 1, 2, 3 und 6 dem Standort Polderstr. 107, 46238 Bottrop zugeordnet (Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E512882138), Anlage 2 Lagern und Verwerten (E512550105), Anlage 3 Behandeln und Verwerten (E512550105), Anlage 6 Handeln (E512M09807)); Rechtsträger Linke GmbH & Co. KG, HRB 4942 Registergericht Gelsenkirchen)\", \"Bescheinigung über den Betrieb einer Vorbehandlungsanlage gemäß Gewerbeabfallverordnung 2017 (G.BZ-Zert, Nr. 19a-07-26, Bescheinigung für das Unternehmen Linke GmbH & Co. KG, Polderstr. 107, 46238 Bottrop, Standort Braker Str. 74, 46238 Bottrop; gültig bis zum 31.08.2027, nächste Überprüfung bis 31.05.2027, Zuletzt geprüft am 03.06.2026, Ausstellung am 30.07.2026; Betreiber-Download auf der Zertifikatsseite des Betreibers)\", \"Betreiber-Download des Überwachungszertifikats zum Entsorgungsfachbetrieb (inoffizielles „Schmuckzertifikat“ der G.BZ-Zert, Zertifikat Nr. 19-25-26, Tätigkeiten Sammeln, Befördern, Lagern, Behandeln, Handeln, Standorte Polderstr. 107, 46238 Bottrop und Braker Str. 74, 46238 Bottrop, gültig bis 31.08.2027, nächste Betriebsprüfung bis 31.05.2027, Zuletzt geprüft am 03.06.2026, Zertifikatsausstellung am 30.07.2026, Sachverständiger M. Nöthe, stellv. Leiter der TÜO Dr. Hungerhoff; inhaltsgleich zum Register-PDF ZZET008000537009)\"]"
+    },
+    {
+      "slug": "nw-delbruck-adolf-muckenhaupt",
+      "values": {
+        "name": "Adolf Mückenhaupt GmbH & Co. KG",
+        "city": "Delbrück",
+        "street": "Grubebachstr. 43",
+        "postcode": "33129",
+        "phone": "02944 9710-0",
+        "email": "info@mueckenhaupt-entsorgung.de",
+        "opening_hours": "Mo-Fr 07:00-12:30 und 13:30-17:00, Sa 09:00-12:00, So geschlossen",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.mueckenhaupt-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "52113548c1768f87391be0681a4b254f2bb7dd49984dc4f04d2b2611cc328e20",
+      "seed_hash": "eb2d9cc3878a2100",
+      "geo": [
+        51.7802,
+        8.484
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV NORD Umweltschutz GmbH & Co. KG, Große Bahnstraße 31, 22525 Hamburg; Zertifikats-Registrier-Nr. 225ZEB083, Vorgangsnummer ZZBT005001637013, gültig bis zum 28.02.2027, Prüfungsdatum 01.10.2025, Ausstellungsdatum 08.10.2025; das Zertifikat beinhaltet 7 Anlagen, die Anlagen 1 bis 6 dem Standort Grubebachstraße 43, 33129 Delbrück zugeordnet (Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV E774800828), Anlage 2 Behandeln (E774740094), Anlage 3 Behandeln (E774740094), Anlage 4 Lagern (E774740094), Anlage 5 Verwerten (E774740094), Anlage 6 Handeln (E774M00870); Anlage 3 ist zugleich die zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG); Rechtsträger Adolf Mückenhaupt GmbH & Co. KG, HRA 4814 Registergericht Paderborn)\", \"Zertifikat TÜV Nord, Entsorgungsfachbetrieb (Betreiber-Download „TÜV-Zertifikat (deutsch)“ auf der Zertifikatsseite des Betreibers; TÜV NORD Umweltschutz GmbH & Co. KG, Große Bahnstraße 31, 22525 Hamburg, für Adolf Mückenhaupt GmbH & Co. KG, Grubebachstraße 43, D-33129 Delbrück, für die abfallwirtschaftlichen Tätigkeiten Sammeln, Befördern, Lagern, Behandeln, Verwerten und Handeln, Auditdatum 01. Oktober 2025, gültig bis 28. Februar 2027, Zertifikats-Registrier-Nr. 225ZEB083, Hamburg, den 08. Oktober 2025; inhaltsgleich zum Register-PDF ZZBT005001637013)\"]"
+    },
+    {
+      "slug": "nw-delbruck-grewing-metallhandel-p3-entsorgung",
+      "values": {
+        "name": "P3 Entsorgung GmbH",
+        "city": "Delbrück",
+        "street": "Lerchenweg 6",
+        "postcode": "33129",
+        "phone": "05250 9941499",
+        "email": "",
+        "opening_hours": "Mo-Fr 09:00-16:30, Sa 09:00-13:00",
+        "description": "P3 Entsorgung GmbH, Lerchenweg 6, 33129 Delbrück (HRB 12898 AG Paderborn) — Altmetall- und Schrottankauf fuer Privat und Gewerbe zu tagesaktuellen Konditionen mit geeichten Waagen, Barzahlung vor Ort, Zahlung ab dem ersten Kilo; dazu Abfallentsorgung, Abbrucharbeiten, Containerdienst fuer Privat und Industrie, Rueckbau und Demontage. Preise und Containerkosten werden nicht als Zahlenliste veroeffentlicht.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://p3-entsorgung.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "10ee8471ab6c84b17254e68dfde6fcc213b46a28a080d56e4fad9e37146a4f17",
+      "seed_hash": "b60895d8c9adeb33",
+      "geo": [
+        51.7802,
+        8.484
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"days\": [\"Mo\", \"Di\", \"Mi\", \"Do\", \"Fr\", \"Sa\"], \"time_windows\": [\"09:00-16:30\"], \"conditions\": \"Anlieferung am Betriebsgelände Lerchenweg 6, 33129 Delbrueck; Waagen genau, Zahlung ab dem ersten Kilo, Barzahlung vor Ort moeglich, Hilfe beim Abladen und Sortieren; Erfuellungsort ist laut AGB das Betriebsgelände. Quelle: Betreiber-Website + AGB, Abruf 30.10.2026.\"}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Containerdienst fuer Privat und Industrie/Gewerbe, Abfallentsorgung fuer Unternehmen, Abbrucharbeiten, Rueckbau und Demontage laut Betreiber-Website; Container: 10 Tage Stellzeit inklusive, ab dem 11. Tag Standgebuehr (Hoehe nicht veroeffentlicht), An- und Abfahrt zum festen Preis nach Entfernung. Quelle: Betreiber-Website + AGB, Abruf 30.10.2026.\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): P3 Entsorgung GmbH, Lerchenweg 6, 33129 Delbrück, Vorgangsnummer ZZHT004000146012 (Zertifikat-Nr. K13919-20260720-Efb-de, Aussteller PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden, gültig bis 07.11.2027, Prüfungsdatum 08.05.2026, Ausstellungsdatum 20.07.2026, 3 Anlagen), Anlage 1 Sammeln, Befördern, Handeln, Makeln, Anlage 2 Lagern, Anlage 3 Behandeln, Standort Lerchenweg 6, 33129 Delbrück, Kennnummern nach § 28 NachwV E774T02444 / E774M01106 / E774A70097, HRB 12898 Amtsgericht Paderborn\"]"
+    },
+    {
+      "slug": "nw-dortmund-a-r-schrotthandel",
+      "values": {
+        "name": "A&R Schrotthandel",
+        "city": "Dortmund",
+        "street": "Planetenfeldstr. 118",
+        "postcode": "44379",
+        "phone": "0231 96986810",
+        "email": "info@schrotthandel-dortmund.de",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://schrotthandel-dortmund.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "a37a4692eacbdb852d8f095354227d92066497d23d76c00a8e42741a16fa34aa",
+      "seed_hash": "3b91bd5e27ffbbb7",
+      "geo": [
+        51.50762222222222,
+        7.472581481481482
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Anlieferung Mo-Sa 07:00-20:00 (Betreiber-Kontaktseite); kostenlose Abholung zu Hause/im Unternehmen NRW-weit (Betreiber-Über-uns) (Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Kostenlose Schrottabholung NRW-weit, Terminvereinbarung per Telefon/Website (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): A+R Altmetall- und Rohstoffhandel G (Anzeigename im Register abgeschnitten), Planetenfeldstr. 118a, 44379 Dortmund, Vorgangsnummer ZZET008000669009 (Zertifikat-Nr. 222-06-2026, Aussteller G.BZ-Zert, Westring 303, 44629 Herne, gültig bis 30.09.2027, Prüfungsdatum 21.06.2026, Ausstellungsdatum 24.09.2026, 3 Anlagen), Anlage 1 Sammeln, Befördern, Anlage 2 Lagern, Anlage 3 Behandeln, Kennnummern nach § 28 NachwV E913T13563 / E913A70208, HRB 25836 Amtsgericht Dortmund, Telefon 23196986810, Internetadresse https://schrotthandel-dortmund.de\"]"
+    },
+    {
+      "slug": "nw-dortmund-hermstruwer",
+      "values": {
+        "name": "Hermstrüwer GmbH",
+        "city": "Dortmund",
+        "street": "Kanalstr. 89",
+        "postcode": "44147",
+        "phone": "0231 822228",
+        "email": "info@hermstruewer.de",
+        "opening_hours": "Mo-Fr 07:00-16:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.hermstruewer.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "04db3eed68531796b2fc57205c6ff2ab5abdf00046f9f8a8ef5250bf12229618",
+      "seed_hash": "4495f1effd940412",
+      "geo": [
+        51.50762222222222,
+        7.472581481481482
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Service für private und gewerbliche Kunden; Containerdienst (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): Schrott- und Metallgroßhandel Hermstrüwer GmbH, Kanalstraße 89, 44147 Dortmund, Vorgangsnummer ZZKT001000603012 (Zertifikat-Nr. A-000127, Aussteller GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken, gültig bis 25.11.2027, Prüfungsdatum 26.05.2026, Ausstellungsdatum 28.05.2026, 3 Anlagen), Anlage 1 Sammeln, Befördern, Anlage 2 Lagern, Anlage 3 Behandeln, Kennnummern nach § 28 NachwV E913819273 / E913944927, HRB 26194 Amtsgericht Dortmund, E-Mail info@hermstruewer.de, Telefon 0231 822228\"]"
+    },
+    {
+      "slug": "nw-dortmund-lutgendortmund-wilhelm-raven-euro-metall",
+      "values": {
+        "name": "Metallum Metal Trading GmbH",
+        "city": "Dortmund-Lütgendortmund",
+        "street": "Alter Hellweg 33",
+        "postcode": "44379",
+        "phone": "0231 96420",
+        "email": "dortmund@metallum.com",
+        "opening_hours": "Mo-Do 06:45-16:00, Fr 06:45-14:15",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "https://metallum.com",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3f3dae33dd410deea1404dac81d2e5804526dec5da462b54592f760870097246",
+      "seed_hash": "943e22fcedaa5ea8",
+      "geo": [
+        51.5018016,
+        7.3771674
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): Metallum Metal Trading GmbH, Alter Hellweg 33, 44379 Dortmund, Vorgangsnummer ZZEE003000502010 (Zertifikat-Nr. ESN 98-080148 (26), Aussteller ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berliner Allee 57, 40212 Düsseldorf, gültig bis 30.09.2027, Prüfungsdatum 28.04.2026, Ausstellungsdatum 27.05.2026, 2 Anlagen), Anlage 1 Sammeln, Befördern, Lagern, Behandeln, Anlage 2 Handeln, Makeln, Kennnummern nach § 28 NachwV E913819291 / E913972249 / E913M00135, HRB 13486 Amtsgericht Dortmund\"]"
+    },
+    {
+      "slug": "nw-dortmund-poeppel",
+      "values": {
+        "name": "Poeppel GmbH & Co. KG",
+        "city": "Dortmund",
+        "street": "Hannöversche Str. 30b",
+        "postcode": "44143",
+        "phone": "0231 595350",
+        "email": "info@poeppel-dortmund.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.poeppel-dortmund.de/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "0c028279b9310c4aa311d849238878d1a8b0ad9fa8db487c5f9200011e9f091e",
+      "seed_hash": "fabfad29b2c28ad6",
+      "geo": [
+        51.5222706,
+        7.4971203
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): Poeppel GmbH & Co KG, Hannöversche Strasse 30 (Zertifikat: Hannöversche Strasse 30 b), 44143 Dortmund, Vorgangsnummer ZZET015001431008 (Zertifikat-Nr. 04714050559, Aussteller TÜV NORD CERT GmbH, Am TÜV 1, 45307 Essen, gültig bis 31.08.2027, Prüfungsdatum 18.03.2026, Ausstellungsdatum 29.06.2026, 2 Anlagen), Anlage 1 Sammeln, Befördern, Anlage 2 Lagern, Behandeln, Verwerten, Beseitigen, Kennnummern nach § 28 NachwV E913818871 / E913972552, HRA 6210 Amtsgericht Dortmund, E-Mail m.wildoer@poeppel-dortmund.de, Telefon 0231 595350\"]"
+    },
+    {
+      "slug": "nw-duisburg-elg-utica-alloys",
+      "values": {
+        "name": "ELG Utica Alloys GmbH",
+        "city": "Duisburg",
+        "street": "Kremerskamp 16",
+        "postcode": "47138",
+        "phone": "0203 4501-0",
+        "email": "info-de@elguticaalloys.com",
+        "opening_hours": "Mo-Fr 08:00-17:00 (Verwaltung); Warenannahme Mo-Fr 06:00-14:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://www.elgmetals.com/",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "377f85dc6b05540f2b143ab59ce2cf2ea980118ff59c40db3d135d288c9c4a49",
+      "seed_hash": "90e68949bef75f97",
+      "geo": [
+        51.4574231,
+        6.7825227
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"gewerbe\"], \"conditions\": \"Warenannahme Mo-Fr 06:00-14:00; Einkaufsbedingungen nur gegenüber Unternehmern — kein Privatankauf (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): ELG Utica Alloys GmbH, Kremerskamp 16, 47138 Duisburg, Vorgangsnummer ZZKT001002170006 (Zertifikat-Nr. A-000140, Aussteller GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken, gültig bis 17.12.2026, Prüfungsdatum 24.06.2025, Ausstellungsdatum 25.08.2025, 2 Anlagen), Anlage 1 Lagern, Behandeln, Verwerten (Anlage 2 gleicher Vorgang), Kennnummer nach § 28 NachwV E112A70356, HRB 32109 Amtsgericht Duisburg, E-Mail info@elg.de, Telefon 0203 4501-0\"]"
+    },
+    {
+      "slug": "nw-duisburg-ferro-duo",
+      "values": {
+        "name": "Ferro Duo GmbH",
+        "city": "Duisburg",
+        "street": "Vulkanstr. 54",
+        "postcode": "47053",
+        "phone": "+49 203 729 738 0",
+        "email": "info@ferroduo.de",
+        "opening_hours": "",
+        "description": "Ferro Duo GmbH, Duisburg (Vulkanstr. 54, Werk 1 = Hauptsitz; Werk 3: Aussenhafen 5-7, 47059 Duisburg): Aufbereiter und Vermarkter industrieller Nebenprodukte und Restabfaelle (Eisensulfat, Eisenchlorid, Aschen, Schlacken, Oxide, Bypassstaub) fuer Zement-, Stahl- und Chemieindustrie; BImSchG-Anlage nach § 16 mit laufender Aenderungsgenehmigung.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://ferroduo.com/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1527ad25b2ed46cb403ec8ff4d2a87f5ee65607c29cdd2a7347f34563fa624af",
+      "seed_hash": "b765036fb953d9ca",
+      "geo": [
+        51.429823999999996,
+        6.748468
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): Ferro Duo GmbH, Vulkanstraße 54, 47053 Duisburg, Vorgangsnummer ZZET015001719009 (Zertifikat-Nr. 04 714 060243, Aussteller TÜV NORD CERT GmbH, Am TÜV 1, 45307 Essen, gültig bis 30.06.2027, Prüfungsdatum 27.01.2026, Ausstellungsdatum 29.05.2026, 3 Anlagen), Anlage 1 Lagern, Behandeln, Verwerten (Kennnummer E112153379) und Anlage 3 Handeln, Makeln (Kennnummer E112M00818) am Standort Vulkanstraße 54, 47053 Duisburg; Anlage 2 betrifft den anderen Standort Am Außenhafen 5-7, 47059 Duisburg, HRB 9528 Amtsgericht Duisburg, E-Mail c.nass@ferroduo.de, Telefon 0049203 72973835\"]"
+    },
+    {
+      "slug": "nw-duisburg-meiderich-motikat-entsorgungsdienstleistungen",
+      "values": {
+        "name": "Motikat Entsorgungsdienstleistungen GmbH",
+        "city": "Duisburg-Meiderich",
+        "street": "Winterstraße 29",
+        "postcode": "47137",
+        "phone": "0203 45576-10",
+        "email": "info@motikat-entsorgung.de",
+        "opening_hours": "Mo-Fr 07:00-16:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://motikat-entsorgung.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2c3b88c3ccc85d25fc5c8d9a36c45d6f9de192d9d21cb0ad0af4f20096eaeb0a",
+      "seed_hash": "119c119c2146ce3f",
+      "geo": [
+        51.4727534,
+        6.7686599
+      ],
+      "dropoff_json": "{\"allowed\": true, \"conditions\": \"Schrottannahme Mo-Fr 07:00-16:30, Winterstraße 29 (Betreiber-Website 02.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Containerdienst 3-36 m3, Demontage/Transport, eigene Flotte (Betreiber-Website 02.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): Motikat Entsorgung GmbH, Winterstraße 29, 47137 Duisburg, Vorgangsnummer ZZHT009001589001 (Zertifikat-Nr. 151/0297/Efb, Aussteller TÜO Technische Überwachungsorganisation für Sicherheit, Qualität und Umweltschutz GmbH, Otto-Lilienthal-Straße 36, 71034 Böblingen, gültig bis 03.02.2028, Prüfungsdatum 03.08.2026, Ausstellungsdatum 17.08.2026, 4 Anlagen), Anlage 1 Sammeln, Befördern, Anlage 2 Lagern, Anlage 3 und 4 Behandeln, Kennnummern nach § 28 NachwV E112T03567 / E112A70383, HRB 40082 Amtsgericht Duisburg, E-Mail info@motikat-entsorgung.de, Telefon 0203 4557610\"]"
+    },
+    {
+      "slug": "nw-dusseldorf-bohner-altmetalle",
+      "values": {
+        "name": "Böhner Altmetalle GmbH",
+        "city": "Düsseldorf",
+        "street": "Königsberger Str. 234a",
+        "postcode": "40231",
+        "phone": "0211 – 213356",
+        "email": "info@boehner-altmetalle.de",
+        "opening_hours": "Mo-Fr 07:00-16:30, Sa 07:00-12:00",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://boehner-altmetalle.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5e1e8c185abcd1c60d7473450943c660f5053121f39b419af4849c252e19aa46",
+      "seed_hash": "bda18ffd0c2dc384",
+      "geo": [
+        51.2153783,
+        6.8417339
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Anlieferung Betriebsgelaende (ueberdachte Entladebereiche, Waage); Tagespreise; Gewerbe-/Container-Service (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Container-Service + Abholung groessere Mengen Gewerbe (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): BÖHNER Altmetalle GmbH, Königsberger Straße 234a, 40231 Düsseldorf (zertifizierter Hauptsitz = Dossierstandort; Anlagenbezeichnung im Register „Hauptsitz“), Vorgangsnummer ZZFE001000324010 (Zertifikat-Nr. EGRW10406-2026, Aussteller Entsorgergemeinschaft Regionaler Wirtschaftsverkehr (EGRW) e.V., Breitenbachstraße 1, 60487 Frankfurt am Main, Prüfungsdatum 03.06.2026, Ausstellungsdatum 16.06.2026, gültig bis 17.11.2027, 2 Anlagen), Anlage 1 Sammeln, Befördern (Kennnummer nach § 28 NachwV E111T00150), Anlage 2 Lagern, Behandeln (E111A40000) — beide Anlagen am Standort Königsberger Straße 234a, 40231 Düsseldorf; HRB 3856 Registergericht Düsseldorf\"]"
+    },
+    {
+      "slug": "nw-dusseldorf-ossenbuhl-schrotthandels",
+      "values": {
+        "name": "Ossenbühl Schrotthandels GmbH",
+        "city": "Düsseldorf",
+        "street": "Im Liefeld 44",
+        "postcode": "40227",
+        "phone": "0211 1675350",
+        "email": "info@schrotthandel-duesseldorf.de",
+        "opening_hours": "Mo-Fr 07:00-16:30 (letzte Einfahrt 16:15)",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.schrotthandel-duesseldorf.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "50a9bbe9b3ddf918b9be002b524eb32c3ad8981d890194704fa41438530d2f24",
+      "seed_hash": "0d75960f00858e1e",
+      "geo": [
+        51.2087508,
+        6.816673
+      ],
+      "dropoff_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Anlieferung Wertstoffstandort (Tagespreise, Bar-Auszahlung belegt via Reviews); Containerdienst privat+gewerbe, Liefer-/Abholgebiet 50 km (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Containerdienst + Lieferung/Abholung 50 km (Kreis Mettmann/Neuss/Duisburg), Demontage/Kleinabrisse (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): Ossenbühl Schrotthandelsges. mbh, Im Liefeld 44, 40227 Düsseldorf (zertifizierter Hauptsitz = Dossierstandort), Vorgangsnummer ZZET007003409004 (Zertifikat-Nr. 2503090, Aussteller ENVIZERT Umweltgutachter und öffentlich bestellte und vereidigte Sachverständige GmbH, Borkener Straße 68, 48653 Coesfeld, Prüfungsdatum 25.11.2025, Ausstellungsdatum 03.12.2025, gültig bis 24.05.2027, 5 Anlagen), Anlage 1 Sammeln, Befördern (Kennnummer nach § 28 NachwV E111891481), Anlage 2 Lagern, Verwerten, Beseitigen (E111171549), Anlage 3 Behandeln, Verwerten (E111171549), Anlage 4 Behandeln, Verwerten (E111171549; Erstbehandlungsanlage im Sinne des § 21 ElektroG), Anlage 5 Behandeln, Verwerten (E111171549; Demontagebetrieb gemäß AltfahrzeugV) — alle fünf Anlagen am Standort Im Liefeld 44, 40227 Düsseldorf; HRB17893 Registergericht Düsseldorf\", \"Anerkennung nach § 2 Abs. 2 AltfahrzeugV (amtliches Fachbetrieberegister, Route Altfahrzeugverwertung, Abfrage 05.11.2026): Ossenbühl Schrotthandelsgesellschaft mbH, Im Liefeld 44, 40227 Düsseldorf, Vorgangsnummer ZAES01100107, Bescheinigungsanlagennr. 1, Kennnummer E11106791, Ansprechpartner Herr Ossenbühl Rüdiger, Telefon 0211 1675350, Fax 0211 16753515, E-Mail s.rosenplaeter@schrotthandel-duesseldorf.de, Internetadresse `www.schrotthandel-duesseldorf.de`; kein Zertifikats-PDF im Register hinterlegt, eine längere Vorgangsnummer ist nicht ausgewiesen\"]"
+    }
+  ]
+}

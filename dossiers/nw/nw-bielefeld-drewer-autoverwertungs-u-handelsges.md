@@ -74,3 +74,15 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Prüfung 05.11.2026: **Für diesen Eintrag gibt es kein Zertifikats-PDF.** Der Datensatz stammt aus der Route "Altfahrzeugverwertung" des amtlichen Fachbetrieberegisters; der Detaildialog weist am 05.11.2026 weder einen PDF-Link ("Zertifikat herunterladen") noch einen Permalink aus. Die Felder 3.1 (Zertifikatsnummer), 3.3 (Vorgangsnummer), 3.4 (Anlagenzahl), 3.7 (Gültigkeit), 6 (Prüfungsdatum) und 8 (Ausstellungsdatum) sind daher **nicht vorhanden** und bleiben im Eintrag unverändert. Geprüft wurde stattdessen der Registerdatensatz selbst: "Vorgangsnummer: ZAES01100009", "Bescheinigungsanlagennr.: 1", "Kennnummer: E71129901", "Bezeichnung der Firma: Drewer Autoverwertungs- und Handelsgesellschaft mbH", "Adresse der Firma: Werningshof 26, 33719 Bielefeld" - das stimmt mit dem Eintrag überein (Anzeigename "ZAES01100009 / 1", Anschrift Werningshof 26, 33719 Bielefeld). Die Einstufung als Demontagebetrieb wurde am 05.11.2026 nachgeprüft: die Filterabfrage "Art des Betriebs" mit dem Suchbegriff "Drewer" liefert den Datensatz bei genau zwei Filterwerten (o=2 und o=5), bei o=0, o=1, o=3 und o=4 dagegen 0 Treffer; da o=5 durch die Recherche 02.11.2026 als "Egal" belegt ist, entspricht o=2 der Auswahl "Demontagebetrieb" - die Einstufung ist damit reproduziert. **Korrektur:** die im Detaildialog ausgewiesene Kennnummer fehlte im Eintrag - ergänzt um "Kennnummer E71129901" (Detaildialog "Kennnummer"). HRB 34768 / Amtsgericht Bielefeld sind aus dem Impressum belegt und im Register nicht ausgewiesen; sie bleiben unverändert.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Drewer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=2&n=Drewer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=5&n=Drewer (Abruf 05.11.2026)]
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Die AFV-Kennummer im Eintrag war ein Zifferndreher.** Der Detaildialog des
+  amtlichen Fachbetrieberegisters (Route „Altfahrzeugverwertung“ ✓, Filter Art des Betriebs =
+  Demontagebetrieb ✓, Abruf 06.11.2026 ✓) weist die **Kennummer E71129901** aus ✓ — Vorgangsnummer
+  ZAES01100009 / 1 ✓, Bescheinigungsanlagennr. 1 ✓, „Drewer Autoverwertungs- und
+  Handelsgesellschaft mbH, Werningshof 26, 33719 Bielefeld“ ✓; eine Suche im Kennummer-Feld ergibt
+  für `E71129901` **1** Treffer ✓ und für `E11129901` **0** ✓. Die Notiz vom 05.11.2026 nennt
+  abweichend `E11129901` ✓ — sie bleibt als Recherchehistorie **wortgleich** stehen ✓; richtig ist
+  allein `E71129901` ✓, und das Feld `certifications` trägt jetzt diesen Wert ✓. Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=2&n=Drewer
+  (live abgerufen 06.11.2026).]

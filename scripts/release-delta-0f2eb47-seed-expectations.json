@@ -1,8 +1,14 @@
 {
   "version": 1,
+<<<<<<<< HEAD:scripts/release-delta-0f2eb47-seed-expectations.json
   "release_commit": "0f2eb47a86d0d2f464ccfeba9f45113276d465fa",
   "release_tree": "d82f3b2f88ec6ce2138419447b98adc4223d9ec5",
   "rehearsal_manifest_sha256": "6bd5e0da4fe17816dce4f8eac6cee046a476779e0d922982ccbc88f89b941d2c",
+========
+  "release_commit": "da3dac2b7331f7dca47d553dd2655bffa29e824f",
+  "release_tree": "e3af185b86fb3984a6a692da6e329e46b7d82cfd",
+  "rehearsal_manifest_sha256": "b04aa912a822ce41ad37df6df404e20ed9955bc4cf02dc8a38839aa1430350a6",
+>>>>>>>> rel12:scripts/release-delta-da3dac2-seed-expectations.json
   "fields": [
     "name",
     "city",
@@ -56,7 +62,11 @@
     "nw-dusseldorf-ossenbuhl-schrotthandels"
   ],
   "scope": "exactly the 36 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+<<<<<<<< HEAD:scripts/release-delta-0f2eb47-seed-expectations.json
   "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-0f2eb47. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+========
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-da3dac2. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+>>>>>>>> rel12:scripts/release-delta-da3dac2-seed-expectations.json
   "traders": [
     {
       "slug": "bw-albstadt-makowski-schrott",
@@ -594,15 +604,15 @@
         "website": "https://drewer-autoverwertung.de",
         "website_status": "aktiv"
       },
-      "notes_sha256": "aab2ab8a7a11182db2c1594af83ee7293b2f3e2f5b627fcafca404cfaf85b8bd",
-      "seed_hash": "9287ae287e6e1ecc",
+      "notes_sha256": "3f9e9ac3c59420f2b248712a7935ebd020d7cc7b100425cf721e7eb6482ffbb1",
+      "seed_hash": "d5f6c0e7258a962d",
       "geo": [
         52.01744736842105,
         8.543657894736842
       ],
       "dropoff_json": "{\"allowed\":true}",
       "pickup_json": "{\"allowed\": true, \"conditions\": \"Abholung von Metallschrott aller Art im Umkreis bis 35 km, Autoverwertung/Teilehandel/Kabelrecycling (Betreiber-Website, Feedback-Triage 01.10.2026)\"}",
-      "certifications": "[\"Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100009 / 1, Drewer Autoverwertungs- und Handelsgesellschaft mbH, Werningshof 26, 33719 Bielefeld, Kennnummer E11129901, HRB 34768 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)\"]"
+      "certifications": "[\"Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100009 / 1, Drewer Autoverwertungs- und Handelsgesellschaft mbH, Werningshof 26, 33719 Bielefeld, Kennnummer E71129901, HRB 34768 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)\"]"
     },
     {
       "slug": "nw-bielefeld-wolfgang-dehne",

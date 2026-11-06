@@ -12,8 +12,13 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.dont_write_bytecode = True
+<<<<<<<< HEAD:scripts/test_verify_wave_e_postrollout_0f2eb47.py
 SCRIPT = Path(__file__).with_name("verify-wave-e-postrollout-0f2eb47.py")
 SPEC = importlib.util.spec_from_file_location("wave_e_0f2eb47_verifier", SCRIPT)
+========
+SCRIPT = Path(__file__).with_name("verify-wave-e-postrollout-da3dac2.py")
+SPEC = importlib.util.spec_from_file_location("wave_e_da3dac2_verifier", SCRIPT)
+>>>>>>>> rel12:scripts/test_verify_wave_e_postrollout_da3dac2.py
 VERIFIER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFIER)
 
