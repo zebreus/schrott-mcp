@@ -15,7 +15,7 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken; Zertifikat A-001073, Vorgangsnummer ZZKT001001590009; Prüfungsdatum 11.03.2026, Ausstellungsdatum 13.03.2026, gültig bis 10.09.2027; 3 Anlagen; Entsorgungsfachbetrieb Cederbaum Container GmbH, Hannoversche Straße 65, 38116 Braunschweig, HRB 2523 Registergericht Braunschweig; Anlage 1 Sammeln, Befördern (Kennnummer nach § 28 NachwV C822000006), Anlage 2 Lagern (C8H7000005), Verwerten (ohne eigene Kennnummer), Anlage 3 Behandeln (C8H7000005), Verwerten (ohne eigene Kennnummer); alle drei Anlagen am Standort Hannoversche Straße 65, 38116 Braunschweig)"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken; Zertifikat A-001073, Vorgangsnummer ZZKT001001590009; Prüfungsdatum 11.03.2026, Ausstellungsdatum 13.03.2026, gültig bis 10.09.2027; 3 Anlagen; Entsorgungsfachbetrieb Cederbaum Container GmbH, Hannoversche Straße 65, 38116 Braunschweig, HRB 2523 Registergericht Braunschweig; Anlage 1 Sammeln, Befördern (Kennnummer nach § 28 NachwV C822000006), Anlage 2 Lagern (C8H7000005), Verwerten (ohne eigene Kennnummer), Anlage 3 Behandeln (C8H7000005), Verwerten (ohne eigene Kennnummer); alle drei Anlagen am Standort Hannoversche Straße 65, 38116 Braunschweig)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für die Route „Altfahrzeugverwertung“ zum Namen „Cederbaum“ (Abruf 05.11.2026)"]'
 provenance_section: Braunschweig / Salzgitter / Wolfsburg
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -47,3 +47,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Alle übrigen geprüften Felder stimmen wörtlich mit dem PDF überein: Aussteller GZQ GmbH, Sulzbachtalstraße 131, 66125 Saarbrücken (1.1 bis 1.3); Zertifikatsnummer A-001073 (3.1); Vorgangsnummer ZZKT001001590009 (3.3); 3 Anlagen (3.4); gültig bis 10.09.2027 (3.7); Rechtsträger Cederbaum Container GmbH, Hannoversche Straße 65, 38116 Braunschweig, HRB 2523 Registergericht Braunschweig (4.1 bis 4.4); Prüfungsdatum 11.03.2026 (6); Ausstellungsdatum 13.03.2026 (8). Alle drei Anlagen tragen den Dossierstandort Hannoversche Straße 65, 38116 Braunschweig.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Cederbaum&p=ZZKT00100159&fd=1 (Abruf 06.11.2026).]
+
+### Korrektur 06.11.2026 (Zertifikatstiefe)
+
+- [Korrektur 06.11.2026 (Zertifikatstiefe): **Im Feld `certifications` fehlten die im Zertifikats-PDF angekreuzten Tätigkeiten.** Vorgangsnummer ZZKT001001590009: Anlage 1: Sammeln und Befördern; Anlage 2: Lagern und Verwerten; Anlage 3: Behandeln und Verwerten. Die Ankreuzfelder 2.1 bis 2.8 wurden mit `scripts/release/pdf_checkboxes.py` am Contentstream des amtlichen Zertifikats-PDF gelesen - nur was dort angekreuzt ist, ist zertifiziert. Quelle(n): amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Detaildialog des Zertifikats (Abruf 06.11.2026).]

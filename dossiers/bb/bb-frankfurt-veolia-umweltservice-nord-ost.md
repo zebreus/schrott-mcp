@@ -42,7 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 06.11.2026
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG (Zertifikat 2026/007 der Entsorgergemeinschaft ReMa) für den Standort Mittelweg 32, 15234 Frankfurt/Oder war bis zum Schluss nicht lesbar; die schließende Klammer wurde am Ende ergänzt.
-  Zertifikats- und Vorgangsnummer, die drei zugeordneten Anlagen 27 bis 29 und der Vermerk zur Firmierungsdifferenz bleiben unverändert; es wurde kein inhaltlicher Wert geändert.]
+  Zertifikats- und Vorgangsnummer, die drei zugeordneten Anlagen 27 bis 29 und der Vermerk zur Firmierungsdifferenz bleiben unverändert; es wurde kein inhaltlicher Wert geändert. **Diese Aussage bezog sich auf die Welle 06.11.2026 10:00** ✓ - die spätere Tiefenprüfung hat die Tätigkeiten der Anlagen 28 und 29 ergänzt ✓ (siehe die datierte Korrektur-Sektion "Zertifikatstiefe" ✓); der Vermerk gilt unverändert für Zertifikats- und Vorgangsnummer ✓, die Anlagen 27 bis 29 ✓ und den Firmierungsvermerk ✓.]
 
 ### Korrektur 06.11.2026 (Zertifikatstiefe)
 

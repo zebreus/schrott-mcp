@@ -97,7 +97,19 @@ def main() -> int:
             continue
         if b is None:
             continue
-        if a == "INVALID" or a is None:
+        if a == "INVALID":
+            continue
+        if a is None:
+            # In der Basis gab es **kein** certifications-Feld: der Eintrag ist
+            # neu. Dann gibt es keine Altbilanz, gegen die verglichen werden
+            # kann - jede Unbalance ist hier vom Kandidaten **neu** eingefuehrt
+            # und wird beanstandet.
+            for i, entry in enumerate(b):
+                neu = balance(entry)
+                if neu:
+                    problems.append(f"{rel}: Element {i} unausgeglichen ({neu:+d}) - "
+                                    f"die Welle fuehrt die Klammerbalance ein "
+                                    f"(das Feld certifications ist in der Basis neu)")
             continue
         for i, entry in enumerate(b):
             alt = balance(a[i]) if i < len(a) else 0

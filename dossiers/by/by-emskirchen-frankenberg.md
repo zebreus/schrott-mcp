@@ -69,7 +69,7 @@ sowie die Öffnungszeiten, deren Kopfangabe ohne Tagesangabe bleibt.
 ### Korrektur 06.11.2026
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 120198071 der DEKRA Certification GmbH für den Standort Industriestraße 1, 91448 Emskirchen endete der Eintrag ohne schließende Klammer; sie wurde angehängt.
-  Die sechs Anlagen mit Tätigkeiten und Kennnummern, der Hauptsitz und das Gültigkeitsdatum bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+  Die sechs Anlagen mit Tätigkeiten und Kennnummern, der Hauptsitz und das Gültigkeitsdatum bleiben unverändert; kein inhaltlicher Wert wurde geändert. **Diese Aussage bezog sich auf die Welle 06.11.2026 10:00** ✓ - die spätere Tiefenprüfung hat die fehlenden Tätigkeiten der Anlagen 2 bis 6 ergänzt ✓ (siehe die datierte Korrektur-Sektion "Zertifikatstiefe" ✓); der Vermerk gilt unverändert für den Hauptsitz ✓, das Gültigkeitsdatum ✓ und die Anlagen 1 bis 6 ✓.]
 
 ### Korrektur 06.11.2026 (Zertifikatstiefe)
 

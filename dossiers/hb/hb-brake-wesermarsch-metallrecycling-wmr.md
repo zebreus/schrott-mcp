@@ -64,7 +64,7 @@ abrufbar. Die Koordinate bildet den Mittelpunkt des Gebäudes und nicht das Tor 
 ### Korrektur 06.11.2026
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der DEKRA (Zertifikat 291124027) für den Standort Max-Planck-Straße 9, 26919 Brake brach im letzten Satz ab; die schließende Klammer wurde ergänzt.
-  Vorgangsnummer ZZHT003015365003, die vier Anlagen und die Angaben zum AltfahrzeugV-Beiblatt von Anlage 1 bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+  Vorgangsnummer ZZHT003015365003, die vier Anlagen und die Angaben zum AltfahrzeugV-Beiblatt von Anlage 1 bleiben unverändert; kein inhaltlicher Wert wurde geändert. **Diese Aussage bezog sich auf die Welle 06.11.2026 10:00** ✓ - die spätere Tiefenprüfung hat die fehlenden Tätigkeiten der Anlagen 1, 3 und 4 ergänzt ✓ (siehe die datierte Korrektur-Sektion "Zertifikatstiefe" ✓); der Vermerk gilt unverändert für die Vorgangsnummer ✓, die vier Anlagen ✓ und das AltfahrzeugV-Beiblatt von Anlage 1 ✓.]
 
 ### Korrektur 06.11.2026 (Zertifikatstiefe)
 
