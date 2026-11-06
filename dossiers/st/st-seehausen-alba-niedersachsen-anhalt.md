@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Niedersachsen-Anhalt GmbH betreibt in Seehausen (Altmark) am Der Talergalgen 1 einen
+Standort der Wertstoff- und Bauabfallentsorgung mit Containerdienst, Müllpressen,
+Umleerbehältern, Direktanlieferung von Wertstoffen und Schüttgütern; das Portal führt
+sechs Standorte des Unternehmens. Die Identität tragen die Standort-Detailseite der
+Betreiberdomain mit Anschrift, Rufnummer, E-Mail-Adresse und Öffnungszeiten sowie die
+Konzernübersicht. Offen bleibt die Beleglage: Die Betreiberdomain sperrt reguläre Abrufe
+per IP-Sperre, eine zweite unabhängige Quelle für die Kontaktdaten fehlt. Ein Ankaufspreis
+für Schrott oder Altmetall wird nicht veröffentlicht; die einzige Preisliste des Portals
+betrifft Kompost- und Bodenprodukte der Grüngut-Kompostierungsanlage Watenbüttel in
+Braunschweig.
 
 ## Timeline
 

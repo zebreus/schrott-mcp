@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ELG Utica Alloys GmbH, Kremerskamp 16, 47138 Duisburg, ein Aufbereitungsbetrieb für
+Superlegierungen im Rahmen der ELG-Gruppe. Die Betreiberseite nennt Verwaltung Mo-Fr
+08:00-17:00 und Warenannahme Mo-Fr 06:00-14:00; nach den allgemeinen Einkaufsbedingungen kauft
+der Betrieb ausschließlich von Unternehmern, ein Privatankauf ist damit ausgeschlossen. Amtlich
+belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat A-000140 der
+GZQ GmbH, Vorgangsnummer ZZKT001002170006, Prüfungsdatum 24.06.2025, Ausstellungsdatum
+25.08.2025, gültig bis zum 17.12.2026; beide Anlagen sind dem Standort zugeordnet, HRB 32109
+Registergericht Duisburg. Offen bleibt: das Impressum der Konzernmutter nennt nur die ELG GmbH,
+und Register und Dossier führen unterschiedliche E-Mail- und Website-Angaben.
 
 ## Timeline
 

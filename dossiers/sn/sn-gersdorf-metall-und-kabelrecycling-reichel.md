@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metall- und Kabelrecycling Reichel GmbH, Hauptstraße 102c, 09355 Gersdorf, ein Recyclingbetrieb
+für Schrott, Buntmetalle und Kabel mit Granulieranlage. Die Live-Domain liefert HTTP 423
+Locked, die Betreiberangaben stammen deshalb aus dem Archiv: dessen Impressum nennt die
+Gesellschaft Metall- & Kabelrecycling GmbH mit HRB 18223, der Gelbe-Seiten-Eintrag dagegen die
+Metall- und Kabelrecycling Reichel GmbH, und OSM belegt die Hausnummer 102c objektgenau, nennt
+den Betrieb dort aber nicht. Offen bleibt die Beleglage: die Zuordnung zwischen der
+Gesellschaft mit HRB 18223 und der Reichel-Firmierung ist ungeklärt, ein amtlicher
+Zertifikatsbeleg fehlt, da das SchrottRegister keinen passenden Eintrag führt, und die
+Öffnungszeiten von Verzeichnis und Archiv widersprechen sich am Freitag.
 
 ## Timeline
 

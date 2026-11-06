@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Feinhütte Halsbrücke GmbH, Krummenhennersdorfer Straße 2, 09633 Halsbrücke, eine Hütte, die
+Zinn-, Blei- und Antimonschrotte, Altlot, Krätzen und Aschen von Industriekunden ankauft und
+gebrauchte Zinn- und Bleirückstände zurücknimmt. Das Impressum nennt Geschäftsführer Thoralf
+Schlutzkus, HRB 6408 Registergericht Chemnitz; die Preisfindung erfolgt nach Bemusterung und
+Analyse anhand der LME, mit einer Mindestmenge von 250 kg je Einheit. Offen bleibt die
+Beleglage: die Kontakt- und Registerangaben stammen aus einer Betreiberquelle, ein unabhängiger
+Zweitbeleg für die Identität des Betriebs fehlt, Öffnungszeiten sind nicht publiziert, und ein
+amtlicher Zertifikatsnachweis ist nicht ausgewiesen.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Tobias Petri Recyclinghof und Containerdienst ist ein Einzelunternehmen ohne
+Registereintrag am Standort An der Lehmkuhle 11 in 37359 Küllstedt; das Dossier führt die
+Firma abweichend als Petri Tobias Containerdienst & Recycling. Amtlich belegt sind fünf
+Anlagen an dieser Adresse, darunter ein Schrottplatz sowie eine Anlage zur Demontage von
+Altfahrzeugen, ausgewiesen durch das Zertifikat 2B208995-030-2026 des TÜV Thüringen
+Anlagentechnik mit der Vorgangsnummer ZZRT002001552009, gültig bis 25.09.2027, sowie durch
+eine Bescheinigung nach der Altfahrzeugverwertungsverordnung mit der Kennnummer R61B00264.
+Offen bleibt die Beleglage: Für die Verwertungsbescheinigung ist kein Zertifikat im
+Register hinterlegt, weshalb eine vollständige Vorgangsnummer fehlt; das Feld für die
+zurückgenommenen Hersteller ist leer.
 
 ## Timeline
 

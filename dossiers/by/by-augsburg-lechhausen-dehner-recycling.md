@@ -54,3 +54,25 @@ Betreiberdokument vorliegt. Ein Ankauf von Schrott ist nicht belegt.
 
 - [Recherche 02.11.2026: **AltfahrzeugV: Annahmestelle belegt (Betreiber-Dokument), Demontagebetrieb nicht belegt.** Das Register führt unter dem Namen `Dehner` in der Route Altfahrzeugverwertung 0 Treffer; die ortsbezogene Kontrollabfrage mit 3 km Radius um Derchinger Straße 133, 86165 Augsburg liefert dort 2 Treffer (`AVL Autoverwertung Lechhausen GmbH` 1,5 km und `Autoverwertung Lechhausen Inhaber Ernst Bachmann` 1,5 km) und in der Route Entsorgungsfachbetriebe 6 Treffer (`Dehner Recycling GmbH` 0,1 km, `Gigler GmbH` 1,0 km, `Kühl Entsorgung & Recycling Süd GmbH` 1,1 km, `Remondis Süd GmbH` 1,1 km, `AVA Abfallverwertung Augsburg Kommunalunternehmen` 1,2 km, `Ortolf Recycling GmbH` 0,5 km). Der Betreiber veröffentlicht jedoch ein PÜG-Dokument `ZERTIFIKAT Altfahrzeug-Annahmestelle ... Bescheinigung gemäß § 5 Abs. 3 Altfahrzeug-Verordnung`, das wörtlich nennt: `Zertifizierter Standort: Derchinger Straße 133, 86165 Augsburg`, `Ansprechpartner: Rainer Harnisch (Tel.: 0821 790999-0)`, `Betriebsnummer: I761E1970`, `zuständige Behörde: Stadt Augsburg`, `Prüfbericht-Nr. K11915`, `Dieses Zertifikat ist gültig vom: 29.04.2026 bis: 13.07.2027`, `Zertifikat- Registrier-Nr.: K11915`.
   Das ist eine Bescheinigung nach § 5 Abs. 3 AltfahrzeugV für eine Annahmestelle, **keine** Anerkennung als Demontagebetrieb; die Anlage 2 des Efb-Zertifikats nennt als Anlagentechnik lediglich `Altfahrzeugannahmestelle`. **Reichweitenklausel:** Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig; ein Nichttreffer im Register ist **kein** Nichtexistenzbeweis für eine Zertifizierung des Betriebs. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Dehner ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Derchinger%20Stra%C3%9Fe%20133%2C%2086165%20Augsburg%2C%20Deutschland;10.9387784;48.3914547;10.9402784;48.3929547;10.9372784;48.3899547&dst=3&is=1&a=1&gl=1 ; https://www.dehner-recycling.de/zertifikate.htm (Abruf 02.11.2026).]
+
+### Prüfung 06.11.2026
+
+- [Prüfung 06.11.2026: **Feldprüfung des Zertifikats: alle geprüften Felder stimmen mit dem PDF überein, der
+  Eintrag bleibt unverändert.** Geprüft wurde das Zertifikats-PDF der PÜG Prüf- und Überwachungsgesellschaft mbH
+  (Detaildialog und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am 06.11.2026) mit `pdftotext
+  -layout`, feldweise: 3.1 `K11915-20260511-Efb-de`, 3.3 `ZZHT004003314011`, 3.4 `Das Zertifikat beinhaltet 3
+  Anlage(n).`, 3.7 `gültig bis zum 30.07.2027`, 6. Prüfungsdatum `31.01.2026`, 8. Ausstellungsdatum
+  `11.05.2026`; Aussteller 1.1 bis 1.3 `PÜG Prüf- und Überwachungsgesellschaft mbH`, `Hämmerlestraße 14 + 16`,
+  `71126 Gäufelden`; Rechtsträger 4.1 bis 4.4 `Dehner Recycling GmbH`, `Derchinger Straße 133`, `86165
+  Augsburg`, `Registernummer (HRA, HRB etc.): HRB 19632`, `Registergericht: Augsburg`. **Standorttreue:** Alle
+  drei Anlagen tragen in Feld 1.1 bis 1.3 `Dehner Recycling GmbH`, `Derchinger Straße 133`, `86165 Augsburg` und
+  sind dem Dossierstandort zugeordnet: Anlage 1 (Sammeln und Befördern `I761T00604`), Anlage 2 (Lagern
+  `I761E19701`) und Anlage 3 (Behandeln `I761E19701`); das Zertifikat enthält keine Anlage an einem anderen
+  Standort. Anlage 2 nennt in der Anlagentechnik wörtlich `Altfahrzeugannahmestelle` — die Einträge zur
+  Erstbehandlungsanlage nach § 21 ElektroG und zur Altfahrzeug-Annahmestelle nach § 5 Abs. 3 AltfahrzeugV
+  stammen aus den gesonderten PÜG- bzw. Betreiber-Nachweisen und sind davon unberührt. Die EfbV-Route und die
+  AltfahrzeugV-Route liefern für `n=Dehner` keinen Datensatz an `Derchinger Straße 133` — die Negativaussage des
+  Eintrags ist bestätigt. Damit ist jede Angabe des Eintrags im Feld `certifications` am PDF belegt; eine
+  Korrektur war nicht nötig. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dehner&p=ZZHT00400331&fd=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Dehner
+  (Abruf 06.11.2026).]

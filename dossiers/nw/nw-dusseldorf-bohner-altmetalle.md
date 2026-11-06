@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Böhner Altmetalle GmbH, Königsberger Str. 234a, 40231 Düsseldorf, ein Metallhändler, der
+Schrott und NE-Metalle mit Tagespreisen annimmt und Containerdienst für Gewerbe anbietet. Das
+Impressum nennt Geschäftsführer Robert Boehner und HRB 3856 Registergericht Düsseldorf. Amtlich
+belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat EGRW10406-2026
+der Entsorgergemeinschaft Regionaler Wirtschaftsverkehr e.V., Vorgangsnummer ZZFE001000324010,
+Prüfungsdatum 03.06.2026, Ausstellungsdatum 16.06.2026, gültig bis zum 17.11.2027; beide
+Anlagen sind als Hauptsitz der Dossieranschrift zugeordnet. Offen bleibt: eine Anerkennung nach
+AltfahrzeugV ist im Register nicht ausgewiesen, das Register schreibt den Namen in
+Großbuchstaben, und Verzeichnisleads nennen abweichende Öffnungszeiten.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Magrec Recycling GmbH (HRB 306453, Registergericht Jena) betreibt in Föritztal OT Föritz
+am Steinräum 3 einen Recyclingstandort für Metallwaren; als Geschäftsführer nennt das
+Dossier Thomas Ehrhardt. Amtlich belegt sind zwei Anlagen am selben Standort, Lagern und
+Handeln sowie Behandeln, ausgewiesen durch das Zertifikat ESN 03-120371(25) mit der
+Vorgangsnummer ZZEE003002318008 der Entsorgergemeinschaft der deutschen Stahl- und
+NE-Metall-Recycling-Wirtschaft, gültig bis 31.03.2027. Die Identität tragen Zertifikat und
+Registereintrag. Offen bleibt die Beleglage: In der Route Altfahrzeugverwertung existiert
+für die Adresse kein Eintrag, was wegen der freiwilligen Anerkennung kein Nachweis ist.
+Unter derselben Anschrift führt die Ehrhardt Rohstoff-Recycling GmbH mit eigenem
+Rechtsträger und Zertifikat, die hier nicht beansprucht wird.
 
 ## Timeline
 

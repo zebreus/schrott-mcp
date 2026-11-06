@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Adolf Mückenhaupt GmbH & Co. KG, Grubebachstraße 43, 33129 Delbrück-Westenholz, ein
+Schrottankauf von privat und Rohstoffhandel; das Impressum nennt HRA 4814 Registergericht
+Paderborn. Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG:
+Zertifikats-Registrier-Nr. 225ZEB083 der TÜV NORD Umweltschutz GmbH & Co. KG, Vorgangsnummer
+ZZBT005001637013, Prüfungsdatum 01.10.2025, Ausstellungsdatum 08.10.2025, gültig bis zum
+28.02.2027; sechs der sieben Anlagen sind der Dossieranschrift zugeordnet, Anlage 3 ist als
+Erstbehandlungsanlage nach § 21 ElektroG ausgewiesen. Offen bleibt: Anlage 7 trägt die
+Nachbarhausnummer 41 und gehört damit nicht zum Dossierstandort, im Register der
+Altfahrzeugverwertung ist kein Eintrag vorhanden, und der Namensvetter MSH Mückenhaupt KG in
+Bad Wünnenberg ist ein fremder Rechtsträger.
 
 ## Timeline
 

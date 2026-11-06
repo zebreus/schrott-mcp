@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ROWI Metallhandel von Robert Wittig ist ein Einzelunternehmen ohne Handelsregister mit
+Umsatzsteuer-Identifikationsnummer DE242053406 in der Rähnisstraße 4-6 in 08523 Plauen.
+Das Angebot besteht in erster Linie in der Vermietung von Pkw-Anhängern mit bezifferten
+Miettarifen; die Angabe zu Schrott, Buntmetall, Papier und Altkleidern stammt aus dem Seed
+und deckt sich nicht mit der Website. Die Identität tragen Startseite und Impressum der
+Betreiberdomain als eine einzige Quelle sowie zwei OSM-Adressknoten, die die Hausnummern 4
+und 6 belegen, ohne den Betrieb zu benennen. Offen bleibt die Beleglage: Ein zweiter
+unabhängiger Beleg fehlt, Verzeichnisprofile gelten nur als Hinweise, die Facebook-Seite
+war nicht abrufbar; Telefon, E-Mail und Öffnungszeiten sind deshalb nicht übernommen. Die
+Hausnummer 5 fehlt in OSM, die Aufteilung 4 bis 6 bleibt unbelegt.
 
 ## Timeline
 

@@ -93,3 +93,8 @@ Rechtsträger, der an derselben Anschrift zertifiziert ist.
   ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Kn%C3%BCmann&p=ZZET00700463&fd=1
   (Abruf 04.11.2026)]
+
+### Prüfung 06.11.2026
+
+- [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: ENVIZERT Umweltgutachter und öffentlich bestellte und vereidigte Sachverständige GmbH“, „1.2 Straße: Borkener Straße 68“, Postleitzahl 48653, Ort Coesfeld = Aussteller mit vollständiger Anschrift; „3.1 ...: 2603021-1“; „3.3 Vorgangsnummer ...: ZZET007004635002“ = Eintrag (im Raster verkürzt „ZZET00700463 / 1“ bis „/ 4“); „3.4 Das Zertifikat beinhaltet 4 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 15.08.2027“; „4.1 Name: Knümann Entsorgungs GmbH“, „4.2 Straße: Werkstraße 4“, Postleitzahl 46240, Ort Bottrop; „4.4 ... Registernummer ...: HRB 19220 ... Registergericht: Gelsenkirchen“; „6. Prüfungsdatum: 16.02.2026“; „8. Ausstellungsdatum: 22.04.2026“. Die Anlagen 1 bis 4 nennen im Anlagenbogen als Standort „Werkstraße 4, 46240 Bottrop“ (Felder 1.2 und 1.3), also den Dossierstandort, und die Kennnummern nach § 28 NachwV „E512T76120“ (Anlage 1 Sammeln und Befördern), „E512M76137“ (Anlage 2 Handeln und Makeln) sowie „E512A76080“ (Anlage 3 Lagern, Anlage 4 Behandeln) - zeichenweise wie im Eintrag.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Kn%C3%BCmann&p=ZZET00700463&fd=1 (Abruf 06.11.2026)]

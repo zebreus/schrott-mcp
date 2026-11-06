@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Seubert Rohstoffhandel, Inhaber Hans Seubert, Am Landgraben 14, 97816 Lohr am Main, ein
+Rohstoff- und Metallhändler mit Containerdienst und Einkaufsbereich. Amtlich belegt ist die
+Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat 290914021 der DEKRA
+Certification GmbH, Vorgangsnummer ZZHT003001491010, Prüfungsdatum 03.07.2026,
+Ausstellungsdatum 21.07.2026, gültig bis zum 02.01.2028. Alle fünf Anlagen für Sammeln und
+Befördern, Lagern und Behandeln sind der Anschrift Am Landgraben 14 zugeordnet, eine Anlage an
+einem anderen Ort ist nicht ausgewiesen. Offen bleibt die Beleglage: die Registernummer und das
+Registergericht sind im Zertifikat nicht ausgewiesen, da es sich um ein Einzelunternehmen
+handelt, und in der Route Altfahrzeugverwertung ist für diesen Betrieb kein Eintrag vorhanden.
+Der Website-Status ist nicht erhoben.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dieter Wachsmann wird in den Verzeichnissen als Container-, Schrott- und Metallbetrieb im
+Ortsteil Mose von Wolmirstedt geführt, mit der Anschrift Farsleber Straße 4 in 39326 und
+der Telefonnummer 039201 29104. Eine Betreiberwebsite, ein Impressum oder ein
+Registereintrag existieren nicht; die Suche nach dem Namen führt nur zu
+Verzeichniseinträgen, das Örtliche kennt keinen passenden Eintrag. Die Koordinate stützt
+sich auf ein OSM-Objekt, das die Anschrift samt Hausnummer, Postleitzahl und Ortsteil
+trägt, aber weder Namen noch Betreiber und keinen Branchentag, also die Adresse, keinen
+Annahmehof. Offen bleibt die Beleglage: Existenz und Tätigkeit sind nur über Verzeichnisse
+belegt, deshalb blieben Straße, Postleitzahl und Telefonnummer im Frontmatter leer; Preise
+und Gebühren fehlen, der Status bleibt in Prüfung.
 
 ## Timeline
 

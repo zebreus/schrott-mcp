@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+ALBA Sachsen GmbH unterhält in Oranienbaum-Wörlitz OT Vockerode an der Walderseeer Straße
+40 einen Kompost- und Bioabfallplatz mit Komposterde, Containerdienst und
+Entsorgungsberatung; die Anlieferzeit für Bio- und Gärresten ist Montag bis Donnerstag von
+7:00 bis 15:00 Uhr. Die Identität tragen die Standort-Detailseite der Betreiberdomain mit
+Anschrift, Rufnummer, E-Mail-Adresse und Öffnungszeiten sowie die Konzernübersicht. Offen
+bleibt die Beleglage: Der Dossier-Eintrag als Schrotthändler beruht auf einer
+Verzeichnisangabe, das Betreiberportal weist den Platz als Kompostwerk aus und belegt
+keinen Schrottankauf, weshalb der Typ unverändert bleibt und der Status in Prüfung steht.
+Ein Ankaufpreis wird nicht veröffentlicht, auch historisch ist keiner belegt; die
+Betreiberdomain sperrt reguläre Abrufe per IP-Sperre.
 
 ## Timeline
 

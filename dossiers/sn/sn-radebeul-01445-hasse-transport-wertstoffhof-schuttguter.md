@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hasse Transport GmbH (HRB Dresden 1813) betreibt in Radebeul an der Fabrikstraße 17 einen
+Standort für Containerdienst, Baustoffe und Schüttgüter, mit Nutzfahrzeug-Werkstatt und
+LKW-Wäsche. Ein zweiter Standort in Coswig an der Naundorfer Straße 3 ist der eigentliche
+Recyclingplatz mit Schrottannahme. Die Identität tragen das Impressum, die Kontakt- und
+die Standortseite der Betreiberdomain sowie zwei OSM-Objekte an der Hausnummer 17, die den
+Betrieb nennen und seine Kontaktdaten führen. Offen bleibt die Beleglage: Die
+Öffnungszeiten des Radebeuler Standorts widersprechen sich zwischen Kontakt- und
+Standortseite; übernommen sind sie nicht. Die Bezeichnung Wertstoffhof trifft auf den
+Radebeuler Standort nicht zu; der Coswiger Betrieb hat kein eigenes Dossier. Ankaufspreise
+werden nicht veröffentlicht, bezifferte Gebühren nur in den Geschäftsbedingungen von 2013.
 
 ## Timeline
 

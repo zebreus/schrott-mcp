@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Auto- + Teilehandel Fischer, Friedrich-List-Straße 19, 88348 Bad Saulgau, ein Autoverwerter mit
+Annahme und Abholung von Altfahrzeugen, Verkauf von Gebrauchtteilen sowie Schrott- und
+Metallhandel. Adresse, Telefonnummer und E-Mail-Adresse stammen aus dem Footer der
+Betreiberseite, die als einzige Quelle dient. Amtlich belegt ist die Bescheinigung nach § 5 Abs.
+3 AltfahrzeugV: Das Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge führt den Betrieb
+am 05.11.2026 mit Vorgangsnummer ZAHS01300003, Bescheinigungsanlagennr. 1 und Kennnummer
+H44103270, dazu Ansprechpartner Hans-Dieter Fischer und die Telefonnummer 07581/7774. Offen
+bleibt die Beleglage: eine zweite unabhängige Quelle fehlt, Zertifikatsnummer, Aussteller und
+Gültigkeitsdatum der Bescheinigung sind im Register nicht ausgewiesen, weil kein PDF hinterlegt
+ist, und das Dossier führt unter dem Namen nur „Fischer". Der Status bleibt „pruefung".
 
 ## Timeline
 

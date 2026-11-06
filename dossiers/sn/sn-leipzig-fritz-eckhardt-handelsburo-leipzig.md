@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Fritz Eckhardt GmbH & Co. KG, Handelsbüro Leipzig, An der Hebemärchte 14, 04316 Leipzig; die
+Gesellschaft mit Sitz in Schwelm im Ruhrgebiet führt hier nach dem Seed-Import ein Handelsbüro
+und keinen Schrottplatz. Das Impressum nennt HRA 4174 Registergericht Hagen, Komplementär HRB
+12231, und die Geschäftsführer Christian Eckhardt und Ralph Peter Stoehr, womit die Beleglage
+registerkonform ist; Northdata bestätigt die HR-Identität. Offen bleibt: die Leipziger
+Büroadresse ist nur durch die Betreiberwebsite belegt, eine zweite unabhängige Quelle fehlt,
+und ein Schrottankauf oder eine Annahme an dieser Anschrift ist nicht belegt.
 
 ## Timeline
 

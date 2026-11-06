@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Maik Bieber Autoservice und Autoverwertung, ein Einzelunternehmen ohne Handelsregister,
+betreibt in Lichtenberg im Erzgebirge eine Kfz-Werkstatt mit Autoverwertung. Angeboten
+werden die Abmeldung von Fahrzeugen, der Aufkauf und die Abholung in Absprache,
+Abschleppdienst, Kleintransporte und gebrauchte Ersatzteile. Die Identität tragen das
+Impressum und die Leistungsseite der Betreiberdomain sowie ein OSM-Betriebsknoten, der den
+Betrieb an der Alten Dorfstraße 9 in 09638 Lichtenberg nennt und dessen Telefon- und
+E-Mail-Angaben führt. Offen bleibt die Beleglage: Telefon und E-Mail ruhen je Feld nur auf
+dem Betreiberkanal, ein zweiter unabhängiger Beleg fehlt, weil der Registerauszug nicht
+abrufbar war. Die Öffnungszeiten gelten wegen eines Hinweises auf verkürzte Öffnung nicht
+als gesichert; Ankaufpreise werden nicht veröffentlicht.
 
 ## Timeline
 

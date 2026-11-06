@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Klaus-Georg Gehrt, Boschstraße 2, 08371 Glauchau, ein Einzelunternehmen mit Schrott- und
+Buntmetallhandel, Abbruch, Demontage und Containerdienst; das OSM-Objekt an dieser Adresse
+nennt den Betrieb selbst, und das amtliche Register führt ihn mit der Zertifikatsnummer
+ZZST00200086 und den Tätigkeiten Lagern und Behandeln. Das auf der Betreiberseite
+veröffentlichte Zertifikat 801.0318/25 des Ingenieurbüros Ulbricht GmbH ist auf Klaus-Georg
+Gehrt am Standort Boschstraße 2 ausgestellt, abgegrenzt von der Max Gehrt GmbH & Co. KG am
+Heizwerk 6. Offen bleibt: der Zertifikatsnachweis ist nicht widerspruchsfrei, weil die Notizen
+zu den Nummern 801.0318/25, ZZST002000867009, ZZST00200086 und ZZST00200121 auseinander fallen,
+und der Betrieb hat als Einzelunternehmen keine Registernummer, sodass der Status „pruefung"
+bleibt. Zahlenpreise für Ankauf und Verkauf werden nicht veröffentlicht.
 
 ## Timeline
 

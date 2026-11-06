@@ -20,7 +20,7 @@ pickup_json: ''
 provenance_section: 'Feedback #5390 vom 08.10.2026'
 provenance_ankauf_raw: ja; Vergütung für Schrott/Metalle und Altfahrzeuge ausdrücklich publiziert
 provenance_origin: table
-certifications: '["Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100024 / 1, M + M Recycling GmbH Bielefelder Autoverwertung, Grafenheider Straße 105, 33729 Bielefeld, HRB 43527 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)"]'
+certifications: '["Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Bescheinigung bzw. Standortanlage ZAES01100024 / 1, Kennnummer E711E0011, M + M Recycling GmbH Bielefelder Autoverwertung, Grafenheider Straße 105, 33729 Bielefeld, HRB 43527 Registergericht Amtsgericht Bielefeld; der Datensatz erscheint ausschließlich beim Filter Art des Betriebs = Demontagebetrieb)"]'
 ---
 
 # M+M Recycling GmbH (Bielefelder Autoverwertung)
@@ -83,3 +83,8 @@ Neuer Händler, **nicht** der vorhandene MM Schrotthandel / MM Schrott & Metalle
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Matuschok ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=33729%20Bieliefeld%2C%20Deutschland;8.5832626;52.0667388;8.5832626;52.0667388;8.5832626;52.0667388&dst=3&is=1&e=1
   ; https://www.bielefelder-autoverwertung.de/impressum/ ; https://www.bielefelder-autoverwertung.de/schrott-metalle/ (Abruf 02.11.2026)]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Die AFV-Kennung war im Eintrag nicht genannt.** Für die Route „Altfahrzeugverwertung“ des amtlichen Fachbetrieberegisters (Namenssuche „M + M Recycling“, Abruf 06.11.2026) weist der Detaildialog zur Bescheinigung bzw. Standortanlage ZAES01100024 / 1 das Feld „Kennnummer“ mit dem Wert „E711E0011“ aus; die Kennung wurde in den Eintrag übernommen. Die übrigen Registerangaben sind unverändert bestätigt: „Bezeichnung M + M Recycling Bielefelder Autoverwertung“, „Adresse Grafenheider Straße 105, 33729 Bielefeld“, „Vorgangsnummer ZAES01100024“, „Bescheinigungsanlagennr. 1“, „Telefon 0521 32922015“, „Ansprechpartner Herr Matuschok“, „Bezeichnung der Firma M + M Recycling GmbH Bielefelder Autoverwertung“. Zur Filterbeobachtung: die Namenssuche liefert mit Art des Betriebs = Demontagebetrieb 7 Treffer, ohne Angabe des Art-des-Betriebs-Filters ebenfalls 7 Treffer und mit Art des Betriebs = Egal 29 Treffer, jeweils einschließlich ZAES01100024 / 1; die Formulierung zum ausschließlichen Auftreten im Eintrag bleibt unverändert. Für Bescheinigungen nach AltfahrzeugV ist im Register kein Zertifikats-PDF hinterlegt; die Prüfung stützt sich daher auf die Registerfelder des Detaildialogs.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=M%2BM%20Recycling ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=2&n=M%2BM%20Recycling (Abruf 06.11.2026)]

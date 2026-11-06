@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+LKS Kat GmbH, Riesaer Straße 245-247, 04319 Leipzig, ein Katalysatorrecyclingbetrieb mit
+Barankauf und Abholung. Der Webauftritt lks-kat.de liefert durchgehend HTTP 403, sodass die
+Inhalte nur aus dem Suchindex stammen und der Website-Status blockiert bleibt. Amtlich belegt
+ist der Eintrag im Fachbetrieberegister: LKS Kat GmbH, Riesaer Straße 245-247,
+Zertifikatsnummer ZZFE00100296, Tätigkeiten Lagern, Behandeln und Verwerten mit dem
+Abfallschlüssel für gebrauchte Katalysatoren; zusätzlich bestätigt Northdata HRB 31888. Offen
+bleibt: die Website ist gesperrt, das Register nennt weder Telefon noch E-Mail, die
+E-Mail-Adresse weber@lks-kat.de ist nur ein Einzelbeleg, und welches der beiden getrennt in OSM
+erfassten Gebäude den Betrieb trägt, ist nicht entschieden. Zahlenpreise werden nicht
+veröffentlicht.
 
 ## Timeline
 

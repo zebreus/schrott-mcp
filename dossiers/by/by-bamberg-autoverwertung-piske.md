@@ -97,3 +97,20 @@ Die Nürnberger Straße ist laut Betreiberseite die Gründungsadresse von 1968, 
   https://www.bayernhafen.de/firmenverzeichnis/autoverwertung-piske/ ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung (im Dossier zitiert, Abruf
   05.11.2026).]
+
+### Prüfung 06.11.2026
+
+- [Prüfung 06.11.2026: **Für diesen Eintrag gibt es kein Zertifikats-PDF; der Eintrag bleibt unverändert.**
+  Die AltfahrzeugV-Route des amtlichen Fachbetrieberegisters weist für den Standort `Mainstraße 3, 96052
+  Bamberg` einen Datensatz aus, der am 06.11.2026 im Detaildialog geprüft wurde (live): `ZAHS01800076 / 1` —
+  `Bezeichnung: Autoverwertung Piske Inhaber Christian Piske`, `Adresse: Mainstraße 3, 96052 Bamberg`,
+  `Internetadresse: www.ap-auto.de`, `E-Mail: info@ap-auto.de`, `Telefon: 0951/67601`, `Vorgangsnummer:
+  ZAHS01800076`, `Bescheinigungsanlagennr.: 1`, `Fax: 0951/601640`, `Ansprechpartner: Herr Christian Piske:
+  Telefon: 0951/67601 E-Mail: info@ap-auto.de Fax: 0951/601640`, `Kennnummer: I461E1140`, `Bezeichnung der
+  Firma: Autoverwertung Piske Inhaber Christian Piske`, `Adresse der Firma: Mainstraße 3, 96052 Bamberg`. Der
+  Dialog führt keinen PDF-Link („Zertifikat herunterladen") und keinen Permalink; die Felder 3.1
+  (Zertifikatsnummer), 3.3 (Vorgangsnummer im 12-stelligen Format), 3.4, 3.7, 6 und 8 sind daher **nicht
+  vorhanden** und bleiben im Eintrag unverändert. Die EfbV-Route liefert für `n=Piske` **0 Treffer** — die
+  Negativaussage des Eintrags ist damit bestätigt. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Piske
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Piske
+  (Abruf 06.11.2026).]

@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hermstrüwer GmbH, Kanalstraße 89, 44147 Dortmund, ein Schrott- und Metallgroßhandel, der
+private und gewerbliche Kunden annimmt. Das Impressum nennt eine GmbH mit HRB 26194
+Registergericht Dortmund und Geschäftsführer Michael Hundt. Amtlich belegt ist die Anerkennung
+als Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat A-000127 der GZQ GmbH, Vorgangsnummer
+ZZKT001000603012, Prüfungsdatum 26.05.2026, Ausstellungsdatum 28.05.2026, gültig bis zum
+25.11.2027; die drei Anlagen für Sammeln und Befördern, Lagern und Behandeln sind alle dem
+Standort zugeordnet. Offen bleibt: das Register und das Zertifikat führen die längere
+Bezeichnung Schrott- und Metallgroßhandel Hermstrüwer GmbH, das Dossier nur Hermstrüwer GmbH,
+und eine Anerkennung nach AltfahrzeugV ist nicht ausgewiesen.
 
 ## Timeline
 

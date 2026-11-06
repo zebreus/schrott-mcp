@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Reichelt SchrottHdl. ist nur über Verzeichniseinträge bekannt, die übereinstimmend die
+Anschrift Sorge-Settendorf 4 in 07987 Mohlsdorf-Teichwolframsdorf-Sorge-Settendorf mit der
+Telefonnummer 036624 20957 nennen; eine Betreiberwebsite, ein Impressum und jede
+Leistungs- oder Inhaberangabe fehlen. Das amtliche Fachbetrieberegister führt für die
+Gemeinde genau einen Betrieb, Wolfgang Wagner in der Kirchgasse 5 im Ortsteil Waltersdorf;
+für den Namen Reichelt und die genannte Adresse existiert kein Eintrag, was wegen der
+freiwilligen Anerkennung ohne Beweiswert bleibt. Offen bleibt die Beleglage: Ob Reichelt
+und der Registereintrag denselben oder einen Nachfolgebetrieb betreffen, ist ohne
+Gewerbeauskunft der Gemeinde nicht entscheidbar, und die Betreiberidentität hinter der
+abgekürzten Firmierung bleibt ungeklärt. Preise und Gebühren sind nicht belegt.
 
 ## Timeline
 

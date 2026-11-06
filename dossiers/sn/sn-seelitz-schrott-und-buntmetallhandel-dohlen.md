@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott- und Buntmetallhandel Döhlen mit Geschäftsführer Ralf Liebers sitzt in der
+Talstraße 1 in 09306 Seelitz. Als Schrotthändler kauft der Betrieb Alteisen, Buntmetalle
+und weitere recyclebare Metalle sowie Altpapier und Pappe an, bietet Containerdienst,
+Schrottplatz, Pellets und Brikets und holt auf Wunsch ab. Die Identität tragen Startseite
+und Impressum der Betreiberdomain sowie der Eintrag in den Gelben Seiten, der Anschrift,
+Nummer und Öffnungsbeginn nennt. Offen bleibt die Beleglage: In OpenStreetMap ist die
+Dossier-Adresse nicht belegt, die Schreibweise Talstraße mit Hausnummer 1 existiert dort
+nur in der Gemeinde Oederan mit der PLZ 09569, ein Objekt mit Betriebsbezug fehlt ganz.
+Der Ankaufpreis richtet sich nach der Marktlage, seine Höhe wird nicht beziffert; eine
+Verkaufspreisliste und bezifferte Gebühren fehlen.
 
 ## Timeline
 

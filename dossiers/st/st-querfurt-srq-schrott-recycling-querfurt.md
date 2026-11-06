@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+SRQ Schrott-Recycling Querfurt GmbH (HRB 210542, Amtsgericht Stendal) betreibt in Querfurt
+am Döcklitzer Tor 53 einen Schrottplatz mit Schrott- und Metallhandel, Altpapierannahme,
+Containerdienst, Entsorgung und Transporten sowie Demontage- und Abrissarbeiten und tritt
+als Entsorgungsfachbetrieb auf. Die Identität tragen das Impressum der Betreiberdomain mit
+Name, Ort und Registernummer sowie zwei Schrottplatz-Verzeichnisse, die denselben Betrieb
+nennen. Offen bleibt die Beleglage: Die E-Mail-Adresse und die Regel für den zweiten
+Samstag im Monat stammen allein aus der Betreiberdomain, eine zweite unabhängige Quelle
+fehlt; der Status des Dossiers bleibt deshalb in Prüfung, und öffentliche Ankaufs- oder
+Gebührenpreise sind nicht belegt.
 
 ## Timeline
 

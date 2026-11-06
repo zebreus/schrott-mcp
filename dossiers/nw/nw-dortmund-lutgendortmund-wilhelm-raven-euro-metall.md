@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metallum Metal Trading GmbH, Alter Hellweg 33, 44379 Dortmund-Lütgendortmund; der Dossier-Name
+führt die Vorgängergesellschaft Wilhelm Raven Euro-Metall GmbH, die 2021 umbenannt wurde, HRB
+13486 Registergericht Dortmund. Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb
+nach § 56 KrWG: Zertifikat ESN 98-080148 (26) der ESN Entsorgergemeinschaft der Deutschen
+Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Vorgangsnummer ZZEE003000502010, Prüfungsdatum
+28.04.2026, Ausstellungsdatum 27.05.2026, gültig bis zum 30.09.2027; beide Anlagen sind dem
+Standort Alter Hellweg 33 zugeordnet. Offen bleibt: die Betreiberseite nennt daneben einen
+Lagerbetrieb an der Overhoffstrasse 33, 44149 Dortmund mit abweichenden Annahmezeiten, den das
+Zertifikat nicht ausweist, und für den historischen Namen gibt es im Register keinen eigenen
+Eintrag. Der Status bleibt „pruefung".
 
 ## Timeline
 

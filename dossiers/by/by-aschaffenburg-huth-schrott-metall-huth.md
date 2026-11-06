@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Huth Schrott-Metall GmbH, Hafenkopfstraße 7, 63741 Aschaffenburg, im Dossier als Huth Schrott
+Metall GmbH geführt, ein Schrott- und Metallhändler mit Containerdienst. Telefon, E-Mail und
+Öffnungszeiten stammen aus Betreiber-Startseite, Kontaktseite und Impressum, das mit HRB 5758
+Registergericht Aschaffenburg registerkonform ist. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat ZUUM-272-0718-63-25-0923 der ZUUM Gesellschaft
+für technische Überwachung und Zertifizierung mbH, Vorgangsnummer ZZFT013000318011, Prüfungsdatum
+19.11.2025, Ausstellungsdatum 03.12.2025, gültig bis zum 18.03.2027; alle drei Anlagen für Sammeln
+und Befördern, Lagern und Behandeln sind der Hafenkopfstraße 7 zugeordnet. Offen bleibt: das
+Impressum nennt Viktoria Westarp, der Bezug zum Dossier by-aschaffenburg-bernhard-westarp ist
+ungeklärt, und im Register ist für diese Anschrift keine Anerkennung nach AltfahrzeugV eingetragen.
 
 ## Timeline
 

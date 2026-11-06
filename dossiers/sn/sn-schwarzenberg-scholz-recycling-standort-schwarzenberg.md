@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scholz Recycling GmbH (HRB 733963, Amtsgericht Ulm) unterhält in Schwarzenberg OT
+Grünstädtel am Bahnhof 03 einen Standort zur Lagerung und Behandlung von Fe- und
+NE-Schrott mit Schrottplatz, Pakettierpresse und sonstiger Behandlung von Altfahrzeugen.
+Belege sind das ESN-Zertifikat ZZEE003000239010 mit der Anerkennung als sonstige Anlage
+zur weiteren Behandlung nach der Altfahrzeugverwertungsverordnung, der Eintrag im
+amtlichen Fachbetrieberegister ZZEE00300023 mit den Tätigkeiten Lagern, Behandeln und
+Verwerten, das Beiblatt AltfahrzeugV sowie ein OSM-Objekt, das den Betrieb an der
+Hausnummer 3 kartiert. Offen bleibt die Beleglage: Das OSM-Objekt nennt die Nummer +49
+3774 84050, das Beiblatt AltfahrzeugV die Nummer 03774 840511; welche die aktuelle ist,
+bleibt ungeklärt, das Feld bleibt daher leer. Ein Ankaufspreis wird nicht veröffentlicht.
 
 ## Timeline
 

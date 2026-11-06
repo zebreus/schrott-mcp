@@ -25,7 +25,16 @@ certifications: '["Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Drewer Autoverwertungs- und Handelsgesellschaft mbH, Werningshof 26, 33719 Bielefeld, ein
+Autoverwerter mit Teilehandel und Kabelrecycling; die Betreiberseite nennt eine Abholung von
+Metallschrott aller Art im Umkreis bis 35 km. Das Impressum weist Geschäftsführer Adrian
+Cerina, HRB 34768 Registergericht Bielefeld, aus. Amtlich belegt ist die Anerkennung nach
+AltfahrzeugV als Demontagebetrieb: Vorgangsnummer ZAES01100009, Bescheinigungsanlagennr. 1 und
+Kennnummer E71129901; im Register der Entsorgungsfachbetriebe ist für den Betrieb kein Eintrag
+vorhanden. Offen bleibt die Beleglage: für den Registerdatensatz ist kein Zertifikats-PDF
+hinterlegt, sodass Zertifikatsnummer, Aussteller, Gültigkeitsdatum und Prüfungsdatum der
+Bescheinigung nicht ausgewiesen sind, und die Kontaktangaben stammen weiterhin aus einer
+Betreiberdomain. Der Status bleibt „pruefung".
 
 ## Timeline
 

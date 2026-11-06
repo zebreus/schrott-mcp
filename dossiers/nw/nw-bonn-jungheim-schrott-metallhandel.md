@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Jungheim Schrott & Metallhandels GmbH, Am Dickobskreuz 4, 53121 Bonn, ein Metallhändler mit
+Containerdienst, Schrotthandel und Zwischenlagerung; das Impressum und der Register-Spiegel zu
+HRB 16767 Amtsgericht Bonn sind adressgleich, das amtliche Register weist den Betrieb unter der
+abweichenden Schreibweise mit Genitiv-s aus. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat 01 400 0139 der TÜV Rheinland Cert GmbH,
+Vorgangsnummer ZZET016001543008, Prüfungsdatum 01.09.2025, Ausstellungsdatum 24.10.2025, gültig
+bis zum 31.03.2027; alle drei Anlagen für Sammeln und Befördern sowie Lagern sind dem Standort
+zugeordnet. Offen bleibt: das Register weist für den Betrieb keine Anerkennung nach
+AltfahrzeugV aus, und die im Umfeld sitzenden Betriebe am Dickobskreuz 11a und 6 sind fremde
+Rechtsträger.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Linke GmbH & Co. KG, Polderstr. 107, 46238 Bottrop, ein Schrotthändler mit klassischem Ankauf
+von Schrott- und Metallabfällen und Containerdienst. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat Nr. 19-25-26 der G.BZ-Zert, Vorgangsnummer
+ZZET008000537009, Prüfungsdatum 03.06.2026, Ausstellungsdatum 30.07.2026, gültig bis zum
+31.08.2027. Vier der sechs Anlagen für Sammeln und Befördern, Lagern und Verwerten, Behandeln
+und Verwerten sowie Handeln sind der Anschrift Polderstr. 107 zugeordnet. Offen bleibt: die
+beiden übrigen Anlagen und die Bescheinigung über die Vorbehandlungsanlage gelten dem
+Nebenstandort Braker Str. 74 auf gepachteter Fläche, und die Registernummer wird
+unterschiedlich geführt, HRA 2465 im Impressum und HRB 4942 im Zertifikat, jeweils
+Registergericht Gelsenkirchen.
 
 ## Timeline
 

@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Wolfgang Dehne GmbH & Co. KG, Uferstraße 12, 33729 Bielefeld, ein Containerdienst mit Tiefbau,
+Abbrucharbeiten, Transporten, Recycling von Bauschutt und Baustoffverkauf; ein Schrott- oder
+Altmetallankauf ist auf der Betreiberseite nicht erkennbar. Amtlich belegt ist die Anerkennung
+als Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat 1212007029 der DEKRA Certification GmbH,
+Vorgangsnummer ZZHT003004620011, Prüfungsdatum 05.11.2025, Ausstellungsdatum 07.11.2025, gültig
+bis zum 02.05.2027; die drei Anlagen für Sammeln und Befördern, Lagern und Behandeln sind dem
+Standort zugeordnet, HRB 31871 Registergericht Bielefeld. Offen bleibt: das Register führt die
+Anschrift als Uferstr. 12-16, das Dossier nennt Uferstraße 12, und eine Aufteilung der Anlagen
+auf einzelne Hausnummern wird nicht ausgewiesen; eine Anerkennung nach AltfahrzeugV fehlt, und
+die Kontaktangaben stammen aus einer einzigen Betreiberdomain. Der Status bleibt „pruefung".
 
 ## Timeline
 

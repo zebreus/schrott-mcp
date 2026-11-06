@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Freund Thomas AV, Händelstr. 24, 04288 Leipzig, eine Autoverwertung, die gebrauchte Ersatzteile
+verkauft, Fahrzeuge ankauft, Altfahrzeuge annimmt und Werkstatt- und Reifenservice anbietet.
+Die Betreiberseite weist als Inhaber Carry Freund aus, das Dossier führt Thomas Freund; ein
+belegter Inhaberwechsel fehlt ebenso wie ein unabhängiger Beleg für eine Zertifizierung nach
+der AltfahrzeugV, da das amtliche Register nur eine nicht auswertbare Hülle lieferte. Offen
+bleiben damit die Betreiberidentität, die genaue Hausnummer 24 gegenüber 24a, die um 16:00 oder
+17:00 endenden Freitagszeiten und die Frage, ob eine Abholung kostenfrei erfolgt. Gebühren sind
+belegt, Ankaufspreise nicht.
 
 ## Timeline
 

@@ -18,7 +18,7 @@ pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
 provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose
-certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZHT01000289 (Registerstand 11.08.2026); zertifizierte Tätigkeiten Lagern und Verwerten"]'
+certifications: '["Entsorgungsfachbetrieb §56 KrWG (ZN ZertifizierungsNetzwerk GmbH, Goethestraße 11/5, 71131 Jettingen; Zertifikatsnummer 2026-0061, Vorgangsnummer ZZHT010002890005; Prüfungsdatum 27.02.2026, Ausstellungsdatum 09.03.2026, gültig bis zum 26.08.2027; 2 Anlagen; Entsorgungsfachbetrieb Bachinger Schrott & Metalle, Gewerbepark 25, 87640 Altdorf, Registernummer Nicht zutreffend; Anlage 1 dem Standort Gewerbepark 25, 87640 Altdorf zugeordnet, Tätigkeiten Sammeln, Befördern, Kennnummer nach § 28 NachwV I777T90030; Anlage 2 gleicher Standort, Tätigkeiten Lagern, Verwerten, Kennnummer I777S00085"]'
 ---
 
 # Bachinger
@@ -46,3 +46,26 @@ Die aktuelle Betreiberwebsite Bachinger Schrott + Metalle bezeichnet Paul Bachin
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: EINZELBELEG (unsicher) — Betreiber-Seite bachinger-schrott.de nennt Gewerbepark 25, 87640 Altdorf, Tel. 08342-915097, info@bachinger-schrott.de, Öffnungszeiten Mo–Fr 8–12:30/13–17:15, Sa 10–12; KEIN HR-Eintrag im Impressum (nur USt-ID), kein zweiter unabhängiger Beleg (vgem-biessenhofen.de ohne verwertbaren Directory-Eintrag, Northdata ohne Treffer) — daher kein Frontmatter-Fill; Quelle(n): https://bachinger-schrott.de/impressum/ + https://bachinger-schrott.de/kontakt/ (ein Betreiber, zählt als 1 Beleg)]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Der Eintrag nannte die 8-stellige Vorgangsnummer als „Zertifikatsnummer" und ließ
+  fast alle übrigen Zertifikatsfelder offen.** Geprüft wurde das Zertifikats-PDF der ZN ZertifizierungsNetzwerk
+  GmbH (Detaildialog und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am 06.11.2026) mit `pdftotext
+  -layout`, feldweise: 3.1 `2026-0061` (bisher als „Zertifikatsnummer" geführt: `ZZHT01000289` — das ist die
+  8-stellige Registerform der Vorgangsnummer), 3.3 `ZZHT010002890005` (vollständige Form), 3.4 `Das Zertifikat
+  beinhaltet 2 Anlage(n).`, 3.7 `gültig bis zum 26.08.2027`, 6. Prüfungsdatum `27.02.2026`, 8. Ausstellungsdatum
+  `09.03.2026`; Aussteller 1.1 bis 1.3 `ZN ZertifizierungsNetzwerk GmbH`, `Goethestraße 11/5`, `71131
+  Jettingen`; Rechtsträger 4.1 bis 4.4 `Bachinger Schrott & Metalle`, `Gewerbepark 25`, `87640 Altdorf`,
+  `Registernummer (HRA, HRB etc.): Nicht zutreffend`. Anlage 1 weist in 2.1 `Sammeln` und 2.2 `Befördern` die
+  Kennnummer `I777T90030` aus, Anlage 2 in 2.3 `Lagern` und 2.5 `Verwerten` die Kennnummer `I777S00085`. Beide
+  Anlagen tragen in Feld 1.1 bis 1.3 `Bachinger Schrott & Metalle`, `Gewerbepark 25`, `87640 Altdorf` und sind
+  dem Dossierstandort zugeordnet. Der Eintrag wurde auf Zertifikatsnummer, vollständige Vorgangsnummer,
+  Anlagenanzahl, Aussteller mit Anschrift, Rechtsträger, Prüfungs- und Ausstellungsdatum sowie Gültigkeit
+  umgestellt und um die Anlagen mit ihren Tätigkeiten und Kennnummern ergänzt. Der Registerdialog bestätigt die
+  Zuordnung: `Bachinger Schrott & Metalle`, `Gewerbepark 25, 87640 Altdorf`, `Vorgangsnummer ZZHT01000289`,
+  `Zertifikatsanlagennr. 1` (Tätigkeit `Sammeln, Befördern`) und `Zertifikatsanlagennr. 2` (Tätigkeit `Lagern,
+  Verwerten`). Der Dossierstandort bleibt unverändert `Gewerbepark 25, 87640 Biessenhofen`; die im Register
+  geführte Ortsangabe `Altdorf` ist eine Adressvariante derselben Anschrift, die bereits im Dossier vermerkt
+  ist. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bachinger&p=ZZHT01000289&fd=1
+  (Abruf 06.11.2026).]

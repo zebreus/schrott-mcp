@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Motikat Entsorgungsdienstleistungen GmbH, Winterstraße 29, 47137 Duisburg-Meiderich, ein
+Entsorgungsbetrieb mit Schrottannahme Mo-Fr 07:00-16:30, Containerdienst von 3 bis 36 m3 und
+eigener Fläche. Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG:
+Zertifikat 151/0297/Efb der TÜO Technischen Überwachungsorganisation, Vorgangsnummer
+ZZHT009001589001, Prüfungsdatum 03.08.2026, Ausstellungsdatum 17.08.2026, gültig bis zum
+03.02.2028; alle vier Anlagen sind der Winterstraße 29 zugeordnet. Offen bleibt die
+Betreiberidentität: das Zertifikat führt die Motikat Entsorgung GmbH mit HRB 40082
+Registergericht Duisburg, das Dossier die Motikat Entsorgungsdienstleistungen GmbH mit HRB
+20334; die Anschrift stimmt überein, die Internetadresse des Registers weicht von der
+Dossier-Website ab.
 
 ## Timeline
 

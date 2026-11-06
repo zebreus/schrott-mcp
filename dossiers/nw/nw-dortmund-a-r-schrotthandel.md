@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+A&R Schrotthandel, im Betreiber-Impressum als A&R Altmetall- und Rohstoffhandel GmbH geführt,
+Planetenfeldstr. 118, 44379 Dortmund; der Betrieb nimmt Schrott von privat und gewerblich an
+und holt ihn nach eigener Angabe in Nordrhein-Westfalen kostenlos ab. Amtlich belegt ist die
+Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat-Nr. 222-06-2026 der
+G.BZ-Zert, Vorgangsnummer ZZET008000669009, Prüfungsdatum 21.06.2026, Ausstellungsdatum
+24.09.2026, gültig bis zum 30.09.2027, mit drei Anlagen für Sammeln und Befördern, Lagern und
+Behandeln sowie HRB 25836 Registergericht Dortmund. Offen bleibt: das Register und das
+Zertifikat führen die Hausnummer 118a, das Dossier 118, und die Firmierung ist im Register und
+im PDF abgeschnitten; das Impressum nennt keine sichtbare Registernummer, sodass der Beleg dort
+formal ein Einzelbeleg bleibt.
 
 ## Timeline
 

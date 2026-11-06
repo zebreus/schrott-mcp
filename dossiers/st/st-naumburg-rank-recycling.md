@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rank Recycling GmbH mit Sitz in der Kroppentalstraße 40a in 06618 Naumburg ist auf
+Schrott- und Metallrecycling, Kabel, Container und Bauschuttgüter ausgerichtet; sie ging
+am 04.01.2022 aus der Firma R+S hervor. Die Identität tragen das Impressum der
+Betreiberdomain mit Name, Registergericht und Ort sowie die Registeraufbereitung zum HRB
+7614 beim Amtsgericht Stendal, also zwei voneinander unabhängige Belege. Offen bleibt die
+Beleglage: Das Dossier führt keine Koordinate, weil der frühere Standortpunkt um rund 90
+km danebenlag und die Bestätigung der Anschrift noch aussteht; eine öffentlich zugängliche
+Ankaufspreisliste ist nicht belegt. Sämtliche Kontakt- und Zeitangaben stammen aus dieser
+einen Betreiberquelle.
 
 ## Timeline
 

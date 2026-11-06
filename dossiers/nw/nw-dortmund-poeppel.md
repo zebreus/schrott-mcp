@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Poeppel GmbH & Co. KG, Hannöversche Str. 30b, 44143 Dortmund, ein Eisen- und
+NE-Metallgroßhändler mit Containerdienst und Demontage. Das Impressum nennt HRA 6210
+Registergericht Dortmund, Komplementär HRB 5807. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG: Zertifikat-Nr. 04714050559 der TÜV NORD CERT GmbH,
+Vorgangsnummer ZZET015001431008, Prüfungsdatum 18.03.2026, Ausstellungsdatum 29.06.2026, gültig
+bis zum 31.08.2027; die Anlagen für Sammeln und Befördern sowie Lagern, Behandeln, Verwerten
+und Beseitigen sind beide dem Standort zugeordnet. Offen bleibt: der Betrieb publiziert keine
+Öffnungszeiten, das Zertifikat schreibt die Hausnummer 30 b, das Register führt sie ohne
+Buchstaben, und das Register nennt eine andere E-Mail-Adresse als das Dossier.
 
 ## Timeline
 
