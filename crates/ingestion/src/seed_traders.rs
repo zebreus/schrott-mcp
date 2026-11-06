@@ -1032,7 +1032,7 @@ mod tests {
         let drh = by_slug("ni-springe-31832-drh-deutsche-rohstoff-handelsgesellschaf");
         assert_eq!(
             drh.certifications,
-            r#"["Entsorgungsfachbetrieb §56 KrWG (Zertifikat 801.0978/26, gültig bis 09.08.2027)"]"#
+            r#"["Entsorgungsfachbetrieb nach § 56 KrWG (Ingenieurbüro Ulbricht GmbH, Albert-Schweitzer-Str. 22, 09648 Mittweida; Zertifikat 801.0978/26, Vorgangsnummer ZZST002001249007; Prüfungsdatum 10.02.2026, Ausstellungsdatum 30.03.2026, gültig bis 09.08.2027; 1 Anlage; Entsorgungsfachbetrieb DRH Deutsche Rohstoff Handelsgesellschaft mbH, Philipp-Reis-Str. 12, 31832 Springe, HRB 216883 Registergericht Hannover; Anlage 1 Handeln (Kennnummer nach § 28 NachwV CH09902270), Makeln (CV09902462); Standort Philipp-Reis-Str. 12, 31832 Springe)"]"#
         );
         let long_timeline = by_slug("ni-visselhovede-martin-broschinski-schrotthandel-peter-b");
         assert!(
@@ -1106,7 +1106,7 @@ mod tests {
         assert_eq!(
             certifications.rows[0][0].as_str(),
             Some(
-                r#"["Entsorgungsfachbetrieb §56 KrWG (Zertifikat 801.0978/26, gültig bis 09.08.2027)"]"#
+                r#"["Entsorgungsfachbetrieb nach § 56 KrWG (Ingenieurbüro Ulbricht GmbH, Albert-Schweitzer-Str. 22, 09648 Mittweida; Zertifikat 801.0978/26, Vorgangsnummer ZZST002001249007; Prüfungsdatum 10.02.2026, Ausstellungsdatum 30.03.2026, gültig bis 09.08.2027; 1 Anlage; Entsorgungsfachbetrieb DRH Deutsche Rohstoff Handelsgesellschaft mbH, Philipp-Reis-Str. 12, 31832 Springe, HRB 216883 Registergericht Hannover; Anlage 1 Handeln (Kennnummer nach § 28 NachwV CH09902270), Makeln (CV09902462); Standort Philipp-Reis-Str. 12, 31832 Springe)"]"#
             )
         );
         // Second run with same payload writes nothing (hash-skip).
