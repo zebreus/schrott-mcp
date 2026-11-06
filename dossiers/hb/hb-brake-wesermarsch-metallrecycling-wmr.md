@@ -17,7 +17,7 @@ lat: '53.3340694'
 lon: '8.4583880'
 dropoff_json: ''
 pickup_json: ''
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat 291124027, Vorgangsnummer ZZHT003015365003; Prüfungsdatum 19.08.2026, Ausstellungsdatum 26.08.2026, gültig bis 13.02.2028; 4 Anlagen; Entsorgungsfachbetrieb Wesermarsch Metallrecycling GmbH, Max-Planck-Straße 9, 26919 Brake, HRB 100164 Registergericht Oldenburg (Oldenburg); Anlage 1 Standort „Brake“ Tätigkeit Lagern (Kennnummer nach § 28 NachwV C270000005) mit Beiblatt AltfahrzeugV: „Anlage zur zeitweiligen Lagerung von Altfahrzeugen, Altfahrzeugannahmestelle“, Telefon 04401 980060, E-Mail wmr@wmr-online.de, Genehmigungsbehörde GAA Oldenburg, Rücknahme „Für keinen Hersteller“; Anlage 2 Sammeln, Befördern (C000098708); Anlage 3 Lagern (C270000005); Anlage 4 Behandeln (C270000005))"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat 291124027, Vorgangsnummer ZZHT003015365003; Prüfungsdatum 19.08.2026, Ausstellungsdatum 26.08.2026, gültig bis 13.02.2028; 4 Anlagen; Entsorgungsfachbetrieb Wesermarsch Metallrecycling GmbH, Max-Planck-Straße 9, 26919 Brake, HRB 100164 Registergericht Oldenburg (Oldenburg); Anlage 1 Standort „Brake“ Tätigkeit Lagern (Kennnummer nach § 28 NachwV C270000005), Verwerten mit Beiblatt AltfahrzeugV: „Anlage zur zeitweiligen Lagerung von Altfahrzeugen, Altfahrzeugannahmestelle“, Telefon 04401 980060, E-Mail wmr@wmr-online.de, Genehmigungsbehörde GAA Oldenburg, Rücknahme „Für keinen Hersteller“; Anlage 2 Sammeln, Befördern (C000098708); Anlage 3 Lagern (C270000005), Beseitigen, Verwerten; Anlage 4 Behandeln (C270000005), Beseitigen, Verwerten)"]'
 provenance_section: Neue Funde (nicht in den Tabellen oben / Nachtrag Runde 2)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -65,3 +65,7 @@ abrufbar. Die Koordinate bildet den Mittelpunkt des Gebäudes und nicht das Tor 
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der DEKRA (Zertifikat 291124027) für den Standort Max-Planck-Straße 9, 26919 Brake brach im letzten Satz ab; die schließende Klammer wurde ergänzt.
   Vorgangsnummer ZZHT003015365003, die vier Anlagen und die Angaben zum AltfahrzeugV-Beiblatt von Anlage 1 bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Korrektur 06.11.2026 (Zertifikatstiefe)
+
+- [Korrektur 06.11.2026 (Zertifikatstiefe): **Im Feld `certifications` fehlten die im Zertifikats-PDF angekreuzten Tätigkeiten.** Vorgangsnummer ZZHT003015365003: Anlage 1: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten fehlten im Eintrag; Anlage 3: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten, Beseitigen fehlten im Eintrag; Anlage 4: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten, Beseitigen fehlten im Eintrag. Die Ankreuzfelder 2.1 bis 2.8 wurden mit `scripts/release/pdf_checkboxes.py` am Contentstream des amtlichen Zertifikats-PDF gelesen - nur was dort angekreuzt ist, ist zertifiziert. Quelle(n): /tmp/opencode/tiefe4-ni/out/wmr__ZZHT00301536_1.pdf.]

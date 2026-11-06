@@ -156,19 +156,25 @@ def main() -> int:
                     problems.append(f"{rel}: {len(outside)} neue Notiz(en) liegen nicht in der "
                                     f"Geokodierungs-Sektion")
         elif has_new_notes and len(dated) != 1:
-            # Genau **eine** neue Wellen-Sektion; danach duerfen beliebig viele
-            # **Korrektur-Sektionen** folgen: eine spaetere Welle darf einen
+            # Hoechstens **eine** neue Wellen-Sektion; danach duerfen beliebig
+            # viele **Korrektur-Sektionen** folgen: eine spaetere Welle darf einen
             # veroeffentlichten Vermerk nicht in place aendern (Hausregel),
             # sondern traegt ihre Korrektur als eigene datierte Sektion am
             # Timeline-Ende nach. Der Prefix-Check unten bleibt unveraendert -
             # ein in place geaenderter Vermerk wird weiterhin beanstandet.
+            #
+            # Es gibt auch den Fall, dass ein Dossier **nur** Korrektur-
+            # Sektionen erhaelt (die Welle hat dort nichts Neues recherchiert,
+            # sondern nur einen bestehenden Vermerk berichtigt). Dann gibt es
+            # keine Wellen-Sektion - erlaubt sind dann ausschliesslich
+            # Korrektur-Sektionen, alle am Timeline-Ende.
             wellen = [h for h in dated if not h.startswith("Korrektur")]
             korrekturen = [h for h in dated if h.startswith("Korrektur")]
             reihenfolge_ok = bool(heads) and heads[-1] == dated[-1] and all(
                 h.startswith("Korrektur") for h in dated[-len(korrekturen):] if korrekturen)
-            if len(wellen) != 1 or not reihenfolge_ok:
+            if len(wellen) > 1 or not reihenfolge_ok:
                 problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
-                                f"(erwartet: genau 1 Wellen-Sektion, Korrektur-Sektionen danach)")
+                                f"(erwartet: hoechstens 1 Wellen-Sektion, Korrektur-Sektionen danach)")
         # Nach der Wellen-Sektion darf eine Geokodierungs-Sektion folgen.
         tail_ok = True
         if dated and heads and heads[-1] != dated[-1]:
