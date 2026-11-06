@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Adrijan ist ein mobiler Kleinunternehmer mit Sitz in der Knappenstraße 1, 46238 Bottrop,
+dessen Anschrift und Kontaktdaten aus dem Impressum zweier Eigeninserate auf
+kleinanzeigen.de stammen; das Impressum weist ihn als Kleinunternehmer nach § 19 UStG aus.
+Ein Verzeichniseintrag mit Inhaberbestätigung nennt denselben Betrieb mit derselben Nummer
+und den Öffnungszeiten, ein zweiter Eintrag desselben Namens an der Heimannstraße 104 ist
+ein eigener Betrieb und stützt die Zuordnung zur Knappenstraße. Offen bleibt die
+Beleglage, da eine eigene Domain, ein Impressum mit Registernummer und ein Registereintrag
+fehlen und im amtlichen Fachbetrieberegister kein Eintrag vorhanden ist; Ankaufspreise,
+Verkaufspreise und Gebühren sind nicht belegt.
 
 ## Timeline
 

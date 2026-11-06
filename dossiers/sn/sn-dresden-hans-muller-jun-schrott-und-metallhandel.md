@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Hans Müller jun. Schrott- und Metallhandel KG ist ein klassischer Schrotthändler mit Barankauf
+von Fe-Schrott und Buntmetall sowie Containerdienst in der Tharandter Straße 7, 01159 Dresden,
+im Stadtteil Dresden-Löbtau-Süd, mit der Rufnummer 0351 4042510, der E-Mail
+info@hans-mueller-jun.de und den Öffnungszeiten Mo, Mi bis Fr 07:00 bis 12:30 und 13:00 bis
+16:00 sowie Di bis 18:00. Belege sind das Betreiber-Impressum mit der Registernummer HRA 5891
+beim Amtsgericht Dresden, die Kontaktseite, das Verzeichnis Das Örtliche mit deckungsgleicher
+Anschrift und Rufnummer und die Annahmeorte-Seite des Betriebs. Offen bleibt die Beleglage: das
+Registerprofil zu HRA 5891 nennt keinen Straßenbeleg, eine zweite unabhängige Quelle zur
+Betreiberidentität fehlt, und für Ankauf, Verkauf und Gebühren ist keine Zahl belegt.
 
 ## Timeline
 

@@ -27,7 +27,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Auto Bohr GmbH ist ein Autoverwertungs- und Abschleppbetrieb mit der Anschrift In der
+Pfingstweide 18, 66663 Merzig, mit der Rufnummer 06861 4999, der E-Mail info@auto-bohr.de und
+den Öffnungszeiten Mo bis Fr 8 bis 12 und 13 bis 17 Uhr sowie Sa 10 bis 12 Uhr; die
+Betreiberseite nennt das Unternehmen seit 1959. Belege sind die Kontaktseite und der Footer der
+Startseite, die Telefon und E-Mail nennen, sowie in OpenStreetMap ein Objekt mit Hausnummer 18
+ohne Namens- oder Betreiberangabe. Die Verwertungsseite beschreibt die fachgerechte Entsorgung
+und Verwertung von Altfahrzeugen sowie den Teilverkauf über einen eBay-Shop. Offen bleibt, ob
+die zertifizierte Autoverwertung einem amtlichen Nachweis entspricht, da kein Zertifikat
+verlinkt ist; Zahlen für Ankauf, Verkauf und Gebühren werden nicht veröffentlicht.
 
 ## Timeline
 

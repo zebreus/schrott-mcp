@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Maue Klaus Schrotthandel, Hauptstr. 153A, 66882 Hütschenhausen: Schrotthandel und
+Schrottplatz mit Abgrenzung zu einem gleichnamigen zweiten Betrieb an der Nachbarhausnummer
+153. Adresse, Postleitzahl und Rufnummer sind durch drei Verzeichnisse belegt, die zugleich
+ausdrücklich festhalten, dass Leistungsangebot und Öffnungszeiten dort noch nicht
+erfasst sind. Eine Betreiberseite, ein Registereintrag und ein Zertifikat liegen nicht vor,
+weshalb der Status auf Prüfung bleibt. In OpenStreetMap existiert die Dossier-Hausnummer
+153A als eigenes Adressobjekt, jedoch ohne Namen oder Betreiber, und der Betrieb ist dort
+nicht namentlich kartiert. Offen bleiben der Beleg durch den Betrieb selbst, die
+Öffnungszeiten sowie jede Angabe zu Ankauf, Verkauf und Gebühren.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HELLWEGNER e.K. ist ein Edelmetallhandel in Koblenz mit der Postleitzahl 56068, belegt über die
+Kategorie Münzen und Edelmetalle in alten Verzeichniseinträgen. Belastbar ist keine Straße, da
+die Verzeichnisse nebeneinander Firmungstraße 20 und Löhrstraße 103 bis 105 nennen, weshalb
+Straße, Telefon, E-Mail und Öffnungszeiten leer bleiben. Die Identität tragen Aggregatoren wie
+MisterWhat, ÖffnungszeitenBuch, GavaBiz und Vergleiche24 sowie ein Archivstand der Domain
+silber-frei-haus.de, deren AGB von 2014 den Verkäufer HELLWEGNER Edelmetallhandel nennen. Die
+Domain löst sich heute nicht mehr auf. Offen bleibt der e.K.-Status im Handelsregister, denn
+eine Registersuche liefert keinen Treffer, und eine zweite unabhängige Quelle zur heutigen
+Tätigkeit fehlt. Der Adresskonflikt bleibt ungelöst, der Status steht auf Prüfung, und Ankauf-,
+Verkauf- sowie Gebührenangaben sind nicht belegt.
 
 ## Timeline
 

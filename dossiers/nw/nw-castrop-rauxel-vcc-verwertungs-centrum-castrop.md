@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+VCC Verwertungs-Centrum Castrop GmbH & Co. KG ist ein Verwertungsbetrieb am Deininghauser
+Weg 81, 44577 Castrop-Rauxel, dessen Standort seit 2019 als Recyclingcentrum mit Anlage
+und Containerdienst betrieben wird. Die Adresse und die Rufnummer stützen eine
+Herstellerreferenz und den Betreiber ECOSOIL Nord-West, die Mailadresse ist nur über ein
+Verzeichnis belegt. Die Betreiberseite selbst ist eine bloße Platzhalterseite mit dem
+Hinweis, dass dort eine neue Website entsteht, ein Impressum liegt dort nicht vor. Offen
+bleibt damit die Betreiberidentität, da eine Nachfolge in ECOSOIL beziehungsweise RCC
+möglich erscheint, und ob das Register zu dieser Anschrift einen Anlagenbetrieb führt, der
+nicht unter dem Dossiernamen geführt wird. Im amtlichen Fachbetrieberegister ist unter VCC
+weder ein Eintrag als Entsorgungsfachbetrieb noch nach AltfahrzeugV gefunden worden.
 
 ## Timeline
 

@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Rainer Schulte Metallhandel, Fludersbach 132 bis 134, 57074 Siegen: Schrott- und
+Altmetallhandel mit eigener Ankaufseite, laut Dossierangabe seit 1989 im Bestand. Anschrift,
+Rufnummer, E-Mail-Adresse und Öffnungszeiten sind über Impressum und Startseite der
+Betreiberseite belegt, ein Firmeneintrag eines Auskunftsdienstes nennt abweichend
+Fludersbach 132 bis 136, weshalb die engere Fassung des Impressums im Dossier steht. Ein
+Handelsregister ist nicht dokumentiert, und ein öffentlicher Ankaufskurs ist nicht
+ausgewiesen. Offen bleiben die Abweichung in der Hausnummer, ein zweiter Registerbeleg sowie
+die Standortkoordinate.
 
 ## Timeline
 

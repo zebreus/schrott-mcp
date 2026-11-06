@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Koblenzer Schrotthandel ist ein Schrottplatz mit Ankauf von NE-Metallen zu Tageshöchstpreisen,
+geeichter Waage und Containerdienst, betrieben von Inhaberin Karin Reinhardt. Sitz ist Am
+Metternicher Bahnhof 18, 56072 Koblenz, im Ortsteil Metternich, während Slug und Seed den
+Ortsteil Lützel nennen. Belege sind die Betreiber-Website mit Impressum und Kontakt sowie das
+Verzeichnis 11880, das Adresse und Rufnummer deckungsgleich führt; E-Mail und Öffnungszeiten
+stammen nur von der Betreiberseite. Der Betrieb ist als Einzelunternehmen ohne Registereintrag
+geführt. Offen bleibt die Beleglage: eine zweite unabhängige Quelle für Identität, Adresse und
+Kontaktdaten fehlt ebenso wie ein Eintrag im amtlichen Fachbetrieberegister, und für Ankauf,
+Verkauf und Gebühren sind keine Zahlen belegt.
 
 ## Timeline
 

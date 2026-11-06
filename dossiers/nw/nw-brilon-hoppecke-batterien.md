@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HOPPECKE Batterien GmbH & Co. KG ist ein Hersteller industrieller Blei- und
+Lithium-Ionen-Batterien in der Bontkirchener Straße 1, 59929 Brilon; eine Schrottannahme
+ist nicht belegt, die Batterierücknahme erfolgt nur über den Service im B2B-Bereich. Das
+Impressum der Betreiberseite führt den Sitz der Accumulatorenwerke HOPPECKE Carl Zoellner
+& Sohn GmbH mit HRB 3989 Amtsgericht Arnsberg, drei Managementsystem-Zertifikate der
+GUTcert bestätigen Organisation und Standort. Offen bleibt die Abgrenzung: Das amtliche
+Fachbetrieberegister führt an derselben Adresse eine Anerkennung der Metallhütte Hoppecke
+GmbH & Co. KG mit HRA 4169, also eines anderen Rechtsträgers, die nicht übernommen wurde.
+Eine Anerkennung nach der AltfahrzeugV ist im Register nicht ausgewiesen.
 
 ## Timeline
 

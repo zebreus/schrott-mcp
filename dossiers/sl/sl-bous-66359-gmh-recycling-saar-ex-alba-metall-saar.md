@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+GMH Recycling Saar GmbH ist die 1974 gegründete, im August 2024 von der GMH Gruppe übernommene
+frühere ALBA Metall Saar GmbH, ein Großhändler für Nichteisenmetalle und legierte Schrotte im
+saarländischen Schrott- und Metallhandel, mit Sitz in Bous an der Saarstraße 1, 66359. Belege
+sind die Pressemitteilung der GMH Gruppe vom 15.08.2024 mit Vertragsschluss am 24.07.2024, das
+Registerprofil zum Amtsgericht Saarbrücken mit HRB 15556 und das Standortprofil der Gruppe, das
+Bous als GMH-Recycling-Standort führt. Offen bleiben Rechtsträger und Anschrift: die für 2025
+erwartete Verschmelzung ist nicht belegt, ein eigenes Standortprofil GMH Recycling Saar GmbH
+existiert nicht, und ob die Saarstraße 1 noch genutzt wird, bleibt ungeklärt. In OpenStreetMap
+trägt die Hausnummer 1 keinen Betriebsnamen, Preise sind nicht veröffentlicht.
 
 ## Timeline
 

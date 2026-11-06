@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel B. Jennebach, Lemgo: Schrotthandel im Umfeld der Familie Jennebach, dessen
+Beleglage ausschließlich auf einem nicht abrufbaren Verzeichnis-Lead beruht. Ein Suchtreffer
+nennt Lüttfeld 13a, 32657 Lemgo samt Mobilnummer und E-Mail-Adresse, der Direktabruf der
+Seite scheitert jedoch wiederholt an einer Sperre, sodass weder Inhabername noch Anschrift
+bestätigt sind. In OpenStreetMap ist die Hausnummer 13a an der Straße Lüttfeld als
+Adressobjekt ohne Betriebsbezug geführt. Gleichnamige Betriebe aus Salzgitter und
+Osnabrück sind ausdrücklich nicht gleichzusetzen, ebenso wenig der Lemgoer
+Vergleichsbetrieb Der Schrottprofi. Offen bleiben damit Name des Inhabers, aktuelle
+Anschrift, Rufnummer, E-Mail-Adresse, Website sowie die Abhol- und Annahmebedingungen.
 
 ## Timeline
 

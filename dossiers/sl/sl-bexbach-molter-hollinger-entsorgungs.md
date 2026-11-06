@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Molter-Hollinger Entsorgungs GmbH ist ein Entsorgungsfachbetrieb mit Betriebsstätte in der
+Kleinottweilerstraße 86, 66450 Bexbach und Hauptsitz Wielandstraße 28, 66459 Kirkel, mit der
+Rufnummer 06826 524333; das Angebot umfasst Container von 3 bis 33 Kubikmetern,
+Schrottrecycling und die Entsorgung von Asbest, Bauschutt, Holz und Sondermüll. Die Identität
+tragen das Efb-Zertifikat "23-AB-0056_2026" der TÜV Saarland mit Prüfdatum 03.03.2026, gültig
+bis 11.05.2027, das die Betriebsstätte amtlich führt und Lagern, Behandeln und Sammeln mit
+Abfallschlüsseln für Eisen und Stahl sowie gemischte Metalle zertifiziert, ferner das Impressum
+und das Verzeichnis dasoertliche.de. Offen bleiben die Registerangaben, da die Vorwellen das
+Amtsgericht Saarbrücken nannten, das Zertifikat aber Homburg, und die Einstufung als
+Schrotthändler; Ankaufpreise werden nicht veröffentlicht.
 
 ## Timeline
 

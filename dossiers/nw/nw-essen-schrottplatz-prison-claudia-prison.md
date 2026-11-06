@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottplatz Prison (Claudia Prison) ist ein Schrott- und Metallgroßhandel in der
+Hövelstraße 254, 45356 Essen, der Kabelschrott, Katalysatoren und NE-Metalle nimmt,
+Container stellt und Entsorgung anbietet sowie Schrott im ganzen Ruhrgebiet abholt. Das
+Impressum der Betreiberseite nennt das Einzelunternehmen Claudia Prison-Kramer ohne
+Registernummer, vier kongruente Verzeichnisleads bestätigen Anschrift, Rufnummer und
+Mailadresse. Die Koordinate ist auf das adressgenaue OSM-Objekt way/49219240 mit der
+Hausnummer 254 gestützt, und der nahegelegene Knoten Schrotthandel Prison mit der
+Flächennutzung scrap_yard verortet Betrieb und Anschrift auf demselben Grundstück. Offen
+bleibt die Beleglage, da ein zweiter unabhängiger Beleg für die Kontaktdaten fehlt und die
+Preisangabe nur über das Essener Büro erfolgt.
 
 ## Timeline
 

@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Eintrag Golz Mülheim-Kärlich führt einen Metallrecyclingbetrieb in Mülheim-Kärlich, dessen
+einzige Adressangabe das Seed-Fragment Goethestr. 29A ist. Belastbar ist diese Anschrift nicht:
+auf der Goethestraße existiert in OpenStreetMap die Nummer 29 ohne Buchstaben, eine Nummer 29A
+oder 29a kommt dort nicht vor, und das Objekt trägt keine Namens- oder Betreiberangabe. Ein
+Objekt, das den Betrieb selbst nennt, existiert im geprüften Raster nicht, ebenso wenig eines
+mit Bezug zu Schrott oder Metall. Die Domain-Kandidatin metallhandelgolz.de löst sich nicht
+mehr auf und hat keinen Archivstand, ein Branchenverzeichnis führt in der Region keinen
+passenden Schrottbetrieb. Offen bleiben Betreiberidentität, Anschrift und Ankaufstatus, PLZ und
+Telefon fehlen, und für Ankauf, Verkauf und Gebühren ist nichts belegt.
 
 ## Timeline
 
