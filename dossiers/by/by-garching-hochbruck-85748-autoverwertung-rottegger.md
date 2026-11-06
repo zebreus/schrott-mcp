@@ -48,3 +48,9 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=85748%20Garching-Hochbr%C3%BCck%2C%20Deutschland%3B11.6025953%3B48.2467070%3B11.6025953%3B48.2467070%3B11.6025953%3B48.2467070&dst=5&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=85748%20Garching-Hochbr%C3%BCck%2C%20Deutschland%3B11.6025953%3B48.2467070%3B11.6025953%3B48.2467070%3B11.6025953%3B48.2467070&dst=10&is=1&e=1 ;
   https://www.autoverwertung-rottegger.de/impressum/ (Abruf 05.11.2026).]
+
+### Prüfung 06.11.2026
+
+- [Prüfung 06.11.2026: Der Eintrag wurde am 06.11.2026 gegen das amtliche Fachbetrieberegister (Route „Altfahrzeugverwertung“) nachgeprüft. Das Ergebnisfeld führt wörtlich „Autoverwertung Rottegger GmbH“, „Ingolstädter Landstraße 4, 85748 Garching-Hochbrück“, „ZAIS00100010 / 1“ - Vorgangsnummer, Bescheinigungsanlagennr. 1, Bezeichnung und Registeranschrift stimmen damit mit dem Eintrag überein. Für die Bescheinigung ist im Register **kein Zertifikats-PDF** hinterlegt; die Felder 3.1 Zertifikatsnummer, 3.3 Vorgangsnummer, 3.4 Anlagenzahl, 3.7 Gültigkeit, 6 Prüfungsdatum und 8 Ausstellungsdatum sind deshalb **nicht ausgewiesen** und werden nicht ergänzt.
+  Die im Eintrag genannte Adressdifferenz der Hausnummer (Register 4, Dossier 18, Impressum 4 bis 18) bleibt unverändert bestehen und ist weiterhin benannt. Der Eintrag bleibt **unverändert**.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20Rottegger%20GmbH&p=ZAIS00100010&fd=1 (Abruf 06.11.2026).]

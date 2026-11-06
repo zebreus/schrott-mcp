@@ -13,7 +13,7 @@ website: https://container-luepcke.de/
 website_status: aktiv
 status: aktiv
 description: Michael Lüpcke GmbH (HRB 203176 AG Oldenburg), Familienbetrieb in Wardenburg-Hundsmühlen, GF Meike Haferkamp seit 10.02.2026 - Entsorgungsfachbetrieb nach §56 KrWG (Zertifikat bregau zert BREG2000-06/25, Vorgang ZZDT001000418009, gültig bis 30.04.2027), zertifiziert für Eisen-/Nichteisenmetalle, Kupfer, Aluminium, Blei, Zink, Eisen und Stahl, gemischte Metalle und Kabel. Allgemeine Entsorgung umfasst Schrott und Metalle; die Annahmeliste auf dem Betriebshof nennt Metalle und E-Schrott ausdrücklich nicht.
-certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikat bregau zert BREG2000-06/25 (Vorgang ZZDT001000418009), ausgestellt 19.01.2026, gültig bis 30.04.2027"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (bregau zert GmbH Umweltgutachterorganisation, Mary-Astell-Straße 10, 28359 Bremen; Zertifikat BREG2000-06/25, Vorgangsnummer ZZDT001000418009; Prüfungsdatum 17.11.2025, Ausstellungsdatum 19.01.2026, gültig bis 30.04.2027; 3 Anlagen; Entsorgungsfachbetrieb Michael Lüpcke GmbH, Diedrich-Dannemann-Straße 35, 26203 Wardenburg-Hundsmühlen, HRB 203176 Registergericht Oldenburg (Oldenburg); Anlage 1 Sammeln, Befördern (Kennnummer nach § 28 NachwV C000159509), Anlage 2 Lagern (C6G3000009), Verwerten (ohne eigene Kennnummer), Anlage 3 Behandeln (C6G3000009), Verwerten (ohne eigene Kennnummer); alle drei Anlagen am Standort Diedrich-Dannemann-Straße 35, 26203 Wardenburg-Hundsmühlen)"]'
 clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
@@ -148,3 +148,11 @@ Der aktuelle, belegte Betrieb Michael Lüpcke GmbH sitzt in Wardenburg (HRB 2031
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1600,53.1000,8.2000,53.1200 ;
   https://api.openstreetmap.org/api/0.6/way/1174999689/full.json ; https://container-luepcke.de/impressum/ ;
   https://container-luepcke.de/wp-content/uploads/2026/01/EFB-Zertifikat-2026.pdf (Abruf 04.11.2026).]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Die Zertifikatseintragung war unvollständig: Ausstelleranschrift, Prüfungsdatum, Anlagenzahl, Rechtsträger und die Anlagen mit Tätigkeiten fehlten.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Permalink-Route des Detaildialogs, Abruf 06.11.2026) weist aus: Aussteller bregau zert GmbH Umweltgutachterorganisation, Mary-Astell-Straße 10, 28359 Bremen (1.1 bis 1.3); Zertifikatsnummer BREG2000-06/25 (3.1); Vorgangsnummer ZZDT001000418009 (3.3); 3 Anlagen (3.4); gültig bis 30.04.2027 (3.7); Rechtsträger Michael Lüpcke GmbH, Diedrich-Dannemann-Straße 35, 26203 Wardenburg-Hundsmühlen, HRB 203176 Registergericht Oldenburg (Oldenburg) (4.1 bis 4.4); Prüfungsdatum 17.11.2025 (6); Ausstellungsdatum 19.01.2026 (8). **Korrektur im Feld certifications:** der Eintrag ist um diese Felder ergänzt.
+  Alle drei Anlagen tragen den Dossierstandort Diedrich-Dannemann-Straße 35, 26203 Wardenburg-Hundsmühlen. Angekreuzt sind Anlage 1 Sammeln und Befördern (C000159509), Anlage 2 Lagern (C6G3000009) mit Verwerten ohne eigene Kennummer, Anlage 3 Behandeln (C6G3000009) mit Verwerten ohne eigene Kennummer. Die im Eintrag genannte Zertifikatsnummer, der Vorgang ZZDT001000418009 und das Ausstellungsdatum 19.01.2026 stimmen mit dem PDF überein; das Prüfungsdatum 17.11.2025 kam im Eintrag bislang nicht vor.
+  Der Eintrag endete mitten in einer offenen Klammer ✗ — ergänzt wurde die schließende Klammer ✓ (kein inhaltlicher Wert geändert ✓).
+  Der Eintrag endete mitten in einer offenen Klammer ✗ — ergänzt wurde die schließende Klammer ✓ (kein inhaltlicher Wert geändert ✓).
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=L%C3%BCpcke&p=ZZDT00100041&fd=1 ; https://container-luepcke.de/wp-content/uploads/2026/01/EFB-Zertifikat-2026.pdf (Abruf 06.11.2026).]
