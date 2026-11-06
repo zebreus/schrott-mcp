@@ -1,8 +1,14 @@
 {
   "version": 1,
+<<<<<<<< HEAD:scripts/release-delta-da3dac2-seed-expectations.json
   "release_commit": "da3dac2b7331f7dca47d553dd2655bffa29e824f",
   "release_tree": "e3af185b86fb3984a6a692da6e329e46b7d82cfd",
   "rehearsal_manifest_sha256": "b04aa912a822ce41ad37df6df404e20ed9955bc4cf02dc8a38839aa1430350a6",
+========
+  "release_commit": "0f2eb47a86d0d2f464ccfeba9f45113276d465fa",
+  "release_tree": "d82f3b2f88ec6ce2138419447b98adc4223d9ec5",
+  "rehearsal_manifest_sha256": "6bd5e0da4fe17816dce4f8eac6cee046a476779e0d922982ccbc88f89b941d2c",
+>>>>>>>> origin/rel12:scripts/release-delta-0f2eb47-seed-expectations.json
   "fields": [
     "name",
     "city",
@@ -56,7 +62,11 @@
     "nw-dusseldorf-ossenbuhl-schrotthandels"
   ],
   "scope": "exactly the 36 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+<<<<<<<< HEAD:scripts/release-delta-da3dac2-seed-expectations.json
   "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-da3dac2. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+========
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-0f2eb47. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+>>>>>>>> origin/rel12:scripts/release-delta-0f2eb47-seed-expectations.json
   "traders": [
     {
       "slug": "bw-albstadt-makowski-schrott",
