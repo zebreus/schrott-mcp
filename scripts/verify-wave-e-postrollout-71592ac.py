@@ -15,6 +15,7 @@ import re
 import sqlite3
 from pathlib import Path
 
+<<<<<<<< HEAD:scripts/verify-wave-e-postrollout-71592ac.py
 MANIFEST = Path(__file__).with_name("wave-e-71592ac-seed-expectations.json")
 HISTORICAL_MANIFEST = Path(__file__).with_name("wave-e-20261011-expectations.json")
 MANIFEST_SHA256 = "ee4e12c95ed082659ddb3ea81688141bee9f770debc064695b6f2968ea73f4ad"
@@ -22,6 +23,25 @@ HISTORICAL_MANIFEST_SHA256 = "871453ff9f2b54e262a93212c83e42788b29a82a6e2b05b187
 RELEASE_COMMIT = "71592acd0cae7e3d08ed8250d4b496b1aa719d41"
 RELEASE_TREE = "6894c6f97a0b92c74836be0c6252fb02c6edb8c0"
 REHEARSAL_MANIFEST_SHA256 = "551c25dafa29ea1420a077fb47900af7e638605306c32dfd7e1ce11a26bb4a6c"
+========
+<<<<<<<< HEAD:scripts/verify-wave-e-postrollout-da3dac2.py
+MANIFEST = Path(__file__).with_name("wave-e-da3dac2-seed-expectations.json")
+HISTORICAL_MANIFEST = Path(__file__).with_name("wave-e-20261011-expectations.json")
+MANIFEST_SHA256 = "ad21f5a567505fbf1bb4d7f1fd86195f750f2743d60d236ec9984f86b5a04344"
+HISTORICAL_MANIFEST_SHA256 = "871453ff9f2b54e262a93212c83e42788b29a82a6e2b05b1876300d74768787f"
+RELEASE_COMMIT = "da3dac2b7331f7dca47d553dd2655bffa29e824f"
+RELEASE_TREE = "e3af185b86fb3984a6a692da6e329e46b7d82cfd"
+REHEARSAL_MANIFEST_SHA256 = "b04aa912a822ce41ad37df6df404e20ed9955bc4cf02dc8a38839aa1430350a6"
+========
+MANIFEST = Path(__file__).with_name("wave-e-0f2eb47-seed-expectations.json")
+HISTORICAL_MANIFEST = Path(__file__).with_name("wave-e-20261011-expectations.json")
+MANIFEST_SHA256 = "6f97467b89be8dd3b43695d912b7f705f9be1e2639fd450fa9812b0876d98253"
+HISTORICAL_MANIFEST_SHA256 = "871453ff9f2b54e262a93212c83e42788b29a82a6e2b05b1876300d74768787f"
+RELEASE_COMMIT = "0f2eb47a86d0d2f464ccfeba9f45113276d465fa"
+RELEASE_TREE = "d82f3b2f88ec6ce2138419447b98adc4223d9ec5"
+REHEARSAL_MANIFEST_SHA256 = "6bd5e0da4fe17816dce4f8eac6cee046a476779e0d922982ccbc88f89b941d2c"
+>>>>>>>> origin/rel12:scripts/verify-wave-e-postrollout-0f2eb47.py
+>>>>>>>> origin/rel12:scripts/verify-wave-e-postrollout-da3dac2.py
 HISTORICAL_SELECTION_SHA256 = "c1260bbc4c4ba1cc7c7f7e3e6fb09227a9a7ce9e935bbe75bb26dff533646f03"
 FIELDS = (
     "name", "street", "postcode", "phone", "email", "opening_hours",
