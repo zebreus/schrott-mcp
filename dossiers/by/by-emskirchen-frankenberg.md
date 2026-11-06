@@ -15,7 +15,7 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat 120198071, Vorgangsnummer ZZHT003006587009; Prüfungsdatum 03.02.2026, Ausstellungsdatum 09.02.2026, gültig bis zum 11.07.2027; 6 Anlagen; Entsorgungsfachbetrieb Frankenberg-Metallrecycling GmbH, Industriestraße 1, 91448 Emskirchen, HRB 11345 Registergericht Fürth; Anlage 1 dem Standort Industriestraße 1, 91448 Emskirchen zugeordnet, Tätigkeit Sammeln, Befördern, Handeln, Makeln, Kennnummer nach § 28 NachwV I575T04443 (Sammeln, Befördern), I575H00052 (Handeln, Makeln); Anlage 2 gleicher Standort, Tätigkeit Lagern, Kennnummer I575S00023; Anlage 3 gleicher Standort, Tätigkeit Behandeln, Kennummer I575S00023; Anlage 4 gleicher Standort, Tätigkeit Lagern, Kennummer I575S00023; Anlage 5 gleicher Standort, Tätigkeit Behandeln, Kennummer I575S00023; Anlage 6 gleicher Standort, Tätigkeit Lagern, Behandeln, Kennummer I575S00023"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikat 120198071, Vorgangsnummer ZZHT003006587009; Prüfungsdatum 03.02.2026, Ausstellungsdatum 09.02.2026, gültig bis zum 11.07.2027; 6 Anlagen; Entsorgungsfachbetrieb Frankenberg-Metallrecycling GmbH, Industriestraße 1, 91448 Emskirchen, HRB 11345 Registergericht Fürth; Anlage 1 dem Standort Industriestraße 1, 91448 Emskirchen zugeordnet, Tätigkeit Sammeln, Befördern, Handeln, Makeln, Kennnummer nach § 28 NachwV I575T04443 (Sammeln, Befördern), I575H00052 (Handeln, Makeln); Anlage 2 gleicher Standort, Tätigkeit Lagern, Kennnummer I575S00023; Anlage 3 gleicher Standort, Tätigkeit Behandeln, Kennummer I575S00023; Anlage 4 gleicher Standort, Tätigkeit Lagern, Kennummer I575S00023; Anlage 5 gleicher Standort, Tätigkeit Behandeln, Kennummer I575S00023; Anlage 6 gleicher Standort, Tätigkeit Lagern, Behandeln, Kennummer I575S00023)"]'
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
 provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose
@@ -65,3 +65,8 @@ sowie die Öffnungszeiten, deren Kopfangabe ohne Tagesangabe bleibt.
   Anlagen: Anlage 1 Sammeln und Befördern mit Kennnummer nach § 28 NachwV `I575T04443` sowie Handeln und Makeln mit `I575H00052`, Anlage 2 Lagern mit `I575S00023`, Anlage 3 Behandeln mit `I575S00023`, Anlage 4 Lagern mit `I575S00023`, Anlage 5 Behandeln mit `I575S00023`, Anlage 6 Lagern und Behandeln mit `I575S00023`; alle sechs Anlagen tragen in Feld 1.1 bis 1.3 den Standorteintrag `Frankenberg-Metallrecycling GmbH`, `Industriestraße 1`, `91448 Emskirchen` und sind damit alle dem Dossierstandort zugeordnet.
   Ergänzend, ohne Änderung am Eintrag: Feld 5.1 weist zusätzlich Anlage 6 als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG aus, der Eintrag `certifications` behauptet diesen Status nicht.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Frankenberg&p=ZZHT00300658&fd=1 (Abruf 05.11.2026).]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 120198071 der DEKRA Certification GmbH für den Standort Industriestraße 1, 91448 Emskirchen endete der Eintrag ohne schließende Klammer; sie wurde angehängt.
+  Die sechs Anlagen mit Tätigkeiten und Kennnummern, der Hauptsitz und das Gültigkeitsdatum bleiben unverändert; kein inhaltlicher Wert wurde geändert.]

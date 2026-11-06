@@ -1,4 +1,5 @@
 ---
+
 slug: by-ansbach-edelhauser-wertstoffe
 name: Edelhäuser Wertstoffe GmbH
 trader_type: wertstoffhaendler
@@ -17,7 +18,7 @@ description: Edelhäuser-Gruppe in Ansbach (Edelhäuser Rohstoffe GmbH, Naglerst
   Wertstoffhof Ansbach in der Adalbert-Pilipp-Straße 48.
 dropoff_json: ''
 pickup_json: ''
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München; Zertifikat 12 150 8123, Vorgangsnummer ZZIT007003085010; Prüfungsdatum 24.11.2025, Ausstellungsdatum 09.01.2026, gültig bis zum 22.05.2027; 7 Anlagen; Entsorgungsfachbetrieb Edelhäuser Wertstoffe GmbH, Hauptsitz Am Igelsbach 11, 91541 Rothenburg, HRB 1710 Registergericht Ansbach; Anlage 5 dem Standort Adalbert-Pilipp-Str. 48, 91522 Ansbach (Wertstoffhof Ansbach) zugeordnet, Tätigkeit Sammeln, Lagern, Kennnummer nach § 28 NachwV I571T02199 (Sammeln), I571W10071 (Lagern); Anlage 6 gleicher Standort, Tätigkeit Befördern, Kennnummer I571T02199; Anlage 7 gleicher Standort, Tätigkeit Behandeln, Kennummer I571W10071; Anlagen 1-4 NICHT übernommen (Standort Am Igelsbach 11, 91541 Rothenburg); ADRESSDIFFERENZ: der im Dossier geführte street „Naglerstr. 1, 91522 Ansbach“ ist selbst NICHT Standort dieser Anlagen"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München; Zertifikat 12 150 8123, Vorgangsnummer ZZIT007003085010; Prüfungsdatum 24.11.2025, Ausstellungsdatum 09.01.2026, gültig bis zum 22.05.2027; 7 Anlagen; Entsorgungsfachbetrieb Edelhäuser Wertstoffe GmbH, Hauptsitz Am Igelsbach 11, 91541 Rothenburg, HRB 1710 Registergericht Ansbach; Anlage 5 dem Standort Adalbert-Pilipp-Str. 48, 91522 Ansbach (Wertstoffhof Ansbach) zugeordnet, Tätigkeit Sammeln, Lagern, Kennnummer nach § 28 NachwV I571T02199 (Sammeln), I571W10071 (Lagern); Anlage 6 gleicher Standort, Tätigkeit Befördern, Kennnummer I571T02199; Anlage 7 gleicher Standort, Tätigkeit Behandeln, Kennummer I571W10071; Anlagen 1-4 NICHT übernommen (Standort Am Igelsbach 11, 91541 Rothenburg); ADRESSDIFFERENZ: der im Dossier geführte street „Naglerstr. 1, 91522 Ansbach“ ist selbst NICHT Standort dieser Anlagen)"]'
 provenance_section: 'Neu: nur Register-Beleg (Ankauf unklar, keine prüfbare Website)'
 provenance_ankauf_raw: ''
 provenance_origin: table
@@ -26,7 +27,6 @@ provenance_origin: table
 # Edelhäuser Wertstoffe GmbH
 
 ## Überblick
-
 Edelhäuser Wertstoffe GmbH, Am Igelsbach 11-13, 91541 Rothenburg o. d. Tauber, Amtsgericht
 Ansbach HRB 1710, Geschäftsführung Oliver und Sieglinde Edelhäuser: Entsorgungsfachbetrieb der
 Edelhäuser-Gruppe, während die im Dossier geführte Anschrift Naglerstraße 1, 91522 Ansbach, zur
@@ -84,3 +84,8 @@ dort Material angekauft wird.
   nicht nötig. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Edelh%C3%A4user&p=ZZIT00700308&fd=1
   ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Edelh%C3%A4user
   (Abruf 06.11.2026).]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der TÜV SÜD (Zertifikat 12 150 8123) für den Standort Naglerstr. 1, 91522 Ansbach endete mitten im Satz; die schließende Klammer wurde ergänzt.
+  Prüfungsdaten, Anlagenzahl und der ausdrückliche Vermerk, dass die im Dossier geführte Anschrift selbst kein Anlagenstandort ist, bleiben unverändert; kein inhaltlicher Wert wurde geändert.]

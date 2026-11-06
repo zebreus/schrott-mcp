@@ -18,7 +18,7 @@ pickup_json: ''
 provenance_section: 'Audit 7 Feedback #6578'
 provenance_ankauf_raw: unklar
 provenance_origin: feedback
-certifications: '["Demontagebetrieb nach AltfahrzeugV (Fachbetrieberegister, Zertifikatsnummer ZAHS01800066, Registerstand 11.08.2026)"]'
+certifications: '["Demontagebetrieb nach AltfahrzeugV (amtliches Fachbetrieberegister, Route „Altfahrzeugverwertung“, Abruf 06.11.2026; Ergebnisfeld wörtlich „Autoverwertung Peter Huber Inhaber Peter Huber“, „Breslauer Weg 119, 82538 Geretsried“, „ZAHS01800066 / 1“: Vorgangsnummer ZAHS01800066 in der Rasterform des Ergebnisrasters und Bescheinigungsanlagennr. 1; ein Zertifikats-PDF ist im Register nicht hinterlegt, daher sind die Felder 3.1 Zertifikatsnummer, 3.3 Vorgangsnummer, 3.4 Anlagenzahl, 3.7 Gültigkeit, 6 Prüfungsdatum und 8 Ausstellungsdatum nicht ausgewiesen)"]'
 ---
 
 # Autoverwertung Peter Huber
@@ -133,3 +133,9 @@ Der vorhandene Dossier-Eintrag `by-moosburg-huber-recycling.md` betrifft die Hub
   https://autoverwertung-huber.de/impressum/ ;
   https://schrottregister.pages.dev/betrieb-autoverwertung-peter-huber-inhaber-peter-huber-geretsried
   (live abgerufen 05.11.2026).]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Der Eintrag nannte die Rasterform des Ergebnisrasters als „Zertifikatsnummer“ und stützte sich auf einen Dritt-Spiegel.** Belegt war bis hierher nur der veraltete Spiegel `schrottregister.pages.dev` (Auszug 11.08.2026), der nach der Quellenhierarchie **kein** Beleg ist. Das amtliche Fachbetrieberegister (Route „Altfahrzeugverwertung“, Abruf 06.11.2026) führt den Betrieb wörtlich als „Autoverwertung Peter Huber Inhaber Peter Huber“, „Breslauer Weg 119, 82538 Geretsried“, „ZAHS01800066 / 1“.
+  **Korrigiert:** ZAHS01800066 ist die Vorgangsnummer in der Rasterform des Ergebnisrasters (Spalte „Zertifikat / Bescheinigung bzw. Standortanlage“), **nicht** die Zertifikatsnummer nach Feld 3.1; der Eintrag nennt sie jetzt als Vorgangsnummer mit Bescheinigungsanlagennr. 1 und weist aus, dass im Register kein Zertifikats-PDF hinterlegt ist und die Felder 3.1, 3.3, 3.4, 3.7, 6 und 8 deshalb **nicht ausgewiesen** sind. Firmierung, Anschrift und Standort stimmen mit dem Dossier überein; der Eintrag bleibt inhaltlich unverändert, nur die Bezeichnung und die Belegquelle wurden berichtigt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20Peter%20Huber%20Inhaber%20Peter%20Huber&p=ZAHS01800066&fd=1 (Abruf 06.11.2026).]

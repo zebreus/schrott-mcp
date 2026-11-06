@@ -1,4 +1,5 @@
 ---
+
 slug: by-bogen-furth-carnuth-metallrecycling
 name: Carnuth KG Metallrecycling
 trader_type: metallhaendler
@@ -15,7 +16,7 @@ status: unbekannt
 description: ''
 dropoff_json: ''
 pickup_json: ''
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden; Zertifikat K1008-20260615-Efb-de, Vorgangsnummer ZZHT004003941014; Prüfungsdatum 31.03.2026, Ausstellungsdatum 15.06.2026, gültig bis zum 30.09.2027; 7 Anlagen; Entsorgungsfachbetrieb H. Carnuth KG, Hauptsitz Sachsenring 23, 94315 Straubing, HRA 1404 Registergericht Straubing; Anlage 4 dem Standort Industriestraße 16, 94327 Bogen zugeordnet, Tätigkeit Sammeln, Befördern, Kennnummer nach § 28 NachwV I263T00705; Anlage 5 gleicher Standort, Tätigkeit Lagern, Kennnummer I278W10023; Anlage 6 gleicher Standort, Tätigkeit Behandeln, Kennummer I278W10023; Anlage 7 gleicher Standort, Tätigkeit Behandeln, Kennummer I278W10023; Anlagen 1-3 NICHT übernommen (zweiter Standort Sachsenring 23, 94315 Straubing)"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden; Zertifikat K1008-20260615-Efb-de, Vorgangsnummer ZZHT004003941014; Prüfungsdatum 31.03.2026, Ausstellungsdatum 15.06.2026, gültig bis zum 30.09.2027; 7 Anlagen; Entsorgungsfachbetrieb H. Carnuth KG, Hauptsitz Sachsenring 23, 94315 Straubing, HRA 1404 Registergericht Straubing; Anlage 4 dem Standort Industriestraße 16, 94327 Bogen zugeordnet, Tätigkeit Sammeln, Befördern, Kennnummer nach § 28 NachwV I263T00705; Anlage 5 gleicher Standort, Tätigkeit Lagern, Kennnummer I278W10023; Anlage 6 gleicher Standort, Tätigkeit Behandeln, Kennummer I278W10023; Anlage 7 gleicher Standort, Tätigkeit Behandeln, Kennummer I278W10023; Anlagen 1-3 NICHT übernommen (zweiter Standort Sachsenring 23, 94315 Straubing))"]'
 provenance_section: 'Neu: Website vorhanden, Ankauf unklar (9)'
 provenance_ankauf_raw: ''
 provenance_origin: table
@@ -24,7 +25,6 @@ provenance_origin: table
 # Carnuth KG Metallrecycling
 
 ## Überblick
-
 Metallrecyclingwerk der H. Carnuth KG in Bogen/Furth, getrennt vom Stahlrecyclingwerk Straubing am Sachsenring 23. Das neue Straubinger Dossier ist ein zweiter Standort derselben Gesellschaft, keine Dublette dieses Hofes. Konkrete Privatannahme, Vergütung und verbindliche Zeiten bleiben zu klären.
 
 ## Timeline
@@ -66,3 +66,8 @@ Metallrecyclingwerk der H. Carnuth KG in Bogen/Furth, getrennt vom Stahlrecyclin
   `certifications` am PDF belegt; eine Korrektur war nicht nötig. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Carnuth&p=ZZHT00400394&fd=1
   ; https://www.carnuth.de/wp-content/uploads/2025/07/Deckblatt-2025-EfbV-_-H.-Carnuth-K.G.-.pdf
   (Abruf 06.11.2026).]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der PÜG (Zertifikat K1008-20260615-Efb-de) für den Standort Industriestraße 16, 94327 Bogen war nicht vollständig lesbar; die schließende Klammer wurde ergänzt.
+  Die Anlagen 4 bis 7, der Hinweis auf die nicht übernommenen Anlagen 1 bis 3 in Straubing sowie Zertifikats- und Vorgangsnummer bleiben unverändert; kein inhaltlicher Wert wurde geändert.]

@@ -18,7 +18,7 @@ pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
 provenance_ankauf_raw: unklar
 provenance_origin: table
-certifications: '["Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZST00200142 (Registerstand 11.08.2026); zertifizierte Tätigkeiten Lagern und Behandeln"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (Ingenieurbüro Ulbricht GmbH, Albert-Schweitzer-Str. 22, 09648 Mittweida; Zertifikat 801.0244/26, Vorgangsnummer ZZST002001428009, gültig bis zum 02.09.2027, Prüfungsdatum 03.03.2026, Ausstellungsdatum 06.05.2026; 3 Anlagen; Rechtsträger Stirling-Industrie Rohstoff & Recycling GmbH, Diebach 67, 91413 Neustadt a. d. Aisch, HRB 9487 Registergericht Fürth; alle Anlagen 1 bis 3 am Standort Diebach 67, 91413 Neustadt a. d. Aisch: Anlage 1 Sammeln und Befördern (Kennnummer nach § 28 NachwV I575T04616) sowie Handeln und Makeln (I575H00025), Anlage 2 Lagern (I575S00050) sowie Verwerten und Beseitigen (ohne eigene Kennnummer), Anlage 3 Behandeln (I575S00050) sowie Verwerten und Beseitigen (ohne eigene Kennnummer))"]'
 ---
 
 # Stirling-Industrie Metallhandel
@@ -47,3 +47,11 @@ Suchindex der Betreiberhomepage nennt Stirling Industrie Rohstoff & Recycling Gm
 
 - Metall/Schrott (Site Cloudflare-geschützt, Inhalt nicht verifizierbar)
 - Adresse: Neustadt a.d. Aisch (Diebach 67)
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Der Eintrag nannte die Rasterform des Ergebnisrasters als „Zertifikatsnummer“ und führte nur zwei der drei Anlagen mit falscher Tätigkeitszuordnung.** ZZST00200142 ist die Vorgangsnummer in der Rasterform des Ergebnisrasters; das amtliche Zertifikats-PDF (öffentliche Permalink-Route des Fachbetrieberegisters, Abruf 06.11.2026) weist aus: 3.1 Nummer des Zertifikats **801.0244/26**, 3.3 Vorgangsnummer **ZZST002001428009**, 3.4 Das Zertifikat beinhaltet **3 Anlage(n)**, 3.7 gültig bis zum **02.09.2027**, 6. Prüfungsdatum **03.03.2026**, 8. Ausstellungsdatum **06.05.2026**.
+  **Korrigiert:** Der Eintrag nennt jetzt Zertifikatsnummer, vollständige Vorgangsnummer, Gültigkeitsdatum, beide Daten, Aussteller mit vollständiger Anschrift, Rechtsträger mit Registernummer und Registergericht sowie die drei Anlagen am Dossierstandort Diebach 67, 91413 Neustadt a. d. Aisch. **Tätigkeiten nach den Ankreuzfeldern des PDFs:** Anlage 1 Sammeln und Befördern (I575T04616) sowie Handeln und Makeln (I575H00025); Anlage 2 Lagern (I575S00050) sowie Verwerten und Beseitigen (ohne eigene Kennnummer); Anlage 3 Behandeln (I575S00050) sowie Verwerten und Beseitigen (ohne eigene Kennnummer). Die bisherige Angabe „zertifizierte Tätigkeiten Lagern und Behandeln“ war damit unvollständig und teilweise unzutreffend, weil Anlage 1 zusätzlich Sammeln, Befördern, Handeln und Makeln umfasst. **Weiter belegt:** 1.1 Name Ingenieurbüro Ulbricht GmbH, 1.2 Straße Albert-Schweitzer-Str. 22, 1.3 Postleitzahl 09648 Ort Mittweida; 4.1 Name Stirling-Industrie Rohstoff & Recycling GmbH, 4.2 Diebach 67, 4.3 Postleitzahl 91413 Ort Neustadt a. d. Aisch, 4.4 Registernummer HRB 9487 Registergericht Fürth.
+  Der Eintrag endete mitten in einer offenen Klammer ✗ — ergänzt wurde die schließende Klammer ✓ (kein inhaltlicher Wert geändert ✓).
+  Der Eintrag endete mitten in einer offenen Klammer ✗ — ergänzt wurde die schließende Klammer ✓ (kein inhaltlicher Wert geändert ✓).
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Stirling-Industrie%20Rohstoff%20%26%20Recycling%20GmbH&p=ZZST00200142&fd=1 (Abruf 06.11.2026).]

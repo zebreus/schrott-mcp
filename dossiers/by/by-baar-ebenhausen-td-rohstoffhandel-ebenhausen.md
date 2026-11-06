@@ -1,4 +1,5 @@
 ---
+
 slug: by-baar-ebenhausen-td-rohstoffhandel-ebenhausen
 name: TD Rohstoffhandel Ebenhausen GmbH & Co. KG
 trader_type: metallhaendler
@@ -15,7 +16,7 @@ status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berliner Allee 57, 40212 Düsseldorf; Zertifikat ESN 14-040521(26), Vorgangsnummer ZZEE003002950009; Prüfungsdatum 21.04.2026, Ausstellungsdatum 06.07.2026, gültig bis zum 30.09.2027; 7 Anlagen; Entsorgungsfachbetrieb TD Rohstoffhandel Ebenhausen GmbH & Co. KG, Äußerer Ring 60, 85107 Baar-Ebenhausen, HRB 7037 Registergericht Ingolstadt; Anlage 1 dem Standort Äußerer Ring 60, 85107 Baar-Ebenhausen zugeordnet, Tätigkeit Sammeln, Befördern, Kennnummer nach § 28 NachwV I186T00584; Anlage 2 gleicher Standort, Tätigkeit Lagern, Kennnummer I186S00064; Anlage 3 gleicher Standort, Tätigkeit Behandeln, Kennnummer I186S00064; Anlage 4 gleicher Standort, Tätigkeit Verwerten, Kennnummer I186S00064; Anlage 5 gleicher Standort, Tätigkeit Lagern, Kennnummer I186S00064; Anlage 6 gleicher Standort, Tätigkeit Behandeln, Kennnummer I186S00064; Anlage 7 gleicher Standort, Tätigkeit Handeln, Kennnummer I186H00048", "Altfahrzeugverwertung (amtliches Fachbetrieberegister, Route Altfahrzeugverwertung, Abfrage 04.11.2026): Grid-Zeile „ZAKS00200008 / 1“ für TD Rohstoffhandel Ebenhausen GmbH & Co. KG, Äußerer Ring 60, 85107 Baar-Ebenhausen (0,8 km); der Detaildialog dieser Zeile weist aus: „Vorgangsnummer ZZEE00300295“, „Zertifikatsanlagennr. 3“, „Kennnummer I186S0006“, „Bezeichnung der Firma TD Rohstoffhandel Ebenhausen GmbH & Co. KG“, „Adresse der Firma Äußerer Ring 60, 85107 Baar-Ebenhausen“, „Rücknahme für folgende Hersteller“ leer"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berliner Allee 57, 40212 Düsseldorf; Zertifikat ESN 14-040521(26), Vorgangsnummer ZZEE003002950009; Prüfungsdatum 21.04.2026, Ausstellungsdatum 06.07.2026, gültig bis zum 30.09.2027; 7 Anlagen; Entsorgungsfachbetrieb TD Rohstoffhandel Ebenhausen GmbH & Co. KG, Äußerer Ring 60, 85107 Baar-Ebenhausen, HRB 7037 Registergericht Ingolstadt; Anlage 1 dem Standort Äußerer Ring 60, 85107 Baar-Ebenhausen zugeordnet, Tätigkeit Sammeln, Befördern, Kennnummer nach § 28 NachwV I186T00584; Anlage 2 gleicher Standort, Tätigkeit Lagern, Kennnummer I186S00064; Anlage 3 gleicher Standort, Tätigkeit Behandeln, Kennnummer I186S00064; Anlage 4 gleicher Standort, Tätigkeit Verwerten, Kennnummer I186S00064; Anlage 5 gleicher Standort, Tätigkeit Lagern, Kennnummer I186S00064; Anlage 6 gleicher Standort, Tätigkeit Behandeln, Kennnummer I186S00064; Anlage 7 gleicher Standort, Tätigkeit Handeln, Kennnummer I186H00048)", "Altfahrzeugverwertung (amtliches Fachbetrieberegister, Route Altfahrzeugverwertung, Abfrage 04.11.2026): Grid-Zeile „ZAKS00200008 / 1“ für TD Rohstoffhandel Ebenhausen GmbH & Co. KG, Äußerer Ring 60, 85107 Baar-Ebenhausen (0,8 km); der Detaildialog dieser Zeile weist aus: „Vorgangsnummer ZZEE00300295“, „Zertifikatsanlagennr. 3“, „Kennnummer I186S0006“, „Bezeichnung der Firma TD Rohstoffhandel Ebenhausen GmbH & Co. KG“, „Adresse der Firma Äußerer Ring 60, 85107 Baar-Ebenhausen“, „Rücknahme für folgende Hersteller“ leer"]'
 provenance_section: 'Neu: Website-verifiziert, Ankauf ja (17)'
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -24,7 +25,6 @@ provenance_origin: table
 # TD Rohstoffhandel Ebenhausen GmbH & Co. KG
 
 ## Überblick
-
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 ## Timeline
@@ -67,3 +67,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=TD%20Rohstoffhandel&p=ZZEE00300295&fd=1
   ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=TD%20Rohstoffhandel
   (Abruf 06.11.2026).]
+
+### Korrektur 06.11.2026
+
+- [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat ESN 14-040521(26) der ESN für den Standort Äußerer Ring 60, 85107 Baar-Ebenhausen fehlte die schließende Klammer; sie wurde am Ende gesetzt.
+  Vorgangsnummer ZZEE003002950009, die sieben Anlagen mit ihren Kennnummern und das Gültigkeitsdatum 30.09.2027 bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
