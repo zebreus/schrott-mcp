@@ -17,27 +17,11 @@ import re
 import sqlite3
 from pathlib import Path
 
-<<<<<<<< HEAD:scripts/verify-release-delta-71592ac.py
 MANIFEST = Path(__file__).with_name("release-delta-71592ac-seed-expectations.json")
 MANIFEST_SHA256 = "ab12b2b5781dafb706bb38de0d6b0c0a3809253c4a732365d34bf117d683bac5"
 RELEASE_COMMIT = "71592acd0cae7e3d08ed8250d4b496b1aa719d41"
 RELEASE_TREE = "6894c6f97a0b92c74836be0c6252fb02c6edb8c0"
 REHEARSAL_MANIFEST_SHA256 = "551c25dafa29ea1420a077fb47900af7e638605306c32dfd7e1ce11a26bb4a6c"
-========
-<<<<<<<< HEAD:scripts/verify-release-delta-da3dac2.py
-MANIFEST = Path(__file__).with_name("release-delta-da3dac2-seed-expectations.json")
-MANIFEST_SHA256 = "126d7f97d8f0096729f797ec9ffc49023dfe008d9e1302ec0608123f9a8de7c9"
-RELEASE_COMMIT = "da3dac2b7331f7dca47d553dd2655bffa29e824f"
-RELEASE_TREE = "e3af185b86fb3984a6a692da6e329e46b7d82cfd"
-REHEARSAL_MANIFEST_SHA256 = "b04aa912a822ce41ad37df6df404e20ed9955bc4cf02dc8a38839aa1430350a6"
-========
-MANIFEST = Path(__file__).with_name("release-delta-0f2eb47-seed-expectations.json")
-MANIFEST_SHA256 = "cd3264653163082ea4cac60ebb1b63ddb2cfbc098ad78b73cdf63b4c86f759d9"
-RELEASE_COMMIT = "0f2eb47a86d0d2f464ccfeba9f45113276d465fa"
-RELEASE_TREE = "d82f3b2f88ec6ce2138419447b98adc4223d9ec5"
-REHEARSAL_MANIFEST_SHA256 = "6bd5e0da4fe17816dce4f8eac6cee046a476779e0d922982ccbc88f89b941d2c"
->>>>>>>> origin/rel12:scripts/verify-release-delta-0f2eb47.py
->>>>>>>> origin/rel12:scripts/verify-release-delta-da3dac2.py
 FIELDS = (
     "name", "city", "street", "postcode", "phone", "email", "opening_hours",
     "description", "status", "trader_type", "website", "website_status",
