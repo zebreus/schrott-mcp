@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Aram-Gold Edelmetallhandel (Aram Handel) betreibt in der Gerhard-Rohlfs-Straße 67, 28757
+Bremen-Vegesack einen Juwelierbetrieb mit Edelmetallankauf und Schmuck-Großhandel. Das
+Impressum der Betreiberseite führt die Gesellschaft als Aram-Handel GmbH mit Sitz an der
+Sagerstraße 35, 28757 Bremen und HRB 26897, die Postleitzahl ist über drei Verzeichnisse
+zusätzlich belegt. Offen bleibt, welche Adresse den Betrieb trägt, da die
+Standortanschrift in Vegesack nur aus dem Footer der Betreiberseite stammt. Im amtlichen
+Fachbetrieberegister ist für die Gerhard-Rohlfs-Straße 67 weder ein Eintrag als
+Entsorgungsfachbetrieb noch nach AltfahrzeugV gefunden worden; da beide Anerkennungen
+freiwillig sind, belegt das keinen Nichtbestand. Abweichende Öffnungszeiten zwischen
+Betreiberangabe und Verzeichnissen bleiben ungeklärt.
 
 ## Timeline
 

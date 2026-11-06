@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Ludwig Feix & Sohn GmbH ist ein Schrottbetrieb in Bexbach, dessen Dossier-Adresse die Obere
+Hochstraße 161 in Oberbexbach nennt und dessen im Titel geführte Nummer 33 im Widerspruch zu
+den Quellen steht. Die Branchenverzeichnisse schrottplatz.org und schrottplatz-info.de führen
+die Nummer 161 mit den Sorten Kupfer, Zinn, Zink, Aluminium, Messing, Edelstahl und Kabel sowie
+Entrümpelung, Demontage und Containerservice. In OpenStreetMap trägt die Nummer 161 kein
+Namens- oder Betreibermerkmal, die Firmierung ist dort unter Ludwig Feix BBV an der Nummer 182
+erfasst, 127 Meter entfernt, und die Nummer 33 trägt eine Bäckerei. Offen bleibt die
+Adressfrage zwischen 161 und 182, ohne Betreiber-Website nicht entscheidbar: die Domain
+schrottentsorgung-feix.de löst sich nicht mehr auf, Angaben zu Registernummer und Rufnummern
+stammen nur aus einem Verzeichnis, und Preise sind nicht belegt.
 
 ## Timeline
 

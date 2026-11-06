@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Alteisen Hoss, Nettetal: Schrott-, Edelmetall- und Elektronikschrott-Annahme mit
+Fahrzeugentsorgung und Entrümpelung, belegt allein über einen Verzeichniseintrag zur
+Anschrift Kindt 126 im Ortsteil Schaag sowie einen gesperrten Facebook-Auftritt. Das amtliche
+Fachbetrieberegister führt für Nettetal genau einen anerkannten Betrieb, die Leven
+Nutzfahrzeuge GmbH & Co. KG an der Leuther Straße; für Alteisen Hoss oder Hoss ergibt
+sich in beiden Registerrouten und bei der Standortsuche in drei Radien kein Eintrag, was ein
+Negativbefund innerhalb der Registerabdeckung und kein Nachweis der Nichtexistenz ist. Ein
+zweiter unabhängiger Beleg fehlt, und die Koordinate des Datensatzes liegt im Ortsteil Leuth
+rund 5,9 Kilometer von der belegten Anschrift entfernt. Offen bleiben die Bestätigung von
+Name und Standort, die ungeklärte Ortslage sowie sämtliche Kontaktdaten.
 
 ## Timeline
 

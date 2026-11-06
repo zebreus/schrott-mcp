@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+FP Putzke Recycling GmbH, Am Ringofen 13, 58089 Hagen: Recyclingbetrieb mit Annahme und
+Bewertung von Metallen für Privat- und Gewerbekunden. Das Betreiberimpressum nennt die
+Geschäftsführer Frank und Marcel Putzke sowie HRB 9264 Amtsgericht Hagen; der aktuelle
+Registerabdruck des Amtsgerichts Hagen bestätigt Firma, Anschrift, Geschäftszweck und
+Geschäftsführung, womit die Identität unabhängig belegt ist. In OpenStreetMap ist
+die Hausnummer 13 der Straße Am Ringofen als Adressobjekt geführt, ein Objekt mit
+Betriebsbezug auf die Firma gibt es dort nicht; der gesetzte Punkt bezeichnet damit die
+belegte Anschrift und keine verifizierte Zufahrt, Waage oder Annahmefläche. Offen bleiben
+die Öffnungszeiten und ein Standortnachweis über die Adresse hinaus.
 
 ## Timeline
 

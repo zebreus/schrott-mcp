@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+MM Schrotthandel ist ein Metallhändler in der Adolf-Reichwein-Straße 22b, 33615 Bielefeld,
+der Buntmetalle, Container und die Abholung mit Ladekran anbietet. Das Impressum der
+Betreiberseite nennt Inhaber Martin Mechtold, die Umsatzsteuer-Identnummer DE325582679 und
+das Gewerberegister Bielefeld 00674, der Registerspiegel führt die Gesellschaft unter HRA
+17585 an derselben Anschrift. Die Kontaktseite kennzeichnet die Adresse ausdrücklich als
+reine Büroadresse, eine Anlieferstelle ist dort nicht belegt. Offen bleibt die Beleglage,
+denn Rufnummer und Mailadresse stammen aus einer einzigen Betreiberquelle und ein zweiter
+unabhängiger Beleg fehlt. Im amtlichen Fachbetrieberegister ist für den Standort kein
+Eintrag als Entsorgungsfachbetrieb gefunden worden, eine Anerkennung nach der AltfahrzeugV
+ist ebenfalls nicht ausgewiesen.
 
 ## Timeline
 

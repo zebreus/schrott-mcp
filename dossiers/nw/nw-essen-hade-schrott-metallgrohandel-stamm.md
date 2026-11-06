@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Häde Schrott- und Metallgroßhandel ist eine Seed-Zeile, deren Betrieb und Anschrift nicht
+geklärt sind; die Adresszeile Essen Heßlerstr. 77 ist formal fehlerhaft und die
+Postleitzahl fehlt. Zu trennen sind mindestens drei Entitäten: die Häde Recycling GmbH mit
+René Häde an der Alten Bottroper Straße 120 in Essen, deren Register- und
+Umsatzsteuerfelder nur Platzhalter tragen, ein Verzeichniseintrag mit derselben Rufnummer
+an der Kraienbruch 107 in Essen und ein zweiter Eintrag an der Frillendorfer Straße 148,
+wo heute ein Baumarkt sitzt. Die Recherche vom 02.10.2026 belegt, dass die Heßlerstraße 77
+aktuell von der Metallion GmbH betrieben wird, ohne Häde-Bezug, und die Hausnummer 77
+fehlt zudem in OSM. Offen bleibt die Zuordnung, welche Entität der Seed-Datensatz
+abbildet; eine Koordinate wurde nicht gesetzt, Ankaufspreise sind nicht belegt.
 
 ## Timeline
 

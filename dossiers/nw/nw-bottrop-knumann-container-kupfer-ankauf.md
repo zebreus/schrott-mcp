@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Knümann Entsorgungs GmbH ist ein Entsorgungsbetrieb in der Werkstraße 4, 46240 Bottrop,
+der neben Schrott- und Metallankauf und Kupferankauf einen Containerdienst mit
+Wertstoffhof, Waage und Containerstellung betreibt. Das Betreiber-Impressum nennt die
+Geschäftsführer Marcel und Jens Nisters mit HRB 19220 Amtsgericht Gelsenkirchen, eine
+zweite Domain des Betriebs führt die Leistungen Metallhandel, Schrotthändler und
+Kupferankauf. Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG
+mit dem Zertifikat 2603021-1 der ENVIZERT, gültig bis zum 15.08.2027, vier Anlagen sind
+dem Standort zugeordnet. Offen bleibt eine Anerkennung nach der AltfahrzeugV, für die das
+Register am Standort keinen Treffer ausweist, sowie die Abgrenzung zu einem anderen
+Rechtsträger, der an derselben Anschrift zertifiziert ist.
 
 ## Timeline
 

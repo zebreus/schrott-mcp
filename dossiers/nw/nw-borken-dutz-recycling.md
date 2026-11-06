@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Dutz Recycling GmbH ist ein Metallhändler in der Hansestraße 25, 46325 Borken, der Schrott
+und Buntmetalle an- und verkauft und Container bereitstellt. Das Impressum der
+Betreiberseite nennt die Gesellschaft mit HRB 10543 Amtsgericht Coesfeld, die Anlage
+Ramsdorfer Postweg 8 gehört nach Kreuzbeleg zu einem anderen Betrieb. Amtlich belegt ist
+die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG mit dem Zertifikat 120897475 der
+DEKRA Certification GmbH, gültig bis zum 25.11.2027, vier Anlagen sind dem Standort
+zugeordnet, zwei davon sind zertifizierte Erstbehandlungsanlagen nach § 21 ElektroG.
+Ebenfalls amtlich belegt ist die Anerkennung als Demontagebetrieb nach der AltfahrzeugV
+mit der Kennnummer E55400910. Offen bleibt die Firmierung, denn als Zertifikatsinhaber ist
+im Register eine andere Gesellschaft mit derselben Anschrift und Kontaktdaten eingetragen.
 
 ## Timeline
 

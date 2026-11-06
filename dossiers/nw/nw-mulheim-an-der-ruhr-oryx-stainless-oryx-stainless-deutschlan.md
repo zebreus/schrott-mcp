@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Oryx Stainless AG, Rheinstraße 97, 45478 Mülheim an der Ruhr: Edelstahl- und legierter
+Schrotthandel mit eigenem Standort, geführt als B2B-Geschäft. Die Identität tragen die
+Standortseite der Betreiberdomain, das Impressum mit HRB 17177 Amtsgericht Duisburg und ein
+kongruenter Registerspiegel mit derselben Anschrift. Für den Standort selbst sind im
+Dossier weder Öffnungszeiten noch lokale Annahme- oder Preisaussagen dokumentiert. Offen
+bleiben damit der Umfang der am Standort abgegebenen Stoffe, ein öffentlicher Ankaufkurs,
+die Öffnungszeiten und die fehlende Standortkoordinate.
 
 ## Timeline
 

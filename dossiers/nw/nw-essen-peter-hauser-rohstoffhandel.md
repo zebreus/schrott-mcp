@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Peter Häuser Rohstoffhandel ist ein Einzelunternehmen, das Schrott und Metall handelt,
+Container bereitstellt, Entrümpelung und Kleinabbrüche übernimmt und als Betriebsgelände
+die Ripshorsterstraße 370, 45357 Essen ausweist, während das Impressum die Rechtsanschrift
+Einbleckstraße 3, 46117 Oberhausen nennt. Offen bleibt damit die Sitz- und
+Betriebsdivergenz zwischen Essen und Oberhausen. Die Beleglage ist eine
+Betreiber-Einzelquelle, da nur eine Steuernummer und kein Registereintrag vorliegen und
+ein zweiter unabhängiger Beleg fehlt; Rufnummer, Mailadresse und Öffnungszeiten blieben
+deshalb im Frontmatter leer. Die Hausnummer 370 fehlt in OSM, weshalb keine Koordinate
+gesetzt wurde. Ankaufspreise, Verkaufspreise und Gebühren werden nicht veröffentlicht.
 
 ## Timeline
 

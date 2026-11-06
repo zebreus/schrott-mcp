@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Tremel ist ein als Schrott Tremel geführter Schrottbetrieb in der Wachtenburgstraße 9, 67065
+Ludwigshafen am Rhein, im Stadtteil Mundenheim, mit der Rufnummer 0621 5297052. Die
+Verzeichniseinträge nennen als Anschrift Flurstraße 9H, das Ratsinformationssystem der Stadt
+Ludwigshafen belegt die Umbenennung der Flurstraße in Wachtenburgstraße im Jahr 2022, und in
+OpenStreetMap tragen die Straßenways den alten Namen als "old_name". Die Hausnummer 9 ist dort
+belegt, ein Objekt, das den Betrieb selbst nennt, existiert jedoch nicht; ob die
+Verzeichnisangabe 9H dieselbe Liegenschaft wie die belegte Nummer 9 bezeichnet, ist nicht
+entscheidbar. Offen bleibt die Beleglage insgesamt dünn: ein Betriebsauftritt, ein Impressum,
+ein Registereintrag und ein Zertifikat fehlen, Website, Öffnungszeiten und E-Mail bleiben leer,
+und für Ankauf, Verkauf und Gebühren ist nichts belegt.
 
 ## Timeline
 

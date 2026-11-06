@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autos und Schrott Inh. Axel Jennebach, Döhrener Str. 31, 32469 Petershagen (Döhren):
+mobiler Altmaterial- und Schrotthandel als Einzelbetrieb. Die Beleglage besteht allein aus
+einem Verzeichniseintrag mit Branche, Anschrift und Mobilnummer; die Detailseite desselben
+Verzeichnisses zählt nicht als unabhängiger Zweitbeleg, eine E-Mail-Adresse, eine Website
+und Öffnungszeiten fehlen, und ein Register- oder Impressumsnachweis liegt nicht vor. In
+OpenStreetMap ist die Hausnummer 31 der Döhrener Straße als Gewerbeobjekt ohne Namen
+oder Betreiber geführt. Offen bleiben die Betreiberidentität, der heutige
+Geschäftsbetrieb, die Kontaktdaten sowie die Frage, ob neben Autos auch Metall und Schrott
+angekauft werden.
 
 ## Timeline
 

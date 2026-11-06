@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Der Koblenzer Goldankauf wird von den Betreiberseiten als Koblenzer Goldhandel mit Inhaber
+Christian Fachinger geführt, ein Einzelunternehmen für Ankauf und Verkauf von Gold, Silber,
+Platin, Palladium, Zahngold, Zinn sowie Anlagegold. Sitz ist die Schloßstraße 38, 56068
+Koblenz. Belege sind das Impressum mit Adresse und beiden Rufnummern, ein betreibergeführtes
+Kleinanzeigen-Profil sowie in OpenStreetMap das Adressobjekt zur Hausnummer 38 und zwei Meter
+entfernt ein Knoten mit dem Namen Koblenzer Goldankauf und dem Merkmal "gold_buyer". Preise
+werden nicht veröffentlicht, die Bewertung ist ausdrücklich kostenlos. Offen bleiben die
+E-Mail-Adresse, weil Kontakt- und Datenschutzseite unterschiedliche Adressen nennen und die
+abweichende Domain umleitet, und die im Impressum nicht ausgefüllte
+Umsatzsteuer-Identifikationsnummer; auch die Öffnungszeiten bleiben leer.
 
 ## Timeline
 

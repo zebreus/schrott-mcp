@@ -25,7 +25,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metallion GmbH ist ein Metallhändler in der Heßlerstraße 77, 45329 Essen, der NE-Metalle
+und Aluminium ankauft und die Annahme von privaten und gewerblichen Kunden von Montag bis
+Samstag zwischen 08:00 und 20:00 Uhr ausweist, bei kostenloser Abholung ab 500 Kilogramm
+mit mobiler Waage. Das Impressum der Betreiberseite nennt die Gesellschaft mit HRB 34136
+Amtsgericht Essen und den Geschäftsführer Ahmad Merhi, die Ankaufseite bestätigt die
+Annahme von privat und gewerblich. Offen bleibt der Standortnachweis, weil die Hausnummer
+77 auf der Heßlerstraße in OSM fehlt, die belegten Nummern springen von 65 auf 79 und kein
+Objekt den Betrieb benennt, weshalb keine Koordinate gesetzt wurde.
 
 ## Timeline
 

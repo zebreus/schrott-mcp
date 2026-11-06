@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoankauf Koblenz, Postleitzahlgebiet 56068: Fahrzeugankauf als reines
+Vermittlungsangebot ohne belegten Sitz in Koblenz. Ein Scan des gesamten Postleitzahlengebiets
+in OpenStreetMap findet dort kein Objekt mit Bezug zu Autoankauf, Schrott oder Autoverwertung;
+das einzige gleichnamige Objekt liegt an der Schillerstraße 9 in Urmitz und damit rund 8,3
+Kilometer vom Koblenzer Stadtzentrum entfernt, außerhalb des genannten Postleitzahlengebiets.
+Die live erreichbare Domain autoankauf-koblenz.de ist ein Orts-Marketing-Leadgenerator mit
+Bochumer Impressum, der Abholung in Dortmund nennt und Exportfahrzeuge vermarktet, ohne
+Registerangabe. Offen bleibt, ob der Dossier-Eintrag den Bochumer Anbieter oder den Urmitzer
+Betrieb meint; Preise werden nicht beziffert, zugesagt sind kostenlose Abholung, Bewertung
+und Abmeldung.
 
 ## Timeline
 

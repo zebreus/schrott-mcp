@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Recycling Bartikowsky, Inh. Angelo Bartikowsky, Sprakeler Str. 162, 48159 Münster:
+Schrott- und Metallhandel mit Containerdienst von 7 bis 40 Kubikmeter, Kran-LKW und
+Entsorgungsfachbetriebsstatus, mit Abholung im Münsterland und Industrie-Demontage.
+Betreiberseite und zwei Verzeichnisse bestätigen die Anschrift, die eigene Domain des
+Betriebs trägt Kontaktdaten und Öffnungszeiten; ein Registereintrag besteht nicht, da es
+sich um ein Einzelunternehmen handelt. Innerhalb der eigenen Auftritte widersprechen sich
+Fließtext und Footer bei Rufnummer und E-Mail-Adresse, wobei das Verzeichnis die Fassung des
+Footers stützt. Offen bleiben diese Abweichungen, eine einheitliche Kontaktangabe und die
+Standortkoordinate.
 
 ## Timeline
 

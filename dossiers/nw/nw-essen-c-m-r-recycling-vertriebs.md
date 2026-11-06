@@ -26,7 +26,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+C.M.R Recycling Vertriebs GmbH ist ein Schrottplatz in der Ripshorster Straße 386, 45357
+Essen, der Schrott und Metall handelt sowie an- und verkauft. Das Betreiber-Impressum
+nennt die Gesellschaft mit HRB 20522 Amtsgericht Essen und den Geschäftsführer Michael
+Scholl, der Registerspiegel bestätigt Rechtsträger, Anschrift und Handelsgegenstand. Die
+Koordinate ist auf das adressgenaue OSM-Objekt way/198663948 gestützt, das die Hausnummer
+386 und die Postleitzahl 45357 trägt, den Betrieb selbst benennt es jedoch nicht, sodass
+der Punkt die belegte Anschrift und keine verifizierte Waage oder Einfahrt bezeichnet.
+Offen bleibt damit der Nachweis einer konkreten Anlage am Standort.
 
 ## Timeline
 

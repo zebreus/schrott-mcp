@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autoverwertung Both GmbH ist ein von Daniel Both geführtes Autoverwertungsunternehmen in der
+Güterbahnhofstraße 18, 66740 Saarlouis-Roden, gegründet 1972 und in zweiter Generation geführt.
+Die Leistungen umfassen die kostenlose Verwertung von Altfahrzeugen mit gesetzlich gefordertem
+Verwertungsnachweis, den kostenlosen Abmeldeservice für Schrottfahrzeuge, einen
+Abschleppdienst, den Verkauf gebrauchter Originalersatzteile über einen eBay-Teileshop und den
+Ankauf von Unfallfahrzeugen bis zu einem Alter von zehn Jahren. Belege sind das Impressum mit
+Handelsregister HRB 109799 beim Amtsgericht Saarbrücken und Umsatzsteuer-Identifikationsnummer,
+das Registerprofil zu HRB 109799 sowie in OpenStreetMap ein Objekt mit Hausnummer 18, das den
+Betrieb als Auto Both nennt. Offen bleiben Telefonnummer und E-Mail, die nur auf der
+Betreiberseite stehen.
 
 ## Timeline
 

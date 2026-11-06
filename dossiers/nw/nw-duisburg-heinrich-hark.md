@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Heinrich Hark GmbH & Co. KG ist ein Schrottaufbereiter mit Filiale in der Sympherstraße
+96a in Duisburg, zertifizierter Hauptsitz ist laut Zertifikat die Hartmannstraße 5, 44147
+Dortmund. Das Betreiber-Impressum der Domain hark-hamm.de weist die Gesellschaft mit HRA
+19998 Amtsgericht Dortmund und die Zentrale in Dortmund aus, die Duisburger Filiale ist
+über die Standortseiten belegt. Amtlich belegt ist die Anerkennung als
+Entsorgungsfachbetrieb nach § 56 KrWG mit dem Zertifikat ESN 17-080553 (26) der ESN,
+gültig bis zum 31.08.2027, zwei Anlagen sind an der Duisburger Adresse erfasst. Offen
+bleibt die Adressdifferenz, weil das Register die Postleitzahl 47138 und das Dossier 47169
+nennt, und eine Anerkennung nach der AltfahrzeugV ist nicht ausgewiesen.
 
 ## Timeline
 
