@@ -12,18 +12,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.dont_write_bytecode = True
-<<<<<<<< HEAD:scripts/test_verify_release_delta_71592ac.py
 SCRIPT = Path(__file__).with_name("verify-release-delta-71592ac.py")
 SPEC = importlib.util.spec_from_file_location("release_delta_71592ac_verifier", SCRIPT)
-========
-<<<<<<<< HEAD:scripts/test_verify_release_delta_da3dac2.py
-SCRIPT = Path(__file__).with_name("verify-release-delta-da3dac2.py")
-SPEC = importlib.util.spec_from_file_location("release_delta_da3dac2_verifier", SCRIPT)
-========
-SCRIPT = Path(__file__).with_name("verify-release-delta-0f2eb47.py")
-SPEC = importlib.util.spec_from_file_location("release_delta_0f2eb47_verifier", SCRIPT)
->>>>>>>> origin/rel12:scripts/test_verify_release_delta_0f2eb47.py
->>>>>>>> origin/rel12:scripts/test_verify_release_delta_da3dac2.py
 VERIFIER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFIER)
 
