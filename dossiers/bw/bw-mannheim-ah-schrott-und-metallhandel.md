@@ -4,29 +4,32 @@ name: AH Schrott- und Metallhandel OHG
 trader_type: metallhaendler
 state: BW
 city: Mannheim
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
+street: 'Fruchtbahnhofstraße 13'
+postcode: '68159'
+phone: '0621 17895089'
+email: 'info@ah-schrotthandel.de'
+opening_hours: 'Mo-Fr 07:00-18:00, Sa 07:00-16:00'
 website: https://ah-schrotthandel.de
 website_status: 'aktiv'
 status: pruefung
-description: ''
+description: 'Betreiberauftritt und amtliches Efb-Zertifikat (ESN 19-010561(26), Vorgang ZZEE003002766008, gültig bis 30.06.2027) gehören zur AH GmbH Metall- und Schrotthandel, HRB 737082 AG Mannheim, Fruchtbahnhofstraße 13, 68159 Mannheim; der Dossiername nennt historisch die gelöschte OHG (HRA 702222), deren Übergang auf die GmbH nicht belegt ist. Leistungen: Containerdienst 3-40 m³, Metallschrott und Abfallrecycling, gebrauchte Haushaltsgeräte. ANKAUF: kein bezifferter Ankaufskurs veröffentlicht. VERKAUF: gebrauchte Haushaltsgeräte ohne Preistabelle. GEBÜHREN: keine Miet-, Transport- oder Entsorgungstarife veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Rhein-Neckar / Nordbaden
 provenance_ankauf_raw: ja
 provenance_origin: table
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abruf 06.11.2026): AH GmbH Schrott- und Metallhandel, Fruchtbahnhofstraße 13, 68159 Mannheim; Zertifikat ESN 19-010561(26) der ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berliner Allee 57, 40212 Düsseldorf; Vorgangsnummer ZZEE003002766008, 3 Anlagen; Prüfungsdatum 28.01.2026, Ausstellungsdatum 11.05.2026, gültig bis 30.06.2027; HRB 737082 Registergericht Mannheim; Anlage 1 Sammeln und Befördern, Anlage 2 Lagern, Anlage 3 Behandeln, jeweils am Standort Fruchtbahnhofstraße 13, 68159 Mannheim"]'
 ---
 
 # AH Schrott- und Metallhandel OHG
 
 ## Überblick
 
-Der aktuelle Betreiberauftritt gehört zur AH GmbH Metall- und Schrotthandel (HRB 737082 AG Mannheim), nicht ausdrücklich zur im Seed genannten OHG. Impressum und neu direkt gelesenes NorthData-Profil bestätigen unabhängig Fruchtbahnhofstraße 13, 68159 Mannheim und GmbH-Identität; die Registerhistorie zeigt GmbH-Eintragung 21.07.2020, jedoch keine offen lesbare OHG-Übertragung. Daher noch keine Namenskorrektur oder Kontaktdatenübertragung auf den OHG-Datensatz.
+Der heutige Betreiber am Seed-Ort ist jetzt amtlich belegt: Das Fachbetrieberegister führt **AH GmbH Schrott- und Metallhandel**, Fruchtbahnhofstraße 13, 68159 Mannheim, mit dem Efb-Zertifikat **ESN 19-010561(26)** (Vorgang ZZEE003002766008, gültig bis 30.06.2027), **HRB 737082 AG Mannheim** und drei Anlagen (Sammeln/Befördern, Lagern, Behandeln) ebendort. Betreiber-Impressum und Zertifikat nennen dieselbe Anschrift, dieselbe Telefonnummer 0621 17895089 und dieselbe Mail.
 
-Die Website bewirbt Metallverwertung, Container 3–40 m³ und gebrauchte Haushaltsgeräte. **Ankauf:** Registergegenstand nennt An-/Verkauf, Website kein Zahlenkurs. **Verkauf:** gebrauchte Geräte/Materialhandel ohne Preise. **Gebühren:** keine bezifferten Container-/Entsorgungstarife. Zwei widersprüchliche USt-IDs im Impressum sind zusätzlich zu klären. **GEO:** GmbH-Geschäftsanschrift belegt, auf diesen Altseed erst nach Identitätsentscheidung übertragen.
+Offen bleibt der **Name**: das Dossier führt „AH Schrott- und Metallhandel OHG“ (historisch HRA 702222, laut Registerhistorie am 15.10.2020 gelöscht), das Zertifikat dagegen die GmbH. Ob die GmbH die Rechtsfolge der OHG ist, ist ein Registerakt und kein Zertifikatssachverhalt — deshalb bleibt `status: pruefung` und der Seedname unverändert.
+
+**Ankauf:** kein bezifferter Ankaufskurs, nur ein Anfrageformular mit Abfallschlüsseln und Mengenangabe. **Verkauf:** gebrauchte Haushaltsgeräte ohne Preistabelle. **Gebühren:** Container 3–40 m³ sind Größen, keine Miet-, Transport- oder Entsorgungstarife; „faire Konditionen“ ohne Betrag ist kein Tarif. Zwei USt-IdNr im Impressum (DE333257660, DE262075649) bleiben ungeklärt. **GEO:** Fruchtbahnhofstraße 13 ist durch Zertifikat und Impressum gedeckt und damit eine Adresse mit Geocodierungsbedarf; die Zuordnung zur OHG-Zeile bleibt offen, deshalb noch keine Koordinate.
 
 ## Timeline
 
@@ -47,3 +50,9 @@ Die Website bewirbt Metallverwertung, Container 3–40 m³ und gebrauchte Hausha
 
 - Cu/Edelstahl u.a.
 - Größe: klein
+
+### Recherche 06.11.2026
+
+- [Recherche 06.11.2026: **Das amtliche Fachbetrieberegister belegt den heutigen Betreiber an der Seed-Adresse — die OHG/GmbH-Identitätsfrage lässt sich damit eingrenzen.** Die Namenssuche im Register „Entsorgungsfachbetriebe“ (Route `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AH%20Schrott`, Abruf 06.11.2026) liefert unter den 9 Treffern **„AH GmbH Schrott- und Metallhandel“, Fruchtbahnhofstraße 13, 68159 Mannheim**, Vorgangsnummer **ZZEE003002766008**, mit **3 Anlagen**: Anlage 1 Sammeln/Befördern, Anlage 2 Lagern, Anlage 3 Behandeln. Der Datensatz liegt als Zertifikats-PDF im Register vor und wurde vollständig gelesen: Aussteller **ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V.**, Berliner Allee 57, 40212 Düsseldorf; Zertifikat **ESN 19-010561(26)**; Vorgangsnummer **ZZEE003002766008**; **3 Anlagen**; Prüfungsdatum **28.01.2026**, Ausstellungsdatum **11.05.2026**, **gültig bis 30.06.2027**; Entsorgungsfachbetrieb nach § 56 KrWG mit Überwachungszeichen der ESN; **Registereintrag HRB 737082, Registergericht Mannheim** — also **genau die im Dossier dokumentierte GmbH**, nicht die gelöschte OHG HRA 702222. Beide Anlagen-Listen (Anlage 1 Sammeln/Befördern, Anlage 2 Lagern, Anlage 3 Behandeln) tragen jeweils den Standort **Fruchtbahnhofstraße 13, 68159 Mannheim**. Die amtliche Anerkennung stützt damit die **GmbH** als heutigen Rechtsträger am Seed-Ort und stützt die im Dossier dokumentierte Fortführung des Geschäftsbetriebs an derselben Adresse über den Rechtsformwechsel hinaus; sie belegt **nicht** den Übergangsakt selbst und **nicht**, dass die OHG-Nummer HRA 702222 auf die GmbH übertragen wurde. Für den Dossiernamen „AH Schrott- und Metallhandel OHG“ bleibt der Namensentscheid damit weiterhin offen. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AH%20Schrott ; Zertifikats-PDF des Registers (ZZEE003002766008 / ESN 19-010561(26)), Abruf 06.11.2026.]
+- [Recherche 06.11.2026: **Betreiberseite erneut direkt gelesen (06.11.2026): Die GmbH-Impressumsangaben sind unverändert, die Kontaktdaten sind damit amtlich kongruent.** Das Impressum (`https://ah-schrotthandel.de/impressum/`, HTTP 200) nennt **AH GmbH Metall- und Schrotthandel**, Fruchtbahnhofstr. 13, 68159 Mannheim, Telefon **0621 17895089**, Telefax 0621 17895091, **info@ah-schrotthandel.de**, vertreten durch **Mehmet Ali Halici**, Registergericht Amtsgericht Mannheim, **HRB 737082**; im Impressum stehen **zwei** USt-IdNr-Blöcke (**DE333257660** und **DE262075649**) — die im Dossier bereits dokumentierte Doppelangabe bleibt damit bestehen und wird hier nicht aufgelöst. Die Kontaktseite/Startseite nennt Öffnungszeiten **Mo–Fr 07:00–18:00 Uhr, Sa 07:00–16:00 Uhr** und ein Anfrageformular, das die Abfallschlüssel **170401 Kupfer/Bronze/Messing, 170402 Aluminium, 170403 Blei, 170404 Zink, 170405 Eisen und Stahl, 170406 Zinn, 170407 gemischte Metalle, 170411 Kabel, 191001 Eisen- und Stahlabfälle, 191002 Nicht-Eisen-Abfälle, 191202 Eisenmetalle, 200134 Batterien und Akkumulatoren** sowie die Containergrößen **3, 5, 7, 10, 20, 36, 40 m³** nennt. **ANKAUF:** die Homepage bewirbt „Metallschrott“ und Schrott-/Metallentsorgung, veröffentlicht aber **keinen Zahlenkurs**; das Formular erfragt Menge in kg, ist aber kein Preisanschlag. **VERKAUF:** gebrauchte Haushaltsgeräte werden angeboten, eine Preistabelle ist nicht vorhanden. **GEBÜHREN:** Container 3–40 m³ sind Größen, **keine** Miet-, Transport- oder Entsorgungstarife; der Kundentext nennt „faire Konditionen“ ohne Beträge — daraus folgt keine Gebührenfreiheit. **GEO:** Fruchtbahnhofstraße 13, 68159 Mannheim ist jetzt durch das amtliche Zertifikat **und** das Betreiber-Impressum gedeckt und damit **Geocoding-Kandidat mit Bedarf**; die Zuordnung zur Zeile „AH Schrott- und Metallhandel OHG“ (Name, nicht Standort) bleibt offen, deshalb wurde hier keine Koordinate gesetzt. Quellen: https://ah-schrotthandel.de/ ; https://ah-schrotthandel.de/impressum/ .]
+- [Recherche 06.11.2026: **Offene Fragen, ehrlich benannt.** (1) Der Namensentscheid OHG gegen GmbH ist mit dem amtlichen Zertifikat **nicht** erledigt: das Register nennt nur „AH GmbH Schrott- und Metallhandel“ mit HRB 737082, der Dossier-Datensatz heißt „AH Schrott- und Metallhandel OHG“ (historisch HRA 702222, laut Dossier am 15.10.2020 von Amts wegen gelöscht). Ob die GmbH die Rechtsfolge der OHG ist, ist ein Registerakt, kein Zertifikatssachverhalt. (2) Zwei USt-IdNr im Impressum bleiben ungeklärt; die amtliche Gültigkeit wurde nicht geprüft. (3) Die Standortsuche im Register um Mannheim 3 km (Abruf 06.11.2026, **17 Treffer**) und um Mannheim 10 km (**221 Treffer**) enthält **keinen** AH-Datensatz, weil die AH-Anlagen in der Trefferliste nicht im Vordergrund stehen; die 3-km-Liste beginnt mit WBL Ludwigshafen (0,3 km), Stefan Daud (0,9 km), Thomas Lehr (1,3/1,4 km), Günther Schmelzer GmbH (1,4 km) — die AH GmbH wird dort **nicht** geführt, obwohl sie im genannten Radius liegt; das ist eine **Filter- und Sortierungsfrage**, kein Negativbeweis, und wurde deshalb nicht als Widerspruch gewertet. (4) Für **AltfahrzeugV** (Route Altfahrzeugverwertung, Namenssuche Agosi ist für AH nicht belegt) wurde für diese Gesellschaft keine eigene Abfrage ausgewertet; die AH GmbH ist im Register jedenfalls als Efb, nicht als Autoverwerter geführt. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=68159%20Mannheim%2C%20Deutschland%3B8.42%3B49.44%3B8.60%3B49.55%3B8.42%3B49.55&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=68159%20Mannheim%2C%20Deutschland%3B8.42%3B49.44%3B8.60%3B49.55%3B8.42%3B49.55&dst=10&is=1&e=1 .]

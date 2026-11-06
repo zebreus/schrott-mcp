@@ -7,10 +7,11 @@ city: Hamburg-Billbrook
 street: Billbrookdeich 207
 postcode: 22113
 phone: 040 89728951
-email: ''
+email: 'hansekfz@yahoo.com'
 opening_hours: Mo-Do 08:00-18:00, Sa 08:00-14:00
 website: ''
 website_status: unbekannt
+certifications: '["AltfahrzeugV-Bescheinigung (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Abruf 06.11.2026): Hanse Kfz-Verwertung, Billbrookdeich 207, 22113 Hamburg; Vorgangsnummer ZABS00300034, Bescheinigungsanlagennr. 1, Kennnummer BERZ01072;B01BA0546; Telefon +49 40 89728951; E-Mail hansekfz@yahoo.com; Ansprechpartner Herr Rasuli Jalil; Bezeichnung der Firma Hanse Kfz-Verwertung, Adresse der Firma Billbrookdeich 207; eine 12-stellige Vorgangsnummer, ein Aussteller und ein Zertifikats-PDF sind im Register nicht ausgewiesen"]'
 status: aktiv
 description: ''
 dropoff_json: ''
@@ -47,3 +48,7 @@ Bestehender Fachregisterlead zu Hanse KFZ-Verwertung am Billbrookdeich207; früh
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Kfz-Verwertung
+
+### Recherche 06.11.2026
+
+- [Recherche 06.11.2026: **Amtlicher Registerbeleg für Identität, Anschrift, Telefon und Inhaber; E-Mail neu belegt.** Das amtliche Fachbetrieberegister wurde am 06.11.2026 clientseitig ausgewertet (Browser-Sitzung mit Browser-Headern, HTTP/2 und Sitzungs-Cookies): Namenssuche in der Route "Altfahrzeugverwertung" ueber n=Hanse Kfz-Verwertung -> 1 Treffer, die Standortsuche 3 km um den Billbrookdeich 207 -> 4 Treffer, darunter Hanse Kfz-Verwertung mit 0,0 km Entfernung. Der Detaildialog des Registers nennt woertlich: Bezeichnung "Hanse Kfz-Verwertung", Adresse "Billbrookdeich 207, 22113 Hamburg", E-Mail "hansekfz@yahoo.com", Telefon "+49 40 89728951", Vorgangsnummer "ZABS00300034", Bescheinigungsanlagennr. 1, Ansprechpartner "Herr Rasuli Jalil", Kennnummer "BERZ01072;B01BA0546", Bezeichnung der Firma "Hanse Kfz-Verwertung" und Adresse der Firma Billbrookdeich 207. Damit sind die bisher nur als Lead gefuehrten Angaben bestaetigt: die Kennung BERZ01072/B01BA0546 stammt aus dem AutoverwerterFinder-Profilstand 19.08.2026 und ist nun amtlich, und der mobile.de-Lead zum Inhaber Jalil Rasuli deckt sich mit dem Registeransprechpartner. Die E-Mail-Adresse wurde deshalb als einziges neues Feld uebernommen. Die Route "Entsorgungsfachbetriebe" fuehrt keinen Eintrag zu Hanse Kfz-Verwertung: n=Hanse Kfz-Verwertung -> 0 Treffer, n=Hanse -> 23 Treffer ohne dieses Unternehmen, die Standortsuche 3 km um den Billbrookdeich 207 liefert 89 Efb-Treffer (unter anderem Gerdts Spedition GmbH, Liebigstr. 73, Hermann Steuber Müll-Container GmbH und Absetzcontainer-Gestellung STEUBER GmbH, Liebigstraße 82-84, Abfall-Container-Dienst Seemann + Paul GmbH) mit keinem Eintrag auf dem Gelände des Billbrookdeichs 207. Im AltfahrzeugV-Register liegen daneben 1A Autoverwertung Billbrook UG & Co. KG (Porgesring 31, 1,4 km, ZABS00300004 / 1) und Firma Henry Schmidt (Mühlenhagen 169 und 156, 2,3 km, ZABS00300015). OSM: der Billbrookdeich 207 existiert als way/25045371 ohne name-, operator- und shop-Tag, der Betrieb ist in OSM also nicht getaggt. ANKAUF: keine Metall- oder Schrottkurse, das Register weist keine Materialpreise aus. VERKAUF: keine Schrott- oder Metallpreisliste. GEBUEHREN: keine Demontage-, Abhol- oder Annahmegebuehren. Offen bleiben der aktuelle Betriebszustand und die Tagesoeffnungszeiten (das Portal nennt Mo-Do 08:00-18:00 und Sa 08:00-14:00, eine Freitagsangabe fehlt) sowie die GESA-Bescheinigung als solche; ein Nichttreffer im Entsorgungsfachbetrieberegister ist kein Existenzbeweis. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/n=Hanse%20Kfz-Verwertung ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=22113%20Hamburg%2C%20Deutschland%3B10.105417%3B53.5350841%3B10.122862329239997%3B53.573080829999995%3B10.087971670760003%3B53.497087370000005&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/n=Hanse%20Kfz-Verwertung ; https://api.openstreetmap.org/api/0.6/way/25045371/full.json (Abruf 06.11.2026)]
