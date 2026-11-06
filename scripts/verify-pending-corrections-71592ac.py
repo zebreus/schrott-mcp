@@ -30,6 +30,13 @@ CLEARS = {
 }
 PORTAL = "nw-nrw-weit-schrott24-metaloop-online-portal"
 SEED_EXPECTATIONS = Path(__file__).with_name(
+<<<<<<<< HEAD:scripts/verify-pending-corrections-71592ac.py
+    "pending-corrections-71592ac-seed-expectations.json"
+)
+SEED_RELEASE_COMMIT = "71592acd0cae7e3d08ed8250d4b496b1aa719d41"
+SEED_RELEASE_TREE = "6894c6f97a0b92c74836be0c6252fb02c6edb8c0"
+SEED_REHEARSAL_MANIFEST_SHA256 = "551c25dafa29ea1420a077fb47900af7e638605306c32dfd7e1ce11a26bb4a6c"
+========
 <<<<<<<< HEAD:scripts/verify-pending-corrections-da3dac2.py
     "pending-corrections-da3dac2-seed-expectations.json"
 )
@@ -43,6 +50,7 @@ SEED_RELEASE_COMMIT = "0f2eb47a86d0d2f464ccfeba9f45113276d465fa"
 SEED_RELEASE_TREE = "d82f3b2f88ec6ce2138419447b98adc4223d9ec5"
 SEED_REHEARSAL_MANIFEST_SHA256 = "6bd5e0da4fe17816dce4f8eac6cee046a476779e0d922982ccbc88f89b941d2c"
 >>>>>>>> origin/rel12:scripts/verify-pending-corrections-0f2eb47.py
+>>>>>>>> origin/rel12:scripts/verify-pending-corrections-da3dac2.py
 
 
 def connect(path):
