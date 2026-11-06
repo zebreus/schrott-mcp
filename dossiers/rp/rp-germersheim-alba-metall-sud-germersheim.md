@@ -150,3 +150,7 @@ Status `geschlossen` ist mit Belegen gesetzt (Betreiber-Aussage, amtliches Regis
 ### Korrektur 06.11.2026
 
 - [Korrektur 06.11.2026: **Der Negativbefund brauchte die Reichweitenklausel.** Die Abfragen am 06.11.2026 (Namenssuche „ALBA“ ✓ mit 69 Treffern ✓, Standortsuche 20 km und 3 km ✓ mit ausgewiesenen Trefferzahlen ✓) belegen: für die frühere ALBA-Filiale entsteht **kein Registereintrag** ✓. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig** ✓, die Namenssuche ist **nicht** zeichengenau ✓ (69 weitere Betriebe mit „ALBA“ im Namen ✓), und ein **Nichttreffer im Register ist kein Nachweis**, dass der Betrieb keine Anerkennung besitzt ✓. Unabhängig davon ist der Status „geschlossen“ **positiv** belegt ✓: die ALBA-Standortliste führt Germersheim nicht ✓, und der Rückzug ist auf 2019 datiert ✓.]
+
+### Korrektur 06.11.2026 (Folgepruefung)
+
+- [Korrektur 06.11.2026 (Folgepruefung): **Der Suchbegriff und eine fehlende Trefferzahl waren unzutreffend.** Die Namenssuche **„ALBA Metall“** liefert **69** Treffer ✓ (live, Abruf 06.11.2026 ✓) — wörtlich „ALBA“ sind es **308** ✓; die Korrektur oben nennt deshalb den vollständigen Suchbegriff ✓. Für die Standortsuche mit **20 km** waren im Dossier keine Trefferzahl ausgewiesen ✓ — sie beträgt **163** ✓ (3 km: **20** ✓). Die Aussage — für die frühere ALBA-Filiale entsteht kein Registereintrag ✓ — und der positiv belegte Status „geschlossen“ ✓ bleiben unverändert ✓.]

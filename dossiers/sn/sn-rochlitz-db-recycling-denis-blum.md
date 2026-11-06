@@ -120,3 +120,7 @@ Die Autoverwertungsseite nennt drei Standorte: Schützenstr. 6 (09306 Rochlitz),
 ### Korrektur 06.11.2026
 
 - [Korrektur 06.11.2026: **Die Aussage zur Kursentwicklung war zu pauschal, und eine Position fehlte.** Der Vermerk sagte, die Kurse seien gegenüber dem Dossier-Snapshot vom 29.10.2026 „durchweg gesunken“ ✓ — **24 der 39 Kurse sind jedoch unverändert** ✓ (Hartmetall 45,00 €, Cu schwer 10,00 €, Ms Raff 4,00 €, Al Blech/Guß 1,00 €, Zinkblech 2,00 €, Reinzinn 30,00 €, Altblei 1,20 €, Altpapier 0,08 € u. a. ✓). In der Aufzählung fehlte **Zinkblech 2,00 €** ✓. Die übrigen Angaben sind unverändert ✓: Gültigkeit „gültig ab 04.11.2026“ ✓, alle 39 Ankaufkurse ✓ und die **Gebühren** sauber getrennt als „Entsorgungskosten“ ✓ (Sperrmüll 300 €/t ✓, Autoreifen 2,50 € ✓, Bauschutt 40 €/t ✓, Grünschnitt/Altholz 150 €/t ✓, Transport Absetzcontainer 100,00 € ✓) — keine Verwechslung von Ankaufskurs und Gebühr ✓.]
+
+### Korrektur 06.11.2026 (Folgepruefung)
+
+- [Korrektur 06.11.2026 (Folgepruefung): **Die Anzahl der Kurse war falsch.** Die Preisseite führt **44** Positionen ✓ (Abruf 06.11.2026 ✓) — die Wellen-Notiz zählte 43 ✓, weil „Zinkblech 2,00 €“ fehlte ✓. Von diesen 44 Positionen sind **24 unverändert** ✓ (Hartmetall 45,00 € ✓, Cu schwer 10,00 € ✓, Ms Raff 4,00 € ✓, Al Blech/Guß 1,00 € ✓, Zinkblech 2,00 € ✓, Reinzinn 30,00 € ✓, Altblei 1,20 € ✓, Altpapier 0,08 € ✓ u. a. ✓) — die Aussage der Korrektur oben bleibt damit in der Sache richtig ✓, nur der Nenner war falsch ✓: **24 von 44**, nicht 24 von 39 ✓. Die Gebühren bleiben getrennt geführt ✓.]

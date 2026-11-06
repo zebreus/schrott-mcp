@@ -156,17 +156,19 @@ def main() -> int:
                     problems.append(f"{rel}: {len(outside)} neue Notiz(en) liegen nicht in der "
                                     f"Geokodierungs-Sektion")
         elif has_new_notes and len(dated) != 1:
-            # Zwei neue datierte Sektionen sind zulaessig, wenn die zweite eine
-            # **Korrektur-Sektion** ist: eine spaetere Welle darf einen
+            # Genau **eine** neue Wellen-Sektion; danach duerfen beliebig viele
+            # **Korrektur-Sektionen** folgen: eine spaetere Welle darf einen
             # veroeffentlichten Vermerk nicht in place aendern (Hausregel),
             # sondern traegt ihre Korrektur als eigene datierte Sektion am
             # Timeline-Ende nach. Der Prefix-Check unten bleibt unveraendert -
             # ein in place geaenderter Vermerk wird weiterhin beanstandet.
-            korrektur_danach = (len(dated) == 2 and dated[-1].startswith("Korrektur")
-                                and heads and heads[-1] == dated[-1])
-            if not korrektur_danach:
+            wellen = [h for h in dated if not h.startswith("Korrektur")]
+            korrekturen = [h for h in dated if h.startswith("Korrektur")]
+            reihenfolge_ok = bool(heads) and heads[-1] == dated[-1] and all(
+                h.startswith("Korrektur") for h in dated[-len(korrekturen):] if korrekturen)
+            if len(wellen) != 1 or not reihenfolge_ok:
                 problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
-                                f"(erwartet: genau 1)")
+                                f"(erwartet: genau 1 Wellen-Sektion, Korrektur-Sektionen danach)")
         # Nach der Wellen-Sektion darf eine Geokodierungs-Sektion folgen.
         tail_ok = True
         if dated and heads and heads[-1] != dated[-1]:
