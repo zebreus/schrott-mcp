@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Sema-Brenntechnik ist ein Einzelunternehmen von Manuel Selmanovic in der Düsseldorfer
+Straße 568, 47055 Duisburg, das Stahlschrott mit Brenner zerkleinert, demontiert und
+zurückbaut und dabei vor allem Großkunden auf Schrottplätzen bedient. Das Impressum der
+Betreiberseite belegt Anschrift, Mobilnummer und Mailadresse, ein Registereintrag fehlt,
+da das Unternehmen ohne HRB geführt wird. Ein Schrottankauf ist nicht belegt, der Betrieb
+tritt als Dienstleister auf. Offen bleibt damit die Beleglage, denn ein zweiter
+unabhängiger Beleg für die Kontaktdaten fehlt. Im amtlichen Fachbetrieberegister ist weder
+ein Eintrag als Entsorgungsfachbetrieb noch nach AltfahrzeugV für die Anschrift gefunden
+worden; die Anerkennungen sind freiwillig, ein Nichteintrag belegt ihren Nichtbestand
+nicht.
 
 ## Timeline
 

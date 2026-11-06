@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Josef Vierschilling Inh. Carsten Arens, Damaschkestr. 4, 58840 Plettenberg: Schrotthandel und
+Altmaterialhandel als Einzelunternehmen. Ein tagesaktueller Verzeichniseintrag belegt
+Anschrift, zwei Rufnummern, eine E-Mail-Adresse und durchgehende Öffnungszeiten von Montag
+bis Freitag; die dort verlinkte Website gehört jedoch zu einem überregionalen
+Akquise-Netz mit Bochumer Impressum und kann dem Betrieb nicht zugerechnet werden, weshalb
+das Dossier ohne Website bleibt. In OpenStreetMap ist die Hausnummer 4 der Damaschkestraße
+als Adressobjekt ohne Betriebsbezug geführt. Offen bleiben ein betreiberseitiges Impressum,
+eine eigene Website, die Registerlage und die Frage, ob die durchgehenden Zeiten eine reine
+Mobilabholung beschreiben.
 
 ## Timeline
 

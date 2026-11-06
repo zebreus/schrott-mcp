@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Ingrid Sackenreuther ist ein Einzelunternehmen in der Brüninghofer Weg 17,
+45307 Essen, das Metall von Firmenkunden ankauft, aber ausdrücklich keine
+Schrottannahmestelle betreibt und keine Anlieferungen am Standort ermöglicht; eine
+Schrottabholung bei Privathaushalten findet nicht statt. Das Impressum der Betreiberseite
+nennt Name, Postanschrift und Festnetz, ein unabhängiger Verzeichniseintrag stützt Adresse
+und Rufnummer. Offen bleibt der im Verzeichnis gesetzte Status geschlossen, der nicht als
+Schließungsbeleg gewertet wird. Die Koordinate ist auf das adressgenaue OSM-Objekt
+way/105592262 mit der Hausnummer 17 gestützt, das den Betrieb nicht benennt, sodass der
+Punkt die Geschäftsanschrift und keinen Annahmehof bezeichnet.
 
 ## Timeline
 

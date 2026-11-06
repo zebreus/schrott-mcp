@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+E&O Entsorgung GmbH, Am Ockenheimer Graben 24, 55411 Bingen am Rhein: Entsorgungs- und
+Recyclingunternehmen mit Altmetall- und Elektronikschrottankauf und den Standorten Bingen,
+Kelkheim und Maintal. Das Betreiberimpressum nennt HRB 51294 Amtsgericht Mainz und den
+Geschäftsführer Dirk Sauer, ein Registerspiegel bestätigt Firma, Anschrift und den
+auf Recycling und Handel mit Elektronikschrott gerichteten Gegenstand. Der Betrieb
+veröffentlicht eine datierte Altmetall-Ankauf-Preisliste in Euro je Tonne mit dem Stand
+07.12.2023 und Mindestmengen je Sortengruppe. Offen bleiben die Aktualität dieser
+Richtwerte und der Umstand, dass es keine gesonderte Binger Preisliste gibt, sondern eine
+Konzernliste des Sitzes Bingen mit identischen Wertelisten für weitere Städte.
 
 ## Timeline
 

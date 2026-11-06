@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Segula, Wikingerstraße 50, 51107 Köln: Familienbetrieb ohne Registereintrag,
+geführt von Silvano Segula, mit Schrottannahme für Privat und Gewerbe,
+Containergestellung und Abholung für Firmenkunden; ein Verkauf von Autoersatzteilen ist
+ausdrücklich ausgeschlossen. Das Betreiberimpressum nennt Anschrift, Festnetz- und
+Mobilnummer sowie die Umsatzsteuer-Identifikationsnummer, Stadtportal und
+Branchenverzeichnis bestätigen Anschrift und Festnetznummer. In OpenStreetMap ist die
+Hausnummer 50 als Lagergebäude geführt, ohne Namen oder Betreiber. Offen bleiben die
+voneinander abweichenden Öffnungszeiten der Start- und Kontaktseite, die im Dossier nicht
+gesetzte Postleitzahl, ein fehlender Betriebsverweis in OpenStreetMap und ein bezifferter
+Ankaufskurs.
 
 ## Timeline
 

@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+EMC Edel Metall Contor ist ein Entsorgungs- und Edelmetalldienstleister in der
+Herzogstraße 6, 44807 Bochum, der Entsorgungsleistungen, Containerdienst und
+Datenträgervernichtung anbietet. Das Impressum der Betreiberseite nennt Michael Tücks mit
+Postfach- und Kontaktdaten, zwei Verzeichnisleads stützen Anschrift und Ort. Amtlich
+belegt ist die Anerkennung als Entsorgungsfachbetrieb nach § 56 KrWG, das Zertifikat der
+ESC Cert GmbH trägt die Nummer 44807/09-26 und ist bis zum 06.12.2027 gültig, alle drei
+Anlagen sind dem Standort Herzogstraße 6 zugeordnet. Offen bleibt eine Anerkennung nach
+der AltfahrzeugV, für die das Register keine Treffer ausweist, sowie die Mitgliedschaft im
+Berufsverband des Deutschen Münzenfachhandels, die für den Betrieb nicht belegt ist.
 
 ## Timeline
 

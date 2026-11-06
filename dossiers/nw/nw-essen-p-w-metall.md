@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+P&W Metall GmbH ist ein Schrotthändler in der Ostuferstraße 8, 45356 Essen, der Non- und
+Eisenmetallschrott nimmt, einen Containerdienst anbietet und KFZ-Recycling sowie
+Reifenhandel nur als Teilleistungen führt, auch von Privatkunden kauft er. Das Impressum
+der Betreiberseite nennt die Gesellschaft mit HRB 17838 Amtsgericht Essen, das unabhängige
+Verzeichnisprofil dieselbe Firma an derselben Anschrift, und die öffentliche Waage am
+Standort ist für jedermann angekündigt. Die Koordinate ist auf das adressgenaue OSM-Objekt
+way/456652162 mit der Hausnummer 8 und der Postleitzahl 45356 gestützt, das Objekt trägt
+jedoch keinen Betriebsbezug, sodass der Punkt die belegte Anschrift und keinen
+verifizierten Annahmeplatz bezeichnet. Offen bleibt damit der Nachweis der Waage am
+Standort.
 
 ## Timeline
 

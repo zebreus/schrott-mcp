@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+A-Z Recycling, Udo Salzsieder, Coermühle 4a, 48157 Münster: Schrott- und Metallankauf
+mit Abholung und Demontage als Einzelbetrieb. Das Impressum auf der Betreiberdomain nennt den
+Inhaber, die Anschrift sowie Festnetz- und Mobilnummer; ein zweiter unabhängiger Beleg für
+Name und Anschrift ist im Dossier nicht dokumentiert, daher bleibt der Status auf Prüfung.
+Die veröffentlichten Ankaufspreise je Kilogramm bilden über alle Sorten hinweg eine
+fortlaufende Staffel in Schritten von 0,01 Euro, was die Preisleiter-Prüfung auslöst und
+dazu führt, dass für den Betrieb keine Preiszeile geführt wird; ein Stand oder eine
+Begründung der Staffel fehlt. Offen bleiben damit die Preisgrundlage, die Öffnungszeiten
+und die Standortkoordinate.
 
 ## Timeline
 

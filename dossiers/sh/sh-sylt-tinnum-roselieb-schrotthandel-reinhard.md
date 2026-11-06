@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Roselieb Schrotthandel GmbH, Reinhard ist ein Schrotthändler am Liiger Hörn 3, 25980
+Sylt-Tinnum, mit der Rufnummer 04651 935509. Die im Dossier geführte Website gehört nach ihrem
+Impressum nicht zu diesem Sylter Betrieb, sondern zur Reinhard Roselieb Containerdienst,
+Schrott- und Metallhandelsgesellschaft mbH mit Sitz in Celle und Amtsgericht Lüneburg HRB
+100262, auf die auch die verzeichnisführenden Seiten verweisen. Die Anschrift selbst ist durch
+vier unabhängige Verzeichnisse gedeckt. Offen bleibt, ob der Sylter Betrieb eine eigenständige
+Gesellschaft oder eine Außeneinheit der Celler Firma ist, denn ein passender Registereintrag
+fehlt. Zudem existiert die Hausnummer 3 in OpenStreetMap auf der lückenlos durchnummerierten
+Straße nicht, und für Ankauf, Verkauf und Gebühren ist nichts belegt.
 
 ## Timeline
 

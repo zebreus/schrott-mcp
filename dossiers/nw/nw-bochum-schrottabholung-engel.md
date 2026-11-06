@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottabholung Engel ist ein mobiler Schrotthändler an der Hernerstraße 2, 44787 Bochum,
+der nach eigener Selbstbezeichnung mit mehr als 200 Abholorten in Nordrhein-Westfalen und
+kostenloser Abholung ab etwa 100 Kilogramm auftritt. Die Identität trägt allein die
+Betreiberseite mit Anschrift, Rufnummer und Mailadresse, ein zweiter unabhängiger Beleg
+und ein geprüfter Registereintrag fehlen. Offen bleibt damit die Beleglage der
+Kontaktdaten. Im amtlichen Fachbetrieberegister ist weder ein Eintrag als
+Entsorgungsfachbetrieb noch nach AltfahrzeugV für den Standort gefunden worden, die
+Namenssuche nach Engel trifft ausschließlich fremde Betriebe. Da beide Anerkennungen
+freiwillig sind, belegt der Nichteintrag ihren Nichtbestand nicht.
 
 ## Timeline
 

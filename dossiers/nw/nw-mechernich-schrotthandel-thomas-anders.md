@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Thomas Anders, Im Kamertal 10, 53894 Mechernich (Bergbuir): Einzelbetrieb mit
+Autoverwertung, Schrottabbruch, Entrümpelung, Ankauf von Edel- und Buntmetallen sowie dem
+An- und Verkauf von Gebrauchtwagen; die Schrottabholung wird ausdrücklich als kostenlos
+bezeichnet. Die Betreiberseite trägt Anschrift und Rufnummern, ist aber ohne Impressum mit
+Registerangabe, und ein Branchenverzeichnis bestätigt lediglich Anschrift und
+Festnetznummer. In OpenStreetMap ist die Hausnummer 10 als Adressobjekt im Ortsteil Bergbuir
+geführt, ohne Namen oder Betreiber. Offen bleiben Öffnungszeiten, die gewerbliche
+Anlieferung am Standort, eine Entsorgungsfachbetriebs-Anerkennung und ein zweiter Beleg für
+die Mobilnummer.
 
 ## Timeline
 

@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott Nowak ist ein Backyard-Betrieb, dessen Standort und aktuelle Tätigkeit nicht
+belegt sind. Ein archiviertes Impressum von 2016 nennt Miroslaw Nowak an der
+Bonnekampstraße 14, 45327 Essen, und ein Verzeichniseintrag von 2022 wiederholt Name,
+Anschrift und Mobilnummer, beide Quellen sind jedoch keine Betreiber-Primärquelle und
+nicht tagesaktuell. Die Domain schrott-nowak.de ist nicht mehr auflösbar, die im Seed
+gespeicherte Adresse Marktstraße 14 war doppelt fehlerhaft und wurde zurückgenommen, auch
+die Umsatzsteuer-Identnummer gibt ohne Anschriftauflösung keinen Beleg. Offen bleibt damit
+die Frage, ob der Betrieb heute noch besteht. Die Koordinate bezeichnet die letzte
+dokumentierte Geschäftsanschrift, die OSM-Erfassung beschreibt sie als Wohngebäude ohne
+Betriebsbezug; Ankaufspreise sind nicht belegt.
 
 ## Timeline
 

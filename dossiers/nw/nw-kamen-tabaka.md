@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Helmut Tabaka SchrottHdl., Pröbstingstr. 6, 59174 Kamen (Heeren-Werve): Schrotthandel und
+Altmetallrecycling als Einzelbetrieb ohne eigene Website. Die Identität stützt ein
+vollständig gelesener Verzeichniseintrag mit Branche, Anschrift, Rufnummer und
+Öffnungszeiten; das Adressobjekt mit der Hausnummer 6 der Pröbstingstraße in
+OpenStreetMap bestätigt Straße, Hausnummer und Ortsteil, trägt aber selbst keinen
+Betriebsnamen. E-Mail-Adresse und Website sind dort nicht hinterlegt, ein Betreiberimpressum
+oder Registereintrag fehlt, weshalb der Status auf Prüfung bleibt. Offen bleiben die
+Bestätigung der Betreiberidentität durch den Betrieb selbst, die Frage einer
+stationären Annahme gegenüber einer mobilen Abholung und ein belegter Ankaufskurs.
 
 ## Timeline
 

@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott- & Metallhandel Bläsius ist ein Metallhändler mit Standort in der Rosenstraße 6, 56220
+Sankt Sebastian, mit der Rufnummer 0261 20388452 und den Öffnungszeiten Mo bis Fr 07:00 bis
+17:00; das Verzeichnis nennt eine Abholleistung. Belege sind zwei Branchenverzeichnisse,
+recyclinghof-wertstoffhof.de und entsorgen-versorgen.de, die Name, Anschrift und Rufnummer
+deckungsgleich führen, sowie in OpenStreetMap ein Objekt mit Hausnummer 6, Stadt Sankt
+Sebastian, das weder Namen noch Betreiber trägt; die Nummer 6 ist auf derselben Straße ein
+zweites Mal für den Ortsteil Kaltenengers erfasst. Offen bleibt die Beleglage: beide Quellen
+sind Verzeichnisse, ein eigenes Portal, ein Impressum, ein Registereintrag und ein Zertifikat
+fehlen, und für Ankauf, Verkauf und Gebühren ist keine Zahl belegt.
 
 ## Timeline
 

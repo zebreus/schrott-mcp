@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+HUISKES Container-Dienst & Schrott-Entsorgung, Sebastian Huiskes, Zur Tongrube 2, 45731
+Waltrop: Einzelbetrieb ohne Registereintrag mit Containerverleih in den Größen 5, 7 und 10
+Kubikmeter sowie Schrott- und Metallentsorgung. Die Beleglage stammt aus einer einzigen
+Quelle, der Betreiberseite mit Impressum, Kontakt- und Leistungsseiten; die dort angegebene
+USt-Identifikationsnummer ersetzt keinen Registernachweis, weshalb der Status auf Prüfung
+bleibt. Die Seed-Adresse Büscherstr. 91 ist durch den Hinweis auf einen Umzug innerhalb
+Waltrops im Juni 2020 nicht unabhängig bestätigt, ein Anbieter unter ähnlicher
+Schreibweise aus Waalwijk ist kein Beleg. Offen bleiben die Zuordnung der historischen
+Anschrift, die Frage eines Schrottankaufs mit Abholpreisen und die Standortkoordinate.
 
 ## Timeline
 

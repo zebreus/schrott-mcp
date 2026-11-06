@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Mayer Recycling GmbH ist ein Schrotthändler mit Sitz in der Hauptstraße 90, 54636 Nattenheim,
+betrieben von Geschäftsführer Robert Gulla; das Angebot umfasst Schrotthandel,
+Industriedemontage und zertifizierte Altautoverwertung. Belege sind das Betreiber-Impressum mit
+Rechtsform, Anschrift, Rufnummer, E-Mail und Öffnungszeiten sowie das Registerprofil zum
+Amtsgericht Wittlich mit der Registernummer HRB 43812, das dieselbe Anschrift und denselben
+Geschäftsführer ausweist. Telefon, E-Mail und Öffnungszeiten stehen damit zweifach belegt im
+Dossier. Offen bleiben die Preise: für Ankauf, Verkauf und Gebühren ist keine Zahl belegt, und
+die Beleglage stützt sich allein auf Impressum und Registerprofil, ohne eine dritte unabhängige
+Quelle.
 
 ## Timeline
 

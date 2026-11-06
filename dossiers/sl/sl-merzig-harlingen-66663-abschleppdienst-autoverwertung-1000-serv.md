@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Abschleppdienst-Autoverwertung 1000 Service GmbH ist die Dossierbezeichnung für die 1000
+Service GmbH mit Geschäftsführer Berthold Endres am Im Wäldchen 13-17, 66663 Merzig, mit der
+Abschleppnummer 06861 93 97 040 und der Registrierung HRB 63537 beim Amtsgericht Saarbrücken.
+Das Impressum trennt zwei Gesellschaften, darunter die Vermietungsgesellschaft 1000 Service
+Vermietung GmbH am Saarbrücker Allee 80, und belegt so die Zuordnung der Dossier-Adresse zur
+1000 Service GmbH. Belege sind das Impressum, die Kontaktseite und die Seite zum
+24h-Abschleppdienst, in OpenStreetMap ein Objekt mit Hausnummer 13 ohne Namen sowie 34 Meter
+daneben ein Objekt mit dem Namen 1000 Service. Offen bleibt die Geschäftsbilanz: Eine
+Autoverwertung oder Schrottannahme ist auf der Website nicht belegt, die Verwertungsseiten sind
+nicht abrufbar, und die Preisliste deckt nur Vermietung und Baumaschinen ab.
 
 ## Timeline
 

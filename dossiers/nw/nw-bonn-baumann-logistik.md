@@ -25,7 +25,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Baumann Logistik GmbH & Co. KG ist ein Logistikunternehmen in der Christian-Lassen-Straße
+2, 53117 Bonn, das Spedition, Intralogistik, Lagerung, Container-Raumsysteme und Modulbau
+betreibt und als Entsorgungsfachbetrieb für Reststofftransporte zertifiziert ist. Das
+Betreiber-Impressum nennt HRA 85 Amtsgericht Bonn und ein Gründungsjahr 1961, der
+HR-Spiegel bestätigt Register und Anschrift. Amtlich belegt ist das Zertifikat 01 400 0220
+der TÜV Rheinland Cert GmbH mit der Vorgangsnummer ZZET016001350008, gültig bis zum
+31.05.2027, für eine Anlage am Fuhrpark in dieser Straße. Offen bleibt die Rolle des
+Betriebs im Schrott- und Metallhandel, denn die Betreiberseite nennt keinen Ankauf, und
+eine Anerkennung nach der AltfahrzeugV ist im Register nicht ausgewiesen.
 
 ## Timeline
 

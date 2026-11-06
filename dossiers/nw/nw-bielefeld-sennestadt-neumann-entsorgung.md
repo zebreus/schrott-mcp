@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Neumann Entsorgung ist eine Wertstoffhof- und Schrottmetallhandelsfirma in der Krackser
+Straße 180, 33689 Bielefeld-Sennestadt, die neben der Annahme von Kupfer, Messing,
+Aluminium, Blei, Zink, Kabel und Edelstahl auch Entsorgungsfachbetriebsleistungen
+erbringt. Das Impressum der Betreiberseite nennt Neumann Entsorgung GmbH & Co. KG, drei
+unabhängige Registerquellen führen die Gesellschaft unter HRA 17480 Amtsgericht Bielefeld
+mit derselben Anschrift. Amtlich belegt ist die Anerkennung als Entsorgungsfachbetrieb
+nach § 56 KrWG, das Zertifikat der DEKRA Certification GmbH ist unter der Vorgangsnummer
+ZZHT003006771008 bis zum 19.07.2027 gültig, drei Anlagen sind dem Standort zugeordnet.
+Offen bleibt eine Anerkennung nach der AltfahrzeugV, für die das Register keine Treffer
+ausweist, sowie die widersprüchlichen Öffnungszeiten innerhalb derselben Website.
 
 ## Timeline
 

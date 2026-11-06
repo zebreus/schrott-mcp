@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Aperam Recycling Stainless Germany GmbH ist die nach dem Namenswechsel von der
+Eisenlegierungen-Handelsgesellschaft zur Aperam-Gruppe geführte Einheit am Magdeburger Straße
+58, 01067 Dresden, im Alberthafen, die legierte Schrotte verarbeitet. Das amtliche
+Fachbetrieberegister führt sie mit der Zertifikatsnummer ZZEE00300032 und den Tätigkeiten
+Lagern, Behandeln und Verwerten sowie 25 Abfallschlüsseln im Metall- und Fahrzeugbereich, und
+die Standortseite im Trader-Finder nennt Anschrift, Öffnungszeiten und zwei namentlich genannte
+Ansprechpartner. Die frühere Domain elgmetals.com leitet auf aperamrecycling.com um. Offen
+bleibt die Beleglage: eine allgemeine Betriebsnummer und eine Betriebs-E-Mail fehlen, weil nur
+persönliche Direktkontakte vorliegen, in OpenStreetMap ist der Betrieb an der
+Mehrparteien-Adresse nicht als Objekt erfasst, und Preise werden nicht veröffentlicht.
 
 ## Timeline
 

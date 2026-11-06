@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Gebr. Barnickel GbR ist ein Wertstoffhändler in der Schaffeldstr. 86, 46395 Bocholt, der
+neben dem Ankauf zu Tageshöchstpreisen auch Kabelrecycling betreibt. Die Identität trägt
+das Impressum der Betreiberseite mit Name, Anschrift, Rufnummer und Mailadresse, ein
+redaktioneller Beitrag der BBV nennt unabhängig die Brüder Barnickel als Schrott- und
+Metallhändler in Bocholt. Die Homepage nennt kostenlose Schrottabholung nach Vereinbarung
+und Containeraufstellung. Offen bleibt die Beleglage, da die Gesellschaft als GbR keine
+Registernummer im Impressum führt und die Kontaktdaten nur betreiberseitig belegt sind. Im
+amtlichen Fachbetrieberegister ist weder ein Eintrag als Entsorgungsfachbetrieb noch nach
+AltfahrzeugV für den Standort gefunden worden; beide Anerkennungen sind freiwillig, ein
+Nichteintrag belegt ihren Nichtbestand nicht.
 
 ## Timeline
 

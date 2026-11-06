@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+C.C. Schrott + Metall Klapp GmbH + Co. KG, Hellweg 88, 58099 Hagen: Entsorgung und Verwertung
+von Metallen, laut Dossierangabe seit 1969. Zwei unabhängige Verzeichnisse stützen die
+Identität mit Straße, PLZ und der zum Betrieb gehörenden E-Mail-Adresse
+info@cc-gruppe.com. Ein eigenständiger Registerbeleg für einen heute an dieser Anschrift
+tätigen Rechtsträger fehlt: Die frühere Betreiberdomain cc-gruppe.com löst auf die
+Blue Phoenix Deutschland GmbH in Krefeld auf, was Übernahme oder Umfirmierung nahelegt. In
+OpenStreetMap trägt das Adressobjekt Hellweg 88 weder Namen noch Betreiber, der gesetzte
+Punkt bezeichnet daher nur die belegte Anschrift und keinen geprüften Annahmehof. Offen
+bleiben die Betreiberidentität unter der heutigen Domain, der widersprüchliche
+Telefonstand und die Frage des Standortbetriebs.
 
 ## Timeline
 

@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scholz Recycling, Betrieb Döbeln, ist ein Standort der Scholz Recycling GmbH mit Sitz in
+Essingen, die Stahlschrotte, NE-Metalle und legierte Schrotte aufbereitet; der Standort liegt
+in der Mastener Straße 1, 04720 Döbeln, mit der Rufnummer 03431 669000. Belege sind die
+Standortseite des Betreibers, der maschinenlesbare Standort-Feed mit Anschrift, Rufnummer und
+Nachweisen sowie die konkordante Angabe in sechs Branchenverzeichnissen. Offen bleibt die
+Standortzuordnung, da keine Koordinate hinterlegt ist, in OpenStreetMap die doppelt adressierte
+Hausnummer 1 eine stillgelegte Tankstelle trägt, ein Objekt, das den Betrieb nennt, dort nicht
+existiert und die Betreiber-Standortseite im statischen HTML keine Anschrift liefert. Im
+amtlichen Fachbetrieberegister existiert kein Eintrag für Döbeln, und für Ankauf, Verkauf und
+Gebühren ist keine Zahl belegt.
 
 ## Timeline
 
