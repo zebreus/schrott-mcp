@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schwientek-Entsorgung Schrott, Hinter den Zäunen 24, 33100 Paderborn (Benhausen):
+Einzelbetrieb ohne Registereintrag, dessen im Verzeichnis genannte Annahme von Stahl,
+Aluminium, Kupfer, Edelstahl, Blei und Messing aus einer Verzeichnisangabe stammt. Zwei
+unabhängige Verzeichnisse bestätigen Anschrift und Rufnummer, der Abfallkalender 2026 der
+Stadt Paderborn belegt die Straße kommunal; die frühere Domain des Betriebs ist nicht
+erreichbar, daher bleibt die Website als tot geführt. In OpenStreetMap ist die
+Hausnummer 24 mit amtlicher Quelle als Adressobjekt geführt, ein Betriebsverweis fehlt. Offen
+bleiben der aktuelle Betriebsstatus, die Öffnungszeiten, eine erreichbare Betreiberseite und
+die Frage, ob an der Anschrift stationär angenommen wird.
 
 ## Timeline
 

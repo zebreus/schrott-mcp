@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Metall Entsorger ist ein mobiler Entsorgungsbetrieb im Mohnweg 15, 44894 Bochum, der nach
+eigener Angabe über Genehmigungen nach dem Kreislaufwirtschafts- und Elektrogesetz
+arbeitet und Abholung, Verwertung und Demontage anbietet. Die Identität ist durch
+Betreiber-Website, das Impressum eines Kleinanzeigen-Eigeninserats mit Jakob Amin Belmehdi
+und einen deckungsgleichen Verzeichniseintrag dreifach gestützt. Offen bleiben abweichende
+Mobilnummern in Verzeichnis und Website-Footer sowie eine nur als Snippet belegte
+abweichende Mailvariante. Im amtlichen Fachbetrieberegister ist weder ein Eintrag als
+Entsorgungsfachbetrieb noch nach AltfahrzeugV für den Standort gefunden worden;
+freiwillige Anerkennungen vorausgesetzt belegt das keinen Nichtbestand.
 
 ## Timeline
 

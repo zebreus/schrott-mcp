@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+RTE Rühmkorff Textilrecycling Entsorgung ist ein von Hans Peter Rühmkorff geführtes
+Entsorgungsunternehmen in der Siemensstraße 10, 66450 Bexbach, mit Telefon 06826 9657700 und
+Mobilnummer 0175 5480055. Das Leistungsbild ist Textilrecycling, Entsorgung und Entrümpelung;
+ein Schrott- oder Metallhandel ist auf der Betreiberseite nicht erkennbar, die Seed-Angabe dazu
+ist nicht gedeckt. Die Identität trägt allein das Betreiber-Impressum, eine zweite Quelle
+fehlt. In OpenStreetMap trägt die Hausnummer 10 kein Namens- oder Betreibermerkmal, der Betrieb
+ist dort rund 2,1 Kilometer entfernt als Textil-Containerstellplatz mit dem Betreibernamen RTE
+Recycling kartiert, sodass offen bleibt, welches Objekt den Standort beschreibt. Offen bleiben
+damit Anschrift und Typ, und für Ankauf, Verkauf und Gebühren ist keine Zahl belegt.
 
 ## Timeline
 

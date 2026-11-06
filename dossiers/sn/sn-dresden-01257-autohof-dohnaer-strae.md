@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Autohof Dohnaer Straße ist ein von Torsten Krebs betriebener Kfz-Betrieb mit Autoverwertung in
+der An der Niedermühle 1, 01257 Dresden, mit der Rufnummer 0351 2841242, der E-Mail
+info@autohof-dresden.de und den Öffnungszeiten Mo bis Fr 09:00 bis 18:00 und Sa nach
+Vereinbarung. Das Angebot umfasst Barankauf von Gebraucht- und Unfallwagen, Entsorgung,
+Abschleppdienst, Teilhandel und eine zertifizierte Autoverwertung nach Paragraf 5 Absatz 3 der
+AVO, einen Schrott- oder Metallankauf mit Kurs gibt es nicht. Belege sind das Impressum mit
+Handwerksrolleneintrag der HWK Dresden, der Eintrag in der Innungsliste des
+Kraftfahrzeughandwerks Region Dresden sowie in OpenStreetMap ein Objekt mit dem Namen Autohof
+Dohnaer Straße und derselben Rufnummer. Offen bleibt die Adresszuordnung zwischen diesem Objekt
+und der Hausnummer 1, die in OpenStreetMap ohne Namen geführt ist.
 
 ## Timeline
 

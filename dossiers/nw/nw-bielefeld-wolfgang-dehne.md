@@ -76,3 +76,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wolfgang%20Dehne&p=ZZHT00300462&fd=1
   (Abruf 04.11.2026)]
+
+### Prüfung 05.11.2026
+
+- [Prüfung 05.11.2026: **Das Zertifikats-PDF des amtlichen Fachbetrieberegisters wurde Feld für Feld nachgeprüft** (Permalink-Route des Detaildialogs, Abruf 05.11.2026, PDF wörtlich mit `pdftotext -layout` gelesen). Alle geprüften Felder stimmen mit dem Eintrag überein: "3.1 ...: 1212007029" = "Zertifikat-Nr. 1212007029"; "3.3 Vorgangsnummer ...: ZZHT003004620011" = Eintrag; "3.4 Das Zertifikat beinhaltet 3 Anlage(n)" = "Anlagen 1 bis 3"; "3.7 Das Zertifikat ist gültig bis zum 02.05.2027" = Eintrag; "6. Prüfungsdatum: 05.11.2025" und "8. Ausstellungsdatum: 07.11.2025" = Eintrag; "1.1 Name: DEKRA Certification GmbH", "1.2 Straße: Handwerkstraße 15", PLZ 70565 Stuttgart = Eintrag; "4.1 Name: Wolfgang Dehne GmbH & Co. KG", "4.2 Straße: Uferstr. 12-16", PLZ 33729 Bielefeld = Dossierstandort; "4.4 ... Registernummer ...: HRB 31871 ... Registergericht: Bielefeld" = Eintrag. Anlagen: Anlage 1 "Wolfgang Dehne GmbH & Co. KG" Sammeln und Befördern (E711807377), Anlage 2 Lagern (E711740528), Anlage 3 Behandeln (E711740528) - alle drei mit "1.2 Straße: Uferstr. 12-16", PLZ 33729 Bielefeld, also alle am Dossierstandort; **keine Änderung** am Eintrag.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wolfgang%20Dehne&p=ZZHT00300462&fd=1 (Abruf 05.11.2026)]

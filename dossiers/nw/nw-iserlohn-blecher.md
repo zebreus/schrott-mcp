@@ -24,7 +24,14 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Simon Blecher & Sohn, Inhaber Michael Blecher, e.K., Hugo-Schultz-Str. 13, 58636 Iserlohn:
+Schrotthandel mit Containerdienst und Fuhrbetrieb. Als Belege dienen die Betreiberseite mit
+Straße, Rufnummer und E-Mail-Adresse sowie ein einziger Registereintrag beim Amtsgericht
+Iserlohn unter HRA 811, dessen Standortangabe nur die Stadt nennt. Mehrere Verzeichnisse
+führen abweichend Gartenstr. 42, 58636 Iserlohn, die Betreiberseite nennt zudem die
+Postleitzahl 58640; eine zweite unabhängige Quelle für Name und Anschrift fehlt daher.
+Offen bleiben die zutreffende Anschrift, die Postleitzahl, ein Standortnachweis und die
+Koordinate des Betriebs.
 
 ## Timeline
 

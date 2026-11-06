@@ -24,7 +24,13 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Beck Demontageservice, Waldemar Beck, Lange Straße 193, 59379 Selm: Abbruch, Demontage und
+Rückbau mit Schrott- und Metallankauf, bundesweit tätig und ohne Registereintrag. Die
+Beleglage besteht allein aus der Betreiberseite, deren Kontakt- und Impressumsseite dieselbe
+Quelle darstellen; ein zweiter unabhängiger Beleg fehlt, weshalb der Status auf Prüfung
+bleibt. Ein stationärer Schrottplatz ist nicht belegt, der Betrieb wird deshalb als mobil
+geführt, und Öffnungszeiten sind nicht ausgewiesen. Offen bleiben damit die Koordinate,
+die Öffnungszeiten und eine unabhängige Bestätigung von Anschrift und Kontaktdaten.
 
 ## Timeline
 

@@ -79,3 +79,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Jungheim&p=ZZET01600154&fd=1
   (Abruf 04.11.2026)]
+
+### Prüfung 05.11.2026
+
+- [Prüfung 05.11.2026: **Das Zertifikats-PDF des amtlichen Fachbetrieberegisters wurde Feld für Feld nachgeprüft** (Permalink-Route des Detaildialogs, Abruf 05.11.2026, PDF wörtlich mit `pdftotext -layout` gelesen). Alle geprüften Felder stimmen mit dem Eintrag überein: "3.1 ...: 01 400 0139" = "Zertifikat 01 400 0139"; "3.3 Vorgangsnummer ...: ZZET016001543008" = Eintrag; "3.4 Das Zertifikat beinhaltet 3 Anlage(n)" = "Anlagen 1 bis 3"; "3.7 Das Zertifikat ist gültig bis zum 31.03.2027" = Eintrag; "6. Prüfungsdatum: 01.09.2025" und "8. Ausstellungsdatum: 24.10.2025" = Eintrag; "1.1 Name: TÜV Rheinland Cert GmbH", "1.2 Straße: Am Grauen Stein", PLZ 51105 Köln = Eintrag; "4.1 Name: Jungheim Schrott & Metallhandels GmbH", "4.2 Straße: Am Dickobskreuz 4", PLZ 53121 Bonn = Dossierstandort; "4.4 ... Registernummer ...: HRB 16767 ... Registergericht: Bonn" = Eintrag. Anlagen: Anlage 1 Sammeln und Befördern (E314838339), Anlage 2 Lagern (E314340943), Anlage 3 Lagern (E314340943), alle drei mit "1.2 Straße: Am Dickobskreuz 4", PLZ 53121 Bonn, also alle am Dossierstandort; **keine Änderung** am Eintrag.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Jungheim&p=ZZET01600154&fd=1 (Abruf 05.11.2026)]

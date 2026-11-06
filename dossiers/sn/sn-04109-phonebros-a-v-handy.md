@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+PhoneBros / A&V Handy GbR ist ein Leipziger An- und Verkauf von Elektronik mit Reparatur mit
+der Filiale Jahnallee 7, 04109 Leipzig, der Rufnummer 0341 35572495 und den Öffnungszeiten Mo
+bis Fr 11:30 bis 19:00 und Sa 12:30 bis 16:00; eine zweite Filiale liegt an der Mockauer Straße
+5, 04357 Leipzig. Ein Schrotthandel ist das Geschäft nicht. Belege sind die Startseite, die
+beide Filialen mit Zeiten und Rufnummern ausweist, und die Seite zum Ankauf, die nur
+Verhandlungsbasis nennt. In OpenStreetMap existiert die Hausnummer 7, das dortige Objekt trägt
+aber den Namen einer Fleischerei. Offen bleibt die Beleglage: eine zweite unabhängige Quelle
+fehlt, die E-Mail ist nicht belegt, die PLZ 04109 stammt aus dem Seed und ist auf der Website
+nicht ausgewiesen, und konkrete Ankauf- oder Verkaufspreise werden nicht veröffentlicht.
 
 ## Timeline
 

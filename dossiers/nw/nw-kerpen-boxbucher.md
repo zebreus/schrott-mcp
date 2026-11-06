@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrotthandel Josef Boxbücher, Boelckestraße 77 bis 95, 50171 Kerpen: mobil arbeitender
+Altmetallbetrieb ohne eigene Website, Impressum oder Registereintrag. Anschrift und
+Mobilnummer sind über einen vollständig gelesenen Verzeichniseintrag belegt, zwei weitere
+Verzeichnisse nennen dieselbe Anschrift; das dort geführte Gewerbe lautet jedoch
+Autoverschrottung und Autoverwertung, nicht Schrotthandel, sodass der Seed-Typ nicht
+bestätigt ist. In OpenStreetMap existiert die Bereichshausnummer 77 bis 95 an der
+Boelckestraße als Adressobjekt ohne Namen und Betreiber, ein Bezug zum Betrieb fehlt. Offen
+bleiben die Betreiberidentität, der Tätigkeitsumfang zwischen Autos und Metallschrott
+sowie die Frage einer stationären Annahme.
 
 ## Timeline
 

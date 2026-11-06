@@ -24,7 +24,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+K&K Recycling, Jürgen Krahl, Bruchhof 10, 67454 Haßloch: Schrottplatz mit Annahme, Abwiegen
+und Bezahlung, Demontage vor Ort sowie Recycling von Schrott, Metallen und Kabeln. Die
+Identität tragen das Impressum und die Anfahrtsseite der Betreiberseite, die zusammen eine
+einzige Quelle bilden; ein Handelsregister ist nicht vorhanden, da es sich um ein
+Einzelunternehmen handelt, und ein zweiter unabhängiger Beleg fehlt, weshalb der Status auf
+Prüfung bleibt. Eine Öffnungszeit für den Schrottplatz wurde auf den geprüften
+Seiten nicht gefunden und deshalb nicht übernommen. Offen bleiben damit die
+Öffnungszeiten, eine unabhängige Bestätigung von Anschrift und Rufnummer sowie die
+Standortkoordinate.
 
 ## Timeline
 

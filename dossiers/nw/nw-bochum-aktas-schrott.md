@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Aktas Schrott ist ein Einzelunternehmen von Orhan Aktas in der Hofsteder Straße 135, 44809
+Bochum, das Abholservice für Metalle, Metall- und Elektroschrott sowie Autoverschrottung
+anbietet. Das Impressum nennt Name, Anschrift und Haupttelefonnummer, eine zweite
+Mobilnummer steht im Footer, zwei Branchenverzeichnisse führen dieselbe Adresse und
+Nummer, die Mailadresse bleibt hinter einem Spamschutz verborgen. Die OSM-Erfassung
+beschreibt die Anschrift als Wohngebäude ohne Betriebsbezug, ein Standortnachweis fehlt.
+Offen bleiben zudem die widersprüchlichen Öffnungszeiten der Verzeichnisse und die Frage
+gewerblicher Anlieferungen am Standort. Im amtlichen Fachbetrieberegister ist weder ein
+Eintrag als Entsorgungsfachbetrieb noch nach AltfahrzeugV gefunden worden; Ankaufspreise
+und Gebühren werden nicht veröffentlicht.
 
 ## Timeline
 

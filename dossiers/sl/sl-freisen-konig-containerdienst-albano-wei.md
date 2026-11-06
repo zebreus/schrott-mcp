@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+König Containerdienst ist ein von Albano Weiß geführtes Einzelunternehmen in der Pfalzstraße 1,
+66629 Freisen, das Schrottankauf zu Tageshöchstpreisen mit Abholung für Privat, Gewerbe und
+Industrie anbietet und zugleich Container stellt. Die angenommene Sortenliste umfasst Messing,
+Edelstahl, Stahl, Kabel, Zink, Aluminium, Kupfer sowie Druckguss und Gusseisen, ein Euro-Betrag
+je Kilogramm wird nicht genannt. Belege sind das Betreiber-Impressum mit Anschrift, Rufnummern
+und E-Mail sowie in OpenStreetMap ein Objekt mit Hausnummer 1, das die Adresse bestätigt, aber
+weder Namen noch Betreiber trägt. Offen bleiben die Beleglage, denn Register und unabhängiger
+Zweitbeleg fehlen und die Kontaktdaten stehen nur in der Timeline, sowie der Ankaufkurs,
+während die Gebührentafel der Betreiberseite Containeranfahrten, Mindestabnahme und
+Entsorgungspreise beziffert.
 
 ## Timeline
 

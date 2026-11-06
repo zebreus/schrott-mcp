@@ -25,7 +25,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrottabholung Zentrale ist ein mobiler Schrott-, Autoverwertungs- und Containerdienst in
+der Dieselstraße 88, 44805 Bochum-Gerthe. Das Impressum der Betreiberseite weist Rameh
+Schakif als Einzelunternehmer mit derselben Anschrift und der Telefonnummer aus, zwei
+Verzeichnisleads stützen Adresse und Nummer, eine Mailadresse ist nur betreiberseitig
+belegt. Da kein Registereintrag vorliegt, stützt sich die Identität allein auf die
+Betreiberquelle, ein zweiter unabhängiger Beleg fehlt. Offen bleiben damit die Beleglage
+der Kontaktdaten sowie eine belastbare Preisangabe, die der Betrieb nicht veröffentlicht.
+Im amtlichen Fachbetrieberegister ist weder ein Eintrag als Entsorgungsfachbetrieb noch
+nach AltfahrzeugV für den Standort gefunden worden; die Anerkennungen sind freiwillig, ein
+Nichteintrag belegt ihren Nichtbestand nicht.
 
 ## Timeline
 

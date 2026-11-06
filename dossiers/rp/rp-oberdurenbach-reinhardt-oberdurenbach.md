@@ -26,7 +26,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Schrott & Metallhandel Reinhardt ist ein Schrott- und Metallrecyclingbetrieb am Königsseeweg 2,
+56651 Oberdürenbach, mit der Rufnummer 01775385349, kostenloser Schrottabholung, Demontage und
+Ladekran. Das Angebot umfasst die Annahme von Fahrrädern, Heizkörpern, Edelstahl, Kabel, Eisen,
+Messing, Aluminium und Kupfer sowie die Zerlegung von Industriemaschinen und die Demontage von
+Öltanks; Preise werden nicht veröffentlicht, Angebote entstehen kostenlos nach Menge und
+Materialart. Die Adresse ist adresslich vollständig belegt, in OpenStreetMap über ein Objekt
+mit Hausnummer 2 ohne Namens- oder Betreiberangabe; ein Objekt, das den Betrieb selbst nennt,
+existiert dort nicht. Offen bleibt die Beleglage dünn: die Betreiberseite hat weder Impressum
+noch Registernummer, E-Mail oder Datenschutzerklärung, ein unabhängiger Zweitbeleg fehlt, und
+die Karte der Betreiberseite schreibt die Straße abweichend ohne s.
 
 ## Timeline
 

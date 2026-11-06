@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+METRAG GmbH, Issum: Gesellschaft mit beschränkter Haftung, erloschen. Das Register des
+Amtsgerichts Kleve weist HRB 13146, früher HRB 4851, als gelöscht aus, mit Liquidation 2021
+und Löschung am 05.03.2025; der Unternehmensgegenstand bestand in Beteiligung,
+Vermögensverwaltung, Unternehmensverwaltung und Vermietung, nicht im Schrottankauf. Als
+Sitzdaten sind Issum und ein Gründungskapital von 50.000 Euro vermerkt, als Gesellschafter
+die Metrag Umwelt GmbH und die Metrax International Inc. Die Betreiberdomain metrag-gmbh.de
+ist nicht auflösbar, der Eintrag ist deshalb als geschlossen geführt. In OpenStreetMap wird
+der Betrieb am Gewerbering 21 als Recyclingzentrum geführt, während die Dossierzeile die
+Bereichsangabe 19 bis 21 führt; die Nummer 19 gehört dort einem anderen Betrieb. Offen
+bleibt, ob die Liegenschaft nach der Löschung weiterverwendet wird; Preise sind nicht belegt.
 
 ## Timeline
 

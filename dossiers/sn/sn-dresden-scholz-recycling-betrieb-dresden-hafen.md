@@ -24,7 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+Scholz Recycling GmbH, Betrieb Dresden Hafen, ist ein Standort der Scholz Recycling GmbH mit
+Sitz in Essingen, die Stahlschrotte, NE-Metalle und legierte Schrotte aufbereitet, am
+Magdeburger Straße 58, 01067 Dresden. Das amtliche Fachbetrieberegister führt den Betrieb mit
+der Zertifikatsnummer ZZEE00300204 und den Tätigkeiten Lagern, Behandeln und Verwerten sowie 42
+Abfallschlüsseln im Metallbereich, der Standort-Feed nennt Anschrift, Rufnummer und Nachweise.
+Belege sind zusätzlich die Betreiber-Standortseite und sechs Branchenverzeichnisse. In
+OpenStreetMap trägt ein Objekt mit Hausnummer 58 den Namen Scholz Recycling AG, während ein
+zweites Objekt derselben Nummer den Betrieb TSR Recycling führt, die Unterscheidung beider
+Dossiers ist über die Hausnummer nicht möglich. Offen bleiben Telefonnummer und E-Mail, die nur
+im Feed stehen, und eine öffentliche Aussage zur Privatannahme fehlt.
 
 ## Timeline
 

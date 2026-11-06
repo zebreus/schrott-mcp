@@ -26,7 +26,15 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+WRL GmbH, Emscherstr. 27, 45327 Essen, HRB 19378 Amtsgericht Essen: Schrott- und Metallhandel
+mit Containerdienst; die Betreiberseite verortet die Betriebe in Katernberg und lädt zur
+Materialabgabe in den veröffentlichten Öffnungszeiten ein. Die Identität tragen das
+Betreiberimpressum, der Footer mit derselben Anschrift und ein Registerspiegel, dessen
+älterer PLZ-Stand 45326 lautet. In OpenStreetMap ist die Gesellschaft als eigenes
+Büroobjekt ohne Hausnummer geführt; die Hausnummer 27 fehlt dort, der gesetzte Punkt
+bezeichnet das benannte Gebäude gegenüber der Anschrift 28. Offen bleiben die
+ungeklärte Hausnummer, der Widerspruch der beiden PLZ-Angaben und der nicht belegte
+Ankaufspreis.
 
 ## Timeline
 
