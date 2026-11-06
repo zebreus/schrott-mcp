@@ -1,7 +1,7 @@
 {
-  "release_commit": "29997399d622520c51867105d614d7c01a7bdafd",
-  "release_tree": "dce3785915dbc38d9193eee25fe7efd1fe892a52",
-  "rehearsal_manifest_sha256": "5fdd7fdb9696938ad2a4dcbbe45c3c7252b7feca1ba73f2b4482b887b225d1ca",
+  "release_commit": "3085e4c5402b9c34eeccdb75c22d2ef63544474c",
+  "release_tree": "749d1f5b6ff9666a1d503e1ae7e117dbda338a85",
+  "rehearsal_manifest_sha256": "0f8592cb65c3d41f45eb8a93b872fb0fcf88b3174e2a1ab00fc70eb708bf1a23",
   "traders": {
     "hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg": {
       "seed_hash": "4de7f14567b879f5",

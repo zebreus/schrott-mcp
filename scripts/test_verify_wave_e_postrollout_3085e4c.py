@@ -1,5 +1,6 @@
-"""Offline contracts for the release-delta state verifier."""
+"""Offline contracts for the release-pinned Wave E state verifier."""
 import copy
+from contextlib import closing
 import hashlib
 import importlib.util
 import json
@@ -7,29 +8,28 @@ import sqlite3
 import sys
 import tempfile
 import unittest
-from contextlib import closing
 from pathlib import Path
 from unittest.mock import patch
 
 sys.dont_write_bytecode = True
-SCRIPT = Path(__file__).with_name("verify-release-delta-2999739.py")
-SPEC = importlib.util.spec_from_file_location("release_delta_2999739_verifier", SCRIPT)
+SCRIPT = Path(__file__).with_name("verify-wave-e-postrollout-3085e4c.py")
+SPEC = importlib.util.spec_from_file_location("wave_e_3085e4c_verifier", SCRIPT)
 VERIFIER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFIER)
 
 
-class ReleaseDeltaManifestTests(unittest.TestCase):
+class WaveEReleaseManifestTests(unittest.TestCase):
     def setUp(self):
         self.manifest = VERIFIER.load_manifest()
         self.slugs = {row["slug"] for row in self.manifest["traders"]}
 
-    def test_manifest_is_pinned_to_release_and_rehearsal(self):
+    def test_manifest_is_exactly_pinned_to_release_and_historical_scope(self):
+        self.assertEqual(len(self.slugs), 60)
         self.assertEqual(self.manifest["release_commit"], VERIFIER.RELEASE_COMMIT)
         self.assertEqual(self.manifest["release_tree"], VERIFIER.RELEASE_TREE)
         self.assertEqual(self.manifest["rehearsal_manifest_sha256"],
                          VERIFIER.REHEARSAL_MANIFEST_SHA256)
         self.assertEqual(self.manifest["fields"], list(VERIFIER.FIELDS))
-        self.assertTrue(self.slugs)
 
     def test_manifest_content_digest_is_pinned(self):
         with tempfile.TemporaryDirectory(dir="/tmp/opencode") as directory:
@@ -39,31 +39,31 @@ class ReleaseDeltaManifestTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "digest mismatch"):
                     VERIFIER.load_manifest()
 
-    def test_wrong_scope_and_row_payload_fail_closed(self):
+    def test_wrong_release_scope_and_row_payload_fail_closed(self):
         base = self.manifest
         mutations = [
             lambda m: m.update(release_commit="0" * 40),
             lambda m: m.update(release_tree="0" * 40),
             lambda m: m.update(rehearsal_manifest_sha256="0" * 64),
+            lambda m: m.update(historical_selection_sha256="0" * 64),
             lambda m: m.update(fields=list(reversed(VERIFIER.FIELDS))),
             lambda m: m["traders"].pop(),
             lambda m: m["traders"].append(copy.deepcopy(m["traders"][0])),
             lambda m: m["traders"][0].update(slug="unrelated"),
-            lambda m: m.update(scope_slugs=m["scope_slugs"][:-1]),
             lambda m: m["traders"][0]["values"].pop("street"),
+            lambda m: m["traders"][0]["values"].update(street=None),
             lambda m: m["traders"][0].update(notes_sha256="invalid"),
             lambda m: m["traders"][0].update(seed_hash="invalid"),
-            lambda m: m["traders"][0].update(geo="not-a-pair"),
         ]
         for index, mutate in enumerate(mutations):
             with self.subTest(mutation=index):
                 manifest = copy.deepcopy(base)
                 mutate(manifest)
                 with self.assertRaises(ValueError):
-                    VERIFIER.validate_manifest(manifest)
+                    VERIFIER.validate_manifest(manifest, self.slugs)
 
 
-class ReleaseDeltaStateTests(unittest.TestCase):
+class WaveEReleaseStateTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(dir="/tmp/opencode")
         self.addCleanup(self.temp.cleanup)
@@ -74,14 +74,9 @@ class ReleaseDeltaStateTests(unittest.TestCase):
         self.manifest = copy.deepcopy(VERIFIER.load_manifest())
         self.expected = self.manifest["traders"]
         self.fixture_notes = {}
-        columns = ["slug", *VERIFIER.FIELDS, "notes", "extra_json", "lat", "lon",
-                   "dropoff_json", "pickup_json", "certifications"]
-        types = ["TEXT" for _ in columns]
-        types[columns.index("lat")] = "REAL"
-        types[columns.index("lon")] = "REAL"
-        self.db.execute("CREATE TABLE traders (" + ",".join(
-            f"{c} {t}" for c, t in zip(columns, types)) + ")")
-        for expected in self.expected:
+        columns = ["slug", *VERIFIER.FIELDS, "notes", "extra_json", "updated_at"]
+        self.db.execute("CREATE TABLE traders (" + ",".join(f"{column} TEXT" for column in columns) + ")")
+        for index, expected in enumerate(self.expected):
             notes = "fixture Timeline for " + expected["slug"]
             self.fixture_notes[expected["slug"]] = notes
             expected["notes_sha256"] = hashlib.sha256(notes.encode()).hexdigest()
@@ -90,33 +85,33 @@ class ReleaseDeltaStateTests(unittest.TestCase):
                 **expected["values"],
                 "notes": notes,
                 "extra_json": json.dumps({"seed_hash": expected["seed_hash"]}),
-                "lat": expected["geo"][0],
-                "lon": expected["geo"][1],
-                "dropoff_json": expected["dropoff_json"],
-                "pickup_json": expected["pickup_json"],
-                "certifications": expected["certifications"],
+                # Unchanged rows legitimately retain pre-rollout timestamps.
+                "updated_at": "2026-10-10T12:00:00Z" if index < 20 else "2026-10-27T02:44:00Z",
             }
             self.db.execute(
                 "INSERT INTO traders(" + ",".join(values) + ") VALUES ("
-                + ",".join("?" for _ in values) + ")", list(values.values()))
+                + ",".join("?" for _ in values) + ")",
+                list(values.values()),
+            )
         self.db.commit()
 
     def verify(self):
         with closing(VERIFIER.connect(self.path)) as public:
             return VERIFIER.verify(public, self.manifest)
 
-    def test_exact_state_passes_and_is_read_only(self):
+    def test_exact_state_passes_even_with_20_older_updated_at_values(self):
         before = self.path.read_bytes()
         result = self.verify()
         self.assertTrue(result["ok"], result["failures"])
-        self.assertEqual(result["checked_count"], len(self.expected))
-        self.assertEqual(result["scalar_checks"], len(self.expected) * len(VERIFIER.FIELDS))
-        self.assertEqual(result["geo_checks"], len(self.expected))
-        self.assertEqual(result["service_checks"], len(self.expected))
+        self.assertEqual(result["checked_count"], 60)
+        self.assertEqual(result["scalar_checks"], 660)
+        self.assertEqual(result["notes_hash_checks"], 60)
+        self.assertEqual(result["seed_hash_checks"], 60)
+        self.assertEqual(len(result["rows"]), 60)
         self.assertTrue(all(row["ok"] for row in result["rows"]))
         self.assertEqual(self.path.read_bytes(), before)
 
-    def test_every_scalar_is_enforced(self):
+    def test_each_of_660_scalar_expectations_is_enforced(self):
         with closing(VERIFIER.connect(self.path)) as public:
             for expected in self.expected:
                 for field in VERIFIER.FIELDS:
@@ -133,17 +128,8 @@ class ReleaseDeltaStateTests(unittest.TestCase):
                                         (original, expected["slug"]))
                         self.db.commit()
 
-    def test_notes_seed_geo_and_service_are_enforced(self):
+    def test_notes_and_seed_fingerprint_are_enforced(self):
         slug = self.expected[0]["slug"]
-        # Die Geo-Pruefung setzt ein vorhandenes Koordinatenpaar voraus: ein
-        # Dossier ohne Koordinaten (lat/lon NULL) kann keine Abweichung
-        # erzeugen. Fuer den Geo-Teil wird deshalb ein Slug **mit** Paar
-        # gewaehlt, damit die Pruefung tatsaechlich greift.
-        geo_slug = next(
-            (e["slug"] for e in self.expected
-             if e.get("geo") and e["geo"][0] is not None and e["geo"][1] is not None),
-            slug,
-        )
         with closing(VERIFIER.connect(self.path)) as public:
             self.db.execute("UPDATE traders SET notes=notes||' changed' WHERE slug=?", (slug,))
             self.db.commit()
@@ -151,20 +137,17 @@ class ReleaseDeltaStateTests(unittest.TestCase):
                           VERIFIER.verify(public, self.manifest)["failures"])
             self.db.execute("UPDATE traders SET notes=? WHERE slug=?",
                             (self.fixture_notes[slug], slug))
+            self.db.execute("UPDATE traders SET extra_json='[]' WHERE slug=?", (slug,))
+            self.db.commit()
+            self.assertIn(f"{slug}: extra_json is not an object",
+                          VERIFIER.verify(public, self.manifest)["failures"])
+            self.db.execute("UPDATE traders SET extra_json='{' WHERE slug=?", (slug,))
+            self.db.commit()
+            self.assertIn(f"{slug}: extra_json is not an object",
+                          VERIFIER.verify(public, self.manifest)["failures"])
             self.db.execute("UPDATE traders SET extra_json='{}' WHERE slug=?", (slug,))
             self.db.commit()
             self.assertIn(f"{slug}: release seed hash mismatch",
-                          VERIFIER.verify(public, self.manifest)["failures"])
-            self.db.execute("UPDATE traders SET extra_json=? WHERE slug=?",
-                            (json.dumps({"seed_hash": self.expected[0]["seed_hash"]}), slug))
-            self.db.execute("UPDATE traders SET lat=lat+0.5 WHERE slug=?", (geo_slug,))
-            self.db.commit()
-            self.assertIn(f"{geo_slug}: coordinate pair mismatch",
-                          VERIFIER.verify(public, self.manifest)["failures"])
-            self.db.execute("UPDATE traders SET lat=NULL, lon=NULL WHERE slug=?", (geo_slug,))
-            self.db.execute("UPDATE traders SET dropoff_json='{\"allowed\": true}' WHERE slug=?", (slug,))
-            self.db.commit()
-            self.assertIn(f"{slug}: service JSON mismatch",
                           VERIFIER.verify(public, self.manifest)["failures"])
 
     def test_missing_or_duplicate_scope_rows_fail(self):
@@ -173,10 +156,22 @@ class ReleaseDeltaStateTests(unittest.TestCase):
         self.db.commit()
         self.assertIn(f"{slug}: expected one trader, found 0", self.verify()["failures"])
         self.db.execute("INSERT INTO traders SELECT * FROM traders WHERE slug=?",
-                        (self.expected[1]["slug"],))
+                         (self.expected[1]["slug"],))
         self.db.commit()
         self.assertIn(f"{self.expected[1]['slug']}: expected one trader, found 2",
                       self.verify()["failures"])
+
+    def test_database_open_is_read_only_and_missing_file_is_not_created(self):
+        with closing(VERIFIER.connect(self.path)) as public:
+            with self.assertRaises(sqlite3.OperationalError):
+                public.execute("DELETE FROM traders")
+            public.execute("PRAGMA query_only=OFF")
+            with self.assertRaises(sqlite3.OperationalError):
+                public.execute("DELETE FROM traders")
+        missing = self.directory / "missing.db"
+        with self.assertRaises(sqlite3.OperationalError):
+            VERIFIER.connect(missing)
+        self.assertFalse(missing.exists())
 
 
 if __name__ == "__main__":
