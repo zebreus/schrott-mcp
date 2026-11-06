@@ -39,7 +39,8 @@ Betreiber-Ketten). Neue Adressen mit Geocodierungsbedarf im Bericht nennen.
 
 ## Owner-Gate nach Abschluss aller Shards
 
-Overwrite-Scan, Enum-Validierung, Deep-Link-/Emdash-Check, Notenformat, dann
+Overwrite-Scan, Enum-Validierung, Deep-Link-/Emdash-Check, Notenformat, dazu
+die **Klammerbalance** der `certifications`-Einträge, dann
 Seed-Tests (`cargo test -p schrott-mcp-ingestion seed`), ein Commit und Push.
 Deployment nur nach explizit grüner **Pre-Deploy-Freigabe** für exakt den
 geprüften Commit, Seed-Bestand und die Release-Binaries (Owner-/erforderliches
@@ -53,3 +54,19 @@ den Post-Rollout-Verifier read-only ausführen. Bei offener Pre-Deploy-Freigabe
 nicht deployen und Produktionsdaten nicht direkt ändern. Bei rotem
 Post-Rollout-Verifier den Rollout nicht als erfolgreich melden, keine weiteren
 Produktionsänderungen vornehmen und den konkreten Befund kurz berichten.
+
+### Die vier Gates
+
+| Gate | was es prüft |
+|---|---|
+| `scripts/release/check_note_order.py <basis>` | Reihenfolge/Position der Vorwellen-Notizen (exakter Präfix), je Dossier genau eine neue datierte Sektion am Ende, keine Dubletten |
+| `scripts/release/check_pre_wave_notes.py <basis>` | Vorwellen-Notizen **wortgleich** (Block für Block) |
+| `scripts/release/wave_gate.py <basis>` | Overwrite-Scan, Enum-Validierung, Deep-Links, Gedankenstriche, Notenformat |
+| `scripts/release/check_cert_balance.py <basis>` | keine **neu** unausgeglichene Klammer in einem `certifications`-Eintrag (`--all` zeigt den Altbestand) |
+
+**Ankreuzfelder:** Die zertifizierten Tätigkeiten stehen in den Anlagenbögen der
+EfbV-PDFs in den Feldern 2.1–2.8 **immer als Text**, auch wenn das Kästchen
+**leer** ist. `scripts/release/pdf_checkboxes.py <pdf>` liest die Kästchen und
+ihre „X“-Striche aus dem PDF-Contentstream und liefert je Anlagenbogen
+`gekreuzt=True/False` je Feld — **nur was dort `gekreuzt=True` ist, ist
+zertifiziert** ✓.
