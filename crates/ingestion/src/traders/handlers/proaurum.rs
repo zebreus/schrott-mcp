@@ -20,6 +20,12 @@
 //! branches carry their own phone and e-mail (the chain's impressum has
 //! only the headquarters contact), so this handler records **prices only**
 //! and never writes the chain's contact data into a branch dossier.
+//!
+//! The variant is the trader's own designation ("Goldbarren 1 Gramm
+//! Umicore"), which is what the schema calls the *Händlersorte*. The page
+//! states **no fineness**, so none is claimed: a bar of gold would be
+//! recorded as "gold" without the fineness the other gold handlers take
+//! from their own pages.
 
 use scraper::{ElementRef, Html, Selector};
 
