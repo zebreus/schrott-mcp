@@ -112,7 +112,6 @@ fn parse(html: &str) -> Result<(Option<String>, Vec<Row>, Vec<String>), IngestEr
     let published_at = find_published_at(html);
     let doc = Html::parse_document(html);
     let heading_sel = Selector::parse("h2").expect("valid selector");
-    let table_sel = Selector::parse("table").expect("valid selector");
     let tile_sel = Selector::parse("tr.cs-product-tile").expect("valid selector");
     let name_sel = Selector::parse("a.cs-product-tile__name-link").expect("valid selector");
     let weight_sel = Selector::parse("td.cs-product-tile__weight").expect("valid selector");
