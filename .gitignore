@@ -12,3 +12,6 @@ fs_*.log
 
 # Arbeitsprotokolle der Recherche-Agenten gehoeren nicht ins Repo.
 /diet_mw.log
+
+# Recherche-Arbeitsverzeichnis der Wellen-Agenten (Welle 1300-S2)
+/.work/
