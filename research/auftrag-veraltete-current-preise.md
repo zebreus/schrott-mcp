@@ -37,6 +37,22 @@ python3 scripts/release/find_stale_current_prices.py --json /tmp/opencode/stale-
      das wäre ein eigener Befund ✓ ✓).
 3. **Die Evidenz dokumentieren** ✓: die Live-Seite ✓, das Zitat der Zeile ✓, das Abrufdatum ✓.
 
+Die erste Einordnung ist maschinell gelaufen ✓
+(`scripts/release/check_stale_price_pages.py` ✓ — nur lesend ✓ ✓):
+
+| Befund | Händler | Bedeutung |
+|---|---:|---|
+| alle Schlüssel verschwunden ✓ | 9 ✓ | Rückzug ✓ |
+| Schlüssel steht noch da ✓ | 8 ✓ | der Handler **überspringt** sie ✓ — die Seite nennt die Sorte **ohne Preis** ✓ → Rückzug ✓ ✓ |
+| gemischt ✓ | 2 ✓ | Einzelfall ✓ |
+| Seite offline ✓ | 1 ✓ (amr ✓) | nichts tun ✓ ✓ |
+| Handler läuft gar nicht ✓ | 1 ✓ (wahl-co ✓) | korrekte Ablehnung ✓ ✓ |
+
+**Achtung** ✓: „steht noch da“ ist **kein** Gegenbeweis ✓ — im Fall `by-schaftlarn-frisch-recycling` ✓
+nennt die Seite „Pellets“ ✓ und „Wasserzähler“ ✓, der Handler **überspringt** sie aber ✓ (51
+übersprungene Labels ✓ ✓ — die Seite führt sie ohne Preis ✓ ✓) → auch hier gehört der Pointer
+zurückgezogen ✓ ✓. Der Beweis ist je Händler die **Preiszelle** ✓ ✓.
+
 ## Grenzen
 
 * **Nichts** in der Produktion ändern ✓ — die Produktionsdatenbanken bleiben **nur lesend** ✓
