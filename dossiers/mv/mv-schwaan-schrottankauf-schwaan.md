@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Schrottankauf Schwaan oder einen Standort in 18258 Schwaan (Abfrage 07.11.2026; Namenssuche „Schrottankauf Schwaan“ in beiden Routen 0 Treffer; Radiusabfrage 5 km um 18258 Schwaan in beiden Routen 0 Treffer, im 10-km-Radius 1 Efb-Treffer, die fremde Rokadi GmbH & Co. KG Firmensitz, Alte Dorfstraße 15, 18258 Vorbeck OT Kambs, ZZMT00400063 / 1, 6,1 km)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort in 18258 Schwaan (Radiusabfrage 5 km und 10 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: Betriebe (Tabelle)
 provenance_ankauf_raw: ja
 provenance_origin: table

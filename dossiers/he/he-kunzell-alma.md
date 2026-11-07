@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für ALMA oder für Entsorgung und Transporte Philipp Krieger an der Philipp-Reis-Straße 20, 36093 Künzell (Abfrage 07.11.2026; Namenssuche „ALMA“ in der Route Entsorgungsfachbetriebe 6 Treffer, sämtlich Namens-Teiltreffer: GRAALMANN GmbH in Leer, Westoverledingen und Borkum, ZZDT00100000 / 1-5, und Mayer Kanalmanagement GmbH, Tasdorf Süd 17, 15562 Rüdersdorf, ZZLE00100058 / 1; Namenssuche „Krieger“ in beiden Routen 0 Treffer; Radiusabfrage 3 km um die Dossier-Adresse 4 Efb-Treffer, sämtlich Fremdbetriebe, darunter Willi Leinweber Transport GmbH & Co. KG, In den Gründen 10, 36093 Künzell, ZZFE00100186 / 1, 1,3 km)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort in 36093 Künzell (Radiusabfrage 3 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

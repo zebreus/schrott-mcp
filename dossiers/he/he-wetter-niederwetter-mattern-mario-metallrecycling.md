@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Mattern Mario Metallrecycling oder einen Standort an der Mildengrund 1, 35083 Wetter (Hessen)-Niederwetter (Abfrage 07.11.2026; Namenssuche „Mattern“ in beiden Routen 0 Treffer; Radiusabfrage 3 km um die Dossier-Adresse 6 Efb-Treffer, sämtlich die fremde Scholz Recycling GmbH Standort Lahntal, Niederwettersche Straße 4, 35094 Lahntal, ZZEE00300308 / 1-6, 2,1 km; die ältere Portaladresse Zum Kalkberg 3, 35041 Marburg-Michelbach ist ebenfalls nicht zertifiziert, die 3-km-Radiusabfrage dort liefert 12 Efb-Treffer ohne Mattern-Bezug, darunter Marburger Entsorgungs-GmbH MEG, Am Krekel 17 und 55, 35039 Marburg, ZZCT00300056 / 1-2, und AVW Abfallverwertung Marburg-Biedenkopf + Schwalm-Eder GmbH, Im Lichtenholz 60, 35043 Marburg, ZZCT00300058 / 1)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort an der Mildengrund 1, 35083 Wetter (Hessen)-Niederwetter (Radiusabfrage 3 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: Einträge
 provenance_ankauf_raw: unklar
 provenance_origin: table

@@ -16,6 +16,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für die R. Müller Altmetallhandel GmbH, den Rudolf Müller Altmetall + Schrott e.K. oder den Standort Georg-Thiele-Str. 2, 81829 München (Abfrage 07.11.2026; Namenssuche „Müller“ in beiden Routen ohne Treffer an der Georg-Thiele-Straße; Radiusabfrage 3 km um die Dossier-Adresse 19 Efb-Treffer, sämtlich Fremdbetriebe, darunter Werner GmbH & Co. Straßenreinigung KG, Stahlgruberring 7a, 81829 München, ZZFE00100200 / 1-2, und Werner Garten- und Landschaftsbau GmbH, Stahlgruberring 7a, 81829 München, ZZFE00100201 / 1)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Georg-Thiele-Str. 2, 81829 München (Radiusabfrage 3 km um die Dossier-Adresse 1 Treffer, die fremde Schindelar Center Autoverwertung GmbH Süd, Valentin-Linhof-Straße 14, 81829 München, ZAIS00600016 / 1, 1,2 km; Abruf 07.11.2026)"]'
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
 provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose

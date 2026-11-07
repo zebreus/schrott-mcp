@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Trapp Uwe Schrotthändler in 97816 Lohr am Main (Abfrage 07.11.2026; Namenssuche „Trapp“ in der Route Entsorgungsfachbetriebe 10 Treffer, sämtlich andere Betriebe: Trapper GmbH in Kulmbach, ZZET01700277 / 1-5, RETERRA Service GmbH Kompostwerk Trappenfelde, ZZET01700342 / 19-20, und TRAPP Handelsgesellschaft mbH in Frankfurt am Main, ZZCT00300022 / 1, und in der Route Altfahrzeugverwertung 0 Treffer; Radiusabfrage 3 km um die Dossier-Adresse 5 Efb-Treffer, sämtlich die fremde Seubert Rohstoffhandel Inhaber Hans Seubert, Am Landgraben 14, 97816 Lohr am Main, ZZHT00300149 / 1-5, und 0 AltfahrzeugV-Treffer)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort 97816 Lohr am Main (Radiusabfrage 3 km 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
 provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose

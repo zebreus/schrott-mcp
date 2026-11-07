@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für einen der Namensbestandteile Ellar, Seelbach oder Niedworok und für keinen Standort in 65620 Waldbrunn (Abfrage 07.11.2026; Namenssuchen „Niedworok“, „Seelbach“ und „Ellar“ in beiden Routen 0 Treffer; Radiusabfrage 3 km um 65620 Waldbrunn in beiden Routen 0 Treffer, im 5-km-Radius 2 Efb-Treffer, die fremde Vobl Abfallentsorgung Reiner Vobl e.K., In den Birken 2, 35799 Merenberg, ZZEE00200204 / 1-2, 3,3 km)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort in 65620 Waldbrunn (Radiusabfrage 3 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

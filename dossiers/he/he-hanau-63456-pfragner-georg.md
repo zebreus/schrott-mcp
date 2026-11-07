@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Pfragner oder einen Standort an der Behringstraße 1a, 63456 Hanau-Klein-Auheim (Abfrage 07.11.2026; Namenssuche „Pfragner“ in beiden Routen 0 Treffer; Radiusabfrage 3 km um die Dossier-Adresse 15 Efb-Treffer ohne Pfragner-Bezug, darunter METALLUM Stainless GmbH, Dieselstraße 12, 63456 Hanau, ZZHT00300706 / 1, 0,1 km, und Container Dienst Heilig GmbH, Lise-Meitner-Straße 8, 63457 Hanau, ZZFT01300144 / 1, 1,8 km; der EfbV-Eintrag an der Nachbarhausnummer der Containerdienst-Adresse Dieselstraße 11 ist kein Beleg für einen Pfragner-Betrieb an der Behringstraße 1a)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort an der Behringstraße 1a, 63456 Hanau-Klein-Auheim (Radiusabfrage 3 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

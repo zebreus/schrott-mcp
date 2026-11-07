@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für das Kürzel AV oder für einen Standort in 65189 Wiesbaden (Abfrage 07.11.2026; Radiusabfrage 3 km um 65189 Wiesbaden 4 Efb-Treffer, sämtlich Fremdbetriebe, darunter GWT Gesellschaft, Coulinstraße 11, 65183 Wiesbaden, ZZFT01300134 / 1, Interzero Repasack GmbH Wiesbaden, Nerotal 4, 65193 Wiesbaden, ZZET01700140 / 1, ELW Entsorgungsbetriebe der Landeshauptstadt Wiesbaden Wertstoffhof Bierstadt, Kloppenheimer Straße 30, 65191 Wiesbaden-Bierstadt, ZZET01700037 / 8, und rm-trade GmbH, Mainzer Straße 117, 65189 Wiesbaden, ZZGT00200043 / 1; die Namenssuchen „ONBI“ und „Lahib“ liefern in beiden Routen 0 Treffer, auch die beiden im Dossier genannten Kandidaten sind nicht eingetragen)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort in 65189 Wiesbaden (Radiusabfrage 3 km um die Dossier-Adresse 0 Treffer, im 10-km-Radius 1 Treffer, die fremde Franco Navigato KFZ-Reifen-Handel Gebr. Ersatzteile, Industriestraße 16, 55120 Mainz, ZAHS01800033 / 1, 7,0 km; Abruf 07.11.2026)"]'
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
 provenance_ankauf_raw: AV / unklar
 provenance_origin: table

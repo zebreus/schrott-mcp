@@ -15,7 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-certifications: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Autoverwertung Schrotthandel Gazoz oder den Standort Richtbergstraße 17, 97493 Bergrheinfeld (Abfrage 07.11.2026; Namenssuche „Gazoz“ in beiden Routen 0 Treffer, Radiusabfrage 10 km um die Dossier-Adresse in der Route Entsorgungsfachbetriebe 67 Treffer und in der Route Altfahrzeugverwertung 3 Treffer, sämtlich Fremdbetriebe: PreZero Service Mitte-West GmbH & Co. KG NL Fulda BS Bergrheinfeld an Richtbergstraße 17, ZZEE00200224 / 14, Veolia Umweltservice Süd GmbH & Co. KG Bergrheinfeld an Richtbergstraße 3 und 4, ZZBT00300405 / 10-15, Helmut Ebner GmbH in Grafenrheinfeld, Kfz-Meisterbetrieb Inhaber Christian Hüther in Bergrheinfeld, Auto-Service Rudloff in Röthlein und Autoverwertung Mertel in Sennfeld)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Richtbergstraße 17, 97493 Bergrheinfeld (Abfrage 07.11.2026)"]'
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

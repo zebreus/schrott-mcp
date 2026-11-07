@@ -15,7 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-certifications: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Schrott Aller Art oder den Standort Mainzer Str. 83, 64293 Darmstadt (Abfrage 07.11.2026; Namenssuche „Schrott Aller Art“ in beiden Routen 0 Treffer; Radiusabfrage 3 km um die Dossier-Adresse 31 Efb-Treffer, sämtlich Fremdbetriebe, darunter RESO GmbH Niederlassung Darmstadt, Fabrikstraße 2, 64293 Darmstadt, ZZET01700391 / 4, uniroh GmbH Betriebsstätte Darmstadt, Pallaswiesenstraße 206, 80639 München, ZZEE00100266 / 3-7, FFR GmbH NL Darmstadt in der Nachbarhausnummer Mainzer Str. 80-82, 64293 Darmstadt, ZZCT00300059 / 4, und REMONDIS GmbH & Co. KG Niederlassung Büdingen BS Darmstadt, Landwehrstraße 88, 64293 Darmstadt, ZZET01700269 / 1; im 10-km-Radius 63 Efb-Treffer)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Mainzer Str. 83, 64293 Darmstadt (Radiusabfrage 3 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table

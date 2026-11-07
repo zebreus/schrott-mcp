@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Eddy’s Schrotthandel oder den Standort Josef-Schlicht-Straße 18, 81245 München (Abfrage 07.11.2026; Namenssuche „Eddy“ in beiden Routen 0 Treffer; Radiusabfrage 3 km um die Dossier-Adresse in der Route Entsorgungsfachbetriebe 26 Treffer, sämtlich Fremdbetriebe, darunter Sastra GmbH, Mühlangerstr. 50, 81247 München, ZZIT00500007 / 1-2, Der Abfallwirtschaftsbetrieb München (Wertstoffhöfe München), Mühlangerstr. 100, 81245 München, ZZIT00700292 / 23-24, und Rhenus Data Office GmbH Niederlassung München, Rupert-Bodner-Str. 25, 81245 München, ZZET01500092 / 1-4)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Josef-Schlicht-Straße 18, 81245 München (Radiusabfrage 3 km um die Dossier-Adresse 1 Treffer, die fremde Autoverwertung Kroher - Inhaber Christian Kroher, Rupert-Bodner-Straße 19, 81245 München, ZAIS00100003 / 1, 2,2 km; Abruf 07.11.2026)"]'
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
 provenance_ankauf_raw: unklar
 provenance_origin: table

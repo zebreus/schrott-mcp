@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Leonhard Hartmann oder den Standort Boschensäge 4, 87480 Weitnau (Abfrage 07.11.2026; Radiusabfrage 3 km und 5 km um die Dossier-Adresse in beiden Routen 0 Treffer; Namenssuche „Hartmann“ in der Route Altfahrzeugverwertung 0 Treffer, in der Route Entsorgungsfachbetriebe 9 Treffer, davon als einziger mit Schrottbezug die fremde Schrott Hartmann GmbH, An der Steinlach 26, 65474 Bischofsheim, ZZFT01300135 / 2-3)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Boschensäge 4, 87480 Weitnau (Radiusabfrage 3 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
 provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose

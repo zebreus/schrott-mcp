@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Hassoun oder einen Standort in 65589 Hadamar (Abfrage 07.11.2026; Namenssuche „Hassoun“ in der Route Entsorgungsfachbetriebe 0 Treffer; Radiusabfrage 3 km um 65589 Hadamar in beiden Routen 0 Treffer, im 5-km-Radius 1 Efb-Treffer, die Kompostierung HH-Kompostierung GmbH & Co. KG Kompostwerk Beselich, Niederstein Nord, 65614 Beselich, ZZCT00300018 / 3, 4,7 km)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort in 65589 Hadamar (Abfrage 07.11.2026; Namenssuche „Hassoun“ in der Route Altfahrzeugverwertung 1 Treffer, die fremde Autoverwertung Schön Mohammad R. A. Hassouneh, Wittauer Straße 5, 74564 Crailsheim, ZAIS00100013 / 1; Radiusabfrage 3 km und 5 km 0 Treffer)"]'
 provenance_section: Nachtrag Audit-Runde 4b – Kandidaten-Sweep (27.09.2026)
 provenance_ankauf_raw: AV / unklar
 provenance_origin: table

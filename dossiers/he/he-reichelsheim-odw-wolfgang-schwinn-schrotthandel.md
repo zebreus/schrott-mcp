@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Wolfgang Schwinn Schrotthandel oder einen Standort in 64385 Reichelsheim (Abfrage 07.11.2026; Namenssuche „Schwinn“ in der Route Entsorgungsfachbetriebe 1 Treffer, die fremde Josef Schwinn Nah- und Fernverkehr GmbH & Co. KG, Johanneshof, 66701 Beckingen, ZZKT00200005 / 1, und in der Route Altfahrzeugverwertung 0 Treffer; Radiusabfrage 3 km um 64385 Reichelsheim in beiden Routen 0 Treffer, im 5-km-Radius 1 Efb-Treffer, die ZAKB Energie und Dienstleistungs GmbH, Kamsbachweg, 64678 Lindenfels, ZZHT00400513 / 18, 4,8 km)", "AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort in 64385 Reichelsheim (Radiusabfrage 3 km und 5 km um die Dossier-Adresse 0 Treffer, Abruf 07.11.2026)"]'
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
