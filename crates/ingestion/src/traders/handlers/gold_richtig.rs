@@ -119,12 +119,25 @@ fn fineness(l: &str) -> &'static str {
 }
 
 /// Parse the static acceptance evidence in the rates window between
-/// "Unsere aktuellen Ankaufspreise" and "Kursgrundlage". Returns
+/// the purchase-price heading and "Kursgrundlage". Returns
 /// (labels, js_notes): the JS placeholder cells carry no prices, so the
 /// JS-only state is reported as one loud note, never a faked row.
 fn parse(html: &str) -> Result<(Vec<String>, Vec<String>), IngestError> {
+    // The heading was renamed ("Unsere aktuellen Ankaufspreise" ->
+    // "Unsere aktuellen Gold-Ankaufspreise"), so the window opens at the
+    // heading that mentions the purchase prices - not at a fixed string.
+    let doc = Html::parse_document(html);
+    let h2_sel = Selector::parse("h2").expect("valid selector");
+    let heading = doc
+        .select(&h2_sel)
+        .find(|el| el.text().collect::<String>().contains("Ankaufspreise"))
+        .ok_or_else(|| IngestError::Parse {
+            url: URL.to_owned(),
+            detail: "Ankaufsblock fehlt".to_owned(),
+        })?;
+    let heading_text = heading.text().collect::<String>();
     let start = html
-        .find("Unsere aktuellen Ankaufspreise")
+        .find(heading_text.trim())
         .ok_or_else(|| IngestError::Parse {
             url: URL.to_owned(),
             detail: "Ankaufsblock fehlt".to_owned(),
@@ -275,6 +288,10 @@ fn strip_fragment(s: &str) -> String {
 mod tests {
     use super::{grade_for, parse};
 
+    /// The live page of 07.11.2026: the heading now reads "Unsere aktuellen
+    /// Gold-Ankaufspreise" (it was "Unsere aktuellen Ankaufspreise").
+    const LIVE: &str = include_str!("fixtures/gold_richtig_20261107.html");
+
     // Real shape of the live rates block (data-home-rate placeholders
     // with "–", alloy chips, percent categories), trimmed.
     const FIXTURE: &str = "<h2>Unsere aktuellen Ankaufspreise</h2>\
@@ -289,6 +306,16 @@ mod tests {
         <div class=\"home-rates-percent-item\"><span>Altgold, Zahngold &amp; Bruchgold</span>\
         <strong data-home-gold-percent=\"altgold\">–</strong></div>\
         </div><div class=\"home-rates-stand\">Kursgrundlage</div>";
+
+    #[test]
+    fn die_live_seite_vom_07_11_2026_wird_geparst() {
+        // The renamed heading must not break the acceptance evidence.
+        let (labels, notes) = parse(LIVE).expect("parses");
+        assert!(!labels.is_empty(), "no acceptance labels");
+        assert!(labels.iter().any(|l| l.contains("750 Gold")), "{labels:?}");
+        // The JS-only state stays a loud note, never a faked price.
+        assert!(!notes.is_empty(), "the JS state must be reported");
+    }
 
     #[test]
     fn acceptance_labels_and_js_note() {
