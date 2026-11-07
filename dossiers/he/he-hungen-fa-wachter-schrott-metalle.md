@@ -5,7 +5,7 @@ trader_type: schrotthaendler
 state: HE
 city: Hungen
 street: Weedstr. 22
-postcode: ''
+postcode: '35410'
 phone: ''
 email: ''
 opening_hours: ''
@@ -24,12 +24,16 @@ provenance_origin: table
 
 ## Überblick
 
-Der Seed nennt „Fa. Wächter Schrott-Metalle“ in Hungen und die Adresse Weedstr. 22, aber der Betreiber, die Anschrift und die Schrottannahme konnten nicht durch eine Betreiberquelle oder amtlichen Gewerbenachweis bestätigt werden. Die geprüften Hungen-Stadt-/Wirtschaftsseiten sind allgemeine kommunale Informationen, keine vollständige Gewerberegisterauskunft; ihr Fehlen eines Treffers beweist weder Nichtexistenz noch Schließung. `status: pruefung` bleibt unverändert.
+„Fa. Wächter Schrott-Metalle" in Hungen bleibt ein **reiner Verzeichnislead ohne Betreiber- oder Registerbeleg**: Die Anschrift **Weedstraße 22, 35410 Hungen** ist durch `recyclinghof-wertstoffhof.de` und `bumaps.com` **zweifach** belegt (die Dossierzeile führte bislang keine PLZ). Die Telefonnummer **06402 505963** ist nur **ein** Aggregatorwert und wird deshalb nicht übernommen; die dort genannten Öffnungszeiten sind ausdrücklich einem **Google-Eintrag** zugeschrieben.
 
-- **Ankauf:** keine bestätigten Annahmebedingungen oder Ankaufskurse.
-- **Verkauf:** keine Verkaufspreise.
-- **Gebühren:** keine Angaben.
-- **Geokodierung:** Weedstr. 22 ist bislang Seed-Angabe ohne unabhängige Standortbestätigung; vor Geokodierung Betreiber und tatsächlichen Annahmeort klären.
+**Namensvetter, nicht übernommen:** Wächter H. F. Sanitär- und Heizungsbau (Kastellstraße 25, Hungen) sowie Wächter-Unternehmen in Hilden und Volkach — anderer Betrieb bzw. anderer Ort.
+
+**Registerbefund:** Das amtliche Fachbetriebseregister weist zum Abrufdatum 07.11.2026 **keinen** dem Standort zugeordneten Efb- oder AltfahrzeugV-Eintrag aus; die „Wächter"-Namenssuche trifft ausschließlich die ortsfremde Kleinwächter GmbH & Co. KG. Die Efb-/AltfahrzeugV-Anerkennung ist **freiwillig** — der Negativbefund beweist keine Abwesenheit.
+
+**Preise:** Ankauf — keine Kurse; Verkauf — keine Liste; Gebühren — keine Tarife.
+
+**Geocodierung:** Weedstraße 22 ist **GEO-Kandidat**; die Adresse bleibt bis zu einem Betreiber- oder Kommunalbeleg offen.
+
 
 ## Timeline
 
@@ -40,3 +44,8 @@ Der Seed nennt „Fa. Wächter Schrott-Metalle“ in Hungen und die Adresse Weed
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrotthändler (Verzeichnis)
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Postleitzahl ist verifiziert und eine Telefonnummer neu belegt — die bisher unbesetzten Kontaktfelder bleiben dennoch Aggregator-Angaben, weil eine zweite unabhängige Quelle fehlt.** `recyclinghof-wertstoffhof.de` (live gelesen, Abruf 07.11.2026) führt „Fa.Wächter Schrott-Metalle", **Weedstraße 22, 35410 Hungen**, Telefon **06402 505963** (+496402505963), Kategorie „Schrottplatz bzw. Schrotthändler", Lage 4,2 km Luftlinie vom Ortszentrum Hungen; die **Öffnungszeiten Mo–Do 07:00–17:00 Uhr, Fr 07:00–14:00 Uhr, Sa–So geschlossen** werden im Text ausdrücklich einem **Google-Eintrag, Stand Oktober 2026** zugeschrieben und sind damit **keine Betreiberangabe**. `bumaps.com` nennt unabhängig davon **„Weedstrasse22, 35410 Hungen"** und die Kategorie Schrotthändler — **die Postleitzahl 35410** ist damit **zweifach** belegt (die Dossierzeile führte bislang **keine** PLZ, obwohl `city: Hungen` korrekt ist), die **Straßenangabe „Weedstr. 22"** ebenso, die **Telefonnummer 06402 505963** dagegen nur **einfach** (Aggregatordaten). Die **Aussage „Was Fa.Wächter Schrott-Metalle annimmt"** der Verzeichnisseite („Der Betrieb nennt online keine Sorten oder Leistungen") ist selbst die Bestätigung, dass **kein Betreiberauftritt** existiert. **Namensvetter, ausdrücklich nicht übernommen:** **Wächter H. F. Sanitär- und Heizungsbau**, Kastellstraße 25, 35410 Hungen, 06402 504877 (GoLocal, live gelesen) — **anderer Betrieb, anderer Ortsteil, andere Branche**; ebenso die Wächter-Unternehmen in **Hilden** (Pflanzencenter) und **Volkach** (Wächter GmbH Sanitär- und Heizungstechnik, Oberer Markt 4, HR-Nr. unbekannt) — **keine Übernahme**. **ANKAUF:** keine Preise; **VERKAUF:** keine Liste; **GEBÜHREN:** keine Tarife. Quellen: https://recyclinghof-wertstoffhof.de/schrottplatz/hessen/hungen/fa-waechter-schrott-metalle/ ; https://bumaps.com/fa-wachter-schrott-metalle-germany-66256 ; https://www.golocal.de/hungen/heizungen/waechter-h-f-sanitaer-heizungsbau-7gET/ (Abruf 07.11.2026)]
+- [Recherche 07.11.2026: **Amtliches Fachbetriebseregister geprüft — kein dem Dossierstandort zugeordneter Nachweis (Negativaussage mit Reichweite).** Das amtliche Fachbetriebseregister (`fachbetrieberegister.gadsys.de`, clientseitig gerenderte Vaadin-App, per Playwright/Chromium bedient) wurde am 07.11.2026 in beiden Routen mit dem Filter „Art des Betriebs = Egal" (is=1&e=1) geprüft; Namenssuchen mit dst=10, Standortabfragen mit den Radien 3 und 10 km. **Namenssuche Route „Entsorgungsfachbetriebe":** „Wächter Schrott-Metalle" → **0 Treffer**; „Wächter Schrott" → **0 Treffer**; „Wächter" (Namenspool) → **3 Treffer**, sämtlich **Namensvetter**: `Kleinwächter GmbH & Co. Spedition, Silotransporte und Industrieprodukte KG`, Landwehr 14, 59969 Hallenberg, `ZZHT00300622 / 1`; dieselbe Gesellschaft an Köstritzer Straße 8, 07586 Caaschwitz, `ZZHT00300622 / 2`; und an Christine-Englerth-Straße 46, 45665 Recklinghausen, `ZZHT00300622 / 3` — **kein** Bezug zu Hungen, **keine Übernahme**. **Route „Altfahrzeugverwertung":** kein Treffer auf einen Wächter-Betrieb im Wetteraukreis. **Standortabfrage** um „Weedstraße 22, 35410 Hungen": EfB-Route dst=3 → **1 Treffer**; dst=10 → **15 Treffer**, die nächstgelegenen Zeilen sind `PreZero Service Mitte-West GmbH & Co. KG NL Dillenburg, Kompostwerk Rabenau`, Zum Noll 50, 35466 Rabenau, `ZZEE00200224 / 25` (1,6 km), `Bernd Hose Fuhrunternehmen-Baustoffhandel`, Ringstraße 9, 35325 Mücke OT Atzenhain, `ZZRT00200019 / 1` (4,4 km), `Stephan Seim Fuhr- und Baggerbetrieb`, Eiserne Hand 29, 35305 Grünberg, `ZZRT00200080 / 1` (4,7 km) und `Heinemann GmbH`, Eiserne Hand 17, 35305 Grünberg, `ZZFE00100156 / 1, 2` (5,0 km) — **andere Rechtsträger, keine Übernahme**; die **Dossier-Adresse Weedstraße 22 kommt im Register nicht vor**. Die Trefferzeilen wurden über die Grid-Paginierung vollständig gelesen; die Zahl der gelesenen Zeilen stimmt in jeder Abfrage mit der angezeigten Trefferzahl überein. **Ergebnis:** Für „Fa. Wächter Schrott-Metalle" weist das amtliche Fachbetriebseregister zum Abrufdatum 07.11.2026 keinen Eintrag aus, der dem Dossierstandort zugeordnet ist; Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation, Ausstellungsdatum, Gültigkeitsdatum, Anlagenanzahl und zertifizierte Tätigkeit sind **nicht ausgewiesen**. Das Feld `certifications` bleibt leer. **Reichweite:** Die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis für Nichtexistenz, Betriebsschließung oder fehlende Zertifizierungspflicht. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=W%C3%A4chter%20Schrott ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=W%C3%A4chter ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Weedstra%C3%9Fe%2022%2C%2035410%20Hungen%2C%20Deutschland%3B8.920971%3B50.640506%3B8.980971%3B50.700506%3B8.860971%3B50.580506&dst=3&is=1&e=1 (Abruf 07.11.2026)]
