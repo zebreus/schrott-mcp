@@ -1,30 +1,33 @@
 ---
 slug: rp-lahnstein-56112-baumgarten-sohn
-name: Baumgarten & Sohn
-trader_type: schrotthaendler
+name: Autoverwertung Baumgarten & Sohn OHG
+trader_type: autoverwertung
 state: RP
-city: Lahnstein 56112
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+city: Lahnstein
+street: Max-Schwarz-Straße 2A
+postcode: '56112'
+phone: '02621 2536'
+email: info@autoverwertungbaumgarten.de
+opening_hours: Mo-Fr 08:00-17:00, Sa 08:30-12:00
+website: https://www.autoverwertungbaumgarten.de/
+website_status: aktiv
+status: aktiv
+description: 'Familienunternehmen in Lahnstein (Max-Schwarz-Straße 2A, 56112), HRA 2197 AG Koblenz, seit 70 Jahren; Autoverwertung mit Altmetallankauf, Fahrzeugentsorgung, Ersatzteilverkauf und Fahrzeugabholung. Laut Betreiberimpressum vertreten durch Günter und Elke Baumgarten. ANKAUF: Altmetalle werden gewogen und zu aktuellen Preisen vergütet, Preise sind telefonisch zu erfragen; keine Euro-Kurse veröffentlicht. VERKAUF: gebrauchte Originalersatzteile ohne Preisliste. GEBÜHREN: Pkw-Abholung in Lahnstein kostenlos (Bedingungen zu erfragen), außerhalb individualized.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
+certifications: '["AltfahrzeugV-Anerkennung als Demontagebetrieb (amtliches Fachbetrieberegister, Route Altfahrzeugverwertung mit Filter Art des Betriebs = Demontagebetrieb, Abruf 07.11.2026): Autoverwertung Baumgarten & Sohn oHG, Max-Schwarz-Str. 2a, 56112 Lahnstein; Vorgangsnummer ZAHS01200073, Bescheinigungsanlagennr. 1; Kennnummer G00236570; Telefon 02621 2536, Fax 02621 628533, E-Mail info@autoverwertungbaumgarten.de; Ansprechpartnerin Frau Diana Baumgarten-Hoeller (Telefon 0176/64049448); der Detaildialog nennt als Adresse der Firma Max-Schwarz-Str. 2a, 56112 Lahnstein und fuehrt keine unentgeltliche Ruecknahme fuer Hersteller auf; ein EfbV-Zertifikat ist fuer diese Firma im Register nicht eingetragen (Namenssuche EfbV nach Baumgarten und nach Baumgarten & Sohn am 07.11.2026 jeweils 0 Treffer)"]'
 ---
 
-# Baumgarten & Sohn
+# Autoverwertung Baumgarten & Sohn OHG
 
 ## Überblick
 
-Die aktuelle Website unter `autoverwertungbaumgarten.de` nennt **Autoverwertung Baumgarten & Sohn OHG**, HRA 2197 beim AG Koblenz, Max-Schwarz-Str. 2A, 56112 Lahnstein, Günter und Elke Baumgarten, 02621 2536 und info@autoverwertungbaumgarten.de. NorthData führt dieselbe HRA 2197 jedoch unter dem Namen **Wanda Baumgarten & Sohn OHG**; die genaue aktuelle Namens-/Rechtsträgerlage ist deshalb nicht vollständig registerkongruent geklärt. Websiteinhalte und Leistungsangebot sind aktuell; der Primärquellen-Namenswiderspruch verhindert hier einen sicheren Frontmatter-Fill/Statuswechsel.
+Die Identität ist jetzt durch **zwei unabhängige Quellen** belegt: das amtliche Fachbetrieberegister führt **Baumgarten & Sohn oHG** als **anerkannten Demontagebetrieb** nach AltfahrzeugV an **Max-Schwarz-Str. 2a, 56112 Lahnstein** (Vorgang ZAHS01200073, Bescheinigungsanlagennr. 1, Kennnummer G00236570, mit Telefon, Fax, E-Mail und Ansprechpartnerin) und die Betreiberseite nennt **Autoverwertung Baumgarten & Sohn OHG**, HRA 2197 AG Koblenz, dieselbe Anschrift, dieselbe Telefonnummer und dieselbe E-Mail-Adresse. Damit ist der seit dem 01.10.2026 offene Klärfall geschlossen. Die Namensschreibweise bleibt der einzige offene Punkt: Register „**Baumgarten & Sohn oHG**“, Website „**Baumgarten & Sohn OHG**“, NorthData „**Wanda Baumgarten & Sohn OHG**“ bei derselben HRA 2197 - die Vorname-Differenz im Registerportal ist damit **nicht** ausgeräumt, die Rechtsträgeridentität über die Register- und E-Mail-Kongruenz aber belegt; der Dossiername folgt der Betreiberseite. **Ankauf:** Altmetalle werden gewogen und „zu aktuellen Preisen vergütet“, die Preise sind ausdrücklich telefonisch zu erfragen - **keine** €/kg-Kurse veröffentlicht. **Verkauf:** gebrauchte Originalersatzteile ohne Preisliste. **Gebühren:** die Pkw-Abholung wird **in Lahnstein kostenlos** angeboten (Bedingungen sind zu erfragen), außerhalb für ein individuelles Angebot; eine pauschale Gratisabholung wird nicht behauptet. Die AltfahrzeugV-Anerkennung belegt die Anerkennung als Demontagebetrieb, nicht dagegen die öffentliche Privatkundenannahme, Ankaufvergütung, Verkaufspreise oder Gebühren.
+
+Die aktuelle Website unter `autoverwertungbaumgarten.de` nennt **Autoverwertung Baumgarten & Sohn OHG**, HRA 2197 beim AG Koblenz, Max-Schwarz-Str. 2A, 56112 Lahnstein, Günter und Elke Baumgarten, 02621 2536 und info@autoverwertungbaumgarten.de; das Impressum weist als persönlich haftende Gesellschafter Günter und Elke Baumgarten aus, als Webmasterin Desirée Baumgarten, und nennt zusätzlich die Telefaxnummer 02621 6285133. NorthData führt dieselbe HRA 2197 jedoch unter dem Namen **Wanda Baumgarten & Sohn OHG**; die genaue aktuelle Namens-/Rechtsträgerlage ist deshalb nicht vollständig registerkongruent geklärt. Das amtliche Register führt denselben Vorgang ohne den Vornamen und in der Schreibweise „oHG“.
 
 Die Website führt Öffnungszeiten Mo–Fr 08:00–17:00 und Sa 08:30–12:00; am ersten Samstag im Monat geschlossen. Sie beschreibt Altmetallannahme, Kfz-Entsorgung, Fahrzeugabholung und den Verkauf gebrauchter Teile.
 
@@ -48,3 +51,7 @@ Die Website führt Öffnungszeiten Mo–Fr 08:00–17:00 und Sa 08:30–12:00; a
 
 - Schrottautos
 - Adresse: Lahnstein 56112
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Das amtliche Fachbetrieberegister belegt den Betrieb als anerkannten Demontagebetrieb und schließt den Identitätsklärfall vom 01.10.2026.** Die Namenssuche in der Route „Altfahrzeugverwertung“ mit dem Filter **„Art des Betriebs = Demontagebetrieb“** (`…/Altfahrzeugverwertung/dst=10&is=1&o=2&e=1&n=Baumgarten`, Abruf 07.11.2026) liefert **1 Treffer**: **Baumgarten & Sohn oHG**, Max-Schwarz-Str. 2a, 56112 Lahnstein, Vorgangsnummer **ZAHS01200073**, Bescheinigungsanlagennr. **1**. Der Detaildialog des Registers nennt dazu **Kennnummer G00236570**, **Telefon 02621 2536**, **Fax 02621 628533**, **E-Mail info@autoverwertungbaumgarten.de**, als Ansprechpartnerin **Frau Diana Baumgarten-Hoeller (Telefon 0176/64049448)** und als Adresse der Firma Max-Schwarz-Str. 2a, 56112 Lahnstein; eine unentgeltliche Rücknahme für Hersteller ist nicht aufgeführt. Die Radiusabfrage mit 3 km um die Dossier-Adresse (`…/Altfahrzeugverwertung/adr=56112 Lahnstein, Deutschland;7.6136732;50.2920154;…&dst=3&is=1&e=1`) weist den Treffer mit **0,3 km** aus; die Namenssuche in der Route „Altfahrzeugverwertung“ (alle Arten) liefert denselben einen Treffer, die Suche „Baumgarten & Sohn“ ebenfalls **1 Treffer**. **Negativbefund zum EfbV:** die Namenssuche in der Route „Entsorgungsfachbetriebe“ nach **Baumgarten** und nach **Baumgarten & Sohn** (`…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Baumgarten` bzw. `…&n=Baumgarten%20%26%20Sohn`) liefert **je 0 Treffer**; auch die Hauptsitzsuche (`…&h=1&n=Baumgarten`) liefert **0 Treffer**. Für diese Firma ist damit **kein** EfbV-Zertifikat eingetragen - die AltfahrzeugV-Anerkennung besteht eigenständig. Die Radiusabfrage mit 3 km um die Dossier-Adresse in der Route „Entsorgungsfachbetriebe“ liefert **3 Treffer**, sämtlich Fremdbetriebe (Schüler GmbH & Co. KG, Dr.-Walter-Lessing-Straße 14, 56112 Lahnstein, ZZHT00900100 / 1 und / 2, 1,1 km; Remondis Recycling GmbH & Co. KG, Im Hafen 1, 56112 Lahnstein, ZZET01500027 / 14, 1,7 km) und **keinen** Eintrag an der Max-Schwarz-Straße 2a. **Betreiberseite erneut gelesen:** das Impressum nennt **Autoverwertung Baumgarten & Sohn OHG**, Max-Schwarz-Str. 2A, 56112 Lahnstein, Tel. 02621 2536, **Fax 02621 6285133**, E-Mail Info(at)autoverwertungbaumgarten.de, **HRA 2197 AG Koblenz**, USt-IdNr. DE1496596911, Aufsichtsbehörde SGD Nord, vertreten durch **Günter Baumgarten und Elke Baumgarten**, Webmasterin **Desirée Baumgarten**; die Altmetallseite nennt Schrott, Messing, Kupfer, Kabel, Aluminium, Blei, Zink und E-Motor, „auch kleine Mengen werden angenommen, gewogen und zu aktuellen Preisen vergütet“, und schließt **Elektroschrott** aus; die Abholseite nennt die **kostenlose Pkw-Abholung in Lahnstein** (Bedingungen zu erfragen) und für den Space außerhalb ein vorher anzufragendes Angebot, dazu einen Verwertungsnachweis bei Abholung. **Frontmatter gefüllt** (Register plus Betreiberimpressum, zwei Quellen): Name **Autoverwertung Baumgarten & Sohn OHG** (Schreibweise der Betreiberseite; die abweichende Register-Schreibweise „oHG“ und die NorthData-Angabe „Wanda Baumgarten & Sohn OHG“ bleiben als offener Namenspunkt in der Timeline), `trader_type` von `schrotthaendler` auf **autoverwertung** (das Register weist die Firma als Demontagebetrieb aus, die Betreiberseite nennt Autoverwertung, Altfahrzeugannonahme und -entsorgung; der Seed-typ „Schrottautos“ steckt in dieser Bezeichnung), Straße **Max-Schwarz-Straße 2A**, PLZ **56112**, Telefon **02621 2536**, E-Mail **info@autoverwertungbaumgarten.de**, Öffnungszeiten **Mo-Fr 08:00-17:00, Sa 08:30-12:00**, Website **https://www.autoverwertungbaumgarten.de/** (HTTP 200, Betreiberdomain), `city` von „Lahnstein 56112“ auf **Lahnstein** bereinigt, `status` von `pruefung` auf **aktiv** (Registeranerkennung als Demontagebetrieb plus aktueller Betreiberauftritt), `certifications` mit dem AfV-Befund. **Reichweite:** Register und Zertifikat belegen die Anerkennung, den Standort und die Kontaktdaten, nicht dagegen öffentliche Privatkundenannahme, Ankaufvergütung, Verkaufspreise oder Gebühren. **ANKAUF:** „aktuelle Preise“, Vergütung nach Verwiegung, Preise telefonisch zu erfragen - **keine** €/kg-Kurse; **VERKAUF:** gebrauchte Originalteile ohne Preisliste; **GEBÜHREN:** Abholung in Lahnstein laut Betreiber kostenlos, Bedingungen zu erfragen, außerhalb individuelles Angebot, **keine** bezifferten Tarife. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=2&e=1&n=Baumgarten ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=56112%20Lahnstein%2C%20Deutschland%3B7.6136732%3B50.2920154%3B7.6136732%3B50.2920154%3B7.6136732%3B50.2920154&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Baumgarten ; https://www.autoverwertungbaumgarten.de/impressum/ ; https://www.autoverwertungbaumgarten.de/altmetalle/ ; https://www.autoverwertungbaumgarten.de/pkw-abholung/ .]
