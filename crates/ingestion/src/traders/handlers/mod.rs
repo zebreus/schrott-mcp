@@ -98,6 +98,7 @@ pub mod philoro_bremen;
 pub mod philoro_frankfurt;
 pub mod philoro_hamburg;
 pub mod plum;
+pub mod proaurum;
 pub mod pur_umwelt_bonn;
 pub mod quell;
 pub mod regold;
@@ -255,6 +256,18 @@ pub fn all() -> Vec<Handler> {
         philoro_frankfurt::handler(),
         philoro_hamburg::handler(),
         plum::handler(),
+        // pro aurum: one national price list for eleven branches
+        proaurum::handler(proaurum::SLUGS[0]),
+        proaurum::handler(proaurum::SLUGS[1]),
+        proaurum::handler(proaurum::SLUGS[2]),
+        proaurum::handler(proaurum::SLUGS[3]),
+        proaurum::handler(proaurum::SLUGS[4]),
+        proaurum::handler(proaurum::SLUGS[5]),
+        proaurum::handler(proaurum::SLUGS[6]),
+        proaurum::handler(proaurum::SLUGS[7]),
+        proaurum::handler(proaurum::SLUGS[8]),
+        proaurum::handler(proaurum::SLUGS[9]),
+        proaurum::handler(proaurum::SLUGS[10]),
         pur_umwelt_bonn::handler(),
         regold::handler(),
         rheinische_berlin_kudamm::handler(),
