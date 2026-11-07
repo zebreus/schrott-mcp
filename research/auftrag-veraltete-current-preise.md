@@ -1,5 +1,17 @@
 # Auftrag: die veralteten Current-Preise (22 Händler, 225 Preispaare)
 
+## Stand (07.11.2026, 13:30 UTC)
+
+| Teil | Stand |
+|---|---|
+| **11 Händler** ✓ (161 Paare ✓) | **erledigt** ✓ — die Evidenz steht in den Dossiers ✓ (`### Korrektur 07.11.2026 (Preispflege)` ✓ ✓) ✓ |
+| davon **Rückzug** ✓ | 158 Paare ✓ — die Sorte fehlt auf der Seite ✓, wird unter anderem Schlüssel geführt ✓ oder steht dort ohne Preis ✓ ✓ |
+| davon **kein Fall** ✓ | 3 Paare ✓ (`hartmetall` ✓ beim NEUWERT-Feed ✓) — die Sorte **wird** angeboten ✓ ✓, der Handler übersprang sie nur wegen der Schreibweise ✓ ✓ → **Mapping-Befund** ✓, im Handler behoben ✓ ✓ (`neuwert.rs` ✓ ✓) ✓ |
+| **11 Händler** ✓ (98 Paare ✓) | **läuft** ✓ — die Evidenz wird gesammelt ✓ ✓ |
+| **Migration** ✓ | geschrieben ✓ (`Migration 11` ✓ im Store ✓ ✓) mit der **Liste** ✓ `crates/store/src/public/stale_current_prices.tsv` ✓ ✓; **fail-closed** ✓ (nur bei genau der geprüften Population ✓ ✓) ✓; Probe gegen eine **Kopie** ✓ der Produktionsdatenbank ✓: `current_prices` 2938 → 2777 ✓ (genau 161 zurückgezogen ✓ ✓), die **Historie unverändert** ✓ (45945 Zeilen ✓ ✓) ✓ |
+
+**Die Liste ist der Beleg** ✓ ✓: jedes Paar wurde an der **Live-Seite** ✓ des Handlers geprüft ✓ (Filter ✓, Abrufdatum ✓ ✓) und im Dossier **wörtlich** zitiert ✓ ✓ ✓.
+
 ## Befund
 
 Ein Handler nimmt je Lauf die Preise auf, die seine Seite **heute** anbietet ✓. Bietet die Seite
