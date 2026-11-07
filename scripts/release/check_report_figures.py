@@ -197,6 +197,16 @@ def main() -> int:
     print("=== 13:00-Bericht ===")
     ok &= pruefe("Dossiers 20cf7fec..544da648", len(scope("20cf7fec", "544da648")), 60)
 
+    print("=== 10:30-Welle (16:00-Basis) ===")
+    ok &= pruefe("Dossiers 1a934a3b..d437dcec", len(scope("1a934a3b", "d437dcec")), 60)
+    z1030 = feldzaehlungen("1a934a3b", "d437dcec")
+    for feld, soll in (("postcode", 8), ("street", 6), ("email", 5), ("phone", 5),
+                        ("lat", 4), ("lon", 4), ("description", 3),
+                        ("opening_hours", 3), ("website", 3), ("website_status", 3),
+                        ("name", 2), ("certifications", 1), ("city", 1),
+                        ("clear_fields", 1)):
+        ok &= pruefe(f"10:30 {feld}", z1030[feld], soll)
+
     print("=== SN-Zweige ===")
     ok &= pruefe("unausgeglichene Dossiers in der Basis 2e5059b0",
                  unausgeglichen("2e5059b0"), 43)
