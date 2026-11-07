@@ -18,7 +18,7 @@ pickup_json: ''
 provenance_section: 'Neu: nur Verzeichnis-Beleg (lokaleschrottplatz.de, Ankauf unklar)'
 provenance_ankauf_raw: unklar (Register-Prosa)
 provenance_origin: prose
-certifications: '["Entsorgungsfachbetrieb §56 KrWG (ZN ZertifizierungsNetzwerk GmbH, Goethestraße 11/5, 71131 Jettingen; Zertifikatsnummer 2026-0061, Vorgangsnummer ZZHT010002890005; Prüfungsdatum 27.02.2026, Ausstellungsdatum 09.03.2026, gültig bis zum 26.08.2027; 2 Anlagen; Entsorgungsfachbetrieb Bachinger Schrott & Metalle, Gewerbepark 25, 87640 Altdorf, Registernummer Nicht zutreffend; Anlage 1 dem Standort Gewerbepark 25, 87640 Altdorf zugeordnet, Tätigkeiten Sammeln, Befördern, Kennnummer nach § 28 NachwV I777T90030; Anlage 2 gleicher Standort, Tätigkeiten Lagern, Verwerten, Kennnummer I777S00085"]'
+certifications: '["Entsorgungsfachbetrieb §56 KrWG (ZN ZertifizierungsNetzwerk GmbH, Goethestraße 11/5, 71131 Jettingen; Zertifikatsnummer 2026-0061, Vorgangsnummer ZZHT010002890005; Prüfungsdatum 27.02.2026, Ausstellungsdatum 09.03.2026, gültig bis zum 26.08.2027; 2 Anlagen; Entsorgungsfachbetrieb Bachinger Schrott & Metalle, Gewerbepark 25, 87640 Altdorf, Registernummer Nicht zutreffend; Anlage 1 dem Standort Gewerbepark 25, 87640 Altdorf zugeordnet, Tätigkeiten Sammeln, Befördern, Kennnummer nach § 28 NachwV I777T90030; Anlage 2 gleicher Standort, Tätigkeiten Lagern, Verwerten, Kennnummer I777S00085)"]'
 ---
 
 # Bachinger
@@ -68,3 +68,7 @@ Die aktuelle Betreiberwebsite Bachinger Schrott + Metalle bezeichnet Paul Bachin
   geführte Ortsangabe `Altdorf` ist eine Adressvariante derselben Anschrift, die bereits im Dossier vermerkt
   ist. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bachinger&p=ZZHT01000289&fd=1
   (Abruf 06.11.2026).]
+
+### Korrektur 07.11.2026 (Klammerbalance)
+
+- [Korrektur 07.11.2026 (Klammerbalance): **Der `certifications`-Eintrag war unausgeglichen (fehlende schliessende Klammer ✓).** Die schliessende Klammer wurde am Ende des Eintrags ergaenzt ✓ - kein Wort, keine Zahl und kein Leerzeichen wurden geaendert ✓. Element 0 des Eintrags `by-biessenhofen-bachinger.md` ✓ hatte eine Bilanz von **+1** ✓ (5 öffnende ✓, 4 schliessende ✓) und ist jetzt ausgeglichen ✓. Die Klammerbalance ist seit der Wellen-Welle 06.11.2026 ein Gate (`scripts/release/check_cert_balance.py` ✓); der Eintrag stand so bereits in der Basis `27ef26f8` ✓ und ist damit **Altbestand** ✓, kein Neuzugang dieser Welle ✓.]

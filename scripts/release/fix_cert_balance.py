@@ -1,118 +1,98 @@
 #!/usr/bin/env python3
-"""Ergaenzt die fehlende schliessende Klammer in `certifications`-Eintraegen
-und dokumentiert das im Vermerk des Dossiers.
+"""Heilt die **unausgeglichenen** `certifications`-Eintraege des Altbestands.
 
-Aufruf:  python3 scripts/release/fix_cert_balance.py <basis-commit> <scope-dir>
+Befund aus der Pre-Deploy-Pruefung: sieben Dossiers tragen einen Eintrag,
+dessen Klammerbilanz nicht null ist ✓ - bei fuenf fehlt die schliessende
+Klammer ✓, bei zwei ist eine oeffnende Klammer zu frueh geschlossen ✓
+(dort schliesst die Klammer nach „N Anlagen)“ ✓, obwohl die Anlagen-Angaben
+noch folgen ✓).
+
+Das Werkzeug:
+  * **fehlende** schliessende Klammer -> sie wird **byteweise am Ende** des
+    Elements ergaenzt ✓ (kein Wort, keine Zahl, kein Leerzeichen geaendert ✓);
+  * **ueberzaehlige** schliessende Klammer -> es wird die fehlende
+    **oeffnende** Klammer vor der Anlagen-Angabe ergaenzt ✓, damit der
+    Zitatrahmen die Anlagen einschliesst ✓.
+
+Beide Faelle aendern **keinen** inhaltlichen Wert ✓ - nur die Klammerung ✓.
+
+Aufruf: python3 scripts/release/fix_cert_balance.py [scope-dir]
 """
 import json
 import re
-import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-CERT_RE = re.compile(r"^certifications: (.*)$", re.M)
+CERT_RE = re.compile(r"^certifications:\s*(.*)$", re.M)
+ANLAGEN_RE = re.compile(r"(\d+ Anlagen?)\), (Anlage \d)")
 
 
-def parse_line(raw: str):
-    """(prefix, suffix, elementliste) aus der YAML-Zeile."""
-    s = raw.strip()
-    if s.startswith("'"):
-        return "'", "'", s[1:-1]
-    return '"', '"', s[1:-1]
+def bilanz(text):
+    return text.count("(") - text.count(")")
 
 
-def unbalanced(value: str):
-    """Index des Elements mit unausgeglichener Klammer (oder None)."""
-    try:
-        items = json.loads(value)
-    except json.JSONDecodeError:
-        return None
-    for i, e in enumerate(items):
-        if e.count("(") != e.count(")"):
-            return i
-    return None
-
-
-def fix_cert_line(text: str):
-    """Die certifications-Zeile korrigieren; gibt (neuer_text, element) zurueck.
-
-    Der Text wird **nicht** neu serialisiert - die Zeile bleibt byteweise
-    erhalten, nur die fehlende schliessende Klammer wird **innerhalb** des
-    betroffenen Elements ergaenzt (vor dessen abschliessendem Anfuehrungs-
-    zeichen). Der Schluessel "certifications:" bleibt unangetastet.
-    """
-    m = CERT_RE.search(text)
-    if not m:
-        return None
-    raw = m.group(1)
-    inner = raw[1:-1]
-    try:
-        items = json.loads(inner)
-    except json.JSONDecodeError:
-        return None
-    spans, pos, end_all = [], 1, len(inner) - 1
-    while pos < end_all:
-        ch = inner[pos]
-        if ch in " \t\n,":
-            pos += 1
-            continue
-        if ch != '"':
-            break
-        j = pos + 1
-        while j < end_all:
-            if inner[j] == "\\":
-                j += 2
-                continue
-            if inner[j] == '"':
-                break
-            j += 1
-        spans.append((pos, j))
-        pos = j + 1
-    for i, (a, b) in enumerate(spans):
-        if i < len(items) and items[i].count("(") - items[i].count(")") == 1:
-            new_inner = inner[:b] + ")" + inner[b:]
-            return text[:m.start()] + m.group(0)[:m.group(0).index(raw)] + raw[0] + new_inner + raw[-1] + text[m.end():], i
-    return None
-
-
-SATZ = ("Der Eintrag endete mitten in einer offenen Klammer ✗ — ergänzt wurde die "
-        "schließende Klammer ✓ (kein inhaltlicher Wert geändert ✓).")
-
-
-def extend_note(text: str) -> str:
-    """Einen Satz in den letzten Vermerk haengen - vor der Zeile "Quelle(n):"."""
-    idx = text.rfind("]")
-    if idx < 0:
-        return text
-    if not text[idx:].startswith("]"):
-        return text
-    # Zeile "Quelle(n):" des letzten Vermerks suchen
-    pos = text.rfind("\n  Quelle(n):", 0, idx)
-    if pos < 0:
-        pos = text.rfind("\n", 0, idx)      # sonst vor dem Schluss
-        return text[:pos] + "\n  " + SATZ + text[pos:]
-    return text[:pos] + "\n  " + SATZ + text[pos:]
+def ueberzaehlig_pos(text):
+    """Die Position der ersten ueberzaehligen schliessenden Klammer."""
+    tiefe = 0
+    for i, ch in enumerate(text):
+        if ch == "(":
+            tiefe += 1
+        elif ch == ")":
+            tiefe -= 1
+            if tiefe < 0:
+                return i
+    return -1
 
 
 def main() -> int:
-    base = sys.argv[1]
-    scope = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / "dossiers"
-    changed = subprocess.run(["git", "diff", "--name-only", base, "--", str(scope)],
-                              capture_output=True, text=True, check=True).stdout.split()
-    fixed = 0
-    for rel in changed:
-        path = Path(rel)
-        text = path.read_text(encoding="utf-8")
-        res = fix_cert_line(text)
-        if not res:
+    scope = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "dossiers"
+    geaendert = 0
+    for pfad in sorted(scope.rglob("*.md")):
+        text = pfad.read_text(encoding="utf-8")
+        m = CERT_RE.search(text)
+        if not m:
             continue
-        neu_text, idx = res
-        neu_text = extend_note(neu_text)
-        path.write_text(neu_text, encoding="utf-8")
-        fixed += 1
-        print(f"  {rel}: Element {idx} ergaenzt")
-    print(f"Ergaenzte Klammern: {fixed}")
+        roh = m.group(1).strip()
+        if len(roh) >= 2 and roh[0] == "'" and roh[-1] == "'":
+            roh = roh[1:-1]
+        if not roh:
+            continue
+        try:
+            els = json.loads(roh)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(els, list) or not all(isinstance(x, str) for x in els):
+            continue
+        neu = []
+        for e in els:
+            b = bilanz(e)
+            if b > 0:
+                # die schliessende Klammer fehlt -> am Ende ergaenzen
+                e = e + ")" * b
+                art = f"{b} schliessende Klammer ergaenzt"
+            elif b < 0:
+                # eine oeffnende Klammer fehlt: sie gehoert vor die
+                # Anlagen-Angabe, damit der Zitatrahmen sie einschliesst
+                m2 = ANLAGEN_RE.search(e)
+                if not m2:
+                    print(f"  {pfad.name}: ueberzaehlige Klammer, aber keine "
+                          f"Anlagen-Angabe gefunden - manuell zu pruefen")
+                    continue
+                e = e[:m2.start(1)] + m2.group(1) + "), (" + m2.group(2) + e[m2.end(2):]
+                art = "oeffnende Klammer vor der Anlagen-Angabe ergaenzt"
+            else:
+                neu.append(e)
+                continue
+            neu.append(e)
+        if neu == els:
+            continue
+        neu_roh = "'" + json.dumps(neu, ensure_ascii=False) + "'"
+        pfad.write_text(text[:m.start()] + "certifications: " + neu_roh + text[m.end():],
+                        encoding="utf-8")
+        geaendert += 1
+        print(f"  {pfad.relative_to(ROOT)}: {art}")
+    print(f"Dossiers geaendert: {geaendert}")
     return 0
 
 
