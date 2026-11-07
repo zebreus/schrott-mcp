@@ -109,6 +109,9 @@ def main() -> int:
                     help="auch Slugs mit leerem/NULL street nehmen")
     ap.add_argument("--ausschluss", action="append", default=[],
                     help="Datei mit auszuschliessenden Slugs")
+    ap.add_argument("--auswahl", type=Path,
+                    help="Datei mit der Slug-Liste (eine Slug je Zeile); "
+                         "ueberschreibt den Pool")
     ap.add_argument("--ausgabe", default="/tmp/opencode/welle.json")
     args = ap.parse_args()
 
@@ -116,6 +119,52 @@ def main() -> int:
         print(f"shards ({args.shards}) * pro_shard ({args.pro_shard}) "
               f"!= anzahl ({args.anzahl}) ✗")
         return 1
+
+    if args.auswahl:
+        slugs = []
+        for line in args.auswahl.read_text(encoding="utf-8").splitlines():
+            s = line.strip()
+            if s and not s.startswith("#"):
+                slugs.append(s)
+        if len(slugs) != args.anzahl:
+            print(f"Auswahl hat {len(slugs)} Slugs, erwartet {args.anzahl} ✗")
+            return 1
+        print(f"Auswahl aus {args.auswahl}: {len(slugs)} Slugs ✓")
+        by_state = defaultdict(list)
+        for slug in slugs:
+            by_state[slug.split("-", 1)[0].upper()].append(slug)
+        print(f"Bundesstaaten in der Auswahl: {len(by_state)}")
+        # dieselbe Aufteilung wie im Pool-Fall: jeder Bundesstaat mit allen
+        # seinen Slugs in genau einen Shard ✓
+        rng = random.Random(args.seed)
+        shards = None
+        for _ in range(200):
+            plan = aufteilen(by_state, args.shards, args.pro_shard, rng)
+            if plan:
+                shards = [[] for _ in range(args.shards)]
+                zustand = {s: rng.sample(by_state[s], len(by_state[s])) for s in by_state}
+                for k, staat, n in plan:
+                    shards[k].extend(zustand[staat][:n])
+                break
+        if not shards:
+            print("Keine bundesland-disjunkte Aufteilung gefunden ✗")
+            return 1
+        for i, sh in enumerate(shards, 1):
+            staaten = sorted({s.split("-", 1)[0].upper() for s in sh})
+            print(f"  Shard {i}: {len(sh)} Slugs | {', '.join(staaten)}")
+        payload = {
+            "seed": args.seed,
+            "pool_groesse": len(slugs),
+            "pro_shard": args.pro_shard,
+            "shards": [
+                {"nr": i, "slugs": sh,
+                 "bundesstaaten": sorted({s.split("-", 1)[0].upper() for s in sh})}
+                for i, sh in enumerate(shards, 1)],
+        }
+        Path(args.ausgabe).write_text(
+            json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"Gespeichert: {args.ausgabe} ✓")
+        return 0
 
     ausgeschlossen = set()
     for pfad in args.ausschluss:
