@@ -35,7 +35,6 @@ zugeordnet, zwei davon sind zertifizierte Erstbehandlungsanlagen nach § 21 Elek
 Ebenfalls amtlich belegt ist die Anerkennung als Demontagebetrieb nach der AltfahrzeugV
 mit der Kennnummer E55400910. Offen bleibt die Firmierung, denn als Zertifikatsinhaber ist
 im Register eine andere Gesellschaft mit derselben Anschrift und Kontaktdaten eingetragen.
-
 ## Timeline
 
 ### Recherche 01.10.2026
@@ -93,3 +92,7 @@ im Register eine andere Gesellschaft mit derselben Anschrift und Kontaktdaten ei
   ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dutz&p=ZZHT00300235&fd=1
   (Abruf 04.11.2026)]
+
+- [Korrektur 06.11.2026: **Die Erstbehandlungsanlage nach § 21 ElektroG war nur einer Anlage zugeordnet.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) lautet in Feld 5.1 „Zur Zertifizierung als Erstbehandlungsanlage im Sinne des § 21 ElektroG siehe Anlage(n) 3, 4“; der Eintrag nannte nur die Anlage 3 und wurde um die Anlage 4 ergänzt.
+  Unverändert bestätigt sind: „1.1 Name: DEKRA Certification GmbH“, „1.2 Straße: Handwerkstraße 15“, Postleitzahl 70565, Ort Stuttgart = Aussteller mit vollständiger Anschrift; „3.1 ...: 120897475“; „3.3 Vorgangsnummer ...: ZZHT003002358013“ (im Raster verkürzt „ZZHT00300235 / 1“ bis „/ 4“); „3.4 Das Zertifikat beinhaltet 4 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 25.11.2027“; „4.1 Name: Dutz Recycling GmbH“, „4.2 Straße: Hansestraße 25“, Postleitzahl 46325, Ort Borken; „4.4 ... Registernummer ...: HRB 10543 ... Registergericht: Coesfeld“; „6. Prüfungsdatum: 28.05.2026“; „8. Ausstellungsdatum: 22.06.2026“. Die Anlagen 1 bis 4 nennen im Anlagenbogen als Standort „Hansestraße 25, 46325 Borken“ (Felder 1.2 und 1.3), also den Dossierstandort, und die Kennnummern nach § 28 NachwV „E554891034“ (Anlage 1 Sammeln und Befördern) sowie „E554550507“ (Anlagen 2 bis 4) - zeichenweise wie im Eintrag. Für die AltfahrzeugV-Bescheinigung ZAES01400006 / 1 (Detaildialog der Route „Altfahrzeugverwertung“, Abruf 06.11.2026) sind „Kennnummer E55400910“, „Vorgangsnummer ZAES01400006“, „Bescheinigungsanlagennr. 1“, „Bezeichnung der Firma Dutz Recycling GmbH“, „Adresse Hansestraße 25, 46325 Borken“, „Ansprechpartner Frau Dutz Sarah“, „Telefon 02861 62566“ und „E-Mail info@helmut-dutz.de“ wörtlich belegt; ein Zertifikats-PDF ist für AltfahrzeugV-Bescheinigungen im Register nicht hinterlegt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dutz&p=ZZHT00300235&fd=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=2&n=Dutz (Abruf 06.11.2026)]

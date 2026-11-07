@@ -35,7 +35,6 @@ Offen bleiben die abweichende Registernummer, da das Zertifikat HRB 8833 ausweis
 der Anschriftenkonflikt zwischen Leutersgrube 2 und der Verzeichnisangabe
 Liebenthalerstr. 70, da beide Anschriften in OSM keine Hausnummern tragen und die Straße
 kein Betriebsobjekt führt, weshalb kein Koordinatenpunkt gesetzt ist.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
@@ -96,3 +95,21 @@ kein Betriebsobjekt führt, weshalb kein Koordinatenpunkt gesetzt ist.
 - [Recherche 02.11.2026: **Amtlicher Efb-Nachweis im Fachbetrieberegister belegt; Zertifikats-PDF aus dem Detaildialog heruntergeladen und wörtlich gelesen.** Die Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Joachim` liefert 22 Treffer, davon 4 für `Joachim Schrotthandel GmbH`, `Leutersgrube 2, 97616 Bad Neustadt`, `ZZIT00700103 / 1` (Sammeln) bis `/ 4` (Behandeln). Der Detaildialog nennt wörtlich `Vorgangsnummer ZZIT00700103` und `Zertifikatsanlagennr. 1`; das amtliche Zertifikat (PDF) trägt `1.1 Name: TÜV SÜD Umweltgutachter GmbH`, `3.1 Nummer des Zertifikats (durch die Zertifizierungsorganisation frei zu vergeben): 12 150 8196`, `3.3 Vorgangsnummer (soweit von der Behörde erteilt): ZZIT007001034009`, `3.4 Das Zertifikat beinhaltet 4 Anlage(n).`, `3.7 Das Zertifikat ist gültig bis zum 06.09.2027`, `4.1 Name: Joachim Schrotthandel GmbH`, `4.2 Straße: Leutersgrube 2`, `Registernummer (HRA, HRB etc.): HRB 8833 Registergericht: Schweinfurt`, `6. Prüfungsdatum: 18.03.2026` und `8. Ausstellungsdatum: 19.05.2026`; die Anlagen 1 bis 4 nennen durchweg den Standort `Leutersgrube 2`, 97616 Bad Neustadt mit den Kennnummern `I673T01407` (Sammeln, Befördern) und `I673W10056` (Lagern, Behandeln).
   Die Betreiberseite nennt im Impressum `HRB 10387` Schweinfurt, das amtliche Zertifikat weist `HRB 8833` aus; die abweichende Registernummer bleibt hier offen und wird nicht eigenmächtig geändert. **Altfahrzeugverwertung:** Die Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Joachim` liefert 3 Treffer, darunter `Joachim Schrotthandel GmbH`, `Leutersgrube 2, 97616 Bad Neustadt`, `ZZIT00700103 / 4`; die Kontrollabfrage mit dem Filter `Art des Betriebs = Demontagebetrieb` liefert 3 Treffer, die übrigen Filter 0 Treffer. Das Beiblatt AltfahrzeugV zur Anlage 4 des Zertifikats 12 150 8196 nennt wörtlich `Die Einhaltung der Anforderungen der AltfahrzeugV wurde geprüft und die Anlage gilt als 3.2.3 Demontagebetrieb.`, `Erzeugernummer: I673E01856`, `Entsorgernummer (Behandeln): I673W10056`, `Genehmigungsbehörde: Landratsamt Rhön-Grabfeld, Bad Neustadt a. d. Saale` und `Für keinen Hersteller`.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Joachim ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Joachim (Abruf 02.11.2026).]
+
+- [Korrektur 06.11.2026: **Die AFV-Kennnummern des Registereintrags fehlten im Eintrag.** Geprüft wurde das
+  Zertifikats-PDF der TÜV SÜD Umweltgutachter GmbH (Detaildialog und „Zertifikat herunterladen" am 06.11.2026,
+  Registerabfrage am 06.11.2026) mit `pdftotext -layout`, feldweise: 3.1 `12 150 8196`, 3.3 `ZZIT007001034009`,
+  3.4 `Das Zertifikat beinhaltet 4 Anlage(n).`, 3.7 `gültig bis zum 06.09.2027`, 6. Prüfungsdatum `18.03.2026`,
+  8. Ausstellungsdatum `19.05.2026`; Aussteller 1.1 bis 1.3 `TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57,
+  80339 München`; Rechtsträger 4.1 bis 4.4 `Joachim Schrotthandel GmbH`, `Leutersgrube 2`, `97616 Bad Neustadt`,
+  `Registernummer (HRA, HRB etc.): HRB 8833`, `Registergericht: Schweinfurt`. Anlage 1 weist in 2.1 `Sammeln`
+  `I673T01407` aus, Anlage 2 in 2.2 `Befördern` `I673T01407`, Anlage 3 in 2.3 `Lagern` `I673W10056` und Anlage 4
+  in 2.4 `Behandeln` `I673W10056`; alle vier Anlagen tragen in Feld 1.1 bis 1.3 `Joachim Schrotthandel GmbH`,
+  `Leutersgrube 2`, `97616 Bad Neustadt` und sind dem Dossierstandort zugeordnet. Das AltfahrzeugV-Beiblatt zur
+  Anlage 4 (Feld „Angaben gemäß § 7 Abs. 2a AltfahrzeugV") weist wörtlich aus: `Erzeugernummer: I673E01856`,
+  `Entsorgernummer (Behandeln): I673W10056`, `Genehmigungsbehörde: Landratsamt Rhön-Grabfeld, Bad Neustadt a. d.
+  Saale`, `Für keinen Hersteller` (zur unentgeltlichen Rücknahme von Altfahrzeugen). Der Eintrag nannte die
+  beiden PDF-Kennnummern, nicht die vom Register-Detaildialog gelieferten AFV-Kennnummern `I673E0185;I673W1005`;
+  diese sind ergänzt worden. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Joachim&p=ZZIT00700103&fd=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Joachim
+  (Abruf 06.11.2026).]

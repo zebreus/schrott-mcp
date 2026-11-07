@@ -26,7 +26,6 @@ provenance_origin: table
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
 ## Timeline
 
 ### Recherche 01.10.2026
@@ -46,3 +45,18 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   (2) **Amtliches Fachbetrieberegister (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt):** Route „Entsorgungsfachbetriebe“, Standortsuche mit validiertem `adr=`-Parameter „Siemensstraße 20, 63755 Alzenau, Deutschland;9.0525682;50.0962692;…“ und dst=3 → 18 Treffer, dst=10 → 65 Treffer; die MAIREC-Zeilen stehen mit **0,1 km** Entfernung im Grid, die Namenssuche `n=„MAIREC“` liefert 5 Treffer (identisch `n=„Mairec“` 5 Treffer). **Abgrenzung (Fremdbetrieb am selben Ort):** `Umtec Umweltschutz GmbH & Co. KG`, Siemensstraße 34 + 38, 63755 Alzenau, `ZZFE00100138 / 1` bis `/ 6`, **0,3 km** — anderer Rechtsträger, **nicht** übernommen. Route „Altfahrzeugverwertung“: Namenssuche `n=„MAIREC“` → 0 Treffer, Standortsuche dst=3 → 0 Treffer, dst=10 → 0 Treffer — **keine AltfahrzeugV-Anerkennung** für diesen Standort.
   **Reichweite der Registerabfrage (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App; Filter „Art des Betriebs = Egal“ durchgehend is=1&e=1; Namenssuche dst=10; Standortsuche mit PLZ-validiertem adr=Parameter, Radien 3 km und 10 km; Ergebnisgrid vollständig durchscrollt):** Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Siemensstraße 20, 63755 Alzenau, Deutschland“ dst=10 (is=1, e=1) → 0 Treffer; Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Siemensstraße 20, 63755 Alzenau, Deutschland“ dst=3 (is=1, e=1) → 0 Treffer; Route „Altfahrzeugverwertung“ Namenssuche n=„MAIREC“ (dst=10, is=1, e=1) → 0 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Siemensstraße 20, 63755 Alzenau, Deutschland“ dst=10 (is=1, e=1) → 65 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Siemensstraße 20, 63755 Alzenau, Deutschland“ dst=3 (is=1, e=1) → 18 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„MAIREC“ (dst=10, is=1, e=1) → 5 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Mairec“ (dst=10, is=1, e=1) → 5 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Edelmetall Recycling“ (dst=10, is=1, e=1) → 4 Treffer.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=…&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=MAIREC ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=MAIREC (Abruf 04.11.2026).]
+
+- [Prüfung 06.11.2026: **Feldprüfung des Zertifikats: alle geprüften Felder stimmen mit dem PDF überein, der
+  Eintrag bleibt unverändert.** Geprüft wurde das Zertifikats-PDF der TÜV SÜD Umweltgutachter GmbH (Detaildialog
+  und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am 06.11.2026) mit `pdftotext -layout`,
+  feldweise: 3.1 `12 150 68186`, 3.3 `ZZIT007006036003`, 3.4 `Das Zertifikat beinhaltet 5 Anlage(n).`, 3.7
+  `gültig bis zum 21.11.2027`, 6. Prüfungsdatum `21.05.2026`, 8. Ausstellungsdatum `17.08.2026`; Aussteller 1.1
+  bis 1.3 `TÜV SÜD Umweltgutachter GmbH`, `Ridlerstraße 57`, `80339 München`; Rechtsträger 4.1 bis 4.4 `MAIREC
+  Edelmetallgesellschaft mbH`, `Siemensstraße 20`, `63755 Alzenau`, `Registernummer (HRA, HRB etc.): HRB8818`,
+  `Registergericht: Aschaffenburg`. **Standorttreue:** Alle fünf Anlagen tragen in Feld 1.1 bis 1.3 `MAIREC
+  Edelmetallgesellschaft mbH`, `Siemensstraße 20`, `63755 Alzenau` und sind dem Dossierstandort zugeordnet:
+  Anlage 1 (Sammeln und Befördern `I671T00245`, Lagern `I671S00083`, Handeln und Makeln `I671M00018`), Anlage 2
+  (Behandeln `I671S00074`), Anlage 3 (Behandeln `I671S00065`), Anlage 4 (Behandeln `I671S00056`) und Anlage 5
+  (Behandeln `I671S00065`). Das Zertifikat enthält keine Anlage an einem anderen Standort. Damit ist jede Angabe
+  des Eintrags im Feld `certifications` am PDF belegt; eine Korrektur war nicht nötig. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=MAIREC&p=ZZIT00700603&fd=1
+  (Abruf 06.11.2026).]

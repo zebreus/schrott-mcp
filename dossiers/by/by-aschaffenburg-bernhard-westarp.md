@@ -35,7 +35,6 @@ geführt. Im Altfahrzeugverwertungsregister ist der Betrieb als Demontagebetrieb
 (ZARS00500003); die Felder zu Kennnummer und Herstellerrücknahme sind leer. Offen bleibt
 die Schreibweise des Firmennamens, da das Altfahrzeugregister Bernhardt nennt, sowie die
 Gültigkeit des ElektroG-Nachweises, der kürzer läuft als die Parallelzertifikate.
-
 ## Timeline
 
 ### Korrektur 05.10.2026
@@ -62,3 +61,24 @@ Gültigkeit des ElektroG-Nachweises, der kürzer läuft als die Parallelzertifik
 ### Korrektur 02.11.2026
 
 - [Korrektur 02.11.2026: **Adressfelder gegen die Formatvariante des Scrapers abgesichert.** Der Impressums-Scraper des Betreibers schreibt die Anschrift als `Hafenrandstraße 5-6` und die Telefonnummer als `06021/8460-0`; der recherchierte Dossierwert ist `Hafenrandstr. 5-6` und `06021 84600`. Beide Schreibweisen bezeichnen dieselbe Liegenschaft und dieselbe Nummer — die Ziffernfolge bzw. die normalisierte Straßenbezeichnung stimmen überein. Damit der Scraper den Wert nicht bei jedem Lauf überschreibt, vergleicht der Store Telefonnummern jetzt über die Ziffernfolge und Straßen über die normalisierte Endung; der recherchierte Wert bleibt der gespeicherte. Der Zertifikatseintrag wurde zugleich berichtigt: das amtliche PDF führt in Anlage 3 **Lagern** (I661S00084), „Behandeln“ erscheint erst in einer späteren Anlage.]
+
+- [Korrektur 06.11.2026: **Der Eintrag nannte nur drei der 17 Anlagen, die das Zertifikat am Dossierstandort
+  ausweist, und ließ deren §-28-NachwV-Kennnummern offen.** Geprüft wurde das Zertifikats-PDF der PÜG Prüf- und
+  Überwachungsgesellschaft mbH (Detaildialog und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am
+  06.11.2026) mit `pdftotext -layout`, feldweise: 3.1 `K21433-20260306-Efb-de`, 3.3 `ZZHT004003037014`, 3.4 `Das
+  Zertifikat beinhaltet 33 Anlage(n).`, 3.7 `gültig bis zum 26.08.2027`, 6. Prüfungsdatum `27.02.2026`, 8.
+  Ausstellungsdatum `06.03.2026`; Aussteller 1.1 bis 1.3 `PÜG Prüf- und Überwachungsgesellschaft mbH,
+  Hämmerlestraße 14 + 16, 71126 Gäufelden`; Rechtsträger 4.1 bis 4.4 `Rohstoffhandel Bernhard Westarp GmbH & Co.
+  KG`, `Hafenrandstraße 5-6`, `63741 Aschaffenburg`, `Registernummer (HRA, HRB etc.): HRA 466`,
+  `Registergericht: Aschaffenburg`. **Standorttreue:** Die Anlagen 1 bis 17 tragen in Feld 1.1 bis 1.3
+  `Rohstoffhandel Bernhard Westarp GmbH & Co. KG`, `Hafenrandstraße 5-6`, `63741 Aschaffenburg` und sind dem
+  Dossierstandort zugeordnet — Anlage 1 (Sammeln, Befördern, Handeln und Makeln: `I661T03008` bzw.
+  `I661H00040`), Anlagen 2 bis 12 (Lagern: `I661S00084`), Anlagen 13 bis 16 (Behandeln: `I661S00084`) und Anlage
+  17 (Lagern `I661S00143`, Behandeln `I661S00084`). Die Anlagen 18 bis 25 (Germanenstraße 33), 26 und 27
+  (Römerstraße 5-7), 28 bis 30 (Hafenrandstraße 11) und 31 bis 33 (Industrie Center Obernburg, Gemarkung
+  Elsenfeld 1, 63820 Elsenfeld) liegen an anderen Standorten und bleiben ausgeklammert. Der Eintrag wurde um die
+  fehlenden Anlagen des Dossierstandorts samt Kennnummern ergänzt; die übrigen Angaben (Aussteller,
+  Rechtsträger, Zertifikatsnummer, Vorgangsnummer, Gültigkeit, Prüfungs- und Ausstellungsdatum, Anlagenanzahl
+  33) stimmen mit dem PDF überein. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Westarp&p=ZZHT00400303&fd=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Westarp
+  (Abruf 06.11.2026).]
