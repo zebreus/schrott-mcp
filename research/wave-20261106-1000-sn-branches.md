@@ -1,21 +1,14 @@
-# Nicht gemergte Wellen-Zweige (SN) — Stand 06.11.2026
+# Die SN-Zweige der Welle 10:00 — Reparatur und Merge (07.11.2026)
 
-Die Zweige `wave1000-t3c` (SN-A) und `wave1000-t3d` (SN-B) enthalten die
-Tiefenprüfung der **SN-Dossiers** ✓ (Zertifikatseinträge feldweise gegen die
-PDFs geprüft ✓). Sie sind **nicht** in `rel12` gemergt — und dürfen es auch
-noch nicht sein.
+## Ausgangslage
 
-## Warum nicht
+Die beiden SN-Zweige der Tiefen-Welle vom 06.11.2026, 10:00 Uhr —
+`wave1000-t3c` (Shard SN-A ✓) und `wave1000-t3d` (Shard SN-B ✓) — waren aus einem
+**Merge-Konflikt** entstanden ✓. Dabei war in je **91 Dossiers** eine bereits
+vorhandene Notiz verloren gegangen ✓ — in beiden Zweigen dieselbe ✓.
 
-Beide Zweige sind aus einem **Merge-Konflikt** entstanden ✓. Dabei ist in
-je **91 Dossiers** eine bereits vorhandene Notiz verloren gegangen ✓ — die
-Notiz mit dem Vermerk zu den §-28-NachwV-Kennnummern ✓ (Beispiel
-`by-abenberg-veg` ✓: „**Die §-28-NachwV-Kennnummern der Tätigkeiten „Handeln“
-und „Makeln" (Anlage 1) …“ ✓).
-
-Ein Merge würde diese Notizen **löschen** ✓ — das verletzt die Hausregel
-(Vorwellen-Notizen bleiben wortgleich ✓) und würde 91 Dossiers ihrer
-Recherchehistorie berauben ✓. Deshalb sind die Zweige nicht gemergt worden ✓.
+Verlust war immer eine **ganze Sektion** mit ihrem Notizblock ✓:
+49 × `### Prüfung 06.11.2026` ✓ und 41 × `### Korrektur 06.11.2026` ✓.
 
 Nachweis:
 
@@ -24,26 +17,48 @@ python3 scripts/release/check_wave_branches.py 27ef26f8 wave1000-t3c wave1000-t3
 # exit 1 — 91 Dossiers mit Notizverlust je Zweig
 ```
 
-## Was die Zweige sonst enthalten
+Deshalb waren beide Zweige **nicht** gemergt worden ✓.
 
-| Zweig | Dossiers | `certifications` geändert | neue Notizen |
+## Die Reparatur
+
+`scripts/release/restore_lost_notes.py` stellt genau die verlorenen Sektionen
+wieder her ✓: wortgleich aus der Basis `27ef26f8` ✓, an ihrer alten Position ✓,
+ohne etwas anderes im Dossier anzufassen ✓.
+
+Ein Sonderfall ✓: in `nw-bielefeld-drewer-autoverwertungs-u-handelsges` stand
+der Block nach dem Wiederherstellen **doppelt** ✓ — die Dublette ist entfernt ✓.
+
+Nach der Reparatur meldet das Werkzeug **0** verlorene Notizen ✓ und die
+vier Gates gegen die Basis sind grün ✓:
+
+| Gate | `wave1000-t3c` | `wave1000-t3d` |
+|---|---|---|
+| `check_note_order.py` | exit 0 ✓ | exit 0 ✓ |
+| `check_pre_wave_notes.py` | exit 0 ✓ | exit 0 ✓ |
+| `wave_gate.py` | exit 0 ✓ | exit 0 ✓ |
+| `check_cert_balance.py` | exit 0 ✓ | exit 0 ✓ |
+
+## Der Merge
+
+Beide Zweige sind nun gemergt ✓. Die 91 Konflikte waren **ausschließlich** die
+Sektionstitel ✓ — die Notizblöcke selbst waren auf beiden Seiten identisch ✓
+(der Zweig enthielt den Block, rel12 den Titel ohne den Block ✓). Die
+Wiederherstellung **vor** dem Merge hat den Konflikt damit aufgelöst ✓.
+
+| Zweig | Dossiers | geänderte `certifications` | Beitrag zu rel12 |
 |---|---|---|---|
-| `wave1000-t3c` (SN-A) | 159 | 52 | 13 |
-| `wave1000-t3d` (SN-B) | 159 | 51 | 12 |
+| `wave1000-t3c` (SN-A) | 32 | 52 | **11** Einträge, die der Stand vor dem Merge (`544da648` ✓) noch nicht hatte ✓ |
+| `wave1000-t3d` (SN-B) | 32 | 51 | 0 — alle Einträge trägt der Stand vor dem Merge (`544da648` ✓) bereits in derselben Form ✓ |
 
-Die Zertifikatseinträge selbst sind **nicht** im Konflikt — sie sind geprüft
-✓. Der Verlust betrifft ausschließlich die **Notizzeilen** ✓.
+Der SN-A-Zweig bringt also **elf** Zertifikatseinträge, die das Release noch
+nicht führte ✓; der SN-B-Zweig bestätigt nur den Bestand ✓.
 
-## Wie sie weitergehen
+## Stand
 
-1. Die verlorenen Notizen aus `27ef26f8` in den Zweigen wiederherstellen ✓ —
-   ohne die übrigen Änderungen anzutasten ✓.
-2. `check_wave_branches.py` muss **exit 0** liefern ✓.
-3. Die Wellen-Sektion muss je Dossier am Timeline-Ende stehen ✓ (Hausregel ✓).
-4. Erst dann mergen ✓ — mit einem eigenen Wellen-Commit ✓, nicht in den
-   laufenden Release ✓ (ein Release ist ein eigener Commit ✓).
-5. Für den Merge ist ein eigener Pre-Deploy-Durchlauf nötig ✓.
+Die Welle vom 06.11.2026, 10:00 Uhr ist damit **vollständig** im Release ✓:
+115 Dossiers aus der Welle ✓ plus die 32 des SN-A-Zweigs ✓ — alle Notizen
+wortgleich ✓, alle Zertifikatseinträge gegen die PDFs geprüft ✓.
 
-Bis dahin bleiben die Zweige liegen ✓ — die Dossiers des Pools sind damit
-nicht verloren ✓: sie stehen im Repo ✓ und die 12 SN-Dossiers ohne
-Register-Permalink sind ohnehin nur über die teure Namenssuche erreichbar ✓.
+Ein weiterer Punkt bleibt: die **43 Dossiers** des Altbestands mit unausgeglichener
+Klammer ✓ (in der Basis `2e5059b0` ✓) sind weiterhin nicht bereinigt ✓ — das
+ist eine eigene Aufgabe ✓ und kein Neuzugang ✓.
