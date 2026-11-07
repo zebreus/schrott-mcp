@@ -1,32 +1,37 @@
 ---
 slug: sl-saarbrucken-westrich-lothar-autoverwertung
-name: Westrich Lothar Autoverwertung
+name: Autoverwertung Lothar Westrich
 trader_type: autoverwertung
 state: SL
 city: Saarbrücken
-street: ''
-postcode: ''
-phone: ''
+street: 'Im Weyerbachtal 12'
+postcode: '66115'
+phone: '0681 77091'
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
-status: pruefung
-description: ''
+status: aktiv
+description: 'Autoverwertung mit amtlicher AltfahrzeugV-Bescheinigung: Autoverwertung Lothar Westrich, Im Weyerbachtal 12, 66115 Saarbrücken, Telefon 0681 77091, Ansprechpartner Herr Westrich Lothar; amtliches Fachbetrieberegister, Route Altfahrzeugverwertung, Vorgangsnummer ZAHS01300054, Bescheinigungsanlagennr. 1, Kennnummer K41E10020. Die Liste der rücknahmeberechtigten Hersteller ist im Register nicht ausgewiesen. ANKAUF: keine bezifferten Ankaufspreise für Fahrzeuge oder Metalle. VERKAUF: Ersatzteilhandel ist Teil der Firmierung, eine Artikelpreisliste liegt nicht vor. GEBÜHREN: keine Verwertungs- oder Abholtarife veröffentlicht. Ein Gewerbe-Verzeichniseintrag nennt zwei Standorte; welcher Standort betrieben wird, ist aus dem Register nicht ableitbar.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
 provenance_ankauf_raw: nur Kfz (Ankauf unklar)
 provenance_origin: table
+certifications: '["AltfahrzeugV-Bescheinigung (amtliches Fachbetrieberegister, Route Altfahrzeugverwertung, Abfrage 07.11.2026): Autoverwertung Lothar Westrich, Im Weyerbachtal 12, 66115 Saarbrücken, Vorgangsnummer ZAHS01300054, Bescheinigungsanlagennr. 1, Kennnummer K41E10020, Telefon 0681 77091, Ansprechpartner Herr Westrich Lothar; Rücknahme für folgende Hersteller nicht ausgewiesen", "Entsorgungsfachbetrieb § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Im Weyerbachtal 12, 66115 Saarbrücken (Abfrage 07.11.2026)"]'
+lat: '49.2495002'
+lon: '6.9431505'
 ---
 
 # Westrich Lothar Autoverwertung
 
 ## Überblick
 
-Lead zu Lothar Westrich Autoverwertung/Autoteile in Saarbrücken-Burbach. Verzeichnisse nennen Im Weyerbachtal 12, 66115 Saarbrücken und 0681 77091. Der Creditreform-Suchtreffer bezeichnet den Gewerbebetrieb als wirtschaftsaktiv und führt zwei Standorte; der Detailabruf bleibt 403-blockiert. Da die passenden Verzeichnisangaben keine zweite zulässige Quelle darstellen, sind aktueller Standortbetrieb und Betreiberauftritt nicht ausreichend belegt.
+Der Betrieb ist jetzt **amtlich belegt**: Das amtliche Fachbetrieberegister, Route Altfahrzeugverwertung (Abfrage 07.11.2026), führt die Firma **„Autoverwertung Lothar Westrich"** mit der Anschrift **Im Weyerbachtal 12, 66115 Saarbrücken**, der Vorgangsnummer **ZAHS01300054**, der Bescheinigungsanlagennr. 1, der Kennnummer **K41E10020**, der Telefonnummer **0681 77091** und dem Ansprechpartner **Herr Westrich Lothar**. Damit ist die bisher nur aus Verzeichnissen und einem 403-blockierten Creditreform-Profil stammende Zeile erstmals durch eine dauerhaft abrufbare Behördenquelle gedeckt. Die Seed-Schreibweise „Westrich Lothar Autoverwertung" ist dieselbe Firma in umgekehrter Wortfolge; `name` folgt der Registerbezeichnung, der Slug bleibt unverändert. `status` steht auf **aktiv**, weil die Bescheinigung den Betrieb am genannten Standort amtlich ausweist.
 
-**Preise:** Keine Betreiber-Ankaufsliste für Fahrzeuge/Metalle, keine Ersatzteil-Verkaufsliste oder Recycling-/Abholgebühren. **Offen:** Gewerbe-/Betreiberidentität, aktuelle Autoverwertungsanerkennung, Adresse/Kontakte, tatsächlicher vergüteter Ankauf. Ein Verzeichnis-Button „Website“ und konsistente Verzeichnisdaten sind kein Primärbeleg; Felder bleiben leer, `pruefung`.
+**Preise:** ANKAUF: keine bezifferten Kurse für Fahrzeuge oder Metalle. VERKAUF: Ersatzteilhandel ist Teil der Firmierung, eine Artikelpreisliste liegt nicht vor. GEBÜHREN: keine Verwertungs- oder Abholtarife veröffentlicht.
+
+**Offen:** die zweite im Gewerbe-Verzeichnis genannte Betriebsstätte, E-Mail, Öffnungszeiten, die Frage, ob Fahrzeuge vergütet angekauft werden, sowie jede Entsorgungsfachbetrieb-Tätigkeit (dazu besteht kein Registereintrag). Die Herstellerrücknahmeliste ist im Register nicht ausgewiesen.
 
 ## Timeline
 
@@ -46,3 +51,14 @@ Lead zu Lothar Westrich Autoverwertung/Autoteile in Saarbrücken-Burbach. Verzei
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Autoverwertung/-teile
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: Der Betrieb ist amtlich belegt: Das **amtliche Fachbetrieberegister**, Route **Altfahrzeugverwertung** (Abfrage 07.11.2026), führt unter der Bezeichnung der Firma **„Autoverwertung Lothar Westrich"** mit der Adresse **Im Weyerbachtal 12, 66115 Saarbrücken**, der **Vorgangsnummer ZAHS01300054**, der Bescheinigungsanlagennr. 1, der **Kennnummer K41E10020**, der Telefonnummer **0681 77091** und dem Ansprechpartner **Herr Westrich Lothar**. Das Detaildialog-Feld „Rücknahme für folgende Hersteller" ist leer, eine Herstellerrücknahmeliste wird also nicht ausgewiesen. Damit liegt die erste amtliche, dauerhaft abrufbare Primärquelle für diesen Betrieb vor; sie löst die bisherige Belegkette aus Verzeichnissen und dem 403-blockierten Creditreform-Profil ab. `street`, `postcode` und `phone` werden gesetzt, `name` wird auf die Registerbezeichnung **„Autoverwertung Lothar Westrich"** korrigiert (die Seed-Schreibweise „Westrich Lothar Autoverwertung" stellt denselben Betrieb in umgekehrter Wortfolge dar; der Slug bleibt unverändert), und `status` wird von `pruefung` auf **aktiv** gesetzt, weil die Bescheinigung den Betrieb am genannten Standort amtlich ausweist. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Autoverwertung%20Lothar%20Westrich&p=ZAHS01300054&fd=1 (Abruf 07.11.2026).]
+- [Korrektur 07.11.2026: **Der zuletzt im Dossier dokumentierte Telefonkonflikt ist aufgelöst.** Aus den Verzeichniseinträgen und der amtlichen Bescheinigung folgt die Ziffernfolge 0681 77091; der im Vermerk vom 15.10.2026 genannte Yelp-Lead 0681 77093 mit abweichender Endziffer ist damit widerlegt und wird nicht mehr geführt. Die Nummer 0681 77091 wird übernommen; eine Belegkette aus Verzeichnissen allein wäre nicht ausreichend gewesen, der Registereintrag trägt sie. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Lothar%20Westrich ; https://www.dasoertliche.de/Themen/Westrich-Lothar-Autoverwertung-Autoteile-Saarbr%C3%BCcken-Burbach-Im-Weyerbachtal (Abruf 07.11.2026).]
+- [Recherche 07.11.2026: **Gegenprobe und Reichweite:** In der Route „Entsorgungsfachbetriebe" (EfbV) liefert die Namenssuche „Westrich Autoverwertung" 0 Treffer, und die Standortsuche um Im Weyerbachtal 12, 66115 Saarbrücken führt im Umkreis von 2 km auf 13 Einträge anderer Rechtsträger (Abfallwirtschaftsgesellschaft Saarbrücken mbH, Im Weyerbachtal 16, 0,1 km, ZZFT00300711 / 2; REMONDIS Saar Entsorgung GmbH, Im Weyerbachtal 20, 0,2 km, ZZET01700183 / 8 bis / 11; Tom Haacke GmbH, Saar-Lor-Lux-Straße 2, 0,9 km, ZZHT00900117 / 1; Gebrüder Naim GmbH & Co. KG, Güchenbacher Straße 1, 1,4 km, ZZIT00700530 / 1 und / 2). Für den Betrieb selbst besteht **kein** EfbV-Eintrag; `certifications` weist das als Negativbefund aus und trägt die AfV-Bescheinigung. Reichweitenklausel: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichtfund ist deshalb kein Nachweis für das Fehlen eines Betriebs und kein Schließungsbeweis. ANKAUF: keine bezifferten Kurse für Fahrzeuge oder Metalle. VERKAUF: keine Artikelpreisliste für Ersatzteile. GEBÜHREN: keine Verwertungs- oder Abholtarife veröffentlicht. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Westrich%20Autoverwertung ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Autoverwertung%20Westrich (Abruf 07.11.2026).]
+- [Recherche 07.11.2026: Offen bleiben nach der Registerbelegung die zweite im Gewerbe-Verzeichnis genannte Betriebsstätte, E-Mail, Öffnungszeiten und die Frage, ob Fahrzeuge vergütet angekauft werden. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Autoverwertung%20Lothar%20Westrich (Abruf 07.11.2026).]
+
+### Geokodierung 07.11.2026
+
+- [Geokodierung 07.11.2026: Koordinate **49.2495002/6.9431505** gesetzt (Gebäudezentrum, keine bestätigte Anlieferzufahrt). OSM kennt für Im Weyerbachtal 12, 66115 Saarbrücken ein Adressobjekt (Way 97342287, `addr:housenumber`=12, `addr:street`=Im Weyerbachtal, `addr:postcode`=66115, `addr:city`=Saarbrücken, `building`=yes, live geprüft am 07.11.2026). Der Punkt ist damit adressgenau zur Registeranschrift. Quelle(n): https://api.openstreetmap.org/api/0.6/way/97342287/full.json (Abruf 07.11.2026).]
