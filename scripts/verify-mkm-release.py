@@ -3,6 +3,14 @@
 
 Pair with source audit/deployment journal. Fixed 56/5 needs review on source drift.
 Databases are independently sampled. No ingestion or production DB mutations.
+
+The freshness of the observation is carried by the **current pointer**
+(`current_prices.updated_at`), not by the price row's `observed_at`: the MKM
+contract makes the price metadata immutable ("Semantic price metadata is
+immutable"), so a price row keeps the timestamp of the FIRST observation of
+that value. Requiring that stamp to be fresh would make the gate
+unsatisfiable for every unchanged commodity price - the ledger (the article
+snapshot) and the current pointer carry the re-observation.
 """
 import argparse
 import json
@@ -68,7 +76,7 @@ def verify(public, internal, since):
     expected = json.loads(ORACLE.read_text())["expected"]
     if len(articles) != 61 or len(by_id) != 61 or set(by_id) != set(expected):
         failures.append("reviewed 61-article partition mismatch")
-    prices = public.execute("SELECT p.*,m.slug AS material,m.unit AS catalog_unit FROM current_prices c JOIN prices p ON p.id=c.price_id JOIN materials m ON m.id=p.material_id WHERE c.trader_id=? AND p.source_url=?", (ledger["trader_id"], URL)).fetchall()
+    prices = public.execute("SELECT p.*,m.slug AS material,m.unit AS catalog_unit,c.updated_at AS pointer_updated_at FROM current_prices c JOIN prices p ON p.id=c.price_id JOIN materials m ON m.id=p.material_id WHERE c.trader_id=? AND p.source_url=?", (ledger["trader_id"], URL)).fetchall()
     indexed = {(p["material"], p["variant"]): p for p in prices}
     wanted_keys = set()
     grouped = {}
@@ -133,7 +141,27 @@ def verify(public, internal, since):
                 failures.append("Current article metadata differs from latest manifest")
         except (TypeError, ValueError, KeyError, IndexError):
             failures.append("invalid numeric metadata/tier contract")
-        if row["published_at"] is not None or row["valid_from"] is not None or row["valid_to"] is not None or row["source_type"] != "haendler_angabe" or row["published"] != 1 or not fresh(row["observed_at"]) or public.execute("SELECT julianday(?)<=julianday(?)", (row["observed_at"], ledger["observed_at"])).fetchone()[0] != 1:
+        if (
+            row["published_at"] is not None
+            or row["valid_from"] is not None
+            or row["valid_to"] is not None
+            or row["source_type"] != "haendler_angabe"
+            or row["published"] != 1
+            # Die Frische der Beobachtung traegt der Current-Zeiger: der
+            # MKM-Vertrag macht die Preis-Historie unveraenderlich, der
+            # Zeitstempel der Zeile ist die ERSTE Beobachtung des Wertes.
+            or not fresh(row["pointer_updated_at"])
+            # Die Zeile darf nicht juenger sein als der Ledger ...
+            or public.execute(
+                "SELECT julianday(?)<=julianday(?)",
+                (row["observed_at"], ledger["observed_at"]),
+            ).fetchone()[0] != 1
+            # ... und der Zeiger nicht aelter als die Beobachtung der Zeile.
+            or public.execute(
+                "SELECT julianday(?)>=julianday(?)",
+                (row["pointer_updated_at"], row["observed_at"]),
+            ).fetchone()[0] != 1
+        ):
             failures.append("quote provenance/date/freshness mismatch")
     if (numeric, requests) != (56, 5):
         failures.append(f"article quote/request partition {numeric}/{requests} != 56/5")

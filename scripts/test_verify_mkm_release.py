@@ -33,7 +33,7 @@ class MkmReleaseTests(unittest.TestCase):
                 price REAL,price_max REAL,price_min REAL,unit TEXT,currency TEXT,price_kind TEXT,
                 confidence REAL,extra_json TEXT,published_at TEXT,valid_from TEXT,valid_to TEXT,
                 source_type TEXT,published INTEGER,observed_at TEXT,source_url TEXT);
-            CREATE TABLE current_prices(trader_id INTEGER,price_id INTEGER);
+            CREATE TABLE current_prices(trader_id INTEGER,price_id INTEGER,updated_at TEXT);
             CREATE TABLE trader_materials(trader_id INTEGER,material_id INTEGER,conditions TEXT,
                 accepts INTEGER,valid_from TEXT,valid_to TEXT,observed_at TEXT);
             CREATE TABLE source_article_snapshots(id INTEGER PRIMARY KEY,trader_id INTEGER,
@@ -87,7 +87,7 @@ class MkmReleaseTests(unittest.TestCase):
             self.public.execute("INSERT INTO prices VALUES(?,?,?,?,?,NULL,'EUR/kg','EUR','upto',0.5,?,NULL,NULL,NULL,'haendler_angabe',1,?,?)",
                                 (ident, mids[material], article["variant"], article["price_eur_per_kg"],
                                  article["price_eur_per_kg"], json.dumps(extra), SINCE, V.URL))
-            self.public.execute("INSERT INTO current_prices VALUES(1,?)", (ident,))
+            self.public.execute("INSERT INTO current_prices VALUES(1,?,?)", (ident, SINCE))
         for material, members in grouped.items():
             conditions = json.dumps(sorted(members, key=lambda a: a["article"]))
             self.public.execute("INSERT INTO trader_materials VALUES(1,?,?,1,NULL,NULL,?)", (mids[material], conditions, SINCE))
@@ -165,7 +165,7 @@ class MkmReleaseTests(unittest.TestCase):
 
     def test_independent_price_and_metadata_mutations_fail(self):
         for assignment in ("price=0", "price_max=0", "unit='EUR/t'", "extra_json='{}'",
-                           "published_at='2026-10-11'", "observed_at='2020-01-01'", "source_url='foreign'",
+                           "published_at='2026-10-11'", "observed_at='2099-01-01'", "source_url='foreign'",
                            "source_type='telefonisch'", "confidence=1", "variant='legacy alias'"):
             with self.subTest(assignment=assignment):
                 self.public.execute("SAVEPOINT mutation")
@@ -173,6 +173,18 @@ class MkmReleaseTests(unittest.TestCase):
                 self.assertFalse(V.verify(self.public, self.internal, SINCE)["ok"])
                 self.public.execute("ROLLBACK TO mutation")
                 self.public.execute("RELEASE mutation")
+
+    def test_stale_current_pointer_fails(self):
+        # Der MKM-Vertrag macht die Preis-Historie unveraenderlich: der
+        # Zeitstempel der Zeile ist die ERSTE Beobachtung des Wertes. Die
+        # Frische der Beobachtung traegt der Current-Zeiger - ohne ihn
+        # waere die Pruefung nicht erfuellbar, auch bei korrekten Daten.
+        with self.subTest(pointer="updated_at"):
+            self.public.execute("SAVEPOINT mutation")
+            self.public.execute("UPDATE current_prices SET updated_at='2020-01-01'")
+            self.assertFalse(V.verify(self.public, self.internal, SINCE)["ok"])
+            self.public.execute("ROLLBACK TO mutation")
+            self.public.execute("RELEASE mutation")
 
     def test_acceptance_owner_mutations_fail(self):
         for table, assignment in (("trader_materials", "conditions='[]'"), ("trader_materials", "accepts=0"),
@@ -197,7 +209,7 @@ class MkmReleaseTests(unittest.TestCase):
         self.assertEqual(self.verify()[0], 1)
 
     def test_unknown_same_source_current_is_not_silently_ignored(self):
-        self.public.execute("INSERT INTO current_prices VALUES(1,1)")
+        self.public.execute("INSERT INTO current_prices VALUES(1,1,?)", (SINCE,))
         self.public.commit()
         code, result = self.verify()
         self.assertEqual(code, 1)
