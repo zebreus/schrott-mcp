@@ -47,3 +47,27 @@ python3 scripts/release/find_stale_current_prices.py --json /tmp/opencode/stale-
   die Annahme, weil der Preisstand der Seite älter als 24 Stunden ist ✓ (die Seite aktualisiert
   nicht ✓) — das ist eine **korrekte Ablehnung** ✓ ✓, kein Rückzug ✓ ✓. Er wird hier nur
   aufgeführt ✓, damit die Liste vollständig bleibt ✓ ✓.
+
+## Das Beispiel `ni-braunschweig-neuwert` (90 Paare) — der Musterfall
+
+Die Seite `https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/` ✓ liefert die Preise als
+**JSON im HTML** ✓ (`"gross":1000,"kategorie":"messing","name":"Messing schwer" ✓,
+"verlauf30":[["2026-10-05",5.13]]` ✓) ✓ — die Mengenstufen stehen als `gross`/`mitte` ✓ ✓.
+
+Der Handler nimmt heute **140** Preise auf ✓ (letzter Lauf 07.11. ✓), die Datenbank hält **186** ✓.
+Die Differenz sind die **verwaisten** Schlüssel ✓ — die alten Varianten-Schreibweisen ✓:
+
+| | Variant | Preis | Stand |
+|---|---|---:|---|
+| **frisch** ✓ | `Hülsen / ab 1 kg` ✓ | 5,60 ✓ | 07.11. ✓ |
+| **frisch** ✓ | `schwer / ab 1000 kg` ✓ | 6,10 ✓ | 07.11. ✓ |
+| **alt** ✓ | `Ms-58 / ab 1 kg` ✓ | 6,20 ✓ | 28.10. ✓ |
+| **alt** ✓ | `Sonderspäne / ab 100 kg` ✓ | 6,00 ✓ | 28.10. ✓ |
+| **alt** ✓ | `Ms-58 Späne / ab 1 kg` ✓ | 5,70 ✓ | 06.10. ✓ |
+
+Die Seite nennt die Sorten heute anders ✓ — die alten Schlüssel `(material, variant)` ✓ werden vom
+Handler **nicht mehr erzeugt** ✓ ✓. Ihre Current-Pointer zeigen daher auf Preise, die der Betrieb
+**nicht mehr nennt** ✓ → sie gehören zurückgezogen ✓ ✓ (die Historie bleibt ✓ ✓).
+
+**Die Prüfung je Händler ist also eine Frage an die Seite** ✓: *bietet sie den Schlüssel
+`(material, variant)` heute noch an* ✓ — ja ✓ → kein Fall ✓ ✗ ; nein ✓ → Rückzug ✓ ✓.
