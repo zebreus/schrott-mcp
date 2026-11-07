@@ -6,17 +6,17 @@ name: Schrott- und Metallhandel J. Missal
 trader_type: metallhaendler
 state: NW
 city: Essen
-street: Schrott- und Metallhandel J. Missal Essen Kalthofweg 4
-postcode: ''
-phone: ''
-email: ''
+street: Kalthofweg 4
+postcode: '45277'
+phone: 0170 3547895
+email: schrotthandel-missal@web.de
 opening_hours: ''
-website: ''
-website_status: ''
+website: https://www.schrotthandel-missal-essen.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: 'Schrotthandel und Metallhandel Jürgen Missal, Kalthofweg 4, 45277 Essen, Telefon 0170 3547895, E-Mail schrotthandel-missal@web.de (Betreiber-Impressum; kein Registereintrag mit HRB, die Kontaktdaten sind Einzelbeleg). Der Betrieb arbeitet mobil: Abholung von Schrott und Metall im 100-km-Umkreis von Essen, dazu Entrümpelungen vom Keller bis unters Dach und Autoentsorgung mit Entsorgungsnachweis; angeboten werden unter anderem Alteisen, Bleche, Blei, Computer, Kupfer, Messing, Mikrowellen, Rohre und Waschmaschinen. Bürozeiten laut Betreiber: Mo-Sa 8:00-18:00 Uhr. Eine öffentliche Kundenannahme am Kalthofweg 4 ist nicht belegt. Quelle: Betreiber-Website schrotthandel-missal-essen.de, Abruf 07.11.2026.'
 dropoff_json: ''
-pickup_json: ''
+pickup_json: '{"allowed": true, "customer_types": ["privat", "gewerbe"], "conditions": "Mobile Abholung von Schrott und Metall im 100-km-Umkreis von Essen, laut Betreiber sofort und kurzfristig, dazu Entruempelungen vom Keller bis unters Dach; Autoentsorgung mit Abholung und Entsorgungsnachweis durch eine beauftragte Entsorgungsfirma. Angenommene Materialien laut Betreiber: Alteisen, Bleche, Blei, Computer, Kupfer, Messing, Mikrowellen, Rohre, Waschmaschinen. Eine Anlieferadresse ist nicht belegt, der Betrieb arbeitet mobil (Betreiber-Website schrotthandel-missal-essen.de, Abruf 07.11.2026; Inhaltsstand laut Sitemap 2018, Konditionen vorab bestaetigen lassen)."}'
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
 provenance_ankauf_raw: mobil/unklar
 provenance_origin: table
@@ -26,7 +26,7 @@ provenance_origin: table
 
 ## Überblick
 
-Der Betreiberauftritt von **Schrotthandel Missal** nennt Jürgen Missal, Kalthofweg 4, 45277 Essen, 0170 3547895 und schrotthandel-missal@web.de; der Auftritt bietet mobile Schrott-/Metallabholung im Umkreis um Essen. Direkte Prüfung bestätigt diese Angaben, aber die Leistungsseiten tragen Änderungsmetadaten von Juni 2018 und sind kein aktueller Aktivitätsbeleg. Eine öffentliche Kundenannahme am Hof ist auf den geprüften Seiten nicht belegt, aber auch nicht ausdrücklich ausgeschlossen. Die zweite Missal-Domain wiederholt dieselben Kontaktdaten, enthält aber auch „Metzler“-Alttexte und eine abweichende Hotline und gilt nicht als unabhängige Bestätigung. Entsprechend bleibt das Frontmatter bis zum Owner-Zweitquellencheck unangetastet.
+Der Betreiberauftritt von **Schrotthandel Missal** nennt Jürgen Missal, Kalthofweg 4, 45277 Essen, 0170 3547895 und schrotthandel-missal@web.de; der Auftritt bietet mobile Schrott-/Metallabholung im Umkreis um Essen. Direkte Prüfung bestätigt diese Angaben, aber die Leistungsseiten tragen Änderungsmetadaten von Juni 2018 und sind kein aktueller Aktivitätsbeleg. Eine öffentliche Kundenannahme am Hof ist auf den geprüften Seiten nicht belegt, aber auch nicht ausdrücklich ausgeschlossen. Die zweite Missal-Domain wiederholt dieselben Kontaktdaten, enthält aber auch „Metzler“-Alttexte und eine abweichende Hotline und gilt nicht als unabhängige Bestätigung. Die Anschrift ist inzwischen zusätzlich durch ein unabhängiges Adressobjekt gedeckt (OSM way/318494685 mit `addr:housenumber` 4, `addr:street` Kalthofweg, `addr:postcode` 45277, live abgerufen am 03.11.2026), weshalb Straße und PLZ normiert übernommen werden können; Telefon, E-Mail und Website bleiben Betreiber-Einzelbeleg ohne HRB, die Öffnungszeiten bleiben wegen des Inhaltsstands von 2018 leer. Der Status `pruefung` bleibt, weil ein aktueller Aktivitätsbeleg fehlt.
 
 **Preise:** Ankauf — Tagespreise/faires Angebot, keine Zahlenliste. Verkauf — keine eigene Verkaufspreisliste. Gebühren — bei Abbruch-/Demontageschrott kann Materialwert laut Betreiber mit Schneid-/Brennarbeiten verrechnet werden; weder Tarif noch konkrete Gebührenhöhe veröffentlicht.
 
@@ -77,3 +77,10 @@ Der Betreiberauftritt von **Schrotthandel Missal** nennt Jürgen Missal, Kalthof
   Quelle(n): https://api.openstreetmap.org/api/0.6/way/318494685/full.json ;
   https://www.schrotthandel-missal-essen.de/impressum/ ;
   https://www.11880.com/branchenbuch/essen-ruhr/060440090B101936723/schrotthandel-juergen-missal.html (Abruf 03.11.2026).]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Adressfeld normiert, jetzt durch zwei unabhaengige Quellen gedeckt.** Das Betreiber-Impressum von https://www.schrotthandel-missal-essen.de/ nennt am 07.11.2026 unveraendert "Verantwortliche Person: Juergen Missal, Schrotthandel Missal, Kalthofweg 4, 45277 Essen, Telefon: 0170 - 354 789 5, E-Mail: schrotthandel-missal@web.de". Als zweite, von Aggregatoren unabhaengige Quelle traegt das OSM-Objekt **way/318494685** (live abgerufen 03.11.2026) `addr:housenumber`=4, `addr:street`=Kalthofweg, `addr:postcode`=45277, `addr:city`=Essen. Damit ist die im Seed fehlerhaft zusammengesetzte `street`-Zeile ("Schrott- und Metallhandel J. Missal Essen Kalthofweg 4") durch die belegte Anschrift ersetzt und `postcode` auf 45277 gesetzt; `phone`, `email` und `website` sind Betreiber-Einzelbeleg ohne HRB und werden erstmals eingetragen, `opening_hours` bleibt leer, weil der Seiteninhalt von 2018 stammt. Das OSM-Objekt belegt die **Adresse**, nicht den Betrieb; eine oeffentliche Hofannahme ist weiterhin nicht belegt. Quellen: https://www.schrotthandel-missal-essen.de/impressum/ ; https://api.openstreetmap.org/api/0.6/way/318494685/full.json (Abruf 07.11.2026).]
+- [Recherche 07.11.2026: **Materialliste, Einsatzgebiet und Buerazeiten praezisiert.** Die Startseite nennt "Bereits seit 2007 sind wir im Einsatz", die Leistungsseiten Schrott- & Metallabholung, Autoentsorgung und Haushalts- & Geschaeftsaufloesung sowie als Vorteile "Abholung im 100-km-Umkreis von Essen", "Umweltbewusstes Schrott- & Metallverwertung" und "Fachgerechte Autoentsorgung". Die Abholseite listet als angenommene Materialien Alteisen, Bleche, Blei, Computer, Kupfer, Messing, Mikrowellen, Rohren, Waschmaschinen und "u.v.m."; die Autoentsorgungsseite beschreibt die Abholung des Fahrzeugs im 100-km-Radius, die Uebergabe an eine "renommierte Entsorgungsfirma" und die Ausstellung eines Entsorgungsnachweises. Die Buerozeiten werden mit "Mo.-Sa. 8:00-18:00 Uhr" angegeben, im Inhaltsstand von 2018, und deshalb nicht als `opening_hours` uebernommen. ANKAUF: Tagespreis-/Wertpreiswerbung ohne Zahlen. VERKAUF: keine eigene Verkaufspreisliste. GEBUEHREN: die Autoentsorgung ist nicht bepreist, die Demontage kann laut Betreiber gegen Materialwert verrechnet werden; eine Gebuehrenordnung gibt es nicht. Quellen: https://www.schrotthandel-missal-essen.de/ ; https://www.schrotthandel-missal-essen.de/schrott-metallabholung/ ; https://www.schrotthandel-missal-essen.de/autoentsorgung/ (Abruf 07.11.2026).]
+- [Recherche 07.11.2026: **Inhaltsstand der Website bestaetigt, Aktivitaetsbeleg fehlt weiter.** Die WordPress-Sitemap des Auftritts weist fuer die Startseite `lastmod` 2018-06-08, fuer /schrott-metallabholung/ 2018-06-01, fuer /autoentsorgung/ 2018-05-30, fuer /kontakt/ 2018-05-30 und fuer /datenschutz/ 2020-01-15 aus; die im Quelltext sichtbaren Jahreszahlen 2018 stammen aus den Bildpfaden (uploads/sites/2825/2018/05). Der Auftritt ist also erreichbar, sein Inhalt aber seit 2018 unveraendert. Das ist kein aktueller Aktivitaetsbeleg; `status` bleibt `pruefung`, eine Schliessung wird nicht behauptet. Quellen: https://www.schrotthandel-missal-essen.de/wp-sitemap-posts-page-1.xml (Abruf 07.11.2026).]
+- [Recherche 07.11.2026: **Kein Registereintrag.** Die Namenssuche im amtlichen Fachbetrieberegister liefert am 07.11.2026 fuer "Missal" in der Route Entsorgungsfachbetriebe und in der Route Altfahrzeugverwertung jeweils **0 Treffer**; die Radiusabfrage um den Kalthofweg 4 liefert in 3 km 0 Altfahrzeugverwertungs-Eintraege und in 10 km 4 Eintraege (Franz Maag Autoverwertung EK, IST GmbH in zwei Anlagen, WRL GmbH), die EfbV-Abfrage in 10 km 97 Eintraege - **keiner** davon nennt Missal oder den Kalthofweg 4. `certifications` bleibt leer. Reichweite: EfbV- und AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nachweis, dass keine Anerkennung besteht und kein Beleg fuer eine Schliessung. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Missal ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Missal ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Kalthofweg%204%2C%2045277%20Essen%2C%20Deutschland;7.078375;51.425735;7.098375;51.445735;7.058375;51.405735&dst=3&is=1&e=1 (Abruf 07.11.2026).]
