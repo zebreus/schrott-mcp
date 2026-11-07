@@ -10,9 +10,12 @@ Einzelfälle über Migrationen gelöst (Migration 7 `goldtrans`, Migration 8
 `heraeus`: "Retire only their current pointers; keep every historical field
 intact").
 
-Dieses Skript liefert die Kandidatenliste: je Händler die Current-Preise,
-deren `observed_at` älter ist als der letzte erfolgreiche Handler-Lauf -
-also genau die Zeilen, die der Handler **nicht** mehr auffrischt.
+Das Kriterium ist **nicht** ein Alter, sondern der letzte erfolgreiche Lauf
+des Handlers: der Store erneuert `observed_at` bei jedem Lauf, auch wenn der
+Wert gleich bleibt. Ein Preis, dessen `observed_at` **älter** als der letzte
+Lauf des Handlers ist, wurde also von diesem Lauf **nicht** aufgefrischt -
+genau die gesuchten Zeilen. Eine Altersgrenze würde Fälle übersehen, die
+erst gestern aus der Liste gefallen sind.
 
 Aufruf:
     python3 scripts/release/find_stale_current_prices.py [--json <datei>]
@@ -62,6 +65,13 @@ def main() -> int:
     ):
         haendler[row["scraper"]] = dict(row)
 
+    def letzter_lauf(slug):
+        """Der Zeitpunkt des letzten erfolgreichen Laufs des Handlers."""
+        lauf = haendler.get(slug)
+        if lauf is None:
+            return None
+        return lauf["started_at"]
+
     kandidaten = {}
     for row in public.execute(
         "SELECT t.slug, m.slug AS material, p.variant, p.price, p.unit, p.currency, "
@@ -73,7 +83,11 @@ def main() -> int:
         "ORDER BY t.slug, m.slug, p.variant"
     ):
         alt = alter(row["observed_at"])
-        if alt is None or alt < ALTER:
+        lauf = letzter_lauf(row["slug"])
+        if alt is None or lauf is None:
+            continue
+        # Der Preis wurde vom letzten Lauf nicht aufgefrischt.
+        if row["observed_at"] >= lauf:
             continue
         kandidaten.setdefault(row["slug"], []).append({
             "material": row["material"],

@@ -318,7 +318,10 @@ fn grade_for(label: &str) -> Option<(&'static str, &'static str)> {
         Some(("stahlschrott-scheren", "Brennerschrott"))
     } else if l.contains("stahlspäne") || l.contains("stahlsp") {
         Some(("mischschrott", "Stahlspäne"))
-    } else if l.contains("widia") || l.contains("vhm") {
+    } else if l.contains("widia") || l.contains("vhm") || l.contains("hartmetall") {
+        // Der Feed nennt die Sorte "Hartmetall" (schluessel "hartmetall"),
+        // nicht nur Widia/VHM - sonst bleibt sie als "kein Katalogmaterial"
+        // liegen, obwohl der Katalog sie kennt.
         Some(("hartmetall", ""))
     } else if l.contains("zinngeschirr") {
         Some(("zinn-geschirr", "Geschirr"))
@@ -1059,6 +1062,10 @@ mod tests {
             Some(("stahlschrott-shredder", ""))
         );
         assert_eq!(grade_for("Widia / VHM"), Some(("hartmetall", "")));
+        // Der Feed nennt die Sorte "Hartmetall" - ohne diesen Zweig bleibt
+        // sie als "kein Katalogmaterial" liegen.
+        assert_eq!(grade_for("Hartmetall"), Some(("hartmetall", "")));
+        assert_eq!(grade_for("Hartmetall [ab 1 kg]"), Some(("hartmetall", "")));
         assert_eq!(
             grade_for("Zinngeschirr"),
             Some(("zinn-geschirr", "Geschirr"))
