@@ -35,7 +35,6 @@ Anlagen am Dossierstandort umfasst: Sammeln und Befördern, Lagern mit den angek
 zwecks Verwertung sowie Behandeln und Verwerten. Das Beiblatt weist die Anlage zugleich als
 anerkannte Annahmestelle nach § 2 Absatz 2 AltfahrzeugV aus. Weitere zertifizierte Betriebe
 derselben Ortssuche gehören anderen Rechtsträgern und wurden nicht übernommen. Offen bleibt, ob die Gesellschaft einen eigenen Eintrag in der Route „Altfahrzeugverwertung“ führt — die genannte Anerkennung stammt aus dem Beiblatt des EfbV-Zertifikats.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

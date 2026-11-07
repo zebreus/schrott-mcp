@@ -28,7 +28,6 @@ provenance_origin: prose
 ## Überblick
 
 Regionaler Metallannahmestandort mit Ankauf von Altmetallen auch für Privatkunden. Preise sind tagesabhängig und werden nicht als numerische öffentliche Liste veröffentlicht.
-
 ## Timeline
 
 ### Recherche 06.10.2026

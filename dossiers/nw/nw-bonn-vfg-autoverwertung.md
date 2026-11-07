@@ -34,7 +34,6 @@ Das Impressum derselben offiziellen Website benennt als Rechtsträger **VFG geme
 Die Anschrift **Am Dickobskreuz 6** im Impressum und auf der Verwaltungs-/Kontaktseite ist die Organisations-/Verwaltungsanschrift, nicht die in der Verwertungsseite ausgewiesene Annahmestelle 4a. Die Website bezeichnet die Verwertung als „zertifiziert nach Altfahrzeug-Verordnung“; ein aktuell gültiges Zertifikat wurde nicht separat geprüft und wird daher nicht als unabhängig bestätigte Zertifizierung behandelt.
 
 Am benachbarten **Am Dickobskreuz 4** ist im öffentlichen Bestand außerdem **Jungheim Schrott & Metallhandels GmbH** geführt. Deren eigenes Impressum nennt HRB 16767, eine eigene Domain und getrennte Kontaktdaten; die VFG-Verwertungsseite nennt dagegen ausdrücklich **4a**, das VFG-Impressum den Verwaltungssitz **6** und HRB 12129. Das sind getrennte Betreiber/Datensätze, keine Grundlage für eine Zusammenführung. Die VFG-Seite nennt Abholung, aber keine ausdrückliche Selbstanlieferung ganzer Altfahrzeuge; deshalb bleibt `dropoff_json` leer.
-
 ## Timeline
 
 ### Recherche 12.10.2026

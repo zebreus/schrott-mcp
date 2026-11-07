@@ -33,7 +33,6 @@ die Identität, das amtliche Fachbetrieberegister bestätigt Standort und Firma 
 Anlagen für Sammeln, Befördern, Handeln und Makeln, Lagern sowie Behandeln und dem
 PÜG-Zertifikat K12995-20260513-Efb-de. Offen bleiben die nicht publizierten Öffnungszeiten
 der Frankfurter Niederlassung und der fehlende Altfahrzeugverwertungseintrag.
-
 ## Timeline
 
 ### Recherche 05.10.2026

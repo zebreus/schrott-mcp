@@ -35,7 +35,6 @@ Hauptsitz die Dinslakener Adresse und als einzige Anlage die Fernewaldstraße 64
 Oberhausen nennt. Offen bleibt damit die Standortfrage, welche der beiden Anschriften die
 zertifizierte Anlage trägt, und eine Anerkennung nach der AltfahrzeugV ist im Register
 nicht ausgewiesen.
-
 ## Timeline
 
 ### Recherche 01.10.2026

@@ -28,7 +28,6 @@ provenance_origin: table
 Eine Primärquelle und das amtliche Register belegen jetzt die **SDS-Rohstoffverwertung Schäfer & Scheffel GmbH**, Buderusstraße 8, 35232 Dautphetal, Tel. 06461 9550-0. Das amtliche Fachbetriebs-/Entsorgungsfachbetriebsregister (Auszug 11.08.2026) führt den Betrieb mit Zertifikatsnummer ZZFT00600008, zertifizierten Tätigkeiten Lagern und Behandeln und den Abfallschlüsseln 120101, 120103, 170405 und 170407. Der Seed-Ort „Dillenburg/Herborn 35683" war eine Kreis-Zuordnung (Lahn-Dill-Kreis) und ist überholt; im Register ist Herborn gar kein Ort und für Dillenburg werden drei sachfremde Betriebe geführt — ein zweiter Schäfer & Scheffel im Lahn-Dill-Gebiet ist nicht auffindbar. Der Seed-Name „Schäfer und Scheffel (SDS)" entspricht der Firmierung „Schäfer und Scheffel GmbH SDS-Rohstoffverwertung", die Namensangleichung (SDS = SDS-Rohstoffverwertung) ist der Schlüssel zur Identität. Die Betreiberwebsite selbst ist eine inhaltsleere Template-Seite ohne Leistungs- oder Preisangaben.
 
 **ANKAUF:** keine öffentlich belegte numerische Liste; das amtliche Register führt bewusst keine Preise. **VERKAUF:** keine Preisliste. **GEBÜHREN:** kein Tarif. Offen: öffentliche Annahmezeiten, zugelassene Kundengruppen, Tagespreise, und ob eine öffentliche Hofannahme oder nur gewerbliche Anlieferung stattfindet.
-
 ## Timeline
 
 ### Recherche 28.10.2026

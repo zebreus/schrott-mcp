@@ -30,7 +30,6 @@ provenance_origin: feedback
 Die Autoverwertung Piske ist am Standort Mainstraße 3 im Bamberger Hafen nachweisbar. Betreiberseite, Hafenverzeichnis und AutoScout24 nennen übereinstimmend Piske, Bamberg und diese Anschrift; Hafenverzeichnis und Händlerprofil benennen Christian Piske als Ansprechpartner bzw. Inhaber. Die Betreiberseite wirbt mit Ankauf von Gebraucht-, Altfahrzeugen und Unfallwagen, Bewertung nach Anruf oder vor Ort sowie Lkw-Abholung. Das belegt Fahrzeuggeschäft, aber keine veröffentlichten Ankaufspreise oder Bedingungen für die Annahme sonstiger Schrottmaterialien.
 
 Die Nürnberger Straße ist laut Betreiberseite die Gründungsadresse von 1968, nicht der aktuelle Standort. Das Hafenverzeichnis datiert den Umzug in den Bamberger Hafen auf 1987. In den geprüften Quellen ist kein zweiter aktueller Piske-Standort in Bamberg belegt. Der Betreiber bezeichnet sich als zertifizierten Demontagebetrieb; die aktuelle Gültigkeit eines Zertifikats wurde nicht unabhängig geprüft.
-
 ## Timeline
 
 ### Recherche 12.10.2026

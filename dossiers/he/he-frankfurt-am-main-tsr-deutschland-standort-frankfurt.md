@@ -41,7 +41,6 @@ Frankfurter Niederlassung geführt wird, ist damit **offen**.
 **Ankauf/Verkauf/Gebühren:** Es sind keine Zahlenpreise, keine Verkaufspreisliste und keine
 Gebührentafel belegt. Die Rufnummer 069/40280 stammt ausschließlich aus Branchenverzeichnissen und
 steht deshalb nicht im Frontmatter.
-
 ## Timeline
 
 ### Korrektur 05.10.2026

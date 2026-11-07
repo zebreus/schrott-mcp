@@ -30,7 +30,6 @@ provenance_origin: prose
 Der Recyclingbetrieb am Standort Peterskirchen 28 ist die LR Leitl GmbH & Co. Recycling KG (AG Landshut HRA 7824), nicht pauschal die im Gruppenimpressum genannte Leitl GmbH (HRB 4228). Gruppenübersicht ordnet Schrott-/Metallkunden ausdrücklich der Recycling-KG zu; Registerdaten bestätigen KG, Anschrift und die persönlich haftende Leitl GmbH. Gemeinsame Gruppenzentrale, keine weiteren Firmen am selben Hof als separate Schrottplätze angelegt.
 
 Schrott-/Metallannahme für Klein- und Großmengen auf dem Hof ist belegt. Daraus folgt keine garantierte Ankaufvergütung oder Gebührenfreiheit für jedes Material. Keine numerische Ankauf-, Verkauf- oder Gebührenliste auf den geprüften Seiten. `pruefung` betrifft offene Vergütungs-/Annahmebedingungen, nicht Zweifel an der belegten Gesellschaft/Adresse.
-
 ## Timeline
 
 ### Verifikation 08.10.2026 — Feedback #5323

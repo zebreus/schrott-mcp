@@ -35,7 +35,6 @@ gültig bis 31.12.2027, und drei Anlagen für Sammeln, Befördern, Lagern, Behan
 Verwerten aus. Offen bleiben die abweichende Registernummer, die fehlende Anerkennung nach
 AltfahrzeugV sowie Preise, Zustands- und Abholbedingungen. Die im Seed geführte Adresse
 Hansestraße 25 gehört nach dem Kreuzbeleg zu Dutz und wurde nicht übernommen.
-
 ## Timeline
 
 ### Recherche 01.10.2026

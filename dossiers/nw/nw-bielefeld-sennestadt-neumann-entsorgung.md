@@ -35,7 +35,6 @@ nach § 56 KrWG, das Zertifikat der DEKRA Certification GmbH ist unter der Vorga
 ZZHT003006771008 bis zum 19.07.2027 gültig, drei Anlagen sind dem Standort zugeordnet.
 Offen bleibt eine Anerkennung nach der AltfahrzeugV, für die das Register keine Treffer
 ausweist, sowie die widersprüchlichen Öffnungszeiten innerhalb derselben Website.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

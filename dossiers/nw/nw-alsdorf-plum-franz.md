@@ -36,7 +36,6 @@ und Befördern zuordnet, sowie das ISO-9001-Zertifikat des TÜV Rheinland. Ankau
 nicht veröffentlicht. Offen bleiben die Dublettenfrage zu einem weiteren Dossier mit derselben
 Nummer und Anschrift und der fehlende Nachweis einer Demontagebetriebs-Anerkennung, da die
 Altfahrzeugverwertungs-Route an dieser Adresse keinen Treffer liefert.
-
 ## Timeline
 
 ### Recherche 03.10.2026 (Owner-Gate)

@@ -26,7 +26,6 @@ provenance_origin: table
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
 ## Timeline
 
 ### Recherche 01.10.2026

@@ -34,7 +34,6 @@ ESC Cert GmbH trägt die Nummer 44807/09-26 und ist bis zum 06.12.2027 gültig, 
 Anlagen sind dem Standort Herzogstraße 6 zugeordnet. Offen bleibt eine Anerkennung nach
 der AltfahrzeugV, für die das Register keine Treffer ausweist, sowie die Mitgliedschaft im
 Berufsverband des Deutschen Münzenfachhandels, die für den Betrieb nicht belegt ist.
-
 ## Timeline
 
 ### Recherche 02.10.2026

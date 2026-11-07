@@ -28,7 +28,6 @@ certifications: '["Entsorgungsfachbetrieb §56 KrWG (ZN ZertifizierungsNetzwerk 
 Die aktuelle Betreiberwebsite Bachinger Schrott + Metalle bezeichnet Paul Bachinger als Betreiber und beschreibt den Familienbetrieb seit 1930 sowie den Standort „Altdorf bei Biessenhofen“ seit 2004. Genannt werden Gewerbepark 25, 87640 Altdorf, 08342 915097, info@bachinger-schrott.de und Öffnungszeiten Mo–Fr 08:00–12:30/13:00–17:15, Sa 10:00–12:00. Das Impressum nennt keine Rechtsform/HRB; eine unabhängige zweite Quelle zur Zuordnung des Seed-Eintrags „Bachinger, Biessenhofen“ ist nicht belegt. Diese Adresse bleibt daher Kandidat, nicht Frontmatter-Fill oder bestätigter GEO-Punkt.
 
 **Ankauf:** private und gewerbliche Schrott-/Metallannahme und Abholung beworben; Kategorien umfassen Eisen/Schrott, Edelstahl, Aluminium, Zink/Zinn, Kupfer/Kabel/Motoren, Messing/Bronze, Blei/Batterien, Nickel/HSS und eingeschränkt Elektroaltgeräte. „Faire Preise“ ohne Zahlenkurse. **Verkauf:** keine numerische Materialpreisliste gefunden. **Gebühren:** Container 3,5–16 m³ Absetz- und 16–42 m³ Abrollcontainer; keine veröffentlichte Gebührenstaffel.
-
 ## Timeline
 
 ### Recherche 28.10.2026

@@ -28,7 +28,6 @@ provenance_origin: feedback
 ## Überblick
 
 Die aktuelle Betreiber-Standortseite führt Lager II in Ahaus-Alstätte mit eigener Anschrift, Telefonnummer und Öffnungszeiten. Impressum und Registerprofil ordnen den Betreiber der Wilhelm Paul & Sohn GmbH, HRB 5570, zu. Das Unternehmen wirbt allgemein mit Schrottabgabe für Privatkunden; die Privatkundenseite nennt aber nicht, welche Zweigstelle diese Anlieferung annimmt. Deshalb bleibt der branchenspezifische Annahmestatus `pruefung`; es werden keine Privatkundenbedingungen, Materialien oder Preise in strukturierte Annahmefelder übertragen. Neu belegt ist jedoch die **Materialliste der Privatkunden** (Kupfer, Aluminium, Kabel, Edelstahl (VA), E-Motore, Nickel, Altzink, Zinn, Widia, Rotguss, Altblei, Autobatterien, Eisen, Sonderlegierungen) sowie die Zahlungsarten (bar oder Überweisung) und die Ausweispflicht — sämtlich **unternehmensweit** formuliert. Die dort genannte Sommerpause endete am 11.09.2026 und ist kein Beleg einer aktuellen Schließung. Die GEO-Koordinate stammt aus dem vom Betreiber für diesen Standort verlinkten Karten-Pin und ist per Reverse-Geocoding gegen Betrieb und Adresse geprüft; sie markiert den Standort, nicht vermessen den Eingang.
-
 ## Timeline
 
 ### Owner-GEO-Prüfung 25.10.2026

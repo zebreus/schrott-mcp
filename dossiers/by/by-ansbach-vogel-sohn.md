@@ -35,7 +35,6 @@ Sammeln und Befördern, Lagern und Behandeln sowie als Erstbehandlungsanlage nac
 ElektroG, das auch auf der Betreiberseite liegt. Offen bleiben der Negativbefund zu einer
 Altfahrzeugverwertungs-Anerkennung, die zwischen Zertifikat (HRB 4164) und Registerspiegel
 (HRA 3233) abweichende Registernummer und fehlende Ankaufpreise.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

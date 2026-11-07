@@ -34,7 +34,6 @@ Fachbetrieberegister mit drei Anlagenzeilen am Standort und der Urkunde ESN 98-0
 ergänzend sind Erstbehandlungsanlage nach § 21 ElektroG und LkSG-Bescheinigung belegt. Offen
 bleibt, dass die Betreiberseite noch die Vorjahreszertifikatsnummer nennt und die
 Altfahrzeugverwertungs-Route keinen Treffer zeigt; öffentliche Ankaufpreise fehlen.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

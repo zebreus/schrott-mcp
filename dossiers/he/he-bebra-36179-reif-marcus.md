@@ -34,7 +34,6 @@ F73E03840;F73RD0210, deckungsgleich mit Name, Anschrift und Telefon. Offen bleib
 den Standort kein Entsorgungsfachbetrieb-Eintrag besteht, die Bescheinigung keine Anlagenart
 trägt und kein Zertifikats-PDF hinterlegt ist, eine Anerkennung als Demontagebetrieb also
 nicht belegt ist; die Betreiberseite war am 02.11.2026 gesperrt, der Status bleibt pruefung.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

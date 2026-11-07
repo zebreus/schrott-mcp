@@ -28,7 +28,6 @@ provenance_origin: table
 Die Donauwörther Betriebsstätte ist durch die Standortseite von Loacker und die Verwerter-/Entsorgerliste des Landkreises Aichach-Friedberg belegt: Dillinger Straße 67, 86609 Donauwörth, Telefon 0906 70696-0. Der Betreiber führt Warenannahme und beschränkte Barauszahlungszeiten; der Direktabruf der Standortseite rendert derzeit nur die Länderauswahl, daher Öffnungszeiten nur als Website-Angabe und nicht in die strukturierten Felder übernommen.
 
 **Preise:** Ankauf — keine numerischen Ankaufskurse gefunden; Barauszahlungen laut Standort-/Containerservice-Seite nur Mo–Do 07:15–15:00, das ist ein Auszahlungszeitfenster, kein Preis. Verkauf — keine lokale Verkaufspreisliste; Gebühren — keine konkreten Tarifbeträge. Die Landkreis-Liste weist für einzelne Abfallarten eine Annahme nur mit Reinigungsbericht aus (Annahmebedingung, kein Gebührentarif). **Geocoding:** Dillinger Straße 67, 86609 Donauwörth geokodieren. Website: https://loacker-recycling.com/de/location/loacker-donauwoerth/ .
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

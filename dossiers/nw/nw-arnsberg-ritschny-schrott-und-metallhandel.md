@@ -35,7 +35,6 @@ und Mindestmengen werden nicht veröffentlicht. Offen bleiben die widersprüchli
 Öffnungszeiten der eigenen Detailseiten, der fehlende exakte Hausnummernnachweis in OSM, der
 die Koordinatenanlage verhinderte, und der fehlende Treffer in der Altfahrzeugverwertung des
 Registers. Warstein-Niederbergheim gehört einer eigenen Gesellschaft.
-
 ## Timeline
 
 ### Recherche 01.10.2026

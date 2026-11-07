@@ -36,7 +36,6 @@ das die Anschrift als Altfahrzeug-Annahmestelle nach § 5 Abs. 3 AltfahrzeugV be
 (Betriebsnummer I761E1970). Offen bleibt, dass das Altfahrzeugverwertungsregister für
 Namen und Anschrift keinen Treffer führt, die Bescheinigung also nur als
 Betreiberdokument vorliegt. Ein Ankauf von Schrott ist nicht belegt.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

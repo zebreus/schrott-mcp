@@ -37,7 +37,6 @@ Bilddatei zeigt nur das abgelöste Vorgängerzertifikat. Daneben liegt ein ISO-9
 des TÜV Rheinland mit derselben Anschrift. Ankaufpreise sind nicht veröffentlicht. Offen
 bleiben die Dublettenfrage zu einem weiteren Dossier mit derselben Nummer und Anschrift und
 der fehlende Nachweis einer Anerkennung nach AltfahrzeugV.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

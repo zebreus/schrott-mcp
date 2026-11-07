@@ -35,7 +35,6 @@ Vorwelle unverändert; sie listet 19 bepreiste Sorten in €/t, während der Sei
 zweite Darstellung mit 28 Positionen in €/kg führt, mit Mindermengenabzug von 10 % unter 200
 kg und Preisanfrage ab 500 kg je Sorte. Offen bleibt, ob beide Darstellungen dieselbe
 Preisrunde führen und ob eine Anerkennung nach AltfahrzeugV besteht.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

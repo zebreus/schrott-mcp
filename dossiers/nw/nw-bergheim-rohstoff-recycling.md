@@ -35,7 +35,6 @@ ZZET016001968008 aus, gültig bis 31.08.2027, für eR erft RECYCLING GmbH, HRB 5
 Köln, mit den Tätigkeiten Befördern, Lagern und Behandeln. Die Betreiberseite bestätigt
 die Firmierung seit April 2025 unter diesem Namen. Offen bleibt der fehlende Vermerk
 zur Altfahrzeugverwertung, denn der Standort ist kein anerkannter Demontagebetrieb.
-
 ## Timeline
 
 ### Recherche 02.10.2026

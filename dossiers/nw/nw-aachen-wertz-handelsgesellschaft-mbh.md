@@ -37,7 +37,6 @@ und kein zweites Zertifikat; Ankaufpreise und Gebühren werden nicht veröffentl
 bleiben die fehlende Anerkennung nach AltfahrzeugV und die Abgrenzung zu den Standorten
 Eschweiler und Düren, die unter eigenen Vorgangsnummern laufen. Das ISO-9001-Zertifikat der
 Gruppe gilt nach dem gelesenen PDF der Wertz Autokrane und nicht dem Schrotthandel.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

@@ -26,7 +26,6 @@ provenance_origin: table
 
 ## Überblick
 Metallrecyclingwerk der H. Carnuth KG in Bogen/Furth, getrennt vom Stahlrecyclingwerk Straubing am Sachsenring 23. Das neue Straubinger Dossier ist ein zweiter Standort derselben Gesellschaft, keine Dublette dieses Hofes. Konkrete Privatannahme, Vergütung und verbindliche Zeiten bleiben zu klären.
-
 ## Timeline
 
 ### Owner-Nachprüfung 08.10.2026 — Feedback #5324

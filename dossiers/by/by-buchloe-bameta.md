@@ -35,7 +35,6 @@ ausdrücklich als Anlage 2 mit Lagern und Behandeln führt. Offen bleiben der ni
 aktuelle Rechtsname im Dossier, da das Register unter "BAMETA" keinen Vorgang kennt, das
 Fehlen einer Altfahrzeugverwertungs-Anerkennung für ALFA Metals und der Mehrbenutzerstandort,
 an dem auch die Föll Rohstoffhandel GmbH geführt wird.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

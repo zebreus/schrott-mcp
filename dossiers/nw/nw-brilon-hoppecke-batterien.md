@@ -34,7 +34,6 @@ GUTcert bestätigen Organisation und Standort. Offen bleibt die Abgrenzung: Das 
 Fachbetrieberegister führt an derselben Adresse eine Anerkennung der Metallhütte Hoppecke
 GmbH & Co. KG mit HRA 4169, also eines anderen Rechtsträgers, die nicht übernommen wurde.
 Eine Anerkennung nach der AltfahrzeugV ist im Register nicht ausgewiesen.
-
 ## Timeline
 
 ### Recherche 01.10.2026

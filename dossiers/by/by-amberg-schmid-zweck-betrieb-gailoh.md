@@ -35,7 +35,6 @@ amtlich gelesene EfbV-Zertifikat 120497197 (Vorgangsnummer ZZHT003008063011, gü
 Anschrift Im Frauental 7 zuordnet. Offen bleiben die fehlende
 Altfahrzeugverwertungs-Anerkennung für diese Anschrift und die auf der Betreiberseite
 nicht veröffentlichten Öffnungszeiten des Wertstoffhofs.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

@@ -34,7 +34,6 @@ Lagern und dem Zertifikat 801.11324/25 des Ingenieurbüros Ulbricht; Anlage 2 ve
 eine Erstbehandlungsanlage nach § 21 ElektroG. Offen bleiben der Widerspruch zwischen der
 Telefonnummer 069 38280203 im Impressum und 069-382802 im Seitenfuß sowie die ohne
 Zweitbeleg leeren Felder für E-Mail und Öffnungszeiten.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

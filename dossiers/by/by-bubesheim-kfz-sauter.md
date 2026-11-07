@@ -28,7 +28,6 @@ provenance_origin: feedback
 Impressum und NorthData führen übereinstimmend die KFZ Sauter GmbH & Co. KG, HRA 12525 beim Amtsgericht Memmingen, mit Anschrift Industriestraße 15, 89347 Bubesheim; die Betreiber-Kontaktseite bezeichnet den Standort als Industriestraße 15–17. Die aktuelle Betreiberseite beschreibt ausdrücklich die Entsorgung von Altfahrzeugen sämtlicher Hersteller mit Verwertungsnachweis und verweist auf den zertifizierten Demontagebetrieb; die Verwertungsseite zeigt ein 2026 benanntes Zertifikatsbild. NorthData führt eine Jahresabschlussveröffentlichung für 2024 vom 28.10.2025. Damit sind Betreiberidentität und fortgeführtes Verwertungsangebot für Bubesheim belegt.
 
 Die Betreiberseite nennt Mo–Fr 08:00–12:00 und 13:00–17:00 Uhr und Samstag geschlossen. Das sind allgemeine Betriebszeiten; eine konkrete Selbstanlieferungs-/Fahrzeugannahmezeit, individuelle Bedingungen sowie ein numerischer Ankaufspreis oder Tarif sind nicht ausgewiesen. `dropoff_json` und `pickup_json` bleiben deshalb leer. Ältere Verzeichnisdatensätze als „Autoverwertung Sauter GbR“ sind ein Namens-/Rechtsformkonflikt am selben Straßenabschnitt, belegen aber keinen zweiten Standort oder eine getrennte heutige Firma; der aktuelle Betreiber nennt im Impressum die KG. Keine Koordinate ergänzt.
-
 ## Timeline
 
 ### Recherche 12.10.2026

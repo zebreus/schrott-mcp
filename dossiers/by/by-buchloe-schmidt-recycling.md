@@ -37,7 +37,6 @@ Altfahrzeug-Demontagebetrieb, Anlagen nach ElektroG und eine Vorbehandlungsanlag
 GewAbfVO. Ankaufpreise sind nicht veröffentlicht, und die genannten Abzugs- und
 Gebührenpositionen bleiben unbeziffert. Offen bleibt der Betriebsbezug, da in OSM die belegte
 Hausnummer 10 keinen Namens- oder Betreibertag trägt.
-
 ## Timeline
 
 ### Recherche 02.10.2026

@@ -35,7 +35,6 @@ Offen bleiben die abweichende Registernummer, da das Zertifikat HRB 8833 ausweis
 der Anschriftenkonflikt zwischen Leutersgrube 2 und der Verzeichnisangabe
 Liebenthalerstr. 70, da beide Anschriften in OSM keine Hausnummern tragen und die Straße
 kein Betriebsobjekt führt, weshalb kein Koordinatenpunkt gesetzt ist.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

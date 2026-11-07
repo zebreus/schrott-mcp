@@ -35,7 +35,6 @@ Standort und Firma mit vier Anlagen und dem Zertifikat 36041/03-26 der ESC Cert;
 2 und 3 verweisen auf eine Erstbehandlungsanlage nach § 21 ElektroG. Offen bleibt die
 abweichende Registernummer HRB 99420 im amtlichen Zertifikat gegen HRA 5228 im Impressum
 sowie der Verweis auf nur die Anlagen 1-3 bei zugleich vier Anlagen.
-
 ## Timeline
 
 ### Recherche 01.10.2026

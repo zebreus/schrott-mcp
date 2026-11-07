@@ -26,7 +26,6 @@ provenance_origin: prose
 ## Überblick
 
 Die Betreiberwebsite „Schrott Fischl“ nennt Inhaber Christian Fischl, Weidacher Str. 32 A, 87471 Durach, Telefon 0831 570 58 80, E-Mail info@schrott-fischl.de und Mo–Fr 08:00–12:00/13:00–17:00. Die Handelsseiten beschreiben Materialannahme und listen Schrott-/NE-Metall-Sorten; dies ist eine direkte, aber einzelne Betreiberquelle (kein unabhängiger Register-/Zweitbeleg). Felder bleiben daher ungefüllt. Sortenlisten sind Annahme-/Materialkategorien, keine Ankaufspreisliste; Verkaufs- und Containergebühren sind nicht beziffert.
-
 ## Timeline
 
 ### Recherche 14.10.2026

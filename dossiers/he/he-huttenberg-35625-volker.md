@@ -43,7 +43,6 @@ Fahrzeug-Anlieferung oder Abholung, Ersatzteilsuche über ein externes Angebotsp
 **Offen:** Die Selbstaussage "zertifiziertes Unternehmen nach Altfahrzeug-Verordnung" ist im
 gespiegelten amtlichen Register nicht auffindbar (für Hüttenberg existiert dort keine Ortsseite);
 eine amtliche Bestätigung steht aus.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

@@ -37,7 +37,6 @@ Verwerten aus; dazu liegen ein standortbezogenes ISO-9001-Zertifikat und eine
 Güterkraftverkehrslizenz vor. Ankaufpreise sind nicht veröffentlicht. Offen bleiben die
 Personenangaben, da Impressum und Registerspiegel bei den Geschäftsführern auseinandergehen,
 und der fehlende AltfahrzeugV-Nachweis.
-
 ## Timeline
 
 ### Recherche 01.10.2026

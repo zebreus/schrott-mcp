@@ -34,7 +34,6 @@ der TÜV Rheinland Cert GmbH mit der Vorgangsnummer ZZET016001350008, gültig bi
 31.05.2027, für eine Anlage am Fuhrpark in dieser Straße. Offen bleibt die Rolle des
 Betriebs im Schrott- und Metallhandel, denn die Betreiberseite nennt keinen Ankauf, und
 eine Anerkennung nach der AltfahrzeugV ist im Register nicht ausgewiesen.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

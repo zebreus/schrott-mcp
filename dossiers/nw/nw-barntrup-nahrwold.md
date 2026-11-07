@@ -37,7 +37,6 @@ Sammeln und Befördern sowie zwei Lagern aus; dazu ist eine Beförderer-Erlaubni
 KrWG belegt. Die verlinkte Zertifikatsdatei ist ein Schmuckzertifikat mit abgelaufenem
 Datum. Ankaufpreise sind nicht veröffentlicht. Offen bleiben die Abgrenzung zu Nahrwold &
 Lehmeier GmbH in Extertal und der fehlende AltfahrzeugV-Nachweis.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

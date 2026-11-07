@@ -37,7 +37,6 @@ gelesene Zertifikat der TÜV SÜD mit der Nummer 12 150 8123, gültig bis 22.05.
 Wertstoffhof Ansbach die Anlagen 5 bis 7 zu. Offen bleiben die Adressdifferenz, da keine Anlage
 die Naglerstraße 1 nennt, das Fehlen eines Altfahrzeugverwertungs-Eintrags und die Frage, ob
 dort Material angekauft wird.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

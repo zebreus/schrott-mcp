@@ -30,7 +30,6 @@ Belegter Schrott- und Metallankauf am Güterbahnhof 53. Die aktuelle Standortsei
 **Anlieferung:** Mo–Do 07:00–12:30 und 13:00–15:30, Fr 07:00–12:30. **Kasse:** Mo–Do 08:00–12:30 und 13:00–15:45, Fr 08:00–12:30. Die Verwaltung arbeitet Mo–Do 07:30–12:30 und 13:00–16:00, Fr 07:30–12:30; diese Zeiten sind keine verlängerte Warenannahme.
 
 Die Seite wirbt mit Ankauf von Buntmetall, Stahlschrott und Kabelschrott zu tagesaktuellen Angeboten. Keine numerische Ankauf-, Verkauf- oder Gebührenliste im geprüften Standort-/Bibliotheksbereich gefunden. Die bisherige Ortsnummer 02771 8750 bleibt ein **unbestätigter Verzeichnis-Altwert**; die Website nennt im Footer nur die Lünen-Zentrale, die nicht als lokale Rufnummer übernommen wurde. Das Zertifikat belegt definierte Tätigkeiten/Abfallarten, keine pauschale Annahme beliebiger gefährlicher Abfälle von Privatkunden.
-
 ## Timeline
 
 ### Recherche 05.10.2026

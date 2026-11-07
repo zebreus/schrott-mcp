@@ -35,7 +35,6 @@ Zwei-Quellen-Regel greift nicht, da ein Handelsregister fehlt, zusätzlich best�
 städtisches Rundschreiben die Kontaktdaten. Als zertifizierter Goldhändler ist der Betrieb
 damit belegt; eine Anerkennung als Entsorgungsfachbetrieb oder nach der Altfahrzeug-Verordnung
 besteht nicht.
-
 ## Timeline
 
 ### Recherche 01.10.2026 (Feedback-Triage 2914)

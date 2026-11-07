@@ -28,7 +28,6 @@ provenance_origin: table
 ## Überblick
 
 Familienbetrieb Heinrich Gestring GmbH & Co. KG in Dortmund-Huckarde (Franz-Schlüter-Str. 30, 44147 Dortmund), laut Betreiber-Website 1920 gegründet. Schrott- und Metallhandel mit Ankauf und Verkauf von Altschrott, Neuschrott, legierten Schrotten, Leicht- und Buntmetallen; ESN-zertifizierter Entsorgungsfachbetrieb, BImSchG-zugelassene Lager- und Umschlaganlage für FE-Schrotte, NE-Metalle und Nutzeisen. Leistungen: Abbruch, Verschrottung, Demontage, Containerbereitstellung (7-25 m³), Lohnarbeiten, Abfallentsorgung, Asbest- und Brandschadensanierung. Öffnungszeiten laut Betreiber-Kontaktseite Mo-Fr 07:00-16:30, Sa 08:00-12:00.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

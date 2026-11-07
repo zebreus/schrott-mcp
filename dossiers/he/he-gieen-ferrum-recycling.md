@@ -37,7 +37,6 @@ NE-Verwiegung ab 1 kg und FE-Auszahlung ab 200 kg, unterhalb dieser Menge erfolg
 Vergütung, sowie Containervermietung mit bepreisten An- und Abfahrten. Ankaufpreise werden nur
 auf Anfrage genannt. Offen bleiben damit die Preishöhen und der Umstand, dass eine kostenlose
 lose Schrottabholung nicht belegt ist, sondern nur der Containerdienst.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

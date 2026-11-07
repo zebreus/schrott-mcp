@@ -35,7 +35,6 @@ geführt. Im Altfahrzeugverwertungsregister ist der Betrieb als Demontagebetrieb
 (ZARS00500003); die Felder zu Kennnummer und Herstellerrücknahme sind leer. Offen bleibt
 die Schreibweise des Firmennamens, da das Altfahrzeugregister Bernhardt nennt, sowie die
 Gültigkeit des ElektroG-Nachweises, der kürzer läuft als die Parallelzertifikate.
-
 ## Timeline
 
 ### Korrektur 05.10.2026

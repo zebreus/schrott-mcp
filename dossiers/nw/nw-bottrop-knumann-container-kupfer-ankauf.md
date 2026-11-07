@@ -35,7 +35,6 @@ mit dem Zertifikat 2603021-1 der ENVIZERT, gültig bis zum 15.08.2027, vier Anla
 dem Standort zugeordnet. Offen bleibt eine Anerkennung nach der AltfahrzeugV, für die das
 Register am Standort keinen Treffer ausweist, sowie die Abgrenzung zu einem anderen
 Rechtsträger, der an derselben Anschrift zertifiziert ist.
-
 ## Timeline
 
 ### Recherche 01.10.2026

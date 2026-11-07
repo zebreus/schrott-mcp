@@ -34,7 +34,6 @@ und Handeln, Lagern sowie Behandeln und dem ESN-Zertifikat ESN 98-050125(26). Of
 die abweichende Registernummer HRB 7122 im amtlichen Zertifikat gegen HRA 175 im Impressum,
 die bei der Namenssuche ohne Treffer bleibende Rechtsformvariante Doering und der fehlende
 Altfahrzeugverwertungseintrag.
-
 ## Timeline
 
 ### Recherche 01.10.2026

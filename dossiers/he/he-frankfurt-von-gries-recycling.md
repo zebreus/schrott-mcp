@@ -33,7 +33,6 @@ Fachbetrieberegister bestätigt Firma und Standort mit drei Anlagen für Sammeln
 Befördern, Lagern und Verwerten sowie Behandeln und Verwerten und dem SMU-Zertifikat
 SMU/1194/002. Offen bleiben der fehlende Altfahrzeugverwertungseintrag und die Abgrenzung
 zur Fr. von Gries Rohstoffe GmbH in Mannheim als anderem Rechtsträger.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

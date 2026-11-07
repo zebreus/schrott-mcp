@@ -35,7 +35,6 @@ Handeln und Makeln. Offen bleibt der fehlende Eintrag im Altfahrzeugverwertungsr
 für den Namen und die Anschrift, der wegen der Freiwilligkeit der Anerkennung kein
 Fehlen belegt. Der Importe-Eintrag nennt Schrott und Metall, Container und eine
 Betriebsgeschichte von über 70 Jahren; Ankaufpreise sind nicht belegt.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

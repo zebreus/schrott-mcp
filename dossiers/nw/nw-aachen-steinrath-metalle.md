@@ -37,7 +37,6 @@ Befördern, Lagern und Behandeln aus. Der OSM-Punkt ist ein Polygonrepräsentati
 als commercial geführten Betriebsgeländes, nicht Einfahrt oder Waage. Ankaufpreise sind nur
 als tagesaktuell beschrieben. Offen bleibt eine Anerkennung nach AltfahrzeugV, da die
 Altfahrzeugverwertungs-Route des Registers keinen Treffer liefert.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

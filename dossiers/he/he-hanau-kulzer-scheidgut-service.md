@@ -83,7 +83,6 @@ Zahngold.
 Drittmarkt: er gehört in die Kategorie „Ankaufspreis des Betreibers für Edelmetall", nicht in eine
 Schrott-Sortenpreisliste. Ob die Filiale in Hanau die Werte des Online-Rechners 1:1 anwendet, ist nicht
 ausdrücklich bestätigt und bleibt offen.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

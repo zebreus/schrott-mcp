@@ -28,7 +28,6 @@ provenance_origin: table
 ## Überblick
 
 Der aktuelle Betreiberauftritt identifiziert die Schrotthandel Nordheim GmbH, HRB 19806 AG Augsburg, an Bäumenheimer Straße 51, 86609 Donauwörth-Nordheim. Die standortbezogene Kontaktseite nennt Telefon und Annahmezeiten; 2025er Zertifikate und das aktuelle Impressum belegen den Betreiberauftritt, der außerdem Schrott-/Metallannahme von jedermann bestätigt. Ein öffentlicher Zuschlagsdatensatz vom Februar 2026 führt dieselbe Firma als Zuschlagsempfängerin für die Verwertung von Buntmetallen; er nennt keinen tatsächlichen Vertragspreis. **Ankauf:** keine numerischen Materialpreise veröffentlicht; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarifbeträge veröffentlicht. Die Registerhistorie nennt als früheren Namen Donauwörther Schrotthandel Dilger–Novak GmbH; das ist eine Namenshistorie derselben Gesellschaft, kein zweiter aktueller Händler.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

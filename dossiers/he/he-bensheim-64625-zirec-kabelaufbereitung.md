@@ -84,7 +84,6 @@ Kundenannahme; die Koordinaten bleiben bewusst leer.
 **Offen:** Ob und unter welchen BedingungenPrivat- oder Gewerbekunden Material anliefern dürfen, ob
 und in welcher Höhe vergütet wird, welche Öffnungszeiten für eine Anlieferung gelten und wie die
 Zertifizierung zur öffentlichen Zulassung steht.
-
 ## Timeline
 
 ### GEO-Owner-Entscheidung 26.10.2026

@@ -35,7 +35,6 @@ zugeordnet, zwei davon sind zertifizierte Erstbehandlungsanlagen nach § 21 Elek
 Ebenfalls amtlich belegt ist die Anerkennung als Demontagebetrieb nach der AltfahrzeugV
 mit der Kennnummer E55400910. Offen bleibt die Firmierung, denn als Zertifikatsinhaber ist
 im Register eine andere Gesellschaft mit derselben Anschrift und Kontaktdaten eingetragen.
-
 ## Timeline
 
 ### Recherche 01.10.2026

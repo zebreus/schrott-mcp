@@ -34,7 +34,6 @@ GmbH, gültig bis zum 08.03.2028, die Anlage Sammeln und Befördern mit der Kenn
 E766T00076 ist dem Standort zugeordnet. Offen bleibt eine Anerkennung nach der
 AltfahrzeugV, für die das Register keine Treffer ausweist; die auf der Betreiberseite
 verlinkte Bestätigung von 2025 ist der Vorgänger des Registerzertifikats.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

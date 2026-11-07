@@ -35,7 +35,6 @@ Sammeln und Befördern für den Containerdienst, Lagern und Behandeln mit Zwisch
 Metallen sowie Handeln und Makeln. Die Telefondifferenz zwischen Impressum und Fußzeile bleibt
 offen, da das Register nur eine der beiden Nummern nennt. Offen bleibt außerdem, ob die frühere
 Anschrift Altenbergstraße 7 auf einen weiteren Händler verweist.
-
 ## Timeline
 
 ### Recherche 01.10.2026

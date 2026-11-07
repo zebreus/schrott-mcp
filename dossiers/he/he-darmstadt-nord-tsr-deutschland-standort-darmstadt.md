@@ -80,7 +80,6 @@ ENTEGA AG (Otto-Röhm-Straße 19-25, im Fachbetrieberegister) - der TSR-Node nod
 **Offen:** Welche Zertifikatsnummer den Darmstädter Standort trägt, ob die Nummer 57 auf der
 Otto-Röhm-Straße unter einer anderen Schreibweise im OSM geführt wird, ob Anlieferungen für Privatkunden
 angenommen werden und zu welchen Konditionen vergütet werden.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

@@ -39,7 +39,6 @@ werden nicht veröffentlicht, ein Verkauf von Sekundärprodukten ist nicht beleg
 sind nirgends beziffert. Offen bleiben der fehlende unmittelbare Betriebsbezug auf der
 Hausnummer 70 in OSM, wo nur die Gruppe erfasst ist, der Negativbefund zu einer
 Altfahrzeugverwertungs-Anerkennung sowie die nur einseitig belegten Kontaktzeiten.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

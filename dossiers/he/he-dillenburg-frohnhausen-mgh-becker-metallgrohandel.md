@@ -33,7 +33,6 @@ METALLGROSSHANDEL BECKER GMBH) mit zwei Anlagen für Sammeln und Befördern sowi
 Behandeln und dem PÜG-Zertifikat K10040-20260622-Efb-de. Offen bleiben ein zweiter
 Betreiberbeleg jenseits des Impressums, die nicht gesondert belegten Containergrößen von 5
 bis 20 m³ und die abweichende Namensschreibweise im Register.
-
 ## Timeline
 
 ### Recherche 01.10.2026

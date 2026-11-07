@@ -30,7 +30,6 @@ certifications: '["Anerkennung nach AltfahrzeugV als Demontagebetrieb (amtliches
 Neuer Händler, **nicht** der vorhandene MM Schrotthandel / MM Schrott & Metalle e.K. (Martin Mechtold, HRA 17585, Adolf-Reichwein-Str.22b). M+M Recycling GmbH ist HRB 43527, Geschäftsführer Denis Matuschok, Grafenheider Str.105. Website-Impressum plus gelesener Northdata-Registerbezug sichern die Identität; Dienstleistungen/Kontakte sind ausdrücklich Betreiberangaben. Die alte Footerzeile „©2019 Roger Wiegel Recycling“ belegt keine Umfirmierungs-/Übernahmekette; diese bleibt offen.
 
 **Ankauf:** Schrott und NE-Metalle sowie Altfahrzeuge, vergütet; keine Euro/kg-Liste. **Verkauf:** Registergegenstand nennt Ersatzteilverkauf, aktuelle Website betont Rohstoffrückgewinnung; keine aktuelle Teilepreisliste. **Gebühren:** Fahrzeugabholung pauschal, separate Reifen kostenpflichtig und mögliche Entsorgungskosten bei Müll/Anhaftungen, Beträge unbekannt. Aktuelle Zertifizierung nicht aus dem abgelaufenen Bild ableiten.
-
 ## Timeline
 
 ### Recherche 08.10.2026 (Feedback #5390)

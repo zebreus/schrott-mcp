@@ -36,7 +36,6 @@ Sammeln und Befördern, Lagern und Behandeln aus; die verlinkte PDF-Datei ist da
 Vorgängerzertifikat. Die Schrottpreis-Seite trägt keine belastbaren Zahlenwerte. Offen
 bleiben die fehlende Anerkennung nach AltfahrzeugV und die Abgrenzung zu gleichnamigen
 Westarp-Rechtsträgern in Aschaffenburg, die nicht übernommen wurden.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

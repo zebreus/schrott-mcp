@@ -35,7 +35,6 @@ gültig bis 07.02.2027), dessen Anlage 1 dem Dossierstandort zugeordnet ist und 
 Makeln mit Kennnummern nach § 28 NachwV umfasst. Eine Anerkennung nach der
 Altfahrzeug-Verordnung besteht nicht. Offen bleiben die Kontaktdaten, da das Register eine
 andere E-Mail-Adresse und Telefonnummer hinterlegt, sowie die nicht genannten Öffnungszeiten.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

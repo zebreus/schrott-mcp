@@ -27,7 +27,6 @@ provenance_origin: table
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

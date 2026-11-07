@@ -32,7 +32,6 @@ provenance_origin: prose
 Leistungen laut Betreiberseite: Pressen und Verladen von Schrottautos (mit Verwertungsnachweis), Ankauf von Gebrauchtwagen, Verkauf von gebrauchten Ersatzteilen, Abschleppdienst, Abmeldung/Ummeldung.
 
 **ANKAUF:** kein bezifferter Ankaufkurs veröffentlicht; die Vergütung für ein Altfahrzeug wird nicht beziffert (die Betreiber-Seite nennt keinen Betrag). **VERKAUF:** gebrauchte Ersatzteile werden angeboten, ohne öffentliche Preise; Gebrauchtwagenhandel ohne Preisangaben. **GEBÜHREN:** keine Gebührenordnung, keine Tarife für Abschleppdienst oder Annahme veröffentlicht. Der status `aktiv` ist mit Betreiberzertifikat (gültig bis 07.12.2027) und Registereintrag belegt.
-
 ## Timeline
 
 - [Owner-Korrektur 29.10.2026 (Korrekturvermerk): **Ein zitiertes OSM-Tag war falsch, und ein OSM-Beleg fehlte — beides ist berichtigt.** (1) Way 182820758 trägt `addr:city=Bechhofen an der Heide`, nicht „Bechhofen“. (2) Dasselbe Objekt verlinkt über `website=` die **Lindörfer**-Website `http://www.lindoerfer-autoverwertung-und-kfz-meisterbetrieb.de` und trägt `industrial=auto_wrecker` sowie `phone=+49 9822 6614` — dieser Beleg grenzt die im Dossier offene Namensfrage „Eckhardt vs. Lindörfer“ ein und ist jetzt genannt. Quellen: way 182820758 live abgerufen am 29.10.2026.]

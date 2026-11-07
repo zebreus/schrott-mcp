@@ -34,7 +34,6 @@ amtliches Fachbetrieberegister tragen die Identität (Born Nachf. GmbH & Co. KG,
 Friedberg, vier Anlagen, Zertifikat PRZ-EfbV-2022-092 der ProRecyZert). Offen bleibt, dass
 das Register den Namen ohne Karl führt und die Namenssuche Born Recycling nur ortsfremde
 Paderborner Zeilen trifft.
-
 ## Timeline
 
 ### Recherche 01.10.2026

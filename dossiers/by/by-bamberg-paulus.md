@@ -36,7 +36,6 @@ Verzeichnisses gegenüber der Betreibernummer 0951 62934 und die Öffnungszeiten
 als Einzelbeleg vorliegen und nicht ins Dossier folgen. Im
 Altfahrzeugverwertungsregister fehlt ein Eintrag für den Standort; die Anerkennung ist
 freiwillig, ein Nichttreffer belegt kein Fehlen. Ankauf und Preise sind nicht belegt.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

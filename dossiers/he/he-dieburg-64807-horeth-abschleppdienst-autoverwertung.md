@@ -82,7 +82,6 @@ Dieburg** (Nr. 18a), **Fahrschule Völker** (Nr. 12) und **SOS Motorradbekleidun
 **Offen:** Ob die Dieburger Fläche eine öffentliche Schrottannahme betreibt, wie die (leere)
 Festpreis-Liste der Unfallfahrzeuge lautet, ob ein Zertifikat (AltfahrzeugV) vorliegt und ob die
 Dieburger Nummer 06071 21171 weiterhin aktiv ist.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)

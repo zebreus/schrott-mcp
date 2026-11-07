@@ -30,7 +30,6 @@ provenance_origin: table
 Die alte NXDOMAIN-Domain schrotthandel-kass.de ist **nicht** die neu gefundene Domain. `website_status: unbekannt` bei weiterhin leerem Websitefeld verhindert, dass die alte Totbewertung pauschal auf alle Auftritte übertragen wird. Kein nachgewiesener Domainumzug/Betreiberwechsel.
 
 **Ankauf:** Betreiber bietet Kupfer, Alu, Messing, Edelstahl, Kabel und Mischschrott für Privat/Gewerbe, Anlieferung/Abholung, Bewertung und direkte Auszahlung zu Tagespreisen. Die direkt geprüften aktuellen Leistungsseiten nennen weiterhin keine numerischen Kurse. **Verkauf:** keine Material- oder Ersatzteilpreisliste. **Gebühren:** Container von 3–44 m³ sowie Reifen-/Fahrzeugentsorgung angeboten; Volumenangabe ist kein Tarif, und es gibt keine generelle Kostenloszusage. Annahmeadresse nach Owner-Gegenprüfung für GEO vormerken.
-
 ## Timeline
 
 ### Recherche 23.10.2026

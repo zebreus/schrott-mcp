@@ -33,7 +33,6 @@ das vom Betrieb verlinkte Facebook-Profil als Zweitbeleg; das amtliche Fachbetri
 führt den Standort mit drei Anlagenzeilen für Sammeln und Befördern, Lagern und Behandeln
 und weist das Zertifikat 1649/01/16 der SVG aus. Offen bleibt, dass die Seed-Adresse Zeller
 Gewerbezentrum 2 überholt ist und bezifferte Ankaufpreise nicht vorliegen.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
