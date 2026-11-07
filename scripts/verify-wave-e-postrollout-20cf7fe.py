@@ -17,7 +17,7 @@ from pathlib import Path
 
 MANIFEST = Path(__file__).with_name("wave-e-20cf7fe-seed-expectations.json")
 HISTORICAL_MANIFEST = Path(__file__).with_name("wave-e-20261011-expectations.json")
-MANIFEST_SHA256 = "3cd00123bc37d7d9afe6b64667d8888f17a973f8d1e7602dac86f92e1e5ddeb4"
+MANIFEST_SHA256 = "ac2bc245ce3ee77a50964afdc44210d87c83b92c672e7373497f7739a450d648"
 HISTORICAL_MANIFEST_SHA256 = "871453ff9f2b54e262a93212c83e42788b29a82a6e2b05b1876300d74768787f"
 RELEASE_COMMIT = "20cf7fec3e4c818ee9ebf99fd2a24ecd40156abb"
 RELEASE_TREE = "2aea508f4a64e7aac5dd90860aae5d2d3c3b995a"

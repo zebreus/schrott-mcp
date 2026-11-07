@@ -19,25 +19,26 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "f1fe34d",
-  "owner_review": "research/wave-e-20261028-0600-owner.md",
+  "dossier_revision": "20cf7fe",
+  "owner_review": "research/wave-e-20261107-0700-owner.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 06:00)",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases f1fe34d gehoben",
+  "revised_by": "Owner (Welle 07.11.2026 07:00)",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 20cf7fe gehoben",
   "rows": [
     {
-      "slug": "by-neustadt-a-d-aisch-stirling-industrie-metallhandel",
+      "slug": "he-darmstadt-wixhausen-der-zerseeger-schrotthandel",
       "fields": [
         "description",
         "email",
-        "opening_hours",
         "phone",
         "postcode",
         "status",
-        "street"
+        "street",
+        "website",
+        "website_status"
       ],
-      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-e-20261028-0600-owner.md."
+      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-e-20261107-0700-owner.md."
     }
   ],
   "unchanged_rows": 59
@@ -130,8 +131,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "2be8ca4330770daff05275a8588df0962acbd90e96a88d91e368df8f405c7f46",
-      "seed_hash": "d8b89c7593f9b799"
+      "notes_sha256": "68ccc6f39612137b9d8b2d36aa0ec5474ee760fc8c4c86759587ce2d9275325a",
+      "seed_hash": "cf4f39319c7dc11b"
     },
     {
       "slug": "by-neustadt-a-d-aisch-stirling-industrie-metallhandel",
@@ -148,8 +149,8 @@
         "website": "https://www.stirling-metallhandel.de/",
         "website_status": "blockiert"
       },
-      "notes_sha256": "22547cf2648e5ffb85cedec542771542e6c4a72c257e6085c33953e87c34c972",
-      "seed_hash": "0266a361911eb5f1"
+      "notes_sha256": "0863adc0cdb97db036202b6db88437ff8c71e7ec0e95a813550dbfddc2331158",
+      "seed_hash": "e6164ccaa5d049fd"
     },
     {
       "slug": "by-peienberg-seiler",
@@ -220,8 +221,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "fbe726c19b0cf76fb7ecd21d93176e77599112a8b00c09d1e6d9289d3a0af452",
-      "seed_hash": "8f707f390e169a65"
+      "notes_sha256": "bd314bbf23d6eed8389afeb61ebb5a81adce88b02b6b17f97ab166508810f972",
+      "seed_hash": "4734c3927c4464b2"
     },
     {
       "slug": "he-alsfeld-schrotthandel-entsorgung-delis",
@@ -238,8 +239,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "0c42c0395e5f8b46bfd1dfba0d2e3c94b29262ab13d324ab233c31f6a9c15b27",
-      "seed_hash": "0a6f453b26452605"
+      "notes_sha256": "9125e459dbd0b02ffc419da2ba4bd73ee4783380ff3c273de7bf3e66121e4efe",
+      "seed_hash": "049cabdc10dfce0b"
     },
     {
       "slug": "he-bad-emstal-34308-pohl-anita",
@@ -256,8 +257,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "4c44e3742c3487f0b806bfc0ed7bb336fd6a064e471cdc008fd990a9dd77f065",
-      "seed_hash": "8a9c8b483b3f04a1"
+      "notes_sha256": "e1f9ce49f5f97c85c61bba667a29727d517f7c7630887cbf8bdb21012db46240",
+      "seed_hash": "c47a65aee0f0b8bc"
     },
     {
       "slug": "he-darmstadt-nord-hartmann-recycling",
@@ -274,26 +275,26 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "c3b3ff577dace915180517f5b4b0c1449191f784a005d90fd24ecfaebfa80a8e",
-      "seed_hash": "3cc508cdbf9ff0fa"
+      "notes_sha256": "127b9039d33c622b100a54bc7c2e84fbc92bb8f63d214de4c87b9b6dc334b9d0",
+      "seed_hash": "8ef70de3e75a0f29"
     },
     {
       "slug": "he-darmstadt-wixhausen-der-zerseeger-schrotthandel",
       "values": {
         "name": "Der Zerseeger Schrotthandel",
-        "street": "",
-        "postcode": "",
-        "phone": "",
-        "email": "",
+        "street": "Am Sportplatz 12",
+        "postcode": "64291",
+        "phone": "0177 9333733",
+        "email": "info@rheinmain-schrotthandel.de",
         "opening_hours": "",
-        "description": "",
-        "status": "pruefung",
+        "description": "Der Zerseeger, eine Marke der MS Bauprofis (Alexander Seeger), war ein Schrott- und Metallankauf in Am Sportplatz 12, 64291 Darmstadt-Wixhausen. Die eigene Website rheinmain-schrotthandel.de hat laut Kontakt und Copyright \"Der Zerseeger © 2022\" das Ende der Webpraxis 2022 ausgewiesen. Sie nannte Telefon 0177 9333733 und die E-Mail info@rheinmain-schrotthandel.de, gueltige Kontaktnahme nur nach Terminvereinbarung, und bot Schrott- und Metallankauf (Eisenmetalle, NE-Metalle wie Aluminiumblechabfall, Kupfer, Messing, Armaturen, Altblei, Elektroschrott, Computerschrott, Autobatterien, Katalysatoren sowie Hartmetalle, Kabel, Edelstahl, Triebwerke) neben Entruempelung, Firmenaufloesung, industrieller Entkernung und Demontage, Altfahrzeugverschrottung und Containerdienst bis 40 ccm. Die Domain ist inzwischen bei DENIC geloescht, die Live-Erreichbarkeit besteht nicht mehr. Der Betrieb selbst ist damit als zum Zeitpunkt der Recherche nicht mehr aktiv gefuehrt; eine amtliche Gewerbeauskunft, die eine Nachfolge oder Fortfuehrung unter anderer Firmierung belegt, steht aus.",
+        "status": "geschlossen",
         "trader_type": "schrotthaendler",
-        "website": "",
-        "website_status": "unbekannt"
+        "website": "https://www.rheinmain-schrotthandel.de/",
+        "website_status": "tot"
       },
-      "notes_sha256": "82d51442e3c44183745e038cf7be2a161c1876cae07b82c4587ca7ec9f0e7868",
-      "seed_hash": "8d797c8e2c78a1a4"
+      "notes_sha256": "e6d1c2650874b17969acf0200bc428bd81860a7aca8346fc989504a3045f17fb",
+      "seed_hash": "7fab5b0e43ba5329"
     },
     {
       "slug": "he-dietzenbach-stalcant-schrotthandler",
@@ -310,8 +311,8 @@
         "website": "https://stalcant-schrotthaendler.de",
         "website_status": "aktiv"
       },
-      "notes_sha256": "20be70f699f3ba0f1a18317408e8df43a3b797258121b69350f7c7fe3b72eb78",
-      "seed_hash": "e01487cb8b9f54f0"
+      "notes_sha256": "bcd35267262aedd52bd99daa1e6cbbeaafb6c4f31041614101c040f45813d197",
+      "seed_hash": "69f398713fd0b9e2"
     },
     {
       "slug": "he-eschborn-65760-pfaff-alexander",
@@ -328,8 +329,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "72f91cc60744ca606acbb1d9b7bf0fbe536d67e4e47499c22a97889a0082712a",
-      "seed_hash": "dc5701ce31097656"
+      "notes_sha256": "c5b37cc61da4bd6cbe0eb8aaa3b99f59e35d41d57ca9644d05a524e62d80cea1",
+      "seed_hash": "b224332de497c48c"
     },
     {
       "slug": "he-fulda-dietershan-schrotthandel-stephan-goldbach",
@@ -346,8 +347,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "cd135ba68c7d52059de148a3dd0f350d1d46b3170e8a217a30222e23a1e659b5",
-      "seed_hash": "944781bf076d4611"
+      "notes_sha256": "aa01ea5f05b22170d3a797d180e35e16dd12f52601a8dd498a1dd1787f8829ea",
+      "seed_hash": "ad4f0e96869cc4c9"
     },
     {
       "slug": "he-hanau-63456-pfragner-georg",
@@ -472,8 +473,8 @@
         "website": "https://meulenedelmetall.de/",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "199b1db84cb00da94c807a276209f186ad61a6a62c7fbd9c9340e9db9c11b9b5",
-      "seed_hash": "25f941dc11d1b8a6"
+      "notes_sha256": "719bd95ab0558c8911981e43cf9916c0e044b493bc6e47a78d683b2354755aea",
+      "seed_hash": "3d8b649f88bd69b4"
     },
     {
       "slug": "hh-billbrook-alt-und-buntmetallhandel-dejan",
@@ -490,8 +491,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "ced365f2723ded8c2daeff36cf834d90e087ace82e967d9c38a8b7371eaa2044",
-      "seed_hash": "a0af0964682c82b0"
+      "notes_sha256": "ec60c38a6ccd9a7649440620e1298763b259eca4f4f71fe7262da33a5e4da339",
+      "seed_hash": "300e09be231b15bf"
     },
     {
       "slug": "hh-stellingen-georg-lensch-sohne",
@@ -508,8 +509,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "fe4812b968b97275965c0f3c34724f728c2af953aebf955ebf3e643f93f257f1",
-      "seed_hash": "dd8e9dfdda0745ff"
+      "notes_sha256": "73e33aa55956215c282ad5067c0c1434bd538374434ac5b5fea2e8ac52ea44d5",
+      "seed_hash": "ffdaabf6ade7a41d"
     },
     {
       "slug": "mv-demmin-oetjen-rohstoffhandel",
@@ -598,8 +599,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "9db55855a71f75f49d7f1ec36522f6ab73c43b64ef7b832f4653028abcc428f3",
-      "seed_hash": "ef8c06baf521af77"
+      "notes_sha256": "fcf80ec0115fd2510a254e0afbd02444c8e912036faa1b8a30e444d55050fd39",
+      "seed_hash": "093727c72da21b21"
     },
     {
       "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
@@ -616,8 +617,8 @@
         "website": "https://www.schrotthaendler-plus.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "50ae092bfdef2812a4e1874a538f8d11339d4efea7084548ff3338d692611a6c",
-      "seed_hash": "b9801849ba45448a"
+      "notes_sha256": "bf5514df2edacf220371b1b975913b041e37b29b03395b7b0a28f7d9823d3284",
+      "seed_hash": "71b0a7fea162bac8"
     },
     {
       "slug": "nw-essen-cbr-bracke",
@@ -634,8 +635,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "9df2aa38ab7891ce0d7f4999ddd83a9c0d5864732783c39a97b55969c440cb4c",
-      "seed_hash": "f3a12f19b5a18199"
+      "notes_sha256": "dbc5d8b857f959033b4d531f8e75213b3d5048ee122a5fcb06914fdaf5a01869",
+      "seed_hash": "4c399352ec38ec7d"
     },
     {
       "slug": "nw-essen-kollner",
@@ -670,8 +671,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "3a233db62a5a1d2b17dd0790d4d0fa93338b2382ee0711871eb7766afd3dd6df",
-      "seed_hash": "a1952f7dd1337f2e"
+      "notes_sha256": "4a982f344d050d243f0055fc10eccb0cb35b0c7a6abb6db0023082439eee8bce",
+      "seed_hash": "591c41a5a6bceba8"
     },
     {
       "slug": "nw-gummersbach-mar-schrottabholung",
@@ -742,8 +743,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "83880bd14637cdce2c8b2ac0e3ebb61390da72a1fef5c04aa1bb4c646de602a0",
-      "seed_hash": "9b57a7852b930901"
+      "notes_sha256": "c1dc9d04ca73203c36a91690c4c0e5d1d4566fc9d271b9ac32acfd21aabc5e01",
+      "seed_hash": "f77bc3171d98d8a7"
     },
     {
       "slug": "nw-koln-reimann",
@@ -760,8 +761,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "c4e6665498d8024d5ea3f515a76ddb6c1fd571f8efaf4fb7f41ad81ee7cf59df",
-      "seed_hash": "28306fef5b5bf8dd"
+      "notes_sha256": "93ee4d90b7042839dbb0a57b8dcf7ac6efc58679d5c9eee43fba209f809c3bff",
+      "seed_hash": "8967398795febff4"
     },
     {
       "slug": "nw-lennestadt-l-mulaj",
@@ -850,8 +851,8 @@
         "website": "http://www.sk-serviceleistungen.info",
         "website_status": "aktiv"
       },
-      "notes_sha256": "c642715c2e082cd543b133670eb9ac633973937224d12d43f6adc90650bf24bb",
-      "seed_hash": "ee282bb4eb760dff"
+      "notes_sha256": "0a1e7fe9cb57019101bbee24bb91f6a7a461b3793132dc0bad0dc15854bf98ff",
+      "seed_hash": "1ee42b3c72caa2d4"
     },
     {
       "slug": "rp-oberzissen-56651-reinhardt",
@@ -868,8 +869,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "343935c3eeba420cdf3642b1139b452bb670bbc33daf6bc08d8f37070d03a1ab",
-      "seed_hash": "ec3893d9a9e306b5"
+      "notes_sha256": "dc3e01b828a6372e28aa50de00074b4742bee6597ad9fd0066e79247fe5604ef",
+      "seed_hash": "c9d84feaaf0c3d55"
     },
     {
       "slug": "rp-worms-67549-kampfer",
@@ -994,8 +995,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "0f240a32deeec07cd1393e3fdb81163aab305fe426b7d9e2fc732a035d3762d5",
-      "seed_hash": "9cfd2ad89fc28f83"
+      "notes_sha256": "7d1dba2942495fdc491cdd6827b0ad1ac3691f9735028ba61d2deb35f5e5fecf",
+      "seed_hash": "bfe905d570d7d70b"
     },
     {
       "slug": "st-kothen-06366-mrr-schrottplatz-kothen",
@@ -1030,8 +1031,8 @@
         "website": "https://www.tsr-recycling.de/standorte/schrotthaendler-querfurt/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "ad570aa77fcae8988f270af039d0789c7c347e04b73ad0813e39f681b69ff6a0",
-      "seed_hash": "52d7caae6368073b"
+      "notes_sha256": "15ea8f353bd1b60fe00854b4574b648266ec2159156b1ea523ae2d0ff0662b3d",
+      "seed_hash": "a73590f89666d1da"
     },
     {
       "slug": "st-sandau-schrotthandel-r-thieke",
