@@ -1,0 +1,2538 @@
+[
+ {
+  "slug": "bb-schoneiche-hein-schrotthandel",
+  "stale": 2,
+  "current_total": 97,
+  "last_step": {
+   "scraper": "bb-schoneiche-hein-schrotthandel",
+   "items_upserted": 95,
+   "status": "ok",
+   "started_at": "2026-11-07T02:19:42.495908232+00:00"
+  },
+  "prices": [
+   {
+    "material": "kabel-kupfer",
+    "variant": "Blei",
+    "price": 0.45,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T04:06:33.821983858+00:00",
+    "age_days": 39,
+    "source_url": "https://www.hein-schrotthandel.de/schrottpreise/"
+   },
+   {
+    "material": "messing",
+    "variant": "Wasseruhren",
+    "price": 1.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T16:44:25.376833447+00:00",
+    "age_days": 38,
+    "source_url": "https://www.hein-schrotthandel.de/schrottpreise/"
+   }
+  ]
+ },
+ {
+  "slug": "be-marzahn-hellersdorf-papierfritze-schrott-altpapierankauf",
+  "stale": 1,
+  "current_total": 14,
+  "last_step": {
+   "scraper": "be-marzahn-hellersdorf-papierfritze-schrott-altpapierankauf",
+   "items_upserted": 13,
+   "status": "ok",
+   "started_at": "2026-11-07T12:09:14.470831136+00:00"
+  },
+  "prices": [
+   {
+    "material": "kabel-kupfer",
+    "variant": "mit Stecker",
+    "price": 1.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T20:46:10.956750807+00:00",
+    "age_days": 38,
+    "source_url": "https://www.papierfritze.de/kupferpreis/"
+   }
+  ]
+ },
+ {
+  "slug": "be-pankow-kiro-schrotthandel-kafedzhiev",
+  "stale": 2,
+  "current_total": 39,
+  "last_step": {
+   "scraper": "be-pankow-kiro-schrotthandel-kafedzhiev",
+   "items_upserted": 37,
+   "status": "ok",
+   "started_at": "2026-11-07T02:04:29.650091234+00:00"
+  },
+  "prices": [
+   {
+    "material": "messing",
+    "variant": "Wasseruhren",
+    "price": 2.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T22:31:51.036994803+00:00",
+    "age_days": 38,
+    "source_url": "https://schrotthandel-berlin.com/schrottpreise/"
+   },
+   {
+    "material": "messing",
+    "variant": "Wasseruhren, ab 750 kg",
+    "price": 2.6,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T22:31:51.036994803+00:00",
+    "age_days": 38,
+    "source_url": "https://schrotthandel-berlin.com/schrottpreise/"
+   }
+  ]
+ },
+ {
+  "slug": "be-treptow-kopenick-amr-metalle-und-rohstoffe-amr-schrottpla",
+  "stale": 4,
+  "current_total": 4,
+  "last_step": {
+   "scraper": "be-treptow-kopenick-amr-metalle-und-rohstoffe-amr-schrottpla",
+   "items_upserted": 4,
+   "status": "ok",
+   "started_at": "2026-10-07T10:29:14.061884336+00:00"
+  },
+  "prices": [
+   {
+    "material": "kabel-kupfer",
+    "variant": "",
+    "price": 2.19,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-07T10:29:14.898857953+00:00",
+    "age_days": 31,
+    "source_url": "http://www.amr-schrottplatz.de"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "",
+    "price": 6.49,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-07T10:29:14.898857953+00:00",
+    "age_days": 31,
+    "source_url": "http://www.amr-schrottplatz.de"
+   },
+   {
+    "material": "kupfer-millberry",
+    "variant": "",
+    "price": 7.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-07T10:29:14.898857953+00:00",
+    "age_days": 31,
+    "source_url": "http://www.amr-schrottplatz.de"
+   },
+   {
+    "material": "messing",
+    "variant": "",
+    "price": 3.97,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-07T10:29:14.898857953+00:00",
+    "age_days": 31,
+    "source_url": "http://www.amr-schrottplatz.de"
+   }
+  ]
+ },
+ {
+  "slug": "by-aschaffenburg-bernhard-westarp",
+  "stale": 7,
+  "current_total": 236,
+  "last_step": {
+   "scraper": "by-aschaffenburg-bernhard-westarp",
+   "items_upserted": 229,
+   "status": "ok",
+   "started_at": "2026-11-07T10:53:39.269780646+00:00"
+  },
+  "prices": [
+   {
+    "material": "kabel-kupfer",
+    "variant": "mit Stecker / ab 1000 kg",
+    "price": 1.77,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:30:46.131316191+00:00",
+    "age_days": 38,
+    "source_url": "http://www.westarp-kg.de/de/einkaufspreise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "mit Stecker / ab 25 kg",
+    "price": 1.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:30:46.131316191+00:00",
+    "age_days": 38,
+    "source_url": "http://www.westarp-kg.de/de/einkaufspreise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "mit Stecker / ab 250 kg",
+    "price": 1.46,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:30:46.131316191+00:00",
+    "age_days": 38,
+    "source_url": "http://www.westarp-kg.de/de/einkaufspreise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "mit Stecker / bis 25 kg",
+    "price": 1.01,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:30:46.131316191+00:00",
+    "age_days": 38,
+    "source_url": "http://www.westarp-kg.de/de/einkaufspreise"
+   },
+   {
+    "material": "platinen",
+    "variant": "Handy / ab 200 kg",
+    "price": 19.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T12:31:07.613343891+00:00",
+    "age_days": 39,
+    "source_url": "http://www.westarp-kg.de/de/einkaufspreise"
+   },
+   {
+    "material": "platinen",
+    "variant": "Handy / ab 5 kg",
+    "price": 15.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T12:31:07.613343891+00:00",
+    "age_days": 39,
+    "source_url": "http://www.westarp-kg.de/de/einkaufspreise"
+   },
+   {
+    "material": "platinen",
+    "variant": "Handy / ab 50 kg",
+    "price": 16.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T12:31:07.613343891+00:00",
+    "age_days": 39,
+    "source_url": "http://www.westarp-kg.de/de/einkaufspreise"
+   }
+  ]
+ },
+ {
+  "slug": "by-aschaffenburg-huth-schrott-metall-huth",
+  "stale": 46,
+  "current_total": 266,
+  "last_step": {
+   "scraper": "by-aschaffenburg-huth-schrott-metall-huth",
+   "items_upserted": 220,
+   "status": "ok",
+   "started_at": "2026-11-07T11:08:46.664876370+00:00"
+  },
+  "prices": [
+   {
+    "material": "blei",
+    "variant": "balancing weights, from 1000 kg",
+    "price": 0.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "blei",
+    "variant": "balancing weights, from 300 kg",
+    "price": 0.35,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "blei",
+    "variant": "balancing weights, from 50 kg",
+    "price": 0.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "blei",
+    "variant": "balancing weights, up to 50 kg",
+    "price": 0.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "blei-auswucht",
+    "variant": "Auswuchtblei, from 25 kg",
+    "price": 0.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "blei-auswucht",
+    "variant": "Auswuchtblei, up to 25 kg",
+    "price": 0.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "chrome steel, 100-250 kg",
+    "price": 0.13,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "chrome steel, 25-100 kg",
+    "price": 0.08,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "chrome steel, 250-1000 kg",
+    "price": 0.16,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v2a",
+    "variant": "100-250 kg",
+    "price": 0.73,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v2a",
+    "variant": "25-100 kg",
+    "price": 0.65,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v2a",
+    "variant": "250-1000 kg",
+    "price": 0.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v2a",
+    "variant": "chips, 100-250 kg",
+    "price": 0.68,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v2a",
+    "variant": "chips, 25-100 kg",
+    "price": 0.6,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v2a",
+    "variant": "chips, 250-1000 kg",
+    "price": 0.75,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v4a",
+    "variant": "100-250 kg",
+    "price": 1.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v4a",
+    "variant": "25-100 kg",
+    "price": 1.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v4a",
+    "variant": "250-1000 kg",
+    "price": 1.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v4a",
+    "variant": "chips, 100-250 kg",
+    "price": 1.28,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v4a",
+    "variant": "chips, 25-100 kg",
+    "price": 1.05,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "edelstahl-v4a",
+    "variant": "chips, 250-1000 kg",
+    "price": 1.45,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "handys",
+    "variant": "",
+    "price": 7.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "with plug, 25 % Cu, from 1000 kg",
+    "price": 1.78,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:45:47.423985209+00:00",
+    "age_days": 38,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "with plug, 25 % Cu, from 25 kg",
+    "price": 1.21,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:45:47.423985209+00:00",
+    "age_days": 38,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "with plug, 25 % Cu, from 250 kg",
+    "price": 1.46,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:45:47.423985209+00:00",
+    "age_days": 38,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "with plug, 25 % Cu, up to 25 kg",
+    "price": 1.02,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T19:45:47.423985209+00:00",
+    "age_days": 38,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "100-1000 kg",
+    "price": 110.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "1000-5000 kg",
+    "price": 140.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "25-100 kg",
+    "price": 80.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "platinen",
+    "variant": "phone boards, from 200 kg",
+    "price": 19.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T12:46:08.813241157+00:00",
+    "age_days": 38,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "platinen",
+    "variant": "phone boards, from 5 kg",
+    "price": 15.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T12:46:08.813241157+00:00",
+    "age_days": 38,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "platinen",
+    "variant": "phone boards, from 50 kg",
+    "price": 16.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T12:46:08.813241157+00:00",
+    "age_days": 38,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "stahlschrott-shredder",
+    "variant": "100-1000 kg",
+    "price": 80.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "stahlschrott-shredder",
+    "variant": "1000-5000 kg",
+    "price": 100.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "stahlschrott-shredder",
+    "variant": "25-100 kg",
+    "price": 60.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "stahlschrott-sorte-1",
+    "variant": "new, 100-1000 kg",
+    "price": 170.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "stahlschrott-sorte-1",
+    "variant": "new, 1000-5000 kg",
+    "price": 200.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "stahlschrott-sorte-1",
+    "variant": "new, 25-100 kg",
+    "price": 90.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn",
+    "variant": "solder, from 100 kg",
+    "price": 6.66,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn",
+    "variant": "solder, from 25 kg",
+    "price": 5.77,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn",
+    "variant": "solder, from 250 kg",
+    "price": 8.44,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn",
+    "variant": "solder, up to 25 kg",
+    "price": 4.22,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-17T12:47:21.850039559+00:00",
+    "age_days": 20,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn-geschirr",
+    "variant": "Geschirr, from 100 kg",
+    "price": 13.97,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn-geschirr",
+    "variant": "Geschirr, from 25 kg",
+    "price": 12.13,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn-geschirr",
+    "variant": "Geschirr, from 250 kg",
+    "price": 17.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   },
+   {
+    "material": "zinn-geschirr",
+    "variant": "Geschirr, up to 25 kg",
+    "price": 8.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-29T05:17:12.767055350+00:00",
+    "age_days": 9,
+    "source_url": "https://www.huth-recycling.de/einkaufspreise"
+   }
+  ]
+ },
+ {
+  "slug": "by-schaftlarn-frisch-recycling",
+  "stale": 5,
+  "current_total": 90,
+  "last_step": {
+   "scraper": "by-schaftlarn-frisch-recycling",
+   "items_upserted": 85,
+   "status": "ok",
+   "started_at": "2026-11-07T07:37:11.389417178+00:00"
+  },
+  "prices": [
+   {
+    "material": "kabel-kupfer",
+    "variant": "mit Stecker",
+    "price": 2.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T21:46:30.589672830+00:00",
+    "age_days": 38,
+    "source_url": "https://frisch-recycling.de/ankauf/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Pellets",
+    "price": 9.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-01T06:32:18.031967602+00:00",
+    "age_days": 37,
+    "source_url": "https://frisch-recycling.de/ankauf/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Targets",
+    "price": 8.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-01T06:32:18.031967602+00:00",
+    "age_days": 37,
+    "source_url": "https://frisch-recycling.de/ankauf/"
+   },
+   {
+    "material": "messing",
+    "variant": "Wasserzähler",
+    "price": 2.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T21:46:30.589672830+00:00",
+    "age_days": 38,
+    "source_url": "https://frisch-recycling.de/ankauf/"
+   },
+   {
+    "material": "zinn",
+    "variant": "60/40",
+    "price": 14.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T08:44:22.042516811+00:00",
+    "age_days": 39,
+    "source_url": "https://frisch-recycling.de/ankauf/"
+   }
+  ]
+ },
+ {
+  "slug": "hb-woltmershausen-vedder-stockrahm",
+  "stale": 3,
+  "current_total": 22,
+  "last_step": {
+   "scraper": "hb-woltmershausen-vedder-stockrahm",
+   "items_upserted": 19,
+   "status": "ok",
+   "started_at": "2026-11-07T06:51:46.038254538+00:00"
+  },
+  "prices": [
+   {
+    "material": "zinn",
+    "variant": "50-59%",
+    "price": 5.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T08:14:11.928935896+00:00",
+    "age_days": 39,
+    "source_url": "https://www.vedder-stockrahm.de/ankauf/"
+   },
+   {
+    "material": "zinn",
+    "variant": "60-69%",
+    "price": 9.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T08:14:11.928935896+00:00",
+    "age_days": 39,
+    "source_url": "https://www.vedder-stockrahm.de/ankauf/"
+   },
+   {
+    "material": "zinn",
+    "variant": "70-79%",
+    "price": 11.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T08:14:11.928935896+00:00",
+    "age_days": 39,
+    "source_url": "https://www.vedder-stockrahm.de/ankauf/"
+   }
+  ]
+ },
+ {
+  "slug": "he-hattersheim-kupferhelden",
+  "stale": 1,
+  "current_total": 5,
+  "last_step": {
+   "scraper": "he-hattersheim-kupferhelden",
+   "items_upserted": 4,
+   "status": "ok",
+   "started_at": "2026-11-07T08:37:20.762044044+00:00"
+  },
+  "prices": [
+   {
+    "material": "kabel-kupfer",
+    "variant": "bis 37%",
+    "price": 0.45,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:14:34.165772225+00:00",
+    "age_days": 38,
+    "source_url": "https://kupferhelden.de/"
+   }
+  ]
+ },
+ {
+  "slug": "hh-wandsbek-goldtrans-edelmetallhandel",
+  "stale": 1,
+  "current_total": 14,
+  "last_step": {
+   "scraper": "hh-wandsbek-goldtrans-edelmetallhandel",
+   "items_upserted": 13,
+   "status": "ok",
+   "started_at": "2026-11-07T12:24:16.513106668+00:00"
+  },
+  "prices": [
+   {
+    "material": "zahngold",
+    "variant": "",
+    "price": 66.1,
+    "unit": "EUR/g",
+    "currency": "EUR",
+    "observed_at": "2026-10-27T12:18:40.125859557+00:00",
+    "age_days": 11,
+    "source_url": "https://www.goldtrans.de/goldankauf-preise-aktueller-goldpreis-ankauf-in-hamburg.html"
+   }
+  ]
+ },
+ {
+  "slug": "ni-braunschweig-neuwert-schrott-altmetallhandel",
+  "stale": 90,
+  "current_total": 186,
+  "last_step": {
+   "scraper": "ni-braunschweig-neuwert-schrott-altmetallhandel",
+   "items_upserted": 99,
+   "status": "ok",
+   "started_at": "2026-11-07T09:22:51.479316417+00:00"
+  },
+  "prices": [
+   {
+    "material": "alu-cu-kuehler",
+    "variant": "unsauber / ab 1 kg",
+    "price": 3.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "alu-cu-kuehler",
+    "variant": "unsauber / ab 100 kg",
+    "price": 3.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "alu-cu-kuehler",
+    "variant": "unsauber / ab 1000 kg",
+    "price": 4.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-blech",
+    "variant": "Farbe / ab 1 kg",
+    "price": 1.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-blech",
+    "variant": "Farbe / ab 100 kg",
+    "price": 1.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-blech",
+    "variant": "Farbe / ab 1000 kg",
+    "price": 1.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-blech",
+    "variant": "Offset / ab 1 kg",
+    "price": 1.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "aluminium-blech",
+    "variant": "Offset / ab 100 kg",
+    "price": 2.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "aluminium-blech",
+    "variant": "Offset / ab 1000 kg",
+    "price": 2.35,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "aluminium-gemischt",
+    "variant": "Späne / ab 1 kg",
+    "price": 1.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-gemischt",
+    "variant": "Späne / ab 100 kg",
+    "price": 1.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-gemischt",
+    "variant": "Späne / ab 1000 kg",
+    "price": 1.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "Felgen / ab 1 kg",
+    "price": 1.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "Felgen / ab 100 kg",
+    "price": 2.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "Felgen / ab 1000 kg",
+    "price": 2.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "unsauber / ab 1 kg",
+    "price": 0.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T09:40:32.022398945+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "unsauber / ab 100 kg",
+    "price": 1.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T09:40:32.022398945+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "unsauber / ab 1000 kg",
+    "price": 1.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T09:40:32.022398945+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-offset",
+    "variant": "Offset / ab 1 kg",
+    "price": 1.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-offset",
+    "variant": "Offset / ab 100 kg",
+    "price": 2.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "aluminium-offset",
+    "variant": "Offset / ab 1000 kg",
+    "price": 2.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "ab 1 kg",
+    "price": 0.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "ab 100 kg",
+    "price": 0.6,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "ab 1000 kg",
+    "price": 0.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "hartmetall",
+    "variant": "ab 1 kg",
+    "price": 35.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "hartmetall",
+    "variant": "ab 100 kg",
+    "price": 37.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "hartmetall",
+    "variant": "ab 1000 kg",
+    "price": 40.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "Litzen 60% / ab 1 kg",
+    "price": 4.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T03:37:17.353108848+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "Litzen 60% / ab 100 kg",
+    "price": 5.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T03:37:17.353108848+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "Litzen 60% / ab 1000 kg",
+    "price": 5.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T03:37:17.353108848+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "Litzen 75% / ab 1 kg",
+    "price": 5.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T03:37:17.353108848+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "Litzen 75% / ab 100 kg",
+    "price": 6.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T03:37:17.353108848+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "Litzen 75% / ab 1000 kg",
+    "price": 6.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T03:37:17.353108848+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "Berry / ab 1 kg",
+    "price": 10.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T09:40:32.022398945+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "Berry / ab 100 kg",
+    "price": 10.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T09:40:32.022398945+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "Berry / ab 1000 kg",
+    "price": 11.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-19T09:40:32.022398945+00:00",
+    "age_days": 19,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "Kerze / ab 1 kg",
+    "price": 10.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "Kerze / ab 100 kg",
+    "price": 10.6,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "Kerze / ab 1000 kg",
+    "price": 10.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "verzinnt / ab 1 kg",
+    "price": 9.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "verzinnt / ab 100 kg",
+    "price": 10.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "verzinnt / ab 1000 kg",
+    "price": 10.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Candy / ab 1 kg",
+    "price": 10.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Candy / ab 100 kg",
+    "price": 10.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Candy / ab 1000 kg",
+    "price": 10.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Späne / ab 1 kg",
+    "price": 9.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Späne / ab 100 kg",
+    "price": 10.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "Späne / ab 1000 kg",
+    "price": 10.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "WiCu-Rohre / ab 1 kg",
+    "price": 6.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "WiCu-Rohre / ab 100 kg",
+    "price": 6.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "WiCu-Rohre / ab 1000 kg",
+    "price": 6.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "leicht / ab 1 kg",
+    "price": 7.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "leicht / ab 100 kg",
+    "price": 7.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "leicht / ab 1000 kg",
+    "price": 7.6,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "schwer / ab 1 kg",
+    "price": 9.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "schwer / ab 100 kg",
+    "price": 10.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "schwer / ab 1000 kg",
+    "price": 10.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "kupfer-spaene",
+    "variant": "Späne / ab 1 kg",
+    "price": 9.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-spaene",
+    "variant": "Späne / ab 100 kg",
+    "price": 9.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-spaene",
+    "variant": "Späne / ab 1000 kg",
+    "price": 10.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-verzinnt",
+    "variant": "verzinnt / ab 1 kg",
+    "price": 9.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-verzinnt",
+    "variant": "verzinnt / ab 100 kg",
+    "price": 10.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "kupfer-verzinnt",
+    "variant": "verzinnt / ab 1000 kg",
+    "price": 10.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Ms-58 / ab 1 kg",
+    "price": 6.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Ms-58 / ab 100 kg",
+    "price": 6.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Ms-58 / ab 1000 kg",
+    "price": 6.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Ms-58 Späne / ab 1 kg",
+    "price": 5.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Ms-58 Späne / ab 100 kg",
+    "price": 6.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Ms-58 Späne / ab 1000 kg",
+    "price": 6.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Sonderspäne / ab 1 kg",
+    "price": 5.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Sonderspäne / ab 100 kg",
+    "price": 6.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "Sonderspäne / ab 1000 kg",
+    "price": 6.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T03:17:59.867260629+00:00",
+    "age_days": 10,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "messing",
+    "variant": "leicht / ab 1 kg",
+    "price": 2.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "messing",
+    "variant": "leicht / ab 100 kg",
+    "price": 2.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "messing",
+    "variant": "leicht / ab 1000 kg",
+    "price": 3.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-28T21:59:07.621705968+00:00",
+    "age_days": 39,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Brennerschrott / ab 1 kg",
+    "price": 120.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:44:55.965204397+00:00",
+    "age_days": 38,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Brennerschrott / ab 100 kg",
+    "price": 150.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:44:55.965204397+00:00",
+    "age_days": 38,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Brennerschrott / ab 1000 kg",
+    "price": 180.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:44:55.965204397+00:00",
+    "age_days": 38,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Schwerschrott / ab 1 kg",
+    "price": 130.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:44:55.965204397+00:00",
+    "age_days": 38,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Schwerschrott / ab 1000 kg",
+    "price": 190.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:44:55.965204397+00:00",
+    "age_days": 38,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Schwerschrott / ab 500 kg",
+    "price": 160.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:44:55.965204397+00:00",
+    "age_days": 38,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Stahlspäne / ab 1 kg",
+    "price": 110.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Stahlspäne / ab 100 kg",
+    "price": 150.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Stahlspäne / ab 1000 kg",
+    "price": 170.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "stahlschrott-scheren",
+    "variant": "Brennerschrott / ab 1 kg",
+    "price": 110.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "stahlschrott-scheren",
+    "variant": "Brennerschrott / ab 100 kg",
+    "price": 140.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "stahlschrott-scheren",
+    "variant": "Brennerschrott / ab 1000 kg",
+    "price": 170.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T23:35:23.408988815+00:00",
+    "age_days": 31,
+    "source_url": "https://neu-wert.de/neuwert-api/neuwert-preise.php?teil=preise"
+   },
+   {
+    "material": "stahlschrott-scheren",
+    "variant": "Schwerschrott / ab 1 kg",
+    "price": 130.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "stahlschrott-scheren",
+    "variant": "Schwerschrott / ab 1000 kg",
+    "price": 190.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   },
+   {
+    "material": "stahlschrott-scheren",
+    "variant": "Schwerschrott / ab 500 kg",
+    "price": 160.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-06T06:52:54.547708219+00:00",
+    "age_days": 32,
+    "source_url": "https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/"
+   }
+  ]
+ },
+ {
+  "slug": "ni-delmenhorst-vedder-stockrahm",
+  "stale": 3,
+  "current_total": 22,
+  "last_step": {
+   "scraper": "ni-delmenhorst-vedder-stockrahm",
+   "items_upserted": 19,
+   "status": "ok",
+   "started_at": "2026-11-07T02:04:30.090555921+00:00"
+  },
+  "prices": [
+   {
+    "material": "zinn",
+    "variant": "50-59%",
+    "price": 5.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T09:29:42.896641802+00:00",
+    "age_days": 39,
+    "source_url": "https://vedder-stockrahm.de/ankauf/"
+   },
+   {
+    "material": "zinn",
+    "variant": "60-69%",
+    "price": 9.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T09:29:42.896641802+00:00",
+    "age_days": 39,
+    "source_url": "https://vedder-stockrahm.de/ankauf/"
+   },
+   {
+    "material": "zinn",
+    "variant": "70-79%",
+    "price": 11.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T09:29:42.896641802+00:00",
+    "age_days": 39,
+    "source_url": "https://vedder-stockrahm.de/ankauf/"
+   }
+  ]
+ },
+ {
+  "slug": "ni-friesoythe-h-henken-friesoythe-auch-cloppenburg-pap",
+  "stale": 4,
+  "current_total": 50,
+  "last_step": {
+   "scraper": "ni-friesoythe-h-henken-friesoythe-auch-cloppenburg-pap",
+   "items_upserted": 46,
+   "status": "ok",
+   "started_at": "2026-11-07T07:21:59.080420067+00:00"
+  },
+  "prices": [
+   {
+    "material": "mischschrott",
+    "variant": "Blech 1",
+    "price": 85.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T21:46:32.964924359+00:00",
+    "age_days": 38,
+    "source_url": "https://henkengmbh.de/preise-schrott-und-buntmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Blech 2",
+    "price": 75.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T21:46:32.964924359+00:00",
+    "age_days": 38,
+    "source_url": "https://henkengmbh.de/preise-schrott-und-buntmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Motoren u. Getriebe",
+    "price": 240.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T21:46:32.964924359+00:00",
+    "age_days": 38,
+    "source_url": "https://henkengmbh.de/preise-schrott-und-buntmetalle/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Stahl",
+    "price": 210.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T21:46:32.964924359+00:00",
+    "age_days": 38,
+    "source_url": "https://henkengmbh.de/preise-schrott-und-buntmetalle/"
+   }
+  ]
+ },
+ {
+  "slug": "ni-marxen-metallankauf24-andre-owsianski-ne-spezia",
+  "stale": 4,
+  "current_total": 7,
+  "last_step": {
+   "scraper": "ni-marxen-metallankauf24-andre-owsianski-ne-spezia",
+   "items_upserted": 3,
+   "status": "ok",
+   "started_at": "2026-11-07T07:06:52.593441598+00:00"
+  },
+  "prices": [
+   {
+    "material": "aluminium-profile",
+    "variant": "",
+    "price": 2.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-27T14:01:48.845052660+00:00",
+    "age_days": 40,
+    "source_url": "https://metallankauf24.de/"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "",
+    "price": 4.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-27T14:01:48.845052660+00:00",
+    "age_days": 40,
+    "source_url": "https://metallankauf24.de/"
+   },
+   {
+    "material": "kupfer-millberry",
+    "variant": "",
+    "price": 10.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-27T14:01:48.845052660+00:00",
+    "age_days": 40,
+    "source_url": "https://metallankauf24.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "",
+    "price": 8.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-27T14:01:48.845052660+00:00",
+    "age_days": 40,
+    "source_url": "https://metallankauf24.de/"
+   }
+  ]
+ },
+ {
+  "slug": "ni-saterland-nfh-zickura",
+  "stale": 2,
+  "current_total": 42,
+  "last_step": {
+   "scraper": "ni-saterland-nfh-zickura",
+   "items_upserted": 40,
+   "status": "ok",
+   "started_at": "2026-11-07T12:09:14.026855676+00:00"
+  },
+  "prices": [
+   {
+    "material": "mischschrott",
+    "variant": "Blech",
+    "price": 80.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T20:46:10.611915649+00:00",
+    "age_days": 38,
+    "source_url": "https://nfh-zickuragmbh.de/preisliste-1"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "Schwer",
+    "price": 200.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T20:46:10.611915649+00:00",
+    "age_days": 38,
+    "source_url": "https://nfh-zickuragmbh.de/preisliste-1"
+   }
+  ]
+ },
+ {
+  "slug": "nw-essen-vogelheim-tappe-rohstoffhandel",
+  "stale": 2,
+  "current_total": 12,
+  "last_step": {
+   "scraper": "nw-essen-vogelheim-tappe-rohstoffhandel",
+   "items_upserted": 10,
+   "status": "ok",
+   "started_at": "2026-11-07T06:36:39.111947558+00:00"
+  },
+  "prices": [
+   {
+    "material": "aluminium-profile",
+    "variant": "",
+    "price": 1.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-27T14:01:47.216437017+00:00",
+    "age_days": 40,
+    "source_url": "https://www.tappe-recycling.de/"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "",
+    "price": 10.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-27T14:01:47.216437017+00:00",
+    "age_days": 40,
+    "source_url": "https://www.tappe-recycling.de/"
+   }
+  ]
+ },
+ {
+  "slug": "nw-herdecke-eas-recycling-solution",
+  "stale": 2,
+  "current_total": 32,
+  "last_step": {
+   "scraper": "nw-herdecke-eas-recycling-solution",
+   "items_upserted": 30,
+   "status": "ok",
+   "started_at": "2026-11-07T04:05:41.684143473+00:00"
+  },
+  "prices": [
+   {
+    "material": "platinen",
+    "variant": "Festplatte",
+    "price": 40.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T11:30:36.637420248+00:00",
+    "age_days": 39,
+    "source_url": "https://www.eas-recycling.de/ankaufspreise/elektronische-bauteile/"
+   },
+   {
+    "material": "platinen",
+    "variant": "Handy",
+    "price": 36.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T11:30:36.637420248+00:00",
+    "age_days": 39,
+    "source_url": "https://www.eas-recycling.de/ankaufspreise/elektronische-bauteile/"
+   }
+  ]
+ },
+ {
+  "slug": "sn-altmittweida-schrott-buntmetallankauf-buntmetallhande",
+  "stale": 1,
+  "current_total": 26,
+  "last_step": {
+   "scraper": "sn-altmittweida-schrott-buntmetallankauf-buntmetallhande",
+   "items_upserted": 25,
+   "status": "ok",
+   "started_at": "2026-11-07T12:24:15.899973764+00:00"
+  },
+  "prices": [
+   {
+    "material": "kupfer-berry",
+    "variant": "verzinnt",
+    "price": 8.7,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T21:01:12.111700307+00:00",
+    "age_days": 38,
+    "source_url": "https://buntmetallhandel-altmittweida.de/ankaufspreisliste"
+   }
+  ]
+ },
+ {
+  "slug": "sn-dresden-2nd-way-recycling",
+  "stale": 1,
+  "current_total": 44,
+  "last_step": {
+   "scraper": "sn-dresden-2nd-way-recycling",
+   "items_upserted": 43,
+   "status": "ok",
+   "started_at": "2026-11-07T07:52:48.295867955+00:00"
+  },
+  "prices": [
+   {
+    "material": "kabel-kupfer",
+    "variant": "Cu-Pb Papier",
+    "price": 0.9,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T22:01:44.035940264+00:00",
+    "age_days": 38,
+    "source_url": "https://www.second-way.de/ankaufspreise/"
+   }
+  ]
+ },
+ {
+  "slug": "sn-frankenberg-volker-lungwitz-schrotthandel",
+  "stale": 3,
+  "current_total": 50,
+  "last_step": {
+   "scraper": "sn-frankenberg-volker-lungwitz-schrotthandel",
+   "items_upserted": 47,
+   "status": "ok",
+   "started_at": "2026-11-07T09:07:42.275039499+00:00"
+  },
+  "prices": [
+   {
+    "material": "blei",
+    "variant": "Kabelblei",
+    "price": 0.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:29:49.730887161+00:00",
+    "age_days": 38,
+    "source_url": "https://vlschrott.de/einkaufspreise/"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "",
+    "price": 0.15,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:29:49.730887161+00:00",
+    "age_days": 38,
+    "source_url": "https://vlschrott.de/einkaufspreise/"
+   },
+   {
+    "material": "kabel-kupfer",
+    "variant": "Cu-Pb Papier",
+    "price": 1.55,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T17:29:49.730887161+00:00",
+    "age_days": 38,
+    "source_url": "https://vlschrott.de/einkaufspreise/"
+   }
+  ]
+ },
+ {
+  "slug": "sn-rochlitz-db-recycling-denis-blum",
+  "stale": 1,
+  "current_total": 37,
+  "last_step": {
+   "scraper": "sn-rochlitz-db-recycling-denis-blum",
+   "items_upserted": 36,
+   "status": "ok",
+   "started_at": "2026-11-07T09:53:01.471595481+00:00"
+  },
+  "prices": [
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "",
+    "price": 0.16,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-09-29T18:15:06.635384607+00:00",
+    "age_days": 38,
+    "source_url": "https://www.dein-schrottplatz.de/pages/preise.php"
+   }
+  ]
+ },
+ {
+  "slug": "th-zella-mehlis-wahl-co-inh-thomas-madeiski",
+  "stale": 40,
+  "current_total": 40,
+  "last_step": {
+   "scraper": "th-zella-mehlis-wahl-co-inh-thomas-madeiski",
+   "items_upserted": 40,
+   "status": "ok",
+   "started_at": "2026-10-28T14:52:27.524430375+00:00"
+  },
+  "prices": [
+   {
+    "material": "aluminium-blech",
+    "variant": "almg",
+    "price": 1.85,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-blech",
+    "variant": "offset",
+    "price": 2.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-gemischt",
+    "variant": "",
+    "price": 1.55,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-gemischt",
+    "variant": "geschirr-mit-fe",
+    "price": 0.95,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-gemischt",
+    "variant": "geschirr-ohne-fe",
+    "price": 1.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-gemischt",
+    "variant": "ral-draht",
+    "price": 2.01,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "felgen",
+    "price": 1.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "mit-fe",
+    "price": 0.85,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-guss",
+    "variant": "ohne-fe",
+    "price": 1.32,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-profile",
+    "variant": "",
+    "price": 2.25,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-profile",
+    "variant": "gestegt",
+    "price": 1.4,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "aluminium-profile",
+    "variant": "lackiert",
+    "price": 2.02,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "blei",
+    "variant": "",
+    "price": 0.83,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "bronze-rotguss",
+    "variant": "",
+    "price": 9.75,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "bronze-rotguss",
+    "variant": "spaene",
+    "price": 8.45,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "bronze-rotguss",
+    "variant": "walzbronze",
+    "price": 12.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "edelstahl-gemischt",
+    "variant": "",
+    "price": 1.1400000000000001,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "elektromotoren",
+    "variant": "",
+    "price": 0.525,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "hartmetall",
+    "variant": "",
+    "price": 35.5,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "hss-werkzeuge",
+    "variant": "",
+    "price": 1.775,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "kupfer-berry",
+    "variant": "",
+    "price": 10.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "",
+    "price": 10.575,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "kanal",
+    "price": 10.05,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "leichtkupfer",
+    "price": 10.1,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "neublech",
+    "price": 11.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "kupfer-gemischt",
+    "variant": "schwerkupfer-lotfrei",
+    "price": 10.55,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "kupfer-millberry",
+    "variant": "",
+    "price": 11.05,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "",
+    "price": 6.8,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "erodierdraht",
+    "price": 7.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "huelsen",
+    "price": 7.25,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "ms58-schrott",
+    "price": 7.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "ms58-spaene",
+    "price": 6.6,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "ms63-blech",
+    "price": 7.2,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "ohne-huelsen",
+    "price": 6.3,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "messing",
+    "variant": "spaene-gemischt",
+    "price": 6.55,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "mischschrott",
+    "variant": "",
+    "price": 140.0,
+    "unit": "EUR/t",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "wolfram",
+    "variant": "",
+    "price": 35.0,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "zink",
+    "variant": "",
+    "price": 2.1950000000000003,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "zink",
+    "variant": "alt",
+    "price": 2.27,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   },
+   {
+    "material": "zink",
+    "variant": "neu",
+    "price": 2.12,
+    "unit": "EUR/kg",
+    "currency": "EUR",
+    "observed_at": "2026-10-28T14:52:28.292370899+00:00",
+    "age_days": 9,
+    "source_url": "https://wahlundco.de/"
+   }
+  ]
+ }
+]
