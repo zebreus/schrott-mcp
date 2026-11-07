@@ -27,6 +27,9 @@ Exitcode 0 = kein Befund ✓, 1 = mindestens ein Befund ✓.
 import re
 import subprocess
 import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[2]
 
 # die Frontmatter-Felder, die ein Dossier fuehren kann
 FELDER = ["street", "postcode", "city", "phone", "email", "website",
@@ -122,8 +125,12 @@ def main() -> int:
     for rel in dateien:
         alt = subprocess.run(["git", "show", f"{basis}:{rel}"],
                              capture_output=True, text=True).stdout
-        cur = subprocess.run(["git", "show", f"{ref}:{rel}"],
-                             capture_output=True, text=True).stdout
+        # Der Kandidat ist der Arbeitsbaum (wie in den übrigen Gates) ✓ -
+        # sonst prüfte das Gate stets den letzten Commit statt der Arbeit ✓.
+        pfad = ROOT / rel
+        cur = pfad.read_text(encoding="utf-8") if pfad.exists() else \
+            subprocess.run(["git", "show", f"{ref}:{rel}"],
+                           capture_output=True, text=True).stdout
         felder_alt, felder_cur = frontmatter(alt), frontmatter(cur)
         alt_notizen = set(notes(alt))
         neu = [n for n in notes(cur) if n not in alt_notizen]
