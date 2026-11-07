@@ -9,7 +9,7 @@ postcode: '98716'
 phone: '03677 8570680'
 email: ''
 opening_hours: ''
-website: http://www.ikschrott.de/
+website: http://www.ikschrott.de
 website_status: aktiv
 status: pruefung
 description: 'Betreiber-Familie rovocar / IKSCHROTT, Inhaber Ronny Voigt, Arnstädter Straße 7, 98716 Geraberg, Telefon 03677 8570680, Mobil 0152 53839541, USt-Id DE 234950962. Das archivierte Impressum von ikschrott.de (2015) und die Impressen von geraberger.de und kfzkaufhaus.de (2019) nennen denselben Rechtsträger und dieselbe Anschrift. Die live erreichbare Betreiberseite ikschrott.de wirbt Schrottabholung im Ilmkreis, Gebraucht- und Schrottfahrzeugankauf sowie Bagger-, Abriss-, Räumungs- und Schwerlastdienste, Containerstellung kostenlos möglich; sie trägt den Umbauvermerk "Wir bauen um" und kein Impressum. ANKAUF: Anfrageformular ohne Preise, keine bezifferte Preisliste. VERKAUF: keine Preisliste. GEBÜHREN: kein Abhol- oder Entsorgungstarif, die Abholung wird als kostenlose Hilfestellung mit Mischkalkulationsvorbehalt beworben. Die Umsatzsteuer-Identifikationsnummer DE 234950962 wird vom EU-VIES am 07.11.2026 als ungültig gemeldet, und OSM führt an der Hausnummer heute einen Blumenladen, sodass die aktuelle Betriebsstätte offen bleibt.'
