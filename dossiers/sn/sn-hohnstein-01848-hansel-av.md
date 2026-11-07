@@ -1,30 +1,31 @@
 ---
 slug: sn-hohnstein-01848-hansel-av
-name: Hänsel AV
+name: Autoverwertung Karsten Hänsel
 trader_type: autoverwertung
 state: SN
 city: Hohnstein
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Hauptstraße 45
+postcode: '01848'
+phone: '035975 84980'
+email: shaensel@autoteile-haensel.de
 opening_hours: ''
 website: https://www.autoteile-haensel.de
 website_status: aktiv
-status: pruefung
-description: ''
+status: aktiv
+description: 'Abschleppdienst, Krandienst und Autoverwertung Karsten Hänsel in OT Ehrenberg (Hauptstraße 45, 01848 Hohnstein); im amtlichen Fachbetrieberegister als anerkannter Demontagebetrieb nach AltfahrzeugV geführt (Vorgangsnummer ZASS00300039, Bescheinigungsanlagennr. 1, Kennnummer SD8715870 und SD8735870). Leistungen: Altfahrzeug- und Unfallwagenverwertung, An- und Verkauf von Unfallfahrzeugen, Verkauf von gebrauchten und neuen Ersatzteilen, Reifenverkauf, Abschlepp- und Krandienst. ANKAUF: für Altfahrzeuge wird ein Angebot erstellt, für das Geld gezahlt wird, aber ohne Beträge. VERKAUF: Ersatzteile und Reifen ohne Preisliste. GEBÜHREN: keine Abhol- oder Verwertungstarife veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) – Kandidaten-Audit (Schlussfilter)
 provenance_ankauf_raw: nur Altauto
 provenance_origin: table
+certifications: '["AltfahrzeugV-Bescheinigung nach § 7 Abs. 2a AltfahrzeugV als Demontagebetrieb (amtliches Fachbetrieberegister, Route Altfahrzeugverwertung mit Filter Art des Betriebs = Demontagebetrieb, Abruf 07.11.2026): Autoverwertung Karsten Hänsel, Hauptstr. 45, 01848 Hohnstein OT Ehrenberg; Vorgangsnummer ZASS00300039, Bescheinigungsanlagennr. 1; Kennnummer SD8715870;SD8735870; Telefon 035975 84980, Fax 035975 849829, E-Mail shaensel@autoteile-haensel.de, Website autoteile-haensel.de; Ansprechpartner Herr Karsten Hänsel; der Detaildialog nennt als Adresse der Firma Hauptstr. 45, 01848 Hohnstein OT Ehrenberg und fuehrt keine unentgeltliche Ruecknahme fuer Hersteller auf; ein EfbV-Zertifikat ist fuer diesen Standort im Register nicht eingetragen (Namenssuche EfbV nach Hansel und Radiusabfrage 3 km um die Adresse liefern keinen Treffer auf den Dossierstandort)"]'
 ---
 
-# Hänsel AV
+# Autoverwertung Karsten Hänsel
 
 ## Überblick
 
-Die Betreiberseite nennt Karsten Hänsel, Hauptstraße 45, OT Ehrenberg, 01848 Hohnstein, und beschreibt Altfahrzeug-/Unfallwagenverwertung sowie Verkauf von Neu- und Gebrauchtteilen. Es gibt nur einen Betreiberbeleg ohne unabhängige Rechtsträger-/Standortbestätigung. Fahrzeugankauf wird individuell angeboten, aber ohne Zahlen; Teilepreise und Abhol-/Entsorgungsgebühren sind nicht veröffentlicht.
+Die Identität ist jetzt durch **zwei unabhängige Quellen** belegt: das amtliche Fachbetrieberegister führt **Autoverwertung Karsten Hänsel** mit einer **AltfahrzeugV-Bescheinigung als Demontagebetrieb** an **Hauptstr. 45, 01848 Hohnstein OT Ehrenberg** (Vorgang ZASS00300039, Bescheinigungsanlagennr. 1, Kennnummer SD8715870 und SD8735870, mit Telefon 035975 84980, Fax 035975 849829 und der E-Mail shaensel@autoteile-haensel.de) und die Betreiberseite nennt denselben Betrieb mit derselben Anschrift, demselben Telefon und demselben Fax (035975 8498 29). Damit ist der seit dem 01.10.2026 offene Klärfall geschlossen. Die Betreiberseite beschreibt Altfahrzeug- und Unfallwagenverwertung, den An- und Verkauf von Unfallfahrzeugen, den Verkauf von gebrauchten und neuen Ersatzteilen, Reifenverkauf sowie Abschlepp- und Krandienst. **Ankauf:** für Altfahrzeuge wird ausdrücklich ein Angebot erstellt, „für das Sie Geld bekommen“, die Beträge werden aber nicht veröffentlicht. **Verkauf:** Ersatzteile (gebraucht und neu) und Reifen ohne Preisliste. **Gebühren:** keine Abhol-, Verwertungs- oder Entsorgungstarife veröffentlicht; die Abholung mit eigenen Lastwagen angeboten zu haben ist keine Kostenfreiheitszusage. Die AfV-Anerkennung belegt die Anerkennung als Demontagebetrieb, nicht dagegen öffentliche Privatkundenannahme, Ankaufvergütung, Verkaufspreise oder Gebühren.
 
 ## Timeline
 
@@ -48,3 +49,7 @@ Die Betreiberseite nennt Karsten Hänsel, Hauptstraße 45, OT Ehrenberg, 01848 H
 ### Recherche 01.10.2026 (Feedback-Triage ID 3011)
 
 - [Recherche 01.10.2026 (Feedback-Triage ID 3011): Feedback teilweise berechtigt — city 'Hohnstein 01848' → 'Hohnstein' (Format) eingearbeitet. Straße/PLZ/Telefon/E-Mail weiter NUR Timeline: vgl. Vorrecherche 01.10.2026 (Betreiber-Einzelbeleg, kein HRB, kein Zweitbeleg). Klärfall bis Zweitbeleg. Quelle(n): autoteile-haensel.de/ (Betreiber-Primärquelle, vgl. Vorrecherche).]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Der am 01.10.2026 offene Klärfall ist geschlossen: das amtliche Fachbetrieberegister führt den Betrieb als anerkannten Demontagebetrieb nach AltfahrzeugV, mit derselben Anschrift und denselben Kontaktdaten wie die Betreiberseite.** Die Namenssuche in der Route „Altfahrzeugverwertung“ (`…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=H%C3%A4nsel`, Abruf 07.11.2026) liefert **1 Treffer**: **Autoverwertung Karsten Hänsel**, Hauptstr. 45, 01848 Hohnstein OT Ehrenberg, **ZASS00300039 / 1**; dieselbe Zeile erscheint mit dem Filter **„Art des Betriebs = Demontagebetrieb“** (`…/Altfahrzeugverwertung/dst=10&is=1&o=2&e=1&n=H%C3%A4nsel`) und die Radiusabfrage mit 3 km um die Dossier-Adresse (`…/Altfahrzeugverwertung/adr=01848 Hohnstein, Deutschland;14.1592764;50.9878805;…&dst=3&is=1&e=1`) weist den Treffer mit **0,0 km** aus. Der Detaildialog des Registers nennt **Kennnummer SD8715870;SD8735870**, **Telefon 035975 84980**, **Fax 035975 849829**, **E-Mail shaensel@autoteile-haensel.de**, **Internetadresse autoteile-haensel.de**, als Ansprechpartner **Herr Karsten Hänsel** und als Adresse der Firma Hauptstr. 45, 01848 Hohnstein OT Ehrenberg; eine unentgeltliche Rücknahme für Hersteller ist nicht aufgeführt. **Negativbefund zum EfbV:** die Namenssuche in der Route „Entsorgungsfachbetriebe“ nach **Hansel** (`…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Hansel`) liefert **1 Treffer**, nämlich die **fremde** Hanselog GmbH, Brandstücken 23, 22549 Hamburg (ZZHT00301676 / 1); die Radiusabfrage mit 3 km um die Dossier-Adresse in derselben Route liefert **0 Treffer**. Für den Dossierstandort ist damit **kein** EfbV-Zertifikat eingetragen, die AltfahrzeugV-Bescheinigung besteht eigenständig. **Betreiberseite erneut gelesen:** das Impressum nennt **Abschleppdienst, Krandienst & Autoverwertung Hänsel**, **Karsten Hänsel**, OT Ehrenberg, **Hauptstraße 45, 01848 Hohnstein**, Tel. +49 (0) 35975 8498 0, Mobil +49 (0) 171 7 35 96 85, Fax +49 (0) 35975 8498 **29**, E-Mail post(at)autoteile-haensel.de, Finanzamt Pirna, USt-IdNr. 210/227/01 (keine HRB-Angabe); die Autoverwertungsseite nennt die ökologische und fachmännische Entsorgung von Altfahrzeugen und Unfallfahrzeugen, den Verkauf von Ersatzteilen (gebraucht und neu), den An- und Verkauf von Unfallfahrzeugen, den Reifenverkauf sowie Import/Export von Ersatzteilen und Fahrzeugen und sagt ausdrücklich: „Ihr altes Auto soll entsorgt werden? Diesen Job erledigen wir für Sie **und Geld bekommen Sie auch dafür**“ — ein Angebotsversprechen ohne Beträge; die Abholung erfolge mit eigenen Lastwagen, auch bei mehreren Fahrzeugen. **Frontmatter gefüllt** (Register-Detaildialog plus Betreiberimpressum, zwei Quellen): Name **Autoverwertung Karsten Hänsel** (Schreibweise des Registers und des Betreiberauftritts), Straße **Hauptstraße 45**, PLZ **01848**, Telefon **035975 84980** (Register nennt 035975 84980, das Betreiberimpressum +49 (0) 35975 8498 0 — dieselbe Nummer), E-Mail **shaensel@autoteile-haensel.de** (Register-Ansprechpartnerfeld; das Betreiberimpressum nennt zusätzlich die Sammeladresse post(at)autoteile-haensel.de, die nicht übernommen wird, um keine zweite nicht belegte E-Mail zu setzen), `status` von `pruefung` auf **aktiv** (amtliche Anerkennung plus aktueller Betreiberauftritt), `certifications` mit dem AfV-Befund; Öffnungszeiten bleiben leer, weil die Betreiberseite keine nennt. **Reichweite:** Register und Betreiberauftritt belegen die Anerkennung, den Standort und die Kontaktdaten, nicht dagegen öffentliche Privatkundenannahme, Ankaufvergütung, Verkaufspreise oder Gebühren. **ANKAUF:** Fahrzeugankauf als individuelles Angebot, „Sie bekommen Geld dafür“, **keine** Beträge; **VERKAUF:** Ersatzteile (gebraucht und neu) und Reifen, **keine** Preisliste; **GEBÜHREN:** keine bezifferten Abhol-, Verwertungs- oder Entsorgungstarife, die Aussage zur Abholung mit eigenen Lastwagen ist **keine** Kostenfreiheitszusage. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=2&e=1&n=H%C3%A4nsel ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=01848%20Hohnstein%2C%20Deutschland%3B14.1592764%3B50.9878805%3B14.1592764%3B50.9878805%3B14.1592764%3B50.9878805&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Hansel ; https://www.autoteile-haensel.de/impressum.html ; https://www.autoteile-haensel.de/autoverwertung.html?modules=content&cid=5 .]
