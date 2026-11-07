@@ -69,7 +69,20 @@ SN-Zweige nach ✓ — **alle stimmen** ✓ (exit 0 ✓).
 | `verify-wave-e-postrollout-fae1d1a.py` | **exit 0** ✓ — **60** Wave-E-Zeilen ✓, **660** Feldprüfungen ✓ |
 | `verify-pending-corrections-fae1d1a.py --since 2026-11-07` | **exit 0** ✓ — 0 Abweichungen ✓ |
 | `post_rollout_check.py` | **exit 0** ✓ — `ok: true` ✓ |
+| `verify-mkm-release.py --since 2026-11-07T09:53:01Z` | **exit 0** ✓ — 61 Artikel ✓, 56/5 ✓, 0 Abweichungen ✓ |
 | Seed beim Start | **79** Zeilen geschrieben ✓ (09:53:03 UTC ✓), danach **0** ✓ (idempotent ✓) |
+
+**Zum MKM-Verifier** ✓: Er war nach dem Rollout rot ✓ und ist es bei **jedem** Rollout gewesen ✓ — nicht wegen
+der Daten ✓, sondern wegen der **Messgröße** ✓: der MKM-Vertrag macht die Preis-Historie **unveränderlich** ✓
+(„Semantic price metadata is immutable“ ✓), der Zeitstempel einer Preiszeile ist damit die **erste** Beobachtung
+ihres Wertes ✓ — eine unveränderte Rohstoffnotierung schreibt keine neue Zeile ✓ und lässt den Stempel stehen ✓.
+Die Frische der Beobachtung trägt der **Current-Zeiger** ✓ (`current_prices.updated_at` ✓ — er wird bei jedem
+Lauf erneuert ✓ ✓). Produktionsbeleg ✓: `prices.observed_at` = 06.11. 11:27 ✓ (erste Beobachtung ✓),
+`current_prices.updated_at` = 07.11. 05:36 ✓ (Wiederbeobachtung ✓). Der Verifier misst seit dem Commit
+`7199f17b` den Zeiger ✓; die alte Fassung bleibt auch mit einem Zuschnitt **nach** dem Handler-Lauf rot ✓
+(Gegenbeweis ✓: `--since 2026-11-07T05:00:00Z` ✓ → alt rot ✓, neu grün ✓). Zwei der drei Fehler waren
+**transient** ✓ (der MKM-Handler war nach dem Rollout noch nicht gelaufen ✓ — Takt 6 h ✓; sein Lauf um
+11:23 UTC ✓ hat sie aufgelöst ✓).
 
 Der alte Wave-E-Pin `6b3da663` ist rot ✓ — **nur informativ** ✓: er ist ein Snapshot eines früheren
 Releases ✓ und die Dossiers haben sich seither geändert ✓. Die **elf Skalare** des Wave-E-Scopes in der
