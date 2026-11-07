@@ -60,5 +60,12 @@ Die Welle vom 06.11.2026, 10:00 Uhr ist damit **vollständig** im Release ✓:
 wortgleich ✓, alle Zertifikatseinträge gegen die PDFs geprüft ✓.
 
 Ein weiterer Punkt bleibt: die **43 Dossiers** des Altbestands mit unausgeglichener
-Klammer ✓ (in der Basis `2e5059b0` ✓) sind weiterhin nicht bereinigt ✓ — das
+Klammer ✓ (in der Basis `2e5059b0` ✓) waren zu diesem Zeitpunkt nicht bereinigt ✓ — das
 ist eine eigene Aufgabe ✓ und kein Neuzugang ✓.
+
+**Korrektur 07.11.2026 ✓:** Diese Aufgabe ist **erledigt** ✓ — der Altbestand ist am **07.11.2026**
+geheilt ✓: von den 43 Dossiers der Basis `2e5059b0` ✓ waren nach den Wellen 10:00 und 12:00 noch
+**7** unausgeglichen ✓; diese **7** sind im Release `fae1d1a5` ✓ geheilt ✓, und
+`scripts/release/check_cert_balance.py --all` meldet **0** Abweichungen ✓ (405 Dossiers geprüft ✓).
+Je Dossier gibt es eine eigene datierte Korrektur-Sektion ✓, die die Bilanz **vor** der Reparatur
+nennt ✓; **kein Wert** wurde geändert ✓ (nur Klammern ✓).
