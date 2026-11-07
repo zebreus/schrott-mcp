@@ -66,10 +66,15 @@ def scope(base, cand):
     return git("diff", "--name-only", base, cand, "--", "dossiers/").split()
 
 
-def feldzaehlungen(base, cand):
-    """Je Feld die Zahl der Dossiers mit geändertem Frontmatter."""
+def feldzaehlungen(base, cand, nur=None):
+    """Je Feld die Zahl der Dossiers mit geändertem Frontmatter.
+
+    `nur` beschraenkt die Zaehlung auf eine Dateiliste (z. B. den Scope
+    einer Welle, die nicht die letzte im Branch ist) ✓.
+    """
     zaehler = Counter()
-    for rel in scope(base, cand):
+    dateien = nur if nur is not None else scope(base, cand)
+    for rel in dateien:
         a = frontmatter(dossier_text(base, rel))
         b = frontmatter(dossier_text(cand, rel))
         for feld in set(a) | set(b):
@@ -206,6 +211,21 @@ def main() -> int:
                         ("name", 2), ("certifications", 1), ("city", 1),
                         ("clear_fields", 1)):
         ok &= pruefe(f"10:30 {feld}", z1030[feld], soll)
+
+    print("=== 16:00-Welle ===")
+    welle = set()
+    for zweig in ("wave1600-s1", "wave1600-s2", "wave1600-s3"):
+        for datei in subprocess.run(
+            ["git", "diff", "--name-only", "558bfe09", zweig, "--", "dossiers/"],
+            capture_output=True, text=True, check=True).stdout.split():
+            welle.add(datei)
+    ok &= pruefe("Dossiers der Welle 16:00", len(welle), 60)
+    z1600 = feldzaehlungen("558bfe09", "HEAD", nur=sorted(welle))
+    for feld, soll in (("postcode", 6), ("street", 5), ("phone", 5), ("clear_fields", 5),
+                        ("website_status", 3), ("description", 3), ("email", 3),
+                        ("opening_hours", 3), ("website", 3), ("certifications", 2),
+                        ("name", 1), ("city", 1), ("trader_type", 1)):
+        ok &= pruefe(f"16:00 {feld}", z1600[feld], soll)
 
     print("=== SN-Zweige ===")
     ok &= pruefe("unausgeglichene Dossiers in der Basis 2e5059b0",
