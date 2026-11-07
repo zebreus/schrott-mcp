@@ -26,7 +26,6 @@ provenance_origin: table
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
@@ -43,3 +42,25 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   (2) **Amtliches Fachbetrieberegister (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt):** Route „Entsorgungsfachbetriebe“, Standortsuche mit validiertem `adr=`-Parameter „Äußerer Ring 60, 85107 Baar-Ebenhausen, Deutschland;11.479638;48.6893037;…“ dst=3 → 18 Treffer, dst=10 → 69 Treffer; die sieben TD-Zeilen `ZZEE00300295 / 1` bis `/ 7` mit **0,8 km**. **Abgrenzung (Fremdbetrieb am selben Ort):** `GSB Sonderabfall-Entsorgung Bayern GmbH`, Äußerer Ring 50, 85107 Baar-Ebenhausen, `ZZIT00400076 / 16` bis `/ 26`, **0,7 km** — anderer Rechtsträger mit eigenem Zertifikat (55 Anlagen, Vorgang ZZIT004000767013), **nicht** übernommen. Route „Altfahrzeugverwertung“: Standortsuche dst=3 → 2 Treffer, dst=10 → 4 Treffer; neben den beiden TD-Zeilen (`ZZEE00300295 / 3` und `ZAKS00200008 / 1`) Fremdbetriebe `Priorec GmbH`, Steinheilstraße 18, 85053 Ingolstadt (5,8 km) und `IB Autoverwertung GmbH`, Hebbelstraße 63, 85055 Ingolstadt (9,6 km) — **nicht übernommen**; ein Zertifikats-PDF wird für die Altfahrzeugverwertung im Register **nicht** angeboten.
   **Reichweite der Registerabfrage (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App; Filter „Art des Betriebs = Egal“ durchgehend is=1&e=1; Namenssuche dst=10; Standortsuche mit PLZ-validiertem adr=Parameter, Radien 3 km und 10 km; Ergebnisgrid vollständig durchscrollt):** Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Äußerer Ring 60, 85107 Ebenhausen, Deutschland“ dst=10 (is=1, e=1) → 4 Treffer; Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Äußerer Ring 60, 85107 Ebenhausen, Deutschland“ dst=3 (is=1, e=1) → 2 Treffer; Route „Altfahrzeugverwertung“ Namenssuche n=„TD Rohstoffhandel“ (dst=10, is=1, e=1) → 2 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Äußerer Ring 60, 85107 Ebenhausen, Deutschland“ dst=10 (is=1, e=1) → 69 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Äußerer Ring 60, 85107 Ebenhausen, Deutschland“ dst=3 (is=1, e=1) → 18 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„TD Rohstoffhandel“ (dst=10, is=1, e=1) → 10 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Rohstoffhandel Ebenhausen“ (dst=10, is=1, e=1) → 7 Treffer.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=…&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=…&dst=3&is=1&e=1 (Abruf 04.11.2026).]
+
+- [Prüfung 06.11.2026: **Feldprüfung des Zertifikats: alle geprüften Felder stimmen mit dem PDF überein, der
+  Eintrag bleibt unverändert.** Geprüft wurde das Zertifikats-PDF der ESN Entsorgergemeinschaft der Deutschen
+  Stahl- und NE-Metall-Recycling-Wirtschaft e.V. (Detaildialog und „Zertifikat herunterladen" am 06.11.2026,
+  Registerabfrage am 06.11.2026) mit `pdftotext -layout`, feldweise: 3.1 `ESN 14-040521(26)`, 3.3
+  `ZZEE003002950009`, 3.4 `Das Zertifikat beinhaltet 7 Anlage(n).`, 3.7 `gültig bis zum 30.09.2027`, 6.
+  Prüfungsdatum `21.04.2026`, 8. Ausstellungsdatum `06.07.2026`; Aussteller 1.1 bis 1.3 `ESN
+  Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V.`, `Berliner Allee 57`,
+  `40212 Düsseldorf`; Rechtsträger 4.1 bis 4.4 `TD Rohstoffhandel Ebenhausen GmbH & Co. KG`, `Äußerer Ring 60`,
+  `85107 Baar-Ebenhausen`, `Registernummer (HRA, HRB etc.): HRB 7037`, `Registergericht: Ingolstadt`.
+  **Standorttreue:** Alle sieben Anlagen tragen in Feld 1.1 bis 1.3 `TD Rohstoffhandel Ebenhausen GmbH & Co.
+  KG`, `Äußerer Ring 60`, `85107 Baar-Ebenhausen` und sind dem Dossierstandort zugeordnet: Anlage 1 (Sammeln und
+  Befördern `I186T00584`), Anlage 2 (Lagern `I186S00064`), Anlage 3 (Behandeln `I186S00064`), Anlage 4
+  (Verwerten `I186S00064`), Anlage 5 (Lagern `I186S00064`), Anlage 6 (Behandeln `I186S00064`) und Anlage 7
+  (Handeln `I186H00048`). Das Zertifikat enthält keine Anlage an einem anderen Standort. Die im Eintrag
+  zitierten AFV-Datensätze wurden am 06.11.2026 am Register-Detaildialog erneut geprüft: `ZZEE00300295 / 3`
+  (Kennnummer `I186S0006`) und `ZAKS00200008 / 1` (Kennummer `I186W1005`, Telefon `08453 320112`,
+  Ansprechpartner `Frau Madlen Grau`) — beide mit `Äußerer Ring 60, 85107 Baar-Ebenhausen`. Damit ist jede
+  Angabe des Eintrags im Feld `certifications` am PDF bzw. Register belegt; eine Korrektur war nicht nötig.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=TD%20Rohstoffhandel&p=ZZEE00300295&fd=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=TD%20Rohstoffhandel
+  (Abruf 06.11.2026).]

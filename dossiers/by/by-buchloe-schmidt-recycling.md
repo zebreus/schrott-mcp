@@ -37,7 +37,6 @@ Altfahrzeug-Demontagebetrieb, Anlagen nach ElektroG und eine Vorbehandlungsanlag
 GewAbfVO. Ankaufpreise sind nicht veröffentlicht, und die genannten Abzugs- und
 Gebührenpositionen bleiben unbeziffert. Offen bleibt der Betriebsbezug, da in OSM die belegte
 Hausnummer 10 keinen Namens- oder Betreibertag trägt.
-
 ## Timeline
 
 ### Recherche 02.10.2026
@@ -81,3 +80,38 @@ Hausnummer 10 keinen Namens- oder Betreibertag trägt.
   Hausnummer 10 ergibt sich allein aus dem Adressobjekt; der Kartenlink der Betreiberseite (Google-Maps-Ort "Schmidt
   Recycling", 48.02626/10.70691) liegt innerhalb von 10 m, der Betrieb führt den alten Namen "Schmidt Recycling" im
   eigenen Kartenlink also selbst weiter. `status` **aktiv** bleibt unverändert.]
+
+- [Korrektur 06.11.2026: **Der Eintrag nannte den Standort, aber weder Ausstelleranschrift noch Prüfungs- und
+  Ausstellungsdatum noch Anlagenanzahl und §-28-NachwV-Kennnummern.** Geprüft wurde das Zertifikats-PDF der PÜG
+  Prüf- und Überwachungsgesellschaft mbH (Detaildialog und „Zertifikat herunterladen" am 06.11.2026,
+  Registerabfrage am 06.11.2026) mit `pdftotext -layout`, feldweise: 3.1 `K10682-20260706-Efb-de`, 3.3
+  `ZZHT004001080013`, 3.4 `Das Zertifikat beinhaltet 18 Anlage(n).`, 3.7 `gültig bis zum 14.01.2028`, 6.
+  Prüfungsdatum `15.07.2026`, 8. Ausstellungsdatum `16.07.2026`; Aussteller 1.1 bis 1.3 `PÜG Prüf- und
+  Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden`; Rechtsträger 4.1 bis 4.4 `Föll
+  Rohstoffhandel GmbH`, `Webereistraße 37`, `87471 Durach`, `Registernummer (HRA, HRB etc.): HRB 7650`,
+  `Registergericht: Kempten (Allgäu)`. **Standorttreue:** Die Anlagen 13 bis 18 tragen in Feld 1.1 bis 1.3
+  `Winkeläckerstraße`, `Winkeläckerstraße 10`, `86807 Buchloe` und sind dem Dossierstandort zugeordnet — Anlage
+  13 (Sammeln und Befördern `I780T00036`, Handeln `I777H00032`), Anlage 14 (Lagern und Behandeln `I777S00067`),
+  Anlage 15 (Lagern und Behandeln `I777S00067`), Anlage 16 (Behandeln `I777S00067`), Anlage 17 (Lagern `I777S00067`)
+  und Anlage 18 (Lagern `I777S00067`); die Anlagen 1 bis 7 (Webereistraße
+  37, Durach), 8 bis 10 (Zeppelinstraße 77, Wangen) und 11 bis 12 (Immenstädter Straße 30, Blaichach) bleiben
+  ausgeklammert. Die Ankreuzfelder 2.1 bis 2.8 wurden **aus dem PDF-Contentstream gelesen**: bei den Anlagen 17
+  und 18 ist **2.4 Behandeln nicht angekreuzt** (angekreuzt sind dort 2.3 Lagern und 2.5 Verwerten, bei Anlage 18
+  zusätzlich 2.6 Beseitigen), weshalb für diese beiden Anlagen nur `Lagern` steht. Der Eintrag wurde um Ausstelleranschrift, Prüfungs- und Ausstellungsdatum, Anlagenanzahl,
+  Rechtsträger und die Kennnummern der Anlagen 13 bis 18 ergänzt. Die vier übrigen Einträge wurden am 06.11.2026
+  an den Betreiber-PDFs geprüft: **Altfahrzeug-Demontagebetrieb** (`Föll Rohstoffhandel GmbH`,
+  `Winkeläckerstraße 10`, `86807 Buchloe`, `Betriebsnummer: I777E0689`, `zuständige Behörde: Landratsamt
+  Ostallgäu`, `Prüfbericht-Nr. 10437`, gültig `15.07.2026` bis `14.01.2028`); **Erstbehandlungsanlage nach
+  ElektroG** und **Rücknahmestelle nach § 17a ElektroG** (beide PZERT GmbH, Begutachtung am `15.07.2026`,
+  Prüfbericht-Nr. 10437, gültig `15.07.2026` bis `14.01.2028`, Zertifikat-Registrier-Nr. 10437);
+  **Vorbehandlungsanlage nach GewAbfVO** (PÜG, Registrier-Nr. `K10682`, Begutachtung am `15.07.2026`, gemischte
+  gewerbliche Siedlungsabfälle und gemischte Bau- und Abbruchabfälle, Prüfung der Anforderungen nach § 6 und §
+  10 GewAbfVO); **End of Waste** (GZQ GmbH, Registrier-Nr. `A-001124-02/2024`, gültig `22.02.2024` bis
+  `21.02.2027`, `EISEN- UND STAHLSCHROTT / ALUMINIUMSCHROTT / KUPFERSCHROTT`, Anlage: `Zentrale Webereistraße
+  37, 87471 Durach` und `Standort 1 Winkeläckerstraße 10, 86807 Buchloe`). Unverändert. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=F%C3%B6ll%20Rohstoffhandel&p=ZZHT00400108&fd=1
+  ; https://www.foell-rohstoffhandel.de/fileadmin/user_upload/pdfs/zertifikat/2026_AD_Zertifikat_Foell_Buchloe.pdf
+  ; https://www.foell-rohstoffhandel.de/fileadmin/user_upload/pdfs/zertifikat/2026_ElektroG_Zertifikat_Foell_Buchloe.pdf
+  ; https://www.foell-rohstoffhandel.de/fileadmin/user_upload/pdfs/zertifikat/2026_RS_Bestaetigung_Foell_Buchloe.pdf
+  ; https://www.foell-rohstoffhandel.de/fileadmin/user_upload/pdfs/zertifikat/2026_Gewerbe_Bestaetigung_Foell_Buchloe.pdf
+  ; https://www.foell-rohstoffhandel.de/fileadmin/user_upload/pdfs/zertifikat/2024-eow-zertifikat-durach-buchloe.pdf
+  (Abruf 06.11.2026).]

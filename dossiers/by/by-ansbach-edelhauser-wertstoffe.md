@@ -37,7 +37,6 @@ gelesene Zertifikat der TÜV SÜD mit der Nummer 12 150 8123, gültig bis 22.05.
 Wertstoffhof Ansbach die Anlagen 5 bis 7 zu. Offen bleiben die Adressdifferenz, da keine Anlage
 die Naglerstraße 1 nennt, das Fehlen eines Altfahrzeugverwertungs-Eintrags und die Frage, ob
 dort Material angekauft wird.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
@@ -64,3 +63,21 @@ dort Material angekauft wird.
   (3) **Amtliches Fachbetrieberegister (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt):** Route „Entsorgungsfachbetriebe“, Standortsuche mit validiertem `adr=`-Parameter „Naglerstraße 1, 91522 Ansbach, Deutschland;10.593476;49.2942199;…“ dst=3 → 4 Treffer, dst=10 → 15 Treffer; davon die drei Edelhäuser-Zeilen `ZZIT00700308 / 5` bis `/ 7` (0,4 km, Adalbert-Pilipp-Str. 48) sowie `wagner+thummerer gmbh`, Bahnhofstraße 2C, 91522 Ansbach (`ZZEE00100763 / 1`, 1,1 km) — Fremdbetrieb; Namenssuche `n=„Edelhäuser“` → 7 Treffer (alle 7 Anlagen beider Standorte), `n=„Edelhaeuser“` → 0 Treffer. **Abgrenzung (Fremdbetriebe am selben Ort):** `wagner+thummerer gmbh` (Bahnhofstraße 2C, 91522 Ansbach) und `Vogel & Sohn GmbH & Co. KG` (Hardtstr. 22, 91522 Ansbach, `ZZIT00700423 / 1` bis `/ 3`, 3,2 km) — **nicht** übernommen. Route „Altfahrzeugverwertung“: Namenssuche `n=„Edelhäuser“` → 0 Treffer; Standortsuche dst=3 → 1 Treffer und dst=10 → 1 Treffer, jeweils `United States Army Urlas Kaserne`, Urlas Kaserne Werkstatt, 91522 Ansbach (`ZAIS00100007 / 1`, 2,8 km) — Fremdbetrieb; **keine AltfahrzeugV-Anerkennung** der Edelhäuser.
   **Reichweite der Registerabfrage (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App; Filter „Art des Betriebs = Egal“ durchgehend is=1&e=1; Namenssuche dst=10; Standortsuche mit PLZ-validiertem adr=Parameter, Radien 3 km und 10 km; Ergebnisgrid vollständig durchscrollt):** Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Naglerstraße 1, 91522 Ansbach, Deutschland“ dst=10 (is=1, e=1) → 1 Treffer; Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Naglerstraße 1, 91522 Ansbach, Deutschland“ dst=3 (is=1, e=1) → 1 Treffer; Route „Altfahrzeugverwertung“ Namenssuche n=„Edelhäuser“ (dst=10, is=1, e=1) → 0 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Naglerstraße 1, 91522 Ansbach, Deutschland“ dst=10 (is=1, e=1) → 15 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Naglerstraße 1, 91522 Ansbach, Deutschland“ dst=3 (is=1, e=1) → 4 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Edelhäuser“ (dst=10, is=1, e=1) → 7 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Edelhaeuser“ (dst=10, is=1, e=1) → 0 Treffer.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=…&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Edelhäuser ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Edelhäuser (Abruf 04.11.2026).]
+
+- [Prüfung 06.11.2026: **Feldprüfung des Zertifikats: alle geprüften Felder stimmen mit dem PDF überein, der
+  Eintrag bleibt unverändert.** Geprüft wurde das Zertifikats-PDF der TÜV SÜD Umweltgutachter GmbH (Detaildialog
+  und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am 06.11.2026) mit `pdftotext -layout`,
+  feldweise: 3.1 `12 150 8123`, 3.3 `ZZIT007003085010`, 3.4 `Das Zertifikat beinhaltet 7 Anlage(n).`, 3.7
+  `gültig bis zum 22.05.2027`, 6. Prüfungsdatum `24.11.2025`, 8. Ausstellungsdatum `09.01.2026`; Aussteller 1.1
+  bis 1.3 `TÜV SÜD Umweltgutachter GmbH`, `Ridlerstraße 57`, `80339 München`; Rechtsträger 4.1 bis 4.4
+  `Edelhäuser Wertstoffe GmbH`, `Am Igelsbach 11`, `91541 Rothenburg`, `Registernummer (HRA, HRB etc.): HRB
+  1710`, `Registergericht: Ansbach`. **Standorttreue:** Die Anlagen 5, 6 und 7 tragen in Feld 1.1 bis 1.3
+  `Edelhäuser Wertstoffe GmbH`, `Adalbert-Pilipp-Str. 48`, `91522 Ansbach` und sind dem Dossierstandort
+  zugeordnet — Anlage 5 (Sammeln `I571T02199`, Lagern `I571W10071`), Anlage 6 (Befördern `I571T02199`) und
+  Anlage 7 (Behandeln `I571W10071`); die Anlagen 1 bis 4 (Am Igelsbach 11, 91541 Rothenburg) liegen an einem
+  anderen Standort und bleiben ausgeklammert. Die im Eintrag vermerkte Adressdifferenz (der Dossierstandort
+  `Naglerstr. 1, 91522 Ansbach` ist nicht der Standort dieser Anlagen) bleibt davon unberührt und ist weiterhin
+  zutreffend. Damit ist jede Angabe des Eintrags im Feld `certifications` am PDF belegt; eine Korrektur war
+  nicht nötig. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Edelh%C3%A4user&p=ZZIT00700308&fd=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Edelh%C3%A4user
+  (Abruf 06.11.2026).]

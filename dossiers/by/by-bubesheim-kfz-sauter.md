@@ -28,7 +28,6 @@ provenance_origin: feedback
 Impressum und NorthData führen übereinstimmend die KFZ Sauter GmbH & Co. KG, HRA 12525 beim Amtsgericht Memmingen, mit Anschrift Industriestraße 15, 89347 Bubesheim; die Betreiber-Kontaktseite bezeichnet den Standort als Industriestraße 15–17. Die aktuelle Betreiberseite beschreibt ausdrücklich die Entsorgung von Altfahrzeugen sämtlicher Hersteller mit Verwertungsnachweis und verweist auf den zertifizierten Demontagebetrieb; die Verwertungsseite zeigt ein 2026 benanntes Zertifikatsbild. NorthData führt eine Jahresabschlussveröffentlichung für 2024 vom 28.10.2025. Damit sind Betreiberidentität und fortgeführtes Verwertungsangebot für Bubesheim belegt.
 
 Die Betreiberseite nennt Mo–Fr 08:00–12:00 und 13:00–17:00 Uhr und Samstag geschlossen. Das sind allgemeine Betriebszeiten; eine konkrete Selbstanlieferungs-/Fahrzeugannahmezeit, individuelle Bedingungen sowie ein numerischer Ankaufspreis oder Tarif sind nicht ausgewiesen. `dropoff_json` und `pickup_json` bleiben deshalb leer. Ältere Verzeichnisdatensätze als „Autoverwertung Sauter GbR“ sind ein Namens-/Rechtsformkonflikt am selben Straßenabschnitt, belegen aber keinen zweiten Standort oder eine getrennte heutige Firma; der aktuelle Betreiber nennt im Impressum die KG. Keine Koordinate ergänzt.
-
 ## Timeline
 
 ### Recherche 12.10.2026
@@ -130,3 +129,21 @@ Die Betreiberseite nennt Mo–Fr 08:00–12:00 und 13:00–17:00 Uhr und Samstag
   https://api.openstreetmap.org/api/0.6/map.json?bbox=10.4000,48.4200,10.4300,48.4500 ;
   https://api.openstreetmap.org/api/0.6/way/172227078/full.json ; https://kfz-sauter.com/impressum/ ;
   https://schrottregister.pages.dev/betrieb-kfz-sauter-gmbh-co-kg-bubesheim (live abgerufen 05.11.2026).]
+
+- [Prüfung 06.11.2026: **Für diesen Eintrag gibt es kein Zertifikats-PDF; der Eintrag bleibt unverändert.**
+  Die AltfahrzeugV-Route des amtlichen Fachbetrieberegisters weist für den Standort `Industriestraße 15-17,
+  89347 Bubesheim` einen Datensatz aus, der am 06.11.2026 im Detaildialog geprüft wurde (live): `ZAIS01700010 /
+  1` — `Bezeichnung: Kfz-Sauter GmbH & Co. KG`, `Adresse: Industriestraße 15-17, 89347 Bubesheim`, `E-Mail:
+  info@autoverwertung-sauter.de`, `Telefon: 08221/36749-0`, `Vorgangsnummer: ZAIS01700010`,
+  `Bescheinigungsanlagennr.: 1`, `Fax: 08221/36749-10`, `Ansprechpartner: Herr Alexander Sauter: Telefon:
+  08221/36749-15 E-Mail: info@autoverwertung-sauter.de Fax: 08221/36749-10`, `Kennnummer: I774E1002`, `Rücknahme
+  für folgende Hersteller: Audi, Daihatsu, Lexus, Piaggio, Seat, Skoda, Toyota, VW, VW-Nutzfahrzeuge`,
+  `Bezeichnung der Firma: Kfz-Sauter GmbH & Co. KG`, `Adresse der Firma: Industriestraße 15-17, 89347
+  Bubesheim`. Der Dialog führt keinen PDF-Link („Zertifikat herunterladen") und keinen Permalink; die Felder 3.1
+  (Zertifikatsnummer), 3.3 (Vorgangsnummer im 12-stelligen Format), 3.4, 3.7, 6 und 8 sind daher **nicht
+  vorhanden** und bleiben im Eintrag unverändert. Die EfbV-Route liefert für `n=KFZ Sauter` **0 Treffer**; der
+  Eintrag führt daher keine Angaben zu einem Entsorgungsfachbetrieb. Die im Eintrag zitierten Angaben zur
+  Bescheinigung nach § 5 Abs. 3 AltfahrzeugV stammen aus dem Betreiber-Nachweis und bleiben unverändert.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=KFZ%20Sauter
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=KFZ%20Sauter
+  (Abruf 06.11.2026).]

@@ -34,7 +34,6 @@ Das Impressum derselben offiziellen Website benennt als Rechtsträger **VFG geme
 Die Anschrift **Am Dickobskreuz 6** im Impressum und auf der Verwaltungs-/Kontaktseite ist die Organisations-/Verwaltungsanschrift, nicht die in der Verwertungsseite ausgewiesene Annahmestelle 4a. Die Website bezeichnet die Verwertung als „zertifiziert nach Altfahrzeug-Verordnung“; ein aktuell gültiges Zertifikat wurde nicht separat geprüft und wird daher nicht als unabhängig bestätigte Zertifizierung behandelt.
 
 Am benachbarten **Am Dickobskreuz 4** ist im öffentlichen Bestand außerdem **Jungheim Schrott & Metallhandels GmbH** geführt. Deren eigenes Impressum nennt HRB 16767, eine eigene Domain und getrennte Kontaktdaten; die VFG-Verwertungsseite nennt dagegen ausdrücklich **4a**, das VFG-Impressum den Verwaltungssitz **6** und HRB 12129. Das sind getrennte Betreiber/Datensätze, keine Grundlage für eine Zusammenführung. Die VFG-Seite nennt Abholung, aber keine ausdrückliche Selbstanlieferung ganzer Altfahrzeuge; deshalb bleibt `dropoff_json` leer.
-
 ## Timeline
 
 ### Recherche 12.10.2026
@@ -99,3 +98,6 @@ Am benachbarten **Am Dickobskreuz 4** ist im öffentlichen Bestand außerdem **J
   https://www.vfg-bonn.de/arbeit-beschaeftigung/autoverwertung-schrottplatz/ ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20VFG
   (im Dossier zitiert, Abruf 05.11.2026).]
+
+- [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Register überein; für Bescheinigungen nach AltfahrzeugV ist im Register kein Zertifikats-PDF hinterlegt.** Geprüft wurde der Detaildialog der Route „Altfahrzeugverwertung“ des amtlichen Fachbetrieberegisters (Namenssuche „VFG“, Abruf 06.11.2026): „Bezeichnung Autoverwertung VFG gB-GmbH“, „Adresse Am Dickobskreuz 6, 53121 Bonn“, „E-Mail verwertung@vfg-bonn.de“, „Telefon 0228/657691“, „Vorgangsnummer ZAES00500010“, „Bescheinigungsanlagennr. 1“, „Ansprechpartner Herr Friedrich Nettekoven“, „Bezeichnung der Firma Autoverwertung VFG gB-GmbH“, „Adresse der Firma Am Dickobskreuz 6, 53121 Bonn“ - alle Angaben des Eintrags sind wörtlich belegt. Das Feld „Kennnummer“ ist im Register leer und wird deshalb nicht ergänzt; die Datensätze erscheinen mit Art des Betriebs = Demontagebetrieb sowie mit Art des Betriebs = Egal in der Trefferliste. Zur Anschrift: das Register führt die Bescheinigungsanlage unter „Am Dickobskreuz 6“, das Dossier unter „Am Dickobskreuz 4a“; nach der Notiz vom 12.10.2026 ist „Am Dickobskreuz 6“ die Verwaltungs- und Organisationsanschrift desselben Betreibers, nicht eine fremde Adresse, der Eintrag bleibt deshalb unverändert.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=VFG ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=2&n=VFG (Abruf 06.11.2026)]

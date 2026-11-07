@@ -35,7 +35,6 @@ amtlich gelesene EfbV-Zertifikat 120497197 (Vorgangsnummer ZZHT003008063011, gü
 Anschrift Im Frauental 7 zuordnet. Offen bleiben die fehlende
 Altfahrzeugverwertungs-Anerkennung für diese Anschrift und die auf der Betreiberseite
 nicht veröffentlichten Öffnungszeiten des Wertstoffhofs.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
@@ -49,3 +48,17 @@ nicht veröffentlichten Öffnungszeiten des Wertstoffhofs.
 ### Recherche 01.11.2026
 
 - [Recherche 01.11.2026: Amtlicher Efb-Nachweis live am 01.11.2026 im Fachbetrieberegister (GESA) für **genau den Betrieb Gailoh**: Die 3-km-Radialabfrage `…/Entsorgungsfachbetriebe/adr=Im Frauental 7, 92224 Amberg, Deutschland;…&dst=3&is=1&e=1` liefert 7 Treffer, darunter mit **0,0 km** Distanz `Schmid & Zweck GmbH Betrieb Gailoh`, `Im Frauental 7, 92224 Amberg`, Vorgangsnummer **ZZHT00300806** (Anlage 2 = Lagern, Anlage 3 = Behandeln). Der Detaildialog nennt wörtlich `Vorgangsnummer ZZHT00300806`; das amtliche Zertifikat (PDF) trägt `3.1 Nummer des Zertifikats … : 120497197`, `3.3 Vorgangsnummer …: ZZHT003008063011`, `3.4 Das Zertifikat beinhaltet 3 Anlage(n)`, `3.7 Das Zertifikat ist gültig bis zum 23.10.2027`, `4.1 Name: Schmid & Zweck GmbH`, `4.2 Straße: Max-Planck-Straße 25`, `4.4 Registernummer (HRA, HRB etc.): HRB 1118 Registergericht: Amberg`, `6. Prüfungsdatum: 30.04.2026` und ordnet die Anlage wörtlich dem Standort `Schmid & Zweck GmbH Betrieb Gailoh`, `Im Frauental 7, 92224 Amberg` zu - der Nachweis gilt damit dem Dossierstandort, nicht dem Konzern. Anlage 1 (`Schmid & Zweck GmbH Verwaltung und Betrieb Max-Planck-Straße`, `Max-Planck-Straße 25, 92224 Amberg`, Sammeln/Befördern) ist der Hauptsitz und wird nicht übertragen. Die Altfahrzeugverwertung-Route `…/Altfahrzeugverwertung/adr=Im Frauental 7, 92224 Amberg…&dst=3&is=1&e=1` liefert **1 Treffer**, nämlich `Strobl GmbH`, `Heinrich-Hertz-Strasse 6, 92224 Amberg`, ZZFT00300338 / 2, 2,8 km - ein **Fremdbetrieb**; **kein AltfahrzeugV-Vermerk** für Schmid & Zweck. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Im%20Frauental%207%2C%2092224%20Amberg%2C%20Deutschland%3B11.8239477%3B49.4240092%3B11.8359477%3B49.4360092%3B11.8119477%3B49.4120092&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmid%20%26%20Zweck (Abruf 01.11.2026).]
+
+- [Korrektur 06.11.2026: **Das Ausstellungsdatum fehlte im Eintrag.** Geprüft wurde das Zertifikats-PDF der
+  DEKRA Certification GmbH (Detaildialog und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am
+  06.11.2026) mit `pdftotext -layout`, feldweise: 3.1 `120497197`, 3.3 `ZZHT003008063011`, 3.4 `Das Zertifikat
+  beinhaltet 3 Anlage(n).`, 3.7 `gültig bis zum 23.10.2027`, 6. Prüfungsdatum `30.04.2026`, 8. Ausstellungsdatum
+  `29.05.2026`; Aussteller 1.1 bis 1.3 `DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart`;
+  Rechtsträger 4.1 bis 4.4 `Schmid & Zweck GmbH`, `Max-Planck-Straße 25`, `92224 Amberg`, `Registernummer (HRA,
+  HRB etc.): HRB 1118`, `Registergericht: Amberg`. **Standorttreue:** Anlage 2 und Anlage 3 tragen in Feld 1.1
+  bis 1.3 `Schmid & Zweck GmbH Betrieb Gailoh`, `Im Frauental 7`, `92224 Amberg` und sind dem Dossierstandort
+  zugeordnet (2.3 `Lagern` und 2.4 `Behandeln`, je `I361W10037`); Anlage 1 (`Schmid & Zweck GmbH Verwaltung und
+  Betrieb Max-Planck-Straße`, `Max-Planck-Straße 25`, `92224 Amberg`, 2.1/2.2 `I361T00407`) liegt am Hauptsitz
+  und bleibt ausgeklammert. Der Eintrag wurde um das Ausstellungsdatum ergänzt; alle übrigen Angaben stimmen mit
+  dem PDF überein. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmid%20%26%20Zweck&p=ZZHT00300806&fd=1
+  (Abruf 06.11.2026).]

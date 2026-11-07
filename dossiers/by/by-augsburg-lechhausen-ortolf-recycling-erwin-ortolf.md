@@ -35,7 +35,6 @@ Handeln und Makeln. Offen bleibt der fehlende Eintrag im Altfahrzeugverwertungsr
 für den Namen und die Anschrift, der wegen der Freiwilligkeit der Anerkennung kein
 Fehlen belegt. Der Importe-Eintrag nennt Schrott und Metall, Container und eine
 Betriebsgeschichte von über 70 Jahren; Ankaufpreise sind nicht belegt.
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
@@ -53,3 +52,20 @@ Betriebsgeschichte von über 70 Jahren; Ankaufpreise sind nicht belegt.
 
 - [Recherche 02.11.2026: **Altfahrzeugverwertung: kein Eintrag für diesen Standort.** Die Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ortolf` liefert 0 Treffer; die ortsbezogene Kontrollabfrage mit 3 km Radius um Raiffeisenstraße 12, 86167 Augsburg liefert in der Route Altfahrzeugverwertung 2 Treffer (`AVL Autoverwertung Lechhausen GmbH` 1,3 km, `Autoverwertung Lechhausen Inhaber Ernst Bachmann` 1,3 km) und in der Route Entsorgungsfachbetriebe 6 Treffer, darunter `Ortolf Recycling GmbH` 0,0 km. **Reichweitenklausel:** Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig; ein Nichttreffer im Register ist **kein** Nichtexistenzbeweis für eine Zertifizierung des Betriebs.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ortolf ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Raiffeisenstra%C3%9Fe%2012%2C%2086167%20Augsburg%2C%20Deutschland;10.9325433;48.3896646;10.9340433;48.3911646;10.9310433;48.3881646&dst=3&is=1&a=1&gl=1 (Abruf 02.11.2026).]
+
+- [Prüfung 06.11.2026: **Feldprüfung des Zertifikats: alle geprüften Felder stimmen mit dem PDF überein, der
+  Eintrag bleibt unverändert.** Geprüft wurde das Zertifikats-PDF der GZQ GmbH (Detaildialog und „Zertifikat
+  herunterladen" am 06.11.2026, Registerabfrage am 06.11.2026) mit `pdftotext -layout`, feldweise: 3.1
+  `A-000457`, 3.3 `ZZKT001002674006`, 3.4 `Das Zertifikat beinhaltet 4 Anlage(n).`, 3.7 `gültig bis zum
+  18.04.2027`, 6. Prüfungsdatum `23.10.2025`, 8. Ausstellungsdatum `14.01.2026`; Aussteller 1.1 bis 1.3 `GZQ
+  GmbH`, `Sulzbachtalstraße 131`, `66125 Saarbrücken`; Rechtsträger 4.1 bis 4.4 `Ortolf Recycling GmbH`,
+  `Raiffeisenstraße 12`, `86167 Augsburg`, `Registernummer (HRA, HRB etc.): HRB13320`, `Registergericht:
+  Augsburg`. **Standorttreue:** Alle vier Anlagen tragen in Feld 1.1 bis 1.3 `Ortolf Recycling GmbH`,
+  `Raiffeisenstraße 12`, `86167 Augsburg` und sind dem Dossierstandort zugeordnet: Anlage 1 (Lagern
+  `I761S00216`), Anlage 2 (Behandeln `I761S00216`), Anlage 3 (Sammeln und Befördern `I761T10662`) und Anlage 4
+  (Handeln und Makeln `I761H00045`). Das Zertifikat enthält keine Anlage an einem anderen Standort. Die
+  AltfahrzeugV-Route liefert für `n=Ortolf` **0 Treffer** — die Negativaussage des Eintrags ist damit bestätigt.
+  Damit ist jede Angabe des Eintrags im Feld `certifications` am PDF belegt; eine Korrektur war nicht nötig.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ortolf&p=ZZKT00100267&fd=1
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ortolf
+  (Abruf 06.11.2026).]

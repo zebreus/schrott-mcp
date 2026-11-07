@@ -26,7 +26,6 @@ provenance_origin: table
 ## Überblick
 
 _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
-
 ## Timeline
 
 ### Importiert (Seed-Stand 2026-09-30)
@@ -42,3 +41,22 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Recherche 02.11.2026: **Entsorgungsfachbetrieb: kein Eintrag für diesen Standort.** Die Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AVL` liefert 19 Treffer, sämtlich andere Betriebe (`AVL Abfallverwertungsgesellschaft des Landkreises Ludwigsburg mbH` in Ludwigsburg, Steinheim a. d. Murr, Bönningheim, Kornwestheim, Vaihingen-Horrheim, Schwieberdingen, Asperg und Korntal-Münchingen, `AVL Achim von Lovenberg Baustofflogistik` in Buchholz, `HavLog Service GmbH & Co.KG` in Heppenheim, `Milan Milosavljevic` in Frankfurt); die ortsbezogene Kontrollabfrage mit 3 km Radius um Stätzlinger Straße 84, 86165 Augsburg liefert 6 Efb-Treffer (`Kühl Entsorgung & Recycling Süd GmbH` 0,4 km, `AVA Abfallverwertung Augsburg Kommunalunternehmen` 0,4 km, `Gigler GmbH` 0,8 km, `Remondis Süd GmbH` 0,9 km, `Ortolf Recycling GmbH` 1,3 km, `Dehner Recycling GmbH` 1,4 km), aber keinen Eintrag zur AVL Autoverwertung Lechhausen GmbH.
   **Reichweitenklausel:** Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig; ein Nichttreffer im Register ist **kein** Nichtexistenzbeweis für eine Zertifizierung des Betriebs. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AVL ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=St%C3%A4tzlinger%20Stra%C3%9Fe%2084%2C%2086165%20Augsburg%2C%20Deutschland;10.9371547;48.3779234;10.9386547;48.3794234;10.9356547;48.3764234&dst=3&is=1&a=1&gl=1 (Abruf 02.11.2026).]
+
+- [Prüfung 06.11.2026: **Für diesen Eintrag gibt es kein Zertifikats-PDF; der Eintrag bleibt unverändert.**
+  Die AltfahrzeugV-Route des amtlichen Fachbetrieberegisters führt für `Stätzlinger Straße 84, 86165 Augsburg`
+  zwei Datensätze, die am 06.11.2026 im Detaildialog wie folgt geprüft wurden (Route „Altfahrzeugverwertung",
+  Filter Art des Betriebs = Egal, live am 06.11.2026): Zeile `ZAHS01300084 / 1` — `Bezeichnung: AVL
+  Autoverwertung Lechhausen GmbH`, `Adresse: Stätzlinger Straße 84, 86165 Augsburg`, `Telefon: 0821 7968241`,
+  `Vorgangsnummer: ZAHS01300084`, `Bescheinigungsanlagennr.: 1`, `Ansprechpartner: Herr Bachmann Vitali`,
+  `Kennnummer: I761E3830;I761E3830`, `Bezeichnung der Firma: AVL Autoverwertung Lechhausen GmbH`, `Adresse der
+  Firma: Stätzlinger Straße 84, 86165 Augsburg`; sowie Zeile `ZAHS01600060 / 1` — `Bezeichnung: Autoverwertung
+  Lechhausen Inh. Ernst Bachmann`, `Telefon: 0821 79682-41`, `Vorgangsnummer: ZAHS01600060`,
+  `Bescheinigungsanlagennr.: 1`, `Ansprechpartner: Herr Bachmann Ernst`, `Kennnummer: I761E3830`. Der Dialog
+  führt keinen PDF-Link („Zertifikat herunterladen") und keinen Permalink; die Felder 3.1 (Zertifikatsnummer),
+  3.3 (Vorgangsnummer im 12-stelligen Format), 3.4, 3.7, 6 und 8 sind für die AFV-Bescheinigungen daher **nicht
+  vorhanden** und bleiben im Eintrag unverändert. Die im Eintrag genannten Angaben sind wörtlich aus dem
+  Registerdialog belegt; das Feld „Rücknahme für folgende Hersteller" ist im Register leer. Die EfbV-Route
+  liefert für `n=AVL` 19 Treffer, darunter **keinen** an `Stätzlinger Straße 84, 86165 Augsburg` — die
+  Negativaussage des Eintrags ist damit bestätigt. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=AVL
+  ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AVL
+  (Abruf 06.11.2026).]
