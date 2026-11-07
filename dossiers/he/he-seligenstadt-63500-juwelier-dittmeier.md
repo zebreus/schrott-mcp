@@ -1,18 +1,19 @@
 ---
 slug: he-seligenstadt-63500-juwelier-dittmeier
-clear_fields: 'geo'
 name: Juwelier Dittmeier
 trader_type: sonstige
 state: HE
 city: Seligenstadt
-street: ''
-postcode: ''
+street: Aschaffenburger Str. 18
+postcode: '63500'
 phone: ''
 email: ''
 opening_hours: ''
 website: https://juwelier-dittmeier.eu
 website_status: aktiv
 status: pruefung
+lat: 50.0427369
+lon: 8.9759929
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -112,3 +113,47 @@ Betreiber-Einzelbeleg: Juwelier Dittmeier, vertreten durch G. Acar, Aschaffenbur
   https://api.openstreetmap.org/api/0.6/node/7274902220.json ; https://api.openstreetmap.org/api/0.6/node/4838972453.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.84,50.0,8.91,50.06 ; https://juwelier-dittmeier.eu/impressum/ ;
   https://juwelier-dittmeier.eu/kontakt/ (Abruf 05.11.2026)]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Der Negativbefund der Vorwellen-Notizen zu „Aschaffenburger Straße 18“ war ein
+  Fensterfehler — die Adresse existiert in OSM und ist adressgenau erfasst.** Die Geokodierung der
+  Dossier-Adresse am 07.11.2026 über Nominatim liefert den Treffer **way/193684185** mit
+  `addr:street=Aschaffenburger Straße`, `addr:housenumber=18`, `addr:city=Seligenstadt`,
+  `addr:postcode=63500`, `addr:country=DE`, `building=retail`, `building:levels=2` bei
+  **50.0427369/8.9759929** (Boundingbox 50.0426834/8.9758729 bis 50.0428463/8.9760850, 8 Knoten, HTTP 200).
+  Ein Raster-Scan über den gesamten Straßenzug (Fenster 8.9600/50.0300 bis 9.0000/50.0600) weist für die
+  **Aschaffenburger Straße 140 Adressobjekte mit 138 verschiedenen Hausnummern** aus, darunter die **18** —
+  die Straße ist in OSM also durchgehend kartiert, nicht nur punktuell. Die Vorwellen-Notizen vom 03.11. und
+  05.11.2026 hatten die Straße im Fenster 8.8400/50.0000 bis 8.9100/50.0600 gesucht; die tatsächliche
+  Hausnummer 18 liegt bei 8.9760, also **außerhalb** dieses Fensters. **Der OSM-Vermerk „kein Juwelier hier –
+  entgegen anderen Angaben im Internet“ (node/7274902220) bleibt davon unberührt**: er liegt bei
+  50.0284410/8.8846740 und damit **6,7 km** vom Dossier-Standort entfernt im alten Ortskern (29 m vom
+  Adressobjekt Ludwigstraße 54, 33 m von Hochstädter Straße 11) — er betrifft also einen **anderen** Ort im
+  Seligenstädter Stadtgebiet und stützt die Identität des Dossierbetriebs an der Aschaffenburger Straße
+  **nicht** und widerlegt sie **nicht**. Das Objekt way/193684185 trägt **weder `name` noch `operator`**, ordnet
+  den Betrieb also nicht zu; die zweite Quelle für die **Anschrift** ist damit das Betreiber-Impressum
+  („JUWELIER DITTMEIER / Vertreten durch: G. Acar / Aschaffenburger Str. 18, 63500 Seligenstadt /
+  Steuernummer 044 801 04037 / USt-IdNr. DE 35 12 76 4 91“, live gelesen am 07.11.2026), die zweite Quelle
+  für den **Standortpunkt** der adressgenau kartierte OSM-Baustein. Damit ist `clear_fields: 'geo'` **nicht
+  mehr erforderlich** und wird durch das belegte Paar ersetzt; der bislang im Frontmatter geführte
+  Altpunkt 50.0432/8.9739 (Mauergasse 38) wird damit zurückgenommen. **Namensvetter aus dem Register:**
+  die **G. & U. Dittmeier GmbH, HRB 22398 AG Offenbach am Main**, Sitz **Hainburg** (Lessingstraße 41, 63512
+  Hainburg), Geschäftsführerin **Ursula Dittmeier, geb. Huck**, hat laut Registerauszug den Gegenstand „Der
+  An- und Verkauf sowie die Vermietung und Service von Wohn- und Reisemobilen, Pkw-Anhängern,
+  Fahrzeugtransportern und Vertrieb von Campingartikeln“ und ist seit dem **28.05.2010 aufgelöst** — sie ist
+  ein **Namensvetter anderer Branche** und **kein** Beleg für den Juwelier; eine Gleichsetzung mit Seligenstadt
+  unterbleibt ausdrücklich. Ebenso kein Registereintrag zu „Juwelier Dittmeier“ selbst (Einzelunternehmen ohne
+  HRB). **ANKAUF:** Zahngold, Bruchgold, Goldschmuck und Goldmünzen; die Goldankauf-Seite beschreibt die
+  Abläufe „Goldgehalt prüfen → Angebot auf Basis der aktuellen Marktpreise → Ankauf sofort“, aber
+  **keine** EUR/g-Tabelle und **keinen** festen Ankaufspreis. **VERKAUF:** Schmuck, Trauringe, Diamanten und
+  Uhren werden angeboten, **ohne** numerischen Verkaufskatalog. **GEBÜHREN:** keine bezifferte
+  Bewertungs- oder Reparaturgebühr gefunden. Der Status bleibt `pruefung`, weil die Identität des
+  Einzelbetriebs weiterhin nur durch das Betreiber-Impressum getragen wird.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/193684185/full.json ;
+  https://nominatim.openstreetmap.org/search?q=Aschaffenburger+Stra%C3%9Fe+18%2C+63500+Seligenstadt&format=jsonv2&addressdetails=1 ;
+  `scripts/release/osm_street_scan.py` (Rasterfenster 8.9600/50.0300 bis 9.0000/50.0600, Straße „Aschaffenburger
+  Straße“) ; https://api.openstreetmap.org/api/0.6/node/7274902220.json ;
+  https://juwelier-dittmeier.eu/impressum/ ; https://juwelier-dittmeier.eu/goldankauf/ ;
+  https://handelsregister.live/hrb/hessen/ag-offenbach-am-main/22398/g-u-dittmeier-gmbh ;
+  https://www.northdata.de/G.+%26+U.+Dittmeier+GmbH,+Offenbach+a.+Main/Amtsgericht+Offenbach+am+Main+HRB+22398 (Abruf 07.11.2026).]

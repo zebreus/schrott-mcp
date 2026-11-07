@@ -4,8 +4,8 @@ name: Pfeil GmbH Co. KG / Autoverwertung Ellenbacher Str.
 trader_type: autoverwertung
 state: HE
 city: Kassel-Bettenhausen
-street: ''
-postcode: ''
+street: Ellenbacher Str. 12
+postcode: '34123'
 phone: ''
 email: ''
 opening_hours: ''
@@ -49,3 +49,44 @@ Pfeil ist weiterhin ein ungeklärter Autoverwertungs-/Ersatzteilverkaufslead in 
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott + AV (Doppel-Eintrag GS)
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Der Hausnummernkonflikt 10/12 ist amtlich aufgelöst — auf 12.** Das Handelsregister
+  weist die **Pfeil GmbH & Co. KG, HRA 16082 Amtsgericht Kassel** aus (Registerstatus aktuell, Sitz Niestetal,
+  Formwechsel 2002 aus der E. Pfeil GmbH, ehem. HRB 3707; erste Eintragung 09.12.2002, letzte Eintragung 11.03.2019).
+  Die **Geschäftsanschrift laut Registerauszug: Ellenbacher Str. 12, 34123 Kassel**; der chronologische Auszug
+  dokumentiert die Anschriftenänderung vom **11.03.2019** ausdrücklich als „Geändert, nun: Geschäftsanschrift:
+  Ellenbacher Str. 12, 34123 Kassel“ (zuvor Ellenbacher Straße 10, 34266 Niestetal). Damit ist die frühere
+  Portalangabe „Ellenbacher Straße 10“ der **vorherige** Stand mit der **alten** PLZ 34266 Niestetal und
+  **keine** Konkurrenzangabe; das Portal mischt lediglich Hausnummer und PLZ. **Rechtsträger:** persönlich
+  haftende Gesellschafterin ist die **Pfeil Beteiligungs- und Geschäftsführungs GmbH, HRB 13119 AG Kassel**
+  (Sitz Niestetal); deren Geschäftsführer ist zugleich alleinvertretungsberechtigt; Kommanditist ist
+  **Vladimir Deibel, Künzell, \*26.06.1974, Einlage 25.600,00 EUR** (seit 26.11.2018 nach der
+  Sonderrechtsnachfolge von Wolter-Orzel/Orzel ausgeschieden). Der Gegenstand der persönlich haftenden
+  Gesellschafterin lautet wörtlich: „Der Erwerb und die Verwaltung von Beteiligungen sowie die Übernahme der
+  persönlichen Haftung und der Geschäftsführung bei Unternehmen, die den **An- und Verkauf sowie die
+  Verwertung von Rohprodukten aller Art** zum Gegenstand haben, insbesondere die Beteiligung als persönlich
+  haftende geschäftsführende Gesellschafterin an der Pfeil GmbH & Co. KG.“ Das ist ein Registerbeleg für die
+  **Verwertungstätigkeit** der Gesellschaft, wenn auch kein ausdrücklicher Autoverwertungs-Gegenstand.
+  **Zweite unabhängige Quelle für die Anschrift:** das Betreiberportal-Profil `pfeil-co-kg.jany.io`
+  (live gelesen am 07.11.2026) nennt „Pfeil GmbH & Co. KG, **Ellenbacher Str. 12, 34123 Kassel**,
+  0561 524177“, Branchenangabe „Auto wrecker“ und Öffnungszeiten Mo–Fr 9–17 Uhr, Sa 9–13 Uhr, Sonntag
+  geschlossen; dieselbe Nummer 0561 524177 führt das 11880-Profil. **Abgrenzung:** das 11880-Profil bleibt ein
+  Aggregat; die Hausnummer 12 ist durch Register **und** Betreiberprofil belegt, die Nummer 0561 524177 nur
+  durch die beiden Portale, weshalb sie **nicht** ins Frontmatter übernommen wird. **DNS/Domain:**
+  `pfeil-recycling.de` hat einen A-Record (217.160.0.202), der HTTPS-Handshake scheitert weiterhin an
+  `TLSV1_ALERT_INTERNAL_ERROR`; das ist ein **technischer Defekt, kein Betriebsschluss**. Das amtliche
+  Fachbetrieberegister (clientseitig gerenderte Vaadin-App, live abgefragt am 07.11.2026) kennt weder
+  „Pfeil GmbH & Co. KG“ noch „Pfeil“ als Entsorgungsfachbetrieb (Namenssuche Efb **0 Treffer**), und die
+  10-km-Ortsabfrage um Ellenbacher Str. 12 in der Route Altfahrzeugverwertung liefert **keinen** Eintrag an
+  diesem Standort. **ANKAUF:** kein belegter Fahrzeug- oder Metallkurs; die im Portal genannte
+  „Auto wrecker“-Kategorie ist eine Branchenangabe, kein Preis. **VERKAUF:** Ersatzteilverkauf nur
+  Portalspur, keine Preisliste. **GEBÜHREN:** keine Tarife; eine kostenlose Abholung ist nicht belegt.
+  Das Feld `certifications` bleibt deshalb leer. Quelle(n): https://handelsregister.live/hra/hessen/ag-kassel/16082/pfeil-gmbh-co-kg/strukturiert ;
+  https://handelsregister.live/hra/hessen/ag-kassel/16082/pfeil-gmbh-co-kg ; https://www.online-handelsregister.de/handelsregisterauszug/he/Kassel/HRA/16082/Pfeil-GmbH-Co-KG ;
+  https://handelsregister.live/hrb/hessen/ag-kassel/13119/pfeil-beteiligungs-und-geschaeftsfuehrungs-gmbh/strukturiert ;
+  http://pfeil-co-kg.jany.io ; https://www.11880.com/branchenbuch/kassel-hessen/012080463B28203715/autoverwertung-ersatzteilverkauf-pfeil-gmbh-co-kg-autorecycling.html ;
+  https://dns.google/resolve?name=pfeil-recycling.de&type=A ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Pfeil ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Ellenbacher%20Str.%2012%2C%2034123%20Kassel%2C%20Deutschland;8.5029433;51.3168618;8.5529433;51.3168618;8.5529433;51.2668618&dst=10&is=1&o=5&e=1 (Abruf 07.11.2026).]

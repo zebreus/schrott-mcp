@@ -44,3 +44,48 @@ Die eigenständige PartsBit-Verkäuferseite nennt Autodienst Heidel Inh. Eckhard
 
 - Kleinst-AV?
 - Adresse: Korbach 34497
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Identität ist jetzt amtlich belegt: Heidel eGbR, GSR 62 Amtsgericht Korbach — die
+  „Heidel“-Namensspur im Register ist jedoch ein Landwirtschaftsbetrieb in Vöhl und ausdrücklich NICHT der
+  Korbacher Autodienst.** Der amtliche Registerauszug der **Heidel eGbR, GSR 62 AG Korbach** (Gesellschafts-
+  register, Registerstatus aktuell, Sitz Vöhl, Dokumentdatum 22.07.2026) nennt als Rechtsträgerin die
+  **Heidel eGbR**, Rechtsform **eingetragene Gesellschaft des bürgerlichen Rechts**, Geschäftsanschrift
+  **Aseler Str. 2, 34516 Vöhl**, mit den Gesellschaftern **Heinrich Wilfried Heidel, Landwirt, Vöhl
+  (\*28.11.1952)**, **Monika Heidel, Vöhl (\*06.05.1958)**, **Anke Heidel, Vöhl (\*26.06.1981)**,
+  **Martin Heidel, Vöhl (\*19.01.1986)** und **Arno Heidel, Waldeck-Nieder-Werbe (\*14.08.1990)**. Der Sitz
+  liegt damit in **Vöhl** und nicht in Korbach, und die Berufsangabe „Landwirt“ sowie der fehlende
+  Werkstatt-/Verwertungsgegenstand schließen eine Gleichsetzung mit dem Autodienst **aus**: die eGbR ist ein
+  **Namensvetter** und wird **nicht** übernommen. Die **zweite Quelle** für die Korbacher Betriebsanschrift
+  bleibt das Betreiber-Impressum (live gelesen am 07.11.2026): „Autodienst Heidel / Inhaber **Eckhardt
+  Heidel** / Sachsenhausen / **Kiefernstraße 6, 34513 Waldeck** / fon +49(0)5634 – 6003 / fax +49(0)5634 –
+  1781 / email info (at) autodienst-heidel (dot) de / USt-IdNr. **DE151051362**“, inhaltlich verantwortlich
+  „Inhaber Eckhardt Heidel, Autodienst Heidel, Sachsenhausen, Kiefernstraße 6, 34513 Waldeck“; der
+  Seitenkopf nennt für den **Standort Korbach** die Nummer **+49(0)5631 937 37 35** mit **Mo–Fr 09–18 Uhr /
+  Sa 09–12 Uhr**, für Sachsenhausen **+49(0)5634 60 03** mit **Mo–Fr 08–12 Uhr und 13–17 Uhr**. Die
+  Korbacher Betriebsadresse **Am Mühlwege 2, 34497 Korbach** ist in OSM als **way/42748532** adressgenau
+  erfasst (`addr:street=Am Mühlwege`, `addr:housenumber=2`, `addr:city=Korbach`, `addr:postcode=34497`,
+  `addr:country=DE`, `building=yes`, live geprüft am 07.11.2026; 51.2894594/8.8596109) — das Objekt trägt
+  **weder `name` noch `operator`** und ordnet den Betrieb also **nicht** zu. Es bleibt bei **einer** Quelle
+  für die Korbacher Betriebsstätte (Betreiberkontaktseite); deshalb wird **keine** Koordinate gesetzt und
+  `status` bleibt `pruefung`. **Amtliches Fachbetrieberegister** (live abgefragt am 07.11.2026, Filter
+  „Art des Betriebs = Egal“): Namenssuche „Autodienst Heidel“ in der Route Entsorgungsfachbetriebe
+  **0 Treffer**, in der Route Altfahrzeugverwertung **0 Treffer**; die Namenssuche „Heidel“ liefert in der
+  EfB-Route **25 Treffer** — darunter **AVR GewerbeService GmbH** und **Heidelbach Metall Recycling GmbH**,
+  also **Fremdfirmen in Heidelberg/Gladbeck**, **keine** mit Bezug zum Korbacher Autodienst; die 10-km-Ortsabfrage
+  um Am Mühlwege 2 ergibt in der EfB-Route **16** und in der AfV-Route **6** Anlagenzeilen anderer
+  Rechtsträger, **keinen** Eintrag an diesem Standort. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung
+  sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung
+  besitzt. **ANKAUF:** keine Fahrzeug-/Materialkurse veröffentlicht; der Online-Shop verkauft Ersatzteile, ist
+  aber kein allgemeiner Ankaufkurs. **VERKAUF:** Ersatzteilhandel über den Online-Shop belegt, **kein**
+  Preisverzeichnis gelesen. **GEBÜHREN:** keine Verwertungstarife; die Aussage „kostenlos“ ist für den
+  Korbacher Standort **nicht** belegt. Das Feld `certifications` bleibt leer.
+  Quelle(n): https://handelsregister.live/gsr/hessen/ag-korbach/62/heidel-egbr/strukturiert ;
+  https://autodienst-heidel.de/impressum/ ; https://autodienst-heidel.de/ ;
+  https://autodienst-heidel.de/kontakt/ ; https://api.openstreetmap.org/api/0.6/way/42748532/full.json ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Autodienst%20Heidel ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Autodienst%20Heidel ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Heidel ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Am%20M%C3%BChlwege%202%2C%2034497%20Korbach%2C%20Deutschland;8.8096109;51.2894594;8.8596109;51.2894594;8.8596109;51.2394594&dst=10&is=1&e=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Am%20M%C3%BChlwege%202%2C%2034497%20Korbach%2C%20Deutschland;8.8096109;51.2894594;8.8596109;51.2894594;8.8596109;51.2394594&dst=10&is=1&o=5&e=1 (Abruf 07.11.2026).]

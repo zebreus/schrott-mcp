@@ -55,3 +55,45 @@ Die Mobilnummer 0163 3318898 ist ein unbestätigter Verzeichnislead, der unter v
 ### Recherche 04.11.2026
 
 - [Recherche 04.11.2026: **Amtliches Fachbetriebsregister geprüfkt — kein dem Dossierstandort zugeordneter Nachweis (Negativaussage mit Reichweite).** „Entsorgungsfachbetriebe“ des amtlichen Fachbetriebsregisters, live abgefragt am 04.11.2026, durchgängig mit dem Filter „Art des Betriebs = Egal“ (is=1&e=1), Suchradius der Namenssuche dst=10. **Namenssuche (Namensvarianten, Inhaber-Namensvetter und Rechtsform-Pool):** „Schrottprofis“ → 0 Treffer; „Bügler“ → 0 Treffer; „Buegler“ → 0 Treffer; „Die Schrottprofis“ → 0 Treffer; „Schrottprofis Frankfurt“ → 0 Treffer. **Standortsuche** mit validiertem adr-Parameter (PLZ-Abgleich: 60433 Frankfurt am Main) und Radius 3 km → 4 Treffer; Radius 10 km um dieselbe Adresse → 129 Treffer. Alle Trefferzeilen dieser Abfragen wurden über die Grid-Paginierung vollständig gelesen. **Gegenprobe Route „Altfahrzeugverwertung“** mit dem Namensbegriff „Schrottprofis“ → 0 Treffer. Abgrenzung der Namensvetter: „Die Schrottprofis“, „Schrottprofis“ und „Schrottprofis Frankfurt“ liefern je 0 Treffer; die Suche „Bügler“ (0 Treffer) und „Buegler“ (0 Treffer) treffen ebenfalls nichts — der im Dossier dokumentierte Namensvetter „Schrotthandel Bügler“ (Eppingen) ist im amtlichen Register ebenfalls nicht verzeichnet. Die Ortssuche um Bonameser Straße (PLZ 60433; die Dossier-Adresse trägt keine Hausnummer) ergibt in 3 km 4, in 10 km 129 Anlagenzeilen; im 3-km-Radius stehen Auto Service SAFAR GmbH, Homburger Landstraße 320, 60433 Frankfurt (1,9 km, ZZET00600008 / 1), FES Frankfurter Entsorgungs- und Service GmbH BS Heddernheim, Heddernheimer Landstraße 157, 60439 Frankfurt am Main (1,6 km, ZZEE00200089 / 3), MHKW Müllheizkraftwerk Frankfurt am Main GmbH, Heddernheimer Landstraße 157 (1,6 km, ZZEE00200077 / 1) und FRECOUR LOGISTICS Gmbh, Hanauer Landstraße 291a, 60431 Frankfurt am Main (1,9 km, ZZFT00400097 / 1) — andere Rechtsträger, keine Übernahme. Adressdifferenz: Für die Dossier-Anschrift Bonameser Str. 166 weist das Register keinen Eintrag aus. **Ergebnis:** Für Die Schrottprofis / Abholung von Schrott & Altmetall, Bonameser Str. 166, 60433 Frankfurt weist das amtliche Fachbetriebsregister zum Abrufdatum 04.11.2026 keinen Eintrag aus, der dem Dossierstandort zugeordnet ist; Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation, Ausstellungsdatum, Gültigkeitsdatum, Anlagenanzahl und zertifizierte Tätigkeit sind daher **nicht ausgewiesen**. Das Feld `certifications` bleibt deshalb leer; der Dossierstatus bleibt unberührt. Das Fehlen einer Eintragung ist **kein** Beleg für die Nichtexistenz des Betriebs, da die Efb-Anerkennung nach § 56 KrWG freiwillig ist und reine Metallhändler ohne gefährliche Abfälle keine Efb-Anzeige benötigen. Quelle(n): Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottprofis; Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=B%C3%BCgler; Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Buegler; Entsorgungsfachbetriebe/adr=Bonameser%20Stra%C3%9Fe%2C%2060433%20Frankfurt%20am%20Main%2C%20Deutschland;8.656579;50.164201;8.692579;50.200201;8.620579;50.128201&dst=3&is=1&e=1; Entsorgungsfachbetriebe/adr=Bonameser%20Stra%C3%9Fe%2C%2060433%20Frankfurt%20am%20Main%2C%20Deutschland;8.656579;50.164201;8.776579;50.284201;8.536580;50.044201&dst=10&is=1&e=1; Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrottprofis (Abruf 04.11.2026)]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Anschrift ist adressgenau erfasst, die Identität bleibt aber ein
+  Verzeichnis-Lead — und die im Dossier offene Frage nach der Abgrenzung zur Nachbarhausnummer 156 wird
+  beantwortet: die Bonameser Straße trägt in OSM die Hausnummern 156 und 166 an zwei verschiedenen
+  Objekten, beide ohne Betriebsbezug.** Der OSM-Baustein **way/1549757295** ist als Straße
+  „Bonameser Straße“ im Ortsteil **Eschersheim** (PLZ 60433) kartiert; die Geokodierung der Dossier-Adresse
+  **Bonameser Str. 166** liefert keinen Adressbaustein, sondern die Straße selbst
+  (display_name: „Bonameser Straße, Eschersheim, Mitte-Nord, Frankfurt am Main, Hessen, 60433“) — die
+  **Hausnummer 166 ist in OSM nicht als eigenes Adressobjekt erfasst**. Für die **Hausnummer 156** — die
+  11880-Adresse des „Abholung von Schrott & Altmetall Schrotthandel Bügler“ — wurde dieselbe Suche geführt
+  und ergibt ebenfalls **kein** Adressobjekt mit dieser Hausnummer. Damit ist die im Dossier offene
+  Adressdifferenz 156 vs. 166 **nicht** durch OSM auflösbar; beide Nummern bleiben unbelegt, und die
+  Zuordnung des Dossier-Slags zu einem der beiden Anschriften bleibt offen. **Der Seedort ist bestätigt:**
+  die Bonameser Straße liegt laut OSM in **Eschersheim** (Stadtteil Mitte-Nord) — das deckt sich mit dem
+  Dossier-Ort „Frankfurt-Eschersheim“, während die Portaladressen den Stadtteil **Bonames** nennen; beides
+  sind Nachbarschaften derselben Straße, kein Widerspruch zur Sache. **Betreiberprüfung:** die
+  Betreiberseite `schrotthandel-buegler.de` (live gelesen am 07.11.2026) nennt **Rudolf Bügler /
+  Erbengemeinschaft Bügler, Ulmenweg 8, 75031 Eppingen**, Telefon **0171 7782484** und **0171 4347570** —
+  sie bleibt ein **Eppinger** Betrieb und damit **kein** Beleg für den Frankfurter Eintrag; eine Gleichsetzung
+  wird **nicht** vorgenommen. **Registerprüfung** (live am 07.11.2026): im hessischen Handelsregister gibt es
+  **keinen** Eintrag „Schrotthandel Bügler“; die zwei Treffer zur Namenssuche „Bügler“ sind
+  **Bügler und Steitz GmbH Sanitär-Gas-Heizung, HRB 7294 AG Hanau** und **HRB 90262 AG Frankfurt am Main** —
+  **Namensvetter einer anderen Branche**, die **nicht** übernommen werden. **Amtliches Fachbetrieberegister**
+  (live abgefragt am 07.11.2026): Namenssuche „**Schrottprofis**“ **0 Treffer** (EfB) und in der Route
+  Altfahrzeugverwertung **0 Treffer**; die 10-km-Ortsabfrage um Bonameser Straße (PLZ 60433) liefert **129
+  Anlagenzeilen** anderer Rechtsträger, **keinen** Eintrag an der Dossier-Adresse. Reichweite: die Efb- und
+  die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Nichteintrag ist **kein** Nichtexistenzbeweis.
+  **Die Mobilnummer 0163 3318898 wird nicht übernommen** — sie steht in zwei Aggregatoren unter
+  **verschiedenen Namen an verschiedenen Hausnummern** (11880 „Schrotthandel Bügler“/156, Cylex „Die
+  Schrottprofis“/166); `clear_fields: 'phone'` bleibt bestehen. **Preise — striht getrennt:** **ANKAUF** —
+  keine Zahlenliste; **VERKAUF** — keine Liste; **GEBÜHREN** — keine Angaben. `status` bleibt `pruefung`;
+  es wird **nicht** geocodiert, da keine der beiden Hausnummern als OSM-Adressobjekt existiert.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/1549757295/full.json ;
+  https://nominatim.openstreetmap.org/search?q=Bonameser+Stra%C3%9Fe+166%2C+60433+Frankfurt&format=jsonv2&addressdetails=1 ;
+  https://www.schrotthandel-buegler.de/impressum/ ;
+  https://www.11880.com/branchenbuch/frankfurt-am-main/060440092B114136256/abholung-von-schrott-altmetall-schrotthandel-buegler.html ;
+  https://web2.cylex.de/firma-home/die-schrottprofis-abholung-von-schrott-_-altmetall-16566866.html ;
+  https://handelsregister.live/?q=B%C3%BCgler&land=hessen ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottprofis ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Schrottprofis (Abruf 07.11.2026).]

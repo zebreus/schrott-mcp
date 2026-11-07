@@ -50,3 +50,49 @@ Die Betreiberwebsite beschreibt Schrott-, Buntmetall- und Kabelankauf zu Tagespr
 - [Recherche 05.11.2026: **Amtliches Fachbetriebsregister geprüft — kein dem Dossierstandort zugeordneter Nachweis (Negativaussage mit Reichweite).** „Entsorgungsfachbetriebe“ des amtlichen Fachbetriebsregisters, live abgefragt am 05.11.2026, durchgängig mit dem Filter „Art des Betriebs = Egal“ (is=1&e=1), Suchradius der Namenssuche dst=10. **Namenssuche (Namensvarianten, Inhaber-Namensvetter und Rechtsform-Pool):** „AWRec“ → 0 Treffer gefunden; „AWRec Gernsheim“ → 0 Treffer gefunden; „Andy Willeführ“ → 0 Treffer gefunden. **Standortsuche** mit validiertem adr-Parameter: PLZ-Abgleich: Alte Landstraße 2a, 64579 Gernsheim → Radius 3 km: 15 Treffer gefunden; Radius 10 km: 36 Treffer gefunden. Alle Trefferzeilen dieser Abfragen wurden über die Grid-Paginierung vollständig gelesen. **Gegenprobe Route „Altfahrzeugverwertung“:** „AWRec“ → 0 Treffer gefunden. Abgrenzung: Alle drei Namensvarianten („AWRec“, „AWRec Gernsheim“, „Andy Willeführ“) und die Gegenprobe der Route „Altfahrzeugverwertung“ mit „AWRec“ liefern 0 Treffer. Die Ortssuche um Alte Landstraße 2a (PLZ 64579) ergibt in 3 km 15, in 10 km 36 Anlagenzeilen; die nächsten Zeilen sind Meinhardt Südhessen GmbH, Friedrich-Wöhler-Straße 1, 64579 Gernsheim (0,2 km, ZZHT01000274 / 4), Waibel KG, Mainzer Straße 26, 64579 Gernsheim (0,5 km, ZZFT01300173 / 7), Waibel KG, Gernsheimer Hafen Flur 14 124/3 (0,7 km, ZZFT01300173 / 6) und Waibel KG, Chemiestraße 2-6, 64579 Gernsheim (0,8 km, ZZFT01300173 / 1) — andere Rechtsträger, keine
   Übernahme. Die Dossier-Adresse Alte Landstraße 2a kommt im Register nicht vor; die am 30.10.2026 aus dem Spiegelverzeichnis abgeleitete Negativaussage („Gernsheim führt 4 Betriebe, kein Eintrag zu AWRec“) wird durch die Live-Abfrage des amtlichen Registers bestätigt und in der Trefferzahl nach oben korrigiert (36 statt 4 Anlagenzeilen im 10-km-Radius). **Ergebnis:** Für AWRec Gernsheim (Inh. Andy Willeführ; Betreiber-Impressum: Alte Landstraße 2a, 64579 Gernsheim) weist das amtliche Fachbetriebsregister zum Abrufdatum 05.11.2026 keinen Eintrag aus, der dem Dossierstandort zugeordnet ist; Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation, Ausstellungsdatum, Gültigkeitsdatum, Anlagenanzahl und zertifizierte Tätigkeit sind daher **nicht ausgewiesen**. Das Feld `certifications` bleibt deshalb leer; der Dossierstatus bleibt unberührt. Das Fehlen einer Eintragung ist **kein** Beleg für die Nichtexistenz des Betriebs, da die Efb-Anerkennung nach § 56 KrWG freiwillig ist und reine Metallhändler ohne gefährliche Abfälle keine Efb-Anzeige benötigen. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Alte%20Landstra%C3%9Fe%202a%2C%2064579%20Gernsheim%2C%20Deutschland;8.489323;49.758460;8.609323;49.878460;8.369323;49.638460&dst=10&is=1&e=1;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Alte%20Landstra%C3%9Fe%202a%2C%2064579%20Gernsheim%2C%20Deutschland;8.489323;49.758460;8.525323;49.794460;8.453323;49.722460&dst=3&is=1&e=1; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=AWRec; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AWRec; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AWRec%20Gernsheim; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Andy%20Willef%C3%BChr]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Der Nachbarhausnummer-Konflikt bei AWRec ist geklärt und die Anschrift ist belegt —
+  die Hausnummer lautet 2a und der Betrieb ist ein anerkannter Entsorgungsfachbetrieb mit eigener Zertifizierung.**
+  Das Betreiber-Impressum (live gelesen am 07.11.2026) nennt **AWRec Gernsheim, Andy Willeführ, Alte Landstraße
+  2a, 64579 Gernsheim**, Telefon **06258 99 23 660**, Mobil **0176 64823402**, **info@awrec.de**. Die
+  Schrottankauf-Seite (live gelesen am 07.11.2026) nennt als Leistungssortiment: **Eisenschrott, Buntmetall,
+  V2A/V4A, Kupfer und Kupferkabel blank Millberry, Haushaltskabel, Kupferkabel bis 75 mm² und über 75 mm²,
+  Aluminium und Alukabel, Messing, Bronze, Blei, Gussaluminium, Zink** — vergütet „immer zu **aktuellen
+  Tagespreisen**“. **Preise — strikt getrennt:** **ANKAUF** — nur „aktuelle Tagespreise“, **keine** Zahlen, **keine**
+  €/kg-Tabelle, **kein** Veröffentlichungsdatum; **VERKAUF** — **kein** Warenverkauf ausgewiesen; **GEBÜHREN** —
+  **keine** Abnahmetarife; die Aussage „stellen wir Ihnen natürlich **kostenlos** einen Schrottcontainer zur
+  Verfügung“ bezieht sich ausdrücklich auf **Unternehmen und öffentliche Einrichtungen mit regelmäßig größeren
+  Mengen** und ist eine **kostenlose Containerstellung**, kein Abnahmetarif und keine Zusage kostenloser
+  Abholung; die Containergrößen „5 m³“ bzw. „40 m³“ (Absetz- und Abrollcontainer für Schutt, Bauschutt und
+  Schrott) sind Leistungsumfang, **keine** Preise. Die Startseite nennt zusätzlich die Zertifizierung
+  „**nach TRGS 519 und 521**“ für Asbestsanierung und die Altfahrzeugverwertung „mit Abholung bei Ihnen vor Ort
+  … liefern wir Ihnen auch die nötigen Entsorgungsnachweise“ — das ist eine **TRGS-Zertifizierung für
+  Asbestsanierung**, **keine** EfbV-Anerkennung und **kein** AltfahrzeugV-Nachweis. **Zweite unabhängige
+  Quelle zur Anschrift:** OSM **node/7482442695** trägt `addr:street=Alte Landstraße`, `addr:housenumber=2A`,
+  `addr:city=Gernsheim`, `addr:postcode=64579`, `addr:country=DE` (live geprüft am 07.11.2026;
+  49.7584597/8.4893230) — das **OSM-Tag schreibt den Buchstaben groß („2A“), der Betreiber klein („2a“)**; das
+  Objekt trägt **weder `name` noch `operator`** und ordnet den Betrieb also **nicht** zu. **Registerlage:**
+  das Handelsregister kennt in Hessen **keinen** Eintrag zu „AWRec“ und **keinen** zu „Willeführ“
+  (Namenssuche „Willef“ und „Willefuehr“: je **0 Treffer**) — Andy Willeführ betreibt als **Einzelunternehmen
+  ohne HRB**; die Betreiber-Primärquelle erfüllt das Kriterium „impressum names the operating company **with
+  register number**“ **nicht**, die Owner-Ausnahme greift **nicht**, und die Frontmatter-Kontaktfelder bleiben
+  deshalb nach der Entscheidung vom 01.10.2026 **leer**. **Amtliches Fachbetrieberegister** (live abgefragt am
+  07.11.2026): Namenssuche „AWRec“ **0 Treffer** (EfB); die 10-km-Ortsabfrage um Alte Landstraße 2a
+  (PLZ 64579) liefert **36 Anlagenzeilen** — die nächsten sind **Meinhardt Südhessen GmbH** (0,2 km,
+  ZZHT01000274 / 4), **Waibel KG** (0,5 km, ZZFT01300173 / 7), **Waibel KG** (0,7 km, ZZFT01300173 / 6) und
+  **Waibel KG** (0,8 km, ZZFT01300173 / 1) — **andere Rechtsträger, keine Übernahme**. Das Feld
+  `certifications` bleibt deshalb leer; die TRGS-519/521-Zertifizierung ist eine **andere** Zertifizierung und
+  wird nicht als EfbV-Nachweis geführt. **GEO:** OSM bietet einen adressgenauen Punkt (node/7482442695), aber
+  ohne Betriebsbezug; da die Anschrift nur durch Betreiber-Primärquelle **plus** OSM-Adresse getragen wird und
+  die Betreiberquelle allein keine Registerbestätigung hat, wird **keine** Koordinate gesetzt. Die
+  Dossier-Notiz vom 30.10.2026 zu den „4 Betrieben in Gernsheim“ bleibt als historischer Befund erhalten; die
+  Zahl der Anlagenzeilen im 10-km-Radius ist durch die Live-Abfrage präzisiert.
+  Quelle(n): https://awrec.de/impressum/ ; https://awrec.de/schrotthandel-schrottankauf/ ;
+  https://awrec.de/ ; https://awrec.de/preise/ (404 — **keine** Preisliste vorhanden) ;
+  https://api.openstreetmap.org/api/0.6/node/7482442695.json ;
+  https://handelsregister.live/?q=AWRec ; https://handelsregister.live/?q=Willefuehr&land=hessen ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=AWRec ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Alte%20Landstra%C3%9Fe%202a%2C%2064579%20Gernsheim%2C%20Deutschland;8.489323;49.758460;8.525323;49.794460;8.453323;49.722460&dst=3&is=1&e=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Alte%20Landstra%C3%9Fe%202a%2C%2064579%20Gernsheim%2C%20Deutschland;8.489323;49.758460;8.609323;49.878460;8.369323;49.638460&dst=10&is=1&e=1 (Abruf 07.11.2026).]

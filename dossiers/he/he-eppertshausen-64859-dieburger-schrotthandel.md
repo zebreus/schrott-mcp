@@ -58,3 +58,53 @@ Der bisher gespeicherte Punkt lag rund 0,7 km entfernt in der Am Abteiwald; erse
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Dieburger Schrotthandel` (Nieder-Röder-Str. 80, 64859 Eppertshausen) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dieburger%20Schrotthandel` -> **0 Treffer** (EfB); (2) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dieburger` -> **0 Treffer** (EfB); (3) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Dieburger%20Schrotthandel` -> **0 Treffer** (Altfahrzeug); (4) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Dieburger` -> **0 Treffer** (Altfahrzeug). Die Radiusabfrage mit 3 km um `Nieder-Röder-Str. 80, 64859 Eppertshausen` (`…/Entsorgungsfachbetriebe/adr=Nieder-Röder-Str. 80, 64859 Eppertshausen, Deutschland;…&dst=3&is=1&e=1`) liefert **1 Treffer**: `Müller Umweltdienst GmbH`, `Röntgenstraße 3, 64859 Eppertshausen`, `ZZFT00400040 / 1` - **kein Treffer auf `Dieburger` und keiner auf `Nieder-Röder-Str. 80`**. Dieselbe 3-km-Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&o=5&e=1` liefert **0 Treffer** - **kein AltfahrzeugV-Vermerk**. Als Positivkontrolle liefert die 10-km-Efb-Abfrage um dieselbe Adresse **17 Treffer** (u. a. `PENTAC Proform Recycling GmbH`, `Otto-Hahn-Straße 12, 64823 Groß-Umstadt`, `ZZIT00700070 / 1`, `Müller Umweltdienst GmbH`, `Röntgenstraße 3`, 64859 Eppertshausen, `ZZFT00400040 / 1`), die 10-km-Abfrage in der Altfahrzeugverwertung-Route **1 Treffer** (`Höreth Autoverwertung`, `Ostheimer Weg 13, 64832 Babenhausen`, `ZAGS00300011 / 1`) - die Abfragetechnik funktioniert also.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dieburger%20Schrotthandel ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Dieburger%20Schrotthandel ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dieburger ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Dieburger ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Nieder-R%C3%B6der-Str.%2080%2C%2064859%20Eppertshausen%2C%20Deutschland%3B8.8476876%3B49.9548462%3B8.859688%3B49.966846%3B8.835688%3B49.942846&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Nieder-R%C3%B6der-Str.%2080%2C%2064859%20Eppertshausen%2C%20Deutschland%3B8.8476876%3B49.9548462%3B8.859688%3B49.966846%3B8.835688%3B49.942846&dst=3&is=1&o=5&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Nieder-R%C3%B6der-Str.%2080%2C%2064859%20Eppertshausen%2C%20Deutschland%3B8.8476876%3B49.9548462%3B8.859688%3B49.966846%3B8.835688%3B49.942846&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Nieder-R%C3%B6der-Str.%2080%2C%2064859%20Eppertshausen%2C%20Deutschland%3B8.8476876%3B49.9548462%3B8.859688%3B49.966846%3B8.835688%3B49.942846&dst=10&is=1&o=5&e=1 (Abruf 02.11.2026).]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Nachbar-Referenz „1a Schrotthandel“ ist amtlich belegt — und die UG ist
+  aufgelöst: 1 a Schrotthandel + Containerservice UG (haftungsbeschränkt), HRB 99415 Amtsgericht Darmstadt,
+  Jahnstraße 23, 64859 Eppertshausen.** Der chronologische Registerauszug (live gelesen am 07.11.2026) nennt
+  als Rechtsträgerin die **1 a Schrotthandel + Containerservice UG (haftungsbeschränkt)**, Rechtsform
+  **GmbH**, Sitz **Eppertshausen**, Geschäftsanschrift **Jahnstraße 23, 64859 Eppertshausen**,
+  Geschäftsführerin **Waldmann, Bettina, Eppertshausen, \*07.12.1967**, einzeln vertretungsberechtigt und mit
+  der Befugnis, „im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten
+  Rechtsgeschäfte abzuschließen“, **Stammkapital 1,00 EUR**, Gesellschaftsvertrag (Musterprotokoll) vom
+  28.05.2019, erste Eintragung 13.08.2019. **Gegenstand wörtlich: „a) der Erwerb, Verwertung und Veräußerung von
+  Schrott jeglicher Art. b) der Betrieb eines Containerservices.“** **Auflösung (neu und entscheidend):**
+  der Auszug verzeichnet „Durch Beschluss des Amtsgerichts Darmstadt (**Az. 9 IN 334/21**) vom 26.07.2021 ist
+  ein **vorläufiger Insolvenzverwalter** bestellt“ (27.07.2021) und danach „Durch Beschluss des Amtsgerichts
+  Darmstadt (Az. 9 IN 334/21) vom 21.10.2021 ist über das Vermögen der Gesellschaft das **Insolvenzverfahren
+  eröffnet**. **Die Gesellschaft ist aufgelöst.** Von Amts wegen eingetragen.“ (25.10.2021). Die im Dossier
+  geführte Abgrenzung „1a Schrotthandel wird getrennt geführt und **nicht** zusammengeführt“ bleibt damit
+  **richtig und jetzt belegt**: die UG ist eine **andere Rechtsträgerin** (andere Hausnummer Jahnstraße 23,
+  andere Nummer 06071 4963170, anderes Registerblatt HRB 99415) — sie ist aber **seit 2021 aufgelöst** und
+  damit **kein** Beleg für einen heute in Eppertshausen tätigen Schrotthandel und **kein** Beleg für den
+  Dossier-Eintrag. Ihr Dossier ist getrennt zu führen und dort als `geschlossen` zu behandeln; die
+  Verzeichniseinträge zu „1a Schrotthandel“ (11880, Jahnstr. 23, 06071 4963170) sind **veraltete Leads**.
+  **Der Dossier-Eintrag „Dieburger Schrotthandel & Containerdienst“ (Nieder-Röder-Str. 80, 06071 8818865)
+  ist davon unberührt** und bleibt ein Verzeichnis-Lead ohne Betreiber- oder Registerbeleg; die Trennung
+  erfolgt **nicht** in eine Zusammenführung, und die UG wird **nicht** in dieses Dossier übernommen.
+  **Registerprüfung des Dossier-Namens:** im gesamten hessischen Register (live durchsucht am 07.11.2026,
+  36 Treffer zu „Dieburger“) gibt es **keinen** Eintrag „Dieburger Schrotthandel“; die Treffer betreffen
+  andere Dieburger Firmierungen (Reifen-Service, Garten-Center, Stadtentwicklungsgesellschaft, Autovermietzentrum,
+  Volksbank u. a.) in Darmstadt/Dieburg — **keine** davon ist ein Schrotthandel. **Amtliches
+  Fachbetrieberegister** (live abgefragt am 07.11.2026): die Namenssuche „Dieburger“ und „Dieburger
+  Schrotthandel“ liefert in der EfB-Route **0 Treffer** und in der Route Altfahrzeugverwertung **0 Treffer**;
+  die Namenssuche „**Bettina Waldmann**“ **0 Treffer**, „**Waldmann Schrott**“ **0 Treffer** und „**Waldmann**“
+  in der AfV-Route **0 Treffer**; die 10-km-Ortsabfrage um Nieder-Röder-Str. 80 (PLZ 64859) liefert
+  **17 Anlagenzeilen** (u. a. **Müller Umweltdienst GmbH**, Röntgenstraße 3, 64859 Eppertshausen,
+  ZZFT00400040 / 1; **PENTAC Proform Recycling GmbH**, Otto-Hahn-Straße 12, 64823 Groß-Umstadt,
+  ZZIT00700070 / 1), **keinen** Eintrag an der Dossier-Adresse. Reichweite: die Efb- und die
+  AltfahrzeugV-Anerkennung sind **freiwillig**; ein Nichteintrag ist **kein** Nachweis, dass der Betrieb keine
+  Anerkennung besitzt. **Preise des Dossier-Eintrags — strikt getrennt:** **ANKAUF** — keine Sorten- oder
+  Preisliste; **VERKAUF** — keine Preisliste; **GEBÜHREN** — keine Tarifseite. `status` bleibt `pruefung`.
+  Quelle(n): https://handelsregister.live/hrb/hessen/ag-darmstadt/99415/1-a-schrotthandel-containerservice-ug ;
+  https://handelsregister.live/hrb/hessen/ag-darmstadt/99415/1-a-schrotthandel-containerservice-ug/strukturiert ;
+  https://handelsregister.live/?q=Dieburger&land=hessen ;
+  https://www.11880.com/branchenbuch/eppertshausen/060441364B100204322/1a-schrotthandel.html ;
+  https://www.11880.com/branchenbuch/eppertshausen/060371058B106647025/dieburger-schrotthandel-containerdienst.html ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dieburger ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Dieburger ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bettina%20Waldmann ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Waldmann ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Nieder-R%C3%B6der-Str.%2080%2C%2064859%20Eppertshausen%2C%20Deutschland;8.8476876;49.9548462;8.859688;49.966846;8.835688;49.942846&dst=10&is=1&a=1&gl=1 (Abruf 07.11.2026).]

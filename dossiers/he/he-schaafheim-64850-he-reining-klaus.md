@@ -113,3 +113,59 @@ Der Seed führt Klaus Reining an Karlstr. 1. Die Website des heutigen Containerd
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.995,49.915,9.015,49.925 ;
   https://www.containerdienst-schaafheim.de/ ; https://www.11880.com/branchenbuch/schaafheim/060371058B112441803/containerdienst-schaafheim-salih-gencsoy.html ;
   https://schrottregister.pages.dev/ort-schaafheim (Abruf 05.11.2026)]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Anschrift der Nachfolger-Einheit ist adressgenau belegt, die Identität des
+  Altbetriebs „Klaus Reining“ bleibt im Register unauffindbar — die Kette ist damit geschlossen, der
+  Altbetrieb aber nicht als bestehend belegt.** Der OSM-Baustein **way/961378576** trägt
+  `addr:street=Ringstraße`, `addr:housenumber=7`, `addr:city=Schaafheim`, `addr:postcode=64850`,
+  `addr:country=DE`, `building=yes` (live geprüft am 07.11.2026; 49.8877659/9.0191569, Ortsteil
+  **Radheim**) — die Nachfolgeradresse existiert also adressgenau; das Objekt trägt **weder `name` noch
+  `operator`** und ordnet den Betrieb **nicht** zu. Für die **Alt**-Anschrift **Karlstr. 1, 64850 Schaafheim**
+  bestätigt der OSM-Baustein **way/799842912** (`addr:housenumber=1`, `addr:street=Karlstraße`,
+  `addr:city=Schaafheim`, `addr:postcode=64850`, `addr:country=DE`, `building=yes`; 49.9241338/9.0063758)
+  die Anschrift — ohne Betriebsbezug, wie bereits am 03.11.2026 und 05.11.2026 dokumentiert. **Registerprüfung
+  des Altbetriebs (live am 07.11.2026):** im gesamten hessischen Handelsregister gibt es **keinen** Eintrag
+  „**Containerdienst Reining**“ (**0 Treffer**) und **keinen** Eintrag „**Reining**“ in der
+  Entsorgungsfachbetrieberegister-Route; die zwölf namensgleichen hessischen Registereinträge sind
+  **Namensvetter anderer Branchen** (Reininger Ingenieurbau UG Wiesbaden, Reining Holzbau GmbH Gießen,
+  Reininger AG Frankfurt, AHC Oberflächentechnik Friebe Reininghaus, Josef Reining GmbH Sanitär/Heizung
+  Frankfurt, Friedrich Reininger Industrie-Vertretungen, Joma Gastro e.K. Reininger, Creative Bau Reining GmbH
+  u. a.) und werden **nicht** übernommen. Auch der **Nachfolger** ist nicht im Register: die Namenssuche
+  „**Gencsoy**“ liefert **0 Treffer** — der Betreiber **Salih Gencsoy** (nach Angabe der Nachfolgerseite
+  „laut bisheriger Website“ seit Mai 2020 unter neuem Namen und neuem Inhaber fortgeführt) ist als
+  **Einzelunternehmen ohne HRB** nicht registerlich auffindbar. **Damit ist die offene Frage der Vorwellen
+  („Klaus Reining ist in keinem Register erfasst“) positiv bestätigt** — die Suche wurde am 07.11.2026
+  erneut und unabhängig geführt und ergibt dasselbe Ergebnis. **Amtliches Fachbetrieberegister** (live
+  abgefragt am 07.11.2026): Namenssuche „Containerdienst Reining“ **0 Treffer**; die 10-km-Ortsabfrage um
+  Karlstr. 1 (PLZ 64850) liefert **25 Anlagenzeilen** anderer Rechtsträger, **keinen** Eintrag an dieser
+  Anschrift. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Nichteintrag ist
+  **kein** Nichtexistenzbeweis. **Statusentscheidung:** `status` bleibt `pruefung` — die Recherche liefert
+  **keinen** Lösch- oder Schließungsbeleg für den Altbetrieb (die README-Regel: „geschlossen“ nur mit
+  Beleg) und **keinen** Fortbestandsbeleg; die Anschrift Ringstraße 7 wird weiterhin **nicht** auf Reining
+  übertragen. **GEO:** `clear_fields: 'geo'` bleibt bestehen, weil weder für Karlstr. 1 noch für Ringstraße 7
+  ein Betriebsbezug belegt ist; der gespeicherte Altpunkt 49.9242/9.0094 („Im Herrngarten 6a“) wird
+  zurückgenommen. **Preise — strikt getrennt:** Für den Altbetrieb **keine** Schrott-Ankaufskurse, **keine**
+  Verkaufspreise und **keine** Container-/Entsorgungstarife; für die Nachfolgereinheit sind **keine**
+  Preise auf den geprüften Seiten belegt. **Zusatzbefund zur Nachfolger-Quelle (live am 07.11.2026):** die
+  Website wurde technisch neu ausgeliefert — die im Dossier zitierten Assets `Seo-DTvtlKDA.js` und
+  `UeberUns-CamdrXxU.js` liefern heute **HTTP 404** (301 auf die Domainwurzel), der aktuelle Build verwendet
+  `assets/index-DiS_h5_n.js` und `assets/Seo-DT-kXeM5.js`; im SEO-Asset ist das Feld **`historyPredecessor`
+  nun leer** (``), und die gerenderte „Über uns“-Seite (`https://www.containerdienst-schaafheim.de/ueber-uns`,
+  HTTP 200, clientseitig gerendert) nennt nur noch „Der Containerdienst in Schaafheim wird **laut bisheriger
+  Website** seit Mai 2020 von Salih Gencsoy betrieben“, die Startseite „SCHAAFHEIM · SEIT MAI 2020“ und die
+  Adresse **Ringstraße 7** — die „Vor mehr als 38 Jahren gründet Klaus Reining …“-Formulierung der
+  Vorwellen-Notizen ist im aktuellen Live-Build **nicht mehr enthalten**. Die Belegkette
+  „Containerdienst Reining → Salih Gencsoy“ stützt sich damit heute **nur noch auf die schwache Formulierung
+  „laut bisheriger Website“**; ein aktueller Betreiber- oder Registerbeleg für die Vorgängerschaft fehlt
+  unverändert. Das ist **kein** Beleg gegen eine frühere Reining-Tätigkeit und **kein** Schließungsbeleg — es
+  schwächt die Kette eher. Die Vorwellen-Zitate bleiben als historische Befunde wortgleich erhalten.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/way/961378576/full.json ;
+  https://api.openstreetmap.org/api/0.6/way/799842912/full.json ;
+  https://handelsregister.live/?q=Reining&land=hessen ; https://handelsregister.live/?q=Gencsoy ;
+  https://www.containerdienst-schaafheim.de/ ; https://www.containerdienst-schaafheim.de/ueber-uns ;
+  https://www.containerdienst-schaafheim.de/assets/Seo-DT-kXeM5.js ;
+  https://www.containerdienst-schaafheim.de/assets/index-DiS_h5_n.js ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Containerdienst%20Reining ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Karlstra%C3%9Fe%201%2C%2064850%20Schaafheim%2C%20Deutschland;8.9563758;49.9241338;9.0063758;49.9241338;9.0063758;49.8741338&dst=10&is=1&e=1 (Abruf 07.11.2026).]

@@ -47,3 +47,41 @@ provenance_origin: table
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott-/Metallhandel
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Anschrift ist adressgenau belegt, die Identität bleibt ein Aggregator-Lead —
+  und die Telefonnummer ist jetzt mit dem Vorwellenwert 0176 6888925 übereinstimmend geprüft.** Das
+  Gelbe-Seiten-Profil (live gelesen am 07.11.2026) nennt **Reinhardts Schrott & Metallhandel,
+  Siemensallee 18, 63477 Maintal-Dörnigheim**, Telefon **0176 68 88 89 25**; das OSM-Adressobjekt
+  **way/90391694** trägt `addr:street=Siemensallee`, `addr:housenumber=18`, `addr:city=Maintal`,
+  `addr:suburb=Dörnigheim`, `addr:postcode=63477`, `addr:country=DE`, `building=semidetached_house`
+  (live geprüft am 07.11.2026; 50.1383540/8.8426943) — die Anschrift existiert also adressgenau, das Objekt trägt
+  **weder `name` noch `operator`** und ordnet den Betrieb **nicht** zu. **Zur Telefonnummer:** das
+  Gelbe-Seiten-Profil weist **0176 68 88 89 25** aus, das entspricht **0176 6888925** und damit **genau** dem
+  in der Notiz vom 20.10.2026 genannten Wert; die in älteren Rechercheeinträgen genannte Nummer
+  **0176 68888925** (mit zusätzlicher 9) findet sich am 07.11.2026 **nicht** mehr im Portal — die frühere
+  Notiz „die Telefonnummern sind nicht identisch, deshalb keine Auswahl oder Übernahme“ ist damit als
+  **veraltet überholt**: der aktuelle Portalwert ist 0176 6888925. Da die Nummer aber nur von **einem**
+  Aggregator stammt und es **keine** Betreiberquelle gibt, bleibt sie eine Verzeichnisangabe und wird
+  **nicht** ins Frontmatter übernommen; der in der Vorwelle geleerte `street` wird **nicht** wieder gefüllt,
+  weil die Quelle weiterhin nur ein Branchenportal ist. **Abgrenzung:** die Betreiberseite
+  `schrottmetallhandelreinhardt.com` (live geprüft am 07.11.2026) liegt weiterhin in **Oberdürenbach,
+  Königsseeweg 2, 56651** (Landkreis Ahrweiler, Rheinland-Pfalz) und ist **ein anderer Betrieb**; eine
+  Zusammenführung mit dem Maintaler Eintrag wird **nicht** vorgenommen und der Fremdbetrieb **nicht**
+  übernommen. **Registerprüfung** (live am 07.11.2026): die Namenssuche „**Reinhardts**“ im amtlichen
+  Fachbetrieberegister liefert **0 Treffer**; im hessischen Handelsregister gibt es **keinen** Eintrag
+  „Reinhardts Schrott“ — die 105 namensgleichen hessischen Registereinträge zu „Reinhardt“ betreffen
+  **andere Branchen** (Bauunternehmen, Gasheizungen, Immobilien, Railsecure, ImmoConcept, eGbR Bad Hersfeld
+  u. a.) und werden **nicht** übernommen. **Amtliches Fachbetrieberegister** (live abgefragt am 07.11.2026):
+  Namenssuche „Reinhardts“ **0 Treffer** (EfB); die 10-km-Ortsabfrage um Siemensallee 18 (PLZ 63477) liefert
+  **139 Anlagenzeilen** anderer Rechtsträger, **keinen** Eintrag an dieser Anschrift. Reichweite: die Efb- und
+  die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Nichteintrag ist **kein** Nichtexistenzbeweis.
+  **Preise — strikt getrennt:** **ANKAUF** — keine Kurse; **VERKAUF** — keine Liste; **GEBÜHREN** — keine
+  Tarife. `status` bleibt `pruefung`; es wird **nicht** geocodiert. Quelle(n):
+  https://www.gelbeseiten.de/gsbiz/1b489e5e-5048-4205-bcdd-dd6e9f05003b ;
+  https://api.openstreetmap.org/api/0.6/way/90391694/full.json ;
+  https://www.schrottmetallhandelreinhardt.com/kontakt/ ;
+  https://handelsregister.live/?q=Reinhardt&land=hessen ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Reinhardts ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Siemensallee%2018%2C%2063477%20Maintal%2C%20Deutschland;8.7926943;50.1383540;8.8426943;50.1383540;8.8426943;50.0883540&dst=10&is=1&e=1 (Abruf 07.11.2026).]
