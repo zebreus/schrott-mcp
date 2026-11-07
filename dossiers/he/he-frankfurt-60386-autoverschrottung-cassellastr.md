@@ -55,3 +55,47 @@ Generischer Autoverschrottungslead in Frankfurt-Fechenheim, ohne identifizierten
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Autoverschrottung (Cassellastr.)` (Cassellastraße 31, 60386 Frankfurt am Main) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Autoverschrottung%20Cassellastr` -> **0 Treffer** (EfB); (2) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Cassellastra%C3%9Fe` -> **0 Treffer** (EfB); (3) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Autoverschrottung%20Cassellastr` -> **0 Treffer** (Altfahrzeug); (4) Namenssuche `…/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Cassellastra%C3%9Fe` -> **0 Treffer** (Altfahrzeug). Die Radiusabfrage mit 3 km um `Cassellastraße 31, 60386 Frankfurt am Main` (`…/Entsorgungsfachbetriebe/adr=Cassellastraße 31, 60386 Frankfurt am Main, Deutschland;…&dst=3&is=1&e=1`) liefert **59 Treffer** (u. a. `FFR GmbH`, `Ferdinand-Porsche-Straße 21, 60386 Frankfurt`, `ZZCT00300059 / 1`, `HIM GmbH`, `Orber Straße 65, 60386 Frankfurt/Main`, `ZZET01500213 / 3, 4, 5`, `FES GmbH Altpapiersortieranlage`, `Ferdinand-Porsche-Straße 12-16, 60386 Frankfurt`, `ZZEE00200089 / 7, 8`, `Biomasse-Kraftwerk Fechenheim GmbH`, `Alt Fechenheim 34, 60386 Frankfurt am Main`, `ZZFT01200108 / 1`) - **kein Treffer auf `Cassellastraße`**. Dieselbe 3-km-Abfrage in der Route `…/Altfahrzeugverwertung/adr=…&dst=3&is=1&o=5&e=1` liefert **0 Treffer** - **kein AltfahrzeugV-Vermerk**. Als Positivkontrolle liefert die 10-km-Efb-Abfrage um dieselbe Adresse **57 Treffer**, die 10-km-Abfrage in der Altfahrzeugverwertung-Route **1 Treffer** (`KITSAKIS GmbH`, `Lämmerspieler Weg 151, 63075 Offenbach`, `ZARS00700012 / 1`) - die Abfragetechnik funktioniert also. **Abgrenzung Identität:** Die Dossierhistorie belegt, dass die hinter der Nummer `01520 4045656` auftretende Firma **A. Lahib**, `Hansastraße 14, 32049 Herford`, ausdrücklich **keine** festen Niederlassungen in anderen Städten führt - ein Frankfurter Annahmehof ist damit nicht belegt; für Herford selbst ist im Register kein Efb-Eintrag dokumentiert.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Autoverschrottung%20Cassellastr ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Autoverschrottung%20Cassellastr ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Cassellastra%C3%9Fe ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Cassellastra%C3%9Fe ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Cassellastra%C3%9Fe%2031%2C%2060386%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.7592828%3B50.1310137%3B8.771283%3B50.143014%3B8.747283%3B50.119014&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Cassellastra%C3%9Fe%2031%2C%2060386%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.7592828%3B50.1310137%3B8.771283%3B50.143014%3B8.747283%3B50.119014&dst=3&is=1&o=5&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Cassellastra%C3%9Fe%2031%2C%2060386%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.7592828%3B50.1310137%3B8.771283%3B50.143014%3B8.747283%3B50.119014&dst=10&is=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Cassellastra%C3%9Fe%2031%2C%2060386%20Frankfurt%20am%20Main%2C%20Deutschland%3B8.7592828%3B50.1310137%3B8.771283%3B50.143014%3B8.747283%3B50.119014&dst=10&is=1&o=5&e=1 (Abruf 02.11.2026).]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Anschrift ist adressgenau erfasst, die Identität bleibt ein Aggregator-Lead —
+  und die Auflösung des Nummerkonflikts 01520 4045656 ist amtlich gestützt: sie gehört zu A. Lahib in
+  Herford, einem im Register **nicht** erfassten Einzelbetrieb.** Das OSM-Adressobjekt **way/48466503**
+  trägt `addr:street=Cassellastraße`, `addr:housenumber=31`, `addr:postcode=60386`, `addr:city=Frankfurt am
+  Main`, `addr:suburb=Fechenheim`, `addr:neighbourhood=Fechenheim-Nord`, `addr:country=DE`, `place=house`
+  (live geprüft am 07.11.2026; 50.1310137/8.7592828) — die Anschrift existiert also adressgenau; das Objekt
+  trägt **weder `name` noch `operator`** und ordnet den Betrieb **nicht** zu. **Registerprüfung** (live am
+  07.11.2026): im gesamten hessischen Handelsregister gibt es **keinen** Eintrag „A. Lahib“; die drei
+  Namensvetter zu „Lahib“ sind **H & D Lahib Immobilien GmbH** (HRB 21733 AG Bochum),
+  **Sami El Lahib M. R. S. e.K.** (HRA 7992 AG Essen) und **Ahmadi Automobile e.K. Inhaber Lahib Ahmadi**
+  (HRA 11649 AG Essen) — **andere Bundesländer, andere Branchen**, sie werden **nicht** übernommen und
+  ausdrücklich **nicht** mit dem Frankfurter Seed gleichgesetzt. Der Betreiber **A. Lahib, Hansastraße 14,
+  32049 Herford** ist damit ein **Einzelbetrieb ohne Registereintrag**; die bereits am 15.10.2026 dokumentierte
+  Aussage, er führe „ausdrücklich **keine** festen Niederlassungen in anderen Städten“, bleibt der
+  maßgebliche Gegenbeleg gegen einen Frankfurter Annahmehof. **Bestätigung der Preisaussagen des
+  Herford-Betreibers (live gelesen am 07.11.2026, Seite autoverschrottung-herford.de):** **ANKAUF** —
+  „Höchste Auszahlungsquote **bis 900 €** für bestimmte Modelle“; „der Schrottpreis liegt aktuell bei rund
+  **100 Euro pro Tonne**“ (an anderer Stelle der Seite: „Der aktuelle Schrottpreis für Stahl liegt bei ca.
+  **150 €** je Tonne“ — **die Seite nennt selbst zwei verschiedene Werte**, beide ohne Veröffentlichungsdatum);
+  „Die Betriebe müssen pro Pkw um die **80 Euro** für umweltgerechtes Recycling einkalkulieren“; „bekommen Sie
+  mit Glück vielleicht noch **100 bis 400 Euro** für Ihr Fahrzeug“; „Die Preise beim Ankauf nach
+  Edelmetallanalyse schwanken jeden Tag … liegen die Preise oft zwischen **60 und 390 Euro**“ (Katalysatoren);
+  **VERKAUF** — keine Verkaufspreisliste; **GEBÜHREN** — „Häufig bieten wir an, dies gegen eine Gebühr von ca.
+  **50 Euro** zu übernehmen“ (Abmeldung). **Reichweite dieser Preise:** sie stammen vom Betreiber in
+  **Herford** und sind **kein** Frankfurter Kurs; sie werden hier nur als Beleg dafür festgehalten, dass die
+  **Nummer** 01520 4045656 zu diesem Betreiber gehört. Die Seitenzeitangabe **Mo–So 08:00–20:00 Uhr** ist
+  eine **Erreichbarkeit** des mobilen Dienstes und **keine** Öffnungszeit eines Frankfurter Hofes.
+  **Amtliches Fachbetrieberegister** (live abgefragt am 07.11.2026): die Namenssuche „**Autoverschrottung
+  Cassellastr**“ und „**Cassellastraße**“ liefern je **0 Treffer** (EfB) und in der Route
+  Altfahrzeugverwertung **0 Treffer**; die 10-km-Ortsabfrage um Cassellastraße 31 (PLZ 60386) liefert **57
+  Anlagenzeilen** anderer Rechtsträger, **keinen** Eintrag an dieser Anschrift. Reichweite: die Efb- und die
+  AltfahrzeugV-Anerkennung sind **freiwillig**; ein Nichteintrag ist **kein** Nichtexistenzbeweis.
+  **Das Feld `certifications` bleibt leer** und `status` bleibt `pruefung`; die Telefonnummer 01520 4045656
+  wird **nicht** übernommen, da sie zu einem mobilen Dienst ohne Frankfurter Standort gehört und ein
+  Frankfurter Annahmehof nicht belegt ist. Quelle(n):
+  https://api.openstreetmap.org/api/0.6/way/48466503/full.json ;
+  https://www.autoverschrottung-herford.de/impressum ; https://www.autoverschrottung-herford.de/ ;
+  https://handelsregister.live/?q=Lahib ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Autoverschrottung%20Cassellastr ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Cassellastra%C3%9Fe ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Cassellastra%C3%9Fe%2031%2C%2060386%20Frankfurt%20am%20Main%2C%20Deutschland;8.7592828;50.1310137;8.771283;50.143014;8.747283;50.119014&dst=10&is=1&a=1&gl=1 (Abruf 07.11.2026).]

@@ -53,3 +53,44 @@ Namens-/PLZ-Klärfall: Suche findet „Ludwig Schmidt Metallhandel“ als Credit
 - [Recherche 02.11.2026: **Zertifikats-Recherche ohne Treffer.** Für `Schmidt Ludwig` (35688 Dillenburg) wurde im amtlichen Fachbetrieberegister (GESA) weder ein Efb-Zertifikat noch ein AltfahrzeugV-Eintrag gefunden; `certifications` bleibt leer. Suchen und Befunde (live am 02.11.2026, clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): (1) Namenssuche `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt%20Ludwig` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schmidt%20Ludwig` -> **0 Treffer** (Altfahrzeug); `…/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ludwig%20Schmidt` -> **0 Treffer** (EfB); `…/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ludwig%20Schmidt` -> **0 Treffer** (Altfahrzeug); (2) Radiusabfrage mit 10 km um `35688 Dillenburg` `…/Entsorgungsfachbetriebe/adr=35688 Dillenburg, Deutschland;…&dst=10&is=1&e=1` -> **21 Treffer**, u. a. `MGH METALLGROSSHANDEL BECKER GMBH` (Bahnhofstraße 23, 35684 Dillenburg-Frohnhausen, `ZZHT00400035 / 1`, 2,5 km), `DESABAU GmbH` (Schelde-Lahn-Straße 2a, 35688 Dillenburg-Oberscheld, `ZZFT01300205 / 1`, 2,6 km), `PreZero Service Mitte-West GmbH & Co. KG` (Grube Falkenstein -, 35688 Dillenburg, `ZZEE00200224 / 22`, 2,8 km), `TSR Deutschland GmbH & Co. KG, Region Südwest I` (Am Güterbahnhof 53, 35683 Dillenburg, `ZZEE00200230 / 4`, 3,1 km), `Helga Märte` (In den Erlen 5, 35685 Dillenburg, `ZZFT01100251 / 1`, 4,5 km) - **kein Treffer auf `Schmidt Ludwig` oder `Ludwig Schmidt` und keiner auf Obere Mühlseite 26**; (3) dieselbe Abfrage in der Route `…/Altfahrzeugverwertung/adr=35688 Dillenburg, Deutschland;…&dst=10&is=1&e=1` -> **1 Treffer**: `Autoverwertung Oerter Inh. Frau Susanne Domuradt` (Am Schimberg 8, 35708 Haiger-Flammersbach, `ZAHS01200055 / 1`, 9,7 km) - **kein Treffer auf `Schmidt Ludwig`**; (4) Positivkontrolle: die 10-km-Efb-Abfrage liefert 21 und die 10-km-Altfahrzeug-Abfrage 1 Treffer, die Abfragetechnik funktioniert also. Die Register-Geokodierung von `35688 Dillenburg` lieferte zunächst fälschlich `Robert-Koch-Straße 9, 63128 Dietzenbach` (52 Efb-Treffer im 10-km-Radius um diesen Fremdpunkt, in der Route Altfahrzeugverwertung 0 Treffer); die Radiusabfrage wurde deshalb mit den Dillenburger Koordinaten 50.7521100/8.3157300 neu gefahren, und nur deren Ergebnisse sind oben ausgewertet. Ein `Schmidt Metallhandel GbR` (Ludwig Schmidt, Nico Schmidt) wird im Register nicht geführt - der im Dossier belegte Gewerbe- und Personenname bleibt damit unbelegt, ebenso die Namensvarianten `Schmidt Ludwig`/`Ludwig Schmidt`.
   Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt%20Ludwig ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schmidt%20Ludwig ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ludwig%20Schmidt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ludwig%20Schmidt ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe+9%2C+63128+Dietzenbach%2C+Deutschland%3B8.7878624%3B50.0051905%3B8.789371280291503%3B50.0063946302915%3B8.786673319708498%3B50.0036966697085&dst=10&is=1&rb=1&a=1&gl=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=35688%20Dillenburg%2C%20Deutschland;8.3157300;50.7521100;8.3207300;50.7571100;8.3107300;50.7471100&dst=10&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=35688%20Dillenburg%2C%20Deutschland;8.3157300;50.7521100;8.3207300;50.7571100;8.3107300;50.7471100&dst=10&is=1&e=1 (Abruf 02.11.2026).]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Die Anschrift des Dossierbetriebs ist amtlich belegt — „Obere Mühlseite 26, 35688
+  Dillenburg-Oberscheld“ — und der Seed-Datentyp „Schrott“ ist damit korrigierbar; die Gewerbeidentität
+  bleibt offen.** Das amtliche Register kennt in Hessen **kein** „Schmidt Metallhandel“ und **keinen**
+  „Ludwig Schmidt“ (Namenssuche in beiden Schreibweisen: je **0 Treffer**); der einzige registerseitige
+  Treffer im Umfeld ist **Hugo Schmidt KG Eisen- und Metallhandel, HRA 1248 früher Amtsgericht Dillenburg,
+  heute Amtsgericht Wetzlar, Sitz Dillenburg, Registerstatus gelöscht (Bestand)** — ein **Namensvetter**
+  anderer Firmierung und Rechtsform, der **nicht** übernommen wird. Die **zweite Quelle** für die Anschrift
+  ist OpenStreetMap: **way/93483834** trägt `addr:street=Obere Mühlseite`, `addr:housenumber=26`,
+  `addr:city=Dillenburg`, `addr:suburb=Oberscheld`, `addr:postcode=35688`, `addr:country=DE`,
+  `building=yes` (live geprüft am 07.11.2026; 50.7333643/8.3357265) — **beide** Verzeichnisangaben
+  (11880 „Ludwig Schmidt“, Obere Mühlseite 26, 35688 Dillenburg-Oberscheld, 02771 21040, Kategorie „Erz und
+  Metall Großhandel“; gowork „Schmidt Metallhandel GbR, Ludwig Schmidt, Nico Schmidt“, dieselbe Anschrift und
+  dieselbe Nummer) nennen also dieselbe Anschrift wie das amtliche Adressobjekt; das Objekt trägt **weder
+  `name` noch `operator`** und ordnet den Betrieb **nicht** zu. **PLZ-Konflikt:** der Creditreform-Eintrag
+  „LUDWIG SCHMIDT METALLHANDEL, 35687“ bleibt eine nur im Suchindex sichtbare Spur (Direktabruf weiterhin
+  403); die Kommunalzuordnung (Stadtdigital Dillenburg) ordnet **Oberscheld 35688** und **Niederscheld 35687**
+  zu, und die OSM-Adresse bestätigt für Obere Mühlseite 26 die **35688** — der Seed-Wert 35688 passt damit zur
+  belegten Anschrift, der 35687-Eintrag bleibt als **möglicher zweiter Standort oder Namensvetter** offen und
+  wird **nicht** per PLZ-Korrektur entschieden. **Träger:** die 11880-Kategorie „Erz und Metall Großhandel“ und
+  die gowork-Kategorie „Einzelhandel mit Metallwaren“ belegen **Großhandel/Metallhandel**, **keinen**
+  privaten Schrottankauf; `trader_type` bleibt daher `schrotthaendler` nur als Seedwert, der Befund zur
+  tatsächlichen Betriebsart wird hier festgehalten. **Amtliches Fachbetrieberegister** (live abgefragt am
+  07.11.2026, Filter „Art des Betriebs = Egal“): Namenssuche „Schmidt Metallhandel“ **0 Treffer** (EfB),
+  „Ludwig Schmidt“ **0 Treffer** (EfB) und „Schmidt Metallhandel“ **0 Treffer** (Altfahrzeugverwertung); die
+  10-km-Ortsabfrage um Obere Mühlseite 26 (PLZ 35688) liefert **23 Anlagenzeilen** anderer Rechtsträger, **kein**
+  Treffer auf „Schmidt“ und **keiner** auf Obere Mühlseite 26. Reichweite: die Efb- und die
+  AltfahrzeugV-Anerkennung sind **freiwillig**; ein Nichteintrag ist **kein** Nachweis, dass der Betrieb keine
+  Anerkennung besitzt. **ANKAUF:** keine Annahmebedingungen, keine Kurse. **VERKAUF:** keine Preisliste.
+  **GEBÜHREN:** keine Tarife. **GEO:** way/93483834 ist adressgenau erfasst; die Zuordnung zum Betrieb bleibt
+  über das fehlende `operator`-Tag unbelegt, die Koordinate wird deshalb **nicht** gesetzt.
+  Quelle(n): https://handelsregister.live/?q=Schmidt%20Metallhandel ; https://handelsregister.live/?q=Ludwig%20Schmidt&land=hessen ;
+  https://handelsregister.live/hra/hessen/ag-wetzlar/frueher_ag_dillenburg/1248/hugo-schmidt-kg-eisen-und-metallhandel ;
+  https://api.openstreetmap.org/api/0.6/way/93483834/full.json ;
+  https://www.11880.com/branchenbuch/dillenburg/120671391B43443057/ludwig-schmidt.html ;
+  https://gowork.de/schmidt-metallhandel-gbr-dillenburg ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt%20Metallhandel ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=Schmidt%20Metallhandel ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Obere%20M%C3%BChlseite%2026%2C%2035688%20Dillenburg%2C%20Deutschland;8.2857265;50.7333643;8.3357265;50.7333643;8.3357265;50.6833643&dst=10&is=1&e=1 (Abruf 07.11.2026).]

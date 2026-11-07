@@ -59,3 +59,47 @@ Der mögliche Dublettenfall ist weiterhin ungelöst: Die aktuelle Betreiberseite
 
 - [Recherche 31.10.2026: Betreiber-Primärquelle der BANA-Einheit am 31.10.2026 live erneut gelesen (/, /impressum/, /kontakt/, /team/, /unternehmen/; alle HTTP 200). Das Impressum nennt wörtlich „Bana Recycling GmbH & Co. KG, Zeppelinstraße 31, 63667 Nidda", „Vertreten durch: Geschäftsführer Ahmed Arif & Ahmad Astaq Arif", „Kontakt: Telefon: +49 (0)60 43 - 98 45 181, Telefax: +49 (0)60 43 - 98 84 678, E-Mail: info@bana-recycling.de", „Umsatzsteuer Identifikationsnummer gem. §27a UStG: DE 317996010", „Kommanditgesellschaft - Sitz Nidda, Amtsgericht Friedberg HRA 4766", „Persönlich haftende Gesellschafterin: BANA Verwaltungs- und Beteiligungs GmbH - Nidda, Amtsgericht Friedberg HRB 8715", „Zertifizierter Entsorgungsfachbetrieb nach EfbV § 3-11", „Inhaltlich verantwortlich: Ahmed Arif". Die Öffnungszeiten sind im Betreiber-Kopf wörtlich: „Montag bis Freitag: 8:00-12:30 Uhr u. 13.00-17.00 Uhr, letzter Einlass 16.30 Uhr" und „Öffnungszeit - Samstag 8:00-15:00 Uhr, letzter Einlass 14.30 Uhr". ANKAUF (Materialliste, live belegt): „Mischschrott - Stahl-, Eisen- oder Gussteile und andere metallerne Gegenstände", „Träger - Träger, Bögen und ähnliche XXL-Bauteile aus Stahl, Eisen oder Guss", „Kabel - Elektrokabelschrott inkl. Isolierung mit Kupfer-, Aluminium- oder Stahlkern", „Großformatige Geräte", „Metall-/Schrottrecycling". Das Unternehmen beschreibt sich selbst als „Entsorgungsfachbetrieb in Nidda Harb" und nennt „Ankauf von Metallen aller Art zu attraktiven, marktgerechten Preisen"; genannt werden im Unternehmens-Teil „Kupfer (auch in Form geschälter Kupferkabel, sog. Millberry), Messing, Aluminium, Zink und Edelstahl". **Keine numerischen Kurse, keine €/kg-Angabe, keine Materialpreisliste** - der Ankaufspreis ist bewusst nicht veröffentlicht. VERKAUF: keine Verkaufs-/Preisliste fuer Endkunden. GEBÜHREN: „Vor-Ort-Service + Containerdienst - Wir bieten Ihnen die Bereitstellung von Containern für Stahl- und Eisenschrott und die Durchführung von Stahldemontagen vor Ort an"; Container-AGB verlinkt, Tarife/Miete werden nicht beziffert. ANNAHMEBEDINGUNG (neu, quantitativ): „letzter Einlass 16.30 Uhr" (Mo-Fr) bzw. „letzter Einlass 14.30 Uhr" (Sa) - eine Anlieferfrist ist damit belegt; eine Mindestmenge wird nicht genannt. UNTERNEHMENSHISTORIE (neu, präzisiert): „Die Firma BANA Recycling Schrott- und Metallhandel ist inzwischen viele Jahre in der Wiederverwertungsbranche tätig, nachdem sie zuvor von 2005 bis 2008 unter dem Namen SSH ebenfalls in Nidda firmierte" - der Seed-Hinweis „distinct, andere Person" lässt sich damit nicht auflösen, die Gesellschaft ist ein Firmenkontinuum unter wechselnder Firmierung. Die Identitaetsfrage (eigenstaendiger Betrieb vs. Doppeleintrag zum BANA-Dossier) bleibt UNGELOEST und wird weiterhin nicht behauptet; es wird weder zusammengefuehrt noch geschlossen, das Dossier bleibt in Pruefung, und es werden KEINE Frontmatter-Felder aus dieser fremden Gesellschaft uebernommen. Quelle(n): https://bana-recycling.de/ ; https://bana-recycling.de/impressum/ ; https://bana-recycling.de/unternehmen/ ; https://bana-recycling.de/team/ (alle Abruf 31.10.2026)]
 - [Recherche 31.10.2026: OSM live geprueft (Zeppelinstraße, Nidda). Kachelraster ueber den Strassenverlauf, Rasterfenster 8.9767/50.4264 bis 8.9847/50.4344 (4 Kacheln, 0 Kachel-Fehler): 25 Adressobjekte mit `addr:housenumber` und `addr:street=Zeppelinstraße`, daraus 25 verschiedene Hausnummern (3, 4a, 5, 6, 6a, 7, 8, 9, 9a, 11, 13, 16, 17, 18, 20, 22, 24, 25, 26, 27, 29, 31, 33, 35, 37); Bereichsnotationen waren nicht vorhanden. Die BANA-Hausnummer 31 existiert als way/1168312924 mit `addr:housenumber=31`, `addr:street=Zeppelinstraße`, `addr:city=Nidda`, `addr:postcode=63667`, `addr:country=DE`, `addr:suburb=Borsdorf`, `building=yes` - das Objekt traegt weder `name=` noch `operator=`. Im Raster tragen 4 der 25 Objekte ein `name=` und 1 der 25 ein `operator=` (4 verschiedene Objekte mit `name=` oder `operator=`), aber **kein** Objekt hat Bezug zur BANA Recycling GmbH & Co. KG: die belegten Fremdnamen sind way/223176781 (`name=McDonald's`, `operator=Jan-Thorsten Gluth, Gluth Systemgastronomie e.K.`, `phone=+49 6043 401011`) mit `addr:housenumber=3`, `brand=McDonald's`, `amenity=fast_food`, `name=Jungnick Palettenzentrum GmbH` (way/223176772, `addr:housenumber=17`), `name=Gesundheitspark Nidda` (way/223176769, `addr:housenumber=5`) und `name=SSG Reisebüro Stoll Nidda` (node/5023418521, `addr:housenumber=4a`). Die Anschrift Zeppelinstraße 31, 63667 Nidda ist damit als OSM-Adresse bestaetigt (der Ortsteil `addr:suburb=Borsdorf` praezisiert den Sitz), eine OSM-Betriebszuordnung existiert nicht. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (Rasterfenster 8.9767,50.4264,8.9847,50.4344, 4 Kacheln, 0 Fehler, Abruf 31.10.2026) ; https://api.openstreetmap.org/api/0.6/way/1168312924.json ; https://api.openstreetmap.org/api/0.6/way/223176781.json]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Der Dublettenverdacht ist mit Register- und Betriebsbelegen entschieden: die beiden im
+  Dossier-Namen genannten Personen sind die Kommanditisten der BANA-Einheit — das Dossier ist eine
+  Personen-/Firmen-Doppelerfassung, kein eigener Betrieb.** Der amtliche Registerauszug der **BANA Recycling
+  GmbH & Co. KG, HRA 4766 Amtsgericht Friedberg** (Registerstatus aktuell, Sitz Nidda, letzte Eintragung
+  07.11.2018, Abrufdatum 07.10.2025) nennt als **Rechtsträgerin** die BANA Recycling GmbH & Co. KG mit
+  Geschäftsanschrift **Zeppelinstraße 31, 63667 Nidda** und **Rechtsform Kommanditgesellschaft**; als
+  **persönlich haftende Gesellschafterin** die **BANA Verwaltungs- und Beteiligungs GmbH, Amtsgericht
+  Friedberg HRB 8715** (einzelvertretungsberechtigt); als **Kommanditisten** ausdrücklich
+  **Ahmad Astaq Arif (\*30.05.1991, Privatanschrift Nidda, Hafteinlage 300,00 EUR)** und
+  **Ahmed Arif (\*05.11.1986, Hafteinlage 700,00 EUR)**. Die beiden Dossier-Namen sind damit **wörtlich die
+  beiden Kommanditisten** der BANA-Gesellschaft, nicht „andere Personen“: der Seed-Vermerk „distinct, andere
+  Person“ ist **widerlegt**. Die zweite, unabhängige Quelle bleibt das Betreiber-Impressum (live gelesen am
+  07.11.2026), das die Geschäftsführer „Ahmed Arif & Ahmad Astaq Arif“, dieselbe Anschrift Zeppelinstraße 31,
+  63667 Nidda, HRA 4766 AG Friedberg, USt-ID DE317996010, Telefon 06043 9845181 und 0160 4516560 sowie die
+  Angabe „Zertifizierter Entsorgungsfachbetrieb nach EfbV § 3-11“ nennt. **Abgrenzung:** ein gleichnamiger
+  Verzeichniseintrag „Bana Arif Ahmad Astaq Eisenhandel“ (Das Telefonbuch/GoLocal) führt dieselbe Nummer
+  06043-9845181 und dieselbe Anschrift und ist damit **kein** eigener Betrieb, sondern eine weitere
+  Verzeichnisfassung derselben Gesellschaft; eine eigenständige Rechtsträgerin mit diesem Namen existiert im
+  Register nicht. **Entscheidung:** Die Seed-Zeile wird **nicht** geschlossen und **nicht** verschmolzen, weil
+  das Dossier eine Personenkennung („Bana Arif (Ahmad Astaq)“) und der Firmenname „BANA Recycling GmbH &
+  Co. KG“ in einem **anderen** Dossier geführt wird; die Doppelerfassung wird hier aber jetzt **als solche
+  belegt** dokumentiert. **Frontmatter-Felder werden bewusst nicht aus der BANA-Einheit übernommen** — die
+  Dossier-Zeile nennt Personen, nicht die Gesellschaft, und eine Übernahme der Gesellschaftsanschrift würde
+  eine Identität behaupten, die die Registerlage nicht trägt. `status` bleibt `pruefung`.
+  **Preise der BANA-Einheit (weiterhin nicht dem Seed zugeordnet):** **ANKAUF** — „Ankauf von Metallen aller
+  Art zu attraktiven, marktgerechten Preisen“ ohne **nur** numerische Kurse; genannt werden Mischschrott,
+  Träger, Kabel, Großformatige Geräte sowie Kupfer (auch geschälte Kupferkabel „Millberry“), Messing,
+  Aluminium, Zink und Edelstahl — **keine** €/kg-Angabe, **keine** Materialpreisliste; **VERKAUF** — keine
+  Verkaufs-/Preisliste; **GEBÜHREN** — die AGB (Stand Mai 2019) nennen für Container einen schriftlich zu
+  vereinbarenden Preis zzgl. MwSt. sowie mögliche kostenpflichtige Fehlfahrten **ohne Betrag**. **GEO:**
+  Zeppelinstraße 31 ist in OSM als way/1168312924 adressgenau erfasst (`addr:housenumber=31`,
+  `addr:street=Zeppelinstraße`, `addr:city=Nidda`, `addr:postcode=63667`, `addr:suburb=Borsdorf`,
+  `building=yes`; live geprüft am 07.11.2026) — **ohne** `name` und **ohne** `operator`, also ohne
+  Betriebszuordnung; die Geokodierung bleibt deshalb zurückgestellt, bis die Dublettenentscheidung getroffen
+  ist. **Amtliches Fachbetrieberegister:** die BANA-Einheit selbst wurde in dieser Recherche **nicht**
+  abgefragt (kein Abruf des Efb-Eintrags); für den Slug bleibt `certifications` daher leer.
+  Quelle(n): https://handelsregister.live/hra/hessen/ag-friedberg/4766/bana-recycling-gmbh-co-kg/strukturiert ;
+  https://handelsregister.live/hra/hessen/ag-friedberg/4766/bana-recycling-gmbh-co-kg ;
+  https://bana-recycling.de/impressum/ ; https://bana-recycling.de/ ;
+  https://api.openstreetmap.org/api/0.6/way/1168312924/full.json ;
+  https://www.dastelefonbuch.de/Details/Nidda/Schrott-Ahmad-Astaq-Bana-Arif-Nidda-Zeppelinstr.html (Abruf 07.11.2026).]

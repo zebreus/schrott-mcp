@@ -6,13 +6,15 @@ state: HE
 city: Offenbach am Main
 street: Schreberstr. 38a
 postcode: '63069'
-phone: ''
+phone: 069 835555
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
 status: aktiv
-description: 'Kundrat GmbH, Handelsregister Offenbach am Main HRB 5518, Schreberstraße 38a, 63069 Offenbach am Main; eingetragen am 01.02.1983, Status aktiv, letzte Registeränderung 01.07.2022, Unternehmensgegenstand Handel mit Schrott und anderen Metallen aller Art, Jahresabschlussveröffentlichung 09.06.2026. Containerdienst laut Branchenverzeichnissen. Der im Dossier geführte Website-Kandidat kundrat-containerdienst.de hat keine DNS-Auflösung und ist nicht erreichbar; Telefonnummer und Öffnungszeiten bleiben Verzeichnisangaben, Annahme- und Preisfakten sind nicht belegt.'
+lat: 50.0863033
+lon: 8.7665492
+description: 'Kundrat GmbH, Handelsregister Offenbach am Main HRB 5518, Schreberstraße 38a, 63069 Offenbach am Main; eingetragen am 01.02.1983, Status aktiv, letzte Registeränderung 01.07.2022, Unternehmensgegenstand Handel mit Schrott und anderen Metallen aller Art, Jahresabschlussveröffentlichung 09.06.2026. Der Betrieb ist in OpenStreetMap als node/4816827986 mit name=Kundrat GmbH und office=scrap_yard erfasst (Kontaktdaten dort: Telefon +49 69 83 55 55, Fax +49 69 83 23 03); die Telefonnummer 069 835555 wird dadurch von zwei unabhängigen Quellen getragen. Der im Dossier geführte Website-Kandidat kundrat-containerdienst.de hat keine DNS-Auflösung und ist nicht erreichbar; eine E-Mail-Adresse ist nur in einer Quelle belegt und daher nicht übernommen, Öffnungszeiten sowie Annahme- und Preisfakten sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Einträge
@@ -45,3 +47,40 @@ Die Kundrat GmbH ist im Handelsregister bestätigt: **HRB 5518 Amtsgericht Offen
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Gelbe Seiten führt „Kundrat GmbH Schrott Containerdienst“, Schreberstr. 38a, 63069, Tel. 069 835555, Fax 069 832303 und Mo–Fr 08–12/13–16 sowie Sa 08–11:30. Das bleibt ein Branchenverzeichnislead; Website/E-Mail dort leer, kein Betreiber-/Registerbeleg. Ähnlich etikettierte Kundrat-Kfz-Einträge am selben Standort erhöhen den Identitätsklärbedarf, begründen aber keine Zusammenführung. Die Adresse wurde deshalb aus street entfernt. ANKAUF/VERKAUF/GEBÜHREN: keine qualifizierte Preisliste. GEO erst nach Betreiber-/Betriebsstättenbestätigung. Quelle: https://www.gelbeseiten.de/gsbiz/f658f5ac-cbda-484f-9451-4e70c8e26998; https://www.golocal.de/offenbach/container/kundrat-gmbh-schrott-containerdienst-Fhn/; https://www.kundrat-containerdienst.de]
+
+### Recherche 07.11.2026
+
+- [Recherche 07.11.2026: **Unabhängiger Betriebs- und Typbeleg über OSM gefunden — die Kundrat GmbH ist dort als
+  Schrottplatz mit Kontaktdaten erfasst.** Der OSM-Knoten **node/4816827986** (live abgerufen am 07.11.2026 über
+  `https://api.openstreetmap.org/api/0.6/node/4816827986.json`, HTTP 200) trägt die Tags
+  `name=Kundrat GmbH`, **`office=scrap_yard`**, `addr:street=Schreberstraße`, `addr:housenumber=38a`,
+  `addr:postcode=63069`, `addr:city=Offenbach am Main`, **`contact:phone=+49 69 83 55 55`**,
+  **`contact:fax=+49 69 83 23 03`** und **`contact:email=kundrat2@t-online.de`** bei 50.0863033/8.7665492.
+  Das ist die **erste** belastbare Bestätigung der bisher offenen Punkte: (a) der **Betriebsart** (Schrottplatz,
+  nicht Containerdienst), (b) der **exakten Anschrift** Schreberstraße 38a, 63069 Offenbach am Main — deckt sich
+  mit dem Registerstand HRB 5518 — und (c) der **Telefonnummer** 069 835555 sowie der **Faxnummer** 069 832303,
+  die bislang nur aus Verzeichnissen stammten und deshalb nicht übernommen waren. Die Nummer 069 835555 und die
+  Faxnummer 069 832303 stehen zusätzlich im Verzeichniseintrag (Gelbe Seiten) — die Kombination aus OSM-Objekt
+  und Verzeichnis macht sie erstmals zu **zwei unabhängigen Quellen**; die **E-Mail** `kundrat2@t-online.de` ist
+  nur im OSM-Objekt belegt und bleibt deshalb **nicht** im Frontmatter. **GEO:** der in der Produktionsdatenbank
+  gespeicherte Punkt 50.104/8.764967 löst per Nominatim-Reverse auf **„Zentner Scherer Sanitätshaus, Bieberer
+  Straße 1-7, 63065 Offenbach am Main“** auf und liegt damit rund **2 km** vom belegten Betrieb entfernt — er
+  ist **kein** Standort des Kundratbetriebs. Die Dossier-Adresse ist in OSM adressgenau erfasst, deshalb wird
+  der korrekte Punkt als `lat`/`lon` ins Frontmatter übernommen und der falsche DB-Punkt dadurch ersetzt.
+  **Betreiber-Website:** `kundrat-containerdienst.de` hat weiterhin **keinen** A-Record (DNS-Abfrage über
+  `dns.google/resolve` am 07.11.2026 ohne Answer-Eintrag), `website` bleibt leer und `website_status` bleibt
+  `unbekannt`; es gibt damit **keine** Betreiber-Primärquelle (kein Impressum, keine Preise, keine
+  Öffnungszeiten). **Amtliches Fachbetrieberegister** (clientseitig gerenderte Vaadin-App, live abgefragt am
+  07.11.2026): Namenssuche „Kundrat“ in der Route Entsorgungsfachbetriebe **0 Treffer**; die 10-km-Ortsabfrage
+  um Schreberstraße 38a liefert **160 Anlagenzeilen** anderer Rechtsträger, **keinen** Eintrag an diesem
+  Standort — die Efb-Anerkennung nach § 56 KrWG ist freiwillig, ein Nichteintrag ist **kein** Nichtexistenz-
+  oder Nichtanerkennungsbeweis. **ANKAUF:** keine Kurse belegt. **VERKAUF:** keine Preisliste. **GEBÜHREN:**
+  keine Container-, Abhol- oder Entsorgungstarife. Die ältere Kfz-/Container-Vermischung am Standort ist durch
+  den `office=scrap_yard`-Beleg **nicht** aufgelöst — das OSM-Tag nennt den Betrieb Schrottplatz, belegt aber
+  keine gewerbliche Kfz-Annahme; der Status bleibt daher `aktiv` mit unbestätigter Kundenannahme.
+  Quelle(n): https://api.openstreetmap.org/api/0.6/node/4816827986.json ;
+  https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.104&lon=8.76496666666667&zoom=18&addressdetails=1 ;
+  https://www.gelbeseiten.de/gsbiz/f658f5ac-cbda-484f-9451-4e70c8e26998 ;
+  https://dns.google/resolve?name=kundrat-containerdienst.de&type=A ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Kundrat ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Schreberstra%C3%9Fe%2038a%2C%2063069%20Offenbach%20am%20Main%2C%20Deutschland;8.7165492;50.0863033;8.7665492;50.0863033;8.7665492;50.0363033&dst=10&is=1&e=1 (Abruf 07.11.2026).]
