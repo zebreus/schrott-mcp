@@ -38,6 +38,18 @@ Namens-/Adresszuordnung ✓ und die Kundenannahme ✓ seien **nicht** unabhängi
 `phone` ✓, `email` ✓, `website` ✓, `opening_hours` ✓, `description` ✓, `website_status` ✓,
 `certifications` ✓, `dropoff_json` ✓, `pickup_json` ✓, `geo` ✓ — **`street` und `postcode` nicht** ✓ ✓.
 
+**Wichtig für das Vorgehen ✓:** Der Seed **behält** den gespeicherten Wert, wenn das Dossier-Feld leer
+ist ✓ ✓ (`keep_core("street", …)` ✓ — der Keep-Vertrag ✓ ✓). „Das Feld leer lassen“ ✓ ist also **nicht**
+„zurückgesetzt“ ✓ ✓ — die gespeicherte Zeile bliebe stehen ✓ ✓. Zurückgesetzt werden kann nur ein
+**belegter** Wert ✓ ✓ ✓.
+
+**Ein Referenzfall ✓:** `rp-westheim-hms-westheim` ✓ — dort trägt die Welle 10:30 ✓ die **zwei** Quellen
+zusammen ✓ ✓ (OSM ✓ ordnet genau diese Hausnummer ✓ der PLZ 67368 ✓ zu ✓ ✓, und die offizielle
+Ortsgemeinde ✓ verwendet dieselbe PLZ ✓ ✓) — **und** zugleich ✓, dass an dieser Adresse **keine
+zertifizierte Schrott-Annahme** ✓ liegt ✓, sondern eine kommunale Biogasanlage ✓ ✓. Die Identität „HMS“ ✓
+↔ „Maximilian Jäger“ ✓ bleibt offen ✓ ✓. Hier ist die **Straße** zwar belegt ✓, der **Betrieb** dort aber
+nicht ✓ — die Zuordnung bleibt offen ✓ ✓.
+
 ## Aufgabe je Dossier
 
 1. **Den Verzeichniseintrag** ✓ (die 11880-Firmenseite ✓) **live** holen ✓ und prüfen ✓:
