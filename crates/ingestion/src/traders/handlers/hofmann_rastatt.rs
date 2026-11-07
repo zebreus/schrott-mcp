@@ -162,6 +162,9 @@ fn parse_dated(html: &str) -> Result<DatedSnapshot, IngestError> {
     let tr = Selector::parse("tbody tr").unwrap();
     let td = Selector::parse("td").unwrap();
     let stand = Selector::parse("span.hmp-stand").unwrap();
+    // The page-wide stand of the price list (since 02.11.2026 the only
+    // date on the page); None means the page states no date at all.
+    let global = global_date(&doc);
     let mut out = HandlerOutcome {
         fetch_url: URL.to_owned(),
         ..HandlerOutcome::default()
@@ -189,17 +192,29 @@ fn parse_dated(html: &str) -> Result<DatedSnapshot, IngestError> {
             graded_tin_present = true;
         }
         let dates: Vec<_> = cells[1].select(&stand).collect();
-        if dates.len() != 1 {
-            return Err(error(format!("missing/ambiguous date: {label}")));
+        if dates.len() > 1 {
+            return Err(error(format!("ambiguous date: {label}")));
         }
-        let raw_date = text(dates[0]);
-        let date = row_date(&raw_date).ok_or_else(|| error(format!("invalid date: {label}")))?;
+        // The row date is the row's own stamp; if the row has none, the
+        // page-wide stand applies (the page states the date only once).
         let raw = text(cells[1]);
-        let quote = raw
-            .strip_suffix(&raw_date)
-            .ok_or_else(|| error("row date is not suffix"))?
-            .trim();
-        let Some(price) = quote_price(quote) else {
+        let (date, quote) = if let Some(el) = dates.first() {
+            let raw_date = text(*el);
+            let date =
+                row_date(&raw_date).ok_or_else(|| error(format!("invalid date: {label}")))?;
+            let quote = raw
+                .strip_suffix(&raw_date)
+                .ok_or_else(|| error("row date is not suffix"))?
+                .trim()
+                .to_owned();
+            (date, quote)
+        } else {
+            let date = global
+                .clone()
+                .ok_or_else(|| error(format!("missing date: {label}")))?;
+            (date, raw.trim().to_owned())
+        };
+        let Some(price) = quote_price(&quote) else {
             if quote == "auf Anfrage" || quote == "Preis auf Anfrage" {
                 out.skipped_labels.push(format!("{label}: auf Anfrage"));
                 continue;
@@ -242,7 +257,13 @@ fn parse_dated(html: &str) -> Result<DatedSnapshot, IngestError> {
 }
 
 fn row_date(raw: &str) -> Option<String> {
-    let (date, time) = raw.strip_prefix("Stand: ")?.split_once(", ")?;
+    let raw = raw.strip_prefix("Stand: ")?;
+    date_time(raw)
+}
+
+/// The date-time of a "DD.MM.YYYY, HH:MM Uhr" stamp.
+fn date_time(raw: &str) -> Option<String> {
+    let (date, time) = raw.split_once(", ")?;
     let time = time.strip_suffix(" Uhr")?;
     let (hour, minute) = time.split_once(':')?;
     if hour.len() != 2
@@ -257,6 +278,20 @@ fn row_date(raw: &str) -> Option<String> {
         return None;
     }
     parse_de_date(parts[0], parts[1], parts[2])
+}
+
+/// The page-wide stand of the price list.
+///
+/// Since 02.11.2026 the page states the date **once** above the table
+/// ("Alle Preise aktualisiert am 02.11.2026, 11:57 Uhr") and the rows
+/// carry only the price. The date of a row is then the page-wide stand -
+/// and only that, because the page says so in exactly one place.
+fn global_date(doc: &Html) -> Option<String> {
+    let sel = Selector::parse("p.hmp-stand-global").ok()?;
+    let el = doc.select(&sel).next()?;
+    let text = el.text().collect::<String>();
+    let tail = text.split("aktualisiert am").nth(1)?.trim();
+    date_time(tail)
 }
 
 fn quote_price(raw: &str) -> Option<f64> {
@@ -714,7 +749,84 @@ mod tests {
             1
         );
     }
+    /// The price page since 02.11.2026: one page-wide stand above the
+    /// table, the rows carry only the price.
+    fn global_date_page() -> String {
+        "<h2>Auszahlung von Vergütungen</h2><h2>Preise Schrott &amp; Metalle</h2>\
+         <h3>Für Privatkunden</h3>\
+         <p class=\"hmp-stand-global\">Alle Preise aktualisiert am \
+         <strong>02.11.2026, 11:57 Uhr</strong></p>\
+         <table class=\"hmp-table\"><thead><tr><th>Sorte</th><th>Preis pro t</th></tr></thead>\
+         <tbody><tr><td>Altblech</td><td class=\"hmp-preis\"> 35 €/t </td></tr>\
+         <tr><td>Mischschrott schwer</td><td class=\"hmp-preis\"> 135 €/t </td></tr>\
+         <tr><td>Blei alt</td><td class=\"hmp-anfrage\"> auf Anfrage </td></tr></tbody></table>"
+            .to_owned()
+    }
+
     #[test]
+    fn global_date_tritt_an_die_stelle_der_zeilendaten() {
+        let out = parse(&global_date_page()).unwrap();
+        assert_eq!(out.prices.len(), 2);
+        // The page-wide stand is the date of every row.
+        assert_eq!(
+            out.published_at.as_deref(),
+            Some("2026-11-02T00:00:00+00:00")
+        );
+        assert_eq!(
+            out.prices
+                .iter()
+                .find(|p| p.material == "stahlschrott-shredder")
+                .unwrap()
+                .price,
+            35.0
+        );
+        // "auf Anfrage" stays a loud skip, not a price.
+        assert_eq!(out.skipped_labels.len(), 1);
+        assert!(out.skipped_labels[0].contains("auf Anfrage"));
+    }
+
+    #[test]
+    fn ohne_jedes_datum_bleibt_es_ein_fehler() {
+        let ohne = global_date_page().replace(
+            "<p class=\"hmp-stand-global\">Alle Preise aktualisiert am \
+             <strong>02.11.2026, 11:57 Uhr</strong></p>",
+            "",
+        );
+        let err = parse(&ohne).expect_err("no date at all");
+        assert!(format!("{err:?}").contains("missing date"));
+    }
+
+    /// The live price page of 02.11.2026 (the layout with one page-wide
+    /// stand and rows without a date).
+    const LIVE_20261102: &str = include_str!("fixtures/hofmann_rastatt_20261102.html");
+
+    #[test]
+    fn die_live_seite_vom_02_11_2026_wird_geparst() {
+        let out = parse(LIVE_20261102).unwrap();
+        assert!(out.prices.len() >= 20, "{} prices", out.prices.len());
+        assert_eq!(
+            out.published_at.as_deref(),
+            Some("2026-11-02T00:00:00+00:00")
+        );
+        assert!(out.prices.iter().all(|p| p.unit == "EUR/t"));
+        assert_eq!(
+            out.prices
+                .iter()
+                .find(|p| p.material == "stahlschrott-shredder")
+                .unwrap()
+                .price,
+            35.0
+        );
+        assert_eq!(
+            out.prices
+                .iter()
+                .find(|p| p.material == "blei" && p.variant == "alt")
+                .unwrap()
+                .price,
+            850.0
+        );
+    }
+
     fn complete_live_table_preserves_grades_units_and_date() {
         let out = parse(FIXTURE).unwrap();
         assert_eq!(out.prices.len(), 23);
