@@ -16,7 +16,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
-certifications: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG und AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für Schrott Florian oder den Standort Heumannstraße 1, 96050 Bamberg (Abruf 09.11.2026; Namenssuche mit 0 Treffern in beiden Routen, Ortsabfrage mit 10 km mit 39 Efb-Treffern ohne Treffer auf dem Dossiernamen; die Anerkennung ist freiwillig, ein Register-Nichteintrag ist kein Negativbeweis)"]'
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -117,3 +117,9 @@ Verzeichnis-Kandidat „Schrott Florian“: Gelbe Seiten und Das Örtliche nenne
   https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott%20Florian
   (live abgerufen 05.11.2026).]
+
+### Recherche 09.11.2026
+
+- [Recherche 09.11.2026: **Die amtliche Registerabfrage bestätigt den Negativbefund für „Schrott Florian“ in Bamberg und schließt den Umfeldbefund ab; die Beleglage bleibt reine Verzeichnisangabe.** Live-Abfrage am 09.11.2026 (clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): die Route „Entsorgungsfachbetriebe“ liefert unter `Schrott Florian` **0 Treffer**, die Route „Altfahrzeugverwertung“ ebenfalls **0 Treffer**; die Radiusabfrage mit 10 km um die Lead-Adresse Heumannstraße 1, 96050 Bamberg liefert **39 Efb-Treffer** (u. a. Heinrich Fischer & Söhne Brennstoffe GmbH, Memmelsdorfer Straße 59, 1,2 km; Paulus GmbH, Gundelsheimer Str. 9a, 1,6 km; Bamberg Service, Margaretendamm 40, 1,7 km; Rudolf Fritsche GmbH Betriebsstätte Bamberg, Hafenstraße 8, 2,0 km; AGB Dienstleistungs-GmbH, Gutenbergstraße 4, 2,1 km; REMONDIS GmbH & Co. KG NL Bamberg, Mainstraße 3, 2,8 km; Riwald Recycling Franken GmbH, Rheinstraße 19, 3,5 km) und **keinen** Treffer auf „Schrott Florian“ und **keinen** auf Heumannstraße 1. Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt. Die Verzeichniseinträge wurden erneut live geprüft: Gelbe Seiten und Das Örtliche führen unverändert „Schrott Florian“, Heumannstr. 1, 96050 Bamberg, 0951 30 94 51 95, das Telefonbuch listet den Namen unter „Florian Schrott“ mit derselben Adresse und Telefonnummer, und **keine** Bewertung („Noch keine Rezensionen“) - es gibt damit weiterhin keinen Betreiberauftritt, keinen Registereintrag und keine belastbare zweite Quelle; „Florian“ bleibt als Inhabername ungeklärt. Die am 05.11.2026 dokumentierte OSM-Prüfung bleibt gültig: das einzige Objekt an der Lead-Adresse ist ein Wohngebäude (`building=apartments`, way/36218940) ohne Betriebsbezug, und `clear_fields: 'geo,phone'` bleibt deshalb unverändert, `status` bleibt `pruefung`, keine Koordinate wird gesetzt und keine Schließung behauptet. **Preise getrennt geführt:** **Ankauf** ohne bestätigte Bedingungen und ohne Kurs, **Verkauf** ohne Preisliste, **Gebühren** ohne Tarif; für keinen der geprüften Fundstellen lässt sich ein Betrag diesem Betrieb zuordnen.
+  Das Feld `certifications` ist mit dem Negativbefund und seinem Suchumfang neu gesetzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott%20Florian ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrott%20Florian ; https://www.gelbeseiten.de/gsbiz/aa2e23f3-e1e1-4579-a2e7-84f566a7dafe ; https://www.dasoertliche.de/Themen/Schrott-Florian-Bamberg-Heumannstr (Abruf 09.11.2026).]

@@ -16,6 +16,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG und AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für Pfeifer Rainer Schrotthandel, Rainer Pfeifer oder den Standort Brunnfloßgasse 12, 97078 Würzburg (Abruf 09.11.2026; Namenssuche Pfeifer mit 0 Treffern in beiden Routen, Ortsabfrage mit 3 km mit 3 Efb-Treffern ohne Pfeifer-Treffer; die Anerkennung ist freiwillig, ein Register-Nichteintrag ist kein Negativbeweis)"]'
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -54,3 +55,9 @@ Ankauf/Verkauf/Gebühren: keine primär belegte Zahlenliste. Von Verzeichnis-Öf
 - Schrott — gleicher Ort wie J. Pfeifer (Seed) — Familienbetrieb?
 - urspr. Website-Angabe: keine
 - Adresse: Würzburg-Versbach 97078
+
+### Recherche 09.11.2026
+
+- [Recherche 09.11.2026: **Für „Pfeifer Rainer Schrotthandel“ in Würzburg-Versbach liefert das amtliche Fachbetrieberegister keinen Treffer, und die Namensvetter Christian und Jürgen Pfeifer werden durch die Registerlage nicht aufgelöst.** Live-Abfrage am 09.11.2026 (clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): die Route „Entsorgungsfachbetriebe“ liefert unter `Pfeifer` **0 Treffer**, die Route „Altfahrzeugverwertung“ ebenfalls **0 Treffer**; die Radiusabfrage mit 3 km um die Lead-Adresse Brunnfloßgasse 12, 97078 Würzburg liefert **3 Efb-Treffer** und **0 AfV-Treffer** (Stadt Würzburg - Die Stadtreinige, Äußere Aumühlstraße 5, 2,6 km; GFR Gesellschaft für die Aufbereitung und Verwertung von Reststoffen mbH, Schweinfurter Straße 6, 2,8 km; SGL - Schienen Güter Logistik GmbH, Füchsleinstr. 4, 2,9 km) - **kein** Treffer auf „Pfeifer“ und **keiner** auf der Lead-Adresse. Die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt. Die Beleglage bleibt damit unverändert: Brunnfloßgasse 12, 0931 22357 stammen aus dem Gelbe-Seiten-Portal, 11880 nennt zusätzlich 0171 4457209, 0931 28788082 und rainer.schrotthandel@gmail.com; diese Aggregatorangaben sind **keine** Betreiberquelle, das Impressum von J. Pfeifer (Lengfelder Str. 38, Inhaber Jürgen Pfeifer) ist ein **anderer** Betrieb, und die kommunale Gewerbeauskunft der Stadt Würzburg wurde noch nicht ausgewertet. `street`, `postcode` und `phone` bleiben unverändert, `clear_fields: 'phone'` bleibt bestehen, `website` und `opening_hours` bleiben leer, `status` bleibt `pruefung`, keine Koordinate wird gesetzt und keine Schließung behauptet. **Preise getrennt geführt:** **Ankauf** ohne primär belegte Zahlenliste, **Verkauf** ohne Teilepreise, **Gebühren** ohne Tarif; Verzeichnis-Öffnungszeiten werden **nicht** als Annahmezeiten abgeleitet.
+  Das Feld `certifications` ist mit dem Negativbefund und seinem Suchumfang neu gesetzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Pfeifer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Pfeifer ; https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c ; https://www.11880.com/branchenbuch/wuerzburg/012010409B28972471/rainer-pfeifer-schrotthandel.html (Abruf 09.11.2026).]
