@@ -6,6 +6,8 @@ state: BB
 city: Frankfurt
 street: Mittelweg 32
 postcode: '15234'
+lat: 52.3639226
+lon: 14.5450876
 phone: 0335 684330
 email: dispo.frankfurt-oder@veolia.com
 opening_hours: Mo-Fr 7-16 Uhr
@@ -47,3 +49,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 06.11.2026 (Zertifikatstiefe)
 
 - [Korrektur 06.11.2026 (Zertifikatstiefe): **Im Feld `certifications` fehlten die im Zertifikats-PDF angekreuzten Tätigkeiten.** Vorgangsnummer ZZBE002000088020: Anlage 28: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten, Beseitigen fehlten im Eintrag; Anlage 29: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten, Beseitigen fehlten im Eintrag. Die Ankreuzfelder 2.1 bis 2.8 wurden mit `scripts/release/pdf_checkboxes.py` am Contentstream des amtlichen Zertifikats-PDF gelesen - nur was dort angekreuzt ist, ist zertifiziert. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&p=ZZBE002000088020&fd=1]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.3639226/14.5450876**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Veolia Umweltservice Nord-Ost GmbH“ ist über die Adresse **Mittelweg 32, 15234 Frankfurt** adressiert; das OSM-Adressobjekt **w/128181784** trägt `addr:housenumber`=32, `addr:street`=Mittelweg, `addr:postcode`=15234, `addr:city`=Frankfurt (Oder); das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Mittelweg 32, 15234 Frankfurt“ liefert unter den 1 Treffern dasselbe Objekt **w/128181784**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Mittelweg+32%2C+15234+Frankfurt ; https://api.openstreetmap.org/api/0.6/way/128181784.json (Abruf 08.11.2026).]

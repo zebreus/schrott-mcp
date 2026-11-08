@@ -6,6 +6,8 @@ state: BB
 city: Lichtenow
 street: Chausseestr. 22A
 postcode: ''
+lat: 52.4802478
+lon: 13.9068491
 phone: ''
 email: ''
 opening_hours: ''
@@ -66,3 +68,8 @@ Gewerbeauskunft der Gemeinde zu Name, Gewerbestand und Tätigkeit.
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: miss bestaetigt - Domain schrottlieb.de TOT (curl 000, 02.10.2026), Das Oertliche 0 Treffer Schrottlieb/Lichtenow UND Schrott/Lichtenow (naechster Treffer Letschin); keine Fills, status pruefung; Quelle(n): curl-Statuscheck schrottlieb.de + Das-Oertliche-Negativsuche 02.10.2026]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.4802478/13.9068491**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Schrottlieb“ ist über die Adresse **Chausseestr. 22A, Lichtenow** adressiert; das OSM-Adressobjekt **n/8058385583** trägt `addr:housenumber`=22a, `addr:street`=Chausseestraße, `addr:postcode`=15345, `addr:city`=Rüdersdorf bei Berlin; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist die Knotenkoordinate; die Nominatim-Vorwärtssuche nach „Chausseestr. 22A,  Lichtenow“ liefert unter den 1 Treffern dasselbe Objekt **n/8058385583**; die OSM-Adresse führt `addr:city`=Rüdersdorf bei Berlin und `addr:postcode`=15345 - Lichtenow ist ein Ortsteil von Rüdersdorf bei Berlin, das Frontmatter führt den Ortsteil, aber keine Postleitzahl.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Chausseestr.+22A%2C++Lichtenow ; https://api.openstreetmap.org/api/0.6/node/8058385583.json (Abruf 08.11.2026).]

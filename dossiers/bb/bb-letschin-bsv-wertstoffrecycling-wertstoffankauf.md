@@ -6,6 +6,8 @@ state: BB
 city: Letschin
 street: Voßberger Chaussee 7
 postcode: '15324'
+lat: 52.6318331
+lon: 14.3946470
 phone: 033475 57872
 email: info@wertstoff-dealer.de
 opening_hours: Mo-Fr 07:00-09:00, 09:30-12:00, 12:30-16:00
@@ -48,3 +50,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   WEITERE PRÜFUNG: Die Preispfade der Domain sind nicht existent — „/preise", „/ankaufpreise", „/sorten", „/downloads", „/schrottpreise", „/metallpreise", „/angebote" je HTTP 404 (2.182 Bytes). Das Sitemap https://www.wertstoff-dealer.de/sitemap.xml (HTTP 200, 4.392 Bytes) listet 14 URLs, alle einzeln abgerufen und HTTP 200. Das verlinkte AGB-PDF https://www.wertstoff-dealer.de/upload/agb-brandenburger-schrott-verwertung-gmbh-21-06-23.pdf (HTTP 200, 15.120.237 Bytes) ist ein Scan ohne Textebene (pdftotext liefert 0 Zeichen) und damit keine Preisquelle. Impressum, Kontakt, Über-uns und Zertifikate (je HTTP 200) enthalten null Euro-Zeichen und keine Preiszeile.
   OFFENE PUNKTE: (1) Der gültige Altpapierwert für Letschin ist zwischen 8 Cent (Standortseite) und 7 Cent (Startseiten-Reiter) nicht auflösbar; eine Auflösung erfordert eine Rückfrage beim Betreiber (Tel. 033475 57872). (2) Ob „Cent pro Kilo" brutto oder netto ist, ist nicht ausgewiesen. (3) Die Preise sind undatiert, ihre Aktualität zum Abrufzeitpunkt (01.11.2026, 07:20 UTC) ist nicht belegbar. (4) Die AGB nennen „Nettopreise frei verladen" — ein anderer Bezugsrahmen als die Cent-pro-Kilo-Tabelle; die Beziehung zwischen beiden ist ungeklärt. (5) Das Dossier nennt als trader_type 'schrottplatz'; ob der Standort zusätzlich zum Schrottplatz führt, ist aus der Preisquelle nicht ableitbar (unverändert übernommen).
   Quelle(n): https://www.wertstoff-dealer.de/wertstoffhoefe/letschin ; https://www.wertstoff-dealer.de/ ; https://www.wertstoff-dealer.de/wertstoffankauf ; https://www.wertstoff-dealer.de/agb ; https://www.wertstoff-dealer.de/sitemap.xml (Live-Abruf 01.11.2026, 07:15-07:20 UTC)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.6318331/14.3946470**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „BSV Wertstoffrecycling & Wertstoffankauf“ ist über die Adresse **Voßberger Chaussee 7, 15324 Letschin** adressiert; das OSM-Adressobjekt **w/325072055** trägt `addr:housenumber`=7, `addr:street`=Voßberger Chaussee, `addr:postcode`=15324, `addr:city`=Letschin; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 8 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Voßberger Chaussee 7, 15324 Letschin“ liefert unter den 1 Treffern dasselbe Objekt **w/325072055**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Vo%C3%9Fberger+Chaussee+7%2C+15324+Letschin ; https://api.openstreetmap.org/api/0.6/way/325072055.json (Abruf 08.11.2026).]

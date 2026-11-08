@@ -6,6 +6,8 @@ state: BB
 city: Lübben
 street: Mühlbergweg 10
 postcode: '15907'
+lat: 51.9039934
+lon: 13.8508515
 phone: '+49 3546 219 98 81'
 email: info@smr-luebben.de
 opening_hours: 'Mo–Mi 08:00–12:00, 12:30–16:00; Do 10:00–12:00, 12:30–18:00; Fr 08:00–12:00, 12:30–16:00; Sa 09:00–13:00 (nur gerade Wochen); So geschlossen'
@@ -49,3 +51,8 @@ importierte Vorname Steffen ist nicht belegt; das Dossier führt keine Koordinat
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Betreiber-Impressum, Standort- und Betriebszeiten-Seiten bestätigen die Anschrift Mühlbergweg 10, 15907 Lübben-Neuendorf, Telefonnummer, E-Mail, Öffnungszeiten und die genannten Leistungen; die Betreiber-News belegt den Wechsel SH Schrotthandel → SMR GmbH sowie den Betrieb des neuen Platzes seit Juni 2024. Als unabhängiger Gegencheck führt die Stadt Hoyerswerda SMR als Hidanovic-Familienbetrieb in Lübben; NorthData zeigt einen HRB-17372-Datensatz mit übereinstimmendem Firmennamen, Ort, Anschrift, Geschäftsführer Seki Hidanovic und einschlägigem Unternehmensgegenstand. Einschränkung: NorthData ist eine Registerdaten-Aufbereitung, kein direkter Registerauszug; das Betreiber-Impressum nennt abweichend HRB 15078, und der direkte Handelsregisterabruf ließ sich nicht abschließend verifizieren. Die aktuellen, konkreten Betriebsangaben stammen aber unmittelbar vom Betreiber und sind durch die unabhängige Orts-/Firmenzuordnung hinreichend gestützt. Die bislang leeren Felder Straße, Postleitzahl, Telefon, E-Mail, Öffnungszeiten und Beschreibung wurden ergänzt; strukturierte Annahme-/Abholfelder bleiben leer, da hierfür kein passender Feldbeleg bzw. kein Schema vorliegt. Da die Anschrift neu eingetragen wurde, muss Geocoding automatisch neu laufen; Quelle(n): https://smr-luebben.de/; https://smr-luebben.de/impressum/; https://smr-luebben.de/standort/; https://smr-luebben.de/betriebszeiten/; https://smr-luebben.de/news/; https://smr-luebben.de/team/; https://smr-luebben.de/leistungen/; https://smr-luebben.de/lageplan/; https://smr-luebben.de/kontakt/; https://www.hoyerswerda.de/2026/06/15/neues-recyclingunternehmen-im-gewerbegebiet-nardt-eroeffnet/; https://www.northdata.de/SMR%20GmbH,%20L%C3%BCbben%20(Spreewald)/Amtsgericht%20Cottbus%20HRB%2017372; https://www.handelsregister.de/rp_web/welcome.xhtml.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.9039934/13.8508515**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „SMR GmbH“ ist über die Adresse **Mühlbergweg 10, 15907 Lübben** adressiert; das OSM-Objekt **w/1123699821** trägt `addr:housenumber`=10, `addr:street`=Mühlbergweg, `addr:postcode`=15907, `addr:city`=Lübben (Spreewald); das Objekt trägt `name`=Spreewälder Metall Recycling SMR und `operator`=Seki Hidanovic - das `operator`-Tag nennt den Dossierbetrieb „Schrotthandel Steffen Hidanovic SH“ an derselben Anschrift wie „SMR GmbH“, die Koordinate ist der **Betriebspunkt**; daneben liegt das reine Adressobjekt **n/14013800331** mit derselben Hausnummer ohne Betriebsbezug; der Punkt ist der Mittelwert der 12 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Mühlbergweg 10, 15907 Lübben“ liefert unter den 2 Treffern dasselbe Objekt **w/1123699821**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=M%C3%BChlbergweg+10%2C+15907+L%C3%BCbben ; https://api.openstreetmap.org/api/0.6/way/1123699821.json (Abruf 08.11.2026).]

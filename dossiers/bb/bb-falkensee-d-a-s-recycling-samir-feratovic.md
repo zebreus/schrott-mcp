@@ -6,6 +6,8 @@ state: BB
 city: Falkensee
 street: Nauener Str. 113 A
 postcode: '14612'
+lat: 52.5866472
+lon: 13.0656600
 phone: 0152 31759638
 email: sfsamir@yahoo.de
 opening_hours: Mo-Sa 10:00-16:00, So geschlossen
@@ -48,3 +50,8 @@ Die genaue Artikelseite ist jetzt wiedergefunden und gelesen: ausdrücklich **AN
 
 - Schrott-/Metallankauf
 - Adressbeleg: unserhavelland.de (3/2023)
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.5866472/13.0656600**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „D.A.S. Recycling (Samir Feratovic)“ ist über die Adresse **Nauener Str. 113 A, 14612 Falkensee** adressiert; das OSM-Adressobjekt **w/550405377** trägt `addr:housenumber`=113a, `addr:street`=Nauener Straße, `addr:postcode`=14612, `addr:city`=Falkensee; das Adressobjekt trägt **weder `name=` noch `operator=`**; unmittelbar darin liegt das **Betriebsobjekt n/5316314644** mit `name`=D.A.S. Automobile (`shop`=car) - die Dossier-Betreiberseite führt den Schrottplatz ausdrücklich als Erweiterung des Autohandels desselben Inhabers Samir Feratovic, und die gegenüberliegende Tankstelle **n/302843292** (TotalEnergies, Nauener Straße 116) entspricht der Betreiberangabe „gegenüber der TOTAL Tankstelle“; die Koordinate ist der **Betriebspunkt** (Abstand rund 3 m); der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Nauener Str. 113 A, 14612 Falkensee“ liefert unter den 1 Treffern dasselbe Objekt **w/550405377**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Nauener+Str.+113+A%2C+14612+Falkensee ; https://api.openstreetmap.org/api/0.6/node/5316314644.json ; https://api.openstreetmap.org/api/0.6/way/550405377.json (Abruf 08.11.2026).]

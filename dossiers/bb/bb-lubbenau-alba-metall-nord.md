@@ -6,6 +6,8 @@ state: BB
 city: Lübbenau
 street: Nordstraße 4
 postcode: '03222'
+lat: 51.7879988
+lon: 14.0711180
 phone: +49 3542 2567
 email: luebbenau.metall@alba.info
 opening_hours: Mo–Fr 7:00–9:00 Uhr, 9:30–12:00 Uhr, 12:30–16:00 Uhr
@@ -60,3 +62,8 @@ Ankaufpreis. Offen bleibt damit die Preislage des Standorts.
 - [Recherche 01.11.2026: **ALBAclick-Shop geprueft — Containerpreise, kein Ankaufpreis (Bezug: bb-lubbenau-alba-metall-nord, Standort Lübbenau).** `https://shop.albaclick.de/` (eigene IP, **nicht** von der 429-Sperre betroffen, HTTP 200, Abruf 01.11.2026 11:44 UTC) fuehrt im Seitentitel „Container online bestellen ab 119€“ — das ist ein **Container-Dienstleistungspreis (Gebuehr)** fuer die Abfallentsorgung, **kein** Ankaufpreis fuer Schrott; die uebrigen Abfallarten (Mischabfall, Pappe, Bioabfall, Glas, Bauschutt, Sperrmuell, Holz, Gruenschnitt, Erdaushub, Elektrogeraete) werden ohne Preis gelistet, die Preise werden clientseitig ueber `api.albaclick.de` geladen; `/schrott` liefert „Nicht gefunden“. `https://www.myALBA.de/` laeuft in dieselbe 429-Sperre. **Befund fuer `bb-lubbenau-alba-metall-nord`: kein Ankaufpreis.**]
 
 - [Recherche 01.11.2026: **Preisarten strikt getrennt fuer `bb-lubbenau-alba-metall-nord` (Standort Lübbenau, Nordstraße 4, 03222 Lübbenau).** **Ankaufpreis:** nicht veroeffentlicht — kein Zahlenwert, keine Einheit, kein Datum; die Betreiber-Angabe zum Standort Lübbenau bewirbt den Ankauf ausschliesslich qualitativ. **Verkauf:** nicht veroeffentlicht — die Sorten- und Produktpalette der ALBA-Gruppe ist fuer Lübbenau ohne Preis. **Gebuehren / Annahmegebuehren:** nicht veroeffentlicht — die Container- und Behaelterangaben zu Lübbenau sind **Volumen** (m³), keine Gebuehrensaetze. **Markt-/Boersenkurs:** nicht veroeffentlicht — die ALBA-Seiten nennen fuer Lübbenau keinen eigenen Kurs und keine eigene Notierung. **Kommunale Gebuehr:** nicht einschlaegig bzw. nicht veroeffentlicht. **Nicht** belegt und **nicht** erfunden: ein absoluter Material-Ankaufpreis, eine Gebuehrentafel oder ein Kurs fuer `bb-lubbenau-alba-metall-nord`.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.7879988/14.0711180**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „ALBA Metall Nord GmbH“ ist über die Adresse **Nordstraße 4, 03222 Lübbenau** adressiert; das OSM-Adressobjekt **w/477328367** trägt `addr:housenumber`=4, `addr:street`=Nordstraße, `addr:postcode`=03226, `addr:city`=Vetschau/Spreewald; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Photon-Vorwärtssuche nach „Nordstraße 4, 03222 Lübbenau“ liefert unter den 13 Treffern dasselbe Objekt **w/477328367**; das OSM-Objekt ist abweichend mit `addr:postcode`=03226 und `addr:city`=Vetschau/Spreewald getaggt, obwohl die Nordstraße mit den Hausnummern 2 bis 45 geometrisch in Lübbenau liegt - die PLZ- und Ortsangaben des OSM-Objekts sind für diese Straße durchgängig falsch gesetzt.]
+  Quelle(n): https://photon.komoot.io/api/?q=Nordstra%C3%9Fe+4%2C+03222+L%C3%BCbbenau&limit=20&lang=de ; https://api.openstreetmap.org/api/0.6/way/477328367.json (Abruf 08.11.2026).]

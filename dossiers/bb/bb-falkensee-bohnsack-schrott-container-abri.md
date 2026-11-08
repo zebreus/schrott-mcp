@@ -6,6 +6,8 @@ state: BB
 city: Falkensee
 street: Nauener Str. 118
 postcode: '14612'
+lat: 52.5856508
+lon: 13.0639178
 phone: 03322 240220
 email: ''
 opening_hours: ''
@@ -54,3 +56,8 @@ NorthData führt die exakt benannte Bohnsack GmbH Schrott-Container-Abriß unter
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.5856508/13.0639178**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Bohnsack GmbH Schrott-Container-Abriß“ ist über die Adresse **Nauener Str. 118, 14612 Falkensee** adressiert; das OSM-Adressobjekt **w/285361228** trägt `addr:housenumber`=118, `addr:street`=Nauener Straße, `addr:postcode`=14612, `addr:city`=Falkensee; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 5 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Nauener Str. 118, 14612 Falkensee“ liefert unter den 1 Treffern dasselbe Objekt **w/285361228**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Nauener+Str.+118%2C+14612+Falkensee ; https://api.openstreetmap.org/api/0.6/way/285361228.json (Abruf 08.11.2026).]

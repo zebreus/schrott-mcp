@@ -6,6 +6,8 @@ state: BB
 city: Lauchhammer
 street: Dolsthaidaer Str. 45
 postcode: 01979
+lat: 51.4693927
+lon: 13.7510774
 phone: ''
 email: ''
 opening_hours: ''
@@ -51,3 +53,8 @@ Der Lauchhammer-Schrotthandel Timo Dymke e.K. ist durch einen Registerdatenbankt
 ### Recherche 01.10.2026
 
 - [Recherche bb-lauchhammer-dymke-timo: HR-Eintrag belegt Existenz: Schrotthandel Timo Dymke e.K., Inhaber Sascha Schwarzenberger, HRA 3929 CB AG Cottbus — ABER HR-Adresse Bockwitzer Straße 97, 01979 Lauchhammer weicht von Dossier-Straße Dolsthaidaer Str. 45 ab (Einzelbeleg HR, kein Zweitbeleg → KEINE Korrektur, City-Mismatch-Regel; street bleibt); keine Betreiber-Website, keine Verzeichnistreffer über Seed hinaus; status bleibt pruefung; Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/br/Cottbus/HRA/3929CB/Schrotthandel-Timo-Dymke-eK-Inhaber-Sascha-Schwarzenberger]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.4693927/13.7510774**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Dymke Timo e.K.“ ist über die Adresse **Dolsthaidaer Str. 45, 01979 Lauchhammer** adressiert; das OSM-Adressobjekt **w/659282776** trägt `addr:housenumber`=45, `addr:street`=Dolsthaidaer Straße, `addr:postcode`=01979, `addr:city`=Lauchhammer; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 6 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Dolsthaidaer Str. 45, 01979 Lauchhammer“ liefert unter den 1 Treffern dasselbe Objekt **w/659282776**; das Dossier nennt neben Dolsthaidaer Straße 45 eine zweite Straßenangabe; das OSM-Objekt trägt `addr:street`=Dolsthaidaer Straße und löst damit die Schreibweise der Dossier-Adresse auf.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Dolsthaidaer+Str.+45%2C+01979+Lauchhammer ; https://api.openstreetmap.org/api/0.6/way/659282776.json (Abruf 08.11.2026).]

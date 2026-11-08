@@ -6,6 +6,8 @@ state: BB
 city: Lauchhammer
 street: Bockwitzer Str. 97
 postcode: 01979
+lat: 51.4859757
+lon: 13.7486102
 phone: ''
 email: ''
 opening_hours: ''
@@ -53,3 +55,8 @@ Für „WSH Schrotthandel“ liegt ein konkreter lokaler Verzeichnislead vor: Da
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Klärfall BESTÄTIGT — Gelbe Seiten (Suche schrotthandel/lauchhammer direkt abgerufen) listet in Lauchhammer nur Wertstoffhandel Schwarzenberger (Finsterwalder Str. 45) und Dymke Timo Schrotthandel (Dolsthaidaer Str. 45), KEIN WSH; 11880-Umkreissuche ebenso ohne WSH-Treffer. Befund vom 01.10.2026 bleibt: NICHTS übernommen, status pruefung. Fix: website_status (leer/ungültig) → unbekannt (Enum-Validierung). Quelle(n): keine (Gegenbelege gelbeseiten.de, 11880.com).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.4859757/13.7486102**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „WSH Schrotthandel“ ist über die Adresse **Bockwitzer Str. 97, 01979 Lauchhammer** adressiert; das OSM-Adressobjekt **w/397282696** trägt `addr:housenumber`=97, `addr:street`=Bockwitzer Straße, `addr:postcode`=01979, `addr:city`=Lauchhammer; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 8 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Bockwitzer Str. 97, 01979 Lauchhammer“ liefert unter den 1 Treffern dasselbe Objekt **w/397282696**; die Dossiers `bb-lauchhammer-schwarzenberger-kerstin-wertstoffhandel` und `bb-lauchhammer-wsh-schrotthandel` teilen sich dieselbe Anschrift, jeder Dossierbetrieb ist für sich genommen nicht in OSM benannt.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Bockwitzer+Str.+97%2C+01979+Lauchhammer ; https://api.openstreetmap.org/api/0.6/way/397282696.json (Abruf 08.11.2026).]

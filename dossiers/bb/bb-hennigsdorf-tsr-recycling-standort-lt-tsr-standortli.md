@@ -6,6 +6,8 @@ state: BB
 city: Hennigsdorf
 street: August-Conrad-Str. 43
 postcode: '16761'
+lat: 52.6457026
+lon: 13.2159307
 phone: 03302 7912020
 email: ''
 opening_hours: ''
@@ -68,3 +70,8 @@ Ankauf-, Verkaufs- und Gebührenpreise werden nicht mit Zahlen veröffentlicht.
   **Abgrenzung der Preisarten fuer dieses Dossier:** **Ankaufpreis** — nicht veroeffentlicht, keine Zahl; **Verkauf** — nicht veroeffentlicht (die Recyclingprodukte TSR40/TSR130/TSR136 der Gruppe sind ohne Preis publiziert); **Gebuehre** — nur die bundesweit gleichen Weigerkosten (Stand 20.11.2020, Sortier- und Handlingspauschale 275,00 €), nicht standortspezifisch; **Markt-/Boersenkurs** — TSR nennt die London Metal Exchange nur historisch als eigene Handelsgrundlage, ohne eigene Notierung;
   **kommunale Gebuehre** — nicht einschlaegig, TSR ist ein privater Entsorgungsfachbetrieb. Quelle(n) fuer `bb-hennigsdorf-tsr-recycling-standort-lt-tsr-standortli`:
   `https://www.tsr-recycling.de/standorte/schrotthaendler-hennigsdorf/` (live, Abruf 01.11.2026 mit Browser-Headern); https://www.tsr-recycling.de/kunden/schrottlieferanten/ ; https://www.tsr-recycling.de/kunden/privatkunden/ ; https://www.tsr-recycling.de/sitemap.xml ; https://www.tsr-recycling.de/bibliothek/ ; https://www.tsr-recycling.de/fileadmin/user_upload/tsr-local-sites/downloads/TSR_RL_AB-We_02.01_Weigerkostenkatalog_Stand20201120__01.pdf ; https://www.tsr-recycling.de/uploads/tx_3sdownloadlibrary/TSR_Schrottsortenliste_A4_Final.pdf ; https://www.tsr-recycling.de/fileadmin/user_upload/tsr-local-sites/downloads/Allgemeine_Einkaufsbedingungen_TSR_Deutschland.pdf ; http://web.archive.org/cdx/search/cdx?url=tsr-recycling.de&matchType=domain]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.6457026/13.2159307**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „TSR Recycling GmbH & Co. KG, Niederlassung Hennigsdorf“ ist über die Adresse **August-Conrad-Str. 43, 16761 Hennigsdorf** adressiert; das OSM-Adressobjekt **w/458296476** trägt `addr:housenumber`=43, `addr:street`=August-Conrad-Straße, `addr:postcode`=16761, `addr:city`=Hennigsdorf; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „August-Conrad-Str. 43, 16761 Hennigsdorf“ liefert unter den 1 Treffern dasselbe Objekt **w/458296476**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=August-Conrad-Str.+43%2C+16761+Hennigsdorf ; https://api.openstreetmap.org/api/0.6/way/458296476.json (Abruf 08.11.2026).]

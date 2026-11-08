@@ -55,3 +55,8 @@ da die OSM-Abfrage an der Hausnummer einen fremden Gerüstbaubetrieb trifft.
 
 - Schrottankauf
 - Adressbeleg: schrottankauf-bitterfelderstr23.de
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Bitterfelder Str. 23, 12681 Berlin** ist in OSM durch das Objekt **n/7529532848** belegt (`addr:housenumber`=23, `addr:street`=Bitterfelder Straße, `addr:postcode`=12681, `addr:city`=Berlin); das Objekt trägt `name`=Neumann Gerüstbau und `craft`=scaffolder - das ist ein **anderer Betrieb** am Adresspunkt. Eine OSM-Betriebszuordnung zum Dossierbetrieb „Fa. Efrem Gouchev Schrottankauf“ existiert **nicht**, und der Dossier-Ortsname Altlandsberg widerspricht der OSM-Adresse Berlin. Nach der Hausregel wird deshalb **keine** Koordinate gesetzt; ein Ortsmittelpunkt wäre keine Geokodierung. Die Nominatim-Vorwärtssuche nach „Bitterfelder Straße 23, 12681 Berlin“ liefert genau dieses Fremdobjekt **n/7529532848** („Neumann Gerüstbau“) - also den fremden Betrieb, nicht den Dossierbetrieb; dieselbe Suche mit dem Dossier-Ortsnamen Altlandsberg liefert keinen Treffer.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Bitterfelder+Stra%C3%9Fe+23%2C+12681+Berlin ; https://api.openstreetmap.org/api/0.6/node/7529532848.json (Abruf 08.11.2026).]

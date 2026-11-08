@@ -6,6 +6,8 @@ state: BB
 city: Kloster Lehnin OT Reckahn
 street: Meßdunker Straße 2
 postcode: '14797'
+lat: 52.3340851
+lon: 12.5454793
 phone: 033835 606235
 email: reckahn@mcschrott.de
 opening_hours: Mo-Fr 8:00-16:00
@@ -40,3 +42,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Standortseite mcschrott.de/kloster-lehnin-reckahn verifiziert: Meßdunker Str. 2, 14797 Kloster Lehnin OT Reckahn und Tel. 033835 606235 deckungsgleich; E-Mail reckahn@mcschrott.de und Zeiten Mo-Fr 8:00-16:00 (letzte Annahme 15:45, Sa/So/Feiertag geschlossen) gefüllt, Website auf Domain-Root normiert; Quelle(n): https://www.mcschrott.de/standorte/ + https://www.mcschrott.de/standorte/kloster-lehnin-reckahn/]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.3340851/12.5454793**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „MC Schrott (Annahmestelle)“ ist über die Adresse **Meßdunker Straße 2, 14797 Kloster Lehnin OT Reckahn** adressiert; das OSM-Adressobjekt **w/850460995** trägt `addr:housenumber`=2, `addr:street`=Meßdunker Straße, `addr:postcode`=14797, `addr:city`=Kloster Lehnin; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 11 eindeutigen Way-Knoten; die Photon-Vorwärtssuche nach „Meßdunker Straße 2, 14797 Kloster Lehnin OT Reckahn“ liefert unter den 5 Treffern dasselbe Objekt **w/850460995**.]
+  Quelle(n): https://photon.komoot.io/api/?q=Me%C3%9Fdunker+Stra%C3%9Fe+2%2C+14797+Kloster+Lehnin+OT+Reckahn&limit=20&lang=de ; https://api.openstreetmap.org/api/0.6/way/850460995.json (Abruf 08.11.2026).]

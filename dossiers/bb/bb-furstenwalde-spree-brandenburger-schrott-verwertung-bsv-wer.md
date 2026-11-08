@@ -6,6 +6,8 @@ state: BB
 city: Fürstenwalde/Spree
 street: Juri-Gagarin-Str. 33
 postcode: '15517'
+lat: 52.3794152
+lon: 14.0819430
 phone: 03361 375560
 email: info@wertstoff-dealer.de
 opening_hours: Mo-Fr 07:00-09:00, 09:30-12:00, 12:30-17:00
@@ -49,3 +51,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   WEITERE PRÜFUNG: Die Preispfade der Domain sind sämtlich nicht existent — „/preise", „/ankaufpreise", „/sorten", „/downloads", „/schrottpreise", „/metallpreise", „/angebote" je HTTP 404 (2.182 Bytes). Das Sitemap https://www.wertstoff-dealer.de/sitemap.xml (HTTP 200, 4.392 Bytes) listet 14 URLs, alle einzeln abgerufen und HTTP 200; das verlinkte AGB-PDF https://www.wertstoff-dealer.de/upload/agb-brandenburger-schrott-verwertung-gmbh-21-06-23.pdf (HTTP 200, 15.120.237 Bytes) ist ein Scan ohne Textebene (pdftotext liefert 0 Zeichen), also inhaltlich keine Preisquelle. Impressum, Kontakt, Über-uns und Zertifikate (je HTTP 200) enthalten null Euro-Zeichen und keine Preiszeile.
   OFFENE PUNKTE: (1) Welcher Altpapierwert für Fürstenwalde gilt — 7 Cent (Startseiten-Reiter und Fürstenwalder Unterseite) oder 8 Cent (Letschin/Beeskow-Unterseiten); die Domain führt zwei Werte parallel, eine Auflösung ist nicht möglich. (2) Ob „Cent pro Kilo" brutto oder netto ist, ist nicht ausgewiesen. (3) Ob die Preise zum Abrufzeitpunkt (01.11.2026, 07:20 UTC) aktuell sind, ist ohne Gültigkeitsdatum nicht belegbar. (4) Die AGB nennen „Nettopreise frei verladen", was einen anderen Bezugsrahmen als die Cent-pro-Kilo-Tabelle nahelegt — die Beziehung zwischen beiden ist ungeklärt.
   Quelle(n): https://www.wertstoff-dealer.de/wertstoffhoefe/fuerstenwalde ; https://www.wertstoff-dealer.de/ ; https://www.wertstoff-dealer.de/wertstoffankauf ; https://www.wertstoff-dealer.de/agb ; https://www.wertstoff-dealer.de/sitemap.xml (Live-Abruf 01.11.2026, 07:15-07:20 UTC)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.3794152/14.0819430**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „Brandenburger Schrott-Verwertung GmbH (BSV Wertstoff-Dealer)“ ist über die Adresse **Juri-Gagarin-Str. 33, 15517 Fürstenwalde/Spree** adressiert; das OSM-Objekt **w/179172274** trägt `addr:housenumber`=33, `addr:street`=Juri-Gagarin-Straße, `addr:postcode`=15517, `addr:city`=Fürstenwalde/Spree; das Objekt trägt `name`=Brandenburger Schrott Verwertung GmbH (`amenity`=recycling) - das ist der Dossierbetrieb, die Koordinate ist der **Betriebspunkt**; daneben liegt das reine Gebäudemuster **w/179172259** mit derselben Hausnummer ohne Betriebsbezug; der Punkt ist der Mittelwert der 25 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Juri-Gagarin-Str. 33, 15517 Fürstenwalde/Spree“ liefert unter den 2 Treffern dasselbe Objekt **w/179172274**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Juri-Gagarin-Str.+33%2C+15517+F%C3%BCrstenwalde%2FSpree ; https://api.openstreetmap.org/api/0.6/way/179172274.json (Abruf 08.11.2026).]
