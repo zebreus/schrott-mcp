@@ -1,14 +1,19 @@
 # Auftrag: die veralteten Current-Preise (22 Händler, 225 Preispaare)
 
-## Stand (07.11.2026, 13:30 UTC)
+## Stand (08.11.2026, 11:45 UTC)
 
 | Teil | Stand |
 |---|---|
-| **11 Händler** ✓ (161 Paare ✓) | **erledigt** ✓ — die Evidenz steht in den Dossiers ✓ (`### Korrektur 07.11.2026 (Preispflege)` ✓ ✓) ✓ |
-| davon **Rückzug** ✓ | 158 Paare ✓ — die Sorte fehlt auf der Seite ✓, wird unter anderem Schlüssel geführt ✓ oder steht dort ohne Preis ✓ ✓ |
+| **erste Hälfte: 11 Händler** ✓ (164 Paare ✓) | **erledigt** ✓ — die Evidenz steht in den Dossiers ✓ (`### Korrektur 07.11.2026 (Preispflege)` ✓ ✓) ✓ |
+| davon **Rückzug** ✓ | 161 Paare ✓ — die Sorte fehlt auf der Seite ✓, wird unter anderem Schlüssel geführt ✓ oder steht dort ohne Preis ✓ ✓ (davon 3 Paare ✓ beim `delmenhorst-vedder-stockrahm` ✓ — der Händler stand in **beiden** Hälften ✓ ✓, die Abschnitte wurden beim Merge zusammengeführt ✓ ✓) ✓ |
 | davon **kein Fall** ✓ | 3 Paare ✓ (`hartmetall` ✓ beim NEUWERT-Feed ✓) — die Sorte **wird** angeboten ✓ ✓, der Handler übersprang sie nur wegen der Schreibweise ✓ ✓ → **Mapping-Befund** ✓, im Handler behoben ✓ ✓ (`neuwert.rs` ✓ ✓) ✓ |
-| **11 Händler** ✓ (98 Paare ✓) | **läuft** ✓ — die Evidenz wird gesammelt ✓ ✓ |
-| **Migration** ✓ | geschrieben ✓ (`Migration 11` ✓ im Store ✓ ✓) mit der **Liste** ✓ `crates/store/src/public/stale_current_prices.tsv` ✓ ✓; **fail-closed** ✓ (nur bei genau der geprüften Population ✓ ✓) ✓; Probe gegen eine **Kopie** ✓ der Produktionsdatenbank ✓: `current_prices` 2938 → 2777 ✓ (genau 161 zurückgezogen ✓ ✓), die **Historie unverändert** ✓ (45945 Zeilen ✓ ✓) ✓ |
+| **zweite Hälfte: 11 Händler** ✓ (63 Paare ✓) | **erledigt** ✓ — die Evidenz steht in den Dossiers ✓ ✓ (derselbe Abschnittsname ✓ ✓) ✓ |
+| davon **Rückzug** ✓ | 23 Paare ✓ — die Sorte fehlt auf der Seite ✓, wird unter anderem Schlüssel geführt ✓ oder steht dort ohne Preis ✓ ✓ |
+| davon **Handler läuft nicht** ✓ | 40 Paare ✓ (`wahl-co` ✓ — die Preistabelle der Seite ist älter als 24 Stunden ✓ ✓, der Handler verweigert die Annahme ✓ ✓) → **korrekte Ablehnung** ✓ ✓, **kein** Rückzug ✓ ✓ |
+| **Migration** ✓ | geschrieben ✓ (`Migration 11` ✓ im Store ✓ ✓) mit der **Liste** ✓ `crates/store/src/public/stale_current_prices.tsv` ✓ ✓ (**181 Paare** ✓ ✓ = 161 + 23 − 3 doppelte ✓ ✓, 20 Händler ✓ ✓); **fail-closed** ✓ (nur bei genau der geprüften Population ✓ ✓) ✓; Probe gegen eine **Kopie** ✓ der Produktionsdatenbank ✓: `current_prices` 2938 → 2757 ✓ (genau 181 zurückgezogen ✓ ✓), die **Historie unverändert** ✓ (46099 Zeilen ✓ ✓), `user_version` 11 ✓ ✓ |
+
+Die Probe ist **wiederholbar** ✓ ✓ (`crates/store/tests/migration_rehearsal.rs` ✓ ✓ — ohne
+`SCHROTT_REHEARSAL_DIR` ✓ tut der Test nichts ✓ ✓, die Produktion bleibt unberührt ✓ ✓).
 
 **Die Liste ist der Beleg** ✓ ✓: jedes Paar wurde an der **Live-Seite** ✓ des Handlers geprüft ✓ (Filter ✓, Abrufdatum ✓ ✓) und im Dossier **wörtlich** zitiert ✓ ✓ ✓.
 
