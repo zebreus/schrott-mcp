@@ -4,10 +4,10 @@
 Nur lokale Dateibearbeitung im Arbeitsbaum, keine Datenbank- oder
 Produktionsaenderung. Format:
 
-    ### Recherche 09.11.2026
+    ### Recherche 08.11.2026
 
-    - [Recherche 09.11.2026: ...]
-      Quelle(n): ... (Abruf 09.11.2026).]
+    - [Recherche 08.11.2026: ...]
+      Quelle(n): ... (Abruf 08.11.2026).]
 
 Aufruf:
     python3 tools/append_note.py <slug> <date> <notiz-datei>

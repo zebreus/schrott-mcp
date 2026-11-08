@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only OSM-Objektabfragen fuer Dossier-Adressen (Shard S2, Welle 09.11.2026).
+"""Read-only OSM-Objektabfragen fuer Dossier-Adressen (Shard S2, Welle 09.11.2026, Slot 00:00 (Recherchetag 08.11.2026)).
 
 Nur Leseabfragen gegen die OSM-API. Es werden keine Koordinaten geraten.
 """

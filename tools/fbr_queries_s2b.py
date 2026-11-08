@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Abfrageliste fuer das amtliche Fachbetrieberegister (Shard S2, Welle 09.11.2026).
+"""Abfrageliste fuer das amtliche Fachbetrieberegister (Shard S2, Welle 09.11.2026, Slot 00:00 (Recherchetag 08.11.2026)).
 
 Nur lesende oeffentliche Abfragen. Jede Zeile ist eine JSON-Abfrage:
   route: "Entsorgungsfachbetriebe" | "Altfahrzeugverwertung"

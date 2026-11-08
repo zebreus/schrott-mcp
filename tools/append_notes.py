@@ -5,8 +5,8 @@ Nur lokale Dateibearbeitung im Arbeitsbaum, keine Datenbank- oder
 Produktionsaenderung. Erwartet wird je Dossier eine Notizdatei mit genau
 einem Bullet im Hausformat:
 
-    - [Recherche 09.11.2026: ...]
-      Quelle(n): ... (Abruf 09.11.2026).]
+    - [Recherche 08.11.2026: ...]
+      Quelle(n): ... (Abruf 08.11.2026).]
 
 Aufruf:
     python3 tools/append_notes.py <notizverzeichnis> <slug> [<slug> ...]
@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATE = "09.11.2026"
+DATE = "08.11.2026"
 SECTION = f"### Recherche {DATE}"
 
 
