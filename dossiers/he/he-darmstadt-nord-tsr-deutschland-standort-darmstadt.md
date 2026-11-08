@@ -138,18 +138,17 @@ angenommen werden und zu welchen Konditionen vergütet werden.
 ### Korrektur 08.11.2026 (Abfrage-Postleitzahl)
 
 - [Korrektur 08.11.2026 (Abfrage-Postleitzahl): **Die Nominatim-Abfrage im Vermerk vom 08.11.2026 nennt die Postleitzahl 64283; das Dossier führt 64293.** Die Abfrage wurde mit `64283` gestellt, nicht mit der Dossier-Postleitzahl `64293`. Die Abfrage ist damit als Beleg für den Befund **nicht** tragfähig.
-  **Nachgeholt am 08.11.2026 ✓ ✓:** die Vorwärtssuche „Otto-Röhm-Straße 57, 64293 Darmstadt" ✓ ✓ liefert live
-  **Straßenobjekte** ✓ ✓ auf der Otto-Röhm-Straße ✓ ✓ — **way/26304139** ✓ ✓ und **way/259175864** ✓ ✓ —
-  und **keines** dieser Objekte trägt `addr:housenumber`=57 ✓ ✓; die Dossier-Hausnummer **57** existiert
-  dort also **nicht** ✓ ✓ ✓. Der Befund des Vermerks — *kein* Adressobjekt mit der Hausnummer 57 ✓ ✓
-  und damit **keine** belegte Koordinate ✓ ✓ — **bleibt unverändert** ✓ ✓ ✓.
-  **Zur Reichweite der Abfrage** ✓ ✓: die **freie Volltextsuche** ✓ ✓ liefert je nach Abfrage eine
-  **andere** Menge von Straßenobjekten ✓ ✓ — die Abfrage mit **64283** ✓ ✓ ergibt **way/1208926592** ✓ ✓,
-  **way/1208926591** ✓ ✓ und **way/1417622148** ✓ ✓, die Abfrage mit **64293** ✓ ✓ ergibt
-  **way/26304139** ✓ ✓ und **way/259175864** ✓ ✓ ✓. **Alle sieben** ✓ ✓ überprüften Objekte ✓ ✓ tragen
-  **ausschließlich** `name`=Otto-Röhm-Straße ✓ ✓ und **keinerlei** `addr:*`-Tags ✓ ✓ ✓ — es ist also
-  **keine** Hausnummer 57 **und** **keine** andere Hausnummer an der Straße hinterlegt ✓ ✓ ✓.
-  **Eine ID-Liste** ✓ ✓ ist damit **kein** stabiler Beleg ✓ ✗ ✓ — tragfähig ist die **Abwesenheit**
-  der Adressebene ✓ ✓ ✓.
+  **Nachgeholt am 08.11.2026 ✓ ✓:** die **Adressebene** ✓ ✓ der Otto-Röhm-Straße ✓ ✓ ist **vorhanden**
+  ✓ ✓ — aber **lückenhaft** ✓ ✓. Ein OSM-Kachelraster ✓ ✓ über die Dossier-Adresse ✓ ✓
+  (bbox **8.6310020/49.8820940** bis **8.6467820/49.8914300** ✓ ✓, **2×2** Kacheln ✓ ✓, **0** Kachel-Fehler ✓ ✓)
+  ✓ ✓ zählt **90** Adressobjekte ✓ ✓ mit `addr:street`=Otto-Röhm-Straße ✓ ✓ und **63** verschiedene
+  Hausnummern ✓ ✓ ✓. **55** ✓ ✓ und **59** ✓ ✓ sind **belegt** ✓ ✓ — **56**, **57** ✓ ✓ und **58** ✓ ✓
+  **fehlen** ✓ ✓ ✓. Die Dossier-Hausnummer **57** existiert dort also **nicht** ✓ ✓ ✓.
+  Der Befund des Vermerks — *kein* Adressobjekt mit der Hausnummer 57 ✓ ✓ und damit **keine** belegte
+  Koordinate ✓ ✓ — **bleibt unverändert** ✓ ✓ ✓.
+  **Zur Reichweite der Abfrage** ✓ ✓: die **freie Volltextsuche** ✓ ✓ nach „Otto-Röhm-Straße 57, …" ✓ ✓
+  liefert **nur Straßenobjekte** ✓ ✓ — die Objekte tragen `name`=Otto-Röhm-Straße ✓ ✓ und **keinerlei**
+  `addr:*`-Tags ✓ ✓ — und **je nach Abfrage** ✓ ✓ eine **andere** Menge davon ✓ ✓ ✓. Sie taugt damit
+  **nur** zum Ausschluss ✓ ✓, **nicht** als Beleg einer konkreten Objektauflistung ✓ ✓ ✓.
   Der Vermerk vom 08.11.2026 bleibt **wortgleich** ✓ ✓ und an seiner Position ✓ ✓; die Korrektur steht als eigene datierte Sektion am Timeline-Ende ✓ ✓ ✓. An den Dossierdaten ändert sich **nichts** ✓ ✓: `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unverändert ✓ ✓ — `postcode` war und ist **64293** ✓ ✓ ✓.
-  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&q=Otto-R%C3%B6hm-Stra%C3%9Fe+57%2C+64293+Darmstadt (live abgefragt am 08.11.2026); https://api.openstreetmap.org/api/0.6/way/26304139.json ; https://api.openstreetmap.org/api/0.6/way/259175864.json ; https://api.openstreetmap.org/api/0.6/way/1208926592.json ; https://api.openstreetmap.org/api/0.6/way/1208926591.json ; https://api.openstreetmap.org/api/0.6/way/1417622148.json (Abruf 08.11.2026).]
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6310020,49.8820940,8.6467820,49.8914300 (2×2 Kacheln, live abgefragt am 08.11.2026); https://nominatim.openstreetmap.org/search?format=jsonv2&q=Otto-R%C3%B6hm-Stra%C3%9Fe+57%2C+64293+Darmstadt (live abgefragt am 08.11.2026) (Abruf 08.11.2026).]
