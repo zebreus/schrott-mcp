@@ -6,6 +6,8 @@ state: BB
 city: Peitz
 street: Ottendorfer Str. 1a
 postcode: 03185
+lat: 51.8529869
+lon: 14.4038366
 phone: ''
 email: ''
 opening_hours: ''
@@ -62,3 +64,7 @@ Der Seed-Eintrag „Udo Besse“ an Ottendorfer Str. 1a ist nicht als derselbe B
   (4) **Preise, nach Art getrennt:** **ANKAUF:** **keine** belegte Preisliste und **kein** Eurobetrag; die amtliche Landkreis-Seite führt unter „Abfallarten“ **keine** konkrete Materialangabe. **VERKAUF:** **keine** Verkaufspreisliste. **GEBÜHREN:** **keine** belegten Gebühren. Der im Dossier genannte **Telefon 03560 22589** ist die **amtliche** Nummer des Landkreises-Eintrags und damit **kein** Preis- oder Konditionsbeleg; die abweichende Verzeichniszifferfolge 035601 2 25 89 bleibt ungeklärt. Es wird **kein** Wert erfunden.
   (5) **Was das Dossier ändert und was nicht:** Das Frontmatter bleibt **unverändert** (`name: Besse Udo Schrotthandel`, `street: Ottendorfer Str. 1a`, `postcode: '03185'`, `status: pruefung`, `clear_fields: 'phone'`). **Neu belegt** sind (a) der **amtliche Negativbefund** für den Namen Udo Besse mit der vollständigen **Namensvetter-Liste** (BVT Bodenverbesserung Taubertal, Lauda-Königshofen) und der **kartierte Altfahrzeugverwertungsbetrieb** Autoservice Walter am selben Gewerbepark, (b) die **amtliche Bestätigung des Vornamens „Lutz“** durch die zuständige Behörde und die **Bestätigung der Dossier-Adresse als Betreiberanschrift**, und (c) die **Präzisierung der Standortadresse**: die OSM-Schreibweise lautet in Peitz **„Gewerbepark“**, nicht „Gewerbeparkstraße“. Offen bleiben die Frage der Standortidentität (Gewerbepark 12 gegenüber Gewerbeparkstraße 12 in Jänschwalde) und die Rufnummerabweichung.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Besse ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoservice%20Walter ; https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze.html ; https://www.lkspn.de/kreisverwaltung/untereabfallbehoerde/schrottplaetze/4304-schrotthandlung-und-containerdienst.html ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=3&addressdetails=1&q=Ottendorfer%20Stra%C3%9Fe%201%20a%2C%2003185%20Peitz ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=4&addressdetails=1&q=Gewerbepark%2012%2C%2003185%20Peitz (Abruf 07.11.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 51.8529869/14.4038366.** Das OSM-Objekt way/96817819 trägt `addr:housenumber`=1A, `addr:street`=Ottendorfer Straße, `addr:postcode`=03185, `addr:city`=Peitz. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/96817819/full.json ; https://nominatim.openstreetmap.org/search?q=Ottendorfer%20Str.%201a%2C%2003185%20Peitz&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

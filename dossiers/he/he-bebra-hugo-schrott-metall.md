@@ -6,6 +6,8 @@ state: HE
 city: Bebra
 street: Justus-Liebig-Straße 3
 postcode: '36179'
+lat: 50.9832331
+lon: 9.7907125
 phone: +49 6622/5587
 email: info@hugo-schrott-metall.de
 opening_hours: Mo-Fr 08:00-16:00
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Efb-Eintrag war auf Zertifikatsnummer und Gültigkeit beschränkt; Aussteller, Vorgangsnummer, Daten, Rechtsträger und Anlagen fehlten.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) weist aus: „1.1 Name: TÜV SÜD Umweltgutachter GmbH“, „1.2 Straße: Ridlerstraße 57“, Postleitzahl 80339, Ort München; „3.1 Nummer des Zertifikats ...: 12 150 10223“; „3.3 Vorgangsnummer ...: ZZIT007000863010“ (im Ergebnisraster verkürzt „ZZIT00700086 / 1“ bis „/ 4“); „3.4 Das Zertifikat beinhaltet 4 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 01.09.2027“; „4.1 Name: HUGO Schrott-Metall Inhaber Heinrich Hugo e.K.“, „4.2 Straße: Justus-Liebig-Str. 3“, Postleitzahl 36179, Ort Bebra; „4.4 ... Registernummer ...: HRA1597 ... Registergericht: Bad Hersfeld“; „6. Prüfungsdatum: 23.03.2026“; „8. Ausstellungsdatum: 24.06.2026“. Der Eintrag „Entsorgungsfachbetrieb §56 KrWG (TÜV SÜD, Zertifikat 12 150 10223, gültig bis 01.09.2027)“ wurde um Ausstelleranschrift, Vorgangsnummer, Anlagenzahl, Prüfungs- und Ausstellungsdatum, Rechtsträger mit Registerangabe sowie die vier Anlagen mit ihren Kennnummern nach § 28 NachwV ergänzt: Anlage 1 Sammeln und Befördern (F73T004705), Anlage 2 Lagern (F73RD02308), Anlage 3 Behandeln (F73RD02308), Anlage 4 Lagern und Behandeln (F73RD02308); das Registerraster führt dieselben Tätigkeiten („Sammeln, Befördern“ / „Lagern“ / „Behandeln“ / „Lagern, Behandeln“). Standorttreue: alle vier Anlagen nennen als Standort „Justus-Liebig-Str. 3, 36179 Bebra“ (Anlagenbogen Felder 1.2 und 1.3), also den Dossierstandort. Ergänzt wurde außerdem die Erstbehandlungsanlage: Feld 5.1 nennt „Zur Zertifizierung als Erstbehandlungsanlage im Sinne des § 21 ElektroG siehe Anlage(n) 4“, und der Anlagenbogen der Anlage 4 trägt den Satz „Die Einhaltung der Anforderungen des ElektroG wurde geprüft und die Anlage gilt als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG“. Das zweite Element des Eintrags (Umweltmanagement DIN EN ISO 14001:2015) stammt nicht aus dem Register-PDF und bleibt unverändert.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=HUGO&p=ZZIT00700086&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.9832331/9.7907125.** Das OSM-Objekt way/194677730 trägt `addr:housenumber`=3, `addr:street`=Justus-Liebig-Straße, `addr:postcode`=36179, `addr:city`=Bebra. Dasselbe Objekt trägt `building`=industrial. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/194677730/full.json ; https://nominatim.openstreetmap.org/search?q=Justus-Liebig-Stra%C3%9Fe%203%2C%2036179%20Bebra&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

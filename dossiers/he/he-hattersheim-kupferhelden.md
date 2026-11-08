@@ -6,6 +6,8 @@ state: HE
 city: Hattersheim
 street: Im Boden 23
 postcode: '65795'
+lat: 50.0622619
+lon: 8.4812809
 phone: ''
 email: ''
 opening_hours: ''
@@ -41,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 07.11.2026 (Preispflege)
 
 - [Korrektur 07.11.2026 (Preispflege): **Ein veralteter Current-Preis an der Live-Seite geprüft — Rückzug (Fremdkörper).** Der Handler läuft (Lauf 07.11.2026 08:37 UTC, 4 Preise übernommen, Status `ok`) und erzeugt den alten Schlüssel heute nicht mehr. Betroffen: `kabel-kupfer` / „bis 37%" — 0,45 EUR/kg, Stand 29.09.2026. Die Seite https://kupferhelden.de/ (Abruf 07.11.2026 13:02 UTC) führt die Sorte als Elementor-Preiskarte unter der Überschrift „KUPFERHELDEN - TAGESPREISE" mit der Kartenüberschrift „Kabel mit Stecker, bis 37%" und der Preiszelle **„bis zu 0,45 €/KG"**. Der Betrieb bietet die 37-%-Sorte also weiterhin mit Preis an — aber er nennt sie ausdrücklich „Kabel mit Stecker", und der Handler führt sie deshalb als eigenes Material `kabel-mit-stecker` / „bis 37%" (heute 0,45 EUR/kg, Stand 07.11.2026). Der Schlüssel (kabel-kupfer, „bis 37%") wird heute nicht mehr erzeugt → **Rückzug** (der Preis bleibt in der Historie). Im Dossier ist keine OSM-/Objekt-ID hinterlegt; an der Preiszelle ändert sich nichts, `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unberührt. Quelle(n): https://kupferhelden.de/ (Abruf 07.11.2026 13:02 UTC).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.0622619/8.4812809.** Das OSM-Objekt way/224113313 trägt `addr:housenumber`=23, `addr:street`=Im Boden, `addr:postcode`=65795, `addr:city`=Hattersheim. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/224113313/full.json ; https://nominatim.openstreetmap.org/search?q=Im%20Boden%2023%2C%2065795%20Hattersheim&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

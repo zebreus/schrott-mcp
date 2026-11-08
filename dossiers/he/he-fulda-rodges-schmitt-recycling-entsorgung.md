@@ -6,6 +6,8 @@ state: HE
 city: Fulda-Rodges
 street: Böcklerstr. 31
 postcode: '36041'
+lat: 50.5535242
+lon: 9.5897649
 phone: 0661/73966
 email: info@schmitt-recycling.de
 opening_hours: Gewerbe Mo–Do 8:00–17:00, Fr 8:00–16:00, Sa (1.+3./Monat) 8:00–12:00;
@@ -59,3 +61,7 @@ sowie der Verweis auf nur die Anlagen 1-3 bei zugleich vier Anlagen.
 
 - [Korrektur 06.11.2026: **Die Erstbehandlungsanlagen nach § 21 ElektroG fehlten im Eintrag.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) weist in Feld 5.1 „Zur Zertifizierung als Erstbehandlungsanlage im Sinne des § 21 ElektroG siehe Anlage(n) 2, 3“ aus, und die Anlagenbögen der Anlagen 2 und 3 tragen jeweils den Satz „Die Einhaltung der Anforderungen des ElektroG wurde geprüft und die Anlage gilt als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG“; der Eintrag wurde um den Zusatz „Anlagen 2 und 3 sind zertifizierte Erstbehandlungsanlagen nach § 21 ElektroG“ ergänzt. Unverändert bestätigt sind: „1.1 Name: ESC Cert GmbH“, „1.2 Straße: Teichstraße 14“, Postleitzahl 34130, Ort Kassel; „3.1 Nummer des Zertifikats ...: 36041/03-26“; „3.3 Vorgangsnummer ...: ZZFT007000198016“ (im Ergebnisraster verkürzt „ZZFT00700019 / 1“ bis „/ 4“); „3.4 Das Zertifikat beinhaltet 4 Anlage(n).“; „3.6 ... (siehe Anlage(n) 1-3)“; „3.7 Das Zertifikat ist gültig bis zum 04.09.2027“; „4.1 Name: Schmitt Recycling & Entsorgung GmbH & Co. KG“, „4.2 Straße: Böcklerstr. 31“, Postleitzahl 36041, Ort Fulda-Rodges; „4.4 ... Registernummer ...: HRB 99420 ... Registergericht: Fulda“ (die im Dossier abweichend vermerkte Angabe „HRA 5228 AG Fulda“ ist damit belegt und bleibt als Abweichung stehen); „6. Prüfungsdatum: 27.05.2026“; „8. Ausstellungsdatum: 02.07.2026“. Standorttreue: alle vier Anlagen nennen als Standortbezeichnung „Hauptsitz“ mit „Böcklerstr. 31, 36041 Fulda-Rodges“, also den Dossierstandort. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F72T003906“ (Feld 4.1 „alle Abfallarten“), Anlage 2 „2.3 Lagern“ mit „F72RD03203“, Anlage 3 „2.4 Behandeln“ mit „F72RD03203“, Anlage 4 „2.3 Lagern“ mit „F72RD03203“; das Registerraster führt „Sammeln, Befördern“ / „Lagern“ / „Behandeln“ / „Lagern“. Der Abrufdatumshinweis am Ende des Eintrags wurde auf den 06.11.2026 aktualisiert.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmitt%20Recycling%20Entsorgung&p=ZZFT00700019&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.5535242/9.5897649.** Das OSM-Objekt way/115955139 trägt `addr:housenumber`=31, `addr:street`=Böcklerstraße, `addr:city`=Fulda. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt führt keine addr:postcode-Angabe; die Postleitzahl des Dossiers passt zur Lage des Objekts. Quelle(n): https://api.openstreetmap.org/api/0.6/way/115955139/full.json ; https://nominatim.openstreetmap.org/search?q=B%C3%B6cklerstr.%2031%2C%2036041%20Fulda-Rodges&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

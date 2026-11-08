@@ -6,6 +6,8 @@ state: SH
 city: Geesthacht 21502
 street: Ilenweg 24
 postcode: '21502'
+lat: 53.4402667
+lon: 10.3833977
 phone: 04152 88827 33 (mobil 0151 15751515)
 email: info@dittmer-rohstoffhandel.de
 opening_hours: Mo-Fr 8-18
@@ -45,3 +47,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat eg0195 der EGSH für den Standort Ilenweg 24, 21502 Geesthacht endete der Eintrag ohne schließende Klammer; sie wurde ergänzt.
   Vorgangsnummer ZZAE001000058009, die Anlage mit Sammeln, Befördern, Handeln und Makeln sowie das Gültigkeitsdatum 11.11.2027 bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 53.4402667/10.3833977.** Das OSM-Objekt way/374275278 trägt `addr:housenumber`=24, `addr:street`=Ilenweg. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt führt keine addr:postcode-Angabe; die Postleitzahl des Dossiers passt zur Lage des Objekts. Quelle(n): https://api.openstreetmap.org/api/0.6/way/374275278/full.json ; https://nominatim.openstreetmap.org/search?q=Ilenweg%2024%2C%2021502%20Geesthacht&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: BB
 city: Oranienburg OT Friedrichsthal
 street: Am Biotop 6
 postcode: '16515'
+lat: 52.7781836
+lon: 13.2661662
 phone: 03301 802543
 email: info@ernst-recycling.de
 opening_hours: Mo-Fr 7-18 Uhr; Sa 9-12 Uhr (Oranienburg)
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG (Zertifikat 250/2022/26 der IWA) für den Standort Am Biotop 6, 16515 Oranienburg endete unvollständig; die schließende Klammer wurde ergänzt.
   Vorgangsnummer ZZPT004003546008, die fünf Anlagen, das AltfahrzeugV-Beiblatt zu Anlage 4 und der Eintrag der Route „Altfahrzeugverwertung“ bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Betriebspunkt belegt: 52.7781836/13.2661662.** Das OSM-Objekt way/122441820 trägt `name`=Ernst Recycling GmbH, `building`=yes. Die Anschrift ist dabei hausnummergenau belegt (`addr:housenumber`=6, `addr:street`=Am Biotop, `addr:postcode`=16515, `addr:city`=Oranienburg). Der Punkt ist der Standort des Betriebsobjekts, kein Adressmittelpunkt. Der OSM-Name bzw. -Operator des Objekts deckt sich mit dem Dossiernamen (Ernst Recycling GmbH); das Objekt ist der Betriebspunkt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/122441820/full.json ; https://nominatim.openstreetmap.org/search?q=Am%20Biotop%206%2C%2016515%20Oranienburg%20OT%20Friedrichsthal&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

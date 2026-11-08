@@ -6,6 +6,8 @@ state: BB
 city: Wandlitz OT Schönerlinde
 street: Industriestr. 1
 postcode: '16348'
+lat: 52.6482766
+lon: 13.4256266
 phone: 030 94114116
 email: info@isr-recycling.de
 opening_hours: Mo-Fr 7-17 Uhr; Annahme bis 16.30 Uhr
@@ -43,3 +45,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 121096657 der DEKRA Certification GmbH für den Standort Industriestraße 4, 16348 Wandlitz fehlte am Ende die schließende Klammer; sie wurde ergänzt.
   Die fünf Anlagen 12 bis 16, das AltfahrzeugV-Beiblatt sowie die Hinweise zur Adress- und Firmierungsdifferenz bleiben wortgleich; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 52.6482766/13.4256266.** Das OSM-Objekt way/850424045 trägt `addr:housenumber`=1, `addr:street`=Industriestraße, `addr:postcode`=16348, `addr:city`=Wandlitz. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/850424045/full.json ; https://nominatim.openstreetmap.org/search?q=Industriestr.%201%2C%2016348%20Wandlitz%20OT%20Sch%C3%B6nerlinde&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

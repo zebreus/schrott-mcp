@@ -6,6 +6,8 @@ state: HE
 city: Aßlar 35614
 street: Hauptstraße 27a
 postcode: '35614'
+lat: 50.5904016
+lon: 8.4630351
 phone: 06441 / 55 620 30
 email: info@goldhaus-asslar.de
 opening_hours: Mo-Fr 10:30-16:30, Sa n. Vereinbarung
@@ -55,3 +57,7 @@ besteht nicht.
 
 - [Prüfung 06.11.2026: **Für diesen Betrieb gibt es kein Zertifikat des amtlichen Fachbetrieberegisters; der Eintrag bleibt unverändert.** Geprüft wurde das amtliche Fachbetrieberegister (Abruf 06.11.2026): die Namenssuche „Kupersky“ liefert in der Route „Entsorgungsfachbetriebe“ 0 Treffer und in der Route „Altfahrzeugverwertung“ 0 Treffer; die Standortsuche mit 3 km Radius um Hauptstraße 27a, 35614 Aßlar liefert in der Route „Entsorgungsfachbetriebe“ 6 Treffer (`HH-Kompostierung GmbH & Co. KG`, `heimann AKTIVKOHLE GmbH`, `Abfalllogistik Betriebsstätte Solms`, `Lagern und Umschlagen Betriebsstätte Solms`, `Containerlager Betriebsstätte Solms`, `Behandeln und Sortieren Betriebsstätte Solms`) und keinen Eintrag des Betriebs Goldhaus Asslar (Inhaber Patrick Kupersky); in der Route „Altfahrzeugverwertung“ liefert dieselbe Standortsuche keinen Treffer. Ein Zertifikats-PDF des Registers gibt es zu diesem Vorgang nicht, deshalb konnte kein Feldvergleich stattfinden. Der Eintrag betrifft die Verbandszertifizierung des Berufsverbands des Deutschen Münzenfachhandels e.V. („zertifizierter Goldhändler“ für Kupersky Patrick, Hauptstraße 27a, 35614 Aßlar) und nicht das Fachbetrieberegister; er bleibt unverändert, ebenso der im Dossier dokumentierte Negativbefund zur Efb- und AltfahrzeugV-Anerkennung. Reichweite: die Anerkennung als Entsorgungsfachbetrieb oder als Altfahrzeug-Demontagebetrieb ist freiwillig, ein Register-Nichttreffer ist kein Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Kupersky ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Kupersky ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Hauptstra%C3%9Fe%2027a%2C%2035614%20A%C3%9Flar%2C%20Deutschland%3B8.3881%3B50.5633%3B8.4081%3B50.5833%3B8.3681%3B50.5433&dst=3&is=1&e=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Betriebspunkt belegt: 50.5904016/8.4630351.** Das OSM-Objekt node/9672966771 trägt `name`=Goldhaus Asslar - Goldankauf, Münzen & Edelmetalle. Die Anschrift ist dabei hausnummergenau belegt (`addr:housenumber`=27a, `addr:street`=Hauptstraße, `addr:postcode`=35614, `addr:city`=Aßlar). Der Punkt ist der Standort des Betriebsobjekts, kein Adressmittelpunkt. Der OSM-Name bzw. -Operator des Objekts deckt sich mit dem Dossiernamen (Goldhaus Asslar (Patrick Kupersky)); das Objekt ist der Betriebspunkt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/9672966771.json ; https://nominatim.openstreetmap.org/search?q=Hauptstra%C3%9Fe%2027a%2C%2035614%20A%C3%9Flar&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: HE
 city: Aarbergen
 street: Scheidertalstr. 53
 postcode: '65326'
+lat: 50.2418589
+lon: 8.0736116
 phone: '06120 9790900'
 email: 'info@recycotech.com'
 opening_hours: ''
@@ -55,3 +57,7 @@ andere E-Mail-Adresse und Telefonnummer hinterlegt, sowie die nicht genannten Ö
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: ZUUM Gesellschaft für techn. Überwachung und Zertifizierung mbH“, „1.2 Straße: Ringstraße 26“, Postleitzahl 36396, Ort Steinau an der Straße = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats (durch die Zertifizierungsorganisation frei zu vergeben): ZUUM-270-0618-67-25-0723“; „3.3 Vorgangsnummer (soweit von der Behörde erteilt): ZZFT013000026011“ (im Ergebnisraster verkürzt „ZZFT01300002 / 1“); „3.4 Das Zertifikat beinhaltet 1 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 07.02.2027“; „4.1 Name: Recyco tech GmbH“, „4.2 Straße: Scheidertalstraße 53“, Postleitzahl 65326, Ort Aarbergen; „4.4 ... Registernummer (HRA, HRB etc.): HRB32535 ... Registergericht: Wiesbaden“; „6. Prüfungsdatum: 03.12.2025“; „8. Ausstellungsdatum: 20.01.2026“. Standorttreue: die einzige Anlage nennt als Standort „Scheidertalstraße 53, 65326 Aarbergen“ (Anlagenbogen Felder 1.2 und 1.3), also den Dossierstandort. Anlagenbogen Feld 2: angekreuzt sind „2.7 Handeln“ mit „Kennnummer nach § 28 NachwV: F18H800085“ und „2.8 Makeln“ mit „F18M002777“; die Felder 2.1 Sammeln, 2.2 Befördern, 2.3 Lagern, 2.4 Behandeln, 2.5 Verwerten und 2.6 Beseitigen sind nicht angekreuzt. Die Abfallarten sind in Feld 4.1 mit „alle Abfallarten“ angegeben.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Recyco%20tech&p=ZZFT01300002&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.2418589/8.0736116.** Das OSM-Objekt way/796553689 trägt `addr:housenumber`=53, `addr:street`=Scheidertalstraße, `addr:postcode`=65326, `addr:city`=Aarbergen. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/796553689/full.json ; https://nominatim.openstreetmap.org/search?q=Scheidertalstr.%2053%2C%2065326%20Aarbergen&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

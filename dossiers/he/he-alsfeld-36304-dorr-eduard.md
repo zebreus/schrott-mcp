@@ -6,6 +6,8 @@ state: HE
 city: Alsfeld 36304
 street: Altenburger Str. 78
 postcode: '36304'
+lat: 50.7407733
+lon: 9.2726225
 phone: (06631) 919565
 email: ''
 opening_hours: ''
@@ -104,3 +106,7 @@ ausweist. Offen bleiben Betreiberidentität, aktuelle Tätigkeit und Zertifizier
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=D%C3%B6rr ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&o=5&e=1&n=D%C3%B6rr ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=36304%20Alsfeld%2C%20Deutschland;9.2464;50.7152;9.3564;50.8152;9.3564;50.7152&dst=10&is=1&e=1 (Abruf 07.11.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.7407733/9.2726225.** Das OSM-Objekt way/102889260 trägt `addr:housenumber`=78, `addr:street`=Altenburger Straße, `addr:postcode`=36304, `addr:city`=Alsfeld. Dasselbe Objekt trägt `building`=apartments. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/102889260/full.json ; https://nominatim.openstreetmap.org/search?q=Altenburger%20Str.%2078%2C%2036304%20Alsfeld&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

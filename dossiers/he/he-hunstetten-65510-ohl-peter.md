@@ -6,6 +6,8 @@ state: HE
 city: Hünstetten 65510
 street: Waldstr. 1
 postcode: 65510
+lat: 50.2655620
+lon: 8.1493910
 phone: 06438 923073
 email: ''
 opening_hours: ''
@@ -79,3 +81,7 @@ Mehrere Branchenverzeichnisse führen Peter Ohl unter Waldstr. 1 in Hünstetten-
   https://handelsregister.live/?q=Ohl+Schrott&land=hessen ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Peter%20Ohl ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Waldstra%C3%9Fe%201%2C%2065510%20H%C3%BCnstetten%2C%20Deutschland;8.0993910;50.2655620;8.1493910;50.2655620;8.1493910;50.2155620&dst=10&is=1&e=1 (Abruf 07.11.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.2655620/8.1493910.** Das OSM-Objekt way/678855745 trägt `addr:housenumber`=1, `addr:street`=Waldstraße, `addr:postcode`=65510, `addr:city`=Hünstetten. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/678855745/full.json ; https://nominatim.openstreetmap.org/search?q=Waldstr.%201%2C%2065510%20H%C3%BCnstetten&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: HE
 city: Frankfurt
 street: Flinschstr. 39
 postcode: '60388'
+lat: 50.1366421
+lon: 8.7343099
 phone: 069/4260760
 email: info@gries-recycling.de
 opening_hours: Mo-Do 07:15-16:15, Fr 07:30-14:30
@@ -56,3 +58,7 @@ zur Fr. von Gries Rohstoffe GmbH in Mannheim als anderem Rechtsträger.
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: SMU GmbH“, „1.2 Straße: Hauptstraße 58“, Postleitzahl 67297, Ort Marnheim = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: SMU/1194/002“; „3.3 Vorgangsnummer ...: ZZGT002001691002“ (im Ergebnisraster verkürzt „ZZGT00200169 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.6 ... (siehe Anlage(n) Nr. 1, 2 und 3)“; „3.7 Das Zertifikat ist gültig bis zum 10.08.2027“; „4.1 Name: von Gries Recycling GmbH“, „4.2 Straße: Flinschstraße 39“, Postleitzahl 60388, Ort Frankfurt/Main; „4.4 ... Registernummer ...: HRB 33586 ... Registergericht: Frankfurt am Main“; „6. Prüfungsdatum: 11.02.2026“; „8. Ausstellungsdatum: 27.02.2026“. Standorttreue: alle drei Anlagen nennen als Standort „Flinschstraße 39, 60388 Frankfurt/Main“, also den Dossierstandort. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F26T019102“ (Feld 4.1 „alle Abfallarten“), Anlage 2 „2.3 Lagern“ und „2.5 Verwerten“ mit „F26RD00608“, Anlage 3 „2.4 Behandeln“ und „2.5 Verwerten“ mit „F26RD00608“; das Registerraster führt „Sammeln, Befördern“ / „Lagern, Verwerten“ / „Behandeln, Verwerten“ - die Tätigkeitsangaben im Eintrag decken sich also zeichengleich mit dem Register.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=von%20Gries%20Recycling&p=ZZGT00200169&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.1366421/8.7343099.** Das OSM-Objekt way/168327187 trägt `addr:housenumber`=39, `addr:street`=Flinschstraße, `addr:postcode`=60388, `addr:city`=Frankfurt am Main. Dasselbe Objekt trägt `building`=office. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/168327187/full.json ; https://nominatim.openstreetmap.org/search?q=Flinschstr.%2039%2C%2060388%20Frankfurt&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

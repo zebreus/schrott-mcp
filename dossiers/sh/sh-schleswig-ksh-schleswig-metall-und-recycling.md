@@ -6,6 +6,8 @@ state: SH
 city: Schleswig
 street: Margarethenwallstraße 2
 postcode: '24837'
+lat: 54.4961961
+lon: 9.5381839
 phone: +49 4621 32049
 email: info@ksh-schleswig.de
 opening_hours: Mo-Fr 7:00-17:00
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 290712017 der DEKRA Certification GmbH für den Standort Margarethenwallstrasse 2, 24837 Schleswig fehlte die schließende Klammer am Ende; sie wurde gesetzt.
   Die sechs zugeordneten Anlagen, der Vermerk zur Erstbehandlungsanlage nach § 21 ElektroG sowie alle Datumsangaben bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 54.4961961/9.5381839.** Das OSM-Objekt way/88002508 trägt `addr:housenumber`=2, `addr:street`=Margarethenwallstraße, `addr:postcode`=24837, `addr:city`=Schleswig. Dasselbe Objekt trägt `name`=Schrottplatz Otto Giebecke GmbH, `landuse`=industrial. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt trägt den Namen "Schrottplatz Otto Giebecke GmbH", nicht den Dossiernamen; die Zuordnung stützt sich allein auf Hausnummer und Straße.  **Zweite Quelle:** die Photon-Suche nach „Margarethenwallstraße 2, 24837 Schleswig" (live abgefragt am 08.11.2026) liefert **dasselbe** Objekt **W/88002508** ✓ ✓ mit `street`=Margarethenwallstraße ✓ ✓ und `housenumber`=2 ✓ ✓; die Nominatim-Vorwärtssuche nach derselben Adresse liefert nur das **Straßenobjekt** way/55563089 ✓ ✓, aber **kein** Adressobjekt mit der Hausnummer 2 ✓ ✓ — die zweite Quelle ist deshalb **Photon** ✓ ✓, nicht Nominatim ✓ ✓ ✓. Quelle(n): https://api.openstreetmap.org/api/0.6/way/88002508/full.json ; https://photon.komoot.io/api/?q=Margarethenwallstra%C3%9Fe+2%2C+24837+Schleswig (Abruf 08.11.2026).]

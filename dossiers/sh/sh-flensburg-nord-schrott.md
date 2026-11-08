@@ -6,6 +6,8 @@ state: SH
 city: Flensburg
 street: Lilienthalstraße 30
 postcode: '24941'
+lat: 54.769479
+lon: 9.3956065
 phone: +49 461 50340-0
 email: info@nord-schrott.de
 opening_hours: Mo-Fr 7:00-16:45, Sa 7:30-12:30
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der ESN (Zertifikat ESN 97-100012(25)) für den Standort Lilienthalstraße 30, 24941 Flensburg war nicht vollständig lesbar; die schließende Klammer wurde ergänzt.
   Die fünf zugeordneten Anlagen sowie die Hinweise auf die nicht übernommenen Zertifikate in Flensburg und Harrislee bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 54.769479/9.3956065.** Das OSM-Objekt node/13852510524 trägt `addr:housenumber`=30, `addr:street`=Lilienthalstraße, `addr:postcode`=24941, `addr:city`=Flensburg. Dasselbe Objekt trägt `name`=Nord-Schrott, `landuse`=industrial. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt trägt den Namen "Nord-Schrott", nicht den Dossiernamen; die Zuordnung stützt sich allein auf Hausnummer und Straße. Quelle(n): https://api.openstreetmap.org/api/0.6/node/13852510524.json ; https://nominatim.openstreetmap.org/search?q=Lilienthalstra%C3%9Fe%2030%2C%2024941%20Flensburg&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

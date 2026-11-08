@@ -6,6 +6,8 @@ state: HE
 city: Offenbach am Main
 street: Waldstr. 87
 postcode: '63071'
+lat: 50.0975885
+lon: 8.7664948
 phone: ''
 email: ''
 opening_hours: ''
@@ -65,3 +67,7 @@ certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (TÜV Technische Über
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der TÜV Technischen Überwachung Hessen (Zertifikat 32970070) für den Standort Waldstr. 87, 63071 Offenbach endete im Satz; die schließende Klammer wurde ergänzt.
   Vorgangsnummer ZZFT012000304009, die Anlage mit den Kennnummern F34T201403, F34H000173 und F34M002811 sowie das Gültigkeitsdatum 23.08.2027 bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.0975885/8.7664948.** Das OSM-Objekt way/58560537 trägt `addr:housenumber`=87, `addr:street`=Waldstraße, `addr:postcode`=63071, `addr:city`=Offenbach am Main. Dasselbe Objekt trägt `building`=apartments. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/58560537/full.json ; https://nominatim.openstreetmap.org/search?q=Waldstr.%2087%2C%2063071%20Offenbach%20am%20Main&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

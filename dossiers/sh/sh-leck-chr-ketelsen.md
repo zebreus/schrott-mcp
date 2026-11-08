@@ -6,6 +6,8 @@ state: SH
 city: Leck
 street: Georg-Ohm-Str. 9
 postcode: '25917'
+lat: 54.7797441
+lon: 8.9823740
 phone: 04662-89890
 email: info@ketelsen-leck.de
 opening_hours: Mo-Do 7:00-17:00, Fr 7:00-16:00
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat CERT 38 der BFUB Cert für den Standort Georg-Ohm-Str. 9, 25917 Leck fehlte am Textende die schließende Klammer; sie wurde ergänzt.
   Die Anlagen, die Nummer gemäß 4. BImSchV 8.11.2.3 und alle Datumsangaben bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 54.7797441/8.9823740.** Das OSM-Objekt way/562999241 trägt `addr:housenumber`=9, `addr:street`=Georg-Ohm-Straße, `addr:postcode`=25917, `addr:city`=Leck. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/562999241/full.json ; https://nominatim.openstreetmap.org/search?q=Georg-Ohm-Str.%209%2C%2025917%20Leck&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

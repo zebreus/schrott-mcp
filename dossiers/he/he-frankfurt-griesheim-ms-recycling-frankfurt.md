@@ -6,6 +6,8 @@ state: HE
 city: Frankfurt-Griesheim
 street: Eichenstr. 25
 postcode: '65933'
+lat: 50.0946853
+lon: 8.6036759
 phone: ''
 email: ''
 opening_hours: ''
@@ -60,3 +62,7 @@ Zweitbeleg leeren Felder für E-Mail und Öffnungszeiten.
 
 - [Korrektur 06.11.2026: **Die Erstbehandlungsanlage nach § 21 ElektroG fehlte im Eintrag.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) weist in Feld 5.1 „Zur Zertifizierung als Erstbehandlungsanlage im Sinne des § 21 ElektroG siehe Anlage(n) 2“ aus, und der Anlagenbogen der Anlage 2 trägt den Satz „Die Einhaltung der Anforderungen des ElektroG wurde geprüft und die Anlage gilt als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG“; der Eintrag wurde um den Zusatz „Anlage 2 ist zertifizierte Erstbehandlungsanlage nach § 21 ElektroG“ ergänzt. Unverändert bestätigt sind: „1.1 Name: Ingenieurbüro Ulbricht GmbH“, „1.2 Straße: Albert-Schweitzer-Str. 22“, Postleitzahl 09648, Ort Mittweida; „3.1 Nummer des Zertifikats ...: 801.11324/25“; „3.3 Vorgangsnummer ...: ZZST002003200002“ (im Ergebnisraster verkürzt „ZZST00200320 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.6 ... (siehe Anlage(n) 2, 3)“; „3.7 Das Zertifikat ist gültig bis zum 08.06.2027“; „4.1 Name: MS Recycling Frankfurt e.K. Inh. Christian Jungk“, „4.2 Straße: Eichenstraße 25“, Postleitzahl 65933, Ort Frankfurt am Main; „4.4 ... Registernummer ...: HRA 17731 ... Registergericht: Frankfurt am Main“; „6. Prüfungsdatum: 09.12.2025“; „8. Ausstellungsdatum: 22.12.2025“. Standorttreue: alle drei Anlagen nennen als Standort „Eichenstraße 25, 65933 Frankfurt am Main“, also den Dossierstandort. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F26T017176“ (Feld 4.1 „alle Abfallarten“), Anlage 2 „2.3 Lagern“ und „2.4 Behandeln“ mit „F26RD00236“, Anlage 3 „2.3 Lagern“ mit „F26RD00236“; das Registerraster führt „Sammeln, Befördern“ / „Lagern, Behandeln“ / „Lagern“. Der Abrufdatumshinweis am Ende des Eintrags wurde auf den 06.11.2026 aktualisiert.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=MS%20Recycling%20Frankfurt&p=ZZST00200320&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.0946853/8.6036759.** Das OSM-Objekt way/159872643 trägt `addr:housenumber`=25, `addr:street`=Eichenstraße, `addr:postcode`=65933, `addr:city`=Frankfurt am Main. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/159872643/full.json ; https://nominatim.openstreetmap.org/search?q=Eichenstr.%2025%2C%2065933%20Frankfurt-Griesheim&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
