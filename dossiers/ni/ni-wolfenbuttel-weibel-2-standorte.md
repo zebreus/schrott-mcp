@@ -1,5 +1,7 @@
 ---
 slug: ni-wolfenbuttel-weibel-2-standorte
+lat: 52.1631301
+lon: 10.5081005
 name: REMONDIS Region Nord, NL Wolfenbüttel (ehem. Weibel)
 trader_type: schrotthaendler
 state: NI
@@ -54,3 +56,7 @@ Das **amtliche Fachbetrieberegister bestätigt den Standort**: Für Wolfenbütte
   Das Zertifikat umfasst 61 Anlagen an mehreren Standorten; am Dossierstandort Frankfurter Straße 45, 38304 Wolfenbüttel liegen die Anlagen 29 bis 31, und nur diese sind in den Eintrag aufgenommen (Standorttreue). Angekreuzt sind Anlage 29 Sammeln und Befördern (A58T000747), Anlage 30 Lagern (C4B5000005) mit Verwerten und Beseitigen ohne eigene Kennnummer und Anlage 31 Behandeln (C4B5000005) mit Verwerten ohne eigene Kennnummer. Das Feld `description` des Frontmatter nennt weiterhin nur die Tätigkeit Lagern; diese Angabe wird in dieser Welle nicht geändert, weil hier nur das Feld `certifications` geprüft und berichtigt wird, und ist gesondert nachzuprüfen.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Sammeln, Befördern, Behandeln, Verwerten, Beseitigen); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=REMONDIS&p=ZZEE00200180&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 52.1631301/10.5081005.** Für den Dossier-Eintrag **REMONDIS Region Nord, NL Wolfenbüttel (ehem. Weibel)** trägt das OSM-Objekt way/1055818063 (`addr:housenumber`=45, `addr:street`=Frankfurter Straße, `addr:postcode`=38304, `addr:city`=Wolfenbüttel) die Dossier-Adresse **Frankfurter Str. 45, 38304 Wolfenbüttel** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 52.163074/10.507823 bis 52.1631881/10.5083128). Quelle(n): https://api.openstreetmap.org/api/0.6/way/1055818063/full.json ; https://nominatim.openstreetmap.org/search?q=Frankfurter+Str.+45%2C+38304+Wolfenb%C3%BCttel&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Frankfurter+Str.+45&postalcode=38304&city=Wolfenb%C3%BCttel&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

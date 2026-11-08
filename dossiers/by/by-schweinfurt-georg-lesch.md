@@ -1,5 +1,7 @@
 ---
 slug: by-schweinfurt-georg-lesch
+lat: 50.026107
+lon: 10.2201227
 name: Georg Lesch e.K. (Inh. Peter Heinlein)
 trader_type: schrotthaendler
 state: BY
@@ -85,3 +87,7 @@ Alle nachstehenden Betreiberseiten und drei verlinkten Zertifikats-PDFs am 05.10
   **Ergänzt:** Zertifikatsnummer, Vorgangsnummer, Anlagenzahl, beide Daten, Aussteller mit vollständiger Anschrift, Rechtsträger mit Registernummer und Registergericht sowie die Anlagen am Dossierstandort Hafenstraße 44: Anlage 1 Sammeln und Befördern (I662T10444), Anlage 2 Lagern und Behandeln (I662N00012) und Verwerten (ohne eigene Kennnummer). **Standorttreue:** Anlage 3 liegt am Standort „Georg Lesch e.K. Inh. Peter Heinlein NL Maintal“, Straßburgstraße 14, 97424 Schweinfurt - andere Hausnummer, deshalb **nicht** übernommen (das Zertifikat nennt für Anlage 3 Lagern und Behandeln I662N00020). **Unverändert bestätigt:** die ISO-9001-Angabe DEKRA 121100905/9, gültig 24.11.2024 bis 23.11.2027, mit den Standorten Hafenstraße 44 und Straßburgstraße 14 - am zitierten ISO-PDF (`https://www.lesch-rohstoffhandel.de/wp-content/uploads/2024/10/RZ-Zertifikat-ISO-9001_2015.pdf`) wörtlich bestätigt (Zertifikat-Registrier-Nr. 121100905/9, Zentrale Hafenstraße 44, 97424 Schweinfurt, Standort Straßburgstraße 14, 97424 Schweinfurt).
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Sammeln, Befördern, Lagern, Behandeln, Verwerten); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Georg%20Lesch%20e.K.&p=ZZHT00300505&fd=1 ; https://www.lesch-rohstoffhandel.de/wp-content/uploads/2026/09/ZZHT003005056013_EFB-Zertifikat-Georg-Lesch-e.K.-Inhaber-Peter-Heinlein-1.pdf (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 50.026107/10.2201227.** Für den Dossier-Eintrag **Georg Lesch e.K. (Inh. Peter Heinlein)** trägt das OSM-Objekt way/89628092 (`addr:housenumber`=44, `addr:street`=Hafenstraße, `addr:postcode`=97424, `addr:city`=Schweinfurt) die Dossier-Adresse **Hafenstraße 44, 97424 Schweinfurt** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 50.025961/10.2198504 bis 50.0262607/10.2202939). Das Dossier by-schweinfurt-lesch beschreibt denselben Standort. Quelle(n): https://api.openstreetmap.org/api/0.6/way/89628092/full.json ; https://nominatim.openstreetmap.org/search?q=Hafenstra%C3%9Fe+44%2C+97424+Schweinfurt&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Hafenstra%C3%9Fe+44&postalcode=97424&city=Schweinfurt&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

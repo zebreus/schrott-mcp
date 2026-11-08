@@ -1,5 +1,7 @@
 ---
 slug: sn-leipzig-04347-c-a-t-e-abbruch-und-umweltservice
+lat: 51.3642594
+lon: 12.4444102
 name: C.A.T.E. Abbruch und Umweltservice GmbH
 trader_type: sonstige
 state: SN
@@ -43,3 +45,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Prüfung 06.11.2026
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein, der Eintrag bleibt unverändert.** Das Zertifikats-PDF wurde am 06.11.2026 aus dem Detaildialog des amtlichen Fachbetrieberegisters (Route „Entsorgungsfachbetriebe“, Permalink `p=ZZFT01300121`) geladen und mit `pdftotext -layout` feldweise gelesen: 1.1 bis 1.3 „ZUUM Gesellschaft für techn. Überwachung und Zertifizierung mbH, Ringstraße 26, 36396 Steinau an der Straße“, 3.1 „ZUUM-055-0599-04-25-0204“, 3.3 „ZZFT013001214010“, 3.4 „Das Zertifikat beinhaltet 1 Anlage(n).“, 3.7 „Das Zertifikat ist gültig bis zum 31.12.2026“, 4.1 bis 4.3 „C.A.T.E. Abbruch und Umweltservice GmbH, Rostocker Str. 110, 04347 Leipzig“, 4.4 „Registernummer (HRA, HRB etc.): HRB14511 Registergericht: Leipzig“, 6. Prüfungsdatum „23.07.2025“, 8. Ausstellungsdatum „10.10.2025“. Anlage 1 (1.1 „C.A.T.E. Abbruch und Umweltservice GmbH“, 1.2 „Rostocker Str. 110“, 1.3 „04347 Leipzig“): 2.1 Sammeln und 2.2 Befördern sind angekreuzt, je mit Kennnummer nach § 28 NachwV SL65T02180, die Felder 2.3 bis 2.8 sind **nicht** angekreuzt. Der Detaildialog nennt für denselben Datensatz „Vorgangsnummer ZZFT01300121“, „Zertifikatsanlagennr. 1“ und „Zertifizierte Tätigkeiten Sammeln, Befördern“. Standorttreue: die einzige Anlage liegt am Dossierstandort Rostocker Str. 110, 04347 Leipzig, eine Anlage an einem anderen Standort gibt es im Zertifikat nicht; der im Eintrag vermerkte Adressunterschied (Dossier-Ort „Leipzig 04347“ gegen Register-Ort „Leipzig“) bleibt unverändert. Der AFV-Eintrag (kein Registereintrag für diesen Standort) war nicht Gegenstand dieser PDF-Prüfung. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=C.A.T.E.&p=ZZFT01300121&fd=1 (Detaildialog und Zertifikats-PDF abgerufen 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 51.3642594/12.4444102.** Für den Dossier-Eintrag **C.A.T.E. Abbruch und Umweltservice GmbH** trägt das OSM-Objekt way/333413658 (`addr:housenumber`=110, `addr:street`=Rostocker Straße, `addr:postcode`=04347, `addr:city`=Leipzig) die Dossier-Adresse **Rostocker Str. 110, 04347 Leipzig 04347** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 51.3641717/12.4443151 bis 51.3643472/12.4445053). Quelle(n): https://api.openstreetmap.org/api/0.6/way/333413658/full.json ; https://nominatim.openstreetmap.org/search?q=Rostocker+Str.+110%2C+04347+Leipzig&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Rostocker+Str.+110&postalcode=04347&city=Leipzig&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

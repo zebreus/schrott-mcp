@@ -1,5 +1,7 @@
 ---
 slug: by-dorfprozelten-mehring
+lat: 49.7766272
+lon: 9.3992834
 name: Mehring
 trader_type: sonstige
 state: BY
@@ -60,3 +62,7 @@ ist die Vorgängerfassung. Ankauf und Preise sind nicht belegt.
   Anlagen: Anlage 1 Sammeln und Befördern mit Kennnummer nach § 28 NachwV `I676T04700`, Anlage 2 Lagern und Behandeln mit `I676E08169`, Anlage 3 Lagern mit `I676E08169`; alle drei Anlagen tragen in Feld 1.1 bis 1.3 den Standorteintrag `Mehring GmbH`, `Industriestraße 18`, `97904 Dorfprozelten` und sind damit alle dem Dossierstandort zugeordnet.
   Ergänzend geprüft: das im Dossier zitierte Betreiber-PDF `ZZFT0130007213.pdf` ist die Vorgängerzertifizierung (Feld 3.1 `ZUUM-177-0510-97-25-0615`, Feld 3.3 `ZZFT013000728013`, Feld 3.7 `gültig bis zum 05.01.2027`); der Eintrag dokumentiert zutreffend die im Register hinterlegte aktuelle Folgezertifizierung.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Mehring&p=ZZFT01300072&fd=1 ; https://neu.mehring-container.de/wp-content/uploads/2025/09/ZZFT0130007213.pdf (Abruf 05.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.7766272/9.3992834.** Für den Dossier-Eintrag **Mehring** trägt das OSM-Objekt way/87778087 (`addr:housenumber`=18, `addr:street`=Industriestraße, `addr:postcode`=97904, `addr:city`=Dorfprozelten) die Dossier-Adresse **Industriestraße 18, 97904 Dorfprozelten** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.7764902/9.3990342 bis 49.7767643/9.3995325). Quelle(n): https://api.openstreetmap.org/api/0.6/way/87778087/full.json ; https://nominatim.openstreetmap.org/search?q=Industriestra%C3%9Fe+18%2C+97904+Dorfprozelten&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Industriestra%C3%9Fe+18&postalcode=97904&city=Dorfprozelten&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

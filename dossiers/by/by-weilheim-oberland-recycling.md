@@ -1,5 +1,7 @@
 ---
 slug: by-weilheim-oberland-recycling
+lat: 47.8516223
+lon: 11.1441743
 name: Oberland Recycling GmbH
 trader_type: wertstoffhaendler
 state: BY
@@ -52,3 +54,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   **Korrigiert:** Aussteller jetzt „PÜG Prüf- und Überwachungsgesellschaft mbH, Hämmerlestraße 14 + 16, 71126 Gäufelden“; Anlage 2 = Lagern (I190S00012) sowie Verwerten und Beseitigen (ohne eigene Kennnummer); Anlage 3 = Behandeln (I190S00012) sowie Verwerten und Beseitigen (ohne eigene Kennnummer). **Unverändert bestätigt** (feldweise am PDF geprüft): 3.1 Nummer des Zertifikats K11901-20260123-Efb-de; 3.3 Vorgangsnummer ZZHT004002791009; 3.4 Das Zertifikat beinhaltet 3 Anlage(n); 3.7 gültig bis zum 13.07.2027; 4.1 Name Oberland Recycling GmbH, 4.2 Paradeisstraße 68, 4.3 Postleitzahl 82362 Ort Weilheim, 4.4 Registernummer HRB 162736 Registergericht München; 6. Prüfungsdatum 14.01.2026; 8. Ausstellungsdatum 23.01.2026; Anlage 1 Sammeln und Befördern (I190T00436) sowie Handeln und Makeln (I190H00014); alle drei Anlagen am Dossierstandort Paradeisstraße 68; die Anlagentechnikangaben des Eintrags sind wörtlich gedeckt.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten, Beseitigen); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Oberland%20Recycling%20GmbH&p=ZZHT00400279&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 47.8516223/11.1441743.** Für den Dossier-Eintrag **Oberland Recycling GmbH** trägt das OSM-Objekt way/928477945 (`addr:housenumber`=68, `addr:street`=Paradeisstraße, `addr:postcode`=82362, `addr:city`=Weilheim in Oberbayern, `name`=Oberland Recycling GmbH, `amenity`=recycling, `recycling_type`=centre, `phone`=+49 881 92542-0, `website`=https://www.oberland-recycling.de) die Dossier-Adresse **Paradeisstr. 68, 82362 Weilheim** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Oberland Recycling GmbH**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 47.8513447/11.1431309 bis 47.8520576/11.145438). Quelle(n): https://api.openstreetmap.org/api/0.6/way/928477945/full.json ; https://nominatim.openstreetmap.org/search?q=Paradeisstr.+68%2C+82362+Weilheim&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Paradeisstr.+68&postalcode=82362&city=Weilheim&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

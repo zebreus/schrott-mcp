@@ -1,5 +1,7 @@
 ---
 slug: ni-springe-31832-drh-deutsche-rohstoff-handelsgesellschaf
+lat: 52.2179575
+lon: 9.5681729
 name: DRH Deutsche Rohstoff Handelsgesellschaft mbH
 trader_type: schrotthaendler
 state: NI
@@ -48,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Korrektur 06.11.2026: **Die Zertifikatseintragung war unvollständig: Ausstelleranschrift, Vorgangsnummer, Anlagenzahl, Prüfungs- und Ausstellungsdatum, Rechtsträger und die zertifizierte Tätigkeit fehlten.** Das Zertifikats-PDF des Registers (Permalink-Route des Detaildialogs, Abruf 06.11.2026) weist aus: Aussteller Ingenieurbüro Ulbricht GmbH, Albert-Schweitzer-Str. 22, 09648 Mittweida (1.1 bis 1.3); Zertifikatsnummer 801.0978/26 (3.1); Vorgangsnummer ZZST002001249007 (3.3); 1 Anlage (3.4); gültig bis 09.08.2027 (3.7); Rechtsträger DRH Deutsche Rohstoff Handelsgesellschaft mbH, Philipp-Reis-Str. 12, 31832 Springe, HRB 216883 Registergericht Hannover (4.1 bis 4.4); Prüfungsdatum 10.02.2026 (6); Ausstellungsdatum 30.03.2026 (8). **Korrektur im Feld certifications:** der Eintrag ist um diese Felder ergänzt.
   Die einzige Anlage trägt den Dossierstandort Philipp-Reis-Str. 12, 31832 Springe; angekreuzt sind in Feld 2.7 „Handeln" mit der Kennnummer CH09902270 und in Feld 2.8 „Makeln" mit der Kennnummer CV09902462, die Anlagentechnik lautet „Handeln und Makeln von Abfällen" und „vorwiegend metallische Abfälle und Schrotte".
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Deutsche%20Rohstoff&p=ZZST00200124&fd=1 ; https://drh-rohstoffhandel.de/wp-content/uploads/2026/04/2026-efb-zertifikat.pdf (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 52.2179575/9.5681729.** Für den Dossier-Eintrag **DRH Deutsche Rohstoff Handelsgesellschaft mbH** trägt das OSM-Objekt way/215666859 (`addr:housenumber`=12, `addr:street`=Philipp-Reis-Straße, `addr:postcode`=31832, `addr:city`=Springe) die Dossier-Adresse **Philipp-Reis-Str. 12, 31832 Springe** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 52.217858/9.567927 bis 52.218042/9.568503). Quelle(n): https://api.openstreetmap.org/api/0.6/way/215666859/full.json ; https://nominatim.openstreetmap.org/search?q=Philipp-Reis-Str.+12%2C+31832+Springe&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Philipp-Reis-Str.+12&postalcode=31832&city=Springe&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

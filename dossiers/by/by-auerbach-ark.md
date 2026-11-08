@@ -1,5 +1,7 @@
 ---
 slug: by-auerbach-ark
+lat: 49.6819994
+lon: 11.6377474
 name: ARK
 trader_type: sonstige
 state: BY
@@ -64,3 +66,7 @@ Registerkandidat ARK Schrott und Recycling UG (Amberg HRB 4617), Gegenstand Schr
 ### Korrektur 06.11.2026
 
 - [Korrektur 06.11.2026: **Die genannte Mitgliederzahl war nicht reproduzierbar.** Die ESN-Mitgliederliste (https://esn-info.de/mitglieder/ ✓, Abruf 06.11.2026 ✓) weist **304 Einträge mit 268 verschiedenen Firmennamen** ✓ aus — nicht 130 ✓. Der Vermerk nannte die Zahl 130 ✓; die inhaltliche Aussage — **kein ARK-Eintrag** in der ESN-Liste ✓ — bleibt davon unberührt ✓.]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.6819994/11.6377474.** Für den Dossier-Eintrag **ARK** trägt das OSM-Objekt way/390996165 (`addr:housenumber`=6, `addr:postcode`=91275, `addr:city`=Auerbach in der Oberpfalz, `addr:place`=Welluck) die Dossier-Adresse **Wellucker Str. 6, 91275 Auerbach** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.6819316/11.637659 bis 49.6821206/11.6378761). OSM trägt die Adresse mit `addr:place`=Welluck statt des Straßennamens; das Objekt liegt 0,5 m von der Straßenachse **Wellucker Straße** (way/35418570) entfernt, die der Adressabruf für die Dossier-Adresse liefert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/390996165/full.json (Abruf 08.11.2026).]

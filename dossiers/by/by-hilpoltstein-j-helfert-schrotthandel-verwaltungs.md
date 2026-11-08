@@ -1,5 +1,7 @@
 ---
 slug: by-hilpoltstein-j-helfert-schrotthandel-verwaltungs
+lat: 49.1808671
+lon: 11.179148
 name: J. Helfert (Schrotthandel Verwaltungs GmbH)
 trader_type: schrotthaendler
 state: BY
@@ -53,3 +55,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   **Korrigiert:** Anlage 1 = Sammeln, Befördern (I576T20329), Lagern (I576W10169) und Verwerten (ohne eigene Kennnummer); Anlage 2 = Sammeln, Befördern (I576T20329), Lagern und Behandeln (I576W10169) und Verwerten (ohne eigene Kennnummer). **Unverändert bestätigt** (feldweise am PDF geprüft): 1.1 Name LGA InterCert GmbH, 1.2 Straße Tillystrasse 2, 1.3 Postleitzahl 90431 Ort Nürnberg; 3.1 Nummer des Zertifikats 01 400 1300499 (ZKRW 00028/98E); 3.3 Vorgangsnummer ZZIT004000027009; 3.4 Das Zertifikat beinhaltet 2 Anlage(n); 3.7 gültig bis zum 30.09.2027; 4.1 Name Johann Helfert Schrotthandel GmbH & Co. KG, 4.2 Daimlerstraße 4, 4.3 Postleitzahl 91161 Ort Hilpoltstein, 4.4 Registernummer HRA 19289 Registergericht Nürnberg; 6. Prüfungsdatum 16.03.2026; 8. Ausstellungsdatum 20.07.2026; beide Anlagen am Dossierstandort Daimlerstraße 4. Die AFV-Bescheinigung wurde am 06.11.2026 erneut im Register geprüft: das Ergebnisfeld führt wörtlich „Johann Helfert Schrotthandel GmbH &“, „Daimlerstrasse 4, 91161 Hilpoltstein“, „ZAIS00700004 / 1“; ein Zertifikats-PDF ist für diese Bescheinigung nicht hinterlegt, der Eintrag bleibt insoweit unverändert.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Johann%20Helfert%20Schrotthandel%20GmbH%20%26%20Co.%20KG&p=ZZIT00400002&fd=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Helfert&p=ZAIS00700004&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.1808671/11.179148.** Für den Dossier-Eintrag **J. Helfert (Schrotthandel Verwaltungs GmbH)** trägt das OSM-Objekt way/59425513 (`addr:housenumber`=4, `addr:street`=Daimlerstraße, `addr:postcode`=91161, `addr:city`=Hilpoltstein, `name`=Johann Helfert Altauto-Recycling) die Dossier-Adresse **Daimlerstr. 4, 91161 Hilpoltstein** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Johann Helfert Altauto-Recycling**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.1806505/11.1788671 bis 49.1810838/11.1794289). Quelle(n): https://api.openstreetmap.org/api/0.6/way/59425513/full.json ; https://nominatim.openstreetmap.org/search?q=Daimlerstr.+4%2C+91161+Hilpoltstein&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Daimlerstr.+4&postalcode=91161&city=Hilpoltstein&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

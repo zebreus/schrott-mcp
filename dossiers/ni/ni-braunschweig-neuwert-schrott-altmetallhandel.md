@@ -1,5 +1,7 @@
 ---
 slug: ni-braunschweig-neuwert-schrott-altmetallhandel
+lat: 52.3110865
+lon: 10.5067605
 name: NEUWERT Schrott & Altmetallhandel OHG
 trader_type: metallhaendler
 state: NI
@@ -52,3 +54,6 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 08.11.2026
 
 - [Korrektur 08.11.2026: **Die drei Konstruktal-Paare stehen doch in der Liste der veralteten Preise — sie werden mit dem Release vom 08.11.2026 zurückgezogen.** Die Notiz vom 07.11.2026 (Abschnitt `### Korrektur 07.11.2026 (Preispflege)` ✓ ✓) schrieb, die drei Paare `aluminium-gemischt` / „Konstruktal / ab 1 kg“ — 1,20 EUR/kg ✓, „Konstruktal / ab 100 kg“ — 1,50 EUR/kg ✓, „Konstruktal / ab 1000 kg“ — 1,80 EUR/kg ✓ (Stand 04.11.2026 ✓ ✓) stünden „noch nicht in der Liste der veralteten Preise“ ✓ ✓ — das war **damals** richtig ✓ ✓ (die Notiz entstand um 13:10 Uhr ✓ ✓, die Liste `crates/store/src/public/stale_current_prices.tsv` ✓ ✓ um 13:33 Uhr ✓ ✓). Die Liste nimmt die drei Paare **doch** auf ✓ ✓ — die Beleglage der Notiz ✓ ✓ trägt den Rückzug ✓ ✓ (die Sorte „Aluminium Konstruktal“ ✓ steht im Feed heute **nicht** mehr ✓ ✓). Die Migration 11 ✓ zieht die drei Current-Pointer damit **zurück** ✓ ✓ — die historischen Preise bleiben erhalten ✓ ✓. An den Dossierdaten ändert sich **nichts** ✓ ✓. Quelle(n): https://neu-wert.de/unsere-aktuelle-preisliste-altmetalle/ (Abruf 07.11.2026); `crates/store/src/public/stale_current_prices.tsv` ✓ ✓ (Release `eadaf8c6` ✓ ✓).]
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate belegt: `lat`/`lon` = 52.3110865/10.5067605.** Für den Dossier-Eintrag **NEUWERT Schrott & Altmetallhandel OHG** trägt das OSM-Objekt way/173390292 (`addr:housenumber`=2, `addr:street`=Benzstraße, `addr:postcode`=38112, `addr:city`=Braunschweig, `name`=NEUWERT - Schrott und Altmetallhandel OHG, `office`=company, `phone`=+49 531 28766008, `website`=https://neu-wert.de) die Dossier-Adresse **Benzstraße 2, 38112 Braunschweig** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 52.3109625/10.5065911 bis 52.3112106/10.5069299). Quelle(n): https://api.openstreetmap.org/api/0.6/way/173390292/full.json ; https://nominatim.openstreetmap.org/search?q=Benzstra%C3%9Fe+2%2C+38112+Braunschweig&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Benzstra%C3%9Fe+2&postalcode=38112&city=Braunschweig&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: ni-brake-wesermarsch-metallrecycling-adressprazis
+lat: 53.3340694
+lon: 8.458388
 name: Wesermarsch Metallrecycling GmbH
 trader_type: metallhaendler
 state: NI
@@ -64,3 +66,7 @@ Standort, nicht eine öffentliche Privatkundenannahme.
   Alle übrigen geprüften Felder stimmen wörtlich mit dem PDF überein: Aussteller DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart (1.1 bis 1.3); Zertifikatsnummer 291124027 (3.1); Vorgangsnummer ZZHT003015365003 (3.3); 4 Anlagen (3.4); gültig bis 13.02.2028 (3.7); Rechtsträger Wesermarsch Metallrecycling GmbH, Max-Planck-Straße 9, 26919 Brake, HRB 100164 Registergericht Oldenburg (Oldenburg) (4.1 bis 4.4); Prüfungsdatum 19.08.2026 (6); Ausstellungsdatum 26.08.2026 (8). Alle vier Anlagen tragen den Dossierstandort Max-Planck-Straße 9, 26919 Brake; das Beiblatt AltfahrzeugV zu Anlage 1 ist im PDF vorhanden. Die Ankreuzfelder wurden am PDF-Contentstream gelesen und am gerenderten Seitenbild bestätigt.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten, Beseitigen); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wesermarsch&p=ZZHT00301536&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 53.3340694/8.458388.** Für den Dossier-Eintrag **Wesermarsch Metallrecycling GmbH** trägt das OSM-Objekt way/225604292 (`addr:housenumber`=9, `addr:street`=Max-Planck-Straße, `addr:postcode`=26919, `addr:city`=Brake (Unterweser)) die Dossier-Adresse **Max-Planck-Str. 9, 26919 Brake** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 53.3339615/8.4582163 bis 53.3341772/8.4585598). Quelle(n): https://api.openstreetmap.org/api/0.6/way/225604292/full.json ; https://nominatim.openstreetmap.org/search?q=Max-Planck-Str.+9%2C+26919+Brake&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Max-Planck-Str.+9&postalcode=26919&city=Brake&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: by-blaichach-foll-rohstoffhandel
+lat: 47.5481409
+lon: 10.2558976
 name: Föll Rohstoffhandel GmbH
 trader_type: schrotthaendler
 state: BY
@@ -63,3 +65,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   nicht nötig. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=F%C3%B6ll%20Rohstoffhandel&p=ZZHT00400108&fd=1
   ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&o=5&n=F%C3%B6ll%20Rohstoffhandel
   (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 47.5481409/10.2558976.** Für den Dossier-Eintrag **Föll Rohstoffhandel GmbH** trägt das OSM-Objekt way/208844309 (`addr:housenumber`=30, `addr:street`=Immenstädter Straße, `addr:postcode`=87544, `addr:city`=Blaichach) die Dossier-Adresse **Immenstädter Str. 30, 87544 Blaichach** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 47.548049/10.255734 bis 47.5482328/10.2560611). Quelle(n): https://api.openstreetmap.org/api/0.6/way/208844309/full.json ; https://nominatim.openstreetmap.org/search?q=Immenst%C3%A4dter+Str.+30%2C+87544+Blaichach&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Immenst%C3%A4dter+Str.+30&postalcode=87544&city=Blaichach&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

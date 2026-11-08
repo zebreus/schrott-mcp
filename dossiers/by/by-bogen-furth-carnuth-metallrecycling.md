@@ -1,6 +1,8 @@
 ---
 
 slug: by-bogen-furth-carnuth-metallrecycling
+lat: 48.9313765
+lon: 12.6710521
 name: Carnuth KG Metallrecycling
 trader_type: metallhaendler
 state: BY
@@ -70,3 +72,7 @@ Metallrecyclingwerk der H. Carnuth KG in Bogen/Furth, getrennt vom Stahlrecyclin
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der PÜG (Zertifikat K1008-20260615-Efb-de) für den Standort Industriestraße 16, 94327 Bogen war nicht vollständig lesbar; die schließende Klammer wurde ergänzt.
   Die Anlagen 4 bis 7, der Hinweis auf die nicht übernommenen Anlagen 1 bis 3 in Straubing sowie Zertifikats- und Vorgangsnummer bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.9313765/12.6710521.** Für den Dossier-Eintrag **Carnuth KG Metallrecycling** trägt das OSM-Objekt way/120955031 (`addr:housenumber`=16, `addr:street`=Industriestraße, `addr:postcode`=94327, `addr:city`=Bogen, `name`=Carnuth, `phone`=+49 9422 85030, `website`=https://www.carnuth.de/) die Dossier-Adresse **Industriestr. 16, 94327 Bogen/Furth** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Carnuth**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.9308742/12.6706452 bis 48.9317523/12.6718147). Quelle(n): https://api.openstreetmap.org/api/0.6/way/120955031/full.json ; https://nominatim.openstreetmap.org/search?q=Industriestr.+16%2C+94327+Bogen%2FFurth&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Industriestr.+16&postalcode=94327&city=Bogen%2FFurth&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

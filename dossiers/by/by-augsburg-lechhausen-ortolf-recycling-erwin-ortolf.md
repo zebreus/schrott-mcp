@@ -1,5 +1,7 @@
 ---
 slug: by-augsburg-lechhausen-ortolf-recycling-erwin-ortolf
+lat: 48.3896645
+lon: 10.9325433
 name: Ortolf Recycling GmbH (Erwin Ortolf)
 trader_type: schrotthaendler
 state: BY
@@ -71,3 +73,7 @@ Betriebsgeschichte von über 70 Jahren; Ankaufpreise sind nicht belegt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ortolf&p=ZZKT00100267&fd=1
   ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Ortolf
   (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.3896645/10.9325433.** Für den Dossier-Eintrag **Ortolf Recycling GmbH (Erwin Ortolf)** trägt das OSM-Objekt way/87441198 (`addr:housenumber`=12, `addr:street`=Raiffeisenstraße, `addr:postcode`=86167, `addr:city`=Augsburg) die Dossier-Adresse **Raiffeisenstr. 12, 86167 Augsburg-Lechhausen** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.389553/10.9324242 bis 48.3897761/10.9326623). Quelle(n): https://api.openstreetmap.org/api/0.6/way/87441198/full.json ; https://nominatim.openstreetmap.org/search?q=Raiffeisenstr.+12%2C+86167+Augsburg-Lechhausen&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Raiffeisenstr.+12&postalcode=86167&city=Augsburg-Lechhausen&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: ni-delmenhorst-vedder-stockrahm
+lat: 53.0767514
+lon: 8.7535607
 name: Vedder & Stockrahm GmbH & Co. KG
 trader_type: sonstige
 state: HB
@@ -58,3 +60,6 @@ der Verzeichnislead zu Delmenhorst und die noch nicht geokodierte Anschrift.
   Der Betrieb bietet die Sorten also weiterhin mit unverändertem Preis an — seit der Zinn-/Blei-Trennung (Commit 435e56ea) führt der Handler sie aber als `zinn-geschirr` (Zinngeschirr): die Zeiger `zinn-geschirr` / „50-59%“, `zinn-geschirr` / „60-69%“ und `zinn-geschirr` / „70-79%“ mit 5,90 / 9,00 / 11,00 EUR/kg sind heute frisch (Stand 07.11.2026 02:04 UTC). Die alten Schlüssel `zinn` / … behaupten für „Zinn / Reinzinn“ einen Zinngeschirr-Preis und sind damit Fremdkörper → **alle drei Rückzug** (die Preise bleiben in der Historie).
   Im Dossier ist keine OSM-/Objekt-ID hinterlegt; die Dossier-Adresse ist in OSM als way/71459092 geführt (`addr:housenumber`=10, `addr:street`=Senator-Bömers-Straße, `addr:postcode`=28197, `addr:city`=Bremen; live abgerufen 07.11.2026). An den Dossierdaten ändert sich nichts, `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unverändert. Quelle(n): https://vedder-stockrahm.de/ankauf/ (Abruf 07.11.2026 13:02 UTC).]
 
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 53.0767514/8.7535607.** Für den Dossier-Eintrag **Vedder & Stockrahm GmbH & Co. KG** trägt das OSM-Objekt way/71459092 (`addr:housenumber`=10, `addr:street`=Senator-Bömers-Straße, `addr:postcode`=28197, `addr:city`=Bremen) die Dossier-Adresse **Senator-Bömers-Straße 10, 28197 Bremen** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 53.0766289/8.7534054 bis 53.0768739/8.753716). Es ist dasselbe OSM-Objekt wie im Dossier hb-woltmershausen-vedder-stockrahm (gleiche Anschrift Senator-Bömers-Straße 10, 28197). Quelle(n): https://api.openstreetmap.org/api/0.6/way/71459092/full.json ; https://nominatim.openstreetmap.org/search?q=Senator-B%C3%B6mers-Stra%C3%9Fe+10%2C+28197+Bremen&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Senator-B%C3%B6mers-Stra%C3%9Fe+10&postalcode=28197&city=Bremen&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]
