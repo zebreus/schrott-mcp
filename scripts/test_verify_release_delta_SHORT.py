@@ -172,6 +172,10 @@ class ReleaseDeltaStateTests(unittest.TestCase):
         self.db.execute("DELETE FROM traders WHERE slug=?", (slug,))
         self.db.commit()
         self.assertIn(f"{slug}: expected one trader, found 0", self.verify()["failures"])
+        # The duplicate case needs a second scope row: with a single-row
+        # scope there is nothing to duplicate, so the case is skipped.
+        if len(self.expected) < 2:
+            self.skipTest("scope has a single row, nothing to duplicate")
         self.db.execute("INSERT INTO traders SELECT * FROM traders WHERE slug=?",
                         (self.expected[1]["slug"],))
         self.db.commit()
