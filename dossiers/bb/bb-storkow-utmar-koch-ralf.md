@@ -6,6 +6,8 @@ state: BB
 city: Storkow
 street: Robert-Koch-Str. 24
 postcode: '15859'
+lat: 52.2311843
+lon: 13.9711269
 phone: ''
 email: ''
 opening_hours: ''
@@ -58,3 +60,7 @@ provenance_origin: table
   (5) **Preise, nach Art getrennt:** **ANKAUF:** **keine** belegte Preisliste und **kein** Eurobetrag; die Verzeichnisfunde nennen lediglich die Branche Schrott/Altmaterialhandel, aber **keine** Kurse, Mindestmengen oder Konditionen. **VERKAUF:** **keine** Verkaufspreisliste. **GEBÜHREN:** **keine** belegten Abhol- oder Containertarife. Die zertifizierten Tätigkeiten der **Kiesewetter GmbH** (Sammeln und Befördern, Lagern, Behandeln) sind **Leistungsangaben eines anderen Betriebs** und werden **nicht** als Konditions- oder Preisbeleg für die Dossier-Zeile übernommen. Es wird **kein** Wert erfunden.
   (6) **Was das Dossier ändert und was nicht:** Das Frontmatter bleibt **unverändert** (`name: Utmar-Koch Ralf`, `street: Robert-Koch-Str. 24`, `postcode: '15859'`, `phone: ''`, `website_status: unbekannt`, `status: pruefung`). **Neu belegt** sind der **amtliche Negativbefund** für alle drei Namensformen, die **kartierte Nachbarschaft** (Kiesewetter GmbH an drei Hausnummern der Lebbiner Straße im selben Ort, Kummer Erd- und Tiefbau in Spreenhagen) und die **geklärte Adresslage** in OSM. **Offen bleiben** die Betreiberidentität, ob die Robert-Koch-Straße 24 heute überhaupt noch von einem Schrottbetrieb genutzt wird, und die Frage nach der Rolle des Facebook-Profils.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Utmar ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Utmar-Koch ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Robert-Koch-Stra%C3%9Fe%2024%2C%2015859%20Storkow%20(Mark)%2C%20Deutschland%3B13.9561269%3B52.2161844%3B13.9861269%3B52.2461844%3B13.9561269%3B52.2161844&dst=3&is=1&e=1 ; https://api.openstreetmap.org/api/0.6/way/376374195/full.json ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=2&addressdetails=1&q=Robert-Koch-Stra%C3%9Fe%2024%2C%2015859%20Storkow (Abruf 07.11.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 52.2311843/13.9711269.** Das OSM-Objekt way/376374195 trägt `addr:housenumber`=24, `addr:street`=Robert-Koch-Straße, `addr:postcode`=15859, `addr:city`=Storkow (Mark). Dasselbe Objekt trägt `building`=house. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/376374195/full.json ; https://nominatim.openstreetmap.org/search?q=Robert-Koch-Str.%2024%2C%2015859%20Storkow&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

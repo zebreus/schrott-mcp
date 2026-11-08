@@ -7,6 +7,8 @@ state: HE
 city: Butzbach 35510
 street: August-Wenzel-Straße 4
 postcode: '35510'
+lat: 50.4253374
+lon: 8.6690717
 phone: +49 6033 72021
 email: butzbach@ns-i.de
 opening_hours: Mo–Fr 07:30–09:30 und 09:50–12:30 Uhr; Mo–Do 13:10–16:30 Uhr; Fr 13:10–15:00
@@ -48,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag war durch überzählige schließende Klammern unlesbar.** Beim Zertifikat ESN 15-090537(25) der ESN für den Standort August-Wenzel-Straße 4, 35510 Butzbach schloss die äußere Klammer bereits nach dem Anhang-Verweis „8.9 Spalte 2b)“, während „8.12 Spalte 2 a)“ und „und b)“ ohne öffnende Klammer dastanden.
   Den drei Anhang-Verweisen wurden die fehlenden öffnenden Klammern ergänzt; die vier Anlagen, ihre Tätigkeiten, die Zertifikatsnummer und das Gültigkeitsdatum 31.01.2027 bleiben unverändert, kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.4253374/8.6690717.** Das OSM-Objekt way/182868714 trägt `addr:housenumber`=4, `addr:street`=August-Wenzel-Straße, `addr:postcode`=35510, `addr:city`=Butzbach. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/182868714/full.json ; https://nominatim.openstreetmap.org/search?q=August-Wenzel-Stra%C3%9Fe%204%2C%2035510%20Butzbach&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

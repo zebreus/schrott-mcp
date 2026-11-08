@@ -6,6 +6,8 @@ state: HE
 city: Frankfurt am Main
 street: Uhlfelderstr. 4
 postcode: '60314'
+lat: 50.1208843
+lon: 8.7481213
 phone: ''
 email: ''
 opening_hours: ''
@@ -98,3 +100,7 @@ steht deshalb nicht im Frontmatter.
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: EdDE Entsorgergemeinschaft der Deutschen Entsorgungswirtschaft e.V.“, „1.2 Straße: Von-der-Wettern-Str. 25“, Postleitzahl 51149, Ort Köln = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: 0686 (8. jährliche Überprüfung)“; „3.3 Vorgangsnummer ...: ZZEE002001626013“ (im Ergebnisraster verkürzt „ZZEE00200162 / 1“ bis „/ 19“); „3.4 Das Zertifikat beinhaltet 19 Anlage(n).“; „3.6 ... (siehe Anlage(n) 2-3, 5-16, 18-19)“; „3.7 Das Zertifikat ist gültig bis zum 12.01.2028“; „4.1 Name: TSR Deutschland GmbH & Co. KG, Region Südwest II“, „4.2 Straße: Brunnenstraße 138“, Postleitzahl 44536, Ort Lünen; „4.4 ... Registernummer ...: HRA 19743 ... Registergericht: Dortmund“; „6. Prüfungsdatum: 13.07.2026“; „8. Ausstellungsdatum: 24.08.2026“. Standorttreue: das Zertifikat umfasst 19 Anlagen; dem Dossierstandort sind ausschließlich die Anlagen 4 bis 16 zugeordnet, die je als Standort „TSR Deutschland GmbH & Co. KG, Region Südwest II, NL Frankfurt“, „Uhlfelderstraße 4“, 60314 Frankfurt nennen, während die Anlagen 1 bis 3 in Ginsheim-Gustavsburg und die Anlagen 17 bis 19 in Darmstadt liegen. Anlagenbogen Feld 2: Anlage 4 „2.1 Sammeln“ und „2.2 Befördern“ mit „E978T03206“, die Anlagen 5 bis 15 mit „2.3 Lagern“ und/oder „2.4 Behandeln“ (Kennnummer nach § 28 NachwV F26RD00558) und Anlage 16 „2.3 Lagern“ und „2.4 Behandeln“ mit „F26RD00558“; das Registerraster führt dieselben Tätigkeiten. Der Rechtsträger mit Konzern-Hauptsitz Brunnenstraße 138, 44536 Lünen ist im Feld 4 des Zertifikats geführt; die im Dossier genannte Niederlassung Frankfurt ist die Standortanlage.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=TSR%20Deutschland&p=ZZEE00200162&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.1208843/8.7481213.** Das OSM-Objekt way/168764634 trägt `addr:housenumber`=4, `addr:street`=Uhlfelderstraße, `addr:postcode`=60314, `addr:city`=Frankfurt am Main. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/168764634/full.json ; https://nominatim.openstreetmap.org/search?q=Uhlfelderstr.%204%2C%2060314%20Frankfurt%20am%20Main&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: BB
 city: Schöneiche
 street: Werner-von-Siemens-Str. 12
 postcode: '15566'
+lat: 52.4909710
+lon: 13.6974293
 phone: 030 64387710
 email: info@hein-schrotthandel.de
 opening_hours: Mo-Fr 8:00-16:00, Sa 9:00-13:00
@@ -40,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 07.11.2026 (Preispflege)
 
 - [Korrektur 07.11.2026 (Preispflege): **Zwei veraltete Current-Preise an der Live-Seite geprüft — beide Fälle sind Rückzug (Fremdkörper), keine Preisänderung am Betrieb.** Der Handler läuft (Lauf 07.11.2026 02:19 UTC, 95 Preise übernommen, Status `ok`), er erzeugt die beiden alten Schlüssel (material, variant) heute aber nicht mehr — die Pipeline zieht Current-Pointer für normale Handler nicht zurück, darum stehen die alten Werte weiterhin als „aktueller Preis" in der Datenbank. 1) `kabel-kupfer` / „Blei" — 0,45 EUR/kg, Stand 29.09.2026: Die Seite https://www.hein-schrotthandel.de/schrottpreise/ (Abruf 07.11.2026 13:01 UTC) führt die Sorte in der Tabelle „Material | Preis (pro Tonne)" als Zeile „Kupfer-Blei-Kabel ohne Teer (fettfrei)" mit der Preiszelle **„450,00 €"** (pro Tonne, also 0,45 EUR/kg). Die Sorte wird heute also noch angeboten — aber nicht mehr als Kupferkabel: der Handler führt sie (Remap nach Feedback #133) als eigenes Material `kabel-blei` / „Blei" (heute 0,45 EUR/kg, Stand 07.11.2026). Der Schlüssel (kabel-kupfer, „Blei") wird heute nicht mehr erzeugt → **Rückzug** (der Preis bleibt in der Historie). 2) `messing` / „Wasseruhren" — 1,10 EUR/kg, Stand 29.09.2026: dieselbe Seite, Zeile „Messing Wasseruhren", Preiszelle **„1.100,00 €"** (pro Tonne, also 1,10 EUR/kg). Die Sorte wird heute angeboten, aber als leichtes Messing: der Handler führt sie als `messing-leicht` / „Wasseruhren" (heute 1,10 EUR/kg, Stand 07.11.2026). Der alte Schlüssel (messing, „Wasseruhren") ist damit ein Fremdkörper → **Rückzug**. Beide aktuellen Zeiger existieren bereits und sind frisch (Stand 07.11.2026); zurückgezogen werden soll nur der jeweils alte Current-Pointer. Im Dossier ist keine OSM-/Objekt-ID hinterlegt; an der Preiszelle ändert sich nichts, `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unberührt. Quelle(n): https://www.hein-schrotthandel.de/schrottpreise/ (Abruf 07.11.2026 13:01 UTC).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 52.4909710/13.6974293.** Das OSM-Objekt way/220327363 trägt `addr:housenumber`=12, `addr:street`=Werner-von-Siemens-Straße, `addr:postcode`=15566, `addr:city`=Schöneiche bei Berlin. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/220327363/full.json ; https://nominatim.openstreetmap.org/search?q=Werner-von-Siemens-Str.%2012%2C%2015566%20Sch%C3%B6neiche&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: SH
 city: Hohenaspe
 street: Burgviert 23
 postcode: '25582'
+lat: 53.9882108
+lon: 9.5004897
 phone: 04893/37 66 0
 email: info@stender-hohenaspe.de
 opening_hours: Mo-Fr 7:00-17:00
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der BFUB Cert (Zertifikat CERT 120) für den Standort Burgviert 23, 25582 Hohenaspe brach im letzten Satz ab; die schließende Klammer wurde angehängt.
   Die Anlagen, der Hinweis auf das AltfahrzeugV-Beiblatt mit dem Ansprechpartner Heinrich Stender und alle Datumsangaben bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 53.9882108/9.5004897.** Das OSM-Objekt way/379417174 trägt `addr:housenumber`=23, `addr:street`=Burgviert, `addr:postcode`=25582, `addr:city`=Hohenaspe. Dasselbe Objekt trägt `building`=commercial. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/379417174/full.json ; https://nominatim.openstreetmap.org/search?q=Burgviert%2023%2C%2025582%20Hohenaspe&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

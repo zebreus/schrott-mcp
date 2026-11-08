@@ -6,6 +6,8 @@ state: HE
 city: Bad Hersfeld
 street: 'Landecker Str. 15'
 postcode: '36251'
+lat: 50.8693305
+lon: 9.7186145
 phone: '06621 14464'
 email: 'info@maeusgeier-doering.de'
 opening_hours: 'Mo–Fr 07:30–16:00'
@@ -59,3 +61,7 @@ Altfahrzeugverwertungs-Route keinen Treffer zeigt; öffentliche Ankaufpreise feh
 ### Korrektur 06.11.2026 (Zertifikatstiefe)
 
 - [Korrektur 06.11.2026 (Zertifikatstiefe): **Im Feld `certifications` fehlten die im Zertifikats-PDF angekreuzten Tätigkeiten.** Vorgangsnummer ZZEE003000198011: Anlage 2 (Landecker Straße 15, 36251 Bad Hersfeld): die im Zertifikats-PDF **angekreuzte** Tätigkeit „Verwerten“ (Feld 2.5) fehlte im Eintrag; Anlage 3 (gleicher Standort): die **angekreuzte** Tätigkeit „Verwerten“ (Feld 2.5) fehlte im Eintrag. Die Ankreuzfelder 2.1 bis 2.8 wurden mit `scripts/release/pdf_checkboxes.py` am Contentstream des amtlichen Zertifikats-PDF gelesen - nur was dort angekreuzt ist, ist zertifiziert. Quelle(n): amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Detaildialog des Zertifikats ZZEE003000198011 (Abruf 06.11.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.8693305/9.7186145.** Das OSM-Objekt node/10781782794 trägt `addr:housenumber`=15, `addr:street`=Landecker Straße, `addr:city`=Bad Hersfeld. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt führt keine addr:postcode-Angabe; die Postleitzahl des Dossiers passt zur Lage des Objekts. Quelle(n): https://api.openstreetmap.org/api/0.6/node/10781782794.json ; https://nominatim.openstreetmap.org/search?q=Landecker%20Str.%2015%2C%2036251%20Bad%20Hersfeld&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

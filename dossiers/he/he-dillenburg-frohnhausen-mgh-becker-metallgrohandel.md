@@ -6,6 +6,8 @@ state: HE
 city: Dillenburg-Frohnhausen
 street: Bahnhofstr. 23
 postcode: '35684'
+lat: 50.7736594
+lon: 8.3061083
 phone: 02771/83010
 email: becker@mgh-becker.de
 opening_hours: Mo-Fr 08:00-12:00,13:00-15:30
@@ -52,3 +54,7 @@ bis 20 m³ und die abweichende Namensschreibweise im Register.
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: PÜG Prüf- und Überwachungsgesellschaft mbH“, „1.2 Straße: Hämmerlestraße 14 + 16“, Postleitzahl 71126, Ort Gäufelden = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: K10040-20260622-Efb-de“; „3.3 Vorgangsnummer ...: ZZHT004000358012“ (im Ergebnisraster verkürzt „ZZHT00400035 / 1“ und „/ 2“); „3.4 Das Zertifikat beinhaltet 2 Anlage(n).“; „3.6 ... (siehe Anlage(n) 2)“; „3.7 Das Zertifikat ist gültig bis zum 30.11.2027“; „4.1 Name: MGH METALLGROSSHANDEL BECKER GMBH“, „4.2 Straße: Bahnhofstraße 23“, Postleitzahl 35684, Ort Dillenburg-Frohnhausen; „4.4 ... Registernummer ...: HRA3100 ... Registergericht: Wetzlar“; „6. Prüfungsdatum: 01.06.2026“; „8. Ausstellungsdatum: 22.06.2026“. Standorttreue: beide Anlagen nennen als Standort „Bahnhofstraße 23, 35684 Dillenburg-Frohnhausen“, also den Dossierstandort. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F54T014605“ (Feld 4.1 „alle Abfallarten“), Anlage 2 „2.3 Lagern“ und „2.4 Behandeln“ mit „F54RD00337“; das Registerraster führt „Sammeln, Befördern“ / „Lagern, Behandeln“. In Anlage 2 ist zusätzlich „2.5 Verwerten“ in der Ausprägung „vorbereitend“ angekreuzt; das ist die nach dem EfbV-Formular obligatorische Verknüpfung des Lagerns und Behandelns mit der Verwertung und keine eigene zertifizierte Tätigkeit.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=MGH%20Becker&p=ZZHT00400035&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.7736594/8.3061083.** Das OSM-Objekt way/1062365275 trägt `addr:housenumber`=23, `addr:street`=Bahnhofstraße, `addr:postcode`=35684, `addr:city`=Dillenburg. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1062365275/full.json ; https://nominatim.openstreetmap.org/search?q=Bahnhofstr.%2023%2C%2035684%20Dillenburg-Frohnhausen&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

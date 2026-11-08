@@ -6,6 +6,8 @@ state: TH
 city: Küllstedt
 street: An der Lehmkuhle 11
 postcode: '37359'
+lat: 51.2775767
+lon: 10.2900284
 phone: 036075/56437
 email: recyclinghof-petri@t-online.de
 opening_hours: ''
@@ -108,3 +110,7 @@ zurückgenommenen Hersteller ist leer.
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=An%20der%20Lehmkuhle%2011%2C%2037359%20K%C3%BCllstedt%2C%20Deutschland%3B10.2900285%3B51.2775767%3B10.302029%3B51.289577%3B10.278028%3B51.265577&dst=5&is=1&e=1;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=An%20der%20Lehmkuhle%2011%2C%2037359%20K%C3%BCllstedt%2C%20Deutschland%3B10.2900285%3B51.2775767%3B10.302029%3B51.289577%3B10.278028%3B51.265577&dst=10&is=1&e=1
   (Abruf 05.11.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 51.2775767/10.2900284.** Das OSM-Objekt way/550349671 trägt `addr:housenumber`=11, `addr:street`=An der Lehmkuhle, `addr:postcode`=37359, `addr:city`=Küllstedt. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/550349671/full.json ; https://nominatim.openstreetmap.org/search?q=An%20der%20Lehmkuhle%2011%2C%2037359%20K%C3%BCllstedt&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

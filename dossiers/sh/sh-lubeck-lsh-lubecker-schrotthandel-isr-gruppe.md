@@ -6,6 +6,8 @@ state: SH
 city: Lübeck
 street: Dampfpfeife 12-20
 postcode: '23569'
+lat: 53.8995555
+lon: 10.8139848
 phone: 0451-309011 / 0451-301523
 email: info@lsh-luebeck.de
 opening_hours: ''
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 291012034 der DEKRA Certification GmbH für den Standort Dampfpfeife 12-20, 23569 Lübeck war der Eintrag nicht vollständig lesbar; die schließende Klammer wurde angehängt.
   Die Anlagen, der Hinweis auf die Erstbehandlungsanlage nach § 21 ElektroG sowie sämtliche Zertifikatsdaten bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 53.8995555/10.8139848.** Das OSM-Objekt way/344301531 trägt `addr:housenumber`=12-20, `addr:street`=Dampfpfeife, `addr:postcode`=23569, `addr:city`=Lübeck. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/344301531/full.json ; https://nominatim.openstreetmap.org/search?q=Dampfpfeife%2012-20%2C%2023569%20L%C3%BCbeck&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: SH
 city: Kreis Steinburg / Itzehoe
 street: Lisa-Meiter-Straße 11
 postcode: '25524'
+lat: 53.9533427
+lon: 9.4900786
 phone: '04821 403440'
 email: entsorgung@doerner.de
 opening_hours: Mo-Fr 8:00-17:00
@@ -48,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der EGH (Zertifikat eg0002) für den Standort Lise-Meitner-Str. 11, 25524 Itzehoe endete mitten im Satz; die schließende Klammer wurde ergänzt.
   Vorgangsnummer, die vier zugeordneten Anlagen sowie der Hinweis auf die abweichende Schreibweise der Konzernanschrift bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 53.9533427/9.4900786.** Das OSM-Objekt node/3265999159 trägt `addr:housenumber`=11, `addr:street`=Lise-Meitner-Straße, `addr:postcode`=25524, `addr:city`=Itzehoe. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Die Dossier-Schreibweise "Lisa-Meiter-Straße" führt OSM als "Lise-Meitner-Straße".  **Zweite Quelle:** die Nominatim-Vorwärtssuche nach „Lise-Meitner-Straße 11, 25524 Itzehoe" (live abgefragt am 08.11.2026) liefert **genau denselben** Treffer **node/3265999159** ✓ ✓ an der Adresse „11, Lise-Meitner-Straße, Edendorf, Itzehoe" ✓ ✓ — die beiden Quellen decken sich ✓ ✓. Quelle(n): https://api.openstreetmap.org/api/0.6/node/3265999159.json ; https://nominatim.openstreetmap.org/search?format=jsonv2&q=Lise-Meitner-Stra%C3%9Fe+11%2C+25524+Itzehoe (Abruf 08.11.2026).]

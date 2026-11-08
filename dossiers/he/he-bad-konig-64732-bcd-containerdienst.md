@@ -6,6 +6,8 @@ state: HE
 city: Bad König
 street: 'Zeller Gewerbezentrum 27'
 postcode: '64732'
+lat: 49.7276594
+lon: 8.9934052
 phone: '06063 - 91 35 47'
 email: 'info@bcdcontainerdienst.de'
 opening_hours: ''
@@ -53,3 +55,7 @@ Gewerbezentrum 2 überholt ist und bezifferte Ankaufpreise nicht vorliegen.
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: SVG Zertifizierungsdienst GmbH“, „1.2 Straße: Breitenbachstraße 1“, Postleitzahl 60487, Ort Frankfurt am Main = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: 1649/01/16“; „3.3 Vorgangsnummer ...: ZZFT011002754010“ (im Ergebnisraster verkürzt „ZZFT01100275 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.6 ... (siehe Anlage(n) 2 + 3)“; „3.7 Das Zertifikat ist gültig bis zum 01.09.2027“; „4.1 Name: BCD Containerdienst GmbH & Co. KG“, „4.2 Straße: Zeller Gewerbezentrum 27“, Postleitzahl 64732, Ort Bad König; „4.4 ... Registernummer ...: HRA 84964 ... Registergericht: Darmstadt“; „6. Prüfungsdatum: 02.03.2026“; „8. Ausstellungsdatum: 22.04.2026“. Standorttreue: alle drei Anlagen nennen als Standort „Zeller Gewerbezentrum 27, 64732 Bad König“ mit der Standortbezeichnung „Hauptsitz“, also den Dossierstandort. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F06T019528“, Anlage 2 „2.3 Lagern“ mit „F06RD00188“, Anlage 3 „2.4 Behandeln“ mit „F06RD00188“; das Registerraster führt „Sammeln, Befördern“ / „Lagern“ / „Behandeln“. In Anlage 2 und Anlage 3 sind zusätzlich die nach dem EfbV-Formular obligatorischen Verknüpfungen „zwecks Verwertung“ bzw. „zwecks Beseitigung“ sowie „2.5 Verwerten“ und „2.6 Beseitigen“ in der Ausprägung „vorbereitend“ angekreuzt; das ist keine eigene zertifizierte Tätigkeit und steht deshalb nicht im Eintrag.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=BCD%20Containerdienst&p=ZZFT01100275&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 49.7276594/8.9934052.** Das OSM-Objekt way/1051761798 trägt `addr:housenumber`=27, `addr:street`=Zeller Gewerbezentrum, `addr:postcode`=64732, `addr:city`=Bad König. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1051761798/full.json ; https://nominatim.openstreetmap.org/search?q=Zeller%20Gewerbezentrum%2027%2C%2064732%20Bad%20K%C3%B6nig&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

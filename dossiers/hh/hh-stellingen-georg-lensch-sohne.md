@@ -6,6 +6,8 @@ state: HH
 city: Stellingen
 street: Lederstr. 33
 postcode: '22525'
+lat: 53.5904878
+lon: 9.9117741
 phone: ''
 email: ''
 opening_hours: ''
@@ -51,3 +53,7 @@ Seedstatus `geschlossen` erhalten; das Seed-Schließungsjahr2018 und die Hausnum
 ### Recherche 06.11.2026
 
 - [Recherche 06.11.2026: Amtliches Fachbetrieberegister live abgefragt, Standortsuche mit der adressgenauen Koordinate der Lederstraße 33 (53.5904878 / 9.9117741). Namenssuche Efb n=Lensch -> 0 Treffer, n=Georg Lensch -> 0 Treffer; Route Altfahrzeugverwertung n=Lensch -> 0 Treffer, n=Söhne -> 0 Treffer. Die Efb-Standortsuche 3 km um die Lederstraße 33 liefert 41 Treffer, die fast alle auf demselben Areal direkt neben der Dossier-Adresse liegen: OTTO DOERNER Feddersen & Starke GmbH & Co. KG, Lederstrasse 32-34, 22525 Hamburg, ZZBE00100041 / 1 bis / 3, 0,1 km (Handeln und Makeln; Lagern; Behandeln); Otto Doerner Entsorgung GmbH, Lederstr. 24, ZZBE00100004 / 1 bis / 6, 0,2 km; OTTO DOERNER Sonderabfall GmbH, Lederstr. 24, ZZAE00100078 / 3 bis / 5, 0,2 km. Auf der Lederstraße 33 selbst steht kein Registereintrag, und kein Eintrag nennt Lensch oder Söhne. Das ist ein relevanter Nachbarschafts-, aber kein Fortbestandsbeleg fuer die Seed-Gesellschaft: die KG-Gewohnbheit Lederstr. 36-66 und die Seed-Adresse Lederstr. 33 liegen im selben Strassenzug, eine Standort- oder Rechtstraegerkette ist damit nicht belegt. OSM: die Lederstraße 33 existiert als node/455257859 (addr:housenumber=33) ohne name-, operator- und shop-Tag; die im Umfeld benannten Objekte sind Fremdbetriebe. ANKAUF: keine Kurse. VERKAUF: keine Liste. GEBUEHREN: keine Tarife. Der Seedstatus geschlossen bleibt unveraendert, weil weder die Loeschung des Seed-Rechtstraegers am Lederstr. 33 noch eine Nachfolge neu belegt ist; die beiden Registerspiegel aus der Vorwelle (Georg Lensch & Soehne GmbH & Co. KG, HRA 78344; Autoverwertung Lensch GmbH, HRB 37061, geloescht 13.11.2023) bleiben die massgeblichen Fundstellen. Offen bleibt die Originalregister- und Gewerbechain. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/n=Lensch ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/n=Lensch ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=22525%20Hamburg%2C%20Deutschland%3B9.9117741%3B53.5904878%3B9.929219419439996%3B53.628484409999995%3B9.894328780560004%3B53.552491190000005&dst=3&is=1&e=1 ; https://api.openstreetmap.org/api/0.6/node/455257859.json ; https://www.northdata.de/Georg+Lensch+%26+S%C3%B6hne+GmbH+%26+Co.+KG,+Hamburg/HRA+78344 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 53.5904878/9.9117741.** Das OSM-Objekt node/455257859 trägt `addr:housenumber`=33, `addr:street`=Lederstraße, `addr:postcode`=22525, `addr:city`=Hamburg. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/node/455257859.json ; https://nominatim.openstreetmap.org/search?q=Lederstr.%2033%2C%2022525%20Stellingen&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

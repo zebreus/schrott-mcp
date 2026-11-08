@@ -6,6 +6,8 @@ state: HE
 city: Kassel-Bettenhausen
 street: Ellenbacher Str. 12
 postcode: '34123'
+lat: 51.3161396
+lon: 9.5325694
 phone: ''
 email: ''
 opening_hours: ''
@@ -90,3 +92,7 @@ Pfeil ist weiterhin ein ungeklärter Autoverwertungs-/Ersatzteilverkaufslead in 
   https://dns.google/resolve?name=pfeil-recycling.de&type=A ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Pfeil ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Ellenbacher%20Str.%2012%2C%2034123%20Kassel%2C%20Deutschland;8.5029433;51.3168618;8.5529433;51.3168618;8.5529433;51.2668618&dst=10&is=1&o=5&e=1 (Abruf 07.11.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 51.3161396/9.5325694.** Das OSM-Objekt way/198708518 trägt `addr:housenumber`=12, `addr:street`=Ellenbacher Straße, `addr:city`=Kassel. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt führt keine addr:postcode-Angabe; die Postleitzahl des Dossiers passt zur Lage des Objekts. Quelle(n): https://api.openstreetmap.org/api/0.6/way/198708518/full.json ; https://nominatim.openstreetmap.org/search?q=Ellenbacher%20Str.%2012%2C%2034123%20Kassel-Bettenhausen&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

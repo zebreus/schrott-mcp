@@ -6,6 +6,8 @@ state: HE
 city: Griesheim
 street: Sterngasse 2
 postcode: 64347
+lat: 49.8545901
+lon: 8.5564402
 phone: 0152 27030059
 email: ''
 opening_hours: ''
@@ -52,3 +54,7 @@ N-S-R Recycling in Griesheim bleibt verzeichnisgestützt. Vorhandene Sterngasse 
 ### Recherche 06.11.2026
 
 - [Recherche 06.11.2026: Amtliches Fachbetrieberegister und OSM live geprueft, Standortsuche jetzt mit der adressgenauen Koordinate der Sterngasse 2 (49.8545901 / 8.5564402) statt des Ortsmittelpunkts. Namenssuche Efb n=N-S-R Recycling -> 0 Treffer; n=N-S-R -> 0 Treffer; Route Altfahrzeugverwertung 3 km um die Sterngasse 2 -> 0 Treffer. Standortsuche Efb 3 km um die Sterngasse 2 -> 0 Treffer, 10 km -> 77 Treffer, der naechste liegt 5,4 km entfernt (STRABAG Umwelttechnik GmbH Standort 2 Darmstadt, Robert-Bosch-Straße 22, 64293 Darmstadt, ZZGE00100009 / 5 bis / 8, Behandeln, Verwerten, Handeln, Makeln) und damit in einem anderen Ort und Rechtstraeger; alle 10-km-Treffer sind Fremdbetriebe, kein Griesheimer N-S-R Recycling. Die 11880-Ortliste Schrotthandel Griesheim mit 48 Eintraegen (live abgerufen) fuehrt keinen Eintrag N-S-R Recycling. OSM: die Sterngasse 2 existiert als Adressobjekt way/212358282 (addr:street=Sterngasse, addr:housenumber=2) neben way/212358243 (2A), beide ohne name-, operator- und shop-Tag; die Nummer 2 ist damit als Anschrift belegt, der Betrieb nicht. ANKAUF: keine Kurse, keine Sortenliste. VERKAUF: keine Liste. GEBUEHREN: keine Tarife. Offen bleibt die Betreiberidentitaet hinter dem Verzeichnisnamen N-S-R Recycling, die Frage, ob die Sterngasse 2 ueberhaupt ein Gewerbegrundstueck ist, und die vom Portal gelieferte Wochenzeittabelle; kein Nichttreffer im Register ist ein Existenzbeweis, und die Blockade ist kein Schliessungsbeleg. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/n=N-S-R%20Recycling ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=64347%20Griesheim%2C%20Deutschland%3B8.5564402%3B49.8545901%3B8.573887722160004%3B49.89258193999999%3B8.538992677839996%3B49.816599860000004&dst=3&is=1&e=1 ; https://api.openstreetmap.org/api/0.6/map.json?bbox=8.5389,49.8165,8.5739,49.8926 ; https://www.11880.com/suche/schrotthandel/griesheim (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 49.8545901/8.5564402.** Das OSM-Objekt way/212358282 trägt `addr:housenumber`=2, `addr:street`=Sterngasse, `addr:postcode`=64347, `addr:city`=Griesheim. Dasselbe Objekt trägt `building`=house. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/212358282/full.json ; https://nominatim.openstreetmap.org/search?q=Sterngasse%202%2C%2064347%20Griesheim&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

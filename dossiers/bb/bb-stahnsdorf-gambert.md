@@ -6,6 +6,8 @@ state: BB
 city: Stahnsdorf
 street: Ruhlsdorfer Str. 95
 postcode: '14532'
+lat: 52.3819140
+lon: 13.2444491
 phone: 03329 603090
 email: info@gambert-entsorgung.de
 opening_hours: ''
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der IWA (Zertifikat 026/2007/25) für den Standort Ruhlsdorfer Straße 95, 14532 Stahnsdorf brach nach der Beschreibung „Sammeln und Befördern von allen Abfallarten“ ab; die schließende Klammer wurde ergänzt.
   Zertifikatsnummer, Vorgangsnummer ZZPT004000694008, Prüfungs- und Ausstellungsdatum sowie die Kennnummer PT20004245 bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 52.3819140/13.2444491.** Das OSM-Objekt way/1029341107 trägt `addr:housenumber`=95, `addr:street`=Ruhlsdorfer Straße, `addr:postcode`=14532, `addr:city`=Stahnsdorf. Dasselbe Objekt trägt `name`=toom Baumarkt, `shop`=doityourself. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt trägt den Namen "toom Baumarkt", nicht den Dossiernamen; die Zuordnung stützt sich allein auf Hausnummer und Straße. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1029341107/full.json ; https://nominatim.openstreetmap.org/search?q=Ruhlsdorfer%20Str.%2095%2C%2014532%20Stahnsdorf&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

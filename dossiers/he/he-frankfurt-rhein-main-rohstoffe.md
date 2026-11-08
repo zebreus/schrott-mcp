@@ -6,6 +6,8 @@ state: HE
 city: Frankfurt
 street: Gutleutstr. 371
 postcode: '60327'
+lat: 50.0920427
+lon: 8.6345651
 phone: 06923807610
 email: container@rmr-recycling.de
 opening_hours: ''
@@ -63,3 +65,7 @@ der Frankfurter Niederlassung und der fehlende Altfahrzeugverwertungseintrag.
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: PÜG Prüf- und Überwachungsgesellschaft mbH“, „1.2 Straße: Hämmerlestraße 14 + 16“, Postleitzahl 71126, Ort Gäufelden = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: K12995-20260513-Efb-de“; „3.3 Vorgangsnummer ...: ZZHT004003041015“ (im Ergebnisraster verkürzt „ZZHT00400304 / 1“ bis „/ 11“); „3.4 Das Zertifikat beinhaltet 11 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 14.10.2027“; „4.1 Name: Rhein Main Rohstoffe GmbH“, „4.2 Straße: Gutleutstraße 371“, Postleitzahl 60327, Ort Frankfurt; „4.4 ... Registernummer ...: HRB 100405 ... Registergericht: Frankfurt am Main“; „6. Prüfungsdatum: 15.04.2026“; „8. Ausstellungsdatum: 13.05.2026“. Standorttreue: das Zertifikat umfasst elf Anlagen; dem Dossierstandort zugeordnet sind ausschließlich die Anlagen 1 bis 3 mit dem Standort „Gutleutstraße 371, 60327 Frankfurt“, während die Anlagen 4 bis 6 am Standort „Industriestraße 18, 63811 Stockstadt“, die Anlagen 7 und 8 am Standort „Industriestraße 1, 57076 Siegen“ und die Anlagen 9 bis 11 am Standort „Canthalstraße 2 - 4, 63450 Hanau“ liegen. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F26T022909“ sowie „2.7 Handeln“ mit „F26H000583“ und „2.8 Makeln“ mit „F26M003112“, Anlage 2 „2.3 Lagern“ mit „F26RD00965“, Anlage 3 „2.4 Behandeln“ mit „F26RD00965“; das Registerraster führt „Sammeln, Befördern, Handeln, Makeln“ / „Lagern“ / „Behandeln“. In Anlage 2 und Anlage 3 ist zusätzlich „2.5 Verwerten“ in der Ausprägung „vorbereitend“ angekreuzt; das ist die nach dem EfbV-Formular obligatorische Verknüpfung und keine eigene zertifizierte Tätigkeit.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Rhein%20Main%20Rohstoffe&p=ZZHT00400304&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.0920427/8.6345651.** Das OSM-Objekt way/86258225 trägt `addr:housenumber`=371, `addr:street`=Gutleutstraße, `addr:postcode`=60327, `addr:city`=Frankfurt am Main. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/86258225/full.json ; https://nominatim.openstreetmap.org/search?q=Gutleutstr.%20371%2C%2060327%20Frankfurt&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

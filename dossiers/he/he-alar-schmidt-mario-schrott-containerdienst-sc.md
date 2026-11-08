@@ -6,6 +6,8 @@ state: HE
 city: Aßlar
 street: Berliner Str. 22c
 postcode: '35614'
+lat: 50.5840520
+lon: 8.4663284
 phone: ''
 email: schmidt.asslar@web.de
 opening_hours: Mo-Fr 7-17 Uhr, Sa 8-14 Uhr
@@ -54,3 +56,7 @@ Anschrift Altenbergstraße 7 auf einen weiteren Händler verweist.
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: TÜV SÜD Umweltgutachter GmbH“, „1.2 Straße: Ridlerstraße 57“, Postleitzahl 80339, Ort München = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: 12 150 45382“; „3.3 Vorgangsnummer ...: ZZIT007001755010“ (im Ergebnisraster verkürzt „ZZIT00700175 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 19.09.2027“; „4.1 Name: M. Schmidt GmbH“, „4.2 Straße: Berliner Straße 22c“, Postleitzahl 35614, Ort Aßlar; „4.4 ... Registernummer ...: HRB 6803 ... Registergericht: Wetzlar“; „6. Prüfungsdatum: 30.03.2026“; „8. Ausstellungsdatum: 17.06.2026“. Standorttreue: alle drei Anlagen nennen als Standort „M. Schmidt GmbH Hauptstandort mit Zentrale“, „Berliner Straße 22c“, 35614 Aßlar (Anlagenbogen Felder 1.1 bis 1.3), also den Dossierstandort. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F54T028605“, Anlage 2 „2.3 Lagern“ und „2.4 Behandeln“ mit „F54RD00771“, Anlage 3 „2.7 Handeln“ mit „F54H000665“ und „2.8 Makeln“ mit „F54M003058“; das Registerraster führt dieselben Tätigkeiten („Sammeln, Befördern“ / „Lagern, Behandeln“ / „Handeln, Makeln“). In Anlage 2 sind zusätzlich die nach dem EfbV-Formular obligatorischen Verknüpfungen „2.3.1 zwecks Verwertung (Nr. 2.5)“, „2.4.1 zwecks Verwertung (Nr. 2.5)“ und „2.5 Verwerten“ (vorbereitend) angekreuzt; das ist keine eigene zertifizierte Tätigkeit und steht deshalb nicht im Eintrag.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmidt&p=ZZIT00700175&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.5840520/8.4663284.** Das OSM-Objekt way/233589724 trägt `addr:housenumber`=22c, `addr:street`=Berliner Straße, `addr:postcode`=35614, `addr:city`=Aßlar. Dasselbe Objekt trägt `building`=commercial. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/233589724/full.json ; https://nominatim.openstreetmap.org/search?q=Berliner%20Str.%2022c%2C%2035614%20A%C3%9Flar&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

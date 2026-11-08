@@ -6,6 +6,8 @@ state: HE
 city: Bischofsheim
 street: Industriestr. 12
 postcode: '65474'
+lat: 49.9718006
+lon: 8.3923455
 phone: +49 6144 33853-0
 email: info@mexner.de
 opening_hours: Mo–Do 07:00–17:00 Uhr, Fr 07:00–15:00 Uhr
@@ -41,3 +43,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: DEKRA Certification GmbH“, „1.2 Straße: Handwerkstraße 15“, Postleitzahl 70565, Ort Stuttgart = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: 121100930“; „3.3 Vorgangsnummer ...: ZZHT003005644010“ (im Ergebnisraster verkürzt „ZZHT00300564 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 19.04.2027“; „4.1 Name: Mexner GmbH“, „4.2 Straße: Industriestraße 11-12“, Postleitzahl 65474, Ort Bischofsheim; „4.4 ... Registernummer ...: HRB 82670 ... Registergericht: Darmstadt“; „6. Prüfungsdatum: 30.10.2025“; „8. Ausstellungsdatum: 05.11.2025“. Standorttreue: alle drei Anlagen liegen in der Postleitzahl 65474 Bischofsheim, Anlage 1 nennt „Mexner GmbH Hauptsitz Bischofsheim“, Industriestraße 11-12, Anlage 2 „Mexner GmbH Bischofsheim“, Eckensee, Anlage 3 „Mexner GmbH“, Industriestraße 15 - alle drei am Standort des Dossiers. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F08T000305“ (Feld 4.1 „alle Abfallarten“), Anlage 2 „2.3 Lagern“ und „2.4 Behandeln“ mit „F08RD00792“ (Abfallarten 170101, 170102, 170103, 170107, 170504), Anlage 3 „2.3 Lagern“ mit „F08RD00642“; das Registerraster führt „Sammeln, Befördern“ / „Lagern, Behandeln“ / „Lagern“. In Anlage 2 und Anlage 3 ist zusätzlich „2.5 Verwerten“ in der Ausprägung „vorbereitend“ angekreuzt; das ist die nach dem EfbV-Formular obligatorische Verknüpfung des Lagerns mit der Verwertung und keine eigene zertifizierte Tätigkeit.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Mexner&p=ZZHT00300564&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 49.9718006/8.3923455.** Das OSM-Objekt way/624209999 trägt `addr:housenumber`=12, `addr:street`=Industriestraße, `addr:postcode`=65474, `addr:city`=Bischofsheim. Dasselbe Objekt trägt `building`=industrial. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/624209999/full.json ; https://nominatim.openstreetmap.org/search?q=Industriestr.%2012%2C%2065474%20Bischofsheim&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

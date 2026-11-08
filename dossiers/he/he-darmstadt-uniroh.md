@@ -6,6 +6,8 @@ state: HE
 city: Darmstadt
 street: Pallaswiesenstr. 206
 postcode: '64293'
+lat: 49.8843384
+lon: 8.6296637
 phone: +49 6151 824344
 email: darmstadt@uniroh.de
 opening_hours: Mo–Fr 07:15–17:30 Uhr (Annahme bis 17:00 Uhr); Ladezeiten 07:15–16:00
@@ -43,3 +45,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: bvse-Entsorgergemeinschaft e.V.“, „1.2 Straße: Fränkische Straße 2“, Postleitzahl 53229, Ort Bonn = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: 10644“; „3.3 Vorgangsnummer ...: ZZEE001002660009“ (im Ergebnisraster verkürzt „ZZEE00100266 / 1“ bis „/ 11“); „3.4 Das Zertifikat beinhaltet 11 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 30.06.2027“; „4.1 Name: uniroh GmbH“, „4.2 Straße: Burggraben 12“, Postleitzahl 67657, Ort Kaiserslautern; „4.4 ... Registernummer ...: HRB 3322 ... Registergericht: Kaiserslautern“; „6. Prüfungsdatum: 08.12.2025“; „8. Ausstellungsdatum: 22.01.2026“. Standorttreue: das Zertifikat umfasst elf Anlagen; der Betriebsstätte Darmstadt, Pallaswiesenstraße 206, 64293 Darmstadt sind ausschließlich die Anlagen 3 bis 7 zugeordnet, die Anlagen 1 und 2 liegen am Firmensitz Kaiserslautern und die Anlagen 8 bis 11 an der Betriebsstätte Landau, Im Grein 19, 76829 Landau; die Abgrenzung im Eintrag trifft also zu. Anlagenbogen Feld 2: Anlage 3 „2.1 Sammeln“ und „2.2 Befördern“ mit „G088099310“, Anlage 4 „2.3 Lagern“ mit „F12RD00010“, Anlage 5 „2.4 Behandeln“ mit „F12RD00010“, Anlage 6 „2.3 Lagern“ mit „F12RD00010“, Anlage 7 „2.4 Behandeln“ mit „F12RD00010“; das Registerraster führt „Sammeln, Befördern“ / „Lagern“ / „Behandeln“ / „Lagern“ / „Behandeln“. Die Anlagentechnik lautet „Abfalllogistik mit eigenem Fuhrpark“ (Anlage 3), „Lagerung: Freilager mit Containerstellplätzen und Umschlagboxen, Sammelbehälter und Ballenware in Lagerhallen“ (Anlage 4), „Sortierung im Annahmebereich der Ballenpresse Störstoffentfrachtung bei Umschlag“ (Anlage 5), „Lagerung von Akten- und Datenträgern in geschlossenen und gesicherten Containern“ (Anlage 6) und „Verdichten von Fraktionen mittels Ballenpressen“ (Anlage 7). Der Rechtsträger mit Hauptsitz Burggraben 12, 67657 Kaiserslautern und Registernummer HRB 3322 vor Registergericht Kaiserslautern ist im Feld 4 des Zertifikats geführt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=uniroh&p=ZZEE00100266&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 49.8843384/8.6296637.** Das OSM-Objekt node/2936721220 trägt `addr:housenumber`=206, `addr:street`=Pallaswiesenstraße, `addr:postcode`=64293, `addr:city`=Darmstadt. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/node/2936721220.json ; https://nominatim.openstreetmap.org/search?q=Pallaswiesenstr.%20206%2C%2064293%20Darmstadt&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

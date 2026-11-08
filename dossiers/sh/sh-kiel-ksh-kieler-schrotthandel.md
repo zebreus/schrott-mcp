@@ -6,6 +6,8 @@ state: SH
 city: Kiel
 street: Ostuferhafen 9
 postcode: '24149'
+lat: 54.3324694
+lon: 10.1730397
 phone: '0431 209770'
 email: info@kieler-schrotthandel.de
 opening_hours: ''
@@ -48,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 90595172-2 der DEKRA Certification GmbH für den Standort Ostuferhafen 9, 24149 Kiel fehlte die schließende Klammer; sie wurde am Ende ergänzt.
   Die Anlagen, der Vermerk zur Erstbehandlungsanlage nach § 21 ElektroG und die Gültigkeitsangaben bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 54.3324694/10.1730397.** Das OSM-Objekt way/26806784 trägt `addr:housenumber`=9, `addr:street`=Ostuferhafen, `addr:postcode`=24149. Dasselbe Objekt trägt `building`=warehouse. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/26806784/full.json ; https://nominatim.openstreetmap.org/search?q=Ostuferhafen%209%2C%2024149%20Kiel&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

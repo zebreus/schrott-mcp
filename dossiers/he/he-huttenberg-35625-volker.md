@@ -6,6 +6,8 @@ state: HE
 city: Hüttenberg
 street: Hohe Straße 17
 postcode: '35625'
+lat: 50.5091658
+lon: 8.6281940
 phone: 0640371702
 email: info@voelker-autoverwertung.de
 opening_hours: 'Mo-Fr 10:00-17:00; Sa 10:00-14:00'
@@ -62,3 +64,7 @@ eine amtliche Bestätigung steht aus.
 
 - [Prüfung 06.11.2026: **Für diesen Betrieb gibt es keinen Registereintrag; der Eintrag bleibt unverändert.** Geprüft wurde das amtliche Fachbetrieberegister (Abruf 06.11.2026): die Standortsuche mit 3 km Radius um Hohe Straße 17, 35625 Hüttenberg liefert in der Route „Entsorgungsfachbetriebe“ 0 Treffer und in der Route „Altfahrzeugverwertung“ 0 Treffer; die Namenssuche „Volker“ in der Route „Altfahrzeugverwertung“ liefert genau einen Treffer, `Autowrackplatz Repau Inhaber Volker Borchert`, Repau 3 A, 06369 Südliches Anhalt OT Repau (Vorgang ZALS00800019 / 1), der nach anderer Bezeichnung, anderer Straße, anderer Postleitzahl und anderem Ort ein **anderer** Rechtsträger ist und deshalb nicht zu diesem Dossier gehört. Der Eintrag stützt sich damit weiterhin allein auf die Selbstauskunft des Betreibers „Die Autoverwertung Völker ist ein zertifiziertes Unternehmen nach Altfahrzeug-Verordnung“; ein amtlicher Nachweis liegt für den Standort Hohe Straße 17, 35625 Hüttenberg nicht vor, ein Zertifikats-PDF des Registers gibt es zu diesem Vorgang nicht, deshalb konnte kein Feldvergleich stattfinden. Reichweite: die AltfahrzeugV-Anerkennung ist freiwillig, ein Register-Nichttreffer ist kein Nachweis, dass der Betrieb keine Anerkennung besitzt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Volker ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Hohe%20Stra%C3%9Fe%2017%2C%2035625%20H%C3%BCttenberg%2C%20Deutschland%3B8.6168%3B50.5035%3B8.6368%3B50.5235%3B8.5968%3B50.4835&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Hohe%20Stra%C3%9Fe%2017%2C%2035625%20H%C3%BCttenberg%2C%20Deutschland%3B8.6168%3B50.5035%3B8.6368%3B50.5235%3B8.5968%3B50.4835&dst=3&is=1&e=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.5091658/8.6281940.** Das OSM-Objekt way/465261052 trägt `addr:housenumber`=17, `addr:street`=Hohe Straße, `addr:postcode`=35625, `addr:city`=Hüttenberg. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/465261052/full.json ; https://nominatim.openstreetmap.org/search?q=Hohe%20Stra%C3%9Fe%2017%2C%2035625%20H%C3%BCttenberg&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: SH
 city: Kropp
 street: Industriestrasse 14
 postcode: '24848'
+lat: 54.4143701
+lon: 9.5251508
 phone: '04624 45066-0'
 email: info@schultz-recycling.de
 opening_hours: Mo-Fr 7:30-16:30, Sa 8:00-12:00
@@ -48,3 +50,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Entsorgungsfachbetrieb-Anerkennung nach § 56 KrWG der BFUB Cert (Zertifikat CERT 60) für den Standort Industriestr. 14, 24848 Kropp war nicht zu Ende lesbar; die schließende Klammer wurde angehängt.
   Die vier Anlagen, die anerkannte AltfahrzeugV-Anlage nach § 2 Absatz 2 AltfahrzeugV und die Gültigkeitsdaten bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 54.4143701/9.5251508.** Das OSM-Objekt way/656027812 trägt `addr:housenumber`=14, `addr:street`=Industriestraße, `addr:postcode`=24848, `addr:city`=Kropp. Dasselbe Objekt trägt `building`=commercial. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/656027812/full.json ; https://nominatim.openstreetmap.org/search?q=Industriestrasse%2014%2C%2024848%20Kropp&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

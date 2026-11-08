@@ -6,6 +6,8 @@ state: SH
 city: Elmshorn
 street: Robert-Bosch-Straße 8
 postcode: '25335'
+lat: 53.7773269
+lon: 9.6495265
 phone: 0 41 21 - 5 00 71 / 0 41 21 - 5 00 72
 email: info@warnsholz.de
 opening_hours: ''
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 120298134 der DEKRA Certification GmbH für den Standort Robert-Bosch-Straße 8, 25335 Elmshorn fehlte am Ende die schließende Klammer; sie wurde angehängt.
   Die Anlagen, der Hinweis auf die Erstbehandlungsanlage nach § 21 ElektroG sowie alle Prüf- und Ausstellungsdaten bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Betriebspunkt belegt: 53.7773269/9.6495265.** Das OSM-Objekt way/294089973 trägt `name`=Warnsholz, `amenity`=recycling, `building`=industrial. Die Anschrift ist dabei hausnummergenau belegt (`addr:housenumber`=8, `addr:street`=Robert-Bosch-Straße, `addr:postcode`=25335, `addr:city`=Elmshorn). Der Punkt ist der Standort des Betriebsobjekts, kein Adressmittelpunkt. Der OSM-Name bzw. -Operator des Objekts deckt sich mit dem Dossiernamen (Warnsholz GmbH & Co. KG (ISR-Gruppe)); das Objekt ist der Betriebspunkt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/294089973/full.json ; https://nominatim.openstreetmap.org/search?q=Robert-Bosch-Stra%C3%9Fe%208%2C%2025335%20Elmshorn&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]

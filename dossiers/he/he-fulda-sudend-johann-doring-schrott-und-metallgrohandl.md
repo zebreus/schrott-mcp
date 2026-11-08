@@ -6,6 +6,8 @@ state: HE
 city: Fulda-Südend
 street: Bellingerstr. 22
 postcode: '36043'
+lat: 50.5332624
+lon: 9.6876628
 phone: 0661/41024
 email: info@doering-schrott.de
 opening_hours: Mo-Fr 08:00-16:00
@@ -58,3 +60,7 @@ Altfahrzeugverwertungseintrag.
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen): „1.1 Name: ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall- Recycling-Wirtschaft e.V.“, „1.2 Straße: Berliner Allee 57“, Postleitzahl 40212, Ort Düsseldorf = Aussteller mit vollständiger Anschrift wie im Eintrag; „3.1 Nummer des Zertifikats ...: ESN 98 - 050125(26)“; „3.3 Vorgangsnummer ...: ZZEE003000673010“ (im Ergebnisraster verkürzt „ZZEE00300067 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.6 ... (siehe Anlage(n) 1-3)“; „3.7 Das Zertifikat ist gültig bis zum 30.09.2027“; „4.1 Name: Johann Döring GmbH & Co. KG“, „4.2 Straße: Bellingerstraße 22“, Postleitzahl 36043, Ort Fulda; „4.4 ... Registernummer ...: HRB 7122 ... Registergericht: Fulda“ (die im Dossier abweichend vermerkte Angabe „HRA 175 AG Fulda“ ist damit belegt und bleibt als Abweichung stehen); „6. Prüfungsdatum: 24.04.2026“; „8. Ausstellungsdatum: 03.07.2026“. Standorttreue: alle drei Anlagen nennen als Standort „Bellingerstraße 22, 36043 Fulda“, also den Dossierstandort. Anlagenbogen Feld 2: Anlage 1 „2.1 Sammeln“ und „2.2 Befördern“ mit „F72T009009“ sowie „2.7 Handeln“ mit „F72H024660“, Anlage 2 „2.3 Lagern“ mit „F72RD00501“, Anlage 3 „2.4 Behandeln“ mit „F72RD00501“; das Registerraster führt „Sammeln, Befördern, Handeln“ / „Lagern“ / „Behandeln“. In Anlage 2 und Anlage 3 ist zusätzlich „2.5 Verwerten“ in der Ausprägung „vorbereitend“ angekreuzt; das ist die nach dem EfbV-Formular obligatorische Verknüpfung und keine eigene zertifizierte Tätigkeit.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Johann%20D%C3%B6ring&p=ZZEE00300067&fd=1 (Abruf 06.11.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.5332624/9.6876628.** Das OSM-Objekt way/450295937 trägt `addr:housenumber`=22, `addr:street`=Bellingerstraße, `addr:city`=Fulda. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt führt keine addr:postcode-Angabe; die Postleitzahl des Dossiers passt zur Lage des Objekts. Quelle(n): https://api.openstreetmap.org/api/0.6/way/450295937/full.json ; https://nominatim.openstreetmap.org/search?q=Bellingerstr.%2022%2C%2036043%20Fulda-S%C3%BCdend&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
