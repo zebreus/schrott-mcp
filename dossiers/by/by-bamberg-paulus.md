@@ -77,6 +77,6 @@ freiwillig, ein Nichttreffer belegt kein Fehlen. Ankauf und Preise sind nicht be
   ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Paulus
   (Abruf 06.11.2026).]
 
-### Recherche 08.11.2026
+### Geokodierung 08.11.2026
 
 - [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.9033038/10.8902751.** Für den Dossier-Eintrag **Paulus GmbH** trägt das OSM-Objekt way/31228622 (`addr:housenumber`=9a, `addr:street`=Gundelsheimer Straße, `addr:postcode`=96052, `addr:city`=Bamberg) die Dossier-Adresse **Gundelsheimer Str. 9 A, 96052 Bamberg** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.903164/10.890136 bis 49.90338/10.8903918). Das Objekt trägt `addr:housenumber`=9a und entspricht damit der Dossier-Hausnummer 9 A. Die nahen OSM-Objekte `name`=Paulus GmbH (node/9906204265 mit `office`=company und Kontaktdaten, way/59589083 mit `landuse`=industrial) führen keine Adress-Tags und werden deshalb nicht als Punkt verwendet. Quelle(n): https://api.openstreetmap.org/api/0.6/way/31228622/full.json ; https://nominatim.openstreetmap.org/search?q=Gundelsheimer+Str.+9+A%2C+96052+Bamberg&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Gundelsheimer+Str.+9+A&postalcode=96052&city=Bamberg&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

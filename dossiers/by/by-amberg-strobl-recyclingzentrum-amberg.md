@@ -66,6 +66,6 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   ; https://www.strobl-entsorgung.de/wp-content/uploads/2026/09/Strobl_EFB-Zertifikat-2026.pdf
   (Abruf 06.11.2026).]
 
-### Recherche 08.11.2026
+### Geokodierung 08.11.2026
 
 - [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.4296645/11.8798304.** Für den Dossier-Eintrag **Strobl Recyclingzentrum Amberg** trägt das OSM-Objekt way/221098154 (`addr:housenumber`=2, `addr:street`=Gerresheimer Straße, `addr:postcode`=92224, `addr:city`=Amberg) die Dossier-Adresse **Gerresheimer Str. 2, 92224 Amberg** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.4295599/11.8797253 bis 49.4297692/11.8799354). Das gleichnamige OSM-Betriebsobjekt `name`=Strobl Recycling (`industrial`=scrap_yard) liegt an der Erlenweg in 92245 Kümmersbruck und damit an einer anderen Anschrift; es wird nicht übernommen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/221098154/full.json ; https://nominatim.openstreetmap.org/search?q=Gerresheimer+Str.+2%2C+92224+Amberg&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Gerresheimer+Str.+2&postalcode=92224&city=Amberg&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

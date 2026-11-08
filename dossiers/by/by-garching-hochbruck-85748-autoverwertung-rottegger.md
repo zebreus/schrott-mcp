@@ -57,6 +57,6 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Die im Eintrag genannte Adressdifferenz der Hausnummer (Register 4, Dossier 18, Impressum 4 bis 18) bleibt unverändert bestehen und ist weiterhin benannt. Der Eintrag bleibt **unverändert**.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20Rottegger%20GmbH&p=ZAIS00100010&fd=1 (Abruf 06.11.2026).]
 
-### Recherche 08.11.2026
+### Geokodierung 08.11.2026
 
 - [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.2503198/11.6036692.** Für den Dossier-Eintrag **Autoverwertung Rottegger GmbH** benennt das OSM-Objekt way/537173206 (`name`=Autoverwertung Rottegger GmbH, `landuse`=industrial, `industrial`=scrap_yard, `website`=https://www.autoverwertung-rottegger.de/) den Betrieb selbst (**Autoverwertung Rottegger GmbH**); es liegt unmittelbar an der Dossier-Straße **Ingolstädter Landstraße 18**, ohne eine der Dossier-Hausnummer entsprechende Adresszuordnung. Der Punkt ist deshalb der **Betriebspunkt** und nicht ein Adressmittelpunkt (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.2490838/11.6016387 bis 48.2516465/11.6044579). Die Dossier-Hausnummer 18 ist in OSM nicht mit Adress-Tags erfasst; das Objekt liegt 0,4 m von der Achse der Dossier-Straße Ingolstädter Landstraße entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/537173206/full.json (Abruf 08.11.2026).]

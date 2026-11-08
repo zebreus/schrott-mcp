@@ -55,6 +55,6 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten, Beseitigen); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott%20Karl%20Autorecycling&p=ZZIT00700110&fd=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrott%20Karl%20Autorecycling&p=ZZIT00700110&fd=4 (Abruf 06.11.2026).]
 
-### Recherche 08.11.2026
+### Geokodierung 08.11.2026
 
 - [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.0573301/11.0927713.** Für den Dossier-Eintrag **Schrott Karl Autorecycling** trägt das OSM-Objekt way/169419593 (`addr:housenumber`=4, `addr:street`=Schulstraße, `addr:postcode`=91790, `addr:city`=Burgsalach, `name`=Schrott Karl Autorecycling, `landuse`=commercial, `phone`=+49 9147 9495-20, `website`=https://www.karl.de) die Dossier-Adresse **Schulstraße 4, 91790 Burgsalach** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Schrott Karl Autorecycling**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.0557514/11.0920258 bis 49.0582565/11.0946175). Quelle(n): https://api.openstreetmap.org/api/0.6/way/169419593/full.json (Abruf 08.11.2026).]

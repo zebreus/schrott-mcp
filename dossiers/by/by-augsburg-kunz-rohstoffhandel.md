@@ -74,6 +74,6 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 07.11.2026 (Klammerbalance): **Der `certifications`-Eintrag war unausgeglichen (fehlende schliessende Klammer ✓).** Die schliessende Klammer wurde am Ende des Eintrags ergaenzt ✓ - kein Wort, keine Zahl und kein Leerzeichen wurden geaendert ✓. Element 0 des Eintrags `by-augsburg-kunz-rohstoffhandel.md` ✓ hatte eine Bilanz von **+1** ✓ (3 öffnende ✓, 2 schliessende ✓) und ist jetzt ausgeglichen ✓ (3 öffnende ✓, 3 schliessende ✓). Die Klammerbalance ist seit der Welle 06.11.2026 ein Gate (`scripts/release/check_cert_balance.py` ✓); der Eintrag stand so bereits in der Basis `27ef26f8` ✓ und ist damit **Altbestand** ✓, kein Neuzugang dieser Welle ✓.]
 
-### Recherche 08.11.2026
+### Geokodierung 08.11.2026
 
 - [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.384717/10.8677323.** Für den Dossier-Eintrag **KUNZ Rohstoffhandel GmbH** trägt das OSM-Objekt way/196565354 (`addr:housenumber`=8, `addr:street`=Feldstraße, `addr:postcode`=86156, `addr:city`=Augsburg, `name`=Kunz Schrott, `landuse`=industrial, `phone`=+49 821 24 678-0, `website`=https://www.kunz.de) die Dossier-Adresse **Feldstraße 8, 86156 Augsburg** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Kunz Schrott**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.384186/10.8640707 bis 48.385424/10.8699996). Quelle(n): https://api.openstreetmap.org/api/0.6/way/196565354/full.json (Abruf 08.11.2026).]
