@@ -145,6 +145,10 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         ("kupfer-berry", "Kerze")
     } else if l.contains("schwer") && l.contains("kupfer") {
         ("kupfer-berry", "Schwer")
+    } else if l.contains("alu kupferkühler") || l.contains("alu kupferkuehler") {
+        // The card's "Alu Kupferkühler" is an aluminium sort, not copper -
+        // it must be matched before the copper branches below.
+        ("alu-cu-kuehler", "")
     } else if l.contains("kupferkabelschrott") && l.contains("stecker") {
         ("kabel-mit-stecker", "mit Stecker")
     } else if l.contains("kupferkabel") || l.contains("kupfer-kabel") {
@@ -192,6 +196,16 @@ fn grade_for(label: &str, tier: &'static str) -> Option<(&'static str, &'static 
         ("edelstahl-v2a", "")
     } else if l.contains("zink") {
         ("zink", "")
+    } else if l.contains("aluminium felgen") || l.contains("alu felgen") {
+        ("aluminium-felgen", "")
+    } else if l.contains("alu guss") {
+        ("aluminium-guss", "")
+    } else if l.contains("alu profile") {
+        ("aluminium-profile", "")
+    } else if l.contains("alu sorte1") {
+        // The card's "Alu Sorte1." is the mixed aluminium the dealer already
+        // quotes as aluminium-gemischt (empty variant) - it keeps that pair.
+        ("aluminium-gemischt", "")
     } else if l.contains("aluminium") {
         if l.contains("5%") || l.contains("anhaftung") && l.contains("max") {
             ("aluminium-gemischt", "5% Anhaftung")
@@ -297,6 +311,27 @@ fn parse(
             skips.push(format!("{title} (Einheit unverständlich: {body})"));
             continue;
         };
+        // The "Alu Profile" card names five sorts in one block, each with its
+        // own price and without an "ab 1 kg" line. It is parsed separately:
+        // every sort is a row of its own, never one row for the block.
+        if let Some(mehrsorten) = parse_mehrsorten(&title, &body) {
+            if mehrsorten.is_empty() {
+                skips.push(format!("{title} (Sorten ohne belegten Preis)"));
+            }
+            for (label, price) in mehrsorten {
+                if price.is_nan() {
+                    skips.push(format!("{label} (unbekannte Sorte in der Karte)"));
+                    continue;
+                }
+                match grade_for(&label, TIER_BASE) {
+                    Some((material, variant)) => {
+                        rows.push((label, variant, price, unit));
+                    }
+                    None => skips.push(format!("{label} (keine Materialzuordnung)")),
+                }
+            }
+            continue;
+        }
         // Base price = the "ab 1 kg" Bar quote. The marker is required:
         // without it a prose block's stray number (banner "9:00", footer
         // "12681") would become a phantom price.
@@ -401,6 +436,75 @@ fn tier_1000_price(body: &str) -> Option<f64> {
         .map(|(_, rest)| rest)
         .or_else(|| body.split_once("ab 1.000").map(|(_, rest)| rest))?;
     parse_eur(after)
+}
+
+/// The "Alu Profile" card names five sorts, each with its own price and
+/// without an "ab 1 kg" line:
+///
+/// ```text
+/// Alu Profile 1,90€   Alu Sorte1. 1,10€   Alu Felgen 1,60€
+/// Alu Kupferkühler 3,90€   Alu Guss 1,10€
+/// ```
+///
+/// The card carries both sorts in its title line and in the following line,
+/// so title and body are searched together. Every sort is a row of its own.
+/// Only the five sorts of this card are recognised — an unknown sort in this
+/// card is a redesign and yields no row (the caller skips it loudly) instead
+/// of a guessed material. A sort whose price is not written directly behind
+/// its name is likewise left out: the price must be readable at the name,
+/// never taken from a neighbour.
+fn parse_mehrsorten(title: &str, body: &str) -> Option<Vec<(String, f64)>> {
+    if !title.contains("Alu Profile") {
+        return None;
+    }
+    const SORTEN: [&str; 5] = [
+        "Alu Profile",
+        "Alu Sorte1.",
+        "Alu Felgen",
+        "Alu Kupferkühler",
+        "Alu Guss",
+    ];
+    // The sorts stand in the title line and in the line below it.
+    let text = format!("{title} {body}");
+    let mut rows = Vec::new();
+    for sorte in SORTEN {
+        // The sort name and its price stand together: "Alu Felgen 1,60€".
+        let Some(pos) = text.find(sorte) else {
+            continue;
+        };
+        let after = &text[pos + sorte.len()..];
+        let Some(price) = parse_eur(after) else {
+            continue;
+        };
+        rows.push((sorte.to_owned(), price));
+    }
+    // A sort in this card that is not one of the five known ones is a
+    // redesign: it is reported loudly instead of being mapped onto a
+    // material by accident.
+    for unbekannt in unbekannte_sorten(&text, &SORTEN) {
+        rows.push((unbekannt, f64::NAN));
+    }
+    Some(rows)
+}
+
+/// The sorts of the "Alu Profile" card that are not among the known ones.
+fn unbekannte_sorten(text: &str, bekannt: &[&str; 5]) -> Vec<String> {
+    let mut gefunden = Vec::new();
+    for (start, ende) in text.match_indices("Alu ") {
+        let rest = &text[start..];
+        let name: String = rest
+            .chars()
+            .take_while(|c| c.is_alphanumeric() || *c == '.' || *c == '-' || *c == ' ')
+            .collect();
+        let name = name.trim().trim_end_matches('.').trim().to_owned();
+        if name.is_empty() || name.len() > 30 {
+            continue;
+        }
+        if !bekannt.iter().any(|k| name.starts_with(k)) && !gefunden.contains(&name) {
+            gefunden.push(name);
+        }
+    }
+    gefunden
 }
 
 /// Bespoke unit gate for THESE blocks: the site quotes "Euro pro kg"
@@ -515,14 +619,20 @@ mod tests {
         <p><span style=\"font-size: 36px;\">ab 1 kg ➜ <strong>0,12€</strong></span></p>\
         <p><span style=\"font-size: 18px;\">ab 200 kg: <strong><em>0,12€</em>/0,12€</strong> <em>Überweisung</em>/Bar&nbsp;<br/>\
         ab 1000 kg: <strong><em>0,13€</em>/0,12€</strong> <em>Überweisung</em>/Bar</span></p></div>\
+        <div class=\"cms-article sorte1 lazy-bg\">\
+        <p class=\"h5\"><br><span style=\"font-size: 36px;\"><strong>&nbsp; &nbsp; Alu Profile 1,90€&nbsp; &nbsp; &nbsp; &nbsp;Alu Sorte1. 1,10€&nbsp; &nbsp; &nbsp; </strong>\
+        <strong style=\"color: rgb(255, 255, 255);\">Alu Felgen 1,60€</strong></span>\
+        <span style=\"font-size: 36px;\"><strong style=\"color: rgb(255, 255, 255);\"><strong>Alu Kupferkühler 3,90€</strong></strong></span></p>\
+        <p class=\"h5\"><span style=\"font-size: 36px;\"><strong style=\"color: rgb(255, 255, 255);\"><strong>Alu Guss 1,10€</strong></strong></span></p></div>\
         </div>";
 
     #[test]
     fn tiers_parse_with_base_and_dick() {
         let (rows, skips) = parse(FIXTURE).expect("parses");
         assert!(skips.is_empty());
-        // Millberry × 3 tiers + Alukabel base + Alukabel dick + Scheren × 3.
-        assert_eq!(rows.len(), 8);
+        // Millberry × 3 tiers + Alukabel base + Alukabel dick + Scheren × 3
+        // + the five sorts of the "Alu Profile" card.
+        assert_eq!(rows.len(), 13);
         assert_eq!(
             rows[0],
             (
@@ -586,18 +696,71 @@ mod tests {
     }
 
     #[test]
+    fn the_alu_profile_card_yields_five_rows_of_its_own() {
+        // The card names five sorts with their own prices and no "ab 1 kg"
+        // line. Every sort is a row of its own; before the fix the whole
+        // block was skipped with "kein ab-1-kg-Preis".
+        let (rows, skips) = parse(FIXTURE).expect("parses");
+        let alu: Vec<_> = rows
+            .iter()
+            .filter(|(title, ..)| title.starts_with("Alu ") && !title.contains("Kabel"))
+            .collect();
+        assert_eq!(alu.len(), 5, "five sorts of the card, one row each");
+        assert!(skips.iter().all(|s| !s.contains("Alu Profile")));
+        // Every sort carries its own price, read at the name.
+        let preise: Vec<f64> = alu.iter().map(|(_, _, p, _)| *p).collect();
+        assert_eq!(preise, vec![1.90, 1.10, 1.60, 3.90, 1.10]);
+        // The sorts map onto the material keys the database knows.
+        assert_eq!(
+            grade_for("Alu Profile", TIER_BASE),
+            Some(("aluminium-profile", ""))
+        );
+        assert_eq!(
+            grade_for("Alu Sorte1.", TIER_BASE),
+            Some(("aluminium-gemischt", ""))
+        );
+        assert_eq!(
+            grade_for("Alu Felgen", TIER_BASE),
+            Some(("aluminium-felgen", ""))
+        );
+        assert_eq!(
+            grade_for("Alu Kupferkühler", TIER_BASE),
+            Some(("alu-cu-kuehler", ""))
+        );
+        assert_eq!(
+            grade_for("Alu Guss", TIER_BASE),
+            Some(("aluminium-guss", ""))
+        );
+    }
+
+    #[test]
+    fn an_unknown_sort_in_the_alu_card_is_not_guessed() {
+        // A sixth, unknown sort must not be mapped onto a material by
+        // accident: the card yields only the five known sorts.
+        let html = FIXTURE.replace("Alu Guss 1,10€", "Alu Sorte9 7,70€");
+        let (rows, skips) = parse(&html).expect("parses");
+        let alu: Vec<_> = rows
+            .iter()
+            .filter(|(title, ..)| title.starts_with("Alu ") && !title.contains("Kabel"))
+            .collect();
+        assert_eq!(alu.len(), 4);
+        assert!(!alu.iter().any(|(t, ..)| t.contains("Sorte9")));
+        assert!(skips.iter().any(|s| s.contains("Sorte9")));
+    }
+
+    #[test]
     fn zero_and_garbled_tier_quotes_skip_loudly() {
         // 0,00 tier quote: loud skip, sibling tiers survive.
         let html = FIXTURE.replacen("11,35€", "0,00€", 1);
         let (rows, skips) = parse(&html).expect("parses");
-        assert_eq!(rows.len(), 7);
+        assert_eq!(rows.len(), 12);
         assert_eq!(skips.len(), 1);
         assert!(skips[0].contains("ab 200 kg") && skips[0].contains("0,00"));
         // 200-marker without 1000-marker: the missing top tier skips
         // loudly instead of silently dropping a price.
         let html = FIXTURE.replacen("ab&nbsp;1000kg:", "ab heute:", 1);
         let (rows, skips) = parse(&html).expect("parses");
-        assert_eq!(rows.len(), 7);
+        assert_eq!(rows.len(), 12);
         assert!(skips.iter().any(|s| s.contains("ab 1000 kg")));
     }
 
@@ -739,5 +902,35 @@ mod tests {
         assert_eq!(info.phone, "030 99 272 366");
         assert_eq!(info.email, "info@schrottankauf-bitterfelderstr23.de");
         assert!(extract_info("<p>Neu hier</p>").is_err());
+    }
+
+    #[tokio::test]
+    #[ignore = "read-only live network check; fetches the public price list, never records data"]
+    async fn the_live_alu_card_yields_its_five_sorts() {
+        let client = reqwest::Client::builder()
+            .user_agent("schrott-mcp-ingestion/0.1")
+            .timeout(std::time::Duration::from_secs(30))
+            .build()
+            .unwrap();
+        let html = client
+            .get(super::URL)
+            .send()
+            .await
+            .expect("live price list")
+            .text()
+            .await
+            .expect("price list body");
+        let (rows, skips) = parse(&html).expect("parses");
+        let alu: Vec<_> = rows
+            .iter()
+            .filter(|(title, ..)| title.starts_with("Alu ") && !title.contains("Kabel"))
+            .collect();
+        assert_eq!(alu.len(), 5, "the five sorts of the live card");
+        // No sort may be skipped: the card carries a price at every name.
+        assert!(!skips.iter().any(|s| s.contains("Alu Profile")));
+        for (title, _, price, unit) in alu {
+            assert!(*price > 0.0, "{title} carries a price");
+            assert_eq!(*unit, "EUR/kg");
+        }
     }
 }
