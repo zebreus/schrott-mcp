@@ -4,18 +4,19 @@ name: Autoverwertung Kroher
 trader_type: autoverwertung
 state: BY
 city: München
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: 'Rupert-Bodner-Str. 19'
+postcode: '81245'
+phone: '089 8633975'
+email: 'ckroher@gmx.de'
 opening_hours: ''
 website: 'https://www.autoverwertung-kroher.de'
 website_status: aktiv
 status: pruefung
-description: ''
-clear_fields: 'geo,phone'
+description: 'Autoverwertung Kroher, Inhaber Christian Kroher, Rupert-Bodner-Straße 19, 81245 München-Aubing: Autoverwertung mit amtlich anerkannter AltfahrzeugV-Bescheinigung (Vorgang ZAIS00100003). Anschrift, Telefon, Fax und E-Mail sind durch das amtliche Fachbetrieberegister und das Betreiber-Impressum gedeckt. Die Website trägt ©2018, ein heutiger Annahmebetrieb ist damit nicht belegt; Ankaufskurse, Teilepreise und Gebühren werden nicht veröffentlicht.'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Altfahrzeugverwertung nach § 2 Abs. 2 AltfahrzeugV (amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge, Route Altfahrzeugverwertung, Abruf 09.11.2026): Vorgangsnummer ZAIS00100003, Bescheinigungsanlagennr. 1, Kennnummer I162E1751, Bezeichnung Autoverwertung Kroher - Inhaber Christian Kroher, Rupert-Bodner-Straße 19, 81245 München, Telefon 089 8633975, Fax 089 8632787, E-Mail ckroher@gmx.de, Ansprechpartner Herr Kroher Christian; die Felder Internetadresse und Rücknahme für folgende Hersteller sind im Register leer; ein Eintrag als Entsorgungsfachbetrieb nach § 56 KrWG besteht für Kroher nicht"]'
 provenance_section: Weitere Betriebe aus dem amtlichen Register (Ankauf unklar, ohne
   geprüfte Website)
 provenance_ankauf_raw: ''
@@ -26,12 +27,12 @@ provenance_origin: table
 
 ## Überblick
 
-Die Betreiberwebsite nennt Christian Kroher und Rupert-Bodner-Straße 19, während die ältere Produktions-/Verzeichnisangabe Hausnummer 23 lautet. Die Website trägt ©2018; eine aktuelle unabhängige Identitäts- oder Standortbestätigung fehlt. Deshalb bleiben beide Hausnummern Leads und sind nicht als aktuelle Adresse im Frontmatter gesetzt. Der Produktionspunkt löst in der Dachauer Straße auf und gehört nicht nachweislich zu Kroher. `status: pruefung`; keine aktuelle Annahmestelle behauptet. Die Website veröffentlichte 2018 historische **Entsorgungs-/Abholgebühren** und Gebrauchtteile, keine Ankaufskurse; Beträge vor operativer Verwendung bestätigen.
+Das amtliche Fachbetrieberegister (GESA) führt den Betrieb als anerkannten **Altfahrzeugverwertungsbetrieb** an **Rupert-Bodner-Straße 19, 81245 München** (Vorgangsnummer ZAIS00100003, Kennnummer I162E1751, Ansprechpartner Christian Kroher, Telefon 089 8633975, E-Mail ckroher@gmx.de); die Betreiberseite nennt denselben Rechtsträger und dieselbe Hausnummer 19 (USt.-IdNr. DE129843868). Die ältere Verzeichnisangabe **23** ist damit eine Fehlzuschreibung. `street`, `postcode`, `phone` und `email` sind belegt, `certifications` trägt die AltfahrzeugV-Bescheinigung. Die Website trägt ©2018; ein heutiger Annahmebetrieb ist damit **nicht** belegt, deshalb `status: pruefung`. Der Produktionspunkt in der Dachauer Straße bleibt über `clear_fields: 'geo'` entzogen; für die Hausnummer 19 existiert in OSM kein Adressobjekt. Die Website veröffentlichte 2018 historische **Entsorgungs-/Abholgebühren** und Gebrauchtteile, keine Ankaufskurse; Beträge vor operativer Verwendung bestätigen.
 
 - **Ankauf:** kein Fahrzeug- oder Schrottankaufpreis veröffentlicht.
 - **Verkauf:** Gebrauchtteile werden angeboten, aber keine Teilepreisliste gefunden.
 - **Historischer Gebühren-Lead (Website ©2018, Zuordnung/Aktualität offen):** PKW-Entsorgung älter als 12 Jahre ohne wiederverwendbare Teile „ab 80 Euro“ inkl. Formalitäten; Abholung im Münchner Stadtgebiet 30 Euro, Umland auf Anfrage. Das wären Dienstleistungsgebühren, keine Ankaufpreise.
-- **Offen/GEO:** Gültigkeit der älteren Beträge und Hausnummernkonflikt 19/23 bestätigen; keine Koordinaten geraten.
+- **Offen/GEO:** Gültigkeit der älteren Website-Beträge bestätigen; der Hausnummernkonflikt 19/23 ist amtlich zugunsten von 19 entschieden; keine Koordinate gesetzt, da OSM die Hausnummer 19 nicht adressiert.
 
 ## Timeline
 
@@ -158,3 +159,9 @@ Die Betreiberwebsite nennt Christian Kroher und Rupert-Bodner-Straße 19, währe
   https://www.autoverwertung-kroher.de/impressum.html ;
   https://schrottregister.pages.dev/betrieb-autoverwertung-kroher-inhaber-christian-kroher-munchen
   (live abgerufen 05.11.2026).]
+
+### Recherche 09.11.2026
+
+- [Recherche 09.11.2026: **Das amtliche Fachbetrieberegister bestätigt Anschrift, Kontakt und AltfahrzeugV-Anerkennung von Kroher und löst den Hausnummernkonflikt 19/23 amtlich zugunsten von 19 auf.** Live-Abfrage am 09.11.2026 (clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt): die Route „Altfahrzeugverwertung“ liefert unter der Namenssuche `Kroher` **1 Treffer** - „Autoverwertung Kroher - Inhaber Christian Kroher“, **Rupert-Bodner-Straße 19, 81245 München**, Vorgangsnummer **ZAIS00100003**, Bescheinigungsanlagennr. 1, Kennnummer **I162E1751**, Telefon **089 8633975**, Fax 089 8632787, E-Mail **ckroher@gmx.de**, Ansprechpartner Herr Kroher Christian; die Felder „Internetadresse“ und „Rücknahme für folgende Hersteller“ sind im Register leer. Die Radiusabfrage mit 3 km um die Dossieradresse liefert in derselben Route **1 Treffer** (Kroher selbst, 0,1 km) und in der Route „Entsorgungsfachbetriebe“ **26 Treffer**; dort stehen auf derselben Hausnummer 19 zwei **andere** zertifizierte Betriebe, nämlich die „Münchner Recycling GmbH BS Aubing“ (ZZEE00200354 / 4 Lagern, / 5 Behandeln und Verwerten) und die „Wittmann Entsorgungswirtschaft GmbH Betriebsstätte Aubing“ (ZZEE00200116 / 2 Sammeln und Befördern) - Kroher selbst ist **kein** Entsorgungsfachbetrieb, die Namenssuche `Kroher` in der Efb-Route ergibt **0 Treffer**. Die zweite Belegquelle ist das Betreiber-Impressum (live, HTTP 200), das denselben Rechtsträger und dieselbe Hausnummer 19 nennt (Christian Kroher, Rupert-Bodner-Strasse 19, 81245 München-Aubing, USt.-IdNr. DE129843868, Tel. 089 / 863 39 75); die Verzeichnisangabe 23 bleibt damit eine Fehlzuschreibung. Auf dieser Grundlage sind `street`, `postcode`, `phone` und `email` neu in das Frontmatter übernommen, das Feld `certifications` ist mit der AltfahrzeugV-Bescheinigung neu gesetzt, und aus `clear_fields` ist der Eintrag `phone` herausgenommen. Der Eintrag `geo` bleibt unverändert, weil die Hausnummer 19 in OSM nicht adressiert ist und ein belegter Betriebspunkt fehlt. `status` bleibt `pruefung`, weil die Betreiberseite ©2018 trägt und ein heutiger Annahmebetrieb damit nicht belegt ist. **Preise getrennt geführt:** **Ankauf** ohne bezifferten Material- oder Fahrzeugkurs, **Verkauf** ohne Teilepreisliste, **Gebühren** nur die historischen Website-Angaben von 2018 („ab 80 Euro“ für die PKW-Entsorgung ohne wiederverwendbare Teile inklusive Formalitäten, 30 Euro für die Abholung im Münchner Stadtgebiet, Umland auf Anfrage) - das sind Entsorgungs- und Transportgebühren und keine Ankaufpreise; es wird kein Betrag erfunden.
+  Das Feld `description` ist um den belegten Stand ergänzt.
+  Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Kroher ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Kroher ; https://www.autoverwertung-kroher.de/impressum.html ; https://www.autoverwertung-kroher.de/leistungen.html (Abruf 09.11.2026).]
