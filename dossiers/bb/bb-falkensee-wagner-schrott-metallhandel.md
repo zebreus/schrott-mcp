@@ -6,6 +6,8 @@ state: BB
 city: Falkensee
 street: Barkhausenstr. 75
 postcode: ''
+lat: 52.5550802
+lon: 13.0947726
 phone: ''
 email: ''
 opening_hours: ''
@@ -40,3 +42,8 @@ Ein Betrieb „Wagner Schrott- & Metallhandel“ am Seed-Standort Barkhausenstr.
 
 - Schrott/Buntmetall (schrott-wagner.de = separater BaWü-Betrieb, Billigheim/Neckarelz)
 - Adresse: Falkensee, Barkhausenstr. 75
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.5550802/13.0947726**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Wagner Schrott- & Metallhandel“ ist über die Adresse **Barkhausenstr. 75, Falkensee** adressiert; das OSM-Adressobjekt **w/44608869** trägt `addr:housenumber`=75, `addr:street`=Barkhausenstraße, `addr:postcode`=14612, `addr:city`=Falkensee; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 8 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Barkhausenstr. 75,  Falkensee“ liefert unter den 1 Treffern dasselbe Objekt **w/44608869**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Barkhausenstr.+75%2C++Falkensee ; https://api.openstreetmap.org/api/0.6/way/44608869.json (Abruf 08.11.2026).]

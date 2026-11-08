@@ -6,6 +6,8 @@ state: BB
 city: Liebenwalde
 street: Am Kietz 9
 postcode: '16559'
+lat: 52.8624365
+lon: 13.4066074
 phone: 033054 889-0
 email: info@kmr-liebenwalde.de
 opening_hours: ''
@@ -36,3 +38,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026 (Feedback-Triage 2144)
 
 - [Recherche 01.10.2026: Feedback #2144 (E-Mail fehlt) berechtigt — info@kmr-liebenwalde.de aus verifizierter Betreiber-Primärquelle (Impressum: KMR Kabel-Metall-Recycling GmbH, Am Kietz 9, 16559 Liebenwalde, GF Uwe + Konstantin Kramer, AG Neuruppin HR 4043, USt-ID DE 812131022; HR-kongruent per Northdata HRB 4043, Sitz Am Kietz 9, Jahresabschluss 2024 publ. 02/2026 = live). E-Mail steht zusätzlich im Homepage-Header. Kein Namensvetter-Problem (HR-eindeutig). Quelle(n): kabel-metall-recycling.de/impressum (Betreiber-Primärquelle, live 01.10.2026); northdata.com KMR HRB 4043 (Register, live 01.10.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.8624365/13.4066074**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „KMR Kabel-Metall-Recycling GmbH“ ist über die Adresse **Am Kietz 9, 16559 Liebenwalde** adressiert; das OSM-Adressobjekt **w/858243202** trägt `addr:housenumber`=9, `addr:street`=Am Kietz, `addr:postcode`=16559, `addr:city`=Liebenwalde; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Am Kietz 9, 16559 Liebenwalde“ liefert unter den 1 Treffern dasselbe Objekt **w/858243202**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Am+Kietz+9%2C+16559+Liebenwalde ; https://api.openstreetmap.org/api/0.6/way/858243202.json (Abruf 08.11.2026).]

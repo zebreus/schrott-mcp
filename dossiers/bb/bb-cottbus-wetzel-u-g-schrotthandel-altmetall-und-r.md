@@ -6,6 +6,8 @@ state: BB
 city: Cottbus
 street: Schmellwitzer Str. 69
 postcode: '03044'
+lat: 51.7868644
+lon: 14.3357967
 phone: 0355 871073
 email: ''
 opening_hours: ''
@@ -46,3 +48,8 @@ Cottbuser Rohstoffhof bleibt ein Standort-Klärfall. NorthData bestätigt Altmet
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Das Örtliche führt am Cottbuser Standort die vorhandene Adresse/Telefonnummer sowie als weitere Kontakt-Leads rostoffhof@web.de und rohstoffhof.de; das ist ein Verzeichnis, kein Betreiberbeleg. Die verlinkte Domain lieferte bei Abruf keine nutzbare Betreiber-/Impressumsinformation. NorthData ordnet die UG dem Sitz Drebkau zu; die aktuell erreichbaren Schrott-Wetzel-Seiten betreffen andere Standorte bzw. Schrott Wetzel Ost und belegen keinen Zusammenhang mit diesem Cottbuser Rohstoffhof. Daher keine leeren Frontmatter-Felder ergänzt; E-Mail, Website, Erreichbarkeit und aktueller Betrieb bleiben ungeklärt; Quelle(n): https://www.dasoertliche.de/Themen/Altmetall-Wetzel-UG-Schrotthandel-Cottbus-Schmellwitz-Schmellwitzer-Str; https://www.dasoertliche.de/Themen/Wetzel.html; https://www.northdata.de/Altmetall%20Wetzel%20UG,%20Drebkau/Amtsgericht%20Cottbus%20HRB%2014999; https://schrott-wetzel.webflow.io/; https://www.schrott-wetzel-ost.de/; https://www.euwid-recycling.de/news/wirtschaft/keine-angebote-fuer-insolventen-recycler-schrott-wetzel-ost-051125.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.7868644/14.3357967**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Wetzel U.G. Schrotthandel (Altmetall- und Rohstoffhof)“ ist über die Adresse **Schmellwitzer Str. 69, 03044 Cottbus** adressiert; das OSM-Adressobjekt **w/586028188** trägt `addr:housenumber`=69, `addr:street`=Schmellwitzer Straße, `addr:postcode`=03044, `addr:city`=Cottbus; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 6 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Schmellwitzer Str. 69, 03044 Cottbus“ liefert unter den 1 Treffern dasselbe Objekt **w/586028188**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Schmellwitzer+Str.+69%2C+03044+Cottbus ; https://api.openstreetmap.org/api/0.6/way/586028188.json (Abruf 08.11.2026).]

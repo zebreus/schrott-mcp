@@ -50,3 +50,8 @@ provenance_origin: table
 ### Korrektur 30.09.2026
 
 - [Korrektur 30.09.2026: status aktiv → pruefung — Existenz nur durch Verzeichnisbeleg, kein unabhaengiger Zweitbeleg (Feedback 1464/1465); Re-Pruefung per Folgewelle.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Wittstocker Chaussee 1, 16909 Heiligengrabe b. Wittstock** ist in OSM durch **w/804739869** belegt (`addr:housenumber`=1, `addr:street`=Wittstocker Chaussee, `addr:postcode`=16909, `addr:city`=Heiligengrabe); das Objekt trägt `name`=Kronoply GmbH /Kronotex GmbH & Co. KG Tor 1 (`phone`=+49 33962 69-0, `website`=http://www.kronoply.de/) - das ist ein **anderer Betrieb** (Textilrecycling), **nicht** der Dossierbetrieb „Dahm Bohnsack GbR Schrotthandel“. Eine OSM-Betriebszuordnung zum Dossierbetrieb existiert **nicht**. Nach der Hausregel wird deshalb **keine** Koordinate gesetzt. Die Photon-Suche nach „Wittstocker Chaussee 1, 16909 Heiligengrabe b. Wittstock“ liefert dasselbe Objekt „Kronoply GmbH /Kronotex GmbH & Co. KG Tor 1“ - also den fremden Betrieb; die Nominatim-Suche nach derselben Anschrift liefert keinen Treffer.]
+  Quelle(n): https://photon.komoot.io/api/?q=Wittstocker+Chaussee+1%2C+16909+Heiligengrabe+b.+Wittstock&limit=20&lang=de ; https://api.openstreetmap.org/api/0.6/way/804739869.json (Abruf 08.11.2026).]

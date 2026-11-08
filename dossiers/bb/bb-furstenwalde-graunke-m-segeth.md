@@ -6,6 +6,8 @@ state: BB
 city: Fürstenwalde/Spree
 street: Karl-Liebknecht-Str. 30
 postcode: '15517'
+lat: 52.3784381
+lon: 14.0759383
 phone: 03361 50348
 email: info@graunke24.de
 opening_hours: Mo-Fr 08:00-12:00, 13:00-17:00
@@ -51,3 +53,8 @@ belegt ist graunke24.de. Ankauf- und Verkaufspreise werden nicht mit Zahlen ver�
 - [30.10.2026 (Korrekturvermerk): **Tag-Zitat berichtigt**: live trägt way/617981168 `name=Autoteilezentrum L.S. Graunke` (mit Leerzeichen) und `landuse=commercial`; das Dossier zitierte die Schreibweise ohne Leerzeichen, die way/179160055 trägt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/617981168.json (Abruf 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk): **Gleichsetzung aufgehoben**: die beiden Objekte tragen **verschiedene** Schreibweisen — way/179160055 `name=Autoteilezentrum L.S.Graunke` (ohne Leerzeichen) mit `operator=L.S. Graunke`, way/617981168 `name=Autoteilezentrum L.S. Graunke` (mit Leerzeichen). Die Trefferzahl 2 bleibt korrekt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/179160055.json ; https://api.openstreetmap.org/api/0.6/way/617981168.json (Abruf 30.10.2026)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.3784381/14.0759383**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „Autoverwertung L.S. Graunke (Autoteilezentrum L.S. Graunke)“ ist über die Adresse **Karl-Liebknecht-Str. 30, 15517 Fürstenwalde/Spree** adressiert; das OSM-Objekt **w/179160055** trägt `addr:housenumber`=30, `addr:street`=Karl-Liebknecht-Straße, `addr:postcode`=15517, `addr:city`=Fürstenwalde/Spree; das Objekt trägt `name`=Autoteilezentrum L.S.Graunke und `operator`=L.S. Graunke (mit `website`=https://graunke24.de) - das ist der Dossierbetrieb, die Koordinate ist der **Betriebspunkt**; der Punkt ist der Mittelwert der 6 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Karl-Liebknecht-Str. 30, 15517 Fürstenwalde/Spree“ liefert unter den 1 Treffern dasselbe Objekt **w/179160055**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Karl-Liebknecht-Str.+30%2C+15517+F%C3%BCrstenwalde%2FSpree ; https://api.openstreetmap.org/api/0.6/way/179160055.json (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: BB
 city: Golßen
 street: Hauptstr. 23
 postcode: ''
+lat: 51.9694144
+lon: 13.6072918
 phone: ''
 email: ''
 opening_hours: ''
@@ -57,3 +59,8 @@ nicht belegt; die Gewerbeauskunft der Gemeinde Golßen wäre der nächste Schrit
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Kein Betreiberbeleg für Winter Walter in Golßen gefunden. Die geprüften gleichnamigen Schrotthandel-Websites bezeichnen andere Betreiber/Regionen (Landshut bzw. Worms); die Gelbe-Seiten-Suche für Golßen liefert keinen passenden Treffer. Straßenverzeichnis bestätigt nur die Existenz der Hauptstraße, nicht Hausnummer/Betreiber. Keine Frontmatter-Fills. Quelle(n): https://www.winter-metall.de/ ; https://www.schrotthandelwinter.de/ ; https://www.gelbeseiten.de/branchen/schrotthaendler/golssen ; https://www.stadtplan.info/golssen/strassen]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.9694144/13.6072918**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Winter Walter“ ist über die Adresse **Hauptstr. 23, Golßen** adressiert; das OSM-Adressobjekt **w/548833538** trägt `addr:housenumber`=23, `addr:street`=Hauptstraße, `addr:postcode`=15938, `addr:city`=Golßen; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Hauptstr. 23,  Golßen“ liefert unter den 1 Treffern dasselbe Objekt **w/548833538**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Hauptstr.+23%2C++Gol%C3%9Fen ; https://api.openstreetmap.org/api/0.6/way/548833538.json (Abruf 08.11.2026).]

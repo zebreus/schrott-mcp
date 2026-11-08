@@ -45,3 +45,8 @@ Das Örtliche führt „Krasulsky Stefan Cottbuser Goldankauf“ als Schmuckware
 - Gold-/Silberwaren, Goldankauf
 - Adresse: Cottbus, Karl-Liebknecht-Str. 16
 - Adressbeleg: Seed-notes; PLZ Orts-PLZ
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Karl-Liebknecht-Str. 16, 03046 Cottbus** ist in OSM durch das Gebäudemuster **w/151457380** belegt (`addr:housenumber`=16, `addr:street`=Karl-Liebknecht-Straße, `addr:postcode`=03046, `addr:city`=Cottbus); unmittelbar dort liegt der **Fremdbetrieb n/12373874377** (`name`=Royal Barber Lounge, `shop`=hairdresser) - ein Friseurbetrieb, **nicht** der Dossierbetrieb „Cottbuser Goldankauf (Krasulsky)“. Eine OSM-Betriebszuordnung zum Dossierbetrieb existiert **nicht**. Nach der Hausregel wird deshalb **keine** Koordinate gesetzt. Die Nominatim-Vorwärtssuche nach „Karl-Liebknecht-Str 16, 03046 Cottbus“ liefert unter den zwei Treffern das Gebäudemuster **w/151457380** und den Fremdbetrieb **n/12373874377** („Royal Barber Lounge“).]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Karl-Liebknecht-Str.+16%2C+03046+Cottbus ; https://api.openstreetmap.org/api/0.6/node/12373874377.json (Abruf 08.11.2026).]

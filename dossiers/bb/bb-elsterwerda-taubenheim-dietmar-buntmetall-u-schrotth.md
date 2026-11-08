@@ -6,6 +6,8 @@ state: BB
 city: Elsterwerda
 street: Ludwig-Jahn-Str. 60
 postcode: 04910
+lat: 51.4617399
+lon: 13.5340280
 phone: 03533 2710
 email: ''
 opening_hours: ''
@@ -60,3 +62,8 @@ Für Ankauf, Verkauf und Gebühren keine belastbare Preis-/Tarifquelle erschloss
 - [30.10.2026 (Korrekturvermerk): **Hausnummernliste der Ludwig-Jahn-Straße berichtigt**: die Nachmessung am 30.10.2026 im 350-m-Radius um den Flächenmittelpunkt der Way-Geometrie way/896155947 (51.4617570/13.5340339) ergibt **39** Adressobjekte mit **39** verschiedenen Hausnummern - Objekt- und Nummernzahl bleiben unverändert, die Aufzählung wurde durch die Live-Liste ersetzt. Die bisher genannten Nummern **1, 7 und 10 liegen nicht im 350-m-Radius** (die Hausnummer 1 existiert im Kartenausschnitt überhaupt nicht, way/239551853 mit hn=10 liegt bei 350,0 m und way/239559912 mit hn=7 bei 350,2 m Entfernung), dagegen fehlten bisher **49, 76 und 78**. Raster: bbox 13.5289818,51.4586094,13.5390860,51.4649046 (Quadrant um 51.4617570/13.5340339 mit 350 m Kantenlänge), Distanzfilter Haversine mit R = 6371 km, Strasse „Ludwig-Jahn-Straße“. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=13.5289818,51.4586094,13.5390860,51.4649046 (Abruf 30.10.2026)]
 
 - [30.10.2026 (Korrekturvermerk):  **Objekt-IDs im Korrekturvermerk berichtigt**: die dort genannten Objekt-IDs der Hofstettener Straße (Lohr) wurden durch die tatsächlich zur Ludwig-Jahn-Straße (Elsterwerda) gehörenden Objekte ersetzt - die Hausnummer 1 existiert im Kartenausschnitt nicht, way/239551853 (hn=10) liegt bei 350,0 m und way/239559912 (hn=7) bei 350,2 m Entfernung zum Flächenmittelpunkt 51.4617570/13.5340339 und damit ausserhalb des 350-m-Radius; die Gemessenwerte 39 Adressobjekte / 39 verschiedene Hausnummern bleiben unverändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.4617399/13.5340280**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Taubenheim Dietmar Buntmetall- u. Schrotthandel“ ist über die Adresse **Ludwig-Jahn-Str. 60, 04910 Elsterwerda** adressiert; das OSM-Adressobjekt **w/896155947** trägt `addr:housenumber`=60, `addr:street`=Ludwig-Jahn-Straße, `addr:postcode`=04910, `addr:city`=Elsterwerda; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 6 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Ludwig-Jahn-Str. 60, 04910 Elsterwerda“ liefert unter den 1 Treffern dasselbe Objekt **w/896155947**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Ludwig-Jahn-Str.+60%2C+04910+Elsterwerda ; https://api.openstreetmap.org/api/0.6/way/896155947.json (Abruf 08.11.2026).]

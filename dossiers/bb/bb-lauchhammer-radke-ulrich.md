@@ -6,6 +6,8 @@ state: BB
 city: Lauchhammer
 street: Windmühlenstr. 21
 postcode: 01979
+lat: 51.4895424
+lon: 13.7767299
 phone: 03574 2135
 email: ''
 opening_hours: ''
@@ -54,3 +56,8 @@ Branchenverzeichnisse führen „Radke Ulrich Autoverwertung“ unter Windmühle
 
 - Autoverwertung
 - Adresse: Lauchhammer, Windmühlenstr. 21
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.4895424/13.7767299**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Radke Ulrich“ ist über die Adresse **Windmühlenstr. 21, 01979 Lauchhammer** adressiert; das OSM-Adressobjekt **w/385186209** trägt `addr:housenumber`=21, `addr:street`=Windmühlenstraße, `addr:postcode`=01979, `addr:city`=Lauchhammer; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 5 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Windmühlenstr. 21, 01979 Lauchhammer“ liefert unter den 1 Treffern dasselbe Objekt **w/385186209**; die Dossier-Adresse stammt aus Verzeichnisangaben und belegt **nicht** einen öffentlichen Annahmepunkt - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Windm%C3%BChlenstr.+21%2C+01979+Lauchhammer ; https://api.openstreetmap.org/api/0.6/way/385186209.json (Abruf 08.11.2026).]

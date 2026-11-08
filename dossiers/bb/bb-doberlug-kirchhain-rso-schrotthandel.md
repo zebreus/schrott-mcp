@@ -6,6 +6,8 @@ state: BB
 city: Doberlug-Kirchhain
 street: Finsterwalder Str. 17B
 postcode: '03253'
+lat: 51.6293183
+lon: 13.5822368
 phone: ''
 email: ''
 opening_hours: ''
@@ -52,3 +54,8 @@ RSO Schrotthandel bleibt ein Verzeichnis-Lead für Finsterwalder Str. 17B, 03253
 - Schrott/Altmetall (Hausnr. 17B ≠ AV Schulze Nr. 17, Nachbaradresse — beide behalten)
 - Adresse: Doberlug-Kirchhain, Finsterwalder Str. 17B
 - Adressbeleg: Seed-notes (Verzeichnis); PLZ Orts-PLZ
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.6293183/13.5822368**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „RSO Schrotthandel“ ist über die Adresse **Finsterwalder Str. 17B, 03253 Doberlug-Kirchhain** adressiert; das OSM-Adressobjekt **w/1260706684** trägt `addr:housenumber`=17b, `addr:street`=Finsterwalder Straße, `addr:postcode`=03253, `addr:city`=Doberlug-Kirchhain; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Finsterwalder Str. 17B, 03253 Doberlug-Kirchhain“ liefert unter den 1 Treffern dasselbe Objekt **w/1260706684**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Finsterwalder+Str.+17B%2C+03253+Doberlug-Kirchhain ; https://api.openstreetmap.org/api/0.6/way/1260706684.json (Abruf 08.11.2026).]

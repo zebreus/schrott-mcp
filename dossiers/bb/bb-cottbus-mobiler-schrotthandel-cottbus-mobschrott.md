@@ -6,6 +6,8 @@ state: BB
 city: Cottbus
 street: Auraser Dorfstr. 2
 postcode: '03116'
+lat: 51.6634679
+lon: 14.2835530
 phone: 035602 22909
 email: c.lucia@t-online.de
 opening_hours: ''
@@ -52,3 +54,8 @@ Impressum belegt, während die Standortstadt Cottbus im Slug nur das Servicegebi
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Feedback-Triage 2109 teilweise berechtigt — email '' → 'c.lucia@t-online.de' (Betreiber-Einzelbeleg, 2. Quelle offen); phone '' → '035602 22909' (Festnetz, Impressum 30.09./01.10. verifiziert). Mobilnummer 0160 92074111 auf Betreiberseite am 01.10. nicht verifizierbar → nicht übernommen (weiterhin fehlend). Sitz Drebkau vs. Servicegebiet Cottbus bereits 30.09. triagiert (keine Änderung); Angebot nur mobiler Ankauf/Abholung nach Termin (Selbstanlieferung nicht belegt). Quelle(n): http://mobschrott.de/, http://mobschrott.de/Kontakt.htm]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.6634679/14.2835530**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „Mobiler Schrotthandel Cottbus (mobschrott.de)“ ist über die Adresse **Auraser Dorfstr. 2, 03116 Cottbus** adressiert; das OSM-Objekt **n/12219086461** trägt `addr:housenumber`=2, `addr:street`=Auraser Dorfstraße, `addr:postcode`=03116, `addr:city`=Drebkau; das Objekt ist ein **Betriebsknoten** (`office`=company) mit `name`=Mobiler Schrottankauf, `phone`=+49 35602 22909 und `website`=http://mobschrott.de/index.htm - das ist der Dossierbetrieb, die Koordinate ist der **Betriebspunkt**; die OSM-Adresse führt abweichend vom Dossier `addr:city`=Drebkau (das Frontmatter nennt Cottbus, die Postleitzahl 03116 gehört zu Drebkau) - die Anschrift stimmt überein, der Ortsname im Dossier ist abweichend; der Punkt ist die Knotenkoordinate; die Nominatim-Vorwärtssuche nach „Auraser Dorfstraße 2, 03116 Drebkau“ liefert unter den 2 Treffern dasselbe Objekt **n/12219086461**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Auraser+Dorfstra%C3%9Fe+2%2C+03116+Drebkau ; https://api.openstreetmap.org/api/0.6/node/12219086461.json (Abruf 08.11.2026).]

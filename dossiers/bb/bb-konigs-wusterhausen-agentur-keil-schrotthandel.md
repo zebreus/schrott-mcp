@@ -6,6 +6,8 @@ state: BB
 city: Königs Wusterhausen
 street: Am Bahnhof 1
 postcode: 15713
+lat: 52.3018869
+lon: 13.6522377
 phone: 03375 203753
 email: ''
 opening_hours: ''
@@ -53,3 +55,8 @@ Gelbe Seiten, Das Örtliche und weitere Telefonbuch-/Branchenportale führen Age
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg zu „Agentur Keil Schrotthandel“, Königs Wusterhausen auffindbar (Bing nur Arbeitsagentur-Homonyme, DDG ratenlimitiert); keine Fills, weiter aktiv mit Prüfvorbehalt; Quelle(n): keine belegfähige Quelle]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.3018869/13.6522377**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Agentur Keil Schrotthandel“ ist über die Adresse **Am Bahnhof 1, 15713 Königs Wusterhausen** adressiert; das OSM-Adressobjekt **n/8576308249** trägt `addr:housenumber`=1, `addr:street`=Am Bahnhof, `addr:postcode`=15713, `addr:city`=Königs Wusterhausen; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist die Knotenkoordinate; die Nominatim-Vorwärtssuche nach „Am Bahnhof 1, 15713 Königs Wusterhausen“ liefert unter den 1 Treffern dasselbe Objekt **n/8576308249**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Am+Bahnhof+1%2C+15713+K%C3%B6nigs+Wusterhausen ; https://api.openstreetmap.org/api/0.6/node/8576308249.json (Abruf 08.11.2026).]

@@ -44,3 +44,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat 038/2007/25 der IWA Ingenieur- und Beratungsgesellschaft mbH für den Standort Graf-von-Zeppelin-Straße 16, 14974 Ludwigsfelde fehlte die schließende Klammer am Textende; sie wurde ergänzt.
   Vorgangsnummer ZZPT004001712009, die vier Anlagen mit ihren Tätigkeiten und der Hinweis auf die abweichende Firmierung bleiben wortgleich; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Klärfall - keine Koordinate gesetzt.** Die Dossier-Adresse **Graf-von-Zeppelin-Str. 16, 14974 Ludwigsfelde** ist in OSM durch **w/39700707** belegt (`addr:housenumber`=16, `addr:street`=Graf-von-Zeppelin-Straße, `addr:postcode`=14974, `addr:city`=Ludwigsfelde); das Objekt trägt `name`=Mühl Product & Service (`trade`) - das ist ein **anderer Betrieb**, **nicht** der Dossierbetrieb „KA & DE Schrott- und Metallhandels GmbH“. Eine OSM-Betriebszuordnung zum Dossierbetrieb existiert **nicht**. Nach der Hausregel wird deshalb **keine** Koordinate gesetzt. Die Nominatim-Vorwärtssuche nach „Graf-von-Zeppelin-Str 16, 14974 Ludwigsfelde“ liefert dasselbe Objekt „Mühl Product & Service“ - also den fremden Betrieb.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Graf-von-Zeppelin-Str.+16%2C+14974+Ludwigsfelde ; https://api.openstreetmap.org/api/0.6/way/39700707.json (Abruf 08.11.2026).]

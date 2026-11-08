@@ -6,6 +6,8 @@ state: BB
 city: Neuenhagen
 street: Rosa-Luxemburg-Damm 1
 postcode: '15366'
+lat: 52.5211511
+lon: 13.7102953
 phone: 03342 234480
 email: info@kfz-werkstatt-neuenhagen.de
 opening_hours: Mo-Fr 7-18
@@ -60,3 +62,8 @@ Die Pries-&-Friese-Domain dokumentiert die Übergabe an LFP KFZ-Werkstatt oHG zu
 ### Recherche 01.10.2026 (Feedback-Triage #3078)
 
 - [Recherche 01.10.2026: Beide Punkte berechtigt — city auf „Neuenhagen" bereinigt; Betreiberwechsel bestätigt und bereits dokumentiert (Timeline: Betrieb seit 02.01.2023 an LFP KFZ-Werkstatt oHG übergeben). Gegenprüfung: Betreiber-Seite https://kfz-werkstatt-neuenhagen.de/ nennt LFP-KFZ Werkstatt OHG, Rosa-Luxemburg-Damm 1, 15366 Neuenhagen, Tel. 03342-23448-0 (= alte Pries-&-Friese-Nummer, Kontinuität), E-Mail info@kfz-werkstatt-neuenhagen.de (= Dossier-E-Mail) — aber KEINE Autoverwertung im Leistungsbild (Reifen/Werkstatt/HU). Das Örtliche führt parallel noch „Pries & Friese Autoverwertungscenter Inh. Holger Pries" (reiner Aggregator-Lead, veraltet). Fazit: Name/Status unverändert (kein Rename ohne 2-Quellen-Beleg zur Identitätsfrage), status pruefung bleibt — ob am Standort noch AV stattfindet, ist Klärfall; Quelle(n): https://kfz-werkstatt-neuenhagen.de/ + Das Örtliche (Lead)]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.5211511/13.7102953**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „LFP KFZ-Werkstatt oHG“ ist über die Adresse **Rosa-Luxemburg-Damm 1, 15366 Neuenhagen** adressiert; das OSM-Objekt **n/2249918259** trägt `addr:housenumber`=1, `addr:street`=Rosa-Luxemburg-Damm, `addr:postcode`=15366, `addr:city`=Neuenhagen bei Berlin; das Objekt ist ein **Betriebsknoten** (`shop`=car_repair) mit `name`=LFP KFZ-Werkstatt oHG, `alt_name`=Pries und Friese, `phone`=+49 3342 234480 und `website`=https://kfz-werkstatt-neuenhagen.de - das ist der Dossierbetrieb, die Koordinate ist der **Betriebspunkt**; am selben Adresspunkt liegen zusätzlich **n/9294647787** (Glocken und Turmuhren Meisterbetrieb Bittner) und das Gebäudemuster **w/213139571**, beide ohne Bezug zum Dossierbetrieb; der Punkt ist die Knotenkoordinate; die Nominatim-Vorwärtssuche nach „Rosa-Luxemburg-Damm 1, 15366 Neuenhagen“ liefert unter den 4 Treffern dasselbe Objekt **n/2249918259**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Rosa-Luxemburg-Damm+1%2C+15366+Neuenhagen ; https://api.openstreetmap.org/api/0.6/node/2249918259.json (Abruf 08.11.2026).]

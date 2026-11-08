@@ -6,6 +6,8 @@ state: BB
 city: Eberswalde
 street: Teuberstr. 1a
 postcode: ''
+lat: 52.8374783
+lon: 13.7823876
 phone: 03334 384520
 email: ''
 opening_hours: ''
@@ -60,3 +62,8 @@ Der Eberswalder Eintrag bleibt ungeklärt. Die Suchgegenprobe im Review vom 17.1
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — seik.de live (Herten/Erfurt/Leipzig), aber kein Eberswalde-Beleg; seik.de NICHT eingetragen; Adresse/Telefon nur Aggregator-Leads; Statusfeld unveraendert; Quelle(n): Betreiber seik.de (Fremdstandorte) + Aggregator-Leads]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.8374783/13.7823876**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Seik Automobilrecycling“ ist über die Adresse **Teuberstr. 1a, Eberswalde** adressiert; das OSM-Adressobjekt **n/14201388398** trägt `addr:housenumber`=1a, `addr:street`=Teuberstraße, `addr:city`=Eberswalde; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist die Knotenkoordinate; die Nominatim-Vorwärtssuche nach „Teuberstr. 1a,  Eberswalde“ liefert unter den 1 Treffern dasselbe Objekt **n/14201388398**; das Objekt trägt kein `addr:postcode`, das Frontmatter führt ebenfalls keine Postleitzahl.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Teuberstr.+1a%2C++Eberswalde ; https://api.openstreetmap.org/api/0.6/node/14201388398.json (Abruf 08.11.2026).]

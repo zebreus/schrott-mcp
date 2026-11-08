@@ -6,6 +6,8 @@ state: BB
 city: Hoppegarten
 street: Industriestr. 16
 postcode: '15366'
+lat: 52.5088885
+lon: 13.6377169
 phone: +49 30 35182 422
 email: hoppegarten.metall@alba.info
 opening_hours: Mo–Fr 7:00–12:00 Uhr und 12:30–15:30 Uhr
@@ -60,3 +62,8 @@ bleibt die Preislage des Standorts.
 - [Recherche 01.11.2026: **ALBAclick-Shop geprueft — Containerpreise, kein Ankaufpreis (Bezug: bb-dahlwitz-hoppegarten-alba-metall-nord, Standort Hoppegarten).** `https://shop.albaclick.de/` (eigene IP, **nicht** von der 429-Sperre betroffen, HTTP 200, Abruf 01.11.2026 11:44 UTC) fuehrt im Seitentitel „Container online bestellen ab 119€“ — das ist ein **Container-Dienstleistungspreis (Gebuehr)** fuer die Abfallentsorgung, **kein** Ankaufpreis fuer Schrott; die uebrigen Abfallarten (Mischabfall, Pappe, Bioabfall, Glas, Bauschutt, Sperrmuell, Holz, Gruenschnitt, Erdaushub, Elektrogeraete) werden ohne Preis gelistet, die Preise werden clientseitig ueber `api.albaclick.de` geladen; `/schrott` liefert „Nicht gefunden“. `https://www.myALBA.de/` laeuft in dieselbe 429-Sperre. **Befund fuer `bb-dahlwitz-hoppegarten-alba-metall-nord`: kein Ankaufpreis.**]
 
 - [Recherche 01.11.2026: **Preisarten strikt getrennt fuer `bb-dahlwitz-hoppegarten-alba-metall-nord` (Standort Hoppegarten, Industriestr. 16, 15366 Hoppegarten).** **Ankaufpreis:** nicht veroeffentlicht — kein Zahlenwert, keine Einheit, kein Datum; die Betreiber-Angabe zum Standort Hoppegarten bewirbt den Ankauf ausschliesslich qualitativ. **Verkauf:** nicht veroeffentlicht — die Sorten- und Produktpalette der ALBA-Gruppe ist fuer Hoppegarten ohne Preis. **Gebuehren / Annahmegebuehren:** nicht veroeffentlicht — die Container- und Behaelterangaben zu Hoppegarten sind **Volumen** (m³), keine Gebuehrensaetze. **Markt-/Boersenkurs:** nicht veroeffentlicht — die ALBA-Seiten nennen fuer Hoppegarten keinen eigenen Kurs und keine eigene Notierung. **Kommunale Gebuehr:** nicht einschlaegig bzw. nicht veroeffentlicht. **Nicht** belegt und **nicht** erfunden: ein absoluter Material-Ankaufpreis, eine Gebuehrentafel oder ein Kurs fuer `bb-dahlwitz-hoppegarten-alba-metall-nord`.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.5088885/13.6377169**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „ALBA Metall Nord GmbH“ ist über die Adresse **Industriestr. 16, 15366 Hoppegarten** adressiert; das OSM-Adressobjekt **w/62103987** trägt `addr:housenumber`=16, `addr:street`=Industriestraße, `addr:postcode`=15366, `addr:city`=Hoppegarten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 4 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Industriestr. 16, 15366 Hoppegarten“ liefert unter den 1 Treffern dasselbe Objekt **w/62103987**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Industriestr.+16%2C+15366+Hoppegarten ; https://api.openstreetmap.org/api/0.6/way/62103987.json (Abruf 08.11.2026).]

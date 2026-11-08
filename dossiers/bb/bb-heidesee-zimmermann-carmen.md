@@ -6,6 +6,8 @@ state: BB
 city: Heidesee
 street: Wenzlower Str. 7
 postcode: '15754'
+lat: 52.3135752
+lon: 13.7840781
 phone: 033767 80461
 email: info@fuhrbetrieb-autoverwertung.de
 opening_hours: Mo-Fr 7-17 Uhr; Sa 8-12 Uhr
@@ -45,3 +47,8 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Die Altfahrzeugverwertung-Bescheinigung nach § 2 Abs. 2 AltfahrzeugV für den Standort Wenzlower Straße 7, 15754 Heidesee / OT Dannenreich brach mitten im Satz ab; die schließende Klammer wurde angehängt.
   Bezeichnung, Bescheinigungsanlagennr. 1, die Kennnummern PE5001818;PA6000059 und der Negativbefund zum EfbV-Eintrag stehen unverändert im Eintrag; kein inhaltlicher Wert wurde geändert.]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.3135752/13.7840781**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Zimmermann Carmen“ ist über die Adresse **Wenzlower Str. 7, 15754 Heidesee** adressiert; das OSM-Adressobjekt **w/300428116** trägt `addr:housenumber`=7, `addr:street`=Wenzlower Straße, `addr:postcode`=15754, `addr:city`=Heidesee; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 8 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Wenzlower Str. 7, 15754 Heidesee“ liefert unter den 1 Treffern dasselbe Objekt **w/300428116**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Wenzlower+Str.+7%2C+15754+Heidesee ; https://api.openstreetmap.org/api/0.6/way/300428116.json (Abruf 08.11.2026).]

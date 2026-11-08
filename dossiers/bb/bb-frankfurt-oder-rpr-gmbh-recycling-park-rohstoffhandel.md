@@ -6,6 +6,8 @@ state: BB
 city: Frankfurt (Oder)
 street: Georg-Richter-Straße 13
 postcode: '15234'
+lat: 52.3539262
+lon: 14.5066721
 phone: 0335 4000099
 email: info@rpr-recyclingpark.de
 opening_hours: Mo-Fr 07:00-16:00
@@ -35,3 +37,8 @@ Neue, registerkongruente Betreiber-GmbH in Frankfurt (Oder). Die ältere Recherc
 ### Recherche 09.10.2026 (Feedback-Triage ID 5964)
 
 - [Recherche 09.10.2026 (Feedback-Triage ID 5964): NEUEINTRAG bestätigt — RPRs Betreiberwebsite nennt den Ankauf von Buntmetallen, Schrott und NE-Metallen (Kupfer, Messing, Aluminium, Edelstahl, Zink) zu marktgerechten Tagespreisen für Privat- und Gewerbekunden. Die standortbezogene Kontaktseite bestätigt Georg-Richter-Str. 13, 15234 Frankfurt (Oder), Tel. 0335 4000099 und Mo–Fr 07:00–16:00; die Impressums-Mailadresse ist im mailto-Link kodiert und ergibt info@rpr-recyclingpark.de. Im Impressum steht irrtümlich „HBR 21955“; Northdata führt die namens- und adressgleiche RPR GmbH unter HRB 21955 AG Frankfurt (Oder), Eintragung 07.01.2026. Die frühere Betreiberseite von Olaf Priebels erklärt die Einstellung des eigenen Geschäftsbetriebs und bezeichnet RPR zum 01.01.2026 als Nachfolger; daher neue GmbH als eigene Händlerzeile, keine Umbenennung des Vorgängers. Abgrenzung: das vorhandene Dossier bb-frankfurt-veolia-umweltservice-nord-ost ist Veolia am Mittelweg 32, kein Namens-/Standorttreffer. Die Betreiberseiten nennen Metallankauf, Anschrift und Öffnungszeiten, aber keine ausdrückliche Selbstanlieferung von Metall; der Google-Rezensionshinweis „Schrottannahme“ ist kein zulässiger Beleg. dropoff_json/pickup_json bleiben deshalb leer; keine Zahlenpreise veröffentlicht. Quelle(n): https://rpr-recyclingpark.de/; https://rpr-recyclingpark.de/kontakt/; https://rpr-recyclingpark.de/impressum/; https://www.northdata.de/RPR%20GmbH%20Recycling-Park-Rohstoffhandel,%20Frankfurt%20(Oder)/Amtsgericht%20Frankfurt%2FOder%20HRB%2021955; https://www.priebels.de/index.html (Abruf 09.10.2026).]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.3539262/14.5066721**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „RPR GmbH Recycling-Park-Rohstoffhandel“ ist über die Adresse **Georg-Richter-Straße 13, 15234 Frankfurt (Oder)** adressiert; das OSM-Objekt **w/135961415** trägt `addr:housenumber`=13, `addr:street`=Georg-Richter-Straße, `addr:postcode`=15234, `addr:city`=Frankfurt (Oder); das Objekt trägt `name`=Recycling-Park & Rohstoffhandel und `operator`=Olaf Priibel - die Firmierungsbezeichnung ist die des Dossierbetriebs „RPR GmbH Recycling-Park-Rohstoffhandel“, das `operator`-Tag nennt jedoch den Vorgänger, dessen Geschäftsführung laut Dossier-Recherche zum 01.01.2026 an RPR überging; die Koordinate ist der **Betriebspunkt**; der Punkt ist der Mittelwert der 10 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Georg-Richter-Straße 13, 15234 Frankfurt (Oder)“ liefert unter den 1 Treffern dasselbe Objekt **w/135961415**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Georg-Richter-Stra%C3%9Fe+13%2C+15234+Frankfurt+%28Oder%29 ; https://api.openstreetmap.org/api/0.6/way/135961415.json (Abruf 08.11.2026).]

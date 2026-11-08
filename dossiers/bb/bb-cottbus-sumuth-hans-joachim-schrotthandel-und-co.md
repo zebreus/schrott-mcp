@@ -6,6 +6,8 @@ state: BB
 city: Cottbus
 street: Grenzstr. 18
 postcode: '03051'
+lat: 51.7095707
+lon: 14.3380020
 phone: 0355 534710
 email: ''
 opening_hours: ''
@@ -56,3 +58,8 @@ Der Seed führt Grenzstr. 18, 03051 Cottbus. Eine amtliche Brandenburger Abfallw
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Erneute Gegenprüfung löst den bereits dokumentierten Konflikt 03051/03055 und die mehrfachen Portalvarianten nicht auf. Keine Änderung bestehender Frontmatter-Felder und keine neue Mobilnummer dort eingetragen; Klärfall zu maßgeblicher PLZ/Eintragsidentität bleibt. Quelle(n): http://www.europaschule-guben.de/.cm4all/uproc.php/0/PXL/Auflistung%20Pxl-Betriebe%20nach%20Branchen.pdf?_=186b7dcf4cf&cdp=a ; https://www.gelbeseiten.de/gsbiz/1a44fc02-a41f-43a2-b9e6-1a6900092826 ; https://www.schrottplatz-info.de/schrottplatz/Cottbus/-Suessmuth-Hans-Joachim-Schrotthandel-und-Containerdienst]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.7095707/14.3380020**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Süßmuth Hans-Joachim Schrotthandel und Containerdienst“ ist über die Adresse **Grenzstr. 18, 03051 Cottbus** adressiert; das OSM-Adressobjekt **w/93714041** trägt `addr:housenumber`=18, `addr:street`=Grenzstraße, `addr:postcode`=03051, `addr:city`=Cottbus; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist der Mittelwert der 6 eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche nach „Grenzstr. 18, 03051 Cottbus“ liefert unter den 1 Treffern dasselbe Objekt **w/93714041**; die amtliche Brandenburgische Abfallwirtschaftsplanung führt für „Hans-Joachim Süßmuth Containerdienst und Schrotthandel“ genau diese Anschrift Grenzstraße 18, daneben aber einen zweiten Eintrag „Süßmuth – Schrottplatz Cottbus“ an Bärenbrücker Straße 3, 03042; welche der beiden amtlich geführten Stellen heute Kundenannahme betreibt, bleibt offen - die Koordinate belegt die **Anschrift** der Dossier-Adresse, nicht den Annahmeplatz.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Grenzstr.+18%2C+03051+Cottbus ; https://api.openstreetmap.org/api/0.6/way/93714041.json (Abruf 08.11.2026).]

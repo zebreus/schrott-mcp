@@ -6,6 +6,8 @@ state: BB
 city: Großräschen
 street: Karl-Marx-Str. 18
 postcode: 01983
+lat: 51.5957230
+lon: 14.0001210
 phone: ''
 email: ''
 opening_hours: ''
@@ -47,3 +49,8 @@ provenance_origin: table
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Klärfall, keine verifizierten Kontakt-Fills. 11880 führt „Schrotthandel Husic“ mit Karl-Marx-Str. 18, 01983 Großräschen, Telefon 0155 61332975 und den Kategorien Entrümpelung/Schrotthandel (Datensatz 01.06.2026, aktualisiert 04.10.2026); das bleibt ein einzelner Aggregator-Beleg, kein unabhängiger Zweitbeleg und keine Betreiber-Primärquelle. Die Seed-Adresse stimmt damit überein, ist aber nicht unabhängig bestätigt und bleibt unverändert. Kein zurechenbarer Betreiberauftritt gefunden; website bleibt leer, website_status auf unbekannt gesetzt. Telefon, E-Mail, Zeiten, Beschreibung sowie Anlieferung/Abholung bleiben mangels belastbarer Belege leer. Das städtische Verzeichnis listet separat „Dienstleistung Transporte und Schrotthandel Hedt“ an Neu Bückgen 28; kein Beleg für Identität mit Husic, daher nicht vermischt.; Quelle(n): https://www.11880.com/branchenbuch/grossraeschen/060441363B113521775/schrotthandel-husic.html; https://www.grossraeschen.de/verzeichnis/visitenkarte.php?mandat=21796]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.5957230/14.0001210**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Husic“ ist über die Adresse **Karl-Marx-Str. 18, 01983 Großräschen** adressiert; das OSM-Adressobjekt **n/9483559671** trägt `addr:housenumber`=18, `addr:street`=Karl-Marx-Straße, `addr:postcode`=01983, `addr:city`=Großräschen; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; der Punkt ist die Knotenkoordinate; die Nominatim-Vorwärtssuche nach „Karl-Marx-Str. 18, 01983 Großräschen“ liefert unter den 1 Treffern dasselbe Objekt **n/9483559671**.]
+  Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Karl-Marx-Str.+18%2C+01983+Gro%C3%9Fr%C3%A4schen ; https://api.openstreetmap.org/api/0.6/node/9483559671.json (Abruf 08.11.2026).]

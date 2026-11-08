@@ -6,6 +6,8 @@ state: BB
 city: Brandenburg an der Havel
 street: Spittastr. 16
 postcode: '14770'
+lat: 52.4184679
+lon: 12.5223308
 phone: 03381 796755
 email: kluge@mail.de
 opening_hours: Mo-Fr 8:30-17:30, Sa 9:00-12:30
@@ -57,3 +59,8 @@ Hausnummerzuordnung, da OpenStreetMap keine Hausnummer führt.
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Betreiber-Website kluge-schrotthandel.de verifiziert (Start + Impressum + Kontakt): Spittastr. 16, 14770 Brandenburg a.d.H. und Tel. 03381 796755 deckungsgleich; E-Mail kluge@mail.de und Zeiten Mo-Fr 8:30-17:30, Sa 9:00-12:30 gefüllt, Website auf Domain-Root normiert; Haupttätigkeit Schrott-/Buntmetallankauf (Container nur Nebenleistung) → trader_type containerdienst → schrotthaendler; Quelle(n): https://www.kluge-schrotthandel.de/ + https://www.kluge-schrotthandel.de/impressum.html + https://www.kluge-schrotthandel.de/kontakt.html]
+
+### Geokodierung 08.11.2026
+
+- [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.4184679/12.5223308**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „Heiko Kluge Schrotthandel“ ist über die Adresse **Spittastr. 16, 14770 Brandenburg an der Havel** adressiert; das OSM-Objekt **w/1015449835** trägt `addr:housenumber`=16, `addr:street`=Spittastraße, `addr:postcode`=14770, `addr:city`=Brandenburg an der Havel; das Objekt ist ein **Flächenobjekt** (`landuse`=industrial) mit der Flächenangabe „Kluge Schrotthandel“ - das ist der Dossierbetrieb, die Koordinate ist der **Betriebspunkt**; der Punkt ist der Mittelwert der 9 eindeutigen Way-Knoten; die Photon-Vorwärtssuche nach „Spittastr. 16, 14770 Brandenburg an der Havel“ liefert unter den 1 Treffern dasselbe Objekt **w/1015449835**.]
+  Quelle(n): https://photon.komoot.io/api/?q=Spittastr.+16%2C+14770+Brandenburg+an+der+Havel&limit=20&lang=de ; https://api.openstreetmap.org/api/0.6/way/1015449835.json (Abruf 08.11.2026).]
