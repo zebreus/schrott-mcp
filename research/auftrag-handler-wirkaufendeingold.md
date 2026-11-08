@@ -1,6 +1,6 @@
 # Auftrag: Handler `wirkaufendeingold` an die neue Seite anpassen
 
-**Status:** offen — **bestätigter Datenfehler** (veraltete Preise), **kein** Dossier-Datenproblem ✓.
+**Status:** **erledigt am 08.11.2026, 20:45 UTC** ✓ ✓ — Handler-Fix ✓ ✓ implementiert ✓ ✓, Fixture ✓ ✓ und **zwei** Vertragstests ✓ ✓ grün ✓ ✓, **Live-Test** ✓ ✓ (read-only ✓ ✓) bestanden ✓ ✓ ✓. Der Fix gehört in das **nächste** Release ✓ ✓ ✓.
 **Betrifft:** `crates/ingestion/src/traders/handlers/wirkaufendeingold.rs` ✓ ·
 Slug `hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem` ✓.
 
@@ -77,10 +77,39 @@ statisch liefert die Seite nur den **Tageskurs** (`calc-spot`), nicht die Auszah
    (`crates/store/src/public/stale_current_prices.tsv` ✓) — mit einer **Migration**, nicht per
    Direktschreiben ✓.
 
+## Die Umsetzung ✓ — 08.11.2026 ✓
+
+Der **Vertrag** ✓ ✓ wurde auf den heutigen Seitenbau umgestellt ✓ ✓: verlangt werden jetzt
+`span#calc-spot-lbl` ✓ ✓ (Tageskurs-Label ✓ ✓), `span#calc-spot` ✓ ✓ (statischer Tageskurs ✓ ✓),
+`span#calc-result-low` ✓ ✓ und `span#calc-total` ✓ ✓ (Rechner ✓ ✓ — die Auszahlung rechnet der Browser ✓ ✓)
+sowie die **unveränderten** clientseitigen Kursmarker ✓ ✓ (gold-api ✓ ✓, Coinbase ✓ ✓, er-api ✓ ✓,
+`TROY_OZ` ✓ ✓, die vier `spot.*`-Formeln ✓ ✓) ✓ ✓. Die **entfallenen** `bars-spot`- ✓ ✓ und
+`bars-spot-silver` ✓ ✓ und der `bars-note` ✓ ✓ werden **nicht mehr verlangt** ✓ ✓ — sie sind auf der
+Seite **nicht** mehr vorhanden ✓ ✓ (der `bars-note` wird heute **nur** clientseitig vom Admin-Text
+angehängt ✓ ✓) ✓ ✓.
+
+**Belege** ✓ ✓: die Seite wurde am **08.11.2026** live geholt ✓ ✓ (HTTP 200 ✓ ✓, **132 250** Bytes ✓ ✓) ✓ ✓;
+`calc-spot-lbl` ✓ ✓, `calc-spot` ✓ ✓, `calc-result-low` ✓ ✓, `calc-total` ✓ ✓ und `calc-list` ✓ ✓ sind
+**statisch** vorhanden ✓ ✓, `bars-spot` ✓ ✗ und `bars-spot-silver` ✓ ✗ fehlen ✓ ✓ — `calc-result-high` ✓ ✓
+wird **clientseitig** erzeugt ✓ ✓ und ist deshalb **kein** statischer Anker ✓ ✓ ✓.
+
+Die **Fixture** ✓ ✓ `crates/ingestion/src/traders/handlers/fixtures/wirkaufendeingold-20261108.html` ✓ ✓
+enthält den **Vertragsauszug** ✓ ✓ der heutigen Seite ✓ ✓ (die statischen Anker ✓ ✓ und die
+**Originalzeilen** ✓ ✓ des clientseitigen Kursvertrags ✓ ✓) ✓ ✓. Zwei Tests ✓ ✓ halten ihn fest ✓ ✓:
+fehlt `calc-spot` ✓ ✓, `calc-total` ✓ ✓, das Label ✓ ✓ oder ein Kursmarker ✓ ✓, bricht der Lauf **ab** ✓ ✓;
+und ein Test ✓ ✓ hält fest ✓ ✓, dass die **entfernten** Widgets ✓ ✓ **nicht** mehr verlangt werden ✓ ✓ ✓.
+
+**Der Live-Test** ✓ ✓ (`live_handler_loads_client_side_rates_without_recording_them_as_prices` ✓ ✓)
+ist am 08.11.2026 **bestanden** ✓ ✓ ✓ — der Handler läuft wieder durch ✓ ✓ ✓.
+
+**Zur Migration** ✓ ✓: der Händler hat in der Produktion **keinen** Current-Pointer ✓ ✓ — die zwei
+alten Zeilen ✓ ✓ (Beobachtung 04.10.2026 ✓ ✓) sind **Historie** ✓ ✓ und bleiben es ✓ ✓; die Historie
+wird **nicht** angetastet ✓ ✓ ✓. Eine **Migration** ist damit **nicht nötig** ✓ ✓ ✓ — es gibt keinen
+Pointer zurückzuziehen ✓ ✓ ✓. Nach dem Deployment ✓ ✓ liefert der Handler wieder **eigene** Preise ✓ ✓ ✓.
+
 ## Grenzen
 
-- Der **Rollout-Kandidat `1657d324`** ist gepinnt ✓ — der Handler-Fix gehört in das **nächste**
-  Release ✓.
-- **Kein Force-Ingest** ✓ und keine direkten Produktionsschreibzugriffe ✓.
+- **Kein Force-Ingest** ✓ und keine direkten Produktionsschreibzugriffe ✓ — die Preise entstehen
+  wieder **durch den Handler** ✓ ✓, nicht per Direktschreiben ✓ ✓ ✓.
 - Der zweite offene Handler-Fall (`nw-munster-a-z-recycling-udo-salzsieder` ✓ — der
-  Anti-Fabrication-Guard des Handlers greift ✓) bleibt davon getrennt ✓.
+  Anti-Fabrication-Guard des Handlers greift ✓) bleibt davon getrennt ✓ ✓.

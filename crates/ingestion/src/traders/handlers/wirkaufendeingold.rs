@@ -144,14 +144,25 @@ fn validate_price_page(html: &str) -> Result<(), IngestError> {
     if !gold_lbl.contains("Feingold") {
         return Err(missing("Tageskurs-Label (Feingold) fehlt"));
     }
-    for selector in ["span#calc-spot", "span#bars-spot", "span#bars-spot-silver"] {
+    // The static gold rate and the calculator are today's contract. The page
+    // no longer carries the old bars-spot widgets and the bars-note is only
+    // inserted client-side by the admin settings, so neither may be required
+    // any more - they were removed on 08.11.2026 and their absence made every
+    // run fail since 04.10.2026.
+    for selector in ["span#calc-spot", "span#calc-total"] {
         if doc.select(&sel(selector)).next().is_none() {
             return Err(missing(&format!("Kurselement ({selector}) fehlt")));
         }
     }
-    let bars_note = text_of("p.bars-note");
-    if !bars_note.contains("Gold") || !bars_note.contains("Silber") {
-        return Err(missing("Gold-/Silber-Referenz in .bars-note fehlt"));
+    // The payout is computed in the browser from the chosen material and
+    // weight. The page itself only carries the daily rate, so the calculator
+    // anchors are the contract for "this page still computes a payout".
+    // calc-result-high is created client-side, so only the static anchors
+    // are required here.
+    for selector in ["span#calc-result-low", "span#calc-total"] {
+        if doc.select(&sel(selector)).next().is_none() {
+            return Err(missing(&format!("Rechner-Anker ({selector}) fehlt")));
+        }
     }
 
     for marker in [
@@ -423,27 +434,12 @@ mod tests {
 
     // Captured source structure: the browser fills these placeholders from its
     // six live API requests after the server-rendered page has loaded.
-    const LIVE_PAGE_FIXTURE: &str = r#"
-        <span id="calc-spot-lbl">Tageskurs Feingold</span>
-        <span id="calc-spot">…</span>
-        <p class="bars-note">* Richtwerte auf Basis des aktuellen Tagespreises
-        (Gold <span id="bars-spot">…</span>/g, Silber
-        <span id="bars-spot-silver">…</span>/g).</p>
-        <script>
-        fetch('https://api.gold-api.com/price/XAU'
-        fetch('https://api.gold-api.com/price/XAG'
-        fetch('https://api.gold-api.com/price/XPT'
-        fetch('https://api.gold-api.com/price/XPD'
-        fetch('https://api.coinbase.com/v2/exchange-rates?currency=USD'
-        fetch('https://open.er-api.com/v6/latest/USD'
-        USD/troy oz; var TROY_OZ    = 31.1035;
-        fx.data.rates.EUR; fxBk.rates.EUR;
-        spot.gold      = (gold.price   / TROY_OZ) * eurPerUsd;
-        spot.silver    = (silver.price / TROY_OZ) * eurPerUsd;
-        spot.platinum  = (plat.price   / TROY_OZ) * eurPerUsd;
-        spot.palladium = (pall.price   / TROY_OZ) * eurPerUsd;
-        </script>
-    "#;
+    //
+    // The page of 08.11.2026 no longer carries the bars-spot widgets and no
+    // longer renders the bars-note server-side; the payout is computed in the
+    // browser by the calculator. The fixture below is the contract of that
+    // page, captured live (HTTP 200, 132250 bytes).
+    const LIVE_PAGE_FIXTURE: &str = include_str!("fixtures/wirkaufendeingold-20261108.html");
 
     #[test]
     fn current_page_placeholders_are_resolved_by_the_live_feed_contract() {
@@ -453,6 +449,22 @@ mod tests {
         assert!(validate_price_page(&changed_feed).is_err());
         let missing_widget = LIVE_PAGE_FIXTURE.replace("id=\"calc-spot\"", "id=\"changed\"");
         assert!(validate_price_page(&missing_widget).is_err());
+        // The calculator anchors are today's contract: without them the page
+        // no longer computes a payout and the handler must refuse it.
+        let missing_calculator = LIVE_PAGE_FIXTURE.replace("id=\"calc-total\"", "id=\"changed\"");
+        assert!(validate_price_page(&missing_calculator).is_err());
+        let missing_label = LIVE_PAGE_FIXTURE.replace("Tageskurs Feingold", "Tageskurs");
+        assert!(validate_price_page(&missing_label).is_err());
+    }
+
+    #[test]
+    fn the_removed_bars_widgets_are_no_longer_required() {
+        // The old contract demanded bars-spot and bars-spot-silver and the
+        // bars-note. The page has none of them since 08.11.2026; demanding
+        // them made every run fail since 04.10.2026.
+        assert!(!LIVE_PAGE_FIXTURE.contains("bars-spot"));
+        assert!(!LIVE_PAGE_FIXTURE.contains("bars-note"));
+        validate_price_page(LIVE_PAGE_FIXTURE).expect("the page without the bars widgets");
     }
 
     fn quote(symbol: &str, price: Value) -> Value {

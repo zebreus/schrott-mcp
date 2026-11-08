@@ -1,0 +1,24 @@
+<!-- Fixture: wirkaufendeingold.de, live abgerufen am 08.11.2026 (HTTP 200, 132250 Bytes).
+     Auszug des Seitenvertrags: die statischen Anker des Preistages und des Rechners
+     sowie die clientseitigen Kursmarker. Nicht die ganze Seite, nur der Vertrag. -->
+<span class="k" id="calc-spot-lbl">Tageskurs Feingold
+<span class="v" id="calc-spot">…
+<span id="calc-result-low">…
+<span class="v font-mono-data" id="calc-total" aria-live="polite">–
+<script>
+api.gold-api.com/price/XAU|XAG|XPT|XPD  → USD/troy oz
+Formel:  EUR/g = (USD/troy oz ÷ 31.1035) × EUR/USD
+fetch('https://api.gold-api.com/price/XAU', opt),
+fetch('https://api.gold-api.com/price/XAG', opt),
+fetch('https://api.gold-api.com/price/XPT', opt),
+fetch('https://api.gold-api.com/price/XPD', opt),
+fetch('https://api.coinbase.com/v2/exchange-rates?currency=USD', opt),
+fetch('https://open.er-api.com/v6/latest/USD', opt)
+var TROY_OZ    = 31.1035;
+var eurPerUsd = Number(fx && fx.data && fx.data.rates && fx.data.rates.EUR);
+if (!eurPerUsd || isNaN(eurPerUsd)) eurPerUsd = Number(fxBk && fxBk.rates && fxBk.rates.EUR);
+spot.gold      = (gold.price   / TROY_OZ) * eurPerUsd;
+spot.silver    = (silver.price / TROY_OZ) * eurPerUsd;
+spot.platinum  = (plat.price   / TROY_OZ) * eurPerUsd;
+spot.palladium = (pall.price   / TROY_OZ) * eurPerUsd;
+</script>
