@@ -1,16 +1,18 @@
 ---
 slug: he-gro-rohrheim-theobald-deichmann-schrotthandel
+lat: 49.7142374
+lon: 8.4682703
 name: Theobald Deichmann Schrotthandel
 trader_type: schrotthaendler
 state: HE
 city: Groß-Rohrheim
-street: ''
-postcode: ''
+street: Speyerstr. 40
+postcode: '68649'
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: unbekannt
+website: https://schrott-deichmann.de/
+website_status: aktiv
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -53,3 +55,8 @@ Die Website `schrott-deichmann.de` nennt Theobald Deichmann, Speyerstr. 40, 6864
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Miss — „Theobald Deichmann Schrotthandel Groß-Rohrheim / Speyerstr." ohne Treffer (Suche dominiert von Deichmann-Schuhe-Filialen); Straßenexistenz (Speyerstr., 68649) via stadtplan.info bestätigt, aber KEIN Betriebsbezug. Keine Betreiber-Website, kein Register. Frontmatter bleibt leer (PLZ nicht übernommen — Betrieb unbestätigt); website_status=unbekannt. Quelle(n): keine (Negativbefund Websuche 02.10.2026 + stadtplan.info Straßenverzeichnis).]
+
+### Recherche 09.11.2026
+
+- [Recherche 09.11.2026: **Betreiberseite live bestätigt und damit `website` und `website_status` gesetzt; die Betriebsanschrift ist jetzt durch Betreiberimpressum und OSM-Objekt doppelt belegt und wurde mit Koordinaten übernommen, das amtliche Fachbetrieberegister führt den Betrieb dagegen nicht.** Website: die Betreiberseite war am 09.11.2026 live; `website` wurde auf https://schrott-deichmann.de/ gesetzt und `website_status` auf aktiv, weil Startseite, Impressum und Abholungsseite HTTP 200 mit vollständigem Inhalt liefern. Das Impressum nennt "Theobald Deichmann, Speyerstr. 40, 68649 Groß-Rohrheim", Telefon 0173 63 168 85, E-Mail theobalddeichmann@gmail.com, Umsatzsteuernummer "folgt"; ein Handelsregistereintrag ist nicht vorhanden, der Betrieb ist damit ein Einzelunternehmer und die strenge Betreiber-Ausnahme greift nicht. **Anschrift:** `street` wurde auf "Speyerstr. 40" und `postcode` auf "68649" gesetzt, weil das Impressum diese Anschrift nennt und das OSM-Adressobjekt way/901963627 sie unabhängig belegt (`addr:housenumber`=40, `addr:street`=Speyerstraße, `addr:postcode`=68649, `addr:city`=Groß-Rohrheim, `addr:country`=DE, `building`=yes, 4 Knoten, Objekt-BBox 8.4681327/49.7141564 bis 8.4684079/49.7143184); der unabhängige Geokoder Photon löst "Speyerstraße 40, 68649 Groß-Rohrheim" auf dasselbe Objekt auf. Die Koordinaten wurden entsprechend auf 49.7142374/8.4682703 (Mittelwert der eindeutigen Knoten, innerhalb der Objekt-BBox) gesetzt; das Objekt trägt **weder** `name` **noch** `operator`, der Punkt ist damit ein Adresspunkt der belegten Betriebsanschrift und kein bestätigter Betriebseingang. **Kontakt:** Telefonnummer und E-Mail stehen nur im Betreiber-Einzelbeleg und bleiben deshalb in den Feldern `phone` und `email` leer. **Zertifizierung:** das amtliche Fachbetrieberegister (clientseitig gerenderte Vaadin-App, Ergebnisgrid vollständig durchscrollt) wurde am 09.11.2026 live in beiden Routen mit dem Filter "Art des Betriebs = Egal" (is=1&e=1) abgefragt: die Namenssuche "Deichmann" liefert in beiden Routen 0 Treffer; die Standortabfrage um Speyerstraße 40, 68649 Groß-Rohrheim liefert mit 3 km in der Route "Entsorgungsfachbetriebe" 4 Anlagenzeilen (KanalServiceRied GmbH, Riedstraße 8, 68649 Groß-Rohrheim, ZZGT00200033 / 1, 0,5 km; ZAKB Energie und Dienstleistungs GmbH, Riedstraße 8, ZZHT00400513 / 12 und / 13; OQEMA Process GmbH, Werner-von-Siemens-Straße 7, 68649 Groß-Rohrheim, ZZET01600216 / 1, 1,6 km) und in der Route "Altfahrzeugverwertung" 0 Zeilen, mit 10 km in der Route "Entsorgungsfachbetriebe" 57 Zeilen und in der Route "Altfahrzeugverwertung" 2 Zeilen (KK Autoverwertung GmbH, In der Wolfshecke 8 a, 64653 Lorsch, ZAHS01800074 / 1, 8,8 km; FAß Rohstoffrecycling Herbert FAß, Am wilden Birnbaum 3, 67547 Worms, ZZHT00301534 / 2, 9,6 km). **Kein Treffer nennt Deichmann**; das Feld `certifications` bleibt leer. Reichweite: geprüft wurden die Namenssuche, die Standortradien 3 km und 10 km und beide Routen; die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt. **Preise getrennt:** ANKAUF: die Abholungsseite beschreibt abgeholte Waren, nennt aber keine Kurse und keine Vergütungsrichtung; VERKAUF: keine Produkt- oder Preisliste; GEBÜHREN: die Entrümpelung wird "gegen Aufpreis" ohne Betrag angeboten, ein Tarif ist nicht belegt. `status` bleibt `pruefung`; offen bleibt, ob die Speyerstraße 40 eine öffentlich zugängliche Annahmestelle ist, die Abholung ist nur nach Voranmeldung beworben.
+  Quelle(n): https://schrott-deichmann.de/Impressum/ ; https://schrott-deichmann.de/Abholung/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Deichmann ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Deichmann ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Speyerstra%C3%9Fe%2040%2C%2068649%20Gro%C3%9F-Rohrheim%2C%20Deutschland%3B8.4682703%3B49.7142374%3B8.5099488%3B49.7411867%3B8.4265918%3B49.6872881&dst=3&is=1&e=1 ; https://api.openstreetmap.org/api/0.6/way/901963627/full.json (Abruf 09.11.2026).]
