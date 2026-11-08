@@ -220,7 +220,13 @@ def main() -> int:
             capture_output=True, text=True, check=True).stdout.split():
             welle.add(datei)
     ok &= pruefe("Dossiers der Welle 16:00", len(welle), 60)
-    z1600 = feldzaehlungen("558bfe09", "HEAD", nur=sorted(welle))
+    # Die Felder werden aus dem **Wellen-Merge** gemessen, nicht aus HEAD:
+    # eine spaetere Owner-Korrektur in einem Dossier der Welle (z. B. das
+    # Zertifikatsfeld von nw-gutersloh-bartsch am 08.11.2026) gehoert nicht
+    # zur Welle und darf ihre Kennzahlen nicht verschieben. Der 10:30-Block
+    # misst genauso - dort ueber die Merge-Commits, hier ueber den letzten
+    # Merge der Welle (5104fbd4).
+    z1600 = feldzaehlungen("558bfe09", "5104fbd4", nur=sorted(welle))
     for feld, soll in (("postcode", 6), ("street", 5), ("phone", 5), ("clear_fields", 5),
                         ("website_status", 3), ("description", 3), ("email", 3),
                         ("opening_hours", 3), ("website", 3), ("certifications", 2),
