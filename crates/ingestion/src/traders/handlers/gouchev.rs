@@ -323,12 +323,11 @@ fn parse(
                     skips.push(format!("{label} (unbekannte Sorte in der Karte)"));
                     continue;
                 }
-                match grade_for(&label, TIER_BASE) {
-                    Some((material, variant)) => {
-                        rows.push((label, variant, price, unit));
-                    }
-                    None => skips.push(format!("{label} (keine Materialzuordnung)")),
-                }
+                // The tuple carries the tier, not the variant: the material
+                // and the variant are looked up later, in scrape(), through
+                // grade_for - the same way every other row of this handler
+                // does it.
+                rows.push((label, TIER_BASE, price, unit));
             }
             continue;
         }
@@ -490,7 +489,7 @@ fn parse_mehrsorten(title: &str, body: &str) -> Option<Vec<(String, f64)>> {
 /// The sorts of the "Alu Profile" card that are not among the known ones.
 fn unbekannte_sorten(text: &str, bekannt: &[&str; 5]) -> Vec<String> {
     let mut gefunden = Vec::new();
-    for (start, ende) in text.match_indices("Alu ") {
+    for (start, _) in text.match_indices("Alu ") {
         let rest = &text[start..];
         let name: String = rest
             .chars()
@@ -695,6 +694,20 @@ mod tests {
         assert!(err.to_string().contains("Preisstaffel"));
     }
 
+    /// The rows of a parsed block are (title, tier, price, unit) - the
+    /// material and the variant are looked up later. This helper maps the
+    /// rows the way scrape() does, so a test can assert the outcome the
+    /// database would see.
+    fn map_rows(rows: &[(String, &'static str, f64, &'static str)]) -> Vec<(String, String, f64)> {
+        rows.iter()
+            .map(|(title, tier, price, _)| {
+                let (material, variant) = grade_for(title, tier)
+                    .unwrap_or_else(|| panic!("{title} / {tier} has no material"));
+                (material.to_owned(), variant.to_owned(), *price)
+            })
+            .collect()
+    }
+
     #[test]
     fn the_alu_profile_card_yields_five_rows_of_its_own() {
         // The card names five sorts with their own prices and no "ab 1 kg"
@@ -730,6 +743,36 @@ mod tests {
         assert_eq!(
             grade_for("Alu Guss", TIER_BASE),
             Some(("aluminium-guss", ""))
+        );
+    }
+
+    #[test]
+    fn the_alu_sorts_reach_the_catalog_materials() {
+        // The row tuple carries the tier; the material and the variant are
+        // looked up later, the way scrape() does it. A variant in the tier
+        // slot would leave the sorts unmapped and the card would be skipped -
+        // so this asserts the outcome the database would see.
+        let (rows, skips) = parse(FIXTURE).expect("parses");
+        assert!(!skips.iter().any(|s| s.contains("Alu Profile")));
+        let alu: Vec<_> = rows
+            .iter()
+            .filter(|(title, ..)| title.starts_with("Alu ") && !title.contains("Kabel"))
+            .collect();
+        assert_eq!(alu.len(), 5);
+        let gemappt = map_rows(&alu.iter().map(|r| (*r).clone()).collect::<Vec<_>>());
+        let paare: Vec<(String, String, f64)> = gemappt
+            .iter()
+            .map(|(m, v, p)| (m.clone(), v.clone(), *p))
+            .collect();
+        assert_eq!(
+            paare,
+            vec![
+                ("aluminium-profile".to_owned(), String::new(), 1.90),
+                ("aluminium-gemischt".to_owned(), String::new(), 1.10),
+                ("aluminium-felgen".to_owned(), String::new(), 1.60),
+                ("alu-cu-kuehler".to_owned(), String::new(), 3.90),
+                ("aluminium-guss".to_owned(), String::new(), 1.10),
+            ]
         );
     }
 
@@ -928,9 +971,84 @@ mod tests {
         assert_eq!(alu.len(), 5, "the five sorts of the live card");
         // No sort may be skipped: the card carries a price at every name.
         assert!(!skips.iter().any(|s| s.contains("Alu Profile")));
-        for (title, _, price, unit) in alu {
+        for (title, _, price, unit) in &alu {
             assert!(*price > 0.0, "{title} carries a price");
             assert_eq!(*unit, "EUR/kg");
         }
+        // The sorts must reach the catalog materials: the row carries the
+        // tier, the material is looked up the way scrape() does it. A
+        // variant in the tier slot would leave the card unmapped and the
+        // sorts would never reach the database.
+        let gemappt = map_rows(&alu.iter().map(|r| (*r).clone()).collect::<Vec<_>>());
+        let materialien: Vec<&str> = gemappt.iter().map(|(m, _, _)| m.as_str()).collect();
+        assert_eq!(
+            materialien,
+            vec![
+                "aluminium-profile",
+                "aluminium-gemischt",
+                "aluminium-felgen",
+                "alu-cu-kuehler",
+                "aluminium-guss",
+            ]
+        );
+    }
+
+    #[tokio::test]
+    #[ignore = "read-only live network check; runs the whole handler, never records data"]
+    async fn the_live_handler_records_the_five_alu_sorts_as_prices() {
+        // The full handler run: the five sorts must arrive as prices on the
+        // catalog materials. Before the fix the variant sat in the tier slot,
+        // the mapping failed and the card was skipped - a run that looked
+        // green but never reached the database.
+        let client = reqwest::Client::builder()
+            .user_agent("schrott-mcp-ingestion/0.1")
+            .timeout(std::time::Duration::from_secs(30))
+            .build()
+            .unwrap();
+        let outcome = super::scrape(&client)
+            .await
+            .expect("live page, prices and impressum");
+        let alu: Vec<_> = outcome
+            .prices
+            .iter()
+            .filter(|p| {
+                p.label.starts_with("Alu ")
+                    && !p.label.contains("Kabel")
+                    && !p.label.contains("Anhaftung")
+            })
+            .collect();
+        // The five sorts of the card, each with its own material. The
+        // aluminium-gemischt of the "5% Anhaftung" card is a different
+        // row and does not belong here.
+        let sorten: Vec<(&str, f64)> = outcome
+            .prices
+            .iter()
+            .filter(|p| {
+                p.label.starts_with("Alu ")
+                    && !p.label.contains("Kabel")
+                    && !p.label.contains("Anhaftung")
+            })
+            .map(|p| (p.material, p.price))
+            .collect();
+        assert_eq!(
+            sorten,
+            vec![
+                ("aluminium-profile", 1.90),
+                ("aluminium-gemischt", 1.10),
+                ("aluminium-felgen", 1.60),
+                ("alu-cu-kuehler", 3.90),
+                ("aluminium-guss", 1.10),
+            ]
+        );
+        assert_eq!(alu.len(), 5, "five prices on the catalog materials");
+        for p in alu {
+            assert!(p.price > 0.0, "{} carries a price", p.material);
+            assert_eq!(p.unit, "EUR/kg");
+        }
+        // No sort may end up in the skips.
+        assert!(!outcome
+            .skipped_labels
+            .iter()
+            .any(|s| s.contains("Alu ") && !s.contains("Kabel")));
     }
 }

@@ -145,10 +145,11 @@ fn validate_price_page(html: &str) -> Result<(), IngestError> {
         return Err(missing("Tageskurs-Label (Feingold) fehlt"));
     }
     // The static gold rate and the calculator are today's contract. The page
-    // no longer carries the old bars-spot widgets and the bars-note is only
-    // inserted client-side by the admin settings, so neither may be required
-    // any more - they were removed on 08.11.2026 and their absence made every
-    // run fail since 04.10.2026.
+    // no longer carries the old bars-spot widgets, and the bars-note is not
+    // rendered server-side any more (the script only appends a text to an
+    // existing one), so neither may be required any more - they were removed
+    // before the runs of 07.11.2026, 18:57 UTC and later, which failed with
+    // "Kurselement (span#bars-spot) fehlt".
     for selector in ["span#calc-spot", "span#calc-total"] {
         if doc.select(&sel(selector)).next().is_none() {
             return Err(missing(&format!("Kurselement ({selector}) fehlt")));
@@ -159,7 +160,7 @@ fn validate_price_page(html: &str) -> Result<(), IngestError> {
     // anchors are the contract for "this page still computes a payout".
     // calc-result-high is created client-side, so only the static anchors
     // are required here.
-    for selector in ["span#calc-result-low", "span#calc-total"] {
+    for selector in ["span#calc-result-low"] {
         if doc.select(&sel(selector)).next().is_none() {
             return Err(missing(&format!("Rechner-Anker ({selector}) fehlt")));
         }
