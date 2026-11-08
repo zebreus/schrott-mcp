@@ -89,6 +89,15 @@ def notes_by_section(text: str):
     return result
 
 
+def datum(text: str):
+    """Das Datum einer Sektionsueberschrift als sortierbares Tupel (jjjj, mm, tt)."""
+    m = DATE_IN_TITLE.search(text)
+    if not m:
+        return None
+    tag, monat, jahr = m.group(0).split(".")
+    return (int(jahr), int(monat), int(tag))
+
+
 def normalise(note: str):
     note = re.sub(r"https?://\S+", "", note)
     note = re.sub(r"\(Quelle\(n\).*", "", note, flags=re.S)
@@ -155,13 +164,20 @@ def main() -> int:
                 if outside:
                     problems.append(f"{rel}: {len(outside)} neue Notiz(en) liegen nicht in der "
                                     f"Geokodierungs-Sektion")
-        elif has_new_notes and len(dated) != 1:
-            # Hoechstens **eine** neue Wellen-Sektion; danach duerfen beliebig
-            # viele **Korrektur-Sektionen** folgen: eine spaetere Welle darf einen
-            # veroeffentlichten Vermerk nicht in place aendern (Hausregel),
-            # sondern traegt ihre Korrektur als eigene datierte Sektion am
-            # Timeline-Ende nach. Der Prefix-Check unten bleibt unveraendert -
-            # ein in place geaenderter Vermerk wird weiterhin beanstandet.
+        elif has_new_notes:
+            # Mehrere **Wellen-Sektionen** sind erlaubt: ein Dossier kann in
+            # zwei Wellen desselben Release-Scopes gelegen haben (der Pool
+            # enthaelt auch Dossiers, die eine fruehere Welle nicht mit
+            # Adresse und Website versehen hat). Jede Welle traegt ihre eigene
+            # datierte Sektion am Timeline-Ende, in aufsteigender Reihenfolge -
+            # ein Veroeffentlichter Vermerk wird **nicht** in place geaendert
+            # (Hausregel). Das prueft der Prefix-Check oben: die Vorwellen-
+            # Notizen muessen ein exakter Praefix bleiben.
+            #
+            # Danach duerfen beliebig viele **Korrektur-Sektionen** folgen: eine
+            # spaetere Welle darf einen veroeffentlichten Vermerk nicht in
+            # place aendern (Hausregel), sondern traegt ihre Korrektur als
+            # eigene datierte Sektion am Timeline-Ende nach.
             #
             # Es gibt auch den Fall, dass ein Dossier **nur** Korrektur-
             # Sektionen erhaelt (die Welle hat dort nichts Neues recherchiert,
@@ -170,11 +186,38 @@ def main() -> int:
             # Korrektur-Sektionen, alle am Timeline-Ende.
             wellen = [h for h in dated if not h.startswith("Korrektur")]
             korrekturen = [h for h in dated if h.startswith("Korrektur")]
-            reihenfolge_ok = bool(heads) and heads[-1] == dated[-1] and all(
-                h.startswith("Korrektur") for h in dated[-len(korrekturen):] if korrekturen)
-            if len(wellen) > 1 or not reihenfolge_ok:
+            # Die datierten Sektionen bilden **Bloecke**: eine Wellen-Sektion und
+            # die Korrektur-Sektionen, die zu ihr gehoeren. Eine Korrektur muss
+            # nach einer Wellen-Sektion stehen - die kann auch aus einem
+            # frueheren Release stammen, wenn die Welle dort nichts Neues
+            # recherchiert, sondern nur einen bestehenden Vermerk berichtigt
+            # hat - und ihr Datum darf nicht vor dem Datum dieser Welle liegen.
+            bloecke_ok = True
+            for i, h in enumerate(dated):
+                if not h.startswith("Korrektur"):
+                    continue
+                vor = [x for x in heads[:heads.index(h)]
+                       if not x.startswith("Korrektur")
+                       and not x.startswith("Geokodierung")
+                       and DATE_IN_TITLE.search(x)]
+                if not vor:
+                    # Keine Wellen-Sektion im Dossier: die Korrektur berichtigt
+                    # einen Vermerk, der mit dem Seed-Stand eingezogen wurde.
+                    continue
+                if datum(h) < datum(vor[-1]):
+                    bloecke_ok = False
+                    break
+            # Die Wellen-Sektionen stehen in aufsteigender Reihenfolge.
+            aufsteigend = [datum(h) for h in wellen] == sorted(datum(h) for h in wellen)
+            # Die letzte Sektion der Datei ist die letzte datierte Sektion -
+            # oder eine Geokodierungs-Sektion: die gehoert zur Welle und
+            # steht am Ende (sie dokumentiert die Geokodierung der Welle).
+            letzter = heads[-1] if heads else ""
+            abschluss_ok = letzter == dated[-1] or letzter.startswith("Geokodierung")
+            if not bloecke_ok or not abschluss_ok or not aufsteigend:
                 problems.append(f"{rel}: {len(dated)} neue datierte Sektion(en) bei neuen Notizen "
-                                f"(erwartet: hoechstens 1 Wellen-Sektion, Korrektur-Sektionen danach)")
+                                f"(erwartet: Wellen-Sektionen in aufsteigender Reihenfolge, "
+                                f"Korrektur-Sektionen danach)")
         # Nach der Wellen-Sektion darf eine Geokodierungs-Sektion folgen.
         tail_ok = True
         if dated and heads and heads[-1] != dated[-1]:
@@ -184,7 +227,13 @@ def main() -> int:
         # Eine Geokodierungs-Sektion gehoert **nach** der Wellen-Sektion: sie
         # dokumentiert das, was die Wellen-Recherche geokoordiniert hat.
         if dated and geo and heads:
-            wave_at = heads.index(dated[-1])
+            # Eine Geokodierungs-Sektion gehoert **nach** der Wellen-Sektion:
+            # sie dokumentiert das, was die Wellen-Recherche geokoordiniert
+            # hat. Massgeblich ist die **erste** Wellen-Sektion des Releases -
+            # ein Dossier kann in zwei Wellen gelegen haben, und die
+            # Geokodierung der frueheren Welle steht dann zwischen den beiden
+            # Wellen-Sektionen, nicht vor der Wellen-Sektion des Releases.
+            wave_at = heads.index(dated[0])
             for g in geo:
                 if g in heads and heads.index(g) < wave_at:
                     problems.append(f"{rel}: die Geokodierungs-Sektion steht vor der "
