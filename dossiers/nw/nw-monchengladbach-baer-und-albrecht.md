@@ -4,8 +4,8 @@ name: Baer und Albrecht GmbH
 trader_type: sonstige
 state: NW
 city: Mönchengladbach
-street: Baer und Albrecht GmbH Mönchengladbach Siemensstr. 11-13
-postcode: ''
+street: Siemensstr. 11-13
+postcode: '41063'
 phone: ''
 email: ''
 opening_hours: ''
@@ -46,3 +46,7 @@ Historische Betreiberkette Baer & Albrecht → PB Holding und separater operativ
 
 - Siemensstr. 11-13, Großhandelsprofil
 - urspr. Website-Angabe: keine gefunden (alle Domainvarianten tot)
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Die verschmutzte Seed-Straßenzeile ist auf den belegten Straßenanteil bereinigt: `street` steht jetzt auf „Siemensstr. 11-13“, `postcode` auf „41063“.** Der Namens- und Ortsrest ist ein Import-Artefakt. (1) Verzeichniseintrag, live am 08.11.2026: die Mönchengladbacher Stadtseite des Schrottfachportals schrottradar.de führt „Baer und Albrecht GmbH - Schrott und Metallgroßhandel“ mit „Siemensstraße 11-13, 41063 Nord Mönchengladbach“. (2) Register-Spiegel, live am 08.11.2026: northdata führt „PB Holding GmbH, Mönchengladbach, Amtsgericht Moenchengladbach HRB 11914“ mit dem früheren Namen „Baer & Albrecht GmbH“ und der Anschrift „Siemensstr. 11-13, D-41066 Mönchengladbach“; der operative Rechtsträger „PB GmbH Schrott & Metallgroßhandel“, HRB 21953, trägt dieselbe Straße (Vermerk vom 04.10.2026). (3) Betreiber-Primärquelle: das archivierte Impressum der PB GmbH (Stand 03.11.2024) nennt wörtlich „Siemensstr. 11-13, D-41063 Mönchengladbach, Telefon: 02161 2479060, E-Mail: info@pb-schrotthandel.de“; die 11880-Firmenseite „Baer und Albrecht GmbH“ trägt live „Siemensstr. 13, 41063 Mönchengladbach“ mit derselben Nummer 02161 2479060. (4) Adressobjekte: OSM führt Siemensstraße 11 und Siemensstraße 13 in 41063 Mönchengladbach als getrennte Adressobjekte. **PLZ-Widerspruch, ausdrücklich benannt:** das Register nennt 41066, Betreiberimpressum, 11880 und die OSM-Adressobjekte nennen 41063; maßgeblich ist 41063, weil drei Quellen einschließlich des Betreiberauftritts und der Adressobjekte diese Postleitzahl führen. **Offen bleibt:** die Adresskorrektur ist keine Existenz- oder Fortführungsaussage; die Insolvenz- und Liquidationseinträge zu PB Holding (HRB 11914) und PB GmbH (HRB 21953) vom 13.10.2025 bleiben offen (Vermerk vom 04.10.2026). `status` bleibt `pruefung`, `website_status` bleibt `tot`, es wird keine Koordinate gesetzt und kein Feld außer `street` und `postcode` berührt. Quelle(n): https://schrottradar.de/nordrhein-westfalen/monchengladbach/ ; https://www.northdata.de/PB%20Holding%20GmbH,%20M%C3%B6nchengladbach/Amtsgericht%20Moenchengladbach%20HRB%2011914 ; http://web.archive.org/web/20241103001250id_/https://www.pb-schrotthandel.de/impressum-pbgmbh ; https://www.11880.com/branchenbuch/moenchengladbach/060440090B100167223/baer-und-albrecht-gmbh.html (Abruf 08.11.2026).]

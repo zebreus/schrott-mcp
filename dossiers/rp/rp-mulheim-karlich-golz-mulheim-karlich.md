@@ -4,8 +4,8 @@ name: Golz Mülheim-Kärlich
 trader_type: sonstige
 state: RP
 city: Mülheim-Kärlich
-street: Golz Mülheim-Kärlich Mülheim-Kärlich Goethestr. 29A
-postcode: ''
+street: Goethestr. 29A
+postcode: '56218'
 phone: ''
 email: ''
 opening_hours: ''
@@ -58,3 +58,7 @@ Telefon fehlen, und für Ankauf, Verkauf und Gebühren ist nichts belegt.
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate geändert**: die Dossier-Hausnummer 29A ist auf der Goethestraße in OSM **nicht** adressiert - erfasst ist way/485532241 mit `addr:housenumber`=29, `addr:street`=Goethestraße, `addr:city`=Mülheim-Kärlich, `addr:postcode`=56218, `addr:suburb`=Urmitz-Bahnhof, `building`=residential (eine Nummer „29a“ oder „29A“ kommt auf der Goethestraße nicht vor). Quelle 1 (OSM): kein Objekt der Nummer 29A. Quelle 2 (Betreiber): die Adresse ist nur ein Seed-Fragment ohne Betreiber-Beleg - die Domain metallhandelgolz.de ist NXDOMAIN, es existiert kein Wayback-Snapshot, und die Verzeichnis-Abgleich-Suche der Region Mülheim an der Ruhr findet keinen Golz-Schrott-Treffer (nur Goldankauf); die Dossier-Adresse „Goethestr. 29A“ ist damit nicht belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/485532241.json ; https://www.auskunft.de/a/schrotthaendler/muelheim%20an%20der%20ruhr (Abruf 31.10.2026)]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Die verschmutzte Seed-Straßenzeile ist auf den belegten Straßenanteil bereinigt: `street` steht jetzt auf „Goethestr. 29A“, `postcode` auf „56218“.** Der Namens- und Ortsrest ist ein Import-Artefakt. (1) Verzeichniseintrag, live am 08.11.2026: die 11880-Firmenseite „Metallrecycling Golz“ nennt „Goethestr. 29A, 56218 Mülheim-Kärlich“ mit (0170) 3623689. (2) Zweite unabhängige Quelle, live am 08.11.2026: metallbauer.io führt „Metallrecycling Golz“ mit „Goethestraße 29A, 56218 Mülheim-Kärlich“ und derselben Nummer 0170 3623689; das Portal wird von einer eigenen Redaktion in Rastatt betrieben. (3) Weitere gleichlautende Verzeichniseinträge, Lesestand im Suchindex am 08.11.2026: das lokale Branchenbuch „Metallrecycling Golz, Goethestraße 29A, 56218 Mülheim-Kärlich, 0170 3623689“, Cylex „Metallrecycling Golz, Goethestr., Mülheim-Kärlich Urmitz-Bahnhof, 0170 3623“ und eine Maptons-Karte „Metallrecycling Golz, Goethestraße 29A, schrotthändler“; die Direktabrufe dieser drei Anbieter liefern am 08.11.2026 HTTP 403. **Zur Hausnummer 29A:** die OSM-Adressobjekte der Goethestraße in 56218 Mülheim-Kärlich tragen 40 Nummern von 1 bis 42 mit den Buchstabenformen 3a, 4a, 7a, 23a und 28a; die Nummern 8, 33, 35 und 39 fehlen ebenfalls, die Nummernform 29A ist also eine Lücke der Kartierung und kein Widerspruch zur Quellenlage. **Offen bleibt:** die Betreiberidentität, es gibt keine Betreiberseite und keinen Registereintrag; Ankaufs- und Gebührenangaben sind nicht belegt, `status` bleibt `pruefung`, es wird keine Koordinate gesetzt. Quelle(n): https://www.11880.com/branchenbuch/muelheim-kaerlich/060440092B112919078/metallrecycling-golz.html ; https://www.metallbauer.io/15085-metallrecycling-golz ; https://muelheim-kaerlich.stadtbranchenbuch.com/8647317.html ; https://api.openstreetmap.org/api/0.6/map.json?bbox=7.5014,50.3931,7.5134,50.4051 (Abruf 08.11.2026).]

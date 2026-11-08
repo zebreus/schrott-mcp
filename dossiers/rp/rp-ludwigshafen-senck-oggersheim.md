@@ -4,8 +4,8 @@ name: Senck Oggersheim
 trader_type: sonstige
 state: RP
 city: Ludwigshafen
-street: Senck Oggersheim Ludwigshafen Notwendestr. 11
-postcode: ''
+street: Notwendestr. 11
+postcode: '67071'
 phone: ''
 email: ''
 opening_hours: ''
@@ -39,3 +39,7 @@ Seed „FE/NE“ und Portalkategorie Autoverwertung nicht ungeprüft gleichsetze
 - Notwendestr. 11, FE/NE
 - urspr. Website-Angabe: keine
 - Adresse: Ludwigshafen
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Die verschmutzte Seed-Straßenzeile ist auf den belegten Straßenanteil bereinigt: `street` steht jetzt auf „Notwendestr. 11“, `postcode` auf „67071“.** Der Namens- und Ortsrest („Senck Oggersheim Ludwigshafen“) ist ein Import-Artefakt. (1) Verzeichniseintrag, live am 08.11.2026: branchen-info.net führt „Senck Harald Autoverwertung“ mit „Notwendestr. 11, 67071 Ludwigshafen (Oggersheim)“ und der Rufnummer 0621 673223; auto-werkstatt.de führt dieselbe Anschrift, dieselbe Nummer 0621 673223 und zusätzlich 0621 671072. Beide Portale sind Teile desselben Branchenbuch-Netzverbunds, branchen-info.net nennt als Herausgeber die „fastline GmbH & Co. KG“, auto-werkstatt.de die „Marktplatz Mittelstand GmbH & Co. KG“, und sind damit **keine** zwei voneinander unabhängigen Erhebungen. (2) Zweite unabhängige Quelle: das OSM-Adressobjekt way/483658559 trägt `addr:housenumber` 11, `addr:street` Notwendestraße, `addr:postcode` 67071, `addr:city` Ludwigshafen. **Abweichung, ausdrücklich benannt:** Yelp führt für denselben Betrieb abweichend die Hausnummer 7 (Vermerk vom 24.10.2026); der Direktabruf der Yelp-Seite liefert am 08.11.2026 HTTP 403, die Abweichung bleibt damit offen und wird nicht aufgelöst. **Offen bleibt:** die Betreiberidentität und die Tätigkeit, ein Betreiberauftritt und ein Registereintrag fehlen; `status` bleibt `pruefung`, es wird keine Koordinate gesetzt und kein Preisblatt übernommen. Quelle(n): https://ludwigshafen-am-rhein.branchen-info.net/senck-harald-autoverwertung/2633072 ; https://www.auto-werkstatt.de/ludwigshafen/harald-senck-autoverwertung-aUM1He ; https://api.openstreetmap.org/api/0.6/way/483658559.json ; https://www.yelp.com/biz/autoverwertung-senck-ludwigshafen (Abruf 08.11.2026).]

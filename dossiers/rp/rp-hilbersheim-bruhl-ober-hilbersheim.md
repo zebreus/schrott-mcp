@@ -4,8 +4,8 @@ name: Brühl Ober-Hilbersheim
 trader_type: sonstige
 state: RP
 city: Hilbersheim
-street: Brühl Ober-Hilbersheim Hilbersheim Obergasse 12
-postcode: ''
+street: Obergasse 12
+postcode: '55437'
 phone: ''
 email: ''
 opening_hours: ''
@@ -106,3 +106,7 @@ Brühl ist hier mutmaßlich Firmen-/Personenname, nicht automatisch die NRW-Stad
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0200,49.8900,8.0400,49.9100 ;
   https://schrottregister.pages.dev/assets/institute.json ; Recherche-Vermerk vom 15.10.2026 im Dossier (live abgerufen
   05.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Die verschmutzte Seed-Straßenzeile ist auf den belegten Straßenanteil bereinigt: `street` steht jetzt auf „Obergasse 12“, `postcode` auf „55437“.** Der Namens- und Ortsrest („Brühl Ober-Hilbersheim Hilbersheim“) ist ein Import-Artefakt. (1) Verzeichniseintrag, live am 08.11.2026: lokaleschrottplatz.de führt „schrottverwertung Brühl“ mit „Obergasse 12, 55437 Ober-Hilbersheim“ und der Rufnummer +49 6728 7349963; der Name des Eintrags deckt sich mit dem Seed-Namen „Brühl“ in Ober-Hilbersheim. (2) Zweite unabhängige Quelle: Cylex führt „schrottverwertung Brühl“ mit derselben Anschrift „Obergasse 12, 55437 Ober-Hilbersheim“ und derselben Nummer 06728 7349963; der Direktabruf der Cylex-Seite liefert am 08.11.2026 HTTP 403, die Angaben stammen aus dem Lesestand der Vorwelle vom 15.10.2026 und aus dem Suchindex. (3) Adressbestätigung: das OSM-Adressobjekt way/48299186 führt die Obergasse in 55437 Ober-Hilbersheim als Wohnstraße; die im Kachelraster erfassten Adressobjekte tragen die Nummern 1, 2, 3, 4, 6, 7, 8, 9, 10, 15, 17, 19, 21, 23 und 25, die Nummern 11 bis 14 sind dort nicht erfasst, eine Nummer 12 ist damit nicht belegt und nicht widerlegt. **Offen bleibt:** ein Betreiber- oder Registerbeleg fehlt, es gibt keine Website und keine Preisaussage; `status` bleibt `pruefung`, es wird keine Koordinate gesetzt. Quelle(n): https://lokaleschrottplatz.de/schrottverwertung-bruhl/ ; https://web2.cylex.de/firma-home/schrottverwertung-bruehl-16581904.html ; https://api.openstreetmap.org/api/0.6/map.json?bbox=8.0217,49.8933,8.0337,49.9053 (Abruf 08.11.2026).]

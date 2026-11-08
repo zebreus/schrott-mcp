@@ -4,8 +4,8 @@ name: Tavernier Hanhofen
 trader_type: sonstige
 state: RP
 city: Hanhofen
-street: Tavernier Hanhofen Hanhofen Silzweg 38
-postcode: ''
+street: Silzweg 38
+postcode: '67374'
 phone: ''
 email: ''
 opening_hours: ''
@@ -50,3 +50,7 @@ Verzeichnisabgleiche liefern inzwischen einen konkreten Kandidaten „Jenny Tave
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: KEIN Treffer. Suche nach Tavernier Hanhofen + Schrott/Altmetall/Entruempelung sowie nach Adresse Silzweg 38 (67374 Hanhofen) ergab keine Händlerevidenz (nur Ortsinfos + unrelated Baumesse-Aussteller Silzweg 31). Keine Betreiber-Quelle, kein Verzeichnis-Lead. Kein Fill, status bleibt pruefung. Klaerfall: Seed-Cluster-Artefakt vs. realer Kleinstbetrieb; Quelle(n): keine]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Die verschmutzte Seed-Straßenzeile ist auf den belegten Straßenanteil bereinigt: `street` steht jetzt auf „Silzweg 38“, `postcode` auf „67374“.** Der Namens- und Ortsrest ist ein Import-Artefakt. (1) Verzeichniseintrag, live am 08.11.2026: lokaleschrottplatz.de führt „Jenny Tavernier Schrotthandel u. Entrümplungen“ mit „Silzweg 38, 67374 Hanhofen“ und der Rufnummer +49 176 24048503. (2) Zweite unabhängige Quelle: Cylex führt „Jenny Tavernier Schrotthandel u.Entrümplungen“ mit derselben Anschrift und derselben Nummer 0176 24048503; der Direktabruf der Cylex-Seite liefert am 08.11.2026 HTTP 403, die Angaben stammen aus dem Lesestand der Vorwelle vom 14.10.2026 und aus dem Suchindex. (3) Adressbestätigung: das OSM-Adressobjekt way/109789061 trägt `addr:housenumber` 38, `addr:street` Silzweg, `addr:postcode` 67374, `addr:city` Hanhofen. **Offen bleibt:** ein Betreiber- oder Registerbeleg fehlt, die Kandidatendomain jenny-tavernier-schrotthandel-uentrumplungen.business.site liefert HTTP 404 (Vermerk vom 14.10.2026), und das lokale Stadtbranchenbuch führt an der Silzweg 16, 19 und 31 andere Betriebe (Vermerk vom 07.10.2026). Die Dublettenfrage zum Schwester-Dossier rp-hanhofen-67374-jenny-tavernier-schrotthandel bleibt offen und wird nicht zusammengeführt; `status` bleibt `pruefung`, es wird keine Koordinate gesetzt und keine Portal-Stunden- oder Mindestmengenangabe übernommen. Quelle(n): https://lokaleschrottplatz.de/jenny-tavernier-schrotthandel-u-entrumplungen/ ; https://web2.cylex.de/branchen/recyclingunternehmen/hanhofen/ ; https://api.openstreetmap.org/api/0.6/way/109789061.json ; https://hanhofen.stadtbranchenbuch.com/ (Abruf 08.11.2026).]
