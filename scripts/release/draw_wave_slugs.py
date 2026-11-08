@@ -107,6 +107,9 @@ def main() -> int:
     ap.add_argument("--db", default=PROD, help="Produktionsdatenbank")
     ap.add_argument("--mit-null-street", action="store_true",
                     help="auch Slugs mit leerem/NULL street nehmen")
+    ap.add_argument("--ausschluss-scope", default=None,
+                    help="Basis-Commit: Dossiers, die seit diesem Commit im "
+                         "Release-Scope geaendert wurden, werden ausgeschlossen")
     ap.add_argument("--ausschluss", action="append", default=[],
                     help="Datei mit auszuschliessenden Slugs")
     ap.add_argument("--auswahl", type=Path,
@@ -176,6 +179,22 @@ def main() -> int:
             s = line.strip()
             if s and not s.startswith("#"):
                 ausgeschlossen.add(s)
+
+    if args.ausschluss_scope:
+        # Die Dossiers, die eine fruehere Welle **in diesem Release-Scope**
+        # schon bearbeitet hat, werden ausgeschlossen. Sonst zieht die Welle
+        # Dossiers, die eine andere Welle desselben Releases schon
+        # durchgearbeitet hat - der Pool enthaelt jedes Dossier ohne
+        # Website oder Adresse, und eine fruehere Welle hat viele davon so
+        # gelassen.
+        import subprocess
+        geaendert = subprocess.run(
+            ["git", "diff", "--name-only", args.ausschluss_scope, "--", "dossiers/"],
+            capture_output=True, text=True, check=True).stdout.split()
+        for rel in geaendert:
+            ausgeschlossen.add(Path(rel).stem)
+        print(f"Ausgeschlossen (Scope seit {args.ausschluss_scope}): "
+              f"{len(geaendert)} Dossiers ✓")
 
     zeilen = pool_lesen(args.db, args.mit_null_street)
     pool = [(s, st or "?") for s, st in zeilen if s not in ausgeschlossen]
