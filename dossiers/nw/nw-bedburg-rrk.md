@@ -6,6 +6,8 @@ state: NW
 city: Bedburg
 street: Heinrich-Hertz-Straße 15
 postcode: '50181'
+lat: 51.0116728
+lon: 6.5727859
 phone: 0 22 72 / 40 75 70
 email: info@kuhlenrecycling.de
 opening_hours: Mo-Do 07:30-12:00 & 12:30-17:00, Fr 07:30-12:00 & 12:30-16:00
@@ -43,3 +45,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Korrektur 06.11.2026: **Aussteller-Anschrift falsch und §-28-NachwV-Kennnummern fehlend.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) weist die Zertifizierungsorganisation in den Feldern 1.1 bis 1.3 als „ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V.“, „Berliner Allee 57“, Postleitzahl 40212, Ort Düsseldorf aus; der Eintrag nannte abweichend „ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berlin“. Ergänzt wurden die Kennnummern nach § 28 NachwV „E362819922“ (Anlage 1 Sammeln und Befördern) und „E362353401“ (Anlagen 2 bis 7).
   Unverändert bestätigt sind: „3.1 ...: ESN 09-120460(25)“; „3.3 Vorgangsnummer ...: ZZEE003002125008“ (im Raster verkürzt „ZZEE00300212 / 1“ bis „/ 7“); „3.4 Das Zertifikat beinhaltet 7 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 30.04.2027“; „4.1 Name: RRK Rohstoffrecycling Kuhlen GmbH“, „4.2 Straße: Heinrich-Hertz-Straße 15“, Postleitzahl 50181, Ort Bedburg; „4.4 ... Registernummer ...: HRB 65684 ... Registergericht: Köln“; „6. Prüfungsdatum: 26.11.2025“; „8. Ausstellungsdatum: 13.01.2026“. Standorttreue: die Anlagen 1 bis 7 nennen je als Standort „Heinrich-Hertz-Straße 15, 50181 Bedburg“ (Anlagenbogen Felder 1.2 und 1.3), also den Dossierstandort; die Zuordnung der Tätigkeiten zu den Anlagen 1 bis 7 im Eintrag deckt sich mit dem Anlagenbogen. Der Vermerk zur Vorbehandlungsanlage nach GewAbfV ist wörtlich im Anlagenbogen der Anlage 7 belegt; das dritte Element (Betreiber-Download) bleibt unverändert.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=RRK&p=ZZEE00300212&fd=1 ; https://www.kuhlenrecycling.de/unternehmen/zertifikate.php (Abruf 06.11.2026)]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.0116728/6.5727859**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „RRK“ ist über die Adresse **Heinrich-Hertz-Straße 15, 50181 Bedburg** adressiert; das OSM-Adressobjekt **w/448872362** trägt `addr:housenumber`=15, `addr:street`=Heinrich-Hertz-Straße, `addr:postcode`=50181, `addr:city`=Bedburg; der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; an derselben Hausnummer tragen weitere OSM-Objekte die Namen „Viebrock Haus“; die Nominatim-Vorwärtssuche nach „Heinrich-Hertz-Straße 15, 50181 Bedburg“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Heinrich-Hertz-Stra%C3%9Fe%2015%2C%2050181%20Bedburg ; https://api.openstreetmap.org/api/0.6/way/448872362.json (Abruf 08.11.2026).]

@@ -6,6 +6,8 @@ state: BW
 city: Freudenstadt
 street: Alte Poststraße 35
 postcode: '72250'
+lat: 48.4667608
+lon: 8.4477106
 phone: 07441 4819
 email: info@klumpp-rohstoffe.de
 opening_hours: Mo-Do 7:30-16:30; Fr 7:30-16:00
@@ -44,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Korrektur 06.11.2026: **Tätigkeitslisten der Anlagen 2 und 3 unvollständig.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen, Ankreuzfelder mit `scripts/release/pdf_checkboxes.py` gelesen) weist in Anlage 2 neben „2.3 Lagern Kennnummer nach § 28 NachwV: H250689105“ auch „2.5 Verwerten“ (ohne eigene Kennnummer) als angekreuzt aus und in Anlage 3 neben „2.4 Behandeln Kennnummer nach § 28 NachwV: H250689105“ ebenfalls „2.5 Verwerten“ (ohne eigene Kennnummer). Der Eintrag nannte nur „Lagern“ bzw. „Behandeln“; die Tätigkeit Verwerten wurde in beiden Anlagen ergänzt.
   Unverändert bestätigt sind: „1.1 Name: PÜG Prüf- und Überwachungsgesellschaft mbH“, „1.2 Straße: Hämmerlestraße 14 + 16“, Postleitzahl 71126, Ort Gäufelden = Aussteller mit vollständiger Anschrift; „3.1 ...: K10012-20251219-Efb-de“; „3.3 Vorgangsnummer ...: ZZHT004002908009“ (im Raster verkürzt „ZZHT00400290 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 31.05.2027“; „4.1 Name: Klumpp Rohstoff GmbH“, „4.2 Straße: Alte Poststraße 35“, Postleitzahl 72250, Ort Freudenstadt; „4.4 ... Registernummer ...: HRB 430709 ... Registergericht: Stuttgart“; „6. Prüfungsdatum: 01.12.2025“; „8. Ausstellungsdatum: 19.12.2025“. Standorttreue: alle drei Anlagen tragen die Standortbezeichnung „Klumpp Rohstoff GmbH“ und als Standort „Alte Poststraße 35, 72250 Freudenstadt“ (Felder 1.1 bis 1.3), also den Dossierstandort; die Kennnummer „H250689105“ stimmt zeichenweise. Der zweite Eintrag des Dossiers (kein AltfahrzeugV-Eintrag im Register für den Standort Alte Poststraße 35) bleibt unverändert.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Klumpp%20Rohstoff&p=ZZHT00400290&fd=1 (Abruf 06.11.2026)]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **48.4667608/8.4477106**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Klumpp“ ist über die Adresse **Alte Poststraße 35, 72250 Freudenstadt** adressiert; das OSM-Adressobjekt **w/213869763** trägt `addr:housenumber`=35, `addr:street`=Alte Poststraße, `addr:postcode`=72250, `addr:city`=Freudenstadt; der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; die Nominatim-Vorwärtssuche nach „Alte Poststraße 35, 72250 Freudenstadt“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Alte%20Poststra%C3%9Fe%2035%2C%2072250%20Freudenstadt ; https://api.openstreetmap.org/api/0.6/way/213869763.json (Abruf 08.11.2026).]
