@@ -19,28 +19,27 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "1657d32",
-  "owner_review": "research/release-20261108-1400-owner.md",
+  "dossier_revision": "f7c962d",
+  "owner_review": "research/wave-20261108-1800-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 08.11.2026, 12:00)",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 1657d32 gehoben",
+  "revised_by": "Owner (Welle 08.11.2026, 18:00)",
+  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases f7c962d gehoben",
   "rows": [
     {
-      "slug": "he-limburg-65549-scheuer",
+      "slug": "he-spangenberg-34286-heinrich-kleinschmidt-rohprod",
       "fields": [
-        "description",
-        "email",
-        "opening_hours",
-        "phone",
-        "postcode",
-        "status",
-        "street"
+        "description"
       ],
-      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/release-20261108-1400-owner.md."
+      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261108-1800-report.md."
+    },
+    {
+      "slug": "hb-stuhr-thomas-seidel-schrotthandel",
+      "fields": [],
+      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261108-1800-report.md."
     }
   ],
-  "unchanged_rows": 59
+  "unchanged_rows": 58
 },
   "traders": [
     {
@@ -220,8 +219,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "bd314bbf23d6eed8389afeb61ebb5a81adce88b02b6b17f97ab166508810f972",
-      "seed_hash": "4734c3927c4464b2"
+      "notes_sha256": "af82280d9fddc06202373616105843dc766264a1cfcbb965c1664d7a5bc721aa",
+      "seed_hash": "2b75f0a97197a51d"
     },
     {
       "slug": "he-alsfeld-schrotthandel-entsorgung-delis",
@@ -430,14 +429,14 @@
         "phone": "",
         "email": "",
         "opening_hours": "",
-        "description": "",
+        "description": "Heinrich Kleinschmidt RohProd., Untergasse 5, 34286 Spangenberg, Telefon 05663 7145 - nur als Verzeichnis-/Schrottportallead geführt (schrottplatz.org, golocal.de, Das Örtliche, 11880-Familie), ohne Betreiber-, Register- oder Kommunalquelle. Die Seed-Hausnummer ist in OSM als historisches Gebäude erfasst: way/784437525 trägt `historic`=yes und `name`=„Ehemalige Synagoge“ und damit keinen Betriebsbezug; ein Objekt, das den Betrieb benennt, existiert dort nicht. Das amtliche Fachbetrieberegister kennt weder auf „Kleinschmidt“ noch im 3-km-Radius um die Adresse einen Eintrag - in Spangenberg ist am Abrufdatum kein zertifizierter Betrieb verzeichnet, was bei freiwilliger Anerkennung kein Negativbeweis ist. ANKAUF: keine Sorten oder Kurse. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife.",
         "status": "pruefung",
         "trader_type": "schrotthaendler",
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "70d5b27c1ac1cbb58001f3051c730f4fddd326281080c8efacc660ed9a296b36",
-      "seed_hash": "0c3f12bc97a18fad"
+      "notes_sha256": "39d69234dfa2e618bfc71125d3aa70e3ca552b4b9c97e53009d110fb3e3cbdaa",
+      "seed_hash": "0fddac417bdf562f"
     },
     {
       "slug": "he-wetzlar-jori-recycling-schrott-wetzlar",
