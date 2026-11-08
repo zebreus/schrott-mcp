@@ -175,9 +175,7 @@ fn stale_current_prices_sql(list: &str) -> String {
 
 /// Die Anzahl der geprueften Paare.
 fn stale_current_prices_count(list: &str) -> usize {
-    list.lines()
-        .filter(|z| !z.trim().is_empty())
-        .count()
+    list.lines().filter(|z| !z.trim().is_empty()).count()
 }
 
 pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
@@ -3093,7 +3091,10 @@ mod tests {
             .expect("alte Preiszeile");
             paare += 1;
         }
-        assert_eq!(paare, super::stale_current_prices_count(super::STALE_CURRENT_PRICES));
+        assert_eq!(
+            paare,
+            super::stale_current_prices_count(super::STALE_CURRENT_PRICES)
+        );
         // Eine heutige Beobachtung an einem anderen Schluessel bleibt current.
         let aktuell = db
             .record_price(&NewPrice {
