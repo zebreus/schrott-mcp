@@ -4,8 +4,8 @@ name: Krahl
 trader_type: sonstige
 state: RP
 city: Neustadt
-street: Krahl Neustadt Moltkestr. 18
-postcode: ''
+street: Moltkestr. 18
+postcode: '67433'
 phone: ''
 email: ''
 opening_hours: ''
@@ -44,3 +44,7 @@ Konkreter Betreiberkandidat ist Krahl Schrotthandel, Moltkestraße 18, 67433 Neu
 
 - Nur Einzelbeleg: Krahl Schrotthandel, Moltkestraße 18, 67433 Neustadt an der Weinstraße, Tel. +49 160 95825480, Domain krahl-schrotthandel.de (Quelle: https://lokaleschrottplatz.de/krahl-schrotthandel/) (Einzelbeleg, unsicher) — daher kein Frontmatter-Eintrag
 - Betreiberseite krahl-schrotthandel.de sowie 11880/Firmania/Cylex-Einträge per Bot-Schutz blockiert (HTTP 403), keine zweite Quelle erreichbar; Seed-Straße Moltkestr. 18 damit unbestätigt
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Die verschmutzte Seed-Straßenzeile ist auf den belegten Straßenanteil bereinigt: `street` steht jetzt auf „Moltkestr. 18“, `postcode` auf „67433“.** Der Namens- und Ortsrest („Krahl Neustadt“) ist ein Import-Artefakt. (1) Verzeichniseintrag, live am 08.11.2026: die 11880-Firmenseite „Krahl Schrotthandel“ nennt „Moltkestr. 18, 67433 Neustadt“ mit (0171) 3461089. (2) Zweite unabhängige Quelle: Cylex führt „Krahl Schrotthandel“ mit „Moltkestraße 18, 67433 Neustadt an der Weinstraße“ und der Nummer 0160 95825480; der Direktabruf der Cylex-Seite liefert am 08.11.2026 HTTP 403. Die Nummer 0160 95825480 nennt auch der Suchindex des Betreiber-Impressums krahl-schrotthandel.de zusammen mit der Nummer 0171 3461089 und dem Namen der Inhaberin (Vermerk vom 15.10.2026); der Direktabruf der Betreiberseite liefert am 08.11.2026 HTTP 403. (3) Adressbestätigung: das OSM-Adressobjekt way/365640662 trägt `addr:housenumber` 18, `addr:street` Moltkestraße, `addr:postcode` 67433. **Offen bleibt:** ein heute lesbarer Primärbeleg oder ein Registereintrag fehlt; die im Suchindex beschriebenen Ankaufsbedingungen mit Barzahlung, mobiler Waage und Wiegekarte werden nicht übernommen, `status` bleibt `pruefung`, es wird keine Koordinate gesetzt. Quelle(n): https://www.11880.com/branchenbuch/neustadt-an-der-weinstrasse/060440092B113511708/krahl-schrotthandel.html ; https://web2.cylex.de/suche/schrotthandel/Neustadt_an_der_weinstrasse ; https://www.krahl-schrotthandel.de/impressum/ ; https://api.openstreetmap.org/api/0.6/way/365640662.json (Abruf 08.11.2026).]

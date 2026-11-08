@@ -6,8 +6,8 @@ name: Ries Wierschem
 trader_type: sonstige
 state: RP
 city: Wierschem
-street: Ries Wierschem Wierschem Pappelstr. 3
-postcode: ''
+street: Pappelstr. 3
+postcode: '56294'
 phone: ''
 email: ''
 opening_hours: ''
@@ -92,3 +92,7 @@ Ungeklärter „Ries“-Altmetallrecycling-Lead im Ort Wierschem. Ein direkt gel
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.3500,50.2200,7.3600,50.2300 ;
   https://www.11880.com/branchenbuch/wierschem/060440092B112781761/thomas-ries.html ;
   https://www.wierschem.de/index.php/unternehmen (Abruf 04.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Die verschmutzte Seed-Straßenzeile ist auf den belegten Straßenanteil bereinigt: `street` steht jetzt auf „Pappelstr. 3“, `postcode` auf „56294“.** Der Namens- und Ortsrest („Ries Wierschem“) ist ein Import-Artefakt. (1) Verzeichniseintrag, live am 08.11.2026: die 11880-Firmenseite „Thomas Ries“ nennt „Pappelstr. 3, 56294 Wierschem“ mit (02605) 847638. (2) Zweite unabhängige Quelle, live am 08.11.2026: adressennet.de führt „Thomas Ries Schrotthandel“ mit „Pappelstr. 3, 56294 Wierschem“ und der Nummer 02605-847638; gleichlautend führen im Suchindex oeffnungszeitenbuch.de „Thomas Ries Schrott- und Metallhandel, Pappelstr. 3, 56294 Wierschem, 02605 847638“ und firmen-vergleich.de „Thomas Ries Schrotthandel, Pappelstr. 3, Wierschem“, der Direktabruf der Oeffnungszeiten-Seite liefert am 08.11.2026 HTTP 403. (3) Adressbestätigung: das OSM-Adressobjekt way/490951019 trägt `addr:housenumber` 3, `addr:street` Pappelstraße, `addr:postcode` 56294, `addr:city` Wierschem. **Offen bleibt:** die Betreiberidentität und die heutige Tätigkeit, denn es gibt keine Betreiberseite und keinen Registereintrag, und die Gemeindeliste der ortsansässigen Unternehmen nennt Ries nach dem Vermerk vom 23.10.2026 nicht; der am 04.11.2026 aufgelöste Punkt an der Pappelstraße 3 bleibt unverändert, `status` bleibt `pruefung`, Ankaufs- und Gebührenangaben bleiben unbelegt. Quelle(n): https://www.11880.com/branchenbuch/wierschem/060440092B112781761/thomas-ries.html ; https://www.adressennet.de/schrott-schrotthandel-metallhandel-altmetalle-schrotthandel-containerdienste-metallhandel-wierschem-366fdc7d00.html ; https://oeffnungszeitenbuch.de/filiale/Wierschem-Thomas%20Ries%20Schrott-%20und%20Metallhandel-2635601Q.html ; https://api.openstreetmap.org/api/0.6/way/490951019.json (Abruf 08.11.2026).]
