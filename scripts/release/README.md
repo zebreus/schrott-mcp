@@ -24,8 +24,28 @@ RELEASE_SHORT=<short> RELEASE_COMMIT=<commit> RELEASE_TREE=<tree> \
 # 4) Nachprüfung read-only
 python3 scripts/verify-release-delta-<short>.py
 python3 scripts/verify-wave-e-postrollout-<short>.py
-python3 scripts/release/post_rollout_check.py
+
+# Achtung: post_rollout_check.py prüft die **Geo-Clear-Zeilen** des
+# Release-Scopes, nicht den Release-Scope selbst. RELEASE_TARGET_SLUGS
+# bedeutet dort also etwas anderes als beim Rollout (dort: der
+# Release-Scope). Der Check ist nur aussagekräftig, wenn die
+# Geo-Liste und der Scope getrennt übergeben werden:
+RELEASE_SHORT=<short> \
+  RELEASE_TARGET_SLUGS=/tmp/opencode/geo-slugs-release.json \
+  RELEASE_GEO_SLUGS=/tmp/opencode/essen-slugs.json \
+  python3 scripts/release/post_rollout_check.py
 ```
+
+## Zwei Bedeutungen von `RELEASE_TARGET_SLUGS`
+
+| Werkzeug | Bedeutung | Datei |
+|---|---|---|
+| `rollout.py` | der **Release-Scope** — die Slugs, deren Zeilen nach dem Rollout verifiziert werden | `/tmp/opencode/release-targets-next.json` |
+| `post_rollout_check.py` | die **Geo-Clear-Zeilen** des Scopes — die Slugs, die *keine* Koordinate tragen dürfen | `/tmp/opencode/geo-slugs-release.json` |
+
+Verwendet man für den Check die Scope-Liste, meldet er `geo_cleared_ok: false`,
+obwohl die Produktion korrekt ist (die meisten Scope-Dossiers tragen
+inzwischen eine Koordinate).
 
 ## Dateien
 
