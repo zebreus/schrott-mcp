@@ -28,11 +28,18 @@ use schrott_mcp_store::PublicDb;
 /// The reviewed list of the stale current prices (migration 11).
 const STALE_CURRENT_PRICES: &str = include_str!("../src/public/stale_current_prices.tsv");
 
+/// The reviewed list of the stale current prices of 08.11.2026 (migration 12).
+const STALE_CURRENT_PRICES_12: &str = include_str!("../src/public/stale_current_prices_12.tsv");
+
 fn paare() -> usize {
     STALE_CURRENT_PRICES
         .lines()
         .filter(|zeile| !zeile.trim().is_empty())
         .count()
+        + STALE_CURRENT_PRICES_12
+            .lines()
+            .filter(|zeile| !zeile.trim().is_empty())
+            .count()
 }
 
 fn zaehle(pfad: &std::path::Path) -> (i64, i64, i64) {

@@ -134,10 +134,23 @@ pub const PRICE_KINDS: &[&str] = &["exact", "upto", "range", "approx"];
 /// Current-Pointer.
 const STALE_CURRENT_PRICES: &str = include_str!("stale_current_prices.tsv");
 
+/// Die Paare der Preispflege vom 08.11.2026: 25 Current-Pointer eines
+/// Haendlers, der die Preise nach der Aenderung der Seite vom 04.11.2026
+/// nicht mehr erzeugt. Die Liste ist der Beleg: jedes Paar wurde am
+/// 08.11.2026 an der Live-Seite geprueft - die Preiskarten tragen fuer
+/// diese Materialien keine Mengenstufen mehr. Die Beobachtungen bleiben
+/// in der Historie - zurueckgezogen wird nur der Current-Pointer.
+///
+/// Ein Paar steht **nicht** in dieser Liste: der Preis von 1,10 EUR/kg
+/// wird weiterhin angeboten ("Alu Sorte1."), der Handler ueberspringt die
+/// Karte nur, weil die Bezeichnung in keine seiner Zuordnungen passt -
+/// das ist ein Zuordnungsbefund am Handler, kein Rueckzug.
+const STALE_CURRENT_PRICES_12: &str = include_str!("stale_current_prices_12.tsv");
+
 /// Die Liste als SQL-Werte.
-fn stale_current_prices_sql() -> String {
+fn stale_current_prices_sql(list: &str) -> String {
     let mut werte = String::new();
-    for (index, zeile) in STALE_CURRENT_PRICES.lines().enumerate() {
+    for (index, zeile) in list.lines().enumerate() {
         if zeile.trim().is_empty() {
             continue;
         }
@@ -161,9 +174,8 @@ fn stale_current_prices_sql() -> String {
 }
 
 /// Die Anzahl der geprueften Paare.
-fn stale_current_prices_count() -> usize {
-    STALE_CURRENT_PRICES
-        .lines()
+fn stale_current_prices_count(list: &str) -> usize {
+    list.lines()
         .filter(|z| !z.trim().is_empty())
         .count()
 }
@@ -733,7 +745,7 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
              INSERT INTO migration_11_stale_current_prices
                  (slug, material, variant, price, unit, observed_at, source_url) VALUES
 {};"#,
-            stale_current_prices_sql()
+            stale_current_prices_sql(STALE_CURRENT_PRICES)
         );
         tx.execute_batch(&sql)?;
         let counts: (i64, i64) = tx.query_row(
@@ -760,7 +772,7 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
             [],
             |row| Ok((row.get(0)?, row.get(1)?)),
         )?;
-        let erwartet = stale_current_prices_count() as i64;
+        let erwartet = stale_current_prices_count(STALE_CURRENT_PRICES) as i64;
         if counts == (erwartet, erwartet) {
             tx.execute(
                 "DELETE FROM current_prices AS c
@@ -787,6 +799,82 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
         tx.execute_batch(
             "DROP TABLE migration_11_stale_current_prices;
              PRAGMA user_version = 11;",
+        )?;
+        tx.commit()?;
+    }
+    if version < 12 {
+        let tx = conn.unchecked_transaction()?;
+        let sql = format!(
+            r#"DROP TABLE IF EXISTS temp.migration_12_stale_current_prices;
+             CREATE TEMP TABLE migration_12_stale_current_prices (
+                 slug TEXT NOT NULL,
+                 material TEXT NOT NULL,
+                 variant TEXT NOT NULL,
+                 price REAL NOT NULL,
+                 unit TEXT NOT NULL,
+                 observed_at TEXT NOT NULL,
+                 source_url TEXT NOT NULL,
+                 PRIMARY KEY (slug, material, variant, observed_at)
+             );
+             INSERT INTO migration_12_stale_current_prices
+                 (slug, material, variant, price, unit, observed_at, source_url) VALUES
+{};"#,
+            stale_current_prices_sql(STALE_CURRENT_PRICES_12)
+        );
+        tx.execute_batch(&sql)?;
+        // Fail closed: die Liste trifft genau die Population, die zur
+        //ueckgezogen werden soll - jede Abweichung bricht die Migration ab.
+        let counts: (i64, i64) = tx.query_row(
+            "SELECT COUNT(*),
+                    COALESCE(SUM(
+                        c.price_id = p.id
+                        AND c.trader_id = p.trader_id
+                        AND c.material_id = p.material_id
+                        AND c.variant = p.variant), 0)
+             FROM migration_12_stale_current_prices k
+             JOIN traders t ON t.slug = k.slug
+             JOIN materials m ON m.slug = k.material
+             JOIN prices p ON p.trader_id = t.id
+                           AND p.material_id = m.id
+                           AND p.variant = k.variant
+                           AND p.unit = k.unit
+                           AND p.observed_at = k.observed_at
+                           AND p.source_url = k.source_url
+                           AND ABS(p.price - k.price) < 0.000001
+             LEFT JOIN current_prices c ON c.trader_id = p.trader_id
+                                     AND c.material_id = p.material_id
+                                     AND c.variant = p.variant
+                                     AND c.price_id = p.id",
+            [],
+            |row| Ok((row.get(0)?, row.get(1)?)),
+        )?;
+        let erwartet = stale_current_prices_count(STALE_CURRENT_PRICES_12) as i64;
+        if counts == (erwartet, erwartet) {
+            tx.execute(
+                "DELETE FROM current_prices AS c
+                 WHERE EXISTS (
+                     SELECT 1 FROM migration_12_stale_current_prices k
+                     JOIN traders t ON t.slug = k.slug
+                     JOIN materials m ON m.slug = k.material
+                     JOIN prices p ON p.id = c.price_id
+                                   AND p.trader_id = t.id
+                                   AND p.material_id = m.id
+                                   AND p.variant = k.variant
+                                   AND p.unit = k.unit
+                                   AND p.observed_at = k.observed_at
+                                   AND p.source_url = k.source_url
+                                   AND ABS(p.price - k.price) < 0.000001
+                 )",
+                [],
+            )?;
+        } else if counts != (0, 0) {
+            return Err(StoreError::Rejected(
+                "unexpected stale current-price population for migration 12",
+            ));
+        }
+        tx.execute_batch(
+            "DROP TABLE migration_12_stale_current_prices;
+             PRAGMA user_version = 12;",
         )?;
         tx.commit()?;
     }
