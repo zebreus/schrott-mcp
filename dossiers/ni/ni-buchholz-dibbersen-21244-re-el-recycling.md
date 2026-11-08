@@ -1,5 +1,7 @@
 ---
 slug: ni-buchholz-dibbersen-21244-re-el-recycling
+lat: 53.3642389
+lon: 9.888926
 name: RE-EL Recycling GmbH
 trader_type: wertstoffhaendler
 state: NI
@@ -51,3 +53,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Alle übrigen geprüften Felder stimmen wörtlich mit dem PDF überein: Aussteller TÜV NORD Umweltschutz GmbH & Co. KG, Große Bahnstraße 31, 22525 Hamburg (1.1 bis 1.3); Zertifikatsnummer 226ZEB054 (3.1); Vorgangsnummer ZZBT005001231012 (3.3); 5 Anlagen (3.4); gültig bis 14.02.2028 (3.7); Rechtsträger Re-El Recycling GmbH, Königsgrund 1, 21244 Buchholz, HRB 3863 Registergericht Tostedt (4.1 bis 4.4); Prüfungsdatum 29.09.2026 (6); Ausstellungsdatum 06.10.2026 (8). Alle fünf Anlagen tragen den Dossierstandort Königsgrund 1, 21244 Buchholz.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 geändert, nicht nur durch eine schließende Klammer: ergänzt wurde die zertifizierte Tätigkeit „Verwerten“ (ohne eigene Kennnummer) an zwei Anlagen; die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Re-El&p=ZZBT00500123&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 53.3642389/9.888926.** Für den Dossier-Eintrag **RE-EL Recycling GmbH** trägt das OSM-Objekt node/4200117038 (`addr:housenumber`=1, `addr:street`=Königsgrund, `addr:postcode`=21244, `addr:city`=Buchholz in der Nordheide, `name`=Re-El, `amenity`=recycling, `phone`=+49 4181 39441, `website`=https://re-el.net/) die Dossier-Adresse **Königsgrund 1, 21244 Buchholz-Dibbersen** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist der Adressknoten, BBox 53.3642389/9.888926 bis 53.3642389/9.888926). Quelle(n): https://api.openstreetmap.org/api/0.6/node/4200117038.json ; https://nominatim.openstreetmap.org/search?q=K%C3%B6nigsgrund+1%2C+21244+Buchholz-Dibbersen&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=K%C3%B6nigsgrund+1&postalcode=21244&city=Buchholz-Dibbersen&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

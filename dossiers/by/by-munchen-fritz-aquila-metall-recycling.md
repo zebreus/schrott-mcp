@@ -1,5 +1,7 @@
 ---
 slug: by-munchen-fritz-aquila-metall-recycling
+lat: 48.1912872
+lon: 11.5002905
 name: Fritz Aquila Metall-Recycling e.K.
 trader_type: metallhaendler
 state: BY
@@ -53,3 +55,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   **Korrigiert:** Anlage 2 = Lagern (I162S00086), Verwerten (ohne eigene Kennnummer) und Handeln (I162H00278); Anlage 3 = Behandeln (I162S00086) und Verwerten (ohne eigene Kennnummer); Anlage 4 = Behandeln (I162S00086) und Verwerten (ohne eigene Kennnummer). **Unverändert bestätigt** (feldweise am PDF geprüft): 1.1 Name ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall- Recycling-Wirtschaft e.V., 1.2 Straße Berliner Allee 57, 1.3 Postleitzahl 40212 Ort Düsseldorf; 3.1 Nummer des Zertifikats ESN 99-030214 (26); 3.3 Vorgangsnummer ZZEE003002592010; 3.4 Das Zertifikat beinhaltet 4 Anlage(n); 3.7 gültig bis zum 30.06.2027; 4.1 Name Fritz Aquila Metall-Recycling e.K., 4.2 Dachauer Straße 537, 4.3 Postleitzahl 80993 Ort München, 4.4 Registernummer HRA 11004 Registergericht München; 6. Prüfungsdatum 14.01.2026; 8. Ausstellungsdatum 30.01.2026; Anlage 1 Sammeln und Befördern I162T22539; alle vier Anlagen am Dossierstandort Dachauer Straße 537. Die Angabe zur Erstbehandlungsanlage nach § 21 ElektroG ist bestätigt: Feld 5.1 des Hauptteils verweist auf Anlage 4, deren Anlagentechnik „Erstbehandlungsanlage gem. ElektroG“ lautet.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Fritz%20Aquila%20Metall-Recycling%20e.K.&p=ZZEE00300259&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.1912872/11.5002905.** Für den Dossier-Eintrag **Fritz Aquila Metall-Recycling e.K.** trägt das OSM-Objekt way/166361020 (`addr:housenumber`=537, `addr:street`=Dachauer Straße, `addr:postcode`=80993, `addr:city`=München) die Dossier-Adresse **Dachauer Straße 537-539, 80993 München** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.1911186/11.5000295 bis 48.1914558/11.5005515). Die Dossier-Adresse umfasst den Bereich **537-539**; OSM führt 537 und 539 als zwei Industriegebäude, verwendet wird der Adresspunkt der ersten Hausnummer 537 (die Nummer 539 trägt eine Tierhandlung). Das Dossier by-munchen-aquila beschreibt denselben Standort. Quelle(n): https://api.openstreetmap.org/api/0.6/way/166361020/full.json (Abruf 08.11.2026).]

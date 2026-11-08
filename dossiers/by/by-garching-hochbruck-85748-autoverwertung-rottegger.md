@@ -1,5 +1,7 @@
 ---
 slug: by-garching-hochbruck-85748-autoverwertung-rottegger
+lat: 48.2503198
+lon: 11.6036692
 name: Autoverwertung Rottegger GmbH
 trader_type: autoverwertung
 state: BY
@@ -54,3 +56,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - [Prüfung 06.11.2026: Der Eintrag wurde am 06.11.2026 gegen das amtliche Fachbetrieberegister (Route „Altfahrzeugverwertung“) nachgeprüft. Das Ergebnisfeld führt wörtlich „Autoverwertung Rottegger GmbH“, „Ingolstädter Landstraße 4, 85748 Garching-Hochbrück“, „ZAIS00100010 / 1“ - Vorgangsnummer, Bescheinigungsanlagennr. 1, Bezeichnung und Registeranschrift stimmen damit mit dem Eintrag überein. Für die Bescheinigung ist im Register **kein Zertifikats-PDF** hinterlegt; die Felder 3.1 Zertifikatsnummer, 3.3 Vorgangsnummer, 3.4 Anlagenzahl, 3.7 Gültigkeit, 6 Prüfungsdatum und 8 Ausstellungsdatum sind deshalb **nicht ausgewiesen** und werden nicht ergänzt.
   Die im Eintrag genannte Adressdifferenz der Hausnummer (Register 4, Dossier 18, Impressum 4 bis 18) bleibt unverändert bestehen und ist weiterhin benannt. Der Eintrag bleibt **unverändert**.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20Rottegger%20GmbH&p=ZAIS00100010&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.2503198/11.6036692.** Für den Dossier-Eintrag **Autoverwertung Rottegger GmbH** benennt das OSM-Objekt way/537173206 (`name`=Autoverwertung Rottegger GmbH, `landuse`=industrial, `industrial`=scrap_yard, `website`=https://www.autoverwertung-rottegger.de/) den Betrieb selbst (**Autoverwertung Rottegger GmbH**); es liegt unmittelbar an der Dossier-Straße **Ingolstädter Landstraße 18**, ohne eine der Dossier-Hausnummer entsprechende Adresszuordnung. Der Punkt ist deshalb der **Betriebspunkt** und nicht ein Adressmittelpunkt (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.2490838/11.6016387 bis 48.2516465/11.6044579). Die Dossier-Hausnummer 18 ist in OSM nicht mit Adress-Tags erfasst; das Objekt liegt 0,4 m von der Achse der Dossier-Straße Ingolstädter Landstraße entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/537173206/full.json (Abruf 08.11.2026).]

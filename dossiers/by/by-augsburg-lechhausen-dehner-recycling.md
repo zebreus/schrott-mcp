@@ -1,5 +1,7 @@
 ---
 slug: by-augsburg-lechhausen-dehner-recycling
+lat: 48.3914508
+lon: 10.9387831
 name: Dehner Recycling GmbH
 trader_type: sonstige
 state: BY
@@ -75,3 +77,7 @@ Betreiberdokument vorliegt. Ein Ankauf von Schrott ist nicht belegt.
   Korrektur war nicht nötig. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dehner&p=ZZHT00400331&fd=1
   ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Dehner
   (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.3914508/10.9387831.** Für den Dossier-Eintrag **Dehner Recycling GmbH** trägt das OSM-Objekt way/151761265 (`addr:housenumber`=133c, `addr:street`=Derchinger Straße, `addr:postcode`=86165, `addr:city`=Augsburg, `name`=Dehner Recycling, `office`=company, `website`=http://www.schrott-dehner.de/) die Dossier-Adresse **Derchingerstr. 133, 86165 Augsburg-Lechhausen** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Dehner Recycling**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.3913482/10.9386694 bis 48.3915459/10.9389046). OSM führt die Hausnummer mit dem Zusatz **133c** (Teil der Dossier-Hausnummer 133); der Adressabruf löst die Dossier-Adresse auf genau dieses Objekt auf. Quelle(n): https://api.openstreetmap.org/api/0.6/way/151761265/full.json ; https://nominatim.openstreetmap.org/search?q=Derchingerstr.+133%2C+86165+Augsburg-Lechhausen&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Derchingerstr.+133&postalcode=86165&city=Augsburg-Lechhausen&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

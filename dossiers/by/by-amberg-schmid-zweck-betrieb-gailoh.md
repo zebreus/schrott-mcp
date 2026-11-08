@@ -1,5 +1,7 @@
 ---
 slug: by-amberg-schmid-zweck-betrieb-gailoh
+lat: 49.424014
+lon: 11.8239014
 name: Schmid & Zweck GmbH Betrieb Gailoh
 trader_type: sonstige
 state: BY
@@ -64,3 +66,7 @@ nicht veröffentlichten Öffnungszeiten des Wertstoffhofs.
   und bleibt ausgeklammert. Der Eintrag wurde um das Ausstellungsdatum ergänzt; alle übrigen Angaben stimmen mit
   dem PDF überein. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schmid%20%26%20Zweck&p=ZZHT00300806&fd=1
   (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.424014/11.8239014.** Für den Dossier-Eintrag **Schmid & Zweck GmbH Betrieb Gailoh** trägt das OSM-Objekt way/107292317 (`addr:housenumber`=7, `addr:street`=Im Frauental, `addr:postcode`=92224, `addr:city`=Amberg) die Dossier-Adresse **Im Frauental 7, 92224 Amberg** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.4238929/11.8236933 bis 49.4241174/11.824189). Quelle(n): https://api.openstreetmap.org/api/0.6/way/107292317/full.json ; https://nominatim.openstreetmap.org/search?q=Im+Frauental+7%2C+92224+Amberg&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Im+Frauental+7&postalcode=92224&city=Amberg&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

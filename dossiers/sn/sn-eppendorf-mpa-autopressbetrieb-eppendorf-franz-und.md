@@ -1,5 +1,7 @@
 ---
 slug: sn-eppendorf-mpa-autopressbetrieb-eppendorf-franz-und
+lat: 50.7824456
+lon: 13.227093
 name: MPA Autopressbetrieb Eppendorf Franz und Weißer GbR mbH
 trader_type: autoverwertung
 state: SN
@@ -55,3 +57,7 @@ Das auf der Website bereitgestellte Zertifikat ist das **abgelaufene Vorgängerz
 ### Korrektur 06.11.2026
 
 - [Korrektur 06.11.2026: **Anlage 4 war unvollständig, und der Abfallschlüssel war nicht exakt.** Die Ankreuzfelder des Register-PDFs ZZST002000971009 (Zertifikat 801.0131/26) weisen für Anlage 4 (Feld 1.2 „Zum Gewerbegebiet 1“, 09575 Eppendorf) **2.4 Behandeln (Kennnummer SC77300395), 2.5 Verwerten und 2.6 Beseitigen** als angekreuzt aus ✓ — im Eintrag war nur „Behandeln“ genannt ✓. Das Beiblatt nach § 7 Abs. 2a AltfahrzeugV weist den Abfallschlüssel „**160104\***“ aus ✓ (mit Einschränkungsstern ✓); der Vermerk nannte ihn ohne Stern ✓. Beides ist korrigiert ✓; die Angaben zu Anlagen 1 bis 3 sowie zu Erzeugernummer, Entsorgernummer, Genehmigungsbehörde, Telefon, Fax, E-Mail, Ansprechpartner und Rücknahme bleiben unverändert ✓.]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 50.7824456/13.227093.** Für den Dossier-Eintrag **MPA Autopressbetrieb Eppendorf Franz und Weißer GbR mbH** trägt das OSM-Objekt way/255772301 (`addr:housenumber`=1, `addr:street`=Zum Gewerbegebiet, `addr:postcode`=09575, `addr:city`=Eppendorf) die Dossier-Adresse **Zum Gewerbegebiet 1, 09575 Eppendorf** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 50.782288/13.2267991 bis 50.7826056/13.2272472). Der Adressabruf liefert für dieselbe Hausnummer 1 drei Objekte (way/255772301, way/255772304, node/1248534258); verwendet wird das erste Gebäudeobjekt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/255772301/full.json ; https://nominatim.openstreetmap.org/search?q=Zum+Gewerbegebiet+1%2C+09575+Eppendorf&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Zum+Gewerbegebiet+1&postalcode=09575&city=Eppendorf&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

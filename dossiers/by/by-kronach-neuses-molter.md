@@ -1,5 +1,7 @@
 ---
 slug: by-kronach-neuses-molter
+lat: 50.2094564
+lon: 11.2962043
 name: Mölter GmbH
 trader_type: autoverwertung
 state: BY
@@ -54,3 +56,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   **Korrigiert:** Aussteller jetzt mit vollständiger Anschrift „ZN ZertifizierungsNetzwerk GmbH, Goethestraße 11/5, 71131 Jettingen“. **Unverändert bestätigt** (feldweise am PDF geprüft): 3.1 Nummer des Zertifikats 2026-0022; 3.3 Vorgangsnummer ZZHT010002616004; 3.4 Das Zertifikat beinhaltet 6 Anlage(n); 3.7 gültig bis zum 11.03.2027; 4.1 Name Mölter GmbH, 4.2 Hohe Weide 5, 4.3 Postleitzahl 96317 Ort Kronach-Neuses, 4.4 Registernummer HRB 3557 Registergericht Coburg; 6. Prüfungsdatum 12.09.2025; 8. Ausstellungsdatum 27.01.2026; alle sechs Anlagen am Dossierstandort Hohe Weide 5; Kennnummern Anlage 1 Sammeln und Befördern I476T02703, Anlage 2 Lagern, Verwerten, Beseitigen und Anlagen 3 bis 6 Behandeln, Verwerten, Beseitigen jeweils I476N00037 (das PDF trägt dieselbe Kennnummer in allen drei Feldern). Die AFV-Bescheinigung wurde am 06.11.2026 erneut im Register geprüft: das Ergebnisfeld führt wörtlich „Mölter GmbH“, „Hohe Weide 5, 96317 Kronach-Neuses“, „ZZHT01000261 / 6“; ein Zertifikats-PDF ist für diese Bescheinigung nicht hinterlegt, der Eintrag bleibt insoweit unverändert.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 geändert, nicht nur durch eine schließende Klammer: der Zertifizierungsorganisation wurde der Ort Jettingen zugeordnet (Feld 1.3); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=M%C3%B6lter%20GmbH&p=ZZHT01000261&fd=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=M%C3%B6lter%20GmbH&p=ZZHT01000261&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 50.2094564/11.2962043.** Für den Dossier-Eintrag **Mölter GmbH** trägt das OSM-Objekt way/736815303 (`addr:housenumber`=5, `addr:street`=Hohe Weide, `addr:postcode`=96317, `addr:city`=Kronach) die Dossier-Adresse **Hohe Weide 5, 96317 Kronach-Neuses** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 50.209366/11.2960673 bis 50.2095134/11.2963451). Quelle(n): https://api.openstreetmap.org/api/0.6/way/736815303/full.json ; https://nominatim.openstreetmap.org/search?q=Hohe+Weide+5%2C+96317+Kronach-Neuses&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Hohe+Weide+5&postalcode=96317&city=Kronach-Neuses&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

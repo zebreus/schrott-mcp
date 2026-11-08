@@ -1,5 +1,7 @@
 ---
 slug: by-ergolding-lorenz-wittmann
+lat: 48.5661085
+lon: 12.1525498
 name: Lorenz Wittmann GmbH
 trader_type: wertstoffhaendler
 state: BY
@@ -73,3 +75,7 @@ Vergütung für Privatanlieferungen ist nicht ausgewiesen.
   **Korrigiert:** Anlage 6 = Lagern, Behandeln, Verwerten und Beseitigen (Kennnummer I274S00060; Verwerten und Beseitigen ohne eigene Kennnummer). **Unverändert bestätigt** (feldweise am PDF geprüft): 1.1 Name bvse-Entsorgergemeinschaft e.V., 1.2 Straße Fränkische Straße 2, 1.3 Postleitzahl 53229 Ort Bonn; 3.1 Nummer des Zertifikats 10323; 3.3 Vorgangsnummer ZZEE001002378008; 3.4 Das Zertifikat beinhaltet 8 Anlage(n); 3.7 gültig bis zum 31.10.2027; 4.1 Name Lorenz Wittmann GmbH, 4.2 Vilsbiburger Straße 70-74, 4.3 Postleitzahl 84144 Ort Geisenhausen, 4.4 Registernummer HRB 1526 Registergericht Landshut; 6. Prüfungsdatum 30.04.2026; 8. Ausstellungsdatum 28.07.2026; Anlage 5 am Dossierstandort Albert-Einstein-Straße 10, 84030 Ergolding (Sammeln, Befördern, Kennnummer I274T00023). Anlagen 1 bis 4 (Hauptstandort Geisenhausen), Anlage 7 (Rupert-Bodner-Str. 25, 81245 München) und Anlage 8 (Liebrechtstrasse 22, 46240 Bottrop) liegen an fremden Standorten und bleiben **nicht** übernommen.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten, Beseitigen); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lorenz%20Wittmann%20GmbH&p=ZZEE00100237&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.5661085/12.1525498.** Für den Dossier-Eintrag **Lorenz Wittmann GmbH** trägt das OSM-Objekt way/616971231 (`addr:housenumber`=10, `addr:street`=Albert-Einstein-Straße, `addr:postcode`=84030, `addr:city`=Ergolding, `name`=Wittmann Recycling, `amenity`=recycling, `recycling_type`=centre) die Dossier-Adresse **Albert-Einstein-Str. 10, 84030 Ergolding** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Wittmann Recycling**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.5658914/12.1521574 bis 48.5663255/12.1529421). Quelle(n): https://api.openstreetmap.org/api/0.6/way/616971231/full.json ; https://nominatim.openstreetmap.org/search?q=Albert-Einstein-Str.+10%2C+84030+Ergolding&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Albert-Einstein-Str.+10&postalcode=84030&city=Ergolding&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

@@ -1,5 +1,7 @@
 ---
 slug: ni-barnstorf-fritsch-recycling
+lat: 52.6988707
+lon: 8.496804
 name: Fritsch Recycling GmbH & Co. KG
 trader_type: autoverwertung
 state: NI
@@ -59,3 +61,7 @@ Privatkunden, Ankaufpreise, Verkaufspreise oder Gebühren.
   Alle übrigen geprüften Felder stimmen wörtlich mit dem PDF überein: Aussteller DEKRA Certification GmbH, Handwerkstraße 15, 70565 Stuttgart (1.1 bis 1.3); Zertifikatsnummer 120798542 (3.1); Vorgangsnummer ZZHT003002146013 (3.3); 3 Anlagen (3.4); gültig bis 02.12.2027 (3.7); Rechtsträger Fritsch Recycling GmbH & Co. KG, Rudolf-Diesel-Straße 13, 49406 Barnstorf, HRA 201947 Registergericht Walsrode (4.1 bis 4.4); Prüfungsdatum 23.06.2026 (6); Ausstellungsdatum 30.06.2026 (8). Alle drei Anlagen tragen den Dossierstandort; Anlage 2 ist im Feld 3.2 als Demontagebetrieb (Kästchen 3.2.3) gekennzeichnet, was die zweite Eintragung (AltfahrzeugV) trägt. Der Register-Detaildialog schreibt die EfbV-Kennnummer verkürzt als „C5Z700000", das Zertifikats-PDF druckt in den Feldern 2.3 und 2.4 „C5Z7000002" - maßgeblich ist die PDF-Angabe.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten, Beseitigen); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Fritsch&p=ZZHT00300214&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 52.6988707/8.496804.** Für den Dossier-Eintrag **Fritsch Recycling GmbH & Co. KG** benennt das OSM-Objekt way/158956433 (`addr:housenumber`=2, `addr:street`=Wintershallstraße, `addr:postcode`=49406, `addr:city`=Barnstorf, `name`=Fritsch Wolfgang Autoverwertung Schrotthandel, `landuse`=commercial, `contact:phone`=+49 5442 3070) den Betrieb selbst (**Fritsch Wolfgang Autoverwertung Schrotthandel**); es liegt unmittelbar an der Dossier-Straße **Rudolf-Diesel-Str. 13**, ohne eine der Dossier-Hausnummer entsprechende Adresszuordnung. Der Punkt ist deshalb der **Betriebspunkt** und nicht ein Adressmittelpunkt (der Punkt ist das Mittel der eindeutigen Knoten, BBox 52.6985168/8.4958538 bis 52.6996471/8.4979789). Das Objekt trägt `addr:street`=Wintershallstraße und `addr:housenumber`=2, liegt aber unmittelbar an der Achse der Dossier-Straße Rudolf-Diesel-Straße (0,0 m) und nennt mit `contact:phone`=+49 5442 3070 die Dossier-Telefonnummer; die Dossier-Hausnummer 13 ist in OSM nicht erfasst. Quelle(n): https://api.openstreetmap.org/api/0.6/way/158956433/full.json (Abruf 08.11.2026).]

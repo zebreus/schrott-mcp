@@ -1,5 +1,7 @@
 ---
 slug: by-regensburg-zellner-recycling
+lat: 49.0201749
+lon: 12.1299331
 name: Zellner Recycling
 trader_type: wertstoffhaendler
 state: BY
@@ -54,3 +56,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   **Korrigiert:** Anlage 2 = Lagern (I362W10086) und Verwerten (ohne eigene Kennnummer); Anlage 3 = Behandeln (I362W10086) und Verwerten (ohne eigene Kennnummer). Prüfungsdatum 06.06.2025 und Ausstellungsdatum 30.07.2025 waren bereits im Eintrag genannt und wurden **unverändert bestätigt** (PDF-Felder 6. und 8.). **Unverändert bestätigt** (feldweise am PDF geprüft): 1.1 Name bvse-Entsorgergemeinschaft e.V., 1.2 Straße Fränkische Straße 2, 1.3 Postleitzahl 53229 Ort Bonn; 3.1 Nummer des Zertifikats 10292; 3.3 Vorgangsnummer ZZEE001002410008; 3.4 Das Zertifikat beinhaltet 4 Anlage(n); 3.7 gültig bis zum 31.12.2026; 4.1 Name Zellner - Recycling GmbH, 4.2 Budapester Straße 15, 4.3 Postleitzahl 93055 Ort Regensburg, 4.4 Registernummer HRB 2785 Registergericht Regensburg; Anlage 1 Sammeln und Befördern I362T00596, Anlage 4 Handeln und Makeln I362M00091; alle vier Anlagen am Dossierstandort.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Zellner%20-%20Recycling%20GmbH&p=ZZEE00100241&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.0201749/12.1299331.** Für den Dossier-Eintrag **Zellner Recycling** trägt das OSM-Objekt way/283763913 (`addr:housenumber`=15, `addr:street`=Budapester Straße, `addr:postcode`=93055, `addr:city`=Regensburg, `name`=Zellner Recycling GmbH, `amenity`=recycling, `landuse`=industrial, `recycling_type`=centre, `phone`=+49 941 60403 0, `website`=https://www.zellner-recycling.de/) die Dossier-Adresse **Budapester Str. 15, 93055 Regensburg** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Zellner Recycling GmbH**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.0195398/12.1292806 bis 49.0208635/12.1314049). Das zweite gleichnamige Objekt way/110891052 (`name`=Zellner Recycling GmbH) liegt an der Ditthornstraße 24 und wird nicht übernommen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/283763913/full.json ; https://nominatim.openstreetmap.org/search?q=Budapester+Str.+15%2C+93055+Regensburg&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Budapester+Str.+15&postalcode=93055&city=Regensburg&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

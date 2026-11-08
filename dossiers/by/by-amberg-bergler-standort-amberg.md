@@ -1,5 +1,7 @@
 ---
 slug: by-amberg-bergler-standort-amberg
+lat: 49.4888955
+lon: 11.877298
 name: Bergler GmbH & Co. KG Standort Amberg
 trader_type: sonstige
 state: BY
@@ -70,3 +72,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026 (Zertifikatstiefe): **Im Feld `certifications` fehlten die im Zertifikats-PDF angekreuzten Tätigkeiten.** Vorgangsnummer ZZHT003008030013: Anlage 12: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten, Beseitigen fehlten im Eintrag; Anlage 13: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten fehlten im Eintrag. Die Ankreuzfelder 2.1 bis 2.8 wurden mit `scripts/release/pdf_checkboxes.py` am Contentstream des amtlichen Zertifikats-PDF gelesen - nur was dort angekreuzt ist, ist zertifiziert. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&p=ZZHT003008030013&fd=1]
 - [Korrektur 06.11.2026 (Zertifikatstiefe): **Im Feld `certifications` fehlten die im Zertifikats-PDF angekreuzten Tätigkeiten.** Vorgangsnummer ZZHT003008059011: Anlage 7: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten fehlten im Eintrag; Anlage 8: die im Zertifikats-PDF **angekreuzten** Tätigkeiten Verwerten fehlten im Eintrag. Die Ankreuzfelder 2.1 bis 2.8 wurden mit `scripts/release/pdf_checkboxes.py` am Contentstream des amtlichen Zertifikats-PDF gelesen - nur was dort angekreuzt ist, ist zertifiziert. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&p=ZZHT003008059011&fd=1]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.4888955/11.877298.** Für den Dossier-Eintrag **Bergler GmbH & Co. KG Standort Amberg** trägt das OSM-Objekt way/142303400 (`addr:housenumber`=25, `addr:street`=Max-Planck-Straße, `addr:postcode`=92224, `addr:city`=Amberg) die Dossier-Adresse **Max-Planck-Straße 25, 92224 Amberg** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.4885205/11.8768733 bis 49.4891758/11.8776167). Quelle(n): https://api.openstreetmap.org/api/0.6/way/142303400/full.json ; https://nominatim.openstreetmap.org/search?q=Max-Planck-Stra%C3%9Fe+25%2C+92224+Amberg&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Max-Planck-Stra%C3%9Fe+25&postalcode=92224&city=Amberg&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

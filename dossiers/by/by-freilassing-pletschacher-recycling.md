@@ -1,5 +1,7 @@
 ---
 slug: by-freilassing-pletschacher-recycling
+lat: 47.8562453
+lon: 12.9571514
 name: Pletschacher Recycling GmbH
 trader_type: sonstige
 state: BY
@@ -67,3 +69,7 @@ genannten Altfahrzeugannahmestelle sowie die nur telefonisch erteilbaren Preise.
   **Korrigiert:** Anlage 2 = Lagern, Verwerten und Beseitigen (Kennnummer I172S00013; Verwerten und Beseitigen ohne eigene Kennnummer), Anlage 3 = Behandeln und Verwerten (Kennnummer I172S00013; Verwerten ohne eigene Kennnummer). **Unverändert bestätigt** (feldweise am PDF geprüft): 1.1 Name PÜG Prüf- und Überwachungsgesellschaft mbH, 1.2 Straße Hämmerlestraße 14 + 16, 1.3 Postleitzahl 71126 Ort Gäufelden; 3.1 Nummer des Zertifikats K10935-20260410-Efb-de; 3.3 Vorgangsnummer ZZHT004000928015; 3.4 Das Zertifikat beinhaltet 3 Anlage(n); 3.7 gültig bis zum 07.10.2027; 4.1 Name Pletschacher Recycling GmbH, 4.2 Breslauer Straße 61, 4.3 Postleitzahl 83395 Ort Freilassing, 4.4 Registernummer HRB 7986 Registergericht Traunstein; 6. Prüfungsdatum 08.04.2026; 8. Ausstellungsdatum 10.04.2026; alle drei Anlagen am Dossierstandort Breslauer Straße 61.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten, Beseitigen); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Pletschacher%20Recycling%20GmbH&p=ZZHT00400092&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 47.8562453/12.9571514.** Für den Dossier-Eintrag **Pletschacher Recycling GmbH** trägt das OSM-Objekt way/120247915 (`addr:housenumber`=61, `addr:street`=Breslauer Straße, `addr:postcode`=83395, `addr:city`=Freilassing, `name`=Recyclinghof Pletschacher, `amenity`=recycling, `landuse`=industrial, `recycling_type`=centre, `addr:housename`=Recyclinghof Pletschacher) die Dossier-Adresse **Breslauer Strasse 61, 83395 Freilassing** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Recyclinghof Pletschacher**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 47.8558235/12.956263 bis 47.8567899/12.9580598). Quelle(n): https://api.openstreetmap.org/api/0.6/way/120247915/full.json ; https://nominatim.openstreetmap.org/search?q=Breslauer+Strasse+61%2C+83395+Freilassing&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Breslauer+Strasse+61&postalcode=83395&city=Freilassing&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

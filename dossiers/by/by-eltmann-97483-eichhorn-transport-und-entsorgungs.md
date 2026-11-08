@@ -1,5 +1,7 @@
 ---
 slug: by-eltmann-97483-eichhorn-transport-und-entsorgungs
+lat: 49.9811402
+lon: 10.6615019
 name: Eichhorn Transport- und Entsorgungs-GmbH
 trader_type: sonstige
 state: BY
@@ -52,3 +54,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   **Korrigiert:** Anlage 2 = Lagern und Verwerten (Kennnummer I674W10222; Verwerten ohne eigene Kennnummer). **Unverändert bestätigt** (feldweise am PDF geprüft): 1.1 Name DEKRA Certification GmbH, 1.2 Straße Handwerkstraße 15, 1.3 Postleitzahl 70565 Ort Stuttgart; 3.1 Nummer des Zertifikats 290913047; 3.3 Vorgangsnummer ZZHT003008260011; 3.4 Das Zertifikat beinhaltet 4 Anlage(n); 3.7 gültig bis zum 02.11.2027; 4.1 Name Eichhorn Transport- und Entsorgungs -GmbH, 4.2 Industriestraße 11, 4.3 Postleitzahl 97483 Ort Eltmann, 4.4 Registernummer HRB 2363 Registergericht Bamberg; 6. Prüfungsdatum 12.05.2026; 8. Ausstellungsdatum 27.05.2026. Der Rechtsträger-Name ist nach Feld 4.1 wörtlich „Eichhorn Transport- und Entsorgungs -GmbH“; der Zusatz „Eltmann“ steht nur in der Anlagenbezeichnung 1.1 und wird deshalb dort genannt. Anlagen 3 und 4 des Zertifikats liegen an fremden Standorten (Obere Länge 16-18, 97522 Sand am Main; Rheinstr. 8, 96052 Bamberg) und bleiben weiterhin **nicht** übernommen; das Zertifikat enthält keine Anlage an einem anderen Ort am Dossierstandort.
   Der Eintrag wurde in der Welle 06.11.2026 10:00 über die Zertifikats-Angaben hinaus geändert, nicht nur durch eine schließende Klammer (ergänzt wurden die zertifizierten Tätigkeiten Verwerten); die frühere Notizformulierung war insoweit unzutreffend und ist hiermit berichtigt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Eichhorn%20Transport-%20und%20Entsorgungs%20-GmbH%20Eltmann&p=ZZHT00300826&fd=1 (Abruf 06.11.2026).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.9811402/10.6615019.** Für den Dossier-Eintrag **Eichhorn Transport- und Entsorgungs-GmbH** trägt das OSM-Objekt node/10225316959 (`addr:housenumber`=11, `addr:street`=Industriestraße, `addr:postcode`=97483, `addr:city`=Eltmann) die Dossier-Adresse **Industriestr. 11, 97483 Eltmann 97483** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist der Adressknoten, BBox 49.9811402/10.6615019 bis 49.9811402/10.6615019). Quelle(n): https://api.openstreetmap.org/api/0.6/node/10225316959.json ; https://nominatim.openstreetmap.org/search?q=Industriestr.+11%2C+97483+Eltmann&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Industriestr.+11&postalcode=97483&city=Eltmann&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

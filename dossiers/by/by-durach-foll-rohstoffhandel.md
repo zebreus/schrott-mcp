@@ -1,5 +1,7 @@
 ---
 slug: by-durach-foll-rohstoffhandel
+lat: 47.7027302
+lon: 10.3281714
 name: Föll Rohstoffhandel GmbH
 trader_type: schrotthaendler
 state: BY
@@ -69,3 +71,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 06.11.2026 (Tippfehler)
 
 - [Korrektur 06.11.2026 (Tippfehler): **Im Feld `certifications` stand „Kennummer“ statt „Kennnummer“.** Die §-28-NachwV-Kennnummer selbst ist richtig ✓ - korrigiert wurde allein die Schreibweise des Wortes ✓. Die vorherige Notiz zitiert den alten Wortlaut ✓; sie bleibt unverändert ✓ (Hausregel: veroeffentlichte Notizen werden nicht in place geaendert ✓).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 47.7027302/10.3281714.** Für den Dossier-Eintrag **Föll Rohstoffhandel GmbH** trägt das OSM-Objekt way/89266772 (`addr:housenumber`=37, `addr:street`=Webereistraße, `addr:postcode`=87471, `addr:city`=Durach) die Dossier-Adresse **Webereistr. 37, 87471 Durach** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 47.7026981/10.3281175 bis 47.7027949/10.3282281). Quelle(n): https://api.openstreetmap.org/api/0.6/way/89266772/full.json ; https://nominatim.openstreetmap.org/search?q=Webereistr.+37%2C+87471+Durach&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Webereistr.+37&postalcode=87471&city=Durach&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]

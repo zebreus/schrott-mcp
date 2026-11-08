@@ -1,6 +1,8 @@
 ---
 
 slug: by-baar-ebenhausen-td-rohstoffhandel-ebenhausen
+lat: 48.6898602
+lon: 11.4678864
 name: TD Rohstoffhandel Ebenhausen GmbH & Co. KG
 trader_type: metallhaendler
 state: BY
@@ -71,3 +73,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Korrektur 06.11.2026: **Der Eintrag endete mitten in einer offenen Klammer.** Beim Zertifikat ESN 14-040521(26) der ESN für den Standort Äußerer Ring 60, 85107 Baar-Ebenhausen fehlte die schließende Klammer; sie wurde am Ende gesetzt.
   Vorgangsnummer ZZEE003002950009, die sieben Anlagen mit ihren Kennnummern und das Gültigkeitsdatum 30.09.2027 bleiben unverändert; kein inhaltlicher Wert wurde geändert.]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.6898602/11.4678864.** Für den Dossier-Eintrag **TD Rohstoffhandel Ebenhausen GmbH & Co. KG** benennt das OSM-Objekt way/39339643 (`operator`=TD Rohstoffhandel Ebenhausen GmbH & Co. KG) den Betrieb selbst (**TD Rohstoffhandel Ebenhausen GmbH & Co. KG**); es liegt unmittelbar an der Dossier-Straße **Äußerer Ring 60**, ohne eine der Dossier-Hausnummer entsprechende Adresszuordnung. Der Punkt ist deshalb der **Betriebspunkt** und nicht ein Adressmittelpunkt (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.6815913/11.4585628 bis 48.6958514/11.4786903). OSM führt an dieser Stelle die Betriebsspur (`railway`=rail, `service`=spur) des Unternehmens; die Dossier-Hausnummer 60 ist in OSM nicht mit Adress-Tags erfasst, das Objekt liegt 0,9 m von der Achse der Dossier-Straße Äußerer Ring entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/39339643/full.json (Abruf 08.11.2026).]
