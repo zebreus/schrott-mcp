@@ -1,0 +1,35 @@
+{
+  "release_commit": "83e891007bcf5e3e9c21accfe5e8ed37361a170d",
+  "release_tree": "fd23f87f8c52076b8a733798a8165c8e1bc71cdc",
+  "rehearsal_manifest_sha256": "8ed40657171c237b6903b8ea1ce9e5343ca8fe7c5dda60c237069db5eadb0289",
+  "traders": {
+    "hh-iserbrook-22589-hamburger-schrotthandel-pruffall-hamburg": {
+      "seed_hash": "4de7f14567b879f5",
+      "notes_sha256": "2d615ba01cd8c831cf1864c3cdbbcbe5b605d2093d8e0f43e4b211865633b101"
+    },
+    "ni-buchholz-i-d-n-21244-all-in-schrott-abholung": {
+      "seed_hash": "cdc244486552251a",
+      "notes_sha256": "0bcad86366dbc3f620c30551a926b4f58b39bfd270f520712fc4194bff009a96"
+    },
+    "ni-osnabruck-reinhard-peters-schrottplatz": {
+      "seed_hash": "ecba7f5853290055",
+      "notes_sha256": "5c92ab38f9f9d7b4e1c514eded85090f0c4effad852acce7e833838f2e890ea0"
+    },
+    "ni-region-hannover-hildesheim-schrotthandel-f-weber-ort-n-a": {
+      "seed_hash": "23d33c9b596d31d0",
+      "notes_sha256": "2a4e9c751b7d0770399d24e0ddeef30ef75f13bca4768968a16526e17e5582fc"
+    },
+    "nw-leichlingen-muller": {
+      "seed_hash": "9365479377fb6e8d",
+      "notes_sha256": "d25b78cb91d32c0fd4f6074a13e0dc417253ec1abcc090431920c87e0939b81b"
+    },
+    "th-gotha-sdm-gutzmann": {
+      "seed_hash": "5381628546c6bd59",
+      "notes_sha256": "a0a1eabd54a2b762eef5933c5bc5dda6a3e7b35849889aff7e7fc9d210939f1c"
+    },
+    "nw-nrw-weit-schrott24-metaloop-online-portal": {
+      "seed_hash": "c824932b4ba607af",
+      "notes_sha256": "609c6702cb07fd6253a4a2c6d03ea37dbcc6743fa3dff5808cc64a75b1c73c65"
+    }
+  }
+}
