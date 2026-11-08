@@ -1,7 +1,16 @@
 # Auftrag: veraltete Current-Preise beim Händler `be-marzahn-hellersdorf-efrem-gouchev-schrottankauf` (26 Paare)
 
-**Status:** offen — **bestätigter** Datenbefund ✓ (der Handler läuft ✓, die Seite bietet die
-Paare unter den alten Bezeichnungen **nicht mehr** an ✓). Gehört in das **nächste** Release ✓.
+**Status 08.11.2026, 16:20 UTC: erledigt** ✓ — **25 Rückzüge** ✓ per **Migration 12** ✓
+(`2a58c60c` ✓, Liste `crates/store/src/public/stale_current_prices_12.tsv` ✓ mit **25** Zeilen ✓),
+**ein Mapping-Gap** ✓ (kein Rückzug ✓) ✓. Das Dossier trägt die datierte Notiz
+`### Korrektur 08.11.2026 (Preispflege)` ✓ mit allen 26 Paaren ✓ ✓.
+
+**Die Probe gegen eine Kopie der Produktionsdatenbank** ✓ (08.11.2026 ✓):
+`user_version` **11 → 12** ✓, `current_prices` **3590 → 3565** ✓ (genau die **25** geprüften
+Paare ✓ ✓), Historie **46964 → 46964** ✓ unverändert ✓ ✓.
+
+**Der Ausgangszustand** ✓ (der Auftrag war: **bestätigter** Datenbefund ✓ — der Handler läuft ✓,
+die Seite bietet die Paare unter den alten Bezeichnungen **nicht mehr** an ✓).
 
 ## Der Befund
 
