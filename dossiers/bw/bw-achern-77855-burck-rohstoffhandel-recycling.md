@@ -6,6 +6,8 @@ state: BW
 city: Achern
 street: Schleif 1
 postcode: '77855'
+lat: 48.6355978
+lon: 8.0650929
 phone: +49 7841 6267-20
 email: recycling@buerck-achern.de
 opening_hours: ''
@@ -62,3 +64,7 @@ und Verwertung von Altglas. Offen bleiben der Widerspruch zwischen "Schleif 1" u
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen, Ankreuzfelder mit `scripts/release/pdf_checkboxes.py` gelesen): „1.1 Name: TÜV Rheinland Cert GmbH“, „1.2 Straße: Am Grauen Stein“, Postleitzahl 51105, Ort Köln = Aussteller mit vollständiger Anschrift; „3.1 ...: 01 400 2300779“ = Eintrag; „3.3 Vorgangsnummer ...: ZZET016004334003“ (im Raster verkürzt „ZZET01600433 / 1“); „3.4 Das Zertifikat beinhaltet 1 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 31.03.2027“; „4.1 Name: Bürck Rohstoffhandel & Recycling GmbH“, „4.2 Straße: Schleif 1“, Postleitzahl 77855, Ort Achern; „4.4 ... Registernummer ...: HRB 220273 ... Registergericht: Mannheim“; „6. Prüfungsdatum: 30.09.2025“; „8. Ausstellungsdatum: 06.03.2026“. Die einzige Anlage trägt im Anlagenbogen die Standortbezeichnung „Bürck Rohstoffhandel & Recycling GmbH“ und als Standort „Schleif 1, 77855 Achern“ (Felder 1.1 bis 1.3), also den Dossierstandort; angekreuzt sind dort „2.3 Lagern“, „2.4 Behandeln“ und „2.5 Verwerten“ je mit der Kennnummer nach § 28 NachwV „H294004756“ - zeichenweise wie im Eintrag; die Anlagentechnik lautet „Lagerung, Behandlung und Verwertung von Altglas; Störstoffentfrachtung und farbliche Sortierung von Altglas“.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=B%C3%BCrck%20Rohstoffhandel&p=ZZET01600433&fd=1 (Abruf 06.11.2026)]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **48.6355978/8.0650929**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „Bürck Rohstoffhandel & Recycling GmbH“ ist über die Adresse **Schleif 1, 77855 Achern** adressiert; das OSM-Adressobjekt **w/284772164** trägt `addr:housenumber`=1, `addr:street`=Schleif, `addr:postcode`=77855, `addr:city`=Achern; der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt ist als **„Bürck Kraftwagenspedition GmbH & Co. KG“** geführt - das ist der Dossierbetrieb, die Koordinate ist der **Betriebspunkt**; die Nominatim-Vorwärtssuche nach „Schleif 1, 77855 Achern“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Schleif%201%2C%2077855%20Achern ; https://api.openstreetmap.org/api/0.6/way/284772164.json (Abruf 08.11.2026).]

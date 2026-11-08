@@ -6,6 +6,8 @@ state: NW
 city: Dinslaken
 street: Horststr. 4
 postcode: '46539'
+lat: 51.5566066
+lon: 6.7967943
 phone: '(0208) 6090323'
 email: info@weli-stahl.de
 opening_hours: 'Lager Mo-Do 07:00-16:00, Fr 07:00-14:00 (Büro ab 07:30)'
@@ -59,3 +61,7 @@ nicht ausgewiesen.
 - [Korrektur 06.11.2026: **Aussteller-Anschrift falsch und §-28-NachwV-Kennnummern fehlend.** Das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen) weist die Zertifizierungsorganisation in den Feldern 1.1 bis 1.3 als „ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V.“, „Berliner Allee 57“, Postleitzahl 40212, Ort Düsseldorf aus; der Eintrag nannte abweichend „ESN Entsorgergemeinschaft der Deutschen Stahl- und NE-Metall-Recycling-Wirtschaft e.V., Berlin“. Ergänzt wurden die im Anlagenbogen genannten Kennnummern nach § 28 NachwV „E119840404“ für Sammeln und Befördern sowie „E119145980“ für Lagern, Behandeln und Verwerten.
   Unverändert bestätigt sind: „3.1 ...: ESN 01-050320(26)“; „3.3 Vorgangsnummer ...: ZZEE003000654009“ (im Raster verkürzt „ZZEE00300065 / 1“); „3.4 Das Zertifikat beinhaltet 1 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 30.09.2027“; „4.1 Name: Weli-Stahl Handelsgesellschaft mbH“, „4.2 Straße: Horststraße 4“, Postleitzahl 46539, Ort Dinslaken (Hauptsitz); „4.4 ... Registernummer ...: HRB 9781 ... Registergericht: Duisburg“; „6. Prüfungsdatum: 16.04.2026“; „8. Ausstellungsdatum: 16.06.2026“. Standorttreue: der Anlagenbogen weist die einzige Anlage am Standort „Fernewaldstraße 64, 46119 Oberhausen“ aus (Felder 1.2 und 1.3), während der Dossierstandort die laut Zertifikatsfeld 4.2 zertifizierte Hauptsitzanschrift „Horststraße 4, 46539 Dinslaken“ ist; der Eintrag nennt beide Anschriften wörtlich, die offene Standortfrage aus dem Überblick ist damit zugunsten der Oberhausener Anlage beantwortet. Das zweite Element (Betreiber-Download) bleibt unverändert.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=WELI-Stahl&p=ZZEE00300065&fd=1 (Abruf 06.11.2026)]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.5566066/6.7967943**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „WELI-Stahl Handelsgesellschaft mbH“ ist über die Adresse **Horststr. 4, 46539 Dinslaken** adressiert; das OSM-Adressobjekt **w/231640585** trägt `addr:housenumber`=4, `addr:street`=Horststraße, `addr:postcode`=46539, `addr:city`=Dinslaken; der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; die Nominatim-Vorwärtssuche nach „Horststr 4, 46539 Dinslaken“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Horststr%204%2C%2046539%20Dinslaken ; https://api.openstreetmap.org/api/0.6/way/231640585.json (Abruf 08.11.2026).]

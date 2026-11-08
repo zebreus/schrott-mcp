@@ -6,6 +6,8 @@ state: BE
 city: Marzahn-Hellersdorf
 street: Alt-Biesdorf 12
 postcode: '12683'
+lat: 52.5091735
+lon: 13.5500999
 phone: 0800 40 200 50
 email: ''
 opening_hours: Mo-Fr 8:00-18:00, Sa 8:00-14:00
@@ -58,3 +60,7 @@ die denselben Standort und Rechtsträger beschreibt.
 ### Korrektur 07.11.2026 (Preispflege)
 
 - [Korrektur 07.11.2026 (Preispflege): **Ein veralteter Current-Preis an der Live-Seite geprüft — Rückzug (Fremdkörper).** Der Handler läuft (Lauf 07.11.2026 12:09 UTC, 13 Preise übernommen, Status `ok`) und erzeugt den alten Schlüssel heute nicht mehr. Betroffen: `kabel-kupfer` / „mit Stecker" — 1,50 EUR/kg, Stand 29.09.2026. Die Seite https://www.papierfritze.de/kupferpreis/ (Abruf 07.11.2026 13:01 UTC) führt die Sorte als Preiskarte „Kupfer-Kabel mit Stecker" mit der Annahmebedingung „Kabelschrott mit Stecker" und der Preiszelle **„1,50 € / AB 1 KG"** (BAR, ab 1 kg; daneben „1,55 € / AB 200 KG" und „1,60 € / AB 1 TONNE"). Der Betrieb bietet die Sorte also weiterhin mit Preis an — aber der Handler bildet sie seit dem Remap als eigenes Material `kabel-mit-stecker` / „mit Stecker" ab (heute 1,50 EUR/kg, Stand 07.11.2026). Der Schlüssel (kabel-kupfer, „mit Stecker") wird heute nicht mehr erzeugt → **Rückzug** (der Preis bleibt in der Historie). Im Dossier ist keine OSM-/Objekt-ID hinterlegt; an der Preiszelle ändert sich nichts, `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unberührt. Quelle(n): https://www.papierfritze.de/kupferpreis/ (Abruf 07.11.2026 13:01 UTC).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.5091735/13.5500999**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Papierfritze (Schrott-/Altpapierankauf)“ ist über die Adresse **Alt-Biesdorf 12, 12683 Marzahn-Hellersdorf** adressiert; das OSM-Adressobjekt **n/3023450764** trägt `addr:housenumber`=12, `addr:street`=Alt-Biesdorf, `addr:postcode`=12683, `addr:city`=Berlin; der Punkt ist der Objektknoten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; die Nominatim-Vorwärtssuche nach „Alt-Biesdorf 12, 12683 Marzahn-Hellersdorf“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Alt-Biesdorf%2012%2C%2012683%20Marzahn-Hellersdorf ; https://api.openstreetmap.org/api/0.6/node/3023450764.json (Abruf 08.11.2026).]

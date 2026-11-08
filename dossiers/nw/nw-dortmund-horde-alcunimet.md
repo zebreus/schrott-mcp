@@ -6,6 +6,8 @@ state: NW
 city: Dortmund
 street: Feldmark 2
 postcode: '44267'
+lat: 51.4434869
+lon: 7.5338343
 phone: 02304 779252
 email: info@alcunimet.de
 opening_hours: Mo-Fr 08:00-14:00, 14:30-16:30
@@ -51,3 +53,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Korrektur 07.11.2026 (Klammerbalance)
 
 - [Korrektur 07.11.2026 (Klammerbalance): **Der `certifications`-Eintrag war unausgeglichen (zu frueh geschlossene Klammer ✓).** Die oeffnende Klammer vor der Anlagen-Angabe wurde ergaenzt ✓ - der Zitatrahmen umschliesst die Anlagen-Angaben jetzt ✓; kein Wert wurde geaendert ✓. Element 0 des Eintrags `nw-dortmund-horde-alcunimet.md` ✓ hatte eine Bilanz von **-1** ✓ (3 öffnende ✓, 4 schliessende ✓) und ist jetzt ausgeglichen ✓ (4 öffnende ✓, 4 schliessende ✓). Die Klammerbalance ist seit der Welle 06.11.2026 ein Gate (`scripts/release/check_cert_balance.py` ✓); der Eintrag stand so bereits in der Basis `27ef26f8` ✓ und ist damit **Altbestand** ✓, kein Neuzugang dieser Welle ✓.]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **51.4434869/7.5338343**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „AlCuNiMet GmbH“ ist über die Adresse **Feldmark 2, 44267 Dortmund** adressiert; das OSM-Adressobjekt **w/53181655** trägt `addr:housenumber`=2, `addr:street`=Feldmark, `addr:postcode`=44267, `addr:city`=Dortmund; der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; die Nominatim-Vorwärtssuche nach „Feldmark 2, 44267 Dortmund“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Feldmark%202%2C%2044267%20Dortmund ; https://api.openstreetmap.org/api/0.6/way/53181655.json (Abruf 08.11.2026).]

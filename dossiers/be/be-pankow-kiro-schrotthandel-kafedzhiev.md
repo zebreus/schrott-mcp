@@ -6,6 +6,8 @@ state: BE
 city: Pankow
 street: Blankenburger Str. 18-20
 postcode: '13089'
+lat: 52.5725347
+lon: 13.4459775
 phone: 030 92403153
 email: info@schrotthandel-berlin.com
 opening_hours: Mo-Fr 8:00-17:00, Sa 8:30-14:00
@@ -58,3 +60,7 @@ und Sortenseiten liefern wegen unterschiedlicher Cache-Stände abweichende Werte
 ### Korrektur 07.11.2026 (Preispflege)
 
 - [Korrektur 07.11.2026 (Preispflege): **Zwei veraltete Current-Preise an der Live-Seite geprüft — beide Fälle sind Rückzug (Fremdkörper).** Der Handler läuft (Lauf 07.11.2026 02:04 UTC, 37 Preise übernommen, 12 Annahmen, Status `ok`), erzeugt die beiden alten Schlüssel heute aber nicht mehr — die Pipeline zieht Current-Pointer für normale Handler nicht zurück, darum stehen die alten Werte weiterhin als „aktueller Preis" in der Datenbank. Betroffen: `messing` / „Wasseruhren" — 2,40 EUR/kg, Stand 29.09.2026, und `messing` / „Wasseruhren, ab 750 kg" — 2,60 EUR/kg, Stand 29.09.2026. Die Seite https://schrotthandel-berlin.com/schrottpreise/ (Abruf 07.11.2026 13:01 UTC) führt die Sorte in der Übersichtstabelle „Schrottsorte | Preis/kg" als Zeile „Messing Wasseruhren" mit der Preiszelle **„2.40 €/kg (Ab 750 kg: 2.60 €)"**; dieselben Werte stehen in der Preispanelspalte „Messing – Wasseruhren" mit der Preiszelle **„2.40 €/kg"** und der Staffelzelle **„(Ab 750 kg: 2.60 €)"**. Die Sorte wird heute also mit Preis angeboten — aber der Handler führt sie als leichtes Messing: `messing-leicht` / „Wasseruhren" (heute 2,40 EUR/kg, Stand 07.11.2026) und `messing-leicht` / „Wasseruhren, ab 750 kg" (heute 2,60 EUR/kg, Stand 07.11.2026). Die alten Schlüssel (messing, …) werden heute nicht mehr erzeugt → **beide Rückzug** (die Preise bleiben in der Historie). Nebenbefund aus demselben Lauf: das Panel „Messing – Wasseruhren" wird vom Parser als „ohne Preis" übersprungen, der Wert kommt heute über die Übersichtstabelle — der Preis selbst ist durchgängig belegt. Im Dossier ist keine OSM-/Objekt-ID hinterlegt; an der Preiszelle ändert sich nichts, `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unberührt. Quelle(n): https://schrotthandel-berlin.com/schrottpreise/ (Abruf 07.11.2026 13:01 UTC).]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **52.5725347/13.4459775**). Punktgüte: **Betriebspunkt**; der Dossierbetrieb „Kiro Schrotthandel (Kafedzhiev)“ ist über die Adresse **Blankenburger Str. 18-20, 13089 Pankow** adressiert; das OSM-Adressobjekt **n/13971875308** trägt `addr:housenumber`=18-20, `addr:street`=Blankenburger Str.; der Punkt ist der Objektknoten; das Objekt ist als **„Kiro Schrotthandel“** geführt - das ist der Dossierbetrieb, die Koordinate ist der **Betriebspunkt**; es ist ein **Betriebsobjekt** (`amenity`=recycling); die Nominatim-Vorwärtssuche nach „Blankenburger Str 18-20, 13089 Pankow“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Blankenburger%20Str%2018-20%2C%2013089%20Pankow ; https://api.openstreetmap.org/api/0.6/node/13971875308.json (Abruf 08.11.2026).]

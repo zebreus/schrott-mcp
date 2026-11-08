@@ -6,6 +6,8 @@ state: BW
 city: Bad Krozingen
 street: Im Unteren Stollen 12
 postcode: '79189'
+lat: 47.9252297
+lon: 7.7041012
 phone: 07633 150004
 email: info@mvelektronik.de
 opening_hours: Mo-Fr 8:30-11:30 / 13:00-15:30
@@ -46,3 +48,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - [Prüfung 06.11.2026: **Alle geprüften Felder stimmen mit dem Zertifikats-PDF überein.** Geprüft wurde das Zertifikats-PDF des amtlichen Fachbetrieberegisters (Detaildialog der Route „Entsorgungsfachbetriebe“, Abruf 06.11.2026, wörtlich mit `pdftotext -layout` gelesen, Ankreuzfelder mit `scripts/release/pdf_checkboxes.py` gelesen): „1.1 Name: ZN ZertifizierungsNetzwerk GmbH“, „1.2 Straße: Goethestraße 11/5“, Postleitzahl 71131, Ort Jettingen = Aussteller mit vollständiger Anschrift; „3.1 ...: 2026-0258“; „3.3 Vorgangsnummer ...: ZZHT010001570007“ (im Raster verkürzt „ZZHT01000157 / 1“ bis „/ 3“); „3.4 Das Zertifikat beinhaltet 3 Anlage(n).“; „3.7 Das Zertifikat ist gültig bis zum 14.10.2027“; „4.1 Name: MV Elektronik Recycling GmbH“, „4.2 Straße: Im unteren Stollen 12“, Postleitzahl 79189, Ort Bad Krozingen; „4.4 ... Registernummer ...: HRB 310900 ... Registergericht: Freiburg“; „6. Prüfungsdatum: 15.04.2026“; „8. Ausstellungsdatum: 23.09.2026“. Standorttreue: alle drei Anlagen nennen als Standort „Im unteren Stollen 12, 79189 Bad Krozingen“ (Felder 1.2 und 1.3), also den Dossierstandort; angekreuzt sind in Anlage 1 „2.1 Sammeln“, „2.2 Befördern“, „2.7 Handeln“ und „2.8 Makeln“, in Anlage 2 „2.3 Lagern“, „2.5 Verwerten“ und „2.6 Beseitigen“, in Anlage 3 „2.4 Behandeln“, „2.5 Verwerten“ und „2.6 Beseitigen“, je mit der Kennnummer nach § 28 NachwV „H274001041“ - zeichenweise wie im Eintrag. Die Anlagenbogen-Felder 3.1 und das Kopfdaten-Feld 5.1 bestätigen „Erstbehandlungsanlage im Sinne des § 21 ElektroG“ für Anlage 3 (Kopfdaten: „Zur Zertifizierung als Erstbehandlungsanlage im Sinne des § 21 ElektroG siehe Anlage(n) 3“).
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=MV%20Elektronik%20Recycling&p=ZZHT01000157&fd=1 (Abruf 06.11.2026)]
+
+### Recherche 08.11.2026
+
+- [Recherche 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **47.9252297/7.7041012**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „MV Elektronik Recycling“ ist über die Adresse **Im Unteren Stollen 12, 79189 Bad Krozingen** adressiert; das OSM-Adressobjekt **w/118472224** trägt `addr:housenumber`=12, `addr:street`=Im unteren Stollen, `addr:postcode`=79189, `addr:city`=Bad Krozingen; der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; die Nominatim-Vorwärtssuche nach „Im Unteren Stollen 12, 79189 Bad Krozingen“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Im%20Unteren%20Stollen%2012%2C%2079189%20Bad%20Krozingen ; https://api.openstreetmap.org/api/0.6/way/118472224.json (Abruf 08.11.2026).]
