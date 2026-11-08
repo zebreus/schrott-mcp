@@ -19,26 +19,19 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "20cf7fe",
-  "owner_review": "research/wave-e-20261107-0700-owner.md",
+  "dossier_revision": "eadaf8c",
+  "owner_review": "research/wave-e-20261107-1600-owner.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 07.11.2026 07:00)",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 20cf7fe gehoben",
+  "revised_by": "Owner (Welle 16:00 des 07.11.2026)",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases eadaf8c gehoben",
   "rows": [
     {
-      "slug": "he-darmstadt-wixhausen-der-zerseeger-schrotthandel",
+      "slug": "he-darmstadt-nord-hartmann-recycling",
       "fields": [
-        "description",
-        "email",
-        "phone",
-        "postcode",
-        "status",
-        "street",
-        "website",
-        "website_status"
+        "phone"
       ],
-      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-e-20261107-0700-owner.md."
+      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-e-20261107-1600-owner.md."
     }
   ],
   "unchanged_rows": 59
@@ -131,8 +124,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "68ccc6f39612137b9d8b2d36aa0ec5474ee760fc8c4c86759587ce2d9275325a",
-      "seed_hash": "cf4f39319c7dc11b"
+      "notes_sha256": "66ec9770a742de590d19ecac8a5d6ddee69bd95cadb40bd4f35cb66ed9a3493a",
+      "seed_hash": "62b576e7cf719077"
     },
     {
       "slug": "by-neustadt-a-d-aisch-stirling-industrie-metallhandel",
@@ -266,7 +259,7 @@
         "name": "Hartmann Recycling",
         "street": "",
         "postcode": "",
-        "phone": "01578 6795832",
+        "phone": "",
         "email": "",
         "opening_hours": "",
         "description": "",
@@ -275,8 +268,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "127b9039d33c622b100a54bc7c2e84fbc92bb8f63d214de4c87b9b6dc334b9d0",
-      "seed_hash": "8ef70de3e75a0f29"
+      "notes_sha256": "2c43374a116e511eb5a6ddb6d8ae304273f7ac4a4d6e71bfe2da8d42fea7101d",
+      "seed_hash": "3c1c5d19a3126544"
     },
     {
       "slug": "he-darmstadt-wixhausen-der-zerseeger-schrotthandel",
@@ -365,8 +358,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "7cf94e242672153aeb6685bc0c0fa511df2a5274a3f4c0032ef778f1672afd3d",
-      "seed_hash": "2e1719f2aee52965"
+      "notes_sha256": "08ce5e86507d4820f7cf127edd4df9763afbe9c410e65fe351b791d8d3503ad8",
+      "seed_hash": "259df6d1037dc09c"
     },
     {
       "slug": "he-langenselbold-63505-levy-schrott-metall",
@@ -455,8 +448,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "d86b3c1a1a57855f8b58bc440f55822846df25b00ba7a703e080cb3cb5c264f2",
-      "seed_hash": "d0d7fca6ec7a8388"
+      "notes_sha256": "b18d662a7a985796ab3c7095b7177e5ef20332f7883219e36c879feb579ddb7b",
+      "seed_hash": "185cd9f4130b8156"
     },
     {
       "slug": "hh-allermohe-van-der-meulen-edelmetaal-b-v",
@@ -689,8 +682,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "957d6093a1fbf1329d42ec394e6d4a187841068802cd98b2e546510d37190e87",
-      "seed_hash": "6a9ee34861d257a4"
+      "notes_sha256": "e3b8b1bf2256caad367ba1b569c7d0a1de87b9f4b59416399ac718a2b5666e48",
+      "seed_hash": "9536cb3b7d9161bf"
     },
     {
       "slug": "nw-gutersloh-bartsch",
@@ -707,8 +700,8 @@
         "website": "https://bartsch-entsorgung.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "40d047a9a20d0410d5caece7928a77d1364b9870eface3902ebe1e3dbf157867",
-      "seed_hash": "d65e321dc739f76d"
+      "notes_sha256": "9cebaddf8940bc487d35535b1ecf12f5f9ef17062aaa1025ade6bbe28b18e4f8",
+      "seed_hash": "6a1ddc5244d21ce6"
     },
     {
       "slug": "nw-koln-chorweiler-altmetalle-reinhard",
@@ -869,8 +862,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "dc3e01b828a6372e28aa50de00074b4742bee6597ad9fd0066e79247fe5604ef",
-      "seed_hash": "c9d84feaaf0c3d55"
+      "notes_sha256": "702d4f5fca6aeb706be3556bf3c5279993ccdc07570e6ac4c881622713f65d6d",
+      "seed_hash": "539f7710c1986270"
     },
     {
       "slug": "rp-worms-67549-kampfer",
@@ -941,8 +934,8 @@
         "website": "https://schrott-roesler.de",
         "website_status": "aktiv"
       },
-      "notes_sha256": "cf187db529568a445a421c65819dc0ea724296ca7fb1c0f80899bfc49986d4b4",
-      "seed_hash": "0f6065a3f39b0a34"
+      "notes_sha256": "2339a42fad129501ac590c6da53d5b16cd98e0a1c1c536ebca43d92138d77ff4",
+      "seed_hash": "36d97fef38bf8d17"
     },
     {
       "slug": "sn-kirchberg-08107-containerdienst-kaminski-sohn",
