@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Pinnt das Gate `verify-pending-corrections.py` auf einen Release.
 
-Das Gate prüft sechs Händlerzeilen (MSG-Tiers, Nordwest-Korrekturen, Gotha,
+Das Gate prüft sieben Händlerzeilen (MSG-Tiers, Nordwest-Korrekturen, Gotha,
 Schrott24) gegen den **Seed-Stand eines konkreten Releases**: Es erwartet für
 jede Zeile den `seed_hash` und den Hash der gesetzten Notizen. Nach einem
 Release, der Dossiers dieser Zeilen verändert hat, ist der alte Pin rot,
@@ -34,14 +34,16 @@ GATE = ROOT / "scripts" / "verify-pending-corrections.py"
 
 
 def gate_slugs() -> list:
-    """Die vom Gate geprüften Slugs (CLEARS + GOTHA) aus dem Gate-Quelltext."""
+    """Die vom Gate geprueften Slugs (CLEARS + GOTHA + PORTAL) aus dem Gate-Quelltext."""
     text = GATE.read_text(encoding="utf-8")
     clears = re.search(r"^CLEARS = \{(.*?)^\}", text, re.S | re.M)
     gotha = re.search(r'^GOTHA = "([^"]+)"', text, re.M)
-    if not clears or not gotha:
-        raise SystemExit("CLEARS/GOTHA im Gate nicht gefunden")
+    portal = re.search(r'^PORTAL = "([^"]+)"', text, re.M)
+    if not clears or not gotha or not portal:
+        raise SystemExit("CLEARS/GOTHA/PORTAL im Gate nicht gefunden")
     slugs = re.findall(r'"([a-z0-9-]+)"\s*:', clears.group(1))
     slugs.append(gotha.group(1))
+    slugs.append(portal.group(1))
     return slugs
 
 

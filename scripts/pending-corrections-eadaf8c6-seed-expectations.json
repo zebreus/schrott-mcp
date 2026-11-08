@@ -26,6 +26,10 @@
     "th-gotha-sdm-gutzmann": {
       "seed_hash": "5381628546c6bd59",
       "notes_sha256": "a0a1eabd54a2b762eef5933c5bc5dda6a3e7b35849889aff7e7fc9d210939f1c"
+    },
+    "nw-nrw-weit-schrott24-metaloop-online-portal": {
+      "seed_hash": "c824932b4ba607af",
+      "notes_sha256": "609c6702cb07fd6253a4a2c6d03ea37dbcc6743fa3dff5808cc64a75b1c73c65"
     }
   }
 }

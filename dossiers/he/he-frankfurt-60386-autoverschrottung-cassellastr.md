@@ -61,8 +61,7 @@ Generischer Autoverschrottungslead in Frankfurt-Fechenheim, ohne identifizierten
 - [Recherche 07.11.2026: **Die Anschrift ist adressgenau erfasst, die Identität bleibt ein Aggregator-Lead —
   und die Auflösung des Nummerkonflikts 01520 4045656 ist amtlich gestützt: sie gehört zu A. Lahib in
   Herford, einem im Register **nicht** erfassten Einzelbetrieb.** Das OSM-Adressobjekt **way/48466503**
-  trägt `addr:street=Cassellastraße`, `addr:housenumber=31`, `addr:postcode=60386`, `addr:city=Frankfurt am
-  Main`, `addr:suburb=Fechenheim`, `addr:neighbourhood=Fechenheim-Nord`, `addr:country=DE`, `place=house`
+  trägt `addr:street=Cassellastraße`, `addr:housenumber=31`, `addr:postcode=60386`, `addr:city=Frankfurt am Main`, `addr:suburb=Fechenheim`, `addr:neighbourhood=Fechenheim-Nord`, `addr:country=DE`, `place=house`
   (live geprüft am 07.11.2026; 50.1310137/8.7592828) — die Anschrift existiert also adressgenau; das Objekt
   trägt **weder `name` noch `operator`** und ordnet den Betrieb **nicht** zu. **Registerprüfung** (live am
   07.11.2026): im gesamten hessischen Handelsregister gibt es **keinen** Eintrag „A. Lahib“; die drei

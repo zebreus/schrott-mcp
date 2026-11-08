@@ -30,11 +30,11 @@ CLEARS = {
 }
 PORTAL = "nw-nrw-weit-schrott24-metaloop-online-portal"
 SEED_EXPECTATIONS = Path(__file__).with_name(
-    "pending-corrections-6b3da663-seed-expectations.json"
+    "pending-corrections-eadaf8c6-seed-expectations.json"
 )
-SEED_RELEASE_COMMIT = "6b3da663f845d7527e284b8b075f3467935e5cd9"
-SEED_RELEASE_TREE = "324d206f1391ad9e18e4c126896414de1f59d097"
-SEED_REHEARSAL_MANIFEST_SHA256 = "6ad33e7983a19f7fd480c965decdc99a9be30442c4998827fc4f89e30cf1f8d2"
+SEED_RELEASE_COMMIT = "eadaf8c6d42d3881965a6118408f3d98b4edde8b"
+SEED_RELEASE_TREE = "2335aa5cd4c2ac736762e4eb436260de5cd7b44f"
+SEED_REHEARSAL_MANIFEST_SHA256 = "fe8d826bbb2a05182a8d94457fe589fa3ccca415c6d4d509ddc776c93cc43f61"
 
 
 def connect(path):
@@ -46,7 +46,7 @@ def connect(path):
 
 def load_seed_expectations():
     expectations = json.loads(SEED_EXPECTATIONS.read_text())
-    expected_slugs = set(CLEARS) | {GOTHA}
+    expected_slugs = set(CLEARS) | {GOTHA, PORTAL}
     if not isinstance(expectations, dict):
         raise ValueError("seed expectation manifest must be an object")
     rows = expectations.get("traders")
@@ -108,9 +108,20 @@ def verify(public, internal, since, seed_expectations=None):
             if not notes_hash_matches:
                 failures.append(f"{slug}: reviewed release seed notes mismatch")
     portal = public.execute("SELECT * FROM traders WHERE slug=?", (PORTAL,)).fetchone()
-    if portal is None or not fresh(portal["updated_at"]):
-        failures.append("Schrott24: missing post-rollout trader")
-    if portal is not None:
+    if portal is None:
+        failures.append("Schrott24: missing trader")
+    else:
+        # Die Zeile wird nur dann neu geschrieben, wenn sich ihr Dossier
+        # aendert. Der Seed ueberspringt unveraenderte Zeilen bewusst, damit
+        # `updated_at` meaningful bleibt - eine Frische-Bedingung waere hier
+        # also kein Nachweis des Releases, sondern nur ein Zufall des
+        # Datums. Der Nachweis ist der Seed-Stand des Releases: `seed_hash`
+        # und der Hash der gesetzten Notizen.
+        seed_hash_matches, notes_hash_matches = has_release_seed_state(portal, seed_expectations[PORTAL])
+        if not seed_hash_matches:
+            failures.append("Schrott24: reviewed release seed hash mismatch")
+        if not notes_hash_matches:
+            failures.append("Schrott24: reviewed release seed notes mismatch")
         for field in ("dropoff_json", "pickup_json"):
             try:
                 empty = json.loads(portal[field]) == {}
