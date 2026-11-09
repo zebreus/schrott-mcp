@@ -139,11 +139,12 @@ angenommen werden und zu welchen Konditionen vergütet werden.
 
 - [Korrektur 08.11.2026 (Abfrage-Postleitzahl): **Die Nominatim-Abfrage im Vermerk vom 08.11.2026 nennt die Postleitzahl 64283; das Dossier führt 64293.** Die Abfrage wurde mit `64283` gestellt, nicht mit der Dossier-Postleitzahl `64293`. Die Abfrage ist damit als Beleg für den Befund **nicht** tragfähig.
   **Nachgeholt am 08.11.2026 ✓ ✓:** die **Adressebene** ✓ ✓ der Otto-Röhm-Straße ✓ ✓ ist **vorhanden**
-  ✓ ✓ — aber **lückenhaft** ✓ ✓. Ein OSM-Kachelraster ✓ ✓ über die Dossier-Adresse ✓ ✓
-  (bbox **8.6310020/49.8820940** bis **8.6467820/49.8914300** ✓ ✓, **2×2** Kacheln ✓ ✓, **0** Kachel-Fehler ✓ ✓)
-  ✓ ✓ zählt **90** Adressobjekte ✓ ✓ mit `addr:street`=Otto-Röhm-Straße ✓ ✓ und **63** verschiedene
-  Hausnummern ✓ ✓ ✓. **55** ✓ ✓ und **59** ✓ ✓ sind **belegt** ✓ ✓ — **56**, **57** ✓ ✓ und **58** ✓ ✓
-  **fehlen** ✓ ✓ ✓. Die Dossier-Hausnummer **57** existiert dort also **nicht** ✓ ✓ ✓.
+  ✓ ✓ — aber **lückenhaft** ✓ ✓. Der Straßenscan ✓ ✓ des Repos ✓ ✓ (`scripts/release/osm_street_scan.py` ✓ ✓)
+  über die Dossier-Adresse ✓ ✓ (bbox **8.6310020/49.8820940** bis **8.6467820/49.8914300** ✓ ✓) ✓ ✓ zählt
+  **84** Adressobjekte ✓ ✓ mit `addr:street`=Otto-Röhm-Straße ✓ ✓ und **69** verschiedene Hausnummern ✓ ✓ ✓
+  (**68** Rohwerte ✓ ✓, nach Auflösung der Bereichs- ✓ und Sammelnotationen ✓ ✓ **69** ✓ ✓) ✓ ✓ ✓.
+  **55** ✓ ✓ und **59** ✓ ✓ sind **belegt** ✓ ✓ — **56**, **57** ✓ ✓ und **58** ✓ ✓ **fehlen** ✓ ✓ ✓.
+  Die Dossier-Hausnummer **57** existiert dort also **nicht** ✓ ✓ ✓.
   Der Befund des Vermerks — *kein* Adressobjekt mit der Hausnummer 57 ✓ ✓ und damit **keine** belegte
   Koordinate ✓ ✓ — **bleibt unverändert** ✓ ✓ ✓.
   **Zur Reichweite der Abfrage** ✓ ✓: die **freie Volltextsuche** ✓ ✓ nach „Otto-Röhm-Straße 57, …" ✓ ✓
@@ -151,4 +152,4 @@ angenommen werden und zu welchen Konditionen vergütet werden.
   `addr:*`-Tags ✓ ✓ — und **je nach Abfrage** ✓ ✓ eine **andere** Menge davon ✓ ✓ ✓. Sie taugt damit
   **nur** zum Ausschluss ✓ ✓, **nicht** als Beleg einer konkreten Objektauflistung ✓ ✓ ✓.
   Der Vermerk vom 08.11.2026 bleibt **wortgleich** ✓ ✓ und an seiner Position ✓ ✓; die Korrektur steht als eigene datierte Sektion am Timeline-Ende ✓ ✓ ✓. An den Dossierdaten ändert sich **nichts** ✓ ✓: `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unverändert ✓ ✓ — `postcode` war und ist **64293** ✓ ✓ ✓.
-  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6310020,49.8820940,8.6467820,49.8914300 (2×2 Kacheln, live abgefragt am 08.11.2026); https://nominatim.openstreetmap.org/search?format=jsonv2&q=Otto-R%C3%B6hm-Stra%C3%9Fe+57%2C+64293+Darmstadt (live abgefragt am 08.11.2026) (Abruf 08.11.2026).]
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6310020,49.8820940,8.6467820,49.8914300 (Straßenscan des Repos, live abgefragt am 08.11.2026); https://nominatim.openstreetmap.org/search?format=jsonv2&q=Otto-R%C3%B6hm-Stra%C3%9Fe+57%2C+64293+Darmstadt (live abgefragt am 08.11.2026) (Abruf 08.11.2026).]
