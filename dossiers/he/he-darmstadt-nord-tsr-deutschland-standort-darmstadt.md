@@ -142,7 +142,7 @@ angenommen werden und zu welchen Konditionen vergütet werden.
   ✓ ✓ — aber **lückenhaft** ✓ ✓. Der Straßenscan ✓ ✓ des Repos ✓ ✓ (`scripts/release/osm_street_scan.py` ✓ ✓)
   über die Dossier-Adresse ✓ ✓ (bbox **8.6310020/49.8820940** bis **8.6467820/49.8914300** ✓ ✓) ✓ ✓ zählt
   **84** Adressobjekte ✓ ✓ mit `addr:street`=Otto-Röhm-Straße ✓ ✓ und **69** verschiedene Hausnummern ✓ ✓ ✓
-  (**68** Rohwerte ✓ ✓, nach Auflösung der Bereichs- ✓ und Sammelnotationen ✓ ✓ **69** ✓ ✓) ✓ ✓ ✓.
+  (**63** Rohwerte ✓ ✓, nach Auflösung des einen Bereichswerts **39-45** ✓ ✓ **69** ✓ ✓) ✓ ✓ ✓.
   **55** ✓ ✓ und **59** ✓ ✓ sind **belegt** ✓ ✓ — **56**, **57** ✓ ✓ und **58** ✓ ✓ **fehlen** ✓ ✓ ✓.
   Die Dossier-Hausnummer **57** existiert dort also **nicht** ✓ ✓ ✓.
   Der Befund des Vermerks — *kein* Adressobjekt mit der Hausnummer 57 ✓ ✓ und damit **keine** belegte
@@ -151,5 +151,15 @@ angenommen werden und zu welchen Konditionen vergütet werden.
   liefert **nur Straßenobjekte** ✓ ✓ — die Objekte tragen `name`=Otto-Röhm-Straße ✓ ✓ und **keinerlei**
   `addr:*`-Tags ✓ ✓ — und **je nach Abfrage** ✓ ✓ eine **andere** Menge davon ✓ ✓ ✓. Sie taugt damit
   **nur** zum Ausschluss ✓ ✓, **nicht** als Beleg einer konkreten Objektauflistung ✓ ✓ ✓.
+  **Ebenfalls berichtigt** ✓ ✓: der **Überblick** ✓ ✓ des Dossiers ✓ ✓ nennt für den Raster über den
+  gesamten Straßenverlauf ✓ ✓ die bbox **8.6310020/49.8820940** bis **8.6467820/49.8914300** ✓ ✓, die
+  **Zahlen** ✓ ✓ **90** Objekte ✓ ✓ und **74** Hausnummern ✓ ✓ gehören jedoch zur **weiteren** Suche ✓ ✓
+  (bbox **8.6300000/49.8815000** bis **8.6475000/49.8920000** ✓ ✓) ✓ ✓ — mit derselben Methode ✓ ✓
+  liefert sie **90** Objekte ✓ ✓ und **74** verschiedene Hausnummern ✓ ✓ (**68** Rohwerte ✓ ✓, davon
+  der Bereich **39-45** ✓ ✓) ✓ ✓ ✓. In der Aufzählung des Überblicks ✓ ✓ fehlen die Nummern **39F** ✓ ✓,
+  **39G** ✓ ✓, **39H** ✓ ✓, **39I** ✓ ✓ und **69E** ✓ ✓ ✓ — sie sind in OSM vorhanden ✓ ✓, liegen aber
+  **knapp außerhalb** der weiteren bbox ✓ ✓ ✓. Die **Kernaussage** ✓ ✓ des Überblicks ✓ ✓ bleibt
+  **unberührt** ✓ ✓: **55** ✓ ✓ und **59** ✓ ✓ sind erfasst ✓ ✓, **56** ✓ ✓, **57** ✓ ✓ und **58** ✓ ✓
+  fehlen ✓ ✓ ✓ ✓.
   Der Vermerk vom 08.11.2026 bleibt **wortgleich** ✓ ✓ und an seiner Position ✓ ✓; die Korrektur steht als eigene datierte Sektion am Timeline-Ende ✓ ✓ ✓. An den Dossierdaten ändert sich **nichts** ✓ ✓: `street`/`postcode`/`lat`/`lon`/`certifications`/`status` bleiben unverändert ✓ ✓ — `postcode` war und ist **64293** ✓ ✓ ✓.
-  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6310020,49.8820940,8.6467820,49.8914300 (Straßenscan des Repos, live abgefragt am 08.11.2026); https://nominatim.openstreetmap.org/search?format=jsonv2&q=Otto-R%C3%B6hm-Stra%C3%9Fe+57%2C+64293+Darmstadt (live abgefragt am 08.11.2026) (Abruf 08.11.2026).]
+  Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.6310020,49.8820940,8.6467820,49.8914300 (Straßenscan des Repos, live abgefragt am 09.11.2026); https://nominatim.openstreetmap.org/search?format=jsonv2&q=Otto-R%C3%B6hm-Stra%C3%9Fe+57%2C+64293+Darmstadt (live abgefragt am 08.11.2026) (Abruf 09.11.2026).]
