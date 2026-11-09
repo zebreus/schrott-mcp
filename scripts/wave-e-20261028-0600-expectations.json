@@ -19,27 +19,23 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "f7c962d",
-  "owner_review": "research/wave-20261108-1800-report.md",
+  "dossier_revision": "a88a34e",
+  "owner_review": "research/wave-20261109-0000b-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 08.11.2026, 18:00)",
-  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases f7c962d gehoben",
+  "revised_by": "Owner (Welle 09.11.2026, 00:00)",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases a88a34e gehoben",
   "rows": [
     {
-      "slug": "he-spangenberg-34286-heinrich-kleinschmidt-rohprod",
+      "slug": "he-dietzenbach-stalcant-schrotthandler",
       "fields": [
-        "description"
+        "postcode",
+        "street"
       ],
-      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261108-1800-report.md."
-    },
-    {
-      "slug": "hb-stuhr-thomas-seidel-schrotthandel",
-      "fields": [],
-      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261108-1800-report.md."
+      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261109-0000b-report.md."
     }
   ],
-  "unchanged_rows": 58
+  "unchanged_rows": 59
 },
   "traders": [
     {
@@ -201,8 +197,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "f078284c8ccf178baca11cc8ae262021c4e3d6298b54b31b1ae9c9ed945a6015",
-      "seed_hash": "c5fce1bf8efa1404"
+      "notes_sha256": "183bf77b0c6abc169689019ac84d97f22ed0fcae43f320a64b27d655476a811e",
+      "seed_hash": "00301e3ea9a356c5"
     },
     {
       "slug": "hb-stuhr-thomas-seidel-schrotthandel",
@@ -298,8 +294,8 @@
       "slug": "he-dietzenbach-stalcant-schrotthandler",
       "values": {
         "name": "STALCANT Schrotthändler",
-        "street": "",
-        "postcode": "",
+        "street": "Robert-Koch-Str. 9",
+        "postcode": "63128",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -309,8 +305,8 @@
         "website": "https://stalcant-schrotthaendler.de",
         "website_status": "aktiv"
       },
-      "notes_sha256": "bcd35267262aedd52bd99daa1e6cbbeaafb6c4f31041614101c040f45813d197",
-      "seed_hash": "69f398713fd0b9e2"
+      "notes_sha256": "7a467eb604fd576508c57a37a879b6b9cb9bd0138b9c2e3cbce89f4f74b12e6f",
+      "seed_hash": "fb9d05ee954b8b5b"
     },
     {
       "slug": "he-eschborn-65760-pfaff-alexander",
@@ -507,8 +503,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "73e33aa55956215c282ad5067c0c1434bd538374434ac5b5fea2e8ac52ea44d5",
-      "seed_hash": "ffdaabf6ade7a41d"
+      "notes_sha256": "27e684f7e369656b913bff7cbfcfc49a5990d65a98400ad2c0e2fc413f6d4c4b",
+      "seed_hash": "91376c5057a73cce"
     },
     {
       "slug": "mv-demmin-oetjen-rohstoffhandel",
@@ -561,8 +557,8 @@
         "website": "https://autoverschrottung-hildesheim.de",
         "website_status": "aktiv"
       },
-      "notes_sha256": "618c700ab9fbefe559e73989bfe67c3a32eb0ffdd30a558db65401fee6bd9d36",
-      "seed_hash": "7cd1facb0ae6cd46"
+      "notes_sha256": "0e8cc26924ee2ec0cc694df5540698ffe2e13de634eb0b85d33b43c91d19b71b",
+      "seed_hash": "3cfa272f0e70744f"
     },
     {
       "slug": "ni-langwedel-auto-recycling-pankowski",
@@ -669,8 +665,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "4a982f344d050d243f0055fc10eccb0cb35b0c7a6abb6db0023082439eee8bce",
-      "seed_hash": "591c41a5a6bceba8"
+      "notes_sha256": "4797e7372a0de223639fcb767c9a89d61ecdb93b4fab832aba0411fb776aaa02",
+      "seed_hash": "b2b5012448ae1aad"
     },
     {
       "slug": "nw-gummersbach-mar-schrottabholung",
