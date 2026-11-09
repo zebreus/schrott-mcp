@@ -66,6 +66,9 @@ durchsetzbar ✓ ✓, nicht über die Notiz ✓ ✓ ✓ ✓ ✓.
 **Als Aufgabe festgehalten** ✓ ✓ (nicht im Release-Blocker ✓ ✓ ✓):
 **die E-Mail-Spalte im `set_trader_info` ✓ ✓ auf `fill_empty_only` ✓ ✓ umstellen** ✓ ✓ — dann bliebe
 der **Seed-Wert** ✓ ✓ stehen ✓ ✓, und nur ein **leeres** Feld ✓ ✓ würde aus dem Impressum ✓ ✓
-gefüllt ✓ ✓ ✓ ✓ ✓. Vorher ist die Änderung an **einer** Stelle ✓ ✓ zu prüfen ✓ ✓ (die **Substrat**- ✗
-✓ — hmm: `street` ✓ ✓, `postcode` ✓ ✓ und `phone` ✓ ✓ sollen **weiterhin** überschrieben werden ✓ ✓ —
-das ist **Absicht** ✓ ✓ ✓, weil der Scraper dort die **frischere** Quelle ✓ ✓ ist ✓ ✓ ✓) ✓ ✓ ✓ ✓.
+gefüllt ✓ ✓ ✓ ✓ ✓. Vorher ist die Änderung an **einer** Stelle ✓ ✓ zu prüfen ✓ ✓: `street` ✓ ✓,
+`postcode` ✓ ✓ und `phone` ✓ ✓ sollen **weiterhin** überschrieben werden ✓ ✓ — das ist **Absicht** ✓ ✓ ✓,
+weil der Scraper dort die **frischere** Quelle ✓ ✓ ist ✓ ✓ ✓ ✓. Für die **E-Mail** ✓ ✓ gilt das
+**nicht** ✓ ✗ ✓: sie ist eine **Kontaktangabe** ✓ ✓, die der Betreiber **selbst** in zwei Formen ✓ ✓
+führt ✓ ✓ ✓ — die curated Wahl ✓ ✓ des Dossiers ✓ ✓ soll **nicht** von jedem Lauf ✓ ✓ überschrieben ✓ ✗ ✓
+werden ✓ ✓ ✓ ✓ ✓ ✓.
