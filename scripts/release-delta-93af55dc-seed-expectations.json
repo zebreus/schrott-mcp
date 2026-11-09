@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "release_commit": "93af55dcd243bf9491c58e45fc01f8c5b03ae643",
+  "release_tree": "c15f29236d95ae25aabbb1e074a4420ca6f0f595",
+  "rehearsal_manifest_sha256": "2f97b41a0e723cc0587b9be3171446c85123fde10da8c67e7a16faa6fd391bd5",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "he-darmstadt-nord-tsr-deutschland-standort-darmstadt"
+  ],
+  "scope": "exactly the 1 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-93af55dc. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "he-darmstadt-nord-tsr-deutschland-standort-darmstadt",
+      "values": {
+        "name": "TSR Deutschland – Standort Darmstadt",
+        "city": "Darmstadt-Nord",
+        "street": "Otto-Röhm-Straße 57",
+        "postcode": "64293",
+        "phone": "0615198040",
+        "email": "",
+        "opening_hours": "Mo-Fr 07:00-12:00, 12:30-15:30",
+        "description": "Standort der TSR Deutschland GmbH & Co. KG (TSR-Gruppe, HRA 19743 AG Dortmund) in der Otto-Röhm-Straße 57, 64293 Darmstadt. Angeboten werden Metallrecycling, Kabelrecycling und Demontage; in OSM als Recycling-Betrieb mit name=TSR Recycling und operator=TSR Recycling GmbH & CO. KG erfasst. Betreiberseite vollständig durch eine Bot-Challenge geschützt.",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "https://www.tsr-recycling.de",
+        "website_status": "blockiert"
+      },
+      "notes_sha256": "229630b0c5225d6bb99224c3823e984415050747bb9f42315fb10e0866ad14c3",
+      "seed_hash": "6f77da62c052d97a",
+      "geo": [
+        49.8902241,
+        8.6432886
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (EdDE Entsorgergemeinschaft der Deutschen Entsorgungswirtschaft e.V., Von-der-Wettern-Str. 25, 51149 Köln; Zertifikatsnummer 0686 (8. jährliche Überprüfung), Vorgangsnummer ZZEE002001626013, 19 Anlagen gesamt, Prüfungsdatum 13.07.2026, Ausstellungsdatum 24.08.2026, gültig bis zum 12.01.2028; Standort TSR Deutschland GmbH & Co. KG, Region Südwest II, Niederlassung Darmstadt, Otto-Röhm-Straße 57, 64293 Darmstadt, Konzern-Hauptsitz Brunnenstraße 138, 44536 Lünen, HRA 19743 Registergericht Dortmund; dem Dossierstandort zugeordnet sind ausschließlich die Anlagen 17-19: Anlage 17 Sammeln und Befördern (Kennnummer nach § 28 NachwV E978T03206), Anlage 18 Lagern (Kennnummer F12B000107), Anlage 19 Behandeln (Kennnummer F12B000107), jeweils Standort Otto-Röhm-Straße 57, 64293 Darmstadt)\"]"
+    }
+  ]
+}
