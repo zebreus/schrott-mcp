@@ -29,8 +29,8 @@ pub const IMPRESSUM_URL: &str = "https://mkm-metals.de/impressum";
 
 /// Operator's eight purchase tables; sales/fees are not quotes.
 pub const URL: &str = "https://mkm-metals.de/metallpreise";
-const STYLESHEET_HREF: &str = "/assets/css/gesamt.min.css?v=1792876014";
-const STYLESHEET_URL: &str = "https://mkm-metals.de/assets/css/gesamt.min.css?v=1792876014";
+const STYLESHEET_HREF: &str = "/assets/css/gesamt.min.css?v=1794325622";
+const STYLESHEET_URL: &str = "https://mkm-metals.de/assets/css/gesamt.min.css?v=1794325622";
 const STYLESHEET_SHA256: &str = "cf1b76e3cdadbf9e9fa1a6654ce50f87f7aebe049570fed47110ccf09b0adc47";
 
 pub fn handler() -> Handler {
