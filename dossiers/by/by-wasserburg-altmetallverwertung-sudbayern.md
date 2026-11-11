@@ -4,17 +4,18 @@ name: Altmetallverwertung Südbayern GmbH & Co. KG
 trader_type: schrotthaendler
 state: BY
 city: Wasserburg
-street: ''
-postcode: ''
+street: Am Burgfrieden 1
+postcode: '83512'
 phone: '08071 9226-170'
 email: 'info@avs24.com'
 opening_hours: ''
 website: 'https://www.avs24.com'
 website_status: aktiv
-status: unbekannt
-description: 'Betreiberwebsite der KG beschreibt Schrott- und Altmetallankauf sowie drei Annahmeplätze außerhalb der Geschäftsanschrift Am Burgfrieden; konkrete Kundenannahme dort nicht bestätigt.'
+status: aktiv
+description: 'Betreiberwebsite und amtliches EfbV-Zertifikat (DEKRA, Vorgangsnummer ZZHT002000148008) belegen die Altmetallverwertung Südbayern GmbH & Co. KG, HRA 10261 AG Traunstein, Geschäftsanschrift Am Burgfrieden 1, 83512 Wasserburg am Inn; zertifiziert sind Handeln und Makeln. Kundenannahme erfolgt an den Annahmeplätzen Schilchau, Wasserwiesen und Kiefersfelden, nicht am Geschäftssitz.'
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (DEKRA Automobil GmbH, Handwerkstraße 15, 70565 Stuttgart; Zertifikatsnummer 15052018/1946/551010722, Vorgangsnummer ZZHT002000148008, Prüfungsdatum 19.05.2025, Ausstellungsdatum 13.07.2025, gültig bis 18.11.2026; 1 Anlage: Standort Hauptsitz Wasserburg am Inn, Am Burgfrieden 1, 83512 Wasserburg am Inn; zertifizierte Tätigkeiten laut Anlagenbogen Felder 2.7 Handeln und 2.8 Makeln, Kennnummer nach § 28 NachwV I187H00017, Sammeln, Befördern, Lagern, Behandeln, Verwerten und Beseitigen sind nicht angekreuzt und damit nicht zertifiziert; Entsorgungsfachbetrieb Altmetallverwertung Südbayern GmbH & Co. KG, HRA 10261 Amtsgericht Traunstein; Zertifikat-PDF vom Betreiber auf avs24.com/downloads veröffentlicht, Abruf 11.11.2026)"]'
 provenance_section: 'Neu: nur Verzeichnis-Beleg (unklar, keine prüfbare Website)'
 provenance_ankauf_raw: ''
 provenance_origin: table
@@ -65,3 +66,7 @@ Die Altmetallverwertung Südbayern GmbH & Co. KG ist als Rechtsträgerin (HRA 10
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Northdata-Leads HRA 10261 / HRB 19546 AG Traunstein (Wasserburg-Bezug, Aggregator-Lead, zweite Quelle fehlt → kein Fill); keine Betreiber-Website verifiziert; Klärfall bleibt unbekannt; Quelle(n): Northdata HRA 10261 + HRB 19546 Traunstein (Lead, unsicher)]
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Zertifizierung, Geschäftsanschrift und Aktivität der KG sind jetzt amtlich belegt.** Der Betreiber veröffentlicht auf der Downloadseite das amtliche EfbV-Zertifikat der DEKRA Automobil GmbH (Handwerkstraße 15, 70565 Stuttgart), Zertifikatsnummer **15052018/1946/551010722**, Vorgangsnummer **ZZHT002000148008**, Prüfungsdatum 19.05.2025, Ausstellungsdatum 13.07.2025, **gültig bis 18.11.2026**, mit **1 Anlage**: Standort Hauptsitz Wasserburg am Inn, Am Burgfrieden 1, 83512 Wasserburg am Inn, Rechtsträger Altmetallverwertung Südbayern GmbH & Co. KG, HRA 10261 Amtsgericht Traunstein. Die Auswertung des Anlagenbogens mit scripts/release/pdf_checkboxes.py ergibt **gekreuzt** für die Felder 2.7 Handeln und 2.8 Makeln (Kennnummer nach § 28 NachwV I187H00017); die Felder 2.1 Sammeln, 2.2 Befördern, 2.3 Lagern, 2.4 Behandeln, 2.5 Verwerten und 2.6 Beseitigen sind **nicht** angekreuzt und damit **nicht** zertifiziert. Das amtliche Fachbetrieberegister bestätigt denselben Vorgang: Eintrag "Altmetallverwertung Südbayern GmbH & Co. KG Hauptsitz Wasserburg am Inn", Am Burgfrieden 1, 83512 Wasserburg am Inn, Vorgangsnummer ZZHT00200014, Tätigkeiten Handeln und Makeln; die Namenssuche Altmetallverwertung liefert genau diesen einen Treffer, die Namenssuche Zosseder 10 Efb-Treffer (darunter Simon Zosseder GmbH und Zosseder GmbH Abbruch und Entsorgung, je Spielberg 1, 83549 Eiselfing) und 1 AltfahrzeugV-Treffer (Zosseder GmbH Wertstoff und Sondermüll, Spielberg 1) - **andere Rechtsträger**, nicht übernommen. Die 3-km-Abfrage um Am Burgfrieden 1 liefert 3 Efb-Treffer, darunter die KG selbst in 0,2 km, sowie 1 AltfahrzeugV-Treffer (Zosseder GmbH Wertstoff und Sondermüll in 1,8 km); um die Annahmeplätze Schilchau 20, 83549 Eiselfing und Wasserwiesen 1a, 83064 Raubling liegen jeweils 0 Efb-Treffer der KG. `certifications` wurde um das Zertifikat ergänzt, `street` auf Am Burgfrieden 1 und `postcode` auf 83512 gesetzt und `status` von unbekannt auf aktiv geändert; die `description` wurde um Zertifikat, zertifizierte Tätigkeiten und die Trennung von Geschäftsanschrift und Annahmeplätzen ergänzt. **Ankauf:** die Betreiberseite bewirbt den Ankauf in bares Geld zu "derzeitig geltenden Preis" und "aktuellen Schrottpreisen für Kupfer und Hartmetall", nennt aber **keine** bezifferten Kurse; **Verkauf:** keine Verkaufspreisliste; **Gebühren:** Container- und Logistiklösungen werden angeboten, veröffentlichte Tarife fehlen. Die Annahmeplätze bleiben ohne vollständige Straßenadressen, das Geschäftsgebäude ist laut Zosseder-Anfahrtseite eine Verwaltung mit Salzhallen, deshalb bleibt die Kundenannahme am Burgfrieden unbelegt und es wird keine Koordinate gesetzt. Offen: vollständige Anschriften der drei Annahmeplätze, die Öffnungszeiten je Platz und die Anlieferung in Wasserburg selbst. Quelle(n): https://www.avs24.com/wp-content/uploads/2025/08/AVS-DEKRA_EFB-Zertifikat-2025.pdf ; https://www.avs24.com/impressum/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Altmetallverwertung ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Am%20Burgfrieden%201%2C%2083512%20Wasserburg%20am%20Inn%2C%20Deutschland%3B12.2237626%3B48.0440282%3B12.2640722%3B48.0709775%3B12.1834530%3B48.0170789&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Am%20Burgfrieden%201%2C%2083512%20Wasserburg%20am%20Inn%2C%20Deutschland%3B12.2237626%3B48.0440282%3B12.2640722%3B48.0709775%3B12.1834530%3B48.0170789&dst=3&is=1&e=1 (Abruf 11.11.2026).]

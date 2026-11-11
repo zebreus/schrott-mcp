@@ -1,11 +1,13 @@
 ---
 slug: by-weilheim-schrott-franz
-name: Schrott Franz
+name: Franz Schrott KG
 trader_type: schrotthaendler
 state: BY
 city: Weilheim
 street: Lienhartstr. 13
-postcode: ''
+postcode: '82362'
+lat: '47.8335137'
+lon: '11.1504243'
 phone: ''
 email: ''
 opening_hours: ''
@@ -46,3 +48,7 @@ provenance_origin: table
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: miss — nur Aggregator-Leads; Franz Schrott KG-Hinweis deutet auf Tischlerei, kein Schrott-Betreiberbeleg; Statusfeld unveraendert; Quelle(n): Aggregator-Leads]
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Das amtliche Handelsregister belegt Rechtsform, Registernummer und Registerstand des Seed-Namens.** Die Suche im amtlichen Firmenverzeichnis findet "Franz Schrott KG", Amtsgericht München, **HRA 83419**, Anschrift **Lienhartstr. 13, 82362 Weilheim**, Eintragung seit 22.01.2004, Registerstatus **gelöscht**; zum gelöschten Registerblatt nennt der kostenfreie Auszug keinen Unternehmensgegenstand. Der Namens- und Anschriftenzusammenhang zum Seed ist zweifach belegt: 11880 führt "Franz Schrott KG Schreinermeister Bauelemente" an Lienhartstr. 13 mit derselben Telefonnummer 0881 9253766, die Das Örtliche und Gelbe Seiten für "Schrott Franz" an derselben Anschrift nennen; die Namensfolge Schrott Franz entspricht Franz Schrott. `name` wurde daher auf Franz Schrott KG gesetzt und `postcode` auf 82362 ergänzt. Die bisherige `street` Lienhartstr. 13 bleibt unverändert. **Rechtsform und Registerlage ändern die Branche nicht:** die Portalkategorien Baubedarf, Bauelemente und Schreinermeister stehen der Zusatznennung Altmaterialhandel und Schrotthandel gegenüber, ein Schrottankauf ist nicht belegt, und eine gelöschte Registerlage ohne Gegenstandsnachweis ist für sich genommen kein Beleg für einen Schrottbetrieb, deshalb bleibt `status` pruefung. OSM trägt das Adressobjekt way 361169271 mit addr:housenumber=13, addr:street=Lienhartstraße, addr:postcode=82362 und addr:city Weilheim in Oberbayern; `lat` 47.8335137 und `lon` 11.1504243 sind dessen Koordinaten, von Nominatim für "Lienhartstraße 13, 82362 Weilheim in Oberbayern" identisch zurückgegeben. Der Registerbefund vom 02.11.2026 (kein Efb- und kein AltfahrzeugV-Eintrag) bleibt unberührt. **Ankauf:** keine Kurse; **Verkauf:** keine Preisliste, Bauelemente wären keine Schrott-Verkaufspreise; **Gebühren:** keine Tarife. Offen: ob die KG unter anderer Rechtsform weiterarbeitet und ob Schrott Franz und die KG dieselbe Person sind. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/by/Muenchen/HRA/83419/Franz-Schrott-KG ; https://www.11880.com/branchenbuch/weilheim-in-oberbayern/130730536B41979105/franz-schrott-kg-schreinermeister-bauelemente.html ; https://www.openstreetmap.org/way/361169271 ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=de&q=Lienhartstra%C3%9Fe+13%2C+82362+Weilheim (Abruf 11.11.2026).]
