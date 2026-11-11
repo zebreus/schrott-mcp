@@ -19,20 +19,17 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "a88a34e",
-  "owner_review": "research/wave-20261109-0000b-report.md",
+  "dossier_revision": "cafee15",
+  "owner_review": "research/wave-20261111-0000-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 09.11.2026, 00:00)",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases a88a34e gehoben",
+  "revised_by": "Owner (Welle 11.11.2026, 00:00)",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases cafee15 gehoben",
   "rows": [
     {
-      "slug": "he-dietzenbach-stalcant-schrotthandler",
-      "fields": [
-        "postcode",
-        "street"
-      ],
-      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261109-0000b-report.md."
+      "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
+      "fields": [],
+      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261111-0000-report.md."
     }
   ],
   "unchanged_rows": 59
@@ -611,8 +608,8 @@
         "website": "https://www.schrotthaendler-plus.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "bf5514df2edacf220371b1b975913b041e37b29b03395b7b0a28f7d9823d3284",
-      "seed_hash": "71b0a7fea162bac8"
+      "notes_sha256": "91707f1ff69e19cdb08a2531f56e716be078b8de6398359de6857bd14cfd0abd",
+      "seed_hash": "ec49f984c4e02eca"
     },
     {
       "slug": "nw-essen-cbr-bracke",
