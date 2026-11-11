@@ -7,13 +7,14 @@ state: NW
 city: Erftstadt
 street: ''
 postcode: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (Originalzertifikat des amtlichen Fachbetrieberegisters, abgerufen am 11.11.2026 über die Permalink-Route der Route Entsorgungsfachbetriebe): Richard Liesegang GmbH & Co KG, Hauptsitz Kirchstraße 3, 50354 Hürth, Registernummer HRA 18515, Registergericht Köln; Zertifikatsnummer 592/Z1866/Efb der ZER-QMS Zertifizierungsstelle GmbH, Köln; Vorgangsnummer ZZET017001397008; gültig bis 26.04.2027; Prüfungsdatum 27.10.2025, Ausstellungsdatum 03.11.2025; das Zertifikat umfasst 4 Anlagen, alle mit Standortbezeichnung Richard Liesegang GmbH & Co KG, Kirchstraße 3, 50354 Hürth: Anlage 1 kreuzt Sammeln und Befördern an (Kennnummer nach § 28 NachwV E362819308), Anlage 2 kreuzt Behandeln, Verwerten und Beseitigen an (E362A50160), Anlage 3 kreuzt Verwerten an (E362A50160), Anlage 4 kreuzt Handeln und Makeln an (E362M00916); ein Standort in Erftstadt ist in keiner Anlage ausgewiesen, die Verzeichnisanschrift Seestr. 2 C, 50374 Erftstadt-Liblar ist damit nicht zertifiziert", "Altfahrzeugverwertung: kein Eintrag im amtlichen Fachbetrieberegister für Richard Liesegang GmbH & Co KG (Namenssuche und Standortabfrage mit 3 km um Seestraße 2, 50374 Erftstadt, Abfrage 11.11.2026)"]'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Betreiber: Richard Liesegang GmbH & Co. KG, HRA 18515 Amtsgericht Köln, Sitz Kirchstraße 3, 50354 Hürth-Knapsack; Leistungen Abbruch, Demontage sowie Entsorgung und Schrottvermarktung aus Bauprojekten. Der Betrieb ist nach § 56 KrWG als Entsorgungsfachbetrieb zertifiziert (Zertifikat 592/Z1866/Efb, Vorgangsnummer ZZET017001397008, gültig bis 26.04.2027), alle vier Anlagen des Zertifikats betreffen jedoch den Standort Hürth. Eine Erftstädter Niederlassung an der Verzeichnisanschrift Seestr. 2 C ist weder im Zertifikat noch im amtlichen Register belegt. ANKAUF: nicht belegt. VERKAUF: nicht belegt. GEBÜHREN: keine Pauschaltarife, Leistungen sind projekt- und angebotsbezogen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -176,3 +177,16 @@ Der Erftstädter Lead „Richard Liesegang GmbH & Co. KG“, Seestr. 2 C, 50374 
   https://www.11880.com/branchenbuch/erftstadt/060440090B27108543/richard-liesegang-gmbh-co-kg.html ;
   https://www.northdata.de/Richard%20Liesegang%20GmbH%20%26%20Co%C2%B7%20KG,%20H%C3%BCrth/Amtsgericht%20K%C3%B6ln%20HRA%2018515
   (im Dossier zitiert, Abruf 05.11.2026).]
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Der Betreiber ist amtlich als Entsorgungsfachbetrieb zertifiziert - das Originalzertifikat ist geladen und feldweise gelesen; zertifiziert ist der Standort Hürth, nicht Erftstadt.** Die Namenssuche im amtlichen Fachbetrieberegister nach "Liesegang" in der Route Entsorgungsfachbetriebe liefert **4 Treffer**, sämtlich **Richard Liesegang GmbH & Co KG, Kirchstraße 3, 50354 Hürth**, Vorgangsnummer ZZET01700139: / 1 Sammeln und Befördern, / 2 Behandeln, / 3 Verwerten, / 4 Handeln und Makeln; die Namenssuche in der Route Altfahrzeugverwertung liefert **0 Treffer**. Über die Permalink-Route (…&p=ZZET01700139&fd=1) wurde das **Originalzertifikat ZZET017001397008** als PDF geladen und mit scripts/release/pdf_checkboxes.py feldweise gelesen: Zertifikatsnummer **592/Z1866/Efb** der **ZER-QMS Zertifizierungsstelle GmbH, Köln**, Gültigkeit bis **26.04.2027**, Prüfungsdatum 27.10.2025, Ausstellungsdatum 03.11.2025, **4 Anlagen**, Hauptsitz Richard Liesegang GmbH & Co KG, Kirchstraße 3, 50354 Hürth, **HRA 18515, Registergericht Köln**. Die Ankreuzfelder der vier Anlagenbögen ergeben: **Anlage 1** Sammeln und Befördern (Kennnummer E362819308), **Anlage 2** Behandeln, Verwerten und Beseitigen (E362A50160), **Anlage 3** Verwerten (E362A50160), **Anlage 4** Handeln und Makeln (E362M00916); **alle vier Anlagen nennen denselben Standort Kirchstraße 3, 50354 Hürth**, ein Standort in Erftstadt ist **nicht** ausgewiesen. Die Standortabfrage mit **3 km** um Seestraße 2, 50374 Erftstadt liefert **6 Efb-Treffer** (RETERRA Service GmbH Klärschlammvermarktung Erftstadt 1,0 km, ReFood GmbH & Co. KG Niederlassung Erftstadt 1,8 km, RWE Power AG Kraftwerksreststoffdeponie Vereinigte Ville 2,0 km, RETERRA Service GmbH Kompostwerk Erftstadt 2,3 km, REMONDIS Industrie Service GmbH NL Knapsack 2,4 km) sowie **0 Altfahrzeug-Treffer**; **kein** Treffer nennt eine Erftstädter Liesegang-Anlage. Die Erftstädter Verzeichnisanschrift **Seestr. 2 C** bleibt damit ein Verzeichnislead ohne Zertifikats- oder Registerdeckung. `certifications` ist mit dem Zertifikatsinhalt **ergänzt**, `description` entsprechend **präzisiert**; `street`, `postcode`, `phone`, `email`, `website` und `website_status` bleiben unverändert, `clear_fields: 'geo'` bleibt unverändert, `status` bleibt **pruefung**, und es wird weder Fortbestand noch Schließung behauptet. **ANKAUF:** keine öffentlichen Ankaufskurse; das Register enthält keine Preise. **VERKAUF:** keine Materialpreisliste. **GEBÜHREN:** keine Pauschaltarife, die Leistungen sind projekt- und angebotsbezogen.
+  Quelle(n):
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Liesegang ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Liesegang ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Seestra%C3%9Fe%202%2C%2050374%20Erftstadt%2C%20Deutschland%2C%20Deutschland%3B6.8214909%3B50.8199005%3B6.8641484%3B50.8468498%3B6.7788334%3B50.7929512&dst=3&is=1&e=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Seestra%C3%9Fe%202%2C%2050374%20Erftstadt%2C%20Deutschland%2C%20Deutschland%3B6.8214909%3B50.8199005%3B6.8641484%3B50.8468498%3B6.7788334%3B50.7929512&dst=3&is=1&e=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Liesegang&p=ZZET01700139&fd=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/VAADIN/dynamic/resource/0/471aba38-dcf0-43a3-90bc-1b5e28eccde6/ZZET017001398.pdf ;
+  https://www.rl-liesegang.de/de/impressum/ ;
+  https://www.rl-liesegang.de/de/kontakt/ (Abruf 11.11.2026).]

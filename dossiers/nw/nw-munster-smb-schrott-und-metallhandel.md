@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: tot
 status: pruefung
-description: ''
+description: 'SMB Schrott und Metallhandel, Coermühle 12, 48157 Münster, Telefon 0251 271168. Herkunft ist bislang ein Branchenbuch-Profil ohne Betreiber- oder Registerbeleg; das im Profil genannte Betreiberportal schrottentsorgungmuenster.de hat keinen DNS-Eintrag. Das Portal weist dem Betrieb Zertifikate nach § 56 KrWG und § 7 AltfahrzeugV sowie ISO 14001 und ISO 9001 zu; im amtlichen Fachbetrieberegister ist für SMB an der Coermühle 12 weder ein Efb- noch ein Altfahrzeug-Eintrag vorhanden, diese Zuschreibungen bleiben unbestätigt. ANKAUF: keine belegten Kurse. VERKAUF: keine Liste belegt. GEBÜHREN: keine Gebührenordnung belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
@@ -57,3 +57,16 @@ Zusätzlicher Verwechslungsschutz: An der **Coermühle 4a** tritt laut eigenem I
 
 - Coermühle 12, nur schrottradar-Profil
 - urspr. Website-Angabe: keine gefunden (smb-muenster.de tot)
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Die Zertifikatsangaben des Branchenbuchs sind amtlich nicht bestätigt, und das dort genannte Betreiberportal hat keinen DNS-Eintrag.** Das Profil "SMB Schrott und Metallhandel" auf schrottplatzmetall.de (live am 11.11.2026) nennt Coermühle 12, 48157 Nord Münster, die Telefonnummer 49251271168, die E-Mail-Adresse info@schrottentsorgungmuenster.de und die Website **http://schrottentsorgungmuenster.de/**; dieses Portal ist am 11.11.2026 **nicht mehr auflösbar** (DNS-Fehler "Name or service not known"), die im Dossier bereits als tot geführte Domain smb-muenster.de bleibt ebenso tot. Dasselbe Portal listet unter "Lizenzen" für den Betrieb einen Entsorgungsfachbetrieb nach § 56 KrWG, eine Altautoentsorgung bzw. einen Demontagebetrieb nach § 7 AltfahrzeugV sowie DIN EN ISO 14001:2015 und DIN EN ISO 9001:2008 und nennt als Arbeitszeiten Mo-Fr 08:00-16:00 Uhr bei samstags geschlossen; **diese Zertifikatszuschreibungen sind amtlich nicht belegt.** Amtliches Fachbetrieberegister (Ergebnisgrid vollständig durchscrollt): die Namenssuche "SMB Schrott" und die Namenssuche "SMB Schrott und Metallhandel" liefern in der Route Entsorgungsfachbetriebe jeweils **0 Treffer**, in der Route Altfahrzeugverwertung ebenfalls **0 Treffer**; die Standortabfrage mit **3 km** um Coermühle 12, 48157 Münster liefert **12 Efb-Treffer**, sämtlich **Abfallwirtschaftsbetriebe Münster** (Zum Heidehof 52, 80, 81, 82 und 83, 1,8 km bis 2,5 km, ZZEE00200150 / 4 bis / 24) sowie **0 Altfahrzeug-Treffer**; **kein** Treffer nennt SMB oder die Coermühle 12. Die amtliche Namenssuche online-handelsregister.de nach "SMB Schrott Münster" (live am 11.11.2026) liefert **keine Unternehmen und keine Personen**. **Reichweite:** die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt, und die Portalzuschreibung ist **kein** Zertifikatsbeleg. `certifications` bleibt deshalb **leer**, `street`, `postcode`, `phone`, `website` und `website_status` bleiben unverändert, `status` bleibt **pruefung**, und es wird weder Fortbestand noch Schließung behauptet. **ANKAUF:** keine belegten Kurse. **VERKAUF:** keine Liste belegt. **GEBÜHREN:** keine Gebührenordnung belegt; die im Dossier abgegrenzten Anbieter SRM (Kesslerweg 37) und A-Z Recycling (Coermühle 4a) sind fremde Betriebe und werden **nicht** übernommen.
+  Quelle(n): https://schrottplatzmetall.de/smb-schrott-und-metallhandel-munster/ ;
+  http://schrottentsorgungmuenster.de/ (DNS-Fehler am 11.11.2026) ;
+  https://www.online-handelsregister.de/suche/SMB+Schrott+M%C3%BCnster ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=SMB%20Schrott ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=SMB%20Schrott ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=SMB%20Schrott%20und%20Metallhandel ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=SMB%20Schrott%20und%20Metallhandel ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Coerm%C3%BChle%2012%2C%2048157%20M%C3%BCnster%2C%20Deutschland%2C%20Deutschland%3B7.6173198%3B52.0061943%3B7.6610988%3B52.0331436%3B7.5735408%3B51.9792450&dst=3&is=1&e=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Coerm%C3%BChle%2012%2C%2048157%20M%C3%BCnster%2C%20Deutschland%2C%20Deutschland%3B7.6173198%3B52.0061943%3B7.6610988%3B52.0331436%3B7.5735408%3B51.9792450&dst=3&is=1&e=1 (Abruf 11.11.2026).]

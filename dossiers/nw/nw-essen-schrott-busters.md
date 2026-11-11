@@ -6,15 +6,15 @@ name: Schrott Busters
 trader_type: schrotthaendler
 state: NW
 city: Essen
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+street: 'Fischweiher 26'
+postcode: '45307'
+phone: '0177 6105096'
+email: 'kontakt@schrott-busters.de'
+opening_hours: 'Mo-Fr 08:00-19:00, Sa 09:00-15:00'
+website: 'https://schrott-busters.de/'
+website_status: 'aktiv'
 status: pruefung
-description: ''
+description: 'Schrott Busters, Inhaber Oliver Wojke, Fischweiher 26, 45307 Essen. Mobiler Schrotthandel für Privat und Industrie: kostenlose Abholung von Schrott, Buntmetallen und Elektroschrott, Ankauf und Verkauf von Elektronikschrott, Brenn- und Demontagearbeiten sowie Haus- und Geschäftsauflösungen in ganz NRW. Eine Efb- oder AltfahrzeugV-Anerkennung ist im amtlichen Fachbetrieberegister nicht eingetragen; öffentliche Ankaufkurse werden nicht veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)
@@ -66,3 +66,14 @@ Betreiberwebsite identifiziert sich als Schrott Busters Oliver Wojke, Fischweihe
   Konflikt abgewiesen (`clear_fields conflicts with populated geo`).
   Quelle(n): https://api.openstreetmap.org/api/0.6/way/100180825/full.json ; https://schrott-busters.de/kontakt/impressum/ ;
   https://www.11880.com/branchenbuch/essen-ruhr/060440092B112411338/schrott-busters-oliver-wojke.html (Abruf 03.11.2026).]
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Der Betreiberauftritt ist jetzt zweifach belegt, die bisher zurückgenommenen Kontakt- und Anschriftfelder sind damit belegbar, und eine echte Preisseite existiert - sie nennt aber keine Zahlen.** Das Impressum der Betreiberseite (live am 11.11.2026, HTTP 200) nennt unverändert "Schrott Busters Oliver Wojke, Fischweiher 26, D - 45307 Essen", die Telefonnummer 0177 6105096, die E-Mail-Adresse kontakt@schrott-busters.de und die Steuernummer 111/5329/3605; das Impressum gilt ausdrücklich für vier Domains (schrott-busters.de, schrottbusters.de, schrott-buster.de, schrottbuster.de) sowie für die Schrott-Busters-Seiten auf Facebook und Google+. Der unabhängige 11880-Eintrag "Schrott Busters Oliver Wojke" wurde am 11.11.2026 live vollständig gelesen und führt dieselbe Anschrift **Fischweiher 26, 45307 Essen**, dieselbe Telefonnummer **0177 6105096** und die Öffnungszeiten **Mo-Fr 08:00-19:00, Sa 09:00-15:00** bei einem Eintragsstand von **10.11.2026**; damit sind `street`, `postcode`, `phone`, `email`, `website` und `website_status` **ergänzt**, die Öffnungszeiten stammen allein aus diesem Verzeichnisstand und sind entsprechend gekennzeichnet. Die im Dossier bereits gesetzte Koordinate 51.4660509/7.0729867 (way/100180825) bleibt unverändert und passt zu dieser Anschrift. **Preise:** die Betreiberseite hat eine eigene Preisseite (https://schrott-busters.de/schrottpreise-essen/, datiert 26. März 2024); sie nennt ausschließlich eine "faire Schrottpreis"-Zusage, eine laufende Information über die aktuellen Preise für Metalle, Kupfer, Eisen, Stahl und NE-Metalle und eine kostenlose Beratung, aber **keinen einzigen €/kg-Wert**. **ANKAUF:** kein bezifferter Kurs; die kostenfreie Schrott- und Buntmetallabholung ist eine Selbstangabe und **kein** €/kg-Kurs. **VERKAUF:** Ankauf und Verkauf von Elektronikschrott werden angeboten, eine Verkaufspreisliste existiert **nicht**. **GEBÜHREN:** keine Tarifordnung; die Bewerbung "kostenlose Schrottabholung" deckt weder Demontage noch Entrümpelung ab. Amtliches Fachbetrieberegister (Ergebnisgrid vollständig durchscrollt): die Namenssuche "Wojke" liefert in der Route Entsorgungsfachbetriebe **0 Treffer**, in der Route Altfahrzeugverwertung ebenfalls **0 Treffer**; die Standortabfrage mit **3 km** um Fischweiher 26 liefert **11 Efb-Treffer** (Schönmackers Umweltdienste GmbH & Co. KG Betrieb Essen 0,5 km, Mill Container- und Entsorgungsdienst GmbH 1,8 km, CarboTech Production GmbH und CarboTech AC GmbH 2,6 km) sowie **0 Altfahrzeug-Treffer**; **kein** Treffer nennt Schrott Busters oder Wojke. **Reichweite:** die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt. `description` ist **ergänzt**; `status` bleibt **pruefung**, da die Rechtsform (Einzelunternehmer) und eine öffentliche Annahmehof-Bestätigung offen bleiben, und es wird weder Fortbestand noch Schließung behauptet.
+  Quelle(n): https://schrott-busters.de/kontakt/impressum/ ;
+  https://schrott-busters.de/schrottpreise-essen/ ;
+  https://www.11880.com/branchenbuch/essen-ruhr/060440092B112411338/schrott-busters-oliver-wojke.html ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wojke ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wojke ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Fischweiher%2026%2C%2045307%20Essen%2C%20Deutschland%2C%20Deutschland%3B7.0729867%3B51.4660509%3B7.1162456%3B51.4930002%3B7.0297278%3B51.4391016&dst=3&is=1&e=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Fischweiher%2026%2C%2045307%20Essen%2C%20Deutschland%2C%20Deutschland%3B7.0729867%3B51.4660509%3B7.1162456%3B51.4930002%3B7.0297278%3B51.4391016&dst=3&is=1&e=1 (Abruf 11.11.2026).]

@@ -6,11 +6,11 @@ name: Schrottladys
 trader_type: schrotthaendler
 state: NW
 city: Essen
-street: ''
-postcode: ''
-phone: ''
+street: 'Am Luftschacht 17'
+postcode: '45307'
+phone: '0178 1565192'
 email: ''
-opening_hours: ''
+opening_hours: 'Mo-Fr 08:00-18:00, Sa 08:00-14:00'
 website: ''
 website_status: unbekannt
 status: pruefung
@@ -82,3 +82,15 @@ Neue Betreiber-Social-Spuren: Facebook dieschrottladys und Instagram schrottlady
   http://web.archive.org/web/20220523210655/https://www.monikaschrottabholung.de/impressum ;
   https://www.11880.com/branchenbuch/essen-ruhr/062393133B101892935/die-schrottladys-schrotthandel-schrottentsorgung.html
   (Abruf 03.11.2026).]
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Der Verzeichniseintrag ist auf einen neuen Datenstand vom 11.09.2026 gekommen und deckt sich in Anschrift und Rufnummer mit dem archivierten Betreiber-Impressum - die Anschriftentscheidung ist damit belegbar.** Der am 11.11.2026 live vollständig gelesene 11880-Eintrag "Die Schrottladys, Schrotthandel, Schrottentsorgung" führt die Anschrift **Am Luftschacht 17, 45307 Essen**, die Telefonnummer **0178 1565192** und die Öffnungszeiten **Mo-Fr 08:00-18:00, Sa 08:00-14:00**; der Eintragsstand ist **11.09.2026**, die Aktualisierung erfolgte am **10.11.2026**. Das deckt sich mit den archivierten Betreiber-Impressen von monikaschrottabholung.de vom 11.05.2021 und 23.05.2022, die Inhaberin **Monika Kosiol**, **Am Luftschacht 17, 45307 Essen**, Telefon **0178 1565192** und Steuernummer 111/5158/2306 nennen. Zwei unabhängige Quellen stützen damit Anschrift und Rufnummer, weshalb `street`, `postcode`, `phone` und `opening_hours` **ergänzt** sind; die im Dossier bereits gesetzte Koordinate 51.4602183/7.0661715 (way/106321185, addr:housenumber 17, addr:street Am Luftschacht) bleibt unverändert und passt dazu. **Offen bleibt der Betriebsstatus:** `dieschrottladys.de` hat keinen A-Record und `monikaschrottabholung.de` antwortet mit HTTP 404, deshalb bleiben `website` und `website_status` **unbekannt** und `status` bleibt **pruefung**; es wird weder Fortbestand noch Schließung behauptet. Amtliches Fachbetrieberegister (Ergebnisgrid vollständig durchscrollt): die Namenssuche "Schrottladys" liefert in der Route Entsorgungsfachbetriebe **0 Treffer**, in der Route Altfahrzeugverwertung ebenfalls **0 Treffer**, die Namenssuche "Kosiol" ebenfalls **0 Treffer**; die Standortabfrage mit **3 km** um Am Luftschacht 17 liefert **11 Efb-Treffer** (Schönmackers Umweltdienste GmbH & Co. KG Betrieb Essen 1,2 km, Mill Container- und Entsorgungsdienst GmbH 1,8 km, CarboTech Production GmbH und CarboTech AC GmbH 2,1 km) sowie **0 Altfahrzeug-Treffer**; **kein** Treffer nennt Schrottladys oder Kosiol. **Reichweite:** die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass der Betrieb keine Anerkennung besitzt. **ANKAUF:** keine verifizierten Kurse; die Höchstpreiswerbung aus dem Suchindex ist kein Kurs. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarifordnung belegt.
+  Quelle(n): https://www.11880.com/branchenbuch/essen-ruhr/062393133B101892935/die-schrottladys-schrotthandel-schrottentsorgung.html ;
+  http://web.archive.org/web/20210511203008/https://monikaschrottabholung.de/impressum ;
+  http://web.archive.org/web/20220523210655/https://www.monikaschrottabholung.de/impressum ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrottladys ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrottladys ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Kosiol ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Am%20Luftschacht%2017%2C%2045307%20Essen%2C%20Deutschland%2C%20Deutschland%3B7.0661715%3B51.4602183%3B7.1094248%3B51.4871676%3B7.0229182%3B51.4332690&dst=3&is=1&e=1 ;
+  https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Am%20Luftschacht%2017%2C%2045307%20Essen%2C%20Deutschland%2C%20Deutschland%3B7.0661715%3B51.4602183%3B7.1094248%3B51.4871676%3B7.0229182%3B51.4332690&dst=3&is=1&e=1 (Abruf 11.11.2026).]
