@@ -1,0 +1,13 @@
+[Unit]
+Description=Schrott-MCP hourly owner check-in timer
+
+[Timer]
+# Stuendlich (Minute 17). Die Minute weicht bewusst von :00 ab: die
+# 6h-Welle feuert per Cron um :00, 06:00, 12:00 und 18:00. Ein
+# Check-in um :00 wuerde in dieselbe Session laufen und sich hinter der
+# Welle einreihen.
+OnCalendar=*-*-* *:17:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

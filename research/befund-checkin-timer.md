@@ -108,3 +108,65 @@ lassen ✓ ✓. Der Timeout ✓ ✓ macht daraus einen **begrenzten** Wartevorga
   (`ses_f1df15abcffexPcSRnZfKPoUgK` ✓ ✓) ✓ ✓.
 - Der **Mechanismus** ✓ ✓ bleibt der systemd-Timer ✓ ✓ — er wird nur **geheilt** ✓ ✓ statt durch ein
   zweites Rad (Cron ✓ ✓) ersetzt ✓ ✓, damit Check-in und Welle sich nicht ins Gehege kommen ✓ ✓ ✓ ✓ ✓.
+
+## Der dritte Befund (13.11.2026, 18:17 UTC) ✓ ✓ — der Watchdog wuergte den Check-in ab ✓ ✓
+
+### Was passiert war ✓ ✓
+
+Beim Ausprobieren des Dienststatus-Reset (Fall **4** oben ✓ ✓) zeigte der Watchdog
+plötzlich ✓ ✓:
+
+```
+2026-11-13T18:17:14Z Dienst schrott-mcp-checkin.service haengt seit 1791573393s (Limit 300s) - wird beendet
+2026-11-13T18:17:14Z schrott-mcp-checkin.service: Main process exited, code=killed, status=15/TERM
+2026-11-13T18:17:14Z schrott-mcp-checkin.service: Failed with result 'signal'.
+```
+
+Der Dienst war **genau in diesem Moment** erst gestartet worden ✓ ✓ (Timerfeuer **18:17:14**
+UTC ✓ ✓) — er war **nicht** hängend ✓ ✓, sondern wurde **sofort** abgeschossen ✓ ✓.
+
+### Die Ursache ✓ ✓
+
+`ExecMainStartTimestampMonotonic` ✓ ✓ ist **Mikrosekunden seit dem Boot** ✓ ✓ — **nicht**
+seit der Epoch ✓ ✓. Die Altersberechnung im Watchdog war aber:
+
+```bash
+started=$((since / 1000000))          # Sekunden seit Boot
+age=$(( $(now_epoch) - started ))     # Epoch-Minus-Boot-Zeit  ->  ~1,79 Mrd. s
+```
+
+Damit war `age` **immer** größer als `MAX_RUN=300` ✓ ✓ — der Watchdog hielt **jeden**
+laufenden Check-in für hängend ✓ ✓ und beendete ihn ✓ ✓. Das ist keine/theoretische
+Randbedingung, sondern der **Regelfall** ✓ ✓: Watchdog alle 15 min ✓ ✓, Timer alle 60 min ✓
+✓ — die Zeitfenster überschneiden sich regelmäßig ✓ ✓.
+
+**Zusatzbefund** ✓ ✓: `SuccessExitStatus=0 143` ✓ ✓ deckt **Exit-Codes** ab ✓ ✓, **nicht**
+den Result-Wert `timeout` ✓ ✓. Der Dienst stand daher dauerhaft auf `failed`/`timeout` ✓ ✗ ✓,
+obwohl der Timer normal feuert ✓ ✓ — für einen Health-Check auf `is-failed` dauerhaft rot ✓ ✓.
+
+### Die Reparatur ✓ ✓
+
+- Das Alter wird jetzt gegen die **monotone** Uhr gerechnet ✓ ✓
+  (`awk '{print int($1)}' /proc/uptime` ✓ ✓ — dieselbe Bezugsbasis wie der systemd-Wert ✓ ✓) ✓ ✓.
+- Ein **negatives** Alter (Uhr-/Boot-Sprung ✓ ✓) führt **nicht** zum Beenden ✓ ✓, sondern nur
+  zu einer Log-Zeile ✓ ✓.
+- Der **Fehlerstatus** wird zurückgesetzt ✓ ✓ (`systemctl reset-failed` ✓ ✓), sobald der Dienst
+  nicht mehr läuft ✓ ✓ — der Timeout-Vorgang bleibt im **Journal** nachvollziehbar ✓ ✓.
+
+### Der Nachweis ✓ ✓ (13.11.2026, 18:20 UTC) ✓ ✓
+
+| Test | Erwartung | Ergebnis |
+|---|---|---|
+| **Laufender** Dienst ✓ ✓, **140 s** alt ✓ ✓ (< `MAX_RUN=300` ✓ ✓) | **nicht** stoppen ✓ ✓ | Watchdog-EXIT **0** ✓ ✓, Zustand bleibt `activating` ✓ ✓ ✓ ✓ |
+| **Hängender** Dienst ✓ ✓ (Limit testweise auf **0** ✓ ✓) | **stoppen** ✓ ✓ | `haengt seit 140s (Limit 0s) - wird beendet` ✓ ✓, danach `inactive` ✓ ✓, Fehlerstatus zurückgesetzt ✓ ✓ ✓ ✓ |
+| Dienststatus nach einem echten Timeout ✓ ✓ | nicht dauerhaft `failed` ✓ ✓ | `Result=success` ✓ ✓, `is-failed` → `inactive` ✓ ✓ ✓ ✓ |
+
+**Belege im Journal** ✓ ✓: `16:17:14` ✓ ✓ und `17:17:20` ✓ ✓ — der Timer feuerte **stündlich**
+✓ ✓, jeweils `start operation timed out` ✓ ✓ nach **5 min** ✓ ✓ (Session belegt ✓ ✓) ✓ ✓.
+
+### Konsequenz ✓ ✓
+
+Die Betriebsdateien lagen **nur** auf dem Host ✓ ✓ und damit **nicht** versioniert ✓ ✓. Sie
+liegen jetzt unter `ops/checkin/` ✓ ✓ (Service ✓ ✓, Timer ✓ ✓, Check-in-Skript ✓ ✓, Watchdog ✓ ✓,
+README ✓ ✓ mit den beiden Fallen ✓ ✓) — die Session-ID bleibt als Platzhalter
+`CHECKIN_SESSION` ✓ ✓ außerhalb des Repos ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓.

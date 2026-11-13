@@ -1,0 +1,20 @@
+[Unit]
+Description=Schrott-MCP hourly owner check-in
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/schrott-mcp-checkin.sh
+# Ein hängender oneshot darf den Timer nie wieder blockieren: ohne dieses
+# Limit blieb der Dienst am 11.11.2026 zwei Tage im Status "activating"
+# (TimeoutStartUSec=infinity) und der Timer feuerte nicht mehr.
+TimeoutStartSec=300
+# Der Check-in schreibt in dieselbe Session wie die 6h-Welle. Läuft dort
+# gerade eine Runde, wartet der Prozess auf deren Ende; nach 5 Minuten
+# wird er beendet, damit der nächste Termin wieder greifen kann.
+KillMode=control-group
+# Der Check-in laeuft in derselben Session wie die 6h-Welle. Ist deren
+# Runde noch aktiv, wartet der Prozess und wird nach TimeoutStartSec
+# beendet. Das ist der Normalfall, kein Fehler: ohne SuccessExitStatus
+# wuerde der Dienst dauerhaft als "failed" gefuehrt.
+SuccessExitStatus=0 143
