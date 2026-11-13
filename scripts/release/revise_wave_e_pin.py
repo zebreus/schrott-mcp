@@ -124,11 +124,21 @@ def main() -> int:
         old = next(r for r in base["traders"] if r["slug"] == slug)["values"]
         changed = [f for f in values if f in old and str(old[f]) != str(values[f])]
         text = patch_values(text, slug, values, changed)
+        if changed:
+            # Der uebliche Fall: die Welle hat Scope-Werte belegt verbessert.
+            reason = (f"Belegt in der {args.revision} verbessert; siehe "
+                      f"{args.owner_review}.")
+        else:
+            # Die Welle hat nur den Notiztext geaendert; die elf Skalare
+            # bleiben unberuehrt. Ein alter, fest verdrahteter Begruendungs-
+            # text ("in der Welle vom 28.10.2026 verbessert") waere hier
+            # sachlich falsch - er behauptete eine Verbesserung der Werte.
+            reason = (f"Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den "
+                      f"Post-Seed-Stand gehoben; siehe {args.owner_review}.")
         rows_meta.append({
             "slug": slug,
             "fields": sorted(changed),
-            "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe "
-                      f"{args.owner_review}.",
+            "reason": reason,
         })
     text = lift_hashes(text, hashes)
     text = replace_metadata(text, {

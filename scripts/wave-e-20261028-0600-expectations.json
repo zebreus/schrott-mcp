@@ -19,20 +19,25 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "cafee15",
-  "owner_review": "research/wave-20261111-0000-report.md",
+  "dossier_revision": "b9df2ce",
+  "owner_review": "research/wave-20261111-1200-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 11.11.2026, 00:00)",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases cafee15 gehoben",
+  "revised_by": "Owner (Welle 11.11.2026, 12:00)",
+  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases b9df2ce gehoben",
   "rows": [
     {
-      "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
+      "slug": "he-langenselbold-63505-levy-schrott-metall",
       "fields": [],
-      "reason": "Belegt in der Welle vom 28.10.2026 (06:00) verbessert; siehe research/wave-20261111-0000-report.md."
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261111-1200-report.md."
+    },
+    {
+      "slug": "nw-koln-reimann",
+      "fields": [],
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261111-1200-report.md."
     }
   ],
-  "unchanged_rows": 59
+  "unchanged_rows": 58
 },
   "traders": [
     {
@@ -374,8 +379,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "5497993830f1a6540eca3c92f30d83a7ac746244d362d0accd6093fa483b710f",
-      "seed_hash": "f4c9d3ae5248ab93"
+      "notes_sha256": "51a47c9f0fd958b8c1e81b3cf43f5c4a75ad9658be5980e9a7219dfb4a82b381",
+      "seed_hash": "d0023580fad59a13"
     },
     {
       "slug": "he-limburg-65549-scheuer",
@@ -752,8 +757,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "93ee4d90b7042839dbb0a57b8dcf7ac6efc58679d5c9eee43fba209f809c3bff",
-      "seed_hash": "8967398795febff4"
+      "notes_sha256": "5f34fc5ff8863f0a53df9576eb9eee588e55de3a9caf6e67428b16c0caa4ebb9",
+      "seed_hash": "3adafbcfbd640355"
     },
     {
       "slug": "nw-lennestadt-l-mulaj",
