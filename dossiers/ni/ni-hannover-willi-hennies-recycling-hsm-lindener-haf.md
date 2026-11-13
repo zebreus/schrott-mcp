@@ -1,18 +1,20 @@
 ---
 slug: ni-hannover-willi-hennies-recycling-hsm-lindener-haf
 name: Hennies Schrott und Metallrecycling GmbH
+lat: 52.3676323
+lon: 9.6926781
 trader_type: schrotthaendler
 state: NI
 city: Hannover
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: Am Lindener Hafen 20/20a
+postcode: '30453'
+phone: 0511-76 38 240
+email: info@hdh-handel.de
 opening_hours: ''
-website: ''
-website_status: unbekannt
+website: https://www.hennies-hsm.de/
+website_status: aktiv
 status: pruefung
-description: ''
+description: 'Betreiberauftritt hennies-hsm.de mit Impressum (Am Lindener Hafen 20/20a, 30453 Hannover, Tel. 0511-76 38 240, info@hdh-handel.de, USt-IdNr. DE115677450, Vertretungsberechtigte Barbara Hennies) und Angabe zur Annahme von Schrott, Metallen und Abfaellen; Seiteninhalt von 2014. Registerstand: Gesellschaft HRB 6847 Hannover seit 09.03.2016 in Liquidation (i. L.), letzter sichtbarer Liquidator-Eintrag 08.12.2025; keine Annahmebestätigung und keine Preise belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Hannover / Region Hannover
@@ -57,3 +59,7 @@ North Data führt die namensgleiche Hennies Schrott und Metallrecycling GmbH (HR
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Aktuellen TSR-Gruppenauftritt und dessen Standortbibliothek gegengeprüft. TSR führt Willi Hennies Recycling GmbH & Co. KG als Hildesheimer Gesellschaft in der TSR-Gruppe und führt Hannover/Lindener Hafen als eigene TSR-Deutschland-Niederlassung. Das bestätigt weiterhin keine Rechts- oder Betreiberverbindung zur eigenständigen Hennies Schrott und Metallrecycling GmbH (HRB 6847), deren Registerspur bereits separat dokumentiert ist; keine Felder geändert. Keine Hennies-HRB-6847 zuordenbaren Kauf-, Verkaufs- oder Gebührenpreise gefunden. Quelle(n): https://www.tsr.eu/standorte ; https://www.tsr-recycling.de/bibliothek ; https://www.northdata.de/Hennies+Schrott+und+Metallrecycling+GmbH,+Hannover/HRB+6847]
+
+### Recherche 13.11.2026
+
+- [Recherche 13.11.2026: **Es gibt eine eigene Betreiber-Website dieser Dossier-Gesellschaft (HRB 6847), sie nennt Anschrift, Telefon, E-Mail und USt-IdNr.; der Inhalt stammt jedoch aus dem Jahr 2014, waehrend das Register die Gesellschaft seit 2016 in Liquidation fuehrt - die Seite belegt die Anschrift, nicht die heutige Annahme.** (1) **Betreiber-Primärquelle live gelesen (13.11.2026):** die Domain **hennies-hsm.de** (Webnode, tatsaechlich ausgeliefert unter hsm-de.webnode.page) ist live und traegt ein vollstaendiges **Impressum**: **„Am Lindener Hafen 20/20a, 30453 Hannover"**, **Telefon 0511-76 38 240**, **Fax 0511-76 38 24 24**, **„Vertretungsberechtigte Geschäftsfuehrer: Barbara Hennies"**, **„Registergericht: Amtsgericht Hannover HRB 6847"**, **„USt- IdNr.: DE115677450"**; die Startseite nennt als Kontakt **info@hdh-handel.de** und die Oeffnungszeiten **Mo-Do 07:00-16:30 Uhr, Fr 07:00-15:30 Uhr, Sa nach Ruecksprache**; die Seite **„Ueber uns"** beschreibt ein **Familienunternehmen mit ueber 50 Jahren Erfahrung in der Recyclingbranche**, das am Firmensitz in Hannover-Linden **saemtliche Schrotte und Metalle, aber auch diverse Abfaelle** annimmt und **zahlreiche Entfallstellen in und um Hannover entsorgt**. Die Unterseiten **„Unser Angebot / Angebot 1"** und **„Hinweise"** sind **Platzhalter ohne Inhalt**, also **keine** Preisliste. **Inhaltsvorbehalt:** die Seite traegt **„(c) 2014"** und ihre letzten Meldungen stammen aus **2014** (25.08.2014 bis 19.08.2014); die Oeffnungszeiten sind deshalb **historische Angaben** und werden **nicht** ins Frontmatter uebernommen, waehrend Anschrift, Telefon, E-Mail und USt-IdNr. aus dem aktuell abrufbaren Impressum stammen. (2) **Abgrenzung:** Dies ist **nicht** die am 30.09.2026 entfernte Website **willi-hennies.de** der Hildesheimer **Willi Hennies Recycling GmbH & Co. KG (HRA 869)**; die hier gefundene Seite nennt selbst **HRB 6847**, also genau die im Dossier gefuehrte Gesellschaft. Die Hildesheimer Gesellschaft wird **nicht** mit dieser Zeile gleichgesetzt und ihre Standorte, Zeiten oder Konditionen werden **nicht** uebertragen. (3) **Registerlage (massgeblich, live):** North Data fuehrt **Hennies Schrott und Metallrecycling GmbH**, Amtsgericht Hannover **HRB 6847**, EUID **DEP2305.HRB6847**, Adresse **Am Lindener Hafen 20/20 A, 30453 Hannover**, Unternehmensgegenstand „Verwaltung und Beteiligung an anderen Unternehmen der Rohstoff-Branche und die Durchfuehrung von Transporten fuer die Recyclingwirtschaft sowie der Handel mit Rohstoffen aller Art", Status **i. L.** (Liquidation seit **09.03.2016**), mit der Eintraegung vom **08.12.2025 „Liquidator: N.N."**; die Namenshistorie fuehrt ueber **H.D.H. Handel und Verwaltungs GmbH** und **H.D.H. Verwaltungs GmbH** zur **Horst-D. Hennies GmbH**; der Insolvenzverfahren-Stand (903 IN 305/15 und 903 IN 770/15) ist dokumentiert. Ein Suchauszug von **openregister.de** nennt **Barbara Hennies** als Liquidatorin - die Impressumsbezeichnung „Geschäftsfuehrerin" ist damit gegenueber dem Register **veraltet**; **massgeblich ist der Registerstand**. Eine Registerloeschung ist nicht belegt, deshalb **kein** Status `geschlossen`. (4) **Frontmatter:** `website` **https://www.hennies-hsm.de/** und `website_status` **aktiv** (die Seite ist live und liefert das Impressum), `street` **Am Lindener Hafen 20/20a**, `postcode` **30453**, `phone` **0511-76 38 240**, `email` **info@hdh-handel.de**, `description` mit Beleglage und Registerstand sowie `lat`/`lon` **52.3676323/9.6926781** (Mittelwert der **6** eindeutigen Knoten des OSM-Adressobjekts way/108685166 mit `addr:housenumber`=20, `addr:street`=Am Lindener Hafen, `addr:postcode`=30453, Objekt-BBox 52.3675547/9.6926203 bis 52.3677106/9.6927887). Der Punkt ist ein **Adressmittelpunkt ohne `name`/`operator`** - die Anschrift ist durch Impressum und Register belegt, eine oeffentliche Kundenannahme ist damit **nicht** belegt. `status` bleibt `pruefung`; `opening_hours` bleibt **leer** (historische Angabe). (5) **Preise getrennt gefuehrt:** **Ankauf** - die Annahme von Schrott und Metallen ist als **Leistung** belegt (Betreiberseite, Inhalt 2014), **keine** Preise, keine Sortenliste und keine Mindestmenge; **Verkauf** - keine Verkaufspreisliste; **Gebuehren** - keine Abhol-, Container- oder Entsorgungstarife; die Entsorgung von Entfallstellen ist eine **Leistungsaussage ohne Tarif**, eine kostenlose Abholung wird **nicht** behauptet. **Offen:** ob an der Anschrift heute noch angenommen wird, der Stand des Liquidations- und Insolvenzverfahrens, die heutigen Oeffnungszeiten sowie jede Preis- und Gebuehrenangabe. Quelle(n): https://hsm-de.webnode.page/impressum ; https://hsm-de.webnode.page/ ; https://hsm-de.webnode.page/uber-uns/ ; https://hsm-de.webnode.page/unser-angebot/angebot-1/ ; https://www.northdata.de/Hennies%20Schrott%20und%20Metallrecycling%20GmbH,%20Hannover/HRB%206847 ; https://api.openstreetmap.org/api/0.6/way/108685166/full.json ; https://www.willi-hennies.de/impressum/ (Abruf 13.11.2026).]

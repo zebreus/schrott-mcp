@@ -4,21 +4,24 @@ name: Kleinblittersdorfer Goldankauf
 trader_type: sonstige
 state: SL
 city: Kleinblittersdorf 66271
-street: ''
-postcode: ''
+street: 'Elsässer Straße 22'
+postcode: '66271'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: Goldankauf-Kandidat an der Elsässer Straße 22 laut Verzeichnis; keine belegte Umbenennung oder Verbindung zum separat gelisteten CH Goldhaus.
+description: 'Verzeichnislead für einen Goldankauf an der Elsässer Straße 22, 66271 Kleinblittersdorf. Die Anschrift ist in OSM als Gebäude erfasst, trägt aber keinen Betriebsnamen; der in OSM benannte Edelmetallhändler „Goldhaus“ liegt auf derselben Straße an einer anderen Stelle und bleibt getrennt. Ein Zusammenhang mit dem historischen Kleinblittersdorfer Goldankauf ist nicht belegt: die zur Identität recherchierte Domain goldankaufschuster.de ist wieder erreichbar und führt ausschließlich den Kirkeler Goldankauf der Inhaberin Frau Schuster, Blieskasteler Str. 6, Kirkel, deren eigene Seite angibt, das Geschäft werde „nur noch im eigenen Haus“ betrieben. Ankaufspreise richten sich nach dem Börsenwert, ohne veröffentlichte Kurse; Verkaufsliste und Gebühren sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) — Kandidatenaudit R1+R2 (21)
   + Seed-Website-Sweep
 provenance_ankauf_raw: unklar
 provenance_origin: table
+lat: '49.1560813'
+lon: '7.0356251'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Elsässer Straße 22, 66271 Kleinblittersdorf (Abruf 13.11.2026; Standortabfrage 3 km um die Dossieradresse in der Route „Entsorgungsfachbetriebe“ 0 Treffer und in der Route „Altfahrzeugverwertung“ 0 Treffer; für einen Goldankauf ist das Fachbetrieberegister ohnehin nicht die zugehörige Registerart, die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig und ein Register-Nichteintrag ist kein Nichtexistenzbeweis)"]'
 ---
 
 # Kleinblittersdorfer Goldankauf
@@ -54,3 +57,7 @@ Ein konkretes Verzeichnisprofil bestätigt den Seed-Lead Kleinblittersdorfer Gol
 
 - Gold/Silber (GS Edelmetallhändler lt. Vorlage; Örtliche listet nur CH Goldhaus, Elsässer Str. 51A — mögl. Umbenennung, vor Ort klären)
 - Adresse: Kleinblittersdorf 66271, Elsässer Str. 22
+
+### Recherche 13.11.2026
+
+- [Recherche 13.11.2026: **Die im Dossier als „Abruffehler“ vermerkte Domain goldankaufschuster.de ist wieder erreichbar und führt ausschließlich den Kirkeler Goldankauf; die Seed-Adresse selbst ist in OSM jetzt adressgenau erfasst.** Die DNS-Prüfung via Google DoH liefert für goldankaufschuster.de den A-Record **217.160.0.154** (frühere Notiz vom 14.10.2026: Abruffehler); der Direktabruf am 13.11.2026 liefert die Seite des **Kirkeler Goldankaufs** mit den Betreiberangaben „Kirkeler Goldankauf“, Telefon 01717887519, E-Mail de-dick@t-online.de, Adresse Blieskasteler Str. 6, 66459 Kirkel, Öffnungszeiten grundsätzlich Mi und Fr 14:00-17:00 nach Terminvereinbarung, „Seit 2012“ und „Barzahlung vor Ort“; die Seite „Über uns“ nennt die **Inhaberin Frau Schuster** und schreibt wörtlich, sie betreibe „außerdem unser Geschäft **nur noch im eigenen Haus**“. Das ist der **gleiche Betreiberauftritt** wie kirkelergoldankauf.de und **kein** Auftritt für die Seed-Adresse in Kleinblittersdorf; die im Dossier vom 18.10.2026 und 20.10.2026 offengelassene Umzugs- oder Nachfolgefrage wird dadurch **nicht** entschieden, die Aussage „nur noch im eigenen Haus“ spricht aber gegen eine heute noch betriebene Zweitstelle in Kleinblittersdorf. **OSM:** Die Seed-Adresse ist jetzt als **way/704003973** mit `addr:street`=Elsässer Straße, `addr:housenumber`=22, `addr:postcode`=66271, `addr:city`=Kleinblittersdorf und `building`=yes erfasst (7 Knoten, Mittelwert 49.1560813 / 7.0356251), allerdings **ohne** `name`- oder `operator`-Tag; das einzige benannte Edelmetallobjekt im Umfeld ist **node/6615940791** „Goldhaus“ (49.1552163 / 7.0356002, `shop`=jewelry) auf derselben Straße, rund 90 m südlich und damit das **getrennte** CH Goldhaus (Elsässer Str. 51A), das nicht zusammengeführt wird. Das amtliche Fachbetrieberegister (clientseitig gerenderte Vaadin-App, per Playwright/Chromium bedient) liefert am 13.11.2026 für die Standortabfrage mit 3 km um „Elsässer Straße 22, 66271 Kleinblittersdorf“ (Nominatim-Koordinaten 7.0355744/49.1560762) in der Route „Entsorgungsfachbetriebe“ **0 Treffer** und in der Route „Altfahrzeugverwertung“ **0 Treffer**; das ist erwartbar, weil für einen Goldankauf das Fachbetrieberegister nicht die zugehörige Registerart ist, und ist **kein** Nichtexistenzbeweis. **ANKAUF:** der Betreiber des Kirkeler Auftritts gibt an, der Preis richte sich „immer an den aktuellen Börsenwerten des jeweiligen Metalls“ - das ist ein **Preismodell ohne veröffentlichte Zahlen**, keine Preisliste; für die Seed-Adresse in Kleinblittersdorf ist kein Ankaufspreis belegt. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Gebührenangaben. **GEO:** der Punkt bezeichnet die adressgenau aufgelöste Seed-Anschrift, nicht einen geprüften Annahme- oder Annahmestandort; der bisherige Ortsmittelpunkt ist damit ersetzt. Reichweite: Efb- und AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis; der historische Pressehinweis aus 2016 (Saarbrücker Zeitung, „Goldankauf Judith Schuster feiert Neueröffnung“) bleibt eine zeitgenössische Spur ohne auswertbaren Volltext und wird nicht als Beleg geführt. Quelle(n): http://goldankaufschuster.de/ ; https://www.kirkelergoldankauf.de/ ; https://www.kirkelergoldankauf.de/ueber-uns/ ; https://dns.google/resolve?name=goldankaufschuster.de&type=A ; https://api.openstreetmap.org/api/0.6/way/704003973/full.json ; https://api.openstreetmap.org/api/0.6/node/6615940791.json ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Els%C3%A4sser%20Stra%C3%9Fe%2022%2C%2066271%20Kleinblittersdorf%2C%20Deutschland%3B7.0355744%3B49.1560762%3B7.0767813%3B49.1830255%3B6.9943675%3B49.1291269&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Els%C3%A4sser%20Stra%C3%9Fe%2022%2C%2066271%20Kleinblittersdorf%2C%20Deutschland%3B7.0355744%3B49.1560762%3B7.0767813%3B49.1830255%3B6.9943675%3B49.1291269&dst=3&is=1&e=1 (Abruf 13.11.2026).]

@@ -48,7 +48,10 @@ def main():
     fundstellen = Counter()
     cert_counts = Counter()
     geo_set = 0
+    geo_set_fields = 0
     geo_cleared = 0
+    geo_cleared_fields = 0
+    geo_clear_fields = 0
     bullets = 0
 
     for rel in files:
@@ -64,9 +67,16 @@ def main():
                 field_changes[k] += 1
                 if k in ("lat", "lon"):
                     if new.get(k):
-                        geo_set += 1
+                        geo_set_fields += 1
                     else:
-                        geo_cleared += 1
+                        geo_cleared_fields += 1
+            if "lat" in changed or "lon" in changed:
+                if new.get("lat"):
+                    geo_set += 1
+                else:
+                    geo_cleared += 1
+            if "clear_fields" in changed and "geo" in new.get("clear_fields", ""):
+                geo_clear_fields += 1
         else:
             without_fm.append(rel)
         for h in re.findall(r"^### (.+)$", new_text, re.M):
@@ -102,7 +112,9 @@ def main():
     print("\nGeaenderte Frontmatter-Felder:")
     for k, v in field_changes.most_common():
         print(f"  {k:16s} {v}")
-    print(f"\nlat/lon gesetzt: {geo_set} | zurueckgenommen (clear): {geo_cleared}")
+    print(f"\nKoordinaten neu gesetzt: {geo_set} Dossiers ({geo_set_fields} Felder)")
+    print(f"per clear_fields zurueckgenommen: {geo_clear_fields} Dossiers")
+    print(f"lat/lon geleert: {geo_cleared} Dossiers ({geo_cleared_fields} Felder)")
     print(f"Neue Notiz-Bullets: {bullets}")
     print(f"Text: +{text_added} / -{text_removed} Zeichen")
     print("\nDatums-Fundstellen in neuen Zeilen:")
