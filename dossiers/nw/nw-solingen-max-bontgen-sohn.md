@@ -5,14 +5,16 @@ trader_type: schrotthaendler
 state: NW
 city: Solingen
 street: Lotsenstr. 12
-postcode: ''
+postcode: '42697'
+lat: 51.165378
+lon: 6.988586
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
-description: ''
+status: geschlossen
+description: 'Max Böntgen & Sohn Inh.: Ilse Böntgen, HRA 19526 AG Wuppertal, Lotsenstr. 12, 42697 Solingen: gelöscht (amtliches Handelsregister, Status gelöscht; NorthData: erloschen, Löschung 20.04.2006). Der Rechtsträger existiert nicht mehr, ein Rechtsnachfolger ist nicht belegt. Der Namensvetter Johann Schütte Inh. Max Böntgen (HRA 110844 AG Düsseldorf) ist ebenfalls gelöscht. Keine aktuellen Ankauf- oder Verkaufsbedingungen belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Bergisches Land (Wuppertal / Solingen / Remscheid)
@@ -46,3 +48,10 @@ Der Import nennt „Max Böntgen & Sohn“ und Lotsenstr. 12 in Solingen. Ein 11
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Schrott/Metallgroßhandel (Lotsenstr. 12)
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Der Rechtsträger des Seed-Eintrags ist gelöscht, die Zeile ist damit `geschlossen`, und Anschrift, Postleitzahl und Koordinate sind zugleich belegt.** (1) Das amtliche Handelsregisterportal führt „Max Böntgen & Sohn Inh.: Ilse Böntgen“, Amtsgericht **Wuppertal**, **HRA 19526**, Status **gelöscht**, Anschrift **Lotsenstr. 12, 42697 Solingen**, Gründung 23.04.1938, OH-Nummer C-20601987 („Ihr Status wird als gelöscht geführt“); der Namensvetter „Johann Schütte Inh. Max Böntgen“ (Amtsgericht Düsseldorf, HRA 110844) ist ebenfalls **gelöscht**. NorthData führt denselben Rechtsträger als „(erloschen)“ mit der Publikation „20.04.2006 Löschung“ und dem Sitz Solingen, damit **zwei** unabhängige Quellen für die Auflösung. `status` wurde deshalb auf **geschlossen** gesetzt; das betrifft den **Rechtsträger**, **nicht** die Fläche am Lotsenstraße 12, und ein Rechtsnachfolger ist **nicht** belegt.
+  (2) `postcode` wurde auf **42697** gesetzt, belegt durch das amtliche Register („Lotsenstr. 12, 42697 Solingen“) und das OSM-Adressobjekt **way/229681355** (`addr:housenumber`=12, `addr:street`=Lotsenstraße, `addr:postcode`=42697, `addr:city`=Solingen), `lat` und `lon` auf **51.165378/6.988586** (Mittelwert der acht eindeutigen Way-Knoten; die Nominatim-Vorwärtssuche „Lotsenstraße 12, 42697 Solingen“ und der geo-Punkt der 11880-Strukturdaten (51.165364/6.988595) zeigen auf dasselbe Objekt), der bisher gespeicherte Produktionspunkt **51.1686125/7.0578875** löste laut Read-only-Abgleich auf **Untengönrather Straße 1, 42655 Solingen** auf und wird ersetzt; `description` wurde um den Löschungsbefund ergänzt. Die Seed-Angabe `street` bleibt unverändert.
+  (3) Im amtlichen Fachbetrieberegister (Filter „Art des Betriebs = Egal“) liefern „Max Böntgen“, „Böntgen“, „Böntgen Sohn“ und „Boentgen“ **je 0 Treffer** in beiden Routen; die Standortsuche um **Lotsenstraße 12, 42697 Solingen** liefert im 3-km-Radius **2 Efb-Treffer** (EX-TRA (Expreßtransport) GmbH, Kasparstr. 1-17, 1,2 km; TXO GmbH Solingen, Merscheider Straße 3, 1,6 km) und im 10-km-Radius **77 Efb-Treffer** sowie **1 AfV-Treffer** (Autoverwertung Inter GmbH, Gräfrather Straße 71, 5,2 km): **kein** zertifizierter Betrieb unter dem Namen Böntgen und **kein** Nachfolger an der Anschrift.
+  **Ankauf:** keine Kursangabe und keine Preisliste; **Verkauf:** keine Liste; **Gebühren:** keine Angaben. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/nw/Wuppertal/HRA/19526/Max-Boentgen-Sohn-Inh-Ilse-Boentgen ; https://www.online-handelsregister.de/handelsregisterauszug/nw/Duesseldorf/HRA/110844/Johann-Schuette-Inh-Max-Boentgen ; https://www.northdata.de/Max%20B%C3%B6ntgen%20%26%20Sohn%20Inh%C2%B7:%20Ilse%20B%C3%B6ntgen,%20Solingen/Amtsgericht%20Wuppertal%20HRA%2019526 ; https://api.openstreetmap.org/api/0.6/way/229681355.json ; https://www.11880.com/branchenbuch/solingen/120674719B26053690/max-boentgen-sohn.html ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Lotsenstra%C3%9Fe%2012%2C%2042697%20Solingen…&dst=3&is=1&e=1 (Abruf 11.11.2026).]

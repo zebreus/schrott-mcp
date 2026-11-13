@@ -9,11 +9,11 @@ postcode: ''
 phone: ''
 email: ''
 opening_hours: ''
-website: ''
-website_status: unbekannt
+website: https://www.erbhandel.de/
+website_status: aktiv
 status: pruefung
 clear_fields: 'geo'
-description: ''
+description: 'ERB Handel GmbH, HRB 11726 AG Hagen, aktiv, gegründet 13.11.2020; Firmenadresse Döinghauser Straße 31, 58332 Schwelm (Sitzverlegung aus Hagen), der 11880-Eintrag führt noch die frühere Hagen-Adresse Unterm Hagen 10, 58119 Hagen mit der Betreiber-E-Mail info@erbhandel.de. Betreiberportal erbhandel.de: Handel mit NE-Schrott (Kupfer, Messing, Aluminium, Zinn, Bronze), keine Preise veröffentlicht. Der Seed-Ort Hagen entspricht dem Registergericht, nicht der heutigen Betriebsadresse.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
@@ -71,3 +71,10 @@ Ein möglicher Kandidat zur vagen Seed-Zeile „ERB“ ist die ERB Handel GmbH, 
   Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4200,51.3400,7.5600,51.4200 ;
   https://www.erbhandel.de/ ;
   https://www.northdata.de/ERB%20Handel%20GmbH,%20Schwelm/Amtsgericht%20Hagen%20HRB%2011726 (Abruf 03.11.2026).]
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **Die Seed-Zeile „ERB“ in Hagen ist die ERB Handel GmbH (HRB 11726, AG Hagen), deren Betriebsadresse inzwischen in Schwelm liegt, und der Betreiberauftritt gehört zu dieser Gesellschaft.** (1) Das amtliche Handelsregisterportal führt „ERB Handel GmbH“, Amtsgericht **Hagen**, **HRB 11726**, Status **aktiv**, Firmenadresse **Döinghauser Straße 31, 58332 Schwelm**, Gründung 13.11.2020, eine Registerbekanntmachung mit letzter Änderung vom 13.11.2020: das Registergericht passt zum Seed-Ort Hagen, der Sitz ist jedoch verlegt. (2) Der 11880-Eintrag „ERB Handel GmbH“ führt die **frühere** Hagen-Adresse **Unterm Hagen 10, 58119 Hagen** mit der E-Mail **info@erbhandel.de**; das Betreiberportal erbhandel.de (HTTP 200) nennt in der Fußzeile „All rights reserved 2021 © ERB Handel GmbH | info@erbhandel.de | edgaras.kancaitis@erbhandel.de | tel. +4917663788764“ und damit **dieselbe** E-Mail und **denselben** Firmennamen, die Seite beschreibt den „Professional Trading of Non-Ferrous metal scrap“.
+  `website` und `website_status` wurden entsprechend gesetzt; `street` und `postcode` bleiben leer, weil das Portal **kein** Impressum und **keine** Anschrift nennt und die aktuelle Betriebsadresse in Schwelm liegt, `clear_fields: 'geo'` bleibt bestehen, `description` wurde um den Registerbefund ergänzt. (3) Inhalt des Portals: /services/ und /services-wholesale-non-ferrous-scrap/ nennen als Handelssortiment **Kupfer, Messing, Aluminium, Zinn (Sn), Bronze**, /about-erb-handel-gmbh/ beschreibt „purchase to transport organization to payment“ und individuelle Angebote zu „fair and competitive prices“ auf Basis des nationalen und globalen Marktes; der Stand ist inhaltlich von 2021 und damit kein Aktualitätsnachweis.
+  (4) Im amtlichen Fachbetrieberegister (Filter „Art des Betriebs = Egal“) liefern „ERB Handel“ **7** und „ERB Handel GmbH“ **3 Treffer** (H.L.R. Herbert Lagerin Rohstoffhandel GmbH, Currenta GmbH & Co. OHG), **kein** zertifizierter Betrieb mit diesem Namen; die Standortsuche um **Döinghauser Straße 31, 58332 Schwelm** mit 3 km liefert **17 Efb-Treffer** (Günter Allermann GmbH, Hans-Dieter Ahrens GmbH, Michael Quel Altkleidersammlungen) und **1 AfV-Treffer** (Heinz Lusch GmbH & Co. KG, Wuppertal), um **Hagen** mit 3 km **8 Efb-Treffer** (Fass-Braun GmbH, HEB GmbH Hagener Entsorgungsbetrieb, HUI GmbH), sämtlich Fremdbetriebe.
+  **Ankauf:** Ankauf von NE-Schrott mit individuellen Angeboten nach Markt, **ohne** veröffentlichte €/kg-Kurse; **Verkauf:** das Handelssortiment Kupfer, Messing, Aluminium, Zinn, Bronze, **ohne** Preise; **Gebühren:** keine Tarife. **Offen** bleibt, ob der Seed-Eintrag den Betrieb in Hagen oder den in Schwelm meint. Quelle(n): https://www.online-handelsregister.de/handelsregisterauszug/nw/Hagen/HRB/11726/ERB-Handel-GmbH ; https://www.11880.com/branchenbuch/hagen-westfalen/012070452B112479349/erb-handel-gmbh.html ; https://www.erbhandel.de/ ; https://www.erbhandel.de/services/ ; https://www.erbhandel.de/about-erb-handel-gmbh/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=D%C3%B6inghauser%20Stra%C3%9Fe%2031%2C%2058332%20Schwelm…&dst=3&is=1&e=1 (Abruf 11.11.2026).]

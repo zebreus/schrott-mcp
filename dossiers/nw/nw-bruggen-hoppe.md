@@ -6,7 +6,7 @@ trader_type: schrotthaendler
 state: NW
 city: Brüggen
 street: Oebel 1A
-postcode: ''
+postcode: '41379'
 phone: ''
 email: ''
 opening_hours: ''
@@ -100,3 +100,9 @@ Hoppe an Oebel 1A, 41379 Brüggen, bleibt ein nicht unabhängig bestätigter Ver
   https://www.11880.com/suche/schrotthandel/brueggen ;
   https://hoppe-schrotthandel.de/impressum/ (im Dossier zitiert, Abruf 05.11.2026).]
 
+
+### Recherche 11.11.2026
+
+- [Recherche 11.11.2026: **„Oebel 1“ und „Oebel 1A“ sind zwei Hausnummern desselben Straßenblocks, und die Postleitzahl 41379 ist kartographisch belegt.** (1) Die 11880-Strukturdaten des Eintrags „Frank Hoppe Schrottentsorgung“ nennen **Oebel 1, 41379 Brüggen**, Telefon **02163 9878208** und geo **51.245224/6.162001**; das ist exakt das OSM-Adressobjekt **node/1734935382** (`addr:housenumber`=1, `addr:street`=Oebel, `addr:postcode`=41379, `addr:city`=Brüggen, `source=Kreis_Viersen_Katasteramt_2012_03`). Die im Seed geführte Schreibweise **Oebel 1A** entspricht dem benachbarten Adressobjekt **node/1734951857** (`addr:housenumber`=1a, dieselbe Straße, dieselbe Postleitzahl, 25 m entfernt). Beide Objekte tragen **weder `name` noch `operator`**; es handelt sich um eine **Schreibvariante derselben Anschrift** und **nicht** um einen Fremdbetrieb, der Verzeichniseintrag belegt weiterhin nur den Betrieb und nicht die Schrotttätigkeit.
+  `postcode` wurde deshalb auf **41379** gesetzt, belegt durch zwei unabhängige Kartenquellen: das OSM-Adressobjekt und die Nominatim-Vorwärtssuche „Oebel 1a, 41379 Brüggen“, die auf node/1734951857 mit der Anzeige „1a, Oebel, Brüggen, 41379“ auflöst; die Seed-Angabe `street` bleibt unverändert. (2) Im amtlichen Fachbetrieberegister (Filter „Art des Betriebs = Egal“) liefern „Frank Hoppe“ und „Hoppe Schrottentsorgung“ **je 0 Treffer** in beiden Routen; „Hoppe“ liefert **24 Treffer**, darunter den bereits abgegrenzten Braunschweiger Namensvetter „Hoppe Schrott und Metalle, Inhaber Ingo Hoppe“ sowie H. Hoppe GmbH & Co. KG und Autodienst Hoppegarten GmbH, **kein** Treffer in Brüggen und **kein** Efb-Eintrag zum Dossierbetrieb.
+  **Ankauf:** nicht bestätigt, **keine** Kursliste; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife, die Rubrik „Schrottentsorgung“ ist keine Preis- und keine Gratisabholungsaussage. `clear_fields: 'geo'` bleibt bestehen, weil der geo-Punkt des Verzeichnisses die Hausnummer 1 und nicht die Seed-Adresse 1A treffen würde, `status` bleibt `pruefung`; **offen** bleibt, ob der Betrieb an der Anschrift tätig ist und ob angekauft oder entsorgt wird. Quelle(n): https://www.11880.com/branchenbuch/brueggen-niederrhein/060441364B102575073/frank-hoppe-schrottentsorgung.html ; https://api.openstreetmap.org/api/0.6/node/1734951857.json ; https://api.openstreetmap.org/api/0.6/node/1734935382.json ; https://nominatim.openstreetmap.org/search?format=jsonv2&countrycodes=de&q=Oebel%201a%2C%2041379%20Br%C3%BCggen ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Hoppe (Abruf 11.11.2026).]
