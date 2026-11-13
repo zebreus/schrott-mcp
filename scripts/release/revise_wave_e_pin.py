@@ -125,9 +125,18 @@ def main() -> int:
         changed = [f for f in values if f in old and str(old[f]) != str(values[f])]
         text = patch_values(text, slug, values, changed)
         if changed:
-            # Der uebliche Fall: die Welle hat Scope-Werte belegt verbessert.
-            reason = (f"Belegt in der {args.revision} verbessert; siehe "
-                      f"{args.owner_review}.")
+            if "status" in changed:
+                # Der Sonderfall: der Betriebszustand aendert sich (z. B. der
+                # Rechtstraeger ist laut Register geloescht). Das ist eine
+                # belegte Sachlage und keine "verbesserte" Angabe - die
+                # alte Formulierung waere hier sachlich falsch.
+                reason = (f"Belegte Sachlage geaendert (status: {old.get('status')} -> "
+                          f"{values.get('status')}); Owner-Entscheidung, keine Wertverbesserung; "
+                          f"siehe {args.owner_review}.")
+            else:
+                # Der uebliche Fall: die Welle hat Scope-Werte belegt verbessert.
+                reason = (f"Belegt in der {args.revision} verbessert; siehe "
+                          f"{args.owner_review}.")
         else:
             # Die Welle hat nur den Notiztext geaendert; die elf Skalare
             # bleiben unberuehrt. Ein alter, fest verdrahteter Begruendungs-

@@ -160,7 +160,13 @@ def main() -> int:
             # woertliches Zitat darf nicht "repariert" werden, sonst waere es
             # keine Wiedergabe mehr.
             prose = re.sub(r"`[^`]*`", " ", line)
-            for url in re.findall(r"(?<![\w/])www\.[^\s\)\]]+", prose):
+            # "=" und "&" schliessen den Lookbehind aus: ein "www." hinter
+            # einem Query-Parameter (z. B. "https://dns.google/resolve?name=
+            # www.beispiel.de&type=A") ist der Wert eines Parameters, keine
+            # eigene URL - die vollstaendige URL traegt ein Protokoll. Ohne
+            # diese Ausnahme meldet der Check eine faelschlich "reparierte"
+            # Quellenangabe, die gar nicht fehlerhaft ist.
+            for url in re.findall(r"(?<![\w/=&])www\.[^\s\)\]]+", prose):
                 problems.append(f"{rel}: URL ohne Protokoll: {url[:50]}")
         print(f"  {rel}: neu {len(added)} Bullet(s), Status '{fm_new.get('status')}', "
               f"clear '{clear or '-'}'")
