@@ -1,24 +1,36 @@
 #!/bin/bash
 # Hourly owner check-in for the Schrott-MCP session.
 #
-# Die Ziel-Session wird **nicht** fest verdrahtet, sondern aus der
-# Scheduler-Job-Datei gelesen. Grund: Check-in und 6h-Welle fahren dieselbe
-# Session - wenn sie auseinanderlaufen, bekommt der Check-in keinen Kontext
-# mehr und die Welle startet in einer leeren Session. Nach einem
-# Session-Cleanup (13./15.11.2026) ist die hart verdrahtete Session-ID
-# auf eine archivierte Session gesunken: der Check-in lief stuendlich in eine
-# Session mit Zustand "interrupted" und blieb wirkungslos, waehrend die Welle
-# in die neue Session fuhr. Deshalb wird die ID hier zur Laufzeit aufgeloest.
+# Der Check-in bekommt **eine eigene Session**. Grund: Check-in und 6h-Welle
+# fahren seit dem Session-Cleanup vom 13./15.11.2026 dieselbe Session, und
+# das erzeugt zwei Probleme:
+#
+#   1. Startet der Check-in, während die Welle in derselben Session laeuft,
+#      wartet der Check-in - und umgekehrt. Die Welle bricht dann ab, wenn
+#      der Check-in per SIGTERM mitten in der Arbeit gekillt wird
+#      (Session-Zustand "interrupted").
+#   2. Der Check-in sah stundenlang in eine ARCHIVIERTE Session ("interrupted")
+#      und blieb dadurch wirkungslos - der stuendliche Check-in hat nichts
+#      getan, waehrend die Welle in der aktuellen Session fuhr.
+#
+# Deshalb: der Check-in startet eine **frische** Session ohne `--continue`.
+# Der Projektstand steht ohnehin im Repo (Git, research/*.md, die
+# Produktionsdatenbanken read-only) - nicht im Gespraechszustand.
+#
+# Mit `CHECKIN_SESSION` (Environment) kann eine feste Session erzwungen
+# werden; `CHECKIN_CONTINUE=1` laesst sie fortsetzen.
 #
 # Usage: schrott-mcp-checkin.sh [--dry-run]
 set -u
-SESSION=""
+SESSION="${CHECKIN_SESSION:-}"
 JOB_FILE="${CHECKIN_JOB_FILE:-/root/.config/opencode/scheduler/scopes/schrott-mcp-cba386ff6018/jobs/tiefenrecherche-welle.json}"
 
-# 1) Quelle der Wahrheit: die Session, die der Scheduler fuer die Welle fährt.
+# Diagnose: welche Session faehrt die Welle? Nur nach der Session-Aufloesung
+# darf der Check-in sie nicht benutzen - sonst kollidieren beide.
+WAVE_SESSION=""
 if [ -r "$JOB_FILE" ]; then
-  SESSION=$(python3 -c "
-import json, sys
+  WAVE_SESSION=$(python3 -c "
+import json
 try:
     d = json.load(open('$JOB_FILE'))
     print(d.get('run', {}).get('session', '') or '')
@@ -27,23 +39,24 @@ except Exception:
 " 2>/dev/null || true)
 fi
 
-# 2) Rueckfall: eine explizit gesetzte Session (z. B. per Environment-Datei).
-if [ -z "$SESSION" ] && [ -n "${CHECKIN_SESSION:-}" ]; then
-  SESSION="$CHECKIN_SESSION"
-fi
-
-if [ -z "$SESSION" ]; then
-  echo "schrott-mcp-checkin: keine Session ermittelt (Job-Datei: $JOB_FILE)" >&2
-  exit 2
-fi
-
 export PATH="/root/.opencode/bin:$PATH"
 MSG="Stündlicher Owner Check-in: Du bist der Owner dieses Projekts (Schrott-MCP, /root/Documents/schrott-mcp). Arbeite weiter. Die komplette Check-in-Anleitung steht in prompts/hourly-checkin.md im Repo — lies sie und führe sie aus."
 
+if [ -n "$SESSION" ] && [ "${CHECKIN_CONTINUE:-0}" = "1" ]; then
+  ARGS=(--session "$SESSION")
+  DESC="Session $SESSION (fortgesetzt)"
+elif [ -n "$SESSION" ]; then
+  ARGS=(--session "$SESSION")
+  DESC="Session $SESSION"
+else
+  ARGS=()
+  DESC="frische Session (Welle faehrt ${WAVE_SESSION:-unbekannt})"
+fi
+
 if [ "${1:-}" = "--dry-run" ]; then
-  echo "opencode run --session $SESSION [${#MSG} chars]"
+  echo "opencode run ${ARGS[*]-} [${#MSG} chars] -> $DESC"
   exit 0
 fi
 
-echo "$(date -u +%FT%TZ) check-in startet in Session $SESSION" >> /var/log/schrott-mcp-checkin.log
-opencode run --session "$SESSION" "$MSG" >> /var/log/schrott-mcp-checkin.log 2>&1
+echo "$(date -u +%FT%TZ) check-in startet -> $DESC" >> /var/log/schrott-mcp-checkin.log
+opencode run "${ARGS[@]}" "$MSG" >> /var/log/schrott-mcp-checkin.log 2>&1
