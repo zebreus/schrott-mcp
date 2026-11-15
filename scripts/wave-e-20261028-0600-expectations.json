@@ -19,25 +19,25 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "b9df2ce",
-  "owner_review": "research/wave-20261111-1200-report.md",
+  "dossier_revision": "0b34451",
+  "owner_review": "research/wave-20261113-1800-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 11.11.2026, 12:00)",
-  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases b9df2ce gehoben",
+  "revised_by": "Owner (Welle 13.11.2026, 18:00)",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 0b34451 gehoben",
   "rows": [
     {
       "slug": "he-langenselbold-63505-levy-schrott-metall",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261111-1200-report.md."
-    },
-    {
-      "slug": "nw-koln-reimann",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261111-1200-report.md."
+      "fields": [
+        "postcode",
+        "status",
+        "street",
+        "website_status"
+      ],
+      "reason": "Belegte Sachlage geaendert (status: pruefung -> geschlossen); Owner-Entscheidung, keine Wertverbesserung; siehe research/wave-20261113-1800-report.md."
     }
   ],
-  "unchanged_rows": 58
+  "unchanged_rows": 59
 },
   "traders": [
     {
@@ -368,19 +368,19 @@
       "slug": "he-langenselbold-63505-levy-schrott-metall",
       "values": {
         "name": "Levy (Schrott/Metall)",
-        "street": "",
-        "postcode": "",
+        "street": "Weinbergring 33",
+        "postcode": "63505",
         "phone": "",
         "email": "",
         "opening_hours": "",
         "description": "",
-        "status": "pruefung",
+        "status": "geschlossen",
         "trader_type": "schrotthaendler",
         "website": "",
-        "website_status": "unbekannt"
+        "website_status": "tot"
       },
-      "notes_sha256": "51a47c9f0fd958b8c1e81b3cf43f5c4a75ad9658be5980e9a7219dfb4a82b381",
-      "seed_hash": "d0023580fad59a13"
+      "notes_sha256": "508bc0304abc9627385f9a93ca02efd60bc758cdedfea86a0fb3c708adbf86a0",
+      "seed_hash": "5a426c31e6f3c5c1"
     },
     {
       "slug": "he-limburg-65549-scheuer",
