@@ -28,7 +28,7 @@ set -u
 TIMER=schrott-mcp-checkin.timer
 SERVICE=schrott-mcp-checkin.service
 # Zeitlimit des Dienstes in Sekunden (muss zu TimeoutStartSec passen).
-MAX_RUN=300
+MAX_RUN=1800
 # Einheit, falls der Kalender umgestellt werden muss (relativer Abstand).
 FALLBACK_INTERVAL=3600
 now_iso() { date -u +%FT%TZ; }

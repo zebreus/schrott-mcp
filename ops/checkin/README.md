@@ -23,10 +23,17 @@ schreibt nach `/var/log/schrott-mcp-checkin-watchdog.log`.
   Die Minute weicht bewusst von `:00` ab: die 6h-Welle feuert per Cron um
   `:00`, `:06`, `:12`, `:18` und fährt dieselbe Session. Ein Check-in um `:00`
   würde sich hinter der Welle einreihen.
-- **Service** ist ein `oneshot` mit `TimeoutStartSec=300`. Läuft gerade eine
+- **Service** ist ein `oneshot` mit `TimeoutStartSec=1800` (**30 min**). Läuft gerade eine
   Welle in derselben Session, wartet der Check-in-Prozess auf deren Ende und
-  wird nach 5 Minuten beendet (`status=15/TERM`, `Result=timeout`). **Das ist
-  der Normalfall und kein Fehler** — der Timer feuert trotzdem wieder.
+  wird nach 30 Minuten beendet (`status=2/INT`). **Das ist der Normalfall und
+  kein Fehler** — der Timer feuert trotzdem wieder.
+  - **Warum 30 min statt 5** (Befund vom 15.11.2026): ein Check-in, der mitten in
+    der Arbeit per **SIGTERM** gekillt wird, hinterlässt die Session im Zustand
+    `interrupted` — und der Welle-Job (`--continue` auf dieselbe Session) bricht
+    dann **sofort** ab. So sind am 14.11. bis 15.11.2026 **acht** Wellen-Runs
+    hintereinander gescheitert.
+  - **Warum `KillSignal=SIGINT`**: damit schließt opencode die Session **sauber** ab,
+    statt sie als `interrupted` zu hinterlassen.
 - **Watchdog** behandelt vier Fälle getrennt:
 
 | # | Störung | Behandlung |
@@ -63,6 +70,29 @@ journalctl -u schrott-mcp-checkin.service --since "2 hours ago" --no-pager
 tail -20 /var/log/schrott-mcp-checkin-watchdog.log
 ```
 
-Erwartet: Timer feuert stündlich, der Dienst endet nach 5 min mit
-`Result=timeout` (Session belegt), der Watchdog-Log bleibt bis zu einer
+Erwartet: Timer feuert stündlich, der Dienst endet nach 30 min mit
+`Result=signal` (Session belegt), der Watchdog-Log bleibt bis zu einer
 Störung leer.
+
+## Die Session kommt vom Scheduler
+
+Das Check-in-Skript verdrahtet **keine** Session-ID, sondern liest sie zur Laufzeit
+aus der Scheduler-Job-Datei (`run.session`, Vorgabe:
+`/root/.config/opencode/scheduler/scopes/schrott-mcp-cba386ff6018/jobs/tiefenrecherche-welle.json`).
+Ohne auflösbare Session bricht das Skript mit **Exit 2** ab.
+
+**Warum:** Am 15.11.2026 war die fest verdrahtete Session auf eine **archivierte**
+Session gesunken (`idle_outcome=interrupted`), während der Scheduler die Welle in
+der **aktuellen** Session fuhr — der stündliche Check-in schrieb also stundenlang in
+eine Session, in der **nichts** passierte.
+
+## Speicher
+
+Der Host hat **7,7 GB RAM** und braucht für eine Welle mit drei Browser-Subagenten
+rund **5 GB**. Bis zum 15.11.2026 gab es **gar keinen Swap** — der Kernel hat
+`opencode` mit **3,1 GB** RSS **gekillt** (`oom-kill`, 15.11. 16:38:13 UTC).
+Seitdem: `/swapfile` mit **2 GB** (persistent über `/etc/fstab`) und
+`vm.swappiness=10` (persistent über `/etc/sysctl.d/99-schrott-mcp-memory.conf`).
+
+**Regel:** **niemals** einen Release-Build parallel zu drei Browser-Agenten fahren —
+der Build braucht bis zu **2 GB**, die Agenten **5 GB**.

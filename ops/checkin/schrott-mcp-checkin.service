@@ -5,16 +5,23 @@ After=network.target
 [Service]
 Type=oneshot
 ExecStart=/usr/local/bin/schrott-mcp-checkin.sh
-# Ein hängender oneshot darf den Timer nie wieder blockieren: ohne dieses
+# Ein haengender oneshot darf den Timer nie wieder blockieren: ohne dieses
 # Limit blieb der Dienst am 11.11.2026 zwei Tage im Status "activating"
 # (TimeoutStartUSec=infinity) und der Timer feuerte nicht mehr.
-TimeoutStartSec=300
-# Der Check-in schreibt in dieselbe Session wie die 6h-Welle. Läuft dort
-# gerade eine Runde, wartet der Prozess auf deren Ende; nach 5 Minuten
-# wird er beendet, damit der nächste Termin wieder greifen kann.
+#
+# 30 Minuten statt 5: ein Check-in, der mitten in der Arbeit per SIGTERM
+# gekillt wird, hinterlaesst die Session im Zustand "interrupted" - und der
+# Welle-Job (--continue auf dieselbe Session) bricht dann sofort ab. So
+# sind am 14.11. bis 15.11.2026 acht Wellen-Runs hintereinander gescheitert.
+TimeoutStartSec=1800
+# SIGINT statt SIGTERM: opencode schliesst die Session damit sauber ab,
+# statt sie als "interrupted" zu hinterlassen.
+KillSignal=SIGINT
+# Der Check-in schreibt in dieselbe Session wie die 6h-Welle. Laeuft dort
+# gerade eine Runde, wartet der Prozess auf deren Ende; nach 30 Minuten
+# wird er beendet, damit der naechste Termin wieder greifen kann.
 KillMode=control-group
-# Der Check-in laeuft in derselben Session wie die 6h-Welle. Ist deren
-# Runde noch aktiv, wartet der Prozess und wird nach TimeoutStartSec
-# beendet. Das ist der Normalfall, kein Fehler: ohne SuccessExitStatus
-# wuerde der Dienst dauerhaft als "failed" gefuehrt.
-SuccessExitStatus=0 143
+# 0 = erfolgreich, 130 = SIGINT (der gewoehnliche Abbruch durch den Timeout
+# oben), 143 = SIGTERM. Der Timeout des Check-ins ist im Normalfall der
+# erwartete Fall, kein Fehler.
+SuccessExitStatus=0 130 143
