@@ -17,9 +17,9 @@ TimeoutStartSec=1800
 # SIGINT statt SIGTERM: opencode schliesst die Session damit sauber ab,
 # statt sie als "interrupted" zu hinterlassen.
 KillSignal=SIGINT
-# Der Check-in schreibt in dieselbe Session wie die 6h-Welle. Laeuft dort
-# gerade eine Runde, wartet der Prozess auf deren Ende; nach 30 Minuten
-# wird er beendet, damit der naechste Termin wieder greifen kann.
+# Der Check-in faehrt eine EIGENE frische Session (seit 15.11.2026), nicht
+# mehr die der 6h-Welle. KillMode=control-group raeumt den gesamten
+# opencode-Prozessbaum ab, wenn das 30-Minuten-Limit greift.
 KillMode=control-group
 # 0 = erfolgreich, 130 = SIGINT (der gewoehnliche Abbruch durch den Timeout
 # oben), 143 = SIGTERM. Der Timeout des Check-ins ist im Normalfall der

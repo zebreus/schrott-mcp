@@ -86,6 +86,23 @@ Session gesunken (`idle_outcome=interrupted`), während der Scheduler die Welle 
 der **aktuellen** Session fuhr — der stündliche Check-in schrieb also stundenlang in
 eine Session, in der **nichts** passierte.
 
+## Modell-Pin
+
+`opencode run` ohne `--model` erbt das **zuletzt benutzte** Modell. Das ist
+für den Check-in nicht robust: am 15./16.11.2026 erbte er
+`google/gemini-4-hydrogen` mit **256000** `max_tokens` — mehr als das
+OpenRouter-Key-Budget deckte (`This request requires more credits … can only
+afford ~246k`). Jeder Check-in von **21:17 bis 06:17 UTC** starb daran mit
+`exit 1`, **bevor** er irgendetwas tat; der Timer feuerte zwar, aber es gab
+keinen Owner-Check-in. Das Skript pinnt deshalb explizit
+`--model openrouter/qwen/qwen4-max` (über `CHECKIN_MODEL` überschreibbar).
+
+**Regel:** nie ohne Pin lassen — ein stiller Modellwechsel darf den Check-in
+nicht wieder in eine Credit-/Token-Falle laufen lassen. Ein roter
+`journalctl … status=1` über mehrere Stunden ist kein Timer-Problem, sondern
+fast immer ein Modell-/Credit-Problem; zuerst ins
+`/var/log/schrott-mcp-checkin.log` sehen.
+
 ## Speicher
 
 Der Host hat **7,7 GB RAM** und braucht für eine Welle mit drei Browser-Subagenten

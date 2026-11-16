@@ -20,9 +20,17 @@
 # Mit `CHECKIN_SESSION` (Environment) kann eine feste Session erzwungen
 # werden; `CHECKIN_CONTINUE=1` laesst sie fortsetzen.
 #
+# Das Modell wird explizit gepinnt (`CHECKIN_MODEL`, Vorgabe
+# openrouter/qwen/qwen4-max). Grund: ohne Pin erbt `opencode run` das
+# jeweils zuletzt benutzte Modell. Am 15./16.11.2026 war das
+# google/gemini-4-hydrogen mit 256000 max_tokens - mehr als das
+# OpenRouter-Key-Budget deckte ("can only afford ~246k"). Jeder Check-in
+# von 21:17 bis 06:17 UTC starb daran vor der ersten Aktion (exit 1).
+#
 # Usage: schrott-mcp-checkin.sh [--dry-run]
 set -u
 SESSION="${CHECKIN_SESSION:-}"
+MODEL="${CHECKIN_MODEL:-openrouter/qwen/qwen4-max}"
 JOB_FILE="${CHECKIN_JOB_FILE:-/root/.config/opencode/scheduler/scopes/schrott-mcp-cba386ff6018/jobs/tiefenrecherche-welle.json}"
 
 # Diagnose: welche Session faehrt die Welle? Nur nach der Session-Aufloesung
@@ -54,9 +62,9 @@ else
 fi
 
 if [ "${1:-}" = "--dry-run" ]; then
-  echo "opencode run ${ARGS[*]-} [${#MSG} chars] -> $DESC"
+  echo "opencode run --model $MODEL ${ARGS[*]-} [${#MSG} chars] -> $DESC"
   exit 0
 fi
 
-echo "$(date -u +%FT%TZ) check-in startet -> $DESC" >> /var/log/schrott-mcp-checkin.log
-opencode run "${ARGS[@]}" "$MSG" >> /var/log/schrott-mcp-checkin.log 2>&1
+echo "$(date -u +%FT%TZ) check-in startet -> $DESC (modell $MODEL)" >> /var/log/schrott-mcp-checkin.log
+opencode run --model "$MODEL" "${ARGS[@]}" "$MSG" >> /var/log/schrott-mcp-checkin.log 2>&1
