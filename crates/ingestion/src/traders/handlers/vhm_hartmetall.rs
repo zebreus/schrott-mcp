@@ -14,7 +14,8 @@ use serde::Deserialize;
 use std::collections::BTreeMap;
 
 use super::super::{
-    fetch_text, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, ScrapedPrice, TraderInfo,
+    fetch_text, parse_eur, Handler, HandlerOutcome, Schedule, ScrapedAcceptance, ScrapedPrice,
+    TraderInfo,
 };
 use crate::IngestError;
 
@@ -34,6 +35,10 @@ struct PriceApi {
     fields: ApiFields,
     updated_at: String,
     revision: String,
+    #[serde(default)]
+    labels: Option<Vec<String>>,
+    #[serde(default)]
+    discount_cents: Option<Vec<u64>>,
 }
 
 #[derive(Deserialize)]
@@ -42,6 +47,8 @@ struct ApiPrice {
     text: String,
     amount: serde_json::Value,
     schema_amount: serde_json::Value,
+    #[serde(default)]
+    tier_cents: Option<Vec<u64>>,
 }
 
 #[derive(Deserialize)]
@@ -61,12 +68,30 @@ fn parse_api(body: &str) -> Result<HandlerOutcome, IngestError> {
     if !api.ok {
         return Err(error("Preis-API ok ist nicht true".to_owned()));
     }
-    if api.fields.einheit.trim() != "alle Preise pro kg" {
-        return Err(error(format!(
-            "Preis-API Einheit unverständlich: {}",
-            api.fields.einheit
-        )));
-    }
+    let tiered = match api.fields.einheit.trim() {
+        "alle Preise pro kg" => false,
+        "Preise je kg nach Mengenstaffel" => true,
+        other => return Err(error(format!("Preis-API Einheit unverständlich: {other}"))),
+    };
+    let expected_tiers = if tiered {
+        let labels = api
+            .labels
+            .as_ref()
+            .filter(|l| l.len() >= 2 && l.iter().all(|s| !s.trim().is_empty()))
+            .ok_or_else(|| {
+                error("Preis-API Staffel-Labels fehlen oder unvollständig".to_owned())
+            })?;
+        if let Some(discounts) = &api.discount_cents {
+            if discounts.len() != labels.len() {
+                return Err(error(
+                    "Preis-API discountCents passt nicht zu Staffel-Labels".to_owned(),
+                ));
+            }
+        }
+        Some(labels.len())
+    } else {
+        None
+    };
     if api.fields.markt_hinweis.trim().is_empty() || api.revision.trim().is_empty() {
         return Err(error(
             "Preis-API Markthinweis oder Revision leer".to_owned(),
@@ -93,6 +118,7 @@ fn parse_api(body: &str) -> Result<HandlerOutcome, IngestError> {
         if key == "hartmetallschlamm" {
             if !row.amount.is_null()
                 || !row.schema_amount.is_null()
+                || row.tier_cents.is_some()
                 || row.text.trim().to_lowercase() != "nach analyse"
             {
                 return Err(error(
@@ -102,6 +128,57 @@ fn parse_api(body: &str) -> Result<HandlerOutcome, IngestError> {
             out.acceptances.push(ScrapedAcceptance {
                 material,
                 conditions: variant.to_owned(),
+                label: label.to_owned(),
+            });
+        } else if let Some(tier_len) = expected_tiers {
+            let tiers = row
+                .tier_cents
+                .as_ref()
+                .filter(|t| t.len() == tier_len && t.iter().all(|&c| c > 0))
+                .ok_or_else(|| error(format!("Preis-API Staffelpreise fehlen/ungültig: {key}")))?;
+            if !tiers.windows(2).all(|w| w[0] <= w[1]) {
+                return Err(error(format!(
+                    "Preis-API Staffelpreise nicht monoton: {key}"
+                )));
+            }
+            let min_cents = tiers[0];
+            let max_cents = *tiers.last().expect("len >= 2 checked");
+            let min = min_cents as f64 / 100.0;
+            let max = max_cents as f64 / 100.0;
+            let amount = row
+                .amount
+                .as_f64()
+                .ok_or_else(|| error(format!("Preis-API Höchstpreis fehlt: {key}")))?;
+            let text_bounds = row
+                .text
+                .trim()
+                .strip_suffix(" €/kg je nach Menge")
+                .and_then(|s| s.split_once('–'))
+                .and_then(|(lo, hi)| Some((parse_eur(lo)?, parse_eur(hi)?)));
+            if !amount.is_finite()
+                || (amount - max).abs() > 1e-6
+                || text_bounds
+                    .is_none_or(|(lo, hi)| (lo - min).abs() > 1e-6 || (hi - max).abs() > 1e-6)
+            {
+                return Err(error(format!(
+                    "Preis-API Staffel/Text widersprüchlich: {key}"
+                )));
+            }
+            let (price_kind, confidence, price_min, price_max) = if min_cents == max_cents {
+                ("exact", Some(1.0), None, None)
+            } else {
+                ("range", Some(0.5), Some(min), Some(max))
+            };
+            out.prices.push(ScrapedPrice {
+                material,
+                variant: variant.into(),
+                price: max,
+                currency: "EUR",
+                unit: "EUR/kg",
+                price_kind,
+                price_min,
+                price_max,
+                confidence,
                 label: label.to_owned(),
             });
         } else {
@@ -333,6 +410,100 @@ mod tests {
     // Verbatim API response, read-only verified on 2026-10-08.
     const API_FIXTURE: &str = r#"{"ok":true,"prices":{"wendeschneidplatten":{"text":"53,00 €/kg","amount":53,"schemaAmount":53},"hartmetallGemischt":{"text":"50,00 €/kg","amount":50,"schemaAmount":50},"vhmFraeserBohrer":{"text":"53,00 €/kg","amount":53,"schemaAmount":53},"widia":{"text":"50,00 €/kg","amount":50,"schemaAmount":50},"hartmetallschlamm":{"text":"nach Analyse","amount":null,"schemaAmount":null}},"fields":{"marktHinweis":"Aktuelle Ankaufspreise pro kg bei passender Sorte und sauber sortiertem Material","einheit":"alle Preise pro kg","kontakt":"info@vhm-hartmetall.de"},"updatedAt":"2026-10-05T08:51:01+00:00","revision":"b850f7af0b621ab51967ade0ecdb6f69f2714b5146e4e3b3cb41fb3b611ff49a"}"#;
 
+    // Verbatim tiered API response, read-only verified on 2026-11-15.
+    const API_STAFFEL_FIXTURE: &str = r#"{"ok":true,"prices":{"wendeschneidplatten":{"text":"48,00–56,00 €/kg je nach Menge","amount":56,"schemaAmount":null,"tierCents":[4800,5100,5300,5600]},"hartmetallGemischt":{"text":"48,00–56,00 €/kg je nach Menge","amount":56,"schemaAmount":null,"tierCents":[4800,5100,5300,5600]},"vhmFraeserBohrer":{"text":"48,00–56,00 €/kg je nach Menge","amount":56,"schemaAmount":null,"tierCents":[4800,5100,5300,5600]},"widia":{"text":"43,00–51,00 €/kg je nach Menge","amount":51,"schemaAmount":null,"tierCents":[4300,4600,4800,5100]},"hartmetallschlamm":{"text":"nach Analyse","amount":null,"schemaAmount":null,"tierCents":null}},"discountCents":[800,500,300,0],"labels":["1 bis unter 30 kg","30 bis unter 60 kg","60 bis unter 100 kg","100–200 kg"],"fields":{"marktHinweis":"Aktuelle Ankaufspreise pro kg bei passender Sorte und sauber sortiertem Material","kontakt":"info@vhm-hartmetall.de","einheit":"Preise je kg nach Mengenstaffel"},"revision":"3963298c06e10ed73293fc913b26eee6a4fe2485a558e511a5a2866683abd414","updatedAt":"2026-11-13T08:10:41+00:00"}"#;
+
+    #[test]
+    fn api_staffel_records_tiered_ranges_and_source_date() {
+        let out = super::parse_api(API_STAFFEL_FIXTURE).expect("live tiered API structure");
+        let rows: Vec<_> = out
+            .prices
+            .iter()
+            .map(|p| {
+                (
+                    p.material,
+                    p.variant.as_ref(),
+                    p.price,
+                    p.price_min,
+                    p.price_max,
+                    p.price_kind,
+                    p.confidence,
+                )
+            })
+            .collect();
+        assert_eq!(
+            rows,
+            vec![
+                (
+                    "hartmetall",
+                    "Wendeschneidplatten",
+                    56.0,
+                    Some(48.0),
+                    Some(56.0),
+                    "range",
+                    Some(0.5)
+                ),
+                (
+                    "hartmetall",
+                    "gemischt",
+                    56.0,
+                    Some(48.0),
+                    Some(56.0),
+                    "range",
+                    Some(0.5)
+                ),
+                (
+                    "hartmetall",
+                    "VHM-Fräser & Bohrer",
+                    56.0,
+                    Some(48.0),
+                    Some(56.0),
+                    "range",
+                    Some(0.5)
+                ),
+                (
+                    "hartmetall",
+                    "Widia",
+                    51.0,
+                    Some(43.0),
+                    Some(51.0),
+                    "range",
+                    Some(0.5)
+                ),
+            ]
+        );
+        assert_eq!(out.published_at.as_deref(), Some("2026-11-13"));
+        assert_eq!(out.acceptances.len(), 1);
+        assert_eq!(out.acceptances[0].conditions, "Schlamm");
+        assert!(out.skipped_labels.is_empty());
+
+        // Reject inconsistent tiered payloads without fallback.
+        for (pointer, value) in [
+            ("/prices/widia/amount", serde_json::json!(50)),
+            (
+                "/prices/widia/tierCents",
+                serde_json::json!([5100, 4800, 4600, 4300]),
+            ),
+            ("/prices/widia/tierCents", serde_json::json!([4300, 5100])),
+            (
+                "/prices/widia/text",
+                serde_json::json!("43,00–51,00 €/t je nach Menge"),
+            ),
+            (
+                "/prices/hartmetallschlamm/tierCents",
+                serde_json::json!([4300, 4600, 4800, 5100]),
+            ),
+            ("/labels", serde_json::json!([])),
+        ] {
+            let mut body: serde_json::Value = serde_json::from_str(API_STAFFEL_FIXTURE).unwrap();
+            *body.pointer_mut(pointer).unwrap() = value;
+            assert!(
+                super::parse_api(&body.to_string()).is_err(),
+                "accepted invalid tiered {pointer}: {body}"
+            );
+        }
+    }
+
     #[test]
     fn api_restores_four_stable_variants_and_source_date() {
         let out = super::parse_api(API_FIXTURE).expect("live API structure");
@@ -470,19 +641,9 @@ mod tests {
         assert_eq!(out.status_code, 200);
         assert!(out.website_alive);
         assert!(out.byte_len > 0);
-        assert_eq!(out.published_at.as_deref(), Some("2026-10-05"));
-        assert_eq!(
-            out.prices
-                .iter()
-                .map(|p| (p.variant.as_ref(), p.price))
-                .collect::<Vec<_>>(),
-            vec![
-                ("Wendeschneidplatten", 53.0),
-                ("gemischt", 50.0),
-                ("VHM-Fräser & Bohrer", 53.0),
-                ("Widia", 50.0),
-            ]
-        );
+        assert!(out.published_at.is_some());
+        assert_eq!(out.prices.len(), 4);
+        assert!(out.prices.iter().all(|p| p.price > 0.0));
         assert_eq!(out.acceptances.len(), 1);
         assert_eq!(out.acceptances[0].conditions, "Schlamm");
         assert!(out.skipped_labels.is_empty());

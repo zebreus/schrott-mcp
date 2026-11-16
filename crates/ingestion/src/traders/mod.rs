@@ -1397,6 +1397,8 @@ mod tests {
         use super::{HandlerOutcome, ScrapedPrice};
         use schrott_mcp_store::{InternalDb, NewMaterial, NewPrice, NewTrader, PublicDb};
 
+        let n = super::handlers::wahl_co_zella_mehlis::SNAPSHOT_PRICE_COUNT as i32;
+
         fn outcome(variants: std::ops::Range<i32>) -> HandlerOutcome {
             HandlerOutcome {
                 prices: variants
@@ -1507,7 +1509,7 @@ mod tests {
                 &public,
                 &internal,
                 super::handlers::wahl_co_zella_mehlis::SLUG,
-                &outcome(0..39),
+                &outcome(0..n - 1),
                 &now1,
             )
             .await
@@ -1519,7 +1521,7 @@ mod tests {
             .unwrap()
             .is_some());
 
-        let first = outcome(0..40);
+        let first = outcome(0..n);
         let result = super::record(
             &public,
             &internal,
@@ -1529,7 +1531,7 @@ mod tests {
         )
         .await
         .expect("complete snapshot reconciles");
-        assert_eq!(result.recorded, 40);
+        assert_eq!(result.recorded, i64::from(n));
         assert!(public
             .current_price_for(trader_id, cable_id, "")
             .unwrap()
@@ -1557,7 +1559,7 @@ mod tests {
             &public,
             &internal,
             super::handlers::wahl_co_zella_mehlis::SLUG,
-            &outcome(1..41),
+            &outcome(1..n + 1),
             &now2,
         )
         .await
@@ -1684,7 +1686,8 @@ mod tests {
             })
             .expect("legacy cable price");
 
-        let prices = (0..40)
+        let n = super::handlers::wahl_co_zella_mehlis::SNAPSHOT_PRICE_COUNT as i32;
+        let prices = (0..n)
             .map(|i| ScrapedPrice {
                 material: "kupfer-millberry",
                 variant: format!("grade-{i}").into(),

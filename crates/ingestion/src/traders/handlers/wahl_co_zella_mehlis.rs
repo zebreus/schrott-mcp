@@ -25,11 +25,11 @@ pub const IMPRESSUM_URL: &str = "https://wahlundco.de/impressum.html";
 /// Both current price tables state their values in euros per kilogram.
 const UNIT: &str = "EUR/kg";
 const DETAIL_ROW_COUNT: usize = 31;
-const OVERVIEW_RANGE_COUNT: usize = 14;
+const OVERVIEW_RANGE_COUNT: usize = 13;
 // Conservative ingestion freshness policy; the operator does not state an
 // exact validity window beyond calling these prices daily-dependent.
 const MAX_PRICE_AGE_HOURS: i64 = 24;
-pub(crate) const SNAPSHOT_PRICE_COUNT: usize = 40;
+pub(crate) const SNAPSHOT_PRICE_COUNT: usize = 39;
 pub(crate) const SNAPSHOT_OWNER: &str = "wahl-cms-price-v1";
 
 /// Stable CMS row identity paired with its currently reviewed visible label.
@@ -853,7 +853,7 @@ mod tests {
             <tr><th scope="row">Hartmetall (VHM)</th><td>15,00–25,00 €/kg</td><td>Anfragen</td></tr>
             <tr><th scope="row">Wolfram (W)</th><td>15,00–25,00 €/kg</td><td>Anfragen</td></tr>
             <tr><th scope="row">Kabel &amp; E-Schrott</th><td>1,00–5,00 €/kg</td><td>Anfragen</td></tr>
-            <tr><th scope="row">Mischschrott &amp; Eisen</th><td>0,15–0,30 €/kg</td><td>Anfragen</td></tr>
+            <tr><th scope="row">Mischschrott &amp; Eisen</th><td>Preis auf Anfrage</td><td>Anfragen</td></tr>
           </tbody>
         </table>
     "#;
@@ -882,10 +882,14 @@ mod tests {
     #[test]
     fn overview_preserves_ranges_and_ignores_single_price_rows() {
         let ranges = parse_ranges(FIXTURE_RANGES).expect("overview parses");
-        assert_eq!(ranges.len(), 14, "single-price Kupfer Kanal is not a range");
+        assert_eq!(
+            ranges.len(),
+            13,
+            "single-price Kupfer Kanal and Mischschrott on request are not ranges"
+        );
         assert_eq!(ranges[0], ("Kupfer (Cu)".to_owned(), 9.2, 10.5));
         assert_eq!(ranges[4], ("Edelstahl (V2A/V4A)".to_owned(), 0.8, 1.5));
-        assert_eq!(ranges[13], ("Mischschrott & Eisen".to_owned(), 0.15, 0.3));
+        assert_eq!(ranges[12], ("Kabel & E-Schrott".to_owned(), 1.0, 5.0));
 
         let mapped: Vec<_> = ranges
             .iter()
@@ -893,7 +897,7 @@ mod tests {
                 grade_for_range(label).map(|material| (material, min, max))
             })
             .collect();
-        assert_eq!(mapped.len(), 10);
+        assert_eq!(mapped.len(), 9);
         assert!(mapped.iter().any(|(material, min, max)| {
             *material == "edelstahl-gemischt" && **min == 0.8 && **max == 1.5
         }));
@@ -1122,7 +1126,7 @@ mod tests {
         lead_row.0 = "Blei-Akkus".to_owned();
         let ranges = parse_ranges(FIXTURE_RANGES).expect("overview parses");
         let error = map_price_snapshot(rows, skipped, ranges).unwrap_err();
-        assert!(error.to_string().contains("39 statt 40"), "{error}");
+        assert!(error.to_string().contains("38 statt 39"), "{error}");
     }
 
     #[test]

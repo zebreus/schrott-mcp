@@ -24,10 +24,10 @@ use crate::IngestError;
 pub const SLUG: &str = "nw-bonn-pur-umwelt-p-u-richter";
 /// Bespoke, live-verified price URL. A move fails the step
 /// loudly (fix the URL) — never guessed, never shared.
-pub const URL: &str = "https://www.pur-umwelt.com/schrottpreise/";
+pub const URL: &str = "https://pur-umwelt.com/metallankauf";
 /// Bespoke, live-verified impressum URL. A move fails the step
 /// loudly (fix the URL) — never guessed, never shared.
-pub const IMPRESSUM_URL: &str = "https://www.pur-umwelt.com/impressum";
+pub const IMPRESSUM_URL: &str = "https://pur-umwelt.com/impressum";
 
 pub fn handler() -> Handler {
     Handler {
@@ -186,7 +186,9 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     };
     // Firm lines + street + "53175 Bonn" (last two lines).
     let (mut street, mut postcode, mut city) = (String::new(), String::new(), String::new());
-    if let Some(p) = heading_p("Angaben gemäß § 5 TMG") {
+    if let Some(p) =
+        heading_p("Angaben gemäß § 5 DDG").or_else(|| heading_p("Angaben gemäß § 5 TMG"))
+    {
         let lines = br_lines(p);
         if lines.len() >= 2 {
             let last = lines.last().expect("len checked");
@@ -232,11 +234,18 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     })
 }
 
-/// First `<p>` sibling after a heading element.
+/// First `<p>` sibling after a heading element (directly or inside a wrapper `<div>`).
 fn next_p(el: ElementRef) -> Option<ElementRef> {
-    el.next_siblings()
-        .filter_map(ElementRef::wrap)
-        .find(|e| e.value().name() == "p")
+    let p_sel = Selector::parse("p").expect("valid selector");
+    for sib in el.next_siblings().filter_map(ElementRef::wrap) {
+        if sib.value().name() == "p" {
+            return Some(sib);
+        }
+        if let Some(p) = sib.select(&p_sel).next() {
+            return Some(p);
+        }
+    }
+    None
 }
 
 /// `<br>`-separated lines of a `<p>` (tags stripped; entities are
@@ -279,6 +288,57 @@ fn parse(
     IngestError,
 > {
     let doc = Html::parse_document(html);
+    let ticker_sel = Selector::parse("div.ticker").expect("valid selector");
+    if let Some(ticker_box) = doc.select(&ticker_sel).next() {
+        let label_sel = Selector::parse("a.ticker__label").expect("valid selector");
+        let group_sel = Selector::parse("span.ticker__group").expect("valid selector");
+        let item_sel = Selector::parse("span.ticker__item").expect("valid selector");
+        let published_at = ticker_box.select(&label_sel).next().and_then(|el| {
+            let t: String = el.text().collect();
+            let t = t.split_whitespace().collect::<Vec<_>>().join(" ");
+            de_date_after(&t, "Stand")
+        });
+        let Some(group) = ticker_box
+            .select(&group_sel)
+            .find(|g| g.value().attr("aria-hidden") != Some("true"))
+        else {
+            return Err(IngestError::Parse {
+                url: URL.to_owned(),
+                detail: "kein Preisticker".to_owned(),
+            });
+        };
+        let mut rows = Vec::new();
+        let mut skipped = Vec::new();
+        for item in group.select(&item_sel) {
+            let is_exclusion = item
+                .value()
+                .attr("class")
+                .unwrap_or_default()
+                .split_whitespace()
+                .any(|c| c == "ticker__item--no");
+            if is_exclusion {
+                continue;
+            }
+            let seg = item
+                .text()
+                .collect::<String>()
+                .split_whitespace()
+                .collect::<Vec<_>>()
+                .join(" ");
+            if seg.is_empty() || seg.starts_with("Keine Annahme") {
+                continue;
+            }
+            push_ticker_segment(&seg, &mut rows, &mut skipped);
+        }
+        if rows.is_empty() {
+            return Err(IngestError::Parse {
+                url: URL.to_owned(),
+                detail: "Preisticker leer".to_owned(),
+            });
+        }
+        return Ok((published_at, rows, skipped));
+    }
+
     let anchor_sel = Selector::parse("a").expect("valid selector");
     let h3 = Selector::parse("h3").expect("valid selector");
     // Never trust page order: take the ticker anchor carrying the dated
@@ -324,30 +384,7 @@ fn parse(
             continue;
         }
         let seg = strip_category(seg);
-        let Some((label, price, unit_frag)) = split_pair(seg) else {
-            skipped.push(format!("{seg} (kein Preis)"));
-            continue;
-        };
-        // Prose is not a label.
-        if label.chars().count() > 120 {
-            skipped.push(format!("{label} (Prosa, kein Preis)"));
-            continue;
-        }
-        // A "0,00" row is "no quote", not a free gift: loud skip.
-        if price == 0.0 {
-            skipped.push(format!("{label} (Preis 0,00)"));
-            continue;
-        }
-        // An unparseable unit is a loud skip, never a silent default: a
-        // per-tonne price recorded as per-kg would be a 1000x error.
-        let Some(unit) = unit_of(&unit_frag) else {
-            skipped.push(format!(
-                "{label} (Einheit unverständlich: {})",
-                unit_frag.trim()
-            ));
-            continue;
-        };
-        rows.push((label, price, unit));
+        push_ticker_segment(seg, &mut rows, &mut skipped);
     }
     if rows.is_empty() {
         return Err(IngestError::Parse {
@@ -356,6 +393,37 @@ fn parse(
         });
     }
     Ok((published_at, rows, skipped))
+}
+
+fn push_ticker_segment(
+    seg: &str,
+    rows: &mut Vec<(String, f64, &'static str)>,
+    skipped: &mut Vec<String>,
+) {
+    let Some((label, price, unit_frag)) = split_pair(seg) else {
+        skipped.push(format!("{seg} (kein Preis)"));
+        return;
+    };
+    // Prose is not a label.
+    if label.chars().count() > 120 {
+        skipped.push(format!("{label} (Prosa, kein Preis)"));
+        return;
+    }
+    // A "0,00" row is "no quote", not a free gift: loud skip.
+    if price == 0.0 {
+        skipped.push(format!("{label} (Preis 0,00)"));
+        return;
+    }
+    // An unparseable unit is a loud skip, never a silent default: a
+    // per-tonne price recorded as per-kg would be a 1000x error.
+    let Some(unit) = unit_of(&unit_frag) else {
+        skipped.push(format!(
+            "{label} (Einheit unverständlich: {})",
+            unit_frag.trim()
+        ));
+        return;
+    };
+    rows.push((label, price, unit));
 }
 
 /// Live category prefixes heading ticker segments ("FE-Schrott: …",
@@ -523,6 +591,80 @@ mod tests {
         // Redesign without anchors fails loudly.
         assert!(extract_info("<html><body><p>Neu hier</p></body></html>").is_err());
         assert!(extract_info("<h1 class=\"page-title\">Impressum</h1><p>leer</p>").is_err());
+    }
+
+    #[test]
+    fn redesigned_ticker_and_ddg_impressum_parse() {
+        let html = r#"
+        <div class="ticker" data-ticker>
+          <a class="ticker__label" href="/metallankauf">
+            <span>Schrottpreise<small> · Stand 06.11.2026</small></span>
+          </a>
+          <a class="ticker__viewport" href="/metallankauf">
+            <span class="ticker__track" data-ticker-track>
+              <span class="ticker__group">
+                <span class="ticker__cat">Eisen &amp; Stahl</span>
+                <span class="ticker__item">FE-Schrott gemischt <em>Händler</em> <b>160 € / t</b></span>
+                <span class="ticker__item">FE-Schrott gemischt <em>Privat, ab 100 kg</em> <b>120 € / t</b></span>
+                <span class="ticker__cat">Kupfer</span>
+                <span class="ticker__item">Kupfer blank (Millberry) <b>9,50 € / kg</b></span>
+                <span class="ticker__item">Kupfer raffiniert 95 % <b>8,00 € / kg</b></span>
+                <span class="ticker__item ticker__item--no">Keine Annahme von E-Schrott, weißer Ware und Katalysatoren</span>
+              </span>
+              <span class="ticker__group" aria-hidden="true">
+                <span class="ticker__item">FE-Schrott gemischt <em>Händler</em> <b>160 € / t</b></span>
+              </span>
+            </span>
+          </a>
+        </div>"#;
+        let (published_at, rows, skips) = parse(html).expect("redesigned ticker parses");
+        assert_eq!(published_at.as_deref(), Some("2026-11-06T00:00:00+00:00"));
+        assert!(skips.is_empty(), "{skips:?}");
+        assert_eq!(rows.len(), 4);
+        assert_eq!(
+            rows[0],
+            ("FE-Schrott gemischt Händler".to_owned(), 160.0, "EUR/t")
+        );
+        assert_eq!(
+            rows[1],
+            (
+                "FE-Schrott gemischt Privat, ab 100 kg".to_owned(),
+                120.0,
+                "EUR/t"
+            )
+        );
+        assert_eq!(
+            rows[2],
+            ("Kupfer blank (Millberry)".to_owned(), 9.5, "EUR/kg")
+        );
+        assert_eq!(grade_for(&rows[0].0), Some(("mischschrott", "Händler")));
+        assert_eq!(
+            grade_for(&rows[1].0),
+            Some(("mischschrott", "Privat ab 100 kg"))
+        );
+        assert_eq!(grade_for(&rows[3].0), Some(("kupfer-gemischt", "Raff 95%")));
+
+        let imp = r#"
+        <h1 id="legal-title">Impressum</h1>
+        <div class="legal__block">
+          <h2>Angaben gemäß § 5 DDG</h2>
+          <div class="prose"><p>P. U. Richter Umweltdienste Rheinland GmbH<br />
+Friesdorfer Straße 176<br />
+53175 Bonn</p>
+<p>Vertreten durch den Geschäftsführer Peter Uwe Richter</p></div>
+        </div>
+        <div class="legal__block">
+          <h2>Kontakt</h2>
+          <div class="prose"><p>Telefon: +49 228 95129-0<br />
+Telefax: +49 228 95129-99<br />
+E-Mail: <a href="mailto:entsorgung@pur-umwelt.com">entsorgung@pur-umwelt.com</a></p></div>
+        </div>"#;
+        let info = extract_info(imp).expect("DDG impressum parses");
+        assert_eq!(info.street, "Friesdorfer Straße 176");
+        assert_eq!(info.postcode, "53175");
+        assert_eq!(info.city, "Bonn");
+        assert_eq!(info.phone, "+49 228 95129-0");
+        assert_eq!(info.email, "entsorgung@pur-umwelt.com");
     }
 
     #[test]
