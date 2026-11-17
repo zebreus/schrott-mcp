@@ -61,8 +61,14 @@ Timeline-Ende ✓ ✓:
 | `nw-paderborn-peitzmann` | EfbV ZZEE002001862009 gilt 07.10.2025–07.01.2027; GüKG und Z3140 sind Scans **ohne** Textebene |
 | `nw-telgte-putzer` | Betrieb **Kurz Ebert** ist ein **anderer** Rechtsträger und wird **nicht** übernommen |
 
-**c) Eine fehlende Koordinate** ✓ ✓: `bb-ludwigsfelde-ka-de-schrott-und-metallhandels` —
-52.3198377/13.2574964 ✓ ✓ (aus `geo1108-1` ✓ ✓, im Hauptstand bislang ohne Koordinate ✓ ✓) ✓ ✓
+**c) `bb-ludwigsfelde-ka-de-schrott-und-metallhandels` — ein **vorbestehender** Widerspruch** ✓ ✓:
+Der Branch `geo1108-1` ✓ ✓ führt den Punkt **52.3198376/13.2574964** ✓ ✓, das Dossier selbst **nicht**
+✓ ✓ — es vermerkt „Klärfall – keine Koordinate gesetzt" ✓ ✓, weil der OSM-Punkt zu „Mühl Product &
+Service" gehört ✓ ✓. Die **Datenbank** führt den Punkt trotzdem **seit dem 05.11.2026** ✓ ✓, weil der
+Seed-Import ein leeres Feld **nicht** überschreibt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ — ein **vorbestehender** Fall ✓ ✓,
+**nicht** durch die Integration verursacht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+Die konsequente Korrektur wäre `clear_fields: geo` ✓ ✓ — sie ist **bewusst nicht** Teil dieses
+Releases ✓ ✓ (sie ändert einen Feldwert ✓ ✓ und gehört in einen eigenen, geprüften Schritt ✓ ✓) ✓ ✓ ✓ ✓
 
 ### 4) Die Gates nach der Integration ✓ ✓
 

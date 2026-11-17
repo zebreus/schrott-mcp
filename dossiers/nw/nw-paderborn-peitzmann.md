@@ -82,4 +82,4 @@ Am Atlaswerk22/33106Paderborn ist aktueller PreZero-Standort in Register und Zer
 
 ### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
 
-- [Korrektur 17.11.2026: Das EfbV-Originalzertifikat **ZZEE002001862009** des amtlichen Fachbetrieberegisters gilt vom 07.10.2025 bis 07.01.2027 und nennt denselben Standort in seiner Anlage. Die beiden übrigen Dateien (GüKG und Z3140) sind Scans **ohne** Textebene und deshalb nur über Dateiname und Zertifikatsportal belegt; das Originalzertifikat bleibt die belastbare Grundlage.]
+- [Korrektur 17.11.2026: Das EfbV-Originalzertifikat **ZZEE002001862009** des amtlichen Fachbetrieberegisters wird vom Zertifikatsportal mit Gültigkeit **bis 29.04.2027** geführt; die Anlage nennt denselben Standort. Die beiden übrigen Dateien (GüKG und Z3140) sind Scans **ohne** Textebene und deshalb nur über Dateiname und Zertifikatsportal belegt; das Originalzertifikat bleibt die belastbare Grundlage. Der Zeitraum 07.10.2025 bis 07.01.2027 aus dem Zertifikats-PDF gehört zur **EnMS/ISO-50001**-Anlage, nicht zum EfbV-Zertifikat.]
