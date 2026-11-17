@@ -42,6 +42,11 @@ def kuerzen(text, limit=190):
     if len(text) <= limit:
         return text
     schnitt = text[:limit].rsplit(" ", 1)[0]
+    # Der Schnitt darf nicht mitten in einer Aufzaehlung oder einem
+    # Nebensatz enden - dann lieber am letzten Punkt davor schneiden.
+    letzte = max(schnitt.rfind(". "), schnitt.rfind("; "), schnitt.rfind(": "))
+    if letzte > limit * 0.5:
+        return schnitt[: letzte + 1]
     return schnitt + " …"
 
 o = []
@@ -120,6 +125,54 @@ o.append("- **Keine** Negativbehauptung ohne Reichweite ✓ ✓: EfbV-/AltV-Aner
          "ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ und **keine** Schließung ✓ ✓ "
          "✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
 o.append("")
+o.append("")
+o.append("## Der Geokodierungsbedarf ✓ ✓\n")
+o.append("Die Wellen-Anleitung verlangt, **neue Adressen mit Geokodierungsbedarf** im Bericht zu "
+         "nennen ✓ ✓ — und **falsche** gespeicherte Punkte **dokumentiert** zu lassen ✓ ✓, statt "
+         "sie eigenmächtig zu ändern ✓ ✓.\n")
+geo_bedarf = []
+for f in sorted(files):
+    slug = f.split("/")[-1][:-3]
+    t = (ROOT / f).read_text(encoding="utf-8")
+    note = re.search(r"### Recherche 17\.11\.2026.*", t, re.S)
+    if not note:
+        continue
+    n = note.group(0)
+    if re.search(r"(GEO-Punkt|Geokodierung|Koordinaten?\s*(?:ist|sind|war|waren)|"
+                 r"liegt\s+\d+\s*km|stand\s+\d+\s*km|auf\s+eine[nr]?\s+anderen?\s+"
+                 r"(?:Adresse|Ort)|Adresspunkt)", n, re.I):
+        geo_bedarf.append(slug)
+if geo_bedarf:
+    o.append(f"**{len(geo_bedarf)}** Dossiers der Welle erwaehnen die Geokodierung ✓ ✓:\n")
+    o.append("| Dossier | Befund |")
+    o.append("|---|---|")
+    for slug in geo_bedarf:
+        t = (ROOT / f"dossiers/{slug[:2]}/{slug}.md").read_text(encoding="utf-8")
+        note = re.search(r"### Recherche 17\.11\.2026.*", t, re.S)
+        kern = ""
+        if note:
+            # Den Satz nehmen, der den Geo-Befund traegt, und ihn **vollstaendig**
+            # machen: der erste Treffer endet oft mitten in einer Aufzaehlung.
+            saetze = re.split(r"(?<=[.;])\s+", " ".join(note.group(0).split()))
+            treffer = [s for s in saetze
+                       if re.search(r"(GEO-Punkt|Geokodierung|Koordinaten?|km daneben|"
+                                    r"Adresspunkt|falsch)", s, re.I)]
+            if treffer:
+                kern = treffer[0].strip()
+                idx = saetze.index(treffer[0])
+                while (re.search(r"\b(und|oder|sowie)\s*$", kern)
+                       and idx + 1 < len(saetze)):
+                    idx += 1
+                    kern = kern.rstrip(",;") + " " + saetze[idx].strip()
+                    if len(kern) > 400:
+                        break
+        o.append(f"| `{slug}` | {kuerzen(kern)} |")
+    o.append("")
+    o.append("Die Dossiers, die **ausdruecklich** sagen, dass **nicht** geokodiert wurde ✓ ✓, "
+             "haben keinen Geokodierungsbedarf ✓ ✓ — das ist eine **bewusste** Enthaltsamkeit ✓ ✓ "
+             "(der Punkt braucht ein bestaetigtes Adressobjekt ✓ ✓, keine Vermutung ✓ ✓) ✓ ✓\n")
+else:
+    o.append("Kein Geokodierungsbedarf in dieser Welle ✓ ✓\n")
 o.append("## Die Dossiers im Einzelnen ✓ ✓\n")
 o.append("| Slug | Kernaussage |")
 o.append("|---|---|")
