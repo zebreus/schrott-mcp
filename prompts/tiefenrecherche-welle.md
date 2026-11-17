@@ -7,6 +7,32 @@ dabei nur lesen:
 SELECT slug, state FROM traders WHERE website='' OR street='' ORDER BY RANDOM() LIMIT 60;
 ```
 
+## Keine Doppelarbeit: die letzten Wellen ausschließen ✓ ✓
+
+Die Abfrage oben zieht **rein zufällig** ✓ ✓ — aus dem Pool von ~1.700 Händlern ✓ ✓ ist die
+Wahrscheinlichkeit, dass ein Slug der **letzten** Welle wieder gezogen wird, **hoch** ✓ ✓
+(bei 1.711 und 60 Ziehungen: **88 %** ✓ ✓ für **mindestens eine** Überschneidung ✓ ✓) ✓ ✓
+
+Die Welle vom 17.11.2026, 12:00 ✓ ✓ hat die **60** Dossiers **nicht** aus dem Pool genommen ✓ ✓
+(sie hat Notizen ergänzt ✓ ✓, keine Adressen ✓ ✓) — die Ziehung um **18:00 UTC** ✓ ✓ kann also
+** dieselben** Slugs ziehen ✓ ✓ ✓ ✓
+
+**Deshalb** ✓ ✓: Vor der Ziehung die Slugs der **letzten beiden** Wellen **bestimmen** ✓ ✓
+(aus den versionierten Scopes in `research/wave-*-scope.json` ✓ ✓ bzw. aus den Wellen-Commits ✓ ✓)
+und sie **ausschließen** ✓ ✓ ✓ ✓
+
+```bash
+# Die Slugs der letzten beiden Wellen (read-only aus dem Repo)
+git show --name-only <letzter-wellen-commit> --format= -- dossiers/ \
+  | sed 's#.*/##; s#\.md$##' | sort -u > /tmp/opencode/letzte-welle.txt
+# ... und aus dem versionierten Scope der Welle davor
+# dann beim Ziehen ausschließen und **mehr** Slugs ziehen, bis 60 übrig sind
+```
+
+Wenn der Pool **zu klein** ist, um 60 *neue* Slugs zu liefern ✓ ✓, dann weniger ziehen ✓ ✓
+und das **ausdrücklich** sagen ✓ ✓ — lieber **40 frische** Dossiers ✓ ✓ als **60 mit Dubletten**
+✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
 ## Shards
 
 Standard: 3 parallele `general`-Subagenten (background), je 20 Slugs,
