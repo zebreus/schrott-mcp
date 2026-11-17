@@ -80,3 +80,24 @@ Altfahrzeugverwertungs-Anerkennung, die zwischen Zertifikat (HRB 4164) und Regis
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.2653786/10.5922734.** Für den Dossier-Eintrag **Vogel & Sohn GmbH & Co. KG** trägt das OSM-Objekt way/626598100 (`addr:housenumber`=22, `addr:street`=Hardtstraße, `addr:postcode`=91522, `addr:city`=Ansbach, `name`=Vogel & Sohn) die Dossier-Adresse **Hardtstr. 22, 91522 Ansbach** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**Vogel & Sohn**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 49.264959/10.5915874 bis 49.2656531/10.592751). Quelle(n): https://api.openstreetmap.org/api/0.6/way/626598100/full.json ; https://nominatim.openstreetmap.org/search?q=Hardtstr.+22%2C+91522+Ansbach&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Hardtstr.+22&postalcode=91522&city=Ansbach&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 15.11.2026 (Zertifikatstiefe aus dem Review vom 06.11.2026)
+
+- [Korrektur 15.11.2026: **Zwei Angaben des Eintrags wichen vom PDF ab: die Bezeichnung des Datums in Feld 6
+  und die §-28-NachwV-Kennummer der Anlage 2.** Geprüft wurde das Zertifikats-PDF der TÜV SÜD Umweltgutachter
+  GmbH (Detaildialog und „Zertifikat herunterladen" am 06.11.2026, Registerabfrage am 06.11.2026) mit `pdftotext
+  -layout`, feldweise: 3.1 `12 150 59812`, 3.3 `ZZIT007004234009`, 3.4 `Das Zertifikat beinhaltet 3 Anlage(n).`,
+  3.7 `gültig bis zum 17.08.2027`, 6. `Prüfungsdatum: 17.02.2026`, 8. Ausstellungsdatum `18.06.2026`; Aussteller
+  1.1 bis 1.3 `TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München`; Rechtsträger 4.1 bis 4.4 `Vogel &
+  Sohn GmbH & Co. KG`, `Hardtstr. 22`, `91522 Ansbach`, `Registernummer (HRA, HRB etc.): HRB 4164`,
+  `Registergericht: Ansbach`. Das PDF-Feld 6 heißt wörtlich `Prüfungsdatum` (der Eintrag nannte `Auditdatum`),
+  und Anlage 2 weist in Feld 2.3 `Lagern` die Kennummer `I561E00978` aus, die im Eintrag fehlte (Anlage 3 trägt
+  in 2.4 `Behandeln` dieselbe Kennnummer). **Standorttreue:** Alle drei Anlagen tragen in Feld 1.1 bis 1.3
+  `Vogel & Sohn GmbH & Co. KG`, `Hardtstr. 22`, `91522 Ansbach` und sind dem Dossierstandort zugeordnet. Das
+  Zertifikat enthält keine Anlage an einem anderen Standort; die Anlagentechnik der Anlage 3 nennt wörtlich
+  `Erstbehandlungsanlage für die Schadstoffentfrachtung und Wertstoffseparierung (SW) von Elektroaltgeräten der
+  Gerätekategorien 4 und 5`, und Feld 3.1 der Anlage 3 ist mit `Nur bei zertifizierter Erstbehandlungsanlage im
+  Sinne des § 21 ElektroG` überschrieben — die zweite Eintragung des Dossiers zur Erstbehandlungsanlage ist
+  damit am PDF belegt. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Vogel&p=ZZIT00700423&fd=1
+  ; https://www.schrott-vogel.de/wp-content/uploads/2026/07/EfB-Zertifikat-2026-gueltig-bis-2027-Vogel-und-Sohn-GmbH-Co.-KG-incl.-Erstbehandlungsanlage-fuer-ElektroG.pdf
+  (Abruf 06.11.2026).]
