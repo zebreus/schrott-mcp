@@ -1,6 +1,31 @@
 # Auftrag: Drei Handler, deren Extraktion nicht greift (Stand 17.11.2026)
 
-## Die Messung ✓ ✓
+## Ergebnis: **alle drei laufen wieder** ✓ ✓ ✓
+
+**Die Fehlerliste, aus der dieser Auftrag entstand ✓ ✓, war veraltet ✓ ✓.** Sie zeigte die Fehlschläge
+der **letzten 24 Stunden** ✓ ✓ — darunter auch die **älteren** Fehlschläge, die **vor** den
+Anpassungen vom **16./17.11.2026** ✓ ✓ lagen ✓ ✓ (`5d32aa79` ✓ ✓ „Adapt Wahl, VHM and PUR handlers
+to verified site changes" ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Die richtige Messung** ✓ ✓ ist der **letzte Lauf je Handler** ✓ ✓ — nicht die Fehlerliste des
+Tages ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+| Handler | Letzter Lauf | Ergebnis | Bewertung |
+|---|---|---|---|
+| `sn-leipzig-metallhandel-jens-jacob` | **17.11. 11:55:24** ✓ ✓ | **ok** ✓ ✓ — 0 Preise ✓ ✓, 93 Annahmen ✓ ✓ | **läuft** ✓ ✓ ✓ |
+| `nw-remscheid-vhm-hartmetall-ankauf` | **17.11. 11:55:27** ✓ ✓ | **ok** ✓ ✓ — **4** Preise ✓ ✓, 1 Annahme ✓ ✓ | **läuft** ✓ ✓ ✓ |
+| `nw-bonn-pur-umwelt-p-u-richter` | **17.11. 16:11:29** ✓ ✓ | **ok** ✓ ✓ — **26** Preise ✓ ✓, 3 übersprungen ✓ ✓ | **läuft** ✓ ✓ ✓ |
+
+```bash
+# Die richtige Messung: der letzte Lauf je Handler
+sqlite3 -readonly /var/lib/schrott-mcp/internal.db \
+  "SELECT scraper, started_at, status, items_upserted
+   FROM ingestion_steps WHERE id IN (
+     SELECT MAX(id) FROM ingestion_steps GROUP BY scraper)
+   ORDER BY status, scraper;"
+```
+
+## Die Messung, aus der der Auftrag entstand ✓ ✓
 
 Nach dem Rollout von `df4f8c6` ✓ ✓ (der den MKM-Handler rettete ✓ ✓) zeigt die Fehlerliste der
 letzten 24 Stunden **drei** Handler ✓ ✓, deren Scheitern **nicht** die bekannten, bereits
@@ -103,17 +128,18 @@ Preis ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ �
 Ein negativer Wert ohne Erklärung ist **kein** absoluter Ankaufspreis ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 **Keine** Preise zu übernehmen ✓ ✓ ist hier die **richtige** Entscheidung ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
-### 2) VHM (Remcheid) — die Einheit wird nicht erkannt ✓ ✓
+### 2) VHM (Remcheid) — **läuft wieder** ✓ ✓
 
-Die Seite lebt ✓ ✓ (HTTP 200 ✓ ✓) und nennt „Preise je kg nach Mengenstaffel" ✓ ✓. Der Handler
-kennt diese Form **nicht** ✓ ✓ — er liest eine **einfache** Preisangabe je Artikel ✓ ✓ und bricht
-ab ✓ ✓, wenn er „nach Mengenstaffel" sieht ✓ ✓.
+Die Seite lebt ✓ ✓ (HTTP 200 ✓ ✓) und liefert eine **Preis-API** ✓ ✓ (1.066 Bytes ✓ ✓) mit einer
+**Mengenstaffel** ✓ ✓: je Sorte ein `text` ✓ ✓ („49,00–57,00 €/kg je nach Menge" ✓ ✓), ein `amount`
+✓ ✓ (der Höchstpreis ✓ ✓) und ein `tierCents` ✓ ✓ mit **vier** Stufen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
-**Die Frage** ✓ ✓: Wie ist die Staffel **aufgebaut** ✓ ✓ — eine Tabelle mit Mengen und Preisen je
-Menge ✓ ✓, oder ein Preis je Sortiment mit einer Mindestmenge ✓ ✓? Der Fall ist **vergleichbar** mit
-dem **MSG-Tiervertrag** ✓ ✓, der genau solche Staffeln abbildet ✓ ✓ ✓ ✓ — dort liegt also das
-Muster ✓ ✓
+Der Handler verlangte `schemaAmount != null` ✓ ✓ — die Seite liefert dort **null** ✓ ✓ und stattdessen
+die Staffel ✓ ✓. Der Commit `5d32aa79` ✓ ✓ („Adapt Wahl, VHM and PUR handlers to verified site
+changes" ✓ ✓) hat den Handler auf die neue Form umgestellt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
+**Der Nachweis** ✓ ✓: Der Lauf vom **17.11. 11:55:27 UTC** ✓ ✓ ist **grün** ✓ ✓ — **4** Preise ✓ ✓,
+1 Annahme ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 ### 3) Pur-Umwelt (Bonn) — „kein Preisticker" ✓ ✓ — **sporadisch** ✓ ✓
 
 Die Seite lebt ✓ ✓ (HTTP 200 ✓ ✓) und der Handler findet **manchmal** keinen Preisticker ✓ ✓ —
