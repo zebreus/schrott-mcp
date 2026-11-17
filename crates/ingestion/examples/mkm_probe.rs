@@ -24,12 +24,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Der Nachweis, gegen wen der Handler laeuft: die Seite liefert den
     // Cache-Buster, das Stylesheet wird mit genau dieser Query geholt.
-    let page = client
-        .get(mkm_metals::URL)
-        .send()
-        .await?
-        .text()
-        .await?;
+    let page = client.get(mkm_metals::URL).send().await?.text().await?;
     let buster = page
         .split("gesamt.min.css")
         .nth(1)
@@ -43,7 +38,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("seite: {}", mkm_metals::URL);
     println!("stylesheet_url: {css_url}");
     println!("cache_buster: {buster}");
-    println!("stylesheet_sha256: {:x}", Sha256::digest(normalized.as_bytes()));
+    println!(
+        "stylesheet_sha256: {:x}",
+        Sha256::digest(normalized.as_bytes())
+    );
     println!("stylesheet_bytes: {}", normalized.len());
 
     let snapshot = mkm_metals::scrape_articles(&client).await?;
