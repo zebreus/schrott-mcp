@@ -19,12 +19,12 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "5858dc6",
+  "dossier_revision": "e705685",
   "owner_review": "research/branch-integration-20261117.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 17.11.2026 (Nachprüfung der Shards, in main integriert))",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 5858dc6 gehoben",
+  "revised_by": "Owner (Welle 17.11.2026 (Nachprüfung der Shards, korrigiert nach Review))",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases e705685 gehoben",
   "rows": [
     {
       "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
