@@ -15,7 +15,7 @@ läuft ✓ ✓, aber einzelne Preise nicht auffrischt ✓ ✓ (die Seite bietet 
 
 | Händler | stale | laufender Handler | letzte Aktualisierung |
 |---|---|---|---|
-| `rp-ludwigshafen-mkm-metals` | 56 | ja (Turnus 11:50 UTC) | 13.11.2026 |
+| `rp-ludwigshafen-mkm-metals` | 56 | ja (Turnus 14:36 UTC nach dem Boot von 10:39) | 13.11.2026 |
 | `ni-braunschweig-neuwert-schrott-altmetallhandel` | 3 | ja | 17.11.2026 |
 | `bb-lubben-neuendorf-smr` | 6 | ja | 17.11.2026 |
 | `hh-st-georg-schiefer-co-edelmetall-scheideanstalt` | 2 | ja | 17.11.2026 |
@@ -151,5 +151,5 @@ aus der Betreiberseite kommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ �
 | `bw-karlsruhe-76133-scheideanstalt-karlsruhe` | 1 | 2026-09-28 | `scheideanstalt_ka.rs` |
 **Zusammengefasst** ✓ ✓: **76** Händler ✓ ✓ · **1608** stehengebliebene Preiszeilen ✓ ✓ ·
 **4** davon mit laufendem Handler ✓ ✓ (davon einer — MKM ✓ ✓ — ist seit dem Release vom
-17.11. 07:52 UTC ✓ ✓ gefixt ✓ ✓ und aktualisiert sich zum nächsten 6h-Turnus ✓ ✓ um **11:50
+17.11. 07:52 UTC ✓ ✓ gefixt ✓ ✓ und aktualisiert sich zum nächsten 6h-Turnus ✓ ✓ um **14:36
 UTC** ✓ ✓) ✓ ✓
