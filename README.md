@@ -283,6 +283,25 @@ force-runs every handler immediately.
 
 ## Deploy
 
+### Branches: exactly one
+
+There is **one branch: `main`**. It is the release line — the owner commits
+and publishes on `main`, and no other branch is created on GitHub. Shard work
+that runs in parallel lives in a temporary worktree (`git worktree add`) and is
+**merged into `main`**, never kept as a branch of its own. A local branch that
+is fully contained in `main` is deleted, not archived.
+
+Before publishing, check that the branch is `main`:
+
+```bash
+git branch --show-current     # must be main
+git push origin main
+```
+
+**Why:** work that only lives on a side branch is invisible — it never shows
+up in the repository's default view, and it gets lost the next time the branch
+is removed. Everything that is researched goes to `main`.
+
 Systemd unit `schrott-mcp.service` runs the release binary as root behind
 the existing nginx, which terminates TLS for `schrottindex.de`
 (port 4001, data dir `/var/lib/schrott-mcp`). Binaries live in

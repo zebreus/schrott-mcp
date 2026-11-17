@@ -63,6 +63,14 @@ Auftragsmuster steht in `prompts/tiefenrecherche-welle.md`.
 
 ## 5) GitHub-Veröffentlichung
 
+**Es gibt genau einen Branch: `main`.** Auf GitHub existiert kein anderer
+Branch, und es wird auch keiner angelegt. Der Owner arbeitet, committet und
+publiziert auf `main`; die Release-Linie **ist** `main`. Vor dem Push prüfen:
+
+```bash
+git branch --show-current     # muss main sein
+```
+
 Für `zebreus/schrott-mcp` ist ein GitHub-PAT mit Push-Recht für diese
 Automation provisioniert. Das PAT ist geheim: niemals committen, ausgeben,
 in eine Remote-URL, Shell-History oder Logs schreiben. Auf dem aktuellen
@@ -74,13 +82,13 @@ prüfen. Er lädt die geschützte Umgebungsvariable, konfiguriert Gits GitHub-CL
 Credential-Helper und führt nur einen Dry-Run aus:
 
 ```bash
-HOME=/root bash -ic 'gh auth setup-git && GIT_TERMINAL_PROMPT=0 git push --dry-run origin "$(git branch --show-current)"'
+HOME=/root bash -ic 'gh auth setup-git && GIT_TERMINAL_PROMPT=0 git push --dry-run origin main'
 ```
 
-Nach erfolgreichem Dry-Run den aktuellen Branch veröffentlichen:
+Nach erfolgreichem Dry-Run `main` veröffentlichen:
 
 ```bash
-HOME=/root bash -ic 'gh auth setup-git && GIT_TERMINAL_PROMPT=0 git push origin "$(git branch --show-current)"'
+HOME=/root bash -ic 'gh auth setup-git && GIT_TERMINAL_PROMPT=0 git push origin main'
 ```
 
 Einen Commit erst dann als veröffentlicht bezeichnen, wenn dieser Push-Befehl

@@ -42,6 +42,14 @@ Betreiber-Ketten). Neue Adressen mit Geocodierungsbedarf im Bericht nennen.
 Overwrite-Scan, Enum-Validierung, Deep-Link-/Emdash-Check, Notenformat, dazu
 die **Klammerbalance** der `certifications`-Einträge, dann
 Seed-Tests (`cargo test -p schrott-mcp-ingestion seed`), ein Commit und Push.
+
+**Es gibt genau einen Branch: `main`.** Die Shards arbeiten in temporären
+Worktrees, ihre Ergebnisse werden vom Owner **in `main` übernommen** — ein
+Shard-Branch wird nie angelegt und nie zum Fundort der Arbeit. Wer einen
+Shard-Branch findet, prüft zuerst, ob sein Inhalt schon in `main` ist
+(`git rev-list --count main..<branch>`); ist er dort vollständig enthalten,
+wird der Branch gelöscht statt weitergeführt.
+
 Deployment nur nach explizit grüner **Pre-Deploy-Freigabe** für exakt den
 geprüften Commit, Seed-Bestand und die Release-Binaries (Owner-/erforderliches
 unabhängiges Review, Tests, Source-/Seed-Audit sowie private
