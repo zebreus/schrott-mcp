@@ -1,0 +1,8 @@
+beobachtet_utc: 2026-11-17T13:54:24.006695915+00:00
+seite: https://mkm-metals.de/metallpreise
+stylesheet_url: https://mkm-metals.de/assets/css/gesamt.min.css?v=1794911825
+cache_buster: ?v=1794911825
+stylesheet_sha256: cf1b76e3cdadbf9e9fa1a6654ce50f87f7aebe049570fed47110ccf09b0adc47
+stylesheet_bytes: 79703
+live gescrapt: 56 Preise, 5 Annahmen, 61 Artikel
+aufgezeichnet: 56 Preise, 5 Annahmen, 0 übersprungen, 0 Canaries
