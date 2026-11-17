@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "release_commit": "e70568580434ff0827b8e118522f45dfa7b4e844",
+  "release_tree": "1eefb07114bd9c64739411ec6082318e8dc9db3d",
+  "rehearsal_manifest_sha256": "704560da8603553c0454eb61b48f3672ce820abf783c9ff3e922328f9761c908",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "by-ansbach-vogel-sohn",
+    "nw-bergisch-gladbach-krau",
+    "nw-bochum-wattenscheid-schrotthandler-plus",
+    "nw-bottrop-puffahrt",
+    "nw-dortmund-horde-alcunimet",
+    "nw-erkelenz-kb",
+    "nw-essen-schrott-busters",
+    "nw-horn-bad-meinberg-neuwald",
+    "nw-lippstadt-mrad",
+    "nw-ludinghausen-ash",
+    "nw-munster-smb-schrott-und-metallhandel",
+    "nw-paderborn-peitzmann",
+    "nw-telgte-putzer"
+  ],
+  "scope": "exactly the 13 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-e705685. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "by-ansbach-vogel-sohn",
+      "values": {
+        "name": "Vogel & Sohn GmbH & Co. KG",
+        "city": "Ansbach",
+        "street": "Hardtstr. 22",
+        "postcode": "91522",
+        "phone": "0981 466 19 40",
+        "email": "mail@schrott-vogel.de",
+        "opening_hours": "Mo–Fr 07:00–12:00, 13:00–15:30 (Materialannahme); Sa/So geschlossen",
+        "description": "Schrott- und Metallhandel; Ankauf von Schrott und NE-Metallen; Containerdienst; Gießereibedarf (Aufbereitung von Metallspänen zu Presslingen).",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.schrott-vogel.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "5b35a1db609be1db0230a21eba0980b331b4a4ef6cb95cdeb1a797ca77789b51",
+      "seed_hash": "c6195f4dd95d24ea",
+      "geo": [
+        49.2653786,
+        10.5922734
+      ],
+      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"days\":[\"Mo\",\"Di\",\"Mi\",\"Do\",\"Fr\"],\"time_windows\":[{\"start\":\"07:00\",\"end\":\"12:00\"},{\"start\":\"13:00\",\"end\":\"15:30\"}],\"conditions\":\"Annahme von Schrott und NE-Metallen; Ankauf ab 1 kg.\"}",
+      "pickup_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"conditions\":\"Containerdienst in Ansbach und Umgebung; Lieferung und Abholung von Abrollcontainern, Absetzmulden und Kranmulden.\"}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München; Zertifikat 12 150 59812, Vorgangsnummer ZZIT007004234009; Prüfungsdatum 17.02.2026, Ausstellungsdatum 18.06.2026, gültig bis 17.08.2027; Rechtsträger Vogel & Sohn GmbH & Co. KG, Standort Hardtstr. 22, 91522 Ansbach, HRB 4164 Amtsgericht Ansbach; zertifizierte Tätigkeiten Sammeln und Befördern (Anlage 1, Kennnummer nach § 28 NachwV I561Q00046), Lagern und Verwerten (Anlage 2, I561E00978), Behandeln und Verwerten (Anlage 3, I561E00978); 3 Anlagen)\", \"Erstbehandlungsanlage nach § 21 ElektroG (Zertifikat 12 150 59812 / Vorgangsnummer ZZIT007004234009, Anlage 3: Die Einhaltung der Anforderungen des ElektroG wurde geprüft und die Anlage gilt als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG; Anlagentechnik: Behandeln von metallischen Abfällen durch Brikettierpresse für Metallspäne und der Zerkleinerung mit nachgeschaltetem Fe- und NE-Abscheiders, Erzeugung von Ersatzbrennstoff, Erstbehandlungsanlage für die Schadstoffentfrachtung und Wertstoffseparierung (SW) von Elektroaltgeräten der Gerätekategorien 4 und 5; Kennnummer nach § 28 NachwV für Behandeln I561E00978)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für diesen Standort (Abfrage 06.11.2026)\"]"
+    },
+    {
+      "slug": "nw-bergisch-gladbach-krau",
+      "values": {
+        "name": "Krauß",
+        "city": "Bergisch Gladbach",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "1164ef50c5f463806d078b088c72707ea2edbed562a09684cac61aa908b88a09",
+      "seed_hash": "a9160ee4ac5acf3c",
+      "geo": [
+        50.98018,
+        7.128399999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
+      "values": {
+        "name": "Schrotthändler Plus",
+        "city": "Bochum-Wattenscheid",
+        "street": "",
+        "postcode": "",
+        "phone": "0157 36548705",
+        "email": "info@schrotthaendler-plus.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.schrotthaendler-plus.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "dfe9e548906f66b247805b861117e788e5f68915d345804a096230f5f40546c8",
+      "seed_hash": "723c3561a364aa17",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-bottrop-puffahrt",
+      "values": {
+        "name": "Puffahrt",
+        "city": "Bottrop",
+        "street": "Bottroper Str. 34",
+        "postcode": "46244",
+        "phone": "02045 6940459, 0177 7860856",
+        "email": "info@schrottabholung123.de",
+        "opening_hours": "",
+        "description": "Betreiber: Dieter Puffahrt, Inhaber (Einzelunternehmer), eigene Domain schrottabholung123.de mit Impressum Bäingser Weg 77, 58675 Hemer. Der 11880-Eintrag \"Schrotthandel Puffahrt\" nennt den Standort Bottroper Str. 34, 46244 Bottrop sowie die beiden Rufnummern 02045 6940459 und 0177 7860856 sowie die E-Mail-Adresse des Betreibers; beide Anschriften sind damit demselben Betreiber zugeordnet. Der Betreiber wirbt mit kostenloser Schrottabholung und einer Vergütung nach Tagespreisen auf Anfrage; bezifferte Kurse werden nicht veröffentlicht. Das amtliche Fachbetrieberegister führt für den Bottroper Standort keinen Entsorgungsfachbetrieb; die Betreiberseite nennt eine Befugnis nach § 53 KrWG für das Befördern und Handeln nicht gefährlicher Abfälle, die keine EfbV-Anerkennung nach § 56 KrWG ist. ANKAUF: keine bezifferten Kurse. VERKAUF: nicht belegt. GEBÜHREN: kostenlose Abholung laut Betreiber, keine Tarifordnung.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrottabholung123.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "cebc0f5659a2357de9e2c3e0adb86f751c5ff8dfafb1fd2df6133261f726198b",
+      "seed_hash": "064b8f29aadc25fb",
+      "geo": [
+        51.53954,
+        6.926519999999999
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-dortmund-horde-alcunimet",
+      "values": {
+        "name": "AlCuNiMet GmbH",
+        "city": "Dortmund",
+        "street": "Feldmark 2",
+        "postcode": "44267",
+        "phone": "02304 779252",
+        "email": "info@alcunimet.de",
+        "opening_hours": "Mo-Fr 08:00-14:00, 14:30-16:30",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "sonstige",
+        "website": "https://alcunimet.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "2c6081bf5067d5c714a60b645e40c859878178c41b220ce87171c9a25c836920",
+      "seed_hash": "7b10ea627150d5ff",
+      "geo": [
+        51.4434869,
+        7.5338343
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): ALCUNIMetall GmbH (Grid-Bezeichnung „Hauptsitz“), Feldmark 2, 44267 Dortmund, Vorgangsnummer ZZET008000052013 (Zertifikat-Nr. 403-10-26, Aussteller G.BZ-Zert, Westring 303, 44629 Herne, gültig bis 31.05.2027, Prüfungsdatum 25.02.2026, Ausstellungsdatum 09.03.2026, 1 Anlage), (Anlage 1 Sammeln, Befördern, Lagern, Behandeln, Verwerten und Handeln, Kennnummern nach § 28 NachwV E913T10703 / E913A70185 / E913M00931, HRB 22444 Amtsgericht Dortmund)\"]"
+    },
+    {
+      "slug": "nw-erkelenz-kb",
+      "values": {
+        "name": "KB",
+        "city": "Erkelenz",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "mobil",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "6f88e72ec3a35af6dda622a8fd70acc1abc17439d060635350e45700207c64a3",
+      "seed_hash": "190a853a8806cf44",
+      "geo": [
+        51.0795,
+        6.3153
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-essen-schrott-busters",
+      "values": {
+        "name": "Schrott Busters",
+        "city": "Essen",
+        "street": "Fischweiher 26",
+        "postcode": "45307",
+        "phone": "0177 6105096",
+        "email": "kontakt@schrott-busters.de",
+        "opening_hours": "Mo-Fr 08:00-19:00, Sa 09:00-15:00",
+        "description": "Schrott Busters, Inhaber Oliver Wojke, Fischweiher 26, 45307 Essen. Mobiler Schrotthandel für Privat und Industrie: kostenlose Abholung von Schrott, Buntmetallen und Elektroschrott, Ankauf und Verkauf von Elektronikschrott, Brenn- und Demontagearbeiten sowie Haus- und Geschäftsauflösungen in ganz NRW. Eine Efb- oder AltfahrzeugV-Anerkennung ist im amtlichen Fachbetrieberegister nicht eingetragen; öffentliche Ankaufkurse werden nicht veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrott-busters.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "8c6c13072a18015d3f5029744d7558a62f21ece6d263dc2a1d9f429360da3ad4",
+      "seed_hash": "41efd2c7d4064ae5",
+      "geo": [
+        51.4660509,
+        7.0729867
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-horn-bad-meinberg-neuwald",
+      "values": {
+        "name": "Neuwald",
+        "city": "Horn-Bad Meinberg",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "884bca1633543ebb555f1bc17a0f705eb4fcd1849d1b6adc1f74e3a582ba3ea7",
+      "seed_hash": "d9e95133c86094ff",
+      "geo": [
+        51.8855,
+        8.9624
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-lippstadt-mrad",
+      "values": {
+        "name": "Mrad",
+        "city": "Lippstadt",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e14c89e4388ba8c5a837a67263096e8e66b88bf3d22befbc2c12320f8ecf6aec",
+      "seed_hash": "79891feed873dd26",
+      "geo": [
+        51.666875,
+        8.34615
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-ludinghausen-ash",
+      "values": {
+        "name": "ASH",
+        "city": "Lüdinghausen",
+        "street": "Hans-Böckler-Straße 16",
+        "postcode": "59348",
+        "phone": "02591 89 127 29",
+        "email": "info@ash-schrotthandel.de",
+        "opening_hours": "Mo-Fr 08:30-17:00, Sa 08:30-13:00",
+        "description": "ASH Rohstoffhandel, inhabergefuehrter Schrott- und Altmetallhandel in Lüdinghausen, Hans-Böckler-Straße 16, 59348 Lüdinghausen. Das Impressum der Betreiberseite nennt als Anbieter ASH Aid El-Lahib mit der Umsatzsteuer-Identifikationsnummer DE255152707; eine Firmierung wird nicht genannt, der Betrieb tritt als Einzelunternehmer auf. Betreiberseiten ash-schrotthandel.de und die Zweitdomain altmetallen.de nennen eine Annahmestelle in Lüdinghausen mit geeichten Waagen, mobile Schrottabholung, kostenlose Containerstellung sowie den An- und Verkauf von Schrott und Metall; Ankaufspreise sind tagesaktuell, werden aber nicht beziffert. Eine Efb- oder AltfahrzeugV-Anerkennung ist im amtlichen Fachbetrieberegister nicht eingetragen; Rechtsform und Inhaber bleiben amtlich unbestätigt.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.ash-schrotthandel.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b4e696d3ce51c99eb8650ac5dcedcac30e9aa749bcf2ebd9104c119dbd471aac",
+      "seed_hash": "6662c1ba0dbde2bc",
+      "geo": [
+        51.7625658,
+        7.4276542
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-munster-smb-schrott-und-metallhandel",
+      "values": {
+        "name": "SMB Schrott und Metallhandel",
+        "city": "Münster",
+        "street": "Coermühle 12",
+        "postcode": "48157",
+        "phone": "0251 271168",
+        "email": "",
+        "opening_hours": "",
+        "description": "SMB Schrott und Metallhandel, Coermühle 12, 48157 Münster, Telefon 0251 271168. Herkunft ist bislang ein Branchenbuch-Profil ohne Betreiber- oder Registerbeleg; das im Profil genannte Betreiberportal schrottentsorgungmuenster.de hat keinen DNS-Eintrag. Der Lizenzblock dieses Portals weist dem Betrieb den Entsorgungsfachbetrieb nach § 56 KrWG, den Altautoentsorgungs- bzw. Demontagebetrieb nach § 7 AltfahrzeugV sowie DIN EN ISO 14001:2015 und DIN EN ISO 9001:2008 jeweils mit einem roten Kreuz als fehlend aus; im amtlichen Fachbetrieberegister ist für SMB an der Coermühle 12 weder ein Efb- noch ein Altfahrzeug-Eintrag vorhanden. ANKAUF: keine belegten Kurse. VERKAUF: keine Liste belegt. GEBÜHREN: keine Gebührenordnung belegt.",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "tot"
+      },
+      "notes_sha256": "1bf5ad8f21cebc0e274fed1de0bc69f7f6d872e9787dc01ed339318a93c8ba7b",
+      "seed_hash": "3719e37d96210d33",
+      "geo": [
+        51.699294117647064,
+        8.038882352941176
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-paderborn-peitzmann",
+      "values": {
+        "name": "Peitzmann GmbH",
+        "city": "Paderborn",
+        "street": "Am Atlaswerk 22",
+        "postcode": "33106",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Historische Firmierung Peitzmann GmbH (Handelsregister HRB 13128, AG Paderborn); der Registerstand vom 07.03.2019 führt dieselbe Gesellschaft seit dem 11.02.2019 als PreZero Metall GmbH. Amtlich anerkannter Standort ist Am Atlaswerk 22, 33106 Paderborn (Entsorgungsfachbetrieb nach § 56 KrWG, Zertifikat 0118 der EdDE, Vorgangsnummer ZZEE002001862009, gültig bis 29.04.2027, 7 Anlagen mit den Tätigkeiten Sammeln und Befördern, Lagern, Behandeln, Verwerten und Beseitigen). Eine Anerkennung als Altfahrzeug-Demontagebetrieb ist für diesen Standort nicht eingetragen. Fahrzeugvergütung, Annahmebedingungen und Gebühren sind nicht veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "63399c72def772f55abcc26c3a2ead72504a78e07c4820bdf1c2f6d524825e53",
+      "seed_hash": "128c3668c8ae411e",
+      "geo": [
+        51.7008083,
+        8.7487607
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (Originalzertifikat des amtlichen Fachbetrieberegisters, abgerufen am 11.11.2026 über die Permalink-Route der Route Entsorgungsfachbetriebe): PreZero Metall GmbH, Am Atlaswerk 22, 33106 Paderborn, Registernummer HRB 13128, Registergericht Paderborn; Zertifikatsnummer 0118 (28. jährliche Überprüfung) der EdDE Entsorgergemeinschaft der Deutschen Entsorgungswirtschaft e.V., Köln; Vorgangsnummer ZZEE002001862009; gültig bis 29.04.2027; Prüfungsdatum 30.10.2025, Ausstellungsdatum 19.12.2025; das Zertifikat umfasst 7 Anlagen, alle mit Standortbezeichnung PreZero Metall GmbH, Am Atlaswerk 22, 33106 Paderborn: Anlage 1 kreuzt Sammeln und Befördern an (Kennnummer nach § 28 NachwV E774801049), Anlage 2 kreuzt Lagern, Verwerten und Beseitigen an (E774740067), Anlage 3 kreuzt Behandeln und Verwerten an (E774740067), Anlage 4 kreuzt Lagern, Verwerten und Beseitigen an (E774740067), Anlage 5 kreuzt Behandeln und Verwerten an (E774740067), Anlage 6 kreuzt Lagern, Verwerten und Beseitigen an (E774740067), Anlage 7 kreuzt Behandeln und Verwerten an (E774740067)\", \"Altfahrzeugverwertung: kein Eintrag im amtlichen Fachbetrieberegister für PreZero Metall GmbH, Am Atlaswerk 22, 33106 Paderborn (Namenssuche nach PreZero Metall und nach Peitzmann jeweils 0 Treffer, Standortabfrage mit 3 km in beiden Routen 0 Altfahrzeug-Treffer; Abfrage 11.11.2026)\", \"weitere Zertifikate nach Betreiberangabe (nicht amtliches Fachbetrieberegister): Die Zertifikatsseite des Betreibers prezero.com/de/zertifikate führt den Standort Am Atlaswerk 22, 33106 Paderborn unter PreZero Metall GmbH mit den Abzeichen EFB, EnMS, GüKG und QMS; das QMS-Zertifikat 025/Z1025 der ZER-QMS Zertifizierungsstelle GmbH, Köln (Verfahrens-Nr. Z1025, DIN EN ISO 9001:2015) gilt vom 06.12.2023 bis 03.11.2026 und war am Abrufstag 17.11.2026 abgelaufen, seine Anlage nennt den Standort Am Atlaswerk 22 mit den Tätigkeiten Sammeln, Befördern, Lagern und Behandeln von Abfällen; das EnMS-Mutterzertifikat 025/Z3014_3 (DIN EN ISO 50001:2018) gilt vom 07.10.2025 bis 07.01.2027 und nennt denselben Standort in seiner Anlage; die Dateien PreZero_Metall_Paderborn_GueKG_28.04.2029.pdf und Z3140_314790_025_Z3140_2025-2026.pdf sind Scans ohne Textebene und nur über Dateiname und Zertifikatsportal belegt\"]"
+    },
+    {
+      "slug": "nw-telgte-putzer",
+      "values": {
+        "name": "Putzer",
+        "city": "Telgte",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Klärfall ohne Betriebsidentität: Der Seedname \"Putzer\" lässt sich in Telgte keinem Schrotthandel zuordnen. Die Verzeichnissuche Das Örtliche führt in Telgte mehrere Personen namens Putzer und ein Putzunternehmen, aber keinen Schrotthandel; die amtliche Namenssuche online-handelsregister.de nach \"Putzer Telgte\" liefert keinen Treffer. Das amtliche Fachbetrieberegister kennt Telgte zwar (Kurz Ebert GmbH & Co. KG, Max-Planck-Str. 17 sowie Anlage Hans-Geiger-Straße 31, 48291 Telgte, Kennnummer ZZFT00300121, zertifizierte Tätigkeiten Sammeln und Befördern, Lagern und Behandeln), führt aber keinen Eintrag zu \"Putzer\"; eine Efb-Anerkennung des Betriebs kann damit weder bestätigt noch ausgeschlossen werden. ANKAUF: nicht belegt. VERKAUF: nicht belegt. GEBÜHREN: nicht belegt.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "79de8b90cb07b038ec9e4dd40a2ecb3db71cc5831dd756b9689348fb36b4d687",
+      "seed_hash": "53dd6942cf2cb663",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
