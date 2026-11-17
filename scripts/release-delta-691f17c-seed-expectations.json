@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "release_commit": "e70568580434ff0827b8e118522f45dfa7b4e844",
-  "release_tree": "1eefb07114bd9c64739411ec6082318e8dc9db3d",
-  "rehearsal_manifest_sha256": "704560da8603553c0454eb61b48f3672ce820abf783c9ff3e922328f9761c908",
+  "release_commit": "691f17c197834a824315eb2bfb57eff59cbf8349",
+  "release_tree": "db7926d0886aa5ca69b2017a48dc95e072203c60",
+  "rehearsal_manifest_sha256": "504f7389b26d7dbb2e3c15132d9dfb4526d34aae61739bf7964036cf06928de7",
   "fields": [
     "name",
     "city",
@@ -18,11 +18,9 @@
     "website_status"
   ],
   "scope_slugs": [
-    "by-ansbach-vogel-sohn",
     "nw-bergisch-gladbach-krau",
     "nw-bochum-wattenscheid-schrotthandler-plus",
     "nw-bottrop-puffahrt",
-    "nw-dortmund-horde-alcunimet",
     "nw-erkelenz-kb",
     "nw-essen-schrott-busters",
     "nw-horn-bad-meinberg-neuwald",
@@ -32,35 +30,9 @@
     "nw-paderborn-peitzmann",
     "nw-telgte-putzer"
   ],
-  "scope": "exactly the 13 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
-  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-e705685. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "scope": "exactly the 11 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-691f17c. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
   "traders": [
-    {
-      "slug": "by-ansbach-vogel-sohn",
-      "values": {
-        "name": "Vogel & Sohn GmbH & Co. KG",
-        "city": "Ansbach",
-        "street": "Hardtstr. 22",
-        "postcode": "91522",
-        "phone": "0981 466 19 40",
-        "email": "mail@schrott-vogel.de",
-        "opening_hours": "Mo–Fr 07:00–12:00, 13:00–15:30 (Materialannahme); Sa/So geschlossen",
-        "description": "Schrott- und Metallhandel; Ankauf von Schrott und NE-Metallen; Containerdienst; Gießereibedarf (Aufbereitung von Metallspänen zu Presslingen).",
-        "status": "aktiv",
-        "trader_type": "schrotthaendler",
-        "website": "https://www.schrott-vogel.de",
-        "website_status": "aktiv"
-      },
-      "notes_sha256": "5b35a1db609be1db0230a21eba0980b331b4a4ef6cb95cdeb1a797ca77789b51",
-      "seed_hash": "c6195f4dd95d24ea",
-      "geo": [
-        49.2653786,
-        10.5922734
-      ],
-      "dropoff_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"days\":[\"Mo\",\"Di\",\"Mi\",\"Do\",\"Fr\"],\"time_windows\":[{\"start\":\"07:00\",\"end\":\"12:00\"},{\"start\":\"13:00\",\"end\":\"15:30\"}],\"conditions\":\"Annahme von Schrott und NE-Metallen; Ankauf ab 1 kg.\"}",
-      "pickup_json": "{\"allowed\":true,\"customer_types\":[\"privat\",\"gewerbe\"],\"conditions\":\"Containerdienst in Ansbach und Umgebung; Lieferung und Abholung von Abrollcontainern, Absetzmulden und Kranmulden.\"}",
-      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München; Zertifikat 12 150 59812, Vorgangsnummer ZZIT007004234009; Prüfungsdatum 17.02.2026, Ausstellungsdatum 18.06.2026, gültig bis 17.08.2027; Rechtsträger Vogel & Sohn GmbH & Co. KG, Standort Hardtstr. 22, 91522 Ansbach, HRB 4164 Amtsgericht Ansbach; zertifizierte Tätigkeiten Sammeln und Befördern (Anlage 1, Kennnummer nach § 28 NachwV I561Q00046), Lagern und Verwerten (Anlage 2, I561E00978), Behandeln und Verwerten (Anlage 3, I561E00978); 3 Anlagen)\", \"Erstbehandlungsanlage nach § 21 ElektroG (Zertifikat 12 150 59812 / Vorgangsnummer ZZIT007004234009, Anlage 3: Die Einhaltung der Anforderungen des ElektroG wurde geprüft und die Anlage gilt als zertifizierte Erstbehandlungsanlage im Sinne des § 21 ElektroG; Anlagentechnik: Behandeln von metallischen Abfällen durch Brikettierpresse für Metallspäne und der Zerkleinerung mit nachgeschaltetem Fe- und NE-Abscheiders, Erzeugung von Ersatzbrennstoff, Erstbehandlungsanlage für die Schadstoffentfrachtung und Wertstoffseparierung (SW) von Elektroaltgeräten der Gerätekategorien 4 und 5; Kennnummer nach § 28 NachwV für Behandeln I561E00978)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für diesen Standort (Abfrage 06.11.2026)\"]"
-    },
     {
       "slug": "nw-bergisch-gladbach-krau",
       "values": {
@@ -138,32 +110,6 @@
       "dropoff_json": "{}",
       "pickup_json": "{}",
       "certifications": "[]"
-    },
-    {
-      "slug": "nw-dortmund-horde-alcunimet",
-      "values": {
-        "name": "AlCuNiMet GmbH",
-        "city": "Dortmund",
-        "street": "Feldmark 2",
-        "postcode": "44267",
-        "phone": "02304 779252",
-        "email": "info@alcunimet.de",
-        "opening_hours": "Mo-Fr 08:00-14:00, 14:30-16:30",
-        "description": "",
-        "status": "aktiv",
-        "trader_type": "sonstige",
-        "website": "https://alcunimet.de",
-        "website_status": "aktiv"
-      },
-      "notes_sha256": "2c6081bf5067d5c714a60b645e40c859878178c41b220ce87171c9a25c836920",
-      "seed_hash": "7b10ea627150d5ff",
-      "geo": [
-        51.4434869,
-        7.5338343
-      ],
-      "dropoff_json": "{}",
-      "pickup_json": "{}",
-      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Route Entsorgungsfachbetriebe, Abfrage 05.11.2026): ALCUNIMetall GmbH (Grid-Bezeichnung „Hauptsitz“), Feldmark 2, 44267 Dortmund, Vorgangsnummer ZZET008000052013 (Zertifikat-Nr. 403-10-26, Aussteller G.BZ-Zert, Westring 303, 44629 Herne, gültig bis 31.05.2027, Prüfungsdatum 25.02.2026, Ausstellungsdatum 09.03.2026, 1 Anlage), (Anlage 1 Sammeln, Befördern, Lagern, Behandeln, Verwerten und Handeln, Kennnummern nach § 28 NachwV E913T10703 / E913A70185 / E913M00931, HRB 22444 Amtsgericht Dortmund)\"]"
     },
     {
       "slug": "nw-erkelenz-kb",
@@ -337,8 +283,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "63399c72def772f55abcc26c3a2ead72504a78e07c4820bdf1c2f6d524825e53",
-      "seed_hash": "128c3668c8ae411e",
+      "notes_sha256": "c780e7db038c53176959495c39833a78bf41bbe55c8cd167dd59e0b5d42e1f40",
+      "seed_hash": "65228694a0fd0efe",
       "geo": [
         51.7008083,
         8.7487607
