@@ -19,40 +19,25 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "e35b59c",
-  "owner_review": "research/wave-20261117-1200-report.md",
+  "dossier_revision": "d932eac",
+  "owner_review": "research/wave-20261117-1800-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 17.11.2026, 12:00)",
-  "scope": "5 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases e35b59c gehoben",
+  "revised_by": "Owner (Welle 17.11.2026, 18:00)",
+  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases d932eac gehoben",
   "rows": [
     {
-      "slug": "he-alsfeld-schrotthandel-entsorgung-delis",
+      "slug": "hh-allermohe-van-der-meulen-edelmetaal-b-v",
       "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1800-report.md."
     },
     {
-      "slug": "he-darmstadt-nord-hartmann-recycling",
+      "slug": "th-bad-tennstedt-schrottabholdienst-scheffler-mario",
       "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
-    },
-    {
-      "slug": "he-eschborn-65760-pfaff-alexander",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
-    },
-    {
-      "slug": "nw-essen-kollner",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
-    },
-    {
-      "slug": "sh-lubeck-topschrott",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1800-report.md."
     }
   ],
-  "unchanged_rows": 55
+  "unchanged_rows": 58
 },
   "traders": [
     {
@@ -484,8 +469,8 @@
         "website": "https://meulenedelmetall.de/",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "719bd95ab0558c8911981e43cf9916c0e044b493bc6e47a78d683b2354755aea",
-      "seed_hash": "3d8b649f88bd69b4"
+      "notes_sha256": "11def8d8851eedb3724778466f4666e52ed6864944facb5a4a09b8284a39898c",
+      "seed_hash": "3e1730f14486b591"
     },
     {
       "slug": "hh-billbrook-alt-und-buntmetallhandel-dejan",
@@ -1078,8 +1063,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "ae785762a43acd57e089ec43ced01db01fd7ee432778454326f5966d10ea61c9",
-      "seed_hash": "7e5011b36bd7302f"
+      "notes_sha256": "61da0acc5341b68e5f5585b7fe97bcd250a6ef3de8588197cc9bb9825ac6c431",
+      "seed_hash": "ad8e948b8c34f667"
     },
     {
       "slug": "th-gera-stublach-07552-ostthuringer-recycling-und-handels",
