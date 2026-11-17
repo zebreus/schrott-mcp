@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "release_commit": "4bad59c2fed56a85d9345e46a421da33405905b0",
-  "release_tree": "b7a160db4b4bd5f05d97a8d89bd02f204f6d613a",
-  "rehearsal_manifest_sha256": "20e33be454bc84790f5422167c2ada66cdd93eb2a4e536f2d1bc27fc84c831b8",
+  "release_commit": "00a571c68ff95d4002d0fdbe2070573fa7bc42eb",
+  "release_tree": "4106ab90893ff14f7e856f51535899406a44b07e",
+  "rehearsal_manifest_sha256": "893d6fc462046c5c2ee1cfcd1ddcc3a81c0d63eeee25f2652ca7de5e04c81736",
   "fields": [
     "name",
     "city",
@@ -84,7 +84,7 @@
     "th-tiefenort-b-bad-salzungen-autoverwertung-schleicher"
   ],
   "scope": "exactly the 64 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
-  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-4bad59c. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-00a571c. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
   "traders": [
     {
       "slug": "be-tempelhof-schoneberg-alexander-buntmetall-ankauf-abholung",

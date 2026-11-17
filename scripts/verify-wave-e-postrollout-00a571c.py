@@ -15,13 +15,13 @@ import re
 import sqlite3
 from pathlib import Path
 
-MANIFEST = Path(__file__).with_name("wave-e-4bad59c-seed-expectations.json")
+MANIFEST = Path(__file__).with_name("wave-e-00a571c-seed-expectations.json")
 HISTORICAL_MANIFEST = Path(__file__).with_name("wave-e-20261011-expectations.json")
-MANIFEST_SHA256 = "b95d9471422a8ddda179da121bf64e9f4d9895ab86efe8b8991f65c6d616f5f0"
+MANIFEST_SHA256 = "710d90171af7881a7a4a1724379a2539eb881e97b555ca6dc5bde7a87e3c9b78"
 HISTORICAL_MANIFEST_SHA256 = "871453ff9f2b54e262a93212c83e42788b29a82a6e2b05b1876300d74768787f"
-RELEASE_COMMIT = "4bad59c2fed56a85d9345e46a421da33405905b0"
-RELEASE_TREE = "b7a160db4b4bd5f05d97a8d89bd02f204f6d613a"
-REHEARSAL_MANIFEST_SHA256 = "20e33be454bc84790f5422167c2ada66cdd93eb2a4e536f2d1bc27fc84c831b8"
+RELEASE_COMMIT = "00a571c68ff95d4002d0fdbe2070573fa7bc42eb"
+RELEASE_TREE = "4106ab90893ff14f7e856f51535899406a44b07e"
+REHEARSAL_MANIFEST_SHA256 = "893d6fc462046c5c2ee1cfcd1ddcc3a81c0d63eeee25f2652ca7de5e04c81736"
 HISTORICAL_SELECTION_SHA256 = "c1260bbc4c4ba1cc7c7f7e3e6fb09227a9a7ce9e935bbe75bb26dff533646f03"
 FIELDS = (
     "name", "street", "postcode", "phone", "email", "opening_hours",

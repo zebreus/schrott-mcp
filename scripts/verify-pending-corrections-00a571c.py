@@ -30,11 +30,11 @@ CLEARS = {
 }
 PORTAL = "nw-nrw-weit-schrott24-metaloop-online-portal"
 SEED_EXPECTATIONS = Path(__file__).with_name(
-    "pending-corrections-4bad59c-seed-expectations.json"
+    "pending-corrections-00a571c-seed-expectations.json"
 )
-SEED_RELEASE_COMMIT = "4bad59c2fed56a85d9345e46a421da33405905b0"
-SEED_RELEASE_TREE = "b7a160db4b4bd5f05d97a8d89bd02f204f6d613a"
-SEED_REHEARSAL_MANIFEST_SHA256 = "20e33be454bc84790f5422167c2ada66cdd93eb2a4e536f2d1bc27fc84c831b8"
+SEED_RELEASE_COMMIT = "00a571c68ff95d4002d0fdbe2070573fa7bc42eb"
+SEED_RELEASE_TREE = "4106ab90893ff14f7e856f51535899406a44b07e"
+SEED_REHEARSAL_MANIFEST_SHA256 = "893d6fc462046c5c2ee1cfcd1ddcc3a81c0d63eeee25f2652ca7de5e04c81736"
 
 
 def connect(path):
