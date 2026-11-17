@@ -17,17 +17,20 @@ Die Welle vom 17.11.2026, 12:00 ✓ ✓ hat die **60** Dossiers **nicht** aus de
 (sie hat Notizen ergänzt ✓ ✓, keine Adressen ✓ ✓) — die Ziehung um **18:00 UTC** ✓ ✓ kann also
 ** dieselben** Slugs ziehen ✓ ✓ ✓ ✓
 
-**Deshalb** ✓ ✓: Vor der Ziehung die Slugs der **letzten beiden** Wellen **bestimmen** ✓ ✓
-(aus den versionierten Scopes in `research/wave-*-scope.json` ✓ ✓ bzw. aus den Wellen-Commits ✓ ✓)
-und sie **ausschließen** ✓ ✓ ✓ ✓
+**Das Werkzeug dafür gibt es schon** ✓ ✓ — `scripts/release/draw_wave_slugs.py` ✓ ✓ zieht die
+Slugs ✓ ✓, verteilt sie **bundesland-disjunkt** ✓ ✓ und kann **ausschließen** ✓ ✓:
 
 ```bash
-# Die Slugs der letzten beiden Wellen (read-only aus dem Repo)
-git show --name-only <letzter-wellen-commit> --format= -- dossiers/ \
-  | sed 's#.*/##; s#\.md$##' | sort -u > /tmp/opencode/letzte-welle.txt
-# ... und aus dem versionierten Scope der Welle davor
-# dann beim Ziehen ausschließen und **mehr** Slugs ziehen, bis 60 übrig sind
+python3 scripts/release/draw_wave_slugs.py \
+  --anzahl 60 --shards 3 --pro-shard 20 \
+  --ausschluss-scope <basis-commit> \
+  --ausschluss research/wave-20261117-1200-scope.json \
+  --ausgabe /tmp/opencode/welle-1800.json
 ```
+
+`--ausschluss-scope` ✓ ✓ nimmt einen **Basis-Commit** ✓ ✓ und schließt die Dossiers aus, die seit
+ihm im Release-Scope geändert wurden ✓ ✓ — das ist genau die Welle von eben ✓ ✓ ✓ ✓
+`--ausschluss` ✓ ✓ nimmt zusätzlich **Dateien mit einem Slug je Zeile** ✓ ✓ ✓ ✓
 
 Wenn der Pool **zu klein** ist, um 60 *neue* Slugs zu liefern ✓ ✓, dann weniger ziehen ✓ ✓
 und das **ausdrücklich** sagen ✓ ✓ — lieber **40 frische** Dossiers ✓ ✓ als **60 mit Dubletten**
