@@ -169,7 +169,7 @@ o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektio
          f"**{bullets}** neue Notiz-Bullets ✓ ✓")
 o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
-# Die drei Werte werden **gemessen** ✓ ✓, nicht getippt ✓ ✓
+# Die Werte werden **gemessen** ✓ ✓, nicht getippt ✓ ✓
 _slug_zeilen = 0
 _notiz_removed = 0
 for _f in files:
@@ -180,8 +180,6 @@ for _f in files:
     _n = re.findall(r"^slug:\s*(.*)$", _neu, re.M)
     if _a != _n:
         _slug_zeilen += 1
-    _ak = set(re.findall(r"^([a-z_]+):", _alt, re.M))
-    _nk = set(re.findall(r"^([a-z_]+):", _neu, re.M))
     # entfernte Bullets: eine Zeile, die in der Basis war und in der Kandidaten-
     # fassung fehlt
     _ab = [l for l in _alt.split("\n") if l.startswith("- [")]
