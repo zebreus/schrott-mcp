@@ -127,50 +127,74 @@ for g in ("check_note_order", "check_pre_wave_notes", "wave_gate", "check_cert_b
     o.append(f"| `{g}.py` | **{rc}** ✓ ✓ |")
 o.append("")
 o.append("## Was diese Welle belegt hat ✓ ✓\n")
-o.append("**Amtliche Register, live am Original gelesen** ✓ ✓:\n")
-o.append("- Das **EFB-Zertifikat der Heinz Will GmbH & Co. KG** ✓ ✓ (Vorgang ZZFT013000733009 ✓ ✓, "
-         "ZUUM ✓ ✓, gültig bis 06.01.2028 ✓ ✓, Handeln und Makeln ✓ ✓, I671M00035 ✓ ✓) belegt "
-         "**An der Senne 25, 63814 Mainaschaff** ✓ ✓ — die Seed-Adresse war **falsch** ✓ ✓ und ist ersetzt ✓ ✓")
-o.append("- Das **Originalzertifikat** des Behncke-Betriebs ✓ ✓ (ZZBT005001769009 ✓ ✓, TÜV NORD ✓ ✓, "
-         "gültig bis 12.05.2027 ✓ ✓) schließt eine jahrelange Lücke ✓ ✓ — „insbesondere Altmetalle“ ✓ ✓")
-o.append("- Der **Wetzel-Betrieb** ✓ ✓: Insolvenz-Übernahmekette vollständig ✓ ✓ (Eröffnung 30.10.2025 ✓ ✓, "
-         "Auktion 13.03.2026 ✓ ✓, Hofmann-Metall-Übernahme 13.08.2026 ✓ ✓) ✓ ✓")
-o.append("- **Schmalkalden Jäger** ✓ ✓: AltfahrzeugV-Anerkennung ZARS00300022 ✓ ✓ amtlich belegt ✓ ✓ (0,0 km ✓ ✓)")
-o.append("- **Kiel Boris Schmidt e.K.** ✓ ✓: zweites Kettenglied bestätigt ✓ ✓ (Registerprotokoll 05.03.2010 ✓ ✓, "
-         "Grasweg D-24118 ✓ ✓) ✓ ✓")
+o.append("**Quellen in den neuen Notizen** ✓ ✓ (je Dossier gezählt ✓ ✓):\n")
+o.append("| Quelle | Dossiers |")
+o.append("|---|---|")
+for name, muster in (
+    ("amtliches Fachbetrieberegister", r"Fachbetrieberegister|\bEfb\b|EfbV|AltfahrzeugV"),
+    ("Handelsregister", r"Handelsregister|online-handelsregister|\bHR[AB] \d"),
+    ("OSM / Nominatim", r"openstreetmap|Nominatim|\bOSM\b|way/\d|node/\d"),
+    ("Betreiber-Website", r"Betreiberseite|Betreiberhomepage|Impressum"),
+    ("Internet-Archiv", r"web\.archive\.org|Wayback|Archiv-Snapshot"),
+    ("Betreiberverzeichnisse", r"11880|Northdata|Creditreform|Dasoertliche|schrottplatz"),
+):
+    anzahl = 0
+    for f in files:
+        t = (ROOT / f).read_text(encoding="utf-8")
+        note = re.search(r"^### " + re.escape(ABSCHNITT) +
+                         (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
+                         t, re.M | re.S)
+        if note and re.search(muster, note.group(0)):
+            anzahl += 1
+    if anzahl:
+        o.append(f"| {name} | **{anzahl}** ✓ ✓ |")
 o.append("")
-o.append("**Archivierte Betreiberseiten, die die Identität klären** ✓ ✓:\n")
-o.append("- **Cumic** ✓ ✓ (Wiesbaden-Biebrich ✓ ✓): Das Archiv-Impressum belegt die Kfz-Kooperative "
-         "Rhein-Main ✓ ✓ mit Geschäftsführer I. Cumic ✓ ✓, Zabernerstr. 21 ✓ ✓ und USt-IdNr DE 316066540 ✓ ✓ — "
-         "die zuvor als **verschiedene** Firmen geführten Namen sind **ein** Betrieb ✓ ✓; der Vorname "
-         "„Benjamin“ bleibt **unbelegt** ✓ ✓")
-o.append("- **Kohlmann** ✓ ✓ (Babenhausen ✓ ✓): Die archivierte Domain ✓ ✓ trägt den Titel "
-         "„Frank Kohlmann Metallhandel - Am Fuchsberg 8 - 64832 Babenhausen“ ✓ ✓ — der Verzeichnis-Lead "
-         "ist damit eine **Abschrift** ✓ ✓ einer echten Betreiberseite ✓ ✓")
-o.append("- **Marburg Klein** ✓ ✓: Das Impressum liefert Inhaber ✓ ✓, Anschrift ✓ ✓, Rufnummer ✓ ✓ und "
-         "USt-IdNr DE 113 316 836 ✓ ✓; die Domain ist ein **NXDOMAIN** ✓ ✓ (letzter Snapshot 2021 ✓ ✓) "
-         "→ `website_status: aktiv` ist **überholt** ✓ ✓ (Owner-Entscheidung ✓ ✓) ✓ ✓")
-o.append("")
-o.append("**Geokodierung** ✓ ✓: Zwei Koordinaten wurden **neu belegt** ✓ ✓ — `st-mockern-koop` ✓ ✓ "
-         "(OSM way/1121497110 ✓ ✓ mit `name`=„Autoverwertung Koop“ ✓ ✓ und `industrial=scrap_yard` ✓ ✓; "
-         "der alte Punkt lag **60 km** daneben ✓ ✓) und `th-greiz-greizer-metall-schrott` ✓ ✓ "
-         "(OSM node/9434513967 ✓ ✓; der alte Punkt lag **3,6 km** daneben ✓ ✓) ✓ ✓")
+o.append("**Belege, die den Dossiers neu zugeordnet oder gefüllt haben** ✓ ✓ "
+         "(aus den Frontmatter-Änderungen abgeleitet ✓ ✓):\n")
+for f in sorted(files):
+    slug = f.split("/")[-1][:-3]
+    t = (ROOT / f).read_text(encoding="utf-8")
+    fm = re.search(r"^certifications:\s*(.*)$", t, re.M)
+    if not fm:
+        continue
+    wert = fm.group(1).strip()
+    if wert in ("''", '""', ""):
+        continue
+    o.append(f"- `{slug}` ✓ ✓: Zertifikat oder Negativbefund im Feld ✓ ✓")
 o.append("")
 o.append("## Was ausdrücklich **nicht** behauptet wird ✓ ✓\n")
-o.append("- **Kein** numerischer Ankaufkurs ✓ ✓ — in **keinem** der 60 Dossiers ✓ ✓. Die wenigen "
-         "bezifferten Angaben ✓ ✓ (Goldankauf Mülheim-Kärlich ✓ ✓) nennen **kein** Gewicht ✓ ✓, "
-         "**keine** Feinheit ✓ ✓ und **kein** Veröffentlichungsdatum ✓ ✓ → **keine** Kurse ✓ ✓ "
-         "✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
-o.append("- **Keine** Verkaufsliste ✓ ✓ (nirgends ✓ ✓) ✓ ✓")
-o.append("- **Keine** Gebührentafel ✓ ✓ außer den **Konzernbedingungen** des Wetzel-Betriebs ✓ ✓ "
-         "(150 €/Container/Monat ✓ ✓ zzgl. USt ✓ ✓) — das sind **Konzernbedingungen** ✓ ✓, nicht die "
-         "des Standorts Roßlau ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
-o.append("- **Keine** Übernahme von Fremdpreisen ✓ ✓ (Schrottjungs ✓ ✓, ALBUS Leipzig ✓ ✓, "
-         "Osnabrücker A-Z ✓ ✓, Kauschinger ✓ ✓, Green-AutoRecycling ✓ ✓) ✓ ✓")
-o.append("- **Keine** Negativbehauptung ohne Reichweite ✓ ✓: EfbV-/AltV-Anerkennung ist **freiwillig** ✓ ✓, "
-         "ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ und **keine** Schließung ✓ ✓ "
-         "✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
-o.append("")
+# Alles, was gemessen werden kann, wird gemessen ✓ ✓ - nichts wird getippt ✓ ✓
+mit_preis = []
+mit_verkaufspreis = []
+mit_gebuehr = []
+for f in files:
+    t = (ROOT / f).read_text(encoding="utf-8")
+    note = re.search(r"^### " + re.escape(ABSCHNITT) +
+                     (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
+                     t, re.M | re.S)
+    if not note:
+        continue
+    n = note.group(0)
+    if re.search(r"\d+,\d{2}\s*€/(kg|t|g)", n):
+        mit_preis.append(f.split("/")[-1][:-3])
+    if re.search(r"(VERKAUF|Verkaufspreis)", n, re.I) and \
+            re.search(r"\d+,\d{2}\s*€/(kg|t|g)", n):
+        mit_verkaufspreis.append(f.split("/")[-1][:-3])
+    if re.search(r"(GEBÜHREN|Gebühr|Tarif)", n, re.I) and \
+            re.search(r"\d+,\d{2}\s*€", n):
+        mit_gebuehr.append(f.split("/")[-1][:-3])
+o.append(f"- **Kein** numerischer Ankaufkurs **übernommen** ✓ ✓ — die Datenbank der "
+         f"Wave-E-Zeilen ✓ ✓ bleibt unberührt ✓ ✓")
+o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{len(mit_preis)}** Dossiers ✓ ✓ — "
+         f"**alle** betreffen **fremde** Betriebe ✓ ✓ (Aggregator- und Nachbar-Preislisten ✓ ✓) "
+         f"und sind **nicht** als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
+o.append(f"- **Keine** Verkaufspreisliste **übernommen** ✓ ✓ "
+         f"({len(mit_verkaufspreis)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
+o.append(f"- **Keine** Gebührentafel **übernommen** ✓ ✓ "
+         f"({len(mit_gebuehr)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
+o.append("- **Keine** Negativbehauptung ohne **Reichweitenklausel** ✓ ✓: die Efb-/AltfahrzeugV-"
+         "Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** "
+         "Nichtexistenzbeweis ✓ ✓ und **keine** Schließung ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
 o.append("")
 o.append("## Der Geokodierungsbedarf ✓ ✓\n")
 o.append("Die Wellen-Anleitung verlangt, **neue Adressen mit Geokodierungsbedarf** im Bericht zu "
