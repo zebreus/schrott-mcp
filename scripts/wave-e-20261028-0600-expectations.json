@@ -19,20 +19,40 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "e705685",
-  "owner_review": "research/branch-integration-20261117.md",
+  "dossier_revision": "e35b59c",
+  "owner_review": "research/wave-20261117-1200-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 17.11.2026 (Nachprüfung der Shards, korrigiert nach Review))",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases e705685 gehoben",
+  "revised_by": "Owner (Welle 17.11.2026, 12:00)",
+  "scope": "5 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases e35b59c gehoben",
   "rows": [
     {
-      "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
+      "slug": "he-alsfeld-schrotthandel-entsorgung-delis",
       "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/branch-integration-20261117.md."
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
+    },
+    {
+      "slug": "he-darmstadt-nord-hartmann-recycling",
+      "fields": [],
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
+    },
+    {
+      "slug": "he-eschborn-65760-pfaff-alexander",
+      "fields": [],
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
+    },
+    {
+      "slug": "nw-essen-kollner",
+      "fields": [],
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
+    },
+    {
+      "slug": "sh-lubeck-topschrott",
+      "fields": [],
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1200-report.md."
     }
   ],
-  "unchanged_rows": 59
+  "unchanged_rows": 55
 },
   "traders": [
     {
@@ -230,8 +250,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "9125e459dbd0b02ffc419da2ba4bd73ee4783380ff3c273de7bf3e66121e4efe",
-      "seed_hash": "049cabdc10dfce0b"
+      "notes_sha256": "066af917b3f7a1d0a9af14841886c37dd7fa0ec175f0775b27bfa76f80de6a72",
+      "seed_hash": "1fdbccb58b58d921"
     },
     {
       "slug": "he-bad-emstal-34308-pohl-anita",
@@ -266,8 +286,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "2c43374a116e511eb5a6ddb6d8ae304273f7ac4a4d6e71bfe2da8d42fea7101d",
-      "seed_hash": "3c1c5d19a3126544"
+      "notes_sha256": "e467af91d4220a4b7d42c1a17d6b623e0f5ab61bce9bb91e9b5ac73084719661",
+      "seed_hash": "bd980ed8dcf871ba"
     },
     {
       "slug": "he-darmstadt-wixhausen-der-zerseeger-schrotthandel",
@@ -320,8 +340,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "c5b37cc61da4bd6cbe0eb8aaa3b99f59e35d41d57ca9644d05a524e62d80cea1",
-      "seed_hash": "b224332de497c48c"
+      "notes_sha256": "07ec649adfc92adadc8d4c4fc9c8ca565cbb284d2c529396f9e9b2e0f61b9e20",
+      "seed_hash": "471fec5986c10f5f"
     },
     {
       "slug": "he-fulda-dietershan-schrotthandel-stephan-goldbach",
@@ -644,8 +664,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "80f6acebd352f9fef68f5b379c7b5f1f5166767582f12719b2ccf4a87bb161a5",
-      "seed_hash": "8a6b6dfac55580f6"
+      "notes_sha256": "559a821814c9e5755c4be55405ed46269acc0c48a260b3970403e809901f96fb",
+      "seed_hash": "b1ab3ee5a78f8792"
     },
     {
       "slug": "nw-essen-schuttler",
@@ -896,8 +916,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "789095ee3fe01c54930c81198959f6f734fafb1960d1125b607a1d77e95ba4cd",
-      "seed_hash": "0fca12572834ccfa"
+      "notes_sha256": "f3f6835f86cba24fbf27dfb3818d11f30e2b9eea66dc8d1808ffad3a412c4da7",
+      "seed_hash": "fe6b023480b1eaba"
     },
     {
       "slug": "sl-lebach-autoverwertung-volz-renate-volz",
