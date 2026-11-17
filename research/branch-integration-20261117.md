@@ -29,12 +29,20 @@ Vor dem Löschen wurde **jeder** Branch gegen `main` geprüft ✓ ✓:
 | `rel00`, `rel06`, `rel12`, `rel18`, `rel30`, `wave0000`, `wave0000-geo`, `wave0600`, `wave1200c` | **0** ✓ | vollständig in `main` ✓ → gelöscht ✓ ✓ |
 | `geo1108-1` | 1 | **74** Geo-Notizen vom 08.11. — alle **redundant** ✓ (die Koordinaten stehen in `main` aus den späteren Wellen ✓) → gelöscht ✓ ✓ |
 | `hotfix/mkm-61-*` (2 Branches) | 1–2 | **keine** Test- oder Vertragsfunktion, die `main` fehlt ✓ (beide sind durch die späteren Wellen überholt ✓) → gelöscht ✓ ✓ |
-| `review-cc9731a` | 2 | **zwei echte Zertifikatstiefe-Korrekturen** ✓ → **integriert** ✓ ✓ |
+| `review-cc9731a` | 2 | zwei Zertifikatstiefe-Korrekturen ✓ → **geprüft und als Duplikate verworfen** ✓ (sie stehen bereits veröffentlicht in `main` ✓ ✓) ✓ ✓ |
 | `wellec-s2`, `wellec-s3` | 1 | **Nachprüfung mit Positivkontrollen** ✓ → **integriert** ✓ ✓ |
 
 ### 3) Die drei echten Inhalte integriert ✓ ✓
 
-**a) `review-cc9731a` — zwei Zertifikatstiefe-Korrekturen** ✓ ✓
+**a) `review-cc9731a` — zwei Zertifikatstiefe-Korrekturen, als Duplikate verworfen** ✓ ✓
+Der Pre-Deploy-Review vom 17.11.2026 hat beide Notizen als **Duplikate** der bereits
+veröffentlichten Korrekturen vom 06.11.2026 erkannt ✓ ✓: sie sagen dasselbe ✓ ✓ und wiederholen
+darin Aussagen über den Frontmatter-Stand, die inzwischen **falsch** sind ✓ ✓ (der Eintrag nennt
+inzwischen `Prüfungsdatum` statt `Auditdatum` ✓ ✓ und führt die Kennummer `I561E00978` ✓ ✓).
+Eine Notiz behauptete sogar, die Tätigkeit „Makeln" sei **ergänzt** worden ✓ ✓ — das widersprach der
+veröffentlichten Notiz ✓ ✓, die „2.8 Makeln sind **nicht** angekreuzt" festhält ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+**Beide Notizen sind deshalb ersatzlos entfernt** ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
 `by-ansbach-vogel-sohn`: Das PDF-Feld 6 heißt wörtlich `Prüfungsdatum` (der Eintrag nannte
 `Auditdatum`), und Anlage 2 weist in Feld 2.3 `Lagern` die Kennnummer `I561E00978` aus, die
 im Eintrag fehlte ✓ ✓ · `nw-dortmund-horde-alcunimet`: Aussteller-Anschrift sowie Prüfungs-
@@ -58,7 +66,7 @@ Timeline-Ende ✓ ✓:
 | `nw-bochum-wattenscheid-…` | Die Plus-Seiten sind eine **eigene** Marke (eigene Kontaktdaten und Öffnungszeiten), keine Zweitseite |
 | `nw-erkelenz-kb` | 11880 live gelesen: Mönchengladbacher Anschrift, nur Mobilnummer; der Widerspruch bleibt **offen** |
 | `nw-ludinghausen-ash` | „500 Kilogramm" ist ein Transport-Hinweis, **keine** Mindestmenge; dritte Namensschreibweise (AES) bei gleicher Anschrift |
-| `nw-paderborn-peitzmann` | EfbV ZZEE002001862009 gilt 07.10.2025–07.01.2027; GüKG und Z3140 sind Scans **ohne** Textebene |
+| `nw-paderborn-peitzmann` | Das Zertifikatsportal führt ZZEE002001862009 mit Gültigkeit **bis 29.04.2027** ✓ (07.10.2025–07.01.2027 gehört zur **EnMS/ISO-50001**-Anlage ✓) ✓ · GüKG und Z3140 sind Scans **ohne** Textebene ✓ |
 | `nw-telgte-putzer` | Betrieb **Kurz Ebert** ist ein **anderer** Rechtsträger und wird **nicht** übernommen |
 
 **c) `bb-ludwigsfelde-ka-de-schrott-und-metallhandels` — ein **vorbestehender** Widerspruch** ✓ ✓:
