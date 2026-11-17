@@ -1,155 +1,58 @@
-# Auftrag: 76 Händler mit stehengebliebenen Preisen (Stand 17.11.2026)
+# Auftrag: Händler, deren Preisabruf seit Wochen tot ist (Stand 17.11.2026)
 
-**Befund:** **76** Händler führen `current_prices`, die seit **mehr als sieben Tagen** nicht
-mehr erneuert wurden ✓ ✓. Der Seed-Import überschreibt die Preise nicht, wenn der Handler
-keine liefert ✓ ✓ — die alten Werte bleiben als „aktueller Preis" stehen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+**Korrektur dieser Fassung** ✓ ✓: Die erste Fassung dieses Auftrags nannte **76** Händler mit
+„stehengebliebenen Preisen" ✓ ✓ und **1608** Preiszeilen ✓ ✓. Das war auf einem **falschen
+Messwert** aufgebaut ✓ ✓: gemessen wurde `current_prices.updated_at` ✓ ✓ — das ist der Zeitpunkt
+der letzten **Wertänderung** ✓ ✓, nicht der letzte **Abruf** ✓ ✓. Ein Händler, dessen Preise
+unverändert sind ✓ ✓, behält dort ein altes Datum ✓ ✓, obwohl er **heute** abgeholt wurde ✓ ✓.
 
-**Das ist die Arbeitsliste, an der nichts verloren geht** ✓ ✓: die Seiten dieser Händler
-**leben** ✓ ✓ (die zwölf größten wurden am 17.11.2026 live geprüft ✓ ✓ — **alle** antworten
-mit HTTP 200 ✓ ✓), und die Handler-URLs im Repo sind aktuell ✓ ✓. Es scheitert also an der
-**Extraktion** ✓ ✓: die Seiten wurden umgebaut ✓ ✓, die Preise stehen woanders ✓ ✓.
+**Die richtige Messung** ✓ ✓ ist `prices.observed_at` ✓ ✓ (das wird bei jedem Lauf erneuert ✓ ✓,
+auch wenn der Wert gleich bleibt ✓ ✓). Danach sind es **fünf** Händler ✓ ✓ — und vier davon
+sind **längst bekannte, dokumentierte** Fälle ✓ ✓:
 
-**Das Kriterium ist der letzte erfolgreiche Lauf** ✓ ✓ (nicht ein Zeit-Alter ✓ ✓) —
-`scripts/release/find_stale_current_prices.py` ✓ ✓ liefert die Fälle, bei denen der Handler
-läuft ✓ ✓, aber einzelne Preise nicht auffrischt ✓ ✓ (die Seite bietet sie nicht mehr an ✓ ✓):
-
-| Händler | stale | laufender Handler | letzte Aktualisierung |
+| Händler | Abruf zuletzt | Warum | Status |
 |---|---|---|---|
-| `rp-ludwigshafen-mkm-metals` | 56 | ja (Turnus 14:36 UTC nach dem Boot von 10:39) | 13.11.2026 |
-| `ni-braunschweig-neuwert-schrott-altmetallhandel` | 3 | ja | 17.11.2026 |
-| `bb-lubben-neuendorf-smr` | 6 | ja | 17.11.2026 |
-| `hh-st-georg-schiefer-co-edelmetall-scheideanstalt` | 2 | ja | 17.11.2026 |
+| `he-hanau-heraeus-goldstore-hanau-argor-heraeus-de` | 27.10.2026 | Der Handler ist seit dem **23.10.2026** **bewusst suspendiert** ✓ ✓ („do not publish rates while the operator says precious-metal buying is stopped" ✓ ✓, mit Test ✓ ✓) ✓ | geklärt ✓ ✓ — **kein** Auftrag ✓ |
+| `th-zella-mehlis-wahl-co-inh-thomas-madeiski` | 28.10.2026 | Der Handler verweigert einen Preisstand, der **älter als 24 Stunden** ist ✓ ✓ — eine bewusste Regel ✓ ✓ | geklärt ✓ ✓ — **kein** Auftrag ✓ |
+| `be-treptow-kopenick-amr-metalle-und-rohstoffe-amr-schrottpla` | 07.10.2026 | **HTTP 502** ✓ ✓ — der Server des Betriebs ist nicht erreichbar ✓ ✓ | geklärt ✓ ✓ — **kein** Auftrag ✓ (ein Ausfall ist kein Rückzug ✓ ✓) |
+| `nw-munster-a-z-recycling-udo-salzsieder` | 04.10.2026 | Der **Anti-Fabrication-Guard** lehnt eine gleichmäßige Preisleiter ab ✓ ✓ | geklärt ✓ ✓ — **kein** Auftrag ✓ |
+| `hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem` | 04.10.2026 | Der Betrieb veröffentlicht **keine** festen Preise ✓ ✓ — nur Tageskurse ✓ ✓ (Gold-API + Coinbase-Referenz ✓ ✓), die der Handler **bewusst** überspringt ✓ ✓, weil es kein Händler-Ankaufspreis ist ✓ ✓ | **Auftrag** ✓ ✓ — siehe unten ✓ ✓ |
 
-**Die übrigen 72** Händler haben einen Handler, der **seit Tagen oder Wochen nicht mehr
-durchläuft** ✓ ✓ (30 seit September ✓ ✓, 13 seit Oktober ✓ ✓, 29 seit November ✓ ✓) ✓ ✓
+## Der einzige echte Auftrag ✓ ✓
 
-## Die Ursache, gemessen ✓ ✓
+`hb-bremen-findorff-28215-wirkaufendeingold-de-rohat-erdem` ✓ ✓: Der Handler läuft ✓ ✓, die Seite
+lebt ✓ ✓ (HTTP 200 ✓ ✓, 145.821 Bytes ✓ ✓) und liefert zwei **Annahmen** ✓ ✓
+(„Goldankauf; konkreter Preis nach Prüfung, Tageskurs nur Referenz" ✓ ✓) ✓ ✓. Die zwei alten
+**Preis**-Zeilen in der Datenbank ✓ ✓ (vom 04.10.2026 ✓ ✓) sind **Altlasten** ✓ ✓ — die Seite
+bietet diese Sorten nicht mehr an ✓ ✓.
 
-Die Seiten der betroffenen Händler **leben** ✓ ✓ — die zwölf größten wurden am 17.11.2026 live
-geprüft ✓ ✓, **alle** antworten mit HTTP 200 ✓ ✓, und **keine** der 75 geprüften Handler-URLs
-liefert 404 ✓ ✓. Die URLs im Repo sind also **nicht** veraltet ✓ ✓.
+**Die konsequente Korrektur** ✓ ✓: diese beiden `current_prices`-Zeilen **zurückziehen** ✓ ✓ — die
+Historie in `prices` bleibt vollständig erhalten ✓ ✓. Das Projekt hat das **zweimal** so gemacht ✓ ✓
+(Migration 7 `goldtrans` ✓ ✓, Migration 8 `heraeus` ✓ ✓: „Retire only their current pointers;
+keep every historical field intact" ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
-Ein Live-Lauf über **alle** Handler ✓ ✓ (`live_handlers` ✓ ✓, liest nur ✓ ✓) zeigt die eigentliche
-Ursache ✓ ✓:
+**Nicht** die Preise von Hand in die Datenbank schreiben ✓ ✓ ✓ — zurückgezogen wird der
+**Current-Pointer** ✓ ✓, die Historie bleibt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
-| Befund | Anzahl Handler | Folge |
-|---|---|---|
-| Preise **mit** Datum ✓ ✓ | **55** ✓ ✓ | werden aufgenommen ✓ ✓ — ihre Zeilen bleiben aktuell ✓ ✓ |
-| Preise **ohne** Datum ✓ ✓ (`published_at=None` ✓ ✓) | **55** ✓ ✓ | die Pipeline nimmt sie **nicht** auf ✓ ✓ (ohne Veröffentlichungsdatum ist der Wert nicht belastbar ✓ ✓) → die alten Zeilen veralten ✓ ✓ |
-| **gar keine** Preiszeile ✓ ✓ | **47** ✓ ✓ | die Seite bietet die Sorten nicht (mehr) an ✓ ✓ → die alten Zeilen veralten ✓ ✓ |
+## Was **kein** Auftrag ist ✓ ✓
 
-**Das ist also keine Angst vor dem Verwerfen** ✓ ✓ — die Pipeline **muss** die alten Werte
-zurückziehen, weil sie die Seitenumgestaltung überleben würden ✓ ✓; genau das hat das Projekt
-zwei Mal als Migration gemacht ✓ ✓ (Migration 7 `goldtrans` ✓ ✓, Migration 8 `heraeus` ✓ ✓) ✓ ✓ ✓ ✓
-Die Pipeline zieht Current-Pointer für normale Handler **nicht** zurück ✓ ✓, weil das bei einem
-vorübergehend kaputten Seitenbild gefährlich wäre ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+- **Die 1100 übersprungenen Artikel** in **114** Handlern ✓ ✓ („SKIP: Kataloglücke" ✓ ✓ — die
+  Material-Zuordnung des Handlers deckt die angebotenen Sorten nicht ab ✓ ✓) ✓ ✓: Das ist eine
+  **Extraktions**-Lücke ✓ ✓, kein Datenverlust ✓ ✓ — die nicht zugeordneten Sorten werden
+  **nie** übernommen ✓ ✓ und ihre alten Zeilen bleiben einfach stehen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+- **Die 55 Handler ohne maschinenlesbares Produktdatum** ✓ ✓: Die Pipeline ergänzt in diesem
+  Fall den **Kalendertag** ✓ ✓ (`published_at_basis` ✓ ✓) — die Preise werden **übernommen** ✓ ✓
+  ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+- **Die 47 Handler ohne jede Preiszeile** ✓ ✓: Entweder bietet die Seite keine Preise an ✓ ✓ oder
+  die Extraktion greift nicht ✓ ✓ — das ist je Handler zu prüfen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
-**Zwei Arbeitspakete** ✓ ✓:
+## Wie die Kataloglücken messbar sind ✓ ✓
 
-1. **Datumsquelle ergänzen** ✓ ✓ (55 Handler ✓ ✓): Die Seiten zeigen am Preisfeld kein Datum mehr
-   ✓ ✓ → der Handler braucht eine zweite Quelle ✓ ✓ (z. B. das Datum im Seitenkopf ✓ ✓, den
-   Cache-Bust-Parameter ✓ ✓ oder ein Datum aus dem Impressum ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
-2. **Extraktion anpassen** ✓ ✓ (47 Handler ✓ ✓): Die Preise stehen an anderer Stelle ✓ ✓ → den
-   **Selektor** anpassen ✓ ✓ und ein **neues Fixture** anlegen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+```bash
+# Live-Lauf über alle Handler (liest nur, schreibt nichts)
+cargo run --release --example live_handlers            # Ausgabe je Handler
+# die SKIP-Zeilen nennen den Grund und die betroffene Sorte
+```
 
-**Und für die Fälle, in denen die Seite die Sorten dauerhaft nicht mehr anbietet** ✓ ✓: die
-`current_prices`-Zeilen **zurückziehen** ✓ ✓ (Historie in `prices` bleibt erhalten ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
-
-## Die Vorgehensweise je Händler ✓ ✓
-
-1. `live_handlers -- <slug>` laufen lassen ✓ ✓ — das Werkzeug **liest nur** und schreibt
-   nichts ✓ ✓ (kein Force-Ingest ✓ ✓).
-2. Schlägt er fehl, die Seite holen ✓ ✓ und mit dem **Fixture** des Handlers vergleichen ✓ ✓
-   (liegt unter `crates/ingestion/src/traders/handlers/fixtures/` ✓ ✓).
-3. Ist die Seite umgebaut ✓ ✓, den **Selektor** anpassen ✓ ✓ und ein **neues Fixture** aus
-   dem Live-Capture anlegen ✓ ✓ (sanitisiert ✓ ✓) — die bestehende Vertragsprüfung
-   (`overview.rs` ✓ ✓ / `recording.rs` ✓ ✓) bleibt **fail-closed** ✓ ✓.
-4. Tests ✓ ✓, Release-Zyklus ✓ ✓, Pre-Deploy-Freigabe ✓ ✓, Rollout ✓ ✓.
-
-**Nicht** die Preise von Hand in die Datenbank schreiben ✓ ✓ — der Preis muss **belegt**
-aus der Betreiberseite kommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
-
-## Die Liste ✓ ✓
-
-| Händler | Preise | letzter Lauf | Handler-Datei |
-|---|---|---|---|
-| `th-gotha-msg-metallrecycling-msg-schrott-und-meta` | 124 | 2026-10-17 | `msg_metallrecycling_gotha.rs` |
-| `ni-braunschweig-neuwert-schrott-altmetallhandel` | 77 | 2026-11-06 | `neuwert.rs` |
-| `by-aschaffenburg-bernhard-westarp` | 69 | 2026-11-09 | `westarp.rs` |
-| `by-schaftlarn-frisch-recycling` | 68 | 2026-10-26 | `frisch_recycling.rs` |
-| `by-aschaffenburg-huth-schrott-metall-huth` | 63 | 2026-11-09 | `huth_aschaffenburg.rs` |
-| `ni-friesoythe-h-henken-friesoythe-auch-cloppenburg-pap` | 46 | 2026-09-30 | `henken_friesoythe.rs` |
-| `bb-schoneiche-hein-schrotthandel` | 45 | 2026-11-09 | `hein_schrotthandel.rs` |
-| `ni-saterland-nfh-zickura` | 40 | 2026-09-30 | `nfh_zickura_saterland.rs` |
-| `th-zella-mehlis-wahl-co-inh-thomas-madeiski` | 40 | 2026-10-27 | `wahl_co_zella_mehlis.rs` |
-| `by-regensburg-kernschrott-recycling` | 38 | 2026-11-04 | `kernschrott.rs` |
-| `be-pankow-kiro-schrotthandel-kafedzhiev` | 37 | 2026-09-30 | `kiro.rs` |
-| `be-marzahn-hellersdorf-mk-wertstoffhandel-daniel-hartwig` | 34 | 2026-09-29 | `mk_wertstoffhandel.rs` |
-| `bb-strausberg-koppe-andreas-schrottplatz-strausberg` | 32 | 2026-10-12 | `koppe_strausberg.rs` |
-| `be-neukolln-beller-demontagen-altmetall-schrott` | 31 | 2026-10-09 | `beller.rs` |
-| `nw-herdecke-eas-recycling-solution` | 30 | 2026-09-29 | `eas_recycling_herdecke.rs` |
-| `sn-leipzig-albus-leipzig` | 30 | 2026-11-05 | `albus_leipzig.rs` |
-| `be-spandau-elno-container-und-dienstleistungs` | 28 | 2026-11-05 | `?` |
-| `sn-rochlitz-db-recycling-denis-blum` | 28 | 2026-11-05 | `db_recycling.rs` |
-| `bb-brandenburg-an-der-havel-mc-schrott-annahmestelle` | 27 | 2026-11-05 | `mc_schrott.rs` |
-| `bb-kloster-lehnin-ot-reckahn-mc-schrott-annahmestelle` | 27 | 2026-11-05 | `mc_schrott.rs` |
-| `bb-nauen-mc-schrott-annahmestelle` | 27 | 2026-11-05 | `mc_schrott.rs` |
-| `bb-rathenow-mc-schrott-annahmestelle` | 27 | 2026-11-05 | `mc_schrott.rs` |
-| `bb-werder-ot-plotzin-mc-schrott-annahmestelle` | 27 | 2026-11-05 | `mc_schrott.rs` |
-| `mv-rostock-mc-schrott-rostock` | 27 | 2026-11-05 | `mc_schrott.rs` |
-| `nw-krefeld-josef-hendrichs-metallhandels` | 26 | 2026-09-28 | `hendrichs_krefeld.rs` |
-| `sn-frankenberg-volker-lungwitz-schrotthandel` | 26 | 2026-11-05 | `lungwitz.rs` |
-| `sn-zschopau-wertstoff-bauer-inh-micha-bauer` | 26 | 2026-11-06 | `wertstoff_bauer.rs` |
-| `nw-bonn-pur-umwelt-p-u-richter` | 25 | 2026-11-05 | `pur_umwelt_bonn.rs` |
-| `sl-saarbrucken-66113-katalysator-hai-marke-der-s-b-recycling` | 25 | 2026-09-28 | `katalysator_hai.rs` |
-| `by-kulmbach-trapper` | 21 | 2026-11-09 | `?` |
-| `hb-woltmershausen-vedder-stockrahm` | 19 | 2026-09-29 | `vedder.rs` |
-| `ni-delmenhorst-vedder-stockrahm` | 19 | 2026-09-29 | `vedder_delmenhorst.rs` |
-| `nw-dormagen-altmetalle-kraft` | 19 | 2026-11-06 | `altmetalle_kraft.rs` |
-| `nw-dusseldorf-bohner-altmetalle` | 19 | 2026-11-06 | `boehner_altmetalle.rs` |
-| `rp-bad-kreuznach-geld-fur-gold-dagmar-muller-edelmetallko` | 19 | 2026-11-05 | `geld_fuer_gold.rs` |
-| `th-gotha-sdm-gutzmann` | 19 | 2026-09-28 | `gutzmann.rs` |
-| `sn-altmittweida-schrott-buntmetallankauf-buntmetallhande` | 18 | 2026-11-07 | `buntmetallhandel_altmittweida.rs` |
-| `sn-dresden-2nd-way-recycling` | 18 | 2026-11-06 | `second_way.rs` |
-| `be-marzahn-hellersdorf-efrem-gouchev-schrottankauf` | 16 | 2026-11-09 | `gouchev.rs` |
-| `nw-koln-niehl-mkr-rothenbucher` | 16 | 2026-11-06 | `mkr_rothenbuecher.rs` |
-| `bb-lubben-neuendorf-smr` | 15 | 2026-11-04 | `smr.rs` |
-| `ni-braunschweig-cederbaum-privatkunden-annahme` | 15 | 2026-09-28 | `cederbaum.rs` |
-| `nw-doerentrup-limekon` | 15 | 2026-11-04 | `limekon.rs` |
-| `ni-rotgesbuttel-schrottplatz-rotgesbuttel` | 14 | 2026-11-09 | `schrottplatz_roetgesbuettel.rs` |
-| `rp-florsheim-dalsheim-schrott-metallhandel-doring` | 14 | 2026-09-28 | `doering.rs` |
-| `st-gerwisch-gerwischer-rohstoffrecycling-verwertungs` | 13 | 2026-09-30 | `gerwischer.rs` |
-| `bb-neulewin-oder-metalle-schrotthandel-oderbruch` | 11 | 2026-11-06 | `oder_metalle.rs` |
-| `by-u-a-munchen-schrottjungs-mobil-bundesweit` | 11 | 2026-10-17 | `schrottjungs.rs` |
-| `nw-koln-wkr` | 11 | 2026-10-27 | `wkr_koln.rs` |
-| `he-frankfurt-griesheim-ms-recycling-frankfurt` | 9 | 2026-09-29 | `ms_recycling_frankfurt.rs` |
-| `ni-vechelde-uwe-hanusa-schrott-und-metallhandel` | 8 | 2026-09-29 | `hanusa_vechelde.rs` |
-| `ni-wangerland-hooksiel-26434-manuel-triebsch-autoverwertung-altmetall` | 8 | 2026-09-28 | `schrott_triebsch.rs` |
-| `bb-potsdam-kulisch-co-fahrzeug-handels-und-verwertu` | 7 | 2026-09-29 | `kulisch_co.rs` |
-| `he-frankfurt-am-main-schrott-frankfurt-scholz` | 7 | 2026-09-28 | `schrott_frankfurt.rs` |
-| `nw-bochum-gerthe-44805-schrottabholung-zentrale` | 7 | 2026-09-28 | `schrottabholung_zentrale.rs` |
-| `sn-oschatz-oschatz-recycling-oschatzer-recycling-un` | 7 | 2026-09-28 | `oschatz_recycling.rs` |
-| `bb-lauchhammer-ost-lausitz-recycling` | 6 | 2026-10-14 | `lausitz.rs` |
-| `bw-rastatt-hofmann` | 6 | 2026-10-21 | `hofmann_rastatt.rs` |
-| `he-frankfurt-am-main-schrott-recycle-meikel` | 6 | 2026-11-06 | `schrott_recycle_meikel.rs` |
-| `hh-hammerbrook-madi-metall-recycling` | 6 | 2026-09-28 | `madi.rs` |
-| `ni-pattensen-klix-recycling` | 6 | 2026-10-22 | `klix_recycling_pattensen.rs` |
-| `ni-rosengarten-madi-metall-recycling` | 6 | 2026-09-28 | `madi.rs` |
-| `nw-essen-vogelheim-tappe-rohstoffhandel` | 6 | 2026-10-28 | `tappe.rs` |
-| `sn-groposna-metcera` | 6 | 2026-09-29 | `metcera.rs` |
-| `be-treptow-kopenick-amr-metalle-und-rohstoffe-amr-schrottpla` | 4 | 2026-09-28 | `amr_schrottplatz.rs` |
-| `bw-freudenstadt-72250-vana-schrotthandel-entrumpelung` | 4 | 2026-10-28 | `vana.rs` |
-| `he-hattersheim-kupferhelden` | 4 | 2026-09-30 | `kupferhelden.rs` |
-| `nw-remscheid-vhm-hartmetall-ankauf` | 4 | 2026-11-06 | `vhm_hartmetall.rs` |
-| `sn-oelsnitz-vogtl-schrottmobil-inh-ralf-weel` | 4 | 2026-09-28 | `schrottmobil_oelsnitz.rs` |
-| `bb-cottbus-mobiler-schrotthandel-cottbus-mobschrott` | 3 | 2026-09-28 | `mobschrott.rs` |
-| `be-reinickendorf-antik-art-berlin-an-und-verkauf` | 3 | 2026-11-03 | `antikart.rs` |
-| `be-marzahn-hellersdorf-papierfritze-schrott-altpapierankauf` | 2 | 2026-09-30 | `papierfritze.rs` |
-| `hh-hohenfelde-trauschmuck-sperling` | 2 | 2026-10-17 | `sperling.rs` |
-| `ni-marxen-metallankauf24-andre-owsianski-ne-spezia` | 2 | 2026-11-07 | `metallankauf24.rs` |
-| `nw-nettetal-edelcat` | 2 | 2026-09-28 | `edelcat.rs` |
-| `bw-karlsruhe-76133-scheideanstalt-karlsruhe` | 1 | 2026-09-28 | `scheideanstalt_ka.rs` |
-**Zusammengefasst** ✓ ✓: **76** Händler ✓ ✓ · **1608** stehengebliebene Preiszeilen ✓ ✓ ·
-**4** davon mit laufendem Handler ✓ ✓ (davon einer — MKM ✓ ✓ — ist seit dem Release vom
-17.11. 07:52 UTC ✓ ✓ gefixt ✓ ✓ und aktualisiert sich zum nächsten 6h-Turnus ✓ ✓ um **14:36
-UTC** ✓ ✓) ✓ ✓
+Ein Handler, der `SKIP: Kataloglücke` meldet ✓ ✓, braucht eine **Material-Zuordnung** ✓ ✓
+im `MAPPINGS`-Vektor seines Handlers ✓ ✓ — nicht am HTML ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
