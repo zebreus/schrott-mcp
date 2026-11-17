@@ -34,6 +34,17 @@ pub struct Article {
     pub material: Option<&'static str>,
     pub variant: String,
     pub request_only: bool,
+    /// True only for the page's flat price form: a visible Höchstpreis plus a
+    /// visible minimum and a request link instead of the quantity calculator
+    /// (`data-staffel` ladder). Absent/false keeps the historical shape of
+    /// every ladder article byte-identical, so stored history stays readable.
+    #[serde(skip_serializing_if = "is_false")]
+    pub flat_quote: bool,
+}
+
+/// Keep the serialized Article shape unchanged for ladder articles.
+fn is_false(value: &bool) -> bool {
+    !*value
 }
 
 #[derive(Debug)]
@@ -52,7 +63,7 @@ impl Snapshot {
             "source": URL,
             "production_ready": false,
             "activation_blocker": "owner full review and integration/deployment of typed MKM transaction candidate",
-            "recording_contract": "MKM typed 61-article validation; atomic quote/acceptance/manifest/current-pointer reconciliation; immutable price metadata",
+            "recording_contract": "MKM typed 61-article validation; ladder rows (data-staffel) must agree with the visible Höchstpreis/minimum, reviewed flat rows (visible Höchstpreis plus visible minimum, request link) are accepted as flat upto quotes; atomic quote/acceptance/manifest/current-pointer reconciliation; immutable price metadata",
             "page_change_precision": "calendar_day; UTC midnight is normalization, not source time",
             "visibility_scope": "Parser checks hidden attributes, inline display:none, and reviewed CSS hiding utility classes on consumed products/ancestors; registered fetch pins the stylesheet URL and SHA-256, but no browser-rendered visibility is proven.",
             "required_alias_migrations": [{
@@ -65,6 +76,7 @@ impl Snapshot {
             "groups": self.articles.iter().map(|a| &a.group).collect::<BTreeSet<_>>().len(),
             "products": self.articles.len(),
             "numeric": self.outcome.prices.len(),
+            "flat_quote": self.articles.iter().filter(|a| a.flat_quote).count(),
             "request_only": self.outcome.acceptances.len(),
             "diagnostics": self.diagnostics,
             "articles": self.articles,
@@ -545,6 +557,25 @@ pub(super) const GROUPS: &[&str] = &[
     "Ankaufpreise für Schrott",
 ];
 
+/// Articles the page presents in the flat price form: a visible Höchstpreis
+/// and a visible minimum, with a request link instead of the quantity
+/// calculator. Reviewed from the live capture of 17.11.2026
+/// (`fixtures/mkm-overview-20261117-sanitized.html`, page change date
+/// 16.11.2026); the remaining 47 priced articles still carry the reviewed
+/// `data-staffel` ladder. The set is closed on purpose: a further flat row
+/// is a new page form and needs a new review, never an implicit extension.
+pub(super) const FLAT_QUOTE_ARTICLES: &[&str] = &[
+    "SW10040",
+    "SW10039",
+    "SW10042",
+    "SW10041",
+    "MKM-HM-01",
+    "SW10037",
+    "SW10036",
+    "MKM-HM-02",
+    "SW10038",
+];
+
 fn text(el: ElementRef<'_>) -> String {
     el.text()
         .collect::<Vec<_>>()
@@ -650,6 +681,67 @@ pub(super) fn quote_cell(cell: &str) -> Option<(f64, f64)> {
     Some((price, german_integer(tokens[4])?))
 }
 
+/// The page's request link of a flat quote row: exactly one visible anchor
+/// to the operator's own offer form whose visible text is "Anfragen". Its
+/// `material` parameter must decode to this row's own label, so the link
+/// proves that the visible price belongs to this article. Anything else is
+/// not a flat row.
+fn flat_request_material(cell: &ElementRef<'_>, anchor_sel: &Selector) -> Option<String> {
+    let anchors: Vec<_> = cell.select(anchor_sel).collect();
+    let [anchor] = anchors.as_slice() else {
+        return None;
+    };
+    if text(*anchor) != "Anfragen" || explicitly_hidden(*anchor) {
+        return None;
+    }
+    let href = anchor.value().attr("href")?;
+    if !href.starts_with("/angebot?") {
+        return None;
+    }
+    percent_decode(&query_parameter(href, "material")?)
+}
+
+/// One raw query parameter of a same-origin link.
+fn query_parameter(href: &str, key: &str) -> Option<String> {
+    let query = href.split_once('?')?.1;
+    query.split('&').find_map(|pair| {
+        let (name, value) = pair.split_once('=')?;
+        (name == key).then(|| value.to_owned())
+    })
+}
+
+/// Percent/plus decoding of one query value. Unknown or malformed escapes
+/// fail closed instead of guessing a character.
+fn percent_decode(value: &str) -> Option<String> {
+    let bytes = value.as_bytes();
+    let mut out: Vec<u8> = Vec::with_capacity(bytes.len());
+    let mut index = 0usize;
+    while index < bytes.len() {
+        match bytes[index] {
+            b'+' => {
+                out.push(b' ');
+                index += 1;
+            }
+            b'%' => {
+                if index + 3 > bytes.len() {
+                    return None;
+                }
+                let hex = std::str::from_utf8(&bytes[index + 1..index + 3]).ok()?;
+                if !hex.bytes().all(|c| c.is_ascii_hexdigit()) {
+                    return None;
+                }
+                out.push(u8::from_str_radix(hex, 16).ok()?);
+                index += 3;
+            }
+            byte => {
+                out.push(byte);
+                index += 1;
+            }
+        }
+    }
+    String::from_utf8(out).ok()
+}
+
 /// Parse exactly captioned purchase tables, preserving every source row in
 /// the inventory. Unknown/changed identities produce diagnostics, not prices.
 pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, IngestError> {
@@ -703,6 +795,7 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
     let cell_sel = selector("td");
     let time_sel = selector("time");
     let tier_sel = selector("[data-staffel]");
+    let anchor_sel = selector("a");
     let strong_sel = selector("strong");
     let eyebrow_sel = selector(".eyebrow");
     let page_dates: Vec<_> = doc
@@ -861,32 +954,58 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
                 })
                 .transpose()?
                 .unwrap_or_default();
+            // Two reviewed price forms. The ladder form (47 articles) keeps the
+            // strict tie between the calculator's tiers and the visible
+            // Höchstpreis/minimum. The flat form (9 articles, page form since
+            // 16.11.2026) has no calculator at all: the visible Höchstpreis
+            // and the visible minimum are the whole contract, and the page
+            // links to its request form instead. Anything else fails closed.
+            let mut flat_quote = false;
             if let Some(price) = price {
-                if tiers.is_empty()
-                    || tiers[0].ab != 0.0
-                    || tiers.iter().any(|t| {
-                        !t.ab.is_finite() || t.ab < 0.0 || !t.preis.is_finite() || t.preis <= 0.0
-                    })
-                    || tiers
-                        .windows(2)
-                        .any(|t| t[0].ab >= t[1].ab || t[0].preis > t[1].preis)
-                    || tiers
-                        .last()
-                        .is_none_or(|t| (t.preis - price).abs() > 0.000001 || Some(t.ab) != minimum)
-                {
-                    return Err(fail(format!(
-                        "{article}: tiers disagree with visible upper bound/quantity"
-                    )));
-                }
-                let baseline = tier_inputs[0]
-                    .value()
-                    .attr("data-price")
-                    .and_then(|p| p.parse::<f64>().ok());
-                if baseline.is_none_or(|p| !p.is_finite() || (p - tiers[0].preis).abs() > 0.000001)
-                {
-                    return Err(fail(format!(
-                        "{article}: hidden base price disagrees with tiers"
-                    )));
+                if tiers.is_empty() {
+                    if !FLAT_QUOTE_ARTICLES.contains(&article.as_str()) {
+                        return Err(fail(format!(
+                            "{article}: priced row without tier ladder is not a reviewed flat quote"
+                        )));
+                    }
+                    if flat_request_material(&cells[3], &anchor_sel).as_deref()
+                        != Some(label.as_str())
+                    {
+                        return Err(fail(format!(
+                            "{article}: flat quote row without the reviewed request link"
+                        )));
+                    }
+                    flat_quote = true;
+                } else {
+                    if tiers[0].ab != 0.0
+                        || tiers.iter().any(|t| {
+                            !t.ab.is_finite()
+                                || t.ab < 0.0
+                                || !t.preis.is_finite()
+                                || t.preis <= 0.0
+                        })
+                        || tiers
+                            .windows(2)
+                            .any(|t| t[0].ab >= t[1].ab || t[0].preis > t[1].preis)
+                        || tiers.last().is_none_or(|t| {
+                            (t.preis - price).abs() > 0.000001 || Some(t.ab) != minimum
+                        })
+                    {
+                        return Err(fail(format!(
+                            "{article}: tiers disagree with visible upper bound/quantity"
+                        )));
+                    }
+                    let baseline = tier_inputs[0]
+                        .value()
+                        .attr("data-price")
+                        .and_then(|p| p.parse::<f64>().ok());
+                    if baseline
+                        .is_none_or(|p| !p.is_finite() || (p - tiers[0].preis).abs() > 0.000001)
+                    {
+                        return Err(fail(format!(
+                            "{article}: hidden base price disagrees with tiers"
+                        )));
+                    }
                 }
             } else if !tiers.is_empty() {
                 return Err(fail(format!("{article}: request with numeric tiers")));
@@ -952,6 +1071,7 @@ pub fn parse(html: &str, impressum: &str, status: u16) -> Result<Snapshot, Inges
                 material,
                 variant,
                 request_only,
+                flat_quote,
             });
         }
         if group_rows == 0 {
@@ -1019,6 +1139,10 @@ mod tests {
     const HTML: &str = include_str!("../fixtures/mkm-overview-20261010.html");
     const IMP: &str = include_str!("../fixtures/mkm-impressum-20261010.html");
     const ORACLE: &str = include_str!("../fixtures/mkm-reviewed-mapping-oracle-20261018.json");
+    /// Live capture of 17.11.2026 (page change date 16.11.2026): the page now
+    /// shows nine priced articles without a quantity calculator.
+    const LIVE: &str = include_str!("../fixtures/mkm-overview-20261117-sanitized.html");
+    const LIVE_IMP: &str = include_str!("../fixtures/mkm-impressum-20261117-sanitized.html");
 
     fn snapshot(html: &str) -> Snapshot {
         parse(&augment_legacy_test_html(html), IMP, 200)
@@ -1091,6 +1215,284 @@ mod tests {
                 oracle["expected"][&a.article][1].as_str().unwrap()
             );
         }
+    }
+
+    fn live_row(html: &str, id: &str) -> String {
+        html.lines()
+            .find(|line| line.contains(&format!("<td>{id}</td>")))
+            .expect("reviewed capture row")
+            .to_owned()
+    }
+
+    fn mutate_live(html: &str, id: &str, before: &str, after: &str) -> String {
+        let row = live_row(html, id);
+        assert!(
+            row.contains(before),
+            "mutation must reach the reviewed row of {id}"
+        );
+        let changed = row.replacen(before, after, 1);
+        assert_ne!(changed, row, "mutation must change the reviewed row");
+        html.replacen(&row, &changed, 1)
+    }
+
+    #[test]
+    fn reviewed_20261117_capture_accepts_the_flat_page_form() {
+        let s = parse(LIVE, LIVE_IMP, 200).unwrap();
+        assert!(s.diagnostics.is_empty(), "{:?}", s.diagnostics);
+        assert_eq!(
+            (
+                s.articles.len(),
+                s.outcome.prices.len(),
+                s.outcome.acceptances.len()
+            ),
+            (61, 56, 5)
+        );
+        assert_eq!(
+            s.page_change_date.as_deref(),
+            Some("2026-11-16T00:00:00+00:00")
+        );
+        // Live capture of 17.11.2026: nine priced rows without a quantity
+        // calculator. Their visible Höchstpreis and visible minimum are the
+        // whole contract, the page links to its request form instead.
+        for (article, label, price, minimum, date) in [
+            ("SW10040", "Zinn 99%", 27.30, 100.0, "2026-11-11"),
+            ("SW10039", "Zinn 90%", 22.05, 100.0, "2026-11-11"),
+            ("SW10042", "Zinn 60%", 10.50, 250.0, "2026-11-11"),
+            ("SW10041", "Zinn 30%", 5.25, 500.0, "2026-11-11"),
+            (
+                "MKM-HM-01",
+                "Hartmetall gemischt",
+                49.20,
+                50.0,
+                "2026-11-16",
+            ),
+            ("SW10037", "VHM Bohrer", 49.20, 30.0, "2026-11-16"),
+            (
+                "SW10036",
+                "Widia Wendeschneidplättchen",
+                49.20,
+                80.0,
+                "2026-11-16",
+            ),
+            (
+                "MKM-HM-02",
+                "Hartmetall Stückschrott",
+                38.85,
+                50.0,
+                "2026-11-03",
+            ),
+            (
+                "SW10038",
+                "HSS Schnellarbeitsstahl",
+                1.26,
+                500.0,
+                "2026-11-11",
+            ),
+        ] {
+            let a = s.articles.iter().find(|a| a.article == article).unwrap();
+            assert_eq!(a.label, label, "{article}");
+            assert!(a.flat_quote, "{article} must be a reviewed flat quote");
+            assert!(a.tiers.is_empty(), "{article} has no calculator ladder");
+            assert_eq!(a.price_eur_per_kg, Some(price), "{article}");
+            assert_eq!(a.minimum_for_upper_bound_kg, Some(minimum), "{article}");
+            assert_eq!(a.product_change_date.as_deref(), Some(date), "{article}");
+            assert!(!a.request_only, "{article}");
+            let p = s.outcome.prices.iter().find(|p| p.label == label).unwrap();
+            assert_eq!(p.price, price, "{article}");
+            assert_eq!(p.price_kind, "upto", "{article}");
+            assert_eq!(p.price_max, Some(price), "{article}");
+            assert_eq!(p.price_min, None, "{article}");
+            assert_eq!(p.unit, "EUR/kg", "{article}");
+            assert_eq!(p.confidence, Some(0.5), "{article}");
+        }
+        assert_eq!(s.articles.iter().filter(|a| a.flat_quote).count(), 9);
+        // The new price form changes no identity: the reviewed mapping oracle
+        // still holds for all 61 articles.
+        let oracle: serde_json::Value = serde_json::from_str(ORACLE).unwrap();
+        let ids: BTreeSet<_> = s.articles.iter().map(|a| a.article.as_str()).collect();
+        let expected: BTreeSet<_> = oracle["expected"]
+            .as_object()
+            .unwrap()
+            .keys()
+            .map(String::as_str)
+            .collect();
+        assert_eq!(ids, expected);
+        for a in &s.articles {
+            assert_eq!(
+                a.material,
+                oracle["expected"][&a.article][0].as_str(),
+                "{}",
+                a.article
+            );
+            assert_eq!(
+                a.variant,
+                oracle["expected"][&a.article][1].as_str().unwrap(),
+                "{}",
+                a.article
+            );
+        }
+        // The other 47 priced articles keep the reviewed ladder unchanged.
+        let ladder: Vec<_> = s
+            .articles
+            .iter()
+            .filter(|a| !a.request_only && !a.flat_quote)
+            .collect();
+        assert_eq!(ladder.len(), 47);
+        for a in ladder {
+            assert!(!a.tiers.is_empty(), "{}", a.article);
+            assert_eq!(a.tiers[0].ab, 0.0, "{}", a.article);
+            let last = a.tiers.last().unwrap();
+            assert!(
+                (last.preis - a.price_eur_per_kg.unwrap()).abs() < 0.000001,
+                "{}",
+                a.article
+            );
+            assert_eq!(Some(last.ab), a.minimum_for_upper_bound_kg, "{}", a.article);
+        }
+        // The request-only articles keep their request contract.
+        for a in s.articles.iter().filter(|a| a.request_only) {
+            assert!(a.tiers.is_empty(), "{}", a.article);
+            assert!(a.price_eur_per_kg.is_none(), "{}", a.article);
+            assert!(a.minimum_for_upper_bound_kg.is_none(), "{}", a.article);
+            assert!(!a.flat_quote, "{}", a.article);
+        }
+    }
+
+    #[test]
+    fn flat_page_form_mutations_stay_fail_closed() {
+        let cases = [
+            // A flat row without a usable price.
+            (
+                mutate_live(LIVE, "SW10040", "<strong>27,30 €</strong>", "<strong>0,00 €</strong>"),
+                "unknown complete price-cell grammar",
+            ),
+            // A flat row without the page's request link.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10040",
+                    "<td><a href=\"/angebot?material=Zinn+99%25\">Anfragen</a></td>",
+                    "<td></td>",
+                ),
+                "flat quote row without the reviewed request link",
+            ),
+            // Two request links: the row is ambiguous.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10040",
+                    "<td><a href=\"/angebot?material=Zinn+99%25\">Anfragen</a></td>",
+                    "<td><a href=\"/angebot?material=Zinn+99%25\">Anfragen</a><a href=\"/angebot?material=Zinn+99%25\">Anfragen</a></td>",
+                ),
+                "flat quote row without the reviewed request link",
+            ),
+            // A request link that names another article.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10040",
+                    "material=Zinn+99%25",
+                    "material=Zinn+90%25",
+                ),
+                "flat quote row without the reviewed request link",
+            ),
+            // A request link that leaves the operator's own offer form.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10040",
+                    "href=\"/angebot?material=Zinn+99%25\"",
+                    "href=\"/kontakt?material=Zinn+99%25\"",
+                ),
+                "flat quote row without the reviewed request link",
+            ),
+            // A hidden request link is not a visible offer.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10040",
+                    "<td><a href=\"/angebot?material=Zinn+99%25\">Anfragen</a></td>",
+                    "<td><a hidden href=\"/angebot?material=Zinn+99%25\">Anfragen</a></td>",
+                ),
+                "flat quote row without the reviewed request link",
+            ),
+            // A flat row that also carries a ladder contradicting the
+            // visible Höchstpreis/minimum.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10040",
+                    "<td><a href=\"/angebot?material=Zinn+99%25\">Anfragen</a></td>",
+                    "<td><input data-price=\"26.0000\" data-staffel='[{\"ab\":0,\"preis\":26.0},{\"ab\":50,\"preis\":27.3}]'></td>",
+                ),
+                "tiers disagree with visible upper bound/quantity",
+            ),
+            // A ladder row turned into a flat row: not a reviewed flat quote.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10028",
+                    "<td><input data-price=\"1.6000\" data-staffel='[{\"ab\":0,\"preis\":1.6},{\"ab\":50,\"preis\":1.63},{\"ab\":250,\"preis\":1.66}]'></td>",
+                    "<td><a href=\"/angebot?material=V4A+Abf%C3%A4lle\">Anfragen</a></td>",
+                ),
+                "priced row without tier ladder is not a reviewed flat quote",
+            ),
+            // A request article with a ladder.
+            (
+                mutate_live(
+                    LIVE,
+                    "MKM-NE-01",
+                    "<td><a href=\"/angebot\">Angebot</a></td>",
+                    "<td><input data-price=\"1.0000\" data-staffel='[{\"ab\":0,\"preis\":1.0}]'></td>",
+                ),
+                "request with numeric tiers",
+            ),
+            // A ladder row whose visible price no longer matches the ladder.
+            (
+                mutate_live(
+                    LIVE,
+                    "MET-KU-MILL",
+                    "<strong>11,13 €</strong>",
+                    "<strong>11,14 €</strong>",
+                ),
+                "tiers disagree with visible upper bound/quantity",
+            ),
+        ];
+        for (html, expected) in cases {
+            assert_ne!(html, LIVE, "mutation must reach the reviewed capture");
+            let error = parse(&html, LIVE_IMP, 200).unwrap_err().to_string();
+            assert!(error.contains(expected), "expected {expected}, got {error}");
+        }
+    }
+
+    #[test]
+    fn ladder_articles_keep_the_historical_article_json_shape() {
+        // The typed60 history harness compares the stored Article JSON with
+        // the parsed one byte for byte. The flat-form marker must therefore
+        // stay absent for every ladder article of every reviewed capture.
+        for (html, imp) in [
+            (LIVE, LIVE_IMP),
+            (
+                include_str!("../fixtures/mkm-overview-20261018-sanitized.html"),
+                include_str!("../fixtures/mkm-impressum-20261018-sanitized.html"),
+            ),
+        ] {
+            let s = parse(html, imp, 200).unwrap();
+            for a in s.articles.iter().filter(|a| !a.flat_quote) {
+                let value = serde_json::to_value(a).unwrap();
+                assert!(
+                    value.get("flat_quote").is_none(),
+                    "{} must keep the historical shape",
+                    a.article
+                );
+            }
+        }
+        let s = parse(LIVE, LIVE_IMP, 200).unwrap();
+        let flat = s.articles.iter().find(|a| a.flat_quote).unwrap();
+        assert_eq!(
+            serde_json::to_value(flat).unwrap()["flat_quote"],
+            serde_json::json!(true)
+        );
     }
 
     fn first_product_row(html: &str, attrs: &str) -> String {

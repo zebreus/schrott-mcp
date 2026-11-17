@@ -5,7 +5,7 @@ use chrono::{DateTime, Utc};
 use schrott_mcp_store::{NewPrice, PriceRow, PublicDb};
 
 use super::{
-    overview::{quote_cell, Snapshot, GROUPS, MAPPINGS},
+    overview::{quote_cell, Snapshot, FLAT_QUOTE_ARTICLES, GROUPS, MAPPINGS},
     SLUG, URL,
 };
 use crate::traders::{RecordSummary, MAP_VERSION};
@@ -103,6 +103,7 @@ pub fn record_articles(
                 || article.price_eur_per_kg.is_some()
                 || article.minimum_for_upper_bound_kg.is_some()
                 || !article.tiers.is_empty()
+                || article.flat_quote
             {
                 return Err(fail("request article with numeric contract"));
             }
@@ -126,7 +127,19 @@ pub fn record_articles(
             if article.price_eur_per_kg != Some(price)
                 || article.minimum_for_upper_bound_kg != Some(minimum)
                 || article.product_change_date.is_none()
-                || article.tiers.first().is_none_or(|t| t.ab != 0.0)
+            {
+                return Err(fail("invalid article quote metadata"));
+            }
+            if article.flat_quote {
+                // Flat page form (since 16.11.2026): the visible Höchstpreis
+                // and the visible minimum are the whole contract, there is no
+                // calculator ladder. Only the reviewed article set may use it.
+                if !article.tiers.is_empty()
+                    || !FLAT_QUOTE_ARTICLES.contains(&article.article.as_str())
+                {
+                    return Err(fail("unreviewed flat quote article"));
+                }
+            } else if article.tiers.first().is_none_or(|t| t.ab != 0.0)
                 || article
                     .tiers
                     .last()
@@ -337,6 +350,10 @@ mod tests {
     use schrott_mcp_store::{InternalDb, PriceRow};
     const HTML: &str = include_str!("../fixtures/mkm-overview-20261010.html");
     const IMP: &str = include_str!("../fixtures/mkm-impressum-20261010.html");
+    /// Live capture of 17.11.2026: nine priced articles without a quantity
+    /// calculator, 47 with the reviewed ladder.
+    const LIVE: &str = include_str!("../fixtures/mkm-overview-20261117-sanitized.html");
+    const LIVE_IMP: &str = include_str!("../fixtures/mkm-impressum-20261117-sanitized.html");
     include!("recording_historical_transition_test.rs");
     fn fixture(html: &str) -> Snapshot {
         // Synthetic complete input for legacy-layout/date mutation regressions.
@@ -587,6 +604,179 @@ mod tests {
                 .filter(|a| a["article"] == "MKM-MS-01")
                 .count(),
             1
+        );
+    }
+
+    #[tokio::test]
+    async fn reviewed_20261117_capture_records_the_flat_page_form() {
+        // Owner-reviewed source capture of the page form without a quantity
+        // calculator, recorded through the real MKM Store transaction.
+        let (_dir, db, internal, _) = setup("mkm-reviewed-20261117-capture");
+        let snapshot = super::super::overview::parse(LIVE, LIVE_IMP, 200)
+            .expect("sanitized operator capture must parse before the recording assertion");
+        assert_eq!(snapshot.articles.len(), 61);
+        assert_eq!(snapshot.articles.iter().filter(|a| a.flat_quote).count(), 9);
+        let now = DateTime::parse_from_rfc3339("2026-11-17T08:00:00+00:00")
+            .unwrap()
+            .with_timezone(&Utc);
+        let outcome = crate::traders::RecordOutcome::MkmArticles(snapshot);
+        let summary = crate::traders::record_outcome(&db, &internal, SLUG, &outcome, &now)
+            .await
+            .expect(
+                "reviewed flat-form capture must record through the real MKM Store transaction",
+            );
+        assert_eq!((summary.recorded, summary.accepted), (56, 5));
+        let tid = db.find_trader_id(SLUG).unwrap().unwrap();
+        assert_eq!(db.current_prices_from(tid, URL).unwrap().len(), 56);
+        // A flat article: visible Höchstpreis plus visible minimum, no ladder.
+        let p = current(&db, "zinn-rein-formgemischt", "Zinn 99%").unwrap();
+        assert_eq!(p.price, 27.30);
+        assert_eq!(p.price_max, Some(27.30));
+        assert_eq!(p.price_min, None);
+        assert_eq!(p.unit, "EUR/kg");
+        assert_eq!(p.currency, "EUR");
+        assert_eq!(p.price_kind, "upto");
+        assert_eq!(p.confidence, Some(0.5));
+        assert_eq!(p.source_url, URL);
+        assert_eq!(
+            (p.published_at, p.valid_from, p.valid_to),
+            (None, None, None)
+        );
+        let extra: serde_json::Value = serde_json::from_str(&p.extra_json).unwrap();
+        assert_eq!(extra["snapshot_owner"], "mkm-article-v1");
+        let article = &extra["article"];
+        assert_eq!(article["article"], "SW10040");
+        assert_eq!(article["material"], "zinn-rein-formgemischt");
+        assert_eq!(article["variant"], "Zinn 99%");
+        assert_eq!(article["price_eur_per_kg"], 27.30);
+        assert_eq!(article["minimum_for_upper_bound_kg"], 100.0);
+        assert_eq!(article["product_change_date"], "2026-11-11");
+        assert_eq!(article["tiers"], serde_json::json!([]));
+        assert_eq!(article["flat_quote"], true);
+        assert_eq!(article["request_only"], false);
+        // Every other flat article keeps its own visible bound.
+        for (material, variant, price, minimum, date) in [
+            ("zinn-legierungen", "Zinn 90%", 22.05, 100.0, "2026-11-11"),
+            ("loetzinn", "Zinn 60%", 10.50, 250.0, "2026-11-11"),
+            ("loetzinn", "Zinn 30%", 5.25, 500.0, "2026-11-11"),
+            (
+                "hartmetall",
+                "Hartmetall gemischt",
+                49.20,
+                50.0,
+                "2026-11-16",
+            ),
+            ("hartmetall", "VHM Bohrer", 49.20, 30.0, "2026-11-16"),
+            (
+                "hartmetall",
+                "Widia Wendeschneidplättchen",
+                49.20,
+                80.0,
+                "2026-11-16",
+            ),
+            (
+                "hartmetall",
+                "Hartmetall Stückschrott",
+                38.85,
+                50.0,
+                "2026-11-03",
+            ),
+            (
+                "hss-werkzeuge",
+                "HSS Schnellarbeitsstahl",
+                1.26,
+                500.0,
+                "2026-11-11",
+            ),
+        ] {
+            let row = current(&db, material, variant).unwrap();
+            assert_eq!(row.price, price, "{variant}");
+            assert_eq!(row.price_max, Some(price), "{variant}");
+            let extra: serde_json::Value = serde_json::from_str(&row.extra_json).unwrap();
+            assert_eq!(extra["article"]["flat_quote"], true, "{variant}");
+            assert_eq!(
+                extra["article"]["tiers"],
+                serde_json::json!([]),
+                "{variant}"
+            );
+            assert_eq!(
+                extra["article"]["minimum_for_upper_bound_kg"], minimum,
+                "{variant}"
+            );
+            assert_eq!(extra["article"]["product_change_date"], date, "{variant}");
+        }
+        // The ladder articles keep their historical Article JSON shape.
+        let mill = current(&db, "kupfer-millberry", "").unwrap();
+        let extra: serde_json::Value = serde_json::from_str(&mill.extra_json).unwrap();
+        assert!(extra["article"].get("flat_quote").is_none());
+        assert_eq!(extra["article"]["tiers"].as_array().unwrap().len(), 4);
+        assert_eq!(extra["article"]["minimum_for_upper_bound_kg"], 250.0);
+        assert_eq!(extra["page_change_date"], "2026-11-16T00:00:00+00:00");
+    }
+
+    #[tokio::test]
+    async fn flat_form_articles_cannot_write_without_reviewed_evidence() {
+        let (_dir, db, internal, now) = setup("mkm-flat-form-guard");
+        let tid = db.find_trader_id(SLUG).unwrap().unwrap();
+        let mut cases = Vec::new();
+        // The flat marker removed: a priced article without a ladder.
+        let mut s = super::super::overview::parse(LIVE, LIVE_IMP, 200).unwrap();
+        s.articles
+            .iter_mut()
+            .find(|a| a.article == "SW10040")
+            .unwrap()
+            .flat_quote = false;
+        cases.push(s);
+        // The flat marker on an article outside the reviewed set.
+        let mut s = super::super::overview::parse(LIVE, LIVE_IMP, 200).unwrap();
+        s.articles
+            .iter_mut()
+            .find(|a| a.article == "MET-KU-MILL")
+            .unwrap()
+            .flat_quote = true;
+        cases.push(s);
+        // A flat article that also carries a ladder.
+        let mut s = super::super::overview::parse(LIVE, LIVE_IMP, 200).unwrap();
+        s.articles
+            .iter_mut()
+            .find(|a| a.article == "SW10040")
+            .unwrap()
+            .tiers = vec![
+            super::super::overview::Tier {
+                ab: 0.0,
+                preis: 26.0,
+            },
+            super::super::overview::Tier {
+                ab: 100.0,
+                preis: 27.3,
+            },
+        ];
+        cases.push(s);
+        // A flat article without a machine-readable product date.
+        let mut s = super::super::overview::parse(LIVE, LIVE_IMP, 200).unwrap();
+        s.articles
+            .iter_mut()
+            .find(|a| a.article == "SW10040")
+            .unwrap()
+            .product_change_date = None;
+        cases.push(s);
+        // A request article claiming the flat price form.
+        let mut s = super::super::overview::parse(LIVE, LIVE_IMP, 200).unwrap();
+        s.articles
+            .iter_mut()
+            .find(|a| a.article == "MKM-NE-01")
+            .unwrap()
+            .flat_quote = true;
+        cases.push(s);
+        for s in cases {
+            assert!(
+                commit(&db, &internal, s, now).await.is_err(),
+                "unreviewed flat-form evidence was written"
+            );
+        }
+        assert!(
+            db.current_prices_from(tid, URL).unwrap().is_empty(),
+            "a rejected flat-form snapshot must not write or retire anything"
         );
     }
 
