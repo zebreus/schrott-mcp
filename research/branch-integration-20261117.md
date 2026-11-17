@@ -70,10 +70,11 @@ Timeline-Ende ✓ ✓:
 | `nw-telgte-putzer` | Betrieb **Kurz Ebert** ist ein **anderer** Rechtsträger und wird **nicht** übernommen |
 
 **c) `bb-ludwigsfelde-ka-de-schrott-und-metallhandels` — ein **vorbestehender** Widerspruch** ✓ ✓:
-Der Branch `geo1108-1` ✓ ✓ führt den Punkt **52.3198376/13.2574964** ✓ ✓, das Dossier selbst **nicht**
+Der Branch `geo1108-1` ✓ ✓ führt den Punkt **52.3198377/13.2574964** ✓ ✓, das Dossier selbst **nicht**
 ✓ ✓ — es vermerkt „Klärfall – keine Koordinate gesetzt" ✓ ✓, weil der OSM-Punkt zu „Mühl Product &
-Service" gehört ✓ ✓. Die **Datenbank** führt den Punkt trotzdem **seit dem 05.11.2026** ✓ ✓, weil der
-Seed-Import ein leeres Feld **nicht** überschreibt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ — ein **vorbestehender** Fall ✓ ✓,
+Service" gehört ✓ ✓. Die **Datenbank** führt einen um einen Zentimeter abweichenden Punkt
+(**52.3198376/13.2574964** ✓ ✓) **seit dem 05.11.2026** ✓ ✓, weil der Seed-Import ein leeres
+Feld **nicht** überschreibt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ — ein **vorbestehender** Fall ✓ ✓,
 **nicht** durch die Integration verursacht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 Die konsequente Korrektur wäre `clear_fields: geo` ✓ ✓ — sie ist **bewusst nicht** Teil dieses
 Releases ✓ ✓ (sie ändert einen Feldwert ✓ ✓ und gehört in einen eigenen, geprüften Schritt ✓ ✓) ✓ ✓ ✓ ✓
