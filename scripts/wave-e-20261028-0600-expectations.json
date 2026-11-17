@@ -19,25 +19,30 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "0b0faf1",
-  "owner_review": "research/wave-20261113-0000-report.md",
+  "dossier_revision": "1905753",
+  "owner_review": "research/wave-20261117-0000-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 17.11.2026, 00:00)",
-  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 0b0faf1 gehoben",
+  "revised_by": "Owner (Welle 17.11.2026, 00:00 (Hash-Lift zur Probe 1905753))",
+  "scope": "3 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 1905753 gehoben",
   "rows": [
     {
       "slug": "by-peienberg-seiler",
       "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261113-0000-report.md."
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-0000-report.md."
+    },
+    {
+      "slug": "he-langenselbold-63505-levy-schrott-metall",
+      "fields": [],
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-0000-report.md."
     },
     {
       "slug": "nw-gummersbach-mar-schrottabholung",
       "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261113-0000-report.md."
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-0000-report.md."
     }
   ],
-  "unchanged_rows": 58
+  "unchanged_rows": 57
 },
   "traders": [
     {
@@ -163,8 +168,8 @@
         "website": "",
         "website_status": "aktiv"
       },
-      "notes_sha256": "039c1b5410862a4840c21f6b86c2e272274c49002fc3442f52258e25cdd098d4",
-      "seed_hash": "4f5e9ff2b298f74d"
+      "notes_sha256": "a5625c81110274f2a9935753fffd66344f54e7250d55393e1d4365f6d1ee78f7",
+      "seed_hash": "36b2401960ddc424"
     },
     {
       "slug": "by-sennfeld-97526-mertel-autoverwertung",
@@ -379,8 +384,8 @@
         "website": "",
         "website_status": "tot"
       },
-      "notes_sha256": "508bc0304abc9627385f9a93ca02efd60bc758cdedfea86a0fb3c708adbf86a0",
-      "seed_hash": "5a426c31e6f3c5c1"
+      "notes_sha256": "755ab8216387e135af868215f2a0c6dd87f31b5250a0867c354d0924ff866600",
+      "seed_hash": "e4eadd796112406f"
     },
     {
       "slug": "he-limburg-65549-scheuer",
@@ -685,8 +690,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "e3b8b1bf2256caad367ba1b569c7d0a1de87b9f4b59416399ac718a2b5666e48",
-      "seed_hash": "9536cb3b7d9161bf"
+      "notes_sha256": "fd503ea0a0db812d2df2aac9f3fcfeb76b5eefebaeeafb191ebe4768c3a22caf",
+      "seed_hash": "4a2e61411c8970c0"
     },
     {
       "slug": "nw-gutersloh-bartsch",
