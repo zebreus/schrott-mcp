@@ -62,3 +62,7 @@ Nur ein nicht bestätigter Verzeichnis-Lead zu „Manuel Neuwald Schrotthandel�
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Neuwald ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=32805%20Horn-Bad%20Meinberg%2C%20Deutschland%2C%20Deutschland%3B8.9690591%3B51.8702253%3B9.0418034%3B51.9151409%3B8.8963148%3B51.8253097&dst=5&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=32805%20Horn-Bad%20Meinberg%2C%20Deutschland%2C%20Deutschland%3B8.9690591%3B51.8702253%3B9.0418034%3B51.9151409%3B8.8963148%3B51.8253097&dst=5&is=1&e=1 (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: **Positivkontrolle 17.11.2026:** die Standortabfrage mit **10 km** um 32805 Horn-Bad Meinberg (8.9731695/51.8801277) liefert **16** Efb-Treffer und **1** Altfahrzeug-Treffer (Autoverwertung Reibeholz Inhaber Werner Reibeholz, Karrweg 35, 32825 Blomberg, ZAHS01800146 / 1); **kein** Treffer nennt Neuwald.]

@@ -77,3 +77,7 @@ Betreiberwebsite identifiziert sich als Schrott Busters Oliver Wojke, Fischweihe
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wojke ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Fischweiher%2026%2C%2045307%20Essen%2C%20Deutschland%2C%20Deutschland%3B7.0729867%3B51.4660509%3B7.1162456%3B51.4930002%3B7.0297278%3B51.4391016&dst=3&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Fischweiher%2026%2C%2045307%20Essen%2C%20Deutschland%2C%20Deutschland%3B7.0729867%3B51.4660509%3B7.1162456%3B51.4930002%3B7.0297278%3B51.4391016&dst=3&is=1&e=1 (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: **Positivkontrolle 17.11.2026:** die Standortabfrage mit **10 km** um die Essener Anschrift (7.0729867/51.4660509) liefert **180** Efb-Treffer und **10** Altfahrzeug-Treffer; **kein** Treffer nennt Schrott Busters oder Wojke.]

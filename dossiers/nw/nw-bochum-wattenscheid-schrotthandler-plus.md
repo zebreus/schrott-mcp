@@ -126,3 +126,7 @@ Der aktuelle Betreiberauftritt ist direkt erreichbar und nennt im Impressum Issa
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=El-Lahib ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Vorstadtstra%C3%9Fe%2065%2C%2044866%20Bochum%2C%20Deutschland%2C%20Deutschland%3B7.1390802%3B51.4821058%3B7.1823543%3B51.5090551%3B7.0958061%3B51.4551565&dst=3&is=1&e=1 ;
   https://www.online-handelsregister.de/suche/El-Lahib+Bochum (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: Die Plus-Seiten nennen **eigene** Kontaktdaten (0163 4694319, info@schrotthandel.nrw) und **eigene** Öffnungszeiten (Mo-Fr 07:00-21:00, Sa 09:00-21:00) und sind damit eine **eigene** Marke **mit** demselben Namen und keine bloße Zweitseite desselben Anbieters. Die beiden Links stehen auf der Plus-Startseite unter der Überschrift "Langfristige Partnerschaften"; der Fußbeleg "Design by Horany" ist der **Webdesigner** und kein Betreiberhinweis. Die Servicezeiten der Plus-Seiten selbst (Mo-Fr 07:00-19:00, Sa 09:00-19:00, So Ruhetag) bleiben unverändert, und die Bochum-Leistungsseite nennt Wattenscheid weiterhin ausdrücklich als bedienten Stadtteil.]

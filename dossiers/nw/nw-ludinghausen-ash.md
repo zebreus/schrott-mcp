@@ -68,3 +68,7 @@ Die aktuelle Website `ash-schrotthandel.de` beschreibt einen ASH-Rohstoffhandel 
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=El-Lahib ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Hans-B%C3%B6ckler-Stra%C3%9Fe%2016%2C%2059348%20L%C3%BCdinghausen%2C%20Deutschland%2C%20Deutschland%3B7.4272357%3B51.7623886%3B7.4707779%3B51.7893379%3B7.3836935%3B51.7354393&dst=3&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Hans-B%C3%B6ckler-Stra%C3%9Fe%2016%2C%2059348%20L%C3%BCdinghausen%2C%20Deutschland%2C%20Deutschland%3B7.4272357%3B51.7623886%3B7.4707779%3B51.7893379%3B7.3836935%3B51.7354393&dst=3&is=1&e=1 (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: Die genannten **500 Kilogramm** sind ein Hinweis auf den Transportaufwand ("500 Kilogramm Schrott sind schnell erreicht! Der Transport zum Schrottplatz ist zeitaufwendig"), **keine** Mindestbestellmenge. **Verzeichnisstand 17.11.2026:** Der 11880-Eintrag "ASH Altmetall und Schrotthandel" trägt den Eintragsstand **10.10.2026** und die Aktualisierung **10.11.2026**; die Gelbe-Seiten-Suche liefert am selben Tag für Lüdinghausen einen Eintrag "**AES Altmetalle**" an Hans-Böckler-Str. 16, 59348 Lüdinghausen mit der Rufnummer 02591 8 91 27 29, also eine **dritte** Schreibweise des Namens bei identischer Anschrift und identischer Rufnummer.]

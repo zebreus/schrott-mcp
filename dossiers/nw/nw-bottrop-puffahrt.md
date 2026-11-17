@@ -56,3 +56,7 @@ Der Seed führt „Puffahrt“ mit Bottroper Str. 34, 46244 Bottrop; die Adresse
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Puffahrt ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Bottroper%20Stra%C3%9Fe%2034%2C%2046244%20Bottrop%2C%20Deutschland%2C%20Deutschland%3B6.9142873%3B51.5982951%3B6.9576720%3B51.6252444%3B6.8709026%3B51.5713458&dst=3&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Bottroper%20Stra%C3%9Fe%2034%2C%2046244%20Bottrop%2C%20Deutschland%2C%20Deutschland%3B6.9142873%3B51.5982951%3B6.9576720%3B51.6252444%3B6.8709026%3B51.5713458&dst=3&is=1&e=1 (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: Das Angebot nennt einen weiten Regionenumfang (Sauerland, Märkischer Kreis, Iserlohn, Hemer, Werdohl, Neuenrade, Lüdenscheid, Siegen, Hagen, Gevelsberg und Sprockhövel); ein Beziffern der Kurse findet **nicht** statt. Die Kopfzeile der Seite verweist auf die Hauptdomain schrottabholung123.de. **Positivkontrolle 17.11.2026:** die Standortabfrage mit **10 km** um Bottroper Straße 34 (6.9143367/51.5982855) liefert **66** Efb-Treffer und **3** Altfahrzeug-Treffer; **kein** Treffer nennt Puffahrt.]

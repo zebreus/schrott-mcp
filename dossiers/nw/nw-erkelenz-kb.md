@@ -53,3 +53,7 @@ Direktabrufe per Webfetch scheitern am Transport, requests meldet fehlende Zerti
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=KB%20Schrott ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Franz-Halcour-Stra%C3%9Fe%203%2C%2041812%20Erkelenz%2C%20Deutschland%2C%20Deutschland%3B6.328744%3B51.0745008%3B6.3716358%3B51.1014501%3B6.2858522%3B51.0475515&dst=3&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Franz-Halcour-Stra%C3%9Fe%203%2C%2041812%20Erkelenz%2C%20Deutschland%2C%20Deutschland%3B6.328744%3B51.0745008%3B6.3716358%3B51.1014501%3B6.2858522%3B51.0475515&dst=3&is=1&e=1 (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: **Nachprüfung 17.11.2026 (Verzeichnisfassungen):** Der 11880-Eintrag "KB Schrott & Buntmetalle" wurde am 17.11.2026 vollständig live gelesen: Branche "Entsorgungsdienst, Schrotthandel & Containerdienste" mit sieben Kategorien, Anschrift in **Mönchengladbach**, nur eine **Mobilnummer** (01515) 9012122, **keine** Öffnungszeiten und **kein** Festnetz. Der Widerspruch zwischen der Erkelenzer Anschrift und dem Mönchengladbacher Standort bleibt damit **offen**; eine Wayback-Abfrage liefert **keinen** Snapshot.]

@@ -70,3 +70,7 @@ Zusätzlicher Verwechslungsschutz: An der **Coermühle 4a** tritt laut eigenem I
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=SMB%20Schrott%20und%20Metallhandel ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Coerm%C3%BChle%2012%2C%2048157%20M%C3%BCnster%2C%20Deutschland%2C%20Deutschland%3B7.6173198%3B52.0061943%3B7.6610988%3B52.0331436%3B7.5735408%3B51.9792450&dst=3&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Coerm%C3%BChle%2012%2C%2048157%20M%C3%BCnster%2C%20Deutschland%2C%20Deutschland%3B7.6173198%3B52.0061943%3B7.6610988%3B52.0331436%3B7.5735408%3B51.9792450&dst=3&is=1&e=1 (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: **Positivkontrolle 17.11.2026:** die Standortabfrage mit **10 km** um 48147 Münster (7.6173198/52.0061943) liefert **56** Efb-Treffer und **1** Altfahrzeug-Treffer; **kein** Treffer nennt SMB.]

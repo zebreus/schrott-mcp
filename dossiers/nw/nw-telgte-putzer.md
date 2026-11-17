@@ -133,3 +133,7 @@ Produktionspunkt (Wohnhaus in der Gutenbergweg) wird zurückgenommen. `status` b
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Telgte%2C%20Deutschland%2C%20Deutschland%3B7.784859%3B51.983522%3B7.8577871%3B52.0284376%3B7.7119309%3B51.9386064&dst=5&is=1&e=1 ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Telgte%2C%20Deutschland%2C%20Deutschland%3B7.784859%3B51.983522%3B7.8577871%3B52.0284376%3B7.7119309%3B51.9386064&dst=5&is=1&e=1 ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.7500,51.9500,7.8200,52.0200 (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: Der im Verzeichnis genannte Betrieb **Kurz Ebert** ist ein **anderer** Rechtsträger und wird **nicht** übernommen.]

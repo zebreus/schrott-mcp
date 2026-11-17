@@ -79,3 +79,7 @@ Am Atlaswerk22/33106Paderborn ist aktueller PreZero-Standort in Register und Zer
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/VAADIN/dynamic/resource/0/704fce9f-fc72-491b-b181-d6d37e4a9f56/ZZEE002001869.pdf ;
   https://prezero.com/de/rohstoffe/schrotte-und-metalle ;
   https://prezero.com/de/zertifikate (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: Das EfbV-Originalzertifikat **ZZEE002001862009** des amtlichen Fachbetrieberegisters gilt vom 07.10.2025 bis 07.01.2027 und nennt denselben Standort in seiner Anlage. Die beiden übrigen Dateien (GüKG und Z3140) sind Scans **ohne** Textebene und deshalb nur über Dateiname und Zertifikatsportal belegt; das Originalzertifikat bleibt die belastbare Grundlage.]

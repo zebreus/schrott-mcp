@@ -93,3 +93,7 @@ Der Seed „Krauß“ ist weiterhin nicht mit einem konkreten Betreiber identifi
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Im%20Alten%20Feld%2027%2C%2051429%20Bergisch%20Gladbach%2C%20Deutschland%2C%20Deutschland%3B7.1491313%3B50.9594673%3B7.1919169%3B50.9864166%3B7.1063457%3B50.9325180&dst=3&is=1&e=1 ;
   https://www.online-handelsregister.de/suche/Krauss+Bergisch+Gladbach ;
   https://www.11880.com/branchenbuch/bergisch-gladbach/120674719B100463105/adolf-krauss-containerdienst.html (Abruf 11.11.2026).]
+
+### Korrektur 17.11.2026 (Nachprüfung des Shards wellec-s2)
+
+- [Korrektur 17.11.2026: Die Namensgleichheit "Krauß" allein verbindet den Seed weiterhin **nicht** sicher mit dem Containerdienst. Die Nachpruefung vom 17.11.2026 hat die Namenssuche im amtlichen Fachbetrieberegister um die Schreibweise **ohne** Umlaut und um den vollen Vornamen erweitert; die Standortabfrage mit 10 km um 51469 Bergisch Gladbach (7.1491313/51.1264818) liefert **40** Efb-Treffer und **6** Altfahrzeug-Treffer, **kein** Treffer nennt Krauß oder den Containerdienst. Die Zuordnung bleibt deshalb **offen**.]
