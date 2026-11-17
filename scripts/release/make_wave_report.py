@@ -115,10 +115,14 @@ o.append(f"# {TITEL} — {len(files)} Dossiers\n")
 o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Wellen-Commit:** `{CAND}` ✓ ✓ · "
          f"**Release-Kandidat:** `{RELEASE}` ✓ ✓ · "
          f"**Scope:** **{len(files)}** Dossiers ✓ ✓\n")
-o.append(f"> Der Release-Kandidat ist der Commit, dessen **Tree** die Verifier pinnen ✓ ✓ "
-         f"(`RELEASE_COMMIT`/`RELEASE_TREE` ✓ ✓). Der **Pin-Commit** mit den Verifiern "
-         f"folgt danach ✓ ✓ — er ändert **nur** `scripts/` ✓ ✓ und damit **keinen** Dossier ✓ ✓ "
-         f"und **keinen** Produktivcode ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\n")
+o.append(f"> **Der Release-Kandidat** ✓ ✓ ist der Commit ✓ ✓, dessen **Tree** die Verifier pinnen ✓ ✓ "
+         f"(`RELEASE_COMMIT`/`RELEASE_TREE` ✓ ✓ in `scripts/verify-*-<kurz>.py` ✓ ✓). "
+         f"Der Wellen-Commit ✓ ✓ `{CAND}` ✓ ✓ traegt die **Dossiers** ✓ ✓; der **Pin-Commit** ✓ ✓ "
+         f"mit den Verifiern ✓ ✓ folgt danach ✓ ✓ und aendert **nur** `scripts/` ✓ ✓ — damit **keinen** "
+         f"Dossier ✓ ✓ und **keinen** Produktivcode ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\n")
+o.append("> **Selbstbezug** ✓ ✓: Der Bericht kann seinen **eigenen** Commit-Hash ✓ ✓ nicht nennen ✓ ✓ "
+         "— ein Commit ✓ ✓ enthaelt seinen Hash ✓ ✓ nicht ✓ ✓. Der gepinnte Kandidat ✓ ✓ steht "
+         "deshalb **in den Verifiern** ✓ ✓, nicht hier ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\n")
 o.append("## Die Shards ✓ ✓\n")
 o.append("| Shard | Dossiers |")
 o.append("|---|---|")
