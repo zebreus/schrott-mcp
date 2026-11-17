@@ -45,10 +45,15 @@ def wert_bereich(text):
     if rest.startswith("'") and rest.endswith("'") and len(rest) >= 2:
         start = m.start(2) + (m.group(2).index("'") + 1)
         end = m.start(2) + m.group(2).rindex("'")
+        if end <= start:
+            # ein **leeres** Feld ('') - kein Zertifikat ✓ ✓, kein Fehler ✓ ✓
+            return None
         return start, end
     if rest.startswith('"') and rest.endswith('"') and len(rest) >= 2:
         start = m.start(2) + 1
         end = m.start(2) + m.group(2).rindex('"')
+        if end <= start:
+            return None
         return start, end
     return None
 

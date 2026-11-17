@@ -78,7 +78,10 @@ for pfad in _args.shard or []:
     shards[Path(pfad).stem.split("-")[-1].upper()] = sorted(slugs)
 
 NOTE_RE = re.compile(r"^\+- \[" + re.escape(ABSCHNITT) +
-                      (r" " + re.escape(DATUM) if DATUM else "") + r":", re.M)
+                      (r" " + re.escape(DATUM) if DATUM else "") +
+                      # ein Nachtrag traegt den Zusatz " (Welle 1718 A)" - er ist
+                      # eine eigene datierte Sektion und **mit**zuzaehlen ✓ ✓
+                      r"(?: \([^)]*\))?:", re.M)
 bullets = len(NOTE_RE.findall(fm))
 
 
@@ -95,23 +98,50 @@ def kuerzen(text, limit=190):
         return schnitt[: letzte + 1]
     return schnitt + " …"
 
+
+def dossier_pfad(slug):
+    """Der Pfad des Dossiers **im Repository** ✓ ✓.
+
+    Der Ordner ist **nicht** das Praefix des Slugs ✓ ✓ - `hb-nordenham-…`
+    liegt unter `dossiers/ni/` ✓ ✓ (der Bundesland steht im Frontmatter ✓ ✓).
+    """
+    for ordner in (ROOT / "dossiers").iterdir():
+        if ordner.is_dir() and (ordner / f"{slug}.md").exists():
+            return ordner / f"{slug}.md"
+    return None
+
 o = []
 o.append(f"# {TITEL} — {len(files)} Dossiers\n")
 o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Wellen-Commit:** `{CAND}` ✓ ✓ · "
-         f"**Release-Kandidat:** `{RELEASE}` ✓ ✓ (der Pin-Commit folgt danach ✓ ✓) · "
+         f"**Release-Kandidat:** `{RELEASE}` ✓ ✓ · "
          f"**Scope:** **{len(files)}** Dossiers ✓ ✓\n")
+o.append(f"> Der Release-Kandidat ist der Commit, dessen **Tree** die Verifier pinnen ✓ ✓ "
+         f"(`RELEASE_COMMIT`/`RELEASE_TREE` ✓ ✓). Der **Pin-Commit** mit den Verifiern "
+         f"folgt danach ✓ ✓ — er ändert **nur** `scripts/` ✓ ✓ und damit **keinen** Dossier ✓ ✓ "
+         f"und **keinen** Produktivcode ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\n")
 o.append("## Die Shards ✓ ✓\n")
 o.append("| Shard | Dossiers |")
 o.append("|---|---|")
 for i, slugs in enumerate(sorted(shards.values(), key=lambda s: -len(s))):
-    laender = sorted({s.split("-")[0].upper() for s in slugs})
-    o.append(f"| **{chr(ord('A') + i)}** | {' · '.join(laender)} · **{len(slugs)}** ✓ ✓ |")
+    # Der Bundesland steht **im Frontmatter**, nicht im Slug-Praefix: das
+    # Praefix ist die Dossier-Reihenfolge im Verzeichnis, nicht der Staat
+    # (hb-nordenham-... traegt zum Beispiel `state: NI`). Und der **Ordner**
+    # ist nicht das Praefix des Slugs - der Pfad kommt aus dem Repo ✓ ✓.
+    laender = set()
+    for slug in slugs:
+        pfad = dossier_pfad(slug)
+        if pfad is None:
+            continue
+        t = pfad.read_text(encoding="utf-8")
+        m = re.search(r"^state:\s*'?([A-Za-z]{2})'?\s*$", t, re.M)
+        if m:
+            laender.add(m.group(1).upper())
+    o.append(f"| **{chr(ord('A') + i)}** | {' · '.join(sorted(laender))} · **{len(slugs)}** ✓ ✓ |")
 o.append("")
 o.append("## Kennzahlen ✓ ✓ (alle gemessen ✓ ✓)\n")
 o.append(f"- **{len(files)}** Dossiers ✓ ✓ in **{len(states)}** Bundesländern ✓ ✓: "
          + " · ".join(f"{s} **{c}**" for s, c in sorted(states.items())) + " ✓ ✓")
-o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektion ✓ ✓ "
-         f"(zwei davon tragen zusaetzlich eine Sektion aus der 00:00-Welle desselben Tages ✓ ✓) · "
+o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektion ✓ ✓ · "
          f"**{bullets}** neue Notiz-Bullets ✓ ✓")
 o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
@@ -219,7 +249,10 @@ if geo_bedarf:
     o.append("| Dossier | Befund |")
     o.append("|---|---|")
     for slug in geo_bedarf:
-        t = (ROOT / f"dossiers/{slug[:2]}/{slug}.md").read_text(encoding="utf-8")
+        pfad = dossier_pfad(slug)
+        if pfad is None:
+            continue
+        t = pfad.read_text(encoding="utf-8")
         note = re.search(r"^### " + re.escape(ABSCHNITT) +
                          (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
                          t, re.M | re.S)
