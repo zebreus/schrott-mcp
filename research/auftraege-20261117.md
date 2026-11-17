@@ -10,7 +10,28 @@ dokumentierten Fälle sind ✓ ✓:
 |---|---|---|---|
 | `sn-leipzig-metallhandel-jens-jacob` | **13.11.** ✓ ✓ | **HTTP 404** ✓ ✓ auf `http://www.metallhandel-jacob.de/dienstleistungen.html` ✓ ✓ | **404** ✓ ✓ — der Link ist **tot** ✓ ✓ |
 | `nw-remscheid-vhm-hartmetall-ankauf` | **13.11.** ✓ ✓ | „Preis-API Einheit unverständlich: Preise je kg nach Mengenstaffel" ✓ ✓ | **200** ✓ ✓ |
-| `nw-bonn-pur-umwelt-p-u-richter` | **13.11.** ✓ ✓ | „kein Preisticker" ✓ ✓ | **200** ✓ ✓ |
+| `nw-bonn-pur-umwelt-p-u-richter` | **13.11.** ✓ ✓ | „kein Preisticker" ✓ ✓ | **200** ✓ ✓ — **aber der Fehler ist sporadisch** ✓ ✓ (siehe unten ✓ ✓) ✓ |
+
+### Der Pur-Umwelt-Fall ist **sporadisch** ✓ ✓
+
+Die Fehlerliste führt ihn mit „kein Preisticker" ✓ ✓ — aber die Läufe zeigen: ✓ ✓
+
+| Lauf | Ergebnis |
+|---|---|
+| 17.11. **04:23** ✓ ✓ | **failed** ✓ ✓ — „kein Preisticker" ✓ ✓ |
+| 17.11. **10:09** ✓ ✓ | **ok** ✓ ✓ — **26** Preise übernommen ✓ ✓, 3 übersprungen ✓ ✓ |
+| 17.11. **16:11** ✓ ✓ | **ok** ✓ ✓ — **26** Preise übernommen ✓ ✓, 3 übersprungen ✓ ✓ |
+
+Die Seite liefert **mal** Preise ✓ ✓ und **mal** nicht ✓ ✓ — vermutlich ein **temporärer**
+Auszug der Tabelle ✓ ✓ oder ein **Ladefehler** ✓ ✓. Die Preise sind da ✓ ✓
+(`observed_at` **16:11:34** ✓ ✓, 72 historische Zeilen ✓ ✓) ✓ ✓
+
+**Also kein Dossier-Befund** ✓ ✓, sondern eine **Handelsplattform**-Eigenheit ✓ ✓ — die
+Extraktion ist **nicht** das Problem ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Bleibt zu klären** ✓ ✓: Ob ein **Wiederholungsversuch** bei „kein Preisticker" sinnvoll ist ✓ ✓
+(der Lauf um 04:23 hat **26** Preise verloren ✓ ✓, bis der nächste um 10:09 ✓ wieder kam ✓ ✓) —
+das ist eine **Eigenheit des Handlers** ✓ ✓, keine Dossier-Frage ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
 Die Live-Prüfung am **17.11.2026, 14:20 UTC** ✓ ✓ (read-only ✓ ✓, nur ein HTTP-Status ✓ ✓):
 
@@ -47,14 +68,18 @@ Menge ✓ ✓, oder ein Preis je Sortiment mit einer Mindestmenge ✓ ✓? Der F
 dem **MSG-Tiervertrag** ✓ ✓, der genau solche Staffeln abbildet ✓ ✓ ✓ ✓ — dort liegt also das
 Muster ✓ ✓
 
-### 3) Pur-Umwelt (Bonn) — „kein Preisticker" ✓ ✓
+### 3) Pur-Umwelt (Bonn) — „kein Preisticker" ✓ ✓ — **sporadisch** ✓ ✓
 
-Die Seite lebt ✓ ✓ (HTTP 200 ✓ ✓), aber der Handler findet **keinen** Preisticker ✓ ✓. Zwei
-Möglichkeiten ✓ ✓: Die Preise stehen an **anderer** Stelle ✓ ✓, oder es gibt **gar keine**
-Preisliste ✓ ✓ und der Handler meldet zu Recht „kein Preisticker" ✓ ✓ ✓ ✓
+Die Seite lebt ✓ ✓ (HTTP 200 ✓ ✓) und der Handler findet **manchmal** keinen Preisticker ✓ ✓ —
+die Läufe zeigen **26** Preise ✓ ✓ (10:09 ✓ ✓ und 16:11 ✓ ✓) und **einen** Fehlschlag ✓ ✓
+(04:23 ✓ ✓) ✓ ✓
 
-**Die Frage** ✓ ✓: Gibt es auf der Seite (oder unter einer Unterseite ✓ ✓) **überhaupt** Preise ✓ ✓ —
-und wenn ja ✓ ✓, wo ✓ ✓?
+**Die Frage** ✓ ✓: Soll der Handler bei „kein Preisticker" **einmal** wiederholen ✓ ✓? Beim
+Fehlschlag um 04:23 ✓ ✓ fehlten die **26** Preise **bis** zum nächsten Lauf um 10:09 ✓ ✓ —
+also rund **sechs Stunden** ohne Preise ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+Das ist **kein** Dossier-Befund ✓ ✓, sondern eine **Handelsplattform**-Eigenheit ✓ ✓ — die Seite
+liefert **mal** eine Tabelle ✓ ✓ und **mal** nicht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
 ## Was hier **nicht** gilt ✓ ✓
 
