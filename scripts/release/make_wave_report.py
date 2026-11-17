@@ -113,7 +113,7 @@ def dossier_pfad(slug):
 o = []
 o.append(f"# {TITEL} — {len(files)} Dossiers\n")
 o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Wellen-Commit:** `{CAND}` ✓ ✓ · "
-         f"**Release-Kandidat:** `{RELEASE}` ✓ ✓ · "
+         f"**Release-Kandidat:** siehe `RELEASE_COMMIT` in den Verifiern ✓ ✓ · "
          f"**Scope:** **{len(files)}** Dossiers ✓ ✓\n")
 o.append(f"> **Der Release-Kandidat** ✓ ✓ ist der Commit ✓ ✓, dessen **Tree** die Verifier pinnen ✓ ✓ "
          f"(`RELEASE_COMMIT`/`RELEASE_TREE` ✓ ✓ in `scripts/verify-*-<kurz>.py` ✓ ✓). "
