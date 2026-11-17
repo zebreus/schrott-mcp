@@ -702,12 +702,29 @@ fn flat_request_material(cell: &ElementRef<'_>, anchor_sel: &Selector) -> Option
 }
 
 /// One raw query parameter of a same-origin link.
+///
+/// **Fail-closed bei Mehrfachvorkommen:** ein Link mit **zwei** `material`-Parametern
+/// (`?material=X&material=Y`) wird **nicht** stillschweigend auf den ersten
+/// zurückgeführt — welcher Wert der gemeinte ist, wäre dann geraten. Stattdessen
+/// liefert die Funktion `None`, und der Aufrufer verweigert die Zeile. Ebenso
+/// fehlt der Parameter ganz (`None`).
 fn query_parameter(href: &str, key: &str) -> Option<String> {
     let query = href.split_once('?')?.1;
-    query.split('&').find_map(|pair| {
-        let (name, value) = pair.split_once('=')?;
-        (name == key).then(|| value.to_owned())
-    })
+    let mut found: Option<String> = None;
+    for pair in query.split('&') {
+        let Some((name, value)) = pair.split_once('=') else {
+            continue;
+        };
+        if name != key {
+            continue;
+        }
+        if found.is_some() {
+            // Mehrfaches Vorkommen: nicht eindeutig, also nicht verwertbar.
+            return None;
+        }
+        found = Some(value.to_owned());
+    }
+    found
 }
 
 /// Percent/plus decoding of one query value. Unknown or malformed escapes
@@ -1393,6 +1410,18 @@ mod tests {
                     "SW10040",
                     "material=Zinn+99%25",
                     "material=Zinn+90%25",
+                ),
+                "flat quote row without the reviewed request link",
+            ),
+            // A request link with **two** material parameters is not unambiguous:
+            // which value is meant would be a guess. The row must be refused
+            // instead of silently taking the first one.
+            (
+                mutate_live(
+                    LIVE,
+                    "SW10040",
+                    "href=\"/angebot?material=Zinn+99%25\"",
+                    "href=\"/angebot?material=Zinn+99%25&material=Zinn+90%25\"",
                 ),
                 "flat quote row without the reviewed request link",
             ),
