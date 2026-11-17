@@ -130,7 +130,7 @@ for _zeile in _log:
     if _scope_dateien & {d.split("/")[-1] for d in _geaendert}:
         _einfuehrend = _hash[:8]
         break
-o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Wellen-Commit:** `{CAND}` ✓ ✓ · "
+o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Berichts-Commit:** `{CAND}` ✓ ✓ · "
          + (f"**Einführender Commit:** `{_einfuehrend}` ✓ ✓ · " if _einfuehrend else "")
          + f"**Release-Kandidat:** siehe `RELEASE_COMMIT` in den Verifiern ✓ ✓ · "
          f"**Scope:** **{len(files)}** Dossiers ✓ ✓\n")
