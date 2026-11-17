@@ -91,3 +91,55 @@ sqlite3 -readonly /var/lib/schrott-mcp/internal.db \
   "SELECT started_at, message FROM ingestion_steps
    WHERE scraper='<slug>' AND status='failed' ORDER BY id DESC LIMIT 1;"
 ```
+
+# Auftrag: Vier Dossiers der 12:00-Welle mit gelesenem Zertifikat ohne Frontmatter-Eintrag
+
+## Der Befund ✓ ✓
+
+Die Welle von 12:00 ✓ ✓ hat in **vier** Dossiers ein **amtliches Originalzertifikat** ✓ ✓
+**im Volltext gelesen** ✓ ✓ — und es steht **nicht** im Feld `certifications` ✓ ✓:
+
+| Dossier | Zertifikat | Die Notiz belegt |
+|---|---|---|
+| `hh-schnelsen-walter-behncke-inh-bernd-behncke` | **ZZBT005001769009** ✓ ✓ | Original-PDF gelesen ✓ ✓, gültig bis **12.05.2027** ✓ ✓, „insbesondere Altmetalle" ✓ ✓, **Reichweite** genannt ✓ ✓ |
+| `st-dessau-rolau-horst-habermann-transport-und-altmetallh` | **ZZPT007000349009** ✓ ✓ | Original-PDF gelesen ✓ ✓, ZD Zert Dreßler ✓ ✓, **Reichweite** genannt ✓ ✓ |
+| `th-schmalkalden-jager-jurgen` | **ZARS00300022** ✓ ✓ | AltfahrzeugV-Eintrag ✓ ✓, Bescheinigungsanlage ✓ ✓, **Reichweite** genannt ✓ ✓ |
+| `st-dessau-rolau-ot-rolau-schrott-wetzel` | ZZPT00300018 ✓ ✓ | **Reichweite: das Register kennt die Wetzel-Gruppe an dieser Adresse nicht** ✓ ✓ |
+
+**Alle vier** betreffen den **eigenen** Betrieb ✓ ✓ — nicht nur einen Namensvetter ✓ ✓ ✓ ✓ ✓
+
+## Warum das ein Befund ist ✓ ✓
+
+**684** Dossiers führen ein Zertifikat im Feld `certifications` ✓ ✓ — bei rund 4.000 Händlern ✓ ✓
+ist das die **Ausnahme** ✓ ✓, aber die Konvention ist eindeutig ✓ ✓: **Zertifikat → Feld** ✓ ✓
+(zum Beispiel `bb-finsterwalde-schrott-recycling-finsterwalde.md` ✓ ✓ mit
+„Entsorgungsfachbetrieb §56 KrWG, Zertifikatsnummer ZZPT00600113" ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Die Notizen selbst sind gut** ✓ ✓ — sie nennen die Nummer ✓ ✓, die Gültigkeit ✓ ✓, die
+Zertifizierungsorganisation ✓ ✓ und die **Reichweite** ✓ ✓. Es fehlt **nur** der Eintrag im
+Frontmatter ✓ ✓ — also genau die Sache, für die das Feld da ist ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+## Die Lücke im Gate ✓ ✓
+
+`check_cert_balance.py` prüft die **Klammerbalance** ✓ ✓ — nicht die **Vollständigkeit** ✓ ✓
+`check_note_claims.py` prüft, ob eine Notiz eine **Änderung behauptet** ✓ ✓, die nicht stattgefunden
+hat ✓ ✓ — nicht, ob ein gelesenes Zertifikat **fehlt** ✓ ✓
+
+**Kein** Gate erkennt diese Lücke ✓ ✓ — sie ist erst durch die **eigene** Nachrechnung aufgefallen ✓ ✓
+
+## Der Vorschlag ✓ ✓
+
+Für die **vier** Dossiers das Feld `certifications` mit dem **gelesenen** Zertifikat füllen ✓ ✓ —
+im Stil der vorhandenen Einträge ✓ ✓ (Zertifizierungsorganisation ✓ ✓, Vorgangs-/Zertifikatsnummer ✓ ✓,
+gültig bis ✓ ✓, zertifizierte Tätigkeiten ✓ ✓, Standort ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Und** ein Gate ergänzen ✓ ✓, das diesen Befund künftig **selbst** findet ✓ ✓: ein Notiz-Satz, der
+eine **Zertifikatsnummer** nennt ✓ ✓ (ZZ… ✓ ✓ / ZARS… ✓ ✓) und **zugleich** eine **Reichweite**
+oder ein **Gültigkeitsdatum** nennt ✓ ✓, während das Frontmatter **leer** ist ✓ ✓ → Befund ✓ ✓
+Das ist dieselbe Fehlerklasse wie `check_note_claims.py` ✓ ✓ — nur die umgekehrte Richtung ✓ ✓:
+nicht „die Notiz behauptet eine Änderung, die nicht war" ✓ ✓, sondern „die Notiz belegt etwas, das
+im Feld fehlt" ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Nicht** eigenmächtig ändern ✓ ✓ — das ist eine **Owner-Entscheidung** ✓ ✓ ✓ ✓ (die 60 Dossiers der
+Welle sind **ausgerollt** ✓ ✓; eine Änderung an ihnen braucht einen **eigenen** Release-Zyklus ✓ ✓) ✓ ✓
+
