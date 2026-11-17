@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "release_commit": "81658431512490f407f8b1684a5943fa6e3b2330",
-  "release_tree": "e15d1936f1378a1414a851103feb0b7d03d2061d",
-  "rehearsal_manifest_sha256": "1ffc32d2a092d2be986ca518976703ce8ef821358b4b0377da84ceb87d8bf2cb",
+  "release_commit": "5e419199b38e5fa9651bb34450fa86c6c732f490",
+  "release_tree": "164587d9213ff6542afde1833cb4006af50ec6bd",
+  "rehearsal_manifest_sha256": "6b7d27d3f8b5ca7dc3190fd6242ee012e7e2229f86febf6c69c899bfde1fe448",
   "fields": [
     "name",
     "city",
@@ -80,7 +80,7 @@
     "th-sondershausen-r-m-schrotthandel"
   ],
   "scope": "exactly the 60 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
-  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-8165843. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-5e41919. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
   "traders": [
     {
       "slug": "bb-drebkau-kielow-eberhard",
