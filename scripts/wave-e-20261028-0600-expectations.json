@@ -19,30 +19,20 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "1905753",
-  "owner_review": "research/wave-20261117-0000-report.md",
+  "dossier_revision": "5858dc6",
+  "owner_review": "research/branch-integration-20261117.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 17.11.2026, 00:00 (Hash-Lift zur Probe 1905753))",
-  "scope": "3 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 1905753 gehoben",
+  "revised_by": "Owner (Welle 17.11.2026 (Nachprüfung der Shards, in main integriert))",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 5858dc6 gehoben",
   "rows": [
     {
-      "slug": "by-peienberg-seiler",
+      "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
       "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-0000-report.md."
-    },
-    {
-      "slug": "he-langenselbold-63505-levy-schrott-metall",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-0000-report.md."
-    },
-    {
-      "slug": "nw-gummersbach-mar-schrottabholung",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-0000-report.md."
+      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/branch-integration-20261117.md."
     }
   ],
-  "unchanged_rows": 57
+  "unchanged_rows": 59
 },
   "traders": [
     {
@@ -618,8 +608,8 @@
         "website": "https://www.schrotthaendler-plus.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "91707f1ff69e19cdb08a2531f56e716be078b8de6398359de6857bd14cfd0abd",
-      "seed_hash": "ec49f984c4e02eca"
+      "notes_sha256": "dfe9e548906f66b247805b861117e788e5f68915d345804a096230f5f40546c8",
+      "seed_hash": "723c3561a364aa17"
     },
     {
       "slug": "nw-essen-cbr-bracke",
