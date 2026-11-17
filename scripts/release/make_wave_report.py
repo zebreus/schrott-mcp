@@ -171,7 +171,6 @@ o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
 # Die drei Werte werden **gemessen** ✓ ✓, nicht getippt ✓ ✓
 _slug_zeilen = 0
-_feldnamen = 0
 _notiz_removed = 0
 for _f in files:
     _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
@@ -183,7 +182,6 @@ for _f in files:
         _slug_zeilen += 1
     _ak = set(re.findall(r"^([a-z_]+):", _alt, re.M))
     _nk = set(re.findall(r"^([a-z_]+):", _neu, re.M))
-    _feldnamen += len(_ak ^ _nk)
     # entfernte Bullets: eine Zeile, die in der Basis war und in der Kandidaten-
     # fassung fehlt
     _ab = [l for l in _alt.split("\n") if l.startswith("- [")]
