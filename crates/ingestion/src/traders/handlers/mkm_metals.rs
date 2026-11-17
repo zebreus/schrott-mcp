@@ -29,8 +29,13 @@ pub const IMPRESSUM_URL: &str = "https://mkm-metals.de/impressum";
 
 /// Operator's eight purchase tables; sales/fees are not quotes.
 pub const URL: &str = "https://mkm-metals.de/metallpreise";
-const STYLESHEET_HREF: &str = "/assets/css/gesamt.min.css?v=1794748841";
-const STYLESHEET_URL: &str = "https://mkm-metals.de/assets/css/gesamt.min.css?v=1794748841";
+/// The visibility-affecting stylesheet's *path*. The query string is a
+/// cache buster that the operator regenerates (`?v=1794748841` became
+/// `?v=1794911825` on 17.11.2026) without touching the file. Pinning the
+/// query string would invalidate the contract on every deploy; the pinned
+/// content hash below is what actually decides whether the reviewed CSS is
+/// still the served CSS.
+const STYLESHEET_PATH: &str = "/assets/css/gesamt.min.css";
 const STYLESHEET_SHA256: &str = "cf1b76e3cdadbf9e9fa1a6654ce50f87f7aebe049570fed47110ccf09b0adc47";
 
 pub fn handler() -> Handler {
@@ -50,12 +55,12 @@ async fn scrape(client: &reqwest::Client) -> Result<HandlerOutcome, IngestError>
 /// are carried into the fail-closed recording boundary, never partial writes.
 pub async fn scrape_articles(client: &reqwest::Client) -> Result<overview::Snapshot, IngestError> {
     let (status, html) = fetch_owned_source(client, URL).await?;
-    validate_visibility_asset_references(&html)?;
-    let (_, stylesheet) = fetch_owned_source(client, STYLESHEET_URL).await?;
-    validate_reviewed_asset(STYLESHEET_URL, &stylesheet, STYLESHEET_SHA256)?;
+    let stylesheet_url = validate_visibility_asset_references(&html)?;
+    let (_, stylesheet) = fetch_owned_source(client, &stylesheet_url).await?;
+    validate_reviewed_asset(&stylesheet_url, &stylesheet, STYLESHEET_SHA256)?;
     if stylesheet.to_ascii_lowercase().contains("@import") {
         return Err(asset_error(
-            STYLESHEET_URL,
+            &stylesheet_url,
             "stylesheet now imports an unreviewed asset",
         ));
     }
@@ -73,7 +78,17 @@ fn asset_error(url: &str, detail: &str) -> IngestError {
 /// Keep the page's visibility-affecting external stylesheet pinned to the
 /// version reviewed alongside the current product table. A changed stylesheet
 /// or inline stylesheet stops the article parser from authorizing a snapshot.
-fn validate_visibility_asset_references(html: &str) -> Result<(), IngestError> {
+///
+/// The pinned value is the stylesheet's *path*, not its full href: the
+/// operator's cache-busting query string changes with every deploy while the
+/// file stays the same. The served content is checked separately against
+/// `STYLESHEET_SHA256`, so a new query string alone authorizes nothing new —
+/// it only re-fetches the same reviewed CSS. A *different* path, a second
+/// stylesheet or an unreviewed media scope still fails closed.
+///
+/// Returns the absolute URL of the referenced stylesheet so the caller fetches
+/// exactly the asset the page uses.
+fn validate_visibility_asset_references(html: &str) -> Result<String, IngestError> {
     let doc = Html::parse_document(html);
     let links = Selector::parse("link[rel]").expect("valid selector");
     let stylesheets: Vec<_> = doc
@@ -87,7 +102,7 @@ fn validate_visibility_asset_references(html: &str) -> Result<(), IngestError> {
         })
         .collect();
     if stylesheets.len() != 1
-        || stylesheets[0].value().attr("href") != Some(STYLESHEET_HREF)
+        || !is_reviewed_stylesheet_path(stylesheets[0].value().attr("href"))
         || stylesheets[0]
             .value()
             .attr("media")
@@ -103,7 +118,35 @@ fn validate_visibility_asset_references(html: &str) -> Result<(), IngestError> {
     if doc.select(&style).next().is_some() {
         return Err(asset_error(URL, "unreviewed inline stylesheet"));
     }
-    Ok(())
+    Ok(stylesheet_absolute_url(
+        stylesheets[0].value().attr("href").unwrap_or_default(),
+    ))
+}
+
+/// The stylesheet reference must point at the reviewed path. A `?v=...` cache
+/// buster is allowed and stripped, because the operator regenerates it on
+/// every deploy while the file itself is unchanged; the content hash is the
+/// binding check. Any other query, fragment or path is unreviewed.
+fn is_reviewed_stylesheet_path(href: Option<&str>) -> bool {
+    let Some(href) = href else {
+        return false;
+    };
+    let Some((path, query)) = href.split_once('?') else {
+        return href == STYLESHEET_PATH;
+    };
+    if path != STYLESHEET_PATH {
+        return false;
+    }
+    let Some((key, value)) = query.split_once('=') else {
+        return false;
+    };
+    key == "v" && !value.is_empty() && value.bytes().all(|b| b.is_ascii_digit())
+}
+
+/// The absolute URL of the stylesheet the page references, so the fetched
+/// asset is the very one the page uses.
+fn stylesheet_absolute_url(href: &str) -> String {
+    format!("https://mkm-metals.de{href}")
 }
 
 fn validate_reviewed_asset(
@@ -490,11 +533,45 @@ mod tests {
 
     #[test]
     fn reviewed_visibility_assets_are_pinned_and_inline_styles_are_rejected() {
-        let html = format!(r#"<link rel="stylesheet" href="{STYLESHEET_HREF}">"#);
+        // Der Cache-Buster darf sich aendern: der Betreiber regeneriert ihn
+        // bei jedem Deploy, die Datei selbst bleibt dieselbe. Der Inhalt wird
+        // ueber den Hash geprueft, nicht ueber die Query.
+        let html = format!(r#"<link rel="stylesheet" href="{STYLESHEET_PATH}">"#);
         assert!(super::validate_visibility_asset_references(&html).is_ok());
-        assert!(super::validate_visibility_asset_references(&html.replace(
-            super::STYLESHEET_HREF,
-            "/assets/css/gesamt.min.css?v=unreviewed"
+        for buster in ["?v=1794748841", "?v=1794911825", "?v=1"] {
+            let with_buster =
+                format!(r#"<link rel="stylesheet" href="{STYLESHEET_PATH}{buster}">"#);
+            let url = super::validate_visibility_asset_references(&with_buster)
+                .expect("cache buster is allowed");
+            assert_eq!(
+                url,
+                format!("https://mkm-metals.de{STYLESHEET_PATH}{buster}")
+            );
+        }
+        // Ein anderer Pfad, eine andere Query und ein zweites Stylesheet
+        // bleiben unreviewed und fallen weiterhin zu.
+        for href in [
+            "/assets/css/gesamt.min.css?v=unreviewed",
+            "/assets/css/gesamt.min.css?sha=123",
+            "/assets/css/gesamt.min.css?v=1&x=2",
+            "/assets/css/other.min.css?v=1",
+            "/assets/css/gesamt.min.css?v=",
+            "https://foreign.test/gesamt.min.css?v=1",
+        ] {
+            assert!(
+                super::validate_visibility_asset_references(&format!(
+                    r#"<link rel="stylesheet" href="{href}">"#
+                ))
+                .is_err(),
+                "{href} muss abgelehnt werden"
+            );
+        }
+        assert!(super::validate_visibility_asset_references(&format!(
+            r#"<link rel="stylesheet" href="{STYLESHEET_PATH}"><link rel="stylesheet" href="/x.css">"#
+        ))
+        .is_err());
+        assert!(super::validate_visibility_asset_references(&format!(
+            r#"<link rel="stylesheet" href="{STYLESHEET_PATH}" media="print">"#
         ))
         .is_err());
         assert!(super::validate_visibility_asset_references(&format!(
@@ -506,19 +583,12 @@ mod tests {
     #[test]
     fn reviewed_asset_hash_normalizes_line_endings_but_rejects_content_changes() {
         let expected = format!("{:x}", Sha256::digest(b"reviewed css\n"));
-        assert!(super::validate_reviewed_asset(
-            super::STYLESHEET_URL,
-            "reviewed css\r\n",
-            &expected
-        )
-        .is_ok());
-        assert!(
-            super::validate_reviewed_asset(super::STYLESHEET_URL, "changed css\n", &expected)
-                .is_err()
-        );
+        let url = super::stylesheet_absolute_url(super::STYLESHEET_PATH);
+        assert!(super::validate_reviewed_asset(&url, "reviewed css\r\n", &expected).is_ok());
+        assert!(super::validate_reviewed_asset(&url, "changed css\n", &expected).is_err());
     }
 
-    use super::{grade_for, parse, stand_date, STYLESHEET_HREF};
+    use super::{grade_for, parse, stand_date, STYLESHEET_PATH};
     use sha2::{Digest, Sha256};
 
     #[test]
