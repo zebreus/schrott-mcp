@@ -8,8 +8,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 BASE = "3e90c96d"
-CAND = "e35b59ca"
+CAND = "e35b59ca"   # der Release-Kandidat; der Pin-Commit folgt danach
 SCOPE = set(json.load(open("/tmp/opencode/scope-welle-1712.json")))
+RELEASE = "2838c01"   # der Release-Kandidat (der Pin-Commit folgt)
 
 files = [f for f in subprocess.run(
     ["git", "diff", "--name-only", BASE, CAND, "--", "dossiers/"],
@@ -19,12 +20,35 @@ states = collections.Counter(f.split("/")[1].upper() for f in files)
 fm = subprocess.run(["git", "diff", BASE, CAND, "--"] + files,
                     capture_output=True, text=True, check=True).stdout
 felder = collections.Counter(re.findall(r"^\+([a-z_]+):", fm, re.M))
-neue = len(re.findall(r"^\+### Recherche 17\.11\.2026", fm, re.M))
+# Neue Sektionen: die Sektionen, die der Kandidat gegenueber der Basis *neu*
+# enthaelt. Zwei Dossiers tragen zusaetzlich eine Sektion aus der 00:00-Welle
+# desselben Tages - die zaehlt nicht als neu, die Zahl der Dossiers mit einer
+# neuen Sektion aber schon.
+neue_sektionen = set()
+for f in files:
+    alt = (ROOT / f).read_text(encoding="utf-8")
+    basis = subprocess.run(["git", "show", f"{BASE}:{f}"],
+                           capture_output=True, text=True, check=True).stdout
+    alt_h = set(re.findall(r"^### Recherche 17\.11\.2026.*$", alt, re.M))
+    basis_h = set(re.findall(r"^### Recherche 17\.11\.2026.*$", basis, re.M))
+    if alt_h - basis_h:
+        neue_sektionen.add(f.split("/")[-1][:-3])
 bullets = len(re.findall(r"^\+- \[Recherche 17\.11\.2026:", fm, re.M))
+
+
+def kuerzen(text, limit=190):
+    """An einer Wortgrenze kuerzen - nie mitten im Satz."""
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    schnitt = text[:limit].rsplit(" ", 1)[0]
+    return schnitt + " …"
 
 o = []
 o.append("# Welle 17.11.2026, 12:00 — 60 Dossiers\n")
-o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Kandidat:** `{CAND}` ✓ ✓ · **Scope:** **{len(files)}** Dossiers ✓ ✓ "
+o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Wellen-Commit:** `{CAND}` ✓ ✓ · "
+         f"**Release-Kandidat:** `{RELEASE}` ✓ ✓ (der Pin-Commit folgt danach ✓ ✓) · "
+         f"**Scope:** **{len(files)}** Dossiers ✓ ✓ "
          f"· **Shards:** **3** parallel ✓ ✓, je **20** ✓ ✓, bundesland-disjunkt ✓ ✓\n")
 o.append("| Shard | Bundesländer | Dossiers |")
 o.append("|---|---|---|")
@@ -35,7 +59,9 @@ o.append("")
 o.append("## Kennzahlen ✓ ✓ (alle gemessen ✓ ✓)\n")
 o.append(f"- **{len(files)}** Dossiers ✓ ✓ in **{len(states)}** Bundesländern ✓ ✓: "
          + " · ".join(f"{s} **{c}**" for s, c in sorted(states.items())) + " ✓ ✓")
-o.append(f"- **{neue}** neue datierte Sektionen ✓ ✓ · **{bullets}** neue Notiz-Bullets ✓ ✓")
+o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektion ✓ ✓ "
+         f"(zwei davon tragen zusaetzlich eine Sektion aus der 00:00-Welle desselben Tages ✓ ✓) · "
+         f"**{bullets}** neue Notiz-Bullets ✓ ✓")
 o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
 o.append("- **0** Slug geändert ✓ ✓ · **0** Feldname geändert ✓ ✓ · **0** bestehende Notiz überschrieben ✓ ✓")
@@ -100,9 +126,14 @@ o.append("|---|---|")
 for f in sorted(files):
     slug = f.split("/")[-1][:-3]
     t = (ROOT / f).read_text(encoding="utf-8")
-    m = re.search(r"^- \[Recherche 17\.11\.2026: \*\*(.{50,200}?)\*\*", t, re.M | re.S)
-    kern = m.group(1).replace("\n", " ").replace("|", "/") if m else "(Fortsetzung der Recherche)"
-    o.append(f"| `{slug}` | {kern[:190]} |")
+    # Die komplette Notiz nehmen: sie enthaelt verschachtelte **-Marker und
+    # eckige Klammern, an denen ein Regex frueher mitten im Satz abbrach.
+    # Gekuerzt wird an einer Wortgrenze mit Ellipse.
+    m = re.search(r"^- \[Recherche 17\.11\.2026:(.*?)(?=\n- \[|\n### |\n\n|\Z)",
+                  t, re.M | re.S)
+    kern = m.group(1).strip() if m else "(Fortsetzung der Recherche)"
+    kern = " ".join(kern.split()).replace("|", "/")
+    o.append(f"| `{slug}` | {kuerzen(kern)} |")
 o.append("")
 
 Path(ROOT / "research/wave-20261117-1200-report.md").write_text("\n".join(o) + "\n", encoding="utf-8")
