@@ -12,8 +12,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.dont_write_bytecode = True
-SCRIPT = Path(__file__).with_name("verify-release-delta-70eee25.py")
-SPEC = importlib.util.spec_from_file_location("release_delta_70eee25_verifier", SCRIPT)
+SCRIPT = Path(__file__).with_name("verify-release-delta-ec8f107.py")
+SPEC = importlib.util.spec_from_file_location("release_delta_ec8f107_verifier", SCRIPT)
 VERIFIER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFIER)
 
