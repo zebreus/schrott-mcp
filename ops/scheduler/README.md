@@ -4,6 +4,50 @@ Der Supervisor ist das Werkzeug, das die zeitgesteuerten Jobs (die **6h-Welle** 
 Er liegt auf dem Host unter `~/.config/opencode/scheduler/supervisor.pl` ✓ ✓; die Datei hier ist die
 **versionierte Quelle** ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
+## Der Fund vom 17.11.2026: der Fix war im Repo, aber **nicht** auf dem Host ✓ ✓
+
+Der Bug (siehe unten ✓ ✓) wurde am **16.11.2026** behoben ✓ ✓ — und die korrigierte Datei
+**versioniert** ✓ ✓. **Zwei Tage später** ✓ ✓ (am **17.11.2026, 16:20 UTC** ✓ ✓) zeigte der
+Abgleich ✓ ✓:
+
+```
+$ diff ops/scheduler/supervisor.pl ~/.config/opencode/scheduler/supervisor.pl
+99,117d98      < # PID-Wiederverwendung: die PID lebt, ist aber **kein** Supervisor mehr
+120c101        < === Stale lock removed (pid=$pid is not a supervisor: $cmdline) $now ===
+202,219c184,189< # Der ALRM-Handler muss auf DATEISKOPIE stehen, nicht im `if`-Block.
+```
+
+**Der Host lief noch die alte Fassung** ✓ ✓ — mit `local $SIG{ALRM}` **im** `if`-Block ✓ ✓
+(den Bug ✓ ✓) und **ohne** den Stale-Lock-Schutz ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+Der Wellen-Lauf vom 17.11.2026, 12:00 ✓ ✓ war trotzdem **erfolgreich** ✓ ✓ (`status=success` ✓ ✓,
+`exitCode=0` ✓ ✓, 182 ms ✓ ✓) — der Supervisor **startet** nur den Job ✓ ✓ und beendet sich ✓ ✓;
+der **Timeout** greift erst, wenn der Job **länger als zwei Stunden** läuft ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Das ist das eigentliche Problem** ✓ ✓: Der Fix im Repository schützt **nichts** ✓ ✓, solange
+der Host die alte Datei fährt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+## Der Installationsweg ✓ ✓
+
+`ops/scheduler/install.sh` ✓ ✓ überträgt die versionierte Quelle auf den Host ✓ ✓:
+
+```bash
+bash ops/scheduler/install.sh --pruefen   # nur vergleichen ✓ ✓ (Exit 1 bei Abweichung ✓ ✓)
+bash ops/scheduler/install.sh             # sichern und installieren ✓ ✓
+```
+
+Das Skript prüft den **Perl-Syntax** der Quelle ✓ ✓ (sonst startet der nächste Wellenlauf
+**nicht** und fällt still aus ✓ ✓), legt eine **Sicherung** der Host-Fassung an ✓ ✓ und ist
+**idempotent** ✓ ✓ — ein zweiter Lauf meldet „der Host hat den versionierten Stand" ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+```bash
+$ bash ops/scheduler/install.sh --pruefen
+OK: der Host hat den versionierten Stand ✓ ✓ (/root/.config/opencode/scheduler/supervisor.pl)
+```
+
+**Nach jeder Änderung an `ops/scheduler/supervisor.pl` gehört das Skript auf den Host** ✓ ✓ —
+sonst fährt der Supervisor einen Stand, den niemand im Repository kennt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
 ## Der Bug, der die Welle seit 14.11.2026 blockierte ✓ ✓
 
 ```perl
@@ -55,7 +99,14 @@ wurde **admitted** ✓ ✓ (`{"status": "admitted", …}` ✓ ✓) ✓ ✓ ✓ �
 tail -20 /root/.config/opencode/logs/scheduler/<scope-id>/tiefenrecherche-welle.log
 grep -c "Alarm clock" /root/.config/opencode/logs/scheduler/<scope-id>/tiefenrecherche-welle.log
 systemctl list-timers --all | grep schrott-mcp-checkin
+
+# **Und** der Abgleich der versionierten Quelle mit dem Host ✓ ✓
+bash ops/scheduler/install.sh --pruefen
 ```
 
 Erwartet ✓ ✓: Der Wellen-Log endet mit `=== Finished … status=success` ✓ ✓ und **ohne**
-„Alarm clock" ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+„Alarm clock" ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Und** der Abgleich meldet „der Host hat den versionierten Stand" ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+— sonst fährt der Supervisor einen Stand, den niemand im Repository kennt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+ ✓ ✓ ✓
