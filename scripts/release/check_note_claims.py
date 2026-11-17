@@ -90,9 +90,15 @@ def genannte_felder(satz):
     for feld in FELDER:
         if re.search(rf"`{feld}`", satz, re.I):
             gefunden.add(feld)
-    if re.search(r"im\s+Frontmatter", satz, re.I):
+    if re.search(r"\b(im|der|das|beim)\s+(Frontmatter|Eintrag|Dossier|Datensatz|Seed)\b",
+                 satz, re.I):
         # "im Frontmatter" allein benennt das Feld nicht - der Satz muss es
-        # zusätzlich nennen
+        # zusaetzlich nennen. Dieselbe Regel gilt fuer die Synonyme: der Seed
+        # steht unter "Eintrag", "Dossier" und "Datensatz", und eine Notiz wie
+        # "der Eintrag nannte nur 'Herne'" beschreibt genauso ein
+        # Frontmatter-Feld wie "im Frontmatter ...". Vor dieser Erweiterung
+        # blieben solche Aussagen ungeprueft - der Pre-Deploy-Review vom
+        # 17.11.2026 hat eine davon gefunden.
         for feld in FELDER:
             if re.search(rf"\b{feld}\b", satz, re.I):
                 gefunden.add(feld)
