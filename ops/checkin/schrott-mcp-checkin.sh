@@ -62,9 +62,11 @@ else
 fi
 
 if [ "${1:-}" = "--dry-run" ]; then
-  echo "opencode run --model $MODEL ${ARGS[*]-} [${#MSG} chars] -> $DESC"
+  /usr/bin/python3 /usr/local/libexec/opencode-submit.py --kind hourly --model "$MODEL" "${ARGS[@]}" --text "$MSG" --dry-run
   exit 0
 fi
 
-echo "$(date -u +%FT%TZ) check-in startet -> $DESC (modell $MODEL)" >> /var/log/schrott-mcp-checkin.log
-opencode run --model "$MODEL" "${ARGS[@]}" "$MSG" >> /var/log/schrott-mcp-checkin.log 2>&1
+echo "$(date -u +%FT%TZ) check-in wird beim Web-Server eingereiht -> $DESC (modell $MODEL)" >> /var/log/schrott-mcp-checkin.log
+# Admit through the same server as the web UI. Do not wait for the agent and
+# do not start/discover a second server against the same session database.
+exec /usr/bin/python3 /usr/local/libexec/opencode-submit.py --kind hourly --model "$MODEL" "${ARGS[@]}" --text "$MSG" >> /var/log/schrott-mcp-checkin.log 2>&1
