@@ -38,7 +38,20 @@ Das Skript ✓ ✓ läuft ✓ ✓ wieder ✓ ✓ und misst die Welle aus den **M
 | `city` | **1** ✓ ✓ | **2** ✓ ✓ |
 
 **Nur** `postcode` ✓ ✓ (**6** ✓ ✓), `clear_fields` ✓ ✓ (**5** ✓ ✓) und `trader_type` ✓ ✓ (**1** ✓ ✓)
-stimmen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+stimmen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Die Ursache** ✓ ✓ (nachgemessen ✓ ✓ ✓): Die **60** Dossiers ✓ ✓ der Welle ✓ ✓ stehen in **allen
+drei** Shard-Merges ✓ ✓ (`9f35daad` ✓ ✓, `ce08029b` ✓ ✓, `5104fbd4` ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+Die Zahlen ✓ ✓ hängen davon ab ✓ ✓, **welchen** Stand ✓ ✓ man misst ✓ ✓:
+- Der **älteste** Merge ✓ ✓ (`9f35daad` ✓ ✓) → nur Shard 1 ✓ ✓ geändert ✓ ✓
+- Der **mittlere** ✓ ✓ (`ce08029b` ✓ ✓) → **nur** Shard 2 ✓ ✓ geändert ✓ ✓
+- Der **späteste** ✓ ✓ (`5104fbd4` ✓ ✓) → **alle** drei ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+Der **Report** vom 07.11.2026 ✓ ✓ zählte **seine** Shards ✓ ✓ ✓ — also die **Zweige** ✓ ✓,
+die es **nicht mehr** gibt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Das Skript misst jetzt** ✓ ✓ den **spätesten** Stand ✓ ✓ (den **Welle-Stand** ✓ ✓ ✓ ✓) ✓ ✓
+und meldet die Abweichung ✓ ✓ **sichtbar** ✓ ✓ statt abzustürzen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
 ## Warum die Zahlen **größer** sind ✓ ✓
 

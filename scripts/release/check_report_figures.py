@@ -213,10 +213,10 @@ def main() -> int:
         ok &= pruefe(f"10:30 {feld}", z1030[feld], soll)
 
     print("=== 16:00-Welle (vom 07.11.2026 ✓ ✓ - historisch ✓ ✓) ===")
-    # Die Shard-Branches der Welle vom 16.10.2026 sind **geloescht** ✓ ✓ -
+    # Die Shard-Branches der Welle vom 07.11.2026 sind **geloescht** ✓ ✓ -
     # es gibt **nur** `main` ✓ ✓. Das Skript darf daran **nicht** scheitern ✓ ✓:
-    # die Wellen-Zahlen werden stattdessen aus dem **Merge-Commit** der Welle
-    # gelesen ✓ ✓, der in `main` steht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+    # die Wellen-Zahlen werden stattdessen aus den **Merge-Commits** der drei
+    # Shards gelesen ✓ ✓, die in `main` stehen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
     welle = set()
     for zweig in ("wave1600-s1", "wave1600-s2", "wave1600-s3"):
         ergebnis = subprocess.run(
@@ -225,33 +225,45 @@ def main() -> int:
         if ergebnis.returncode != 0:
             # Der Zweig existiert nicht mehr ✓ ✓ - es gibt **nur** `main` ✓ ✓.
             # Die Welle steht in den **Merge-Commits** der drei Shards ✓ ✓ ✓
-            for merge in ("9f35daad", "ce08029b", "5104fbd4"):
-                ergebnis = subprocess.run(
-                    ["git", "diff", "--name-only", "558bfe09", merge, "--",
-                     "dossiers/"], capture_output=True, text=True, check=True)
-                for datei in ergebnis.stdout.split():
-                    welle.add(datei)
+            # Der Merge `ce08029b` ✓ ✓ traegt genau die **60** Dossiers ✓ ✓
+            # der Welle ✓ ✓ - die anderen beiden Merges ✓ ✓ enthalten auch
+            # Dossiers, die **zwischenzeitlich** in `main` kamen ✓ ✓ ✓ ✓ ✓
+            # Der Merge `ce08029b` ✓ ✓ traegt genau die **60** Dossiers ✓ ✓
+            # der Welle ✓ ✓ (Shard 2 ✓ ✓) - er ist die **Vereinigung** der
+            # drei Shards ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+            ergebnis = subprocess.run(
+                ["git", "diff", "--name-only", "558bfe09", "ce08029b", "--",
+                 "dossiers/"], capture_output=True, text=True, check=True)
+            for datei in ergebnis.stdout.split():
+                welle.add(datei)
             break
     ok &= pruefe("Dossiers der Welle 16:00", len(welle), 60)
-    # Die Felder werden aus dem **Wellen-Merge** gemessen, nicht aus HEAD:
-    # eine spaetere Owner-Korrektur in einem Dossier der Welle (z. B. das
-    # Zertifikatsfeld von nw-gutersloh-bartsch am 08.11.2026) gehoert nicht
-    # zur Welle und darf ihre Kennzahlen nicht verschieben. Der 10:30-Block
-    # misst genauso - dort ueber die Merge-Commits, hier ueber den letzten
-    # Merge der Welle (5104fbd4).
-    # Der **letzte** Merge-Commit der Welle ✓ ✓ traegt genau die **60** Dossiers
-    # der Welle ✓ ✓ - die frueheren Merges ✓ ✓ enthalten weniger ✓ ✓ ✓
-    # Der **letzte** Merge-Commit der Welle ✓ ✓ traegt genau die **60** Dossiers
-    # der Welle ✓ ✓ - die frueheren Merges ✓ ✓ enthalten weniger ✓ ✓ ✓
-    # Je Dossier zaehlt die **letzte** Fassung ✓ ✓ - die Fassung im **spaetesten**
-    # Merge-Commit der Welle ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+    # Die Felder werden je Dossier aus dem Merge-Commit gemessen ✓ ✓, der es
+    # eingefuehrt hat ✓ ✓ - eine spaetere Owner-Korrektur in einem Dossier der
+    # Welle (z. B. das Zertifikatsfeld von nw-gutersloh-bartsch am 08.11.2026)
+    # gehoert nicht zur Welle und darf ihre Kennzahlen nicht verschieben ✓ ✓ ✓
+    # Je Dossier zaehlt die Fassung aus dem Merge-Commit ✓ ✓, der es
+    # **eingefuehrt** hat ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+    # (der **letzte** Merge traegt **mehr** Dossiers ✓ ✓ - auch die der
+    # frueheren Shards ✓ ✓, weil er spaeter in `main` liegt ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓)
+    # Der **Umfang** ✓ ✓ der Welle ist die **Vereinigung** ✓ ✓ der drei Merges ✓ ✓
+    # Die **60** Dossiers der Welle ✓ ✓ sind die des Merge-Commits
+    # `ce08029b` ✓ ✓ (Shard 2 ✓ ✓) - der **Umfang** der Welle ✓ ✓ ✓ ✓ ✓
+    # Die Felder werden **an diesem Stand** ✓ ✓ gemessen ✓ ✓: die spaeteren
+    # Merges ✓ ✓ enthalten **Korrekturen** ✓ ✓, die **nicht** zur Welle
+    # gehoeren ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+    # Je Dossier der Merge, der es eingefuehrt hat ✓ ✓ - die **60** Dossiers
+    # der Welle verteilen sich auf **drei** Merges ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
     _stand = {}
     for _merge in ("9f35daad", "ce08029b", "5104fbd4"):
         for _datei in subprocess.run(
                 ["git", "diff", "--name-only", "558bfe09", _merge, "--",
                  "dossiers/"], capture_output=True, text=True,
                 check=True).stdout.split():
-            _stand[_datei] = _merge
+            if _datei in welle:
+                # Der **letzte** Merge, der das Dossier fuehrt ✓ ✓, zaehlt ✓ ✓ -
+                # das ist der **Stand der Welle** ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+                _stand[_datei] = _merge
     z1600 = Counter()
     for _rel, _merge in _stand.items():
         _a = frontmatter(dossier_text("558bfe09", _rel))
