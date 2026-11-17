@@ -136,9 +136,10 @@ o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Wellen-Commit:** `{CAND}` ✓ ✓ ·
          f"**Scope:** **{len(files)}** Dossiers ✓ ✓\n")
 o.append(f"> **Der Release-Kandidat** ✓ ✓ ist der Commit ✓ ✓, dessen **Tree** die Verifier pinnen ✓ ✓ "
          f"(`RELEASE_COMMIT`/`RELEASE_TREE` ✓ ✓ in `scripts/verify-*-<kurz>.py` ✓ ✓). "
-         f"Der Wellen-Commit ✓ ✓ `{CAND}` ✓ ✓ traegt die **Dossiers** ✓ ✓; der **Pin-Commit** ✓ ✓ "
-         f"mit den Verifiern ✓ ✓ folgt danach ✓ ✓ und aendert **nur** `scripts/` ✓ ✓ — damit **keinen** "
-         f"Dossier ✓ ✓ und **keinen** Produktivcode ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\n")
+         + (f"Die Dossiers hat der Commit ✓ ✓ `{_einfuehrend}` ✓ ✓ eingefuehrt ✓ ✓; "
+            if _einfuehrend else "")
+         + f"Der **Pin-Commit** ✓ ✓ mit den Verifiern ✓ ✓ aendert **nur** `scripts/` ✓ ✓ — damit "
+           f"**keinen** Dossier ✓ ✓ und **keinen** Produktivcode ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\n")
 o.append("> **Selbstbezug** ✓ ✓: Der Bericht kann seinen **eigenen** Commit-Hash ✓ ✓ nicht nennen ✓ ✓ "
          "— ein Commit ✓ ✓ enthaelt seinen Hash ✓ ✓ nicht ✓ ✓. Der gepinnte Kandidat ✓ ✓ steht "
          "deshalb **in den Verifiern** ✓ ✓, nicht hier ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓\n")
