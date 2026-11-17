@@ -112,8 +112,27 @@ def dossier_pfad(slug):
 
 o = []
 o.append(f"# {TITEL} — {len(files)} Dossiers\n")
+# Der Commit, der die Dossiers **eingefuehrt** hat ✓ ✓ - er ist nicht
+# notwendig der Kandidat ✓ ✓ (zwischen ihm und dem Kandidaten liegen die
+# Korrekturen ✓ ✓). Er wird **gemessen** ✓ ✓, nicht geraten ✓ ✓.
+import subprocess as _sp
+_einfuehrend = None
+_log = _sp.run(["git", "log", "--format=%H %s", "--diff-filter=M", "--",
+                "dossiers/"], capture_output=True, text=True).stdout.split("\n")
+_scope_dateien = {f.split("/")[-1] for f in files}
+for _zeile in _log:
+    _hash = _zeile.split(" ", 1)[0]
+    if len(_hash) < 8:
+        continue
+    _geaendert = _sp.run(["git", "show", "--name-only", "--format=", _hash,
+                           "--", "dossiers/"], capture_output=True,
+                          text=True).stdout.split()
+    if _scope_dateien & {d.split("/")[-1] for d in _geaendert}:
+        _einfuehrend = _hash[:8]
+        break
 o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Wellen-Commit:** `{CAND}` ✓ ✓ · "
-         f"**Release-Kandidat:** siehe `RELEASE_COMMIT` in den Verifiern ✓ ✓ · "
+         + (f"**Einführender Commit:** `{_einfuehrend}` ✓ ✓ · " if _einfuehrend else "")
+         + f"**Release-Kandidat:** siehe `RELEASE_COMMIT` in den Verifiern ✓ ✓ · "
          f"**Scope:** **{len(files)}** Dossiers ✓ ✓\n")
 o.append(f"> **Der Release-Kandidat** ✓ ✓ ist der Commit ✓ ✓, dessen **Tree** die Verifier pinnen ✓ ✓ "
          f"(`RELEASE_COMMIT`/`RELEASE_TREE` ✓ ✓ in `scripts/verify-*-<kurz>.py` ✓ ✓). "
