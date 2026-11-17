@@ -6,11 +6,38 @@ Nach dem Rollout von `df4f8c6` ✓ ✓ (der den MKM-Handler rettete ✓ ✓) zei
 letzten 24 Stunden **drei** Handler ✓ ✓, deren Scheitern **nicht** die bekannten, bereits
 dokumentierten Fälle sind ✓ ✓:
 
-| Handler | Fehler seit | Ursache | Seite live? |
+| Handler | Fehler seit | Ursache | Status |
 |---|---|---|---|
-| `sn-leipzig-metallhandel-jens-jacob` | **13.11.** ✓ ✓ | **HTTP 404** ✓ ✓ auf `http://www.metallhandel-jacob.de/dienstleistungen.html` ✓ ✓ | **404** ✓ ✓ — der Link ist **tot** ✓ ✓ |
-| `nw-remscheid-vhm-hartmetall-ankauf` | **13.11.** ✓ ✓ | „Preis-API Einheit unverständlich: Preise je kg nach Mengenstaffel" ✓ ✓ | **200** ✓ ✓ |
-| `nw-bonn-pur-umwelt-p-u-richter` | **13.11.** ✓ ✓ | „kein Preisticker" ✓ ✓ | **200** ✓ ✓ — **aber der Fehler ist sporadisch** ✓ ✓ (siehe unten ✓ ✓) ✓ |
+| `sn-leipzig-metallhandel-jens-jacob` | **16.11. 12:00** ✓ ✓ | **HTTP 404** ✓ ✓ auf `http://www.metallhandel-jacob.de/dienstleistungen.html` ✓ ✓ | **erledigt** ✓ ✓ — siehe unten ✓ ✓ |
+| `nw-remscheid-vhm-hartmetall-ankauf` | **13.11.** ✓ ✓ | „Preis-API Einheit unverständlich: Preise je kg nach Mengenstaffel" ✓ ✓ | **offen** ✓ ✓ |
+| `nw-bonn-pur-umwelt-p-u-richter` | **13.11.** ✓ ✓ | „kein Preisticker" ✓ ✓ | **sporadisch** ✓ ✓ — siehe unten ✓ ✓ |
+
+### Jacob (Leipzig) — **erledigt** ✓ ✓
+
+Der Handler abfragte `dienstleistungen.html` ✓ ✓ — die Seite ist seit dem **15.11.2026** ein
+**404** ✓ ✓. Die **00:00-Welle** hat das behoben ✓ ✓: der Handler fragt jetzt die **Startseite**
+✓ ✓ (`https://www.metallhandel-jacob.de/` ✓ ✓) und liest die **Preisliste-PDF** ✓ ✓
+(`media/files/preisliste-standard_2026-11-12-01.pdf` ✓ ✓) ✓ ✓
+
+**Der Nachweis** ✓ ✓ (Läufe ✓ ✓):
+
+| Lauf | Ergebnis |
+|---|---|
+| 17.11. **11:55** ✓ ✓ | **ok** ✓ ✓ — **0** Preise ✓ ✓, **93** Annahmen ✓ ✓, 7 übersprungen ✓ ✓ |
+| 17.11. 06:08 ✓ ✓ | failed ✓ ✓ — alte URL ✓ ✓ |
+| 16.11. 18:03 ✓ ✓ | failed ✓ ✓ — alte URL ✓ ✓ |
+
+**Warum trotzdem keine Preise** ✓ ✓: Die Preisliste ✓ ✓ (live geprüft am 17.11.2026, 16:32 UTC ✓ ✓ —
+HTTP 200 ✓ ✓, 142.372 Bytes ✓ ✓, SHA-256 `4bf865da…` ✓ ✓) trägt bei den **Metallen negative**
+Werte ✓ ✓ („Kupfer Draht blank (Milberry)" **-9,20** EUR/kg ✓ ✓) und bei den **Leistungen positive**
+✓ ✓ („Lohnverwiegung" **10,00** EUR/St ✓ ✓, „Schutt/Beton*" **250,00** EUR/t ✓ ✓) ✓ ✓ —
+**weder** die Preisliste **noch** die Einkaufbedingungen erklären **das Vorzeichen** ✓ ✓ ✓ ✓ ✓ ✓
+Ohne diese Erklärung ist eine negative Zahl **kein** absoluter Ankaufspreis ✓ ✓ — der Handler
+übernimmt deshalb die **angenommenen Sorten** ✓ ✓ und **lässt die Preise weg** ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Die offene Frage bleibt** ✓ ✓: Was bedeutet das Vorzeichen ✓ ✓ — Abzug vom Tageskurs ✓ ✓,
+Aufschlag ✓ ✓ oder eine Buchungskonvention ✓ ✓? Bis dahin keine Preise ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
 
 ### Der Pur-Umwelt-Fall ist **sporadisch** ✓ ✓
 
@@ -41,21 +68,40 @@ https://www.vhm-hartmetall.de/vhm-preise-aktuell.php      HTTP=200
 https://www.pur-umwelt.com/schrottpreise/                 HTTP=200
 ```
 
-## Die drei Fälle ✓ ✓
+Die Vertiefung am **17.11.2026, 16:30 UTC** ✓ ✓ (read-only ✓ ✓):
 
-### 1) Jacob (Leipzig) — **die URL ist tot** ✓ ✓
+```
+http://www.metallhandel-jacob.de/index.html               HTTP=200
+http://www.metallhandel-jacob.de/kontakt.html             HTTP=200
+http://www.metallhandel-jacob.de/dienstleistungen.html    HTTP=404
+http://www.metallhandel-jacob.de/media/files/preisliste-standard_2026-11-12-01.pdf   HTTP=200
+```
 
-Der Handler fragt `http://www.metallhandel-jacob.de/dienstleistungen.html` ✓ ✓ — die Seite
-antwortet **404** ✓ ✓. Das ist **kein** Extraktionsproblem ✓ ✓, sondern eine **tote Quelle** ✓ ✓.
+**Der Betrieb arbeitet** ✓ ✓ — die Startseite ✓ ✓, die Kontaktseite ✓ ✓ und **neun** von zwölf
+Sitemap-Seiten ✓ ✓ antworten ✓ ✓ (nur `dienstleistungen.html` ✓ ✓, `anfahr.html` ✓ ✓ und
+`system.html` ✓ ✓ sind 404 ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
-**Die Frage** ✓ ✓: Liegt die Preisliste unter einer **anderen** URL ✓ ✓ — oder ist der Betrieb
-**nicht mehr** unter dieser Adresse erreichbar ✓ ✓? Das muss live geprüft werden ✓ ✓ — eine
-Ersatz-URL zu raten wäre geraten ✓ ✓ ✓ ✓ ✓
+## Die drei Fälle ✓ ✓ (zwei davon inzwischen geklärt ✓ ✓)
 
-**Bis dahin** ✓ ✓: Die **alten** Preise bleiben stehen ✓ ✓ — sie sind nicht frisch, aber sie sind
-auch nicht erfunden ✓ ✓ (der Handler hat sie einmal aus einer echten Quelle gelesen ✓ ✓) ✓ ✓
-Ein **Rückzug** wäre nur richtig, wenn der Betrieb selbst bestätigt, dass er nicht mehr ankauft ✓ ✓
-— genau das ist die Regel, die bei **Heraeus** und **Goldtrans** gegolten hat ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+### 1) Jacob (Leipzig) — **erledigt** ✓ ✓
+
+**Erledigt** ✓ ✓ — die **00:00-Welle** hat den Handler auf die **Startseite** ✓ ✓ umgestellt ✓ ✓
+und die **Preisliste-PDF** ✓ ✓ gelesen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+Der Lauf vom **17.11. 11:55 UTC** ✓ ✓ ist **grün** ✓ ✓ (**0** Preise ✓ ✓, **93** Annahmen ✓ ✓,
+7 übersprungen ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Die Preisliste ist live geprüft** ✓ ✓ (17.11.2026, 16:32 UTC ✓ ✓):
+`http://www.metallhandel-jacob.de/media/files/preisliste-standard_2026-11-12-01.pdf` ✓ ✓
+→ **HTTP 200** ✓ ✓, **142.372** Bytes ✓ ✓, SHA-256 `4bf865da…` ✓ ✓, **Aushang** vom
+**12.11.2026** ✓ ✓, **zweispaltig** ✓ ✓, rund **hundert** Zeilen ✓ ✓ (Bezeichnung ✓ ✓, Einheit ✓ ✓,
+Preis ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Die Preise bleiben draußen** ✓ ✓ — und zwar **aus guten Gründen** ✓ ✓: Die Metalle tragen
+**negative** Werte ✓ ✓ („Kupfer Draht blank (Milberry)" **-9,20** EUR/kg ✓ ✓), die Leistungen
+**positive** ✓ ✓ („Lohnverwiegung" **10,00** EUR/St ✓ ✓, „Schutt/Beton*" **250,00** EUR/t ✓ ✓) ✓ ✓ —
+**weder** die Preisliste **noch** die Einkaufbedingungen erklären **das Vorzeichen** ✓ ✓ ✓ ✓ ✓ ✓ ✓
+Ein negativer Wert ohne Erklärung ist **kein** absoluter Ankaufspreis ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+**Keine** Preise zu übernehmen ✓ ✓ ist hier die **richtige** Entscheidung ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 
 ### 2) VHM (Remcheid) — die Einheit wird nicht erkannt ✓ ✓
 
