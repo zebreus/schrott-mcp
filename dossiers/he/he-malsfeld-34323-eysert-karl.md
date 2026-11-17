@@ -30,6 +30,8 @@ Die Gemeinde Malsfeld veröffentlicht ein Gewerbeverzeichnis; beim Live-Abruf am
 
 **Preise:** **ANKAUF** – keine Fahrzeug-/Metallkurse; **VERKAUF** – keine Teileliste; **GEBÜHREN** – keine Tarife. **GEO:** Identität und öffentliche Kundenstelle vor dem Pin verifizieren.
 
+**Aktualisierung 17.11.2026:** Die Anschrift Strauchgraben 7 ist in OSM adressgenau belegt (way/194519898), aber ohne Betriebsbezug; der Bestandspunkt liegt rund 0,6 km daneben und wird nicht geändert. Weder das amtliche Handelsregister noch das kommunale Gewerbeverzeichnis Malsfeld kennen den Betrieb; beide Negativbefunde belegen weder Abmeldung noch Schließung. Preise werden nicht veröffentlicht.
+
 ## Timeline
 
 ### Recherche 27.10.2026
@@ -56,3 +58,8 @@ Die Gemeinde Malsfeld veröffentlicht ein Gewerbeverzeichnis; beim Live-Abruf am
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: KEIN Treffer. Varianten-Suche (Eysert Malsfeld + Schrott/Altmetall/Entruempelung) ergab keine einschlaegigen Belege oder Leads. Keine Betreiber-Quelle, kein Verzeichnis-Eintrag gefunden. Kein Fill, status bleibt pruefung. Klaerfall: moeglicher Kleinstsammler ohne oeffentliche Spur oder Seed-Fehlattribution; Quelle(n): keine]
+
+### Recherche 17.11.2026
+
+- [Recherche 17.11.2026: **Amtliches Handelsregisterportal (Abruf 17.11.2026): kein Registereintrag für einen Malsfelder „Eysert“, nur unverwandte Namensvetter.** Die Suche nach **„Eysert“** liefert **„Eysert - Beratung und Management GmbH“ (Fritzlar, HRB 11808)**, **„Eysert Gesellschaft mit beschränkter Haftung“ (Eschwege, HRB 1159)**, **„Eysert GmbH“ (Jena, HRB 101159)**, **„Gerhard Eysert e.K.“ (Eschwege, HRA 2184)** und **„Friseur Willi Rothe Inh. Michaela Eysert“ (Kassel, HRA 9472)** sowie Personen in Edertal und Dorf Mecklenburg; **kein** Eintrag nennt Malsfeld oder die Anschrift Strauchgraben 7. **Reichweite:** Einzelunternehmen werden im Handelsregister nicht geführt, der Nichteintrag ist **kein** Nichtexistenzbeweis; zusätzlich ist das kommunale Gewerbeverzeichnis der Gemeinde Malsfeld laut der Vorwelle (22.10.2026, 26.10.2026, 27.10.2026) unvollständig und ohne Publikationsstand. Beide Negativbefunde zusammen belegen **keine** Abmeldung und **keine** Schließung. `status: pruefung` bleibt unverändert. Quelle(n): https://www.online-handelsregister.de/suche/Eysert (Abruf 17.11.2026).]
+- [Recherche 17.11.2026: **Die Anschrift existiert adressgenau in OSM, trägt aber keinen Betriebsbezug; der Produktionspunkt liegt rund 0,6 km daneben.** Das OSM-Adressobjekt **way/194519898** trägt `addr:street`=**Strauchgraben**, `addr:housenumber`=**7**, `addr:postcode`=**34323**, `addr:city`=**Malsfeld**, `building`=yes bei **51.0924625 / 9.5303981** (live geladen 17.11.2026); das Objekt hat **keinen** `name`- und **keinen** `operator`-Tag. Der in der Produktionsdatenbank gespeicherte Punkt **51.0908 / 9.5389** liegt rund **0,6 km** vom Adresspunkt entfernt (Delta-Lon 0,0085 Grad). Die Koordinate wird **nicht** geändert: die Adresse ist weiterhin nur durch den 11880-Verzeichnislead gedeckt, der zusätzlich Eintragsdaten 29.06.2021 ausweist, und der Eintrag belegt keine Annahme durch Privatpersonen. **ANKAUF:** keine Fahrzeug- oder Metallkurse; **VERKAUF:** keine Teilepreisliste; **GEBÜHREN:** keine Tarife. Quelle(n): https://api.openstreetmap.org/api/0.6/way/194519898.json ; https://www.11880.com/branchenbuch/malsfeld/060440459B27069254/karl-eysert.html (Abruf 17.11.2026).]

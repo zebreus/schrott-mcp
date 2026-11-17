@@ -12,7 +12,9 @@ opening_hours: ''
 website: ''
 website_status: 'unbekannt'
 status: pruefung
-description: ''
+description: 'Verzeichnislead mit widerspruechlicher Branchenzuordnung. OSM fuehrt an der Seed-Adresse ein namentlich "Schrotthandel Bernd Fricke" bezeichnetes Betriebsobjekt, waehrend ein niedrig belastbares Ortsverzeichnis dieselbe Anschrift als Haushaltswaren- und Antiquitatenhandlung fuehrt. Name, Anschrift und Oeffnungszeiten sind damit nicht abschliessend belegt; Ankaufspreise, Verkaufspreise und Gebuehren sind nicht dokumentiert.'
+lat: '51.9851171'
+lon: '9.4694414'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Holzminden / Weserbergland-Süd (neu)
@@ -47,3 +49,10 @@ Der eingetragene Kandidat „Schrotthandel Bernd Fricke“ bleibt ungeklärt. Ei
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: KLÄRFALL — nur Aggregator-Leads (Hauptstr. 42, 37619 Hehlen, Tel. 05533 3254); Verzeichnisse listen unter dieser Adresse teils Antiquitäten statt Schrotthandel — Identität/Ankauf ungeklärt, kein zweiter Beleg — kein Fill; Quelle(n): Verzeichnis-Leads]
+
+### Recherche 17.11.2026
+
+- [Recherche 17.11.2026: **Branchenzuordnung geklaert: OSM fuehrt an der Seed-Adresse ein namentlich "Schrotthandel Bernd Fricke" bezeichnetes Betriebsobjekt.** Die OSM-Objektdaten (live abgerufen 17.11.2026) enthalten den Node **11844377560** mit `name`=Schrotthandel Bernd Fricke, `office`=company, `addr:street`=Hauptstraße, `addr:housenumber`=42, `addr:postcode`=37619, `addr:city`=Hehlen sowie `phone`=+49 1522 7973761; das Gebaeudeobjekt way/546342007 (51.9851171/9.4694414, `addr:housenumber`=42, `addr:postcode`=37619, `addr:city`=Hehlen, source=LGLN Niedersachsen) traegt dieselbe Anschrift. Damit existiert der **exakte Dossier-Name als selbststaendige Kartenzuordnung** an der Seed-Adresse, und der Widerspruch zum Haushaltswaren-/Antiquitaten-Kategorie des Ortsverzeichnisses ist als Branchenunsicherheit dokumentiert, nicht als Widerlegung. **Reichweite:** OSM ist eine crowdsourced Kartensammlung und **kein** Register- oder Behoerdennachweis; die Kartenzuordnung belegt Name und Anschrift, nicht Gewerbe, Betriebsstatus oder Ankauftätigkeit. Die dort genannte Mobilnummer 01522 7973761 weicht vom Verzeichnislead 05533 3254 ab und wird deshalb **nicht** ins Frontmatter uebernommen. Quelle(n): https://www.openstreetmap.org/node/11844377560 ; https://api.openstreetmap.org/api/0.6/node/11844377560.json ; https://api.openstreetmap.org/api/0.6/way/546342007/full.json (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Geokodierung: das Adressobjekt ist jetzt belegt, der Koordinatenpunkt entspricht der Seed-Adresse.** Der Produktionspunkt 51.9886/9.47 lag rund 0,4 km neben dem Objekt; gesetzt ist nun der Gebaeudemittelpunkt des Hauses Hauptstraße 42 (51.9851171/9.4694414) aus der OSM-Objektdatenbank. Das ist die Adresse des Verzeichnisleads und des gleichnamigen OSM-Betriebsobjekts, **nicht** ein belegter Waageplatz oder eine oeffentliche Annahmestelle; `status` bleibt `pruefung`, weil Betreiberidentitaet, Geraete und Oeffnungszeiten ungeprueft sind. Quelle(n): https://api.openstreetmap.org/api/0.6/way/546342007/full.json (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Namesake-Abgrenzung.** Die Suche nach "Fricke" + Schrott/Hehlen liefert als einzigen weiteren Fricke-Betrieb eine Antiquitätenhandlung in Wolfenbuettel ("Antiquitäten Fricke"); dieser Betrieb hat eine andere Branche, eine andere Stadt und eine andere Anschrift und wird nicht gleichgesetzt. Quelle(n): https://mapcarta.com/N5562648903 (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Preise getrennt geprüft.** ANKAUF: keine Preisliste, kein Kursdokument und keine datierte Veröffentlichung gefunden; VERKAUF: kein belegtes Verkaufsangebot (Antiquitätenhandel, falls zutreffend, wäre Verkauf, aber nicht belegt); GEBUEHREN: keine Abhol-, Annahme- oder Entsorgungstarife. Es wird kein Betrag und keine Materialpalette erfunden. Quelle(n): Websuche, Verzeichnisabgleich und OSM-Abfrage am 17.11.2026; keine Preisquelle gefunden]

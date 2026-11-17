@@ -14,7 +14,7 @@ opening_hours: 'Mo-Fr 08:30-17:00, Sa 08:30-13:00'
 website: 'https://www.ash-schrotthandel.de/'
 website_status: 'aktiv'
 status: pruefung
-description: 'ASH Rohstoffhandel, inhabergefuehrter Schrott- und Altmetallhandel in Lüdinghausen, Hans-Böckler-Straße 16, 59348 Lüdinghausen. Betreiberseiten ash-schrotthandel.de und die Zweitdomain altmetallen.de nennen eine Annahmestelle in Lüdinghausen mit geeichten Waagen, mobile Schrottabholung, kostenlose Containerstellung sowie den An- und Verkauf von Schrott und Metall; Ankaufspreise sind tagesaktuell, werden aber nicht beziffert. Eine Efb- oder AltfahrzeugV-Anerkennung ist im amtlichen Fachbetrieberegister nicht eingetragen; die Rechtsform und der Inhaber bleiben amtlich unbestätigt.'
+description: 'ASH Rohstoffhandel, inhabergefuehrter Schrott- und Altmetallhandel in Lüdinghausen, Hans-Böckler-Straße 16, 59348 Lüdinghausen. Das Impressum der Betreiberseite nennt als Anbieter ASH Aid El-Lahib mit der Umsatzsteuer-Identifikationsnummer DE255152707; eine Firmierung wird nicht genannt, der Betrieb tritt als Einzelunternehmer auf. Betreiberseiten ash-schrotthandel.de und die Zweitdomain altmetallen.de nennen eine Annahmestelle in Lüdinghausen mit geeichten Waagen, mobile Schrottabholung, kostenlose Containerstellung sowie den An- und Verkauf von Schrott und Metall; Ankaufspreise sind tagesaktuell, werden aber nicht beziffert. Eine Efb- oder AltfahrzeugV-Anerkennung ist im amtlichen Fachbetrieberegister nicht eingetragen; Rechtsform und Inhaber bleiben amtlich unbestätigt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge

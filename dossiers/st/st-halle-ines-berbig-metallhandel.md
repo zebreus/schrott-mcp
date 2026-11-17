@@ -4,15 +4,14 @@ name: Ines Berbig Metallhandel
 trader_type: metallhaendler
 state: ST
 city: Halle
-street: ''
-postcode: ''
-phone: ''
-email: ''
-opening_hours: ''
-website: ''
-website_status: ''
+street: Fiete-Schulze-Str. 5
+postcode: '06116'
+phone: 0345 5605544
+email: info@metall-blitz.de
+website: https://www.metall-blitz.de
+website_status: aktiv
 status: pruefung
-description: ''
+description: 'Der importierte Einzelbetrieb "Ines Berbig Metallhandel" (Freiimfelder Str. 5, 06112 Halle) ist der Vorgaenger der Metall-Blitz GmbH (HRB 14537 Stendal, GF Ines Berbig): ein Verzeichniseintrag zum alten Namen nennt die historische Anschrift zusammen mit Telefon 0345 5605544 und der Domain metall-blitz.de, die Betreiberchronik nennt dieselbe Gruenderin und dieselbe Anschrift. Der heutige Betrieb verkauft Neumetall, Dachentwässerung, Bleche und Coils; ein Schrott- oder Altmetallankauf ist nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -58,3 +57,10 @@ Die historische Verbindung zwischen Ines Berbig, dem früheren Standort Freiimfe
 
 - Metallhandel
 - Adresse: Halle (Freiimfelder Str. 5, 06112)
+
+### Recherche 17.11.2026
+
+- [Recherche 17.11.2026: **Betreiberkette jetzt belegt: der Verzeichniseintrag zum alten Namen traegt Anschrift, Telefon und Domain des heutigen Betriebs.** Der 11880-Eintrag "Ines Berbig Metallhandel" (live abgerufen 17.11.2026) nennt **Freiimfelder Str. 5, 06112 Halle (Freiimfelde)**, Telefon **(0345) 5605544** und als Website **http://www.metallblitz.de**; die Branchen sind "Metall- und Blechware, Erz und Metall Grosshandel, Metallwaren, Metallhalbzeugwerk". Die Betreiberchronik der Metall-Blitz GmbH nennt die Gruendung durch **Ines Berbig** am 28.07.1997, eine Lager- und Produktionshalle **Freiimfelder Straße 5** ab September 1998, die Umwandlung in eine GmbH am 01.09.2011 und den Umzug zur Fiete-Schulze-Straße 5, 06116 Halle, am 02.02.2015; Impressum und Northdata fuehren Metall-Blitz GmbH, HRB 14537 Stendal, GF Ines Berbig, 0345 5605544, info@metall-blitz.de. Name, historische Anschrift, Telefonnummer und Domain des Seed-Eintrags und die Angaben des heutigen Betriebs decken sich damit ueber eine durchgehende Kette (Einzelbetrieb Ines Berbig, Halle, Freiimfelder Str. 5, vor 2011, danach Metall-Blitz GmbH, Fiete-Schulze-Str. 5). Frontmatter entsprechend auf den heutigen Betrieb gesetzt; der historische Name und die Altwert-Adresse bleiben im Dossier erhalten. Quelle(n): https://www.11880.com/branchenbuch/halle-saale/250203629B28876465/ines-berbig-metallhandel.html ; https://www.metall-blitz.de/ueber-uns.html ; https://www.metall-blitz.de/impressum.php ; https://www.northdata.de/Metall-Blitz+GmbH,+Halle/Amtsgericht+Stendal+HRB+14537 (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Schrottankauf bleibt unbelegt, die Branche ist Neumetallhandel und Dienstleistung.** Die live gelesenen Leistungsseiten (Chronik, Impressum, Produkte) nennen Dachrinnen und Fallrohre aus Kupfer, Zink und Aluminium, NE-Metalle, Tafel-, Band- und Coilware sowie Lohnarbeiten, Schneiden und Wulsten; eine Schrott-, Altauto- oder Altmetallannahme wird **nicht** beworben. Der Verzeichnislead nennt dieselben Branchen ohne Schrott. Der importierte Hinweis auf einen Metallankauf bleibt damit unbestaetigt, und es wird kein Schrottkurs in den Katalog aufgenommen. Quelle(n): https://www.metall-blitz.de/produkte.php ; https://www.metall-blitz.de/ueber-uns.html ; https://www.11880.com/branchenbuch/halle-saale/250203629B28876465/ines-berbig-metallhandel.html (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Geokodierung: Hausnummer nicht bestaetigt, der gespeicherte Punkt liegt an anderer Stelle.** Die exakte Nominatim-Abfrage `Fiete-Schulze-Straße 5, 06116 Halle` liefert am 17.11.2026 nur **Strassenobjekte** (way/30405391 06116 und way/162681227 06112, beide in Halle-Bueschdorf, 51.4807219/12.0121514 und 51.4783895/12.0125480), aber **kein** Objekt mit der Hausnummer 5. Der in der Produktion gespeicherte Punkt 51.60848125/11.27634375 liegt rund 15 km noerdlich davon und bildet den heutigen Betriebsstandort nicht ab. Es wird deshalb **keine** Koordinate gesetzt; eine Hausnummer muss zuerst belegt werden (Betreiber- oder Kartenvollstaendigkeit). Quelle(n): https://nominatim.openstreetmap.org/search?q=Fiete-Schulze-Stra%C3%9Fe%205%2C%2006116%20Halle&format=jsonv2&addressdetails=1&limit=3 (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Preise getrennt geprüft.** ANKAUF: keine Schrott-, Altauto- oder Altmetallankaufspreise, kein Sortenprogramm mit Preisspalte und keine datierte Kursveroeffentlichung. VERKAUF: das Angebot umfasst Neuwaren (Dachentwässerung, Bleche, Coils, NE-Metalle) **ohne** oeffentliche Preisliste; die Lohnarbeit wird ohne Stundensatz beschrieben. GEBUEHREN: keine Lohnarbeits-, Container- oder Entsorgungstarife. Es wird kein Betrag erfunden und kein Materialkatalog aus dem Verzeichnislead uebernommen. Quelle(n): https://www.metall-blitz.de/produkte.php ; https://www.metall-blitz.de/ueber-uns.html (Abruf 17.11.2026); keine Preisquelle gefunden]

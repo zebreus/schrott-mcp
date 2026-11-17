@@ -12,7 +12,7 @@ opening_hours: ''
 website: ''
 website_status: tot
 status: pruefung
-description: 'SMB Schrott und Metallhandel, Coermühle 12, 48157 Münster, Telefon 0251 271168. Herkunft ist bislang ein Branchenbuch-Profil ohne Betreiber- oder Registerbeleg; das im Profil genannte Betreiberportal schrottentsorgungmuenster.de hat keinen DNS-Eintrag. Das Portal weist dem Betrieb Zertifikate nach § 56 KrWG und § 7 AltfahrzeugV sowie ISO 14001 und ISO 9001 zu; im amtlichen Fachbetrieberegister ist für SMB an der Coermühle 12 weder ein Efb- noch ein Altfahrzeug-Eintrag vorhanden, diese Zuschreibungen bleiben unbestätigt. ANKAUF: keine belegten Kurse. VERKAUF: keine Liste belegt. GEBÜHREN: keine Gebührenordnung belegt.'
+description: 'SMB Schrott und Metallhandel, Coermühle 12, 48157 Münster, Telefon 0251 271168. Herkunft ist bislang ein Branchenbuch-Profil ohne Betreiber- oder Registerbeleg; das im Profil genannte Betreiberportal schrottentsorgungmuenster.de hat keinen DNS-Eintrag. Der Lizenzblock dieses Portals weist dem Betrieb den Entsorgungsfachbetrieb nach § 56 KrWG, den Altautoentsorgungs- bzw. Demontagebetrieb nach § 7 AltfahrzeugV sowie DIN EN ISO 14001:2015 und DIN EN ISO 9001:2008 jeweils mit einem roten Kreuz als fehlend aus; im amtlichen Fachbetrieberegister ist für SMB an der Coermühle 12 weder ein Efb- noch ein Altfahrzeug-Eintrag vorhanden. ANKAUF: keine belegten Kurse. VERKAUF: keine Liste belegt. GEBÜHREN: keine Gebührenordnung belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neu, Ankauf unklar (nur Verzeichnis-/Profilbeleg)

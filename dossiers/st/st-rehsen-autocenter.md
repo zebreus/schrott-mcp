@@ -4,15 +4,15 @@ name: Autocenter
 trader_type: autoverwertung
 state: ST
 city: Rehsen
-street: ''
-postcode: ''
+street: Rehsener Straße 31
+postcode: '06785'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Der generische Seed-Name "Autocenter" laesst sich der A.S.M. Automobile GmbH (HRB 30581 Amtsgericht Stendal, aktiv, Rehsener Str. 31, 06785 Oranienbaum-Woerlitz OT Rehsen) zuordnen: das Marktplatz-Haendlerprofil fuehrt "AUTOCENTER REHSEN AUTOVERWERTUNG" mit dem Ort Rehsen, das Register fuehrt Autoverwertung und Teilehandel als Unternehmensgegenstand. Ein Betreiber-Impressum, eine eigene Webseite und ein Altfahrzeugverwertungs-Nachweis sind nicht belegt; keine Ankaufs-, Verkaufs- oder Gebuehrenpreise dokumentiert.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -71,3 +71,11 @@ Ein mobile.de-Händlerprofil-Suchergebnis verbindet A.S.M. Automobile GmbH mit �
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: MISS — kein Betreiber-Beleg (keine Betreiber-Website, kein Register-/Gewerberegister-/Social-Beleg); Händler-Eigenschaft ungeklärt; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 ohne verifizierbaren Treffer]
+
+### Recherche 17.11.2026
+
+- [Recherche 17.11.2026: **Die Zuordnung des Seed-Namens ist jetzt durch ein live gelesenes Marktplatzprofil gestuetzt.** Das Haendlerprofil `home.mobile.de/ABAUTOMOBILEBERLIN3` wurde am 17.11.2026 ueber einen Reader-Dienst erstmals im Volltext erreichbar; der Seitentitel lautet "**AUTOCENTER REHSEN AUTOVERWERTUNG in Oranienbaum-Wörlirtz OT Rehsen**". Der Seitenrumpf selbst bleibt hinter einer Einwilligungswand (Consent-Dialog ueber die mobile.de-Partnerliste), sodass Impressum, Kontaktdaten und Angebotsaktualitaet **nicht** gelesen sind; belegt ist damit der Titel samt Ort, nicht der Inhalt. In Verbindung mit dem Registergegenstand der GmbH (Autoverwertung, Teilehandel) stuetzt der Titel die Zuordnung des generischen Seed-Namens "Autocenter" zu diesem Betrieb. Quelle(n): https://home.mobile.de/ABAUTOMOBILEBERLIN3 (live ueber Reader-Dienst abgerufen 17.11.2026, Seitentitel; Body nicht lesbar)]
+- [Recherche 17.11.2026: **Zweite unabhaengige Registerquelle bestaetigt Aktivitaet und Anschrift (Suchauszug).** Die Registerauskunft Registercheck fuehrt "A.S.M. Automobile GmbH" mit "Aktiv", Registergericht Amtsgericht Stendal HRB 30581, Rechtsform GmbH, Stammkapital 25.000,00 EUR, Geschaeftsanschrift "Rehsener Straße 31, 06785 Oranienbaum-Wörlitz OT Rehsen", Gruendung 03.11.2017 (Suchindex-Auszug vom 17.11.2026; der Direktabruf der Seite war am selben Tag durch eine Bot-Sperre des Anbieters nicht lesbar, es wurde also nur der Auszug ausgewertet). Zusammen mit dem Northdata-Profil und dem Creditreform-Eintrag liegen drei unabhaengige registerabgeleitete Quellen fuer denselben Rechtstraeger vor; die Anschrift ist damit belegt und ins Frontmatter uebernommen. **Reichweite:** Registerquellen belegen Rechtstraeger, Sitz und Unternehmensgegenstand, **nicht** eine oeffentliche Schrottannahme, nicht den Verwertungsnachweis und nicht die Preise. Quelle(n): https://www.registercheck.de/companies/a-s-m-automobile-gmbh-30581 (Suchindex-Auszug, Direktabruf am 17.11.2026 durch Bot-Sperre nicht lesbar); https://www.northdata.de/A%C2%B7S%C2%B7M%C2%B7%20Automobile%20GmbH,%20Oranienbaum/Amtsgericht%20Stendal%20HRB%2030581 ; https://firmeneintrag.creditreform.de/06785/2012772424/A_S_M_AUTOMOBILE_GMBH (Suchindex-Auszug)]
+- [Recherche 17.11.2026: **Geokodierung: Hausnummer 31 nicht kartiert.** Die exakte Nominatim-Abfrage `Rehsener Straße 31, 06785 Oranienbaum-Wörlitz` liefert am 17.11.2026 **kein** Objekt mit der Hausnummer 31, sondern nur Strassenobjekte der Rehsener Straße (way/4549382 in Gohrau 51.8195641/12.4919720, way/1395590061 und way/1395590054 in Rehsen mit den PLZ 06786). Der in der Produktion gespeicherte Punkt 51.8281/12.4983 liegt im Raum Rehsen, ist aber keinem Adressobjekt zugeordnet. Es wird **keine** Koordinate gesetzt, bis eine betreiberseitige oder amtliche Hausnummernbestaetigung vorliegt. Quelle(n): https://nominatim.openstreetmap.org/search?q=Rehsener%20Stra%C3%9Fe%2031%2C%2006785%20Oranienbaum-W%C3%B6rlitz&format=jsonv2&addressdetails=1&limit=3 (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Zertifizierungs-Abgleich ohne Treffer, mit Reichweite.** Die ESN-Mitgliederliste (`https://esn-info.de/mitglieder`, live abgerufen 17.11.2026) fuehrt **keinen** Eintrag zu "A.S.M. Automobile", **keinen** zu Rehsen und **keinen** zu Oranienbaum-Woerlitz. **Reichweite:** die Liste deckt nur die von der ESN zertifizierten Betriebe ab; ein Register-Nichteintrag ist **kein** Nachweis fehlender Efb- oder Altfahrzeugverwertungs-Anerkennung. Fuer eine Autoverwertung ist die Anerkennung nach Paragraph 6 AltfahrzeugV die naheliegende Zertifizierung; sie bleibt unbelegt. Quelle(n): https://esn-info.de/mitglieder (Abruf 17.11.2026)]
+- [Recherche 17.11.2026: **Preise getrennt geprüft.** ANKAUF: kein Fahrzeug- oder Schrottankaufskurs, kein Sorten- und Bewertungsblatt. VERKAUF: ein bereits erfasster indexierter Gebrauchtwagen (Fiat Panda, 3.900 EUR) ist ein **Fahrzeugverkauf** und keine Teile- oder Schrottpreisliste; eine aktuelle Teilepreisliste ist nicht belegt. GEBUEHREN: keine Verwertungs-, Abhol- oder Abschlepptarife, eine Kostenfreiheit wird nicht behauptet. Es wird kein Betrag erfunden; `status` bleibt `pruefung`. Quelle(n): https://home.mobile.de/ABAUTOMOBILEBERLIN3 (Titel live abgerufen 17.11.2026, Angebotskoerper nicht lesbar); https://www.registercheck.de/companies/a-s-m-automobile-gmbh-30581 (Abruf 17.11.2026)]
