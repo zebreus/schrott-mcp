@@ -58,12 +58,19 @@ def pool_lesen(db_path, mit_null):
     return rows
 
 
-def aufteilen(by_state, anzahl_shards, pro_shard, rng):
+def aufteilen(by_state, anzahl_shards, pro_shard, rng, max_je_land=0):
     """Sucht eine Aufteilung: je Shard genau ``pro_shard`` Slugs ✓.
 
     Jeder Bundesstaat kommt mit seinen bearbeiteten Slugs in genau einen
     Shard ✓. Die Suche ist eine Tiefensuche über die Bundesstaaten ✓ mit
     Memoisierung über die Restgroessen der Shards ✓.
+
+    ``max_je_land`` begrenzt, wie viele Slugs **eines** Bundeslandes in
+    **einem** Shard liegen dürfen ✓. Ohne die Grenze füllt die Suche einen
+    Shard mit dem größten Bundesland ✓ — der Shard deckt dann **ein** Land ab
+    ✓ ✓ und die Welle verteilt sich auf wenige Bundesländer ✓. Mit der
+    Grenze muss jeder Shard **mehrere** Länder kombinieren ✓ ✓, damit die
+    Wellen-Aussagen breiter über die Länder streuen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
     """
     staaten = sorted(by_state, key=lambda s: (-len(by_state[s]), s))
     # die Auswahl je Bundesstaat ist zufaellig gemischt, damit die Ziehung
@@ -81,6 +88,8 @@ def aufteilen(by_state, anzahl_shards, pro_shard, rng):
         if key in memo:
             return memo[key]
         verfuegbar = len(auswahl[staaten[i]])
+        if max_je_land:
+            verfuegbar = min(verfuegbar, max_je_land)
         for k in range(anzahl_shards):
             if rest[k] == 0:
                 continue
@@ -104,6 +113,10 @@ def main() -> int:
     ap.add_argument("--shards", type=int, default=3, help="Anzahl Shards")
     ap.add_argument("--pro-shard", type=int, default=20, help="Slugs je Shard")
     ap.add_argument("--seed", type=int, default=42, help="Zufalls-Seed")
+    ap.add_argument("--max-je-land", type=int, default=0,
+                    help=" hoechstens so viele Slugs eines Bundeslandes in einem "
+                         "Shard (0 = ohne Grenze; 4 streut die Welle ueber viele "
+                         "Bundeslaender)")
     ap.add_argument("--db", default=PROD, help="Produktionsdatenbank")
     ap.add_argument("--mit-null-street", action="store_true",
                     help="auch Slugs mit leerem/NULL street nehmen")
@@ -142,7 +155,8 @@ def main() -> int:
         rng = random.Random(args.seed)
         shards = None
         for _ in range(200):
-            plan = aufteilen(by_state, args.shards, args.pro_shard, rng)
+            plan = aufteilen(by_state, args.shards, args.pro_shard, rng,
+                             args.max_je_land)
             if plan:
                 shards = [[] for _ in range(args.shards)]
                 zustand = {s: rng.sample(by_state[s], len(by_state[s])) for s in by_state}
@@ -208,7 +222,8 @@ def main() -> int:
 
     rng = random.Random(args.seed)
     for _ in range(50):
-        plan = aufteilen(by_state, args.shards, args.pro_shard, rng)
+        plan = aufteilen(by_state, args.shards, args.pro_shard, rng,
+                             args.max_je_land)
         if plan:
             shards = [[] for _ in range(args.shards)]
             zustand = {s: rng.sample(by_state[s], len(by_state[s]))
