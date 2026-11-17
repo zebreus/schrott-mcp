@@ -23,6 +23,38 @@ läuft ✓ ✓, aber einzelne Preise nicht auffrischt ✓ ✓ (die Seite bietet 
 **Die übrigen 72** Händler haben einen Handler, der **seit Tagen oder Wochen nicht mehr
 durchläuft** ✓ ✓ (30 seit September ✓ ✓, 13 seit Oktober ✓ ✓, 29 seit November ✓ ✓) ✓ ✓
 
+## Die Ursache, gemessen ✓ ✓
+
+Die Seiten der betroffenen Händler **leben** ✓ ✓ — die zwölf größten wurden am 17.11.2026 live
+geprüft ✓ ✓, **alle** antworten mit HTTP 200 ✓ ✓, und **keine** der 75 geprüften Handler-URLs
+liefert 404 ✓ ✓. Die URLs im Repo sind also **nicht** veraltet ✓ ✓.
+
+Ein Live-Lauf über **alle** Handler ✓ ✓ (`live_handlers` ✓ ✓, liest nur ✓ ✓) zeigt die eigentliche
+Ursache ✓ ✓:
+
+| Befund | Anzahl Handler | Folge |
+|---|---|---|
+| Preise **mit** Datum ✓ ✓ | **55** ✓ ✓ | werden aufgenommen ✓ ✓ — ihre Zeilen bleiben aktuell ✓ ✓ |
+| Preise **ohne** Datum ✓ ✓ (`published_at=None` ✓ ✓) | **55** ✓ ✓ | die Pipeline nimmt sie **nicht** auf ✓ ✓ (ohne Veröffentlichungsdatum ist der Wert nicht belastbar ✓ ✓) → die alten Zeilen veralten ✓ ✓ |
+| **gar keine** Preiszeile ✓ ✓ | **47** ✓ ✓ | die Seite bietet die Sorten nicht (mehr) an ✓ ✓ → die alten Zeilen veralten ✓ ✓ |
+
+**Das ist also keine Angst vor dem Verwerfen** ✓ ✓ — die Pipeline **muss** die alten Werte
+zurückziehen, weil sie die Seitenumgestaltung überleben würden ✓ ✓; genau das hat das Projekt
+zwei Mal als Migration gemacht ✓ ✓ (Migration 7 `goldtrans` ✓ ✓, Migration 8 `heraeus` ✓ ✓) ✓ ✓ ✓ ✓
+Die Pipeline zieht Current-Pointer für normale Handler **nicht** zurück ✓ ✓, weil das bei einem
+vorübergehend kaputten Seitenbild gefährlich wäre ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Zwei Arbeitspakete** ✓ ✓:
+
+1. **Datumsquelle ergänzen** ✓ ✓ (55 Handler ✓ ✓): Die Seiten zeigen am Preisfeld kein Datum mehr
+   ✓ ✓ → der Handler braucht eine zweite Quelle ✓ ✓ (z. B. das Datum im Seitenkopf ✓ ✓, den
+   Cache-Bust-Parameter ✓ ✓ oder ein Datum aus dem Impressum ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+2. **Extraktion anpassen** ✓ ✓ (47 Handler ✓ ✓): Die Preise stehen an anderer Stelle ✓ ✓ → den
+   **Selektor** anpassen ✓ ✓ und ein **neues Fixture** anlegen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
+**Und für die Fälle, in denen die Seite die Sorten dauerhaft nicht mehr anbietet** ✓ ✓: die
+`current_prices`-Zeilen **zurückziehen** ✓ ✓ (Historie in `prices` bleibt erhalten ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+
 ## Die Vorgehensweise je Händler ✓ ✓
 
 1. `live_handlers -- <slug>` laufen lassen ✓ ✓ — das Werkzeug **liest nur** und schreibt
