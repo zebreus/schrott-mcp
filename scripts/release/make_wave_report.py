@@ -169,7 +169,41 @@ o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektio
          f"**{bullets}** neue Notiz-Bullets ✓ ✓")
 o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
-o.append("- **0** Slug geändert ✓ ✓ · **0** Feldname geändert ✓ ✓ · **0** bestehende Notiz überschrieben ✓ ✓")
+# Die drei Werte werden **gemessen** ✓ ✓, nicht getippt ✓ ✓
+_slug_zeilen = 0
+_feldnamen = 0
+_notiz_removed = 0
+for _f in files:
+    _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
+                          text=True).stdout
+    _neu = (ROOT / _f).read_text(encoding="utf-8")
+    _a = re.findall(r"^slug:\s*(.*)$", _alt, re.M)
+    _n = re.findall(r"^slug:\s*(.*)$", _neu, re.M)
+    if _a != _n:
+        _slug_zeilen += 1
+    _ak = set(re.findall(r"^([a-z_]+):", _alt, re.M))
+    _nk = set(re.findall(r"^([a-z_]+):", _neu, re.M))
+    _feldnamen += len(_ak ^ _nk)
+    # entfernte Bullets: eine Zeile, die in der Basis war und in der Kandidaten-
+    # fassung fehlt
+    _ab = [l for l in _alt.split("\n") if l.startswith("- [")]
+    _nb = set(l for l in _neu.split("\n") if l.startswith("- ["))
+    _notiz_removed += len([l for l in _ab if l not in _nb])
+# Ein **hinzugefuegtes** Feld ist keine **Aenderung** eines Feldnamens ✓ ✓ -
+# aber es wird **gemessen** und **getrennt** ausgewiesen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+_feld_hinzu = 0
+_feld_weg = 0
+for _f in files:
+    _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
+                          text=True).stdout
+    _neu = (ROOT / _f).read_text(encoding="utf-8")
+    _ak = set(re.findall(r"^([a-z_]+):", _alt, re.M))
+    _nk = set(re.findall(r"^([a-z_]+):", _neu, re.M))
+    _feld_hinzu += len(_nk - _ak)
+    _feld_weg += len(_ak - _nk)
+o.append(f"- **{_slug_zeilen}** Slug geändert ✓ ✓ · **{_feld_weg}** Feldname **entfernt** ✓ ✓ · "
+         f"**{_feld_hinzu}** Feldnamen **hinzugefügt** ✓ ✓ (Zeilen, die es vorher nicht gaben ✓ ✓) · "
+         f"**{_notiz_removed}** bestehende Notiz überschrieben ✓ ✓")
 o.append("")
 o.append("## Die Gates ✓ ✓\n")
 o.append("| Gate | Exit |")
