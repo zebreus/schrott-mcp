@@ -19,22 +19,32 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "d932eac",
-  "owner_review": "research/wave-20261117-1800-report.md",
+  "dossier_revision": "4962a61",
+  "owner_review": "research/wave-20261118-0000-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 17.11.2026, 18:00)",
-  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases d932eac gehoben",
+  "revised_by": "Owner (Welle 18.11.2026, 00:00)",
+  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 4962a61 gehoben",
   "rows": [
     {
-      "slug": "hh-allermohe-van-der-meulen-edelmetaal-b-v",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1800-report.md."
+      "slug": "by-sennfeld-97526-mertel-autoverwertung",
+      "fields": [
+        "email",
+        "phone",
+        "postcode",
+        "status",
+        "street",
+        "website",
+        "website_status"
+      ],
+      "reason": "Belegte Sachlage geaendert (status: pruefung -> aktiv); Owner-Entscheidung, keine Wertverbesserung; siehe research/wave-20261118-0000-report.md."
     },
     {
-      "slug": "th-bad-tennstedt-schrottabholdienst-scheffler-mario",
-      "fields": [],
-      "reason": "Scope-Werte unveraendert; nur die Notiz-Hashes wurden auf den Post-Seed-Stand gehoben; siehe research/wave-20261117-1800-report.md."
+      "slug": "mv-neubrandenburg-karsten-bobzien-schrotthandel-abbruch-ba",
+      "fields": [
+        "description"
+      ],
+      "reason": "Belegt in der Welle 18.11.2026, 00:00 verbessert; siehe research/wave-20261118-0000-report.md."
     }
   ],
   "unchanged_rows": 58
@@ -170,19 +180,19 @@
       "slug": "by-sennfeld-97526-mertel-autoverwertung",
       "values": {
         "name": "Mertel Autoverwertung",
-        "street": "",
-        "postcode": "",
-        "phone": "",
-        "email": "",
+        "street": "Schweinfurter Straße 6-8",
+        "postcode": "97526",
+        "phone": "0172 4371047",
+        "email": "verwerter@t-online.de",
         "opening_hours": "",
         "description": "",
-        "status": "pruefung",
+        "status": "aktiv",
         "trader_type": "autoverwertung",
-        "website": "",
-        "website_status": "unbekannt"
+        "website": "https://www.autoverwertungmertel.de/",
+        "website_status": "aktiv"
       },
-      "notes_sha256": "a8b61ce51b4a13d33b56d13dfe475ad986d7efd5b62f2ee869b7664557c1cca0",
-      "seed_hash": "f354c7eb3395aeb2"
+      "notes_sha256": "dcf379de00640f6d7271a0d3cf9ecdb6eea3b64768b4a8ca86167c816170f1b1",
+      "seed_hash": "3f6475154f995c51"
     },
     {
       "slug": "by-wurzburg-versbach-97078-pfeifer-rainer-schrotthandel",
@@ -535,14 +545,14 @@
         "phone": "",
         "email": "",
         "opening_hours": "",
-        "description": "",
+        "description": "Karsten Bobzien, gewerblicher Anbieter, 0395/4226656. Das eigene Profil des Betriebes nennt Dorf Straße 19, 17039 Neddemin OT Hohenmin als Standort (Verkauf ab Hof), während die Branchenportale den Betrieb in Neubrandenburg, Otto-Lilienthal-Str. 48, führen - dieser Ortswiderspruch ist der zentrale offene Punkt. Das amtliche Fachbetrieberegister kennt weder unter dem Namen Bobzien (0 Treffer in beiden Routen) noch im 3-km-Radius um die Portaladresse einen zertifizierten Betrieb; im 10-km-Radius liegen 7 zertifizierte Betriebe, keiner nennt Bobzien, Gramzow oder die Prenzlauer Straße. Der Betrieb ist aktiv (gewerblicher Anbieter mit Anzeigen vom 13.11. bis 15.11.2026); Metallankaufkurse sind nicht belegt.",
         "status": "pruefung",
         "trader_type": "schrotthaendler",
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "ba99aaf8fb41e4ccef1145c435240578d6a4413e0f2f48c958e9b28e89f6779c",
-      "seed_hash": "7c3fd0576c3f2342"
+      "notes_sha256": "6d9da7b14510908bec191e1afa0d4c3748dea14f8d2956872a4bb64ac8e0865b",
+      "seed_hash": "545f8a796812dafb"
     },
     {
       "slug": "ni-hildesheim-autoverschrottung-hildesheim",
