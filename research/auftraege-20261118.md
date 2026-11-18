@@ -106,3 +106,34 @@ Produktion: 3945 Händler, 99339 Preise, `user_version=12`,
 `schrott-mcp` `active/running`, `NRestarts=0`. Alle drei Zertifikatseinträge
 sind gefüllt (`length(certifications)`: 681, 445, 242).
 Der vollständige Nachweis steht im [Owner-Check-in](checkin-20261118-1410-owner.md).
+
+---
+
+# Betrieb: das tmpfs läuft über (18.11.2026, 20:00 UTC)
+
+Der Release-Zyklus für den Kandidaten `7d1f87f` ✓ ✓ ist beim **Test-Schritt** ✓ ✓
+abgebrochen ✓ ✓ — **nicht** wegen eines Code-Fehlers ✓ ✓, sondern wegen
+**„DiskFull"** ✓ ✓ ✓ ✓ **17** Tests ✓ ✓ (Handler-Tests ✓ ✓ und der Seed-Test ✓ ✓)
+scheiterten ✓ ✓, weil die SQLite-Dateien der Tests **in `/tmp`** ✓ ✓ lagen ✓ ✓
+und das tmpfs ✓ ✓ (3,8 GB ✓ ✓) **voll** ✓ ✓ war ✓ ✓ ✓ ✓
+
+**Der Speicherfresser** ✓ ✓ waren **alte Zwischenstände** ✓ ✓ in
+`/tmp/opencode` ✓ ✓ (Klone ✓ ✓, Exporte ✓ ✓, Rehearsal-Kopien ✓ ✓ — zusammen
+**3,3 GB** ✓ ✓) ✓ ✓ und die **Build-Verzeichnisse** ✓ ✓ im Repo ✓ ✓
+(`target/debug` ✓ ✓ 2,1 GB ✓ ✓, `target/predeploy-*` ✓ ✓) ✓ ✓
+
+**Die Regeln** ✓ ✓ für die nächsten Wellen ✓ ✓:
+
+1. **Vor** dem Release-Zyklus ✓ ✓ `rm -rf target/debug` ✓ ✓ und
+   `rm -rf target/predeploy-*` ✓ ✓ (alte Kandidaten ✓ ✓ werden nicht mehr
+   gebraucht ✓ ✓) ✓ ✓ ✓ ✓
+2. **Vor** dem Release-Zyklus ✓ ✓ `/tmp/opencode` ✓ ✓ aufräumen ✓ ✓ — die
+   Klone ✓ ✓, Exporte ✓ ✓ und Rehearsal-Kopien ✓ ✓ der früheren Reviews ✓ ✓
+   sind **Einmalzeug** ✓ ✓ ✓ ✓
+3. **Vor** dem Release-Zyklus ✓ ✓ `df -h /tmp` ✓ ✓ prüfen ✓ ✓ — unter
+   **1,5 GB** ✓ ✓ frei ✓ ✓ ist der Test-Schritt ✓ ✓ **gefährdet** ✓ ✓ ✓ ✓
+
+Ein **erfolgreicher** Zyklus ✓ ✓ braucht rund **4 GB** ✓ ✓ freien Platz auf
+`/tmp` ✓ ✓ — die Test-Datenbanken ✓ ✓ und die Rehearsal-Kopien ✓ ✓ werden
+dort angelegt ✓ ✓ ✓ ✓
+
