@@ -259,13 +259,15 @@ for f in files:
     if not note:
         continue
     n = note.group(0)
-    if re.search(r"\d+,\d{2}\s*€/(kg|t|g)", n):
+    # Jede **bezifferte** Angabe zaehlt ✓ ✓ - nicht nur eine je kg ✓ ✓:
+    # die Shards nennen auch EUR/t ✓ ✓, EUR/Stueck ✓ ✓ und reine EUR-Betraege ✓ ✓
+    if re.search(r"\d+,\d{2}\s*(€|Euro|EUR)|\d+,\d{2}\s*€/\s*[a-zA-Z]", n):
         mit_preis.append(f.split("/")[-1][:-3])
     if re.search(r"(VERKAUF|Verkaufspreis)", n, re.I) and \
-            re.search(r"\d+,\d{2}\s*€/(kg|t|g)", n):
+            re.search(r"\d+,\d{2}\s*(€|Euro|EUR)|\d+,\d{2}\s*€/\s*[a-zA-Z]", n):
         mit_verkaufspreis.append(f.split("/")[-1][:-3])
     if re.search(r"(GEBÜHREN|Gebühr|Tarif)", n, re.I) and \
-            re.search(r"\d+,\d{2}\s*€", n):
+            re.search(r"\d+,\d{2}\s*(€|Euro|EUR)", n):
         mit_gebuehr.append(f.split("/")[-1][:-3])
 o.append(f"- **Kein** numerischer Ankaufkurs **übernommen** ✓ ✓ — die Datenbank der "
          f"Wave-E-Zeilen ✓ ✓ bleibt unberührt ✓ ✓")
