@@ -337,8 +337,7 @@ mod tests {
         let slug = "th-gotha-sdm-gutzmann";
         let schedule = Schedule::every_6h();
         let phase = super::stagger_secs(slug, 21600);
-        let occurrence = Utc.timestamp_opt(phase as i64, 0).unwrap()
-            + chrono::Duration::hours(6); // 07:57:46 UTC
+        let occurrence = Utc.timestamp_opt(phase as i64, 0).unwrap() + chrono::Duration::hours(6); // 07:57:46 UTC
         let boot = occurrence + chrono::Duration::minutes(7);
 
         // With the last run the cadence carries over: the occurrence that
@@ -346,7 +345,10 @@ mod tests {
         // interval later. That is the point of the fix.
         let last_run = occurrence - chrono::Duration::hours(6);
         let due = super::due_at_boot(boot, Some(last_run), slug, &schedule);
-        assert_eq!(due, boot, "der verpasste Lauf darf nicht auf ein Intervall warten");
+        assert_eq!(
+            due, boot,
+            "der verpasste Lauf darf nicht auf ein Intervall warten"
+        );
 
         // Zum Vergleich: ohne den letzten Lauf wartet der Handler bis zum
         // naechsten Phasenfenster - so war es vor der Korrektur.
