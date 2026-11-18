@@ -342,8 +342,13 @@ o.append(f"- **Kein** numerischer Ankaufkurs **übernommen** ✓ ✓ — die Dat
 # Wie viele der Notizen mit Zahlen weisen ihren Zahlenwert **selbst** als
 # Nicht-Kurs des Dossier-Betriebs aus? Das wird **gemessen**, nicht getippt ✓ ✓
 KURS_MARKER = re.compile(
-    r"(kein\w*\s+(?:veröffentlichter\s+|belegter\s+)?(?:Zahlen-?)?"
-    r"(?:kurs|Ankaufskurs|Ankaufspreis|Preis|Preise|Tarif\w*|Geb\w+hren)"
+    # "kein Berliner Ankaufskurs", "kein saarlaendischer Tageskurs",
+    # "keine Preise dieses Betriebs belegt" - zwischen "kein" und dem
+    # Kursbegriff stehen beliebig viele Adjektive ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+    r"(kein\w*\s+(?:\w+[-\w]*\s+){0,3}?"
+    r"(?:\w+[-])?(?:kurs|kurse|ankaufskurs|ankaufpreis|ankaufspreis|preis|preise"
+    r"|tarif\w*|geb\w+hren"
+    r"|richtpreis\w*|tageskurs\w*|eurokurs\w*|schrottpreis\w*)\b"
     r"|nicht\s+als\s+Kurs|Kein\s+Preis\s+fremder\s+Betriebe"
     r"|ohne\s+Preisangaben|Platzhalter|Preisfeld|historisch\w*"
     r"|gelten\s+für[^.]{0,160}?\*\*nicht\*\*|\*\*nicht\*\*\s+für"
@@ -356,7 +361,9 @@ for _f in files:
                    (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
                    _t, re.M | re.S)
     if _m and _slug in mit_preis:
-        _notes_mit_preis[_slug] = _m.group(0)
+        # Die Auszeichnung ("**keine** festen Kurse") ist Format, nicht Inhalt ✓ ✓ -
+        # der Marker sieht sie deshalb nicht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+        _notes_mit_preis[_slug] = _m.group(0).replace("**", "")
 ohne_kurs = [s for s, n in _notes_mit_preis.items() if not KURS_MARKER.search(n)]
 anteil = (f"**allen {len(mit_preis)}**" if not ohne_kurs else
           f"**{len(mit_preis) - len(ohne_kurs)} von {len(mit_preis)}**")
