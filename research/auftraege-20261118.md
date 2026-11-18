@@ -173,3 +173,22 @@ rp-trier-west-54294-matthias-alten: Notizen weichen ab (erwartet 6316 Zeichen, P
 Pending-Corrections (seit 14:09:10 UTC), Release-Delta und Wave-E-Postrollout: jeweils `"ok": true`, Exit 0. Produktion: 3945 Händler, 101064 Preise, `user_version=12`; Dienst `active/running`, `NRestarts=0`.
 
 Separater Befund aus den letzten zwölf Läufen: `bb-brandenburg-a-d-h-goldhaus-brb` startete um 20:27:35.113796585 UTC und meldete `failed`: `request to https://goldhaus-brb.de/ failed: error sending request for url (https://goldhaus-brb.de/)`. Der Lauf fand statt; die Fehlermeldung nennt keine genauere Ursache für den Versandfehler.
+
+---
+
+# ERLEDIGT – die rote Notizprüfung der 12:00-Welle (18.11.2026, 21:50 UTC)
+
+Die Prüfung um **20:30 UTC** ✓ ✓ war **rot** ✓ ✓, weil der Prüfer die Timeline
+aus dem **Arbeitsbaum** liest ✓ ✓ und der Commit `07e556e6` ✓ ✓ nach dem Rollout
+genau diese **14** Dossiers ergänzt hatte ✓ ✓ ✓ ✓
+
+**Der Rollout von `7d1f87f`** ✓ ✓ (18.11.2026, **21:12:32 UTC** ✓ ✓) hat die
+**14** Korrekturen ✓ ✓ mitgenommen ✓ ✓ — jetzt gilt ✓ ✓:
+
+```text
+python3 scripts/release/verify_notes_in_production.py --data-dir /var/lib/schrott-mcp \
+  --scope research/wave-20261118-1200-scope.json
+  -> "ok": true, "scope": 60, "checked": 60, "failures": []
+```
+
+**Und** der Release-Scope der Welle vom 18:00 ✓ ✓ ist **74/74** identisch ✓ ✓ ✓ ✓
