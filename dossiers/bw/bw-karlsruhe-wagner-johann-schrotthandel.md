@@ -5,14 +5,16 @@ trader_type: schrotthaendler
 state: BW
 city: Karlsruhe
 street: Fritschlachweg 33
-postcode: ''
+postcode: '76189'
+lat: '48.9988212'
+lon: '8.3247396'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Wagner Johann Schrotthandel, Fritschlachweg 33, 76189 Karlsruhe: Verzeichnis-Leads (Gelbe Seiten, Das Örtliche, GoYellow) nennen den Betrieb mit der Telefonnummer 0721 863449, aber es gibt weder einen Betreiberauftritt noch einen Registereintrag. Das amtliche Fachbetrieberegister führt keinen Wagner-Betrieb in Karlsruhe: Die Namenssuche Wagner in der Route Altfahrzeugverwertung liefert 6 Treffer, alle außerhalb Karlsruhes (Neustadt am Rübenberge, Dettingen, Ludwigshafen, Neuenhagen bei Berlin), die Namenssuche Wagner Johann in der Route Entsorgungsfachbetriebe 0 Treffer. Die Standortabfrage mit 3 km Radius um die Anschrift liefert 64 Efb-Treffer, der nächste in 0,4 km Entfernung: Ganz Rohstoffe GmbH, Fritschlachweg 15, 76189 Karlsruhe (ZZHT01000233) - dieselbe Straße, andere Hausnummer, gesondertes Dossier. Die Koordinate belegt die Anschrift (OSM-Way 346231662, Hausnummer-Treffer ohne name- oder operator-Tag), nicht den Betrieb. Ankauf, Verkauf und Gebühren sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3
@@ -42,3 +44,7 @@ Die Portale nennen Schrott/Entrümpelung, aber keine überprüfbare Ankaufspraxi
 
 - Schrotthandel
 - Größe: klein
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: **Amtliches Register und Geokodierung - die Identität bleibt offen, die Adresse ist jetzt belegt.** (1) **Fachbetrieberegister (live am 18.11.2026):** Die Namenssuche Wagner in der Route **Altfahrzeugverwertung** liefert **6 Treffer, keinen in Karlsruhe**: Wagner KG (Rudolf-Diesel-Ring 8, 31535 Neustadt am Rübenberge, ZZCT00400105 / 2-3 und ZACT00400236 / 1), Wagner GmbH (Vogelsangstrasse 2, 72584 Dettingen, ZAHS01800053 / 1), Wagner & Wagner GmbH & Co. KG (Hoheneckenstraße 82, 67065 Ludwigshafen, ZAGS00300024 / 1) und Autoverwertung Wagner Inh. Peter Wagner (Am Umspannwerk 19, 15366 Neuenhagen bei Berlin, ZALS00800022 / 1); die Namenssuche Wagner Johann in der Route **Entsorgungsfachbetriebe** liefert **0 Treffer**. Die Standortabfrage mit 3 km Radius um Fritschlachweg 33 liefert **64 Efb-Treffer**; der nächste liegt in **0,4 km** Entfernung: **Ganz Rohstoffe GmbH, Fritschlachweg 15, 76189 Karlsruhe, ZZHT01000233** (Anlage 1 Sammeln und Befördern, Anlage 2 Lagern und Verwerten) - **dieselbe Straße, andere Hausnummer**; Ganz Rohstoffe ist als eigenes Dossier (bw-karlsruhe-ganz-rohstoffe) geführt und wird hier nicht gleichgesetzt. Ein Nachfolge- oder Übernahmeverhältnis zwischen Wagner Johann und Ganz Rohstoffe ist **nicht belegt** und wird nicht behauptet. **Reichweite:** die Altfahrzeugverwertungs- und die Efb-Anerkennung sind freiwillig; die Register-Nichteinträge sind **kein** Nichtexistenzbeweis für einen nicht anerkannten Einzelbetrieb. (2) **Geokodierung:** OSM-Way 346231662 trägt addr:housenumber 33, addr:street Fritschlachweg, addr:postcode 76189, addr:city Karlsruhe und building yes mit der Quellenangabe Maps4BW, LGL (amtliche Landesdaten); das Objekt hat **weder name- noch operator-Tag**, die Koordinate 48.9988212/8.3247396 belegt damit die **Anschrift**, nicht die Betreiberzuordnung. Die Nominatim-Vorwärtssuche nach Fritschlachweg 33, 76189 Karlsruhe liefert dasselbe Objekt. **Frontmatter:** `postcode` auf 76189 gesetzt (Verzeichnis-Leads plus amtliche Landesdaten in OSM), `lat`/`lon` auf den Hausnummer-Treffer gesetzt, `website_status` von leer auf unbekannt normalisiert, `description` neu gefüllt; `street` bleibt Fritschlachweg 33, `phone` bleibt **leer** (0721 863449 stammt weiterhin nur aus Verzeichniseinträgen), `status` bleibt pruefung. **ANKAUF:** keine belegten Kurse für Wagner Johann; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife. Offen bleibt ein Betreiber- oder Kommunalbeleg für die Existenz des Betriebs an der Fritschlachweg 33. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wagner ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wagner+Johann ; https://api.openstreetmap.org/api/0.6/way/346231662.json ; https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=de&limit=5&q=Fritschlachweg+33%2C+76189+Karlsruhe (Abruf 18.11.2026)]

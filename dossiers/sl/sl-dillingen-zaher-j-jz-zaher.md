@@ -12,11 +12,12 @@ opening_hours: ''
 website: ''
 website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Verzeichnislead JZ Zaher, Stummstr. 47, 66763 Dillingen, Telefon (06831) 7610919, E-Mail JZaher@hotmail.de. Die Zuordnung von Zaher J. und JZ Zaher bleibt unsicher: 11880 und Bscout führen Stummstr. 47, Gelbe Seiten nennt unter demselben Namen Stummstr. 37, weitere Verzeichnisse nennen abweichende Mail- und Mobilangaben; alle Einträge stammen aus einer Verzeichnisquellfamilie. Das amtliche Fachbetrieberegister kennt am 18.11.2026 unter dem Namen Zaher keinen Eintrag und an der Dossieradresse keinen zertifizierten Betrieb: die Standortabfrage mit 3 km liefert 24 Efb-Treffer und 1 Altfahrzeugverwertungs-Treffer (Theo Steil GmbH Schrott- und Metallgroßhandel am Südkai 7, 66740 Saarlouis), keiner nennt die Stummstraße 47. Das amtliche Handelsregisterportal führt weder zu Zaher J. noch zu JZ Zaher einen Registereintrag aus Dillingen; Einzelunternehmer werden nicht eingetragen, das beweist kein Nichtbestehen. ANKAUF: keine verifizierte Annahme, Auszahlung oder Preise. VERKAUF: keine Liste. GEBÜHREN: keine belastbare Gebühren- oder Abholpreisliste.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Schrottankauf im Saarland (SL) — Recherche
 provenance_ankauf_raw: ja (lt. Verzeichnis)
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister unter dem Namen Zaher und kein Eintrag an der Adresse Stummstraße 47, 66763 Dillingen (Abruf 18.11.2026; Namensabfrage in beiden Routen je 0 Treffer, Standortabfrage 3 km in der Route Entsorgungsfachbetriebe 24 Treffer und in der Route Altfahrzeugverwertung 1 Treffer, keiner nennt die Stummstraße 47; die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung nach § 7 Abs. 2a AltfahrzeugV sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis)"]'
 provenance_origin: table
 ---
 
@@ -58,3 +59,8 @@ Die Zuordnung von **Zaher J.** und **JZ Zaher** bleibt unsicher: 11880 führt St
 ### Recherche 01.10.2026
 
 - Miss: keine Betreiber-Primärquelle, kein Northdata/HR-Eintrag, kein kommunales Register, kein Betreiber-Social. Nur Aggregator-Leads. DDG mit Bot-Challenge blockiert — keine 2 unabhängigen Belege, keine Frontmatter-Fills.
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: Das amtliche Fachbetrieberegister kennt am 18.11.2026 weder unter dem Namen Zaher einen Eintrag (Namensabfrage in beiden Routen je 0 Treffer) noch einen zertifizierten Betrieb an der Dossieradresse: die Standortabfrage mit 3 km um Stummstraße 47, 66763 Dillingen liefert 24 Efb-Treffer und 1 Altfahrzeugverwertungs-Treffer, letzterer ist die Theo Steil GmbH Schrott- und Metallgroßhandel am Südkai 7, 66740 Saarlouis, ein anderer Rechtsträger; keiner der 24 Efb-Treffer nennt die Stummstraße 47. Das Zertifikatsfeld wurde um diesen Negativbefund ergänzt. Das amtliche Handelsregisterportal liefert bei der Suche Zaher Dillingen weder ein Unternehmen noch eine Person; Einzelunternehmer werden nicht eingetragen, das ist kein Nachweis, dass das Gewerbe fehlt. Der Widerspruch in der Anschrift (Stummstraße 37 gegen 47) und in den Kontaktdaten bleibt damit unverändert offen, es werden keine Felder überschrieben und keine Annahme- oder Zahlungsfreigabe abgeleitet. ANKAUF: keine verifizierte Annahme und keine Preise. VERKAUF: keine Preisliste. GEBÜHREN: keine belastbare Gebührenliste; die in Verzeichnissen genannten täglichen Zeiten 08:00 bis 20:00 sind keine Konditionen. Keine Koordinate gesetzt, weil die zutreffende Hausnummer ungeklärt ist. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Zaher ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Zaher ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Stummstra%C3%9Fe%2047%2C%2066763%20Dillingen%2C%20Deutschland%3B6.7280188%3B49.3541889%3B6.7693914%3B49.3811382%3B6.6866462%3B49.3272396&dst=3&is=1&e=1 ; https://www.online-handelsregister.de/suche/Zaher%20Dillingen]
+- [Frontmatter-Änderungen 18.11.2026: Diese Recherche hat die folgenden Felder des Dossiers verändert: `description` (ergänzt), `certifications` (ergänzt (Negativbefund oder Registerbefund)). Die übrigen Felder und alle bisherigen Notizen der Timeline bleiben unverändert.]

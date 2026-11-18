@@ -6,15 +6,15 @@ name: Kloppe
 trader_type: autoverwertung
 state: ST
 city: Muldestausee
-street: ''
-postcode: ''
+street: Freiheitstraße
+postcode: '06774'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
-description: ''
+description: 'Schlaitzer Autoverwertung (Firma Kloppe), Freiheitstraße 12, 06774 Muldestausee-Schlaitz, Telefon 034955 20503: Die Anschrift ist durch den amtlichen Flächennutzungsplan der Gemeinde Muldestausee (März 2022, Anlage 4, Seite 28, Typ 5/Nr. 3077) als Schlaitzer Autoverwertung Firma Kloppe mit der Beschreibung Autoverwertung, Hof gepflastert belegt. Ein Betriebs- oder Zertifikatsnachweis liegt nicht vor: Das amtliche Fachbetrieberegister kennt weder unter Kloppe noch unter Schlaitz einen anerkannten Betrieb, und die angegebene Website schlaitzer-autoverwertung.de hat keinen DNS-Eintrag mehr. Die Telefonnummer stammt nur aus Branchenverzeichnissen. Ankaufskurse, Verkaufspreise und Gebuehren sind nicht belegt.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -92,3 +92,7 @@ Das Dokument ist eine Altlasten-/Planungsquelle, kein aktueller Gewerbe- oder Ze
   https://www.gemeinde-muldestausee.de/de/datei/anzeigen/id/32199,1163/anlage_4_altlasten.pdf ;
   https://www.11880.com/branchenbuch/muldestausee/060440459B42590285/schlaitzer-autoverwertung.html ;
   https://www.gelbeseiten.de/gsbiz/c118ea4a-64b8-43dc-8320-cdf98ff54b0a (Abruf 04.11.2026).]
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: **Die Anschrift ist amtlich belegt und wird jetzt ins Frontmatter übernommen; die Domain-Befunde werden geschärft.** (1) **Amtliches Fachbetrieberegister (live am 18.11.2026):** die Namenssuchen **Kloppe** und **Schlaitz** liefern in beiden Routen **0 Treffer**; die Standortabfrage mit **3 km Radius um Freiheitstraße 12, 06774 Muldestausee** liefert in der Route **Altfahrzeugverwertung 0 Treffer** und in der Route Entsorgungsfachbetriebe mit 5 km Radius **1 Treffer**: **Fa. Ralf Herker, Muldensteiner Straße 33, 06774 Muldestausee OT Friedersdorf, ZZPT00400730 / 1 (Sammeln und Befördern)** in 0,3 km Entfernung - **ein anders benannter Betrieb, dem keine Kloppe-Identität zugeschrieben wird**. **Reichweite:** beide Anerkennungen sind freiwillig; ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis und **keine** Schließungsaussage - die Schlaitzer Autoverwertung kann ohne Anerkennung bestehen. (2) **Website-Befund geschärft:** Die Notiz vom 24.10.2026 notierte, die Website lasse sich beim Abruf nicht erfolgreich laden. **Am 18.11.2026 hat schlaitzer-autoverwertung.de keinen DNS-Eintrag mehr** (getent hosts liefert keinen Treffer) - die Domain ist damit **nicht auflösbar**, nicht lediglich nicht ladbar; eine Preissuche ist dort entsprechend nicht möglich. (3) **Frontmatter:** `street` (Freiheitstraße) und `postcode` (06774) gesetzt - Grundlage sind **zwei unabhängige** Quellen: der **amtliche Flächennutzungsplan der Gemeinde Muldestausee** (März 2022, Anlage 4, Seite 28, Abschnitt Schlaitz, Typ 5/Nr. 3077) nennt wörtlich *Schlaitzer Autoverwertung Firma Kloppe, Freiheitsstraße 12* mit der Beschreibung *Autoverwertung, Hof gepflastert* und dem OSM-Adressobjekt **way/1085327399** (addr:housenumber 12, addr:street Freiheitstraße, addr:postcode 06774, addr:city Muldestausee, addr:suburb Schlaitz, building yes); die bereits am 04.11.2026 gesetzte Koordinate **51.6574807/12.4245592** gehört genau zu diesem Objekt und bleibt unverändert. `phone` bleibt **leer** (034955 20503 stammt nur aus den Branchenverzeichnissen 11880 und Gelbe Seiten, also einem Lead-Typ; eine zweite Belegquelle existiert nicht), `website` bleibt leer, `website_status` von leer auf unbekannt normalisiert, `description` neu gefüllt, `status` bleibt **pruefung**. **Preise getrennt: ANKAUF** - keine Kurse, kein Sortiment und keine Annahmebedingungen belegt; **VERKAUF** - keine Preisliste; **GEBÜHREN** - keine Tarife. Offen bleiben Betreiberperson, heutige Tätigkeit, Kundenannahme und Annahmezeiten; der Flächennutzungsplan ist ein Planungs- und Altlastendokument von 2022 und **kein** aktueller Gewerbe- oder Zertifikatsnachweis. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Kloppe ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&adr=Freiheitstra%C3%9Fe+12%2C+06774+Muldestausee%2C+Deutschland%3B12.4245592%3B51.6574807%3B12.4658688%3B51.6727302%3B12.3832496%3B51.6422312 ; https://api.openstreetmap.org/api/0.6/way/1085327399.json ; DNS-Prüfung schlaitzer-autoverwertung.de (Abruf 18.11.2026)]
