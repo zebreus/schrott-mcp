@@ -44,14 +44,48 @@ DATUM = _args.datum
 AUSGABE = Path(_args.ausgabe) if _args.ausgabe else \
     ROOT / f"research/wave-{CAND}-report.md"
 
+def frontmatter_zeilen(text):
+    """Nur die **Zeilen des Frontmatter-Blocks** ✓ ✓ - der Rest des Dossiers
+    ist Prosa ✓ ✓ und keine Feldnamen ✓ ✓. Ein Satz wie „dargestellt: ..." in
+    einem angehaengten Ueberblick-Absatz ist **kein** Feld ✓ ✓ - der Build
+    wuerde an ihm scheitern ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+    """
+    if not text.startswith("---"):
+        return []
+    ende = text.find("\n---", 3)
+    if ende < 0:
+        return []
+    return [l for l in text[3:ende].split("\n") if re.match(r"^[a-z_]+:", l)]
+
+
+def frontmatter_werte(text):
+    """Die **Werte** des Frontmatter-Blocks ✓ ✓ als Feldname -> Zeile ✓ ✓"""
+    out = {}
+    for l in frontmatter_zeilen(text):
+        k = l.split(":", 1)[0]
+        out[k] = l
+    return out
+
+
 files = [f for f in subprocess.run(
     ["git", "diff", "--name-only", BASE, CAND, "--", "dossiers/"],
     capture_output=True, text=True, check=True).stdout.split()
     if f.split("/")[-1][:-3] in SCOPE]
 states = collections.Counter(f.split("/")[1].upper() for f in files)
+# Der **Diff** wird fuer die **Notiz-Bullets** gebraucht ✓ ✓ - die
+# Frontmatter-Felder werden dagegen **am Frontmatter selbst** gemessen ✓ ✓
 fm = subprocess.run(["git", "diff", BASE, CAND, "--"] + files,
                     capture_output=True, text=True, check=True).stdout
-felder = collections.Counter(re.findall(r"^\+([a-z_]+):", fm, re.M))
+felder = collections.Counter()
+for _f in files:
+    _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
+                          text=True).stdout
+    _neu = (ROOT / _f).read_text(encoding="utf-8")
+    _av = frontmatter_werte(_alt)
+    _nv = frontmatter_werte(_neu)
+    for _k, _v in _nv.items():
+        if _av.get(_k) != _v:
+            felder[_k] += 1
 # Neue Sektionen: die Sektionen, die der Kandidat gegenueber der Basis *neu*
 # enthaelt. Ein Dossier kann zusaetzlich eine Sektion aus einer frueeren Welle
 # desselben Tages tragen - die zaehlt nicht als neu, die Zahl der Dossiers mit
@@ -214,8 +248,8 @@ for _f in files:
     _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
                           text=True).stdout
     _neu = (ROOT / _f).read_text(encoding="utf-8")
-    _ak = set(re.findall(r"^([a-z_]+):", _alt, re.M))
-    _nk = set(re.findall(r"^([a-z_]+):", _neu, re.M))
+    _ak = set(frontmatter_werte(_alt))
+    _nk = set(frontmatter_werte(_neu))
     _feld_hinzu += len(_nk - _ak)
     _feld_weg += len(_ak - _nk)
 o.append(f"- **{_slug_zeilen}** Slug geändert ✓ ✓ · **{_feld_weg}** Feldname **entfernt** ✓ ✓ · "
