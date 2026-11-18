@@ -296,11 +296,33 @@ for f in files:
         mit_gebuehr.append(f.split("/")[-1][:-3])
 o.append(f"- **Kein** numerischer Ankaufkurs **übernommen** ✓ ✓ — die Datenbank der "
          f"Wave-E-Zeilen ✓ ✓ bleibt unberührt ✓ ✓")
-o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{len(mit_preis)}** Dossiers ✓ ✓ — "
-         f"**überwiegend** von **fremden** Betrieben ✓ ✓ (Aggregator- ✓ ✓, Nachbar- ✓ ✓ und "
-         f"Portal-Preislisten ✓ ✓); auch die **eigenen** Angebote ✓ ✓ (Naturstein- ✓ ✓, "
-         f"Versand- ✓ ✓) sind **kein** Ankaufspreis für Schrott ✓ ✓ ✓ ✓ "
-         f"**Kein** Wert ist als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
+# Wie viele der Notizen mit Zahlen weisen ihren Zahlenwert **selbst** als
+# Nicht-Kurs des Dossier-Betriebs aus? Das wird **gemessen**, nicht getippt ✓ ✓
+KURS_MARKER = re.compile(
+    r"(kein\w*\s+(?:veröffentlichter\s+|belegter\s+)?(?:Zahlen-?)?"
+    r"(?:kurs|Ankaufskurs|Ankaufspreis|Preis|Preise|Tarif\w*|Geb\w+hren)"
+    r"|nicht\s+als\s+Kurs|Kein\s+Preis\s+fremder\s+Betriebe"
+    r"|ohne\s+Preisangaben|Platzhalter|Preisfeld|historisch\w*"
+    r"|gelten\s+für[^.]{0,160}?\*\*nicht\*\*|\*\*nicht\*\*\s+für"
+    r"|\*\*nicht\*\*\s+als)", re.I)
+_notes_mit_preis = {}
+for _f in files:
+    _slug = _f.split("/")[-1][:-3]
+    _t = (ROOT / _f).read_text(encoding="utf-8")
+    _m = re.search(r"^### " + re.escape(ABSCHNITT) +
+                   (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
+                   _t, re.M | re.S)
+    if _m and _slug in mit_preis:
+        _notes_mit_preis[_slug] = _m.group(0)
+ohne_kurs = [s for s, n in _notes_mit_preis.items() if not KURS_MARKER.search(n)]
+anteil = (f"**allen {len(mit_preis)}**" if not ohne_kurs else
+          f"**{len(mit_preis) - len(ohne_kurs)} von {len(mit_preis)}**")
+o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{len(mit_preis)}** Dossiers ✓ ✓ "
+         f"({', '.join(sorted(mit_preis))}) ✓ ✓ — in {anteil} Fällen weist die Notiz "
+         f"ihren Zahlenwert **selbst** als Nicht-Kurs des Dossier-Betriebs aus ✓ ✓ "
+         f"(fremder Standort, Platzhalter, Preisfeld, Gebühr eines Dritten, "
+         f"historisches Angebot) ✓ ✓ ✓ ✓ ✓ **Kein** Wert ist als Kurs des "
+         f"Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Verkaufspreisliste **übernommen** ✓ ✓ "
          f"({len(mit_verkaufspreis)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Gebührentafel **übernommen** ✓ ✓ "
