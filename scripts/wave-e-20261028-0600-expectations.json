@@ -19,32 +19,34 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "4962a61",
-  "owner_review": "research/wave-20261118-0000-report.md",
+  "dossier_revision": "079b6fd",
+  "owner_review": "research/wave-20261118-1800-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 18.11.2026, 00:00)",
-  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 4962a61 gehoben",
+  "revised_by": "Owner (Welle 18.11.2026, 18:00)",
+  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 079b6fd gehoben",
   "rows": [
     {
-      "slug": "by-sennfeld-97526-mertel-autoverwertung",
+      "slug": "rp-oberzissen-56651-reinhardt",
       "fields": [
+        "description",
         "email",
+        "name",
         "phone",
         "postcode",
-        "status",
         "street",
         "website",
         "website_status"
       ],
-      "reason": "Belegte Sachlage geaendert (status: pruefung -> aktiv); Owner-Entscheidung, keine Wertverbesserung; siehe research/wave-20261118-0000-report.md."
+      "reason": "Belegt in der Welle 18.11.2026, 18:00 verbessert; siehe research/wave-20261118-1800-report.md."
     },
     {
-      "slug": "mv-neubrandenburg-karsten-bobzien-schrotthandel-abbruch-ba",
+      "slug": "be-steglitz-zehlendorf-rich-herbig-metallhandel-berlin",
       "fields": [
-        "description"
+        "description",
+        "street"
       ],
-      "reason": "Belegt in der Welle 18.11.2026, 00:00 verbessert; siehe research/wave-20261118-0000-report.md."
+      "reason": "Belegt in der Welle 18.11.2026, 18:00 verbessert; siehe research/wave-20261118-1800-report.md."
     }
   ],
   "unchanged_rows": 58
@@ -72,19 +74,19 @@
       "slug": "be-steglitz-zehlendorf-rich-herbig-metallhandel-berlin",
       "values": {
         "name": "Rich. Herbig Metallhandel Berlin GmbH & Co. KG",
-        "street": "Steglitz-Zehlendorf, Bahnhofstr. 31",
+        "street": "Bahnhofstr. 31",
         "postcode": "12207",
         "phone": "030 68 39 03-0",
         "email": "",
         "opening_hours": "",
-        "description": "",
+        "description": "Rich. Herbig Metallhandel Berlin GmbH (HRB 78212 B, Bahnhofstr. 31, 12207 Berlin) ist eine unterstellte Niederlassung der Niemann-Gruppe: Das ISO-9001-Zertifikat der Manfred J. C. Niemann Zentrale KG (LRQA, Zertifikat-Nr. 10575982, gültig bis 31.01.2027) listet die Berliner Adresse im Zertifikatsanhang mit dem Geltungsbereich Lagerhaltung und Handel von Halbzeugen aus Aluminium und Kupfer. Der Dossiername (GmbH & Co. KG, HRA 31909 B) bezeichnet dagegen eine 2007 gelöschte KG; eine Rechtsnachfolge auf die GmbH ist nicht belegt. ANKAUF: kein Schrottankauf durch die Öffentlichkeit belegt. VERKAUF: Großhandel mit Nicht-Eisen-Metallen belegt, keine Preise. GEBÜHREN: keine Tarife.",
         "status": "pruefung",
         "trader_type": "metallhaendler",
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "571a519b00c815c79f734f5f34ba64313a8f300baf1dada2274e630d73fdb97f",
-      "seed_hash": "e29f6f17c4f155d3"
+      "notes_sha256": "c5321751ff6d5d2ec9835152b03702a8bcd4c369511f47fcf59ca9bdee11a91e",
+      "seed_hash": "07e8033834afcb41"
     },
     {
       "slug": "by-ichenhausen-michael-hammerschmidt",
@@ -605,8 +607,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "fcf80ec0115fd2510a254e0afbd02444c8e912036faa1b8a30e444d55050fd39",
-      "seed_hash": "093727c72da21b21"
+      "notes_sha256": "a803582edf69d78b0301c3e4211a4a1f23cecedcda71ac867c423e9edd65d4d8",
+      "seed_hash": "43d007180feeefd5"
     },
     {
       "slug": "nw-bochum-wattenscheid-schrotthandler-plus",
@@ -785,8 +787,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "db69b6248fd151f5f921067a51e71fb07d0ca702688c4ed7ba2ef47ba5696548",
-      "seed_hash": "2ba708f07fbe2692"
+      "notes_sha256": "ce2ba9ef018ffcd3000fb7d869e9f5e511167fbf053b94a6bc2fa39cf3ca8571",
+      "seed_hash": "e4439cdf3cc8ba9f"
     },
     {
       "slug": "nw-unna-mairitsch",
@@ -863,20 +865,20 @@
     {
       "slug": "rp-oberzissen-56651-reinhardt",
       "values": {
-        "name": "Reinhardt",
-        "street": "",
-        "postcode": "",
-        "phone": "",
-        "email": "",
+        "name": "Schrotthandel Reinhardt (Daniel Reinhardt)",
+        "street": "Am Sauerbrunnen 21",
+        "postcode": "56651",
+        "phone": "0177 5385349",
+        "email": "d.reinhardt83@hotmail.de",
         "opening_hours": "",
-        "description": "",
+        "description": "Schrotthandel Reinhardt, Inhaber Daniel Reinhardt, Büro und Geschäftsanschrift Am Sauerbrunnen 21, 56651 Oberzissen, Telefon 0177 5385349; das Impressum der früheren Betreiberdomain schrotthandel-reinhardt.de (Archivstand 27.03.2022) nennt denselben Namen und Inhaber, dieselbe Anschrift, zusätzlich die Rufnummer 0177 1491759, die E-Mail-Adressen daniel@schrotthandel-reinhardt.de und danielreinhardt39@gmail.com, die Steuernummer 01/135/32124 und die USt-IdNr. 67820194592. Die heutige Betreiberwebsite (HTTP 200 am 18.11.2026) wirbt Altmetall- und Buntmetallentsorgung, Entrümpelung, Öltank- und Nachtspeicherofenentsorgung sowie Container in verschiedenen Größen und verspricht ausdrücklich nur die Besichtigung als kostenlos. Die amtliche Fachbetrieberegisterabfrage führt den Betrieb nicht; in OSM ist er als Betriebsobjekt name=Schrotthandel Reinhardt mit industrial=scrap_yard erfasst, die Hausnummer 21 selbst ist nicht kartiert. ANKAUF: keine bezifferten Kurse. VERKAUF: keine Materialverkaufspreise. GEBÜHREN: keine Abhol-, Container- oder Entsorgungstarife; die kostenlose Besichtigung ist eine Besichtigungszusage und keine pauschale Gebührenfreiheit.",
         "status": "pruefung",
         "trader_type": "schrotthaendler",
-        "website": "",
-        "website_status": "unbekannt"
+        "website": "https://dreinhardt83.wixsite.com/reinhardt",
+        "website_status": "aktiv"
       },
-      "notes_sha256": "702d4f5fca6aeb706be3556bf3c5279993ccdc07570e6ac4c881622713f65d6d",
-      "seed_hash": "539f7710c1986270"
+      "notes_sha256": "3bb00e0a9667ca94f10fc15e04838f6a3d08f5d271968dd8094c4bd3c48d1ed8",
+      "seed_hash": "75d237b4787a8e1e"
     },
     {
       "slug": "rp-worms-67549-kampfer",
@@ -1109,8 +1111,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "3cecd17f7a59d45dd23ba6403e0f2b3861050e1462f725de8e690f0a04d6fafa",
-      "seed_hash": "e2d550dee1ecf3e8"
+      "notes_sha256": "7d59cdbb860678a90161c3501f7b425ba95a0acf9aaa633bc30dad18f87064e8",
+      "seed_hash": "a0be3fd359d36de1"
     },
     {
       "slug": "th-zedlitz-07557-entsorgung-und-recycling-bernd-zauritz",
