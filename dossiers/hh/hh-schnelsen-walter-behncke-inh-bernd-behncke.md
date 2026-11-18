@@ -11,6 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: unbekannt
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Vorgang ZZBT005001769009, TÜV NORD Umweltschutz GmbH; zertifizierte Tätigkeiten: Sammeln und Befördern, Handeln und Makeln, Lagern, Behandeln, Verwerten, Beseitigen; gültig bis 12.05.2027; Abruf 17.11.2026)"]'
 status: pruefung
 description: ''
 dropoff_json: ''

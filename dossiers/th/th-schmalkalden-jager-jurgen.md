@@ -13,6 +13,7 @@ email: ''
 opening_hours: ''
 website: https://www.jaeger-autoverwertung.de
 website_status: aktiv
+certifications: '["Altfahrzeugverwertung nach § 2 Abs. 2 AltfahrzeugV (amtliches Fachbetrieberegister, Vorgangsnummer ZARS00300022, Bescheinigungsanlage 1; Abruf 17.11.2026)"]'
 status: pruefung
 clear_fields: 'email,phone'
 description: 'Autoverwertung, Abschleppdienst, Neu- und Gebrauchtteile, TÜV/DEKRA und Autoservice; kein allgemeiner Schrottankauf belegt.'

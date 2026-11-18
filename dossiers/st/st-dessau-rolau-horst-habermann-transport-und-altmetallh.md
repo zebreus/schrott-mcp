@@ -11,6 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG (amtliches Fachbetrieberegister, Vorgang ZZPT007000349009, ZD Zert Dreßler GmbH; gültig bis 26.08.2027; Abruf 17.11.2026)"]'
 status: pruefung
 description: 'Transporte und Altmetallhandel Horst Habermann. Anschrift laut amtlichem Register der Entsorgungsfachbetriebe (Stand 11.08.2026): Taubenstraße 37, 06847 Dessau-Roßlau, Zertifikat ZZPT00700034, zertifizierte Tätigkeiten Lagern und Behandeln (Abfallschlüssel 160106). Der Betreiber MHG Recycling GmbH (HRB 37461, AG Stendal) hat den Entsorgungsfachbetrieb nach dem Ruhestand von Horst Habermann zum 01.08.2026 übernommen und betreibt den Standort weiter; die amtliche Registerführung nennt den Namen Habermann weiterhin. Preise, Annahmebedingungen und Gebühren der Nachfolgegesellschaft sind nicht als historische Habermann-Kurse zu behandeln.'
 clear_fields: 'geo'
