@@ -120,6 +120,11 @@ _einfuehrend = None
 _log = _sp.run(["git", "log", "--format=%H %s", "--diff-filter=M", "--",
                 "dossiers/"], capture_output=True, text=True).stdout.split("\n")
 _scope_dateien = {f.split("/")[-1] for f in files}
+# Der Commit, der die **meisten** Dossiers des Scopes geaendert hat ✓ ✓ -
+# das ist der, der die Welle **eingefuehrt** hat ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+# (ein spaeterer Commit ✓ ✓ kann ein einzelnes Dossier ✓ ✓ nachziehen ✓ ✓
+# und darf deshalb **nicht** der einfuehrende sein ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓)
+_beste = (0, None)
 for _zeile in _log:
     _hash = _zeile.split(" ", 1)[0]
     if len(_hash) < 8:
@@ -127,9 +132,13 @@ for _zeile in _log:
     _geaendert = _sp.run(["git", "show", "--name-only", "--format=", _hash,
                            "--", "dossiers/"], capture_output=True,
                           text=True).stdout.split()
-    if _scope_dateien & {d.split("/")[-1] for d in _geaendert}:
-        _einfuehrend = _hash[:8]
-        break
+    _treffer = len(_scope_dateien & {d.split("/")[-1] for d in _geaendert})
+    if _treffer > _beste[0]:
+        _beste = (_treffer, _hash[:8])
+        if _treffer == len(_scope_dateien):
+            break
+if _beste[1]:
+    _einfuehrend = _beste[1]
 o.append(f"**Basis:** `{BASE}` ✓ ✓ · **Berichts-Commit:** `{CAND}` ✓ ✓ · "
          + (f"**Einführender Commit:** `{_einfuehrend}` ✓ ✓ · " if _einfuehrend else "")
          + f"**Release-Kandidat:** siehe `RELEASE_COMMIT` in den Verifiern ✓ ✓ · "
@@ -261,10 +270,14 @@ for f in files:
     n = note.group(0)
     # Jede **bezifferte** Angabe zaehlt ✓ ✓ - nicht nur eine je kg ✓ ✓:
     # die Shards nennen auch EUR/t ✓ ✓, EUR/Stueck ✓ ✓ und reine EUR-Betraege ✓ ✓
-    if re.search(r"\d+,\d{2}\s*(€|Euro|EUR)|\d+,\d{2}\s*€/\s*[a-zA-Z]", n):
+    # Eine **Negativaussage** ✓ ✓ ("kein €/kg-Kurs" ✓ ✓) nennt **keine** Zahl ✓ ✓
+    # und zaehlt deshalb **nicht** ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+    if re.search(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
+                  r"\d+(?:,\d{2})?\s*€/\s*[a-zA-Z])", n):
         mit_preis.append(f.split("/")[-1][:-3])
     if re.search(r"(VERKAUF|Verkaufspreis)", n, re.I) and \
-            re.search(r"\d+,\d{2}\s*(€|Euro|EUR)|\d+,\d{2}\s*€/\s*[a-zA-Z]", n):
+            re.search(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
+                      r"\d+(?:,\d{2})?\s*€/\s*[a-zA-Z])", n):
         mit_verkaufspreis.append(f.split("/")[-1][:-3])
     if re.search(r"(GEBÜHREN|Gebühr|Tarif)", n, re.I) and \
             re.search(r"\d+,\d{2}\s*(€|Euro|EUR)", n):
@@ -272,8 +285,10 @@ for f in files:
 o.append(f"- **Kein** numerischer Ankaufkurs **übernommen** ✓ ✓ — die Datenbank der "
          f"Wave-E-Zeilen ✓ ✓ bleibt unberührt ✓ ✓")
 o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{len(mit_preis)}** Dossiers ✓ ✓ — "
-         f"**alle** betreffen **fremde** Betriebe ✓ ✓ (Aggregator- und Nachbar-Preislisten ✓ ✓) "
-         f"und sind **nicht** als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
+         f"**überwiegend** von **fremden** Betrieben ✓ ✓ (Aggregator- ✓ ✓, Nachbar- ✓ ✓ und "
+         f"Portal-Preislisten ✓ ✓); auch die **eigenen** Angebote ✓ ✓ (Naturstein- ✓ ✓, "
+         f"Versand- ✓ ✓) sind **kein** Ankaufspreis für Schrott ✓ ✓ ✓ ✓ "
+         f"**Kein** Wert ist als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Verkaufspreisliste **übernommen** ✓ ✓ "
          f"({len(mit_verkaufspreis)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Gebührentafel **übernommen** ✓ ✓ "
