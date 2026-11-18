@@ -335,19 +335,38 @@ o.append("## Der Geokodierungsbedarf ✓ ✓\n")
 o.append("Die Wellen-Anleitung verlangt, **neue Adressen mit Geokodierungsbedarf** im Bericht zu "
          "nennen ✓ ✓ — und **falsche** gespeicherte Punkte **dokumentiert** zu lassen ✓ ✓, statt "
          "sie eigenmächtig zu ändern ✓ ✓.\n")
+def wellen_abschnitte(text):
+    """Alle datierten Sektionen der Welle ✓ ✓ - Recherche **und** Korrektur ✓ ✓
+
+    Jede Sektion endet an der naechsten `###`-Ueberschrift ✓ ✓. Die **juengste**
+    Sektion traegt die juengere Aussage ✓ ✓ - eine Korrektur steht hinter der
+    Recherche-Sektion ✓ ✓ und spricht damit fuer den spaeteren Stand ✓ ✓ ✓ ✓
+    """
+    kopf = re.compile(r"^### (?:Recherche|Korrektur) " + re.escape(DATUM) +
+                      r"[^\n]*\n", re.M)
+    out = []
+    for m in kopf.finditer(text):
+        ende = len(text)
+        nxt = re.search(r"^### ", text[m.end():], re.M)
+        if nxt:
+            ende = m.end() + nxt.start()
+        # Der Kopf ist keine Aussage - er wird nicht mitgenommen ✓ ✓
+        out.append(text[m.end():ende])
+    return out
+
+
+GEO_RE = re.compile(r"(GEO-Punkt|Geokodierung|Koordinaten?\s*(?:ist|sind|war|waren)|"
+                    r"liegt\s+\d+\s*km|stand\s+\d+\s*km|auf\s+eine[nr]?\s+anderen?\s+"
+                    r"(?:Adresse|Ort)|Adresspunkt|km daneben)", re.I)
+
 geo_bedarf = []
 for f in sorted(files):
     slug = f.split("/")[-1][:-3]
     t = (ROOT / f).read_text(encoding="utf-8")
-    note = re.search(r"^### " + re.escape(ABSCHNITT) +
-                     (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
-                     t, re.M | re.S)
-    if not note:
+    abschnitte = wellen_abschnitte(t)
+    if not abschnitte:
         continue
-    n = note.group(0)
-    if re.search(r"(GEO-Punkt|Geokodierung|Koordinaten?\s*(?:ist|sind|war|waren)|"
-                 r"liegt\s+\d+\s*km|stand\s+\d+\s*km|auf\s+eine[nr]?\s+anderen?\s+"
-                 r"(?:Adresse|Ort)|Adresspunkt)", n, re.I):
+    if any(GEO_RE.search(a) for a in abschnitte):
         geo_bedarf.append(slug)
 if geo_bedarf:
     o.append(f"**{len(geo_bedarf)}** Dossiers der Welle erwaehnen die Geokodierung ✓ ✓:\n")
@@ -358,17 +377,17 @@ if geo_bedarf:
         if pfad is None:
             continue
         t = pfad.read_text(encoding="utf-8")
-        note = re.search(r"^### " + re.escape(ABSCHNITT) +
-                         (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
-                         t, re.M | re.S)
         kern = ""
-        if note:
+        # Die **juengste** Sektion, die die Geokodierung erwaehnt, traegt den
+        # aktuellen Stand ✓ ✓ - eine Korrektur-Sektion spricht fuer den
+        # spaeteren Befund ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+        for abschnitt in reversed(wellen_abschnitte(t)):
+            if not GEO_RE.search(abschnitt):
+                continue
             # Den Satz nehmen, der den Geo-Befund traegt, und ihn **vollstaendig**
             # machen: der erste Treffer endet oft mitten in einer Aufzaehlung.
-            saetze = re.split(r"(?<=[.;])\s+", " ".join(note.group(0).split()))
-            treffer = [s for s in saetze
-                       if re.search(r"(GEO-Punkt|Geokodierung|Koordinaten?|km daneben|"
-                                    r"Adresspunkt|falsch)", s, re.I)]
+            saetze = re.split(r"(?<=[.;])\s+", " ".join(abschnitt.split()))
+            treffer = [s for s in saetze if GEO_RE.search(s)]
             if treffer:
                 kern = treffer[0].strip()
                 idx = saetze.index(treffer[0])
