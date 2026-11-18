@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -90,3 +91,6 @@ Registerdaten und Creditreform bestätigen die **RPT Recycling UG (haftungsbesch
 - [Recherche 18.11.2026: GEO-Befeld zum gespeicherten Produktionspunkt, gemessen und nicht geändert: der Punkt 52.348/13.6217 löst 108 m auf zwei `man_made=street_cabinet`-Objekte und 146 m auf node/8766295047 (`addr:street=Miersdorfer Chaussee`, `addr:housenumber=21`, `addr:postcode=15738`, `addr:city=Zeuthen`) auf — der Punkt liegt damit in **Zeuthen (Brandenburg)** und rund 150 km von Zeulenroda-Triebes entfernt. Die Seed-Straße ist in OSM erfasst (Binsicht mit den getaggten Hausnummern 49 am node/8039382752, 55 am node/6228480364 und 62 am node/8049830089), die Nummer 53 ist nicht erfasst. Der Punkt markiert also weder den Dossierstandort noch die Gemeinde und wird nur dokumentiert; die Korrektur entscheidet der Owner. Quelle: https://api.openstreetmap.org/api/0.6/map.json?bbox=13.6117,52.3440,13.6317,52.3640 (Abruf 18.11.2026).]
 
 - [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine Ankaufspreise; der Creditreform-Eintrag nennt als Unternehmensgegenstand den Betrieb eines Recyclingplatzes und als letzte Registeränderung den 10.05.2019, was keinen heutigen Publikumsbetrieb belegt. VERKAUF: keine Warenverkaufspreise. GEBÜHREN: keine Entsorgungsgebühren. Offen bleiben der heutige Betrieb am Binsicht 53, die Öffnungszeiten, die Annahmebedingungen und die Abgrenzung zum Nachbardossier des benachbarten Sommerfeldt-Betriebs (Binsicht 48); `status` bleibt `pruefung`. Quellen: wie oben; https://firmeneintrag.creditreform.de/07937/3110206361/RPT_RECYCLING_UG_HAFTUNGSBESCHRAENKT (Abruf 18.11.2026).]
+### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt in Zeuthen, rund 150 km entfernt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: die Rueckaufloesung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓ und der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]

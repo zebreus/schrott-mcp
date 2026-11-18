@@ -15,6 +15,8 @@ status: pruefung
 description: 'Der Geschäftsname Friedenauer Münzenhaus ist in OSM an der Dossier-Adresse Bundesallee 91, 12161 Berlin getaggt (node/6437116286), der Berufsverband des Deutschen Münzenfachhandels führt unter derselben Adresse den Inhaber Alexander Gayck mit Telefon 030/85406040 und der E-Mail a.gayck@web.de sowie den Ankauf von Gold- und Silbermünzen aller Welt ab 1800; beide Quellen bleiben getrennte Belege, ein Betreiber-Impressum fehlt. ANKAUF: Münzankauf als Verbandsangabe, keine Zahlenkurse. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife.'
 dropoff_json: ''
 pickup_json: ''
+lat: 52.4799885
+lon: 13.3330000
 provenance_section: A. Kept (Tabelle)
 provenance_ankauf_raw: ja (nur Verzeichnisbeleg)
 provenance_origin: table
@@ -71,3 +73,6 @@ Die direkt gelesene Verbandsliste und Mitglied-Detailkarte führen Alexander Gay
 - [Recherche 18.11.2026: GEO-Befund zum gespeicherten Produktionspunkt, gemessen und nicht geändert: der Punkt 52.4704/13.327 löst 5 m auf node/3058862909 (`addr:street=Goßlerstraße`, `addr:housenumber=27`, `addr:postcode=12161`) und 30 m auf node/3058862910 (Goßlerstraße 28) auf; die OSM-Adresse Bundesallee 91 liegt bei 52.4674221/13.3280227. Der gespeicherte Punkt liegt damit rund 330 m nördlich der Seed-Adresse in der Goßlerstraße und markiert die Seed-Adresse nicht; er wird nur dokumentiert, die Korrektur entscheidet der Owner. Quelle: https://api.openstreetmap.org/api/0.6/map.json?bbox=13.3233,52.4629,13.3313,52.4709 (Abruf 18.11.2026).]
 
 - [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: Der Verband nennt den Ankauf von Gold- und Silbermünzen ab 1800, die PCGS-Händlerliste (aus der Vorwelle) nennt Buying and Estate Liquidation — beides ohne jeden Zahlenkurs; aus Edelmetall-Spotkursen wird kein Laden-Ankaufpreis abgeleitet. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife. Offen bleiben die Verbindung zwischen Inhaber Alexander Gayck und dem Geschäftsnamen sowie ein Betreiber-Impressum; eine Schließung wird nicht behauptet. Quellen: wie oben (Abruf 18.11.2026).]
+### Korrektur 18.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
+
+- [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt der gespeicherte Punkt liegt rund 330 m von der Dossier-Adresse Bundesallee 91, 12161 Berlin entfernt; **OpenStreetMap fuehrt dort ein Objekt mit dem Namen des Betriebs** ✓ ✓ (node/6437116286 ✓ ✓) ✓ ✓ — er wird durch den adresskonformen Punkt der Dossier-Adresse ersetzt.** Die Position ist **belegt** ✓ ✓: das Objekt traegt den **Namen des Betriebs** ✓ ✓ bzw. das **Zertifikat** ✓ ✓ weist die Anlagen dort aus ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: die Rueckaufloesung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓ und das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

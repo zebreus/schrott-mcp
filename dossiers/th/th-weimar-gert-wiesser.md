@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -52,3 +53,6 @@ Gert Wießer, Ernst-Kohl-Straße 27, 99423 Weimar und Telefon 03643 59554 sind n
 - [Recherche 18.11.2026: OSM-Abgleich: die Seed-Straße `Ernst-Kohl-Straße` ist in OSM nicht erfasst — in einem Fenster von rund 1,3 km um das Weimarer Stadtzentrum (50.985/11.305) trägt kein Adress- und kein Straßennamen diese Schreibweise (dort u. a. Berliner Straße, Cranachstraße, Erfurter Straße, Forsterstraße, Gustav-Berlet-Straße). Der gespeicherte Produktionspunkt 50.92615/10.6636 löst 43 m auf den Ortsknoten `name=Sundhausen` (node/2622429956) und 274 m auf node/8330971024 (`addr:street=Pfarrstraße`, `addr:housenumber=8`, `addr:postcode=99867`, `addr:city=Gotha`) auf — der Punkt liegt damit in Gotha-Sundhausen und rund 25 km von Weimar entfernt. Er markiert weder die Seed-Adresse noch einen Schrottplatz und wird nur dokumentiert; die Korrektur entscheidet der Owner. Quellen: https://api.openstreetmap.org/api/0.6/map.json?bbox=10.6596,50.9222,10.6676,50.9302 ; https://api.openstreetmap.org/api/0.6/map.json?bbox=11.293,50.973,11.317,50.997 (Abruf 18.11.2026).]
 
 - [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine Kurse; das Verzeichnisprofil nennt weder Branche noch Leistung. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife; die kommunale Kleinschrottsammlung der Stadt Weimar (aus der Vorwelle) ist ein öffentliches Entsorgungsangebot der Stadt und keine Gebühr dieses Betriebs. Offen bleiben die Betreiberidentität, die Frage einer Schrottplatz- und Ankauffunktion an der Ernst-Kohl-Straße 27 und jede Anschrift- und Kontaktangabe; `status` bleibt `pruefung`, eine Schließung wird nicht behauptet. Quellen: wie oben (Abruf 18.11.2026).]
+### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt in Gotha-Sundhausen, rund 25 km entfernt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: die Rueckaufloesung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓ und der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]

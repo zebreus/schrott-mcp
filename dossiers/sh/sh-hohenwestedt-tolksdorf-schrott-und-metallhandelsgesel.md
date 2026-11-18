@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -63,3 +64,6 @@ Register- und Statuslage ist widersprüchlich: Northdata führt die Tolksdorf Sc
 - [Recherche 18.11.2026: GEO-Befund zum gespeicherten Produktionspunkt, gemessen und nicht geändert: der Punkt 54.0889/9.6536 löst 104 m auf node/9761820660 (`addr:street=Lindenstraße`, `addr:housenumber=27`, `addr:postcode=24594`, `name=VR Bank Neumünster eG`), 107 m auf node/9761820657 (Lindenstraße 29) und 110 m auf node/9762369087 (Lindenstraße 31) auf — er markiert damit die Lindenstraße im Bereich der Hausnummern 27 bis 31, rund 250 m westlich der Haunummer 45 a. Die getaggten Hausnummern der Lindenstraße lauten 7, 17, 19-21, 23, 24, 27, 29, 31, 32, 34, 35, 36, 40 und 49 — die Nummer 45 a ist nicht erfasst, die Hausnummernabdeckung ist dort unvollständig. Der Punkt wird nicht eigenmächtig verschoben. Quelle: https://api.openstreetmap.org/api/0.6/map.json?bbox=9.6496,54.0849,9.6576,54.0929 (Abruf 18.11.2026).]
 
 - [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine aktuelle Preisliste und kein vergüteter Ankauf; die historische Materialliste des Registers ist kein aktueller Kaufbeleg. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Offen bleiben der amtliche heutige Registerstatus des Unternehmens und ein Standortkontakt; erst danach ist eine Anschrift- und Geokodierungsfrage zu entscheiden. Quellen: wie oben (Abruf 18.11.2026).]
+### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt rund 250 m entfernt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: die Rueckaufloesung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓ und der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]

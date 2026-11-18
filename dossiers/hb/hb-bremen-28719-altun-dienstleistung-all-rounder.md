@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: (1) Behaltene Kandidaten
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -63,3 +64,6 @@ provenance_origin: table
 - [Recherche 18.11.2026: GEO-Befund zum gespeicherten Produktionspunkt, gemessen und nicht geändert: der Punkt 53.0929235294118/8.80957647058823 löst 31 m auf node/1952593522 (`addr:street=Borgfelder Straße`, `addr:housenumber=20`, `addr:postcode=28215`) und 38 m auf node/3716301825 (`addr:street=Herbststraße`, `addr:housenumber=120`, `addr:postcode=28215`, `name=Café & Bar Dion`) auf. Der Punkt liegt damit in Bremen-Borgfeld (28215) und rund 8,5 km von der Seed-Adresse Grönlandstraße 21, 28719 Bremen (OSM way/59493123, 53.1512331/8.7132341) entfernt; er markiert die Seed-Adresse nicht. Die Grönlandstraße selbst trägt im Kartenausschnitt keine getaggte Hausnummer, die Hausnummernabdeckung ist dort unvollständig. Die Korrektur des Punkts entscheidet der Owner, im Dossier bleibt er unangetastet. Quelle: https://api.openstreetmap.org/api/0.6/map.json?bbox=8.8056,53.0889,8.8136,53.0969 (Abruf 18.11.2026).]
 
 - [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: kein Ankaufkurs und keine vergütete Annahme dem Bremer Betrieb zugeordnet. VERKAUF: keine Liste. GEBÜHREN: keine Abhol-, Abschlepp- oder Entsorgungstarife; der in der Vorwelle genannte Betrag von 28 €/m³ stammt aus einer separaten Entrümpelungsanzeige mit abweichender Bezeichnung und Adresse und bleibt fremd. Offen bleiben Betreiberidentität, Gewerbestand und die Belastbarkeit der Verzeichnisadresse; eine Schließung wird nicht behauptet. Quellen: wie oben (Abruf 18.11.2026).]
+### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt in Bremen-Borgfeld, rund 8,5 km entfernt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: die Rueckaufloesung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓ und der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]

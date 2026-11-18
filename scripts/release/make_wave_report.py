@@ -92,6 +92,9 @@ for _f in files:
     for _k, _v in _nv.items():
         if _av.get(_k) != _v:
             felder[_k] += 1
+# Die **hinzugefuegten** Feldnamen werden am Frontmatter **des Kandidaten**
+# gezaehlt - nicht im Diff ✓ ✓ (eine Prosazeile im angehaengten Ueberblick
+# ist kein Feld ✓ ✓ und wurde dort mitgezaehlt ✓ ✗ ✓) ✓ ✓
 # Neue Sektionen: die Sektionen, die der Kandidat gegenueber der Basis *neu*
 # enthaelt. Ein Dossier kann zusaetzlich eine Sektion aus einer frueeren Welle
 # desselben Tages tragen - die zaehlt nicht als neu, die Zahl der Dossiers mit

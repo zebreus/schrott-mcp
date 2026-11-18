@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Schrottankauf Thüringen (TH) — Recherche
 provenance_ankauf_raw: Ankauf unklar
 provenance_origin: table
@@ -47,3 +48,6 @@ Mehrere Verzeichnis-Leads stimmen auf Eisenacher Str. 12, 99848 Wutha-Farnroda u
 - [Recherche 18.11.2026: OSM-Abgleich: die Seed-Straße `Eisenacher Straße` ist in OSM erfasst, aber nur mit den Hausnummern 21b, 21, 22, 24a bis 24c, 25b bis 25d, 27, 36, 42, 42b, 42c, 44, 44a, 46, 48, 55, 57 — die Nummer 12 ist nicht erfasst, die Abdeckung ist dort also lückenhaft. Der gespeicherte Produktionspunkt 50.9533/10.3917 löst 76 m auf node/14211932453 (`addr:street=Röberstraße`, `addr:housenumber=12`, `addr:postcode=99848`, `addr:city=Wutha-Farnroda`) und 87 m auf node/14211932435 (Röberstraße 8, `name=PETKUS Technologie`) auf; er liegt damit im Bereich Mosbacher Straße/Eisenacher Straße des Ortsteils Wutha. Zusätzlich ist in der Gemeinde ein Gewerbegrundstück als Recyclingstandort erfasst: way/762483243 bei 50.96437/10.37977 mit `landuse=commercial`, `recycling:hardcore=yes` und `recycling_type=shredder` — **ohne** Operator- oder Firmenangabe, rund 1,6 km vom Seed-Punkt; eine Zuordnung zu Hertwig Rolf ist damit **nicht** belegt und wird nicht behauptet. Quellen: https://api.openstreetmap.org/api/0.6/map.json?bbox=10.37,50.93,10.41,50.97 (Abruf 18.11.2026).]
 
 - [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine Kurse, keine Sortenliste; der Schrottplatz-Info-Datensatz erfasst weder Angebot noch Öffnungszeiten und verlinkt nur einen nicht zugeordneten Homepage-Platzhalter. VERKAUF: keine Liste. GEBÜHREN: keine Tarife. Offen bleiben die Betreiberidentität hinter dem Namen Hertwig Rolf, die Hausnummer 12 der Eisenacher Straße und die Frage, ob der in OSM erfasste Recyclingstandort mit Shredder zum Dossierbetrieb gehört; eine Schließung wird nicht behauptet. Quellen: wie oben (Abruf 18.11.2026).]
+### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt auf der Röberstraße statt Eisenacher Str. 12, rund 430 m entfernt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: die Rueckaufloesung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓ und der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
