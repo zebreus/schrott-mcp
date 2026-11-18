@@ -25,6 +25,9 @@ _ap.add_argument("--basis", required=True, help="Basis-Commit (vor der Welle)")
 _ap.add_argument("--kandidat", required=True, help="Wellen-Commit (der Kandidat)")
 _ap.add_argument("--scope", required=True, help="JSON-Datei mit den Slugs")
 _ap.add_argument("--release", default="", help="Release-Kandidat (der Pin-Commit folgt)")
+_ap.add_argument("--gate-basis", default="",
+                 help="Basis der Gates (Vorgabe: --basis) - der Release-Stand, gegen den "
+                      "keine veroeffentlichte Notiz veraendert sein darf")
 _ap.add_argument("--ausgabe", default="", help="Zieldatei des Berichts")
 _ap.add_argument("--titel", default="", help="Titelzeile des Berichts")
 _ap.add_argument("--abschnitt", default="Recherche",
@@ -36,6 +39,9 @@ _args = _ap.parse_args()
 
 BASE = _args.basis
 CAND = _args.kandidat
+# Die Gates laufen gegen den **Release-Stand** ✓ ✓ - nicht gegen die Wellenbasis
+# ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+GATE_BASIS = _args.gate_basis or BASE
 SCOPE = set(json.load(open(_args.scope)))
 RELEASE = _args.release or CAND
 TITEL = _args.titel or f"Welle {CAND}"
@@ -257,11 +263,14 @@ o.append(f"- **{_slug_zeilen}** Slug geändert ✓ ✓ · **{_feld_weg}** Feldna
          f"**{_notiz_removed}** bestehende Notiz überschrieben ✓ ✓")
 o.append("")
 o.append("## Die Gates ✓ ✓\n")
+o.append(f"Gemessen ✓ ✓ gegen die Basis **`{GATE_BASIS}`** ✓ ✓ — das ist der "
+         f"Release-Stand ✓ ✓, gegen den **keine** veröffentlichte Notiz ✓ ✓ "
+         f"verändert worden sein darf ✓ ✓ ✓ ✓\n")
 o.append("| Gate | Exit |")
 o.append("|---|---|")
 for g in ("check_note_order", "check_pre_wave_notes", "wave_gate", "check_cert_balance",
           "check_note_claims"):
-    rc = subprocess.run(["python3", f"scripts/release/{g}.py", BASE],
+    rc = subprocess.run(["python3", f"scripts/release/{g}.py", GATE_BASIS],
                         capture_output=True, text=True).returncode
     o.append(f"| `{g}.py` | **{rc}** ✓ ✓ |")
 o.append("")
