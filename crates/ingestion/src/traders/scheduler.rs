@@ -50,6 +50,36 @@ pub fn initial_due(boot: DateTime<Utc>, slug: &str, schedule: &Schedule) -> Date
     }
 }
 
+/// The first due stamp of a handler at boot.
+///
+/// The stamp comes from the **last run in the database**, not from the boot
+/// time alone. A restart shortly before a phase used to skip that phase
+/// completely: the in-memory map was rebuilt from the boot time, so a
+/// handler whose phase lay seven minutes in the past waited a full interval
+/// for its next run. From the last run the cadence carries over instead —
+/// and a handler that is genuinely overdue runs at once.
+///
+/// Without a previous run the phase decides, as before: the spread across the
+/// interval stays stable across restarts.
+pub fn due_at_boot(
+    boot: DateTime<Utc>,
+    last_run: Option<DateTime<Utc>>,
+    slug: &str,
+    schedule: &Schedule,
+) -> DateTime<Utc> {
+    match last_run {
+        Some(last) => {
+            let next = next_after(last, schedule);
+            if next > boot {
+                next
+            } else {
+                boot
+            }
+        }
+        None => initial_due(boot, slug, schedule),
+    }
+}
+
 /// Next stamp after a run finished at `from`.
 pub fn next_after(from: DateTime<Utc>, schedule: &Schedule) -> DateTime<Utc> {
     match schedule {
@@ -102,9 +132,18 @@ pub async fn run_due_with(
     let mut due: Vec<&Handler> = Vec::new();
     if let Ok(mut map) = due_map().lock() {
         for h in handlers {
-            let next = map
-                .entry(h.slug)
-                .or_insert_with(|| initial_due(now, h.slug, &h.schedule));
+            let next = map.entry(h.slug).or_insert_with(|| {
+                // Der Stempel kommt aus dem **letzten Lauf** der Datenbank ✓ ✓ —
+                // ein Neustart kurz vor der Fälligkeit darf sie nicht
+                // überspringen ✓ ✓ ✓ ✓ (`due_at_boot` ✓ ✓)
+                let last = internal
+                    .last_step_started_at(h.slug)
+                    .ok()
+                    .flatten()
+                    .and_then(|ts| DateTime::parse_from_rfc3339(&ts).ok())
+                    .map(|dt| dt.with_timezone(&Utc));
+                due_at_boot(now, last, h.slug, &h.schedule)
+            });
             if force || *next <= now {
                 due.push(h);
             }
@@ -287,6 +326,59 @@ mod tests {
 
         assert_eq!(initial_due(first_boot, slug, &schedule), target);
         assert_eq!(initial_due(second_boot, slug, &schedule), target);
+    }
+
+    #[test]
+    fn a_restart_shortly_before_a_phase_does_not_skip_the_run() {
+        // The phase of the Gutzmann handler lies at 01:57:46 UTC; the rollout
+        // restarted the service at 08:05:17, seven minutes after the phase
+        // of that day. The stamp used to be rebuilt from the boot time alone,
+        // so that occurrence was lost and the handler waited a full interval.
+        let slug = "th-gotha-sdm-gutzmann";
+        let schedule = Schedule::every_6h();
+        let phase = super::stagger_secs(slug, 21600);
+        let occurrence = Utc.timestamp_opt(phase as i64, 0).unwrap()
+            + chrono::Duration::hours(6); // 07:57:46 UTC
+        let boot = occurrence + chrono::Duration::minutes(7);
+
+        // With the last run the cadence carries over: the occurrence that
+        // was missed seven minutes ago is due **at once**, not a whole
+        // interval later. That is the point of the fix.
+        let last_run = occurrence - chrono::Duration::hours(6);
+        let due = super::due_at_boot(boot, Some(last_run), slug, &schedule);
+        assert_eq!(due, boot, "der verpasste Lauf darf nicht auf ein Intervall warten");
+
+        // Zum Vergleich: ohne den letzten Lauf wartet der Handler bis zum
+        // naechsten Phasenfenster - so war es vor der Korrektur.
+        let ohne = super::due_at_boot(boot, None, slug, &schedule);
+        assert!(
+            ohne > due,
+            "ohne den letzten Lauf wartet der Handler laenger ({ohne} > {due})"
+        );
+
+        // Without a previous run the phase still decides - the spread across
+        // the interval stays stable across restarts.
+        let ohne = super::due_at_boot(boot, None, slug, &schedule);
+        assert!(ohne >= boot && ohne <= boot + chrono::Duration::hours(6));
+        assert_eq!(
+            ohne.timestamp().rem_euclid(21600),
+            phase as i64,
+            "die Phase muss stabil bleiben"
+        );
+    }
+
+    #[test]
+    fn an_overdue_handler_runs_at_once_after_a_restart() {
+        let slug = "th-gotha-sdm-gutzmann";
+        let schedule = Schedule::every_6h();
+        let boot = Utc.with_ymd_and_hms(2026, 11, 18, 8, 5, 17).unwrap();
+        // Der letzte Lauf liegt sieben Stunden zurueck - faellig war der
+        // Handler vor dem Neustart, also laeuft er jetzt sofort.
+        let last_run = boot - chrono::Duration::hours(7);
+        assert_eq!(
+            super::due_at_boot(boot, Some(last_run), slug, &schedule),
+            boot
+        );
     }
 
     #[tokio::test]

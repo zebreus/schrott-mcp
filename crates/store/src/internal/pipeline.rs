@@ -153,6 +153,23 @@ impl InternalDb {
             .map_err(StoreError::from)
     }
 
+    /// Start time of the last **finished** step of a scraper — whatever its
+    /// status. The scheduler needs it to carry the cadence of a handler over
+    /// a restart: a stamp that advances after every run, successful or not.
+    pub fn last_step_started_at(&self, scraper: &str) -> Result<Option<String>, StoreError> {
+        use rusqlite::OptionalExtension as _;
+        let conn = self.lock()?;
+        conn.query_row(
+            "SELECT started_at FROM ingestion_steps
+             WHERE scraper = ?1 AND finished_at IS NOT NULL
+             ORDER BY id DESC LIMIT 1",
+            params![scraper],
+            |r| r.get(0),
+        )
+        .optional()
+        .map_err(StoreError::from)
+    }
+
     /// Items recorded by the last finished, non-failed step of a scraper.
     /// Canary baseline: `None` on the very first run (nothing to compare).
     pub fn last_ok_step_items(&self, scraper: &str) -> Result<Option<i64>, StoreError> {
