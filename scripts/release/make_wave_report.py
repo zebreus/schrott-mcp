@@ -405,9 +405,14 @@ def wellen_abschnitte(text):
     return out
 
 
+# Auch die **falschen gespeicherten Punkte** gehoeren in diese Tabelle ✓ ✓ -
+# sie sind der Geokodierungsbedarf des Bestands ✓ ✓ ✓ ✓ (ein Falschpunkt ist
+# schlimmer als kein Punkt ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
 GEO_RE = re.compile(r"(GEO-Punkt|Geokodierung|Koordinaten?\s*(?:ist|sind|war|waren)|"
                     r"liegt\s+\d+\s*km|stand\s+\d+\s*km|auf\s+eine[nr]?\s+anderen?\s+"
-                    r"(?:Adresse|Ort)|Adresspunkt|km daneben)", re.I)
+                    r"(?:Adresse|Ort)|Adresspunkt|km daneben"
+                    r"|Produktions-?GEO|Produktions-?Geo|Produktionspunkt"
+                    r"|gespeicherten?\s+(?:Punkt|Standort))", re.I)
 
 geo_bedarf = []
 for f in sorted(files):
