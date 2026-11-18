@@ -64,8 +64,16 @@ def timeline_notes(body: str) -> str:
 
 
 def dossier_path(slug: str) -> Path:
-    state = slug.split("-")[0].upper()
-    return ROOT / "dossiers" / state.lower() / f"{slug}.md"
+    """Der Pfad des Dossiers **im Repository** ✓ ✓.
+
+    Der Ordner ist **nicht** das Praefix des Slugs ✓ ✓ - `hb-nordenham-…`
+    liegt unter `dossiers/ni/` ✓ ✓ (der Bundesland steht im Frontmatter ✓ ✓).
+    Der Pfad wird deshalb **gesucht** ✓ ✓ und nicht **berechnet** ✓ ✓ ✓ ✓
+    """
+    for ordner in (ROOT / "dossiers").iterdir():
+        if ordner.is_dir() and (ordner / f"{slug}.md").exists():
+            return ordner / f"{slug}.md"
+    return ROOT / "dossiers" / slug.split("-")[0].lower() / f"{slug}.md"
 
 
 def main() -> int:
