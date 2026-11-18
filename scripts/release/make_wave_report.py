@@ -447,9 +447,12 @@ for f in sorted(files):
     # Die komplette Notiz nehmen: sie enthaelt verschachtelte **-Marker und
     # eckige Klammern, an denen ein Regex frueher mitten im Satz abbrach.
     # Gekuerzt wird an einer Wortgrenze mit Ellipse.
+    # Ein **Nachtrag** traegt den Zusatz " (Welle 0600 B)" ✓ ✓ - wie die
+    # Bullets zaehlt der Generator ihn mit ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
     m = re.search(r"^- \[" + re.escape(ABSCHNITT) +
                   (r" " + re.escape(DATUM) if DATUM else "") +
-                  r":(.*?)(?=\n- \[|\n### |\n\n|\Z)", t, re.M | re.S)
+                  r"(?: \([^)]*\))?:(.*?)(?=\n- \[|\n### |\n\n|\Z)",
+                  t, re.M | re.S)
     kern = m.group(1).strip() if m else "(Fortsetzung der Recherche)"
     kern = " ".join(kern.split()).replace("|", "/")
     o.append(f"| `{slug}` | {kuerzen(kern)} |")
