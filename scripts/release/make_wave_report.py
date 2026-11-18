@@ -341,18 +341,15 @@ o.append(f"- **Kein** numerischer Ankaufkurs **übernommen** ✓ ✓ — die Dat
          f"Wave-E-Zeilen ✓ ✓ bleibt unberührt ✓ ✓")
 # Wie viele der Notizen mit Zahlen weisen ihren Zahlenwert **selbst** als
 # Nicht-Kurs des Dossier-Betriebs aus? Das wird **gemessen**, nicht getippt ✓ ✓
+# Eine Notiz schliesst ihren Zahlenwert als **Kurs** aus, wenn sie ein
+# Kurswort verneint - "kein Fahrzeug- oder Schrottkurs", "keine
+# Entsorgungstarife", "kein Preis", "nicht als Kurs uebernommen" ✓ ✓
+# Der Abstand ist begrenzt ✓ ✓, damit eine Negation aus einem anderen
+# Satz nicht den Kursbegriff der naechsten Zeile einsammelt ✓ ✓ ✓ ✓
 KURS_MARKER = re.compile(
-    # "kein Berliner Ankaufskurs", "kein saarlaendischer Tageskurs",
-    # "keine Preise dieses Betriebs belegt" - zwischen "kein" und dem
-    # Kursbegriff stehen beliebig viele Adjektive ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
-    r"(kein\w*\s+(?:\w+[-\w]*\s+){0,3}?"
-    r"(?:\w+[-])?(?:kurs|kurse|ankaufskurs|ankaufpreis|ankaufspreis|preis|preise"
-    r"|tarif\w*|geb\w+hren"
-    r"|richtpreis\w*|tageskurs\w*|eurokurs\w*|schrottpreis\w*)\b"
-    r"|nicht\s+als\s+Kurs|Kein\s+Preis\s+fremder\s+Betriebe"
-    r"|ohne\s+Preisangaben|Platzhalter|Preisfeld|historisch\w*"
-    r"|gelten\s+für[^.]{0,160}?\*\*nicht\*\*|\*\*nicht\*\*\s+für"
-    r"|\*\*nicht\*\*\s+als)", re.I)
+    r"(kein\w*|nicht|ohne)\b[^.;]{0,60}?"
+    r"\b(kurs\w*|preis\w*|tarif\w*|geb\w+hren|abholgeb\w*|entsorgungsgeb\w*)\b",
+    re.I)
 _notes_mit_preis = {}
 for _f in files:
     _slug = _f.split("/")[-1][:-3]
