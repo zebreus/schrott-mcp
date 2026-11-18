@@ -27,7 +27,7 @@ provenance_origin: table
 
 ## Überblick
 
-Ein Das-Telefonbuch-Eintrag ordnet den Betrieb am Wiesendamm 15 in Spandau der Autoverwertung zu und stimmt mit dem Seed bei Anschrift und Telefonnummer überein. Der Eintrag ist ein Verzeichnisbeleg; „öffnet um 8:00" ist nur ein Öffnungszeitfragment und keine vollständige Wochenzeit.
+Ein Das-Telefonbuch-Eintrag ordnet den Betrieb am Wiesendamm 15 in Spandau der Autoverwertung zu und stimmt mit dem Seed bei Anschrift und Telefonnummer überein. Der Eintrag ist ein Verzeichnisbeleg; „öffnet um 8:00“ ist nur ein Öffnungszeitfragment und keine vollständige Wochenzeit.
 
 **Nachtrag 18.11.2026:** Zwei Präzisierungen, die den Kern des Eintrags nicht ändern. Erstens
 liefern die Verzeichnisse inzwischen eine vollständige Wochenzeit (Das Örtliche, 11880 und Das
