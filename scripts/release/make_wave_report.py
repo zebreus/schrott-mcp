@@ -174,8 +174,20 @@ o.append("")
 o.append("## Kennzahlen ✓ ✓ (alle gemessen ✓ ✓)\n")
 o.append(f"- **{len(files)}** Dossiers ✓ ✓ in **{len(states)}** Bundesländern ✓ ✓: "
          + " · ".join(f"{s} **{c}**" for s, c in sorted(states.items())) + " ✓ ✓")
+# Alle **neuen** Bullets ✓ ✓ zaehlen - auch die automatisch erzeugten
+# "Frontmatter-Aenderungen"-Bullets ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
+_neue_bullets_gesamt = 0
+for _f in files:
+    _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
+                          text=True).stdout
+    _alt_b = {l for l in _alt.split("\n") if l.startswith("- [")}
+    _neu_b = [l for l in (ROOT / _f).read_text(encoding="utf-8").split("\n")
+              if l.startswith("- [") and l not in _alt_b]
+    _neue_bullets_gesamt += len(_neu_b)
 o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektion ✓ ✓ · "
-         f"**{bullets}** neue Notiz-Bullets ✓ ✓")
+         f"**{bullets}** neue Notiz-Bullets ✓ ✓ · "
+         f"**{_neue_bullets_gesamt}** neue Bullets insgesamt ✓ ✓ "
+         f"(mit den automatisch erzeugten Frontmatter-Vermerken ✓ ✓)")
 o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
 # Die Werte werden **gemessen** ✓ ✓, nicht getippt ✓ ✓
