@@ -94,3 +94,15 @@ Stempel **auch** für einen Start **kurz vor** der Phase ✓ ✓ ✓ ✓
 ✓ ✓ — die Änderung ✓ ✓ braucht also **eigene Tests** ✓ ✓ und **ein eigenes
 Release** ✓ ✓ ✓ ✓
 
+## ERLEDIGT
+
+Die Nachprüfung zu `d129bec` am 18.11.2026 um 14:10 UTC ist grün.
+`th-gotha-sdm-gutzmann` lief nach der neuen Fälligkeit um 13:57:46 UTC:
+`started_at=2026-11-18T14:08:30.504416415+00:00`, `status=ok`,
+`items_upserted=19`. Das zuvor rote Pending-Corrections-Gate und die drei
+übrigen Verifier meldeten um 14:10 UTC jeweils `"ok": true`.
+
+Produktion: 3945 Händler, 99339 Preise, `user_version=12`,
+`schrott-mcp` `active/running`, `NRestarts=0`. Alle drei Zertifikatseinträge
+sind gefüllt (`length(certifications)`: 681, 445, 242).
+Der vollständige Nachweis steht im [Owner-Check-in](checkin-20261118-1410-owner.md).
