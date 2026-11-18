@@ -137,3 +137,39 @@ Ein **erfolgreicher** Zyklus ✓ ✓ braucht rund **4 GB** ✓ ✓ freien Platz 
 `/tmp` ✓ ✓ — die Test-Datenbanken ✓ ✓ und die Rehearsal-Kopien ✓ ✓ werden
 dort angelegt ✓ ✓ ✓ ✓
 
+## ROT – Nachprüfung 18.11.2026, 20:30 UTC: Notizen der 12:00-Welle
+
+`scripts/release/verify_notes_in_production.py` mit `--data-dir /var/lib/schrott-mcp --scope research/wave-20261118-1200-scope.json`: Exit 1, `"ok": false`, 60 von 60 Dossiers geprüft, 14 Abweichungen.
+
+**Ursache:** Der Prüfer liest die Timeline aus dem aktuellen Arbeitsbaum. Commit `07e556e6` hat nach dem Rollout genau diese 14 Dossiers ergänzt. Gegenprobe mit den Dossiers aus `git show 80c6594:<Pfad>` und `public.db` (`sqlite3 -readonly`): Bei allen 60 stimmen die extrahierten Notizen exakt mit der Produktion überein. Der geforderte Abgleich gegen `main` bleibt rot.
+
+Fehlermeldungen des Prüfers:
+
+```text
+by-ammerndorf-dombrowski: Notizen weichen ab (erwartet 10950 Zeichen, Produktion 10022)
+by-aschaffenburg-schrott-peter: Notizen weichen ab (erwartet 8399 Zeichen, Produktion 7527)
+by-growallstadt-63868-schrott-rosel: Notizen weichen ab (erwartet 7912 Zeichen, Produktion 7051)
+hb-bremen-28201-hanse-entrumpelung: Notizen weichen ab (erwartet 14352 Zeichen, Produktion 13500)
+he-griesheim-muhlum-schrottlogistik: Notizen weichen ab (erwartet 13101 Zeichen, Produktion 12181)
+he-kassel-bettenhausen-tsr-deutschland-standort-kassel: Notizen weichen ab (erwartet 13324 Zeichen, Produktion 12029)
+he-limeshain-63694-schrottschneider: Notizen weichen ab (erwartet 20099 Zeichen, Produktion 19060)
+ni-gifhorn-autoverwertung-gifhorn: Notizen weichen ab (erwartet 9563 Zeichen, Produktion 8649)
+ni-goslar-jerstedt-bogershausen-willi-adressprazisierung: Notizen weichen ab (erwartet 8252 Zeichen, Produktion 7350)
+nw-coesfeld-eddys: Notizen weichen ab (erwartet 11095 Zeichen, Produktion 10169)
+nw-herne-sumo: Notizen weichen ab (erwartet 13211 Zeichen, Produktion 12332)
+rp-hanhofen-lehr-martin-schrotthandel-u-containerdie: Notizen weichen ab (erwartet 10529 Zeichen, Produktion 9655)
+rp-kaltenengers-56220-sell: Notizen weichen ab (erwartet 14497 Zeichen, Produktion 13623)
+rp-trier-west-54294-matthias-alten: Notizen weichen ab (erwartet 6316 Zeichen, Produktion 5436)
+```
+
+**Turnus:** Alle drei angefragten Handler liefen nach dem Neustart um 14:09:10 UTC:
+
+| Handler | Start am 18.11.2026 (UTC) | Status | `items_upserted` |
+|---|---|---|---:|
+| MSG | 16:25:32.409680717 | ok | 124 |
+| Gutzmann | 20:12:26.052935968 | ok | 19 |
+| MKM | 17:26:02.357804648 | ok | 56 |
+
+Pending-Corrections (seit 14:09:10 UTC), Release-Delta und Wave-E-Postrollout: jeweils `"ok": true`, Exit 0. Produktion: 3945 Händler, 101064 Preise, `user_version=12`; Dienst `active/running`, `NRestarts=0`.
+
+Separater Befund aus den letzten zwölf Läufen: `bb-brandenburg-a-d-h-goldhaus-brb` startete um 20:27:35.113796585 UTC und meldete `failed`: `request to https://goldhaus-brb.de/ failed: error sending request for url (https://goldhaus-brb.de/)`. Der Lauf fand statt; die Fehlermeldung nennt keine genauere Ursache für den Versandfehler.
