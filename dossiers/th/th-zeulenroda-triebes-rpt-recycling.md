@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -82,3 +82,11 @@ Registerdaten und Creditreform bestätigen die **RPT Recycling UG (haftungsbesch
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Binsicht%2053%2C%2007937%20Zeulenroda-Triebes%2C%20Deutschland%3B11.9923929%3B50.6575479%3B12.004393%3B50.669548%3B11.980393%3B50.645548&dst=5&is=1&e=1;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Binsicht%2053%2C%2007937%20Zeulenroda-Triebes%2C%20Deutschland%3B11.9923929%3B50.6575479%3B12.004393%3B50.669548%3B11.980393%3B50.645548&dst=10&is=1&e=1
   (Abruf 05.11.2026).]
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: Amtliches Fachbetrieberegister, Abruf 18.11.2026 (Wiederholung der Prüfung vom 05.11.2026, unverändertes Ergebnis): die Namenssuche „RPT Recycling“ liefert in beiden Routen 0 Treffer, die Namenssuche „RPT“ in der Route „Entsorgungsfachbetriebe“ 1 Treffer — `AIR LIQUIDE Deutschland GmbH Chemisorptionsanlage`, Bataverstraße 47, 47809 Krefeld, `ZZLT00300108 / 7` — ein Namensvetter ohne Bezug zum Dossierbetrieb — und in der Route „Altfahrzeugverwertung“ 0 Treffer. Die Standortabfrage mit 3 km um Binsicht 53, 07937 Zeulenroda-Triebes liefert 3 Efb-Zeilen, sämtlich `Sommerfeldt An- & Verkauf von Schrott und Buntmetall Inhaber Hasim Sommerfeldt`, Binsicht 48, 07937 Zeulenroda-Triebes, `ZZRT00200252 / 1` bis `/ 3` (0,2 km), und 1 AfV-Zeile `Autohof Schaub`, Grüna 1, 07937 Zeulenroda-Triebes, `ZARS00500042 / 1` (2,2 km); keine Zeile nennt RPT oder die Binsicht 53. Reichweitenklausel: geprüft wurden die Namensvarianten `RPT Recycling` und `RPT` sowie die Standortabfrage mit 3 km um die Dossier-Adresse mit den Filtern Art des Betriebs Egal; die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schließungsbeleg, und der unmittelbar benachbarte Registereintrieb Binsicht 48 ändert die Negativaussage für Binsicht 53 nicht. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=RPT ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=RPT (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: GEO-Befeld zum gespeicherten Produktionspunkt, gemessen und nicht geändert: der Punkt 52.348/13.6217 löst 108 m auf zwei `man_made=street_cabinet`-Objekte und 146 m auf node/8766295047 (`addr:street=Miersdorfer Chaussee`, `addr:housenumber=21`, `addr:postcode=15738`, `addr:city=Zeuthen`) auf — der Punkt liegt damit in **Zeuthen (Brandenburg)** und rund 150 km von Zeulenroda-Triebes entfernt. Die Seed-Straße ist in OSM erfasst (Binsicht mit den getaggten Hausnummern 49 am node/8039382752, 55 am node/6228480364 und 62 am node/8049830089), die Nummer 53 ist nicht erfasst. Der Punkt markiert also weder den Dossierstandort noch die Gemeinde und wird nur dokumentiert; die Korrektur entscheidet der Owner. Quelle: https://api.openstreetmap.org/api/0.6/map.json?bbox=13.6117,52.3440,13.6317,52.3640 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine Ankaufspreise; der Creditreform-Eintrag nennt als Unternehmensgegenstand den Betrieb eines Recyclingplatzes und als letzte Registeränderung den 10.05.2019, was keinen heutigen Publikumsbetrieb belegt. VERKAUF: keine Warenverkaufspreise. GEBÜHREN: keine Entsorgungsgebühren. Offen bleiben der heutige Betrieb am Binsicht 53, die Öffnungszeiten, die Annahmebedingungen und die Abgrenzung zum Nachbardossier des benachbarten Sommerfeldt-Betriebs (Binsicht 48); `status` bleibt `pruefung`. Quellen: wie oben; https://firmeneintrag.creditreform.de/07937/3110206361/RPT_RECYCLING_UG_HAFTUNGSBESCHRAENKT (Abruf 18.11.2026).]

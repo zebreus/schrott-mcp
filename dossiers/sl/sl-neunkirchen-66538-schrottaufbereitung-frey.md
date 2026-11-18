@@ -3,21 +3,22 @@ slug: sl-neunkirchen-66538-schrottaufbereitung-frey
 name: Schrottaufbereitung Frey GmbH
 trader_type: schrotthaendler
 state: SL
-city: Neunkirchen 66538
-street: ''
-postcode: ''
+city: Neunkirchen
+street: Saarbrücker Str. 9
+postcode: '66538'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: ''
+description: 'Schrottaufbereitung Frey GmbH (HRB 18892, Registergericht Saarbrücken) ist Entsorgungsfachbetrieb nach § 56 KrWG am Standort Saarbrücker Straße 9, 66538 Neunkirchen: Das Zertifikat mit der Vorgangsnummer ZZEE001003547008 (Zertifikat 10674 der bvse-Entsorgergemeinschaft e.V., gültig bis 30.09.2027) deckt dort Sammeln und Befördern (Kennung K45S141407) als Abfalllogistik mit eigenem Fuhrpark ab. ANKAUF: kein Ankaufkurs für die Öffentlichkeit veröffentlicht. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: Schrottaufbereitung Frey GmbH, Saarbrücker Straße 9, 66538 Neunkirchen, Registernummer HRB 18892 Registergericht Saarbrücken; Vorgangsnummer ZZEE001003547008, Register-Nummer ZZEE00100354, Zertifikat 10674 der bvse-Entsorgergemeinschaft e.V., Bonn, gültig bis 30.09.2027, Prüfdatum 25.03.2026, Ausstellungsdatum 28.04.2026; Anlage 1 (Saarbrücker Straße 9) mit den Tätigkeiten Sammeln und Befördern, Kennung K45S141407, beschrieben als Abfalllogistik mit eigenem Fuhrpark"]'
 ---
 
 # Schrottaufbereitung Frey GmbH
@@ -47,3 +48,13 @@ NorthData führt Schrottaufbereitung Frey GmbH, HRB 18892, an der Saarbrücker S
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Existenz HR-belegt — Northdata: „Schrottaufbereitung Frey GmbH, Neunkirchen, AG Saarbrücken HRB 18892“ (starke Einzelquelle, bvse-Mitgliedschaft aus Seed plausibel); aber: KEINE zweite Quelle für Adresse/Telefon — Das Örtliche: kein exakter Eintrag, Gelbe Seiten: 0 Treffer bundesweit, keine Betreiber-Website auffindbar; Seed-Adresse Saarbrücker Str. 9 daher NICHT übernommen (kein Fill, nichts gelöscht); Klärfall: Adresse + Ankauf-Portfolio (Rückgewinnung vs. öffentlicher Ankauf) ungeklärt, Status bleibt pruefung; Quelle(n): northdata.de HRB 18892 (Existenz-Beleg) + dasoertliche.de/gelbeseiten.de (Negativbefund)]
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: **Das amtliche Fachbetrieberegister bestätigt den Betrieb und seine Anschrift.** Die Namenssuche „Frey“ in der Route „Entsorgungsfachbetriebe“ liefert `Schrottaufbereitung Frey GmbH`, Saarbrücker Straße 9, 66538 Neunkirchen, `ZZEE00100354 / 1` mit den Tätigkeiten Sammeln und Befördern; die Namenssuche „Schrottaufbereitung“ liefert 11 Treffer, darunter denselben Betrieb. Die Standortabfrage mit 3 km um die Dossier-Adresse liefert 22 Efb-Zeilen und 0 AfV-Zeilen; neben der Frey GmbH (0,7 km) steht dort `TERRAG GmbH TERRAG | Hauptverwaltung`, Saarbrücker Straße 9, 66538 Neunkirchen, `ZZEE00100228 / 1` — **zwei** zertifizierte Entsorgungsfachbetriebe teilen sich dieselbe Anschrift, was die schon dokumentierte Abgrenzung zur TERRAG GmbH (HRB 13295) amtlich bestätigt. Reichweite: die Efb- und die AfV-Anerkennung sind freiwillig, ein Register-Nichteintrag wäre kein Nichtexistenzbeweis — hier liegt ein positiver Eintrag vor. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Frey ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Saarbr%C3%BCcker%20Stra%C3%9Fe%209%2C%2066538%20Neunkirchen%2C%20Deutschland%3B7.179%3B49.346%3B7.2203657%3B49.3729493%3B7.1376343%3B49.3190507&dst=3&is=1&e=1 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: **Das Zertifikat selbst wurde gelesen.** Das vom Register ausgelieferte PDF (Dateiname ZZEE001003548.pdf — der Dateiname gehört in diese Notiz, nicht in das Feld) nennt in Feld 3.3 die Vorgangsnummer ZZEE001003547008, in Feld 3.1 die Zertifikatsnummer 10674 der bvse-Entsorgergemeinschaft e.V., Bonn, in Feld 3.7 die Gültigkeit bis zum 30.09.2027, das Prüfdatum 25.03.2026 und das Ausstellungsdatum 28.04.2026; Feld 4.1 nennt `Schrottaufbereitung Frey GmbH`, Saarbrücker Straße 9, 66538 Neunkirchen, Feld 4.4 die Registernummer HRB 18892 beim Registergericht Saarbrücken — deckungsgleich mit dem im Dossier geführten HRB 18892. Anlage 1 (Saarbrücker Straße 9) kreuzt Sammeln und Befördern mit Kennung K45S141407 an und beschreibt `Abfalllogistik mit eigenem Fuhrpark`; Lagern, Behandeln, Verwerten, Beseitigen, Handeln und Makeln sind **nicht** angekreuzt. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Frey (Abruf 18.11.2026, PDF ZZEE001003548.pdf).]
+
+- [Recherche 18.11.2026: **Folge der Registerbelege:** `street` und `postcode` wurden gefüllt und `city` von `Neunkirchen 66538` auf `Neunkirchen` normalisiert. Belegt sind die Anschrift durch das amtliche Fachbetrieberegister (Rasterzeile ZZEE00100354) und durch das amtliche Zertifikat (Feld 4.1 und Anlage 1 desselben Registers) — zwei getrennt gelesene Belegdokumente; das bvse-Verbandsprofil aus der Vorwelle nennt dieselbe Anschrift. `status` bleibt `pruefung`, weil das Zertifikat eine Abfalllogistik mit eigenem Fuhrpark ausweist und keine öffentliche Schrottannahme mit Vergütung belegt. Quellen: wie oben (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: kein Ankaufkurs — die zertifizierten Tätigkeiten Sammeln und Befördern sind Logistikleistungen, keine ausgewiesene Vergütung für Privatkunden, und der Unternehmensgegenstand `Aufbereitung von Schrott aller Art` beweist keinen offenen Annahmehof. VERKAUF: keine Produkt- oder Preisliste. GEBÜHREN: keine Annahme-, Container- oder Entsorgungstarife; die Angaben des bvse-Profils zu Entsorgung und Beförderung tragen keinen Betrag. Offen bleiben Öffnungszeiten, Kundenannahme, Anfahrtsweg und die Rolle der TERRAG GmbH auf demselben Gelände. Quellen: https://www.bvse-entsorgergemeinschaft.de/component/joodb/article/2/2754-schrottaufbereitung-frey-gmbh.html ; https://www.terrag.de/de/impressum (Abruf 18.11.2026).]

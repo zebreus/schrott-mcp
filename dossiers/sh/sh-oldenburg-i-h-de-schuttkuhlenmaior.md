@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -45,3 +45,11 @@ Auch Suchvarianten des Namens erbrachten keinen qualifizierten Betreiberbeleg. E
 ### Recherche 01.10.2026
 
 - [Recherche Schuttkuhlenmaior Oldenburg i.H.: kein 2. unabhängiger Beleg, nur Verzeichnis ohne Kontaktdaten, daher kein Frontmatter-Fill, Klärfall; Quelle(n): Suche ohne Betreiber-Beleg]
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: Amtliches Fachbetrieberegister, Abruf 18.11.2026: die Namenssuchen `Schuttkuhlenmaior`, `Kuhlenmaior` und `Oldenburg in Holstein` liefern in den Routen „Entsorgungsfachbetriebe“ und „Altfahrzeugverwertung“ je 0 Treffer; die Standortabfrage mit 3 km um Oldenburg in Holstein liefert in beiden Routen 0 Treffer. Reichweitenklausel: geprüft wurden die beiden Schreibweisen des Seednamens und der Ortsname mit einem 3-km-Radius um den Ortsmittelpunkt; die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schließungsbeleg, und ein Register kann eine nicht anerkennungsfähige Tätigkeit ohnehin nicht abbilden. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schuttkuhlenmaior ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Oldenburg%20in%20Holstein%2C%20Deutschland%3B10.82%3B54.287%3B10.8661678%3B54.3139493%3B10.7738322%3B54.2600507&dst=3&is=1&e=1 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: OSM-Abgleich: am gespeicherten Punkt 54.2958/10.9016 liegt 41 m der Adressknoten node/307191903 (`addr:street=Schweriner Allee`, `addr:housenumber=1`, `addr:postcode=23758`, `addr:city=Oldenburg in Holstein`, `operator=Deutsche Telekom`), 23 m ein Schulgebäude node/10570857873 (`name=Jugendaufbauwerk JobB`, `amenity=school`) und 73 m eine Wertstoffsammelstelle node/10570758114 (`operator=ZVO`, `amenity=recycling`). Der Punkt markiert damit den Ort Oldenburg in Holstein, aber keine Betriebsadresse des Seed-Eintrags; da für den Dossierbetrieb weder Straße noch Kontakt bekannt sind, bleibt der Punkt ein Ortsmittelpunkt-Platzhalter und wird nicht eigenmächtig verändert. Quelle: https://api.openstreetmap.org/api/0.6/map.json?bbox=10.8976,54.2918,10.9056,54.2998 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine belastbaren Angaben; die importierte Schrottannahme bleibt eine unbestätigte Verzeichnisbeschreibung. VERKAUF: keine Preisangaben. GEBÜHREN: keine Tarife. Offen bleiben die Ursprungsquelle der Schreibweise `De Schuttkuhlenmaior`, der vollständige Gewerbename und damit jede Kontakt- oder Standortangabe; eine Umbenennung oder ein Schließungsstatus wird nicht behauptet. Quellen: wie oben (Abruf 18.11.2026).]

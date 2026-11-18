@@ -10,7 +10,7 @@ phone: 0421 6850975
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -85,3 +85,11 @@ Historischer Metalports-Standortlead Hemelinger Hafendamm 11; die erhaltene Regi
   geokodieren. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=8.87,53.04,8.90,53.06 ;
   https://www.northdata.de/Metalports+GmbH,+Bremen ; https://www.brewelo.de/impressum/ (Abruf 04.11.2026) ; README.md,
   Betreiberkettenregel.]
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: Amtliches Fachbetrieberegister, Abruf 18.11.2026: die Namenssuche „Metalports“ liefert in beiden Routen 0 Treffer, die Namenssuche „BREWELO“ in der Route „Entsorgungsfachbetriebe“ 2 Zeilen unter der Register-Nummer ZZDT00100035 — `BREWELO GmbH & Co. KG`, Hermann-Funk-Straße 4, 28309 Bremen, / 1 (Sammeln, Befördern, Handeln, Makeln) und Hermann-Funk-Straße 14, / 2 (Lagern); in der Route „Altfahrzeugverwertung“ liefert „BREWELO“ 0 Treffer. Die Standortabfrage mit 3 km um Hemelinger Hafendamm 11, 28309 Bremen liefert 21 Efb-Zeilen und 0 AfV-Zeilen, darunter Karl Nehlsen GmbH & Co. KG (Arberger Hafendamm 7, 0,4 km), BREWELO GmbH & Co. KG (Hermann-Funk-Straße 14, 0,7 km), STA Reifen GmbH (Hannoversche Straße 49, 0,7 km), GP Günter Papenburg AG (Hemelinger Hafendamm 42, 0,8 km), Hirsch Recycling GmbH (Hermann-Funk-Straße 9, 0,9 km) und die Bremer Stadtreinigung AöR (Hermann-Funk-Straße 4, 1,0 km). **Keine Zeile steht an der Hemelinger Hafendamm 11** — die Straße trägt im Register die Nummer 42, nicht 11; die Rechtsträgerkette vom Altnamen her bleibt damit unbestätigt. Reichweitenklausel: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schließungsbeleg. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Metalports ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=BREWELO ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Hemelinger%20Hafendamm%2011%2C%2028309%20Bremen%2C%20Deutschland%3B8.881%3B53.047%3B8.9258289%3B53.0739493%3B8.8361711%3B53.0200507&dst=3&is=1&e=1 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: Das zum heutigen Registerbetreiber gehörende Zertifikat wurde gelesen und deckt **nicht** den Altstandort: Das PDF des Registers (Dateiname ZZDT001000358.pdf — der Dateiname gehört in diese Notiz) nennt in Feld 3.3 die Vorgangsnummer ZZDT001000357008, in Feld 3.1 die Zertifikatsnummer BREG009832/28 der bregau zert GmbH Umweltgutachterorganisation, Bremen, in Feld 3.7 die Gültigkeit bis zum 02.03.2027, das Prüfdatum 03.09.2025 und das Ausstellungsdatum 03.12.2025; Feld 4.1 nennt `BREWELO GmbH & Co. KG`, Hermann-Funk-Straße 4, 28309 Bremen, mit der Registernummer HRA 23623 beim Registergericht Bremen. Das Zertifikat umfasst zwei Anlagen (Hermann-Funk-Straße 4 und 14). Der in der Vorwelle bereits notierte Widerspruch bleibt damit bestehen: das Zertifikat gilt der KG mit HRA 23623, während der Metalports-Altname über HRB 24174 lief, und für die Hemelinger Hafendamm 11 weist das Zertifikat keine Anlage aus. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=BREWELO (Abruf 18.11.2026, PDF ZZDT001000358.pdf).]
+
+- [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine dem Altstandort zugeordnete Preisliste; die Marktangebote des heutigen Betreibers auf anderen Produktgruppen sind kein Ankaufpreisbeleg für diesen Eintrag. VERKAUF: keine Liste. GEBÜHREN: kein zugeordneter Tarif. Offen bleiben die historische Grundstücks- und Betreiberzuordnung des Hemelinger Hafendamms und die Fortführung des Altstandorts; ohne diese kein Namens- oder Adresswechsel und keine Geokodierung. Quellen: wie oben (Abruf 18.11.2026).]

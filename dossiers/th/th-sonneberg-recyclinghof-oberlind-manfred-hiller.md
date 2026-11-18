@@ -10,7 +10,7 @@ phone: ''
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -53,3 +53,11 @@ Ein direkt gelesener Verzeichniseintrag „Recyclinghof Oberlind“ nennt Rottma
 
 - Schrottplatz/AV?
 - Adresse: Sonneberg
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: Amtliches Fachbetrieberegister, Abruf 18.11.2026: die Namenssuche „Hiller“ liefert in der Route „Entsorgungsfachbetriebe“ 7 Treffer (KS Containerdienst D. Krüger und D. Schiller GbR, Gierlichsstraße 28, 53840 Troisdorf; Abfallwirtschaft Heidekreis AöR Deponie Hillern; Reiner Hiller, Dachsweg 2, 71093 Weil im Schönberg) und in der Route „Altfahrzeugverwertung“ 1 (RS Autohandel und -teile Inhaber Robert Schiller, Dresdner Str. 75, 01445 Radebeul) — sämtlich andere Rechtsträger an anderen Orten, keiner in Sonneberg. Die Standortabfrage mit 3 km um Rottmarer Straße 82, 96515 Oberlind liefert 0 Efb-Zeilen und 1 AfV-Zeile (Autoverwertung Schalkau Inh. Steffen Reichenbächer, Eisfelder Straße 17, 96528 Schalkau, 2,7 km). Reichweitenklausel: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schließungsbeleg. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Hiller ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Hiller ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=Rottmarer%20Stra%C3%9Fe%2082%2C%2096515%20Sonneberg%2C%20Deutschland%3B10.97%3B50.418%3B11.0122946%3B50.4449493%3B10.9277054%3B50.3910507&dst=3&is=1&e=1 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: OSM-Abgleich: die Seed-Straße `Rottmarer Straße` ist in OSM **nicht** erfasst — in einem Fenster von rund 1,1 km um den Ortsteil Oberlind trägt kein Adress- und kein Straßennamen diese Schreibweise (dort erfasst sind Bahnhofstraße, Baumleite und Ortsstraße). Der gespeicherte Produktionspunkt 50.3592/11.1746 löst 20 m auf node/6447138545 (`addr:street=Ernststraße`, `addr:housenumber=10a`, `addr:postcode=96515`, `addr:city=Sonneberg`) und 25 m auf node/6324173938 (`addr:street=Bernhardstraße`, `addr:housenumber=26`, `addr:postcode=96515`) auf — der Punkt markiert das Sonneberger Stadtzentrum und nicht Oberlind; er wird nur dokumentiert, die Korrektur entscheidet der Owner. Quellen: https://api.openstreetmap.org/api/0.6/map.json?bbox=10.9753,52.3552,10.9833,52.3632 ; https://api.openstreetmap.org/api/0.6/map.json?bbox=10.96,50.4,11.0,50.44 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine Zahlenkurse; die Portalangabe `An- und Verkauf von Wertstoffen` ist eine Tätigkeitsbehauptung ohne Kurs und bleibt Aggregator-Lead. VERKAUF: keine Artikel- oder Preisbelege. GEBÜHREN: keine veröffentlichte Händler-Gebührenliste; die Entsorgungsgebühren des kommunalen Abfallterminhefts 2026 (aus der Vorwelle) sind kommunale Gebühren und keine Gebühren dieses Betriebs. Offen bleiben die Zuordnung `Manfred Hiller` zum `Recyclinghof Oberlind`, die widersprüchlichen Telefonnummern 0151 59093237 gegen 03675 808970/808592 und damit jede Adress- und Kontaktangabe; eine Schließung wird nicht behauptet. Quellen: wie oben (Abruf 18.11.2026).]

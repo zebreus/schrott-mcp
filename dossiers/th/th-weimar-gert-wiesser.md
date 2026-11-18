@@ -10,7 +10,7 @@ phone: 03643 59554
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
@@ -44,3 +44,11 @@ Gert Wießer, Ernst-Kohl-Straße 27, 99423 Weimar und Telefon 03643 59554 sind n
 
 - Schrottplatz? (nur Verzeichnis)
 - Adresse: Weimar
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: Amtliches Fachbetrieberegister, Abruf 18.11.2026: die Namenssuchen „Wießer“ und „Wiesser“ liefern in den Routen „Entsorgungsfachbetriebe“ und „Altfahrzeugverwertung“ je 0 Treffer; die Standortabfrage mit 3 km um Ernst-Kohl-Straße 27, 99423 Weimar liefert 1 Efb-Zeile (Kommunalservice Weimar, Industriestraße 14, 99427 Weimar, 2,0 km) und 0 AfV-Zeilen. Reichweitenklausel: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schließungsbeleg. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Wie%C3%9Fer ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Wiesser ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Ernst-Kohl-Stra%C3%9Fe%2027%2C%2099423%20Weimar%2C%20Deutschland%3B11.305%3B50.985%3B11.3478091%3B51.0119493%3B11.2621909%3B50.9580507&dst=3&is=1&e=1 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: OSM-Abgleich: die Seed-Straße `Ernst-Kohl-Straße` ist in OSM nicht erfasst — in einem Fenster von rund 1,3 km um das Weimarer Stadtzentrum (50.985/11.305) trägt kein Adress- und kein Straßennamen diese Schreibweise (dort u. a. Berliner Straße, Cranachstraße, Erfurter Straße, Forsterstraße, Gustav-Berlet-Straße). Der gespeicherte Produktionspunkt 50.92615/10.6636 löst 43 m auf den Ortsknoten `name=Sundhausen` (node/2622429956) und 274 m auf node/8330971024 (`addr:street=Pfarrstraße`, `addr:housenumber=8`, `addr:postcode=99867`, `addr:city=Gotha`) auf — der Punkt liegt damit in Gotha-Sundhausen und rund 25 km von Weimar entfernt. Er markiert weder die Seed-Adresse noch einen Schrottplatz und wird nur dokumentiert; die Korrektur entscheidet der Owner. Quellen: https://api.openstreetmap.org/api/0.6/map.json?bbox=10.6596,50.9222,10.6676,50.9302 ; https://api.openstreetmap.org/api/0.6/map.json?bbox=11.293,50.973,11.317,50.997 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine Kurse; das Verzeichnisprofil nennt weder Branche noch Leistung. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife; die kommunale Kleinschrottsammlung der Stadt Weimar (aus der Vorwelle) ist ein öffentliches Entsorgungsangebot der Stadt und keine Gebühr dieses Betriebs. Offen bleiben die Betreiberidentität, die Frage einer Schrottplatz- und Ankauffunktion an der Ernst-Kohl-Straße 27 und jede Anschrift- und Kontaktangabe; `status` bleibt `pruefung`, eine Schließung wird nicht behauptet. Quellen: wie oben (Abruf 18.11.2026).]

@@ -10,7 +10,7 @@ phone: 030 6634953
 email: ''
 opening_hours: ''
 website: ''
-website_status: ''
+website_status: unbekannt
 status: unbekannt
 description: ''
 dropoff_json: ''
@@ -42,3 +42,11 @@ Gelbe Seiten führt aktuell den Listennamen **„Klemm Torsten, Klemm Franz Kraf
 
 - nur schrottplatz-info (alt) Adresse: Waltersdorfer Chaussee 9-11, 12355 Berlin
 - Bezirk: Neukölln Adressbeleg: Detailseite, Rubrik Autoverwertung (be.md Runde 4)
+
+### Recherche 18.11.2026
+
+- [Recherche 18.11.2026: Amtliches Fachbetrieberegister, Abruf 18.11.2026: die Namenssuchen „Klemm“ und „Kraftfahrzeugtechnik“ liefern in den Routen „Entsorgungsfachbetriebe“ und „Altfahrzeugverwertung“ je 0 Treffer. Die Standortabfrage mit 3 km um Waltersdorfer Chaussee 9-11, 12355 Berlin liefert 17 Efb-Zeilen (Michael Buckow Containerdienst, Wesolowski Abfalltransporte, Veolia Umweltservice Ost, BUD Berliner Umweltdienste, Karamba Karacho Abbruch- und Entsorgungs GmbH, documentus GmbH Berlin u. a.) und 0 AfV-Zeilen; keine Zeile nennt Klemm oder die Dossier-Adresse. Reichweitenklausel: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schließungsbeleg. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Klemm ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Klemm ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Waltersdorfer%20Chaussee%209-11%2C%2012355%20Berlin%2C%20Deutschland%3B13.507039%3B52.4080345%3B13.5512158%3B52.4349838%3B13.4628622%3B52.3810852&dst=3&is=1&e=1 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: GEO-Befund zum gespeicherten Produktionspunkt, gemessen und nicht geändert: der Punkt 52.4159503/13.4976926 löst 14 m auf den U-Bahnhof-Knoten node/301337519 (`name=U Rudow`, `operator=BVG`) und 22 m auf node/3812676500 (`name=U Rudow`, `operator=BVG`) auf — er markiert also die Haltestelle, nicht die Hausnummer. Die einzige im Kartenausschnitt getaggte Hausnummer der Waltersdorfer Chaussee ist `addr:housenumber=29A` (node/11962376487, 52.414458/13.501242) rund 180 m entfernt; die Seed-Hausnummer 9-11 ist in OSM nicht erfasst, die Hausnummernabdeckung dieser Straße ist damit unvollständig. `status: unbekannt`, Telefonnummer und Adressfelder bleiben unverändert. Quelle: https://api.openstreetmap.org/api/0.6/map.json?bbox=13.4937,52.4041,13.5017,52.4201 (Abruf 18.11.2026).]
+
+- [Recherche 18.11.2026: Preise getrennt geprüft. ANKAUF: keine verifizierte Fahrzeug- oder Metallannahme und keine Ankaufkurse; die Verzeichniskategorie Autoverwertung bleibt ein Aggregator-Lead. VERKAUF: keine Preisliste. GEBÜHREN: keine Entsorgungs-, Annahme- oder Abholtarife. Offen bleiben die Betreiberidentität (Klemm Torsten/Klemm Franz Kraftfahrzeugtechnik), die aktuelle Tätigkeit und die belastbare Auflösung der Adresse; keine Schließung und keine Nichtexistenz behauptet. Quellen: wie oben (Abruf 18.11.2026).]
