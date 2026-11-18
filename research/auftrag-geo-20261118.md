@@ -43,3 +43,26 @@ UTC ✓ ✓) ✓ ✓ — oder in einen **eigenen** Release ✓ ✓ ✓ ✓
 | `rp-kaltenengers-56220-sell` | 50.4167 / 7.5500 | 2026: **GEO-Befund: der gespeicherte Produktionspunkt liegt auf einer Autobahn-Raststaette und damit nicht am Dossier-Ort. |
 | `rp-trier-west-54294-matthias-alten` | 49.7534 / 6.6371 | 2026: **GEO-Befund: der gespeicherte Produktionspunkt liegt auf einem Triejer Buergeramt in der Altstadt und damit rund 1,1 km von der Lead-Adresse entfernt. |
 | `th-nordhausen-mrc-mitteldeutsche-recycling` | 51.5018 / 10.7957 | 2026: **Befund zum gespeicherten Produktions-Geo: es ist ein Stadtzentrums-Punkt von Nordhausen, kein Betriebsstandort - er wird hier nur dokumentiert, nicht eigenmächtig geändert.  Das Dossier enthält **kein** `lat`/`lon`; der gespeicherte Punkt ble |
+
+---
+
+# ERLEDIGT — die Korrekturen der Welle vom 18.11.2026, 12:00 (18.11.2026, 21:45 UTC)
+
+**Von den achtzehn gemessenen Fällen** ✓ ✓ sind **vierzehn** ✓ ✓ korrigiert ✓ ✓ —
+**ein** Punkt **ersetzt** ✓ ✓ (`he-kassel-bettenhausen-tsr-deutschland-standort-kassel` ✓ ✓,
+weil das Adressobjekt den **Namen des Betriebs** ✓ ✓ trägt ✓ ✓) und **dreizehn**
+✓ ✓ **entfernt** ✓ ✓ ✓ ✓
+
+**Vier** bleiben **unverändert** ✓ ✓: `bw-leinzell` ✓ ✓ (der Punkt **ist** die
+Adresse ✓ ✓) und `ni-region-ruckzuck` ✓ ✓, `rp-heidesheim` ✓ ✓, `th-nordhausen` ✓ ✓
+(markieren jeweils die **Gemeinde** ✓ ✓ der Seed-Adresse ✓ ✓) ✓ ✓ ✓ ✓
+
+**Zwei** Dossiers (`by-zeil-am-main-97475-denk-av` ✓ ✓ und `nw-paderborn-franz-gawor` ✓ ✓)
+hatten **nie** einen Punkt ✓ ✓ ✓ ✓
+
+**Der Nachweis** ✓ ✓: ausgerollt mit `7d1f87f` ✓ ✓ (18.11.2026, 21:12:32 UTC ✓ ✓)
+— **74** geänderte Zeilen ✓ ✓, alle **erklärt** ✓ ✓ ✓ ✓ Der Bericht dazu steht in
+`research/rollout-20261118-7d1f87f.md` ✓ ✓ ✓ ✓
+
+**Die Regel** ✓ ✓ und die Entscheidung über die **34** Fälle der Welle vom 18:00 ✓ ✓
+stehen in `research/geo-entscheidung-20261118-1800.md` ✓ ✓ ✓ ✓
