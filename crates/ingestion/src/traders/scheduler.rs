@@ -329,6 +329,49 @@ mod tests {
     }
 
     #[test]
+    fn the_last_step_comes_from_the_database() {
+        use schrott_mcp_store::InternalDb;
+        let dir = crate::test_support::TempDbDir::new("due-map");
+        let internal = InternalDb::open(dir.path()).expect("internal");
+        // Ohne Schritt gibt es keinen Stempel ✓ ✓
+        assert!(internal
+            .last_step_started_at("th-gotha-sdm-gutzmann")
+            .expect("query")
+            .is_none());
+
+        let run = internal.create_run("2026-11-18T02:08:45Z").expect("run");
+        let step = internal
+            .create_step(run, "th-gotha-sdm-gutzmann", "2026-11-18T02:08:45Z")
+            .expect("step");
+        // Ein **laufender** Schritt zaehlt nicht ✓ ✓ - er ist nicht beendet ✓ ✓
+        assert!(internal
+            .last_step_started_at("th-gotha-sdm-gutzmann")
+            .expect("query")
+            .is_none());
+        internal
+            .finish_step(
+                step,
+                "ok",
+                19,
+                "19 Preise uebernommen",
+                "2026-11-18T02:09:02Z",
+            )
+            .expect("close");
+        assert_eq!(
+            internal
+                .last_step_started_at("th-gotha-sdm-gutzmann")
+                .expect("query")
+                .as_deref(),
+            Some("2026-11-18T02:08:45Z")
+        );
+        // Ein anderer Handler hat einen eigenen Stempel ✓ ✓
+        assert!(internal
+            .last_step_started_at("rp-ludwigshafen-mkm-metals")
+            .expect("query")
+            .is_none());
+    }
+
+    #[test]
     fn a_restart_shortly_before_a_phase_does_not_skip_the_run() {
         // The phase of the Gutzmann handler lies at 01:57:46 UTC; the rollout
         // restarted the service at 08:05:17, seven minutes after the phase
@@ -367,6 +410,21 @@ mod tests {
             phase as i64,
             "die Phase muss stabil bleiben"
         );
+    }
+
+    #[test]
+    fn a_handler_that_is_not_due_yet_keeps_its_own_cadence() {
+        // Der Zweig "Faelligkeit in der Zukunft" - waere er kaputt, wuerde
+        // **jeder** Handler bei **jedem** Start sofort laufen ✓ ✓ ✓ ✓
+        let slug = "th-gotha-sdm-gutzmann";
+        let schedule = Schedule::every_6h();
+        let boot = Utc.with_ymd_and_hms(2026, 11, 18, 8, 5, 17).unwrap();
+        // Der letzte Lauf liegt zwei Minuten zurueck - faellig ist der
+        // Handler erst in sechs Stunden ✓ ✓
+        let last_run = boot - chrono::Duration::minutes(2);
+        let due = super::due_at_boot(boot, Some(last_run), slug, &schedule);
+        assert_eq!(due, last_run + chrono::Duration::hours(6));
+        assert!(due > boot, "der Handler darf jetzt nicht faellig sein");
     }
 
     #[test]
