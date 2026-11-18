@@ -17,11 +17,11 @@ import re
 import sqlite3
 from pathlib import Path
 
-MANIFEST = Path(__file__).with_name("release-delta-a3a24bf-seed-expectations.json")
-MANIFEST_SHA256 = "877c401ded20a3a67d0b6af3075fc96ae4625fa6cad4ce4fdb2fc2fd2de809b9"
-RELEASE_COMMIT = "a3a24bfe2ac9fbfa86bcb307b1034896f2c89f88"
-RELEASE_TREE = "9812c3e76bc0aeb13a9b16987b55619e297371a1"
-REHEARSAL_MANIFEST_SHA256 = "dd653a20708b71ccdb208ef4273b724f513d0af19f737c00c96cbfcacdf8c72a"
+MANIFEST = Path(__file__).with_name("release-delta-152ce04-seed-expectations.json")
+MANIFEST_SHA256 = "3e34a50778e3a4440e8184ec7cbef4ad8ed2ff90ec887751d81cbd51c44340d3"
+RELEASE_COMMIT = "152ce04e9dd20c79ad96523d67f393572f7cdfea"
+RELEASE_TREE = "7dcb03d65853d4e2e74a378751e84b15d2904126"
+REHEARSAL_MANIFEST_SHA256 = "2b63fe070920b9b9758e70fa7a33d2f5e2fdbf01044c778d922431b04dbb16b9"
 FIELDS = (
     "name", "city", "street", "postcode", "phone", "email", "opening_hours",
     "description", "status", "trader_type", "website", "website_status",

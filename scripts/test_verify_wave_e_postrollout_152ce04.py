@@ -12,8 +12,8 @@ from pathlib import Path
 from unittest.mock import patch
 
 sys.dont_write_bytecode = True
-SCRIPT = Path(__file__).with_name("verify-wave-e-postrollout-a3a24bf.py")
-SPEC = importlib.util.spec_from_file_location("wave_e_a3a24bf_verifier", SCRIPT)
+SCRIPT = Path(__file__).with_name("verify-wave-e-postrollout-152ce04.py")
+SPEC = importlib.util.spec_from_file_location("wave_e_152ce04_verifier", SCRIPT)
 VERIFIER = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(VERIFIER)
 
