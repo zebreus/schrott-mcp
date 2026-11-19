@@ -86,3 +86,54 @@ Webarchiv zeigt Inhalt **bis zum 13.07.2026** ✓ ✓ ✓ ✓ `status` bleibt `p
 Die Entscheidung steht in `research/geo-entscheidung-20261119-0000.md` ✓ ✓ ✓ ✓
 **Vier** Punkte **gesetzt** ✓ ✓ · **elf** **entfernt** ✓ ✓ · **sechs** bleiben ✓ ✓
 ✓ ✓ Die Änderungen ✓ ✓ gehen mit dem **nächsten** Release ✓ ✓ hinaus ✓ ✓ ✓ ✓
+
+
+## Nachpruefung des Rollouts `2b2f2b9` (19.11.2026, 03:26:38 UTC) um 08:30 UTC — Rote Befunde
+
+### 1. `verify_notes_in_production.py --scope research/release-20261119-0000-scope.json` — `ok: false` — ROT (15 Trader)
+
+Genau gemeldet (scriptausgabe, verbatim):
+
+```text
+      he-kirchhain-l-pfeiffer-schrotthandel: Notizen weichen ab (erwartet 12378 Zeichen, Produktion 11498)
+      he-niddatal-61194-funk-franz: Notizen weichen ab (erwartet 18568 Zeichen, Produktion 17585)
+      he-offenbach-buchhugel-schrotthandel-marco-hombach: Notizen weichen ab (erwartet 12776 Zeichen, Produktion 11720)
+      he-wolfhagen-tobias-meyer: Notizen weichen ab (erwartet 16327 Zeichen, Produktion 15441)
+      hh-altstadt-ferrous-metal-trading-hamburg-fmt: Notizen weichen ab (erwartet 8726 Zeichen, Produktion 7697)
+      hh-barmbek-nord-gold-silber-ankauf-juwelier-schroder: Notizen weichen ab (erwartet 11261 Zeichen, Produktion 10256)
+      hh-poppenbuttel-metalle-patz: Notizen weichen ab (erwartet 14134 Zeichen, Produktion 13028)
+      nw-bonn-khk-metallrecycling: Notizen weichen ab (erwartet 17415 Zeichen, Produktion 16449)
+      nw-koln-maaskersting: Notizen weichen ab (erwartet 13178 Zeichen, Produktion 12108)
+      rp-schonenberg-kubelberg-closter-autorecycling: Notizen weichen ab (erwartet 13498 Zeichen, Produktion 12438)
+      sh-berkenthin-stecknitz-schrott: Notizen weichen ab (erwartet 6496 Zeichen, Produktion 5474)
+      sl-lebach-autoverwertung-volz-renate-volz: Notizen weichen ab (erwartet 9427 Zeichen, Produktion 8393)
+      sl-merzig-schrotthandel-karam: Notizen weichen ab (erwartet 9300 Zeichen, Produktion 8350)
+      th-sondershausen-sondershausen-recycling: Notizen weichen ab (erwartet 8429 Zeichen, Produktion 7480)
+      th-triptis-spedition-kfz-service-c-bernhardt: Notizen weichen ab (erwartet 8957 Zeichen, Produktion 7996)
+```
+
+Betroffener Handler:
+- `crates/ingestion/build.rs::timeline_notes` (Zeile 176; spiegelt `is_h2` Zeile 170) — rechnet die erwarteten Laengen „erwartet … Zeichen" aus den Dossier-`## Timeline`-Bullets.
+- `crates/store/src/public/traders.rs::upsert_trader` (Zeile 352: `notes = excluded.notes`) — schreibt die Produktions-`traders.notes`.
+
+Ursache:
+- Commit `2b5a8929` (2026-11-19 03:32:11 UTC, Nachfolger von `2b2f2b9b`) — „Decide the stored positions of the wave of 19.11.2026, 00:00" — hat um **6 Minuten nach dem Rollout** die Dossiers von **genau den 15 betroffenen Trader** erweitert (in die `## Timeline`-Abschnitte einen *Korrektur 19.11.2026 (Owner, Geokodierung)*-Abschnitt sowie `clear_fields: 'geo'` eingefuegt; Beispiel `dossiers/he/he-kirchhain-l-pfeiffer-schrotthandel.md`).
+- Die Produktions-`traders.notes` aller 15 liegen bei `updated_at = 2026-11-19T03:26:38.898…` — dem Startzeitpunkt des Rollouts — und wurden nach der Dossier-Aenderung **nicht neu geschrieben**. Der Commit-Text dokumentiert das Absichtstal: „The production is not touched while the pending gate of the release 2b2f2b9 is red."
+- Ergebnis: erwartet (aktuelles Dossier-Timeline) ist laenger als Produktion (Stand 03:26:38). Ergaenzend grün: `verify-release-delta-2b2f2b9.py`, `verify-wave-e-postrollout-2b2f2b9.py`, `verify-pending-corrections-2b2f2b9.py` und `verify_notes_in_production.py --scope research/wave-20261118-1800-scope.json` liefern `ok: true`.
+
+### 2. Produktions-`prices`: `SELECT COUNT(*) FROM prices` -> 104175 — Erwartung (Rollout-Backup): 103147 — Abweichung +1028 — ROT
+
+Genau gemeldet (read-only):
+
+```text
+sqlite3 -readonly /var/lib/schrott-mcp/public.db "SELECT COUNT(*) FROM prices;" -> 104175
+```
+
+Betroffener Handler: `crates/store/src/public/prices.rs::record_price_on` (Zeile 1265; UPDATE-Pfad Zeile 1329, INSERT-Pfad Zeile 1348).
+
+Ursache (Backup-Vergleich, read-only):
+- Backup `/root/Documents/schrott-mcp-rollout-backups/rollout-2b2f2b9-20261119T032637Z/data/public.db`: `COUNT(*) FROM prices` = 103147, `MAX(ingested_at)` = 2026-11-19T03:15:59Z (vor dem Rollout).
+- Produktion: `COUNT(*) FROM prices` = 104175; `COUNT(*) WHERE ingested_at >= '2026-11-19T03:26:38'` = 3148.
+- Diff: 1028 new ids in production not in backup; 0 deleted -> **1028 neue Price-History-Zeilen seit dem Rollout** (103147 + 1028 = 104175).
+- `current_prices` unveraendert: 4071 (wie im Backup).
+- Top new rows (neue Zeilen pro Trader): be-charlottenburg-wilmersdorf-pro-aurum-filiale-berlin: 116; by-muenchen-riem-pro-aurum-goldhaus: 114; nw-bielefeld-pro-aurum-filiale: 114; bw-stuttgart-pro-aurum-filiale: 108; nw-duesseldorf-pro-aurum-filiale: 105; he-bad-homburg-pro-aurum-filiale: 101; hh-altstadt-pro-aurum-vertrieb-filiale-hamburg: 101; by-aschaffenburg-63739-metallorum-edelmetallhandels: 44
