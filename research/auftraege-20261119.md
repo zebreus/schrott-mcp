@@ -186,3 +186,20 @@ Status `ok` ✓ ✓ ✓ ✓
 **Die Lehre** ✓ ✓: In einem Prüfauftrag ✓ ✓ darf **kein** Zählwert **festgeschrieben**
 ✓ ✗ ✓ werden, der **wächst** ✓ ✓ — nur `traders` ✓ ✓, `user_version` ✓ ✓ und
 `current_prices` ✓ ✓ sind **stabile** Größen ✓ ✓ ✓ ✓
+
+## Nachprüfung des Rollouts e98b793 (19.11.2026, 19:13:16 UTC) — ERLEDIGT
+
+Alle Prüfungen des Owner-Auftrags grün. Nachweise mit Zeitstempeln der Läufe und Zählwerten:
+
+- **Gutzmann** (`th-gotha-sdm-gutzmann`): Turnus 2026-11-19T20:44:34.723954993+00:00, Status ok, items_upserted 19 — Erwartung (Status ok, 19, nach Rollout 19:13:16Z) ✓
+- **MSG** (`th-gotha-msg-metallrecycling-msg-schrott-und-meta`): Turnus 2026-11-19T23:00:48.884543918+00:00, Status ok, items_upserted 124 — Erwartung (Status ok, 124, nach Rollout 19:13:16Z) ✓
+- **MKM** (`rp-ludwigshafen-mkm-metals`): Turnus 2026-11-19T17:48:49.843507796+00:00, Status ok, items_upserted 56 — Erwartung (Status ok, 56) ✓
+- **Gate** `verify-pending-corrections-e98b793.py --since 2026-11-19T19:13:16Z`: `"ok": true`, `msg_managed_count: 124`, `failures: []` ✓
+- `verify-release-delta-e98b793.py`: `"ok": true`, `checked_count: 75`, `failures: []` ✓
+- `verify-wave-e-postrollout-e98b793.py`: `"ok": true`, `checked_count: 60`, `failures: []` ✓
+- `verify_notes_in_production.py --scope research/release-20261119-0600-scope.json`: `"ok": true`, `checked_count: 60`, `failures: []` ✓
+- `verify_notes_in_production.py --scope research/release-20261119-0000-scope.json`: `"ok": true`, `scope: 61`, `failures: []` ✓
+- **Produktion** (`public.db`, read-only): `traders` = 3945, `user_version` = 12; `systemctl show schrott-mcp`: ActiveState=active, SubState=running, NRestarts=0, ExecMainStartTimestamp=Thu 2026-11-19 19:13:16 UTC ✓
+- **Geokodierung**: die vier gesetzten Punkte liegen im Set — `verify-release-delta-e98b793.py` meldet `geo_match: true` (sl-lebach-autoverwertung-volz-renate-volz, th-sondershausen-sondershausen-recycling, th-triptis-spedition-kfz-service-c-bernhardt, hh-poppenbuttel-metalle-patz) ✓
+
+Nachweis: `research/checkin-20261119-2300-owner.md` — Zeitstempel der Läufe und Zählwerte sind dort eingetragen.
