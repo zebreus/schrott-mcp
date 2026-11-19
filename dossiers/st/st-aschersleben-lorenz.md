@@ -2,27 +2,28 @@
 slug: st-aschersleben-lorenz
 lat: 51.7347513
 lon: 11.4299923
-name: Lorenz
+name: 'Autoverwertung Lorenz'
 trader_type: autoverwertung
 state: ST
 city: Aschersleben
-street: ''
-postcode: ''
-phone: ''
+street: 'Welbslebener Chaussee 2'
+postcode: '06449'
+phone: '03473 809908'
 email: ''
-opening_hours: ''
+opening_hours: 'Mo-Fr 10:00-17:00, Sa 10:00-12:00'
 website: ''
 website_status: unbekannt
-status: pruefung
-description: ''
+status: aktiv
+description: 'Autoverwertung Lorenz, Welbslebener Chaussee 2, 06449 Aschersleben OT Westdorf; im amtlichen Fachbetrieberegister als Altfahrzeugverwertungsbetrieb geführt, Vorgangsnummer ZARS00700005, Bescheinigungsanlage 1, Kennnummer NA8900109, Herstellerrücknahme für BMW, Ansprechpartner Herr Lorenz Michael. Der Betrieb ist zugleich als Autohof Lorenz an derselben Anschrift erfasst. ANKAUF: keine Ankaufspreise veröffentlicht. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife veröffentlicht.'
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Altfahrzeugverwertung nach § 2 Abs. 2 AltfahrzeugV, amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge der Länder, Route Altfahrzeugverwertung, Abruf 19.11.2026: Betrieb Autoverwertung Lorenz, Welbslebener Chaussee 2, 06449 Aschersleben OT Westdorf; Vorgangsnummer ZARS00700005; Bescheinigungsanlagennr. 1; Registerzeile ZARS00700005 / 1; Kennnummer NA8900109; Ansprechpartner Herr Lorenz Michael; Telefon 03473 809908; Herstellerrücknahme für BMW; Registerabstand 0,0 km zur Dossieradresse; ein Zertifikats-PDF ist in dieser Registerroute nicht hinterlegt, eine laengere Vorgangsnummer aus Feld 3.3 des Originalzertifikats ist daher nicht ausgewiesen", "Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Autoverwertung Lorenz in 06449 Aschersleben (Abruf 19.11.2026; Standortabfrage mit 3 km um Welbslebener Chaussee 2 in der Route Entsorgungsfachbetriebe 0 Treffer, Namenssuche Lorenz liefert nur fremde Rechtsträger wie die Lorenz Wittmann GmbH Zweigniederlassung Ergolding, die Lorenz Recycling GmbH & Co. KG in Neunkirchen am Brand und die Lorenz Jacobs Garten- und Landschaftsbau GmbH in Bremervörde; die EfbV-Anerkennung nach § 56 KrWG ist freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis)"]'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
 ---
 
-# Lorenz
+# Autoverwertung Lorenz
 
 ## Überblick
 
@@ -123,3 +124,7 @@ Ein aktueller Telefonbuchtreffer nennt Michael Lorenz, Welbslebener Chaussee 2, 
   https://www.11880.com/branchenbuch/aschersleben-sachsen-anhalt/060440459B102540169/lorenz-autoverwertung.html ;
   https://www.11880.com/suche/autoverwertung/aschersleben ;
   https://www.mz.de/lokal/aschersleben/leute-neue-existenz-dank-der-parksunder-2953135 (Abruf 04.11.2026).]
+### Recherche 19.11.2026
+
+- [Recherche 19.11.2026: **Der amtliche Registereintrag bestätigt Betrieb, Anschrift, Telefon und den Ansprechpartner Lorenz Michael.** Die live abgefragte Route `Altfahrzeugverwertung` des amtlichen Fachbetrieberegisters liefert am 19.11.2026 mit Registerabstand 0,0 km zur Dossieradresse `Autoverwertung Lorenz`, Welbslebener Chaussee 2, 06449 Aschersleben OT Westdorf, mit der Vorgangsnummer `ZARS00700005`, der Bescheinigungsanlagennr. `1`, der Kennnummer `NA8900109;NA8900109`, dem Telefon `03473 809908`, dem Ansprechpartner `Herr Lorenz Michael` und der Herstellerrücknahme Für `BMW`; ein Zertifikats-PDF ist in dieser Route nicht hinterlegt, eine laengere Vorgangsnummer aus Feld 3.3 des Originalzertifikats ist daher nicht ausgewiesen. Damit ist die bisher offene Namensvariante geklaert: das Register nennt Lorenz Michael, waehrend der OSM-Objekt-Tag `operator=Rolf Lorenz` lautet; die Anschrift, die Telefonnummer 809908, die Branche Autoverwertung und der Ortsteil Westdorf stimmen ueberein, und die bayerische Lorenz Recycling GmbH & Co. KG mit der Kennung ZZIT00600007 / 1 in Neunkirchen am Brand ist weiterhin nicht gemeint. Rueckzugsdatum der Vermarktung: der am 19.11.2026 live gelesene Verzeichniseintrag `Lorenz Autoverwertung` führt `Autoverschrottung` und `Autoverwertung`, Welbslebener Chaussee 2, 06449 Aschersleben (Westdorf), Telefon (03473) 809908, Öffnungszeiten Montag bis Freitag 10 Uhr bis 17 Uhr und Samstag 10 Uhr bis 12 Uhr, mit Aktualisierungsdatum 03.10.2026; dieselben Zeiten und dieselbe Nummer traegt der OSM-Knoten node/6390673666. Straße, Postleitzahl, Telefon und Öffnungszeiten wurden deshalb in das Frontmatter übernommen, der Dossier-Name `Lorenz` wurde auf die amtliche Bezeichnung `Autoverwertung Lorenz` praezisiert, der Slug bleibt unverändert. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Lorenz ; https://www.11880.com/branchenbuch/aschersleben-sachsen-anhalt/060440459B102540169/lorenz-autoverwertung.html ; https://api.openstreetmap.org/api/0.6/node/6390673666.json .]
+- [Recherche 19.11.2026: **Keine EfbV-Anerkennung und keine Preise; der vorhandene Punkt bleibt unverändert.** Die Standortabfrage im amtlichen Fachbetrieberegister mit 3 km um Welbslebener Chaussee 2, 06449 Aschersleben liefert in der Route `Entsorgungsfachbetriebe` 0 Treffer; die Namenssuche `Lorenz` trifft dort nur fremde Rechtstraeger wie die Lorenz Wittmann GmbH Zweigniederlassung Ergolding, die Lorenz Recycling GmbH & Co. KG in Neunkirchen am Brand und die Lorenz Jacobs Garten- und Landschaftsbau GmbH in Bremervorode. Die EfbV-Anerkennung nach § 56 KrWG ist freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis. Die amtliche Anerkennung als Altfahrzeugverwertungsbetrieb traegt die Anrede `aktiv`, sie belegt aber keine Preise und keine Annahmebedingungen Für Privatpersonen. **Ankauf:** keine Kurse und keine Sortenliste; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Der am 04.11.2026 gesetzte Punkt 51.7347513/11.4299923 auf node/6390673666 wurde nicht angetastet, der alte Punkt auf die Herrenbreite war bereits ersetzt. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lorenz ; https://api.openstreetmap.org/api/0.6/node/6390673666.json .]

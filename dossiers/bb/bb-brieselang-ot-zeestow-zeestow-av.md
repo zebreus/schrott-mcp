@@ -6,17 +6,18 @@ state: BB
 city: Brieselang OT Zeestow
 street: Gewerbering 23
 postcode: '14656'
-phone: ''
-email: ''
+phone: '033234 90367'
+email: 'info@avw-zeestow.com'
 opening_hours: ''
-website: ''
-website_status: unbekannt
-status: pruefung
-description: ''
+website: https://www.avw-zeestow.com
+website_status: tot
+status: aktiv
+description: 'Autoverwertung und Demontage in Brieselang OT Zeestow; laut amtlichem Fachbetrieberegister als Altfahrzeugverwertungsbetrieb geführt, Vorgangsnummer ZALS00800047, Bescheinigungsanlage 1, Kennnummern PE2005304 und PA2000462. ANKAUF: keine Ankaufspreise veröffentlicht. VERKAUF: keine Preisliste Für Ersatzteile oder Reststoffe. GEBÜHREN: keine Abhol- oder Verwertungsgebuehren veröffentlicht.'
 lat: '52.5633517'
 lon: '12.9306262'
 dropoff_json: ''
 pickup_json: ''
+certifications: '["Altfahrzeugverwertung nach § 2 Abs. 2 AltfahrzeugV, amtliches Fachbetrieberegister der Gemeinsamen Stelle Altfahrzeuge der Länder, Route Altfahrzeugverwertung, Abruf 19.11.2026: Betrieb Autoverwertung Zeestow Inhaber Frank Ebel, Gewerbering 23, 14656 Brieselang OT Zeestow; Vorgangsnummer ZALS00800047; Bescheinigungsanlagennr. 1; Registerzeile ZALS00800047 / 1; Kennnummern PE2005304 und PA2000462; Ansprechpartner Herr Frank Ebel, Telefon 033234 90367, Fax 033234 22792, E-Mail info@avw-zeestow.com; Registerabstand 0,0 km zur Dossieradresse; ein Zertifikats-PDF ist in dieser Registerroute nicht hinterlegt, eine laengere Vorgangsnummer aus Feld 3.3 des Originalzertifikats ist daher nicht ausgewiesen", "Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Autoverwertung Zeestow, Frank Ebel oder avw-zeestow (Abruf 19.11.2026; Namenssuche Zeestow in der Route Entsorgungsfachbetriebe 0 Treffer, Standortabfrage mit 3 km um Gewerbering 23, 14656 Brieselang 7 Treffer, sämtlich der fremden M & P Containerdienst GmbH & Co. KG, Landesstraße L 161, 14656 Brieselang; die EfbV-Anerkennung nach § 56 KrWG ist freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis)"]'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -57,3 +58,7 @@ Jetzt zwei zulässige Quellen für die Standort-/Betreiberzuordnung: Die Gemeind
 
 - Autoverwertung
 - Adresse: Brieselang OT Zeestow, Gewerbering 23
+### Recherche 19.11.2026
+
+- [Recherche 19.11.2026: **Das amtliche Fachbetrieberegister führt den Betrieb jetzt als anerkannten Altfahrzeugverwertungsbetrieb.** Live-Abfrage der Route `Altfahrzeugverwertung` am 19.11.2026, Namenssuche `Zeestow` mit 1 Treffer und Registerabstand 0,0 km zur Dossieradresse: Bezeichnung `Autoverwertung Zeestow Inhaber Frank Ebel`, Adresse `Gewerbering 23, 14656 Brieselang OT Zeestow`, Vorgangsnummer `ZALS00800047`, Bescheinigungsanlagennr. `1`, Kennnummer `PE2005304;PA2000462`, Ansprechpartner `Herr Frank Ebel`, Telefon `033234 90367`, Fax `033234 22792`, E-Mail `info@avw-zeestow.com`; das Registerfeld Internetadresse ist leer. Ein Zertifikats-PDF ist in dieser Route nicht hinterlegt, eine laengere Vorgangsnummer aus Feld 3.3 des Originalzertifikats ist daher nicht ausgewiesen. Die Route `Entsorgungsfachbetriebe` liefert Für den Betrieb keinen Eintrag, Namenssuche `Zeestow` 0 Treffer, Standortabfrage mit 3 km um Gewerbering 23 nur 7 Treffer der fremden M & P Containerdienst GmbH & Co. KG, Landesstraße L 161, 14656 Brieselang. Reichweite: die EfbV-Anerkennung nach § 56 KrWG ist freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Zeestow ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Zeestow .]
+- [Recherche 19.11.2026: **Kontaktdaten amtlich belegt, Website-Domain ohne Betreiberinhalt, Status auf aktiv.** Die Kontaktdaten der Dossieradresse stehen Unabhängig im amtlichen Fachbetrieberegister (Telefon `033234 90367`, Fax `033234 22792`, E-Mail `info@avw-zeestow.com`) und in der am 19.11.2026 live gelesenen Seite der Gemeinde Brieselang (`Autoverwertung Zeestow`, Geschäftsführer `Frank Ebel`, Gewerbering 23, 14656 Brieselang OT Zeestow, `033234 / 90367`, `033234 / 22792`, Mobil `0163 / 7042446`, `info@avw-zeestow.com`, `https://www.avw-zeestow.com`); Telefon und E-Mail sind damit fuellbar, die Mobilnummer bleibt als Einzelbeleg nur im Vermerk. Die Domain ist registriert und löst Über IPv4 auf `217.160.0.104` (IONOS) auf, liefert aber Über HTTP nur die IONOS-Standardseite mit dem Text `Diese Domain ist bereits registriert` und Über HTTPS keinen Inhalt; die frueher notierten Transportfehler sind damit als Erreichbarkeitsproblem, nicht als Betriebsschließung zu lesen. `website_status` wurde deshalb von `unbekannt` auf `tot` gesetzt, `status` von `prüfung` auf `aktiv`, weil die amtliche Anerkennung und die kommunale Zuordnung die Bestätigung der Altfahrzeugannahme tragen; offen bleiben Gültigkeitsdauer, oeffentliche Kundenannahme und Sortenliste. **Ankauf:** keine Fahrzeugankaufkurse veröffentlicht, die Restwertvergütung wird nicht beziffert; **Verkauf:** keine Ersatzteil- oder Reststoffpreisliste; **Gebühren:** keine Abhol- oder Verwertungsgebuehren veröffentlicht. Quellen: https://www.gemeindebrieselang.de/Adressen/Autoverwertung-Zeestow.html ; http://avw-zeestow.com/ ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Zeestow .]
