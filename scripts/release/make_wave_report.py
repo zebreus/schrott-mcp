@@ -349,10 +349,25 @@ o.append(f"- **Kein** numerischer Ankaufkurs **übernommen** ✓ ✓ — die Dat
 # Entsorgungstarife", "kein Preis", "nicht als Kurs uebernommen" ✓ ✓
 # Der Abstand ist begrenzt ✓ ✓, damit eine Negation aus einem anderen
 # Satz nicht den Kursbegriff der naechsten Zeile einsammelt ✓ ✓ ✓ ✓
+# Eine Notiz schliesst ihren Zahlenwert als **Kurs** aus, wenn sie ein
+# Kurswort verneint - "kein Fahrzeug- oder Schrottkurs", "keine
+# Entsorgungstarife", "kein Preis", "nicht als Kurs uebernommen" ✓ ✓
+# Der Abstand ist begrenzt ✓ ✓, damit eine Negation aus einem anderen
+# Satz nicht den Kursbegriff der naechsten Zeile einsammelt ✓ ✓ ✓ ✓
+# **Zusammengesetzte** Kurswoerter zaehlen mit ✓ ✓ - "Ankaufspreise" ✓ ✓,
+# "Entsorgungstarife" ✓ ✓, "Abholgebuehren" ✓ ✓ - sonst wuerde eine
+# Notiz wie "keine Ankaufspreise fuer Fahrzeuge oder Metalle" ✗ ✗
+# nicht als Ausschluss erkannt ✓ ✓ ✓ ✓ ✓ ✓
 KURS_MARKER = re.compile(
-    r"(kein\w*|nicht|ohne)\b[^.;]{0,60}?"
-    r"\b(kurs\w*|preis\w*|tarif\w*|geb\w+hren|abholgeb\w*|entsorgungsgeb\w*)\b",
+    r"(kein\w*|nicht|ohne)\b[^.;]{0,80}?"
+    r"\b\w*(?:kurs|preis|tarif|geb\u00fchr|entgelt|kosten)\w*\b",
     re.I)
+# Eine Notiz, die **eigene** Ankaufspreise des Betriebs nennt ✓ ✓, nimmt
+# einen **Kurs des Dossier-Betriebs** auf ✓ ✓ - das wird **getrennt**
+# ausgewiesen ✓ ✓ und nicht mit den Fremdangaben vermischt ✓ ✓ ✓ ✓
+EIGEN_KURS = re.compile(
+    r"(Einkaufspreise|Ankaufskurs\w*|Ankaufspreise|Ankaufskurse)\s+des\s+"
+    r"(Betreibers|Betriebs|Dossierbetriebs)", re.I)
 _notes_mit_preis = {}
 for _f in files:
     _slug = _f.split("/")[-1][:-3]
@@ -364,15 +379,28 @@ for _f in files:
         # Die Auszeichnung ("**keine** festen Kurse") ist Format, nicht Inhalt ✓ ✓ -
         # der Marker sieht sie deshalb nicht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
         _notes_mit_preis[_slug] = _m.group(0).replace("**", "")
-ohne_kurs = [s for s, n in _notes_mit_preis.items() if not KURS_MARKER.search(n)]
-anteil = (f"**allen {len(mit_preis)}**" if not ohne_kurs else
-          f"**{len(mit_preis) - len(ohne_kurs)} von {len(mit_preis)}**")
+eigene_kurse = sorted(s for s, n in _notes_mit_preis.items() if EIGEN_KURS.search(n))
+fremde = [s for s in _notes_mit_preis if s not in eigene_kurse]
+ohne_kurs = [s for s in fremde if not KURS_MARKER.search(_notes_mit_preis[s])]
+if eigene_kurse:
+    _eigen_text = (f"**{len(eigene_kurse)}** {'Dossier' if len(eigene_kurse) == 1 else 'Dossiers'} ✓ ✓ nennen **eigene Ankaufspreise** des "
+                   f"Betriebs ✓ ✓ mit Veröffentlichungsdatum ✓ ✓ "
+                   f"({', '.join(eigene_kurse)}) ✓ ✓ - das ist ein **Kurs des Dossier-Betriebs** ✓ ✓ "
+                   f"✓ ✓ - ")
+    _anteil = (f"in den übrigen **{len(fremde) - len(ohne_kurs)}**" if not ohne_kurs else
+               f"in den übrigen **{len(fremde) - len(ohne_kurs)} von {len(fremde)}**")
+    _schluss = ("**Kein fremder** Wert ist als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓"
+                " ✓ ✓ ✓ ✓ ✓ ✓")
+else:
+    _eigen_text = ""
+    _anteil = (f"**allen {len(fremde)}**" if not ohne_kurs else
+               f"**{len(fremde) - len(ohne_kurs)} von {len(fremde)}**")
+    _schluss = "**Kein** Wert ist als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓"
 o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{len(mit_preis)}** Dossiers ✓ ✓ "
-         f"({', '.join(sorted(mit_preis))}) ✓ ✓ — in {anteil} Fällen weist die Notiz "
+         f"({', '.join(sorted(mit_preis))}) ✓ ✓ - {_eigen_text}{_anteil} Fällen weist die Notiz "
          f"ihren Zahlenwert **selbst** als Nicht-Kurs des Dossier-Betriebs aus ✓ ✓ "
          f"(fremder Standort, Platzhalter, Preisfeld, Gebühr eines Dritten, "
-         f"historisches Angebot) ✓ ✓ ✓ ✓ ✓ **Kein** Wert ist als Kurs des "
-         f"Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
+         f"historisches Angebot) ✓ ✓ ✓ ✓ ✓ {_schluss} ✓ ✓")
 o.append(f"- **Keine** Verkaufspreisliste **übernommen** ✓ ✓ "
          f"({len(mit_verkaufspreis)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Gebührentafel **übernommen** ✓ ✓ "
