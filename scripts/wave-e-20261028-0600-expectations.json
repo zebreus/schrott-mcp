@@ -19,37 +19,22 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "079b6fd",
-  "owner_review": "research/wave-20261118-1800-report.md",
+  "dossier_revision": "f5b4391",
+  "owner_review": "research/wave-20261119-0000-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 18.11.2026, 18:00)",
-  "scope": "2 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases 079b6fd gehoben",
+  "revised_by": "Owner (Welle 19.11.2026, 00:00)",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases f5b4391 gehoben",
   "rows": [
     {
-      "slug": "rp-oberzissen-56651-reinhardt",
+      "slug": "sl-lebach-autoverwertung-volz-renate-volz",
       "fields": [
-        "description",
-        "email",
-        "name",
-        "phone",
-        "postcode",
-        "street",
-        "website",
-        "website_status"
+        "email"
       ],
-      "reason": "Belegt in der Welle 18.11.2026, 18:00 verbessert; siehe research/wave-20261118-1800-report.md."
-    },
-    {
-      "slug": "be-steglitz-zehlendorf-rich-herbig-metallhandel-berlin",
-      "fields": [
-        "description",
-        "street"
-      ],
-      "reason": "Belegt in der Welle 18.11.2026, 18:00 verbessert; siehe research/wave-20261118-1800-report.md."
+      "reason": "Belegt in der Welle 19.11.2026, 00:00 verbessert; siehe research/wave-20261119-0000-report.md."
     }
   ],
-  "unchanged_rows": 58
+  "unchanged_rows": 59
 },
   "traders": [
     {
@@ -67,8 +52,8 @@
         "website": "",
         "website_status": "tot"
       },
-      "notes_sha256": "3e11685c38c08355947e29c04ab5e400de29f63937d4ce70002a21a76f6176f6",
-      "seed_hash": "1d0a006fffb0e6e8"
+      "notes_sha256": "b6f338992939ee329b4e3bed6e067fb018c840fd661d693514a15c8a18059332",
+      "seed_hash": "2024e8b973a81f09"
     },
     {
       "slug": "be-steglitz-zehlendorf-rich-herbig-metallhandel-berlin",
@@ -625,8 +610,8 @@
         "website": "https://www.schrotthaendler-plus.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "dfe9e548906f66b247805b861117e788e5f68915d345804a096230f5f40546c8",
-      "seed_hash": "723c3561a364aa17"
+      "notes_sha256": "28ffd65b4fbb62206f00c571236dc2b040d7021dcb04512508b637e3349a0fbb",
+      "seed_hash": "a804e3c87af38f7d"
     },
     {
       "slug": "nw-essen-cbr-bracke",
@@ -923,7 +908,7 @@
         "street": "Dillinger Str. 126",
         "postcode": "66822",
         "phone": "06881 1212",
-        "email": "",
+        "email": "markus-volz@t-online.de",
         "opening_hours": "",
         "description": "Historisch belegte Autoverwertung mit Unfallfahrzeugankauf und Ersatzteilverkauf; heutige Identitätskette, Standort und Anerkennung offen.",
         "status": "pruefung",
@@ -931,8 +916,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "d3b437488f9e7bb1c3bbd34614fe48851b8e8918af0173edd04b68f9fdd5b3cc",
-      "seed_hash": "5f0d8e344939aeb7"
+      "notes_sha256": "77dff1e8d7c6ce047178d07c39587517ebbe582ae322073e5c8d450afc002f11",
+      "seed_hash": "042f7bca13d39b10"
     },
     {
       "slug": "sn-grorohrsdorf-ot-bretnig-schrottaufbereitung-rosler",
