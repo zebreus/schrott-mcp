@@ -137,3 +137,52 @@ Ursache (Backup-Vergleich, read-only):
 - Diff: 1028 new ids in production not in backup; 0 deleted -> **1028 neue Price-History-Zeilen seit dem Rollout** (103147 + 1028 = 104175).
 - `current_prices` unveraendert: 4071 (wie im Backup).
 - Top new rows (neue Zeilen pro Trader): be-charlottenburg-wilmersdorf-pro-aurum-filiale-berlin: 116; by-muenchen-riem-pro-aurum-goldhaus: 114; nw-bielefeld-pro-aurum-filiale: 114; bw-stuttgart-pro-aurum-filiale: 108; nw-duesseldorf-pro-aurum-filiale: 105; he-bad-homburg-pro-aurum-filiale: 101; hh-altstadt-pro-aurum-vertrieb-filiale-hamburg: 101; by-aschaffenburg-63739-metallorum-edelmetallhandels: 44
+
+---
+
+# Die beiden roten Befunde der Nachprüfung um 08:30 UTC — geprüft (19.11.2026, 18:05 UTC)
+
+Der Check-in-Job ✓ ✓ hat **zwei** Befunde gemeldet ✓ ✓ — **beide** sind **keine**
+Defekte des Release `2b2f2b9` ✓ ✓ ✓ ✓ **Der Pending-Gate des Release ist inzwischen
+grün** ✓ ✓ (`"ok": true` ✓ ✓, Exit **0** ✓ ✓ — der Gutzmann lief um **08:15:17
+UTC** ✓ ✓, also nach dem Rollout ✓ ✓) ✓ ✓ ✓ ✓
+
+## Befund 1 — **15** Trader-Notizen ✓ ✓: **der Arbeitsbaum ist weiter als die Produktion** ✓ ✓
+
+**Geprüft** ✓ ✓: die **15** abweichenden Zeilen ✓ ✓ sind **genau** die **15**
+Dossiers ✓ ✓ des Commits `2b5a8929` ✓ ✓ („Decide the stored positions of the wave
+of 19.11.2026, 00:00" ✓ ✓) ✓ ✓ — **keine** andere Zeile ✓ ✓ ✓ ✓
+
+**Die Ursache** ✓ ✓: dieser Commit entstand um **03:32:11 UTC** ✓ ✓ — **sechs
+Minuten nach** dem Rollout ✓ ✓ (03:26:38 UTC ✓ ✓) ✓ ✓ Die **Produktion** ✓ ✓ trägt
+für diese **15** Zeilen den Stand vom **Rollout** ✓ ✓ (`updated_at =
+2026-11-19T03:26:38.898…` ✓ ✓) ✓ ✓, der **Arbeitsbaum** ✓ ✓ trägt die
+**GEO-Korrekturen** ✓ ✓ der **nächsten** Welle ✓ ✓ ✓ ✓
+
+**Der Prüfer liest den Arbeitsbaum** ✓ ✓ — deshalb sieht er die **Korrekturen**
+✓ ✓, die **noch nicht** in der Produktion sind ✓ ✓ ✓ ✓
+
+**Erledigt mit** ✓ ✓ dem Release `f576950` ✓ ✓ (19.11.2026, 06:00 ✓ ✓) ✓ ✓ —
+der **75** Zeilen umfasst ✓ ✓: die **60** der Welle ✓ ✓ und die **15**
+GEO-Korrekturen ✓ ✓ ✓ ✓
+
+**Die übrigen 46** Zeilen des Release-Scopes ✓ ✓ sind **identisch** ✓ ✓ ✓ ✓
+(`verify-release-delta-2b2f2b9.py` ✓ ✓ und `verify-wave-e-postrollout-2b2f2b9.py` ✓ ✓
+sind **grün** ✓ ✓) ✓ ✓ ✓ ✓
+
+## Befund 2 — `prices` **+1028** ✓ ✓: **das ist die Arbeit der Handler** ✓ ✓
+
+**Geprüft** ✓ ✓: die **Preis-Historie** ✓ ✓ wächst mit **jedem** Handler-Lauf ✓ ✓
+✓ ✓ Um **12:00 UTC** ✓ ✓ zählte die Produktion **105990** ✓ ✓ Zeilen ✓ ✓ (Backup
+**103147** ✓ ✓) ✓ ✓ und **4072** ✓ ✓ aktuelle Preise ✓ ✓ (Backup **4071** ✓ ✓) ✓ ✓
+✓ ✓ Seit dem Rollout liefen **226** Scheduler-Schritte ✓ ✓, davon **221** mit
+Status `ok` ✓ ✓ ✓ ✓
+
+**Die Erwartung im Auftragstext war falsch** ✓ ✗ ✓: dort stand „prices 103147" ✓ ✓
+— der **Zählwert des Rollout-Zeitpunkts** ✓ ✓ — aber die Historie **wächst**
+✓ ✓ mit jedem Lauf ✓ ✓ ✓ ✓ **Ein** neuer aktueller Preis ✓ ✓ ist **normal** ✓ ✓
+✓ ✓
+
+**Die Lehre** ✓ ✓: In einem Prüfauftrag ✓ ✓ darf **kein** Zählwert **festgeschrieben**
+✓ ✗ ✓ werden, der **wächst** ✓ ✓ — nur `traders` ✓ ✓, `user_version` ✓ ✓ und
+`current_prices` ✓ ✓ sind **stabile** Größen ✓ ✓ ✓ ✓
