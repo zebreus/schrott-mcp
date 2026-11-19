@@ -19,19 +19,21 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "f5b4391",
-  "owner_review": "research/wave-20261119-0000-report.md",
+  "dossier_revision": "f576950",
+  "owner_review": "research/wave-20261119-0600-report.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 19.11.2026, 00:00)",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases f5b4391 gehoben",
+  "revised_by": "Owner (Welle 19.11.2026, 06:00)",
+  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases f576950 gehoben",
   "rows": [
     {
-      "slug": "sl-lebach-autoverwertung-volz-renate-volz",
+      "slug": "st-sandau-schrotthandel-r-thieke",
       "fields": [
-        "email"
+        "description",
+        "name",
+        "status"
       ],
-      "reason": "Belegt in der Welle 19.11.2026, 00:00 verbessert; siehe research/wave-20261119-0000-report.md."
+      "reason": "Belegte Sachlage geaendert (status: pruefung -> aktiv); Owner-Entscheidung, keine Wertverbesserung; siehe research/wave-20261119-0600-report.md."
     }
   ],
   "unchanged_rows": 59
@@ -916,8 +918,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "77dff1e8d7c6ce047178d07c39587517ebbe582ae322073e5c8d450afc002f11",
-      "seed_hash": "042f7bca13d39b10"
+      "notes_sha256": "cd9b3602d6ae536ceed42e07a5e553d9274b743d966f04c8ab66720bef697016",
+      "seed_hash": "bc2bd6a3401c265a"
     },
     {
       "slug": "sn-grorohrsdorf-ot-bretnig-schrottaufbereitung-rosler",
@@ -1030,20 +1032,20 @@
     {
       "slug": "st-sandau-schrotthandel-r-thieke",
       "values": {
-        "name": "Schrotthandel R. Thieke",
+        "name": "Schrotthandel & Containerdienst O. Thieke GmbH",
         "street": "Bahnhofstr. 2-4",
         "postcode": "39524",
         "phone": "0171 7122391",
         "email": "",
         "opening_hours": "",
-        "description": "",
-        "status": "pruefung",
+        "description": "Schrotthandel & Containerdienst O. Thieke GmbH, Bahnhofstraße 2-4, 39524 Sandau (Elbe), HRB 22702 AG Stendal; laut amtlichem Originalzertifikat ein Entsorgungsfachbetrieb nach § 56 KrWG mit Vorgangsnummer ZZLT003000671012, Zertifikatsnummer F-26-11351, fünf Anlagen und Gültigkeit bis 15.08.2027, zertifiziert für Sammeln, Befördern, Lagern, Behandeln und Verwerten einschließlich der Abfallarten 191202 Eisenmetalle und 191203 Nichteisenmetalle. ANKAUF: kein bezifferter Ankaufkurs veröffentlicht. VERKAUF: keine Materialpreisliste. GEBÜHREN: keine Abhol- oder Entsorgungstarife veröffentlicht. Der bisherige Seedname Schrotthandel R. Thieke ist eine Verzeichnisschreibvariante desselben Eintrags.",
+        "status": "aktiv",
         "trader_type": "schrottplatz",
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "606b9efbf2d00d0c1bec8e9111db23e8896e744d199059638bca1b4ee55f9d38",
-      "seed_hash": "c345b1f463fb4835"
+      "notes_sha256": "066e1df73038973475686182f60efd89194a410c2292d70c2d9871f149037541",
+      "seed_hash": "a5a81ebb8aa8ba78"
     },
     {
       "slug": "th-bad-tennstedt-schrottabholdienst-scheffler-mario",
