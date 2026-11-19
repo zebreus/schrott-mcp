@@ -1,19 +1,20 @@
 ---
 slug: st-kalbe-rilei
-clear_fields: geo
 name: Rilei Automobile GmbH
 trader_type: autoverwertung
 state: ST
 city: Kalbe
-street: ''
-postcode: ''
+street: 'Zum Rundling 44'
+postcode: '39624'
+lat: 52.7030531
+lon: 11.2543585
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
 status: pruefung
-description: Registeridentität Rilei Automobile GmbH in Cheinitz gefunden, früher RILEI Autoverwertung GmbH Badel; heutige Autoverwertung und Ankaufbedingungen ungeklärt, ehemalige Domain geparkt.
+description: Registeridentität Rilei Automobile GmbH, HRB 737 Stendal, mit früherem Namen RILEI Autoverwertung GmbH Badel; Registeranschrift Zum Rundling 44, 39624 Kalbe (Milde) OT Cheinitz nach dem GLEIF-Datensatz und dem amtlichen OSM-Betriebsobjekt Autowerkstatt Rilei (operator Rilei GmbH, shop car_repair) am selben Ort; im amtlichen Fachbetrieberegister ist der Betrieb nicht geführt, die heutige Autoverwertung und die Ankaufbedingungen bleiben ungeklärt, die ehemalige Domain rilei.de steht zum Verkauf.
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -109,3 +110,8 @@ Registerzweck umfasst Abschleppen/Bergung, Autoverwertung/Entsorgung, Fahrzeug- 
   https://api.gleif.org/api/v1/lei-records/529900TGM8IAAPLG8W46 ;
   https://www.northdata.de/Rilei+Automobile+GmbH,+Kalbe+(Milde)/Amtsgericht+Stendal+HRB+737 ;
   https://www.auto-werkstatt.de/kalbe/rilei-automobile-gmbh-aULLNy (Abruf 04.11.2026).]
+
+### Recherche 19.11.2026 (Welle 0600 B)
+
+- [Recherche 19.11.2026: **Die im Dossier vom 04.11.2026 dokumentierte Feststellung, die Straße Zum Rundling und die Hausnummer 44 existierten in OSM nicht, ist überholt: beides existiert, und der Betrieb ist dort als benanntes Betriebsobjekt erfasst.** Das Objekt `node/4335589297` trägt `name`=Autowerkstatt Rilei, `operator`=Rilei GmbH, `shop`=car_repair, `addr:street`=Zum Rundling, `addr:housenumber`=44, `addr:postcode`=39624, `addr:city`=Kalbe (Milde), `addr:country`=DE und liegt bei 52.7030531/11.2543585. Die Straßenobjekte `way/107414441`, `way/107414443`, `way/107414446`, `way/107414447` und `way/107414453` führen `name`=Zum Rundling, eines davon den Vermerk `note`=Ortsschild fehlt; das fehlende Ortsschild ist die naheliegende Erklärung dafür, dass der Ortsteil bei Kartenscans ohne Ortsbezug bleibt. Die Rückauflösung des Punktes weist die Straße als `Zum Rundling, Cheinitz, Kalbe (Milde), Altmarkkreis Salzwedel, 39624` aus, deckungsgleich mit der GLEIF-Registeradresse `Zum Rundling 44, Cheinitz, 39624` der Rilei Automobile GmbH, HRB 737; eine live am 19.11.2026 abgerufene Kachel über dem Ortsteil zählt auf dieser Straße genau ein Adressobjekt mit der Hausnummer 44. Das Verzeichnisprofil `auto-werkstatt.de` nennt dieselbe Nummer mit der abweichenden Schreibweise `Cheinitzer Rundling 44`. `street` und `postcode` wurden daher aus der belegten Adresse übernommen und die Koordinate 52.7030531/11.2543585 gesetzt; die offene `clear_fields: geo` wurde deshalb entfernt, es gab in der Produktionsdatenbank keinen Punkt zu diesem Datensatz. Quellen: https://api.openstreetmap.org/api/0.6/node/4335589297.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.7030531&lon=11.2543585&zoom=16&addressdetails=1 ; https://api.gleif.org/api/v1/lei-records/529900TGM8IAAPLG8W46 .]
+- [Recherche 19.11.2026: **Amtliche Gegenprobe negativ, die heutige Tätigkeit als Autoverwertung bleibt unbelegt.** Die Namenssuche `Rilei` liefert im Fachbetrieberegister in den Routen `Entsorgungsfachbetriebe` und `Altfahrzeugverwertung` je 0 Treffer; die Standortabfrage mit 5 km um Zum Rundling 44, 39624 Kalbe liefert 1 Efb-Treffer (Deponie GmbH Altmarkkreis Salzwedel, Wertstoffhof Apenburg, Badeler Straße, 38486 Winterfeld OT Apenburg, 3,2 km, `ZZNE00200043`, Lagern) und 0 AltfahrzeugV-Treffer; der zertifizierte Wertstoffhof Kalbe (Milde) der Deponie GmbH an der Schulstraße 11 liegt rund 10 km vom Rilei-Standort entfernt. Die Suche des amtlichen Handelsregisterportals nach `Rilei` findet keinen Rechtsträger dieses Namens, sie liefert nur `RILEIT GmbH`, Ludwigshafen a.Rhein, `HRB 2189`, und `Rileit Raumausstattung e.K.`, Walsrode, `HRA 201723`; die Registersuche ist unscharf und ein Register-Nichteintrag kein Nichtexistenzbeweis. Der GLEIF-Datensatz weist weiterhin `entity.status` ACTIVE bei `registration.status` LAPSED und `lastUpdateDate` 19.07.2021 aus, und die Domain `rilei.de` steht weiterhin zum Verkauf; der OSM-Betriebseintrag belegt eine Autowerkstatt mit `shop`=car_repair, nicht die Autoverwertung. `status: pruefung` bleibt deshalb unverändert. **Ankauf:** keine Schrott- oder Fahrzeugkurse; **Verkauf:** keine Ersatzteilpreisliste; **Gebühren:** keine Tarife. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Rilei ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Zum%20Rundling%2044%2C%2039624%20Kalbe%2C%20Deutschland%3B11.2543585%3B52.7030531%3B11.3284832%3B52.7479687%3B11.1802338%3B52.6581375&dst=5&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Rilei .]
