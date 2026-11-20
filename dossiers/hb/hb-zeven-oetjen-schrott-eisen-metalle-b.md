@@ -6,6 +6,8 @@ state: HB
 city: Zeven
 street: Wacholderweg 14
 postcode: '27404'
+lat: 53.1891592
+lon: 9.3369276
 phone: 04281 4722
 email: ''
 opening_hours: ''
@@ -50,3 +52,10 @@ B. Oetjen, Wacholderweg 14, 27404 Zeven, 04281 4722 bleibt ein historischer Verz
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Der aktuelle Cylex-Eintrag zu „B. Oetjen“, Wacholderweg 14, 27404 Zeven, gibt zusätzlich „Birgit Oetjen“ als Geschäftsname an. Das ist ein einzelner Verzeichnislead, kein Register-/Betreiberbeleg; daher weder Firmenname noch Kontaktfelder geändert. Kein Nachweis einer Verbindung zur Oetjen Rohstoffhandel GmbH oder zu den anderen Oetjen-Adressen; keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren gefunden. Quelle: https://web2.cylex.de/firma-home/b--oetjen-6489079.html]
+
+### Recherche 20.11.2026 (Welle 0600 C)
+
+- [Recherche 20.11.2026: **Anschrift hausnummergenau belegt, aber in einer anderen Gemeinde — der Ortsteil bleibt offen.** `node/8093823206` trägt `addr:street`=Wacholderweg, `addr:housenumber`=14 bei **53.1891592/9.3369276** (Hausnummer-Treffer, ohne PLZ- oder Ortstags). Die Nominatim-Vorwärtssuche nach der Dossier-Adresse löst denselben Knoten als `14, Wacholderweg, Hesedorf, Gyhum, Samtgemeinde Zeven, Landkreis Rotenburg (Wümme), 27404` auf — die PLZ **27404** passt also zum Dossier, der **Ortsteil** ist aber Hesedorf in der Gemeinde Gyhum und **nicht** die Stadt Zeven; `city` bleibt deshalb unverändert `Zeven`, und die Auflösung des Ortsteils ist als **offener Punkt für den Owner** dokumentiert. `lat`/`lon` wurden auf den Adressknoten gesetzt (Punkt = Anschrift). Quelle(n): https://api.openstreetmap.org/api/0.6/node/8093823206.json ; https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&extratags=1&q=Wacholderweg%2014%2C%2027404%20Zeven (Abruf 20.11.2026).]
+- [Recherche 20.11.2026: **Amtliches Fachbetrieberegister — kein Treffer.** Live-Abfrage am 20.11.2026: die Namenssuche `Oetjen` liefert in der Route `Entsorgungsfachbetriebe` **0** Treffer; die 5-km-Ortsabfrage um Wacholderweg 14 liefert **1** Zeile, und zwar `Johann Otten BIOTECH e.K. Kompostierungsanlage`, Bundesstraße 22, 27404 Wehldorf, `ZZET02000210 / 2` (Lagern, Behandeln, Verwerten) bei 3,8 km — **kein** Treffer nennt Oetjen oder den Wacholderweg. **Reichweite:** die Efb-Anerkennung ist freiwillig, ein Register-Nichteintrag ist **kein** Nachweis für fehlende Zertifizierung, für Nichtexistenz oder für Betriebsende. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Oetjen ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Wacholderweg%2014%2C%2027404%20Zeven%2C%20Deutschland%3B9.3369276%3B53.1891592%3B9.3811223%3B53.2165607%3B9.2927329%3B53.1617577&dst=5&is=1&e=1 (Abruf 20.11.2026).]
+- [Recherche 20.11.2026: **Namensvetter Oetjen Rohstoffhandel GmbH — nicht zugeordnet.** Die `Oetjen Rohstoffhandel GmbH` führt laut Gelbe Seiten und Das Telefonbuch `Herrenbrümmer 18, 27404 Zeven`, Tel. 04281 9521424, `oetjen-rohstoffhandel.de`, `info@oetjen-rohstoffhandel.de`, mit dem zweiten Standort `Otto-von-Guericke-Str. 4, 27356 Rotenburg (Wümme)`; das Unternehmen nennt weder den Wacholderweg 14 noch die Nummer 04281 4722. Die Domain lieferte beim Abruf am 20.11.2026 keinen Inhalt. **Keine** Zuordnung, **keine** Übernahme von Kontakt-, Standort- oder Preisdaten; das Dossier bleibt getrennt. Quelle(n): https://www.gelbeseiten.de/gsbiz/a433a55f-9474-45f1-80c8-e9c430b3384d ; https://adresse.dastelefonbuch.de/Zeven/3-Schrott-Oetjen-Rohstoffhandel-GmbH-Zeven-Herrenbr%C3%BCmmer.html (Abruf 20.11.2026).]
+- [Preise 20.11.2026: **ANKAUF** — keine Kurse belegt; **VERKAUF** — keine Preisliste; **GEBÜHREN** — keine Tarife. `status` bleibt `pruefung`, `website` bleibt leer, `website_status` bleibt `unbekannt`.]
