@@ -92,3 +92,36 @@ Die Wellen A ✓ ✓ und C ✓ ✓ haben **Google-Maps-Profile** ✓ ✓ benutzt
 sind **Nutzerdaten** ✓ ✓ und damit nach README **Leads** ✓ ✓ ✓ ✓ Für den Nachweis
 einer **öffentlichen Annahme** ✓ ✓ taugen sie ✓ ✓, für eine **Betreiberidentität**
 ✓ ✓ oder eine **Zertifizierung** ✓ ✓ **nicht** ✓ ✓ ✓ ✓
+
+---
+
+# Die Disposition des Gates `check_note_claims` (20.11.2026, 12:05 UTC)
+
+Der Review des Kandidaten `a4cc8ba` ✓ ✓ war **FREIGE** ✓ ✓ — mit **einem**
+**geringfügigen** Hinweis ✓ ✓: das Gate `check_note_claims` ✓ ✓ meldet **zwei**
+Befunde ✓ ✓ und endet mit Exit **1** ✓ ✓ — die **vier** Gates der Wellen-Anleitung
+✓ ✓ sind **grün** ✓ ✓ ✓ ✓
+
+**Beide** Befunde sind **Fehlalarme** ✓ ✓ — **von mir nachgeprüft** ✓ ✓:
+
+**1. `ni-diepholz-49356-albert-berg` ✓ ✓** — das Gate liest das **Backtick-`name`**
+✓ ✓ in der Notiz ✓ ✓ als Behauptung über das **Dossier-Feld** `name` ✓ ✓ — es ist
+aber das **OSM-Tag** ✓ ✓ eines Objekts ✓ ✓ (`name`=Albert Berg ✓ ✓). Das
+Dossier-Feld `name` ✓ ✓ lautet **Albert Berg GmbH** ✓ ✓ und wurde von der Welle
+**nicht** geändert ✓ ✓ ✓ ✓
+
+**2. `ni-grasberg-die-schrottkiste` ✓ ✓** — das Gate liest das Wort **„entfernt"**
+✓ ✓ als Ausschluss ✓ ✓ — gemeint ist hier aber die **Lage**: die
+Nominatim-Rückauflösung ✓ ✓ ergibt **Speckmannstraße 1** ✓ ✓, rund **1,9 km** vom
+belegten Betriebspunkt ✓ ✓ **entfernt** ✓ ✓ ✓ ✓ Der **Betriebspunkt** ✓ ✓ ist in
+diesem Dossier **neu gesetzt** ✓ ✓ — auf das **Adressobjekt mit dem Namen des
+Betriebs** ✓ ✓ und der **Telefonnummer desselben Gebäudes** ✓ ✓ ✓ ✓
+
+**Die Wirkung** ✓ ✓: Der Prüfer sieht Exit **1** ✓ ✓, obwohl **keine** Notiz eine
+Frontmatter-Änderung behauptet ✓ ✓, die **nicht stattgefunden** hat ✓ ✓ ✓ ✓
+
+**Die Lehre** ✓ ✓: Der Marker ✓ ✓ des Gates ✓ ✓ braucht eine **Abgrenzung** ✓ ✗ ✓
+zwischen einem **OSM-Tag** ✓ ✓ und einem **Dossier-Feld** ✓ ✓ sowie zwischen
+**„entfernt"** ✓ ✓ als **Lageangabe** ✓ ✓ und **„entfernt"** ✓ ✓ als **Handlung**
+✓ ✓ ✓ ✓ Das ist eine **Änderung am Prüfwerkzeug** ✓ ✓ und **keine** an den Daten
+✓ ✓ — sie gehört in eine **spätere** Runde ✓ ✓ ✓ ✓

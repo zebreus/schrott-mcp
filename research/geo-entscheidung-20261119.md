@@ -56,14 +56,28 @@ Betreibers** ✓ ✓, ein **Sanitätshaus** ✓ ✓, ein **Straßenobjekt** ✓ 
 ✓ ✓ (auf einer anderen Straße ✓ ✓) und **150 km** ✓ ✓ (in einem anderen Ort ✓ ✓)
 ✓ ✓
 
-### Bleibt ✓ ✓ — **26** ✓ ✓
+### Bleibt ✓ ✓ — **25** ✓ ✓
 
-Diese **26** Punkte treffen die **Dossier-Adresse** ✓ ✓ (zwischen **0 m** ✓ ✓ und
-**250 m** ✓ ✓) ✓ ✓ oder markieren nur die **Gemeinde** ✓ ✓ — darunter
-`by-obertraubling-kaiser-recycling` ✓ ✓ (die Seed-Koordinate 48.9667/12.1667 ist
-auf die Minute gerundet ✓ ✓ und trifft Obertraubling ✓ ✓),
-`st-klostermansfeld-dave-s` ✓ ✓ (51.5833/11.5 ✓ ✓, gerundet ✓ ✓) und
-`sn-mobil-leipzig-schrottjungs-schrottabholung-leipzig` ✓ ✓ (Stadtmitte ✓ ✓) ✓ ✓
+Diese **25** Punkte treffen die **Dossier-Adresse** ✓ ✓ (zwischen **0 m** ✓ ✓ und
+**250 m** ✓ ✓) ✓ ✓ oder markieren nur die **Gemeinde** ✓ ✓ ✓ ✓
+
+**Aus der Welle 06:00** ✓ ✓ — **elf** ✓ ✓:
+`bb-zossen-axel-spitzer-schrotthandel-und-autoverwe` ✓ ✓ · `be-mitte-andreas-kendzierski` ✓ ✓
+· `by-obertraubling-kaiser-recycling` ✓ ✓ (die Seed-Koordinate 48.9667/12.1667 ist auf
+die Minute gerundet ✓ ✓ und trifft Obertraubling ✓ ✓) · `hb-neustadt-koluman` ✓ ✓ ·
+`hh-billbrook-hanse-kfz-verwertung` ✓ ✓ · `mv-gutzkow-schrotthandel-donner` ✓ ✓ ·
+`sl-st-wendel-schrott-manz-alexander` ✓ ✓ · `sl-volklingen-rve-rech-volker-schrott-entsorgung` ✓ ✓ ·
+`sn-jahnsdorf-ot-pfaffenhain-schrotti` ✓ ✓ · `st-klostermansfeld-dave-s` ✓ ✓
+(51.5833/11.5 ✓ ✓, gerundet ✓ ✓) · `st-sandau-schrotthandel-r-thieke` ✓ ✓ ✓ ✓
+
+**Aus der Welle 18:00** ✓ ✓ — **vierzehn** ✓ ✓:
+`bb-groraschen-husic` ✓ ✓ · `bw-villingen-schwenningen-renz-rohstoffe-renz-container` ✓ ✓ ·
+`by-hunderdorf-weis` ✓ ✓ · `by-pressath-92690-dahms-falk-av` ✓ ✓ ·
+`mv-demmin-schwiemann-recycling` ✓ ✓ · `mv-helmshagen-altmetallhandel-udo-schanko` ✓ ✓ ·
+`ni-furstenau-fs-schrotthandel-behlert` ✓ ✓ · `ni-norden-weerts-peters-schrotthandel` ✓ ✓ ·
+`sl-riegelsberg-reinhard-rojan` ✓ ✓ · `sn-frankenberg-rainer-reinwarth-bde` ✓ ✓ ·
+`sn-freital-wertstoffhandel-scharschuch-david-jakob` ✓ ✓ · `st-osterburg-autoverwertung-muhl` ✓ ✓ ·
+`st-ziepel-winzer-helge` ✓ ✓ · `th-milda-auto-schroth` ✓ ✓ ✓ ✓
 
 **Ein** Sonderfall ✓ ✓: `sn-leipzig-scholz-recycling-…` ✓ ✓ — der Punkt ist der
 **Mittelwert** der beiden Finderpunkte ✓ ✓ und löst auf ein **Geschäftslokal** im
