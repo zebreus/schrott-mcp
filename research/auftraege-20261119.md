@@ -248,3 +248,37 @@ Release ✓ ✓ ✓ ✓ Wenn ein Agent aufräumt ✓ ✓, dann **nur** `/tmp/ope
 Agenten ✓ ✓ konkurrieren um **dieselben** Ressourcen ✓ ✓ — **Platte** ✓ ✓,
 **Speicher** ✓ ✓ und **Verzeichnisse** ✓ ✓ ✓ ✓ Der Zyklus gehört **in eine
 Ruhephase** ✓ ✓ ✓ ✓
+
+---
+
+## ERLEDIGT — Nachprüfung nach Rollout 01a05b2 (20.11.2026, 02:50:08 UTC), Nachweis
+
+Alle acht Prüfungen grün (Checkin: `research/checkin-20261120-0900-owner.md`).
+
+- **MSG** (`th-gotha-msg-metallrecycling-msg-schrott-und-meta`): letzter Lauf
+  2026-11-20T05:06:35.263676799+00:00, Status ok, items_upserted 124
+  (Erwartung: ok, 124, nach 02:50:08Z ✓)
+- **Gutzmann** (`th-gotha-sdm-gutzmann`): letzter Lauf
+  2026-11-20T08:53:39.233854274+00:00, Status ok, items_upserted 19
+  (Erwartung: ok, 19, nach 02:50:08Z ✓)
+- **MKM** (`rp-ludwigshafen-mkm-metals`): letzter Lauf
+  2026-11-20T06:06:57.003254328+00:00, Status ok, items_upserted 56
+  (Erwartung: ok, 56 ✓)
+- Gate `verify-pending-corrections-01a05b2.py --since 2026-11-20T02:50:08Z`:
+  `{"ok": true, "msg_managed_count": 124, "failures": []}` ✓
+- `verify-release-delta-01a05b2.py`: `{"ok": true, "checked_count": 128, "failures": []}` ✓
+- `verify-wave-e-postrollout-01a05b2.py`: `{"ok": true, "checked_count": 128, "geo_checks": 128, "service_checks": 128, "failures": []}` ✓
+- `verify_notes_in_production.py --scope research/release-20261120-0000-scope.json`: `{"ok": true, "scope": 128, "checked": 128, "failures": []}` ✓
+- `verify_notes_in_production.py --scope research/release-20261119-1800-scope.json`: `{"ok": true, "scope": 68, "checked": 68, "failures": []}` ✓
+- Produktion (read-only): `traders` = 3945, `user_version` = 12;
+  `systemctl show schrott-mcp`: ActiveState=active, SubState=running,
+  NRestarts=0, ExecMainStartTimestamp=Fri 2026-11-20 02:50:08 UTC ✓
+- Geo: `bw-pforzheim-agosi-ag` (48.8922374, 8.7187427),
+  `sl-neunkirchen-thirion-ralf-e-metallgrohandlung` (49.3521884, 7.1848943),
+  `th-nordhausen-autoverwertung-boesenberg-manuela-sachse` (51.5044115, 10.8362408)
+  — neue Koordinaten vorhanden (read-only gelesen); entfernte Punkte stehen
+  ohne Koordinate: `he-friedberg-61169-schwarz-wolfgang`,
+  `by-forchheim-schrott-franz-und-nelly`,
+  `sn-lichtenstein-otto-stiegler-schrott-metallhandel-inh-h` ✓
+- Hinweis: die `prices`-Historie wurde zur Größen-Nachprüfung nicht gemessen
+  (wächst mit jedem Handler-Lauf; nicht stabil).
