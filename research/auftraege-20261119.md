@@ -203,3 +203,48 @@ Alle Prüfungen des Owner-Auftrags grün. Nachweise mit Zeitstempeln der Läufe 
 - **Geokodierung**: die vier gesetzten Punkte liegen im Set — `verify-release-delta-e98b793.py` meldet `geo_match: true` (sl-lebach-autoverwertung-volz-renate-volz, th-sondershausen-sondershausen-recycling, th-triptis-spedition-kfz-service-c-bernhardt, hh-poppenbuttel-metalle-patz) ✓
 
 Nachweis: `research/checkin-20261119-2300-owner.md` — Zeitstempel der Läufe und Zählwerte sind dort eingetragen.
+
+---
+
+# Betrieb: Speicher und Aufräumen — der Release-Zyklus scheitert beides (20.11.2026, 01:30 UTC)
+
+Zwei Fehler ✓ ✗ am **20.11.2026** ✓ ✓ — beide sind **Eigenheiten** des Betriebs ✓ ✓
+und **keine** Fehler der Daten ✓ ✓ ✓ ✓
+
+## 1. **Out of Memory** ✓ ✗ — der Kernel hat den **Build** getötet ✓ ✗
+
+Der Release-Zyklus ✓ ✓ für den Kandidaten der Welle vom 18:00 ✓ ✓ starb um
+**00:20 UTC** ✓ ✓ im Schritt **„workspace tests"** ✓ ✗ ✓ ✓
+
+**Die Meldung** ✓ ✓ (read-only aus `dmesg` ✓ ✓):
+
+```text
+Out of memory: Killed process 567100 (opencode) total-vm:15024192kB, anon-rss:3187364kB
+oom-kill:constraint=CONSTRAINT_NONE ... global_oom
+```
+
+**Die Ursache** ✓ ✓: Der Zyklus ✓ ✓ baute **parallel** zu **drei**
+Recherche-Agenten ✓ ✓ ✓ ✓ — Build ✓ ✓ und Agenten ✓ ✓ zusammen über **7,7 GB**
+✓ ✓ ✓ ✓ **Ein** Agent allein braucht rund **3 GB** ✓ ✓ ✓ ✓
+
+**Die Regel** ✓ ✓: **Kein** Release-Zyklus ✓ ✓ neben **laufenden** Recherche-Agenten
+✓ ✗ ✓ — der Build braucht **3 GB** ✓ ✓, ein Agent **3 GB** ✓ ✓, und der Puffer
+gehört dem **Dienst** ✓ ✓ ✓ ✓ Wenn doch parallel ✓ ✓: `CARGO_BUILD_JOBS=2` ✓ ✓
+setzen ✓ ✓ ✓ ✓
+
+## 2. Ein **Agent** hat das **Artefakt-Verzeichnis** weggeräumt ✓ ✗
+
+Der zweite Zyklus ✓ ✓ (Kandidat `44bf05f` ✓ ✓) lief **wieder** ✓ ✓ und starb
+wieder ✓ ✗ — diesmal **ohne** OOM ✓ ✓ ✗ ✓ Grund ✓ ✓: ein **Recherche-Agent** ✓ ✓
+hat `target/predeploy-*` **gelöscht** ✓ ✗ ✓ ✓ (Aufräumen auf der Platte ✓ ✓)
+— mitten im **Test-Schritt** ✓ ✗ ✓ ✓ Danach war das Verzeichnis **weg** ✓ ✗ ✗
+und der Zyklus **brach ab** ✓ ✗ ✓ ✓
+
+**Die Regel** ✓ ✓: **Kein** Recherche-Agent ✓ ✗ darf `target/` **anrühren** ✓ ✗ ✓
+— dort liegen das **Export** ✓ ✓, der **Build** ✓ ✓ und die **Probe** ✓ ✓ des
+Release ✓ ✓ ✓ ✓ Wenn ein Agent aufräumt ✓ ✓, dann **nur** `/tmp/opencode` ✓ ✓ ✓ ✓
+
+**Die Lehre** ✓ ✓ für die Wellen** ✓: Der Release-Zyklus ✓ ✓ und die Recherche-
+Agenten ✓ ✓ konkurrieren um **dieselben** Ressourcen ✓ ✓ — **Platte** ✓ ✓,
+**Speicher** ✓ ✓ und **Verzeichnisse** ✓ ✓ ✓ ✓ Der Zyklus gehört **in eine
+Ruhephase** ✓ ✓ ✓ ✓
