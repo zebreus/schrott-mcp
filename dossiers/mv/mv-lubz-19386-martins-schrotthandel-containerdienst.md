@@ -4,15 +4,16 @@ name: Martins Schrotthandel & Containerdienst
 trader_type: containerdienst
 state: MV
 city: Lübz 19386
-street: ''
-postcode: ''
-phone: ''
+street: Am Hafen 10a
+postcode: '19386'
+phone: 038731 22406
 email: ''
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+website: https://www.schrott-martins.de/
+website_status: aktiv
+status: aktiv
+description: 'Schrotthandel und Containerdienst in Lübz, Inhaberin Stefanie Martins. Amtlich anerkannter Entsorgungsfachbetrieb (TOS Prüf GmbH Rostock, Vorgangsnummer ZZMT004001716007, gültig bis 22.09.2027) mit den Tätigkeiten Sammeln, Befördern, Lagern, Behandeln, Verwerten und Beseitigen. Sorten laut Betreiber sind Mischschrott, Kupfer in Millberry, steckerfreie Kupfer- und Aluminiumkabel, Messing, Aluminium, Blei, Motoren, Zink, Zinn, V2A, Kühler und Bleibatterien; Ankauf zu Richtpreisen auf Anfrage mit Endpreis nach Gutbefund und Verwiegung, Verkauf von Kies, Sand, Splitt, Betonrecycling, Oberboden und Frostschutz ohne Preise, Entsorgung und Container ohne Tarife.'
+certifications: '["Entsorgungsfachbetrieb §56 KrWG: Martins Schrotthandel und Containerdienst, Am Hafen 10a, 19386 Lübz; Vorgangsnummer ZZMT004001716007 (Feld 3.3 des Zertifikats), Register-Nummer ZZMT00400171, Zertifikatsnummer TOS-E-233-20-06 der TOS Prüf GmbH Rostock, gültig bis 22.09.2027; zertifizierte Tätigkeiten Sammeln, Befördern, Lagern, Behandeln, Verwerten und Beseitigen mit den Kennungen M60BF09014 und M60ZL-0093; Anlage 1 umfasst neben Bau-, Holz-, Glas-, Kunststoff- und Papierfraktionen die Metallschlüssel 120101, 120102, 120103, 120104, 120105, 120113, 150104, 170401, 170402, 170403, 170404, 170405, 170406, 170407, 170409, 170411 und 200140"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
@@ -48,3 +49,8 @@ Betreiberauftritt schrott-martins.de nennt Schrotthandel & Containerdienst Marti
 - Schrott/Container — Register-Vollname; Seed "Martins Heiko Containerdienst" ohne Adresse = mögl. derselbe → Dedupe/Adress-Upgrade
 - urspr. Website-Angabe: keine
 - Adresse: Lübz 19386, Am Hafen 10a
+
+### Recherche 20.11.2026 (Welle 0000 B)
+
+- [Recherche 20.11.2026: Das amtliche Fachbetrieberegister fuehrt den Betrieb als anerkannten Entsorgungsfachbetrieb, und das Zertifikats-PDF wurde am 20.11.2026 vollstaendig gelesen. Die Namenssuche Martins in der Route Entsorgungsfachbetriebe liefert genau eine passende Zeile: `Martins Schrotthandel und Containerdienst` am Standort `Am Hafen 10a, 19386 Luebz`, Vorgangsnummer `ZZMT00400171`, Zertifikatsanlagennr. 1, Taetigkeiten Sammeln, Befoerdern, Lagern, Behandeln, Verwerten und Beseitigen, Register-E-Mail `schrottmartins@web.de`, Telefon `038731 22406`. Zur Nummernschreibweise: die Rasterzeile des Registers lautet `ZZMT00400171`, die Vorgangsnummer aus Feld 3.3 des Zertifikats lautet `ZZMT004001716007` und der Dateiname des Zertifikats-PDF im Register lautet `ZZMT004001717.pdf`; die Zertifikatsnummer der Zertifizierungsorganisation ist `TOS-E-233-20-06` der `TOS Pruef GmbH`, Rostock, gueltig bis 22.09.2027, Pruefdatum 16.03.2026, Ausstellungsdatum 24.03.2026, mit einer Anlage (Anlage 1, Kennung M60ZL009). Die Anlagenblaetter weisen als angekreuzt aus: 2.1 Sammeln (Kennung M60BF09014), 2.2 Befoerdern (M60BF09014), 2.3 Lagern, 2.4 Behandeln, 2.5 Verwerten und 2.6 Beseitigen (jeweils M60ZL-0093), nicht angekreuzt sind 2.7 Handeln und 2.8 Makeln. Der Eintrag in das Handelsregister ist Nicht zutreffend (Einzelunternehmen). Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Martins ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/p=`ZZMT00400171`&fd=1 (Abruf 20.11.2026).]
+- [Recherche 20.11.2026: Die Betaetreiberseiten wurden am 20.11.2026 erneut vollstaendig gelesen. Das Impressum nennt `Schrotthandel & Containerdienst Martins`, `Inh. Stefanie Martins`, `Am Hafen 10a, 19386 Luebz`, Telefon `038731-22406`, Fax `038731-22409`, `info@schrott-martins.de` und die weiterhin unbelegten Platzhalter HRB Nummer XYZ und `USt.Id. DE XYZ`; die Seite Zertifikat und Diplom nennt als Zertifizierungsorganisation die `TOS Pruef GmbH` und damit deckungsgleich die Organisation des amtlichen Zertifikats, waehrend die Seite Materialverkauf und die Sortenliste weiterhin nur Bau- und Gartenstoffe ohne Preise nennen. `street`, `postcode`, `phone`, `website`, `website_status`, `status` und `certifications` sind im Frontmatter entsprechend der amtlichen und betaetigerseitigen Belege gesetzt, `description` ist ergaenzt; `email` bleibt unveraendert leer, weil die Betaetreiberseite `info@schrott-martins.de` nennt, das amtliche Register dagegen `schrottmartins@web.de` fuehrt und ein zweiter Beleg fuer eine der beiden Adressen fehlt. Zur Seed-Bezeichnung: der Seed-Name `Martins Heiko Containerdienst` ist weder im amtlichen Fachbetrieberegister noch im amtlichen Handelsregisterportal auffindbar (Suche Martins Schrotthandel Containerdienst: keine Suchergebnisse), während Register, Betaetreiberseite und die Verzeichniseintraege uebereinstimmend `Martins Schrotthandel und Containerdienst` mit Inhaberin Stefanie Martins an Am Hafen 10a fuehren; die Seed-Bezeichnung wird deshalb als veraltete Namensvariante desselben Betriebes behandelt, eine Rechtsnachfolge oder Umfirmierung ist aus den Belegen nicht ableitbar. **Ankauf:** Richtpreise auf Anfrage, Endpreis nach Gutbefund und Verwiegung, keine Zahlenkurse. **Verkauf:** Baustoffsortiment ohne Preise. **Gebuehren:** Entsorgung und Container ohne Tarife, eine kostenlose Annahme ist daraus nicht ableitbar. Quelle(n): https://www.schrott-martins.de/impressum/ ; https://www.schrott-martins.de/zertifikat-diplom/ ; https://www.schrott-martins.de/portfolio/schrott-metallhandel-luebz/ (Abruf 20.11.2026).]

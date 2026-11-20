@@ -4,15 +4,16 @@ name: Jordan Autoverwertung (Ahmad Bataineh)
 trader_type: autoverwertung
 state: SN
 city: Reichenbach 08468
-street: ''
-postcode: ''
-phone: ''
+street: Heinsdorfer Str. 25b
+postcode: '08468'
+phone: 0173 9682348
 email: ''
 opening_hours: ''
 website: ''
 website_status: 'unbekannt'
 status: pruefung
-description: ''
+description: 'Autoverwertung in Reichenbach; im amtlichen Fachbetrieberegister als anerkannter Altfahrzeugverwertungsbetrieb geführt, Vorgangsnummer ZALS00800037, Kennnummer S23E00896, Inhaber Ahmad Bataineh, Anschrift Heinsdorfer Straße 25b, 08468 Reichenbach. Für die Hersteller-Rücknahme nennt der Registerdatensatz keinen Hersteller. Fahrzeugankauf, Teilehandel, Annahme- und Abholbedingungen sind nicht belegt.'
+certifications: '["Anerkennung als Altfahrzeugverwertungsbetrieb nach § 7 Abs. 2a AltfahrzeugV: Jordan Autoverwertung Inhaber Ahmad Bataineh, Heinsdorfer Straße 25b, 08468 Reichenbach; Vorgangsnummer ZALS00800037, Bescheinigungsanlagennr. 1, Kennnummer S23E00896; amtliches Fachbetrieberegister, Abruf 20.11.2026"]'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Wide-Net (27.09.2026)
@@ -59,3 +60,7 @@ Ankauf/Verkauf/Gebühren nicht verifiziert. Offene Fragen: genaue Rechtsform/Inh
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein Betreiber-Beleg zu „Jordan Autoverwertung (Ahmad Bataineh)“, Heinsdorfer Str. 25b, Reichenbach auffindbar (Bing nur Jordan-Homonyme, DDG ratenlimitiert; GESA-DB per curl nicht erreichbar); Demontagebetrieb-Status (Vogtland-Lücke) weiter unbelegt, keine Fills, weiter pruefung; Quelle(n): keine belegfähige Quelle]
+
+### Recherche 20.11.2026 (Welle 0000 B)
+
+- [Recherche 20.11.2026: Das amtliche Fachbetrieberegister bestaetigt den Betrieb als anerkannten Altfahrzeugverwertungsbetrieb an exakt der historischen Seed-Adresse. Die Adressabfrage mit 10 km Radius um `Heinsdorfer Straße 25b, 08468 Reichenbach` (live am 20.11.2026) liefert in der Route Altfahrzeugverwertung genau einen Treffer mit 0,0 km: `Jordan Autoverwertung Inhaber Ahmad Bataineh`, Vorgangsnummer `ZALS00800037`, Bescheinigungsanlagennr. 1, Kennnummer `S23E00896`, Telefon `0173 9682348`, Fax `03765 521599`, E-Mail `bataineh530@mail.com`, Ansprechpartner `Herr Bataineh Ahmad`; die Namenssuchen Jordan und Bataineh liefern denselben Treffer, waehrend `Jordan Containerdienst GmbH` in Casekow ein anderer Rechtstraeger ist. Fuer die Hersteller-Ruecknahme ist im Register kein Hersteller genannt; das ist von der Anerkennung als Demontagebetrieb zu unterscheiden und bedeutet keine Ruecknahmepflicht gegenueber den Herstellern. `street`, `postcode` und `phone` sind im Frontmatter ergaenzt, `certifications` ist ergaenzt und `description` ist ergaenzt; `email` bleibt unveraendert leer, weil das Register `bataineh530@mail.com` und den Ansprechpartner `bataineh@mail.com` nennt, der einzige Social-Lead dagegen `bataineh530@gmail.com`, also drei abweichende Schreibweisen ohne zweite belastbare Quelle. `status` bleibt pruefung: die amtliche Anerkennung und die historische Amtsblattnennung belegen den Betrieb und seine Anschrift, aber keine heutige Kundenannahme, keinen Ankauf und keine Verguetung. **Ankauf:** kein Fahrzeug- oder Schrottkurs belegt. **Verkauf:** keine Teilepreisliste. **Gebuehren:** keine Abhol-, Annahme- oder Entsorgungstarife; eine Anerkennung allein begruendet keine kostenlose Annahme. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&adr=Heinsdorfer+Stra%C3%9Fe+25b%2C+08468+Reichenbach ; https://www.vogtlandkreis.de/media/custom/2752_3043_1.PDF?1540208120= (Abruf 20.11.2026).]
