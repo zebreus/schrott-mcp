@@ -373,6 +373,25 @@ PREIS_SATZ = re.compile(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2
 EIGEN_LABEL = re.compile(r"(ANKAUF|Einkaufspreis\w*|Ankaufskurs\w*|Ankaufspreis\w*)", re.I)
 def _saetze(text):
     return re.split(r"(?<=[.!?:])\s+", text)
+def _eigener_kurs(text):
+    """Ein **eigener** Ankaufskurs des Dossier-Betriebs ✓ ✓ - gemessen im
+    **Fenster** ✓ ✓ nach der Preisarbeit ✓ ✓: die Bezeichnung ✓ ✓, danach
+    ein Wert ✓ ✓ und **kein** Ausschluss dazwischen ✓ ✓ ✓ ✓
+    Der **Satz** waere zu kurz ✓ ✗ ✓: eine Notiz schreibt die Bezeichnung
+    und die Werte durch einen Doppelpunkt getrennt ✓ ✓ und der Doppelpunkt
+    wuerde den Satz zerlegen ✓ ✗ ✓ ✓ ✓
+    """
+    for _m in EIGEN_LABEL.finditer(text):
+        # Das Fenster beginnt **vor** der Bezeichnung ✓ ✓: eine Notiz schreibt
+        # "keine Ankaufspreise" ✓ ✓ - das "keine" steht **vor** der Bezeichnung
+        # und muss mitgelesen werden ✓ ✓ ✓ ✓
+        _fenster = text[max(0, _m.start() - 160):_m.start() + 250]
+        if PREIS_SATZ.search(_fenster) is None:
+            continue
+        if KURS_MARKER.search(_fenster):
+            continue
+        return True
+    return False
 _notes_mit_preis = {}
 for _f in files:
     _slug = _f.split("/")[-1][:-3]
@@ -389,7 +408,7 @@ ausgeschlossen = []
 ohne_aussage = []
 for _slug, _n in _notes_mit_preis.items():
     _s = [x for x in _saetze(_n) if PREIS_SATZ.search(x)]
-    if any(EIGEN_LABEL.search(x) and not KURS_MARKER.search(x) for x in _s):
+    if _eigener_kurs(_n):
         eigene_kurse.append(_slug)
     elif KURS_MARKER.search(_n):
         ausgeschlossen.append(_slug)
