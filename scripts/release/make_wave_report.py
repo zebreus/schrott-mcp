@@ -370,7 +370,15 @@ KURS_MARKER = re.compile(
 # einer Annahmegrenze ✓ ✓) - das ist kein Widerspruch ✓ ✓ ✓ ✓ ✓
 PREIS_SATZ = re.compile(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
                         r"\d+(?:,\d{2})?\s*€/\s*[a-zA-Z])")
-EIGEN_LABEL = re.compile(r"(ANKAUF|Einkaufspreis\w*|Ankaufskurs\w*|Ankaufspreis\w*)", re.I)
+# Die **Preisart** ✓ ✓ des Ankaufs ✓ ✓ steht im Dossier **gross** ✓ ✓ ("ANKAUF:" ✓ ✓,
+# "VERKAUF:" ✓ ✓, "GEBUEHREN:" ✓ ✓) ✓ ✓ oder sie nennt den **Betrieb** ✓ ✓
+# ausdruecklich ✓ ✓ ("Einkaufspreise des Betreibers" ✓ ✓) ✓ ✓
+# **Gross- und Kleinschreibung** ✓ ✓ unterscheidet ✓ ✓: ein "Altmetallankauf" ✓ ✓
+# in einer **Ueberschrift** ✓ ✓ ist **keine** Preisarbeit des Betriebs ✓ ✓ - sie
+# gehoert zu einer **Plattform** ✓ ✓ ✓ ✓
+EIGEN_LABEL = re.compile(
+    r"(\bANKAUF\b|\bEinkaufspreise?\s+des\s+(?:Betreibers|Betriebs|Dossierbetriebs)|"
+    r"\bAnkaufskurse?\s+des\s+(?:Betreibers|Betriebs))")
 def _saetze(text):
     return re.split(r"(?<=[.!?:])\s+", text)
 def _eigener_kurs(text):
