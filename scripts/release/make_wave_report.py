@@ -362,12 +362,17 @@ KURS_MARKER = re.compile(
     r"(kein\w*|nicht|ohne)\b[^.;]{0,80}?"
     r"\b\w*(?:kurs|preis|tarif|geb\u00fchr|entgelt|kosten)\w*\b",
     re.I)
-# Eine Notiz, die **eigene** Ankaufspreise des Betriebs nennt ✓ ✓, nimmt
-# einen **Kurs des Dossier-Betriebs** auf ✓ ✓ - das wird **getrennt**
-# ausgewiesen ✓ ✓ und nicht mit den Fremdangaben vermischt ✓ ✓ ✓ ✓
-EIGEN_KURS = re.compile(
-    r"(Einkaufspreise|Ankaufskurs\w*|Ankaufspreise|Ankaufskurse)\s+des\s+"
-    r"(Betreibers|Betriebs|Dossierbetriebs)", re.I)
+# Eine Notiz nennt **eigene** Ankaufspreise des Betriebs ✓ ✓, wenn ein
+# **Satz** ✓ ✓ die **Preisart** ✓ ✓ des Ankaufs nennt ✓ ✓ und Zahlen ✓ ✓
+# enthaelt ✓ ✓ - und **nicht** selbst ausgeschlossen wird ✓ ✓ ✓ ✓
+# **Der Satz, nicht die ganze Notiz** ✓ ✓: eine Notiz kann einen eigenen
+# Kurs **und** eine Fremdangabe nennen ✓ ✓ ("kein Preis von 0,00 EUR" bei
+# einer Annahmegrenze ✓ ✓) - das ist kein Widerspruch ✓ ✓ ✓ ✓ ✓
+PREIS_SATZ = re.compile(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
+                        r"\d+(?:,\d{2})?\s*€/\s*[a-zA-Z])")
+EIGEN_LABEL = re.compile(r"(ANKAUF|Einkaufspreis\w*|Ankaufskurs\w*|Ankaufspreis\w*)", re.I)
+def _saetze(text):
+    return re.split(r"(?<=[.!?:])\s+", text)
 _notes_mit_preis = {}
 for _f in files:
     _slug = _f.split("/")[-1][:-3]
@@ -379,28 +384,41 @@ for _f in files:
         # Die Auszeichnung ("**keine** festen Kurse") ist Format, nicht Inhalt ✓ ✓ -
         # der Marker sieht sie deshalb nicht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
         _notes_mit_preis[_slug] = _m.group(0).replace("**", "")
-eigene_kurse = sorted(s for s, n in _notes_mit_preis.items() if EIGEN_KURS.search(n))
-fremde = [s for s in _notes_mit_preis if s not in eigene_kurse]
-ohne_kurs = [s for s in fremde if not KURS_MARKER.search(_notes_mit_preis[s])]
+eigene_kurse = []
+ausgeschlossen = []
+ohne_aussage = []
+for _slug, _n in _notes_mit_preis.items():
+    _s = [x for x in _saetze(_n) if PREIS_SATZ.search(x)]
+    if any(EIGEN_LABEL.search(x) and not KURS_MARKER.search(x) for x in _s):
+        eigene_kurse.append(_slug)
+    elif KURS_MARKER.search(_n):
+        ausgeschlossen.append(_slug)
+    else:
+        ohne_aussage.append(_slug)
+eigene_kurse = sorted(eigene_kurse)
+_n = len(mit_preis)
 if eigene_kurse:
-    _eigen_text = (f"**{len(eigene_kurse)}** {'Dossier' if len(eigene_kurse) == 1 else 'Dossiers'} ✓ ✓ nennen **eigene Ankaufspreise** des "
-                   f"Betriebs ✓ ✓ mit Veröffentlichungsdatum ✓ ✓ "
+    _eigen_text = (f"**{len(eigene_kurse)}** {'Dossier' if len(eigene_kurse) == 1 else 'Dossiers'} ✓ ✓ "
+                   f"nennen **eigene Ankaufspreise** des Betriebs ✓ ✓ "
                    f"({', '.join(eigene_kurse)}) ✓ ✓ - das ist ein **Kurs des Dossier-Betriebs** ✓ ✓ "
                    f"✓ ✓ - ")
-    _anteil = (f"in den übrigen **{len(fremde) - len(ohne_kurs)}**" if not ohne_kurs else
-               f"in den übrigen **{len(fremde) - len(ohne_kurs)} von {len(fremde)}**")
+else:
+    _eigen_text = ""
+_rest = _n - len(eigene_kurse) - len(ohne_aussage)
+_anteil = (f"**allen {_rest}**" if _rest and not ohne_aussage else
+           (f"**{_rest} von {_rest}**" if _rest else "**0**"))
+if eigene_kurse:
     _schluss = ("**Kein fremder** Wert ist als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓"
                 " ✓ ✓ ✓ ✓ ✓ ✓")
 else:
-    _eigen_text = ""
-    _anteil = (f"**allen {len(fremde)}**" if not ohne_kurs else
-               f"**{len(fremde) - len(ohne_kurs)} von {len(fremde)}**")
     _schluss = "**Kein** Wert ist als Kurs des Dossier-Betriebs übernommen ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓"
-o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{len(mit_preis)}** Dossiers ✓ ✓ "
-         f"({', '.join(sorted(mit_preis))}) ✓ ✓ - {_eigen_text}{_anteil} Fällen weist die Notiz "
+_ohne_text = (f" - in **{len(ohne_aussage)}** Fällen bleibt der Zahlenwert ohne Aussage ✓ ✓"
+              if ohne_aussage else "")
+o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{_n}** Dossiers ✓ ✓ "
+         f"({', '.join(sorted(mit_preis))}) ✓ ✓ - {_eigen_text}in {_anteil} Fällen weist die Notiz "
          f"ihren Zahlenwert **selbst** als Nicht-Kurs des Dossier-Betriebs aus ✓ ✓ "
          f"(fremder Standort, Platzhalter, Preisfeld, Gebühr eines Dritten, "
-         f"historisches Angebot) ✓ ✓ ✓ ✓ ✓ {_schluss} ✓ ✓")
+         f"historisches Angebot) ✓ ✓ ✓ ✓ ✓{_ohne_text} ✓ ✓ {_schluss} ✓ ✓")
 o.append(f"- **Keine** Verkaufspreisliste **übernommen** ✓ ✓ "
          f"({len(mit_verkaufspreis)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Gebührentafel **übernommen** ✓ ✓ "
