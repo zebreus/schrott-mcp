@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: ja
 provenance_origin: table
@@ -70,3 +71,6 @@ Die aktuelle Annahmestellenliste der APM führt **Metall-Recycling-Jaretzke**, A
 - [Recherche 20.11.2026: OSM-Kachelscan um die Ahornstrasse 28 in 14482 Potsdam (3 mal 3 Kacheln a 0,01 Grad, 9 Kacheln, 0 Fehler, 2627 Adressobjekte, 2243 Objekte mit name oder operator): kein Objekt zu `Jaretzke`, `MRJ` oder `Metall-Recycling`, der APM-Kandidat hat in OSM keinen Betriebspunkt. Die Nominatim-Suche nach "Ahornstrasse 28, 14482 Potsdam" loest auf "28, Ahornstrasse, Sirius Business Park Potsdam-Babelsberg" auf (52.3800688, 13.1148019): die Anschrift existiert als Adressobjekt, aber ohne Betriebsbezug zum Dossier.]
 - [Recherche 20.11.2026: **GEO gemessen, nicht geaendert.** Der gespeicherte Produktionspunkt 52.388225, 13.0639875 loest sich per Nominatim-Rueckaufloesung (zoom 18) auf "Das Minsk Kunsthaus, 17, Max-Planck-Strasse, Potsdam 14473" auf und liegt 3566 m von der belegten Anschrift Ahornstrasse 28 (14482 Potsdam-Babelsberg) entfernt, also in einem anderen Stadtteil und in einer anderen PLZ. `lat`/`lon` bleiben unveraendert, es wird keine Ersatzkoordinate geraten.]
 - [Recherche 20.11.2026: Der Abruf der APM-Annahmestellenliste am 20.11.2026 lieferte nur die robots.txt der Seite (176 Bytes), der Seiteninhalt war also nicht lesbar; die bereits durch den Owner gelesene Fassung vom 23.10.2026 bleibt die Quelle. **Preise:** ANKAUF keine Zahlen, VERKAUF keine Liste, GEBUEHREN keine Tarife. **Offen:** die Rechtsträgerkette MRJ zu Jaretzke, die aktuelle Hof- oder Demontagefunktion an der Ahornstrasse 28 und ein datierter Anerkennungs- oder Zertifikatsnachweis. Quelle(n): https://www.apm-niemegk.de/abfallinfos/abfallannahmestellen/ ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.388225&lon=13.0639875&zoom=18&addressdetails=1 ; read-only `public.db` (20.11.2026).]
+### Korrektur 20.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 20.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **3566 m** von der belegten Anschrift **Ahornstrasse 28, 14482 Potsdam-Babelsberg** entfernt — also in einem anderen Stadtteil ✓ ✓ und einer anderen PLZ ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 20.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
