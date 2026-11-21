@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) — Kandidatenaudit R1+R2 (21)
   + Seed-Website-Sweep
 provenance_ankauf_raw: unklar
@@ -58,3 +59,6 @@ Gelbe Seiten und 11880 führen als Verzeichnis-Leads CE Schrotthandel / E. Kocha
 - [Recherche 21.11.2026: Amtliches Handelsregisterportal, live am 21.11.2026: die Suche Kochann liefert Unternehmen mit dem Namensbestandteil Kochanneck aus der Bauunternehmung sowie als Person einen Alexander Kochann aus Plankstadt, aber keinen Rechtsträger CE Schrotthandel und keinen Eintrag in Marpingen. Reichweitenklausel: ein Einzelunternehmen ohne HRB wird nicht zwangsläufig eingetragen, ein Nichteintrag ist kein Nichtexistenzbeweis. Quelle(n): https://www.online-handelsregister.de/suche/Kochann (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Adresslage und GEO gemessen, nicht geändert: OSM führt Dirminger Straße 2, 66646 Marpingen als way/350574645 mit addr:housenumber=2, addr:street=Dirminger Straße, addr:postcode=66646 (49.4331743/7.0302275) ohne name- oder operator-Tag; in der Straße sind die Nummern 1, 2, 3, 4, 11, 13, 15, 17, 19 und 19a erfasst. Der im Produktionsbestand gespeicherte Punkt 49.4523/7.0582 löst sich per Rückauflösung mit Zoom 18 auf 13, Altgasse, 66646 Marpingen auf und liegt 2,934 km vom Adressobjekt Dirminger Straße 2 entfernt. Der Punkt bleibt unverändert; eine eigene Koordinate wird erst nach der Identitätsklärung gesetzt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/350574645/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=49.4523&lon=7.0582 ; read-only public.db (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Preise getrennt geführt. **ANKAUF** keine Annahmebedingungen oder numerischen Ankaufskurse belegt. **VERKAUF** keine Waren- oder Materialpreisliste. **GEBÜHREN** keine Entsorgungs- oder Abbruchtarife. Die im Dossier vom 01.10.2026 genannten Öffnungszeiten stammen aus einem einzelnen Verzeichnislead und sind weiterhin nicht übernommen. Quelle(n): siehe oben.]
+### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,934 km** vom Adressobjekt **Dirminger Straße 2** entfernt — er trifft **13, Altgasse, 66646 Marpingen** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]

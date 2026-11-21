@@ -15,6 +15,7 @@ status: pruefung
 description: ''
 dropoff_json: ''
 pickup_json: ''
+clear_fields: 'geo'
 provenance_section: Nachtrag Wide-Net (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
@@ -70,3 +71,6 @@ Der Name „Entsorgung und Recycling Bernd Zauritz“ erscheint weiterhin nur in
 - [Recherche 21.11.2026: Amtliches Handelsregisterportal, live am 21.11.2026: die Suche Zauritz liefert 18 Rechtsträger mit Namensbestandteil Zauritz sowie eine Mehrzahl von Personen, sämtlich in Bamberg, Coburg, Nürnberg, Stuttgart, Schweinfurt und Berlin, aber **keinen Eintrag in Zedlitz, Kreis Greiz**, und kein Unternehmen mit der Firmierung Entsorgung und Recycling Bernd Zauritz. Reichweitenklausel: ein Einzelunternehmen ohne HRB wird nicht zwangsläufig eingetragen, ein Nichteintrag ist kein Nichtexistenzbeweis. Quelle(n): https://www.online-handelsregister.de/suche/Zauritz (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: GEO gemessen, nicht geändert: der im Produktionsbestand gespeicherte Punkt 50.8167/12.0333 löst sich per Rückauflösung mit Zoom 18 auf Metallbau Heiko Hofbauer, Zedlitz 15, 07557 Münchenbernsdorf auf (node/5003290980, craft=metal_construction) und liegt rund 0,26 km nördlich des Adressobjekts Zauritz Transportservice, Zedlitz 19; das benannte Nachbarobjekt trägt den Namensbestandteil Metallbau und ist ein anderer Betrieb. Der Punkt bleibt unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/node/5003290980.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=50.8167&lon=12.0333 ; read-only public.db (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Preise getrennt geführt. **ANKAUF** keine Ankaufskurse, Sorten oder Mindestmengen belegt. **VERKAUF** keine Materialpreisliste. **GEBÜHREN** keine Entsorgungs- oder Transporttarife; die im Dossier genannte Preisrange-FAQ des Portals ist generischer Portaltext ohne Bezug zum Betrieb. Quelle(n): siehe oben.]
+### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers trifft **Metallbau Heiko Hofbauer, Zedlitz 15** ✓ ✓ und damit ein **fremdes Objekt** ✓ ✓ — die Dossier-Anschrift **K 125, Hausnummer 19** ✓ ✓ ist davon **260 m** ✓ ✓ entfernt ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
