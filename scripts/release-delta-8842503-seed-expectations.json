@@ -1,0 +1,1646 @@
+{
+  "version": 1,
+  "release_commit": "8842503ba7eb2d0cc0db4212b5aa8ed2a8afa6d2",
+  "release_tree": "66b584959144e53aa23a25c1a20709b810ea9288",
+  "rehearsal_manifest_sha256": "f08660608cd4bb520535e4aad9a82b715d7efacd508a007f52221c248bd64652",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bb-juterbog-bottcher-harald-schrotthandel",
+    "bb-nordwestuckermark-reinert-bunt-und-altmetallhandel",
+    "bb-peitz-besse-udo-schrotthandel",
+    "bb-wiesenburg-mark-schmeissel-reinhard",
+    "be-neukolln-looker-trade",
+    "be-neukolln-marske",
+    "be-online-schrott24-online-ankauf-partnernetz",
+    "be-reinickendorf-gkb-gieereikontor-berlin",
+    "bw-asperg-haffner",
+    "bw-moglingen-gepard",
+    "bw-offenburg-hancer-nazmi-metallhandel",
+    "bw-rutesheim-walter-ott",
+    "by-bamberg-schrott-g",
+    "by-ichenhausen-michael-hammerschmidt",
+    "by-oberpleichfeld-97241-kopp-theodor-schrott-und-altmetalle",
+    "by-velden-albrecht",
+    "he-bad-wildungen-m-albus-an-und-verkauf",
+    "he-gladenbach-35075-ezedelmetall",
+    "he-gro-umstadt-64823-abm",
+    "he-hanau-63457-main-gold-gold-u-silberankauf",
+    "hh-altstadt-walter-ritscher",
+    "hh-bahrenfeld-goerz-metallhandel",
+    "hh-kirchwerder-adzovic-safet-schrotthandel",
+    "hh-lokstedt-klass-autoverwertung-abschleppdienst",
+    "mv-bergen-auf-rugen-schrotti-rugen-inh-volkmar-scharf",
+    "mv-demen-19089-autoverwertung-kort",
+    "mv-mollenhagen-17219-wertstoffaufbereitungszentrum-freidorf",
+    "mv-schwerin-fair-metall-schrott-altmetallhandel",
+    "ni-hannover-manuela-herrmann-schrott-und-metallhande",
+    "ni-hildesheim-holtensen-hildesheimer-schrotthandler",
+    "ni-ribbesbuttel-schrottplatz-ohne-namen",
+    "ni-varel-schrottentsorgung-varel-wilhelmshaven",
+    "nw-essen-schrotthandel-missal-metzler",
+    "nw-essen-schrottladys",
+    "nw-munster-schrottdirektor",
+    "nw-wettringen-skibinski",
+    "rp-andernach-56626-van-den-berg-metal",
+    "rp-dernbach-dernbach",
+    "rp-landstuhl-firma-peter-hoschele",
+    "rp-ludwigshafen-weingartner",
+    "sh-lubeck-d-s-schrott-und-metallentsorgung",
+    "sh-lubeck-haensel-paul-jun-schrotthandel",
+    "sh-neukirchen-25927-nissen-nico",
+    "sh-selk-thomas-sonksen",
+    "sl-merchweiler-schrott-weiler-matthias-wahrsch-gleiche",
+    "sl-saarbrucken-scheidt-66133-scheidter-goldankauf",
+    "sl-st-wendel-hoof-falkenberg-schrotthandel",
+    "sl-volklingen-furstenhausen-grun-thomanek-metallrecycling",
+    "sn-glashutte-kohn",
+    "sn-jesewitz-ekm",
+    "sn-markkleeberg-taucha-schkeudi-schrottjungs-schrottabholung-leipzig",
+    "sn-oling-ot-trado-frank-perjak-schrottannahme",
+    "st-allstedt-michael-baum-schrott-altstoffhandel",
+    "st-freyburg-freyburger-kabel-und-buntmetall-recyclin",
+    "st-halle-seik-automobil-recycling",
+    "st-magdeburg-leuschner-r",
+    "th-bad-lobenstein-reisigel-firma",
+    "th-erfurt-sanfa-recycling",
+    "th-graefinau-angstedt-raik-barich",
+    "th-neuhaus-am-rennweg-schunzel-stephan-schrotthandel"
+  ],
+  "scope": "exactly the 60 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-8842503. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bb-juterbog-bottcher-harald-schrotthandel",
+      "values": {
+        "name": "Böttcher Harald Schrotthandel",
+        "city": "Jüterbog",
+        "street": "Dorfstr. 16",
+        "postcode": "14913",
+        "phone": "03372 401261",
+        "email": "",
+        "opening_hours": "",
+        "description": "Kleinschrottbetrieb \"Harald Böttcher Schrotthdl.\" an der Dorfstraße 16, 14913 Jüterbog, Telefon 03372 401261. Die Angaben stammen aus einer geschlossenen Reihe gleichlautender Branchenverzeichnis-Darstellungen (Das Örtliche, 11880, Stadtbranchenbuch, Branchenbuch Deutschland, Öffnungszeitenbuch); sie sind ein einziger Beleg, kein unabhängiger Zweitbeleg. Das amtliche Fachbetrieberegister hat keine Ortsseite für Jüterbog, und eine Handelsregister- oder NorthData-Suche nach dem Betrieb liefert keinen Treffer; eine eigenständige Betreiber- oder Registerquelle ist damit nicht vorhanden. Die Leistungsangaben der Verzeichnisse umfassen Schrott, Altmaterialhandel, Schrotthandel und Altmetallrecycling sowie das Produkt Altmetalle. Öffnungszeiten, E-Mail und Website sind nicht belegt; die 11880-Detailseite bietet deren Nachtrag ausdrücklich an, statt sie zu belegen. Ankaufskurse, Verkaufspreise und Gebühren sind nicht belegt.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e97043e7e09e25038fc468637cf5fafcb38cd2e30755b03389c8ecc7f4236af5",
+      "seed_hash": "6c9fb84112d6af49",
+      "geo": [
+        51.990155,
+        13.0999657
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-nordwestuckermark-reinert-bunt-und-altmetallhandel",
+      "values": {
+        "name": "Reinert Bunt- und Altmetallhandel",
+        "city": "Nordwestuckermark",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "a9ebfa86cd0785eb794d0d00fa68b955a452edcf39b5c9e254310212899974c4",
+      "seed_hash": "e0bc529e5c344201",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bb-peitz-besse-udo-schrotthandel",
+      "values": {
+        "name": "Besse Udo Schrotthandel",
+        "city": "Peitz",
+        "street": "Ottendorfer Str. 1a",
+        "postcode": "03185",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e9fee58d5af14d975c037285383da9872e4044d16b99d37878723d533bb7c429",
+      "seed_hash": "af20b35a07bf5421",
+      "geo": [
+        51.8529869,
+        14.4038366
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für Besse Udo Schrotthandel, Udo Besse oder Lutz Besse (Abfrage 07.11.2026; Namenssuche Udo Besse mit 0 Treffern in beiden Routen, die Namenssuche Besse mit 3 Treffern, die sämtlich die BVT Bodenverbesserung Taubertal GmbH & Co. KG in Lauda-Königshofen betreffen, also Namensvetter aus der Baustoffbranche, Ortsabfrage um die Dossier-Adresse Ottendorfer Straße 1 a, 03185 Peitz mit 0 Efb-Treffern im 3-km-Radius sowie 19 Efb-Treffern im 10-km-Radius ohne Besse-Treffer; die Route Altfahrzeugverwertung liefert im 3-km-Radius genau einen Treffer, das ist der zertifizierte Altfahrzeugverwertungsbetrieb Autoservice Walter, Gewerbepark 7, 03185 Peitz, Vorgang ZAPS00100036, Bescheinigungsanlagennr. 1, Kennnummer PE50B1744;PA50B0070, also ein anderer Rechtsträger auf einer Nachbarhausnummer desselben Gewerbegebiets; die zuständige Behörde, die Schrottplätze-Liste des Landkreises Spree-Neiße, führt den Betrieb unverändert als Schrotthandlung und Containerdienst mit Betreiber Lutz Besse und Betreiberanschrift Ottendorfer Straße 1 a; ein Register-Nichteintrag ist wegen der Freiwilligkeit der Anerkennung kein Negativbeweis)\"]"
+    },
+    {
+      "slug": "bb-wiesenburg-mark-schmeissel-reinhard",
+      "values": {
+        "name": "Schmeissel Reinhard",
+        "city": "Wiesenburg/Mark",
+        "street": "Görzker Str. 46",
+        "postcode": "14827",
+        "phone": "(033849) 50205",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "70ad83c1294d84276d5ab3d7461a24e60878fbca3383b5009b1b8529d31302f6",
+      "seed_hash": "1044b2f4506e64a4",
+      "geo": [
+        52.1155063,
+        12.4482868
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-neukolln-looker-trade",
+      "values": {
+        "name": "LOOKER TRADE UG",
+        "city": "Neukölln",
+        "street": "Hermannstr. 16",
+        "postcode": "12049",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Registeridentität bestätigt: LOOKER TRADE UG (haftungsbeschränkt), Amtsgericht Charlottenburg (Berlin) HRB 136189 B, Geschäftsanschrift Hermannstraße 16, 12049 Berlin, im Registerauszug vom 28.10.2026 als aktiv geführt, gegründet 19.08.2011, drei Registerbekanntmachungen, letzte Änderung 13.07.2016. Der Registergegenstand laut NorthData ist \"Internethandel zum An- und Verkauf\"; ein Schrott- oder Metallankauf ist daraus nicht ableitbar. Das Branchenlabel \"Schrott\" stammt allein aus Verzeichnissen (Das Örtliche). ANKAUF: nicht belegt. VERKAUF: nicht belegt, der Registergegenstand ist allgemeiner Handel. GEBÜHREN: nicht belegt. Die Domain looker.de ist erreichbar; ihr Impressum nennt **LOOKER.DE GmbH, Hermannstr. 16, 12049 Berlin** — also genau die Seed-Anschrift — aber mit **anderem** Registerstand (HRB 76159 statt HRB 136189 B) und einem Geschäftsführer, der nicht der Seed-Firma zugeordnet werden kann; die Telefonnummer der Domain ist die des Domaininhabers, nicht belegt die des Seed-Betriebs.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "0a227d1633845ee1ecbee7ca6bd8efdc134c1a11098f783115e46cc8ae6369a4",
+      "seed_hash": "cfc040f0f9022490",
+      "geo": [
+        52.4839868,
+        13.4244425
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-neukolln-marske",
+      "values": {
+        "name": "Marske Schrotthandel und Metallverwertung GmbH & Co. KG",
+        "city": "Neukölln",
+        "street": "Lahnstr. 3-5",
+        "postcode": "12055",
+        "phone": "030 6841513",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrotthandel und Metallverwertung (Großhandel mit Altmaterialien und Reststoffen) in Berlin-Neukölln-Britz, HRA 22188 B AG Charlottenburg. Creditreform nennt als Unternehmensgegenstand Großhandel mit Schrott und Metallen sowie deren Verwertung, insbesondere Kabelverwertung, Verschrottung von Elektromotoren und Industrieanlagenverwertung. Die frühere Domain marske-gmbh.de ist heute mit Fremdinhalten belegt; aktuelle Kundenannahme und Ankaufspreise sind nicht belegt.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "5513ac868029495af08567f692bcd00e8706eb8aa94b516fad35801ac001db89",
+      "seed_hash": "aafd49620a2e23ad",
+      "geo": [
+        52.4686967,
+        13.4548739
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-online-schrott24-online-ankauf-partnernetz",
+      "values": {
+        "name": "Schrott24 (Online-Ankauf/Partnernetz)",
+        "city": "online",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Online-Altmetallankauf ueber Partnernetz (Metaloop Europe GmbH, Graz); tagesaktuelle Schrottpreise, Abholung/Logistik, kein Berliner Betriebssitz. ANKAUF: Die Plattform veroeffentlicht eine maschinenlesbare, mengengestufte Ankaufspreisliste je Sortengruppe (JSON-Endpunkt `/page-data/altmetall-ankauf/<kategorie>/<produkt>/page-data.json`, z.B. Kupfer Millberry 8,20 EUR/kg ab 3 kg / 8,49 ab 100 kg / 8,79 ab 500 kg / 9,04 ab 10.000 kg; Mischschrott E1 0,16 EUR/kg ab 100 kg bis 0,24 EUR/kg ab 20.000 kg). Es handelt sich um Plattform-MAXIMALpreise fuer Deutschland/Oesterreich, nicht um einen lokalen Berliner Händlerpreis; die Preisseite weist als Datenstand \"Tagesaktuelle Schrottpreise vom 14.11.2025\" aus, die Produkt-JSONs selbst tragen kein Datum. VERKAUF: kein Endkundentarif fuer den Verkauf von Metall an Schrott24 publiziert. GEBUEHREN: 5 EUR Abzug je genutzter Versandmarke, Big Bags 5 EUR je Stueck zuzueglich Versand, Selbstanlieferung erst ab 100 EUR Materialwert, Stornogebuehren bei nicht fristgerechter Anlieferung (14 Tage).",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.schrott24.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "49cc791d33327c7540942a1ecb41dd1e2311276773b5bfaa9ab71b9ff20a31d4",
+      "seed_hash": "7847ccb387462b23",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "be-reinickendorf-gkb-gieereikontor-berlin",
+      "values": {
+        "name": "GKB Gießereikontor Berlin GmbH",
+        "city": "Reinickendorf",
+        "street": "Roedernallee 9",
+        "postcode": "13407",
+        "phone": "0176 60010865",
+        "email": "",
+        "opening_hours": "",
+        "description": "Amtlicher Registerauszug (online-handelsregister.de, Abruf 21.11.2026): GKB Gießereikontor Berlin GmbH, Amtsgericht Charlottenburg (Berlin) HRB 174139 B, Firmenadresse Roedernallee 9, 13407 Berlin, aktiv, gegründet 04.02.2016, drei Registerbekanntmachungen, letzte Änderung 13.11.2017. Der Unternehmensgegenstand laut NorthData ist Handel mit Gießereibedarfsstoffen, ein Schrottankauf ist damit nicht belegt. Die im Dossier dokumentierte NorthData-Adresspublikation vom 26.11.2025 nach Eichborndamm 93, 13403 Berlin ist im amtlichen Auszug nicht nachvollziehbar und bleibt als offener Widerspruch dokumentiert. ANKAUF: nicht belegt. VERKAUF: nicht belegt. GEBÜHREN: nicht belegt.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "afe4e362f4101ee1f8e4b8394e4d826829d4834bd2b33759f2fb42c5914d6dfc",
+      "seed_hash": "538559e6b0bb78bb",
+      "geo": [
+        52.5801174,
+        13.3476533
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-asperg-haffner",
+      "values": {
+        "name": "Häffner",
+        "city": "Asperg",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "868251b7090650c2799ead0addfeb37c6666daf08a684091b0ddc83b11fa521a",
+      "seed_hash": "9f9e31125823b45b",
+      "geo": [
+        48.90576,
+        9.1452305
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG (TÜV SÜD Umweltgutachter GmbH, Ridlerstraße 57, 80339 München; Zertifikatsnummer 12 150 20991, Vorgangsnummer ZZIT007000665009, 4 Anlagen, Prüfungsdatum 18.03.2026, Ausstellungsdatum 11.08.2026, gültig bis zum 18.09.2027; Entsorgungsfachbetrieb Häffner GmbH & Co. KG, Friedrichstraße 3, 71679 Asperg, HRA 201157 Registergericht Stuttgart, Telefon +49 7141 67237; dem Dossierstandort zugeordnet sind die Anlagen 1-3 am Standort Friedrichstraße 3, 71679 Asperg: Anlage 1 Tätigkeit Sammeln, Befördern, Handeln und Makeln (Kennnummer nach § 28 NachwV H050016000), Anlage 2 Tätigkeit Lagern (Kennnummer nach § 28 NachwV H054002183) und Verwerten (ohne eigene Kennnummer), Anlage 3 Tätigkeit Lagern und Behandeln (Kennnummer nach § 28 NachwV H054002183) und Verwerten (ohne eigene Kennnummer); Anlage 4 (Am alten Kraftwerk Marbach/Neckar 9, 71672 Marbach, Kennnummer H054006506) wurde nicht übernommen; amtliches Fachbetrieberegister, Abruf 06.11.2026). Identitätsvorbehalt: das Dossier führt nur den Seednamen „Häffner“ ohne Vorname und ohne Anschrift; der Registereintrag ist der einzige Häffner in 71679 Asperg und trägt die in der Dossier-Notiz genannte Anschrift Friedrichstraße 3, die Dossier-Charakterisierung „Chemiedistributor“ ist durch die ausgewiesenen Abfalltätigkeiten überholt; eine gesonderte Identitätskette Seed → Registerentity ist nicht belegt\"]"
+    },
+    {
+      "slug": "bw-moglingen-gepard",
+      "values": {
+        "name": "GEPARD Industrieverwertungen & Consulting",
+        "city": "Möglingen",
+        "street": "",
+        "postcode": "",
+        "phone": "07141 9791866",
+        "email": "info@gepard-industrieverwertungen.de",
+        "opening_hours": "",
+        "description": "Betreiberauftritt GEPARD Industrieverwertungen & Consulting, Inhaber Angelos Tzimos, mit Büro Daimlerstraße 16 und Lager/Container Kruppstraße 12 in 71696 Möglingen; USt-ID DE210652629, Erlaubnis nach § 34c GewO durch das Landratsamt Ludwigsburg. Leistungen: Ankauf, Verkauf und Vermittlung von Schrott- und Industriemetallen für Privat, Kommunen, Bau und Industrie, Containerdienst 5 bis 10 m³. ANKAUF: kein bezifferter Ankaufskurs veröffentlicht. VERKAUF: Verkauf und Vermittlung von Maschinen, Fahrzeugen und Immobilien ohne Preistabelle. GEBÜHREN: keine Miet-, Transport- oder Entsorgungstarife veröffentlicht.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "http://gepard-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "dcb3f6c7d9ab9016582e6deb77b1f76ba84cdcb89d3219561155262092c8089c",
+      "seed_hash": "37e6a785f89abf88",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-offenburg-hancer-nazmi-metallhandel",
+      "values": {
+        "name": "Hancer Nazmi Metallhandel",
+        "city": "Offenburg",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "0eabc5f6d666a2ff2a6753857e5e3916b37aa22384b8cf45e1e7acf20ad070ea",
+      "seed_hash": "964f1948072e6931",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "bw-rutesheim-walter-ott",
+      "values": {
+        "name": "Walter Ott",
+        "city": "Rutesheim",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "2f38ce769f59d360dbf537532e1a816323e2163bbfcae54a177ac19c2632f70d",
+      "seed_hash": "6f8302372975e884",
+      "geo": [
+        48.812414,
+        8.9610699
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-bamberg-schrott-g",
+      "values": {
+        "name": "Schrott G.",
+        "city": "Bamberg",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "b1598f8b5fa7ed1b525d0614815ef820b146703e7f1d29ec3085a70925a4ebdb",
+      "seed_hash": "123dfabd67abc34d",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-ichenhausen-michael-hammerschmidt",
+      "values": {
+        "name": "Michael Hammerschmidt",
+        "city": "Ichenhausen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "b615b762d10a9cb8abb55e2d669ffb3f721ca2324b1a8624ecf3f9d7a941009e",
+      "seed_hash": "5fc45db6ed31e8d8",
+      "geo": [
+        48.3659716,
+        10.3135877
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-oberpleichfeld-97241-kopp-theodor-schrott-und-altmetalle",
+      "values": {
+        "name": "Kopp Theodor Schrott und Altmetalle",
+        "city": "Oberpleichfeld 97241",
+        "street": "",
+        "postcode": "",
+        "phone": "09367 2200",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "7cd07a7a2cde867334cf008b75109e268e490e7b88e6a1d0c7d2678306488fca",
+      "seed_hash": "1a7e3ab1836b9c75",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "by-velden-albrecht",
+      "values": {
+        "name": "Albrecht",
+        "city": "Velden",
+        "street": "",
+        "postcode": "91235",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ec36473924f8357801e4e6f722a7e41242cf9b21c6632785bacb7e7b8f9f159d",
+      "seed_hash": "a2093da849068609",
+      "geo": [
+        49.60695,
+        11.5134
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-bad-wildungen-m-albus-an-und-verkauf",
+      "values": {
+        "name": "M. Albus An- und Verkauf",
+        "city": "Bad Wildungen",
+        "street": "St.-Florian-Str. 3",
+        "postcode": "34537",
+        "phone": "(05621) 71464",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "7947d7312fad9afcdb548bbed0158c3c36d58f28cf67541ccfd1d904af993840",
+      "seed_hash": "dbf1f855fcce9b24",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-gladenbach-35075-ezedelmetall",
+      "values": {
+        "name": "EZEdelmetall",
+        "city": "Gladenbach 35075",
+        "street": "Marktplatz 1",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "caf9cdde538cc3fdc0c677623cba058c51ef61aca9db623378600eaba01f8f15",
+      "seed_hash": "19d4e457a4698b4e",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "he-gro-umstadt-64823-abm",
+      "values": {
+        "name": "ABM",
+        "city": "Groß-Umstadt 64823",
+        "street": "Gartenweg 9",
+        "postcode": "64823",
+        "phone": "0157 50 92 08 44",
+        "email": "",
+        "opening_hours": "",
+        "description": "ABM Containerdienst und Metallhandel, Inhaber J. Mai, Gartenweg 9, 64823 Groß-Umstadt-Richen, 0157 50 92 08 44, E-Mail abm-container@gmx.de nach der betreiberseitigen Eigenangabe der archivierten Website mit Stand 03.07.2017; die Rufnummer wird von allen aktuellen Verzeichnissen übereinstimmend genannt. Die Anschriftvariante Gartenweg 9 ist damit belegt, während die Verzeichnisangaben Gartenweg 9a, Gartenweg 4 und Goethestraße 4A auf einen anderen aktuellen Betriebsstandort deuten könnten. Die Domain abm-containerdienst.de wird nicht mehr betrieben: ab dem 16.07.2019 hostet sie Fremdinhalte, ab dem 04.12.2023 eine reine Domain-Verkaufsseite. Das amtliche Fachbetrieberegister führt für ABM keinen Eintrag. Leistungsangaben der archivierten Seite: kostenlose An- und Abfahrt innerhalb 50 Kilometern, Container bis 30 Kubikmeter, 16-Stunden-Annahme von Aufträgen und ein kostenloser Kostenvoranschlag; kein Ankaufswert und kein Tarif belegt. Status pruefung.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "af791406b30cd8e7d17a78e154d33cabcc3f23371806fd423f73e68d65648bb4",
+      "seed_hash": "adfdbb1cf8293671",
+      "geo": [
+        49.8875327,
+        8.9244514
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für ABM Containerdienst und Metallhandel oder für den Standort Gartenweg 9, 64823 Groß-Umstadt (Abfrage 11.11.2026; Route Entsorgungsfachbetriebe: Namenssuche „ABM“ mit 1 Treffer, Georg Rinderle Erdbewegungen GmbH Bauschuttaufbereitungsanlage, Dreifaltigkeitsweg -, 86830 Schwabmünchen, ZZFE00100111 / 2, ein fremder Rechtsträger; Radiusabfrage 3 km um die Dossier-Adresse mit 1 Treffer: PENTAC Proform Recycling GmbH, Otto-Hahn-Straße 12, 64823 Groß-Umstadt, ZZIT00700070 / 1; kein Treffer nennt ABM)\", \"AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Standort in 64823 Groß-Umstadt (Abfrage 11.11.2026; Namenssuche „ABM“ mit 0 Treffern und Radiusabfrage 3 km um die Dossier-Adresse mit 0 Treffern)\"]"
+    },
+    {
+      "slug": "he-hanau-63457-main-gold-gold-u-silberankauf",
+      "values": {
+        "name": "Main Gold Gold- u. Silberankauf",
+        "city": "Hanau 63457",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "564f8d495a4f1846ab3503b90fe912cfc5caa025016a0a8ee635f03344fc1481",
+      "seed_hash": "9257d406746be164",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-altstadt-walter-ritscher",
+      "values": {
+        "name": "Walter Ritscher GmbH",
+        "city": "Altstadt",
+        "street": "Ferdinandstr. 32",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "c6d064256166cf5f4d2b1b7e402c20decea65c3b4b521b626967402d4d62ce60",
+      "seed_hash": "bd9fd8423e3baeca",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-bahrenfeld-goerz-metallhandel",
+      "values": {
+        "name": "Goerz Metallhandel GmbH",
+        "city": "Bahrenfeld",
+        "street": "Rondenbarg 31",
+        "postcode": "22525",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "fb46dab14ff7cb006d555756cce17929ae584a47605ee2fdb976df0a56526a43",
+      "seed_hash": "3385f2eaaf4dcf89",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-kirchwerder-adzovic-safet-schrotthandel",
+      "values": {
+        "name": "Adzovic Safet Schrotthandel",
+        "city": "Kirchwerder",
+        "street": "Warwischer Hauptdeich 90",
+        "postcode": "21037",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "4aa64c5ea8e7551d6ec218f04c742296068fe816ac17c13aa1112f1c324ad58e",
+      "seed_hash": "83e1da255e8b58f7",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "hh-lokstedt-klass-autoverwertung-abschleppdienst",
+      "values": {
+        "name": "KLASS Autoverwertung + Abschleppdienst",
+        "city": "Lokstedt",
+        "street": "Osterfeldstr. 63",
+        "postcode": "22529",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "b569977cb4876e0a3de94352b0963bcc625af0dfc9a9a8d199e0f12bbc0dd4ae",
+      "seed_hash": "d4dd91b8bcfe9f28",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für KLASS Autoverwertung + Abschleppdienst und für den Standort Osterfeldstr. 63, 22529 Hamburg (Abruf 13.11.2026; Namenssuche „Klass“ in der Route „Entsorgungsfachbetriebe“ 28 Treffer und in der Route „Altfahrzeugverwertung“ 1 Treffer, die Efb-Treffer sind Wörtertreffer wie KEM Klassen-Edel-Metalle, Brecher- und Klassieranlagen der Heinrich Feess GmbH & Co. KG, der Graf Spezialbaustoffe GmbH, der RWG I, der ARETA GmbH, des Landkreises Göttingen, der Kummer-Erd- und Tiefbau GmbH, der MAD GmbH, der BUG Dienstleistungen GmbH & Co. KG, der Teltower Baustoffrecycling GmbH, der Graf Baustoffe GmbH, der Matthias Heyer-Straßenbaustoffe GmbH & Co. KG, der Heinrich Rohde Tief- und Straßenbau GmbH, der Baukies-Parey GmbH, der Eggers Umwelttechnik GmbH und der H. NESTLER GmbH & Co. KG, sämtlich ohne Bezug zu einem Autoverwertungsbetrieb in Hamburg-Lokstedt, und der einzige AltfahrzeugV-Treffer ist die Klassen Ltd KfZ-Demontage, Auf'm Brinke 5, 59872 Meschede (ZAHS01800062 / 1), ein Namensvetter in NRW; Standortabfrage 3 km um die Dossieradresse in der Route „Entsorgungsfachbetriebe“ 9 Treffer und in der Route „Altfahrzeugverwertung“ 0 Treffer, darunter der Hamburger Containerdienst Dennis Unterborn e. K. und der Ralph Unterborn Entsorgungsfachbetrieb e.K., beide Niendorfer Weg 11, 22453 Hamburg, ferner die YÖRO GmbH, die Hausdienst Scheuermann GmbH und die Vattenfall Europe Resource Management GmbH; keine Zeile nennt Klass; die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis)\"]"
+    },
+    {
+      "slug": "mv-bergen-auf-rugen-schrotti-rugen-inh-volkmar-scharf",
+      "values": {
+        "name": "Schrotti Rügen Inh. Volkmar Scharf",
+        "city": "Bergen auf Rügen",
+        "street": "Silvitz 8",
+        "postcode": "18528",
+        "phone": "0171 7246081",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "fdc57c43310409171527d50c64b245a1bd83cfd8d7604c3e0eedbd0b7a7dfc1a",
+      "seed_hash": "524ae86bfdb6a7cc",
+      "geo": [
+        54.3931685,
+        13.5017353
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-demen-19089-autoverwertung-kort",
+      "values": {
+        "name": "Autoverwertung Kort GbR",
+        "city": "Demen 19089",
+        "street": "Crivitzer Chaussee 5",
+        "postcode": "19089",
+        "phone": "038488 20210",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "autoverwertung",
+        "website": "",
+        "website_status": "tot"
+      },
+      "notes_sha256": "e9ab7652205f33304d29be6d9b957642b579f61e946e709cff3c0000184f1974",
+      "seed_hash": "374d41f34ebac1c9",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-mollenhagen-17219-wertstoffaufbereitungszentrum-freidorf",
+      "values": {
+        "name": "Wertstoffaufbereitungszentrum Freidorf GmbH",
+        "city": "Möllenhagen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Wertstoffaufbereitung/Entsorgung (HRB 4382 AG Neubrandenburg); heutige Betreiber- und Standortzuordnung ungeklärt.",
+        "status": "pruefung",
+        "trader_type": "wertstoffhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "31d0b745e65da17c216f4a70e769a8986525c834f13d5c7456522afc7cdc116f",
+      "seed_hash": "2c7047354e0230d9",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "mv-schwerin-fair-metall-schrott-altmetallhandel",
+      "values": {
+        "name": "FAIR METALL (Schrott- & Altmetallhandel)",
+        "city": "Schwerin",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Einzelunternehmen FAIR METALL (Schrott- & Altmetallhandel), Inhaberin Danika Dettmann, Betrieb in Schwerin-Görries. Der Betreiberauftritt nennt Anthony-Fokker-Straße 5, 19061 Schwerin, Telefon 0385 6768090, info@fair-metall.de; die Anschrift ist bislang nur durch den Betreiberauftritt und eine Creditreform-Firmenauskunft (Crefonummer 3330219281) belegt, deren Vollabruf am 06.11.2026 mit HTTP 403 abgewiesen wurde. ANKAUF: Barankauf von Schrott, Buntmetallen und Altautos mit Verwiegung; Tagespreise werden ausschließlich telefonisch ab 8 Uhr mitgeteilt, es gibt keine Zahlen- oder kg-Tafel. VERKAUF: keine Verkaufs- oder Teilepreisliste. GEBÜHREN: kein Tarif veröffentlicht; die Abholung ist nicht als kostenlos ausgewiesen. Kein Eintrag im amtlichen Fachbetrieberegister; die Efb-Anerkennung ist freiwillig.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.fair-metall.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "97045a685f0040cbcd2b472379d00f92094bcc7dd11525885b82eb1a26714139",
+      "seed_hash": "e5f671e01dc8b8de",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-hannover-manuela-herrmann-schrott-und-metallhande",
+      "values": {
+        "name": "Manuela Herrmann Schrott- und Metallhandel",
+        "city": "Hannover",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.hannover-schrott.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "19db3bc5534b8c6cbedbf3d3e7283cff6458a4ff4efff243d4f0d40c278398ca",
+      "seed_hash": "07c5d7c938b21ae6",
+      "geo": [
+        52.3241401,
+        9.7761733
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-hildesheim-holtensen-hildesheimer-schrotthandler",
+      "values": {
+        "name": "Hildesheimer Schrotthändler",
+        "city": "Hildesheim-Holtensen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f9fc16be6197e70ccf146851d78209473b97ae06c25feed6da95670e6b34c345",
+      "seed_hash": "399b7f446e3d92b3",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-ribbesbuttel-schrottplatz-ohne-namen",
+      "values": {
+        "name": "Schrottplatz (ohne Namen)",
+        "city": "Ribbesbüttel",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrottplatz",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "c9c7ee9243cef4720654452d2efed34b2e25ddcb7b9b02f2316f6e1ad4246404",
+      "seed_hash": "50ab1c4f92066e7a",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "ni-varel-schrottentsorgung-varel-wilhelmshaven",
+      "values": {
+        "name": "Schrottentsorgung Varel-Wilhelmshaven",
+        "city": "Varel",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "1ef011953b2a6079efd34ad5eddb39b70da3607495a8a6be8a0a6e41d43cdb86",
+      "seed_hash": "07746385593f40b7",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-essen-schrotthandel-missal-metzler",
+      "values": {
+        "name": "Schrotthandel Missal / Metzler",
+        "city": "Essen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://schrotthandel-metzler-essen.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "c4953eed2807a62bc30fc31e102bac7f1ee749f6dbafcf98a05d258568305620",
+      "seed_hash": "358145ee48c6d803",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{\"allowed\": true, \"conditions\": \"Kostenlose Schrott-/Altmetallabholung im Ruhrgebiet/NRW laut Betreiber; Demontage, Brennarbeiten, Sortierung und mögliche Entsorgungskosten vorab vereinbaren, nicht pauschal kostenlos. Ankaufpreis abhängig von Art, Menge und Aufwand.\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-essen-schrottladys",
+      "values": {
+        "name": "Schrottladys",
+        "city": "Essen",
+        "street": "Am Luftschacht 17",
+        "postcode": "45307",
+        "phone": "0178 1565192",
+        "email": "",
+        "opening_hours": "Mo-Fr 08:00-18:00, Sa 08:00-14:00",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "72c10acc73aee1f2affba32ac8f8313d1ad4f9b312c1bb31dfb88d4f5563fa28",
+      "seed_hash": "bbbd5dca707d91b0",
+      "geo": [
+        51.4602183,
+        7.0661715
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-munster-schrottdirektor",
+      "values": {
+        "name": "Schrottdirektor",
+        "city": "Münster",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "http://www.schrottdirektor.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "123ea5ce38896b342b6161ab1792a80fe24f7538ea95a44cc9c18adc91e3fdb5",
+      "seed_hash": "1ac7405b8c74cf30",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-wettringen-skibinski",
+      "values": {
+        "name": "Skibinski",
+        "city": "Wettringen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "d8b5d736568f9f5f293131ffbc27c3e25499747521dd391c0da1898e82c2bc2d",
+      "seed_hash": "9ca4550ebd126984",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-andernach-56626-van-den-berg-metal",
+      "values": {
+        "name": "Van den Berg Metal",
+        "city": "Andernach 56626",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "642f2b12981ac3807addc0d9267125677aad9a946022fb3f00a902b20ae10f9d",
+      "seed_hash": "e8ff894a3ba330cb",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-dernbach-dernbach",
+      "values": {
+        "name": "Dernbach",
+        "city": "Dernbach",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "d49686df648a59146da12f92c3f8fa897c19c55446e201138d3ea9c8ea4a92d2",
+      "seed_hash": "3c7778968b771707",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-landstuhl-firma-peter-hoschele",
+      "values": {
+        "name": "Firma Peter Höschele",
+        "city": "Landstuhl",
+        "street": "Kolpingstr. 37",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ed66e3fc9251ab29dfc8de93eb53e77ad75b7597665e87a942441dc43b1f330d",
+      "seed_hash": "170285ff6d536783",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-ludwigshafen-weingartner",
+      "values": {
+        "name": "Weingärtner",
+        "city": "Ludwigshafen",
+        "street": "Burgundenstr. 34",
+        "postcode": "67059",
+        "phone": "0621 56038182",
+        "email": "johannweingaertner@gmx.net",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "a89326c76d668c6e3d703f7464d9ac12e598bba5556b0571ffed2d2ae927351f",
+      "seed_hash": "17c19be42585e4e5",
+      "geo": [
+        49.4814437,
+        8.4273481
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sh-lubeck-d-s-schrott-und-metallentsorgung",
+      "values": {
+        "name": "D&S Schrott und Metallentsorgung",
+        "city": "Lübeck",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "99f77c3adc4fb501b14577d0f5f4852298b4f30392da3b1e92fa9eb34835d887",
+      "seed_hash": "c889b81c586a6ce5",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sh-lubeck-haensel-paul-jun-schrotthandel",
+      "values": {
+        "name": "Haensel Paul jun. Schrotthandel",
+        "city": "Lübeck",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Paul Haensel jun. Schrotthandel. Verzeichnisse fuehren den Betrieb an der Vorbeckstr. 12, 23554 Luenbeck-Vorwerk mit der Festnetznummer 0451 48938335 und der Mobilnummer 0176 31467169; nach der Quellenhierarchie sind das Leads, keine Belege, weshalb Anschrift und Rufnummern weiterhin nicht in die Stammdaten uebernommen sind. Eine eigene Betreiberseite ist nicht belegt. Das amtliche Fachbetrieberegister fuehrt fuer den Standort weder einen Efb-Eintrag noch einen AltfahrzeugV-Eintrag; in den 13 zertifizierten Efb-Betrieben im 3-km-Radius um die Anschrift ist kein Haensel-Eintrag, ebenso wenig in der Altfahrzeugverwertung-Route. Die amtliche Gegengabe: als aktuelle Luenbecker Gesellschaft weist die ISR/LSH-Seite die LSH Luenbecker Schrotthandel GmbH, Dampfpfeife 12-20, 23569 Luenbeck aus; eine Umbenennungs-, Uebernahme- oder Betreiberkette zu Paul Haensel ist nicht belegt. Keine Haensel-Preise, keine Verkaufsliste, keine Gebuehren; LSHs allgemeine Tageshoechstpreis-Werbung ist nicht uebertragbar.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "000da6f1a55cb09f52bd34e658b81fcd3dd2b2b3cf1b6ae1b332b6e4e17e32a6",
+      "seed_hash": "f10263f08607eed8",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG: kein Eintrag im amtlichen Fachbetrieberegister für den Standort Vorbeckstr. 12, 23554 Lübeck (Abfrage 07.11.2026; 13 Efb-Treffer im 3-km-Radius um die Anschrift, keiner auf Haensel oder auf der Vorbeckstraße, 53 Efb-Treffer im 10-km-Radius)\"]"
+    },
+    {
+      "slug": "sh-neukirchen-25927-nissen-nico",
+      "values": {
+        "name": "Nissen Nico",
+        "city": "Neukirchen 25927",
+        "street": "Hochhörn 23",
+        "postcode": "25927",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Verzeichnis-Lead ohne Betreiber- oder Registerbeleg: Nico Nissen, Hochhörn 23, 25927 Neukirchen bei Niebüll (Ortsteil Südbevertoft), Telefon 04664 983848. Die Verzeichnisse nennen daneben eine zweite Mobilnummer und die Hausnummer 29, beide ohne Beleg. Kein Eintrag im amtlichen Fachbetrieberegister und kein Handelsregistereintrag. Keine belegten Ankaufs-, Verkaufs- oder Gebührenangaben.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ec94d9985327da96bf2a9f1d8830c61ed42d4e627b145fb6b0be6c62edc9233b",
+      "seed_hash": "d5072c755fea7af3",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sh-selk-thomas-sonksen",
+      "values": {
+        "name": "Thomas Sönksen",
+        "city": "Selk",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "b60ff97c8fea94318295e99929ebac455f47a530bf04be8e4064a5fac02b90a5",
+      "seed_hash": "f4722a3da256c7bd",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-merchweiler-schrott-weiler-matthias-wahrsch-gleiche",
+      "values": {
+        "name": "Schrott Weiler Matthias",
+        "city": "Merchweiler",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "73710cf8abb45978b4826d0a56d651496cb99b5ce5684490f51204faaecf0c8b",
+      "seed_hash": "69ea00bf274bd1e4",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-saarbrucken-scheidt-66133-scheidter-goldankauf",
+      "values": {
+        "name": "Scheidter Goldankauf",
+        "city": "Saarbrücken-Scheidt 66133",
+        "street": "Kaiserstr. 84",
+        "postcode": "66133",
+        "phone": "0681 83900147",
+        "email": "",
+        "opening_hours": "",
+        "description": "Verzeichnis-Lead: Scheidter Goldankauf, Kaiserstr. 84, 66133 Saarbrücken-Scheidt, Kategorie An- und Verkauf, Telefon 0681 83900147 und Mobil 0159 01047851. Das Verzeichnis nennt als Öffnungszeiten Montag, Dienstag, Donnerstag und Freitag 09:30 bis 13:00 und 14:00 bis 17:30, ohne Mittwoch. Es gibt weder einen Betreiberauftritt noch einen Registereintrag, und im amtlichen Fachbetrieberegister ist kein Betrieb in Saarbrücken-Scheidt geführt. Keine Kursangabe, keine Verkaufsliste und keine Gebühren.",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "94cc135b111b38bc27800ddd10fccb71cc3dc4387dd45d97405dc5a87403664e",
+      "seed_hash": "b9114140488a44ec",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-st-wendel-hoof-falkenberg-schrotthandel",
+      "values": {
+        "name": "Falkenberg Schrotthandel",
+        "city": "St. Wendel-Hoof",
+        "street": "Nebenhügel 2",
+        "postcode": "66606",
+        "phone": "06856 892882",
+        "email": "",
+        "opening_hours": "",
+        "description": "Schrotthandel (Altmaterialhandel) in St. Wendel-Hoof",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "9b5ccc73224deac90b4e71cc994fc716091fb118d16a4bf1d63f2777a5b9daf0",
+      "seed_hash": "c2d68ec4144ef248",
+      "geo": [
+        49.4891045,
+        7.2437521
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sl-volklingen-furstenhausen-grun-thomanek-metallrecycling",
+      "values": {
+        "name": "Grün Thomanek Metallrecycling UG",
+        "city": "Völklingen",
+        "street": "Saarwiesenweg 2",
+        "postcode": "66333",
+        "phone": "06898 9003237",
+        "email": "gtmetallrecycling@hotmail.com",
+        "opening_hours": "Mo 7:30-15, Di 7-15, Mi-Fr 7:30-15",
+        "description": "Amtlicher Registerauszug (online-handelsregister.de, Abruf 21.11.2026): Grün Thomanek Metallrecycling UG (haftungsbeschränkt), Amtsgericht Saarbrücken HRB 105872, Firmenanschrift Saarwiesenweg 2, 66333 Völklingen, aktiv, gegründet 05.11.2019, eine Registerbekanntmachung, letzte Änderung 05.11.2019, Firmen-Historie ohne Umbenennung. Der Unternehmensgegenstand laut NorthData ist der An- und Verkauf sowie der Handel mit Altmetallen. Im amtlichen Fachbetrieberegister ist der Betrieb nicht gefuehrt, die hinterlegten Telefon-, Mail- und Zeitwerte stammen weiterhin aus Aggregatoren. ANKAUF: nicht belegt. VERKAUF: nicht belegt. GEBÜHREN: nicht belegt.",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "68567197cd5337b452547f165bf56ac4f172f0a9e6c46aa20300955071e10031",
+      "seed_hash": "39ea24dedc01074e",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-glashutte-kohn",
+      "values": {
+        "name": "Altmetallhandel und Holzrecycling Köhn e.K.",
+        "city": "Glashütte",
+        "street": "Müglitztalstr. 33G",
+        "postcode": "01768",
+        "phone": "035053 47191",
+        "email": "",
+        "opening_hours": "",
+        "description": "Altmetallhandel und Holzrecycling (Fe/Alu/Cu/Edel/Blei/Messing, Kabel); HRA 6100 AG Dresden, Inh. Sigrun Koehn",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3466b01d9992fcf55ab29bb3c783d936178bf926c9098b2c88242b7ba38afe6f",
+      "seed_hash": "aaf0be45ac572114",
+      "geo": [
+        50.8776126,
+        13.8150821
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-jesewitz-ekm",
+      "values": {
+        "name": "EKM Ebert Kabel Metallrecycling und Abbruch (Henry Ebert)",
+        "city": "Jesewitz",
+        "street": "An der B 87 12",
+        "postcode": "04838",
+        "phone": "034298 30553",
+        "email": "",
+        "opening_hours": "",
+        "description": "EKM (Ebert Kabel Metallrecycling) von Henry Ebert, Gewerbebetrieb in Jesewitz; Identität über die Creditreform-Firmeneinträge belegt, die Hofadresse An der B 87 12 nur über Verzeichnis-Leads. Die Hausnummer 12 ist in OSM eindeutig als Way 394206414 erfasst (addr:housenumber=12, addr:street=An der B 87, addr:postcode=04838); der gesetzte Punkt ist ein Adresspunkt, kein bestätigter Betriebseingang. Keine belastbare öffentliche Ankaufzusage, keine Sorten- oder Preisliste, keine Gebühren.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "120a1ba6e8bc47f6fedca6067cae120a49eca1f8e4b42b1862f90b2ef1afa02e",
+      "seed_hash": "a4f2625c08b80076",
+      "geo": [
+        51.4124171,
+        12.5453873
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-markkleeberg-taucha-schkeudi-schrottjungs-schrottabholung-leipzig",
+      "values": {
+        "name": "Schrottjungs (Schrottabholung Leipzig)",
+        "city": "Markkleeberg/Taucha/Schkeuditz/Zwenkau/Böhlen",
+        "street": "",
+        "postcode": "",
+        "phone": "0173 8705566",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "mobil",
+        "website": "https://schrottjungs.de",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "938f8b4f89d18ec3561f00ed832d8a0bccc3d3f65bfd5cd721b5fc05c2dae0cd",
+      "seed_hash": "ce8bf73d3f6ba649",
+      "geo": [
+        51.2755,
+        12.3691
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{\"allowed\": true, \"customer_types\": [\"privat\", \"gewerbe\"], \"conditions\": \"Mobile Schrottabholung Umland Leipzig (Markkleeberg/Taucha/Schkeuditz/Boehlen/Zwenkau), keine feste Anlieferstelle; Konditionen wie Leipzig-Row (Betreiber-Seite, Triage 01.10.2026)\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "sn-oling-ot-trado-frank-perjak-schrottannahme",
+      "values": {
+        "name": "Frank Perjak Schrottannahme",
+        "city": "Oßling OT Trado",
+        "street": "",
+        "postcode": "",
+        "phone": "0171 6160124",
+        "email": "",
+        "opening_hours": "",
+        "description": "Verzeichnis-Lead: Frank Perjak Schrottankauf, Am Damm 2, 01920 Oßling (Ortsteil Trado). An derselben Anschrift wird dieselbe Person zugleich als Grünanlagenservice und Anlagenservice (Gartenbau, Gartengestaltung, Zaunbau) geführt, und für die Schrottannahme kursieren zwei Telefonnummern. Im amtlichen Handelsregister ist unter demselben Nachnamen die e.K. Heiko Perjak mit Sitz Schulstr. 7c, 01920 Schönteichen eingetragen, das ist aber nach Vorname und Anschrift ein anderer Betrieb. Kein Eintrag im amtlichen Fachbetrieberegister und keine belegten Preise oder Gebühren.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "a86e778a6b0e6c1b190103a143c745b507247d581748ed4c9c0516a73aa171d0",
+      "seed_hash": "839bde681dc41546",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-allstedt-michael-baum-schrott-altstoffhandel",
+      "values": {
+        "name": "Michael Baum Schrott- & Altstoffhandel",
+        "city": "Allstedt",
+        "street": "Sophienstr. 2E",
+        "postcode": "06542",
+        "phone": "034652 10474",
+        "email": "schrott-abfallhandel-baum@web.de",
+        "opening_hours": "",
+        "description": "Schrott- und Altstoffhandel (Containerdienst, Abriss/Entsorgung)",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "666dd5f078c7175a156a94cbf9855ffe1cb634195582d9348d396069cc8b6b91",
+      "seed_hash": "73c71ac257f2de58",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[\"Entsorgungsfachbetrieb nach § 56 KrWG, Zertifikatsnummer Z - Nr. 49 / 2026, Vorgangsnummer ZZNT006000539008, Zertifizierungsorganisation Brandt Management UG (haftungsbeschränkt), Friedensallee 57, 06343 Mansfeld, Prüfungsdatum und Ausstellungsdatum 25.08.2026, gültig bis 24.02.2028, 3 Anlagen am Standort Sophienstraße 2 e, 06542 Allstedt, Anlage 1 Sammeln, Befördern, Handeln und Makeln mit Kennnummer nach § 28 NachwV NT87000457 und NV87000076, Anlage 2 Lagern, Behandeln, Verwerten und Beseitigen mit Kennnummer NA87000689, Anlage 3 Lagern mit Kennnummer NA87000712 und Verwerten, Abfallarten in Anlage 2: 160103, 160120, 160216, 170101, 170102, 170103, 170107, 170201, 170202, 170203, 170411, 170504, 170802, 170904, 200101, 200102, 200110, 200138, 200201, 200301, 200307, Registernummer nicht zutreffend, amtliches Fachbetrieberegister Abruf 21.11.2026\"]"
+    },
+    {
+      "slug": "st-freyburg-freyburger-kabel-und-buntmetall-recyclin",
+      "values": {
+        "name": "Freyburger Kabel- und Buntmetall Recycling",
+        "city": "Naumburg (Saale)",
+        "street": "",
+        "postcode": "06618",
+        "phone": "03445 2615502",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "metallhaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f245a29e2c401d665bb4141910e21f836ddac8873f865f393f1ee78983acf561",
+      "seed_hash": "0f2655f0fcce6224",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-halle-seik-automobil-recycling",
+      "values": {
+        "name": "Seik Automobil Recycling GmbH",
+        "city": "Halle",
+        "street": "Grenzstr. 43",
+        "postcode": "06112",
+        "phone": "0345 5604666",
+        "email": "halle@seik.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "mobil",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ea76914761b460b0f5cb7944f599450689dce2320b90a04305321a486982a5d8",
+      "seed_hash": "26f3914db81cee62",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-magdeburg-leuschner-r",
+      "values": {
+        "name": "Leuschner R.",
+        "city": "Magdeburg",
+        "street": "Klosterbergestr. 20",
+        "postcode": "39104",
+        "phone": "0391 5209424",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrottplatz",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f063e37d6a17e4542947524c17665998f615e824531debcb75c818d6a8829d15",
+      "seed_hash": "2297aec15cbdb623",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-bad-lobenstein-reisigel-firma",
+      "values": {
+        "name": "Reisigel, Firma",
+        "city": "Bad Lobenstein",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "ccf3d62f5ec925ae190fc873cd0aa30e9d903e46ebe2fe5b694e47cd8cd44288",
+      "seed_hash": "79a0ce0853d7c907",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-erfurt-sanfa-recycling",
+      "values": {
+        "name": "Sanfa-Recycling UG",
+        "city": "Erfurt",
+        "street": "Stotternheimer Straße 37 b",
+        "postcode": "99087",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Amtlicher Registerauszug (online-handelsregister.de, Abruf 21.11.2026): Sanfa-Recycling UG (haftungsbeschränkt), Amtsgericht Jena HRB 511280, Geschäftsanschrift Stotternheimer Straße 37 b, 99087 Erfurt, aktiv, gegründet 08.06.2015, Gegenstand Handel mit Sekundärrohstoffen, Firmen-Historie ohne Umbenennung. Das amtliche Insolvenzbekanntmachungen-Portal weist am 20.11.2026 die Eröffnung des Insolvenzverfahrens aus (Amtsgericht Erfurt, Az. 172 IN 352/26, eröffnet 19.11.2026 wegen Zahlungsunfähigkeit und Überschuldung, Insolvenzverwalter Folker Hochmuth, Gläubigerfrist 21.01.2027); der Geschäftsbetrieb kann laut Veröffentlichung weiterlaufen, eine heutige Kundenannahme ist nicht belegt. ANKAUF: nicht belegt. VERKAUF: nicht belegt. GEBÜHREN: nicht belegt.",
+        "status": "geschlossen",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "f8a8034d4456ae447181c9d04ccbe5e9ffe39afe687a70d5e1467c7b415c52f9",
+      "seed_hash": "6aec6bea20426f9e",
+      "geo": [
+        51.0222729,
+        11.036554
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-graefinau-angstedt-raik-barich",
+      "values": {
+        "name": "Raik Barich",
+        "city": "Graefinau-Angstedt",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Verzeichnis-Lead (schrottplatz.org): Raik Barich, Wiesenweg 28, 98704 Gräfinau-Angstedt, 036785/50463. Im amtlichen Fachbetriebs- und Entsorgungsfachbetriebsregister nicht verzeichnet; amtliche Gewerbeauskunft Ilmenau am 27.10.2026 nicht erreichbar; aktueller Metallankauf nicht belegt.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "6d3254b3c0fe95cb7d2536b5d601eafaa9d0a52dfdee4d830f2c33c01e9ed901",
+      "seed_hash": "d0c6eb74259180a1",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "th-neuhaus-am-rennweg-schunzel-stephan-schrotthandel",
+      "values": {
+        "name": "Schünzel Stephan Schrotthandel",
+        "city": "Neuhaus am Rennweg",
+        "street": "",
+        "postcode": "",
+        "phone": "0172 4777304",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "3d061f6846f8f0d0983cee770acb570e27565a686b3a183d76e1d84dbdff781b",
+      "seed_hash": "4e31584b6c26d057",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
