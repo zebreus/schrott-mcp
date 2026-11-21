@@ -77,7 +77,14 @@ files = [f for f in subprocess.run(
     ["git", "diff", "--name-only", BASE, CAND, "--", "dossiers/"],
     capture_output=True, text=True, check=True).stdout.split()
     if f.split("/")[-1][:-3] in SCOPE]
-states = collections.Counter(f.split("/")[1].upper() for f in files)
+# Der Bundesland steht im **Frontmatter** (`state:`), nicht im Ordner ✓ ✓ -
+# ein Dossier im Ordner `hb/` kann `state: NI` tragen ✓ ✓ (hb-nordenham-…
+# und hb-bassum-… ✓ ✓). Der Ordner ist nur der Ablageort ✓ ✓ ✓ ✓ ✓ ✓
+states = collections.Counter()
+for _f in files:
+    _m = re.search(r"^state:\s*'?([A-Za-z]{2})'?\s*$",
+                   (ROOT / _f).read_text(encoding="utf-8"), re.M)
+    states[_m.group(1).upper() if _m else _f.split("/")[1].upper()] += 1
 # Der **Diff** wird fuer die **Notiz-Bullets** gebraucht ✓ ✓ - die
 # Frontmatter-Felder werden dagegen **am Frontmatter selbst** gemessen ✓ ✓
 fm = subprocess.run(["git", "diff", BASE, CAND, "--"] + files,
