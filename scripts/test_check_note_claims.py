@@ -63,5 +63,47 @@ class Behauptungen(unittest.TestCase):
         self.assertEqual(mod.behauptungen(notiz), [])
 
 
+class Abgrenzungen(unittest.TestCase):
+    """Die zwei Fehlalarme, die `research/auftraege-20261120.md` zurueckgestellt hat.
+
+    Ein **OSM-Tag** ✓ ✓ (`` `name`= `` ✓ ✓) ist **kein** Dossier-Feld ✓ ✓, und
+    „entfernt" als **Lageangabe** ✓ ✓ ("liegt 2,6 km entfernt" ✓ ✓) ist **keine**
+    **Handlung** ✓ ✓. Beide Faelle meldeten eine Aenderung, die keine war ✓ ✓.
+    """
+
+    def test_osm_tag_ist_kein_dossier_feld(self):
+        satz = ("**GEO (neu gemessen):** der Punkt liegt **2,6 km** vom OSM-Objekt "
+                "**way/115804331** (`addr:street`=Friedrichstraße, "
+                "`addr:housenumber`=**3**, `addr:city`=Asperg, "
+                "`name`=**`Hugo Häffner - Chemikaliengroßhandel`**, "
+                "`office`=company) entfernt")
+        self.assertEqual(mod.behauptungen(satz), [])
+
+    def test_entfernt_als_lageangabe_ist_keine_handlung(self):
+        satz = "der Punkt liegt 2,6 km vom Objekt entfernt"
+        self.assertEqual(mod.behauptungen(satz), [])
+
+    def test_echte_aenderung_in_demselben_satz_bleibt_gefunden(self):
+        # Die Abgrenzung darf keine echte Behauptung verschlucken.
+        satz = "der Punkt liegt 2,6 km entfernt und `postcode` wurde korrigiert"
+        felder = {f for f, _ in mod.behauptungen(satz)}
+        self.assertEqual(felder, {"postcode"})
+
+    def test_entfernt_als_handlung_wird_erkannt(self):
+        for satz in ("das Feld `geo` wurde entfernt",
+                     "im Frontmatter ist `postcode` entfernt worden",
+                     "das Feld `name` wurde entfernt"):
+            with self.subTest(satz=satz):
+                self.assertTrue(mod.behauptungen(satz),
+                                "eine echte Entfernung muss als Behauptung gelten")
+
+    def test_osm_allein_ohne_attributliste_behauptet_weiterhin(self):
+        # Nur die **Attributliste** ✓ ✓ wird ausgeblendet ✓ ✓ - ein nacktes
+        # `` `name`= `` ausserhalb davon bleibt ein Feld ✓ ✓
+        satz = "das Feld `name`= wurde korrigiert"
+        felder = {f for f, _ in mod.behauptungen(satz)}
+        self.assertEqual(felder, {"name"})
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

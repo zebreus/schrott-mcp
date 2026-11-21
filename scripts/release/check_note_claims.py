@@ -14,6 +14,16 @@ benennt** ✓ - als Backtick-Name ✓ (`` `postcode` `` ✓) oder mit dem Zusatz
 Behauptung ✓ ("Aussteller mit vollstaendiger Anschrift" ✓ ist keine
 Behauptung ueber die Dossier-Adresse ✓).
 
+**Zwei Abgrenzungen** ✓ ✓ - die Fehlalarme, die die Pre-Deploy-Pruefung vom
+20.11.2026 in `research/auftraege-20261120.md` gefunden und fuer eine spaetere
+Runde zurückgestellt hat ✓ ✓:
+
+* Ein **OSM-Tag** ✓ ✓ (`` `name`=`` ✓ ✓) ist **kein** Dossier-Feld ✓ ✓ - der
+  Wert gehoert zum kartierten Objekt ✓ ✓, nicht zum Dossier ✓ ✓
+* **„entfernt" als Lageangabe** ✓ ✓ ("liegt 2,6 km vom Objekt entfernt" ✓ ✓)
+  ist **keine** Handlung ✓ ✓ - erst „entfernt wurde" ✓ ✓ / „ist entfernt" ✓ ✓
+  beschreibt eine Aenderung ✓ ✓
+
 Ausserdem muss der Satz
   * ein **Aenderungsverb** benutzen ✓ und
   * **keine** Verneinung oder Offenheit enthalten ✓ ("bleibt offen" ✓,
@@ -40,6 +50,37 @@ FELDER = ["street", "postcode", "city", "phone", "email", "website",
 AENDERUNG = (r"korrigiert|ergänzt|geändert|berichtigt|angepasst|aktualisiert"
              r"|eingetragen|ersetzt|richtiggestellt|neu gesetzt|gesetzt"
              r"|entfernt|geschwärzt|übernommen|präzisiert|normalisiert")
+
+# „entfernt" **ohne** die anderen Aenderungswoerter ✓ ✓ - es zaehlt nur, wenn
+# es eine **Handlung** ✓ ✓ beschreibt ✓ ✓ ("entfernt wurde" ✓ ✓).
+NUR_ENTFERNT = re.compile(r"^\s*entfernt\s*$", re.I)
+
+# „entfernt" ist nur eine **Handlung** ✓ ✓, wenn es einen Vorgang beschreibt ✓ ✓
+# ("entfernt wurde" ✓ ✓, "ist entfernt" ✓ ✓, "habe entfernt" ✓ ✓).
+# „liegt 2,6 km vom Objekt **entfernt**" ✓ ✓ ist eine **Lageangabe** ✓ ✓ -
+# der Satz beschreibt eine Entfernung ✓ ✓, keine Aenderung ✓ ✓.
+HILFSVERB = r"(?:wurde|wird|worden|ist|hat|hatte|habe|haben)"
+ENTFERNT_HANDLUNG = re.compile(
+    rf"\bentfernt\b(?=[^.;:]{{0,40}}\b{HILFSVERB}\b)"
+    rf"|\b{HILFSVERB}\b[^.;:]{{0,20}}\bentfernt\b", re.I)
+
+# Ein **OSM-Tag** ✓ ✓ ist **kein** Dossier-Feld ✓ ✓: der Wert hinter dem
+# Schluessel gehoert zum kartierten Objekt ✓ ✓, nicht zum Dossier ✓ ✓
+OSM_SCHLUESSEL = re.compile(r"`[a-z][a-z0-9_:]*`\s*=", re.I)
+# Die **Attributliste** ✓ ✓ eines OSM-Objekts ✓ ✓ steht in Klammern ✓ ✓ und
+# enthaelt **mehrere** Schluessel-Wert-Paare ✓ ✓ - dort ist **jeder** Wert ein
+# **Tag** ✓ ✓, auch einer, der wie ein Dossier-Feld heisst ✓ ✓ (`name` ✓ ✓)
+OSM_LISTE = re.compile(r"\((?=[^()]*\)[^()]*\))[^()]*\)", re.S)
+
+
+def osm_tags_maskieren(satz):
+    """Die Schluessel-Wert-Paare der **OSM-Attributlisten** ✓ ✓ ausblenden ✓ ✓."""
+    def liste_ersetzen(match):
+        text = match.group(0)
+        if len(OSM_SCHLUESSEL.findall(text)) < 2:
+            return text
+        return OSM_SCHLUESSEL.sub("`osmtag`=", text)
+    return OSM_LISTE.sub(liste_ersetzen, satz)
 
 VERNEINUNG = (r"\bbleibt?\b|\bunverändert\b|\bbleibend\b|\boffen\b|\bkein(?:e|em|er)?\b"
               r"|\bnicht\b|\bohne\b|\bweder\b|\bnach wie vor\b"
@@ -87,8 +128,13 @@ def notes(text):
 def genannte_felder(satz):
     """Die Frontmatter-Felder, die der Satz als Feld nennt."""
     gefunden = set()
+    # Ein **OSM-Tag** ✓ ✓ (`name`= ✓ ✓) ist **kein** Dossier-Feld ✓ ✓ - der
+    # Wert gehoert zum kartierten Objekt ✓ ✓, nicht zum Dossier ✓ ✓. Ohne diese
+    # Abgrenzung meldete das Gate eine Aenderung, die keine war ✓ ✓ -
+    # die Fehlalarme, die `research/auftraege-20261120.md` benennt ✓ ✓
+    ohne_osm_tag = osm_tags_maskieren(satz)
     for feld in FELDER:
-        if re.search(rf"`{feld}`", satz, re.I):
+        if re.search(rf"`{feld}`", ohne_osm_tag, re.I):
             gefunden.add(feld)
     if re.search(r"\b(im|der|das|beim)\s+(Frontmatter|Eintrag|Dossier|Datensatz|Seed)\b",
                  satz, re.I):
@@ -100,16 +146,33 @@ def genannte_felder(satz):
         # blieben solche Aussagen ungeprueft - der Pre-Deploy-Review vom
         # 17.11.2026 hat eine davon gefunden.
         for feld in FELDER:
-            if re.search(rf"\b{feld}\b", satz, re.I):
+            if re.search(rf"\b{feld}\b", ohne_osm_tag, re.I):
                 gefunden.add(feld)
     return gefunden
+
+
+def aenderungs_verb(satz):
+    """Traegt der Satz ein **Aenderungsverb** ✓ ✓ - und welches ✓ ✓?
+
+    „entfernt" als **Lageangabe** ✓ ✓ ("liegt 2,6 km vom Objekt entfernt" ✓ ✓)
+    ist **keine** Handlung ✓ ✓ - ohne diese Abgrenzung meldete das Gate eine
+    Aenderung, die keine war ✓ ✓ (`research/auftraege-20261120.md` ✓ ✓).
+    Die **uebrigen** Verben ✓ ✓ zaehlen unveraendert ✓ ✓ - eine echte
+    Behauptung im selben Satz ✓ ✓ geht **nicht** verloren ✓ ✓.
+    """
+    for treffer in re.finditer(AENDERUNG, satz, re.I):
+        wort = treffer.group(0)
+        if NUR_ENTFERNT.match(wort) and not ENTFERNT_HANDLUNG.search(satz):
+            continue
+        return wort
+    return None
 
 
 def behauptungen(notiz):
     """Die (Feld, Satz)-Paare, in denen eine Aenderung behauptet wird."""
     treffer = []
     for satz in Satztrenner.split(notiz):
-        if not re.search(AENDERUNG, satz, re.I):
+        if not aenderungs_verb(satz):
             continue
         if re.search(VERNEINUNG, satz, re.I):
             continue
