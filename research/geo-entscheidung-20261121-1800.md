@@ -54,7 +54,7 @@ und **zweimal** ein **Kunstwerk** ✓ ✓ in Lübeck ✓ ✓ ✓ ✓
 
 **Ein** Punkt trifft eine **Fernstraße** ✓ ✓ — die **A 7** ✓ ✓ bei Selk ✓ ✓ ✓ ✓
 
-**Fünfundzwanzig** widersprechen einer **dokumentierten Adresse** ✓ ✓ — zwischen
+**Vierundzwanzig** widersprechen einer **dokumentierten Adresse** ✓ ✓ — zwischen
 **208 m** ✓ ✓ (auf einer anderen Straße ✓ ✓) und **191,3 km** ✓ ✓ (in einem
 anderen Ort und in einem anderen Bundesland ✓ ✓) ✓ ✓
 
@@ -103,17 +103,30 @@ korrigierenden ✓ ✓ gegen das **Adressobjekt** ✓ ✓ der belegten Anschrift
 **gemessen** ✓ ✓ (OpenStreetMap-API, Abruf 21.11.2026 ✓ ✓) ✓ ✓ — die
 Abweichungen der Wellennotizen wurden dabei **geprüft** ✓ ✓ ✓ ✓
 
-**Drei** Wellennotizen weichen ab ✓ ✓: bei `bw-asperg-haffner` ✓ ✓ nennt die
-Welle **2,6 km** ✓ ✓, die eigene Nachmessung ergibt **750 m** ✓ ✓ — maßgeblich
-ist die eigene Messung ✓ ✓ ✓ ✓ Bei `nw-wettringen-skibinski` ✓ ✓ nennt die
-Welle **191,259 km** ✓ ✓, nennt aber eine Koordinate, deren Abstand **194,5 km**
-✓ ✓ beträgt ✓ ✓ — gemessen wurde von der **Gemeinde Wettringen**
-✓ ✓ (relation/155793 ✓ ✓), und die Entscheidung bleibt in beiden Fällen
-dieselbe ✓ ✓ ✓ ✓ Bei `bb-nordwestuckermark-reinert-bunt-und-altmetallhandel` ✓ ✓
-misst die Welle **9,82 km** ✓ ✓ bis zu einem **Knoten** ✓ ✓
-(node/9903525907 ✓ ✓), die eigene Messung **6,3 km** ✓ ✓ bis zur **Gemeinde**
-✓ ✓ (relation/1334079 ✓ ✓) — zwei verschiedene Bezugsobjekte ✓ ✓, die
-Entscheidung bleibt dieselbe ✓ ✓ ✓ ✓
+**Fünf** Wellennotizen nennen einen **anderen Wert** ✓ ✓ — in **drei** Fällen
+weicht er nur wegen des **Bezugspunkts** ✓ ✓ ab ✓ ✓, in **zwei** Fällen ist er
+**wesentlich** ✓ ✓ falsch ✓ ✓:
+
+- `bw-asperg-haffner` ✓ ✓: die Welle nennt **2,6 km** ✓ ✓, die eigene
+  Nachmessung ergibt **750 m** ✓ ✓ — maßgeblich ist die eigene Messung ✓ ✓
+- `nw-wettringen-skibinski` ✓ ✓: die Welle nennt **191,259 km** ✓ ✓, nennt
+  aber eine Koordinate, deren Abstand **194,5 km** ✓ ✓ beträgt ✓ ✓ — gemessen
+  wurde von der **Gemeinde Wettringen** ✓ ✓ (relation/155793 ✓ ✓)
+- `bb-nordwestuckermark-reinert-bunt-und-altmetallhandel` ✓ ✓: die Welle misst
+  **9,82 km** ✓ ✓ bis zu einem **Knoten** ✓ ✓ (node/9903525907 ✓ ✓), die
+  eigene Messung **6,3 km** ✓ ✓ bis zur **Gemeinde** ✓ ✓
+  (relation/1334079 ✓ ✓) — zwei verschiedene Bezugsobjekte ✓ ✓
+- `st-allstedt-michael-baum-schrott-altstoffhandel` ✓ ✓: die Welle misst
+  **754 m** ✓ ✓ bis zur **gleichnamigen Nachbarstraße** ✓ ✓
+  Sophienstraße-Siedlung ✓ ✓ (way/1534822992 ✓ ✓), die eigene Messung
+  **645 m** ✓ ✓ bis zur **Sophienstraße** ✓ ✓ (way/173207352 ✓ ✓) — zwei
+  verschiedene Bezugsobjekte ✓ ✓
+- `sl-merchweiler-schrott-weiler-matthias-wahrsch-gleiche` ✓ ✓: die Welle
+  misst **394 m** ✓ ✓ bis zu einem **anderen Punkt** ✓ ✓ desselben
+  Straßenobjekts ✓ ✓, die eigene Messung **380 m** ✓ ✓ bis zum **Mittel der
+  Objektknoten** ✓ ✓ (way/27003276 ✓ ✓) ✓ ✓
+
+Die **Entscheidung** ✓ ✓ bleibt in **allen fünf** Fällen **dieselbe** ✓ ✓ ✓ ✓
 
 ## Der Stand in der Produktion ✓ ✓
 
