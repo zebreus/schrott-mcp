@@ -54,7 +54,7 @@ in Halle ✓ ✓ und **zweimal** ein **Kunstwerk** ✓ ✓ in Lübeck ✓ ✓ �
 **Ein** Punkt trifft eine **Fernstraße** ✓ ✓ — die **A 7** ✓ ✓ bei Selk ✓ ✓ ✓ ✓
 
 **Fünfundzwanzig** widersprechen einer **dokumentierten Adresse** ✓ ✓ — zwischen
-**208 m** ✓ ✓ (auf einer anderen Straße ✓ ✓) und **373,5 km** ✓ ✓ (in einem
+**208 m** ✓ ✓ (auf einer anderen Straße ✓ ✓) und **191,3 km** ✓ ✓ (in einem
 anderen Ort und in einem anderen Bundesland ✓ ✓) ✓ ✓
 
 **Kein** Ersatzpunkt ✓ ✓ entsteht ✓ ✓ — in **keinem** dieser Fälle ✓ ✓ liegt ein
@@ -86,9 +86,10 @@ Orte ✓ ✓) ✓ ✓ ✓ ✓
 
 ### Kein Punkt ✓ ✓ — **8** ✓ ✓
 
-Diese **acht** Dossiers tragen das `clear_fields`-Token `geo` ✓ ✓ bereits ✓ ✓ —
-entweder aus einer **früheren** Owner-Entscheidung ✓ ✓ oder aus der Welle
-selbst ✓ ✓ ✓ ✓ Dort entfällt die Korrektur ✓ ✓ ✓ ✓
+**Vier** dieser Dossiers tragen das `clear_fields`-Token `geo` ✓ ✓ bereits ✓ ✓ —
+aus einer **früheren** Owner-Entscheidung ✓ ✓ oder aus der Welle selbst ✓ ✓; die
+**übrigen vier** haben **nie** einen Punkt gehabt ✓ ✓ ✓ ✓ In **allen acht**
+Fällen entfällt die Korrektur ✓ ✓ ✓ ✓
 
 ## Die eigene Nachmessung ✓ ✓
 
@@ -98,9 +99,13 @@ zurückgelöst ✓ ✓ (Nominatim, Abruf 21.11.2026 ✓ ✓) und gegen das **Adr
 21.11.2026 ✓ ✓) ✓ ✓ — die Abweichungen der Wellennotizen wurden dabei
 **bestätigt** ✓ ✓ ✓ ✓
 
-**Eine** Wellennotiz weicht ab ✓ ✓: bei `bw-asperg-haffner` ✓ ✓ nennt die Welle
-**2,6 km** ✓ ✓, die eigene Nachmessung ergibt **750 m** ✓ ✓ — maßgeblich ist
-die eigene Messung ✓ ✓ ✓ ✓
+**Zwei** Wellennotizen weichen ab ✓ ✓: bei `bw-asperg-haffner` ✓ ✓ nennt die
+Welle **2,6 km** ✓ ✓, die eigene Nachmessung ergibt **750 m** ✓ ✓ — maßgeblich
+ist die eigene Messung ✓ ✓ ✓ ✓ Bei `nw-wettringen-skibinski` ✓ ✓ nennt die
+Welle **191,259 km** ✓ ✓, nennt aber eine Koordinate, deren Abstand **194,5 km**
+✓ ✓ beträgt ✓ ✓ — gemessen wurde von der **Gemeinde Wettringen**
+✓ ✓ (relation/155793 ✓ ✓), und die Entscheidung bleibt in beiden Fällen
+dieselbe ✓ ✓ ✓ ✓
 
 ## Der Stand in der Produktion ✓ ✓
 
