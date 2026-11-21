@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Mömlingen-70km (27.09.2026)
@@ -62,3 +63,7 @@ Die importierte Nummer 09367 2200 und die bisherige Verzeichnisadresse Herrngass
 - [Recherche 21.11.2026: GEO gemessen, nicht geändert: der gespeicherte Punkt 49.8769/10.0868 löst per Rückauflösung mit Zoom 18 auf `8, Prosselsheimer Straße, 97241 Oberpleichfeld` auf (OSM way/131219528) und liegt **0,208 km** vom Adressobjekt Herrngasse 13 (way/128878464, `addr:housenumber`=13, `addr:street`=Herrngasse, `addr:postcode`=97241) entfernt; der Punkt liegt damit im selben Ort, trifft aber ein anderes Haus und nicht die Lead-Adresse, die weiterhin nur ein Verzeichnislead ohne Betreiberquelle ist. Eine Ersetzung des Punktes oder ein `clear_fields: geo` bleibt eine Owner-Entscheidung. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&addressdetails=1&extratags=1&lat=49.8769&lon=10.0868 ; https://api.openstreetmap.org/api/0.6/way/128878464/full.json ; read-only `public.db` (Abruf 21.11.2026).]
 
 - [Recherche 21.11.2026: **Ankauf:** kein Kurs belegt. **Verkauf:** keine Liste. **Gebühren:** keine Kopp-Tarife; die auf der Verzeichnisseite genannten Verwaltungsgebühren und Rathauszeiten der Verwaltungsgemeinschaft sind kommunale Gebühren und keine Preise des Dossierbetriebs. Offen bleiben die Identität von `Kopp Theodor Schrott und Altmetalle`, die Anschrift Herrngasse 13 und die Rufnummer 09367 2200; die amtliche Gewerbeauskunft der Gemeinde bleibt der Klärweg. Quelle(n): https://vgem-bergtheim.de/home-oberpleichfeld/gewerberegister/ (Abruf 21.11.2026).]
+
+### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **208 m** vom Adressobjekt **Herrngasse 13, 97241 Oberpleichfeld** (way/128878464, `addr:housenumber`=13) entfernt — er trifft **8, Prosselsheimer Straße, 97241 Oberpleichfeld** (way/131219528) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein anderes Haus in demselben Ort ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]

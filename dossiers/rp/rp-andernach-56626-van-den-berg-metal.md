@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -54,3 +55,7 @@ Der vom Seed benannte Betrieb ist im Handelsregister als **Van den Berg Metal Gm
 - [Recherche 21.11.2026: **Die Nachfolge-Spur FTJ-Metal verliert ihren Internetauftritt: die Domain liefert nur noch einen Platzhalter.** `https://ftj-metal.com/` antwortet am 21.11.2026 mit **HTTP 404** und der Meldung `ConnectYourDomain Error | Wix.com`; die Domain ist registriert, aber ohne verknüpften Auftritt, ein Impressum, eine Anschrift oder ein Leistungsangebot ist dort nicht lesbar. Die in der Notiz vom 29.10.2026 zitierten Angaben (Am weißen Haus 5, Andernach, +49 1573 0812931, gold@ftj-metal.com) stammen damit weiterhin aus einem Social-Beitrag von 2024 und sind heute nicht über die eigene Domain prüfbar; eine Betriebsfortführung unter FTJ-Metal wird nicht behauptet, die Facebook- und Instagram-Auftritte waren im Abruf nicht lesbar. Quelle(n): https://ftj-metal.com/ (Abruf 21.11.2026).]
 
 - [Recherche 21.11.2026: **GEO gemessen, nicht geändert:** der gespeicherte Punkt 50.4311/7.4042 löst per Rückauflösung mit Zoom 18 auf `12, Salentinstraße, 56626 Andernach` auf (way/128631138) und liegt **1,804 km** von der Straße `Am Weißen Haus` (way/28741597) entfernt, an der die Hausnummer 5 nach wie vor nicht adressiert ist; beide amtlich belegten Anschriften (Sitz Am weißen Haus 5, Geschäftsanschrift der Zweigniederlassung Augsbergweg 61) bleiben Geokodierungsbedarf. Der Nutzungsstandort nach der Insolvenz ist weiterhin ungeklärt, der Status bleibt `pruefung`, und eine Schließung wird nicht behauptet. **Ankauf:** keine Kurse und keine Annahmebedingungen belegt; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife für Abbruch, Entsorgung oder Container. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&addressdetails=1&extratags=1&lat=50.4311&lon=7.4042 ; read-only `public.db` (Abruf 21.11.2026).]
+
+### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,8 km** von der Straße **Am Weißen Haus, 56626 Andernach** (way/28741597; die Hausnummer **5** ist in OpenStreetMap nicht adressiert) entfernt — er trifft **12, Salentinstraße, 56626 Andernach** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße; die Rechtseinheit ist seit dem **04.03.2024** in Liquidation ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ die **Straße** ✓ ✓ und die **nicht belegte Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]

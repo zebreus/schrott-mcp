@@ -13,6 +13,7 @@ website: http://www.schrottdirektor.de/
 website_status: aktiv
 status: aktiv
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Münsterland / OWL (Münster, Bielefeld, Nottuln)
@@ -58,3 +59,7 @@ Betreiber-Einzelquelle ohne hinreichenden unabhängigen Identitäts-/Kontaktbele
 - [Recherche 21.11.2026: **Ankauf:** die Vergütung bleibt eine Zusage ohne Betrag; die Leistungsseite (live am 21.11.2026) nennt wörtlich `Sie bekommen sogar zusätzlich Geld von uns - wie viel das im Einzelfall ist, hängt von der Menge und der Art des Schrotts ab`; ein EUR/kg-Kurs und eine datierte Preisliste sind nicht veröffentlicht. **Verkauf:** keine Verkaufspreisliste; die Stoffliste (Eisen, Stahl, Kupfer, Heizungen, Rohre, Aluminium, VA-Schrott, Mischschrott, Handels- und Maschinenguss, Altschrott, Neuschrott, Elektroschrott, Waschmaschinen, Motoren, Kupferkabel, Autoschrott, Messing, Zink, Aluminiumfenster) ist eine Annahmeliste und keine Preisliste. **Gebühren:** `Die sorgfältige Schrottabholung ist für Sie kostenfrei` ist eine bedingte Kostenfreiheitszusage für die Abholung, kein Tarif und kein EUR/kg-Wert; ein Container- oder Demontagetarif wird nicht genannt. Quelle(n): http://www.schrottdirektor.de/leistungen.html ; http://www.schrottdirektor.de/ (Abruf 21.11.2026).]
 
 - [Recherche 21.11.2026: **GEO gemessen, nicht geändert: der gespeicherte Punkt 51.699294117647064/8.038882352941176 liegt nicht in Münster.** Die Rückauflösung mit Zoom 18 löst ihn auf `40, Dalmer Weg, 59510 Lippetal` auf (way/263485785, landwirtschaftliches Gebäude im Ortsteil Lippborg, Kreis Soest); zur belegten Betreiberanschrift Fritz-Pütter-Straße 13, 48153 Münster (way/300120578, `addr:housenumber`=13, `building`=apartments, ohne `name` und `operator`) beträgt der Abstand **38,643 km**. Der Punkt ist für diese Zeile damit falsch; eine Ersetzung bleibt eine Owner-Entscheidung, und bis dahin wird weder ein Standort noch eine öffentliche Annahmestelle behauptet. Quelle(n): https://photon.komoot.io/reverse?lat=51.699294117647064&lon=8.038882352941176 ; https://api.openstreetmap.org/api/0.6/way/300120578/full.json ; read-only `public.db` (Abruf 21.11.2026).]
+
+### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **38,6 km** vom Adressobjekt **Fritz-Pütter-Straße 13, 48153 Münster** (way/300120578, `addr:housenumber`=13) entfernt — er trifft die Straße **Frölichweg, 59510 Lippetal** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **38,6 km** entfernt in einem anderen Ort ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
