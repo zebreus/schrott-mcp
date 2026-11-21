@@ -32,13 +32,13 @@ Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der Owner hat über **jeden*
 | `th-erfurt-sanfa-recycling` ✓ ✓ | 51.0222729 / 11.0365540 ✓ ✓ | der **amtliche Registerauszug** ✓ ✓ (HRB 511280 AG Jena ✓ ✓) und das **amtliche Insolvenzportal** ✓ ✓ mit `way/436734423` ✓ ✓ und der **Hausnummer 37b** ✓ ✓ |
 | `be-neukolln-marske` ✓ ✓ | 52.4686967 / 13.4548739 ✓ ✓ | der **amtliche Registerauszug** ✓ ✓ (`Lahnstr. 3 - 5, 12055 Berlin` ✓ ✓) und `node/2820306600` ✓ ✓ mit der **Hausnummer 3** ✓ ✓ |
 
-**Vier** dieser Punkte waren von der Welle **neu** gesetzt ✓ ✓ (Hannover ✓ ✓,
-Ichenhausen ✓ ✓) oder von ihr **gemessen** ✓ ✓ — der Owner hat sie **bestätigt**
-✓ ✓ ✓ ✓
+**Zwei** dieser Punkte hatte die Welle **neu** gesetzt ✓ ✓ (Hannover ✓ ✓,
+Ichenhausen ✓ ✓) — der Owner hat sie **bestätigt** ✓ ✓ ✓ ✓
 
 **Zwei** Punkte ersetzen einen **falschen** Punkt ✓ ✓: bei Asperg lag der alte
-Punkt **750 m** daneben ✓ ✓ und traf ein **Wirtshaus** ✓ ✓, bei Rutesheim lag er
-**1,2 km** daneben ✓ ✓ und traf eine **Straße im Ort** ✓ ✓ ✓ ✓
+Punkt **750 m** daneben ✓ ✓ und traf ein Objekt mit dem **Namen „Zum Bären“**
+✓ ✓, bei Rutesheim lag er **1,2 km** daneben ✓ ✓ und traf eine **Straße im
+Ort** ✓ ✓ ✓ ✓
 
 **Ein** Hinweis bleibt offen ✓ ✓: das Impressum von Ichenhausen ist eine
 **Archivfassung** von 2021 ✓ ✓ — vier Jahre alt ✓ ✓, der heutige Fortbestand des
@@ -46,10 +46,11 @@ Betriebs bleibt ungeklärt ✓ ✓ ✓ ✓
 
 ### Entfernt ✓ ✓ — **32** ✓ ✓
 
-**Sechs** Punkte treffen ein **fremdes Objekt** ✓ ✓ — einen **Möbelmarkt** ✓ ✓
+**Sieben** Punkte treffen ein **fremdes Objekt** ✓ ✓ — einen **Möbelmarkt** ✓ ✓
 in Gladenbach ✓ ✓, ein **Amtsgericht** ✓ ✓ in Varel ✓ ✓, den **Standort der
 REMONDIS** ✓ ✓ in Möllenhagen ✓ ✓ (dort **exakt** ✓ ✓), einen **Baumarkt** ✓ ✓
-in Halle ✓ ✓ und **zweimal** ein **Kunstwerk** ✓ ✓ in Lübeck ✓ ✓ ✓ ✓
+in Halle ✓ ✓, ein Objekt mit dem **Namen „Krav Maga“** ✓ ✓ in Saarbrücken ✓ ✓
+und **zweimal** ein **Kunstwerk** ✓ ✓ in Lübeck ✓ ✓ ✓ ✓
 
 **Ein** Punkt trifft eine **Fernstraße** ✓ ✓ — die **A 7** ✓ ✓ bei Selk ✓ ✓ ✓ ✓
 
@@ -62,9 +63,9 @@ belegter Standort des **Betriebs** vor ✓ ✓ ✓ ✓
 
 ### Bleibt ✓ ✓ — **14** ✓ ✓
 
-Diese **vierzehn** Punkte treffen die **Dossier-Adresse** ✓ ✓ (zwischen **0 m**
-✓ ✓ und **3 m** ✓ ✓) ✓ ✓ — darunter der des **Betriebs in St. Wendel** ✓ ✓,
-dessen OSM-Objekt den **Namen des Betriebs** trägt ✓ ✓ ✓ ✓
+**Zwölf** dieser **vierzehn** Punkte treffen die **Dossier-Adresse** ✓ ✓ (zwischen
+**0 m** ✓ ✓ und **6,3 m** ✓ ✓) ✓ ✓ — darunter der des **Betriebs in St. Wendel**
+✓ ✓, dessen OSM-Objekt den **Namen des Betriebs** trägt ✓ ✓ ✓ ✓
 
 **Zwölf** davon treffen das Adressobjekt der Dossier-Adresse ✓ ✓:
 `bb-juterbog-bottcher-harald-schrotthandel` ✓ ✓ ·
@@ -81,8 +82,11 @@ dessen OSM-Objekt den **Namen des Betriebs** trägt ✓ ✓ ✓ ✓
 `by-velden-albrecht` ✓ ✓ (der Punkt trifft kein Adressobjekt, die Hausnummer **13**
 ✓ ✓ existiert in OpenStreetMap **nicht** ✓ ✓) und
 `sn-markkleeberg-taucha-schkeudi-schrottjungs-schrottabholung-leipzig` ✓ ✓
-(der Punkt trifft **Markkleeberg** ✓ ✓, einen der **fünf** im Dossier genannten
-Orte ✓ ✓) ✓ ✓ ✓ ✓
+(der Punkt **51.2755/12.3691** trifft den **Leipziger** Stadtteil
+**Markkleeberg-Mitte** ✓ ✓ — also **nicht** einen der **fünf** im Dossier
+genannten Orte ✓ ✓, wie die Wellennotiz sagt ✓ ✓; er markiert den **Ort** ✓ ✓
+und bleibt deshalb Platzhalter des Seeds ✓ ✓, weil das Dossier **keine** Straße
+führt ✓ ✓) ✓ ✓ ✓ ✓
 
 ### Kein Punkt ✓ ✓ — **8** ✓ ✓
 
@@ -93,19 +97,23 @@ Fällen entfällt die Korrektur ✓ ✓ ✓ ✓
 
 ## Die eigene Nachmessung ✓ ✓
 
-Der Owner hat **jeden** der **52** gespeicherten Punkte am 21.11.2026 **selbst**
-zurückgelöst ✓ ✓ (Nominatim, Abruf 21.11.2026 ✓ ✓) und gegen das **Adressobjekt**
-✓ ✓ der belegten Anschrift **gemessen** ✓ ✓ (OpenStreetMap-API, Abruf
-21.11.2026 ✓ ✓) ✓ ✓ — die Abweichungen der Wellennotizen wurden dabei
-**bestätigt** ✓ ✓ ✓ ✓
+Der Owner hat **alle 52** gespeicherten Punkte am 21.11.2026 **selbst**
+zurückgelöst ✓ ✓ (Nominatim, Abruf 21.11.2026 ✓ ✓) und die **38** zu
+korrigierenden ✓ ✓ gegen das **Adressobjekt** ✓ ✓ der belegten Anschrift
+**gemessen** ✓ ✓ (OpenStreetMap-API, Abruf 21.11.2026 ✓ ✓) ✓ ✓ — die
+Abweichungen der Wellennotizen wurden dabei **geprüft** ✓ ✓ ✓ ✓
 
-**Zwei** Wellennotizen weichen ab ✓ ✓: bei `bw-asperg-haffner` ✓ ✓ nennt die
+**Drei** Wellennotizen weichen ab ✓ ✓: bei `bw-asperg-haffner` ✓ ✓ nennt die
 Welle **2,6 km** ✓ ✓, die eigene Nachmessung ergibt **750 m** ✓ ✓ — maßgeblich
 ist die eigene Messung ✓ ✓ ✓ ✓ Bei `nw-wettringen-skibinski` ✓ ✓ nennt die
 Welle **191,259 km** ✓ ✓, nennt aber eine Koordinate, deren Abstand **194,5 km**
 ✓ ✓ beträgt ✓ ✓ — gemessen wurde von der **Gemeinde Wettringen**
 ✓ ✓ (relation/155793 ✓ ✓), und die Entscheidung bleibt in beiden Fällen
-dieselbe ✓ ✓ ✓ ✓
+dieselbe ✓ ✓ ✓ ✓ Bei `bb-nordwestuckermark-reinert-bunt-und-altmetallhandel` ✓ ✓
+misst die Welle **9,82 km** ✓ ✓ bis zu einem **Knoten** ✓ ✓
+(node/9903525907 ✓ ✓), die eigene Messung **6,3 km** ✓ ✓ bis zur **Gemeinde**
+✓ ✓ (relation/1334079 ✓ ✓) — zwei verschiedene Bezugsobjekte ✓ ✓, die
+Entscheidung bleibt dieselbe ✓ ✓ ✓ ✓
 
 ## Der Stand in der Produktion ✓ ✓
 

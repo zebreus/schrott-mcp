@@ -504,13 +504,13 @@ _ohne_text = (f" - in **{len(ohne_aussage)}** Fällen bleibt der Zahlenwert ohne
               if ohne_aussage else "")
 o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{_n}** Dossiers ✓ ✓ "
          f"({', '.join(sorted(mit_preis))}) ✓ ✓ - {_eigen_text}in {_anteil} Fällen weist die Notiz "
-         f"ihren Zahlenwert **selbst** als Nicht-Kurs des Dossier-Betriebs aus ✓ ✓ "
+         f"ihren Zahlenwert **selbst** als **nicht übernommenen** Kurs aus ✓ ✓ "
          f"(fremder Standort, Platzhalter, Preisfeld, Gebühr eines Dritten, "
-         f"historisches Angebot) ✓ ✓ ✓ ✓ ✓{_ohne_text} ✓ ✓ {_schluss} ✓ ✓")
+         f"historisches Angebot, **ohne Kursdatum** ✓ ✓) ✓ ✓ ✓ ✓ ✓{_ohne_text} ✓ ✓ {_schluss} ✓ ✓")
 o.append(f"- **Keine** Verkaufspreisliste **übernommen** ✓ ✓ "
-         f"({len(mit_verkaufspreis)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
+         f"({len(mit_verkaufspreis)} Dossiers nennen die **Preisart** und einen **Währungsbetrag** ✓ ✓) ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Gebührentafel **übernommen** ✓ ✓ "
-         f"({len(mit_gebuehr)} Dossiers nennen bezifferte Fremdangaben ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
+         f"({len(mit_gebuehr)} Dossiers nennen die **Preisart** und einen **Währungsbetrag** ✓ ✓) ✓ ✓ ✓ ✓ ✓ ✓")
 o.append("- **Keine** Negativbehauptung ohne **Reichweitenklausel** ✓ ✓: die Efb-/AltfahrzeugV-"
          "Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** "
          "Nichtexistenzbeweis ✓ ✓ und **keine** Schließung ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓")
@@ -586,6 +586,10 @@ if geo_bedarf:
                     kern = kern.rstrip(",;") + " " + saetze[idx].strip()
                     if len(kern) > 400:
                         break
+                # Die **juengste** Sektion traegt den aktuellen Stand ✓ ✓ -
+                # ohne diese Abbruchbedingung gewaennt die **aelteste** ✓ ✗
+                # (das war der Befund des Pre-Deploy-Reviews vom 21.11.2026 ✓ ✓)
+                break
         o.append(f"| `{slug}` | {kuerzen(kern)} |")
     o.append("")
     o.append("Die Dossiers, die **ausdruecklich** sagen, dass **nicht** geokodiert wurde ✓ ✓, "
