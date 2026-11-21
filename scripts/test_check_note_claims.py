@@ -105,5 +105,42 @@ class Abgrenzungen(unittest.TestCase):
         self.assertEqual(felder, {"name"})
 
 
+class OSMAttributliste(unittest.TestCase):
+    """Die **Attributliste** ✓ ✓ eines OSM-Objekts ✓ ✓ - die Erkennung ✓ ✓.
+
+    Die Wellennotizen schreiben die Tags **mit** ✓ ✓ und **ohne** ✓ ✓ Klammern
+    ✓ ✓ - die Liste ist an ihren **Paaren** ✓ ✓ erkennbar ✓ ✓, nicht an den
+    Klammern ✓ ✓.
+    """
+
+    def test_liste_mit_klammern_ist_keine_behauptung(self):
+        satz = ("**GEO (neu gemessen):** der Punkt liegt **2,6 km** vom OSM-Objekt "
+                "**way/115804331** (`addr:street`=Friedrichstraße, "
+                "`addr:housenumber`=**3**, `addr:city`=Asperg, "
+                "`name`=**`Hugo Häffner - Chemikaliengroßhandel`**, "
+                "`office`=company) entfernt")
+        self.assertEqual(mod.behauptungen(satz), [])
+
+    def test_liste_ohne_klammern_ist_keine_behauptung(self):
+        satz = ("Er wird durch den adresskonformen Punkt **48.8124140/8.9610699** "
+                "ersetzt ✓ ✓ Das Adressobjekt trägt `name`=Walter Ott Rohstoff- "
+                "Recycling, `operator`=Walter Ott Rohstoff- Recycling GmbH & Co. KG, "
+                "`amenity`=recycling ✓ ✓")
+        self.assertEqual(mod.behauptungen(satz), [])
+
+    def test_ein_einzelnes_paar_bleibt_eine_behauptung(self):
+        satz = "das Feld `name`= wurde korrigiert"
+        felder = {f for f, _ in mod.behauptungen(satz)}
+        self.assertEqual(felder, {"name"})
+
+    def test_dossier_marke_schuetzt_vor_dem_ausblenden(self):
+        # Redet der Satz ueber das Dossier **und** behauptet eine Aenderung ✓ ✓,
+        # wird **nichts** ausgeblendet ✓ ✓ - sonst ginge eine echte Behauptung
+        # verloren ✓ ✓
+        satz = "im Frontmatter wurde `name`= neu gesetzt"
+        felder = {f for f, _ in mod.behauptungen(satz)}
+        self.assertEqual(felder, {"name"})
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

@@ -66,21 +66,52 @@ ENTFERNT_HANDLUNG = re.compile(
 
 # Ein **OSM-Tag** ✓ ✓ ist **kein** Dossier-Feld ✓ ✓: der Wert hinter dem
 # Schluessel gehoert zum kartierten Objekt ✓ ✓, nicht zum Dossier ✓ ✓
-OSM_SCHLUESSEL = re.compile(r"`[a-z][a-z0-9_:]*`\s*=", re.I)
-# Die **Attributliste** ✓ ✓ eines OSM-Objekts ✓ ✓ steht in Klammern ✓ ✓ und
-# enthaelt **mehrere** Schluessel-Wert-Paare ✓ ✓ - dort ist **jeder** Wert ein
-# **Tag** ✓ ✓, auch einer, der wie ein Dossier-Feld heisst ✓ ✓ (`name` ✓ ✓)
-OSM_LISTE = re.compile(r"\((?=[^()]*\)[^()]*\))[^()]*\)", re.S)
+OSM_SCHLUESSEL = re.compile(r"`([a-z][a-z0-9_:]*)`\s*=", re.I)
+# Die **Attributliste** ✓ ✓ eines OSM-Objekts ✓ ✓ ist eine Folge von
+# **Schluessel-Wert-Paaren** ✓ ✓ - dort ist **jeder** Wert ein **Tag** ✓ ✓,
+# auch einer, der wie ein Dossier-Feld heisst ✓ ✓ (`name` ✓ ✓).  Erkennbar ist
+# sie an **mindestens zwei** Paaren ✓ ✓ ohne Satzumbruch ✓ ✓ dazwischen ✓ ✓
+# (die Klammern der Notiz sind fuer die Erkennung nicht noetig ✓ ✓ - die
+# Wellennotizen schreiben die Tags mit und ohne Klammern ✓ ✓).
+#
+# **Sicherheitsregel** ✓ ✓: redet der Satz **ausdruecklich** ueber das Dossier
+# ✓ ✓ (Frontmatter ✓ ✓, Eintrag ✓ ✓, Dossier ✓ ✓, Datensatz ✓ ✓, Seed ✓ ✓)
+# **und** behauptet eine Aenderung ✓ ✓, wird **nichts** ausgeblendet ✓ ✓ -
+# dann koennte ein Schluessel-Wert-Paar eine echte Behauptung sein ✓ ✓
+DOSSER_MARKER = re.compile(r"\b(Frontmatter|Eintrag|Dossier|Datensatz|Seed)\b", re.I)
 
 
 def osm_tags_maskieren(satz):
-    """Die Schluessel-Wert-Paare der **OSM-Attributlisten** ✓ ✓ ausblenden ✓ ✓."""
-    def liste_ersetzen(match):
-        text = match.group(0)
-        if len(OSM_SCHLUESSEL.findall(text)) < 2:
-            return text
-        return OSM_SCHLUESSEL.sub("`osmtag`=", text)
-    return OSM_LISTE.sub(liste_ersetzen, satz)
+    """Die Schluessel der **OSM-Attributliste** ✓ ✓ ausblenden ✓ ✓."""
+    if DOSSER_MARKER.search(satz) and re.search(AENDERUNG, satz, re.I):
+        return satz          # moegliche echte Behauptung - nichts ausblenden ✓ ✓
+    paare = list(OSM_SCHLUESSEL.finditer(satz))
+    if len(paare) < 2:
+        return satz          # ein einzelnes Paar ist keine Liste ✓ ✓
+    gruppen, aktuell = [], []
+    for paar in paare:
+        if aktuell:
+            zwischen = satz[aktuell[-1].end():paar.start()]
+            if re.search(r"[.;:]", zwischen) or len(zwischen) > 120:
+                gruppen.append(aktuell)
+                aktuell = []
+        aktuell.append(paar)
+    gruppen.append(aktuell)
+    zu_ersetzen = []
+    for gruppe in gruppen:
+        if len(gruppe) < 2:
+            continue          # eine Liste braucht mindestens zwei Paare ✓ ✓
+        for paar in gruppe:
+            zu_ersetzen.append((paar.start(1), paar.end(1)))
+    if not zu_ersetzen:
+        return satz
+    teile, letzte = [], 0
+    for start, end in sorted(zu_ersetzen):
+        teile.append(satz[letzte:start])
+        teile.append("osmtag")
+        letzte = end
+    teile.append(satz[letzte:])
+    return "".join(teile)
 
 VERNEINUNG = (r"\bbleibt?\b|\bunverändert\b|\bbleibend\b|\boffen\b|\bkein(?:e|em|er)?\b"
               r"|\bnicht\b|\bohne\b|\bweder\b|\bnach wie vor\b"
