@@ -318,10 +318,44 @@ for f in sorted(files):
     wert = fm.group(1).strip()
     if wert in ("''", '""', ""):
         continue
+    # Nur die **geaenderten** Felder ✓ ✓ - ein schon vorhandenes
+    # Zertifikat ✓ ✓ ist kein Beleg dieser Welle ✓ ✓ ✓ ✓
+    _alt = subprocess.run(["git", "show", f"{BASE}:{f}"], capture_output=True,
+                          text=True).stdout
+    _afm = re.search(r"^certifications:\s*(.*)$", _alt, re.M)
+    if _afm and _afm.group(1).strip() == wert:
+        continue
     o.append(f"- `{slug}` ✓ ✓: Zertifikat oder Negativbefund im Feld ✓ ✓")
 o.append("")
 o.append("## Was ausdrücklich **nicht** behauptet wird ✓ ✓\n")
 # Alles, was gemessen werden kann, wird gemessen ✓ ✓ - nichts wird getippt ✓ ✓
+# Eine **Preisliste** ✓ ✓ nennt die Waehrung **einmal** ✓ ✓ ("in EUR je kg" ✓ ✓)
+# und die Werte **ohne** Waehrungszeichen ✓ ✓ - eine solche Liste waere sonst
+# blind ✓ ✗ ✓ Deshalb zaehlt auch eine **Zahl** ✓ ✓ im **Preiszusammenhang** ✓ ✓
+PREIS_SATZ = re.compile(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
+                        r"\d+(?:,\d{2})?\s*€/\s*[a-zA-Z])")
+PREIS_KONTEXT = re.compile(r"(Ankaufspreis\w*|Einkaufspreis\w*|Ankaufskurs\w*|Verkaufspreis\w*|"
+                           r"Preis\w*|Kurs\w*|EUR|Euro|€|je kg|je Tonne|Tagespreis\w*)", re.I)
+# Eine **Laenge** ✓ ✓ ("1,50 m" ✓ ✓) oder ein **Gewicht** ✓ ✓ ("0,08 kg" ✓ ✓)
+# ist **kein** Preis ✓ ✓ - die Zahl zaehlt nur mit einem Preiszusammenhang ✓ ✓
+PREIS_ZAHL = re.compile(r"\d+,\d{2}(?!\s*(?:m|mm|cm|km|kg|g|t)\b)")
+def _saetze(text):
+    return re.split(r"(?<=[.!?:])\s+", text)
+def _hat_preis(text):
+    """Traegt der Text eine **Preisangabe** ✓ ✓ - entweder mit
+    Waehrungszeichen ✓ ✓ oder als Zahl **im Preiszusammenhang** ✓ ✓ ✓ ✓"""
+    if PREIS_SATZ.search(text):
+        return True
+    _saetze_liste = _saetze(text)
+    for _i, _x in enumerate(_saetze_liste):
+        # Der Preiszusammenhang darf im **vorigen** Satz stehen ✓ ✓: die
+        # Preisliste schreibt "in EUR je kg: Schrott 0,10" ✓ ✓ und der
+        # Doppelpunkt trennt die beiden Haelften ✓ ✓
+        _vorher = _saetze_liste[_i - 1] if _i else ""
+        if PREIS_ZAHL.search(_x) and PREIS_KONTEXT.search(_vorher + " " + _x):
+            return True
+    return False
+
 mit_preis = []
 mit_verkaufspreis = []
 mit_gebuehr = []
@@ -337,8 +371,7 @@ for f in files:
     # die Shards nennen auch EUR/t ✓ ✓, EUR/Stueck ✓ ✓ und reine EUR-Betraege ✓ ✓
     # Eine **Negativaussage** ✓ ✓ ("kein €/kg-Kurs" ✓ ✓) nennt **keine** Zahl ✓ ✓
     # und zaehlt deshalb **nicht** ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
-    if re.search(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
-                  r"\d+(?:,\d{2})?\s*€/\s*[a-zA-Z])", n):
+    if _hat_preis(n):
         mit_preis.append(f.split("/")[-1][:-3])
     if re.search(r"(VERKAUF|Verkaufspreis)", n, re.I) and \
             re.search(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
@@ -375,8 +408,6 @@ KURS_MARKER = re.compile(
 # **Der Satz, nicht die ganze Notiz** ✓ ✓: eine Notiz kann einen eigenen
 # Kurs **und** eine Fremdangabe nennen ✓ ✓ ("kein Preis von 0,00 EUR" bei
 # einer Annahmegrenze ✓ ✓) - das ist kein Widerspruch ✓ ✓ ✓ ✓ ✓
-PREIS_SATZ = re.compile(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2})?|"
-                        r"\d+(?:,\d{2})?\s*€/\s*[a-zA-Z])")
 # Die **Preisart** ✓ ✓ des Ankaufs ✓ ✓ steht im Dossier **gross** ✓ ✓ ("ANKAUF:" ✓ ✓,
 # "VERKAUF:" ✓ ✓, "GEBUEHREN:" ✓ ✓) ✓ ✓ oder sie nennt den **Betrieb** ✓ ✓
 # ausdruecklich ✓ ✓ ("Einkaufspreise des Betreibers" ✓ ✓) ✓ ✓
@@ -385,9 +416,9 @@ PREIS_SATZ = re.compile(r"(?:\d+(?:,\d{2})?\s*(?:€|Euro|EUR)|€\s*\d+(?:,\d{2
 # gehoert zu einer **Plattform** ✓ ✓ ✓ ✓
 EIGEN_LABEL = re.compile(
     r"(\bANKAUF\b|\bEinkaufspreise?\s+des\s+(?:Betreibers|Betriebs|Dossierbetriebs)|"
-    r"\bAnkaufskurse?\s+des\s+(?:Betreibers|Betriebs))")
-def _saetze(text):
-    return re.split(r"(?<=[.!?:])\s+", text)
+    r"\bAnkaufspreise?\s+des\s+(?:Betreibers|Betriebs|Dossierbetriebs)|"
+    r"\bAnkaufskurse?\s+des\s+(?:Betreibers|Betriebs)|"
+    r"\bPreislisten?\s+des\s+(?:Betreibers|Betriebs|Dossierbetriebs))")
 def _eigener_kurs(text):
     """Ein **eigener** Ankaufskurs des Dossier-Betriebs ✓ ✓ - gemessen im
     **Fenster** ✓ ✓ nach der Preisarbeit ✓ ✓: die Bezeichnung ✓ ✓, danach
@@ -397,12 +428,35 @@ def _eigener_kurs(text):
     wuerde den Satz zerlegen ✓ ✗ ✓ ✓ ✓
     """
     for _m in EIGEN_LABEL.finditer(text):
-        # Das Fenster beginnt **vor** der Bezeichnung ✓ ✓: eine Notiz schreibt
-        # "keine Ankaufspreise" ✓ ✓ - das "keine" steht **vor** der Bezeichnung
-        # und muss mitgelesen werden ✓ ✓ ✓ ✓
+        # Eine Notiz, die die Preise **des Betriebs** nennt, nennt
+        # eigene Kurse - auch wenn sie sie als **historisch**
+        # ausweist (das ist kein Ausschluss, sondern eine Angabe)
+        # **und** wenn die Werte weit hinten in der Notiz stehen
+        if re.search(r"des\s+(?:Betreibers|Betriebs|Dossierbetriebs)", _m.group(0)):
+            # Eine **Negation** ✓ ✓ direkt an der Bezeichnung ✓ ✓ sperrt
+            # die eigene Kurs-Aussage ✓ ✓ - "eine Preisliste des Betriebs
+            # **existiert nicht**" ✓ ✓ nennt **keine** Liste ✓ ✓ ✓ ✓
+            _links = text[max(0, _m.start() - 25):_m.start()]
+            _rechts = text[_m.end():_m.end() + 25]
+            if re.search(r"(kein\w*|nicht|ohne)", _links + "|" + _rechts, re.I):
+                continue
+            # Die Werte muessen im **Fenster** stehen ✓ ✓ - eine Preisliste
+            # ohne Zahlen ✓ ✓ (jede Zeile "Preis auf Anfrage" ✓ ✓) nennt
+            # keinen Kurs ✓ ✓ ✓ ✓
+            # Die Werte dueren **weit hinten** stehen duerfen ✓ ✓ - eine
+            # archivierte Liste ✓ ✓ nennt sie erst nach der Einleitung ✓ ✓
+            if not _hat_preis(text):
+                continue
+            return True
+        # Das Fenster beginnt **vor** der Bezeichnung: eine Notiz schreibt
+        # "keine Ankaufspreise" - das "keine" steht **vor** der Bezeichnung
+        # und muss mitgelesen werden
         _fenster = text[max(0, _m.start() - 160):_m.start() + 250]
-        if PREIS_SATZ.search(_fenster) is None:
+        if not _hat_preis(_fenster):
             continue
+        if KURS_MARKER.search(_fenster):
+            continue
+            return True
         if KURS_MARKER.search(_fenster):
             continue
         return True
