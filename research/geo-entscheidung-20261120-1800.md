@@ -28,7 +28,7 @@ Dossiergemeinde ✓ ✓ ✓ ✓
 (auf einer anderen Straße ✓ ✓) und **8,9 km** ✓ ✓ entfernt ✓ ✓ — darunter einer,
 der die **Kreisstadt statt des Ortsteils** ✓ ✓ trifft ✓ ✓ (Köthen ✓ ✓ statt
 Reupzig ✓ ✓), einer, der im **falschen Stadtbezirk** ✓ ✓ liegt ✓ ✓, und einer, der
-in einer **anderen Stadt** ✓ ✓ liegt ✓ ✓ (Gröditz ✓ ✓ statt Riesa ✓ ✓) ✓ ✓
+ein **Sportzentrum** ✓ ✓ in **Pausitz** ✓ ✓ trifft ✓ ✓ (1870 m ✓ ✓ vom PLZ-Raum Riesa ✓ ✓) ✓ ✓
 
 ### Bleibt ✓ ✓
 
