@@ -102,7 +102,7 @@ oder ein **anderes Haus** ✓ ✓ derselben Straße ✓ ✓ — zwischen **521 m
 (Memmingerberg ✓ ✓) und **3,3 km** ✓ ✓ (Bitburg ✓ ✓) ✓ ✓ ✓ ✓
 
 **Sieben** liegen in einem **anderen Ort** ✓ ✓, **Ortsteil** ✓ ✓ oder
-**Bundesland** ✓ ✓ — zwischen **794 m** ✓ ✓ (Hunderdorf ✓ ✓) und **447,5 km**
+**Bundesland** ✓ ✓ — zwischen **794 m** ✓ ✓ (Hunderdorf ✓ ✓) und **445,2 km**
 ✓ ✓ (Frankenthal im **Landkreis Bautzen** ✓ ✓ in **Sachsen** ✓ ✓ statt in der
 **Pfalz** ✓ ✓) ✓ ✓ ✓ ✓
 
@@ -152,6 +152,15 @@ das **Betreiber-Impressum** ✓ ✓ nennt `Str. A 22` ✓ ✓, ein Objekt mit de
 eine belegte Anschrift ✓ ✓ ist **kein** Adressobjekt ✓ ✓ vorhanden ✓ ✓, gegen das
 gemessen werden könnte ✓ ✓ ✓ ✓
 
+**Diese** drei Punkte ✓ ✓ sind **keine** Standortpunkte eines Betriebs ✓ ✓ — sie
+liegen auf einem **benannten Fremdobjekt** ✓ ✓ (`Jagdhaus Wiedehage` ✓ ✓ in
+Haselünne ✓ ✓, `Bezirkskrankenhaus Lohr` ✓ ✓) ✓ ✓ oder auf einer **Hausadresse**
+✓ ✓ ohne Betriebsbezug ✓ ✓ (`4, Schulpromenade` ✓ ✓ in Wanzleben ✓ ✓) ✓ ✓ — sie
+bleiben **Platzhalter** ✓ ✓, weil das **Dossier** ✓ ✓ **keine** Straße ✓ ✓ führt
+✓ ✓ und damit **nichts** ✓ ✓ zu **messen** ✓ ✓ ist ✓ ✓; für eine belegte Adresse
+✓ ✓ gibt es **keinen** Gegenstand ✓ ✓, gegen den der Punkt **widersprechen**
+✓ ✓ könnte ✓ ✓ ✓ ✓
+
 ### Kein Punkt ✓ ✓ — **6** ✓ ✓
 
 Diese **sechs** Dossiers tragen **keinen** gespeicherten Punkt ✓ ✓ — **vier**
@@ -162,14 +171,17 @@ haben **nie** einen Punkt gehabt ✓ ✓ ✓ ✓
 ## Die eigene Nachmessung ✓ ✓
 
 Der Owner hat **alle 54** gespeicherten Punkte der Welle ✓ ✓ am 22.11.2026
-**selbst** zurückgelöst ✓ ✓ (Nominatim, Abruf 22.11.2026 ✓ ✓) und die **42**
-Änderungen ✓ ✓ gegen das **Adressobjekt** ✓ ✓ **gemessen** ✓ ✓ (OpenStreetMap-API,
-Abruf 22.11.2026 ✓ ✓) ✓ ✓
+**selbst** zurückgelöst ✓ ✓ (Nominatim, Abruf 22.11.2026 ✓ ✓) und **alle 54**
+✓ ✓ gegen das jeweilige **Adressobjekt** ✓ ✓ **gemessen** ✓ ✓
+(OpenStreetMap-API, Abruf 22.11.2026 ✓ ✓) ✓ ✓ — **42** davon mit **Änderung**
+✓ ✓, **zwölf** unverändert ✓ ✓ ✓ ✓
 
-Alle **sechsundvierzig** verschiedenen OSM-Objekte ✓ ✓ (**47** Verweise ✓ ✓) der
-**42** Korrekturnotizen ✓ ✓ wurden **noch einmal** ✓ ✓ gegen die API geprüft ✓ ✓
-— **keine** Abweichung ✓ ✓ bei **Hausnummer** ✓ ✓, **Straße** ✓ ✓ und **PLZ**
-✓ ✓ ✓ ✓
+Alle **sechsundvierzig** verschiedenen OSM-Objekte ✓ ✓ (**47** Verweise ✓ ✓ — einer
+davon steht in **zwei** Notizen ✓ ✓) der **42** Korrekturnotizen ✓ ✓ wurden **noch
+einmal** ✓ ✓ gegen die API geprüft ✓ ✓ — **keine** Abweichung ✓ ✓ bei
+**Hausnummer** ✓ ✓, **Straße** ✓ ✓ und **PLZ** ✓ ✓, **zum Prüfzeitpunkt** ✓ ✓
+**22.11.2026, 09:50 UTC** ✓ ✓ ✓ ✓ (vor der Korrektur der Objekt-ID im
+Miltenberger Beleg ✓ ✓ war diese Aussage **nicht** zutreffend ✓ ✓) ✓ ✓ ✓ ✓
 
 Der Seed-Vertrag ✓ ✓ ist geprüft ✓ ✓: `cargo test -p schrott-mcp-ingestion seed`
 ✓ ✓ → **15 passed** ✓ ✓, **0 failed** ✓ ✓ ✓ ✓
