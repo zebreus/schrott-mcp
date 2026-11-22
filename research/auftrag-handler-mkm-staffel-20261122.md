@@ -76,7 +76,8 @@ hinzu ✓ ✓, deren Form ✓ ✓ **einzeln** geprüft ✓ ✓ ist ✓ ✓
 
 Ein **neues** Fixture ✓ ✓ aus dem **heutigen** Live-Abruf ✓ ✓:
 `crates/ingestion/src/traders/handlers/fixtures/mkm-overview-20261122-sanitized.html`
-✓ ✓ — **47** Zeilen ✓ ✓, davon **zwei** ohne Staffel ✓ ✓ ✓ ✓ Es ist
+✓ ✓ — **61** Zeilen ✓ ✓, davon **zwei** ohne Staffel ✓ ✓ und **vierzehn**
+✓ ✓ „auf Anfrage“ ✓ ✓ ✓ ✓ Es ist
 **minimalisiert** ✓ ✓: nur Label ✓ ✓, Artikelnummer ✓ ✓, Preis mit Minimum
 ✓ ✓, Datum ✓ ✓ und der Rechner ✓ ✓ bzw. der Anfrage-Link ✓ ✓ — keine
 **fremden** Pfade ✓ ✓, keine Skripte ✓ ✓, keine Bilder ✓ ✓ ✓ ✓

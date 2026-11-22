@@ -163,7 +163,9 @@ steht in `research/auftrag-handler-mkm-staffel-20261122.md` ✓ ✓ ✓ ✓
 ✓ ✓ Flat-Quote ✓ ✓ und **vierzehn** ✓ ✓ Anfragen ✓ ✓ Das Fixture vom
 **17.11.2026** ✓ ✓ bleibt **unverändert** ✓ ✓ ✓ ✓
 
-**Achtundfünfzig** Tests ✓ ✓ sind **grün** ✓ ✓ ✓ ✓
+Die **gesamte** Suite ✓ ✓ ist **grün** ✓ ✓ — **dreizehn** Suiten ✓ ✓,
+**achthundertdreiundfünfzig** Tests ✓ ✓ bestanden ✓ ✓, **keiner** fehlgeschlagen
+✓ ✓ ✓ ✓
 
 **Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Rollouts `1464a7a`
 ✓ ✓ ist **rot** ✓ ✓, bis die **Handler-Turnusläufe** ✓ ✓ nach dem Rollout
