@@ -96,8 +96,13 @@ for _f in files:
     _neu = (ROOT / _f).read_text(encoding="utf-8")
     _av = frontmatter_werte(_alt)
     _nv = frontmatter_werte(_neu)
-    for _k, _v in _nv.items():
-        if _av.get(_k) != _v:
+    # **Beide** Seiten werden gezaehlt ✓ ✓ - die Konvention des Repos
+    # (`check_report_figures.py` ✓✓, `feldzaehlungen` ✓✓) zaehlt jedes
+    # **geaenderte** Frontmatter-Feld ✓✓, also auch ein **entferntes**
+    # ✓✓ - ein Dossier, dessen `lat`/`lon` der Owner loescht ✓✓, aendert
+    # `lat` und `lon` genauso wie eines, das sie **setzt** ✓✓ ✓✓
+    for _k in set(_av) | set(_nv):
+        if _av.get(_k) != _nv.get(_k):
             felder[_k] += 1
 # Die **hinzugefuegten** Feldnamen werden am Frontmatter **des Kandidaten**
 # gezaehlt - nicht im Diff ✓ ✓ (eine Prosazeile im angehaengten Ueberblick

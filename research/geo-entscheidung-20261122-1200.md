@@ -96,7 +96,7 @@ und `st-wanzleben-remi-recycling-mitteldeutschland` ✓ ✓ (18.01.2022 ✓ ✓)
 `sn-limbach-oberfrohna-schrott-antik-fahrzeuge` ✓ ✓ (Hohensteiner Straße **154**
 ✓ ✓), `st-gerwisch-b-magdeburg-hoffmann-u-hoffmann-elektroschrottrecycl` ✓ ✓
 (Gartenstraße **1** ✓ ✓) und `st-osterburg-pickert-recycling` ✓ ✓ (Düsedauer
-Straße **19** ✓ ✓ — das Objekt trägt den **Namen des Betriebs** ✓✓) ✓ ✓ ✓ ✓
+Str. **19** ✓ ✓ — das Objekt trägt den **Namen des Betriebs** ✓✓) ✓ ✓ ✓ ✓
 
 **Vier** bleiben **Platzhalter** ✓ ✓, weil ihr Dossier **keine** belegte
 Anschrift führt ✓ ✓: `ni-region-hannover-hildesheim-schrotthandel-f-weber-ort-n-a`
