@@ -6,6 +6,8 @@ state: NI
 city: Wolfenbüttel
 street: ''
 postcode: ''
+lat: '52.1615251'
+lon: '10.4888735'
 phone: ''
 email: ''
 opening_hours: ''
@@ -47,3 +49,7 @@ Der live geprüfte Betreiberauftritt gehört laut Impressum zu Ricardo Weber / W
 ### Importiert (Seed-Stand 2026-09-30)
 
 - weber-recycling.de: „faire Ankaufspreise“, Abrechnung Tagespreise, Container/Demontage → **ja**
+
+### Recherche 22.11.2026 (Welle 0600 B)
+
+- [Recherche 22.11.2026: Betreiber-Website und Impressum live erneut gelesen (22.11.2026, HTTP 200): `Ricardo Weber`, `Weber Recycling`, `Im Kleinen Feld 62`, `38304 Wolfenbüttel`, Telefon `+49 1520-7418493`, E-Mail `kontakt@weber-recycling.de`, Impressumsdatum `2026-06-29`; Büro- und Abholzeiten `Mo – Do 08:00 – 17:00 Uhr` und `Fr 08:00 – 15:00 Uhr`; die Navigation führt zusätzlich `Brennarbeiten` sowie `Demontage und Entsorgung von Industriemaschinen`; eine Registernummer fehlt im Impressum weiterhin, es bleibt dieselbe Betreiber-Einzelquelle. **Ankauf:** die Seite nennt `faire Ankaufspreise` und eine `Abrechnung mit tagesaktuellen Preisen`, aber keinen Eurobetrag und kein Publikationsdatum; **Verkauf:** keine Verkaufspreisliste; **Gebühren:** keine Container- oder Abholpreise. **Register:** der amtliche Registerstand wurde über den Register-Spiegel `https://schrottregister.pages.dev/assets/institute.json` ausgewertet (Registerabruf 11.08.2026); die Namenssuche `Weber` liefert 6 Treffer (`OCO Schlachtmüllerfassung H. Weber GmbH & Co. KG` Appenweier, `Weber Rohstoff GmbH` Kehl, `Weber GmbH` Lahr, `Stefan Weber` Ludwigsburg, `Weber GmbH Containerdienste und Entsorgungssysteme` Neuried), die PLZ-Suche `38304` 2 Treffer (`Hagemann Recycling GmbH` Wolfenbüttel, `REMONDIS GmbH & Co. KG, Region Nord` Wolfenbüttel) - **kein** Eintrag für Weber Recycling; Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schließungsbeleg; **Abrufbefund:** der Direktabruf der amtlichen Fachbetrieberegister-App (Deep-Link mit Namensfilter) liefert am 22.11.2026 nur den clientseitig gerenderten Vaadin-Bootstrap (HTTP 200, 2420 Bytes, keine Datenzeilen im HTML), deshalb wurde für diese Welle der Register-Spiegel ausgewertet. **GEO neu gesetzt** auf `52.1615251/10.4888735` (OSM way/153642066 mit `addr:street=Im Kleinen Feld`, `addr:housenumber=62`, `addr:city=Wolfenbüttel`, `addr:postcode=38304`): die Anschrift ist durch das Betreiber-Impressum belegt und das Adressobjekt führt die Hausnummer 62; der bisher gespeicherte Punkt `52.156325/10.548175` löst per Rückauflösung auf `11, Schlegelstraße, Drei Linden Siedlung, Rote Schanze, Wolfenbüttel, 38300` auf und liegt **4,086 km** vom belegten Anschriftsobjekt entfernt, er trifft also ein Wohnobjekt auf der falschen Straße und in der falschen PLZ. Offen: unabhängiger zweiter Identitätsbeleg (Verzeichnisse sind Leads, kein Beleg), Gewerbeauskunft Wolfenbüttel, öffentliche Hofannahme sowie Ankaufs- und Gebührenkurse. Quelle(n): https://www.weber-recycling.de/impressum/ ; https://www.weber-recycling.de/ ; https://www.weber-recycling.de/schrott-und-metallhandel/ ; https://api.openstreetmap.org/api/0.6/way/153642066.json ; https://schrottregister.pages.dev/assets/institute.json ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Weber (Abruf 22.11.2026).]

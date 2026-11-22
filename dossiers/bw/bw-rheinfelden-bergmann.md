@@ -1,23 +1,26 @@
 ---
 slug: bw-rheinfelden-bergmann
-name: Bergmann
+name: 'Dieter Bergmann GmbH'
 trader_type: autoverwertung
 state: BW
 city: Rheinfelden
-street: ''
-postcode: ''
-phone: ''
-email: ''
+street: 'Güterstraße 7'
+postcode: '79618'
+lat: 47.5559919
+lon: 7.7760243
+phone: '07623 62925'
+email: 'info@bergmann-metall.de'
 opening_hours: ''
-website: ''
-website_status: ''
-status: pruefung
-description: ''
+website: https://www.bergmann-metall.de/
+website_status: aktiv
+status: aktiv
+description: 'Metall- und Schrotthandel sowie Fahrzeugverwertung in Rheinfelden/Baden, Güterstraße 7. Die Dieter Bergmann GmbH (HRB 410970, Amtsgericht Freiburg) ist ein Unternehmen der Thommen Group; Eisenschrottannahme ab 150 kg, Buntmetalle mit LME-Bezug, Abholung ab etwa 1 Tonne auf Anfrage, Container 1 bis 38 Kubikmeter.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Autoverwerter BW ohne Website (Ankauf unklar, kein Gegenbeleg)
 provenance_ankauf_raw: unklar
 provenance_origin: table
+certifications: '["Altfahrzeugverwertung nach AltfahrzeugV, amtliches Fachbetrieberegister (Route Altfahrzeugverwertung, Abruf 22.11.2026): D. Bergmann GmbH, Güterstr. 7, 79618 Rheinfelden, Art des Betriebs Demontagebetrieb, Zertifikatsnummer im Register ZAHS01800046, das Register nennt weder Telefon noch E-Mail; eine Vorgangsnummer nach Feld 3.3 eines Zertifikats-PDF ist nicht belegt, weil für diesen Vorgang kein Zertifikats-PDF gelesen wurde", "Entsorgungsfachbetrieb nach Paragraf 56 KrWG, amtliches Fachbetrieberegister (Route Entsorgungsfachbetriebe, Abruf 22.11.2026): Dieter Bergmann GmbH, Güterstraße 7, 79618 Rheinfelden, zertifizierte Tätigkeiten Lagern und Behandeln, Zertifikatsnummer im Register ZZHT00900041, Abfallschlüssel 160104, 160106, 160211, 160212, 160213, 160215, 160801, 170410, 200135 und 200136, das Register nennt weder Telefon noch E-Mail; eine Vorgangsnummer nach Feld 3.3 eines Zertifikats-PDF ist nicht belegt, weil kein Zertifikats-PDF gelesen wurde"]'
 ---
 
 # Bergmann
@@ -56,3 +59,10 @@ Der aktuelle Betreiberkandidat Dieter Bergmann GmbH ist über Impressum und HRB 
 
 - [Recherche 01.10.2026: Klärfall – kein belastbarer Betreiber-/Register-Doppelbeleg; Northdata-Titelcheck "Bergmann, Rheinfelden Autoverwertung" nur Suche ohne HR-Treffer; keine verifizierte Betreiber-Website; Quelle(n): keine belegfähige Quelle]
 - [Recherche 01.10.2026: Felder leer gelassen; Statusfeld unverändert; Quelle(n): siehe Vorbullet]
+
+### Recherche 22.11.2026 (Welle 0600 C)
+
+- [Recherche 22.11.2026: **Die Identitätskette ist geschlossen: das amtliche Fachbetrieberegister führt an der belegten Adresse einen Demontagebetrieb und einen Entsorgungsfachbetrieb, und das Handelsregister bestätigt den Rechtsträger.** Die Ortsseite des Registerspiegels (Stand des Registerabrufs 11.08.2026, Abruf 22.11.2026) führt für Rheinfelden (79618) genau zwei Datensätze an derselben Anschrift: `D. Bergmann GmbH`, Güterstr. 7, als anerkannter Demontagebetrieb nach AltfahrzeugV mit der Zertifikatsnummer im Register `ZAHS01800046`, und `Dieter Bergmann GmbH`, Güterstraße 7, als Entsorgungsfachbetrieb mit den zertifizierten Tätigkeiten Lagern und Behandeln, der Zertifikatsnummer im Register `ZZHT00900041` und zehn Abfallschlüsseln; das Register nennt in beiden Datensätzen weder Telefon noch E-Mail. Der amtlich aufbereitete Handelsregisterauszug zu `Dieter Bergmann GmbH` (Amtsgericht Freiburg, HRB 410970) wurde am 22.11.2026 live gelesen und nennt den Status `aktiv`, die Firmenadresse `Güterstraße 7, 79618 Rheinfelden Baden` und die Gründung beziehungsweise Eintragung `10.12.1980`. Damit ist der bisher offene Seed-Name `Bergmann` mit Typ Autoverwertung, Ort Rheinfelden und Straße Güterstraße 7 zweifelsfrei einem realen, registerlich geführten Demontagebetrieb zugeordnet; die beiden Registernamen `D. Bergmann GmbH` und `Dieter Bergmann GmbH` sind zwei Registerdatensätze desselben Betriebs an derselben Adresse, keine zwei Betriebe. Der Seed-Name `Bergmann` ist im Frontmatter durch `Dieter Bergmann GmbH` nach der Betreiber-Primärquelle ersetzt, der Slug bleibt unverändert. Quellen: https://schrottregister.pages.dev/ort-rheinfelden ; https://schrottregister.pages.dev/betrieb-d-bergmann-gmbh-rheinfelden ; https://schrottregister.pages.dev/betrieb-dieter-bergmann-gmbh-rheinfelden ; https://www.online-handelsregister.de/handelsregisterauszug/bw/Freiburg/HRB/410970/Dieter-Bergmann-GmbH .]
+- [Recherche 22.11.2026: **Betreiber-Primärquelle, Registergericht und USt-IdNr.: zwei Abweichungen bleiben ausdrücklich offen.** Das Impressum des Betreibers wurde am 22.11.2026 erneut direkt gelesen (HTTP 200, 28977 Byte) und nennt `Dieter Bergmann GmbH`, `Güterstrasse 7`, `79618 Rheinfelden/Baden`, `Vertreten durch: Michael Hämmerle (Geschäftsführer)`, `Telefon: 0 76 23 / 6 29 25`, `E-Mail: info@bergmann-metall.de`, `Registergericht: Registergericht Lörrach`, `Registernummer: HRB 410 970`, `USt-IdNr. DE 142 395 816` und `Ein Unternehmen der Thommen Group`. Die USt-IdNr. DE 142 395 816 ist im EU-Register VIES am 22.11.2026 gültig. Offen bleibt die Gerichtsbezeichnung: das Impressum nennt Lörrach, das Handelsregister und der Registerauszug weisen die Nummer HRB 410970 dem Amtsgericht Freiburg zu; eine getrennte Firma mit derselben Nummer unter Lörrach gibt es nicht. Quellen: https://bergmann-metall.de/Impressum/ ; https://ec.europa.eu/taxation_customs/vies/rest-api/check-vat-number .]
+- [Recherche 22.11.2026: **GEO: die Anschrift ist adressgenau kartiert, der neue Punkt ersetzt einen geerbten Stadtpunkt 1914 m entfernt.** Das OSM-Objekt node/5329252200 trägt `addr:street`=Güterstraße, `addr:housenumber`=7, `addr:postcode`=79618, `addr:city`=Rheinfelden, `addr:suburb`=Warmbach und `type`=house bei 47.5559919/7.7760243; es trägt weder `name` noch `operator`, der Punkt bezeichnet damit die belegte Betriebsanschrift und keinen gesicherten Eingang. Der read-only-Abgleich `public.db` (22.11.2026) zeigt für diesen Slug den geerbten Punkt 47.5723/7.7842; die Nominatim-Rückauflösung löst ihn auf `Müßmattstraße, Kernstadt, Rheinfelden` (OSM way/319301888, `highway`=primary) auf, also auf eine Straße im Zentrum ohne Adress- und Betriebsbezug; der Abstand zum adressgenau bestätigten Objekt node/5329252200 beträgt 1914 m (Haversine). Der geerbte Punkt bleibt unangetastet, über Setzen oder Entfernen entscheidet der Owner in einer eigenen, datierten Korrektur-Sektion. Quellen: https://api.openstreetmap.org/api/0.6/node/5329252200.json ; read-only `public.db` (22.11.2026); https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=47.5723&lon=7.7842&addressdetails=1 .]
+- [Recherche 22.11.2026: **Preise getrennt gefuehrt, keine Kurse belegt.** ANKAUF: die Betreiberseite nennt eine Eisenschrottannahme ab 150 kg, Buntmetalle einschließlich Kabel mit LME-Bezug und eine Abholung von Eisen ab etwa 1 Tonne ab Bordsteinkante auf Anfrage, aber keine Zahlenkurse; VERKAUF: keine geprüfte Preisliste; GEBÜHREN: die Altfahrzeug-Entsorgung wird monatlich auf Anfrage angeboten, die Zahlungsrichtung bleibt ungeklärt, eine kostenlose Entsorgung wird nicht behauptet, und die Containergrößen 1 bis 38 Kubikmeter sind Kapazitätsangaben ohne Tarif. Für das Dossierfeld `opening_hours` wurde nichts übernommen, weil die Öffnungszeitenangabe der Betreiberseite witterungsabhängig ist und keine zweite Quelle vorliegt. Quellen: https://bergmann-metall.de/Unsere-Leistungen/Schrotthandel/index.php/ ; https://bergmann-metall.de/Kontakt-Oeffnungszeiten/ .]

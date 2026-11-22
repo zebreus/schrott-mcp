@@ -6,14 +6,14 @@ name: JK Schrotthandel Ferchland
 trader_type: schrottplatz
 state: ST
 city: Ferchland
-street: ''
-postcode: ''
+street: 'Mühlenweg 3'
+postcode: '39317'
 phone: ''
 email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: aktiv
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -105,3 +105,10 @@ JK Schrotthandel Ferchland bleibt ein Identitätsklärfall. Branchenverzeichniss
   https://api.openstreetmap.org/api/0.6/map.json?bbox=11.9900,52.4200,12.0200,52.4400 ;
   https://www.11880.com/branchenbuch/ferchland/060444309B5138741/jk-schrotthandel-ferchland.html ;
   https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003744550-S (Abruf 04.11.2026).]
+
+### Recherche 22.11.2026 (Welle 0600 C)
+
+- [Recherche 22.11.2026: **Die Betriebsanschrift ist jetzt durch zwei voneinander unabhängige Quellen belegt: amtliche Stellenanzeige und kartiertes Betriebsobjekt.** Der individuelle Stellen-Datensatz der Bundesagentur für Arbeit wurde am 22.11.2026 erneut direkt gelesen (HTTP 200) und nennt weiterhin Arbeitgeber `JK Schrotthandel Ferchland Jennifer Klöpper`, Arbeitsort `Mühlenweg 3, 39317 Ferchland`, `Veröffentlichungsdatum: Vor 30+ Tagen veröffentlicht`, Angebotsart Arbeit, unbefristet, Beginn ab sofort, und in der Bürokraft-Beschreibung `die Annahme und das Wiegen von Schrott sowie die Auszahlung (alles vom Arbeitsplatz aus)`. Das OSM-Objekt way/1197075417 trägt live (Version 1 vom 11.08.2023) `name`=`JK Schrotthandel & Containerdienst`, `amenity`=recycling, `recycling_type`=centre, `industrial`=scrap_yard, `landuse`=industrial, `addr:street`=Mühlenweg, `addr:housenumber`=3, `addr:postcode`=39317, `addr:city`=Elbe-Parey, `addr:suburb`=Ferchland. Betriebsname, Straße, Hausnummer, PLZ und Ortsteil decken sich damit in beiden Quellen vollständig, der im Dossier offene Konflikt zur Verzeichnisvariante Mühlenweg 1B ist damit zugunsten von Mühlenweg 3 aufgelöst. Die in der Stellenanzeige genannten 14,60 EUR je Stunde sind Arbeitslohn und kein Ankaufpreis. Quellen: https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003744550-S ; https://api.openstreetmap.org/api/0.6/way/1197075417/full.json .]
+- [Recherche 22.11.2026: **Statuswechsel auf `aktiv` ist belegt, der Preisstand bleibt offen.** Die Anzeige ist am 22.11.2026 live und beschreibt die laufende Annahme, das Wiegen und die Auszahlung von Schrott am Arbeitsort, und das OSM-Objekt trägt den Betriebsnamen selbst; damit sind Identität, Betriebsanschrift und die Tätigkeit als Schrotthandel belegt, weshalb der Status `pruefung` auf `aktiv` gesetzt ist. Die Telefonnummer bleibt leer, weil sie nur aus einem Verzeichnis stammt und keine zweite unabhängige Quelle vorliegt. **Preise getrennt gefuehrt:** ANKAUF: keine Ankaufskurse belegt, die 14,60 EUR der Stellenanzeige sind Arbeitslohn und werden nicht als Preis des Betriebs übernommen; VERKAUF: keine Preisliste; GEBÜHREN: keine Annahme-, Abhol- oder Containergebühren belegt. Quellen: https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003744550-S ; https://api.openstreetmap.org/api/0.6/way/1197075417/full.json .]
+- [Recherche 22.11.2026: **Amtliches Fachbetrieberegister, Handelsregister und Insolvenzveröffentlichungen: kein Treffer, Reichweitenklausel.** Für den Ort Ferchland und die Gemeinde Elbe-Parey führt der Registerspiegel keine Ortsseite (Abruf 22.11.2026, HTTP 404); Reichweitenklausel: die Efb-Anerkennung nach Paragraf 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis, und ein nicht im Register geführtes Einzelunternehmen ohne HRB ist ohnehin nicht zu erwarten. Die Namenssuche `Jennifer Klöpper Schrotthandel` und `JK Schrotthandel Ferchland` im aufbereiteten Handelsregisterportal liefert für Unternehmen wie für Personen `Keine Suchergebnisse!`; die Suche im amtlichen Insolvenzveröffentlichungsportal nach `Klöpper` (Wildcard-Modus, Zeitraum 01.01.2000 bis 22.11.2026) liefert Veröffentlichungen zu `Klöpper, Axel` in Minden und `Klöpper, Timm` in Coesfeld, aber keinen Treffer mit Sitz Ferchland. Quellen: https://schrottregister.pages.dev/ort-elbe-parey ; https://www.online-handelsregister.de/suche/Jennifer%20Kl%C3%B6pper%20Schrotthandel ; https://neu.insolvenzbekanntmachungen.de/ap/suche.jsf .]
+- [Recherche 22.11.2026: **GEO gemessen: der gespeicherte Punkt trifft das Betriebsobjekt, keine Abweichung.** Der read-only-Abgleich `public.db` (22.11.2026) zeigt für diesen Slug den Punkt 52.4293382/12.0126080; die Nominatim-Rückauflösung löst ihn auf `JK Schrotthandel & Containerdienst, 3, Mühlenweg, Siedlung, Ferchland, Elbe-Parey, Jerichower Land, 39317` (OSM way/1197075417) auf, also auf exakt dasselbe Objekt, aus dem der Punkt am 04.11.2026 abgeleitet wurde; die Abweichung beträgt 0 m. Das Objekt trägt den Betriebsnamen, aber keinen Betreiber- oder Kontakttag, der Punkt bezeichnet damit die Betriebsanschrift und keinen gesicherten Eingang. Quellen: read-only `public.db` (22.11.2026); https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=52.4293382&lon=12.012608&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/1197075417/full.json .]

@@ -4,20 +4,21 @@ name: Autohaus-Autoverwertung Uhlmann KG
 trader_type: autoverwertung
 state: ST
 city: Salzatal
-street: ''
-postcode: ''
+street: 'Lieskauer Straße 1a'
+postcode: '06198'
 phone: 034601 25002
 email: ''
 opening_hours: ''
 website: http://www.autoverwertung-uhlmann.de/html/kontakt.html
 website_status: aktiv
 status: pruefung
-description: ''
+description: 'Autohaus, KfzMeisterwerkstatt und Autoverwertung in Salzatal OT Bennstedt. Betreiber-Website und Impressum nennen Lieskauer Strasse 1a und die Eigenbezeichnung Altfahrzeuge-Demontagebetrieb; eine Anerkennung im amtlichen Fachbetrieberegister ist für diese Anschrift nicht nachgewiesen.'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
 provenance_ankauf_raw: unklar
 provenance_origin: table
+certifications: '["Amtliches Fachbetrieberegister, Ortsseite Salzatal (Stand des Registerabrufs 11.08.2026, Abruf 22.11.2026): kein Eintrag für Lieskauer Straße 1a, 06198 Salzatal OT Bennstedt, weder in der Route Altfahrzeugverwertung noch in der Route Entsorgungsfachbetriebe; die AltfahrzeugV- und die Efb-Anerkennung nach Paragraf 56 KrWG sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis"]'
 ---
 
 # Autohaus-Autoverwertung Uhlmann KG
@@ -92,3 +93,11 @@ Die Betreiberanschrift Lieskauer Straße 1a, 06198 Salzatal OT Bennstedt bleibt 
   http://www.autoverwertung-uhlmann.de/html/kontakt.html ;
   https://www.11880.com/branchenbuch/salzatal/012084338B26698666/autohaus-autoverwertung-dieter-uhlmann.html ;
   https://www.northdata.de/?query=Autohaus-Autoverwertung+Uhlmann+KG (Abruf 04.11.2026).]
+
+### Recherche 22.11.2026 (Welle 0600 C)
+
+- [Recherche 22.11.2026: **Der amtlich aufbereitete Handelsregisterauszug bestätigt den Rechtsträger und die Hausnummer und legt eine abweichende Postleitzahl der Quelle offen.** Der Auszug zu `Autohaus-Autoverwertung Uhlmann KG` (Amtsgericht Stendal, HRA 2691) wurde am 22.11.2026 live gelesen und nennt den Status `aktiv`, die Gründung bzw. Eintragung `02.03.2010`, die letzte Änderung `08.03.2010`, eine Registerbekanntmachung und die Firmenadresse `Lieskauer Str. 1 a, 06179 Salzatal OT Bennstedt`. Damit ist die im Dossier bislang nur als Betreiber-Einzelbeleg geführte Hausnummer 1 a durch eine zweite, vom Register unabhängige Quelle bestätigt; die Postleitzahl weicht ab, weil das Betreiber-Impressum und die amtlichen Adressdaten des Landes `06198` nennen, der Registerauszug dagegen `06179`. Die Postleitzahl `06198` ist deshalb im Frontmatter übernommen, der abweichende Registerwert bleibt hier ausdrücklich dokumentiert und ist eine Owner-Entscheidung. Quelle: https://www.online-handelsregister.de/handelsregisterauszug/st/Stendal/HRA/2691/Autohaus-Autoverwertung-Uhlmann-KG .]
+- [Recherche 22.11.2026: **Die USt-IdNr. des Betreibers ist im EU-Register VIES am 22.11.2026 gültig - ein amtlicher Beleg für den aktiven Rechtsträger.** Das Impressum der Betreiberseite (HTTP 200, 22767 Byte) nennt weiterhin `Autohaus / Autoverwertung Uhlmann`, `Lieskauer Strasse 1a`, `06198 Salzatal OT Bennstedt`, `Telefon: 034601 - 25002`, `Fax: 034601 - 26606`, `Steuer-Nr.: 110/161/48301`, `UstIdNr.: DE 268938931`, `Geschäftsführer: Dieter Uhlmann` und `© 2007-2026`; die Abfrage `DE268938931` im EU-Register VIES antwortet mit `valid: true`. Das E-Mail-Feld bleibt leer, weil der sichtbare Impressumstext `info@autoverwertung-uhlmann.de` nennt, der Mailto-Link des Impressums aber weiterhin auf `info@hbw-haus.de` zeigt. Quellen: http://www.autoverwertung-uhlmann.de/html/impressum.html ; https://ec.europa.eu/taxation_customs/vies/rest-api/check-vat-number .]
+- [Recherche 22.11.2026: **Amtliches Fachbetrieberegister, Ortsseite Salzatal: kein Uhlmann-Datensatz, Reichweitenklausel - die Eigenbezeichnung Altfahrzeuge-Demontagebetrieb ist registerlich nicht nachgewiesen.** Die Ortsseite des Registerspiegels (Stand des Registerabrufs 11.08.2026, Abruf 22.11.2026) führt für die Postleitzahl 06198 genau einen Betrieb, `REMONDIS Glasrecycling Ost GmbH & Co. KG`, Am Schauchenberg 5, mit Lagern, Behandeln, Verwerten, Handeln und Makeln, und keinen Uhlmann-Datensatz; ein anerkannter Demontagebetrieb ist für Salzatal nicht verzeichnet. Reichweitenklausel: die Efb-Anerkennung nach Paragraf 56 KrWG und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist deshalb kein Nachweis für die Nichtexistenz oder für eine fehlende Anerkennung des Betriebs; die Selbstbezeichnung Altfahrzeuge-Demontagebetrieb auf der Betreiberseite ist damit amtlich nicht bestätigt, aber auch nicht widerlegt. Quellen: https://schrottregister.pages.dev/ort-salzatal ; http://www.autoverwertung-uhlmann.de/html/impressum.html .]
+- [Recherche 22.11.2026: **OSM: die Hausnummer 1a existiert weiterhin nicht, der Nachbar 1 dagegen schon.** Die flächige Suche über 51.46/11.79 bis 51.52/11.87 liefert für die `addr:street`=Lieskauer Straße 43 Adressobjekte mit den Hausnummern 1, 2, 3, 4, 4a, 5, 6, 7, 9, 10, 11, 13, 13a, 14, 14a, 15, 16, 17, 17A, 17B, 17c, 18, 18A, 19, 20, 21, 22, 22A, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 33A, 34, 41b und 41g; ein Objekt mit `addr:housenumber`=1a gibt es nicht, der nächstgelegene Kandidat ist node/9695007410 mit der Hausnummer 1, `addr:city`=Salzatal, `addr:postcode`=06198, `addr:suburb`=Bennstedt bei 51.4835731/11.8266335, und trägt weder `name` noch `operator`. Die Gleichsetzung 1a gleich 1 bleibt unbelegt, deshalb wird keine Koordinate gesetzt; der read-only-Abgleich `public.db` (22.11.2026) zeigt für diesen Slug ohnehin keine gespeicherte Koordinate. Quelle: https://overpass-api.de/api/interpreter ; https://api.openstreetmap.org/api/0.6/node/9695007410.json .]
+- [Recherche 22.11.2026: **Insolvenzveröffentlichungen und Preise.** Die Suche im amtlichen Insolvenzveröffentlichungsportal nach `Uhlmann` (Wildcard-Modus, Zeitraum 01.01.2000 bis 22.11.2026) liefert Veröffentlichungen zu anderen Personen, aber keinen Treffer mit Sitz Salzatal oder Bennstedt; das ist ein Veröffentlichungsbefund und keine Aussage über Existenz oder Schließung des Betriebs. **Preise getrennt gefuehrt:** ANKAUF: keine Ankaufskurse, keine Sortenliste und keine Mindestmengen für den Dossierbetrieb belegt; VERKAUF: keine Preisliste für Ersatzteile; GEBÜHREN: keine Abhol-, Container- oder Entsorgungstarife belegt. Quellen: https://neu.insolvenzbekanntmachungen.de/ap/suche.jsf ; http://www.autoverwertung-uhlmann.de/html/kontakt.html .]
