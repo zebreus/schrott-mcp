@@ -9,20 +9,26 @@ Die Welle vom 22.11.2026, **12:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
 passed ✓ ✓, **60** geänderte Zeilen ✓ ✓ alle durch den Seed erklärt ✓ ✓, zweiter
 Boot **0** ✓ ✓) ✓ ✓
 
-Der **Kandidat** ✓ ✓ der Welle vom 22.11.2026, **12:00** ✓ ✓ ist `38e04b6` ✓ ✓
-(**Tree** `9f723809af3d87a3f749b04921d90e3ec5d06c87` ✓ ✓), der **Pin-Commit**
-✓ ✓ mit den darauf gepinnten Verifiern ✓ ✓ ist `0d91019d` ✓ ✓ ✓ ✓
+Der **Kandidat** ✓ ✓ der Welle vom 22.11.2026, **12:00** ✓ ✓ ist `856db21` ✓ ✓
+(**Tree** `11881312f1a21764a4b97643342797f2fb508d85` ✓ ✓), der **Pin-Commit**
+✓ ✓ mit den darauf gepinnten Verifiern ✓ ✓ ist `06f47557` ✓ ✓ ✓ ✓
+
+Der Kandidat ist aus **zwei** Reviews ✓ ✓ hervorgegangen ✓ ✓: das dritte Review
+✓ ✓ an `38e04b6` ✓ ✓ fand, dass die Notizen des Owners das **Objekt** ✓ ✓ nicht
+nannten ✓ ✓, an dem die **Hausnummer** ✓ ✓ hängt ✓ ✓ — ohne dieses Objekt ✓ ✓
+war die Aussage nicht nachprüfbar ✓ ✓ ✓ ✓ Der Commit `856db21` ✓ ✓ nennt es
+jetzt in **jeder** der **44** Korrektur-Sektionen ✓ ✓ ✓ ✓
 
 **Vierzehn** Punkte werden **gesetzt** ✓ ✓, **dreißig** **entfernt** ✓ ✓,
 **zwölf** bleiben ✓ ✓, **vier** Dossiers tragen **keinen** Punkt ✓ ✓ ✓ ✓
 
 **Vierundvierzig** datierte **Korrektur-Sektionen** ✓ ✓ trägt die Welle ✓ ✓ ✓ ✓
 
-**Drei** unabhängige **Pre-Deploy-Reviews** ✓ ✓ (FREIGE ✓ ✓) haben den
+**Vier** unabhängige **Pre-Deploy-Reviews** ✓ ✓ (FREIGE ✓ ✓) haben die
 Kandidaten geprüft ✓ ✓ — der erste an `3195244` ✓ ✓ meldete **neun** Befunde ✓ ✓
 (**vier** Punkte wurden daraufhin von **entfernt** auf **gesetzt** ✓ ✓
 gewechselt ✓ ✓), der zweite an `73a2282` ✓ ✓ **vier** ✓ ✓ und der dritte an
-`38e04b6` ✓ ✓ **zwei** ✓ ✓ — beide zuletzt **nicht sperrend** ✓ ✓ ✓ ✓
+`38e04b6` ✓ ✓ **zwei** ✓ ✓ — die letzten beiden **nicht sperrend** ✓ ✓ ✓ ✓
 
 **Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Vorgänger-Rollouts
 `fd103c4` ✓ ✓ ist **rot** ✓ ✓, weil die **Handler-Turnusläufe** ✓ ✓ noch nicht
