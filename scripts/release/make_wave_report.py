@@ -50,6 +50,26 @@ DATUM = _args.datum
 AUSGABE = Path(_args.ausgabe) if _args.ausgabe else \
     ROOT / f"research/wave-{CAND}-report.md"
 
+def wellen_abschnitt(text):
+    """Der **Abschnitt** der Welle ✓ ✓ - ohne die **Korrektur-Sektion** ✓ ✓
+
+    Das Muster endet an der naechsten `###`-Ueberschrift ✓ ✓ - sonst laeuft
+    es mit `re.S` ✓ ✓ bis zum **Dateiende** ✓ ✓ und **zaehlt** ✓ ✓ die
+    Korrektur-Sektionen des Owners **mit** ✓ ✓ - die aber **nicht** Teil
+    der **Recherche** ✓ ✓ sind ✓ ✓ ✓ ✓
+    """
+    _m = re.search(r"^### " + re.escape(ABSCHNITT) +
+                   (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
+                   text, re.M | re.S)
+    if not _m:
+        return None
+    _ende = len(text)
+    _nxt = re.search(r"^### ", text[_m.end():], re.M)
+    if _nxt:
+        _ende = _m.end() + _nxt.start()
+    return text[_m.start():_ende]
+
+
 def kandidat_text(rel):
     """Der Text eines Dossiers **im Kandidaten-Commit** ✓ ✓.
 
@@ -325,10 +345,8 @@ for name, muster in (
     anzahl = 0
     for f in files:
         t = kandidat_text(f)
-        note = re.search(r"^### " + re.escape(ABSCHNITT) +
-                         (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
-                         t, re.M | re.S)
-        if note and re.search(muster, note.group(0)):
+        note = wellen_abschnitt(t)
+        if note and re.search(muster, note):
             anzahl += 1
     if anzahl:
         o.append(f"| {name} | **{anzahl}** ✓ ✓ |")
@@ -398,12 +416,10 @@ mit_verkaufspreis = []
 mit_gebuehr = []
 for f in files:
     t = kandidat_text(f)
-    note = re.search(r"^### " + re.escape(ABSCHNITT) +
-                     (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
-                     t, re.M | re.S)
+    note = wellen_abschnitt(t)
     if not note:
         continue
-    n = note.group(0)
+    n = note
     # Jede **bezifferte** Angabe zaehlt ✓ ✓ - nicht nur eine je kg ✓ ✓:
     # die Shards nennen auch EUR/t ✓ ✓, EUR/Stueck ✓ ✓ und reine EUR-Betraege ✓ ✓
     # Eine **Negativaussage** ✓ ✓ ("kein €/kg-Kurs" ✓ ✓) nennt **keine** Zahl ✓ ✓
@@ -511,13 +527,11 @@ _notes_mit_preis = {}
 for _f in files:
     _slug = _f.split("/")[-1][:-3]
     _t = kandidat_text(_f)
-    _m = re.search(r"^### " + re.escape(ABSCHNITT) +
-                   (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
-                   _t, re.M | re.S)
+    _m = wellen_abschnitt(_t)
     if _m and _slug in mit_preis:
         # Die Auszeichnung ("**keine** festen Kurse") ist Format, nicht Inhalt ✓ ✓ -
         # der Marker sieht sie deshalb nicht ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓
-        _notes_mit_preis[_slug] = _m.group(0).replace("**", "")
+        _notes_mit_preis[_slug] = _m.replace("**", "")
 eigene_kurse = []
 ausgeschlossen = []
 ohne_aussage = []
