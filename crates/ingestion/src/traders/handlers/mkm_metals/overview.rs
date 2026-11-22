@@ -574,6 +574,14 @@ pub(super) const FLAT_QUOTE_ARTICLES: &[&str] = &[
     "SW10036",
     "MKM-HM-02",
     "SW10038",
+    // The nickel row lost its calculator on the page rebuild of 16.11.2026,
+    // after the snapshot of 17.11.2026 that carried the nine rows above.
+    // The live row of 22.11.2026 shows the same reviewed flat form: a
+    // visible upper price, a visible minimum and a same-origin request
+    // link whose material parameter decodes to the row's own label.
+    // Nothing is loosened: a priced row without a ladder that is not
+    // listed here is still a hard error.
+    "MKM-NE-05",
 ];
 
 fn text(el: ElementRef<'_>) -> String {
@@ -1161,6 +1169,11 @@ mod tests {
     const LIVE: &str = include_str!("../fixtures/mkm-overview-20261117-sanitized.html");
     const LIVE_IMP: &str = include_str!("../fixtures/mkm-impressum-20261117-sanitized.html");
 
+    /// Live capture of 22.11.2026 (page change date 21.11.2026): the nickel
+    /// row lost its quantity calculator as well, so it now shows the same
+    /// reviewed flat form as the nine rows of 17.11.2026.
+    const LIVE_20261122: &str = include_str!("../fixtures/mkm-overview-20261122-sanitized.html");
+
     fn snapshot(html: &str) -> Snapshot {
         parse(&augment_legacy_test_html(html), IMP, 200)
             .expect("synthetic complete regression input")
@@ -1372,6 +1385,82 @@ mod tests {
             assert!(a.price_eur_per_kg.is_none(), "{}", a.article);
             assert!(a.minimum_for_upper_bound_kg.is_none(), "{}", a.article);
             assert!(!a.flat_quote, "{}", a.article);
+        }
+    }
+
+    #[test]
+    fn reviewed_20261122_capture_accepts_the_nickel_flat_row() {
+        let s = parse(LIVE_20261122, LIVE_IMP, 200).unwrap();
+        assert!(s.diagnostics.is_empty(), "{:?}", s.diagnostics);
+        // The nickel row is the tenth flat quote: same reviewed form as the
+        // nine rows of 17.11.2026 - a visible Höchstpreis, a visible
+        // minimum and a same-origin request link whose material parameter
+        // decodes to the row's own label.
+        let a = s
+            .articles
+            .iter()
+            .find(|a| a.article == "MKM-NE-05")
+            .unwrap();
+        assert_eq!(a.label, "Nickel rein ab 99 %");
+        assert!(a.flat_quote, "the nickel row must be a reviewed flat quote");
+        assert!(
+            a.tiers.is_empty(),
+            "the nickel row has no calculator ladder"
+        );
+        assert_eq!(a.price_eur_per_kg, Some(12.08));
+        assert_eq!(a.minimum_for_upper_bound_kg, Some(250.0));
+        assert_eq!(a.product_change_date.as_deref(), Some("2026-11-20"));
+        assert!(!a.request_only);
+        let p = s
+            .outcome
+            .prices
+            .iter()
+            .find(|p| p.label == "Nickel rein ab 99 %")
+            .unwrap();
+        assert_eq!(p.price, 12.08);
+        assert_eq!(p.price_kind, "upto");
+        assert_eq!(p.price_max, Some(12.08));
+        assert_eq!(p.price_min, None);
+        assert_eq!(p.unit, "EUR/kg");
+        assert_eq!(p.confidence, Some(0.5));
+        // Exactly the two rows of the live page show the flat form; the
+        // fourteen rows that carry only "auf Anfrage" stay request-only.
+        assert_eq!(s.articles.iter().filter(|a| a.flat_quote).count(), 2);
+        assert_eq!(s.articles.iter().filter(|a| a.request_only).count(), 14);
+        assert_eq!(
+            s.articles
+                .iter()
+                .filter(|a| !a.request_only && !a.flat_quote)
+                .count(),
+            45
+        );
+        // The identity of every article is unchanged: the nickel row keeps
+        // the reviewed material and variant of the mapping oracle.
+        let oracle: serde_json::Value = serde_json::from_str(ORACLE).unwrap();
+        for a in &s.articles {
+            assert_eq!(
+                a.material,
+                oracle["expected"][&a.article][0].as_str(),
+                "{}",
+                a.article
+            );
+            assert_eq!(
+                a.variant,
+                oracle["expected"][&a.article][1].as_str().unwrap(),
+                "{}",
+                a.article
+            );
+        }
+        // The outcome of the live page: the prices of the ladder rows, the
+        // flat rows and the request-only rows are all recorded.
+        // Every other priced row keeps its reviewed ladder.
+        for a in s
+            .articles
+            .iter()
+            .filter(|a| !a.request_only && !a.flat_quote)
+        {
+            assert!(!a.tiers.is_empty(), "{}", a.article);
+            assert_eq!(a.tiers[0].ab, 0.0, "{}", a.article);
         }
     }
 
