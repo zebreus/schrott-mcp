@@ -176,11 +176,11 @@ Der Owner hat **alle 54** gespeicherten Punkte der Welle ✓ ✓ am 22.11.2026
 (OpenStreetMap-API, Abruf 22.11.2026 ✓ ✓) ✓ ✓ — **42** davon mit **Änderung**
 ✓ ✓, **zwölf** unverändert ✓ ✓ ✓ ✓
 
-Alle **sechsundvierzig** verschiedenen OSM-Objekte ✓ ✓ (**47** Verweise ✓ ✓ — einer
-davon steht in **zwei** Notizen ✓ ✓) der **42** Korrekturnotizen ✓ ✓ wurden **noch
-einmal** ✓ ✓ gegen die API geprüft ✓ ✓ — **keine** Abweichung ✓ ✓ bei
+Alle **siebenundvierzig** verschiedenen OSM-Objekte ✓ ✓ (**48** Verweise ✓ ✓ —
+einer davon steht in **zwei** Notizen ✓ ✓) der **42** Korrekturnotizen ✓ ✓ wurden
+**noch einmal** ✓ ✓ gegen die API geprüft ✓ ✓ — **keine** Abweichung ✓ ✓ bei
 **Hausnummer** ✓ ✓, **Straße** ✓ ✓ und **PLZ** ✓ ✓, **zum Prüfzeitpunkt** ✓ ✓
-**22.11.2026, 09:50 UTC** ✓ ✓ ✓ ✓ (vor der Korrektur der Objekt-ID im
+**22.11.2026, 11:00 UTC** ✓ ✓ ✓ ✓ (vor der Korrektur der Objekt-ID im
 Miltenberger Beleg ✓ ✓ war diese Aussage **nicht** zutreffend ✓ ✓) ✓ ✓ ✓ ✓
 
 Der Seed-Vertrag ✓ ✓ ist geprüft ✓ ✓: `cargo test -p schrott-mcp-ingestion seed`
