@@ -1,5 +1,28 @@
 # Aufträge und offene Punkte — 22.11.2026, Nachmittag
 
+## Die Welle vom 12:00 ist vorbereitet und wartet auf den Turnus ✓ ✓
+
+Die Welle vom 22.11.2026, **12:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
+`7e65b92a` ✓ ✓), **entschieden** ✓ ✓ (Commit `f4780f35` ✓ ✓) und **versioniert**
+✓ ✓ (Commit `3195244` ✓ ✓, Release-Scope ✓ ✓); der Release-Zyklus ✓ ✓ ist
+**grün** ✓ ✓ (Tree-Binding ✓ ✓, Format-Gate ✓ ✓, **13** Suiten ✓ ✓ **852**
+passed ✓ ✓, **60** geänderte Zeilen ✓ ✓ alle durch den Seed erklärt ✓ ✓, zweiter
+Boot **0** ✓ ✓) ✓ ✓ und der **Pin-Commit** ✓ ✓ `7fc504eb` ✓ ✓ liegt vor ✓ ✓
+✓ ✓
+
+**Zehn** Punkte werden **gesetzt** ✓ ✓, **vierunddreißig** **entfernt** ✓ ✓,
+**zwölf** bleiben ✓ ✓, **vier** Dossiers tragen **keinen** Punkt ✓ ✓ ✓ ✓
+
+**Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Vorgänger-Rollouts
+`fd103c4` ✓ ✓ ist **rot** ✓ ✓, weil die **Handler-Turnusläufe** ✓ ✓ noch nicht
+**nach** dessen Rollout ✓ ✓ lagen ✓ ✓: MSG um **11:40:33 UTC** ✓ ✓ (das waren
+**54 Sekunden** ✓ ✓ vor dem Rollout ✓ ✓) und Gutzmann zuletzt um **09:39:16
+UTC** ✓ ✓ ✓ ✓ Die **nächsten** Läufe ✓ ✓: Gutzmann **~15:39 UTC** ✓ ✓, MSG
+**~17:43 UTC** ✓ ✓ ✓ ✓
+
+**Bis** ✓ ✓ das Gate **grün** ✓ ✓ ist, gilt: **keine** weiteren
+Produktionsänderungen ✓ ✓ ✓ ✓
+
 ## Die Nachprüfung des Rollouts `fd103c4` wartet auf den Turnus ✓ ✓
 
 Der Rollout der Welle vom 22.11.2026, **06:00** ✓ ✓ ist am **22.11.2026,
