@@ -1,6 +1,6 @@
 # Die Standortpunkte der Welle vom 22.11.2026, 06:00 — die Entscheidung des Owners
 
-**Stand 22.11.2026, 09:50 UTC ✓ ✓** — die Welle ✓ ✓ hat die gespeicherten Punkte
+**Stand 22.11.2026, 11:10 UTC ✓ ✓** — die Welle ✓ ✓ hat die gespeicherten Punkte
 **gemessen** ✓ ✓ und **dokumentiert** ✓ ✓ und in **elf** Dossiers die
 **Frontmatter-Position** **gesetzt** ✓ ✓ — die **Produktionsdatenbank** hat sie
 **nicht** verändert ✓ ✓ (die Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der
@@ -179,9 +179,15 @@ Der Owner hat **alle 54** gespeicherten Punkte der Welle ✓ ✓ am 22.11.2026
 Alle **siebenundvierzig** verschiedenen OSM-Objekte ✓ ✓ (**48** Verweise ✓ ✓ —
 einer davon steht in **zwei** Notizen ✓ ✓) der **42** Korrekturnotizen ✓ ✓ wurden
 **noch einmal** ✓ ✓ gegen die API geprüft ✓ ✓ — **keine** Abweichung ✓ ✓ bei
-**Hausnummer** ✓ ✓, **Straße** ✓ ✓ und **PLZ** ✓ ✓, **zum Prüfzeitpunkt** ✓ ✓
-**22.11.2026, 11:00 UTC** ✓ ✓ ✓ ✓ (vor der Korrektur der Objekt-ID im
-Miltenberger Beleg ✓ ✓ war diese Aussage **nicht** zutreffend ✓ ✓) ✓ ✓ ✓ ✓
+**Hausnummer** ✓ ✓, **Straße** ✓ ✓ und **PLZ** ✓ ✓, **zum Stand** ✓ ✓ der
+**dritten** Korrekturrunde ✓ ✓ (22.11.2026 ✓ ✓) ✓ ✓ (vor der Korrektur der
+Objekt-ID im Miltenberger Beleg ✓ ✓ war diese Aussage **nicht** zutreffend
+✓ ✓) ✓ ✓ ✓ ✓
+
+Ein **eigener** Abgleich ✓ ✓ prüft **jede** PLZ ✓ ✓ und **jede** Straße mit
+Hausnummer ✓ ✓ der **42** Notizen ✓ ✓ gegen die **Tags** des genannten Objekts
+✓ ✓ **oder** gegen die **Wellennotiz** ✓ ✓ desselben Dossiers ✓ ✓ — **keine**
+Angabe ohne Beleg ✓ ✓ ✓ ✓
 
 Der Seed-Vertrag ✓ ✓ ist geprüft ✓ ✓: `cargo test -p schrott-mcp-ingestion seed`
 ✓ ✓ → **15 passed** ✓ ✓, **0 failed** ✓ ✓ ✓ ✓
