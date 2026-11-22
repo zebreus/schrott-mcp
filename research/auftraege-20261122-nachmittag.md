@@ -9,9 +9,9 @@ Die Welle vom 22.11.2026, **12:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
 passed ✓ ✓, **60** geänderte Zeilen ✓ ✓ alle durch den Seed erklärt ✓ ✓, zweiter
 Boot **0** ✓ ✓) ✓ ✓
 
-Der **Kandidat** ✓ ✓ der Welle vom 22.11.2026, **12:00** ✓ ✓ ist `856db21` ✓ ✓
-(**Tree** `11881312f1a21764a4b97643342797f2fb508d85` ✓ ✓), der **Pin-Commit**
-✓ ✓ mit den darauf gepinnten Verifiern ✓ ✓ ist `06f47557` ✓ ✓ ✓ ✓
+Der **Kandidat** ✓ ✓ der Welle vom 22.11.2026, **12:00** ✓ ✓ ist `f5ae956` ✓ ✓
+(**Tree** `e294726b3bdbbb2fda09852b27691f8451ced192` ✓ ✓), der **Pin-Commit**
+✓ ✓ mit den darauf gepinnten Verifiern ✓ ✓ ist `e4a06afa` ✓ ✓ ✓ ✓
 
 Der Kandidat ist aus **zwei** Reviews ✓ ✓ hervorgegangen ✓ ✓: das dritte Review
 ✓ ✓ an `38e04b6` ✓ ✓ fand, dass die Notizen des Owners das **Objekt** ✓ ✓ nicht
@@ -24,11 +24,13 @@ jetzt in **jeder** der **44** Korrektur-Sektionen ✓ ✓ ✓ ✓
 
 **Vierundvierzig** datierte **Korrektur-Sektionen** ✓ ✓ trägt die Welle ✓ ✓ ✓ ✓
 
-**Vier** unabhängige **Pre-Deploy-Reviews** ✓ ✓ (FREIGE ✓ ✓) haben die
+**Fünf** unabhängige **Pre-Deploy-Reviews** ✓ ✓ (FREIGE ✓ ✓) haben die
 Kandidaten geprüft ✓ ✓ — der erste an `3195244` ✓ ✓ meldete **neun** Befunde ✓ ✓
 (**vier** Punkte wurden daraufhin von **entfernt** auf **gesetzt** ✓ ✓
-gewechselt ✓ ✓), der zweite an `73a2282` ✓ ✓ **vier** ✓ ✓ und der dritte an
-`38e04b6` ✓ ✓ **zwei** ✓ ✓ — die letzten beiden **nicht sperrend** ✓ ✓ ✓ ✓
+gewechselt ✓ ✓), der zweite an `73a2282` ✓ ✓ **vier** ✓ ✓, der dritte an
+`38e04b6` ✓ ✓ **zwei** ✓ ✓, der vierte an `856db21` ✓ ✓ **zwei** ✓ ✓ und der
+fünfte an `f5ae956` ✓ ✓ **drei** ✓ ✓ — die letzten drei **nicht sperrend** ✓ ✓
+✓ ✓ ✓ ✓
 
 **Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Vorgänger-Rollouts
 `fd103c4` ✓ ✓ ist **rot** ✓ ✓, weil die **Handler-Turnusläufe** ✓ ✓ noch nicht

@@ -101,7 +101,7 @@ for _f in files:
     # **geaenderte** Frontmatter-Feld ✓✓, also auch ein **entferntes**
     # ✓✓ - ein Dossier, dessen `lat`/`lon` der Owner loescht ✓✓, aendert
     # `lat` und `lon` genauso wie eines, das sie **setzt** ✓✓ ✓✓
-    for _k in set(_av) | set(_nv):
+    for _k in sorted(set(_av) | set(_nv)):
         if _av.get(_k) != _nv.get(_k):
             felder[_k] += 1
 # Die **hinzugefuegten** Feldnamen werden am Frontmatter **des Kandidaten**
