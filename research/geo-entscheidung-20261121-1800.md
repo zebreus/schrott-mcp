@@ -16,12 +16,12 @@ Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der Owner hat über **jeden*
 
 | Wirkung | Zahl | Dossiers |
 |---|---|---|
-| **Punkt ersetzt** ✓ ✓ | **6** ✓ ✓ | `be-neukolln-marske` ✓ ✓ · `by-ichenhausen-michael-hammerschmidt` ✓ ✓ · `bw-asperg-haffner` ✓ ✓ · `bw-rutesheim-walter-ott` ✓ ✓ · `ni-hannover-manuela-herrmann-schrott-und-metallhande` ✓ ✓ · `th-erfurt-sanfa-recycling` ✓ ✓ |
-| **Punkt entfernt** ✓ ✓ | **32** ✓ ✓ | `bb-nordwestuckermark-reinert-bunt-und-altmetallhandel` ✓ ✓ · `by-bamberg-schrott-g` ✓ ✓ · `by-oberpleichfeld-97241-kopp-theodor-schrott-und-altmetalle` ✓ ✓ · `bw-offenburg-hancer-nazmi-metallhandel` ✓ ✓ · `he-bad-wildungen-m-albus-an-und-verkauf` ✓ ✓ · `he-gladenbach-35075-ezedelmetall` ✓ ✓ · `he-hanau-63457-main-gold-gold-u-silberankauf` ✓ ✓ · `hh-bahrenfeld-goerz-metallhandel` ✓ ✓ · `hh-lokstedt-klass-autoverwertung-abschleppdienst` ✓ ✓ · `mv-demen-19089-autoverwertung-kort` ✓ ✓ · `mv-mollenhagen-17219-wertstoffaufbereitungszentrum-freidorf` ✓ ✓ · `mv-schwerin-fair-metall-schrott-altmetallhandel` ✓ ✓ · `ni-hildesheim-holtensen-hildesheimer-schrotthandler` ✓ ✓ · `ni-ribbesbuttel-schrottplatz-ohne-namen` ✓ ✓ · `ni-varel-schrottentsorgung-varel-wilhelmshaven` ✓ ✓ · `nw-munster-schrottdirektor` ✓ ✓ · `nw-wettringen-skibinski` ✓ ✓ · `rp-andernach-56626-van-den-berg-metal` ✓ ✓ · `rp-dernbach-dernbach` ✓ ✓ · `sh-lubeck-d-s-schrott-und-metallentsorgung` ✓ ✓ · `sh-lubeck-haensel-paul-jun-schrotthandel` ✓ ✓ · `sh-neukirchen-25927-nissen-nico` ✓ ✓ · `sh-selk-thomas-sonksen` ✓ ✓ · `sl-merchweiler-schrott-weiler-matthias-wahrsch-gleiche` ✓ ✓ · `sl-saarbrucken-scheidt-66133-scheidter-goldankauf` ✓ ✓ · `sl-volklingen-furstenhausen-grun-thomanek-metallrecycling` ✓ ✓ · `sn-oling-ot-trado-frank-perjak-schrottannahme` ✓ ✓ · `st-allstedt-michael-baum-schrott-altstoffhandel` ✓ ✓ · `st-freyburg-freyburger-kabel-und-buntmetall-recyclin` ✓ ✓ · `st-halle-seik-automobil-recycling` ✓ ✓ · `st-magdeburg-leuschner-r` ✓ ✓ · `th-neuhaus-am-rennweg-schunzel-stephan-schrotthandel` ✓ ✓ |
+| **Punkt ersetzt** ✓ ✓ | **7** ✓ ✓ | `be-neukolln-marske` ✓ ✓ · `by-ichenhausen-michael-hammerschmidt` ✓ ✓ · `bw-asperg-haffner` ✓ ✓ · `bw-rutesheim-walter-ott` ✓ ✓ · `mv-schwerin-fair-metall-schrott-altmetallhandel` ✓ ✓ · `ni-hannover-manuela-herrmann-schrott-und-metallhande` ✓ ✓ · `th-erfurt-sanfa-recycling` ✓ ✓ |
+| **Punkt entfernt** ✓ ✓ | **31** ✓ ✓ | `bb-nordwestuckermark-reinert-bunt-und-altmetallhandel` ✓ ✓ · `by-bamberg-schrott-g` ✓ ✓ · `by-oberpleichfeld-97241-kopp-theodor-schrott-und-altmetalle` ✓ ✓ · `bw-offenburg-hancer-nazmi-metallhandel` ✓ ✓ · `he-bad-wildungen-m-albus-an-und-verkauf` ✓ ✓ · `he-gladenbach-35075-ezedelmetall` ✓ ✓ · `he-hanau-63457-main-gold-gold-u-silberankauf` ✓ ✓ · `hh-bahrenfeld-goerz-metallhandel` ✓ ✓ · `hh-lokstedt-klass-autoverwertung-abschleppdienst` ✓ ✓ · `mv-demen-19089-autoverwertung-kort` ✓ ✓ · `mv-mollenhagen-17219-wertstoffaufbereitungszentrum-freidorf` ✓ ✓ · `ni-hildesheim-holtensen-hildesheimer-schrotthandler` ✓ ✓ · `ni-ribbesbuttel-schrottplatz-ohne-namen` ✓ ✓ · `ni-varel-schrottentsorgung-varel-wilhelmshaven` ✓ ✓ · `nw-munster-schrottdirektor` ✓ ✓ · `nw-wettringen-skibinski` ✓ ✓ · `rp-andernach-56626-van-den-berg-metal` ✓ ✓ · `rp-dernbach-dernbach` ✓ ✓ · `sh-lubeck-d-s-schrott-und-metallentsorgung` ✓ ✓ · `sh-lubeck-haensel-paul-jun-schrotthandel` ✓ ✓ · `sh-neukirchen-25927-nissen-nico` ✓ ✓ · `sh-selk-thomas-sonksen` ✓ ✓ · `sl-merchweiler-schrott-weiler-matthias-wahrsch-gleiche` ✓ ✓ · `sl-saarbrucken-scheidt-66133-scheidter-goldankauf` ✓ ✓ · `sl-volklingen-furstenhausen-grun-thomanek-metallrecycling` ✓ ✓ · `sn-oling-ot-trado-frank-perjak-schrottannahme` ✓ ✓ · `st-allstedt-michael-baum-schrott-altstoffhandel` ✓ ✓ · `st-freyburg-freyburger-kabel-und-buntmetall-recyclin` ✓ ✓ · `st-halle-seik-automobil-recycling` ✓ ✓ · `st-magdeburg-leuschner-r` ✓ ✓ · `th-neuhaus-am-rennweg-schunzel-stephan-schrotthandel` ✓ ✓ |
 | **Punkt bleibt** ✓ ✓ | **14** ✓ ✓ | die Punkte treffen die **Dossier-Adresse** ✓ ✓ oder markieren nur den **Ort** ✓ ✓ |
 | **kein Punkt** ✓ ✓ | **8** ✓ ✓ | `be-online-schrott24-online-ankauf-partnernetz` ✓ ✓ · `bw-moglingen-gepard` ✓ ✓ · `hh-altstadt-walter-ritscher` ✓ ✓ · `hh-kirchwerder-adzovic-safet-schrotthandel` ✓ ✓ · `nw-essen-schrotthandel-missal-metzler` ✓ ✓ · `rp-landstuhl-firma-peter-hoschele` ✓ ✓ · `th-bad-lobenstein-reisigel-firma` ✓ ✓ · `th-graefinau-angstedt-raik-barich` ✓ ✓ |
 
-### Ersetzt ✓ ✓ — **6** ✓ ✓
+### Ersetzt ✓ ✓ — **7** ✓ ✓
 
 | Dossier | Der neue Punkt | Der Beleg |
 |---|---|---|
@@ -31,20 +31,23 @@ Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der Owner hat über **jeden*
 | `bw-rutesheim-walter-ott` ✓ ✓ | 48.8124140 / 8.9610699 ✓ ✓ | das **Betreiber-Impressum** ✓ ✓ und `way/37286946` ✓ ✓ mit der **Hausnummer 24** ✓ ✓ und dem **Namen des Betriebs** ✓ ✓ |
 | `th-erfurt-sanfa-recycling` ✓ ✓ | 51.0222729 / 11.0365540 ✓ ✓ | der **amtliche Registerauszug** ✓ ✓ (HRB 511280 AG Jena ✓ ✓) und das **amtliche Insolvenzportal** ✓ ✓ mit `way/436734423` ✓ ✓ und der **Hausnummer 37b** ✓ ✓ |
 | `be-neukolln-marske` ✓ ✓ | 52.4686967 / 13.4548739 ✓ ✓ | der **amtliche Registerauszug** ✓ ✓ (`Lahnstr. 3 - 5, 12055 Berlin` ✓ ✓) und `node/2820306600` ✓ ✓ mit der **Hausnummer 3** ✓ ✓ |
+| `mv-schwerin-fair-metall-schrott-altmetallhandel` ✓ ✓ | 53.6068772 / 11.3741540 ✓ ✓ | das **Betreiber-Impressum** ✓ ✓ (`Anthony-Fokker Straße 5 \| 19061 Schwerin` ✓ ✓) und `way/90439968` ✓ ✓ mit der **Hausnummer 5** ✓ ✓ |
 
 **Zwei** dieser Punkte hatte die Welle **neu** gesetzt ✓ ✓ (Hannover ✓ ✓,
 Ichenhausen ✓ ✓) — der Owner hat sie **bestätigt** ✓ ✓ ✓ ✓
 
-**Zwei** Punkte ersetzen einen **falschen** Punkt ✓ ✓: bei Asperg lag der alte
-Punkt **750 m** daneben ✓ ✓ und traf ein Objekt mit dem **Namen „Zum Bären“**
-✓ ✓, bei Rutesheim lag er **1,2 km** daneben ✓ ✓ und traf eine **Straße im
-Ort** ✓ ✓ ✓ ✓
+**Alle sieben** ersetzen einen **falschen** Punkt ✓ ✓: Asperg (**750 m** ✓ ✓,
+ein Objekt mit dem **Namen „Zum Bären“** ✓ ✓), Rutesheim (**1,2 km** ✓ ✓, eine
+**Straße im Ort** ✓ ✓), Marske (**739 m** ✓ ✓, ein Haus in derselben Straße
+✓ ✓), Erfurt (**3,9 km** ✓ ✓, ein Wohnhaus ✓ ✓), Hannover (**6,2 km** ✓ ✓, das
+**Fachgerichtszentrum** ✓ ✓), Ichenhausen (**753 m** ✓ ✓, ein Wohnhaus ✓ ✓) und
+Schwerin (**31,5 km** ✓ ✓, ein Haus in **Spornitz** ✓ ✓) ✓ ✓ ✓ ✓
 
 **Ein** Hinweis bleibt offen ✓ ✓: das Impressum von Ichenhausen ist eine
 **Archivfassung** von 2021 ✓ ✓ — vier Jahre alt ✓ ✓, der heutige Fortbestand des
 Betriebs bleibt ungeklärt ✓ ✓ ✓ ✓
 
-### Entfernt ✓ ✓ — **32** ✓ ✓
+### Entfernt ✓ ✓ — **31** ✓ ✓
 
 **Sieben** Punkte treffen ein **fremdes Objekt** ✓ ✓ — einen **Möbelmarkt** ✓ ✓
 in Gladenbach ✓ ✓, ein **Amtsgericht** ✓ ✓ in Varel ✓ ✓, den **Standort der
@@ -54,8 +57,8 @@ und **zweimal** ein **Kunstwerk** ✓ ✓ in Lübeck ✓ ✓ ✓ ✓
 
 **Ein** Punkt trifft eine **Fernstraße** ✓ ✓ — die **A 7** ✓ ✓ bei Selk ✓ ✓ ✓ ✓
 
-**Vierundzwanzig** widersprechen einer **dokumentierten Adresse** ✓ ✓ — zwischen
-**208 m** ✓ ✓ (auf einer anderen Straße ✓ ✓) und **191,3 km** ✓ ✓ (in einem
+**Dreiundzwanzig** widersprechen einer **dokumentierten Adresse** ✓ ✓ — zwischen
+**208 m** ✓ ✓ (auf einer anderen Straße ✓ ✓) und **311,6 km** ✓ ✓ (in einem
 anderen Ort und in einem anderen Bundesland ✓ ✓) ✓ ✓
 
 **Kein** Ersatzpunkt ✓ ✓ entsteht ✓ ✓ — in **keinem** dieser Fälle ✓ ✓ liegt ein
@@ -98,8 +101,8 @@ Fällen entfällt die Korrektur ✓ ✓ ✓ ✓
 ## Die eigene Nachmessung ✓ ✓
 
 Der Owner hat **alle 52** gespeicherten Punkte am 21.11.2026 **selbst**
-zurückgelöst ✓ ✓ (Nominatim, Abruf 21.11.2026 ✓ ✓) und die **38** zu
-korrigierenden ✓ ✓ gegen das **Adressobjekt** ✓ ✓ der belegten Anschrift
+zurückgelöst ✓ ✓ (Nominatim, Abruf 21.11.2026 ✓ ✓) und die **38**
+Entscheidungen ✓ ✓ gegen das **Adressobjekt** ✓ ✓ der belegten Anschrift
 **gemessen** ✓ ✓ (OpenStreetMap-API, Abruf 21.11.2026 ✓ ✓) ✓ ✓ — die
 Abweichungen der Wellennotizen wurden dabei **geprüft** ✓ ✓ ✓ ✓
 
