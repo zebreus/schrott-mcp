@@ -1,6 +1,25 @@
 # Aufträge und offene Punkte — 22.11.2026, Nachmittag
 
-## Die Welle vom 12:00 ist vorbereitet und wartet auf den Turnus ✓ ✓
+## Die Welle vom 12:00 ist ausgerollt ✓ ✓
+
+Der Rollout der Welle vom 22.11.2026, **12:00** ✓ ✓ ist am **22.11.2026,
+17:52:51 UTC** ✓ ✓ erfolgt ✓ ✓ — **60** Dossiers ✓ ✓, **vierzehn**
+Standortpunkte **ersetzt** ✓ ✓, **dreißig** **entfernt** ✓ ✓, **zwölf**
+bleiben ✓ ✓, **vier** Dossiers tragen keinen Punkt ✓ ✓ ✓ ✓
+
+Der **Kandidat** ✓ ✓ war `1464a7a` ✓ ✓ (**Tree** `cdc09819e435521cee9462c5e9f4c9960e04136d`
+✓ ✓), der **Pin-Commit** ✓ ✓ `f9333f66` ✓ ✓ ✓ ✓ Die **Aufzeichnung** ✓ ✓ ist
+`research/rollout-20261122-1464a7a.md` ✓ ✓ ✓ ✓
+
+Die **drei** übrigen Verifier ✓ ✓ sind **grün** ✓ ✓ ✓ ✓ Der **Pending-Gate**
+✓ ✓ wartet auf den **Turnus** ✓ ✓ — MSG um **~23:45 UTC** ✓ ✓, Gutzmann um
+**~21:44 UTC** ✓ ✓ — die **Nachprüfung** ✓ ✓ ist für **23:55 UTC** ✓ ✓
+angelegt ✓ ✓ (Job `release-nachpruefung-1464a7a` ✓ ✓) ✓ ✓
+
+**Bis** ✓ ✓ das Gate **grün** ✓ ✓ ist, gilt: **keine** weiteren
+Produktionsänderungen ✓ ✓ ✓ ✓
+
+## Die Welle vom 12:00 war vorbereitet und wartete auf den Turnus ✓ ✓
 
 Die Welle vom 22.11.2026, **12:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
 `7e65b92a` ✓ ✓), **entschieden** ✓ ✓ (Commit `f4780f35` ✓ ✓) und **versioniert**
