@@ -290,7 +290,7 @@ o.append("**Quellen in den neuen Notizen** ✓ ✓ (je Dossier gezählt ✓ ✓)
 o.append("| Quelle | Dossiers |")
 o.append("|---|---|")
 for name, muster in (
-    ("amtliches Fachbetrieberegister", r"Fachbetrieberegister|\bEfb\b|EfbV|AltfahrzeugV"),
+    ("amtliches Fachbetrieberegister", r"[Ff]achbetrieberegister"),
     ("Handelsregister", r"Handelsregister|online-handelsregister|\bHR[AB] \d"),
     ("OSM / Nominatim", r"openstreetmap|Nominatim|\bOSM\b|way/\d|node/\d"),
     ("Betreiber-Website", r"Betreiberseite|Betreiberhomepage|Impressum"),
@@ -452,7 +452,16 @@ def _eigener_kurs(text):
         # Das Fenster beginnt **vor** der Bezeichnung: eine Notiz schreibt
         # "keine Ankaufspreise" - das "keine" steht **vor** der Bezeichnung
         # und muss mitgelesen werden
-        _fenster = text[max(0, _m.start() - 160):_m.start() + 250]
+        # Das Fenster ist der **Satz** der Bezeichnung - ein fester
+        # Zeichenabstand schnitt den Ausschluss "kein kg-Kurs" einer langen
+        # Notiz ab
+        _fenster = ""
+        for _satz in _saetze(text):
+            if _m.group(0) in _satz:
+                _fenster = _satz
+                break
+        if not _fenster:
+            _fenster = text[max(0, _m.start() - 160):_m.start() + 250]
         if not _hat_preis(_fenster):
             continue
         if KURS_MARKER.search(_fenster):

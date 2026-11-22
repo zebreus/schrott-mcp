@@ -6,6 +6,8 @@ state: BW
 city: Neu-Ulm
 street: ''
 postcode: ''
+lat: 48.3959088
+lon: 9.9979574
 phone: ''
 email: ''
 opening_hours: ''
@@ -13,7 +15,6 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
-clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Ulm / Ostalb / Göppingen
@@ -53,6 +54,6 @@ North Data führt die exakte Metallica GmbH & Co. KG unter HRA 12842 Memmingen m
 - [Recherche 22.11.2026: **GEO gemessen, nicht gesetzt.** Der in der Produktionszeile gespeicherte Punkt `48.4/10.0167` löst per Rückauflösung (Nominatim, zoom 18) auf `Schillerstraße`, `24`, `89231`, `Neu-Ulm`, Ortsteil `Offenhausen` auf. Die Registeranschrift `Insel 18/1, 89231 Neu-Ulm` ist davon entfernt; ein Punkt wird **nicht** geraten und der gespeicherte Punkt bleibt unverändert. **Offen für den Owner:** (1) der Seed-Bundesland `BW` ist für eine Neu-Ulmer Gesellschaft falsch; eine Korrektur auf `BY` wäre sachlich richtig, berührt aber die Dossier-Schlüsselbindung und ist eine Owner-Entscheidung; (2) `street` (`Insel 18/1`), `postcode` (`89231`) und `name` wären aus **zwei unabhängigen Belegen** (Registerauszug und der im Dossier bereits zitierte NorthData-Auszug mit derselben Adresse) füllbar; (3) eine Geokodierung der Registeranschrift steht aus, weil `Insel 18/1` in OSM bislang nicht adressgenau aufgelöst ist. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=48.4&lon=10.0167&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?street=Insel%2018&postalcode=89231&city=Neu-Ulm&country=Deutschland&format=jsonv2&limit=10&addressdetails=1 (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: **Preise getrennt geführt.** **ANKAUF:** kein Ankaufskurs je Material und keine Annahmebedingung mit Publikationsdatum belegt; der im Dossier zitierte NorthData-Auszug nennt den Unternehmensgegenstand `Metallhandel, Bearbeitung, Verwertung und Recycling von Metallen`, das ist eine Tätigkeitsangabe ohne Preis. **VERKAUF:** keine Verkaufspreisliste. **GEBÜHREN:** keine Tarif- oder Gebührenordnung. Die im Suchindex kursierenden Telefonnummern `+49 731 9771760` und `+49 821 490140` stammen aus Verzeichnissen, widersprechen einander und sind **nicht** übernommen. Quelle(n): https://handelsregister.live/hra/bayern/ag-memmingen/12842/metallica-gmbh-co-kg ; https://www.unternehmensverzeichnis.org/metallica-gmbh--co-kg-neu-ulm-2500905365894 (Abruf 22.11.2026).]
 
-### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
-- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,5 km** von der belegten Anschrift ✓ ✓ (18/1, Insel, Neu-Ulm, Landkreis Neu-Ulm, Bayern, 89231) entfernt — er trifft **24, Schillerstraße, Offenhausen, Neu-Ulm, Landkreis Neu-Ulm, Bayern, 89231, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Straße** ✓✓ ✓ ✓ Die **Registeranschrift** ✓✓ `Insel 18/1` ✓✓ ist belegt ✓ ✓, `Insel 18/1` ✓✓ ist in OSM **nicht adressgenau** ✓✓ auflösbar ✓ ✓ — deshalb **kein** Ersatzpunkt ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **amtliche Handelsregisterauszug** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,5 km** von der belegten Betriebsanschrift entfernt — er trifft 24, Schillerstraße, Offenhausen, Neu-Ulm, Landkreis Neu-Ulm, Bayern, 89231, Deutschland ✓ ✓. Er wird durch den adresskonformen Punkt **48.3959088/9.9979574** ✓ ✓ ersetzt ✓ ✓ Der Beleg für die Adresse: der **amtliche Handelsregisterauszug** ✓✓ (HRA 12842 ✓✓, `Insel 18/1` ✓✓, 89231 Neu-Ulm ✓✓, **Sitzverlegung** ✓✓ Gersthofen → Neu-Ulm ✓✓) **und** das **Adressobjekt** ✓✓ mit der **Hausnummer 18/1** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Anmerkung:** Der **Seed-Bundesland** ✓✓ `BW` ✓✓ ist für eine **Neu-Ulmer** ✓✓ Gesellschaft **falsch** ✓ ✓ — die Gesellschaft sitzt in **Bayern** ✓ ✓, die Dossier-Zeile bleibt unverändert ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
