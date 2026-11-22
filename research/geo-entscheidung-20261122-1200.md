@@ -1,10 +1,9 @@
 # Die Standortpunkte der Welle vom 22.11.2026, 12:00 — die Entscheidung des Owners
 
 **Stand 22.11.2026, 14:20 UTC ✓ ✓** — die Welle ✓ ✓ hat die gespeicherten Punkte
-**gemessen** ✓ ✓ und **dokumentiert** ✓ ✓; die **Frontmatter-Positionen** ✓ ✓ der
-**zehn** von ihr belegten Fälle ✓ ✓ hat sie **gesetzt** ✓ ✓, die
-**Produktionsdatenbank** ✓ ✓ aber **nicht** verändert ✓ ✓ ✓ ✓ Der Owner hat über
-**jeden** Fall **entschieden** ✓ ✓ ✓ ✓
+**gemessen** ✓ ✓ und **dokumentiert** ✓ ✓; **keine** Standortposition hat sie
+**gesetzt** ✓ ✓, die **Produktionsdatenbank** ✓ ✓ aber **nicht** verändert ✓ ✓
+✓ ✓ Der Owner hat über **jeden** Fall **entschieden** ✓ ✓ ✓ ✓
 
 ## Die Regel ✓ ✓
 
@@ -48,7 +47,7 @@ auch dann nicht ✓ ✓, wenn sein **Registereintrag** ✓ ✓ die Anschrift nen
 | `st-magdeburg-autoverwertung-gland` ✓ ✓ | 52.2068365 / 11.6765757 ✓ ✓ | das **OSM-Objekt mit dem Namen des Betriebs** ✓✓ (`name`=Autoverwertung Gland ✓✓) mit der **Hausnummer 5** ✓✓ |
 | `st-zeitz-schrott-recycling-zeitz` ✓ ✓ | 51.0592335 / 12.1330863 ✓ ✓ | das **amtliche EfbV-Zertifikat** ✓✓ (`ZZEE003002899011` ✓✓) **und** der **Standortfinder** ✓✓ (`Donaliesstraße 17` ✓✓) **sowie** das **Adressobjekt** ✓✓ mit der **Hausnummer 17** ✓✓ |
 
-**Neun** dieser Punkte waren **keinen** gespeicherten Punkt **wert** ✓ ✓ — der
+**Dreizehn** dieser Punkte waren **keinen** gespeicherten Punkt **wert** ✓ ✓ — der
 Punkt **ersetzt** den alten ✓ ✓; **einer** (`rp-47285-jk-heidesheim` ✓ ✓) wird
 **neu** gesetzt ✓ ✓, weil das Dossier **keinen** Punkt hatte ✓ ✓ ✓ ✓
 
@@ -60,11 +59,10 @@ gegen Verzeichnis **4** ✓ ✓) und `st-magdeburg-autoverwertung-gland` ✓ ✓
 ### Entfernt ✓ ✓ — **30** ✓ ✓
 
 **Acht** Punkte treffen ein **fremdes Objekt** ✓ ✓ oder ein **fremdes Gelände**
-✓ ✓ — eine **Schule** ✓ ✓, einen **Brunnen** ✓ ✓, ein **Notariat** ✓ ✓, ein
-**Rathaus** ✓ ✓, den **Carglass** ✓ ✓ an derselben Hausnummer ✓ ✓, einen
-**Autoteilehandel** ✓ ✓, einen **Lebensmittelmarkt** ✓ ✓, ein **Geschäft** ✓ ✓
-und die **KNDS** ✓ ✓ — zwischen **11 m** ✓ ✓ (Gummersbach ✓ ✓) und **4,1 km**
-✓ ✓ (Eppingen ✓ ✓) ✓ ✓ ✓ ✓
+✓ ✓ — eine **Schule** ✓ ✓, ein **Notariat** ✓ ✓, ein **Rathaus** ✓ ✓, den
+**Carglass** ✓ ✓ an derselben Hausnummer ✓ ✓, einen **Autoteilehandel** ✓ ✓, einen
+**Lebensmittelmarkt** ✓ ✓, ein **Geschäft** ✓ ✓ und die **KNDS** ✓ ✓ — zwischen
+**11 m** ✓ ✓ (Gummersbach ✓ ✓) und **4,1 km** ✓ ✓ (Eppingen ✓ ✓) ✓ ✓ ✓ ✓
 
 **Einundzwanzig** treffen eine **andere Straße** ✓ ✓, ein **anderes Haus** ✓ ✓,
 eine **andere Adresse** ✓ ✓ oder einen **anderen Ortsteil** ✓ ✓ — zwischen
@@ -73,16 +71,14 @@ eine **andere Adresse** ✓ ✓ oder einen **anderen Ortsteil** ✓ ✓ — zwis
 **Einer** liegt **weit entfernt** ✓ ✓ in einem **anderen Kreis** ✓ ✓ — **66,2 km**
 ✓ ✓ (Rietberg statt Minden ✓ ✓) ✓ ✓ ✓ ✓
 
-**Kein** Ersatzpunkt ✓ ✓ entsteht ✓ ✓ — in **keinem** dieser Fälle ✓ ✓ liegt ein
-**belegter Standort** ✓ ✓ **und** ein **adressiertes Objekt mit der Hausnummer**
-✓ ✓ vor ✓ ✓ ✓ ✓ Das betrifft auch die Fälle mit **Betreiber-** ✓ ✓ oder
-**Registerbeleg** ✓ ✓: `bw-eppingen-mr-schrott` ✓ ✓ (`Erlen 14/1` ✓ ✓),
-`bw-friedrichshafen-regu-recycling-metallhandels` ✓ ✓ (`Kapitän-Wagner-Straße 28`
-✓ ✓), `bw-karlsruhe-rudi-kuhn-schrott-und-metallhandel` ✓ ✓
-(`Nördliche Uferstraße 16` ✓ ✓), `bw-neu-ulm-metallica` ✓ ✓ (`Insel 18/1` ✓ ✓),
-`he-gieen-peter-schneider-metallhandel` ✓ ✓ (`Schlachthofstraße 38` ✓ ✓),
-`rp-kaiserslautern-reinhard-entrumpelung-kl` ✓ ✓ (Käthe-Kollwitz-Straße ✓ ✓) ✓ ✓
-und `rp-ludwigshafen-ghn` ✓ ✓ (`Zielstraße 12` ✓ ✓ in **Mannheim** ✓ ✓) ✓ ✓ ✓ ✓
+**Kein** Ersatzpunkt ✓ ✓ entsteht ✓ ✓ bei den **Entfernungen** ✓ ✓ — in
+**keinem** dieser Fälle ✓ ✓ liegt ein **belegter Standort** ✓ ✓ **und** ein
+**adressiertes Objekt mit der Hausnummer** ✓ ✓ vor ✓ ✓ ✓ ✓ Das betrifft auch die
+Fälle mit **Betreiber-** ✓ ✓ oder **Registerbeleg** ✓ ✓:
+`bw-eppingen-mr-schrott` ✓ ✓ (`Erlen 14/1` ✓ ✓),
+`he-gieen-peter-schneider-metallhandel` ✓ ✓ (`Schlachthofstraße 38` ✓ ✓) ✓ ✓ und
+`rp-kaiserslautern-reinhard-entrumpelung-kl` ✓ ✓ (Käthe-Kollwitz-Straße ✓ ✓ ohne
+Hausnummer ✓ ✓ im Dossier ✓ ✓) ✓ ✓ ✓ ✓
 
 **Drei** Gesellschaften sind **gelöscht** ✓ ✓ — `mv-demmin-oetjen-rohstoffhandel`
 ✓ ✓ (16.01.2023 ✓ ✓), `mv-lubtheen-schrotthandel-lubtheen` ✓ ✓ (24.08.2021 ✓ ✓)
