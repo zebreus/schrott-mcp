@@ -54,17 +54,20 @@ in Hildburghausen ✓ ✓, eine **EDEKA-Ladesäule** ✓ ✓ in Mohlsdorf ✓ �
 **Bäume** ✓ ✓ in Worms ✓ ✓ und ein **Bach** ✓ ✓ in Viersen ✓ ✓ ✓ ✓
 
 **Fünfzehn** widersprechen einer **dokumentierten Adresse** ✓ ✓ — zwischen
-**211 m** ✓ ✓ (auf einer anderen Straße ✓ ✓) und **46,9 km** ✓ ✓ (in einem anderen
-Ort ✓ ✓) ✓ ✓
+**211 m** ✓ ✓ (auf einer anderen Straße ✓ ✓) und **18,6 km** ✓ ✓ (in einem anderen
+Ortsteil ✓ ✓) ✓ ✓
+
+Die **29** Entfernungen ✓ ✓ reichen insgesamt von **211 m** ✓ ✓ bis **46,9 km**
+✓ ✓ ✓ ✓
 
 **Kein** Ersatzpunkt ✓ ✓ entsteht ✓ ✓ — in **keinem** dieser Fälle ✓ ✓ liegt ein
 belegter Standort des **Betriebs** vor ✓ ✓ ✓ ✓
 
 ### Bleibt ✓ ✓ — **15** ✓ ✓
 
-**Acht** dieser Punkte treffen die **Dossier-Adresse** ✓ ✓ — darunter die des
-**Betriebs in St. Wendel** ✓ ✓, dessen OSM-Objekt den **Namen des Betriebs**
-trägt ✓ ✓ ✓ ✓
+**Acht** dieser Punkte treffen die **Dossier-Adresse** ✓ ✓ — darunter der des
+**Betriebs in Salzwedel** ✓ ✓ (`st-salzwedel-recycling-riwa-richter` ✓ ✓), dessen
+OSM-Objekt den **Namen des Betriebs** ✓ ✓ trägt ✓ ✓ ✓ ✓
 
 **Sieben** bleiben **Gemeinde-Marker** ✓ ✓ und damit **Platzhalter** ✓ ✓ — die
 Punkte treffen **kein** Adressobjekt ✓ ✓ oder nur einen **Straßenraum ohne
