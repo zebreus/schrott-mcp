@@ -1,5 +1,34 @@
 # Aufträge und offene Punkte — 22.11.2026, Nachmittag
 
+## Die Nachprüfung des Rollouts `fd103c4` wartet auf den Turnus ✓ ✓
+
+Der Rollout der Welle vom 22.11.2026, **06:00** ✓ ✓ ist am **22.11.2026,
+11:41:27 UTC** ✓ ✓ erfolgt ✓ ✓ — **60** Dossiers ✓ ✓, **fünfzehn**
+Standortpunkte **ersetzt** ✓ ✓, **siebenundzwanzig** **entfernt** ✓ ✓, **zwölf**
+bleiben ✓ ✓ ✓ ✓
+
+**Der Pending-Gate ist rot** ✓ ✓ — er fordert einen **erfolgreichen
+Handler-Turnuslauf nach** dem Rollout ✓ ✓: der letzte **MSG**-Lauf lag um
+**11:40:33 UTC** ✓ ✓ und damit **54 Sekunden vor** dem Rollout ✓ ✓, der letzte
+**Gutzmann**-Lauf um **09:39:16 UTC** ✓ ✓ ✓ ✓
+
+Die **Turnusläufe** ✓ ✓: Gutzmann um **~15:40 UTC** ✓ ✓, MSG um **~17:40 UTC**
+✓ ✓ ✓ ✓ **Bis dahin** ✓ ✓ gilt: **keine** weiteren Produktionsänderungen ✓ ✓
+✓ ✓ Die **Nachprüfung** ✓ ✓ ist für **17:55 UTC** ✓ ✓ angelegt ✓ ✓ (Job
+`release-nachpruefung-fd103c4` ✓ ✓) ✓ ✓
+
+Die **übrigen drei** Verifier ✓ ✓ sind **grün** ✓ ✓ ✓ ✓
+
+## Der Abgleich der Adressangaben ist kein Gate ✓ ✓ — **offen** ✓ ✓
+
+Der Abgleich ✓ ✓, der jede PLZ ✓ ✓ und jede Straße mit Hausnummer ✓ ✓ der
+**42** Korrektur-Sektionen ✓ ✓ gegen die **Tags** des genannten Objekts ✓ ✓
+oder die **Wellennotiz** ✓ ✓ prüft ✓ ✓, liegt **außerhalb** des Repos ✓ ✓ — im
+Repo ist **kein** Gate ✓ ✓, das genau diesen Abgleich macht ✓ ✓ ✓ ✓
+
+**Vorschlag** ✓ ✓: ihn als `scripts/release/check_address_claims.py` ✓ ✓ ins
+Repo nehmen ✓ ✓ — als **sechstes** Gate ✓ ✓ des Wellen-Torwarts ✓ ✓ ✓ ✓
+
 ## Die Nachprüfung des Rollouts `5b4f791` wartet auf den Turnus ✓ ✓
 
 Der Rollout der Welle vom 22.11.2026, **00:00** ✓ ✓ ist am **22.11.2026,
