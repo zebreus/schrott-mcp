@@ -16,6 +16,22 @@ MSG-Lauf lag um **23:31 UTC** ✓ ✓, der letzte Gutzmann-Lauf um **21:17 UTC**
 **Nachprüfung** ✓ ✓ ist für **05:45 UTC** ✓ ✓ angelegt ✓ ✓ (Job
 `release-nachpruefung-7f40548` ✓ ✓) ✓ ✓
 
+## Das Provider-Limit des Schedulers ✓ ✓ — **offen** ✓ ✓
+
+Das **Tageslimit** ✓ ✓ des Scheduler-Providers ✓ ✓ ist **erschöpft** ✓ ✓
+(**45,02 $** von **45,00 $** ✓ ✓) ✓ ✓ und **resetet nicht** ✓ ✓ ✓ ✓ Der
+Check-in-Job für `ed2878e` ✓ ✓ ist um **00:00:05 UTC** ✓ ✓ mit Exit **1**
+✓ ✗ abgebrochen ✓ ✓ — **nicht** wegen der Daten ✓ ✓ ✓ ✓
+
+Der **Check-in** ✓ ✓ ist **von Hand** ✓ ✓ nachgeholt ✓ ✓: der Rollout `ed2878e`
+✓ ✓ ist **vollständig bestätigt** ✓ ✓ (`verify-pending-corrections-ed2878e.py`
+✓ ✓ → `ok: true` ✓ ✓, `failures: []` ✓ ✓) ✓ ✓ — Nachweis:
+`research/checkin-20261122-0115-owner.md` ✓ ✓ ✓ ✓
+
+**Folge** ✓ ✓: der Check-in `release-nachpruefung-7f40548` ✓ ✓ (Cron **05:45
+UTC** ✓ ✓) läuft **nicht** ✓ ✗ ✓, solange das Limit **nicht** aufgefüllt ist
+✓ ✓ — die Nachprüfung muss **von Hand** ✓ ✓ erfolgen ✓ ✓ ✓ ✓
+
 ## Offene Punkte ✓ ✓
 
 ### 1. Der MKM-Handler scheitert seit dem 20.11.2026 ✓ ✓ — **vorbestehend** ✓ ✓
