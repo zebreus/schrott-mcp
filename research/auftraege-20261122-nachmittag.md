@@ -137,6 +137,39 @@ Nachprüfungen** ✓ ✓ **nicht** ✓ ✗ ✓ ✓ — sie müssen **von Hand** 
 **nicht** ✓ ✗ ✓ ✓ — die Welle vom 22.11.2026, **00:00** ✓ ✓ ist deshalb
 **von Hand** ✓ ✓ gelaufen ✓ ✓ ✓ ✓
 
+## Der MKM-Handler ist repariert ✓ ✓ — der Rollout wartet auf den Turnus ✓ ✓
+
+Der MKM-Handler ✓ ✓ scheiterte seit dem **20.11.2026 00:34 UTC** ✓ ✓ an
+`MKM-NE-05: priced row without tier ladder is not a reviewed flat quote` ✓ ✓
+— die **Nickelposition** ✓ ✓ der Preisliste ✓ ✓ weist **seit dem 16.11.2026**
+✓ ✓ **ohne Mengenstaffel** ✓ ✓ aus ✓ ✓ (nur noch der **Anfrage-Link** ✓ ✓) ✓ ✓
+
+**Gefixt** ✓ ✓ am 22.11.2026 ✓ ✓ (Commit `497b2f30` ✓ ✓): `MKM-NE-05` ✓ ✓ ist
+jetzt in der Liste der **geprüften** Flat-Quote-Artikel ✓ ✓ — damit greift für
+diese Zeile **derselbe** Vertrag ✓ ✓ wie für die übrigen **neun** ✓ ✓ ✓ ✓
+**Nichts** ✓ ✓ wird **gelockert** ✓ ✓: eine bepreiste Zeile **ohne** Staffel
+✓ ✓ bleibt ein **harter Fehler** ✓ ✓ ✓ ✓
+
+Der Owner hat **alle 69** Zeilen ✓ ✓ der Live-Seite ✓ ✓ geprüft ✓ ✓: **zwei**
+✓ ✓ bepreiste Zeilen ohne Staffel ✓ ✓ (`MKM-NE-05` ✓ ✓ und `SW10041` ✓ ✓ —
+die zweite war **bereits** ✓ ✓ freigegeben ✓ ✓), **vierzehn** ✓ ✓ „auf Anfrage“
+✓ ✓ und **fünfundvierzig** ✓ ✓ mit Staffel ✓ ✓ ✓ ✓
+
+Der **Auftrag** ✓ ✓ mit dem Befund ✓ ✓, dem **Beleg** ✓ ✓ und der Änderung ✓ ✓
+steht in `research/auftrag-handler-mkm-staffel-20261122.md` ✓ ✓ ✓ ✓
+
+**Ein** neues **Fixture** ✓ ✓ aus dem **heutigen** Live-Abruf ✓ ✓:
+`mkm-overview-20261122-sanitized.html` ✓ ✓ — **61** Zeilen ✓ ✓, davon **zwei**
+✓ ✓ Flat-Quote ✓ ✓ und **vierzehn** ✓ ✓ Anfragen ✓ ✓ Das Fixture vom
+**17.11.2026** ✓ ✓ bleibt **unverändert** ✓ ✓ ✓ ✓
+
+**Achtundfünfzig** Tests ✓ ✓ sind **grün** ✓ ✓ ✓ ✓
+
+**Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Rollouts `1464a7a`
+✓ ✓ ist **rot** ✓ ✓, bis die **Handler-Turnusläufe** ✓ ✓ nach dem Rollout
+✓ ✓ gelaufen sind ✓ ✓ (Gutzmann **~21:44 UTC** ✓ ✓, MSG **~23:45 UTC** ✓ ✓)
+✓ ✓ **Bis dahin** ✓ ✓ gilt: **keine** weiteren Produktionsänderungen ✓ ✓ ✓ ✓
+
 ## Offene Punkte ✓ ✓
 
 ### 1. `scripts/test_verify_pending_corrections.py` ist rot ✓ ✓ — **behoben** ✓ ✓
