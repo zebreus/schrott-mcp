@@ -10,7 +10,7 @@ Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der Owner hat über **jeden*
 **Unverändert** ✓ ✓ — sie steht in `research/geo-entscheidung-20261119.md` ✓ ✓ ✓ ✓
 
 **Angewandt** ✓ ✓ in der Fassung, die sich an der Welle vom 21.11.2026, **18:00**
-✓ ✓ bewährt hat ✓ ✓ (sieben Setzungen ✓ ✓, neunundzwanzig Entfernungen ✓ ✓) ✓ ✓
+✓ ✓ bewährt hat ✓ ✓ (**sieben** Setzungen ✓ ✓, **einunddreißig** Entfernungen ✓ ✓) ✓ ✓
 
 ## Das Ergebnis ✓ ✓
 

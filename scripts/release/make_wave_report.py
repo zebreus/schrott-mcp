@@ -237,7 +237,8 @@ for _f in files:
 o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektion ✓ ✓ · "
          f"**{bullets}** neue Notiz-Bullets ✓ ✓ · "
          f"**{_neue_bullets_gesamt}** neue Bullets insgesamt ✓ ✓ "
-         f"(mit den automatisch erzeugten Frontmatter-Vermerken ✓ ✓)")
+         f"(davon **{_neue_bullets_gesamt - bullets}** ✓ ✓ in den datierten "
+         f"**Korrektur-Sektionen** ✓ ✓ des Owners ✓ ✓)")
 o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
 # Die Werte werden **gemessen** ✓ ✓, nicht getippt ✓ ✓
