@@ -7,11 +7,22 @@ Die Welle vom 22.11.2026, **12:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
 ✓ ✓ (Commit `3195244` ✓ ✓, Release-Scope ✓ ✓); der Release-Zyklus ✓ ✓ ist
 **grün** ✓ ✓ (Tree-Binding ✓ ✓, Format-Gate ✓ ✓, **13** Suiten ✓ ✓ **852**
 passed ✓ ✓, **60** geänderte Zeilen ✓ ✓ alle durch den Seed erklärt ✓ ✓, zweiter
-Boot **0** ✓ ✓) ✓ ✓ und der **Pin-Commit** ✓ ✓ `7fc504eb` ✓ ✓ liegt vor ✓ ✓
-✓ ✓
+Boot **0** ✓ ✓) ✓ ✓
 
-**Zehn** Punkte werden **gesetzt** ✓ ✓, **vierunddreißig** **entfernt** ✓ ✓,
+Der **Kandidat** ✓ ✓ der Welle vom 22.11.2026, **12:00** ✓ ✓ ist `38e04b6` ✓ ✓
+(**Tree** `9f723809af3d87a3f749b04921d90e3ec5d06c87` ✓ ✓), der **Pin-Commit**
+✓ ✓ mit den darauf gepinnten Verifiern ✓ ✓ ist `0d91019d` ✓ ✓ ✓ ✓
+
+**Vierzehn** Punkte werden **gesetzt** ✓ ✓, **dreißig** **entfernt** ✓ ✓,
 **zwölf** bleiben ✓ ✓, **vier** Dossiers tragen **keinen** Punkt ✓ ✓ ✓ ✓
+
+**Vierundvierzig** datierte **Korrektur-Sektionen** ✓ ✓ trägt die Welle ✓ ✓ ✓ ✓
+
+**Drei** unabhängige **Pre-Deploy-Reviews** ✓ ✓ (FREIGE ✓ ✓) haben den
+Kandidaten geprüft ✓ ✓ — der erste an `3195244` ✓ ✓ meldete **neun** Befunde ✓ ✓
+(**vier** Punkte wurden daraufhin von **entfernt** auf **gesetzt** ✓ ✓
+gewechselt ✓ ✓), der zweite an `73a2282` ✓ ✓ **vier** ✓ ✓ und der dritte an
+`38e04b6` ✓ ✓ **zwei** ✓ ✓ — beide zuletzt **nicht sperrend** ✓ ✓ ✓ ✓
 
 **Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Vorgänger-Rollouts
 `fd103c4` ✓ ✓ ist **rot** ✓ ✓, weil die **Handler-Turnusläufe** ✓ ✓ noch nicht
@@ -45,7 +56,7 @@ Die **übrigen drei** Verifier ✓ ✓ sind **grün** ✓ ✓ ✓ ✓
 ## Der Abgleich der Adressangaben ist kein Gate ✓ ✓ — **offen** ✓ ✓
 
 Der Abgleich ✓ ✓, der jede PLZ ✓ ✓ und jede Straße mit Hausnummer ✓ ✓ der
-**42** Korrektur-Sektionen ✓ ✓ gegen die **Tags** des genannten Objekts ✓ ✓
+**44** Korrektur-Sektionen ✓ ✓ gegen die **Tags** des genannten Objekts ✓ ✓
 oder die **Wellennotiz** ✓ ✓ prüft ✓ ✓, liegt **außerhalb** des Repos ✓ ✓ — im
 Repo ist **kein** Gate ✓ ✓, das genau diesen Abgleich macht ✓ ✓ ✓ ✓
 
