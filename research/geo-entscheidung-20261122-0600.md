@@ -1,9 +1,10 @@
 # Die Standortpunkte der Welle vom 22.11.2026, 06:00 — die Entscheidung des Owners
 
-**Stand 22.11.2026, 08:15 UTC ✓ ✓** — die Welle ✓ ✓ hat die gespeicherten Punkte
-**gemessen** ✓ ✓ und **dokumentiert** ✓ ✓, aber **nicht** geändert ✓ ✓ (die
-Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der Owner hat über **jeden** Fall
-**entschieden** ✓ ✓ ✓ ✓
+**Stand 22.11.2026, 09:50 UTC ✓ ✓** — die Welle ✓ ✓ hat die gespeicherten Punkte
+**gemessen** ✓ ✓ und **dokumentiert** ✓ ✓ und in **elf** Dossiers die
+**Frontmatter-Position** **gesetzt** ✓ ✓ — die **Produktionsdatenbank** hat sie
+**nicht** verändert ✓ ✓ (die Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der
+Owner hat über **jeden** Fall **entschieden** ✓ ✓ ✓ ✓
 
 ## Die Regel ✓ ✓
 
@@ -100,9 +101,16 @@ Gmünd ✓ ✓ ✓ ✓
 oder ein **anderes Haus** ✓ ✓ derselben Straße ✓ ✓ — zwischen **521 m** ✓ ✓
 (Memmingerberg ✓ ✓) und **3,3 km** ✓ ✓ (Bitburg ✓ ✓) ✓ ✓ ✓ ✓
 
-**Neun** liegen in einem **anderen Ort** ✓ ✓, **Ortsteil** ✓ ✓ oder
+**Sieben** liegen in einem **anderen Ort** ✓ ✓, **Ortsteil** ✓ ✓ oder
 **Bundesland** ✓ ✓ — zwischen **794 m** ✓ ✓ (Hunderdorf ✓ ✓) und **447,5 km**
-✓ ✓ (Frankenthal ✓ ✓ im **Saalekreis** ✓ ✓ statt in der **Pfalz** ✓ ✓) ✓ ✓ ✓ ✓
+✓ ✓ (Frankenthal im **Landkreis Bautzen** ✓ ✓ in **Sachsen** ✓ ✓ statt in der
+**Pfalz** ✓ ✓) ✓ ✓ ✓ ✓
+
+**Zwei** liegen im **selben Stadtgebiet** ✓ ✓, aber weder auf der belegten
+Anschrift ✓ ✓ noch auf deren Straße ✓ ✓: `ni-stadthagen-schaumburg-autorecycling`
+✓ ✓ (**1,6 km** ✓ ✓ in einem **Wohngebiet** ✓ ✓ statt am **Gewerbepark** ✓ ✓)
+✓ ✓ und `st-dessau-rolau-decker` ✓ ✓ (**5,9 km** ✓ ✓ im **Stadtzentrum** ✓ ✓
+statt an der **Neekener Straße** ✓ ✓) ✓ ✓ ✓ ✓
 
 **Kein** Ersatzpunkt ✓ ✓ entsteht ✓ ✓ — in **keinem** dieser Fälle ✓ ✓ liegt ein
 **belegter Standort** ✓ ✓ **und** ein **adressiertes Objekt mit der Hausnummer**
@@ -158,8 +166,9 @@ Der Owner hat **alle 54** gespeicherten Punkte der Welle ✓ ✓ am 22.11.2026
 Änderungen ✓ ✓ gegen das **Adressobjekt** ✓ ✓ **gemessen** ✓ ✓ (OpenStreetMap-API,
 Abruf 22.11.2026 ✓ ✓) ✓ ✓
 
-Alle **fünfundvierzig** OSM-Objektverweise ✓ ✓ der **42** Korrekturnotizen ✓ ✓
-wurden **noch einmal** ✓ ✓ gegen die API geprüft ✓ ✓ — **keine** Abweichung
+Alle **sechsundvierzig** verschiedenen OSM-Objekte ✓ ✓ (**47** Verweise ✓ ✓) der
+**42** Korrekturnotizen ✓ ✓ wurden **noch einmal** ✓ ✓ gegen die API geprüft ✓ ✓
+— **keine** Abweichung ✓ ✓ bei **Hausnummer** ✓ ✓, **Straße** ✓ ✓ und **PLZ**
 ✓ ✓ ✓ ✓
 
 Der Seed-Vertrag ✓ ✓ ist geprüft ✓ ✓: `cargo test -p schrott-mcp-ingestion seed`
