@@ -156,17 +156,46 @@ ihrem `seed_hash` ✓ ✓, dem Hash ihrer Notizen ✓ ✓, dem Release ✓ ✓, 
 Die **neun** Contract-Tests ✓ ✓ sind **grün** ✓ ✓ ✓ ✓ Der generische Verifier
 ✓ ✓ meldet dasselbe wie der gepinnte ✓ ✓ ✓ ✓
 
-### 2. Der Bericht hat einen leeren Abschnitt ✓ ✓ — **kosmetisch** ✓ ✓
+### 2. Der Bericht hat einen leeren Abschnitt ✓ ✓ — **behoben** ✓ ✓
 
 `research/wave-20261122-0000-report.md` ✓ ✓: „Belege, die den Dossiers neu
-zugeordnet oder gefüllt haben“ ✓ ✓ ist **leer** ✓ ✓, weil die Welle **kein**
-`certifications` ✓ ✓ geändert hat ✓ ✓ — technisch **korrekt** ✓ ✓, optisch eine
-**Leerstelle** ✓ ✓ ✓ ✓
+zugeordnet oder gefüllt haben“ ✓ ✓ war **leer** ✓ ✓, weil die Welle **kein**
+`certifications` ✓ ✓ geändert hat ✓ ✓ ✓ ✓
 
-### 3. Die Zählung der Abschnitte des Berichts umfasst auch die Korrektur-Sektionen ✓ ✓
+**Behoben** ✓ ✓ am 22.11.2026 ✓ ✓ (Commit `b6ea756c` ✓ ✓): der Generator sagt
+jetzt **ausdrücklich** ✓ ✓, dass **kein** Dossier der Welle das Feld geändert
+hat ✓ ✓ — statt einer **Leerstelle** ✓ ✓ ✓ ✓
 
-`scripts/release/make_wave_report.py` ✓ ✓ liest bis zum **Dateiende** ✓ ✓ —
-die **36** datierten Korrektur-Sektionen ✓ ✓ sind in den Quell- und Preiszahlen
-✓ ✓ mitgezählt ✓ ✓ (Quellen **53/27/58/20/3/16** ✓ ✓, Preise **14/13/9** ✓ ✓)
-✓ ✓ Die Abschnittstitel („in den neuen Notizen“ ✓ ✓) meinen streng genommen nur
-die **Recherche**-Sektionen ✓ ✓ ✓ ✓
+### 2b. Die Zählung der Frontmatter-Felder ✓ ✓ — **behoben** ✓ ✓
+
+Der Bericht zählte nur die Felder, die der Kandidat **noch** trägt ✓ ✓ — ein
+**entferntes** Feld ✓ ✓ ging **ungezählt** ✓ ✓ Die **Konvention** ✓ ✓ des Repos
+✓ ✓ (`check_report_figures.py` ✓✓) zählt **jedes** geänderte Feld ✓ ✓ auf
+**beiden** Seiten ✓ ✓ ✓ ✓
+
+**Behoben** ✓ ✓ (Commit `b6ea756c` ✓ ✓): der Generator zählt jetzt **beide**
+Seiten ✓ ✓ — die Welle vom 22.11.2026, **00:00** ✓ ✓ nennt damit **dreißig**
+✓ ✓ statt **neunundzwanzig** ✓ ✓ Dossiers mit geändertem `clear_fields` ✓ ✓ ✓ ✓
+
+### 2c. Der Generator las den Arbeitsbaum statt des Kandidaten ✓ ✓ — **behoben** ✓ ✓
+
+Ein Bericht über eine **ältere** Welle ✓ ✓ entsteht **heute** ✓ ✓; ihre
+Dossiers sind seither **weitergekommen** ✓ ✓ Der **Arbeitsbaum** ✓ ✓ hätte die
+Zählung der Welle mit den **späteren** Änderungen **vermischt** ✓ ✓ ✓ ✓
+
+**Behoben** ✓ ✓ (Commit `b6ea756c` ✓ ✓): der Generator liest **immer** den
+**Kandidaten** ✓ ✓ ✓ ✓
+
+### 3. Die Zählung der Abschnitte des Berichts umfasst auch die Korrektur-Sektionen ✓ ✓ — **behoben** ✓ ✓
+
+`scripts/release/make_wave_report.py` ✓ ✓ las bis zum **Dateiende** ✓ ✓ — die
+datierten **Korrektur-Sektionen** ✓ ✓ waren in den Quell- und Preiszahlen ✓ ✓
+**mitgezählt** ✓ ✓ ✓ ✓
+
+**Gemessen** ✓ ✓ an der Welle vom 22.11.2026, **12:00** ✓ ✓: das amtliche
+Fachbetrieberegister ✓ ✓ wird in **47** ✓ ✓ Dossiers der **Recherche**-Sektion
+✓ ✓ genannt ✓ ✓ — der alte Generator zählte **60** ✓ ✓ ✓ ✓
+
+**Behoben** ✓ ✓ am 22.11.2026 ✓ ✓ (Commit `6255fc35` ✓ ✓): der Generator
+endet die Sektion an der nächsten Überschrift ✓ ✓ und zählt **nur** die
+**Recherche**-Sektion ✓ ✓ ✓ ✓
