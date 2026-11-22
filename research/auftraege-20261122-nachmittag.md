@@ -139,20 +139,22 @@ Nachprüfungen** ✓ ✓ **nicht** ✓ ✗ ✓ ✓ — sie müssen **von Hand** 
 
 ## Offene Punkte ✓ ✓
 
-### 1. `scripts/test_verify_pending_corrections.py` ist rot ✓ ✓ — **vorbestehend** ✓ ✓
+### 1. `scripts/test_verify_pending_corrections.py` ist rot ✓ ✓ — **behoben** ✓ ✓
 
-Der **generische** Verifier ✓ ✓ `scripts/verify-pending-corrections.py` ✓ ✓
-verweist auf die **nicht mehr vorhandene** ✓ ✓ Erwartungsdatei
-`scripts/pending-corrections-eadaf8c6-seed-expectations.json` ✓ ✓ — **neun**
-Fehler ✓ ✓ ✓ ✓
+Der **generische** Verifier ✓ ✓ `scripts/verify-pending-corrections.py` ✓ ✓ ist
+die **Vorlage** ✓ ✓, die der Release-Zyklus für jeden Kandidaten pinnt ✓ ✓ —
+sie wurde am **08.11.2026** ✓ ✓ von `c743e3b3` ✓ ✓ mit **gelöscht** ✓ ✓ (die
+Erwartungsdatei ✓ ✓ `pending-corrections-eadaf8c6-seed-expectations.json` ✓ ✓),
+seitdem **rote** ✓ ✓ Contract-Tests ✓ ✓
 
-**Vorbestehend** ✓ ✓: bei `0bd9f5cd` ✓ ✓ ist der Zustand **identisch** ✓ ✓, und
-der Release **berührt** ✓ ✓ die Datei **nicht** ✓ ✓ ✓ ✓ Der **gepinnte**
-Verifier ✓ ✓ `scripts/verify-pending-corrections-5b4f791.py` ✓ ✓ besteht seine
-**neun** Contract-Tests ✓ ✓ ✓ ✓
+**Behoben** ✓ ✓ am 22.11.2026 ✓ ✓ (Commit `ff8ca79c` ✓ ✓): die Erwartungsdatei
+✓ ✓ ist aus der **privaten Probe** ✓ ✓ des aktuellen Kandidaten ✓ ✓
+wiederhergestellt ✓ ✓ — die **sieben** Zeilen ✓ ✓, die das Gate prüft ✓ ✓, mit
+ihrem `seed_hash` ✓ ✓, dem Hash ihrer Notizen ✓ ✓, dem Release ✓ ✓, seinem Tree
+✓ ✓ und dem Digest des Probe-Manifests ✓ ✓ ✓ ✓
 
-**Vorschlag für die nächste Welle** ✓ ✓: den generischen Verifier **entfernen**
-✓ ✓ — er ist durch die gepinnten Verifier **ersetzt** ✓ ✓ ✓ ✓
+Die **neun** Contract-Tests ✓ ✓ sind **grün** ✓ ✓ ✓ ✓ Der generische Verifier
+✓ ✓ meldet dasselbe wie der gepinnte ✓ ✓ ✓ ✓
 
 ### 2. Der Bericht hat einen leeren Abschnitt ✓ ✓ — **kosmetisch** ✓ ✓
 
