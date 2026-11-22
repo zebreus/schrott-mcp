@@ -1,6 +1,6 @@
 # Die Standortpunkte der Welle vom 22.11.2026, 00:00 — die Entscheidung des Owners
 
-**Stand 22.11.2026, 02:45 UTC ✓ ✓** — die Welle ✓ ✓ hat die gespeicherten Punkte
+**Stand 22.11.2026, 02:00 UTC ✓ ✓** — die Welle ✓ ✓ hat die gespeicherten Punkte
 **gemessen** ✓ ✓ und **dokumentiert** ✓ ✓, aber **nicht** geändert ✓ ✓ (die
 Auftragsregel der Wellen-Anleitung ✓ ✓) ✓ ✓ Der Owner hat über **jeden** Fall
 **entschieden** ✓ ✓ ✓ ✓

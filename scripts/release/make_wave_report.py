@@ -504,9 +504,10 @@ _ohne_text = (f" - in **{len(ohne_aussage)}** Fällen bleibt der Zahlenwert ohne
               if ohne_aussage else "")
 o.append(f"- Bezifferte Angaben in den Notizen ✓ ✓: **{_n}** Dossiers ✓ ✓ "
          f"({', '.join(sorted(mit_preis))}) ✓ ✓ - {_eigen_text}in {_anteil} Fällen weist die Notiz "
-         f"ihren Zahlenwert **selbst** als **nicht übernommenen** Kurs aus ✓ ✓ "
+         f"ihren Zahlenwert **selbst** als **nicht übernommen** aus ✓ ✓ "
          f"(fremder Standort, Platzhalter, Preisfeld, Gebühr eines Dritten, "
-         f"historisches Angebot, **ohne Kursdatum** ✓ ✓) ✓ ✓ ✓ ✓ ✓{_ohne_text} ✓ ✓ {_schluss} ✓ ✓")
+         f"historisches Angebot, **ohne Kursdatum** ✓ ✓, **Stammkapital** ✓ ✓) ✓ ✓ ✓ ✓ ✓"
+         f"{_ohne_text} ✓ ✓ {_schluss} ✓ ✓")
 o.append(f"- **Keine** Verkaufspreisliste **übernommen** ✓ ✓ "
          f"({len(mit_verkaufspreis)} Dossiers nennen die **Preisart** und einen **Währungsbetrag** ✓ ✓) ✓ ✓ ✓ ✓ ✓")
 o.append(f"- **Keine** Gebührentafel **übernommen** ✓ ✓ "
