@@ -50,6 +50,21 @@ DATUM = _args.datum
 AUSGABE = Path(_args.ausgabe) if _args.ausgabe else \
     ROOT / f"research/wave-{CAND}-report.md"
 
+def kandidat_text(rel):
+    """Der Text eines Dossiers **im Kandidaten-Commit** ✓ ✓.
+
+    Ein Bericht über eine **ältere** Welle ✓ ✓ entsteht heute ✓ ✓; ihre
+    Dossiers sind seither weitergekommen ✓ ✓. Der **Arbeitsbaum** ✓ ✓ würde
+    die Zählung der Welle mit den späteren Änderungen vermischen ✓ ✓ -
+    darum wird **immer** der Kandidat gelesen ✓ ✓ ✓ ✓
+    """
+    _t = subprocess.run(["git", "show", f"{CAND}:{rel}"], capture_output=True,
+                        text=True).stdout
+    if not _t:
+        _t = (ROOT / rel).read_text(encoding="utf-8")
+    return _t
+
+
 def frontmatter_zeilen(text):
     """Nur die **Zeilen des Frontmatter-Blocks** ✓ ✓ - der Rest des Dossiers
     ist Prosa ✓ ✓ und keine Feldnamen ✓ ✓. Ein Satz wie „dargestellt: ..." in
@@ -83,7 +98,7 @@ files = [f for f in subprocess.run(
 states = collections.Counter()
 for _f in files:
     _m = re.search(r"^state:\s*'?([A-Za-z]{2})'?\s*$",
-                   (ROOT / _f).read_text(encoding="utf-8"), re.M)
+                   kandidat_text(_f), re.M)
     states[_m.group(1).upper() if _m else _f.split("/")[1].upper()] += 1
 # Der **Diff** wird fuer die **Notiz-Bullets** gebraucht ✓ ✓ - die
 # Frontmatter-Felder werden dagegen **am Frontmatter selbst** gemessen ✓ ✓
@@ -93,7 +108,12 @@ felder = collections.Counter()
 for _f in files:
     _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
                           text=True).stdout
-    _neu = (ROOT / _f).read_text(encoding="utf-8")
+    # Der **Kandidat** ✓ ✓ wird gemessen ✓ ✓ - nicht der Arbeitsbaum ✓ ✓
+    # Ein Bericht über eine **aeltere** Welle ✓ ✓ entsteht heute ✓ ✓, ihre
+    # Dossiers sind aber seither weitergekommen ✓ ✓ - der Arbeitsbaum wuerde
+    # die **Zaehlung** ✓ ✓ der Welle mit den **spaeteren** Aenderungen
+    # vermischen ✓ ✓ ✓ ✓
+    _neu = kandidat_text(_f)
     _av = frontmatter_werte(_alt)
     _nv = frontmatter_werte(_neu)
     # **Beide** Seiten werden gezaehlt ✓ ✓ - die Konvention des Repos
@@ -115,7 +135,7 @@ ABSCHNITT_RE = re.compile(r"^### " + re.escape(ABSCHNITT) +
                            (r" " + re.escape(DATUM) if DATUM else "") + r".*$", re.M)
 neue_sektionen = set()
 for f in files:
-    alt = (ROOT / f).read_text(encoding="utf-8")
+    alt = kandidat_text(f)
     basis = subprocess.run(["git", "show", f"{BASE}:{f}"],
                            capture_output=True, text=True, check=True).stdout
     alt_h = set(ABSCHNITT_RE.findall(alt))
@@ -236,7 +256,7 @@ for _f in files:
     _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
                           text=True).stdout
     _alt_b = {l for l in _alt.split("\n") if l.startswith("- [")}
-    _neu_b = [l for l in (ROOT / _f).read_text(encoding="utf-8").split("\n")
+    _neu_b = [l for l in kandidat_text(_f).split("\n")
               if l.startswith("- [") and l not in _alt_b]
     _neue_bullets_gesamt += len(_neu_b)
 o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektion ✓ ✓ · "
@@ -252,7 +272,7 @@ _notiz_removed = 0
 for _f in files:
     _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
                           text=True).stdout
-    _neu = (ROOT / _f).read_text(encoding="utf-8")
+    _neu = kandidat_text(_f)
     _a = re.findall(r"^slug:\s*(.*)$", _alt, re.M)
     _n = re.findall(r"^slug:\s*(.*)$", _neu, re.M)
     if _a != _n:
@@ -269,7 +289,7 @@ _feld_weg = 0
 for _f in files:
     _alt = subprocess.run(["git", "show", f"{BASE}:{_f}"], capture_output=True,
                           text=True).stdout
-    _neu = (ROOT / _f).read_text(encoding="utf-8")
+    _neu = kandidat_text(_f)
     _ak = set(frontmatter_werte(_alt))
     _nk = set(frontmatter_werte(_neu))
     _feld_hinzu += len(_nk - _ak)
@@ -304,7 +324,7 @@ for name, muster in (
 ):
     anzahl = 0
     for f in files:
-        t = (ROOT / f).read_text(encoding="utf-8")
+        t = kandidat_text(f)
         note = re.search(r"^### " + re.escape(ABSCHNITT) +
                          (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
                          t, re.M | re.S)
@@ -315,9 +335,10 @@ for name, muster in (
 o.append("")
 o.append("**Belege, die den Dossiers neu zugeordnet oder gefüllt haben** ✓ ✓ "
          "(aus den Frontmatter-Änderungen abgeleitet ✓ ✓):\n")
+_zertifikats_zeilen = []
 for f in sorted(files):
     slug = f.split("/")[-1][:-3]
-    t = (ROOT / f).read_text(encoding="utf-8")
+    t = kandidat_text(f)
     fm = re.search(r"^certifications:\s*(.*)$", t, re.M)
     if not fm:
         continue
@@ -331,7 +352,17 @@ for f in sorted(files):
     _afm = re.search(r"^certifications:\s*(.*)$", _alt, re.M)
     if _afm and _afm.group(1).strip() == wert:
         continue
+    _zertifikats_zeilen.append(slug)
     o.append(f"- `{slug}` ✓ ✓: Zertifikat oder Negativbefund im Feld ✓ ✓")
+if not _zertifikats_zeilen:
+    # Eine **leere** Liste ✓ ✓ ist kein Befund ✓ ✓ - sie wuerde im Bericht
+    # wie eine **Luecke** ✓ ✓ aussehen ✓ ✓ Also wird **gesagt** ✓ ✓, was
+    # gilt ✓ ✓: keine Welle dieser Art hat ein Zertifikatsfeld geaendert
+    # ✓ ✓ ✓ ✓
+    o.append("- **Kein** Dossier dieser Welle ✓ ✓ hat das Feld `certifications` "
+             "**geändert** ✓ ✓ — die Welle hat **keine** Zertifikate "
+             "**neu zugeordnet** ✓ ✓ und **keine** **Negativbefunde** "
+             "**eingetragen** ✓ ✓ ✓ ✓")
 o.append("")
 o.append("## Was ausdrücklich **nicht** behauptet wird ✓ ✓\n")
 # Alles, was gemessen werden kann, wird gemessen ✓ ✓ - nichts wird getippt ✓ ✓
@@ -366,7 +397,7 @@ mit_preis = []
 mit_verkaufspreis = []
 mit_gebuehr = []
 for f in files:
-    t = (ROOT / f).read_text(encoding="utf-8")
+    t = kandidat_text(f)
     note = re.search(r"^### " + re.escape(ABSCHNITT) +
                      (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
                      t, re.M | re.S)
@@ -479,7 +510,7 @@ def _eigener_kurs(text):
 _notes_mit_preis = {}
 for _f in files:
     _slug = _f.split("/")[-1][:-3]
-    _t = (ROOT / _f).read_text(encoding="utf-8")
+    _t = kandidat_text(_f)
     _m = re.search(r"^### " + re.escape(ABSCHNITT) +
                    (r" " + re.escape(DATUM) if DATUM else "") + r".*$",
                    _t, re.M | re.S)
@@ -567,7 +598,7 @@ GEO_RE = re.compile(r"(GEO-Punkt|Geokodierung|Koordinaten?\s*(?:ist|sind|war|war
 geo_bedarf = []
 for f in sorted(files):
     slug = f.split("/")[-1][:-3]
-    t = (ROOT / f).read_text(encoding="utf-8")
+    t = kandidat_text(f)
     abschnitte = wellen_abschnitte(t)
     if not abschnitte:
         continue
@@ -618,7 +649,7 @@ o.append("| Slug | Kernaussage |")
 o.append("|---|---|")
 for f in sorted(files):
     slug = f.split("/")[-1][:-3]
-    t = (ROOT / f).read_text(encoding="utf-8")
+    t = kandidat_text(f)
     # Die komplette Notiz nehmen: sie enthaelt verschachtelte **-Marker und
     # eckige Klammern, an denen ein Regex frueher mitten im Satz abbrach.
     # Gekuerzt wird an einer Wortgrenze mit Ellipse.
