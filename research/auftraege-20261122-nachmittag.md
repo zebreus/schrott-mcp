@@ -31,6 +31,18 @@ Repo nehmen ✓ ✓ — als **sechstes** Gate ✓ ✓ des Wellen-Torwarts ✓ �
 
 ## Die Nachprüfung des Rollouts `5b4f791` wartet auf den Turnus ✓ ✓
 
+### ERLEDIGT ✓ ✓ — am 22.11.2026, 11:55 UTC ✓ ✓ von Hand bestätigt ✓ ✓
+
+Der geplante Job ✓ ✓ um **09:45 UTC** ✓ ✓ brach am **Providerlimit** ✓ ✓ ab
+✓ ✓ — die Nachprüfung ist **von Hand** ✓ ✓ erfolgt ✓ ✓: MSG **05:37:30**
+✓ ✓ (124 ✓ ✓), Gutzmann **09:39:16 UTC** ✓ ✓ (19 ✓ ✓), MSG **11:40:33**
+✓ ✓ (124 ✓ ✓) — alle **nach** dem Rollout ✓ ✓ ✓ ✓ Der Pending-Gate ✓ ✓ ist
+**grün** ✓ ✓, der Release-Delta- ✓ ✓ und der Wave-E-Verifier ✓ ✓ ebenso ✓ ✓,
+die Notizen **60/60** identisch ✓ ✓ ✓ ✓ Nachweis:
+`research/checkin-20261122-0945-owner.md` ✓ ✓ ✓ ✓
+
+## Der Abgleich der Adressangaben ist kein Gate ✓ ✓ — **offen** ✓ ✓
+
 Der Rollout der Welle vom 22.11.2026, **00:00** ✓ ✓ ist am **22.11.2026,
 04:36:48 UTC** ✓ ✓ erfolgt ✓ ✓ — **60** Dossiers ✓ ✓, **sieben** Standortpunkte
 **ersetzt** ✓ ✓, **neunundzwanzig** **entfernt** ✓ ✓ ✓ ✓
