@@ -13,6 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -62,3 +63,7 @@ Der aktuelle Recherchelauf fand weiterhin keinen Betreiberauftritt oder belastba
 - [Recherche 22.11.2026: Amtliche Register: Der Registerabzug vom 11.08.2026 (Spiegel der beiden amtlichen Register) führt für `Flöha` keine Ortsseite, weder ein Eintrag als Entsorgungsfachbetrieb noch eine Altfahrzeug-Anerkennung; die NorthData-Suche `Braun Recycling Flöha` liefert 0 Treffer. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nachweis, dass der Betrieb keine Anerkennung besitzt oder nicht mehr arbeitet. Quelle(n): https://schrottregister.pages.dev/sitemap.xml (Registerabzug 11.08.2026) ; https://www.northdata.de/suggest.json?query=Braun%20Recycling%20Fl%C3%B6ha&countries=DE (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Geokoordinierung gemessen, Abweichung dokumentiert: Der gespeicherte Punkt `50.8561/13.0741` löst per Rückauflösung auf `Bahnhofstraße` (OSM way/27627568, `amenity=parking`) und trifft damit eine Parkfläche in einer anderen Straße; das OSM-Betriebsobjekt `Braun Recycling` liegt **1,079 km** entfernt, die Straße `Bergstraße` (way/31252529) 1,148 km. Wegen der ungeklärten Hausnummer wird kein Punkt gesetzt oder verändert. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.8561&lon=13.0741&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/27627568/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Preise getrennt geführt: **Ankauf** keine verifizierte Annahme- oder Preisliste, die im OSM-Objekt gepflegten Annahmezeiten sind keine Preisaussage; **Verkauf** keine Liste; **Gebühren** keine Tarife, der Verzeichnishinweis, die Menge sei kostenlos oder gebührpflichtig, ist allgemeiner Verzeichnistext. Offen bleiben Inhaberidentität, Hausnummer 20 und eine Betreiber- oder Registerquelle. Quelle(n): vorstehende Abrufe.]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,1 km** vom Adressobjekt das Objekt **Braun Recycling** ✓ ✓ (node/6347194710 ✓ ✓, `amenity`=recycling ✓ ✓) entfernt — er trifft die **Bahnhofstraße** ✓ ✓ (ein Parkplatz ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft einen Parkplatz statt des Betriebsobjekts ✓ ✓; die **Hausnummer 20** ✓ ✓ existiert in OpenStreetMap **nicht** ✓ ✓ — deshalb wird **kein** Ersatzpunkt gesetzt ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

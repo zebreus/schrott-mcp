@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: A. Kept (Tabelle)
@@ -62,3 +63,7 @@ Der erreichbare Auftritt `goldschmied-berlin.com` (Copyright 2026) nennt Mariego
 - [Recherche 22.11.2026: **Register-Namenssuche ohne Treffer, ohne Beweiswert.** Die Suche `Mariegold Berlin` im amtlichen Registerauszugsportal liefert am 22.11.2026 für Unternehmen wie für Personen `Keine Suchergebnisse!`; ein Einzelunternehmen benötigt keinen Registereintrag, das Fehlen eines Eintrags ist damit kein Gegenbeleg, aber auch kein Identitätsnachweis für die Dossierzeile. Quelle: https://www.online-handelsregister.de/suche/Mariegold+Berlin (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: **GEO gemessen, nicht gesetzt.** Der in der Produktionsdatenbank gespeicherte Punkt 52.5205/13.2878 löst sich auf node/3020434263 auf, die Hausnummer `3A` der `Ernst-Bumm-Weg` in Charlottenburg — nicht die Dossieranschrift; das adresskonforme Objekt zur `Nehringstraße 2` ist node/3020433906 bei 52.5173341/13.2934595, die Abweichung beträgt 0,52 km (Haversine). Das Adressobjekt trägt weder `name` noch `operator`; es belegt die Anschrift, nicht den Betrieb. Der Punkt bleibt unverändert, über Setzen oder Entfernen entscheidet der Owner in einer eigenen datierten Korrektur-Sektion. Quellen: https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=52.5205&lon=13.2878&zoom=18&addressdetails=1 ; https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&addressdetails=1&countrycodes=de&limit=10&q=Nehringstra%C3%9Fe%202%2C%2014059%20Berlin ; read-only `public.db` (22.11.2026).]
 - [Recherche 22.11.2026: **Offene Fragen.** (1) Ob die Werkstatt tatsächlich Altgold ankauft, ist weiterhin nicht belegt und wird aus dem Materialverzeichnis nicht abgeleitet. (2) Für den Gewerbebetrieb fehlt jeder zweite Beleg aus der README-Quellenhierarchie; der Betreiberauftritt bleibt ein Einzelbeleg, der nicht die Ausnahme für ein Einzelunternehmen erfüllt. (3) Die Postleitzahl und Hausnummer der Anschrift sind bestätigt, die Zuordnung zum Dossier-Händler `Mariegold` beruht allein auf dem Betreiberauftritt. Quellen: siehe oben.]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **520 m** vom Adressobjekt **Nehringstraße 2, 14059 Berlin** (node/3020433906, `addr:housenumber`=2) entfernt — er trifft **3A, Ernst-Bumm-Weg, 14059 Berlin** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

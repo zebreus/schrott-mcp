@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -54,3 +55,7 @@ Keine aktuellen Preisangaben ableiten: ein Zahlen-Ankaufspreis, eine Verkaufspre
 - [Recherche 22.11.2026: Amtliche Register: Für `Halle (Saale)` ist im Registerabzug vom 11.08.2026 kein Eintrag unter dem Namen MRR verzeichnet; die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nachweis, dass die gelöschte Gesellschaft nie amtlich zertifiziert war. Quelle(n): https://schrottregister.pages.dev/ort-halle-saale (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Geokoordinierung gemessen, erhebliche Abweichung dokumentiert: Der gespeicherte Punkt `51.60848125/11.27634375` löst per Rückauflösung auf `L 230` (OSM way/519589216, `highway=secondary`) bei Hermerode, Mansfeld-Südharz, und trifft damit eine Landstraße rund 47 km vom Halleschen Stadtgebiet entfernt; das belegte Adressobjekt `Am Saalehafen 5` ist `node/891532491` mit `addr:street=Am Saalehafen`, `addr:housenumber=5`, `addr:postcode=06118`, `addr:city=Halle (Saale)` bei `51.5226897/11.9412664`, also **46,939 km** entfernt. Der gespeicherte Punkt ist damit kein Adressbezug; er wird hier nicht verändert, die Entscheidung über Rücknahme oder Neusetzung liegt beim Owner. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.60848125&lon=11.27634375&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/node/891532491/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Preise getrennt geführt: **Ankauf** kein aktueller Ankaufskurs und keine Annahmeliste für einen heutigen MRR-Betrieb belegt, die Efb-Anerkennung des Standortbetreibers Scholz nennt im Register keine Preise; **Verkauf** keine Verkaufspreisliste; **Gebühren** keine Gebührenordnung. Offen bleibt, ob die Seedzeile als geschlossen geführt werden soll, und die Entscheidung über den völlig abweichenden Standortpunkt. Quelle(n): vorstehende Register- und Registerabzugs-Abrufe.]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **46,9 km** vom Adressobjekt **Am Saalehafen 5, 06118 Halle (Saale)** (node/891532491, `addr:housenumber`=5) entfernt — er trifft die **L 230** ✓ ✓ bei Mansfeld ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **46,9 km** entfernt ✓ ✓; die Rechtseinheit ist **gelöscht** ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

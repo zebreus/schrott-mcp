@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) – Kandidaten-Audit (Schlussfilter)
@@ -58,3 +59,7 @@ Namens- und Adresssuche liefert eine Gebr. Büchner Transport GmbH am Bahndamm 8
 - [Recherche 22.11.2026: Geokoordinierung nachgemessen, Abweichung bestätigt: Der gespeicherte Punkt `51.3545032258065/12.3691741935484` löst per Rückauflösung auf `23, Trufanowstraße` (OSM way/220134616, `building=yes`) und damit auf ein Gebäude in einem anderen Stadtteil (04105 Leipzig); das belegte Adressobjekt `node/8195048139` mit `addr:housenumber=8` zur `Am Bahndamm` liegt **6,558 km** entfernt bei `51.3337233/12.4575388`. Die Abweichung entspricht der Messung vom 29.10.2026; wegen der weiterhin offenen Betreiberidentität (Transport GmbH gegen Seed `Entsorgungsfachbetrieb`) wird kein Punkt gesetzt oder verändert, die Entscheidung liegt beim Owner. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.3545032258065&lon=12.3691741935484&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/node/8195048139/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Preise getrennt geführt: **Ankauf** keine zuordenbare Ankaufspreisliste und keine Ankaufskonditionen belegt, der im Verzeichnis genannte Containerdienst belegt keinen Ankauf; **Verkauf** keine Preisliste; **Gebühren** keine belastbare Tarifliste. Offen bleiben die Betreiberidentität des Seeds `Gebr. Büchner GmbH`, eine heutige Annahme und sämtliche Kontaktangaben. Quelle(n): vorstehende Register- und Registerabzugs-Abrufe.]
 
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **6,6 km** vom Adressobjekt **Am Bahndamm 8, 04316 Leipzig** (node/8195048139, `addr:housenumber`=8) entfernt — er trifft **10, Trufanowstraße, 04105 Leipzig** (ein Friseur ✓ ✓ — `name`=hair & flair ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein **fremdes Objekt** ✓ ✓ und liegt **6,6 km** entfernt ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

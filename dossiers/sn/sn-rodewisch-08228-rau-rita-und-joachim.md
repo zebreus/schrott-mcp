@@ -13,6 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026) – Kandidaten-Audit (Schlussfilter)
@@ -83,3 +84,7 @@ Die Portale unterscheiden inzwischen erkennbar **„Büro“** (Wernesgrüner St
 - [Recherche 22.11.2026: Amtliche Register: Der Registerabzug vom 11.08.2026 (Spiegel der beiden amtlichen Register) führt für `Rodewisch` keine Ortsseite, weder ein Eintrag als Entsorgungsfachbetrieb noch eine Altfahrzeug-Anerkennung. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nachweis, dass der Betrieb keine Anerkennung besitzt oder nicht mehr arbeitet. Quelle(n): https://schrottregister.pages.dev/sitemap.xml (Registerabzug 11.08.2026, Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Geokoordinierung gemessen, Abweichung dokumentiert: Der gespeicherte Punkt `50.5308/12.4133` löst per Rückauflösung auf `Rathaus`, `Wernesgrüner Straße 32` (OSM way/185600522, `amenity=townhall`, `building=yes`) und trifft damit das Rathaus, nicht einen Schrottplatz; die belegten Adressobjekte liegen bei `Wernesgrüner Straße 29` in 0,627 km und `Röthenbacher Straße 2` in 3,335 km Entfernung. Da Büro und Platz weiterhin nicht sicher demselben Betreiber zugeordnet sind und die Hausnummer 2 in OSM zur Nachbargemeinde gehört, wird kein Punkt gesetzt oder verändert. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.5308&lon=12.4133&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/185600522/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Preise getrennt geführt: **Ankauf** keine Kurse und keine Material- oder Mindestmengenliste belegt, die Ankreuzungen der amtlichen Liste benennen Abfallarten, keine Preise; **Verkauf** keine Kompost- oder Materialpreisliste; **Gebühren** keine Grünabfall- oder Containergebühren. Offen bleiben die Betreiberidentität, die Zuordnung von Büro und Platz und die Frage, ob der Annahmeplatz heute noch betrieben wird. Quelle(n): vorstehende Abrufe.]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **627 m** vom Adressobjekt **Wernesgrüner Straße 29, 08228 Rodewisch** (way/360487965, `addr:housenumber`=29) entfernt — er trifft **32, Wernesgrüner Straße, 08228 Rodewisch** (das **Rathaus** ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft das Rathaus statt der belegten Anschrift ✓ ✓ — das amtliche PDF nennt den **Annahmeplatz Röthenbacher Straße 2** ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

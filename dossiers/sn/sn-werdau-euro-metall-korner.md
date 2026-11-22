@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3 (27.09.2026)
@@ -73,3 +74,7 @@ Euro-Metall Körner, Sorge 48, 08412 Werdau, 0163 8771513 ist weiterhin nur port
 - [Recherche 22.11.2026: OSM kennt die Dossieradresse als Gebäude ohne Betriebszuordnung: `way/397527743` trägt `addr:city=Werdau`, `addr:housenumber=48`, `addr:postcode=08412`, `addr:street=Sorge`, `building=yes` bei `50.7308768/12.4091962`, aber weder `name` noch `operator`; die Hausnummer 48 ist damit belegt, ein Schrottbetrieb an dieser Stelle nicht. Im live abgetasteten Raster über Werdau findet sich kein Objekt mit dem Namen Koerner oder mit einem Schrott-, Metall- oder Recyclingbezug. Quelle(n): https://api.openstreetmap.org/api/0.6/way/397527743/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Geokoordinierung gemessen, Abweichung dokumentiert: Der gespeicherte Punkt `50.736/12.3753` löst per Rückauflösung auf `Marktgasse` (OSM way/32786060, `highway=residential`) und trifft damit eine Wohnstraße; das belegte Adressobjekt Sorge 48 (`way/397527743`) liegt **2,453 km** entfernt. Da Betreiber und Annahme nicht bestätigt sind, wird kein Punkt gesetzt oder verändert. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.736&lon=12.3753&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/32786060/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Preise getrennt geführt: **Ankauf** keine qualifizierte Zahlenliste für den Werdauer Betrieb, die Leistungswörter der Verzeichnisse (Alteisen, Buntmetallannahme, Schrottrecycling) sind Leads und kein Preisträger; **Verkauf** keine Liste; **Gebühren** keine Tarife. Offen bleiben der aktuelle Inhaber, ein belastbarer Kundenhof-Beleg und jede Preis- oder Annahmeaussage. Quelle(n): vorstehende Abrufe.]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,5 km** vom Adressobjekt **Sorge 48, 08412 Werdau** (way/397527743, `addr:housenumber`=48) entfernt — er trifft die **Marktgasse** ✓ ✓, 08412 Werdau ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -59,3 +60,7 @@ Der Eintrag „Altstoffhandel Zschornewitz (Maik Koch)“ bleibt eine ungeklärt
 - [Recherche 22.11.2026: Amtliche Register: Der Registerabzug vom 11.08.2026 (Spiegel der beiden amtlichen Register) führt für `Gräfenhainichen` keine Ortsseite, weder ein Eintrag als Entsorgungsfachbetrieb noch eine Altfahrzeug-Anerkennung; die vom Landkreis Wittenberg benannte öffentliche ALBA-Annahmestelle `Burgkemnitzer Str. 1a-c, 06772 Gräfenhainichen OT Zschornewitz` bleibt ein anderer Betreiber an anderer Anschrift und wird nicht mit Koch oder der Seed-Adresse gleichgesetzt. Quelle(n): https://schrottregister.pages.dev/sitemap.xml (Registerabzug 11.08.2026) ; https://www.landkreis-wittenberg.de/landkreis-wittenberg-entdecken/abfallwirtschaft/fragen-beantworten/entsorgungsunternehmen (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Geokoordinierung gemessen, Abweichung dokumentiert: Der gespeicherte Punkt `51.7289/12.4565` löst per Rückauflösung auf `Revierkommissariat Gräfenhainichen`, `Bahnhofstraße 2a` (OSM way/335069191, `amenity=police`, `building=yes`) und trifft damit ein Polizeigebäude in einer anderen Straße; das Straßenobjekt `Ernst-Moyat-Straße` (`way/316186745`) liegt **3,354 km** entfernt. Da die Anschrift nicht adressgenau belegt und die Betreiberidentität offen ist, wird kein Punkt gesetzt oder verändert. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=51.7289&lon=12.4565&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/335069191/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Preise getrennt geführt: **Ankauf** für den Betrieb Maik Koch keine Bedingungen und keine Kurse belegt; **Verkauf** keine Liste; **Gebühren** keine Koch-Tarife, die Kommunalkonditionen der ALBA-Annahmestelle sind nicht übertragbar. Offen bleiben die Gewerbeauskunft zur Person und zur aktuellen Anschrift sowie jede Annahme- und Preisaussage. Quelle(n): vorstehende Abrufe.]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **3,4 km** vom Adressobjekt die Straße **Ernst-Moyat-Straße, 06773 Gräfenhainichen** (way/316186745; die Hausnummer **30** ✓ ✓ ist nicht adressiert ✓ ✓) entfernt — er trifft das **Revierkommissariat** ✓ ✓ ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein **fremdes Objekt** ✓ ✓ und liegt **3,4 km** entfernt ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
@@ -56,3 +57,7 @@ Timo Becker Schrotthandel, Weidig 6, 96328 Küps-Au und 09264 995733 sind bisher
 - [Recherche 22.11.2026: Amtliche Register: Der Registerabzug vom 11.08.2026 (Spiegel der beiden amtlichen Register) führt für `Küps` weiterhin keine Ortsseite, es ist also weder ein Eintrag als Entsorgungsfachbetrieb noch eine Altfahrzeug-Anerkennung verzeichnet; die NorthData-Namenssuche `Timo Becker Küps` liefert 0 Treffer. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig und ein nicht eingetragenes Einzelunternehmen wird vom Register ohnehin nicht erfasst; der Negativbefund ist kein Nichtexistenzbeweis. Quelle(n): https://schrottregister.pages.dev/sitemap.xml (Registerabzug 11.08.2026) ; https://www.northdata.de/suggest.json?query=Timo%20Becker%20K%C3%BCps&countries=DE (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Geokoordinierung gemessen, Abweichung bestätigt: Der gespeicherte Punkt `50.1912/11.2668` löst per Rückauflösung auf `31, Bamberger Straße` (OSM way/786948812, `building=commercial`) und trifft damit ein Gewerbeobjekt in einer anderen Straße; das Adressobjekt Weidig 6 (`way/993721090`) liegt **2,217 km** entfernt, das entspricht der Messung vom 28.10.2026. Da die zutreffende Anschrift zwischen Weidig 6 und Geranienweg 13 offen ist, wird kein Punkt gesetzt oder verändert. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=50.1912&lon=11.2668&zoom=18&addressdetails=1 ; https://api.openstreetmap.org/api/0.6/way/786948812/full.json (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: Preise getrennt geführt: **Ankauf** keine Kurse, keine Material- oder Mindestmengenliste und keine Annahmebedingungen belegt; **Verkauf** keine Preisliste; **Gebühren** keine Container-, Abhol- oder Entsorgungstarife. Offen bleiben die Gewerbeauskunft zu Timo Becker sowie die Frage, welche der beiden Anschriften die Annahmestätte trägt. Quelle(n): vorstehende Verzeichnis-, OSM- und Registerabrufe.]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,2 km** vom Adressobjekt **Weidig 6, 96328 Küps** (way/993721090, `addr:housenumber`=6) entfernt — er trifft **31, Bamberger Straße, 96328 Küps** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
