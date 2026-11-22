@@ -13,6 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Weitere Verzeichnis-Funde (Nienburg/Diepholz/Verden, Osnabrück-Nord,
@@ -57,3 +58,7 @@ Von-Bar-Str. 36 und 05468 1739 sind weiterhin nur Verzeichnis-Altwerte. Neue qua
   (4) **Verzeichnisstand, live 22.11.2026:** Die Portalleads sind weiterhin abrufbar, der Cylex-Direktabruf liefert **HTTP 403** (Bot-Schutz, kein Sachbefund) und der Creditreform-Eintrag **„RALPH_USZKOREIT_CONTAINERDIENST"** (Branche Grosshandel mit Altmaterialien und Reststoffen) bleibt gesperrt - er bleibt ein **Suchlead ohne eingesehenen Volltext**, kein Beleg. Die im Portal genannten Annahmekategorien (Stahl/Eisen, Kupfer, Alu, Messing, Kabel) bleiben **Portaltext** und werden **nicht** als Ankaufkonditionen uebernommen.
   (5) **Preise strikt getrennt, Stand 22.11.2026:** **ANKAUF** - keine Kurse, keine Sortenliste, keine Verguetungszusage belegt; **VERKAUF** - keine Materialliste und kein Verkaufskatalog belegt; **GEBUEHREN** - keine Abhol-, Container- oder Annahmegebuehre belegt. **Offen:** die heutige Betreiberidentitaet und die tatsaechliche Betriebsanschrift; der Creditreform-Eintrag muesste lesbar sein, um den Namen zu bestaetigen.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Uszkoreit ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Uszkoreit%20Ralph ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Uszkoreit ; https://api.openstreetmap.org/api/0.6/way/461610315/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=52.4088&lon=7.9729&addressdetails=1 ; https://firmeneintrag.creditreform.de/49565/2310143767/RALPH_USZKOREIT_CONTAINERDIENST ; read-only `public.db` (22.11.2026) (Abruf 22.11.2026).]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **5,0 km** von **way/461610315**, Von-Bar-Straße 36,36a entfernt — er trifft **43, Schubertstraße, Bramsche, Landkreis Osnabrück, Niedersachsen, 49565, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Straße** ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

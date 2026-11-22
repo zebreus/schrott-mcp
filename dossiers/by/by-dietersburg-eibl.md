@@ -7,7 +7,7 @@ city: Dietersburg
 street: ''
 postcode: '84378'
 phone: ''
-clear_fields: 'phone'
+clear_fields: 'geo,phone'
 email: ''
 opening_hours: ''
 website: ''
@@ -83,3 +83,7 @@ Ein älterer Import-/Verzeichnis-Lead bezeichnet den möglichen Betrieb als „E
   (3) **GEO gemessen, nicht gesetzt:** die read-only Produktionszeile enthaelt **48.4925/12.925**; die Nominatim-Rueckwaertsaufloesung ergibt **„Mitterweg, Hinterkauf, Dietersburg, 84378"** und trifft damit das **Strassenobjekt way/93868980** (Langlohstra&szlig;e, Birn&ouml;d, Dietersburg, Mittelpunkt **48.4910402/12.9251789**) - **0,163 km** entfernt, also **strassennah, aber ohne Hausnummer**. In OSM existiert **kein** Adressobjekt zur **Langlohstra&szlig;e 9**; die Strasse selbst ist kartiert, die belegte Hausnummer nicht. Der Punkt wird deshalb **nicht** als Betriebsadresse behandelt; es wird **keine** Koordinate neu gesetzt (die Beleglage fuer die Hausnummer ist offen), und an den uebrigen Feldern wird nichts geaendert.
   (4) **Preise strikt getrennt, Stand 22.11.2026:** **ANKAUF** - unbestaetigt und ohne Kurs; die Kleinanzeige behauptet Ankauf, nennt aber **keine** numerischen Materialkurse (ein „VB"-Hinweis waere kein Schrottpreis) und wird **nicht** uebernommen; **VERKAUF** - keine verifizierte Liste; **GEBUEHREN** - keine Tarife belegt. **Offen:** der aktuelle Gewerbe- oder Inhaberbeleg und die Kundenanschrift - eine Telefonnummer ohne Strasse belegt keine Betriebsanschrift.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Eibl ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Eibl ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Dietersburg ; https://www.gelbeseiten.de/suche/eibl%20daniel/dietersburg ; https://api.openstreetmap.org/api/0.6/way/93868980/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=48.4925&lon=12.925&addressdetails=1 ; read-only `public.db` (22.11.2026) (Abruf 22.11.2026).]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **163 m** von der belegten Anschrift ✓ ✓ (Langlohstraße, Birnöd, Dietersburg, Landkreis Rottal-Inn, Bayern, 84378) entfernt — er trifft **Mitterweg, Hinterkauf, Dietersburg, Landkreis Rottal-Inn, Bayern, 84378, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft die **Straße** ✓✓ der belegten Anschrift ✓✓, aber nicht deren **Hausnummer** ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

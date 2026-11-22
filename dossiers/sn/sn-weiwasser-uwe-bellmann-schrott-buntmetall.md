@@ -13,6 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 3 (27.09.2026)
@@ -56,3 +57,7 @@ Ein journalistischer Treffer liefert nur einen teilweise sichtbaren historischen
   (4) **GEO gemessen, nicht gesetzt:** die read-only Produktionszeile enthaelt **51.504/14.6402**; die Nominatim-Rueckwaertsaufloesung ergibt **„63, Bautzener Stra&szlig;e, We&szlig;wasser/Oberlausitz - B&eacute;la Woda, 02943"** - das ist **kein** Adressobjekt zur belegten Anschrift, sondern **1,277 km** vom belegten Adressobjekt **way/343061258** entfernt. Der gespeicherte Punkt wird deshalb **nicht** als Betriebsort behandelt; es wird **keine** Koordinate neu gesetzt, und an `street`, `postcode`, `phone` und `status` wird nichts geaendert.
   (5) **Preise strikt getrennt, Stand 22.11.2026:** **ANKAUF** - keine aktuelle Annahmebestaetigung und keine Zahlenliste belegt; **VERKAUF** - keine Preisliste belegt; **GEBUEHREN** - keine belegten Tarife. Der Status `pruefung` bleibt unveraendert, eine Schliessung wird **nicht** behauptet. **Offen:** die Inhaberfrage (Uwe gegen Ramona Bellmann) und ob der Betrieb an der Teichstra&szlig;e 101 heute noch aufnimmt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Bellmann ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Bellmann ; https://schrottregister.pages.dev/ort-weisswasser ; https://www.gelbeseiten.de/gsbiz/3283f862-d614-467c-a173-9d5cdff532ee ; https://api.openstreetmap.org/api/0.6/way/343061258/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=51.504&lon=14.6402&addressdetails=1 ; read-only `public.db` (22.11.2026) (Abruf 22.11.2026).]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,3 km** von **way/343061258**, Teichstraße 101, 02943 Weißwasser/O.L. entfernt — er trifft **63, Bautzener Straße, Weißwasser/Oberlausitz - Běła Woda, Weißwasser/Oberlausitz, Görlitz, Sachsen, 02943, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Straße** ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

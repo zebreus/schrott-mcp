@@ -6,6 +6,8 @@ state: BY
 city: Attenkirchen
 street: Moosburger Str. 2
 postcode: '85395'
+lat: 48.5000397
+lon: 11.7616217
 phone: ''
 email: ''
 opening_hours: ''
@@ -66,3 +68,7 @@ Das amtliche Registerportal bestätigt die Koch Recycling GmbH (HRB 200089 AG M�
   (3) **GEO gemessen, nicht gesetzt:** die read-only Produktionszeile enthaelt **48.49235/11.7348**; die Nominatim-Rueckwaertsaufloesung ergibt **„FS 27, S&ouml;rzen, Berghaselbach, Wolfersdorf, Zolling (VGem), 85395"** - das ist eine **Landstrasse in einem anderen Ortsteil**, **2,153 km** vom belegten Adressobjekt **way/96217724** (`addr:housenumber`=**2**, `addr:street`=Moosburger Stra&szlig;e, `addr:postcode`=85395, `addr:city`=Attenkirchen, Ortsteil **Kronsdorf**) entfernt. Der gespeicherte Punkt wird deshalb **nicht** als Betriebsort behandelt; es wird **keine** Koordinate gesetzt (die Adressfrage Moosburger Str. 2 gegen die Anlagenadresse in Au i.d. Hallertau ist offen), und an `street`, `postcode`, `phone`, `website`, `opening_hours` und `status` wird nichts geaendert.
   (4) **Preise strikt getrennt, Stand 22.11.2026:** **ANKAUF** - ohne aktuellen Kurs und ohne bestaetigte Privatannahme; **VERKAUF** - keine Preisliste belegt; **GEBUEHREN** - kein Tarif belegt. **Offen:** der heutige Betriebsort der Gesellschaft (Registeranschrift Attenkirchen gegen die 2014 genehmigte Anlage in Au i.d. Hallertau), die oeffentliche Kundenannahme und die Zuordnung der Namensvariante „Adolf Koch".
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Koch%20Recycling ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Koch%20Recycling ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Koch ; https://www.online-handelsregister.de/handelsregisterauszug/by/Muenchen/HRB/200089/Koch-Recycling-GmbH ; https://api.openstreetmap.org/api/0.6/way/96217724/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=48.49235&lon=11.7348&addressdetails=1 ; read-only `public.db` (22.11.2026) (Abruf 22.11.2026).]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,2 km** von der belegten Betriebsanschrift entfernt — er trifft FS 27, Sörzen, Berghaselbach, Wolfersdorf, Zolling (VGem), Landkreis Freising, Bayern, 85395, Deutschland ✓ ✓. Er wird durch den adresskonformen Punkt **48.5000397/11.7616217** ✓ ✓ ersetzt ✓ ✓ Der Beleg für die Adresse: der **amtliche Handelsregisterauszug** ✓✓ (`HRB 200089` ✓✓, `Moosburger Straße 2` ✓✓, 85395 Attenkirchen ✓✓) und das **Adressobjekt** ✓✓ mit der **Hausnummer 2** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

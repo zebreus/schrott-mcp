@@ -13,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
@@ -48,3 +49,7 @@ Ankauf, Verkauf und Gebühren: keine bezifferten Betreiberlisten gefunden. Offen
   (4) **GEO gemessen, nicht gesetzt:** die read-only Produktionszeile enthaelt **51.0942/13.9918**; die Nominatim-Rueckwaertsaufloesung ergibt **„Friedrich-Wolf-Stra&szlig;e, Arnsdorf, Bautzen - Budy&scaron;n, 01477"** - das ist **kein** Adressobjekt zur belegten Anschrift, sondern **2,086 km** vom belegten Adressobjekt **way/188159075** entfernt. Der gespeicherte Punkt wird deshalb **nicht** als Betriebsort behandelt; es wird **keine** Koordinate neu gesetzt, und an `street`, `postcode`, `phone` und `status` wird nichts geaendert.
   (5) **Preise strikt getrennt, Stand 22.11.2026:** **ANKAUF** - kein Kurs und kein Materialkatalog bestaetigt; **VERKAUF** - keine Liste belegt; **GEBUEHREN** - keine Abholtarife belegt. **Offen:** der ausgeschriebene Inhabername, die Gewerbezuordnung zur Kirchstra&szlig;e 7 und die Abgrenzung „Schrotthandel" gegen „reiner Hausmeisterservice mit Abholung".
   Quelle(n): https://www.11880.com/branchenbuch/arnsdorf-bei-dresden/060440092B114054105/schrotthandel-hausmeisterservice-m-baum.html ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Baum ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Baum ; https://schrottregister.pages.dev/ort-arnsdorf ; https://api.openstreetmap.org/api/0.6/way/188159075/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=51.0942&lon=13.9918&addressdetails=1 ; read-only `public.db` (22.11.2026) (Abruf 22.11.2026).]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,1 km** von **way/188159075**, Kirchstraße 7, 01477 Arnsdorf entfernt — er trifft **Friedrich-Wolf-Straße, Arnsdorf, Bautzen - Budyšin, Sachsen, 01477, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Straße** ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

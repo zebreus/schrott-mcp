@@ -13,6 +13,7 @@ website: ''
 website_status: unbekannt
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Neu: kept (92, davon Ankauf ja: 9)'
@@ -61,3 +62,7 @@ Telefonbuch-Lead „Schrott Christian“, Wölsenbergstr. 15A, Kümmersbruck-The
   (3) **GEO gemessen, nicht gesetzt:** die read-only Produktionszeile enthaelt **49.4192/11.8883**; die Nominatim-Rueckwaertsaufloesung ergibt **„Rathaus K&uuml;mmersbruck, 37, Schulstra&szlig;e, K&uuml;mmersbruck, 92245"** - das ist **kein** Adressobjekt zur belegten Anschrift, sondern **3,699 km** vom belegten Adressobjekt **way/196719772** (`addr:housenumber`=**15a**, `addr:street`=W&ouml;lsenbergstra&szlig;e, `addr:postcode`=92245, `addr:city`=K&uuml;mmersbruck, `addr:suburb`=Theuern, `building`=detached) entfernt. Der gespeicherte Punkt wird deshalb **nicht** als Betriebsort behandelt; es wird **keine** Koordinate gesetzt (die Beleglage fuer eine Kundenannahme ist offen), und an `street`, `postcode`, `phone` und `status` wird nichts geaendert.
   (4) **Preise strikt getrennt, Stand 22.11.2026:** **ANKAUF** - keine Kurse und keine Verguetungszusage belegt; **VERKAUF** - keine Materialliste und kein Verkaufskatalog belegt; **GEBUEHREN** - keine Abhol-, Container- oder Annahmegebuehre belegt. **Offen:** die Gewerbeidentitaet an der belegten Anschrift und ob dort ueberhaupt Schrott angenommen wird - die Rubrik „Schrott" eines Verzeichnisses belegt keine Tätigkeit.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Schrott%20Christian ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Schrott%20Christian ; https://www.gelbeseiten.de/gsbiz/93ff8de8-da75-47c2-910f-fd80985830d2 ; https://www.schrottplatz.org/kuemmersbruck/schrott-christian.html ; https://api.openstreetmap.org/api/0.6/way/196719772/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&lat=49.4192&lon=11.8883&addressdetails=1 ; read-only `public.db` (22.11.2026) (Abruf 22.11.2026).]
+
+### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
+
+- [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **3,7 km** von **way/196719772**, Wölsenbergstraße 15a, 92245 Kümmersbruck entfernt — er trifft **Rathaus Kümmersbruck, 37, Schulstraße, Kümmersbruck, Landkreis Amberg-Sulzbach, Bayern, 92245, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein **fremdes Objekt** ✓✓ — das **Rathaus** ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
