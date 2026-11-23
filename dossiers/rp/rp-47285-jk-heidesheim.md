@@ -29,6 +29,7 @@ provenance_origin: table
 „JK Heidesheim“ bleibt eine **ungeklärte** ✓✓ Seed-Bezeichnung ✓✓ — der **Name** ✓✓ der Zeile ✓✓ ist **nicht** ✓✓ bewiesen ✓✓. Die **Anschrift** ✓✓ ist es **doch** ✓✓: der **amtliche Handelsregisterauszug** ✓✓ nennt unter **AG Mainz HRB 47285** ✓✓ die **JK Rohstoffhandel GmbH** ✓✓ mit **Am Pfingstborn 9** ✓✓, **55262** ✓✓ Heidesheim ✓✓, und das **Adressobjekt** ✓✓ `way/264357322` ✓✓ trägt dort die **Hausnummer 9** ✓✓ — der **Standortpunkt** ✓✓ steht auf diesem Objekt ✓✓ ✓✓ Keine aktuelle **Betreiber-** ✓✓ oder **Annahmestellenquelle** ✓✓ ist zugeordnet ✓✓.
 
 **Preise:** ANKAUF — keine verifizierten Annahmebedingungen oder Euro-Kurse. VERKAUF — keine Preisliste. GEBÜHREN — keine Angaben.
+
 ## Timeline
 
 ### Recherche 21.10.2026

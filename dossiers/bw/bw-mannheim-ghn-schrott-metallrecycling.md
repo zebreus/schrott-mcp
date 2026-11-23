@@ -31,6 +31,7 @@ provenance_origin: table
 **Offen** ✓✓ bleibt die **Geschäftsführung** ✓✓: das **Impressum** ✓✓ nennt **Fatma Nalu** ✓✓, das **Register** ✓✓ **Gökhan Nalu** ✓✓ ✓ ✓ Die **USt-IdNr** ✓✓ **DE316467758** ✓✓ ist **nicht** ✓✓ **unabhängig** ✓✓ bestätigt ✓✓ ✓ ✓
 
 Der **Standortpunkt** ✓✓ stand auf einem **Seed-Lead** ✓✓ (**Uhlandstraße 20** ✓✓, **1,7 km** ✓✓ daneben ✓✓) und steht jetzt **auf** ✓✓ dem **Adressobjekt** ✓✓ `node/13460873770` ✓✓ mit der **Hausnummer 12** ✓✓ ✓ ✓ Die **Schwesterzeile** ✓✓ `rp-ludwigshafen-ghn` ✓✓ ist der **zweite Verzeichniseintrag** ✓✓ desselben Namens ✓✓ ohne eigenen Beleg ✓✓ und bleibt als **Querverweis** ✓✓ bestehen ✓✓ ✓ ✓
+
 ## Timeline
 
 ### Recherche 01.10.2026

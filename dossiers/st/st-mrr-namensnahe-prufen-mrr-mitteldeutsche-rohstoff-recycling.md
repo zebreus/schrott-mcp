@@ -27,6 +27,7 @@ provenance_origin: table
 MRR Mitteldeutsche Rohstoff-Recycling GmbH ist registerbasiert unter Stendal HRB 201565 zugeordnet: früher Halle, später Bitterfeld-Wolfen; laut direkt gelesener NorthData-Löschungsbekanntmachung 22.05.2023 nach beendeter Liquidation erloschen. Der Scholz-Standortfinder führt heute Scholz Recycling GmbH an Am Saalehafen 5 in Halle. Dies bestätigt den Gegenkandidaten am Leadstandort, nicht eine unabhängig belegte MRR-Betriebsübernahme.
 
 Der **Kettenentscheid** ✓✓ ist gefallen ✓✓: der **benannte Rechtsträger** ✓✓ ist am **22.05.2023** ✓✓ **gelöscht** ✓✓ — der Status ist `geschlossen` ✓✓ ✓✓ Der **Ort** ✓✓ der Zeile ✓✓ ist die **spätere Sitzverlegung** ✓✓ nach **Bitterfeld-Wolfen** ✓✓ ✓ ✓ Die **Schwesterzeile** ✓✓ `st-halle-mrr-mitteldeutsche-rohstoff-recycling` ✓✓ trägt den **Leadstandort** ✓✓ in **Halle** ✓✓ und den **Klärfall** ✓✓ zum heutigen Betreiber dieser Stätte ✓✓ ✓ ✓ Keine Zielpreise.
+
 ## Timeline
 
 ### Recherche 22.10.2026

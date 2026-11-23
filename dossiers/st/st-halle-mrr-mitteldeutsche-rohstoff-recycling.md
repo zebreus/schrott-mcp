@@ -30,6 +30,7 @@ MRR Mitteldeutsche Rohstoff-Recycling GmbH ist als Rechtsträger unter AG Stenda
 Der **Kettenentscheid** ✓✓ ist gefallen ✓✓: der **Registerauszug** ✓✓ belegt die **Löschung** ✓✓ des benannten Rechtsträgers ✓✓ („Die Liquidation ist beendet. Die Gesellschaft ist erloschen.“ ✓✓, **22.05.2023** ✓✓) ✓✓ — die Zeile ist `geschlossen` ✓✓ ✓ ✓ Die **Schwesterzeile** ✓✓ `st-mrr-namensnahe-…` ✓✓ trägt **denselben** ✓✓ Rechtsträger ✓✓ und ist **ebenfalls** ✓✓ `geschlossen` ✓✓ ✓ ✓
 
 Keine aktuellen Preisangaben ableiten: ein Zahlen-Ankaufspreis, eine Verkaufspreisliste oder Gebührenordnung wurde nicht belegt.
+
 ## Timeline
 
 ### Recherche 19.10.2026: Welle 03:30 C

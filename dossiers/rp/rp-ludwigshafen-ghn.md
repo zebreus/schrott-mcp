@@ -30,6 +30,7 @@ Der belegte regionale Kandidat ist **GHN Schrott- und Metallrecycling GmbH, HRB 
 Keine Mannheimer Kontakte oder kostenlose Abholung als Ludwigshafener Standortdaten übernommen. Das Betreiber-Impressum nennt zudem eine vom aktuellen Register abweichende Geschäftsführung. Siehe getrenntes Dossier `bw-mannheim-ghn-schrott-metallrecycling`.
 
 Die Zeile selbst trägt **keinen** ✓✓ Standortpunkt ✓✓ — der **belegte** ✓✓ Standort des Betriebs ✓✓ steht in der **Leitzeile** ✓✓ `bw-mannheim-ghn-schrott-metallrecycling` ✓✓ ✓ ✓
+
 ## Timeline
 
 ### Recherche 23.10.2026: Orts- und Preisabgleich
