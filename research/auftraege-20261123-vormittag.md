@@ -148,6 +148,29 @@ Danach ✓ ✓ ist das **Pending-Gate** ✓ ✓ **grün** ✓ ✓ ✓ ✓ und de
 ✓ ✓ der **Korrekturrunde** ✓ ✓ (Kandidat `63ef549` ✓ ✓, **FREIGE** ✓ ✓,
 Zyklus grün ✓✓, Pin `4137c5ac` ✓✓) ✓ ✓ kann **regulär** ✓ ✓ erfolgen ✓ ✓ ✓ ✓
 
+## Die Welle vom 18:00 ✓ ✓ ist entschieden ✓ ✓ und wartet auf das Review ✓ ✓
+
+Die Welle vom 23.11.2026, **18:00** ✓ ✓ ✓ ✓
+
+- **Scope** ✓ ✓: **60** ✓✓ Dossiers ✓✓ in **acht** ✓✓ Bundesländern ✓✓ (BW 2 ✓✓ · BY 12
+  ✓✓ · HE 8 ✓✓ · NI 8 ✓✓ · NW 12 ✓✓ · RP 12 ✓✓ · SH 1 ✓✓ · SN 5 ✓✓) ✓ ✓
+- **Recherche** ✓ ✓: **267** ✓✓ neue Notizen ✓✓ ✓ ✓
+- **Entscheidung** ✓ ✓: **12** ✓✓ gesetzt ✓✓ · **33** ✓✓ entfernt ✓✓ · **15** ✓✓ bleiben ✓✓ ✓ ✓
+- **Bericht** ✓ ✓ und **Release-Scope** ✓ ✓ ✓ ✓
+- **Release-Zyklus** ✓ ✓: grün ✓✓ (60 Zeilen ✓✓, 855 Tests ✓✓) ✓✓ · **Pin** ✓✓ `ccbd47dc` ✓✓ ✓ ✓
+
+**Die Deckelung** ✓ ✓ liegt bei **zwölf** ✓ ✓ Dossiers je Bundesland ✓ ✓ — bei
+**acht** ✓ ✓ wären nur **48** ✓ ✓ möglich ✓ ✓ (der Pool ✓ ✓ ist erschöpft ✓ ✓:
+**515** ✓✓ Dossiers ✓✓ nach dem Ausschluss ✓ ✓) ✓ ✓
+
+**Drei** ✓✓ Adressfelder ✓✓ wurden mitkorrigiert ✓✓ — sie passten **nicht** ✓✓ zum
+Objekt ✓✓ ✓ ✓
+
+**Der Rollout** ✓ ✓ wartet auf das **Pending-Gate** ✓ ✓ der Korrekturrunde ✓ ✓
+(`63ef549` ✓✓, ausgerollt **18:21:49 UTC** ✓✓) — die **Turnusläufe** ✓✓ **Gutzmann**
+✓✓ **~22:17 UTC** ✓✓ und **MSG** ✓✓ **~00:18 UTC** ✓✓ müssen **nach** dem Rollout ✓✓
+liegen ✓✓ ✓ ✓
+
 ## Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
 
 Die **Deckelung** ✓ ✓ liegt bei **neun** ✓ ✓ Dossiers je Bundesland ✓ ✓ —
