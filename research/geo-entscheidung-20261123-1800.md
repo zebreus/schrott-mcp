@@ -45,10 +45,10 @@ passte ✓✓ — der **Ort** ✓✓, die **Straße** ✓✓ oder die **PLZ** �
 
 ### Entfernt ✓ ✓ — **37** ✓ ✓
 
-**Dreizehn** Punkte treffen ein **fremdes Objekt** ✓✓ — ein **Stift** ✓✓, ein **Rohrsystemhersteller** ✓✓, ein **Rohrsystemhersteller** ✓✓, eine **Tankstelle** ✓✓, ein **Namensvetter** ✓✓ in Weilheim in Baden ✓✓, eine **Messehalle** ✓✓, eine **Messehalle** ✓✓, ein **anderer** ✓✓ Betrieb ✓✓ (ACI Recycling ✓✓), das **Stadtzentrum** ✓✓, ein **Beratungszentrum** ✓✓, eine **Leseboutique** ✓✓, eine **Zimmerei** ✓✓, eine **Rehaklinik** ✓✓ ✓ ✓
+**Dreizehn** Punkte treffen ein **fremdes Objekt** ✓✓ — ein **Stift** ✓✓, ein **Rohrsystemhersteller** ✓✓, ein **Rohrsystemhersteller** ✓✓, eine **Tankstelle** ✓✓, eine **Messehalle** ✓✓, eine **Messehalle** ✓✓, ein **anderer** ✓✓ Betrieb ✓✓ (ACI Recycling ✓✓), das **Stadtzentrum** ✓✓, ein **Beratungszentrum** ✓✓, eine **Leseboutique** ✓✓, ein **Bürgeramt** ✓✓, eine **Zimmerei** ✓✓, eine **Rehaklinik** ✓✓ ✓ ✓
 
 **Vierundzwanzig** Punkte treffen eine **andere Adresse** ✓✓, ein **anderes Haus** ✓✓ oder
-einen **anderen Ort** ✓✓ — zwischen 151 m ✓✓ bis 114,0 km ✓✓ ✓✓ ✓ ✓
+einen **anderen Ort** ✓✓ — zwischen 151 m ✓✓ bis 217,0 km ✓✓ ✓✓ ✓ ✓
 
 **Kein** Ersatzpunkt ✓✓ entsteht ✓✓ — in **keinem** dieser Fälle ✓✓ liegt ein
 **belegter Standort** ✓✓ **und** ein **adressiertes Objekt mit der Hausnummer**
