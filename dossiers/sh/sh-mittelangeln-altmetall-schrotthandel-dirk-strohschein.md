@@ -6,6 +6,8 @@ state: SH
 city: Mittelangeln
 street: ''
 postcode: ''
+lat: 54.6605417
+lon: 9.5437798
 phone: ''
 email: ''
 opening_hours: ''
@@ -14,7 +16,7 @@ website_status: unbekannt
 status: pruefung
 description: ''
 dropoff_json: ''
-clear_fields: dropoff_json
+clear_fields: 'dropoff_json'
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 2 (27.09.2026)
 provenance_ankauf_raw: ja
@@ -62,3 +64,7 @@ Betreiber-Einzelquelle `dirk-strohschein.de` nennt Altmetallhandel/Abholservice,
 - [Recherche 23.11.2026: **GEO-Nachmessung: in der Produktion ist für dieses Dossier kein Punkt gespeichert, es gibt also nichts zu messen - die Adresse ist ein Neukodierungsbedarf.** Read-only `public.db` (23.11.2026): `sh-mittelangeln-altmetall-schrotthandel-dirk-strohschein` trägt **lat/lon leer** (kein gespeicherter Punkt). **Für den Bericht: neuer Geokodierungsbedarf**, und zwar **Setzung** durch **way/252882965 (54.6605417 / 9.5437798)** - die Hausnummer **27** ist objektgenau belegt, und die Betriebsadresse stammt aus dem Betreiberauftritt. Die Entscheidung über Setzung oder Entfernung trifft der Owner in einer eigenen datierten Korrektur-Sektion. Quellen: read-only `sqlite3 -readonly /var/lib/schrott-mcp/public.db` ; https://api.openstreetmap.org/api/0.6/way/252882965/full.json (Abruf 23.11.2026).]
 - [Recherche 23.11.2026: **Der Creditreform-Gegenbeleg bleibt unlesbar; die Namensvetter-Suche liefert keinen Treffer.** Der Direktabruf des Creditreform-Firmeneintrags 24986/2090344345 (Abruf 23.11.2026) bleibt **HTTP 403** - eine Zugriffssperre, **kein** Löschungs- oder Schließungsbefund und **kein** gelesener Zweitbeleg. Die Namensvetter-Suche (northdata.de/suggest.json, Abruf 23.11.2026) liefert für **„Strohschein“** **keinen** Registertreffer; das **amtliche Fachbetrieberegister** (Auszug mit Stand 11.08.2026) hat **keine** Ortsseite für Mittelangeln. **Reichweitenklausel:** die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig**, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis. **Offen bleibt:** ein qualifizierender zweiter Identitätsbeleg und die bestätigte Annahme am Hof; `status: pruefung` bleibt, `clear_fields: dropoff_json` bleibt unverändert (unbekannt statt unbelegter Zusage). Quellen: https://firmeneintrag.creditreform.de/24986/2090344345/DIRK_STROHSCHEIN_ALTMETALLHANDEL (Abrufgrenze 403) ; https://www.northdata.de/suggest.json?query=Strohschein&countries=DE (Abruf 23.11.2026).]
 - [Recherche 23.11.2026: **Preise getrennt geprüft: keine Zahl in irgendeiner Kategorie.** **ANKAUF:** **keine** Kurse, **keine** Sortenliste, **kein** Material mit Wert; die Angabe „Altmetallhandel“ belegt die Tätigkeit, **nicht** die Vergütung. **VERKAUF:** **keine** Preisliste, kein Sortiment. **GEBÜHREN:** **keine** Tarife für Abholung oder Container; die Werbung **„Nutzen Sie unseren Abholservice!“** belegt **weder** eine öffentliche Hofannahme **noch** eine Kostenfreiheit - beides wird **nicht** unterstellt. **Nicht übernommen:** die Preise der **anderen** SH-Altmetallbetriebe und alle Aggregatorangaben Dritter. Quellen: https://dirk-strohschein.de/ (Abruf 23.11.2026).]
+
+### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
+
+- [Korrektur 23.11.2026: **Dieses Dossier hatte **keinen** gespeicherten Standortpunkt ✓ ✓ — der Punkt wird **neu** an der belegten Betriebsanschrift **54.6605417/9.5437798** gesetzt ✓ ✓ Der Beleg für die Adresse: der **Betreiberauftritt** ✓✓ (die Hausnummer **27** ✓✓ ist objektgenau belegt ✓✓) **und** das **Adressobjekt** ✓✓ mit derselben Hausnummer ✓✓ **das Zielobjekt** ✓✓ (`way/252882965` ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
