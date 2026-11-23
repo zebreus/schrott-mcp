@@ -6,8 +6,6 @@ state: RP
 city: Trier 54293
 street: ''
 postcode: ''
-lat: 49.7773184
-lon: 6.6609294
 phone: ''
 email: ''
 opening_hours: ''
@@ -15,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -47,6 +46,6 @@ Ein aktueller Abruf des Gelbe-Seiten-Stadtverzeichnisses Trier führt den Namen 
 - [Recherche 23.11.2026: **ANKAUF / VERKAUF / GEBÜHREN: keine belegte Preisliste, und die Namensabkürzung „HMS" bleibt ungeklärt.** Die Gelbe-Seiten-Karte weist als Branche **„Schrott“** aus und **nicht** als „Schrotthandel“; Leistungsbeschreibung, Materialarten, Mindestmengen und Konditionen werden **nicht** genannt. **ANKAUF:** kein Kurs und keine Annahmebedingung belegt. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Abhol-, Container- oder Entsorgungstarife. Das Namenskürzel „**HMS**“ in „Knoerr Jon HMS Schrotthandel“ wird **nicht** als Rechtsform, Firmierung oder Abkürzung ausgelegt; die **Namensvetter** derselben Trefferliste (Welsch Schrotthandel, Kochann Uwe, Hutmacher Hans-Peter, Frankreiter, Dave's Schrotthandel, Schrotthandel S. Kaiser, Jäger, Schmidt Torsten, Dres Georg, Weinand Prison Peter, Scheller Mathias, Wenner David, Hochscheider, Kreber, KIEFER, Theo Steil, STEIL Entsorgung) werden **nicht** übernommen. Quelle(n): https://www.gelbeseiten.de/suche/schrott/trier ; https://www.gelbeseiten.de/gsbiz/fb99cc80-aad0-47d2-9558-b50d729995c4 (Abruf 23.11.2026).]
 - [Recherche 23.11.2026: **Was diese Welle ändert und was offen bleibt.** **Neu belegt** sind die Anschrift **Biewerer Str. 30A, 54293 Trier-Biewer** und die Rufnummer **01525 9 17 39 21** (beides Aggregatorstand), die Bestätigung der **Seed-PLZ 54293**, das adressgenau erfasste OSM-Objekt **way/149863368** (`addr:housenumber`=**30a**, `addr:street`=**Biewerer Straße**, `addr:postcode`=**54293**, `addr:city`=**Trier**, Mittelpunkt **49.7773184 / 6.6609294**) und die **3,60 km** große Abweichung des gespeicherten Punktes von diesem Objekt. **Unverändert** bleiben `name` („Knoerr Jon“), `city` („Trier 54293“), `street`/`postcode`/`phone` **leer**, `status` **pruefung** und `certifications` **leer**. **Offen bleibt** der vollständige Firmenname und die Bedeutung von „**HMS**“, die Betreiberidentität und die heutige Annahmetätigkeit; eine Gewerbeauskunft der Stadt Trier und ein zweiter unabhängiger Verzeichnis- oder Registerbeleg sind die nächsten sinnvollen Quellen. Quelle(n): Recherche-Vermerke vom 23.11.2026 in diesem Dossier ; https://www.gelbeseiten.de/gsbiz/fb99cc80-aad0-47d2-9558-b50d729995c4 (Abruf 23.11.2026).]
 
-### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
+### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
-- [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **3,2 km** von der belegten Betriebsanschrift entfernt — er wird durch den adresskonformen Punkt **49.7773184/6.6609294** ersetzt ✓ ✓ Der Beleg für die Adresse: das **Verzeichnisprofil** ✓✓ (Biewerer Str. 30A ✓✓, 54293 Trier-Biewer ✓✓, Tel. 01525 9 17 39 21 ✓✓) **und** das **Adressobjekt** ✓✓ mit dieser Hausnummer ✓✓ **das Zielobjekt** ✓✓ (`way/149863368` ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Anmerkung:** Die Adresse ist damit **erstmals** ✓✓ belegt ✓✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+- [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **weit entfernt** ✓ ✓ von der belegten Anschrift ✓ ✓ — er trifft **Bürgeramt Trier, 20, Viehmarktplatz, Altstadt, Mitte-Gartenfeld, Trier, Trierweiler, Rheinland-Pfalz, 54290, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein **fremdes Gebäude** ✓✓ — ein Bürgeramt ✓✓ ✓ ✓ Die **Anschrift** ✓✓ **Biewerer Str. 30A** ✓✓ ruht auf einem **Verzeichnisprofil** ✓✓ — ein **Verzeichnislead** ✓✓ ist **kein** belegter Standort des Betriebs ✓✓ ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]

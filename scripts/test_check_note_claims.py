@@ -142,5 +142,19 @@ class OSMAttributliste(unittest.TestCase):
         self.assertEqual(felder, {"name"})
 
 
+class AttributlisteMitDatum(unittest.TestCase):
+    def test_ein_datum_zerbricht_die_liste_nicht(self):
+        satz = ("**Version 2 (13.06.2017)** setzt `name`=„AWO - Begegnungsstätte "
+                "Neckarstraße“, **Version 3 (16.04.2020)** `name`=„AWO Beratungszentrum“ und "
+                "**Version 4 (13.09.2024)** `name`=„AWO Beratungszentrum“.")
+        felder = {f for f, _ in mod.behauptungen(satz)}
+        self.assertEqual(felder, set())
+
+    def test_ohne_datum_wird_die_liste_ebenfalls_ausgeblendet(self):
+        satz = "Das Objekt trägt `addr:housenumber`=34 und `addr:street`=Neckarstraße."
+        felder = {f for f, _ in mod.behauptungen(satz)}
+        self.assertEqual(felder, set())
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

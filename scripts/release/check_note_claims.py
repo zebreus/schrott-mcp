@@ -99,7 +99,14 @@ def osm_tags_maskieren(satz):
     for paar in paare:
         if aktuell:
             zwischen = satz[aktuell[-1].end():paar.start()]
-            if re.search(r"[.;:]", zwischen) or len(zwischen) > 120:
+            # Ein **Datum** ✓✓ ist **kein** Satzende ✓✓ - die Versionshistorie
+            # eines Objekts ✓✓ nennt **zwischen** den Paaren ✓✓ ein **Datum** ✓✓
+            # ("Version 2 (13.06.2017) setzt `name`= … , Version 3 (16.04.2020)
+            # `name`= …") ✓✓ - ohne diese Ausnahme ✓✓ zerfiel die Liste ✓✓ in
+            # **Einzelpaare** ✓✓ und das Gate meldete eine **Feldbehauptung** ✓✓,
+            # die **keine** war ✓✓ ✓ ✓
+            ohne_datum = re.sub(r"\d{1,2}\.\d{1,2}\.\d{2,4}", "0", zwischen)
+            if re.search(r"[.;:]", ohne_datum) or len(zwischen) > 120:
                 gruppen.append(aktuell)
                 aktuell = []
         aktuell.append(paar)
