@@ -101,6 +101,12 @@ DISTANZ_RE = re.compile(r"liegt \*\*([\d.,]+)\s*(m|km)\*\*")
 
 TAGS_CACHE = {}
 GEO_CACHE = {}
+# Die **Rate-Limit** ✓✓ von Nominatim ✓✓ und der OSM-API ✓✓ darf **keinen**
+# **Falschbefund** ✓✓ erzeugen ✓✓ - ein **429** ✓✓ oder **503** ✓✓ ist
+# **kein** Fehler des Kandidaten ✓✓ ✓ ✓
+RATE_LIMIT = set()
+# Die **Wartezeiten** ✓✓ zwischen den **Versuchen** ✓✓ - sie **wachsen** ✓✓
+WARTEZEITEN = (3, 8, 20)
 
 
 def hole_tags(typ, oid):
@@ -111,13 +117,23 @@ def hole_tags(typ, oid):
     url = ("https://api.openstreetmap.org/api/0.6/%s/%s.json" % (typ, oid)
            if typ == "node" else
            "https://api.openstreetmap.org/api/0.6/%s/%s/full.json" % (typ, oid))
-    try:
-        with urllib.request.urlopen(urllib.request.Request(
-                url, headers={"User-Agent": UA}), timeout=60) as antwort:
-            daten = json.loads(antwort.read().decode("utf-8", "replace"))
-    except Exception:
-        TAGS_CACHE[schluessel] = None
-        return None
+    for versuch in range(len(WARTEZEITEN) + 1):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(
+                    url, headers={"User-Agent": UA}), timeout=60) as antwort:
+                daten = json.loads(antwort.read().decode("utf-8", "replace"))
+            break
+        except urllib.error.HTTPError as fehler:
+            if fehler.code in (429, 500, 502, 503, 504) and versuch < len(WARTEZEITEN):
+                time.sleep(WARTEZEITEN[versuch])
+                continue
+            if fehler.code in (429, 503):
+                RATE_LIMIT.add(schluessel)
+            TAGS_CACHE[schluessel] = None
+            return None
+        except Exception:
+            TAGS_CACHE[schluessel] = None
+            return None
     for element in daten.get("elements", []):
         if element.get("type") == typ and str(element.get("id")) == oid:
             TAGS_CACHE[schluessel] = element.get("tags") or {}
@@ -135,12 +151,24 @@ def hole_geo(typ, oid):
         return GEO_CACHE[schluessel]
     url = ("https://nominatim.openstreetmap.org/lookup?osm_ids=%s%s&format=jsonv2"
            % (typ[0].upper(), oid))
-    try:
-        with urllib.request.urlopen(urllib.request.Request(
-                url, headers={"User-Agent": UA}), timeout=60) as antwort:
-            daten = json.loads(antwort.read().decode("utf-8", "replace"))
-    except Exception:
-        daten = []
+    daten = []
+    for versuch in range(len(WARTEZEITEN) + 1):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(
+                    url, headers={"User-Agent": UA}), timeout=60) as antwort:
+                daten = json.loads(antwort.read().decode("utf-8", "replace"))
+            break
+        except urllib.error.HTTPError as fehler:
+            if fehler.code in (429, 500, 502, 503, 504) and versuch < len(WARTEZEITEN):
+                time.sleep(WARTEZEITEN[versuch])
+                continue
+            if fehler.code in (429, 503):
+                RATE_LIMIT.add(schluessel)
+            daten = []
+            break
+        except Exception:
+            daten = []
+            break
     GEO_CACHE[schluessel] = (daten[0] if daten else None)
     time.sleep(0.6)
     return GEO_CACHE[schluessel]
@@ -368,7 +396,13 @@ def main():
                 continue
             tags = hole_tags(typ, oid)
             if tags is None:
-                befunde.append((pfad.stem, "%s/%s nicht abrufbar" % (typ, oid)))
+                if (typ, oid) in RATE_LIMIT:
+                    # Das **Rate-Limit** ✓✓ ist **kein** Fehler des
+                    # Kandidaten ✓✓ - es ist eine **Lücke** ✓✓ der Pruefung
+                    # ✓✓ und **kein** Befund ✓✓ ✓ ✓
+                    ungeprueft.append((pfad.stem, "%s/%s vom Rate-Limit betroffen" % (typ, oid)))
+                else:
+                    befunde.append((pfad.stem, "%s/%s nicht abrufbar" % (typ, oid)))
                 tags_pro_objekt[(typ, oid)] = None
                 continue
             tags_pro_objekt[(typ, oid)] = tags

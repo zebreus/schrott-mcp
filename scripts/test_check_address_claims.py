@@ -105,5 +105,36 @@ class Ortsvergleich(unittest.TestCase):
         self.assertEqual(cac.ort_ohne_plz("Heidesheim"), "Heidesheim")
 
 
+class RateLimit(unittest.TestCase):
+    def test_die_wartezeiten_wachsen(self):
+        self.assertEqual(cac.WARTEZEITEN, tuple(sorted(cac.WARTEZEITEN)))
+        self.assertGreater(len(cac.WARTEZEITEN), 1)
+
+    def test_ein_429_wird_als_rate_limit_vermerkt(self):
+        import urllib.error
+        schluessel = ("way", "1")
+        cac.TAGS_CACHE.pop(schluessel, None)
+        cac.RATE_LIMIT.discard(schluessel)
+        klasse = type("F", (Exception,), {})
+        fehler = urllib.error.HTTPError("u", 429, "Too Many Requests", None, None)
+        # der Abruf wird **simuliert** ✓✓ - der Test greift **nicht** ins
+        # Netz ✓✓ und prueft **nur** die **Vermerkung** ✓✓ ✓ ✓
+        original = urllib.request.urlopen
+
+        def kaputt(*args, **kwargs):
+            raise fehler
+
+        urllib.request.urlopen = kaputt
+        try:
+            cac.WARTEZEITEN = (0, 0, 0)
+            ergebnis = cac.hole_tags("way", "1")
+        finally:
+            urllib.request.urlopen = original
+            cac.WARTEZEITEN = (3, 8, 20)
+        self.assertIsNone(ergebnis)
+        self.assertIn(schluessel, cac.RATE_LIMIT)
+        cac.RATE_LIMIT.discard(schluessel)
+
+
 if __name__ == "__main__":
     unittest.main()
