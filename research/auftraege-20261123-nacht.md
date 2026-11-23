@@ -1,30 +1,39 @@
 # Aufträge und offene Punkte — 23.11.2026, Nacht
 
-## Die Welle vom 00:00 ist entschieden und wartet auf den Turnus ✓ ✓
+## Die Welle vom 00:00 ist ausgerollt ✓ ✓
 
-Die Welle vom 23.11.2026, **00:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
-`13d4b0cc` ✓ ✓), **entschieden** ✓ ✓ (Commit `4ca42afe` ✓ ✓) und **versioniert**
-✓ ✓ (Commit `4b71cdec` ✓ ✓, Bericht ✓ ✓ und Release-Scope ✓ ✓) ✓ ✓
+Der Rollout ✓ ✓ ist am **23.11.2026, 06:05:31 UTC** ✓ ✓ erfolgt ✓ ✓
+(Kandidat `8d496f8` ✓ ✓) ✓ ✓ — **60** Dossiers ✓ ✓, **vier** Punkte
+**gesetzt** ✓ ✓, **einunddreißig** **entfernt** ✓ ✓, **fünfundzwanzig**
+bleiben ✓ ✓ ✓ ✓
 
-**Fünf** Punkte werden **gesetzt** ✓ ✓, **siebenundzwanzig** **entfernt** ✓ ✓,
-**achtundzwanzig** bleiben ✓ ✓ — **alle 60** ✓ ✓ Dossiers sind **entschieden**
-✓ ✓ ✓ ✓ Die **Entscheidungsakte** ✓ ✓ steht in
-`research/geo-entscheidung-20261123-0000.md` ✓ ✓ ✓ ✓
+Die **Aufzeichnung** ✓ ✓: `research/rollout-20261123-8d496f8.md` ✓ ✓ ✓ ✓
 
-**Vierundsechzig** neue Notizen ✓ ✓ (Recherche **164** ✓ ✓, Korrekturen **60**
-✓ ✓) ✓ ✓ Die **fünf** Gates ✓ ✓ sind **grün** ✓ ✓ ✓ ✓
-
-**Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Vorgänger-Rollouts
-`208e641` ✓ ✓ (die **MKM**-Reparatur ✓ ✓) ist **rot** ✓ ✓, weil die
-**Handler-Turnusläufe** ✓ ✓ noch nicht **nach** dessen Rollout ✓ ✓ lagen ✓ ✓:
-Gutzmann zuletzt **21:55:01 UTC** ✓ ✓, MSG zuletzt **23:56:08 UTC** ✓ ✓ — beide
-**vor** dem Rollout ✓ ✓ ✓ ✓ Die **nächsten** Läufe ✓ ✓: Gutzmann **~03:55
-UTC** ✓ ✓, MSG **~05:56 UTC** ✓ ✓ ✓ ✓
+**Die Nachprüfung** ✓ ✓ wartet auf den **Turnus** ✓ ✓ — Gutzmann **~09:59
+UTC** ✓ ✓, MSG **~12:00 UTC** ✓ ✓ Die **Nachprüfung** ✓ ✓ ist für **12:05
+UTC** ✓ ✓ angelegt ✓ ✓ (Job `release-nachpruefung-8d496f8` ✓ ✓) ✓ ✓
 
 **Bis** ✓ ✓ das Gate **grün** ✓ ✓ ist, gilt: **keine** weiteren
 Produktionsänderungen ✓ ✓ ✓ ✓
 
-## Die Nachprüfung des MKM-Rollouts wartet auf den Turnus ✓ ✓
+### Die zwei Reviews ✓ ✓
+
+**Zwei** unabhängige Reviews ✓ ✓ haben die Kandidaten geprüft ✓ ✓ — das
+**erste** an `4b71cde` ✓ ✓ meldete **zwölf** Befunde ✓ ✓, das **zweite** an
+`8d496f8` ✓ ✓ **zwei** ✓ ✓ ✓ ✓
+
+**Vier** der Befunde ✓ ✓ änderten die **Klassifikation** ✓ ✓ — ein **gelöschtes**
+Unternehmen ✓ ✓ wurde **verortet** ✓ ✓, und **drei** Punkte ✓✓ trafen **andere
+Objekte** ✓✓ als die Dossier-Adresse ✓✓ Der Owner hat **jeden** Fall **selbst
+nachgemessen** ✓ ✓ ✓ ✓
+
+## Die Nachprüfung des MKM-Rollouts ist erledigt ✓ ✓
+
+**ERLEDIGT** ✓ ✓ — am **23.11.2026, 06:01 UTC** ✓ ✓ von Hand bestätigt ✓ ✓:
+das **Pending-Gate** ✓✓ und der **Wave-E-Verifier** ✓✓ sind **grün** ✓ ✓ ✓ ✓
+Nachweis: `research/checkin-20261123-0601-owner.md` ✓ ✓ ✓ ✓
+
+### Der Stand vor dem Turnus ✓ ✓
 
 Der Rollout der **MKM**-Reparatur ✓ ✓ ist am **22.11.2026, 23:57:21 UTC**
 ✓ ✓ erfolgt ✓ ✓ — Kandidat `208e641` ✓ ✓, **null** geänderte Dossiers ✓ ✓ ✓ ✓
