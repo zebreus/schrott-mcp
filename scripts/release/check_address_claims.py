@@ -46,6 +46,11 @@ ROOT = Path(__file__).resolve().parents[2]
 UA = "schrott-mcp-owner/1.0"
 
 OBJEKT_RE = re.compile(r"\b(node|way|relation)/(\d+)\b")
+# Die **Saetze** ✓✓ einer Notiz ✓✓ - getrennt an **Punkt** ✓✓, **Doppelpunkt**
+# ✓✓ und **Zeilenumbruch** ✓✓ ✓ ✓ Die ** Sternchen** ✓✓ duerfen **zwischen**
+# ✓✓ dem Satzzeichen ✓✓ und dem Leerzeichen ✓✓ stehen ✓✓ - "**Reichweite:**
+# ✓✓ Die …" ✓✓ ist ein **Satzende** ✓✓ ✓ ✓
+SATZTRENNER = re.compile(r"(?<=[.;:])(?:\*{1,2})?\s+|\n")
 # Die Hausnummer nennt die Notiz auf zwei Arten ✓ ✓ - als **Feld** ✓✓
 # ("Hausnummer 8") ✓✓ und im **Fliesstext** ✓✓ der Adresse ✓✓ ("5,
 # Gruenwaldstrasse") ✓✓ - beide Formen werden gelesen ✓✓ ✓ ✓
@@ -53,6 +58,28 @@ OBJEKT_RE = re.compile(r"\b(node|way|relation)/(\d+)\b")
 # **Format** ✓✓ und **kein** Teil der Aussage ✓✓ ✓ ✓
 HAUSNUMMER_RE = re.compile(r"Hausnummer\**\s*(\d+[a-z]?(?:/\d+)?)")
 # die Adresse im Fliesstext: "<Hausnummer>, <Strasse>" ✓✓
+ADRESS_HOUSNUMMER_RE = re.compile(
+    r"(\d+[a-z]?(?:/\d+)?),\s+([A-ZÄÖÜ][^\s,]{0,30}"
+    r"(?:stra(?:sse|sße|ße)|weg|platz|allee|damm|ring|ufer))")
+# die Hausnummer steht auch **nach** einem **Namen** ✓✓ - "An der Pumpe 7"
+# ✓✓ oder "Grünwaldstr. 8" ✓✓ - die **Sterne** ✓✓ sind **Format** ✓✓ und
+# **kein** Teil der Aussage ✓✓ ✓ ✓
+# Die Hausnummer **nach** einem **Namen** ✓✓ - "An der Pumpe 7" ✓✓ oder
+# "Marienstraße 26" ✓✓ ✓ ✓ Das Muster fasst **nur** ein **Nomen** ✓✓ mit
+# **Grossbuchstaben** ✓✓ an ✓✓ - ein **Zertifikatscode** ✓✓ wie
+# `ZALS00800033` ✓✓ steht in **Backticks** ✓✓ und wird **nicht** erfasst
+# ✓✓ und eine **Menge** ✓✓ wie "ab 23 kg" ✓✓ folgt keinem **Nomen** ✓✓ ✓ ✓
+HOUSNUMMER_STRAFFE_RE = re.compile(
+    r"(?<![`\w.])\**([A-ZÄÖÜ][a-zäöüß]{1,20}(?:\s+[a-zäöüß]{1,12}){0,2})"
+    r"\**\.?\s+(\d{1,4}[a-z]?(?:/\d{1,4}[a-z]?)?)(?!\d)(?!\.\d)\**")
+# Ein **Datum** ✓✓ ist keine Hausnummer ✓✓ - "23.11.2026" ✓✓ und "Korrektur
+# 23.11.2026" ✓✓ tragen **Punkte** ✓✓ und werden **nicht** erfasst ✓✓ ✓ ✓
+# Die **Bedingung** ✓✓ `(?![.\d])` ✓✓ verhindert **zwei** Dinge ✓✓: sie
+# schliesst die **Datumszahl** ✓✓ aus ✓✓ und sie verhindert, dass die
+# Ziffernfolge auf **eine** Ziffer **zurueck** springt ✓✓ ✓ ✓
+# derselbe Ausdruck fuer "7, Strasse" ✓✓ - der **Strassenname** ✓✓ muss
+# eine **Strassenart** ✓✓ tragen ✓✓, sonst waere **jede** PLZ ✓✓ mit
+# einem **Ort** ✓✓ eine Hausnummer ✓✓ ✓ ✓
 ADRESS_HOUSNUMMER_RE = re.compile(
     r"(\d+[a-z]?(?:/\d+)?),\s+([A-ZÄÖÜ][^\s,]{0,30}"
     r"(?:stra(?:sse|sße|ße)|weg|platz|allee|damm|ring|ufer))")
@@ -64,6 +91,12 @@ PLZ_RE = re.compile(
     r"(?:PLZ\s*\*\*|postcode\*\*\s*)?\b(\d{5})\b(?=[^\d]{0,24}\b\w*[Ss]tadt|"
     r"\b\w*[Oo]rt|,\s*\*\*|,\s*\w)")
 KOORDINATE_RE = re.compile(r"\*\*(\d{2}\.\d{4,7})/(\d{1,3}\.\d{4,7})\*\*")
+# eine **Firmenform** ✓✓ nach einer Zahl ✓✓ - die Zahl steht dann im
+# **Firmierungsnamen** ✓✓ und ist **keine** Hausnummer ✓✓ ✓ ✓
+FIRMENFORM_RE = re.compile(r"\s*(GmbH|mbH|AG|KG|UG|OHG|SE|Ltd|Inc|e\.?\s?K\.)\b")
+# ein **OSM-Schluessel** ✓✓ mit seinem **Wert** ✓✓ - "`name`=Autoverwertung …"
+# ✓✓ - der Wert ist **kein** Adressfeld ✓✓ ✓ ✓
+OSM_SCHLUESSEL_RE = re.compile(r"`[a-z][a-z0-9_:]*`\s*=")
 DISTANZ_RE = re.compile(r"liegt \*\*([\d.,]+)\s*(m|km)\*\*")
 
 TAGS_CACHE = {}
@@ -147,6 +180,45 @@ def korrektur_abschnitt(text):
     return korrekturen[-1][0] + korrekturen[-1][1]
 
 
+def saetze(abschnitt):
+    """Die Sektion in **Saetze** ✓✓ - eine Notiz kann **mehrere** Objekte
+    nennen ✓✓ (das Zielobjekt ✓✓ und ein Objekt im **Anmerkungsteil** ✓✓)
+    - die Hausnummer des einen ✓✓ gehoert **nicht** zum anderen ✓✓ ✓ ✓
+    """
+    teile = SATZTRENNER.split(abschnitt)
+    ergebnis = []
+    for teil in teile:
+        if ergebnis and ergebnis[-1].rstrip().endswith("Beleg für die Adresse:"):
+            # der **Doppelpunkt** ✓✓ nach dem Beleg ✓✓ trennt **nur** den
+            # Vorspann ✓✓ ab ✓✓ - der Satz mit dem Objekt ✓✓ gehoert
+            # **dazu** ✓✓ ✓ ✓
+            ergebnis[-1] += " " + teil
+        else:
+            ergebnis.append(teil)
+    return ergebnis
+
+
+def hausnummern(satz):
+    """Die **Hausnummern** ✓✓, die ein Satz nennt ✓✓."""
+    zahlen = set(HAUSNUMMER_RE.findall(satz))
+    zahlen |= {m[0] for m in ADRESS_HOUSNUMMER_RE.findall(satz)}
+    for m in HOUSNUMMER_STRAFFE_RE.finditer(satz):
+        # eine Zahl im **Firmierungsnamen** ✓✓ ist keine Hausnummer ✓✓ -
+        # "Autoverwertung Miltenberg **579** GmbH" ✓✓ nennt keine Adresse ✓✓
+        if FIRMENFORM_RE.match(satz[m.end(2):]):
+            continue
+        # der **Wert** eines **OSM-Schluessels** ✓✓ ist kein Adressfeld ✓✓ -
+        # "`name`=Autoverwertung Miltenberg **579**" ✓✓ nennt eine **Tafel**
+        # ✓✓ und keine **Hausnummer** ✓✓ ✓ ✓
+        schluessel = list(OSM_SCHLUESSEL_RE.finditer(satz[:m.start()]))
+        if schluessel:
+            zwischen = satz[schluessel[-1].end():m.start()]
+            if "=" not in zwischen:
+                continue
+        zahlen.add(m.group(2))
+    return zahlen
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("basis", nargs="?", default=None,
@@ -184,7 +256,32 @@ def main():
         if not abschnitt:
             continue
         geprueft += 1
-        gesetzt = "der Standortpunkt wird gesetzt" in abschnitt
+        # Der **Setzfall** ✓✓ erkennt **beide** Formen ✓✓ - der Owner
+        # schreibt "der Standortpunkt wird **gesetzt**" ✓✓ **und** "der
+        # Standortpunkt wird **ersetzt**" ✓✓ - eine blinde Stelle ✓✓ liess
+        # die Pruefung der Hausnummer und der Koordinate **nie** laufen ✓✓ ✓ ✓
+        gesetzt = ("der Standortpunkt wird gesetzt" in abschnitt
+                   or "der Standortpunkt wird ersetzt" in abschnitt)
+        # die **PLZ** ✓✓ und der **Ort** ✓✓ des Dossiers ✓✓ - sie muessen
+        # zum **Objekt** ✓✓ passen ✓✓ ✓ ✓
+        _fm = text.split("---")[1] if "---" in text else ""
+        _plz = re.search(r"^postcode:\s*'?([\d]*)'?", _fm, re.M)
+        _ort = re.search(r"^city:\s*'?([^'\n]*)'?", _fm, re.M)
+        plz_des_dossiers = (_plz.group(1) if _plz else "") or ""
+        ort_des_dossiers = (_ort.group(1).strip() if _ort else "") or ""
+        if not plz_des_dossiers:
+            # Das Feld ist **leer** ✓✓ - die **Postleitzahl** ✓✓ steht dann
+            # im **Text** ✓✓ des Dossiers ✓✓ (und in der Wellennotiz ✓✓) ✓✓
+            _m_plz = re.search(r"\b(\d{5})\b[^\d]{0,30}" + re.escape(ort_des_dossiers),
+                               text) if ort_des_dossiers else None
+            if not _m_plz and ort_des_dossiers:
+                # die PLZ kann **vor** dem Ort stehen ✓✓ ("Callenberg 09337") ✓✓
+                _m_plz = re.search(re.escape(ort_des_dossiers) + r"[^\d]{0,20}(\d{5})", text)
+            if not _m_plz:
+                # und sie kann im **Slug** stehen ✓✓ - dort steht sie **immer** ✓✓
+                _m_plz = re.search(r"\b(\d{5})\b", pfad.stem)
+            if _m_plz:
+                plz_des_dossiers = _m_plz.group(1)
         zeile = verbind.execute(
             "SELECT lat,lon FROM traders WHERE slug=?", (pfad.stem,)).fetchone()
         gespeichert = (zeile["lat"], zeile["lon"]) if zeile and zeile["lat"] is not None else None
@@ -205,6 +302,32 @@ def main():
             # Die Notiz **nennt** kein Objekt ✓ ✓ - das ist **kein** Befund
             # ✓ ✓, wenn es **keins** gibt ✓ ✓ (keine belegte Hausnummer ✓ ✓)
             continue
+        # Die **Hausnummern** ✓✓ werden **je Satz** ✓✓ gelesen ✓✓ - eine
+        # Notiz kann **mehrere** Objekte ✓✓ nennen ✓✓, und die Hausnummer
+        # des einen ✓✓ gehoert **nicht** zum anderen ✓✓ ✓ ✓
+        hausnummern_pro_objekt = {}
+        for satz in saetze(abschnitt):
+            zahlen = hausnummern(satz)
+            for typ, oid in OBJEKT_RE.findall(satz):
+                hausnummern_pro_objekt.setdefault((typ, oid), set()).update(zahlen)
+        # Das **Zielobjekt** ✓✓ - das Objekt, auf dem die **gesetzte**
+        # Koordinate ✓✓ liegt ✓✓ - traegt die Adresse des Dossiers ✓✓
+        # (1) die PLZ und der Ort **dieses** Objekts ✓✓ werden geprueft ✓✓
+        zielobjekt = None
+        if gesetzt:
+            for koordinate in KOORDINATE_RE.finditer(abschnitt):
+                for typ, oid in objekte:
+                    geo = hole_geo(typ, oid)
+                    if not geo:
+                        continue
+                    if hav(float(koordinate.group(1)), float(koordinate.group(2)),
+                           float(geo["lat"]), float(geo["lon"])) <= 60:
+                        zielobjekt = (typ, oid)
+                        break
+                if zielobjekt:
+                    break
+            if zielobjekt is None:
+                zielobjekt = objekte[0]
         tags_pro_objekt = {}
         for typ, oid in objekte:
             if (typ, oid) in tags_pro_objekt:
@@ -221,9 +344,7 @@ def main():
             # Hausnummer des Zielobjekts ✓✓ - dort waere die Forderung
             # **falsch** ✓✓ ✓ ✓
             if gesetzt:
-                genannte = set(HAUSNUMMER_RE.findall(abschnitt))
-                genannte |= set(ADRESS_HOUSNUMMER_RE.findall(abschnitt))
-                for hausnummer in genannte:
+                for hausnummer in sorted(hausnummern_pro_objekt.get((typ, oid), ())):
                     traeger = tags.get("addr:housenumber")
                     if traeger and traeger != hausnummer:
                         befunde.append((pfad.stem,
@@ -233,11 +354,30 @@ def main():
             # beim **Setzen** ✓✓: bei einer **Entfernung** ✓✓ nennt die
             # Notiz die PLZ des **getroffenen** ✓✓ Objekts ✓✓ und **nicht** die
             # des Zielobjekts ✓✓ - dort waere die Forderung **falsch** ✓✓ ✓ ✓
-            # Die **PLZ** ✓✓ wird **nicht** geprueft ✓✓ - in der Notiz steht
-            # die PLZ des **getroffenen** ✓✓ Objekts ✓✓, die nicht
-            # eindeutig dem **genannten** ✓✓ zuzuordnen ist ✓✓ - ein
-            # Vergleich waere **falsch** ✓✓ ✓ ✓ Die **Hausnummer** ✓✓ und die
-            # **Koordinate** ✓✓ tragen die Aussage ✓✓ ✓ ✓
+            # Beim **Setzen** ✓✓ muss die **PLZ** ✓✓ und der **Ort** ✓✓ des
+            # **Zielobjekts** ✓✓ zur **PLZ** ✓✓ und zum **Ort** ✓✓ des
+            # Dossiers ✓✓ passen ✓✓ - sonst traegt das Objekt eine **fremde**
+            # ✓✓ Adresse ✓✓ ✓ ✓ Bei einer **Entfernung** ✓✓ wird **nichts**
+            # geprueft ✓✓: die Notiz nennt dort die PLZ des **getroffenen**
+            # ✓✓ Objekts ✓✓ und **nicht** die des Zielobjekts ✓✓ ✓ ✓
+            # Ein **weiteres** Objekt ✓✓ im **Anmerkungsteil** ✓✓ traegt eine
+            # **andere** ✓✓ Adresse ✓✓ des Betriebs ✓✓ - es wird **nicht**
+            # gegen die PLZ des Dossiers ✓✓ geprueft ✓✓ ✓ ✓
+            if gesetzt and (typ, oid) == zielobjekt:
+                plz_des_objekts = tags.get("addr:postcode")
+                ort_des_objekts = tags.get("addr:city") or tags.get("addr:suburb")
+                if plz_des_objekts and plz_des_objekts != plz_des_dossiers:
+                    befunde.append((pfad.stem,
+                                    "%s/%s traegt die PLZ %r, das Dossier %r"
+                                    % (typ, oid, plz_des_objekts, plz_des_dossiers)))
+                if ort_des_objekts and ort_des_dossiers \
+                        and ort_des_objekts.lower() not in ort_des_dossiers.lower() \
+                        and ort_des_dossiers.lower() not in ort_des_objekts.lower():
+                    befunde.append((pfad.stem,
+                                    "%s/%s traegt den Ort %r, das Dossier %r"
+                                    % (typ, oid, ort_des_objekts, ort_des_dossiers)))
+            # Die **Hausnummer** ✓✓ und die **Koordinate** ✓✓ tragen die
+            # Aussage ✓✓ ✓ ✓
 
         # (4) die gesetzte Koordinate muss auf dem Objekt liegen
         # **Jede** genannte Koordinate ✓✓ muss auf einem Objekt liegen ✓✓ -

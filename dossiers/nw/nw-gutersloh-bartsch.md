@@ -6,8 +6,8 @@ state: NW
 city: Gütersloh
 street: ''
 postcode: ''
-lat: 51.4349787
-lon: 6.8785748
+lat: 51.9086947
+lon: 8.4033795
 phone: ''
 email: ''
 opening_hours: ''
@@ -20,7 +20,7 @@ pickup_json: ''
 provenance_section: (1) Behaltene Neueinträge
 provenance_ankauf_raw: unklar
 provenance_origin: table
-certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: Bartsch GmbH & Co. KG, HRA 3863 Amtsgericht Gütersloh (Zertifizierungsorganisation audis Zertifizierungsgesellschaft mbH, Rathausstraße 24, 68519 Viernheim; Nummer des Zertifikats audis 319-07-05-26; Vorgangsnummer ZZFT003002087011; 4 Anlagen; Prüfdatum 07.05.2026, Ausstellungsdatum 09.09.2026, gültig bis 09.10.2027; Anlage 1, Standort Marienstr. 26, 33332 Gütersloh, zertifizierte Tätigkeiten Sammeln, Befördern, Handeln und Makeln (Kennungen E754803283 und E754M00013); Anlage 2, Standort Elisabethstraße 48, 33332 Gütersloh, zertifizierte Tätigkeiten Lagern, Verwerten und Beseitigen (Kennung E754740205); Anlage 3, Standort Elisabethstraße 48, 33332 Gütersloh, zertifizierte Tätigkeiten Behandeln, Verwerten und Beseitigen (Kennung E754740205); Anlage 4, Standort Elisabethstraße 48, 33332 Gütersloh, zertifizierte Tätigkeiten Lagern, Verwerten und Beseitigen (Kennung E754740214); Angaben aus dem amtlichen Fachbetrieberegister )(Vorgangsnummer ZZFT00300208, Abruf 23.11.2026) und aus der amtlichen Zertifikatsurkunde mit Vorgangsnummer ZZFT003002087011; zertifizierte Tätigkeiten aus den Ankreuzfeldern der Anlagenbögen gelesen, nicht aus dem Fließtext"]'
+certifications: '["Entsorgungsfachbetrieb nach § 56 KrWG: Bartsch GmbH & Co. KG, HRA 3863 Amtsgericht Gütersloh (Zertifizierungsorganisation audis Zertifizierungsgesellschaft mbH, Rathausstraße 24, 68519 Viernheim; Nummer des Zertifikats audis 319-07-05-26; Vorgangsnummer ZZFT003002087011; 4 Anlagen; Prüfdatum 07.05.2026, Ausstellungsdatum 09.09.2026, gültig bis 09.10.2027; Anlage 1, Standort Marienstr. 26, 33332 Gütersloh, zertifizierte Tätigkeiten Sammeln, Befördern, Handeln und Makeln (Kennungen E754803283 und E754M00013); Anlage 2, Standort Elisabethstraße 48, 33332 Gütersloh, zertifizierte Tätigkeiten Lagern, Verwerten und Beseitigen (Kennung E754740205); Anlage 3, Standort Elisabethstraße 48, 33332 Gütersloh, zertifizierte Tätigkeiten Behandeln, Verwerten und Beseitigen (Kennung E754740205); Anlage 4, Standort Elisabethstraße 48, 33332 Gütersloh, zertifizierte Tätigkeiten Lagern, Verwerten und Beseitigen (Kennung E754740214); Angaben aus dem amtlichen Fachbetrieberegister (Vorgangsnummer ZZFT00300208, Abruf 23.11.2026) und aus der amtlichen Zertifikatsurkunde mit Vorgangsnummer ZZFT003002087011; zertifizierte Tätigkeiten aus den Ankreuzfeldern der Anlagenbögen gelesen, nicht aus dem Fließtext"]'
 ---
 
 # Bartsch
@@ -64,4 +64,4 @@ Der direkt geprüfte Betreiberauftritt gehört zu **Bartsch GmbH & Co. KG**, HRA
 
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
-- [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **118,2 km** von der belegten Betriebsanschrift entfernt — er wird durch den adresskonformen Punkt **51.4349787/6.8785748** ersetzt ✓ ✓ Der Beleg für die Adresse: das **amtliche Fachbetrieberegister** ✓✓ (`ZZFT003002087011` ✓✓, ausgestellt **09.09.2026** ✓✓, gültig bis **09.10.2027** ✓✓) **und** das **Adressobjekt** ✓✓ mit der **Hausnummer 23** ✓✓ **das Zielobjekt** ✓✓ (`way/25165887` ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Anmerkung:** Die **Betreiberseite** ✓✓ veröffentlicht **noch** das abgelaufene Zertifikat ✓✓ — die **Gültigkeit** ✓✓ stammt **allein** ✓✓ aus der **amtlichen Urkunde** ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+- [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **907 m** von der belegten Betriebsanschrift entfernt — er wird durch den adresskonformen Punkt **51.9086947/8.4033795** ersetzt ✓ ✓ Der Beleg für die Adresse: das **amtliche Fachbetrieberegister** ✓✓ (`ZZFT003002087011` ✓✓, ausgestellt **09.09.2026** ✓✓, gültig bis **09.10.2027** ✓✓) **und** das **Adressobjekt** ✓✓ mit der **Hausnummer 26** ✓✓ **das Zielobjekt** ✓✓ (`node/11081198999` ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
