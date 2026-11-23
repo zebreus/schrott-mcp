@@ -83,9 +83,16 @@ DOSSER_MARKER = re.compile(r"\b(Frontmatter|Eintrag|Dossier|Datensatz|Seed)\b", 
 
 def osm_tags_maskieren(satz):
     """Die Schluessel der **OSM-Attributliste** ✓ ✓ ausblenden ✓ ✓."""
-    if DOSSER_MARKER.search(satz) and re.search(AENDERUNG, satz, re.I):
-        return satz          # moegliche echte Behauptung - nichts ausblenden ✓ ✓
     paare = list(OSM_SCHLUESSEL.finditer(satz))
+    if DOSSER_MARKER.search(satz) and re.search(AENDERUNG, satz, re.I):
+        # Ein **Dossier-Marker** ✓✓ und ein **Aenderungsverb** ✓✓ schuetzen
+        # eine **moegliche echte Behauptung** ✓✓ - aber **nur** ✓✓, wenn der
+        # Satz **keine** **OSM-Attributliste** ✓✓ enthaelt ✓✓: eine Liste von
+        # Schluessel-Wert-Paaren ✓✓ ist eindeutig die Beschreibung eines
+        # **Objekts** ✓✓ und **nicht** eine Behauptung ueber das Dossier
+        # ✓✓ - sonst meldete das Gate eine Aenderung, die keine war ✓✓ ✓ ✓
+        if len(paare) < 2:
+            return satz
     if len(paare) < 2:
         return satz          # ein einzelnes Paar ist keine Liste ✓ ✓
     gruppen, aktuell = [], []
