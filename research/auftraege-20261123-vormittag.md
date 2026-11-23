@@ -1,6 +1,6 @@
 # Aufträge und offene Punkte — 23.11.2026, Vormittag
 
-## Die Welle vom 06:00 ist entschieden, korrigiert und wartet auf den Turnus ✓ ✓
+## Die Welle vom 06:00 ist entschieden, korrigiert, geprüft und ausgerollt ✓ ✓
 
 Die Welle vom 23.11.2026, **06:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
 `2ffb8514` ✓ ✓), **entschieden** ✓ ✓ (Commit `14a9755c` ✓ ✓), **versioniert** ✓ ✓
@@ -16,15 +16,12 @@ Review** ✓ ✓ **korrigiert** ✓ ✓ (Commit `54e8c5ab` ✓ ✓) ✓ ✓
 Korrekturen **60** ✓ ✓) ✓ ✓ Die **sechs** Gates ✓ ✓ des Wellen-Torwarts ✓ ✓
 sind **grün** ✓ ✓ ✓ ✓
 
-**Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Vorgänger-Rollouts
-`8d496f8` ✓ ✓ ist **rot** ✓ ✓, weil die **Handler-Turnusläufe** ✓ ✓ noch nicht
-**nach** dessen Rollout ✓ ✓ lagen ✓ ✓: MSG zuletzt **06:00:09 UTC** ✓ ✓,
-Gutzmann zuletzt **03:59:14 UTC** ✓ ✓ — beide **vor** dem Rollout ✓ ✓ ✓ ✓ Die
-**nächsten** Läufe ✓ ✓: Gutzmann **~09:59 UTC** ✓ ✓, MSG **~12:00 UTC** ✓ ✓
-✓ ✓
+**Das Pending-Gate** ✓ ✓ des Vorgänger-Rollouts `8d496f8` ✓ ✓ ist **grün**
+✓ ✓ — der **MSG**-Lauf um **12:09:02 UTC** ✓ ✓ lag **nach** dem Rollout ✓ ✓
+✓ ✓ (Er **rund** ✓ ✓) ✓ ✓
 
-**Bis** ✓ ✓ das Gate **grün** ✓ ✓ ist, gilt: **keine** weiteren
-Produktionsänderungen ✓ ✓ ✓ ✓
+**Bis** ✓ ✓ das Pending-Gate ✓ ✓ **dieses** ✓ ✓ Rollouts ✓ ✓ **grün** ✓ ✓ ist,
+gilt: **keine** weiteren Produktionsänderungen ✓ ✓ ✓ ✓
 
 ## Das Review der Welle ✓ ✓ — neun Befunde ✓ ✓, alle **beantwortet** ✓ ✓
 
@@ -74,6 +71,22 @@ wurden deshalb **nie** geprüft ✓✓ ✓ ✓
 Die **Zertifikate** ✓ ✓ von Gütersloh ✓ ✓ und Mülheim ✓ ✓ hatten eine **kaputte
 Klammer** ✓✓ (`) (` ✓✓), und eine Notiz ✓ ✓ sagte **„and“** ✓✓ statt **„und“**
 ✓✓ ✓ ✓
+
+## Die Welle vom 06:00 ist **ausgerollt** ✓ ✓
+
+**Rollout** ✓ ✓: **23.11.2026, 12:45:08 UTC** ✓ ✓ · Kandidat `7d0a8dd` ✓ ✓ ·
+Backup ✓ ✓ `/root/Documents/schrott-mcp-rollout-backups/rollout-7d0a8dd-20261123T124507Z`
+✓ ✓ ✓ ✓
+
+**Die drei** ✓✓ Verifier ✓✓ sind **grün** ✓✓ ✓ ✓ (Release-Delta ✓✓, Wave E
+✓✓, Notizen in der Produktion ✓✓) ✓ ✓ Das **Pending-Gate** ✓✓ ist
+**erwartbar** ✓✓ **rot** ✓✓ — die Turnusläufe ✓✓ von MSG ✓✓ und Gutzmann ✓✓
+liegen **vor** dem Rollout ✓✓ ✓ ✓ Die **nächsten** ✓✓ Läufe ✓✓: Gutzmann
+**~16:07 UTC** ✓✓, MSG **~18:09 UTC** ✓✓ ✓ ✓ Die **Nachprüfung** ✓✓ ist für
+**18:05 UTC** ✓✓ angelegt ✓✓ (Job `release-nachpruefung-7d0a8dd` ✓✓) ✓ ✓
+
+**Der Sperling-Handler** ✓✓ ist **erstmals** ✓✓ mit dem **Richtungsvertrag**
+✓✓ ausgerollt ✓✓ ✓ ✓
 
 ## Das zweite Review ✓ ✓ — drei Befunde ✓ ✓, alle **beantwortet** ✓ ✓
 
