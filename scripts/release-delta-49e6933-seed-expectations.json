@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "release_commit": "49e6933dd7bf0c014965c9fdba91f2b2668094ba",
+  "release_tree": "ef3db2752179ff6feb750da862bc24115722faea",
+  "rehearsal_manifest_sha256": "221a7329b6f2b37bd9b97cf039f606487e10f0c760d396033731cfa3fbb5ef99",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "rp-47285-jk-heidesheim",
+    "rp-ludwigshafen-ghn",
+    "st-mrr-namensnahe-prufen-mrr-mitteldeutsche-rohstoff-recycling"
+  ],
+  "scope": "exactly the 3 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-49e6933. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "rp-47285-jk-heidesheim",
+      "values": {
+        "name": "JK Heidesheim",
+        "city": "Heidesheim 55262",
+        "street": "Am Pfingstborn 9",
+        "postcode": "55262",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "d3547336999fc43a89959a870b2ff3b376d50bc0b6cc945c84ef0acefc1bc25d",
+      "seed_hash": "ddf70e8e5a917b6a",
+      "geo": [
+        49.9896663,
+        8.1156938
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-ludwigshafen-ghn",
+      "values": {
+        "name": "GHN",
+        "city": "Mannheim 68169",
+        "street": "Zielstraße 12",
+        "postcode": "68169",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "8e6475e86d49e9ce8a66ff03101328591fcf8158c8865823cfdef38806eedc7d",
+      "seed_hash": "95c1a58973c8c520",
+      "geo": [
+        49.5070694,
+        8.4980124
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-mrr-namensnahe-prufen-mrr-mitteldeutsche-rohstoff-recycling",
+      "values": {
+        "name": "MRR Mitteldeutsche Rohstoff-Recycling GmbH",
+        "city": "Bitterfeld-Wolfen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "geschlossen",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "31a9e49af963abcfdd2ae69dc771a039a181ec3ef824b79c976144b3878af15d",
+      "seed_hash": "128eab23c3597d83",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
