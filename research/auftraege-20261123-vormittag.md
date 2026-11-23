@@ -137,6 +137,17 @@ Das **dritte** ✓✓ Review ✓✓ läuft ✓ ✓ ✓ ✓
 ✓✓ **1,7 km** ✓✓ daneben ✓✓) ✓✓ — die **Dublette** ✓✓ bleibt ohne **eigenen**
 ✓✓ Punkt ✓✓ und beschreibt sich als **Querverweis** ✓✓ ✓ ✓
 
+## Das Pending-Gate wartet auf **MSG** ✓ ✓
+
+Der Rollout `7d0a8dd` ✓ ✓ ist am **23.11.2026, 12:45:08 UTC** ✓ ✓ erfolgt
+✓ ✓ · **Gutzmann** ✓ ✓ lief um **16:17:00 UTC** ✓ ✓ (`ok` ✓✓, **19** ✓✓) ✓ ✓
+— **nach** dem Rollout ✓ ✓ ✓ ✓ Es fehlt nur noch der **MSG**-Lauf ✓ ✓
+(fällig **~18:09 UTC** ✓✓) ✓ ✓
+
+Danach ✓ ✓ ist das **Pending-Gate** ✓ ✓ **grün** ✓ ✓ ✓ ✓ und der **Rollout**
+✓ ✓ der **Korrekturrunde** ✓ ✓ (Kandidat `63ef549` ✓ ✓, **FREIGE** ✓ ✓,
+Zyklus grün ✓✓, Pin `4137c5ac` ✓✓) ✓ ✓ kann **regulär** ✓ ✓ erfolgen ✓ ✓ ✓ ✓
+
 ## Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
 
 Die **Deckelung** ✓ ✓ liegt bei **neun** ✓ ✓ Dossiers je Bundesland ✓ ✓ —
