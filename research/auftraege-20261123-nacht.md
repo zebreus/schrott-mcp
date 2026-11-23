@@ -27,6 +27,49 @@ Unternehmen ✓ ✓ wurde **verortet** ✓ ✓, und **drei** Punkte ✓✓ trafe
 Objekte** ✓✓ als die Dossier-Adresse ✓✓ Der Owner hat **jeden** Fall **selbst
 nachgemessen** ✓ ✓ ✓ ✓
 
+## Das sechste Gate des Wellen-Torwarts ✓ ✓ — **neu** ✓ ✓
+
+Der **Wellen-Torwart** ✓✓ prüft die **Form** der Notizen ✓✓ — nicht aber,
+ob die **Behauptung** ✓✓ einer Korrektur-Sektion über die **Adresse**
+✓✓ stimmt ✓✓ ✓ ✓
+
+**Neu** ✓ ✓: `scripts/release/check_address_claims.py` ✓✓ — es liest je Dossier
+die **datierte Korrektur-Sektion** ✓✓ und prüft **live** ✓✓ ✓ ✓
+
+- Jedes **genannte Objekt** ✓✓ muss **existieren** ✓✓ ✓ ✓
+- Die **Hausnummer** ✓✓, die die Sektion dem Objekt zuschreibt ✓✓, muss die
+  **Hausnummer** ✓✓ des Objekts **tragen** ✓✓ ✓ ✓
+- Jede **Koordinate** ✓✓, die die Sektion als **gesetzt** meldet ✓✓, muss auf dem
+  Objekt **liegen** ✓✓ ✓ ✓
+- Jede **Distanz** ✓✓, die die Sektion nennt ✓✓, muss zur Distanz zwischen dem
+  **gespeicherten** Punkt ✓✓ und dem Objekt **passen** ✓✓ ✓ ✓
+
+Der Owner hat das Gate **drei** Fehler **eingebaut** ✓✓ und **geprüft** ✓✓ —
+eine falsche Hausnummer ✓✓, eine verschobene Koordinate ✓✓ und ein Objekt, das
+**nicht existiert** ✓✓ — es findet **alle drei** ✓✓ ✓ ✓
+
+Über die **vier** Wellen ✓✓ des letzten Tages ✓✓ meldet es auf **hundertneunzig**
+Korrektur-Sektionen ✓✓ **keinen** Befund ✓✓ ✓ ✓
+
+Es steht jetzt in der **Anleitung** ✓✓ und im **Bericht** ✓✓ der Welle ✓ ✓ — im
+Bericht aber **nur**, wenn es **sauber** ✓✓ ist ✓✓ ✓ ✓
+
+## Der Goldankauf-Handler ✓ ✓ — die Quelle hat umgeschrieben ✓ ✓
+
+Der Handler ✓✓ scheiterte seit **02:58 UTC** ✓✓ an `Ankauf direction hidden`
+✓✓ Der Owner hat die **Live-Seite** ✓✓ gelesen ✓✓: der Betreiber hat den
+Absatz ✓✓, der die **Richtung** ✓✓ der Tabelle nennt ✓✓, **umgeschrieben**
+✓✓ — „Wir zahlen … ohne Abzüge wie Schmelzkosten oder Prüfkosten aus“ ✓✓
+wurde zu „Der folgende Gold Ankaufspreis ist selbstverständlich Ihr
+**Auszahlungspreis**“ ✓✓ ✓ ✓ Beide sagen **dasselbe** ✓✓ ✓ ✓
+
+Der Vertrag verglich den Absatz mit einem **festen Wortlaut** ✓✓ — die
+Umschreibung blieb **unerkannt** ✓✓ Er prüft jetzt die **Richtung** ✓✓: der
+Absatz muss den **Ankaufspreis** ✓✓ nennen ✓✓ **und** ihn als
+**Auszahlung an den Kunden** ✓✓ nennen ✓✓ — und **nicht** die
+**Verkaufsrichtung** ✓✓ ✓ ✓ Ein **neuer** Test ✓✓ deckt die neue Fassung ab
+✓✓ und lehnt die **Gegenrichtung** ✓✓ weiterhin ab ✓✓ ✓ ✓
+
 ## Die Nachprüfung des MKM-Rollouts ist erledigt ✓ ✓
 
 **ERLEDIGT** ✓ ✓ — am **23.11.2026, 06:01 UTC** ✓ ✓ von Hand bestätigt ✓ ✓:
