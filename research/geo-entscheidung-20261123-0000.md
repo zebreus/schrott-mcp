@@ -74,11 +74,15 @@ anderer Bundesland ✓ ✓) ✓ ✓ ✓ ✓
 
 ### Bleibt ✓ ✓ — **25** ✓ ✓
 
-**Neunzehn** Punkte treffen die **Dossier-Adresse** ✓ ✓ — sie bleiben **Adressanker**
+**Zehn** Punkte treffen die **Dossier-Adresse** ✓ ✓ — sie bleiben **Adressanker**
 ✓ ✓, auch wenn das Objekt **keinen** Betriebsbezug trägt ✓ ✓ ✓ ✓
 
-**Sechs** bleiben **Platzhalter** ✓ ✓, weil ihr Dossier **keine** belegte
-Anschrift führt ✓ ✓ — darunter die **gelöschten** Gesellschaften ✓ ✓ ✓ ✓
+**Neun** bleiben **Platzhalter** ✓ ✓ — in der Produktion steht ein Punkt ✓ ✓,
+das Dossier **führt** ✓ ✓ **keinen** ✓ ✓; ihre **Beleglage** ✓ ✓ ist **offen**
+✓ ✓ ✓ ✓
+
+**Sechs** tragen **überhaupt** keinen Punkt ✓ ✓ — ihr Dossier **führt** ✓ ✓ keine
+belegte Anschrift ✓ ✓, darunter die **gelöschten** Gesellschaften ✓ ✓ ✓ ✓
 
 ## Die eigene Nachmessung ✓ ✓
 
