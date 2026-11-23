@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "release_commit": "63ef5497bbed0734e053f57d8b1e755c6820ba15",
+  "release_tree": "4a36054f7f096871675bb12a5421c7fea7b88391",
+  "rehearsal_manifest_sha256": "2e8b2a29fbe6feb2192b6c0e0a7c13246ed5dffda92d8bdbf070e2897315541b",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "bw-mannheim-ghn-schrott-metallrecycling",
+    "rp-47285-jk-heidesheim",
+    "rp-ludwigshafen-ghn",
+    "st-halle-mrr-mitteldeutsche-rohstoff-recycling",
+    "st-mrr-namensnahe-prufen-mrr-mitteldeutsche-rohstoff-recycling"
+  ],
+  "scope": "exactly the 5 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-63ef549. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "bw-mannheim-ghn-schrott-metallrecycling",
+      "values": {
+        "name": "GHN Schrott- & Metallrecycling GmbH",
+        "city": "Mannheim",
+        "street": "Zielstraße 12",
+        "postcode": "68169",
+        "phone": "01731551315",
+        "email": "info@ghn-schrott.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://ghn-schrott.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "3aea3af4bb14b99acb042385a3ff410c416043d94784e1372e0816a993cbdeb3",
+      "seed_hash": "219ab69ba65fd970",
+      "geo": [
+        49.5070694,
+        8.4980124
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-47285-jk-heidesheim",
+      "values": {
+        "name": "JK Heidesheim",
+        "city": "Heidesheim",
+        "street": "Am Pfingstborn 9",
+        "postcode": "55262",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "pruefung",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "d3547336999fc43a89959a870b2ff3b376d50bc0b6cc945c84ef0acefc1bc25d",
+      "seed_hash": "e3bec487ad73da63",
+      "geo": [
+        49.9896663,
+        8.1156938
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "rp-ludwigshafen-ghn",
+      "values": {
+        "name": "GHN",
+        "city": "Ludwigshafen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "Zweiter Verzeichniseintrag des Scrap-Handels GHN aus dem Cluster-Nachtrag vom 27.09.2026, nicht aus einem Betreiberprofil: Der Name „GHN“ führt zu **GHN Schrott- & Metallrecycling GmbH**, HRB 749678 AG Mannheim, mit der belegten Betriebsanschrift Zielstraße 12, 68169 Mannheim und der Betreiberseite ghn-schrott.de. Eine eigene Betriebsadresse in Ludwigshafen ist nicht belegt; der Seed-Lead „Industriestraße 2b, 67063 Ludwigshafen-Friesenheim“ trägt keinen Betriebsbezug. Diese Zeile bleibt deshalb als Querverweis auf die Leitzeile bw-mannheim-ghn-schrott-metallrecycling bestehen, ohne eigenen Standortpunkt; nichts wird gelöscht oder zusammengeführt. ANKAUF: keine GHN zuordenbaren Kurse. VERKAUF: keine Preisliste. GEBÜHREN: keine Tarife.",
+        "status": "pruefung",
+        "trader_type": "schrotthaendler",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "768c9bdaf711e850187f17fc533837a93aac644b642309d3fb67af84bb47bac8",
+      "seed_hash": "ca8d3dfbc3f9eb16",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-halle-mrr-mitteldeutsche-rohstoff-recycling",
+      "values": {
+        "name": "MRR Mitteldeutsche Rohstoff-Recycling GmbH",
+        "city": "Halle",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "geschlossen",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "e2d452b072295f6ec3997a29854b9b5fb37542905f4359457d6d07724d5260a6",
+      "seed_hash": "d2b485fb915eefc8",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-mrr-namensnahe-prufen-mrr-mitteldeutsche-rohstoff-recycling",
+      "values": {
+        "name": "MRR Mitteldeutsche Rohstoff-Recycling GmbH",
+        "city": "Bitterfeld-Wolfen",
+        "street": "",
+        "postcode": "",
+        "phone": "",
+        "email": "",
+        "opening_hours": "",
+        "description": "",
+        "status": "geschlossen",
+        "trader_type": "sonstige",
+        "website": "",
+        "website_status": "unbekannt"
+      },
+      "notes_sha256": "31a9e49af963abcfdd2ae69dc771a039a181ec3ef824b79c976144b3878af15d",
+      "seed_hash": "128eab23c3597d83",
+      "geo": [
+        null,
+        null
+      ],
+      "dropoff_json": "{}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
