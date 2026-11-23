@@ -75,6 +75,24 @@ Die **Zertifikate** ✓ ✓ von Gütersloh ✓ ✓ und Mülheim ✓ ✓ hatten e
 Klammer** ✓✓ (`) (` ✓✓), und eine Notiz ✓ ✓ sagte **„and“** ✓✓ statt **„und“**
 ✓✓ ✓ ✓
 
+## Das zweite Review ✓ ✓ — drei Befunde ✓ ✓, alle **beantwortet** ✓ ✓
+
+Das zweite unabhängige Review ✓ ✓ (Kandidat `54e8c5a` ✓ ✓) meldete
+**SPERREN** ✓ ✓ mit **drei** Befunden ✓ ✓ ✓ ✓
+
+1. **Die Klammerbalance** ✓ ✓: die Korrektur von `)(` ✓✓ auf `(` ✓✓ hatte
+   die **schließende** ✓✓ Klammer der Beschreibung der Zertifizierungsorganisation
+   ✓✓ mitgelöscht ✓✓ — das Gate ✓✓ meldete **beide** Felder ✓✓ ✓ ✓ Die
+   Klammer steht jetzt am **Ende** ✓✓ der Beschreibung ✓✓ — die Balance ist
+   grün ✓✓ und das Feld bleibt ein **valides** ✓✓ flaches Array ✓✓ ✓ ✓
+2. **Biebertal** ✓✓: die Notiz nannte **4,4 km** ✓✓ — **gemessen** ✓✓ sind
+   **1,3 km** ✓✓ (1.329 m ✓✓ nach der Wellennotiz ✓✓) ✓ ✓
+3. **Lichtenau** ✓✓: die Notiz nannte `way/1011223575` ✓✓ (Hausnummer **31** ✓✓),
+   sprach aber von der Hausnummer **53** ✓✓ — richtig ist `way/242998913` ✓✓ ✓ ✓
+
+**Kandidat** ✓ ✓: `9784449` ✓ ✓ · **Pin** ✓ ✓: `8dd41150` ✓ ✓ ✓ ✓ Das
+**dritte** ✓ ✓ unabhängige Review ✓ ✓ läuft ✓ ✓ ✓ ✓
+
 ## Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
 
 Die **Deckelung** ✓ ✓ liegt bei **neun** ✓ ✓ Dossiers je Bundesland ✓ ✓ —
