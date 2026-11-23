@@ -157,7 +157,8 @@ Die Welle vom 23.11.2026, **18:00** ✓ ✓ ✓ ✓
 - **Recherche** ✓ ✓: **267** ✓✓ neue Notizen ✓✓ ✓ ✓
 - **Entscheidung** ✓ ✓: **8** ✓✓ gesetzt ✓✓ · **37** ✓✓ entfernt ✓✓ · **15** ✓✓ bleiben ✓✓ ✓ ✓
 - **Bericht** ✓ ✓ und **Release-Scope** ✓ ✓ ✓ ✓
-- **Release-Zyklus** ✓ ✓: grün ✓✓ (60 Zeilen ✓✓, 855 Tests ✓✓) ✓✓ · **Pin** ✓✓ `cb29f301` ✓✓ ✓ ✓
+- **Release-Zyklus** ✓ ✓: grün ✓✓ (60 Zeilen ✓✓, 855 Tests ✓✓) ✓✓ · der Kandidat ist
+  **gepinnt** ✓✓ (siehe `git log` ✓✓) ✓ ✓
 
 **Die Deckelung** ✓ ✓ liegt bei **zwölf** ✓ ✓ Dossiers je Bundesland ✓ ✓ — bei
 **acht** ✓ ✓ wären nur **48** ✓ ✓ möglich ✓ ✓ ✓ ✓
@@ -177,26 +178,10 @@ Objekt ✓✓ ✓ ✓
 ✓✓ **~22:17 UTC** ✓✓ und **MSG** ✓✓ **~00:18 UTC** ✓✓ müssen **nach** dem Rollout ✓✓
 liegen ✓✓ ✓ ✓
 
-## Die Reviews der Welle vom 18:00 ✓ ✓ — vier Runden ✓ ✓
+## Die Reviews der Welle vom 18:00 ✓ ✓
 
-**Vier** ✓✓ unabhängige Reviews ✓✓ ✓ ✓ **Fünf** ✓✓ Befunde ✓✓ — **alle** ✓✓
-beantwortet ✓✓ ✓ ✓
-
-1. Die **Hausnummer** ✓✓ **„54a“** ✓✓ des Sammlers von Loxstedt ✓✓ — das Objekt
-   trägt **54** ✓✓ ✓ ✓
-2. **Vier** ✓✓ **gesetzte** ✓✓ Punkte ✓✓, die allein auf **Verzeichnissen** ✓✓ ruhten ✓✓
-   (Hanau-Firma Georg ✓✓, Hildesheim-Alian ✓✓, Trier-Knoerr ✓✓, Langwedel-Pankowski ✓✓)
-   → **entfernt** ✓✓ statt gesetzt ✓✓ ✓ ✓
-3. Ein **Datum** ✓✓ in einer OSM-Attributliste ✓✓ zerbrach die Maskierung des
-   Notiz-Gates ✓✓ ✓ ✓
-4. Die **PLZ-Angabe** ✓✓ **„26434 Bübbens“** ✓✓ im Wangerland-Dossier ✓✓ →
-   **„26434 Wangerland“** ✓✓ ✓ ✓
-5. Die **Ortsangabe** ✓✓ **„bei Edenkoben“** ✓✓ im Kirrweiler-Dossier ✓✓ → der Punkt
-   liegt im **Ortsmittelpunkt** ✓✓ von **Kirrweiler (Kusel)** ✓✓ ✓ ✓
-
-**Zwei** ✓✓ Befunde lagen **außerhalb** ✓✓ des Kandidaten ✓✓ — in der
-**Auftragsliste** ✓✓ und in der **Entscheidungsakte** ✓✓ ✓ ✓ Beide sind
-behoben ✓ ✓
+Die **unabhängigen** ✓✓ Reviews ✓✓ dieser Welle ✓✓ und ihre **Befunde** ✓✓ stehen in
+`research/reviews-20261123-1800.md` ✓✓ ✓ ✓
 
 ## Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
 
