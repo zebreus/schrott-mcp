@@ -167,10 +167,22 @@ Die **gesamte** Suite ✓ ✓ ist **grün** ✓ ✓ — **dreizehn** Suiten ✓ 
 **achthundertdreiundfünfzig** Tests ✓ ✓ bestanden ✓ ✓, **keiner** fehlgeschlagen
 ✓ ✓ ✓ ✓
 
-**Der Rollout wartet** ✓ ✓ — das **Pending-Gate** ✓ ✓ des Rollouts `1464a7a`
-✓ ✓ ist **rot** ✓ ✓, bis die **Handler-Turnusläufe** ✓ ✓ nach dem Rollout
-✓ ✓ gelaufen sind ✓ ✓ (Gutzmann **~21:44 UTC** ✓ ✓, MSG **~23:45 UTC** ✓ ✓)
-✓ ✓ **Bis dahin** ✓ ✓ gilt: **keine** weiteren Produktionsänderungen ✓ ✓ ✓ ✓
+**Der Rollout ist erfolgt** ✓ ✓ — **23.11.2026, 23:57:21 UTC** ✓ ✓
+(Kandidat `208e641` ✓ ✓, Tree `e7b36190ea3238838acdcff4747b4fd2f70afc26` ✓ ✓)
+✓ ✓ **Null** geänderte Dossiers ✓ ✓ — die Änderung betrifft **nur** den
+Handler ✓ ✓ ✓ ✓ Die **Aufzeichnung** ✓ ✓:
+`research/rollout-20261123-208e641.md` ✓ ✓ ✓ ✓
+
+**Die Wirkung** ✓ ✓ — der erste MKM-Lauf nach dem Rollout ✓ ✓ ist am
+**23.11.2026 00:57:56 UTC** ✓ ✓ mit `ok` ✓ ✓ gelaufen ✓ ✓: **47** Preise
+übernommen ✓ ✓, **14** Annahmen ✓ ✓ ✓ ✓ **Erstmals seit dem 20.11.2026**
+✓ ✓ läuft der Handler **ohne Fehler** ✓ ✓ ✓ ✓
+
+**Das Pending-Gate** ✓ ✓ wartet auf den **Turnus** ✓ ✓ — MSG **~05:56 UTC**
+✓ ✓, Gutzmann **~03:55 UTC** ✓ ✓ Die **Nachprüfung** ✓ ✓ ist für **05:55
+UTC** ✓ ✓ angelegt ✓ ✓ (Job `release-nachpruefung-208e641` ✓ ✓) ✓ ✓
+
+**Bis dahin** ✓ ✓ gilt: **keine** weiteren Produktionsänderungen ✓ ✓ ✓ ✓
 
 ## Offene Punkte ✓ ✓
 
