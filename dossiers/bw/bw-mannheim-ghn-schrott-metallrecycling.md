@@ -28,6 +28,8 @@ provenance_origin: table
 
 **GHN Schrott- & Metallrecycling GmbH** ✓✓ (HRB 749678 AG Mannheim ✓✓) ist der **belegte** ✓✓ Betrieb ✓✓ mit der **Betreiberseite** ✓✓ ghn-schrott.de ✓✓ und der Anschrift **Zielstraße 12** ✓✓, **68169** ✓✓ Mannheim ✓✓ — **Betreiberseite** ✓✓ und **Register** ✓✓ stimmen beim Rechtsträger und beim Ort überein ✓✓.
 
+**Offen** ✓✓ bleibt die **Geschäftsführung** ✓✓: das **Impressum** ✓✓ nennt **Fatma Nalu** ✓✓, das **Register** ✓✓ **Gökhan Nalu** ✓✓ ✓ ✓ Die **USt-IdNr** ✓✓ **DE316467758** ✓✓ ist **nicht** ✓✓ **unabhängig** ✓✓ bestätigt ✓✓ ✓ ✓
+
 Der **Standortpunkt** ✓✓ stand auf einem **Seed-Lead** ✓✓ (**Uhlandstraße 20** ✓✓, **1,7 km** ✓✓ daneben ✓✓) und steht jetzt **auf** ✓✓ dem **Adressobjekt** ✓✓ `node/13460873770` ✓✓ mit der **Hausnummer 12** ✓✓ ✓ ✓ Die **Schwesterzeile** ✓✓ `rp-ludwigshafen-ghn` ✓✓ ist der **zweite Verzeichniseintrag** ✓✓ desselben Namens ✓✓ ohne eigenen Beleg ✓✓ und bleibt als **Querverweis** ✓✓ bestehen ✓✓ ✓ ✓
 ## Timeline
 

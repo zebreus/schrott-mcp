@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: geschlossen
 description: ''
 clear_fields: 'geo'
 dropoff_json: ''
@@ -27,8 +27,9 @@ provenance_origin: table
 
 MRR Mitteldeutsche Rohstoff-Recycling GmbH ist als Rechtsträger unter AG Stendal HRB 201565 nachweisbar, aber seit 2020 in Liquidation und seit 22.05.2023 gelöscht. NorthData dokumentiert den früheren Sitz Halle und die spätere Sitzverlegung nach Bitterfeld-Wolfen sowie Scholz Recycling als Gesellschafter. Das belegt keine heutige Annahmestelle in Halle. Die importierte Adresse Am Saalehafen 5 bleibt ein ungeprüfter Standort-Lead; ein aktueller Betreiber oder Nachfolger ist nicht bestätigt.
 
-Keine aktuellen Preisangaben ableiten: ein Zahlen-Ankaufspreis, eine Verkaufspreisliste oder Gebührenordnung wurde nicht belegt.
+Der **Kettenentscheid** ✓✓ ist gefallen ✓✓: der **Registerauszug** ✓✓ belegt die **Löschung** ✓✓ des benannten Rechtsträgers ✓✓ („Die Liquidation ist beendet. Die Gesellschaft ist erloschen.“ ✓✓, **22.05.2023** ✓✓) ✓✓ — die Zeile ist `geschlossen` ✓✓ ✓ ✓ Die **Schwesterzeile** ✓✓ `st-mrr-namensnahe-…` ✓✓ trägt **denselben** ✓✓ Rechtsträger ✓✓ und ist **ebenfalls** ✓✓ `geschlossen` ✓✓ ✓ ✓
 
+Keine aktuellen Preisangaben ableiten: ein Zahlen-Ankaufspreis, eine Verkaufspreisliste oder Gebührenordnung wurde nicht belegt.
 ## Timeline
 
 ### Recherche 19.10.2026: Welle 03:30 C
@@ -59,3 +60,7 @@ Keine aktuellen Preisangaben ableiten: ein Zahlen-Ankaufspreis, eine Verkaufspre
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **46,9 km** vom Adressobjekt **Am Saalehafen 5, 06118 Halle (Saale)** (node/891532491, `addr:housenumber`=5) entfernt — er trifft die **L 230** ✓ ✓ bei Mansfeld ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **46,9 km** entfernt ✓ ✓; die Rechtseinheit ist **gelöscht** ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 23.11.2026 (Owner, Status)
+
+- [Korrektur 23.11.2026: **Der `status` ist **eingetragen** als `geschlossen` ✓✓ — der **amtliche Registerauszug** ✓✓ belegt die **Löschung** ✓✓ des benannten **Rechtsträgers** ✓✓ (`MRR Mitteldeutsche Rohstoff-Recycling GmbH` ✓✓, AG Stendal HRB 201565 ✓✓) ✓✓: seit 2020 in Liquidation ✓✓, am **22.05.2023** ✓✓ „Die Liquidation ist beendet. Die Gesellschaft ist erloschen.“ ✓✓ ✓ ✓ Der **Schrottcharakter** ✓✓ der Seed-Zeile ist **damit** ✓✓ belegt ✓✓ — ein heutiger **Betrieb** ✓✓ in Halle ✓✓ ist **nicht** ✓✓ belegt ✓✓ ✓ ✓ Die **Schwesterzeile** ✓✓ `st-mrr-namensnahe-prufen-mrr-mitteldeutsche-rohstoff-recycling` ✓✓ trägt **denselben** ✓✓ gelöschten Rechtsträger ✓✓ und wird **gleich** ✓✓ geschlossen ✓✓ ✓ ✓ **Reichweite:** die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓✓ ✓ ✓ **Belege** ✓✓: **erstens** ✓✓ der **amtliche Registerauszug** ✓✓ (AG Stendal HRB 201565 ✓✓), **zweitens** ✓✓ die **Recherche vom 22.11.2026** ✓✓ mit dem **Registerabzug** ✓✓ und der **Firmenhistorie** ✓✓ von **NorthData** ✓✓ ✓ ✓]
