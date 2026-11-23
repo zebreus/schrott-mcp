@@ -106,6 +106,37 @@ Das zweite unabhängige Review ✓ ✓ (Kandidat `54e8c5a` ✓ ✓) meldete
 **Kandidat** ✓ ✓: `9784449` ✓ ✓ · **Pin** ✓ ✓: `8dd41150` ✓ ✓ ✓ ✓ Das
 **dritte** ✓ ✓ unabhängige Review ✓ ✓ läuft ✓ ✓ ✓ ✓
 
+## Der Check-in vom 13:00 ✓ ✓ — drei **Datenfehler** ✓ ✓ behoben ✓ ✓
+
+Der Check-in hat **drei** ✓✓ Zeilen ✓✓ gefunden ✓✓, deren **Adressfelder** ✓✓
+**keine** ✓✓ Anschrift ✓✓ trugen ✓✓ ✓ ✓
+
+- `rp-47285-jk-heidesheim` ✓✓: `city` trug `47285)` ✓✓ — die
+  **Handelsregisternummer** ✓✓ mit **Klammerrest** ✓✓ ✓ ✓ Jetzt **Heidesheim** ✓✓,
+  **Am Pfingstborn 9** ✓✓, **55262** ✓✓ ✓ ✓
+- `rp-ludwigshafen-ghn` ✓✓: die **Dublette** ✓✓ des Namens **GHN** ✓✓ ✓ ✓
+- `st-mrr-namensnahe-…` ✓✓: `city` trug eine **Arbeitsnotiz** ✓✓ der Erhebung
+  ✓✓ → **Bitterfeld-Wolfen** ✓✓, `status` → **geschlossen** ✓✓ ✓ ✓
+
+**Das Review** ✓✓ (Kandidat `49e6933` ✓✓) meldete **SPERREN** ✓✓ mit **fünf**
+✓✓ Befunden ✓✓ ✓ ✓ Zwei davon waren **blockierend** ✓✓ ✓ ✓
+
+1. Die **Konvention** ✓✓: `city` trägt den **Ortsnamen** ✓✓, die **PLZ** ✓✓
+   steht im Feld `postcode` ✓✓ ✓ ✓
+2. Die **PLZ** ✓✓ doppelt im **FTS-Tokenstrom** ✓✓ — mit 1 erledigt ✓ ✓
+3. Die **Überblicke** ✓✓ beschrieben den **alten** ✓✓ Stand ✓ ✓
+4. Der **Ortsvergleich** ✓✓ im Adress-Gate ✓✓ ohne **Wortgrenzen** ✓✓ ✓ ✓
+5. Die **Dublette** ✓✓ GHN ✓✓ ✓ ✓
+
+**Alle fünf** ✓✓ sind beantwortet ✓✓ (Kandidat `f1fb73a` ✓✓, Pin `9282a98d` ✓✓) ✓✓
+Das **dritte** ✓✓ Review ✓✓ läuft ✓ ✓ ✓ ✓
+
+**Die Dublette** ✓✓ GHN ✓✓ ist **nach dem Traut-Muster** ✓✓ aufgelöst ✓✓: die
+**Leitzeile** ✓✓ `bw-mannheim-ghn-schrott-metallrecycling` ✓✓ trägt den **Betrieb**
+✓✓ und jetzt den **richtigen** ✓✓ Standortpunkt ✓✓ (vorher ein **Seed-Lead**
+✓✓ **1,7 km** ✓✓ daneben ✓✓) ✓✓ — die **Dublette** ✓✓ bleibt ohne **eigenen**
+✓✓ Punkt ✓✓ und beschreibt sich als **Querverweis** ✓✓ ✓ ✓
+
 ## Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
 
 Die **Deckelung** ✓ ✓ liegt bei **neun** ✓ ✓ Dossiers je Bundesland ✓ ✓ —
