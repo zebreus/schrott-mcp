@@ -178,6 +178,13 @@ NOTE_RE = re.compile(r"^\+- \[" + re.escape(ABSCHNITT) +
                       # eine eigene datierte Sektion und **mit**zuzaehlen ✓ ✓
                       r"(?: \([^)]*\))?:", re.M)
 bullets = len(NOTE_RE.findall(fm))
+# Die **Korrektur-Sektionen** ✓ ✓ des Owners ✓ ✓ zählt ein eigenes Muster ✓ ✓
+# - die Zahl darf **nicht** aus der Differenz der Gesamtzahl **abgeleitet**
+# ✓ ✓ werden ✓ ✓, sonst schließt eine Notiz mit einem anderen Präfix die
+# Differenz zu klein ✓ ✓ ✓ ✓
+KORREKTUR_RE = re.compile(r"^\+- \[Korrektur " + re.escape(DATUM) +
+                          r"(?: \([^)]*\))?:", re.M)
+korrektur_bullets = len(KORREKTUR_RE.findall(fm))
 
 
 def kuerzen(text, limit=190):
@@ -281,9 +288,11 @@ for _f in files:
     _neue_bullets_gesamt += len(_neu_b)
 o.append(f"- **{len(neue_sektionen)}** Dossiers mit einer neuen datierten Sektion ✓ ✓ · "
          f"**{bullets}** neue Notiz-Bullets ✓ ✓ · "
+         f"**{korrektur_bullets}** neue Bullets in den datierten "
+         f"**Korrektur-Sektionen** ✓ ✓ des Owners ✓ ✓ · "
          f"**{_neue_bullets_gesamt}** neue Bullets insgesamt ✓ ✓ "
-         f"(davon **{_neue_bullets_gesamt - bullets}** ✓ ✓ in den datierten "
-         f"**Korrektur-Sektionen** ✓ ✓ des Owners ✓ ✓)")
+         f"(**{bullets + korrektur_bullets}** ✓ ✓ davon in den beiden "
+         f"**Sektionsarten** ✓ ✓)")
 o.append("- **Frontmatter-Änderungen** ✓ ✓: "
          + " · ".join(f"`{k}` **{v}**" for k, v in felder.most_common()) + " ✓ ✓")
 # Die Werte werden **gemessen** ✓ ✓, nicht getippt ✓ ✓

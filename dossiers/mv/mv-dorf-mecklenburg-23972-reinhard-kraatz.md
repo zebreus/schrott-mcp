@@ -6,8 +6,6 @@ state: MV
 city: Dorf Mecklenburg 23972
 street: ''
 postcode: ''
-lat: 53.8440796
-lon: 11.4672450
 phone: ''
 email: ''
 opening_hours: ''
@@ -15,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -60,6 +59,6 @@ Der Portalkontakt 03841 790144 bleibt nur Lead; keine Adress-/Telefon-Fills, sta
 - [Recherche 23.11.2026: **Amtliches Fachbetrieberegister: für Dorf Mecklenburg ist kein Betrieb verzeichnet.** Die Ortsabfrage des Registerspiegels für den Ort Dorf Mecklenburg (Abruf 23.11.2026) liefert **keinen** Eintrag für die PLZ 23972; das umliegende Gebiet weist nur Nachbarorte aus. **Reichweitenklausel:** die EfbV-Anerkennung nach § 56 KrWG ist **freiwillig**; ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis und **kein** Beleg für eine Betriebsaufgabe. Quellen: https://schrottregister.pages.dev/ort-dorf-mecklenburg (Abruf 23.11.2026).]
 - [Preise/Ankauf/Verkauf/Gebühren 23.11.2026: **ANKAUF** - nicht belegt; für den gelöschten Rechtsträger und für einen etwaigen Nachfolger am Wehberg wurde keine bezifferte Ankaufpreisliste gefunden. **VERKAUF** - nicht belegt. **GEBÜHREN** - nicht belegt; keine Container-, Abhol- oder Entsorgungstarife. **Offen bleibt:** ob nach der Registerlöschung eine Nachfolge an „Am Wehberg 5a" besteht oder die Fläche anderweitig genutzt wird - dafür ist eine kommunale Gewerbeauskunft der Gemeinde Dorf Mecklenburg oder ein aktueller Betreiberbeleg nötig. Quellen: https://www.online-handelsregister.de/handelsregisterauszug/mv/Schwerin/HRA/2860/Reinhard-Kraatz-eK (Abruf 23.11.2026).]
 
-### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt wird gesetzt
+### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
-- [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **659 m** von der belegten Betriebsanschrift entfernt — er wird durch den adresskonformen Punkt **53.8440796/11.4672450** ersetzt ✓ ✓ Der Beleg für die Adresse: der **amtliche Handelsregisterauszug** ✓✓ (Reinhard Kraatz e.K. ✓✓, AG Schwerin `HRA 2860` ✓✓, **Am Wehberg 5a** ✓✓, Status **gelöscht** ✓✓) **und** das **Adressobjekt** ✓✓ (`way/263545868` ✓✓) mit der **Hausnummer 5a** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Anmerkung:** Die Gesellschaft ist **gelöscht** ✓✓ — die **Registeranschrift** ✓✓ ist damit **amtlich** belegt ✓✓, der Betrieb selbst **nicht** mehr aktiv ✓ ✓ Ein **gelöschtes** Unternehmen ✓✓ wird **nicht** verortet ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+- [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **659 m** von **way/263545868** ✓✓ entfernt — er trifft **Stadtweg, Karow, Dorf Mecklenburg, Dorf Mecklenburg-Bad Kleinen, Nordwestmecklenburg, Mecklenburg-Vorpommern, 23972, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **659 m** ✓✓ vom **Registerstandort** ✓✓ entfernt ✓✓ ✓ ✓ Der **amtliche Registerauszug** ✓✓ (Reinhard Kraatz e.K. ✓✓, AG Schwerin `HRA 2860` ✓✓, **Am Wehberg 5a** ✓✓) weist den Status **gelöscht** ✓✓ aus ✓✓ — die **Registeranschrift** ✓✓ ist damit **amtlich** belegt ✓✓, der Betrieb selbst **nicht** mehr aktiv ✓ ✓ Ein **gelöschtes** Unternehmen ✓✓ wird **nicht** verortet ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
