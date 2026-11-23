@@ -160,8 +160,14 @@ Die Welle vom 23.11.2026, **18:00** ✓ ✓ ✓ ✓
 - **Release-Zyklus** ✓ ✓: grün ✓✓ (60 Zeilen ✓✓, 855 Tests ✓✓) ✓✓ · **Pin** ✓✓ `ccbd47dc` ✓✓ ✓ ✓
 
 **Die Deckelung** ✓ ✓ liegt bei **zwölf** ✓ ✓ Dossiers je Bundesland ✓ ✓ — bei
-**acht** ✓ ✓ wären nur **48** ✓ ✓ möglich ✓ ✓ (der Pool ✓ ✓ ist erschöpft ✓ ✓:
-**515** ✓✓ Dossiers ✓✓ nach dem Ausschluss ✓ ✓) ✓ ✓
+**acht** ✓ ✓ wären nur **48** ✓ ✓ möglich ✓ ✓ ✓ ✓
+
+Der **Pool** ✓ ✓ sind die Dossiers **ohne** ✓✓ Website **oder** ✓✓ ohne Straße ✓✓
+(am 23.11.2026, 06:00 UTC ✓✓: **1669** ✓✓) ✓ ✓ Nach dem Ausschluss der **1204** ✓✓
+Dossiers der **älteren** ✓✓ Scopes ✓✓ — davon **1154** ✓✓ im Pool ✓✓ — bleiben
+**515** ✓✓ ✓ ✓ Je Bundesland ✓ ✓: NW 159 ✓✓ · HE 146 ✓✓ · RP 94 ✓✓ · NI 61 ✓✓ ·
+BY 47 ✓✓ · SN 5 ✓✓ · BW 2 ✓✓ · SH 1 ✓✓ ✓ ✓ Bei einer Deckelung von **acht** ✓✓
+wären das **8 + 8 + 8 + 8 + 8 + 5 + 2 + 1** ✓✓ = **48** ✓✓ Dossiers ✓✓ ✓ ✓
 
 **Drei** ✓✓ Adressfelder ✓✓ wurden mitkorrigiert ✓✓ — sie passten **nicht** ✓✓ zum
 Objekt ✓✓ ✓ ✓
