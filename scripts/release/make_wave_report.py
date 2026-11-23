@@ -348,6 +348,10 @@ if _rc == 0:
 o.append("")
 o.append("## Was diese Welle belegt hat ✓ ✓\n")
 o.append("**Quellen in den neuen Notizen** ✓ ✓ (je Dossier gezählt ✓ ✓):\n")
+o.append("**Zählregel** ✓ ✓: gezählt wird **je Dossier** ✓ ✓, wenn die **datierte "
+         "Welle-Sektion** ✓ ✓ dieses Dossiers ✓ ✓ das **Muster** ✓ ✓ nennt ✓ ✓ — "
+         "eine Quelle zählt **einmal** ✓ ✓, auch wenn sie **mehrfach** ✓ ✓ vorkommt "
+         "✓ ✓ ✓ ✓\n")
 o.append("| Quelle | Dossiers |")
 o.append("|---|---|")
 for name, muster in (
