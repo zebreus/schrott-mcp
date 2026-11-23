@@ -24,9 +24,13 @@ Der Gate arbeitet **read-only** ✓✓ - die Produktionsdatenbank wird ueber
 ✓✓ Es schreibt **nichts** in die Produktion ✓✓ ✓✓
 
 Beispiel:
-    python3 scripts/release/check_address_claims.py \\
-        --scope research/release-20261123-0000-scope.json \\
-        --data-dir /var/lib/schrott-mcp
+    python3 scripts/release/check_address_claims.py <basis-commit> \
+        [--scope research/release-20261123-0000-scope.json] \\
+        [--data-dir /var/lib/schrott-mcp]
+
+Ohne ``--scope`` ✓✓ wird **alles** ✓✓ geprueft ✓✓, was die **Korrektur-
+Sektionen** ✓✓ zwischen der Basis und dem **Arbeitsbaum** ✓✓ dazugekommen
+ist ✓✓ ✓ ✓
 """
 import argparse
 import json
@@ -145,13 +149,25 @@ def korrektur_abschnitt(text):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--scope", required=True,
+    parser.add_argument("basis", nargs="?", default=None,
+                        help="Basis-Commit - die Dossiers, die sich seitdem "
+                             "geaendert haben, werden geprueft")
+    parser.add_argument("--scope", default=None,
                         help="JSON-Datei mit den Slugs des Release-Scopes")
     parser.add_argument("--data-dir", default="/var/lib/schrott-mcp",
                         help="Produktionsverzeichnis (read-only)")
     args = parser.parse_args()
 
-    slugs = set(json.loads(Path(args.scope).read_text(encoding="utf-8")))
+    if args.scope:
+        slugs = set(json.loads(Path(args.scope).read_text(encoding="utf-8")))
+    elif args.basis:
+        import subprocess
+        geaendert = subprocess.run(
+            ["git", "diff", "--name-only", args.basis, "--", "dossiers/"],
+            capture_output=True, text=True, check=True).stdout.split()
+        slugs = {Path(f).stem for f in geaendert}
+    else:
+        parser.error("es wird eine Basis oder ein Scope gebraucht")
     verbind = sqlite3.connect(
         "file:%s/public.db?mode=ro" % args.data_dir, uri=True)
     verbind.row_factory = sqlite3.Row

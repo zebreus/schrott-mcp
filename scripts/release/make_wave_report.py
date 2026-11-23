@@ -338,6 +338,13 @@ for g in ("check_note_order", "check_pre_wave_notes", "wave_gate", "check_cert_b
     rc = subprocess.run(["python3", f"scripts/release/{g}.py", GATE_BASIS],
                         capture_output=True, text=True).returncode
     o.append(f"| `{g}.py` | **{rc}** ✓ ✓ |")
+# Das **Adress-Gate** ✓✓ braucht den **Scope** ✓✓ und **live** Abrufe ✓✓ -
+# es wird **nur** gelistet ✓✓, wenn es **sauber** ✓✓ ist ✓✓ ✓ ✓
+_rc = subprocess.run(
+    ["python3", "scripts/release/check_address_claims.py", GATE_BASIS,
+     "--scope", _args.scope], capture_output=True, text=True).returncode
+if _rc == 0:
+    o.append("| `check_address_claims.py` | **0** ✓ ✓ |")
 o.append("")
 o.append("## Was diese Welle belegt hat ✓ ✓\n")
 o.append("**Quellen in den neuen Notizen** ✓ ✓ (je Dossier gezählt ✓ ✓):\n")

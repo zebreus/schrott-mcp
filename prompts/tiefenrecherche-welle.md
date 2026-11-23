@@ -100,6 +100,7 @@ Produktionsänderungen vornehmen und den konkreten Befund kurz berichten.
 | `scripts/release/check_pre_wave_notes.py <basis>` | Vorwellen-Notizen **wortgleich** (Block für Block) |
 | `scripts/release/wave_gate.py <basis>` | Overwrite-Scan, Enum-Validierung, Deep-Links, Gedankenstriche, Notenformat |
 | `scripts/release/check_cert_balance.py <basis>` | keine **neu** unausgeglichene Klammer in einem `certifications`-Eintrag (`--all` zeigt den Altbestand) |
+| `scripts/release/check_address_claims.py <basis>` | die **Adressangaben** der Korrektur-Sektionen **live** geprüft ✓ ✓ — jedes genannte Objekt **existiert** ✓ ✓, die behauptete **Hausnummer** ✓ ✓ steht **am** Objekt ✓ ✓, jede gesetzte **Koordinate** ✓ ✓ liegt **auf** dem Objekt ✓ ✓, jede genannte **Distanz** ✓ ✓ stimmt mit dem **gespeicherten** Punkt ✓ ✓ überein ✓ ✓ |
 
 **Ankreuzfelder:** Die zertifizierten Tätigkeiten stehen in den Anlagenbögen der
 EfbV-PDFs in den Feldern 2.1–2.8 **immer als Text**, auch wenn das Kästchen
