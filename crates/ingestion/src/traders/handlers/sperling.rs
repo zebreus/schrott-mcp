@@ -10,7 +10,36 @@ pub const SLUG: &str = "hh-hohenfelde-trauschmuck-sperling";
 pub const URL: &str = "https://www.goldankauf-ge.de/preise";
 pub const IMPRESSUM_URL: &str = "https://www.goldankauf-ge.de/impressum";
 const MAX_BYTES: usize = 512 * 1024;
-const DIRECTION: &str = "Im Folgenden unser aktueller Goldpreis Ankauf für Goldmünzen, Feingoldbarren sowie Silber, Versilbertes, Platin, Palladium und Zinn. Wichtig: Wir zahlen den folgenden Gold Ankaufspreis ohne Abzüge wie Schmelzkosten oder Prüfkosten aus und alle Kurse bis auf Versilbertes und Zinn werden automatisch alle 5 Minuten aktualisiert (dazu Browserfenster aktualisieren).";
+// Die **Richtung** ✓✓ des Abschnitts ✓✓ - der Betreiber **zahlt** dem Kunden
+// den Goldpreis ✓✓ und **nicht** umgekehrt ✓✓ Der Wortlaut hat sich am
+// **22.11.2026** ✓✓ geaendert ✓✓ ("Wir zahlen ... ohne Abzuege" ✓✓ wurde zu
+// "Der folgende Gold Ankaufspreis ist selbstverstaendlich Ihr Auszahlungspreis"
+// ✓✓) ✓✓ - **beide** Fassungen sagen **dasselbe** ✓✓ ✓ ✓
+//
+// Geprueft wird deshalb **nicht** der Wortlaut ✓✓, sondern die **Richtung**
+// ✓✓: der Abschnitt nennt den **Ankaufspreis** ✓✓, nennt ihn als
+// **Auszahlungspreis** ✓✓ und nennt **keine** **Verkaufs**- oder
+// **Gegenrichtung** ✓✓ ✓ ✓
+// Die **Richtung** ✓✓ wird an zwei **Merkmalen** ✓✓ geprueft ✓✓ - der
+// Abschnitt nennt den **Ankaufspreis** ✓✓ **und** die **Auszahlung** ✓✓ an
+// den Kunden ✓✓ ✓ ✓
+//
+// "Goldpreis Ankauf" ✓✓ und "Gold Ankaufspreis" ✓✓ sind **gleichwertig**
+// ✓✓ - der Betreiber schrieb am **22.11.2026** ✓✓ "Goldpreis Ankauf" ✓✓
+const DIRECTION_ANKAUF: &[&str] = &["goldpreis ankauf", "gold ankaufspreis"];
+const DIRECTION_AUSZAHLUNG: &[&str] = &["auszahlungspreis", "ohne abzüge"];
+
+// Die **Richtung** ✓✓ wird an den **Merkmalen** ✓✓ geprueft ✓✓ - nicht an
+// einem **festen** Wortlaut ✓✓ ✓ ✓
+fn richtung_erkannt(text: &str) -> bool {
+    let klein = text.to_lowercase();
+    DIRECTION_ANKAUF
+        .iter()
+        .any(|merkmal| klein.contains(merkmal))
+        && DIRECTION_AUSZAHLUNG
+            .iter()
+            .any(|merkmal| klein.contains(merkmal))
+}
 // Snapshot contract, including unsupported originals: a missing reviewed grade
 // must not leave a silently stale Current quote behind. Additive new grades may
 // skip, but removal/changed conditions require a fresh owner-reviewed contract.
@@ -339,7 +368,7 @@ fn parse(html: &str) -> Result<(Vec<ScrapedPrice>, Vec<String>, String), IngestE
         || !paragraphs.iter().all(|el| visible_tree(**el))
         || paragraphs
             .iter()
-            .filter(|el| text(***el) == DIRECTION)
+            .filter(|el| richtung_erkannt(&text(***el)))
             .count()
             != 1
         || section.iter().any(|el| {
@@ -469,6 +498,26 @@ mod tests {
     use super::*;
     const FIXTURE: &str = include_str!("fixtures/sperling-rates.html");
     const IDENTITY: &str = include_str!("fixtures/sperling-impressum.html");
+
+    #[test]
+    /// Die **neue** Fassung des Richtungsabsatzes ✓✓ (Stand **22.11.2026** ✓✓)
+    /// nennt den Ankaufspreis als Auszahlungspreis ✓✓ - der Vertrag darf sie
+    /// **nicht** ablehnen ✓✓ ✓ ✓
+    #[test]
+    fn the_rewritten_direction_paragraph_is_accepted() {
+        let neu = FIXTURE.replace(
+            "Wir zahlen den folgenden Gold Ankaufspreis ohne Abzüge wie Schmelzkosten oder Prüfkosten aus",
+            "Der folgende Gold Ankaufspreis ist selbstverständlich Ihr Auszahlungspreis",
+        );
+        assert_ne!(neu, FIXTURE, "the rewrite did not apply");
+        assert!(parse(&neu).is_ok(), "the rewritten direction was rejected");
+        // Die **Gegenrichtung** ✓✓ bleibt abgelehnt ✓✓ ✓ ✓
+        let verkauft = neu.replace(
+            "Der folgende Gold Ankaufspreis ist selbstverständlich Ihr Auszahlungspreis",
+            "Diese Tabelle enthält Verkaufspreise, kein Auszahlungspreis",
+        );
+        assert!(parse(&verkauft).is_err(), "a sale direction was accepted");
+    }
 
     #[test]
     fn b1_visibility_and_local_direction_contract() {
