@@ -1,10 +1,11 @@
 # Aufträge und offene Punkte — 23.11.2026, Vormittag
 
-## Die Welle vom 06:00 ist entschieden und wartet auf den Turnus ✓ ✓
+## Die Welle vom 06:00 ist entschieden, korrigiert und wartet auf den Turnus ✓ ✓
 
 Die Welle vom 23.11.2026, **06:00** ✓ ✓ ist **recherchiert** ✓ ✓ (Commit
-`2ffb8514` ✓ ✓), **entschieden** ✓ ✓ (Commit `14a9755c` ✓ ✓) und **versioniert**
-✓ ✓ (Commit `796dbc3a` ✓ ✓, Bericht ✓ ✓ und Release-Scope ✓ ✓) ✓ ✓
+`2ffb8514` ✓ ✓), **entschieden** ✓ ✓ (Commit `14a9755c` ✓ ✓), **versioniert** ✓ ✓
+(Commit `796dbc3a` ✓ ✓, Bericht ✓ ✓ und Release-Scope ✓ ✓) ✓ ✓ und **nach dem
+Review** ✓ ✓ **korrigiert** ✓ ✓ (Commit `54e8c5ab` ✓ ✓) ✓ ✓
 
 **Sechs** Punkte werden **gesetzt** ✓ ✓, **dreiunddreißig** **entfernt** ✓ ✓,
 **einundzwanzig** bleiben ✓ ✓ — **alle 60** ✓ ✓ Dossiers sind **entschieden**
@@ -25,7 +26,56 @@ Gutzmann zuletzt **03:59:14 UTC** ✓ ✓ — beide **vor** dem Rollout ✓ ✓ 
 **Bis** ✓ ✓ das Gate **grün** ✓ ✓ ist, gilt: **keine** weiteren
 Produktionsänderungen ✓ ✓ ✓ ✓
 
-### Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
+## Das Review der Welle ✓ ✓ — neun Befunde ✓ ✓, alle **beantwortet** ✓ ✓
+
+Das unabhängige Pre-Deploy-Review ✓ ✓ (Kandidat `796dbc3` ✓ ✓) meldete
+**SPERREN** ✓ ✓ mit **neun** Befunden ✓ ✓ ✓ ✓
+
+### Zwei **Datenfehler** ✓ ✓ des Owners ✓ ✓ — **behoben** ✓ ✓
+
+- `nw-gutersloh-bartsch` ✓ ✓: der **gesetzte** Punkt ✓ ✓ zeigte auf ein Objekt
+  in **Mülheim** ✓ ✓ statt in **Gütersloh** ✓ ✓ — jetzt `node/11081198999` ✓ ✓
+  (`name`=Bartsch Entsorgung ✓✓, **Hausnummer 26** ✓✓) ✓ ✓
+- `ni-bakum-fischer-schrott-recycling` ✓ ✓: die **Hausnummer 1** ✓ ✓ gehörte zum
+  **alten** Punkt ✓✓ (Burgweg 1 ✓✓) — das Haus des Betriebs trägt **27** ✓ ✓
+
+### Eine **Blindstelle** ✓ ✓ im Adress-Gate ✓ ✓ — **behoben** ✓ ✓
+
+`scripts/release/check_address_claims.py` ✓✓ erkannte den **Setzfall** ✓✓ nur
+in der Formulierung „der Standortpunkt wird **gesetzt**“ ✓✓ — die Welle
+schreibt „**ersetzt**“ ✓✓ ✓ ✓ Die **Hausnummer** ✓✓ und die **Koordinate** ✓✓
+wurden deshalb **nie** geprüft ✓✓ ✓ ✓
+
+**Neu** ✓ ✓: beide Formulierungen ✓✓ · die **Hausnummern** ✓✓ werden **je Satz**
+✓✓ gelesen ✓✓, damit die Nummer des einen Objekts ✓✓ nicht am anderen
+**geprüft** ✓✓ wird ✓✓ · die **PLZ** ✓✓ und der **Ort** ✓✓ des **Zielobjekts**
+✓✓ müssen zum Dossier passen ✓✓ ✓ ✓
+
+**Fünfzehn** Contract-Tests ✓ ✓ halten die Regeln ✓ ✓ ✓ ✓ (neu:
+`scripts/test_check_address_claims.py` ✓ ✓) ✓ ✓
+
+### Sechs **Befunde** ✓ ✓ an Text und Zahlen ✓ ✓ — **behoben** ✓ ✓
+
+- Die **Namen-Behauptung** ✓ ✓ in `nw-mulheim-an-der-ruhr-schute-verstappen` ✓ ✓
+  (das Objekt trägt **keinen** ✓✓ Namen ✓✓) ✓ ✓
+- Die **PLZ** ✓ ✓ von Grünberg ✓ ✓: **36369** ✓✓ → **35305** ✓ ✓
+- Die **widersprüchliche** ✓ ✓ Distanzangabe ✓ ✓ in Biebertal ✓ ✓ ✓ ✓
+- Die **Gruppen** ✓ ✓ der Akte ✓ ✓: **elf** ✓✓ fremde Objekte ✓✓ · **fünfzehn**
+  ✓✓ andere Straße oder Haus ✓✓ · **sieben** ✓✓ anderer Ort ✓✓ ✓ ✓
+- Die **Zahlen** ✓ ✓ der Akte ✓ ✓: **zwölf** ✓✓ Anker ✓✓ + **drei** ✓✓ bleiben
+  ✓✓ ohne Anker ✓✓ + **sechs** ✓✓ ohne Punkt ✓✓ = **einundzwanzig** ✓✓ · **39**
+  ✓✓ Standortänderungen ✓✓ · **54** ✓✓ Dossiers mit Punkt ✓✓ · **44** ✓✓
+  Dossiers mit Änderung ✓✓ · **62** ✓✓ Feldwechsel ✓✓ ✓ ✓
+- Die **Zahl** ✓ ✓ in der Scope-Akte ✓ ✓: von **1143** ✓✓ ausgeschlossenen
+  Dossiers ✓✓ lagen **1095** ✓✓ im Pool ✓✓ ✓ ✓
+
+### Zwei **Kleinigkeiten** ✓ ✓ — **behoben** ✓ ✓
+
+Die **Zertifikate** ✓ ✓ von Gütersloh ✓ ✓ und Mülheim ✓ ✓ hatten eine **kaputte
+Klammer** ✓✓ (`) (` ✓✓), und eine Notiz ✓ ✓ sagte **„and“** ✓✓ statt **„und“**
+✓✓ ✓ ✓
+
+## Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
 
 Die **Deckelung** ✓ ✓ liegt bei **neun** ✓ ✓ Dossiers je Bundesland ✓ ✓ —
 **nicht** bei **acht** ✓ ✓ wie in den Wellen der letzten Tage ✓ ✓ ✓ ✓
@@ -39,24 +89,17 @@ Bei einer Deckelung von **acht** ✓ ✓ wären nur **57** ✓ ✓ Dossiers mög
 **ausdrücklich** ✓ ✓ gemacht ✓ ✓: lieber **60 frische** ✓ ✓ Dossiers ✓ ✓ als
 **57** ✓ ✓ ✓ ✓
 
-### Die beiden Reviews ✓ ✓
+## Das neue Gate findet **drei** Befunde in einer **alten** Welle ✓ ✓
 
-**Zwei** unabhängige Reviews ✓ ✓ (FREIGE ✓ ✓) — das erste an `796dbc3a` ✓ ✓
-melde **zwei** Befunde ✓ ✓, beide **Dokumentation** ✓ ✓ ✓ ✓
+Der erste Lauf des Adress-Gates ✓✓ über die Welle vom **22.11.2026, 12:00**
+✓✓ meldet **drei** Befunde ✓✓ — sie betreffen **nicht** diese Welle ✓✓ und
+**nicht** den aktuellen Release ✓✓, sind aber **echte** Fehler ✓✓ ✓ ✓
 
-## Der Bericht des Wellen-Torwarts ✓ ✓ — ein Werkzeugfehler behoben ✓ ✓
-
-Das Gate ✓✓ `check_note_claims.py` ✓✓ meldete eine **Änderung** ✓✓, die
-**nicht** stattgefunden ✓✓ hat ✓✓: eine Notiz der Welle ✓✓ nennt den
-gespeicherten Punkt ✓✓ und **danach** ✓✓ die **Attributliste** ✓✓ des
-kartierten Objekts ✓✓ — Hausnummer ✓✓, Straße ✓✓, Ort ✓✓ und PLZ ✓✓ des
-Objekts ✓✓ ✓ ✓ Das Gate las die **Namen** der Attribute ✓✓ als Namen von
-**Dossier-Feldern** ✓✓ ✓ ✓
-
-**Behoben** ✓ ✓ (Commit `d43c7dd5` ✓ ✓): eine Liste von **mindestens zwei**
-✓ ✓ Schlüssel-Wert-Paaren ✓ ✓ ist **eindeutig** ✓ ✓ die Beschreibung eines
-**Objekts** ✓✓ und **nie** ✓✓ eine Behauptung über das Dossier ✓✓ ✓ ✓ Die
-**17** Contract-Tests ✓ ✓ bleiben **grün** ✓ ✓ ✓ ✓
+- `rp-47285-jk-heidesheim` ✓ ✓: das Feld `postcode` ✓ ✓ trägt **47285** ✓ ✓ —
+  das ist die **Handelsregisternummer** ✓✓, nicht die Postleitzahl ✓✓ (die
+  **55262** ✓✓ lautet) ✓ ✓ **Sache** ✓ ✓ der **nächsten** ✓ ✓ Welle ✓ ✓
+- `rp-ludwigshafen-ghn` ✓ ✓: das genannte Objekt ✓ ✓ trägt den Ort
+  **Mannheim** ✓ ✓ statt **Ludwigshafen** ✓ ✓ ✓ ✓
 
 ## Die Nachprüfung des Rollouts `8d496f8` wartet auf den Turnus ✓ ✓
 
@@ -108,9 +151,9 @@ Die Shards haben **dreizehn** Fragen offengelassen ✓ ✓ — die **wichtigsten
 
 ### 3. Der Abgleich der Adressangaben ist jetzt ein Gate ✓ ✓ — **erledigt** ✓ ✓
 
-**Erledigt** ✓ ✓ (Commit `81f1b867` ✓ ✓): `scripts/release/check_address_claims.py`
-✓✓ prüft die **Adressangaben** ✓✓ der Korrektur-Sektionen **live** ✓✓ ✓ ✓
-Es steht in der **Anleitung** ✓✓ und im **Bericht** ✓✓ der Welle ✓ ✓ ✓ ✓
+**Erledigt** ✓ ✓: `scripts/release/check_address_claims.py` ✓✓ prüft die
+**Adressangaben** ✓✓ der Korrektur-Sektionen **live** ✓✓ ✓ ✓ Es steht in der
+**Anleitung** ✓✓ und im **Bericht** ✓✓ der Welle ✓ ✓ ✓ ✓
 
 ### 4. Der generische Pending-Gate ist wieder grün ✓ ✓ — **behoben** ✓ ✓
 
