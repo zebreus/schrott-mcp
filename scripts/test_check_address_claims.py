@@ -92,16 +92,17 @@ class Ortsvergleich(unittest.TestCase):
     def test_der_stadtteil_des_objekts_passt_auch(self):
         self.assertTrue(cac.platz_passt("Heidesheim", "Heidesheim am Rhein"))
 
-    def test_der_postalische_ort_passt_zum_stadtteil(self):
-        self.assertTrue(cac.platz_passt("Heidesheim", "Heidesheim am Rhein"))
+    def test_ein_ortsname_ist_kein_wort_in_einem_anderen(self):
+        self.assertFalse(cac.platz_passt("Halle", "Hallerbach"))
 
     def test_eine_andere_gemeinde_passt_nicht(self):
         self.assertFalse(cac.platz_passt("Gütersloh", "Mülheim an der Ruhr"))
 
     def test_der_postalische_ort_ohne_plz(self):
-        self.assertEqual(
-            __import__("re").sub(r"\s*\d{4,5}\s*$", "", "Heidesheim 55262").strip(),
-            "Heidesheim")
+        self.assertEqual(cac.ort_ohne_plz("Heidesheim 55262"), "Heidesheim")
+
+    def test_der_ort_ohne_plz_bleibt_der_ort(self):
+        self.assertEqual(cac.ort_ohne_plz("Heidesheim"), "Heidesheim")
 
 
 if __name__ == "__main__":

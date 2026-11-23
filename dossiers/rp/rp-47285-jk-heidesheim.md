@@ -3,7 +3,7 @@ slug: rp-47285-jk-heidesheim
 name: JK Heidesheim
 trader_type: sonstige
 state: RP
-city: 'Heidesheim 55262'
+city: 'Heidesheim'
 street: 'Am Pfingstborn 9'
 postcode: '55262'
 lat: 49.9896663
@@ -26,10 +26,9 @@ provenance_origin: table
 
 ## Überblick
 
-„JK Heidesheim“ bleibt eine ungeklärte Seed-Bezeichnung mit geographisch widersprüchlicher Angabe „47285)“; keine aktuelle Betreiber-, Register- oder Annahmestellenquelle konnte ihr zugeordnet werden. Heidesheim/Ingelheim und die fehlerhafte PLZ werden nicht als bestätigte Stammdaten interpretiert.
+„JK Heidesheim“ bleibt eine **ungeklärte** ✓✓ Seed-Bezeichnung ✓✓ — der **Name** ✓✓ der Zeile ✓✓ ist **nicht** ✓✓ bewiesen ✓✓. Die **Anschrift** ✓✓ ist es **doch** ✓✓: der **amtliche Handelsregisterauszug** ✓✓ nennt unter **AG Stendal HRB 47285** ✓✓ die **JK Rohstoffhandel GmbH** ✓✓ mit **Am Pfingstborn 9** ✓✓, **55262** ✓✓ Heidesheim ✓✓, und das **Adressobjekt** ✓✓ `way/264357322` ✓✓ trägt dort die **Hausnummer 9** ✓✓ — der **Standortpunkt** ✓✓ steht auf diesem Objekt ✓✓ ✓✓ Keine aktuelle **Betreiber-** ✓✓ oder **Annahmestellenquelle** ✓✓ ist zugeordnet ✓✓.
 
 **Preise:** ANKAUF — keine verifizierten Annahmebedingungen oder Euro-Kurse. VERKAUF — keine Preisliste. GEBÜHREN — keine Angaben.
-
 ## Timeline
 
 ### Recherche 21.10.2026

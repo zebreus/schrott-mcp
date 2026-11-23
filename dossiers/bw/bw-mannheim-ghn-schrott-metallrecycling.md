@@ -6,6 +6,8 @@ state: BW
 city: Mannheim
 street: 'Zielstraße 12'
 postcode: '68169'
+lat: 49.5070694
+lon: 8.4980124
 phone: '01731551315'
 email: 'info@ghn-schrott.de'
 opening_hours: ''
@@ -24,8 +26,9 @@ provenance_origin: table
 
 ## Überblick
 
-_Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
+**GHN Schrott- & Metallrecycling GmbH** ✓✓ (HRB 749678 AG Mannheim ✓✓) ist der **belegte** ✓✓ Betrieb ✓✓ mit der **Betreiberseite** ✓✓ ghn-schrott.de ✓✓ und der Anschrift **Zielstraße 12** ✓✓, **68169** ✓✓ Mannheim ✓✓ — **Betreiberseite** ✓✓ und **Register** ✓✓ stimmen beim Rechtsträger und beim Ort überein ✓✓.
 
+Der **Standortpunkt** ✓✓ stand auf einem **Seed-Lead** ✓✓ (**Uhlandstraße 20** ✓✓, **1,7 km** ✓✓ daneben ✓✓) und steht jetzt **auf** ✓✓ dem **Adressobjekt** ✓✓ `node/13460873770` ✓✓ mit der **Hausnummer 12** ✓✓ ✓ ✓ Die **Schwesterzeile** ✓✓ `rp-ludwigshafen-ghn` ✓✓ ist der **zweite Verzeichniseintrag** ✓✓ desselben Namens ✓✓ ohne eigenen Beleg ✓✓ und bleibt als **Querverweis** ✓✓ bestehen ✓✓ ✓ ✓
 ## Timeline
 
 ### Recherche 01.10.2026
@@ -36,3 +39,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallrecycling, Container
 - Größe: klein
+
+### Korrektur 23.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,7 km** von der belegten Betriebsanschrift entfernt — er trifft **20, Uhlandstraße, Neckarstadt-Ost, Mannheim, Baden-Württemberg, 68167, Deutschland** ✓✓. Er wird durch den adresskonformen Punkt **49.5070694/8.4980124** ✓✓ ersetzt ✓✓ Der Beleg für die Adresse: das **Betreiber-Impressum** ✓✓ (`Zielstraße 12` ✓✓, **68169** ✓✓ Mannheim ✓✓, `info@ghn-schrott.de` ✓✓) **und** das **OSM-Objekt mit dem Namen des Betriebs** ✓✓ (`name`=GHN Schrott- & Metallhandel ✓✓) mit der **Hausnummer 12** ✓✓ **das Adressobjekt** ✓✓ (`node/13460873770` ✓✓) ✓ ✓ **Reichweite:** die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓✓ ✓ ✓ **Belege** ✓✓: **erstens** ✓✓ das **Betreiber-Impressum** ✓✓, **zweitens** ✓✓ das **Adressobjekt** ✓✓ in OpenStreetMap ✓✓ ✓ ✓]

@@ -221,10 +221,21 @@ def hausnummern(satz):
 
 def platz_passt(ort_des_dossiers, ort_des_objekts):
     """Passt der **Ortsname** ✓✓ des Dossiers ✓✓ zum **Ort** ✓✓ oder zum
-    **Stadtteil** ✓✓ des Objekts ✓✓ ✓ ✓"""
+    **Stadtteil** ✓✓ des Objekts ✓✓ ✓ ✓
+
+    Die **Wortgrenze** ✓✓ ist wichtig ✓✓: „Halle“ ✓✓ steckt in
+    „Hallerbach“ ✓✓, aber **nicht** als **Wort** ✓✓ ✓ ✓"""
     a = ort_des_dossiers.lower().strip()
     b = ort_des_objekts.lower().strip()
-    return bool(a) and bool(b) and (a in b or b in a)
+    if not a or not b:
+        return False
+    return bool(re.search(r"\b%s\b" % re.escape(a), b)
+                or re.search(r"\b%s\b" % re.escape(b), a))
+
+
+def ort_ohne_plz(ort):
+    """Der **Ortsname** ✓✓ ohne die **Postleitzahl** ✓✓ ✓ ✓"""
+    return re.sub(r"\s*\d{4,5}\s*$", "", ort or "").strip()
 
 
 def main():
@@ -270,6 +281,10 @@ def main():
         # die Pruefung der Hausnummer und der Koordinate **nie** laufen ✓✓ ✓ ✓
         gesetzt = ("der Standortpunkt wird gesetzt" in abschnitt
                    or "der Standortpunkt wird ersetzt" in abschnitt)
+        # Ein **Anschrift-Abschnitt** ✓✓ des Owners ✓✓ nennt die **Hausnummer**
+        # ✓✓ und die **Postleitzahl** ✓✓ eines Objekts ✓✓ - diese Pruefungen
+        # ✓✓ muessen **auch** dort laufen ✓✓ ✓ ✓
+        adressfall = gesetzt or "Owner, Anschrift" in abschnitt
         # die **PLZ** ✓✓ und der **Ort** ✓✓ des Dossiers ✓✓ - sie muessen
         # zum **Objekt** ✓✓ passen ✓✓ ✓ ✓
         _fm = text.split("---")[1] if "---" in text else ""
@@ -302,7 +317,18 @@ def main():
         # ✓✓ ✓ ✓
         alter_punkt = gespeichert
         if gesetzt:
-            alter_punkt = alter_punkt_aus_dossier(pfad)
+            # Der **alte** Punkt ✓✓ ist der Punkt der **Produktion** ✓✓ - das
+            # Dossier traegt schon den **neuen** ✓✓ Punkt ✓✓. Nach dem
+            # **Rollout** ✓✓ traegt die Produktion den **neuen** ✓✓ Punkt
+            # ✓✓, dann ist die Distanz **nicht mehr** messbar ✓✓ ✓ ✓
+            _dossier = alter_punkt_aus_dossier(pfad)
+            if _dossier and gespeichert and (abs(_dossier[0] - gespeichert[0]) > 1e-9
+                                             or abs(_dossier[1] - gespeichert[1]) > 1e-9):
+                alter_punkt = gespeichert
+            elif _dossier and gespeichert:
+                alter_punkt = None
+            else:
+                alter_punkt = _dossier or gespeichert
 
         # (1) jedes genannte Objekt muss existieren
         objekte = [(m.group(1), m.group(2)) for m in OBJEKT_RE.finditer(abschnitt)]
@@ -351,7 +377,7 @@ def main():
             # Adresse des **getroffenen** ✓✓ Punkts ✓✓ und **nicht** die
             # Hausnummer des Zielobjekts ✓✓ - dort waere die Forderung
             # **falsch** ✓✓ ✓ ✓
-            if gesetzt:
+            if adressfall:
                 for hausnummer in sorted(hausnummern_pro_objekt.get((typ, oid), ())):
                     traeger = tags.get("addr:housenumber")
                     if traeger and traeger != hausnummer:
@@ -371,7 +397,7 @@ def main():
             # Ein **weiteres** Objekt ✓✓ im **Anmerkungsteil** ✓✓ traegt eine
             # **andere** ✓✓ Adresse ✓✓ des Betriebs ✓✓ - es wird **nicht**
             # gegen die PLZ des Dossiers ✓✓ geprueft ✓✓ ✓ ✓
-            if gesetzt and (typ, oid) == zielobjekt:
+            if adressfall and (typ, oid) == zielobjekt:
                 plz_des_objekts = tags.get("addr:postcode")
                 ort_des_objekts = tags.get("addr:city") or tags.get("addr:suburb")
                 if plz_des_objekts and plz_des_objekts != plz_des_dossiers:
@@ -384,9 +410,10 @@ def main():
                 # **eines** ✓✓ von beiden ✓✓ ✓ ✓
                 orte_des_objekts = [o for o in (tags.get("addr:city"),
                                                 tags.get("addr:suburb")) if o]
-                ort_ohne_plz = re.sub(r"\s*\d{4,5}\s*$", "", ort_des_dossiers).strip()
-                if orte_des_objekts and ort_ohne_plz and not any(
-                        platz_passt(ort_ohne_plz, o) for o in orte_des_objekts):
+                ort_des_dossiers_ohne_plz = ort_ohne_plz(ort_des_dossiers)
+                if orte_des_objekts and ort_des_dossiers_ohne_plz and not any(
+                        platz_passt(ort_des_dossiers_ohne_plz, o)
+                        for o in orte_des_objekts):
                     befunde.append((pfad.stem,
                                     "%s/%s traegt den Ort %r, das Dossier %r"
                                     % (typ, oid, ", ".join(orte_des_objekts),
