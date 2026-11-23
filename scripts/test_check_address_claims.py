@@ -85,5 +85,24 @@ class Korrekturabschnitt(unittest.TestCase):
         self.assertIsNone(cac.korrektur_abschnitt("### Recherche 23.11.2026\n- [x]\n"))
 
 
+class Ortsvergleich(unittest.TestCase):
+    def test_der_ort_des_dossiers_passt_zum_ort_des_objekts(self):
+        self.assertTrue(cac.platz_passt("Gütersloh", "Gütersloh"))
+
+    def test_der_stadtteil_des_objekts_passt_auch(self):
+        self.assertTrue(cac.platz_passt("Heidesheim", "Heidesheim am Rhein"))
+
+    def test_der_postalische_ort_passt_zum_stadtteil(self):
+        self.assertTrue(cac.platz_passt("Heidesheim", "Heidesheim am Rhein"))
+
+    def test_eine_andere_gemeinde_passt_nicht(self):
+        self.assertFalse(cac.platz_passt("Gütersloh", "Mülheim an der Ruhr"))
+
+    def test_der_postalische_ort_ohne_plz(self):
+        self.assertEqual(
+            __import__("re").sub(r"\s*\d{4,5}\s*$", "", "Heidesheim 55262").strip(),
+            "Heidesheim")
+
+
 if __name__ == "__main__":
     unittest.main()

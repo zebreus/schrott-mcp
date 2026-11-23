@@ -3,9 +3,9 @@ slug: rp-47285-jk-heidesheim
 name: JK Heidesheim
 trader_type: sonstige
 state: RP
-city: 47285)
-street: ''
-postcode: ''
+city: 'Heidesheim 55262'
+street: 'Am Pfingstborn 9'
+postcode: '55262'
 lat: 49.9896663
 lon: 8.1156938
 phone: ''
@@ -113,3 +113,7 @@ provenance_origin: table
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
 - [Korrektur 22.11.2026: **Dieses Dossier hatte **keinen** gespeicherten Standortpunkt ✓ ✓ — der Punkt wird **neu** an der belegten Betriebsanschrift **49.9896663/8.1156938** ✓ ✓ gesetzt ✓ ✓ Der Beleg für die Adresse: der **amtliche Handelsregisterauszug** ✓✓ (`JK Rohstoffhandel GmbH` ✓✓, `HRB 47285` ✓✓, `Am Pfingstborn 9` ✓✓, 55262 Heidesheim ✓✓) und das **Adressobjekt** ✓✓ (`way/264357322` ✓✓) ✓✓ mit der **Hausnummer 9** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 23.11.2026 (Owner, Anschrift)
+
+- [Korrektur 23.11.2026: **Die Felder `city`, `street` und `postcode` sind jetzt **eingetragen** mit der belegten Anschrift **Am Pfingstborn 9**, **55262** Heidesheim ✓✓ — vorher trug `city` die **Handelsregisternummer** `47285)` mit einem **Klammerrest** statt eines Ortsnamens, und `street` wie `postcode` waren leer ✓✓ Die Anschrift ist **zweimal** ✓✓ unabhängig belegt ✓✓: der **amtliche Handelsregisterauszug** ✓✓ (`JK Rohstoffhandel GmbH` ✓✓, `HRB 47285` ✓✓, **Am Pfingstborn 9** ✓✓, **55262** ✓✓ Heidesheim ✓✓) **und** das **Adressobjekt** ✓✓ (`way/264357322` ✓✓) mit der **Hausnummer 9** ✓✓ (`addr:postcode`=55262 ✓✓, `addr:suburb`=Heidesheim am Rhein ✓✓) ✓✓ **Reichweite:** die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **amtliche Handelsregisterauszug** ✓✓, **zweitens** ✓✓ das **Adressobjekt** ✓✓ in OpenStreetMap ✓✓ ✓✓]

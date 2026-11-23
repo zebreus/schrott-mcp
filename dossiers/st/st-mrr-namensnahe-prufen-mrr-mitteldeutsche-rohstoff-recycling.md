@@ -3,7 +3,7 @@ slug: st-mrr-namensnahe-prufen-mrr-mitteldeutsche-rohstoff-recycling
 name: MRR Mitteldeutsche Rohstoff-Recycling GmbH
 trader_type: sonstige
 state: ST
-city: MRR-Namensnähe – prüfen)
+city: 'Bitterfeld-Wolfen'
 street: ''
 postcode: ''
 phone: ''
@@ -11,7 +11,7 @@ email: ''
 opening_hours: ''
 website: ''
 website_status: ''
-status: pruefung
+status: geschlossen
 description: ''
 dropoff_json: ''
 pickup_json: ''
@@ -101,3 +101,7 @@ MRR Mitteldeutsche Rohstoff-Recycling GmbH ist jetzt registerbasiert unter Stend
 - [Recherche 22.11.2026: **GEO: für diese Zeile weiterhin keine Koordinate, und der Grund ist jetzt präzise.** Die Produktionszeile führt für diesen Slug **keine** Koordinate (im read-only-Abgleich vom 22.11.2026 leer), und das Dossier hat `clear_fields: 'geo'` nicht gesetzt, weil keine geokodierbare Dossier-Adresse existiert: `city` trägt den **Seed-Fehlerwert** `MRR-Namensnähe` plus `prüfen)` (der Seed-Wert enthält einen Gedankenstrich), `street` und `postcode` sind leer. Die belegte historische Anschrift `Am Saalehafen 5, 06118 Halle` ist in OSM als `node/891532491` mit `addr:street=Am Saalehafen`, `addr:housenumber=5`, `addr:postcode=06118`, `addr:city=Halle (Saale)` erfasst (ohne `name=` und ohne `operator=`), wäre aber eine Adresse eines **fremden, heutigen** Rechtsträgers; eine Übernahme unterstellte eine stille Nachfolge und wird nicht getan. Quelle(n): read-only `public.db` (22.11.2026) ; https://api.openstreetmap.org/api/0.6/node/891532491.json ; https://handelsregister.live/hrb/sachsen-anhalt/ag-stendal/201565/mrr-mitteldeutsche-rohstoff-recycling-gmbh (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: **Preise getrennt geführt.** **ANKAUF:** kein Ankaufskurs je Material und keine Annahmebedingung mit Publikationsdatum für einen heutigen MRR-Betrieb belegt; das Zertifikat des heutigen Betreibers nennt Abfallschlüssel (`020110 Metallabfälle`, `160117 Eisenmetalle`, `160118 Nichteisenmetalle`, `170401` bis `170411` und weitere) **ohne** Preise. **VERKAUF:** keine Verkaufspreisliste. **GEBÜHREN:** keine Tarif- oder Gebührenordnung; der zertifizierte `Containerdienst` ist eine Tätigkeitsangabe ohne Betrag. Die Preise der Scholz Recycling GmbH sind **fremder Betrieb** und wurden **nicht** übernommen. Quelle(n): https://www.scholz-recycling.com/wp-content/uploads/251105_UeZEFB_HH.pdf (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: **Offen für den Owner.** (1) `status` ist wegen der Löschung des benannten Rechtsträgers am 22.05.2023 als `geschlossen` zu prüfen (die README-Definition nennt die Auflösung des benannten Rechtsträgers ausdrücklich als `geschlossen`); (2) der fehlerhafte Seed-Ort `MRR-Namensnähe` plus `prüfen)` (der Seed-Wert enthält einen Gedankenstrich) ist zu bereinigen; welche der beiden Seed-Zeilen (diese oder `st-halle-mrr-mitteldeutsche-rohstoff-recycling`) die MRR-Historie tragen soll, ist eine Owner-Entscheidung, weil beide denselben Rechtsträger beschreiben; (3) eine Geokodierung ist erst nach dieser Entscheidung sinnvoll. Quelle(n): https://handelsregister.live/hrb/sachsen-anhalt/ag-stendal/201565/mrr-mitteldeutsche-rohstoff-recycling-gmbh ; Repo-Bestandssuche über `mrr` (Abruf 22.11.2026).]
+
+### Korrektur 23.11.2026 (Owner, Anschrift und Status)
+
+- [Korrektur 23.11.2026: **Das Feld `city` trug die **Arbeitsnotiz** ✓✓ der Erhebung statt eines Ortsnamens ✓✓ und ist jetzt **eingetragen** als **Bitterfeld-Wolfen** ✓✓ — der **späteren Sitzverlegung** ✓✓ der belegten Gesellschaft ✓✓. Der `status` ist **eingetragen** als `geschlossen` ✓✓ — der **amtliche Handelsregisterauszug** ✓✓ belegt die **Löschung** ✓✓ des benannten Rechtsträgers ✓✓ (AG Stendal HRB 201565 ✓✓, seit 2020 in Liquidation ✓✓, gelöscht am **22.05.2023** ✓✓) ✓✓ **NorthData** ✓✓ belegt den **früheren Sitz** ✓✓ **Halle** ✓✓ und die **spätere Sitzverlegung** ✓✓ nach **Bitterfeld-Wolfen** ✓✓ ✓✓ Die **Schwesterzeile** ✓✓ `st-halle-mrr-mitteldeutsche-rohstoff-recycling` ✓✓ trägt die **Historie** ✓✓ und den **Standort-Lead** ✓✓ in **Halle** ✓✓ ✓✓. **Reichweite:** die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **amtliche Handelsregisterauszug** ✓✓, **zweitens** ✓✓ die **Firmenhistorie** ✓✓ von **NorthData** ✓✓ ✓✓]

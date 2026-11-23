@@ -3,9 +3,9 @@ slug: rp-ludwigshafen-ghn
 name: GHN
 trader_type: schrotthaendler
 state: RP
-city: Ludwigshafen
-street: ''
-postcode: ''
+city: 'Mannheim 68169'
+street: 'Zielstraße 12'
+postcode: '68169'
 lat: 49.5070694
 lon: 8.4980124
 phone: ''
@@ -73,3 +73,7 @@ Keine Mannheimer Kontakte oder kostenlose Abholung als Ludwigshafener Standortda
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **6,2 km** von der belegten Betriebsanschrift entfernt — er trifft 2b, Industriestraße, Ludwigshafen-Friesenheim, Ludwigshafen am Rhein, Rheinland-Pfalz, 67063, Deutschland ✓ ✓. Er wird durch den adresskonformen Punkt **49.5070694/8.4980124** ✓ ✓ ersetzt ✓ ✓ Der Beleg für die Adresse: das **Betreiber-Impressum** ✓✓ (`Zielstraße 12` ✓✓, 68169 Mannheim ✓✓, `info@ghn-schrott.de` ✓✓) **und** das **OSM-Objekt mit dem Namen des Betriebs** ✓✓ (`name`=GHN Schrott- & Metallhandel ✓✓) mit der **Hausnummer 12** ✓✓ **das Adressobjekt** ✓✓ (`node/13460873770` ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Anmerkung:** Der **Ludwigshafener** ✓✓ Punkt ✓✓ ist eine **Seedzeile** ✓✓ ohne Beleg ✓ ✓ — die **Betreiberanschrift** ✓✓ liegt in **Mannheim** ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 23.11.2026 (Owner, Anschrift)
+
+- [Korrektur 23.11.2026: **Die Felder `city`, `street` und `postcode` sind jetzt **eingetragen** mit der belegten Betriebsanschrift **Zielstraße 12**, **68169** Mannheim ✓✓ — vorher nannte `city` nur **Ludwigshafen**, während der **Standortpunkt** ✓✓ dieses Dossiers seit der Korrektur vom 22.11.2026 auf der belegten Anschrift steht ✓✓ Die Anschrift ist **zweimal** ✓✓ unabhängig belegt ✓✓: das **Betreiber-Impressum** ✓✓ (`Zielstraße 12` ✓✓, **68169** ✓✓ Mannheim ✓✓, `info@ghn-schrott.de` ✓✓) **und** das **OSM-Objekt mit dem Namen des Betriebs** ✓✓ (`name`=GHN Schrott- & Metallhandel ✓✓) mit der **Hausnummer 12** ✓✓ (`node/13460873770` ✓✓) ✓✓ Die **Identität** ✓✓ des generischen **Seed-Eintrags** ✓✓ mit der Ortsangabe **Ludwigshafen** ✓✓ ist damit **nicht** ✓✓ bewiesen ✓✓ — der **Dossierort** ✓✓ folgt trotzdem der belegten Anschrift ✓✓, weil das **Adressobjekt** ✓✓ den **Namen des Betriebs** ✓✓ trägt ✓✓ **Reichweite:** die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ das **Betreiber-Impressum** ✓✓, **zweitens** ✓✓ das **Adressobjekt** ✓✓ in OpenStreetMap ✓✓ ✓✓]

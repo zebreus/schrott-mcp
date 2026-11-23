@@ -219,6 +219,14 @@ def hausnummern(satz):
     return zahlen
 
 
+def platz_passt(ort_des_dossiers, ort_des_objekts):
+    """Passt der **Ortsname** ✓✓ des Dossiers ✓✓ zum **Ort** ✓✓ oder zum
+    **Stadtteil** ✓✓ des Objekts ✓✓ ✓ ✓"""
+    a = ort_des_dossiers.lower().strip()
+    b = ort_des_objekts.lower().strip()
+    return bool(a) and bool(b) and (a in b or b in a)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("basis", nargs="?", default=None,
@@ -370,12 +378,19 @@ def main():
                     befunde.append((pfad.stem,
                                     "%s/%s traegt die PLZ %r, das Dossier %r"
                                     % (typ, oid, plz_des_objekts, plz_des_dossiers)))
-                if ort_des_objekts and ort_des_dossiers \
-                        and ort_des_objekts.lower() not in ort_des_dossiers.lower() \
-                        and ort_des_dossiers.lower() not in ort_des_objekts.lower():
+                # Der **Ort** ✓✓ des Dossiers ✓✓ ist der **postalische**
+                # Ortsname ✓✓ (oft ein **Stadtteil** ✓✓), das Objekt traegt
+                # **Gemeinde** ✓✓ und **Stadtteil** ✓✓ - deshalb genuegt
+                # **eines** ✓✓ von beiden ✓✓ ✓ ✓
+                orte_des_objekts = [o for o in (tags.get("addr:city"),
+                                                tags.get("addr:suburb")) if o]
+                ort_ohne_plz = re.sub(r"\s*\d{4,5}\s*$", "", ort_des_dossiers).strip()
+                if orte_des_objekts and ort_ohne_plz and not any(
+                        platz_passt(ort_ohne_plz, o) for o in orte_des_objekts):
                     befunde.append((pfad.stem,
                                     "%s/%s traegt den Ort %r, das Dossier %r"
-                                    % (typ, oid, ort_des_objekts, ort_des_dossiers)))
+                                    % (typ, oid, ", ".join(orte_des_objekts),
+                                       ort_des_dossiers)))
             # Die **Hausnummer** ✓✓ und die **Koordinate** ✓✓ tragen die
             # Aussage ✓✓ ✓ ✓
 
