@@ -193,14 +193,17 @@ bei **neun** ✓✓ Dossiers je Bundesland ✓✓, weil der Pool dort noch
 ## Das neue Gate findet **drei** Befunde in einer **alten** Welle ✓ ✓
 
 Der erste Lauf des Adress-Gates ✓✓ über die Welle vom **22.11.2026, 12:00**
-✓✓ meldet **drei** Befunde ✓✓ — sie betreffen **nicht** diese Welle ✓✓ und
-**nicht** den aktuellen Release ✓✓, sind aber **echte** Fehler ✓✓ ✓ ✓
+✓✓ meldete **drei** Befunde ✓✓ — sie betrafen **nicht** diese Welle ✓✓, waren
+aber **echte** Fehler ✓✓ ✓ ✓ **Zwei** ✓✓ davon sind inzwischen **behoben** ✓✓
+(die **Korrekturrunde** ✓✓ vom 23.11.2026, 13:00 UTC ✓✓ ✓ ✓):
 
-- `rp-47285-jk-heidesheim` ✓ ✓: das Feld `postcode` ✓ ✓ trägt **47285** ✓ ✓ —
-  das ist die **Handelsregisternummer** ✓✓, nicht die Postleitzahl ✓✓ (die
-  **55262** ✓✓ lautet) ✓ ✓ **Sache** ✓ ✓ der **nächsten** ✓ ✓ Welle ✓ ✓
-- `rp-ludwigshafen-ghn` ✓ ✓: das genannte Objekt ✓ ✓ trägt den Ort
-  **Mannheim** ✓ ✓ statt **Ludwigshafen** ✓ ✓ ✓ ✓
+- `rp-47285-jk-heidesheim` ✓ ✓: das Feld `postcode` ✓ ✓ trug **47285** ✓ ✓ —
+  das war die **Handelsregisternummer** ✓✓, nicht die Postleitzahl ✓✓ (die
+  **55262** ✓✓ lautet) ✓ ✓ **Behoben** ✓ ✓
+- `rp-ludwigshafen-ghn` ✓ ✓: das genannte Objekt ✓ ✓ trug den Ort
+  **Mannheim** ✓ ✓ statt **Ludwigshafen** ✓ ✓ — **behoben** ✓ ✓ ✓ ✓
+- `rp-ludwigshafen-ghn` ✓ ✓: der **Standortpunkt** ✓ ✓ stand auf dem **fremden**
+  ✓✓ Objekt ✓✓ — **behoben** ✓ ✓ ✓ ✓
 
 ## Die Nachprüfung des Rollouts `8d496f8` wartet auf den Turnus ✓ ✓
 
