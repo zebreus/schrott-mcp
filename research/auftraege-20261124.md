@@ -460,3 +460,31 @@ jetzt **beides** ✓✓ — die Notiz **und** ✓✓ das Frontmatter ✓✓ ✓ 
 Frontmatter ✓✓ ✓ ✓ Die **Werte** ✓✓ sind **dieselben** ✓✓ wie in den Notizen
 ✓✓ ✓ ✓ **Der Rollout** ✓✓ folgt mit einem **eigenen** ✓✓ Kandidaten
 ✓✓ ✓ ✓
+
+## 10) Die **Welle vom 24.11.2026, 18:00** ✓✓ — **entschieden** ✓✓ (**24.11.2026, 19:45 UTC** ✓✓)
+
+**Recherchiert** ✓✓ ✓ ✓ **Entschieden** ✓✓ ✓ ✓ Die **Akt** ✓✓:
+`research/geo-entscheidung-20261124-1800.md` ✓✓ ✓ ✓
+
+| Wirkung ✓✓ | Zahl ✓✓ |
+|---|---|
+| **Punkt gesetzt** ✓✓ | **2** ✓✓ |
+| **Punkt ersetzt** ✓✓ | **4** ✓✓ |
+| **Punkt bleibt unverändert** ✓✓ | **6** ✓✓ |
+| **Punkt entfernt** ✓✓ | **39** ✓✓ |
+| **Kein Standortpunkt** ✓✓ | **9** ✓✓ |
+
+**Die eigene Nachmessung** ✓✓: **23** ✓✓ Adressobjekte ✓✓ aus der OSM-API
+✓✓ · **20** ✓✓ Adressen ✓✓ in der **Vorwärtssuche** ✓✓ (Nominatim ✓✓) ✓✓ ·
+**49** ✓✓ Objekte ✓✓ an **einer** ✓✓ Straße ✓✓ im Kachelraster ✓✓ ✓ ✓
+
+**Der Fund** ✓✓: `nw-herne-schrottfuchse` ✓✓ trägt eine **eigene** ✓✓
+Preisliste ✓✓ (JSON ✓✓, **zwölf** ✓✓ Materialien ✓✓) ✓✓ und
+**Container**-**Einstiegspreise** ✓✓ ✓ ✓ **Kein** ✓✓ Dossier der Welle ✓✓
+trägt eine **numerische** ✓✓ Ankaufspreisliste ✓✓ **außer** ✓✓ diesem ✓✓ ✓ ✓
+
+**Die Lehre** ✓✓: Das **Adress-Gate** ✓✓ hat eine **eigene** ✓✓ **Zahl** ✓✓
+des **Owners** ✓✓ **korrigiert** ✓✓ — „rund **1,8 km**“ ✓✓ in `nw-ibbenburen-fuhrer`
+✓✓ **waren** ✓✓ **2252 m** ✓✓ ✓ ✓
+
+**Der Release-Zyklus** ✓✓ läuft ✓✓ (Kandidat `077c6fba` ✓✓) ✓ ✓
