@@ -100,7 +100,7 @@ FIRMENFORM_RE = re.compile(r"\s*(GmbH|mbH|AG|KG|UG|OHG|SE|Ltd|Inc|e\.?\s?K\.)\b"
 OSM_SCHLUESSEL_RE = re.compile(r"`[a-z][a-z0-9_:]*`\s*=")
 DISTANZ_RE = re.compile(r"liegt \*\*([\d.,]+)\s*(m|km)\*\*")
 
-TAGS_CACHE = {}
+OBJEKT_CACHE = {}
 GEO_CACHE = {}
 # Die **Rate-Limit** ✓✓ von Nominatim ✓✓ und der OSM-API ✓✓ darf **keinen**
 # **Falschbefund** ✓✓ erzeugen ✓✓ - ein **429** ✓✓, **503** ✓✓ oder **629** ✓✓ ist
@@ -110,11 +110,14 @@ RATE_LIMIT = set()
 WARTEZEITEN = (3, 8, 20)
 
 
-def hole_tags(typ, oid):
-    """Die Tags eines Objekts - **live** aus der OSM-API ✓✓."""
+def hole_objekt(typ, oid):
+    """Die Tags **und** die Punkte eines Objekts - **live** aus der OSM-API ✓✓.
+
+    Die **Geometrie** ✓✓ wird **mitgeholt** ✓✓ - sie traegt die **Distanz**
+    ✓✓ der Notiz ✓✓ (Befund aus dem Review vom 24.11.2026 ✓✓) ✓ ✓"""
     schluessel = (typ, oid)
-    if schluessel in TAGS_CACHE:
-        return TAGS_CACHE[schluessel]
+    if schluessel in OBJEKT_CACHE:
+        return OBJEKT_CACHE[schluessel]
     url = ("https://api.openstreetmap.org/api/0.6/%s/%s.json" % (typ, oid)
            if typ == "node" else
            "https://api.openstreetmap.org/api/0.6/%s/%s/full.json" % (typ, oid))
@@ -130,19 +133,29 @@ def hole_tags(typ, oid):
                 continue
             if fehler.code in (429, 503, 629):
                 RATE_LIMIT.add(schluessel)
-            TAGS_CACHE[schluessel] = None
+            OBJEKT_CACHE[schluessel] = None
             return None
         except Exception:
-            TAGS_CACHE[schluessel] = None
+            OBJEKT_CACHE[schluessel] = None
             return None
+    tags = None
+    punkte = []
     for element in daten.get("elements", []):
         if element.get("type") == typ and str(element.get("id")) == oid:
-            TAGS_CACHE[schluessel] = element.get("tags") or {}
+            tags = element.get("tags") or {}
             break
-    else:
-        TAGS_CACHE[schluessel] = None
+    for element in daten.get("elements", []):
+        if element.get("type") == "node" and element.get("lat") is not None:
+            punkte.append((float(element["lat"]), float(element["lon"])))
+    OBJEKT_CACHE[schluessel] = {"tags": tags, "punkte": punkte}
     time.sleep(0.4)
-    return TAGS_CACHE[schluessel]
+    return OBJEKT_CACHE[schluessel]
+
+
+def hole_tags(typ, oid):
+    """Die Tags eines Objekts - **live** aus der OSM-API ✓✓."""
+    objekt = hole_objekt(typ, oid)
+    return None if objekt is None else objekt["tags"]
 
 
 def hole_geo(typ, oid):
@@ -195,6 +208,74 @@ def alter_punkt_aus_dossier(pfad):
     if not lat or not lon:
         return None
     return (float(lat.group(1)), float(lon.group(1)))
+
+
+def objekt_distanzen(typ, oid, alter_punkt):
+    """Die **Distanzen** ✓✓ vom alten Punkt zu einem Objekt ✓✓.
+
+    Es sind **drei** ✓✓: die **Objektmitte** ✓✓ (Nominatim) ✓✓, der
+    **Mittelwert** ✓✓ der eindeutigen Knoten ✓✓ ("Hausmethode" ✓✓) ✓✓ und
+    die **Spanne** ✓✓ der Knotenabstaende ✓✓ ✓✓
+
+    Die Notiz nennt die Distanz **zum Objekt** ✓✓ - sie darf an **jedem**
+    dieser Werte haengen ✓✓ ✓✓"""
+    werte = []
+    messbar = False
+    limit = (typ, oid) in RATE_LIMIT
+    geo = hole_geo(typ, oid)
+    if geo:
+        messbar = True
+        werte.append(("die Objektmitte",
+                      hav(alter_punkt[0], alter_punkt[1],
+                          float(geo["lat"]), float(geo["lon"]))))
+    objekt = hole_objekt(typ, oid)
+    punkte = (objekt or {}).get("punkte") or []
+    if punkte:
+        messbar = True
+        eindeutig = sorted(set(punkte))
+        abstaende = [hav(alter_punkt[0], alter_punkt[1], p[0], p[1])
+                     for p in eindeutig]
+        werte.append(("der Mittelwert der %d eindeutigen Knoten" % len(eindeutig),
+                      sum(abstaende) / len(abstaende)))
+        werte.append(("der naechste Knoten", min(abstaende)))
+        werte.append(("der entfernteste Knoten", max(abstaende)))
+    return werte, messbar, limit
+
+
+def distanz_passend(behauptet, werte, tol):
+    """Passt die **behauptete** ✓✓ Distanz zu den **gemessenen** ✓✓?"""
+    for bezeichnung, wert in werte:
+        if abs(wert - behauptet) <= tol:
+            return True, bezeichnung
+    if werte:
+        tief = min(w for _b, w in werte)
+        hoch = max(w for _b, w in werte)
+        if tief - tol <= behauptet <= hoch + tol:
+            return True, "die Spanne der Objektpunkte"
+    return False, None
+
+
+def distanz_entscheidung(behauptet, werte, messbar, limit):
+    """Was gilt fuer eine **behauptete Distanz** ✓✓?
+
+    * **passend** ✓✓ - sie haengt an einem der gemessenen Werte ✓✓
+    * **Befund** ✓✓ - sie ist **messbar** ✓✓ und passt **nicht** ✓✓
+    * **Luecke** ✓✓ - sie ist **nicht** messbar ✓✓ (Rate-Limit ✓✓ oder
+      fehlender alter Punkt ✓✓) ✓✓
+
+    Die Funktion ist **rein** ✓✓ - sie rechnet **ohne** Netz ✓✓ ✓✓"""
+    tol = max(150, 0.05 * behauptet)
+    if messbar and werte:
+        treffer, _bezeichnung = distanz_passend(behauptet, werte, tol)
+        if treffer:
+            return "passend", ""
+    if messbar and not limit:
+        nahe = min(werte, key=lambda w: abs(w[1] - behauptet)) if werte else None
+        return "Befund", ("die behauptete Distanz %.0f m passt nicht zur "
+                          "gemessenen Distanz (%s: %.0f m)"
+                          % (behauptet, nahe[0], nahe[1]))
+    grund = "vom Rate-Limit betroffen" if limit else "kein Objekt abrufbar"
+    return "Luecke", "die Distanz ist nicht messbar - %s" % grund
 
 
 def korrektur_abschnitt(text):
@@ -504,28 +585,47 @@ def main():
         # **Setzen** ✓✓ bezieht sie sich auf den **alten** Punkt ✓✓ vor der
         # Aenderung ✓✓, nicht auf das Zielobjekt ✓✓ ✓ ✓
         distanz = DISTANZ_RE.search(abschnitt)
-        if distanz and alter_punkt is not None:
+        if distanz:
             behauptet = float(distanz.group(1).replace(",", ".")) * (
                 1000 if distanz.group(2) == "km" else 1)
-            for typ, oid in objekte:
-                geo = hole_geo(typ, oid)
-                if not geo:
-                    continue
-                gemessen = hav(alter_punkt[0], alter_punkt[1],
-                               float(geo["lat"]), float(geo["lon"]))
-                if abs(gemessen - behauptet) <= max(150, 0.05 * behauptet):
-                    break
-            else:
+            if alter_punkt is None:
                 # Ohne den **alten** Punkt ✓✓ laesst sich die Distanz **nicht**
                 # messen ✓✓ - das ist **kein** Befund ✓✓, sondern eine
                 # **Luecke** ✓✓ der Pruefung ✓✓ ✓ ✓
-                ungeprueft.append((pfad.stem, distanz.group(0)))
+                ungeprueft.append((pfad.stem, "%s - kein alter Punkt bestimmbar"
+                                   % distanz.group(0)))
+            else:
+                alle_werte = []
+                messbar = False
+                limit = False
+                passend = False
+                for typ, oid in objekte:
+                    werte, objekt_messbar, objekt_limit = objekt_distanzen(
+                        typ, oid, alter_punkt)
+                    limit = limit or objekt_limit
+                    if not objekt_messbar:
+                        continue
+                    messbar = True
+                    alle_werte.extend(werte)
+                    treffer, _bezeichnung = distanz_passend(
+                        behauptet, werte, max(150, 0.05 * behauptet))
+                    if treffer:
+                        passend = True
+                        break
+                if not passend:
+                    entscheidung, text = distanz_entscheidung(
+                        behauptet, alle_werte, messbar, limit)
+                    if entscheidung == "Befund":
+                        befunde.append((pfad.stem, text))
+                    else:
+                        ungeprueft.append((pfad.stem, "%s - %s"
+                                           % (distanz.group(0), text)))
 
     verbind.close()
     print("Gepruefte Korrektur-Sektionen:", geprueft)
     print("Befunde:", len(befunde))
     if ungeprueft:
-        print("Nicht pruefbar (kein alter Punkt im Dossier):", len(ungeprueft))
+        print("Nicht pruefbar (Luecke der Pruefung):", len(ungeprueft))
         for slug, text in ungeprueft:
             print("  %-46s %s" % (slug[:46], text))
     for slug, text in befunde:
