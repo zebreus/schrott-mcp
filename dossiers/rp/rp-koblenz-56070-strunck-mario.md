@@ -3,9 +3,9 @@ slug: rp-koblenz-56070-strunck-mario
 name: Strünck Mario
 trader_type: schrotthaendler
 state: RP
-city: Koblenz 56070
+city: 'Koblenz'
 street: ''
-postcode: ''
+postcode: '56070'
 phone: ''
 email: ''
 opening_hours: ''
@@ -42,3 +42,7 @@ Ein aktueller Betreiberauftritt **mvst-container-dienst.de** nennt „Container 
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Kein Beleg — Websuche nach Schrotthändler "Strünck Mario" Koblenz ohne Treffer (keine Betreiber-Seite, kein Register, kein belastbarer Verzeichnis-Eintrag) → kein Fill, status weiter pruefung. Quelle(n): keine]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Koblenz** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **56070** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Strünck Mario** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

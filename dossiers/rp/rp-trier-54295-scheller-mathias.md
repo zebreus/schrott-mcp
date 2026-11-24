@@ -5,9 +5,9 @@ lon: 6.6467909
 name: Scheller Mathias
 trader_type: schrotthaendler
 state: RP
-city: Trier 54295
+city: 'Trier'
 street: ''
-postcode: ''
+postcode: '54295'
 phone: ''
 email: ''
 opening_hours: ''
@@ -112,3 +112,7 @@ Mathias/Matthias Scheller beziehungsweise MS Schrotthandel in Trier bleibt ungek
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der Punkt trifft die **Dossier-Adresse** ✓✓ (Tessenowstr. **35** ✓✓, 54295 Trier ✓✓) ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Trier** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **54295** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Scheller Mathias** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

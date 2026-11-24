@@ -3,9 +3,9 @@ slug: hb-bremen-28719-altun-dienstleistung-all-rounder
 name: Altun Dienstleistung All Rounder
 trader_type: sonstige
 state: HB
-city: Bremen 28719
+city: 'Bremen'
 street: Grönlandstr. 21
-postcode: ''
+postcode: '28719'
 phone: ''
 email: ''
 opening_hours: ''
@@ -67,3 +67,7 @@ provenance_origin: table
 ### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt in Bremen-Borgfeld, rund 8,5 km entfernt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: die Rueckaufloesung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓ und der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Bremen** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **28719** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Altun Dienstleistung All Rounder** ✓✓, Straße **Grönlandstr. 21** ✓✓ ✓✓]

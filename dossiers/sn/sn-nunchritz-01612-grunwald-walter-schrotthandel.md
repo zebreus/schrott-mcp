@@ -3,9 +3,9 @@ slug: sn-nunchritz-01612-grunwald-walter-schrotthandel
 name: Grunwald Walter Schrotthandel
 trader_type: schrotthaendler
 state: SN
-city: Nünchritz 01612
+city: 'Nünchritz'
 street: ''
-postcode: ''
+postcode: '01612'
 phone: ''
 email: ''
 opening_hours: ''
@@ -49,3 +49,7 @@ Walter Grunwald Schrotthandel in Nünchritz ist weiterhin nur eine Verzeichnissp
 
 - [Recherche 20.11.2026: Das amtliche Fachbetrieberegister (live am 20.11.2026) kennt weder unter dem Namen `Grunwald` noch an der `Müllerstraße 8, 01612 Nünchritz` einen zertifizierten Betrieb: die Namenssuche in beiden Routen liefert 0 Treffer, die Adressabfrage mit 10 km Radius liefert in der Route Entsorgungsfachbetriebe 7 Zeilen mit `Lobbe Industrieservice GmbH & Co KG Niederlassung Ost Betriebsstaette Glaubitz`, `M. Preymesser GmbH & Co. KG` und `REMONDIS Elbe-Röder GmbH, Niederlassung Riesa` und in der Route Altfahrzeugverwertung nur `AutoFritz GbH`, `Neudorfer Str. 1, 01619 Zeithain` (6,0 km). Reichweite: die Anerkennungen sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenz- und kein Schliessungsbeweis. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=`Grunwald` ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&adr=M%C3%BCllerstra%C3%9Fe+8%2C+01612+N%C3%BCnchritz (Abruf 20.11.2026).]
 - [Recherche 20.11.2026: Die Verzeichnisspur besteht unveraendert fort und ist weiterhin der einzige Beleg: Das Oertliche fuehrt `Grunwald Schrotthandel Walter` in der `Müllerstraße 8, 01612 Nünchritz`, das schrottplatz-info-Profil bleibt ein leeres Sammelprofil ohne Leistungsangebot, und die Suche im amtlichen Handelsregisterportal nach `Grunwald` Schrotthandel liefert weder einen Unternehmens- noch einen Personeneintrag. **Ankauf:** nicht belegt, keine Kurse und keine Annahmebedingungen. **Verkauf:** keine Preisliste. **Gebuehren:** keine Tarife. `street`, `postcode`, `phone`, `email` und `website` bleiben unveraendert leer, `status` bleibt pruefung; eine Schliessung wird nicht behauptet, und die alte Nummer `035265 79486` bleibt als historischer Lead in der Historie. Quelle(n): https://www.dasoertliche.de/Themen/M%C3%BCllerstra%C3%9Fe/N%C3%BCnchritz.htm ; https://www.online-handelsregister.de/suche/`Grunwald`%20Schrotthandel (Abruf 20.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Nünchritz** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **01612** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Grunwald Walter Schrotthandel** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

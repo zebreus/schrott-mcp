@@ -3,9 +3,9 @@ slug: sn-delitzsch-04509-berbalk-vieweg
 name: Berbalk & Vieweg GbR
 trader_type: sonstige
 state: SN
-city: Delitzsch 04509
+city: 'Delitzsch'
 street: ''
-postcode: ''
+postcode: '04509'
 phone: ''
 email: ''
 opening_hours: ''
@@ -54,3 +54,7 @@ Der Seed nennt Berbalk & Vieweg GbR als möglichen Autoverwerter/Autohandel in D
 ### Recherche 19.11.2026
 
 - [Recherche 19.11.2026: **Die amtliche Registersuche führt keinen Rechtsträger dieses Namens in Delitzsch oder Sachsen.** Die Suche im amtlichen Handelsregisterportal online-handelsregister.de am 19.11.2026 liefert für `Berbalk Vieweg` weder einen Unternehmen- noch einen Personentreffer. Die Einzelsuchen zeigen, worum es sich nicht handelt: zu `Berbalk` erscheinen ausschließlich Darmstädter, Pinneberger und Traunsteiner Gesellschaften wie die `Baumarkt Berbalk Walter Berbalk`, Darmstadt, HRA 2379, und die `Berbalk Management & Beteiligungs GmbH`, Darmstadt, HRB 8744; zu `Vieweg` erscheinen rund 50 Treffer, darunter die `Ernst Vieweg Gesellschaft mit beschränkter Haftung`, Stendal, HRB 201488, also ein Rechtsträger in Sachsen-Anhalt und nicht in Sachsen. Reichweite: die Suche erfasst eingetragene Unternehmen und Personen; eine nicht im Handelsregister eingetragene GbR, eine unter anderem Namen geführte Tätigkeit oder eine Person ohne Registereintrag erscheint dort nicht, das Ergebnis ist deshalb kein Nichtexistenzbeweis. Das amtliche Fachbetrieberegister liefert am 19.11.2026 in beiden Routen 0 Treffer für `Berbalk` und `Vieweg`; die Standortabfrage mit 3 km um 04509 Delitzsch liefert 6 Efb-Treffer, darunter die Kreiswerke Delitzsch GmbH, Benndorfer Landtstraße 1, in 1,7 km, die Anlagenbau Umweltprojekt GmbH, Benndorfer Landstraße 1, in 1,7 km, die MUEG Mitteldeutsche Umwelt- und Entsorgung GmbH, Flur 3, 04509 Wiedemar OT Zwochau, in 2,8 km, und die Mineralölhandel Hans Schmidt GmbH & Co. KG Delitzsch, Rudolf-Diesel-Straße 9, in 3,1 km, sowie 0 AltfahrzeugV-Treffer; auch diese Anerkennungen sind freiwillig. Die im Dossier vermerkte Produktionskoordinate 51.5255/12.3428 ist die Ortsmitte Delitzsch und kein Adresspunkt, sie wurde gemessen und nicht eigenmächtig geändert. **Ankauf:** nicht belegt, keine Preise; **Verkauf:** keine Fahrzeug- oder Teileliste; **Gebühren:** keine Tarife. Keine Frontmatter-Änderung. Quellen: https://www.online-handelsregister.de/suche/Berbalk%20Vieweg ; https://www.online-handelsregister.de/suche/Vieweg ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Berbalk .]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Delitzsch** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **04509** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Berbalk & Vieweg GbR** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

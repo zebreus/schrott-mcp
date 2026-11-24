@@ -4,9 +4,9 @@ clear_fields: 'geo'
 name: Eckstein Ricardo Schrotthandel u. Lehmann Antonia
 trader_type: schrotthaendler
 state: BY
-city: Amorbach 63916
+city: 'Amorbach'
 street: ''
-postcode: ''
+postcode: '63916'
 phone: ''
 email: ''
 opening_hours: ''
@@ -141,3 +141,7 @@ Unbestätigter Doppelname aus Schrottplatz-Portalen: Eckstein Ricardo Schrotthan
   `description` und alle übrigen Felder bleiben unverändert. **Reichweitenklausel:** das Fehlen einer Hausnummer oder eines
   OSM-Betriebsbezugs ist **kein** Existenz- oder Schließungsbeweis. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=9.1900,49.6400,9.2200,49.6600 (live abgerufen 05.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Amorbach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63916** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Eckstein Ricardo Schrotthandel u. Lehmann Antonia** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

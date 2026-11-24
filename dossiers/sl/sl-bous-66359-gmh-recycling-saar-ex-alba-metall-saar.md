@@ -3,9 +3,9 @@ slug: sl-bous-66359-gmh-recycling-saar-ex-alba-metall-saar
 name: GMH Recycling Saar GmbH (ex-ALBA Metall Saar)
 trader_type: schrotthaendler
 state: SL
-city: Bous 66359
+city: 'Bous'
 street: Saarstr. 1
-postcode: ''
+postcode: '66359'
 phone: ''
 email: ''
 opening_hours: ''
@@ -50,3 +50,7 @@ trägt die Hausnummer 1 keinen Betriebsnamen, Preise sind nicht veröffentlicht.
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate geändert**: die Hausnummer 1 ist auf der Saarstraße **zweifach** adressiert, in zwei Orten - way/314705196 trägt `addr:housenumber`=1, `addr:street`=Saarstraße, `addr:city`=Bous, `addr:postcode`=66359 (das entspricht der Dossier-Adresse „Bous 66359“), way/318929777 trägt dieselbe Nummer mit `addr:city`=Wadgassen, `addr:postcode`=66787 (die Straße läuft nach Wadgassen weiter). Quelle 1 (OSM): zwei Adressobjekte, beide ohne `name`/`operator`. Quelle 2 (Betreiber): die Standortseite der GMH Gruppe führt Bous zwar als GMH-Recycling-Standort (maschinenlesbarer Eintrag „GMH Recycling GmbH“ mit Ort-Feld „Osnabrück, Dortmund, Bous“), lässt aber offen, „ob die Anschrift Saarstraße 1 noch die genutzte ist“; das Registerprofil nennt den Rechtsträger „GMH Recycling Saar GmbH, Bous, Amtsgericht Saarbrücken HRB 15556“ ohne Straße. Die zweite Quelle trägt damit die Anschrift nicht belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/314705196.json ; https://api.openstreetmap.org/api/0.6/way/318929777.json ; https://www.gmh-gruppe.de/ (Abruf 31.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Bous** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **66359** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **GMH Recycling Saar GmbH (ex-ALBA Metall Saar)** ✓✓, Straße **Saarstr. 1** ✓✓ ✓✓]

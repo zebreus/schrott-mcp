@@ -3,9 +3,9 @@ slug: he-offenbach-63075-schrott-becker
 name: Schrott-Becker
 trader_type: schrotthaendler
 state: HE
-city: Offenbach 63075
+city: 'Offenbach'
 street: ''
-postcode: ''
+postcode: '63075'
 phone: ''
 email: ''
 opening_hours: ''
@@ -54,3 +54,7 @@ provenance_origin: table
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine Betreiber-Website, kein Registerbeleg gefunden. Leads (keine Belege): Lämmerspieler Weg, 63075 Offenbach aus lokalen Branchenportalen (rm-kurier, darmstadt-post, vorstadt-post) und 11880. Felder bleiben leer, website_status unbekannt; Quelle(n): 11880.de, rm-kurier.de (nur Leads)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Offenbach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63075** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrott-Becker** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

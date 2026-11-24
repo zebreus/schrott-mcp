@@ -3,9 +3,9 @@ slug: he-limeshain-63694-schrottschneider
 name: Schrottschneider
 trader_type: schrotthaendler
 state: HE
-city: Limeshain 63694
+city: 'Limeshain'
 street: ''
-postcode: ''
+postcode: '63694'
 phone: ''
 email: ''
 opening_hours: ''
@@ -76,3 +76,7 @@ Für Schrottschneider gibt es weiterhin keinen verifizierten Betreiber- oder Reg
 ### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers **46a, Händelstraße, 63694 Limeshain** (way/441506768) und damit auf einer anderen Strasse als die Verzeichnisadresse **Haincher Straße** (Rommelhausen); die Hausnummer dort ist adressgenau belegt (way/440037755, Haincher Straße 10), **der Betrieb selbst ist dort aber nicht** — deshalb entsteht **kein** Ersatzpunkt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ — die Adresse selbst ist ein **Verzeichnislead** ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Limeshain** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63694** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrottschneider** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

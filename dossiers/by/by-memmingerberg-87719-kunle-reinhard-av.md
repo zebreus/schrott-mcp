@@ -3,9 +3,9 @@ slug: by-memmingerberg-87719-kunle-reinhard-av
 name: Künle Reinhard AV
 trader_type: sonstige
 state: BY
-city: Memmingerberg 87719
+city: 'Memmingerberg'
 street: ''
-postcode: ''
+postcode: '87719'
 phone: ''
 email: ''
 opening_hours: ''
@@ -57,3 +57,7 @@ Reinhard Künle lässt sich historisch als Autoverwertung in Memmingerberg konkr
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **521 m** vom betriebsbenannten OSM-Objekt **way/301092038** ✓✓ (`name`=Autoverwertung Künle Reinhard ✓✓ — **ohne** `addr:*`-Tags ✓✓) am Standort **Am Ziegelstadel 1 A** ✓✓, 87766 Memmingerberg ✓✓ entfernt — er trifft die **Schwabenstraße** ✓✓, OT Künersberg ✓✓ ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße ✓✓; ein **adressiertes** Objekt ✓✓ mit der **Hausnummer 1 A** ✓✓ existiert in OSM **nicht** ✓✓ ✓ ✓ Der Beleg für die Adresse: das **amtliche Fachbetrieberegister** ✓✓ (`Autoverwertung Reinhard Künle` ✓✓, AfV-Demontagebetrieb ✓✓, ZAHS01800125 ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Memmingerberg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **87719** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Künle Reinhard AV** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

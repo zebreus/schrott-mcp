@@ -3,9 +3,9 @@ slug: mv-rechlin-17248-red-rechlin
 name: RED GmbH Rechlin
 trader_type: sonstige
 state: MV
-city: Rechlin 17248
+city: 'Rechlin'
 street: ''
-postcode: ''
+postcode: '17248'
 phone: ''
 email: ''
 opening_hours: ''
@@ -46,3 +46,7 @@ Der Seedname lässt sich mit der früheren **RED GmbH Rechlin**, HRB 4879 Neubra
 ### Recherche 18.11.2026
 
 - [Recherche 18.11.2026: Die Rechtsträgerkette ist jetzt um den Registerwechsel und den Insolvenzschritt ergänzt. Die Unternehmenschronik des Registerspiegels führt RED GmbH Waldheim (i. L.) mit der Identifikation `Amtsgericht Chemnitz HRB 36121` und der früheren Identifikation `Amtsgericht Neubrandenburg HRB 4879`, mit der Anschrift `Landsberger Str. 54, D-04736 Waldheim Röbel/Müritz` und dem Unternehmensgegenstand Recycling von Abbruch- und Baumaterialien, Erschließung von Grundstücken, Dienstleistungen im Bereich Hoch- und Tiefbau, Handel mit Baustoffen und Baumaschinen aller Art. Die Chronik nennt die Eintragung vom 13.11.2023 (Umfirmierung von RED GmbH Rechlin in RED GmbH Waldheim, Sitzverlegung, Kapital 26.000 Euro), die Sitzverlegung vom 16.11.2023 unter ausdrücklichem Hinweis des Registerwechsels zum Amtsgericht Chemnitz HRB 36121 und die Liquidation vom 08.10.2024 nach Beschluss des Amtsgerichts Chemnitz vom 02.08.2024, AZ 301 IN 1495/24, mit vorläufigem Insolvenzverwalter. Die amtliche Handelsregistersuche bestätigt die aktuelle Registrierung (RED GmbH Waldheim, Amtsgericht Chemnitz, HRB 36121) unabhängig vom Spiegel. Die Umfirmierung und die Sitzverlegung geschahen also nach der Umfirmierung von Rechlin, die Gesellschaft führt heute keine rechliner Betriebsadresse mehr, und das Insolvenzverfahren betrifft die Waldheimer Gesellschaft, nicht einen Rechliner Annahmebetrieb. Das Portal Schrottplatz.org führt den alten Standort weiterhin (Neuer Markt 26, 17248 Rechlin, 039823/20450, Fax 039823/451, Amtsgericht Neubrandenburg, Rechtsform GmbH) und ist damit ein Verzeichnisrest zur früheren Firmierung; die 5-km-Standortabfrage im amtlichen Fachbetrieberegister (live am 18.11.2026) liefert in beiden Routinen 0 Zeilen, in Rechlin ist kein zertifizierter Betrieb verzeichnet. Reichweite: ein Register-Nichteintrag ist kein Nichtexistenzbeweis, und eine unter anderer Firmierung fortgeführte Tätigkeit am Neuer Markt 26 bleibt damit nicht ausgeschlossen; die Insolvenz der Waldheimer Gesellschaft ist von einer etwaigen Fortführung des Rechliner Standorts zu trennen. ANKAUF/VERKAUF/GEBÜHREN: keine dem Dossier zugeordnete Preisliste oder Tarifangabe. Quellen: https://www.northdata.de/RED%20GmbH%20Waldheim,%20Waldheim/Amtsgericht%20Neubrandenburg%20HRB%204879 ; https://www.online-handelsregister.de/suche/RED%20GmbH%20Waldheim ; https://www.schrottplatz.org/rechlin/red-gmbh-rechlin-212756.html (Abruf 18.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Rechlin** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **17248** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **RED GmbH Rechlin** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

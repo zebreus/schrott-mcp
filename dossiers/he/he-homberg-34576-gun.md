@@ -3,9 +3,9 @@ slug: he-homberg-34576-gun
 name: Gün
 trader_type: sonstige
 state: HE
-city: Homberg 34576
+city: 'Homberg'
 street: ''
-postcode: ''
+postcode: '34576'
 phone: ''
 email: ''
 opening_hours: ''
@@ -42,3 +42,7 @@ Ein plausibler Kandidat ist nun der Betreiberauftritt **Abschlepp- und Bergungsd
 
 - Abschlepp + AV?
 - Adresse: Homberg 34576
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Homberg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **34576** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Gün** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: sl-volklingen-66333-goldankauf-am-markt-susanne-kluesener-ta
 name: Goldankauf am Markt (Susanne Kluesener-Taube)
 trader_type: sonstige
 state: SL
-city: Völklingen 66333
+city: 'Völklingen'
 street: Marktstr. 2a
-postcode: ''
+postcode: '66333'
 phone: 06898 4982577
 email: ''
 opening_hours: ''
@@ -61,3 +61,7 @@ Die Betreiber-Domain ist per HTTP direkt erreichbar und zeigt die Aussage "Seit 
 - [Recherche 21.11.2026: Amtliches Handelsregisterportal, live am 21.11.2026: die Suche Goldankauf am Markt liefert keinen Rechtsträger; die Suche Kluesener nur die H. Kluesener Unternehmensberatung Limited Zweigniederlassung Köln (HRB 66699), keinen Eintrag in Völklingen. Reichweitenklausel: ein Einzelunternehmen ohne HRB wird nicht zwangsläufig eingetragen, ein Nichteintrag ist kein Nichtexistenzbeweis. Quelle(n): https://www.online-handelsregister.de/suche/Goldankauf%20am%20Markt ; https://www.online-handelsregister.de/suche/Kluesener (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Die Betreiber-Domain meldet am 21.11.2026 unverändert Goldankauf am Markt, 66333 Völklingen, seit 01.07.2026 geschlossen, und nennt kontakt@goldankauf-am-markt.de; ein Impressum, ein Personenname und eine Registernummer fehlen weiterhin. **Die Schließung bleibt damit eine nicht unabhängig zugeordnete Selbstaussage der Domain und reicht nicht für den Status geschlossen am auf Susanne Kluesener-Taube bezogenen Datensatz.** OSM führt Marktstraße 2a, 66333 Völklingen als node/3660135325 mit dem Objektnamen Smart Shop (shop=kiosk, amenity=post_office) ohne Betreiberbezug; die Frontmatter-Felder bleiben unverändert und es wird nicht geokodiert. Quelle(n): http://goldankauf-am-markt.de/ ; https://api.openstreetmap.org/api/0.6/node/3660135325.json (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Preise getrennt geführt. **ANKAUF** keine aktuellen, zurechenbaren Kurse; die auf der Portalseite gold.de veröffentlichten Seitenkurse und Spotwerte sind allgemeine Marktwerte und keine Händlerpreisliste dieses Betriebs. **VERKAUF** keine Preisliste. **GEBÜHREN** keine Angaben. Quelle(n): siehe oben.]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Völklingen** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **66333** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Goldankauf am Markt (Susanne Kluesener-Taube)** ✓✓, Straße **Marktstr. 2a** ✓✓ ✓✓]

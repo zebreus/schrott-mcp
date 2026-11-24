@@ -3,9 +3,9 @@ slug: he-frankfurt-60386-autoverschrottung-cassellastr
 name: Autoverschrottung (Cassellastr.)
 trader_type: schrotthaendler
 state: HE
-city: Frankfurt 60386
+city: 'Frankfurt'
 street: ''
-postcode: ''
+postcode: '60386'
 phone: (01520) 4045656
 email: ''
 opening_hours: ''
@@ -109,3 +109,7 @@ Generischer Autoverschrottungslead in Frankfurt-Fechenheim, ohne identifizierten
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **7,6 km** vom Adressobjekt **Cassellastraße 31, 60386 Frankfurt am Main** (way/48466503, `addr:housenumber`=31) entfernt — er trifft **Senckenberganlage 30, 60325 Frankfurt am Main** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **7,6 km** entfernt in einem anderen Stadtteil ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Frankfurt** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **60386** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoverschrottung (Cassellastr.)** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

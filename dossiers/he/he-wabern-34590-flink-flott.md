@@ -3,9 +3,9 @@ slug: he-wabern-34590-flink-flott
 name: Flink & Flott
 trader_type: schrotthaendler
 state: HE
-city: Wabern 34590
+city: 'Wabern'
 street: ''
-postcode: ''
+postcode: '34590'
 phone: ''
 email: ''
 opening_hours: ''
@@ -70,3 +70,7 @@ clear_fields: 'geo'
 - [Recherche 21.11.2026: Das 11880-Profil wurde am 21.11.2026 live erneut gelesen; es besteht fort und ist unverändert: `Flink & Flott Schrotthandel`, Bahnhofstr. 19, 34590 Wabern, Telefon (05683) 922594, Branchen Altmaterialhandel und Schrotthandel, weiterhin die Platzhalter `Öffnungszeiten hinzufügen`, `E-Mail-Adresse hinzufügen` und `Website hinzufügen`, also weder hinterlegte Öffnungszeiten noch E-Mail noch Website, und keine Bewertung. Der Seitentitel weist den Portalstand Oktober 2026 aus; ein Portalaktualisierungsvermerk ist kein Inhaber- oder Annahmenachweis. Der Eintrag bleibt ein einzelner Verzeichnislead, eine zweite unabhängige Quelle liegt nicht vor, `status` bleibt `pruefung` und die Felder bleiben unverändert. Quelle: https://www.11880.com/branchenbuch/wabern-hessen/120674719B100944962/flink-flott-schrotthandel.html (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Eine eigene Website gibt es nicht: die Domain `flink-flott.de` löst nicht mehr auf (DNS-Fehler ENOTFOUND, Abruf 21.11.2026), und das Webarchiv enthält von ihr nur einen WordPress-Standardeintrag vom 07.11.2018 mit dem Titel `Hallo Welt!` und dem Text `Dies ist der erste Beitrag` (Autor `jc`), also keine Inhalte zu einem Schrottbetrieb. Damit ist der im Dossier nicht weiter belegte Domain-Lead `flink-flott.de` als leerer bzw. nicht mehr existierender Auftritt abgegrenzt; ein Namensvetter ist er nicht, da kein Bezug zu Wabern erkennbar ist. Preise getrennt geführt: ANKAUF keine Kurse, VERKAUF keine Liste, GEBÜHREN keine Tarife; die 11880-FAQ zur allgemeinen Preisspanne bleibt eine Portal-Standardangabe ohne Händlerbezug. Quelle(n): https://web.archive.org/web/20181107005258id_/http://flink-flott.de/ (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Das amtliche Fachbetrieberegister wurde am 21.11.2026 mit einer breiteren Namensvariante nachgezogen: die Namenssuche `Flink` in der Route `Entsorgungsfachbetriebe` (dst=10, is=1&e=1) liefert 0 Treffer; die Route `Altfahrzeugverwertung` war bereits am 07.11.2026 mit `Flink & Flott` (0 Treffer) und die Standortsuche um Bahnhofstr. 19, 34590 Wabern mit 3 km (0 Treffer) sowie 10 km (3 Treffer, darunter `PreZero Service Nordhessen GmbH`, Heidholzweg 8, 34295 Edermünde, ein Fremdbetrieb) geprüft. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nichtexistenz- und kein Schließungsbeweis; das Feld `certifications` bleibt leer. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Flink (Abruf 21.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Wabern** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **34590** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Flink & Flott** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: he-kirtorf-36320-hahny-s
 name: Hahny's
 trader_type: schrotthaendler
 state: HE
-city: Kirtorf 36320
+city: 'Kirtorf'
 street: ''
-postcode: ''
+postcode: '36320'
 phone: ''
 email: ''
 opening_hours: ''
@@ -39,3 +39,7 @@ provenance_origin: table
 
 - [30.10.2026 (Korrekturvermerk): die Nachmessung am 30.10.2026 im 350-m-Radius um den Seed-Punkt 50.7694/9.1039 ergibt **50** Adressobjekte und **50** verschiedene Hausnummern (bisher „nur 2 (66 und 68)“); **die Hausnummer 42 existiert dort** — way/580435673 trägt `addr:housenumber=42`, `addr:street=Marburger Straße`, `addr:postcode=36320`, `addr:city=Kirtorf`, `building=yes` und liegt 170 m vom Seed-Punkt entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/580435673/full (Abruf 30.10.2026) ]
 
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Kirtorf** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **36320** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Hahny's** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

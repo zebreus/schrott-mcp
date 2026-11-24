@@ -3,10 +3,10 @@ slug: sl-saarlouis-66740-kirchner-herbert-schrottplatz
 name: Kirchner Herbert Schrottplatz
 trader_type: schrottplatz
 state: SL
-city: Saarlouis 66740
+city: 'Saarlouis'
 certifications: '["AltfahrzeugV: kein Eintrag im amtlichen Fachbetrieberegister für einen Schrottplatz Kirchner Herbert an dem Ostring 106, 66740 Saarlouis (Abruf 19.11.2026; die Standortabfrage mit 2 km um die Dossier-Adresse liefert in der Route Altfahrzeugverwertung genau eine Zeile, die Autoverwertung Roman Fontaine, Ostring 106, 66740 Saarlouis, ZAHS01800094 / 1, also einen anderen Rechtstraeger an derselben Hausnummer, und in der Route Entsorgungsfachbetriebe 4 Zeilen, darunter die REMONDIS Industrie Service GmbH & Co. KG, NL Saarlouis, Ostring 55, ZZMT00300016 / 2 und / 3; die Zertifizierungen dieser Nachbarbetriebe werden diesem Eintrag nicht zugerechnet, die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig und ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Schliessungsbeleg)"]'
 street: ''
-postcode: ''
+postcode: '66740'
 phone: 06831 86198
 email: ''
 opening_hours: ''
@@ -62,3 +62,7 @@ Ein aktuelles Schrottplatz-Info-Profil führt Kirchner Herbert, Ostring 106, 667
 ### Korrektur 19.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 19.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **3833 m** von der belegten Anschrift **Ostring 106, 66740 Saarlouis** entfernt — die Straße liegt im Ortsteil **Fraulautern** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 19.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Saarlouis** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **66740** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Kirchner Herbert Schrottplatz** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

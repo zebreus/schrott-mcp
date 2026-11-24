@@ -3,9 +3,9 @@ slug: he-grundau-63584-udo-metallhandel-containerservice
 name: Udo Metallhandel/Containerservice
 trader_type: metallhaendler
 state: HE
-city: Gründau 63584
+city: 'Gründau'
 street: ''
-postcode: ''
+postcode: '63584'
 phone: ''
 email: ''
 opening_hours: ''
@@ -56,3 +56,7 @@ Weiterhin nur ein Verzeichnis-Lead „Udo Metallhandel aller Art Containerservic
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **443 m** von **way/142060844** ✓✓ entfernt — er trifft **Autohandel Gründau, 16, Leipziger Straße, Lieblos, Gründau, Main-Kinzig-Kreis, Hessen, 63584, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft einen **anderen Betrieb** ✓✓ — einen **Autohandel** ✓✓ ✓ ✓ Das **Adressobjekt** ✓✓ trägt die **Hausnummer 11** ✓✓ der Höhenstraße ✓✓ ohne Betriebsbezug ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Gründau** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63584** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Udo Metallhandel/Containerservice** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

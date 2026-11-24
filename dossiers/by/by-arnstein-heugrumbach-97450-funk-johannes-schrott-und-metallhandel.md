@@ -3,9 +3,9 @@ slug: by-arnstein-heugrumbach-97450-funk-johannes-schrott-und-metallhandel
 name: Funk Johannes Schrott und Metallhandel
 trader_type: metallhaendler
 state: BY
-city: Arnstein-Heugrumbach 97450
+city: 'Arnstein-Heugrumbach'
 street: ''
-postcode: ''
+postcode: '97450'
 phone: 09363 997311
 email: ''
 opening_hours: ''
@@ -54,3 +54,7 @@ Keine eigene Website, Preise oder aktuelle Abholbedingungen belegt. Nicht mit we
   **Kontrolle und Abgrenzung:** Die Standortsuche mit validiertem `adr=`-Parameter (97450 Heugrumbach) liefert im 3-km-Radius 0 und im 10-km-Radius 1 Treffer (`Beurerlein GmbH & Co. KG Recyclinganlage Erbshausen`, Flr.-Nr. 1568, 1568/1, Gemarkung Erbshausen -, 97262 Erbshausen, `ZZFT00300171 / 9`, 8,3 km) — **kein Eintrag in Heugrumbach**. Die Namenssuche `n=„Funk“` liefert 10 Treffer, darunter `Kai Funk Frankenmetalle Anlage / Unternehmen`, Adolf-Oesterheld-Straße 23, 97337 Dettelbach (`ZZLT00400035 / 1` bis `/ 3`) — **Namensvetter: anderer Betrieb, anderer Ort (Dettelbach), nicht übernommen**; `n=„Funk Johannes“` → 0 Treffer. Die Route „Altfahrzeugverwertung“ ergibt in beiden Radien und in der Namenssuche 0 Treffer.
   **Reichweite der Registerabfrage (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App; Filter „Art des Betriebs = Egal“ durchgehend is=1&e=1; Namenssuche dst=10; Standortsuche mit PLZ-validiertem adr=Parameter, Radien 3 km und 10 km; Ergebnisgrid vollständig durchscrollt):** Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„97450 Heugrumbach, Deutschland“ dst=10 (is=1, e=1) → 0 Treffer; Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„97450 Heugrumbach, Deutschland“ dst=3 (is=1, e=1) → 0 Treffer; Route „Altfahrzeugverwertung“ Namenssuche n=„Funk“ (dst=10, is=1, e=1) → 0 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„97450 Heugrumbach, Deutschland“ dst=10 (is=1, e=1) → 1 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„97450 Heugrumbach, Deutschland“ dst=3 (is=1, e=1) → 0 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Funk“ (dst=10, is=1, e=1) → 10 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Funk Johannes“ (dst=10, is=1, e=1) → 0 Treffer.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=…&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Funk (Abruf 04.11.2026). Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass ein Betrieb keine Anerkennung besitzt]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Arnstein-Heugrumbach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **97450** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Funk Johannes Schrott und Metallhandel** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

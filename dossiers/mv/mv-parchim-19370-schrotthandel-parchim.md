@@ -5,9 +5,9 @@ lon: 11.8198620
 name: Schrotthandel Parchim
 trader_type: schrotthaendler
 state: MV
-city: Parchim 19370
+city: 'Parchim'
 street: ''
-postcode: ''
+postcode: '19370'
 phone: ''
 email: ''
 opening_hours: ''
@@ -97,3 +97,7 @@ Der aktuelle Treffer bei Nordkurier ist ausdrücklich ein "Standard Profil"/Anze
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der Punkt trifft die **Dossier-Adresse** ✓✓ (Juri-Gagarin-Ring **10** ✓✓, 19370 Parchim ✓✓) ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Parchim** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **19370** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrotthandel Parchim** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

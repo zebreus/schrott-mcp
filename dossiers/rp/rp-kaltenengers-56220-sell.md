@@ -3,9 +3,9 @@ slug: rp-kaltenengers-56220-sell
 name: Sell
 trader_type: schrotthaendler
 state: RP
-city: Kaltenengers 56220
+city: 'Kaltenengers'
 street: ''
-postcode: ''
+postcode: '56220'
 phone: ''
 email: ''
 opening_hours: ''
@@ -64,3 +64,7 @@ Sell bleibt ein nicht verifizierter Kandidat. Verzeichnisse nennen Gartenstraße
 ### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers **Raststätte Kaltengers, Auf den Weiden, 56220 Kaltenengers** (node/10295800745) — also eine **Autobahn-Raststätte** ✓ und damit nicht am Dossier-Ort ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ — die Adresse selbst ist ein **Verzeichnislead** ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Kaltenengers** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **56220** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Sell** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

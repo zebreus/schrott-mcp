@@ -3,9 +3,9 @@ slug: he-wiesbaden-65189-av
 name: AV
 trader_type: autoverwertung
 state: HE
-city: Wiesbaden 65189
+city: 'Wiesbaden'
 street: ''
-postcode: ''
+postcode: '65189'
 phone: ''
 email: ''
 opening_hours: ''
@@ -64,3 +64,7 @@ provenance_origin: table
 ### Recherche 07.11.2026
 
 - [Recherche 07.11.2026: **Kein Registereintrag für das Kürzel „AV“ und für keinen der beiden Kandidaten; in Wiesbaden selbst ist kein zertifizierter Demontagebetrieb ausgewiesen.** Im amtlichen Fachbetrieberegister (clientseitig gerenderte Vaadin-App, live abgefragt am 07.11.2026) liefern die Namenssuchen `n=ONBI` und `n=Lahib` in **beiden** Routen **0 Treffer**; für das Kürzel selbst ist eine Namenssuche nicht möglich. Die Radiusabfrage um 65189 Wiesbaden liefert im 3-km-Radius in der Route „Entsorgungsfachbetriebe“ **4 Treffer**, sämtlich Fremdbetriebe: „GWT Gesellschaft“, Coulinstraße 11, 65183 Wiesbaden (`ZZFT01300134 / 1`, Handeln und Makeln, 1,1 km), „Interzero Repasack GmbH / Wiesbaden“, Nerotal 4, 65193 Wiesbaden (`ZZET01700140 / 1`, 1,6 km), „ELW Entsorgungsbetriebe der Landeshauptstadt Wiesbaden / Wertstoffhof Bierstadt“, Kloppenheimer Straße 30, 65191 Wiesbaden-Bierstadt (`ZZET01700037 / 8`, Sammeln und Lagern, 2,6 km) und „rm-trade GmbH“, Mainzer Straße 117, 65189 Wiesbaden (`ZZGT00200043 / 1`, 2,7 km); in der Route „Altfahrzeugverwertung“ **0 Treffer**. Der 10-km-Radius liefert genau **1** AltfahrzeugV-Betrieb, die „Franco Navigato KFZ-Reifen-Handel Gebr. Ersatzteile“, Industriestraße 16, 55120 Mainz, `ZAHS01800033 / 1`, 7,0 km; im 20-km-Radius kommen „Auto Check Ferdinand Gandyra“, Feldbergstraße 14, 65239 Hochheim, `ZAKS00200006 / 1`, 11,1 km, und die „Auto-Recyclinganlage-Ziegler“, Weiherstraße 9, 65439 Flörsheim, `ZAES00500006 / 1`, 14,7 km, hinzu. Für den namenlosen Seed-Eintrag „AV“ in 65189 Wiesbaden ist damit **weder** eine EfbV- **noch** eine AltfahrzeugV-Anerkennung belegt, und **keiner** der beiden Kandidaten (ONBI GmbH, A. Lahib) ist im Register geführt. Das stützt die bereits am 03.10.2026 und 31.10.2026 dokumentierte Unzuordenbarkeit des Seed-Kürzels, ersetzt aber **nicht** die Klärung des vollständigen Gewerbenamens. Reichweite: beide Anerkennungen sind **freiwillig**, ein Register-Nichteintrag ist **kein** Nachweis, dass die genannten Betreiber keine Anerkennung besitzen. **ANKAUF:** kein Betrag für den Seed. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=ONBI ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=ONBI ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Lahib ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Lahib ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=65189%20Wiesbaden%2C%20Deutschland%3B8.2552746%3B50.0841735%3B8.3452746%3B50.1341735%3B8.1652746%3B50.0341735&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=65189%20Wiesbaden%2C%20Deutschland%3B8.2552746%3B50.0841735%3B8.3452746%3B50.1341735%3B8.1652746%3B50.0341735&dst=3&is=1&e=1 (Abruf 07.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Wiesbaden** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **65189** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **AV** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

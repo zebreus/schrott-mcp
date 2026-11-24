@@ -3,9 +3,9 @@ slug: he-pfungstadt-64319-gotz-joachim
 name: Götz Joachim
 trader_type: schrotthaendler
 state: HE
-city: Pfungstadt 64319
+city: 'Pfungstadt'
 street: ''
-postcode: ''
+postcode: '64319'
 phone: ''
 email: ''
 opening_hours: ''
@@ -42,3 +42,7 @@ Ein einzelnes 11880-Verzeichnisprofil führt „Joachim Götz Schrotthandel“ i
 
 - Kleinst-Schrotthändler
 - Adresse: Pfungstadt 64319
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Pfungstadt** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **64319** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Götz Joachim** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

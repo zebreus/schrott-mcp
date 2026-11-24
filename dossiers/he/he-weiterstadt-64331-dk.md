@@ -3,9 +3,9 @@ slug: he-weiterstadt-64331-dk
 name: Dk
 trader_type: schrotthaendler
 state: HE
-city: Weiterstadt 64331
+city: 'Weiterstadt'
 street: ''
-postcode: ''
+postcode: '64331'
 phone: ''
 email: ''
 opening_hours: ''
@@ -46,3 +46,7 @@ Der Seed „Dk“ in Weiterstadt ist nicht eindeutig genug, um ihn einem Betrieb
 
 - Kleinst-Schrotthändler
 - Adresse: Weiterstadt 64331
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Weiterstadt** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **64331** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Dk** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

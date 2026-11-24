@@ -3,9 +3,9 @@ slug: he-zwingenberg-64673-gerhardt-august
 name: Gerhardt August
 trader_type: schrotthaendler
 state: HE
-city: Zwingenberg 64673
+city: 'Zwingenberg'
 street: ''
-postcode: ''
+postcode: '64673'
 phone: ''
 email: ''
 opening_hours: ''
@@ -42,3 +42,7 @@ provenance_origin: table
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Mehrere Branchenverzeichnisse führen „Gerhardt August“ als Schrottbetrieb in Zwingenberg; ein Suchtreffer nennt Hohl 27a, 64673. Das sind ausschließlich Aggregator-Leads ohne Betreiber-/Register-/Kommunalbestätigung. Straße und PLZ bleiben daher leer, keine Öffnungszeiten/Kontakte übernommen und kein aktueller Status abgeleitet. Restunsicherheit: Identität, Hausnummer und aktuelle Tätigkeit ungeklärt; Quelle(n): https://www.schrottplatz.org/zwingenberg/schrott-gerhardt-august-aYEPvf.html ; https://www.schrottplatz-info.de/schrottplatz/Zwingenberg/Gerhardt-August ; https://www.misterwhat.de/company/72329-gerhardt-august-zwingenberg]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Zwingenberg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **64673** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Gerhardt August** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

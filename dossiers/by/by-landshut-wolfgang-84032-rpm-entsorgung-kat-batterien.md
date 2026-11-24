@@ -3,9 +3,9 @@ slug: by-landshut-wolfgang-84032-rpm-entsorgung-kat-batterien
 name: RPM Entsorgung Kat/Batterien
 trader_type: sonstige
 state: BY
-city: Landshut-Wolfgang 84032
+city: 'Landshut-Wolfgang'
 street: ''
-postcode: ''
+postcode: '84032'
 phone: ''
 email: ''
 opening_hours: ''
@@ -54,3 +54,7 @@ provenance_origin: table
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,4 km** von **way/192330611** ✓✓ entfernt — er trifft **10, Staudenrausstraße, Nikola, Landshut, Bayern, 84034, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **1449 m** ✓✓ vom belegten Standort entfernt ✓✓ ✓ ✓ Der Betrieb ist **geschlossen** ✓✓ — es gibt **keine** zu bestätigende **Annahmestelle** ✓ ✓ Eine Setzung würde einen **geschlossenen** Betrieb verorten ✓ ✓ Der Punkt wird **entfernt** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Landshut-Wolfgang** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **84032** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **RPM Entsorgung Kat/Batterien** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

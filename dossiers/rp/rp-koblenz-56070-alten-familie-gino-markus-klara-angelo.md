@@ -3,9 +3,9 @@ slug: rp-koblenz-56070-alten-familie-gino-markus-klara-angelo
 name: Alten-Familie (Gino/Markus/Klara/Angelo)
 trader_type: schrotthaendler
 state: RP
-city: Koblenz 56070
+city: 'Koblenz'
 street: ''
-postcode: ''
+postcode: '56070'
 phone: ''
 email: ''
 opening_hours: ''
@@ -64,3 +64,7 @@ Das Dossier beschrieb einen vermuteten Familien-Schrotthandel; die Recherche vom
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der **Sammel-Cluster** ✓✓ hat **keine** gemeinsame Anschrift ✓✓ — die Verzeichnisansichten liefern **widersprüchliche** ✓✓ Anschriften ✓✓, es wird **nichts** neu verortet ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Koblenz** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **56070** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Alten-Familie (Gino/Markus/Klara/Angelo)** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

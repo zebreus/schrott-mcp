@@ -3,9 +3,9 @@ slug: he-waldbrunn-65620-ellar-seelbach-niedworok
 name: Ellar/Seelbach/Niedworok
 trader_type: schrotthaendler
 state: HE
-city: Waldbrunn 65620
+city: 'Waldbrunn'
 street: ''
-postcode: ''
+postcode: '65620'
 phone: ''
 email: ''
 opening_hours: ''
@@ -49,3 +49,7 @@ Der Seed ist eine historische Sammelzeile „Ellar/Seelbach/Niedworok“ für Wa
 ### Recherche 07.11.2026
 
 - [Recherche 07.11.2026: **Keiner der drei Namensbestandteile der Sammelzeile steht im amtlichen Fachbetrieberegister.** Im amtlichen Fachbetrieberegister (clientseitig gerenderte Vaadin-App, live abgefragt am 07.11.2026) liefern die Namenssuchen `n=Niedworok` in **beiden** Routen **0 Treffer**, `n=Seelbach` in der Route „Entsorgungsfachbetriebe“ **0 Treffer** und `n=Ellar` ebenfalls **0 Treffer**. Die Radiusabfrage mit 3 km um 65620 Waldbrunn liefert in **beiden** Routen **0 Treffer**; mit 5 km in der Route „Entsorgungsfachbetriebe“ **2 Treffer** (die „Vobl Abfallentsorgung Reiner Vobl e.K.“, In den Birken 2, 35799 Merenberg, `ZZEE00200204 / 1` Sammeln und `ZZEE00200204 / 2` Befördern, 3,3 km) und in der Route „Altfahrzeugverwertung“ **0 Treffer**. Für die Sammelzeile „Ellar/Seelbach/Niedworok“ ist damit **weder** eine EfbV- **noch** eine AltfahrzeugV-Anerkennung belegt. Reichweite: beide Anerkennungen sind **freiwillig**, ein Register-Nichteintrag ist **kein** Nachweis für die Nichtexistenz des Betriebs; die Namensbestandteile können auch Familiennamen oder historische Bezeichnungen sein, die keine eigene gewerbliche Einheit begründen. **ANKAUF:** keine Kurse. **VERKAUF:** keine Liste. **GEBÜHREN:** keine Tarife. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Niedworok ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Niedworok ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Seelbach ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Ellar ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=65620%20Waldbrunn%2C%20Deutschland%3B8.1170224%3B50.5128568%3B8.2070224%3B50.5628568%3B8.0270224%3B50.4628568&dst=3&is=1&e=1 (Abruf 07.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Waldbrunn** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **65620** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Ellar/Seelbach/Niedworok** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

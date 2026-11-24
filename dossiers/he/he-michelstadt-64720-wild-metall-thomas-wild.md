@@ -3,9 +3,9 @@ slug: he-michelstadt-64720-wild-metall-thomas-wild
 name: Wild-Metall (Thomas Wild)
 trader_type: metallhaendler
 state: HE
-city: Michelstadt 64720
+city: 'Michelstadt'
 street: ''
-postcode: ''
+postcode: '64720'
 phone: ''
 email: ''
 opening_hours: ''
@@ -54,3 +54,7 @@ Die belastbare namensgleiche Fundstelle ist **nicht** in Michelstadt: Die offizi
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **14,7 km** von der belegten Anschrift ✓ ✓ (**way/42375273** ✓✓, Reuboldstraße, Industriegebiet Weilbach Süd, Weilbach, Landkreis Miltenberg, Bayern, 63937) entfernt — er trifft **23, Erbacher Straße, Michelstadt, Odenwaldkreis, Hessen, 64720, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Straße** ✓✓ ✓ ✓ Der belegte Betrieb ✓✓ `Wild-Metall` ✓✓ sitzt in **Weilbach** ✓✓ (Bayern ✓✓) und **nicht** in Michelstadt ✓ ✓ — der Punkt bezeichnet **nicht** den Dossierbetrieb ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Michelstadt** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **64720** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Wild-Metall (Thomas Wild)** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

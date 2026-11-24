@@ -3,9 +3,9 @@ slug: rp-worms-67549-kampfer
 name: Kämpfer
 trader_type: schrotthaendler
 state: RP
-city: Worms 67549
+city: 'Worms'
 street: ''
-postcode: ''
+postcode: '67549'
 phone: ''
 email: ''
 opening_hours: ''
@@ -50,3 +50,7 @@ Identität und Standort weiterhin ungeklärt: Die Historie dokumentiert Töpfers
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Register-Check stützt pruefung — schrottregister ort-worms (GSA/EfB-Extrakt, Stand 2026-08-11) führt Kämpfer NICHT (weder Töpferstr. 1 noch Pfrimmanlage 9); Widerspruch aus 01.10.2026 (drei Adress-/Telefon-Kombinationen) bleibt unaufgelöst → kein Fill, status weiter pruefung. Quelle(n): schrottregister ort-worms (Abruf 02.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Worms** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **67549** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Kämpfer** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

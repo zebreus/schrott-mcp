@@ -3,9 +3,9 @@ slug: rp-trier-54293-knoerr-jon
 name: Knoerr Jon
 trader_type: schrotthaendler
 state: RP
-city: Trier 54293
+city: 'Trier'
 street: ''
-postcode: ''
+postcode: '54293'
 phone: ''
 email: ''
 opening_hours: ''
@@ -49,3 +49,7 @@ Ein aktueller Abruf des Gelbe-Seiten-Stadtverzeichnisses Trier führt den Namen 
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **weit entfernt** ✓ ✓ von der belegten Anschrift ✓ ✓ — er trifft **Bürgeramt Trier, 20, Viehmarktplatz, Altstadt, Mitte-Gartenfeld, Trier, Trierweiler, Rheinland-Pfalz, 54290, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein **fremdes Gebäude** ✓✓ — ein Bürgeramt ✓✓ ✓ ✓ Die **Anschrift** ✓✓ **Biewerer Str. 30A** ✓✓ ruht auf einem **Verzeichnisprofil** ✓✓ — ein **Verzeichnislead** ✓✓ ist **kein** belegter Standort des Betriebs ✓✓ ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Trier** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **54293** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Knoerr Jon** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

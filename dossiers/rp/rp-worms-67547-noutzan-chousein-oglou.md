@@ -3,9 +3,9 @@ slug: rp-worms-67547-noutzan-chousein-oglou
 name: Noutzan Chousein Oglou
 trader_type: schrotthaendler
 state: RP
-city: Worms 67547
+city: 'Worms'
 street: ''
-postcode: ''
+postcode: '67547'
 phone: ''
 email: ''
 opening_hours: ''
@@ -56,3 +56,7 @@ Konkreter, erneut auffindbarer Gelbe-Seiten-Lead: „Noutzan Chousein Oglou Schr
 
 - [Recherche 21.11.2026: **Der am 11.11.2026 technisch blockierte AfV-Namensbefund ist jetzt nachgeholt: das amtliche Fachbetrieberegister kennt den Namen in keiner Route.** Abfrage am 21.11.2026 (clientseitig gerenderte Vaadin-App, beide Routen, Filter `Art des Betriebs = Egal` mit is=1&e=1, Ergebnisgrid vollständig gelesen): die Namenssuchen `Noutzan` und `Oglou` liefern in der Route `Entsorgungsfachbetriebe` (je dst=10) jeweils 0 Treffer und in der Route `Altfahrzeugverwertung` (je dst=10) ebenfalls jeweils 0 Treffer. Damit sind beide Namensvarianten in beiden Routen geprüft; der Befund vom 11.11.2026 ist vollständig. Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind freiwillig, ein Register-Nichteintrag ist kein Nachweis für fehlende Zertifizierung, für Nichtexistenz oder für Betriebsende; die Standortsuche um Herzogenstr. 24, 67547 Worms war bereits am 11.11.2026 mit 3 km (14 Efb-Zeilen, 0 AfV-Zeilen) und 10 km (69 Efb-Zeilen, 1 AfV-Zeile) geprüft, ohne Treffer auf den Namen. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Noutzan ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Oglou ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Noutzan ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Oglou (Abruf 21.11.2026).]
 - [Recherche 21.11.2026: Das Gelbe-Seiten-Profil besteht am 21.11.2026 fort und ist weiterhin die einzige Quelle: `Noutzan Chousein Oglou`, Branche Schrott, Herzogenstr. 24, 67547 Worms, Telefon 0179 1 73 04 83, Statusanzeige `Jetzt geschlossen` mit dem Zusatz `Öffnet um 08:00`; das Profil weist die Felder `E-Mail` und `Website` aus, deren Werte aber nur über das Rückrufformular offengelegt werden und daher nicht lesbar sind, und es nennt weder eine Sortenliste noch Öffnungszeiten. Die dynamische Statusanzeige ist eine Momentaufnahme des Portals und keine Öffnungszeitangabe; eine zweite unabhängige Quelle (Betreiber-Website, Impressum, Register, Kommunalbeleg) existiert weiterhin nicht, die Beleglage bleibt damit ein Aggregatorlead, `street`, `postcode` und `phone` bleiben leer und `status` bleibt `pruefung`. Preise getrennt geführt: ANKAUF keine Preise und keine Annahmebedingungen belegt, VERKAUF keine Preisliste, GEBÜHREN keine Abhol-, Container- oder Entsorgungstarife. Quelle: https://www.gelbeseiten.de/gsbiz/8ada41d5-44ba-4285-bf38-9edb808c20da (Abruf 21.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Worms** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **67547** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Noutzan Chousein Oglou** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: he-spangenberg-34286-heinrich-kleinschmidt-rohprod
 name: Heinrich Kleinschmidt RohProd.
 trader_type: schrotthaendler
 state: HE
-city: Spangenberg 34286
+city: 'Spangenberg'
 street: ''
-postcode: ''
+postcode: '34286'
 phone: ''
 clear_fields: 'geo,phone'
 email: ''
@@ -61,3 +61,7 @@ Ankauf/Verkauf/Gebühren ohne primär belegte Listen; „RohProd." nicht zu eine
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **247 m** von **way/784437525**, Untergasse 5, 34286 Spangenberg entfernt — er trifft **EDEKA Kröninger, 3, Lochmühle, Spangenberg, Schwalm-Eder-Kreis, Hessen, 34286, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft einen **fremden Betrieb** ✓✓ — einen **Lebensmittelmarkt** ✓✓ ✓ ✓ Das Adressobjekt ✓✓ trägt zusätzlich `historic`=yes ✓✓ (`Ehemalige Synagoge` ✓✓) und **keinen** Betriebsbezug ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Spangenberg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **34286** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Heinrich Kleinschmidt RohProd.** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

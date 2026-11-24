@@ -3,9 +3,9 @@ slug: he-hanau-63456-pfragner-georg
 name: Pfragner Georg
 trader_type: sonstige
 state: HE
-city: Hanau 63456
+city: 'Hanau'
 street: ''
-postcode: ''
+postcode: '63456'
 phone: ''
 email: ''
 opening_hours: ''
@@ -65,3 +65,7 @@ Verzeichnis-Leads führen Pfragner Georg als Kfz-Handel und Verwertung in Hanau-
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der Punkt trifft **nicht** die belegte Anschrift ✓✓ (Behringstr. **1a** ✓✓) — die **Verzeichnisadresse** ✓✓ ist **nicht** belegt ✓✓ Der Punkt bleibt ein **Platzhalter** ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Hanau** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63456** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Pfragner Georg** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

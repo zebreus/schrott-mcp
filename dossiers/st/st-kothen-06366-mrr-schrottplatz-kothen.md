@@ -3,9 +3,9 @@ slug: st-kothen-06366-mrr-schrottplatz-kothen
 name: MRR GmbH Schrottplatz Köthen
 trader_type: schrottplatz
 state: ST
-city: Köthen 06366
+city: 'Köthen'
 street: ''
-postcode: ''
+postcode: '06366'
 phone: ''
 email: ''
 opening_hours: ''
@@ -56,3 +56,7 @@ Betreiberkette/Standortgeschichte und Publikumsankauf bleiben offen; keine ALBA-
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **3 m** von **way/120504247** ✓✓ entfernt — er trifft **58/59, Wallstraße, Köthen, Köthen (Anhalt), Anhalt-Bitterfeld, Sachsen-Anhalt, 06366, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein **Wohnhaus** ✓✓ — nicht den Betrieb ✓✓ ✓ ✓ Der **Rechtsträger** ✓✓ ist **gelöscht** ✓✓ — der **Nachfolgekandidat** ✓✓ (Kaiser Entsorgung & Recycling GmbH NL Köthen ✓✓, Am Güterbahnhof **3** ✓✓) steht **nicht** im Fachbetrieberegister ✓✓ und seine Website ist ein **leeres** Gerüst ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Köthen** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **06366** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **MRR GmbH Schrottplatz Köthen** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

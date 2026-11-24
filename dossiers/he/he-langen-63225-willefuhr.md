@@ -3,9 +3,9 @@ slug: he-langen-63225-willefuhr
 name: Willeführ
 trader_type: sonstige
 state: HE
-city: Langen 63225
+city: 'Langen'
 street: ''
-postcode: ''
+postcode: '63225'
 phone: ''
 email: ''
 opening_hours: ''
@@ -44,3 +44,7 @@ Für Langen gibt es neue Verzeichnis-Leads zu Gino Alexander Willeführ: 11880 n
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Der direkte Betreiberauftritt containerdienst-willefuehr.de/schrottmetallhandel.html nennt Containerdienst Willeführ in Rödermark (Paul-Ehrlich-Str. 34, 63322), mit Ankauf von Schrott/Nichteisenmetallen, Containern und Abholung; es werden „faire Preise“, aber keine numerischen Sätze ausgewiesen. Ein Langen-Bezug in einem Suchsnippet bezeichnet Servicegebiet und belegt keine Filiale in 63225. Separater Willeführ-Auftritt schrotthandel-willefuehr.de betrifft Alexander Willeführ in Obernburg und ist ebenfalls kein Langen-Nachweis. Keine Kontaktdaten/Adresse auf das Langen-Dossier übertragen. ANKAUF: für den Rödermarker Betrieb beworben, Preise auf Anfrage; für Langen nicht bestätigt. VERKAUF: keine öffentliche Liste; GEBÜHREN: Container/Abholung nicht mit Preistarif belegt. Offen: gibt es eine eigenständige Betriebsstätte in Langen? Quelle(n): https://www.containerdienst-willefuehr.de/schrottmetallhandel.html; https://schrotthandel-willefuehr.de/]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Langen** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63225** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Willeführ** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

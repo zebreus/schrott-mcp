@@ -3,9 +3,9 @@ slug: sl-st-ingbert-66386-rohstoffhandel-neckartilda-nl-st-ingbert
 name: Rohstoffhandel Neckartilda GmbH, NL St. Ingbert
 trader_type: sonstige
 state: SL
-city: St. Ingbert 66386
+city: 'St. Ingbert'
 street: Schlackenbergstr. 23
-postcode: ''
+postcode: '66386'
 phone: ''
 email: ''
 opening_hours: ''
@@ -52,3 +52,7 @@ keine aktuell freigegebenen Annahme-, Kontakt- oder Öffnungszeitangaben.
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate geändert**: die Dossier-Hausnummer 23 ist erfasst, trägt aber einen **fremden** Firmennamen - way/398009637 trägt `addr:housenumber`=23, `addr:street`=Schlackenbergstraße, `addr:city`=Sankt Ingbert, `addr:postcode`=66386, `building`=yes, `name`=Süd Müll; das ist die Firmierung eines anderen Betriebs an der Dossier-Adresse, nicht „Rohstoffhandel Neckartilda“. Quelle 1 (OSM): das einzige Objekt der Nummer 23 nennt einen Fremdbetrieb. Quelle 2 (Betreiber): das Impressum führt weiterhin HRB 31272 Amtsgericht Zweibrücken und Pascal Keßler als Geschäftsführung - ein veralteter Stand, der zu einem erloschenen Rechtsträger passt und den heutigen Betreiber nicht belegt. Ein Punkt auf ein fremdes Betriebsobjekt wäre geraten. Quelle(n): https://api.openstreetmap.org/api/0.6/way/398009637.json ; https://wk0s76uib.hier-im-netz.de/Impressum (Abruf 31.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **St. Ingbert** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **66386** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Rohstoffhandel Neckartilda GmbH, NL St. Ingbert** ✓✓, Straße **Schlackenbergstr. 23** ✓✓ ✓✓]

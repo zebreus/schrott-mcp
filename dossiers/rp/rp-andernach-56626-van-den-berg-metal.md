@@ -3,9 +3,9 @@ slug: rp-andernach-56626-van-den-berg-metal
 name: Van den Berg Metal
 trader_type: metallhaendler
 state: RP
-city: Andernach 56626
+city: 'Andernach'
 street: ''
-postcode: ''
+postcode: '56626'
 phone: ''
 email: ''
 opening_hours: ''
@@ -59,3 +59,7 @@ Der vom Seed benannte Betrieb ist im Handelsregister als **Van den Berg Metal Gm
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,8 km** von der Straße **Am Weißen Haus, 56626 Andernach** (way/28741597; die Hausnummer **5** ist in OpenStreetMap nicht adressiert) entfernt — er trifft **12, Salentinstraße, 56626 Andernach** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße; die Rechtseinheit ist seit dem **04.03.2024** in Liquidation ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ die **Straße** ✓ ✓ und die **nicht belegte Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Andernach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **56626** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Van den Berg Metal** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

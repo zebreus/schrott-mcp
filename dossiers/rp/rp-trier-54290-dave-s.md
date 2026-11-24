@@ -3,9 +3,9 @@ slug: rp-trier-54290-dave-s
 name: Dave's
 trader_type: sonstige
 state: RP
-city: Trier 54290
+city: 'Trier'
 street: ''
-postcode: ''
+postcode: '54290'
 phone: ''
 email: ''
 opening_hours: ''
@@ -50,3 +50,7 @@ Dave's Schrotthandel in Trier bleibt ein namenstreuer Verzeichnislead, nicht bes
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle, Nachtrag)
 
 - [Recherche 01.10.2026: Erneute Gegenrecherche („Dave's“ Schrott Trier 54290) bringt nur Namensvetter ohne Schrottbezug (Dave's Handwerkservice Annweiler/Steimertal 44 — anderes Gewerk, anderer Ort; Dave's Fahrzeuge Schweiz; DAVE Immobilienverbund) — KEIN Beleg für Existenz eines Schrotthändlers „Dave's“ in Trier; Verwechslungsgefahr mit Dave's Handwerkservice (Annweiler) dokumentiert, NICHT übernommen. Alle Felder weiter leer, status weiter pruefung. Folgewelle: Gewerberegister Trier, ggf. Löschkandidat prüfen. Quelle(n): daves-handwerkservice.de + moneyhouse.ch (Negativbelege).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Trier** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **54290** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Dave's** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

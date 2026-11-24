@@ -3,9 +3,9 @@ slug: rp-hanhofen-67374-jenny-tavernier-schrotthandel
 name: Jenny Tavernier Schrotthandel
 trader_type: schrotthaendler
 state: RP
-city: Hanhofen 67374
+city: 'Hanhofen'
 street: Silzweg 38
-postcode: ''
+postcode: '67374'
 phone: ''
 email: ''
 opening_hours: ''
@@ -49,3 +49,7 @@ Für „Jenny Tavernier Schrotthandel“, Silzweg 38, Hanhofen, liegt weiterhin 
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Gegenprüfung im lokalen Stadtbranchenbuch Hanhofen fand Schrott-/Container-Leads für Rudolf Lehr (Silzweg 16, Containerdienst), Richard/Iris Lehr (Silzweg 19, Schrott) und Josef Kreischer (Silzweg 31, Schrott- und Metallhandel), aber keinen Jenny-Tavernier-Eintrag bzw. keinen Treffer an Silzweg 38. Das ist ein begrenzter Verzeichnisabgleich, kein Negativbeweis für eine Geschäftsaufgabe. Keine der benachbarten Firmen wurde mit dem Seed zusammengeführt; Adresse/Betreiber bleiben ungeklärt. Keine Preisquelle für ANKAUF, VERKAUF oder GEBÜHREN. Quelle(n): https://hanhofen.stadtbranchenbuch.com/ (Verzeichnislead, Abruf 07.10.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Hanhofen** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **67374** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Jenny Tavernier Schrotthandel** ✓✓, Straße **Silzweg 38** ✓✓ ✓✓]

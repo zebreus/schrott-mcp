@@ -3,9 +3,9 @@ slug: by-wurzburg-durrbachau-97080-ws-metalle
 name: WS-Metalle
 trader_type: metallhaendler
 state: BY
-city: Würzburg-Dürrbachau 97080
+city: 'Würzburg-Dürrbachau'
 street: ''
-postcode: ''
+postcode: '97080'
 phone: 0931 26059273
 email: ''
 opening_hours: ''
@@ -43,3 +43,7 @@ WS-Metalle ist derzeit ein Verzeichnis-Lead, nicht unabhängig bestätigter Schr
 - Metallhandel — Tel. 0931 26059273
 - urspr. Website-Angabe: keine
 - Adresse: Würzburg-Dürrbachau 97080
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Würzburg-Dürrbachau** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **97080** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **WS-Metalle** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

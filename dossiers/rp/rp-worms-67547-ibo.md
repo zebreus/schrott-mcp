@@ -3,9 +3,9 @@ slug: rp-worms-67547-ibo
 name: Ibo
 trader_type: schrotthaendler
 state: RP
-city: Worms 67547
+city: 'Worms'
 street: ''
-postcode: ''
+postcode: '67547'
 phone: ''
 email: ''
 opening_hours: ''
@@ -87,3 +87,7 @@ steht auf Prüfung.
   https://api.openstreetmap.org/api/0.6/way/208150593/full.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.3600,49.6200,8.3700,49.6300 ;
   https://www.gelbeseiten.de/gsbiz/b56d209a-ec98-483b-96a5-5e085589757d (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Worms** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **67547** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Ibo** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: rp-koblenz-56068-autoankauf-koblenz
 name: Autoankauf Koblenz
 trader_type: autoverwertung
 state: RP
-city: Koblenz 56068
+city: 'Koblenz'
 street: ''
-postcode: ''
+postcode: '56068'
 phone: ''
 email: ''
 opening_hours: ''
@@ -67,3 +67,7 @@ und Abmeldung.
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **10 m** von **node/13289113416** ✓✓ entfernt — er trifft **2, Devorastraße, Goldgrube, Koblenz, Rheinland-Pfalz, 56073, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt ist ein **Platzhalter** ✓✓ ohne Adressbezug ✓✓ ✓ ✓ Der **Bochumer** ✓✓ Leadgenerator ✓✓ und der **Urmitzer** ✓✓ Betrieb tragen **beide** den Namen ✓✓ — keiner ✓✓ an der Dossier-Adresse ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Koblenz** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **56068** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoankauf Koblenz** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

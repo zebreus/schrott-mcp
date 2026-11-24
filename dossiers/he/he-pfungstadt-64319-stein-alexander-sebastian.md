@@ -4,9 +4,9 @@ clear_fields: 'geo'
 name: Stein Alexander-Sebastian
 trader_type: schrotthaendler
 state: HE
-city: Pfungstadt 64319
+city: 'Pfungstadt'
 street: ''
-postcode: ''
+postcode: '64319'
 phone: ''
 email: ''
 opening_hours: ''
@@ -151,3 +151,7 @@ Das Dossier beruht auf Verzeichnisangaben für „Alexander-Sebastian Stein“ i
 - [Recherche 22.11.2026: **GEO gemessen, nicht gesetzt: der Altpunkt liegt 3,4 km vom belegten Adressobjekt entfernt und trifft eine andere Straße.** Der am 25.10.2026 im Dossier dokumentierte gespeicherte Punkt `49.8056 / 8.6031` (Rügnerstraße 67c) liegt vom adresskonformen Objekt way/406635649 (49.8083062/8.5664742) **3.406 m** entfernt (Haversine, nachgerechnet) und löst auf eine **andere** Straße auf — die Rügnerstraße liegt im Kernbereich Pfungstadts, der Tulpenweg im Ortsteil **Eschollbrücken**. Der Punkt bleibt unverändert — `clear_fields: 'geo'` bleibt bestehen, und über Setzen oder Entfernen entscheidet der Owner in einer eigenen datierten Korrektur-Sektion; nach dem korrigierten Adressbefund wäre eine Koordinate an way/406635649 (49.8083062/8.5664742) **technisch** möglich, setzt aber weiterhin eine nur verzeichnisbelegte Betriebsanschrift voraus. Quellen: https://api.openstreetmap.org/api/0.6/way/406635649/full.json ; https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=49.8056&lon=8.6031&zoom=18&addressdetails=1 (Abruf 22.11.2026).]
 - [Recherche 22.11.2026: **Preise getrennt geführt: keine Zahlen belegt.** ANKAUF: die drei Verzeichnisprofile nennen **keinen** €/kg-Kurs, **keine** Sortentabelle und **kein** Publikationsdatum; die 11880-Rubriken `Schrotthandel / Altmaterialhandel / Altmetallrecycling` sind Tätigkeitsangaben, keine Preisaussage; die 4-Sterne-Bewertung im Darmstadt-Post-Eintrag ist eine Bewertung, kein Preisbeleg. VERKAUF: keine Material- oder Teilepreisliste. GEBÜHREN: keine Abhol-, Container- oder Entsorgungsgebühr belegt. Quellen: siehe oben.]
 - [Recherche 22.11.2026: **Offene Fragen.** (1) Ob der Betrieb heute noch aktiv ist, ist offen; der 11880-Eintrag mit der vollständigen Anschrift stammt vom 19.08.2022, der neuere Eintrag ohne Straße vom 08.05.2026. (2) Ob eine eigene Website existiert, ist offen — 11880 führt `Website hinzufügen`, es ist also keine hinterlegt. (3) Ob die **kommunale Gewerberegister-Auskunft der Stadt Pfungstadt** den Betrieb ausweist, bleibt der entscheidende offene Schritt; das Fachbetrieberegister kennt ihn nicht, was bei einem Einzelunternehmer ohne Registereintrag kein Gegenbeweis ist. (4) Ob die 4-Sterne-Bewertung im Darmstadt-Post-Eintrag von Kunden oder vom Betreiber stammt, ist offen. Quellen: siehe oben.]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Pfungstadt** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **64319** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Stein Alexander-Sebastian** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

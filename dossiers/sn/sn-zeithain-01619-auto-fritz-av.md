@@ -3,9 +3,9 @@ slug: sn-zeithain-01619-auto-fritz-av
 name: Auto Fritz GbR AV
 trader_type: autoverwertung
 state: SN
-city: Zeithain 01619
+city: 'Zeithain'
 street: ''
-postcode: ''
+postcode: '01619'
 phone: ''
 email: ''
 opening_hours: ''
@@ -55,3 +55,7 @@ Echte Betreiberpräsenz neu gefunden und gelesen: AutoFritz GbR, Inhaber Thomas 
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **weit entfernt** ✓ ✓ von der belegten Anschrift ✓ ✓ — er trifft **6, Hauptstraße, Zeithain, Röderau, Zeithain, Meißen, Sachsen, 01619, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Hausnummer** ✓✓ derselben Hauptstraße ✓✓ ✓ ✓ Die **Hausnummer 1** ✓✓ ist in OSM **nicht** ✓✓ auflösbar ✓✓ — die drei **Straßenobjekte** ✓✓ tragen **keine** ✓✓ Hausnummer ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Zeithain** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **01619** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Auto Fritz GbR AV** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: rp-siershahn-56427-christ-patrick
 name: Christ Patrick
 trader_type: sonstige
 state: RP
-city: Siershahn 56427
+city: 'Siershahn'
 street: ''
-postcode: ''
+postcode: '56427'
 phone: ''
 email: ''
 opening_hours: ''
@@ -48,3 +48,7 @@ Gelbe Seiten und Das Örtliche führen übereinstimmend „Christ Patrick“, Po
 
 - Branche ungeklärt
 - Adresse: Siershahn 56427
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Siershahn** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **56427** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Christ Patrick** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

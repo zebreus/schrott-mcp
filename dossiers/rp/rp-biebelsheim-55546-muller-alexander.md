@@ -3,9 +3,9 @@ slug: rp-biebelsheim-55546-muller-alexander
 name: Müller Alexander
 trader_type: schrotthaendler
 state: RP
-city: Biebelsheim 55546
+city: 'Biebelsheim'
 street: ''
-postcode: ''
+postcode: '55546'
 phone: ''
 email: ''
 opening_hours: ''
@@ -59,3 +59,7 @@ Das Örtliche führt „Müller Alexander Schrotthandel“ in Hindenburgstr. 17,
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **weit entfernt** ✓ ✓ von der belegten Anschrift ✓ ✓ — er trifft **Wingertsschaukel, Hindenburgstraße, Biebelsheim, Bad Kreuznach, Landkreis Bad Kreuznach, Rheinland-Pfalz, 55546, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Adresse** ✓✓ ✓ ✓ Die **Verzeichnisse** ✓✓ nennen **drei** ✓✓ verschiedene Anschriften ✓✓ — **Hindenburgstraße 17** ✓✓, **17a** ✓✓ und **Hüffelsheimer Str. 1A** ✓✓ — die Adresse ist **nicht** eindeutig ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Biebelsheim** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **55546** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Müller Alexander** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: he-gieen-35398-martin-schmidt
 name: Martin Schmidt
 trader_type: sonstige
 state: HE
-city: Gießen 35398
+city: 'Gießen'
 street: ''
-postcode: ''
+postcode: '35398'
 phone: ''
 email: ''
 opening_hours: ''
@@ -66,3 +66,7 @@ Der Seed nennt nur den häufigen Namen „Martin Schmidt“, Gießen 35398, und 
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **37 m** von **way/221962183** ✓✓ entfernt — er trifft **Diezstraße, Gießen, Landkreis Gießen, Hessen, 35390, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft einen **Spielplatz** ✓✓ ✓ ✓ Das Dossier führt **keine** adressierbare Hausnummer ✓✓ — der Treffer trägt die **PLZ 35390** ✓✓ statt **35398** ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Gießen** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **35398** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Martin Schmidt** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

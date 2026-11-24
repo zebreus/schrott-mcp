@@ -3,9 +3,9 @@ slug: by-miltenberg-63897-schrott-mehring
 name: Schrott Mehring GmbH
 trader_type: schrotthaendler
 state: BY
-city: Miltenberg 63897
+city: 'Miltenberg'
 street: ''
-postcode: ''
+postcode: '63897'
 phone: ''
 clear_fields: 'geo,phone'
 email: ''
@@ -58,3 +58,7 @@ Die heute gelesene Mehring-Betreiberhistorie nennt ausdrücklich einen Umzug 201
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,5 km** vom belegten Adressobjekt **Nikolaus-Fasel-Straße 2**, 63897 Miltenberg ✓✓ (way/604040778 ✓✓, building=industrial ✓✓) entfernt — er trifft **52, Eichenbühler Straße**, 63897 Miltenberg ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Registereintrag** ✓✓ `Mehring GmbH` ✓✓ in Dorfprozelten ✓✓ (ZZFT01300072 ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Miltenberg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63897** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrott Mehring GmbH** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

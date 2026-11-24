@@ -3,9 +3,9 @@ slug: mv-dorf-mecklenburg-23972-reinhard-kraatz
 name: Reinhard Kraatz e. K.
 trader_type: sonstige
 state: MV
-city: Dorf Mecklenburg 23972
+city: 'Dorf Mecklenburg'
 street: ''
-postcode: ''
+postcode: '23972'
 phone: ''
 email: ''
 opening_hours: ''
@@ -62,3 +62,7 @@ Der Portalkontakt 03841 790144 bleibt nur Lead; keine Adress-/Telefon-Fills, sta
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **659 m** von **way/263545868** ✓✓ entfernt — er trifft **Stadtweg, Karow, Dorf Mecklenburg, Dorf Mecklenburg-Bad Kleinen, Nordwestmecklenburg, Mecklenburg-Vorpommern, 23972, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **659 m** ✓✓ vom **Registerstandort** ✓✓ entfernt ✓✓ ✓ ✓ Der **amtliche Registerauszug** ✓✓ (Reinhard Kraatz e.K. ✓✓, AG Schwerin `HRA 2860` ✓✓, **Am Wehberg 5a** ✓✓) weist den Status **gelöscht** ✓✓ aus ✓✓ — die **Registeranschrift** ✓✓ ist damit **amtlich** belegt ✓✓, der Betrieb selbst **nicht** mehr aktiv ✓ ✓ Ein **gelöschtes** Unternehmen ✓✓ wird **nicht** verortet ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Dorf Mecklenburg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **23972** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Reinhard Kraatz e. K.** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

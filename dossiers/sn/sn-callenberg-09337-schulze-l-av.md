@@ -3,9 +3,9 @@ slug: sn-callenberg-09337-schulze-l-av
 name: Schulze L. AV
 trader_type: autoverwertung
 state: SN
-city: Callenberg 09337
+city: 'Callenberg'
 street: ''
-postcode: ''
+postcode: '09337'
 lat: 50.8388718
 lon: 12.6669986
 phone: ''
@@ -57,3 +57,7 @@ provenance_origin: table
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,7 km** von der belegten Betriebsanschrift entfernt — er wird durch den adresskonformen Punkt **50.8388718/12.6669986** ersetzt ✓ ✓ Der Beleg für die Adresse: das **OSM-Objekt** ✓✓ (`node/1295411817` ✓✓) mit dem **Namen des Betriebs** ✓✓ (`name`=Autoverwertung und Ersatzteilhandel Schulze ✓✓, `operator`=Heiko Schulze ✓✓) **an** ✓✓ der **Seed-Adresse** ✓✓ mit der **Hausnummer 5** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Callenberg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **09337** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schulze L. AV** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

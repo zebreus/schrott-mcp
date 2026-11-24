@@ -3,9 +3,9 @@ slug: by-wurzburg-versbach-97078-pfeifer-rainer-schrotthandel
 name: Pfeifer Rainer Schrotthandel
 trader_type: schrotthaendler
 state: BY
-city: Würzburg-Versbach 97078
+city: 'Würzburg-Versbach'
 street: ''
-postcode: ''
+postcode: '97078'
 phone: ''
 clear_fields: 'phone'
 email: ''
@@ -65,3 +65,7 @@ Ankauf/Verkauf/Gebühren: keine primär belegte Zahlenliste. Von Verzeichnis-Öf
 ### Recherche 20.11.2026 (Welle 0000 A)
 
 - [Recherche 20.11.2026: **Die Beleglage für „Pfeifer Rainer Schrotthandel" ist unverändert; der Negativbefund des amtlichen Fachbetrieberegisters vom 08.11.2026 bleibt der Stand, und es gibt weiterhin keine Angebots- oder Preisliste.** Eine erneute Suche nach dem vollen Namen und nach der Seed-Adresse Brunnfloßgasse 12, 97078 Würzburg liefert nur die bereits bekannten Verzeichnis-Leads (Gelbe Seiten, 11880 mit 0171 4457209 und 0931 28788082, FragRegional, schrottplatz-info.de) und **keinen** Betreiberauftritt, **keinen** Registereintrag und **keine** kommunale Gewerbeauskunft; das Impressum von J. Pfeifer (Lengfelder Str. 38, Inhaber Jürgen Pfeifer) bleibt ein **anderer** Betrieb und wird nicht als Zweitbeleg verwendet. Das Namensvetter-Umfeld ist unverändert (Christian Pfeifer, Jürgen Pfeifer in Würzburg); eine Familien- oder Nachfolgekette ist **nicht** belegt. **Preise getrennt geführt:** **Ankauf** — keine Kursliste, kein €/kg-Wert, keine Materialstaffel; die Verzeichnis-Materialliste und die Öffnungszeiten der Portale sind **keine** Preise und **keine** bestätigten Annahmezeiten. **Verkauf** — keine Verkaufspreise. **Gebühren** — keine Abhol-, Container- oder Entsorgungstarife. Die Frontmatter bleibt unverändert, `clear_fields: 'phone'` bleibt bestehen, `status` bleibt `pruefung`, es wird keine Koordinate gesetzt und weder eine Schließung noch ein Nichtbestehen behauptet. Quelle(n): https://www.gelbeseiten.de/gsbiz/1026b0f0-ebd8-40fb-9588-bb18fcbfbe9c ; https://www.11880.com/branchenbuch/wuerzburg/012010409B28972471/rainer-pfeifer-schrotthandel.html ; https://www.j-pfeifer-schrotthandel.de/impressum (Abruf 20.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Würzburg-Versbach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **97078** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Pfeifer Rainer Schrotthandel** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

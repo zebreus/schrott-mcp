@@ -4,9 +4,9 @@ clear_fields: geo
 name: Schmidt Recycling GmbH
 trader_type: sonstige
 state: MV
-city: Wismar 23966
+city: 'Wismar'
 street: ''
-postcode: ''
+postcode: '23966'
 phone: ''
 email: ''
 opening_hours: ''
@@ -96,3 +96,7 @@ NorthData führt Schmidt Recycling GmbH, HRB 2712 AG Schwerin, mit einer Löschu
 
 - [Recherche 19.11.2026: **Das amtliche Handelsregisterportal bestätigt den gelöschten Rechtsträger unabhängig vom Registerspiegel und schließt die Namensverwechslung aus.** Die Suche nach `Schmidt Recycling Wismar` liefert am 19.11.2026 `Schmidt Recycling GmbH`, Schwerin, `HRB 2712`; die Suche nach `Schmidt Recycling Buchloe` liefert dagegen `Föll Rohstoffhandel GmbH`, Kempten (Allgäu), `HRB 7650`. Der im Fachbetrieberegister geführte Eintrag `Föll Rohstoffhandel GmbH Schmidt Recycling GmbH`, Winkeläckerstraße 10, 86807 Buchloe, `ZAHS01600031`, ist also ein Namensvetter mit früherem Namen `Schmidt Recycling GmbH`, nicht die Wismarer Rechtsträgerin; die beiden Datensätze wurden nicht gleichgesetzt. Die Standortabfrage mit 3 km um Zum Dock 6, 23966 Wismar liefert 8 Efb-Treffer, darunter Hansestadt Wismar, Der Bürgermeister, Entsorgungs- und Verkehrsbetrieb, Werftstraße 1, 0,6 km, `ZZEE00200083`, ALBA Nord GmbH Wismar, Tonnenhofstraße 12, 1,4 km, `ZZEE00200333`, ALBA Metall Nord GmbH Betriebsstätte Wismar, Tonnenhofstraße 12, 1,4 km, `ZZET01700028`, GER Umweltschutz GmbH, Am Torney 41, 23970 Wismar, 1,8 km, `ZZME00100004`, und Egger Holzwerkstoffe Wismar GmbH & Co. KG, Am Haffeld 1, 1,8 km, `ZZFT01300107`, die Route `Altfahrzeugverwertung` liefert 0 Treffer. Reichweite: die EfbV- und die AltfahrzeugV-Anerkennung sind freiwillig, die Nichttreffer sind kein Nichtexistenzbeweis. Quellen: https://www.online-handelsregister.de/suche/Schmidt%20Recycling%20Wismar ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Zum%20Dock%206%2C%2023966%20Wismar%2C%20Deutschland%3B11.4483864%3B53.8964%3B11.4941216%3B53.9233493%3B11.4026512%3B53.8694507&dst=3&is=1&e=1 .]
 - [Recherche 19.11.2026: **Die Seed-Adresse ist adressgenau in OSM belegt, der dortige Betrieb ist aber nicht zuordenbar und ein Nachfolger nicht gefunden.** Die Nominatim-Suche nach `Zum Dock 6, 23966 Wismar` liefert am 19.11.2026 `way/266434992` bei 53.8964/11.4483864 mit `addr:street`=Zum Dock, `addr:housenumber`=6, `addr:postcode`=23966, `addr:city`=Wismar und `building`=industrial; das Objekt trägt weder `name=` noch `operator=` und ist kein Nachfolgebetrieb der gelöschten Gesellschaft. Die am 04.11.2026 dokumentierte Auflösung der drei Recycling-Punkte im Raster ohne Firmenangabe und die offene `clear_fields: geo` bleiben unverändert, ein Koordinatenpunkt wurde nicht gesetzt. **Ankauf:** kein aktueller Kurs; **Verkauf:** keine Materialliste; **Gebühren:** keine aktuellen Tarife. Quellen: https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&addressdetails=1&countrycodes=de&limit=10&q=Zum%20Dock%206%2C%2023966%20Wismar ; https://api.openstreetmap.org/api/0.6/way/266434992/full.json .]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Wismar** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **23966** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schmidt Recycling GmbH** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

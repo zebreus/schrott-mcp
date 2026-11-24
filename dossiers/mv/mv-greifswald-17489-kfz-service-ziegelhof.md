@@ -3,9 +3,9 @@ slug: mv-greifswald-17489-kfz-service-ziegelhof
 name: KfZ Service Ziegelhof
 trader_type: autoverwertung
 state: MV
-city: Greifswald 17489
+city: 'Greifswald'
 street: ''
-postcode: ''
+postcode: '17489'
 phone: ''
 email: ''
 opening_hours: ''
@@ -68,3 +68,7 @@ Preisprüfung: ANKAUF — die Website enthält ein Formular „Ich habe ein Auto
 ### Korrektur 20.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 20.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **4360 m** von der im Impressum belegten Anschrift **Poggenweg 15** entfernt ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 20.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Greifswald** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **17489** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **KfZ Service Ziegelhof** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

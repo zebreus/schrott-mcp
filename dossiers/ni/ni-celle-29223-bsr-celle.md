@@ -3,9 +3,9 @@ slug: ni-celle-29223-bsr-celle
 name: BSR Celle
 trader_type: schrottplatz
 state: NI
-city: Celle 29223
+city: 'Celle'
 street: Haydnstr. 11
-postcode: ''
+postcode: '29223'
 phone: ''
 email: ''
 opening_hours: ''
@@ -53,3 +53,7 @@ provenance_origin: table
 - [Recherche 17.11.2026: **Namesake-Abgrenzung.** Die Abkürzung "BSR" ist in Deutschland mehrfach belegt: die Berliner Stadtreinigung (bsr.de), die BSR Bodensanierung Recycling GmbH (Ingolstadt), die BSR Baustoffrecycling GmbH & Co. KG (Bayreuth) und die BSR Schotterwerk GmbH (Stolberg). Eine Websuche nach `BSR` + Celle + Schrott/Recycling am 17.11.2026 liefert **keinen** Treffer mit Bezug zur Haydnstraße 11 in Celle; alle Treffer betreffen die genannten fremden Rechtsträger. Damit ist die Berliner Stadtreinigung ebenso wenig gemeint wie die übrigen BSR-Unternehmen. **Reichweite:** Suchbegriffe und Abrufdatum 17.11.2026; ein Register-Nichteintrag und ein Such-MISS sind kein Nichtexistenzbeweis. Quelle(n): https://bsr.de/ (Berliner Stadtreinigung, Abruf 17.11.2026); https://enfglass.com/bsr-recycling (BSR Bodensanierung Recycling GmbH, Ingolstadt, Abruf 17.11.2026); BSR Baustoffrecycling GmbH & Co. KG (Bayreuth) und BSR Schotterwerk GmbH (Stolberg) bereits im Recherchevermerk vom 05.11.2026 dieses Dossiers belegt]
 - [Recherche 17.11.2026: **Hinweis zur Belegkette: die in früheren Wellen genutzte Register-Spiegelseite ist nicht mehr erreichbar.** Die bisher in diesem Dossier als "aktuelle Celle-Übersicht des Schrottregisters" zitierte Adresse `https://schrottregister.pages.dev/ort-celle` liefert am 17.11.2026 **HTTP 404 "Deployment Not Found"** (Cloudflare Pages). Damit lassen sich die darauf gestützten Negativbefunde der früheren Wellen nicht mehr live nachvollziehen; sie bleiben als historische Recherchehistorie im Dossier stehen, gelten aber nicht mehr als aktuell bestätigter Negativbefund. Das amtliche Fachbetrieberegister ist eine clientseitig gerenderte Vaadin-Anwendung ohne öffentliche Lese-Schnittstelle und war am 17.11.2026 programmatisch nicht abfragbar; der Registerbefund vom 05.11.2026 bleibt unberührt. Quelle(n): https://schrottregister.pages.dev/ort-celle (HTTP 404, Abruf 17.11.2026); https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe (nur App-Shell ausgeliefert, Abruf 17.11.2026)]
 - [Recherche 17.11.2026: **Preise getrennt geprüft.** ANKAUF: keine zuordenbare Preisliste, kein PDF und keine Kursveröffentlichung; VERKAUF: kein belegtes Verkaufsangebot; GEBÜHREN: keine Konditionen zu Abholung, Annahme oder Entsorgung. Es wird kein Betrag, keine Materialpalette und keine Kundenausnahme erfunden; die Zeile bleibt `pruefung`, keine Schließungsbehauptung und keine GEO-Freigabe. Quelle(n): Websuche und Verzeichnisabgleich am 17.11.2026, ohne Preisquelle]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Celle** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **29223** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **BSR Celle** ✓✓, Straße **Haydnstr. 11** ✓✓ ✓✓]

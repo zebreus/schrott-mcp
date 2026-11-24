@@ -3,9 +3,9 @@ slug: rp-waldrach-54320-kiefer
 name: KIEFER
 trader_type: schrotthaendler
 state: RP
-city: Waldrach 54320
+city: 'Waldrach'
 street: ''
-postcode: ''
+postcode: '54320'
 phone: ''
 email: ''
 opening_hours: ''
@@ -42,3 +42,7 @@ Gelbe Seiten führt „KIEFER Schrotthandel“ am Waldweg 7, 54320 Waldrach, mit
 
 - Schrott
 - Adresse: Waldrach 54320
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Waldrach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **54320** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **KIEFER** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

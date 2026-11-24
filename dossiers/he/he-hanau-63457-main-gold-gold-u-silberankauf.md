@@ -3,9 +3,9 @@ slug: he-hanau-63457-main-gold-gold-u-silberankauf
 name: Main Gold Gold- u. Silberankauf
 trader_type: sonstige
 state: HE
-city: Hanau 63457
+city: 'Hanau'
 street: ''
-postcode: ''
+postcode: '63457'
 phone: ''
 email: ''
 opening_hours: ''
@@ -72,3 +72,7 @@ Das Portal mischt **Goldankauf und Teppichreinigung** und nennt eine E-Mail mit 
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **4,7 km** vom Adressobjekt **Adalbert-Eisenhuth-Straße 6b, 63457 Hanau** (way/210126981, `addr:housenumber`=6b) entfernt — er trifft **31a, Friedrich-Ebert-Anlage, 63450 Hanau** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt in einem anderen Postleitzahlbereich und damit an einem anderen Ort ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Hanau** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63457** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Main Gold Gold- u. Silberankauf** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

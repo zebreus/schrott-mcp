@@ -3,9 +3,9 @@ slug: he-haiger-35708-grab-gretl
 name: Gräb Gretl
 trader_type: schrotthaendler
 state: HE
-city: Haiger 35708
+city: 'Haiger'
 street: ''
-postcode: ''
+postcode: '35708'
 phone: ''
 email: ''
 opening_hours: ''
@@ -42,3 +42,7 @@ provenance_origin: table
 ### Recherche 06.11.2026
 
 - [Recherche 06.11.2026: Amtliches Fachbetrieberegister live abgefragt, Standortsuche mit der adressgenauen Koordinate der Hickengrundstraße 14 (50.7295197 / 8.1736291, Ortsteil Haiger-Flammersbach). Namenssuche Efb n=Gräb -> 1 Treffer (Gräbner Recycling & Entsorgung GmbH, Ravensberger Straße 12, 33415 Verl, ZZET02000107 / 1, Sammeln, Befoerdern): Namensvetter in Nordrhein-Westfalen, nicht uebernommen; n=Gräb Gretl -> 0 Treffer. Standortsuche Efb 3 km -> 1 Treffer (FEY Transport- und Baustoffhandelsgesellschaft mbH, Siegener Straße 2, 35708 Haiger-Allendorf, ZZFE00100090 / 1, Sammeln, Befoerdern, 2,0 km), anderer Rechtstraeger. Route Altfahrzeugverwertung 3 km -> 1 Treffer und dieser liegt im selben Ortsteil: Autoverwertung Oerter, Am Schimberg 8, 35708 Haiger-Flammersbach, ZAHS01200055 / 1, 0,7 km; der Detaildialog nennt Telefon 02773 6830, Fax 02773 71912, E-Mail info@oerter.de, Ansprechpartnerin Frau Domuradt Susanne und die Kennnummer F54E04350. Name, Anschrift und Rufnummer weichen vollstaendig vom Seed-Lead Gräb Gretl ab, daher ausdruecklich NICHT uebernommen; der Betrieb ist aber ein belegter zertifizierter Autoverwerter im unmittelbaren Nachbarschaftsraum. OSM: die Hickengrundstraße 14 existiert als way/110968721 (addr:housenumber=14, addr:street=Hickengrundstraße) ohne name- und operator-Tag, die Nummer 14 ist also belegt, der Betrieb nicht. ANKAUF: keine Kurse. VERKAUF: keine Liste. GEBUEHREN: keine Tarife. Offen bleiben die Betreiberidentitaet des Einzelunternehmens Gräb Gretl und die Frage, ob das Portal-Label geschlossen eine Betriebsaufgabe belegt; der Nachbarschaftsbetrieb Autoverwertung Oerter ist ausdruecklich keine Uebernahme und die Efb-/AltfahrzeugV-Anerkennung ist freiwillig, ein Nichttreffer also kein Existenzbeweis. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/n=Gr%C3%A4b ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=35708%20Haiger%2C%20Deutschland%3B8.1736291%3B50.7295197%3B8.191074419439996%3B50.767516679999995%3B8.156183780560004%3B50.691522720000004&dst=3&is=1&e=1 ; https://api.openstreetmap.org/api/0.6/map.json?bbox=8.1561,50.6915,8.1911,50.7676 ; https://www.11880.com/branchenbuch/haiger/060440090B27341593/graeb-gretl.html (Abruf 06.11.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Haiger** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **35708** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Gräb Gretl** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

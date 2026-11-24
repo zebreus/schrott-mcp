@@ -3,9 +3,9 @@ slug: he-wiesbaden-65199-stussak
 name: Stussak
 trader_type: sonstige
 state: HE
-city: Wiesbaden 65199
+city: 'Wiesbaden'
 street: ''
-postcode: ''
+postcode: '65199'
 phone: ''
 email: ''
 opening_hours: ''
@@ -57,3 +57,7 @@ Die Seed-Zeile „Stussak“ in Wiesbaden 65199 ist weiterhin keinem dortigen Be
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Kein Wiesbaden-Treffer in Verzeichnissen. Namensvetter mit Schrottbezug existieren andernorts: Schrottverwertung Am Höhenweg 5, Vacha + Autoverwertung Hohenroda (beides keine Belege für Seed) — Seed-Stadt Wiesbaden fraglich, KEINE Füllung; Klärfall (Identität/Sitz); Quelle(n): Verzeichnis-Abgleich (Negativbefund, Leads).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Wiesbaden** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **65199** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Stussak** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

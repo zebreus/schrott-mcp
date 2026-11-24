@@ -3,9 +3,9 @@ slug: sn-dresden-01139-eisen-und-metallhandel
 name: Eisen- und Metallhandel GmbH
 trader_type: metallhaendler
 state: SN
-city: Dresden 01139
+city: 'Dresden'
 street: Treidlerstr. 3
-postcode: ''
+postcode: '01139'
 phone: ''
 email: ''
 opening_hours: ''
@@ -55,3 +55,7 @@ Die Seedzeile ordnet „Eisen- und Metallhandel GmbH“ der Treidlerstr. 3, 0113
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **4,3 km** vom Adressobjekt **Treidlerstraße 3, 01139 Dresden** (way/23168068, `addr:housenumber`=3) entfernt — er trifft der **Elberadweg** ✓ ✓ (ein Radweg ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft einen Radweg statt der belegten Anschrift ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Dresden** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **01139** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Eisen- und Metallhandel GmbH** ✓✓, Straße **Treidlerstr. 3** ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: ni-hannover-30539-anders-schrott
 name: Anders Schrott
 trader_type: schrotthaendler
 state: NI
-city: Hannover 30539
+city: 'Hannover'
 street: ''
-postcode: ''
+postcode: '30539'
 phone: ''
 email: ''
 opening_hours: ''
@@ -57,3 +57,7 @@ provenance_origin: table
   (4) **Preise, nach Art getrennt:** **ANKAUF:** **keine** belegte Preisliste und **kein** Eurobetrag. **VERKAUF:** **keine** Verkaufspreisliste. **GEBÜHREN:** **keine** belegten Abholtarife und **keine** Bedingungen für eine kostenfreie Abholung; die Branchenbezeichnung „Alt- und Abfallstoffe“ beschreibt eine Tätigkeitsart, **keine** Kondition. Es wird **kein** Wert erfunden.
   (5) **Was das Dossier ändert und was nicht:** Das Frontmatter bleibt **unverändert** (`city: Hannover 30539`, `street: ''`, `postcode: ''`, `phone: ''`, `status: pruefung`). **Neu belegt** sind der **amtliche Negativbefund** mit der vollständigen **Namensvetter-Liste** (Krefeld, Gevensleben, Escheburg) und die **Präzisierung der Verzeichnisangaben** (Rubrik „Alt- und Abfallstoffe“ statt „Schrottabholung“, keine Rezension, keine Straße, keine Website, keine E-Mail). Der Kernbefund des Dossiers bleibt: ein **Mobilkontakt ohne Standort** ist kein Annahmepunkt.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Anders ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Anders ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=30539%20Hannover%2C%20Deutschland%3B9.8271331%3B52.3144284%3B9.8571331%3B52.3444284%3B9.8271331%3B52.3144284&dst=3&is=1&e=1 ; https://www.gelbeseiten.de/gsbiz/cc6eb567-50e4-448a-b532-a4e6f10e614d (Abruf 07.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Hannover** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **30539** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Anders Schrott** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

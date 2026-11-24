@@ -5,9 +5,9 @@ lon: 8.1651895
 name: Mussbach Metall GmbH & Co. KG
 trader_type: metallhaendler
 state: RP
-city: Neustadt-Mußbach 67435
+city: 'Neustadt-Mußbach'
 street: ''
-postcode: ''
+postcode: '67435'
 phone: ''
 email: ''
 opening_hours: ''
@@ -92,3 +92,7 @@ Das NorthData-Firmenprofil zur Mussbach Metall GmbH & Co. KG führt HRA 41393 un
   03.11.2026) ;
   https://www.online-handelsregister.de/handelsregisterauszug/rp/Ludwigshafen-am-Rhein/HRB/41319/Mussbach-Metall-Geschaeftsfuehrungsgesellschaft-mbH
   (live abgerufen 03.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Neustadt-Mußbach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **67435** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Mussbach Metall GmbH & Co. KG** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

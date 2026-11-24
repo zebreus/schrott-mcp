@@ -3,9 +3,9 @@ slug: rp-rivenich-54518-schrotthandel-s-hutmacher
 name: Schrotthandel S. Hutmacher
 trader_type: schrotthaendler
 state: RP
-city: Rivenich 54518
+city: 'Rivenich'
 street: Weinstr. 3
-postcode: ''
+postcode: '54518'
 phone: ''
 email: ''
 opening_hours: ''
@@ -47,3 +47,7 @@ Für den Rivenicher Seed „Schrotthandel S. Hutmacher“, Weinstraße 3, liegt 
 ### Korrektur 19.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 19.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **90 m** von der belegten Anschrift **Weinstr. 3, 54518 Rivenich** entfernt, aber auf einer **anderen Straße** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 19.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Rivenich** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **54518** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrotthandel S. Hutmacher** ✓✓, Straße **Weinstr. 3** ✓✓ ✓✓]

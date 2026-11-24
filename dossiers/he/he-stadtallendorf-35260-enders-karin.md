@@ -3,9 +3,9 @@ slug: he-stadtallendorf-35260-enders-karin
 name: Enders Karin
 trader_type: sonstige
 state: HE
-city: Stadtallendorf 35260
+city: 'Stadtallendorf'
 street: ''
-postcode: ''
+postcode: '35260'
 phone: ''
 email: ''
 opening_hours: ''
@@ -46,3 +46,7 @@ Ein direkt geprüftes 11880-Profil führt „Autoverwertung Karin Enders“, Sch
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Keine Verzeichnis-Leads zu Enders Karin in Stadtallendorf/Marburg gefunden, keine Betreiber-Website, kein HR-Eintrag; Klein-AV-Status unbestätigt; kein Fill; Quelle(n): Gelbe-Seiten-Suchen + Northdata-Suche 01.10.2026]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Stadtallendorf** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **35260** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Enders Karin** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

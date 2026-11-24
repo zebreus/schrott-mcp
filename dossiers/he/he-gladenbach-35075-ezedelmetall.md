@@ -3,9 +3,9 @@ slug: he-gladenbach-35075-ezedelmetall
 name: EZEdelmetall
 trader_type: sonstige
 state: HE
-city: Gladenbach 35075
+city: 'Gladenbach'
 street: Marktplatz 1
-postcode: ''
+postcode: '35075'
 phone: ''
 email: ''
 opening_hours: ''
@@ -53,3 +53,7 @@ Branchenbuch-Profile führen EZEdelmetall als Goldankauf am Marktplatz 1, 35075 
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **26 m** vom Adressobjekt **Marktplatz 1, 35075 Gladenbach** (node/1941133679, `addr:housenumber`=1) entfernt — er trifft das Objekt **tv markt** (node/1941133679, `shop`=furniture) auf **Marktplatz 1** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt fällt exakt auf ein **fremdes Objekt** — einen Möbelmarkt, keinen Edelmetallhändler ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Gladenbach** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **35075** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **EZEdelmetall** ✓✓, Straße **Marktplatz 1** ✓✓ ✓✓]

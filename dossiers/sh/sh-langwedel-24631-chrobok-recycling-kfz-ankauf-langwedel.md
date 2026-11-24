@@ -3,9 +3,9 @@ slug: sh-langwedel-24631-chrobok-recycling-kfz-ankauf-langwedel
 name: Chrobok Recycling KFZ-Ankauf Langwedel
 trader_type: autoverwertung
 state: SH
-city: Langwedel 24631
+city: 'Langwedel'
 street: ''
-postcode: ''
+postcode: '24631'
 phone: ''
 email: ''
 opening_hours: ''
@@ -51,3 +51,7 @@ Das Kleinanzeigen-Profil unter dem Namen „Chrobok Recycling KFZ-Ankauf Langwed
 
 - [Recherche 18.11.2026: Das amtliche Fachbetrieberegister kennt am 18.11.2026 unter dem Namen Chrobok keinen Eintrag: die Namensabfrage in der Route Entsorgungsfachbetriebe und in der Route Altfahrzeugverwertung liefert je 0 Treffer; eine Standortabfrage war nicht möglich, weil für diesen Eintrag keine belegte Anschrift vorliegt. Das Zertifikatsfeld wurde um diesen Negativbefund ergänzt. Das amtliche Handelsregisterportal führt bei der Namensabfrage Chrobok 17 Unternehmen unter anderem Chrobok-International GmbH Bremerhaven, Chrobok Vermögensverwaltung GmbH Potsdam, Möbel Chrobok GmbH Dortmund, Chrobok GmbH Freiburg, BOS Chrobok GmbH Walsrode sowie mehrere Chrobok-Gesellschaften in Mannheim und einen Fleischwarenbetrieb in Bochum; keiner dieser Rechtsträger ist ein Recycling- oder Kfz-Ankaufbetrieb in Langwedel, und die Personenliste enthält keinen passenden Eintrag für Niedersachsen, weshalb diese Namen nicht mit dem Werbeprofil gleichgesetzt werden. Die Beleglage zur Anschrift ist damit unverändert: es gibt keine belegte Langwedeler Adresse, die Ortsangabe Nortorf aus der Anzeige vom 20.10.2026 bleibt eine andere Ortsangabe, und der nicht direkt abrufbare Inseratspreis von 123 Euro bleibt weder Ankaufkurs noch Gebühr. ANKAUF: kein bestätigter Betrag. VERKAUF: keine Liste. GEBÜHREN: kein Tarif. Keine Koordinate und keine Adressfelder gefüllt. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Chrobok ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Chrobok ; https://www.online-handelsregister.de/suche/Chrobok ; https://www.kleinanzeigen.de/pro/kfz-ankauf-langwedel]
 - [Frontmatter-Änderungen 18.11.2026: Diese Recherche hat die folgenden Felder des Dossiers verändert: `description` (ergänzt), `certifications` (ergänzt (Negativbefund oder Registerbefund)). Die übrigen Felder und alle bisherigen Notizen der Timeline bleiben unverändert.]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Langwedel** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **24631** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Chrobok Recycling KFZ-Ankauf Langwedel** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

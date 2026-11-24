@@ -3,9 +3,9 @@ slug: he-hochst-64739-sac-recycling
 name: SAC Recycling
 trader_type: schrotthaendler
 state: HE
-city: Höchst 64739
+city: 'Höchst'
 street: ''
-postcode: ''
+postcode: '64739'
 phone: ''
 email: ''
 opening_hours: ''
@@ -52,3 +52,7 @@ provenance_origin: table
 ### Recherche 08.11.2026
 
 - [Recherche 08.11.2026: **Die Namenssuche und die 3-km-Ortsabfrage bestätigen den Negativbefund vom 05.11.2026 unverändert; die Substring-Suche „SAC Recycling“ trifft nur Sachbetriebe mit Nebenstandorten.** Das amtliche Fachbetrieberegister (clientseitig gerenderte Vaadin-App, per Playwright/Chromium bedient) liefert am 08.11.2026 für die Namenssuche „SAC Recycling“ in der Route „Entsorgungsfachbetriebe“ **5 Treffer** und in der Route „Altfahrzeugverwertung“ **0 Treffer**; die fünf Zeilen gehören der BBV Breisacher Bauschuttverwertungs GmbH (Franzosenweg, Am Rimsinger Ei 1, 79206 Breisach-Oberrimsingen, ZZLT00500045 / 1) und der Dahm & Bohnsack Handels- und Recycling GmbH (Gewerbegebiet Ost 8, 16845 Neustadt/Dosse, ZZHT00300793 / 1 bis / 4), also **anderen** Rechtsträgern in Baden-Württemberg und Brandenburg; die Standortabfrage mit 3 km um An der Hasselbach 1, 64739 Höchst (Geocoder-Koordinaten 8.9328112/49.7897033, PLZ-Abgleich 64739) liefert in **beiden** Routen **0 Treffer**. Die Zahl der Namensvetter ändert sich damit gegenüber dem 05.11.2026 nicht, die Substring-Suche erklärt die „SAC“-Treffer von damals (Sachsen, Sachse, Aktualisierung). Zertifikatsnummer, Vorgangsnummer, Zertifizierungsorganisation, Ausstellungsdatum, Gültigkeitsdatum, Anlagenanzahl und zertifizierte Tätigkeit bleiben **nicht ausgewiesen**. Reichweite: die Efb-Anerkennung nach § 56 KrWG und die AltfahrzeugV-Anerkennung sind **freiwillig**, ein Register-Nichteintrag ist **kein** Nachweis für die Nichtexistenz des Betriebs. **ANKAUF:** keine Preise und keine belegte Materialannahme. **VERKAUF:** keine Preisliste. **GEBÜHREN:** keine Tarife. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=SAC%20Recycling ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=SAC%20Recycling ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=An%20der%20Hasselbach%201%2C%2064739%20H%C3%B6chst%2C%20Deutschland%3B8.9328112%3B49.7897033%3B8.9528110%3B49.8097033%3B8.9128114%3B49.7697033&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=An%20der%20Hasselbach%201%2C%2064739%20H%C3%B6chst%2C%20Deutschland%3B8.9328112%3B49.7897033%3B8.9528110%3B49.8097033%3B8.9128114%3B49.7697033&dst=3&is=1&e=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Höchst** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **64739** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **SAC Recycling** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

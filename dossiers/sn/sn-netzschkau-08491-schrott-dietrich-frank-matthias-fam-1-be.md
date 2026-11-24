@@ -3,9 +3,9 @@ slug: sn-netzschkau-08491-schrott-dietrich-frank-matthias-fam-1-be
 name: Schrott Dietrich/Frank/Matthias (Fam., 1 Betrieb, 3 GS-Einträge)
 trader_type: schrotthaendler
 state: SN
-city: Netzschkau 08491
+city: 'Netzschkau'
 street: Schützenstr. 26
-postcode: ''
+postcode: '08491'
 phone: 03765 34546/36578/64404
 email: ''
 opening_hours: ''
@@ -49,3 +49,7 @@ Ungeklärter Sammelimport aus drei Telefonbucheinträgen. „Schrott“ kann hie
 ### Korrektur 20.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 20.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **689 m** vom Adressobjekt der Dossier-Adresse **Schützenstr. 26** entfernt ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 20.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Netzschkau** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **08491** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrott Dietrich/Frank/Matthias (Fam., 1 Betrieb, 3 GS-Einträge)** ✓✓, Straße **Schützenstr. 26** ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: sn-jahnatal-04749-muller-eckhard-av
 name: Müller Eckhard AV
 trader_type: autoverwertung
 state: SN
-city: Jahnatal 04749
+city: 'Jahnatal'
 street: Bergstr. 6
-postcode: ''
+postcode: '04749'
 phone: ''
 email: ''
 opening_hours: ''
@@ -86,3 +86,7 @@ Preise Ankauf/Verkauf/Gebühren nicht verifiziert. Nächster Beleg: aktuelles An
 
 - [Recherche 21.11.2026: Im gesamten Umfeld von Jahnatal ist im amtlichen Register kein Autoverwertungsbetrieb eingetragen, und die Adressfrage lässt sich jetzt sauber von einem gleichnamigen Straßennamen trennen. Die Route "Altfahrzeugverwertung" des amtlichen Fachbetrieberegisters liefert um die Bergstr. 6, 04749 Jahnatal in 3 km und in 10 km jeweils 0 Treffer; die Route "Entsorgungsfachbetriebe" liefert in 10 km acht Anlagen, darunter `Rematec GmbH Destillation und Isodry`, Nebitzschener Straße 3, 04769 Mügeln (ZZIT00700179 / 1 und / 2), 3,7 km, `Bergzog Kanalreinigungs-GmbH`, Gutsweg 2, 04749 Jahnatal OT Goselitz (ZZHT00900083 / 1), 5,6 km, `Entsorgungsgesellschaft Döbeln mbH`, Teichstraße 17a, 04720 Döbeln (ZZEE00200064 / 1 und / 2), 8,8 km, und `Scholz Recycling GmbH`, Mastener Straße 1, 04720 Döbeln (ZZEE00300031 / 1 bis / 3), 9,6 km - keine Zeile nennt Eckhard Müller oder die Bergstraße 6. Die OSM-Abfrage vom 21.11.2026 (Overpass auf alle Objekte mit `addr:street` gleich Bergstraße im Raum Jahnatal, dazu Nominatim) bestätigt: die Bergstraße in Jahnatal-Schrebnitz führt weiterhin nur die Hausnummern 2 (way/368447774), 3 (way/368447724) und 5 (way/368447786); die Dossier-Hausnummer 6 ist dort nicht abgebildet. Zu unterscheiden ist die andere Straße `Neue Bergstraße`, way/96849969, mit `addr:housenumber=6`, `addr:postcode=04749`, `addr:city=Jahnatal`, `addr:suburb=Jahna-Pulsitz` - anderer Straßenname, anderer Ortsteil, keine Entsprechung zur Dossier-Adresse. Die Identitätsunsicherheit aus dem Dossier bleibt (das Verzeichnis führt denselben Betrieb zugleich als `Eckhard Müller Kraftfahrzeugtechnik`), ohne Register- oder Betreiberbeleg wird nicht zusammengeführt. Reichweite: die AltfahrzeugV-Anerkennung ist freiwillig, ein Register-Nichteintrag ist kein Nichtexistenzbeweis und kein Beleg für eine Demontage- oder Aufhebungserklärung. ANKAUF: keine Fahrzeug- oder Metallvergütung belegt. VERKAUF: keine Fahrzeug- oder Teilepreisliste. GEBÜHREN: keine Abschlepp- oder Entsorgungstarife. Status `pruefung` bleibt, es wird keine Koordinate gesetzt, weil für Bergstr. 6 kein adressgenaues OSM-Objekt existiert und die Punkte der Nachbarhäuser 3 und 5 eine andere Adresse bezeichnen.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/adr=04749%20Jahnatal%2C%20Deutschland%3B13.0670440%3B51.2061210%3B13.1409814%3B51.2297379%3B12.9931066%3B51.1825041&dst=10&is=1&e=1 ; https://api.openstreetmap.org/api/0.6/way/96849969.json ; https://nominatim.openstreetmap.org/search?q=Bergstra%C3%9Fe%2C+04749+Jahnatal-Schrebitz&format=jsonv2 (Abruf 21.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Jahnatal** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **04749** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Müller Eckhard AV** ✓✓, Straße **Bergstr. 6** ✓✓ ✓✓]

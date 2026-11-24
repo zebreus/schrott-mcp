@@ -3,9 +3,9 @@ slug: mv-rostock-18147-hanse-recycling
 name: Hanse - Recycling GmbH
 trader_type: sonstige
 state: MV
-city: Rostock 18147
+city: 'Rostock'
 street: ''
-postcode: ''
+postcode: '18147'
 phone: ''
 email: ''
 opening_hours: ''
@@ -54,3 +54,7 @@ Die historische Hanse - Recycling GmbH (AG Rostock HRB 5006) ging laut NorthData
 
 - [Recherche 19.11.2026: **Der Registerauszug bestätigt Auflösung und Verschmelzung jetzt amtlich, die Seed-Adresse ist heute ein Bürohaus.** Der am 19.11.2026 live gelesene Registerauszug zu `Hanse - Recycling GmbH`, Amtsgericht Rostock HRB 5006, weist den Status `gelöscht` aus, nennt die Anschrift `Ost-West-Straße 12, 18147 Rostock`, das Gründungsdatum 10.09.1993 und die OH-Nummer C-20442080; in der Dokumentenliste stehen ein `Unternehmensvertrag / Umwandlungsvertrag bzw. sonstiger Vertrag vom 30.03.2011` und die letzte `Liste der Gesellschafter - Aufnahme in das Registerordner am 07.01.2011`. Damit ist die bereits rekonstruierte Verschmelzung zur Schiffsmaklerei Baltic Shipping Agency GmbH amtlich unterlegt und der Seed-Namensschreibweise `Hanse - Recycling GmbH` zugeordnet; die frühere Rekonstruktion stützte sich auf eine Register-Sekundärquelle, dieser Beleg kommt aus dem amtlichen Registerauszug. Die Seed-Adresse `Am Seehafen 7, 18147 Rostock` löst in OSM auf das Bürohaus `way/33745526` bei 54.1429671/12.1076486 mit `building=office`, `building:levels=5` und `kvl_hro:amenity=office_building` sowie auf den Knoten `node/8639912269` mit `name=Karateunion Mecklenburg_Vorpommern e.V.`; die Adresse ist damit heute kein Schrottplatz. Die Zuordnung des Dossier-Eintrags zum gelöschten Rechtsträger bleibt offiziell ungeklärt, weshalb `status: prüfung` unverändert bleibt und die Eintragsvariante nicht als geschlossen markiert wird. Quellen: https://www.online-handelsregister.de/handelsregisterauszug/mv/Rostock/HRB/5006/Hanse-Recycling-GmbH ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=2&countrycodes=de&addressdetails=1&extratags=1&q=Am%20Seehafen%207%2C%2018147%20Rostock ; https://api.openstreetmap.org/api/0.6/node/8639912269.json .]
 - [Recherche 19.11.2026: **Keine Zertifizierung und kein Händler am Seed-Ort.** Das amtliche Fachbetrieberegister liefert am 19.11.2026 in beiden Routen 0 Treffer für `Hanse Recycling` und `Hanse-Recycling`; die Standortabfrage mit 3 km um Am Seehafen 7, 18147 Rostock liefert 14 Efb-Treffer, darunter die ALBA Metall Nord GmbH Unternehmenssitz, Werkstr. 1, 18069 Rostock in 2,1 km, mit sechs Anlagen, sowie 1 AltfahrzeugV-Treffer, die fremde `Firma Ivo Zotzmann`, De Striethoff 2, 18147 Rostock-Krummendorf in 0,8 km. Die EfbV- und die AltfahrzeugV-Anerkennung sind freiwillig, die Abfragen sind kein Nichtexistenzbeweis. Für den Dossier-Eintrag gibt es damit weiterhin keinen Betreiber, keine Annahmebedingungen und keine Preisliste; die auf der Registerportal-Seite genannten 29,80 EUR sind Kosten für Registerdokumente und keine Schrottpreise. **Ankauf:** keine Preise; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Hanse%20Recycling ; https://www.online-handelsregister.de/handelsregisterauszug/mv/Rostock/HRB/5006/Hanse-Recycling-GmbH .]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Rostock** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **18147** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Hanse - Recycling GmbH** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

@@ -3,9 +3,9 @@ slug: he-nidda-63667-bana-arif-ahmad-astaq
 name: Bana Arif (Ahmad Astaq)
 trader_type: sonstige
 state: HE
-city: Nidda 63667
+city: 'Nidda'
 street: ''
-postcode: ''
+postcode: '63667'
 phone: ''
 email: ''
 opening_hours: ''
@@ -103,3 +103,7 @@ Der mögliche Dublettenfall ist weiterhin ungelöst: Die aktuelle Betreiberseite
   https://bana-recycling.de/impressum/ ; https://bana-recycling.de/ ;
   https://api.openstreetmap.org/api/0.6/way/1168312924/full.json ;
   https://www.dastelefonbuch.de/Details/Nidda/Schrott-Ahmad-Astaq-Bana-Arif-Nidda-Zeppelinstr.html (Abruf 07.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Nidda** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63667** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Bana Arif (Ahmad Astaq)** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

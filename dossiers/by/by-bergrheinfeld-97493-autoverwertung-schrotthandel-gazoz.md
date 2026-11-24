@@ -3,9 +3,9 @@ slug: by-bergrheinfeld-97493-autoverwertung-schrotthandel-gazoz
 name: Autoverwertung Schrotthandel Gazoz
 trader_type: autoverwertung
 state: BY
-city: Bergrheinfeld 97493
+city: 'Bergrheinfeld'
 street: Richtbergstr. 17
-postcode: ''
+postcode: '97493'
 phone: ''
 email: ''
 opening_hours: ''
@@ -86,3 +86,7 @@ Die Seedzeile stammt aus dem OSM-Objekt way/1180072271 (name="Autoverwertung Sch
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,5 km** von **way/1180072271**, Richtbergstraße 17, 97493 Bergrheinfeld entfernt — er trifft **Metzgerei Rückert, 5, Rothmühlstraße, Bergrheinfeld, Landkreis Schweinfurt, Bayern, 97493, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine **andere Straße** ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (alle Belege dieses Dossiers stammen aus derselben Verzeichnisklasse ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Bergrheinfeld** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **97493** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoverwertung Schrotthandel Gazoz** ✓✓, Straße **Richtbergstr. 17** ✓✓ ✓✓]

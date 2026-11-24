@@ -3,9 +3,9 @@ slug: by-oberpleichfeld-97241-kopp-theodor-schrott-und-altmetalle
 name: Kopp Theodor Schrott und Altmetalle
 trader_type: schrotthaendler
 state: BY
-city: Oberpleichfeld 97241
+city: 'Oberpleichfeld'
 street: ''
-postcode: ''
+postcode: '97241'
 phone: 09367 2200
 email: ''
 opening_hours: ''
@@ -67,3 +67,7 @@ Die importierte Nummer 09367 2200 und die bisherige Verzeichnisadresse Herrngass
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **208 m** vom Adressobjekt **Herrngasse 13, 97241 Oberpleichfeld** (way/128878464, `addr:housenumber`=13) entfernt — er trifft **8, Prosselsheimer Straße, 97241 Oberpleichfeld** (way/131219528) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein anderes Haus in demselben Ort ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Oberpleichfeld** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **97241** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Kopp Theodor Schrott und Altmetalle** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

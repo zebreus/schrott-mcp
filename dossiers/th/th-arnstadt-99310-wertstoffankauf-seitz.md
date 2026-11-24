@@ -3,9 +3,9 @@ slug: th-arnstadt-99310-wertstoffankauf-seitz
 name: Wertstoffankauf Seitz
 trader_type: wertstoffhaendler
 state: TH
-city: Arnstadt 99310
+city: 'Arnstadt'
 street: Nordstr. 3
-postcode: ''
+postcode: '99310'
 phone: 0152 52450502
 email: ''
 opening_hours: ''
@@ -47,3 +47,7 @@ provenance_origin: table
 
 - [Recherche 18.11.2026: Die Schließungsangabe der Vorwellen ist unverändert reproduziert, aber nicht amtlich bestätigt: Das ProvenExpert-Profil nennt am 18.11.2026 weiterhin den Text, wir schließen unser Geschäft, der letzte Ankauftag ist der 12.08.2023, bei einer Profilaktualisierung vom 04.08.2023. Das amtliche Handelsregisterportal kennt unter Wertstoffankauf Seitz weder ein Unternehmen noch eine Person, und das amtliche Fachbetrieberegister weder unter dem Namen Seitz einen Eintrag noch einen zertifizierten Betrieb an der Dossieradresse: die Standortabfrage mit 3 km um Nordstraße 3, 99310 Arnstadt liefert 5 Efb-Treffer und 1 Altfahrzeugverwertungs-Treffer, das sind die REMONDIS GmbH & Co. KG Niederlassung Arnstadt am Hammerecke 4 und die Scholz Recycling GmbH am Ichtershäuser Straße 57. Das Zertifikatsfeld wurde um diesen Negativbefund ergänzt. Neu belegt ist die Nachbarschaft an derselben Hausnummer: die Cylex-Straßenübersicht der Nordstraße in Arnstadt führt an der Nummer 3 neben dem Wertstoffankauf Seitz die Kfz-Service-Zentrum GmbH, die Anschrift ist also nicht eindeutig dem Schrotthandel zugeordnet und kein Betreiber-Nachweis. Die Domainlage ist am 18.11.2026 gemessen: wertstoffankauf-seitz.business.site liefert keinen erreichbaren Inhalt (TLS-Fehler beim Hostnamen), die Domain wsh-seitz.de scheitert am TLS-Handshake; die Verfügbarkeits-API des Internet-Archivs nennt für wsh-seitz.de den nächsten Snapshot vom 20.12.2021, für die business.site-Domain ist kein Snapshot hinterlegt; der Archivdienst war am 18.11.2026 zeitweise offline, die Snapshot-Liste war deshalb nicht vollständig abrufbar. ANKAUF: keine Kurse. VERKAUF: keine Zahlen. GEBÜHREN: keine Zahlen. Der Status bleibt pruefung, weil eine Wiedereröffnung nicht widerlegt und eine amtliche Schließung nicht belegt ist. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Seitz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=Nordstra%C3%9Fe%203%2C%2099310%20Arnstadt%2C%20Deutschland%3B10.9533982%3B50.8391994%3B10.9960734%3B50.8661487%3B10.9107230%3B50.8122501&dst=3&is=1&e=1 ; https://www.provenexpert.com/de-de/wertstoffankauf-seitz/ ; https://web2.cylex.de/stadtplan/Arnstadt-99/Arnstadt-strasse-nordstr.html ; https://www.online-handelsregister.de/suche/Wertstoffankauf%20Seitz]
 - [Frontmatter-Änderungen 18.11.2026: Diese Recherche hat die folgenden Felder des Dossiers verändert: `description` (ergänzt), `certifications` (ergänzt (Negativbefund oder Registerbefund)). Die übrigen Felder und alle bisherigen Notizen der Timeline bleiben unverändert.]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Arnstadt** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **99310** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Wertstoffankauf Seitz** ✓✓, Straße **Nordstr. 3** ✓✓ ✓✓]

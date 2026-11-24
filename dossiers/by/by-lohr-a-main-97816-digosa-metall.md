@@ -3,9 +3,9 @@ slug: by-lohr-a-main-97816-digosa-metall
 name: Digosa Metall GmbH
 trader_type: metallhaendler
 state: BY
-city: Lohr a.Main 97816
+city: 'Lohr a.Main'
 street: ''
-postcode: ''
+postcode: '97816'
 clear_fields: geo
 phone: 0173 3120667
 email: ''
@@ -124,3 +124,7 @@ Die aktuellen Belege widersprechen sich beim Standort: 11880 führt Digosa Metal
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 23.11.2026: **Für dieses Dossier wird **kein** Standortpunkt gesetzt ✓ ✓ — Der **Altpunkt** ✓✓ ist **bereits** ✓✓ zurückgenommen ✓✓ — beide Kandidaten ✓✓ sind **nicht** ✓✓ als Kundenannahme bestätigt ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Lohr a.Main** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **97816** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Digosa Metall GmbH** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

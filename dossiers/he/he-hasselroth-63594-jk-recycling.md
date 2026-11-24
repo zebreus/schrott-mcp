@@ -3,9 +3,9 @@ slug: he-hasselroth-63594-jk-recycling
 name: JK-Recycling
 trader_type: schrotthaendler
 state: HE
-city: Hasselroth 63594
+city: 'Hasselroth'
 street: ''
-postcode: ''
+postcode: '63594'
 phone: ''
 email: ''
 opening_hours: ''
@@ -59,3 +59,7 @@ Der einzige konkrete Hasselrother Lead bleibt das GoLocal-Profil „Schrotthande
 ### Recherche 13.10.2026
 
 - [Recherche 13.10.2026: Re-Check nach exaktem Namen/Ort brachte keine neue qualifizierende Quelle; der GoLocal-Eintrag vom 04.10. bleibt ein Verzeichnislead, keine Betreiberbestätigung. Fehlende Treffer auf der kommunalen Übersichtsseite beweisen keine Nichtexistenz. Vollständiger Rechtsträger, fortbestehende Nutzung von Alte Hanauer Landstr. 3, Kontakte, Zeiten und tatsächliche Annahme/Abholung bleiben offen. ANKAUF/VERKAUF/GEBÜHREN: keine zuordenbaren Preise. Keine GEO-Daten gesetzt. Quelle: https://www.golocal.de/hasselroth/sonstige-dienstleistungen/schrotthandel-jk-recycling-11X8ly/; https://www.hasselroth.de/hasselroth/gewerbe/]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Hasselroth** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **63594** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **JK-Recycling** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

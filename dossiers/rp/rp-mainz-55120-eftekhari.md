@@ -3,9 +3,9 @@ slug: rp-mainz-55120-eftekhari
 name: Eftekhari
 trader_type: sonstige
 state: RP
-city: Mainz 55120
+city: 'Mainz'
 street: ''
-postcode: ''
+postcode: '55120'
 phone: ''
 email: ''
 opening_hours: ''
@@ -73,3 +73,7 @@ Gelbe Seiten führt als unbestätigten Lead eine „Eftekhari GmbH“ am Akazien
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **weit entfernt** ✓ ✓ von der belegten Anschrift ✓ ✓ — er trifft **Sternengarten, Xaveriusweg, Zahlbach, Oberstadt, Mainz, Rheinland-Pfalz, 55131, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **3,43 km** ✓✓ vom Adressobjekt entfernt ✓✓ ✓ ✓ Das **Insolvenzverfahren** ✓✓ (Eröffnung 23.09.2024 ✓✓, Az. 10 IN 295/24 ✓✓) lässt **offen** ✓✓, ob an **Akazienweg 1** ✓✓ heute noch ein Betrieb ✓✓ besteht ✓✓ — die **Identität** ✓✓ ist **nicht** geklärt ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Mainz** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **55120** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Eftekhari** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]

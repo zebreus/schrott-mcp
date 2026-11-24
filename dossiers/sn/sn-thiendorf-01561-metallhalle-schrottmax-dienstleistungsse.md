@@ -3,9 +3,9 @@ slug: sn-thiendorf-01561-metallhalle-schrottmax-dienstleistungsse
 name: Metallhalle Schrottmax / Dienstleistungsservice (1 Betrieb, 2 GS-Einträge)
 trader_type: schrotthaendler
 state: SN
-city: Thiendorf 01561
+city: 'Thiendorf'
 street: ''
-postcode: ''
+postcode: '01561'
 lat: '51.295178'
 lon: '13.7411837'
 phone: 035248 81226/88991
@@ -60,3 +60,7 @@ Die Betreiberwebsite **Metallhalle Sylke Kärst / Schrottmax** beschreibt den An
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **153 m** von der belegten Betriebsanschrift **way/351192795**, `Zur Brüdergemeinde 4b`, 01561 Thiendorf ✓✓ entfernt — er trifft **7, Kamenzer Straße**, 01561 Thiendorf ✓✓ ✓ ✓. Er wird durch den adresskonformen Punkt **51.295178/13.7411837** ✓ ✓ ersetzt ✓ ✓ Der Beleg für die Adresse: das **Betreiber-Impressum** ✓✓ und das **Adressobjekt** ✓✓ mit der **Hausnummer 4b** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl)
+
+- [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Thiendorf** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **01561** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Metallhalle Schrottmax / Dienstleistungsservice (1 Betrieb, 2 GS-Einträge)** ✓✓, **ohne** ✓✓ Straße ✓✓ ✓✓]
