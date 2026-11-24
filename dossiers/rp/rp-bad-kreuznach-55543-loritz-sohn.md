@@ -6,8 +6,6 @@ state: RP
 city: Bad Kreuznach
 street: 'Bosenheimer Str. 200'
 postcode: '55543'
-lat: 49.8457175
-lon: 7.8833779
 phone: '0160 99635337'
 email: schrotthandel.loritz@yahoo.com
 opening_hours: ''
@@ -15,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: 'Schrott-, Metallhandel und Entsorgung aller Art; Mini-Dumpster/Container nach Vereinbarung; Bosenheimer Str. 200 in Bad Kreuznach.'
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Nachtrag Audit-Runde 4 (27.09.2026)
@@ -61,3 +60,7 @@ Ein Facebook-Profil mit dem Namen **Schrotthandel Loritz & Sohn** beschreibt Sch
 ### Recherche 24.11.2026 (Welle 2000 C)
 
 - [Recherche 24.11.2026: **Der amtliche Registerbefund ist unverändert negativ, und das OSM-Objekt an der Dossieradresse ist ein öffentliches Gebäude von 1927/28, kein Schrottbetrieb.** Die Namenssuche `Loritz` im amtlichen Fachbetrieberegister (live am 25.11.2026, clientseitig gerenderte Vaadin-App) liefert in der Route `Entsorgungsfachbetriebe` **0 Treffer** und in der Route `Altfahrzeugverwertung` **0 Treffer**; die Handelsregistersuche über handelsregister.live für `Loritz` mit dem Filter `land=rheinland-pfalz` liefert **keinen** Treffer mit Bezug zu Bad Kreuznach (die Trefferliste nennt u. a. Loritz Oberflächentechnik GmbH, Stuttgart, und Elektro Loritz GmbH, Lautrach - andere Rechtsträger und Orte). Das Kachelraster über **bbox=7.8750,49.8400,7.8900,49.8520** (live abgerufen am 25.11.2026, 15.411 Elemente, davon 368 mit `name=` oder `operator=`) enthält für `addr:street`=Bosenheimer Straße und `addr:housenumber`=200 genau **ein** Objekt: **way/208138198** mit `name`=**Rolandsbogen**, `addr:city`=Bad Kreuznach, `addr:postcode`=55543, `architect`=`Stadtbaurat Hugo Völker`, `building`=yes, `source:building`=OpenData Rheinland-Pfalz, `start_date`=**1927/28** - ein **denkmalgeschütztes öffentliches Gebäude**; die im Raster benannten Betriebe (Takko Fashion, expert klein, Deichmann, KiK, Ristorante Pizzeria Santo da Mino, Adana Grill, DHL, Deutsche Post) nennen **keinen** Loritz und **keinen** Schrottbetrieb an dieser Hausnummer. **Reichweite:** die EfbV- und die AltfahrzeugV-Anerkennung sind **freiwillig**, ein Register-Nichteintrag ist **kein** Nachweis für fehlende Zertifizierung, für Nichtexistenz oder für Betriebsende; die Aussage zum OSM-Objekt gilt für das geprüfte Rasterfenster um die Dossieradresse. Das Frontmatter bleibt unverändert (`status: pruefung`, `opening_hours` leer). **ANKAUF:** keine Kurse und keine Auszahlungskonditionen; **VERKAUF:** keine Preisliste; **GEBÜHREN:** kein Container- oder Entsorgungstarif, insbesondere keine Kostenfreiheit der Abholung. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Loritz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Loritz ; https://handelsregister.live/?q=Loritz&land=rheinland-pfalz ; https://api.openstreetmap.org/api/0.6/map.json?bbox=7.8750,49.8400,7.8900,49.8520 ; https://api.openstreetmap.org/api/0.6/way/208138198.json (Abruf 25.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Der Standortpunkt dieses Dossiers wird entfernt** ✓✓ — das **Adressobjekt** `way/208138198` ✓✓ ist der **Rolandsbogen** ✓✓ (Stadtbaurat **Völker** ✓✓, 1927/28 ✓✓) — **kein** ✓✓ **Schrottbetrieb** ✓✓ — und das **Register** ✓✓ kennt **0/0** ✓✓ ✓✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

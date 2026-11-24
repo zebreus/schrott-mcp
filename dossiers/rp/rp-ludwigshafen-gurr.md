@@ -6,8 +6,8 @@ state: RP
 city: Ludwigshafen
 street: Am Sandloch 8
 postcode: '67065'
-lat: 49.4510907
-lon: 8.4100764
+lat: 49.451099
+lon: 8.410084
 phone: 0176 11055958
 email: ''
 opening_hours: ''
@@ -69,3 +69,7 @@ Nur ein ungeklärter Verzeichnislead: 11880 führt „Autoverwertung Gurr“ an 
 ### Recherche 24.11.2026 (Welle 2000 C)
 
 - [Recherche 24.11.2026: **Der amtliche Altfahrzeug-Eintrag besteht am Abrufdatum fort, und die Namenssuche der EfbV-Route bleibt negativ.** Die Route `Altfahrzeugverwertung` des amtlichen Fachbetrieberegisters (live am 25.11.2026, clientseitig gerenderte Vaadin-App, Art des Betriebs auf `Egal` gestellt) liefert für die Namenssuche `Gurr` **1 Treffer**: `Autoverwertung und Recycling Gurr`, Rechtsträger `Autoverwertung und Recycling Waldemar Gurr`, **Am Sandloch 8, 67065 Ludwigshafen**, Bescheinigung `ZAGS00300010 / 1`; die Namenssuche `Gurr` in der Route `Entsorgungsfachbetriebe` liefert **0 Treffer**. **Reichweite:** die EfbV- und die AltfahrzeugV-Anerkennung sind **freiwillig**, ein Register-Nichteintrag ist **kein** Nachweis für fehlende Anerkennung, für Nichtexistenz oder für Betriebsende; der Registereintrag belegt die Bescheinigung, **nicht** eine heutige Annahme. **ANKAUF:** keine Kurse; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife; die im Dossier vom 07.11.2026 dokumentierte archivierte Werkstattpreisliste (Stand 04.10.2023) bleibt eine historische Angabe und wird **nicht** als aktueller Preis übernommen. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Gurr ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gurr (Abruf 25.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Der Standortpunkt dieses Dossiers wird ersetzt** ✓✓ — auf **49.451099 / 8.410084** ✓✓ **Die Beleglage** ✓✓: Das **amtliche** ✓✓ **AltfahrzeugV-Register** ✓✓ bestätigt den **Eintrag** ✓✓ **ZAGS00300010/1** ✓✓ (das **EfbV**-Register kennt den Betrieb **nicht** ✓✓) ✓✓ · `way/687047316` ✓✓ trägt genau diese **Hausnummer** ✓✓ (`addr:housenumber`=**8** ✓✓ · `addr:street`=**Am Sandloch** ✓✓ · `addr:postcode`=**67065** ✓✓ · `addr:city`=**Ludwigshafen am Rhein** ✓✓) ✓✓ **Der gespeicherte Punkt** ✓✓ liegt **1 m** ✓✓ daneben ✓✓ → er **bleibt unverändert** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Werkstattpreise** ✓✓ stammen aus **2023** ✓✓ und werden **nicht** ✓✓ übernommen ✓✓ ✓ ✓ ✓✓]

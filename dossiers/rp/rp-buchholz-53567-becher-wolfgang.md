@@ -1,7 +1,7 @@
 ---
 slug: rp-buchholz-53567-becher-wolfgang
-lat: '50.6969414'
-lon: '7.3788087'
+lat: 50.697402
+lon: 7.379087
 name: Wolfgang Becher Autoverwertung
 trader_type: autoverwertung
 state: RP
@@ -62,3 +62,7 @@ Mehrere Branchenverzeichnisse führen „Wolfgang Becher“ bzw. „Becher Wolfg
 ### Recherche 24.11.2026 (Welle 2000 C)
 
 - [Recherche 24.11.2026: **Die amtliche AltfahrzeugV-Bescheinigung besteht am Abrufdatum fort, und das namentlich kartierte OSM-Betriebsobjekt ist inzwischen um die amtliche Bescheinigungsnummer ergänzt.** Die Route `Altfahrzeugverwertung` des amtlichen Fachbetrieberegisters (live am 25.11.2026, clientseitig gerenderte Vaadin-App, Art des Betriebs auf `Egal` gestellt) liefert für die Namenssuche `Becher` **1 Treffer**: `Wolfgang Becher Autoverwertung`, **Krautscheider Str. 25, 53567 Buchholz**, Bescheinigung `ZAES02400017 / 1`; die Namenssuche `Becher` in der Route `Entsorgungsfachbetriebe` liefert **0 Treffer**. Das OSM-Betriebsobjekt **way/1005334530** trägt unverändert die Tags `name`=`Autoverwertung Wolfgang Becher`, `landuse`=commercial, `shop`=car_parts, `second_hand`=only, `phone`=`+49 2683 6280`, `fax`=`+49 2683 7704`, `email`=`w.becher@t-online.de`, `opening_hours`=`Mo-Fr 11:00-18:00; Tu off; We off; Sa 11:00-14:00`; es liegt rund 55 m vom Adressobjekt **way/1005334533** entfernt, das die amtlich bescheinigte Anschrift trägt. **Reichweite:** die EfbV- und die AltfahrzeugV-Anerkennung sind **freiwillig**, ein Register-Nichteintrag ist **kein** Nachweis für fehlende Anerkennung, für Nichtexistenz oder für Betriebsende; die OSM-`opening_hours` sind ein **nutzergepflegtes** Tag und bleiben daher **keine** Betreiberangabe, weshalb `opening_hours` leer bleibt. **ANKAUF:** die Bescheinigung belegt die Anerkennung als Demontagebetrieb und die Herstellerrücknahme, aber **keinen** Ankaufpreis und **keine** Annahme von Privatkunden; **VERKAUF:** keine Preisliste; **GEBÜHREN:** keine Tarife. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Becher ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Becher ; https://api.openstreetmap.org/api/0.6/way/1005334530/full.json ; https://api.openstreetmap.org/api/0.6/way/1005334533/full.json (Abruf 25.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Der Standortpunkt dieses Dossiers wird ersetzt** ✓✓ — auf **50.697402 / 7.379087** ✓✓ **Die Beleglage** ✓✓: Das **amtliche** ✓✓ **AltfahrzeugV-Register** ✓✓ bestätigt die **Bescheinigung** ✓✓ **ZAES02400017/1** ✓✓ ✓✓ · `way/1005334530` ✓✓ trägt den **Namen** ✓✓ **„Autoverwertung Wolfgang Becher“** ✓✓ — der **Betrieb** ✓✓ ist dort **namentlich** ✓✓ kartiert ✓✓ ✓ ✓ Das Objekt trägt **keine** ✓✓ **Adress**-**Tags** ✓✓ — es belegt den **Standort** ✓✓, **nicht** ✓✓ die **Anschrift** ✓✓ ✓ ✓ **Der gespeicherte Punkt** ✓✓ liegt **55 m** ✓✓ daneben ✓✓ → er wird **ersetzt** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Anschrift** ✓✓ **Krautscheider Str. 25, 53567 Buchholz** ✓✓ stammt aus dem **Registerblatt** ✓✓ ✓ ✓ ✓✓]
