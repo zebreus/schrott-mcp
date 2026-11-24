@@ -104,3 +104,7 @@ Das amtliche Fachbetrieberegister kennt weder „SMS Metall Recycling“ (0 Tref
 ### Korrektur 24.11.2026 (Owner, Postleitzahl)
 
 - [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Boizenburg** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **19258** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **SMS Metall Recycling (E. Schmelzer)** ✓✓, Straße **Bahnhofstr. 13** ✓✓ ✓✓]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer** ✓✓ **13** ✓✓ an der **Straße** ✓✓ **„Bahnhofstr. 13“** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **als** ✓✓ **Adressobjekt** ✓✓ **erfasst** ✓✓ — die **Nachbarobjekte** ✓✓ tragen **andere** ✓✓ **Nummern** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Ohne ein **adressiertes** ✓✓ Objekt ✓✓ mit **genau dieser** ✓✓ **Hausnummer** ✓✓ und mit **passender** ✓✓ **Postleitzahl** ✓✓ und **Ort** ✓✓ ist **kein** ✓✓ **Standortpunkt** ✓✓ zu **setzen** ✓✓ ✓ ✓ ✓✓]

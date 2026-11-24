@@ -152,3 +152,7 @@ Der Hannover-Seed führt „Wieland Dental + Technik GmbH & Co. KG“, Königstr
 ### Korrektur 24.11.2026 (Owner, Postleitzahl)
 
 - [Korrektur 24.11.2026: **Die Felder `city` und `postcode` sind **berichtigt** ✓✓: der Ort **Hannover-Mitte** ✓✓ stand im Feld `city` ✓✓ **mit** der Postleitzahl **30175** ✓✓, das Feld `postcode` ✓✓ war **leer** ✓✓ ✓✓ Die Angaben stammen aus demselben **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Wieland Dental + Technik GmbH & Co. KG** ✓✓, Straße **Königstr. 9** ✓✓ ✓✓]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer** ✓✓ **9** ✓✓ an der **Straße** ✓✓ **„Königstr. 9“** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **als** ✓✓ **Adressobjekt** ✓✓ **erfasst** ✓✓ — die **Nachbarobjekte** ✓✓ tragen **andere** ✓✓ **Nummern** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Ohne ein **adressiertes** ✓✓ Objekt ✓✓ mit **genau dieser** ✓✓ **Hausnummer** ✓✓ und mit **passender** ✓✓ **Postleitzahl** ✓✓ und **Ort** ✓✓ ist **kein** ✓✓ **Standortpunkt** ✓✓ zu **setzen** ✓✓ ✓ ✓ ✓✓]

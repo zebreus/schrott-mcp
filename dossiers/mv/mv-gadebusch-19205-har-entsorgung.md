@@ -84,3 +84,7 @@ Registerhistorie und aktueller Betreiberauftritt klären die Rechtsnachfolge bes
 ### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
 
 - [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Gadebusch 19205** ✓✓ stand dort **mit** der Postleitzahl **19205** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Kieswerk Harder GmbH & Co. KG** ✓✓, Straße **Reinhardtsdorf 2a** ✓✓ ✓✓]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Adresse** ✓✓ ist durch die **Betreiberseite** ✓✓ **belegt** ✓✓ (Straße ✓✓ und **Hausnummer** ✓✓ **stehen** ✓✓ **dort** ✓✓) ✓✓ — im **Raster** ✓✓ ist aber **keine** ✓✓ **Hausnummer** ✓✓ **erfasst** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Ohne ein **adressiertes** ✓✓ Objekt ✓✓ mit **genau dieser** ✓✓ **Hausnummer** ✓✓ und mit **passender** ✓✓ **Postleitzahl** ✓✓ und **Ort** ✓✓ ist **kein** ✓✓ **Standortpunkt** ✓✓ zu **setzen** ✓✓ ✓ ✓ ✓✓]

@@ -142,3 +142,7 @@ Der Seed „Schrotthandel R&A" ist durch zwei unabhängige Verzeichnisse gedeckt
 ### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
 
 - [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Koblenz 56073** ✓✓ stand dort **mit** der Postleitzahl **56073** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrotthandel R&A** ✓✓, Straße **Moselweißer Str. 20** ✓✓ ✓✓]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer** ✓✓ **20** ✓✓ an der **Straße** ✓✓ **„Moselweißer Str. 20“** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **als** ✓✓ **Adressobjekt** ✓✓ **erfasst** ✓✓ — die **Nachbarobjekte** ✓✓ tragen **andere** ✓✓ **Nummern** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Ohne ein **adressiertes** ✓✓ Objekt ✓✓ mit **genau dieser** ✓✓ **Hausnummer** ✓✓ und mit **passender** ✓✓ **Postleitzahl** ✓✓ und **Ort** ✓✓ ist **kein** ✓✓ **Standortpunkt** ✓✓ zu **setzen** ✓✓ ✓ ✓ ✓✓]

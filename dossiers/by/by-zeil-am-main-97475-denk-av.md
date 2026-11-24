@@ -68,3 +68,7 @@ Die Betreiberwebsite der Autoverwertung Denk nennt Brigitte Denk, Wildgarten 5, 
 ### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
 
 - [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Zeil am Main 97475** ✓✓ stand dort **mit** der Postleitzahl **97475** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Denk AV** ✓✓, Straße **Wildgarten 5** ✓✓ ✓✓]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer** ✓✓ **5** ✓✓ an der **Straße** ✓✓ **„Wildgarten 5“** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **als** ✓✓ **Adressobjekt** ✓✓ **erfasst** ✓✓ — die **Nachbarobjekte** ✓✓ tragen **andere** ✓✓ **Nummern** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Ohne ein **adressiertes** ✓✓ Objekt ✓✓ mit **genau dieser** ✓✓ **Hausnummer** ✓✓ und mit **passender** ✓✓ **Postleitzahl** ✓✓ und **Ort** ✓✓ ist **kein** ✓✓ **Standortpunkt** ✓✓ zu **setzen** ✓✓ ✓ ✓ ✓✓]
