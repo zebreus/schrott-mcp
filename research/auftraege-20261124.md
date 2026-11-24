@@ -26,21 +26,30 @@ Welle ✓✓ ✓ ✓
 
 ## 2) Die **hundertzweiundachtzig** ✓✓ Zeilen mit der Nummer in **beiden** ✓✓ Feldern ✓✓
 
-**Befund** ✓✓ (read-only, 24.11.2026, 07:20 UTC ✓✓): **182** ✓✓ Zeilen ✓✓ tragen
+**Befund** ✓✓ (read-only, 24.11.2026, 08:20 UTC ✓✓): **182** ✓✓ Zeilen ✓✓ tragen
 die Postleitzahl **noch** ✓✓ im Feld `city` ✓✓ — und **181** ✓✓ davon haben das
 Feld `postcode` ✓✓ **schon** ✓✓ **richtig** ✓✓ gefüllt ✓✓ ✓ ✓
 
-Das ist die **kosmetische** ✓✓ Bereinigung ✓✓, die die Korrekturrunde vom
-24.11.2026 ✓✓ für ihre **hundertfünfzigvier** ✓✓ Zeilen ✓✓ schon erledigt hat ✓✓
-— für diese **hundertzweiundachtzig** ✓✓ Zeilen ✓✓ steht sie **noch** ✓✓ aus ✓✓
-✓ ✓
+| Feld | Wert |
+|---|---|
+| Die Zeilen ✓ ✓ | **182** ✓ ✓ |
+| Mit der PLZ **auch** ✓✓ im Feld `postcode` ✓✓ | **181** ✓ ✓ |
+| **Ohne** ✓✓ Leerzeichen ✓✓ vor der Nummer ✓✓ | **2** ✓ ✓ |
+| Die **Verteilung** ✓✓ | HE **56** ✓✓ · SN **25** ✓✓ · MV **22** ✓✓ · BY **19** ✓✓ · RP **17** ✓✓ · NI **12** ✓✓ · SH **8** ✓✓ · BW **6** ✓✓ · SL **5** ✓✓ · NW **4** ✓✓ · BB **2** ✓✓ · BE **2** ✓✓ · HB **2** ✓✓ · ST **1** ✓✓ · TH **1** ✓✓ |
+| Die **Dossiers** ✓✓ | **alle** ✓✓ **vorhanden** ✓✓ — und das Feld `city` ✓✓ stimmt in **jedem** ✓✓ Dossier ✓✓ mit der Produktion ✓✓ ✓ ✓ |
 
-**Warum jetzt nicht** ✓✓: sie ist eine **eigene** ✓✓ Korrekturrunde ✓✓ mit
-**eigenem** ✓✓ Release ✓✓ — sie darf **nicht** ✓✓ in den Release der Welle ✓✓
-hineinlaufen ✓✓ ✓ ✓ Sie folgt **nach** dem Rollout der Welle ✓✓ ✓ ✓
+**Die eine Ausnahme** ✓✓: `rp-11880-…` ✓✓ trägt im Ortsfeld nur die **Nummer** ✓✓
+**11880** ✓✓ und **kein** Feld `postcode` ✓✓ — das ist der **Klärfall** ✓✓, der nach
+Vermerk **`pruefung`** ✓✓ **bleibt** ✓✓ ✓ ✓ Er wird **nicht** mitgezogen ✓✓ ✓ ✓
 
 **Der Auftrag** ✓✓: das Feld `city` ✓✓ auf den **reinen** ✓✓ Ortsnamen ✓✓
 zurücknehmen ✓✓ — das Feld `postcode` ✓✓ bleibt **unberührt** ✓✓ ✓ ✓
+
+**Die Reihenfolge** ✓✓: die Korrektur ist eine **eigene** ✓✓ Korrekturrunde ✓✓ mit
+**eigenem** ✓✓ Release ✓✓ — sie folgt **nach** ✓✓ den beiden Wellen ✓✓, denn **sieben**
+✓✓ ihrer Zeilen ✓✓ liegen in den Scopes der Wellen ✓✓ (**vier** ✓✓ in der 03:00-Welle
+✓✓, **drei** ✓✓ in der 09:00-Welle ✓✓) ✓✓ ✓ ✓ Sie darf **nicht** ✓✓ in einen
+Release der Welle ✓✓ hineinlaufen ✓✓ ✓ ✓
 
 ## 3) Die **drei** ✓✓ dauerhaft fehlschlagenden Handler ✓✓
 
