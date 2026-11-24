@@ -127,6 +127,20 @@ def osm_tags_maskieren(satz):
     teile.append(satz[letzte:])
     return "".join(teile)
 
+# Die **eigenen** Werte des Dossiers ✓✓ - nennt eine Notiz ✓✓ den **Namen** ✓✓
+# oder die **Straße** ✓✓ des Dossiers ✓✓, muss sie **mit** ✓✓ dem Frontmatter
+# **uebereinstimmen** ✓✓ (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+def ohne_anfuehrungszeichen(wert):
+    """Der Wert **ohne** ✓✓ die Anfuehrungszeichen ✓✓ des Frontmatters ✓✓"""
+    wert = (wert or "").strip()
+    if len(wert) >= 2 and wert[0] == wert[-1] and wert[0] in "'\"":
+        wert = wert[1:-1]
+    return wert.strip()
+
+
+DOSSIER_NAME_RE = re.compile(r"\*\*Dossier\*\*[^:]*:\s*\*\*([^*]+)\*\*")
+DOSSIER_STRASSE_RE = re.compile(r"Straße\s*\*\*([^*]+)\*\*")
+
 VERNEINUNG = (r"\bbleibt?\b|\bunverändert\b|\bbleibend\b|\boffen\b|\bkein(?:e|em|er)?\b"
               r"|\bnicht\b|\bohne\b|\bweder\b|\bnach wie vor\b"
               r"|\bunbestätigt\b|\bungeprüft\b|\bwurde\s+nicht\b"
@@ -254,6 +268,23 @@ def main() -> int:
             for feld, satz in behauptungen(notiz):
                 if felder_alt.get(feld) == felder_cur.get(feld):
                     befunde.append((rel, feld, satz))
+            # Der **eigene** Wert des Dossiers ✓✓ muss **stimmen** ✓✓
+            _name = DOSSIER_NAME_RE.search(notiz)
+            if _name:
+                _behauptet = _name.group(1).strip()
+                if _behauptet != ohne_anfuehrungszeichen(felder_cur.get("name", "")):
+                    befunde.append((rel, "name",
+                                    "die Notiz nennt den Dossier **%s** - das "
+                                    "Frontmatter nennt **%s**"
+                                    % (_behauptet, felder_cur.get("name", ""))))
+            _strasse = DOSSIER_STRASSE_RE.search(notiz)
+            if _strasse:
+                _behauptet = _strasse.group(1).strip()
+                if _behauptet != ohne_anfuehrungszeichen(felder_cur.get("street", "")):
+                    befunde.append((rel, "street",
+                                    "die Notiz nennt die Straße **%s** - das "
+                                    "Frontmatter nennt **%s**"
+                                    % (_behauptet, felder_cur.get("street", ""))))
     print(f"Dossiers im Scope: {len(dateien)}")
     print(f"Befunde: {len(befunde)}")
     for rel, feld, satz in befunde:

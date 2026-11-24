@@ -156,5 +156,23 @@ class AttributlisteMitDatum(unittest.TestCase):
         self.assertEqual(felder, set())
 
 
+class EigenerDossierwert(unittest.TestCase):
+    """Die **eigenen** Werte des Dossiers ✓✓ - Name und Straße ✓✓"""
+
+    def test_name_und_strasse_werden_gelesen(self):
+        notiz = ("- [Korrektur 24.11.2026: **Dossier** ✓✓: **Nagel** ✓✓, "
+                 "Straße **Am Gürtel 3** ✓✓ ✓✓]")
+        self.assertEqual(mod.DOSSIER_NAME_RE.search(notiz).group(1), "Nagel")
+        self.assertEqual(mod.DOSSIER_STRASSE_RE.search(notiz).group(1), "Am Gürtel 3")
+
+    def test_anfuehrungszeichen_werden_entfernt(self):
+        self.assertEqual(mod.ohne_anfuehrungszeichen("'Nagel'"), "Nagel")
+        self.assertEqual(mod.ohne_anfuehrungszeichen("'Am Gürtel 3'"), "Am Gürtel 3")
+        self.assertEqual(mod.ohne_anfuehrungszeichen(""), "")
+
+    def test_ein_apostroph_zerlegt_den_namen_nicht(self):
+        self.assertEqual(mod.ohne_anfuehrungszeichen("Rocky's Schrotthandel"),
+                         "Rocky's Schrotthandel")
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
