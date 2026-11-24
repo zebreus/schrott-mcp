@@ -1,6 +1,6 @@
 # Aufträge vom 24.11.2026 — die offenen Punkte des Check-ins
 
-**Stand 24.11.2026, 09:15 UTC ✓ ✓**
+**Stand 24.11.2026, 10:50 UTC ✓ ✓**
 
 ## 1) Die Welle vom 24.11.2026, 03:00 — der Rollout steht noch aus ✓ ✓
 
@@ -22,8 +22,9 @@ getroffen ✓✓ — **fünf** ✓✓ Punkte **gesetzt** ✓✓, **sechsunddrei�
 ist „**zwölf**“ ✓✓ ✓ ✓ **Zwei** ✓✓ Werkzeuglücken ✓✓ sind **geschlossen** ✓✓ ✓ ✓
 
 **Nächster Schritt** ✓✓: das **Pending-Gate** ✓✓ von `8e2de6d` ✓✓ wird nach dem
-**MSG**-Lauf ✓✓ um **~12:43 UTC** ✓✓ **grün** ✓✓ ✓ ✓ Danach der **Rollout** ✓✓ der
-Welle ✓✓ ✓ ✓
+**MSG**-Lauf ✓✓ um **~12:48 UTC** ✓✓ **grün** ✓✓ ✓ ✓ Der **Gutzmann**-Lauf ✓✓ ist
+um **10:38 UTC** ✓✓ **nach** ✓✓ dem Rollout ✓✓ gelaufen ✓✓ — es fehlt **nur**
+✓✓ noch **MSG** ✓✓ ✓ ✓ Danach der **Rollout** ✓✓ der Welle ✓✓ ✓ ✓
 
 ## 2) Die **hundertzweiundachtzig** ✓✓ Zeilen mit der Nummer in **beiden** ✓✓ Feldern ✓✓
 
@@ -74,7 +75,7 @@ um **01:25:25 UTC** ✓✓ ✓ ✓
 | Die **Welle vom 03:00** ✓✓ | **noch keiner** ✓✓ | **anzulegen** ✓✓, **sobald** ✓✓ der Rollout **gelaufen** ✓✓ ist ✓✓ ✓ ✓ |
 | Die **Welle vom 09:00** ✓✓ | **noch keiner** ✓✓ | **anzulegen** ✓✓, **sobald** ✓✓ der Rollout **gelaufen** ✓✓ ist ✓✓ ✓ ✓ |
 
-## 4a) Das Adress-Gate meldet eine **falsche Distanz** nur **weich** ✓✓
+## 4a) Das Adress-Gate meldet eine **falsche Distanz** nur **weich** ✓✓ — **BEHOBEN** ✓✓
 
 **Befund** ✓✓ (Negativkontrolle der Welle vom 09:00 ✓✓, 24.11.2026, 09:25 UTC ✓✓):
 Der Check der **Distanz** ✓✓ im `check_address_claims.py` ✓✓ stimmt **nicht** mit der
@@ -87,9 +88,47 @@ im Dossier“** ✓✓, den es in diesem Fall **gibt** ✓✓ ✓ ✓
 **Ersetzt** ✓✓ wurde die Distanz ✓✓ von **1,54 km** ✓✓ durch **15,4 km** ✓✓ — der
 **gleiche** ✓✓ Fall **ohne** ✓✓ Befund ✓✓ ✓ ✓
 
-**Der Auftrag** ✓✓: die **Meldung** ✓✓ **richtig** ✓✓ stellen ✓✓ und entscheiden ✓✓,
-ob eine **abweichende** ✓✓ Distanz ein **Befund** ✓✓ sein **muss** ✓✓ ✓ ✓ Das **Werkzeug**
-✓✓ wird **nicht** in einem laufenden Release **geändert** ✓✓ ✓ ✓
+### Die Lösung ✓✓ — Commit `68a89914` ✓✓
+
+**Die Ursache** ✓✓: die Schleife ✓✓ über die Objekte ✓✓ brach **nur** ✓✓ ab ✓✓, wenn
+die **Objektmitte** ✓✓ (Nominatim) ✓✓ zur behaupteten Distanz ✓✓ passte ✓✓ — der Rest
+landete **immer** ✓✓ in der Liste **„Nicht prüfbar“** ✓✓ ✓ ✓
+
+| Schritt | Vorher | Nachher |
+|---|---|---|
+| Eine **messbare** ✓✓ Distanz, die **nicht** ✓✓ passt ✓✓ | **Lücke** ✓✓ · Exit **0** ✓✓ | **Befund** ✓✓ · Exit **1** ✓✓ |
+| Die **Meldung** ✓✓ der Lücke ✓✓ | „kein alter Punkt im Dossier“ ✓✓ — **falsch** ✓✓ | der **Grund** ✓✓: Rate-Limit ✓✓ oder kein Objekt ✓✓ ✓ ✓ |
+| Die **Messung** ✓✓ | nur die **Objektmitte** ✓✓ | **drei** ✓✓ Werte ✓✓: Objektmitte ✓✓, **Mittelwert** ✓✓ der eindeutigen Knoten ✓✓, **Spanne** ✓✓ der Knotenabstaende ✓✓ ✓ ✓ |
+| Der **Rate-Limit** ✓✓ | Lücke ✓✓ | Lücke ✓✓ — **nie** ✓✓ ein Befund ✓✓ ✓ ✓ |
+
+**Der Beleg** ✓✓ — die **Negative Kontrolle** ✓✓ vom **24.11.2026** ✓✓ **10:38 UTC** ✓✓ ✓ ✓
+
+| Gate | Ausgabe | Exit |
+|---|---|---|
+| Das **alte** ✓✓ Gate ✓✓ | „Nicht pruefbar (kein alter Punkt im Dossier): 1“ ✓✓ | **0** ✓✓ |
+| Das **neue** ✓✓ Gate ✓✓ | „Befunde: 1 — die behauptete Distanz 15400 m passt nicht zur gemessenen Distanz“ ✓✓ | **1** ✓✓ |
+
+**Die Gates** ✓✓ nach dem Fix ✓✓: **null** ✓✓ Befunde ✓✓ auf den Scopes der
+**03:00**-Welle ✓✓ (**60** ✓✓), der **09:00**-Welle ✓✓ (**60** ✓✓) und der
+Korrekturrunde ✓✓ (**181** ✓✓) ✓✓ — und **keine** ✓✓ offene **Lücke** ✓✓ mehr ✓✓ ✓ ✓
+
+**Neun** ✓✓ Tests ✓✓ decken die Entscheidung ✓✓ ab ✓✓ (`scripts/test_check_address_claims.py` ✓✓) ✓ ✓
+
+## 4c) Die Korrekturrunde des Ortsfeldes ✓✓ — **FREIGE** ✓✓
+
+**Stand** ✓✓ (24.11.2026, 10:40 UTC ✓✓): das **unabhängige** ✓✓ Review ✓✓ ist in
+**zwei** ✓✓ Runden ✓✓ gelaufen ✓✓ ✓ ✓
+
+| Schritt | Stand |
+|---|---|
+| Das **unabhängige Review** ✓✓ | **FREIGE** ✓✓ — Runde 1 **SPERREN** ✓✓ (**4** ✓✓ Datenfehler ✓✓, **2** ✓✓ Werkzeuglücken ✓✓), Runde 2 **FREIGE** ✓✓ **ohne** ✓✓ Befund ✓✓ ✓ ✓ |
+| Die **Kandidatin** ✓✓ | `1bf23fad` ✓✓ ✓ ✓ |
+| Der **Release-Zyklus** ✓✓ | **läuft** ✓✓ ✓ ✓ |
+| Der **Rollout** ✓✓ | **nach** ✓✓ den **beiden** ✓✓ Wellen ✓✓ ✓ ✓ |
+
+**Die vier** ✓✓ Datenfehler ✓✓ der ersten Runde ✓✓ und die **zwei** ✓✓ Werkzeuglücken
+✓✓ sind **vollständig** ✓✓ behoben ✓✓ ✓ ✓ Der Reviewer hat das mit **vier** ✓✓
+**Negativkontrollen** ✓✓ belegt ✓✓ ✓ ✓
 
 ## 4b) Der **Geokodierungs-Rückstand** ✓✓ — **38** ✓✓ Dossiers ✓✓
 
