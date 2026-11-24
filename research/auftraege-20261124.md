@@ -525,3 +525,27 @@ und „**Aluminium** ✓✓ (**rein**)“ ✓✓ werden **heute** ✓✓ **genau
 ✓✓ **Fixture** ✓✓ (der Abruf der **Materialseiten** ✓✓) ✓✓, die **Tests**
 ✓✓ des Handlers ✓✓ und einen **eigenen** ✓✓ **Release** ✓✓ ✓ ✓ **Nichts**
 ✓✓ wird **geraten** ✓✓ ✓ ✓
+
+## 12) Die **Standortrunden** ✓✓ — der **Bestand** ✓✓ (**24.11.2026, 20:45 UTC** ✓✓)
+
+**Gemessen** ✓✓ (read-only ✓✓, `public.db` ✓✓): Die Dossiers ✓✓ mit
+**Anschrift** ✓✓ und **ohne** ✓✓ **Punkt** ✓✓ ✓ ✓
+
+| Die Zahl ✓✓ | Der Wert ✓✓ |
+|---|---|
+| Die Dossiers mit Anschrift und ohne Punkt | **307** ✓✓ ✓ ✓ |
+| **Davon** ✓✓ **ohne** ✓✓ Website ✓✓ | **264** ✓✓ ✓ ✓ |
+
+**Nach Bundesland** ✓✓ ✓ ✓
+
+| HE ✓✓ | NW ✓✓ | BY ✓✓ | NI ✓✓ | RP ✓✓ | SN ✓✓ | HH ✓✓ | MV ✓✓ |
+|---|---|---|---|---|---|---|---|
+| **47** ✓✓ | **39** ✓✓ | **35** ✓✓ | **34** ✓✓ | **29** ✓✓ | **19** ✓✓ | **17** ✓✓ | **15** ✓✓ |
+
+| BE ✓✓ | ST ✓✓ | TH ✓✓ | SH ✓✓ | HB ✓✓ | SL ✓✓ | BW ✓✓ | BB ✓✓ |
+|---|---|---|---|---|---|---|---|
+| **14** ✓✓ | **12** ✓✓ | **11** ✓✓ | **9** ✓✓ | **8** ✓✓ | **7** ✓✓ | **6** ✓✓ | **5** ✓✓ |
+
+**Das** ✓✓ ist der **nächste** ✓✓ **Standortbestand** ✓✓ — **fünf** ✓✓
+Wellen ✓✓ zu je **sechzig** ✓✓ ✓ ✓ **Dieselbe** ✓✓ **Regel** ✓✓ gilt ✓✓
+**drei** ✓✓ Bedingungen ✓✓ ✓ ✓
