@@ -157,7 +157,25 @@ Runde ✓✓ ✓ ✓
 
 **Die Liste** ✓✓ liegt in `research/geokodierung-rueckstand-20261124.json` ✓✓ ✓ ✓
 
-## 4d) Die **Welle vom 24.11.2026, 12:00** ✓✓ — **läuft** ✓✓
+## 4d) Die **Welle vom 24.11.2026, 12:00** ✓✓ — **FREIGE** ✓✓
+
+**Stand** ✓✓ (24.11.2026, 15:20 UTC ✓✓): die **Recherche** ✓✓ aller **fünf**
+✓✓ Shards ✓✓ ist **übernommen** ✓✓ ✓ ✓ Die **Entscheidung** ✓✓ über **alle
+sechzig** ✓✓ Dossiers ✓✓ ist **getroffen** ✓✓ ✓ ✓ Das **unabhängige** ✓✓
+**Review** ✓✓ ist in **drei** ✓✓ Runden ✓✓ gelaufen ✓✓ — die erste **sperrte** ✓✓
+(**8** ✓✓ Datenfehler ✓✓, **7** ✓✓ Werkzeuglücken ✓✓), die zweite **sperrte**
+✓✓ (**3** ✓✓ Datenfehler ✓✓, **2** ✓✓ Werkzeuglücken ✓✓), die **dritte** ✓✓
+**gab frei** ✓✓ ✓ ✓
+
+**Ein** ✓✓ **Build-Abbruch** ✓✓ war darunter ✓✓ — **meiner** ✓✓: die Straße des
+Stuttgarter Dossiers ✓✓ war als **zweite** ✓✓ Zeile ✓✓ **eingefügt** ✓✓ statt
+**ersetzt** ✓✓ ✓ ✓ **Die Lehre** ✓✓: der **Build** ✓✓ ist das **einzige** ✓✓
+Gate ✓✓, das einen **doppelten** ✓✓ Key ✓✓ findet ✓✓ — er **gehört** ✓✓ nach
+**jeder** ✓✓ Änderung ✓✓ an einem Dossier ✓✓ **dorthin** ✓✓ ✓ ✓
+
+**Der Release-Zyklus** ✓✓ **läuft** ✓✓ — Kandidat `1cbdd6ca` ✓✓ ✓ ✓
+
+
 
 **Stand** ✓✓ (24.11.2026, 12:05 UTC ✓✓): **sechzig** ✓✓ frische Dossiers ✓✓ aus
 **fünf** ✓✓ **neuen** ✓✓ Bundesländern ✓✓ — **BE** ✓✓ **BW** ✓✓ **HH** ✓✓ **ST** ✓✓
