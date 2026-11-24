@@ -70,6 +70,47 @@ class Hausnummern(unittest.TestCase):
         self.assertEqual(
             cac.hausnummern("**7, Grünwaldstraße, Hördt** ✓✓"), {"7"})
 
+    def test_hausnummer_mit_sternen_davor(self):
+        # Die **Sterne** ✓✓ um die Hausnummer ✓✓ sind **Format** ✓✓ - der
+        # Befund aus dem Review vom 24.11.2026 ✓✓ (Befund 1) ✓✓
+        self.assertEqual(cac.hausnummern("(Obergasse **8D** ✓✓)"), {"8D"})
+
+    def test_hausnummer_mit_grossbuchstabensuffix(self):
+        self.assertEqual(
+            cac.hausnummern("(Rudolf-Diesel-Straße **17A** ✓✓)"), {"17A"})
+
+    def test_hausnummer_mit_grossbuchstabensuffix_als_feld(self):
+        self.assertEqual(cac.hausnummern("**Hausnummer 8D** ✓✓"), {"8D"})
+
+    def test_distanz_ist_keine_hausnummer(self):
+        # Eine **Distanz** ✓✓ ist keine **Hausnummer** ✓✓ - der Befund aus
+        # dem Review vom 24.11.2026 ✓✓ (Befund 1) ✓✓
+        self.assertEqual(
+            cac.hausnummern("Dieses Dossiers liegt **893 m** von der "
+                            "belegten Betriebsanschrift entfernt"), set())
+
+    def test_distanz_mit_dezimalkomma_ist_keine_hausnummer(self):
+        self.assertEqual(
+            cac.hausnummern("Der Punkt liegt **0,03 km** ✓✓ vom Adressobjekt "
+                            "entfernt ✓✓"), set())
+
+
+class Adressfall(unittest.TestCase):
+    def test_bleibt_wird_geprueft(self):
+        abschnitt = ("### Korrektur 24.11.2026 (Owner, Geokodierung) — "
+                     "der Standortpunkt bleibt unverändert\n")
+        self.assertTrue(cac.adressfall_ist(abschnitt, False))
+
+    def test_entfernung_wird_nicht_geprueft(self):
+        abschnitt = ("### Korrektur 24.11.2026 (Owner, Geokodierung) — "
+                     "der falsche Standortpunkt wird entfernt\n")
+        self.assertFalse(cac.adressfall_ist(abschnitt, False))
+
+    def test_setzen_wird_geprueft(self):
+        abschnitt = ("### Korrektur 24.11.2026 (Owner, Geokodierung) — "
+                     "der Standortpunkt wird ersetzt\n")
+        self.assertTrue(cac.adressfall_ist(abschnitt, True))
+
 
 class Korrekturabschnitt(unittest.TestCase):
     def test_der_letzte_abschnitt_gilt(self):

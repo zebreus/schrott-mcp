@@ -72,9 +72,10 @@ Zweigniederlassung von **Kohl Waste Trade** ✓✓ in Wiesbaden ✓✓, **aufgeh
 
 ### Bleibt ✓ ✓ — **19** ✓ ✓
 
-**Vierzehn** ✓✓ Punkte treffen das **Adressobjekt** ✓✓ des Dossiers ✓✓ — **sechs** ✓✓
-davon **objektgenau** ✓✓ (0 m Abstand ✓✓) ✓✓ — und **einer** ✓✓ trifft nur die **belegte
-Straße** ✓✓, deren **Hausnummer** ✓✓ in OSM **nicht** belegt ist ✓✓ ✓ ✓
+**Vierzehn** ✓✓ Punkte treffen das **Adressobjekt** ✓✓ des Dossiers ✓✓ — **zwölf** ✓✓
+davon **objektgenau** ✓✓ (0 m Abstand zum **Objektmittel** ✓✓) ✓✓, **einer** ✓✓ in
+**1,1 m** ✓✓ und **einer** ✓✓ in **26 m** ✓✓ Abstand ✓✓ — und **einer** ✓✓ trifft nur
+die **belegte Straße** ✓✓, deren **Hausnummer** ✓✓ in OSM **nicht** belegt ist ✓✓ ✓ ✓
 
 **Vier** ✓✓ Dossiers haben **keinen** gespeicherten Punkt ✓✓ ✓ ✓
 
@@ -87,6 +88,10 @@ Korrektur-Sektionen ✓✓ gegen die **OSM-API** ✓✓ geprüft ✓✓ — jede
 **Objekt** ✓✓ trägt die behauptete **Hausnummer** ✓✓, jede gesetzte
 **Koordinate** ✓✓ liegt auf ihrem Objekt ✓✓, jede **Distanz** ✓✓ stimmt mit dem
 gespeicherten Punkt ✓✓ überein ✓✓ ✓ ✓
+
+Die **neunzehn** ✓✓ bleibenden ✓✓ Punkte ✓✓ sind **zusätzlich** ✓✓ gegen das
+**Objektmittel** ✓✓ der eindeutigen **Way-Knoten** ✓✓ gemessen ✓✓ — **zwölf** ✓✓ von
+**vierzehn** ✓✓ liegen **exakt** ✓✓ darauf ✓✓ ✓ ✓
 
 Die **fünf** ✓✓ gesetzten Punkte ✓✓ standen vorher auf **falschen** ✓✓ Punkten ✓✓ — die
 **Distanzen** ✓✓ der Notizen ✓✓ messen **den alten** ✓✓ Punkt der Produktion ✓✓ gegen

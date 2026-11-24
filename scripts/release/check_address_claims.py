@@ -56,10 +56,10 @@ SATZTRENNER = re.compile(r"(?<=[.;:])(?:\*{1,2})?\s+|\n")
 # Gruenwaldstrasse") ✓✓ - beide Formen werden gelesen ✓✓ ✓ ✓
 # "Hausnummer 8" ✓✓ und "**Hausnummer 8**" ✓✓ - die Sterne sind
 # **Format** ✓✓ und **kein** Teil der Aussage ✓✓ ✓ ✓
-HAUSNUMMER_RE = re.compile(r"Hausnummer\**\s*(\d+[a-z]?(?:/\d+)?)")
+HAUSNUMMER_RE = re.compile(r"Hausnummer\**\s*(\d+[a-zA-Z]?(?:/\d+)?)")
 # die Adresse im Fliesstext: "<Hausnummer>, <Strasse>" ✓✓
 ADRESS_HOUSNUMMER_RE = re.compile(
-    r"(\d+[a-z]?(?:/\d+)?),\s+([A-ZÄÖÜ][^\s,]{0,30}"
+    r"(\d+[a-zA-Z]?(?:/\d+)?),\s+([A-ZÄÖÜ][^\s,]{0,30}"
     r"(?:stra(?:sse|sße|ße)|weg|platz|allee|damm|ring|ufer))")
 # die Hausnummer steht auch **nach** einem **Namen** ✓✓ - "An der Pumpe 7"
 # ✓✓ oder "Grünwaldstr. 8" ✓✓ - die **Sterne** ✓✓ sind **Format** ✓✓ und
@@ -71,7 +71,8 @@ ADRESS_HOUSNUMMER_RE = re.compile(
 # ✓✓ und eine **Menge** ✓✓ wie "ab 23 kg" ✓✓ folgt keinem **Nomen** ✓✓ ✓ ✓
 HOUSNUMMER_STRAFFE_RE = re.compile(
     r"(?<![`\w.])\**([A-ZÄÖÜ][a-zäöüß]{1,20}(?:\s+[a-zäöüß]{1,12}){0,2})"
-    r"\**\.?\s+(\d{1,4}[a-z]?(?:/\d{1,4}[a-z]?)?)(?!\d)(?!\.\d)\**")
+    r"\**\.?\s+\**(\d{1,4}[a-zA-Z]?(?:/\d{1,4}[a-zA-Z]?)?)(?!\d)(?!\.\d)"
+    r"(?!,\d)(?![\s*]*\**(?:m|km)\b)\**")
 # Ein **Datum** ✓✓ ist keine Hausnummer ✓✓ - "23.11.2026" ✓✓ und "Korrektur
 # 23.11.2026" ✓✓ tragen **Punkte** ✓✓ und werden **nicht** erfasst ✓✓ ✓ ✓
 # Die **Bedingung** ✓✓ `(?![.\d])` ✓✓ verhindert **zwei** Dinge ✓✓: sie
@@ -81,7 +82,7 @@ HOUSNUMMER_STRAFFE_RE = re.compile(
 # eine **Strassenart** ✓✓ tragen ✓✓, sonst waere **jede** PLZ ✓✓ mit
 # einem **Ort** ✓✓ eine Hausnummer ✓✓ ✓ ✓
 ADRESS_HOUSNUMMER_RE = re.compile(
-    r"(\d+[a-z]?(?:/\d+)?),\s+([A-ZÄÖÜ][^\s,]{0,30}"
+    r"(\d+[a-zA-Z]?(?:/\d+)?),\s+([A-ZÄÖÜ][^\s,]{0,30}"
     r"(?:stra(?:sse|sße|ße)|weg|platz|allee|damm|ring|ufer))")
 # Eine fuenfstellige Zahl **allein** ist keine PLZ ✓ ✓ - die Nummer der
 # Branchenbuch-Datenbank ✓✓ und die Objekt-IDs ✓✓ sehen genauso aus ✓ ✓
@@ -266,6 +267,21 @@ def ort_ohne_plz(ort):
     return re.sub(r"\s*\d{4,5}\s*$", "", ort or "").strip()
 
 
+def adressfall_ist(abschnitt: str, gesetzt: bool) -> bool:
+    """Prueft die **Hausnummer** ✓✓ - und wann das passiert ✓✓.
+
+    Der **Setzfall** ✓✓ nennt das **Zielobjekt** ✓✓ mit seiner **Hausnummer** ✓✓
+    ✓✓ Der **"bleibt"**-Fall ✓✓ nennt das **Adressobjekt** ✓✓ und dessen
+    **Hausnummer** ✓✓ - er wird deshalb **auch** ✓✓ geprueft ✓✓
+    (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+
+    Der **Entfernungsfall** ✓✓ **nicht** ✓✓: die Notiz nennt dort die Adresse
+    des **getroffenen** ✓✓ Punktes ✓✓ und nicht die des Zielobjekts ✓✓ ✓ ✓
+    """
+    return (gesetzt or "Owner, Anschrift" in abschnitt
+            or "bleibt unverändert" in abschnitt)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("basis", nargs="?", default=None,
@@ -312,7 +328,7 @@ def main():
         # Ein **Anschrift-Abschnitt** ✓✓ des Owners ✓✓ nennt die **Hausnummer**
         # ✓✓ und die **Postleitzahl** ✓✓ eines Objekts ✓✓ - diese Pruefungen
         # ✓✓ muessen **auch** dort laufen ✓✓ ✓ ✓
-        adressfall = gesetzt or "Owner, Anschrift" in abschnitt
+        adressfall = adressfall_ist(abschnitt, gesetzt)
         # die **PLZ** ✓✓ und der **Ort** ✓✓ des Dossiers ✓✓ - sie muessen
         # zum **Objekt** ✓✓ passen ✓✓ ✓ ✓
         _fm = text.split("---")[1] if "---" in text else ""
