@@ -100,7 +100,10 @@ FIRMENFORM_RE = re.compile(r"\s*(GmbH|mbH|AG|KG|UG|OHG|SE|Ltd|Inc|e\.?\s?K\.)\b"
 # ein **OSM-Schluessel** ✓✓ mit seinem **Wert** ✓✓ - "`name`=Autoverwertung …"
 # ✓✓ - der Wert ist **kein** Adressfeld ✓✓ ✓ ✓
 OSM_SCHLUESSEL_RE = re.compile(r"`[a-z][a-z0-9_:]*`\s*=")
-DISTANZ_RE = re.compile(r"liegt \*\*([\d.,]+)\s*(m|km)\*\*")
+# Die **Distanz** ✓✓ - **jede** ✓✓ fette Zahl mit **m** ✓✓ oder **km** ✓✓ ✓✓
+# (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓ - vorher sah das Gate
+# nur die Bauweise „liegt **X km**“ ✓✓ und übersah jede andere ✓✓ ✓ ✓
+DISTANZ_RE = re.compile(r"\*\*([\d.,]+)\s*(m|km)\*\*")
 
 OBJEKT_CACHE = {}
 GEO_CACHE = {}
@@ -601,8 +604,7 @@ def main():
         # (5) die genannte Distanz muss zur gemessenen passen ✓ ✓ - beim
         # **Setzen** ✓✓ bezieht sie sich auf den **alten** Punkt ✓✓ vor der
         # Aenderung ✓✓, nicht auf das Zielobjekt ✓✓ ✓ ✓
-        distanz = DISTANZ_RE.search(abschnitt)
-        if distanz:
+        for distanz in DISTANZ_RE.finditer(abschnitt):
             behauptet = float(distanz.group(1).replace(",", ".")) * (
                 1000 if distanz.group(2) == "km" else 1)
             if alter_punkt is None:

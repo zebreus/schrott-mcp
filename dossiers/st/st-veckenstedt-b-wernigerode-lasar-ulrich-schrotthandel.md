@@ -67,4 +67,4 @@ Unbestätigter Schrotthandelslead in Veckenstedt. Schauener Weg 15, 38871 und di
 
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
-- [Korrektur 24.11.2026: Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt **unverändert** ✓✓ — das Dossier führt **keine** ✓✓ Straße ✓✓, der Punkt bleibt damit als **Platzhalter** ✓✓ des Seeds ✓✓ ✓✓ Er liegt am **Mühlengraben** ✓✓ und damit an **keinem** ✓✓ belegten Objekt ✓✓ ✓✓ ✓✓ **Dossier** ✓✓: **Lasar Ulrich Schrotthandel** ✓✓ ✓✓]
+- [Korrektur 24.11.2026: Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt **unverändert** ✓✓ — das Dossier führt **keine** ✓✓ Straße ✓✓, der Punkt bleibt damit als **Platzhalter** ✓✓ des Seeds ✓✓ ✓✓ Er liegt an der **Straße Am Mühlengraben** ✓✓ (`way/69482117` ✓✓), **22 m** ✓✓ entfernt ✓✓ und damit an **keinem** ✓✓ belegten Objekt ✓✓ ✓✓ ✓✓ **Dossier** ✓✓: **Lasar Ulrich Schrotthandel** ✓✓ ✓✓]

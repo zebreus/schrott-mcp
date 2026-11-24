@@ -109,5 +109,33 @@ class KoordinatenSchreibweisen(unittest.TestCase):
         self.assertEqual(mod.KOORDINATE_RE.findall("52.5163710 / 9.7356670"), [])
 
 
+
+class Distanznahmen(unittest.TestCase):
+    """Die **Distanz** ✓✓ - **jede** ✓✓ fette Zahl mit **m** ✓✓ oder **km** ✓✓
+
+    (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓ - vorher sah das Gate
+    nur „liegt **X km**“ ✓✓ ✓ ✓
+    """
+
+    def test_die_uebliche_bauweise(self):
+        self.assertEqual(len(mod.DISTANZ_RE.findall(
+            "er liegt **2,10 km** entfernt")), 1)
+
+    def test_jede_bauweise(self):
+        for text in ("**12 m** vom Objekt", "**38 m** entfernt",
+                     "rund **3,4 km**", "in **22 m** Abstand"):
+            self.assertEqual(len(mod.DISTANZ_RE.findall(text)), 1, text)
+
+    def test_keine_gewichte_und_keine_preise(self):
+        self.assertEqual(mod.DISTANZ_RE.findall("**250** kg"), [])
+        self.assertEqual(mod.DISTANZ_RE.findall("**12,08** €/kg"), [])
+        self.assertEqual(mod.DISTANZ_RE.findall("**250 kg**"), [])
+
+    def test_alle_distanzen_werden_gefunden(self):
+        self.assertEqual(len(mod.DISTANZ_RE.findall(
+            "**12 m** vom einen und **15 m** vom anderen")), 2)
+
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
