@@ -339,3 +339,41 @@ ohne Befund ✓✓ ✓ ✓ Der **Pin** ✓✓ liegt in `039013c3` ✓✓ ✓ ✓
 
 **Der Rollout** ✓✓ der 09:00-Welle ✓✓ wartet auf das **Pending-Gate** ✓✓ der
 03:00-Welle ✓✓ ✓ ✓ — **nie** ✓✓ zwei Releases **gleichzeitig** ✓✓ ✓ ✓
+
+## 7) Der **MKM-Verifier** ✓✓ — **entschieden** ✓✓ (**24.11.2026, 17:35 UTC** ✓✓)
+
+**Erledigt** ✓✓ ✓ ✓ Die **Akt** ✓✓ liegt in
+`research/mkm-entscheidung-20261124.md` ✓✓ ✓ ✓ Das **Prüfartefakt** ✓✓ liegt in
+`research/mkm-partition-review-20261124.json` ✓✓ ✓ ✓
+
+**Die Frage** ✓✓ von **4f)** ✓✓ ist **beantwortet** ✓✓ ✓ ✓ Die **Quelle** ✓✓
+zeigt **heute** ✓✓ die **flache** ✓✓ **Preisform** ✓✓ — **kein** ✓✓
+**Parserfehler** ✓✓ ✓ ✓ Der **eigene** ✓✓ **Spaltenparser** ✓✓
+(`scripts/audit-mkm-overview.py` ✓✓) liest **dieselben** ✓✓ **zwei** ✓✓
+Artikel **ohne** ✓✓ `data-staffel` ✓✓ ✓ ✓ **Der Handler** ✓✓ hat sie **schon**
+✓✓ **seit dem 17.11.2026** ✓✓ **angenommen** ✓✓ ✓ ✓
+
+**Die drei** ✓✓ **unabhängigen** ✓✓ **Quellen** ✓✓ nennen **dieselben** ✓✓
+**61** ✓✓ Artikel ✓✓, **dieselben** ✓✓ **47** ✓✓ **Preise** ✓✓ und
+**dieselben** ✓✓ **14** ✓✓ **Anfragen** ✓✓ ✓ ✓ Die **live** ✓✓ **Seite** ✓✓
+(HTTP **200** ✓✓, **248080** ✓✓ Bytes ✓✓, SHA256 `a5424e23…` ✓✓) ✓✓ · der
+**Abruf** ✓✓ im **Repo** ✓✓ vom **22.11.** ✓✓ · das **Ledger** ✓✓ der
+**Produktion** ✓✓ ✓ ✓
+
+**Die Entscheidung** ✓✓ ✓ ✓
+
+| Der Punkt ✓✓ | Die Entscheidung ✓✓ |
+|---|---|
+| Die **Teilung** ✓✓ | **wandert** ✓✓ in das **Orakel** ✓✓ vom **24.11.** ✓✓ — **47/14** ✓✓ ✓ ✓ |
+| Der **Verifier** ✓✓ | liest die **Teilung** ✓✓ **aus dem Orakel** ✓✓ und prüft **jeden** ✓✓ **Artikel** ✓✓ **einzeln** ✓✓ dagegen ✓✓ ✓ ✓ |
+| Die **flache** ✓✓ **Preisform** ✓✓ | **anerkannt** ✓✓ für die **zwei** ✓✓ **geprüften** ✓✓ Artikel ✓✓ `MKM-NE-05` ✓✓ · `SW10041` ✓✓ ✓ ✓ |
+| Die **Staffel** ✓✓ | **bleibt** ✓✓ **Pflicht** ✓✓ für alle **anderen** ✓✓ **45** ✓✓ **numerischen** ✓✓ Artikel ✓✓ ✓ ✓ |
+| Die **Zuordnung** ✓✓ | **unverändert** ✓✓ — die **61** ✓✓ **bytegleichen** ✓✓ Zuordnungen ✓✓ vom **18.10.** ✓✓ ✓ ✓ |
+
+**Der Verifier** ✓✓ ist **grün** ✓✓ ✓ ✓
+`python3 scripts/verify-mkm-release.py --since 2026-11-24T13:51:01Z` ✓✓ →
+**exit 0** ✓✓ · **61** ✓✓ Artikel ✓✓ · **47/14** ✓✓ · **47** ✓✓ Current ✓✓ ·
+**0** ✓✓ Befunde ✓✓ ✓ ✓ **Die Tests** ✓✓: **15** ✓✓ (Verifier ✓✓) ✓✓ und
+**10** ✓✓ (Audit ✓✓) ✓✓, **0** ✓✓ Fehler ✓✓ ✓ ✓
+
+**Kein offener MKM-Auftrag** ✓✓ mehr ✓✓ ✓ ✓
