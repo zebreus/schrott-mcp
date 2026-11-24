@@ -224,10 +224,35 @@ on source drift“ ✓✓ ✓ ✓ **Er** ✓✓ ist also **nicht** ✓✓ kaputt
 **geprüfte** ✓✓ Erwartung ✓✓ ist **veraltet** ✓✓ ✓ ✓
 
 **Der dritte** ✓✓ Befund ✓✓ folgt **daraus** ✓✓ ✓ ✓ **Der zweite** ✓✓ ist **eigen**
-✓✓ ✓ ✓ Unter den **47** ✓✓ Preisen ✓✓ tragen **einige** ✓✓ eine **Staffel** ✓✓,
-deren **oberster** ✓✓ Preis **nicht** ✓✓ dem **Artikelpreis** ✓✓ entspricht ✓✓
-(`tiers[-1]["preis"] != source_price` ✓✓) ✓✓ — das **Vertrags** ✓✓ des Verifiers
-✓✓ verlangt **Gleichheit** ✓✓ ✓ ✓
+✓✓ ✓ ✓ **Gemessen** ✓✓ (Manifest des letzten Laufs ✓✓ gegen das **Orakel** ✓✓,
+live aus `public.db` ✓✓) ✓ ✓
+
+| Die Messung ✓✓ | Der Wert ✓✓ |
+|---|---|
+| Die Artikel im Manifest ✓✓ / im **Orakel** ✓✓ | **61** ✓✓ / **61** ✓✓ — **gleich** ✓✓ ✓ ✓ |
+| **Numerische** ✓✓ Artikel ✓✓ | **47** ✓✓ (vorher **56** ✓✓) ✓ ✓ |
+| **Anfragen** ✓✓ | **14** ✓✓ (vorher **5** ✓✓) ✓ ✓ |
+| **Verletzer** ✓✓ des **Staffelvertrags** ✓✓ | **2** ✓✓ ✓ ✓
+
+**Die zwei** ✓✓ **Artikel** ✓✓ ohne **Staffel** ✓✓ ✓ ✓
+
+| Artikel ✓✓ | Material ✓✓ | Preis ✓✓ | Minimum ✓✓ | Die **Staffel** ✓✓ |
+|---|---|---|---|---|
+| `MKM-NE-05` ✓✓ | Nickel rein ab 99 % ✓✓ | **12,08** ✓✓ €/kg ✓✓ | **250** ✓✓ kg ✓✓ | **leer** ✓✓ ✓ ✓ |
+| `SW10041` ✓✓ | Zinn 30% ✓✓ | **5,25** ✓✓ €/kg ✓✓ | **500** ✓✓ kg ✓✓ | **leer** ✓✓ ✓ ✓ |
+
+**Das Orakel** ✓✓ kennt **beide** ✓✓ Artikel ✓✓ ✓ ✓ **Die Quelle** ✓✓ liefert für
+sie **keine** ✓✓ **Staffel** ✓✓ mehr ✓✓ — **entweder** ✓✓ hat sich ihr **Markup**
+✓✓ geändert ✓✓ **oder** ✓✓ der **Parser** ✓✓ findet die Tabelle **nicht** ✓✓ mehr
+✓ ✓ **Neun** ✓✓ weitere Artikel ✓✓ hat die Quelle von **Kurs** ✓✓ auf **Anfrage**
+✓✓ umgestellt ✓✓ ✓ ✓
+
+**Der Auftrag** ✓✓: **offen** ✓✓ ✓ ✓ **Erstens** ✓✓ das **Orakel** ✓✓ **neu
+prüfen** ✓✓ — die **Zwei**-und-**Fünf**-Teilung ✓✓ ist **überholt** ✓✓ ✓ ✓
+**Zweitens** ✓✓ entscheiden ✓✓, ob der **Handler** ✓✓ die zwei Artikel **ohne**
+✓✓ **Staffel** ✓✓ **ablehnen** ✓✓ oder die Quelle **richtig** ✓✓ **auslesen** ✓✓
+muss ✓✓ ✓ ✓ **Bis dahin** ✓✓ tragen **zwei** ✓✓ veröffentlichte **Preise** ✓✓
+eine **unvollständige** ✓✓ **Staffel** ✓✓ ✓ ✓
 
 **Der Auftrag** ✓✓: **offen** ✓✓ ✓ ✓ **Die Quelle** ✓✓ **Artikel für Artikel**
 ✓✓ gegen das **geprüfte** ✓✓ **Orakel** ✓✓
