@@ -83,3 +83,7 @@ Die Betreiberwebsite und eine Tyczka-Partnerseite identifizieren einen Rügener 
   OSM-Erfassung des Standorts; erst mit einem adressgenauen Objekt ist zu geokodieren. Quelle(n):
   https://api.openstreetmap.org/api/0.6/map.json?bbox=13.62,54.51,13.67,54.53 ; https://www.ruegenoel.de/ ;
   https://tyczka-energy.de/haendlersuche/ruegener-mineraloelhandel-4000082 (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Rügener Mineralölhandel** ✓✓ ist ein **Mineralöl**- und **Flaschengas**-**Händler** ✓✓ — die **Schrottannahme** ✓✓ ist eine **Portalbehauptung** ✓✓ **ohne** ✓✓ **zweite** ✓✓ **Spur** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

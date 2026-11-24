@@ -67,3 +67,7 @@ Der Dossier-Klärfall ist durch eine Belegkette aus Betreiber-Primärquelle und 
 ### Recherche 01.10.2026 (Tiefenrecherche-Welle, Nachtrag)
 
 - [Recherche 01.10.2026: Re-Check — Direktabruf willefuehr-industriedemontagen.de (Homepage) liefert keine verwertbare Antwort (Fetch leer); Owner-Gate-Revert bleibt bestehen (Adresse An der Gabelung 28, 55252 Mainz-Kastel, Tel. 06134-2589200/Mobil 0163-2268363, E-Mail willefuehr-industriedemontagen@gmx.de weiter nur als dokumentierter Lead, kein Fill). status weiter pruefung. Folgewelle: Impressum-Direktabruf wiederholen oder Gewerberegister Mainz-Kastel. Quelle(n): keine neuen.]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Der **Direktabruf** ✓✓ der **Betreiberseite** ✓✓ liefert **keine** ✓✓ **verwertbare** ✓✓ **Antwort** ✓✓ ✓ ✓ Der **Owner**-**Gate**-**Revert** ✓✓ vom **01.10.2026** ✓✓ **besteht** ✓✓ **fort** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

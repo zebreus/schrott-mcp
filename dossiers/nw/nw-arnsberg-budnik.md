@@ -175,3 +175,7 @@ Frontmattername ist Budnik; Sternhelle 18, 59757 Arnsberg-Herdringen und 02932 3
   https://www.11880.com/branchenbuch/arnsberg-westfalen/120674719B28964503/rolf-budnik-schrott-rohstoffhdl.html ;
   https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Budnik (im
   Dossier zitiert, Abruf 05.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Adresse** ✓✓ **Sternhelle 18, 59757 Arnsberg** ✓✓ stammt aus einem **Verzeichnislead** ✓✓ (11880 ✓✓) ✓✓ — im **Raster** ✓✓ trägt die **Hausnummer 18** ✓✓ die **Straße** ✓✓ **„Am Panoramaweg“** ✓✓ und **„Am alten Osterfeuer“** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

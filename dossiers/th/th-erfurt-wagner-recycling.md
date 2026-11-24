@@ -111,3 +111,7 @@ Die Betreiberseite wagner-kies.de nennt die **Wagner Recycling GmbH**, Salinenst
   http://wagner-kies.de/leistungen-recycling.html ;
   https://www.northdata.com/Wagner%20Recycling%20GmbH,%20Erfurt/Amtsgericht%20Jena%20HRB%20113325
   (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Das **Örtliche** ✓✓ kennt **keinen** ✓✓ **Wagner**-**Eintrag** ✓✓ in **Erfurt** ✓✓, die Domain `wagner-recycling.de` ✓✓ ist **nicht** ✓✓ **registriert** ✓✓, und es gibt **keine** ✓✓ **Betreiber**-**Website** ✓✓ und **keinen** ✓✓ **Registerbeleg** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

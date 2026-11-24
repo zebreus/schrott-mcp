@@ -153,3 +153,7 @@ Betreiber-PRIMARY-QUELLE bestätigt: PR RECYCLING, Sandro Roggendorf, Am Siegbor
   https://api.openstreetmap.org/api/0.6/way/381760610/full.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=8.685,50.6,8.705,50.615 ;
   https://pr-recycling.de/impressum ; https://schrottplatzgiessen.de/ (Abruf 05.11.2026)]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer 336** ✓✓ an **Am Siegborn** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **erfasst** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

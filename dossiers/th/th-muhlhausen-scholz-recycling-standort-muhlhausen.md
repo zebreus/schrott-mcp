@@ -125,3 +125,7 @@ Die Standortseite der Scholz Recycling GmbH für Mühlhausen existiert weiterhin
   https://www.scholz-recycling.com/wp-sitemap.xml ; https://www.scholz-recycling.com/robots.txt ;
   http://web.archive.org/cdx/search/cdx?url=scholz-recycling.com*&output=text&limit=800&collapse=urlkey ;
   https://www.bdsv.org/unser-service/markt-preise/ (Abruf 01.11.2026, 12:00-Welle)]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer 2** ✓✓ an der **Friedrich-Engels-Straße** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **erfasst** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

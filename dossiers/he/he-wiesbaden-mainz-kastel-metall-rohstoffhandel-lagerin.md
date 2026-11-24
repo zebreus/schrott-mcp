@@ -50,3 +50,7 @@ Die Betreiber-Primärquelle von MRL Metall & Rohstoffhandel Lagerin ist direkt g
 ### Importiert (Seed-Stand 2026-09-30)
 
 - Metall-/Rohstoffhandel
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer 29** ✓✓ an **Hambuschweg** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **erfasst** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

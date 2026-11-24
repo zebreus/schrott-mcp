@@ -13,7 +13,8 @@ website: 'https://nord.alba.info/unternehmen/standorte/detail/location/betriebss
 website_status: aktiv
 status: pruefung
 description: 'Betriebsstätte Wismar: Abfallannahme für Privat- und Gewerbekunden, Containerdienst (Behälter 80 l bis 34 m³), Komplettentsorgung. Kein veröffentlichter Metallankaufskurs.'
-clear_fields: 'geo'
+lat: 53.908605
+lon: 11.451763
 dropoff_json: ''
 pickup_json: ''
 provenance_section: Neue Betriebe, nur Verzeichnisbeleg
@@ -87,3 +88,7 @@ Owner-Nachtrag 27.10.2026: Das Zertifikat wurde inzwischen direkt gelesen. Es li
 - [Recherche 01.11.2026: **ALBAclick-Shop geprueft — Containerpreise, kein Ankaufpreis (Bezug: mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai, Standort Wismar).** `https://shop.albaclick.de/` (eigene IP, **nicht** von der 429-Sperre betroffen, HTTP 200, Abruf 01.11.2026 11:44 UTC) fuehrt im Seitentitel „Container online bestellen ab 119€“ — das ist ein **Container-Dienstleistungspreis (Gebuehr)** fuer die Abfallentsorgung, **kein** Ankaufpreis fuer Schrott; die uebrigen Abfallarten (Mischabfall, Pappe, Bioabfall, Glas, Bauschutt, Sperrmuell, Holz, Gruenschnitt, Erdaushub, Elektrogeraete) werden ohne Preis gelistet, die Preise werden clientseitig ueber `api.albaclick.de` geladen; `/schrott` liefert „Nicht gefunden“. `https://www.myALBA.de/` laeuft in dieselbe 429-Sperre. **Befund fuer `mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai`: kein Ankaufpreis.**]
 
 - [Recherche 01.11.2026: **Preisarten strikt getrennt fuer `mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai` (Standort Wismar, Tonnenhofstraße 12, 23970 Wismar).** **Ankaufpreis:** nicht veroeffentlicht — kein Zahlenwert, keine Einheit, kein Datum; die Betreiber-Angabe zum Standort Wismar bewirbt den Ankauf ausschliesslich qualitativ. **Verkauf:** nicht veroeffentlicht — die Sorten- und Produktpalette der ALBA-Gruppe ist fuer Wismar ohne Preis. **Gebuehren / Annahmegebuehren:** nicht veroeffentlicht — die Container- und Behaelterangaben zu Wismar sind **Volumen** (m³), keine Gebuehrensaetze. **Markt-/Boersenkurs:** nicht veroeffentlicht — die ALBA-Seiten nennen fuer Wismar keinen eigenen Kurs und keine eigene Notierung. **Kommunale Gebuehr:** nicht einschlaegig bzw. nicht veroeffentlicht. **Nicht** belegt und **nicht** erfunden: ein absoluter Material-Ankaufpreis, eine Gebuehrentafel oder ein Kurs fuer `mv-wismar-nord-rwe-umwelt-mecklenburg-vorpommern-contai`.]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Der Standortpunkt dieses Dossiers wird gesetzt** ✓✓ — auf **53.908605 / 11.451763** ✓✓ **Die Beleglage** ✓✓: Die **Standortseite** ✓✓ des **Betreibers** ✓✓ (live gelesen am 24.11.2026 über den Reader-Proxy ✓✓, weil `nord.alba.info` ✓✓ die Abrufe **IP**-**sperrt** ✓✓) ✓✓ nennt **„Betriebsstätte Wismar“** ✓✓, **ALBA Nord GmbH** ✓✓, **Tonnenhofstraße 12, 23970 Wismar** ✓✓ ✓✓ · `way/209020779` ✓✓ trägt genau diese **Hausnummer** ✓✓ (`addr:housenumber`=**12** ✓✓ · `addr:street`=**Tonnenhofstraße** ✓✓ · `addr:postcode`=**23970** ✓✓ · `addr:city`=**Wismar** ✓✓) ✓✓ Das Objekt trägt **weder** ✓✓ `name` ✓✓ **noch** ✓✓ `operator` ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Standortseite** ✓✓ **nennt** ✓✓ keinen **Preis** ✓✓ — die **Abrechnung** ✓✓ erfolgt nach **Qualität** ✓✓ und **Gewicht** ✓✓ zu **Tagespreisen** ✓✓ ✓ ✓ Die **IP**-**Sperre** ✓✓ der **ALBA**-Seiten ✓✓ ist **kein** ✓✓ Sachmangel ✓✓ ✓ ✓ ✓✓]

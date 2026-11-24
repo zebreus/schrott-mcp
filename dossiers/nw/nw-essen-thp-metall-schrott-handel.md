@@ -154,3 +154,7 @@ Der einzige verbleibende Treffer ist weiterhin der Branchenbucheintrag city-map:
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.0000,51.4600,7.0200,51.4800 ;
   https://essen.city-map.de/de/thp-metall-schrott-handel ; https://schrottregister.pages.dev/ort-essen (im Dossier
   zitiert, Abruf 05.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Adresse** ✓✓ stammt aus dem **Branchenportal** ✓✓ city-map ✓✓ — ein **Lead** ✓✓, **kein** ✓✓ **Betreiberbeleg** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

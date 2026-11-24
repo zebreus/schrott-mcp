@@ -98,3 +98,7 @@ Ein aktuellerer amtlicher Überwachungsbericht des Landkreises Bautzen (Routinek
   http://www.vrd-gmbh.de/kontakt-1/ ; http://www.vrd-gmbh.de/impressum/ ;
   https://www.landkreis-bautzen.de/download/Bauaufsichtsamt/14.04.2025_Ueberwachungsbericht_zur_Routinekontrolle_VRD_Hoyerswerda.pdf
   (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Für die **Adresse** ✓✓ **Dresdner Straße 151/152, 02977 Hoyerswerda** ✓✓ liefert **weder** ✓✓ die **Vorwärtssuche** ✓✓ **noch** ✓✓ das **Raster** ✓✓ ein **Objekt** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

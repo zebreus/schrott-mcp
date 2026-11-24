@@ -87,3 +87,7 @@ die Aggregatorangaben (7–17 Uhr) widersprechen bzw. nur verschleiert sind.
   bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4200,51.7000,11.5100,51.8000 ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4300,51.7800,11.4600,51.8000 ;
   https://www.isr-recycling.de/index.php/standorte-isr (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Im **Raster** ✓✓ über **Aschersleben** ✓✓ ist **kein** ✓✓ **Adressobjekt** ✓✓ mit der **Hausnummer 6** ✓✓ an der **Wilslebener Straße** ✓✓ **erfasst** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

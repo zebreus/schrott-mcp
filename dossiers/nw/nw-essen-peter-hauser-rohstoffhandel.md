@@ -130,3 +130,6 @@ gesetzt wurde. Ankaufspreise, Verkaufspreise und Gebühren werden nicht veröffe
   https://api.openstreetmap.org/api/0.6/map.json?bbox=6.9000,51.4800,6.9300,51.5000 ;
   https://api.openstreetmap.org/api/0.6/way/226838734/full.json (Abruf 05.11.2026).]
 
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer 370** ✓✓ an der **Ripshorsterstraße** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **erfasst** ✓✓, und das Dossier führt **keine** ✓✓ **Postleitzahl** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

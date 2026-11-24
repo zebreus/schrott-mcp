@@ -85,3 +85,7 @@ Die Betreiberwebsite bestätigt die Schrott- und Metallhandelsgesellschaft Asche
   `status: aktiv` bleiben unverändert. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4300,51.7600,11.4500,51.7800 ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=11.4200,51.7000,11.5100,51.8000 ;
   https://schrotthandel-asl.de/ueber-uns/Impressum/ (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer 4** ✓✓ am **Majoranweg** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **erfasst** ✓✓ (dort stehen **11** ✓✓, **12** ✓✓, **13** ✓✓) ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

@@ -106,3 +106,7 @@ Objekt den Betrieb benennt, weshalb keine Koordinate gesetzt wurde.
   https://api.openstreetmap.org/api/0.6/way/276260967/full.json ;
   https://api.openstreetmap.org/api/0.6/way/163016191/full.json ;
   https://api.openstreetmap.org/api/0.6/way/276276480/full.json (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer 77** ✓✓ an der **Heßlerstraße** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **erfasst** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]

@@ -118,3 +118,7 @@ Echte Betreiberwebsite gefunden: Autodemontage Mittelrhein Gebr. Nettersheim OHG
   https://api.openstreetmap.org/api/0.6/map.json?bbox=7.4000,50.3900,7.4100,50.4000 ;
   https://schrottregister.pages.dev/ort-andernach ; https://www.auto-mittelrhein.de/impressum/ ;
   https://www.auto-mittelrhein.de/bescheinigung-zertifikat/ (live abgerufen 05.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Kein Standortpunkt** ✓✓ — Die **Hausnummer 2** ✓✓ am **Bahnweg** ✓✓ ist im **Raster** ✓✓ **nicht** ✓✓ **erfasst** ✓✓ ✓ ✓ ✓✓ **Reichweite:** Die **Beleglage** ✓✓ lässt **keinen** ✓✓ **Standortpunkt** ✓✓ zu — die Recherche hat **keine** ✓✓ **belegte** ✓✓ **Anschrift** ✓✓ **mit** ✓✓ **Betreiber**- **oder** ✓✓ **Registerbeleg** ✓✓ **gefunden** ✓✓ ✓✓ ✓✓]
