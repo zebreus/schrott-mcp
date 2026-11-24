@@ -45,9 +45,10 @@
 
 ### Bleibt unverändert ✓ ✓ — **17** ✓ ✓
 
-**Siebenundzwanzig** ✓✓ der Punkte ✓✓ treffen ihr **Adressobjekt** ✓✓ — **zehn**
-✓✓ davon **objektgenau** ✓✓ ✓ ✓ Die **übrigen** ✓✓ bleiben **Platzhalter** ✓✓
-des Seeds ✓✓, weil ihr Dossier **keine** ✓✓ Straße ✓✓ führt ✓✓ ✓ ✓
+**Acht** ✓✓ der **siebzehn** ✓✓ Punkte ✓✓ treffen ihr **Adressobjekt** ✓✓ —
+**vier** ✓✓ davon **objektgenau** ✓✓ (0 m ✓✓) ✓✓; **neun** ✓✓ bleiben
+**Platzhalter** ✓✓ des Seeds ✓✓, weil ihr Dossier **keine** ✓✓ Straße ✓✓ führt
+✓ ✓
 
 `be-friedrichshain-kreuzberg-alt-metallhandel-bernhard-schult` · `be-mitte-autoverwertung-nord` · `be-reinickendorf-leonhardt-andreas` · `be-tempelhof-schoneberg-sperber-otto-autoverwertung` · `bw-balingen-schlaich-kurt-schrotthdl` · `bw-leinzell-stiefel-helmut-sonja-schrott-und-metallh` · `st-arneburg-bohlke-andreas-schrottverwertung` · `st-bernburg-heine` · `st-farnstadt-b-b-auto-point` · `st-magdeburg-reukema-germany` · `st-mockern-koop` · `st-veckenstedt-b-wernigerode-lasar-ulrich-schrotthandel` · `st-wanzleben-peschek-uwe` · `st-zeitz-gertloff-heuer-koch` · `th-amt-creuzburg-nowatzky-recycling` · `th-greiz-greizer-metall-schrott` · `th-schmalkalden-jager-jurgen`
 
@@ -69,7 +70,7 @@ Dossiers ✓✓ **live** ✓✓ gegen das **Adressobjekt** ✓✓ seines Dossier
 | Die Messung ✓✓ | Das Ergebnis ✓✓ |
 |---|---|
 | Die **gesetzten** ✓✓ Punkte ✓✓ | **0,0 m** ✓✓ · **7,0 m** ✓✓ · **3,5 m** ✓✓ · **7,0 m** ✓✓ — **alle** ✓✓ auf ihrem Objekt ✓✓ ✓✓ |
-| Die **gebliebenen** ✓✓ Punkte ✓✓ | **0,0 m** ✓✓ · **12,3 m** ✓✓ · **7,7 m** ✓✓ · **2,9 m** ✓✓ · **1,9 m** ✓✓ ✓✓ |
+| Die **gebliebenen** ✓✓ Punkte ✓✓ | **0,0 m** ✓✓ · **0,0 m** ✓✓ · **0,0 m** ✓✓ · **0,0 m** ✓✓ · **1,9 m** ✓✓ · **2,0 m** ✓✓ · **4,1 m** ✓✓ · **6,1 m** ✓✓ · **7,7 m** ✓✓ ✓✓ |
 | Die **entfernten** ✓✓ Punkte ✓✓ | **alle** ✓✓ **außerhalb** ✓✓ der belegten Adresse ✓✓ — **von** ✓✓ **240 m** ✓✓ bis **131,43 km** ✓✓ ✓✓ |
 
 **Die Lehre** ✓✓ aus **drei** ✓✓ Review-Runden ✓✓ ✓ ✓ Der Owner hat die
