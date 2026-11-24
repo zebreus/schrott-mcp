@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "release_commit": "81ca025ce519c2d3c7d98e2a5f19d8dc395c4017",
+  "release_tree": "3214d0500649958850a45fcf1be9be21c2b32d83",
+  "rehearsal_manifest_sha256": "f884f1d473313ec3b256b4aebd8a3ebae63a85483cfa73513b6d72191adbdea5",
+  "fields": [
+    "name",
+    "city",
+    "street",
+    "postcode",
+    "phone",
+    "email",
+    "opening_hours",
+    "description",
+    "status",
+    "trader_type",
+    "website",
+    "website_status"
+  ],
+  "scope_slugs": [
+    "ni-wedemark-bissendorf-recycling",
+    "nw-ahlen-goldsofort-ring-manufaktur",
+    "st-gerwisch-gerwischer-rohstoffrecycling-verwertungs"
+  ],
+  "scope": "exactly the 3 trader rows this release changes, taken from the effective delta of the private post-seed rehearsal",
+  "expectation_basis": "Actual seed_metadata in the private post-seed rehearsal for this release, /root/Documents/schrott-mcp/target/predeploy-81ca025c. Values: the 11 explicit scalars, the complete seeded Timeline notes hash, the stored seed_hash, the coordinate pair and the service JSON of every changed row. No production read, no deployment claim.",
+  "traders": [
+    {
+      "slug": "ni-wedemark-bissendorf-recycling",
+      "values": {
+        "name": "Bissendorf Recycling GmbH",
+        "city": "Wedemark",
+        "street": "Auf der Haube 5",
+        "postcode": "30900",
+        "phone": "+49 5130 3767666",
+        "email": "bissendorfrecycling@web.de",
+        "opening_hours": "Mo-Fr 08:00-16:00; Sa geschlossen",
+        "description": "Schrottankauf im Wedemarker Ortsteil Bissendorf. Betreiber bietet Ankauf von jedem, Besuch auf dem Platz, Abholung und Containerstellung an. Konkrete Materialsorten, Mengen, Vergütung und Abholbedingungen sind vorab zu klären; keine numerischen Ankaufspreise belegt.",
+        "status": "aktiv",
+        "trader_type": "schrotthaendler",
+        "website": "https://www.bissendorf-recycling.de/angebot/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "1f96157683e1b43736cdfd85b503aad71194b020478d742f37c60ccda593fdaa",
+      "seed_hash": "1df9844fa70f1af1",
+      "geo": [
+        52.516371,
+        9.735667
+      ],
+      "dropoff_json": "{\"allowed\":true,\"conditions\":\"Betreiber nennt Schrottankauf von jedem und lädt zum Besuch auf dem Platz Auf der Haube 5 ein. Öffnungszeiten Mo-Fr 08:00-16:00, Sa geschlossen. Keine belegte detaillierte Materialliste, Mengenbegrenzung oder Zahlungsbedingung.\"}",
+      "pickup_json": "{\"allowed\":true,\"conditions\":\"Laut Betreiber gehört Abholung zum Programm; Containerstellung ist möglich. Kosten, Mengen, Einzugsgebiet und Termine sind nicht veröffentlicht und vorab zu klären.\"}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "nw-ahlen-goldsofort-ring-manufaktur",
+      "values": {
+        "name": "Ring Manufaktur GmbH (Goldsofort.de)",
+        "city": "Ahlen",
+        "street": "Am Neuen Baum 4",
+        "postcode": "59229",
+        "phone": "02382 9668823",
+        "email": "info@goldsofort.de",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "description": "Ankauf von Gold, Zahngold, Schmuck sowie weiteren Edelmetallen; persönliche Anlieferung am Hauptsitz in Ahlen und kostenloser Edelmetallversand. Kurierabholung bezieht sich auf Paketsendungen, nicht auf Schrottabholung.",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://www.goldsofort.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "b5c625522f87017a4b13e26431139d4708c9fafb00a86e080b06d53c827f08e6",
+      "seed_hash": "182dcda99113a304",
+      "geo": [
+        51.7480004,
+        7.9019356
+      ],
+      "dropoff_json": "{\"allowed\":true,\"days\":[\"Mo\",\"Di\",\"Mi\",\"Do\",\"Fr\"],\"time_windows\":[\"08:00-17:00\"],\"conditions\":\"Persönlicher Verkauf von Gold, Zahngold, Schmuck und Edelmetallen am Ahlen-Hauptsitz laut Betreiberwebsite; Bewertung und Preis tagesabhängig.\"}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    },
+    {
+      "slug": "st-gerwisch-gerwischer-rohstoffrecycling-verwertungs",
+      "values": {
+        "name": "Gerwischer Rohstoffrecycling & Verwertungs GmbH",
+        "city": "Gerwisch",
+        "street": "Lostauer Straße 5",
+        "postcode": "39175",
+        "phone": "039292 2090",
+        "email": "info@gerwischer-recycling.de",
+        "opening_hours": "",
+        "description": "",
+        "status": "aktiv",
+        "trader_type": "metallhaendler",
+        "website": "https://gerwischer-recycling.de/",
+        "website_status": "aktiv"
+      },
+      "notes_sha256": "608a625e4a65ad2f94a141092b67238a3daa63e0a981a7722f844bc6c2af3fac",
+      "seed_hash": "f9724941308f5511",
+      "geo": [
+        52.1766,
+        11.7397
+      ],
+      "dropoff_json": "{\"allowed\":true}",
+      "pickup_json": "{}",
+      "certifications": "[]"
+    }
+  ]
+}
