@@ -78,7 +78,7 @@ gespeicherten Punkt ✓✓ überein ✓✓ ✓ ✓
 ## Der Stand in der Produktion ✓ ✓
 
 Die **45** Standortänderungen ✓✓ (8 gesetzt ✓✓, 37 entfernt ✓✓) betreffen **45**
-Dossiers ✓✓; **9** ✓✓ weitere ✓✓ Dossiers ✓✓ tragen **nur** andere Feldänderungen ✓✓ —
+Dossiers ✓✓; die übrigen **15** ✓✓ Dossiers ✓✓ tragen **keine** ✓✓ Frontmatter-Änderung ✓✓ —
 alles liegt im Arbeitsbaum ✓✓ und geht mit dem
 **Release der Welle vom 23.11.2026, 18:00** ✓✓ hinaus ✓✓ — **keine** Änderung an
 der Produktion ✓✓ ✓ ✓

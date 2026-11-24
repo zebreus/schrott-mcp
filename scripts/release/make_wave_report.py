@@ -100,11 +100,19 @@ def frontmatter_zeilen(text):
 
 
 def frontmatter_werte(text):
-    """Die **Werte** des Frontmatter-Blocks ✓ ✓ als Feldname -> Zeile ✓ ✓"""
+    """Die **Werte** des Frontmatter-Blocks ✓ ✓ als Feldname -> Zeile ✓ ✓
+
+    Die **Anfuehrungszeichen** ✓✓ sind **Format** ✓✓ und **kein** Wert ✓✓ -
+    `clear_fields: dropoff_json` ✓✓ und `clear_fields: 'dropoff_json'` ✓✓
+    sind derselbe Wert ✓✓ ✓ ✓ Sonst zaehlte die Tabelle eine **Aenderung**
+    ✓✓, die **keine** ist ✓✓ ✓ ✓"""
     out = {}
     for l in frontmatter_zeilen(text):
         k = l.split(":", 1)[0]
-        out[k] = l
+        _wert = l.split(":", 1)[1].strip()
+        if len(_wert) >= 2 and _wert[0] == _wert[-1] and _wert[0] in "'\"":
+            _wert = _wert[1:-1]
+        out[k] = _wert
     return out
 
 

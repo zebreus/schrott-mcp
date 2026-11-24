@@ -183,19 +183,12 @@ liegen ✓✓ ✓ ✓
 Die **unabhängigen** ✓✓ Reviews ✓✓ dieser Welle ✓✓ und ihre **Befunde** ✓✓ stehen in
 `research/reviews-20261123-1800.md` ✓✓ ✓ ✓
 
-## Die Deckelung der Welle ✓ ✓ — eine **Ausnahme** ✓ ✓
+## Die Deckelung der Welle vom 06:00 ✓ ✓ — eine **Ausnahme** ✓ ✓
 
-Die **Deckelung** ✓ ✓ liegt bei **neun** ✓ ✓ Dossiers je Bundesland ✓ ✓ —
-**nicht** bei **acht** ✓ ✓ wie in den Wellen der letzten Tage ✓ ✓ ✓ ✓
-
-**Grund** ✓ ✓: der **Pool** ✓ ✓ ist **erschöpft** ✓ ✓ — nach dem Ausschluss
-der **vergangenen** Wellen ✓ ✓ bleiben je Bundesland nur noch ✓ ✓: NW 168 ✓ ✓ ·
-HE 155 ✓ ✓ · RP 103 ✓ ✓ · NI 70 ✓ ✓ · BY 56 ✓ ✓ · SN 14 ✓ ✓ ✓ ✓
-
-Bei einer Deckelung von **acht** ✓ ✓ wären nur **57** ✓ ✓ Dossiers möglich ✓ ✓
-— **drei** ✓ ✓ weniger als **sechzig** ✓ ✓ ✓ ✓ Die **Ausnahme** ✓ ✓ ist
-**ausdrücklich** ✓ ✓ gemacht ✓ ✓: lieber **60 frische** ✓ ✓ Dossiers ✓ ✓ als
-**57** ✓ ✓ ✓ ✓
+*Dieser Abschnitt betrifft die **Welle vom 06:00** ✓✓ — ihre Deckelung lag
+bei **neun** ✓✓ Dossiers je Bundesland ✓✓, weil der Pool dort noch
+**575** ✓✓ Dossiers nach dem Ausschluss ✓✓ übrig hatte ✓✓ ✓ ✓ Die Welle vom
+**18:00** ✓✓ hat ihre **eigene** ✓✓ Deckelung ✓✓ — siehe oben ✓ ✓*
 
 ## Das neue Gate findet **drei** Befunde in einer **alten** Welle ✓ ✓
 
