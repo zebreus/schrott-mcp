@@ -6,6 +6,8 @@ state: NW
 city: Mönchengladbach
 street: Max-Reger-Str. 50
 postcode: 41179
+lat: 51.1483935
+lon: 6.3643273
 phone: 02161 6535780
 email: scheilo2@web.de
 opening_hours: ''
@@ -58,3 +60,7 @@ Franz-Josef Kreggenwinkel in Rheindahlen ist seit dem 23.11.2026 durch eine Betr
 ### Korrektur 23.11.2026 (Welle 0300 A): Distanzangabe der GEO-Notiz präzisiert
 
 - [Korrektur 23.11.2026: **Die Distanzangabe im GEO-Vermerk vom 23.11.2026 ist präzisiert: gemessen sind 5.415 m zum Objektmittel und 5.419 m zur Nominatim-Auflösung, nicht 5.419 m zum Objektmittel.** Der veröffentlichte Vermerk nannte für den Abstand zwischen dem gespeicherten Punkt **51.1773076923077/6.42687692307692** und dem Objektmittel von way/284642833 (**51.1484141/6.3643607**) den Wert 5.419 m; die Nachmessung mit der Haversine-Formel ergibt dort **5.415 m**. Der Wert 5.419 m gilt für den Abstand zur **Nominatim-Auflösung** derselben Adresse (51.1483935/6.3643273). Beide Werte sind in dieser Notiz getrennt ausgewiesen; die Kernaussage - der gespeicherte Punkt liegt rund **5,4 km** von der belegten Betriebsadresse entfernt und trifft kein Objekt des Betriebs - bleibt unverändert. Alle übrigen Angaben des Vermerks (OSM-Objekt node/3048122068, way/284642833, die Hausnummer 50 am Objekt, der Abstand zwischen Objektmittel und Nominatim-Punkt) sind **unverändert** und bleiben in Kraft. Der Vermerk selbst wird **nicht** überschrieben; die Berichtigung steht hier als eigene datierte Sektion. Quelle(n): Nachmessung vom 23.11.2026 mit der Haversine-Formel auf den in der Notiz vom 23.11.2026 genannten Koordinaten (51.1773076923077/6.42687692307692 gegen 51.1484141/6.3643607 und gegen 51.1483935/6.3643273) ; https://api.openstreetmap.org/api/0.6/way/284642833/full.json ; https://nominatim.openstreetmap.org/search?q=Max-Reger-Stra%C3%9Fe+50%2C+41179+M%C3%B6nchengladbach&format=jsonv2&addressdetails=1 (Abruf 23.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
+
+- [Korrektur 24.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **5,42 km** von der belegten Betriebsanschrift entfernt — er wird durch den adresskonformen Punkt **51.1483935/6.3643273** ersetzt ✓ ✓ Der Beleg für die Adresse: die **Kontaktseite** ✓✓ des Betriebs (F.J. Kreggenwinkel ✓✓, Max-Reger-Straße 50 ✓✓, 41179 Mönchengladbach ✓✓, 02161/6535780 ✓✓) **und** das **Adressobjekt** ✓✓ (`way/284642833` ✓✓) mit dieser Hausnummer ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
