@@ -549,3 +549,78 @@ und „**Aluminium** ✓✓ (**rein**)“ ✓✓ werden **heute** ✓✓ **genau
 **Das** ✓✓ ist der **nächste** ✓✓ **Standortbestand** ✓✓ — **fünf** ✓✓
 Wellen ✓✓ zu je **sechzig** ✓✓ ✓ ✓ **Dieselbe** ✓✓ **Regel** ✓✓ gilt ✓✓
 **drei** ✓✓ Bedingungen ✓✓ ✓ ✓
+
+## 13) Die **Welle vom 24.11.2026, 20:00** ✓✓ — **entschieden** ✓✓ (**24.11.2026, 21:05 UTC** ✓✓)
+
+**Recherchiert** ✓✓ **Entschieden** ✓✓ ✓ ✓ Die **Akt** ✓✓:
+`research/geo-entscheidung-20261124-2000.md` ✓✓ ✓ ✓
+
+| Wirkung ✓✓ | Zahl ✓✓ |
+|---|---|
+| **Punkt gesetzt** ✓✓ | **2** ✓✓ |
+| **Punkt ersetzt** ✓✓ | **11** ✓✓ |
+| **Punkt bleibt unverändert** ✓✓ | **1** ✓✓ |
+| **Punkt entfernt** ✓✓ | **35** ✓✓ |
+| **Kein Standortpunkt** ✓✓ | **11** ✓✓ |
+
+**Die eigene Nachmessung** ✓✓: **23** ✓✓ Adressobjekte ✓✓ aus der OSM-API
+✓✓ · **20** ✓✓ Adressen ✓✓ in der **Vorwärtssuche** ✓✓ (Nominatim ✓✓) ✓ ✓
+
+**Die gesetzten** ✓✓ und **ersetzten** ✓✓ Punkte ✓✓ tragen eine **Quelle über
+das Geschäft selbst** ✓✓ **oder** ✓✓ ein **amtliches Register** ✓✓ ✓ ✓
+
+| Das Dossier ✓✓ | Der Beleg ✓✓ |
+|---|---|
+| `nw-essen-hade-schrott-metallgrohandel-stamm` ✓✓ | **HRB 33618** ✓✓ + **EfbV** ✓✓ **ZZET00700321** ✓✓ **an genau dieser Adresse** ✓✓ ✓ ✓ |
+| `rp-strohn-…-reda` ✓✓ | **HRB 10993** ✓✓ (Geschäftsanschrift ✓✓) ✓ ✓ |
+| `he-sontra-36205-ladner-franz` ✓✓ | **EfbV** ✓✓ **ZZHT00301339** ✓✓ (DEKRA ✓✓) ✓ ✓ |
+| `he-ortenberg-…-reinhart-sela` ✓✓ | **EfbV** ✓✓ **ZUUM-161-0708-63-25-0813** ✓✓ ✓ ✓ |
+| `rp-ludwigshafen-gurr` ✓✓ | **AltfahrzeugV** ✓✓ **ZAGS00300010/1** ✓✓ ✓ ✓ |
+| `rp-buchholz-…-becher` ✓✓ | **AltfahrzeugV** ✓✓ **ZAES02400017/1** ✓✓ + **Name** ✓✓ im OSM ✓✓ ✓ ✓ |
+| `nw-castrop-rauxel-wolf` ✓✓ | das **Betreiberarchiv** ✓✓ (Impressum 2012 ✓✓) ✓ ✓ |
+| `he-schaafheim-…-reining` ✓✓ | das **Betreiberarchiv** ✓✓ (Impressum ✓✓) ✓ ✓ |
+| `he-fulda-…-krieger` ✓✓ | das **Betreiberimpressum** ✓✓ + die **Zeitung** ✓✓ ✓ ✓ |
+| `he-heidenrod-…-schrottmeister` ✓✓ | das **Betreiberimpressum** ✓✓ ✓ ✓ |
+| `rp-kaiserslautern-…-kratz` ✓✓ | die **Betreiberseite** ✓✓ (Filiale ✓✓) ✓ ✓ |
+| `rp-trier-pfalzel-…-kaiser` ✓✓ | die **Betreiberseite** ✓✓ ✓ ✓ |
+| `nw-koln-ehrenfeld-alibaba-…` ✓✓ | das **Betreiberimpressum** ✓✓ ✓ ✓ |
+
+**Die Sonderfälle** ✓✓ ✓ ✓
+
+| Das Dossier ✓✓ | Der Befund ✓✓ |
+|---|---|
+| `rp-bingen-schrottabholung-bingen` ✓✓ | Der gespeicherte Punkt liegt **223,5 km** ✓✓ neben dem Objekt ✓✓ — in **Bingen/Sigmaringen** ✓✓ ✓ ✓ |
+| `he-wiesbaden-kohlheck-…-augstein` ✓✓ | **Sämtliche** ✓✓ Domains **amtlich nicht registriert** ✓✓ ✓ ✓ |
+| `nw-gelsenkirchen-west-…-lemke` ✓✓ | Das Archiv von **2014** ✓✓ nennt eine **andere** ✓✓ Straße als **11880** ✓✓ (2026 ✓✓) ✓ ✓ |
+| `nw-ruhrgebiet-nrw-schrott-held-0152` ✓✓ | Die Anschrift ist laut Impressum eine **Postanschrift** ✓✓ (**kein Schrottplatz** ✓✓) ✓ ✓ |
+| `nw-essen-eie` ✓✓ | Die Gesellschaft ist im Register **gelöscht** ✓✓ ✓ ✓ |
+| `he-langenselbold-…-levy` ✓✓ | Das Registerblatt weist die **Löschung** ✓✓ aus ✓ ✓ |
+
+**Die Lehre** ✓✓: Das **Adress-Gate** ✓✓ hat **fünf** ✓✓ **eigene** ✓✓
+Aussagen des Owners ✓✓ **korrigiert** ✓✓ — vier Notizen zitierten die
+**Koordinaten** ✓✓ des **falschen** ✓✓ Punktes ✓✓ (das Gate prüft **jede**
+✓✓ genannte ✓✓ Koordinate ✓✓ **gegen** ✓✓ ein Objekt ✓✓) ✓✓ und die
+**Distanz** ✓✓ des Hofes in Bingen ✓✓ **war** ✓✓ **190 km** ✓✓ statt
+**223,5 km** ✓✓ ✓ ✓
+
+**Der Zyklus** ✓✓ (Kandidat `923d8360` ✓✓) läuft ✓✓ ✓ ✓
+
+## 14) Der **Plattenplatz** ✓✓ des **Temporaerverzeichnisses** ✓✓ — **Lücke** ✓✓ (**24.11.2026, 21:00 UTC** ✓✓)
+
+Der **erste** ✓✓ Zyklus der Welle **scheiterte** ✓✓ ✓ ✓ **Nicht** ✓✓ am
+Kandidaten ✓✓ — die **Workspace**-**Tests** ✓✓ schreiben ihre
+SQLite-Datenbanken ✓✓ in das **Temporaerverzeichnis** ✓✓ des Systems ✓✓,
+das ein **tmpfs** ✓✓ ist ✓✓ und **keinen** ✓✓ regulaeren Plattenplatz
+✓✓ **hat** ✓✓ ✓ ✓ Es war zu **97 %** ✓✓ **voll** ✓✓ ✓ ✓
+
+**Die** ✓✓ **Wirkung** ✓✓: Die Tests **scheiterten** ✓✓ mit „**database or
+disk is full**“ ✓✓ ✓ ✓ — ein **Fehler** ✓✓ der **Maschine** ✓✓, **nicht**
+✓✓ des **Kandidaten** ✓✓ ✓ ✓
+
+**Die Lücke ist geschlossen** ✓✓: `run_cycle.sh` ✓✓ **prüft** ✓✓ jetzt **beide**
+✓✓ **Verzeichnisse** ✓✓ — die **Platte** ✓✓ (**8 GB** ✓✓) ✓✓ und das
+**Temporaerverzeichnis** ✓✓ (**2 GB** ✓✓) ✓✓ — und **nennt** ✓✓ es
+**vor** ✓✓ dem **Start** ✓✓ ✓ ✓
+
+**Der Speicher** ✓✓ ist **wieder** ✓✓ frei ✓✓ (**1,7 GB** ✓✓ in `/tmp` ✓✓,
+**22 GB** ✓✓ auf der **Platte** ✓✓) ✓✓ ✓ ✓
