@@ -488,3 +488,40 @@ des **Owners** ✓✓ **korrigiert** ✓✓ — „rund **1,8 km**“ ✓✓ in 
 ✓✓ **waren** ✓✓ **2252 m** ✓✓ ✓ ✓
 
 **Der Release-Zyklus** ✓✓ läuft ✓✓ (Kandidat `077c6fba` ✓✓) ✓ ✓
+
+## 11) Der **Gerwischer-Handler** ✓✓ — die **neue** ✓✓ Quellenlage ✓✓ (**24.11.2026, 19:50 UTC** ✓✓)
+
+**Gemessen** ✓✓: Die **vierzehn** ✓✓ Materialseiten ✓✓ der neuen Seite ✓✓
+(`/materialien/…` ✓✓) ✓✓ tragen **null** ✓✓ Euro-Angaben ✓✓ und **null**
+✓✓ kg-Angaben ✓✓ ✓ ✓ Jede **nennt** ✓✓ ihre **Materialqualität** ✓✓ ✓ ✓
+
+| Die Seite ✓✓ | Der Name ✓✓ | Die Zuordnung zum Katalog ✓✓ |
+|---|---|---|
+| `grauguss` ✓✓ | Grauguss ✓✓ | `eisenschrott-gussbruch` ✓✓ · „Grauguss“ ✓✓ ✓✓ |
+| `sphaeroguss` ✓✓ | Sphäroguss ✓✓ | `eisenschrott-gussbruch` ✓✓ · „Sphäroguss“ ✓✓ ✓✓ |
+| `stahlguss` ✓✓ | Stahlguss ✓✓ | `eisenschrott-gussbruch` ✓✓ · „Stahlguss“ ✓✓ ✓✓ |
+| `maschinenguss-2b` ✓✓ | Maschinenguss 2b ✓✓ | `eisenschrott-gussbruch` ✓✓ · „Maschinenguss“ ✓✓ ✓✓ |
+| `handelsguss-3b` ✓✓ | Handelsguss 3b ✓✓ | `eisenschrott-gussbruch` ✓✓ · „Handelsguss“ ✓✓ (**neu** ✓✓) ✓✓ |
+| `kupfer-berry` ✓✓ | Kupfer (Berry) ✓✓ | `kupfer-berry` ✓✓ ✓✓ |
+| `kupfer-millberry` ✓✓ | Kupfer (Millberry) ✓✓ | `kupfer-millberry` ✓✓ ✓✓ |
+| `v2a-rostfrei` ✓✓ | V2A (rostfrei) ✓✓ | `edelstahl-v2a` ✓✓ ✓✓ |
+| `v4a-saeurefest` ✓✓ | V4A (säurefest) ✓✓ | `edelstahl-v4a` ✓✓ ✓✓ |
+| `aluminiumqualitaeten` ✓✓ | Aluminiumqualitäten ✓✓ | **mehrdeutig** ✓✓ (`aluminium-gemischt` ✓✓?) ✓✓ |
+| `mischschrott-leicht` ✓✓ | Mischschrott leicht ✓✓ | **mehrdeutig** ✓✓ (`mischschrott` ✓✓? `stahlschrott` ✓✓?) ✓✓ |
+| `mischschrott-schwer` ✓✓ | Mischschrott schwer ✓✓ | **mehrdeutig** ✓✓ (`stahlschrott-sorte-1` ✓✓?) ✓✓ |
+| `messingqualitaeten` ✓✓ | Messingqualitäten ✓✓ | **mehrdeutig** ✓✓ ✓✓ |
+| `kupferqualitaeten` ✓✓ | Kupferqualitäten ✓✓ | **unspezifisch** ✓✓ ✓✓ |
+
+**Die Entscheidung** ✓✓: Der Handler ✓✓ **nimmt** ✓✓ **keine** ✓✓ Preise
+✓✓ **mehr** ✓✓ an ✓✓ — er **zeichnet** ✓✓ stattdessen **Annahmen** ✓✓
+(„**auf Anfrage**“ ✓✓) ✓✓ für die **neun** ✓✓ **eindeutig** ✓✓
+**zuordenbaren** ✓✓ Materialien ✓✓ ✓ ✓ Die **vier** ✓✓ **mehrdeutigen**
+✓✓ **überspringt** ✓✓ er **laut** ✓✓ ✓ ✓ Das ist **genau** ✓✓ das
+**bestehende** ✓✓ **Muster** ✓✓ des Handlers ✓✓ — „**Kupfer** ✓✓ (**blank**)“ ✓✓
+und „**Aluminium** ✓✓ (**rein**)“ ✓✓ werden **heute** ✓✓ **genauso** ✓✓
+**laut** ✓✓ **übersprungen** ✓✓ ✓ ✓
+
+**Die Umsetzung** ✓✓ ist **offen** ✓✓ — sie **braucht** ✓✓ ein **neues**
+✓✓ **Fixture** ✓✓ (der Abruf der **Materialseiten** ✓✓) ✓✓, die **Tests**
+✓✓ des Handlers ✓✓ und einen **eigenen** ✓✓ **Release** ✓✓ ✓ ✓ **Nichts**
+✓✓ wird **geraten** ✓✓ ✓ ✓
