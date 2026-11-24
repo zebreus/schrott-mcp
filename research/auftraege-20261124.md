@@ -74,6 +74,23 @@ um **01:25:25 UTC** ✓✓ ✓ ✓
 | Die **Welle vom 03:00** ✓✓ | **noch keiner** ✓✓ | **anzulegen** ✓✓, **sobald** ✓✓ der Rollout **gelaufen** ✓✓ ist ✓✓ ✓ ✓ |
 | Die **Welle vom 09:00** ✓✓ | **noch keiner** ✓✓ | **anzulegen** ✓✓, **sobald** ✓✓ der Rollout **gelaufen** ✓✓ ist ✓✓ ✓ ✓ |
 
+## 4a) Das Adress-Gate meldet eine **falsche Distanz** nur **weich** ✓✓
+
+**Befund** ✓✓ (Negativkontrolle der Welle vom 09:00 ✓✓, 24.11.2026, 09:25 UTC ✓✓):
+Der Check der **Distanz** ✓✓ im `check_address_claims.py` ✓✓ stimmt **nicht** mit der
+Messung **überein** ✓✓ ✓ ✓ Er landet dann in der Liste **„Nicht prüfbar“** ✓✓ — und
+**nicht** unter den **Befunden** ✓✓ ✓ ✓ Der Exit-Code **bleibt 0** ✓✓ ✓ ✓
+
+**Die Meldung** ✓✓ ist **zudem** ✓✓ **irreführend** ✓✓ — sie nennt einen **„alten Punkt
+im Dossier“** ✓✓, den es in diesem Fall **gibt** ✓✓ ✓ ✓
+
+**Ersetzt** ✓✓ wurde die Distanz ✓✓ von **1,54 km** ✓✓ durch **15,4 km** ✓✓ — der
+**gleiche** ✓✓ Fall **ohne** ✓✓ Befund ✓✓ ✓ ✓
+
+**Der Auftrag** ✓✓: die **Meldung** ✓✓ **richtig** ✓✓ stellen ✓✓ und entscheiden ✓✓,
+ob eine **abweichende** ✓✓ Distanz ein **Befund** ✓✓ sein **muss** ✓✓ ✓ ✓ Das **Werkzeug**
+✓✓ wird **nicht** in einem laufenden Release **geändert** ✓✓ ✓ ✓
+
 ## 5) Die Zeile `rp-11880-…` ✓✓
 
 **Entschieden** ✓✓: sie bleibt `pruefung` ✓✓ mit **dokumentiertem** ✓✓
