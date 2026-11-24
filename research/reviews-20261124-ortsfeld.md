@@ -114,6 +114,25 @@ Außerhalb der Dossiers ✓✓: das **Gate** ✓✓ und die **Tests** ✓✓ —
 
 ---
 
+## Die **Prüfung des Owners** ✓✓ gegen die **Produktion** ✓✓
+
+Der Reviewer hat **offen** ✓✓ gelassen ✓✓, ob die **181** ✓✓ Ortsnamen ✓✓
+**inhaltlich** ✓✓ **richtig** ✓✓ sind ✓✓ — er hat **Form** ✓✓ und
+**Konformität** ✓✓ geprüft ✓✓, **nicht** ✓✓ den **Seed-Wert** ✓✓ ✓ ✓
+
+**Der Owner** ✓✓ hat das **gemessen** ✓✓ ✓ ✓ **Read-only** ✓✓, gegen die
+**Produktion** ✓✓ ✓ ✓ Für **jedes** ✓✓ der **181** ✓✓ Dossiers ✓✓ gilt ✓✓
+
+| Die Prüfung ✓✓ | Das Ergebnis ✓✓ |
+|---|---|
+| Der **Produktions-Ort** ✓✓ **ohne** ✓✓ die **eigene** ✓✓ Postleitzahl ✓✓ **gleich** ✓✓ dem **Kandidaten** ✓✓ | **181** ✓✓ von **181** ✓✓ ✓ ✓ |
+| **Abweichungen** ✓✓ | **0** ✓✓ ✓ ✓ |
+| Der Kandidaten-Ort trägt **irgendeine** ✓✓ **Ziffer** ✓✓ | **0** ✓✓ von **181** ✓✓ ✓ ✓ |
+| Der Kandidaten-Ort trägt eine **fünfstellige** ✓✓ **Zahl** ✓✓ | **0** ✓✓ von **181** ✓✓ ✓ ✓ |
+
+Die **Bereinigung** ✓✓ ist damit **genau** ✓✓ die **Entnahme** ✓✓ der
+**Postleitzahl** ✓✓ — **nichts** ✓✓ **anderes** ✓✓ ✓ ✓
+
 ## Die Reihenfolge ✓ ✓
 
 Die Korrekturrunde ✓✓ hat einen **eigenen** ✓✓ Release ✓✓ — sie folgt **nach** ✓✓
