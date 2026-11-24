@@ -16,7 +16,7 @@ import re
 from pathlib import Path
 
 DEFAULT_MAPPING_ORACLE = (Path(__file__).resolve().parent.parent /
-    "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261018.json")
+    "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261124.json")
 
 
 def text(fragment):

@@ -62,6 +62,28 @@ class MkmReleaseTests(unittest.TestCase):
             "tiers": [{"ab": 0.0, "preis": 6.2}, {"ab": 5.0, "preis": 6.32},
                       {"ab": 500.0, "preis": 6.51}],
         })
+        # The synthetic state follows the reviewed partition of 24.11.2026:
+        # the fourteen articles on request, the two articles in the reviewed
+        # flat price form, the remaining forty-five with the quantity ladder.
+        # The values stay the historical ones; only the form is the reviewed
+        # one, so the test asks a question about the contract, not about the
+        # prices of that day.
+        oracle = json.loads(V.ORACLE.read_text())
+        self.oracle = oracle
+        self.request_ids = set(oracle["partition"]["request"])
+        self.flat_ids = set(oracle["flat_quote_articles"])
+        for article in inventory["articles"]:
+            if article["article"] in self.request_ids:
+                article["request_only"] = True
+                article["price_eur_per_kg"] = None
+                article["minimum_for_upper_bound_kg"] = None
+                article["price_cell"] = "auf Anfrage"
+                article["tiers"] = []
+                article["product_change_date"] = None
+                article["product_change_text"] = "ohne Datum"
+            elif article["article"] in self.flat_ids:
+                article["tiers"] = []
+                article["flat_quote"] = True
         self.manifest = {"owner": V.OWNER, "trader_id": 1, "source_url": V.URL,
                          "observed_at": SINCE, "page_change_date": inventory["page_change_date"],
                          "articles": inventory["articles"]}
@@ -92,7 +114,10 @@ class MkmReleaseTests(unittest.TestCase):
             conditions = json.dumps(sorted(members, key=lambda a: a["article"]))
             self.public.execute("INSERT INTO trader_materials VALUES(1,?,?,1,NULL,NULL,?)", (mids[material], conditions, SINCE))
             self.public.execute("INSERT INTO article_acceptance_owners VALUES(1,?,?,?,?,?)", (mids[material], V.URL, V.OWNER, conditions, SINCE))
-        self.internal.execute("INSERT INTO ingestion_steps VALUES(1,1,?,'ok',56,?,?,?)", (V.SLUG, SINCE, SINCE, "56 Preise übernommen, 5 Annahmen"))
+        self.internal.execute("INSERT INTO ingestion_steps VALUES(1,1,?,'ok',?,?,?,?)",
+                              (V.SLUG, len(self.oracle["partition"]["numeric"]), SINCE, SINCE,
+                               "%d Preise übernommen, %d Annahmen" % (len(self.oracle["partition"]["numeric"]),
+                                                                    len(self.oracle["partition"]["request"]))))
         self.internal.execute("INSERT INTO raw_fetches VALUES(1,1,?,?,200,100)", (V.SLUG, V.URL))
         self.public.commit()
         self.internal.commit()
@@ -108,7 +133,9 @@ class MkmReleaseTests(unittest.TestCase):
         before = [p.read_bytes() for p in paths]
         code, result = self.verify()
         self.assertEqual(code, 0, result)
-        self.assertEqual((result["articles"], result["numeric"], result["requests"], result["current_count"]), (61, 56, 5, 56))
+        self.assertEqual((result["articles"], result["numeric"], result["requests"], result["current_count"]),
+                         (61, len(self.oracle["partition"]["numeric"]),
+                          len(self.oracle["partition"]["request"]), len(self.oracle["partition"]["numeric"])))
         for path in paths:
             db = V.connect(path)
             try:
@@ -118,13 +145,75 @@ class MkmReleaseTests(unittest.TestCase):
                 db.close()
         self.assertEqual(before, [p.read_bytes() for p in paths])
 
-    def test_old_oracle_is_an_exact_subset_of_new_review(self):
-        old = json.loads((V.ORACLE.parent / "mkm-reviewed-mapping-oracle-20261011.json").read_text())["expected"]
-        new = json.loads(V.ORACLE.read_text())["expected"]
-        self.assertEqual(len(old), 60)
-        self.assertEqual(set(new) - set(old), {"MKM-MS-01"})
-        self.assertEqual({k: new[k] for k in old}, old)
-        self.assertEqual(new["MKM-MS-01"], ["messing", "Messing 58 blank neu"])
+    def test_the_reviewed_oracle_keeps_the_mapping_and_adds_the_partition(self):
+        previous = json.loads((V.ORACLE.parent / "mkm-reviewed-mapping-oracle-20261018.json").read_text())
+        self.assertEqual(self.oracle["expected"], previous["expected"])
+        self.assertEqual(self.oracle["previous_oracle"],
+                         "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261018.json")
+        partition = self.oracle["partition"]
+        self.assertEqual(len(partition["numeric"]), 47)
+        self.assertEqual(len(partition["request"]), 14)
+        self.assertEqual(set(partition["numeric"]) | set(partition["request"]), set(self.oracle["expected"]))
+        self.assertFalse(set(partition["numeric"]) & set(partition["request"]))
+        self.assertEqual(sorted(self.oracle["flat_quote_articles"]), ["MKM-NE-05", "SW10041"])
+
+    def test_the_oracle_partition_matches_the_independent_source_review(self):
+        review = json.loads((SCRIPT.parent.parent / "research/mkm-partition-review-20261124.json").read_text())
+        self.assertEqual(self.oracle["partition"]["numeric"], review["partition"]["numeric"])
+        self.assertEqual(self.oracle["partition"]["request"], review["partition"]["request"])
+        self.assertEqual(self.oracle["flat_quote_articles"], review["flat_quote_articles"])
+        self.assertEqual(len(review["rows"]), 61)
+
+    def manifest_with(self, ident, request_only=None, price=None):
+        changed = json.loads(json.dumps(self.manifest))
+        for article in changed["articles"]:
+            if article["article"] == ident:
+                if request_only is not None:
+                    article["request_only"] = request_only
+                if price is not None:
+                    article["price_eur_per_kg"] = price
+                    article["price_cell"] = "%s € /kg ab 500 kg" % price
+        return changed
+
+    def test_a_partition_that_leaves_the_review_is_red(self):
+        cases = {
+            "priced-on-request": (sorted(self.request_ids)[0], "article partition differs from the reviewed partition"),
+            "request-with-price": (sorted(self.request_ids)[0], "request article contains numeric contract"),
+        }
+        for case, (ident, message) in cases.items():
+            with self.subTest(case=case):
+                self.public.execute("SAVEPOINT mutation")
+                if case == "priced-on-request":
+                    changed = self.manifest_with(ident, request_only=False)
+                else:
+                    changed = self.manifest_with(ident, price=1.23)
+                self.public.execute("UPDATE source_article_snapshots SET manifest_json=?", (json.dumps(changed),))
+                result = V.verify(self.public, self.internal, SINCE)
+                self.assertFalse(result["ok"])
+                self.assertIn(message, result["failures"])
+                self.public.execute("ROLLBACK TO mutation")
+                self.public.execute("RELEASE mutation")
+        with self.subTest(case="wrong-step-count"):
+            self.internal.execute("SAVEPOINT mutation")
+            self.internal.execute("UPDATE ingestion_steps SET items_upserted=56")
+            self.assertFalse(V.verify(self.public, self.internal, SINCE)["ok"])
+            self.internal.execute("ROLLBACK TO mutation")
+            self.internal.execute("RELEASE mutation")
+
+    def test_a_flat_form_outside_the_reviewed_set_is_red(self):
+        self.public.execute("SAVEPOINT mutation")
+        changed = json.loads(json.dumps(self.manifest))
+        ident = sorted(set(self.oracle["partition"]["numeric"]) - self.flat_ids)[0]
+        for article in changed["articles"]:
+            if article["article"] == ident:
+                article["tiers"] = []
+                article["flat_quote"] = True
+        self.public.execute("UPDATE source_article_snapshots SET manifest_json=?", (json.dumps(changed),))
+        result = V.verify(self.public, self.internal, SINCE)
+        self.assertFalse(result["ok"])
+        self.assertIn("invalid numeric metadata/tier contract", result["failures"])
+        self.public.execute("ROLLBACK TO mutation")
+        self.public.execute("RELEASE mutation")
 
     def test_historical_60_and_unknown_62_or_same_count_article_are_red(self):
         original = json.dumps(self.manifest)

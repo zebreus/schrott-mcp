@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """Read-only persisted MKM rollout gate, not a fresh source or trigger oracle.
 
-Pair with source audit/deployment journal. Fixed 56/5 needs review on source drift.
+Pair with source audit/deployment journal. The observed price/request
+partition is not hard coded here: it is read from the reviewed oracle of
+24.11.2026 (`mkm-reviewed-mapping-oracle-20261124.json`), so a further
+request transition of the source turns the gate red until it is reviewed
+again, and never silently green.
 Databases are independently sampled. No ingestion or production DB mutations.
 
 The freshness of the observation is carried by the **current pointer**
@@ -21,7 +25,7 @@ from pathlib import Path
 SLUG = "rp-ludwigshafen-mkm-metals"
 URL = "https://mkm-metals.de/metallpreise"
 OWNER = "mkm-article-v1"
-ORACLE = Path(__file__).resolve().parent.parent / "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261018.json"
+ORACLE = Path(__file__).resolve().parent.parent / "crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261124.json"
 
 
 def connect(path):
@@ -46,12 +50,20 @@ def verify(public, internal, since):
     def fresh(at):
         return public.execute("SELECT julianday(?)>=julianday(?)", (at, since)).fetchone()[0] == 1
 
+    oracle = json.loads(ORACLE.read_text())
+    expected = oracle["expected"]
+    numeric_ids = set(oracle["partition"]["numeric"])
+    request_ids = set(oracle["partition"]["request"])
+    flat_ids = set(oracle["flat_quote_articles"])
+    expected_numeric = len(numeric_ids)
+    expected_requests = len(request_ids)
+
     tables = {r[0] for r in public.execute("SELECT name FROM sqlite_master WHERE type='table'")}
     if not {"source_article_snapshots", "article_acceptance_owners"} <= tables:
         return {"ok": False, "failures": ["typed MKM schema missing; deployment not proven"]}
     step = internal.execute("SELECT * FROM ingestion_steps WHERE scraper=? AND julianday(started_at)>=julianday(?) ORDER BY id DESC LIMIT 1", (SLUG, since)).fetchone()
-    if step is None or step["status"] != "ok" or step["items_upserted"] != 56 or not fresh(step["finished_at"]) or "CANARY" in (step["message"] or ""):
-        failures.append("successful completed post-rollout 56-price step missing")
+    if step is None or step["status"] != "ok" or step["items_upserted"] != expected_numeric or not fresh(step["finished_at"]) or "CANARY" in (step["message"] or ""):
+        failures.append(f"successful completed post-rollout {expected_numeric}-price step missing")
     if step is not None:
         fetch = internal.execute("SELECT * FROM raw_fetches WHERE run_id=? AND scraper=? AND url=? ORDER BY id DESC LIMIT 1", (step["run_id"], SLUG, URL)).fetchone()
         if fetch is None or fetch["status_code"] != 200 or fetch["byte_len"] <= 0:
@@ -73,9 +85,10 @@ def verify(public, internal, since):
         failures.append("manifest scope/freshness mismatch")
     if step is not None and public.execute("SELECT julianday(?) BETWEEN julianday(?) AND julianday(?)", (ledger["observed_at"], step["started_at"], step["finished_at"])).fetchone()[0] != 1:
         failures.append("manifest is not from latest completed step window")
-    expected = json.loads(ORACLE.read_text())["expected"]
     if len(articles) != 61 or len(by_id) != 61 or set(by_id) != set(expected):
         failures.append("reviewed 61-article partition mismatch")
+    if numeric_ids | request_ids != set(expected) or numeric_ids & request_ids:
+        failures.append("reviewed partition does not cover the 61 identities once")
     prices = public.execute("SELECT p.*,m.slug AS material,m.unit AS catalog_unit,c.updated_at AS pointer_updated_at FROM current_prices c JOIN prices p ON p.id=c.price_id JOIN materials m ON m.id=p.material_id WHERE c.trader_id=? AND p.source_url=?", (ledger["trader_id"], URL)).fetchall()
     indexed = {(p["material"], p["variant"]): p for p in prices}
     wanted_keys = set()
@@ -93,7 +106,9 @@ def verify(public, internal, since):
         is_request = article.get("request_only")
         if is_request is True:
             requests += 1
-            if article.get("price_eur_per_kg") is not None or article.get("tiers") != [] or article.get("minimum_for_upper_bound_kg") is not None or article.get("price_cell") != "auf Anfrage":
+            if ident not in request_ids:
+                failures.append("article partition differs from the reviewed partition")
+            if article.get("price_eur_per_kg") is not None or article.get("tiers") != [] or article.get("minimum_for_upper_bound_kg") is not None or article.get("price_cell") != "auf Anfrage" or article.get("flat_quote", False):
                 failures.append("request article contains numeric contract")
             if (material, variant) in indexed:
                 failures.append("request article still has Current quote")
@@ -102,6 +117,8 @@ def verify(public, internal, since):
             failures.append("invalid request/numeric partition")
             continue
         numeric += 1
+        if ident not in numeric_ids:
+            failures.append("article partition differs from the reviewed partition")
         wanted_keys.add((material, variant))
         row = indexed.get((material, variant))
         if row is None:
@@ -112,21 +129,33 @@ def verify(public, internal, since):
             source_price = article["price_eur_per_kg"]
             minimum = article["minimum_for_upper_bound_kg"]
             tiers = article["tiers"]
-            valid_source = (isinstance(source_price, (int, float)) and not isinstance(source_price, bool)
-                            and math.isfinite(source_price) and source_price > 0
-                            and isinstance(minimum, (int, float)) and not isinstance(minimum, bool)
-                            and math.isfinite(minimum) and minimum >= 0 and isinstance(tiers, list) and bool(tiers)
-                            and tiers[0]["ab"] == 0 and tiers[-1]["ab"] == minimum
-                            and tiers[-1]["preis"] == source_price)
-            if valid_source:
-                valid_source = all(
-                    isinstance(t, dict) and set(t) == {"ab", "preis"}
-                    and isinstance(t["ab"], (int, float)) and not isinstance(t["ab"], bool)
-                    and math.isfinite(t["ab"]) and t["ab"] >= 0
-                    and isinstance(t["preis"], (int, float)) and not isinstance(t["preis"], bool)
-                    and math.isfinite(t["preis"]) and t["preis"] > 0 for t in tiers)
-            if valid_source:
-                valid_source = all(a["ab"] < b["ab"] and a["preis"] <= b["preis"] for a, b in zip(tiers, tiers[1:]))
+            if isinstance(tiers, list) and not tiers:
+                # The reviewed flat price form: the page shows an upper price
+                # and a minimum and no quantity ladder at all. The visible
+                # upper bound and the visible minimum are the whole contract.
+                valid_source = (ident in flat_ids
+                                and isinstance(source_price, (int, float)) and not isinstance(source_price, bool)
+                                and math.isfinite(source_price) and source_price > 0
+                                and isinstance(minimum, (int, float)) and not isinstance(minimum, bool)
+                                and math.isfinite(minimum) and minimum >= 0
+                                and article.get("flat_quote") is True)
+            else:
+                valid_source = (isinstance(source_price, (int, float)) and not isinstance(source_price, bool)
+                                and math.isfinite(source_price) and source_price > 0
+                                and isinstance(minimum, (int, float)) and not isinstance(minimum, bool)
+                                and math.isfinite(minimum) and minimum >= 0 and isinstance(tiers, list) and bool(tiers)
+                                and tiers[0]["ab"] == 0 and tiers[-1]["ab"] == minimum
+                                and tiers[-1]["preis"] == source_price
+                                and not article.get("flat_quote", False))
+                if valid_source:
+                    valid_source = all(
+                        isinstance(t, dict) and set(t) == {"ab", "preis"}
+                        and isinstance(t["ab"], (int, float)) and not isinstance(t["ab"], bool)
+                        and math.isfinite(t["ab"]) and t["ab"] >= 0
+                        and isinstance(t["preis"], (int, float)) and not isinstance(t["preis"], bool)
+                        and math.isfinite(t["preis"]) and t["preis"] > 0 for t in tiers)
+                if valid_source:
+                    valid_source = all(a["ab"] < b["ab"] and a["preis"] <= b["preis"] for a, b in zip(tiers, tiers[1:]))
             if not valid_source:
                 raise ValueError("bad source terms")
             unit = row["catalog_unit"]
@@ -163,8 +192,8 @@ def verify(public, internal, since):
             ).fetchone()[0] != 1
         ):
             failures.append("quote provenance/date/freshness mismatch")
-    if (numeric, requests) != (56, 5):
-        failures.append(f"article quote/request partition {numeric}/{requests} != 56/5")
+    if (numeric, requests) != (expected_numeric, expected_requests):
+        failures.append(f"article quote/request partition {numeric}/{requests} != {expected_numeric}/{expected_requests}")
     if set(indexed) != wanted_keys or len(prices) != numeric:
         failures.append("unexpected same-source Current keys; legacy alias or unproven leftovers require review")
     acceptances = public.execute("SELECT tm.*,m.slug AS material,o.source_url AS owner_source,o.owner,o.conditions AS owner_conditions,o.observed_at AS owner_at FROM trader_materials tm JOIN materials m ON m.id=tm.material_id LEFT JOIN article_acceptance_owners o ON o.trader_id=tm.trader_id AND o.material_id=tm.material_id WHERE tm.trader_id=?", (ledger["trader_id"],)).fetchall()
