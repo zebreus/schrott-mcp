@@ -91,6 +91,20 @@ im Dossier“** ✓✓, den es in diesem Fall **gibt** ✓✓ ✓ ✓
 ob eine **abweichende** ✓✓ Distanz ein **Befund** ✓✓ sein **muss** ✓✓ ✓ ✓ Das **Werkzeug**
 ✓✓ wird **nicht** in einem laufenden Release **geändert** ✓✓ ✓ ✓
 
+## 4b) Der **Geokodierungs-Rückstand** ✓✓ — **38** ✓✓ Dossiers ✓✓
+
+**Gemessen** ✓✓ (read-only, 24.11.2026, 10:00 UTC ✓✓): **38** ✓✓ Dossiers ✓✓ tragen
+eine **Adresse** ✓✓, **keinen** ✓✓ Punkt ✓✓ und **keinen** ✓✓ Clear ✓✓ auf die
+Koordinate ✓✓ ✓ ✓ Weitere **213** ✓✓ Dossiers ✓✓ tragen **bewusst** ✓✓ einen
+`clear_fields: geo` ✓✓ — das ist **kein** ✓✓ Rückstand ✓✓ ✓ ✓
+
+**Der Auftrag** ✓✓: **keiner** ✓✓ vorerst ✓✓ — eine **Adresse** ✓✓ aus einem
+**Verzeichnis** ✓✓ ist **kein** ✓✓ Standortnachweis ✓✓ ✓ ✓ Diese **38** ✓✓ Zeilen ✓✓
+brauchen **Recherche** ✓✓ (Betreiberquelle ✓✓ **und** adressiertes Objekt ✓✓), **nicht**
+**nur** ✓✓ eine Geokodierung ✓✓ ✓ ✓ Sie kommen **nicht** ✓✓ in den **Pool** ✓✓ der
+Wellen ✓✓ (sie haben eine Straße ✓✓) ✓✓ und bilden **deshalb** ✓✓ eine **eigene**
+✓✓ Runde ✓✓ ✓ ✓
+
 ## 5) Die Zeile `rp-11880-…` ✓✓
 
 **Entschieden** ✓✓: sie bleibt `pruefung` ✓✓ mit **dokumentiertem** ✓✓
