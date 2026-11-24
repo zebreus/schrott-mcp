@@ -3,7 +3,7 @@ slug: he-hattersheim-65795-altan
 name: Altan
 trader_type: autoverwertung
 state: HE
-city: Hattersheim 65795
+city: 'Hattersheim'
 street: Schützenstr. 2
 postcode: '65795'
 phone: 06190 977792
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Kleinst-Schrotthändler
 - Adresse: Hattersheim 65795
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Hattersheim 65795** ✓✓ stand dort **mit** der Postleitzahl **65795** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Altan** ✓✓, Straße **Schützenstr. 2** ✓✓ ✓✓]

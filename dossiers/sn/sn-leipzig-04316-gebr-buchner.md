@@ -3,7 +3,7 @@ slug: sn-leipzig-04316-gebr-buchner
 name: Gebr. Büchner GmbH
 trader_type: schrotthaendler
 state: SN
-city: Leipzig 04316
+city: 'Leipzig'
 street: Am Bahndamm 8
 postcode: '04316'
 phone: ''
@@ -63,3 +63,7 @@ Namens- und Adresssuche liefert eine Gebr. Büchner Transport GmbH am Bahndamm 8
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **6,6 km** vom Adressobjekt **Am Bahndamm 8, 04316 Leipzig** (node/8195048139, `addr:housenumber`=8) entfernt — er trifft **10, Trufanowstraße, 04105 Leipzig** (ein Friseur ✓ ✓ — `name`=hair & flair ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein **fremdes Objekt** ✓ ✓ und liegt **6,6 km** entfernt ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Leipzig 04316** ✓✓ stand dort **mit** der Postleitzahl **04316** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Gebr. Büchner GmbH** ✓✓, Straße **Am Bahndamm 8** ✓✓ ✓✓]

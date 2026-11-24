@@ -3,7 +3,7 @@ slug: he-wiesbaden-65205-knettenbrech-gurdulic
 name: KNETTENBRECH + GURDULIC GmbH & Co. KG
 trader_type: wertstoffhaendler
 state: HE
-city: Wiesbaden 65205
+city: 'Wiesbaden'
 street: Ferdinand-Knettenbrech-Weg 10a
 postcode: '65205'
 phone: +49 611 / 696 0
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Entsorger, Leistung "Schrott + Altmetall", Wertstoffhöfe; kein Privatkunden-Ankauf belegt (Runde 2 aussortiert, nach Final-Regel drin)
 - Adresse: Wiesbaden 65205
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Wiesbaden 65205** ✓✓ stand dort **mit** der Postleitzahl **65205** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **KNETTENBRECH + GURDULIC GmbH & Co. KG** ✓✓, Straße **Ferdinand-Knettenbrech-Weg 10a** ✓✓ ✓✓]

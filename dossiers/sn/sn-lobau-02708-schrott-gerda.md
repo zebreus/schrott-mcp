@@ -3,7 +3,7 @@ slug: sn-lobau-02708-schrott-gerda
 name: Schrott Gerda
 trader_type: schrotthaendler
 state: SN
-city: Löbau 02708
+city: 'Löbau'
 street: Am Kombinat 8
 postcode: 02708
 phone: 03585 410212
@@ -53,3 +53,7 @@ provenance_origin: table
 ### Recherche 19.11.2026
 
 - [Recherche 19.11.2026: **Keine Zertifizierung und kein Registereintrag zum Namen, die Adresse existiert aber als Adressobjekt.** Das amtliche Fachbetrieberegister liefert am 19.11.2026 in beiden Routen 0 Treffer für `Gerda` und `Schrott Gerda`; die Standortabfrage mit 3 km um das OSM-Adressobjekt way/259540845, Am Kombinat 8, 02708 Löbau im Ortsteil Kittlitz, liefert 1 Efb-Treffer, die fremde `Veolia Umweltservice Ost GmbH` Löbau, Lauchaer Straße 15, in 2,0 km, die Ausweitung auf 10 km um 02708 Löbau liefert 29 Efb-Treffer unter anderem mit der Dussa GmbH NL Löbau, Laubaner Straße 39, in 3,3 km, und 0 AltfahrzeugV-Treffer. Die EfbV- und die AltfahrzeugV-Anerkennung sind freiwillig, die Abfragen sind kein Nichtexistenzbeweis. Die amtliche Handelsregistersuche für `Gerda Löbau` liefert weder einen Unternehmen- noch einen Personentreffer; der zuvor im Dossier notierte anderslautende Namensbefund `Jörg Gerhard Schrott` aus einer Register-Sekundärquelle bestätigt sich damit nicht. Das Örtliche führt weiterhin `Schrott Gerda`, Schrott, Am Kombinat 8, 02708 Löbau-Kittlitz, 03585 41 02 12, und die Gelben Seiten nennen dieselbe Anschrift und Nummer, beide bleiben Verzeichnis-Leads ohne Inhaber- oder Registerbeleg. Das OSM-Objekt way/259540845 liegt bei 51.1328508/14.6763709 und trägt `building=yes`, aber weder `name=` noch `operator=`; es belegt die Hausnummer, nicht den Betrieb, deshalb wurde keine Koordinate gesetzt. **Ankauf:** keine Kurse und keine Annahmebedingungen; **Verkauf:** keine Preisliste; **Gebühren:** keine Tarife. Quellen: https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Gerda ; https://www.online-handelsregister.de/suche/Gerda%20L%C3%B6bau ; https://nominatim.openstreetmap.org/search?format=jsonv2&limit=2&countrycodes=de&addressdetails=1&extratags=1&q=Am%20Kombinat%208%2C%2002708%20L%C3%B6bau .]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Löbau 02708** ✓✓ stand dort **mit** der Postleitzahl **02708** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrott Gerda** ✓✓, Straße **Am Kombinat 8** ✓✓ ✓✓]

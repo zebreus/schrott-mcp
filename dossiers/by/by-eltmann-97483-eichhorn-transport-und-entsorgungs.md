@@ -5,7 +5,7 @@ lon: 10.6615019
 name: Eichhorn Transport- und Entsorgungs-GmbH
 trader_type: sonstige
 state: BY
-city: Eltmann 97483
+city: 'Eltmann'
 street: Industriestr. 11
 postcode: '97483'
 phone: 09522 3010-0
@@ -58,3 +58,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate belegt: `lat`/`lon` = 49.9811402/10.6615019.** Für den Dossier-Eintrag **Eichhorn Transport- und Entsorgungs-GmbH** trägt das OSM-Objekt node/10225316959 (`addr:housenumber`=11, `addr:street`=Industriestraße, `addr:postcode`=97483, `addr:city`=Eltmann) die Dossier-Adresse **Industriestr. 11, 97483 Eltmann 97483** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist der Adressknoten, BBox 49.9811402/10.6615019 bis 49.9811402/10.6615019). Quelle(n): https://api.openstreetmap.org/api/0.6/node/10225316959.json ; https://nominatim.openstreetmap.org/search?q=Industriestr.+11%2C+97483+Eltmann&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Industriestr.+11&postalcode=97483&city=Eltmann&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Eltmann 97483** ✓✓ stand dort **mit** der Postleitzahl **97483** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Eichhorn Transport- und Entsorgungs-GmbH** ✓✓, Straße **Industriestr. 11** ✓✓ ✓✓]

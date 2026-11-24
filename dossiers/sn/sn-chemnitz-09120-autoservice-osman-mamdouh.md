@@ -3,7 +3,7 @@ slug: sn-chemnitz-09120-autoservice-osman-mamdouh
 name: Autoservice Osman Mamdouh
 trader_type: sonstige
 state: SN
-city: Chemnitz 09120
+city: 'Chemnitz'
 street: Altchemnitzer Str. 13
 postcode: '09120'
 lat: 50.8179447
@@ -77,3 +77,7 @@ Böhlener Website, Telefon und Teilepreise gehören nicht in diesen Datensatz. E
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **854 m** von der belegten Betriebsanschrift entfernt — er wird durch den adresskonformen Punkt **50.8179447/12.9217949** ersetzt ✓ ✓ Der Beleg für die Adresse: das **amtliche Fachbetrieberegister** ✓✓ (ZASS00300004 ✓✓, Demontagebetrieb ✓✓, Altchemnitzer Str. 13 ✓✓) **und** das **Adressobjekt** ✓✓ mit dieser Hausnummer ✓✓ **das Zielobjekt** ✓✓ (`way/444913118` ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Chemnitz 09120** ✓✓ stand dort **mit** der Postleitzahl **09120** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoservice Osman Mamdouh** ✓✓, Straße **Altchemnitzer Str. 13** ✓✓ ✓✓]

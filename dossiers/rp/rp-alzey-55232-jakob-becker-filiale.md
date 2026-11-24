@@ -3,7 +3,7 @@ slug: rp-alzey-55232-jakob-becker-filiale
 name: Jakob Becker (Filiale)
 trader_type: sonstige
 state: RP
-city: Alzey 55232
+city: 'Alzey'
 street: 'Albiger Str. 18'
 postcode: '55232'
 phone: '+49 6731 9509-0'
@@ -49,3 +49,7 @@ und der Status auf Prüfung steht.
 ### Recherche 04.10.2026
 
 - [Recherche 04.10.2026: Die aktuelle Betreiber-Niederlassungsseite bestätigt die Alzey-Angebote Containerdienst, Spezialdienstleistungen, Abflussreinigung und Abwassertechnik, nennt aber keine Schrottannahme oder Schrottabholung. Die offizielle Domain wurde als Root-URL ergänzt; das bereits nichtleere website_status=unbekannt und status=pruefung wurden nicht überschrieben. Für Schrottannahme/-abholung bleibt der Standort ungeklärt; Quelle(n): https://jakob-becker.de/standort/jakob-becker-entsorgungs-gmbh-niederlassung-alzey/ ; https://jakob-becker.de/impressum/ ; https://www.northdata.de/Jakob%20Becker%20Entsorgungs-GmbH,%20Mehlingen/Amtsgericht%20Kaiserslautern%20HRB%203043]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Alzey 55232** ✓✓ stand dort **mit** der Postleitzahl **55232** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Jakob Becker (Filiale)** ✓✓, Straße **Albiger Str. 18** ✓✓ ✓✓]

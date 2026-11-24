@@ -3,7 +3,7 @@ slug: by-karlstadt-97753-mlm-vertriebs
 name: MLM Vertriebs GmbH
 trader_type: sonstige
 state: BY
-city: Karlstadt 97753
+city: 'Karlstadt'
 street: Mozartstr. 12
 postcode: '97753'
 phone: 09353 7906-0
@@ -67,3 +67,7 @@ Die amtliche Registerhistorie (AG Würzburg HRB 6483 → AG Chemnitz HRB 22103 �
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **429 m** vom Adressobjekt **Mozartstraße 12, 97753 Karlstadt** (way/210479904, `addr:housenumber`=12) entfernt — er trifft **16, Krönleinsweg, 97753 Karlstadt** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße in demselben Ort ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Karlstadt 97753** ✓✓ stand dort **mit** der Postleitzahl **97753** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **MLM Vertriebs GmbH** ✓✓, Straße **Mozartstr. 12** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: he-alsfeld-36304-dorr-eduard
 name: Dörr Eduard
 trader_type: sonstige
 state: HE
-city: Alsfeld 36304
+city: 'Alsfeld'
 street: Altenburger Str. 78
 postcode: '36304'
 lat: 50.7407733
@@ -110,3 +110,7 @@ ausweist. Offen bleiben Betreiberidentität, aktuelle Tätigkeit und Zertifizier
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.7407733/9.2726225.** Das OSM-Objekt way/102889260 trägt `addr:housenumber`=78, `addr:street`=Altenburger Straße, `addr:postcode`=36304, `addr:city`=Alsfeld. Dasselbe Objekt trägt `building`=apartments. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/102889260/full.json ; https://nominatim.openstreetmap.org/search?q=Altenburger%20Str.%2078%2C%2036304%20Alsfeld&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Alsfeld 36304** ✓✓ stand dort **mit** der Postleitzahl **36304** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Dörr Eduard** ✓✓, Straße **Altenburger Str. 78** ✓✓ ✓✓]

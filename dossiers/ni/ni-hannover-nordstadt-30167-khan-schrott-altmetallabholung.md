@@ -3,7 +3,7 @@ slug: ni-hannover-nordstadt-30167-khan-schrott-altmetallabholung
 name: Khan Schrott-/Altmetallabholung
 trader_type: schrotthaendler
 state: NI
-city: Hannover-Nordstadt 30167
+city: 'Hannover-Nordstadt'
 street: Kornstr. 8
 postcode: 30167
 phone: ''
@@ -49,3 +49,7 @@ Die Adresse Kornstr. 8, 30167 Hannover und 0163 1751448 stehen inzwischen auch i
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Neue Leads: Gelbe Seiten listet "Khan Schrott- u. Altmetallabholung", city-advisor bestätigt Kornstr. 8, 30167 Hannover (Branche Schrotthändler) mit Tel. (0163) 1751448, golocal mit 5.0-Einzelbewertung; Adresse + PLZ damit zweifach belegt → postcode 30167 gefüllt (offen dokumentiert); Telefon nur Einzelbeleg (city-advisor) → NICHT in Frontmatter, nur hier als Lead; weiter kein Betreiber-/Registerbeleg → bleibt pruefung; Quelle(n): gelbeseiten.de/gsbiz/66667bd3, hannover.city-advisor.de/khan, golocal.de (02.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Hannover-Nordstadt 30167** ✓✓ stand dort **mit** der Postleitzahl **30167** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Khan Schrott-/Altmetallabholung** ✓✓, Straße **Kornstr. 8** ✓✓ ✓✓]

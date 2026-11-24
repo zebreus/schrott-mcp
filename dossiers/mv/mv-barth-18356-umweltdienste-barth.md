@@ -3,7 +3,7 @@ slug: mv-barth-18356-umweltdienste-barth
 name: Umweltdienste Barth GmbH & Co. KG
 trader_type: containerdienst
 state: MV
-city: Barth 18356
+city: 'Barth'
 street: Am Mastweg 2a
 postcode: '18356'
 phone: 038231 6850
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Entsorgung, Eisen-/NE-Lager, Autowracks
 - Adresse: Barth 18356, Am Mastweg 2a
 - Adressbeleg: https://www.umweltdienste-barth.de/
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Barth 18356** ✓✓ stand dort **mit** der Postleitzahl **18356** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Umweltdienste Barth GmbH & Co. KG** ✓✓, Straße **Am Mastweg 2a** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: mv-grevesmuhlen-23936-ger-umweltschutz
 name: GER Umweltschutz GmbH
 trader_type: containerdienst
 state: MV
-city: Grevesmühlen 23936
+city: 'Grevesmühlen'
 street: Langer Steinschlag 2
 postcode: '23936'
 phone: +49 3881 7808-0
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Containerdienst, Entsorgung
 - Adresse: Grevesmühlen 23936
 - Adressbeleg: https://www.ger-umweltschutz.de/, https://www.ger-umweltschutz.de/impressum
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Grevesmühlen 23936** ✓✓ stand dort **mit** der Postleitzahl **23936** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **GER Umweltschutz GmbH** ✓✓, Straße **Langer Steinschlag 2** ✓✓ ✓✓]

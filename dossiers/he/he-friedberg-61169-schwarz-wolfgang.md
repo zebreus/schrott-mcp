@@ -3,7 +3,7 @@ slug: he-friedberg-61169-schwarz-wolfgang
 name: Schwarz Wolfgang
 trader_type: schrotthaendler
 state: HE
-city: Friedberg 61169
+city: 'Friedberg'
 street: Am Ringgraben 1
 postcode: '61169'
 phone: (06031) 2384
@@ -61,3 +61,7 @@ Wolfgang Schwarz Schrott-/Metallhandel bleibt nur aus Verzeichnisquellen dokumen
 ### Korrektur 19.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 19.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **136,4 km** von der belegten Anschrift **Am Ringgraben, 61169 Friedberg** entfernt (`building`=yes ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 19.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Friedberg 61169** ✓✓ stand dort **mit** der Postleitzahl **61169** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schwarz Wolfgang** ✓✓, Straße **Am Ringgraben 1** ✓✓ ✓✓]

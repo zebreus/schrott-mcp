@@ -3,7 +3,7 @@ slug: sl-saarbrucken-scheidt-66133-scheidter-goldankauf
 name: Scheidter Goldankauf
 trader_type: sonstige
 state: SL
-city: Saarbrücken-Scheidt 66133
+city: 'Saarbrücken-Scheidt'
 street: Kaiserstr. 84
 postcode: '66133'
 phone: 0681 83900147
@@ -61,3 +61,7 @@ Gelbe Seiten führt den Goldankauf weiterhin als Verzeichniseintrag an Kaiserstr
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **4,9 km** vom Adressobjekt **Kaiserstraße 84, 66133 Saarbrücken** (way/1137631760, `addr:housenumber`=84) entfernt — er trifft **2, Ufergasse, 66111 Saarbrücken** — das Objekt trägt den Namen **Krav Maga** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt fällt auf ein **fremdes Objekt** und liegt **4,9 km** entfernt ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Saarbrücken-Scheidt 66133** ✓✓ stand dort **mit** der Postleitzahl **66133** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Scheidter Goldankauf** ✓✓, Straße **Kaiserstr. 84** ✓✓ ✓✓]

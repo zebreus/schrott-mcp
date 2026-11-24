@@ -3,7 +3,7 @@ slug: mv-kramerhof-18445-bornhoft-abri-recycling
 name: Bornhöft Abriß & Recycling GmbH
 trader_type: sonstige
 state: MV
-city: Kramerhof 18445
+city: 'Kramerhof'
 street: Schmedshägerweg 1
 postcode: 18445
 phone: 0178/3005991
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 02.10.2026
 
 - [Recherche 02.10.2026: Betreiber-Website vollständig belegt (bornhoeft-stralsund.de = xn--bornhft-e1a.net): Impressum nennt BEIDE GmbHs — „Bornhöft Gala- & Tiefbau GmbH“ (USt-ID DE308540949) und „Bornhöft Abriss & Recycling GmbH“ (USt-ID DE302454942), beide Schmedshägerweg 1, 18445 Kramerhof, Tel. 0178 3005991, info@bornhoeft-stralsund.de, GF Jörg Bornhöft; Leistungen: Recyclinghof, Containerdienst, Abriss, Schüttgut, Handel & Dienstleistungen; Zweitbeleg Register: Bornhöft Garten-Landschafts- und Tiefbau GmbH, AG Stralsund HRB 20333, gleiche Adresse/GF (Northdata + handelsregister.ai, JA 2023) — Betreiber + Register kongruent → Adresse/PLZ/Telefon/Mail/Website gefüllt; Impressum nennt keine HRB → kein Owner-Gate, aber starker Doppelbeleg → Status pruefung→aktiv; Hinweis: kein Schrottankauf im engeren Sinn (Abriss/Recyclinghof/Container), trader_type sonstige bleibt; Quelle(n): xn--bornhft-e1a.net Startseite + /impressum.html + /kontakt.html (Abruf 02.10.2026) + northdata.de HRB 20333]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Kramerhof 18445** ✓✓ stand dort **mit** der Postleitzahl **18445** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Bornhöft Abriß & Recycling GmbH** ✓✓, Straße **Schmedshägerweg 1** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: by-muhldorf-84453-mitsching-av
 name: Mitsching AV
 trader_type: sonstige
 state: BY
-city: Mühldorf 84453
+city: 'Mühldorf'
 street: Bischof-von-Ketteler-Str. 6
 postcode: 84453
 phone: 08631 2944
@@ -46,3 +46,7 @@ Der OSM-Scan bestätigt die Anschrift: Die Straße Bischof-von-Ketteler-Straße 
 - [Recherche 30.10.2026: website_status "tot" erneut live bestätigt. Der Abruf von http://www.mitsching.net (HTTP 200) liefert weiterhin nur die Hosting-Platzhalter-Seite "Hier entsteht eine neue Homepage. Hier entsteht eine neue Homepage. Schauen Sie doch mal wieder vorbei! Interessieren Sie sich für eine eigene Homepage" ohne jede Geschäftsangabe, Adresse, Telefonnummer, Materialliste oder Öffnungszeit. Die Domain trägt damit weiterhin keine Betreiberinformationen; website_status bleibt tot. Quelle(n): http://www.mitsching.net]
 - [Recherche 30.10.2026: ANKAUF, VERKAUF und GEBÜHREN weiterhin ohne Beleg. Weder die Platzhalterseite noch die im Bestand genannten Verzeichnisangaben enthalten Preise, Sortenlisten, Mindestmengen oder Gebühren; für einen Autoverwertungsbetrieb wäre zusätzlich eine Altautoverwertungsbescheinigung die naheliegende amtliche Quelle, sie liegt hier nicht vor. Es wurde nichts ergänzt und nichts geschätzt. Quelle(n): http://www.mitsching.net]
 - [Recherche 30.10.2026: OSM-Straßenscan, Anschrift bestätigt. Rasterfenster bbox=12.5155693,48.2456682,12.5283565,48.2554294, Straße "Bischof-von-Ketteler-Straße" in 84453 Mühldorf (way 159391862), Filter addr:street mit addr:housenumber. Ergebnis live: 1 Adressobjekt mit 1 verschiedenen Hausnummer (6). Die Seed-Hausnummer 6 ist damit das einzige Adressobjekt dieser Straße; die Nachbar-Einträge "Kauder AV Jägerstraße 8" und die übrigen Mühldorfer Händler liegen in anderen Straßen. Geokodierung: Punkt für Bischof-von-Ketteler-Str. 6, 84453 Mühldorf ist noch zu setzen. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=12.5155693,48.2456682,12.5283565,48.2554294]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Mühldorf 84453** ✓✓ stand dort **mit** der Postleitzahl **84453** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Mitsching AV** ✓✓, Straße **Bischof-von-Ketteler-Str. 6** ✓✓ ✓✓]

@@ -5,7 +5,7 @@ lon: 12.8084114
 name: SMS Sterns Metall & Schrotthandel
 trader_type: schrotthaendler
 state: SN
-city: Rochlitz 09306
+city: 'Rochlitz'
 street: Schützenstr. 6
 postcode: '09306'
 phone: 03737/7864315
@@ -90,3 +90,7 @@ nicht aufgelöst. Die Zeile DB Recycling an derselben Anschrift wird nicht versc
   https://api.openstreetmap.org/api/0.6/way/202082302/full.json ;
   https://api.openstreetmap.org/api/0.6/map.json?bbox=12.8000,51.0400,12.8200,51.0600 ;
   https://www.sms-rochlitz.de/pages/kontakt/impressum.php (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Rochlitz 09306** ✓✓ stand dort **mit** der Postleitzahl **09306** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **SMS Sterns Metall & Schrotthandel** ✓✓, Straße **Schützenstr. 6** ✓✓ ✓✓]

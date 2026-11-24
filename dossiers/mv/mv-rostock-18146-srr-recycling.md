@@ -3,7 +3,7 @@ slug: mv-rostock-18146-srr-recycling
 name: Veolia Umweltservice Nord GmbH (Rostock GSA)
 trader_type: sonstige
 state: MV
-city: Rostock 18146
+city: 'Rostock'
 street: Up de Schnur 2
 postcode: 18146
 lat: 54.1284225
@@ -66,3 +66,7 @@ Vorgängergesellschaft und die unbelegte Seed-Angabe Eisen und Nichteisenmetalle
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **Koordinate korrigiert**: `lat`/`lon` = **54.1284225/12.1683083** (Mittel der 4 eindeutigen Way-Knoten von way/1175879251; Punkt liegt innerhalb der Objekt-BBox). Alter Punkt 54.1059800/12.1116300 lag **4458 m** entfernt. Quelle 1 (OSM): way/1175879251 trägt `addr:housenumber`=2, `addr:street`=Up de Schnur, `addr:city`=Rostock, `addr:postcode`=18146. Auf demselben Grundstück liegt way/935540533 (`name`=Leichtverpackungen-Sortieranlage, `operator`=Veolia Umweltservice Nord GmbH) ohne Adress-Tags; die Objekte mit `addr:housenumber`=1 (way/34410815 Spedition Gustke, way/34411012 Berding Beton GmbH) sind Fremdbetriebe. Quelle 2 (Betreiber): die Standortseite des aktuellen Betreibers und der Efb-Zertifikatsanhang belegen „Veolia Umweltservice Nord GmbH, Up de Schnur 2, 18146 Rostock“ als Gewerbeabfallsortieranlage. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1175879251.json ; https://www.veolia.de/ueber-uns/geschaeftsfelder/standorte-und-dienstleistungen/rostock-gsa (Abruf 31.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Rostock 18146** ✓✓ stand dort **mit** der Postleitzahl **18146** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Veolia Umweltservice Nord GmbH (Rostock GSA)** ✓✓, Straße **Up de Schnur 2** ✓✓ ✓✓]

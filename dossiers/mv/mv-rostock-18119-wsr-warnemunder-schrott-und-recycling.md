@@ -3,7 +3,7 @@ slug: mv-rostock-18119-wsr-warnemunder-schrott-und-recycling
 name: WSR Warnemünder Schrott und Recycling GmbH
 trader_type: schrotthaendler
 state: MV
-city: Rostock 18119
+city: 'Rostock'
 street: Gartenstr. 23
 postcode: '18119'
 phone: ''
@@ -57,3 +57,7 @@ Registeridentität WSR Warnemünder Schrott und Recycling GmbH, HRB 13748 Rostoc
 ### Korrektur 20.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 20.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **8144 m** von der Dossieradresse **Gartenstrasse 23, 18119 Rostock-Warnemünde** entfernt — also im falschen Rostocker Stadtbezirk ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 20.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Rostock 18119** ✓✓ stand dort **mit** der Postleitzahl **18119** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **WSR Warnemünder Schrott und Recycling GmbH** ✓✓, Straße **Gartenstr. 23** ✓✓ ✓✓]

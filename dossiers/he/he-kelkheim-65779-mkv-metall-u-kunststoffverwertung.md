@@ -3,7 +3,7 @@ slug: he-kelkheim-65779-mkv-metall-u-kunststoffverwertung
 name: MKV Metall- u. Kunststoffverwertung
 trader_type: schrotthaendler
 state: HE
-city: Kelkheim 65779
+city: 'Kelkheim'
 street: Siemensstr. 5
 postcode: 65779
 phone: 0172 6126005
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Altmetall-Verwertung
 - Adresse: Kelkheim 65779
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Kelkheim 65779** ✓✓ stand dort **mit** der Postleitzahl **65779** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **MKV Metall- u. Kunststoffverwertung** ✓✓, Straße **Siemensstr. 5** ✓✓ ✓✓]

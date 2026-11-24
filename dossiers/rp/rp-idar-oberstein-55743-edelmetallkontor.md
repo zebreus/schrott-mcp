@@ -3,7 +3,7 @@ slug: rp-idar-oberstein-55743-edelmetallkontor
 name: Edelmetallkontor Idar-Oberstein e. K.
 trader_type: sonstige
 state: RP
-city: Idar-Oberstein 55743
+city: 'Idar-Oberstein'
 street: Mainzer Straße 68
 postcode: '55743'
 lat: 49.7173337
@@ -68,3 +68,7 @@ Die Website nennt Mainzer Straße 68, 55743 Idar-Oberstein, 06781 2639215, info@
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **49.7173337/7.3059793**). Punktgüte: **Hausnummer-Treffer (Adressobjekt eines Fremdbetriebs: Otto Simon e.K.)**; der Dossierbetrieb „Edelmetallkontor Idar-Oberstein e. K.“ ist über die Adresse **Mainzer Straße 68, 55743 Idar-Oberstein 55743** adressiert; das OSM-Adressobjekt **w/335957543** trägt `addr:housenumber`=68, `addr:street`=Mainzer Straße, `addr:postcode`=55743, `addr:city`=Idar-Oberstein; der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt ist als **„Otto Simon e.K.“** geführt mit `operator`=Thomas Heintz - das ist **ein anderer Betrieb** an derselben Hausnummer, die Koordinate belegt die Anschrift; die Nominatim-Vorwärtssuche nach „Mainzer Straße 68, 55743 Idar-Oberstein 55743“ liefert denselben Objektpunkt. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Mainzer%20Stra%C3%9Fe%2068%2C%2055743%20Idar-Oberstein%2055743 ; https://api.openstreetmap.org/api/0.6/way/335957543.json (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Idar-Oberstein 55743** ✓✓ stand dort **mit** der Postleitzahl **55743** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Edelmetallkontor Idar-Oberstein e. K.** ✓✓, Straße **Mainzer Straße 68** ✓✓ ✓✓]

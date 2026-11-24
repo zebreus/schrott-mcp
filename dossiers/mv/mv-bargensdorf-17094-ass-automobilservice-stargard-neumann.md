@@ -3,7 +3,7 @@ slug: mv-bargensdorf-17094-ass-automobilservice-stargard-neumann
 name: ASS Automobilservice Stargard Neumann oHG
 trader_type: sonstige
 state: MV
-city: Bargensdorf 17094
+city: 'Bargensdorf'
 street: Fünfeichener Weg 3
 postcode: '17094'
 phone: 039603-22808
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Autowerkstatt, Altauto-Annahmestelle (GESA)
 - Adresse: Bargensdorf 17094, Fünfeichener Weg 3 (Klärfall entschieden: ein Betrieb, eine Zeile)
 - Adressbeleg: https://www.ass-autopartner.de/, https://www.ass-autopartner.de/impressum
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Bargensdorf 17094** ✓✓ stand dort **mit** der Postleitzahl **17094** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **ASS Automobilservice Stargard Neumann oHG** ✓✓, Straße **Fünfeichener Weg 3** ✓✓ ✓✓]

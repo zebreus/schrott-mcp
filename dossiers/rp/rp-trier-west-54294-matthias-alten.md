@@ -3,7 +3,7 @@ slug: rp-trier-west-54294-matthias-alten
 name: Matthias Alten
 trader_type: schrotthaendler
 state: RP
-city: Trier-West 54294
+city: 'Trier-West'
 street: Andreas-Hoevel-Str. 6
 postcode: 54294
 phone: 0651 84609
@@ -52,3 +52,7 @@ Die Seed-Zuordnung bleibt widersprüchlich: Andreas-Hoevel-Str. 6, 54294 Trier-W
 ### Korrektur 18.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 18.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers **Bürgeramt Trier, 20, Viehmarktplatz, 54290 Trier** (node/985070) und damit rund 1,1 km von der Lead-Adresse **Andreas-Hoevel-Str. 6, 54294 Trier** entfernt — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ — die Adresse selbst ist ein **Verzeichnislead** ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (`https://nominatim.openstreetmap.org/reverse?format=json&zoom=18` ✓ ✓ mit den Koordinaten aus der Notiz der Welle ✓ ✓, Abruf 18.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Trier-West 54294** ✓✓ stand dort **mit** der Postleitzahl **54294** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Matthias Alten** ✓✓, Straße **Andreas-Hoevel-Str. 6** ✓✓ ✓✓]

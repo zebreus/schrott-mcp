@@ -3,7 +3,7 @@ slug: sn-kirchberg-08107-containerdienst-kaminski-sohn
 name: Containerdienst Kaminski & Sohn GbR
 trader_type: containerdienst
 state: SN
-city: Kirchberg 08107
+city: 'Kirchberg'
 street: Auerbacher Straße 70A
 postcode: '08107'
 phone: ''
@@ -59,3 +59,7 @@ aus dem kommunalen Kontaktpersonfeld ableiten.
 
 - Container/Schrott
 - Adresse: Kirchberg 08107, Auerbacher Str. 70A
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Kirchberg 08107** ✓✓ stand dort **mit** der Postleitzahl **08107** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Containerdienst Kaminski & Sohn GbR** ✓✓, Straße **Auerbacher Straße 70A** ✓✓ ✓✓]

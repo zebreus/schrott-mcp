@@ -3,7 +3,7 @@ slug: sn-bad-lausick-04651-jobst-metallhandel
 name: Timo Jobst Metallhandel
 trader_type: metallhaendler
 state: SN
-city: Bad Lausick 04651
+city: 'Bad Lausick'
 street: Beuchaer Oberweg 17
 postcode: '04651'
 phone: '034345 57860'
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: Kein Betreiber-Beleg zu „Jobst Metallhandel“, Beuchaer Oberweg 17, Bad Lausick auffindbar (Suche von JOBST-Kompressionsmarke überlagert, DDG ratenlimitiert); keine Fills, weiter pruefung; Quelle(n): keine belegfähige Quelle]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Bad Lausick 04651** ✓✓ stand dort **mit** der Postleitzahl **04651** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Timo Jobst Metallhandel** ✓✓, Straße **Beuchaer Oberweg 17** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: by-elsenfeld-63820-schmuck-filbert
 name: Schmuck Filbert
 trader_type: sonstige
 state: BY
-city: Elsenfeld 63820
+city: 'Elsenfeld'
 street: 'Marienstraße 16'
 postcode: '63820'
 phone: '06022 649191'
@@ -44,3 +44,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   **Kontrolle und Abgrenzung:** Die Standortsuche mit validiertem `adr=`-Parameter (Marienstraße 16, 63820 Elsenfeld) liefert im 3-km-Radius 11 und im 10-km-Radius 34 Treffer; nächstgelegen `Krall Kunststoff-Recycling GmbH`, Glanzstoffstraße 21, 63820 Elsenfeld (`ZZET01600071 / 1`), 0,4 km, danach `Schuck Aushub- und Abriss GmbH` und `Schuck Container Recycling GmbH`, Zwischen den Wegen 15, 63820 Elsenfeld (`ZZFT01200061 / 1` und `/ 2` bzw. `ZZFT01200060 / 1` bis `/ 4`), 1,4 km — **Fremdbetriebe am selben Ort, nicht übernommen**. Die Namenssuche `n=„Filbert“` ergibt 0 Treffer (in beiden Routen). Die Route „Altfahrzeugverwertung“ liefert im 3-km-Radius 0 und im 10-km-Radius 1 Treffer (`Wüst Abschleppdienst GmbH`, Philipp-Kachel-Straße 42, 63911 Klingenberg am Main, `ZARS00700017 / 1`, 9,7 km) — Fremdbetrieb.
   **Reichweite der Registerabfrage (Abruf 04.11.2026, clientseitig gerenderte Vaadin-App; Filter „Art des Betriebs = Egal“ durchgehend is=1&e=1; Namenssuche dst=10; Standortsuche mit PLZ-validiertem adr=Parameter, Radien 3 km und 10 km; Ergebnisgrid vollständig durchscrollt):** Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Marienstraße 16, 63820 Elsenfeld, Deutschland“ dst=10 (is=1, e=1) → 1 Treffer; Route „Altfahrzeugverwertung“ Standortsuche mit validiertem adr=„Marienstraße 16, 63820 Elsenfeld, Deutschland“ dst=3 (is=1, e=1) → 0 Treffer; Route „Altfahrzeugverwertung“ Namenssuche n=„Filbert“ (dst=10, is=1, e=1) → 0 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Marienstraße 16, 63820 Elsenfeld, Deutschland“ dst=10 (is=1, e=1) → 34 Treffer; Route „Entsorgungsfachbetriebe“ Standortsuche mit validiertem adr=„Marienstraße 16, 63820 Elsenfeld, Deutschland“ dst=3 (is=1, e=1) → 11 Treffer; Route „Entsorgungsfachbetriebe“ Namenssuche n=„Filbert“ (dst=10, is=1, e=1) → 0 Treffer.
   Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/adr=…&dst=3&is=1&e=1 ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Filbert (Abruf 04.11.2026). Reichweite: die Efb- und die AltfahrzeugV-Anerkennung sind **freiwillig**; ein Register-Nichteintrag ist **kein** Nachweis, dass ein Betrieb keine Anerkennung besitzt]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Elsenfeld 63820** ✓✓ stand dort **mit** der Postleitzahl **63820** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schmuck Filbert** ✓✓, Straße **Marienstraße 16** ✓✓ ✓✓]

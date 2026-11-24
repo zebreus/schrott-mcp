@@ -3,7 +3,7 @@ slug: mv-waren-17192-smurfit-kappa-nl-waren
 name: Smurfit Kappa NL Waren
 trader_type: sonstige
 state: MV
-city: Waren 17192
+city: 'Waren'
 street: Warendorfer Str. 7
 postcode: '17192'
 phone: +49 3991 7440
@@ -53,3 +53,7 @@ Recycling-Standorte in Hamburg und Mülheim läuft. Zahlenpreise werden nicht ve
 ### Geokodierung 31.10.2026
 
 - [31.10.2026 (Geokodierung): **keine Koordinate geändert**: die Dossier-Hausnummer 7 existiert auf der Warendorfer Straße in OSM **nicht** - das live vorhandene Nummernband der Straße reicht von 1 bis 20 und enthält weder 7 noch 5 (der Seed nannte „Warendorfer Str. 5“). Quelle 1 (OSM): kein Adressobjekt; das betriebsnamende Objekt way/104802935 trägt **keine** `addr:*`-Tags und ist über die verlinkte Standortseite der betrieblichen Adresse zugeordnet. Quelle 2 (Betreiber): die Standortseite „Smurfit Westrock Wellpappenwerk Waren GmbH“ nennt „Warendorfer Str. 7, 17192 Waren“ - die Adresse ist betreiberseitig belegt, ein Objektpunkt der Nummer 7 existiert nicht; der gespeicherte Produktionspunkt 53.5469182/12.7743000 liegt rund 8,7 km entfernt und wird nicht übernommen. Quelle(n): https://api.openstreetmap.org/api/0.6/way/104802935.json ; https://www.smurfitkappa.com/de/locations (Abruf 31.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Waren 17192** ✓✓ stand dort **mit** der Postleitzahl **17192** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Smurfit Kappa NL Waren** ✓✓, Straße **Warendorfer Str. 7** ✓✓ ✓✓]

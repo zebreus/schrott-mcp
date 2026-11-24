@@ -3,7 +3,7 @@ slug: rp-mainz-55129-reingold
 name: Reingold
 trader_type: sonstige
 state: RP
-city: Mainz 55129
+city: 'Mainz'
 street: Alte Mainzer Str. 21
 postcode: '55129'
 lat: 49.9621082
@@ -48,3 +48,7 @@ provenance_origin: table
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Gelbe-Seiten-Detailseite führt als Verzeichnisangabe Reingold Goldankauf, Alte Mainzer Str. 21, 55129 Mainz-Hechtsheim, Tel. 06131 6367556, Mo–Fr 10–18 / Sa 10–13. Das am Abrufdatum sichtbare Listing ist keine Betreiberbestätigung; die genannte Domain reingold-eltville.de war beim Direktabruf nicht erreichbar (kein Beleg für Geschäftsaufgabe). Daher weiterhin kein Frontmatter-Fill. ANKAUF: Goldankauf nur als Verzeichnisbeschreibung, keine numerischen Ankaufkurse/Feingehaltsstaffel; VERKAUF: keine Preisliste; GEBÜHREN: keine Angaben gefunden. Offen: Betreiber/Rechtsträger, aktuelle Erreichbarkeit/Adresse und verbindliche Ankaufbedingungen. Quelle(n): https://www.gelbeseiten.de/gsbiz/78cadd0b-c477-4369-b93a-be41b94456c2; https://reingold-eltville.de/ (Direktabruf ohne verwertbare Antwort)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Mainz 55129** ✓✓ stand dort **mit** der Postleitzahl **55129** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Reingold** ✓✓, Straße **Alte Mainzer Str. 21** ✓✓ ✓✓]

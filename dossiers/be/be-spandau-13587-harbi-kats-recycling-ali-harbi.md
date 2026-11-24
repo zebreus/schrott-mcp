@@ -3,7 +3,7 @@ slug: be-spandau-13587-harbi-kats-recycling-ali-harbi
 name: Harbi Kats Recycling (Ali Harbi)
 trader_type: sonstige
 state: BE
-city: Spandau 13587
+city: 'Spandau'
 street: Rauchstraße 43
 postcode: '13587'
 phone: ''
@@ -48,3 +48,7 @@ Quelle noch einen Register- oder Impressumsnachweis mit Rechtsform, und zu Ankau
 - Adresse: Spandau 13587, Rauchstr. 43
 - Bezirk: Spandau Adressbeleg: harbi-kats.de Impressum + Kleinanzeigen (be.md Wide-Net; Kat-Ankauf)
 - Adressbeleg: https://harbi-kats.de
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Spandau 13587** ✓✓ stand dort **mit** der Postleitzahl **13587** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Harbi Kats Recycling (Ali Harbi)** ✓✓, Straße **Rauchstraße 43** ✓✓ ✓✓]

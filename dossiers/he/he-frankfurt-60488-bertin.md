@@ -3,7 +3,7 @@ slug: he-frankfurt-60488-bertin
 name: Bertin GmbH
 trader_type: sonstige
 state: HE
-city: Frankfurt 60488
+city: 'Frankfurt'
 street: Heerstraße 149
 postcode: '60488'
 phone: ''
@@ -60,3 +60,7 @@ Die exakte Bertin GmbH mit Frankfurter Standort 60488 ist primärseitig und durc
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 24.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **4,24 km** von **way/44147707** ✓✓ entfernt — er trifft **Senckenberganlage, 30, Senckenberganlage, Westend Süd, Innenstadt 2, Frankfurt am Main, Hessen, 60325, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt auf einem anderen Frankfurter Objekt ✓✓ ✓ ✓ Die **Adresse** ✓✓ **Heerstraße 149** ✓✓ ruht allein im **Seed** ✓✓ ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Frankfurt 60488** ✓✓ stand dort **mit** der Postleitzahl **60488** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Bertin GmbH** ✓✓, Straße **Heerstraße 149** ✓✓ ✓✓]

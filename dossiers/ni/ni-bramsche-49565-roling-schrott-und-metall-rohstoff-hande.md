@@ -5,7 +5,7 @@ lon: 8.0621681
 name: Roling Schrott und Metall / Rohstoff Handel Detlef
 trader_type: schrotthaendler
 state: NI
-city: Bramsche 49565
+city: 'Bramsche'
 street: Venner Str. 10
 postcode: '49565'
 phone: 0173 8459916
@@ -75,3 +75,7 @@ Der Verzeichniskonsens führt „Roling – Schrott und Metall / Rohstoff Handel
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate belegt: `lat`/`lon` = 52.3900869/8.0621681.** Für den Dossier-Eintrag **Roling Schrott und Metall / Rohstoff Handel Detlef** trägt das OSM-Objekt way/179935924 (`addr:housenumber`=10, `addr:street`=Venner Straße, `addr:postcode`=49565, `addr:city`=Bramsche) die Dossier-Adresse **Venner Str. 10, 49565 Bramsche 49565** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 52.3900286/8.0620711 bis 52.3901451/8.0622651). Quelle(n): https://api.openstreetmap.org/api/0.6/way/179935924/full.json ; https://nominatim.openstreetmap.org/search?q=Venner+Str.+10%2C+49565+Bramsche&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Venner+Str.+10&postalcode=49565&city=Bramsche&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Bramsche 49565** ✓✓ stand dort **mit** der Postleitzahl **49565** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Roling Schrott und Metall / Rohstoff Handel Detlef** ✓✓, Straße **Venner Str. 10** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: rp-trier-54290-kratz-pfandkredithaus
 name: Kratz Pfandkredithaus
 trader_type: sonstige
 state: RP
-city: Trier 54290
+city: 'Trier'
 street: Bruchhausenstraße 1
 postcode: 54290
 phone: 0651-99487755
@@ -50,3 +50,7 @@ provenance_origin: table
 - [Recherche 30.10.2026: **OSM-Abgleich der Filialadresse Bruchhausenstraße 1.** Die Straße "Bruchhausenstraße" in Trier besteht in OSM aus den fünf Ways way/10475148, way/200890470, way/286085872, way/364963189 und way/518514582. Im Rasterfenster **6.6359513/49.7572452 bis 6.6415576/49.7636149** (Way-Union-BBox plus 0,002 Grad Rand) liegen dort **36 Adressobjekte / 34 verschiedene Hausnummern** (1 bis 23 einschließlich der Zusatznummern 3a, 6a, 10, 11a, 12a, 13a, 14a, 16a, 19a, 19b, 21;22 und 22 A; die Bereichs- und Sammelnotationen wurden einzeln aufgeloest). Für die Hausnummer 1 existiert genau ein Objekt, **way/136505430**, mit den Tags `addr:street=Bruchhausenstraße`, `addr:housenumber=1`, `addr:city=Trier`, `addr:country=DE`, `addr:postcode=54290`, `building=apartments`, `building:levels=3`, `roof:shape=gambrel`, `roof:levels=2`. Kein Objekt im Raster trägt einen Betreiber-`name=` oder `operator=` mit Bezug zur **Pfandkredit Kratz**. Quelle(n): https://api.openstreetmap.org/api/0.6/map.json (bbox-Raster, Abruf 30.10.2026); https://api.openstreetmap.org/api/0.6/way/136505430.json]
 
 - [30.10.2026 (Korrekturvermerk): **Negativaussage zu Pfandkredit Kratz individualisiert**: im Raster bbox=6.6359513,49.7572452,6.6415576,49.7636149 tragen 383 Objekte ein `name=` oder `operator=`; Objekte mit Bezug zu Pfandkredit Kratz: **0**. Die Aussage gilt damit **nur** für Objekte mit Bezug zu diesem Betrieb (nicht für den gesamten Raster). Quelle(n): https://api.openstreetmap.org/api/0.6/map.json?bbox=6.6359513,49.7572452,6.6415576,49.7636149 (Nachmessung 30.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Trier 54290** ✓✓ stand dort **mit** der Postleitzahl **54290** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Kratz Pfandkredithaus** ✓✓, Straße **Bruchhausenstraße 1** ✓✓ ✓✓]

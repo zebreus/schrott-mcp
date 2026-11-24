@@ -5,7 +5,7 @@ lon: 11.6036692
 name: Autoverwertung Rottegger GmbH
 trader_type: autoverwertung
 state: BY
-city: Garching-Hochbrück 85748
+city: 'Garching-Hochbrück'
 street: Ingolstädter Landstraße 18
 postcode: '85748'
 phone: 089 / 315 05 98
@@ -60,3 +60,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.2503198/11.6036692.** Für den Dossier-Eintrag **Autoverwertung Rottegger GmbH** benennt das OSM-Objekt way/537173206 (`name`=Autoverwertung Rottegger GmbH, `landuse`=industrial, `industrial`=scrap_yard, `website`=https://www.autoverwertung-rottegger.de/) den Betrieb selbst (**Autoverwertung Rottegger GmbH**); es liegt unmittelbar an der Dossier-Straße **Ingolstädter Landstraße 18**, ohne eine der Dossier-Hausnummer entsprechende Adresszuordnung. Der Punkt ist deshalb der **Betriebspunkt** und nicht ein Adressmittelpunkt (der Punkt ist das Mittel der eindeutigen Knoten, BBox 48.2490838/11.6016387 bis 48.2516465/11.6044579). Die Dossier-Hausnummer 18 ist in OSM nicht mit Adress-Tags erfasst; das Objekt liegt 0,4 m von der Achse der Dossier-Straße Ingolstädter Landstraße entfernt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/537173206/full.json (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Garching-Hochbrück 85748** ✓✓ stand dort **mit** der Postleitzahl **85748** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoverwertung Rottegger GmbH** ✓✓, Straße **Ingolstädter Landstraße 18** ✓✓ ✓✓]

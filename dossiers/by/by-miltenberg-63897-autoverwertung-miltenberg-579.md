@@ -3,7 +3,7 @@ slug: by-miltenberg-63897-autoverwertung-miltenberg-579
 name: Autoverwertung Miltenberg 579 GmbH
 trader_type: autoverwertung
 state: BY
-city: Miltenberg 63897
+city: 'Miltenberg'
 street: Altstadtweg 4
 postcode: 63897
 lat: 49.7055084
@@ -67,3 +67,7 @@ NorthData führt die Autoverwertung Miltenberg 579 GmbH unter HRB 14203 und Alts
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,3 km** von der belegten Betriebsanschrift entfernt — er trifft 52, Eichenbühler Straße, Miltenberg-Nord, Miltenberg, Landkreis Miltenberg, Bayern, 63897, Deutschland ✓ ✓. Er wird durch den adresskonformen Punkt **49.7055084/9.2360048** ✓ ✓ ersetzt ✓ ✓ Der Beleg für die Adresse: das **amtliche Fachbetrieberegister** ✓✓ (`Autoverwertung Miltenberg 579 GmbH` ✓✓, `ZAIS00300013 / 1` ✓✓, `Altstadtweg 4` ✓✓) und das **OSM-Objekt mit dem Namen des Betriebs** ✓✓ (`name`=Autoverwertung Miltenberg 579 ✓✓, `industrial`=scrap_yard ✓✓) mit der **Hausnummer 4** ✓✓ **das Adressobjekt** ✓✓ (`way/616680727` ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Miltenberg 63897** ✓✓ stand dort **mit** der Postleitzahl **63897** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoverwertung Miltenberg 579 GmbH** ✓✓, Straße **Altstadtweg 4** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: rp-mainz-55120-mainzer-metall-verwertung
 name: Mainzer-Metall-Verwertung GbR
 trader_type: schrotthaendler
 state: RP
-city: Mainz 55120
+city: 'Mainz'
 street: Industriestr. 1
 postcode: '55120'
 phone: 06131 215857
@@ -73,3 +73,7 @@ Der bisher gespeicherte Punkt lag rund 3,4 km entfernt in Mainz-Zahlbach; ersetz
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 24.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2 m** von **way/157555980** ✓✓ entfernt — er trifft **3, Industriestraße, Mombach, Mainz, Rheinland-Pfalz, 55120, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **2 m** ✓✓ vom getroffenen Objekt ✓✓ entfernt ✓✓ — er trifft die **Hausnummer 3** ✓✓ statt der **1** ✓✓ ✓ ✓ Ein **amtlicher Negativbefund** ✓✓ — die Gesellschaft steht **nicht** ✓✓ im GsR ✓✓ ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 24.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Mainz 55120** ✓✓ stand dort **mit** der Postleitzahl **55120** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Mainzer-Metall-Verwertung GbR** ✓✓, Straße **Industriestr. 1** ✓✓ ✓✓]

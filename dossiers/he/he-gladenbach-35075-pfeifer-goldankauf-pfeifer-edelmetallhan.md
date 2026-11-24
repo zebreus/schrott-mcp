@@ -3,7 +3,7 @@ slug: he-gladenbach-35075-pfeifer-goldankauf-pfeifer-edelmetallhan
 name: Pfeifer (Goldankauf Pfeifer Edelmetallhandel)
 trader_type: metallhaendler
 state: HE
-city: Gladenbach 35075
+city: 'Gladenbach'
 street: Marktplatz 1
 postcode: 35075
 phone: 06462 9414671
@@ -68,3 +68,7 @@ Die bisherigen Nachweise für „Goldankauf Pfeifer Edelmetallhandel“ in Markt
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 24.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der Punkt liegt **0,03 km** ✓✓ vom Adressobjekt entfernt ✓✓ (node/1941133679 ✓✓) ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Gladenbach 35075** ✓✓ stand dort **mit** der Postleitzahl **35075** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Pfeifer (Goldankauf Pfeifer Edelmetallhandel)** ✓✓, Straße **Marktplatz 1** ✓✓ ✓✓]

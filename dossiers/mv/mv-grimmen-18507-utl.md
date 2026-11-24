@@ -3,7 +3,7 @@ slug: mv-grimmen-18507-utl
 name: UTL GmbH
 trader_type: sonstige
 state: MV
-city: Grimmen 18507
+city: 'Grimmen'
 street: An den Kammern 3
 postcode: 18507
 phone: 038326/2257
@@ -40,3 +40,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Recherche 01.10.2026
 
 - [Recherche 01.10.2026: MISS — kein Grimmen-Bezug belegbar; UTL-Treffer nur namensgleiche Logistik-/Bahnunternehmen ohne Grimmen-Bezug; kein Betreiber-/Register-Beleg; kein Frontmatter-Fill; Quelle(n): Bing-Gegenrecherche 01.10.2026 (nur namensgleiche Fremdtreffer: utl-gmbh.de, utl-logistik.de)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Grimmen 18507** ✓✓ stand dort **mit** der Postleitzahl **18507** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **UTL GmbH** ✓✓, Straße **An den Kammern 3** ✓✓ ✓✓]

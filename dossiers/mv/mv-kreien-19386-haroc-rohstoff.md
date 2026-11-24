@@ -3,7 +3,7 @@ slug: mv-kreien-19386-haroc-rohstoff
 name: HAROC Rohstoff GmbH
 trader_type: sonstige
 state: MV
-city: Kreien 19386
+city: 'Kreien'
 street: Wilsener Chaussee 1
 postcode: '19386'
 phone: +49 38733229027
@@ -42,3 +42,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - HAROC-Impressum re-verifiziert (Einzelbeleg, unsicher): Wilsener Chaussee 1, 19386 Kreien, HRB 113556 AG Schwerin; kein Frontmatter-Fill (Single-Source, Telefon bleibt draußen per Vorbefund-Vorgabe).
 - Gelbe Seiten / Das Örtliche ohne HAROC-Treffer in Kreien.
 - Quelle: https://haroc.de/imprint.html
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Kreien 19386** ✓✓ stand dort **mit** der Postleitzahl **19386** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **HAROC Rohstoff GmbH** ✓✓, Straße **Wilsener Chaussee 1** ✓✓ ✓✓]

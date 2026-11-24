@@ -3,7 +3,7 @@ slug: th-fambach-98597-kumpel-gerald-u-mario-altmetall-brennsto
 name: Kümpel Gerald u. Mario Altmetall-/Brennstoffhandel/Containerdienst
 trader_type: containerdienst
 state: TH
-city: Fambach 98597
+city: 'Fambach'
 street: 'Am Wasser 7'
 postcode: '98597'
 phone: 036848 31489
@@ -51,3 +51,7 @@ Das Örtliche, Gelbe Seiten und weitere Verzeichnisse führen Kümpel Gerald u. 
 ### Korrektur 20.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 20.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **645 m** von der belegten Anschrift **Am Wasser 7, 98597 Fambach** entfernt ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 20.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Fambach 98597** ✓✓ stand dort **mit** der Postleitzahl **98597** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Kümpel Gerald u. Mario Altmetall-/Brennstoffhandel/Containerdienst** ✓✓, Straße **Am Wasser 7** ✓✓ ✓✓]

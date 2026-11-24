@@ -3,7 +3,7 @@ slug: he-gro-umstadt-kleestadt-64823-willefuhr-fredy-containerdienst
 name: Willeführ Fredy Containerdienst
 trader_type: containerdienst
 state: HE
-city: Groß-Umstadt/Kleestadt 64823
+city: 'Groß-Umstadt/Kleestadt'
 street: Friedrich-Ebert-Str. 18
 postcode: 64823
 phone: ''
@@ -112,3 +112,7 @@ und der Koordinatenpunkt liegt rund 18,6 km vom Adresspunkt entfernt.
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **18,6 km** vom Adressobjekt **Friedrich-Ebert-Straße 18, 64823 Groß-Umstadt** (way/797707072, `addr:housenumber`=18) entfernt — er trifft **Fürthweg, 64367 Traisa** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **18,6 km** entfernt in einem anderen Ortsteil ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Groß-Umstadt/Kleestadt 64823** ✓✓ stand dort **mit** der Postleitzahl **64823** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Willeführ Fredy Containerdienst** ✓✓, Straße **Friedrich-Ebert-Str. 18** ✓✓ ✓✓]

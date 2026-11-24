@@ -3,7 +3,7 @@ slug: mv-demen-19089-autoverwertung-kort
 name: Autoverwertung Kort GbR
 trader_type: autoverwertung
 state: MV
-city: Demen 19089
+city: 'Demen'
 street: Crivitzer Chaussee 5
 postcode: 19089
 phone: 038488 20210
@@ -69,3 +69,7 @@ Die Seed-Zeile benennt Autoverwertung Kort GbR und den als GESA-Demontagebetrieb
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **5,4 km** vom Adressobjekt **Crivitzer Chaussee 5, 19089 Demen** (way/718466113, `addr:housenumber`=5) entfernt — er trifft **58, Fritz-Reuter-Straße, 19089 Demen** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft ein anderes Haus in demselben Ort ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ mit der **Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Demen 19089** ✓✓ stand dort **mit** der Postleitzahl **19089** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoverwertung Kort GbR** ✓✓, Straße **Crivitzer Chaussee 5** ✓✓ ✓✓]

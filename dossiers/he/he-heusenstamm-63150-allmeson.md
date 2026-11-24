@@ -3,7 +3,7 @@ slug: he-heusenstamm-63150-allmeson
 name: Allmeson GmbH
 trader_type: metallhaendler
 state: HE
-city: Heusenstamm 63150
+city: 'Heusenstamm'
 street: Ottostraße 9-11
 postcode: '63150'
 phone: +49 6104 4059-80
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - Metallhandel
 - Adresse: Heusenstamm 63150
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Heusenstamm 63150** ✓✓ stand dort **mit** der Postleitzahl **63150** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Allmeson GmbH** ✓✓, Straße **Ottostraße 9-11** ✓✓ ✓✓]

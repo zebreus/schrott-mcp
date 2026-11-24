@@ -3,7 +3,7 @@ slug: he-babenhausen-64832-ries-peter
 name: Ries Peter
 trader_type: schrotthaendler
 state: HE
-city: Babenhausen 64832
+city: 'Babenhausen'
 street: Feldbergstr. 10
 postcode: '64832'
 lat: 49.9382349
@@ -78,3 +78,7 @@ Peter Ries Schrotthandel, Feldbergstraße 10, 64832 Babenhausen, 06073 61957 ist
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 24.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der Punkt liegt **objektgenau** ✓✓ auf dem Adressobjekt ✓✓ (Feldbergstraße **10** ✓✓, node/1474520826 ✓✓) ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Babenhausen 64832** ✓✓ stand dort **mit** der Postleitzahl **64832** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Ries Peter** ✓✓, Straße **Feldbergstr. 10** ✓✓ ✓✓]

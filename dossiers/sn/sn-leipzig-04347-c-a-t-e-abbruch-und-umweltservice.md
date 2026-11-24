@@ -5,7 +5,7 @@ lon: 12.4444102
 name: C.A.T.E. Abbruch und Umweltservice GmbH
 trader_type: sonstige
 state: SN
-city: Leipzig 04347
+city: 'Leipzig'
 street: Rostocker Str. 110
 postcode: '04347'
 phone: +49 341-6512072
@@ -49,3 +49,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate belegt: `lat`/`lon` = 51.3642594/12.4444102.** Für den Dossier-Eintrag **C.A.T.E. Abbruch und Umweltservice GmbH** trägt das OSM-Objekt way/333413658 (`addr:housenumber`=110, `addr:street`=Rostocker Straße, `addr:postcode`=04347, `addr:city`=Leipzig) die Dossier-Adresse **Rostocker Str. 110, 04347 Leipzig 04347** mit der passenden Hausnummer; das Objekt führt keinen Betriebsnamen, der Punkt ist deshalb der **Adressmittelpunkt** (der Punkt ist das Mittel der eindeutigen Knoten, BBox 51.3641717/12.4443151 bis 51.3643472/12.4445053). Quelle(n): https://api.openstreetmap.org/api/0.6/way/333413658/full.json ; https://nominatim.openstreetmap.org/search?q=Rostocker+Str.+110%2C+04347+Leipzig&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=Rostocker+Str.+110&postalcode=04347&city=Leipzig&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Leipzig 04347** ✓✓ stand dort **mit** der Postleitzahl **04347** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **C.A.T.E. Abbruch und Umweltservice GmbH** ✓✓, Straße **Rostocker Str. 110** ✓✓ ✓✓]

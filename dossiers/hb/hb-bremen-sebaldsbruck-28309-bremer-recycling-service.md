@@ -3,7 +3,7 @@ slug: hb-bremen-sebaldsbruck-28309-bremer-recycling-service
 name: Bremer Recycling Service
 trader_type: schrotthaendler
 state: HB
-city: Bremen-Sebaldsbrück 28309
+city: 'Bremen-Sebaldsbrück'
 street: Sebaldsbrücker Heerstr. 162
 postcode: '28309'
 phone: 01573 7775391
@@ -47,3 +47,7 @@ Die Marken-Website `bremer-recycling-service.de` ist die Betreiber-Primärquelle
 ### Recherche 07.10.2026
 
 - [Recherche 07.10.2026: Die markeneigene Website https://www.bremer-recycling-service.de/ ist erreichbar und bewirbt Haushaltsauflösung, Entrümpelung und Schrottabholung. Ihr ausgeliefertes JavaScript-Bundle (https://www.bremer-recycling-service.de/static/js/main.3eadf2b3.js) ordnet „Bremer Recycling Service“ Adil Altun, c/o HQ Bremen Airport, Flughafenallee 26, 28199 Bremen, Tel. 01573 7775391 zu. Gelbe Seiten führt Sebaldsbrücker Heerstr. 162, 28309 und Tel. 0157 37775391; die Nummer ist identisch, die Anschriften weichen ab. Das ist ein Kontakt-/Identitätssignal, aber keine geprüfte Impressum/Registerkette und kein Filialbeleg, der c/o-Adresse und Betriebsanschrift verknüpft. Adresse deshalb nicht geändert. Keine numerischen Ankaufspreise, Verkaufspreise oder Gebühren ausgewiesen. Quelle(n): https://www.bremer-recycling-service.de/ ; https://www.bremer-recycling-service.de/static/js/main.3eadf2b3.js ; https://www.gelbeseiten.de/gsbiz/87f59704-c7cd-48e0-a448-2e937628bd14]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Bremen-Sebaldsbrück 28309** ✓✓ stand dort **mit** der Postleitzahl **28309** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Bremer Recycling Service** ✓✓, Straße **Sebaldsbrücker Heerstr. 162** ✓✓ ✓✓]

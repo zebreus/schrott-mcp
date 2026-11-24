@@ -3,7 +3,7 @@ slug: he-hanau-63456-sr-stainless-recycling
 name: SR Stainless Recycling GmbH (Metallum Stainless GmbH)
 trader_type: metallhaendler
 state: HE
-city: Hanau 63456
+city: 'Hanau'
 street: Dieselstr. 12
 postcode: 63456
 phone: +49 6181 7023407
@@ -43,3 +43,7 @@ enthält.
 
 - Metallhandel, evtl. Edelstahl/SR-Gruppe
 - Adresse: Hanau 63456
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Hanau 63456** ✓✓ stand dort **mit** der Postleitzahl **63456** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **SR Stainless Recycling GmbH (Metallum Stainless GmbH)** ✓✓, Straße **Dieselstr. 12** ✓✓ ✓✓]

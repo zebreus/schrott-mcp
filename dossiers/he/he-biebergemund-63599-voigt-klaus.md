@@ -3,7 +3,7 @@ slug: he-biebergemund-63599-voigt-klaus
 name: Voigt Klaus
 trader_type: schrotthaendler
 state: HE
-city: Biebergemünd 63599
+city: 'Biebergemünd'
 street: Breitenborner Str. 16
 postcode: '63599'
 lat: 50.179162
@@ -69,3 +69,7 @@ Mehrere Branchenportale führen „Schrotthandel Klaus Voigt“ an Breitenborner
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 24.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der Punkt liegt **objektgenau** ✓✓ auf dem adressierten Objekt ✓✓ (Breitenborner Straße **16** ✓✓, node/9725127405 ✓✓) ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 24.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Biebergemünd 63599** ✓✓ stand dort **mit** der Postleitzahl **63599** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Voigt Klaus** ✓✓, Straße **Breitenborner Str. 16** ✓✓ ✓✓]

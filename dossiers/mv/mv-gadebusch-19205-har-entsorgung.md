@@ -3,7 +3,7 @@ slug: mv-gadebusch-19205-har-entsorgung
 name: Kieswerk Harder GmbH & Co. KG
 trader_type: sonstige
 state: MV
-city: Gadebusch 19205
+city: 'Gadebusch'
 street: Reinhardtsdorf 2a
 postcode: 19205
 phone: 03886 712651
@@ -80,3 +80,7 @@ Registerhistorie und aktueller Betreiberauftritt klären die Rechtsnachfolge bes
   https://kieswerk-harder.de/impressum ;
   https://www.northdata.de/Kieswerk%20Harder%20GmbH%20%26%20Co%C2%B7%20KG,%20Gadebusch/Amtsgericht%20Schwerin%20HRA%204373
   (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Gadebusch 19205** ✓✓ stand dort **mit** der Postleitzahl **19205** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Kieswerk Harder GmbH & Co. KG** ✓✓, Straße **Reinhardtsdorf 2a** ✓✓ ✓✓]

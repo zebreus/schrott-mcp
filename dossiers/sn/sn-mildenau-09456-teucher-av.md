@@ -3,7 +3,7 @@ slug: sn-mildenau-09456-teucher-av
 name: Teucher AV
 trader_type: autoverwertung
 state: SN
-city: Mildenau 09456
+city: 'Mildenau'
 street: Steinbacher Straße 1
 postcode: '09456'
 phone: 037343 7377
@@ -55,3 +55,7 @@ Der Seed bezeichnet eine „Teucher AV“ in Mildenau und überliefert Steinbach
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers bleibt unverändert ✓ ✓ — Der Punkt trifft **nicht** die belegte Anschrift ✓✓ — die Distanz beträgt **5112 m** ✓✓ Der **Registereintrag** ✓✓ fehlt ✓✓ Der Punkt bleibt ein **Platzhalter** ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Mildenau 09456** ✓✓ stand dort **mit** der Postleitzahl **09456** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Teucher AV** ✓✓, Straße **Steinbacher Straße 1** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: mv-kreien-19386-rk-recycling-kreien
 name: RK Recycling Kreien GmbH
 trader_type: sonstige
 state: MV
-city: Kreien 19386
+city: 'Kreien'
 street: Wilsener Chaussee 1
 postcode: '19386'
 phone: ''
@@ -59,3 +59,7 @@ An der Wilsener Chaussee 1, 19386 Kreien ist im amtlichen Fachbetrieberegister g
 
 - [Recherche 20.11.2026: Das amtliche Fachbetrieberegister (live am 20.11.2026) fuehrt an der `Wilsener Chaussee 1, 19386 Kreien` weiterhin nur die `Haroc Rohstoff GmbH` mit der Vorgangsnummer `ZZMT00400163` und den Taetigkeiten Lagern und Behandeln sowie Handeln und Makeln, im weiteren Umkreis die `ALBA Nord GmbH` in Rom (9,5 km) und die `Martins Schrotthandel und Containerdienst` in Luebz (9,5 km); die Namenssuche Recycling mit der Adressangabe Wilsener Chaussee 1 liefert in der Route Altfahrzeugverwertung 0 Treffer, und eine Efb-Anerkennung der `RK Recycling Kreien GmbH` ist nicht verzeichnet. Reichweite: die Efb-Anerkennung ist freiwillig, ein Register-Nichteintrag ist kein Nichtexistenz- und kein Schliessungsbeweis; die geteilte Anschrift mit HAROC bleibt damit weiterhin ungeklaert. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&adr=Wilsener+Chaussee+1%2C+19386+Kreien ; https://schrottregister.pages.dev/ort-kreien (Abruf 20.11.2026).]
 - [Recherche 20.11.2026: Ein weiterer Verzeichniseintrag liefert neue Kontakt- und Personenspuren zum Dossiernamen: das B2B-Verzeichnis `itsbetter.com` fuehrt `RK Recycling Kreien GmbH` in der `Wilsener Chaussee 1, 19386 Kreien` mit der Telefonnummer `+49 3873320012` und der E-Mail-Adresse `info@rkkunststoffe.de` und nennt als Ansprechpartner `Mathias Schnitzer` mit denselben Kontaktdaten; die Seite kennzeichnet die Daten ausdruecklich als recherchiert und ohne Gewaehr und ist damit ein Lead, kein Betaetiger- oder Registerbeleg. Die bisher notierte Nummer `038733 20012` und die neue Nummer `038733 20001` weichen voneinander ab, ebenso ist der Domain `rkkunststoffe.de` im Dossier seit dem 30.09.2026 als nicht aufloesbar dokumentiert. **Ankauf:** keine Zahlen und keine Annahmebedingungen belegt. **Verkauf:** keine Preisliste. **Gebuehren:** keine Tarife. `street`, `postcode`, `phone`, `email` und `website` bleiben unveraendert leer, `status` bleibt pruefung, es wird keine Schliessung behauptet. Quelle(n): https://`itsbetter.com`/firmeneintrag/rk-recycling-kreien-gmbh/ (Abruf 20.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Kreien 19386** ✓✓ stand dort **mit** der Postleitzahl **19386** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **RK Recycling Kreien GmbH** ✓✓, Straße **Wilsener Chaussee 1** ✓✓ ✓✓]

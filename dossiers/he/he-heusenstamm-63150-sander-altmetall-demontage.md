@@ -3,7 +3,7 @@ slug: he-heusenstamm-63150-sander-altmetall-demontage
 name: Sander Altmetall & Demontage
 trader_type: schrotthaendler
 state: HE
-city: Heusenstamm 63150
+city: 'Heusenstamm'
 street: Philipp-Reis-Str. 4-8
 postcode: '63150'
 lat: 50.0498023
@@ -62,3 +62,7 @@ Die **Betreiber-Primärquelle** `sander-altmetall.de` trägt den Betrieb: Impres
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.0498023/8.797021.** Das OSM-Objekt node/1330554370 trägt `addr:housenumber`=4-8, `addr:street`=Philipp-Reis-Straße, `addr:postcode`=63150, `addr:city`=Heusenstamm. Dasselbe Objekt trägt `name`=Sammlungsdepot des Museums für Kommunikation Frankfurt, `operator`=Museum für Kommunikation. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt trägt den Namen "Sammlungsdepot des Museums für Kommunikation Frankfurt", nicht den Dossiernamen; die Zuordnung stützt sich allein auf Hausnummer und Straße. Der Operator lautet "Museum für Kommunikation"; der Dossierbetrieb ist damit namentlich nicht am Objekt belegt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/1330554370.json ; https://nominatim.openstreetmap.org/search?q=Philipp-Reis-Str.%204-8%2C%2063150%20Heusenstamm&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Heusenstamm 63150** ✓✓ stand dort **mit** der Postleitzahl **63150** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Sander Altmetall & Demontage** ✓✓, Straße **Philipp-Reis-Str. 4-8** ✓✓ ✓✓]

@@ -5,7 +5,7 @@ lon: 10.9371761
 name: AVL Autoverwertung Lechhausen
 trader_type: autoverwertung
 state: BY
-city: Augsburg 86165
+city: 'Augsburg'
 street: Stätzlinger Str. 84
 postcode: '86165'
 phone: 0821 796 82 41
@@ -68,3 +68,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate belegt: `lat`/`lon` = 48.3779758/10.9371761.** Für den Dossier-Eintrag **AVL Autoverwertung Lechhausen** trägt das OSM-Objekt node/12020397545 (`addr:housenumber`=84, `addr:street`=Stätzlinger Straße, `addr:postcode`=86165, `addr:city`=Augsburg, `name`=AVL Autoverwertung Lechhausen, `landuse`=industrial, `industrial`=scrap_yard, `phone`=+49 821 7968241, `website`=https://www.avl-autoverwertung.de/) die Dossier-Adresse **Stätzlinger Str. 84, 86165 Augsburg 86165** mit der zugehörigen Hausnummer und benennt den Betrieb selbst (**AVL Autoverwertung Lechhausen**); der Punkt ist damit der **Betriebspunkt** (der Punkt ist der Adressknoten, BBox 48.3779758/10.9371761 bis 48.3779758/10.9371761). Quelle(n): https://api.openstreetmap.org/api/0.6/node/12020397545.json ; https://nominatim.openstreetmap.org/search?q=St%C3%A4tzlinger+Str.+84%2C+86165+Augsburg&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1&countrycodes=de ; https://nominatim.openstreetmap.org/search?street=St%C3%A4tzlinger+Str.+84&postalcode=86165&city=Augsburg&country=Germany&format=jsonv2&extratags=1&namedetails=1&limit=10&addressdetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Augsburg 86165** ✓✓ stand dort **mit** der Postleitzahl **86165** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **AVL Autoverwertung Lechhausen** ✓✓, Straße **Stätzlinger Str. 84** ✓✓ ✓✓]

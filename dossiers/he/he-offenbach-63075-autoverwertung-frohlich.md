@@ -3,7 +3,7 @@ slug: he-offenbach-63075-autoverwertung-frohlich
 name: Autoverwertung Fröhlich e.K.
 trader_type: autoverwertung
 state: HE
-city: Offenbach 63075
+city: 'Offenbach'
 street: Lämmerspieler Weg 132
 postcode: '63075'
 phone: 069 855 885
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - AV
 - Adresse: Offenbach 63075, Lämmerspieler Weg
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Offenbach 63075** ✓✓ stand dort **mit** der Postleitzahl **63075** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoverwertung Fröhlich e.K.** ✓✓, Straße **Lämmerspieler Weg 132** ✓✓ ✓✓]

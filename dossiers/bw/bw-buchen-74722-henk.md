@@ -3,7 +3,7 @@ slug: bw-buchen-74722-henk
 name: Henk GmbH & Co. KG
 trader_type: schrottplatz
 state: BW
-city: Buchen 74722
+city: 'Buchen'
 street: Siemensstr. 25-27
 postcode: '74722'
 lat: 49.5320876
@@ -55,3 +55,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Koordinate der Dossier-Adresse belegt** (`lat`/`lon` = **49.5320876/9.3427448**). Punktgüte: **Hausnummer-Treffer**; der Dossierbetrieb „Henk GmbH & Co. KG“ ist über die Adresse **Siemensstr. 25-27, 74722 Buchen 74722** adressiert; das OSM-Adressobjekt **w/107825599** trägt `addr:housenumber`=25, `addr:street`=Siemensstraße, `addr:city`=Buchen (Odenwald); der Punkt ist der Mittelwert der eindeutigen Way-Knoten; das Objekt trägt **weder `name=` noch `operator=`** - die Koordinate belegt die **Anschrift**, nicht die Betreiberzuordnung; die Nominatim-Vorwärtssuche nach „Siemensstr 25-27, 74722 Buchen 74722“ liefert **kein** Adressobjekt mit dieser Hausnummer - der Beleg stammt aus dem Objekt selbst. Quelle(n): https://nominatim.openstreetmap.org/search?format=jsonv2&extratags=1&namedetails=1&addressdetails=1&countrycodes=de&limit=20&q=Siemensstr%2025-27%2C%2074722%20Buchen%2074722 ; https://photon.komoot.io/api/?limit=20&lang=de&q=Siemensstr%2025-27%2074722%20Buchen%2074722 ; https://api.openstreetmap.org/api/0.6/way/107825599.json (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Buchen 74722** ✓✓ stand dort **mit** der Postleitzahl **74722** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Henk GmbH & Co. KG** ✓✓, Straße **Siemensstr. 25-27** ✓✓ ✓✓]

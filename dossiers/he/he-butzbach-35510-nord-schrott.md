@@ -4,7 +4,7 @@ slug: he-butzbach-35510-nord-schrott
 name: NORD-SCHROTT
 trader_type: schrotthaendler
 state: HE
-city: Butzbach 35510
+city: 'Butzbach'
 street: August-Wenzel-Straße 4
 postcode: '35510'
 lat: 50.4253374
@@ -54,3 +54,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.4253374/8.6690717.** Das OSM-Objekt way/182868714 trägt `addr:housenumber`=4, `addr:street`=August-Wenzel-Straße, `addr:postcode`=35510, `addr:city`=Butzbach. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Quelle(n): https://api.openstreetmap.org/api/0.6/way/182868714/full.json ; https://nominatim.openstreetmap.org/search?q=August-Wenzel-Stra%C3%9Fe%204%2C%2035510%20Butzbach&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Butzbach 35510** ✓✓ stand dort **mit** der Postleitzahl **35510** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **NORD-SCHROTT** ✓✓, Straße **August-Wenzel-Straße 4** ✓✓ ✓✓]

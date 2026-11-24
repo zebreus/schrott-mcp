@@ -3,7 +3,7 @@ slug: sh-lubeck-kucknitz-23569-hartweg-metallgrohandel-rohstoff-recycli
 name: Hartweg Metallgroßhandel / Rohstoff-Recycling GmbH
 trader_type: metallhaendler
 state: SH
-city: Lübeck-Kücknitz 23569
+city: 'Lübeck-Kücknitz'
 street: Traveweg 2-4A
 postcode: '23569'
 lat: 53.8981761
@@ -51,3 +51,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 53.8981761/10.7966242.** Das OSM-Objekt way/344301515 trägt `addr:housenumber`=2, `addr:street`=Traveweg, `addr:postcode`=23569, `addr:city`=Lübeck. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Der Dossierbereich 2-4A ist in OSM nur mit der Hausnummer 2 erfasst; gesetzt ist dieses Objekt. Quelle(n): https://api.openstreetmap.org/api/0.6/way/344301515/full.json ; https://nominatim.openstreetmap.org/search?q=Traveweg%202-4A%2C%2023569%20L%C3%BCbeck-K%C3%BCcknitz&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Lübeck-Kücknitz 23569** ✓✓ stand dort **mit** der Postleitzahl **23569** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Hartweg Metallgroßhandel / Rohstoff-Recycling GmbH** ✓✓, Straße **Traveweg 2-4A** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: he-schaafheim-64850-he-containerdienst-sell
 name: Containerdienst Sell
 trader_type: containerdienst
 state: HE
-city: Schaafheim 64850 HE
+city: 'Schaafheim HE'
 street: Schaafheim , An der Ziegelei 11a
 postcode: '64850'
 phone: 0174 3576196
@@ -65,3 +65,7 @@ Mehrere weitere Sell-Kandidaten in Schaafheim: Charlie/Sascha Sell Im Herrngarte
 ### Korrektur 19.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 19.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **674 m** von der belegten Anschrift entfernt — er trifft den **Straßenzug** `way/35693741` (mit `name`=An der Ziegelei ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 19.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Schaafheim 64850 HE** ✓✓ stand dort **mit** der Postleitzahl **64850** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Containerdienst Sell** ✓✓, Straße **Schaafheim , An der Ziegelei 11a** ✓✓ ✓✓]

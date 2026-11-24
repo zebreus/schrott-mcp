@@ -5,7 +5,7 @@ lon: 8.6673090
 name: Degussa Goldhandel GmbH
 trader_type: sonstige
 state: HE
-city: Frankfurt 60325
+city: 'Frankfurt'
 street: Kettenhofweg 25
 postcode: '60325'
 phone: '+49 69 860068-100'
@@ -77,3 +77,7 @@ Register- oder Münzenfachhandelsnachweis fehlt.
   **Abgrenzung:** der OSM-Eintrag nennt `opening_hours` Mo-We,Fr 10:00-17:00, Th 10:00-18:00
   (Stand 2024) — das weicht von der aktuellen Angabe des Betreibers (Mo–Fr 9:00–19:00) ab;
   maßgeblich ist die **eigene** Angabe des Betreibers, der OSM-Wert ist älter und nicht übernommen.]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Frankfurt 60325** ✓✓ stand dort **mit** der Postleitzahl **60325** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Degussa Goldhandel GmbH** ✓✓, Straße **Kettenhofweg 25** ✓✓ ✓✓]

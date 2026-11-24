@@ -3,7 +3,7 @@ slug: by-deiningen-86738-autoverwertung-bachmann
 name: Autoverwertung Bachmann GmbH
 trader_type: autoverwertung
 state: BY
-city: Deiningen 86738
+city: 'Deiningen'
 street: Hauptstraße 1
 postcode: '86738'
 phone: 09081 / 29 33-0
@@ -46,3 +46,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
   Zertifikatsangaben wörtlich: `Bachmann Autoverwertung GmbH`, `Hauptstraße 1`, `DE-86738 Deiningen`; `Art der Anlage: Demontagebetrieb`; `geprüfter Standort: Hauptstraße 1, DE-86738 Deiningen`; `Betriebsnummer: I 779 E 0507`; `Ansprechpartner im o.g. Betrieb: Herr Bachmann, jun. (Tel.: 09081/ 2933-0)`; `zuständige Genehmigungsbehörde: Landratsamt Donau-Ries`; `Datum der Erstprüfung 16.01.1998`; `Diese Bescheinigung ist gültig bis: 15.07.2027`; `Registrier-Nr.: 01 410 080011`; `(Tag der Vor-Ort-Prüfung) Deiningen, 04.07.2026`; `Bericht-Nr.: 3720 6134 - 26`; Sachverständiger `Herr Kremer` der `Industrie- und Handelskammer Hochrhein-Bodensee`. Alle Angaben stimmen mit dem Eintrag überein.
   Registerabgleich Route Altfahrzeugverwertung (Abruf 05.11.2026): `Vorgangsnummer ZAHS00800008`, `Bescheinigungsanlagennr. 1`, `Kennnummer I779E0507`, `Telefon 09081/2933-0`, `Fax 09081/2933-50`, `E-Mail info@autoverwertung-bachmann.de`, `Rücknahme für folgende Hersteller Alpina, BMW, Mini (ab Bj. 04/2001), Rolls-Royce`; die im Eintrag genannte Betriebsnummer `I 779 E 0507` ist die Schreibweise des PDFs, die des Registers lautet `I779E0507`.
   Quelle(n): https://www.autoverwertung-bachmann.de/zertifikat.pdf ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Autoverwertung%20Bachmann (Abruf 05.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Deiningen 86738** ✓✓ stand dort **mit** der Postleitzahl **86738** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Autoverwertung Bachmann GmbH** ✓✓, Straße **Hauptstraße 1** ✓✓ ✓✓]

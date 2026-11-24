@@ -3,7 +3,7 @@ slug: sh-neukirchen-25927-nissen-nico
 name: Nissen Nico
 trader_type: sonstige
 state: SH
-city: Neukirchen 25927
+city: 'Neukirchen'
 street: Hochhörn 23
 postcode: 25927
 phone: ''
@@ -66,3 +66,7 @@ Die aktuelle kommunale Unternehmensübersicht enthält keinen passenden Eintrag;
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **311,6 km** von der Straße **Hochhörn, 25927 Neukirchen** (way/24229548 bei 54.8628453/8.7177728; die Hausnummer **23** ist in OpenStreetMap nicht adressiert) entfernt — er trifft die Straße **Madamenweg, 38120 Braunschweig** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **311,6 km** entfernt in einem anderen Ort und in einem anderen Bundesland ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓), **zweitens** ✓ ✓ die **Straße** ✓ ✓ und die **nicht belegte Hausnummer** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Neukirchen 25927** ✓✓ stand dort **mit** der Postleitzahl **25927** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Nissen Nico** ✓✓, Straße **Hochhörn 23** ✓✓ ✓✓]

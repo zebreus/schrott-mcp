@@ -3,7 +3,7 @@ slug: ni-hameln-31785-schmitz-autoverwertung
 name: Hans Schmitz Autoverwertung
 trader_type: autoverwertung
 state: NI
-city: Hameln 31785
+city: 'Hameln'
 street: Wehrberger Str. 54
 postcode: 31785
 phone: 05151 42224
@@ -60,3 +60,7 @@ Die Verzeichnis-Leads ordnen „Hans Schmitz Autoverwertung“ der Wehrberger St
 ### Korrektur 23.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 23.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **1,8 km** von **way/127323089** ✓✓ entfernt — er trifft **8A, Sandstraße, Mitte/Altstadt, Kernstadt, Hameln, Landkreis Hameln-Pyrmont, Niedersachsen, 31785, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **1799 m** ✓✓ von der adressierten Straße entfernt ✓✓ ✓ ✓ Ein **Kachelscan** ✓✓ um den Punkt findet **kein** Objekt mit Bezug zum **Seednamen** ✓✓ — die **Hausnummer 54** ✓✓ ist **nicht** belegt ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Hameln 31785** ✓✓ stand dort **mit** der Postleitzahl **31785** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Hans Schmitz Autoverwertung** ✓✓, Straße **Wehrberger Str. 54** ✓✓ ✓✓]

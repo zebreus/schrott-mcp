@@ -3,7 +3,7 @@ slug: rp-koblenz-56070-schrotthandel-s-alten
 name: Schrotthandel S. Alten
 trader_type: schrotthaendler
 state: RP
-city: Koblenz 56070
+city: 'Koblenz'
 street: St.-Maternus-Straße
 postcode: 56070
 phone: 01516 1010338
@@ -57,3 +57,7 @@ S. Alten, St.-Maternus-Straße, 56070 Koblenz, 01516 1010338, bleibt ein unbest�
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 24.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **weit entfernt** ✓ ✓ von der belegten Anschrift ✓ ✓ — er trifft **2, Devorastraße, Goldgrube, Koblenz, Rheinland-Pfalz, 56073, Deutschland** ✓ ✓ — er wird entfernt ✓ ✓  Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt liegt **3,67 km** ✓✓ vom Kartenportal-Punkt ✓✓ entfernt ✓✓ ✓ ✓ Die **St.-Maternus-Straße** ✓✓ trägt **keinen** ✓✓ Betriebsbezug ✓✓ ✓✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ oder der **amtliche Registerauszug** ✓✓ **des Dossierbetriebs** ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 24.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Koblenz 56070** ✓✓ stand dort **mit** der Postleitzahl **56070** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schrotthandel S. Alten** ✓✓, Straße **St.-Maternus-Straße** ✓✓ ✓✓]

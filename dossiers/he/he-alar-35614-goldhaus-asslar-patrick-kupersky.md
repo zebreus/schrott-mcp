@@ -3,7 +3,7 @@ slug: he-alar-35614-goldhaus-asslar-patrick-kupersky
 name: Goldhaus Asslar (Patrick Kupersky)
 trader_type: sonstige
 state: HE
-city: Aßlar 35614
+city: 'Aßlar'
 street: Hauptstraße 27a
 postcode: '35614'
 lat: 50.5904016
@@ -61,3 +61,7 @@ besteht nicht.
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Betriebspunkt belegt: 50.5904016/8.4630351.** Das OSM-Objekt node/9672966771 trägt `name`=Goldhaus Asslar - Goldankauf, Münzen & Edelmetalle. Die Anschrift ist dabei hausnummergenau belegt (`addr:housenumber`=27a, `addr:street`=Hauptstraße, `addr:postcode`=35614, `addr:city`=Aßlar). Der Punkt ist der Standort des Betriebsobjekts, kein Adressmittelpunkt. Der OSM-Name bzw. -Operator des Objekts deckt sich mit dem Dossiernamen (Goldhaus Asslar (Patrick Kupersky)); das Objekt ist der Betriebspunkt. Quelle(n): https://api.openstreetmap.org/api/0.6/node/9672966771.json ; https://nominatim.openstreetmap.org/search?q=Hauptstra%C3%9Fe%2027a%2C%2035614%20A%C3%9Flar&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Aßlar 35614** ✓✓ stand dort **mit** der Postleitzahl **35614** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Goldhaus Asslar (Patrick Kupersky)** ✓✓, Straße **Hauptstraße 27a** ✓✓ ✓✓]

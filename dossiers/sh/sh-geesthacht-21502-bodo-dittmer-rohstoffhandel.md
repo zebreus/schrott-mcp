@@ -3,7 +3,7 @@ slug: sh-geesthacht-21502-bodo-dittmer-rohstoffhandel
 name: Bodo Dittmer Rohstoffhandel GmbH
 trader_type: metallhaendler
 state: SH
-city: Geesthacht 21502
+city: 'Geesthacht'
 street: Ilenweg 24
 postcode: '21502'
 lat: 53.4402667
@@ -51,3 +51,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 53.4402667/10.3833977.** Das OSM-Objekt way/374275278 trägt `addr:housenumber`=24, `addr:street`=Ilenweg. Dasselbe Objekt trägt `building`=yes. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt führt keine addr:postcode-Angabe; die Postleitzahl des Dossiers passt zur Lage des Objekts. Quelle(n): https://api.openstreetmap.org/api/0.6/way/374275278/full.json ; https://nominatim.openstreetmap.org/search?q=Ilenweg%2024%2C%2021502%20Geesthacht&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Geesthacht 21502** ✓✓ stand dort **mit** der Postleitzahl **21502** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Bodo Dittmer Rohstoffhandel GmbH** ✓✓, Straße **Ilenweg 24** ✓✓ ✓✓]

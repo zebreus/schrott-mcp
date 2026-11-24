@@ -3,7 +3,7 @@ slug: he-bebra-36179-reif-marcus
 name: Reif Marcus
 trader_type: schrotthaendler
 state: HE
-city: Bebra 36179
+city: 'Bebra'
 street: Ulfenmühle 1
 postcode: '36179'
 lat: 50.9553087
@@ -64,3 +64,7 @@ nicht belegt ist; die Betreiberseite war am 02.11.2026 gesperrt, der Status blei
 ### Geokodierung 08.11.2026
 
 - [Geokodierung 08.11.2026: **Anschrift hausnummergenau belegt, Adressmittelpunkt gesetzt: 50.9553087/9.8009353.** Das OSM-Objekt way/158208708 trägt `addr:housenumber`=1, `addr:street`=Ulfenmühle, `addr:city`=Bebra. Dasselbe Objekt trägt `building`=office. Der Punkt ist der geometrische Mittelpunkt des Objekts, kein gesicherter Betriebseingang. Das Objekt führt keine addr:postcode-Angabe; die Postleitzahl des Dossiers passt zur Lage des Objekts. Quelle(n): https://api.openstreetmap.org/api/0.6/way/158208708/full.json ; https://nominatim.openstreetmap.org/search?q=Ulfenm%C3%BChle%201%2C%2036179%20Bebra&format=jsonv2&addressdetails=1&extratags=1&namedetails=1 (Abruf 08.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Bebra 36179** ✓✓ stand dort **mit** der Postleitzahl **36179** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Reif Marcus** ✓✓, Straße **Ulfenmühle 1** ✓✓ ✓✓]

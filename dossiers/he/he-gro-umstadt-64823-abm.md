@@ -5,7 +5,7 @@ lon: 8.9244514
 name: ABM
 trader_type: sonstige
 state: HE
-city: Groß-Umstadt 64823
+city: 'Groß-Umstadt'
 street: Gartenweg 9
 postcode: '64823'
 phone: '0157 50 92 08 44'
@@ -73,3 +73,7 @@ Leistungszusage ohne Tarif.
 - [Recherche 21.11.2026: GEO gemessen, unverändert passend: der gespeicherte Punkt 49.8875327/8.9244514 löst per Rückauflösung mit Zoom 18 auf das Adressobjekt `9, Gartenweg, Richen, 64823 Groß-Umstadt` auf (way/245693167, `addr:housenumber`=9, `addr:street`=Gartenweg, `addr:postcode`=64823, `addr:city`=Groß-Umstadt, `addr:suburb`=Richen) und liegt **0,002 km** von dessen Nominatim-Punkt 49.8875363/8.9244273 entfernt. Der Punkt bezeichnet damit die belegte Anschrift; das Objekt trägt weiterhin weder `name` noch `operator`, es ist also kein betriebsbezogenes OSM-Objekt und kein Beleg für einen Annahmehof. Quelle(n): https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=18&addressdetails=1&extratags=1&lat=49.8875327&lon=8.9244514 ; https://api.openstreetmap.org/api/0.6/way/245693167/full.json ; read-only `public.db` (Abruf 21.11.2026).]
 
 - [Recherche 21.11.2026: **Ankauf:** kein Ankaufkurs und kein EUR/kg-Wert belegt. **Verkauf:** kein Warenverkauf belegt. **Gebühren:** die in der Archivfassung vom 03.07.2017 genannte `kostenlose An- und Abfahrt innerhalb 50 Killometer` und der `kostenlose Kostenvoranschlag` sind Leistungszusagen ohne Betrag und keine Preise oder Tarife; die `Containern in den Grössen bis 30 cubic` sind eine Leistungsangabe. Der Archivierungsstand 03.07.2017 ist kein heutiger Tarifstand. Offen bleibt, ob der Betrieb 2026 noch an der Anschrift arbeitet; die Variante `Gartenweg 9` ist durch die Betreiber-Archivfassung und den OSM-Abgleich belegt, die Verzeichnisvarianten `Gartenweg 9a`, `Gartenweg 4` und `Goethestraße 4A` bleiben unbestätigt. Quelle(n): http://web.archive.org/web/20170703171117/http://www.abm-containerdienst.de/ (Abruf 21.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Groß-Umstadt 64823** ✓✓ stand dort **mit** der Postleitzahl **64823** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **ABM** ✓✓, Straße **Gartenweg 9** ✓✓ ✓✓]

@@ -5,7 +5,7 @@ lon: 13.0325719
 name: Bernd Hagen GmbH
 trader_type: sonstige
 state: MV
-city: Kramerhof 18445
+city: 'Kramerhof'
 street: Hauptstraße 34
 postcode: '18445'
 phone: ''
@@ -109,3 +109,7 @@ Phantom-Fortschreibung). Der Slug und der Zeilenname bleiben unverändert.
   https://api.openstreetmap.org/api/0.6/map.json?bbox=13.0200,54.3200,13.0500,54.3500 ;
   https://www.online-handelsregister.de/handelsregisterauszug/sh/Kiel/HRB/8228KI/Bernd-Hagen-Recycling-und-Baustoffe-GmbH
   (Abruf 04.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Kramerhof 18445** ✓✓ stand dort **mit** der Postleitzahl **18445** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Bernd Hagen GmbH** ✓✓, Straße **Hauptstraße 34** ✓✓ ✓✓]

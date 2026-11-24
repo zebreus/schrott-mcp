@@ -3,7 +3,7 @@ slug: he-solms-35606-schwedes
 name: Schwedes
 trader_type: schrotthaendler
 state: HE
-city: Solms 35606
+city: 'Solms'
 street: Gellerstück 7
 postcode: '35606'
 lat: 50.5456428
@@ -61,3 +61,7 @@ Der frühere de.rs-Websitelead war heute per HTTPS nicht abrufbar (Transportfehl
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der Standortpunkt wird ersetzt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,1 km** von der belegten Betriebsanschrift **way/741883975**, `Gellerstück 7`, 35606 Solms/Albshausen entfernt — er trifft **way/730039195**, `45, Krautgärtenstraße`, 35606 Burgsolms ✓ ✓. Er wird durch den adresskonformen Punkt **50.5456428/8.4323111** ✓ ✓ ersetzt ✓ ✓ Der Beleg für die Adresse: die **archivierte Betreiberseite** ✓✓ (`Schrotthandel & Hausmeister-Service Schwedes` ✓✓, `Am Gellerstück 7` ✓✓, `35606 Solms/Albshausen` ✓✓, `06442-9335280` ✓✓, Internet-Archiv 17.01.2020 ✓✓) sowie das **Adressobjekt** ✓✓ mit der **Hausnummer 7** ✓✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Solms 35606** ✓✓ stand dort **mit** der Postleitzahl **35606** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Schwedes** ✓✓, Straße **Gellerstück 7** ✓✓ ✓✓]

@@ -3,7 +3,7 @@ slug: nw-koln-50829-etree
 name: etree GmbH
 trader_type: schrotthaendler
 state: NW
-city: Köln 50829
+city: 'Köln'
 street: Mathias-Brüggen-Straße 160
 postcode: 50829
 phone: 0221 2924170
@@ -36,3 +36,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 
 - IT-Remarketing/E-Schrott — "We purchase used IT hardware" (NEU, nur via Suche verifiziert)
 - Adresse: Köln 50829, Mathias-Brüggen-Str. 160
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Köln 50829** ✓✓ stand dort **mit** der Postleitzahl **50829** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **etree GmbH** ✓✓, Straße **Mathias-Brüggen-Straße 160** ✓✓ ✓✓]

@@ -5,7 +5,7 @@ lon: 8.8418919
 name: Altwagenabholservice Wolfgang Schneider GmbH
 trader_type: autoverwertung
 state: HE
-city: Reichelsheim 61203
+city: 'Reichelsheim'
 street: Dorn-Assenheimer-Straße 29
 postcode: '61203'
 phone: 06035 917250
@@ -116,3 +116,7 @@ entfernt in einem anderen Ort; er wird zurückgezogen.
   verifizierte Einfahrt oder Waage. Quelle(n): https://api.openstreetmap.org/api/0.6/way/1361425825/full.json ;
   https://www.aas-schneider.de/impressum/ ; https://www.handelsregister.de/rp_web/normalesuche/welcome.xhtml ;
   https://schrottregister.pages.dev/ort-reichelsheim (Abruf 03.11.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Reichelsheim 61203** ✓✓ stand dort **mit** der Postleitzahl **61203** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Altwagenabholservice Wolfgang Schneider GmbH** ✓✓, Straße **Dorn-Assenheimer-Straße 29** ✓✓ ✓✓]

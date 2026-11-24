@@ -3,7 +3,7 @@ slug: ni-peine-31228-siekmann-schrott-und-metallhandel
 name: Siekmann Schrott und Metallhandel
 trader_type: metallhaendler
 state: NI
-city: Peine 31228
+city: 'Peine'
 street: 'Tiefe Str. 15a'
 postcode: '31228'
 phone: '05177 9865339'
@@ -55,3 +55,7 @@ Die Verzeichnislage ist unverändert belastbar: Gelbe Seiten (live abgerufen 29.
 ### Korrektur 19.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 19.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **6123 m** von der belegten Anschrift **Tiefe Straße 15a, 31228 Röhrse** entfernt — er löst auf ein **Wohnobjekt** auf (`way/545310145` ✓ ✓, `building`=residential ✓ ✓) ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 19.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Peine 31228** ✓✓ stand dort **mit** der Postleitzahl **31228** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Siekmann Schrott und Metallhandel** ✓✓, Straße **Tiefe Str. 15a** ✓✓ ✓✓]

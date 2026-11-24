@@ -3,7 +3,7 @@ slug: by-rudelzhausen-84104-hagl-av
 name: Hagl AV
 trader_type: autoverwertung
 state: BY
-city: Rudelzhausen 84104
+city: 'Rudelzhausen'
 street: Pittersdorf 13
 postcode: 84104
 phone: 08752 865900
@@ -37,3 +37,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Altautos — OSM
 - urspr. Website-Angabe: keine
 - Adresse: Rudelzhausen 84104
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Rudelzhausen 84104** ✓✓ stand dort **mit** der Postleitzahl **84104** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Hagl AV** ✓✓, Straße **Pittersdorf 13** ✓✓ ✓✓]

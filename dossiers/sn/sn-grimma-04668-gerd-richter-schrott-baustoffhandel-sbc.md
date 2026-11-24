@@ -3,7 +3,7 @@ slug: sn-grimma-04668-gerd-richter-schrott-baustoffhandel-sbc
 name: Gerd Richter Schrott-/Baustoffhandel (SBC)
 trader_type: schrotthaendler
 state: SN
-city: Grimma 04668
+city: 'Grimma'
 street: Fremdiswalde 93
 postcode: '04668'
 phone: 03437 973366
@@ -44,3 +44,7 @@ _Noch kein Überblick — bei nächster Welle aus description/notes kuratieren._
 - Öffnungszeiten SBC-Standort Fremdiswalde 93 Mo–Fr 10:00–16:00 (Gelbe-Detailseite; Einzelbeleg, unsicher).
 - Quelle: https://www.gelbeseiten.de/suche/Schrott/Grimma
 - Quelle: https://www.dasoertliche.de/?form_name=search_nat&kw=Richter&ci=Grimma
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Grimma 04668** ✓✓ stand dort **mit** der Postleitzahl **04668** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Gerd Richter Schrott-/Baustoffhandel (SBC)** ✓✓, Straße **Fremdiswalde 93** ✓✓ ✓✓]

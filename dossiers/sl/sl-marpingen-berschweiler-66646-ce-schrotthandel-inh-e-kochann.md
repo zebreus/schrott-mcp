@@ -3,7 +3,7 @@ slug: sl-marpingen-berschweiler-66646-ce-schrotthandel-inh-e-kochann
 name: CE Schrotthandel Inh. E. Kochann
 trader_type: schrotthaendler
 state: SL
-city: Marpingen-Berschweiler 66646
+city: 'Marpingen-Berschweiler'
 street: 'Dirminger Str. 2'
 postcode: '66646'
 phone: '06827 9027620'
@@ -62,3 +62,7 @@ Gelbe Seiten und 11880 führen als Verzeichnis-Leads CE Schrotthandel / E. Kocha
 ### Korrektur 21.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 21.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,934 km** vom Adressobjekt **Dirminger Straße 2** entfernt — er trifft **13, Altgasse, 66646 Marpingen** ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Ein belegter Standort des **Betriebs** ✓ ✓ liegt nicht vor ✓ ✓ **Reichweite:** Die EfbV-/AltfahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 21.11.2026 ✓ ✓) ✓ ✓, **zweitens** ✓ ✓ der **Adressabgleich** ✓ ✓ derselben Notiz ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Marpingen-Berschweiler 66646** ✓✓ stand dort **mit** der Postleitzahl **66646** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **CE Schrotthandel Inh. E. Kochann** ✓✓, Straße **Dirminger Str. 2** ✓✓ ✓✓]

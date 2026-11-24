@@ -3,7 +3,7 @@ slug: bw-lauda-konigshofen-97922-g-herrschlein-schrotthandel
 name: G. Herrschlein KG Schrotthandel
 trader_type: schrotthaendler
 state: BW
-city: Lauda-Königshofen 97922
+city: 'Lauda-Königshofen'
 street: Hauptstr. 30
 postcode: '97922'
 phone: 09343/7683
@@ -59,3 +59,7 @@ G. Herrschlein KG, Hauptstraße 30, 97922 Lauda-Königshofen, 09343/7683 ist ein
 ### Korrektur 22.11.2026 (Owner, Geokodierung) — der falsche Standortpunkt wird entfernt
 
 - [Korrektur 22.11.2026: **Der in der Produktion gespeicherte Standortpunkt dieses Dossiers liegt **2,5 km** vom belegten Adressobjekt **way/501623594**, `Hauptstraße 30`, OT Königshofen ✓✓ entfernt — er trifft **way/500376891**, `2b, Poststraße`, 97922 Lauda ✓✓ ✓ ✓ — er wird entfernt ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓ ✓ ✓ ✓** Der Punkt trifft eine andere Straße ✓✓ ✓ ✓ Der Beleg für die Adresse: der **Verzeichniseintrag** ✓✓ (nur ein Namensvetter in Ulm ✓✓) ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 22.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Lauda-Königshofen 97922** ✓✓ stand dort **mit** der Postleitzahl **97922** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **G. Herrschlein KG Schrotthandel** ✓✓, Straße **Hauptstr. 30** ✓✓ ✓✓]

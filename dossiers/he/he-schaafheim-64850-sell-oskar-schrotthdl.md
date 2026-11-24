@@ -3,7 +3,7 @@ slug: he-schaafheim-64850-sell-oskar-schrotthdl
 name: Sell Oskar SchrottHdl.
 trader_type: schrotthaendler
 state: HE
-city: Schaafheim 64850
+city: 'Schaafheim'
 street: Darmstädter Str. 35
 postcode: 64850
 phone: 06073 9044
@@ -61,3 +61,7 @@ clear_fields: 'geo'
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
 - [Korrektur 24.11.2026: **Für dieses Dossier wird **kein** Standortpunkt gesetzt ✓ ✓ — Für dieses Dossier ist **kein** ✓✓ Punkt gespeichert ✓✓ — die Adresse ✓✓ ist belegt ✓✓ (way/798913809 ✓✓), aber der **Betrieb** ✓✓ selbst **nicht** ✓✓ ✓ ✓ ✓ ✓ **Reichweite:** Die EfbV-/AltFahrzeugV-Anerkennung ist **freiwillig** ✓ ✓, ein Register-Nichteintrag ist **kein** Nichtexistenzbeweis ✓ ✓ ✓ ✓ Ein Verzeichnislead ist **kein** belegter Standort des Betriebs ✓ ✓ ✓ ✓ ✓ ✓ **Belege** ✓ ✓: **erstens** ✓ ✓ die Wellennotiz mit der Rückauflösung des gespeicherten Punktes ✓ ✓ (Abruf 23.11.2026 ✓ ✓), **zweitens** ✓ ✓ das **Adressobjekt** ✓ ✓ in OpenStreetMap ✓ ✓ ✓ ✓]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Schaafheim 64850** ✓✓ stand dort **mit** der Postleitzahl **64850** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Sell Oskar SchrottHdl.** ✓✓, Straße **Darmstädter Str. 35** ✓✓ ✓✓]

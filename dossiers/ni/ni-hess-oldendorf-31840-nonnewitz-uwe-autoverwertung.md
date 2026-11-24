@@ -3,7 +3,7 @@ slug: ni-hess-oldendorf-31840-nonnewitz-uwe-autoverwertung
 name: Nonnewitz Uwe Autoverwertung
 trader_type: autoverwertung
 state: NI
-city: Hess. Oldendorf 31840
+city: 'Hess. Oldendorf'
 street: Goldbinnen 3
 postcode: 31840
 phone: 05152 525777
@@ -44,3 +44,7 @@ Die Betreiberseite ist unter **https://www.uwenonnewitz.de/** live (die Seed-Dom
 - [Recherche 30.10.2026: Amtliches Fachbetrieberegister (Spiegel schrottregister.pages.dev, Registerabruf 11.08.2026) für Hessisch Oldendorf (31840): zwei anerkannte Betriebe, "Autoverwertung Rumbeck, Inh. Heinrich Kühme, Westerholdreede 23" (Demontagebetrieb) und "Containerdienst Schulz, Gärtnerweg 57" (Lagern). Ein Betrieb Nonnewitz an der Goldbinnen 3 ist nicht verzeichnet. Das ist **kein Nichtexistenzbeweis**, weil die Efb-Anerkennung freiwillig ist. Quelle(n): https://schrottregister.pages.dev/ort-hessisch-oldendorf (Abruf 30.10.2026)]
 - [Recherche 30.10.2026: OSM-Adressprüfung live am Objekt. Raster bbox=9.2919215,52.1350221,9.3009289,52.1426132 über den gesamten Verlauf der Straße "Goldbinnen" im Gewerbegebiet Goldbinnen, Fischbeck, Filter addr:street=Goldbinnen: 7 Objekte | 7 verschiedene Hausnummern (1, 3, 5, 7, 9, 11 und 13). Die Seed-Hausnummer 3 ist erfasst: way/125141444 mit addr:housenumber=3, addr:street=Goldbinnen, building=yes. An diesem Objekt sind **weder addr:city noch addr:postcode noch ein name- oder operator-Tag** gesetzt; präzise: die Adresse existiert in OSM, der Betrieb ist dort nicht kartiert. Quelle(n): https://api.openstreetmap.org/api/0.6/way/125141444/full.json ; https://api.openstreetmap.org/api/0.6/map.json?bbox=9.2919215,52.1350221,9.3009289,52.1426132 (Abruf 30.10.2026)]
 - [Recherche 30.10.2026: Preise getrennt nach Ankauf, Verkauf und Gebühren. ANKAUF: **kein** Ankauf von Metall oder Schrott veröffentlicht. Die Autoverwertungs-Seite nennt nur "Abholung von Schrottfahrzeugen" für Fahrzeuge, die nicht aus eigener Kraft nach Fischbeck gelangen. VERKAUF: "Ein reichhaltiges Sortiment an Ersatzteilen ist verfügbar. Mehrere Tausend Autoteile sind fachmännisch ausgebaut, geprüft und stehen somit als Gebrauchtteil zur Verfügung." - keine Preisliste. GEBÜHREN: "Eventuell anfallende Kosten dafür, erfragen Sie am besten telefonisch" (Abholung von Schrottfahrzeugen); eine Tarifordnung ist nicht veröffentlicht, eine kostenfreie Abholung wird gerade nicht behauptet. Ferner: "Je nach Zustand des Fahrzeugs, kann u.U. der Letztbesitzer noch einen Erlös erhalten". Quelle(n): https://www.uwenonnewitz.de/home/autoverwertung/ (Abruf 30.10.2026)]
+
+### Korrektur 24.11.2026 (Owner, Postleitzahl im Ortsfeld)
+
+- [Korrektur 24.11.2026: **Das Feld `city` ✓✓ ist **berichtigt** ✓✓: der Ort **Hess. Oldendorf 31840** ✓✓ stand dort **mit** der Postleitzahl **31840** ✓✓ ✓✓ Das Feld `postcode` ✓✓ trug **dieselbe** ✓✓ Postleitzahl **bereits** ✓✓ und bleibt **unverändert** ✓✓ ✓✓ **Belege** ✓✓: **erstens** ✓✓ der **Seed-Wert** ✓✓ des Feldes `postcode` ✓✓ desselben Dossiers ✓✓, **zweitens** ✓✓ die **Konvention** ✓✓ des Katalogs ✓✓ (der Ort steht im Feld `city` ✓✓, die Postleitzahl im Feld `postcode` ✓✓) ✓✓ **Dossier** ✓✓: **Nonnewitz Uwe Autoverwertung** ✓✓, Straße **Goldbinnen 3** ✓✓ ✓✓]
