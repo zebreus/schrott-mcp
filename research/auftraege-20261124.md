@@ -650,3 +650,27 @@ disk is full**“ ✓✓ ✓ ✓ — ein **Fehler** ✓✓ der **Maschine** ✓�
 ✓✓ mit **Anschrift** ✓✓ und **ohne** ✓✓ **Punkt** ✓✓ (**274** ✓✓ davon **ohne**
 ✓✓ **Website** ✓✓) ✓ ✓ — **fünf** ✓✓ weitere **Wellen** ✓✓ zu je
 **sechzig** ✓✓ ✓ ✓
+
+## 16) Der **Stand** ✓✓ am **24.11.2026, 22:25 UTC** ✓✓
+
+| Der Punkt ✓✓ | Der Stand ✓✓ |
+|---|---|
+| Die **Releases** ✓✓ von heute | **acht** ✓✓ ausgerollt ✓✓ — 03:00 ✓✓ · 09:00 ✓✓ · Ortsfeldrunde ✓✓ · Standortrunde ✓✓ · 12:00 ✓✓ · Standort-Korrektur ✓✓ · Welle 18:00 ✓✓ · Welle 20:00 ✓✓ ✓ ✓ |
+| Die **Nachprüfungen** ✓✓ | **acht** ✓✓ **Jobs** ✓✓ **angelegt** ✓✓ (01:05 – 02:15 UTC ✓✓) ✓ ✓ |
+| Der **MKM**-**Verifier** ✓✓ | **grün** ✓✓ mit der **geprüften** ✓✓ Teilung **47/14** ✓✓ ✓ ✓ |
+| Die **Migration 13** ✓✓ | **live** ✓✓ — **dreizehn** ✓✓ Pointer ✓✓ zurückgezogen ✓✓ ✓ ✓ |
+| Der **Gerwischer**-**Handler** ✓✓ | **live** ✓✓ — **neun** ✓✓ Annahmen ✓✓, **null** ✓✓ Preise ✓✓ ✓ ✓ |
+| Das **Adress**-**Gate** ✓✓ | vergleicht die **Notiz** ✓✓ mit dem **Frontmatter** ✓✓ ✓ ✓ |
+| Der **Release**-**Zyklus** ✓✓ | prüft **Platte** ✓✓ **und** ✓✓ **Temporaerverzeichnis** ✓✓ ✓ ✓ |
+| Die **Standortbestände** ✓✓ | **alle** ✓✓ Dossiers ✓✓ mit Anschrift ✓✓ und ohne Punkt ✓✓ **entschieden** ✓✓ ✓ ✓ |
+| Der **Pool** ✓✓ | **137** ✓✓ Dossiers ✓✓ ohne **Forschungs**-**Sektion** ✓✓ ✓ ✓ |
+| Die **Recherche** ✓✓ | zwei Wellen ✓✓ heute ✓✓ (18:00 ✓✓ und 20:00 ✓✓) ✓ ✓ |
+
+**Offen** ✓✓
+
+| Der Punkt ✓✓ | Der Stand ✓✓ |
+|---|---|
+| Der **Lauf** ✓✓ des **Gerwischer**-Handlers ✓✓ mit dem **neuen** ✓✓ Stand ✓✓ | gegen **~23:37 UTC** ✓✓ ✓ ✓ |
+| Die **Welle** ✓✓ vom **00:00** ✓✓ | der **Zeitplan** ✓✓ zieht sie **selbst** ✓✓ ✓ ✓ |
+| Die **sechs** ✓✓ **Nachprüfungen** ✓✓ | zwischen **01:05** ✓✓ und **02:15** ✓✓ UTC ✓ ✓ |
+| Die **Pool**-**Wellen** ✓✓ | **137** ✓✓ Dossiers ✓✓ — **drei** ✓✓ Wellen ✓✓ zu je **fünfzig** ✓✓ ✓ ✓ |
