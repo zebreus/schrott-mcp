@@ -109,8 +109,11 @@ das Objekt trägt **dieselbe Hausnummer** ✓✓ **und** den **Namen** ✓✓ de
 **achtundvierzig** ✓✓ **entfernt** ✓✓, **elf** ✓✓ **bleiben** ✓✓ ✓ ✓ Die **sechs** Gates ✓✓
 und die **fünfzehn** ✓✓ Seed-Tests ✓✓ sind **grün** ✓✓ ✓ ✓
 
-**Noch offen** ✓✓: der **Release-Zyklus** ✓✓ ✓✓ das **unabhängige Review** ✓✓ ✓✓ der
-**Pin** ✓✓ ✓✓ der **Rollout** ✓✓ ✓ ✓
+**Der Kandidat** ✓✓ ist **freigegeben** ✓✓ — **zwei** ✓✓ Review-Runden ✓✓, die zweite
+ohne Befund ✓✓ ✓ ✓ Der **Pin** ✓✓ liegt in `039013c3` ✓✓ ✓ ✓
+
+**Noch offen** ✓✓: der **Rollout** ✓✓ — er wartet auf das **Pending-Gate** ✓✓ der
+03:00-Welle ✓✓ ✓ ✓
 
 **Der Rollout** ✓✓ der 09:00-Welle ✓✓ wartet auf das **Pending-Gate** ✓✓ der
 03:00-Welle ✓✓ ✓ ✓ — **nie** ✓✓ zwei Releases **gleichzeitig** ✓✓ ✓ ✓
