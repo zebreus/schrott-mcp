@@ -247,12 +247,31 @@ sie **keine** ✓✓ **Staffel** ✓✓ mehr ✓✓ — **entweder** ✓✓ hat 
 ✓ ✓ **Neun** ✓✓ weitere Artikel ✓✓ hat die Quelle von **Kurs** ✓✓ auf **Anfrage**
 ✓✓ umgestellt ✓✓ ✓ ✓
 
-**Der Auftrag** ✓✓: **offen** ✓✓ ✓ ✓ **Erstens** ✓✓ das **Orakel** ✓✓ **neu
-prüfen** ✓✓ — die **Zwei**-und-**Fünf**-Teilung ✓✓ ist **überholt** ✓✓ ✓ ✓
-**Zweitens** ✓✓ entscheiden ✓✓, ob der **Handler** ✓✓ die zwei Artikel **ohne**
-✓✓ **Staffel** ✓✓ **ablehnen** ✓✓ oder die Quelle **richtig** ✓✓ **auslesen** ✓✓
-muss ✓✓ ✓ ✓ **Bis dahin** ✓✓ tragen **zwei** ✓✓ veröffentlichte **Preise** ✓✓
-eine **unvollständige** ✓✓ **Staffel** ✓✓ ✓ ✓
+**An der Quelle gelesen** ✓✓ (live ✓✓, 24.11.2026, **15:10 UTC** ✓✓) ✓ ✓
+Die Seite nennt **61** ✓✓ Sorten ✓✓ und ist **heute** ✓✓ auf den **24.11.2026**
+✓✓ geändert ✓✓ ✓ ✓
+
+**Die zwei** ✓✓ **Artikel** ✓✓ tragen jetzt **einen** ✓✓ **Preis** ✓✓ **und** ✓✓ den
+**Zusatz** ✓✓ „**Anfragen**“ ✓✓ — **keine** ✓✓ **Staffel** ✓✓ ✓ ✓
+
+| Artikel ✓✓ | Die Seite ✓✓ | Die **Staffel** ✓✓ |
+|---|---|---|
+| `MKM-NE-05` ✓✓ | „Nickel rein ab 99 %“ ✓✓ **12,08 €** ✓✓ /kg ✓✓ **ab 250 kg** ✓✓ **Anfragen** ✓✓ ✓ ✓ | **leer** ✓✓ ✓ ✓ |
+| `SW10041` ✓✓ | „Zinn 30%“ ✓✓ **5,25 €** ✓✓ /kg ✓✓ **ab 500 kg** ✓✓ **Anfragen** ✓✓ ✓ ✓ | **leer** ✓✓ ✓ ✓ |
+
+**Der Vertrag** ✓✓ verlangt eine **Staffel** ✓✓, deren **oberster** ✓✓ Preis dem
+**Artikelpreis** ✓✓ entspricht ✓✓ und die bei **0 kg** ✓✓ beginnt ✓✓ — für
+**diese** ✓✓ zwei **gibt** ✓✓ es **keine** ✓✓ ✓ ✓
+
+**Der Auftrag** ✓✓: **offen** ✓✓ ✓ ✓ **Erstens** ✓✓ das **Orakel** ✓✓ und die
+**geprüfte** ✓✓ Teilung **neu** ✓✓ **prüfen** ✓✓ — **47** ✓✓ Preise und **14**
+✓✓ Anfragen ✓✓ sind der **Stand** ✓✓ der Quelle ✓✓ ✓ ✓ **Zweitens** ✓✓
+entscheiden ✓✓, ob der **Handler** ✓✓ aus **einer** ✓✓ Preiszeile ohne **Staffel**
+✓✓ eine **Staffel** ✓✓ **bauen** ✓✓ soll ✓✓ (etwa **ab** ✓✓ der **Mindestmenge**
+✓✓ ✓✓) oder ob er **solche** ✓✓ Artikel **ablehnen** ✓✓ muss ✓✓ — und **dann**
+✓✓ den **Vertrag** ✓✓ entsprechend **fassen** ✓✓ ✓ ✓ **Bis dahin** ✓✓ tragen
+**zwei** ✓✓ veröffentlichte **Preise** ✓✓ eine **unvollständige** ✓✓ **Staffel**
+✓✓ ✓ ✓
 
 **Der Auftrag** ✓✓: **offen** ✓✓ ✓ ✓ **Die Quelle** ✓✓ **Artikel für Artikel**
 ✓✓ gegen das **geprüfte** ✓✓ **Orakel** ✓✓
