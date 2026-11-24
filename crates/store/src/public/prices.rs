@@ -147,6 +147,16 @@ const STALE_CURRENT_PRICES: &str = include_str!("stale_current_prices.tsv");
 /// das ist ein Zuordnungsbefund am Handler, kein Rueckzug.
 const STALE_CURRENT_PRICES_12: &str = include_str!("stale_current_prices_12.tsv");
 
+/// Die Paare der Preispflege vom 24.11.2026: 13 Current-Pointer eines
+/// Haendlers, dessen Preisseite am 24.11.2026 zwischen 11:24 und 17:37 UTC
+/// vom Netz genommen wurde. Die Seite antwortet seitdem mit HTTP 404; die
+/// neue Seite der Firma (Next.js) fuehrt keine Preise, sondern nur eine
+/// Preisanfrage. Die Liste ist der Beleg: jedes Paar wurde am 24.11.2026 an
+/// der Live-Seite geprueft und mit dem letzten erfolgreichen Lauf des
+/// Handlers abgeglichen. Die Beobachtungen bleiben in der Historie -
+/// zurueckgezogen wird nur der Current-Pointer.
+const STALE_CURRENT_PRICES_13: &str = include_str!("stale_current_prices_13.tsv");
+
 /// Die Liste als SQL-Werte.
 fn stale_current_prices_sql(list: &str) -> String {
     let mut werte = String::new();
@@ -873,6 +883,82 @@ pub(super) fn migrate(conn: &rusqlite::Connection) -> Result<(), StoreError> {
         tx.execute_batch(
             "DROP TABLE migration_12_stale_current_prices;
              PRAGMA user_version = 12;",
+        )?;
+        tx.commit()?;
+    }
+    if version < 13 {
+        let tx = conn.unchecked_transaction()?;
+        let sql = format!(
+            r#"DROP TABLE IF EXISTS temp.migration_13_stale_current_prices;
+             CREATE TEMP TABLE migration_13_stale_current_prices (
+                 slug TEXT NOT NULL,
+                 material TEXT NOT NULL,
+                 variant TEXT NOT NULL,
+                 price REAL NOT NULL,
+                 unit TEXT NOT NULL,
+                 observed_at TEXT NOT NULL,
+                 source_url TEXT NOT NULL,
+                 PRIMARY KEY (slug, material, variant, observed_at)
+             );
+             INSERT INTO migration_13_stale_current_prices
+                 (slug, material, variant, price, unit, observed_at, source_url) VALUES
+{};"#,
+            stale_current_prices_sql(STALE_CURRENT_PRICES_13)
+        );
+        tx.execute_batch(&sql)?;
+        // Fail closed: die Liste trifft genau die Population, die zur
+        //ueckgezogen werden soll - jede Abweichung bricht die Migration ab.
+        let counts: (i64, i64) = tx.query_row(
+            "SELECT COUNT(*),
+                    COALESCE(SUM(
+                        c.price_id = p.id
+                        AND c.trader_id = p.trader_id
+                        AND c.material_id = p.material_id
+                        AND c.variant = p.variant), 0)
+             FROM migration_13_stale_current_prices k
+             JOIN traders t ON t.slug = k.slug
+             JOIN materials m ON m.slug = k.material
+             JOIN prices p ON p.trader_id = t.id
+                           AND p.material_id = m.id
+                           AND p.variant = k.variant
+                           AND p.unit = k.unit
+                           AND p.observed_at = k.observed_at
+                           AND p.source_url = k.source_url
+                           AND ABS(p.price - k.price) < 0.000001
+             LEFT JOIN current_prices c ON c.trader_id = p.trader_id
+                                     AND c.material_id = p.material_id
+                                     AND c.variant = p.variant
+                                     AND c.price_id = p.id",
+            [],
+            |row| Ok((row.get(0)?, row.get(1)?)),
+        )?;
+        let erwartet = stale_current_prices_count(STALE_CURRENT_PRICES_13) as i64;
+        if counts == (erwartet, erwartet) {
+            tx.execute(
+                "DELETE FROM current_prices AS c
+                 WHERE EXISTS (
+                     SELECT 1 FROM migration_13_stale_current_prices k
+                     JOIN traders t ON t.slug = k.slug
+                     JOIN materials m ON m.slug = k.material
+                     JOIN prices p ON p.id = c.price_id
+                                   AND p.trader_id = t.id
+                                   AND p.material_id = m.id
+                                   AND p.variant = k.variant
+                                   AND p.unit = k.unit
+                                   AND p.observed_at = k.observed_at
+                                   AND p.source_url = k.source_url
+                                   AND ABS(p.price - k.price) < 0.000001
+                 )",
+                [],
+            )?;
+        } else if counts != (0, 0) {
+            return Err(StoreError::Rejected(
+                "unexpected stale current-price population for migration 13",
+            ));
+        }
+        tx.execute_batch(
+            "DROP TABLE migration_13_stale_current_prices;
+             PRAGMA user_version = 13;",
         )?;
         tx.commit()?;
     }
@@ -2906,7 +2992,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 12);
+        assert_eq!(version, 13);
     }
 
     #[test]
@@ -3015,7 +3101,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 12);
+        assert_eq!(version, 13);
     }
 
     #[test]
@@ -3158,7 +3244,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 12);
+        assert_eq!(version, 13);
     }
 
     #[test]
@@ -3296,7 +3382,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 12);
+        assert_eq!(version, 13);
     }
 
     #[test]
@@ -3318,6 +3404,175 @@ mod tests {
         {
             let conn = db.conn.lock().expect("lock");
             conn.execute_batch("PRAGMA user_version = 11;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("no-op migration");
+        }
+        let verbliebene = db
+            .query_sql("SELECT COUNT(*) FROM current_prices")
+            .unwrap()
+            .rows[0][0]
+            .as_i64()
+            .unwrap();
+        assert_eq!(verbliebene, 1, "der Pointer bleibt current");
+    }
+
+    #[test]
+    fn migration_13_retires_exactly_the_reviewed_pairs() {
+        // Die Liste der Migration ist der Beleg: die Preisseite des
+        // Haendlers wurde am 24.11.2026 zwischen 11:24 und 17:37 UTC vom
+        // Netz genommen (HTTP 404), die neue Seite der Firma fuehrt keine
+        // Preise, sondern nur eine Preisanfrage. Der Test legt genau diese
+        // Zeilen an und prueft, dass die Migration genau sie zurueckzieht -
+        // und die Historie stehen laesst.
+        let (_dir, db, _trader, _material) = setup("stale-current-prices-13");
+        let now = "2026-11-24T12:00:00Z";
+        let mut traders: std::collections::HashMap<&str, i64> = std::collections::HashMap::new();
+        let mut materialien: std::collections::HashMap<&str, i64> =
+            std::collections::HashMap::new();
+        let mut paare = 0;
+        for zeile in super::STALE_CURRENT_PRICES_13.lines() {
+            let f: Vec<&str> = zeile.split('|').collect();
+            assert_eq!(f.len(), 7, "Zeile der Preispflege-Liste");
+            let slug = f[0];
+            let material = f[1];
+            let preis: f64 = f[3].parse().expect("preis");
+            let trader_id = *traders.entry(slug).or_insert_with(|| {
+                db.upsert_trader(&NewTrader {
+                    slug,
+                    name: slug,
+                    trader_type: "schrotthaendler",
+                    description: "",
+                    street: "",
+                    postcode: "",
+                    city: "",
+                    state: "",
+                    country: "DE",
+                    lat: None,
+                    lon: None,
+                    phone: "",
+                    email: "",
+                    website: "",
+                    website_status: "unbekannt",
+                    website_checked_at: "",
+                    opening_hours: "",
+                    dropoff_json: "{}",
+                    pickup_json: "{}",
+                    min_quantity_kg: None,
+                    max_quantity_kg: None,
+                    certifications: Some("[]"),
+                    status: "aktiv",
+                    notes: "",
+                    extra_json: "{}",
+                    now,
+                })
+                .expect("trader")
+            });
+            let material_id = *materialien.entry(material).or_insert_with(|| {
+                db.upsert_material(&NewMaterial {
+                    slug: material,
+                    name_de: material,
+                    category: "nichteisen",
+                    unit: f[4],
+                    description: "",
+                    updated_at: now,
+                })
+                .expect("material")
+            });
+            db.record_price(&NewPrice {
+                variant: f[2],
+                unit: f[4],
+                source_url: f[6],
+                observed_at: f[5],
+                ingested_at: f[5],
+                notes: "Beobachtung des frueheren Handlerstands",
+                extra_json: "{}",
+                ..price(trader_id, material_id, preis, f[5], f[5])
+            })
+            .expect("alte Preiszeile");
+            paare += 1;
+        }
+        assert_eq!(
+            paare,
+            super::stale_current_prices_count(super::STALE_CURRENT_PRICES_13)
+        );
+        // Eine heutige Beobachtung an einem anderen Schluessel bleibt current.
+        let aktuell = db
+            .record_price(&NewPrice {
+                variant: "Heute",
+                unit: "EUR/kg",
+                source_url: "https://kupferhelden.de/",
+                observed_at: "2026-11-24T13:00:00Z",
+                ingested_at: "2026-11-24T13:00:00Z",
+                notes: "aktueller Handlerstand",
+                extra_json: "{}",
+                ..price(
+                    *traders.values().next().expect("trader"),
+                    *materialien.values().next().expect("material"),
+                    0.45,
+                    "2026-11-24T13:00:00Z",
+                    "2026-11-24T13:00:00Z",
+                )
+            })
+            .expect("aktueller Preis");
+
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute_batch("PRAGMA user_version = 12;")
+                .expect("simulate pre-migration database");
+            super::migrate(&conn).expect("retire the reviewed stale prices");
+        }
+
+        let verbliebene = db
+            .query_sql("SELECT COUNT(*) FROM current_prices")
+            .unwrap()
+            .rows[0][0]
+            .as_i64()
+            .unwrap();
+        assert_eq!(verbliebene, 1, "nur die heutige Beobachtung bleibt current");
+        // Die Historie bleibt vollstaendig.
+        let historie = db.query_sql("SELECT COUNT(*) FROM prices").unwrap().rows[0][0]
+            .as_i64()
+            .unwrap();
+        assert_eq!(historie, paare as i64 + 1, "die Historie bleibt erhalten");
+        assert_eq!(
+            db.current_price_for(
+                *traders.values().next().expect("trader"),
+                *materialien.values().next().expect("material"),
+                "Heute",
+            )
+            .expect("current pointer query")
+            .expect("der heutige Preis bleibt current")
+            .id,
+            aktuell
+        );
+        let version: i64 = db
+            .conn
+            .lock()
+            .expect("lock")
+            .query_row("PRAGMA user_version", [], |row| row.get(0))
+            .expect("version");
+        assert_eq!(version, 13);
+    }
+
+    #[test]
+    fn migration_13_retires_nothing_when_the_population_does_not_match() {
+        // Ohne die geprueften Zeilen darf die Migration nichts loeschen:
+        // die Liste muss genau die Population treffen, die sie zurueckziehen
+        // soll - sonst bricht sie ab.
+        let (_dir, db, trader, material) = setup("stale-current-noop-13");
+        db.record_price(&NewPrice {
+            ..price(
+                trader,
+                material,
+                1.23,
+                "2026-11-24T09:00:00Z",
+                "2026-11-24T09:00:00Z",
+            )
+        })
+        .expect("aktueller Preis");
+        {
+            let conn = db.conn.lock().expect("lock");
+            conn.execute_batch("PRAGMA user_version = 12;")
                 .expect("simulate pre-migration database");
             super::migrate(&conn).expect("no-op migration");
         }
@@ -3449,7 +3704,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 12);
+        assert_eq!(version, 13);
     }
 
     #[test]
@@ -3686,7 +3941,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 12);
+        assert_eq!(version, 13);
     }
 
     #[test]
@@ -4027,7 +4282,7 @@ mod tests {
             .expect("lock")
             .query_row("PRAGMA user_version", [], |row| row.get(0))
             .expect("version");
-        assert_eq!(version, 12);
+        assert_eq!(version, 13);
     }
 
     #[test]
@@ -4483,7 +4738,7 @@ mod tests {
                     .expect("version lock")
                     .query_row("PRAGMA user_version", [], |r| r.get(0))
                     .expect("version");
-                assert_eq!(version, 12);
+                assert_eq!(version, 13);
                 assert_eq!(
                     db.test_query("SELECT * FROM prices ORDER BY id"),
                     history,
@@ -4607,7 +4862,7 @@ mod tests {
             let version: i64 = conn
                 .query_row("PRAGMA user_version", [], |r| r.get(0))
                 .expect("successful retry version");
-            assert_eq!(version, 12);
+            assert_eq!(version, 13);
         }
         assert_eq!(db.test_query("SELECT * FROM prices ORDER BY id"), history);
         assert!(db.test_query("SELECT * FROM current_prices").is_empty());

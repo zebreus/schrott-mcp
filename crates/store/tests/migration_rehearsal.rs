@@ -31,12 +31,19 @@ const STALE_CURRENT_PRICES: &str = include_str!("../src/public/stale_current_pri
 /// The reviewed list of the stale current prices of 08.11.2026 (migration 12).
 const STALE_CURRENT_PRICES_12: &str = include_str!("../src/public/stale_current_prices_12.tsv");
 
+/// The reviewed list of the stale current prices of 24.11.2026 (migration 13).
+const STALE_CURRENT_PRICES_13: &str = include_str!("../src/public/stale_current_prices_13.tsv");
+
 fn paare() -> usize {
     STALE_CURRENT_PRICES
         .lines()
         .filter(|zeile| !zeile.trim().is_empty())
         .count()
         + STALE_CURRENT_PRICES_12
+            .lines()
+            .filter(|zeile| !zeile.trim().is_empty())
+            .count()
+        + STALE_CURRENT_PRICES_13
             .lines()
             .filter(|zeile| !zeile.trim().is_empty())
             .count()
