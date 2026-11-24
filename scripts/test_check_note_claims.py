@@ -225,5 +225,36 @@ class Strassenvergleich(unittest.TestCase):
 
 
 
+
+class Strassenart(unittest.TestCase):
+    """Die **Strassenart** ✓✓ - „Liebigweg“ ✓✓ und „Bergstr.“ ✓✓ tragen eine,
+    „Am Neuen Baum“ ✓✓ nicht ✓✓ - und zwei **einteilige** ✓✓ Strassennamen
+    ✓✓ teilen **kein** ✓✓ Wort ✓✓ ✓ ✓
+    (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+    """
+
+    def test_die_abkuerzung_ist_kein_satzende(self):
+        self.assertTrue(mod.strassenbehauptung("Bergstr. 5"))
+        self.assertTrue(mod.strassenbehauptung("Am Neuen Baum"))
+        self.assertFalse(mod.strassenbehauptung("kein"))
+        self.assertFalse(mod.strassenbehauptung(
+            ": im Abruf ist weder die Nummer lesbar"))
+
+    def test_die_strassenart(self):
+        self.assertTrue(mod.hat_strassenart("liebigweg"))
+        self.assertTrue(mod.hat_strassenart("bergstraße"))
+        self.assertFalse(mod.hat_strassenart("am neuen baum"))
+
+    def test_zwei_einteilige_strassen_werden_unterschieden(self):
+        # „Liebigweg 99“ ✗✗ gegen „Liebigstr. 72“ ✗✗ - die beiden teilen kein
+        # Wort ✗✗, darum muss die Strassenart ✗✗ entscheiden ✗✗ ✓ ✓
+        name_notiz, _ = mod.strasse_zerlegen("Liebigweg 99")
+        name_dossier, _ = mod.strasse_zerlegen("Liebigstr. 72")
+        self.assertNotEqual(name_notiz.lower(), name_dossier.lower())
+        self.assertTrue(mod.hat_strassenart(name_notiz))
+        self.assertFalse(mod.gemeinsames_wort(name_notiz, name_dossier))
+
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

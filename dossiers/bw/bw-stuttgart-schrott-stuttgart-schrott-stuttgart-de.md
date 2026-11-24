@@ -4,7 +4,6 @@ name: Schrott Stuttgart (schrott-stuttgart.de)
 trader_type: schrotthaendler
 state: BW
 city: Stuttgart
-street: ''
 postcode: '70182'
 street: Weberstr. 25
 lat: 48.7724009

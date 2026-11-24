@@ -145,6 +145,17 @@ FUNKTIONSWOERTER = {
     "auch", "noch", "nicht", "weder", "sondern", "wird", "werden", "wurde"}
 
 
+def hat_strassenart(name):
+    """Trägt der **Name** ✓✓ eine **Strassenart** ✓✓ ? ✓✓
+
+    „Liebigweg“ ✓✓ und „Bergstr.“ ✓✓ tragen eine ✓✓ - „Am Neuen Baum“ ✓✓
+    nicht ✓✓, **teilt** ✓✓ aber **Wörter** ✓✓ mit der Dossier-Strasse ✓✓
+    ✓ ✓
+    """
+    klein = (name or "").lower()
+    return any(art in klein for art in STRASSENARTEN)
+
+
 def strassenbehauptung(wert):
     """Ist der **Text** ✓✓ eine **Strassenbehauptung** ✓✓ ?
 
@@ -155,12 +166,21 @@ def strassenbehauptung(wert):
     w = (wert or "").strip()
     if not w:
         return False
-    if re.search(r"[.;:,]", w):
+    # Ein **Doppelpunkt** ✓✓ oder ein **Semikolon** ✓✓ beendet den Satz ✓✓ -
+    # ein **Punkt** ✓✓ ist eine **Abkuerzung** ✓✓ („Bergstr. 5“ ✓✓) ✓✓ ✓ ✓
+    if re.search(r"[;:]", w):
         return False
     woerter = [x for x in re.split(r"[^\wäöüßÄÖÜ]+", w.lower()) if x]
     if not woerter:
         return False
     return not all(x in FUNKTIONSWOERTER for x in woerter)
+
+
+# Die **Strassenart** ✓✓ - „Straße“ ✓✓, „Weg“ ✓✓, „Platz“ ✓✓ … und die
+# Abkuerzung „str.“ ✓✓ (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+STRASSENARTEN = ("straße", "strasse", "str", "weg", "platz", "ring", "allee", "ufer",
+                 "damm", "graben", "steig", "stieg", "gasse", "hof", "markt", "brücke",
+                 "chaussee", "garten", "berg")
 
 
 def strasse_zerlegen(wert):
@@ -355,10 +375,12 @@ def main() -> int:
                                             "die Notiz nennt die Hausnummer "
                                             "**%s** - das Frontmatter nennt "
                                             "**%s**" % (_nr_notiz, _nr_dossier)))
-                    elif gemeinsames_wort(_name_notiz, _name_dossier):
-                        # eine **andere** Strasse ✓✓ - die Notiz nennt
-                        # denselben Strassennamen ✓✓, aber mit anderen
-                        # Woertern ✓✓ ✓ ✓
+                    elif (hat_strassenart(_name_notiz)
+                          or gemeinsames_wort(_name_notiz, _name_dossier)):
+                        # eine **andere** Strasse ✓✓ - zwei **einteilige** ✓✓
+                        # Strassennamen ✓✓ teilen **kein** ✓✓ Wort ✓✓, darum
+                        # zaehlt die **Strassenart** ✓✓ (Befund aus dem Review
+                        # vom 24.11.2026 ✓✓) ✓✓ ✓ ✓
                         befunde.append((rel, "street",
                                         "die Notiz nennt die Straße **%s** - das "
                                         "Frontmatter nennt **%s**"
