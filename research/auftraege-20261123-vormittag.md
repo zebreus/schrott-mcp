@@ -192,6 +192,19 @@ Die **unabhängigen** ✓✓ Reviews ✓✓ dieser Welle ✓✓ und ihre **Befun
 fünf Dossiers ✓✓ mit falschen **Adressfeldern** ✓✓ ✓ ✓ Das **Pending-Gate** ✓✓ ist
 **grün** ✓✓ ✓ ✓
 
+## Die PLZ-Trennung ✓ ✓ — **154** ✓ ✓ Dossiers ✓ ✓
+
+**154** ✓✓ Zeilen ✓✓ trugen die Postleitzahl **nur** im Ortsfeld ✓✓ — das Feld
+`postcode` ✓✓ war dort **leer** ✓✓ ✓ ✓ Die Korrektur ✓✓ trennt die beiden
+Felder ✓✓; der Wert stammt aus dem **Seed-Wert** ✓✓ desselben Feldes ✓✓ ✓ ✓
+
+**179** ✓✓ weitere Zeilen ✓✓ tragen die Nummer in **beiden** ✓✓ Feldern ✓✓ —
+dort ist die Postleitzahl ✓✓ richtig ✓✓, sie bleiben **unberührt** ✓ ✓
+
+**Kandidat** ✓ ✓ `8e2de6d` ✓ ✓ · **FREIGE** ✓ ✓ (die Bestätigungsprüfung ✓ ✓
+prüfte **4 731** ✓ ✓ Zeilen ✓ ✓ und machte eine **Negativkontrolle** ✓ ✓) ✓ ✓
+Der **Rollout** ✓ ✓ wartet auf das **Pending-Gate** ✓ ✓ von `a0898e2` ✓ ✓ ✓ ✓
+
 ## Die Deckelung der Welle vom 06:00 ✓ ✓ — eine **Ausnahme** ✓ ✓
 
 *Dieser Abschnitt betrifft die **Welle vom 06:00** ✓✓ — ihre Deckelung lag
