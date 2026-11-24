@@ -12,6 +12,24 @@ export PATH=/root/.cargo/bin:$PATH
 export HOME=/root CARGO_HOME=/root/.cargo RUSTUP_HOME=/root/.rustup
 
 cd "$ROOT"
+
+# Die **volle** ✓✓ Commit-Hash ✓✓ - `pin_digests.py` ✓✓ vergleicht ✓✓ den
+# **vollen** ✓✓ Hash ✓✓ und schlaegt sonst **fehl** ✓✓ (Befund vom
+# 24.11.2026 ✓✓) ✓✓
+COMMIT=$(git rev-parse "$COMMIT^{commit}")
+
+# Der **Plattenplatz** ✓✓ - ein Release-Zyklus braucht **viel** Platz ✓✓
+# (der Build ✓✓, die Workspace-Tests ✓✓ und die **Probe** ✓✓ mit ihren
+# Datenbankkopien ✓✓) ✓✓ Bei **voller** ✓✓ Partition ✓✓ bricht der Build
+# **ab** ✓✓ und der Kandidat **nicht** ✓✓ (Befund vom 24.11.2026 ✓✓) ✓✓
+FREI_GB=$(df --output=avail -BG "$ROOT" | tail -1 | tr -dc '0-9')
+if [ "$FREI_GB" -lt 8 ]; then
+  echo "PLATTE: nur ${FREI_GB} GB frei - der Release-Zyklus braucht mindestens 8 GB"
+  echo "PLATTE: alte Probeordner und alte Rollout-Backups bitte raeumen"
+  exit 1
+fi
+echo "PLATTE OK: ${FREI_GB} GB frei"
+
 echo "== candidate $COMMIT =="
 git cat-file -e "$COMMIT^{commit}"
 TREE=$(git rev-parse "$COMMIT^{tree}")
