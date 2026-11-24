@@ -624,3 +624,29 @@ disk is full**“ ✓✓ ✓ ✓ — ein **Fehler** ✓✓ der **Maschine** ✓�
 
 **Der Speicher** ✓✓ ist **wieder** ✓✓ frei ✓✓ (**1,7 GB** ✓✓ in `/tmp` ✓✓,
 **22 GB** ✓✓ auf der **Platte** ✓✓) ✓✓ ✓ ✓
+
+## 15) Die **Welle vom 24.11.2026, 20:00** ✓✓ — **ausgerollt** ✓✓ (**24.11.2026, 21:30 UTC** ✓✓)
+
+**Kandidat** ✓✓ `5fddbe37` ✓✓ · **Rollout** ✓✓ **21:24 UTC** ✓✓ ✓ ✓
+
+| Die Wirkung ✓✓ | Zahl ✓✓ |
+|---|---|
+| **Punkt gesetzt** ✓✓ | **2** ✓✓ |
+| **Punkt ersetzt** ✓✓ | **11** ✓✓ |
+| **Punkt bleibt unverändert** ✓✓ | **1** ✓✓ |
+| **Punkt entfernt** ✓✓ | **35** ✓✓ |
+| **Kein Standortpunkt** ✓✓ | **11** ✓✓ |
+
+**Die dreizehn** ✓✓ gesetzten **und** ✓✓ ersetzten Punkte ✓✓ stehen **mit**
+✓✓ den **gemessenen** ✓✓ Koordinaten ✓✓ in der **Produktion** ✓✓ ✓ ✓
+
+**Mit** ✓✓ diesem **Rollout** ✓✓ ging der **Gerwischer**-Handler ✓✓
+**live** ✓✓ ✓ ✓
+
+**Die Nachprüfung** ✓✓ aller **sieben** ✓✓ Releases ✓✓ ist **grün** ✓✓ —
+**509** ✓✓ Dossiers ✓✓ **ohne** ✓✓ **Befund** ✓✓ ✓ ✓
+
+**Der Standortbestand** ✓✓ **neu** ✓✓ **gemessen** ✓✓: **317** ✓✓ Dossiers
+✓✓ mit **Anschrift** ✓✓ und **ohne** ✓✓ **Punkt** ✓✓ (**274** ✓✓ davon **ohne**
+✓✓ **Website** ✓✓) ✓ ✓ — **fünf** ✓✓ weitere **Wellen** ✓✓ zu je
+**sechzig** ✓✓ ✓ ✓
