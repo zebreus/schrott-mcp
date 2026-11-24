@@ -53,19 +53,20 @@ zurücknehmen ✓✓ — das Feld `postcode` ✓✓ bleibt **unberührt** ✓✓
 ✓✓, **drei** ✓✓ in der 09:00-Welle ✓✓) ✓✓ ✓ ✓ Sie darf **nicht** ✓✓ in einen
 Release der Welle ✓✓ hineinlaufen ✓✓ ✓ ✓
 
-## 3) Die **drei** ✓✓ dauerhaft fehlschlagenden Handler ✓✓
+## 3) Die **drei** ✓✓ dauerhaft fehlschlagenden Handler ✓✓ — **nachgeprüft** ✓✓
 
 Sie stehen **außerhalb** ✓✓ des Release-Scopes ✓✓ und sind **kein** ✓✓ Befund
-der Releases ✓✓ ✓ ✓
+der Releases ✓✓ ✓ ✓ **Alle drei** ✓✓ sind **richtig** ✓✓ — **live** ✓✓
+nachgeprüft ✓✓ am **24.11.2026** ✓✓, **11:20 UTC** ✓✓ ✓ ✓
 
-| Handler | Letzter Lauf | Meldung |
-|---|---|---|
-| `be-treptow-kopenick-amr-…` ✓ ✓ | 24.11.2026, 06:36 UTC ✓ ✓ | **HTTP 502** ✓✓ — die Quelle ist **nicht erreichbar** ✓✓ ✓ ✓ |
-| `nw-munster-a-z-recycling-udo-salzsieder` ✓ ✓ | 24.11.2026, 06:21 UTC ✓ ✓ | „**verdächtige gleichmäßige Preisleiter** ✓✓ über mehrere …“ ✓✓ ✓ ✓ |
-| `th-zella-mehlis-wahl-co-inh-thomas-madeiski` ✓ ✓ | 24.11.2026, 05:20 UTC ✓ ✓ | „**Preisstand ist älter als 24 Stunden** ✓✓; tagesabhängige Richtwerte werden …“ ✓✓ ✓ ✓ |
+| Handler | Die Meldung ✓✓ | Der **live** ✓✓ Befund ✓✓ | Das Urteil ✓✓ |
+|---|---|---|---|
+| `be-treptow-kopenick-amr-…` ✓✓ | „**HTTP 502**“ ✓✓ | `http://www.amr-schrottplatz.de` ✓✓ → **502** ✓✓ · `https://…` ✓✓ → **000** ✓✓ (kein TLS) ✓✓ | Die **Quelle** ✓✓ ist **nicht erreichbar** ✓✓ ✓ ✓ Kein **Owner-Problem** ✓✓ ✓ ✓ |
+| `nw-munster-a-z-recycling-udo-salzsieder` ✓✓ | „**verdächtige gleichmäßige Preisleiter** ✓✓ über mehrere …“ ✓✓ | Die Seite ✓✓ (HTTP **200** ✓✓) ✓✓ nennt **Platzhalter** ✓✓: Mischschrott **1,23/1,24/1,25** ✓✓ · Zink **1,26/1,27/1,28** ✓✓ · Blei **1,29/1,30/1,31** ✓✓ · Kupfer **1,32/1,33/1,34** ✓✓ · Messing **1,35/1,36/1,37** ✓✓ · Haushaltskabel **1,38/1,39/1,40** ✓✓ ✓ ✓ **Fünf** ✓✓ Karten ✓✓ mit **gleicher** ✓✓ Spanne ✓✓ und **gleichem** ✓✓ Schritt ✓✓ ✓ ✓ | Die **Regel** ✓✓ greift **richtig** ✓✓ ✓ ✓ Zink ✓✓, Blei ✓✓ und Kupfer ✓✓ zu **1,3 €/kg** ✓✓ sind **wirtschaftlich** ✓✓ **unmöglich** ✓✓ ✓ ✓ **Fail closed** ✓✓ ist **richtig** ✓✓ ✓ ✓ |
+| `th-zella-mehlis-wahl-co-inh-thomas-madeiski` ✓✓ | „**Preisstand ist älter als 24 Stunden** ✓✓“ ✓✓ | Die Seite ✓✓ nennt den **20.11.2026** ✓✓ und bezeichnet die Werte selbst als **„Zur Orientierung“** ✓✓ — der **Tagespreis** ✓✓ werde **telefonisch** ✓✓ geklärt ✓✓ ✓ ✓ | Die **Regel** ✓✓ greift **richtig** ✓✓ ✓ ✓ **Tagesabhängige** ✓✓ Richtwerte ✓✓ gehören **nicht** ✓✓ in die Preistabelle ✓✓ ✓ ✓ |
 
-**MKM** ✓✓ läuft wieder **grün** ✓✓ — **47** ✓✓ Preise ✓✓ und **14** ✓✓ Annahmen ✓✓
-um **01:25:25 UTC** ✓✓ ✓ ✓
+**Die drei** ✓✓ sind damit **keine** ✓✓ offenen **Datenfehler** ✓✓ ✓ ✓ **Kein**
+✓✓ Auftrag ✓✓ ✓ ✓
 
 ## 4) Die **Nachprüfungen** ✓✓
 
