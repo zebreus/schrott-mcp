@@ -171,9 +171,11 @@ fn extract_info(imp: &str) -> Result<TraderInfo, IngestError> {
     let doc = Html::parse_document(imp);
     let h2_sel = Selector::parse("h2").expect("valid selector");
     let p_sel = Selector::parse("p").expect("valid selector");
-    let hat_anker = doc
-        .select(&h2_sel)
-        .any(|h| h.text().collect::<String>().contains("Angaben gemäß § 5 TMG"));
+    let hat_anker = doc.select(&h2_sel).any(|h| {
+        h.text()
+            .collect::<String>()
+            .contains("Angaben gemäß § 5 TMG")
+    });
     if !hat_anker {
         return Err(IngestError::Parse {
             url: IMPRESSUM_URL.to_owned(),
