@@ -157,6 +157,51 @@ Runde ✓✓ ✓ ✓
 
 **Die Liste** ✓✓ liegt in `research/geokodierung-rueckstand-20261124.json` ✓✓ ✓ ✓
 
+## 4d) Die **Welle vom 24.11.2026, 12:00** ✓✓ — **läuft** ✓✓
+
+**Stand** ✓✓ (24.11.2026, 12:05 UTC ✓✓): **sechzig** ✓✓ frische Dossiers ✓✓ aus
+**fünf** ✓✓ **neuen** ✓✓ Bundesländern ✓✓ — **BE** ✓✓ **BW** ✓✓ **HH** ✓✓ **ST** ✓✓
+**TH** ✓✓ ✓ ✓
+
+| Shard | Bundesland | Dossiers |
+|---|---|---|
+| **A** ✓✓ | BE ✓✓ | **12** ✓✓ |
+| **B** ✓✓ | BW ✓✓ | **12** ✓✓ |
+| **C** ✓✓ | HH ✓✓ | **12** ✓✓ |
+| **D** ✓✓ | ST ✓✓ | **12** ✓✓ |
+| **E** ✓✓ | TH ✓✓ | **12** ✓✓ |
+
+**Die Ziehung** ✓✓ ✓ ✓ **Null** ✓✓ Überschneidung ✓✓ mit den Wellen vom **03:00**
+✓✓ und **09:00** ✓✓ ✓ ✓ **Null** ✓✓ mit allen **21** ✓✓ versionierten Scopes ✓✓ ✓ ✓
+**Pool** ✓✓ **1669** ✓✓ → nach dem Ausschluss ✓✓ **498** ✓✓ ✓ ✓
+
+**Die Deckelung** ✓✓ ✓ ✓ Die heutigen Wellen haben **NW** ✓✓, **HE** ✓✓, **NI** ✓✓,
+**RP** ✓✓ und **BY** ✓✓ bearbeitet ✓✓ — diese Welle geht deshalb in **fünf**
+✓✓ **unberührte** ✓✓ Länder ✓✓ ✓ ✓
+
+**Ein** ✓✓ Dossier ✓✓ (`hh-billbrook-alt-und-buntmetallhandel-dejan` ✓✓) liegt in
+**beiden** ✓✓ Runden ✓✓ — die **Standortrunde** ✓✓ lässt es **aus** ✓✓ und
+**wartet** ✓✓ auf das **Ergebnis** ✓✓ der Welle ✓✓ ✓ ✓
+
+## 4e) Die **Standortrunde** ✓✓ für die **29** ✓✓ Dossiers ✓✓ — **läuft** ✓✓
+
+**Stand** ✓✓ (24.11.2026, 12:10 UTC ✓✓): **zwei** ✓✓ Recherche-Agenten ✓✓ auf
+**zwei** ✓✓ Worktrees ✓✓ ✓ ✓ **Vierzehn** ✓✓ Dossiers ✓✓ in **Shard A** ✓✓
+(**HH** ✓✓ **BY** ✓✓ **NW** ✓✓) ✓✓ und **vierzehn** ✓✓ in **Shard B** ✓✓
+(**HB** ✓✓ **HE** ✓✓ **MV** ✓✓ **NI** ✓✓ **RP** ✓✓ **SL** ✓✓ **SN** ✓✓ **ST** ✓✓) ✓✓ ✓ ✓
+
+**Der Auftrag an die Agenten** ✓✓: **recherchieren** ✓✓ und **dokumentieren** ✓✓ —
+**keine** ✓✓ Koordinate **setzen** ✓✓, **kein** ✓✓ `clear_fields` ✓✓ ändern ✓✓ ✓ ✓
+**Die** ✓✓ **Standortentscheidung** ✓✓ **trifft** ✓✓ der **Owner** ✓✓ ✓ ✓
+
+**Die drei** ✓✓ Fragen ✓✓ je Dossier ✓✓ ✓ ✓
+
+| Frage ✓✓ | Das Kriterium ✓✓ |
+|---|---|
+| Die **Quelle** ✓✓ über das **Geschäft** ✓✓ selbst ✓✓ | Impressum ✓✓ · Standortseite ✓✓ · amtliches Register ✓✓ — eine **Verzeichnisadresse** ✓✓ allein ist **kein** ✓✓ Standortnachweis ✓✓ ✓ ✓ |
+| Das **adressierte Objekt** ✓✓ | ein Objekt ✓✓ mit `addr:street` ✓✓ **und** ✓✓ `addr:housenumber` ✓✓ **an** ✓✓ genau dieser Adresse ✓✓ ✓ ✓ |
+| Der **gespeicherte Punkt** ✓✓ | die **Distanz** ✓✓ zum Objekt ✓✓ (Haversine ✓✓, Erdradius **6371 km** ✓✓) ✓✓ ✓ ✓ |
+
 ## 5) Die Zeile `rp-11880-…` ✓✓
 
 **Entschieden** ✓✓: sie bleibt `pruefung` ✓✓ mit **dokumentiertem** ✓✓
