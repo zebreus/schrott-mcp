@@ -377,3 +377,46 @@ Artikel **ohne** ✓✓ `data-staffel` ✓✓ ✓ ✓ **Der Handler** ✓✓ hat
 **10** ✓✓ (Audit ✓✓) ✓✓, **0** ✓✓ Fehler ✓✓ ✓ ✓
 
 **Kein offener MKM-Auftrag** ✓✓ mehr ✓✓ ✓ ✓
+
+## 8) Die **Werkzeuglücke** ✓✓ des **Adress-Gates** ✓✓ — **entschieden** ✓✓ (**24.11.2026, 18:20 UTC** ✓✓)
+
+**Das Adress-Gate liest nur die Korrektur-Sektion** ✓✓ — die **Recherche**-Notizen
+✓✓ werden **nie** ✓✓ adresslich geprüft ✓✓ ✓ ✓ Genau darum blieb der falsche
+Wert von Rehsen ✓✓ („34 m“ ✓✓) unentdeckt ✓✓ ✓ ✓
+
+**Die Messung** ✓✓ an der **Welle vom 12:00** ✓✓ (**60** ✓✓ Dossiers ✓✓):
+
+| Die Messung ✓✓ | Der Wert ✓✓ |
+|---|---|
+| Die **Sätze** ✓✓ mit einer **Distanz** ✓✓ in den **Recherche**-Notizen ✓✓ | **117** ✓✓ ✓ ✓ |
+| davon nennen **ein Objekt** ✓✓ (way/node/relation ✓✓) | **29** ✓✓ ✓ ✓ |
+| davon nennen **dazu** ✓✓ den **alten Produktionspunkt** ✓✓ | **24** ✓✓ ✓ ✓ |
+| davon nennen **nur** ✓✓ ein **Verzeichnis** ✓✓ oder einen **Ort** ✓✓ | **88** ✓✓ ✓ ✓ |
+
+**Die Entscheidung** ✓✓: Das Gate liest **weiterhin** ✓✓ **nur** ✓✓ die
+**Korrektur-Sektion** ✓✓ ✓ ✓ **Der Grund** ✓✓ ist **gemessen** ✓✓, **nicht**
+✓✓ angenommen ✓✓ ✓ ✓
+
+**Warum nicht** ✓✓: Die Recherche-Notizen zeichnen den Stand **vor** ✓✓ der
+✓✓ Korrektur ✓✓ auf ✓✓ Ihre Distanzen messen **andere Ziele** ✓✓ — den
+**alten** ✓✓ **Produktionspunkt** ✓✓, einen **Verzeichniseintrag** ✓✓, einen
+**Ort** ✓✓, einen **Suchradius** ✓✓ ✓ ✓ Nach dem Rollout ✓✓ gibt es den
+**alten** ✓✓ **Punkt** ✓✓ **nicht** ✓✓ **mehr** ✓✓ ✓ ✓ Ein Gate, das die Notizen
+✓✓ als Aussagen über den **neuen** ✓✓ Stand prüfte, erzeugte **Fehlbefunde**
+✓✓ ✓ ✓ **Systematisch** ✓✓, nicht **vereinzelt** ✓✓ ✓ ✓
+
+**Die Kontrolle** ✓✓ für die Recherche-Notizen ✓✓ ist die **Review-Runde**
+✓✓ ✓ ✓ Sie hat den Rehsen-Wert ✓✓ gefunden ✓✓ — im **dritten** ✓✓ Durchgang
+✓✓ ✓ ✓ Das ist **wirksam** ✓✓ ✓ ✓
+
+**Die Lehre** ✓✓ für die **Formatregel** ✓✓: Eine **Distanz** ✓✓, die zur
+✓✓ **Entscheidung** ✓✓ gehört, steht in der **Korrektur-Sektion** ✓✓ — dort
+✓✓ wird sie **geprüft** ✓✓ ✓ ✓ Die **Recherche**-Notiz darf sie **zusätzlich**
+✓✓ nennen ✓✓, sie ist der **Chronik** ✓✓ ✓ ✓
+
+**Der offene Rest** ✓✓: Für die **künftigen** ✓✓ Wellen ✓✓ könnte eine
+**Handshake**-Regel gelten ✓✓ — „**die Objektmitte** ✓✓ von `way/X` ✓✓ liegt
+✓✓ **N m** ✓✓ vom **gespeicherten** ✓✓ **Punkt** ✓✓ **entfernt**“ ✓✓ — dann
+✓✓ wäre eine **maschinelle** ✓✓ **Prüfung** ✓✓ der Notizen ✓✓ **möglich**
+✓✓ ✓ ✓ **Bis** ✓✓ dahin ✓✓ bleibt die **Review-Runde** ✓✓ die **Kontrolle**
+✓✓ ✓ ✓ **Kein** ✓✓ offener **Werkzeugauftrag** ✓✓ mehr ✓✓ ✓ ✓
