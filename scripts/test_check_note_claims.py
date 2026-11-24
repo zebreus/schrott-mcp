@@ -174,5 +174,56 @@ class EigenerDossierwert(unittest.TestCase):
         self.assertEqual(mod.ohne_anfuehrungszeichen("Rocky's Schrotthandel"),
                          "Rocky's Schrotthandel")
 
+
+class Strassenvergleich(unittest.TestCase):
+    """Die **Strasse** ✓✓ der Notiz ✓✓ gegen das Frontmatter ✓✓
+
+    (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓ - die Notiz darf die
+    Strasse **ohne** ✓✓ Hausnummer ✓✓ nennen ✓✓, und „Str.“ ✓✓ ist
+    „Straße“ ✓✓ ✓ ✓
+    """
+
+    def test_name_und_hausnummer_getrennt(self):
+        self.assertEqual(mod.strasse_zerlegen("Am Neuen Baum 4"),
+                         ("Am Neuen Baum", "4"))
+        self.assertEqual(mod.strasse_zerlegen("Stolzenmorgen 80-82"),
+                         ("Stolzenmorgen", "80-82"))
+        self.assertEqual(mod.strasse_zerlegen("„Obergasse“"),
+                         ("Obergasse", ""))
+        self.assertEqual(mod.strasse_zerlegen("Bergstr. 6"),
+                         ("Bergstraße", "6"))
+
+    def test_die_abkuerzung_ist_die_strasse(self):
+        self.assertEqual(mod.strasse_zerlegen("Bergstr. 6")[0].lower(),
+                         mod.strasse_zerlegen("Bergstraße")[0].lower())
+
+    def test_ein_gemeinsames_wort(self):
+        self.assertTrue(mod.gemeinsames_wort("Am Neuen Baum", "Am Neuen Baum 4"))
+        # **normalisiert** ✓✓ - „Bergstr.“ ✓✓ ist „Bergstraße“ ✓✓ ✓ ✓
+        self.assertTrue(mod.gemeinsames_wort(mod.strasse_zerlegen("Bergstr. 6")[0],
+                                             "Bergstraße"))
+        self.assertFalse(mod.gemeinsames_wort("kein", "Am Seiderberg 2"))
+
+    def test_eine_strassenbehauptung(self):
+        self.assertTrue(mod.strassenbehauptung("Am Neuen Baum"))
+        self.assertTrue(mod.strassenbehauptung("Bergstraße"))
+        # ein **Satz** ✓✓ und ein **Funktionswort** ✓✓ sind **keine** ✓✓
+        # Strassenbehauptung ✓✓ ✓ ✓
+        self.assertFalse(mod.strassenbehauptung(
+            ": im Abruf ist weder die Nummer lesbar"))
+        self.assertFalse(mod.strassenbehauptung("kein"))
+
+    def test_die_straße_steht_nicht_in_einem_fetten_wort(self):
+        # "**Straße** **: im Abruf ist ...**" ✓✓ ist **keine** ✓✓
+        # Strassenbehauptung ✓✓ (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+        self.assertIsNone(mod.DOSSIER_STRASSE_RE.search(
+            "die **Straße** **: im Abruf ist weder die Nummer lesbar**"))
+
+    def test_ein_einzelnes_osm_paar_mit_doppelpunkt_ist_ausgeblendet(self):
+        satz = "Das Objekt traegt (`addr:city`=Stuttgart) und das Feld bleibt."
+        self.assertNotIn("city", mod.osm_tags_maskieren(satz))
+
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

@@ -84,6 +84,12 @@ DOSSER_MARKER = re.compile(r"\b(Frontmatter|Eintrag|Dossier|Datensatz|Seed)\b", 
 def osm_tags_maskieren(satz):
     """Die Schluessel der **OSM-Attributliste** ✓ ✓ ausblenden ✓ ✓."""
     paare = list(OSM_SCHLUESSEL.finditer(satz))
+    # Ein **einzelnes** ✓✓ Paar ✓✓ mit einem **Doppelpunkt** ✓✓ im Schluessel
+    # ✓✓ (wie `addr:city` ✓✓) ✓✓ ist **eindeutig** ✓✓ ein OSM-Tag ✓✓ - ein
+    # Dossier-Feld ✓✓ traegt **nie** ✓✓ einen Doppelpunkt ✓✓ ✓ ✓ (Befund aus
+    # dem Review vom 24.11.2026 ✓✓) ✓✓
+    if len(paare) == 1 and ":" in paare[0].group(1):
+        return OSM_SCHLUESSEL.sub(" ", satz)
     if DOSSER_MARKER.search(satz) and re.search(AENDERUNG, satz, re.I):
         # Ein **Dossier-Marker** ✓✓ und ein **Aenderungsverb** ✓✓ schuetzen
         # eine **moegliche echte Behauptung** ✓✓ - aber **nur** ✓✓, wenn der
@@ -130,6 +136,61 @@ def osm_tags_maskieren(satz):
 # Die **eigenen** Werte des Dossiers ✓✓ - nennt eine Notiz ✓✓ den **Namen** ✓✓
 # oder die **Straße** ✓✓ des Dossiers ✓✓, muss sie **mit** ✓✓ dem Frontmatter
 # **uebereinstimmen** ✓✓ (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+# Woerter ✓✓, die **nie** ✓✓ Teil eines **Strassennamens** ✓✓ sind ✓✓
+# (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+FUNKTIONSWOERTER = {
+    "kein", "keine", "keinen", "keiner", "nur", "und", "oder", "der", "die",
+    "das", "den", "dem", "des", "ein", "eine", "einem", "einen", "ist", "sind",
+    "im", "in", "an", "am", "auf", "mit", "von", "zu", "für", "durch", "als",
+    "auch", "noch", "nicht", "weder", "sondern", "wird", "werden", "wurde"}
+
+
+def strassenbehauptung(wert):
+    """Ist der **Text** ✓✓ eine **Strassenbehauptung** ✓✓ ?
+
+    Eine Notiz darf die Strasse **ohne** ✓✓ Hausnummer ✓✓ nennen ✓✓, und
+    „Str.“ ✓✓ ist „Straße“ ✓✓ ✓ ✓ Ein **Satz** ✓✓ oder ein **Funktionswort**
+    ✓✓ ist **keine** ✓✓ Strassenbehauptung ✓✓ ✓ ✓
+    """
+    w = (wert or "").strip()
+    if not w:
+        return False
+    if re.search(r"[.;:,]", w):
+        return False
+    woerter = [x for x in re.split(r"[^\wäöüßÄÖÜ]+", w.lower()) if x]
+    if not woerter:
+        return False
+    return not all(x in FUNKTIONSWOERTER for x in woerter)
+
+
+def strasse_zerlegen(wert):
+    """Der **Strassenname** ✓✓ und die **Hausnummer** ✓✓ - getrennt ✓✓
+
+    (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓ - eine Notiz darf die
+    Strasse **ohne** ✓✓ Hausnummer ✓✓ nennen ✓✓, und „Str.“ ✓✓ ist „Straße“ ✓✓
+    ✓ ✓
+    """
+    w = (wert or "").strip()
+    for zeichen in ("'", '"', "„", "“", "\u201e"):
+        w = w.strip(zeichen).strip()
+    m = re.match(r"^(.*?)[,\s]+(\d+[a-zA-Z]?(?:\s*[-–]\s*\d+[a-zA-Z]?)?"
+                 r"(?:/\d+[a-zA-Z]?)?)\s*$", w)
+    name, nummer = (m.group(1), m.group(2)) if m else (w, "")
+    # „Str.“ ✓✓ am **Ende** ✓✓ eines Namens ✓✓ („Bergstr.“ ✓✓) ✓✓ und
+    # „strasse“ ✓✓ ✓ ✓
+    name = re.sub(r"(?i)str\.\s*", "straße ", name)
+    name = re.sub(r"(?i)\bstrasse\b", "straße", name)
+    return " ".join(name.split()).strip(), nummer
+
+
+def gemeinsames_wort(a, b):
+    """Teilen **zwei** ✓✓ Werte ✓✓ ein **Wort** ✓✓ von drei Buchstaben ✓✓
+    und mehr ✓✓ ? ✓✓ (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓"""
+    worte_a = {w for w in re.split(r"[^\wäöüßÄÖÜ]+", a.lower()) if len(w) >= 3}
+    worte_b = {w for w in re.split(r"[^\wäöüßÄÖÜ]+", b.lower()) if len(w) >= 3}
+    return bool(worte_a & worte_b)
+
+
 def ohne_anfuehrungszeichen(wert):
     """Der Wert **ohne** ✓✓ die Anfuehrungszeichen ✓✓ des Frontmatters ✓✓"""
     wert = (wert or "").strip()
@@ -139,7 +200,9 @@ def ohne_anfuehrungszeichen(wert):
 
 
 DOSSIER_NAME_RE = re.compile(r"\*\*Dossier\*\*[^:]*:\s*\*\*([^*]+)\*\*")
-DOSSIER_STRASSE_RE = re.compile(r"Straße\s*\*\*([^*]+)\*\*")
+# Die Strasse ✓✓ - **nicht** ✓✓ in einem **fett** ✓✓ markierten Wort ✓✓
+# (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+DOSSIER_STRASSE_RE = re.compile(r"(?<!\*)\bStraße\s*\*\*([^*]+)\*\*")
 
 VERNEINUNG = (r"\bbleibt?\b|\bunverändert\b|\bbleibend\b|\boffen\b|\bkein(?:e|em|er)?\b"
               r"|\bnicht\b|\bohne\b|\bweder\b|\bnach wie vor\b"
@@ -280,11 +343,26 @@ def main() -> int:
             _strasse = DOSSIER_STRASSE_RE.search(notiz)
             if _strasse:
                 _behauptet = _strasse.group(1).strip()
-                if _behauptet != ohne_anfuehrungszeichen(felder_cur.get("street", "")):
-                    befunde.append((rel, "street",
-                                    "die Notiz nennt die Straße **%s** - das "
-                                    "Frontmatter nennt **%s**"
-                                    % (_behauptet, felder_cur.get("street", ""))))
+                _name_notiz, _nr_notiz = strasse_zerlegen(_behauptet)
+                _name_dossier, _nr_dossier = strasse_zerlegen(
+                    felder_cur.get("street", ""))
+                if _name_notiz and _name_dossier and strassenbehauptung(_behauptet):
+                    if _name_notiz.lower() == _name_dossier.lower():
+                        # dieselbe Strasse ✓✓ - nennt die Notiz eine
+                        # Hausnummer ✓✓, muss sie **passen** ✓✓ ✓ ✓
+                        if _nr_notiz and _nr_dossier and _nr_notiz != _nr_dossier:
+                            befunde.append((rel, "street",
+                                            "die Notiz nennt die Hausnummer "
+                                            "**%s** - das Frontmatter nennt "
+                                            "**%s**" % (_nr_notiz, _nr_dossier)))
+                    elif gemeinsames_wort(_name_notiz, _name_dossier):
+                        # eine **andere** Strasse ✓✓ - die Notiz nennt
+                        # denselben Strassennamen ✓✓, aber mit anderen
+                        # Woertern ✓✓ ✓ ✓
+                        befunde.append((rel, "street",
+                                        "die Notiz nennt die Straße **%s** - das "
+                                        "Frontmatter nennt **%s**"
+                                        % (_behauptet, felder_cur.get("street", ""))))
     print(f"Dossiers im Scope: {len(dateien)}")
     print(f"Befunde: {len(befunde)}")
     for rel, feld, satz in befunde:

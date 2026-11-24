@@ -544,9 +544,17 @@ def main():
                 orte_des_objekts = [o for o in (tags.get("addr:city"),
                                                 tags.get("addr:suburb")) if o]
                 ort_des_dossiers_ohne_plz = ort_ohne_plz(ort_des_dossiers)
-                if orte_des_objekts and ort_des_dossiers_ohne_plz and not any(
-                        platz_passt(ort_des_dossiers_ohne_plz, o)
-                        for o in orte_des_objekts):
+                # Der **Ort** ✓✓ darf vom **Stadtteil** ✓✓ des Dossiers ✓✓
+                # abweichen ✓✓ - wenn die **Postleitzahl** ✓✓ **gleich** ✓✓
+                # ist ✓✓ (Hamburg ✓✓ gegen Rothenburgsort ✓✓) ✓✓ (Befund aus
+                # dem Review vom 24.11.2026 ✓✓) ✓✓
+                gleiche_plz = bool(
+                    plz_des_objekts and plz_des_objekts == plz_des_dossiers)
+                if (orte_des_objekts and ort_des_dossiers_ohne_plz
+                        and not any(
+                            platz_passt(ort_des_dossiers_ohne_plz, o)
+                            for o in orte_des_objekts)
+                        and not gleiche_plz):
                     befunde.append((pfad.stem,
                                     "%s/%s traegt den Ort %r, das Dossier %r"
                                     % (typ, oid, ", ".join(orte_des_objekts),

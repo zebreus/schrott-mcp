@@ -6,6 +6,7 @@ state: BW
 city: Stuttgart
 street: ''
 postcode: '70182'
+street: Weberstr. 25
 lat: 48.7724009
 lon: 9.1810625
 phone: 0711 12164475
@@ -65,4 +66,4 @@ Der Betreiberauftritt „Schrott Stuttgart“ gehört laut Impressum zu Kluj Sch
 
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt wird gesetzt
 
-- [Korrektur 24.11.2026: Der Standortpunkt dieses Dossiers wird **gesetzt** ✓✓ — auf **48.7724009 / 9.1810625** ✓✓ ✓✓ Die **Quelle über das Geschäft selbst** ✓✓ nennt die Anschrift ✓✓ — das **Impressum** ✓✓ (live am 24.11.2026 ✓✓) nennt wörtlich „Kluj Schrotthandel, Maciej Kluj, **Weberstr 25**, **70182 Stuttgart**“ ✓✓ ✓✓ Das **Adressobjekt** ✓✓ **way/119099448** ✓✓ trägt genau diese **Hausnummer 25** ✓✓ und diese **Postleitzahl 70182** ✓✓ (`addr:city`=Stuttgart ✓✓) ✓✓ ✓✓ **Das Feld `postcode`** ✓✓ wird dabei von **70184** ✓✓ auf **70182** ✓✓ **berichtigt** ✓✓ — **zwei** ✓✓ unabhängige Quellen ✓✓ nennen **70182** ✓✓: das **Impressum** ✓✓ des Betreibers ✓✓ und die **Tags** ✓✓ des Adressobjekts ✓✓ ✓✓ **Reichweite:** Beide Domains ✓✓ sind derselbe **Betreiber** ✓✓ und damit **eine** ✓✓ Quelle ✓✓, **keine** ✓✓ zweite ✓✓; ein Verzeichnis- oder Registerbeleg ✓✓ für den Dossiernamen „Schrott Stuttgart“ ✓✓ fehlt ✓✓ ✓✓ ✓✓ **Dossier** ✓✓: **Schrott Stuttgart (schrott-stuttgart.de)** ✓✓ ✓✓]
+- [Korrektur 24.11.2026: Der Standortpunkt dieses Dossiers wird **gesetzt** ✓✓ — auf **48.7724009 / 9.1810625** ✓✓ ✓✓ Die **Quelle über das Geschäft selbst** ✓✓ nennt die Anschrift ✓✓ — das **Impressum** ✓✓ (live am 24.11.2026 ✓✓) nennt wörtlich „Kluj Schrotthandel, Maciej Kluj, **Weberstr 25**, **70182 Stuttgart**“ ✓✓ ✓✓ Das **Adressobjekt** ✓✓ **way/119099448** ✓✓ trägt genau diese **Hausnummer 25** ✓✓ und diese **Postleitzahl 70182** ✓✓ (`addr:city`=Stuttgart ✓✓) ✓✓ ✓✓ **Die Felder `street` und `postcode`** ✓✓ werden dabei **neu gefüllt** ✓✓ — sie waren im Dossier **leer** ✓✓ ✓✓ **70182** ✓✓ nennen **zwei** ✓✓ voneinander **unabhängige** ✓✓ Quellen ✓✓: das **Impressum** ✓✓ des Betreibers ✓✓ und die **Tags** ✓✓ des Adressobjekts ✓✓ ✓✓ **Reichweite:** Beide Domains ✓✓ sind derselbe **Betreiber** ✓✓ und damit **eine** ✓✓ Quelle ✓✓, **keine** ✓✓ zweite ✓✓; ein Verzeichnis- oder Registerbeleg ✓✓ für den Dossiernamen „Schrott Stuttgart“ ✓✓ fehlt ✓✓ ✓✓ ✓✓ **Dossier** ✓✓: **Schrott Stuttgart (schrott-stuttgart.de)** ✓✓ ✓✓]
