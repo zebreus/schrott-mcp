@@ -281,6 +281,20 @@ Die Seite nennt **61** ✓✓ Sorten ✓✓ und ist **heute** ✓✓ auf den **2
 **Artikelpreis** ✓✓ entspricht ✓✓ und die bei **0 kg** ✓✓ beginnt ✓✓ — für
 **diese** ✓✓ zwei **gibt** ✓✓ es **keine** ✓✓ ✓ ✓
 
+**Die vierzehn** ✓✓ **Anfrage-Artikel** ✓✓ von heute ✓✓ (live aus dem Manifest
+✓✓) ✓ ✓
+
+`MKM-HM-01` ✓✓ · `MKM-HM-02` ✓✓ · `MKM-NE-01` ✓✓ · `MKM-NE-02` ✓✓ ·
+`MKM-NE-06` ✓✓ · `MKM-SCH-01` ✓✓ · `MKM-SCH-02` ✓✓ · `MKM-SCH-03` ✓✓ ·
+`SW10036` ✓✓ · `SW10037` ✓✓ · `SW10038` ✓✓ · `SW10039` ✓✓ · `SW10040` ✓✓ ·
+`SW10042` ✓✓ ✓ ✓
+
+**Die Artikel-IDs** ✓✓ sind **unverändert** ✓✓ — das Manifest führt **61** ✓✓,
+das Orakel **61** ✓✓, die Mengen **passen** ✓✓ ✓ ✓ **Neun** ✓✓ Artikel ✓✓ tragen
+**heute** ✓✓ **keinen** ✓✓ Preis ✓✓, im **Oktober** ✓✓ aber **noch** ✓✓ ✓ ✓ Die
+**Gruppen** ✓✓ „Hartmetall“ ✓✓ und „Schrott“ ✓✓ stehen auf der Seite **ohne**
+✓✓ Preiskarten ✓✓ ✓ ✓
+
 **Der Auftrag** ✓✓: **offen** ✓✓ ✓ ✓ **Erstens** ✓✓ das **Orakel** ✓✓ und die
 **geprüfte** ✓✓ Teilung **neu** ✓✓ **prüfen** ✓✓ — **47** ✓✓ Preise und **14**
 ✓✓ Anfragen ✓✓ sind der **Stand** ✓✓ der Quelle ✓✓ ✓ ✓ **Zweitens** ✓✓
