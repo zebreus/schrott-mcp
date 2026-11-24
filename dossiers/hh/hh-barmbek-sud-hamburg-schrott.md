@@ -129,4 +129,4 @@ Die offizielle Immobilienseite der **AlsterCity** beschreibt Osterbekstraße **9
 
 ### Korrektur 24.11.2026 (Owner, Geokodierung) — der Standortpunkt bleibt unverändert
 
-- [Korrektur 24.11.2026: **Der Standortpunkt dieses Dossiers bleibt unverändert — es entsteht **kein** ✓✓ Punkt ✓✓** Die **Hausnummer 90b** ✓✓ existiert in OpenStreetMap als **Turnhalle** ✓✓ ✓ ✓ Für den Betrieb an der Anschrift gibt es **keinen** ✓✓ Beleg ✓✓ ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓✓ ✓ ✓ ✓✓ **Dossier** ✓✓: **Hamburg schrott** ✓✓, Straße **Osterbekstr. 90B** ✓✓ ✓✓]
+- [Korrektur 24.11.2026: **Der Standortpunkt dieses Dossiers bleibt unverändert — es entsteht **kein** ✓✓ Punkt ✓✓** Die **Hausnummer 90b** ✓✓ existiert in OpenStreetMap **zweifach** ✓✓ — als **Turnhalle** ✓✓ (`node/1636827185` ✓✓) ✓✓ und als ein Objekt **ohne** ✓✓ `name` ✓✓ **und ohne** ✓✓ `operator` ✓✓ (`node/1754112219` ✓✓); die beiden liegen **44,7 m** ✓✓ auseinander ✓✓ ✓ ✓ Für den Betrieb an der Anschrift gibt es **keinen** ✓✓ Beleg ✓✓ ✓ ✓ Ein Ersatzpunkt entsteht **nicht** ✓✓ ✓ ✓ ✓✓ **Dossier** ✓✓: **Hamburg schrott** ✓✓, Straße **Osterbekstr. 90B** ✓✓ ✓✓]

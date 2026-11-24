@@ -91,7 +91,9 @@ ADRESS_HOUSNUMMER_RE = re.compile(
 PLZ_RE = re.compile(
     r"(?:PLZ\s*\*\*|postcode\*\*\s*)?\b(\d{5})\b(?=[^\d]{0,24}\b\w*[Ss]tadt|"
     r"\b\w*[Oo]rt|,\s*\*\*|,\s*\w)")
-KOORDINATE_RE = re.compile(r"\*\*(\d{2}\.\d{4,7})/(\d{1,3}\.\d{4,7})\*\*")
+# Die Koordinate ✓✓ - **mit** ✓✓ und **ohne** ✓✓ Leerraum ✓✓ vor dem
+# Schraegstrich ✓✓ (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+KOORDINATE_RE = re.compile(r"\*\*(\d{2}\.\d{4,7})\s*/\s*(\d{1,3}\.\d{4,7})\*\*")
 # eine **Firmenform** ✓✓ nach einer Zahl ✓✓ - die Zahl steht dann im
 # **Firmierungsnamen** ✓✓ und ist **keine** Hausnummer ✓✓ ✓ ✓
 FIRMENFORM_RE = re.compile(r"\s*(GmbH|mbH|AG|KG|UG|OHG|SE|Ltd|Inc|e\.?\s?K\.)\b")

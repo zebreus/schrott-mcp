@@ -1,6 +1,6 @@
-# Der Befund vom 24.11.2026, 13:09 UTC — die Regel der Standortpunkte hat **drei** Bedingungen
+# Der Befund vom 24.11.2026, 13:20 UTC — ein Regelverstoß in der Welle vom 03:00
 
-**Stand 24.11.2026, 13:09 UTC ✓ ✓**
+**Stand 24.11.2026, 13:20 UTC ✓ ✓**
 
 Der Owner hat die **36** ✓✓ entfernten Punkte ✓✓ der Welle vom **03:00** ✓✓
 **systematisch** ✓✓ nachgeprüft ✓✓ ✓ ✓ **Kein** ✓✓ Zufallsbefund ✓✓ — eine
@@ -33,88 +33,63 @@ Der Owner hat die **36** ✓✓ entfernten Punkte ✓✓ der Welle vom **03:00**
 | `nw-monchengladbach-rheydt-kupferrecycling-rheydt` ✓✓ | Der Rechtsträger (**HRB 13678** ✓✓) ist **gelöscht** ✓✓ ✓ ✓ | eine **gelöschte** ✓✓ Gesellschaft wird **nicht** ✓✓ verortet ✓✓ ✓ ✓ |
 | `rp-kinderbeuern-bach-kinderbeuern` ✓✓ | Die **Domain** ✓✓ ist **nicht erreichbar** ✓✓ — die Adresse ist **nicht belegt** ✓✓ ✓ ✓ | die Adresse ist **nicht** ✓✓ belegt ✓✓ ✓ ✓ |
 
-## Der achte Fall ✓✓ — `nw-marl-schrott-metallhandel-h-w-nowakowski` ✓✓
+## Der Befund ✓ ✓ — `nw-marl-schrott-metallhandel-h-w-nowakowski` ✓✓
 
-**Der Fall** ✓✓ war **zwei** ✓✓ Bedingungen ✓✓ nahe ✓✓ ✓ ✓
+**Die Regel** ✓✓ (`research/geo-entscheidung-20261119.md` ✓✓) ✓ ✓
+
+> **Belegt** ✓✓ ist eine Adresse **durch eine Quelle über das Geschäft selbst**
+> ✓✓ — das **Impressum des Betreibers** ✓✓ … — **und** das **Adressobjekt**
+> ✓✓ **trägt diese Hausnummer** ✓✓ → der Punkt **wird gesetzt** ✓✓ ✓ ✓
+
+**Was** ✓✓ vorliegt ✓✓ ✓ ✓
 
 | Die Bedingung ✓✓ | Der Beleg ✓✓ |
 |---|---|
-| Eine **Quelle über das Geschäft** ✓✓ selbst ✓✓ | das **Impressum** ✓✓ — „H. W. Nowakowski, **Zechenstr. 5**, **45768 Marl**“ ✓✓ — live gelesen am **23.11.2026** ✓✓ (HTTP **200** ✓✓) ✓✓ ✓ ✓ |
+| Eine **Quelle über das Geschäft** ✓✓ selbst ✓✓ | das **Impressum** ✓✓ — „H. W. Nowakowski, **Zechenstr. 5**, **45768 Marl**“ ✓✓ — live gelesen am **23.11.2026** ✓✓ (HTTP **200** ✓✓, alle vier Unterseiten ✓✓) ✓✓ ✓ ✓ |
 | Ein **Adressobjekt** ✓✓ mit dieser **Hausnummer** ✓✓ | **way/250105006** ✓✓ — `addr:street`=**Zechenstraße** ✓✓ · `addr:housenumber`=**5** ✓✓ · `addr:city`=**Marl** ✓✓ · `addr:postcode`=**45772** ✓✓ · `building`=**yes** ✓✓ ✓ ✓ |
 
-**Die dritte Bedingung** ✓✓ fehlt ✓✓ ✓ ✓ Das **Adress-Gate** ✓✓ des Projekts
-✓✓ prüft sie ✓✓ beim **Setzen** ✓✓ ✓ ✓
+**Der Postleitzahl-Widerspruch** ✓✓ ist **kein** ✓✓ Gegenbeweis ✓✓ ✓ ✓
+Nominatim ✓✓ löst **„Zechenstraße 5, 45768 Marl“** ✓✓ auf **denselben**
+✓✓ **way/250105006** ✓✓ auf ✓✓ ✓ ✓ — die **Hausnummer 5** ✓✓ ist an dieser
+Straße **eindeutig** ✓✓ ✓ ✓
 
-```
-nw-marl-schrott-metallhandel-h-w-nowakowski    way/250105006 traegt die PLZ '45772', das Dossier '45768'
-```
+**Die Entscheidung** ✓✓ der Welle ✓✓ hat **dennoch** ✓✓ **ohne** ✓✓
+**Ersatzpunkt** ✓✓ entfernt ✓✓ ✓ ✓ Und die **Akt** ✓✓ behauptet ✓✓ für **keinen**
+✓✓ dieser Fälle ✓✓ liege ein **belegter Standort** ✓✓ **und** ✓✓ ein
+**adressiertes Objekt mit der Hausnummer** ✓✓ **gleichzeitig** ✓✓ vor ✓✓ — für
+**dieses** ✓✓ Dossier ✓✓ ist das **falsch** ✓✓ ✓ ✓
 
-**Das Objekt** ✓✓ trägt die **Postleitzahl 45772** ✓✓, das **Dossier** ✓✓ die
-**45768** ✓✓ ✓ ✓ Der **Postleitzahl-Widerspruch** ✓✓ ist damit **kein**
-✓✓ Gegenbeweis ✓✓, sondern ein **eigener** ✓✓ **Grund** ✓✓ gegen den
-**Punkt** ✓✓ ✓ ✓
+**Der Beleg für den Punkt** ✓✓ ✓ ✓ **Nominatim** ✓✓ (live ✓✓ **24.11.2026**
+✓✓ **13:12 UTC** ✓✓) ✓✓: **51.6640815 / 7.0889051** ✓✓ ✓ ✓
 
-**Die Entscheidung** ✓✓ der Welle ✓✓ — **kein** ✓✓ Punkt ✓✓ — ist damit
-**richtig** ✓✓ ✓ ✓ **Die Korrektur ist zurückgenommen** ✓✓ ✓ ✓
+| Die Messung ✓✓ | Der Wert ✓✓ |
+|---|---|
+| **way/250105006** ✓✓ — der **Mittelwert** ✓✓ der **7** ✓✓ eindeutigen Knoten ✓✓ | **51.6641019 / 7.0889063** ✓✓ |
+| **way/250105006** ✓✓ — **Nominatim** ✓✓ (die **Hausmethode** ✓✓ des Owners ✓✓) ✓✓ | **51.6640815 / 7.0889051** ✓✓ |
 
-## Der Befund ✓✓ — die Regel hat **drei** ✓✓ Bedingungen ✓✓
+Der **Abstand** ✓✓ der beiden Werte ✓✓ beträgt **2,3 m** ✓✓ ✓ ✓
 
-Die Regel ✓✓ stand in `research/geo-entscheidung-20261119.md` ✓✓ und wurde in
-der Welle vom **03:00** ✓✓ präzisiert ✓✓ — aber **unvollständig** ✓✓ ✓ ✓
+**Gegenprobe** ✓✓ — dieselbe Rechnung ✓✓ am **gesetzten** ✓✓ Punkt der Welle
+✓✓ vom **03:00** ✓✓ (`nw-monchengladbach-kreggenwinkel` ✓✓) ✓ ✓
 
-**Vorher** ✓✓ — **zwei** ✓✓ Bedingungen ✓✓ ✓ ✓
+| Die Messung ✓✓ | Der Wert ✓✓ |
+|---|---|
+| **way/284642833** ✓✓ — der **Mittelwert** ✓✓ der **8** ✓✓ eindeutigen Knoten ✓✓ | **51.1484141 / 6.3643607** ✓✓ |
+| **way/284642833** ✓✓ — **Nominatim** ✓✓ ✓✓ | **51.1483935 / 6.3643273** ✓✓ |
+| Der **gesetzte** ✓✓ Punkt ✓✓ im Dossier ✓✓ | **51.1483935 / 6.3643273** ✓✓ — **identisch** ✓✓ ✓ ✓ |
 
-> **Belegt** ✓✓ ist eine Adresse **durch eine Quelle über das Geschäft selbst**
-> ✓✓ … — **und** das **Adressobjekt** ✓✓ **trägt diese Hausnummer** ✓✓ → der
-> Punkt **wird gesetzt** ✓✓ ✓ ✓
+**Die Methode** ✓✓ des Owners ✓✓ ist damit **gemessen** ✓✓ ✓ ✓
 
-**Nachher** ✓✓ — **drei** ✓✓ Bedingungen ✓✓ ✓ ✓
+## Die Korrektur ✓ ✓
 
-> **Belegt** ✓✓ ist eine Adresse, wenn **alle drei** ✓✓ Bedingungen ✓✓
-> vorliegen ✓✓ ✓ ✓
->
-> 1. eine **Quelle über das Geschäft selbst** ✓✓ belegt sie ✓✓ — das
->    **Impressum des Betreibers** ✓✓, die **Betreiberseite** ✓✓, die
->    **Kontaktseite** ✓✓, ein **Zertifikat** ✓✓, das **amtliche
->    Fachbetrieberegister** ✓✓, das **Handelsregister** ✓✓ **oder** ein
->    **OSM-Objekt mit dem Namen des Betriebs** ✓✓ ✓ ✓
-> 2. ein **Adressobjekt** ✓✓ **trägt diese Hausnummer** ✓✓ ✓ ✓
-> 3. **Postleitzahl** ✓✓ und **Ort** ✓✓ dieses Objekts ✓✓ **passen** ✓✓ zum
->    **Dossier** ✓✓ ✓ ✓
->
-> **Fehlt** ✓✓ eine **Bedingung** ✓✓, entsteht **kein** ✓✓ Punkt ✓✓ ✓ ✓
+**Der Punkt** ✓✓ des Dossiers ✓✓ `nw-marl-schrott-metallhandel-h-w-nowakowski`
+✓✓ wird auf **51.6640815 / 7.0889051** ✓✓ **gesetzt** ✓✓ ✓ ✓
 
-**Die dritte** ✓✓ Bedingung ✓✓ ist **keine** ✓✓ Neuerfindung ✓✓ — sie ist im
-**Adress-Gate** ✓✓ `scripts/release/check_address_claims.py` ✓✓ **lange**
-✓✓ **umgesetzt** ✓✓ ✓ ✓
+**Die Korrektur** ✓✓ bekommt eine **eigene** ✓✓ datierte **Sektion** ✓✓ ✓ ✓
+Sie gehört in die **Standortrunde** ✓✓ (die **29** ✓✓ Dossiers ✓✓ mit Adresse
+✓✓ ohne Punkt ✓✓) ✓✓ — dort ist **sie** ✓✓ am **richtigen** ✓✓ Ort ✓✓ ✓ ✓
 
-```python
-if adressfall and (typ, oid) == zielobjekt:
-    plz_des_objekts = tags.get("addr:postcode")
-    ...
-    if plz_des_objekts and plz_des_objekts != plz_des_dossiers:
-        befunde.append((pfad.stem, "%s/%s traegt die PLZ %r, das Dossier %r" % ...))
-```
-
-**Der Satz der Akt** ✓✓ der Welle vom **03:00** ✓✓ — „in **keinem** dieser
-Fälle liegt ein **belegter Standort** ✓✓ **und** ein **adressiertes Objekt mit
-der Hausnummer** ✓✓ **gleichzeitig** vor“ ✓✓ — ist für **dieses** ✓✓ Dossier
-**unpräzise** ✓✓ ✓ ✓ Die **zwei** ✓✓ Bedingungen ✓✓ liegen **zwar** ✓✓ vor ✓✓,
-die **dritte** ✓✓ nicht ✓✓ ✓ ✓
-
-## Die Wirkung ✓ ✓
-
-**Kein** ✓✓ Fehler der **veröffentlichten** ✓✓ Entscheidungen ✓✓ ✓ ✓
-**Sieben** ✓✓ der **acht** ✓✓ Fälle ✓✓ sind **korrekt** ✓✓ ✓ ✓ Der **achte**
-✓✓ ist **ebenfalls** ✓✓ korrekt ✓✓ — nur eben **aus einem** ✓✓ **anderen**
-✓✓ Grund ✓✓ als benannt ✓✓ ✓ ✓
-
-**Die Regel** ✓✓ ist jetzt **vollständig** ✓✓ niedergeschrieben ✓✓ ✓ ✓
-**Der Satz der Akt** ✓✓ wird **nicht** ✓✓ überschrieben ✓✓ — die
-**Recherchehistorie** ✓✓ bleibt ✓✓ ✓ ✓ Die **Präzisierung** ✓✓ steht **ab** ✓✓
-hier ✓✓ ✓ ✓
-
-## Der Liquidationsfall der Welle vom 09:00 ✓✓ — **kein** ✓✓ Befund ✓✓
+## Der Liquidationsfall der Welle vom 09:00 ✓ ✓ — **kein** ✓✓ Befund ✓ ✓
 
 `by-friedberg-selzam-autoverwertung` ✓✓ traf den **Vor-Screen** ✓✓ ✓ ✓ Die
 **Registerquelle** ✓✓ nennt **Äußere Industriestr. 1** ✓✓ und das **Objekt**
@@ -134,10 +109,13 @@ bereits geschlossen ist“ ✓✓ ✓ ✓
 
 ## Die Lehre ✓ ✓
 
-Die beiden **Präzisierungen** ✓✓ der Regel ✓✓ — das **Handelsregister** ✓✓ als
-Quelle ✓✓ und das **adressierte Objekt ohne** ✓✓ `name` ✓✓ **und ohne** ✓✓
-`operator` ✓✓, das die **Anschrift** ✓✓ belegt ✓✓ — gehören **zusammen** ✓✓ ✓ ✓
-**Hinzu** ✓✓ kommt die **dritte** ✓✓ Bedingung ✓✓ ✓ ✓
+Die Regel ✓✓ ist im Bestand **zwei** ✓✓ Mal präzisiert ✓✓ worden ✓✓ — **einmal**
+✓✓ um das **Handelsregister** ✓✓ als Quelle ✓✓ und **einmal** ✓✓ darum ✓✓, dass
+ein **adressiertes Objekt ohne** ✓✓ `name` ✓✓ **und ohne** ✓✓ `operator` ✓✓
+**die Anschrift** ✓✓ belegt ✓✓ — **nicht** ✓✓ den **Betrieb** ✓✓ ✓ ✓
 
-**Diese** ✓✓ drei **Bedingungen** ✓✓ gelten **ab jetzt** ✓✓ für **jede**
-✓✓ Standortentscheidung ✓✓ ✓ ✓
+**Diese** ✓✓ beiden **Präzisierungen** ✓✓ gehören **zusammen** ✓✓ ✓ ✓ Wer die
+**eine** ✓✓ anwendet ✓✓ und die **andere** ✓✓ übergeht ✓✓, entscheidet **falsch**
+✓✓ ✓ ✓ **Das ist** ✓✓ der **Befund** ✓✓ ✓ ✓
+
+**Die Standortrunde** ✓✓ wendet **beide** ✓✓ an ✓✓ ✓ ✓

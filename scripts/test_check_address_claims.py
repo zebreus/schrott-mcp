@@ -86,5 +86,28 @@ class Objektmesswerte(unittest.TestCase):
         self.assertAlmostEqual(mod.hav(*a, *b), mod.hav(*b, *a), places=6)
 
 
+
+class KoordinatenSchreibweisen(unittest.TestCase):
+    """Die **Koordinate** ✓✓ - **mit** ✓✓ und **ohne** ✓✓ Leerraum ✓✓
+
+    (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓ - ohne **Leerraum** ✓✓
+    blieb die Koordinate **ungeprueft** ✓✓ und der Gate meldete trotzdem
+    „Befunde: 0“ ✓✓ ✓✓
+    """
+
+    def test_mit_leerraum(self):
+        self.assertEqual(mod.KOORDINATE_RE.findall(
+            "auf **52.5163710 / 9.7356670**"),
+            [("52.5163710", "9.7356670")])
+
+    def test_ohne_leerraum(self):
+        self.assertEqual(mod.KOORDINATE_RE.findall(
+            "auf **49.3106526/8.3423660**"),
+            [("49.3106526", "8.3423660")])
+
+    def test_ohne_klammern_wird_nichts_gefunden(self):
+        self.assertEqual(mod.KOORDINATE_RE.findall("52.5163710 / 9.7356670"), [])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
