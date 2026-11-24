@@ -202,6 +202,41 @@ Runde ✓✓ ✓ ✓
 | Das **adressierte Objekt** ✓✓ | ein Objekt ✓✓ mit `addr:street` ✓✓ **und** ✓✓ `addr:housenumber` ✓✓ **an** ✓✓ genau dieser Adresse ✓✓ ✓ ✓ |
 | Der **gespeicherte Punkt** ✓✓ | die **Distanz** ✓✓ zum Objekt ✓✓ (Haversine ✓✓, Erdradius **6371 km** ✓✓) ✓✓ ✓ ✓ |
 
+## 4f) Der **MKM-Verifier** ✓✓ ist **rot** ✓✓ — die Quelle ist **gewandert** ✓✓
+
+**Befund** ✓✓ (read-only ✓✓, 24.11.2026, 14:30 UTC ✓✓) ✓ ✓
+
+```
+python3 scripts/verify-mkm-release.py --data-dir /var/lib/schrott-mcp --since 2026-11-24T12:50:25Z
+→ ok: false · articles 61 · numeric 47 · requests 14
+  "article quote/request partition 47/14 != 56/5"
+  "invalid numeric metadata/tier contract"
+  "successful completed post-rollout 56-price step missing"
+```
+
+**Der Handler selbst läuft grün** ✓✓ — seit dem **01:25 UTC** ✓✓ schreibt er
+**47** ✓✓ Preise und **14** ✓✓ Annahmen ✓✓ ✓ ✓ Die **Quelle** ✓✓
+(mkm-metals.de ✓✓) **teilt** ✓✓ heute **anders** ✓✓ als noch im **Oktober** ✓✓
+(56/5 ✓✓) ✓ ✓
+
+**Der Verifier** ✓✓ **nennt** ✓✓ das **selbst** ✓✓ ✓ ✓ „Fixed 56/5 needs review
+on source drift“ ✓✓ ✓ ✓ **Er** ✓✓ ist also **nicht** ✓✓ kaputt ✓✓ — seine
+**geprüfte** ✓✓ Erwartung ✓✓ ist **veraltet** ✓✓ ✓ ✓
+
+**Der dritte** ✓✓ Befund ✓✓ folgt **daraus** ✓✓ ✓ ✓ **Der zweite** ✓✓ ist **eigen**
+✓✓ ✓ ✓ Unter den **47** ✓✓ Preisen ✓✓ tragen **einige** ✓✓ eine **Staffel** ✓✓,
+deren **oberster** ✓✓ Preis **nicht** ✓✓ dem **Artikelpreis** ✓✓ entspricht ✓✓
+(`tiers[-1]["preis"] != source_price` ✓✓) ✓✓ — das **Vertrags** ✓✓ des Verifiers
+✓✓ verlangt **Gleichheit** ✓✓ ✓ ✓
+
+**Der Auftrag** ✓✓: **offen** ✓✓ ✓ ✓ **Die Quelle** ✓✓ **Artikel für Artikel**
+✓✓ gegen das **geprüfte** ✓✓ **Orakel** ✓✓
+(`crates/ingestion/src/traders/handlers/fixtures/mkm-reviewed-mapping-oracle-20261018.json`
+✓✓) halten ✓✓ und **entscheiden** ✓✓, ob die neue **Staffel** ✓✓ eine
+**Wandlung** ✓✓ der Quelle ✓✓ oder ein **Fehler** ✓✓ des Handlers ✓✓ ist ✓✓ ✓ ✓
+**Das ist kein Befund** ✓✓ der **Releases** ✓✓ — die Wellen ändern **Dossiers** ✓✓,
+**keine** ✓✓ MKM-Preise ✓✓ ✓ ✓
+
 ## 5) Die Zeile `rp-11880-…` ✓✓
 
 **Entschieden** ✓✓: sie bleibt `pruefung` ✓✓ mit **dokumentiertem** ✓✓
