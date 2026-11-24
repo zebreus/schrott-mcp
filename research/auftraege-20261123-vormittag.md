@@ -159,6 +159,9 @@ Die Welle vom 23.11.2026, **18:00** ✓ ✓ ✓ ✓
 - **Bericht** ✓ ✓ und **Release-Scope** ✓ ✓ ✓ ✓
 - **Release-Zyklus** ✓ ✓: grün ✓✓ (60 Zeilen ✓✓, 855 Tests ✓✓) ✓✓ · der Kandidat ist
   **gepinnt** ✓✓ (siehe `git log` ✓✓) ✓ ✓
+- **Rollout** ✓ ✓: **24.11.2026, 01:48:23 UTC** ✓ ✓ · Kandidat `a0898e2` ✓ ✓ ·
+  die **Nachprüfung** ✓ ✓ läuft um **03:30 UTC** ✓ ✓ (Job
+  `release-nachpruefung-a0898e2` ✓✓) ✓ ✓
 
 **Die Deckelung** ✓ ✓ liegt bei **zwölf** ✓ ✓ Dossiers je Bundesland ✓ ✓ — bei
 **acht** ✓ ✓ wären nur **48** ✓ ✓ möglich ✓ ✓ ✓ ✓
@@ -182,6 +185,12 @@ liegen ✓✓ ✓ ✓
 
 Die **unabhängigen** ✓✓ Reviews ✓✓ dieser Welle ✓✓ und ihre **Befunde** ✓✓ stehen in
 `research/reviews-20261123-1800.md` ✓✓ ✓ ✓
+
+## Die Korrekturrunde ✓ ✓ ist ausgerollt ✓ ✓
+
+**Rollout** ✓ ✓: **23.11.2026, 18:21:49 UTC** ✓ ✓ · Kandidat `63ef549` ✓ ✓ ·
+fünf Dossiers ✓✓ mit falschen **Adressfeldern** ✓✓ ✓ ✓ Das **Pending-Gate** ✓✓ ist
+**grün** ✓✓ ✓ ✓
 
 ## Die Deckelung der Welle vom 06:00 ✓ ✓ — eine **Ausnahme** ✓ ✓
 
