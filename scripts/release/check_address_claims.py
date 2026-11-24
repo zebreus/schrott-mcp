@@ -102,7 +102,7 @@ DISTANZ_RE = re.compile(r"liegt \*\*([\d.,]+)\s*(m|km)\*\*")
 TAGS_CACHE = {}
 GEO_CACHE = {}
 # Die **Rate-Limit** ✓✓ von Nominatim ✓✓ und der OSM-API ✓✓ darf **keinen**
-# **Falschbefund** ✓✓ erzeugen ✓✓ - ein **429** ✓✓ oder **503** ✓✓ ist
+# **Falschbefund** ✓✓ erzeugen ✓✓ - ein **429** ✓✓, **503** ✓✓ oder **629** ✓✓ ist
 # **kein** Fehler des Kandidaten ✓✓ ✓ ✓
 RATE_LIMIT = set()
 # Die **Wartezeiten** ✓✓ zwischen den **Versuchen** ✓✓ - sie **wachsen** ✓✓
@@ -127,7 +127,7 @@ def hole_tags(typ, oid):
             if fehler.code in (429, 500, 502, 503, 504) and versuch < len(WARTEZEITEN):
                 time.sleep(WARTEZEITEN[versuch])
                 continue
-            if fehler.code in (429, 503):
+            if fehler.code in (429, 503, 629):
                 RATE_LIMIT.add(schluessel)
             TAGS_CACHE[schluessel] = None
             return None
@@ -162,7 +162,7 @@ def hole_geo(typ, oid):
             if fehler.code in (429, 500, 502, 503, 504) and versuch < len(WARTEZEITEN):
                 time.sleep(WARTEZEITEN[versuch])
                 continue
-            if fehler.code in (429, 503):
+            if fehler.code in (429, 503, 629):
                 RATE_LIMIT.add(schluessel)
             daten = []
             break

@@ -57,7 +57,7 @@ einen **anderen Ort** ✓✓ — zwischen 151 m ✓✓ bis 217,0 km ✓✓ ✓�
 ### Bleibt ✓ ✓ — **15** ✓ ✓
 
 **Sechs** Punkte treffen die **Dossier-Adresse** ✓✓ — sie bleiben **Adressanker**
-✓✓, **zwei** ✓✓ davon **objektgenau** ✓✓ ✓ ✓
+✓✓, **drei** ✓✓ davon **objektgenau** ✓✓ (`bw-fichtenau-pfisterer-…` ✓✓, `he-eppertshausen-…` ✓✓, `ni-loxstedt-…` ✓✓) ✓ ✓
 
 **Ein** Punkt trifft die **belegte Straße** ✓✓ in **34 m** ✓✓ Abstand ✓✓ — die **Hausnummer** ✓✓ ist in OSM
 **nicht** ✓✓ belegt ✓✓ ✓ ✓
@@ -67,9 +67,9 @@ einen **anderen Ort** ✓✓ — zwischen 151 m ✓✓ bis 217,0 km ✓✓ ✓�
 
 ## Die eigene Nachmessung ✓ ✓
 
-Der Owner hat **alle 51** gespeicherten Punkte der Welle ✓✓ am 23.11.2026
-**selbst** zurückgelöst ✓✓ (Nominatim, Abruf 23.11.2026 ✓✓) — **51** Dossiers ✓✓ der
-Welle ✓✓ trugen **einen** Punkt ✓✓, **9** ✓✓ trugen **keinen** ✓✓ — und **alle
+Der Owner hat **alle 15** gespeicherten Punkte der Welle ✓✓ am 23.11.2026
+**selbst** zurückgelöst ✓✓ (Nominatim, Abruf 23.11.2026 ✓✓) — **15** Dossiers ✓✓ der
+Welle ✓✓ trugen **einen** Punkt ✓✓, **45** ✓✓ trugen **keinen** ✓✓ — und **alle
 60** Korrektur-Sektionen ✓✓ gegen die **OSM-API** ✓✓ geprüft ✓✓ — jedes genannte
 **Objekt** ✓✓ trägt die behauptete **Hausnummer** ✓✓, jede gesetzte
 **Koordinate** ✓✓ liegt auf ihrem Objekt ✓✓, jede **Distanz** ✓✓ stimmt mit dem

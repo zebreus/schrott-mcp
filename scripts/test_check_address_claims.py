@@ -136,5 +136,29 @@ class RateLimit(unittest.TestCase):
         cac.RATE_LIMIT.discard(schluessel)
 
 
+class RateLimit629(unittest.TestCase):
+    def test_629_wird_als_rate_limit_vermerkt(self):
+        import urllib.error
+        schluessel = ("way", "2")
+        cac.TAGS_CACHE.pop(schluessel, None)
+        cac.RATE_LIMIT.discard(schluessel)
+        fehler = urllib.error.HTTPError("u", 629, "Too Many Requests", None, None)
+
+        def kaputt(*args, **kwargs):
+            raise fehler
+
+        original = urllib.request.urlopen
+        urllib.request.urlopen = kaputt
+        try:
+            cac.WARTEZEITEN = (0, 0, 0)
+            ergebnis = cac.hole_tags("way", "2")
+        finally:
+            urllib.request.urlopen = original
+            cac.WARTEZEITEN = (3, 8, 20)
+        self.assertIsNone(ergebnis)
+        self.assertIn(schluessel, cac.RATE_LIMIT)
+        cac.RATE_LIMIT.discard(schluessel)
+
+
 if __name__ == "__main__":
     unittest.main()
