@@ -30,6 +30,21 @@ if [ "$FREI_GB" -lt 8 ]; then
 fi
 echo "PLATTE OK: ${FREI_GB} GB frei"
 
+# Das **Temporaerverzeichnis** ✓✓ - die Seed-Tests ✓✓ schreiben ihre
+# SQLite-Datenbanken ✓✓ in das Temporaerverzeichnis ✓✓ des Systems ✓✓
+# (tmpfs ✓✓, **kein** ✓✓ regulaer Plattenplatz ✓✓) ✓✓ Ein volles
+# tmpfs ✓✓ laesst die Tests ✓✓ mit "database or disk is full" ✓✓
+# **scheitern** ✓✓ - das ist **kein** ✓✓ Befund des Kandidaten ✓✓
+# (Befund vom 24.11.2026 ✓✓) ✓✓
+TEMP_DIR=$(python3 -c "import tempfile; print(tempfile.gettempdir())")
+TEMP_GB=$(df --output=avail -BG "$TEMP_DIR" | tail -1 | tr -dc '0-9')
+if [ "$TEMP_GB" -lt 2 ]; then
+  echo "TEMPFILES: nur ${TEMP_GB} GB frei in ${TEMP_DIR} - die Workspace-Tests brauchen dort Platz"
+  echo "TEMPFILES: alte Testverzeichnisse und alte Review-Sandboxes bitte raeumen"
+  exit 1
+fi
+echo "TEMPFILES OK: ${TEMP_GB} GB frei in ${TEMP_DIR}"
+
 echo "== candidate $COMMIT =="
 git cat-file -e "$COMMIT^{commit}"
 TREE=$(git rev-parse "$COMMIT^{tree}")
