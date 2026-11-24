@@ -19,24 +19,64 @@
   ],
   "scope": "The 60 Wave E slugs selected by the preserved 2026-10-11 manifest; state comparison only, not source or GEO validation.",
   "expectation_basis": "Values, complete Timeline notes, and seed_hash extracted only from the exact 6b3da663 private post-seed rehearsal DB. Never derived from production.",
-  "dossier_revision": "f576950",
-  "owner_review": "research/wave-20261119-0600-report.md",
+  "dossier_revision": "cdee9b9",
+  "owner_review": "research/wave-e-20261124-plz-owner.md",
   "revision": {
   "revised_on": "2026-10-28",
-  "revised_by": "Owner (Welle 19.11.2026, 06:00)",
-  "scope": "1 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases f576950 gehoben",
+  "revised_by": "Owner (PLZ-Trennung der Korrekturrunde vom 24.11.2026)",
+  "scope": "7 Zeile(n) der Wave-E-Scope geändert; die Hashes aller 60 Zeilen auf den Post-Seed-Stand des Releases cdee9b9 gehoben",
   "rows": [
     {
-      "slug": "st-sandau-schrotthandel-r-thieke",
+      "slug": "by-wurzburg-versbach-97078-pfeifer-rainer-schrotthandel",
       "fields": [
-        "description",
-        "name",
-        "status"
+        "postcode"
       ],
-      "reason": "Belegte Sachlage geaendert (status: pruefung -> aktiv); Owner-Entscheidung, keine Wertverbesserung; siehe research/wave-20261119-0600-report.md."
+      "reason": "Belegt in der PLZ-Trennung der Korrekturrunde vom 24.11.2026 verbessert; siehe research/wave-e-20261124-plz-owner.md."
+    },
+    {
+      "slug": "he-bad-emstal-34308-pohl-anita",
+      "fields": [
+        "postcode"
+      ],
+      "reason": "Belegt in der PLZ-Trennung der Korrekturrunde vom 24.11.2026 verbessert; siehe research/wave-e-20261124-plz-owner.md."
+    },
+    {
+      "slug": "he-eschborn-65760-pfaff-alexander",
+      "fields": [
+        "postcode"
+      ],
+      "reason": "Belegt in der PLZ-Trennung der Korrekturrunde vom 24.11.2026 verbessert; siehe research/wave-e-20261124-plz-owner.md."
+    },
+    {
+      "slug": "he-hanau-63456-pfragner-georg",
+      "fields": [
+        "postcode"
+      ],
+      "reason": "Belegt in der PLZ-Trennung der Korrekturrunde vom 24.11.2026 verbessert; siehe research/wave-e-20261124-plz-owner.md."
+    },
+    {
+      "slug": "he-spangenberg-34286-heinrich-kleinschmidt-rohprod",
+      "fields": [
+        "postcode"
+      ],
+      "reason": "Belegt in der PLZ-Trennung der Korrekturrunde vom 24.11.2026 verbessert; siehe research/wave-e-20261124-plz-owner.md."
+    },
+    {
+      "slug": "rp-worms-67549-kampfer",
+      "fields": [
+        "postcode"
+      ],
+      "reason": "Belegt in der PLZ-Trennung der Korrekturrunde vom 24.11.2026 verbessert; siehe research/wave-e-20261124-plz-owner.md."
+    },
+    {
+      "slug": "st-kothen-06366-mrr-schrottplatz-kothen",
+      "fields": [
+        "postcode"
+      ],
+      "reason": "Belegt in der PLZ-Trennung der Korrekturrunde vom 24.11.2026 verbessert; siehe research/wave-e-20261124-plz-owner.md."
     }
   ],
-  "unchanged_rows": 59
+  "unchanged_rows": 53
 },
   "traders": [
     {
@@ -90,8 +130,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "d1b3fa92ba59461aa24f2837f4043d16e06ea6e51afe43f205ca7f423edf9f10",
-      "seed_hash": "7ddf9773c12a446f"
+      "notes_sha256": "b615b762d10a9cb8abb55e2d669ffb3f721ca2324b1a8624ecf3f9d7a941009e",
+      "seed_hash": "5fc45db6ed31e8d8"
     },
     {
       "slug": "by-konigsberg-anger",
@@ -108,8 +148,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "336bdc8d77b2ef96b437341525ca2a7a6ad6398c088af4f59e99310053a59c92",
-      "seed_hash": "7aa9434c0c536acd"
+      "notes_sha256": "4d853a69b0804d40f42ac4f6282861d72ba24d298734817067df60f2042496a3",
+      "seed_hash": "ad204a81f669f032"
     },
     {
       "slug": "by-munchen-r-muller",
@@ -126,8 +166,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "66ec9770a742de590d19ecac8a5d6ddee69bd95cadb40bd4f35cb66ed9a3493a",
-      "seed_hash": "62b576e7cf719077"
+      "notes_sha256": "deaf708079fee59bdec2868a2b7ecda5c9d5e4d160bcade98537e5a5e987848a",
+      "seed_hash": "91f78e002656c035"
     },
     {
       "slug": "by-neustadt-a-d-aisch-stirling-industrie-metallhandel",
@@ -188,7 +228,7 @@
       "values": {
         "name": "Pfeifer Rainer Schrotthandel",
         "street": "",
-        "postcode": "",
+        "postcode": "97078",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -198,8 +238,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "183bf77b0c6abc169689019ac84d97f22ed0fcae43f320a64b27d655476a811e",
-      "seed_hash": "00301e3ea9a356c5"
+      "notes_sha256": "e3300e04ae294c9044b5f38787253ad1064878f3348adce43e30dc252335e465",
+      "seed_hash": "ef7f4cec43eebe7b"
     },
     {
       "slug": "hb-stuhr-thomas-seidel-schrotthandel",
@@ -242,7 +282,7 @@
       "values": {
         "name": "Pohl Anita",
         "street": "",
-        "postcode": "",
+        "postcode": "34308",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -252,8 +292,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "e1f9ce49f5f97c85c61bba667a29727d517f7c7630887cbf8bdb21012db46240",
-      "seed_hash": "c47a65aee0f0b8bc"
+      "notes_sha256": "2ff7d56323306de4d8f2f4f114cf10aeeb4421fa1b1ae2f4b9a8b1793351e575",
+      "seed_hash": "75df8bfb45b54086"
     },
     {
       "slug": "he-darmstadt-nord-hartmann-recycling",
@@ -314,7 +354,7 @@
       "values": {
         "name": "Pfaff Alexander",
         "street": "",
-        "postcode": "",
+        "postcode": "65760",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -324,8 +364,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "07ec649adfc92adadc8d4c4fc9c8ca565cbb284d2c529396f9e9b2e0f61b9e20",
-      "seed_hash": "471fec5986c10f5f"
+      "notes_sha256": "be161244f0079dd7d1f2e8330362b271d83e8c0361bff806b147afba0e9547c9",
+      "seed_hash": "829c165216481569"
     },
     {
       "slug": "he-fulda-dietershan-schrotthandel-stephan-goldbach",
@@ -342,15 +382,15 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "aa01ea5f05b22170d3a797d180e35e16dd12f52601a8dd498a1dd1787f8829ea",
-      "seed_hash": "ad4f0e96869cc4c9"
+      "notes_sha256": "be4eda8948421123d1197dee2e8476c8026c58746c9d3e4b166d5afa1fc87162",
+      "seed_hash": "853c8697c2113600"
     },
     {
       "slug": "he-hanau-63456-pfragner-georg",
       "values": {
         "name": "Pfragner Georg",
         "street": "",
-        "postcode": "",
+        "postcode": "63456",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -360,8 +400,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "08ce5e86507d4820f7cf127edd4df9763afbe9c410e65fe351b791d8d3503ad8",
-      "seed_hash": "259df6d1037dc09c"
+      "notes_sha256": "6851ffc27d693aff2aa9364d9cc6c75f653386418815e3933b6a3d6ebc944052",
+      "seed_hash": "c65dea178f8b9965"
     },
     {
       "slug": "he-langenselbold-63505-levy-schrott-metall",
@@ -422,7 +462,7 @@
       "values": {
         "name": "Heinrich Kleinschmidt RohProd.",
         "street": "",
-        "postcode": "",
+        "postcode": "34286",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -432,8 +472,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "39d69234dfa2e618bfc71125d3aa70e3ca552b4b9c97e53009d110fb3e3cbdaa",
-      "seed_hash": "0fddac417bdf562f"
+      "notes_sha256": "b747c8803e1dc7e5278e93be9bcc195e23a89d30e7bb6070954f5b603098a541",
+      "seed_hash": "21166775c2d66074"
     },
     {
       "slug": "he-wetzlar-jori-recycling-schrott-wetzlar",
@@ -486,8 +526,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "ec60c38a6ccd9a7649440620e1298763b259eca4f4f71fe7262da33a5e4da339",
-      "seed_hash": "300e09be231b15bf"
+      "notes_sha256": "0ae78ba302621e04b8dea6cf4d24968b79b1de0f81fd41f989dba7842db5e005",
+      "seed_hash": "c71cce9cc79e0d42"
     },
     {
       "slug": "hh-stellingen-georg-lensch-sohne",
@@ -504,8 +544,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "27e684f7e369656b913bff7cbfcfc49a5990d65a98400ad2c0e2fc413f6d4c4b",
-      "seed_hash": "91376c5057a73cce"
+      "notes_sha256": "bae3b1215c04ee4503675a17740b6f14e0efe87f6713655c75f53b3eeb85ec24",
+      "seed_hash": "8aec14697454b3ee"
     },
     {
       "slug": "mv-demmin-oetjen-rohstoffhandel",
@@ -522,8 +562,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "631115299abdbbee28b42cc83a207e313c0ee0ee6347ea6a4a926404432afc0e",
-      "seed_hash": "812106df39cfb62c"
+      "notes_sha256": "3d51e3f57b238377e41278135700fc7bb7180b2533cdfea5043496a9d41b1eef",
+      "seed_hash": "c0b70c1d931440be"
     },
     {
       "slug": "mv-neubrandenburg-karsten-bobzien-schrotthandel-abbruch-ba",
@@ -558,8 +598,8 @@
         "website": "https://autoverschrottung-hildesheim.de",
         "website_status": "aktiv"
       },
-      "notes_sha256": "0e8cc26924ee2ec0cc694df5540698ffe2e13de634eb0b85d33b43c91d19b71b",
-      "seed_hash": "3cfa272f0e70744f"
+      "notes_sha256": "f9dfe876d781ba778132a0f64f4529286da4f1894c9d5f2b9cc02d0122664c37",
+      "seed_hash": "5e2da6ed89b83365"
     },
     {
       "slug": "ni-langwedel-auto-recycling-pankowski",
@@ -576,8 +616,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "0f8af3b5f9bea41eaa08e4363cbbc535917573d6c6b06339d388df84c86b7926",
-      "seed_hash": "0f03bc7e1453de74"
+      "notes_sha256": "a45a823511ceedcd1717c01b504f7639a5fa6c2392309b8093145a143fd58e05",
+      "seed_hash": "3862a4ae37476016"
     },
     {
       "slug": "ni-st-andreasberg-wilfried-joachim-thiermann",
@@ -630,8 +670,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "dbc5d8b857f959033b4d531f8e75213b3d5048ee122a5fcb06914fdaf5a01869",
-      "seed_hash": "4c399352ec38ec7d"
+      "notes_sha256": "efb4dea5926a563a75660cec799c03cd606bcb7cd4c235224d526aab9230e212",
+      "seed_hash": "701df7ae3ebcc33c"
     },
     {
       "slug": "nw-essen-kollner",
@@ -702,8 +742,8 @@
         "website": "https://bartsch-entsorgung.de/",
         "website_status": "aktiv"
       },
-      "notes_sha256": "9cebaddf8940bc487d35535b1ecf12f5f9ef17062aaa1025ade6bbe28b18e4f8",
-      "seed_hash": "6a1ddc5244d21ce6"
+      "notes_sha256": "082b4ddce68053f37b4179a96e448728524cd075a2e824f17e3dffa935884e28",
+      "seed_hash": "d5a48bc6b0a1fb57"
     },
     {
       "slug": "nw-koln-chorweiler-altmetalle-reinhard",
@@ -756,8 +796,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "5f34fc5ff8863f0a53df9576eb9eee588e55de3a9caf6e67428b16c0caa4ebb9",
-      "seed_hash": "3adafbcfbd640355"
+      "notes_sha256": "7c58102e3ef33c591df7bff682c780063edbf0df9915dc005c69877895b4a4de",
+      "seed_hash": "bca1f4bc4eb8888f"
     },
     {
       "slug": "nw-lennestadt-l-mulaj",
@@ -810,8 +850,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "e41b9f7a4c7e0b5a11726b1671a9cb84785bb0c75748a61a3cb8be28d31015ed",
-      "seed_hash": "eceea4e26e845fc2"
+      "notes_sha256": "3207054cc35c9594ea068654a8b2fa818926ec6e29d074ba3afcfaa4c58dd87c",
+      "seed_hash": "2e92f89060a00f6f"
     },
     {
       "slug": "rp-kaiserslautern-67655-kratz-pfandkredit",
@@ -846,8 +886,8 @@
         "website": "http://www.sk-serviceleistungen.info",
         "website_status": "aktiv"
       },
-      "notes_sha256": "0a1e7fe9cb57019101bbee24bb91f6a7a461b3793132dc0bad0dc15854bf98ff",
-      "seed_hash": "1ee42b3c72caa2d4"
+      "notes_sha256": "66c29b292b781aad568fbd5ab0c0589839349788f18ea149c897ccc51b8c3178",
+      "seed_hash": "762542a0f1af1188"
     },
     {
       "slug": "rp-oberzissen-56651-reinhardt",
@@ -872,7 +912,7 @@
       "values": {
         "name": "Kämpfer",
         "street": "",
-        "postcode": "",
+        "postcode": "67549",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -882,8 +922,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "ef3185a0bd39ecaf4a8011cc52116194f2907cc48b0d549bb110e4b59a392d8a",
-      "seed_hash": "1b9de30678e549b2"
+      "notes_sha256": "b7cc00dbae02376ed8c75809bfa791315315a51212571adc6c1c791e4a136f25",
+      "seed_hash": "7d0212dec86669fa"
     },
     {
       "slug": "sh-lubeck-topschrott",
@@ -972,8 +1012,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "7901f460c5739a03446de3e10f69d56fb4b82e371152f4603ba616293e02a062",
-      "seed_hash": "9525c40769157acf"
+      "notes_sha256": "6c7610e4d07eaefb894f48d33206fc5309c79ced724385ac9a5199a33602afab",
+      "seed_hash": "d98109e06e1c347c"
     },
     {
       "slug": "st-gardelegen-ot-jeseritz-herms-recycling-schrott-abbruch-entrumpe",
@@ -990,15 +1030,15 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "7d1dba2942495fdc491cdd6827b0ad1ac3691f9735028ba61d2deb35f5e5fecf",
-      "seed_hash": "bfe905d570d7d70b"
+      "notes_sha256": "43c24846b62639f6c84484f31ae648b3349a31c552d81f1318348bca718d5e01",
+      "seed_hash": "b68f0dae74226ceb"
     },
     {
       "slug": "st-kothen-06366-mrr-schrottplatz-kothen",
       "values": {
         "name": "MRR GmbH Schrottplatz Köthen",
         "street": "",
-        "postcode": "",
+        "postcode": "06366",
         "phone": "",
         "email": "",
         "opening_hours": "",
@@ -1008,8 +1048,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "b58d28b5bca85ce4054f86143bb8cea848adab12c90dcc52d1e7568349ce92d1",
-      "seed_hash": "827c2fd252a8c76c"
+      "notes_sha256": "27b3dff006ef96b897e1183a9f9f4771cc7ccd9595c711e626a1150f9288b222",
+      "seed_hash": "0ec68e3179b2b65b"
     },
     {
       "slug": "st-querfurt-tsr-recycling-standort-querfurt",
@@ -1080,8 +1120,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "22385205b82386e46ea9929bad18ffd0a65c7820769276984df0dbbd34681ba7",
-      "seed_hash": "95a785d550b99885"
+      "notes_sha256": "6029741d1f5fe7421df0547d6c4d1ea8871e71df2c385cdcb9b737d95b094ad7",
+      "seed_hash": "1695e51b33a4514b"
     },
     {
       "slug": "th-weira-reinisch-u-reinisch",
@@ -1116,8 +1156,8 @@
         "website": "",
         "website_status": "unbekannt"
       },
-      "notes_sha256": "fe2ee728518e0aff691a4e847c77e607683ebd17f4b79fb7852307c805f44d20",
-      "seed_hash": "0fc85a100b6d128f"
+      "notes_sha256": "96e52ac0ef7afdc72bfd322d215a805f59021eae1382c95a58da989d0699b9b6",
+      "seed_hash": "624d1165958253a7"
     }
   ]
 }
