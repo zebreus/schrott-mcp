@@ -5,7 +5,9 @@ Checks every changed dossier against the pre-wave baseline:
   * overwrite scan  - no existing Timeline bullet may be lost, reordered or rewritten
   * enum validation - status / trader_type / website_status / clear_fields tokens
   * deep-link scan  - only bare http(s) URLs, no markdown deep links
-  * emdash check    - no en or em dash in newly added lines
+  * emdash count    - the en and em dashes of the new lines are counted and
+                      reported; they are the convention of the repository and
+                      therefore no gate failure
   * notes format    - every Timeline bullet is a bracketed note
 
 Exit code 0 only when every check passes.

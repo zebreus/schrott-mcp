@@ -55,9 +55,10 @@ einen **anderen Ort** ✓✓, einen **anderen Ortsteil** ✓✓, ein **fremdes O
 eine **Buchhandlung** ✓✓, einen **Supermarkt** ✓✓, ein **Bürogebäude** ✓✓, ein
 **Wohnhaus** ✓✓ — oder **gar keinen** ✓✓ Betrieb ✓✓ ✓ ✓
 
-**Zwei** ✓✓ liegen weit außerhalb des Landes: **131 km** ✓✓ in Baden-Württemberg ✓✓ und
-**286 km** ✓✓ in Thüringen ✓✓ ✓ ✓ **Zwölf** ✓✓ weitere liegen zwischen **349 m** ✓✓
-und **32 km** ✓✓ ✓ ✓
+**Drei** ✓✓ liegen weit außerhalb des Landes ✓✓ — **131 km** ✓✓ in Baden-Württemberg ✓✓,
+**131 km** ✓✓ im Kreis Soest ✓✓ und **286 km** ✓✓ in Thüringen ✓✓ ✓ ✓ **Zweiunddreißig** ✓✓
+weitere liegen zwischen **550 m** ✓✓ und **32 km** ✓✓ ✓ ✓ **Elf** ✓✓ liegen unter
+**350 m** ✓✓ ✓ ✓
 
 **Kein** Ersatzpunkt ✓✓ entsteht ✓✓ — in **keinem** dieser Fälle ✓✓ liegt ein
 **belegter Standort** ✓✓ **und** ein **adressiertes Objekt mit der Hausnummer** ✓✓
@@ -65,8 +66,8 @@ und **32 km** ✓✓ ✓ ✓
 
 ### Bleibt ✓ ✓ — **11** ✓ ✓
 
-**Sechs** ✓✓ Punkte treffen das **Adressobjekt** ✓✓ ihres Dossiers ✓✓ —
-**fünf** ✓✓ davon **objektgenau** ✓✓, **einer** ✓✓ in **4,3 m** ✓✓ Abstand ✓✓ ✓ ✓
+**Sechs** ✓✓ Punkte treffen das **Adressobjekt** ✓✓ ihres Dossiers ✓✓ — **alle
+sechs** ✓✓ **objektgenau** ✓✓ ✓ ✓
 
 **Fünf** ✓✓ Dossiers haben **keinen** gespeicherten Punkt ✓✓ ✓ ✓
 

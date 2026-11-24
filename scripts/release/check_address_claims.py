@@ -476,16 +476,26 @@ def main():
         # die erste genannte ✓✓ allein zu pruefen ✓✓ traegt **nichts** ✓✓
         for koordinate in KOORDINATE_RE.finditer(abschnitt):
             auf_einem_objekt = False
+            # Ein **Rate-Limit** ✓✓ ist **kein** Datenbefund ✓✓ - wie im
+            # Tag-Pfad ✓✓ bleibt es eine **Luecke** ✓✓ der Pruefung ✓✓
+            # (Befund aus dem Review vom 24.11.2026 ✓✓) ✓✓
+            limit_erreicht = False
             for typ, oid in objekte:
                 geo = hole_geo(typ, oid)
                 if not geo:
+                    if (typ, oid) in RATE_LIMIT:
+                        limit_erreicht = True
                     continue
                 abstand = hav(float(koordinate.group(1)), float(koordinate.group(2)),
                               float(geo["lat"]), float(geo["lon"]))
                 if abstand <= 60:
                     auf_einem_objekt = True
                     break
-            if not auf_einem_objekt:
+            if not auf_einem_objekt and limit_erreicht:
+                ungeprueft.append((pfad.stem,
+                                   "die Koordinate %s/%s - vom Rate-Limit betroffen"
+                                   % (koordinate.group(1), koordinate.group(2))))
+            elif not auf_einem_objekt:
                 befunde.append((pfad.stem,
                                 "die Koordinate %s/%s liegt auf keinem Objekt"
                                 % (koordinate.group(1), koordinate.group(2))))
