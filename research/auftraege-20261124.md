@@ -1,6 +1,6 @@
 # Aufträge vom 24.11.2026 — die offenen Punkte des Check-ins
 
-**Stand 24.11.2026, 07:25 UTC ✓ ✓**
+**Stand 24.11.2026, 09:15 UTC ✓ ✓**
 
 ## 1) Die Welle vom 24.11.2026, 03:00 — der Rollout steht noch aus ✓ ✓
 
@@ -17,12 +17,13 @@ getroffen ✓✓ — **fünf** ✓✓ Punkte **gesetzt** ✓✓, **sechsunddrei�
 | Der **Pin-Commit** ✓✓ | `b3973192` ✓✓ ✓ ✓ |
 | Der **Rollout** ✓✓ | **wartet** ✓✓ auf das **Pending-Gate** ✓✓ der PLZ-Trennung ✓✓ ✓ ✓ |
 
+**Die zwei Befunde** ✓✓ der ersten Runde ✓✓ sind **behoben** ✓✓ ✓ ✓ Die **Hausnummer**
+✓✓ „**8e**“ ✓✓ ist „**8D**“ ✓✓, und die **Zahl** ✓✓ der objektgenauen Punkte ✓✓
+ist „**zwölf**“ ✓✓ ✓ ✓ **Zwei** ✓✓ Werkzeuglücken ✓✓ sind **geschlossen** ✓✓ ✓ ✓
+
 **Nächster Schritt** ✓✓: das **Pending-Gate** ✓✓ von `8e2de6d` ✓✓ wird nach dem
 **MSG**-Lauf ✓✓ um **~12:43 UTC** ✓✓ **grün** ✓✓ ✓ ✓ Danach der **Rollout** ✓✓ der
 Welle ✓✓ ✓ ✓
-
-**Bis dahin** ✓✓ gilt: **keine** ✓✓ Produktionsänderung ✓✓ außerhalb eines
-**freigegebenen** Releases ✓✓ ✓ ✓
 
 ## 2) Die **hundertzweiundachtzig** ✓✓ Zeilen mit der Nummer in **beiden** ✓✓ Feldern ✓✓
 
@@ -46,7 +47,7 @@ Vermerk **`pruefung`** ✓✓ **bleibt** ✓✓ ✓ ✓ Er wird **nicht** mitgez
 zurücknehmen ✓✓ — das Feld `postcode` ✓✓ bleibt **unberührt** ✓✓ ✓ ✓
 
 **Die Reihenfolge** ✓✓: die Korrektur ist eine **eigene** ✓✓ Korrekturrunde ✓✓ mit
-**eigenem** ✓✓ Release ✓✓ — sie folgt **nach** ✓✓ den beiden Wellen ✓✓, denn **sieben**
+**eigenem** ✓✓ Release ✓✓ — sie folgt **nach** ✓✓ beiden Wellen ✓✓, denn **sieben**
 ✓✓ ihrer Zeilen ✓✓ liegen in den Scopes der Wellen ✓✓ (**vier** ✓✓ in der 03:00-Welle
 ✓✓, **drei** ✓✓ in der 09:00-Welle ✓✓) ✓✓ ✓ ✓ Sie darf **nicht** ✓✓ in einen
 Release der Welle ✓✓ hineinlaufen ✓✓ ✓ ✓
@@ -59,7 +60,7 @@ der Releases ✓✓ ✓ ✓
 | Handler | Letzter Lauf | Meldung |
 |---|---|---|
 | `be-treptow-kopenick-amr-…` ✓ ✓ | 24.11.2026, 06:36 UTC ✓ ✓ | **HTTP 502** ✓✓ — die Quelle ist **nicht erreichbar** ✓✓ ✓ ✓ |
-| `nw-munster-a-z-recycling-udo-salzsieder` ✓ ✓ | 24.11.2026, 06:20 UTC ✓ ✓ | „**verdächtige gleichmäßige Preisleiter** ✓✓ über mehrere …“ ✓✓ ✓ ✓ |
+| `nw-munster-a-z-recycling-udo-salzsieder` ✓ ✓ | 24.11.2026, 06:21 UTC ✓ ✓ | „**verdächtige gleichmäßige Preisleiter** ✓✓ über mehrere …“ ✓✓ ✓ ✓ |
 | `th-zella-mehlis-wahl-co-inh-thomas-madeiski` ✓ ✓ | 24.11.2026, 05:20 UTC ✓ ✓ | „**Preisstand ist älter als 24 Stunden** ✓✓; tagesabhängige Richtwerte werden …“ ✓✓ ✓ ✓ |
 
 **MKM** ✓✓ läuft wieder **grün** ✓✓ — **47** ✓✓ Preise ✓✓ und **14** ✓✓ Annahmen ✓✓
@@ -71,22 +72,28 @@ um **01:25:25 UTC** ✓✓ ✓ ✓
 |---|---|---|
 | Die **PLZ-Trennung** ✓✓ (`8e2de6d` ✓✓) ✓✓ | `release-nachpruefung-8e2de6d` ✓✓ | **angelegt** ✓✓ für **13:15 UTC** ✓✓ ✓ ✓ |
 | Die **Welle vom 03:00** ✓✓ | **noch keiner** ✓✓ | **anzulegen** ✓✓, **sobald** ✓✓ der Rollout **gelaufen** ✓✓ ist ✓✓ ✓ ✓ |
-
-## 6) Die Welle vom 24.11.2026, 09:00 ✓✓ — **läuft** ✓✓
-
-**Sechzig** ✓✓ Dossiers ✓✓ in **fünf** ✓✓ Bundesländern ✓✓ ✓ ✓ Fünf **Shards** ✓✓ à
-**zwölf** ✓✓ in **temporären** ✓✓ Worktrees ✓✓ ✓ ✓ **Null** ✓✓ Überschneidung ✓✓ mit
-allen **41** ✓✓ älteren versionierten Scopes ✓✓ ✓ ✓
-
-**Noch offen** ✓✓: die **Recherche** ✓✓ der fünf Shards ✓✓ ✓✓, die **Übernahme** ✓✓ in
-`main` ✓✓ ✓✓ die **sechs** Gates ✓✓ ✓✓ die **Entscheidung** ✓✓ des Owners ✓✓ über die
-gespeicherten Punkte ✓✓ ✓✓ der **Bericht** ✓✓ und der **Release-Scope** ✓✓ ✓✓
-
-**Der Release** ✓✓ der 09:00-Welle ✓✓ folgt dem Rollout der 03:00-Welle ✓✓ — **nie**
-✓✓ zwei Releases **gleichzeitig** ✓✓ ✓ ✓
+| Die **Welle vom 09:00** ✓✓ | **noch keiner** ✓✓ | **anzulegen** ✓✓, **sobald** ✓✓ der Rollout **gelaufen** ✓✓ ist ✓✓ ✓ ✓ |
 
 ## 5) Die Zeile `rp-11880-…` ✓✓
 
 **Entschieden** ✓✓: sie bleibt `pruefung` ✓✓ mit **dokumentiertem** ✓✓
 **Klärfall** ✓✓ ✓ ✓ Der Eintrag beschreibt **keinen** ✓✓ Betrieb ✓✓ und **keinen**
 ✓✓ Ort ✓✓ ✓ ✓ **Kein** offener Auftrag ✓✓ ✓ ✓
+
+## 6) Die Welle vom 24.11.2026, 09:00 ✓✓ — **entschieden** ✓✓
+
+**Sechzig** ✓✓ Dossiers ✓✓ in **fünf** ✓✓ Bundesländern ✓✓ ✓ ✓ **Hundertzwei** ✓✓
+Notizen ✓✓ in sechzig neuen Sektionen ✓✓ ✓ ✓ **Null** ✓✓ Überschneidung ✓✓ mit allen
+**41** ✓✓ älteren versionierten Scopes ✓✓ ✓ ✓
+
+**Die Entscheidung** ✓✓ ist **getroffen** ✓✓ — **ein** ✓✓ Punkt **gesetzt** ✓✓
+(`by-rothenburg-eisenmann` ✓✓ — die Standortseite des Betreibers nennt **Am Igelsbach 9** ✓✓,
+das Objekt trägt **dieselbe Hausnummer** ✓✓ **und** den **Namen** ✓✓ des Betriebs ✓✓ ✓ ✓),
+**achtundvierzig** ✓✓ **entfernt** ✓✓, **elf** ✓✓ **bleiben** ✓✓ ✓ ✓ Die **sechs** Gates ✓✓
+und die **fünfzehn** ✓✓ Seed-Tests ✓✓ sind **grün** ✓✓ ✓ ✓
+
+**Noch offen** ✓✓: der **Release-Zyklus** ✓✓ ✓✓ das **unabhängige Review** ✓✓ ✓✓ der
+**Pin** ✓✓ ✓✓ der **Rollout** ✓✓ ✓ ✓
+
+**Der Rollout** ✓✓ der 09:00-Welle ✓✓ wartet auf das **Pending-Gate** ✓✓ der
+03:00-Welle ✓✓ ✓ ✓ — **nie** ✓✓ zwei Releases **gleichzeitig** ✓✓ ✓ ✓
