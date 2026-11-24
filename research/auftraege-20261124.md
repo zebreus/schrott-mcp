@@ -130,19 +130,31 @@ Korrekturrunde ✓✓ (**181** ✓✓) ✓✓ — und **keine** ✓✓ offene **
 ✓✓ sind **vollständig** ✓✓ behoben ✓✓ ✓ ✓ Der Reviewer hat das mit **vier** ✓✓
 **Negativkontrollen** ✓✓ belegt ✓✓ ✓ ✓
 
-## 4b) Der **Geokodierungs-Rückstand** ✓✓ — **38** ✓✓ Dossiers ✓✓
+## 4b) Der **Geokodierungs-Rückstand** ✓✓ — **29** ✓✓ Dossiers ✓✓
 
-**Gemessen** ✓✓ (read-only, 24.11.2026, 10:00 UTC ✓✓): **38** ✓✓ Dossiers ✓✓ tragen
-eine **Adresse** ✓✓, **keinen** ✓✓ Punkt ✓✓ und **keinen** ✓✓ Clear ✓✓ auf die
-Koordinate ✓✓ ✓ ✓ Weitere **213** ✓✓ Dossiers ✓✓ tragen **bewusst** ✓✓ einen
-`clear_fields: geo` ✓✓ — das ist **kein** ✓✓ Rückstand ✓✓ ✓ ✓
+**Nachgemessen** ✓✓ (read-only, 24.11.2026, 11:00 UTC ✓✓) — die frühere Zahl
+**„38“** ✓✓ ist **nicht** ✓✓ reproduzierbar ✓✓ und wird **hiermit** ✓✓
+**berichtigt** ✓✓ ✓ ✓
+
+| Die Definition ✓✓ | Die Zahl ✓✓ |
+|---|---|
+| In der **Produktion** ✓✓ **ohne** ✓✓ Punkt ✓✓, **ohne** ✓✓ `clear_fields: geo` ✓✓ | **64** ✓✓ |
+| davon mit einer **Straße** ✓✓ | **29** ✓✓ |
+| davon **nur** ✓✓ mit PLZ ✓✓ oder Ort ✓✓, **ohne** ✓✓ Straße ✓✓ | **35** ✓✓ |
+| mit **bewusstem** ✓✓ `clear_fields: geo` ✓✓ | **513** ✓✓ |
+
+**Die Runde** ✓✓ braucht die **29** ✓✓ — nur sie haben eine **Straße** ✓✓, und
+**nur** ✓✓ mit einer Straße ✓✓ lässt sich ein **adressiertes Objekt** ✓✓ mit
+**Hausnummer** ✓✓ überhaupt **finden** ✓✓ ✓ ✓
 
 **Der Auftrag** ✓✓: **keiner** ✓✓ vorerst ✓✓ — eine **Adresse** ✓✓ aus einem
-**Verzeichnis** ✓✓ ist **kein** ✓✓ Standortnachweis ✓✓ ✓ ✓ Diese **38** ✓✓ Zeilen ✓✓
+**Verzeichnis** ✓✓ ist **kein** ✓✓ Standortnachweis ✓✓ ✓ ✓ Diese **29** ✓✓ Zeilen ✓✓
 brauchen **Recherche** ✓✓ (Betreiberquelle ✓✓ **und** adressiertes Objekt ✓✓), **nicht**
 **nur** ✓✓ eine Geokodierung ✓✓ ✓ ✓ Sie kommen **nicht** ✓✓ in den **Pool** ✓✓ der
 Wellen ✓✓ (sie haben eine Straße ✓✓) ✓✓ und bilden **deshalb** ✓✓ eine **eigene**
-✓✓ Runde ✓✓ ✓ ✓
+Runde ✓✓ ✓ ✓
+
+**Die Liste** ✓✓ liegt in `research/geokodierung-rueckstand-20261124.json` ✓✓ ✓ ✓
 
 ## 5) Die Zeile `rp-11880-…` ✓✓
 

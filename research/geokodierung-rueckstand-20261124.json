@@ -1,0 +1,263 @@
+[
+ {
+  "slug": "hb-hemelingen-metalports",
+  "name": "Metalports GmbH",
+  "street": "Hemelinger Hafendamm 11",
+  "postcode": "",
+  "city": "Hemelingen",
+  "state": "HB",
+  "website": ""
+ },
+ {
+  "slug": "hb-hastedt-auto-kaman",
+  "name": "Auto Kaman",
+  "street": "Alter Postweg 173 B",
+  "postcode": "28207",
+  "city": "Hastedt",
+  "state": "HB",
+  "website": "https://auto-kaman.de/"
+ },
+ {
+  "slug": "hb-uberseehafen-reveg-recycling-u-verwertungsgesellschaf",
+  "name": "ReVeG Recycling- u. Verwertungsgesellschaft mbH",
+  "street": "Brückenstr. 25",
+  "postcode": "",
+  "city": "Überseehafen",
+  "state": "HB",
+  "website": ""
+ },
+ {
+  "slug": "hh-altstadt-walter-ritscher",
+  "name": "Walter Ritscher GmbH",
+  "street": "Ferdinandstr. 32",
+  "postcode": "",
+  "city": "Altstadt",
+  "state": "HH",
+  "website": ""
+ },
+ {
+  "slug": "hh-barmbek-sud-hamburg-schrott",
+  "name": "Hamburg schrott",
+  "street": "Osterbekstr. 90B",
+  "postcode": "",
+  "city": "Barmbek-Süd",
+  "state": "HH",
+  "website": ""
+ },
+ {
+  "slug": "hh-lurup-altona-hans-christian-holtzmann",
+  "name": "Hans-Christian Holtzmann",
+  "street": "Lüdersring 39",
+  "postcode": "",
+  "city": "Lurup/Altona",
+  "state": "HH",
+  "website": ""
+ },
+ {
+  "slug": "hh-finkenwerder-finkenwerder-schrott",
+  "name": "Finkenwerder Schrott",
+  "street": "Rüschweg 21a",
+  "postcode": "",
+  "city": "Finkenwerder",
+  "state": "HH",
+  "website": ""
+ },
+ {
+  "slug": "hh-wilhelmsburg-hafen-retraco",
+  "name": "RETRACO GmbH",
+  "street": "Neuhöfer Damm 110",
+  "postcode": "21107",
+  "city": "Hamburg",
+  "state": "HH",
+  "website": "https://retraco-gmbh.com/"
+ },
+ {
+  "slug": "he-stolzenmorgen-62-pr-recycling-sandro-roggendorf",
+  "name": "PR Recycling (Sandro Roggendorf)",
+  "street": "Stolzenmorgen 80-82",
+  "postcode": "35394",
+  "city": "Gießen",
+  "state": "HE",
+  "website": "https://klajo-recycling-giessen.de/"
+ },
+ {
+  "slug": "hh-kirchwerder-adzovic-safet-schrotthandel",
+  "name": "Adzovic Safet Schrotthandel",
+  "street": "Warwischer Hauptdeich 90",
+  "postcode": "21037",
+  "city": "Kirchwerder",
+  "state": "HH",
+  "website": ""
+ },
+ {
+  "slug": "hh-billbrook-alt-und-buntmetallhandel-dejan",
+  "name": "Alt- und Buntmetallhandel Dejan",
+  "street": "Wöhlerstr. 9",
+  "postcode": "21113",
+  "city": "Billbrook",
+  "state": "HH",
+  "website": ""
+ },
+ {
+  "slug": "sn-nordsachsen-r-u-s-kabel-buntmetallrecycling",
+  "name": "R u. S Kabel-, Buntmetallrecycling",
+  "street": "Kroppentalstr. 40a",
+  "postcode": "",
+  "city": "Nordsachsen",
+  "state": "SN",
+  "website": ""
+ },
+ {
+  "slug": "sn-jahnatal-04749-muller-eckhard-av",
+  "name": "Müller Eckhard AV",
+  "street": "Bergstr. 6",
+  "postcode": "04749",
+  "city": "Jahnatal",
+  "state": "SN",
+  "website": ""
+ },
+ {
+  "slug": "st-salzatal-uhlmann",
+  "name": "Autohaus-Autoverwertung Uhlmann KG",
+  "street": "Lieskauer Straße 1a",
+  "postcode": "06198",
+  "city": "Salzatal",
+  "state": "ST",
+  "website": "http://www.autoverwertung-uhlmann.de/html/kontakt.html"
+ },
+ {
+  "slug": "rp-geinsheim-sudpfalz-metall-geinsheim",
+  "name": "SÜDPFALZ METALL Geinsheim",
+  "street": "Böbinger Straße 9",
+  "postcode": "67435",
+  "city": "Geinsheim",
+  "state": "RP",
+  "website": "https://suedpfalz-metall.de/"
+ },
+ {
+  "slug": "rp-hilbersheim-bruhl-ober-hilbersheim",
+  "name": "Brühl Ober-Hilbersheim",
+  "street": "Obergasse 12",
+  "postcode": "55437",
+  "city": "Hilbersheim",
+  "state": "RP",
+  "website": ""
+ },
+ {
+  "slug": "sl-st-ingbert-66386-rohstoffhandel-neckartilda-nl-st-ingbert",
+  "name": "Rohstoffhandel Neckartilda GmbH, NL St. Ingbert",
+  "street": "Schlackenbergstr. 23",
+  "postcode": "66386",
+  "city": "St. Ingbert",
+  "state": "SL",
+  "website": "http://www.neckartilda-rohstoffhandel.de"
+ },
+ {
+  "slug": "by-aschaffenburg-63741-kabelverwertung-aschaffenburg-kva-gmbh",
+  "name": "Kabelverwertung Aschaffenburg KVA GmbH",
+  "street": "Pappelweg 8a",
+  "postcode": "63741",
+  "city": "Aschaffenburg",
+  "state": "BY",
+  "website": "https://www.kabelverwertung-aschaffenburg.de/"
+ },
+ {
+  "slug": "by-thierhaupten-brandmayr-co-entsorgungs",
+  "name": "Brandmayr & Co. Entsorgungs GmbH",
+  "street": "Gemeindewald 19",
+  "postcode": "86672",
+  "city": "Thierhaupten",
+  "state": "BY",
+  "website": "https://www.brandmayr-co.de/"
+ },
+ {
+  "slug": "ni-wedemark-bissendorf-recycling",
+  "name": "Bissendorf Recycling GmbH",
+  "street": "Auf der Haube 5",
+  "postcode": "30900",
+  "city": "Wedemark",
+  "state": "NI",
+  "website": "https://www.bissendorf-recycling.de/angebot/"
+ },
+ {
+  "slug": "by-bubesheim-kfz-sauter",
+  "name": "KFZ Sauter GmbH & Co. KG",
+  "street": "Industriestraße 15–17",
+  "postcode": "89347",
+  "city": "Bubesheim",
+  "state": "BY",
+  "website": "https://kfz-sauter.com/"
+ },
+ {
+  "slug": "by-geretsried-autoverwertung-peter-huber",
+  "name": "Autoverwertung Peter Huber",
+  "street": "Breslauer Weg 119",
+  "postcode": "82538",
+  "city": "Geretsried",
+  "state": "BY",
+  "website": "https://autoverwertung-huber.de/"
+ },
+ {
+  "slug": "by-neuburg-am-inn-areg-abfall-recycling",
+  "name": "AREG Abfall-Recycling-Entsorgungsgesellschaft mbH",
+  "street": "Hauptstr. 91",
+  "postcode": "94127",
+  "city": "Neuburg am Inn",
+  "state": "BY",
+  "website": "https://www.areg-mbh.de/"
+ },
+ {
+  "slug": "by-schrobenhausen-sandizell-autoverwertung-burlafinger",
+  "name": "Autoverwertung Burlafinger GbR",
+  "street": "Grimolzhausener Straße 12",
+  "postcode": "86529",
+  "city": "Schrobenhausen",
+  "state": "BY",
+  "website": "https://www.autoverwertung-burlafinger.de/"
+ },
+ {
+  "slug": "by-thurmansbang-autorecycling-asen",
+  "name": "ARA Autorecycling Asen",
+  "street": "Am Seiderberg 2",
+  "postcode": "94169",
+  "city": "Thurmansbang",
+  "state": "BY",
+  "website": "https://www.autorecycling-asen.de/"
+ },
+ {
+  "slug": "ni-lingen-guenther-voth",
+  "name": "Rohstoff-Handelsgesellschaft Günther Voth GmbH (Standort Lingen)",
+  "street": "Niederdarmer Straße",
+  "postcode": "49811",
+  "city": "Lingen",
+  "state": "NI",
+  "website": "https://www.g-voth.de/"
+ },
+ {
+  "slug": "nw-ahlen-goldsofort-ring-manufaktur",
+  "name": "Ring Manufaktur GmbH (Goldsofort.de)",
+  "street": "Am Neuen Baum 4",
+  "postcode": "59229",
+  "city": "Ahlen",
+  "state": "NW",
+  "website": "https://www.goldsofort.de/"
+ },
+ {
+  "slug": "st-dessau-rolau-mhg-recycling",
+  "name": "MHG Recycling GmbH",
+  "street": "Taubenstraße 37",
+  "postcode": "06847",
+  "city": "Dessau-Roßlau",
+  "state": "ST",
+  "website": "https://www.mhg-recycling.de/"
+ },
+ {
+  "slug": "mv-parchim-19370-umschlagplatz-parchim",
+  "name": "Umschlagplatz Parchim (GKM Güstrower Kies + Mörtel GmbH)",
+  "street": "Zum Strauchberg 8",
+  "postcode": "19370",
+  "city": "Parchim",
+  "state": "MV",
+  "website": "https://www.gkm-mv.de/"
+ }
+]
