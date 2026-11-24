@@ -467,8 +467,7 @@ def main():
             # ✓ ✓, wenn es **keins** gibt ✓ ✓ (keine belegte Hausnummer ✓ ✓)
             # Eine **Distanz** ✓ ✓ ohne **Objekt** ✓ ✓ ist **nicht messbar** ✓ ✓
             # ✓ ✓ (Befund aus dem Review vom 24.11.2026 ✓ ✓) ✓ ✓
-            distanz_ohne_objekt = DISTANZ_RE.search(abschnitt)
-            if distanz_ohne_objekt:
+            for distanz_ohne_objekt in DISTANZ_RE.finditer(abschnitt):
                 ungeprueft.append((pfad.stem, "%s - die Notiz nennt kein Objekt, "
                                    "die Distanz ist nicht messbar"
                                    % distanz_ohne_objekt.group(0)))
