@@ -420,3 +420,43 @@ Wert von Rehsen ✓✓ („34 m“ ✓✓) unentdeckt ✓✓ ✓ ✓
 ✓✓ wäre eine **maschinelle** ✓✓ **Prüfung** ✓✓ der Notizen ✓✓ **möglich**
 ✓✓ ✓ ✓ **Bis** ✓✓ dahin ✓✓ bleibt die **Review-Runde** ✓✓ die **Kontrolle**
 ✓✓ ✓ ✓ **Kein** ✓✓ offener **Werkzeugauftrag** ✓✓ mehr ✓✓ ✓ ✓
+
+## 9) Die **Standortrunde** ✓✓ — **zwei** ✓✓ Punkte **fehlten** ✓✓ (**24.11.2026, 19:10 UTC** ✓✓)
+
+**Befund** ✓✓: Die **Entscheidung** ✓✓ der Standortrunde ✓✓ stand in den
+**Notizen** ✓✓ — die **Koordinate** ✓✓ stand **nicht** ✓✓ im **Frontmatter**
+✓✓ ✓ ✓ Der **Seed** ✓✓ liest die Koordinate **aus dem Frontmatter** ✓✓ — der
+**Punkt** ✓✓ wurde also **nicht** ✓✓ gesetzt ✓✓ ✓ ✓
+
+| Das Dossier ✓✓ | Die Notiz ✓✓ nennt ✓✓ | Das Frontmatter ✓✓ |
+|---|---|---|
+| `ni-wedemark-bissendorf-recycling` ✓✓ | **52.5163710 / 9.7356670** ✓✓ | **leer** ✓✓ ✓ ✓ |
+| `nw-ahlen-goldsofort-ring-manufaktur` ✓✓ | **51.7480004 / 7.9019356** ✓✓ | **leer** ✓✓ ✓ ✓ |
+
+**Geprüft** ✓✓ an **allen** ✓✓ fünf **Runden** ✓✓ von heute ✓✓ ✓ ✓ **Nur**
+✓✓ die **Standortrunde** ✓✓ war **betroffen** ✓✓ ✓ ✓
+
+| Die Runde ✓✓ | Die gesetzten Punkte ✓✓ | Im Frontmatter ✓✓ |
+|---|---|---|
+| 03:00 ✓✓ | **5** ✓✓ | **5** ✓✓ ✓ ✓ |
+| 09:00 ✓✓ | **1** ✓✓ | **1** ✓✓ ✓ ✓ |
+| Ortsfeld ✓✓ | **0** ✓✓ | — ✓ ✓ |
+| **Standort** ✓✓ | **2** ✓✓ | **0** ✓✓ ✗ ✓ ✓ |
+| 12:00 ✓✓ | **4** ✓✓ | **4** ✓✓ ✓ ✓ |
+
+**Die Lehre** ✓✓: Die **Review** ✓✓ prüft die **Notiz** ✓✓ — sie **sah** ✓✓ die
+richtige **Koordinate** ✓✓ und **bestätigte** ✓✓ sie ✓✓ Das **Frontmatter**
+✓✓ hat **niemand** ✓✓ gelesen ✓✓ ✓ ✓ **Kein** ✓✓ Gate ✓✓ verglich die
+**Notiz** ✓✓ mit dem **Frontmatter** ✓✓ ✓ ✓
+
+**Die Werkzeuglücke** ✓✓ ist **geschlossen** ✓✓: Das **Adress-Gate** ✓✓ prüft
+jetzt **beides** ✓✓ — die Notiz **und** ✓✓ das Frontmatter ✓✓ ✓ ✓ Ein Dossier,
+✓✓ dessen Notiz den Punkt **setzt** ✓✓ und dessen Frontmatter **keine**
+✓✓ Koordinate trägt ✓✓, ist ein **Befund** ✓✓ ✓ ✓ Ebenso ein **entfernter**
+✓✓ Punkt ohne `clear_fields: geo` ✓✓ — ohne das **löscht** ✓✓ der Seed
+✓✓ **nichts** ✓✓ ✓ ✓ **23** ✓✓ Tests ✓✓ im Adress-Gate ✓✓ ✓ ✓
+
+**Die Korrektur** ✓✓: Die **beiden** ✓✓ Koordinaten ✓✓ stehen **jetzt** ✓✓ im
+Frontmatter ✓✓ ✓ ✓ Die **Werte** ✓✓ sind **dieselben** ✓✓ wie in den Notizen
+✓✓ ✓ ✓ **Der Rollout** ✓✓ folgt mit einem **eigenen** ✓✓ Kandidaten
+✓✓ ✓ ✓

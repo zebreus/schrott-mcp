@@ -368,6 +368,43 @@ def adressfall_ist(abschnitt: str, gesetzt: bool) -> bool:
             or "bleibt unverändert" in abschnitt)
 
 
+def frontmatter_befund(abschnitt: str, frontmatter: str) -> list:
+    """Die **Entscheidung** ueber den Standortpunkt muss im Frontmatter stehen.
+
+    Der **Seed** liest die Koordinate aus dem **Frontmatter** - nicht aus der
+    Notiz. Sagt die Korrektur-Sektion, dass der Punkt **gesetzt** wird, und
+    traegt das Frontmatter keine Koordinate, setzt der Seed **nichts** und der
+    Punkt bleibt weg (Befund aus dem Rollout der Standortrunde vom
+    24.11.2026). Ebenso loescht der Seed ohne `clear_fields: geo` **nichts**.
+    """
+    befunde = []
+    gesetzt = ("der Standortpunkt wird gesetzt" in abschnitt
+               or "der Standortpunkt wird ersetzt" in abschnitt)
+    lat = re.search(r"^lat:\s*'?([-\d.]+)'?\s*$", frontmatter, re.M)
+    lon = re.search(r"^lon:\s*'?([-\d.]+)'?\s*$", frontmatter, re.M)
+    clear = re.search(r"^clear_fields:\s*(.+)$", frontmatter, re.M)
+    if gesetzt:
+        if not lat or not lon:
+            befunde.append("die Korrektur-Sektion setzt den Standortpunkt, "
+                           "das Frontmatter traegt aber keine Koordinate")
+        else:
+            genannt = KOORDINATE_RE.findall(abschnitt)
+            if genannt:
+                lat_f, lon_f = float(lat.group(1)), float(lon.group(1))
+                if not any(abs(lat_f - float(g[0])) < 0.000001
+                           and abs(lon_f - float(g[1])) < 0.000001
+                           for g in genannt):
+                    befunde.append("das Frontmatter traegt %s/%s, die Notiz nennt %s"
+                                   % (lat_f, lon_f,
+                                      ", ".join("%s/%s" % g for g in genannt)))
+    elif "der Standortpunkt wird entfernt" in abschnitt:
+        if lat and lon and not (clear and "geo" in clear.group(1)):
+            befunde.append("die Korrektur-Sektion entfernt den Standortpunkt, "
+                           "das Frontmatter traegt die Koordinate aber ohne "
+                           "clear_fields: geo")
+    return befunde
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("basis", nargs="?", default=None,
@@ -638,6 +675,16 @@ def main():
                     else:
                         ungeprueft.append((pfad.stem, "%s - %s"
                                            % (distanz.group(0), text)))
+
+        # (6) Die **Entscheidung** ✓✓ muss im **Frontmatter** ✓✓ stehen ✓✓
+        # Der **Seed** ✓✓ liest die Koordinate aus dem **Frontmatter** ✓✓ -
+        # nicht aus der Notiz ✓✓ Sagt die Korrektur-Sektion, dass der Punkt
+        # **gesetzt** ✓✓ wird, und traegt das Frontmatter **keine** ✓✓
+        # Koordinate ✓✓, setzt der **Seed** ✓✓ **nichts** ✓✓ und der Punkt
+        # bleibt **weg** ✓✓ (Befund aus dem Rollout der Standortrunde vom
+        # 24.11.2026 ✓✓) ✓ ✓
+        for befund in frontmatter_befund(abschnitt, _fm):
+            befunde.append((pfad.stem, befund))
 
     verbind.close()
     print("Gepruefte Korrektur-Sektionen:", geprueft)

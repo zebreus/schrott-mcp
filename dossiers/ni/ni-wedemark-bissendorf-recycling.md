@@ -6,6 +6,8 @@ state: NI
 city: Wedemark
 street: Auf der Haube 5
 postcode: '30900'
+lat: 52.5163710
+lon: 9.7356670
 phone: '+49 5130 3767666'
 email: bissendorfrecycling@web.de
 opening_hours: 'Mo-Fr 08:00-16:00; Sa geschlossen'

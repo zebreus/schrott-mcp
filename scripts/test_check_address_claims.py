@@ -136,6 +136,62 @@ class Distanznahmen(unittest.TestCase):
             "**12 m** vom einen und **15 m** vom anderen")), 2)
 
 
+class FrontmatterEntscheidung(unittest.TestCase):
+    """Die **Entscheidung** ueber den Standortpunkt muss im Frontmatter stehen.
+
+    Der Seed liest die Koordinate aus dem Frontmatter - nicht aus der Notiz.
+    Sagt die Korrektur-Sektion, dass der Punkt gesetzt wird, und traegt das
+    Frontmatter keine Koordinate, setzt der Seed nichts (Befund aus dem
+    Rollout der Standortrunde vom 24.11.2026).
+    """
+
+    GESETZT = ("### Korrektur 24.11.2026 (Owner, Geokodierung) - der Standortpunkt wird gesetzt\n"
+               "- [Korrektur 24.11.2026: Der Standortpunkt wird gesetzt auf "
+               "**52.5163710 / 9.7356670**.]")
+    ENTFERNT = ("### Korrektur 24.11.2026 (Owner, Geokodierung) - der Standortpunkt wird entfernt\n"
+                "- [Korrektur 24.11.2026: Der Standortpunkt wird entfernt.]")
+
+    def test_setzen_ohne_koordinate_ist_ein_befund(self):
+        befunde = mod.frontmatter_befund(self.GESETZT, "slug: test\nstreet: Weg 1\n")
+        self.assertEqual(len(befunde), 1)
+        self.assertIn("keine Koordinate", befunde[0])
+
+    def test_setzen_mit_der_richtigen_koordinate_ist_gruen(self):
+        frontmatter = "slug: test\nlat: 52.5163710\nlon: 9.7356670\n"
+        self.assertEqual(mod.frontmatter_befund(self.GESETZT, frontmatter), [])
+
+    def test_setzen_mit_einer_anderen_koordinate_ist_ein_befund(self):
+        frontmatter = "slug: test\nlat: 52.5164\nlon: 9.7356670\n"
+        befunde = mod.frontmatter_befund(self.GESETZT, frontmatter)
+        self.assertEqual(len(befunde), 1)
+        self.assertIn("52.5164", befunde[0])
+
+    def test_setzen_mit_der_gerundeten_koordinate_ist_gruen(self):
+        # die Notiz schreibt **52.516371 / 9.735667** ✓✓ (sechs Stellen) ✓✓,
+        # das Frontmatter **52.5163710 / 9.7356670** ✓✓ (sieben) ✓✓ - das
+        # ist **derselbe** ✓✓ Punkt ✓✓ ✓ ✓
+        abschnitt = self.GESETZT.replace("52.5163710 / 9.7356670",
+                                         "52.516371 / 9.735667")
+        frontmatter = "slug: test\nlat: 52.5163710\nlon: 9.7356670\n"
+        self.assertEqual(mod.frontmatter_befund(abschnitt, frontmatter), [])
+
+    def test_entfernen_ohne_clear_fields_ist_ein_befund(self):
+        frontmatter = "slug: test\nlat: 52.5\nlon: 9.7\n"
+        befunde = mod.frontmatter_befund(self.ENTFERNT, frontmatter)
+        self.assertEqual(len(befunde), 1)
+        self.assertIn("clear_fields", befunde[0])
+
+    def test_entfernen_mit_clear_fields_geo_ist_gruen(self):
+        frontmatter = "slug: test\nclear_fields: 'geo'\n"
+        self.assertEqual(mod.frontmatter_befund(self.ENTFERNT, frontmatter), [])
+
+    def test_eine_bleibende_entscheidung_stellt_keine_forderung(self):
+        frontmatter = "slug: test\nlat: 52.5\nlon: 9.7\n"
+        abschnitt = ("### Recherche 24.11.2026\n"
+                     "- [Recherche 24.11.2026: Der Punkt bleibt unverändert.]")
+        self.assertEqual(mod.frontmatter_befund(abschnitt, frontmatter), [])
+
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

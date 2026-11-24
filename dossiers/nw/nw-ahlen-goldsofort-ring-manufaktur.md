@@ -6,6 +6,8 @@ state: NW
 city: Ahlen
 street: Am Neuen Baum 4
 postcode: '59229'
+lat: 51.7480004
+lon: 7.9019356
 phone: 02382 9668823
 email: info@goldsofort.de
 opening_hours: Mo-Fr 08:00-17:00
