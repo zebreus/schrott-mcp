@@ -1,7 +1,5 @@
 ---
 slug: nw-essen-autoverwertung-chruscz
-lat: 51.4874006
-lon: 6.9626784
 name: Autoverwertung Chruscz (Peter Chruscz)
 trader_type: autoverwertung
 state: NW
@@ -15,6 +13,7 @@ website: ''
 website_status: ''
 status: pruefung
 description: ''
+clear_fields: 'geo'
 dropoff_json: ''
 pickup_json: ''
 provenance_section: 'Feedback #5391, Recherche 08.10.2026'
@@ -90,3 +89,7 @@ Die unabhängige Verzeichnisgegenprüfung stärkt die Kontaktdaten, ersetzt aber
 ### Recherche 24.11.2026 (Welle 1800 A)
 
 - [Recherche 24.11.2026: **Der seit dem 05.11.2026 offene Punkt ist amtlich geklärt: das amtliche Register der Altfahrzeugverwertung führt `Autoverwertung Chruscz`, Heegstr. 64-66, 45356 Essen, Kennnummer `ZAES00500008 / 1` - damit ist die im Feedback #5391 genannte GESA-Kennung bestätigt und die bisher offene Büro-/Standortvariante zugunsten des Standorts 64-66 aufgelöst.** Die Abfrage des amtlichen Fachbetrieberegisters der Gemeinsamen Stelle Altfahrzeuge (live am 24.11.2026, clientseitig gerenderte Vaadin-Anwendung, Route `Altfahrzeugverwertung`, Filter `Art des Betriebs = Egal`, `is=1&e=1`) liefert für die Namenssuche `Chruscz` **1 Treffer**: `Autoverwertung Chruscz`, `Heegstr. 64-66, 45356 Essen`, `ZAES00500008 / 1`; die Namenssuche in der Route `Entsorgungsfachbetriebe` liefert **0 Treffer** - der Betrieb ist also **nicht** als Entsorgungsfachbetrieb nach § 56 KrWG geführt. **Die Registeranschrift `Heegstr. 64-66` deckt sich mit dem Seitenfuß und der Leistungsseite der Betreiberseite (`Standort Heegstraße 64-66`), nicht mit der Impressumsanschrift `Heegstraße 64`; die Belegkette für den Standort ist damit amtlich, die Frage der öffentlichen Selbstanlieferung an der Nummer 64 bleibt davon unberührt.** Die Betreiberseite wurde am 24.11.2026 erneut live gelesen und ist unverändert: Impressum `Peter Chruscz`, Einzelunternehmen, Heegstraße 64, 45356 Essen, 0201 666086, info@autoverwertung-chruscz.de, USt-ID DE187318676, Wirtschafts-ID DE187318676-00001; Kontaktseite und Seitenfuß nennen `Standort Heegstraße 64-66`; Öffnungszeiten Mo-Fr 13:30-17:30, Sa 08:00-14:00, So geschlossen, mit dem Hinweis `Termine nach Vereinbarung`, `Ersatzteil-Verkauf gilt nur für die Öffnungszeiten`. Die Startseite behauptet weiterhin die DEKRA-Zertifizierung und die Erstzertifizierung 1998 durch TÜV Rheinland gemäß § 5 Abs. 3 AltfahrzeugV, ein Zertifikat mit Ablaufdatum wurde nicht eingesehen. **Reichweite:** der Registereintrag belegt die **Anerkennung als anerkannter Altfahrzeugverwertungsbetrieb** (zugleich Demontagebetrieb im Sinne der AltfahrzeugV) mit Standort und Kennnummer; er belegt **nicht** die Betreiberidentität über das Impressum hinaus, **nicht** eine öffentliche Kundenannahme und **keine** Preise; die Efb-Anerkennung nach § 56 KrWG ist **freiwillig**, ein Register-Nichteintrag dort ist **kein** Nichtexistenzbeweis. **ANKAUF:** die Betreiberseite nennt weiterhin tagesaktuelle Preise für Altmetall und Stahlschrott (u. a. Kupfer, Aluminium, Messing) **ohne Zahlenkurse**; es wird kein Wert erfunden. **VERKAUF:** die Ersatzteilseite listet gebrauchte Ersatzteile (Motoren, Getriebe, Karosserieteile, Fahrwerksteile, Beleuchtung, Elektronik und Steuergeräte, Innenausstattung, Felgen und Räder) **ohne Preisliste**. **GEBÜHREN:** kostenlose Fahrzeugabholung in Essen und Umgebung, kostenlose Abmeldung auf Wunsch und Verwertungsnachweise sind ausdrücklich an Altfahrzeuge gebunden; eine allgemeine Schrottabholungs- oder Entsorgungsgebühr ist nicht belegt. Keine Frontmatter-Änderung, `status: pruefung` bleibt. Quelle(n): https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Altfahrzeugverwertung/dst=10&is=1&e=1&n=Chruscz ; https://fachbetrieberegister.gadsys.de/fachbetrieberegister/Entsorgungsfachbetriebe/dst=10&is=1&e=1&n=Chruscz ; https://www.autoverwertung-chruscz.de/impressum ; https://www.autoverwertung-chruscz.de/kontakt ; https://www.autoverwertung-chruscz.de/leistungen ; https://www.autoverwertung-chruscz.de/ersatzteile ; https://www.autoverwertung-chruscz.de/ (Abruf 24.11.2026).]
+
+### Korrektur 24.11.2026 (Owner, Geokodierung)
+
+- [Korrektur 24.11.2026 (Owner, Geokodierung): **Der Standortpunkt dieses Dossiers wird entfernt** ✓✓ Der **gespeicherte** ✓✓ Punkt trifft **kein** ✓✓ **Adressobjekt** ✓✓ — die **GESA**-Kennung ✓✓ **ZAES00500008 / 1** ✓✓ ist **amtlich** ✓✓ bestätigt ✓✓, der Standort **64-66** ✓✓ ist aber **offen** ✓✓ (64 ✓✓ gegen 64-66 ✓✓) ✓✓, und der **Zertifikatsablauf** ✓✓ ist **nicht** ✓✓ eingesehen ✓✓ ✓ ✓ Der Punkt wird **entfernt** ✓✓ ✓✓ **Reichweite:** Die **kostenlose** ✓✓ **Fahrzeugabholung** ✓✓ und -**Abmeldung** ✓✓ gelten **nur** ✓✓ **Altfahrzeugen** ✓✓ ✓ ✓ ✓✓]
